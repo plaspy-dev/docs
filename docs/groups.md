@@ -1,4 +1,5 @@
 ---
+sidebar_label: Groups
 sidebar_position: 9
 ---
 # Groups
@@ -13,7 +14,7 @@ To access the groups section, go to the top menu and select "", then choose "[Gr
 - **Name:** Field to enter the group name, which should be descriptive and easy to identify.
 - **Description:** Field to add a detailed description of the group, providing additional information about its purpose or content.
 - **API ID:** Unique identifier of the group, used for integrations and queries through the API.
-- **Insert into My Website:** HTML code provided to embed the group's [map on an external webpage](embed_login_on_my_website/developers/embed_the_map_on_my_website).
+- **Insert into My Website:** HTML code provided to embed the group's [map on an external webpage](developers/embed_login_on_my_website/embed_the_map_on_my_website).
 - **Members:** List of devices that belong to the group.
 - **Device:** Search field to add devices to the group.
 

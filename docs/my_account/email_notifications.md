@@ -1,4 +1,5 @@
 ---
+sidebar_label: Email Notifications
 sidebar_position: 26
 ---
 # Email Notifications

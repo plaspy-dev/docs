@@ -1,4 +1,5 @@
 ---
+sidebar_label: Botones sobre el mapa
 sidebar_position: 3
 ---
 # Botones sobre el mapa

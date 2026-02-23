@@ -1,4 +1,5 @@
 ---
+sidebar_label: Solution for Identifier Already in Use by Another Account
 sidebar_position: 2
 ---
 # Solution for Identifier Already in Use by Another Account
@@ -10,34 +11,34 @@ If you receive a message indicating that the identifier or serial number is alre
 
 To reconfigure your tracker to connect directly to the Plaspy server, use the following configuration information:
 
-- **Server**: ```54.85.159.138```
-- **Port**: ```9000``` \(Note: the standard Plaspy port is ```8888```, but you must use ```9000``` in your case\)
+- **Server**: `54.85.159.138`
+- **Port**: `9000` \(Note: the standard Plaspy port is `8888`, but you must use `9000` in your case\)
 
 ### Step-by-Step Instructions to Reconfigure and Add the Device
 
 1. **Configure the Tracker**:
 
-    - Access your [tracker’s configuration settings](../../devices/setting_up_a_new_tracker). This may require using SMS commands or the manufacturer’s software, depending on your device model.
+    - Access your [tracker’s configuration settings](.). This may require using SMS commands or the manufacturer’s software, depending on your device model.
     - Enter the provided server and port details:
-        - **Server**: ```54.85.159.138```
-        - **Port**: ```9000```
+        - **Server**: `54.85.159.138`
+        - **Port**: `9000`
 2. **Add Device in Plaspy**:
 
     - Log into your Plaspy account.
     - Go to the **[Devices](https://app.plaspy.com/Devices)** section.
-    - Add your device using the identifier followed by ```:0```. For example, if your device’s identifier is ```1234567890```, you should enter it in Plaspy as ```1234567890:0```.
+    - Add your device using the identifier followed by `:0`. For example, if your device’s identifier is `1234567890`, you should enter it in Plaspy as `1234567890:0`.
 3. **Verify Operation**:
 
     - Ensure the device is sending data correctly and appears on the Plaspy map.
 
 ### Configuration Example
 
-If your device has the identifier ```1234567890```:
+If your device has the identifier `1234567890`:
 
-- **Original Identifier**: ```1234567890```
-- **Identifier in Plaspy**: ```1234567890:0```
+- **Original Identifier**: `1234567890`
+- **Identifier in Plaspy**: `1234567890:0`
 
-When adding the device in Plaspy, use ```1234567890:0``` to ensure it is correctly associated with your account.
+When adding the device in Plaspy, use `1234567890:0` to ensure it is correctly associated with your account.
 
 ### Additional Assistance
 

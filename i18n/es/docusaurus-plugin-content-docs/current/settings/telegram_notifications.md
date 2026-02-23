@@ -1,4 +1,5 @@
 ---
+sidebar_label: Notificaciones Telegram
 sidebar_position: 49
 ---
 # Notificaciones Telegram
@@ -20,7 +21,7 @@ Descripción de Campos
     - Selecciona "[Configuración](https://app.plaspy.com/Settings)" y luego " Notificaciones Telegram."
 2. **Crear un Bot en Telegram:**
 
-    - Conéctate a [@botfather](https://t.me/botfather) en Telegram y envía el comando ```/newbot``` para crear un nuevo bot.
+    - Conéctate a [@botfather](https://t.me/botfather) en Telegram y envía el comando `/newbot` para crear un nuevo bot.
     - Sigue las instrucciones de @botfather para asignar un nombre y obtener el token del bot.
     - Para más información sobre la creación de bots, consulta [Cómo crear un bot](https://core.telegram.org/bots#how-do-i-create-a-bot).
 3. **Configurar el Nombre del Bot:**
@@ -49,13 +50,13 @@ Descripción de Campos
 ### Preguntas Frecuentes
 
 - **¿Cómo creo un bot en Telegram?**
-    - Conéctate a [@botfather](https://t.me/botfather) en Telegram y sigue las instrucciones enviando el comando ```/newbot```. Para más detalles, consulta [Cómo crear un bot](https://core.telegram.org/bots#how-do-i-create-a-bot).
+    - Conéctate a [@botfather](https://t.me/botfather) en Telegram y sigue las instrucciones enviando el comando `/newbot`. Para más detalles, consulta [Cómo crear un bot](https://core.telegram.org/bots#how-do-i-create-a-bot).
 - **¿Qué es un token de bot y cómo lo obtengo?**
     - Un token de bot es una cadena de caracteres única que identifica y autentica tu bot de Telegram. Lo obtienes de @botfather al crear tu bot.
 - **¿Puedo usar cualquier bot de Telegram para notificaciones en Plaspy?**
     - Sí, puedes usar cualquier bot de Telegram que hayas creado siguiendo las instrucciones proporcionadas y registrándolo en Plaspy.
 - **¿Qué debo hacer si el token del bot no funciona?**
-    - Asegúrate de que el token es correcto y no ha expirado. Si el problema persiste, puedes generar un nuevo token desde @botfather enviando el comando ```/token```.
+    - Asegúrate de que el token es correcto y no ha expirado. Si el problema persiste, puedes generar un nuevo token desde @botfather enviando el comando `/token`.
 - **¿Cómo pruebo que las notificaciones de Telegram funcionan correctamente?**
     - Después de registrar el bot, haz clic en "Probar" para enviar una notificación de prueba. Verifica en Telegram que la notificación se recibe correctamente.
 

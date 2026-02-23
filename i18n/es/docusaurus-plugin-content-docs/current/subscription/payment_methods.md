@@ -1,4 +1,5 @@
 ---
+sidebar_label: Métodos de pago
 sidebar_position: 39
 ---
 # Métodos de pago

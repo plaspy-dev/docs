@@ -1,4 +1,5 @@
 ---
+sidebar_label: Billing Information
 sidebar_position: 24
 ---
 # Billing Information

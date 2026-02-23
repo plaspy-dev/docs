@@ -1,4 +1,5 @@
 ---
+sidebar_label: Sign Up
 sidebar_position: 36
 ---
 # Sign Up

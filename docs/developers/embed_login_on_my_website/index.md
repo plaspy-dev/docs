@@ -1,4 +1,5 @@
 ---
+sidebar_label: Embed login on my website
 sidebar_position: 53
 ---
 # Embed login on my website

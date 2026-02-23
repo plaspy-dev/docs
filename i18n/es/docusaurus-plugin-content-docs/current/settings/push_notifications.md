@@ -1,4 +1,5 @@
 ---
+sidebar_label: Notificaciones Push
 sidebar_position: 48
 ---
 # Notificaciones Push
@@ -20,7 +21,7 @@ Descripción de Campos
     - Selecciona "[Configuración](https://app.plaspy.com/Settings)" y luego " Notificaciones móviles Push."
 2. **Cargar Firebase Account Key:**
 
-    - Obtén el archivo JSON con las credenciales privadas desde tu cuenta de Firebase. Este archivo contiene información crucial como el ```project_id```, ```private_key_id```, y ```client_email```.
+    - Obtén el archivo JSON con las credenciales privadas desde tu cuenta de Firebase. Este archivo contiene información crucial como el `project_id`, `private_key_id`, y `client_email`.
     - Haz clic en "Choose File" y selecciona el archivo JSON.
     - El contenido del archivo se cargará en el sistema, permitiendo a Plaspy utilizar Firebase Cloud Messaging para enviar notificaciones push.
     - Enlace de ayuda: [Proveer credenciales manualmente](https://firebase.google.com/docs/cloud-messaging/auth-server#provide_credentials_manually)

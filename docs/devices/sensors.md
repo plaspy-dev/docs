@@ -1,4 +1,5 @@
 ---
+sidebar_label: Sensors
 sidebar_position: 14
 ---
 # Sensors

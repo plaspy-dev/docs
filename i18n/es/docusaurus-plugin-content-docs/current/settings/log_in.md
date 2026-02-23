@@ -1,4 +1,5 @@
 ---
+sidebar_label: Ingreso
 sidebar_position: 43
 ---
 # Ingreso

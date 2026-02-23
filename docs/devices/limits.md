@@ -1,4 +1,5 @@
 ---
+sidebar_label: Limits
 sidebar_position: 19
 ---
 # Limits

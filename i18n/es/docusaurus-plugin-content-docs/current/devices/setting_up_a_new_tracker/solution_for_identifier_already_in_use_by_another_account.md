@@ -1,4 +1,5 @@
 ---
+sidebar_label: Solución para identificador ya en uso en otra cuenta
 sidebar_position: 2
 ---
 # Solución para identificador ya en uso en otra cuenta
@@ -10,34 +11,34 @@ Si al intentar agregar su dispositivo a su cuenta de Plaspy recibe un mensaje in
 
 Para reconfigurar su rastreador y conectarlo directamente al servidor de Plaspy, utilice la siguiente información de configuración:
 
-- **Servidor**: ```54.85.159.138```
-- **Puerto**: ```9000``` \(Nota: el puerto estándar de Plaspy es ```8888```, pero en su caso debe usar ```9000```\)
+- **Servidor**: `54.85.159.138`
+- **Puerto**: `9000` \(Nota: el puerto estándar de Plaspy es `8888`, pero en su caso debe usar `9000`\)
 
 #### Paso a Paso para Reconfigurar y Agregar el Dispositivo
 
 1. **Configurar el Rastreador**:
 
-    - Acceda a la [configuración de su rastreador](../../devices/setting_up_a_new_tracker). Esto puede requerir el uso de comandos SMS o el software del fabricante, según el modelo de su dispositivo.
+    - Acceda a la [configuración de su rastreador](.). Esto puede requerir el uso de comandos SMS o el software del fabricante, según el modelo de su dispositivo.
     - Introduzca los detalles del servidor y puerto proporcionados:
-        - **Servidor**: ```54.85.159.138```
-        - **Puerto**: ```9000```
+        - **Servidor**: `54.85.159.138`
+        - **Puerto**: `9000`
 2. **Agregar Dispositivo en Plaspy**:
 
     - Inicie sesión en su cuenta de Plaspy.
     - Vaya a la sección **[Dispositivos](https://app.plaspy.com/Devices)**.
-    - Agregue su dispositivo utilizando el identificador seguido por ```:0```. Por ejemplo, si el identificador del dispositivo es ```1234567890```, deberá ingresarlo como ```1234567890:0```.
+    - Agregue su dispositivo utilizando el identificador seguido por `:0`. Por ejemplo, si el identificador del dispositivo es `1234567890`, deberá ingresarlo como `1234567890:0`.
 3. **Verificar Funcionamiento**:
 
     - Asegúrese de que el dispositivo esté enviando datos correctamente y que aparezca en el mapa de Plaspy.
 
 ### Ejemplo de Configuración
 
-Si su dispositivo tiene el identificador ```1234567890```:
+Si su dispositivo tiene el identificador `1234567890`:
 
-- **Identificador Original**: ```1234567890```
-- **Identificador en Plaspy**: ```1234567890:0```
+- **Identificador Original**: `1234567890`
+- **Identificador en Plaspy**: `1234567890:0`
 
-Al agregar el dispositivo en Plaspy, use ```1234567890:0``` para asegurarse de que se asocie correctamente a su cuenta.
+Al agregar el dispositivo en Plaspy, use `1234567890:0` para asegurarse de que se asocie correctamente a su cuenta.
 
 ### Asistencia Adicional
 

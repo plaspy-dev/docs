@@ -1,4 +1,5 @@
 ---
+sidebar_label: Activar autenticación de dos factores (2FA)
 sidebar_position: 32
 ---
 # Activar autenticación de dos factores (2FA)

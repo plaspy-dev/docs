@@ -1,4 +1,5 @@
 ---
+sidebar_label: Contact
 sidebar_position: 43
 ---
 # Contact

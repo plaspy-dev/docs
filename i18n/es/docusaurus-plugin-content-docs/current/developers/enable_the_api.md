@@ -1,4 +1,5 @@
 ---
+sidebar_label: Activación API
 sidebar_position: 52
 ---
 # Activación API

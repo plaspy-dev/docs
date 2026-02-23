@@ -1,4 +1,5 @@
 ---
+sidebar_label: Alternative Email
 sidebar_position: 30
 ---
 # Alternative Email

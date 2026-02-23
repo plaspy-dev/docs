@@ -1,4 +1,5 @@
 ---
+sidebar_label: Buttons on the Map
 sidebar_position: 3
 ---
 # Buttons on the Map

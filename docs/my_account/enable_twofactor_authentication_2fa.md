@@ -1,4 +1,5 @@
 ---
+sidebar_label: Enable Two-Factor Authentication (2FA)
 sidebar_position: 31
 ---
 # Enable Two-Factor Authentication (2FA)

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Subscripciones de Plaspy
 ---
 # Subscripciones de Plaspy
 Ofrecemos distintos [planes de suscripción](https://app.plaspy.com/Features/Pricing?lang=es) para que elijas el que mejor se adapte a tu forma de trabajo. Cada plan incluye un conjunto de funciones pensadas para diferentes necesidades: desde el seguimiento básico del día a día, hasta herramientas avanzadas para operaciones más grandes y con requerimientos especiales.

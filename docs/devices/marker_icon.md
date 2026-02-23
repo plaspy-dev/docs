@@ -1,4 +1,5 @@
 ---
+sidebar_label: Marker Icon
 sidebar_position: 12
 ---
 # Marker Icon

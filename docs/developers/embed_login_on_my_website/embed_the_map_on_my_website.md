@@ -1,4 +1,5 @@
 ---
+sidebar_label: Embed the map on my website
 sidebar_position: 8
 ---
 # Embed the map on my website
@@ -14,18 +15,20 @@ Below are the steps to embed the map on your website, showing current informatio
 
 To embed the map on your website, follow these steps:
 
-1. **Enable API access for your account:** Follow the instructions to [enable the API](../../developers/enable_the_api) in your Plaspy account. This includes generating an API Key.
+1. **Enable API access for your account:** Follow the instructions to [enable the API](../enable_the_api) in your Plaspy account. This includes generating an API Key.
 2. **Enable device access via the API:** Configure the devices you want to display on the map so that they can be accessed via the API.
 3. **Create a group with the devices you want to display:** In Plaspy, create a [group](https://app.plaspy.com/Groups) and include all the devices you want to visualize on the map.
 4. **Find the Group Identifier:** Edit the created group and copy the group identifier \(Group ID\), which is needed to configure the API.
-5. **Embed the HTML code for the map on your website:** Use the following HTML code, replacing ```my_group_id``` with the group identifier you copied in the previous step:
+5. **Embed the HTML code for the map on your website:** Use the following HTML code, replacing `my_group_id` with the group identifier you copied in the previous step:
 
 &lt;div id="map\_canvas" style="width:100%;height:400px"&gt;Cargando...&lt;/div&gt;  
 &lt;script type="text/javascript"&gt;plaspy\_api\_group\_key="**my\_group\_id**";&lt;/script&gt;  
 &lt;script type="text/javascript" src="https://app.plaspy.com/api/loadMapG.js"&gt;&lt;/script&gt;
 
 ```
+
 ```
+
 
 ###   
 Integration Example

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Share Access
 sidebar_position: 11
 ---
 # Share Access

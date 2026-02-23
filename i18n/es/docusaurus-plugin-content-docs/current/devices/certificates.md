@@ -1,4 +1,5 @@
 ---
+sidebar_label: Certificados
 sidebar_position: 1
 ---
 # Certificados

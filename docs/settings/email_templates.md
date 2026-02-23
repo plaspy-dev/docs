@@ -1,4 +1,5 @@
 ---
+sidebar_label: Email Templates
 sidebar_position: 46
 ---
 # Email Templates

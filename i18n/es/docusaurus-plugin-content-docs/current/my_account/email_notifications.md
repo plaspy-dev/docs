@@ -1,4 +1,5 @@
 ---
+sidebar_label: Notificaciones por Email
 sidebar_position: 27
 ---
 # Notificaciones por Email

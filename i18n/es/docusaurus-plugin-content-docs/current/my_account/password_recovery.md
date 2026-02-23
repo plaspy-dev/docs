@@ -1,4 +1,5 @@
 ---
+sidebar_label: Recordar Contraseña
 sidebar_position: 34
 ---
 # Recordar Contraseña

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Maps
 sidebar_position: 45
 ---
 # Maps

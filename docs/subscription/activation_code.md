@@ -1,4 +1,5 @@
 ---
+sidebar_label: Activation Code
 sidebar_position: 37
 ---
 # Activation Code

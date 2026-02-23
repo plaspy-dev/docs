@@ -1,4 +1,5 @@
 ---
+sidebar_label: Viewing a Device's Route History
 sidebar_position: 0
 ---
 # Viewing a Device's Route History

@@ -1,4 +1,5 @@
 ---
+sidebar_label: GET /api/users
 ---
 # GET /api/users
 El endpoint **GET /api/users** permite obtener una lista de todos los usuarios registrados en el sistema. Este endpoint es útil para administrar y visualizar la información de los usuarios, incluyendo detalles como su nombre, correo electrónico, país, y otros atributos importantes. La respuesta incluye detalles completos sobre cada usuario, lo que permite una administración eficiente y la posibilidad de integrar estos datos con otras aplicaciones o sistemas.
@@ -8,29 +9,30 @@ Este endpoint es particularmente útil para los administradores del sistema que 
 ## Detalles de la Solicitud
 
 **Método HTTP**: GET  
-**URL**: ```/api/users```
+**URL**: `/api/users`
 
 ###   
 Autenticación Requerida
 
-La [autenticación requerida](../../../rest_api/developers/authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
-```GET /api/users HTTP/1.1
+```
+GET /api/users HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer {your_auth_token}
 ```
 
-##   
-Parámetros de Respuesta
+
+## Parámetros de Respuesta
 
 La respuesta de este endpoint contiene una estructura detallada de los usuarios. A continuación, se detallan los campos de la respuesta:
 
 | Campo | Tipo | Obligatoria | Descripción |
 | --- | --- | --- | --- |
 | success | boolean | No | Indica si la solicitud fue exitosa o no. |
-| error | string | No | Contiene el mensaje de error en caso de que ```success``` sea ```false```. |
+| error | string | No | Contiene el mensaje de error en caso de que `success` sea `false`. |
 | apiUsage | integer | No | Uso actual de la API por el usuario. |
 | apiDailyUsage | integer | No | Uso diario de la API por el usuario. |
 | users | array | No | Lista de objetos de usuarios. |
@@ -55,10 +57,10 @@ La respuesta de este endpoint contiene una estructura detallada de los usuarios.
 | users.modification | string | No | Fecha y hora de la última modificación del usuario. |
 | users.lastLogin | string | No | Fecha y hora del último inicio de sesión del usuario. |
 
-###   
-Ejemplo de Respuesta Exitosa
+### Ejemplo de Respuesta Exitosa
 
-```{
+```
+{
   "success": true,
   "apiUsage": 150,
   "apiDailyUsage": 15,
@@ -91,12 +93,13 @@ Ejemplo de Respuesta Exitosa
 }
 ```
 
-###   
-Ejemplo de Respuesta de Error
 
-```{
+### Ejemplo de Respuesta de Error
+
+```
+{
   "success": false,
   "error": "Authentication failed. Invalid token.",
   "apiUsage": 150,
   "apiDailyUsage": 15
-}```
+}`

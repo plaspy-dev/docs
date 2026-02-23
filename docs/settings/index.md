@@ -1,4 +1,5 @@
 ---
+sidebar_label: Settings
 sidebar_position: 6
 ---
 # Settings

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Users API
 sidebar_position: 7
 ---
 # Users API
@@ -12,14 +13,14 @@ En el ámbito de la administración de sistemas, la gestión eficiente de los us
 
 La API de Usuarios de Plaspy incluye varios endpoints que cubren una amplia gama de funcionalidades:
 
-1. **[GET /api/users](../../../users_api/rest_api/developers/get__api_users)**: Permite obtener una lista de todos los usuarios registrados en el sistema. Este endpoint es útil para visualizar y administrar la información de los usuarios, incluyendo detalles como nombre, correo electrónico, país, y otros atributos importantes.
-2. **[POST /api/users](../../../users_api/rest_api/developers/post__api_users)**: Permite crear un nuevo usuario en el sistema. Este endpoint es esencial para añadir nuevos usuarios, permitiendo especificar varios atributos como nombre, correo electrónico, país y zona horaria.
-3. **[GET /api/users/countries](../../../users_api/rest_api/developers/get__api_users_countries)**: Permite obtener una lista de todos los países registrados en el sistema con sus códigos ISO de dos dígitos. Este endpoint es útil para llenar listas desplegables o formularios donde se necesita seleccionar un país.
-4. **[GET /api/users/timeZones](../../../users_api/rest_api/developers/get__api_users_timezones)**: Permite obtener una lista de todas las zonas horarias registradas en el sistema. Este endpoint es útil para llenar listas desplegables o formularios donde se necesita seleccionar una zona horaria.
-5. **[GET /api/users/\{userId\}](../../../users_api/rest_api/developers/get__api_users_userid)**: Permite obtener los detalles de un usuario específico registrado en el sistema utilizando su identificador único \(userId\). Este endpoint es útil para la gestión de usuarios, permitiendo a los administradores revisar y administrar los datos de un usuario en particular.
-6. **[PUT /api/users/\{userId\}](../../../users_api/rest_api/developers/put__api_users_userid)**: Permite actualizar la información de un usuario específico. Este endpoint es útil para modificar los detalles del usuario, como su nombre, correo electrónico, país y zona horaria.
-7. **[PATCH /api/users/\{userId\}](../../../users_api/rest_api/developers/patch__api_users_userid)**: Permite actualizar parcialmente la información de un usuario específico. Este endpoint es útil cuando solo se necesita modificar algunos campos del usuario sin tener que enviar todos los datos.
-8. **[DELETE /api/users/\{userId\}](../../../users_api/rest_api/developers/delete__api_users_userid)**: Permite eliminar un usuario específico del sistema. Este endpoint es esencial para gestionar la eliminación de usuarios que ya no deben tener acceso al sistema.
+1. **[GET /api/users](get__api_users)**: Permite obtener una lista de todos los usuarios registrados en el sistema. Este endpoint es útil para visualizar y administrar la información de los usuarios, incluyendo detalles como nombre, correo electrónico, país, y otros atributos importantes.
+2. **[POST /api/users](post__api_users)**: Permite crear un nuevo usuario en el sistema. Este endpoint es esencial para añadir nuevos usuarios, permitiendo especificar varios atributos como nombre, correo electrónico, país y zona horaria.
+3. **[GET /api/users/countries](get__api_users_countries)**: Permite obtener una lista de todos los países registrados en el sistema con sus códigos ISO de dos dígitos. Este endpoint es útil para llenar listas desplegables o formularios donde se necesita seleccionar un país.
+4. **[GET /api/users/timeZones](get__api_users_timezones)**: Permite obtener una lista de todas las zonas horarias registradas en el sistema. Este endpoint es útil para llenar listas desplegables o formularios donde se necesita seleccionar una zona horaria.
+5. **[GET /api/users/\{userId\}](get__api_users_userid)**: Permite obtener los detalles de un usuario específico registrado en el sistema utilizando su identificador único \(userId\). Este endpoint es útil para la gestión de usuarios, permitiendo a los administradores revisar y administrar los datos de un usuario en particular.
+6. **[PUT /api/users/\{userId\}](put__api_users_userid)**: Permite actualizar la información de un usuario específico. Este endpoint es útil para modificar los detalles del usuario, como su nombre, correo electrónico, país y zona horaria.
+7. **[PATCH /api/users/\{userId\}](patch__api_users_userid)**: Permite actualizar parcialmente la información de un usuario específico. Este endpoint es útil cuando solo se necesita modificar algunos campos del usuario sin tener que enviar todos los datos.
+8. **[DELETE /api/users/\{userId\}](delete__api_users_userid)**: Permite eliminar un usuario específico del sistema. Este endpoint es esencial para gestionar la eliminación de usuarios que ya no deben tener acceso al sistema.
 
 ## Estructura de las Solicitudes y Respuestas
 

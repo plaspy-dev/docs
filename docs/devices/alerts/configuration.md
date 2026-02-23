@@ -1,8 +1,9 @@
 ---
+sidebar_label: Configuration
 sidebar_position: 1
 ---
 # Configuration
-**Notifications** In this section, you can specify the different channels through which you want to receive [alerts](../../devices/alerts). The available options include push notifications, Telegram, email, SMS, and WhatsApp. Below are the descriptions of each field and available options:
+**Notifications** In this section, you can specify the different channels through which you want to receive [alerts](.). The available options include push notifications, Telegram, email, SMS, and WhatsApp. Below are the descriptions of each field and available options:
 
 ![](./image_1718310541651.gif)
 
@@ -32,7 +33,7 @@ Additional Conditions allow you to specify additional criteria that must be met 
 
 ###   Commands
 
-The [Commands](../../devices/commands) section allows you to configure automatic commands that will be sent to the device when certain conditions are met. These commands can perform various actions on the device, improving remote response and management. Commands can be sent via GPRS or SMS according to user preferences. Additionally, you can set a delay in seconds for sending the command or schedule multiple commands with different dates and times. Below are the descriptions of the available fields and options:
+The [Commands](../commands) section allows you to configure automatic commands that will be sent to the device when certain conditions are met. These commands can perform various actions on the device, improving remote response and management. Commands can be sent via GPRS or SMS according to user preferences. Additionally, you can set a delay in seconds for sending the command or schedule multiple commands with different dates and times. Below are the descriptions of the available fields and options:
 
 - **GPRS or SMS Command:** Specify a command that will be automatically sent to the device when the alert is triggered. This command can be used to remotely control certain functions of the device. You can select the command from a list of available commands for the tracker.
 - **Delay in seconds:** Set a delay in seconds for sending the command after the alert has been triggered. This can be useful if you want to give the device time to perform other actions before executing the command.

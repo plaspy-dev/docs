@@ -1,4 +1,5 @@
 ---
+sidebar_label: Registro de Acceso
 sidebar_position: 33
 ---
 # Registro de Acceso

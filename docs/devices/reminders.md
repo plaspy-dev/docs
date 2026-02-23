@@ -1,4 +1,5 @@
 ---
+sidebar_label: Reminders
 sidebar_position: 18
 ---
 # Reminders

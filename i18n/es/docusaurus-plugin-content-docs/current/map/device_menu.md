@@ -1,4 +1,5 @@
 ---
+sidebar_label: Menú de Dispositivos
 sidebar_position: 6
 ---
 # Menú de Dispositivos

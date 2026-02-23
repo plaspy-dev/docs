@@ -1,16 +1,17 @@
 ---
+sidebar_label: POST /api/devices/{deviceId}/locations
 sidebar_position: 3
 ---
-# POST /api/devices/{deviceId}/locations
+# POST /api/devices/\{deviceId\}/locations
 This endpoint allows you to submit location data for a specific device in the satellite tracking application. It is useful for updating the system with new location information for the device.
 
 ### Request Details
 
-The request is made using the ```POST``` method at the ```/api/devices/{deviceId}/locations``` URL. You must replace ```{deviceId}``` with the actual ID of the device you want to update.
+The request is made using the `POST` method at the `/api/devices/{deviceId}/locations` URL. You must replace `{deviceId}` with the actual ID of the device you want to update.
 
 ### Request Parameters
 
-This endpoint requires the ```deviceId``` parameter to be included in the URL path.
+This endpoint requires the `deviceId` parameter to be included in the URL path.
 
 | Parameter | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -26,7 +27,7 @@ The body of the request must include a JSON object with the location data for th
 | to | string | Yes | End date and time of the location data, in ISO 8601 format. |
 | location | object | Yes | The location data object. |
 
-Within the ```location``` field, the object has the following fields:
+Within the `location` field, the object has the following fields:
 
 | Field | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -57,15 +58,14 @@ Within the ```location``` field, the object has the following fields:
 | inputs | array | No | State of the inputs at the location. |
 | outputs | array | No | State of the outputs at the location. |
 
-###   
-Authentication Required
+### Authentication Required
 
-[Authentication required](../../../rest_api/developers/authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
-###   
-Example Request
+### Example Request
 
-```POST /api/devices/device123/locations HTTP/1.1
+```
+POST /api/devices/device123/locations HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer {token}
 Content-Type: application/json
@@ -112,8 +112,8 @@ Content-Type: application/json
 }
 ```
 
-###   
-Response Parameters
+
+### Response Parameters
 
 The response from this endpoint includes details about the success of the operation and any errors that may have occurred.
 
@@ -125,10 +125,10 @@ The response from this endpoint includes details about the success of the operat
 | apiDailyUsage | integer | No | Daily API usage. |
 | locations | array | No | List of location objects if the request was successful. Each object contains detailed information about the location. |
 
-###   
-Example Successful Response
+### Example Successful Response
 
-```{
+```
+{
   "success": true,
   "apiUsage": 150,
   "apiDailyUsage": 3000,
@@ -173,12 +173,13 @@ Example Successful Response
 }
 ```
 
-###   
-Example Error Response
+
+### Example Error Response
 
 #### Error 400 \(Bad Request\) Response
 
-```{
+```
+{
   "success": false,
   "error": "Bad Request",
   "apiUsage": 150,
@@ -186,15 +187,17 @@ Example Error Response
 }
 ```
 
-####   
-Error 500 \(Internal Server Error\) Response
 
-```{
+#### Error 500 \(Internal Server Error\) Response
+
+```
+{
   "success": false,
   "error": "Internal Server Error",
   "apiUsage": 150,
   "apiDailyUsage": 3000
 }
 ```
+
 
 This endpoint is essential for updating the location data of a device within the Plaspy system. It allows users to submit detailed and up-to-date location information for a specific device, ensuring accurate tracking and monitoring.

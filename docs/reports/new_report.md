@@ -1,4 +1,5 @@
 ---
+sidebar_label: New Report
 sidebar_position: 23
 ---
 # New Report

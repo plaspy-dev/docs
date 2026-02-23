@@ -1,4 +1,5 @@
 ---
+sidebar_label: Activity Summary
 sidebar_position: 8
 ---
 # Activity Summary

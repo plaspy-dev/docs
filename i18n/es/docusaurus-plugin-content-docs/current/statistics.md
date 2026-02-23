@@ -1,4 +1,5 @@
 ---
+sidebar_label: Estadísticas
 sidebar_position: 7
 ---
 # Estadísticas

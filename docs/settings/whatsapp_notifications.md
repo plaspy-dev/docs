@@ -1,4 +1,5 @@
 ---
+sidebar_label: WhatsApp Notifications
 sidebar_position: 49
 ---
 # WhatsApp Notifications

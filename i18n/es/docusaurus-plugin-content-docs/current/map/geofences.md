@@ -1,4 +1,5 @@
 ---
+sidebar_label: Geocercas
 sidebar_position: 7
 ---
 # Geocercas

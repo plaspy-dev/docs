@@ -1,4 +1,5 @@
 ---
+sidebar_label: Habilitar las notificaciones
 sidebar_position: 9
 ---
 # Habilitar las notificaciones

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Push Notifications
 sidebar_position: 47
 ---
 # Push Notifications
@@ -19,7 +20,7 @@ The "Push Notifications" section in Plaspy's [settings](https://app.plaspy.com/S
     - Select "[Settings](https://app.plaspy.com/Settings)", click " Advanced Customization" and then " Push Mobile Notifications".
 2. **Upload Firebase Account Key:**
 
-    - Obtain the JSON file with private credentials from your Firebase account. This file contains crucial information such as ```project_id```, ```private_key_id```, and ```client_email```.
+    - Obtain the JSON file with private credentials from your Firebase account. This file contains crucial information such as `project_id`, `private_key_id`, and `client_email`.
     - Click "Choose File" and select the JSON file.
     - The content of the file will be loaded into the system, allowing Plaspy to use Firebase Cloud Messaging to send push notifications.
     - Help link: [Provide credentials manually](https://firebase.google.com/docs/cloud-messaging/auth-server#provide_credentials_manually)

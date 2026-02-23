@@ -1,4 +1,5 @@
 ---
+sidebar_label: Plantillas de correo electrónico
 sidebar_position: 47
 ---
 # Plantillas de correo electrónico

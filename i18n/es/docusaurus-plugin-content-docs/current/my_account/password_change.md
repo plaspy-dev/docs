@@ -1,4 +1,5 @@
 ---
+sidebar_label: Cambio de Contraseña
 sidebar_position: 26
 ---
 # Cambio de Contraseña

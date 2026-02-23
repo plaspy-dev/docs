@@ -1,4 +1,5 @@
 ---
+sidebar_label: GeoFences
 sidebar_position: 7
 ---
 # GeoFences

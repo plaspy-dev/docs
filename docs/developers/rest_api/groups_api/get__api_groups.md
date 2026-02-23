@@ -1,4 +1,5 @@
 ---
+sidebar_label: GET /api/groups
 sidebar_position: 5
 ---
 # GET /api/groups
@@ -6,17 +7,18 @@ This endpoint allows you to retrieve the list of available groups. It is useful 
 
 ### Authentication Required
 
-[Authentication required](../../../rest_api/developers/authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
 ## Example Request
 
-```GET /api/groups HTTP/1.1
+```
+GET /api/groups HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 ```
 
-##   
-Response Parameters
+
+## Response Parameters
 
 The response includes a list of groups along with specific details for each group.
 
@@ -34,10 +36,10 @@ The response includes a list of groups along with specific details for each grou
 | groups.creation | string | No | Date and time of group creation \(in ISO 8601 format\). |
 | groups.lastModified | string | No | Date and time of the last modification of the group \(in ISO 8601 format\). |
 
-##   
-Example Successful Response
+## Example Successful Response
 
-```{
+```
+{
   "success": true,
   "error": null,
   "apiUsage": 123,
@@ -63,10 +65,11 @@ Example Successful Response
 }
 ```
 
-##   
-Example Error Response
 
-```{
+## Example Error Response
+
+```
+{
   "success": false,
   "error": "Unauthorized access",
   "apiUsage": 123,
@@ -74,5 +77,6 @@ Example Error Response
   "groups": null
 }
 ```
+
 
 This endpoint is essential for managing and viewing groups within the Plaspy application, allowing you to get a comprehensive and detailed view of each group and its associated devices.

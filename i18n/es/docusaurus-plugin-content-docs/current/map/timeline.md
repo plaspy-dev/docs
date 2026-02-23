@@ -1,4 +1,5 @@
 ---
+sidebar_label: Cronología
 sidebar_position: 5
 ---
 # Cronología

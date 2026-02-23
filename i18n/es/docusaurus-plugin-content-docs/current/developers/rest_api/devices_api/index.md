@@ -1,4 +1,5 @@
 ---
+sidebar_label: Dispositivos API
 sidebar_position: 5
 ---
 # Dispositivos API
@@ -12,11 +13,11 @@ En el ámbito del seguimiento satelital, la gestión eficiente de los dispositiv
 
 La API de dispositivos de Plaspy incluye varios endpoints que cubren una amplia gama de funcionalidades:
 
-1. **[GET /api/devices](../../../devices_api/rest_api/developers/get__api_devices)**: Permite obtener una lista de todos los dispositivos disponibles en la aplicación de seguimiento. Este endpoint es útil para ver todos los dispositivos que están siendo rastreados y obtener detalles básicos sobre cada uno de ellos.
-2. **[GET /api/devices/\{deviceId\}](../../../devices_api/rest_api/developers/get__api_devices_deviceid)**: Proporciona información detallada sobre un dispositivo específico. Este endpoint es esencial para obtener datos completos de un dispositivo en particular.
-3. **[GET /api/devices/\{deviceId\}/lastLocation](../../../devices_api/rest_api/developers/get__api_devices_deviceid_lastlocation)**: Permite obtener la última ubicación conocida de un dispositivo específico. Este endpoint es crucial para rastrear la ubicación más reciente y obtener detalles sobre esta ubicación.
-4. **[POST /api/devices/\{deviceId\}/locations](../../../devices_api/rest_api/developers/post__api_devices_deviceid_locations)**: Permite obtener datos de ubicación para un dispositivo específico. Este endpoint es fundamental para obtener nueva información de ubicación.
-5. **[POST /api/devices/\{deviceId\}/alerts](../../../devices_api/rest_api/developers/post__api_devices_deviceid_alerts)**: Permite obtener datos de alertas para un dispositivo específico. Este endpoint es esencial para obtener nueva información de alertas del dispositivo.
+1. **[GET /api/devices](get__api_devices)**: Permite obtener una lista de todos los dispositivos disponibles en la aplicación de seguimiento. Este endpoint es útil para ver todos los dispositivos que están siendo rastreados y obtener detalles básicos sobre cada uno de ellos.
+2. **[GET /api/devices/\{deviceId\}](get__api_devices_deviceid)**: Proporciona información detallada sobre un dispositivo específico. Este endpoint es esencial para obtener datos completos de un dispositivo en particular.
+3. **[GET /api/devices/\{deviceId\}/lastLocation](get__api_devices_deviceid_lastlocation)**: Permite obtener la última ubicación conocida de un dispositivo específico. Este endpoint es crucial para rastrear la ubicación más reciente y obtener detalles sobre esta ubicación.
+4. **[POST /api/devices/\{deviceId\}/locations](post__api_devices_deviceid_locations)**: Permite obtener datos de ubicación para un dispositivo específico. Este endpoint es fundamental para obtener nueva información de ubicación.
+5. **[POST /api/devices/\{deviceId\}/alerts](post__api_devices_deviceid_alerts)**: Permite obtener datos de alertas para un dispositivo específico. Este endpoint es esencial para obtener nueva información de alertas del dispositivo.
 
 ### Estructura de las Solicitudes y Respuestas
 

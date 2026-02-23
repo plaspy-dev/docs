@@ -1,4 +1,5 @@
 ---
+sidebar_label: Bienvenido a la Ayuda de Plaspy
 sidebar_position: 0
 ---
 # Bienvenido a la Ayuda de Plaspy

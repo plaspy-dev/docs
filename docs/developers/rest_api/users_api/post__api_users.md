@@ -1,4 +1,5 @@
 ---
+sidebar_label: POST /api/users
 sidebar_position: 12
 ---
 # POST /api/users
@@ -9,7 +10,7 @@ This endpoint is particularly useful for applications that require user registra
 ### Request Details
 
 **HTTP Method**: POST  
-**URL**: ```/api/users```
+**URL**: `/api/users`
 
 ### Request Parameters
 
@@ -41,15 +42,14 @@ The body of the request should be a JSON object with the following fields:
 | modification | string | No | The date and time of the user's last modification. \(This field is typically system-generated.\) |
 | lastLogin | string | No | The date and time of the user's last login. |
 
-###   
-Authentication Required
+### Authentication Required
 
-[Authentication required](../../../rest_api/developers/authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
-###   
-Example Request
+### Example Request
 
-```POST /api/users HTTP/1.1
+```
+POST /api/users HTTP/1.1
 Host: api.plaspy.com
 Content-Type: application/json
 Authorization: Bearer {your_auth_token}
@@ -77,15 +77,15 @@ Authorization: Bearer {your_auth_token}
 }
 ```
 
-###   
-Response Parameters
+
+### Response Parameters
 
 The response from this endpoint includes the details of the created user or an error message if the request was not successful.
 
 | Field | Type | Required | Description |
 | --- | --- | --- | --- |
 | success | boolean | No | Indicates whether the request was successful. |
-| error | string | No | Contains the error message if ```success``` is ```false```. |
+| error | string | No | Contains the error message if `success` is `false`. |
 | apiUsage | integer | No | Current API usage by the user. |
 | apiDailyUsage | integer | No | Daily API usage by the user. |
 | id | string | No | Unique identifier of the created user. |
@@ -109,10 +109,10 @@ The response from this endpoint includes the details of the created user or an e
 | modification | string | No | Date and time of the created user's last modification. |
 | lastLogin | string | No | Date and time of the created user's last login. |
 
-###   
-Example Successful Response
+### Example Successful Response
 
-```{
+```
+{
   "success": true,
   "apiUsage": 150,
   "apiDailyUsage": 15,
@@ -139,12 +139,13 @@ Example Successful Response
 }
 ```
 
-###   
-Example Error Response
 
-```{
+### Example Error Response
+
+```
+{
   "success": false,
   "error": "Invalid email address.",
   "apiUsage": 150,
   "apiDailyUsage": 15
-}```
+}`

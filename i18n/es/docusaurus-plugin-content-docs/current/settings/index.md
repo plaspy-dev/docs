@@ -1,4 +1,5 @@
 ---
+sidebar_label: Configuración
 sidebar_position: 6
 ---
 # Configuración

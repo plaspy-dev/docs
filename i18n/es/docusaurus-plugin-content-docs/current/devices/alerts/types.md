@@ -1,9 +1,10 @@
 ---
+sidebar_label: Tipos
 ---
 # Tipos
 En Plaspy, la configuración de alertas en los dispositivos permite a los usuarios monitorear y gestionar diversos eventos y situaciones que puedan ocurrir con sus activos. A continuación, se detallan los tipos de alertas disponibles y cómo se pueden configurar para un seguimiento efectivo.
 
-Una vez en la [sección de alertas](../../devices/alerts), puede agregar nuevas alertas seleccionando el tipo de alerta que mejor se adapte a sus necesidades. Es importante destacar que las geo-cercas y los puntos de control se dibujan directamente en el mapa, facilitando la visualización y gestión de las áreas monitoreadas.
+Una vez en la [sección de alertas](.), puede agregar nuevas alertas seleccionando el tipo de alerta que mejor se adapte a sus necesidades. Es importante destacar que las geo-cercas y los puntos de control se dibujan directamente en el mapa, facilitando la visualización y gestión de las áreas monitoreadas.
 
 ![](./image_1718289540124.gif)
 

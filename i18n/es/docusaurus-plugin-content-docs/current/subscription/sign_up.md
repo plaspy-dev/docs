@@ -1,4 +1,5 @@
 ---
+sidebar_label: Registro en Plaspy
 sidebar_position: 37
 ---
 # Registro en Plaspy

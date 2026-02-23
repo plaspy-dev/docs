@@ -1,4 +1,5 @@
 ---
+sidebar_label: Panel de Control de Dispositivos
 sidebar_position: 1
 ---
 # Panel de Control de Dispositivos

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Mobile Application
 sidebar_position: 14
 ---
 # Mobile Application

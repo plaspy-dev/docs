@@ -1,7 +1,8 @@
 ---
+sidebar_label: Types
 ---
 # Types
-In Plaspy, the [alert](../../devices/alerts) configuration on devices allows users to monitor and manage various events and situations that may occur with their assets. Below are the types of alerts available and how they can be configured for effective tracking.
+In Plaspy, the [alert](.) configuration on devices allows users to monitor and manage various events and situations that may occur with their assets. Below are the types of alerts available and how they can be configured for effective tracking.
 
 Once in the alerts section, you can add new alerts by selecting the type of alert that best suits your needs. It is important to note that geo-fences and control points are drawn directly on the map, facilitating the visualization and management of the monitored areas.
 

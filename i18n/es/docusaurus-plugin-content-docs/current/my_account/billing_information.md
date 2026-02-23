@@ -1,4 +1,5 @@
 ---
+sidebar_label: Información de facturación
 sidebar_position: 25
 ---
 # Información de facturación

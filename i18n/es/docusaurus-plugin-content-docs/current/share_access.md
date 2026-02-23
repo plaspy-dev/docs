@@ -1,4 +1,5 @@
 ---
+sidebar_label: Compartir Acceso
 sidebar_position: 11
 ---
 # Compartir Acceso

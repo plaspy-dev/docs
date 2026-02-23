@@ -1,4 +1,5 @@
 ---
+sidebar_label: Consultar el Historial de Recorridos de un Dispositivo
 sidebar_position: 0
 ---
 # Consultar el Historial de Recorridos de un Dispositivo

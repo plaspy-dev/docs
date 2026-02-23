@@ -1,4 +1,5 @@
 ---
+sidebar_label: Reasignar sensores digitales
 sidebar_position: 16
 ---
 # Reasignar sensores digitales

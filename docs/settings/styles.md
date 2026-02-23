@@ -1,4 +1,5 @@
 ---
+sidebar_label: Styles
 sidebar_position: 44
 ---
 # Styles

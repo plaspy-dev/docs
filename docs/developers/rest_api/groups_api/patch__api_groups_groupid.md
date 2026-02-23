@@ -1,12 +1,13 @@
 ---
+sidebar_label: PATCH /api/groups/{groupId}
 sidebar_position: 9
 ---
-# PATCH /api/groups/{groupId}
-This endpoint allows you to partially update the details of an existing group using its unique identifier \(```groupId```\). It is useful for modifying one or more attributes of a group without needing to send all the group's data.
+# PATCH /api/groups/\{groupId\}
+This endpoint allows you to partially update the details of an existing group using its unique identifier \(`groupId`\). It is useful for modifying one or more attributes of a group without needing to send all the group's data.
 
 ## Request Details
 
-To partially update a group, you must send a PATCH request with the patch operations in the request body. Ensure the request is authorized with a valid token and that the group's identifier \(```groupId```\) is correct.
+To partially update a group, you must send a PATCH request with the patch operations in the request body. Ensure the request is authorized with a valid token and that the group's identifier \(`groupId`\) is correct.
 
 ## Request Parameters
 
@@ -16,8 +17,7 @@ To partially update a group, you must send a PATCH request with the patch operat
 | --- | --- | --- | --- |
 | groupId | string | Yes | Unique identifier of the group to update |
 
-###   
-Request Body Parameters
+### Request Body Parameters
 
 The request body must include a list of patch operations to perform on the group. Each operation follows the JSON Patch format.
 
@@ -25,12 +25,12 @@ The request body must include a list of patch operations to perform on the group
 | --- | --- | --- | --- |
 | op | string | Yes | Operation to perform \(e.g., "add", "remove", "replace"\). |
 | path | string | Yes | Path to the group attribute to modify \(e.g., "/name", "/description"\). |
-| value | object | No | New value for the attribute specified in ```path```. Required if ```op``` is "add" or "replace". |
+| value | object | No | New value for the attribute specified in `path`. Required if `op` is "add" or "replace". |
 
-###   
-Example Request Body
+### Example Request Body
 
-```[
+```
+[
   {
     "op": "replace",
     "path": "/name",
@@ -44,15 +44,15 @@ Example Request Body
 ]
 ```
 
-###   
-Authentication Required
 
-[Authentication required](../../../rest_api/developers/authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+### Authentication Required
 
-##   
-Example Request
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
-```PATCH /api/groups/grp-125 HTTP/1.1
+## Example Request
+
+```
+PATCH /api/groups/grp-125 HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 Content-Type: application/json
@@ -71,8 +71,8 @@ Content-Type: application/json
 ]
 ```
 
-##   
-Response Parameters
+
+## Response Parameters
 
 The response includes details of the updated group.
 
@@ -89,10 +89,10 @@ The response includes details of the updated group.
 | creation | string | No | Date and time of group creation \(in ISO 8601 format\). |
 | lastModified | string | No | Date and time of the last modification of the group \(in ISO 8601 format\). |
 
-##   
-Example Successful Response
+## Example Successful Response
 
-```{
+```
+{
   "success": true,
   "error": null,
   "apiUsage": 123,
@@ -106,15 +106,17 @@ Example Successful Response
 }
 ```
 
-##   
-Example Error Response
 
-```{
+## Example Error Response
+
+```
+{
   "success": false,
   "error": "Group not found",
   "apiUsage": 123,
   "apiDailyUsage": 45
 }
 ```
+
 
 This endpoint is essential for making partial updates to group information in the Plaspy application, allowing specific modifications without needing to send all the group's data.

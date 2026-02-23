@@ -1,4 +1,5 @@
 ---
+sidebar_label: Comandos
 sidebar_position: 17
 ---
 # Comandos

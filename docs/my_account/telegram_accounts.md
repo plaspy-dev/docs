@@ -1,4 +1,5 @@
 ---
+sidebar_label: Telegram Accounts
 sidebar_position: 27
 ---
 # Telegram Accounts

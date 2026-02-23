@@ -1,4 +1,5 @@
 ---
+sidebar_label: Aplicación móvil
 sidebar_position: 51
 ---
 # Aplicación móvil
@@ -10,7 +11,7 @@ Esta sección permite a los usuarios generar el código fuente para sus [aplicac
 
 - **Tipo de aplicación móvil:** Selecciona el tipo de aplicación que deseas generar. Las opciones incluyen Básica, Google Maps, Notificaciones Push y Rastreo de teléfonos.
 - **Nombre de la aplicación:** Introduce el nombre de tu aplicación. Este nombre aparecerá en la tienda de aplicaciones y en la propia aplicación.
-- **App Id:** Especifica el identificador único de la aplicación. Debe ser un nombre de paquete único, como ```com.tuempresa.tuapp```.
+- **App Id:** Especifica el identificador único de la aplicación. Debe ser un nombre de paquete único, como `com.tuempresa.tuapp`.
 - **Color de fondo de los íconos:** Selecciona el color de fondo para los íconos de tu aplicación. Elige un color que combine con tu branding corporativo.
 
 #### Google Maps API Keys

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Subscription
 sidebar_position: 5
 ---
 # Subscription

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Información Detallada del Dispositivo
 sidebar_position: 2
 ---
 # Información Detallada del Dispositivo

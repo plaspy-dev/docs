@@ -1,4 +1,5 @@
 ---
+sidebar_label: Eliminar tu cuenta
 sidebar_position: 36
 ---
 # Eliminar tu cuenta

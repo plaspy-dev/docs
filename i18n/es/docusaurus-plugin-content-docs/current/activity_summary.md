@@ -1,4 +1,5 @@
 ---
+sidebar_label: Resumen de actividades
 sidebar_position: 8
 ---
 # Resumen de actividades

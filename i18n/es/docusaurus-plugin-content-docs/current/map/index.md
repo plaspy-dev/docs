@@ -1,4 +1,5 @@
 ---
+sidebar_label: Mapa
 sidebar_position: 1
 ---
 # Mapa

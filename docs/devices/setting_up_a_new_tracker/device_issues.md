@@ -1,4 +1,5 @@
 ---
+sidebar_label: Device Issues
 sidebar_position: 3
 ---
 # Device Issues

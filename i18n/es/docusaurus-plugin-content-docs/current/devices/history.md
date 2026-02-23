@@ -1,4 +1,5 @@
 ---
+sidebar_label: Historial
 sidebar_position: 21
 ---
 # Historial

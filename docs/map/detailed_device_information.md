@@ -1,4 +1,5 @@
 ---
+sidebar_label: Detailed Device Information
 sidebar_position: 2
 ---
 # Detailed Device Information

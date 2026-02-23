@@ -1,4 +1,5 @@
 ---
+sidebar_label: POST /api/users
 ---
 # POST /api/users
 El endpoint **POST /api/users** se utiliza para crear un nuevo usuario en el sistema. Este endpoint es esencial para añadir nuevos usuarios, permitiendo especificar varios atributos como nombre, correo electrónico, país y zona horaria, junto con detalles opcionales como descripción y etiquetas. Garantiza que la base de usuarios del sistema se pueda gestionar de manera dinámica, permitiendo a los administradores agregar nuevos usuarios según sea necesario.
@@ -8,10 +9,9 @@ Este endpoint es particularmente útil para aplicaciones que requieren funcional
 ### Detalles de la Solicitud
 
 **Método HTTP**: POST  
-**URL**: ```/api/users```
+**URL**: `/api/users`
 
-##   
-Parámetros de la Solicitud
+## Parámetros de la Solicitud
 
 La solicitud a este endpoint no tiene parámetros en la URL, pero requiere un cuerpo JSON con los detalles del usuario.
 
@@ -41,15 +41,14 @@ El cuerpo de la solicitud debe ser un objeto JSON con los siguientes campos:
 | modification | string | No | La fecha y hora de la última modificación del usuario. \(Este campo es típicamente generado por el sistema.\) |
 | lastLogin | string | No | La fecha y hora del último inicio de sesión del usuario. |
 
-###   
-Autenticación Requerida
+### Autenticación Requerida
 
-La [autenticación requerida](../../../rest_api/developers/authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
-###   
-Ejemplo de Solicitud
+### Ejemplo de Solicitud
 
-```POST /api/users HTTP/1.1
+```
+POST /api/users HTTP/1.1
 Host: api.plaspy.com
 Content-Type: application/json
 Authorization: Bearer {your_auth_token}
@@ -77,15 +76,15 @@ Authorization: Bearer {your_auth_token}
 }
 ```
 
-##   
-Parámetros de Respuesta
+
+## Parámetros de Respuesta
 
 La respuesta de este endpoint incluye los detalles del usuario creado o un mensaje de error si la solicitud no fue exitosa.
 
 | Campo | Tipo | Obligatoria | Descripción |
 | --- | --- | --- | --- |
 | success | boolean | No | Indica si la solicitud fue exitosa. |
-| error | string | No | Contiene el mensaje de error en caso de que ```success``` sea ```false```. |
+| error | string | No | Contiene el mensaje de error en caso de que `success` sea `false`. |
 | apiUsage | integer | No | Uso actual de la API por el usuario. |
 | apiDailyUsage | integer | No | Uso diario de la API por el usuario. |
 | id | string | No | Identificador único del usuario creado. |
@@ -109,10 +108,10 @@ La respuesta de este endpoint incluye los detalles del usuario creado o un mensa
 | modification | string | No | Fecha y hora de la última modificación del usuario creado. |
 | lastLogin | string | No | Fecha y hora del último inicio de sesión del usuario creado. |
 
-###   
-Ejemplo de Respuesta Exitosa
+### Ejemplo de Respuesta Exitosa
 
-```{
+```
+{
   "success": true,
   "apiUsage": 150,
   "apiDailyUsage": 15,
@@ -136,13 +135,16 @@ Ejemplo de Respuesta Exitosa
   "creation": "2023-01-01T00:00:00Z",
   "modification": "2023-06-01T00:00:00Z",
   "lastLogin": null
-}```
+}
+```
 
 ### Ejemplo de Respuesta de Error
 
-```{
+```
+{
   "success": false,
   "error": "Correo electrónico inválido.",
   "apiUsage": 150,
   "apiDailyUsage": 15
-}```
+}
+```

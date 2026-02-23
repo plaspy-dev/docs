@@ -1,4 +1,5 @@
 ---
+sidebar_label: Users
 sidebar_position: 10
 ---
 # Users

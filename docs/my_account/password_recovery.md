@@ -1,4 +1,5 @@
 ---
+sidebar_label: Password Recovery
 sidebar_position: 33
 ---
 # Password Recovery

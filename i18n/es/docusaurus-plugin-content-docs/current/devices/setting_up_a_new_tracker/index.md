@@ -1,4 +1,5 @@
 ---
+sidebar_label: Configuración de un Nuevo Rastreador
 sidebar_position: 22
 ---
 # Configuración de un Nuevo Rastreador
@@ -34,8 +35,8 @@ Selecciona la marca de tu rastreador, los rastreadores pueden configurarse media
 
 Para conectar tu rastreador a Plaspy, utiliza los siguientes datos del servidor:
 
-- **Servidor**: ```d.plaspy.com``` o ```54.85.159.138```
-- **Puerto**: ```8888```
+- **Servidor**: `d.plaspy.com` o `54.85.159.138`
+- **Puerto**: `8888`
 
 Plaspy detectará automáticamente el protocolo del dispositivo.
 

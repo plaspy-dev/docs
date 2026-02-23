@@ -1,4 +1,5 @@
 ---
+sidebar_label: Límites de envío de alertas por correo electrónico
 sidebar_position: 23
 ---
 # Límites de envío de alertas por correo electrónico

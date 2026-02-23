@@ -1,4 +1,5 @@
 ---
+sidebar_label: Insertar el mapa en mi página web
 sidebar_position: 8
 ---
 # Insertar el mapa en mi página web
@@ -18,7 +19,7 @@ Para incrustar el mapa en tu página web, sigue estos pasos:
 2. **Habilitar el acceso del dispositivo por medio de la API:** Configura los dispositivos que deseas mostrar en el mapa para que puedan ser accesibles mediante la API.
 3. **Crear un grupo con los dispositivos que deseas mostrar:** En Plaspy, crea un grupo e incluye en él todos los dispositivos que quieres visualizar en el mapa.
 4. **Buscar el Identificador del grupo:** Edita el grupo creado y copia el identificador del grupo \(ID del grupo\), necesario para configurar la API.
-5. **Incrustar el código HTML del mapa en tu página web:** Utiliza el siguiente código HTML, reemplazando ```mi_id_grupo``` con el identificador del grupo que copiaste en el paso anterior:
+5. **Incrustar el código HTML del mapa en tu página web:** Utiliza el siguiente código HTML, reemplazando `mi_id_grupo` con el identificador del grupo que copiaste en el paso anterior:
 
 &lt;div id="map\_canvas" style="width:100%;height:400px"&gt;Cargando...&lt;/div&gt;  
 &lt;script type="text/javascript"&gt;plaspy\_api\_group\_key="**mi\_id\_grupo**";&lt;/script&gt;  

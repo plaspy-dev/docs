@@ -1,4 +1,5 @@
 ---
+sidebar_label: Password Change
 sidebar_position: 25
 ---
 # Password Change

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Payment Methods
 sidebar_position: 38
 ---
 # Payment Methods

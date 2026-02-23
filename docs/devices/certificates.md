@@ -1,4 +1,5 @@
 ---
+sidebar_label: Certificates
 ---
 # Certificates
 The **Device Certificate** is an official document that confirms a GPS device is active within the satellite tracking service. It displays essential details such as the registered user's name, equipment model, ID, service start date, accumulated usage time, and current account validity. This certificate can be shared with third parties to prove that the device is correctly registered and monitored.

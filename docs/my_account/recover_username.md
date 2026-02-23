@@ -1,4 +1,5 @@
 ---
+sidebar_label: Recover Username
 sidebar_position: 34
 ---
 # Recover Username

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Log In
 sidebar_position: 42
 ---
 # Log In

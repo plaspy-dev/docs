@@ -1,4 +1,5 @@
 ---
+sidebar_label: Primary Email
 sidebar_position: 29
 ---
 # Primary Email

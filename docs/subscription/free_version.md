@@ -1,4 +1,5 @@
 ---
+sidebar_label: Free Version
 sidebar_position: 40
 ---
 # Free Version

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Organization
 sidebar_position: 41
 ---
 # Organization

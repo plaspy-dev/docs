@@ -1,12 +1,13 @@
 ---
+sidebar_label: PATCH /api/users/{userId}
 ---
-# PATCH /api/users/{userId}
-El endpoint ```PATCH /api/users/{userId}``` permite actualizar parcialmente la información de un usuario específico. Este método es útil cuando solo se necesita modificar algunos campos del usuario sin tener que enviar todos los datos. El identificador del usuario \(```userId```\) se incluye en la ruta de la solicitud.
+# PATCH /api/users/\{userId\}
+El endpoint `PATCH /api/users/{userId}` permite actualizar parcialmente la información de un usuario específico. Este método es útil cuando solo se necesita modificar algunos campos del usuario sin tener que enviar todos los datos. El identificador del usuario \(`userId`\) se incluye en la ruta de la solicitud.
 
 ## Detalles de la Solicitud
 
-- **Método HTTP:** ```PATCH```
-- **URL:** ```/api/users/{userId}```
+- **Método HTTP:** `PATCH`
+- **URL:** `/api/users/{userId}`
 - **Autenticación:** Requiere un token Bearer.
 - **Formato de solicitud:** JSON
 
@@ -16,31 +17,28 @@ El endpoint ```PATCH /api/users/{userId}``` permite actualizar parcialmente la i
 | --- | --- | --- | --- |
 | userId | string | Sí | El identificador único del usuario a actualizar. |
 
-###   
-Parámetros del Cuerpo de la Solicitud
+### Parámetros del Cuerpo de la Solicitud
 
 El cuerpo de la solicitud debe contener un array de operaciones de parcheo \(patch operations\) para indicar las modificaciones que se desean realizar.
 
-###   
-Cuerpo de la Solicitud
+### Cuerpo de la Solicitud
 
 Cada operación de parcheo en el cuerpo de la solicitud debe seguir el formato definido en la especificación JSON Patch. Una operación de parcheo incluye los siguientes campos:
 
 | Campo | Tipo | Obligatoria | Descripción |
 | --- | --- | --- | --- |
-| op | string | Sí | La operación a realizar, puede ser ```add```, ```remove```, ```replace```, ```move```, ```copy``` o ```test```. |
+| op | string | Sí | La operación a realizar, puede ser `add`, `remove`, `replace`, `move`, `copy` o `test`. |
 | path | string | Sí | La ruta del campo a modificar, siguiendo la sintaxis de JSON Pointer. |
-| value | object | No | El nuevo valor para el campo especificado en ```path``` \(requerido para ```add``` y ```replace```\). |
+| value | object | No | El nuevo valor para el campo especificado en `path` \(requerido para `add` y `replace`\). |
 
-###   
-Autenticación Requerida
+### Autenticación Requerida
 
-La [autenticación requerida](../../../rest_api/developers/authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
-###   
-Ejemplo de Solicitud
+### Ejemplo de Solicitud
 
-```PATCH /api/users/usr-12345 HTTP/1.1
+```
+PATCH /api/users/usr-12345 HTTP/1.1
 Host: www.plaspy.com
 Authorization: Bearer tu_token_de_autenticacion
 Content-Type: application/json
@@ -56,10 +54,10 @@ Content-Type: application/json
         "path": "/tags",
         "value": { "vip": "true" }
     }
-]```
+]
+```
 
-##   
-Parámetros de Respuesta
+## Parámetros de Respuesta
 
 | Campo | Tipo | Obligatoria | Descripción |
 | --- | --- | --- | --- |
@@ -89,7 +87,8 @@ Parámetros de Respuesta
 
 ### Ejemplo de Respuesta Exitosa
 
-```{
+```
+{
     "success": true,
     "id": "usr-12345",
     "name": "Juan Perez",
@@ -112,14 +111,17 @@ Parámetros de Respuesta
 }
 ```
 
+
 ### Ejemplo de Respuesta de Error
 
-```{
+```
+{
     "success": false,
     "error": "Invalid patch operation",
     "apiUsage": 25,
     "apiDailyUsage": 100
 }
 ```
+
 
 Este endpoint facilita la actualización de datos específicos de un usuario, garantizando flexibilidad y eficiencia en la gestión de usuarios dentro del sistema Plaspy.

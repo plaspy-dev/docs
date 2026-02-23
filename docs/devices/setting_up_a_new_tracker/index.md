@@ -1,4 +1,5 @@
 ---
+sidebar_label: Setting Up a New Tracker
 sidebar_position: 21
 ---
 # Setting Up a New Tracker
@@ -34,8 +35,8 @@ Select the brand of your tracker. Trackers can be configured using SMS commands 
 
 To connect your tracker to Plaspy, use the following server details:
 
-- **Server**: ```d.plaspy.com``` or ```54.85.159.138```
-- **Port**: ```8888```
+- **Server**: `d.plaspy.com` or `54.85.159.138`
+- **Port**: `8888`
 
 Plaspy will automatically detect the device protocol.
 

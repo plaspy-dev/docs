@@ -1,11 +1,12 @@
 ---
+sidebar_label: PATCH /api/groups/{groupId}
 ---
-# PATCH /api/groups/{groupId}
-Este endpoint permite actualizar parcialmente los detalles de un grupo existente utilizando su identificador único \(```groupId```\). Es útil para modificar uno o varios atributos de un grupo sin necesidad de enviar todos los datos del grupo.
+# PATCH /api/groups/\{groupId\}
+Este endpoint permite actualizar parcialmente los detalles de un grupo existente utilizando su identificador único \(`groupId`\). Es útil para modificar uno o varios atributos de un grupo sin necesidad de enviar todos los datos del grupo.
 
 ## Detalles de la Solicitud
 
-Para actualizar parcialmente un grupo, debe enviar una solicitud PATCH con las operaciones de parcheo en el cuerpo de la solicitud. Asegúrese de que la solicitud esté autorizada con un token válido y que el identificador del grupo \(```groupId```\) sea correcto.
+Para actualizar parcialmente un grupo, debe enviar una solicitud PATCH con las operaciones de parcheo en el cuerpo de la solicitud. Asegúrese de que la solicitud esté autorizada con un token válido y que el identificador del grupo \(`groupId`\) sea correcto.
 
 ## Parámetros de la Solicitud
 
@@ -15,8 +16,7 @@ Para actualizar parcialmente un grupo, debe enviar una solicitud PATCH con las o
 | --- | --- | --- | --- |
 | groupId | string | Sí | Identificador único del grupo que se va a actualizar |
 
-###   
-Parámetros del Cuerpo de la Solicitud
+### Parámetros del Cuerpo de la Solicitud
 
 El cuerpo de la solicitud debe incluir una lista de operaciones de parcheo a realizar en el grupo. Cada operación sigue el formato de JSON Patch.
 
@@ -24,12 +24,12 @@ El cuerpo de la solicitud debe incluir una lista de operaciones de parcheo a rea
 | --- | --- | --- | --- |
 | op | string | Sí | Operación a realizar \(por ejemplo, "add", "remove", "replace"\). |
 | path | string | Sí | Ruta del atributo del grupo a modificar \(por ejemplo, "/name", "/description"\). |
-| value | object | No | Nuevo valor para el atributo especificado en ```path```. Obligatorio si ```op``` es "add" o "replace". |
+| value | object | No | Nuevo valor para el atributo especificado en `path`. Obligatorio si `op` es "add" o "replace". |
 
-###   
-Ejemplo del Cuerpo de la Solicitud
+### Ejemplo del Cuerpo de la Solicitud
 
-```[
+```
+[
   {
     "op": "replace",
     "path": "/name",
@@ -43,15 +43,15 @@ Ejemplo del Cuerpo de la Solicitud
 ]
 ```
 
-###   
-Autenticación Requerida
 
-La [autenticación requerida](../../../rest_api/developers/authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+### Autenticación Requerida
 
-###   
-Ejemplo de Solicitud
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
-```PATCH /api/groups/grp-125 HTTP/1.1
+### Ejemplo de Solicitud
+
+```
+PATCH /api/groups/grp-125 HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 Content-Type: application/json
@@ -70,8 +70,8 @@ Content-Type: application/json
 ]
 ```
 
-##   
-Parámetros de Respuesta
+
+## Parámetros de Respuesta
 
 La respuesta incluye detalles del grupo actualizado.
 
@@ -88,10 +88,10 @@ La respuesta incluye detalles del grupo actualizado.
 | creation | string | No | Fecha y hora de creación del grupo \(en formato ISO 8601\). |
 | lastModified | string | No | Fecha y hora de la última modificación del grupo \(en formato ISO 8601\). |
 
-###   
-Ejemplo de Respuesta Exitosa
+### Ejemplo de Respuesta Exitosa
 
-```{
+```
+{
   "success": true,
   "error": null,
   "apiUsage": 123,
@@ -105,15 +105,17 @@ Ejemplo de Respuesta Exitosa
 }
 ```
 
-###   
-Ejemplo de Respuesta de Error
 
-```{
+### Ejemplo de Respuesta de Error
+
+```
+{
   "success": false,
   "error": "Group not found",
   "apiUsage": 123,
   "apiDailyUsage": 45
 }
 ```
+
 
 Este endpoint es fundamental para realizar actualizaciones parciales en la información de los grupos en la aplicación Plaspy, permitiendo modificaciones específicas sin necesidad de enviar todos los datos del grupo.

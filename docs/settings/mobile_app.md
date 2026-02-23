@@ -1,4 +1,5 @@
 ---
+sidebar_label: Mobile App
 sidebar_position: 50
 ---
 # Mobile App
@@ -10,7 +11,7 @@ This section allows users to generate the source code for their [personalized mo
 
 - **Mobile application type:** Select the type of application you want to generate. Options include Basic, Google Maps, Push Notifications, and Phone Tracking.
 - **Application name:** Enter the name of your application. This name will appear in the app store and within the application itself.
-- **App Id:** Specify the unique identifier for the application. It should be a unique package name, such as ```com.yourcompany.yourapp```.
+- **App Id:** Specify the unique identifier for the application. It should be a unique package name, such as `com.yourcompany.yourapp`.
 - **Icon background color:** Select the background color for your application icons. Choose a color that matches your corporate branding.
 
 #### Google Maps API Keys

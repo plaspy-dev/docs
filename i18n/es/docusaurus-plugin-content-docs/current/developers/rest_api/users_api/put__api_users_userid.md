@@ -1,6 +1,7 @@
 ---
+sidebar_label: PUT /api/users/{userId}
 ---
-# PUT /api/users/{userId}
+# PUT /api/users/\{userId\}
 El endpoint **PUT /api/users/\{userId\}** permite actualizar la información de un usuario específico registrado en el sistema. Se utiliza para modificar los detalles del usuario, como su nombre, correo electrónico, país, zona horaria y otros atributos relevantes. Este endpoint es útil para los administradores del sistema que necesitan mantener la información de los usuarios actualizada.
 
 Este endpoint es especialmente útil para aplicaciones que permiten la gestión y administración de usuarios, proporcionando la capacidad de actualizar datos de usuarios específicos.
@@ -8,17 +9,15 @@ Este endpoint es especialmente útil para aplicaciones que permiten la gestión 
 ## Detalles de la Solicitud
 
 **Método HTTP**: PUT  
-**URL**: ```/api/users/{userId}```
+**URL**: `/api/users/{userId}`
 
-##   
-Parámetros de la Solicitud
+## Parámetros de la Solicitud
 
 | Parámetro | Tipo | Obligatorio | Descripción |
 | --- | --- | --- | --- |
 | userId | string | Sí | El identificador único del usuario. |
 
-###   
-Parámetros del cuerpo de la Solicitud
+### Parámetros del cuerpo de la Solicitud
 
 El cuerpo de la solicitud debe ser un objeto JSON con los siguientes campos:
 
@@ -44,14 +43,14 @@ El cuerpo de la solicitud debe ser un objeto JSON con los siguientes campos:
 | modification | string | No | La fecha y hora de la última modificación del usuario. \(Este campo es típicamente generado por el sistema.\) |
 | lastLogin | string | No | La fecha y hora del último inicio de sesión del usuario. |
 
-###   
-Autenticación Requerida
+### Autenticación Requerida
 
-La [autenticación requerida](../../../rest_api/developers/authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
-```PUT /api/users/12345 HTTP/1.1
+```
+PUT /api/users/12345 HTTP/1.1
 Host: api.plaspy.com
 Content-Type: application/json
 Authorization: Bearer {your_auth_token}
@@ -79,15 +78,15 @@ Authorization: Bearer {your_auth_token}
 }
 ```
 
-##   
-Parámetros de Respuesta
+
+## Parámetros de Respuesta
 
 La respuesta de este endpoint incluye los detalles del usuario actualizado o un mensaje de error si la solicitud no fue exitosa.
 
 | Campo | Tipo | Obligatoria | Descripción |
 | --- | --- | --- | --- |
 | success | boolean | No | Indica si la solicitud fue exitosa. |
-| error | string | No | Contiene el mensaje de error en caso de que ```success``` sea ```false```. |
+| error | string | No | Contiene el mensaje de error en caso de que `success` sea `false`. |
 | apiUsage | integer | No | Uso actual de la API por el usuario. |
 | apiDailyUsage | integer | No | Uso diario de la API por el usuario. |
 | id | string | No | Identificador único del usuario actualizado. |
@@ -111,10 +110,10 @@ La respuesta de este endpoint incluye los detalles del usuario actualizado o un 
 | modification | string | No | Fecha y hora de la última modificación del usuario actualizado. |
 | lastLogin | string | No | Fecha y hora del último inicio de sesión del usuario actualizado. |
 
-###   
-Ejemplo de Respuesta Exitosa
+### Ejemplo de Respuesta Exitosa
 
-```{
+```
+{
   "success": true,
   "apiUsage": 150,
   "apiDailyUsage": 15,
@@ -141,11 +140,13 @@ Ejemplo de Respuesta Exitosa
 }
 ```
 
+
 ### Ejemplo de Respuesta de Error
 
-```{
+```
+{
   "success": false,
   "error": "Correo electrónico inválido.",
   "apiUsage": 150,
   "apiDailyUsage": 15
-}```
+}`

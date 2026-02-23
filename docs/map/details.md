@@ -1,4 +1,5 @@
 ---
+sidebar_label: Details
 sidebar_position: 4
 ---
 # Details

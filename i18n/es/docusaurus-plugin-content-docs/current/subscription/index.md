@@ -1,4 +1,5 @@
 ---
+sidebar_label: Subscripción
 sidebar_position: 5
 ---
 # Subscripción

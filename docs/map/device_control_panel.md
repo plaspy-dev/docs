@@ -1,4 +1,5 @@
 ---
+sidebar_label: Device Control Panel
 sidebar_position: 1
 ---
 # Device Control Panel

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Alerts
 sidebar_position: 17
 ---
 # Alerts

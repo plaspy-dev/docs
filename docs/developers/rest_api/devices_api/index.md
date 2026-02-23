@@ -1,4 +1,5 @@
 ---
+sidebar_label: Devices API
 sidebar_position: 5
 ---
 # Devices API
@@ -12,11 +13,11 @@ In the realm of satellite tracking, efficient device management is crucial to en
 
 The Plaspy devices API includes several endpoints that cover a wide range of functionalities:
 
-1. **[GET /api/devices](../../../devices_api/rest_api/developers/get__api_devices)**: Allows retrieving a list of all available devices in the tracking application. This endpoint is useful for viewing all tracked devices and obtaining basic details about each one.
-2. **[GET /api/devices/\{deviceId\}](../../../devices_api/rest_api/developers/get__api_devices_deviceid)**: Provides detailed information about a specific device. This endpoint is essential for obtaining comprehensive data on a particular device.
-3. **[GET /api/devices/\{deviceId\}/lastLocation](../../../devices_api/rest_api/developers/get__api_devices_deviceid_lastlocation)**: Allows retrieving the last known location of a specific device. This endpoint is crucial for tracking the most recent location and obtaining details about this location.
-4. **[POST /api/devices/\{deviceId\}/locations](../../../devices_api/rest_api/developers/post__api_devices_deviceid_locations)**: Allows sending location data for a specific device. This endpoint is fundamental for updating the system with new location information.
-5. **[POST /api/devices/\{deviceId\}/alerts](../../../devices_api/rest_api/developers/post__api_devices_deviceid_alerts)**: Allows sending alert data for a specific device. This endpoint is essential for updating the system with new alert information for the device.
+1. **[GET /api/devices](get__api_devices)**: Allows retrieving a list of all available devices in the tracking application. This endpoint is useful for viewing all tracked devices and obtaining basic details about each one.
+2. **[GET /api/devices/\{deviceId\}](get__api_devices_deviceid)**: Provides detailed information about a specific device. This endpoint is essential for obtaining comprehensive data on a particular device.
+3. **[GET /api/devices/\{deviceId\}/lastLocation](get__api_devices_deviceid_lastlocation)**: Allows retrieving the last known location of a specific device. This endpoint is crucial for tracking the most recent location and obtaining details about this location.
+4. **[POST /api/devices/\{deviceId\}/locations](post__api_devices_deviceid_locations)**: Allows sending location data for a specific device. This endpoint is fundamental for updating the system with new location information.
+5. **[POST /api/devices/\{deviceId\}/alerts](post__api_devices_deviceid_alerts)**: Allows sending alert data for a specific device. This endpoint is essential for updating the system with new alert information for the device.
 
 ### Structure of Requests and Responses
 

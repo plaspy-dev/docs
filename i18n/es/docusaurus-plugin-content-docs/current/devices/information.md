@@ -1,4 +1,5 @@
 ---
+sidebar_label: Información
 sidebar_position: 14
 ---
 # Información

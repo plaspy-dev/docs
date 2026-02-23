@@ -1,4 +1,5 @@
 ---
+sidebar_label: Security Log
 sidebar_position: 32
 ---
 # Security Log

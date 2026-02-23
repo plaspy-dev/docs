@@ -1,4 +1,5 @@
 ---
+sidebar_label: Reportes
 sidebar_position: 3
 ---
 # Reportes

@@ -1,7 +1,8 @@
 ---
+sidebar_label: PUT /api/users/{userId}
 sidebar_position: 16
 ---
-# PUT /api/users/{userId}
+# PUT /api/users/\{userId\}
 The **PUT /api/users/\{userId\}** endpoint allows you to update the information of a specific user registered in the system. It is used to modify the user details, such as name, email, country, time zone, and other relevant attributes. This endpoint is useful for system administrators who need to keep user information up-to-date.
 
 This endpoint is especially beneficial for applications that allow user management and administration, providing the capability to update specific user data.
@@ -9,7 +10,7 @@ This endpoint is especially beneficial for applications that allow user manageme
 ### Request Details
 
 **HTTP Method**: PUT  
-**URL**: ```/api/users/{userId}```
+**URL**: `/api/users/{userId}`
 
 ### Request Parameters
 
@@ -17,8 +18,7 @@ This endpoint is especially beneficial for applications that allow user manageme
 | --- | --- | --- | --- |
 | userId | string | Yes | The unique identifier of the user. |
 
-###   
-Request Body Parameters
+### Request Body Parameters
 
 The request body should be a JSON object with the following fields:
 
@@ -44,15 +44,14 @@ The request body should be a JSON object with the following fields:
 | modification | string | No | The date and time of the user's last modification. \(This field is typically system-generated.\) |
 | lastLogin | string | No | The date and time of the user's last login. |
 
-###   
-Authentication Required
+### Authentication Required
 
-[Authentication required](../../../rest_api/developers/authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
-###   
-Example Request
+### Example Request
 
-```PUT /api/users/12345 HTTP/1.1
+```
+PUT /api/users/12345 HTTP/1.1
 Host: api.plaspy.com
 Content-Type: application/json
 Authorization: Bearer {your_auth_token}
@@ -80,15 +79,15 @@ Authorization: Bearer {your_auth_token}
 }
 ```
 
-###   
-Response Parameters
+
+### Response Parameters
 
 The response from this endpoint includes the details of the updated user or an error message if the request was not successful.
 
 | Field | Type | Required | Description |
 | --- | --- | --- | --- |
 | success | boolean | No | Indicates whether the request was successful. |
-| error | string | No | Contains the error message if ```success``` is ```false```. |
+| error | string | No | Contains the error message if `success` is `false`. |
 | apiUsage | integer | No | Current API usage by the user. |
 | apiDailyUsage | integer | No | Daily API usage by the user. |
 | id | string | No | Unique identifier of the updated user. |
@@ -112,10 +111,10 @@ The response from this endpoint includes the details of the updated user or an e
 | modification | string | No | Date and time of the updated user's last modification. |
 | lastLogin | string | No | Date and time of the updated user's last login. |
 
-###   
-Example Successful Response
+### Example Successful Response
 
-```{
+```
+{
   "success": true,
   "apiUsage": 150,
   "apiDailyUsage": 15,
@@ -140,12 +139,13 @@ Example Successful Response
   "modification": "2023-06-01T00:00:00Z", "lastLogin": "2024-05-01T00:00:00Z" }
 ```
 
-###   
-Example Error Response
 
-```{
+### Example Error Response
+
+```
+{
   "success": false,
   "error": "User not found.",
   "apiUsage": 150,
   "apiDailyUsage": 15
-}```
+}`

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Email alerts sending limits
 sidebar_position: 22
 ---
 # Email alerts sending limits

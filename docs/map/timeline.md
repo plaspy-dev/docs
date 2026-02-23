@@ -1,4 +1,5 @@
 ---
+sidebar_label: Timeline
 sidebar_position: 5
 ---
 # Timeline

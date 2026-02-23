@@ -1,4 +1,5 @@
 ---
+sidebar_label: POST /api/groups
 sidebar_position: 6
 ---
 # POST /api/groups
@@ -20,25 +21,25 @@ The request body must include the details of the group to be created.
 | description | string | No | A description of the group. |
 | devices | array | No | List of device IDs associated with the group. |
 
-###   
-Example Request Body
+### Example Request Body
 
-```{
+```
+{
   "name": "New Group",
   "description": "Description of the new group",
   "devices": ["dev-456", "dev-789"]
 }
 ```
 
-###   
-Authentication Required
 
-[Authentication required](../../../rest_api/developers/authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+### Authentication Required
 
-##   
-Example Request
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
-```POST /api/groups HTTP/1.1
+## Example Request
+
+```
+POST /api/groups HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 Content-Type: application/json
@@ -50,8 +51,8 @@ Content-Type: application/json
 }
 ```
 
-##   
-Response Parameters
+
+## Response Parameters
 
 The response includes details of the newly created group.
 
@@ -68,10 +69,10 @@ The response includes details of the newly created group.
 | creation | string | No | Date and time of group creation \(in ISO 8601 format\). |
 | lastModified | string | No | Date and time of the last modification of the group \(in ISO 8601 format\). |
 
-##   
-Example Successful Response
+## Example Successful Response
 
-```{
+```
+{
   "success": true,
   "error": null,
   "apiUsage": 123,
@@ -85,15 +86,17 @@ Example Successful Response
 }
 ```
 
-##   
-Example Error Response
 
-```{
+## Example Error Response
+
+```
+{
   "success": false,
   "error": "Invalid input",
   "apiUsage": 123,
   "apiDailyUsage": 45
 }
 ```
+
 
 This endpoint is crucial for adding new groups to the Plaspy application, allowing for better organization and management of devices by grouping them into named and described units.

@@ -1,13 +1,14 @@
 ---
+sidebar_label: PATCH /api/users/{userId}
 sidebar_position: 17
 ---
-# PATCH /api/users/{userId}
-The ```PATCH /api/users/{userId}``` endpoint allows for partially updating the information of a specific user. This method is useful when only a few fields need to be modified without sending all the user data. The user's identifier \(```userId```\) is included in the request URL.
+# PATCH /api/users/\{userId\}
+The `PATCH /api/users/{userId}` endpoint allows for partially updating the information of a specific user. This method is useful when only a few fields need to be modified without sending all the user data. The user's identifier \(`userId`\) is included in the request URL.
 
 ### Request Details
 
-- **HTTP Method:** ```PATCH```
-- **URL:** ```/api/users/{userId}```
+- **HTTP Method:** `PATCH`
+- **URL:** `/api/users/{userId}`
 - **Authentication:** Requires a Bearer token.
 - **Request Format:** JSON
 
@@ -17,8 +18,7 @@ The ```PATCH /api/users/{userId}``` endpoint allows for partially updating the i
 | --- | --- | --- | --- |
 | userId | string | Yes | The unique identifier of the user to be updated. |
 
-####   
-Request Body Parameters
+#### Request Body Parameters
 
 The request body must contain an array of patch operations to indicate the modifications to be made.
 
@@ -28,18 +28,18 @@ Each patch operation in the request body must follow the format defined in the J
 
 | Field | Type | Required | Description |
 | --- | --- | --- | --- |
-| op | string | Yes | The operation to be performed, can be ```add```, ```remove```, ```replace```, ```move```, ```copy```, or ```test```. |
+| op | string | Yes | The operation to be performed, can be `add`, `remove`, `replace`, `move`, `copy`, or `test`. |
 | path | string | Yes | The path to the field to be modified, following JSON Pointer syntax. |
-| value | object | No | The new value for the field specified in ```path``` \(required for ```add``` and ```replace```\). |
+| value | object | No | The new value for the field specified in `path` \(required for `add` and `replace`\). |
 
-###   
-Authentication Required
+### Authentication Required
 
-[Authentication required](../../../rest_api/developers/authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
 #### Example Request
 
-```PATCH /api/users/usr-12345 HTTP/1.1
+```
+PATCH /api/users/usr-12345 HTTP/1.1
 Host: www.plaspy.com
 Authorization: Bearer tu_token_de_autenticacion
 Content-Type: application/json
@@ -55,10 +55,10 @@ Content-Type: application/json
         "path": "/tags",
         "value": { "vip": "true" }
     }
-]```
+]
+```
 
-####   
-Response Parameters
+#### Response Parameters
 
 | Field | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -86,10 +86,10 @@ Response Parameters
 | modification | string | No | Date the user was last modified. |
 | lastLogin | string | No | Date of the user's last login. |
 
-####   
-Example Successful Response
+#### Example Successful Response
 
-```{
+```
+{
     "success": true,
     "id": "usr-12345",
     "name": "Juan Perez",
@@ -112,15 +112,16 @@ Example Successful Response
 }
 ```
 
-####   
-Example Error Response
+#### Example Error Response
 
-```{
+```
+{
     "success": false,
     "error": "Invalid patch operation",
     "apiUsage": 25,
     "apiDailyUsage": 100
 }
 ```
+
 
 This endpoint facilitates updating specific data of a user, ensuring flexibility and efficiency in managing users within the Plaspy system.

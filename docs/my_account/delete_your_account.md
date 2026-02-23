@@ -1,4 +1,5 @@
 ---
+sidebar_label: Delete Your Account
 sidebar_position: 35
 ---
 # Delete Your Account

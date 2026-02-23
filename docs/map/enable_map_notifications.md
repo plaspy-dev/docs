@@ -1,4 +1,5 @@
 ---
+sidebar_label: Enable map notifications
 sidebar_position: 9
 ---
 # Enable map notifications

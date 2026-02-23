@@ -1,4 +1,5 @@
 ---
+sidebar_label: Device Menu
 sidebar_position: 6
 ---
 # Device Menu

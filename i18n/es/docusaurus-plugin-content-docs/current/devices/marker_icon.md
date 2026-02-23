@@ -1,4 +1,5 @@
 ---
+sidebar_label: Personalizar marcador
 sidebar_position: 13
 ---
 # Personalizar marcador

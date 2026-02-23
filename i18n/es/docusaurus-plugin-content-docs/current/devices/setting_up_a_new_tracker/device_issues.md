@@ -1,4 +1,5 @@
 ---
+sidebar_label: Problemas con el Dispositivo
 sidebar_position: 3
 ---
 # Problemas con el Dispositivo

@@ -1,8 +1,9 @@
 ---
+sidebar_label: GET /api/groups/{groupId}
 sidebar_position: 7
 ---
-# GET /api/groups/{groupId}
-This endpoint allows you to retrieve the details of a specific group using its unique identifier \(```groupId```\). It is useful for obtaining detailed information about a group, including its name, description, associated devices, and other relevant details.
+# GET /api/groups/\{groupId\}
+This endpoint allows you to retrieve the details of a specific group using its unique identifier \(`groupId`\). It is useful for obtaining detailed information about a group, including its name, description, associated devices, and other relevant details.
 
 ## Request Details
 
@@ -16,21 +17,20 @@ To get the details of a group, you must send a GET request with the group's iden
 | --- | --- | --- | --- |
 | groupId | string | Yes | Unique identifier of the group to retrieve |
 
-###   
-Authentication Required
+### Authentication Required
 
-[Authentication required](../../../rest_api/developers/authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
-###   
-Example Request
+### Example Request
 
-```GET /api/groups/grp-125 HTTP/1.1
+```
+GET /api/groups/grp-125 HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 ```
 
-##   
-Response Parameters
+
+## Response Parameters
 
 The response includes details of the specified group.
 
@@ -47,10 +47,10 @@ The response includes details of the specified group.
 | creation | string | No | Date and time of group creation \(in ISO 8601 format\). |
 | lastModified | string | No | Date and time of the last modification of the group \(in ISO 8601 format\). |
 
-##   
-Example Successful Response
+## Example Successful Response
 
-```{
+```
+{
   "success": true,
   "error": null,
   "apiUsage": 123,
@@ -64,15 +64,17 @@ Example Successful Response
 }
 ```
 
-##   
-Example Error Response
 
-```{
+## Example Error Response
+
+```
+{
   "success": false,
   "error": "Group not found",
   "apiUsage": 123,
   "apiDailyUsage": 45
 }
 ```
+
 
 This endpoint is essential for obtaining detailed and specific information about a group in the Plaspy application, allowing users to view and manage the details of a specific group.

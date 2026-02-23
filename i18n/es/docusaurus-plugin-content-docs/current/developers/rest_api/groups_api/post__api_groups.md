@@ -1,4 +1,5 @@
 ---
+sidebar_label: POST /api/groups
 ---
 # POST /api/groups
 Este endpoint permite crear un nuevo grupo dentro del sistema. Es esencial para organizar dispositivos y gestionarlos eficientemente agrupándolos en unidades lógicas. Cada grupo puede tener un nombre único, una descripción y una lista de dispositivos asociados.
@@ -19,24 +20,25 @@ El cuerpo de la solicitud debe incluir los detalles del grupo que se va a crear.
 | description | string | No | Una descripción del grupo. |
 | devices | array | No | Lista de IDs de dispositivos asociados con el grupo. |
 
-###   
-Ejemplo del Cuerpo de la Solicitud
+### Ejemplo del Cuerpo de la Solicitud
 
-```{
+```
+{
   "name": "Nuevo Grupo",
   "description": "Descripción del nuevo grupo",
   "devices": ["dev-456", "dev-789"]
 }
 ```
 
-###   
-Autenticación Requerida
 
-La [autenticación requerida](../../../rest_api/developers/authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+### Autenticación Requerida
+
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
-```POST /api/groups HTTP/1.1
+```
+POST /api/groups HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 Content-Type: application/json
@@ -48,8 +50,8 @@ Content-Type: application/json
 }
 ```
 
-##   
-Parámetros de Respuesta
+
+## Parámetros de Respuesta
 
 La respuesta incluye detalles del grupo recién creado.
 
@@ -66,10 +68,10 @@ La respuesta incluye detalles del grupo recién creado.
 | creation | string | No | Fecha y hora de creación del grupo \(en formato ISO 8601\). |
 | lastModified | string | No | Fecha y hora de la última modificación del grupo \(en formato ISO 8601\). |
 
-###   
-Ejemplo de Respuesta Exitosa
+### Ejemplo de Respuesta Exitosa
 
-```{
+```
+{
   "success": true,
   "error": null,
   "apiUsage": 123,
@@ -83,15 +85,17 @@ Ejemplo de Respuesta Exitosa
 }
 ```
 
-###   
-Ejemplo de Respuesta de Error
 
-```{
+### Ejemplo de Respuesta de Error
+
+```
+{
   "success": false,
   "error": "Entrada inválida",
   "apiUsage": 123,
   "apiDailyUsage": 45
 }
 ```
+
 
 Este endpoint es crucial para agregar nuevos grupos a la aplicación Plaspy, permitiendo una mejor organización y gestión de dispositivos al agruparlos en unidades con nombre y descripción.

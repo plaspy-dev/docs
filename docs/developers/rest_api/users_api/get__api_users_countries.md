@@ -1,4 +1,5 @@
 ---
+sidebar_label: GET /api/users/countries
 sidebar_position: 13
 ---
 # GET /api/users/countries
@@ -9,7 +10,7 @@ This endpoint is especially beneficial for applications that require geographica
 ### Request Details
 
 **HTTP Method**: GET  
-**URL**: ```/api/users/countries```
+**URL**: `/api/users/countries`
 
 ### Request Parameters
 
@@ -17,32 +18,33 @@ This endpoint does not require any parameters in the request.
 
 ### Authentication Required
 
-[Authentication required](../../../rest_api/developers/authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
 ### Example Request
 
-```GET /api/users/countries HTTP/1.1
+```
+GET /api/users/countries HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer {your_auth_token}
 ```
 
-###   
-Response Parameters
+
+### Response Parameters
 
 The response from this endpoint contains a structure that includes the status of the request and a list of countries. The following table describes the fields in the response:
 
 | Field | Type | Required | Description |
 | --- | --- | --- | --- |
 | success | boolean | No | Indicates whether the request was successful. |
-| error | string | No | Contains the error message if ```success``` is ```false```. |
+| error | string | No | Contains the error message if `success` is `false`. |
 | apiUsage | integer | No | Current API usage by the user. |
 | apiDailyUsage | integer | No | Daily API usage by the user. |
 | countries | object | No | An object with two-digit ISO codes and country names. |
 
-###   
-Example Successful Response
+### Example Successful Response
 
-```{
+```
+{
   "success": true,
   "apiUsage": 100,
   "apiDailyUsage": 10,
@@ -57,12 +59,13 @@ Example Successful Response
 }
 ```
 
-###   
-Example Error Response
 
-```{
+### Example Error Response
+
+```
+{
   "success": false,
   "error": "Authentication failed. Invalid token.",
   "apiUsage": 100,
   "apiDailyUsage": 10
-}```
+}`

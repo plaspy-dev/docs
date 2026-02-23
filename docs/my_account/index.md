@@ -1,4 +1,5 @@
 ---
+sidebar_label: My Account
 sidebar_position: 4
 ---
 # My Account

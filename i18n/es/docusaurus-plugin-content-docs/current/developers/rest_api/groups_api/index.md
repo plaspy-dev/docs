@@ -1,4 +1,5 @@
 ---
+sidebar_label: Grupos API
 sidebar_position: 6
 ---
 # Grupos API
@@ -12,12 +13,12 @@ En el ámbito del seguimiento satelital, la organización eficiente de los dispo
 
 La API de Grupos de Plaspy incluye varios endpoints que cubren una amplia gama de funcionalidades:
 
-1. **[GET /api/groups](../../../groups_api/rest_api/developers/get__api_groups)**: Permite recuperar una lista de todos los grupos disponibles en la aplicación de seguimiento. Este endpoint es útil para obtener información detallada sobre cada grupo, incluyendo su nombre, descripción, dispositivos asociados, y otros detalles relevantes.
-2. **[POST /api/groups](../../../groups_api/rest_api/developers/post__api_groups)**: Permite crear un nuevo grupo dentro del sistema. Este endpoint es esencial para organizar dispositivos y gestionarlos eficientemente agrupándolos en unidades lógicas con un nombre y una descripción.
-3. **[PUT /api/groups/\{groupId\}](../../../groups_api/rest_api/developers/put__api_groups_groupid)**: Permite actualizar los detalles de un grupo existente. Este endpoint es crucial para mantener la información de los grupos actualizada, incluyendo su nombre, descripción y dispositivos asociados.
-4. **[DELETE /api/groups/\{groupId\}](../../../groups_api/rest_api/developers/delete__api_groups_groupid)**: Permite eliminar un grupo existente del sistema. Este endpoint es esencial para gestionar y organizar los grupos, permitiendo eliminar aquellos que ya no son necesarios.
-5. **[GET /api/groups/\{groupId\}](../../../groups_api/rest_api/developers/get__api_groups_groupid)**: Permite recuperar los detalles de un grupo específico utilizando su identificador único \(groupId\). Este endpoint es útil para obtener información detallada sobre un grupo, incluyendo su nombre, descripción, dispositivos asociados, y otros detalles relevantes.
-6. **[PATCH /api/groups/\{groupId\}](../../../groups_api/rest_api/developers/patch__api_groups_groupid)**: Permite actualizar parcialmente los detalles de un grupo existente utilizando su identificador único \(groupId\). Este endpoint es útil para modificar uno o varios atributos de un grupo sin necesidad de enviar todos los datos del grupo.
+1. **[GET /api/groups](get__api_groups)**: Permite recuperar una lista de todos los grupos disponibles en la aplicación de seguimiento. Este endpoint es útil para obtener información detallada sobre cada grupo, incluyendo su nombre, descripción, dispositivos asociados, y otros detalles relevantes.
+2. **[POST /api/groups](post__api_groups)**: Permite crear un nuevo grupo dentro del sistema. Este endpoint es esencial para organizar dispositivos y gestionarlos eficientemente agrupándolos en unidades lógicas con un nombre y una descripción.
+3. **[PUT /api/groups/\{groupId\}](put__api_groups_groupid)**: Permite actualizar los detalles de un grupo existente. Este endpoint es crucial para mantener la información de los grupos actualizada, incluyendo su nombre, descripción y dispositivos asociados.
+4. **[DELETE /api/groups/\{groupId\}](delete__api_groups_groupid)**: Permite eliminar un grupo existente del sistema. Este endpoint es esencial para gestionar y organizar los grupos, permitiendo eliminar aquellos que ya no son necesarios.
+5. **[GET /api/groups/\{groupId\}](get__api_groups_groupid)**: Permite recuperar los detalles de un grupo específico utilizando su identificador único \(groupId\). Este endpoint es útil para obtener información detallada sobre un grupo, incluyendo su nombre, descripción, dispositivos asociados, y otros detalles relevantes.
+6. **[PATCH /api/groups/\{groupId\}](patch__api_groups_groupid)**: Permite actualizar parcialmente los detalles de un grupo existente utilizando su identificador único \(groupId\). Este endpoint es útil para modificar uno o varios atributos de un grupo sin necesidad de enviar todos los datos del grupo.
 
 ## Estructura de las Solicitudes y Respuestas
 

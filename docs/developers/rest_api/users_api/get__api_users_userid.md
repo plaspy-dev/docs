@@ -1,7 +1,8 @@
 ---
+sidebar_label: GET /api/users/{userId}
 sidebar_position: 15
 ---
-# GET /api/users/{userId}
+# GET /api/users/\{userId\}
 The **GET /api/users/\{userId\}** endpoint allows you to retrieve the details of a specific user registered in the system. It provides comprehensive information about the user, including name, email, country, time zone, and other important attributes. This endpoint is useful for user management, allowing system administrators to review and manage the data of a particular user.
 
 This endpoint is especially beneficial for applications that need to display detailed user information or for administrators who need to verify or update a specific user's data.
@@ -9,7 +10,7 @@ This endpoint is especially beneficial for applications that need to display det
 ### Request Details
 
 **HTTP Method**: GET  
-**URL**: ```/api/users/{userId}```
+**URL**: `/api/users/{userId}`
 
 ### Request Parameters
 
@@ -17,28 +18,26 @@ This endpoint is especially beneficial for applications that need to display det
 | --- | --- | --- | --- |
 | userId | string | Yes | The unique identifier of the user. |
 
-###   
-Authentication Required
+### Authentication Required
 
-[Authentication required](../../../rest_api/developers/authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
-###   
-Example Request
+### Example Request
 
-```GET /api/users/12345 HTTP/1.1
+```
+GET /api/users/12345 HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer {your_auth_token}
 ```
 
-###   
-Response Parameters
+### Response Parameters
 
 The response from this endpoint contains a detailed structure of the user. The following table describes the fields in the response:
 
 | Field | Type | Required | Description |
 | --- | --- | --- | --- |
 | success | boolean | No | Indicates whether the request was successful. |
-| error | string | No | Contains the error message if ```success``` is ```false```. |
+| error | string | No | Contains the error message if `success` is `false`. |
 | apiUsage | integer | No | Current API usage by the user. |
 | apiDailyUsage | integer | No | Daily API usage by the user. |
 | id | string | No | Unique identifier of the user. |
@@ -62,10 +61,10 @@ The response from this endpoint contains a detailed structure of the user. The f
 | modification | string | No | Date and time of the user's last modification. |
 | lastLogin | string | No | Date and time of the user's last login. |
 
-###   
-Example Successful Response
+### Example Successful Response
 
-```{
+```
+{
   "success": true,
   "apiUsage": 150,
   "apiDailyUsage": 15,
@@ -94,12 +93,13 @@ Example Successful Response
 }
 ```
 
-###   
-Example Error Response
 
-```{
+### Example Error Response
+
+```
+{
   "success": false,
   "error": "User not found.",
   "apiUsage": 150,
   "apiDailyUsage": 15
-}```
+}`

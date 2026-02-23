@@ -1,4 +1,5 @@
 ---
+sidebar_label: Mileage Calculation
 sidebar_position: 10
 ---
 # Mileage Calculation

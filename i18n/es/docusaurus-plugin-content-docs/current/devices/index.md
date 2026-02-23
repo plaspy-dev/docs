@@ -1,4 +1,5 @@
 ---
+sidebar_label: Dispositivos
 sidebar_position: 2
 ---
 # Dispositivos

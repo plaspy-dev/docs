@@ -1,4 +1,5 @@
 ---
+sidebar_label: Grupos
 sidebar_position: 9
 ---
 # Grupos

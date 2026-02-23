@@ -1,4 +1,5 @@
 ---
+sidebar_label: Enable the API
 sidebar_position: 51
 ---
 # Enable the API

@@ -1,4 +1,5 @@
 ---
+sidebar_label: Cálculo de kilometraje
 sidebar_position: 10
 ---
 # Cálculo de kilometraje

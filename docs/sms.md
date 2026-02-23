@@ -1,4 +1,5 @@
 ---
+sidebar_label: SMS
 sidebar_position: 12
 ---
 # SMS

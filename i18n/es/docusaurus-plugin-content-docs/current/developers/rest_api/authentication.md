@@ -1,4 +1,5 @@
 ---
+sidebar_label: Autenticación
 sidebar_position: 4
 ---
 # Autenticación
@@ -10,14 +11,14 @@ La autenticación es un paso crucial para asegurar que solo los usuarios autoriz
 
 ### Obtener el Token de Autenticación
 
-El token de autenticación se obtiene mediante una solicitud POST al endpoint ```/api/Auth/Token```. A continuación, se detallan los pasos para realizar esta solicitud.
+El token de autenticación se obtiene mediante una solicitud POST al endpoint `/api/Auth/Token`. A continuación, se detallan los pasos para realizar esta solicitud.
 
 ### Detalles de la Solicitud
 
-- **Endpoint:** ```/api/Auth/Token```
-- **Método:** ```POST```
-- **Encabezado:** ```Content-Type: application/json```
-- **Base URL:** ```https://api.plaspy.com```
+- **Endpoint:** `/api/Auth/Token`
+- **Método:** `POST`
+- **Encabezado:** `Content-Type: application/json`
+- **Base URL:** `https://api.plaspy.com`
 
 ### Parámetros de la Solicitud
 
@@ -28,16 +29,18 @@ El token de autenticación se obtiene mediante una solicitud POST al endpoint ``
 
 ### Cuerpo de la Solicitud
 
-```{
+```
+{
   "userName": "tu_nombre_de_usuario",
   "apiKey": "tu_api_key"
 }
 ```
 
-###   
-Ejemplo de Solicitud
 
-```POST /api/Auth/Token HTTP/1.1
+### Ejemplo de Solicitud
+
+```
+POST /api/Auth/Token HTTP/1.1
 Host: api.plaspy.com
 Content-Type: application/json
 {
@@ -46,63 +49,68 @@ Content-Type: application/json
 }
 ```
 
-###   
-Parámetros de Respuesta
+
+### Parámetros de Respuesta
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| success | Boolean | Indica si la solicitud fue exitosa \(```true``` o ```false```\). |
+| success | Boolean | Indica si la solicitud fue exitosa \(`true` o `false`\). |
 | token | String | El token de autenticación JWT. |
 | expires | String | La fecha y hora de expiración del token. |
 | error | String | Mensaje explicando la causa del error \(si aplica\). |
 
 ### Ejemplo de Respuesta Exitosa
 
-```{
+```
+{
   "success": true,
   "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...",
   "expires": "2025-12-31T23:59:59Z"
 }
 ```
 
-###   
-Ejemplo de Respuesta de Error
 
-```{
+### Ejemplo de Respuesta de Error
+
+```
+{
   "success": false,
   "error": "Invalid API key or username."
 }
 ```
 
-##   
-Usar el Token de Autenticación
 
-Una vez obtenido el token de autenticación, este debe incluirse en el encabezado ```Authorization``` de todas las solicitudes a la API. El formato del encabezado es ```Authorization: Bearer tu_token```.
+## Usar el Token de Autenticación
+
+Una vez obtenido el token de autenticación, este debe incluirse en el encabezado `Authorization` de todas las solicitudes a la API. El formato del encabezado es `Authorization: Bearer tu_token`.
 
 ### Ejemplo de Solicitud con Token
 
-```GET /api/devices HTTP/1.1
+```
+GET /api/devices HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 ```
 
-##   
-Manejo de Errores
+
+## Manejo de Errores
 
 Si la solicitud para obtener el token de autenticación falla, la respuesta incluirá un mensaje de error explicando la causa del fallo.
 
 ### Ejemplo de Respuesta de Error
 
-```{
+```
+{
   "success": false,
   "error": "Invalid API key or username."
 }
 ```
 
-- **success:** Indica que la solicitud falló \(```false```\).
+
+- **success:** Indica que la solicitud falló \(`false`\).
 - **error:** Mensaje que explica la causa del error.
 
 ## Consideraciones de Seguridad
 
 - **Protección del Token:** Mantén tu token de autenticación seguro y no lo compartas con terceros no autorizados.
-- **Renovación del Token:** El token tiene una fecha de expiración \(```expires```\). Asegúrate de renovarlo antes de que expire para mantener el acceso continuo a la API.
+- **Renovación del Token:** El token tiene una fecha de expiración \(`expires`\). Asegúrate de renovarlo antes de que expire para mantener el acceso continuo a la API.
