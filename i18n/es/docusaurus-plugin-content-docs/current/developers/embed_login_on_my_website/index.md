@@ -1,11 +1,12 @@
 ---
 sidebar_label: Insertar en mi página web
 sidebar_position: 54
+sidebar_class_name: show-only-plaspy
 ---
 # Insertar en mi página web
 Insertar el formulario de ingreso de Plaspy en tu página web puede facilitar el acceso de tus usuarios, permitiéndoles iniciar sesión directamente desde tu sitio. Esto mejora la experiencia del usuario y centraliza el acceso a Plaspy desde tu propia página web. A continuación, se detallan los pasos para agregar el formulario de ingreso de Plaspy utilizando un iframe.
 
-## ![](./2-insertar-formulario-de-inicio-sesion.mp4)  
+## ![](./2-insertar-formulario-de-inicio-sesion.webp)  
 Instrucciones para insertar el iframe
 
 ### Paso a Paso

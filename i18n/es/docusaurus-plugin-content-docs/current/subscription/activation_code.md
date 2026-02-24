@@ -1,6 +1,7 @@
 ---
 sidebar_label: Código de Activación
 sidebar_position: 38
+sidebar_class_name: show-only-plaspy
 ---
 # Código de Activación
 Para activar un [código de activación](https://app.plaspy.com/Subscription?tp=1) en Plaspy, siga los pasos detallados a continuación. Es importante que disponga de un código válido, suministrado por un proveedor de Plaspy por medio de un correo electrónico.

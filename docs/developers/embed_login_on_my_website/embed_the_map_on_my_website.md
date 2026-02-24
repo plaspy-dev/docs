@@ -7,7 +7,7 @@ Embedding the Plaspy map with the position of your devices on your website facil
 
 Below are the steps to embed the map on your website, showing current information of selected devices from a group.
 
-![](./1-insert-map-in-web-page.mp4)
+![](./1-insert-map-in-web-page.webp)
 
 ## Instructions to Embed the Map
 
@@ -33,7 +33,7 @@ To embed the map on your website, follow these steps:
 ###   
 Integration Example
 
-To see a functional example of this integration, you can refer to the following video: [See functional example](./1-insertar-mapa-en-pagina-web.mp4)
+To see a functional example of this integration, you can refer to the following video: [See functional example](./1-insertar-mapa-en-pagina-web.webp)
 
 ## Final Considerations
 

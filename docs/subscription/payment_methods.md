@@ -1,6 +1,7 @@
 ---
 sidebar_label: Payment Methods
 sidebar_position: 38
+sidebar_class_name: show-only-plaspy
 ---
 # Payment Methods
 Plaspy offers various [subscription](https://app.plaspy.com/Subscription) options and payment methods to cater to the needs of all its users. Understanding these options will help you choose the best fit for your requirements, optimizing your costs and ensuring continuous and efficient service.

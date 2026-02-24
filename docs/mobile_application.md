@@ -1,11 +1,12 @@
 ---
 sidebar_label: Mobile Application
 sidebar_position: 14
+sidebar_class_name: show-only-plaspy
 ---
 # Mobile Application
 Plaspy offers a mobile application for Android and iPhone devices, providing all the features and tools you need as a Plaspy user. This guide will explain how to install the application and how to start using it on your mobile device.
 
-![](./1-abrir-plaspy.mp4)
+![](./1-abrir-plaspy.webp)
 
 ## Installing the Application
 

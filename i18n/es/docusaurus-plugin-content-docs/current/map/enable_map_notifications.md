@@ -22,7 +22,7 @@ Para recibir notificaciones de alertas de Plaspy en tu escritorio, es necesario 
 
     - Asegúrate de que el navegador no esté en modo incógnito, ya que este modo puede bloquear las notificaciones.  
   
-![](./1-notificaciones-google.mp4)
+![](./1-notificaciones-google.webp)
 
 ## Firefox
 
@@ -41,7 +41,7 @@ Para recibir notificaciones de alertas de Plaspy en tu escritorio, es necesario 
 
     - Asegúrate de que el navegador no esté en modo privado, ya que este modo puede bloquear las notificaciones.  
   
-![](./2-notificaciones-firefox.mp4)
+![](./2-notificaciones-firefox.webp)
 
 ## Consideraciones Finales
 

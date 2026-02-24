@@ -1,6 +1,7 @@
 ---
 sidebar_label: Configuración
 sidebar_position: 6
+sidebar_class_name: show-only-plaspy
 ---
 # Configuración
 La sección de [Configuración](https://app.plaspy.com/Settings) en Plaspy te permite personalizar la apariencia y funcionalidad de tu cuenta, adaptándola a las necesidades específicas de tu organización. Desde la personalización de logotipos y colores hasta la configuración de servidores de correo y notificaciones, esta sección te brinda un control total sobre cómo se presenta y opera Plaspy para tu equipo y clientes.

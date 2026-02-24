@@ -1,0 +1,7 @@
+.not-plaspy-host .show-only-plaspy {
+    display: none !important;
+}
+
+.not-plaspy-host footer {
+    display: none !important;
+}

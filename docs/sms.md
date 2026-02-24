@@ -1,6 +1,7 @@
 ---
 sidebar_label: SMS
 sidebar_position: 12
+sidebar_class_name: show-only-plaspy
 ---
 # SMS
 The "[SMS](https://app.plaspy.com/SMS)" section in Plaspy allows users to manage and monitor text messages sent by their devices. This functionality is essential for sending alerts and commands efficiently and cost-effectively. Users can view message history, add balance to their account, and set daily sending limits.

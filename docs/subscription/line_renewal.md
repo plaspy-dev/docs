@@ -1,6 +1,7 @@
 ---
 sidebar_label: Line Renewal
 sidebar_position: 39
+sidebar_class_name: show-only-plaspy
 ---
 # Line Renewal
 The "[Lines](https://app.plaspy.com/SDG/Lines)" section in Plaspy allows users to manage the mobile lines associated with their tracking devices. A key functionality of this section is the renewal of data plans, which ensures the continuity of satellite tracking service without interruptions. Renewal can be easily done from the user interface and allows extending the validity of a specific line's data plan.

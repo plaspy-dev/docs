@@ -1,6 +1,7 @@
 ---
 sidebar_label: Billing Information
 sidebar_position: 24
+sidebar_class_name: show-only-plaspy
 ---
 # Billing Information
 The "[Billing Information](https://app.plaspy.com/Checkout/?from=/Account)" section in Plaspy allows users to manage and update the necessary details for billing contracted services. Here, you can register and keep the required information up to date to issue invoices correctly, which is essential to ensure the continuity of services without interruptions.

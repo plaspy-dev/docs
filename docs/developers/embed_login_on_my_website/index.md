@@ -1,11 +1,12 @@
 ---
 sidebar_label: Embed login on my website
 sidebar_position: 53
+sidebar_class_name: show-only-plaspy
 ---
 # Embed login on my website
 Embedding the Plaspy login form on your website can facilitate user access, allowing them to log in directly from your site. This improves user experience and centralizes access to Plaspy from your own webpage. Below are the steps to add the Plaspy login form using an iframe.
 
-![](./2-insert-login-form.mp4)
+![](./2-insert-login-form.webp)
 
 ## Instructions to Embed the Iframe
 

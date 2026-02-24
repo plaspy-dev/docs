@@ -1,11 +1,12 @@
 ---
 sidebar_label: Aplicación Móvil
 sidebar_position: 14
+sidebar_class_name: show-only-plaspy
 ---
 # Aplicación Móvil
 Plaspy ofrece una aplicación móvil para dispositivos Android y iPhone, que proporciona todas las funciones y herramientas que necesitas como usuario de Plaspy. Esta guía te explicará cómo instalar la aplicación y cómo comenzar a usarla en tu dispositivo móvil.
 
-![](./1-abrir-plaspy.mp4)
+![](./1-abrir-plaspy.webp)
 
 ## Instalación de la Aplicación
 

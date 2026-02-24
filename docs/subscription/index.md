@@ -1,6 +1,7 @@
 ---
 sidebar_label: Subscription
 sidebar_position: 5
+sidebar_class_name: show-only-plaspy
 ---
 # Subscription
 Welcome to the subscription help section of Plaspy. Here you will find all the necessary information to manage and optimize your experience with our satellite tracking services. Our platform is designed to offer a variety of subscription options tailored to your specific needs, whether you are looking for a free solution to get started or a more advanced plan for comprehensive management.

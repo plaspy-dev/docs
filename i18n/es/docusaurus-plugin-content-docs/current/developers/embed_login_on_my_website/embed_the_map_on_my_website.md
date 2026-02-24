@@ -5,7 +5,7 @@ sidebar_position: 8
 # Insertar el mapa en mi página web
 Incrustar el mapa de Plaspy con la posición de tus dispositivos en tu página web facilita la visualización en tiempo real de las posiciones de los dispositivos para los visitantes. Esto permite a los usuarios ver las ubicaciones sin necesidad de acceder directamente a Plaspy, y puedes proteger esta visualización mediante un mecanismo de autenticación propio, independiente de los datos de acceso de Plaspy.
 
-![](./1-insertar-mapa-en-pagina-web.mp4)
+![](./1-insertar-mapa-en-pagina-web.webp)
 
 A continuación, se detallan los pasos para incrustar el mapa en tu página web, mostrando información actual de los dispositivos seleccionados de un grupo.
 

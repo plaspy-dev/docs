@@ -1,6 +1,7 @@
 ---
 sidebar_label: Información de facturación
 sidebar_position: 25
+sidebar_class_name: show-only-plaspy
 ---
 # Información de facturación
 La sección de "[Información de Facturación](https://app.plaspy.com/Checkout/?from=/Account)" en Plaspy permite a los usuarios gestionar y actualizar los detalles necesarios para la facturación de los servicios contratados. Aquí, puedes registrar y mantener actualizada la información requerida para emitir facturas correctamente, lo cual es esencial para asegurar la continuidad de los servicios sin interrupciones.

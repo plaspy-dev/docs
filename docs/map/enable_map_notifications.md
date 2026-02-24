@@ -22,7 +22,7 @@ To receive Plaspy alert notifications on your desktop, you need to enable notifi
 
     - Ensure the browser is not in incognito mode, as this mode can block notifications.
 
-![](./1-notifications-google.mp4)
+![](./1-notifications-google.webp)
 
 ## Firefox
 
@@ -41,7 +41,7 @@ To receive Plaspy alert notifications on your desktop, you need to enable notifi
 
     - Ensure the browser is not in private mode, as this mode can block notifications.
 
-![](./2-notifications-firefox.mp4)
+![](./2-notifications-firefox.webp)
 
 ## Final Considerations
 

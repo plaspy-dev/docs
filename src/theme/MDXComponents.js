@@ -1,12 +1,12 @@
 import React from 'react';
 import MDXComponents from '@theme-original/MDXComponents';
 import Link from '@docusaurus/Link';
+import { getFromUrlOrLocalStorage } from '@site/src/utils/domain';
 
 function replaceDomain(url) {
-    if (typeof window === 'undefined') return url;
-    const clientDomain = window.localStorage.getItem('client-domain');
-    if (!clientDomain) return url;
-    // solo reemplazar si es el dominio oficial
+    const clientDomain = getFromUrlOrLocalStorage('f');
+    if (!clientDomain)
+        return url;
     if (url?.startsWith('https://app.plaspy.com')) {
         return url.replace('https://app.plaspy.com', `${clientDomain}`);
     }

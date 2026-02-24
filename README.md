@@ -112,7 +112,7 @@ The translation files will be generated in the `i18n` directory.
 
 This documentation is intended to be published at:
 
-https://help.plaspy.com
+https://docs.trackservers.net
 
 ---
 

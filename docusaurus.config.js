@@ -86,7 +86,7 @@ const config = {
       },
       navbar: {
         logo: {
-          alt: 'Plaspy Logo',
+          alt: 'Logo',
           src: 'img/logo.svg',
         },
         items: [

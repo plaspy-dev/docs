@@ -1,6 +1,7 @@
 ---
 sidebar_label: Renovación de Líneas
 sidebar_position: 40
+sidebar_class_name: show-only-plaspy
 ---
 # Renovación de Líneas
 La sección de "[Líneas](https://app.plaspy.com/SDG/Lines)" en Plaspy permite a los usuarios gestionar las líneas móviles asociadas a sus dispositivos de rastreo. Una funcionalidad clave de esta sección es la renovación de planes de datos, lo que asegura la continuidad del servicio de seguimiento satelital sin interrupciones. La renovación puede realizarse fácilmente desde la interfaz de usuario y permite extender la validez del plan de datos de una línea específica.

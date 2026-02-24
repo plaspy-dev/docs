@@ -1,6 +1,7 @@
 ---
 sidebar_label: Subscripción
 sidebar_position: 5
+sidebar_class_name: show-only-plaspy
 ---
 # Subscripción
 Bienvenido a la sección de ayuda sobre suscripciones de Plaspy. Aquí encontrarás toda la información necesaria para gestionar y optimizar tu experiencia con nuestros servicios de seguimiento satelital. Nuestra plataforma está diseñada para ofrecer diversas opciones de suscripción que se adapten a tus necesidades específicas, ya sea que busques un plan estándar o uno más avanzado para una gestión integral.
