@@ -12,3 +12,9 @@ export function getFromUrlOrLocalStorage(key) {
     value = window.localStorage.getItem(`client_${key}`);
     return value;
 }
+
+export function saveAllFromUrl() {
+    getFromUrlOrLocalStorage("f");
+    getFromUrlOrLocalStorage("l");
+    getFromUrlOrLocalStorage("n");
+}

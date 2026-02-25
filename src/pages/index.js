@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { getFromUrlOrLocalStorage } from '../utils/domain';
+import { saveAllFromUrl } from '../utils/domain';
 
 export default function Home() {
   const { i18n } = useDocusaurusContext();
@@ -10,8 +10,7 @@ export default function Home() {
     if (!ExecutionEnvironment.canUseDOM)
       return;
 
-    getFromUrlOrLocalStorage("f");
-    getFromUrlOrLocalStorage("l");
+    saveAllFromUrl();
 
     const fallback = '/docs/welcome_to_plaspy_help';
     const urlLang = i18n.locales.find(locale => window.location.pathname.startsWith(`/${locale}/`));
