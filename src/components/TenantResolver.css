@@ -1,7 +1,31 @@
-.not-plaspy-host .show-only-plaspy {
-    display: none !important;
+.d-none {
+    display: none;
 }
 
-.not-plaspy-host footer {
-    display: none !important;
+.brand-logo {
+    min-width: 90px;
+}
+
+.show-only-plaspy {
+    display: none;
+}
+
+.not-plaspy-host .hide-only-plaspy {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+.plaspy-host .hide-only-plaspy {
+    display: none;
+}
+
+.plaspy-host .show-only-plaspy {
+    display: inherit;
+}
+
+.plaspy-host footer {
+    display: inherit;
 }

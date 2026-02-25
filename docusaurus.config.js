@@ -88,6 +88,7 @@ const config = {
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
+          className: 'brand-logo'
         },
         items: [
           {

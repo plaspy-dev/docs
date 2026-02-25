@@ -1,4 +1,4 @@
-# Plaspy Help Center
+# Plaspy Documentation Center
 
 Official documentation and knowledge base for the **Plaspy** platform.
 

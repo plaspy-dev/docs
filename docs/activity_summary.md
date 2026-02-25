@@ -3,7 +3,7 @@ sidebar_label: Activity Summary
 sidebar_position: 8
 ---
 # Activity Summary
-The [Activity Summary](https://app.plaspy.com/Summary) in Plaspy is an essential tool for monitoring the behavior of tracked devices over a specific period. This feature allows users to review routes, fuel consumption, and other important aspects of the vehicles or assets they are managing.
+The [Activity Summary](https://app.plaspy.com/Summary) is an essential tool for monitoring the behavior of tracked devices over a specific period. This feature allows users to review routes, fuel consumption, and other important aspects of the vehicles or assets they are managing.
 
 ![](./image_1718312800611.gif)
 
@@ -50,7 +50,7 @@ At Plaspy, we have integrated an innovative feature that allows users to interac
 
 - **Efficiency and Time Savings:**Direct interaction with the data through the chat reduces the time it would normally take to search for and analyze information.
 - **Accessibility and Ease of Use:**No advanced technical knowledge is required to use this tool. The AI is designed to understand and respond in natural language, making it easy for all users to use.
-- **Constant Updates:**Being integrated with the Plaspy system, the AI provides real-time updated data, ensuring you always have the most accurate information at your disposal.
+- **Constant Updates:**Being integrated with the system, the AI provides real-time updated data, ensuring you always have the most accurate information at your disposal.
 
 ### Generated Charts
 
@@ -83,7 +83,7 @@ The Activity Summary generates several charts that provide a detailed view of th
 
 ### Email Notifications
 
-The email notification functionality in Plaspy allows users to receive activity summary reports directly in their inboxes. These notifications can be configured to be sent daily or weekly, and you can define the specific devices or groups for which you want to receive reports.
+The email notification functionality allows users to receive activity summary reports directly in their inboxes. These notifications can be configured to be sent daily or weekly, and you can define the specific devices or groups for which you want to receive reports.
 
 #### Configuring Notifications
 

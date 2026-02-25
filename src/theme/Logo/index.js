@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -13,31 +13,6 @@ function getLogoUrl() {
   return `https://s.trackservers.net/img/logo/${logo}`;
 }
 
-function LogoThemedImage({ logo, alt, imageClassName }) {
-
-  logo.src = getLogoUrl() || logo.src;
-  const sources = {
-    light: useBaseUrl(logo.src),
-    dark: useBaseUrl(logo.srcDark || logo.src),
-  };
-  const themedImage = (
-    <ThemedImage
-      className={logo.className}
-      sources={sources}
-      height={logo.height}
-      width={logo.width}
-      alt={alt}
-      style={logo.style}
-    />
-  );
-  // Is this extra div really necessary?
-  // introduced in https://github.com/facebook/docusaurus/pull/5666
-  return imageClassName ? (
-    <div className={imageClassName}>{themedImage}</div>
-  ) : (
-    themedImage
-  );
-}
 export default function Logo(props) {
   const {
     siteConfig: { title },
@@ -45,6 +20,51 @@ export default function Logo(props) {
   const {
     navbar: { title: navbarTitle, logo },
   } = useThemeConfig();
+
+  const [sources, setSources] = useState({
+    light: useBaseUrl('img/empty.svg'),
+    dark: useBaseUrl('img/empty.svg')
+  });
+
+  logo.src = useBaseUrl(logo.src);
+  logo.srcDark = logo.srcDark ? useBaseUrl(logo.srcDark) : null;
+
+  useEffect(() => {
+    const timeOut = setTimeout(() => {
+      logo.src = getLogoUrl() || logo.src;
+      setSources({
+        light: logo.src,
+        dark: logo.srcDark || logo.src
+      });
+    }, 0);
+    return () => {
+      clearTimeout(timeOut);
+    }
+  }, [logo]);
+
+  function LogoThemedImage({ logo, alt, imageClassName }) {
+
+    const themedImage = (
+      <>
+        <ThemedImage
+          className={logo.className}
+          sources={sources}
+          height={logo.height}
+          width={logo.width}
+          alt={alt}
+          style={logo.style}
+        />
+      </>
+    );
+    // Is this extra div really necessary?
+    // introduced in https://github.com/facebook/docusaurus/pull/5666
+    return imageClassName ? (
+      <div className={imageClassName}>{themedImage}</div>
+    ) : (
+      themedImage
+    );
+  }
+
   const { imageClassName, titleClassName, ...propsRest } = props;
   const logoLink = useBaseUrl(logo?.href || '/');
   // If visible title is shown, fallback alt text should be

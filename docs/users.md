@@ -3,7 +3,7 @@ sidebar_label: Users
 sidebar_position: 10
 ---
 # Users
-In the "[Users](https://app.plaspy.com/Users)" section of the Plaspy application, you can manage user accounts that have access to the platform. This functionality is essential for granting and managing permissions, roles, and access for different users according to their needs and responsibilities within the system.
+In the "[Users](https://app.plaspy.com/Users)" section, you can manage user accounts that have access to the platform. This functionality is essential for granting and managing permissions, roles, and access for different users according to their needs and responsibilities within the system.
 
 ![](./users-animated.webp "users-animated.webp")
 
@@ -29,7 +29,7 @@ To access the users section, go to the top right menu and select the gear icon \
 
 ### User Types
 
-The types of users in Plaspy determine the permissions and scope of actions they can perform within the platform. The different types of users available are detailed below:
+The types of users determine the permissions and scope of actions they can perform within the platform. The different types of users available are detailed below:
 
 1. **Standard User:**
 
@@ -49,7 +49,7 @@ The types of users in Plaspy determine the permissions and scope of actions they
 
 ### User Privileges
 
-User privileges in Plaspy define what actions a user can perform on the assigned devices. The privileges that can be configured include:
+User privileges define what actions a user can perform on the assigned devices. The privileges that can be configured include:
 
 - **Edit:** Allows the user to modify names, icons, alerts, and other details of the assigned devices.
 - **Phone Call Commands:** Here you can change the authorized number to call the tracker. When you call the device, it can respond with an SMS or activate the cabin monitoring \(listen-in\) feature.

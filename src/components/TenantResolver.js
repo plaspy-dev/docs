@@ -11,25 +11,25 @@ export default function TenantResolver() {
             window.history.replaceState({}, document.title, window.location.pathname);
 
         let obs = null;
+        let isPlaspyHost = !getFromUrlOrLocalStorage('f');
 
-        if (getFromUrlOrLocalStorage('f')) {
-            document.body.classList.add('not-plaspy-host');
-            obs = new MutationObserver((muts) => {
-                for (const m of muts) {
-                    if (m.type === "attributes"
-                        && m.attributeName === "class"
-                        && !document.body.classList.contains('not-plaspy-host')) {
-                        document.body.classList.add('not-plaspy-host');
-                    }
+        document.body.classList.add(isPlaspyHost ? 'plaspy-host' : 'not-plaspy-host');
+        obs = new MutationObserver((muts) => {
+            for (const m of muts) {
+                if (m.type === "attributes"
+                    && m.attributeName === "class"
+                    && !document.body.classList.contains(isPlaspyHost ? 'plaspy-host' : 'not-plaspy-host')) {
+                    document.body.classList.add(isPlaspyHost ? 'plaspy-host' : 'not-plaspy-host');
+                    document.body.classList.remove(isPlaspyHost ? 'not-plaspy-host' : 'plaspy-host');
                 }
-            });
+            }
+        });
 
-            obs.observe(document.body, { attributes: true, attributeFilter: ["class"] });
-        }
+        obs.observe(document.body, { attributes: true, attributeFilter: ["class"] });
 
         return () => {
             obs?.disconnect();
-            document.body.classList.remove('not-plaspy-host');
+            document.body.classList.remove(isPlaspyHost ? 'plaspy-host' : 'not-plaspy-host');
         }
     }, []);
 

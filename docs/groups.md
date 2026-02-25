@@ -3,7 +3,7 @@ sidebar_label: Groups
 sidebar_position: 9
 ---
 # Groups
-The "[Groups](https://app.plaspy.com/Groups)" section in Plaspy allows users to efficiently organize their devices by grouping them according to different criteria. This facilitates management, monitoring, and assignment of access permissions to devices. Groups are a fundamental tool for maintaining an organized and controlled structure of tracked assets.
+The "[Groups](https://app.plaspy.com/Groups)" section allows users to efficiently organize their devices by grouping them according to different criteria. This facilitates management, monitoring, and assignment of access permissions to devices. Groups are a fundamental tool for maintaining an organized and controlled structure of tracked assets.
 
 To access the groups section, go to the top menu and select "", then choose "[Groups](https://app.plaspy.com/Groups)". Here you can create new groups, edit existing ones, and assign devices to each group.
 
@@ -20,7 +20,7 @@ To access the groups section, go to the top menu and select "", then choose "[Gr
 
 ### Group Functionalities
 
-Groups in Plaspy allow you to perform the following actions:
+Groups allow you to perform the following actions:
 
 - **Filter on the Map:** View only the devices that belong to a specific group on the [map](https://app.plaspy.com/Map), facilitating visualization and monitoring.
 - **Access Control:** Limit [user](https://app.plaspy.com/Users) and mobile device access to certain groups, improving security and permission management.

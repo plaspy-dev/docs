@@ -3,7 +3,7 @@ sidebar_label: Share Access
 sidebar_position: 11
 ---
 # Share Access
-The "[Temporary Access](https://app.plaspy.com/Users/Share)" feature in Plaspy allows users to create temporary access for third parties via a URL without the need for a password. This tool is ideal for providing limited access to tracking information and statistics of specific devices for a determined period. Invited users can view routes and statistics only during the enabled date range and for the devices belonging to the selected group.
+The "[Temporary Access](https://app.plaspy.com/Users/Share)" feature allows users to create temporary access for third parties via a URL without the need for a password. This tool is ideal for providing limited access to tracking information and statistics of specific devices for a determined period. Invited users can view routes and statistics only during the enabled date range and for the devices belonging to the selected group.
 
 To access the temporary access section, go to the top menu and select "", then choose "[Temporary Access](https://app.plaspy.com/Users/Share)." Here you can create new temporary accesses, edit existing ones, and assign devices and groups to each access.
 
@@ -22,7 +22,7 @@ To access the temporary access section, go to the top menu and select "", then c
 
 ### Functionalities of Temporary Access
 
-Temporary accesses in Plaspy allow you to perform the following actions:
+Temporary accesses allow you to perform the following actions:
 
 - **Provide Temporary Access:** Allow third parties to access tracking information and statistics of specific devices for a limited period.
 - **Access Control:** Limit access to read-only and restrict it to a specific date range.

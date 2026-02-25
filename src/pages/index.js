@@ -1,28 +1,24 @@
 import React, { useEffect } from 'react';
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { getFromUrlOrLocalStorage } from '../utils/domain';
 
 export default function Home() {
   const { i18n } = useDocusaurusContext();
 
   useEffect(() => {
-    if (!ExecutionEnvironment.canUseDOM) return;
+    if (!ExecutionEnvironment.canUseDOM)
+      return;
 
-    const params = new URLSearchParams(window.location.search);
-    const f = params.get('f');
-
-    if (f && f.includes('.')) {
-      localStorage.setItem('client-domain', f);
-    }
+    getFromUrlOrLocalStorage("f");
+    getFromUrlOrLocalStorage("l");
 
     const fallback = '/docs/welcome_to_plaspy_help';
-
-    // 1️⃣ primero: ver si el usuario ya eligió idioma antes
-    const savedLang = localStorage.getItem('preferred-lang');
+    const urlLang = i18n.locales.find(locale => window.location.pathname.startsWith(`/${locale}/`));
+    const savedLang = urlLang || localStorage.getItem('preferred-lang');
 
     let matchedLocale = savedLang;
 
-    // 2️⃣ si nunca ha elegido idioma → detectar navegador
     if (!matchedLocale) {
       const browserLang =
         navigator.languages?.[0] ||
@@ -35,14 +31,11 @@ export default function Home() {
         ? shortLang
         : i18n.defaultLocale;
     }
-
-    // 3️⃣ construir la URL correcta
     const target =
       matchedLocale === i18n.defaultLocale
         ? fallback
         : `/${matchedLocale}${fallback}`;
 
-    // 4️⃣ evitar loops infinitos
     if (window.location.pathname !== target) {
       window.location.replace(target);
     }

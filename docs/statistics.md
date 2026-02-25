@@ -3,7 +3,7 @@ sidebar_label: Statistics
 sidebar_position: 7
 ---
 # Statistics
-The "[Statistics](https://app.plaspy.com/Statistics)" section in Plaspy allows users to obtain detailed reports on the performance and usage of their devices over time. This tool is crucial for monitoring key aspects such as fuel consumption, mileage, generated alerts, and much more, providing valuable data for efficient fleet and asset management.
+The "[Statistics](https://app.plaspy.com/Statistics)" section allows users to obtain detailed reports on the performance and usage of their devices over time. This tool is crucial for monitoring key aspects such as fuel consumption, mileage, generated alerts, and much more, providing valuable data for efficient fleet and asset management.
 
 To access the statistics section, go to the top menu and select the statistics icon represented by a graph. This will take you to the page where you can configure and view various types of reports according to your needs.
 
@@ -59,11 +59,11 @@ At Plaspy, we have integrated an innovative feature that allows users to interac
 
 - Direct interaction with the data through the chat reduces the time it would normally take to search for and analyze information.
 - No advanced technical knowledge is required to use this tool. The AI is designed to understand and respond in natural language, making it easy for all users to use.
-- Being integrated with the Plaspy system, the AI provides real-time updated data, ensuring you always have the most accurate information at your disposal.
+- Being integrated with the system, the AI provides real-time updated data, ensuring you always have the most accurate information at your disposal.
 
 #### Saving Options
 
-Plaspy offers several options for saving generated statistics in Excel format, allowing greater flexibility in data analysis and management. The available options are detailed below:
+There are several options for saving generated statistics in Excel format, allowing greater flexibility in data analysis and management. The available options are detailed below:
 
 - **Current Statistics:**
 
