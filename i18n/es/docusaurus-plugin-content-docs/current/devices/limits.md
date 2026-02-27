@@ -16,16 +16,16 @@ La sección de Límites en Plaspy permite a los usuarios establecer restriccione
 
 ## Acceder a la Sección de Límites
 
-1. Navega a la sección "[Dispositivos](https://app.plaspy.com/Device)" desde el panel principal.
+1. Navega a la sección "[*fa-cogs* Dispositivos](https://app.plaspy.com/Device)" desde el panel principal.
 2. Selecciona el dispositivo para el cual deseas configurar los límites.
-3. Haz clic en la opción "Límites" para expandir esta sección y ver los detalles relevantes.
+3. Haz clic en la opción "*fa-ban*Límites" para expandir esta sección y ver los detalles relevantes.
 
 ## Instrucciones Paso a Paso
 
 ### Configurar Límites Diarios
 
 1. Selecciona el dispositivo de la lista de [dispositivos](https://app.plaspy.com/Devices).
-2. En la sección "Límites", localiza los campos "Límite de email diario" y "Límite de SMS diario".
+2. En la sección "*fa-ban*Límites", localiza los campos "Límite de email diario" y "Límite de SMS diario".
 3. Ingresa los valores deseados para los límites diarios de correos electrónicos y mensajes SMS.
 4. Si deseas establecer una fecha de expiración para estos límites, activa la opción "Expira" y selecciona una fecha de expiración en el campo correspondiente.
 5. Haz clic en "Aceptar" para aplicar los límites configurados al dispositivo.
@@ -33,7 +33,7 @@ La sección de Límites en Plaspy permite a los usuarios establecer restriccione
 ### Ejemplo: Establecer un Límite Diario de 10 Correos Electrónicos y 5 SMS
 
 1. Selecciona el dispositivo de la lista de dispositivos.
-2. En la sección "Límites", ingresa "10" en el campo "Límite de email diario".
+2. En la sección "*fa-ban*Límites", ingresa "10" en el campo "Límite de email diario".
 3. Ingresa "5" en el campo "Límite de SMS diario".
 4. \(Opcional\) Si deseas que estos límites expiren en una fecha específica, activa la opción "Expira" y selecciona la fecha de expiración.
 5. Haz clic en "Aceptar" para aplicar los límites configurados.
@@ -41,7 +41,7 @@ La sección de Límites en Plaspy permite a los usuarios establecer restriccione
 ### Verificar el Uso de Límites
 
 1. Selecciona el dispositivo de la lista de dispositivos.
-2. En la sección "Límites", revisa los contadores que indican el número de correos electrónicos y mensajes SMS enviados en el día.
+2. En la sección "*fa-ban*Límites", revisa los contadores que indican el número de correos electrónicos y mensajes SMS enviados en el día.
 3. Ajusta los límites si es necesario, basándote en el uso registrado.
 
 ## Preguntas Frecuentes

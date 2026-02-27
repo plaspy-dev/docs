@@ -9,8 +9,8 @@ Changing the marker icon in Plaspy allows you to customize how your [devices](ht
 
 ## Accessing the Marker Icon Settings
 
-1. Navigate to the "[Devices](https://app.plaspy.com/Devices)" section from the main panel in the top right corner in "".
-2. Select the device for which you want to change the marker icon with the edit icon \(\), next to the device name.
+1. Navigate to the "[*fa-cogs* Devices](https://app.plaspy.com/Devices)" section from the main panel in the top right corner in "*fa-cogs*".
+2. Select the device for which you want to change the marker icon with the edit icon \(*fa-pencil-square-o*\), next to the device name.
 3. Click on the "Marker" field in the device's settings. This will open the marker icon selection window.
 
 ## Choosing a New Marker Icon

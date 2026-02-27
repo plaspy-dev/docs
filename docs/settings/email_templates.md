@@ -18,8 +18,8 @@ The "Email Templates" section in Plaspy's [settings](https://app.plaspy.com/Sett
 
 1. **Access the Section:**
 
-    - Log in to Plaspy and go to the main menu in the top right corner in \(\).
-    - Select "[Settings](https://app.plaspy.com/Settings)", click " Advanced Customization" and then " Email Templates."
+    - Log in to Plaspy and go to the main menu in the top right corner in \(*fa-cogs*\).
+    - Select "[*fa-list* Settings](https://app.plaspy.com/Settings)", click "*fa-television* Advanced Customization" and then "*fa-envelope-o* Email Templates."
 2. **Select the Email Template Type:**
 
     - Use the "Type" dropdown menu to select the type of email template you want to customize \(e.g., Device Alerts\).

@@ -18,16 +18,16 @@ To activate the API service in your Plaspy account, you need to generate an API 
 1. **Access the Account Section:**
 
     - Log in to your Plaspy account and navigate to the top right corner.
-    - Click on your user name and select "[My Account](https://app.plaspy.com/Account)" from the dropdown menu.
+    - Click on your user name and select "[*fa-user* My Account](https://app.plaspy.com/Account)" from the dropdown menu.
     - You can also access it directly via this [link](https://app.plaspy.com/Account).
 2. **Navigate to Account Information:**
 
-    - On the account page, find the " Account Information" section.
+    - On the account page, find the "*fa-user* Account Information" section.
     - Within this section, locate the "API Key" option.
 3. **Generate the API Key:**
 
-    - Click on the options icon \(\) next to "API Key".
-    - Select the " Generate" option from the dropdown menu.
+    - Click on the options icon \(*fa-ellipsis-v*\) next to "API Key".
+    - Select the "*fa-refresh* Generate" option from the dropdown menu.
     - This will generate a new access key that you can use to integrate Plaspy's API into your application or website.
 4. **Copy and Save the API Key:**
 
@@ -36,7 +36,7 @@ To activate the API service in your Plaspy account, you need to generate an API 
 ### Managing the API Key
 
 - **Delete the API Key:**
-    - If you want to delete the API Key, click on the options icon \(\) next to "API Key" and select " Delete". This will revoke access for any user currently using this key.
+    - If you want to delete the API Key, click on the options icon \(*fa-ellipsis-v*\) next to "API Key" and select "*fa-trash-o* Delete". This will revoke access for any user currently using this key.
 - **Regenerate the API Key:**
     - You can generate a new API Key at any time. Doing so will automatically invalidate the previous key, and users using the old key will immediately lose access.
 

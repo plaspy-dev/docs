@@ -21,7 +21,7 @@ Using an [alternative email](https://app.plaspy.com/UserSecurity/Email2?from=/Ac
     - If this is your first time logging in, you may be prompted to set up an alternative email.
 2. **Enter the Alternative Email Address:**
 
-    - On the "[Protect Your Account](https://app.plaspy.com/UserSecurity/Email2?from=/Account)" screen, you will see your primary email.
+    - On the "[*fa-envelope-o* Protect Your Account](https://app.plaspy.com/UserSecurity/Email2?from=/Account)" screen, you will see your primary email.
     - Below, in the "Alternative Email" field, enter an additional email address.
 3. **Confirm the Alternative Email:**
 

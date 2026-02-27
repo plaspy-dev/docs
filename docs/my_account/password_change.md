@@ -5,7 +5,7 @@ sidebar_position: 25
 # Password Change
 To maintain the security of your Plaspy account, it is important to regularly change your password. Plaspy allows you to update your password directly from your user profile. Make sure to follow security policies when creating a new password.
 
-You can access the password change option from the "[Account](https://app.plaspy.com/Account)" section in the user menu. Once there, under ' Account information', click on "" next to **Password**.
+You can access the password change option from the "[Account](https://app.plaspy.com/Account)" section in the user menu. Once there, under '*fa-user* Account information', click on "*fa-pencil*" next to **Password**.
 
 ![](./image_1718311115064.gif)
 
@@ -23,8 +23,8 @@ You can access the password change option from the "[Account](https://app.plaspy
 
 ### Step-by-Step Instructions
 
-1. **Access the "Account" section:** In the top right corner, click on your username and select **' My Account'**.
-2. **Update your password:** Under ' Account information', click on "" next to **Password**.
+1. **Access the "Account" section:** In the top right corner, click on your username and select **'*fa-user* My Account'**.
+2. **Update your password:** Under '*fa-user* Account information', click on "*fa-pencil*" next to **Password**.
 3. **Enter the new password:** Ensure the new password meets all security requirements.
 4. **Confirm the new password:** Re-enter the new password in the confirmation field.
 5. **Save changes:** Click the "Change" button to save your new password.

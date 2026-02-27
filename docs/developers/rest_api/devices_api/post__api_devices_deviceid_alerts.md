@@ -46,7 +46,6 @@ Content-Type: application/json
 }
 ```
 
-
 ### Response Parameters
 
 The response from this endpoint includes details about the success of the operation and any errors that may have occurred.
@@ -90,7 +89,6 @@ Within the `alerts` field, the object has the following fields:
 }
 ```
 
-
 ### Example Error Response
 
 #### Error 400 \(Bad Request\) Response
@@ -104,7 +102,6 @@ Within the `alerts` field, the object has the following fields:
 }
 ```
 
-
 #### Error 500 \(Internal Server Error\) Response
 
 ```
@@ -115,6 +112,5 @@ Within the `alerts` field, the object has the following fields:
   "apiDailyUsage": 3000
 }
 ```
-
 
 This endpoint is essential for updating the alert data of a device within the Plaspy system. It allows users to submit detailed and up-to-date alert information for a specific device, ensuring accurate tracking and monitoring.

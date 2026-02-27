@@ -29,7 +29,6 @@ Host: api.plaspy.com
 Authorization: Bearer {token}
 ```
 
-
 ### Response Parameters
 
 The response from this endpoint includes details about the success of the operation and, if successful, detailed information about the requested device. The response may vary depending on whether the request was successful or if there was an error.
@@ -74,7 +73,6 @@ Within the `device` field, the object has the following fields:
 }
 ```
 
-
 ### Example Error Response
 
 #### Error 400 \(Bad Request\) Response
@@ -88,7 +86,6 @@ Within the `device` field, the object has the following fields:
 }
 ```
 
-
 #### Error 500 \(Internal Server Error\) Response
 
 ```
@@ -99,6 +96,5 @@ Within the `device` field, the object has the following fields:
   "apiDailyUsage": 3000
 }
 ```
-
 
 This endpoint is essential for managing individual devices within the Plaspy system. It allows users to obtain detailed and up-to-date information about a specific device by its unique identifier.

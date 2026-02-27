@@ -9,7 +9,7 @@ Para comenzar a utilizar un nuevo rastreador en Plaspy, es necesario seguir algu
 
 ### Paso 1: Acceder a la Configuración del Rastreador
 
-1. **Inicio de Configuración**: Ingresa a tu cuenta de Plaspy y ve a la sección [**Dispositivos**](https://app.plaspy.com/Devices) en el panel superior derecho \(\) y haz clic en [¿Cómo configurar mi dispositivo?](https://app.plaspy.com/Start?w=1).
+1. **Inicio de Configuración**: Ingresa a tu cuenta de Plaspy y ve a la sección [***fa-cogs* Dispositivos**](https://app.plaspy.com/Devices) en el panel superior derecho \(*fa-cogs*\) y haz clic en [¿Cómo configurar mi dispositivo?](https://app.plaspy.com/Start?w=1).
 2. **Seleccionar Tipo de Dispositivo**: Elige el tipo de dispositivo que deseas configurar \(rastreador o dispositivo móvil\).
 3. **Agregar Detalles del Dispositivo**:
     - **Nombre**: Ingresa un nombre para tu rastreador.

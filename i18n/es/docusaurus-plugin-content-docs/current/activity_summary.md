@@ -9,8 +9,8 @@ El [Resumen de Actividades](https://app.plaspy.com/Summary) en Plaspy es una her
 
 Para acceder al Resumen de Actividades, sigue estos pasos:
 
-1. Dirígete a la icono  en la parte superior derecha.
-2. Selecciona [**Resumen de Actividades**](https://app.plaspy.com/Summary).
+1. Dirígete a la icono *fa-globe* en la parte superior derecha.
+2. Selecciona [***fa-map-o* Resumen de Actividades**](https://app.plaspy.com/Summary).
 
 #### Campos del Resumen de Actividades
 
@@ -20,12 +20,12 @@ Para acceder al Resumen de Actividades, sigue estos pasos:
 
 #### Instrucciones Paso a Paso
 
-1. **Seleccionar Fecha**: Haz clic en el icono del calendario \(\) para elegir la fecha o rango de fechas que quieres analizar.
+1. **Seleccionar Fecha**: Haz clic en el icono del calendario \(*fa-calendar*\) para elegir la fecha o rango de fechas que quieres analizar.
 2. **Elegir Grupo**: Usa el menú desplegable para seleccionar el grupo de dispositivos que deseas monitorizar.
 3. **Seleccionar Dispositivo**: Utiliza la opción de selección múltiple para elegir uno o varios dispositivos específicos.
-4. **Actualizar Datos**: Una vez hayas hecho tus selecciones, haz clic en el botón " **Actualizar"** para cargar la información correspondiente en el mapa y los gráficos.
-5. **Guardar en Excel**: Si deseas guardar el resumen de actividades, haz clic en el icono de guardar \(\). Esta función permite exportar los datos a un archivo Excel para su posterior análisis.
-6. **Notificaciones por Email**: Puedes configurar notificaciones para recibir resúmenes de actividades por correo electrónico. Esto se hace haciendo clic en el botón " **Notificaciones por email"** y llenando los detalles necesarios en la ventana emergente.
+4. **Actualizar Datos**: Una vez hayas hecho tus selecciones, haz clic en el botón "*fa-refresh* **Actualizar"** para cargar la información correspondiente en el mapa y los gráficos.
+5. **Guardar en Excel**: Si deseas guardar el resumen de actividades, haz clic en el icono de guardar \(*fa-floppy-o*\). Esta función permite exportar los datos a un archivo Excel para su posterior análisis.
+6. **Notificaciones por Email**: Puedes configurar notificaciones para recibir resúmenes de actividades por correo electrónico. Esto se hace haciendo clic en el botón "*fa-envelope-o* **Notificaciones por email"** y llenando los detalles necesarios en la ventana emergente.
 
 #### Interacción a través del Chat Incorporado con IA
 
@@ -90,7 +90,7 @@ La funcionalidad de notificaciones por correo electrónico en Plaspy permite a l
 1. **Acceder a la Configuración de Notificaciones**:
 
     - Haz clic en el botón **Notificaciones por email** en la sección de [Resumen de Actividades](https://app.plaspy.com/Summary).
-    - Selecciona el botón de "".
+    - Selecciona el botón de "*fa-plus*".
 2. **Completar los Detalles de la Notificación**:
 
     - **Nombre**: Introduce un nombre descriptivo para la notificación.

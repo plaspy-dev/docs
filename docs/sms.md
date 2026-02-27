@@ -4,7 +4,7 @@ sidebar_position: 12
 sidebar_class_name: show-only-plaspy
 ---
 # SMS
-The "[SMS](https://app.plaspy.com/SMS)" section in Plaspy allows users to manage and monitor text messages sent by their devices. This functionality is essential for sending alerts and commands efficiently and cost-effectively. Users can view message history, add balance to their account, and set daily sending limits.
+The "[*fa-envelope-o* SMS](https://app.plaspy.com/SMS)" section in Plaspy allows users to manage and monitor text messages sent by their devices. This functionality is essential for sending alerts and commands efficiently and cost-effectively. Users can view message history, add balance to their account, and set daily sending limits.
 
 To access the SMS section, go to the top menu and select the envelope icon that represents text messages. From there, you can review the history of sent messages and make additional configurations according to your needs.
 
@@ -25,7 +25,7 @@ To access the SMS section, go to the top menu and select the envelope icon that 
 To send a text message from Plaspy, follow these steps:
 
 1. **Open the Send Form:**
-    - Click on the "" icon in the bottom right corner of the [SMS](https://app.plaspy.com/SMS) screen.
+    - Click on the "*fa-plus*" icon in the bottom right corner of the [SMS](https://app.plaspy.com/SMS) screen.
 2. **Complete the Message Details:**
     - **Phone Number:** Enter the recipient's phone number.
     - **Message:** Write the content of the text message.
@@ -40,7 +40,7 @@ Plaspy allows saving the history of sent messages in Excel format for further an
 1. **Access the History:**
     - In the [SMS](https://app.plaspy.com/SMS) section, use the search filters and pagination options to review the history of sent messages.
 2. **Save to Excel:**
-    - Click on the save icon \(\) located at the top of the message list.
+    - Click on the save icon \(*fa-floppy-o*\) located at the top of the message list.
     - The message history will be downloaded in an Excel file that you can open and review with any compatible software.
 
 ### Setting Daily Message Limits
@@ -48,7 +48,7 @@ Plaspy allows saving the history of sent messages in Excel format for further an
 You can set the maximum number of text messages that can be sent daily per device and per user. This is useful for controlling costs and ensuring that budget limits are not exceeded.
 
 1. **Access the Settings:**
-    - Click on the gear icon \(\) in the bottom left of the SMS screen.
+    - Click on the gear icon \(*fa-cog*\) in the bottom left of the SMS screen.
 2. **Define Limits:**
     - In the settings window, you will see two fields:  
 
@@ -66,17 +66,17 @@ Plaspy offers a dedicated page to check the prices of text messages. These price
 ### Step-by-Step Instructions
 
 1. **Open the SMS Menu:**
-    - In the top menu, click on the [envelope icon](https://app.plaspy.com/SMS) \(\).
+    - In the top menu, click on the [envelope icon](https://app.plaspy.com/SMS) \(*fa-envelope-o*\).
 2. **Review the Message History:**
     - Use the search filters and pagination options to review the history of sent messages.
 3. **Send a New Message:**
-    - Click on the "" icon to open the message sending form.
+    - Click on the "*fa-plus*" icon to open the message sending form.
     - Complete the message details and click "Send."
 4. **Set Daily Message Limits:**
-    - Click on the gear icon \(\) to open the daily limits settings.
+    - Click on the gear icon \(*fa-cog*\) to open the daily limits settings.
     - Define the limits and save the changes.
 5. **Save Message History:**
-    - Click on the save icon \(\) and select "Save to Excel" to download the history of sent messages.
+    - Click on the save icon \(*fa-floppy-o*\) and select "Save to Excel" to download the history of sent messages.
 6. **Check Text Message Prices:**
     - Visit [Plaspy SMS Pricing](https://app.plaspy.com/AdditionalServicesPricing) to review prices by country and operator.
 

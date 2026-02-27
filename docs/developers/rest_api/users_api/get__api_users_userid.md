@@ -93,7 +93,6 @@ The response from this endpoint contains a detailed structure of the user. The f
 }
 ```
 
-
 ### Example Error Response
 
 ```
@@ -102,4 +101,5 @@ The response from this endpoint contains a detailed structure of the user. The f
   "error": "User not found.",
   "apiUsage": 150,
   "apiDailyUsage": 15
-}`
+}
+```

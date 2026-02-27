@@ -123,5 +123,4 @@ Content-Type: application/json
 }
 ```
 
-
 This endpoint facilitates updating specific data of a user, ensuring flexibility and efficiency in managing users within the Plaspy system.

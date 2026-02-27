@@ -21,8 +21,7 @@ La base URL para todas las peticiones a la API REST de Plaspy es:
 
 https://api.plaspy.com
 
-##   
-Método de Autenticación
+## Método de Autenticación
 
 Para comunicarte con el servicio de Plaspy, debes autenticarte utilizando un esquema OAuth. El primer paso es generar un Token de acceso tipo [JWT](https://jwt.io/) \(JSON Web Token\). Este token se obtiene a través de la siguiente operación:
 
@@ -50,8 +49,7 @@ GET /api/devices HTTP/1.1
 Host: api.plaspy.com  
 Authorization: Bearer tu\_token
 
-##   
-Operaciones
+## Operaciones
 
 A continuación, se presenta una tabla con las operaciones disponibles en la API REST de Plaspy:
 

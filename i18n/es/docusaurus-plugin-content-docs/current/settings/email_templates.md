@@ -3,7 +3,7 @@ sidebar_label: Plantillas de correo electrónico
 sidebar_position: 47
 ---
 # Plantillas de correo electrónico
-La sección " Plantillas de Email" en la [configuración](https://app.plaspy.com/Settings) de Plaspy permite a los administradores personalizar el contenido y el formato de varias notificaciones por correo electrónico enviadas por la plataforma. Esta función es esencial para garantizar que las comunicaciones con los usuarios sean coherentes con la imagen y el mensaje de tu organización. Esta guía detalla los campos disponibles y los pasos para configurarlos correctamente.
+La sección "*fa-envelope-o* Plantillas de Email" en la [*fa-list* configuración](https://app.plaspy.com/Settings) de Plaspy permite a los administradores personalizar el contenido y el formato de varias notificaciones por correo electrónico enviadas por la plataforma. Esta función es esencial para garantizar que las comunicaciones con los usuarios sean coherentes con la imagen y el mensaje de tu organización. Esta guía detalla los campos disponibles y los pasos para configurarlos correctamente.
 
 ![](./image_1718293133008.gif)
 
@@ -19,7 +19,7 @@ La sección " Plantillas de Email" en la [configuración](https://app.plaspy.com
 1. **Acceder a la Sección:**
 
     - Inicia sesión en Plaspy y navega al menú principal.
-    - Selecciona "[Configuración](https://app.plaspy.com/Settings)" y luego " Plantillas de Email."
+    - Selecciona "[*fa-list* Configuración](https://app.plaspy.com/Settings)" y luego "*fa-envelope-o* Plantillas de Email."
 2. **Seleccionar el Tipo de Plantilla de Correo Electrónico:**
 
     - Utiliza el menú desplegable "Tipo" para seleccionar el tipo de plantilla de correo electrónico que deseas personalizar \(por ejemplo, Alertas del dispositivo\).
@@ -61,4 +61,4 @@ La sección " Plantillas de Email" en la [configuración](https://app.plaspy.com
 - **¿Qué debo hacer si elimino una plantilla accidentalmente?**
     - Si eliminas una plantilla, es posible que necesites recrearla desde cero. Se recomienda guardar tus cambios regularmente y hacer uso de la opción "Restaurar" si está disponible.
 
-Con estas instrucciones, podrás personalizar la sección de " Plantillas de Email" de manera efectiva y asegurarte de que tus comunicaciones por correo electrónico sean coherentes con la imagen y el mensaje de tu organización en la plataforma Plaspy.
+Con estas instrucciones, podrás personalizar la sección de "*fa-envelope-o* Plantillas de Email" de manera efectiva y asegurarte de que tus comunicaciones por correo electrónico sean coherentes con la imagen y el mensaje de tu organización en la plataforma Plaspy.

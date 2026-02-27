@@ -16,8 +16,8 @@ The "Telegram Notifications" section in Plaspy's [settings](https://app.plaspy.c
 
 1. **Access the Section:**
 
-    - Log in to Plaspy and go to the main menu in the top right corner in \(\).
-    - Select "[Settings](https://app.plaspy.com/Settings)", click " Advanced Customization" and then " Telegram Notifications".
+    - Log in to Plaspy and go to the main menu in the top right corner in \(*fa-cogs*\).
+    - Select "[*fa-list* Settings](https://app.plaspy.com/Settings)", click "*fa-television* Advanced Customization" and then "*fa-telegram* Telegram Notifications".
 2. **Create a Bot on Telegram:**
 
     - Connect to [@botfather](https://t.me/botfather) on Telegram and send the command `/newbot` to create a new bot.

@@ -19,7 +19,7 @@ Instrucciones para insertar el iframe
 2. **Configurar el retorno a tu página web:**
 
     - Si deseas que los usuarios regresen a tu página web después de cerrar sesión en Plaspy, puedes configurar la URL de retorno en la sección de personalización de usuario.
-    - Ve a la configuración del usuario en Plaspy y añade la dirección URL de tu página web en el campo correspondiente bajo "[Personalización](https://app.plaspy.com/Settings)" y "Página web".
+    - Ve a la configuración del usuario en Plaspy y añade la dirección URL de tu página web en el campo correspondiente bajo "[*fa-list* Personalización](https://app.plaspy.com/Settings)" y "Página web".
 
 ## Consideraciones Finales
 

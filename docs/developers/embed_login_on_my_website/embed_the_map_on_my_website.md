@@ -29,9 +29,7 @@ To embed the map on your website, follow these steps:
 
 ```
 
-
-###   
-Integration Example
+### Integration Example
 
 To see a functional example of this integration, you can refer to the following video: [See functional example](./1-insertar-mapa-en-pagina-web.webp)
 

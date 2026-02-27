@@ -44,7 +44,7 @@ En la parte inferior del panel, se encuentran las opciones para guardar configur
 2. **Crear Nuevo Grupo:** Haz clic en el botón verde con el símbolo “+” ubicado en la esquina inferior derecha de la pantalla. Se abrirá una ventana donde podrás ingresar el nombre del nuevo grupo y, de forma opcional, una descripción para facilitar su identificación. Para agregar dispositivos, escribe el nombre del dispositivo en la barra de búsqueda y añádelo utilizando el botón verde “+”.
 3. **Filtrar por Grupo:** Usa el selector desplegable para elegir un grupo específico de dispositivos. Esto actualizará la lista para mostrar solo los dispositivos que pertenecen al grupo seleccionado.
 
-Más información sobre los [grupos](../groups).
+*fa-user*  Más información sobre los [grupos](../groups).
 
 ### Cómo Guardar Configuraciones y Gestionar Alertas
 

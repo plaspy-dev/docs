@@ -4,8 +4,7 @@ sidebar_label: GET /api/groups/{groupId}
 # GET /api/groups/\{groupId\}
 Este endpoint permite recuperar los detalles de un grupo específico utilizando su identificador único \(`groupId`\). Es útil para obtener información detallada sobre un grupo, incluyendo su nombre, descripción, dispositivos asociados y otros detalles relevantes.
 
-##   
-Detalles de la Solicitud
+## Detalles de la Solicitud
 
 Para obtener los detalles de un grupo, debe enviar una solicitud GET con el identificador del grupo en la ruta de la solicitud. Asegúrese de que la solicitud esté autorizada con un token válido.
 
@@ -29,9 +28,7 @@ Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 ```
 
-
-##   
-Parámetros de Respuesta
+## Parámetros de Respuesta
 
 La respuesta incluye detalles del grupo especificado.
 
@@ -65,7 +62,6 @@ La respuesta incluye detalles del grupo especificado.
 }
 ```
 
-
 ### Ejemplo de Respuesta de Error
 
 ```
@@ -76,6 +72,5 @@ La respuesta incluye detalles del grupo especificado.
   "apiDailyUsage": 45
 }
 ```
-
 
 Este endpoint es fundamental para obtener información detallada y específica de un grupo en la aplicación Plaspy, permitiendo a los usuarios ver y gestionar los detalles de un grupo específico.

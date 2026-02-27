@@ -77,7 +77,6 @@ Authorization: Bearer {your_auth_token}
 }
 ```
 
-
 ### Response Parameters
 
 The response from this endpoint includes the details of the created user or an error message if the request was not successful.
@@ -139,7 +138,6 @@ The response from this endpoint includes the details of the created user or an e
 }
 ```
 
-
 ### Example Error Response
 
 ```
@@ -148,4 +146,5 @@ The response from this endpoint includes the details of the created user or an e
   "error": "Invalid email address.",
   "apiUsage": 150,
   "apiDailyUsage": 15
-}`
+}
+```

@@ -11,8 +11,7 @@ Este endpoint es particularmente útil para los administradores del sistema que 
 **Método HTTP**: GET  
 **URL**: `/api/users`
 
-###   
-Autenticación Requerida
+### Autenticación Requerida
 
 La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
@@ -23,7 +22,6 @@ GET /api/users HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer {your_auth_token}
 ```
-
 
 ## Parámetros de Respuesta
 
@@ -93,7 +91,6 @@ La respuesta de este endpoint contiene una estructura detallada de los usuarios.
 }
 ```
 
-
 ### Ejemplo de Respuesta de Error
 
 ```
@@ -102,4 +99,5 @@ La respuesta de este endpoint contiene una estructura detallada de los usuarios.
   "error": "Authentication failed. Invalid token.",
   "apiUsage": 150,
   "apiDailyUsage": 15
-}`
+}
+```

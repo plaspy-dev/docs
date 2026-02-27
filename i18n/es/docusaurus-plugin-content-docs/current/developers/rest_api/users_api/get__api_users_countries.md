@@ -6,8 +6,7 @@ El endpoint **GET /api/users/countries** permite obtener una lista de todos los 
 
 Este endpoint es especialmente útil para aplicaciones que requieren información geográfica, ya sea para la creación de perfiles de usuario, configuraciones de cuenta, o cualquier otra funcionalidad que necesite un listado de países.
 
-##   
-Detalles de la Solicitud
+## Detalles de la Solicitud
 
 **Método HTTP**: GET  
 **URL**: `/api/users/countries`
@@ -27,7 +26,6 @@ GET /api/users/countries HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer {your_auth_token}
 ```
-
 
 ## Parámetros de Respuesta
 
@@ -59,7 +57,6 @@ La respuesta de este endpoint contiene una estructura que incluye el estado de l
 }
 ```
 
-
 ### Ejemplo de Respuesta de Error
 
 ```
@@ -68,4 +65,5 @@ La respuesta de este endpoint contiene una estructura que incluye el estado de l
   "error": "Autenticación fallida. Token inválido.",
   "apiUsage": 100,
   "apiDailyUsage": 10
-}`
+}
+```

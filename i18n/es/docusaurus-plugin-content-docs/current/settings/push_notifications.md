@@ -3,12 +3,11 @@ sidebar_label: Notificaciones Push
 sidebar_position: 48
 ---
 # Notificaciones Push
-La sección " Notificaciones móviles Push" en la [configuración](https://app.plaspy.com/Settings) de Plaspy permite a los administradores configurar las notificaciones push para las aplicaciones móviles personalizadas creadas a través de [Plaspy Mobile App Settings](https://app.plaspy.com/Settings/MobileApp). Esta funcionalidad es crucial para enviar alertas y mensajes en tiempo real a los usuarios de las aplicaciones móviles. Esta guía detalla los campos disponibles y los pasos para configurarlos adecuadamente.
+La sección "*fa-mobile* Notificaciones móviles Push" en la [*fa-list* configuración](https://app.plaspy.com/Settings) de Plaspy permite a los administradores configurar las notificaciones push para las aplicaciones móviles personalizadas creadas a través de [Plaspy Mobile App Settings](https://app.plaspy.com/Settings/MobileApp). Esta funcionalidad es crucial para enviar alertas y mensajes en tiempo real a los usuarios de las aplicaciones móviles. Esta guía detalla los campos disponibles y los pasos para configurarlos adecuadamente.
 
 ![](./image_1718293167388.gif)
 
-###   
-Descripción de Campos
+### Descripción de Campos
 
 - **Firebase Account Key:** Archivo JSON con las credenciales privadas necesarias para usar Firebase Cloud Messaging \(FCM\).
 - **Token de prueba:** Campo para introducir el token del dispositivo de prueba y probar el envío de notificaciones push.
@@ -18,7 +17,7 @@ Descripción de Campos
 1. **Acceder a la Sección:**
 
     - Inicia sesión en Plaspy y navega al menú principal en la parte superior derecha.
-    - Selecciona "[Configuración](https://app.plaspy.com/Settings)" y luego " Notificaciones móviles Push."
+    - Selecciona "[*fa-list* Configuración](https://app.plaspy.com/Settings)" y luego "*fa-mobile* Notificaciones móviles Push."
 2. **Cargar Firebase Account Key:**
 
     - Obtén el archivo JSON con las credenciales privadas desde tu cuenta de Firebase. Este archivo contiene información crucial como el `project_id`, `private_key_id`, y `client_email`.

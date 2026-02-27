@@ -3,9 +3,9 @@ sidebar_label: Share Access
 sidebar_position: 11
 ---
 # Share Access
-The "[Temporary Access](https://app.plaspy.com/Users/Share)" feature allows users to create temporary access for third parties via a URL without the need for a password. This tool is ideal for providing limited access to tracking information and statistics of specific devices for a determined period. Invited users can view routes and statistics only during the enabled date range and for the devices belonging to the selected group.
+The "[*fa-share-alt* Temporary Access](https://app.plaspy.com/Users/Share)" feature in Plaspy allows users to create temporary access for third parties via a URL without the need for a password. This tool is ideal for providing limited access to tracking information and statistics of specific devices for a determined period. Invited users can view routes and statistics only during the enabled date range and for the devices belonging to the selected group.
 
-To access the temporary access section, go to the top menu and select "", then choose "[Temporary Access](https://app.plaspy.com/Users/Share)." Here you can create new temporary accesses, edit existing ones, and assign devices and groups to each access.
+To access the temporary access section, go to the top menu and select "*fa-cogs*", then choose "[*fa-share-alt* Temporary Access](https://app.plaspy.com/Users/Share)." Here you can create new temporary accesses, edit existing ones, and assign devices and groups to each access.
 
 ![](./image_1718312980718.gif)
 
@@ -22,7 +22,7 @@ To access the temporary access section, go to the top menu and select "", then c
 
 ### Functionalities of Temporary Access
 
-Temporary accesses allow you to perform the following actions:
+Temporary accesses in Plaspy allow you to perform the following actions:
 
 - **Provide Temporary Access:** Allow third parties to access tracking information and statistics of specific devices for a limited period.
 - **Access Control:** Limit access to read-only and restrict it to a specific date range.
@@ -33,9 +33,9 @@ Temporary accesses allow you to perform the following actions:
 **Creating a New Temporary Access**
 
 1. **Access the Temporary Access Section:**
-    - Click on the "Settings" icon in the top menu and select "[Temporary Access](https://app.plaspy.com/Users/Share)."
+    - Click on the "Settings" icon in the top menu and select "[*fa-share-alt* Temporary Access](https://app.plaspy.com/Users/Share)."
 2. **Start Creating a Temporary Access:**
-    - Click on the "" icon in the bottom right corner to open the temporary access creation form.
+    - Click on the "*fa-plus*" icon in the bottom right corner to open the temporary access creation form.
 3. **Complete the Temporary Access Details:**
     - **Name:** Enter the name of the person who will have access.
     - **Email:** Enter the user's email \(optional\).

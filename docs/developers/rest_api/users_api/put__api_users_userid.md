@@ -79,7 +79,6 @@ Authorization: Bearer {your_auth_token}
 }
 ```
 
-
 ### Response Parameters
 
 The response from this endpoint includes the details of the updated user or an error message if the request was not successful.
@@ -139,7 +138,6 @@ The response from this endpoint includes the details of the updated user or an e
   "modification": "2023-06-01T00:00:00Z", "lastLogin": "2024-05-01T00:00:00Z" }
 ```
 
-
 ### Example Error Response
 
 ```
@@ -148,4 +146,5 @@ The response from this endpoint includes the details of the updated user or an e
   "error": "User not found.",
   "apiUsage": 150,
   "apiDailyUsage": 15
-}`
+}
+```

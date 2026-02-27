@@ -12,7 +12,7 @@ The "[Update Mobile Phone Number](https://app.plaspy.com/UserSecurity/Phone?from
 To access the option to update your mobile phone number:
 
 1. Log in to your Plaspy account.
-2. In the top right corner, click on your username and select **' My Account'**.
+2. In the top right corner, click on your username and select **'*fa-user* My Account'**.
 3. Select "[Update Mobile Phone Number](https://app.plaspy.com/UserSecurity/Phone?from=/Account)."
 
 ### Field Description
@@ -21,7 +21,7 @@ To access the option to update your mobile phone number:
 
 ### Step-by-Step Instructions
 
-1. **Access the Page:** In the top right corner, click on your username and select **' My Account'**.
+1. **Access the Page:** In the top right corner, click on your username and select **'*fa-user* My Account'**.
 2. **Enter Number:** Enter the recovery phone number in international format.
 3. **Confirm Changes:** Click the "Confirm" button to save the new number. If you decide not to make changes, select "Not Now" to cancel the operation.
 

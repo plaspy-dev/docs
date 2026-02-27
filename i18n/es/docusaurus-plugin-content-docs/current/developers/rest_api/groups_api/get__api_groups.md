@@ -16,7 +16,6 @@ Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 ```
 
-
 ## Parámetros de Respuesta
 
 La respuesta incluye una lista de grupos junto con detalles específicos de cada grupo.
@@ -64,7 +63,6 @@ La respuesta incluye una lista de grupos junto con detalles específicos de cada
 }
 ```
 
-
 ## Ejemplo de Respuesta de Error
 
 ```
@@ -76,6 +74,5 @@ La respuesta incluye una lista de grupos junto con detalles específicos de cada
   "groups": null
 }
 ```
-
 
 Este endpoint es esencial para la gestión y visualización de grupos dentro de la aplicación Plaspy, permitiendo obtener una visión completa y detallada de cada grupo y sus dispositivos asociados.

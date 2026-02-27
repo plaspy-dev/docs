@@ -43,7 +43,6 @@ El cuerpo de la solicitud debe incluir una lista de operaciones de parcheo a rea
 ]
 ```
 
-
 ### Autenticación Requerida
 
 La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
@@ -69,7 +68,6 @@ Content-Type: application/json
   }
 ]
 ```
-
 
 ## Parámetros de Respuesta
 
@@ -105,7 +103,6 @@ La respuesta incluye detalles del grupo actualizado.
 }
 ```
 
-
 ### Ejemplo de Respuesta de Error
 
 ```
@@ -116,6 +113,5 @@ La respuesta incluye detalles del grupo actualizado.
   "apiDailyUsage": 45
 }
 ```
-
 
 Este endpoint es fundamental para realizar actualizaciones parciales en la información de los grupos en la aplicación Plaspy, permitiendo modificaciones específicas sin necesidad de enviar todos los datos del grupo.

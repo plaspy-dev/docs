@@ -16,7 +16,11 @@ function replaceDomain(url) {
 
 export default {
     ...MDXComponents,
-
+    em: (props) => {
+        if (props.children?.startsWith && props.children?.startsWith("fa-"))
+            return <span className={`fa ${props.children}`}></span>;
+        return <em {...props} />;
+    },
     a: (props) => {
         const href = props.href || '';
         const newHref = replaceDomain(href);

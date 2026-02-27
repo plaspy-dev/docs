@@ -78,7 +78,6 @@ Authorization: Bearer {your_auth_token}
 }
 ```
 
-
 ## Parámetros de Respuesta
 
 La respuesta de este endpoint incluye los detalles del usuario actualizado o un mensaje de error si la solicitud no fue exitosa.
@@ -140,7 +139,6 @@ La respuesta de este endpoint incluye los detalles del usuario actualizado o un 
 }
 ```
 
-
 ### Ejemplo de Respuesta de Error
 
 ```
@@ -149,4 +147,5 @@ La respuesta de este endpoint incluye los detalles del usuario actualizado o un 
   "error": "Correo electrónico inválido.",
   "apiUsage": 150,
   "apiDailyUsage": 15
-}`
+}
+```

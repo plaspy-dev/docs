@@ -21,8 +21,8 @@ The "Maps" section in Plaspy's [settings](https://app.plaspy.com/Settings) allow
 
 1. **Access the Section:**
 
-    - Log in to Plaspy and go to the main menu in the top right corner in \(\).
-    - Select "[Settings](https://app.plaspy.com/Settings)", click " Advanced Customization" and then " Maps".
+    - Log in to Plaspy and go to the main menu in the top right corner in \(*fa-cogs*\).
+    - Select "[*fa-list* Settings](https://app.plaspy.com/Settings)", click "*fa-television* Advanced Customization" and then "*fa-globe* Maps".
 2. **Configure Google Maps API:**
 
     - Obtain the Google Maps API key from your Google Developers account.

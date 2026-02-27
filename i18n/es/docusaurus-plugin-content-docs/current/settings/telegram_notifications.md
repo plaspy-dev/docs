@@ -3,12 +3,11 @@ sidebar_label: Notificaciones Telegram
 sidebar_position: 49
 ---
 # Notificaciones Telegram
-La sección " Notificaciones Telegram" en la [configuración](https://app.plaspy.com/Settings) de Plaspy permite a los administradores configurar notificaciones a través de Telegram utilizando un bot propio, diferente al bot de Plaspy \(@plaspybot\). Esta funcionalidad es útil para enviar alertas y mensajes directamente a los usuarios a través de Telegram. Es importante que el usuario ya haya creado su propio bot en Telegram siguiendo las instrucciones proporcionadas. Esta guía detalla los campos disponibles y los pasos para configurarlos adecuadamente.
+La sección "*fa-telegram* Notificaciones Telegram" en la [*fa-list* configuración](https://app.plaspy.com/Settings) de Plaspy permite a los administradores configurar notificaciones a través de Telegram utilizando un bot propio, diferente al bot de Plaspy \(@plaspybot\). Esta funcionalidad es útil para enviar alertas y mensajes directamente a los usuarios a través de Telegram. Es importante que el usuario ya haya creado su propio bot en Telegram siguiendo las instrucciones proporcionadas. Esta guía detalla los campos disponibles y los pasos para configurarlos adecuadamente.
 
 ![](./image_1718293206644.gif)
 
-###   
-Descripción de Campos
+### Descripción de Campos
 
 - **Nombre Bot:** Nombre del bot de Telegram que has creado.
 - **Token Bot:** Token del bot de Telegram proporcionado por @botfather.
@@ -18,7 +17,7 @@ Descripción de Campos
 1. **Acceder a la Sección:**
 
     - Inicia sesión en Plaspy y navega al menú principal en la parte superior derecha.
-    - Selecciona "[Configuración](https://app.plaspy.com/Settings)" y luego " Notificaciones Telegram."
+    - Selecciona "[*fa-list* Configuración](https://app.plaspy.com/Settings)" y luego "*fa-telegram* Notificaciones Telegram."
 2. **Crear un Bot en Telegram:**
 
     - Conéctate a [@botfather](https://t.me/botfather) en Telegram y envía el comando `/newbot` para crear un nuevo bot.
@@ -60,4 +59,4 @@ Descripción de Campos
 - **¿Cómo pruebo que las notificaciones de Telegram funcionan correctamente?**
     - Después de registrar el bot, haz clic en "Probar" para enviar una notificación de prueba. Verifica en Telegram que la notificación se recibe correctamente.
 
-Con estas instrucciones, podrás configurar la sección de " Notificaciones Telegram" de manera efectiva y asegurar que las notificaciones se envíen correctamente a través de tu bot de Telegram en la plataforma Plaspy.
+Con estas instrucciones, podrás configurar la sección de "*fa-telegram* Notificaciones Telegram" de manera efectiva y asegurar que las notificaciones se envíen correctamente a través de tu bot de Telegram en la plataforma Plaspy.

@@ -72,7 +72,6 @@ Dentro del campo `device`, el objeto tiene los siguientes campos:
 }
 ```
 
-
 ### Ejemplo de Respuesta de Error
 
 #### Respuesta de Error 400 \(Bad Request\)
@@ -86,7 +85,6 @@ Dentro del campo `device`, el objeto tiene los siguientes campos:
 }
 ```
 
-
 #### Respuesta de Error 500 \(Internal Server Error\)
 
 ```
@@ -97,6 +95,5 @@ Dentro del campo `device`, el objeto tiene los siguientes campos:
   "apiDailyUsage": 3000
 }
 ```
-
 
 Este endpoint es esencial para gestionar dispositivos individuales dentro del sistema Plaspy. Permite a los usuarios obtener información detallada y actualizada sobre un dispositivo específico mediante su identificador único.

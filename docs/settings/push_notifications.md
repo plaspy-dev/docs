@@ -16,8 +16,8 @@ The "Push Notifications" section in Plaspy's [settings](https://app.plaspy.com/S
 
 1. **Access the Section:**
 
-    - Log in to Plaspy and go to the main menu in the top right corner in \(\).
-    - Select "[Settings](https://app.plaspy.com/Settings)", click " Advanced Customization" and then " Push Mobile Notifications".
+    - Log in to Plaspy and go to the main menu in the top right corner in \(*fa-cogs*\).
+    - Select "[*fa-list* Settings](https://app.plaspy.com/Settings)", click "*fa-television* Advanced Customization" and then "*fa-mobile* Push Mobile Notifications".
 2. **Upload Firebase Account Key:**
 
     - Obtain the JSON file with private credentials from your Firebase account. This file contains crucial information such as `project_id`, `private_key_id`, and `client_email`.

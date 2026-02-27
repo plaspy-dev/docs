@@ -23,8 +23,8 @@ sidebar_position: 26
 1. **Access Notification Settings:**
 
     - Log in to your Plaspy account.
-    - In the top right corner, click on your username and select **'** My Account**'**.
-    - Click on "[Email Notifications](https://app.plaspy.com/UserSecurity/MailNotifications)."
+    - In the top right corner, click on your username and select **'***fa-user* My Account**'**.
+    - Click on "[*fa-envelope-o* Email Notifications](https://app.plaspy.com/UserSecurity/MailNotifications)."
 2. **Select Categories:**
 
     - On the configuration screen, you will see your email address and a description of the available notifications.
@@ -47,7 +47,7 @@ sidebar_position: 26
 ### Frequently Asked Questions
 
 - **Can I change my notification preferences later?**
-    - Yes, you can change your notification preferences at any time by accessing the " Email Notifications" section in your account.
+    - Yes, you can change your notification preferences at any time by accessing the "*fa-envelope-o* Email Notifications" section in your account.
 - **What happens if I do not select any category and do not check the option to disable notifications?**
     - If you do not select any category and do not check the option to disable notifications, no changes will be saved, and you will continue to receive notifications according to your previous configuration.
 - **How can I ensure that Plaspy emails do not end up in my spam folder?**

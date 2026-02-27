@@ -25,8 +25,7 @@ Para incrustar el mapa en tu página web, sigue estos pasos:
 &lt;script type="text/javascript"&gt;plaspy\_api\_group\_key="**mi\_id\_grupo**";&lt;/script&gt;  
 &lt;script type="text/javascript" src="https://app.plaspy.com/api/loadMapG.js"&gt;&lt;/script&gt;
 
-##   
-Consideraciones Finales
+## Consideraciones Finales
 
 - **Personalización:** Asegúrate de que el mapa esté bien integrado en el diseño de tu página web, ajustando el tamaño y el estilo según sea necesario.
 - **Seguridad:** Verifica que tu sitio web esté configurado para manejar de manera segura la comunicación con la API de Plaspy.

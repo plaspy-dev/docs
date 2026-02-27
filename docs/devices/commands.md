@@ -21,50 +21,50 @@ The Commands section in Plaspy allows users to configure the available commands 
 
 ## Accessing the Commands Section
 
-1. Navigate to the "[Devices](https://app.plaspy.com/Devices)" section from the main panel \(\).
-2. Select the device with the edit icon \(\), next to the device name, for which you want to configure the commands.
-3. Click on the " Commands" option to expand this section and view the available commands.
+1. Navigate to the "[*fa-cogs* Devices](https://app.plaspy.com/Devices)" section from the main panel \(*fa-cogs*\).
+2. Select the device with the edit icon \(*fa-pencil-square-o*\), next to the device name, for which you want to configure the commands.
+3. Click on the "*fa-code* Commands" option to expand this section and view the available commands.
 
 ## Step-by-Step Instructions
 
 ### Configuring a Command for the Device
 
-1. Select the device from the [device](https://app.plaspy.com/Devices) list with the edit icon \(\), next to the device name.
-2. In the " Commands" section, locate the command you want to configure.
+1. Select the device from the [device](https://app.plaspy.com/Devices) list with the edit icon \(*fa-pencil-square-o*\), next to the device name.
+2. In the "*fa-code* Commands" section, locate the command you want to configure.
 3. Review the command name, command code, and command type to ensure it is correct.
 4. Click "OK" to save the command configuration for the device.
 
 ### Example: Configuring the "Cut Power" Command
 
 1. Select the device from the device list.
-2. In the " Commands" section, find the "Cut Power" command.
+2. In the "*fa-code* Commands" section, find the "Cut Power" command.
 3. Verify that the command code is "stop123456" and that the command type is SMS.
 4. Click "OK" to configure the command for the device.
 
 ### Disabling Commands
 
 1. Select the device from the device list.
-2. In the " Commands" section, identify the command you want to disable.
+2. In the "*fa-code* Commands" section, identify the command you want to disable.
 3. Click the option to disable the command. This will prevent the command from appearing on the map.
 4. Click "OK" to apply the changes.
 
 ### Restoring Default Commands
 
 1. Select the device from the device list.
-2. In the " Commands" section, delete all configured commands.
+2. In the "*fa-code* Commands" section, delete all configured commands.
 3. Plaspy will automatically re-add the default commands for the tracker.
 4. Click "OK" to confirm the restoration of the default commands.
 
 ### Saving Commands as a Template
 
-1. Select the device from the device list with the edit icon \(\), next to the device name.
+1. Select the device from the device list with the edit icon \(*fa-pencil-square-o*\), next to the device name.
 2. Configure the necessary commands.
 3. Click "Save command list as".
 4. Assign a name to the template and save it. This template can be applied to other devices later to add the commands from the default commands list.
 
 ### Checking Sent Commands
 
-1. Navigate to the "Devices" section from the main panel \(\).
+1. Navigate to the "Devices" section from the main panel \(*fa-cogs*\).
 2. Select the device for which you want to check the sent commands.
 3. Click on the "Commands Sent" link to view the command history, including when, who sent them, and the status of the commands.
 

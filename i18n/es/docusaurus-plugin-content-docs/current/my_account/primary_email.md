@@ -16,10 +16,10 @@ En Plaspy, el correo electrónico principal es fundamental para la seguridad y l
 1. **Acceder a la Configuración de la Cuenta:**
 
     - Inicia sesión en tu cuenta de Plaspy.
-    - Dirígete a la sección "[Cuenta](https://app.plaspy.com/Account)" en el menú de navegación.
+    - Dirígete a la sección "[*fa-user* Cuenta](https://app.plaspy.com/Account)" en el menú de navegación.
 2. **Modificar el Correo Electrónico Principal:**
 
-    - En la sección " Información de la cuenta", haz clic en el ícono de edición junto a la dirección de correo electrónico actual.
+    - En la sección "*fa-user* Información de la cuenta", haz clic en el ícono de edición junto a la dirección de correo electrónico actual.
     - Se abrirá una ventana emergente titulada "[Protege tu cuenta](https://app.plaspy.com/UserSecurity/Email?from=/Account)".
 3. **Ingresar Nuevo Correo Electrónico:**
 

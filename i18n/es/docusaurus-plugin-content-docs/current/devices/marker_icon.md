@@ -9,8 +9,8 @@ Cambiar el ícono del marcador en Plaspy te permite personalizar cómo se repres
 
 ## Accediendo a la Configuración del Ícono del Marcador
 
-1. Navega a la sección "[Dispositivos](https://app.plaspy.com/Devices)" desde el panel principal superior derecho en "".
-2. Selecciona el dispositivo para el cual deseas cambiar el ícono del marcador con el icono de edición \(\), junto al nombre del dispositivo.
+1. Navega a la sección "[*fa-cogs* Dispositivos](https://app.plaspy.com/Devices)" desde el panel principal superior derecho en "*fa-cogs*".
+2. Selecciona el dispositivo para el cual deseas cambiar el ícono del marcador con el icono de edición \(*fa-pencil-square-o*\), junto al nombre del dispositivo.
 3. Haz clic en el campo "Marcador" en la configuración del dispositivo. Esto abrirá la ventana de selección de íconos de marcador.
 
 ## Elegir un Nuevo Ícono de Marcador

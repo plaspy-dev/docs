@@ -12,7 +12,7 @@ La función de "[Modificar Teléfono Móvil](https://app.plaspy.com/UserSecurity
 Para acceder a la opción de modificar el número de teléfono móvil:
 
 1. Inicia sesión en tu cuenta de Plaspy.
-2. Ve a la sección "[Mi Cuenta](https://app.plaspy.com/Account)".
+2. Ve a la sección "[*fa-user* Mi Cuenta](https://app.plaspy.com/Account)".
 3. Selecciona "[Modificar teléfono móvil](https://app.plaspy.com/UserSecurity/Phone?from=/Account)".
 
 #### Descripción de Campos
@@ -21,7 +21,7 @@ Para acceder a la opción de modificar el número de teléfono móvil:
 
 #### Instrucciones Paso a Paso
 
-1. **Acceso a la Página**: Dirígete a la sección de "[Mi Cuenta](https://app.plaspy.com/Account)" y selecciona la opción de modificar el [teléfono móvil](https://app.plaspy.com/UserSecurity/Phone?from=/Account).
+1. **Acceso a la Página**: Dirígete a la sección de "[*fa-user* Mi Cuenta](https://app.plaspy.com/Account)" y selecciona la opción de modificar el [teléfono móvil](https://app.plaspy.com/UserSecurity/Phone?from=/Account).
 2. **Ingreso de Número**: Introduce el número de teléfono de recuperación en el formato internacional.
 3. **Confirmar Cambios**: Haz clic en el botón "Confirmar" para guardar el nuevo número. Si decides no realizar cambios, selecciona "Ahora no" para cancelar la operación.
 

@@ -3,9 +3,9 @@ sidebar_label: Groups
 sidebar_position: 9
 ---
 # Groups
-The "[Groups](https://app.plaspy.com/Groups)" section allows users to efficiently organize their devices by grouping them according to different criteria. This facilitates management, monitoring, and assignment of access permissions to devices. Groups are a fundamental tool for maintaining an organized and controlled structure of tracked assets.
+The "[*fa-users* Groups](https://app.plaspy.com/Groups)" section in Plaspy allows users to efficiently organize their devices by grouping them according to different criteria. This facilitates management, monitoring, and assignment of access permissions to devices. Groups are a fundamental tool for maintaining an organized and controlled structure of tracked assets.
 
-To access the groups section, go to the top menu and select "", then choose "[Groups](https://app.plaspy.com/Groups)". Here you can create new groups, edit existing ones, and assign devices to each group.
+To access the groups section, go to the top menu and select "*fa-cogs*", then choose "[*fa-users* Groups](https://app.plaspy.com/Groups)". Here you can create new groups, edit existing ones, and assign devices to each group.
 
 ![](./image_1718312838644.gif)
 
@@ -20,7 +20,7 @@ To access the groups section, go to the top menu and select "", then choose "[Gr
 
 ### Group Functionalities
 
-Groups allow you to perform the following actions:
+Groups in Plaspy allow you to perform the following actions:
 
 - **Filter on the Map:** View only the devices that belong to a specific group on the [map](https://app.plaspy.com/Map), facilitating visualization and monitoring.
 - **Access Control:** Limit [user](https://app.plaspy.com/Users) and mobile device access to certain groups, improving security and permission management.
@@ -31,9 +31,9 @@ Groups allow you to perform the following actions:
 **Creating a New Group**
 
 1. **Access the Groups Section:**
-    - Click on "" in the top menu and select "[Groups](https://app.plaspy.com/Groups)".
+    - Click on "*fa-cogs*" in the top menu and select "[*fa-users* Groups](https://app.plaspy.com/Groups)".
 2. **Start Group Creation:**
-    - Click on the "" icon in the bottom right corner to open the group creation form.
+    - Click on the "*fa-plus*" icon in the bottom right corner to open the group creation form.
 3. **Complete Group Details:**
     - **Name:** Enter the group name.
     - **Description:** Add a detailed description of the group.
@@ -45,7 +45,7 @@ Groups allow you to perform the following actions:
 **Editing an Existing Group**
 
 1. **Select the Group to Edit:**
-    - In the list of [groups](https://app.plaspy.com/Groups), click on the edit icon \(\) next to the group you want to modify.
+    - In the list of [groups](https://app.plaspy.com/Groups), click on the edit icon \(*fa-pencil-square-o*\) next to the group you want to modify.
 2. **Modify Group Details:**
     - Make the necessary changes to the group's name, description, or devices.
 3. **Save Changes:**
@@ -63,7 +63,7 @@ Groups allow you to perform the following actions:
 - **Can I assign a device to multiple groups?**
     - Yes, a device can belong to multiple groups, allowing you to organize it according to different criteria.
 - **What if I want to delete a group?**
-    - Click on the delete icon \(\) next to the group you want to delete. Confirm the deletion when prompted.
+    - Click on the delete icon \(*fa-trash*\) next to the group you want to delete. Confirm the deletion when prompted.
 - **How can I view only the devices of a group on the map?**
     - Select the desired group in the [map](https://app.plaspy.com/Map) filter to view only the devices that belong to that group.
 - **Is it possible to share a group with other users?**

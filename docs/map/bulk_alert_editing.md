@@ -9,7 +9,7 @@ The bulk alert editing function in the Plaspy [map](https://app.plaspy.com/Map) 
 
 ## General Description
 
-The option to edit alerts is located at the bottom of the map control panel, under the " Alerts" section. By selecting multiple devices, you can access the alert editing window, where you can add new alerts or replace existing alerts on all selected devices.
+The option to edit alerts is located at the bottom of the map control panel, under the "*fa-exclamation-triangle* Alerts" section. By selecting multiple devices, you can access the alert editing window, where you can add new alerts or replace existing alerts on all selected devices.
 
 ### How to Access and Use the Alert Editing Function
 
@@ -17,7 +17,7 @@ The option to edit alerts is located at the bottom of the map control panel, und
 
     - Log in to your Plaspy account.
     - Navigate to the main [map](https://app.plaspy.com/Map) where all your devices are displayed.
-    - In the left panel, under the " Alerts" section, click on " Edit Alerts".
+    - In the left panel, under the "*fa-exclamation-triangle* Alerts" section, click on "*fa-pencil* Edit Alerts".
 2. **Select Devices**:
 
     - In the control panel, select the devices for which you want to configure or edit alerts. The selected devices will be listed at the top of the alert editing window.
@@ -30,12 +30,12 @@ The option to edit alerts is located at the bottom of the map control panel, und
 
 1. **Add New Alerts**:
 
-    - Click the "" button to add a new [alert](../devices/alerts).
+    - Click the "*fa-plus*" button to add a new [alert](../devices/alerts).
     - Configure the alert parameters according to your needs \(e.g., geofence, speed, idle time, etc.\).
     - Once the alert is configured, click "Ok". The new alert will be added to all selected devices.
 2. **Replace Existing Alerts**:
 
-    - Click the "" button to add the new alert.
+    - Click the "*fa-plus*" button to add the new alert.
     - Configure the alert parameters according to your needs.
     - Select "ok" to delete all current alerts and add the new alerts to the selected devices.
 
@@ -47,6 +47,6 @@ The option to edit alerts is located at the bottom of the map control panel, und
 
 ## Example Use Case
 
-Suppose a fleet manager needs to set up a new geofence alert for all vehicles operating in a specific area. Instead of configuring this alert on each device individually, the manager can select all relevant vehicles, access the " Edit Alerts" option, configure the new geofence, and apply the alert to all selected devices at once. If the existing alerts also need updating, the manager can use the "Replace" option to ensure that only the most recent and relevant alerts are active on the devices.
+Suppose a fleet manager needs to set up a new geofence alert for all vehicles operating in a specific area. Instead of configuring this alert on each device individually, the manager can select all relevant vehicles, access the "*fa-pencil* Edit Alerts" option, configure the new geofence, and apply the alert to all selected devices at once. If the existing alerts also need updating, the manager can use the "Replace" option to ensure that only the most recent and relevant alerts are active on the devices.
 
 This bulk editing function is a powerful tool for the efficient management of alerts across multiple devices, allowing users to save time and ensure consistency in their tracking system configurations.

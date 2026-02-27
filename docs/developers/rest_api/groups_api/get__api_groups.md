@@ -17,7 +17,6 @@ Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 ```
 
-
 ## Response Parameters
 
 The response includes a list of groups along with specific details for each group.
@@ -65,7 +64,6 @@ The response includes a list of groups along with specific details for each grou
 }
 ```
 
-
 ## Example Error Response
 
 ```
@@ -77,6 +75,5 @@ The response includes a list of groups along with specific details for each grou
   "groups": null
 }
 ```
-
 
 This endpoint is essential for managing and viewing groups within the Plaspy application, allowing you to get a comprehensive and detailed view of each group and its associated devices.

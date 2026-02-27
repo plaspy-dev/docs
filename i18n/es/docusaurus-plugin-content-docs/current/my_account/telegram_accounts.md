@@ -18,8 +18,8 @@ Plaspy permite a los usuarios recibir notificaciones a través de [Telegram](htt
 1. **Acceder a la Configuración de Notificaciones por Telegram:**
 
     - Inicia sesión en tu cuenta de Plaspy.
-    - Navega a la sección de "[Cuenta](https://app.plaspy.com/Account)" desde el menú principal.
-    - Haz clic en la opción [**Notificaciones por Telegram**](https://app.plaspy.com/Telegram?from=/Account).  
+    - Navega a la sección de "[*fa-user* Cuenta](https://app.plaspy.com/Account)" desde el menú principal.
+    - Haz clic en la opción [***fa-telegram* Notificaciones por Telegram**](https://app.plaspy.com/Telegram?from=/Account).  
 
 ![](./1-ingreso-telegram.jpg "Iniciar sesi&oacute;n en telegram")
 2. **Suscribirse al Bot de Telegram:**

@@ -18,16 +18,16 @@ Para activar el servicio de API en tu cuenta de Plaspy, es necesario generar una
 1. **Acceder a la Sección de Cuenta:**
 
     - Inicia sesión en tu cuenta de Plaspy y dirígete a la esquina superior derecha.
-    - Haz clic en el tu nombre de usuario y selecciona "[Mi cuenta](https://app.plaspy.com/Account)" en el menú desplegable.
+    - Haz clic en el tu nombre de usuario y selecciona "[*fa-user* Mi cuenta](https://app.plaspy.com/Account)" en el menú desplegable.
     - También puedes acceder directamente a través de este [enlace](https://app.plaspy.com/Account).
 2. **Navegar a la Información de la Cuenta:**
 
-    - En la página de cuenta, busca la sección " Información de la cuenta".
-    - Dentro de esta sección, localiza el apartado "API Key ".
+    - En la página de cuenta, busca la sección "*fa-user* Información de la cuenta".
+    - Dentro de esta sección, localiza el apartado "API Key *fa-question-circle*".
 3. **Generar la API Key:**
 
-    - Haz clic en el icono de opciones \(\) ubicado al lado derecho de "API Key".
-    - Selecciona la opción " Generar" del menú desplegable.
+    - Haz clic en el icono de opciones \(*fa-ellipsis-v*\) ubicado al lado derecho de "API Key".
+    - Selecciona la opción "*fa-refresh* Generar" del menú desplegable.
     - Esto generará una nueva llave de acceso que podrás utilizar para integrar la API de Plaspy en tu aplicación o sitio web.
 4. **Copia y Guarda la API Key:**
 
@@ -36,7 +36,7 @@ Para activar el servicio de API en tu cuenta de Plaspy, es necesario generar una
 ### Administración de la API Key
 
 - **Eliminar la API Key:**
-    - Si deseas eliminar la API Key, haz clic en el icono de los tres puntos \(\) junto a "API Key" y selecciona " Eliminar". Esto revocará el acceso a cualquier usuario que esté utilizando esta clave.
+    - Si deseas eliminar la API Key, haz clic en el icono de los tres puntos \(*fa-ellipsis-v*\) junto a "API Key" y selecciona "*fa-trash-o* Eliminar". Esto revocará el acceso a cualquier usuario que esté utilizando esta clave.
 - **Regenerar la API Key:**
     - Puedes generar una nueva API Key en cualquier momento. Al hacerlo, la clave anterior será invalidada automáticamente y los usuarios que estén usando esa clave perderán acceso inmediatamente.
 

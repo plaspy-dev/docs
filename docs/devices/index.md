@@ -3,7 +3,7 @@ sidebar_label: Devices
 sidebar_position: 2
 ---
 # Devices
-The [Devices](https://app.plaspy.com/Devices) section in Plaspy allows you to manage and monitor the satellite tracking devices associated with your account. Here, you can add new trackers, view the status of current ones, and configure various options for each device. This functionality is essential for maintaining precise and up-to-date control of the vehicles, assets, or people you are tracking. To access this section, navigate to "[Devices](https://app.plaspy.com/Devices)" from the main panel.
+The [Devices](https://app.plaspy.com/Devices) section in Plaspy allows you to manage and monitor the satellite tracking devices associated with your account. Here, you can add new trackers, view the status of current ones, and configure various options for each device. This functionality is essential for maintaining precise and up-to-date control of the vehicles, assets, or people you are tracking. To access this section, navigate to "[*fa-cogs* Devices](https://app.plaspy.com/Devices)" from the main panel.
 
 Plaspy automatically detects the type of device connected to your account, and this information may vary depending on the device. Some examples of device types are: Android, IOS, Xexun, TK103, Ruptela Eco 5, Wanway GS10, among others. This detection is based on the communication protocol used by the tracker and does not necessarily match the brand and model of the device.
 
@@ -17,20 +17,20 @@ Plaspy automatically detects the type of device connected to your account, and t
 - **IMEI or Identifier**: The IMEI \(International Mobile Equipment Identity\) or unique identifier of the device is crucial for its correct configuration and communication with the Plaspy system. This code usually has 15 digits, although some trackers use the last 11.
 - **Description**: Here you can enter additional information that describes the device, such as its location, type of vehicle, or any relevant detail.
 - [**Marker Icon**:](marker_icon) Allows you to select a specific icon that will represent the device on the map. This helps to visually differentiate between different types of devices.
-- [**Information:**](information) Includes details about the device's creation date, last connection, protocol used, associated phone number, and marker text.
-- [**Sensors**:](sensors) Here you can configure and monitor the different sensors associated with the device, such as mileage, fuel consumption, and tank capacity.
-- **[Reassign Digital Sensors](reassign_digital_sensors)**[:](reassign_digital_sensors) Option to reassign the device's digital inputs to different functions or purposes.
-- [**Commands**:](commands) Allows you to send customized commands to the device, either via GPRS or SMS, and view the history of commands sent.
-- [**Reminders**:](reminders) Function to schedule alerts or notices that will arrive by email based on specific dates or mileage.
-- [**Alerts**:](alerts) Configuration of notifications that activate based on specific events defined by the user.
-- limits Limits**: Sets daily limits for sending emails and SMS from the device.
+- [*fa-info-circle* **Information:**](information) Includes details about the device's creation date, last connection, protocol used, associated phone number, and marker text.
+- [***fa-cog* Sensors**:](sensors) Here you can configure and monitor the different sensors associated with the device, such as mileage, fuel consumption, and tank capacity.
+- **[*fa-exchange* Reassign Digital Sensors](reassign_digital_sensors)**[:](reassign_digital_sensors) Option to reassign the device's digital inputs to different functions or purposes.
+- [***fa-code* Commands**:](commands) Allows you to send customized commands to the device, either via GPRS or SMS, and view the history of commands sent.
+- [***fa-bell* Reminders**:](reminders) Function to schedule alerts or notices that will arrive by email based on specific dates or mileage.
+- [***fa-exclamation-triangle* Alerts**:](alerts) Configuration of notifications that activate based on specific events defined by the user.
+- limits](limits) Limits**: Sets daily limits for sending emails and SMS from the device.
 
 ## Step-by-Step Instructions
 
 ### Adding a New Device
 
-1. Access the "[Devices](https://app.plaspy.com/Devices)" section from the main panel in the top right corner in ""
-2. Click on "" to add new device in the bottom right corner.
+1. Access the "[*fa-cogs* Devices](https://app.plaspy.com/Devices)" section from the main panel in the top right corner in "*fa-cogs*"
+2. Click on "*fa-plus*" to add new device in the bottom right corner.
 3. Fill in the required fields:
     - **Name**: Enter a descriptive name for the device.
     - **IMEI or Identifier**: Enter the device's IMEI number.
@@ -43,14 +43,14 @@ Plaspy automatically detects the type of device connected to your account, and t
 
 ### Editing an Existing Device
 
-1. In the [device](https://app.plaspy.com/Devices) list, select the device you want to edit by clicking the edit icon \(\) located next to its name..
+1. In the [device](https://app.plaspy.com/Devices) list, select the device you want to edit by clicking the edit icon \(*fa-pencil-square-o*\) located next to its name..
 2. Make the necessary changes in the available fields.
 3. Click "OK" to save the changes.
 
 ### Deleting a Device
 
-1. In the [device](https://app.plaspy.com/Devices) list, select the device you want to edit by clicking the edit icon \(\) located next to its name.
-2. Click on ' Delete' in the bottom left corner.
+1. In the [device](https://app.plaspy.com/Devices) list, select the device you want to edit by clicking the edit icon \(*fa-pencil-square-o*\) located next to its name.
+2. Click on '*fa-trash* Delete' in the bottom left corner.
 3. Confirm the deletion of the device.
 
 ### Adding a Mobile Phone

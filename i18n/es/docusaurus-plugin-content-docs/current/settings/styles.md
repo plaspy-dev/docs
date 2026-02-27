@@ -3,12 +3,11 @@ sidebar_label: Estilos
 sidebar_position: 45
 ---
 # Estilos
-La sección "[Estilos](https://app.plaspy.com/Settings)" en la configuración de Plaspy permite a los administradores personalizar la apariencia de la plataforma mediante la carga de hojas de estilos CSS \(Cascading Style Sheets\). Esta funcionalidad es útil para adaptar la interfaz tanto en dispositivos de escritorio como móviles, asegurando una experiencia de usuario coherente y profesional. En esta guía se detallan los campos disponibles y los pasos para configurarlos adecuadamente.
+La sección "[*fa-desktop* Estilos](https://app.plaspy.com/Settings)" en la configuración de Plaspy permite a los administradores personalizar la apariencia de la plataforma mediante la carga de hojas de estilos CSS \(Cascading Style Sheets\). Esta funcionalidad es útil para adaptar la interfaz tanto en dispositivos de escritorio como móviles, asegurando una experiencia de usuario coherente y profesional. En esta guía se detallan los campos disponibles y los pasos para configurarlos adecuadamente.
 
 ![](./kkTYVutAtg-10.gif "kkTYVutAtg-10.gif")
 
-###   
-Descripción de Campos
+### Descripción de Campos
 
 - **Cargar estilos CSS predeterminados:** Opción para habilitar o deshabilitar el uso de los estilos CSS predeterminados de Plaspy. Al habilitar esta opción, el tema actual de Plaspy se adaptará automáticamente al color primario de la página web sin necesidad de incluir ningún esquema CSS adicional.
 - **Hoja de estilos Escritorio:** URL de la hoja de estilos CSS que se aplicará a la versión de escritorio de la plataforma.
@@ -19,7 +18,7 @@ Descripción de Campos
 1. **Acceder a la Sección:**
 
     - Inicia sesión en Plaspy y dirígete al menú principal en la parte superior derecha.
-    - Selecciona "[Configuración](https://app.plaspy.com/Settings)" y luego " Estilos".
+    - Selecciona "[*fa-list* Configuración](https://app.plaspy.com/Settings)" y luego "*fa-desktop* Estilos".
 2. **Habilitar o Deshabilitar Estilos CSS Predeterminados:**
 
     - Marca o desmarca la casilla "Cargar estilos CSS predeterminados" según tus necesidades. Si está marcada, Plaspy utilizará sus estilos CSS predeterminados, adaptando automáticamente el tema al color primario de tu página web sin necesidad de esquemas CSS adicionales.

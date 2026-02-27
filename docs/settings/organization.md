@@ -3,7 +3,7 @@ sidebar_label: Organization
 sidebar_position: 41
 ---
 # Organization
-The " Organization" section within Plaspy's [settings](https://app.plaspy.com/Settings) allows administrators to customize and manage key organizational details, such as the name, interface colors, icon, sub-domain, and integration with tracking and security tools. This guide provides a detailed description of each field and the steps needed to effectively configure this section.
+The "*fa-building* Organization" section within Plaspy's [settings](https://app.plaspy.com/Settings) allows administrators to customize and manage key organizational details, such as the name, interface colors, icon, sub-domain, and integration with tracking and security tools. This guide provides a detailed description of each field and the steps needed to effectively configure this section.
 
 ![](./image_1718312319926.gif)
 
@@ -19,8 +19,8 @@ The " Organization" section within Plaspy's [settings](https://app.plaspy.com/S
 
 1. **Access the Section**:
 
-    - Log in to Plaspy and go to the main menu in the top right corner in \(\).
-    - Select "[Settings](https://app.plaspy.com/Settings)", click " Advanced Customization" and then " Organization".
+    - Log in to Plaspy and go to the main menu in the top right corner in \(*fa-cogs*\).
+    - Select "[*fa-list* Settings](https://app.plaspy.com/Settings)", click "*fa-television* Advanced Customization" and then "*fa-building* Organization".
 2. **Update the Organization Name**:
 
     - Enter the official name of your organization in the "Organization Name" field.

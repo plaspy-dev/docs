@@ -3,7 +3,7 @@ sidebar_label: Estadísticas
 sidebar_position: 7
 ---
 # Estadísticas
-La sección de "[Estadísticas](https://app.plaspy.com/Statistics)" en Plaspy permite a los usuarios obtener informes detallados sobre el rendimiento y el uso de sus dispositivos a lo largo del tiempo. Esta herramienta es crucial para monitorear aspectos clave como el consumo de combustible, kilometraje, alertas generadas, y mucho más, proporcionando datos valiosos para la gestión eficiente de flotas y activos.
+La sección de "[*fa-bar-chart* Estadísticas](https://app.plaspy.com/Statistics)" en Plaspy permite a los usuarios obtener informes detallados sobre el rendimiento y el uso de sus dispositivos a lo largo del tiempo. Esta herramienta es crucial para monitorear aspectos clave como el consumo de combustible, kilometraje, alertas generadas, y mucho más, proporcionando datos valiosos para la gestión eficiente de flotas y activos.
 
 Para acceder a la sección de estadísticas, dirígete al menú superior y selecciona el ícono de estadísticas representado por un gráfico. Esto te llevará a la página donde puedes configurar y visualizar diversos tipos de informes según tus necesidades.
 
@@ -66,11 +66,11 @@ En Plaspy, hemos integrado una función innovadora que permite a los usuarios in
 Plaspy ofrece varias opciones para guardar las estadísticas generadas en formato Excel, permitiendo una mayor flexibilidad en el análisis y gestión de datos. A continuación, se detallan las opciones disponibles:
 
 - **Estadistica actual:** 
-    - **Dispositivos Seleccionados**: Permite guardar la estadística del dispositivo actual que se está visualizando, de los dispositivos seleccionados en el filtro.
-    - **Cada Dispositivo en una Hoja Diferente**: Guarda la estadística actual de los dispositivos seleccionados, cada uno en una hoja por separado dentro del mismo archivo Excel.
+    - ***fa-floppy-o*  Dispositivos Seleccionados**: Permite guardar la estadística del dispositivo actual que se está visualizando, de los dispositivos seleccionados en el filtro.
+    - ***fa-cogs* Cada Dispositivo en una Hoja Diferente**: Guarda la estadística actual de los dispositivos seleccionados, cada uno en una hoja por separado dentro del mismo archivo Excel.
 - **Todas las estadísticas:**
-    - <sub><i class="fa fa-floppy-o"></i></sub>**Cada Estadística en Hojas Diferentes**: Guarda todas las estadísticas de los dispositivos seleccionados, cada estadística en hojas diferentes del mismo archivo Excel.
-    - **<sub><i class="fa fa-file-excel-o"></i></sub> Cada Dispositivo en un Archivo Diferente**: Guarda todas las estadísticas de los dispositivos seleccionados en archivos Excel separados, cada dispositivo en un archivo diferente.
+    - *fa-floppy-o*<sub><i>fa-floppy-o</i></sub>**Cada Estadística en Hojas Diferentes**: Guarda todas las estadísticas de los dispositivos seleccionados, cada estadística en hojas diferentes del mismo archivo Excel.
+    - ***fa-file-excel-o*<sub><i>fa-file-excel-o</i></sub> Cada Dispositivo en un Archivo Diferente**: Guarda todas las estadísticas de los dispositivos seleccionados en archivos Excel separados, cada dispositivo en un archivo diferente.
 
 ### Instrucciones Paso a Paso
 
@@ -78,7 +78,7 @@ Plaspy ofrece varias opciones para guardar las estadísticas generadas en format
 
 1. **Abrir el menú de estadísticas**:
 
-    - En el menú superior derecho, haz clic en el ícono de [estadísticas](https://app.plaspy.com/Statistics) \(representado por \).
+    - En el menú superior derecho, haz clic en el ícono de [estadísticas](https://app.plaspy.com/Statistics) \(representado por *fa-bar-chart*\).
 2. **Seleccionar los filtros deseados**:
 
     - **Fecha**: Selecciona el rango de fechas que deseas analizar.
@@ -87,11 +87,11 @@ Plaspy ofrece varias opciones para guardar las estadísticas generadas en format
     - **Tipo**: Selecciona el tipo de estadística que deseas generar.
 3. **Generar la estadística**:
 
-    - Haz clic en el botón " Actualizar" para ver la estadística en la plataforma.
+    - Haz clic en el botón "*fa-refresh* Actualizar" para ver la estadística en la plataforma.
 4. **Guardar la estadística**:
 
-    - Haz clic en el botón " Guardar" para exportar la información a un archivo Excel.
-    - Selecciona la opción de guardado que prefieras del menú desplegable \(\).
+    - Haz clic en el botón "*fa-floppy-o* Guardar" para exportar la información a un archivo Excel.
+    - Selecciona la opción de guardado que prefieras del menú desplegable \(*fa-sort-desc*\).
 
 ### Validaciones y Restricciones
 

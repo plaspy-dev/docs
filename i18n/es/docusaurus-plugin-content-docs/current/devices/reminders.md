@@ -16,16 +16,16 @@ La sección de Recordatorios en Plaspy permite a los usuarios programar alertas 
 
 ## Acceder a la Sección de Recordatorios
 
-1. Navega a la sección "[Dispositivos](https://app.plaspy.com/Device)" desde el panel principal superior derecho en el icono "".
+1. Navega a la sección "[*fa-cogs* Dispositivos](https://app.plaspy.com/Device)" desde el panel principal superior derecho en el icono "*fa-cogs*".
 2. Selecciona el dispositivo para el cual deseas configurar un recordatorio.
-3. Haz clic en la opción " Recordatorios" para expandir esta sección y ver los detalles relevantes.
+3. Haz clic en la opción "*fa-bell* Recordatorios" para expandir esta sección y ver los detalles relevantes.
 
 ## Instrucciones Paso a Paso
 
 ### Crear un Nuevo Recordatorio
 
 1. Selecciona el dispositivo de la lista de [dispositivos](https://app.plaspy.com/Devices).
-2. En la sección " Recordatorios", haz clic en "Agregar nuevo recordatorio".
+2. En la sección "*fa-bell* Recordatorios", haz clic en "Agregar nuevo recordatorio".
 3. Completa los campos requeridos:
     - **Nombre del Recordatorio**: Introduce un nombre descriptivo para el recordatorio.
     - **Email**: Ingresa la dirección de correo electrónico donde deseas recibir el recordatorio.
@@ -36,15 +36,15 @@ La sección de Recordatorios en Plaspy permite a los usuarios programar alertas 
 ### Editar un Recordatorio Existente
 
 1. Selecciona el dispositivo de la lista de dispositivos.
-2. En la sección " Recordatorios", localiza el recordatorio que deseas editar.
+2. En la sección "*fa-bell* Recordatorios", localiza el recordatorio que deseas editar.
 3. Realiza los cambios necesarios en los campos disponibles.
 4. Haz clic en "Aceptar" para actualizar el recordatorio.
 
 ### Eliminar un Recordatorio
 
 1. Selecciona el dispositivo de la lista de dispositivos.
-2. En la sección " Recordatorios", localiza el recordatorio que deseas eliminar.
-3. Haz clic en el ícono de la papelera \(\) al lado del recordatorio.
+2. En la sección "*fa-bell* Recordatorios", localiza el recordatorio que deseas eliminar.
+3. Haz clic en el ícono de la papelera \(*fa-trash*\) al lado del recordatorio.
 4. Confirma la eliminación del recordatorio.
 
 ## Preguntas Frecuentes

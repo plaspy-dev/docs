@@ -3,14 +3,14 @@ sidebar_label: Activity Summary
 sidebar_position: 8
 ---
 # Activity Summary
-The [Activity Summary](https://app.plaspy.com/Summary) is an essential tool for monitoring the behavior of tracked devices over a specific period. This feature allows users to review routes, fuel consumption, and other important aspects of the vehicles or assets they are managing.
+The [Activity Summary](https://app.plaspy.com/Summary) in Plaspy is an essential tool for monitoring the behavior of tracked devices over a specific period. This feature allows users to review routes, fuel consumption, and other important aspects of the vehicles or assets they are managing.
 
 ![](./image_1718312800611.gif)
 
 To access the Activity Summary, follow these steps:
 
-1. Go to the top right corner in \(\) and then select " Stadistics".
-2. Select "[Activity Summary](https://app.plaspy.com/Summary)."
+1. Go to the top right corner in \(*fa-globe*\) and then select "*fa-bar-chart* Stadistics".
+2. Select "[*fa-map-o* Activity Summary](https://app.plaspy.com/Summary)."
 
 ### Activity Summary Fields
 
@@ -20,12 +20,12 @@ To access the Activity Summary, follow these steps:
 
 ### Step-by-Step Instructions
 
-1. **Select Date:** Click on the calendar icon \(\) to choose the date or date range you want to analyze.
+1. **Select Date:** Click on the calendar icon \(*fa-calendar*\) to choose the date or date range you want to analyze.
 2. **Choose Group:** Use the dropdown menu to select the group of devices you want to monitor.
 3. **Select Device:** Use the multi-select option to choose one or more specific devices.
-4. **Update Data:** Once you have made your selections, click the " Update" button to load the corresponding information on the map and charts.
-5. **Save to Excel:** If you want to save the activity summary, click "" to export the data to an Excel file for further analysis.
-6. **Email Notifications:** You can set up notifications to receive activity summaries by email. This is done by clicking the " Email Notifications" button and filling in the necessary details in the pop-up window.
+4. **Update Data:** Once you have made your selections, click the "*fa-refresh* Update" button to load the corresponding information on the map and charts.
+5. **Save to Excel:** If you want to save the activity summary, click "*fa-floppy-o*" to export the data to an Excel file for further analysis.
+6. **Email Notifications:** You can set up notifications to receive activity summaries by email. This is done by clicking the "*fa-envelope-o* Email Notifications" button and filling in the necessary details in the pop-up window.
 
 ### Interaction through Integrated AI Chat
 
@@ -50,7 +50,7 @@ At Plaspy, we have integrated an innovative feature that allows users to interac
 
 - **Efficiency and Time Savings:**Direct interaction with the data through the chat reduces the time it would normally take to search for and analyze information.
 - **Accessibility and Ease of Use:**No advanced technical knowledge is required to use this tool. The AI is designed to understand and respond in natural language, making it easy for all users to use.
-- **Constant Updates:**Being integrated with the system, the AI provides real-time updated data, ensuring you always have the most accurate information at your disposal.
+- **Constant Updates:**Being integrated with the Plaspy system, the AI provides real-time updated data, ensuring you always have the most accurate information at your disposal.
 
 ### Generated Charts
 
@@ -83,13 +83,13 @@ The Activity Summary generates several charts that provide a detailed view of th
 
 ### Email Notifications
 
-The email notification functionality allows users to receive activity summary reports directly in their inboxes. These notifications can be configured to be sent daily or weekly, and you can define the specific devices or groups for which you want to receive reports.
+The email notification functionality in Plaspy allows users to receive activity summary reports directly in their inboxes. These notifications can be configured to be sent daily or weekly, and you can define the specific devices or groups for which you want to receive reports.
 
 #### Configuring Notifications
 
 1. **Access Notification Settings:**
     - Click the "Email Notifications" button in the Activity Summary section.
-    - Select the button ''.
+    - Select the button '*fa-plus*'.
 2. **Complete Notification Details:**
     - **Name:** Enter a descriptive name for the notification.
     - **Type:** Select whether you want to receive the report Daily or Weekly.

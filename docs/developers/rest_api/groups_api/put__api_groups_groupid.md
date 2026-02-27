@@ -35,7 +35,6 @@ To update a group, you must send a PUT request with the group's details in the r
 }
 ```
 
-
 ### Authentication Required
 
 [Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
@@ -54,7 +53,6 @@ Content-Type: application/json
   "devices": ["dev-123", "dev-456"]
 }
 ```
-
 
 ## Response Parameters
 
@@ -90,7 +88,6 @@ The response includes details of the updated group.
 }
 ```
 
-
 ## Example Error Response
 
 ```
@@ -101,6 +98,5 @@ The response includes details of the updated group.
   "apiDailyUsage": 45
 }
 ```
-
 
 This endpoint is essential for keeping group information in the Plaspy application up to date, allowing modifications to specific details of an existing group to reflect changes in organization or device allocation.

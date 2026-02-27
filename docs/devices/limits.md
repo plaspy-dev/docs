@@ -15,16 +15,16 @@ The Limits section in Plaspy allows users to set daily restrictions for [sending
 
 ## Accessing the Limits Section
 
-1. Navigate to the "[Devices](https://app.plaspy.com/Device)" section from the main panel \(\).
-2. Select the device with the edit icon \(\), next to the device name for which you want to configure the limits.
-3. Click on the " Limits" option to expand this section and view the relevant details.
+1. Navigate to the "[*fa-cogs* Devices](https://app.plaspy.com/Device)" section from the main panel \(*fa-cogs*\).
+2. Select the device with the edit icon \(*fa-pencil-square-o*\), next to the device name for which you want to configure the limits.
+3. Click on the "*fa-ban* Limits" option to expand this section and view the relevant details.
 
 ## Step-by-Step Instructions
 
 ### Setting Daily Limits
 
-1. Select the device from the [device](https://app.plaspy.com/Devices) list with the edit icon \(\), next to the device name.
-2. In the " Limits" section, locate the "Daily Email Limit" and "Daily SMS Limit" fields.
+1. Select the device from the [device](https://app.plaspy.com/Devices) list with the edit icon \(*fa-pencil-square-o*\), next to the device name.
+2. In the "*fa-ban* Limits" section, locate the "Daily Email Limit" and "Daily SMS Limit" fields.
 3. Enter the desired values for the daily email and SMS limits.
 4. If you want to set an expiration date for these limits, activate the "Expires" option and select an expiration date in the corresponding field.
 5. Click "OK" to apply the configured limits to the device.
@@ -32,7 +32,7 @@ The Limits section in Plaspy allows users to set daily restrictions for [sending
 ### Example: Setting a Daily Limit of 10 Emails and 5 SMS
 
 1. Select the device from the device list.
-2. In the " Limits" section, enter "10" in the "Daily Email Limit" field.
+2. In the "*fa-ban* Limits" section, enter "10" in the "Daily Email Limit" field.
 3. Enter "5" in the "Daily SMS Limit" field.
 4. \(Optional\) If you want these limits to expire on a specific date, activate the "Expires" option and select the expiration date.
 5. Click "OK" to apply the configured limits.
@@ -40,7 +40,7 @@ The Limits section in Plaspy allows users to set daily restrictions for [sending
 ### Checking Limit Usage
 
 1. Select the device from the device list.
-2. In the " Limits" section, review the counters indicating the number of emails and SMS messages sent that day.
+2. In the "*fa-ban* Limits" section, review the counters indicating the number of emails and SMS messages sent that day.
 3. Adjust the limits if necessary, based on the recorded usage.
 
 ## Frequently Asked Questions

@@ -1,5 +1,6 @@
 ---
 sidebar_label: Subscripciones de Plaspy
+sidebar_class_name: show-only-plaspy
 ---
 # Subscripciones de Plaspy
 Ofrecemos distintos [planes de suscripción](https://app.plaspy.com/Features/Pricing?lang=es) para que elijas el que mejor se adapte a tu forma de trabajo. Cada plan incluye un conjunto de funciones pensadas para diferentes necesidades: desde el seguimiento básico del día a día, hasta herramientas avanzadas para operaciones más grandes y con requerimientos especiales.
@@ -56,24 +57,20 @@ En esta parte de la ayuda conocerás las características principales de cada pl
 
         En pocas palabras: facilita el trabajo diario de controlar, reportar y optimizar una flota.
 
-###
-- **Si tengo pocos vehículos, ¿me conviene Profesional o Estándar?**
+### - **Si tengo pocos vehículos, ¿me conviene Profesional o Estándar?**
 
     - Si tu objetivo es monitoreo básico y reportes puntuales, **Estándar** suele ser suficiente.
     - Si ya estás en un punto donde quieres medir mejor, comparar recorridos, controlar hábitos de conducción o hacer seguimiento más constante, **Profesional** te va a dar más herramientas.
 
-###
-- **¿Qué es Enterprise y para quién está pensado?**
+### - **¿Qué es Enterprise y para quién está pensado?**
 
     - **Enterprise** es una opción más flexible, pensada para empresas que necesitan algo “a medida”. Por ejemplo: integraciones con sistemas internos, automatizaciones con API/Webhooks, configuraciones especiales, personalización de marca o una operación grande con varios equipos trabajando al mismo tiempo.
 
-###
-- **¿Cómo se activa el plan Enterprise?**
+### - **¿Cómo se activa el plan Enterprise?**
 
     - No se trata solo de “activar y ya”, porque normalmente requiere ajustar detalles según el caso.  
 Por eso, para usarlo solo tienes que **llenar un formulario**, y con esa información el equipo puede revisar tu necesidad y ayudarte a dejarlo listo de forma correcta, sin vueltas ni configuraciones a ciegas.
 
-###
-- **¿Puedo cambiar de plan después?**
+### - **¿Puedo cambiar de plan después?**
 
     - Sí. A medida que tu operación crece, puedes empezar con un plan y luego pasar a otro cuando necesites más funciones o un nivel de configuración más avanzado.

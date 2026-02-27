@@ -23,8 +23,8 @@ The "WhatsApp Notifications" section in Plaspy's [settings](https://app.plaspy.c
 
 1. **Access the Section:**
 
-    - Log in to Plaspy and go to the main menu in the top right corner in \(\).
-    - Select "[Settings](https://app.plaspy.com/Settings)", click " Advanced Customization" and then " WhatsApp Notifications".
+    - Log in to Plaspy and go to the main menu in the top right corner in \(*fa-cogs*\).
+    - Select "[*fa-list* Settings](https://app.plaspy.com/Settings)", click "*fa-television* Advanced Customization" and then "*fa-whatsapp* WhatsApp Notifications".
 2. **Create a WhatsApp Business Account and Get API Credentials:**
 
     - Go to the [Facebook Developers Console](https://developers.facebook.com/) and create a WhatsApp Business account.

@@ -23,8 +23,8 @@ Las notificaciones por email en Plaspy permiten a los usuarios mantenerse inform
 1. **Acceder a la Configuración de Notificaciones:**
 
     - Inicia sesión en tu cuenta de Plaspy.
-    - Navega a la sección de "[Cuenta](https://app.plaspy.com/Account)" desde el menú principal.
-    - Haz clic en "[Notificaciones por Email](https://app.plaspy.com/UserSecurity/MailNotifications)".
+    - Navega a la sección de "[*fa-user* Cuenta](https://app.plaspy.com/Account)" desde el menú principal.
+    - Haz clic en "[*fa-envelope-o* Notificaciones por Email](https://app.plaspy.com/UserSecurity/MailNotifications)".
 2. **Seleccionar Categorías:**
 
     - En la pantalla de configuración, verás tu correo electrónico y una descripción de las notificaciones disponibles.
@@ -47,7 +47,7 @@ Las notificaciones por email en Plaspy permiten a los usuarios mantenerse inform
 ### Preguntas Frecuentes
 
 - **¿Puedo cambiar mis preferencias de notificaciones más tarde?**
-    - Sí, puedes cambiar tus preferencias de notificaciones en cualquier momento accediendo nuevamente a la sección de " Notificaciones por Email" en tu cuenta.
+    - Sí, puedes cambiar tus preferencias de notificaciones en cualquier momento accediendo nuevamente a la sección de "*fa-envelope-o* Notificaciones por Email" en tu cuenta.
 - **¿Qué sucede si no selecciono ninguna categoría y no marco la opción de desactivar notificaciones?**
     - Si no seleccionas ninguna categoría y tampoco marcas la opción de no recibir notificaciones, no se guardarán cambios y seguirás recibiendo las notificaciones según tu configuración anterior.
 - **¿Cómo puedo asegurarme de que los emails de Plaspy no terminen en mi carpeta de spam?**

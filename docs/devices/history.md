@@ -9,9 +9,9 @@ The [device](https://app.plaspy.com/Devices) history functionality in Plaspy all
 
 ### To access a device's history
 
-1. Go to the "[Devices](https://app.plaspy.com/Devices)" section from the main panel \(\).
+1. Go to the "[Devices](https://app.plaspy.com/Devices)" section from the main panel \(*fa-cogs*\).
 2. Select the device whose history you want to view.
-3. Click on the " History" button to display the menu with available dates.
+3. Click on the "*fa-list* History" button to display the menu with available dates.
 4. Select the date of interest to view the device's status at that time and, if necessary, restore it.
 
 ### Field Descriptions
@@ -24,9 +24,9 @@ The [device](https://app.plaspy.com/Devices) history functionality in Plaspy all
 
 1. **Accessing the History**:
 
-    - In the Plaspy main panel, navigate to "[Devices](https://app.plaspy.com/Devices)" in the top right corner in ""
-    - Select the device with the edit icon \(\), next to the device name whose history you wish to review.
-    - Click on the " History" button to open the date menu.
+    - In the Plaspy main panel, navigate to "[*fa-cogs* Devices](https://app.plaspy.com/Devices)" in the top right corner in "*fa-cogs*"
+    - Select the device with the edit icon \(*fa-pencil-square-o*\), next to the device name whose history you wish to review.
+    - Click on the "*fa-list* History" button to open the date menu.
 2. **Reviewing the History**:
 
     - In the dropdown menu, select the specific date you wish to review.

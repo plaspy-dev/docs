@@ -111,7 +111,6 @@ Content-Type: application/json
 }
 ```
 
-
 ### Ejemplo de Respuesta de Error
 
 ```
@@ -122,6 +121,5 @@ Content-Type: application/json
     "apiDailyUsage": 100
 }
 ```
-
 
 Este endpoint facilita la actualización de datos específicos de un usuario, garantizando flexibilidad y eficiencia en la gestión de usuarios dentro del sistema Plaspy.

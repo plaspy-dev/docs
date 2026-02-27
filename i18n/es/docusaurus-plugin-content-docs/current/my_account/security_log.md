@@ -10,7 +10,7 @@ El **Registro de Acceso** en Plaspy permite a los usuarios monitorear y revisar 
 Para acceder al Registro de Acceso, sigue estos pasos:
 
 1. Inicia sesión en tu cuenta de Plaspy.
-2. Dirígete a la sección de https://app.plaspy.com/Account**[Mi cuenta](https://app.plaspy.com/Account)**.
+2. Dirígete a la sección de https://app.plaspy.com/Account**[*fa-user* Mi cuenta](https://app.plaspy.com/Account)**.
 3. En la parte inferior de la pantalla, encontrarás el panel de **Registro de acceso**.
 
 ## Campos del Registro de Acceso
@@ -22,7 +22,7 @@ Para acceder al Registro de Acceso, sigue estos pasos:
 
 ## Instrucciones Paso a Paso
 
-1. **Visualizar el Registro**: Una vez en la sección de " **Mi cuenta**", el registro de acceso se mostrará automáticamente. Puedes revisar los eventos de acceso recientes y detallados.
+1. **Visualizar el Registro**: Una vez en la sección de "*fa-user* **Mi cuenta**", el registro de acceso se mostrará automáticamente. Puedes revisar los eventos de acceso recientes y detallados.
 2. **Cargar Más Registros**: Si deseas ver más registros de acceso, haz clic en el botón **Cargar más** que se encuentra al final de la tabla. Esto te permitirá cargar eventos adicionales y revisar más entradas.
 
 ## Validaciones y Restricciones

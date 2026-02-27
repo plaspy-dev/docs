@@ -3,13 +3,13 @@ sidebar_label: Users
 sidebar_position: 10
 ---
 # Users
-In the "[Users](https://app.plaspy.com/Users)" section, you can manage user accounts that have access to the platform. This functionality is essential for granting and managing permissions, roles, and access for different users according to their needs and responsibilities within the system.
+In the "[*fa-user* Users](https://app.plaspy.com/Users)" section of the Plaspy application, you can manage user accounts that have access to the platform. This functionality is essential for granting and managing permissions, roles, and access for different users according to their needs and responsibilities within the system.
 
 ![](./users-animated.webp "users-animated.webp")
 
 ### Accessing the Users Section
 
-To access the users section, go to the top right menu and select the gear icon \(\). In the dropdown menu, choose "[Users](https://app.plaspy.com/Users)." This will take you to the page where you can see the list of current users and perform various actions such as creating, editing, or deleting users.
+To access the users section, go to the top right menu and select the gear icon \(*fa-cogs*\). In the dropdown menu, choose "[*fa-user* Users](https://app.plaspy.com/Users)." This will take you to the page where you can see the list of current users and perform various actions such as creating, editing, or deleting users.
 
 ### Field Descriptions
 
@@ -29,7 +29,7 @@ To access the users section, go to the top right menu and select the gear icon \
 
 ### User Types
 
-The types of users determine the permissions and scope of actions they can perform within the platform. The different types of users available are detailed below:
+The types of users in Plaspy determine the permissions and scope of actions they can perform within the platform. The different types of users available are detailed below:
 
 1. **Standard User:**
 
@@ -49,7 +49,7 @@ The types of users determine the permissions and scope of actions they can perfo
 
 ### User Privileges
 
-User privileges define what actions a user can perform on the assigned devices. The privileges that can be configured include:
+User privileges in Plaspy define what actions a user can perform on the assigned devices. The privileges that can be configured include:
 
 - **Edit:** Allows the user to modify names, icons, alerts, and other details of the assigned devices.
 - **Phone Call Commands:** Here you can change the authorized number to call the tracker. When you call the device, it can respond with an SMS or activate the cabin monitoring \(listen-in\) feature.
@@ -67,17 +67,17 @@ These privileges enable granular management of what each user can do within the 
 1. **Access the administration menu:**
 
     - Go to the top right menu of the platform.
-    - Click on the gear icon \(\) to display the administration menu.
+    - Click on the gear icon \(*fa-cogs*\) to display the administration menu.
 2. **Select the "Users" option:**
 
-    - In the dropdown menu, select the "[Users](https://app.plaspy.com/Users)" option.
+    - In the dropdown menu, select the "[*fa-user* Users](https://app.plaspy.com/Users)" option.
     - You will be redirected to the user management page where you can see a list of existing users.
 
 ### Creating a New User
 
 1. **Open the creation form:**
 
-    - Click on the add icon \(\) located at the bottom left of the users page.
+    - Click on the add icon \(*fa-plus*\) located at the bottom left of the users page.
     - A new window with a form will open to enter the new user's information.
 2. **Complete the form fields:**
 
@@ -103,7 +103,7 @@ These privileges enable granular management of what each user can do within the 
 1. **Select the user to edit:**
 
     - In the [user](https://app.plaspy.com/Users) list, locate the user you want to edit.
-    - Click on the edit icon \(\) next to the user's name.
+    - Click on the edit icon \(*fa-pencil-square-o*\) next to the user's name.
 2. **Modify the user information:**
 
     - Update the necessary fields in the edit form.

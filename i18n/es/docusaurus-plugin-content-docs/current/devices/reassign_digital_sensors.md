@@ -16,16 +16,16 @@ La función de reasignar sensores digitales en Plaspy permite cambiar la asignac
 
 ## Acceder a la Sección de Reasignar Sensores Digitales
 
-1. Navega a la sección "[Dispositivos](https://app.plaspy.com/Device)" desde el panel superior derecho en el icono de "".
+1. Navega a la sección "[*fa-cogs* Dispositivos](https://app.plaspy.com/Device)" desde el panel superior derecho en el icono de "*fa-cogs*".
 2. Selecciona el dispositivo para el cual deseas reasignar los sensores digitales.
-3. Haz clic en la opción " Reasignar Sensores Digitales" para expandir esta sección y ver los detalles relevantes.
+3. Haz clic en la opción "*fa-exchange* Reasignar Sensores Digitales" para expandir esta sección y ver los detalles relevantes.
 
 ## Instrucciones Paso a Paso
 
 ### Reasignar una Entrada Digital
 
 1. Selecciona el dispositivo de la lista de [dispositivos](https://app.plaspy.com/Devices).
-2. En la sección " Reasignar Sensores Digitales", localiza la entrada digital que deseas reasignar.
+2. En la sección "*fa-exchange* Reasignar Sensores Digitales", localiza la entrada digital que deseas reasignar.
 3. Haz clic en el menú desplegable junto al campo de la entrada digital.
 4. Selecciona la nueva función a la que deseas reasignar la entrada digital.
 5. Haz clic en "Aceptar" para actualizar la reasignación.
@@ -33,7 +33,7 @@ La función de reasignar sensores digitales en Plaspy permite cambiar la asignac
 ### Ejemplo: Reasignar la Entrada Digital 1 \(ACC\)
 
 1. Selecciona el dispositivo de la lista de dispositivos.
-2. En la sección " Reasignar Sensores Digitales", localiza el campo "Entrada digital 1 \(ACC\)".
+2. En la sección "*fa-exchange* Reasignar Sensores Digitales", localiza el campo "Entrada digital 1 \(ACC\)".
 3. Haz clic en el menú desplegable y selecciona la nueva función, por ejemplo, "Entrada digital 2".
 4. Haz clic en "Aceptar" para actualizar la reasignación.
 

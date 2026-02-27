@@ -14,13 +14,13 @@ La sección de Información del [dispositivo](https://app.plaspy.com/Devices) en
 - **Protocolo**: Muestra el protocolo de comunicación que utiliza el dispositivo. Plaspy detecta automáticamente el protocolo, pero si hay protocolos similares o compatibles con tu dispositivo, aparecerá una lista de protocolos compatibles. Normalmente, Plaspy detecta el protocolo de los rastreadores y no es necesario modificarlo en la mayoría de los casos.
 - **Número de teléfono**: Si tu dispositivo está asociado a un número de teléfono, esta sección mostrará el número correspondiente. Este número es crucial para dispositivos que envían y reciben datos a través de redes móviles.
 - **Texto del marcador**: Información adicional que se mostrará en el marcador del dispositivo en el mapa. Puedes utilizar este campo para agregar notas importantes o información específica que necesites visualizar rápidamente.
-- **Etiquetas**: Permite al usuario ingresar etiquetas personalizadas que describan información relevante del dispositivo, como su ubicación, tipo de vehículo, o notas sobre el mantenimiento. Las etiquetas ayudan a organizar y controlar mejor tus dispositivos.
-- **Certificado de Plaspy**: Genera un certificado oficial de Plaspy para el dispositivo, indicando información relevante que puedes entregar a terceros para mostrar que el dispositivo está siendo rastreado por Plaspy.
-- **Depurar Dispositivo**: Esta opción permite revisar la conexión del rastreador en Plaspy en tiempo real. La información se muestra en bruto, y si es posible, en formato de texto. Si no es posible, se mostrará en formato hexadecimal, por ejemplo, 0x686F6C61 para información binaria.
+- ***fa-list* Etiquetas**: Permite al usuario ingresar etiquetas personalizadas que describan información relevante del dispositivo, como su ubicación, tipo de vehículo, o notas sobre el mantenimiento. Las etiquetas ayudan a organizar y controlar mejor tus dispositivos.
+- ***fa-print* Certificado de Plaspy**: Genera un certificado oficial de Plaspy para el dispositivo, indicando información relevante que puedes entregar a terceros para mostrar que el dispositivo está siendo rastreado por Plaspy.
+- ***fa-bug* Depurar Dispositivo**: Esta opción permite revisar la conexión del rastreador en Plaspy en tiempo real. La información se muestra en bruto, y si es posible, en formato de texto. Si no es posible, se mostrará en formato hexadecimal, por ejemplo, 0x686F6C61 para información binaria.
 
 ## Acceder a la Sección de Información del Dispositivo
 
-1. Navega a la sección "[Dispositivos](https://app.plaspy.com/Device)" desde el panel superior derecho pinchando en el icono .
+1. Navega a la sección "[*fa-cogs* Dispositivos](https://app.plaspy.com/Device)" desde el panel superior derecho pinchando en el icono *fa-cogs*.
 2. Selecciona el dispositivo del cual deseas ver la información.
 3. Haz clic en la opción "Información" para expandir esta sección y ver los detalles relevantes.
 
@@ -29,52 +29,52 @@ La sección de Información del [dispositivo](https://app.plaspy.com/Devices) en
 ### Ver la Fecha de Creación
 
 1. Selecciona el dispositivo en la lista de [dispositivos](https://app.plaspy.com/Devices).
-2. En la sección de " Información", busca el campo etiquetado como "Creación".
+2. En la sección de "*fa-info-circle* Información", busca el campo etiquetado como "Creación".
 3. Aquí verás la fecha y hora exacta en que el dispositivo fue añadido a tu cuenta.
 
 ### Verificar la Última Conexión
 
 1. Selecciona el dispositivo en cuestión.
-2. Dentro de la sección " Información", localiza el campo "Última conexión".
+2. Dentro de la sección "*fa-info-circle* Información", localiza el campo "Última conexión".
 3. Este campo te mostrará cuándo el dispositivo se conectó por última vez, lo cual es útil para asegurarte de que esté operativo.
 
 ### Consultar el Protocolo Utilizado
 
 1. Selecciona el [dispositivo](https://app.plaspy.com/Devices) desde la lista.
-2. Expande la sección " Información" y encuentra el campo "Protocolo".
+2. Expande la sección "*fa-info-circle* Información" y encuentra el campo "Protocolo".
 3. Verás el protocolo que el dispositivo utiliza para comunicarse con Plaspy. Si hay protocolos similares o compatibles, aparecerá una lista de opciones. Normalmente, no es necesario modificar el protocolo detectado por Plaspy.
 
 ### Revisar el Número de Teléfono Asociado
 
 1. Selecciona el dispositivo deseado.
-2. En la sección " Información", busca el campo "Número de teléfono".
+2. En la sección "*fa-info-circle* Información", busca el campo "Número de teléfono".
 3. Aquí se mostrará el número de teléfono asociado al dispositivo, si aplica.
 
 ### Ver el Texto del Marcador
 
 1. Selecciona el dispositivo en la lista.
-2. En la sección " Información", localiza el campo "Texto del marcador".
+2. En la sección "*fa-info-circle* Información", localiza el campo "Texto del marcador".
 3. Aquí puedes agregar o editar el texto que se mostrará en el marcador del dispositivo en el mapa.
 
 ### Añadir y Administrar Etiquetas
 
 1. Selecciona el dispositivo desde la lista.
-2. Expande la sección " Etiquetas".
+2. Expande la sección "*fa-list* Etiquetas".
 3. Ingresa las etiquetas que describen información relevante del dispositivo, como "Cliente Juan", "Paga cada mes", etc.
 4. Haz clic en "Guardar" para aplicar las etiquetas al dispositivo.
 
 ### Generar un Certificado de Plaspy
 
 1. Selecciona el dispositivo desde la lista.
-2. En la sección de " Información".
-3. Haz clic en " Certificado".
+2. En la sección de "*fa-info-circle* Información".
+3. Haz clic en "*fa-print* Certificado".
 4. El certificado incluirá información relevante del dispositivo y estará listo para ser entregado a terceros.
 
 ### Depurar un Dispositivo
 
 1. Selecciona el dispositivo desde la lista.
-2. En la sección de " Información".
-3. Haz clic en " Depurar dispositivo".
+2. En la sección de "*fa-info-circle* Información".
+3. Haz clic en "*fa-bug* Depurar dispositivo".
 4. La conexión del rastreador se revisará en tiempo real, mostrando la información en bruto. Si es posible, la información se mostrará en formato de texto; de lo contrario, se mostrará en formato hexadecimal.
 
 ## Preguntas Frecuentes

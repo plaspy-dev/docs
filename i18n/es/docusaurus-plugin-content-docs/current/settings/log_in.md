@@ -3,7 +3,7 @@ sidebar_label: Ingreso
 sidebar_position: 43
 ---
 # Ingreso
-La sección " Ingreso" dentro de la [configuración](https://app.plaspy.com/Settings) de Plaspy permite personalizar la página de inicio de sesión y mejorar la experiencia del usuario al acceder a la plataforma. Aquí puedes definir el aspecto visual y la funcionalidad de la página de ingreso, asegurando que los usuarios tengan una interfaz coherente y amigable. Esta guía te ayudará a configurar cada uno de los campos disponibles.
+La sección "*fa-user-o* Ingreso" dentro de la [*fa-list* configuración](https://app.plaspy.com/Settings) de Plaspy permite personalizar la página de inicio de sesión y mejorar la experiencia del usuario al acceder a la plataforma. Aquí puedes definir el aspecto visual y la funcionalidad de la página de ingreso, asegurando que los usuarios tengan una interfaz coherente y amigable. Esta guía te ayudará a configurar cada uno de los campos disponibles.
 
 ![](./image_1718292875254.gif)
 
@@ -23,7 +23,7 @@ La sección " Ingreso" dentro de la [configuración](https://app.plaspy.com/Set
 1. **Acceder a la Sección:**
 
     - Inicia sesión en Plaspy y dirígete al menú principal.
-    - Selecciona "[Configuración](https://app.plaspy.com/Settings)" y luego " Ingreso".
+    - Selecciona "[*fa-list* Configuración](https://app.plaspy.com/Settings)" y luego "*fa-user-o* Ingreso".
 2. **Configurar el Título:**
 
     - Introduce el título deseado en el campo "Título". Este será visible en la página de ingreso.

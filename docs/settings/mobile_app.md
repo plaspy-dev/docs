@@ -72,8 +72,8 @@ This application includes all the features of the basic application, but with ad
 
 ## Step-by-Step Instructions
 
-1. **Log into Plaspy:** Log in to Plaspy and go to the main menu in the top right corner in \(\).
-2. **Find " Create Mobile App":** Select "[Settings](https://app.plaspy.com/Settings)", click " Advanced Customization", then " Organization" and select " Create Mobile App".
+1. **Log into Plaspy:** Log in to Plaspy and go to the main menu in the top right corner in \(*fa-cogs*\).
+2. **Find "*fa-mobile* Create Mobile App":** Select "[*fa-list* Settings](https://app.plaspy.com/Settings)", click "*fa-television* Advanced Customization", then "*fa-building* Organization" and select "*fa-mobile* Create Mobile App".
 3. **Select the mobile application type:** In the dropdown menu, choose the type of application you want to create. Options include features like maps, push notifications, and phone tracking.
 4. **Enter the application name:** Write the name you want for your application. This will be visible in the app store and within the application itself.
 5. **Specify the App Id:** Enter a unique identifier for your application. This is necessary for publication in app stores.

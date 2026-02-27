@@ -32,8 +32,7 @@ Plaspy automatically applies discounts when certain conditions are met, allowing
 | More than 201 devices | 25% |
 | More than 501 devices | 30% |
 
-####   
-Notes:
+#### Notes:
 
 - **Accumulation of Discounts**: The annual prepayment discount can be combined with the discounts for the number of devices. For example, if you select an annual payment and purchase more than 101 devices, you will receive a total discount of 30% \(20% for annual payment + 10% for device quantity\).
 - **Calculation in Dollars**: All payments are calculated in US dollars \(USD\). The exchange rate used will depend on the issuing bank of the credit or debit card used for the payment. This means that the amount in local currency may vary depending on the current exchange rate of your bank.
@@ -48,7 +47,7 @@ Notes:
     - **Monthly Subscription**: Recurring monthly payment.
     - **Annual Subscription**: One-time annual payment with a discount.
 5. **Review Order Summary**: The order summary will update to reflect your selections, showing the total cost and any discounts applied.
-6. **Apply Discounts**: Check the " Savings" section to see if you qualify for additional discounts based on the number of devices or the selected payment period.
+6. **Apply Discounts**: Check the "*fa-money* Savings" section to see if you qualify for additional discounts based on the number of devices or the selected payment period.
 7. **Proceed to Payment**: Click "Continue" to proceed to the payment page. Here, you can select your preferred payment method \(e.g., credit card, PayPal, ePayco\) and complete the transaction.
 
 ### Validations and Restrictions

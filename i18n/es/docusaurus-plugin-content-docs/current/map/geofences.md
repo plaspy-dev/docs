@@ -25,8 +25,8 @@ Estas funcionalidades aseguran que los usuarios puedan personalizar el monitoreo
 Para acceder a las opciones de geocercas en Plaspy, siga estos pasos:
 
 1. **Acceso**: Inicie sesión en su cuenta de Plaspy y diríjase al mapa principal.
-2. **Menú de Geocercas:** En el panel lateral izquierdo encontrará la sección “ Alertas”. Selecciónela para mostrar las opciones disponibles.
-3. **Opciones de Geocercas**: Dentro del menú, abra el apartado **“** Geo Cercas**”** para visualizar todas las herramientas relacionadas.
+2. **Menú de Geocercas:** En el panel lateral izquierdo encontrará la sección “*fa-exclamation-triangle* Alertas”. Selecciónela para mostrar las opciones disponibles.
+3. **Opciones de Geocercas**: Dentro del menú, abra el apartado **“*fa-lock*** Geo Cercas**”** para visualizar todas las herramientas relacionadas.
 4. **Dibujo de Geocercas**: Seleccione el tipo de geocerca que desea crear \(Cursor, Zona permitida, Zona prohibida, etc.\) y dibuje directamente sobre el mapa.
 5. **Gestión de Geocercas**: Una vez creadas, puede editar, renombrar o eliminar las geocercas según sea necesario.
 

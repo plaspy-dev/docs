@@ -112,7 +112,6 @@ Content-Type: application/json
 }
 ```
 
-
 ### Response Parameters
 
 The response from this endpoint includes details about the success of the operation and any errors that may have occurred.
@@ -173,7 +172,6 @@ The response from this endpoint includes details about the success of the operat
 }
 ```
 
-
 ### Example Error Response
 
 #### Error 400 \(Bad Request\) Response
@@ -187,7 +185,6 @@ The response from this endpoint includes details about the success of the operat
 }
 ```
 
-
 #### Error 500 \(Internal Server Error\) Response
 
 ```
@@ -198,6 +195,5 @@ The response from this endpoint includes details about the success of the operat
   "apiDailyUsage": 3000
 }
 ```
-
 
 This endpoint is essential for updating the location data of a device within the Plaspy system. It allows users to submit detailed and up-to-date location information for a specific device, ensuring accurate tracking and monitoring.

@@ -36,7 +36,6 @@ El token de autenticación se obtiene mediante una solicitud POST al endpoint `/
 }
 ```
 
-
 ### Ejemplo de Solicitud
 
 ```
@@ -48,7 +47,6 @@ Content-Type: application/json
   "apiKey": "tu_api_key"
 }
 ```
-
 
 ### Parámetros de Respuesta
 
@@ -69,7 +67,6 @@ Content-Type: application/json
 }
 ```
 
-
 ### Ejemplo de Respuesta de Error
 
 ```
@@ -78,7 +75,6 @@ Content-Type: application/json
   "error": "Invalid API key or username."
 }
 ```
-
 
 ## Usar el Token de Autenticación
 
@@ -92,7 +88,6 @@ Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 ```
 
-
 ## Manejo de Errores
 
 Si la solicitud para obtener el token de autenticación falla, la respuesta incluirá un mensaje de error explicando la causa del fallo.
@@ -105,7 +100,6 @@ Si la solicitud para obtener el token de autenticación falla, la respuesta incl
   "error": "Invalid API key or username."
 }
 ```
-
 
 - **success:** Indica que la solicitud falló \(`false`\).
 - **error:** Mensaje que explica la causa del error.

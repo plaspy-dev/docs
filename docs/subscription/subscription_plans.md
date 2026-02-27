@@ -1,5 +1,6 @@
 ---
 sidebar_label: Subscription Plans
+sidebar_class_name: show-only-plaspy
 ---
 # Subscription Plans
 We offer different **subscription plans** so you can choose the one that best fits your workflow. Each plan includes a set of features designed for different needs: from basic daily tracking to advanced tools for larger operations with special requirements.

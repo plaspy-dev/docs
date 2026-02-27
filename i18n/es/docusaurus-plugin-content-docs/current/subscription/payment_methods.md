@@ -43,7 +43,7 @@ Plaspy aplica automáticamente los descuentos cuando se cumplen ciertas condicio
 
 1. **Seleccionar Tu País**: Utiliza el menú desplegable para seleccionar el país donde estás comprando los dispositivos. Esto establecerá la moneda para tu transacción.
 2. **Mostrar Precios en USD**: Si prefieres ver los precios en dólares americanos \(USD\), marca la casilla "Mostrar precios en USD dólares".
-3. **Ingresar el Número de Dispositivos**: Ingresa el número de dispositivos que deseas comprar en el campo " Número de dispositivos". El costo mensual se mostrará junto a él.
+3. **Ingresar el Número de Dispositivos**: Ingresa el número de dispositivos que deseas comprar en el campo "*fa-map-marker* Número de dispositivos". El costo mensual se mostrará junto a él.
 4. **Seleccionar el Período de Suscripción**: Elige tu período de suscripción deseado.
 
     - **Suscripción Mensual**: Pago recurrente mensual.

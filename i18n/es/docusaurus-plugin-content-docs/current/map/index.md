@@ -5,7 +5,7 @@ sidebar_position: 1
 # Mapa
 El [mapa](https://app.plaspy.com/Map) de Plaspy es una herramienta de monitoreo avanzada diseñada para proporcionar una visualización interactiva y en tiempo real de la ubicación de diversos dispositivos rastreadores. Este mapa está organizado en varias secciones clave, cada una con funcionalidades específicas que permiten a los usuarios gestionar y analizar la información de seguimiento de manera eficiente. A continuación, se detallan las diferentes partes del mapa y sus capacidades, ofreciendo una guía completa para comprender y utilizar todas las funciones disponibles.
 
-Para acceder al mapa, navega a través del menú principal de la aplicación web y selecciona la opción "[Mapa](https://app.plaspy.com/Map)". Una vez allí, se te presentará una vista general de todos los dispositivos rastreados, junto con diversas opciones para personalizar la visualización y obtener información precisa sobre cada uno de ellos.
+Para acceder al mapa, navega a través del menú principal de la aplicación web y selecciona la opción "[*fa-globe* Mapa](https://app.plaspy.com/Map)". Una vez allí, se te presentará una vista general de todos los dispositivos rastreados, junto con diversas opciones para personalizar la visualización y obtener información precisa sobre cada uno de ellos.
 
 ![](./mapa__plaspyanimated_20260115_160056.webp "Mapa - Plaspy-animated.webp")
 
@@ -46,8 +46,8 @@ El mapa de Plaspy está diseñado para ofrecer una experiencia de usuario comple
 - **¿Cómo puedo ver la ruta completa de un dispositivo?**
     - Activa la opción "[Mostrar recorrido](viewing_a_devices_route_history)" en el panel lateral y selecciona el rango de fechas deseado para visualizar la ruta completa en el mapa.
 - **¿Puedo configurar alertas para zonas específicas?**
-    - Sí, utiliza el panel de alertas para crear [geocercas](geofences) y configurar alertas basadas en la entrada o salida de estas zonas.
+    - Sí, utiliza el panel de alertas para crear [*fa-lock* geocercas](geofences) y configurar alertas basadas en la entrada o salida de estas zonas.
 - **¿Cómo exporto los datos del mapa a Excel?**
-    - En el menú de guardado, selecciona la opción " MS Excel" para exportar los datos actuales del mapa en formato Excel.
+    - En el menú de guardado, selecciona la opción "*fa-file-excel-o* MS Excel" para exportar los datos actuales del mapa en formato Excel.
 
 Este manual cubre las funcionalidades básicas del mapa en Plaspy, proporcionando una guía clara y detallada para maximizar el uso de esta herramienta de seguimiento satelital.

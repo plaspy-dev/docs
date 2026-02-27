@@ -17,8 +17,8 @@ The "Styles" section in Plaspy's [settings](https://app.plaspy.com/Settings) all
 
 1. **Access the Section**:
 
-    - Log in to Plaspy and go to the main menu in the top right corner in \(\).
-    - Select "[Settings](https://app.plaspy.com/Settings)", click " Advanced Customization" and then " Styles".
+    - Log in to Plaspy and go to the main menu in the top right corner in \(*fa-cogs*\).
+    - Select "[*fa-list* Settings](https://app.plaspy.com/Settings)", click "*fa-television* Advanced Customization" and then "*fa-desktop* Styles".
 2. **Enable or Disable Default CSS Styles**:
 
     - Check or uncheck the "Load Default CSS Styles" box according to your needs. If checked, Plaspy will use its default CSS styles, automatically adapting the theme to the primary color of your website without additional CSS schemes.

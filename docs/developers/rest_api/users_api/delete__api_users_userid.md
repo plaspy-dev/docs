@@ -30,7 +30,6 @@ Host: api.plaspy.com
 Authorization: Bearer your_auth_token
 ```
 
-
 #### Response Parameters
 
 | Field | Type | Required | Description |
@@ -50,7 +49,6 @@ Authorization: Bearer your_auth_token
 }
 ```
 
-
 #### Example Error Response
 
 ```
@@ -61,6 +59,5 @@ Authorization: Bearer your_auth_token
     "apiDailyUsage": 200
 }
 ```
-
 
 This endpoint is essential for maintaining the system's cleanliness and security by allowing the removal of users who should no longer have access.

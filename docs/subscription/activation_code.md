@@ -14,7 +14,7 @@ The activation code is essential to enable your services on Plaspy. This code en
 
 To activate the serial in Plaspy, you need to have a user account on [www.plaspy.com](https://app.plaspy.com/).
 
-1. **Plaspy User**: If you do not have a Plaspy account, go to the main page and select "[Sign Up](https://app.plaspy.com/Join)" in the top menu, fill in your details, and create the account. If you already have a Plaspy account, click on your username in the top right corner and select the " Buy more devices" option located right below your name.
+1. **Plaspy User**: If you do not have a Plaspy account, go to the main page and select "[Sign Up](https://app.plaspy.com/Join)" in the top menu, fill in your details, and create the account. If you already have a Plaspy account, click on your username in the top right corner and select the "*fa-shopping-cart* Buy more devices" option located right below your name.
 
 ## Field Description
 
@@ -28,10 +28,10 @@ To activate the serial in Plaspy, you need to have a user account on [www.plaspy
     - If you already have an account, [log in](https://app.plaspy.com/Subscription?tp=1) with your credentials.
 2. **Access the activation section**:
 
-    - Once logged in, go to the "[Buy more devices](https://app.plaspy.com/Subscription?tp=1)" option located at the top right, just below your username.
+    - Once logged in, go to the "[*fa-shopping-cart* Buy more devices](https://app.plaspy.com/Subscription?tp=1)" option located at the top right, just below your username.
 3. **Select the Activation card option**:
 
-    - In the menu options, choose " I have an activation card," which is located at the end of the discounts section.
+    - In the menu options, choose "*fa-gift* I have an activation card," which is located at the end of the discounts section.
 4. **Enter the activation code**:
 
     - In the activation code section, enter the serial number or activation code in the corresponding field and click "Validate."
@@ -43,7 +43,7 @@ To activate the serial in Plaspy, you need to have a user account on [www.plaspy
     - Once validated, you will be redirected to a page where the serial is activated. This page will show information such as the number of devices associated with your account and the expiration date.
 7. **Add a new device**:
 
-    - To add a new device, go to the top menu next to your username, in the menu with the gears, and select "[Devices](https://app.plaspy.com/Devices)."
+    - To add a new device, go to the top menu next to your username, in the menu with the gears, and select "[*fa-cogs* Devices](https://app.plaspy.com/Devices)."
     - Enter the device name and the IMEI or Identifier \(usually the IMEI of the tracker\).
     - Click "New" to create the new device.
 

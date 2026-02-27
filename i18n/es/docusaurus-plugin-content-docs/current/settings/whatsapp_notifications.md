@@ -3,12 +3,11 @@ sidebar_label: Notificaciones WhatsApp
 sidebar_position: 50
 ---
 # Notificaciones WhatsApp
-La sección " Notificaciones WhatsApp" en la [configuración](https://app.plaspy.com/Settings) de Plaspy permite a los administradores configurar notificaciones a través de WhatsApp. Esta funcionalidad es útil para enviar alertas y mensajes directamente a los usuarios a través de WhatsApp. Es esencial que el usuario ya haya creado su propia cuenta de WhatsApp Business y bot, siguiendo las instrucciones proporcionadas. Esta guía detalla los campos disponibles y los pasos para configurarlos correctamente.
+La sección "*fa-whatsapp* Notificaciones WhatsApp" en la [*fa-list* configuración](https://app.plaspy.com/Settings) de Plaspy permite a los administradores configurar notificaciones a través de WhatsApp. Esta funcionalidad es útil para enviar alertas y mensajes directamente a los usuarios a través de WhatsApp. Es esencial que el usuario ya haya creado su propia cuenta de WhatsApp Business y bot, siguiendo las instrucciones proporcionadas. Esta guía detalla los campos disponibles y los pasos para configurarlos correctamente.
 
 ![](./Configuraci&oacute;n - Plaspy-animated.webp "Configuraci&oacute;n - Plaspy-animated.webp")
 
-###   
-Descripción de Campos
+### Descripción de Campos
 
 - **App ID:** ID de tu aplicación de WhatsApp.
 - **Clave secreta de la App:**ID único de la aplicación para su integración de WhatsApp Business API.
@@ -26,7 +25,7 @@ Descripción de Campos
 1. **Acceder a la Sección:**
 
     - Inicia sesión en Plaspy y navega al menú principal en la parte superior derecha.
-    - Selecciona "[Configuración](https://app.plaspy.com/Settings)" y luego " Notificaciones WhatsApp."
+    - Selecciona "[*fa-list* Configuración](https://app.plaspy.com/Settings)" y luego "*fa-whatsapp* Notificaciones WhatsApp."
 2. **Crear una Cuenta de WhatsApp Business y Obtener Credenciales de API:**
 
     - Ve a la [Consola de Desarrolladores de Facebook](https://developers.facebook.com/) y crea una cuenta de WhatsApp Business.
@@ -75,4 +74,4 @@ Descripción de Campos
 - **¿Puedo usar cualquier plantilla de mensaje para las notificaciones de WhatsApp?**
     - Debes usar una plantilla de mensaje que haya sido creada y aprobada en la Consola de Negocios de Facebook. Introduce el nombre exacto de la plantilla en el campo "Nombre plantilla".
 
-Con estas instrucciones, podrás configurar la sección de " Notificaciones WhatsApp" de manera efectiva y asegurar que las notificaciones se envíen correctamente a través de WhatsApp en la plataforma Plaspy.
+Con estas instrucciones, podrás configurar la sección de "*fa-whatsapp* Notificaciones WhatsApp" de manera efectiva y asegurar que las notificaciones se envíen correctamente a través de WhatsApp en la plataforma Plaspy.

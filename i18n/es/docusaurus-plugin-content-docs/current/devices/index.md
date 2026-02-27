@@ -17,20 +17,20 @@ Plaspy detecta automáticamente qué tipo de dispositivo está conectado en su c
 - **IMEI o Identificador**: El IMEI \(International Mobile Equipment Identity\) o identificador único del dispositivo es crucial para su correcta configuración y comunicación con el sistema Plaspy. Este código suele tener 15 dígitos, aunque algunos rastreadores usan los últimos 11.
 - **Descripción**: Aquí puedes ingresar información adicional que describa al dispositivo, como su ubicación, tipo de vehículo o cualquier detalle relevante.
 - **marker_icon](marker_icon)**: Permite seleccionar un icono específico que representará al dispositivo en el mapa. Esto ayuda a diferenciar visualmente entre distintos tipos de dispositivos.
-- **[Información](information)**: Incluye detalles sobre la fecha de creación del dispositivo, última conexión, protocolo usado, número de teléfono asociado, y texto del marcador.
-- **[Sensores](sensors)**: Aquí puedes configurar y monitorear los diferentes sensores asociados al dispositivo, como kilometraje, consumo de combustible, y capacidad del tanque.
-- **[Reasignar sensores digitales](reassign_digital_sensors)**: Opción para reasignar entradas digitales del dispositivo a diferentes funciones o propósitos.
-- **commands](commands)**: Permite enviar comandos personalizados al dispositivo, ya sea por GPRS o SMS, y ver el historial de comandos enviados.
-- **[Recordatorios](reminders)**: Función para programar alertas o avisos que llegarán por correo electrónico basados en fechas específicas o kilometraje, por ejemplo, fecha del cambio de aceite.
-- **[Alertas](alerts)**: Configuración de notificaciones que se activan según eventos específicos definidos por el usuario.
-- **limits](limits)**: Establece límites diarios para el envío de emails y SMS desde el dispositivo.
+- **[*fa-info-circle* Información](information)**: Incluye detalles sobre la fecha de creación del dispositivo, última conexión, protocolo usado, número de teléfono asociado, y texto del marcador.
+- **[*fa-cog* Sensores](sensors)**: Aquí puedes configurar y monitorear los diferentes sensores asociados al dispositivo, como kilometraje, consumo de combustible, y capacidad del tanque.
+- **[*fa-exchange* Reasignar sensores digitales](reassign_digital_sensors)**: Opción para reasignar entradas digitales del dispositivo a diferentes funciones o propósitos.
+- **commands Comandos](commands)**: Permite enviar comandos personalizados al dispositivo, ya sea por GPRS o SMS, y ver el historial de comandos enviados.
+- **[*fa-bell* Recordatorios](reminders)**: Función para programar alertas o avisos que llegarán por correo electrónico basados en fechas específicas o kilometraje, por ejemplo, fecha del cambio de aceite.
+- **[*fa-exclamation-triangle* Alertas](alerts)**: Configuración de notificaciones que se activan según eventos específicos definidos por el usuario.
+- **limits Límites](limits)**: Establece límites diarios para el envío de emails y SMS desde el dispositivo.
 
 ## Instrucciones Paso a Paso
 
 ### Agregar un Nuevo Dispositivo
 
 1. Accede a la sección "[Dispositivos](https://app.plaspy.com/Devices)" desde el panel principal.
-2. Haz clic en el botón verde con el simbolo "" en la parte inferior derecha
+2. Haz clic en el botón verde con el simbolo "*fa-plus*" en la parte inferior derecha
 3. Rellena los campos requeridos:
     - **Nombre**: Introduce un nombre descriptivo para el dispositivo.
     - **IMEI o Identificador**: Ingresa el número IMEI del dispositivo.
@@ -43,14 +43,14 @@ Plaspy detecta automáticamente qué tipo de dispositivo está conectado en su c
 
 ### Editar un Dispositivo Existente
 
-1. En la lista de [dispositivos](https://app.plaspy.com/Devices), selecciona el dispositivo que deseas editar haciendo clic en el ícono de edición \(\) ubicado al lado de su nombre.
+1. En la lista de [dispositivos](https://app.plaspy.com/Devices), selecciona el dispositivo que deseas editar haciendo clic en el ícono de edición \(*fa-pencil-square-o*\) ubicado al lado de su nombre.
 2. Realiza los cambios necesarios en los campos disponibles.
 3. Haz clic en "Aceptar" para guardar los cambios.
 
 ### Eliminar un Dispositivo
 
-1. En la lista de [dispositivos](https://app.plaspy.com/Devices), selecciona el dispositivo que deseas editar haciendo clic en el ícono de edición \(\) ubicado al lado de su nombre.
-2. Haz clic en " Eliminar" en la esquina inferior izquierda.
+1. En la lista de [dispositivos](https://app.plaspy.com/Devices), selecciona el dispositivo que deseas editar haciendo clic en el ícono de edición \(*fa-pencil-square-o*\) ubicado al lado de su nombre.
+2. Haz clic en "*fa-trash* Eliminar" en la esquina inferior izquierda.
 3. Confirma la eliminación del dispositivo.
 
 ### Agregar un Teléfono Móvil

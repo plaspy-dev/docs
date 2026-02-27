@@ -3,9 +3,9 @@ sidebar_label: Grupos
 sidebar_position: 9
 ---
 # Grupos
-La sección de "[Grupos](https://app.plaspy.com/Groups)" en Plaspy permite a los usuarios organizar sus dispositivos de manera eficiente al agruparlos según diferentes criterios. Esto facilita la gestión, el monitoreo y la asignación de permisos de acceso a los dispositivos. Los grupos son una herramienta fundamental para mantener una estructura organizada y controlada de los activos rastreados.
+La sección de "[*fa-users* Grupos](https://app.plaspy.com/Groups)" en Plaspy permite a los usuarios organizar sus dispositivos de manera eficiente al agruparlos según diferentes criterios. Esto facilita la gestión, el monitoreo y la asignación de permisos de acceso a los dispositivos. Los grupos son una herramienta fundamental para mantener una estructura organizada y controlada de los activos rastreados.
 
-Para acceder a la sección de grupos, dirígete al menú superior y selecciona el ícono de "Configuración" \(\), luego elige "[Grupos](https://app.plaspy.com/Groups)". Aquí podrás crear nuevos grupos, editar los existentes y asignar dispositivos a cada grupo.
+Para acceder a la sección de grupos, dirígete al menú superior y selecciona el ícono de "Configuración" \(*fa-cogs*\), luego elige "[*fa-users* Grupos](https://app.plaspy.com/Groups)". Aquí podrás crear nuevos grupos, editar los existentes y asignar dispositivos a cada grupo.
 
 ![](./image_1718293591079.gif)
 
@@ -32,10 +32,10 @@ Los grupos en Plaspy permiten realizar las siguientes acciones:
 
 1. **Acceder a la Sección de Grupos**:
 
-    - Haz clic en " Configuración" en la parte superior derecha y selecciona "[Grupos](https://app.plaspy.com/Groups)".
+    - Haz clic en "*fa-cogs* Configuración" en la parte superior derecha y selecciona "[*fa-users* Grupos](https://app.plaspy.com/Groups)".
 2. **Iniciar la Creación de un Grupo**:
 
-    - Haz clic en el ícono "" en la esquina inferior derecha para abrir el formulario de creación de grupo.
+    - Haz clic en el ícono "*fa-plus*" en la esquina inferior derecha para abrir el formulario de creación de grupo.
 3. **Completar los Detalles del Grupo**:
 
     - **Nombre**: Introduce el nombre del grupo.
@@ -50,7 +50,7 @@ Los grupos en Plaspy permiten realizar las siguientes acciones:
 
 1. **Seleccionar el Grupo a Editar**:
 
-    - En la lista de [grupos](https://app.plaspy.com/Groups), haz clic en el ícono de editar \(\) junto al grupo que deseas modificar.
+    - En la lista de [*fa-users* grupos](https://app.plaspy.com/Groups), haz clic en el ícono de editar \(*fa-pencil-square*\) junto al grupo que deseas modificar.
 2. **Modificar los Detalles del Grupo**:
 
     - Realiza los cambios necesarios en el nombre, descripción o dispositivos del grupo.
@@ -70,7 +70,7 @@ Los grupos en Plaspy permiten realizar las siguientes acciones:
 - **¿Puedo asignar un dispositivo a varios grupos?**
     - Sí, un dispositivo puede pertenecer a múltiples grupos, lo que te permite organizarlo según diferentes criterios.
 - **¿Qué hago si quiero eliminar un grupo?**
-    - Haz clic en el ícono de eliminar \(\) en la parte inferior izquierda del formulario de edición. Confirma la eliminación cuando se te solicite.
+    - Haz clic en el ícono de eliminar \(*fa-trash*\) en la parte inferior izquierda del formulario de edición. Confirma la eliminación cuando se te solicite.
 - **¿Cómo puedo ver solo los dispositivos de un grupo en el mapa?**
     - Selecciona el grupo deseado en el filtro del mapa para visualizar únicamente los dispositivos que pertenecen a ese grupo.
 - **¿Es posible compartir un grupo con otros usuarios?**   

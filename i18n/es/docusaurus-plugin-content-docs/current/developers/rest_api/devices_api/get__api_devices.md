@@ -24,7 +24,6 @@ Host: api.plaspy.com
 Authorization: Bearer {token}
 ```
 
-
 ### Parámetros de Respuesta
 
 La respuesta de este endpoint incluye detalles sobre el éxito de la operación y, en caso de éxito, un listado de los dispositivos. La respuesta puede variar dependiendo de si la solicitud fue exitosa o si hubo algún error.

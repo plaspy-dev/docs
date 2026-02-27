@@ -18,8 +18,8 @@ Plaspy allows users to receive notifications via [Telegram](https://app.plaspy.c
 1. **Access Telegram Notification Settings:**
 
     - Log in to your Plaspy account.
-    - In the top right corner, click on your username and select **' My Account'**.
-    - Click on the "[Telegram Notifications](https://app.plaspy.com/Telegram?from=/Account)" option.  
+    - In the top right corner, click on your username and select **'*fa-user* My Account'**.
+    - Click on the "[*fa-telegram* Telegram Notifications](https://app.plaspy.com/Telegram?from=/Account)" option.  
 ![](./1-login-telegram.jpg "Login in with telegram")
 2. **Subscribe to the Telegram Bot:**
 
@@ -33,7 +33,7 @@ Plaspy allows users to receive notifications via [Telegram](https://app.plaspy.c
 ![](./3-request-entry-telegram.jpg "Request entry in Telegram")
 4. **Additional Settings:**
 
-    - If at any time you wish to cancel the subscription, you can do so from the same "[Telegram Notifications](https://app.plaspy.com/Telegram?from=/Account)" section in Plaspy.
+    - If at any time you wish to cancel the subscription, you can do so from the same "[*fa-telegram* Telegram Notifications](https://app.plaspy.com/Telegram?from=/Account)" section in Plaspy.
 
 ### Validations and Restrictions
 

@@ -5,7 +5,7 @@ sidebar_position: 3
 # Reportes
 La sección de [reportes](https://app.plaspy.com/Reports) en Plaspy ofrece a los usuarios la capacidad de generar informes detallados sobre los datos recogidos por sus dispositivos de seguimiento satelital. Esta funcionalidad es esencial para monitorear la actividad, la ubicación y el rendimiento de los vehículos, y otros activos. Los reportes pueden personalizarse según las necesidades del usuario, permitiendo una gestión eficaz y una toma de decisiones informada.
 
-Para acceder a la sección de reportes, inicie sesión en Plaspy, diríjase al menú principal y seleccione la opción "[Reportes](https://app.plaspy.com/Reports)". Una vez allí, podrá configurar los parámetros de su consulta y aplicar diversos filtros para obtener la información específica que necesita.
+Para acceder a la sección de reportes, inicie sesión en Plaspy, diríjase al menú principal y seleccione la opción "[*fa-tasks* Reportes](https://app.plaspy.com/Reports)". Una vez allí, podrá configurar los parámetros de su consulta y aplicar diversos filtros para obtener la información específica que necesita.
 
 ![](./image_1718290384294.gif)
 
@@ -19,7 +19,7 @@ Para acceder a la sección de reportes, inicie sesión en Plaspy, diríjase al m
 
 ### Instrucciones Paso a Paso
 
-1. **Acceder a la sección de Reportes**: Inicie sesión en Plaspy y seleccione "[Reportes](https://app.plaspy.com/Reports)" desde el menú principal.
+1. **Acceder a la sección de Reportes**: Inicie sesión en Plaspy y seleccione "[*fa-tasks* Reportes](https://app.plaspy.com/Reports)" desde el menú principal.
 2. **Seleccionar el tipo de informe**: En el campo "Consulta", elija el tipo de informe que desea generar, como "Detalle mapa" o "Informe Detallado".
 3. **Definir el rango de fechas**: Utilice el campo "Fecha" para seleccionar el rango de fechas de interés. Puede hacerlo directamente desde el selector de fechas o elegir un rango predefinido.
 4. **Elegir el grupo de dispositivos**: Si tiene dispositivos organizados en grupos, seleccione el grupo correspondiente en el campo "Grupo". De lo contrario, deje la opción en "\(Todos\)".

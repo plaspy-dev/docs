@@ -5,7 +5,7 @@ sidebar_position: 3
 # Reports
 The [reports](https://app.plaspy.com/Reports) section in Plaspy provides users with the ability to generate detailed reports based on the data collected by their satellite tracking devices. This functionality is essential for monitoring the activity, location, and performance of vehicles and other assets. Reports can be customized to meet the specific needs of users, enabling efficient management and informed decision-making.
 
-To access the reports section, log into Plaspy, navigate to the main menu, and select the "[Reports](https://app.plaspy.com/Reports)" option. Once there, you can configure your query parameters and apply various filters to obtain the specific information you need.
+To access the reports section, log into Plaspy, navigate to the main menu, and select the "[*fa-tasks* Reports](https://app.plaspy.com/Reports)" option. Once there, you can configure your query parameters and apply various filters to obtain the specific information you need.
 
 ![](./image_1718310874918.gif)
 
@@ -19,13 +19,13 @@ To access the reports section, log into Plaspy, navigate to the main menu, and s
 
 ### Step-by-Step Instructions
 
-1. **Access the Reports section**: Log into Plaspy and select " Reports" from the main menu.
+1. **Access the Reports section**: Log into Plaspy and select "*fa-tasks* Reports" from the main menu.
 2. **Select the type of report**: In the "Query" field, choose the type of report you want to generate, such as "Map Detail", "Detailed Report", etc.
 3. **Define the date range**: Use the "Date" field to select the date range of interest. You can do this directly from the date picker or choose a predefined range.
 4. **Choose the device group**: If you have devices organized into groups, select the appropriate group in the "Group" field. Otherwise, leave the option at "\(All\)."
 5. **Select devices**: In the "Devices" field, choose one or more devices from the dropdown list. Use the search function if you have many devices.
 6. **Apply additional filters**: If necessary, add specific filters to further refine the report results.
-7. **Generate the report**: Click " Refresh" to generate the report with the selected parameters. You can download the report in Excel format if needed, using the "Download" button.
+7. **Generate the report**: Click "*fa-refresh* Refresh" to generate the report with the selected parameters. You can download the report in Excel format if needed, using the "Download" button.
 
 ### Validations and Restrictions
 

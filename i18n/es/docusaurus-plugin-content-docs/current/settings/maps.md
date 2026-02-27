@@ -3,7 +3,7 @@ sidebar_label: Mapas
 sidebar_position: 46
 ---
 # Mapas
-La sección "[Mapas](https://app.plaspy.com/Settings)" en la configuración de Plaspy permite a los administradores integrar diversas API de mapas para proporcionar servicios de geolocalización y visualización de mapas en la plataforma. Esta funcionalidad es esencial para aplicaciones que requieren la localización precisa de dispositivos y la visualización de rutas y ubicaciones en tiempo real. En esta guía se detallan los campos disponibles y los pasos para configurarlos adecuadamente.
+La sección "[*fa-globe* Mapas](https://app.plaspy.com/Settings)" en la configuración de Plaspy permite a los administradores integrar diversas API de mapas para proporcionar servicios de geolocalización y visualización de mapas en la plataforma. Esta funcionalidad es esencial para aplicaciones que requieren la localización precisa de dispositivos y la visualización de rutas y ubicaciones en tiempo real. En esta guía se detallan los campos disponibles y los pasos para configurarlos adecuadamente.
 
 ![](./oktCxY0PDe-10.gif "oktCxY0PDe-10.gif")
 
@@ -22,7 +22,7 @@ La sección "[Mapas](https://app.plaspy.com/Settings)" en la configuración de P
 1. **Acceder a la Sección:**
 
     - Inicia sesión en Plaspy y dirígete al menú principal en la parte superior derecha.
-    - Selecciona "[Configuración](https://app.plaspy.com/Settings)" y luego " Mapas".
+    - Selecciona "[*fa-list* Configuración](https://app.plaspy.com/Settings)" y luego "*fa-globe* Mapas".
 2. **Configurar Google Maps API:**
 
     - Obtén la clave de API de Google Maps desde tu cuenta de Google Developers.

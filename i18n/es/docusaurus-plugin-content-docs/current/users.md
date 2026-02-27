@@ -3,9 +3,9 @@ sidebar_label: Usuarios
 sidebar_position: 10
 ---
 # Usuarios
-En la sección de "[Usuarios](https://app.plaspy.com/Users)" de la aplicación Plaspy, podrás gestionar las cuentas de usuario que tienen acceso a la plataforma. Esta funcionalidad es esencial para otorgar y administrar permisos, roles y accesos a diferentes usuarios según sus necesidades y responsabilidades dentro del sistema.
+En la sección de "[*fa-user* Usuarios](https://app.plaspy.com/Users)" de la aplicación Plaspy, podrás gestionar las cuentas de usuario que tienen acceso a la plataforma. Esta funcionalidad es esencial para otorgar y administrar permisos, roles y accesos a diferentes usuarios según sus necesidades y responsabilidades dentro del sistema.
 
-Para acceder a la sección de usuarios, dirígete al menú superior derecho y selecciona el ícono de engranajes \(\). En el menú desplegable, selecciona "[Usuarios](https://app.plaspy.com/Users)". Esto te llevará a la página donde podrás ver la lista de usuarios actuales y realizar diversas acciones como crear, editar o eliminar usuarios.
+Para acceder a la sección de usuarios, dirígete al menú superior derecho y selecciona el ícono de engranajes \(*fa-cogs*\). En el menú desplegable, selecciona "[*fa-user* Usuarios](https://app.plaspy.com/Users)". Esto te llevará a la página donde podrás ver la lista de usuarios actuales y realizar diversas acciones como crear, editar o eliminar usuarios.
 
 ![](./usuarios-animated.webp "usuarios-animated.webp")
 
@@ -66,17 +66,17 @@ Estos privilegios permiten una gestión granular de lo que cada usuario puede ha
 1. **Acceder al menú de administración**:
 
     - Dirígete al menú superior derecho de la plataforma.
-    - Haz clic en el ícono de engranajes \(\) para desplegar el menú de administración.
+    - Haz clic en el ícono de engranajes \(*fa-cogs*\) para desplegar el menú de administración.
 2. **Seleccionar la opción "Usuarios"**:
 
-    - En el menú desplegable, selecciona la opción "[Usuarios](https://app.plaspy.com/Users)".
+    - En el menú desplegable, selecciona la opción "[*fa-user* Usuarios](https://app.plaspy.com/Users)".
     - Serás redirigido a la página de gestión de usuarios donde podrás ver una lista de los usuarios existentes.
 
 #### Creación de un nuevo usuario
 
 1. **Abrir el formulario de creación**:
 
-    - Haz clic en el ícono de agregar \(\) ubicado en la parte inferior izquierda de la página de [usuarios](https://app.plaspy.com/Users).
+    - Haz clic en el ícono de agregar \(*fa-plus*\) ubicado en la parte inferior izquierda de la página de [*fa-user* usuarios](https://app.plaspy.com/Users).
     - Se abrirá una nueva ventana con un formulario para ingresar la información del nuevo usuario.
 2. **Completar los campos del formulario**:
 
@@ -102,7 +102,7 @@ Estos privilegios permiten una gestión granular de lo que cada usuario puede ha
 1. **Seleccionar el usuario a editar**:
 
     - En la lista de [usuarios](https://app.plaspy.com/Users), localiza el usuario que deseas editar.
-    - Haz clic en el ícono de edición \(\) al lado del nombre del usuario.
+    - Haz clic en el ícono de edición \(*fa-pencil-square-o*\) al lado del nombre del usuario.
 2. **Modificar la información del usuario**:
 
     - Actualiza los campos necesarios en el formulario de edición.
@@ -116,7 +116,7 @@ Estos privilegios permiten una gestión granular de lo que cada usuario puede ha
 1. **Seleccionar el usuario a eliminar**:
 
     - En la lista de [usuarios](https://app.plaspy.com/Users), localiza el usuario que deseas eliminar.
-    - Haz clic en el ícono de eliminación \(\) al lado del nombre del usuario.
+    - Haz clic en el ícono de eliminación \(*fa-trash-o*\) al lado del nombre del usuario.
 2. **Confirmar la eliminación**:
 
     - Aparecerá una ventana de confirmación.

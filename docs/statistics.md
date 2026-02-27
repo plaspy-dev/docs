@@ -3,7 +3,7 @@ sidebar_label: Statistics
 sidebar_position: 7
 ---
 # Statistics
-The "[Statistics](https://app.plaspy.com/Statistics)" section allows users to obtain detailed reports on the performance and usage of their devices over time. This tool is crucial for monitoring key aspects such as fuel consumption, mileage, generated alerts, and much more, providing valuable data for efficient fleet and asset management.
+The "[*fa-bar-chart* Statistics](https://app.plaspy.com/Statistics)" section in Plaspy allows users to obtain detailed reports on the performance and usage of their devices over time. This tool is crucial for monitoring key aspects such as fuel consumption, mileage, generated alerts, and much more, providing valuable data for efficient fleet and asset management.
 
 To access the statistics section, go to the top menu and select the statistics icon represented by a graph. This will take you to the page where you can configure and view various types of reports according to your needs.
 
@@ -59,34 +59,34 @@ At Plaspy, we have integrated an innovative feature that allows users to interac
 
 - Direct interaction with the data through the chat reduces the time it would normally take to search for and analyze information.
 - No advanced technical knowledge is required to use this tool. The AI is designed to understand and respond in natural language, making it easy for all users to use.
-- Being integrated with the system, the AI provides real-time updated data, ensuring you always have the most accurate information at your disposal.
+- Being integrated with the Plaspy system, the AI provides real-time updated data, ensuring you always have the most accurate information at your disposal.
 
 #### Saving Options
 
-There are several options for saving generated statistics in Excel format, allowing greater flexibility in data analysis and management. The available options are detailed below:
+Plaspy offers several options for saving generated statistics in Excel format, allowing greater flexibility in data analysis and management. The available options are detailed below:
 
 - **Current Statistics:**
 
-    - **Selected Devices:** Allows you to save the statistics of the current device you are viewing or the devices selected in the filter.
-    - **Each Device on a Different Sheet:** Saves the current statistics of the selected devices, each on a separate sheet within the same Excel file.
+    - ***fa-floppy-o* Selected Devices:** Allows you to save the statistics of the current device you are viewing or the devices selected in the filter.
+    - ***fa-cogs* Each Device on a Different Sheet:** Saves the current statistics of the selected devices, each on a separate sheet within the same Excel file.
 - **All Statistics:**
 
-    - **<sub><i class="fa fa-floppy-o"></i></sub> Each Statistic on Different Sheets:** Saves all statistics for the selected devices, with each statistic on a different sheet within the same Excel file.
-    - **<sub><i class="fa fa-file-excel-o"></i></sub> Each Device in a Different File:** Saves all statistics for the selected devices in separate Excel files, creating a different file for each device.
+    - ***fa-floppy-o*<sub><i>fa-floppy-o</i></sub> Each Statistic on Different Sheets:** Saves all statistics for the selected devices, with each statistic on a different sheet within the same Excel file.
+    - ***fa-file-excel-o*<sub><i>fa-file-excel-o</i></sub> Each Device in a Different File:** Saves all statistics for the selected devices in separate Excel files, creating a different file for each device.
 
 ### Step-by-Step Instructions
 
 **Accessing the Statistics Section**
 
 1. **Open the Statistics Menu:**
-    - Go to the main menu in the top right corner in \(\) and then select " Stadistics".
+    - Go to the main menu in the top right corner in \(*fa-globe*\) and then select "*fa-bar-chart* Stadistics".
 2. **Select Desired Filters:**
     - **Date:** Select the date range you want to analyze.
     - **Group:** Choose the group of devices \(optional\).
     - **Devices:** Select one or several specific devices.
     - **Type:** Select the type of statistic you want to generate.
 3. **Generate the Statistic:**
-    - Click on the " Update" button to view the statistic on the platform.
+    - Click on the "*fa-refresh* Update" button to view the statistic on the platform.
 4. **Save the Statistic:**
     - Click on the "Save" button to export the information to an Excel file.
     - Select the preferred saving option from the dropdown menu.

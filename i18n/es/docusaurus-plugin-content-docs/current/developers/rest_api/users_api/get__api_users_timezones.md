@@ -23,7 +23,6 @@ Host: api.plaspy.com
 Authorization: Bearer {your_auth_token}
 ```
 
-
 ## Parámetros de Respuesta
 
 La respuesta de este endpoint contiene una estructura que incluye el estado de la solicitud y una lista de zonas horarias. A continuación se detallan los campos de la respuesta:
@@ -53,7 +52,6 @@ La respuesta de este endpoint contiene una estructura que incluye el estado de l
 }
 ```
 
-
 ### Ejemplo de Respuesta de Error
 
 ```
@@ -62,4 +60,5 @@ La respuesta de este endpoint contiene una estructura que incluye el estado de l
   "error": "Autenticación fallida. Token inválido.",
   "apiUsage": 100,
   "apiDailyUsage": 10
-}`
+}
+```

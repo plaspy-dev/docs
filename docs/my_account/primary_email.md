@@ -16,11 +16,11 @@ In Plaspy, the [primary email](https://app.plaspy.com/UserSecurity/Email?from=/A
 1. **Access Account Settings:**
 
     - Log in to your Plaspy account.
-    - In the top right corner, click on your username and select **' My Account'**.
+    - In the top right corner, click on your username and select **'*fa-user* My Account'**.
 2. **Modify the Primary Email:**
 
     - In the "Account Information" section, click on the edit icon next to the current email address.
-    - A pop-up window titled "[Protect Your Account](https://app.plaspy.com/UserSecurity/Email?from=/Account)" will open.
+    - A pop-up window titled "[*fa-envelope-o* Protect Your Account](https://app.plaspy.com/UserSecurity/Email?from=/Account)" will open.
 3. **Enter New Email Address:**
 
     - In the "Login Email" field, enter the new email address.

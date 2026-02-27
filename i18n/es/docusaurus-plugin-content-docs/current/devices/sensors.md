@@ -23,37 +23,37 @@ La sección de Sensores en Plaspy te permite configurar y monitorear diversos se
 
 ## Accediendo a la Sección de Sensores
 
-1. Navega a la sección "[Dispositivos](https://app.plaspy.com/Device)" desde el panel superior derecho pinchando en "".
+1. Navega a la sección "[*fa-cogs* Dispositivos](https://app.plaspy.com/Device)" desde el panel superior derecho pinchando en "*fa-cogs*".
 2. Selecciona el dispositivo para el cual deseas configurar o monitorear los sensores.
-3. Haz clic en la opción " Sensores" para expandir esta sección y ver los detalles relevantes de los sensores.
+3. Haz clic en la opción "*fa-cog* Sensores" para expandir esta sección y ver los detalles relevantes de los sensores.
 
 ## Instrucciones Paso a Paso
 
 ### Establecer el Kilometraje
 
 1. Selecciona el dispositivo de la lista de [dispositivos](https://app.plaspy.com/Devices).
-2. En la sección " Sensores", localiza el campo "Kilometraje".
+2. En la sección "*fa-cog* Sensores", localiza el campo "Kilometraje".
 3. Ingresa el kilometraje actual del vehículo.
 4. Haz clic en "Aceptar" para actualizar el kilometraje.
 
 ### Configurar el Consumo de Combustible
 
 1. Selecciona el dispositivo de la lista de dispositivos.
-2. En la sección " Sensores", localiza el campo "Consumo de combustible".
+2. En la sección "*fa-cog* Sensores", localiza el campo "Consumo de combustible".
 3. Ingresa el valor aproximado de consumo de combustible.
 4. Haz clic en "Aceptar" para actualizar la tasa de consumo de combustible.
 
 ### Establecer la Capacidad del Tanque
 
 1. Selecciona el dispositivo de la lista de dispositivos.
-2. En la sección " Sensores", localiza el campo "Capacidad del tanque".
+2. En la sección "*fa-cog* Sensores", localiza el campo "Capacidad del tanque".
 3. Ingresa la capacidad del tanque en litros o galones.
 4. Haz clic en "Aceptar" para actualizar la capacidad del tanque.
 
 ### Configurar Entradas y Salidas Digitales
 
 1. Selecciona el dispositivo de la lista de dispositivos.
-2. En la sección " Sensores", localiza la entrada o salida digital que deseas configurar.
+2. En la sección "*fa-cog* Sensores", localiza la entrada o salida digital que deseas configurar.
 3. Ingresa el nombre para la entrada o salida digital. Puedes renombrar las entradas y salidas digitales para identificar fácilmente los sensores, por ejemplo, puertas, aire acondicionado, encendido, etc.
 4. Haz clic en "Aceptar" para actualizar la configuración de la entrada o salida digital.
 5. Para restaurar el estado de un sensor, haz clic en el ícono de actualización junto al sensor respectivo. Esto pondrá a cero el tiempo acumulado del sensor y lo desactivará hasta que el rastreador envíe información nuevamente a Plaspy.

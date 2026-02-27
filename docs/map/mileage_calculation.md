@@ -35,8 +35,7 @@ Example 1
 
 Example 2
 
-##   
-Final Considerations
+## Final Considerations
 
 It is important to note that the mileage calculation in Plaspy is an estimation and may not accurately reflect the actual distance traveled due to the limitations of the calculation method and terrain characteristics. Users should be aware of these limitations and adjust their expectations accordingly.
 

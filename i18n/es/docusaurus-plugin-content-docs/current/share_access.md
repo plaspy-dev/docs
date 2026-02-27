@@ -5,7 +5,7 @@ sidebar_position: 11
 # Compartir Acceso
 La funcionalidad de "[Compartir Acceso](https://app.plaspy.com/Users/Share)" en Plaspy permite a los usuarios crear accesos temporales para terceros mediante una URL sin necesidad de contraseña. Esta herramienta es ideal para proporcionar acceso limitado a la información de rastreo y estadísticas de dispositivos específicos por un período de tiempo determinado. Los usuarios invitados pueden consultar recorridos y estadísticas solo durante el rango de fechas habilitado y para los dispositivos que pertenezcan al grupo seleccionado.
 
-Para acceder a la sección de acceso temporal, dirígete al menú superior derecho y selecciona , luego elige "[Compartir Acceso](https://app.plaspy.com/Users/Share)". Aquí podrás crear nuevos accesos temporales, editar los existentes y asignar dispositivos y grupos a cada acceso.
+Para acceder a la sección de acceso temporal, dirígete al menú superior derecho y selecciona *fa-cogs*, luego elige "[*fa-share-alt* Compartir Acceso](https://app.plaspy.com/Users/Share)". Aquí podrás crear nuevos accesos temporales, editar los existentes y asignar dispositivos y grupos a cada acceso.
 
 ![](./image_1718293742653.gif)
 
@@ -33,10 +33,10 @@ Los accesos temporales en Plaspy permiten realizar las siguientes acciones:
 
 1. **Acceder a la Sección de Acceso Temporal**:
 
-    - Haz clic en el ícono de "Configuración" \(\) en el menú superior y selecciona "[Compartir Acceso](https://app.plaspy.com/Users/Share)".
+    - Haz clic en el ícono de "Configuración" \(*fa-cogs*\) en el menú superior y selecciona "[*fa-share-alt* Compartir Acceso](https://app.plaspy.com/Users/Share)".
 2. **Iniciar la Creación de un Acceso Temporal**:
 
-    - Haz clic en el ícono "" en la esquina inferior derecha para abrir el formulario de creación de acceso temporal.
+    - Haz clic en el ícono "*fa-plus*" en la esquina inferior derecha para abrir el formulario de creación de acceso temporal.
 3. **Completar los Detalles del Acceso Temporal**:
 
     - **Nombre**: Introduce el nombre de la persona que tendrá el acceso.
@@ -57,7 +57,7 @@ Los accesos temporales en Plaspy permiten realizar las siguientes acciones:
 
 1. **Seleccionar el Acceso a Editar**:
 
-    - En la lista de [accesos temporales](https://app.plaspy.com/Users/Share), haz clic en el ícono de editar \(\) junto al acceso que deseas modificar.
+    - En la lista de [accesos temporales](https://app.plaspy.com/Users/Share), haz clic en el ícono de editar \(*fa-pencil-square-o*\) junto al acceso que deseas modificar.
 2. **Modificar los Detalles del Acceso**:
 
     - Realiza los cambios necesarios en el nombre, correo electrónico, zona horaria, grupo, dispositivo, descripción o rango de fechas del acceso.

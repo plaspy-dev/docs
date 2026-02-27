@@ -23,35 +23,35 @@ La sección de Comandos en Plaspy permite a los usuarios configurar los comandos
 
 1. Navega a la sección "[Dispositivos](https://app.plaspy.com/Devices)" desde el panel principal.
 2. Selecciona el dispositivo para el cual deseas configurar los comandos.
-3. Haz clic en la opción " Comandos" para expandir esta sección y ver los comandos disponibles.
+3. Haz clic en la opción "*fa-code* Comandos" para expandir esta sección y ver los comandos disponibles.
 
 ## Instrucciones Paso a Paso
 
 ### Configurar un Comando para el Dispositivo
 
 1. Selecciona el dispositivo de la lista de [dispositivos](https://app.plaspy.com/Devices).
-2. En la sección " Comandos", localiza el comando que deseas configurar.
+2. En la sección "*fa-code* Comandos", localiza el comando que deseas configurar.
 3. Revisa el nombre, el código del comando y el tipo de comando para asegurarte de que es el correcto.
 4. Haz clic en "Aceptar" para guardar la configuración del comando para el dispositivo.
 
 ### Ejemplo: Configurar el Comando "Cortar Energía"
 
 1. Selecciona el dispositivo de la lista de dispositivos.
-2. En la sección " Comandos", encuentra el comando "Cortar energía".
+2. En la sección "*fa-code* Comandos", encuentra el comando "Cortar energía".
 3. Verifica que el código del comando sea "stop123456" y que el tipo de comando sea SMS.
 4. Haz clic en "Aceptar" para configurar el comando para el dispositivo.
 
 ### Deshabilitar Comandos
 
 1. Selecciona el dispositivo de la lista de dispositivos.
-2. En la sección " Comandos", identifica el comando que deseas deshabilitar.
+2. En la sección "*fa-code* Comandos", identifica el comando que deseas deshabilitar.
 3. Haz clic en la opción para deshabilitar el comando. Esto evitará que el comando aparezca en el mapa.
 4. Haz clic en "Aceptar" para aplicar los cambios.
 
 ### Restaurar Comandos Predeterminados
 
 1. Selecciona el dispositivo de la lista de dispositivos.
-2. En la sección " Comandos", borra todos los comandos configurados.
+2. En la sección "*fa-code* Comandos", borra todos los comandos configurados.
 3. Plaspy automáticamente volverá a agregar los comandos predeterminados del rastreador.
 4. Haz clic en "Aceptar" para confirmar la restauración de los comandos predeterminados.
 
@@ -60,7 +60,7 @@ La sección de Comandos en Plaspy permite a los usuarios configurar los comandos
 1. Selecciona el dispositivo de la lista de dispositivos.
 2. Configura los comandos necesarios.
 3. Busca el campo llamado "**Guardar comandos como**".
-4. Asigna un nombre a la plantilla y guarda en el botón "". Esta plantilla podrá aplicarse a otros dispositivos posteriormente para agregar los comandos desde la lista de comandos predeterminados.
+4. Asigna un nombre a la plantilla y guarda en el botón "*fa-save*". Esta plantilla podrá aplicarse a otros dispositivos posteriormente para agregar los comandos desde la lista de comandos predeterminados.
 
 ### Consultar Comandos Enviados
 
@@ -73,7 +73,7 @@ La sección de Comandos en Plaspy permite a los usuarios configurar los comandos
 - **¿Qué son los comandos en Plaspy?**
     - Los comandos en Plaspy son instrucciones específicas que se configuran para ser enviadas a los dispositivos de rastreo desde el mapa.
 - **¿Cómo sé qué comandos están disponibles para mi dispositivo?**
-    - La lista de comandos disponibles se muestra en la sección " Comandos" de cada dispositivo. Revisa esta lista para ver todas las acciones que puedes configurar.
+    - La lista de comandos disponibles se muestra en la sección "*fa-code* Comandos" de cada dispositivo. Revisa esta lista para ver todas las acciones que puedes configurar.
 - **¿Qué debo hacer si un comando no funciona?**
     - Si un comando no funciona, verifica que el código del comando sea correcto y que el dispositivo esté encendido y conectado. Si el problema persiste, contacta al soporte técnico de Plaspy.
 - **¿Puedo agregar nuevos comandos?**

@@ -21,7 +21,7 @@ El uso de un correo electrónico alternativo en Plaspy es una medida adicional d
     - Si es la primera vez que accedes, es posible que se te solicite configurar un correo electrónico alternativo.
 2. **Ingresar la Dirección de Correo Alternativo:**
 
-    - En la pantalla "[Protege tu cuenta](https://app.plaspy.com/Account)", verás tu correo electrónico principal.
+    - En la pantalla "[*fa-envelope* Protege tu cuenta](https://app.plaspy.com/Account)", verás tu correo electrónico principal.
     - Debajo, en el campo **Correo electrónico alternativo**, ingresa una dirección de correo electrónico adicional.
 3. **Confirmar el Correo Electrónico Alternativo:**
 

@@ -29,7 +29,6 @@ Host: api.plaspy.com
 Authorization: Bearer tu_token_de_autenticacion
 ```
 
-
 ## Parámetros de Respuesta
 
 | Campo | Tipo | Obligatoria | Descripción |
@@ -49,7 +48,6 @@ Authorization: Bearer tu_token_de_autenticacion
 }
 ```
 
-
 ### Ejemplo de Respuesta de Error
 
 ```
@@ -60,6 +58,5 @@ Authorization: Bearer tu_token_de_autenticacion
     "apiDailyUsage": 200
 }
 ```
-
 
 Este endpoint es esencial para mantener la limpieza y seguridad del sistema, permitiendo la eliminación de usuarios que ya no deben tener acceso.

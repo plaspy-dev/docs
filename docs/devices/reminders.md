@@ -24,8 +24,8 @@ The Reminders section in Plaspy allows users to schedule [alerts](alerts) for im
 
 ### Creating a New Reminder
 
-1. Select the device from the [device](.) list with the edit icon \(\), next to the device name.
-2. In the " Reminders" section, fill the reminder template.
+1. Select the device from the [device](.) list with the edit icon \(*fa-pencil-square-o*\), next to the device name.
+2. In the "*fa-bell* Reminders" section, fill the reminder template.
 3. Complete the required fields:
     - **Reminder Name**: Enter a descriptive name for the reminder.
     - **Email**: Enter the email address where you want to receive the reminder.
@@ -35,16 +35,16 @@ The Reminders section in Plaspy allows users to schedule [alerts](alerts) for im
 
 ### Editing an Existing Reminder
 
-1. Select the device from the device list with the edit icon \(\), next to the device name.
-2. In the " Reminders" section, locate the reminder you want to edit.
+1. Select the device from the device list with the edit icon \(*fa-pencil-square-o*\), next to the device name.
+2. In the "*fa-bell* Reminders" section, locate the reminder you want to edit.
 3. Make the necessary changes to the available fields.
 4. Click "OK" to update the reminder.
 
 ### Deleting a Reminder
 
 1. Select the device from the device list.
-2. In the " Reminders" section, locate the reminder you want to delete.
-3. Click on the trash icon \(\) next to the reminder.
+2. In the "*fa-bell* Reminders" section, locate the reminder you want to delete.
+3. Click on the trash icon \(*fa-trash-o*\) next to the reminder.
 4. Confirm the deletion of the reminder.
 
 ## Frequently Asked Questions

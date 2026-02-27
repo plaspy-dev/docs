@@ -29,11 +29,11 @@ Para acceder a la página de registro de Plaspy, sigue estos pasos:
 
 ## Instrucciones Paso a Paso
 
-1. **Ingresar Nombres \(\)**: En el campo "Nombres", escribe tus nombres y apellidos completos.
-2. **Seleccionar País \(\)**: En el campo "País", selecciona tu país de la lista desplegable.
-3. **Ingresar Email \(\)**: En el campo "Email", proporciona una dirección de correo electrónico válida. Luego, en el campo "Confirmar email", vuelve a ingresar la misma dirección de correo electrónico para confirmarla.
-4. **Seleccionar Zona Horaria \(\)**: En el campo "Zona Horaria", selecciona tu zona horaria de la lista desplegable.
-5. **Crear Contraseña \(\)**: En el campo "Contraseña", crea una contraseña segura que puedas recordar. A continuación, en el campo "Confirmar contraseña", vuelve a ingresar la contraseña para confirmarla.
+1. **Ingresar Nombres \(*fa-user*\)**: En el campo "Nombres", escribe tus nombres y apellidos completos.
+2. **Seleccionar País \(*fa-globe*\)**: En el campo "País", selecciona tu país de la lista desplegable.
+3. **Ingresar Email \(*fa-envelope-o*\)**: En el campo "Email", proporciona una dirección de correo electrónico válida. Luego, en el campo "Confirmar email", vuelve a ingresar la misma dirección de correo electrónico para confirmarla.
+4. **Seleccionar Zona Horaria \(*fa-envelope-o*\)**: En el campo "Zona Horaria", selecciona tu zona horaria de la lista desplegable.
+5. **Crear Contraseña \(*fa-unlock-alt*\)**: En el campo "Contraseña", crea una contraseña segura que puedas recordar. A continuación, en el campo "Confirmar contraseña", vuelve a ingresar la contraseña para confirmarla.
 6. **Aceptar Términos y Políticas**: Marca las casillas correspondientes a "He leído y acepto las condiciones de servicio" y "He leído y acepto las políticas de tratamiento de datos" para proceder.
 7. **Completar reCAPTCHA**: Marca la casilla "No soy un robot" y completa el reCAPTCHA para verificar que eres un humano.
 8. **Hacer clic en Registrate**: Una vez que todos los campos estén completos y las casillas correspondientes marcadas, haz clic en el botón "Registrate".

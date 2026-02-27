@@ -4,7 +4,7 @@ sidebar_position: 25
 sidebar_class_name: show-only-plaspy
 ---
 # Información de facturación
-La sección de "[Información de Facturación](https://app.plaspy.com/Checkout/?from=/Account)" en Plaspy permite a los usuarios gestionar y actualizar los detalles necesarios para la facturación de los servicios contratados. Aquí, puedes registrar y mantener actualizada la información requerida para emitir facturas correctamente, lo cual es esencial para asegurar la continuidad de los servicios sin interrupciones.
+La sección de "[*fa-file-o* Información de Facturación](https://app.plaspy.com/Checkout/?from=/Account)" en Plaspy permite a los usuarios gestionar y actualizar los detalles necesarios para la facturación de los servicios contratados. Aquí, puedes registrar y mantener actualizada la información requerida para emitir facturas correctamente, lo cual es esencial para asegurar la continuidad de los servicios sin interrupciones.
 
 ![](./image_1718290764579.gif)
 
@@ -23,11 +23,11 @@ La sección de "[Información de Facturación](https://app.plaspy.com/Checkout/?
 1. **Acceso a la Sección:**
 
     - Inicia sesión en tu cuenta de Plaspy.
-    - Navega a la sección de "[Cuenta](https://app.plaspy.com/Account)" desde el menú principal.
-    - Haz clic en "[Información de Facturación](https://app.plaspy.com/Checkout/?from=/Account)".
+    - Navega a la sección de "[*fa-user* Cuenta](https://app.plaspy.com/Account)" desde el menú principal.
+    - Haz clic en "[*fa-file-o* Información de Facturación](https://app.plaspy.com/Checkout/?from=/Account)".
 2. **Actualizar Información:**
 
-    - En el formulario de "[Información de Facturación](https://app.plaspy.com/Checkout/?from=/Account)", selecciona tu país desde la lista desplegable.
+    - En el formulario de "[*fa-file-o* Información de Facturación](https://app.plaspy.com/Checkout/?from=/Account)", selecciona tu país desde la lista desplegable.
     - Introduce tu nombre y apellido en los campos correspondientes.
     - Proporciona un número de teléfono de contacto válido.
     - Completa la dirección física de facturación.
@@ -48,7 +48,7 @@ La sección de "[Información de Facturación](https://app.plaspy.com/Checkout/?
     - Es crucial mantener la información de facturación actualizada para evitar interrupciones en el servicio y problemas con la emisión de facturas.
 - **¿Cómo puedo corregir un error en mi información de facturación?**
 
-    - Simplemente accede a la sección de " Información de Facturación", realiza los cambios necesarios y guarda la información actualizada.
+    - Simplemente accede a la sección de "*fa-file-o* Información de Facturación", realiza los cambios necesarios y guarda la información actualizada.
 - **¿Es necesario proporcionar una dirección física?**
 
     - Sí, una dirección física es necesaria para cualquier correspondencia relacionada con la facturación y cumplimiento fiscal.

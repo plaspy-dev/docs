@@ -31,7 +31,6 @@ The request body must include the details of the group to be created.
 }
 ```
 
-
 ### Authentication Required
 
 [Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
@@ -50,7 +49,6 @@ Content-Type: application/json
   "devices": ["dev-456", "dev-789"]
 }
 ```
-
 
 ## Response Parameters
 
@@ -86,7 +84,6 @@ The response includes details of the newly created group.
 }
 ```
 
-
 ## Example Error Response
 
 ```
@@ -97,6 +94,5 @@ The response includes details of the newly created group.
   "apiDailyUsage": 45
 }
 ```
-
 
 This endpoint is crucial for adding new groups to the Plaspy application, allowing for better organization and management of devices by grouping them into named and described units.

@@ -28,7 +28,7 @@ Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 ```
 
-### Parámetros de Respuesta
+## Parámetros de Respuesta
 
 La respuesta incluye información sobre el resultado de la operación de eliminación.
 
@@ -50,7 +50,6 @@ La respuesta incluye información sobre el resultado de la operación de elimina
 }
 ```
 
-
 ### Ejemplo de Respuesta de Error
 
 ```
@@ -61,6 +60,5 @@ La respuesta incluye información sobre el resultado de la operación de elimina
   "apiDailyUsage": 45
 }
 ```
-
 
 Este endpoint es fundamental para mantener la organización y la limpieza de los grupos en la aplicación Plaspy, permitiendo eliminar aquellos que ya no son necesarios y asegurando que la información esté siempre actualizada y relevante.

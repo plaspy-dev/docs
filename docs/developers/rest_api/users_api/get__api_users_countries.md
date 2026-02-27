@@ -28,7 +28,6 @@ Host: api.plaspy.com
 Authorization: Bearer {your_auth_token}
 ```
 
-
 ### Response Parameters
 
 The response from this endpoint contains a structure that includes the status of the request and a list of countries. The following table describes the fields in the response:
@@ -59,7 +58,6 @@ The response from this endpoint contains a structure that includes the status of
 }
 ```
 
-
 ### Example Error Response
 
 ```
@@ -68,4 +66,5 @@ The response from this endpoint contains a structure that includes the status of
   "error": "Authentication failed. Invalid token.",
   "apiUsage": 100,
   "apiDailyUsage": 10
-}`
+}
+```

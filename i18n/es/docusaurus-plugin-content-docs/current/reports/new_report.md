@@ -18,8 +18,8 @@ Al crear un nuevo reporte, existen dos tipos principales de reportes que se pued
 
 Para crear un nuevo reporte, siga estos pasos:
 
-1. **Acceder a la Sección de Reportes**: Entre a su cuenta de Plaspy, en el menú de la parte superior derecha, haga clic en el ícono de \(\) y busque la opción de “ **Reportes”**.
-2. **Seleccionar 'Nuevo Reporte'**: En el campo de consulta, seleccione "\(Nueva consulta\)" y haga click en "" para comenzar desde cero. Si prefiere duplicar un reporte existente, seleccione el reporte y haga clic en el botón de copiar.
+1. **Acceder a la Sección de Reportes**: Entre a su cuenta de Plaspy, en el menú de la parte superior derecha, haga clic en el ícono de \(*fa-globe*\) y busque la opción de “*fa-tasks* **Reportes”**.
+2. **Seleccionar 'Nuevo Reporte'**: En el campo de consulta, seleccione "\(Nueva consulta\)" y haga click en "*fa-plus*" para comenzar desde cero. Si prefiere duplicar un reporte existente, seleccione el reporte y haga clic en el botón de copiar.
 3. **Nombrar el Reporte**: Ingrese un nombre descriptivo para el nuevo reporte en el campo "Nombre del reporte".
 4. **Seleccionar Tipo de Reporte**: Elija entre "Estándar" y "Resumen de Actividades" según el tipo de análisis que necesita.
 5. **Configurar Parámetros**: Establezca los parámetros de fecha, grupo y dispositivos que desee incluir en el reporte.
@@ -31,17 +31,17 @@ Para crear un nuevo reporte, siga estos pasos:
 Para editar un reporte existente:
 
 1. **Seleccionar el Reporte**: Elija el [reporte](https://app.plaspy.com/Reports) que desea editar del menú desplegable de consultas.
-2. **Abrir el modo Edición:** Haz clic en el ícono de lápiz \(\) que aparece junto al nombre del reporte para poder modificarlo.
+2. **Abrir el modo Edición:** Haz clic en el ícono de lápiz \(*fa-pencil-square-o*\) que aparece junto al nombre del reporte para poder modificarlo.
 3. **Modificar Parámetros**: Cambie los parámetros de fecha, grupo y dispositivos según sea necesario.
 4. **Reordenar o Eliminar Columnas**: Las columnas del reporte se pueden reordenar, eliminar o renombrar directamente en el editor.
-5. **Actualizar el Reporte**: Haga clic en " Actualizar" para aplicar los cambios.
+5. **Actualizar el Reporte**: Haga clic en "*fa-refresh* Actualizar" para aplicar los cambios.
 
 ### Duplicar un Reporte
 
 Para duplicar un reporte y usarlo como base para uno nuevo:
 
 1. **Seleccionar el Reporte**: Elija el [reporte](https://app.plaspy.com/Reports) que desea duplicar del menú desplegable.
-2. **Hacer una Copia**: Haga clic en el icono de copiar \(\) para duplicar el reporte seleccionado, junto al nombre del reporte.
+2. **Hacer una Copia**: Haga clic en el icono de copiar \(*fa-files-o*\) para duplicar el reporte seleccionado, junto al nombre del reporte.
 3. **Modificar la Copia**: Renombre y ajuste los parámetros de la copia según sus necesidades.
 4. **Guardar el Nuevo Reporte**: Haga clic en "Guardar" para almacenar la copia como un nuevo reporte.
 
@@ -61,7 +61,7 @@ En la pestaña "Variables", los usuarios pueden agregar columnas manualmente a s
 Para agregar una variable:
 
 1. **Buscar la Variable**: Use la barra de búsqueda para encontrar la variable deseada.
-2. **Agregar la Variable**: Haga clic en el ícono de "" junto a la variable para agregarla al reporte.
+2. **Agregar la Variable**: Haga clic en el ícono de "*fa-plus-square*" junto a la variable para agregarla al reporte.
 
 ### Propiedades del Reporte
 

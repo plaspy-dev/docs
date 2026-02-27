@@ -3,7 +3,7 @@ sidebar_label: Cronología
 sidebar_position: 5
 ---
 # Cronología
-El [panel de cronología](https://app.plaspy.com/Map) en Plaspy proporciona un resumen detallado del desempeño del dispositivo durante un recorrido específico. A continuación, se detallan los botones y  que se presentan en esta sección:
+El [panel de cronología](https://app.plaspy.com/Map)*fa-external-link* en Plaspy proporciona un resumen detallado del desempeño del dispositivo durante un recorrido específico. A continuación, se detallan los botones y  que se presentan en esta sección:
 
 ![](./cronologia-animated.webp "cronologia-animated.webp")
 
@@ -32,7 +32,7 @@ El [panel de cronología](https://app.plaspy.com/Map) en Plaspy proporciona un r
 1. **Abrir la sección de recorridos**: En el panel lateral izquierdo, selecciona el dispositivo del cual deseas ver el recorrido.
 2. **[Seleccionar un recorrido](viewing_a_devices_route_history)**: Utiliza el selector de fecha para definir el período del recorrido que deseas visualizar.
 3. **Mostrar recorrido**: Marca la opción "[Mostrar recorrido](viewing_a_devices_route_history)" y haz clic en el botón "Actualizar" para visualizar la ruta en el mapa.
-4. **Abrir apartado de Cronología \(\)**: En la parte [inferior derecha del mapa](details), haz clic en el icono  antes del botón de " Detalles".
+4. **Abrir apartado de Cronología \(*fa-clock-o*\)**: En la parte [inferior derecha del mapa](details), haz clic en el icono *fa-clock-o* antes del botón de "*fa-list* Detalles".
 
 ### Validaciones y Restricciones
 

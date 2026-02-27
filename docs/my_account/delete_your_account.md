@@ -12,9 +12,9 @@ Deleting your account on Plaspy is an important and final decision. Before proce
 1. **Access the Account Deletion Feature:**
 
     - Log in to [your Plaspy](https://app.plaspy.com/Account) account.
-    - In the top right corner, click on your username and select **' My Account'**.
-    - Go to the " Personal Information" section.
-    - Select the "[I want to delete my account](https://app.plaspy.com/UserSecurity/Delete?from=/Account)" option.
+    - In the top right corner, click on your username and select **'*fa-user* My Account'**.
+    - Go to the "*fa-list* Personal Information" section.
+    - Select the "[*fa-exclamation-triangle* I want to delete my account](https://app.plaspy.com/UserSecurity/Delete?from=/Account)" option.
 2. **Deletion Confirmation:**
 
     - A screen will appear with a warning message about deleting the account.

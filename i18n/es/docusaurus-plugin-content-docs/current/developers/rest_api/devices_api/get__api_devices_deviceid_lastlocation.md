@@ -28,7 +28,6 @@ Host: api.plaspy.com
 Authorization: Bearer {token}
 ```
 
-
 ### Parámetros de Respuesta
 
 La respuesta de este endpoint incluye detalles sobre el éxito de la operación y, en caso de éxito, información sobre la última ubicación del dispositivo solicitado. La respuesta puede variar dependiendo de si la solicitud fue exitosa o si hubo algún error.
@@ -132,7 +131,6 @@ Dentro del campo `lastLocation`, el objeto tiene los siguientes campos:
 }
 ```
 
-
 ### Ejemplo de Respuesta de Error
 
 #### Respuesta de Error 400 \(Bad Request\)
@@ -146,7 +144,6 @@ Dentro del campo `lastLocation`, el objeto tiene los siguientes campos:
 }
 ```
 
-
 #### Respuesta de Error 500 \(Internal Server Error\)
 
 ```
@@ -157,6 +154,5 @@ Dentro del campo `lastLocation`, el objeto tiene los siguientes campos:
   "apiDailyUsage": 3000
 }
 ```
-
 
 Este endpoint es esencial para rastrear la última ubicación conocida de un dispositivo dentro del sistema Plaspy. Permite a los usuarios obtener información detallada y actualizada sobre la última posición registrada de un dispositivo específico, incluyendo atributos personalizados y datos de accesorios.

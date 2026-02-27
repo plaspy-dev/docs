@@ -16,16 +16,16 @@ The reassign digital sensors function in Plaspy allows you to change the assignm
 
 ## Accessing the Reassign Digital Sensors Section
 
-1. Navigate to the "[Devices](https://app.plaspy.com/Devices)" section from the main panel \(\).
-2. Select the device with the edit icon \(\), next to the device name for which you want to reassign the digital sensors.
-3. Click on the " Reassign Digital Sensors" option to expand this section and view the relevant details.
+1. Navigate to the "[*fa-cogs* Devices](https://app.plaspy.com/Devices)" section from the main panel \(*fa-cogs*\).
+2. Select the device with the edit icon \(*fa-pencil-square-o*\), next to the device name for which you want to reassign the digital sensors.
+3. Click on the "*fa-exchange* Reassign Digital Sensors" option to expand this section and view the relevant details.
 
 ## Step-by-Step Instructions
 
 ### Reassigning a Digital Input
 
 1. Select the device from the [device](https://app.plaspy.com/Devices) list.
-2. In the " Reassign Digital Sensors" section, locate the digital input you want to reassign.
+2. In the "*fa-exchange* Reassign Digital Sensors" section, locate the digital input you want to reassign.
 3. Click on the dropdown menu next to the digital input field.
 4. Select the new function to which you want to reassign the digital input.
 5. Click "OK" to update the reassignment.
@@ -33,7 +33,7 @@ The reassign digital sensors function in Plaspy allows you to change the assignm
 ### Example: Reassigning Digital Input 1 \(ACC\)
 
 1. Select the device from the device list.
-2. In the " Reassign Digital Sensors" section, locate the "Digital Input 1 \(ACC\)" field.
+2. In the "*fa-exchange* Reassign Digital Sensors" section, locate the "Digital Input 1 \(ACC\)" field.
 3. Click on the dropdown menu and select the new function, for example, "Digital Input 2".
 4. Click "OK" to update the reassignment.
 

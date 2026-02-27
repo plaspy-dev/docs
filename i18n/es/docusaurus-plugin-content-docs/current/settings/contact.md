@@ -3,12 +3,11 @@ sidebar_label: Contacto
 sidebar_position: 44
 ---
 # Contacto
-La sección "[Contacto](https://app.plaspy.com/Settings)" en la configuración de Plaspy permite a los administradores proporcionar información de contacto y configurar servicios de chat para la asistencia al usuario. Esta sección es fundamental para asegurar que los usuarios puedan comunicarse fácilmente con el soporte técnico o el servicio al cliente. En esta guía, se detallan todos los campos disponibles y los pasos para configurarlos adecuadamente.
+La sección "[*fa-envelope* Contacto](https://app.plaspy.com/Settings)" en la configuración de Plaspy permite a los administradores proporcionar información de contacto y configurar servicios de chat para la asistencia al usuario. Esta sección es fundamental para asegurar que los usuarios puedan comunicarse fácilmente con el soporte técnico o el servicio al cliente. En esta guía, se detallan todos los campos disponibles y los pasos para configurarlos adecuadamente.
 
 ![](./d5b3JEuoeW-10.gif "d5b3JEuoeW-10.gif")
 
-###   
-Descripción de Campos
+### Descripción de Campos
 
 - **Smartsupp Chat Key:** Clave de API para integrar el servicio de chat de Smartsupp.
 - **tawk.to Chat Key:** Clave de API para integrar el servicio de chat de tawk.to.
@@ -20,7 +19,7 @@ Descripción de Campos
 1. **Acceder a la Sección:**
 
     - Inicia sesión en Plaspy y dirígete al menú principal en la parte superior derecha.
-    - Selecciona "[Configuración](https://app.plaspy.com/Settings)" y luego " Contacto".
+    - Selecciona "[*fa-list* Configuración](https://app.plaspy.com/Settings)" y luego "*fa-envelope* Contacto".
 2. **Configurar Smartsupp Chat Key:**
 
     - Obtén la clave de API de Smartsupp desde tu cuenta de Smartsupp.
@@ -65,4 +64,4 @@ Descripción de Campos
 - **¿Qué sucede si no configuro una dirección de correo en "Email contáctenos"?**
     - Si no configuras una dirección de correo electrónico específica, las peticiones enviadas a través del formulario de contacto se enviarán por defecto a la dirección de correo del usuario que administra la cuenta.
 
-Con estas instrucciones, podrás configurar la sección de " Contacto" de manera efectiva y asegurar que los usuarios tengan múltiples formas de comunicarse con el soporte técnico o el servicio al cliente de Plaspy.
+Con estas instrucciones, podrás configurar la sección de "*fa-envelope* Contacto" de manera efectiva y asegurar que los usuarios tengan múltiples formas de comunicarse con el soporte técnico o el servicio al cliente de Plaspy.

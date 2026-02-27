@@ -11,7 +11,7 @@ Para acceder al historial de un dispositivo:
 
 1. Ve a la sección "[Dispositivos](https://app.plaspy.com/Devices)" desde el panel principal.
 2. Selecciona el dispositivo cuyo historial deseas consultar.
-3. Haz clic en el botón "Historial" para desplegar el menú con las fechas disponibles.
+3. Haz clic en el botón "*fa-list*Historial" para desplegar el menú con las fechas disponibles.
 4. Selecciona la fecha de interés para ver el estado del dispositivo en ese momento y, si es necesario, restaurarlo.
 
 #### Descripción de Campos
@@ -26,7 +26,7 @@ Para acceder al historial de un dispositivo:
 
     - En el panel principal de Plaspy, navega a "[Dispositivos](https://app.plaspy.com/Devices)".
     - Selecciona el dispositivo cuyo historial deseas revisar.
-    - Haz clic en el botón "Historial" para abrir el menú de fechas.
+    - Haz clic en el botón "*fa-list*Historial" para abrir el menú de fechas.
 2. **Consultar el Historial**:
 
     - En el menú desplegable, selecciona la fecha específica que deseas consultar.
@@ -34,7 +34,7 @@ Para acceder al historial de un dispositivo:
 3. **Restaurar una Configuración Anterior**:
 
     - Selecciona la fecha deseada en el historial.
-    - Haz clic en la opción de " restaurar" para revertir el dispositivo a ese estado.
+    - Haz clic en la opción de "*fa-undo* restaurar" para revertir el dispositivo a ese estado.
     - Confirma la restauración para aplicar los cambios.
 
 #### Validaciones y Restricciones

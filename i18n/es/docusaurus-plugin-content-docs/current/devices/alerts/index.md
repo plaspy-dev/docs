@@ -24,16 +24,16 @@ Las alertas en Plaspy son notificaciones configurables que se envían a los usua
 
 ### Botones y Funciones
 
-- **Agregar Alerta**: Para crear una nueva alerta, haz clic en el botón de agregar alerta \(\). Se abrirá un formulario donde podrás ingresar los detalles de la nueva alerta.
-- **Editar Alerta**: Para editar una alerta existente, haz clic en el ícono de edición \(\) junto a la alerta que deseas modificar. Se abrirá un formulario donde podrás actualizar los detalles de la alerta.
-- **Eliminar Alerta**: Para eliminar una alerta, haz clic en el ícono de eliminación \(\) junto a la alerta que deseas eliminar. Confirma la eliminación para completar el proceso.
+- **Agregar Alerta**: Para crear una nueva alerta, haz clic en el botón de agregar alerta \(*fa-plus*\). Se abrirá un formulario donde podrás ingresar los detalles de la nueva alerta.
+- **Editar Alerta**: Para editar una alerta existente, haz clic en el ícono de edición \(*fa-pencil*\) junto a la alerta que deseas modificar. Se abrirá un formulario donde podrás actualizar los detalles de la alerta.
+- **Eliminar Alerta**: Para eliminar una alerta, haz clic en el ícono de eliminación \(*fa-trash*\) junto a la alerta que deseas eliminar. Confirma la eliminación para completar el proceso.
 
 ## Instrucciones Paso a Paso
 
 ### Crear una Nueva Alerta
 
 1. Selecciona el [dispositivo](https://app.plaspy.com/Devices) para el cual deseas configurar una alerta.
-2. Haz clic en el botón de agregar alerta .
+2. Haz clic en el botón de agregar alerta *fa-plus*.
 3. Completa los campos necesarios en el formulario que se abre:
     - **Nombre de la Alerta**: Introduce un nombre descriptivo para la alerta.
     - **Email**: Ingresa la dirección de correo electrónico para recibir la notificación.
@@ -45,14 +45,14 @@ Las alertas en Plaspy son notificaciones configurables que se envían a los usua
 ### Editar una Alerta Existente
 
 1. Selecciona el [dispositivo](https://app.plaspy.com/Devices) para el cual deseas editar una alerta.
-2. Haz clic en el ícono de edición \(\) junto a la alerta que deseas modificar.
+2. Haz clic en el ícono de edición \(*fa-pencil*\) junto a la alerta que deseas modificar.
 3. Realiza los cambios necesarios en el formulario que se abre.
 4. Haz clic en "Aceptar" para actualizar la alerta.
 
 ### Eliminar una Alerta
 
 1. Selecciona el [dispositivo](https://app.plaspy.com/Devices) para el cual deseas eliminar una alerta.
-2. Haz clic en el ícono de eliminación \(\) junto a la alerta que deseas eliminar.
+2. Haz clic en el ícono de eliminación \(*fa-trash*\) junto a la alerta que deseas eliminar.
 3. Confirma la eliminación para completar el proceso.
 
 ## Importancia de las Alertas

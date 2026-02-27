@@ -6,7 +6,7 @@ sidebar_class_name: show-only-plaspy
 # SMS
 La sección de "[SMS](https://app.plaspy.com/SMS)" en Plaspy permite a los usuarios gestionar y monitorear los mensajes de texto enviados por sus dispositivos. Esta funcionalidad es esencial para enviar alertas y comandos de forma eficiente y económica. Los usuarios pueden ver el historial de mensajes, agregar saldo a su cuenta y configurar límites de envío diario.
 
-Para acceder a la sección de [SMS](https://app.plaspy.com/SMS), dirígete al menú superior derecho, haz click en "" y después selecciona " SMS". Desde allí, puedes revisar el historial de mensajes enviados y realizar configuraciones adicionales según tus necesidades.
+Para acceder a la sección de [SMS](https://app.plaspy.com/SMS), dirígete al menú superior derecho, haz click en "*fa-globe*" y después selecciona "*fa-envelope-o* SMS". Desde allí, puedes revisar el historial de mensajes enviados y realizar configuraciones adicionales según tus necesidades.
 
 ![](./image_1718293817616.gif)
 
@@ -47,7 +47,7 @@ Plaspy permite guardar el historial de mensajes enviados en formato Excel para s
     - En la sección de SMS, utiliza los filtros de búsqueda y las opciones de paginación para revisar el historial de mensajes enviados.
 2. **Guardar en Excel**:
 
-    - Haz clic en el ícono de guardar \(\) ubicado en la parte superior derecha después del icono del engranaje \(\).
+    - Haz clic en el ícono de guardar \(*fa-floppy-o*\) ubicado en la parte superior derecha después del icono del engranaje \(*fa-cogs*\).
     - El historial de mensajes se descargará en un archivo Excel que podrás abrir y revisar con cualquier software compatible.
 
 ### Configuración de Límite Diario de Mensajes
@@ -58,7 +58,7 @@ Puedes configurar el número máximo de mensajes de texto que se pueden enviar d
 
 1. **Acceder a la Configuración**:
 
-    - Haz clic en el ícono de engranaje \(\) en la parte inferior izquierda de la pantalla de [SMS](https://app.plaspy.com/SMS).
+    - Haz clic en el ícono de engranaje \(*fa-cog*\) en la parte inferior izquierda de la pantalla de [SMS](https://app.plaspy.com/SMS).
 2. **Definir Límites**:
 
     - En la ventana de configuración, verás dos campos:
@@ -80,21 +80,21 @@ Plaspy ofrece una página dedicada para consultar los precios de los mensajes de
 
 1. **Abrir el menú de SMS**:
 
-    - En el menú superior, haz clic en "" y después selecciona " SMS".
+    - En el menú superior, haz clic en "*fa-globe*" y después selecciona "*fa-envelope-o* SMS".
 2. **Revisar el historial de mensajes**:
 
     - Utiliza los filtros de búsqueda y las opciones de paginación para revisar el historial de mensajes enviados.
 3. **Enviar un nuevo mensaje**:
 
-    - Haz clic en el ícono "" para abrir el formulario de envío de mensajes.
+    - Haz clic en el ícono "*fa-plus*" para abrir el formulario de envío de mensajes.
     - Completa los detalles del mensaje y haz clic en "Enviar".
 4. **Configurar límite diario de mensajes**:
 
-    - Haz clic en el ícono de engranaje \(\) en la parte inferior izquierda para abrir la configuración de límites diarios.
+    - Haz clic en el ícono de engranaje \(*fa-cog*\) en la parte inferior izquierda para abrir la configuración de límites diarios.
     - Define los límites y guarda los cambios.
 5. **Guardar historial de mensajes**:
 
-    - Haz clic en el ícono de guardar \(\) en el menu superior derecho para descargar el historial en un archivo de Excel
+    - Haz clic en el ícono de guardar \(*fa-floppy-o*\) en el menu superior derecho para descargar el historial en un archivo de Excel
 6. **Consultar precios de mensajes de texto**:
 
     - Visita [Plaspy SMS Pricing](https://app.plaspy.com/AdditionalServicesPricing) para revisar los precios por país y operador.

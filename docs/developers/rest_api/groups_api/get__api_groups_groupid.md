@@ -29,7 +29,6 @@ Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 ```
 
-
 ## Response Parameters
 
 The response includes details of the specified group.
@@ -64,7 +63,6 @@ The response includes details of the specified group.
 }
 ```
 
-
 ## Example Error Response
 
 ```
@@ -75,6 +73,5 @@ The response includes details of the specified group.
   "apiDailyUsage": 45
 }
 ```
-
 
 This endpoint is essential for obtaining detailed and specific information about a group in the Plaspy application, allowing users to view and manage the details of a specific group.

@@ -25,7 +25,7 @@ These functionalities ensure that users can customize monitoring according to th
 To access geofence options in Plaspy, follow these steps:
 
 1. **Access**: Log in to your Plaspy account and navigate to the main [map](https://app.plaspy.com/Map).
-2. **Geofence Options**: In the left sidebar, you will find the options under the " GeoFences" section.
+2. **Geofence Options**: In the left sidebar, you will find the options under the "*fa-lock* GeoFences" section.
 3. **Drawing Geofences**: Select the type of geofence you want to create \(Cursor, Allowed Zone, Prohibited Zone, etc.\) and draw directly on the map.
 4. **Managing Geofences**: Once created, you can edit, rename, or delete geofences as needed.
 

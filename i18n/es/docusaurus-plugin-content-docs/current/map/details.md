@@ -44,8 +44,7 @@ Esta funcionalidad es especialmente útil para la gestión de flotas y el monito
 1. **Filtrar Datos:** Utiliza el campo de filtro para buscar dispositivos o datos específicos dentro de la tabla. Escribe las palabras clave relevantes y la tabla se actualizará automáticamente para mostrar solo las filas que coincidan con el criterio de búsqueda.
 2. **Ordenar Columnas:** Haz clic en el encabezado de cualquier columna para ordenar los datos en orden ascendente o descendente. Esto permite organizar la información de manera que se ajusten a tus necesidades de monitoreo.
 
-###   
-Cómo Visualizar Detalles de un Dispositivo
+### Cómo Visualizar Detalles de un Dispositivo
 
 1. **Seleccionar Dispositivo:** Haz clic en la fila del dispositivo que deseas inspeccionar. Esto centrará el mapa en la ubicación del dispositivo seleccionado, proporcionando una vista detallada de su posición.
 2. **Analizar Datos:** Revisa las métricas presentadas en la tabla para obtener una comprensión completa del estado y rendimiento del dispositivo. Utiliza esta información para tomar decisiones informadas sobre la gestión del dispositivo.

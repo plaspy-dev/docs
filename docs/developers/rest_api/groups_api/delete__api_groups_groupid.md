@@ -29,7 +29,6 @@ Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 ```
 
-
 ## Response Parameters
 
 The response includes information about the result of the delete operation.
@@ -52,7 +51,6 @@ The response includes information about the result of the delete operation.
 }
 ```
 
-
 ## Example Error Response
 
 ```
@@ -63,6 +61,5 @@ The response includes information about the result of the delete operation.
   "apiDailyUsage": 45
 }
 ```
-
 
 This endpoint is crucial for maintaining the organization and cleanliness of groups in the Plaspy application, allowing the removal of those that are no longer needed and ensuring that the information is always up-to-date and relevant.

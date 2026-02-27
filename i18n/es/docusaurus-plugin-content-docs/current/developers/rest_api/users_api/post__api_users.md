@@ -76,7 +76,6 @@ Authorization: Bearer {your_auth_token}
 }
 ```
 
-
 ## Parámetros de Respuesta
 
 La respuesta de este endpoint incluye los detalles del usuario creado o un mensaje de error si la solicitud no fue exitosa.

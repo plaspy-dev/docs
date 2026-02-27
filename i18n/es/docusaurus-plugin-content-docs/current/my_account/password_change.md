@@ -5,7 +5,7 @@ sidebar_position: 26
 # Cambio de Contraseña
 Para mantener la seguridad de tu cuenta de Plaspy, es importante cambiar regularmente tu contraseña. Plaspy te permite actualizar tu contraseña directamente desde tu perfil de usuario. Asegúrate de seguir las políticas de seguridad al crear una nueva contraseña.
 
-Puedes acceder a la opción de cambio de contraseña desde la sección "[Cuenta](https://app.plaspy.com/Account)" en el menú de usuario. Una vez ahí, selecciona tu [contraseña actual](https://app.plaspy.com/UserSecurity/Password?from=/Account) o el ícono de edición \(https://app.plaspy.com/UserSecurity/Password?from=/Account\).
+Puedes acceder a la opción de cambio de contraseña desde la sección "[Cuenta](https://app.plaspy.com/Account)" en el menú de usuario. Una vez ahí, selecciona tu [contraseña actual](https://app.plaspy.com/UserSecurity/Password?from=/Account) o el ícono de edición \([*fa-pencil*](https://app.plaspy.com/UserSecurity/Password?from=/Account)\).
 
 ![](./image_1718290881294.gif)
 
@@ -23,8 +23,8 @@ Puedes acceder a la opción de cambio de contraseña desde la sección "[Cuenta]
 
 ### Instrucciones Paso a Paso
 
-1. **Accede a la sección " Cuenta"**: En el menú de usuario, selecciona "[Cuenta](https://app.plaspy.com/Account)".
-2. **Selecciona Cambiar contraseña**: Dentro de la información de tu cuenta, busca y selecciona la opción para cambiar la [contraseña](https://app.plaspy.com/UserSecurity/Password?from=/Account) \(\).
+1. **Accede a la sección "*fa-user* Cuenta"**: En el menú de usuario, selecciona "[Cuenta](https://app.plaspy.com/Account)".
+2. **Selecciona Cambiar contraseña**: Dentro de la información de tu cuenta, busca y selecciona la opción para cambiar la [contraseña](https://app.plaspy.com/UserSecurity/Password?from=/Account) \(*fa-pencil*\).
 3. **Introduce la nueva contraseña**: Asegúrate de que la nueva contraseña cumple con todos los requisitos de seguridad.
 4. **Confirma la nueva contraseña**: Vuelve a ingresar la nueva contraseña en el campo de confirmación.
 5. **Guardar cambios**: Haz clic en el botón "Cambiar" para guardar tu nueva contraseña.

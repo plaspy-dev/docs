@@ -27,8 +27,7 @@ The authentication token is obtained by making a POST request to the `/api/Auth/
 | userName | String | Yes | Your Plaspy username. |
 | apiKey | String | Yes | Your API key provided by Plaspy. |
 
-###   
-Request Body
+### Request Body
 
 ```
 {
@@ -37,9 +36,7 @@ Request Body
 }
 ```
 
-
-###   
-Request Example
+### Request Example
 
 ```
 POST /api/Auth/Token HTTP/1.1Host: api.plaspy.comContent-Type: application/json
@@ -49,9 +46,7 @@ POST /api/Auth/Token HTTP/1.1Host: api.plaspy.comContent-Type: application/json
 }
 ```
 
-
-###   
-Response Parameters
+### Response Parameters
 
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -60,8 +55,7 @@ Response Parameters
 | expires | String | The token's expiration date and time. |
 | error | String | Message explaining the cause of the error \(if applicable\). |
 
-###   
-Successful Response Example
+### Successful Response Example
 
 ```
 {
@@ -71,9 +65,7 @@ Successful Response Example
 }
 ```
 
-
-###   
-Error Response Example
+### Error Response Example
 
 ```
 {
@@ -82,9 +74,7 @@ Error Response Example
 }
 ```
 
-
-##   
-Using the Authentication Token
+## Using the Authentication Token
 
 Once the authentication token is obtained, it must be included in the `Authorization` header of all API requests. The header format is `Authorization: Bearer your_token`.
 
@@ -96,9 +86,7 @@ Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 ```
 
-
-##   
-Error Handling
+## Error Handling
 
 If the request to obtain the authentication token fails, the response will include an error message explaining the cause of the failure.
 
@@ -111,12 +99,10 @@ If the request to obtain the authentication token fails, the response will inclu
 }
 ```
 
-
 - **success:** Indicates that the request failed \(`false`\).
 - **error:** Message explaining the cause of the error.
 
-##   
-Security Considerations
+## Security Considerations
 
 - **Token Protection:** Keep your authentication token secure and do not share it with unauthorized third parties.
 - **Token Renewal:** The token has an expiration date \(`expires`\). Ensure to renew it before it expires to maintain continuous access to the API.

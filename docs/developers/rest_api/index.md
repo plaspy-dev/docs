@@ -21,8 +21,7 @@ The base URL for all requests to the Plaspy REST API is:
 
 https://api.plaspy.com
 
-##   
-Authentication Method
+## Authentication Method
 
 To communicate with the Plaspy service, you must authenticate using an OAuth scheme. The first step is to generate a [JWT](https://jwt.io/) \(JSON Web Token\) access token. This token is obtained through the following operation:
 
@@ -50,8 +49,7 @@ GET /api/devices
 HTTP/1.1 Host: api.plaspy.com   
 Authorization: Bearer your\_token
 
-##   
-Operations
+## Operations
 
 Below is a table of available operations in the Plaspy REST API:
 
@@ -76,8 +74,7 @@ Below is a table of available operations in the Plaspy REST API:
 | [Get Countries](users_api/get__api_users_countries) | GET | `/api/users/countries` | Get the list of available countries. |
 | [Get Time Zones](users_api/get__api_users_timezones) | GET | `/api/users/timeZones` | Get the list of available time zones. |
 
-##   
-HTTP Status Codes
+## HTTP Status Codes
 
 | Status Code | Description |
 | --- | --- |
@@ -94,8 +91,7 @@ HTTP Status Codes
 | **500 Internal Server Error** | Uncontrolled error during the request process. |
 | **503 Service Unavailable** | The API is unavailable due to temporary overload or maintenance. |
 
-##   
-Error Handling
+## Error Handling
 
 Errors in the Plaspy REST API have the following JSON structure:
 
@@ -104,8 +100,7 @@ Errors in the Plaspy REST API have the following JSON structure:
 - **success:** `false` when an error occurs in the request.
 - **error:** Message explaining the cause of the error.
 
-##   
-Request Limits
+## Request Limits
 
 It is important to consider the following limits when integrating the Plaspy API:
 

@@ -10,8 +10,8 @@ The Security Log in Plaspy allows users to monitor and review all login activiti
 To access the Security Log, follow these steps:
 
 1. Log in to your Plaspy account.
-2. In the top right corner, click on your username and select ' My Account'.
-3. At the bottom of the screen, you will find the " Security Log" panel.
+2. In the top right corner, click on your username and select '*fa-user* My Account'.
+3. At the bottom of the screen, you will find the "*fa-file-text-o* Security Log" panel.
 
 ### Security Log Fields
 
@@ -22,7 +22,7 @@ To access the Security Log, follow these steps:
 
 ### Step-by-Step Instructions
 
-1. **View the Log:** Once in the " My Account" section, click on " Security log" to be automatically displayed. You can review the recent and detailed access events.
+1. **View the Log:** Once in the "*fa-user* My Account" section, click on "*fa-file-text-o* Security log" to be automatically displayed. You can review the recent and detailed access events.
 2. **Load More Records:** If you want to see more access records, click the "Load more" button at the bottom of the table. This will allow you to load additional events and review more entries.
 
 ### Validations and Restrictions

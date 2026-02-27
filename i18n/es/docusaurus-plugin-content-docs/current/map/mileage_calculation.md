@@ -35,8 +35,7 @@ Ejemplo 1
 
 Ejemplo 2
 
-##   
-Consideraciones Finales
+## Consideraciones Finales
 
 Es importante tener en cuenta que el cálculo del kilometraje en Plaspy es una estimación y puede no reflejar con precisión la distancia real recorrida debido a las limitaciones del método de cálculo y las características del terreno. Los usuarios deben ser conscientes de estas limitaciones y ajustar sus expectativas en consecuencia.
 
