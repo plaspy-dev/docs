@@ -3,9 +3,9 @@ sidebar_label: Atributes
 sidebar_position: 11
 ---
 # Atributes
-In Plaspy, each reported location can have various attributes that provide detailed information about the device's status and data at that specific moment. These attributes are not configurable by users, but understanding them is crucial for correctly interpreting the information provided by the tracking devices. It is important to note that the available attributes depend on each device and are additional to the standard attributes of each location. Not all devices have additional attributes, so all the attributes listed below may or may not be present in each location report.
+, each reported location can have various attributes that provide detailed information about the device's status and data at that specific moment. These attributes are not configurable by users, but understanding them is crucial for correctly interpreting the information provided by the tracking devices. It is important to note that the available attributes depend on each device and are additional to the standard attributes of each location. Not all devices have additional attributes, so all the attributes listed below may or may not be present in each location report.
 
-It is important to note that additional attributes depend on the device used and may vary between location reports. Not all devices have the same attributes, and some reports may not include additional attributes. Understanding these attributes is essential for correctly interpreting the data provided and maximizing the use of the Plaspy platform. Although these attributes are not configurable by users, knowing them helps in better managing and analyzing the information collected by tracking devices.
+It is important to note that additional attributes depend on the device used and may vary between location reports. Not all devices have the same attributes, and some reports may not include additional attributes. Understanding these attributes is essential for correctly interpreting the data provided and maximizing the use of the platform. Although these attributes are not configurable by users, knowing them helps in better managing and analyzing the information collected by tracking devices.
 
 ![](./atributesanimated_20260205_160023.webp "atributes-animated.webp")
 

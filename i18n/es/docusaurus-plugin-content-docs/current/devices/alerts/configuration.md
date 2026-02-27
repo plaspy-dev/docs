@@ -9,11 +9,11 @@ sidebar_position: 1
 
 En esta sección puedes especificar los diferentes canales por los cuales deseas recibir las alertas. Las opciones disponibles incluyen notificaciones push, Telegram, correo electrónico, SMS y WhatsApp. A continuación, se describen cada uno de los campos y opciones disponibles:
 
-- **Aplicación móvil \(Push\)**: Activa esta opción para recibir notificaciones push a través de la aplicación móvil de Plaspy. Estas notificaciones aparecerán en la barra de estado de tu dispositivo móvil, similar a otras notificaciones de aplicaciones.
-- **Telegram**: Selecciona esta opción para recibir alertas a través de [Telegram](../../settings/telegram_notifications). Debes asegurarte de haber configurado la integración con Telegram en tu cuenta de Plaspy previamente.
+- **Aplicación móvil \(Push\)**: Activa esta opción para recibir notificaciones push a través de la aplicación móvil. Estas notificaciones aparecerán en la barra de estado de tu dispositivo móvil, similar a otras notificaciones de aplicaciones.
+- **Telegram**: Selecciona esta opción para recibir alertas a través de [Telegram](../../settings/telegram_notifications). Debes asegurarte de haber configurado la integración con Telegram en tu cuenta previamente.
 - **Correo electrónico**: Marca esta casilla para recibir notificaciones por correo electrónico. Al activarla, se habilitará un campo adicional para ingresar la dirección de correo electrónico donde deseas recibir las alertas.
-- **SMS**: Activa esta opción para recibir notificaciones mediante mensajes de texto \([SMS](https://app.plaspy.com/SMS)\). Al seleccionar esta opción, se mostrará un campo adicional donde debes ingresar el número de teléfono en formato internacional \(iniciando con el signo más seguido del código del país y el número\). Es importante contar con saldo en tu cuenta de Plaspy para activar esta opción.
-- **WhatsApp**: Selecciona esta opción para recibir notificaciones a través de WhatsApp. Al activar esta opción, se te pedirá ingresar el número de teléfono asociado a tu cuenta de WhatsApp en formato internacional. Al igual que con las notificaciones SMS, es necesario contar con saldo en tu cuenta de Plaspy para activar esta opción.
+- **SMS**: Activa esta opción para recibir notificaciones mediante mensajes de texto \([SMS](https://app.plaspy.com/SMS)\). Al seleccionar esta opción, se mostrará un campo adicional donde debes ingresar el número de teléfono en formato internacional \(iniciando con el signo más seguido del código del país y el número\). Es importante contar con saldo en tu cuenta para activar esta opción.
+- **WhatsApp**: Selecciona esta opción para recibir notificaciones a través de WhatsApp. Al activar esta opción, se te pedirá ingresar el número de teléfono asociado a tu cuenta de WhatsApp en formato internacional. Al igual que con las notificaciones SMS, es necesario contar con saldo en tu cuenta para activar esta opción.
 
 #### Horario
 
@@ -46,7 +46,7 @@ La sección de **Comandos** permite configurar comandos automáticos que se envi
 
 #### Avanzado
 
-La sección **Avanzado** dentro de la edición de alertas en Plaspy proporciona opciones adicionales para la configuración detallada y específica de alertas, permitiendo a los usuarios tener un control más granular sobre cómo y cuándo se generan y envían las notificaciones. Estas configuraciones avanzadas son ideales para usuarios que necesitan personalizar alertas de manera precisa y compleja.
+La sección **Avanzado** dentro de la edición de alertas proporciona opciones adicionales para la configuración detallada y específica de alertas, permitiendo a los usuarios tener un control más granular sobre cómo y cuándo se generan y envían las notificaciones. Estas configuraciones avanzadas son ideales para usuarios que necesitan personalizar alertas de manera precisa y compleja.
 
 - **Zona horaria:** Este campo permite seleccionar la zona horaria que se utilizará para las alertas. Esto asegura que todas las notificaciones y eventos se registren de acuerdo con la hora local del usuario. Es especialmente útil para usuarios que administran dispositivos en diferentes ubicaciones geográficas.
 - **Usar texto sin formato:** Esta opción, cuando está marcada, envía las notificaciones de alerta en formato de texto simple en lugar de HTML. Es útil para sistemas que no soportan HTML o cuando se prefiere un formato de mensaje más sencillo.

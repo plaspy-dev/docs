@@ -29,7 +29,7 @@ The body of the request must include a JSON object with the alert data for the d
 
 ### Authentication Required
 
-[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
 ### Example Request
 
@@ -40,12 +40,11 @@ Authorization: Bearer {token}
 Content-Type: application/json
 
 {
-  "from": "2024-06-01T00:00:00Z",
-  "to": "2024-06-01T23:59:59Z",
-  "alertName": "Speeding Alert"
+ "from": "2024-06-01T00:00:00Z",
+ "to": "2024-06-01T23:59:59Z",
+ "alertName": "Speeding Alert"
 }
 ```
-
 
 ### Response Parameters
 
@@ -74,22 +73,21 @@ Within the `alerts` field, the object has the following fields:
 
 ```
 {
-  "success": true,
-  "apiUsage": 150,
-  "apiDailyUsage": 3000,
-  "alerts": [
-    {
-      "dateTime": "2024-06-01T12:00:00Z",
-      "latitude": 40.712776,
-      "longitude": -74.005974,
-      "text": "Speeding Alert",
-      "notifications": ["Email", "SMS"],
-      "alerts": ["High Speed"]
-    }
-  ]
+ "success": true,
+ "apiUsage": 150,
+ "apiDailyUsage": 3000,
+ "alerts": [
+ {
+ "dateTime": "2024-06-01T12:00:00Z",
+ "latitude": 40.712776,
+ "longitude": -74.005974,
+ "text": "Speeding Alert",
+ "notifications": ["Email", "SMS"],
+ "alerts": ["High Speed"]
+ }
+ ]
 }
 ```
-
 
 ### Example Error Response
 
@@ -97,24 +95,22 @@ Within the `alerts` field, the object has the following fields:
 
 ```
 {
-  "success": false,
-  "error": "Bad Request",
-  "apiUsage": 150,
-  "apiDailyUsage": 3000
+ "success": false,
+ "error": "Bad Request",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
-
 
 #### Error 500 \(Internal Server Error\) Response
 
 ```
 {
-  "success": false,
-  "error": "Internal Server Error",
-  "apiUsage": 150,
-  "apiDailyUsage": 3000
+ "success": false,
+ "error": "Internal Server Error",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
 
-
-This endpoint is essential for updating the alert data of a device within the Plaspy system. It allows users to submit detailed and up-to-date alert information for a specific device, ensuring accurate tracking and monitoring.
+This endpoint is essential for updating the alert data of a device within the system. It allows users to submit detailed and up-to-date alert information for a specific device, ensuring accurate tracking and monitoring.

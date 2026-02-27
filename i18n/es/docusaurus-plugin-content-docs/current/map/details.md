@@ -3,9 +3,9 @@ sidebar_label: Detalles
 sidebar_position: 4
 ---
 # Detalles
-La sección de detalles del [mapa](https://app.plaspy.com/Map) en Plaspy proporciona una visión completa y detallada de la información de los dispositivos rastreados. Esta funcionalidad es fundamental para los usuarios que necesitan monitorear y analizar datos específicos de sus dispositivos en tiempo real. La interfaz está diseñada para mostrar información crítica, como la velocidad, el nivel de batería, el kilometraje, y otros datos relevantes, en un formato tabular fácil de entender. A continuación, se detallan los componentes y funcionalidades principales de esta sección.
+La sección de detalles del [mapa](https://app.plaspy.com/Map) proporciona una visión completa y detallada de la información de los dispositivos rastreados. Esta funcionalidad es fundamental para los usuarios que necesitan monitorear y analizar datos específicos de sus dispositivos en tiempo real. La interfaz está diseñada para mostrar información crítica, como la velocidad, el nivel de batería, el kilometraje, y otros datos relevantes, en un formato tabular fácil de entender. A continuación, se detallan los componentes y funcionalidades principales de esta sección.
 
-![](./Mapa - Plaspy (2)-animated.webp "Mapa - Plaspy (2)-animated.webp")
+![](./Mapa - (2)-animated.webp "Mapa - (2)-animated.webp")
 
 ## Descripción General
 
@@ -44,8 +44,7 @@ Esta funcionalidad es especialmente útil para la gestión de flotas y el monito
 1. **Filtrar Datos:** Utiliza el campo de filtro para buscar dispositivos o datos específicos dentro de la tabla. Escribe las palabras clave relevantes y la tabla se actualizará automáticamente para mostrar solo las filas que coincidan con el criterio de búsqueda.
 2. **Ordenar Columnas:** Haz clic en el encabezado de cualquier columna para ordenar los datos en orden ascendente o descendente. Esto permite organizar la información de manera que se ajusten a tus necesidades de monitoreo.
 
-###   
-Cómo Visualizar Detalles de un Dispositivo
+### Cómo Visualizar Detalles de un Dispositivo
 
 1. **Seleccionar Dispositivo:** Haz clic en la fila del dispositivo que deseas inspeccionar. Esto centrará el mapa en la ubicación del dispositivo seleccionado, proporcionando una vista detallada de su posición.
 2. **Analizar Datos:** Revisa las métricas presentadas en la tabla para obtener una comprensión completa del estado y rendimiento del dispositivo. Utiliza esta información para tomar decisiones informadas sobre la gestión del dispositivo.
@@ -59,10 +58,10 @@ Cómo Visualizar Detalles de un Dispositivo
 ## Preguntas Frecuentes
 
 - **¿Cómo puedo saber si un dispositivo está fuera de línea?**
-    - La columna de alarmas puede indicar si un dispositivo está fuera de línea. Además, puedes utilizar el campo de filtro para buscar específicamente dispositivos fuera de línea.
+ - La columna de alarmas puede indicar si un dispositivo está fuera de línea. Además, puedes utilizar el campo de filtro para buscar específicamente dispositivos fuera de línea.
 - **¿Qué hago si un dispositivo muestra datos incorrectos?**
-    - Verifica la fecha de la última actualización para asegurarte de que los datos son recientes. Si el problema persiste, considera revisar el dispositivo físicamente o contactar al soporte técnico.
+ - Verifica la fecha de la última actualización para asegurarte de que los datos son recientes. Si el problema persiste, considera revisar el dispositivo físicamente o contactar al soporte técnico.
 - **¿Puedo exportar los datos de la tabla?**
-    - Sí, la sección de detalles permite la exportación de datos para su análisis posterior. Consulta las opciones de exportación en el menú de la interfaz para más detalles.
+ - Sí, la sección de detalles permite la exportación de datos para su análisis posterior. Consulta las opciones de exportación en el menú de la interfaz para más detalles.
 
 Esta sección de detalles del mapa es una herramienta poderosa para el monitoreo y la gestión eficiente de dispositivos rastreados, proporcionando información crítica y en tiempo real para apoyar decisiones informadas y mantener operaciones fluidas.

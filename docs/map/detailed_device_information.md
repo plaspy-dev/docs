@@ -3,7 +3,7 @@ sidebar_label: Detailed Device Information
 sidebar_position: 2
 ---
 # Detailed Device Information
-When you click on a marker on the Plaspy [map](https://app.plaspy.com/Map), a popup window appears displaying detailed information about the device's location and status. This popup provides critical data that helps users monitor and efficiently manage each device. The information shown may vary depending on the tracker's capabilities. Below is a description of each section of the information provided in the marker.
+When you click on a marker on the [map](https://app.plaspy.com/Map), a popup window appears displaying detailed information about the device's location and status. This popup provides critical data that helps users monitor and efficiently manage each device. The information shown may vary depending on the tracker's capabilities. Below is a description of each section of the information provided in the marker.
 
 ![](./detaildinfoanimated_20260205_124738.webp "detaild-info-animated.webp")
 

@@ -34,7 +34,7 @@ Each patch operation in the request body must follow the format defined in the J
 
 ### Authentication Required
 
-[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
 #### Example Request
 
@@ -45,16 +45,16 @@ Authorization: Bearer tu_token_de_autenticacion
 Content-Type: application/json
 
 [
-    {
-        "op": "replace",
-        "path": "/email",
-        "value": "nuevo_email@example.com"
-    },
-    {
-        "op": "add",
-        "path": "/tags",
-        "value": { "vip": "true" }
-    }
+ {
+ "op": "replace",
+ "path": "/email",
+ "value": "nuevo_email@example.com"
+ },
+ {
+ "op": "add",
+ "path": "/tags",
+ "value": { "vip": "true" }
+ }
 ]
 ```
 
@@ -90,25 +90,25 @@ Content-Type: application/json
 
 ```
 {
-    "success": true,
-    "id": "usr-12345",
-    "name": "Juan Perez",
-    "email": "new_email@example.com",
-    "country": "Colombia",
-    "timeZone": "America/Bogota",
-    "description": "VIP User",
-    "tags": {
-        "vip": "true"
-    },
-    "privileges": ["read", "write"],
-    "group": "administrators",
-    "deviceId": "dev-67890",
-    "adminDevices": 5,
-    "from": "2023-01-01T00:00:00Z",
-    "expires": "2024-01-01T00:00:00Z",
-    "creation": "2022-01-01T00:00:00Z",
-    "modification": "2023-06-01T00:00:00Z",
-    "lastLogin": "2023-06-01T00:00:00Z"
+ "success": true,
+ "id": "usr-12345",
+ "name": "Juan Perez",
+ "email": "new_email@example.com",
+ "country": "Colombia",
+ "timeZone": "America/Bogota",
+ "description": "VIP User",
+ "tags": {
+ "vip": "true"
+ },
+ "privileges": ["read", "write"],
+ "group": "administrators",
+ "deviceId": "dev-67890",
+ "adminDevices": 5,
+ "from": "2023-01-01T00:00:00Z",
+ "expires": "2024-01-01T00:00:00Z",
+ "creation": "2022-01-01T00:00:00Z",
+ "modification": "2023-06-01T00:00:00Z",
+ "lastLogin": "2023-06-01T00:00:00Z"
 }
 ```
 
@@ -116,12 +116,11 @@ Content-Type: application/json
 
 ```
 {
-    "success": false,
-    "error": "Invalid patch operation",
-    "apiUsage": 25,
-    "apiDailyUsage": 100
+ "success": false,
+ "error": "Invalid patch operation",
+ "apiUsage": 25,
+ "apiDailyUsage": 100
 }
 ```
 
-
-This endpoint facilitates updating specific data of a user, ensuring flexibility and efficiency in managing users within the Plaspy system.
+This endpoint facilitates updating specific data of a user, ensuring flexibility and efficiency in managing users within the system.

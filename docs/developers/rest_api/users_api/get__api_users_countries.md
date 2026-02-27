@@ -9,7 +9,7 @@ This endpoint is especially beneficial for applications that require geographica
 
 ### Request Details
 
-**HTTP Method**: GET  
+**HTTP Method**: GET 
 **URL**: `/api/users/countries`
 
 ### Request Parameters
@@ -18,7 +18,7 @@ This endpoint does not require any parameters in the request.
 
 ### Authentication Required
 
-[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
 ### Example Request
 
@@ -27,7 +27,6 @@ GET /api/users/countries HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer {your_auth_token}
 ```
-
 
 ### Response Parameters
 
@@ -45,27 +44,27 @@ The response from this endpoint contains a structure that includes the status of
 
 ```
 {
-  "success": true,
-  "apiUsage": 100,
-  "apiDailyUsage": 10,
-  "countries": {
-    "US": "United States",
-    "CA": "Canada",
-    "AR": "Argentina",
-    "BR": "Brazil",
-    "GB": "United Kingdom",
-    "CO": "Colombia"
-  }
+ "success": true,
+ "apiUsage": 100,
+ "apiDailyUsage": 10,
+ "countries": {
+ "US": "United States",
+ "CA": "Canada",
+ "AR": "Argentina",
+ "BR": "Brazil",
+ "GB": "United Kingdom",
+ "CO": "Colombia"
+ }
 }
 ```
-
 
 ### Example Error Response
 
 ```
 {
-  "success": false,
-  "error": "Authentication failed. Invalid token.",
-  "apiUsage": 100,
-  "apiDailyUsage": 10
-}`
+ "success": false,
+ "error": "Authentication failed. Invalid token.",
+ "apiUsage": 100,
+ "apiDailyUsage": 10
+}
+```

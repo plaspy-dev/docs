@@ -3,7 +3,7 @@ sidebar_label: Problemas con el Dispositivo
 sidebar_position: 3
 ---
 # Problemas con el Dispositivo
-En Plaspy, es posible que encuentres algunos [problemas comunes con tus dispositivos](https://app.plaspy.com/TroubleShooting) de seguimiento. Esta guía te proporcionará una descripción general de estos problemas y sus posibles soluciones para ayudarte a resolverlos de manera eficiente.
+, es posible que encuentres algunos [problemas comunes con tus dispositivos](https://app.plaspy.com/TroubleShooting) de seguimiento. Esta guía te proporcionará una descripción general de estos problemas y sus posibles soluciones para ayudarte a resolverlos de manera eficiente.
 
 A veces, un dispositivo de seguimiento puede aparecer fuera de línea, dejar de comunicar datos, o no funcionar correctamente debido a diversas razones. Los problemas más comunes suelen estar relacionados con la señal GPS, la conectividad GSM, el estado de la batería, o la configuración del dispositivo.
 
@@ -59,6 +59,6 @@ A veces, un dispositivo de seguimiento puede aparecer fuera de línea, dejar de 
 
 - **Reiniciar el Dispositivo**: Algunos dispositivos pueden bloquearse temporalmente. Intentar un reinicio físico puede resolver el problema.
 - **Consultar el Manual del Usuario**: Siempre es útil revisar el manual del dispositivo para encontrar soluciones específicas y opciones de configuración.
-- **Soporte Técnico**: Si los problemas persisten, contacta al soporte técnico de Plaspy para obtener asistencia adicional.
+- **Soporte Técnico**: Si los problemas persisten, contacta al soporte técnico para obtener asistencia adicional.
 
-Siguiendo estos consejos y soluciones, podrás resolver la mayoría de los problemas comunes con tus dispositivos de seguimiento en Plaspy, asegurando un funcionamiento continuo y eficiente.
+Siguiendo estos consejos y soluciones, podrás resolver la mayoría de los problemas comunes con tus dispositivos de seguimiento, asegurando un funcionamiento continuo y eficiente.

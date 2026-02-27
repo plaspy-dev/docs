@@ -6,10 +6,9 @@ El endpoint **GET /api/users/countries** permite obtener una lista de todos los 
 
 Este endpoint es especialmente útil para aplicaciones que requieren información geográfica, ya sea para la creación de perfiles de usuario, configuraciones de cuenta, o cualquier otra funcionalidad que necesite un listado de países.
 
-##   
-Detalles de la Solicitud
+## Detalles de la Solicitud
 
-**Método HTTP**: GET  
+**Método HTTP**: GET 
 **URL**: `/api/users/countries`
 
 ## Parámetros de la Solicitud
@@ -18,7 +17,7 @@ Este endpoint no requiere parámetros en la solicitud.
 
 ### Autenticación Requerida
 
-La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
@@ -27,7 +26,6 @@ GET /api/users/countries HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer {your_auth_token}
 ```
-
 
 ## Parámetros de Respuesta
 
@@ -45,27 +43,27 @@ La respuesta de este endpoint contiene una estructura que incluye el estado de l
 
 ```
 {
-  "success": true,
-  "apiUsage": 100,
-  "apiDailyUsage": 10,
-  "countries": {
-    "US": "United States",
-    "CA": "Canada",
-    "AR": "Argentina",
-    "BR": "Brazil",
-    "GB": "United Kingdom",
-    "CO": "Colombia"
-  }
+ "success": true,
+ "apiUsage": 100,
+ "apiDailyUsage": 10,
+ "countries": {
+ "US": "United States",
+ "CA": "Canada",
+ "AR": "Argentina",
+ "BR": "Brazil",
+ "GB": "United Kingdom",
+ "CO": "Colombia"
+ }
 }
 ```
-
 
 ### Ejemplo de Respuesta de Error
 
 ```
 {
-  "success": false,
-  "error": "Autenticación fallida. Token inválido.",
-  "apiUsage": 100,
-  "apiDailyUsage": 10
-}`
+ "success": false,
+ "error": "Autenticación fallida. Token inválido.",
+ "apiUsage": 100,
+ "apiDailyUsage": 10
+}
+```

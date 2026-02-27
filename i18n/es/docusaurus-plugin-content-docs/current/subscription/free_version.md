@@ -3,13 +3,13 @@ sidebar_label: Versión Gratis
 sidebar_position: 41
 ---
 # Versión Gratis
-La [versión gratuita](https://app.plaspy.com/SignUp) de Plaspy ofrece una excelente oportunidad para los usuarios que desean comenzar a utilizar los servicios de seguimiento satelital sin ningún costo. Esta versión proporciona acceso a las funcionalidades básicas de Plaspy, permitiendo a los usuarios disfrutar de muchas de las ventajas que ofrece la plataforma. A continuación, se detallan las características y limitaciones de la versión gratuita en comparación con la versión de pago.
+La [versión gratuita](https://app.plaspy.com/SignUp) ofrece una excelente oportunidad para los usuarios que desean comenzar a utilizar los servicios de seguimiento satelital sin ningún costo. Esta versión proporciona acceso a las funcionalidades básicas, permitiendo a los usuarios disfrutar de muchas de las ventajas que ofrece la plataforma. A continuación, se detallan las características y limitaciones de la versión gratuita en comparación con la versión de pago.
 
 #### Características de la Versión Gratuita
 
 **Acceso desde la Aplicación Móvil**
 
-- La versión gratuita de Plaspy está diseñada para ser utilizada exclusivamente desde la aplicación móvil. Esto permite a los usuarios monitorear y gestionar sus dispositivos de manera conveniente y en movimiento.
+- La versión gratuita está diseñada para ser utilizada exclusivamente desde la aplicación móvil. Esto permite a los usuarios monitorear y gestionar sus dispositivos de manera conveniente y en movimiento.
 
 **Notificaciones Push**
 
@@ -25,7 +25,7 @@ La [versión gratuita](https://app.plaspy.com/SignUp) de Plaspy ofrece una excel
 
 ### Limitaciones de la Versión Gratuita
 
-Aunque la versión gratuita de Plaspy ofrece muchas funcionalidades útiles, existen algunas limitaciones en comparación con la versión de pago. A continuación se detallan estas limitaciones:
+Aunque la versión gratuita ofrece muchas funcionalidades útiles, existen algunas limitaciones en comparación con la versión de pago. A continuación se detallan estas limitaciones:
 
 - **No cuenta con versión de escritorio**: La versión gratuita solo se puede usar desde la aplicación móvil y no está disponible para uso en escritorio.
 - **Sin alertas por correo electrónico**: Las alertas se reciben únicamente por notificaciones push y no por correo electrónico.
@@ -41,4 +41,4 @@ Aunque la versión gratuita de Plaspy ofrece muchas funcionalidades útiles, exi
 - **Sin logo personalizado**: El usuario no puede subir un logo personalizado para su cuenta.
 - **Sin descargas en Excel**: No se pueden descargar estadísticas en formato Excel ni realizar descargas en lote de todas las estadísticas de los dispositivos.
 
-La versión gratuita de Plaspy es ideal para usuarios que buscan una introducción sencilla y efectiva al seguimiento satelital sin incurrir en costos. Ofrece herramientas esenciales que permiten a los usuarios gestionar y monitorear sus dispositivos desde la aplicación móvil. Aunque tiene ciertas limitaciones, proporciona una experiencia robusta y funcional que puede satisfacer las necesidades básicas de seguimiento. Para aquellos que requieran funciones más avanzadas, Plaspy ofrece una versión de pago con características adicionales y soporte ampliado.
+La versión gratuita es ideal para usuarios que buscan una introducción sencilla y efectiva al seguimiento satelital sin incurrir en costos. Ofrece herramientas esenciales que permiten a los usuarios gestionar y monitorear sus dispositivos desde la aplicación móvil. Aunque tiene ciertas limitaciones, proporciona una experiencia robusta y funcional que puede satisfacer las necesidades básicas de seguimiento. Para aquellos que requieran funciones más avanzadas, La plataforma ofrece una versión de pago con características adicionales y soporte ampliado.

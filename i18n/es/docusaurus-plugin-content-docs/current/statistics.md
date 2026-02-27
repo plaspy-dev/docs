@@ -3,7 +3,7 @@ sidebar_label: Estadísticas
 sidebar_position: 7
 ---
 # Estadísticas
-La sección de "[Estadísticas](https://app.plaspy.com/Statistics)" en Plaspy permite a los usuarios obtener informes detallados sobre el rendimiento y el uso de sus dispositivos a lo largo del tiempo. Esta herramienta es crucial para monitorear aspectos clave como el consumo de combustible, kilometraje, alertas generadas, y mucho más, proporcionando datos valiosos para la gestión eficiente de flotas y activos.
+La sección de "[*fa-bar-chart* Estadísticas](https://app.plaspy.com/Statistics)" permite a los usuarios obtener informes detallados sobre el rendimiento y el uso de sus dispositivos a lo largo del tiempo. Esta herramienta es crucial para monitorear aspectos clave como el consumo de combustible, kilometraje, alertas generadas, y mucho más, proporcionando datos valiosos para la gestión eficiente de flotas y activos.
 
 Para acceder a la sección de estadísticas, dirígete al menú superior y selecciona el ícono de estadísticas representado por un gráfico. Esto te llevará a la página donde puedes configurar y visualizar diversos tipos de informes según tus necesidades.
 
@@ -38,39 +38,39 @@ Para acceder a la sección de estadísticas, dirígete al menú superior y selec
 
 ### Interacción a través del Chat Incorporado con IA
 
-En Plaspy, hemos integrado una función innovadora que permite a los usuarios interactuar con las estadísticas a través de un chat en línea potenciado por inteligencia artificial \(IA\). Esta herramienta proporciona una manera intuitiva y eficiente de obtener información y realizar consultas sobre los datos de tus dispositivos rastreados. A continuación, se describen las capacidades y ventajas de esta funcionalidad:
+, hemos integrado una función innovadora que permite a los usuarios interactuar con las estadísticas a través de un chat en línea potenciado por inteligencia artificial \(IA\). Esta herramienta proporciona una manera intuitiva y eficiente de obtener información y realizar consultas sobre los datos de tus dispositivos rastreados. A continuación, se describen las capacidades y ventajas de esta funcionalidad:
 
 #### Funcionalidades del Chat Incorporado con IA
 
 1. **Consultas en Tiempo Real:**
 
-    - Puedes hacer preguntas directas sobre las estadísticas actuales de tus dispositivos, tales como "¿Cuántos kilómetros recorrieron los vehículos la semana pasada?" o "¿Cuál fue el consumo de combustible de los últimos 30 días?"
-    - La IA responderá de inmediato con la información más reciente disponible en el sistema.
+ - Puedes hacer preguntas directas sobre las estadísticas actuales de tus dispositivos, tales como "¿Cuántos kilómetros recorrieron los vehículos la semana pasada?" o "¿Cuál fue el consumo de combustible de los últimos 30 días?"
+ - La IA responderá de inmediato con la información más reciente disponible en el sistema.
 2. **Solicitar Nueva Información:**
 
-    - Si necesitas generar un reporte específico o analizar un nuevo conjunto de datos, simplemente pide a la IA que lo haga por ti. Por ejemplo, "Genera un informe de alertas de los últimos 7 días" o "Muestra el análisis de velocidad para el vehículo A."
-    - La IA procesará tu solicitud y te proporcionará el resultado deseado.
+ - Si necesitas generar un reporte específico o analizar un nuevo conjunto de datos, simplemente pide a la IA que lo haga por ti. Por ejemplo, "Genera un informe de alertas de los últimos 7 días" o "Muestra el análisis de velocidad para el vehículo A."
+ - La IA procesará tu solicitud y te proporcionará el resultado deseado.
 3. **Exploración Detallada de Datos:**
 
-    - La IA puede desglosar la información contenida en las estadísticas y presentar datos específicos según tus necesidades. Puedes preguntar "¿Cuántas alertas de exceso de velocidad hubo ayer?" o "¿Cuál fue la velocidad máxima registrada hoy?"
-    - Esto facilita una comprensión profunda y detallada de los datos sin necesidad de navegar manualmente por múltiples secciones.
+ - La IA puede desglosar la información contenida en las estadísticas y presentar datos específicos según tus necesidades. Puedes preguntar "¿Cuántas alertas de exceso de velocidad hubo ayer?" o "¿Cuál fue la velocidad máxima registrada hoy?"
+ - Esto facilita una comprensión profunda y detallada de los datos sin necesidad de navegar manualmente por múltiples secciones.
 
 #### Beneficios de Usar el Chat con IA
 
 - La interacción directa con los datos a través del chat reduce el tiempo que normalmente tomaría buscar y analizar información.
 - No se requieren conocimientos técnicos avanzados para usar esta herramienta. La IA está diseñada para entender y responder en lenguaje natural, facilitando su uso para todos los usuarios.
-- Al estar integrada con el sistema de Plaspy, la IA proporciona datos actualizados en tiempo real, asegurando que siempre tengas la información más precisa a tu disposición.
+- Al estar integrada con el sistema, la IA proporciona datos actualizados en tiempo real, asegurando que siempre tengas la información más precisa a tu disposición.
 
 ### Opciones de Guardado
 
-Plaspy ofrece varias opciones para guardar las estadísticas generadas en formato Excel, permitiendo una mayor flexibilidad en el análisis y gestión de datos. A continuación, se detallan las opciones disponibles:
+La plataforma ofrece varias opciones para guardar las estadísticas generadas en formato Excel, permitiendo una mayor flexibilidad en el análisis y gestión de datos. A continuación, se detallan las opciones disponibles:
 
 - **Estadistica actual:** 
-    - **Dispositivos Seleccionados**: Permite guardar la estadística del dispositivo actual que se está visualizando, de los dispositivos seleccionados en el filtro.
-    - **Cada Dispositivo en una Hoja Diferente**: Guarda la estadística actual de los dispositivos seleccionados, cada uno en una hoja por separado dentro del mismo archivo Excel.
+ - ***fa-floppy-o*  Dispositivos Seleccionados**: Permite guardar la estadística del dispositivo actual que se está visualizando, de los dispositivos seleccionados en el filtro.
+ - ***fa-cogs* Cada Dispositivo en una Hoja Diferente**: Guarda la estadística actual de los dispositivos seleccionados, cada uno en una hoja por separado dentro del mismo archivo Excel.
 - **Todas las estadísticas:**
-    - <sub><i class="fa fa-floppy-o"></i></sub>**Cada Estadística en Hojas Diferentes**: Guarda todas las estadísticas de los dispositivos seleccionados, cada estadística en hojas diferentes del mismo archivo Excel.
-    - **<sub><i class="fa fa-file-excel-o"></i></sub> Cada Dispositivo en un Archivo Diferente**: Guarda todas las estadísticas de los dispositivos seleccionados en archivos Excel separados, cada dispositivo en un archivo diferente.
+ - *fa-floppy-o*<sub><i>fa-floppy-o</i></sub>**Cada Estadística en Hojas Diferentes**: Guarda todas las estadísticas de los dispositivos seleccionados, cada estadística en hojas diferentes del mismo archivo Excel.
+ - ***fa-file-excel-o*<sub><i>fa-file-excel-o</i></sub> Cada Dispositivo en un Archivo Diferente**: Guarda todas las estadísticas de los dispositivos seleccionados en archivos Excel separados, cada dispositivo en un archivo diferente.
 
 ### Instrucciones Paso a Paso
 
@@ -78,20 +78,20 @@ Plaspy ofrece varias opciones para guardar las estadísticas generadas en format
 
 1. **Abrir el menú de estadísticas**:
 
-    - En el menú superior derecho, haz clic en el ícono de [estadísticas](https://app.plaspy.com/Statistics) \(representado por \).
+ - En el menú superior derecho, haz clic en el ícono de [estadísticas](https://app.plaspy.com/Statistics) \(representado por *fa-bar-chart*\).
 2. **Seleccionar los filtros deseados**:
 
-    - **Fecha**: Selecciona el rango de fechas que deseas analizar.
-    - **Grupo**: Elige el grupo de dispositivos \(opcional\).
-    - **Dispositivos**: Selecciona uno o varios dispositivos específicos.
-    - **Tipo**: Selecciona el tipo de estadística que deseas generar.
+ - **Fecha**: Selecciona el rango de fechas que deseas analizar.
+ - **Grupo**: Elige el grupo de dispositivos \(opcional\).
+ - **Dispositivos**: Selecciona uno o varios dispositivos específicos.
+ - **Tipo**: Selecciona el tipo de estadística que deseas generar.
 3. **Generar la estadística**:
 
-    - Haz clic en el botón " Actualizar" para ver la estadística en la plataforma.
+ - Haz clic en el botón "*fa-refresh* Actualizar" para ver la estadística en la plataforma.
 4. **Guardar la estadística**:
 
-    - Haz clic en el botón " Guardar" para exportar la información a un archivo Excel.
-    - Selecciona la opción de guardado que prefieras del menú desplegable \(\).
+ - Haz clic en el botón "*fa-floppy-o* Guardar" para exportar la información a un archivo Excel.
+ - Selecciona la opción de guardado que prefieras del menú desplegable \(*fa-sort-desc*\).
 
 ### Validaciones y Restricciones
 
@@ -101,12 +101,12 @@ Plaspy ofrece varias opciones para guardar las estadísticas generadas en format
 
 ### Preguntas Frecuentes
 
-- **¿Cómo puedo guardar las estadísticas generadas?**   
+- **¿Cómo puedo guardar las estadísticas generadas?** 
 
-    - Puedes guardar las estadísticas generadas en formato Excel haciendo clic en el botón "Guardar" después de aplicar los filtros deseados. Luego, elige la opción de guardado adecuada para tus necesidades.
-- **¿Puedo generar estadísticas para múltiples dispositivos a la vez?**   
+ - Puedes guardar las estadísticas generadas en formato Excel haciendo clic en el botón "Guardar" después de aplicar los filtros deseados. Luego, elige la opción de guardado adecuada para tus necesidades.
+- **¿Puedo generar estadísticas para múltiples dispositivos a la vez?** 
 
-    - Sí, puedes seleccionar múltiples dispositivos al configurar los filtros de las estadísticas.
-- **¿Qué tipos de alertas se pueden incluir en las estadísticas?**   
+ - Sí, puedes seleccionar múltiples dispositivos al configurar los filtros de las estadísticas.
+- **¿Qué tipos de alertas se pueden incluir en las estadísticas?** 
 
-    - Puedes incluir cualquier tipo de alerta que esté configurada en tus dispositivos, como alertas de velocidad, movimientos no autorizados, niveles de combustible, entre otros.
+ - Puedes incluir cualquier tipo de alerta que esté configurada en tus dispositivos, como alertas de velocidad, movimientos no autorizados, niveles de combustible, entre otros.

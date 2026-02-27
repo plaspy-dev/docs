@@ -31,7 +31,12 @@ const config = {
   projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-
+  stylesheets: [
+    {
+      href: '/css/font-awesome.min.css',
+      type: 'text/css',
+    },
+  ],
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -53,7 +58,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/plaspy-dev/docs/blob/main/',
+          editUrl: 'https://github.com/plaspy-dev/docs/blob/dev/',
         },
         blog: {
           showReadingTime: true,
@@ -63,7 +68,7 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/plaspy-dev/docs/blob/main/',
+          editUrl: 'https://github.com/plaspy-dev/docs/blob/dev/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -128,7 +133,7 @@ const config = {
             items: [
               {
                 label: 'Help Center',
-                to: '/docs/welcome_to_plaspy_help',
+                to: '/docs/welcome_to_help',
               },
               {
                 label: 'Contact support',

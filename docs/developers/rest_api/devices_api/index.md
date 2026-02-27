@@ -3,15 +3,15 @@ sidebar_label: Devices API
 sidebar_position: 5
 ---
 # Devices API
-This documentation provides a comprehensive guide on using the devices API of the Plaspy satellite tracking system. This API is designed to facilitate the management and monitoring of tracked devices, offering users the ability to interact with their device data through HTTP requests. The documentation is structured into various endpoints, each aimed at a specific functionality, enabling a clear and detailed understanding of the system's capabilities.
+This documentation provides a comprehensive guide on using the devices API of the satellite tracking system. This API is designed to facilitate the management and monitoring of tracked devices, offering users the ability to interact with their device data through HTTP requests. The documentation is structured into various endpoints, each aimed at a specific functionality, enabling a clear and detailed understanding of the system's capabilities.
 
 ### Importance of the Devices API
 
-In the realm of satellite tracking, efficient device management is crucial to ensure accurate and real-time monitoring. The Plaspy devices API allows users to access detailed information about their devices, update location and alert data, and obtain the last known location of each device. These capabilities are essential for applications in sectors such as logistics, security, fleet management, and others where tracking and localization are fundamental.
+In the realm of satellite tracking, efficient device management is crucial to ensure accurate and real-time monitoring. the devices API allows users to access detailed information about their devices, update location and alert data, and obtain the last known location of each device. These capabilities are essential for applications in sectors such as logistics, security, fleet management, and others where tracking and localization are fundamental.
 
 ### Overview of the Endpoints
 
-The Plaspy devices API includes several endpoints that cover a wide range of functionalities:
+the devices API includes several endpoints that cover a wide range of functionalities:
 
 1. **[GET /api/devices](get__api_devices)**: Allows retrieving a list of all available devices in the tracking application. This endpoint is useful for viewing all tracked devices and obtaining basic details about each one.
 2. **[GET /api/devices/\{deviceId\}](get__api_devices_deviceid)**: Provides detailed information about a specific device. This endpoint is essential for obtaining comprehensive data on a particular device.
@@ -34,4 +34,4 @@ To facilitate the implementation and use of the API, the documentation includes 
 
 ### Conclusion
 
-The Plaspy devices API is a powerful tool for the management and monitoring of tracked devices. This documentation is designed to provide users with all the necessary information to integrate and efficiently use the API in their systems. With a clear structure and detailed examples, this guide facilitates access to the various functionalities offered by the API, ensuring successful implementation and accurate device tracking.
+the devices API is a powerful tool for the management and monitoring of tracked devices. This documentation is designed to provide users with all the necessary information to integrate and efficiently use the API in their systems. With a clear structure and detailed examples, this guide facilitates access to the various functionalities offered by the API, ensuring successful implementation and accurate device tracking.

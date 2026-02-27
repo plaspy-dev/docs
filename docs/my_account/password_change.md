@@ -3,9 +3,9 @@ sidebar_label: Password Change
 sidebar_position: 25
 ---
 # Password Change
-To maintain the security of your Plaspy account, it is important to regularly change your password. Plaspy allows you to update your password directly from your user profile. Make sure to follow security policies when creating a new password.
+To maintain the security of your account, it is important to regularly change your password. The platform allows you to update your password directly from your user profile. Make sure to follow security policies when creating a new password.
 
-You can access the password change option from the "[Account](https://app.plaspy.com/Account)" section in the user menu. Once there, under ' Account information', click on "" next to **Password**.
+You can access the password change option from the "[Account](https://app.plaspy.com/Account)" section in the user menu. Once there, under '*fa-user* Account information', click on "*fa-pencil*" next to **Password**.
 
 ![](./image_1718311115064.gif)
 
@@ -23,8 +23,8 @@ You can access the password change option from the "[Account](https://app.plaspy
 
 ### Step-by-Step Instructions
 
-1. **Access the "Account" section:** In the top right corner, click on your username and select **' My Account'**.
-2. **Update your password:** Under ' Account information', click on "" next to **Password**.
+1. **Access the "Account" section:** In the top right corner, click on your username and select **'*fa-user* My Account'**.
+2. **Update your password:** Under '*fa-user* Account information', click on "*fa-pencil*" next to **Password**.
 3. **Enter the new password:** Ensure the new password meets all security requirements.
 4. **Confirm the new password:** Re-enter the new password in the confirmation field.
 5. **Save changes:** Click the "Change" button to save your new password.
@@ -38,10 +38,10 @@ You can access the password change option from the "[Account](https://app.plaspy
 ### Frequently Asked Questions
 
 - **Why is it important to change my password regularly?**
-    - Changing your password regularly helps protect your account from unauthorized access and potential security breaches.
+ - Changing your password regularly helps protect your account from unauthorized access and potential security breaches.
 - **What do I do if I forget my new password?**
-    - If you forget your new password, you can reset it using the password recovery option on the Plaspy login page.
+ - If you forget your new password, you can reset it using the password recovery option on the login page.
 - **Can I use a password that I have used before?**
-    - It is recommended not to reuse old passwords to ensure better security.
+ - It is recommended not to reuse old passwords to ensure better security.
 
-This guide ensures that you can change your password efficiently, maintaining the security of your Plaspy account.
+This guide ensures that you can change your password efficiently, maintaining the security of your account.

@@ -1,46 +1,46 @@
 {
   "link.title.Product": {
-    "message": "Product",
+    "message": "Producto",
     "description": "The title of the footer links column with title=Product in the footer"
   },
   "link.title.Support": {
-    "message": "Support",
+    "message": "Soporte",
     "description": "The title of the footer links column with title=Support in the footer"
   },
   "link.title.Company": {
-    "message": "Company",
+    "message": "Compañía",
     "description": "The title of the footer links column with title=Company in the footer"
   },
   "link.item.label.Go to Plaspy": {
-    "message": "Go to Plaspy",
+    "message": "Ir a Plaspy",
     "description": "The label of footer link with label=Go to Plaspy linking to https://www.plaspy.com"
   },
   "link.item.label.Sign in": {
-    "message": "Sign in",
+    "message": "Iniciar sesión",
     "description": "The label of footer link with label=Sign in linking to https://app.plaspy.com"
   },
   "link.item.label.Pricing": {
-    "message": "Pricing",
+    "message": "Precios",
     "description": "The label of footer link with label=Pricing linking to https://www.plaspy.com/Features/Pricing"
   },
   "link.item.label.Help Center": {
-    "message": "Help Center",
-    "description": "The label of footer link with label=Help Center linking to /docs/intro"
+    "message": "Centro de ayuda",
+    "description": "The label of footer link with label=Help Center linking to /docs/welcome_to_help"
   },
   "link.item.label.Contact support": {
-    "message": "Contact support",
+    "message": "Contactar soporte",
     "description": "The label of footer link with label=Contact support linking to https://www.plaspy.com/ContactUs"
   },
   "link.item.label.Homepage": {
-    "message": "Homepage",
+    "message": "Página principal",
     "description": "The label of footer link with label=Homepage linking to https://www.plaspy.com"
   },
   "link.item.label.Privacy Policy": {
-    "message": "Privacy Policy",
+    "message": "Política de privacidad",
     "description": "The label of footer link with label=Privacy Policy linking to https://www.plaspy.com/ServiceAgreement/Policy"
   },
   "link.item.label.Terms & Conditions": {
-    "message": "Terms & Conditions",
+    "message": "Términos y Condiciones",
     "description": "The label of footer link with label=Terms & Conditions linking to https://www.plaspy.com/ServiceAgreement/Terms"
   },
   "copyright": {

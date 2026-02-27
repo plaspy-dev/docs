@@ -28,7 +28,7 @@ El cuerpo de la solicitud debe incluir un objeto JSON con los datos de la alerta
 
 ### Autenticación Requerida
 
-La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
@@ -39,9 +39,9 @@ Authorization: Bearer {token}
 Content-Type: application/json
 
 {
-  "from": "2024-06-01T00:00:00Z",
-  "to": "2024-06-01T23:59:59Z",
-  "alertName": "Speeding Alert"
+ "from": "2024-06-01T00:00:00Z",
+ "to": "2024-06-01T23:59:59Z",
+ "alertName": "Speeding Alert"
 }
 ```
 
@@ -72,19 +72,19 @@ Dentro del campo `alerts`, el objeto tiene los siguientes campos:
 
 ```
 {
-  "success": true,
-  "apiUsage": 150,
-  "apiDailyUsage": 3000,
-  "alerts": [
-    {
-      "dateTime": "2024-06-01T12:00:00Z",
-      "latitude": 40.712776,
-      "longitude": -74.005974,
-      "text": "Speeding Alert",
-      "notifications": ["Email", "SMS"],
-      "alerts": ["High Speed"]
-    }
-  ]
+ "success": true,
+ "apiUsage": 150,
+ "apiDailyUsage": 3000,
+ "alerts": [
+ {
+ "dateTime": "2024-06-01T12:00:00Z",
+ "latitude": 40.712776,
+ "longitude": -74.005974,
+ "text": "Speeding Alert",
+ "notifications": ["Email", "SMS"],
+ "alerts": ["High Speed"]
+ }
+ ]
 }
 ```
 
@@ -94,10 +94,10 @@ Dentro del campo `alerts`, el objeto tiene los siguientes campos:
 
 ```
 {
-  "success": false,
-  "error": "Bad Request",
-  "apiUsage": 150,
-  "apiDailyUsage": 3000
+ "success": false,
+ "error": "Bad Request",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
 
@@ -105,11 +105,11 @@ Dentro del campo `alerts`, el objeto tiene los siguientes campos:
 
 ```
 {
-  "success": false,
-  "error": "Internal Server Error",
-  "apiUsage": 150,
-  "apiDailyUsage": 3000
+ "success": false,
+ "error": "Internal Server Error",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
 
-Este endpoint es esencial para actualizar los datos de alertas de un dispositivo dentro del sistema Plaspy. Permite a los usuarios enviar información de alertas detallada y actualizada para un dispositivo específico, asegurando un seguimiento y monitoreo precisos.
+Este endpoint es esencial para actualizar los datos de alertas de un dispositivo dentro del sistema. Permite a los usuarios enviar información de alertas detallada y actualizada para un dispositivo específico, asegurando un seguimiento y monitoreo precisos.

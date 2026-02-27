@@ -3,7 +3,7 @@ sidebar_label: Timeline
 sidebar_position: 5
 ---
 # Timeline
-The [timeline](https://app.plaspy.com/Map) in Plaspy provides a detailed summary of the device's performance during a specific trip. Below are the fields and metrics presented in this section:
+The [timeline](https://app.plaspy.com/Map) provides a detailed summary of the device's performance during a specific trip. Below are the fields and metrics presented in this section:
 
 ![](./timeline-animated.webp "timeline-animated.webp")
 
@@ -30,8 +30,8 @@ The [timeline](https://app.plaspy.com/Map) in Plaspy provides a detailed summary
 ### How to Check Trip Timeline
 
 1. **Open the Trips section:** In the left side panel, select the device you want to check.
-2. **Show trip:** Check the "Show trip" option, choose the time period you want to see and then click the **" Update"** button to see the route on the map.
-3. **Open Timeline section \(\):** At the bottom right of the map, click on \(\).
+2. **Show trip:** Check the "Show trip" option, choose the time period you want to see and then click the **"*fa-refresh* Update"** button to see the route on the map.
+3. **Open Timeline section \(*fa-clock-o*\):** At the bottom right of the map, click on \(*fa-clock-o*\).
 
 ### Validations and Restrictions
 
@@ -41,6 +41,6 @@ The [timeline](https://app.plaspy.com/Map) in Plaspy provides a detailed summary
 ### Frequently Asked Questions \(FAQ\)
 
 - **Why can't I see data from all sensors?**
-    - Make sure the device has those sensors installed and that they are enabled and working correctly during the trip.
+ - Make sure the device has those sensors installed and that they are enabled and working correctly during the trip.
 - **What do the different fuel metrics mean?**
-    - "Fuel \(%\)" indicates the remaining fuel percentage. "Distance per tank" and "Distance per fuel unit" show how efficient the fuel use is.
+ - "Fuel \(%\)" indicates the remaining fuel percentage. "Distance per tank" and "Distance per fuel unit" show how efficient the fuel use is.

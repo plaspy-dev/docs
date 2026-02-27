@@ -5,7 +5,7 @@ sidebar_position: 53
 # Rest API
 Una API REST \(Representational State Transfer\) es un conjunto de funciones que permite la comunicación y el intercambio de datos entre diferentes sistemas a través de la web. Utiliza métodos HTTP estándar como GET, POST, PUT, DELETE para realizar operaciones sobre recursos, representados en formato JSON. Las API REST son ampliamente utilizadas por su simplicidad, flexibilidad y escalabilidad.
 
-La API REST de Plaspy proporciona una manera robusta y segura de integrar las funcionalidades de Plaspy en tus propias aplicaciones. Siguiendo las directrices anteriores, podrás realizar solicitudes eficientes y gestionar correctamente los errores y los límites de la API. Para más detalles, consulta la [documentación completa de la API REST de Plaspy](https://app.plaspy.com/rest-api-docs).
+La API REST proporciona una manera robusta y segura de integrar las funcionalidades en tus propias aplicaciones. Siguiendo las directrices anteriores, podrás realizar solicitudes eficientes y gestionar correctamente los errores y los límites de la API. Para más detalles, consulta la [documentación completa de la API REST ](https://app.plaspy.com/rest-api-docs).
 
 ### Usos de una API REST
 
@@ -17,43 +17,41 @@ La API REST de Plaspy proporciona una manera robusta y segura de integrar las fu
 
 ## Base URL de Peticiones
 
-La base URL para todas las peticiones a la API REST de Plaspy es:
+La base URL para todas las peticiones a la API REST es:
 
-https://api.plaspy.com
+`https://api.plaspy.com`
 
-##   
-Método de Autenticación
+## Método de Autenticación
 
-Para comunicarte con el servicio de Plaspy, debes autenticarte utilizando un esquema OAuth. El primer paso es generar un Token de acceso tipo [JWT](https://jwt.io/) \(JSON Web Token\). Este token se obtiene a través de la siguiente operación:
+Para comunicarte con el servicio, debes autenticarte utilizando un esquema OAuth. El primer paso es generar un Token de acceso tipo [JWT](https://jwt.io/) \(JSON Web Token\). Este token se obtiene a través de la siguiente operación:
 
 - **Endpoint:** `/api/Auth/Token`
 - **Método:** `POST`
 - **Descripción:** [Obtener el Auth token](authentication) necesario para realizar peticiones a otros endpoints de la API.
 
-### Cómo usar OAuth en Plaspy
+### Cómo usar OAuth 
 
 1. **Generar un Token de Autenticación:**
 
-    - **Endpoint:** `/api/Auth/Token`
-    - **Método:** `POST`
-    - **Descripción:** Obtener el Auth token necesario para realizar peticiones a otros endpoints de la API.
-    - **Ejemplo de solicitud:**
+ - **Endpoint:** `/api/Auth/Token`
+ - **Método:** `POST`
+ - **Descripción:** Obtener el Auth token necesario para realizar peticiones a otros endpoints de la API.
+ - **Ejemplo de solicitud:**
 
 \{ "userName": "tu\_nombre\_de\_usuario", "apiKey": "tu\_api\_key" \}
 2. **Incluir el Token en las Peticiones:**
 
-    - Una vez obtenido el token, debes incluirlo en el encabezado de cada solicitud a la API.
-    - **Encabezado:** `Authorization: Bearer tu_token`
-    - **Ejemplo de uso en una petición GET:**
+ - Una vez obtenido el token, debes incluirlo en el encabezado de cada solicitud a la API.
+ - **Encabezado:** `Authorization: Bearer tu_token`
+ - **Ejemplo de uso en una petición GET:**
 
-GET /api/devices HTTP/1.1  
-Host: api.plaspy.com  
+GET /api/devices HTTP/1.1 
+Host: api.plaspy.com 
 Authorization: Bearer tu\_token
 
-##   
-Operaciones
+## Operaciones
 
-A continuación, se presenta una tabla con las operaciones disponibles en la API REST de Plaspy:
+A continuación, se presenta una tabla con las operaciones disponibles en la API REST :
 
 | Operación | Método | Endpoint | Descripción |
 | --- | --- | --- | --- |
@@ -95,7 +93,7 @@ A continuación, se presenta una tabla con las operaciones disponibles en la API
 
 ## Manejo de Errores
 
-Los errores en la API REST de Plaspy tienen la siguiente estructura JSON:
+Los errores en la API REST tienen la siguiente estructura JSON:
 
 \{ "success": false, "error": "Mensaje con la explicación del error." \}
 
@@ -104,7 +102,7 @@ Los errores en la API REST de Plaspy tienen la siguiente estructura JSON:
 
 ## Límite de Solicitudes
 
-Es importante tener en cuenta los siguientes límites al integrar la API de Plaspy:
+Es importante tener en cuenta los siguientes límites al integrar la API :
 
 - **Solicitudes por minuto:** Existe un límite de peticiones para proteger el rendimiento del sistema.
 - **Resultados por dispositivo diario:** Cada dispositivo tiene un límite diario de resultados consultables

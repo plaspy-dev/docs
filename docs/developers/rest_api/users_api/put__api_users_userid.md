@@ -9,7 +9,7 @@ This endpoint is especially beneficial for applications that allow user manageme
 
 ### Request Details
 
-**HTTP Method**: PUT  
+**HTTP Method**: PUT 
 **URL**: `/api/users/{userId}`
 
 ### Request Parameters
@@ -46,7 +46,7 @@ The request body should be a JSON object with the following fields:
 
 ### Authentication Required
 
-[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
 ### Example Request
 
@@ -57,28 +57,27 @@ Content-Type: application/json
 Authorization: Bearer {your_auth_token}
 
 {
-  "name": "Jane Doe",
-  "email": "jane.doe@example.com",
-  "country": "USA",
-  "timeZone": "America/Los_Angeles",
-  "description": "Updated user for the marketing department",
-  "tags": {
-    "role": "user",
-    "department": "marketing"
-  },
-  "privileges": ["read", "write"],
-  "group": "Marketing",
-  "deviceId": "dev-12345",
-  "adminDevices": 2,
-  "from": "2023-01-01T00:00:00Z",
-  "expires": "2024-01-01T00:00:00Z",
-  "password": "P@ssw0rd123",
-  "creation": "2023-01-01T00:00:00Z",
-  "modification": "2023-06-01T00:00:00Z",
-  "lastLogin": "2024-05-01T00:00:00Z"
+ "name": "Jane Doe",
+ "email": "jane.doe@example.com",
+ "country": "USA",
+ "timeZone": "America/Los_Angeles",
+ "description": "Updated user for the marketing department",
+ "tags": {
+ "role": "user",
+ "department": "marketing"
+ },
+ "privileges": ["read", "write"],
+ "group": "Marketing",
+ "deviceId": "dev-12345",
+ "adminDevices": 2,
+ "from": "2023-01-01T00:00:00Z",
+ "expires": "2024-01-01T00:00:00Z",
+ "password": "P@ssw0rd123",
+ "creation": "2023-01-01T00:00:00Z",
+ "modification": "2023-06-01T00:00:00Z",
+ "lastLogin": "2024-05-01T00:00:00Z"
 }
 ```
-
 
 ### Response Parameters
 
@@ -115,37 +114,37 @@ The response from this endpoint includes the details of the updated user or an e
 
 ```
 {
-  "success": true,
-  "apiUsage": 150,
-  "apiDailyUsage": 15,
-  "id": "usr-12345",
-  "name": "Jane Doe",
-  "email": "jane.doe@example.com",
-  "country": "USA",
-  "timeZone": "America/Los_Angeles",
-  "description": "Updated user for the marketing department",
-  "tags": {
-    "role": "user",
-    "department": "marketing"
-  },
-  "privileges": ["read", "write"],
-  "group": "Marketing",
-  "deviceId": "dev-12345",
-  "adminDevices": 2,
-  "from": "2023-01-01T00:00:00Z",
-  "expires": "2024-01-01T00:00:00Z",
-  "password": null,
-  "creation": "2023-01-01T00:00:00Z",
-  "modification": "2023-06-01T00:00:00Z", "lastLogin": "2024-05-01T00:00:00Z" }
+ "success": true,
+ "apiUsage": 150,
+ "apiDailyUsage": 15,
+ "id": "usr-12345",
+ "name": "Jane Doe",
+ "email": "jane.doe@example.com",
+ "country": "USA",
+ "timeZone": "America/Los_Angeles",
+ "description": "Updated user for the marketing department",
+ "tags": {
+ "role": "user",
+ "department": "marketing"
+ },
+ "privileges": ["read", "write"],
+ "group": "Marketing",
+ "deviceId": "dev-12345",
+ "adminDevices": 2,
+ "from": "2023-01-01T00:00:00Z",
+ "expires": "2024-01-01T00:00:00Z",
+ "password": null,
+ "creation": "2023-01-01T00:00:00Z",
+ "modification": "2023-06-01T00:00:00Z", "lastLogin": "2024-05-01T00:00:00Z" }
 ```
-
 
 ### Example Error Response
 
 ```
 {
-  "success": false,
-  "error": "User not found.",
-  "apiUsage": 150,
-  "apiDailyUsage": 15
-}`
+ "success": false,
+ "error": "User not found.",
+ "apiUsage": 150,
+ "apiDailyUsage": 15
+}
+```

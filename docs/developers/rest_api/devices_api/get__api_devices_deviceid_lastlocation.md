@@ -19,7 +19,7 @@ This endpoint requires the `deviceId` parameter to be included in the URL path.
 
 ### Authentication Required
 
-[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
 ### Example Request
 
@@ -28,7 +28,6 @@ GET /api/devices/device123/lastLocation HTTP/1.1
 Host: api.plaspy.com
 Authorization: Bearer {token}
 ```
-
 
 ### Response Parameters
 
@@ -77,62 +76,61 @@ Within the `lastLocation` field, the object has the following fields:
 
 ```
 {
-  "success": true,
-  "apiUsage": 150,
-  "apiDailyUsage": 3000,
-  "lastLocation": {
-    "dateTime": "2024-06-02T08:48:25.009Z",
-    "latitude": 0,
-    "longitude": 0,
-    "speed": 0,
-    "course": 0,
-    "battery": 0,
-    "fuel": 0,
-    "fuel2": 0,
-    "temperature": 0,
-    "temperature2": 0,
-    "sensorTime1": 0,
-    "sensorTime2": 0,
-    "sensorTime3": 0,
-    "sensorTime4": 0,
-    "inactiveSeconds": 0,
-    "rpm": 0,
-    "milleage": 0,
-    "warningTexts": [
-      "string"
-    ],
-    "alertTexts": [
-      "string"
-    ],
-    "alerts": [
-      "string"
-    ],
-    "warnings": [
-      "string"
-    ],
-    "hasCriticalAlert": true,
-    "attributes": {
-      "additionalProp1": "string",
-      "additionalProp2": "string",
-      "additionalProp3": "string"
-    },
-    "accessoriesAttributes": [
-      {
-        "additionalProp1": "string",
-        "additionalProp2": "string",
-        "additionalProp3": "string"
-      }
-    ],
-    "inputs": [
-      true
-    ],
-    "outputs": [
-      true
-    ]
-  }
+ "success": true,
+ "apiUsage": 150,
+ "apiDailyUsage": 3000,
+ "lastLocation": {
+ "dateTime": "2024-06-02T08:48:25.009Z",
+ "latitude": 0,
+ "longitude": 0,
+ "speed": 0,
+ "course": 0,
+ "battery": 0,
+ "fuel": 0,
+ "fuel2": 0,
+ "temperature": 0,
+ "temperature2": 0,
+ "sensorTime1": 0,
+ "sensorTime2": 0,
+ "sensorTime3": 0,
+ "sensorTime4": 0,
+ "inactiveSeconds": 0,
+ "rpm": 0,
+ "milleage": 0,
+ "warningTexts": [
+ "string"
+ ],
+ "alertTexts": [
+ "string"
+ ],
+ "alerts": [
+ "string"
+ ],
+ "warnings": [
+ "string"
+ ],
+ "hasCriticalAlert": true,
+ "attributes": {
+ "additionalProp1": "string",
+ "additionalProp2": "string",
+ "additionalProp3": "string"
+ },
+ "accessoriesAttributes": [
+ {
+ "additionalProp1": "string",
+ "additionalProp2": "string",
+ "additionalProp3": "string"
+ }
+ ],
+ "inputs": [
+ true
+ ],
+ "outputs": [
+ true
+ ]
+ }
 }
 ```
-
 
 ### Example Error Response
 
@@ -140,24 +138,22 @@ Within the `lastLocation` field, the object has the following fields:
 
 ```
 {
-  "success": false,
-  "error": "Bad Request",
-  "apiUsage": 150,
-  "apiDailyUsage": 3000
+ "success": false,
+ "error": "Bad Request",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
-
 
 #### Error 500 \(Internal Server Error\) Response
 
 ```
 {
-  "success": false,
-  "error": "Internal Server Error",
-  "apiUsage": 150,
-  "apiDailyUsage": 3000
+ "success": false,
+ "error": "Internal Server Error",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
 
-
-This endpoint is essential for tracking the last known location of a device within the Plaspy system. It allows users to obtain detailed and up-to-date information about the last recorded position of a specific device, including custom attributes and accessory data.
+This endpoint is essential for tracking the last known location of a device within the system. It allows users to obtain detailed and up-to-date information about the last recorded position of a specific device, including custom attributes and accessory data.

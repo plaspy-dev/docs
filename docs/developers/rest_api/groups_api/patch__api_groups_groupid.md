@@ -31,23 +31,22 @@ The request body must include a list of patch operations to perform on the group
 
 ```
 [
-  {
-    "op": "replace",
-    "path": "/name",
-    "value": "Updated Name"
-  },
-  {
-    "op": "replace",
-    "path": "/description",
-    "value": "Updated description of the group"
-  }
+ {
+ "op": "replace",
+ "path": "/name",
+ "value": "Updated Name"
+ },
+ {
+ "op": "replace",
+ "path": "/description",
+ "value": "Updated description of the group"
+ }
 ]
 ```
 
-
 ### Authentication Required
 
-[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
 ## Example Request
 
@@ -58,19 +57,18 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 Content-Type: application/json
 
 [
-  {
-    "op": "replace",
-    "path": "/name",
-    "value": "Updated Name"
-  },
-  {
-    "op": "replace",
-    "path": "/description",
-    "value": "Updated description of the group"
-  }
+ {
+ "op": "replace",
+ "path": "/name",
+ "value": "Updated Name"
+ },
+ {
+ "op": "replace",
+ "path": "/description",
+ "value": "Updated description of the group"
+ }
 ]
 ```
-
 
 ## Response Parameters
 
@@ -93,30 +91,28 @@ The response includes details of the updated group.
 
 ```
 {
-  "success": true,
-  "error": null,
-  "apiUsage": 123,
-  "apiDailyUsage": 45,
-  "id": "grp-125",
-  "name": "Updated Name",
-  "description": "Updated description of the group",
-  "devices": ["dev-123", "dev-456"],
-  "creation": "2023-01-01T12:00:00Z",
-  "lastModified": "2023-06-01T12:00:00Z"
+ "success": true,
+ "error": null,
+ "apiUsage": 123,
+ "apiDailyUsage": 45,
+ "id": "grp-125",
+ "name": "Updated Name",
+ "description": "Updated description of the group",
+ "devices": ["dev-123", "dev-456"],
+ "creation": "2023-01-01T12:00:00Z",
+ "lastModified": "2023-06-01T12:00:00Z"
 }
 ```
-
 
 ## Example Error Response
 
 ```
 {
-  "success": false,
-  "error": "Group not found",
-  "apiUsage": 123,
-  "apiDailyUsage": 45
+ "success": false,
+ "error": "Group not found",
+ "apiUsage": 123,
+ "apiDailyUsage": 45
 }
 ```
 
-
-This endpoint is essential for making partial updates to group information in the Plaspy application, allowing specific modifications without needing to send all the group's data.
+This endpoint is essential for making partial updates to group information in the application, allowing specific modifications without needing to send all the group's data.

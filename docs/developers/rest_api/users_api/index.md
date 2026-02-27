@@ -3,15 +3,15 @@ sidebar_label: Users API
 sidebar_position: 7
 ---
 # Users API
-This documentation provides a comprehensive guide on using the Users API of the Plaspy satellite tracking system. This API is designed to facilitate the management and administration of registered users in the system, offering administrators the ability to interact with user data through HTTP requests. The documentation is structured into various endpoints, each aimed at a specific functionality, enabling a clear and detailed understanding of the system's capabilities.
+This documentation provides a comprehensive guide on using the Users API of the satellite tracking system. This API is designed to facilitate the management and administration of registered users in the system, offering administrators the ability to interact with user data through HTTP requests. The documentation is structured into various endpoints, each aimed at a specific functionality, enabling a clear and detailed understanding of the system's capabilities.
 
 ### Importance of the Users API
 
-In the realm of system administration, efficient user management is essential to ensure proper control and maintain security. The Plaspy Users API allows administrators to access detailed information about users, create new users, update the details of existing users, and delete those who are no longer needed. These capabilities are fundamental for applications in sectors such as logistics, security, fleet management, and others where managing user data is crucial for efficient operations.
+In the realm of system administration, efficient user management is essential to ensure proper control and maintain security. The users API allows administrators to access detailed information about users, create new users, update the details of existing users, and delete those who are no longer needed. These capabilities are fundamental for applications in sectors such as logistics, security, fleet management, and others where managing user data is crucial for efficient operations.
 
 ### Overview of the Endpoints
 
-The Plaspy Users API includes several endpoints that cover a wide range of functionalities:
+The users API includes several endpoints that cover a wide range of functionalities:
 
 1. **[GET /api/users](get__api_users)**: Allows retrieving a list of all registered users in the system. This endpoint is useful for viewing and managing user information, including details such as name, email, country, and other important attributes.
 2. **[POST /api/users](post__api_users)**: Allows creating a new user in the system. This endpoint is essential for adding new users, specifying various attributes such as name, email, country, and time zone.
@@ -37,4 +37,4 @@ To facilitate the implementation and use of the API, the documentation includes 
 
 ### Conclusion
 
-The Plaspy Users API is a powerful tool for managing and administering registered users in the system. This documentation is designed to provide administrators with all the necessary information to integrate and efficiently use the API in their systems. With a clear structure and detailed examples, this guide facilitates access to the various functionalities offered by the API, ensuring successful implementation and precise management of users.
+The users API is a powerful tool for managing and administering registered users in the system. This documentation is designed to provide administrators with all the necessary information to integrate and efficiently use the API in their systems. With a clear structure and detailed examples, this guide facilitates access to the various functionalities offered by the API, ensuring successful implementation and precise management of users.

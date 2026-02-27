@@ -3,9 +3,9 @@ sidebar_label: Autenticación
 sidebar_position: 4
 ---
 # Autenticación
-Para interactuar con la API REST de Plaspy, es necesario autenticarse utilizando un esquema de autenticación OAuth. El proceso de autenticación asegura que solo los usuarios autorizados puedan acceder a los recursos de la API. En este documento se explica cómo generar un token de autenticación \(JWT\) y cómo utilizarlo para realizar solicitudes a otros endpoints de la API.
+Para interactuar con la API REST, es necesario autenticarse utilizando un esquema de autenticación OAuth. El proceso de autenticación asegura que solo los usuarios autorizados puedan acceder a los recursos de la API. En este documento se explica cómo generar un token de autenticación \(JWT\) y cómo utilizarlo para realizar solicitudes a otros endpoints de la API.
 
-La autenticación es un paso crucial para asegurar que solo los usuarios autorizados puedan acceder a la API REST de Plaspy. Siguiendo los pasos mencionados, puedes generar un token de autenticación y utilizarlo para interactuar con los diferentes endpoints de la API de manera segura y eficiente. Para más detalles sobre otras operaciones, consulta la [documentación completa de la API REST de Plaspy](https://app.plaspy.com/rest-api-docs).
+La autenticación es un paso crucial para asegurar que solo los usuarios autorizados puedan acceder a la API REST. Siguiendo los pasos mencionados, puedes generar un token de autenticación y utilizarlo para interactuar con los diferentes endpoints de la API de manera segura y eficiente. Para más detalles sobre otras operaciones, consulta la [documentación completa de la API REST ](https://app.plaspy.com/rest-api-docs).
 
 ## Endpoint de Autenticación
 
@@ -24,18 +24,17 @@ El token de autenticación se obtiene mediante una solicitud POST al endpoint `/
 
 | Parámetro | Tipo | Requerido | Descripción |
 | --- | --- | --- | --- |
-| userName | String | Sí | Tu nombre de usuario en Plaspy. |
-| apiKey | String | Sí | Tu clave de API proporcionada por Plaspy. |
+| userName | String | Sí | Tu nombre de usuario. |
+| apiKey | String | Sí | Tu clave de API proporcionada por. |
 
 ### Cuerpo de la Solicitud
 
 ```
 {
-  "userName": "tu_nombre_de_usuario",
-  "apiKey": "tu_api_key"
+ "userName": "tu_nombre_de_usuario",
+ "apiKey": "tu_api_key"
 }
 ```
-
 
 ### Ejemplo de Solicitud
 
@@ -44,11 +43,10 @@ POST /api/Auth/Token HTTP/1.1
 Host: api.plaspy.com
 Content-Type: application/json
 {
-  "userName": "tu_nombre_de_usuario",
-  "apiKey": "tu_api_key"
+ "userName": "tu_nombre_de_usuario",
+ "apiKey": "tu_api_key"
 }
 ```
-
 
 ### Parámetros de Respuesta
 
@@ -63,22 +61,20 @@ Content-Type: application/json
 
 ```
 {
-  "success": true,
-  "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...",
-  "expires": "2025-12-31T23:59:59Z"
+ "success": true,
+ "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...",
+ "expires": "2025-12-31T23:59:59Z"
 }
 ```
-
 
 ### Ejemplo de Respuesta de Error
 
 ```
 {
-  "success": false,
-  "error": "Invalid API key or username."
+ "success": false,
+ "error": "Invalid API key or username."
 }
 ```
-
 
 ## Usar el Token de Autenticación
 
@@ -92,7 +88,6 @@ Host: api.plaspy.com
 Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 ```
 
-
 ## Manejo de Errores
 
 Si la solicitud para obtener el token de autenticación falla, la respuesta incluirá un mensaje de error explicando la causa del fallo.
@@ -101,11 +96,10 @@ Si la solicitud para obtener el token de autenticación falla, la respuesta incl
 
 ```
 {
-  "success": false,
-  "error": "Invalid API key or username."
+ "success": false,
+ "error": "Invalid API key or username."
 }
 ```
-
 
 - **success:** Indica que la solicitud falló \(`false`\).
 - **error:** Mensaje que explica la causa del error.
