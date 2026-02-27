@@ -3,9 +3,9 @@ sidebar_label: Reports
 sidebar_position: 3
 ---
 # Reports
-The [reports](https://app.plaspy.com/Reports) section in Plaspy provides users with the ability to generate detailed reports based on the data collected by their satellite tracking devices. This functionality is essential for monitoring the activity, location, and performance of vehicles and other assets. Reports can be customized to meet the specific needs of users, enabling efficient management and informed decision-making.
+The [reports](https://app.plaspy.com/Reports) section provides users with the ability to generate detailed reports based on the data collected by their satellite tracking devices. This functionality is essential for monitoring the activity, location, and performance of vehicles and other assets. Reports can be customized to meet the specific needs of users, enabling efficient management and informed decision-making.
 
-To access the reports section, log into Plaspy, navigate to the main menu, and select the "[*fa-tasks* Reports](https://app.plaspy.com/Reports)" option. Once there, you can configure your query parameters and apply various filters to obtain the specific information you need.
+To access the reports section, log into, navigate to the main menu, and select the "[*fa-tasks* Reports](https://app.plaspy.com/Reports)" option. Once there, you can configure your query parameters and apply various filters to obtain the specific information you need.
 
 ![](./image_1718310874918.gif)
 
@@ -19,7 +19,7 @@ To access the reports section, log into Plaspy, navigate to the main menu, and s
 
 ### Step-by-Step Instructions
 
-1. **Access the Reports section**: Log into Plaspy and select "*fa-tasks* Reports" from the main menu.
+1. **Access the Reports section**: Log into and select "*fa-tasks* Reports" from the main menu.
 2. **Select the type of report**: In the "Query" field, choose the type of report you want to generate, such as "Map Detail", "Detailed Report", etc.
 3. **Define the date range**: Use the "Date" field to select the date range of interest. You can do this directly from the date picker or choose a predefined range.
 4. **Choose the device group**: If you have devices organized into groups, select the appropriate group in the "Group" field. Otherwise, leave the option at "\(All\)."
@@ -43,9 +43,9 @@ The filters section is crucial for obtaining specific and relevant data in repor
 
 ### Frequently Asked Questions
 
-- **What types of reports can I generate in Plaspy?**
-    - In Plaspy, you can generate various types of reports, including "Map Detail," "Activity Report," "Detailed Report," and "Activity Summary." Each type of report provides different perspectives and details based on the user's needs.
+- **What types of reports can I generate ?**
+ -, you can generate various types of reports, including "Map Detail," "Activity Report," "Detailed Report," and "Activity Summary." Each type of report provides different perspectives and details based on the user's needs.
 - **How can I filter data in the reports?**
-    - You can add additional filters in the filters section when generating a report. These filters allow you to specify criteria such as speed ranges, battery levels, geographical zones, and more to refine the report results.
+ - You can add additional filters in the filters section when generating a report. These filters allow you to specify criteria such as speed ranges, battery levels, geographical zones, and more to refine the report results.
 - **Can I download reports in Excel format?**
-    - Yes, after generating a report, you can download it in Microsoft Excel format using the "Download" button available in the reports section. This makes it easier to manipulate and further analyze the data in spreadsheet programs.
+ - Yes, after generating a report, you can download it in Microsoft Excel format using the "Download" button available in the reports section. This makes it easier to manipulate and further analyze the data in spreadsheet programs.

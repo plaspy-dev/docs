@@ -3,7 +3,7 @@ sidebar_label: My Account
 sidebar_position: 4
 ---
 # My Account
-In the "[My Account](https://app.plaspy.com/Account)" section of Plaspy, you can manage all relevant information about your profile and personal settings. This section is designed to offer you easy and quick access to your data, allowing you to update and manage your account efficiently.
+In the "[My Account](https://app.plaspy.com/Account)" section, you can manage all relevant information about your profile and personal settings. This section is designed to offer you easy and quick access to your data, allowing you to update and manage your account efficiently.
 
 ![](./image_1718311046489.gif)
 
@@ -14,16 +14,16 @@ In the "[My Account](https://app.plaspy.com/Account)" section of Plaspy, you can
 - **Time Zone:** Displays the time zone selected at registration. If you want to modify it, click the pencil icon, select the new time zone, and save the changes.
 - **Measurement System:** Allows you to choose between different measurement systems to customize how data is displayed on the platform. The available measurement systems are:
 
-    1. **International System of Units \(SI\):** Uses meters, liters, and kilograms as basic units for measuring distance, volume, and weight, respectively. Kilometers for distance, liters for fuel volume, and kilograms for weight. For example, a 100-kilometer trip, a 50-liter fuel tank.
-    2. **US Customary Units:** Uses feet, gallons, and pounds as basic units for measuring distance, volume, and weight, respectively. Miles for distance, gallons for fuel volume, and pounds for weight. For example, a 62-mile trip, a 13.2-gallon fuel tank.
-    3. **Metric System with Gallons:** Combines the use of the metric system for distance and weight with the US gallon for measuring fuel volume. Kilometers for distance, gallons for fuel volume, and kilograms for weight. For example, a 100-kilometer trip, a 13.2-gallon fuel tank.
+ 1. **International System of Units \(SI\):** Uses meters, liters, and kilograms as basic units for measuring distance, volume, and weight, respectively. Kilometers for distance, liters for fuel volume, and kilograms for weight. For example, a 100-kilometer trip, a 50-liter fuel tank.
+ 2. **US Customary Units:** Uses feet, gallons, and pounds as basic units for measuring distance, volume, and weight, respectively. Miles for distance, gallons for fuel volume, and pounds for weight. For example, a 62-mile trip, a 13.2-gallon fuel tank.
+ 3. **Metric System with Gallons:** Combines the use of the metric system for distance and weight with the US gallon for measuring fuel volume. Kilometers for distance, gallons for fuel volume, and kilograms for weight. For example, a 100-kilometer trip, a 13.2-gallon fuel tank.
 
 - **Language:** Indicates the language of the platform. You can change the language by clicking the pencil icon, selecting the new language, and saving the changes.
 - ***fa-exclamation-triangle* I want to delete my account:** This option allows you to **permanently delete** your account. Before doing so, please make sure to cancel any active subscriptions to avoid future charges.
 
 ### *fa-user* Account Information
 
-- **[Username](primary_email):** This is the email address you registered with on Plaspy and where you receive all notifications. You can change it from this section.
+- **[Username](primary_email):** This is the email address you registered with on and where you receive all notifications. You can change it from this section.
 - **[Mobile Phone](update_mobile_phone_number):** Displays the phone number associated with your account. To update it, click the pencil icon and follow the instructions to save the changes.
 - **[Password](password_change):** Here you can change your current password. You only need to select the pencil icon and follow the instructions to set a new secure password.
 - **[Alternative Email](alternative_email):** Indicates an alternative email for account recovery. You can update it from this section.

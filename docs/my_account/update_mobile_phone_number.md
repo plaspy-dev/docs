@@ -3,7 +3,7 @@ sidebar_label: Update Mobile Phone Number
 sidebar_position: 28
 ---
 # Update Mobile Phone Number
-The "[Update Mobile Phone Number](https://app.plaspy.com/UserSecurity/Phone?from=/Account)" feature in Plaspy allows users to update their recovery phone number. This feature is crucial for account security as the phone number can be used in case the account is locked or if suspicious activity is detected. Below are the steps and considerations for updating the mobile phone number on the platform.
+The "[Update Mobile Phone Number](https://app.plaspy.com/UserSecurity/Phone?from=/Account)" feature allows users to update their recovery phone number. This feature is crucial for account security as the phone number can be used in case the account is locked or if suspicious activity is detected. Below are the steps and considerations for updating the mobile phone number on the platform.
 
 ![](./image_1718311385803.gif)
 
@@ -11,7 +11,7 @@ The "[Update Mobile Phone Number](https://app.plaspy.com/UserSecurity/Phone?from
 
 To access the option to update your mobile phone number:
 
-1. Log in to your Plaspy account.
+1. Log in to your account.
 2. In the top right corner, click on your username and select **'*fa-user* My Account'**.
 3. Select "[Update Mobile Phone Number](https://app.plaspy.com/UserSecurity/Phone?from=/Account)."
 
@@ -34,12 +34,12 @@ To access the option to update your mobile phone number:
 ### Frequently Asked Questions
 
 - **Why do I need a recovery phone number?**
-    - The recovery phone number is necessary to secure your account and allow recovery in case you forget your password or if Plaspy detects suspicious activity.
+ - The recovery phone number is necessary to secure your account and allow recovery in case you forget your password or if detects suspicious activity.
 - **Can I use any phone number?**
-    - You can use any phone number that meets the international format and is accessible to you in case of emergencies related to your account.
+ - You can use any phone number that meets the international format and is accessible to you in case of emergencies related to your account.
 - **What if I do not have a phone number in international format?**
-    - It is necessary for the number to be in international format. If you do not have one, consider acquiring a number that can be used for this purpose.
+ - It is necessary for the number to be in international format. If you do not have one, consider acquiring a number that can be used for this purpose.
 - **How do I know if my number was updated correctly?**
-    - After entering and confirming the number, you will receive a notification on the platform indicating that the changes have been successfully saved.
+ - After entering and confirming the number, you will receive a notification on the platform indicating that the changes have been successfully saved.
 
 This functionality ensures that your account is protected and that you can always recover access in case of security issues. Make sure to keep your recovery number updated and correctly entered in the required format.

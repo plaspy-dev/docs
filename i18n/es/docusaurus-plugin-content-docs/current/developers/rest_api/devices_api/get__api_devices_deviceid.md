@@ -18,7 +18,7 @@ Este endpoint requiere el parámetro `deviceId` que debe incluirse en la ruta de
 
 ### Autenticación Requerida
 
-La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
@@ -55,20 +55,20 @@ Dentro del campo `device`, el objeto tiene los siguientes campos:
 
 ```
 {
-  "success": true,
-  "apiUsage": 150,
-  "apiDailyUsage": 3000,
-  "device": {
-    "id": "device123",
-    "name": "Device 1",
-    "description": "Main tracking device",
-    "min": "12345",
-    "tags": {
-      "tag1": "value1",
-      "tag2": "value2"
-    },
-    "expires": "2024-12-31T23:59:59Z"
-  }
+ "success": true,
+ "apiUsage": 150,
+ "apiDailyUsage": 3000,
+ "device": {
+ "id": "device123",
+ "name": "Device 1",
+ "description": "Main tracking device",
+ "min": "12345",
+ "tags": {
+ "tag1": "value1",
+ "tag2": "value2"
+ },
+ "expires": "2024-12-31T23:59:59Z"
+ }
 }
 ```
 
@@ -78,10 +78,10 @@ Dentro del campo `device`, el objeto tiene los siguientes campos:
 
 ```
 {
-  "success": false,
-  "error": "Bad Request",
-  "apiUsage": 150,
-  "apiDailyUsage": 3000
+ "success": false,
+ "error": "Bad Request",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
 
@@ -89,11 +89,11 @@ Dentro del campo `device`, el objeto tiene los siguientes campos:
 
 ```
 {
-  "success": false,
-  "error": "Internal Server Error",
-  "apiUsage": 150,
-  "apiDailyUsage": 3000
+ "success": false,
+ "error": "Internal Server Error",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
 
-Este endpoint es esencial para gestionar dispositivos individuales dentro del sistema Plaspy. Permite a los usuarios obtener información detallada y actualizada sobre un dispositivo específico mediante su identificador único.
+Este endpoint es esencial para gestionar dispositivos individuales dentro del sistema. Permite a los usuarios obtener información detallada y actualizada sobre un dispositivo específico mediante su identificador único.

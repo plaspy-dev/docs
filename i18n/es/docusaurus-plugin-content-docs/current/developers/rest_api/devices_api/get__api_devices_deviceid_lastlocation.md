@@ -18,7 +18,7 @@ Este endpoint requiere el parámetro `deviceId` que debe incluirse en la ruta de
 
 ### Autenticación Requerida
 
-La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
@@ -75,59 +75,59 @@ Dentro del campo `lastLocation`, el objeto tiene los siguientes campos:
 
 ```
 {
-  "success": true,
-  "apiUsage": 150,
-  "apiDailyUsage": 3000,
-  "lastLocation": {
-    "dateTime": "2024-06-02T08:48:25.009Z",
-    "latitude": 0,
-    "longitude": 0,
-    "speed": 0,
-    "course": 0,
-    "battery": 0,
-    "fuel": 0,
-    "fuel2": 0,
-    "temperature": 0,
-    "temperature2": 0,
-    "sensorTime1": 0,
-    "sensorTime2": 0,
-    "sensorTime3": 0,
-    "sensorTime4": 0,
-    "inactiveSeconds": 0,
-    "rpm": 0,
-    "milleage": 0,
-    "warningTexts": [
-      "string"
-    ],
-    "alertTexts": [
-      "string"
-    ],
-    "alerts": [
-      "string"
-    ],
-    "warnings": [
-      "string"
-    ],
-    "hasCriticalAlert": true,
-    "attributes": {
-      "additionalProp1": "string",
-      "additionalProp2": "string",
-      "additionalProp3": "string"
-    },
-    "accessoriesAttributes": [
-      {
-        "additionalProp1": "string",
-        "additionalProp2": "string",
-        "additionalProp3": "string"
-      }
-    ],
-    "inputs": [
-      true
-    ],
-    "outputs": [
-      true
-    ]
-  }
+ "success": true,
+ "apiUsage": 150,
+ "apiDailyUsage": 3000,
+ "lastLocation": {
+ "dateTime": "2024-06-02T08:48:25.009Z",
+ "latitude": 0,
+ "longitude": 0,
+ "speed": 0,
+ "course": 0,
+ "battery": 0,
+ "fuel": 0,
+ "fuel2": 0,
+ "temperature": 0,
+ "temperature2": 0,
+ "sensorTime1": 0,
+ "sensorTime2": 0,
+ "sensorTime3": 0,
+ "sensorTime4": 0,
+ "inactiveSeconds": 0,
+ "rpm": 0,
+ "milleage": 0,
+ "warningTexts": [
+ "string"
+ ],
+ "alertTexts": [
+ "string"
+ ],
+ "alerts": [
+ "string"
+ ],
+ "warnings": [
+ "string"
+ ],
+ "hasCriticalAlert": true,
+ "attributes": {
+ "additionalProp1": "string",
+ "additionalProp2": "string",
+ "additionalProp3": "string"
+ },
+ "accessoriesAttributes": [
+ {
+ "additionalProp1": "string",
+ "additionalProp2": "string",
+ "additionalProp3": "string"
+ }
+ ],
+ "inputs": [
+ true
+ ],
+ "outputs": [
+ true
+ ]
+ }
 }
 ```
 
@@ -137,10 +137,10 @@ Dentro del campo `lastLocation`, el objeto tiene los siguientes campos:
 
 ```
 {
-  "success": false,
-  "error": "Bad Request",
-  "apiUsage": 150,
-  "apiDailyUsage": 3000
+ "success": false,
+ "error": "Bad Request",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
 
@@ -148,11 +148,11 @@ Dentro del campo `lastLocation`, el objeto tiene los siguientes campos:
 
 ```
 {
-  "success": false,
-  "error": "Internal Server Error",
-  "apiUsage": 150,
-  "apiDailyUsage": 3000
+ "success": false,
+ "error": "Internal Server Error",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
 
-Este endpoint es esencial para rastrear la última ubicación conocida de un dispositivo dentro del sistema Plaspy. Permite a los usuarios obtener información detallada y actualizada sobre la última posición registrada de un dispositivo específico, incluyendo atributos personalizados y datos de accesorios.
+Este endpoint es esencial para rastrear la última ubicación conocida de un dispositivo dentro del sistema. Permite a los usuarios obtener información detallada y actualizada sobre la última posición registrada de un dispositivo específico, incluyendo atributos personalizados y datos de accesorios.

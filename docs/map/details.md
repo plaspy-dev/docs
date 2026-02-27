@@ -3,7 +3,7 @@ sidebar_label: Details
 sidebar_position: 4
 ---
 # Details
-The [map](https://app.plaspy.com/Map) details section in Plaspy provides a comprehensive and detailed view of the information of tracked devices. This functionality is essential for users who need to monitor and analyze specific data of their devices in real time. The interface is designed to display critical information, such as speed, battery level, mileage, and other relevant data, in an easy-to-understand tabular format. Below, the main components and functionalities of this section are detailed.
+The [map](https://app.plaspy.com/Map) details section provides a comprehensive and detailed view of the information of tracked devices. This functionality is essential for users who need to monitor and analyze specific data of their devices in real time. The interface is designed to display critical information, such as speed, battery level, mileage, and other relevant data, in an easy-to-understand tabular format. Below, the main components and functionalities of this section are detailed.
 
 ![](./mapa-4-animated.webp "mapa-4-animated.webp")
 
@@ -58,10 +58,10 @@ This functionality is particularly useful for fleet management and monitoring mo
 ## Frequently Asked Questions
 
 - **How can I tell if a device is offline?**
-    - The alarms column can indicate if a device is offline. Additionally, you can use the filter field to specifically search for offline devices.
+ - The alarms column can indicate if a device is offline. Additionally, you can use the filter field to specifically search for offline devices.
 - **What should I do if a device shows incorrect data?**
-    - Check the date of the last update to ensure that the data is recent. If the problem persists, consider physically checking the device or contacting technical support.
+ - Check the date of the last update to ensure that the data is recent. If the problem persists, consider physically checking the device or contacting technical support.
 - **Can I export the data from the table?**
-    - Yes, the details section allows data export for further analysis. Check the export options in the interface menu for more details.
+ - Yes, the details section allows data export for further analysis. Check the export options in the interface menu for more details.
 
 This map details section is a powerful tool for efficient monitoring and management of tracked devices, providing critical and real-time information to support informed decision-making and maintain smooth operations.

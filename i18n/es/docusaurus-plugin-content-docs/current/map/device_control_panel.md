@@ -3,9 +3,9 @@ sidebar_label: Panel de Control de Dispositivos
 sidebar_position: 1
 ---
 # Panel de Control de Dispositivos
-El panel izquierdo del [mapa](https://app.plaspy.com/Map) en Plaspy es una herramienta esencial para la gestión y visualización de los dispositivos rastreados. Este panel proporciona a los usuarios diversas opciones para buscar, filtrar y seleccionar dispositivos, así como para configurar distintos ajustes relacionados con sus necesidades de monitoreo. El diseño del panel permite una navegación fácil y una gestión eficiente de múltiples dispositivos, asegurando que los usuarios puedan acceder rápidamente a la información que necesitan. A continuación, se detalla la funcionalidad disponible en esta sección.
+El panel izquierdo del [mapa](https://app.plaspy.com/Map) es una herramienta esencial para la gestión y visualización de los dispositivos rastreados. Este panel proporciona a los usuarios diversas opciones para buscar, filtrar y seleccionar dispositivos, así como para configurar distintos ajustes relacionados con sus necesidades de monitoreo. El diseño del panel permite una navegación fácil y una gestión eficiente de múltiples dispositivos, asegurando que los usuarios puedan acceder rápidamente a la información que necesitan. A continuación, se detalla la funcionalidad disponible en esta sección.
 
-![](./Mapa - Plaspy (3)-animated.webp "Mapa - Plaspy (3)-animated.webp")
+![](./Mapa - (3)-animated.webp "Mapa - (3)-animated.webp")
 
 ## Descripción General
 
@@ -60,10 +60,10 @@ En la parte inferior del panel, se encuentran las opciones para guardar configur
 ## Preguntas Frecuentes
 
 - **¿Cómo puedo encontrar rápidamente un dispositivo específico?**
-    - Utiliza la barra de búsqueda en la parte superior del panel para introducir el nombre o palabra clave del dispositivo. La lista se filtrará automáticamente para mostrar solo los dispositivos que coincidan.
+ - Utiliza la barra de búsqueda en la parte superior del panel para introducir el nombre o palabra clave del dispositivo. La lista se filtrará automáticamente para mostrar solo los dispositivos que coincidan.
 - **¿Qué hago si necesito actualizar la información de los dispositivos?**
-    - Haz clic en el botón "Actualizar" en la parte inferior del panel para refrescar los datos mostrados y asegurar que la información sea la más reciente.
+ - Haz clic en el botón "Actualizar" en la parte inferior del panel para refrescar los datos mostrados y asegurar que la información sea la más reciente.
 - **¿Puedo exportar la lista de dispositivos y sus datos?**
-    - Sí, puedes exportar la información en formatos como Excel o KML para Google Earth. Usa la opción "Guardar" en la parte inferior del panel para seleccionar el formato deseado y seguir las instrucciones de exportación.
+ - Sí, puedes exportar la información en formatos como Excel o KML para Google Earth. Usa la opción "Guardar" en la parte inferior del panel para seleccionar el formato deseado y seguir las instrucciones de exportación.
 
-El panel izquierdo del mapa en Plaspy es una herramienta poderosa para la gestión eficiente y el monitoreo detallado de dispositivos, proporcionando a los usuarios una interfaz intuitiva y rica en funcionalidades para mantener operaciones fluidas y seguras.
+El panel izquierdo del mapa es una herramienta poderosa para la gestión eficiente y el monitoreo detallado de dispositivos, proporcionando a los usuarios una interfaz intuitiva y rica en funcionalidades para mantener operaciones fluidas y seguras.

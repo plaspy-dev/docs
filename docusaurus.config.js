@@ -133,7 +133,7 @@ const config = {
             items: [
               {
                 label: 'Help Center',
-                to: '/docs/welcome_to_plaspy_help',
+                to: '/docs/welcome_to_help',
               },
               {
                 label: 'Contact support',

@@ -3,13 +3,13 @@ sidebar_label: Free Version
 sidebar_position: 40
 ---
 # Free Version
-The [free version](https://app.plaspy.com/SignUp) of Plaspy offers an excellent opportunity for users who want to start using satellite tracking services at no cost. This version provides access to Plaspy's basic functionalities, allowing users to enjoy many of the platform's advantages. Below are the features and limitations of the free version compared to the paid version.
+The [free version](https://app.plaspy.com/SignUp) offers an excellent opportunity for users who want to start using satellite tracking services at no cost. This version provides access to 's basic functionalities, allowing users to enjoy many of the platform's advantages. Below are the features and limitations of the free version compared to the paid version.
 
 #### Features of the Free Version
 
 **Mobile App Access Only**
 
-- The free version of Plaspy is designed to be used exclusively through the mobile app. This allows users to monitor and manage their devices conveniently while on the go.
+- The free version is designed to be used exclusively through the mobile app. This allows users to monitor and manage their devices conveniently while on the go.
 
 **Push Notifications**
 
@@ -25,7 +25,7 @@ The [free version](https://app.plaspy.com/SignUp) of Plaspy offers an excellent 
 
 ### Limitations of the Free Version
 
-While the free version of Plaspy offers many useful features, there are some limitations compared to the paid version. Below are these limitations:
+While the free version offers many useful features, there are some limitations compared to the paid version. Below are these limitations:
 
 - **No Desktop Version**: The free version can only be used through the mobile app and is not available for desktop use.
 - **No Email Alerts**: Alerts are received only via push notifications and not via email.
@@ -43,4 +43,4 @@ While the free version of Plaspy offers many useful features, there are some lim
 - **Limited Number of Devices**: The number of devices on the account is limited.
 - **5-Day History**: The tracking history is limited to up to 5 days old.
 
-The free version of Plaspy is ideal for users seeking a simple and effective introduction to satellite tracking without incurring any costs. It offers essential tools that allow users to manage and monitor their devices through the mobile app. Although it has certain limitations, it provides a robust and functional experience that can meet basic tracking needs. For those who require more advanced features, Plaspy offers a paid version with additional capabilities and extended support.
+The free version is ideal for users seeking a simple and effective introduction to satellite tracking without incurring any costs. It offers essential tools that allow users to manage and monitor their devices through the mobile app. Although it has certain limitations, it provides a robust and functional experience that can meet basic tracking needs. For those who require more advanced features, offers a paid version with additional capabilities and extended support.

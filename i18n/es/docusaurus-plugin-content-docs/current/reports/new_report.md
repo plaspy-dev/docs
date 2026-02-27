@@ -3,7 +3,7 @@ sidebar_label: Nuevo Reporte
 sidebar_position: 24
 ---
 # Nuevo Reporte
-La creación de un nuevo [reporte](https://app.plaspy.com/Reports) en Plaspy permite a los usuarios personalizar la manera en que visualizan y analizan los datos de seguimiento de sus dispositivos. Esta funcionalidad es esencial para adaptar los informes a necesidades específicas, proporcionando una flexibilidad considerable en la gestión de datos. Los usuarios pueden crear un reporte nuevo desde cero, duplicar uno existente para usarlo como base, o editar un reporte actual.
+La creación de un nuevo [reporte](https://app.plaspy.com/Reports) permite a los usuarios personalizar la manera en que visualizan y analizan los datos de seguimiento de sus dispositivos. Esta funcionalidad es esencial para adaptar los informes a necesidades específicas, proporcionando una flexibilidad considerable en la gestión de datos. Los usuarios pueden crear un reporte nuevo desde cero, duplicar uno existente para usarlo como base, o editar un reporte actual.
 
 ![](./image_1718290623669.gif)
 
@@ -18,7 +18,7 @@ Al crear un nuevo reporte, existen dos tipos principales de reportes que se pued
 
 Para crear un nuevo reporte, siga estos pasos:
 
-1. **Acceder a la Sección de Reportes**: Entre a su cuenta de Plaspy, en el menú de la parte superior derecha, haga clic en el ícono de \(*fa-globe*\) y busque la opción de “*fa-tasks* **Reportes”**.
+1. **Acceder a la Sección de Reportes**: Entre a su cuenta, en el menú de la parte superior derecha, haga clic en el ícono de \(*fa-globe*\) y busque la opción de “*fa-tasks* **Reportes”**.
 2. **Seleccionar 'Nuevo Reporte'**: En el campo de consulta, seleccione "\(Nueva consulta\)" y haga click en "*fa-plus*" para comenzar desde cero. Si prefiere duplicar un reporte existente, seleccione el reporte y haga clic en el botón de copiar.
 3. **Nombrar el Reporte**: Ingrese un nombre descriptivo para el nuevo reporte en el campo "Nombre del reporte".
 4. **Seleccionar Tipo de Reporte**: Elija entre "Estándar" y "Resumen de Actividades" según el tipo de análisis que necesita.

@@ -3,13 +3,13 @@ sidebar_label: Limits
 sidebar_position: 19
 ---
 # Limits
-The Limits section in Plaspy allows users to set daily restrictions for [sending emails](email_alerts_sending_limits) and [SMS messages](../sms) from their tracking [devices](https://app.plaspy.com/Devices). This functionality is essential for managing resource usage and preventing excessive communications, which can be useful for controlling costs and ensuring compliance with usage policies.
+The Limits section allows users to set daily restrictions for [sending emails](email_alerts_sending_limits) and [SMS messages](../sms) from their tracking [devices](https://app.plaspy.com/Devices). This functionality is essential for managing resource usage and preventing excessive communications, which can be useful for controlling costs and ensuring compliance with usage policies.
 
 ![](./limits-animated.webp "limits-animated.webp")
 
 ## Field Descriptions
 
-- **Expires**: Option to set an expiration date for the configured limits. When activated, you must enter a specific expiration date. When a device expires, it will no longer count as a used license in Plaspy. For example, if you have 10 licenses with 10 devices and one of them expires, one license will become available for a new device. The expired device cannot be reactivated if there are no available licenses.
+- **Expires**: Option to set an expiration date for the configured limits. When activated, you must enter a specific expiration date. When a device expires, it will no longer count as a used license. For example, if you have 10 licenses with 10 devices and one of them expires, one license will become available for a new device. The expired device cannot be reactivated if there are no available licenses.
 - **Daily Email Limit**: The maximum number of emails that can be sent from the device in a day. This limit helps control excessive use of emails.
 - **Daily SMS Limit**: The maximum number of SMS messages that can be sent from the device in a day. This limit is useful for managing SMS usage and controlling associated costs.
 
@@ -46,12 +46,12 @@ The Limits section in Plaspy allows users to set daily restrictions for [sending
 ## Frequently Asked Questions
 
 - **Why is it important to set daily email and SMS limits?**
-    - Setting daily limits helps control excessive communications, reducing costs and ensuring compliance with usage policies.
+ - Setting daily limits helps control excessive communications, reducing costs and ensuring compliance with usage policies.
 - **What happens when the configured daily limit is reached?**
-    - Once the configured daily limit is reached, no more emails or SMS messages can be sent from the device until the next day.
+ - Once the configured daily limit is reached, no more emails or SMS messages can be sent from the device until the next day.
 - **Can I change the daily limits after configuring them?**
-    - Yes, you can adjust the daily limits at any time from the device's Limits section.
+ - Yes, you can adjust the daily limits at any time from the device's Limits section.
 - **Is it mandatory to set an expiration date for the limits?**
-    - No, setting an expiration date is optional. You only need to activate it if you want the configured limits to be temporary.
+ - No, setting an expiration date is optional. You only need to activate it if you want the configured limits to be temporary.
 - **What happens when a device expires?**
-    - When a device expires, it will no longer count as a used license in Plaspy. For example, if you have 10 licenses with 10 devices and one of them expires, one license will become available for a new device. The expired device cannot be reactivated if there are no available licenses.
+ - When a device expires, it will no longer count as a used license. For example, if you have 10 licenses with 10 devices and one of them expires, one license will become available for a new device. The expired device cannot be reactivated if there are no available licenses.

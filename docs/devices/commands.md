@@ -3,7 +3,7 @@ sidebar_label: Commands
 sidebar_position: 16
 ---
 # Commands
-The Commands section in Plaspy allows users to configure the available commands for their tracking [devices](https://app.plaspy.com/Devices). This configuration is essential for preparing the devices for specific actions that can be executed later from the map. Plaspy automatically adds the default commands for the tracker, but users can modify them according to their needs.
+The Commands section allows users to configure the available commands for their tracking [devices](https://app.plaspy.com/Devices). This configuration is essential for preparing the devices for specific actions that can be executed later from the map. automatically adds the default commands for the tracker, but users can modify them according to their needs.
 
 ![](./image_1718310220508.gif)
 
@@ -15,7 +15,7 @@ The Commands section in Plaspy allows users to configure the available commands 
 
 ## Types of Commands
 
-- **SMS Commands**: These commands are sent as SMS text messages to the tracking device. If the user has SMS balance in Plaspy, the commands will be sent from Plaspy. Otherwise, they will be sent from the mobile app using the user's mobile phone plan.
+- **SMS Commands**: These commands are sent as SMS text messages to the tracking device. If the user has SMS balance, the commands will be sent from. Otherwise, they will be sent from the mobile app using the user's mobile phone plan.
 - **GPRS Commands**: These commands are sent via the GPRS data network. They are useful for devices with an internet connection, allowing faster and more efficient communication.
 - **Call Commands**: These commands initiate a phone call to the device. The call will be opened from the phone's default application with the phone number configured in the tracker.
 
@@ -52,7 +52,7 @@ The Commands section in Plaspy allows users to configure the available commands 
 
 1. Select the device from the device list.
 2. In the "*fa-code* Commands" section, delete all configured commands.
-3. Plaspy will automatically re-add the default commands for the tracker.
+3. will automatically re-add the default commands for the tracker.
 4. Click "OK" to confirm the restoration of the default commands.
 
 ### Saving Commands as a Template
@@ -70,17 +70,17 @@ The Commands section in Plaspy allows users to configure the available commands 
 
 ## Frequently Asked Questions
 
-- **What are commands in Plaspy?**
-    - Commands in Plaspy are specific instructions configured to be sent to tracking devices from the map.
+- **What are commands ?**
+ - Commands are specific instructions configured to be sent to tracking devices from the map.
 - **How do I know which commands are available for my device?**
-    - The list of available commands is shown in the "Commands" section of each device. Review this list to see all the actions you can configure.
+ - The list of available commands is shown in the "Commands" section of each device. Review this list to see all the actions you can configure.
 - **What should I do if a command does not work?**
-    - If a command does not work, verify that the command code is correct and that the device is turned on and connected. If the problem persists, contact Plaspy technical support.
+ - If a command does not work, verify that the command code is correct and that the device is turned on and connected. If the problem persists, contact technical support.
 - **Can I add new commands?**
-    - The available commands depend on the capabilities of the tracking device. If you need to add a new command, consult the device documentation or contact Plaspy technical support for assistance.
-- **What types of commands can be configured in Plaspy?**
-    - **SMS**: Text messages sent to the device.
-    - **GPRS**: Commands sent via the data network.
-    - **Calls**: Initiates a phone call to the device.
+ - The available commands depend on the capabilities of the tracking device. If you need to add a new command, consult the device documentation or contact technical support for assistance.
+- **What types of commands can be configured ?**
+ - **SMS**: Text messages sent to the device.
+ - **GPRS**: Commands sent via the data network.
+ - **Calls**: Initiates a phone call to the device.
 - **How are commands sent in plain text or hexadecimal?**
-    - Commands can be configured in plain text, if the tracker supports it, or in hexadecimal format, for example, 0x686F6C61 to send "hola". Both options are supported by Plaspy.
+ - Commands can be configured in plain text, if the tracker supports it, or in hexadecimal format, for example, 0x686F6C61 to send "hola". Both options are supported by.

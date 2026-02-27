@@ -28,12 +28,12 @@ This section allows users to generate the source code for their [personalized mo
 
 ### Basic
 
-The basic application is a hybrid app written in Cordova that allows you to customize it with your logo and corporate colors. With this application, you can log in with your Plaspy credentials and view the location of your tracking devices in real-time on a map. You can also access additional features such as report generation, device management, and statistics viewing. It is ideal for users who need a simple and effective tracking solution.
+The basic application is a hybrid app written in Cordova that allows you to customize it with your logo and corporate colors. With this application, you can log in with your credentials and view the location of your tracking devices in real-time on a map. You can also access additional features such as report generation, device management, and statistics viewing. It is ideal for users who need a simple and effective tracking solution.
 
 **Key Features:**
 
 - Customization with logo and corporate colors.
-- Login with Plaspy credentials.
+- Login credentials.
 - Real-time viewing of tracking device locations.
 - Report and statistics generation.
 
@@ -72,7 +72,7 @@ This application includes all the features of the basic application, but with ad
 
 ## Step-by-Step Instructions
 
-1. **Log into Plaspy:** Log in to Plaspy and go to the main menu in the top right corner in \(*fa-cogs*\).
+1. **Log into :** Log in to and go to the main menu in the top right corner in \(*fa-cogs*\).
 2. **Find "*fa-mobile* Create Mobile App":** Select "[*fa-list* Settings](https://app.plaspy.com/Settings)", click "*fa-television* Advanced Customization", then "*fa-building* Organization" and select "*fa-mobile* Create Mobile App".
 3. **Select the mobile application type:** In the dropdown menu, choose the type of application you want to create. Options include features like maps, push notifications, and phone tracking.
 4. **Enter the application name:** Write the name you want for your application. This will be visible in the app store and within the application itself.
@@ -94,10 +94,10 @@ This application includes all the features of the basic application, but with ad
 ## Frequently Asked Questions
 
 - **What type of application is generated?**
-    - The generated application is a hybrid app written in Cordova. It can include additional functionalities like support for Google Maps and push notifications, depending on the selected application type.
+ - The generated application is a hybrid app written in Cordova. It can include additional functionalities like support for Google Maps and push notifications, depending on the selected application type.
 - **How do I upload my application to app stores?**
-    - You will need knowledge in mobile application development and an account in the corresponding app stores \(Google Play Store and Apple App Store\) to upload your application.
+ - You will need knowledge in mobile application development and an account in the corresponding app stores \(Google Play Store and Apple App Store\) to upload your application.
 - **Can I customize the application with my logo and corporate colors?**
-    - Yes, you can customize the application with your logo and corporate colors by selecting the icon background color and uploading your logo.
+ - Yes, you can customize the application with your logo and corporate colors by selecting the icon background color and uploading your logo.
 - **What happens if I don't have a Google Maps or Firebase API key?**
-    - If the selected application requires Google Maps or Firebase API keys and you don't provide them, you will not be able to generate a functional application with those features. You must obtain the necessary API keys to complete the process.
+ - If the selected application requires Google Maps or Firebase API keys and you don't provide them, you will not be able to generate a functional application with those features. You must obtain the necessary API keys to complete the process.

@@ -3,15 +3,15 @@ sidebar_label: Groups API
 sidebar_position: 6
 ---
 # Groups API
-This documentation provides a comprehensive guide on using the Groups API of the Plaspy satellite tracking system. This API is designed to facilitate the management and administration of tracked device groups, offering users the ability to interact with their group data through HTTP requests. The documentation is structured into various endpoints, each aimed at a specific functionality, enabling a clear and detailed understanding of the system's capabilities.
+This documentation provides a comprehensive guide on using the Groups API of the satellite tracking system. This API is designed to facilitate the management and administration of tracked device groups, offering users the ability to interact with their group data through HTTP requests. The documentation is structured into various endpoints, each aimed at a specific functionality, enabling a clear and detailed understanding of the system's capabilities.
 
 ### Importance of the Groups API
 
-In the realm of satellite tracking, efficiently organizing devices into groups is essential for ensuring precise and orderly monitoring. The Plaspy Groups API allows users to access detailed information about their groups, create new groups, update the details of existing groups, and delete groups that are no longer needed. These capabilities are fundamental for applications in sectors such as logistics, security, fleet management, and others where grouping and organizing devices are crucial for efficient operations.
+In the realm of satellite tracking, efficiently organizing devices into groups is essential for ensuring precise and orderly monitoring. the Groups API allows users to access detailed information about their groups, create new groups, update the details of existing groups, and delete groups that are no longer needed. These capabilities are fundamental for applications in sectors such as logistics, security, fleet management, and others where grouping and organizing devices are crucial for efficient operations.
 
 ### Overview of the Endpoints
 
-The Plaspy Groups API includes several endpoints that cover a wide range of functionalities:
+the Groups API includes several endpoints that cover a wide range of functionalities:
 
 1. **[GET /api/groups](get__api_groups)**: Allows retrieving a list of all available groups in the tracking application. This endpoint is useful for obtaining detailed information about each group, including its name, description, associated devices, and other relevant details.
 2. **[POST /api/groups](post__api_groups)**: Allows creating a new group within the system. This endpoint is essential for organizing devices and managing them efficiently by grouping them into logical units with a name and description.
@@ -35,4 +35,4 @@ To facilitate the implementation and use of the API, the documentation includes 
 
 ### Conclusion
 
-The Plaspy Groups API is a powerful tool for managing and administering tracked devices by organizing them into logical groups. This documentation is designed to provide users with all the necessary information to integrate and efficiently use the API in their systems. With a clear structure and detailed examples, this guide facilitates access to the various functionalities offered by the API, ensuring successful implementation and precise management of device groups.
+the Groups API is a powerful tool for managing and administering tracked devices by organizing them into logical groups. This documentation is designed to provide users with all the necessary information to integrate and efficiently use the API in their systems. With a clear structure and detailed examples, this guide facilitates access to the various functionalities offered by the API, ensuring successful implementation and precise management of device groups.

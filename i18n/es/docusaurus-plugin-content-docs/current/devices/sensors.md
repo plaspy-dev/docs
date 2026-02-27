@@ -3,7 +3,7 @@ sidebar_label: Sensores
 sidebar_position: 15
 ---
 # Sensores
-La sección de Sensores en Plaspy te permite configurar y monitorear diversos sensores asociados a tus [dispositivos](https://app.plaspy.com/Devices) de seguimiento. Esta funcionalidad es crucial para obtener datos detallados y precisos sobre tus activos, como el kilometraje, el consumo de combustible y la capacidad del tanque. Los sensores también pueden incluir entradas y salidas digitales para un control y monitoreo más específicos.
+La sección de Sensores te permite configurar y monitorear diversos sensores asociados a tus [dispositivos](https://app.plaspy.com/Devices) de seguimiento. Esta funcionalidad es crucial para obtener datos detallados y precisos sobre tus activos, como el kilometraje, el consumo de combustible y la capacidad del tanque. Los sensores también pueden incluir entradas y salidas digitales para un control y monitoreo más específicos.
 
 ![](./image_1718279536033.gif)
 
@@ -56,17 +56,17 @@ La sección de Sensores en Plaspy te permite configurar y monitorear diversos se
 2. En la sección "*fa-cog* Sensores", localiza la entrada o salida digital que deseas configurar.
 3. Ingresa el nombre para la entrada o salida digital. Puedes renombrar las entradas y salidas digitales para identificar fácilmente los sensores, por ejemplo, puertas, aire acondicionado, encendido, etc.
 4. Haz clic en "Aceptar" para actualizar la configuración de la entrada o salida digital.
-5. Para restaurar el estado de un sensor, haz clic en el ícono de actualización junto al sensor respectivo. Esto pondrá a cero el tiempo acumulado del sensor y lo desactivará hasta que el rastreador envíe información nuevamente a Plaspy.
+5. Para restaurar el estado de un sensor, haz clic en el ícono de actualización junto al sensor respectivo. Esto pondrá a cero el tiempo acumulado del sensor y lo desactivará hasta que el rastreador envíe información nuevamente a.
 
 ## Preguntas Frecuentes
 
 - **¿Por qué es importante establecer el kilometraje?**
-    - Establecer el kilometraje de manera precisa ayuda a llevar un control del uso del vehículo, programar mantenimientos y calcular el consumo de combustible.
+ - Establecer el kilometraje de manera precisa ayuda a llevar un control del uso del vehículo, programar mantenimientos y calcular el consumo de combustible.
 - **¿Qué debo hacer si cambia el consumo de combustible de mi vehículo?**
-    - Actualiza el campo "Consumo de combustible" con el nuevo valor estimado para asegurar cálculos precisos de consumo de combustible.
+ - Actualiza el campo "Consumo de combustible" con el nuevo valor estimado para asegurar cálculos precisos de consumo de combustible.
 - **¿Cómo afecta la capacidad del tanque los cálculos de combustible?**
-    - La capacidad del tanque se utiliza para calcular los niveles de combustible y el consumo de manera más precisa. Asegúrate de que este valor sea correcto para evitar cálculos erróneos.
+ - La capacidad del tanque se utiliza para calcular los niveles de combustible y el consumo de manera más precisa. Asegúrate de que este valor sea correcto para evitar cálculos erróneos.
 - **¿Para qué se utilizan las entradas y salidas digitales?**
-    - Las entradas y salidas digitales se utilizan para monitorear y controlar funciones específicas del dispositivo, como el estado de encendido o la activación/desactivación de ciertos componentes. Puedes renombrarlas para una identificación más fácil.
+ - Las entradas y salidas digitales se utilizan para monitorear y controlar funciones específicas del dispositivo, como el estado de encendido o la activación/desactivación de ciertos componentes. Puedes renombrarlas para una identificación más fácil.
 - **¿Qué sucede cuando restauro el estado de un sensor?**
-    - Restaurar el estado de un sensor pondrá su tiempo acumulado a cero y desactivará el sensor hasta que el rastreador envíe información nuevamente a Plaspy.
+ - Restaurar el estado de un sensor pondrá su tiempo acumulado a cero y desactivará el sensor hasta que el rastreador envíe información nuevamente a.

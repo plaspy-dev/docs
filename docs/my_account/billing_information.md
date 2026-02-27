@@ -4,7 +4,7 @@ sidebar_position: 24
 sidebar_class_name: show-only-plaspy
 ---
 # Billing Information
-The "[*fa-file-o* Billing Information](https://app.plaspy.com/Checkout/?from=/Account)" section in Plaspy allows users to manage and update the necessary details for billing contracted services. Here, you can register and keep the required information up to date to issue invoices correctly, which is essential to ensure the continuity of services without interruptions.
+The "[*fa-file-o* Billing Information](https://app.plaspy.com/Checkout/?from=/Account)" section allows users to manage and update the necessary details for billing contracted services. Here, you can register and keep the required information up to date to issue invoices correctly, which is essential to ensure the continuity of services without interruptions.
 
 ![](./image_1718311075035.gif)
 
@@ -22,18 +22,18 @@ The "[*fa-file-o* Billing Information](https://app.plaspy.com/Checkout/?from=/Ac
 
 1. **Access the Section:**
 
-    - Log in to your Plaspy account.
-    - In the top right corner, click on your username and select **'*fa-user* My Account'**.
-    - Click on "[*fa-file-o* Billing Information](https://app.plaspy.com/Checkout/?from=/Account)."
+ - Log in to your account.
+ - In the top right corner, click on your username and select **'*fa-user* My Account'**.
+ - Click on "[*fa-file-o* Billing Information](https://app.plaspy.com/Checkout/?from=/Account)."
 2. **Update Information:**
 
-    - In the "[*fa-file-o* Billing Information](https://app.plaspy.com/Checkout/?from=/Account)" form, select your country from the dropdown list.
-    - Enter your first and last name in the corresponding fields.
-    - Provide a valid contact phone number.
-    - Complete the physical billing address.
-    - If applicable, add your organization's name.
-    - Select the type of document and provide the corresponding tax document number.
-    - Review that all information is correct and click "Save" to update the data.
+ - In the "[*fa-file-o* Billing Information](https://app.plaspy.com/Checkout/?from=/Account)" form, select your country from the dropdown list.
+ - Enter your first and last name in the corresponding fields.
+ - Provide a valid contact phone number.
+ - Complete the physical billing address.
+ - If applicable, add your organization's name.
+ - Select the type of document and provide the corresponding tax document number.
+ - Review that all information is correct and click "Save" to update the data.
 
 ### Validations and Restrictions
 
@@ -44,10 +44,10 @@ The "[*fa-file-o* Billing Information](https://app.plaspy.com/Checkout/?from=/Ac
 ### Frequently Asked Questions
 
 - **What happens if I do not update my billing information?**
-    - It is crucial to keep billing information updated to avoid service interruptions and issues with invoice issuance.
+ - It is crucial to keep billing information updated to avoid service interruptions and issues with invoice issuance.
 - **How can I correct an error in my billing information?**
-    - Simply access the "*fa-file-o* Billing Information" section, make the necessary changes, and save the updated information.
+ - Simply access the "*fa-file-o* Billing Information" section, make the necessary changes, and save the updated information.
 - **Is it necessary to provide a physical address?**
-    - Yes, a physical address is necessary for any correspondence related to billing and tax compliance.
+ - Yes, a physical address is necessary for any correspondence related to billing and tax compliance.
 
-This guide ensures that you can keep your billing information accurate and updated, facilitating efficient and trouble-free management of your services in Plaspy.
+This guide ensures that you can keep your billing information accurate and updated, facilitating efficient and trouble-free management of your services.

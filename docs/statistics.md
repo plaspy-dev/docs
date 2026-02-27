@@ -3,7 +3,7 @@ sidebar_label: Statistics
 sidebar_position: 7
 ---
 # Statistics
-The "[*fa-bar-chart* Statistics](https://app.plaspy.com/Statistics)" section in Plaspy allows users to obtain detailed reports on the performance and usage of their devices over time. This tool is crucial for monitoring key aspects such as fuel consumption, mileage, generated alerts, and much more, providing valuable data for efficient fleet and asset management.
+The "[*fa-bar-chart* Statistics](https://app.plaspy.com/Statistics)" section allows users to obtain detailed reports on the performance and usage of their devices over time. This tool is crucial for monitoring key aspects such as fuel consumption, mileage, generated alerts, and much more, providing valuable data for efficient fleet and asset management.
 
 To access the statistics section, go to the top menu and select the statistics icon represented by a graph. This will take you to the page where you can configure and view various types of reports according to your needs.
 
@@ -38,58 +38,58 @@ To access the statistics section, go to the top menu and select the statistics i
 
 ### Interaction through Integrated AI Chat
 
-At Plaspy, we have integrated an innovative feature that allows users to interact with statistics through an online chat powered by artificial intelligence \(AI\). This tool provides an intuitive and efficient way to obtain information and make inquiries about the data of your tracked devices. Below are the capabilities and advantages of this functionality:
+At, we have integrated an innovative feature that allows users to interact with statistics through an online chat powered by artificial intelligence \(AI\). This tool provides an intuitive and efficient way to obtain information and make inquiries about the data of your tracked devices. Below are the capabilities and advantages of this functionality:
 
 #### Features of the Integrated AI Chat
 
 1. **Real-Time Queries:**
 
-    - You can ask direct questions about the current statistics of your devices, such as "How many kilometers did the vehicles travel last week?" or "What was the fuel consumption for the last 30 days?"
-    - The AI will respond immediately with the latest information available in the system.
+ - You can ask direct questions about the current statistics of your devices, such as "How many kilometers did the vehicles travel last week?" or "What was the fuel consumption for the last 30 days?"
+ - The AI will respond immediately with the latest information available in the system.
 2. **Request New Information:**
 
-    - If you need to generate a specific report or analyze a new set of data, simply ask the AI to do it for you. For example, "Generate a report of alerts for the last 7 days" or "Show the speed analysis for vehicle A."
-    - The AI will process your request and provide the desired result.
+ - If you need to generate a specific report or analyze a new set of data, simply ask the AI to do it for you. For example, "Generate a report of alerts for the last 7 days" or "Show the speed analysis for vehicle A."
+ - The AI will process your request and provide the desired result.
 3. **Detailed Data Exploration:**
 
-    - The AI can break down the information contained in the statistics and present specific data according to your needs. You can ask, "How many speed alerts were there yesterday?" or "What was the maximum speed recorded today?"
-    - This facilitates a deep and detailed understanding of the data without needing to manually navigate through multiple sections.
+ - The AI can break down the information contained in the statistics and present specific data according to your needs. You can ask, "How many speed alerts were there yesterday?" or "What was the maximum speed recorded today?"
+ - This facilitates a deep and detailed understanding of the data without needing to manually navigate through multiple sections.
 
 #### Benefits of Using the AI Chat
 
 - Direct interaction with the data through the chat reduces the time it would normally take to search for and analyze information.
 - No advanced technical knowledge is required to use this tool. The AI is designed to understand and respond in natural language, making it easy for all users to use.
-- Being integrated with the Plaspy system, the AI provides real-time updated data, ensuring you always have the most accurate information at your disposal.
+- Being integrated with the system, the AI provides real-time updated data, ensuring you always have the most accurate information at your disposal.
 
 #### Saving Options
 
-Plaspy offers several options for saving generated statistics in Excel format, allowing greater flexibility in data analysis and management. The available options are detailed below:
+ offers several options for saving generated statistics in Excel format, allowing greater flexibility in data analysis and management. The available options are detailed below:
 
 - **Current Statistics:**
 
-    - ***fa-floppy-o* Selected Devices:** Allows you to save the statistics of the current device you are viewing or the devices selected in the filter.
-    - ***fa-cogs* Each Device on a Different Sheet:** Saves the current statistics of the selected devices, each on a separate sheet within the same Excel file.
+ - ***fa-floppy-o* Selected Devices:** Allows you to save the statistics of the current device you are viewing or the devices selected in the filter.
+ - ***fa-cogs* Each Device on a Different Sheet:** Saves the current statistics of the selected devices, each on a separate sheet within the same Excel file.
 - **All Statistics:**
 
-    - ***fa-floppy-o*<sub><i>fa-floppy-o</i></sub> Each Statistic on Different Sheets:** Saves all statistics for the selected devices, with each statistic on a different sheet within the same Excel file.
-    - ***fa-file-excel-o*<sub><i>fa-file-excel-o</i></sub> Each Device in a Different File:** Saves all statistics for the selected devices in separate Excel files, creating a different file for each device.
+ - ***fa-floppy-o*<sub><i>fa-floppy-o</i></sub> Each Statistic on Different Sheets:** Saves all statistics for the selected devices, with each statistic on a different sheet within the same Excel file.
+ - ***fa-file-excel-o*<sub><i>fa-file-excel-o</i></sub> Each Device in a Different File:** Saves all statistics for the selected devices in separate Excel files, creating a different file for each device.
 
 ### Step-by-Step Instructions
 
 **Accessing the Statistics Section**
 
 1. **Open the Statistics Menu:**
-    - Go to the main menu in the top right corner in \(*fa-globe*\) and then select "*fa-bar-chart* Stadistics".
+ - Go to the main menu in the top right corner in \(*fa-globe*\) and then select "*fa-bar-chart* Stadistics".
 2. **Select Desired Filters:**
-    - **Date:** Select the date range you want to analyze.
-    - **Group:** Choose the group of devices \(optional\).
-    - **Devices:** Select one or several specific devices.
-    - **Type:** Select the type of statistic you want to generate.
+ - **Date:** Select the date range you want to analyze.
+ - **Group:** Choose the group of devices \(optional\).
+ - **Devices:** Select one or several specific devices.
+ - **Type:** Select the type of statistic you want to generate.
 3. **Generate the Statistic:**
-    - Click on the "*fa-refresh* Update" button to view the statistic on the platform.
+ - Click on the "*fa-refresh* Update" button to view the statistic on the platform.
 4. **Save the Statistic:**
-    - Click on the "Save" button to export the information to an Excel file.
-    - Select the preferred saving option from the dropdown menu.
+ - Click on the "Save" button to export the information to an Excel file.
+ - Select the preferred saving option from the dropdown menu.
 
 ### Validations and Restrictions
 
@@ -100,8 +100,8 @@ Plaspy offers several options for saving generated statistics in Excel format, a
 ### Frequently Asked Questions
 
 - **How can I save the generated statistics?**
-    - You can save the generated statistics in Excel format by clicking the "Save" button after applying the desired filters. Then, choose the appropriate saving option for your needs.
+ - You can save the generated statistics in Excel format by clicking the "Save" button after applying the desired filters. Then, choose the appropriate saving option for your needs.
 - **Can I generate statistics for multiple devices at once?**
-    - Yes, you can select multiple devices when configuring the statistics filters.
+ - Yes, you can select multiple devices when configuring the statistics filters.
 - **What types of alerts can be included in the statistics?**
-    - You can include any type of alert configured on your devices, such as speed alerts, unauthorized movements, fuel levels, among others.
+ - You can include any type of alert configured on your devices, such as speed alerts, unauthorized movements, fuel levels, among others.

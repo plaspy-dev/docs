@@ -3,9 +3,9 @@ sidebar_label: Device Menu
 sidebar_position: 6
 ---
 # Device Menu
-Each device listed in the Device Control Panel on the left side of the Plaspy [map](https://app.plaspy.com/Map) interface has a menu that provides access to various options. These options allow users to perform a range of actions and configurations on each device. Below is a detailed description of all the menu options, their purposes, and specific use cases for clarity.
+Each device listed in the Device Control Panel on the left side of the [map](https://app.plaspy.com/Map) interface has a menu that provides access to various options. These options allow users to perform a range of actions and configurations on each device. Below is a detailed description of all the menu options, their purposes, and specific use cases for clarity.
 
-![](./menu-animated.webp "menu-animated.webp")  
+![](./menu-animated.webp "menu-animated.webp") 
 
 ### Route
 
@@ -24,10 +24,10 @@ Each device listed in the Device Control Panel on the left side of the Plaspy [m
 ### Share Location
 
 - **Current Location:**
-    - This allows you to send the device's most recent position using apps like Google Maps, Waze, WhatsApp, or other available options. This way, any authorized person can see exactly where the device is at that specific moment.
-- **Live Location:**  
+ - This allows you to send the device's most recent position using apps like Google Maps, Waze, WhatsApp, or other available options. This way, any authorized person can see exactly where the device is at that specific moment.
+- **Live Location:** 
 
-    - This option lets you share the device's location in real-time for a specific period: **** 1 hour, 4 hours, 8 hours, 1 day, or a custom time. Once you choose the duration, you can send the access via email, WhatsApp, or through a direct link. The person who receives the link will be able to follow the device's movement until the set time expires.
+ - This option lets you share the device's location in real-time for a specific period: **** 1 hour, 4 hours, 8 hours, 1 day, or a custom time. Once you choose the duration, you can send the access via email, WhatsApp, or through a direct link. The person who receives the link will be able to follow the device's movement until the set time expires.
 
 ### Send command
 
@@ -39,15 +39,15 @@ Each device listed in the Device Control Panel on the left side of the Plaspy [m
 - **Icon:** Allows users to change the icon representing the device on the map. This customizes the visualization and uses different icons for various types of devices or statuses, improving clarity and visual organization.
 
 - **Alerts:**
-    - **Reminders:** Configures reminders for important events related to the device. Useful for scheduling maintenance, inspections, or specific events.
-    - **Edit:** Allows users to edit existing alerts to adapt to new conditions or requirements. Ensures that notifications are relevant and precise.
-    - **Copy to...:** Copies the alert configuration to another device. Facilitates setting up multiple devices with similar alerts, ensuring consistency in configurations.
+ - **Reminders:** Configures reminders for important events related to the device. Useful for scheduling maintenance, inspections, or specific events.
+ - **Edit:** Allows users to edit existing alerts to adapt to new conditions or requirements. Ensures that notifications are relevant and precise.
+ - **Copy to...:** Copies the alert configuration to another device. Facilitates setting up multiple devices with similar alerts, ensuring consistency in configurations.
 - **Geofences**
-    - **Edit:** Allows users to edit geofences associated with the device to reflect changes in operational areas or adjust boundaries as needed.
-    - **New allowed zone:** Creates a new allowed zone. Defines areas where the device can operate freely, useful for managing routes and authorized work areas.
-    - **New forbidden zone:** Creates a new forbidden zone. Establishes areas where the device should not enter, crucial for security and preventing unauthorized access.
-    - **New control zone:** Creates a new control zone. Defines special surveillance areas where additional attention should be paid to the device's activities.
-    - **New control point:** Creates a new control point. Sets specific points that the device must visit or pass through, useful for verifying routes and ensuring adherence to itineraries.
+ - **Edit:** Allows users to edit geofences associated with the device to reflect changes in operational areas or adjust boundaries as needed.
+ - **New allowed zone:** Creates a new allowed zone. Defines areas where the device can operate freely, useful for managing routes and authorized work areas.
+ - **New forbidden zone:** Creates a new forbidden zone. Establishes areas where the device should not enter, crucial for security and preventing unauthorized access.
+ - **New control zone:** Creates a new control zone. Defines special surveillance areas where additional attention should be paid to the device's activities.
+ - **New control point:** Creates a new control point. Sets specific points that the device must visit or pass through, useful for verifying routes and ensuring adherence to itineraries.
 - **More settings:** Provides access to advanced settings and detailed customizations. Allows users to tailor the device configuration to specific needs and optimize its performance.
 
 These menu options provide a comprehensive set of tools for managing and configuring each device, ensuring that users can personalize their tracking experience to meet their specific needs.

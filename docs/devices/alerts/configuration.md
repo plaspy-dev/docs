@@ -7,13 +7,13 @@ sidebar_position: 1
 
 ![](./image_1718310541651.gif)
 
-###   Notifications
+###  Notifications
 
-- **[Mobile Application](../../mobile_application) \(Push\):** Activate this option to receive push notifications through the Plaspy mobile app. These notifications will appear in the status bar of your mobile device, similar to other app notifications.
-- **[Telegram](../../my_account/telegram_accounts):** Select this option to receive alerts via Telegram. Ensure you have configured the integration with Telegram in your Plaspy account beforehand.
+- **[Mobile Application](../../mobile_application) \(Push\):** Activate this option to receive push notifications through the mobile app. These notifications will appear in the status bar of your mobile device, similar to other app notifications.
+- **[Telegram](../../my_account/telegram_accounts):** Select this option to receive alerts via Telegram. Ensure you have configured the integration with Telegram in your account beforehand.
 - **[Email](../../settings/email_templates):** Check this box to receive notifications via email. Enabling it will activate an additional field to enter the email address where you want to receive the alerts.
-- **[SMS](../../sms):** Activate this option to receive notifications via text messages \(SMS\). Upon selecting this option, an additional field will appear where you must enter the phone number in international format \(starting with the plus sign followed by the country code and the number\). It is important to have credit in your Plaspy account to activate this option.
-- **WhatsApp:** Select this option to receive notifications through WhatsApp. When you activate this option, you will be asked to enter the phone number associated with your WhatsApp account in international format. As with SMS notifications, you need to have credit in your Plaspy account to activate this option.
+- **[SMS](../../sms):** Activate this option to receive notifications via text messages \(SMS\). Upon selecting this option, an additional field will appear where you must enter the phone number in international format \(starting with the plus sign followed by the country code and the number\). It is important to have credit in your account to activate this option.
+- **WhatsApp:** Select this option to receive notifications through WhatsApp. When you activate this option, you will be asked to enter the phone number associated with your WhatsApp account in international format. As with SMS notifications, you need to have credit in your account to activate this option.
 
 ### *fa-calendar*  Schedule
 
@@ -43,7 +43,7 @@ The [Commands](../commands) section allows you to configure automatic commands 
 
 ### *fa-cogs*  Advanced
 
-The Advanced section within the alert editing in Plaspy provides additional options for detailed and specific alert configuration, allowing users to have more granular control over how and when notifications are generated and sent. These advanced configurations are ideal for users who need to customize alerts precisely and complexly.
+The Advanced section within the alert editing provides additional options for detailed and specific alert configuration, allowing users to have more granular control over how and when notifications are generated and sent. These advanced configurations are ideal for users who need to customize alerts precisely and complexly.
 
 - **Time Zone:** This field allows you to select the time zone that will be used for the alerts. This ensures that all notifications and events are recorded according to the user's local time. It is especially useful for users managing devices in different geographical locations.
 - **Use plain text:** This option, when checked, sends alert notifications in plain text format instead of HTML. It is useful for systems that do not support HTML or when a simpler message format is preferred.

@@ -3,7 +3,7 @@ sidebar_label: Device Control Panel
 sidebar_position: 1
 ---
 # Device Control Panel
-The Device Control Panel on the left side of the Plaspy [map](https://app.plaspy.com/Map) interface is a crucial tool for managing and visualizing tracked devices. This panel provides users with various options to search, filter, and select devices, as well as configure different settings related to their monitoring needs. The panel's design allows for easy navigation and efficient management of multiple devices, ensuring that users can quickly access the information they need. Below is a detailed description of the functionalities available in this section.
+The Device Control Panel on the left side of the [map](https://app.plaspy.com/Map) interface is a crucial tool for managing and visualizing tracked devices. This panel provides users with various options to search, filter, and select devices, as well as configure different settings related to their monitoring needs. The panel's design allows for easy navigation and efficient management of multiple devices, ensuring that users can quickly access the information they need. Below is a detailed description of the functionalities available in this section.
 
 ![](./map-3-animated.webp "map-3-animated.webp")
 
@@ -57,10 +57,10 @@ At the bottom of the panel, there are options to save configurations and manage 
 ## Frequently Asked Questions
 
 - **How can I quickly find a specific device?**
-    - Use the search bar at the top of the panel to enter the name or keyword of the device. The list will automatically filter to show only the matching devices.
+ - Use the search bar at the top of the panel to enter the name or keyword of the device. The list will automatically filter to show only the matching devices.
 - **What should I do if I need to update device information?**
-    - Click the "*fa-refresh* Update" button at the bottom of the panel to refresh the displayed data and ensure that the information is up-to-date.
+ - Click the "*fa-refresh* Update" button at the bottom of the panel to refresh the displayed data and ensure that the information is up-to-date.
 - **Can I export the device list and its data?**
-    - Yes, you can export the information in formats such as Excel or KML for Google Earth. Use the "*fa-floppy-o* Save As" menu at the bottom of the panel to select the desired format and follow the export instructions.
+ - Yes, you can export the information in formats such as Excel or KML for Google Earth. Use the "*fa-floppy-o* Save As" menu at the bottom of the panel to select the desired format and follow the export instructions.
 
-The Device Control Panel in Plaspy is a powerful tool for efficient management and detailed monitoring of devices, providing users with an intuitive and feature-rich interface to maintain smooth and secure operations.
+The Device Control Panel is a powerful tool for efficient management and detailed monitoring of devices, providing users with an intuitive and feature-rich interface to maintain smooth and secure operations.

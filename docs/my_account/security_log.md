@@ -3,13 +3,13 @@ sidebar_label: Security Log
 sidebar_position: 32
 ---
 # Security Log
-The Security Log in Plaspy allows users to monitor and review all login activities performed on their account. This tool is essential for maintaining account security as it provides a detailed record of every time someone accesses the account, including information about the date, event, browser used, and the country from which the access was made.
+The Security Log allows users to monitor and review all login activities performed on their account. This tool is essential for maintaining account security as it provides a detailed record of every time someone accesses the account, including information about the date, event, browser used, and the country from which the access was made.
 
 ![](./image_1718311560264.gif)
 
 To access the Security Log, follow these steps:
 
-1. Log in to your Plaspy account.
+1. Log in to your account.
 2. In the top right corner, click on your username and select '*fa-user* My Account'.
 3. At the bottom of the screen, you will find the "*fa-file-text-o* Security Log" panel.
 
@@ -34,12 +34,12 @@ To access the Security Log, follow these steps:
 ### Frequently Asked Questions
 
 - **How can I know if someone accessed my account without my permission?**
-    - Review the Security logs to identify any events you do not recognize, especially those from unknown locations or devices.
+ - Review the Security logs to identify any events you do not recognize, especially those from unknown locations or devices.
 - **What should I do if I detect suspicious access?**
-    - If you find any suspicious access, we recommend changing your password immediately and enabling two-factor authentication to improve your account's security.
+ - If you find any suspicious access, we recommend changing your password immediately and enabling two-factor authentication to improve your account's security.
 - **Does the Security log show failed login attempts?**
-    - Currently, the Security log in Plaspy only shows successful login events. For more details about failed attempts, contact Plaspy's technical support.
+ - Currently, the Security log only shows successful login events. For more details about failed attempts, contact 's technical support.
 - **Can I export my Security log?**
-    - For now, Plaspy does not offer an option to export the Security log. However, you can take screenshots if you need to save this information.
+ - For now, does not offer an option to export the Security log. However, you can take screenshots if you need to save this information.
 
 Using the Security Log will help you maintain the security of your account, allowing you to stay aware of all login activities and quickly detect any suspicious behavior.

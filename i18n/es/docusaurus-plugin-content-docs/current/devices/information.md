@@ -3,20 +3,20 @@ sidebar_label: Información
 sidebar_position: 14
 ---
 # Información
-La sección de Información del [dispositivo](https://app.plaspy.com/Devices) en Plaspy proporciona detalles clave sobre el estado y las características del dispositivo seleccionado. Esta información es crucial para el monitoreo efectivo y la gestión de cada dispositivo en tu cuenta. Aquí encontrarás datos como la fecha de creación del dispositivo, su última conexión, el protocolo utilizado, el número de teléfono asociado, entre otros.
+La sección de Información del [dispositivo](https://app.plaspy.com/Devices) proporciona detalles clave sobre el estado y las características del dispositivo seleccionado. Esta información es crucial para el monitoreo efectivo y la gestión de cada dispositivo en tu cuenta. Aquí encontrarás datos como la fecha de creación del dispositivo, su última conexión, el protocolo utilizado, el número de teléfono asociado, entre otros.
 
 ![](./image_1718279493436.gif)
 
 ## Descripción de Campos
 
-- **Creación**: Este campo muestra la fecha y hora en que el dispositivo fue añadido a tu cuenta de Plaspy. Esta información es útil para llevar un registro del tiempo que el dispositivo ha estado en uso.
-- **Última conexión**: Indica la fecha y hora de la última vez que el dispositivo se conectó a la red de Plaspy. Esto te ayuda a verificar si el dispositivo está activo y funcionando correctamente.
-- **Protocolo**: Muestra el protocolo de comunicación que utiliza el dispositivo. Plaspy detecta automáticamente el protocolo, pero si hay protocolos similares o compatibles con tu dispositivo, aparecerá una lista de protocolos compatibles. Normalmente, Plaspy detecta el protocolo de los rastreadores y no es necesario modificarlo en la mayoría de los casos.
+- **Creación**: Este campo muestra la fecha y hora en que el dispositivo fue añadido a tu cuenta. Esta información es útil para llevar un registro del tiempo que el dispositivo ha estado en uso.
+- **Última conexión**: Indica la fecha y hora de la última vez que el dispositivo se conectó a la red. Esto te ayuda a verificar si el dispositivo está activo y funcionando correctamente.
+- **Protocolo**: Muestra el protocolo de comunicación que utiliza el dispositivo. detecta automáticamente el protocolo, pero si hay protocolos similares o compatibles con tu dispositivo, aparecerá una lista de protocolos compatibles. Normalmente, detecta el protocolo de los rastreadores y no es necesario modificarlo en la mayoría de los casos.
 - **Número de teléfono**: Si tu dispositivo está asociado a un número de teléfono, esta sección mostrará el número correspondiente. Este número es crucial para dispositivos que envían y reciben datos a través de redes móviles.
 - **Texto del marcador**: Información adicional que se mostrará en el marcador del dispositivo en el mapa. Puedes utilizar este campo para agregar notas importantes o información específica que necesites visualizar rápidamente.
 - ***fa-list* Etiquetas**: Permite al usuario ingresar etiquetas personalizadas que describan información relevante del dispositivo, como su ubicación, tipo de vehículo, o notas sobre el mantenimiento. Las etiquetas ayudan a organizar y controlar mejor tus dispositivos.
-- ***fa-print* Certificado de Plaspy**: Genera un certificado oficial de Plaspy para el dispositivo, indicando información relevante que puedes entregar a terceros para mostrar que el dispositivo está siendo rastreado por Plaspy.
-- ***fa-bug* Depurar Dispositivo**: Esta opción permite revisar la conexión del rastreador en Plaspy en tiempo real. La información se muestra en bruto, y si es posible, en formato de texto. Si no es posible, se mostrará en formato hexadecimal, por ejemplo, 0x686F6C61 para información binaria.
+- ***fa-print* Certificado **: Genera un certificado oficial para el dispositivo, indicando información relevante que puedes entregar a terceros para mostrar que el dispositivo está siendo rastreado por.
+- ***fa-bug* Depurar Dispositivo**: Esta opción permite revisar la conexión del rastreador en tiempo real. La información se muestra en bruto, y si es posible, en formato de texto. Si no es posible, se mostrará en formato hexadecimal, por ejemplo, 0x686F6C61 para información binaria.
 
 ## Acceder a la Sección de Información del Dispositivo
 
@@ -42,7 +42,7 @@ La sección de Información del [dispositivo](https://app.plaspy.com/Devices) en
 
 1. Selecciona el [dispositivo](https://app.plaspy.com/Devices) desde la lista.
 2. Expande la sección "*fa-info-circle* Información" y encuentra el campo "Protocolo".
-3. Verás el protocolo que el dispositivo utiliza para comunicarse con Plaspy. Si hay protocolos similares o compatibles, aparecerá una lista de opciones. Normalmente, no es necesario modificar el protocolo detectado por Plaspy.
+3. Verás el protocolo que el dispositivo utiliza para comunicarse. Si hay protocolos similares o compatibles, aparecerá una lista de opciones. Normalmente, no es necesario modificar el protocolo detectado por.
 
 ### Revisar el Número de Teléfono Asociado
 
@@ -63,7 +63,7 @@ La sección de Información del [dispositivo](https://app.plaspy.com/Devices) en
 3. Ingresa las etiquetas que describen información relevante del dispositivo, como "Cliente Juan", "Paga cada mes", etc.
 4. Haz clic en "Guardar" para aplicar las etiquetas al dispositivo.
 
-### Generar un Certificado de Plaspy
+### Generar un Certificado 
 
 1. Selecciona el dispositivo desde la lista.
 2. En la sección de "*fa-info-circle* Información".
@@ -80,18 +80,18 @@ La sección de Información del [dispositivo](https://app.plaspy.com/Devices) en
 ## Preguntas Frecuentes
 
 - **¿Por qué es importante la fecha de creación del dispositivo?**
-    - Conocer la fecha de creación te ayuda a llevar un registro del tiempo que el dispositivo ha estado en uso y a planificar mantenimientos o reemplazos.
+ - Conocer la fecha de creación te ayuda a llevar un registro del tiempo que el dispositivo ha estado en uso y a planificar mantenimientos o reemplazos.
 - **¿Qué debo hacer si la última conexión del dispositivo es antigua?**
-    - Si la última conexión es antigua, verifica el estado del dispositivo, la cobertura de red y asegúrate de que esté encendido y correctamente configurado.
+ - Si la última conexión es antigua, verifica el estado del dispositivo, la cobertura de red y asegúrate de que esté encendido y correctamente configurado.
 - **¿Cómo sé si el protocolo del dispositivo es correcto?**
-    - El protocolo debe coincidir con el tipo de dispositivo y su configuración. Plaspy detecta automáticamente el protocolo y, en la mayoría de los casos, no es necesario modificarlo.
+ - El protocolo debe coincidir con el tipo de dispositivo y su configuración. detecta automáticamente el protocolo y, en la mayoría de los casos, no es necesario modificarlo.
 - **¿Qué hago si el número de teléfono no es correcto?**
-    - Si el número de teléfono asociado no es correcto, edita la configuración del dispositivo y actualiza el número. Asegúrate de que el dispositivo esté utilizando el número correcto para la transmisión de datos.
+ - Si el número de teléfono asociado no es correcto, edita la configuración del dispositivo y actualiza el número. Asegúrate de que el dispositivo esté utilizando el número correcto para la transmisión de datos.
 - **¿Cómo puedo utilizar el texto del marcador?**
-    - El texto del marcador te permite añadir notas visibles directamente en el marcador del dispositivo en el mapa, lo que puede facilitar la identificación rápida y la gestión de los dispositivos.
+ - El texto del marcador te permite añadir notas visibles directamente en el marcador del dispositivo en el mapa, lo que puede facilitar la identificación rápida y la gestión de los dispositivos.
 - **¿Cómo me ayudan las etiquetas?**
-    - Las etiquetas te permiten organizar y describir mejor tus dispositivos, facilitando su administración y control.
-- **¿Qué es el Certificado de Plaspy y para qué sirve?**
-    - El Certificado de Plaspy es un documento que puedes generar para mostrar a terceros que el dispositivo está siendo rastreado por Plaspy. Incluye información relevante del dispositivo.
+ - Las etiquetas te permiten organizar y describir mejor tus dispositivos, facilitando su administración y control.
+- **¿Qué es el Certificado y para qué sirve?**
+ - El Certificado es un documento que puedes generar para mostrar a terceros que el dispositivo está siendo rastreado por. Incluye información relevante del dispositivo.
 - **¿Qué significa depurar un dispositivo?**
-    - Depurar un dispositivo implica revisar su conexión en tiempo real, mostrando la información en bruto. Esto puede ayudarte a identificar problemas de conexión o configuración.
+ - Depurar un dispositivo implica revisar su conexión en tiempo real, mostrando la información en bruto. Esto puede ayudarte a identificar problemas de conexión o configuración.

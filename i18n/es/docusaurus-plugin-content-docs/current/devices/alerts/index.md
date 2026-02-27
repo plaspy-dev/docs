@@ -3,13 +3,13 @@ sidebar_label: Alertas
 sidebar_position: 19
 ---
 # Alertas
-La sección de Alertas en Plaspy permite a los usuarios configurar notificaciones para diversos eventos relacionados con sus [dispositivos](https://app.plaspy.com/Devices) de rastreo. Estas alertas son fundamentales para mantener un seguimiento efectivo y recibir información en tiempo real sobre situaciones importantes, como movimientos inesperados, desconexiones del rastreador, o entrada y salida de zonas de control.
+La sección de Alertas permite a los usuarios configurar notificaciones para diversos eventos relacionados con sus [dispositivos](https://app.plaspy.com/Devices) de rastreo. Estas alertas son fundamentales para mantener un seguimiento efectivo y recibir información en tiempo real sobre situaciones importantes, como movimientos inesperados, desconexiones del rastreador, o entrada y salida de zonas de control.
 
 ![](./image_1718289402282.gif)
 
 ## Descripción General
 
-Las alertas en Plaspy son notificaciones configurables que se envían a los usuarios para informarles sobre eventos específicos relacionados con sus dispositivos de rastreo. Estas alertas pueden ayudar a monitorear de manera eficiente los dispositivos, asegurando que se reciban avisos en tiempo real sobre cualquier evento importante.
+Las alertas son notificaciones configurables que se envían a los usuarios para informarles sobre eventos específicos relacionados con sus dispositivos de rastreo. Estas alertas pueden ayudar a monitorear de manera eficiente los dispositivos, asegurando que se reciban avisos en tiempo real sobre cualquier evento importante.
 
 ### Funcionalidades de las Alertas
 
@@ -35,11 +35,11 @@ Las alertas en Plaspy son notificaciones configurables que se envían a los usua
 1. Selecciona el [dispositivo](https://app.plaspy.com/Devices) para el cual deseas configurar una alerta.
 2. Haz clic en el botón de agregar alerta *fa-plus*.
 3. Completa los campos necesarios en el formulario que se abre:
-    - **Nombre de la Alerta**: Introduce un nombre descriptivo para la alerta.
-    - **Email**: Ingresa la dirección de correo electrónico para recibir la notificación.
-    - **Notificación por Email, Push, Telegram, WhatsApp y SMS**: Activa o desactiva según tus preferencias.
-    - **Resaltar**: Activa si deseas resaltar la alerta en la interfaz.
-    - **Programar**: Configura los días y horas en que la alerta debe estar activa.
+ - **Nombre de la Alerta**: Introduce un nombre descriptivo para la alerta.
+ - **Email**: Ingresa la dirección de correo electrónico para recibir la notificación.
+ - **Notificación por Email, Push, Telegram, WhatsApp y SMS**: Activa o desactiva según tus preferencias.
+ - **Resaltar**: Activa si deseas resaltar la alerta en la interfaz.
+ - **Programar**: Configura los días y horas en que la alerta debe estar activa.
 4. Haz clic en "Aceptar" para crear la alerta.
 
 ### Editar una Alerta Existente

@@ -9,12 +9,12 @@ This endpoint is particularly useful for system administrators who need to revie
 
 ### Request Details
 
-**HTTP Method**: GET  
+**HTTP Method**: GET 
 **URL**: `/api/users`
 
 ### Authentication Required
 
-[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
 ### Example Request
 
@@ -60,35 +60,35 @@ The response from this endpoint contains a detailed structure of the users. The 
 
 ```
 {
-  "success": true,
-  "apiUsage": 150,
-  "apiDailyUsage": 15,
-  "users": [
-    {
-      "id": "usr-12345",
-      "name": "John Doe",
-      "email": "john.doe@example.com",
-      "country": "USA",
-      "timeZone": "America/New_York",
-      "description": "System Administrator",
-      "message": null,
-      "disabled": false,
-      "disabledMessage": null,
-      "tags": {
-        "role": "admin"
-      },
-      "privileges": ["read", "write", "execute"],
-      "group": "Admins",
-      "deviceId": "dev-67890",
-      "adminDevices": 5,
-      "from": "2023-01-01T00:00:00Z",
-      "expires": "2024-01-01T00:00:00Z",
-      "password": null,
-      "creation": "2023-01-01T00:00:00Z",
-      "modification": "2023-06-01T00:00:00Z",
-      "lastLogin": "2024-05-01T00:00:00Z"
-    }
-  ]
+ "success": true,
+ "apiUsage": 150,
+ "apiDailyUsage": 15,
+ "users": [
+ {
+ "id": "usr-12345",
+ "name": "John Doe",
+ "email": "john.doe@example.com",
+ "country": "USA",
+ "timeZone": "America/New_York",
+ "description": "System Administrator",
+ "message": null,
+ "disabled": false,
+ "disabledMessage": null,
+ "tags": {
+ "role": "admin"
+ },
+ "privileges": ["read", "write", "execute"],
+ "group": "Admins",
+ "deviceId": "dev-67890",
+ "adminDevices": 5,
+ "from": "2023-01-01T00:00:00Z",
+ "expires": "2024-01-01T00:00:00Z",
+ "password": null,
+ "creation": "2023-01-01T00:00:00Z",
+ "modification": "2023-06-01T00:00:00Z",
+ "lastLogin": "2024-05-01T00:00:00Z"
+ }
+ ]
 }
 ```
 
@@ -96,9 +96,9 @@ The response from this endpoint contains a detailed structure of the users. The 
 
 ```
 {
-  "success": false,
-  "error": "Authentication failed. Invalid token.",
-  "apiUsage": 150,
-  "apiDailyUsage": 15
+ "success": false,
+ "error": "Authentication failed. Invalid token.",
+ "apiUsage": 150,
+ "apiDailyUsage": 15
 }
 ```

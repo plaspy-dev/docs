@@ -5,7 +5,7 @@ sidebar_position: 52
 # Rest API
 A REST API \(Representational State Transfer\) is a set of functions that allows communication and data exchange between different systems over the web. It uses standard HTTP methods such as GET, POST, PUT, DELETE to perform operations on resources, represented in JSON format. REST APIs are widely used for their simplicity, flexibility, and scalability.
 
-The Plaspy REST API provides a robust and secure way to integrate Plaspy's functionalities into your own applications. By following the guidelines above, you can make efficient requests and correctly manage errors and API limits. For more details, refer to the [full Plaspy REST API documentation](https://app.plaspy.com/rest-api-docs).
+the REST API provides a robust and secure way to integrate 's functionalities into your own applications. By following the guidelines above, you can make efficient requests and correctly manage errors and API limits. For more details, refer to the [full REST API documentation](https://app.plaspy.com/rest-api-docs).
 
 ### Uses of a REST API
 
@@ -17,41 +17,43 @@ The Plaspy REST API provides a robust and secure way to integrate Plaspy's funct
 
 ## Base URL for Requests
 
-The base URL for all requests to the Plaspy REST API is:
+The base URL for all requests to the REST API is:
 
-https://api.plaspy.com
+`https://api.plaspy.com`
 
 ## Authentication Method
 
-To communicate with the Plaspy service, you must authenticate using an OAuth scheme. The first step is to generate a [JWT](https://jwt.io/) \(JSON Web Token\) access token. This token is obtained through the following operation:
+To communicate with the service, you must authenticate using an OAuth scheme. The first step is to generate a [JWT](https://jwt.io/) \(JSON Web Token\) access token. This token is obtained through the following operation:
 
 - **Endpoint:** `/api/Auth/Token`
 - **Method:** `POST`
 - **Description:** Obtain the Auth token required to make requests to other API endpoints.
 
-### How to Use OAuth in Plaspy
+### How to Use OAuth 
 
 1. **Generate an Authentication Token:**
 
-    - **Endpoint:** `/api/Auth/Token`
-    - **Method:** `POST`
-    - **Description:** Obtain the Auth token required to make requests to other API endpoints.
-    - **Request Example:**
+ - **Endpoint:** `/api/Auth/Token`
+ - **Method:** `POST`
+ - **Description:** Obtain the Auth token required to make requests to other API endpoints.
+ - **Request Example:**
 
 \{ "userName": "your\_username", "apiKey": "your\_api\_key" \}
 2. **Include the Token in Requests:**
 
-    - Once the token is obtained, you must include it in the header of each API request.
-    - **Header:** `Authorization: Bearer your_token`
-    - **Example of a GET request:**
+ - Once the token is obtained, you must include it in the header of each API request.
+ - **Header:** `Authorization: Bearer your_token`
+ - **Example of a GET request:**
 
-GET /api/devices   
-HTTP/1.1 Host: api.plaspy.com   
+```
+GET /api/devices HTTP/1.1 
+Host: api.plaspy.com 
 Authorization: Bearer your\_token
+```
 
 ## Operations
 
-Below is a table of available operations in the Plaspy REST API:
+Below is a table of available operations in the REST API:
 
 | Operation | Method | Endpoint | Description |
 | --- | --- | --- | --- |
@@ -93,7 +95,7 @@ Below is a table of available operations in the Plaspy REST API:
 
 ## Error Handling
 
-Errors in the Plaspy REST API have the following JSON structure:
+Errors in the REST API have the following JSON structure:
 
 \{ "success": false, "error": "Message explaining the error." \}
 
@@ -102,7 +104,7 @@ Errors in the Plaspy REST API have the following JSON structure:
 
 ## Request Limits
 
-It is important to consider the following limits when integrating the Plaspy API:
+It is important to consider the following limits when integrating the API:
 
 - **Requests per minute:** There is a limit on how many requests can be made to protect the system's performance.
 - **Daily results per device:** Each device has a daily limit on the number of results that can be consulted.

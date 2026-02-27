@@ -3,13 +3,13 @@ sidebar_label: Alerts
 sidebar_position: 17
 ---
 # Alerts
-The Alerts section in Plaspy allows users to configure notifications for various events related to their tracking [devices](https://app.plaspy.com/Devices). These alerts are essential for effective monitoring and receiving real-time information about important situations, such as unexpected movements, tracker disconnections, or entering and exiting control zones.
+The Alerts section allows users to configure notifications for various events related to their tracking [devices](https://app.plaspy.com/Devices). These alerts are essential for effective monitoring and receiving real-time information about important situations, such as unexpected movements, tracker disconnections, or entering and exiting control zones.
 
 ![](./image_1718310385618.gif)
 
 ## General Description
 
-Alerts in Plaspy are configurable notifications sent to users to inform them about specific events related to their tracking devices. These alerts help efficiently monitor devices, ensuring real-time notifications for any important event.
+Alerts are configurable notifications sent to users to inform them about specific events related to their tracking devices. These alerts help efficiently monitor devices, ensuring real-time notifications for any important event.
 
 ### Alert Features
 
@@ -34,10 +34,10 @@ Alerts in Plaspy are configurable notifications sent to users to inform them abo
 1. Select the [device](https://app.plaspy.com/Devices) for which you want to configure an alert.
 2. Click the add alert button \(*fa-plus*\).
 3. Complete the necessary fields in the form that opens:
-    - **Alert Name**: Enter a descriptive name for the alert.
-    - **Email**: Enter the email address to receive the notification.
-    - **Email, Push, Telegram, WhatsApp, and SMS Notifications**: Enable or disable as needed.
-    - **Schedule**: Set the days and times when the alert should be active.
+ - **Alert Name**: Enter a descriptive name for the alert.
+ - **Email**: Enter the email address to receive the notification.
+ - **Email, Push, Telegram, WhatsApp, and SMS Notifications**: Enable or disable as needed.
+ - **Schedule**: Set the days and times when the alert should be active.
 4. Click "OK" to create the alert.
 
 ### Editing an Existing Alert

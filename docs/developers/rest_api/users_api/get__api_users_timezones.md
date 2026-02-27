@@ -9,12 +9,12 @@ This endpoint is especially beneficial for applications that require time zone i
 
 ### Request Details
 
-**HTTP Method**: GET  
+**HTTP Method**: GET 
 **URL**: `/api/users/timeZones`
 
 ### Authentication Required
 
-[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
 ### Example Request
 
@@ -40,16 +40,16 @@ The response from this endpoint contains a structure that includes the status of
 
 ```
 {
-  "success": true,
-  "apiUsage": 100,
-  "apiDailyUsage": 10,
-  "timeZones": {
-    "America/New_York": "Eastern Standard Time",
-    "America/Los_Angeles": "Pacific Standard Time",
-    "Europe/London": "Greenwich Mean Time",
-    "Asia/Tokyo": "Japan Standard Time",
-    "Australia/Sydney": "Australian Eastern Standard Time"
-  }
+ "success": true,
+ "apiUsage": 100,
+ "apiDailyUsage": 10,
+ "timeZones": {
+ "America/New_York": "Eastern Standard Time",
+ "America/Los_Angeles": "Pacific Standard Time",
+ "Europe/London": "Greenwich Mean Time",
+ "Asia/Tokyo": "Japan Standard Time",
+ "Australia/Sydney": "Australian Eastern Standard Time"
+ }
 }
 ```
 
@@ -57,9 +57,9 @@ The response from this endpoint contains a structure that includes the status of
 
 ```
 {
-  "success": false,
-  "error": "Authentication failed. Invalid token.",
-  "apiUsage": 100,
-  "apiDailyUsage": 10
+ "success": false,
+ "error": "Authentication failed. Invalid token.",
+ "apiUsage": 100,
+ "apiDailyUsage": 10
 }
 ```

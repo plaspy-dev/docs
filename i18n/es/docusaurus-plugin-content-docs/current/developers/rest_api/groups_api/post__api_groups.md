@@ -24,15 +24,15 @@ El cuerpo de la solicitud debe incluir los detalles del grupo que se va a crear.
 
 ```
 {
-  "name": "Nuevo Grupo",
-  "description": "Descripción del nuevo grupo",
-  "devices": ["dev-456", "dev-789"]
+ "name": "Nuevo Grupo",
+ "description": "Descripción del nuevo grupo",
+ "devices": ["dev-456", "dev-789"]
 }
 ```
 
 ### Autenticación Requerida
 
-La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
@@ -43,9 +43,9 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 Content-Type: application/json
 
 {
-  "name": "Nuevo Grupo",
-  "description": "Descripción del nuevo grupo",
-  "devices": ["dev-456", "dev-789"]
+ "name": "Nuevo Grupo",
+ "description": "Descripción del nuevo grupo",
+ "devices": ["dev-456", "dev-789"]
 }
 ```
 
@@ -70,16 +70,16 @@ La respuesta incluye detalles del grupo recién creado.
 
 ```
 {
-  "success": true,
-  "error": null,
-  "apiUsage": 123,
-  "apiDailyUsage": 45,
-  "id": "grp-125",
-  "name": "Nuevo Grupo",
-  "description": "Descripción del nuevo grupo",
-  "devices": ["dev-456", "dev-789"],
-  "creation": "2023-06-01T12:00:00Z",
-  "lastModified": "2023-06-01T12:00:00Z"
+ "success": true,
+ "error": null,
+ "apiUsage": 123,
+ "apiDailyUsage": 45,
+ "id": "grp-125",
+ "name": "Nuevo Grupo",
+ "description": "Descripción del nuevo grupo",
+ "devices": ["dev-456", "dev-789"],
+ "creation": "2023-06-01T12:00:00Z",
+ "lastModified": "2023-06-01T12:00:00Z"
 }
 ```
 
@@ -87,11 +87,11 @@ La respuesta incluye detalles del grupo recién creado.
 
 ```
 {
-  "success": false,
-  "error": "Entrada inválida",
-  "apiUsage": 123,
-  "apiDailyUsage": 45
+ "success": false,
+ "error": "Entrada inválida",
+ "apiUsage": 123,
+ "apiDailyUsage": 45
 }
 ```
 
-Este endpoint es crucial para agregar nuevos grupos a la aplicación Plaspy, permitiendo una mejor organización y gestión de dispositivos al agruparlos en unidades con nombre y descripción.
+Este endpoint es crucial para agregar nuevos grupos a la aplicación, permitiendo una mejor organización y gestión de dispositivos al agruparlos en unidades con nombre y descripción.

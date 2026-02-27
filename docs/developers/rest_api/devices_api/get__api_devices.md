@@ -11,7 +11,7 @@ The request is made using the `GET` method at the `/api/devices` URL. No additio
 
 ### Authentication Required
 
-[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the Plaspy system guarantees a high level of security and access control, protecting users' data against unauthorized access.
+[Authentication required](../authentication) to use the endpoint is via a Bearer token. This authentication method implies that each request must include an authorization header with a valid access token. This Bearer token acts as a credential that verifies the identity of the user or application making the request, ensuring that only authorized entities can modify the user's information. By requiring this type of authentication, the system guarantees a high level of security and access control, protecting users' data against unauthorized access.
 
 ### Example Request
 
@@ -48,33 +48,33 @@ Within the `devices` field, each device has the following fields:
 
 ```
 {
-  "success": true,
-  "apiUsage": 150,
-  "apiDailyUsage": 3000,
-  "devices": [
-    {
-      "id": "device123",
-      "name": "Device 1",
-      "description": "Main tracking device",
-      "min": "12345",
-      "tags": {
-        "tag1": "value1",
-        "tag2": "value2"
-      },
-      "expires": "2024-12-31T23:59:59Z"
-    },
-    {
-      "id": "device456",
-      "name": "Device 2",
-      "description": "Backup tracking device",
-      "min": "67890",
-      "tags": {
-        "tagA": "valueA",
-        "tagB": "valueB"
-      },
-      "expires": "2025-12-31T23:59:59Z"
-    }
-  ]
+ "success": true,
+ "apiUsage": 150,
+ "apiDailyUsage": 3000,
+ "devices": [
+ {
+ "id": "device123",
+ "name": "Device 1",
+ "description": "Main tracking device",
+ "min": "12345",
+ "tags": {
+ "tag1": "value1",
+ "tag2": "value2"
+ },
+ "expires": "2024-12-31T23:59:59Z"
+ },
+ {
+ "id": "device456",
+ "name": "Device 2",
+ "description": "Backup tracking device",
+ "min": "67890",
+ "tags": {
+ "tagA": "valueA",
+ "tagB": "valueB"
+ },
+ "expires": "2025-12-31T23:59:59Z"
+ }
+ ]
 }
 ```
 
@@ -86,10 +86,10 @@ Within the `devices` field, each device has the following fields:
 
 ```
 {
-  "success": false,
-  "error": "Bad Request",
-  "apiUsage": 150,
-  "apiDailyUsage": 3000
+ "success": false,
+ "error": "Bad Request",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
 
@@ -97,11 +97,11 @@ Within the `devices` field, each device has the following fields:
 
 ```
 {
-  "success": false,
-  "error": "Internal Server Error",
-  "apiUsage": 150,
-  "apiDailyUsage": 3000
+ "success": false,
+ "error": "Internal Server Error",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
 
-This endpoint is crucial for managing and monitoring the devices tracked within the Plaspy system. It allows users to obtain detailed and up-to-date information about all devices under their control.
+This endpoint is crucial for managing and monitoring the devices tracked within the system. It allows users to obtain detailed and up-to-date information about all devices under their control.

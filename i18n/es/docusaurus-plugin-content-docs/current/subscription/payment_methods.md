@@ -4,23 +4,23 @@ sidebar_position: 39
 sidebar_class_name: show-only-plaspy
 ---
 # Métodos de pago
-Plaspy ofrece diversas opciones de [suscripción](https://app.plaspy.com/Subscription) y métodos de pago para adaptarse a las necesidades de todos sus usuarios. Entender estas opciones te permitirá elegir la mejor para tus requerimientos, optimizando así tus costos y asegurando un servicio continuo y eficiente.
+La plataforma ofrece diversas opciones de [suscripción](https://app.plaspy.com/Subscription) y métodos de pago para adaptarse a las necesidades de todos sus usuarios. Entender estas opciones te permitirá elegir la mejor para tus requerimientos, optimizando así tus costos y asegurando un servicio continuo y eficiente.
 
 ![](./metodos-de-pago-animated.webp "metodos-de-pago-animated.webp")
 
 ### Períodos de Pago
 
-Plaspy ofrece varios períodos de pago que permiten flexibilidad y ahorro según la opción seleccionada:
+La plataforma ofrece varios períodos de pago que permiten flexibilidad y ahorro según la opción seleccionada:
 
 1. **Suscripción Mensual**: Paga el servicio mes a mes con una renovación automática cada mes. Sin contratos a largo plazo, sin costos de inscripción y sin compromisos. Puedes cancelar en cualquier momento. El costo mensual no incluye descuentos por pago anticipado.
 2. **Suscripción Anual**: Paga por un año completo de servicio en un solo pago con una renovación automática cada año. Al pagar anualmente, obtienes un descuento significativo en comparación con el pago mensual. Requiere un pago inicial mayor.
 
 ### Descuentos
 
-Plaspy aplica automáticamente los descuentos cuando se cumplen ciertas condiciones, permitiendo maximizar el ahorro:
+ aplica automáticamente los descuentos cuando se cumplen ciertas condiciones, permitiendo maximizar el ahorro:
 
 1. **Descuentos por Pago Anual**: Al seleccionar un pago anual, se aplica automáticamente un descuento del 20% sobre el costo mensual regular.
-2. **Descuentos por Cantidad de Dispositivos**: Plaspy ofrece descuentos adicionales basados en la cantidad de dispositivos adquiridos. Estos descuentos se aplican automáticamente cuando se alcanza la cantidad mínima requerida.
+2. **Descuentos por Cantidad de Dispositivos**: La plataforma ofrece descuentos adicionales basados en la cantidad de dispositivos adquiridos. Estos descuentos se aplican automáticamente cuando se alcanza la cantidad mínima requerida.
 
 ### Tabla de Descuentos Disponibles
 
@@ -46,8 +46,8 @@ Plaspy aplica automáticamente los descuentos cuando se cumplen ciertas condicio
 3. **Ingresar el Número de Dispositivos**: Ingresa el número de dispositivos que deseas comprar en el campo "*fa-map-marker* Número de dispositivos". El costo mensual se mostrará junto a él.
 4. **Seleccionar el Período de Suscripción**: Elige tu período de suscripción deseado.
 
-    - **Suscripción Mensual**: Pago recurrente mensual.
-    - **Suscripción Anual**: Un solo pago anual con 20% descuento.
+ - **Suscripción Mensual**: Pago recurrente mensual.
+ - **Suscripción Anual**: Un solo pago anual con 20% descuento.
 5. **Revisar el Resumen del Pedido**: El resumen del pedido se actualizará para reflejar tus selecciones, mostrando el costo total y cualquier descuento aplicado.
 6. **Aplicar Descuentos**: Revisa la sección de "Descuentos" para ver si calificas para descuentos adicionales según la cantidad de dispositivos o el período de pago seleccionado.
 7. **Proceder al Pago**: Haz clic en "Continuar" para proceder a la página de pago. Aquí podrás seleccionar tu método de pago preferido \(e.g., tarjeta de crédito, PayPal, ePayco\), digitar los datos de facturación y completar la transacción.
@@ -61,6 +61,6 @@ Plaspy aplica automáticamente los descuentos cuando se cumplen ciertas condicio
 ### Preguntas Frecuentes
 
 - **¿Puedo cambiar mi período de suscripción después de realizar una compra?** 
-    - Sí, puedes cambiar tu período de suscripción en cualquier momento a través de la configuración de tu cuenta. Los cambios se aplicarán en el próximo ciclo de facturación.
+ - Sí, puedes cambiar tu período de suscripción en cualquier momento a través de la configuración de tu cuenta. Los cambios se aplicarán en el próximo ciclo de facturación.
 - **¿Existen cargos adicionales por transacciones internacionales?** 
-    - Dependiendo de tu banco, puede haber cargos adicionales por transacciones internacionales. Consulta con tu banco para obtener más detalles.
+ - Dependiendo de tu banco, puede haber cargos adicionales por transacciones internacionales. Consulta con tu banco para obtener más detalles.

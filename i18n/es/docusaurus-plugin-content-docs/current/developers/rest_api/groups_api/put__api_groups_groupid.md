@@ -28,15 +28,15 @@ Para actualizar un grupo, debe enviar una solicitud PUT con los detalles del gru
 
 ```
 {
-  "name": "Grupo Actualizado",
-  "description": "Descripción actualizada del grupo",
-  "devices": ["dev-123", "dev-456"]
+ "name": "Grupo Actualizado",
+ "description": "Descripción actualizada del grupo",
+ "devices": ["dev-123", "dev-456"]
 }
 ```
 
 ### Autenticación Requerida
 
-La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
@@ -47,9 +47,9 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXV...
 Content-Type: application/json
 
 {
-  "name": "Grupo Actualizado",
-  "description": "Descripción actualizada del grupo",
-  "devices": ["dev-123", "dev-456"]
+ "name": "Grupo Actualizado",
+ "description": "Descripción actualizada del grupo",
+ "devices": ["dev-123", "dev-456"]
 }
 ```
 
@@ -74,16 +74,16 @@ La respuesta incluye detalles del grupo actualizado.
 
 ```
 {
-  "success": true,
-  "error": null,
-  "apiUsage": 123,
-  "apiDailyUsage": 45,
-  "id": "grp-125",
-  "name": "Grupo Actualizado",
-  "description": "Descripción actualizada del grupo",
-  "devices": ["dev-123", "dev-456"],
-  "creation": "2023-01-01T12:00:00Z",
-  "lastModified": "2023-06-01T12:00:00Z"
+ "success": true,
+ "error": null,
+ "apiUsage": 123,
+ "apiDailyUsage": 45,
+ "id": "grp-125",
+ "name": "Grupo Actualizado",
+ "description": "Descripción actualizada del grupo",
+ "devices": ["dev-123", "dev-456"],
+ "creation": "2023-01-01T12:00:00Z",
+ "lastModified": "2023-06-01T12:00:00Z"
 }
 ```
 
@@ -91,11 +91,11 @@ La respuesta incluye detalles del grupo actualizado.
 
 ```
 {
-  "success": false,
-  "error": "Group not found",
-  "apiUsage": 123,
-  "apiDailyUsage": 45
+ "success": false,
+ "error": "Group not found",
+ "apiUsage": 123,
+ "apiDailyUsage": 45
 }
 ```
 
-Este endpoint es esencial para mantener la información de los grupos en la aplicación Plaspy actualizada, permitiendo modificar detalles específicos de un grupo existente para reflejar cambios en la organización o en la asignación de dispositivos.
+Este endpoint es esencial para mantener la información de los grupos en la aplicación actualizada, permitiendo modificar detalles específicos de un grupo existente para reflejar cambios en la organización o en la asignación de dispositivos.

@@ -3,15 +3,15 @@ sidebar_label: Users API
 sidebar_position: 7
 ---
 # Users API
-La presente documentación proporciona una guía completa sobre el uso de la API de Usuarios del sistema de seguimiento satelital Plaspy. Esta API está diseñada para facilitar la gestión y administración de los usuarios registrados en el sistema, ofreciendo a los administradores la capacidad de interactuar con los datos de los usuarios mediante solicitudes HTTP. La documentación se estructura en varios endpoints, cada uno de los cuales está destinado a una funcionalidad específica, permitiendo una comprensión clara y detallada de las capacidades del sistema.
+La presente documentación proporciona una guía completa sobre el uso de la API de Usuarios del sistema de seguimiento satelital. Esta API está diseñada para facilitar la gestión y administración de los usuarios registrados en el sistema, ofreciendo a los administradores la capacidad de interactuar con los datos de los usuarios mediante solicitudes HTTP. La documentación se estructura en varios endpoints, cada uno de los cuales está destinado a una funcionalidad específica, permitiendo una comprensión clara y detallada de las capacidades del sistema.
 
 ## Importancia de la API de Usuarios
 
-En el ámbito de la administración de sistemas, la gestión eficiente de los usuarios es esencial para asegurar un control adecuado y mantener la seguridad. La API de Usuarios de Plaspy permite a los administradores acceder a información detallada sobre los usuarios, crear nuevos usuarios, actualizar los detalles de los usuarios existentes y eliminar aquellos que ya no son necesarios. Estas capacidades son fundamentales para aplicaciones en sectores como la logística, la seguridad, la gestión de flotas y otros, donde el manejo de los datos de los usuarios es crucial para la operatividad eficiente.
+En el ámbito de la administración de sistemas, la gestión eficiente de los usuarios es esencial para asegurar un control adecuado y mantener la seguridad. La API de Usuarios permite a los administradores acceder a información detallada sobre los usuarios, crear nuevos usuarios, actualizar los detalles de los usuarios existentes y eliminar aquellos que ya no son necesarios. Estas capacidades son fundamentales para aplicaciones en sectores como la logística, la seguridad, la gestión de flotas y otros, donde el manejo de los datos de los usuarios es crucial para la operatividad eficiente.
 
 ## Descripción General de los Endpoints
 
-La API de Usuarios de Plaspy incluye varios endpoints que cubren una amplia gama de funcionalidades:
+La API de Usuarios incluye varios endpoints que cubren una amplia gama de funcionalidades:
 
 1. **[GET /api/users](get__api_users)**: Permite obtener una lista de todos los usuarios registrados en el sistema. Este endpoint es útil para visualizar y administrar la información de los usuarios, incluyendo detalles como nombre, correo electrónico, país, y otros atributos importantes.
 2. **[POST /api/users](post__api_users)**: Permite crear un nuevo usuario en el sistema. Este endpoint es esencial para añadir nuevos usuarios, permitiendo especificar varios atributos como nombre, correo electrónico, país y zona horaria.
@@ -37,4 +37,4 @@ Para facilitar la implementación y el uso de la API, la documentación incluye 
 
 ## Conclusión
 
-La API de Usuarios de Plaspy es una herramienta poderosa para la gestión y administración de los usuarios registrados en el sistema. Esta documentación está diseñada para proporcionar a los administradores toda la información necesaria para integrar y utilizar eficientemente la API en sus sistemas. Con una estructura clara y ejemplos detallados, esta guía facilita el acceso a las diversas funcionalidades ofrecidas por la API, asegurando una implementación exitosa y una gestión precisa de los usuarios.
+La API de Usuarios es una herramienta poderosa para la gestión y administración de los usuarios registrados en el sistema. Esta documentación está diseñada para proporcionar a los administradores toda la información necesaria para integrar y utilizar eficientemente la API en sus sistemas. Con una estructura clara y ejemplos detallados, esta guía facilita el acceso a las diversas funcionalidades ofrecidas por la API, asegurando una implementación exitosa y una gestión precisa de los usuarios.

@@ -3,7 +3,7 @@ sidebar_label: Trip Statistics
 sidebar_position: 5
 ---
 # Trip Statistics
-The [statistics panel](https://app.plaspy.com/Map) in Plaspy provides a detailed summary of the device's performance during a specific trip. Below are the fields and metrics presented in this section:
+The [statistics panel](https://app.plaspy.com/Map) provides a detailed summary of the device's performance during a specific trip. Below are the fields and metrics presented in this section:
 ![](./image_1718309759136.gif)
 
 ### Fields and Descriptions

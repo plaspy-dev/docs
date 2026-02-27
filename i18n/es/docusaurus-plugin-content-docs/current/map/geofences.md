@@ -3,7 +3,7 @@ sidebar_label: Geocercas
 sidebar_position: 7
 ---
 # Geocercas
-Las geocercas son herramientas fundamentales para el monitoreo y control de ubicaciones específicas dentro del sistema de seguimiento satelital Plaspy. Estas permiten establecer zonas virtuales en el [mapa](https://app.plaspy.com/Map) que pueden generar alertas cuando un dispositivo entra o sale de dichas áreas. Las geocercas pueden configurarse de varias formas, incluyendo zonas permitidas, prohibidas, de control, puntos de control y rutas, adaptándose a diferentes necesidades de monitoreo.
+Las geocercas son herramientas fundamentales para el monitoreo y control de ubicaciones específicas dentro del sistema de seguimiento satelital. Estas permiten establecer zonas virtuales en el [mapa](https://app.plaspy.com/Map) que pueden generar alertas cuando un dispositivo entra o sale de dichas áreas. Las geocercas pueden configurarse de varias formas, incluyendo zonas permitidas, prohibidas, de control, puntos de control y rutas, adaptándose a diferentes necesidades de monitoreo.
 
 Para crear y gestionar geocercas, los usuarios pueden utilizar las herramientas disponibles en el [panel de control del mapa](device_control_panel). Desde aquí, se pueden dibujar directamente sobre el mapa utilizando las opciones de cursor, zona permitida, zona prohibida, zona de control, punto de control y ruta. Además, es posible editar y renombrar las geocercas existentes, así como eliminar aquellas que ya no son necesarias. Estas funciones son cruciales para la gestión efectiva de flotas y activos, permitiendo alertas automatizadas que mejoran la eficiencia y seguridad operativa.
 
@@ -22,9 +22,9 @@ Estas funcionalidades aseguran que los usuarios puedan personalizar el monitoreo
 
 ### Acceso y Uso de Geocercas
 
-Para acceder a las opciones de geocercas en Plaspy, siga estos pasos:
+Para acceder a las opciones de geocercas, siga estos pasos:
 
-1. **Acceso**: Inicie sesión en su cuenta de Plaspy y diríjase al mapa principal.
+1. **Acceso**: Inicie sesión en su cuenta y diríjase al mapa principal.
 2. **Menú de Geocercas:** En el panel lateral izquierdo encontrará la sección “*fa-exclamation-triangle* Alertas”. Selecciónela para mostrar las opciones disponibles.
 3. **Opciones de Geocercas**: Dentro del menú, abra el apartado **“*fa-lock*** Geo Cercas**”** para visualizar todas las herramientas relacionadas.
 4. **Dibujo de Geocercas**: Seleccione el tipo de geocerca que desea crear \(Cursor, Zona permitida, Zona prohibida, etc.\) y dibuje directamente sobre el mapa.

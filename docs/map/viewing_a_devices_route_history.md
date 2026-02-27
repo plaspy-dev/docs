@@ -3,16 +3,16 @@ sidebar_label: Viewing a Device's Route History
 sidebar_position: 0
 ---
 # Viewing a Device's Route History
-Plaspy allows users to view the complete route history of their devices on the [map](https://app.plaspy.com/Map). This feature is useful for tracking the movement and activities of your devices over a selected period. Follow these steps to view a device's route history and understand the playback controls available:
+The platform allows users to view the complete route history of their devices on the [map](https://app.plaspy.com/Map). This feature is useful for tracking the movement and activities of your devices over a selected period. Follow these steps to view a device's route history and understand the playback controls available:
 
 ![](./image_1718309197890.gif)
 
 ### Steps to View a Route:
 
-- **Select Devices**: In the left panel, select the device\(s\) whose route you want to view. You can choose a specific device or multiple devices simultaneously. Use the checkboxes next to each device to make your selection.  
+- **Select Devices**: In the left panel, select the device\(s\) whose route you want to view. You can choose a specific device or multiple devices simultaneously. Use the checkboxes next to each device to make your selection. 
 ![](./image_1718309244651.gif)
 
-    - **Enable Show Route**: Check the option "Show Route". This will enable the route display feature and bring up additional settings for customizing the route view.
+ - **Enable Show Route**: Check the option "Show Route". This will enable the route display feature and bring up additional settings for customizing the route view.
 
 ![](./image_1718309272908.gif)
 - **Choose Date Range**: Select the date range for the route you wish to view. You can choose from predefined options like "Hoy" \(Today\) or set a custom range. This flexibility allows you to view routes from the past hour, specific dates, or any desired period.
@@ -41,4 +41,4 @@ Once the route is displayed on the map, several playback controls become availab
 
 ![](./image_1718309441405.gif)
 
-By following these steps and utilizing the playback controls, you can effectively monitor and analyze the movement history of your devices within the Plaspy platform. This feature is particularly beneficial for fleet management, logistics tracking, and ensuring the safety and efficiency of your operations.
+By following these steps and utilizing the playback controls, you can effectively monitor and analyze the movement history of your devices within the platform. This feature is particularly beneficial for fleet management, logistics tracking, and ensuring the safety and efficiency of your operations.

@@ -14,7 +14,7 @@ Este endpoint no requiere parámetros específicos en la solicitud.
 
 ### Autenticación Requerida
 
-La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
@@ -51,33 +51,33 @@ Dentro del campo `devices`, cada dispositivo tiene los siguientes campos:
 
 ```
 {
-    "apiDailyUsage": 3000,
-    "apiUsage": 150,
-    "devices": [
-        {
-            "description": "Main tracking device",
-            "expires": "2024-12-31T23:59:59Z",
-            "id": "device123",
-            "min": "12345",
-            "name": "Device 1",
-            "tags": {
-                "tag1": "value1",
-                "tag2": "value2"
-            }
-        },
-        {
-            "description": "Backup tracking device",
-            "expires": "2025-12-31T23:59:59Z",
-            "id": "device456",
-            "min": "67890",
-            "name": "Device 2",
-            "tags": {
-                "tagA": "valueA",
-                "tagB": "valueB"
-            }
-        }
-    ],
-    "success": true
+ "apiDailyUsage": 3000,
+ "apiUsage": 150,
+ "devices": [
+ {
+ "description": "Main tracking device",
+ "expires": "2024-12-31T23:59:59Z",
+ "id": "device123",
+ "min": "12345",
+ "name": "Device 1",
+ "tags": {
+ "tag1": "value1",
+ "tag2": "value2"
+ }
+ },
+ {
+ "description": "Backup tracking device",
+ "expires": "2025-12-31T23:59:59Z",
+ "id": "device456",
+ "min": "67890",
+ "name": "Device 2",
+ "tags": {
+ "tagA": "valueA",
+ "tagB": "valueB"
+ }
+ }
+ ],
+ "success": true
 }
 ```
 
@@ -87,10 +87,10 @@ Dentro del campo `devices`, cada dispositivo tiene los siguientes campos:
 
 ```
 {
-    "success": false,
-    "error": "Bad Request",
-    "apiUsage": 150,
-    "apiDailyUsage": 3000
+ "success": false,
+ "error": "Bad Request",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
 
@@ -98,11 +98,11 @@ Dentro del campo `devices`, cada dispositivo tiene los siguientes campos:
 
 ```
 {
-    "success": false,
-    "error": "Internal Server Error",
-    "apiUsage": 150,
-    "apiDailyUsage": 3000
+ "success": false,
+ "error": "Internal Server Error",
+ "apiUsage": 150,
+ "apiDailyUsage": 3000
 }
 ```
 
-Este endpoint es crucial para gestionar y supervisar los dispositivos rastreados dentro del sistema Plaspy. Permite a los usuarios obtener información detallada y actualizada sobre todos los dispositivos bajo su control.
+Este endpoint es crucial para gestionar y supervisar los dispositivos rastreados dentro del sistema. Permite a los usuarios obtener información detallada y actualizada sobre todos los dispositivos bajo su control.

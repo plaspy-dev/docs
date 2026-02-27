@@ -3,7 +3,7 @@ sidebar_label: Reassign Digital Sensors
 sidebar_position: 15
 ---
 # Reassign Digital Sensors
-The reassign digital sensors function in Plaspy allows you to change the assignment of the tracker’s digital inputs to different functions or purposes. This is useful for adjusting the configuration of [devices](https://app.plaspy.com/Devices) according to specific monitoring and control needs.
+The reassign digital sensors function allows you to change the assignment of the tracker’s digital inputs to different functions or purposes. This is useful for adjusting the configuration of [devices](https://app.plaspy.com/Devices) according to specific monitoring and control needs.
 
 ![](./image_1718310179161.gif)
 
@@ -40,8 +40,8 @@ The reassign digital sensors function in Plaspy allows you to change the assignm
 ## Frequently Asked Questions
 
 - **Why should I reassign a digital input?**
-    - Reassigning a digital input allows you to adapt the device configuration to your specific monitoring and control needs. For example, you can change the function of a digital input to monitor a different sensor or activate a specific function.
+ - Reassigning a digital input allows you to adapt the device configuration to your specific monitoring and control needs. For example, you can change the function of a digital input to monitor a different sensor or activate a specific function.
 - **How do I know which function to select for a digital input?**
-    - The function to select depends on your specific monitoring needs. If you are unsure, consult the device documentation or contact Plaspy technical support for recommendations.
+ - The function to select depends on your specific monitoring needs. If you are unsure, consult the device documentation or contact technical support for recommendations.
 - **What happens if I incorrectly reassign a digital input?**
-    - If you incorrectly reassign a digital input, the device might not function as expected. You can return to the reassign digital sensors section and select the correct function to fix the configuration.
+ - If you incorrectly reassign a digital input, the device might not function as expected. You can return to the reassign digital sensors section and select the correct function to fix the configuration.

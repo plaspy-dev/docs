@@ -3,15 +3,15 @@ sidebar_label: Dispositivos API
 sidebar_position: 5
 ---
 # Dispositivos API
-La presente documentación proporciona una guía exhaustiva sobre el uso de la API de dispositivos del sistema de seguimiento satelital Plaspy. Esta API está diseñada para facilitar la gestión y supervisión de dispositivos rastreados, ofreciendo a los usuarios la capacidad de interactuar con los datos de sus dispositivos a través de solicitudes HTTP. La documentación se estructura en varios endpoints, cada uno de los cuales está destinado a una funcionalidad específica, permitiendo una comprensión clara y detallada de las capacidades del sistema.
+La presente documentación proporciona una guía exhaustiva sobre el uso de la API de dispositivos del sistema de seguimiento satelital. Esta API está diseñada para facilitar la gestión y supervisión de dispositivos rastreados, ofreciendo a los usuarios la capacidad de interactuar con los datos de sus dispositivos a través de solicitudes HTTP. La documentación se estructura en varios endpoints, cada uno de los cuales está destinado a una funcionalidad específica, permitiendo una comprensión clara y detallada de las capacidades del sistema.
 
 ### Importancia de la API de Dispositivos
 
-En el ámbito del seguimiento satelital, la gestión eficiente de los dispositivos es crucial para asegurar una monitorización precisa y en tiempo real. La API de dispositivos de Plaspy permite a los usuarios acceder a información detallada sobre sus dispositivos, actualizar datos de ubicación y alertas, y obtener la última ubicación conocida de cada dispositivo. Estas capacidades son esenciales para aplicaciones en sectores como la logística, seguridad, gestión de flotas y otros donde el seguimiento y la localización son fundamentales.
+En el ámbito del seguimiento satelital, la gestión eficiente de los dispositivos es crucial para asegurar una monitorización precisa y en tiempo real. La API de dispositivos permite a los usuarios acceder a información detallada sobre sus dispositivos, actualizar datos de ubicación y alertas, y obtener la última ubicación conocida de cada dispositivo. Estas capacidades son esenciales para aplicaciones en sectores como la logística, seguridad, gestión de flotas y otros donde el seguimiento y la localización son fundamentales.
 
 ### Descripción General de los Endpoints
 
-La API de dispositivos de Plaspy incluye varios endpoints que cubren una amplia gama de funcionalidades:
+La API de dispositivos incluye varios endpoints que cubren una amplia gama de funcionalidades:
 
 1. **[GET /api/devices](get__api_devices)**: Permite obtener una lista de todos los dispositivos disponibles en la aplicación de seguimiento. Este endpoint es útil para ver todos los dispositivos que están siendo rastreados y obtener detalles básicos sobre cada uno de ellos.
 2. **[GET /api/devices/\{deviceId\}](get__api_devices_deviceid)**: Proporciona información detallada sobre un dispositivo específico. Este endpoint es esencial para obtener datos completos de un dispositivo en particular.
@@ -34,4 +34,4 @@ Para facilitar la implementación y el uso de la API, la documentación incluye 
 
 ### Conclusión
 
-La API de dispositivos de Plaspy es una herramienta poderosa para la gestión y supervisión de dispositivos rastreados. Esta documentación está diseñada para proporcionar a los usuarios toda la información necesaria para integrar y utilizar eficientemente la API en sus sistemas. Con una estructura clara y ejemplos detallados, esta guía facilita el acceso a las diversas funcionalidades ofrecidas por la API, asegurando una implementación exitosa y un seguimiento preciso de los dispositivos.
+La API de dispositivos es una herramienta poderosa para la gestión y supervisión de dispositivos rastreados. Esta documentación está diseñada para proporcionar a los usuarios toda la información necesaria para integrar y utilizar eficientemente la API en sus sistemas. Con una estructura clara y ejemplos detallados, esta guía facilita el acceso a las diversas funcionalidades ofrecidas por la API, asegurando una implementación exitosa y un seguimiento preciso de los dispositivos.

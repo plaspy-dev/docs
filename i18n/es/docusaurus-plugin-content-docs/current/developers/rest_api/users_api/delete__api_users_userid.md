@@ -19,7 +19,7 @@ El endpoint `DELETE /api/users/{userId}` permite eliminar un usuario específico
 
 ### Autenticación Requerida
 
-La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
@@ -42,9 +42,9 @@ Authorization: Bearer tu_token_de_autenticacion
 
 ```
 {
-    "success": true,
-    "apiUsage": 50,
-    "apiDailyUsage": 200
+ "success": true,
+ "apiUsage": 50,
+ "apiDailyUsage": 200
 }
 ```
 
@@ -52,10 +52,10 @@ Authorization: Bearer tu_token_de_autenticacion
 
 ```
 {
-    "success": false,
-    "error": "User not found",
-    "apiUsage": 50,
-    "apiDailyUsage": 200
+ "success": false,
+ "error": "User not found",
+ "apiUsage": 50,
+ "apiDailyUsage": 200
 }
 ```
 

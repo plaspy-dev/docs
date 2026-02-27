@@ -3,7 +3,7 @@ sidebar_label: Información Detallada del Dispositivo
 sidebar_position: 2
 ---
 # Información Detallada del Dispositivo
-Cuando se hace clic sobre un marcador en el [mapa](https://app.plaspy.com/Map) de Plaspy, se muestra un cuadro de información detallada sobre la ubicación y el estado del dispositivo. Esta menú emergente proporciona datos críticos que ayudan a los usuarios a monitorear y gestionar eficientemente cada dispositivo. La información mostrada puede variar según las capacidades del rastreador. A continuación se describe cada sección de la información proporcionada en el marcador.
+Cuando se hace clic sobre un marcador en el [mapa](https://app.plaspy.com/Map), se muestra un cuadro de información detallada sobre la ubicación y el estado del dispositivo. Esta menú emergente proporciona datos críticos que ayudan a los usuarios a monitorear y gestionar eficientemente cada dispositivo. La información mostrada puede variar según las capacidades del rastreador. A continuación se describe cada sección de la información proporcionada en el marcador.
 
 ![](./mapa-detalles-dispositivo-animated.webp "mapa-detalles-dispositivo-animated.webp")
 

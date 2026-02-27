@@ -8,7 +8,7 @@ Este endpoint es especialmente útil para aplicaciones que necesitan mostrar inf
 
 ## Detalles de la Solicitud
 
-**Método HTTP**: GET  
+**Método HTTP**: GET 
 **URL**: `/api/users/{userId}`
 
 ## Parámetros de la Solicitud
@@ -19,7 +19,7 @@ Este endpoint es especialmente útil para aplicaciones que necesitan mostrar inf
 
 ### Autenticación Requerida
 
-La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
@@ -64,31 +64,31 @@ La respuesta de este endpoint contiene una estructura detallada del usuario. A c
 
 ```
 {
-  "success": true,
-  "apiUsage": 150,
-  "apiDailyUsage": 15,
-  "id": "usr-12345",
-  "name": "Juan Perez",
-  "email": "juan.perez@example.com",
-  "country": "Argentina",
-  "timeZone": "America/Argentina/Buenos_Aires",
-  "description": "Administrador de sistemas",
-  "message": null,
-  "disabled": false,
-  "disabledMessage": null,
-  "tags": {
-    "role": "admin"
-  },
-  "privileges": ["read", "write", "execute"],
-  "group": "Admins",
-  "deviceId": "dev-67890",
-  "adminDevices": 5,
-  "from": "2023-01-01T00:00:00Z",
-  "expires": "2024-01-01T00:00:00Z",
-  "password": null,
-  "creation": "2023-01-01T00:00:00Z",
-  "modification": "2023-06-01T00:00:00Z",
-  "lastLogin": "2024-05-01T00:00:00Z"
+ "success": true,
+ "apiUsage": 150,
+ "apiDailyUsage": 15,
+ "id": "usr-12345",
+ "name": "Juan Perez",
+ "email": "juan.perez@example.com",
+ "country": "Argentina",
+ "timeZone": "America/Argentina/Buenos_Aires",
+ "description": "Administrador de sistemas",
+ "message": null,
+ "disabled": false,
+ "disabledMessage": null,
+ "tags": {
+ "role": "admin"
+ },
+ "privileges": ["read", "write", "execute"],
+ "group": "Admins",
+ "deviceId": "dev-67890",
+ "adminDevices": 5,
+ "from": "2023-01-01T00:00:00Z",
+ "expires": "2024-01-01T00:00:00Z",
+ "password": null,
+ "creation": "2023-01-01T00:00:00Z",
+ "modification": "2023-06-01T00:00:00Z",
+ "lastLogin": "2024-05-01T00:00:00Z"
 }
 ```
 
@@ -96,9 +96,9 @@ La respuesta de este endpoint contiene una estructura detallada del usuario. A c
 
 ```
 {
-  "success": false,
-  "error": "Usuario no encontrado.",
-  "apiUsage": 150,
-  "apiDailyUsage": 15
+ "success": false,
+ "error": "Usuario no encontrado.",
+ "apiUsage": 150,
+ "apiDailyUsage": 15
 }
 ```

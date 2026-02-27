@@ -3,7 +3,7 @@ sidebar_label: Cronología
 sidebar_position: 5
 ---
 # Cronología
-El [panel de cronología](https://app.plaspy.com/Map)*fa-external-link* en Plaspy proporciona un resumen detallado del desempeño del dispositivo durante un recorrido específico. A continuación, se detallan los botones y  que se presentan en esta sección:
+El [panel de cronología](https://app.plaspy.com/Map)*fa-external-link* proporciona un resumen detallado del desempeño del dispositivo durante un recorrido específico. A continuación, se detallan los botones y  que se presentan en esta sección:
 
 ![](./cronologia-animated.webp "cronologia-animated.webp")
 

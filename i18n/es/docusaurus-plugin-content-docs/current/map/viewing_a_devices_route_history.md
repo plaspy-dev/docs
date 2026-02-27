@@ -3,7 +3,7 @@ sidebar_label: Consultar el Historial de Recorridos de un Dispositivo
 sidebar_position: 0
 ---
 # Consultar el Historial de Recorridos de un Dispositivo
-Plaspy permite a los usuarios visualizar el historial completo de recorridos de sus dispositivos en el [*fa-globe* mapa](https://app.plaspy.com/Map). Esta funcionalidad es útil para rastrear los movimientos y actividades de sus dispositivos durante un período seleccionado. Siga estos pasos para ver el historial de recorridos de un dispositivo y entienda los controles de reproducción disponibles:
+La plataforma permite a los usuarios visualizar el historial completo de recorridos de sus dispositivos en el [*fa-globe* mapa](https://app.plaspy.com/Map). Esta funcionalidad es útil para rastrear los movimientos y actividades de sus dispositivos durante un período seleccionado. Siga estos pasos para ver el historial de recorridos de un dispositivo y entienda los controles de reproducción disponibles:
 
 ![](./recorridos0animated_20260115_161415.webp "recorridos0-animated.webp")
 
@@ -35,13 +35,13 @@ Una vez que el recorrido se muestra en el mapa, varios controles de reproducció
 
 **Íconos adicionales en el mapa**
 
-- ***/* Rastro**  
+- ***/* Rastro** 
 Permite mostrar u ocultar el rastro histórico de un dispositivo, mostrando su recorrido pasado. Esto es útil para analizar movimientos históricos, detectar patrones de desplazamiento y revisar rutas completadas para optimizar la planificación de futuras rutas.
-- ***fa-object-group* Agrupar puntos cercanos**  
+- ***fa-object-group* Agrupar puntos cercanos** 
 Agrupa visualmente los dispositivos que están muy cerca unos de otros para mejorar la visibilidad y facilitar el conteo. Esto es especialmente útil en áreas con alta densidad de dispositivos, como en grandes estacionamientos o eventos masivos.
-- ***fa-reply-all* Mostrar todos los marcadores**  
+- ***fa-reply-all* Mostrar todos los marcadores** 
 Muestra todos los marcadores del recorrido completo de un dispositivo. Normalmente, solo se muestra el último marcador de la ruta, pero esta opción permite ver todos los puntos del recorrido, útil para análisis detallados y auditorías de rutas.
 
 ![](./recorridos6animated_20260115_161738.webp "recorridos6-animated.webp")
 
-Siguiendo estos pasos y utilizando los controles de reproducción, podrá monitorear y analizar eficazmente el historial de movimientos de sus dispositivos dentro de la plataforma Plaspy. Esta funcionalidad es especialmente beneficiosa para la gestión de flotas, el seguimiento logístico y la garantía de seguridad y eficiencia en sus operaciones.
+Siguiendo estos pasos y utilizando los controles de reproducción, podrá monitorear y analizar eficazmente el historial de movimientos de sus dispositivos dentro de la plataforma. Esta funcionalidad es especialmente beneficiosa para la gestión de flotas, el seguimiento logístico y la garantía de seguridad y eficiencia en sus operaciones.

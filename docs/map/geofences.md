@@ -3,7 +3,7 @@ sidebar_label: GeoFences
 sidebar_position: 7
 ---
 # GeoFences
-Geofences are essential tools for monitoring and controlling specific locations within the Plaspy satellite tracking system. They allow you to set up virtual zones on the [map](https://app.plaspy.com/Map) that can generate alerts when a device enters or leaves these areas. Geofences can be configured in various ways, including allowed zones, prohibited zones, control zones, checkpoints, and routes, adapting to different monitoring needs.
+Geofences are essential tools for monitoring and controlling specific locations within the satellite tracking system. They allow you to set up virtual zones on the [map](https://app.plaspy.com/Map) that can generate alerts when a device enters or leaves these areas. Geofences can be configured in various ways, including allowed zones, prohibited zones, control zones, checkpoints, and routes, adapting to different monitoring needs.
 
 To create and manage geofences, users can utilize the tools available in the [map](https://app.plaspy.com/Map) control panel. From here, geofences can be drawn directly on the map using the options for cursor, allowed zone, prohibited zone, control zone, checkpoint, and route. Additionally, existing geofences can be edited and renamed, as well as deleted when no longer needed. These functions are crucial for effective fleet and asset management, enabling automated alerts that enhance operational efficiency and security.
 
@@ -22,9 +22,9 @@ These functionalities ensure that users can customize monitoring according to th
 
 ### Accessing and Using Geofences
 
-To access geofence options in Plaspy, follow these steps:
+To access geofence options, follow these steps:
 
-1. **Access**: Log in to your Plaspy account and navigate to the main [map](https://app.plaspy.com/Map).
+1. **Access**: Log in to your account and navigate to the main [map](https://app.plaspy.com/Map).
 2. **Geofence Options**: In the left sidebar, you will find the options under the "*fa-lock* GeoFences" section.
 3. **Drawing Geofences**: Select the type of geofence you want to create \(Cursor, Allowed Zone, Prohibited Zone, etc.\) and draw directly on the map.
 4. **Managing Geofences**: Once created, you can edit, rename, or delete geofences as needed.

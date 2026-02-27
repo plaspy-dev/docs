@@ -3,7 +3,7 @@ sidebar_label: Estadísticas de Recorridos
 sidebar_position: 5
 ---
 # Estadísticas de Recorridos
-El [panel de estadísticas](https://app.plaspy.com/Map) en Plaspy proporciona un resumen detallado del desempeño del dispositivo durante un recorrido específico. A continuación, se detallan los campos y métricas que se presentan en esta sección:
+El [panel de estadísticas](https://app.plaspy.com/Map) proporciona un resumen detallado del desempeño del dispositivo durante un recorrido específico. A continuación, se detallan los campos y métricas que se presentan en esta sección:
 ![](./image_1718274167096.gif)
 
 ### Campos y Descripciones

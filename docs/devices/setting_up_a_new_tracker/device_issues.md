@@ -3,7 +3,7 @@ sidebar_label: Device Issues
 sidebar_position: 3
 ---
 # Device Issues
-In Plaspy, you might encounter some [common issues](https://app.plaspy.com/TroubleShooting) with your tracking devices. This guide provides a general overview of these problems and their possible solutions to help you resolve them efficiently.
+, you might encounter some [common issues](https://app.plaspy.com/TroubleShooting) with your tracking devices. This guide provides a general overview of these problems and their possible solutions to help you resolve them efficiently.
 
 ![](./image_1718310725362.gif)
 
@@ -61,6 +61,6 @@ Sometimes, a tracking device may appear offline, stop transmitting data, or not 
 
 - **Restart the Device**: Some devices may temporarily lock up. Attempting a physical restart can resolve the issue.&lt;
 - **Consult the User Manual**: It is always helpful to review the device's manual for specific solutions and configuration options.
-- **Technical Support**: If problems persist, contact Plaspy's technical support for further assistance.
+- **Technical Support**: If problems persist, contact 's technical support for further assistance.
 
-By following these tips and solutions, you can resolve most common issues with your tracking devices in Plaspy, ensuring continuous and efficient operation.
+By following these tips and solutions, you can resolve most common issues with your tracking devices, ensuring continuous and efficient operation.

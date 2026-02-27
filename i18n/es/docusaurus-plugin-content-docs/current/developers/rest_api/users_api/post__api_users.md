@@ -8,7 +8,7 @@ Este endpoint es particularmente útil para aplicaciones que requieren funcional
 
 ### Detalles de la Solicitud
 
-**Método HTTP**: POST  
+**Método HTTP**: POST 
 **URL**: `/api/users`
 
 ## Parámetros de la Solicitud
@@ -43,7 +43,7 @@ El cuerpo de la solicitud debe ser un objeto JSON con los siguientes campos:
 
 ### Autenticación Requerida
 
-La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema Plaspy garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
+La [autenticación requerida](../authentication) para utilizar el endpoint es mediante un token Bearer. Este método de autenticación implica que cada solicitud debe incluir un encabezado de autorización con un token de acceso válido. Este token Bearer actúa como una credencial que verifica la identidad del usuario o aplicación que realiza la solicitud, asegurando que solo las entidades autorizadas puedan modificar la información del usuario. Al requerir este tipo de autenticación, el sistema garantiza un nivel elevado de seguridad y control de acceso, protegiendo los datos de los usuarios contra accesos no autorizados.
 
 ### Ejemplo de Solicitud
 
@@ -54,25 +54,25 @@ Content-Type: application/json
 Authorization: Bearer {your_auth_token}
 
 {
-  "name": "Jane Doe",
-  "email": "jane.doe@example.com",
-  "country": "USA",
-  "timeZone": "America/Los_Angeles",
-  "description": "Nueva usuaria para el departamento de marketing",
-  "tags": {
-    "role": "user",
-    "department": "marketing"
-  },
-  "privileges": ["read", "write"],
-  "group": "Marketing",
-  "deviceId": "dev-12345",
-  "adminDevices": 2,
-  "from": "2023-01-01T00:00:00Z",
-  "expires": "2024-01-01T00:00:00Z",
-  "password": "P@ssw0rd123",
-  "creation": "2023-01-01T00:00:00Z",
-  "modification": "2023-06-01T00:00:00Z",
-  "lastLogin": "2024-05-01T00:00:00Z"
+ "name": "Jane Doe",
+ "email": "jane.doe@example.com",
+ "country": "USA",
+ "timeZone": "America/Los_Angeles",
+ "description": "Nueva usuaria para el departamento de marketing",
+ "tags": {
+ "role": "user",
+ "department": "marketing"
+ },
+ "privileges": ["read", "write"],
+ "group": "Marketing",
+ "deviceId": "dev-12345",
+ "adminDevices": 2,
+ "from": "2023-01-01T00:00:00Z",
+ "expires": "2024-01-01T00:00:00Z",
+ "password": "P@ssw0rd123",
+ "creation": "2023-01-01T00:00:00Z",
+ "modification": "2023-06-01T00:00:00Z",
+ "lastLogin": "2024-05-01T00:00:00Z"
 }
 ```
 
@@ -111,29 +111,29 @@ La respuesta de este endpoint incluye los detalles del usuario creado o un mensa
 
 ```
 {
-  "success": true,
-  "apiUsage": 150,
-  "apiDailyUsage": 15,
-  "id": "usr-67890",
-  "name": "Jane Doe",
-  "email": "jane.doe@example.com",
-  "country": "USA",
-  "timeZone": "America/Los_Angeles",
-  "description": "Nueva usuaria para el departamento de marketing",
-  "tags": {
-    "role": "user",
-    "department": "marketing"
-  },
-  "privileges": ["read", "write"],
-  "group": "Marketing",
-  "deviceId": "dev-12345",
-  "adminDevices": 2,
-  "from": "2023-01-01T00:00:00Z",
-  "expires": "2024-01-01T00:00:00Z",
-  "password": null,
-  "creation": "2023-01-01T00:00:00Z",
-  "modification": "2023-06-01T00:00:00Z",
-  "lastLogin": null
+ "success": true,
+ "apiUsage": 150,
+ "apiDailyUsage": 15,
+ "id": "usr-67890",
+ "name": "Jane Doe",
+ "email": "jane.doe@example.com",
+ "country": "USA",
+ "timeZone": "America/Los_Angeles",
+ "description": "Nueva usuaria para el departamento de marketing",
+ "tags": {
+ "role": "user",
+ "department": "marketing"
+ },
+ "privileges": ["read", "write"],
+ "group": "Marketing",
+ "deviceId": "dev-12345",
+ "adminDevices": 2,
+ "from": "2023-01-01T00:00:00Z",
+ "expires": "2024-01-01T00:00:00Z",
+ "password": null,
+ "creation": "2023-01-01T00:00:00Z",
+ "modification": "2023-06-01T00:00:00Z",
+ "lastLogin": null
 }
 ```
 
@@ -141,9 +141,9 @@ La respuesta de este endpoint incluye los detalles del usuario creado o un mensa
 
 ```
 {
-  "success": false,
-  "error": "Correo electrónico inválido.",
-  "apiUsage": 150,
-  "apiDailyUsage": 15
+ "success": false,
+ "error": "Correo electrónico inválido.",
+ "apiUsage": 150,
+ "apiDailyUsage": 15
 }
 ```
