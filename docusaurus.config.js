@@ -169,6 +169,22 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      algolia: {
+        appId: 'XZBQE60VD2',
+        apiKey: '397f890aee67969f67422c7357ae49c3',
+        indexName: 'Docs Plaspy',
+        contextualSearch: true,
+        externalUrlRegex: 'plaspy\\.com|app\\.plaspy\\.com',
+
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+        searchParameters: {},
+        searchPagePath: 'search',
+        insights: false,
+        askAi: 'oBN2ifEx7Zng',
+      },
     }),
 };
 
