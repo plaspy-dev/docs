@@ -8,38 +8,30 @@ Para recibir notificaciones de alertas en tu escritorio, es necesario habilitar 
 ## Google Chrome
 
 1. **Acceder a la configuración de notificaciones:**
-
- - Haz clic en el icono del candado🔒 \(1\) junto a la barra de direcciones.
- - Aparecerá un menú desplegable con varias opciones.
+    - Haz clic en el icono del candado🔒 \(1\) junto a la barra de direcciones.
+    - Aparecerá un menú desplegable con varias opciones.
 2. **Comprobar el estado de las notificaciones:**
-
- - Verifica si el "Sonido" y las "Notificaciones" \(2\) están permitidas.
- - Si no lo están, selecciona "Permitir" para habilitar estas opciones.
+    - Verifica si el "Sonido" y las "Notificaciones" \(2\) están permitidas.
+    - Si no lo están, selecciona "Permitir" para habilitar estas opciones.
 3. **Guardar los cambios:**
-
- - Cierra el menú para guardar los cambios. Ahora deberías recibir notificaciones en tu escritorio.
+    - Cierra el menú para guardar los cambios. Ahora deberías recibir notificaciones en tu escritorio.
 4. **Recomendación adicional:**
-
- - Asegúrate de que el navegador no esté en modo incógnito, ya que este modo puede bloquear las notificaciones. 
+    - Asegúrate de que el navegador no esté en modo incógnito, ya que este modo puede bloquear las notificaciones. 
  
 ![](./1-notificaciones-google.webp)
 
 ## Firefox
 
 1. **Acceder a la configuración de notificaciones:**
-
- - Haz clic en el icono de información \(1\) junto a la barra de direcciones.
- - Aparecerá un menú desplegable con varias opciones.
+    - Haz clic en el icono de información \(1\) junto a la barra de direcciones.
+    - Aparecerá un menú desplegable con varias opciones.
 2. **Comprobar el estado de las notificaciones:**
-
- - Verifica si el "Sonido de reproducción automática" y "Enviar notificaciones" \(2\) están permitidos.
- - Si no lo están, selecciona "Permitir" para habilitar estas opciones.
+    - Verifica si el "Sonido de reproducción automática" y "Enviar notificaciones" \(2\) están permitidos.
+    - Si no lo están, selecciona "Permitir" para habilitar estas opciones.
 3. **Guardar los cambios:**
-
- - Cierra el menú para guardar los cambios. Ahora deberías recibir notificaciones en tu escritorio.
+    - Cierra el menú para guardar los cambios. Ahora deberías recibir notificaciones en tu escritorio.
 4. **Recomendación adicional:**
-
- - Asegúrate de que el navegador no esté en modo privado, ya que este modo puede bloquear las notificaciones. 
+    - Asegúrate de que el navegador no esté en modo privado, ya que este modo puede bloquear las notificaciones. 
  
 ![](./2-notificaciones-firefox.webp)
 

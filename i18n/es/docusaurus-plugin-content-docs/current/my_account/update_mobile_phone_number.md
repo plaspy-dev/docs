@@ -34,12 +34,12 @@ Para acceder a la opción de modificar el número de teléfono móvil:
 #### Preguntas Frecuentes
 
 - **¿Por qué necesito un número de teléfono de recuperación?**
- - El número de teléfono de recuperación es necesario para asegurar tu cuenta y permitir la recuperación en caso de que olvides tu contraseña o si detecta actividad sospechosa.
+    - El número de teléfono de recuperación es necesario para asegurar tu cuenta y permitir la recuperación en caso de que olvides tu contraseña o si detecta actividad sospechosa.
 - **¿Puedo usar cualquier número de teléfono?**
- - Puedes usar cualquier número de teléfono que cumpla con el formato internacional y sea accesible para ti en caso de emergencias relacionadas con tu cuenta.
+    - Puedes usar cualquier número de teléfono que cumpla con el formato internacional y sea accesible para ti en caso de emergencias relacionadas con tu cuenta.
 - **¿Qué pasa si no tengo un número de teléfono en formato internacional?**
- - Es necesario que el número esté en formato internacional. Si no tienes uno, considera adquirir un número que pueda utilizarse para este propósito.
+    - Es necesario que el número esté en formato internacional. Si no tienes uno, considera adquirir un número que pueda utilizarse para este propósito.
 - **¿Cómo sé si mi número fue actualizado correctamente?**
- - Después de ingresar el número y confirmar, recibirás una notificación en la plataforma indicando que los cambios se han guardado exitosamente.
+    - Después de ingresar el número y confirmar, recibirás una notificación en la plataforma indicando que los cambios se han guardado exitosamente.
 
 Esta funcionalidad asegura que tu cuenta esté protegida y que siempre puedas recuperar el acceso en caso de problemas de seguridad. Asegúrate de mantener tu número de recuperación actualizado y de que esté correctamente ingresado en el formato requerido.

@@ -27,10 +27,10 @@ The established limits restrict both the number of messages a user can send per 
 ## Frequently Asked Questions
 
 - **What happens if I exceed the sending limits?**
- - If you exceed the email alert sending limits, you will not be able to send new messages until the restricted time period has passed. However, you will still have access to your account and can receive alerts through the map on.
+    - If you exceed the email alert sending limits, you will not be able to send new messages until the restricted time period has passed. However, you will still have access to your account and can receive alerts through the map on.
 - **Can I change the sending limits?**
- - No, the sending limits are not configurable by users. They are set by to ensure the proper functioning of the system and the security of accounts.
+    - No, the sending limits are not configurable by users. They are set by to ensure the proper functioning of the system and the security of accounts.
 - **How can I avoid exceeding the sending limits?**
- - To avoid exceeding the sending limits, notify only important alerts and verify the reasons behind repetitive alerts. Deactivate or delete alerts that are not necessary to avoid continuous notification sending.
+    - To avoid exceeding the sending limits, notify only important alerts and verify the reasons behind repetitive alerts. Deactivate or delete alerts that are not necessary to avoid continuous notification sending.
 
 By following these recommendations and understanding the established limits, you can optimize the use of the email alert system and ensure that important notifications always arrive on time.

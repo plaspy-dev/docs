@@ -41,12 +41,12 @@ To access the password recovery option, follow these steps:
 ### Frequently Asked Questions
 
 - **What should I do if I do not receive the password recovery email?**
- - Check your spam or junk mail folder.
- - Ensure the email address entered is correctly registered with your account.
- - If you still do not receive the email, try repeating the process or contact support.
+    - Check your spam or junk mail folder.
+    - Ensure the email address entered is correctly registered with your account.
+    - If you still do not receive the email, try repeating the process or contact support.
 - **How can I ensure my new password is secure?**
- - Use a combination of uppercase and lowercase letters, numbers, and special characters.
- - Avoid using common passwords or easily guessable personal information.
- - Consider using a long and unique passphrase that only you know.
+    - Use a combination of uppercase and lowercase letters, numbers, and special characters.
+    - Avoid using common passwords or easily guessable personal information.
+    - Consider using a long and unique passphrase that only you know.
 
 By following these steps, you can reset your password securely and quickly, ensuring your account remains accessible and protected.

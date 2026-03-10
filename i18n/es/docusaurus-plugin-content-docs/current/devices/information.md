@@ -80,18 +80,18 @@ La sección de Información del [dispositivo](https://app.plaspy.com/Devices) pr
 ## Preguntas Frecuentes
 
 - **¿Por qué es importante la fecha de creación del dispositivo?**
- - Conocer la fecha de creación te ayuda a llevar un registro del tiempo que el dispositivo ha estado en uso y a planificar mantenimientos o reemplazos.
+    - Conocer la fecha de creación te ayuda a llevar un registro del tiempo que el dispositivo ha estado en uso y a planificar mantenimientos o reemplazos.
 - **¿Qué debo hacer si la última conexión del dispositivo es antigua?**
- - Si la última conexión es antigua, verifica el estado del dispositivo, la cobertura de red y asegúrate de que esté encendido y correctamente configurado.
+    - Si la última conexión es antigua, verifica el estado del dispositivo, la cobertura de red y asegúrate de que esté encendido y correctamente configurado.
 - **¿Cómo sé si el protocolo del dispositivo es correcto?**
- - El protocolo debe coincidir con el tipo de dispositivo y su configuración. detecta automáticamente el protocolo y, en la mayoría de los casos, no es necesario modificarlo.
+    - El protocolo debe coincidir con el tipo de dispositivo y su configuración. detecta automáticamente el protocolo y, en la mayoría de los casos, no es necesario modificarlo.
 - **¿Qué hago si el número de teléfono no es correcto?**
- - Si el número de teléfono asociado no es correcto, edita la configuración del dispositivo y actualiza el número. Asegúrate de que el dispositivo esté utilizando el número correcto para la transmisión de datos.
+    - Si el número de teléfono asociado no es correcto, edita la configuración del dispositivo y actualiza el número. Asegúrate de que el dispositivo esté utilizando el número correcto para la transmisión de datos.
 - **¿Cómo puedo utilizar el texto del marcador?**
- - El texto del marcador te permite añadir notas visibles directamente en el marcador del dispositivo en el mapa, lo que puede facilitar la identificación rápida y la gestión de los dispositivos.
+    - El texto del marcador te permite añadir notas visibles directamente en el marcador del dispositivo en el mapa, lo que puede facilitar la identificación rápida y la gestión de los dispositivos.
 - **¿Cómo me ayudan las etiquetas?**
- - Las etiquetas te permiten organizar y describir mejor tus dispositivos, facilitando su administración y control.
+    - Las etiquetas te permiten organizar y describir mejor tus dispositivos, facilitando su administración y control.
 - **¿Qué es el Certificado y para qué sirve?**
- - El Certificado es un documento que puedes generar para mostrar a terceros que el dispositivo está siendo rastreado por. Incluye información relevante del dispositivo.
+    - El Certificado es un documento que puedes generar para mostrar a terceros que el dispositivo está siendo rastreado por. Incluye información relevante del dispositivo.
 - **¿Qué significa depurar un dispositivo?**
- - Depurar un dispositivo implica revisar su conexión en tiempo real, mostrando la información en bruto. Esto puede ayudarte a identificar problemas de conexión o configuración.
+    - Depurar un dispositivo implica revisar su conexión en tiempo real, mostrando la información en bruto. Esto puede ayudarte a identificar problemas de conexión o configuración.

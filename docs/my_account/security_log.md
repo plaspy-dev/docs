@@ -34,12 +34,12 @@ To access the Security Log, follow these steps:
 ### Frequently Asked Questions
 
 - **How can I know if someone accessed my account without my permission?**
- - Review the Security logs to identify any events you do not recognize, especially those from unknown locations or devices.
+    - Review the Security logs to identify any events you do not recognize, especially those from unknown locations or devices.
 - **What should I do if I detect suspicious access?**
- - If you find any suspicious access, we recommend changing your password immediately and enabling two-factor authentication to improve your account's security.
+    - If you find any suspicious access, we recommend changing your password immediately and enabling two-factor authentication to improve your account's security.
 - **Does the Security log show failed login attempts?**
- - Currently, the Security log only shows successful login events. For more details about failed attempts, contact 's technical support.
+    - Currently, the Security log only shows successful login events. For more details about failed attempts, contact 's technical support.
 - **Can I export my Security log?**
- - For now, does not offer an option to export the Security log. However, you can take screenshots if you need to save this information.
+    - For now, does not offer an option to export the Security log. However, you can take screenshots if you need to save this information.
 
 Using the Security Log will help you maintain the security of your account, allowing you to stay aware of all login activities and quickly detect any suspicious behavior.

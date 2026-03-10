@@ -61,12 +61,12 @@ La sección de Sensores te permite configurar y monitorear diversos sensores aso
 ## Preguntas Frecuentes
 
 - **¿Por qué es importante establecer el kilometraje?**
- - Establecer el kilometraje de manera precisa ayuda a llevar un control del uso del vehículo, programar mantenimientos y calcular el consumo de combustible.
+    - Establecer el kilometraje de manera precisa ayuda a llevar un control del uso del vehículo, programar mantenimientos y calcular el consumo de combustible.
 - **¿Qué debo hacer si cambia el consumo de combustible de mi vehículo?**
- - Actualiza el campo "Consumo de combustible" con el nuevo valor estimado para asegurar cálculos precisos de consumo de combustible.
+    - Actualiza el campo "Consumo de combustible" con el nuevo valor estimado para asegurar cálculos precisos de consumo de combustible.
 - **¿Cómo afecta la capacidad del tanque los cálculos de combustible?**
- - La capacidad del tanque se utiliza para calcular los niveles de combustible y el consumo de manera más precisa. Asegúrate de que este valor sea correcto para evitar cálculos erróneos.
+    - La capacidad del tanque se utiliza para calcular los niveles de combustible y el consumo de manera más precisa. Asegúrate de que este valor sea correcto para evitar cálculos erróneos.
 - **¿Para qué se utilizan las entradas y salidas digitales?**
- - Las entradas y salidas digitales se utilizan para monitorear y controlar funciones específicas del dispositivo, como el estado de encendido o la activación/desactivación de ciertos componentes. Puedes renombrarlas para una identificación más fácil.
+    - Las entradas y salidas digitales se utilizan para monitorear y controlar funciones específicas del dispositivo, como el estado de encendido o la activación/desactivación de ciertos componentes. Puedes renombrarlas para una identificación más fácil.
 - **¿Qué sucede cuando restauro el estado de un sensor?**
- - Restaurar el estado de un sensor pondrá su tiempo acumulado a cero y desactivará el sensor hasta que el rastreador envíe información nuevamente a.
+    - Restaurar el estado de un sensor pondrá su tiempo acumulado a cero y desactivará el sensor hasta que el rastreador envíe información nuevamente a.

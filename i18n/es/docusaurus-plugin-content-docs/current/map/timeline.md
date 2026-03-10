@@ -9,11 +9,11 @@ El [panel de cronología](https://app.plaspy.com/Map)*fa-external-link* proporci
 
 ### Botones de filtrado
 
-- **Movimiento \(![](https://app.plaspy.com/img/map/driving.svg)\):** Filtra la cronología para ver únicamente los tramos en los que el dispositivo estuvo en movimiento. Útil para revisar velocidades, trayectos y tiempos activos.
-- **Estacionado \(![](https://app.plaspy.com/img/map/stopped.svg)\):**Muestra los eventos donde el dispositivo estuvo detenido y estacionado. Ideal para verificar cuánto tiempo permaneció parado y en qué lugares.
-- **Ralentí \(![](https://app.plaspy.com/img/map/idle.svg)\):**Muestra los períodos en los que el dispositivo estuvo encendido pero sin avanzar. Ayuda a identificar tiempos improductivos y posibles desperdicios de combustible.
-- **Alertas \(![](https://app.plaspy.com/img/map/warning.svg)\):**Muestra detalles de alertas enviadas por el dispositivo, como exceso de velocidad, desconexiones o entrada/salida de geocercas. Sirve para detectar situaciones que necesitan atención.
-- **Alertas críticas \(![](https://app.plaspy.com/img/map/alert.svg)\):** Muestra alertas más importantes o de mayor riesgo. Estas alertas requieren atención inmediata para evitar problemas o incidentes.
+- **Movimiento \(![](./driving.svg)\):** Filtra la cronología para ver únicamente los tramos en los que el dispositivo estuvo en movimiento. Útil para revisar velocidades, trayectos y tiempos activos.
+- **Estacionado \(![](./stopped.svg)\):**Muestra los eventos donde el dispositivo estuvo detenido y estacionado. Ideal para verificar cuánto tiempo permaneció parado y en qué lugares.
+- **Ralentí \(![](./idle.svg)\):**Muestra los períodos en los que el dispositivo estuvo encendido pero sin avanzar. Ayuda a identificar tiempos improductivos y posibles desperdicios de combustible.
+- **Alertas \(![](./warning.svg)\):**Muestra detalles de alertas enviadas por el dispositivo, como exceso de velocidad, desconexiones o entrada/salida de geocercas. Sirve para detectar situaciones que necesitan atención.
+- **Alertas críticas \(![](./alert.svg)\):** Muestra alertas más importantes o de mayor riesgo. Estas alertas requieren atención inmediata para evitar problemas o incidentes.
 
 ### Campos del Resumen:
 

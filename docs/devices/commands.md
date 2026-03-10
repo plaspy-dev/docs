@@ -71,16 +71,16 @@ The Commands section allows users to configure the available commands for their 
 ## Frequently Asked Questions
 
 - **What are commands ?**
- - Commands are specific instructions configured to be sent to tracking devices from the map.
+    - Commands are specific instructions configured to be sent to tracking devices from the map.
 - **How do I know which commands are available for my device?**
- - The list of available commands is shown in the "Commands" section of each device. Review this list to see all the actions you can configure.
+    - The list of available commands is shown in the "Commands" section of each device. Review this list to see all the actions you can configure.
 - **What should I do if a command does not work?**
- - If a command does not work, verify that the command code is correct and that the device is turned on and connected. If the problem persists, contact technical support.
+    - If a command does not work, verify that the command code is correct and that the device is turned on and connected. If the problem persists, contact technical support.
 - **Can I add new commands?**
- - The available commands depend on the capabilities of the tracking device. If you need to add a new command, consult the device documentation or contact technical support for assistance.
+    - The available commands depend on the capabilities of the tracking device. If you need to add a new command, consult the device documentation or contact technical support for assistance.
 - **What types of commands can be configured ?**
- - **SMS**: Text messages sent to the device.
- - **GPRS**: Commands sent via the data network.
- - **Calls**: Initiates a phone call to the device.
+    - **SMS**: Text messages sent to the device.
+    - **GPRS**: Commands sent via the data network.
+    - **Calls**: Initiates a phone call to the device.
 - **How are commands sent in plain text or hexadecimal?**
- - Commands can be configured in plain text, if the tracker supports it, or in hexadecimal format, for example, 0x686F6C61 to send "hola". Both options are supported by.
+    - Commands can be configured in plain text, if the tracker supports it, or in hexadecimal format, for example, 0x686F6C61 to send "hola". Both options are supported by.

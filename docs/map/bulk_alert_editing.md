@@ -14,30 +14,25 @@ The option to edit alerts is located at the bottom of the map control panel, und
 ### How to Access and Use the Alert Editing Function
 
 1. **Access Alert Editing**:
-
- - Log in to your account.
- - Navigate to the main [map](https://app.plaspy.com/Map) where all your devices are displayed.
- - In the left panel, under the "*fa-exclamation-triangle* Alerts" section, click on "*fa-pencil* Edit Alerts".
+    - Log in to your account.
+    - Navigate to the main [map](https://app.plaspy.com/Map) where all your devices are displayed.
+    - In the left panel, under the "*fa-exclamation-triangle* Alerts" section, click on "*fa-pencil* Edit Alerts".
 2. **Select Devices**:
-
- - In the control panel, select the devices for which you want to configure or edit alerts. The selected devices will be listed at the top of the alert editing window.
+    - In the control panel, select the devices for which you want to configure or edit alerts. The selected devices will be listed at the top of the alert editing window.
 3. **Add or Replace Alerts**:
-
- - **Add**: This option allows you to add new [alerts](../devices/alerts) to the selected devices without deleting existing alerts. Useful when you want to add additional alerts while maintaining current configurations.
- - **Replace**: This option deletes all current alerts on the selected devices and adds the new configured alerts. Use this option with caution, as all existing alerts will be lost.
+    - **Add**: This option allows you to add new [alerts](../devices/alerts) to the selected devices without deleting existing alerts. Useful when you want to add additional alerts while maintaining current configurations.
+    - **Replace**: This option deletes all current alerts on the selected devices and adds the new configured alerts. Use this option with caution, as all existing alerts will be lost.
 
 ### Detailed Steps to Configure Alerts
 
 1. **Add New Alerts**:
-
- - Click the "*fa-plus*" button to add a new [alert](../devices/alerts).
- - Configure the alert parameters according to your needs \(e.g., geofence, speed, idle time, etc.\).
- - Once the alert is configured, click "Ok". The new alert will be added to all selected devices.
+    - Click the "*fa-plus*" button to add a new [alert](../devices/alerts).
+    - Configure the alert parameters according to your needs \(e.g., geofence, speed, idle time, etc.\).
+    - Once the alert is configured, click "Ok". The new alert will be added to all selected devices.
 2. **Replace Existing Alerts**:
-
- - Click the "*fa-plus*" button to add the new alert.
- - Configure the alert parameters according to your needs.
- - Select "ok" to delete all current alerts and add the new alerts to the selected devices.
+    - Click the "*fa-plus*" button to add the new alert.
+    - Configure the alert parameters according to your needs.
+    - Select "ok" to delete all current alerts and add the new alerts to the selected devices.
 
 ### Precautions and Recommendations
 

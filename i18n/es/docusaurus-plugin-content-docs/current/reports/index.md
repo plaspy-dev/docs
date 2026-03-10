@@ -46,6 +46,6 @@ La sección de filtros es fundamental para obtener datos específicos y relevant
 - **¿Qué tipos de informes puedo generar ?**
  -, puede generar varios tipos de informes, incluyendo "Detalle mapa", "Informe de Actividad", "Informe Detallado", y "Resumen de Actividades". Cada tipo de informe ofrece diferentes perspectivas y detalles según las necesidades del usuario.
 - **¿Cómo puedo filtrar los datos en los informes?**
- - Puede agregar filtros adicionales en la sección de filtros al generar un informe. Estos filtros permiten especificar criterios como rangos de velocidad, niveles de batería, zonas geográficas, y más, para refinar los resultados del informe.
+    - Puede agregar filtros adicionales en la sección de filtros al generar un informe. Estos filtros permiten especificar criterios como rangos de velocidad, niveles de batería, zonas geográficas, y más, para refinar los resultados del informe.
 - **¿Puedo descargar los informes en formato Excel?**
- - Sí, después de generar un informe, puede descargarlo en formato Microsoft Excel utilizando el botón "Descargar" disponible en la sección de reportes. Esto facilita la manipulación y análisis adicional de los datos en programas de hojas de cálculo.
+    - Sí, después de generar un informe, puede descargarlo en formato Microsoft Excel utilizando el botón "Descargar" disponible en la sección de reportes. Esto facilita la manipulación y análisis adicional de los datos en programas de hojas de cálculo.

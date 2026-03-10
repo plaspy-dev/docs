@@ -16,33 +16,26 @@ La [Autenticación de Dos Factores](https://app.plaspy.com/UserSecurity/EnableOT
 ### Instrucciones Paso a Paso
 
 1. **Acceder a la Configuración de 2FA:**
-
- - Inicia sesión en tu cuenta.
- - Navega a la sección de "[Cuenta](https://app.plaspy.com/Account)" desde el menú principal.
- - Haz clic en "[Activar autenticación de dos factores](https://app.plaspy.com/UserSecurity/EnableOTP)".
+    - Inicia sesión en tu cuenta.
+    - Navega a la sección de "[Cuenta](https://app.plaspy.com/Account)" desde el menú principal.
+    - Haz clic en "[Activar autenticación de dos factores](https://app.plaspy.com/UserSecurity/EnableOTP)".
 2. **Iniciar el Proceso de Activación:**
-
- - En la pantalla de "Activar autenticación de dos factores", verás tu correo electrónico asociado y una breve descripción de 2FA.
- - Haz clic en el botón **Activar 2FA**.
+    - En la pantalla de "Activar autenticación de dos factores", verás tu correo electrónico asociado y una breve descripción de 2FA.
+    - Haz clic en el botón **Activar 2FA**.
 3. **Configurar la Aplicación de Autenticación:**
-
- - Selecciona y descarga una aplicación de autenticación de tu preferencia \(por ejemplo, Google Authenticator, Authy o Microsoft Authenticator\).
- - Abre la aplicación y sigue las instrucciones para agregar una nueva cuenta.
+    - Selecciona y descarga una aplicación de autenticación de tu preferencia \(por ejemplo, Google Authenticator, Authy o Microsoft Authenticator\).
+    - Abre la aplicación y sigue las instrucciones para agregar una nueva cuenta.
 4. **Escanear el Código QR:**
-
- - te mostrará un código QR que deberás escanear con la aplicación de autenticación.
- - Si tu aplicación no soporta escanear códigos QR, puedes ingresar manualmente el código proporcionado por.
+    - te mostrará un código QR que deberás escanear con la aplicación de autenticación.
+    - Si tu aplicación no soporta escanear códigos QR, puedes ingresar manualmente el código proporcionado por.
 5. **Ingresar el Código de Seguridad:**
-
- - Una vez escaneado el código QR o ingresado manualmente, la aplicación generará un código de seguridad.
- - Introduce este código en el campo correspondiente para completar el proceso de activación.
+    - Una vez escaneado el código QR o ingresado manualmente, la aplicación generará un código de seguridad.
+    - Introduce este código en el campo correspondiente para completar el proceso de activación.
 6. **Confirmación de Contraseña:**
-
- - Por razones de seguridad, se te pedirá que confirmes tu contraseña actual.
- - Introduce tu contraseña y haz clic en **Aceptar**.
+    - Por razones de seguridad, se te pedirá que confirmes tu contraseña actual.
+    - Introduce tu contraseña y haz clic en **Aceptar**.
 7. **Finalizar:**
-
- - Una vez completado el proceso, 2FA estará activado para tu cuenta. Cada vez que inicies sesión, necesitarás proporcionar el código generado por la aplicación de autenticación, además de tu contraseña.
+    - Una vez completado el proceso, 2FA estará activado para tu cuenta. Cada vez que inicies sesión, necesitarás proporcionar el código generado por la aplicación de autenticación, además de tu contraseña.
 
 ### Validaciones y Restricciones
 

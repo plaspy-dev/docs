@@ -61,12 +61,12 @@ The Sensors section allows you to configure and monitor various sensors associat
 ## Frequently Asked Questions
 
 - **Why is setting the mileage important?**
- - Accurately setting the [mileage](../map/mileage_calculation) helps in tracking the vehicle's usage, scheduling maintenance, and calculating fuel consumption.
+    - Accurately setting the [mileage](../map/mileage_calculation) helps in tracking the vehicle's usage, scheduling maintenance, and calculating fuel consumption.
 - **What should I do if my vehicle's fuel consumption changes?**
- - Update the "Fuel Consumption" field with the new estimated value to ensure accurate fuel consumption calculations.
+    - Update the "Fuel Consumption" field with the new estimated value to ensure accurate fuel consumption calculations.
 - **How does the tank capacity affect fuel calculations?**
- - The tank capacity is used to calculate the fuel levels and consumption more accurately. Ensure this value is correct to avoid miscalculations.
+    - The tank capacity is used to calculate the fuel levels and consumption more accurately. Ensure this value is correct to avoid miscalculations.
 - **What are digital inputs and outputs used for?**
- - Digital inputs and outputs are used for monitoring and controlling specific functions of the device, such as ignition status or activating/deactivating certain components. You can rename them for easier identification.
+    - Digital inputs and outputs are used for monitoring and controlling specific functions of the device, such as ignition status or activating/deactivating certain components. You can rename them for easier identification.
 - **What happens when I reset a sensor's state?**
- - Resetting a sensor’s state will set its accumulated time to zero and deactivate the sensor until the tracker sends information again to.
+    - Resetting a sensor’s state will set its accumulated time to zero and deactivate the sensor until the tracker sends information again to.

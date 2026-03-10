@@ -17,19 +17,16 @@ To reconfigure your tracker to connect directly to the server, use the following
 ### Step-by-Step Instructions to Reconfigure and Add the Device
 
 1. **Configure the Tracker**:
-
- - Access your [tracker’s configuration settings](.). This may require using SMS commands or the manufacturer’s software, depending on your device model.
- - Enter the provided server and port details:
- - **Server**: `54.85.159.138`
- - **Port**: `9000`
+    - Access your [tracker’s configuration settings](.). This may require using SMS commands or the manufacturer’s software, depending on your device model.
+    - Enter the provided server and port details:
+    - **Server**: `54.85.159.138`
+    - **Port**: `9000`
 2. **Add Device **:
-
- - Log into your account.
- - Go to the **[Devices](https://app.plaspy.com/Devices)** section.
- - Add your device using the identifier followed by `:0`. For example, if your device’s identifier is `1234567890`, you should enter it as `1234567890:0`.
+    - Log into your account.
+    - Go to the **[Devices](https://app.plaspy.com/Devices)** section.
+    - Add your device using the identifier followed by `:0`. For example, if your device’s identifier is `1234567890`, you should enter it as `1234567890:0`.
 3. **Verify Operation**:
-
- - Ensure the device is sending data correctly and appears on the map.
+    - Ensure the device is sending data correctly and appears on the map.
 
 ### Configuration Example
 

@@ -71,16 +71,16 @@ La sección de Comandos permite a los usuarios configurar los comandos disponibl
 ## Preguntas Frecuentes
 
 - **¿Qué son los comandos ?**
- - Los comandos son instrucciones específicas que se configuran para ser enviadas a los dispositivos de rastreo desde el mapa.
+    - Los comandos son instrucciones específicas que se configuran para ser enviadas a los dispositivos de rastreo desde el mapa.
 - **¿Cómo sé qué comandos están disponibles para mi dispositivo?**
- - La lista de comandos disponibles se muestra en la sección "*fa-code* Comandos" de cada dispositivo. Revisa esta lista para ver todas las acciones que puedes configurar.
+    - La lista de comandos disponibles se muestra en la sección "*fa-code* Comandos" de cada dispositivo. Revisa esta lista para ver todas las acciones que puedes configurar.
 - **¿Qué debo hacer si un comando no funciona?**
- - Si un comando no funciona, verifica que el código del comando sea correcto y que el dispositivo esté encendido y conectado. Si el problema persiste, contacta al soporte técnico.
+    - Si un comando no funciona, verifica que el código del comando sea correcto y que el dispositivo esté encendido y conectado. Si el problema persiste, contacta al soporte técnico.
 - **¿Puedo agregar nuevos comandos?**
- - Los comandos disponibles dependen de las capacidades del dispositivo de rastreo. Si necesitas agregar un nuevo comando, consulta la documentación del dispositivo o contacta al soporte técnico para obtener ayuda.
+    - Los comandos disponibles dependen de las capacidades del dispositivo de rastreo. Si necesitas agregar un nuevo comando, consulta la documentación del dispositivo o contacta al soporte técnico para obtener ayuda.
 - **¿Qué tipos de comandos se pueden configurar ?**
- - **SMS**: Mensajes de texto enviados al dispositivo.
- - **GPRS**: Comandos enviados a través de la red de datos.
- - **Llamadas**: Inician una llamada telefónica al dispositivo.
+    - **SMS**: Mensajes de texto enviados al dispositivo.
+    - **GPRS**: Comandos enviados a través de la red de datos.
+    - **Llamadas**: Inician una llamada telefónica al dispositivo.
 - **¿Cómo se envían los comandos en texto plano o hexadecimal?**
- - Los comandos pueden configurarse en texto plano, si el rastreador lo soporta, o en formato hexadecimal, por ejemplo, 0x686F6C61 para enviar "hola". Ambas opciones son soportadas por.
+    - Los comandos pueden configurarse en texto plano, si el rastreador lo soporta, o en formato hexadecimal, por ejemplo, 0x686F6C61 para enviar "hola". Ambas opciones son soportadas por.

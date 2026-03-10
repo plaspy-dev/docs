@@ -25,9 +25,8 @@ Para acceder a la opción de recordar usuario, sigue estos pasos:
 
 1. **Seleccionar Método de Recuperación**: En la página de recordar usuario, elige el método que prefieres para recuperar tu usuario: "Identificador o IMEI del dispositivo" o "Número de teléfono móvil".
 2. **Ingresar Información**:
-
- - Si seleccionaste "Identificador o IMEI del dispositivo", ingresa el identificador, IMEI o serial de cualquier dispositivo registrado en tu cuenta en el campo correspondiente.
- - Si seleccionaste "Número de teléfono móvil", ingresa tu número de teléfono móvil registrado en el campo correspondiente.
+    - Si seleccionaste "Identificador o IMEI del dispositivo", ingresa el identificador, IMEI o serial de cualquier dispositivo registrado en tu cuenta en el campo correspondiente.
+    - Si seleccionaste "Número de teléfono móvil", ingresa tu número de teléfono móvil registrado en el campo correspondiente.
 3. **Completar reCAPTCHA**: Marca la casilla "No soy un robot". Esto puede requerir que completes un breve desafío visual para verificar tu identidad.
 4. **Hacer clic en Recordar**: Una vez que hayas ingresado la información requerida y completado el reCAPTCHA, haz clic en el botón "Recordar".
 5. **Mostrar Usuario en Pantalla**: El correo electrónico registrado se mostrará en la pantalla una vez que se complete la información.
@@ -43,11 +42,11 @@ Para acceder a la opción de recordar usuario, sigue estos pasos:
 ## Preguntas Frecuentes
 
 - **¿Qué hago si no veo mi usuario en la pantalla o no recibo el correo de recuperación de usuario?**
- - Revisa tu carpeta de spam o correo no deseado.
- - Asegúrate de que la información ingresada esté correctamente registrada en tu cuenta.
- - Si aún no recibes el correo, intenta repetir el proceso o contacta al soporte técnico.
+    - Revisa tu carpeta de spam o correo no deseado.
+    - Asegúrate de que la información ingresada esté correctamente registrada en tu cuenta.
+    - Si aún no recibes el correo, intenta repetir el proceso o contacta al soporte técnico.
 - **¿Cómo puedo asegurarme de que mi información de contacto esté actualizada ?**
- - Accede a tu cuenta y verifica que tu información de contacto \(correo electrónico y número de teléfono móvil\) esté correcta y actualizada.
- - Si es necesario, actualiza tu información para evitar problemas futuros al recuperar tu usuario o restablecer tu contraseña.
+    - Accede a tu cuenta y verifica que tu información de contacto \(correo electrónico y número de teléfono móvil\) esté correcta y actualizada.
+    - Si es necesario, actualiza tu información para evitar problemas futuros al recuperar tu usuario o restablecer tu contraseña.
 
 Siguiendo estos pasos, podrás recuperar tu nombre de usuario de manera segura y rápida, asegurando que tu cuenta permanezca accesible.

@@ -44,10 +44,10 @@ the map is designed to offer a complete and efficient user experience, facilitat
 ### Frequently Asked Questions
 
 - **[How can I see the complete route of a device?](viewing_a_devices_route_history)**
- - Activate the "Show Route" option in the side panel and select the desired date range to visualize the complete route on the map.
+    - Activate the "Show Route" option in the side panel and select the desired date range to visualize the complete route on the map.
 - **Can I set up alerts for specific areas?**
- - Yes, use the alerts panel to create [geofences](geofences) and set up alerts based on entry or exit from these areas.
+    - Yes, use the alerts panel to create [geofences](geofences) and set up alerts based on entry or exit from these areas.
 - **How do I export map data to Excel?**
- - In the save menu, select the "*fa-file-excel-o* MS Excel" option to export the current map data in Excel format.
+    - In the save menu, select the "*fa-file-excel-o* MS Excel" option to export the current map data in Excel format.
 
 This manual covers the basic functionalities of the map, providing a clear and detailed guide to maximizing the use of this satellite tracking tool.

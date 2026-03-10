@@ -16,29 +16,25 @@ To activate the API service in your account, you need to generate an API Key, wh
 ### Step-by-Step
 
 1. **Access the Account Section:**
-
- - Log in to your account and navigate to the top right corner.
- - Click on your user name and select "[*fa-user* My Account](https://app.plaspy.com/Account)" from the dropdown menu.
- - You can also access it directly via this [link](https://app.plaspy.com/Account).
+    - Log in to your account and navigate to the top right corner.
+    - Click on your user name and select "[*fa-user* My Account](https://app.plaspy.com/Account)" from the dropdown menu.
+    - You can also access it directly via this [link](https://app.plaspy.com/Account).
 2. **Navigate to Account Information:**
-
- - On the account page, find the "*fa-user* Account Information" section.
- - Within this section, locate the "API Key" option.
+    - On the account page, find the "*fa-user* Account Information" section.
+    - Within this section, locate the "API Key" option.
 3. **Generate the API Key:**
-
- - Click on the options icon \(*fa-ellipsis-v*\) next to "API Key".
- - Select the "*fa-refresh* Generate" option from the dropdown menu.
- - This will generate a new access key that you can use to integrate 's API into your application or website.
+    - Click on the options icon \(*fa-ellipsis-v*\) next to "API Key".
+    - Select the "*fa-refresh* Generate" option from the dropdown menu.
+    - This will generate a new access key that you can use to integrate 's API into your application or website.
 4. **Copy and Save the API Key:**
-
- - Once the API Key is generated, make sure to copy and save it in a secure place. This key will be necessary to authenticate requests to 's REST API.
+    - Once the API Key is generated, make sure to copy and save it in a secure place. This key will be necessary to authenticate requests to 's REST API.
 
 ### Managing the API Key
 
 - **Delete the API Key:**
- - If you want to delete the API Key, click on the options icon \(*fa-ellipsis-v*\) next to "API Key" and select "*fa-trash-o* Delete". This will revoke access for any user currently using this key.
+    - If you want to delete the API Key, click on the options icon \(*fa-ellipsis-v*\) next to "API Key" and select "*fa-trash-o* Delete". This will revoke access for any user currently using this key.
 - **Regenerate the API Key:**
- - You can generate a new API Key at any time. Doing so will automatically invalidate the previous key, and users using the old key will immediately lose access.
+    - You can generate a new API Key at any time. Doing so will automatically invalidate the previous key, and users using the old key will immediately lose access.
 
 ## What is an API and What is it Used For?
 

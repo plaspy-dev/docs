@@ -25,20 +25,20 @@ Cambiar el ícono del marcador te permite personalizar cómo se representan visu
 ### Personalización de Colores del Ícono
 
 1. **Color del Ícono**: Debajo de la cuadrícula de selección de íconos, hay opciones para personalizar el color del ícono.
- - Localiza la sección "Ícono".
- - Usa el selector de color para elegir un nuevo color para el ícono.
- - El color seleccionado se aplicará al ícono.
+    - Localiza la sección "Ícono".
+    - Usa el selector de color para elegir un nuevo color para el ícono.
+    - El color seleccionado se aplicará al ícono.
 2. **Color del Texto**: De manera similar, puedes personalizar el color del texto que aparece dentro o junto al ícono.
- - Localiza la sección "Texto".
- - Usa el selector de color para elegir un nuevo color de texto.
- - El color seleccionado se aplicará al texto en el ícono.
+    - Localiza la sección "Texto".
+    - Usa el selector de color para elegir un nuevo color de texto.
+    - El color seleccionado se aplicará al texto en el ícono.
 
 ### Añadir Texto al Ícono
 
 1. **Campo de Texto**: Puedes añadir texto al ícono para una mayor personalización.
- - Localiza el campo "Texto".
- - Ingresa el texto deseado \(hasta 8 caracteres\).
- - El texto aparecerá en el ícono.
+    - Localiza el campo "Texto".
+    - Ingresa el texto deseado \(hasta 8 caracteres\).
+    - El texto aparecerá en el ícono.
 
 ### Tipos de Íconos
 
@@ -53,10 +53,10 @@ Cambia entre los tipos de íconos haciendo clic en las pestañas respectivas en 
 
 1. **Iconos 2D y Estáticos**: Además de seleccionar íconos predefinidos, puedes subir tus propios íconos personalizados del tipo 2D y estáticos.
 2. **Subir Ícono**:
- - Navega a la pestaña correspondiente a íconos 2D o estáticos.
- - Haz clic en el botón "Subir Ícono".
- - Selecciona el archivo de ícono desde tu dispositivo. Asegúrate de que el archivo esté en un formato compatible \(por ejemplo, PNG o SVG\).
- - Una vez subido, el nuevo ícono aparecerá en la lista de íconos disponibles.
+    - Navega a la pestaña correspondiente a íconos 2D o estáticos.
+    - Haz clic en el botón "Subir Ícono".
+    - Selecciona el archivo de ícono desde tu dispositivo. Asegúrate de que el archivo esté en un formato compatible \(por ejemplo, PNG o SVG\).
+    - Una vez subido, el nuevo ícono aparecerá en la lista de íconos disponibles.
 3. **Seleccionar y Confirmar**: Selecciona tu ícono personalizado de la lista y haz clic en "Aceptar" para aplicarlo al dispositivo.
 
 ## Guardar los Cambios
@@ -67,8 +67,8 @@ Cambia entre los tipos de íconos haciendo clic en las pestañas respectivas en 
 ## Preguntas Comunes
 
 - **¿Puedo subir un ícono de marcador personalizado?**
- - Sí, La plataforma permite subir íconos personalizados del tipo 2D y estáticos. Sigue los pasos mencionados para subir y aplicar tu ícono personalizado.
+    - Sí, La plataforma permite subir íconos personalizados del tipo 2D y estáticos. Sigue los pasos mencionados para subir y aplicar tu ícono personalizado.
 - **¿Qué pasa si cambio de opinión sobre el ícono?**
- - Puedes cambiar el ícono del marcador tantas veces como desees. Simplemente sigue los pasos anteriores para seleccionar un nuevo ícono.
+    - Puedes cambiar el ícono del marcador tantas veces como desees. Simplemente sigue los pasos anteriores para seleccionar un nuevo ícono.
 - **¿Cómo ayuda el texto en el ícono?**
- - Añadir texto al ícono puede ayudar a identificar rápidamente dispositivos específicos en el mapa, especialmente cuando se trata de múltiples dispositivos.
+    - Añadir texto al ícono puede ayudar a identificar rápidamente dispositivos específicos en el mapa, especialmente cuando se trata de múltiples dispositivos.

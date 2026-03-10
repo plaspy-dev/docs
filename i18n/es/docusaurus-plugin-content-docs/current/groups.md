@@ -31,32 +31,25 @@ Los grupos permiten realizar las siguientes acciones:
 #### Crear un Nuevo Grupo
 
 1. **Acceder a la Sección de Grupos**:
-
- - Haz clic en "*fa-cogs* Configuración" en la parte superior derecha y selecciona "[*fa-users* Grupos](https://app.plaspy.com/Groups)".
+    - Haz clic en "*fa-cogs* Configuración" en la parte superior derecha y selecciona "[*fa-users* Grupos](https://app.plaspy.com/Groups)".
 2. **Iniciar la Creación de un Grupo**:
-
- - Haz clic en el ícono "*fa-plus*" en la esquina inferior derecha para abrir el formulario de creación de grupo.
+    - Haz clic en el ícono "*fa-plus*" en la esquina inferior derecha para abrir el formulario de creación de grupo.
 3. **Completar los Detalles del Grupo**:
-
- - **Nombre**: Introduce el nombre del grupo.
- - **Descripción**: Añade una descripción detallada del grupo.
- - **Dispositivos**: Usa el campo de búsqueda para añadir dispositivos al grupo.
+    - **Nombre**: Introduce el nombre del grupo.
+    - **Descripción**: Añade una descripción detallada del grupo.
+    - **Dispositivos**: Usa el campo de búsqueda para añadir dispositivos al grupo.
 4. **Guardar el Grupo**:
-
- - Haz clic en "Aceptar" para guardar el nuevo grupo.
- - Si deseas cancelar, haz clic en "Cancelar".
+    - Haz clic en "Aceptar" para guardar el nuevo grupo.
+    - Si deseas cancelar, haz clic en "Cancelar".
 
 #### Editar un Grupo Existente
 
 1. **Seleccionar el Grupo a Editar**:
-
- - En la lista de [*fa-users* grupos](https://app.plaspy.com/Groups), haz clic en el ícono de editar \(*fa-pencil-square*\) junto al grupo que deseas modificar.
+    - En la lista de [*fa-users* grupos](https://app.plaspy.com/Groups), haz clic en el ícono de editar \(*fa-pencil-square*\) junto al grupo que deseas modificar.
 2. **Modificar los Detalles del Grupo**:
-
- - Realiza los cambios necesarios en el nombre, descripción o dispositivos del grupo.
+    - Realiza los cambios necesarios en el nombre, descripción o dispositivos del grupo.
 3. **Guardar los Cambios**:
-
- - Haz clic en "Aceptar" para guardar los cambios realizados.
+    - Haz clic en "Aceptar" para guardar los cambios realizados.
 
 ### Validaciones y Restricciones
 
@@ -66,13 +59,12 @@ Los grupos permiten realizar las siguientes acciones:
 ### Preguntas Frecuentes
 
 - **¿Cómo puedo agregar dispositivos a un grupo?**
- - Utiliza el campo de búsqueda en el formulario de edición de grupos para encontrar y agregar dispositivos al grupo.
+    - Utiliza el campo de búsqueda en el formulario de edición de grupos para encontrar y agregar dispositivos al grupo.
 - **¿Puedo asignar un dispositivo a varios grupos?**
- - Sí, un dispositivo puede pertenecer a múltiples grupos, lo que te permite organizarlo según diferentes criterios.
+    - Sí, un dispositivo puede pertenecer a múltiples grupos, lo que te permite organizarlo según diferentes criterios.
 - **¿Qué hago si quiero eliminar un grupo?**
- - Haz clic en el ícono de eliminar \(*fa-trash*\) en la parte inferior izquierda del formulario de edición. Confirma la eliminación cuando se te solicite.
+    - Haz clic en el ícono de eliminar \(*fa-trash*\) en la parte inferior izquierda del formulario de edición. Confirma la eliminación cuando se te solicite.
 - **¿Cómo puedo ver solo los dispositivos de un grupo en el mapa?**
- - Selecciona el grupo deseado en el filtro del mapa para visualizar únicamente los dispositivos que pertenecen a ese grupo.
+    - Selecciona el grupo deseado en el filtro del mapa para visualizar únicamente los dispositivos que pertenecen a ese grupo.
 - **¿Es posible compartir un grupo con otros usuarios?** 
-
- - Sí, puedes configurar permisos de acceso para compartir el grupo con otros usuarios, permitiéndoles ver y gestionar los dispositivos del grupo.
+    - Sí, puedes configurar permisos de acceso para compartir el grupo con otros usuarios, permitiéndoles ver y gestionar los dispositivos del grupo.

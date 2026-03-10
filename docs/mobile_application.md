@@ -37,12 +37,12 @@ sidebar_class_name: show-only-plaspy
 ### Device Configuration
 
 1. **Tracking Options:**To have the tracking option available, you must have licenses available in your account. Otherwise, you will directly enter your account with the current user privileges.
- - **Do not track this device:** Use your mobile phone only to access the platform without tracking the device.
- - **Track this device:** Allow your phone to be tracked as a new device.
+    - **Do not track this device:** Use your mobile phone only to access the platform without tracking the device.
+    - **Track this device:** Allow your phone to be tracked as a new device.
 2. **Tracking Configuration:**If you decide to track your device:
- - **Device Name:** Enter the name of your device.
- - **Update Intervals:** Select the time interval for tracking updates.
- - **Privileges:** Assign the appropriate privileges \(All, Administrator, etc.\).
+    - **Device Name:** Enter the name of your device.
+    - **Update Intervals:** Select the time interval for tracking updates.
+    - **Privileges:** Assign the appropriate privileges \(All, Administrator, etc.\).
 3. **Accept Permissions:** Accept the security permissions requested by the application.
 
 ## Conclusion
@@ -52,8 +52,8 @@ Once the application is configured, you will have access to all functions direct
 ## Frequently Asked Questions
 
 - **Is the application compatible with all devices?**
- - The platform is compatible with Android devices \(version 6.0 and later\) and iOS devices \(version 9.0 and later\). Ensure you have a device with GPS and 3G connectivity or higher.
+    - The platform is compatible with Android devices \(version 6.0 and later\) and iOS devices \(version 9.0 and later\). Ensure you have a device with GPS and 3G connectivity or higher.
 - **What should I do if I don't receive notifications?**
- - Check that your device's GPS is active and that the application is open and not removed from the multitasking bar. Also, ensure you have a good internet connection.
+    - Check that your device's GPS is active and that the application is open and not removed from the multitasking bar. Also, ensure you have a good internet connection.
 
 By following this guide, you can install and use the mobile application to take full advantage of its features and effectively manage your devices.

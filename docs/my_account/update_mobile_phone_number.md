@@ -34,12 +34,12 @@ To access the option to update your mobile phone number:
 ### Frequently Asked Questions
 
 - **Why do I need a recovery phone number?**
- - The recovery phone number is necessary to secure your account and allow recovery in case you forget your password or if detects suspicious activity.
+    - The recovery phone number is necessary to secure your account and allow recovery in case you forget your password or if detects suspicious activity.
 - **Can I use any phone number?**
- - You can use any phone number that meets the international format and is accessible to you in case of emergencies related to your account.
+    - You can use any phone number that meets the international format and is accessible to you in case of emergencies related to your account.
 - **What if I do not have a phone number in international format?**
- - It is necessary for the number to be in international format. If you do not have one, consider acquiring a number that can be used for this purpose.
+    - It is necessary for the number to be in international format. If you do not have one, consider acquiring a number that can be used for this purpose.
 - **How do I know if my number was updated correctly?**
- - After entering and confirming the number, you will receive a notification on the platform indicating that the changes have been successfully saved.
+    - After entering and confirming the number, you will receive a notification on the platform indicating that the changes have been successfully saved.
 
 This functionality ensures that your account is protected and that you can always recover access in case of security issues. Make sure to keep your recovery number updated and correctly entered in the required format.

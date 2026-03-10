@@ -12,8 +12,8 @@ To start using a new tracker, you need to follow some [configuration](https://ap
 1. **Start Configuration**: Log into your account and go to the [**Devices**](https://app.plaspy.com/Devices) section and click on [How I do set up my device?](https://app.plaspy.com/Start?w=1)
 2. **Select Device Type**: Choose the type of device you want to configure \(tracker or mobile device\).
 3. **Add Device Details**:
- - **Name**: Enter a name for your tracker.
- - **IMEI or ID**: Enter the IMEI number or the tracker identifier. This number is usually the 15-digit IMEI, but some trackers use the last 11 digits of the IMEI or a unique serial number. Refer to the user manual for more details.
+    - **Name**: Enter a name for your tracker.
+    - **IMEI or ID**: Enter the IMEI number or the tracker identifier. This number is usually the 15-digit IMEI, but some trackers use the last 11 digits of the IMEI or a unique serial number. Refer to the user manual for more details.
 
 ### Step 2: Configure the APN
 

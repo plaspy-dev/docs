@@ -60,38 +60,33 @@ La opción de Historial en la configuración permite a los usuarios revisar y re
 ## Instrucciones Paso a Paso
 
 1. **Acceder a la Configuración**:
-
- - En el panel principal, haz clic en el ícono de engranaje \(*fa-cogs*\) en la esquina superior derecha.
- - Selecciona "[*fa-list* Configuración](https://app.plaspy.com/Settings)" del menú desplegable.
+    - En el panel principal, haz clic en el ícono de engranaje \(*fa-cogs*\) en la esquina superior derecha.
+    - Selecciona "[*fa-list* Configuración](https://app.plaspy.com/Settings)" del menú desplegable.
 2. **Personalización**:
-
- - Ve a la pestaña "*fa-list* Personalización".
- - Para cambiar el logo, haz clic en "Elegir archivo" y selecciona una imagen desde tu dispositivo.
- - Ingresa la URL de redirección al cerrar sesión en el campo "Página web al cerrar sesión".
- - Añade un mensaje global en el campo "Mensaje para todos los usuarios".
+    - Ve a la pestaña "*fa-list* Personalización".
+    - Para cambiar el logo, haz clic en "Elegir archivo" y selecciona una imagen desde tu dispositivo.
+    - Ingresa la URL de redirección al cerrar sesión en el campo "Página web al cerrar sesión".
+    - Añade un mensaje global en el campo "Mensaje para todos los usuarios".
 3. **Personalización Avanzada**:
-
- - Dirígete a la pestaña "*fa-television* Personalización Avanzada".
- - En "[*fa-building* Organización](organization)", cambia el nombre de la organización y el ícono de la plataforma según sea necesario.
- - En "[*fa-user-o* Ingreso](log_in)", personaliza la apariencia de la página de inicio de sesión.
- - En "[*fa-envelope* Contacto](contact)", añade información de contacto relevante para los usuarios.
- - En "[*fa-desktop* Estilos](styles)", selecciona los colores que representen mejor tu marca.
- - En "[*fa-globe* Mapas](maps)", configura las opciones de visualización de los mapas.
- - En "[*fa-envelope-o* Plantillas email](email_templates)", modifica el contenido y diseño de los correos electrónicos.
- - En "[*fa-mobile* Notificaciones móviles Push](push_notifications)", personaliza las notificaciones push.
- - En "[*fa-telegram* Notificaciones Telegram](telegram_notifications)", configura las notificaciones a través de Telegram.
- - En "[*fa-whatsapp* Notificaciones WhatsApp](whatsapp_notifications)", configura las notificaciones a través de WhatsApp.
- - En "[*fa-mobile* Crear aplicación móvil](https://app.plaspy.com/Settings/MobileApp)", genera tu propia app fácil y rápido llenando un pequeño formulario.
+    - Dirígete a la pestaña "*fa-television* Personalización Avanzada".
+    - En "[*fa-building* Organización](organization)", cambia el nombre de la organización y el ícono de la plataforma según sea necesario.
+    - En "[*fa-user-o* Ingreso](log_in)", personaliza la apariencia de la página de inicio de sesión.
+    - En "[*fa-envelope* Contacto](contact)", añade información de contacto relevante para los usuarios.
+    - En "[*fa-desktop* Estilos](styles)", selecciona los colores que representen mejor tu marca.
+    - En "[*fa-globe* Mapas](maps)", configura las opciones de visualización de los mapas.
+    - En "[*fa-envelope-o* Plantillas email](email_templates)", modifica el contenido y diseño de los correos electrónicos.
+    - En "[*fa-mobile* Notificaciones móviles Push](push_notifications)", personaliza las notificaciones push.
+    - En "[*fa-telegram* Notificaciones Telegram](telegram_notifications)", configura las notificaciones a través de Telegram.
+    - En "[*fa-whatsapp* Notificaciones WhatsApp](whatsapp_notifications)", configura las notificaciones a través de WhatsApp.
+    - En "[*fa-mobile* Crear aplicación móvil](https://app.plaspy.com/Settings/MobileApp)", genera tu propia app fácil y rápido llenando un pequeño formulario.
 4. **Servidor de correo \(SMTP\)**:
-
- - Navega a la pestaña "*fa-envelope-o* Servidor de correo \(SMTP\)".
- - Ingresa los detalles de tu servidor SMTP, incluyendo la dirección del servidor, el puerto, y la dirección de correo del remitente.
- - Si es necesario, ingresa las credenciales de autenticación.
+    - Navega a la pestaña "*fa-envelope-o* Servidor de correo \(SMTP\)".
+    - Ingresa los detalles de tu servidor SMTP, incluyendo la dirección del servidor, el puerto, y la dirección de correo del remitente.
+    - Si es necesario, ingresa las credenciales de autenticación.
 5. **Historial**:
-
- - Selecciona en la parte inferior izquierda el botón "*fa-list* Historial"
- - Consulta las configuraciones anteriores utilizando el selector de fechas.
- - Para restaurar una configuración, selecciona la fecha deseada y confirma la acción de restauración. Esto revertirá cualquier cambio realizado desde esa fecha.
+    - Selecciona en la parte inferior izquierda el botón "*fa-list* Historial"
+    - Consulta las configuraciones anteriores utilizando el selector de fechas.
+    - Para restaurar una configuración, selecciona la fecha deseada y confirma la acción de restauración. Esto revertirá cualquier cambio realizado desde esa fecha.
 
 ## Validaciones y Restricciones
 
@@ -103,16 +98,12 @@ La opción de Historial en la configuración permite a los usuarios revisar y re
 ## Preguntas Frecuentes
 
 - **¿Por qué no puedo acceder a la Personalización Avanzada?** 
-
- - La Personalización Avanzada está disponible únicamente para cuentas que tienen más de 100 dispositivos activos.
+    - La Personalización Avanzada está disponible únicamente para cuentas que tienen más de 100 dispositivos activos.
 - **¿Cómo puedo cambiar el logo de mi cuenta?** 
-
- - Puedes cambiar el logo accediendo a la sección de [*fa-television* Personalización](https://app.plaspy.com/Settings), seleccionando un archivo desde tu dispositivo y subiéndolo.
+    - Puedes cambiar el logo accediendo a la sección de [*fa-television* Personalización](https://app.plaspy.com/Settings), seleccionando un archivo desde tu dispositivo y subiéndolo.
 - **¿Qué debo hacer si tengo problemas con la configuración del servidor SMTP?** 
-
- - Asegúrate de que los detalles del servidor SMTP, incluyendo el puerto y la dirección del servidor, estén correctos. Puedes contactar a tu proveedor de servicios de correo para obtener la información necesaria.
+    - Asegúrate de que los detalles del servidor SMTP, incluyendo el puerto y la dirección del servidor, estén correctos. Puedes contactar a tu proveedor de servicios de correo para obtener la información necesaria.
 - **¿Cómo puedo restaurar una configuración anterior?** 
-
- - Accede a la sección de Historial, selecciona la fecha de la configuración que deseas restaurar y confirma la restauración. Esto revertirá cualquier cambio realizado desde esa fecha.
+    - Accede a la sección de Historial, selecciona la fecha de la configuración que deseas restaurar y confirma la restauración. Esto revertirá cualquier cambio realizado desde esa fecha.
 
 Para más información y tutoriales en video, visita los enlaces proporcionados en la sección de configuración.

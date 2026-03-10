@@ -43,17 +43,14 @@ Para acceder a la sección de estadísticas, dirígete al menú superior y selec
 #### Funcionalidades del Chat Incorporado con IA
 
 1. **Consultas en Tiempo Real:**
-
- - Puedes hacer preguntas directas sobre las estadísticas actuales de tus dispositivos, tales como "¿Cuántos kilómetros recorrieron los vehículos la semana pasada?" o "¿Cuál fue el consumo de combustible de los últimos 30 días?"
- - La IA responderá de inmediato con la información más reciente disponible en el sistema.
+    - Puedes hacer preguntas directas sobre las estadísticas actuales de tus dispositivos, tales como "¿Cuántos kilómetros recorrieron los vehículos la semana pasada?" o "¿Cuál fue el consumo de combustible de los últimos 30 días?"
+    - La IA responderá de inmediato con la información más reciente disponible en el sistema.
 2. **Solicitar Nueva Información:**
-
- - Si necesitas generar un reporte específico o analizar un nuevo conjunto de datos, simplemente pide a la IA que lo haga por ti. Por ejemplo, "Genera un informe de alertas de los últimos 7 días" o "Muestra el análisis de velocidad para el vehículo A."
- - La IA procesará tu solicitud y te proporcionará el resultado deseado.
+    - Si necesitas generar un reporte específico o analizar un nuevo conjunto de datos, simplemente pide a la IA que lo haga por ti. Por ejemplo, "Genera un informe de alertas de los últimos 7 días" o "Muestra el análisis de velocidad para el vehículo A."
+    - La IA procesará tu solicitud y te proporcionará el resultado deseado.
 3. **Exploración Detallada de Datos:**
-
- - La IA puede desglosar la información contenida en las estadísticas y presentar datos específicos según tus necesidades. Puedes preguntar "¿Cuántas alertas de exceso de velocidad hubo ayer?" o "¿Cuál fue la velocidad máxima registrada hoy?"
- - Esto facilita una comprensión profunda y detallada de los datos sin necesidad de navegar manualmente por múltiples secciones.
+    - La IA puede desglosar la información contenida en las estadísticas y presentar datos específicos según tus necesidades. Puedes preguntar "¿Cuántas alertas de exceso de velocidad hubo ayer?" o "¿Cuál fue la velocidad máxima registrada hoy?"
+    - Esto facilita una comprensión profunda y detallada de los datos sin necesidad de navegar manualmente por múltiples secciones.
 
 #### Beneficios de Usar el Chat con IA
 
@@ -66,32 +63,28 @@ Para acceder a la sección de estadísticas, dirígete al menú superior y selec
 La plataforma ofrece varias opciones para guardar las estadísticas generadas en formato Excel, permitiendo una mayor flexibilidad en el análisis y gestión de datos. A continuación, se detallan las opciones disponibles:
 
 - **Estadistica actual:** 
- - ***fa-floppy-o*  Dispositivos Seleccionados**: Permite guardar la estadística del dispositivo actual que se está visualizando, de los dispositivos seleccionados en el filtro.
- - ***fa-cogs* Cada Dispositivo en una Hoja Diferente**: Guarda la estadística actual de los dispositivos seleccionados, cada uno en una hoja por separado dentro del mismo archivo Excel.
+    - ***fa-floppy-o*  Dispositivos Seleccionados**: Permite guardar la estadística del dispositivo actual que se está visualizando, de los dispositivos seleccionados en el filtro.
+    - ***fa-cogs* Cada Dispositivo en una Hoja Diferente**: Guarda la estadística actual de los dispositivos seleccionados, cada uno en una hoja por separado dentro del mismo archivo Excel.
 - **Todas las estadísticas:**
- - *fa-floppy-o*<sub><i>fa-floppy-o</i></sub>**Cada Estadística en Hojas Diferentes**: Guarda todas las estadísticas de los dispositivos seleccionados, cada estadística en hojas diferentes del mismo archivo Excel.
- - ***fa-file-excel-o*<sub><i>fa-file-excel-o</i></sub> Cada Dispositivo en un Archivo Diferente**: Guarda todas las estadísticas de los dispositivos seleccionados en archivos Excel separados, cada dispositivo en un archivo diferente.
+    - *fa-floppy-o*<sub><i>fa-floppy-o</i></sub>**Cada Estadística en Hojas Diferentes**: Guarda todas las estadísticas de los dispositivos seleccionados, cada estadística en hojas diferentes del mismo archivo Excel.
+    - ***fa-file-excel-o*<sub><i>fa-file-excel-o</i></sub> Cada Dispositivo en un Archivo Diferente**: Guarda todas las estadísticas de los dispositivos seleccionados en archivos Excel separados, cada dispositivo en un archivo diferente.
 
 ### Instrucciones Paso a Paso
 
 #### Acceso a la sección de estadísticas
 
 1. **Abrir el menú de estadísticas**:
-
- - En el menú superior derecho, haz clic en el ícono de [estadísticas](https://app.plaspy.com/Statistics) \(representado por *fa-bar-chart*\).
+    - En el menú superior derecho, haz clic en el ícono de [estadísticas](https://app.plaspy.com/Statistics) \(representado por *fa-bar-chart*\).
 2. **Seleccionar los filtros deseados**:
-
- - **Fecha**: Selecciona el rango de fechas que deseas analizar.
- - **Grupo**: Elige el grupo de dispositivos \(opcional\).
- - **Dispositivos**: Selecciona uno o varios dispositivos específicos.
- - **Tipo**: Selecciona el tipo de estadística que deseas generar.
+    - **Fecha**: Selecciona el rango de fechas que deseas analizar.
+    - **Grupo**: Elige el grupo de dispositivos \(opcional\).
+    - **Dispositivos**: Selecciona uno o varios dispositivos específicos.
+    - **Tipo**: Selecciona el tipo de estadística que deseas generar.
 3. **Generar la estadística**:
-
- - Haz clic en el botón "*fa-refresh* Actualizar" para ver la estadística en la plataforma.
+    - Haz clic en el botón "*fa-refresh* Actualizar" para ver la estadística en la plataforma.
 4. **Guardar la estadística**:
-
- - Haz clic en el botón "*fa-floppy-o* Guardar" para exportar la información a un archivo Excel.
- - Selecciona la opción de guardado que prefieras del menú desplegable \(*fa-sort-desc*\).
+    - Haz clic en el botón "*fa-floppy-o* Guardar" para exportar la información a un archivo Excel.
+    - Selecciona la opción de guardado que prefieras del menú desplegable \(*fa-sort-desc*\).
 
 ### Validaciones y Restricciones
 
@@ -102,11 +95,8 @@ La plataforma ofrece varias opciones para guardar las estadísticas generadas en
 ### Preguntas Frecuentes
 
 - **¿Cómo puedo guardar las estadísticas generadas?** 
-
- - Puedes guardar las estadísticas generadas en formato Excel haciendo clic en el botón "Guardar" después de aplicar los filtros deseados. Luego, elige la opción de guardado adecuada para tus necesidades.
+    - Puedes guardar las estadísticas generadas en formato Excel haciendo clic en el botón "Guardar" después de aplicar los filtros deseados. Luego, elige la opción de guardado adecuada para tus necesidades.
 - **¿Puedo generar estadísticas para múltiples dispositivos a la vez?** 
-
- - Sí, puedes seleccionar múltiples dispositivos al configurar los filtros de las estadísticas.
+    - Sí, puedes seleccionar múltiples dispositivos al configurar los filtros de las estadísticas.
 - **¿Qué tipos de alertas se pueden incluir en las estadísticas?** 
-
- - Puedes incluir cualquier tipo de alerta que esté configurada en tus dispositivos, como alertas de velocidad, movimientos no autorizados, niveles de combustible, entre otros.
+    - Puedes incluir cualquier tipo de alerta que esté configurada en tus dispositivos, como alertas de velocidad, movimientos no autorizados, niveles de combustible, entre otros.

@@ -24,7 +24,71 @@ El cuerpo de la solicitud debe incluir un objeto JSON con los datos de la alerta
 | --- | --- | --- | --- |
 | from | string | Sí | Fecha y hora de inicio de la alerta, en formato ISO 8601. |
 | to | string | Sí | Fecha y hora de fin de la alerta, en formato ISO 8601. |
-| alertName | string | No | Nombre de la alerta. |
+| alertName | string | No | Nombre de la alerta por la cual filtrar. Si se omite o es nulo, se devolverán todas las alertas disponibles en el rango de fechas especificado. Consulta la sección de **Nombres de Alertas Disponibles** a continuación para los valores válidos. |
+
+### Nombres de Alertas Disponibles
+
+El parámetro `alertName` acepta valores de cadena de texto específicos correspondientes a los diferentes tipos de eventos rastreados por el dispositivo. Si no se proporciona este campo, la API devolverá todas las alertas del dispositivo dentro del rango de fechas.
+
+Los nombres de alerta válidos son:
+
+| Nombre de Alerta | Descripción |
+| --- | --- |
+| `GPSOff` | El GPS está apagado. |
+| `GPSNoSignal` | El GPS ha perdido la señal. |
+| `ForbiddenArea` | El dispositivo entró en un área prohibida (geocerca). |
+| `AllowedArea` | El dispositivo salió o entró en un área permitida. |
+| `SOSButton` | Se presionó el botón de pánico/SOS. |
+| `SpeedLimit` | El dispositivo excedió el límite de velocidad. |
+| `NoMovementTime` | El dispositivo ha estado inactivo/detenido por demasiado tiempo. |
+| `Sensor1On` | Se activó el sensor 1. |
+| `GPSUnplugged` | El dispositivo fue desconectado de su fuente de energía principal. |
+| `Sensor1Off` | Se desactivó el sensor 1. |
+| `TemperatureGreaterThan` | La temperatura excedió el límite máximo. |
+| `TemperatureLowerThan` | La temperatura cayó por debajo del límite mínimo. |
+| `FuelJumpDown` | Caída repentina en el nivel de combustible (posible robo). |
+| `FuelJumpUp` | Aumento repentino en el nivel de combustible (reabastecimiento). |
+| `FuelLessThan` | El nivel de combustible está críticamente bajo. |
+| `FutureDate` | El dispositivo envió una fecha en el futuro. |
+| `PastDate` | El dispositivo envió una fecha en el pasado. |
+| `Sensor2On` | Se activó el sensor 2. |
+| `Sensor2Off` | Se desactivó el sensor 2. |
+| `Sensor3On` | Se activó el sensor 3. |
+| `Sensor3Off` | Se desactivó el sensor 3. |
+| `Sensor4On` | Se activó el sensor 4. |
+| `Sensor4Off` | Se desactivó el sensor 4. |
+| `ExpiredDate` | Los datos han expirado. |
+| `Mileage` | Alerta de kilometraje activada. |
+| `Vibration` | Vibración detectada. |
+| `RPM` | Límite de RPM excedido. |
+| `CheckPoint` | Se alcanzó un punto de control. |
+| `CheckArea` | Se cruzó un área de control. |
+| `SpeedLower` | La velocidad cayó por debajo de un límite establecido. |
+| `Offline` | El dispositivo se desconectó (offline). |
+| `LowBattery` | La batería interna del dispositivo está baja. |
+| `BatteryVoltage` | El voltaje de la batería principal está fuera de rango. |
+| `SleepMode` | El dispositivo entró en modo de suspensión/ahorro de energía. |
+| `Temperature2LessThan` | La temperatura secundaria cayó por debajo del límite mínimo. |
+| `Temperature2GreaterThan` | La temperatura secundaria excedió el límite máximo. |
+| `Route` | Desviación de ruta detectada. |
+| `Sensor1Time` | Se alcanzó el límite de tiempo específico del sensor 1. |
+| `Sensor2Time` | Se alcanzó el límite de tiempo específico del sensor 2. |
+| `Sensor3Time` | Se alcanzó el límite de tiempo específico del sensor 3. |
+| `Sensor4Time` | Se alcanzó el límite de tiempo específico del sensor 4. |
+| `SensorAccumulated1Time` | El tiempo acumulado en el sensor 1 excedió el límite. |
+| `SensorAccumulated2Time` | El tiempo acumulado en el sensor 2 excedió el límite. |
+| `SensorAccumulated3Time` | El tiempo acumulado en el sensor 3 excedió el límite. |
+| `SensorAccumulated4Time` | El tiempo acumulado en el sensor 4 excedió el límite. |
+| `FuelJumpDown2` | Caída repentina en el nivel de combustible del tanque secundario. |
+| `FuelJumpUp2` | Aumento repentino en el nivel de combustible del tanque secundario. |
+| `FuelLessThan2` | El nivel de combustible del tanque secundario está críticamente bajo. |
+| `AttributeEquals` | Se cumplió la condición de igualdad de un atributo personalizado. |
+| `AttributeLessThan` | Se cumplió la condición de menor-que de un atributo personalizado. |
+| `AttributeGreaterThan` | Se cumplió la condición de mayor-que de un atributo personalizado. |
+| `HarshBraking` | Frenado brusco o repentino detectado. |
+| `HarshAcceleration` | Aceleración brusca o repentina detectada. |
+| `AuthenticationFailed` | Falló la autenticación del dispositivo o del conductor. |
+| `IdleTime` | El vehículo ha estado en ralentí por demasiado tiempo. |
 
 ### Autenticación Requerida
 

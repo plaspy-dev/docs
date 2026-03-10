@@ -32,9 +32,9 @@ The [Devices](https://app.plaspy.com/Devices) section allows you to manage and m
 1. Access the "[*fa-cogs* Devices](https://app.plaspy.com/Devices)" section from the main panel in the top right corner in "*fa-cogs*"
 2. Click on "*fa-plus*" to add new device in the bottom right corner.
 3. Fill in the required fields:
- - **Name**: Enter a descriptive name for the device.
- - **IMEI or Identifier**: Enter the device's IMEI number.
- - **Description**: Add any relevant additional information.
+    - **Name**: Enter a descriptive name for the device.
+    - **IMEI or Identifier**: Enter the device's IMEI number.
+    - **Description**: Add any relevant additional information.
 4. Select a [marker](marker_icon) if desired to visually differentiate the device on the map.
 5. Configure the [sensors](sensors) and [commands](commands) according to your needs.
 6. Schedule [reminders](reminders) and [alerts](alerts) if necessary.
@@ -72,12 +72,12 @@ The [Devices](https://app.plaspy.com/Devices) section allows you to manage and m
 ## Frequently Asked Questions
 
 - **What is the IMEI and why is it important?**
- - The IMEI \(International Mobile Equipment Identity\) is a unique number that identifies a mobile device. It is crucial for the configuration and communication with the tracking system, ensuring that the data sent and received corresponds to the correct device.
+    - The IMEI \(International Mobile Equipment Identity\) is a unique number that identifies a mobile device. It is crucial for the configuration and communication with the tracking system, ensuring that the data sent and received corresponds to the correct device.
 - **Can I change the name of a device after adding it?**
- - Yes, you can edit the device's name and other details at any time from the Devices section.
+    - Yes, you can edit the device's name and other details at any time from the Devices section.
 - **How can I add a new custom marker?**
- - When selecting the [marker option](marker_icon), you can choose from the available icons or upload a new one from your device to customize the map's visualization.
+    - When selecting the [marker option](marker_icon), you can choose from the available icons or upload a new one from your device to customize the map's visualization.
 - **What type of alerts can I configure?**
- - You can configure [alerts](alerts) for specific events such as when the device disconnects, crosses a control zone, or needs maintenance. These alerts can be received by email, push notifications, Telegram, among others.
+    - You can configure [alerts](alerts) for specific events such as when the device disconnects, crosses a control zone, or needs maintenance. These alerts can be received by email, push notifications, Telegram, among others.
 - **How do I add a mobile phone as a tracking device?**
- - Mobile phones can only be added directly from the [mobile app](../mobile_application). Download the app from your mobile device's app store and follow the instructions to add the phone as a device.
+    - Mobile phones can only be added directly from the [mobile app](../mobile_application). Download the app from your mobile device's app store and follow the instructions to add the phone as a device.

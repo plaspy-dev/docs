@@ -25,16 +25,13 @@ Para acceder a la sección de [SMS](https://app.plaspy.com/SMS), dirígete al me
 Para enviar un mensaje de texto des, sigue estos pasos:
 
 1. **Abrir el Formulario de Envío**:
-
- - Haz clic en el ícono de "+" en la esquina inferior derecha de la pantalla de SMS.
+    - Haz clic en el ícono de "+" en la esquina inferior derecha de la pantalla de SMS.
 2. **Completar los Detalles del Mensaje**:
-
- - **Número de teléfono**: Introduce el número de teléfono del destinatario.
- - **Mensaje**: Escribe el contenido del mensaje de texto.
+    - **Número de teléfono**: Introduce el número de teléfono del destinatario.
+    - **Mensaje**: Escribe el contenido del mensaje de texto.
 3. **Enviar el Mensaje**:
-
- - Haz clic en "Enviar" para enviar el mensaje.
- - Si deseas cancelar el envío, haz clic en "Cancelar".
+    - Haz clic en "Enviar" para enviar el mensaje.
+    - Si deseas cancelar el envío, haz clic en "Cancelar".
 
 ### Guardado de Historial de SMS
 
@@ -43,12 +40,10 @@ La plataforma permite guardar el historial de mensajes enviados en formato Excel
 #### Guardar Historial de Mensajes
 
 1. **Acceder al Historial**:
-
- - En la sección de SMS, utiliza los filtros de búsqueda y las opciones de paginación para revisar el historial de mensajes enviados.
+    - En la sección de SMS, utiliza los filtros de búsqueda y las opciones de paginación para revisar el historial de mensajes enviados.
 2. **Guardar en Excel**:
-
- - Haz clic en el ícono de guardar \(*fa-floppy-o*\) ubicado en la parte superior derecha después del icono del engranaje \(*fa-cogs*\).
- - El historial de mensajes se descargará en un archivo Excel que podrás abrir y revisar con cualquier software compatible.
+    - Haz clic en el ícono de guardar \(*fa-floppy-o*\) ubicado en la parte superior derecha después del icono del engranaje \(*fa-cogs*\).
+    - El historial de mensajes se descargará en un archivo Excel que podrás abrir y revisar con cualquier software compatible.
 
 ### Configuración de Límite Diario de Mensajes
 
@@ -57,18 +52,15 @@ Puedes configurar el número máximo de mensajes de texto que se pueden enviar d
 #### Configuración de Límite Diario
 
 1. **Acceder a la Configuración**:
-
- - Haz clic en el ícono de engranaje \(*fa-cog*\) en la parte inferior izquierda de la pantalla de [SMS](https://app.plaspy.com/SMS).
+    - Haz clic en el ícono de engranaje \(*fa-cog*\) en la parte inferior izquierda de la pantalla de [SMS](https://app.plaspy.com/SMS).
 2. **Definir Límites**:
-
- - En la ventana de configuración, verás dos campos:
- - **Dispositivo**: Especifica el número máximo de mensajes que un dispositivo puede enviar diariamente.
- - **Usuario**: Define el número máximo de mensajes que un usuario puede enviar diariamente.
- - Introduce los valores deseados en cada campo.
+    - En la ventana de configuración, verás dos campos:
+    - **Dispositivo**: Especifica el número máximo de mensajes que un dispositivo puede enviar diariamente.
+    - **Usuario**: Define el número máximo de mensajes que un usuario puede enviar diariamente.
+    - Introduce los valores deseados en cada campo.
 3. **Guardar Cambios**:
-
- - Haz clic en el botón "Aceptar" para guardar los cambios.
- - Si deseas cancelar los cambios, haz clic en "Cancelar".
+    - Haz clic en el botón "Aceptar" para guardar los cambios.
+    - Si deseas cancelar los cambios, haz clic en "Cancelar".
 
 ### Consulta de Precios de Mensajes de Texto
 
@@ -79,25 +71,19 @@ La plataforma ofrece una página dedicada para consultar los precios de los mens
 #### Acceso a la sección de SMS
 
 1. **Abrir el menú de SMS**:
-
- - En el menú superior, haz clic en "*fa-globe*" y después selecciona "*fa-envelope-o* SMS".
+    - En el menú superior, haz clic en "*fa-globe*" y después selecciona "*fa-envelope-o* SMS".
 2. **Revisar el historial de mensajes**:
-
- - Utiliza los filtros de búsqueda y las opciones de paginación para revisar el historial de mensajes enviados.
+    - Utiliza los filtros de búsqueda y las opciones de paginación para revisar el historial de mensajes enviados.
 3. **Enviar un nuevo mensaje**:
-
- - Haz clic en el ícono "*fa-plus*" para abrir el formulario de envío de mensajes.
- - Completa los detalles del mensaje y haz clic en "Enviar".
+    - Haz clic en el ícono "*fa-plus*" para abrir el formulario de envío de mensajes.
+    - Completa los detalles del mensaje y haz clic en "Enviar".
 4. **Configurar límite diario de mensajes**:
-
- - Haz clic en el ícono de engranaje \(*fa-cog*\) en la parte inferior izquierda para abrir la configuración de límites diarios.
- - Define los límites y guarda los cambios.
+    - Haz clic en el ícono de engranaje \(*fa-cog*\) en la parte inferior izquierda para abrir la configuración de límites diarios.
+    - Define los límites y guarda los cambios.
 5. **Guardar historial de mensajes**:
-
- - Haz clic en el ícono de guardar \(*fa-floppy-o*\) en el menu superior derecho para descargar el historial en un archivo de Excel
+    - Haz clic en el ícono de guardar \(*fa-floppy-o*\) en el menu superior derecho para descargar el historial en un archivo de Excel
 6. **Consultar precios de mensajes de texto**:
-
- - Visita [ SMS Pricing](https://app.plaspy.com/AdditionalServicesPricing) para revisar los precios por país y operador.
+    - Visita [ SMS Pricing](https://app.plaspy.com/AdditionalServicesPricing) para revisar los precios por país y operador.
 
 ### Validaciones y Restricciones
 
@@ -108,14 +94,14 @@ La plataforma ofrece una página dedicada para consultar los precios de los mens
 ### Preguntas Frecuentes
 
 - **¿Cómo puedo agregar saldo para enviar mensajes de texto?**
- - Puedes [agregar saldo](https://app.plaspy.com/Subscription?sms=1) haciendo clic en el recuadro verde llamado "Saldo" en la parte superior de la pantalla de SMS.
+    - Puedes [agregar saldo](https://app.plaspy.com/Subscription?sms=1) haciendo clic en el recuadro verde llamado "Saldo" en la parte superior de la pantalla de SMS.
 - **¿Puedo enviar mensajes de texto a múltiples destinatarios a la vez?**
- - Actualmente, los mensajes se envían a un destinatario por vez. Puedes enviar múltiples mensajes a diferentes destinatarios individualmente.
+    - Actualmente, los mensajes se envían a un destinatario por vez. Puedes enviar múltiples mensajes a diferentes destinatarios individualmente.
 - **¿Qué hago si un mensaje no se envía?**
- - Verifica el estado del mensaje en el historial. Si es "Fallido", revisa el número de teléfono y el saldo disponible. Si el problema persiste, contacta al soporte técnico.
+    - Verifica el estado del mensaje en el historial. Si es "Fallido", revisa el número de teléfono y el saldo disponible. Si el problema persiste, contacta al soporte técnico.
 - **¿Es posible programar el envío de mensajes de texto?**
- - Actualmente, los mensajes se envían de manera manual. No hay opción para programar el envío automático de mensajes.
+    - Actualmente, los mensajes se envían de manera manual. No hay opción para programar el envío automático de mensajes.
 - **¿Qué tipos de mensajes se pueden enviar?**
- - Puedes enviar cualquier tipo de mensaje de texto que cumpla con las restricciones de contenido y longitud estándar de SMS.
+    - Puedes enviar cualquier tipo de mensaje de texto que cumpla con las restricciones de contenido y longitud estándar de SMS.
 - **¿Dónde puedo consultar los precios de los mensajes de texto?**
- - Puedes consultar los precios de los mensajes de texto por país y operador en la página [ SMS Pricing](https://app.plaspy.com/AdditionalServicesPricing).
+    - Puedes consultar los precios de los mensajes de texto por país y operador en la página [ SMS Pricing](https://app.plaspy.com/AdditionalServicesPricing).

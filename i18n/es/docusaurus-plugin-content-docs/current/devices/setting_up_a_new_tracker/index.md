@@ -12,8 +12,8 @@ Para comenzar a utilizar un nuevo rastreador, es necesario seguir algunos pasos 
 1. **Inicio de Configuración**: Ingresa a tu cuenta y ve a la sección [***fa-cogs* Dispositivos**](https://app.plaspy.com/Devices) en el panel superior derecho \(*fa-cogs*\) y haz clic en [¿Cómo configurar mi dispositivo?](https://app.plaspy.com/Start?w=1).
 2. **Seleccionar Tipo de Dispositivo**: Elige el tipo de dispositivo que deseas configurar \(rastreador o dispositivo móvil\).
 3. **Agregar Detalles del Dispositivo**:
- - **Nombre**: Ingresa un nombre para tu rastreador.
- - **IMEI o ID**: Ingresa el número IMEI o el identificador del rastreador. Este número suele ser el IMEI de 15 dígitos, pero algunos rastreadores utilizan los últimos 11 dígitos del IMEI o un serial único. Consulta el manual del usuario para más detalles.
+    - **Nombre**: Ingresa un nombre para tu rastreador.
+    - **IMEI o ID**: Ingresa el número IMEI o el identificador del rastreador. Este número suele ser el IMEI de 15 dígitos, pero algunos rastreadores utilizan los últimos 11 dígitos del IMEI o un serial único. Consulta el manual del usuario para más detalles.
 
 ### Paso 2: Configuración del APN
 

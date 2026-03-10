@@ -46,6 +46,6 @@ The filters section is crucial for obtaining specific and relevant data in repor
 - **What types of reports can I generate ?**
  -, you can generate various types of reports, including "Map Detail," "Activity Report," "Detailed Report," and "Activity Summary." Each type of report provides different perspectives and details based on the user's needs.
 - **How can I filter data in the reports?**
- - You can add additional filters in the filters section when generating a report. These filters allow you to specify criteria such as speed ranges, battery levels, geographical zones, and more to refine the report results.
+    - You can add additional filters in the filters section when generating a report. These filters allow you to specify criteria such as speed ranges, battery levels, geographical zones, and more to refine the report results.
 - **Can I download reports in Excel format?**
- - Yes, after generating a report, you can download it in Microsoft Excel format using the "Download" button available in the reports section. This makes it easier to manipulate and further analyze the data in spreadsheet programs.
+    - Yes, after generating a report, you can download it in Microsoft Excel format using the "Download" button available in the reports section. This makes it easier to manipulate and further analyze the data in spreadsheet programs.

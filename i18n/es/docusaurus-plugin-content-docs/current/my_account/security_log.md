@@ -34,17 +34,13 @@ Para acceder al Registro de Acceso, sigue estos pasos:
 ## Preguntas Frecuentes
 
 - **¿Cómo puedo saber si alguien accedió a mi cuenta sin mi permiso?** 
-
- - Revisa los registros de acceso para identificar cualquier evento que no reconozcas, especialmente los que provienen de ubicaciones o dispositivos desconocidos.
+    - Revisa los registros de acceso para identificar cualquier evento que no reconozcas, especialmente los que provienen de ubicaciones o dispositivos desconocidos.
 - **¿Qué debo hacer si detecto un acceso sospechoso?** 
-
- - Si encuentras algún acceso sospechoso, te recomendamos [cambiar tu contraseña](password_change) de inmediato y 
+    - Si encuentras algún acceso sospechoso, te recomendamos [cambiar tu contraseña](password_change) de inmediato y 
 [habilitar la autenticación de dos factores](enable_twofactor_authentication_2fa) para mejorar la seguridad de tu cuenta.
 - **¿El registro de acceso muestra intentos fallidos de inicio de sesión?** 
-
- - Actualmente, el registro de acceso solo muestra los eventos de ingreso exitosos. Para más detalles sobre intentos fallidos, contacta al soporte técnico.
+    - Actualmente, el registro de acceso solo muestra los eventos de ingreso exitosos. Para más detalles sobre intentos fallidos, contacta al soporte técnico.
 - **¿Puedo exportar mi registro de acceso?** 
-
- - Por ahora, no ofrece una opción para exportar el registro de acceso. Sin embargo, puedes tomar capturas de pantalla si necesitas guardar esta información.
+    - Por ahora, no ofrece una opción para exportar el registro de acceso. Sin embargo, puedes tomar capturas de pantalla si necesitas guardar esta información.
 
 Utilizar el Registro de Acceso te ayudará a mantener la seguridad de tu cuenta, permitiéndote estar al tanto de todas las actividades de inicio de sesión y detectar cualquier comportamiento sospechoso rápidamente.

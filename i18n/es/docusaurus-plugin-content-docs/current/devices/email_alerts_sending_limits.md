@@ -27,10 +27,10 @@ Los límites establecidos restringen tanto la cantidad de mensajes que un usuari
 ## Preguntas Frecuentes
 
 - **¿Qué sucede si supero los límites de envío?**
- - Si superas los límites de envío de alertas por correo electrónico, no podrás enviar nuevos mensajes hasta que haya transcurrido el tiempo restringido. Sin embargo, seguirás teniendo acceso a tu cuenta y podrás recibir alertas a través del mapa.
+    - Si superas los límites de envío de alertas por correo electrónico, no podrás enviar nuevos mensajes hasta que haya transcurrido el tiempo restringido. Sin embargo, seguirás teniendo acceso a tu cuenta y podrás recibir alertas a través del mapa.
 - **¿Puedo cambiar los límites de envío?**
- - No, los límites de envío no son configurables por los usuarios. Estos están establecidos por para asegurar el buen funcionamiento del sistema y la seguridad de las cuentas.
+    - No, los límites de envío no son configurables por los usuarios. Estos están establecidos por para asegurar el buen funcionamiento del sistema y la seguridad de las cuentas.
 - **¿Cómo puedo evitar superar los límites de envío?**
- - Para evitar superar los límites de envío, notifica solo las alertas importantes y verifica las razones detrás de alertas repetitivas. Desactiva o elimina alertas que no sean necesarias para evitar el envío continuo de notificaciones.
+    - Para evitar superar los límites de envío, notifica solo las alertas importantes y verifica las razones detrás de alertas repetitivas. Desactiva o elimina alertas que no sean necesarias para evitar el envío continuo de notificaciones.
 
 Siguiendo estas recomendaciones y comprendiendo los límites establecidos, podrás optimizar el uso del sistema de alertas por correo electrónico y asegurarte de que las notificaciones importantes lleguen siempre a tiempo.

@@ -17,19 +17,16 @@ Para reconfigurar su rastreador y conectarlo directamente al servidor, utilice l
 #### Paso a Paso para Reconfigurar y Agregar el Dispositivo
 
 1. **Configurar el Rastreador**:
-
- - Acceda a la [configuración de su rastreador](.). Esto puede requerir el uso de comandos SMS o el software del fabricante, según el modelo de su dispositivo.
- - Introduzca los detalles del servidor y puerto proporcionados:
- - **Servidor**: `54.85.159.138`
- - **Puerto**: `9000`
+    - Acceda a la [configuración de su rastreador](.). Esto puede requerir el uso de comandos SMS o el software del fabricante, según el modelo de su dispositivo.
+    - Introduzca los detalles del servidor y puerto proporcionados:
+    - **Servidor**: `54.85.159.138`
+    - **Puerto**: `9000`
 2. **Agregar Dispositivo **:
-
- - Inicie sesión en su cuenta.
- - Vaya a la sección **[Dispositivos](https://app.plaspy.com/Devices)**.
- - Agregue su dispositivo utilizando el identificador seguido por `:0`. Por ejemplo, si el identificador del dispositivo es `1234567890`, deberá ingresarlo como `1234567890:0`.
+    - Inicie sesión en su cuenta.
+    - Vaya a la sección **[Dispositivos](https://app.plaspy.com/Devices)**.
+    - Agregue su dispositivo utilizando el identificador seguido por `:0`. Por ejemplo, si el identificador del dispositivo es `1234567890`, deberá ingresarlo como `1234567890:0`.
 3. **Verificar Funcionamiento**:
-
- - Asegúrese de que el dispositivo esté enviando datos correctamente y que aparezca en el mapa.
+    - Asegúrese de que el dispositivo esté enviando datos correctamente y que aparezca en el mapa.
 
 ### Ejemplo de Configuración
 

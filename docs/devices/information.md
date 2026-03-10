@@ -79,18 +79,18 @@ The [Device](https://app.plaspy.com/Devices) Information section provides key de
 ## Frequently Asked Questions
 
 - **Why is the device's creation date important?**
- - Knowing the creation date helps you track how long the device has been in use and plan for maintenance or replacements.
+    - Knowing the creation date helps you track how long the device has been in use and plan for maintenance or replacements.
 - **What should I do if the device's last connection is old?**
- - If the last connection is old, check the device's status, network coverage, and ensure it is turned on and correctly configured.
+    - If the last connection is old, check the device's status, network coverage, and ensure it is turned on and correctly configured.
 - **How do I know if the device protocol is correct?**
- - The protocol should match the type of device and its configuration. automatically detects the protocol, and in most cases, it is not necessary to modify it.
+    - The protocol should match the type of device and its configuration. automatically detects the protocol, and in most cases, it is not necessary to modify it.
 - **What should I do if the phone number is incorrect?**
- - If the associated phone number is incorrect, edit the device's settings and update the number. Ensure the device uses the correct number for data transmission.
+    - If the associated phone number is incorrect, edit the device's settings and update the number. Ensure the device uses the correct number for data transmission.
 - **How can I use the marker text?**
- - The marker text allows you to add visible notes directly on the device marker on the map, which can facilitate quick identification and management of devices.
+    - The marker text allows you to add visible notes directly on the device marker on the map, which can facilitate quick identification and management of devices.
 - **How do tags help me?**
- - Tags allow you to organize and describe your devices better, making administration and control easier.
+    - Tags allow you to organize and describe your devices better, making administration and control easier.
 - **What is the Certificate, and what is it for?**
- - the Certificate is a document that you can generate to show third parties that the device is being tracked by. It includes relevant information about the device.
+    - the Certificate is a document that you can generate to show third parties that the device is being tracked by. It includes relevant information about the device.
 - **What does it mean to debug a device?**
- - Debugging a device involves checking its connection in real-time, showing the information raw. This can help you identify connection or configuration issues.
+    - Debugging a device involves checking its connection in real-time, showing the information raw. This can help you identify connection or configuration issues.

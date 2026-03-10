@@ -41,12 +41,12 @@ Para acceder a la opción de recordar contraseña, sigue estos pasos:
 #### Preguntas Frecuentes
 
 - **¿Qué hago si no recibo el correo de restablecimiento de contraseña?**
- - Revisa tu carpeta de spam o correo no deseado.
- - Asegúrate de que la dirección de correo electrónico ingresada esté correctamente registrada en tu cuenta.
- - Si aún no recibes el correo, intenta repetir el proceso o contacta al soporte técnico.
+    - Revisa tu carpeta de spam o correo no deseado.
+    - Asegúrate de que la dirección de correo electrónico ingresada esté correctamente registrada en tu cuenta.
+    - Si aún no recibes el correo, intenta repetir el proceso o contacta al soporte técnico.
 - **¿Cómo puedo asegurarme de que mi nueva contraseña sea segura?**
- - Usa una combinación de letras mayúsculas y minúsculas, números y caracteres especiales.
- - Evita usar contraseñas comunes o información personal fácil de adivinar.
- - Considera utilizar una frase larga y única que solo tú conozcas.
+    - Usa una combinación de letras mayúsculas y minúsculas, números y caracteres especiales.
+    - Evita usar contraseñas comunes o información personal fácil de adivinar.
+    - Considera utilizar una frase larga y única que solo tú conozcas.
 
 Al seguir estos pasos, podrás restablecer tu contraseña de manera segura y rápida, asegurando que tu cuenta permanezca accesible y protegida.

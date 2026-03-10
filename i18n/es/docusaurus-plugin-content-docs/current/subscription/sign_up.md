@@ -49,12 +49,12 @@ Para acceder a la página de registro, sigue estos pasos:
 ## Preguntas Frecuentes
 
 - **¿Qué hago si no recibo el correo de verificación?**
- - Revisa tu carpeta de spam o correo no deseado.
- - Asegúrate de que la dirección de correo electrónico proporcionada esté correctamente escrita.
- - Si aún no recibes el correo, intenta repetir el proceso de registro o contacta al soporte técnico.
+    - Revisa tu carpeta de spam o correo no deseado.
+    - Asegúrate de que la dirección de correo electrónico proporcionada esté correctamente escrita.
+    - Si aún no recibes el correo, intenta repetir el proceso de registro o contacta al soporte técnico.
 - **¿Cómo puedo asegurarme de que mi contraseña es segura?**
- - Usa una combinación de letras mayúsculas y minúsculas, números y caracteres especiales.
- - Evita usar contraseñas comunes o información personal fácil de adivinar.
- - Considera utilizar una frase larga y única que solo tú conozcas.
+    - Usa una combinación de letras mayúsculas y minúsculas, números y caracteres especiales.
+    - Evita usar contraseñas comunes o información personal fácil de adivinar.
+    - Considera utilizar una frase larga y única que solo tú conozcas.
 
 Siguiendo estos pasos, podrás registrarte de manera segura y rápida, asegurando que tu cuenta esté lista para comenzar a utilizar los servicios de seguimiento satelital.

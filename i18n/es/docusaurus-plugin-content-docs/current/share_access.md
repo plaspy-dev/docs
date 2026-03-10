@@ -32,38 +32,30 @@ Los accesos temporales permiten realizar las siguientes acciones:
 #### Crear un Nuevo Acceso Temporal
 
 1. **Acceder a la Sección de Acceso Temporal**:
-
- - Haz clic en el ícono de "Configuración" \(*fa-cogs*\) en el menú superior y selecciona "[*fa-share-alt* Compartir Acceso](https://app.plaspy.com/Users/Share)".
+    - Haz clic en el ícono de "Configuración" \(*fa-cogs*\) en el menú superior y selecciona "[*fa-share-alt* Compartir Acceso](https://app.plaspy.com/Users/Share)".
 2. **Iniciar la Creación de un Acceso Temporal**:
-
- - Haz clic en el ícono "*fa-plus*" en la esquina inferior derecha para abrir el formulario de creación de acceso temporal.
+    - Haz clic en el ícono "*fa-plus*" en la esquina inferior derecha para abrir el formulario de creación de acceso temporal.
 3. **Completar los Detalles del Acceso Temporal**:
-
- - **Nombre**: Introduce el nombre de la persona que tendrá el acceso.
- - **Email**: Ingresa el correo electrónico del usuario \(opcional\).
- - **Zona horaria**: Selecciona la zona horaria correspondiente.
- - **Grupo/Dispositivo**: Selecciona el grupo de dispositivos o el dispositivo que deseas compartir.
- - **Descripción**: Añade una descripción detallada del acceso temporal.
- - **Expira**: Selecciona el rango de fechas durante el cual el acceso estará activo.
+    - **Nombre**: Introduce el nombre de la persona que tendrá el acceso.
+    - **Email**: Ingresa el correo electrónico del usuario \(opcional\).
+    - **Zona horaria**: Selecciona la zona horaria correspondiente.
+    - **Grupo/Dispositivo**: Selecciona el grupo de dispositivos o el dispositivo que deseas compartir.
+    - **Descripción**: Añade una descripción detallada del acceso temporal.
+    - **Expira**: Selecciona el rango de fechas durante el cual el acceso estará activo.
 4. **Guardar el Acceso Temporal**:
-
- - Haz clic en "Aceptar" para guardar el nuevo acceso temporal.
- - Si deseas cancelar, haz clic en "Cancelar".
+    - Haz clic en "Aceptar" para guardar el nuevo acceso temporal.
+    - Si deseas cancelar, haz clic en "Cancelar".
 5. **Generar y Copiar la URL de Acceso**:
-
- - La URL de acceso se generará automáticamente. Haz clic en el ícono de copiar para copiar la URL al portapapeles.
+    - La URL de acceso se generará automáticamente. Haz clic en el ícono de copiar para copiar la URL al portapapeles.
 
 #### Editar un Acceso Temporal Existente
 
 1. **Seleccionar el Acceso a Editar**:
-
- - En la lista de [accesos temporales](https://app.plaspy.com/Users/Share), haz clic en el ícono de editar \(*fa-pencil-square-o*\) junto al acceso que deseas modificar.
+    - En la lista de [accesos temporales](https://app.plaspy.com/Users/Share), haz clic en el ícono de editar \(*fa-pencil-square-o*\) junto al acceso que deseas modificar.
 2. **Modificar los Detalles del Acceso**:
-
- - Realiza los cambios necesarios en el nombre, correo electrónico, zona horaria, grupo, dispositivo, descripción o rango de fechas del acceso.
+    - Realiza los cambios necesarios en el nombre, correo electrónico, zona horaria, grupo, dispositivo, descripción o rango de fechas del acceso.
 3. **Guardar los Cambios**:
-
- - Haz clic en "Aceptar" para guardar los cambios realizados.
+    - Haz clic en "Aceptar" para guardar los cambios realizados.
 
 ### Validaciones y Restricciones
 
@@ -74,10 +66,10 @@ Los accesos temporales permiten realizar las siguientes acciones:
 ### Preguntas Frecuentes
 
 - **¿Cómo puedo compartir un acceso temporal con un usuario?**
- - Crea un nuevo acceso temporal en la sección correspondiente, ingresa los detalles necesarios y proporciona la URL generada al usuario.
+    - Crea un nuevo acceso temporal en la sección correspondiente, ingresa los detalles necesarios y proporciona la URL generada al usuario.
 - **¿Puedo editar un acceso temporal después de haberlo creado?**
- - Sí, puedes editar los detalles de un acceso temporal existente seleccionándolo de la lista y haciendo los cambios necesarios.
+    - Sí, puedes editar los detalles de un acceso temporal existente seleccionándolo de la lista y haciendo los cambios necesarios.
 - **¿Cómo puedo limitar el acceso a ciertos dispositivos?**
- - Selecciona el grupo o el dispositivo específico que deseas compartir durante la creación o edición del acceso temporal.
+    - Selecciona el grupo o el dispositivo específico que deseas compartir durante la creación o edición del acceso temporal.
 - **¿Qué sucede cuando el acceso temporal expira?**
- - El acceso temporal se desactiva automáticamente, y el usuario invitado ya no podrá acceder a la información compartida.
+    - El acceso temporal se desactiva automáticamente, y el usuario invitado ya no podrá acceder a la información compartida.

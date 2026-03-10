@@ -15,24 +15,20 @@ The "Push Notifications" section 's [settings](https://app.plaspy.com/Settings) 
 ### Step-by-Step Instructions
 
 1. **Access the Section:**
-
- - Log in to and go to the main menu in the top right corner in \(*fa-cogs*\).
- - Select "[*fa-list* Settings](https://app.plaspy.com/Settings)", click "*fa-television* Advanced Customization" and then "*fa-mobile* Push Mobile Notifications".
+    - Log in to and go to the main menu in the top right corner in \(*fa-cogs*\).
+    - Select "[*fa-list* Settings](https://app.plaspy.com/Settings)", click "*fa-television* Advanced Customization" and then "*fa-mobile* Push Mobile Notifications".
 2. **Upload Firebase Account Key:**
-
- - Obtain the JSON file with private credentials from your Firebase account. This file contains crucial information such as `project_id`, `private_key_id`, and `client_email`.
- - Click "Choose File" and select the JSON file.
- - The content of the file will be loaded into the system, allowing to use Firebase Cloud Messaging to send push notifications.
- - Help link: [Provide credentials manually](https://firebase.google.com/docs/cloud-messaging/auth-server#provide_credentials_manually)
+    - Obtain the JSON file with private credentials from your Firebase account. This file contains crucial information such as `project_id`, `private_key_id`, and `client_email`.
+    - Click "Choose File" and select the JSON file.
+    - The content of the file will be loaded into the system, allowing to use Firebase Cloud Messaging to send push notifications.
+    - Help link: [Provide credentials manually](https://firebase.google.com/docs/cloud-messaging/auth-server#provide_credentials_manually)
 3. **Configure the Test Token:**
-
- - Enter the test device token in the "Test Token" field.
- - You can obtain the test device token by following the guides for [Android](https://firebase.google.com/docs/cloud-messaging/android/client#recupera-el-token-de-registro-actual) and [iOS](https://firebase.google.com/docs/cloud-messaging/ios/client#c%C3%B3mo-recuperar-el-token-de-registro-actual).
- - Click "Test" to send a test notification and ensure the configuration is correct.
+    - Enter the test device token in the "Test Token" field.
+    - You can obtain the test device token by following the guides for [Android](https://firebase.google.com/docs/cloud-messaging/android/client#recupera-el-token-de-registro-actual) and [iOS](https://firebase.google.com/docs/cloud-messaging/ios/client#c%C3%B3mo-recuperar-el-token-de-registro-actual).
+    - Click "Test" to send a test notification and ensure the configuration is correct.
 4. **Save Changes:**
-
- - Review all fields to ensure the information is correct.
- - Click "Accept" to save all changes made.
+    - Review all fields to ensure the information is correct.
+    - Click "Accept" to save all changes made.
 
 ### Validations and Restrictions
 
@@ -42,14 +38,14 @@ The "Push Notifications" section 's [settings](https://app.plaspy.com/Settings) 
 ### Frequently Asked Questions
 
 - **What is Firebase Cloud Messaging \(FCM\)?**
- - Firebase Cloud Messaging \(FCM\) is a service that allows you to send notifications and messages to your users' devices through mobile apps, browsers, and web applications.
+    - Firebase Cloud Messaging \(FCM\) is a service that allows you to send notifications and messages to your users' devices through mobile apps, browsers, and web applications.
 - **How do I obtain the JSON file with Firebase private credentials?**
- - You can obtain the JSON file from the Firebase console, under the project settings section, in "Service accounts."
+    - You can obtain the JSON file from the Firebase console, under the project settings section, in "Service accounts."
 - **What should I do if the JSON file does not load correctly?**
- - Ensure the JSON file is valid and contains all the necessary information. If the issue persists, consult the Firebase documentation or contact support.
+    - Ensure the JSON file is valid and contains all the necessary information. If the issue persists, consult the Firebase documentation or contact support.
 - **How can I test push notifications on my device?**
- - Enter the test device token in the "Test Token" field and click "Test" to send a test notification. Follow the Firebase guides to obtain the device token for [Android](https://firebase.google.com/docs/cloud-messaging/android/client#recupera-el-token-de-registro-actual) and [iOS](https://firebase.google.com/docs/cloud-messaging/ios/client#c%C3%B3mo-recuperar-el-token-de-registro-actual).
+    - Enter the test device token in the "Test Token" field and click "Test" to send a test notification. Follow the Firebase guides to obtain the device token for [Android](https://firebase.google.com/docs/cloud-messaging/android/client#recupera-el-token-de-registro-actual) and [iOS](https://firebase.google.com/docs/cloud-messaging/ios/client#c%C3%B3mo-recuperar-el-token-de-registro-actual).
 - **Can I use push notifications for apps not created through Mobile App Settings?**
- - No, this functionality is enabled only for customized mobile applications created through [ Mobile App Settings](https://app.plaspy.com/Settings/MobileApp).
+    - No, this functionality is enabled only for customized mobile applications created through [ Mobile App Settings](https://app.plaspy.com/Settings/MobileApp).
 
 With these instructions, you will be able to configure the "Push Notifications" section effectively and ensure that push notifications are correctly sent to users of your customized mobile applications on the platform.
