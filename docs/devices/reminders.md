@@ -27,10 +27,10 @@ The Reminders section allows users to schedule [alerts](alerts) for important ev
 1. Select the device from the [device](.) list with the edit icon \(*fa-pencil-square-o*\), next to the device name.
 2. In the "*fa-bell* Reminders" section, fill the reminder template.
 3. Complete the required fields:
- - **Reminder Name**: Enter a descriptive name for the reminder.
- - **Email**: Enter the email address where you want to receive the reminder.
- - **Date**: Select the date on which you want the reminder to be sent.
- - **Mileage**: Enter the mileage at which you want the reminder to be sent.
+    - **Reminder Name**: Enter a descriptive name for the reminder.
+    - **Email**: Enter the email address where you want to receive the reminder.
+    - **Date**: Select the date on which you want the reminder to be sent.
+    - **Mileage**: Enter the mileage at which you want the reminder to be sent.
 4. Click "OK" to create the reminder.
 
 ### Editing an Existing Reminder
@@ -50,10 +50,10 @@ The Reminders section allows users to schedule [alerts](alerts) for important ev
 ## Frequently Asked Questions
 
 - **What types of events can I schedule with reminders?**
- - You can schedule reminders for any important event related to your tracking devices, such as vehicle maintenance, insurance renewal, or any other critical task.
+    - You can schedule reminders for any important event related to your tracking devices, such as vehicle maintenance, insurance renewal, or any other critical task.
 - **Can I add multiple email addresses to receive the reminder?**
- - Yes, you can add multiple email addresses separated by commas so that several people receive the reminder.
+    - Yes, you can add multiple email addresses separated by commas so that several people receive the reminder.
 - **How does the mileage-based reminder work?**
- - The mileage-based reminder will be sent when the vehicle reaches the specified mileage. This is useful for scheduling maintenance based on the vehicle's usage.
+    - The mileage-based reminder will be sent when the vehicle reaches the specified mileage. This is useful for scheduling maintenance based on the vehicle's usage.
 - **Can I edit or delete a reminder after creating it?**
- - Yes, you can edit or delete a reminder at any time from the device's Reminders section.
+    - Yes, you can edit or delete a reminder at any time from the device's Reminders section.

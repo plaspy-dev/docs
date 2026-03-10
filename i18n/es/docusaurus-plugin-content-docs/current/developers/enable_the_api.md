@@ -16,29 +16,25 @@ Para activar el servicio de API en tu cuenta, es necesario generar una API Key, 
 ### Paso a Paso
 
 1. **Acceder a la Sección de Cuenta:**
-
- - Inicia sesión en tu cuenta y dirígete a la esquina superior derecha.
- - Haz clic en el tu nombre de usuario y selecciona "[*fa-user* Mi cuenta](https://app.plaspy.com/Account)" en el menú desplegable.
- - También puedes acceder directamente a través de este [enlace](https://app.plaspy.com/Account).
+    - Inicia sesión en tu cuenta y dirígete a la esquina superior derecha.
+    - Haz clic en el tu nombre de usuario y selecciona "[*fa-user* Mi cuenta](https://app.plaspy.com/Account)" en el menú desplegable.
+    - También puedes acceder directamente a través de este [enlace](https://app.plaspy.com/Account).
 2. **Navegar a la Información de la Cuenta:**
-
- - En la página de cuenta, busca la sección "*fa-user* Información de la cuenta".
- - Dentro de esta sección, localiza el apartado "API Key *fa-question-circle*".
+    - En la página de cuenta, busca la sección "*fa-user* Información de la cuenta".
+    - Dentro de esta sección, localiza el apartado "API Key *fa-question-circle*".
 3. **Generar la API Key:**
-
- - Haz clic en el icono de opciones \(*fa-ellipsis-v*\) ubicado al lado derecho de "API Key".
- - Selecciona la opción "*fa-refresh* Generar" del menú desplegable.
- - Esto generará una nueva llave de acceso que podrás utilizar para integrar la API en tu aplicación o sitio web.
+    - Haz clic en el icono de opciones \(*fa-ellipsis-v*\) ubicado al lado derecho de "API Key".
+    - Selecciona la opción "*fa-refresh* Generar" del menú desplegable.
+    - Esto generará una nueva llave de acceso que podrás utilizar para integrar la API en tu aplicación o sitio web.
 4. **Copia y Guarda la API Key:**
-
- - Una vez generada la API Key, asegúrate de copiarla y guardarla en un lugar seguro. Esta llave será necesaria para autenticar las solicitudes a la API REST.
+    - Una vez generada la API Key, asegúrate de copiarla y guardarla en un lugar seguro. Esta llave será necesaria para autenticar las solicitudes a la API REST.
 
 ### Administración de la API Key
 
 - **Eliminar la API Key:**
- - Si deseas eliminar la API Key, haz clic en el icono de los tres puntos \(*fa-ellipsis-v*\) junto a "API Key" y selecciona "*fa-trash-o* Eliminar". Esto revocará el acceso a cualquier usuario que esté utilizando esta clave.
+    - Si deseas eliminar la API Key, haz clic en el icono de los tres puntos \(*fa-ellipsis-v*\) junto a "API Key" y selecciona "*fa-trash-o* Eliminar". Esto revocará el acceso a cualquier usuario que esté utilizando esta clave.
 - **Regenerar la API Key:**
- - Puedes generar una nueva API Key en cualquier momento. Al hacerlo, la clave anterior será invalidada automáticamente y los usuarios que estén usando esa clave perderán acceso inmediatamente.
+    - Puedes generar una nueva API Key en cualquier momento. Al hacerlo, la clave anterior será invalidada automáticamente y los usuarios que estén usando esa clave perderán acceso inmediatamente.
 
 ## Qué es una API y para qué se usa
 

@@ -35,11 +35,11 @@ Las alertas son notificaciones configurables que se envían a los usuarios para 
 1. Selecciona el [dispositivo](https://app.plaspy.com/Devices) para el cual deseas configurar una alerta.
 2. Haz clic en el botón de agregar alerta *fa-plus*.
 3. Completa los campos necesarios en el formulario que se abre:
- - **Nombre de la Alerta**: Introduce un nombre descriptivo para la alerta.
- - **Email**: Ingresa la dirección de correo electrónico para recibir la notificación.
- - **Notificación por Email, Push, Telegram, WhatsApp y SMS**: Activa o desactiva según tus preferencias.
- - **Resaltar**: Activa si deseas resaltar la alerta en la interfaz.
- - **Programar**: Configura los días y horas en que la alerta debe estar activa.
+    - **Nombre de la Alerta**: Introduce un nombre descriptivo para la alerta.
+    - **Email**: Ingresa la dirección de correo electrónico para recibir la notificación.
+    - **Notificación por Email, Push, Telegram, WhatsApp y SMS**: Activa o desactiva según tus preferencias.
+    - **Resaltar**: Activa si deseas resaltar la alerta en la interfaz.
+    - **Programar**: Configura los días y horas en que la alerta debe estar activa.
 4. Haz clic en "Aceptar" para crear la alerta.
 
 ### Editar una Alerta Existente

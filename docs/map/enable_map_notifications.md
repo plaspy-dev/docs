@@ -8,38 +8,30 @@ To receive alert notifications on your desktop, you need to enable notifications
 ## Google Chrome
 
 1. **Access Notification Settings:**
-
- - Click on the lock icon🔒 \(1\) next to the address bar.
- - A dropdown menu with several options will appear.
+    - Click on the lock icon🔒 \(1\) next to the address bar.
+    - A dropdown menu with several options will appear.
 2. **Check Notification Status:**
-
- - Verify if "Sound" and "Notifications" \(2\) are allowed.
- - If they are not, select "Allow" to enable these options.
+    - Verify if "Sound" and "Notifications" \(2\) are allowed.
+    - If they are not, select "Allow" to enable these options.
 3. **Save Changes:**
-
- - Close the menu to save the changes. You should now receive notifications on your desktop.
+    - Close the menu to save the changes. You should now receive notifications on your desktop.
 4. **Additional Recommendation:**
-
- - Ensure the browser is not in incognito mode, as this mode can block notifications.
+    - Ensure the browser is not in incognito mode, as this mode can block notifications.
 
 ![](./1-notifications-google.webp)
 
 ## Firefox
 
 1. **Access Notification Settings:**
-
- - Click on the information icon \(1\) next to the address bar.
- - A dropdown menu with several options will appear.
+    - Click on the information icon \(1\) next to the address bar.
+    - A dropdown menu with several options will appear.
 2. **Check Notification Status:**
-
- - Verify if "Autoplay Sound" and "Send Notifications" \(2\) are allowed.
- - If they are not, select "Allow" to enable these options.
+    - Verify if "Autoplay Sound" and "Send Notifications" \(2\) are allowed.
+    - If they are not, select "Allow" to enable these options.
 3. **Save Changes:**
-
- - Close the menu to save the changes. You should now receive notifications on your desktop.
+    - Close the menu to save the changes. You should now receive notifications on your desktop.
 4. **Additional Recommendation:**
-
- - Ensure the browser is not in private mode, as this mode can block notifications.
+    - Ensure the browser is not in private mode, as this mode can block notifications.
 
 ![](./2-notifications-firefox.webp)
 

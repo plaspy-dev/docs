@@ -16,24 +16,20 @@ The platform allows users to receive notifications via [Telegram](https://app.pl
 ### Step-by-Step Instructions
 
 1. **Access Telegram Notification Settings:**
-
- - Log in to your account.
- - In the top right corner, click on your username and select **'*fa-user* My Account'**.
- - Click on the "[*fa-telegram* Telegram Notifications](https://app.plaspy.com/Telegram?from=/Account)" option. 
+    - Log in to your account.
+    - In the top right corner, click on your username and select **'*fa-user* My Account'**.
+    - Click on the "[*fa-telegram* Telegram Notifications](https://app.plaspy.com/Telegram?from=/Account)" option. 
 ![](./1-login-telegram.jpg "Login in with telegram")
 2. **Subscribe to the Telegram Bot:**
-
- - On the "Telegram Accounts" screen, click the Telegram bot link @PlaspyBot or the "Log in with Telegram" button.
- - You will be redirected to the Telegram authentication page. Enter your Telegram credentials if necessary. 
+    - On the "Telegram Accounts" screen, click the Telegram bot link @PlaspyBot or the "Log in with Telegram" button.
+    - You will be redirected to the Telegram authentication page. Enter your Telegram credentials if necessary. 
 ![](./2-entry-phone-in-telegram.jpg "Enter phone in Telegram")
 3. **Authentication and Permissions:**
-
- - Complete the authentication process in Telegram to allow to send notifications to your account.
- - Once authenticated, you will automatically return to and see a confirmation that your account is linked with Telegram. 
+    - Complete the authentication process in Telegram to allow to send notifications to your account.
+    - Once authenticated, you will automatically return to and see a confirmation that your account is linked with Telegram. 
 ![](./3-request-entry-telegram.jpg "Request entry in Telegram")
 4. **Additional Settings:**
-
- - If at any time you wish to cancel the subscription, you can do so from the same "[*fa-telegram* Telegram Notifications](https://app.plaspy.com/Telegram?from=/Account)" section.
+    - If at any time you wish to cancel the subscription, you can do so from the same "[*fa-telegram* Telegram Notifications](https://app.plaspy.com/Telegram?from=/Account)" section.
 
 ### Validations and Restrictions
 
@@ -43,10 +39,10 @@ The platform allows users to receive notifications via [Telegram](https://app.pl
 ### Frequently Asked Questions
 
 - **What type of notifications will I receive via Telegram?**
- - You will receive notifications related to important events, device alerts, changes to your account, and other relevant updates.
+    - You will receive notifications related to important events, device alerts, changes to your account, and other relevant updates.
 - **Can I disable Telegram notifications at any time?**
- - Yes, you can disable notifications at any time by going back to the "Telegram Notifications" section and selecting the unsubscribe option.
+    - Yes, you can disable notifications at any time by going back to the "Telegram Notifications" section and selecting the unsubscribe option.
 - **Is it safe to link my Telegram account ?**
- - Yes, the linking process uses Telegram's secure authentication methods to protect your information and ensure that only you can receive the notifications.
+    - Yes, the linking process uses Telegram's secure authentication methods to protect your information and ensure that only you can receive the notifications.
 
 This guide will help you set up and manage Telegram notifications efficiently, ensuring you are always informed about important events and updates from.

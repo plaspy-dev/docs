@@ -94,10 +94,10 @@ This application includes all the features of the basic application, but with ad
 ## Frequently Asked Questions
 
 - **What type of application is generated?**
- - The generated application is a hybrid app written in Cordova. It can include additional functionalities like support for Google Maps and push notifications, depending on the selected application type.
+    - The generated application is a hybrid app written in Cordova. It can include additional functionalities like support for Google Maps and push notifications, depending on the selected application type.
 - **How do I upload my application to app stores?**
- - You will need knowledge in mobile application development and an account in the corresponding app stores \(Google Play Store and Apple App Store\) to upload your application.
+    - You will need knowledge in mobile application development and an account in the corresponding app stores \(Google Play Store and Apple App Store\) to upload your application.
 - **Can I customize the application with my logo and corporate colors?**
- - Yes, you can customize the application with your logo and corporate colors by selecting the icon background color and uploading your logo.
+    - Yes, you can customize the application with your logo and corporate colors by selecting the icon background color and uploading your logo.
 - **What happens if I don't have a Google Maps or Firebase API key?**
- - If the selected application requires Google Maps or Firebase API keys and you don't provide them, you will not be able to generate a functional application with those features. You must obtain the necessary API keys to complete the process.
+    - If the selected application requires Google Maps or Firebase API keys and you don't provide them, you will not be able to generate a functional application with those features. You must obtain the necessary API keys to complete the process.

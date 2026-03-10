@@ -38,8 +38,8 @@ Puedes acceder a la opción de cambio de contraseña desde la sección "[Cuenta]
 ### Preguntas Frecuentes
 
 - **¿Por qué es importante cambiar mi contraseña regularmente?**
- - Cambiar tu contraseña regularmente ayuda a proteger tu cuenta contra accesos no autorizados y posibles violaciones de seguridad.
+    - Cambiar tu contraseña regularmente ayuda a proteger tu cuenta contra accesos no autorizados y posibles violaciones de seguridad.
 - **¿Qué hago si olvido mi nueva contraseña?**
- - Si olvidas tu nueva contraseña, puedes restablecerla utilizando la opción de recuperación de contraseña en la página de inicio de sesión.
+    - Si olvidas tu nueva contraseña, puedes restablecerla utilizando la opción de recuperación de contraseña en la página de inicio de sesión.
 - **¿Puedo usar una contraseña que ya he utilizado antes?**
- - Es recomendable no reutilizar contraseñas antiguas para garantizar una mejor seguridad.
+    - Es recomendable no reutilizar contraseñas antiguas para garantizar una mejor seguridad.

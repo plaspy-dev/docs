@@ -58,10 +58,10 @@ This functionality is particularly useful for fleet management and monitoring mo
 ## Frequently Asked Questions
 
 - **How can I tell if a device is offline?**
- - The alarms column can indicate if a device is offline. Additionally, you can use the filter field to specifically search for offline devices.
+    - The alarms column can indicate if a device is offline. Additionally, you can use the filter field to specifically search for offline devices.
 - **What should I do if a device shows incorrect data?**
- - Check the date of the last update to ensure that the data is recent. If the problem persists, consider physically checking the device or contacting technical support.
+    - Check the date of the last update to ensure that the data is recent. If the problem persists, consider physically checking the device or contacting technical support.
 - **Can I export the data from the table?**
- - Yes, the details section allows data export for further analysis. Check the export options in the interface menu for more details.
+    - Yes, the details section allows data export for further analysis. Check the export options in the interface menu for more details.
 
 This map details section is a powerful tool for efficient monitoring and management of tracked devices, providing critical and real-time information to support informed decision-making and maintain smooth operations.

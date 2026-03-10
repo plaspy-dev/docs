@@ -44,10 +44,10 @@ El mapa está diseñado para ofrecer una experiencia de usuario completa y efici
 ## Preguntas Frecuentes
 
 - **¿Cómo puedo ver la ruta completa de un dispositivo?**
- - Activa la opción "[Mostrar recorrido](viewing_a_devices_route_history)" en el panel lateral y selecciona el rango de fechas deseado para visualizar la ruta completa en el mapa.
+    - Activa la opción "[Mostrar recorrido](viewing_a_devices_route_history)" en el panel lateral y selecciona el rango de fechas deseado para visualizar la ruta completa en el mapa.
 - **¿Puedo configurar alertas para zonas específicas?**
- - Sí, utiliza el panel de alertas para crear [*fa-lock* geocercas](geofences) y configurar alertas basadas en la entrada o salida de estas zonas.
+    - Sí, utiliza el panel de alertas para crear [*fa-lock* geocercas](geofences) y configurar alertas basadas en la entrada o salida de estas zonas.
 - **¿Cómo exporto los datos del mapa a Excel?**
- - En el menú de guardado, selecciona la opción "*fa-file-excel-o* MS Excel" para exportar los datos actuales del mapa en formato Excel.
+    - En el menú de guardado, selecciona la opción "*fa-file-excel-o* MS Excel" para exportar los datos actuales del mapa en formato Excel.
 
 Este manual cubre las funcionalidades básicas del mapa, proporcionando una guía clara y detallada para maximizar el uso de esta herramienta de seguimiento satelital.

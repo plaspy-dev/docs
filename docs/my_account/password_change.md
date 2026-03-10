@@ -38,10 +38,10 @@ You can access the password change option from the "[Account](https://app.plaspy
 ### Frequently Asked Questions
 
 - **Why is it important to change my password regularly?**
- - Changing your password regularly helps protect your account from unauthorized access and potential security breaches.
+    - Changing your password regularly helps protect your account from unauthorized access and potential security breaches.
 - **What do I do if I forget my new password?**
- - If you forget your new password, you can reset it using the password recovery option on the login page.
+    - If you forget your new password, you can reset it using the password recovery option on the login page.
 - **Can I use a password that I have used before?**
- - It is recommended not to reuse old passwords to ensure better security.
+    - It is recommended not to reuse old passwords to ensure better security.
 
 This guide ensures that you can change your password efficiently, maintaining the security of your account.

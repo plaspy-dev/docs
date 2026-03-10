@@ -32,18 +32,16 @@ Para comunicarte con el servicio, debes autenticarte utilizando un esquema OAuth
 ### Cómo usar OAuth 
 
 1. **Generar un Token de Autenticación:**
-
- - **Endpoint:** `/api/Auth/Token`
- - **Método:** `POST`
- - **Descripción:** Obtener el Auth token necesario para realizar peticiones a otros endpoints de la API.
- - **Ejemplo de solicitud:**
+    - **Endpoint:** `/api/Auth/Token`
+    - **Método:** `POST`
+    - **Descripción:** Obtener el Auth token necesario para realizar peticiones a otros endpoints de la API.
+    - **Ejemplo de solicitud:**
 
 \{ "userName": "tu\_nombre\_de\_usuario", "apiKey": "tu\_api\_key" \}
 2. **Incluir el Token en las Peticiones:**
-
- - Una vez obtenido el token, debes incluirlo en el encabezado de cada solicitud a la API.
- - **Encabezado:** `Authorization: Bearer tu_token`
- - **Ejemplo de uso en una petición GET:**
+    - Una vez obtenido el token, debes incluirlo en el encabezado de cada solicitud a la API.
+    - **Encabezado:** `Authorization: Bearer tu_token`
+    - **Ejemplo de uso en una petición GET:**
 
 GET /api/devices HTTP/1.1 
 Host: api.plaspy.com 

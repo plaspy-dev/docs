@@ -58,10 +58,10 @@ Esta funcionalidad es especialmente útil para la gestión de flotas y el monito
 ## Preguntas Frecuentes
 
 - **¿Cómo puedo saber si un dispositivo está fuera de línea?**
- - La columna de alarmas puede indicar si un dispositivo está fuera de línea. Además, puedes utilizar el campo de filtro para buscar específicamente dispositivos fuera de línea.
+    - La columna de alarmas puede indicar si un dispositivo está fuera de línea. Además, puedes utilizar el campo de filtro para buscar específicamente dispositivos fuera de línea.
 - **¿Qué hago si un dispositivo muestra datos incorrectos?**
- - Verifica la fecha de la última actualización para asegurarte de que los datos son recientes. Si el problema persiste, considera revisar el dispositivo físicamente o contactar al soporte técnico.
+    - Verifica la fecha de la última actualización para asegurarte de que los datos son recientes. Si el problema persiste, considera revisar el dispositivo físicamente o contactar al soporte técnico.
 - **¿Puedo exportar los datos de la tabla?**
- - Sí, la sección de detalles permite la exportación de datos para su análisis posterior. Consulta las opciones de exportación en el menú de la interfaz para más detalles.
+    - Sí, la sección de detalles permite la exportación de datos para su análisis posterior. Consulta las opciones de exportación en el menú de la interfaz para más detalles.
 
 Esta sección de detalles del mapa es una herramienta poderosa para el monitoreo y la gestión eficiente de dispositivos rastreados, proporcionando información crítica y en tiempo real para apoyar decisiones informadas y mantener operaciones fluidas.

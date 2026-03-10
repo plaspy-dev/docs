@@ -20,32 +20,24 @@ La sección "Ingreso" dentro de la [configuración](https://app.plaspy.com/Setti
 ### Instrucciones Paso a Paso
 
 1. **Acceder a la Sección:**
-
- - Inicia sesión y dirígete al menú principal.
- - Selecciona "[Configuración](https://app.plaspy.com/Settings)" y luego "Ingreso".
+    - Inicia sesión y dirígete al menú principal.
+    - Selecciona "[Configuración](https://app.plaspy.com/Settings)" y luego "Ingreso".
 2. **Configurar el Título:**
-
- - Introduce el título deseado en el campo "Título". Este será visible en la página de ingreso.
+    - Introduce el título deseado en el campo "Título". Este será visible en la página de ingreso.
 3. **Añadir Texto de Alerta:**
-
- - Ingresa el mensaje que deseas mostrar como alerta en el campo "Texto de alerta".
+    - Ingresa el mensaje que deseas mostrar como alerta en el campo "Texto de alerta".
 4. **Configurar Mensajes Superior e Inferior:**
-
- - Completa los campos "Texto Superior" y "Texto inferior" con los mensajes que quieres que aparezcan en las respectivas posiciones de la página de ingreso.
+    - Completa los campos "Texto Superior" y "Texto inferior" con los mensajes que quieres que aparezcan en las respectivas posiciones de la página de ingreso.
 5. **Añadir Enlaces a las Tiendas de Aplicaciones:**
-
- - Introduce la URL de la aplicación en Google Play Store en el campo "Enlace a Play Store".
- - Introduce la URL de la aplicación en Apple App Store en el campo "Enlace a App Store".
+    - Introduce la URL de la aplicación en Google Play Store en el campo "Enlace a Play Store".
+    - Introduce la URL de la aplicación en Apple App Store en el campo "Enlace a App Store".
 6. **Subir Imágenes de Fondo:**
-
- - Haz clic en "Examinar" y selecciona las imágenes que deseas usar como fondo en la página de ingreso.
+    - Haz clic en "Examinar" y selecciona las imágenes que deseas usar como fondo en la página de ingreso.
 7. **Personalizar HTML Ingreso:**
-
- - Utiliza el editor HTML para agregar o modificar el código HTML de la página de ingreso. Esto permite una personalización completa del contenido y el diseño.
+    - Utiliza el editor HTML para agregar o modificar el código HTML de la página de ingreso. Esto permite una personalización completa del contenido y el diseño.
 8. **Guardar los Cambios:**
-
- - Revisa todos los campos para asegurar que la información sea correcta.
- - Haz clic en "Aceptar" para guardar todos los cambios realizados.
+    - Revisa todos los campos para asegurar que la información sea correcta.
+    - Haz clic en "Aceptar" para guardar todos los cambios realizados.
 
 ### Validaciones y Restricciones
 

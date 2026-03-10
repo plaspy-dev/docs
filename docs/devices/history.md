@@ -23,19 +23,16 @@ The [device](https://app.plaspy.com/Devices) history functionality allows users 
 ### Step-by-Step Instructions
 
 1. **Accessing the History**:
-
- - In the main panel, navigate to "[*fa-cogs* Devices](https://app.plaspy.com/Devices)" in the top right corner in "*fa-cogs*"
- - Select the device with the edit icon \(*fa-pencil-square-o*\), next to the device name whose history you wish to review.
- - Click on the "*fa-list* History" button to open the date menu.
+    - In the main panel, navigate to "[*fa-cogs* Devices](https://app.plaspy.com/Devices)" in the top right corner in "*fa-cogs*"
+    - Select the device with the edit icon \(*fa-pencil-square-o*\), next to the device name whose history you wish to review.
+    - Click on the "*fa-list* History" button to open the date menu.
 2. **Reviewing the History**:
-
- - In the dropdown menu, select the specific date you wish to review.
- - Examine the device details for that date to understand the changes made.
+    - In the dropdown menu, select the specific date you wish to review.
+    - Examine the device details for that date to understand the changes made.
 3. **Restoring a Previous Configuration**:
-
- - Select the desired date in the history.
- - Click on the restore option to revert the device to that state.
- - Confirm the restoration to apply the changes.
+    - Select the desired date in the history.
+    - Click on the restore option to revert the device to that state.
+    - Confirm the restoration to apply the changes.
 
 ### Validations and Restrictions
 
@@ -46,13 +43,10 @@ The [device](https://app.plaspy.com/Devices) history functionality allows users 
 ### Frequently Asked Questions
 
 - **What can I see in a device's history?**
-
- - In the history, you can see all modifications made to the device, including configuration adjustments, commands sent, and changes in sensors or alerts.
+    - In the history, you can see all modifications made to the device, including configuration adjustments, commands sent, and changes in sensors or alerts.
 - **How can I restore a device to a previous state?**
-
- - Access the device's history, select the desired date, and use the restore option to revert the device to that state.
+    - Access the device's history, select the desired date, and use the restore option to revert the device to that state.
 - **Who can access the device history?**
-
- - Only users with appropriate permissions can access and modify the device history.
+    - Only users with appropriate permissions can access and modify the device history.
 
 This functionality is crucial for effective device management, allowing administrators to maintain detailed control and ensure operational continuity without issues.

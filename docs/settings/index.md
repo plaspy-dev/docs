@@ -23,8 +23,7 @@ To access the configuration, click the gear icon \(*fa-cogs*\) located in the up
 Advanced Customization offers additional options to tailor 's appearance to your company's corporate identity. This functionality is available exclusively for accounts with more than 100 active devices. The options include several sections, each focused on a specific aspect of customization:
 
 - **[*fa-building* Organization](organization):** In this tab, you can change the organization's name and platform icon. This allows 's interface to better reflect your company's identity. 
-
- - [***fa-mobile* Create Mobile App**:](https://app.plaspy.com/Settings/MobileApp) In this tab, you can generate a customized mobile app for Android and iOS. You only need to fill out a short form; once you save it, will prepare the application code with your personal branding so you can use it as your own app.
+    - [***fa-mobile* Create Mobile App**:](https://app.plaspy.com/Settings/MobileApp) In this tab, you can generate a customized mobile app for Android and iOS. You only need to fill out a short form; once you save it, will prepare the application code with your personal branding so you can use it as your own app.
 - **[*fa-user-o* Login](log_in):** Here you can customize the appearance 's login page. You can modify the page's HTML, add custom CSS styles, and configure the background image and login page logo.
 - **[*fa-envelope* Contact](contact):** This section allows you to configure the contact information that will be displayed to users. You can add email addresses, phone numbers, and other contact methods to improve communication with users.
 - **[*fa-desktop* Styles](styles):** This tab allows you to customize the platform's color scheme, including background, text, buttons, and link colors. This way, you can adapt the interface to your organization's corporate colors.
@@ -57,37 +56,32 @@ The History option in the configuration allows users to review and restore previ
 ## Step-by-Step Instructions
 
 1. **Access the Configuration:**
-
- - In the main panel, click the gear icon \(*fa-cogs*\) in the upper right corner.
- - Select "[*fa-list* Configuration](https://app.plaspy.com/Settings)" from the dropdown menu.
+    - In the main panel, click the gear icon \(*fa-cogs*\) in the upper right corner.
+    - Select "[*fa-list* Configuration](https://app.plaspy.com/Settings)" from the dropdown menu.
 2. ***fa-list* Costumization:**
-
- - Go to the "*fa-list-ul* Customization" tab.
- - To change the logo, click "Choose file" and select an image from your device.
- - Enter the redirect URL in the "Web page on logout" field.
- - Add a global message in the "Message for all users" field.
+    - Go to the "*fa-list-ul* Customization" tab.
+    - To change the logo, click "Choose file" and select an image from your device.
+    - Enter the redirect URL in the "Web page on logout" field.
+    - Add a global message in the "Message for all users" field.
 3. ***fa-television* Advanced Customization:**
-
- - Go to the "*fa-television* Advanced Customization" tab.
- - In "[*fa-building* Organization](organization)," change the organization name and platform icon as needed.
- - In "[*fa-user-o* Login](log_in)," customize the appearance of the login page.
- - In "[*fa-envelope* Contact](contact)," add relevant contact information for users.
- - In "[*fa-desktop* Styles](styles)," select colors that best represent your brand.
- - In "[*fa-globe* Maps](maps)," configure the map display options.
- - In "[*fa-envelope-o* Email templates](email_templates)," modify the content and design of emails.
- - In "[*fa-mobile* Push mobile notifications](push_notifications)," customize push notifications.
- - In "[*fa-telegram* Telegram notifications](telegram_notifications)," configure Telegram notifications.
- - In "[*fa-whatsapp* WhatsApp notifications](whatsapp_notifications)," configure WhatsApp notifications.
+    - Go to the "*fa-television* Advanced Customization" tab.
+    - In "[*fa-building* Organization](organization)," change the organization name and platform icon as needed.
+    - In "[*fa-user-o* Login](log_in)," customize the appearance of the login page.
+    - In "[*fa-envelope* Contact](contact)," add relevant contact information for users.
+    - In "[*fa-desktop* Styles](styles)," select colors that best represent your brand.
+    - In "[*fa-globe* Maps](maps)," configure the map display options.
+    - In "[*fa-envelope-o* Email templates](email_templates)," modify the content and design of emails.
+    - In "[*fa-mobile* Push mobile notifications](push_notifications)," customize push notifications.
+    - In "[*fa-telegram* Telegram notifications](telegram_notifications)," configure Telegram notifications.
+    - In "[*fa-whatsapp* WhatsApp notifications](whatsapp_notifications)," configure WhatsApp notifications.
 4. ***fa-envelope-o* Email Server \(SMTP\):**
-
- - Navigate to the "*fa-envelope-o* Email Server \(SMTP\)" tab.
- - Enter your SMTP server details, including the server address, port, and sender's email address.
- - If necessary, enter the authentication credentials.
+    - Navigate to the "*fa-envelope-o* Email Server \(SMTP\)" tab.
+    - Enter your SMTP server details, including the server address, port, and sender's email address.
+    - If necessary, enter the authentication credentials.
 5. ***fa-list* History:**
-
- - Go to the "*fa-list* History" section.
- - Consult previous configurations using the date selector.
- - To restore a configuration, select the desired date and confirm the restoration action. This will revert any changes made since that date.
+    - Go to the "*fa-list* History" section.
+    - Consult previous configurations using the date selector.
+    - To restore a configuration, select the desired date and confirm the restoration action. This will revert any changes made since that date.
 
 ## Validations and Restrictions
 
@@ -99,12 +93,12 @@ The History option in the configuration allows users to review and restore previ
 ## Frequently Asked Questions
 
 - **Why can't I access Advanced Customization?**
- - Advanced Customization is available only for accounts with more than 100 active devices.
+    - Advanced Customization is available only for accounts with more than 100 active devices.
 - **How can I change my account logo?**
- - You can change the logo by accessing the Personalization section, selecting a file from your device, and uploading it.
+    - You can change the logo by accessing the Personalization section, selecting a file from your device, and uploading it.
 - **What should I do if I have issues with SMTP server configuration?**
- - Ensure that the SMTP server details, including the port and server address, are correct. You can contact your email service provider for the necessary information.
+    - Ensure that the SMTP server details, including the port and server address, are correct. You can contact your email service provider for the necessary information.
 - **How can I restore a previous configuration?**
- - Access the History section, select the date of the configuration you want to restore, and confirm the restoration. This will revert any changes made since that date.
+    - Access the History section, select the date of the configuration you want to restore, and confirm the restoration. This will revert any changes made since that date.
 
 For more information and video tutorials, visit the links provided in the configuration section on.

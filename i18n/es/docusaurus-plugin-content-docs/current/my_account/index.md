@@ -29,11 +29,10 @@ En la sección "[*fa-user* Mi Cuenta](https://app.plaspy.com/Account)", puedes g
 - **Correo Alternativo:** Indica un correo electrónico alternativo para recuperación de cuenta. Puedes actualizarlo desde esta sección.
 - **API Key:** Muestra tu clave de API, que puedes utilizar para integraciones y desarrollos. Puedes copiar, generar una nueva o eliminar la API Key desde esta sección.
 - **Notificaciones y Seguridad:** 
-
- - ***fa-envelope-o* Notificaciones por Email:** Configura las notificaciones que deseas recibir por correo electrónico. Puedes añadir varios correos electrónicos separados por comas o puntos y comas. También puedes seleccionar las categorías de notificaciones que deseas recibir, como cambios en la plataforma o noticias importantes.
- - ***fa-telegram* Notificaciones por Telegram:** Permite recibir notificaciones a través de Telegram configurando esta opción desde tu cuenta.
- - ***fa-shield* Autenticación de Dos Factores:** Activa o desactiva la autenticación de dos factores para aumentar la seguridad de tu cuenta.
- - ***fa-file-text-o* Registros de Acceso:** Consulta los registros de acceso a tu cuenta para monitorear cualquier actividad sospechosa.
+    - ***fa-envelope-o* Notificaciones por Email:** Configura las notificaciones que deseas recibir por correo electrónico. Puedes añadir varios correos electrónicos separados por comas o puntos y comas. También puedes seleccionar las categorías de notificaciones que deseas recibir, como cambios en la plataforma o noticias importantes.
+    - ***fa-telegram* Notificaciones por Telegram:** Permite recibir notificaciones a través de Telegram configurando esta opción desde tu cuenta.
+    - ***fa-shield* Autenticación de Dos Factores:** Activa o desactiva la autenticación de dos factores para aumentar la seguridad de tu cuenta.
+    - ***fa-file-text-o* Registros de Acceso:** Consulta los registros de acceso a tu cuenta para monitorear cualquier actividad sospechosa.
 
 ### *fa-file-o* Información de Facturación
 

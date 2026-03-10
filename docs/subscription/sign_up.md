@@ -48,12 +48,12 @@ To access the sign-up page, follow these steps:
 ### Frequently Asked Questions
 
 - **What should I do if I don't receive the verification email?**
- - Check your spam or junk mail folder.
- - Ensure the provided email address is correctly entered.
- - If you still do not receive the email, try repeating the sign-up process or contact support.
+    - Check your spam or junk mail folder.
+    - Ensure the provided email address is correctly entered.
+    - If you still do not receive the email, try repeating the sign-up process or contact support.
 - **How can I ensure my password is secure?**
- - Use a combination of uppercase and lowercase letters, numbers, and special characters.
- - Avoid using common passwords or easily guessable personal information.
- - Consider using a long, unique passphrase that only you know.
+    - Use a combination of uppercase and lowercase letters, numbers, and special characters.
+    - Avoid using common passwords or easily guessable personal information.
+    - Consider using a long, unique passphrase that only you know.
 
 By following these steps, you can sign up for securely and quickly, ensuring your account is ready to start using satellite tracking services.

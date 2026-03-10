@@ -57,10 +57,10 @@ At the bottom of the panel, there are options to save configurations and manage 
 ## Frequently Asked Questions
 
 - **How can I quickly find a specific device?**
- - Use the search bar at the top of the panel to enter the name or keyword of the device. The list will automatically filter to show only the matching devices.
+    - Use the search bar at the top of the panel to enter the name or keyword of the device. The list will automatically filter to show only the matching devices.
 - **What should I do if I need to update device information?**
- - Click the "*fa-refresh* Update" button at the bottom of the panel to refresh the displayed data and ensure that the information is up-to-date.
+    - Click the "*fa-refresh* Update" button at the bottom of the panel to refresh the displayed data and ensure that the information is up-to-date.
 - **Can I export the device list and its data?**
- - Yes, you can export the information in formats such as Excel or KML for Google Earth. Use the "*fa-floppy-o* Save As" menu at the bottom of the panel to select the desired format and follow the export instructions.
+    - Yes, you can export the information in formats such as Excel or KML for Google Earth. Use the "*fa-floppy-o* Save As" menu at the bottom of the panel to select the desired format and follow the export instructions.
 
 The Device Control Panel is a powerful tool for efficient management and detailed monitoring of devices, providing users with an intuitive and feature-rich interface to maintain smooth and secure operations.

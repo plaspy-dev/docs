@@ -21,19 +21,17 @@ La sección de "[*fa-file-o* Información de Facturación](https://app.plaspy.co
 #### Instrucciones Paso a Paso
 
 1. **Acceso a la Sección:**
-
- - Inicia sesión en tu cuenta.
- - Navega a la sección de "[*fa-user* Cuenta](https://app.plaspy.com/Account)" desde el menú principal.
- - Haz clic en "[*fa-file-o* Información de Facturación](https://app.plaspy.com/Checkout/?from=/Account)".
+    - Inicia sesión en tu cuenta.
+    - Navega a la sección de "[*fa-user* Cuenta](https://app.plaspy.com/Account)" desde el menú principal.
+    - Haz clic en "[*fa-file-o* Información de Facturación](https://app.plaspy.com/Checkout/?from=/Account)".
 2. **Actualizar Información:**
-
- - En el formulario de "[*fa-file-o* Información de Facturación](https://app.plaspy.com/Checkout/?from=/Account)", selecciona tu país desde la lista desplegable.
- - Introduce tu nombre y apellido en los campos correspondientes.
- - Proporciona un número de teléfono de contacto válido.
- - Completa la dirección física de facturación.
- - Si aplicable, añade el nombre de tu organización.
- - Selecciona el tipo de documento y proporciona el número de documento fiscal correspondiente.
- - Revisa que toda la información esté correcta y haz clic en "Continuar" para actualizar los datos.
+    - En el formulario de "[*fa-file-o* Información de Facturación](https://app.plaspy.com/Checkout/?from=/Account)", selecciona tu país desde la lista desplegable.
+    - Introduce tu nombre y apellido en los campos correspondientes.
+    - Proporciona un número de teléfono de contacto válido.
+    - Completa la dirección física de facturación.
+    - Si aplicable, añade el nombre de tu organización.
+    - Selecciona el tipo de documento y proporciona el número de documento fiscal correspondiente.
+    - Revisa que toda la información esté correcta y haz clic en "Continuar" para actualizar los datos.
 
 #### Validaciones y Restricciones
 
@@ -44,13 +42,10 @@ La sección de "[*fa-file-o* Información de Facturación](https://app.plaspy.co
 #### Preguntas Frecuentes
 
 - **¿Qué sucede si no actualizo mi información de facturación?**
-
- - Es crucial mantener la información de facturación actualizada para evitar interrupciones en el servicio y problemas con la emisión de facturas.
+    - Es crucial mantener la información de facturación actualizada para evitar interrupciones en el servicio y problemas con la emisión de facturas.
 - **¿Cómo puedo corregir un error en mi información de facturación?**
-
- - Simplemente accede a la sección de "*fa-file-o* Información de Facturación", realiza los cambios necesarios y guarda la información actualizada.
+    - Simplemente accede a la sección de "*fa-file-o* Información de Facturación", realiza los cambios necesarios y guarda la información actualizada.
 - **¿Es necesario proporcionar una dirección física?**
-
- - Sí, una dirección física es necesaria para cualquier correspondencia relacionada con la facturación y cumplimiento fiscal.
+    - Sí, una dirección física es necesaria para cualquier correspondencia relacionada con la facturación y cumplimiento fiscal.
 
 Esta guía asegura que puedas mantener tu información de facturación precisa y actualizada, facilitando una gestión eficiente y sin inconvenientes de tus servicios.

@@ -12,7 +12,7 @@ The platform allows users to view the complete route history of their devices on
 - **Select Devices**: In the left panel, select the device\(s\) whose route you want to view. You can choose a specific device or multiple devices simultaneously. Use the checkboxes next to each device to make your selection. 
 ![](./image_1718309244651.gif)
 
- - **Enable Show Route**: Check the option "Show Route". This will enable the route display feature and bring up additional settings for customizing the route view.
+    - **Enable Show Route**: Check the option "Show Route". This will enable the route display feature and bring up additional settings for customizing the route view.
 
 ![](./image_1718309272908.gif)
 - **Choose Date Range**: Select the date range for the route you wish to view. You can choose from predefined options like "Hoy" \(Today\) or set a custom range. This flexibility allows you to view routes from the past hour, specific dates, or any desired period.

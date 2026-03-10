@@ -40,8 +40,8 @@ La función de reasignar sensores digitales permite cambiar la asignación de la
 ## Preguntas Frecuentes
 
 - **¿Por qué debería reasignar una entrada digital?**
- - Reasignar una entrada digital te permite adaptar la configuración del dispositivo a tus necesidades específicas de monitoreo y control. Por ejemplo, puedes cambiar la función de una entrada digital para monitorear un sensor diferente o activar una función específica.
+    - Reasignar una entrada digital te permite adaptar la configuración del dispositivo a tus necesidades específicas de monitoreo y control. Por ejemplo, puedes cambiar la función de una entrada digital para monitorear un sensor diferente o activar una función específica.
 - **¿Cómo puedo saber qué función seleccionar para una entrada digital?**
- - La función a seleccionar depende de las necesidades específicas de tu monitoreo. Si no estás seguro, consulta la documentación del dispositivo o contacta al soporte técnico para obtener recomendaciones.
+    - La función a seleccionar depende de las necesidades específicas de tu monitoreo. Si no estás seguro, consulta la documentación del dispositivo o contacta al soporte técnico para obtener recomendaciones.
 - **¿Qué sucede si reasigno una entrada digital incorrectamente?**
- - Si reasignas una entrada digital incorrectamente, el dispositivo podría no funcionar según lo esperado. Puedes volver a la sección de reasignar sensores digitales y seleccionar la función correcta para corregir la configuración.
+    - Si reasignas una entrada digital incorrectamente, el dispositivo podría no funcionar según lo esperado. Puedes volver a la sección de reasignar sensores digitales y seleccionar la función correcta para corregir la configuración.

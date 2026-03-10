@@ -9,11 +9,11 @@ The [timeline](https://app.plaspy.com/Map) provides a detailed summary of the de
 
 ### Filtering Buttons
 
-- **Driving \(![](https://app.plaspy.com/img/map/driving.svg)\):** Filters the timeline to show only when the device was moving. Useful for checking speeds, routes, and active times.
-- **Stopped \(![](https://app.plaspy.com/img/map/stopped.svg)\):** Shows events where the device was stopped and parked. Ideal for checking how long it stayed still and in which locations.
-- **Idle \(![](https://app.plaspy.com/img/map/idle.svg)\):** Shows periods when the engine was on, but the vehicle was not moving. Helps identify unproductive time and potential fuel waste.
-- **Alerts \(![](https://app.plaspy.com/img/map/warning.svg)\):** Shows details of alerts sent by the device, such as speeding, disconnections, or entering/leaving geofences. Used to detect situations that need attention.
-- **Critical Alerts \(![](https://app.plaspy.com/img/map/alert.svg)\):** Shows the most important or high-risk alerts. These require immediate attention to avoid problems or incidents.
+- **Driving \(![](./driving.svg)\):** Filters the timeline to show only when the device was moving. Useful for checking speeds, routes, and active times.
+- **Stopped \(![](./stopped.svg)\):** Shows events where the device was stopped and parked. Ideal for checking how long it stayed still and in which locations.
+- **Idle \(![](./idle.svg)\):** Shows periods when the engine was on, but the vehicle was not moving. Helps identify unproductive time and potential fuel waste.
+- **Alerts \(![](./warning.svg)\):** Shows details of alerts sent by the device, such as speeding, disconnections, or entering/leaving geofences. Used to detect situations that need attention.
+- **Critical Alerts \(![](./alert.svg)\):** Shows the most important or high-risk alerts. These require immediate attention to avoid problems or incidents.
 
 ### Summary Fields
 
@@ -41,6 +41,6 @@ The [timeline](https://app.plaspy.com/Map) provides a detailed summary of the de
 ### Frequently Asked Questions \(FAQ\)
 
 - **Why can't I see data from all sensors?**
- - Make sure the device has those sensors installed and that they are enabled and working correctly during the trip.
+    - Make sure the device has those sensors installed and that they are enabled and working correctly during the trip.
 - **What do the different fuel metrics mean?**
- - "Fuel \(%\)" indicates the remaining fuel percentage. "Distance per tank" and "Distance per fuel unit" show how efficient the fuel use is.
+    - "Fuel \(%\)" indicates the remaining fuel percentage. "Distance per tank" and "Distance per fuel unit" show how efficient the fuel use is.

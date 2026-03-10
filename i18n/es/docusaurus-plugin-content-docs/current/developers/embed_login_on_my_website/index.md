@@ -12,14 +12,12 @@ Instrucciones para insertar el iframe
 ### Paso a Paso
 
 1. **Agregar el código iframe a tu página web:**
-
- - Copia el siguiente código iframe y pégalo en el lugar de tu página web donde deseas que aparezca el formulario de ingreso.
+    - Copia el siguiente código iframe y pégalo en el lugar de tu página web donde deseas que aparezca el formulario de ingreso.
 
 &lt;iframe src="https://app.plaspy.com/Login" style="border: none; width: 300px; height: 310px;"&gt;&lt;/iframe&gt;
 2. **Configurar el retorno a tu página web:**
-
- - Si deseas que los usuarios regresen a tu página web después de cerrar sesión, puedes configurar la URL de retorno en la sección de personalización de usuario.
- - Ve a la configuración del usuario y añade la dirección URL de tu página web en el campo correspondiente bajo "[*fa-list* Personalización](https://app.plaspy.com/Settings)" y "Página web".
+    - Si deseas que los usuarios regresen a tu página web después de cerrar sesión, puedes configurar la URL de retorno en la sección de personalización de usuario.
+    - Ve a la configuración del usuario y añade la dirección URL de tu página web en el campo correspondiente bajo "[*fa-list* Personalización](https://app.plaspy.com/Settings)" y "Página web".
 
 ## Consideraciones Finales
 

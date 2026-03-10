@@ -32,18 +32,16 @@ To communicate with the service, you must authenticate using an OAuth scheme. Th
 ### How to Use OAuth 
 
 1. **Generate an Authentication Token:**
-
- - **Endpoint:** `/api/Auth/Token`
- - **Method:** `POST`
- - **Description:** Obtain the Auth token required to make requests to other API endpoints.
- - **Request Example:**
+    - **Endpoint:** `/api/Auth/Token`
+    - **Method:** `POST`
+    - **Description:** Obtain the Auth token required to make requests to other API endpoints.
+    - **Request Example:**
 
 \{ "userName": "your\_username", "apiKey": "your\_api\_key" \}
 2. **Include the Token in Requests:**
-
- - Once the token is obtained, you must include it in the header of each API request.
- - **Header:** `Authorization: Bearer your_token`
- - **Example of a GET request:**
+    - Once the token is obtained, you must include it in the header of each API request.
+    - **Header:** `Authorization: Bearer your_token`
+    - **Example of a GET request:**
 
 ```
 GET /api/devices HTTP/1.1 

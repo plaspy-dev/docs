@@ -32,9 +32,9 @@ La sección de [Dispositivos](https://app.plaspy.com/Device) te permite gestiona
 1. Accede a la sección "[Dispositivos](https://app.plaspy.com/Devices)" desde el panel principal.
 2. Haz clic en el botón verde con el simbolo "*fa-plus*" en la parte inferior derecha
 3. Rellena los campos requeridos:
- - **Nombre**: Introduce un nombre descriptivo para el dispositivo.
- - **IMEI o Identificador**: Ingresa el número IMEI del dispositivo.
- - **Descripción**: Añade cualquier información adicional relevante.
+    - **Nombre**: Introduce un nombre descriptivo para el dispositivo.
+    - **IMEI o Identificador**: Ingresa el número IMEI del dispositivo.
+    - **Descripción**: Añade cualquier información adicional relevante.
 4. Selecciona un marcador si lo deseas para diferenciar visualmente el dispositivo en el mapa.
 5. Configura los sensores y comandos según tus necesidades.
 6. Programa recordatorios y alertas si es necesario.
@@ -72,12 +72,12 @@ La sección de [Dispositivos](https://app.plaspy.com/Device) te permite gestiona
 ## Preguntas Frecuentes
 
 - **¿Qué es el IMEI y por qué es importante?**
- - El IMEI \(International Mobile Equipment Identity\) es un número único que identifica un dispositivo móvil. Es crucial para la configuración y comunicación con el sistema de seguimiento, asegurando que los datos enviados y recibidos correspondan al dispositivo correcto.
+    - El IMEI \(International Mobile Equipment Identity\) es un número único que identifica un dispositivo móvil. Es crucial para la configuración y comunicación con el sistema de seguimiento, asegurando que los datos enviados y recibidos correspondan al dispositivo correcto.
 - **¿Puedo cambiar el nombre de un dispositivo después de agregarlo?**
- - Sí, puedes editar el nombre y otros detalles del dispositivo en cualquier momento desde la sección de Dispositivos.
+    - Sí, puedes editar el nombre y otros detalles del dispositivo en cualquier momento desde la sección de Dispositivos.
 - **¿Cómo puedo agregar un nuevo marcador personalizado?**
- - Al seleccionar la opción de [marcador](marker_icon), puedes elegir entre los íconos disponibles o subir uno nuevo desde tu equipo para personalizar la visualización en el mapa.
+    - Al seleccionar la opción de [marcador](marker_icon), puedes elegir entre los íconos disponibles o subir uno nuevo desde tu equipo para personalizar la visualización en el mapa.
 - **¿Qué tipo de alertas puedo configurar?**
- - Puedes configurar [alertas](alerts) para eventos específicos como cuando el dispositivo se desconecta, cruza una zona de control, o necesita mantenimiento. Estas alertas se pueden recibir por correo electrónico, notificaciones push, Telegram, entre otros.
+    - Puedes configurar [alertas](alerts) para eventos específicos como cuando el dispositivo se desconecta, cruza una zona de control, o necesita mantenimiento. Estas alertas se pueden recibir por correo electrónico, notificaciones push, Telegram, entre otros.
 - **¿Cómo agrego un teléfono móvil como dispositivo de seguimiento?**
- - Los teléfonos móviles solo se pueden agregar directamente desde la [aplicación móvil](../mobile_application). Descarga la aplicación desde la tienda de aplicaciones de tu dispositivo móvil y sigue las instrucciones para agregar el teléfono como dispositivo.
+    - Los teléfonos móviles solo se pueden agregar directamente desde la [aplicación móvil](../mobile_application). Descarga la aplicación desde la tienda de aplicaciones de tu dispositivo móvil y sigue las instrucciones para agregar el teléfono como dispositivo.

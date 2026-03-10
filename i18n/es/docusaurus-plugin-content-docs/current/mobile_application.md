@@ -37,12 +37,12 @@ La plataforma ofrece una aplicación móvil para dispositivos Android y iPhone, 
 ### Configuración del Dispositivo
 
 1. **Opciones de Rastreo:**Para que la opción de rastrear aparezca, debes tener licencias disponibles en tu cuenta. De lo contrario, ingresarás directamente a tu cuenta con los privilegios actuales del usuario.
- - **No rastrear este dispositivo:** Utiliza tu teléfono solo para acceder a la plataforma sin rastrear el dispositivo actual.
- - **Rastrear este dispositivo:** Permite que tu teléfono sea rastreado como un dispositivo nuevo.
+    - **No rastrear este dispositivo:** Utiliza tu teléfono solo para acceder a la plataforma sin rastrear el dispositivo actual.
+    - **Rastrear este dispositivo:** Permite que tu teléfono sea rastreado como un dispositivo nuevo.
 2. **Configuración del Rastreo:**Si decides rastrear tu dispositivo:
- - **Nombre del Dispositivo:** Introduce el nombre de tu dispositivo.
- - **Intervalos de Actualización:** Selecciona el intervalo de tiempo para las actualizaciones de rastreo.
- - **Privilegios:** Asigna los privilegios adecuados \(Todos, Administrador, etc.\).
+    - **Nombre del Dispositivo:** Introduce el nombre de tu dispositivo.
+    - **Intervalos de Actualización:** Selecciona el intervalo de tiempo para las actualizaciones de rastreo.
+    - **Privilegios:** Asigna los privilegios adecuados \(Todos, Administrador, etc.\).
 3. **Aceptar Permisos:** Acepta los permisos de seguridad que solicita la aplicación.
 
 ## Finalización
@@ -52,8 +52,8 @@ Una vez configurada la aplicación, tendrás acceso a todas las funciones direct
 ## Preguntas Frecuentes
 
 - **¿Es compatible la aplicación con todos los dispositivos?**
- - La plataforma es compatible con dispositivos Android \(versión 6.0 en adelante\) e iOS \(versión 9.0 o superior\). Asegúrate de tener un dispositivo con GPS y conectividad 3G o superior.
+    - La plataforma es compatible con dispositivos Android \(versión 6.0 en adelante\) e iOS \(versión 9.0 o superior\). Asegúrate de tener un dispositivo con GPS y conectividad 3G o superior.
 - **¿Qué debo hacer si no recibo notificaciones?**
- - Verifica que el GPS de tu dispositivo esté activo y que la aplicación esté abierta y no eliminada de la barra de multitarea. Además, asegúrate de tener una buena conexión a internet.
+    - Verifica que el GPS de tu dispositivo esté activo y que la aplicación esté abierta y no eliminada de la barra de multitarea. Además, asegúrate de tener una buena conexión a internet.
 
 Siguiendo esta guía, podrás instalar y utilizar la aplicación móvil para aprovechar al máximo sus funcionalidades y mantener un control efectivo de tus dispositivos.

@@ -25,9 +25,8 @@ To access the username recovery option, follow these steps:
 
 1. **Select Recovery Method**: On the username recovery page, choose the method you prefer to recover your username: "Device Identifier or IMEI" or "Mobile Phone Number".
 2. **Enter Information**:
-
- - If you selected "Device Identifier or IMEI", enter the identifier, IMEI, or serial number of any device registered to your account in the corresponding field.
- - If you selected "Mobile Phone Number", enter your registered mobile phone number in the corresponding field.
+    - If you selected "Device Identifier or IMEI", enter the identifier, IMEI, or serial number of any device registered to your account in the corresponding field.
+    - If you selected "Mobile Phone Number", enter your registered mobile phone number in the corresponding field.
 3. **Complete reCAPTCHA**: Check the "I'm not a robot" box. This may require you to complete a short visual challenge to verify your identity.
 4. **Click on Recover**: Once you have entered the required information and completed the reCAPTCHA, click the "Recover" button.
 5. **Display Username on Screen**: Your registered email address and username will be displayed on the screen once the information is completed.
@@ -43,11 +42,11 @@ To access the username recovery option, follow these steps:
 ### Frequently Asked Questions
 
 - **What should I do if my username does not appear on the screen or I do not receive the recovery email?**
- - Check your spam or junk mail folder.
- - Ensure the information entered is correctly registered with your account.
- - If you still do not receive the email, try repeating the process or contact support.
+    - Check your spam or junk mail folder.
+    - Ensure the information entered is correctly registered with your account.
+    - If you still do not receive the email, try repeating the process or contact support.
 - **How can I ensure my contact information is up-to-date ?**
- - Log in to your account and verify that your contact information \(email and mobile phone number\) is correct and up-to-date.
- - If necessary, update your information to avoid future issues when recovering your username or resetting your password.
+    - Log in to your account and verify that your contact information \(email and mobile phone number\) is correct and up-to-date.
+    - If necessary, update your information to avoid future issues when recovering your username or resetting your password.
 
 By following these steps, you can recover your username securely and quickly, ensuring your account remains accessible.

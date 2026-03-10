@@ -23,19 +23,16 @@ Para acceder al historial de un dispositivo:
 #### Instrucciones Paso a Paso
 
 1. **Acceder al Historial**:
-
- - En el panel principal, navega a "[Dispositivos](https://app.plaspy.com/Devices)".
- - Selecciona el dispositivo cuyo historial deseas revisar.
- - Haz clic en el botón "*fa-list*Historial" para abrir el menú de fechas.
+    - En el panel principal, navega a "[Dispositivos](https://app.plaspy.com/Devices)".
+    - Selecciona el dispositivo cuyo historial deseas revisar.
+    - Haz clic en el botón "*fa-list*Historial" para abrir el menú de fechas.
 2. **Consultar el Historial**:
-
- - En el menú desplegable, selecciona la fecha específica que deseas consultar.
- - Revisa los detalles del dispositivo en esa fecha para entender los cambios realizados.
+    - En el menú desplegable, selecciona la fecha específica que deseas consultar.
+    - Revisa los detalles del dispositivo en esa fecha para entender los cambios realizados.
 3. **Restaurar una Configuración Anterior**:
-
- - Selecciona la fecha deseada en el historial.
- - Haz clic en la opción de "*fa-undo* restaurar" para revertir el dispositivo a ese estado.
- - Confirma la restauración para aplicar los cambios.
+    - Selecciona la fecha deseada en el historial.
+    - Haz clic en la opción de "*fa-undo* restaurar" para revertir el dispositivo a ese estado.
+    - Confirma la restauración para aplicar los cambios.
 
 #### Validaciones y Restricciones
 
@@ -46,13 +43,10 @@ Para acceder al historial de un dispositivo:
 #### Preguntas Frecuentes 
 
 - **¿Qué puedo ver en el historial de un dispositivo?**
-
- - En el historial, puedes ver todas las modificaciones realizadas al dispositivo, incluyendo ajustes de configuración, comandos enviados y alteraciones en los sensores o alertas.
+    - En el historial, puedes ver todas las modificaciones realizadas al dispositivo, incluyendo ajustes de configuración, comandos enviados y alteraciones en los sensores o alertas.
 - **¿Cómo puedo restaurar un dispositivo a un estado anterior?**
-
- - Accede al historial del dispositivo, selecciona la fecha deseada y utiliza la opción de restaurar para revertir el dispositivo a ese estado.
+    - Accede al historial del dispositivo, selecciona la fecha deseada y utiliza la opción de restaurar para revertir el dispositivo a ese estado.
 - **¿Quién puede acceder al historial de dispositivos?**
-
- - Solo los usuarios con los permisos adecuados pueden acceder y modificar el historial de los dispositivos.
+    - Solo los usuarios con los permisos adecuados pueden acceder y modificar el historial de los dispositivos.
 
 Esta funcionalidad es crucial para la gestión efectiva de dispositivos, permitiendo a los administradores mantener un control detallado y asegurar la continuidad operacional sin problemas.

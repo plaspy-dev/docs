@@ -25,7 +25,71 @@ The body of the request must include a JSON object with the alert data for the d
 | --- | --- | --- | --- |
 | from | string | Yes | Start date and time of the alert, in ISO 8601 format. |
 | to | string | Yes | End date and time of the alert, in ISO 8601 format. |
-| alertName | string | No | Name of the alert. |
+| alertName | string | No | Name of the alert to filter by. If omitted or null, all available alerts in the specified date range will be returned. See the **Available Alert Names** section below for valid values. |
+
+### Available Alert Names
+
+The `alertName` parameter accepts specific string values corresponding to different types of events tracked by the device. If this field is not provided, the API will return all of the device's alerts within the date range.
+
+Valid alert names are:
+
+| Alert Name | Description |
+| --- | --- |
+| `GPSOff` | GPS is turned off. |
+| `GPSNoSignal` | GPS has lost signal. |
+| `ForbiddenArea` | Device entered a forbidden area (geofence). |
+| `AllowedArea` | Device exited or entered an allowed area. |
+| `SOSButton` | The panic/SOS button was pressed. |
+| `SpeedLimit` | The device exceeded the speed limit. |
+| `NoMovementTime` | Device has been inactive/stopped for too long. |
+| `Sensor1On` | Sensor 1 was activated. |
+| `GPSUnplugged` | The device was disconnected from its main power source. |
+| `Sensor1Off` | Sensor 1 was deactivated. |
+| `TemperatureGreaterThan` | Temperature exceeded the maximum limit. |
+| `TemperatureLowerThan` | Temperature dropped below the minimum limit. |
+| `FuelJumpDown` | Sudden drop in fuel level (possible theft). |
+| `FuelJumpUp` | Sudden increase in fuel level (refueling). |
+| `FuelLessThan` | Fuel level is critically low. |
+| `FutureDate` | The device sent a date in the future. |
+| `PastDate` | The device sent a date from the past. |
+| `Sensor2On` | Sensor 2 was activated. |
+| `Sensor2Off` | Sensor 2 was deactivated. |
+| `Sensor3On` | Sensor 3 was activated. |
+| `Sensor3Off` | Sensor 3 was deactivated. |
+| `Sensor4On` | Sensor 4 was activated. |
+| `Sensor4Off` | Sensor 4 was deactivated. |
+| `ExpiredDate` | The data has expired. |
+| `Mileage` | Mileage alert triggered. |
+| `Vibration` | Vibration detected. |
+| `RPM` | RPM limit exceeded. |
+| `CheckPoint` | A checkpoint was reached. |
+| `CheckArea` | A check area was crossed. |
+| `SpeedLower` | Speed dropped below a set limit. |
+| `Offline` | Device went offline. |
+| `LowBattery` | Device's internal battery is low. |
+| `BatteryVoltage` | Main battery voltage is out of range. |
+| `SleepMode` | Device entered sleep/power-saving mode. |
+| `Temperature2LessThan` | Secondary temperature dropped below the minimum limit. |
+| `Temperature2GreaterThan` | Secondary temperature exceeded the maximum limit. |
+| `Route` | Route deviation detected. |
+| `Sensor1Time` | Sensor 1 specific time threshold met. |
+| `Sensor2Time` | Sensor 2 specific time threshold met. |
+| `Sensor3Time` | Sensor 3 specific time threshold met. |
+| `Sensor4Time` | Sensor 4 specific time threshold met. |
+| `SensorAccumulated1Time` | Accumulated time on sensor 1 exceeded threshold. |
+| `SensorAccumulated2Time` | Accumulated time on sensor 2 exceeded threshold. |
+| `SensorAccumulated3Time` | Accumulated time on sensor 3 exceeded threshold. |
+| `SensorAccumulated4Time` | Accumulated time on sensor 4 exceeded threshold. |
+| `FuelJumpDown2` | Sudden drop in fuel level for secondary tank. |
+| `FuelJumpUp2` | Sudden increase in fuel level for secondary tank. |
+| `FuelLessThan2` | Fuel level is critically low for secondary tank. |
+| `AttributeEquals` | Custom attribute equality condition met. |
+| `AttributeLessThan` | Custom attribute less-than condition met. |
+| `AttributeGreaterThan` | Custom attribute greater-than condition met. |
+| `HarshBraking` | Harsh or sudden braking detected. |
+| `HarshAcceleration` | Harsh or sudden acceleration detected. |
+| `AuthenticationFailed` | Authentication of the device or driver failed. |
+| `IdleTime` | Vehicle is idling for too long. |
 
 ### Authentication Required
 

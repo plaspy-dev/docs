@@ -27,10 +27,10 @@ La sección de Recordatorios permite a los usuarios programar alertas para event
 1. Selecciona el dispositivo de la lista de [dispositivos](https://app.plaspy.com/Devices).
 2. En la sección "*fa-bell* Recordatorios", haz clic en "Agregar nuevo recordatorio".
 3. Completa los campos requeridos:
- - **Nombre del Recordatorio**: Introduce un nombre descriptivo para el recordatorio.
- - **Email**: Ingresa la dirección de correo electrónico donde deseas recibir el recordatorio.
- - **Fecha**: Selecciona la fecha en la que deseas que se envíe el recordatorio.
- - **Kilometraje**: Ingresa el kilometraje en el que deseas que se envíe el recordatorio.
+    - **Nombre del Recordatorio**: Introduce un nombre descriptivo para el recordatorio.
+    - **Email**: Ingresa la dirección de correo electrónico donde deseas recibir el recordatorio.
+    - **Fecha**: Selecciona la fecha en la que deseas que se envíe el recordatorio.
+    - **Kilometraje**: Ingresa el kilometraje en el que deseas que se envíe el recordatorio.
 4. Haz clic en "Aceptar" para crear el recordatorio.
 
 ### Editar un Recordatorio Existente
@@ -50,10 +50,10 @@ La sección de Recordatorios permite a los usuarios programar alertas para event
 ## Preguntas Frecuentes
 
 - **¿Qué tipo de eventos puedo programar con los recordatorios?**
- - Puedes programar recordatorios para cualquier evento importante relacionado con tus dispositivos de rastreo, como el mantenimiento del vehículo, la renovación del seguro, o cualquier otra tarea crítica.
+    - Puedes programar recordatorios para cualquier evento importante relacionado con tus dispositivos de rastreo, como el mantenimiento del vehículo, la renovación del seguro, o cualquier otra tarea crítica.
 - **¿Puedo añadir varios correos electrónicos para recibir el recordatorio?**
- - Sí, puedes añadir varias direcciones de correo electrónico separadas por comas para que varias personas reciban el recordatorio.
+    - Sí, puedes añadir varias direcciones de correo electrónico separadas por comas para que varias personas reciban el recordatorio.
 - **¿Cómo funciona el recordatorio basado en kilometraje?**
- - El recordatorio basado en kilometraje se enviará cuando el vehículo alcance el kilometraje especificado. Esto es útil para programar mantenimientos basados en el uso del vehículo.
+    - El recordatorio basado en kilometraje se enviará cuando el vehículo alcance el kilometraje especificado. Esto es útil para programar mantenimientos basados en el uso del vehículo.
 - **¿Puedo editar o eliminar un recordatorio después de crearlo?**
- - Sí, puedes editar o eliminar un recordatorio en cualquier momento desde la sección de Recordatorios del dispositivo.
+    - Sí, puedes editar o eliminar un recordatorio en cualquier momento desde la sección de Recordatorios del dispositivo.

@@ -34,10 +34,10 @@ Alerts are configurable notifications sent to users to inform them about specifi
 1. Select the [device](https://app.plaspy.com/Devices) for which you want to configure an alert.
 2. Click the add alert button \(*fa-plus*\).
 3. Complete the necessary fields in the form that opens:
- - **Alert Name**: Enter a descriptive name for the alert.
- - **Email**: Enter the email address to receive the notification.
- - **Email, Push, Telegram, WhatsApp, and SMS Notifications**: Enable or disable as needed.
- - **Schedule**: Set the days and times when the alert should be active.
+    - **Alert Name**: Enter a descriptive name for the alert.
+    - **Email**: Enter the email address to receive the notification.
+    - **Email, Push, Telegram, WhatsApp, and SMS Notifications**: Enable or disable as needed.
+    - **Schedule**: Set the days and times when the alert should be active.
 4. Click "OK" to create the alert.
 
 ### Editing an Existing Alert

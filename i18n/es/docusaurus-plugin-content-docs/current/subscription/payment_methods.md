@@ -45,9 +45,8 @@ La plataforma ofrece varios períodos de pago que permiten flexibilidad y ahorro
 2. **Mostrar Precios en USD**: Si prefieres ver los precios en dólares americanos \(USD\), marca la casilla "Mostrar precios en USD dólares".
 3. **Ingresar el Número de Dispositivos**: Ingresa el número de dispositivos que deseas comprar en el campo "*fa-map-marker* Número de dispositivos". El costo mensual se mostrará junto a él.
 4. **Seleccionar el Período de Suscripción**: Elige tu período de suscripción deseado.
-
- - **Suscripción Mensual**: Pago recurrente mensual.
- - **Suscripción Anual**: Un solo pago anual con 20% descuento.
+    - **Suscripción Mensual**: Pago recurrente mensual.
+    - **Suscripción Anual**: Un solo pago anual con 20% descuento.
 5. **Revisar el Resumen del Pedido**: El resumen del pedido se actualizará para reflejar tus selecciones, mostrando el costo total y cualquier descuento aplicado.
 6. **Aplicar Descuentos**: Revisa la sección de "Descuentos" para ver si calificas para descuentos adicionales según la cantidad de dispositivos o el período de pago seleccionado.
 7. **Proceder al Pago**: Haz clic en "Continuar" para proceder a la página de pago. Aquí podrás seleccionar tu método de pago preferido \(e.g., tarjeta de crédito, PayPal, ePayco\), digitar los datos de facturación y completar la transacción.
@@ -61,6 +60,6 @@ La plataforma ofrece varios períodos de pago que permiten flexibilidad y ahorro
 ### Preguntas Frecuentes
 
 - **¿Puedo cambiar mi período de suscripción después de realizar una compra?** 
- - Sí, puedes cambiar tu período de suscripción en cualquier momento a través de la configuración de tu cuenta. Los cambios se aplicarán en el próximo ciclo de facturación.
+    - Sí, puedes cambiar tu período de suscripción en cualquier momento a través de la configuración de tu cuenta. Los cambios se aplicarán en el próximo ciclo de facturación.
 - **¿Existen cargos adicionales por transacciones internacionales?** 
- - Dependiendo de tu banco, puede haber cargos adicionales por transacciones internacionales. Consulta con tu banco para obtener más detalles.
+    - Dependiendo de tu banco, puede haber cargos adicionales por transacciones internacionales. Consulta con tu banco para obtener más detalles.

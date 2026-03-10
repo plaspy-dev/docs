@@ -32,20 +32,17 @@ To access the users section, go to the top right menu and select the gear icon \
 The types of users determine the permissions and scope of actions they can perform within the platform. The different types of users available are detailed below:
 
 1. **Standard User:**
-
- - This is the basic user who can only view the devices assigned to them through a group or specific device.
- - They may have additional privileges as configured, such as editing devices, sending SMS alerts, sending commands, among others.
- - They cannot add or remove devices, only interact with assigned devices.
+    - This is the basic user who can only view the devices assigned to them through a group or specific device.
+    - They may have additional privileges as configured, such as editing devices, sending SMS alerts, sending commands, among others.
+    - They cannot add or remove devices, only interact with assigned devices.
 2. **Administrator \(Manages their own account\):**
-
- - This user has full control over their own account, including adding devices, users, and temporary access.
- - They do not have access to the main account, only to the devices and users they create.
- - Devices created by this user are deducted from the main account's device limit.
+    - This user has full control over their own account, including adding devices, users, and temporary access.
+    - They do not have access to the main account, only to the devices and users they create.
+    - Devices created by this user are deducted from the main account's device limit.
 3. **Administrator \(Manages this account\):**
-
- - Has the same privileges as the main account user.
- - Has access to all devices and users but cannot access billing.
- - This user can fully manage the account on behalf of the main user.
+    - Has the same privileges as the main account user.
+    - Has access to all devices and users but cannot access billing.
+    - This user can fully manage the account on behalf of the main user.
 
 ### User Privileges
 
@@ -65,63 +62,53 @@ These privileges enable granular management of what each user can do within the 
 ### Access to the Users Section
 
 1. **Access the administration menu:**
-
- - Go to the top right menu of the platform.
- - Click on the gear icon \(*fa-cogs*\) to display the administration menu.
+    - Go to the top right menu of the platform.
+    - Click on the gear icon \(*fa-cogs*\) to display the administration menu.
 2. **Select the "Users" option:**
-
- - In the dropdown menu, select the "[*fa-user* Users](https://app.plaspy.com/Users)" option.
- - You will be redirected to the user management page where you can see a list of existing users.
+    - In the dropdown menu, select the "[*fa-user* Users](https://app.plaspy.com/Users)" option.
+    - You will be redirected to the user management page where you can see a list of existing users.
 
 ### Creating a New User
 
 1. **Open the creation form:**
-
- - Click on the add icon \(*fa-plus*\) located at the bottom left of the users page.
- - A new window with a form will open to enter the new user's information.
+    - Click on the add icon \(*fa-plus*\) located at the bottom left of the users page.
+    - A new window with a form will open to enter the new user's information.
 2. **Complete the form fields:**
-
- - **Name:** Enter the full name of the new user.
- - **Username:** Define a unique username for login.
- - **Password:** Set a secure password for the user and confirm it in the "Confirm" field.
- - **Country:** Select the user's country of residence.
- - **Time Zone:** Define the time zone corresponding to the selected country.
- - **Description:** Add any relevant information about the user, such as their role or responsibilities.
- - **Type:** Select the type of user \(Standard User, Own Account Administrator, Main Account Administrator\).
- - **Privileges:** Configure the specific permissions the user will have, such as the ability to edit devices or send commands.
- - **Group:** Assign the user to a device [group](groups).
- - **Device:** If necessary, assign a specific device to the user.
- - **Account Disabled:** Check this option if you want the user's account to be temporarily disabled.
- - **Expires:** Set an expiration date for the user's account if necessary.
+    - **Name:** Enter the full name of the new user.
+    - **Username:** Define a unique username for login.
+    - **Password:** Set a secure password for the user and confirm it in the "Confirm" field.
+    - **Country:** Select the user's country of residence.
+    - **Time Zone:** Define the time zone corresponding to the selected country.
+    - **Description:** Add any relevant information about the user, such as their role or responsibilities.
+    - **Type:** Select the type of user \(Standard User, Own Account Administrator, Main Account Administrator\).
+    - **Privileges:** Configure the specific permissions the user will have, such as the ability to edit devices or send commands.
+    - **Group:** Assign the user to a device [group](groups).
+    - **Device:** If necessary, assign a specific device to the user.
+    - **Account Disabled:** Check this option if you want the user's account to be temporarily disabled.
+    - **Expires:** Set an expiration date for the user's account if necessary.
 3. **Save the changes:**
-
- - Review all the information entered in the form.
- - Click "OK" to save the new user.
+    - Review all the information entered in the form.
+    - Click "OK" to save the new user.
 
 #### Editing an Existing User
 
 1. **Select the user to edit:**
-
- - In the [user](https://app.plaspy.com/Users) list, locate the user you want to edit.
- - Click on the edit icon \(*fa-pencil-square-o*\) next to the user's name.
+    - In the [user](https://app.plaspy.com/Users) list, locate the user you want to edit.
+    - Click on the edit icon \(*fa-pencil-square-o*\) next to the user's name.
 2. **Modify the user information:**
-
- - Update the necessary fields in the edit form.
- - Make sure to review and confirm the changes made.
+    - Update the necessary fields in the edit form.
+    - Make sure to review and confirm the changes made.
 3. **Save the changes:**
-
- - Click "OK" to save the modifications made to the user.
+    - Click "OK" to save the modifications made to the user.
 
 #### Deleting a User
 
 1. **Select the user to delete:**
-
- - In the [user](https://app.plaspy.com/Users) list, locate the user you want to delete.
- - Click on the delete icon \(represented by a trash can\) next to the user's name.
+    - In the [user](https://app.plaspy.com/Users) list, locate the user you want to delete.
+    - Click on the delete icon \(represented by a trash can\) next to the user's name.
 2. **Confirm the deletion:**
-
- - A confirmation window will appear.
- - Click "OK" to confirm the deletion of the user.
+    - A confirmation window will appear.
+    - Click "OK" to confirm the deletion of the user.
 
 ### Validations and Restrictions
 
@@ -133,12 +120,14 @@ These privileges enable granular management of what each user can do within the 
 ### Frequently Asked Questions
 
 - **How can I recover a user's password?**
- - To recover a user's password, the account administrator can reset it through the user edit section. This will allow a new password to be set for the affected user.
+    - To recover a user's password, the account administrator can reset it through the user edit section. This will allow a new password to be set for the affected user.
 - **Can I change the username once created?**
- - No, the username is unique and cannot be modified after creation. If a change is needed, a new user account must be created.
+    - No, the username is unique and cannot be modified after creation. If a change is needed, a new user account must be created.
 - **What happens when an account expires?**
- - When an account expires, the user's access is automatically deactivated. The user will not be able to log in until an administrator reactivates their account or extends the expiration date.
+    - When an account expires, the user's access is automatically deactivated. The user will not be able to log in until an administrator reactivates their account or extends the expiration date.
 - **Can I assign multiple devices to a user?**
- - Yes, you can assign multiple devices to a user by selecting a device group instead of a single specific device. This allows the user to manage multiple devices according to the configured permissions.
+    - Yes, you can assign multiple devices to a user by selecting a device group instead of a single specific device. This allows the user to manage multiple devices according to the configured permissions.
 - **What permissions does a standard user have?**
- - A standard user has limited access only to the devices and functions assigned to them. Permissions may include viewing locations, editing devices, sending commands, and alerts, among others, as configured by the administrator.
+    - A standard user has limited access only to the devices and functions assigned to them. Permissions may include viewing locations, editing devices, sending commands, and alerts, among others, as configured by the administrator.
+
+

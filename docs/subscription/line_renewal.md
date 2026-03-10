@@ -36,9 +36,8 @@ Line renewal allows you to perform the following actions:
 2. **Select the Line to Renew:**In the list of lines, identify the line you wish to renew and click on the renewal icon \(*fa-refresh*\).
 3. **Review Renewal Details:**A modal window will open with the renewal details, including the number of remaining days and the cost of the new plan.
 4. **Confirm and Make Payment:**
-
- - Click "Renew" to confirm the renewal on the plan of your preference.
- - Follow the instructions to make the payment and complete the renewal process.
+    - Click "Renew" to confirm the renewal on the plan of your preference.
+    - Follow the instructions to make the payment and complete the renewal process.
 5. **Verify the Renewal:**Once the payment is completed, verify that the new expiration date has been correctly updated in the list of lines.
 
 **Editing a Line Description**
@@ -55,10 +54,10 @@ Line renewal allows you to perform the following actions:
 ### Frequently Asked Questions
 
 - **How can I renew my data plan?**
- - Access the lines section, select the line you wish to renew, review the details, and make the payment following the provided instructions.
+    - Access the lines section, select the line you wish to renew, review the details, and make the payment following the provided instructions.
 - **What happens if I don't renew my data plan on time?**
- - If you do not renew your data plan before the expiration date, the satellite tracking service may be interrupted. It is advisable to renew before the current plan expires.
+    - If you do not renew your data plan before the expiration date, the satellite tracking service may be interrupted. It is advisable to renew before the current plan expires.
 - **Can I edit the description of a line after it has been registered?**
- - Yes, you can edit the description of a line at any time by accessing the lines section and selecting the edit option.
+    - Yes, you can edit the description of a line at any time by accessing the lines section and selecting the edit option.
 - **How is the new expiration date calculated when renewing a line?**
- - The new expiration date is calculated by adding the period of the new data plan to the remaining days of the current plan, ensuring no days of service are lost.
+    - The new expiration date is calculated by adding the period of the new data plan to the remaining days of the current plan, ensuring no days of service are lost.

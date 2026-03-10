@@ -43,9 +43,8 @@ The platform provides multiple payment periods to offer flexibility and savings 
 2. **Toggle USD Pricing**: If you prefer to see prices in US dollars \(USD\), check the "Show prices in USD" box.
 3. **Enter the Number of Devices**: Input the number of devices you want to purchase in the "Number of Devices" field. The cost per month will be displayed accordingly.
 4. **Choose Subscription Period**: Select your desired subscription period:
-
- - **Monthly Subscription**: Recurring monthly payment.
- - **Annual Subscription**: One-time annual payment with a discount.
+    - **Monthly Subscription**: Recurring monthly payment.
+    - **Annual Subscription**: One-time annual payment with a discount.
 5. **Review Order Summary**: The order summary will update to reflect your selections, showing the total cost and any discounts applied.
 6. **Apply Discounts**: Check the "*fa-money* Savings" section to see if you qualify for additional discounts based on the number of devices or the selected payment period.
 7. **Proceed to Payment**: Click "Continue" to proceed to the payment page. Here, you can select your preferred payment method \(e.g., credit card, PayPal, ePayco\) and complete the transaction.
@@ -59,8 +58,8 @@ The platform provides multiple payment periods to offer flexibility and savings 
 ### Frequently Asked Questions
 
 - **Can I change my subscription period after making a purchase?**
- - Yes, you can change your subscription period at any time through your account settings. The changes will take effect from the next billing cycle.
+    - Yes, you can change your subscription period at any time through your account settings. The changes will take effect from the next billing cycle.
 - **Are there any additional fees for international transactions?**
- - Depending on your bank, there might be additional fees for international transactions. Check with your bank for more details.
+    - Depending on your bank, there might be additional fees for international transactions. Check with your bank for more details.
 - **How do I apply a discount code?** 
- - During the checkout process, there will be an option to enter a discount code. Enter your code and click "Apply" to see the updated total.
+    - During the checkout process, there will be an option to enter a discount code. Enter your code and click "Apply" to see the updated total.

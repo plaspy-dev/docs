@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 91 80.537" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(0 -216.46)">
+    <path d="M84.55 290.55 45.5 222.913 6.45 290.55z" fill="none" stroke="#dc0a14" stroke-linejoin="round" stroke-width="24px"/>
+    <path d="M81.173 288.6 45.5 226.812 9.827 288.599z" fill="#fff"/>
+  </g>
+  <text x="45" y="70" text-anchor="middle" font-size="60" font-family="Arial" fill="black" font-weight="bold">!</text>
+</svg>
+

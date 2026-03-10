@@ -47,12 +47,12 @@ La sección de Límites permite a los usuarios establecer restricciones diarias 
 ## Preguntas Frecuentes
 
 - **¿Por qué es importante configurar límites diarios de email y SMS?**
- - Configurar límites diarios ayuda a controlar el uso excesivo de comunicaciones, reduciendo costos y asegurando el cumplimiento de las políticas de uso.
+    - Configurar límites diarios ayuda a controlar el uso excesivo de comunicaciones, reduciendo costos y asegurando el cumplimiento de las políticas de uso.
 - **¿Qué sucede cuando se alcanza el límite diario configurado?**
- - Una vez que se alcanza el límite diario configurado, no se podrán enviar más correos electrónicos o mensajes SMS desde el dispositivo hasta el siguiente día.
+    - Una vez que se alcanza el límite diario configurado, no se podrán enviar más correos electrónicos o mensajes SMS desde el dispositivo hasta el siguiente día.
 - **¿Puedo cambiar los límites diarios después de configurarlos?**
- - Sí, puedes ajustar los límites diarios en cualquier momento desde la sección "Límites" del dispositivo.
+    - Sí, puedes ajustar los límites diarios en cualquier momento desde la sección "Límites" del dispositivo.
 - **¿Es obligatorio establecer una fecha de expiración para los límites?**
- - No, establecer una fecha de expiración es opcional. Solo necesitas activarla si deseas que los límites configurados sean temporales.
+    - No, establecer una fecha de expiración es opcional. Solo necesitas activarla si deseas que los límites configurados sean temporales.
 - **¿Qué sucede cuando un dispositivo expira?**
- - Cuando un dispositivo expira, dejará de contar como una licencia utilizada. Por ejemplo, si tienes 10 licencias con 10 dispositivos y uno de ellos expira, quedará disponible una licencia para un nuevo dispositivo. El dispositivo expirado no se podrá activar nuevamente si no hay licencias disponibles.
+    - Cuando un dispositivo expira, dejará de contar como una licencia utilizada. Por ejemplo, si tienes 10 licencias con 10 dispositivos y uno de ellos expira, quedará disponible una licencia para un nuevo dispositivo. El dispositivo expirado no se podrá activar nuevamente si no hay licencias disponibles.

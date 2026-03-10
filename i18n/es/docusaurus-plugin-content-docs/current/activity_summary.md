@@ -34,17 +34,14 @@ Para acceder al Resumen de Actividades, sigue estos pasos:
 #### Funcionalidades del Chat Incorporado con IA
 
 1. **Consultas en Tiempo Real:**
-
- - Puedes hacer preguntas directas sobre el estado actual de tus dispositivos, tales como "¿Cuál es el nivel de combustible del vehículo A?" o "¿Dónde se encuentra el dispositivo B en este momento?"
- - La IA responderá de inmediato con la información más reciente disponible en el sistema.
+    - Puedes hacer preguntas directas sobre el estado actual de tus dispositivos, tales como "¿Cuál es el nivel de combustible del vehículo A?" o "¿Dónde se encuentra el dispositivo B en este momento?"
+    - La IA responderá de inmediato con la información más reciente disponible en el sistema.
 2. **Solicitar Nueva Información:**
-
- - Si necesitas generar un reporte específico o analizar un nuevo conjunto de datos, simplemente pide a la IA que lo haga por ti. Por ejemplo, "Genera un resumen de actividades para la última semana" o "Muestra el gráfico de velocidad del dispositivo C."
- - La IA procesará tu solicitud y te proporcionará el resultado deseado.
+    - Si necesitas generar un reporte específico o analizar un nuevo conjunto de datos, simplemente pide a la IA que lo haga por ti. Por ejemplo, "Genera un resumen de actividades para la última semana" o "Muestra el gráfico de velocidad del dispositivo C."
+    - La IA procesará tu solicitud y te proporcionará el resultado deseado.
 3. **Exploración Detallada de Datos:**
-
- - La IA puede desglosar la información contenida en los resúmenes de actividades y presentar datos específicos según tus necesidades. Puedes preguntar "¿Cuántas alertas de velocidad hubo ayer?" o "¿Cuál fue la velocidad máxima registrada hoy?"
- - Esto facilita una comprensión profunda y detallada de los datos sin necesidad de navegar manualmente por múltiples secciones.
+    - La IA puede desglosar la información contenida en los resúmenes de actividades y presentar datos específicos según tus necesidades. Puedes preguntar "¿Cuántas alertas de velocidad hubo ayer?" o "¿Cuál fue la velocidad máxima registrada hoy?"
+    - Esto facilita una comprensión profunda y detallada de los datos sin necesidad de navegar manualmente por múltiples secciones.
 
 #### Beneficios de Usar el Chat con IA
 
@@ -57,29 +54,23 @@ Para acceder al Resumen de Actividades, sigue estos pasos:
 El Resumen de Actividades genera varios gráficos que proporcionan una visión detallada del rendimiento y comportamiento de los dispositivos rastreados. A continuación, se describen cada uno de estos gráficos y la información que incluyen:
 
 1. **Mapa de Recorrido**:
-
- - **Descripción**: Muestra el recorrido realizado por el dispositivo durante el período seleccionado. Los puntos en el mapa indican las paradas.
- - **Datos Incluidos**: Kilómetros recorridos, tiempo en movimiento, número de paradas y consumo de combustible en tanques.
+    - **Descripción**: Muestra el recorrido realizado por el dispositivo durante el período seleccionado. Los puntos en el mapa indican las paradas.
+    - **Datos Incluidos**: Kilómetros recorridos, tiempo en movimiento, número de paradas y consumo de combustible en tanques.
 2. **Gráfico de Velocidad**:
-
- - **Descripción**: Presenta la velocidad del vehículo a lo largo del tiempo durante el período seleccionado.
- - **Datos Incluidos**: Velocidad máxima, velocidad promedio y las fluctuaciones de velocidad a lo largo del tiempo.
+    - **Descripción**: Presenta la velocidad del vehículo a lo largo del tiempo durante el período seleccionado.
+    - **Datos Incluidos**: Velocidad máxima, velocidad promedio y las fluctuaciones de velocidad a lo largo del tiempo.
 3. **Gráfico de Nivel de Combustible**:
-
- - **Descripción**: Muestra el nivel de combustible en porcentaje a lo largo del tiempo durante el período seleccionado.
- - **Datos Incluidos**: Nivel mínimo y máximo de combustible registrado y las variaciones del nivel de combustible a lo largo del tiempo.
+    - **Descripción**: Muestra el nivel de combustible en porcentaje a lo largo del tiempo durante el período seleccionado.
+    - **Datos Incluidos**: Nivel mínimo y máximo de combustible registrado y las variaciones del nivel de combustible a lo largo del tiempo.
 4. **Tiempo en Movimiento**:
-
- - **Descripción**: Proporciona un desglose del tiempo en que el vehículo estuvo en movimiento, sin movimiento y en ralentí.
- - **Datos Incluidos**: Total de tiempo en movimiento, tiempo sin movimiento y tiempo en ralentí.
+    - **Descripción**: Proporciona un desglose del tiempo en que el vehículo estuvo en movimiento, sin movimiento y en ralentí.
+    - **Datos Incluidos**: Total de tiempo en movimiento, tiempo sin movimiento y tiempo en ralentí.
 5. **Sensor 1**:
-
- - **Descripción**: Presenta datos específicos del sensor 1, como las veces que fue activado y desactivado.
- - **Datos Incluidos**: Tiempo total activo, tiempo total inactivo, primera activación y última desactivación.
+    - **Descripción**: Presenta datos específicos del sensor 1, como las veces que fue activado y desactivado.
+    - **Datos Incluidos**: Tiempo total activo, tiempo total inactivo, primera activación y última desactivación.
 6. **Alertas del Dispositivo**:
-
- - **Descripción**: Muestra las alertas generadas por el dispositivo durante el período seleccionado.
- - **Datos Incluidos**: Tipo de alerta \(velocidad, geocerca, etc.\), tiempo y fecha de cada alerta, y una descripción detallada de las mismas.
+    - **Descripción**: Muestra las alertas generadas por el dispositivo durante el período seleccionado.
+    - **Datos Incluidos**: Tipo de alerta \(velocidad, geocerca, etc.\), tiempo y fecha de cada alerta, y una descripción detallada de las mismas.
 
 #### Notificaciones por Correo Electrónico
 
@@ -88,19 +79,16 @@ La funcionalidad de notificaciones por correo electrónico permite a los usuario
 #### Configuración de Notificaciones
 
 1. **Acceder a la Configuración de Notificaciones**:
-
- - Haz clic en el botón **Notificaciones por email** en la sección de [Resumen de Actividades](https://app.plaspy.com/Summary).
- - Selecciona el botón de "*fa-plus*".
+    - Haz clic en el botón **Notificaciones por email** en la sección de [Resumen de Actividades](https://app.plaspy.com/Summary).
+    - Selecciona el botón de "*fa-plus*".
 2. **Completar los Detalles de la Notificación**:
-
- - **Nombre**: Introduce un nombre descriptivo para la notificación.
- - **Tipo**: Selecciona si deseas recibir el reporte **Diario** o **Semanal**.
- - **Grupo**: Elige el grupo de dispositivos del cual deseas recibir el reporte. Si deseas recibir reportes de todos los dispositivos, selecciona **\(Todos\)**.
- - **Email**: Ingresa las direcciones de correo electrónico a las que se enviarán los reportes. Puedes ingresar múltiples correos separados por comas o punto y coma.
+    - **Nombre**: Introduce un nombre descriptivo para la notificación.
+    - **Tipo**: Selecciona si deseas recibir el reporte **Diario** o **Semanal**.
+    - **Grupo**: Elige el grupo de dispositivos del cual deseas recibir el reporte. Si deseas recibir reportes de todos los dispositivos, selecciona **\(Todos\)**.
+    - **Email**: Ingresa las direcciones de correo electrónico a las que se enviarán los reportes. Puedes ingresar múltiples correos separados por comas o punto y coma.
 3. **Guardar la Configuración**:
-
- - Haz clic en **Aceptar** para guardar la configuración de la notificación.
- - Si deseas cancelar, haz clic en **Cancelar**.
+    - Haz clic en **Aceptar** para guardar la configuración de la notificación.
+    - Si deseas cancelar, haz clic en **Cancelar**.
 
 #### Ejemplo de Configuración de Notificaciones
 
@@ -120,13 +108,10 @@ Esta configuración enviará un correo electrónico semanal con el resumen de ac
 #### Preguntas Frecuentes
 
 - **¿Cómo puedo ver el recorrido de mis vehículos en el mapa?**
- - El recorrido se muestra en el mapa con un trazo rojo, que indica los movimientos del vehículo durante el tiempo seleccionado. Además, se puede ver un resumen detallado de la distancia recorrida, las paradas y el consumo de combustible.
+    - El recorrido se muestra en el mapa con un trazo rojo, que indica los movimientos del vehículo durante el tiempo seleccionado. Además, se puede ver un resumen detallado de la distancia recorrida, las paradas y el consumo de combustible.
 - **¿Puedo recibir notificaciones diarias del resumen de actividades?**
-
- - Sí, puedes configurar notificaciones para recibir el resumen de actividades por email a diario o en el intervalo de tiempo que prefieras.
+    - Sí, puedes configurar notificaciones para recibir el resumen de actividades por email a diario o en el intervalo de tiempo que prefieras.
 - **¿Qué información se incluye en el resumen de actividades exportado a Excel?**
-
- - El archivo Excel incluye un resumen de las principales actividades y eventos de tu flota, como la velocidad promedio, máxima, distancia recorrida y el conteo de alertas generadas.
+    - El archivo Excel incluye un resumen de las principales actividades y eventos de tu flota, como la velocidad promedio, máxima, distancia recorrida y el conteo de alertas generadas.
 - **¿Cómo configuro las notificaciones por correo electrónico para múltiples usuarios?**
-
- - Ingresa las direcciones de correo electrónico separadas por comas o punto y coma en el campo correspondiente al configurar la notificación.
+    - Ingresa las direcciones de correo electrónico separadas por comas o punto y coma en el campo correspondiente al configurar la notificación.

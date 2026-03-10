@@ -92,14 +92,10 @@ Esta aplicación incluye todas las funciones de la aplicación básica, pero con
 ### Preguntas Frecuentes
 
 - **¿Qué tipo de aplicación se genera?** 
-
- - La aplicación generada es una aplicación híbrida escrita en Cordova. Puede incluir funcionalidades adicionales como soporte para Google Maps y notificaciones push, dependiendo del tipo de aplicación seleccionado.
+    - La aplicación generada es una aplicación híbrida escrita en Cordova. Puede incluir funcionalidades adicionales como soporte para Google Maps y notificaciones push, dependiendo del tipo de aplicación seleccionado.
 - **¿Cómo subo mi aplicación a las tiendas de aplicaciones?** 
-
- - Necesitarás conocimientos en desarrollo de aplicaciones móviles y una cuenta en las tiendas de aplicaciones correspondientes \(Google Play Store y Apple App Store\) para subir tu aplicación.
+    - Necesitarás conocimientos en desarrollo de aplicaciones móviles y una cuenta en las tiendas de aplicaciones correspondientes \(Google Play Store y Apple App Store\) para subir tu aplicación.
 - **¿Puedo personalizar la aplicación con mi logo y colores corporativos?** 
-
- - Sí, puedes personalizar la aplicación con tu logo y colores corporativos seleccionando el color de fondo de los íconos y subiendo tu logo.
+    - Sí, puedes personalizar la aplicación con tu logo y colores corporativos seleccionando el color de fondo de los íconos y subiendo tu logo.
 - **¿Qué pasa si no tengo una clave API de Google Maps o Firebase?** 
-
- - Si la aplicación seleccionada requiere claves API de Google Maps o Firebase y no las proporcionas, no podrás generar una aplicación funcional con esas características. Debes obtener las claves API necesarias para completar el proceso.
+    - Si la aplicación seleccionada requiere claves API de Google Maps o Firebase y no las proporcionas, no podrás generar una aplicación funcional con esas características. Debes obtener las claves API necesarias para completar el proceso.

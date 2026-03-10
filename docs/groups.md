@@ -31,25 +31,25 @@ Groups allow you to perform the following actions:
 **Creating a New Group**
 
 1. **Access the Groups Section:**
- - Click on "*fa-cogs*" in the top menu and select "[*fa-users* Groups](https://app.plaspy.com/Groups)".
+    - Click on "*fa-cogs*" in the top menu and select "[*fa-users* Groups](https://app.plaspy.com/Groups)".
 2. **Start Group Creation:**
- - Click on the "*fa-plus*" icon in the bottom right corner to open the group creation form.
+    - Click on the "*fa-plus*" icon in the bottom right corner to open the group creation form.
 3. **Complete Group Details:**
- - **Name:** Enter the group name.
- - **Description:** Add a detailed description of the group.
- - **Devices:** Use the search field to add devices to the group.
+    - **Name:** Enter the group name.
+    - **Description:** Add a detailed description of the group.
+    - **Devices:** Use the search field to add devices to the group.
 4. **Save the Group:**
- - Click "OK" to save the new group.
- - If you wish to cancel, click "Cancel".
+    - Click "OK" to save the new group.
+    - If you wish to cancel, click "Cancel".
 
 **Editing an Existing Group**
 
 1. **Select the Group to Edit:**
- - In the list of [groups](https://app.plaspy.com/Groups), click on the edit icon \(*fa-pencil-square-o*\) next to the group you want to modify.
+    - In the list of [groups](https://app.plaspy.com/Groups), click on the edit icon \(*fa-pencil-square-o*\) next to the group you want to modify.
 2. **Modify Group Details:**
- - Make the necessary changes to the group's name, description, or devices.
+    - Make the necessary changes to the group's name, description, or devices.
 3. **Save Changes:**
- - Click "OK" to save the changes made.
+    - Click "OK" to save the changes made.
 
 ### Validations and Restrictions
 
@@ -59,12 +59,12 @@ Groups allow you to perform the following actions:
 ### Frequently Asked Questions
 
 - **How can I add devices to a group?**
- - Use the search field in the group edit form to find and add devices to the group.
+    - Use the search field in the group edit form to find and add devices to the group.
 - **Can I assign a device to multiple groups?**
- - Yes, a device can belong to multiple groups, allowing you to organize it according to different criteria.
+    - Yes, a device can belong to multiple groups, allowing you to organize it according to different criteria.
 - **What if I want to delete a group?**
- - Click on the delete icon \(*fa-trash*\) next to the group you want to delete. Confirm the deletion when prompted.
+    - Click on the delete icon \(*fa-trash*\) next to the group you want to delete. Confirm the deletion when prompted.
 - **How can I view only the devices of a group on the map?**
- - Select the desired group in the [map](https://app.plaspy.com/Map) filter to view only the devices that belong to that group.
+    - Select the desired group in the [map](https://app.plaspy.com/Map) filter to view only the devices that belong to that group.
 - **Is it possible to share a group with other users?**
- - Yes, you can set access permissions to share the group with other [users](https://app.plaspy.com/Users), allowing them to view and manage the group's devices.
+    - Yes, you can set access permissions to share the group with other [users](https://app.plaspy.com/Users), allowing them to view and manage the group's devices.
