@@ -1,0 +1,115 @@
+[
+    {
+        "brand": "Teltonika",
+        "brandSlug": "teltonika",
+        "model": "FMB920",
+        "modelSlug": "fmb920",
+        "title": "Teltonika FMB920",
+        "protocol": "Codec8",
+        "port": 5001,
+        "networks": [
+            "2G",
+            "4G"
+        ],
+        "category": "vehicle",
+        "image": "/img/devices/teltonika/fmb920.webp",
+        "publicSummary": "Compact GPS tracker for vehicles.",
+        "publicSteps": [
+            "Insert SIM with data plan",
+            "Configure APN",
+            "Configure server",
+            "Restart device"
+        ],
+        "supportedFeatures": [
+            "ignition",
+            "geofences",
+            "temperature"
+        ],
+        "hasPrivateConfig": true
+    },
+    {
+        "brand": "Teltonika",
+        "brandSlug": "teltonika",
+        "model": "FMB120",
+        "modelSlug": "fmb120",
+        "title": "Teltonika FMB120",
+        "protocol": "Codec8",
+        "port": 5001,
+        "networks": [
+            "2G"
+        ],
+        "category": "vehicle",
+        "image": "/img/devices/teltonika/fmb120.webp",
+        "publicSummary": "GPS tracker with digital inputs and outputs for fleet management.",
+        "publicSteps": [
+            "Insert SIM with data plan",
+            "Configure APN",
+            "Set server IP and port",
+            "Restart device"
+        ],
+        "supportedFeatures": [
+            "ignition",
+            "digital_inputs",
+            "relay",
+            "geofences"
+        ],
+        "hasPrivateConfig": true
+    },
+    {
+        "brand": "Teltonika",
+        "brandSlug": "teltonika",
+        "model": "FMC130",
+        "modelSlug": "fmc130",
+        "title": "Teltonika FMC130",
+        "protocol": "Codec8",
+        "port": 5001,
+        "networks": [
+            "4G"
+        ],
+        "category": "vehicle",
+        "image": "/img/devices/teltonika/fmc130.webp",
+        "publicSummary": "Advanced 4G LTE GPS tracker with CAN bus support.",
+        "publicSteps": [
+            "Insert SIM with LTE data plan",
+            "Configure APN",
+            "Configure server settings",
+            "Restart device"
+        ],
+        "supportedFeatures": [
+            "ignition",
+            "canbus",
+            "fuel",
+            "geofences"
+        ],
+        "hasPrivateConfig": true
+    },
+    {
+        "brand": "Queclink",
+        "brandSlug": "queclink",
+        "model": "GV300",
+        "modelSlug": "gv300",
+        "title": "Queclink GV300",
+        "protocol": "Queclink",
+        "port": 5023,
+        "networks": [
+            "2G",
+            "3G"
+        ],
+        "category": "vehicle",
+        "image": "/img/devices/queclink/gv300.webp",
+        "publicSummary": "Reliable GPS tracker for vehicle and asset tracking.",
+        "publicSteps": [
+            "Insert SIM with data plan",
+            "Configure APN",
+            "Set server IP and port",
+            "Power on device"
+        ],
+        "supportedFeatures": [
+            "ignition",
+            "geofences",
+            "movement",
+            "digital_inputs"
+        ],
+        "hasPrivateConfig": true
+    }
+]
