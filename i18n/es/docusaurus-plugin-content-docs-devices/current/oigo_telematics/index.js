@@ -1,0 +1,23 @@
+export const brand = {
+  "name": "Oigo Telematics",
+  "website": "https://www.oigotelematics.com/",
+  "description": "AT\u002BXRFD AT\u002BXAPN=1\u0022{{apn}}\u0022 AT\u002BXIP=\u002254.85.159.138\u0022,8888 AT\u002BXBUB=1 AT\u002BXBUBE=3,30 AT\u002BXCSW=600 AT\u002BXDDI=1000 AT\u002BXDHC=170,3 AT\u002BXDMES=7,90 AT\u002BXDMSD=50 AT\u002BXDMSS=7,10 AT\u002BXDMT=1 AT\u002BXDRI=3600,300 AT\u002BXDTS=0 AT\u002BXDTT=0 AT\u002BXGPL=3,60 AT\u002BXGPLP=4,10 AT\u002BXGPLT=300 AT\u002BXHB=0 AT\u002BXHBB=600 AT\u002BXIA=1,300 AT\u002BXIGM=2,5 AT\u002BXIGN=3 AT\u002BXIOD=A,1 AT\u002BXIOD=B,0 AT\u002BXIOD=C,1 AT\u002BXIOD=D,0 AT\u002BXIOE=A,0 AT\u002BXIOE=B,0 AT\u002BXIOE=C,2 AT\u002BXIOE=D,0 AT\u002BXIPC=1 AT\u002BXKA=2,60 AT\u002BXPRP=2 AT\u002BXPST=1,900 AT\u002BXPUP=1 AT\u002BXPWL=11.7,30 AT\u002BXPWLE=3 AT\u002BXPWM=0,0,1,1 AT\u002BXPWS=12.3,3600 AT\u002BXPWSE=3 AT\u002BXRLYE=3 AT\u002BXRPA=0 AT\u002BXRPF=1,1 AT\u002BXRPM=0000FFFF AT\u002BXRPQ=3000 AT\u002BXRPSF=126 AT\u002BXRSTE=1 AT\u002BXRSTP=2,14500 AT\u002BXSMSD=\u0022\u0022 AT\u002BXSMSS=\u0022\u0022 AT\u002BXSPD=3,110,15 AT\u002BXTA=1,30 AT\u002BXVO=0 AT\u002BXVTO=0 AT\u002BXVTOE=5000 AT\u002BXRST=1 AT\u002BXRST=2",
+  "image": require("./logo.png").default,
+  "trackers": [
+    {
+      "name": "AR-2CX",
+      "slug": "ar_2cx",
+      "image": require("./ar_2cx/logo.jpg").default
+    },
+    {
+      "name": "AR-2GM",
+      "slug": "ar_2gm",
+      "image": require("./ar_2gm/logo.jpg").default
+    },
+    {
+      "name": "AR-3HU",
+      "slug": "ar_3hu",
+      "image": require("./ar_3hu/logo.jpg").default
+    }
+  ]
+};

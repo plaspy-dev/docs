@@ -53,18 +53,11 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'devices',
-        path: 'devices-docs',
+        path: 'devices',
         routeBasePath: 'devices',
         sidebarPath: './sidebarsDevices.js',
       },
-    ],
-    [
-      require.resolve('./plugins/device-catalog-plugin'),
-      {
-        dataFile: './build-data/devices.json',
-        routeBasePath: '/devices',
-      },
-    ],
+    ]
   ],
   presets: [
     [
@@ -121,14 +114,16 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
             label: 'Documentation',
           },
           {
-            to: '/devices',
+            type: 'docSidebar',
+            docsPluginId: 'devices',
+            sidebarId: 'devicesSidebar',
+            position: 'left',
             label: 'Devices',
-            position: 'left'
           },
           {
             type: 'localeDropdown',

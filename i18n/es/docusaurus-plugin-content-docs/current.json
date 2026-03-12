@@ -3,72 +3,60 @@
     "message": "Siguiente",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
-    "message": "Tutorial - Fundamentos",
-    "description": "The label for category 'Tutorial - Basics' in sidebar 'tutorialSidebar'"
-  },
-  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
-    "message": "5 minutos para aprender los conceptos más importantes de Docusaurus.",
-    "description": "The generated-index page description for category 'Tutorial - Basics' in sidebar 'tutorialSidebar'"
-  },
-  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
-    "message": "Tutorial - Extras",
-    "description": "The label for category 'Tutorial - Extras' in sidebar 'tutorialSidebar'"
-  },
-  "sidebar.tutorialSidebar.category.Mapa": {
+  "sidebar.docsSidebar.category.Mapa": {
     "message": "Mapa",
-    "description": "The label for category 'Mapa' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Mapa' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Dispositivos": {
+  "sidebar.docsSidebar.category.Dispositivos": {
     "message": "Dispositivos",
-    "description": "The label for category 'Dispositivos' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Dispositivos' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Alertas": {
+  "sidebar.docsSidebar.category.Alertas": {
     "message": "Alertas",
-    "description": "The label for category 'Alertas' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Alertas' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Configuración de un Nuevo Rastreador": {
+  "sidebar.docsSidebar.category.Configuración de un Nuevo Rastreador": {
     "message": "Configuración de un Nuevo Rastreador",
-    "description": "The label for category 'Configuración de un Nuevo Rastreador' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Configuración de un Nuevo Rastreador' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Reportes": {
+  "sidebar.docsSidebar.category.Reportes": {
     "message": "Reportes",
-    "description": "The label for category 'Reportes' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Reportes' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Mi cuenta": {
+  "sidebar.docsSidebar.category.Mi cuenta": {
     "message": "Mi cuenta",
-    "description": "The label for category 'Mi cuenta' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Mi cuenta' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Subscripción": {
+  "sidebar.docsSidebar.category.Subscripción": {
     "message": "Subscripción",
-    "description": "The label for category 'Subscripción' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Subscripción' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Configuración": {
+  "sidebar.docsSidebar.category.Configuración": {
     "message": "Configuración",
-    "description": "The label for category 'Configuración' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Configuración' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Desarrolladores": {
+  "sidebar.docsSidebar.category.Desarrolladores": {
     "message": "Desarrolladores",
-    "description": "The label for category 'Desarrolladores' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Desarrolladores' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Rest API": {
+  "sidebar.docsSidebar.category.Rest API": {
     "message": "Rest API",
-    "description": "The label for category 'Rest API' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Rest API' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Dispositivos API": {
+  "sidebar.docsSidebar.category.Dispositivos API": {
     "message": "Dispositivos API",
-    "description": "The label for category 'Dispositivos API' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Dispositivos API' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Grupos API": {
+  "sidebar.docsSidebar.category.Grupos API": {
     "message": "Grupos API",
-    "description": "The label for category 'Grupos API' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Grupos API' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Users API": {
+  "sidebar.docsSidebar.category.Users API": {
     "message": "Users API",
-    "description": "The label for category 'Users API' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Users API' in sidebar 'docsSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Insertar en mi página web": {
+  "sidebar.docsSidebar.category.Insertar en mi página web": {
     "message": "Insertar en mi página web",
-    "description": "The label for category 'Insertar en mi página web' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Insertar en mi página web' in sidebar 'docsSidebar'"
   }
 }
