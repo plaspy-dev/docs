@@ -2,59 +2,61 @@
 slug: /riti/690t_idu_400
 id: 690t_idu_400
 sidebar_label: 690T (IDU-400)
+title: Riti - 690T (IDU-400)
 sidebar_class_name: menu_item_tracker
+description: Cloud ready Riti 690T IDU 400 vehicle recorder with high frequency telemetry and Plaspy compatibility for audit ready fleet tracking
+keywords:
+  - Riti 690T
+  - Riti IDU 400
+  - 690T GPS tracker
+  - Plaspy compatible
+  - fleet tachograph replacement
+  - vehicle recorder
+  - high frequency telemetry
+  - driver identification
+  - cold chain monitoring
+  - fleet telematics
 ---
+
 # Riti - 690T (IDU-400)
 
 ![690T (IDU-400)](./tracker.jpg)
 
-The Locator 690T \(IDU-400\) is a Plaspy compatible digital vehicle recorder and GPS tracker built for modern fleet environments that need cloud-based tachograph replacement and high-frequency telemetry. Designed to remove paper tachographs from daily workflow, the 690T uploads driving records and operational data to the cloud for long-term retention, simplified audit trails, and easy retrieval via Plaspy-compatible dashboards. Fleet managers get real-time tracking and event visibility without the administrative overhead of paper logs.
+The 690T (IDU-400) from Riti is a digital vehicle recorder and GPS tracker built for modern fleet operations that need a cloud based alternative to paper tachographs. It collects driving records and operational data and uploads them for long term retention, simplifying audit trails and making inspection retrieval more efficient. The device is positioned for fleets that require frequent sampling and reliable record keeping to support compliance and operational oversight.
 
-The unit combines robust telematics with flexible I/O expansion to support driver ID, temperature sensing and emergency inputs while continuing to report after vehicle power loss thanks to an integrated backup lithium-ion battery. With multi-band LTE connectivity and support for common transmission protocols, the Locator 690T integrates smoothly into Plaspy-enabled fleet management systems to deliver regulatory compliance, driver behavior insights, and streamlined workflows for inspection and auditing.
+As a Plaspy compatible device, the 690T integrates into cloud fleet management workflows to provide real time tracking, searchable archives, and event visibility without the administrative burden of paper logs. Its combination of high frequency telemetry, driver identification options and flexible I/O expansion makes it relevant for organizations using Plaspy to centralize reporting, incident review, and regulatory retention.
 
 ## Key Highlights
 
-- Plaspy compatible cloud retention — replace paper tachographs with searchable, auditable cloud records.
-- High-frequency telemetry — records up to one sample per second \(86,400 records/day\) for precise trip and event reconstruction.
-- Multi-band LTE with 2G/3G fallback — reliable cellular uplink for real-time tracking and data upload across networks.
-- Flexible I/O expansion — temperature sensing, digital inputs, SOS emergency input and i-Button driver identification support for diverse fleet needs.
-- Backup lithium-ion battery and continuous voltage monitoring — continues reporting after power loss and protects vehicle power systems.
-- Tri-axis G-sensor for harsh event detection — automatic logging of harsh acceleration, braking and cornering incidents.
-- Remote OTA updates and parameter configuration — reduce field visits and keep firmware and settings current.
+- Cloud tachograph replacement with searchable, auditable retention for inspection and reporting
+- High frequency telemetry capable of up to one sample per second for precise trip and event reconstruction
+- Multi band LTE connectivity with fallback support for broad cellular coverage across regions
+- Flexible I O expansion supporting driver ID, temperature sensing and emergency input options
+- Backup lithium ion battery and continuous voltage monitoring to continue reporting after vehicle power loss
+- Tri axis G sensor for automatic logging of harsh acceleration braking and cornering events
+- Remote OTA updates and parameter configuration to reduce field visits and keep settings current
 
 ## How It Works with Plaspy
 
-The Locator 690T is designed to feed Plaspy-compatible fleet management platforms with real-time location, driving records and telematics. Data flows securely via your carrier network to the cloud where Plaspy visualizes trips, supports online printing and audit downloads, and exposes vehicle/date search for inspection workflows. Plaspy integration enables notifications, reporting, and policy enforcement based on the 690T's recorded events.
+The 690T is designed to stream location data, driving records and event telematics into Plaspy compatible fleet platforms where that information is visualized, archived and acted upon. Once data reaches the cloud, Plaspy dashboards provide live monitoring, historical replay, and tools for inspection and audit workflows that rely on the recorder's uploads.
 
-- Real-time location and telemetry updates to Plaspy dashboards for live monitoring and historical replay.
-- Driver identification via i-Button entries captured and tagged in Plaspy for duty and driver logs.
-- Temperature sensing inputs provide cold-chain event data to Plaspy when used in refrigerated fleets.
-- Digital inputs \(SOS, door/ignition status\) feed event flags into Plaspy alerts and reports for safety and compliance.
-- Harsh-event snapshots from the tri-axis G-sensor populate driver behavior and incident reports in Plaspy.
+- Real time location and telemetry updates populate Plaspy dashboards for live monitoring and historical replay
+- Driving records are stored and indexed in Plaspy for compliance reporting and audit downloads
+- Driver identification entries are captured and tagged for duty logs and driver assignment tracking
+- Temperature sensing inputs feed cold chain event data into Plaspy for refrigerated fleet oversight
+- Digital inputs such as SOS and door or ignition status generate event flags used in Plaspy alerts and reports
+- Harsh event snapshots from the G sensor populate driver behavior and incident reports inside Plaspy
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | Multi-band LTE module with backward compatibility for 2G and 3G networks; supports TCP, UDP, FTP, HTTP and SMS |
-| --- | --- |
-| Bands | Multi-band LTE \(specific regional bands and variants depend on model configuration\) |
-| Power & Battery | Vehicle power harness with continuous battery/voltage monitoring; backup lithium-ion battery for reporting after power loss |
-| Interfaces | Multi-input/output expansion options including temperature sensing, digital inputs, SOS emergency input and i-Button driver identification |
-| GNSS | GNSS antenna included for satellite-based positioning and trip logging \(external GNSS antenna standard\) |
-| Bluetooth | Not specified in this model description |
-| Remote Management | OTA \(over-the-air\) firmware updates and remote parameter configuration for centralized maintenance |
-| Form Factor | Digital vehicle recorder / telematics unit for vehicle installation; includes GNSS and LTE antennas |
-
-## Use Cases
-
-- Fleet management and compliance — replace paper tachographs while meeting regulatory retention and inspection requirements via Plaspy cloud storage.
-- Driver behavior analysis — monitor harsh braking, acceleration and cornering using the tri-axis G-sensor for coaching and safety programs.
-- Cold-chain monitoring — use temperature sensor inputs to log refrigeration performance and create auditable records in Plaspy.
-- Event recording and auditing — SOS and digital input events provide evidence for incident review, inspections, and regulatory audits.
-- Integrated telematics services — combine location, driver ID and high-frequency telemetry for routing, dispatching and performance reporting.
+- Fleet management and compliance where cloud retention replaces paper tachographs for inspections
+- Driver behavior analysis and coaching using harsh event data to improve safety
+- Cold chain monitoring for refrigerated vehicles with temperature logging and audit records
+- Event recording and post incident auditing using SOS and digital input events
+- Integrated telematics for routing, dispatch and performance reporting combining location and driver ID
 
 ## Why Choose This Tracker with Plaspy
 
-The Locator 690T \(IDU-400\) offers a practical, reliable path from legacy paper tachographs to a modern Plaspy compatible telematics solution. Its cloud-first design and long-term retention model simplify audit and inspection workflows, while high-frequency recording provides the telemetry fidelity fleets need for accurate driver logs and operational analysis. Remote OTA updates and multi-protocol connectivity reduce maintenance time and ensure continuous, real-time tracking across cellular networks.
+The Riti 690T (IDU-400) provides a practical path from paper based tachographs to a cloud centric telematics setup when paired with Plaspy. Its emphasis on frequent sampling, long term retention and flexible I O options makes it a solid choice for fleets that need verifiable records, clearer audit trails, and richer operational context than location alone.
 
-For fleets that require more than location alone, the 690T’s I/O flexibility allows integration with temperature sensors, driver identification systems and digital inputs that capture ignition or door status. When paired with Plaspy, fleets gain centralized visualization, searchable archives, and reporting tools that support regulatory compliance, anti-theft workflows and operational efficiency. The Locator 690T is an ideal choice where dependable GPS tracker performance, cloud-based tachograph retention, and scalable telematics are essential.
-
+For organizations seeking consolidated visibility and simplified inspection workflows, the 690T's design complements Plaspy's dashboards and reporting tools to reduce administrative overhead and support regulatory needs. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications and availability can change over time so please verify current details on the manufacturer site https://www.riti.com.tw/.

@@ -2,61 +2,63 @@
 slug: /globalsat/gtr_388c1
 id: gtr_388c1
 sidebar_label: GTR-388C1
+title: GlobalSat - GTR-388C1
 sidebar_class_name: menu_item_tracker
+description: Localizador GPS compacto y robusto para eBikes motos y vehículos pequeños compatible con Plaspy para seguimiento en tiempo real y antirrobo
+keywords:
+  - GlobalSat GTR-388C1
+  - GTR-388C1 Plaspy
+  - rastreador GPS GTR 388C1
+  - rastreador GlobalSat
+  - rastreador para eBike
+  - rastreador para motocicleta
+  - rastreador impermeable IPX7
+  - rastreador 4G LTE
+  - dispositivo para seguimiento de flotas
+  - rastreador GPS antirrobo
 ---
+
 # GlobalSat - GTR-388C1
 
 ![GTR-388C1](./tracker.jpg)
 
-El GTR-388C1, dentro de una familia de dispositivos robustos, es un GPS tracker compacto compatible con Plaspy, diseñado para e-bikes, motocicletas y vehículos ligeros. Construido alrededor de conectividad 4G LTE \(Cat 1\) con conmutación automática a 3G y 2G, el GTR-388C1 ofrece seguimiento en tiempo real y telemetría confiables hacia la plataforma Plaspy, todo ello empaquetado en un recinto IPX7 impermeable diseñado para instalaciones exteriores expuestas.
+El GlobalSat GTR-388C1 es un rastreador compacto perteneciente a una familia de dispositivos diseñados para eBikes, motocicletas y vehículos pequeños. Integra un receptor GNSS de alta sensibilidad con antenas integradas, conectividad 4G LTE con conmutación automática a 3G y 2G, una carcasa impermeable IPX7 y una batería de respaldo recargable para mantener la operación ante cortes de energía. Está pensado para instalaciones en exteriores expuestos donde el montaje oculto, el sellado y la actualización fiable de la posición son críticos.
 
-Con un receptor GNSS de alta sensibilidad \(A-GPS\), antenas integradas, una batería de respaldo recargable de 820 mAh y actualizaciones de firmware por aire, el GTR-388C1 está optimizado para gestión de flotas, protección antirrobo y despliegues de vehículos compactos donde la instalación oculta, un sellado robusto y una gestión eficiente de la energía resultan determinantes.
+Como dispositivo compatible con Plaspy, el GTR-388C1 transmite ubicación y telemetría del vehículo a Plaspy para visibilidad en vivo, alertas y análisis históricos. Sus capacidades versátiles de E/S y telemetría —como detección de encendido (ACC), detección de movimiento, entrada analógica y una salida digital para control de relé— lo convierten en una opción práctica para gestores de flotas y operadores de movilidad que desean combinar hardware compacto con los paneles, geocercas e informes de Plaspy.
 
-## Aspectos clave
+## Principales características
 
-- Compatible con Plaspy para seguimiento en tiempo real y gestión de flotas mediante TCP/UDP/HTTP o SMS.
-- 4G LTE \(Cat 1\) con conmutación automática a UMTS/HSDPA \(3G\) y GSM \(2G\) de doble banda para amplia cobertura.
-- GNSS de alta sensibilidad con A-GPS para posiciones rápidas y reproducción de rutas precisa.
-- Carcasa a prueba de agua IPX7 con conector de cable impermeable y solución térmica para instalaciones exteriores de vehículos.
-- Batería de respaldo recargable integrada de 820 mAh para mantener la operación ante fallos de energía y apoyar escenarios antirrobo.
-- Entradas/salidas versátiles: detección ACC \(ignición\), múltiples entradas digitales \(incluido botón de emergencia\), 1 entrada analógica y una salida digital para control de relé.
-- Factor de forma ligero y compacto \(~66,5 g\) con opciones de accesorios para montaje flexible e integración.
+- Diseñado para eBikes, motocicletas y vehículos pequeños en entornos expuestos
+- Conectividad 4G LTE Cat 1 con conmutación automática a 3G y 2G para amplia cobertura
+- Receptor GNSS de alta sensibilidad con A-GPS y antenas integradas para fijaciones más rápidas
+- Carcasa IPX7 y conector de cable impermeable para instalaciones exteriores
+- Batería de respaldo recargable integrada para sostener la operación durante interrupciones eléctricas
+- Compatible con Plaspy para rastreo en tiempo real mediante métodos de reporte estándar y soporte de actualizaciones de firmware OTA
+- E/S versátiles, incluida detección de encendido, múltiples entradas digitales, entrada analógica y salida digital para control de relé
 
 ## Cómo funciona con Plaspy
 
-Una vez instalado y configurado, el GTR-388C1 transmite la ubicación GNSS y la telemetría del vehículo a Plaspy utilizando protocolos estándar. Plaspy ingiere las actualizaciones de posición y eventos de E/S para paneles en tiempo real, alertas de geocercas, reproducción de rutas e informes programados, convirtiendo las señales a nivel de dispositivo en inteligencia accionable para la flota.
+Una vez aprovisionado, el GTR-388C1 envía ubicación GNSS y eventos del dispositivo a Plaspy, donde esas señales se traducen en mapas en vivo, alertas e informes que respaldan la toma de decisiones operativas. Plaspy procesa las actualizaciones de posición y los eventos de E/S para ofrecer una vista coherente del estado y el historial del vehículo en toda la flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy mediante TCP, UDP, HTTP o SMS.
-- Los informes de detección de ignición \(ACC\) permiten a Plaspy correlacionar el tiempo de conducción, el ralentí y los eventos de ignición para informes del conductor y del vehículo.
-- La detección de movimiento mediante el G-sensor integrado admite alertas de movimiento y flujos de detección de manipulación o robo.
-- La entrada analógica puede integrarse para telemetría como lecturas de sensores de nivel de combustible cuando está conectada y calibrada a través de Plaspy.
-- La salida digital puede accionar un relé externo \(accesorio opcional\) para implementar control remoto de relés o flujos de inmovilización bajo control de Plaspy.
+- Actualizaciones de posición y telemetría en tiempo real dirigidas a Plaspy para visualización en mapas en vivo
+- Detección de encendido (ACC) que permite a Plaspy reportar tiempos de conducción, ralentí y eventos de encendido para informes operativos
+- Detección de movimiento y eventos por manipulación para habilitar alertas de movimiento y flujos de trabajo antirrobo dentro de Plaspy
+- La entrada analógica puede configurarse para reportar telemetría externa, como lecturas de combustible calibradas
+- La salida digital puede usarse para activar control remoto de relé o flujos de inmovilización gestionados desde Plaspy
+- Las actualizaciones de firmware por aire (OTA) simplifican el mantenimiento y los despliegues mediante procedimientos guiados por la plataforma
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE \(Cat 1\) con conmutación automática a 3G \(UMTS/HSDPA\) y 2G \(GSM\) |
-| --- | --- |
-| Bandas | UMTS/HSDPA de doble banda y GSM de doble banda; las variaciones de bandas LTE dependen del SKU |
-| Energía y batería | Tensión de operación +12 V a +30 V; batería de respaldo recargable integrada de 820 mAh |
-| Interfaces | Entradas digitales \(incluyendo ACC/ignición y botón de emergencia\), 1 entrada analógica, 1 salida digital para control de relé; cable de alimentación/E/S de 8 pines incluido |
-| GNSS | Receptor GPS de alta sensibilidad con soporte A-GPS; antena GNSS integrada |
-| Antenas | Antenas GPS y GSM de alta sensibilidad integradas |
-| Gestión remota | Actualizaciones de firmware por aire \(FOTA\); admite configuración e informes por SMS/TCP/UDP/HTTP |
-| Ambiental | Caja a prueba de agua IPX7, conector de cable impermeable y solución térmica para montaje expuesto |
-| Certificaciones | CE, FCC, NCC, PTCRB |
-| Formato y peso | Unidad compacta para instalación oculta; aproximadamente 66,5 g; se entrega con soporte magnético, cinta de doble cara y Velcro |
-
-## Casos de uso
-
-- Protección antirrobo para motocicletas y e-bikes con alertas de movimiento, persistencia de la batería de respaldo y control remoto de relé mediante flujos de trabajo gestionados por Plaspy.
-- Gestión de flotas compacta para vehículos pequeños y entrega de última milla con seguimiento en tiempo real, reproducción de rutas e informes de servicio basados en la ignición.
-- Reproducción y monitoreo de rutas para seguridad y cumplimiento—almacene y transmita las fijaciones GNSS a Plaspy para análisis histórico.
-- Diagnóstico de vehículos e integración de telemetría cuando se usan accesorios opcionales \(relé, cable OBDII\) para ampliar los datos de telemetría de Plaspy.
-- Seguimiento de activos ocultos para flotas de alquiler y micromovilidad compartida donde se requieren impermeabilización y montaje compacto.
+- Protección antirrobo para motocicletas y eBikes con alertas por movimiento, persistencia gracias a la batería de respaldo y control remoto por relé
+- Rastreo compacto de flotas para repartos de última milla y operaciones con vehículos pequeños que requieren ubicación en tiempo real y reproducción de rutas
+- Alquiler y micromovilidad compartida donde la impermeabilidad, las opciones de montaje compacto y la instalación oculta son prioridades
+- Reproducción histórica de rutas y monitoreo para revisiones de seguridad e informes de cumplimiento
+- Extensiones de telemetría como monitoreo de combustible o control por relé cuando se combina con accesorios adecuados
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GTR-388C1 combina hardware robusto y conectividad enfocada con la plataforma Plaspy para ofrecer seguimiento en tiempo real confiable y telemetría accionable para vehículos ligeros y flotas de dos ruedas. Su carcasa con certificación IPX7 y su diseño térmico lo hacen apto para instalaciones expuestas, mientras que la batería de respaldo integrada y la gestión eficiente de la energía aseguran la continuidad ante interrupciones de energía —crítico para una protección antirrobo y la monitorización de la flota. Con E/S versátil \(detección ACC/ignición, entrada de emergencia, telemetría analógica y salida para relé\) y soporte para FOTA, el dispositivo simplifica la instalación, el mantenimiento y la expansión de flotas en Plaspy.
+El GTR-388C1 combina un empaquetado robusto y conectividad enfocada con Plaspy para ofrecer seguimiento confiable en vehículos pequeños y flotas de dos ruedas. Su carcasa sellada IPX7 y las consideraciones térmicas lo hacen apto para montajes expuestos, mientras que la batería de respaldo a bordo y su manejo eficiente de energía ayudan a mantener la continuidad durante cortes —algo importante para escenarios antirrobo y de monitoreo continuo.
 
-El ecosistema de Plaspy también es compatible con tipos adicionales de sensores y características de la plataforma, por lo que los gestores de flotas pueden combinar la telemetría cableada del GTR-388C1 \(ignición, sensores analógicos de combustible, inmovilización basada en relés\) con paneles de control y alertas de Plaspy. El resultado es un rastreador GPS compacto y fiable que se integra en una gestión más amplia de activos, telemetría y estrategias de anti-robo sin complejidad innecesaria.
+Para organizaciones que utilizan Plaspy, el GTR-388C1 ofrece una plataforma compacta con E/S versátiles y capacidades de gestión remota que se integran en flujos operativos sin complejidad innecesaria. Su compatibilidad con Plaspy permite a los gestores de flota combinar señales a nivel de dispositivo con funciones de la plataforma como geocercas, alertas, informes y paneles para respaldar la supervisión operativa y la toma de decisiones.
 
+Para conocer más sobre cómo Plaspy puede apoyar despliegues con el GlobalSat GTR-388C1 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que se recomienda verificar la información técnica actual en el sitio del fabricante https://www.globalsat.com.tw/.

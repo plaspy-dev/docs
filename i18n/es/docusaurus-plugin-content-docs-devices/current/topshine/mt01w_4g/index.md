@@ -2,58 +2,61 @@
 slug: /topshine/mt01w_4g
 id: mt01w_4g
 sidebar_label: MT01W-4G
+title: TopShine - MT01W-4G
 sidebar_class_name: menu_item_tracker
+description: Tracker GPS compacto TopShine MT01W-4G con video integrado, hotspot WiFi y compatibilidad con Plaspy para flotas y seguridad vehicular
+keywords:
+  - TopShine MT01W-4G
+  - rastreador GPS MT01W-4G
+  - rastreador compatible con Plaspy
+  - rastreador 4G CAT1
+  - rastreador GPS con video
+  - hotspot WiFi a bordo
+  - dispositivo para seguimiento de flotas
+  - rastreador para seguridad vehicular
+  - soporte de inmovilizador remoto
+  - rastreador con identificación de conductor
 ---
+
 # TopShine - MT01W-4G
 
 ![MT01W-4G](./tracker.jpg)
 
-El MT01W-4G es un rastreador GPS compacto compatible con Plaspy, diseñado para la gestión de flotas, vehículos de pasajeros y operadores concienciados con la seguridad que requieren vídeo integrado, telemetría y seguimiento en tiempo real confiable. Construido alrededor de la conectividad 4G CAT1 y un punto de acceso WiFi integrado, el MT01W-4G combina la ubicación del vehículo, alertas de eventos y la monitorización de vídeo a bordo en una unidad oculta y a prueba de agua para una implementación sencilla en flotas mixtas.
+El MT01W-4G es un rastreador GPS compacto compatible con Plaspy, pensado para la gestión de flotas, vehículos de pasajeros y operadores con foco en seguridad. Integra localización del vehículo, monitoreo de video mediante un hotspot WiFi incorporado y un conjunto de alertas por eventos dentro de una carcasa discreta y resistente al agua, diseñada para un despliegue sencillo en flotas mixtas.
 
-Diseñado para operadores que desean un seguimiento de flotas con vídeo habilitado y funciones anti-robos sin necesidad de múltiples dispositivos, el MT01W-4G admite transmisión en directo desde múltiples cámaras WiFi, grabación a bordo en SD y un conjunto robusto de telemetría y alertas de seguridad. Cuando se empareja con Plaspy, este rastreador ofrece datos de ubicación accionables, estado del conductor y del motor, y opciones de inmovilización remota para mejorar la seguridad, la eficiencia y el cumplimiento.
+Al soportar transmisión de video en vivo, grabación a bordo y una variedad de eventos de seguridad vehicular, el MT01W-4G resulta relevante para organizaciones que usan Plaspy porque consolida ubicación, telemetría y video en una única fuente que Plaspy puede procesar. Esa compatibilidad posibilita visibilidad centralizada, alertas y flujos operativos dentro de la plataforma Plaspy, reduciendo la cantidad de dispositivos necesarios por vehículo.
 
-## Aspectos clave
+## Puntos clave
 
-- Rastreador GPS compatible con Plaspy con conectividad 4G CAT1 para seguimiento en tiempo real confiable y telemetría de baja latencia.
-- Punto de acceso WiFi integrado que admite 20 o más cámaras WiFi para supervisión de vídeo en directo y vigilancia de flotas con múltiples cámaras.
-- Grabadora de vídeo integrada con almacenamiento en tarjeta SD y transmisión en directo — ideal para la monitorización del conductor y la revisión de incidentes.
-- Rango amplio de entrada de energía \(9V–90V\) y una batería interna de respaldo de 500 mAh para operación ante pérdidas de energía.
-- Funciones de seguridad vehicular: SOS de pánico, alerta de choque, geocerca, alertas de sobrevelocidad y alertas de robo/reabastecimiento para apoyar flujos de trabajo anti-robos.
-- Corte remoto del motor mediante relé para un control seguro del inmovilizador cuando se combina con comandos remotos de Plaspy.
-- Soporte de identificación del conductor \(iButton o RFID pasivo\) y voz bidireccional opcional \(altavoz y micrófono\) para autenticación del conductor y comunicación.
-- Diseño compacto, de tamaño mini y a prueba de agua para instalación discreta y durabilidad a largo plazo en campo.
+- Rastreador GPS compatible con Plaspy y conectividad 4G CAT1 para seguimiento confiable casi en tiempo real y actualizaciones de baja latencia.
+- Hotspot WiFi integrado para soporte de múltiples cámaras y monitoreo de video a bordo, ideal para registrar incidentes y comportamiento del conductor.
+- Grabador de video integrado con almacenamiento en tarjeta SD y transmisión en vivo para captura de evidencia y revisión de incidentes.
+- Amplio rango de entrada de voltaje y batería interna de respaldo para mantener operación continua en flotas heterogéneas.
+- Funciones de seguridad vehicular incluyendo SOS, alerta por choque, geocercas, exceso de velocidad y alertas por robo o reposición de combustible para respaldar flujos anti robo.
+- Corte remoto de motor vía relé para inmovilización coordinada desde la plataforma de rastreo.
+- Soporte para identificación de conductor y opción de voz bidireccional para autenticación del conductor y comunicación a bordo.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el MT01W-4G transmite datos de ubicación y de eventos a su panel de Plaspy en tiempo casi real, habilitando una gestión centralizada de la flota y una respuesta rápida ante incidentes. Plaspy recibe las posiciones GPS, telemetría y alarmas del rastreador y mapea las transmisiones de vídeo de las cámaras WiFi conectadas para una conciencia situacional sincronizada. Las alertas e informes del dispositivo se traducen en notificaciones de Plaspy, posibilitando flujos de trabajo automatizados como inmovilización, alertas al conductor y programación de mantenimiento.
+Cuando se integra con Plaspy, el MT01W-4G envía datos de posición, alarmas de evento e indicadores relacionados con video a la plataforma Plaspy para que los operadores puedan ver la ubicación, recibir alertas y revisar las grabaciones en una única interfaz. Plaspy mapea la actividad del dispositivo junto con las transmisiones de video disponibles y traduce los eventos del dispositivo en notificaciones e informes para uso operativo.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas por 4G CAT1 a Plaspy para seguimiento en vivo y reproducción histórica.
-- Eventos de identificación del conductor \(iButton/RFID\) registrados en la plataforma para asociar los trayectos con el personal y mejorar la rendición de cuentas.
-- Alertas de monitorización de combustible \(robo/reabastecimiento\) disponibles cuando se usan sensores de combustible ultrasónicos u cortables; los eventos se reportan a Plaspy para análisis del consumo de combustible.
-- Inmovilizador remoto/corte del motor vía relé — Plaspy puede activar comandos seguros para desactivar el motor cuando las reglas de negocio requieren inmovilización.
-- Integración de vídeo: las transmisiones de cámaras WiFi y las grabaciones en SD son accesibles junto a las trazas GPS en Plaspy para verificación de incidentes y entrenamiento del conductor.
+- Actualizaciones de ubicación en tiempo real y reproducción histórica disponibles en Plaspy para revisión de rutas y supervisión de flotas.
+- La integración de video enlaza las transmisiones de cámaras WiFi y las grabaciones en SD con las trazas GPS para facilitar la verificación de incidentes y la retroalimentación al conductor.
+- Conversión de alarmas y eventos en notificaciones de Plaspy para SOS, choque, geocerca y exceso de velocidad que agilizan la respuesta.
+- Los eventos de identificación de conductor se registran en la plataforma para asociar viajes con personal y apoyar la rendición de cuentas.
+- Comandos de inmovilizador remoto enviados desde Plaspy para accionar el corte de motor por relé cuando las reglas de negocio lo requieran.
+- Alertas relacionadas con combustible reportadas a Plaspy cuando se conectan sensores opcionales, permitiendo análisis de combustible y flujos para detección de robo.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Conectividad celular 4G CAT1; punto de acceso WiFi integrado para conexiones de cámara y acceso a Internet para pasajeros |
-| --- | --- |
-| Bandas | No especificadas por el fabricante |
-| Alimentación y batería | Rango amplio de entrada 9V–90V; batería de respaldo interna de 500 mAh para operación ante pérdidas de energía |
-| Interfaces | Arnés de cableado de 4 pines; relé de 12V/24V incluido para corte remoto del motor; admite altavoz y micrófono opcionales; identificación del conductor vía iButton o lectores RFID pasivos |
-| GNSS | Rastreador GPS con registrador de datos a bordo de 2 MB para registrar posiciones en zonas GSM/GPRS sin cobertura \(bandas GNSS específicas/precisión no especificadas\) |
-| Bluetooth | No especificado |
-| Gestión remota | Actualizaciones de firmware OTA; protocolo MQTT personalizable soportado; el proveedor ofrece plataforma web y apps para iOS/Android |
-| Formato | Diseño de tamaño mini y a prueba de agua para instalación oculta; peso compacto de ~0.2 kg |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, identificación del conductor y telemetría integrada en Plaspy para la optimización de rutas y informes operativos.
-- Antirrobo e inmovilización remota: SOS, alertas de choque y corte remoto del motor mediante relé para asegurar vehículos de alto valor y permitir una respuesta rápida.
-- Monitorización de vídeo a bordo: soporte multi cámara WiFi y grabación en SD capturan incidentes, eventos de pasajeros y comportamientos en ruta para cumplimiento y reducción de reclamaciones.
-- Monitorización de combustible y detección de robo: integra sensores de combustible ultrasónicos o cortables opcionales para reportar eventos de reabastecimiento/robo a Plaspy para análisis del consumo de combustible.
-- Comunicación entre pasajeros y conductor: voz bidireccional opcional y capacidades de hotspot proporcionan conectividad en el vehículo y comunicación bajo demanda.
+- Gestión de flotas y supervisión de rutas en operaciones con vehículos mixtos, con video integrado para evaluación del desempeño del conductor.
+- Flujos de trabajo anti robo y de seguridad usando SOS, alertas por choque e inmovilización remota coordinada desde Plaspy.
+- Monitoreo de video a bordo para captura de incidentes, seguridad de pasajeros y reducción de reclamaciones.
+- Supervisión de vehículos de pasajeros y shuttles donde se requiere tanto conectividad como grabación a bordo.
+- Monitoreo de combustible y detección de robo cuando se emplea con equipos opcionales de medición de combustible.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El MT01W-4G reúne rastreo GPS con capacidad de vídeo, telemetría robusta y seguridad vehicular en un único dispositivo compatible con Plaspy, reduciendo la complejidad de integración y el recuento de hardware por vehículo. Su amplio rango de voltaje y la batería de respaldo interna aseguran un registro continuo para aplicaciones en flotas mixtas, mientras que las actualizaciones OTA y la flexibilidad MQTT simplifican el mantenimiento a largo plazo y la integración con la plataforma. Para operadores de flotas centrados en seguimiento en tiempo real, protección anti-robos, monitorización de combustible y evidencias de vídeo sincronizadas, emparejar el MT01W-4G con Plaspy ofrece una solución escalable y fiable que facilita la telemática, la supervisión del conductor y el control del inmovilizador de forma directa y centralizada.
+El MT01W-4G combina capacidad de video, amplia tolerancia de entrada de alimentación y batería interna de respaldo en una unidad compacta que reduce la complejidad del hardware por vehículo. Para operadores que requieren evidencia sincronizada de video y ubicación, además de identificación del conductor e inmovilización remota, el dispositivo se alinea con los flujos de trabajo de Plaspy para ofrecer monitoreo centralizado, alertas e informes operativos.
 
+Si desea saber más sobre cómo Plaspy puede funcionar con rastreadores habilitados para video como el MT01W-4G visite https://www.plaspy.com para detalles de la plataforma y características. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones técnicas y opciones actuales en el sitio oficial de TopShine https://www.gztopshine.com/ antes de la compra.

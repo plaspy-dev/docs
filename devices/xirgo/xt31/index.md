@@ -2,58 +2,60 @@
 slug: /xirgo/xt31
 id: xt31
 sidebar_label: XT31
+title: Xirgo - XT31
 sidebar_class_name: menu_item_tracker
+description: Trailer and container IoT gateway for cargo sensing and capacity insights compatible with Plaspy
+keywords:
+  - Xirgo XT31
+  - XT31 tracker
+  - XT31 Plaspy
+  - Xirgo cargo gateway
+  - container telematics
+  - trailer monitoring
+  - cargo monitoring
+  - industrial IoT gateway
+  - fleet tracking
+  - Plaspy compatible tracker
 ---
+
 # Xirgo - XT31
 
 ![XT31](./tracker.webp)
 
-The XT31 is a Plaspy compatible industrial IoT gateway and cargo monitoring solution engineered for trailer and container telematics. As a full‑featured gateway with integrated cargo sensing and remote capacity assessment, the XT31 delivers event‑driven, real‑time and historical status information that helps fleets and logistics operators make faster, data‑driven decisions.
+The XT31 is an industrial IoT gateway and cargo monitoring solution designed for trailer and container telematics. As a full featured gateway with integrated cargo sensing and remote capacity assessment, the XT31 produces event driven real time and historical status information to help fleets and logistics operators make faster, data driven decisions about assets and cargo condition.
 
-Designed specifically for cargo and container telematics where embedded sensor fusion and gateway capability are required, the XT31 complements GPS tracker deployments and fleet management platforms. When paired with Plaspy, the XT31 feeds telemetry and cargo insights into a single pane of glass for enhanced routing, asset utilization and security workflows.
+Because the XT31 is compatible with Plaspy, cargo telemetry and gateway data from the device can be consolidated into Plaspy for centralized visibility. When paired with Plaspy, the XT31 complements GPS tracker feeds and fleet workflows by feeding cargo insights, capacity metrics, and event logs into a single operational view used for routing, utilization, and security monitoring.
 
 ## Key Highlights
 
-- Plaspy compatible: integrates cargo and gateway data into the Plaspy platform for centralized monitoring and reporting.
-- Integrated cargo sensing: native sensor inputs capture cargo condition and status without separate middleware.
-- Remote trailer capacity assessment: provides metrics that help plan loading, reduce deadhead trips and optimize utilization.
-- Event‑driven alerts and historical logs: supports timely operational actions and post‑trip analysis for audits and compliance.
-- Designed for container and trailer telematics: built around real‑world fleet and intermodal use cases.
-- Complements GPS tracker and telemetry systems: works alongside location devices for full situational awareness.
-- Scalable IoT gateway approach: consolidates sensor data at the edge to reduce backhaul and simplify integrations.
+- Plaspy compatible integration for centralized monitoring and reporting
+- Integrated cargo sensing to capture cargo condition and status at the edge
+- Remote trailer and container capacity assessment to support planning and utilization
+- Event driven alerts and historical logs to support timely actions and post trip analysis
+- Purpose built for container and trailer telematics and intermodal use cases
+- Complements GPS tracker deployments for fuller operational awareness
+- Scalable gateway approach to consolidate sensor data and simplify ingestion
 
 ## How It Works with Plaspy
 
-The XT31 sends cargo status, sensor readings and capacity assessments to Plaspy where data is normalized, visualized and acted upon. Plaspy ingests event‑driven updates and historical records from the XT31 to generate alerts, reports and dashboards for fleet managers and operations teams. Because the XT31 focuses on cargo and container telematics, it pairs naturally with GPS tracker feeds in Plaspy to create a complete picture of location, condition and utilization.
+The XT31 sends cargo status, sensor readings and capacity assessments into Plaspy where data is normalized, visualized and acted upon. Plaspy ingests event driven updates and historical records from the XT31 to generate alerts, reports and dashboards that fleet managers and operations teams can use to improve decisions and response times.
 
-- Real‑time cargo telemetry and status updates delivered to Plaspy for rapid operational response.
-- Event‑driven alerts \(e.g., load/unload, threshold breaches\) that trigger Plaspy notifications and workflows.
-- Historical status and trend data stored and visualized in Plaspy for analytics and reporting.
-- Remote assessment of trailer/container capacity to support planning and dispatch decisions inside Plaspy dashboards.
-- Integrates with GPS tracker data and fleet management modules in Plaspy to correlate location, cargo and telemetry streams.
+- Real time cargo telemetry and status updates delivered into Plaspy for operational response
+- Event driven alerts such as load or threshold notifications that trigger Plaspy workflows
+- Historical status and trend data stored and visualized in Plaspy for analytics and reporting
+- Remote capacity assessments surfaced in dashboards to inform dispatch and loading plans
+- Correlation with GPS tracker feeds and fleet modules in Plaspy to align location with cargo condition
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | XT31 |
-| --- | --- |
-| Device Type | Industrial IoT gateway with integrated cargo monitoring |
-| Key Capabilities | Integrated cargo sensing; remote trailer/container capacity assessment; event‑driven and historical status reporting |
-| Intended Use | Trailer and container telematics; cargo monitoring and decision support |
-| Data Types | Real‑time and historical cargo status, sensor telemetry, event logs |
-| Sensor Integration | Supports integrated cargo sensors and gateway aggregation for onboard sensor ecosystems |
-| Form Factor | Industrial gateway designed for trailers and containers |
-
-## Use Cases
-
-- Fleet capacity planning — remotely assess trailer loads to improve dispatch decisions and reduce empty runs.
-- Container condition monitoring — track cargo status and sensor events across intermodal journeys for quality assurance.
-- Yard and port operations — aggregate sensor and event data at the gateway to speed yard turnarounds and asset flow.
-- Integrated telemetry for logistics — combine XT31 cargo data with GPS tracker feeds in Plaspy for richer fleet management insights.
-- Post‑trip analysis and audit — use historical status and event logs to validate handling, claims and compliance.
+- Fleet capacity planning to reduce empty runs and improve load assignment
+- Container condition monitoring across intermodal journeys for quality assurance
+- Yard and port operations to speed asset turnarounds using gateway aggregated data
+- Integrated telemetry for logistics combining cargo insights with location feeds
+- Post trip analysis and audit using historical event logs for validation and reporting
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the XT31 as part of a Plaspy‑compatible deployment gives operations teams a cargo‑first telemetry approach that complements traditional GPS tracker functionality. Rather than replacing location devices, the XT31 enriches fleet management with cargo condition and capacity intelligence that improves routing, utilization and service delivery. Plaspy ingests this data to provide unified dashboards, automated alerts and analytics across your fleet.
+The XT31 offers a cargo first telemetry approach that enhances traditional location tracking by adding condition and capacity intelligence. For organizations managing trailers and containers, pairing the XT31 with Plaspy helps produce a more complete operational picture without replacing existing GPS trackers, allowing teams to act on both location and cargo state from one platform.
 
-For organizations that require dependable telemetry across trailers and containers, the XT31 offers a focused gateway solution that integrates with existing GPS trackers and fleet platforms. Use the XT31 with Plaspy to extend capabilities like real‑time tracking, fleet management, anti‑theft monitoring and telemetry reporting. It also supports integration strategies where fuel monitoring, ignition events, immobilizer control and Bluetooth sensors are managed by complementary devices or system modules in the Plaspy ecosystem—bringing all data into a single operational view.
-
+If your operations depend on cargo visibility, utilization metrics and event driven alerts, the XT31 is a focused gateway option that integrates into Plaspy to support routing, utilization and security workflows. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current specifications on the official Xirgo site https://xirgo.com/.

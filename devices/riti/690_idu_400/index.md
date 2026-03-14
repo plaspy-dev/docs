@@ -2,61 +2,59 @@
 slug: /riti/690_idu_400
 id: 690_idu_400
 sidebar_label: 690 (IDU-400)
+title: Riti - 690 (IDU-400)
 sidebar_class_name: menu_item_tracker
+description: Riti 690 (IDU-400) GNSS vehicle tracker compatible with Plaspy for real time fleet tracking alerts and operational reporting
+keywords:
+  - Riti 690
+  - IDU-400
+  - Riti 690 Plaspy
+  - Riti 690 GPS tracker
+  - Plaspy compatible tracker
+  - fleet tracking
+  - vehicle tracker
+  - GNSS tracker
+  - Locator 690
+  - commercial vehicle IoT
 ---
+
 # Riti - 690 (IDU-400)
 
 ![690 (IDU-400)](./tracker.jpg)
 
-Locator 690 \(IDU-400\) is a professional GNSS-enabled intelligent data unit built for demanding fleet management and commercial vehicle IoT. Designed for accurate GPS positioning, robust cellular telemetry and wide peripheral support, the Locator 690 is Plaspy compatible out of the box — enabling fast integration with Plaspy for real-time tracking, dispatching and operational analytics across mixed fleets.
+Locator 690 (IDU-400) is a professional GNSS enabled intelligent data unit designed for fleet management and commercial vehicle IoT. It combines high sensitivity satellite positioning, multi band cellular telemetry and a broad set of vehicle inputs and outputs to collect the core telemetry fleets rely on. The device is built for demanding operational use where continuous location, event reporting and peripheral integration are required.
 
-Whether you need continuous location for anti-theft monitoring, per-second odometer reporting for fuel subsidy calculations, or MDVR telemetry for driver safety, the Locator 690 combines high-sensitivity GNSS, full-band LTE connectivity and multiple I/O to deliver the core data Plaspy needs to power dashboards, alerts and historical reports.
+As a Plaspy compatible device out of the box, the Locator 690 integrates with Plaspy to provide live tracking, alerts and historical reporting. Its onboard storage and event forwarding mean Plaspy can maintain consolidated fleet visibility even through temporary connectivity disruptions, making the 690 a practical choice for operators who want fast integration and dependable data for dashboards and analytics.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for seamless fleet management and real-time tracking via standard telemetry protocols.
-- High-sensitivity multi-constellation GNSS \(GPS + GLONASS, MT3333, -167 dBm\) for fast, accurate position fixes.
-- Full cellular coverage with 2G/3G/4G support and broad LTE band compatibility to ensure reliable data uplink and fallback.
-- Comprehensive vehicle I/O \(5 digital inputs, 2 analog, 2 temperature inputs, SOS, 4 digital outputs\) for ignition, door and alarm telemetry integration.
-- Onboard storage for ~30,000 records and automatic backfill to Plaspy when connectivity is restored — eliminates data gaps.
-- Built-in G-sensor and tamper/power removal alerts provide anti-theft and collision event detection for rapid response.
-- Remote firmware update and fault detection reduce downtime and simplify large-scale deployments.
+- Plaspy compatible tracker for straightforward integration into fleet monitoring workflows
+- High sensitivity multi constellation GNSS for fast and accurate position fixes
+- Multi band cellular support and fallback for reliable telemetry uplink across regions
+- Multiple digital and analog inputs plus temperature channels to capture vehicle and sensor events
+- Onboard storage with automatic backfill to prevent data gaps during outages
+- Built in motion and tamper detection with event alerts to support security and incident response
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the Locator 690 streams position and vehicle telemetry using standard protocols \(TCP/UDP/FTP/HTTP/SMS\) so the platform can deliver live maps, geofence alerts, historical playback and custom reports. Plaspy ingests GNSS fixes, sensor inputs and event-driven alerts to provide consolidated fleet insights and automated notifications to dispatchers and managers.
+When used with Plaspy, the Locator 690 delivers the location and vehicle telemetry Plaspy needs to populate maps, trigger alerts and generate reports. Plaspy ingests GNSS fixes, input state changes and event records to provide unified visibility across mixed fleets and to support automated dispatching and compliance workflows.
 
-- Real-time location and telemetry updates delivered to Plaspy for live tracking and route monitoring.
-- Ignition and digital input events available to Plaspy for engine-on/off, door open/close, and alarm status reporting.
-- Fuel monitoring support through optional fuel level sensor integration and per-second odometer/mileage reporting for accurate fuel subsidy and cost calculations.
-- Anti-theft and remote response: geofence breaches, GNSS antenna disconnect/tamper and power removal alerts are forwarded to Plaspy for immediate operator action.
-- Auxiliary sensor data \(temperature inputs, SOS button, G-sensor events\) appear in Plaspy dashboards and can trigger automation or escalation rules.
+- Live position updates and route monitoring visible on Plaspy maps and fleet dashboards
+- Digital input and event reporting in Plaspy for ignition state door status and alarm conditions
+- Historical playback and stored record backfill for gap free trip reconstruction and reporting
+- Sensor and auxiliary data such as temperature inputs and SOS events presented in Plaspy for monitoring and escalation
+- Alerts and geofence events forwarded to Plaspy to notify dispatchers and trigger automation rules
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G / 3G / 4G LTE modem; TCP, UDP, FTP, HTTP, SMS |
-| --- | --- |
-| Bands | 2G: 850 / 900 / 1800 / 1900 MHz; 3G: B1 / B2 / B5 / B8; 4G: B1 / B3 / B4 / B5 / B7 / B8 / B28 |
-| Power & Battery | Operating voltage 8–33 V DC; Peak \< 500 mA @24VDC; Standby \< 80 mA @24VDC; backup battery included for continued tracking after external power loss |
-| Interfaces | Digital inputs x5; Analog inputs x2; Temperature inputs x2; SOS x1; 1-wire support; Digital outputs x4 |
-| GNSS | MT3333 chipset; GPS + GLONASS multi-constellation; sensitivity -167 dBm |
-| Serial | RS-232 x2 for peripherals and MDVR integration |
-| Memory | Onboard storage for ~30,000 records with automatic retransmit when network restored |
-| Form Factor | 71 mm x 85 mm x 26 mm — compact unit for vehicle and asset installation |
-| Operating Range | Operating temperature -20°C to 60°C |
-| Accessories | Standard: GNSS antenna, LTE antenna, power cable kit, backup battery; Optional: barcode terminal, dispatch panel, temperature sensors, fuel level sensor, TPMS, i-Button, DVR MDVR, RFID reader, time-clock card reader |
-
-## Use Cases
-
-- Fleet management and dispatch — continuous GPS tracker telemetry feeds Plaspy for route optimization, ETA updates and driver assignment.
-- Anti-theft and security — geofencing, tamper/power removal alerts and G-sensor events protect high-value trucks and trailers.
-- Cold-chain and refrigerated transport — temperature inputs and optional probe sensors enable compliance reporting and cold-chain monitoring.
-- MDVR and driver safety — RS-232 integration with DVR systems and G-sensor collision alerts support incident reconstruction and safety programs.
-- Custom regulatory fleets — certified for construction earthworks vehicle tracking and customs IoT monitoring, suitable for mandated continuous monitoring scenarios.
+- Fleet management and dispatch where continuous position and event data improve routing and coordination
+- Anti theft and security monitoring using tamper and motion alerts for rapid response
+- Cold chain or refrigerated transport monitoring using temperature inputs and optional probes
+- MDVR and driver safety integrations to combine vehicle telemetry with recorded video or event logs
+- Regulatory or mandated monitoring scenarios that require reliable continuous tracking and historical records
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the Locator 690 as a Plaspy compatible GPS tracker delivers practical benefits for operators who need reliable real-time tracking, robust telemetry and a long list of vehicle integrations. Its multi-band cellular modem and GNSS sensitivity reduce blind spots, while onboard storage and automatic backfill ensure no mission-critical data is lost during temporary outages. Multiple inputs and outputs make it straightforward to capture ignition, door, SOS and analog sensor signals — and digital outputs can be used to drive immobilizer relays or other control circuits where required.
+The Locator 690 is a good fit for organizations looking for a durable, data rich endpoint that plugs into Plaspy for day to day fleet operations and longer term analytics. Its combination of sensitive GNSS, broad cellular coverage and multiple I O options makes it versatile across vehicle types and operational requirements, while onboard storage and automatic retransmit help preserve continuity in Plaspy reports.
 
-For fleets focused on uptime and low maintenance, remote firmware update and fault detection minimize service visits and simplify scaling. When integrated with Plaspy, Locator 690 becomes a data-rich endpoint: live location, odometer-grade mileage for fuel monitoring, collision and tamper alerts, and customizable reports give fleet managers the visibility and control needed to reduce costs and improve safety. Whether you need telemetry for daily operations or regulatory-grade continuous monitoring, Locator 690 provides a reliable foundation for Plaspy-powered fleet intelligence.
-
+If you want concise, reliable telemetry feeding a single fleet platform, the Riti 690 paired with Plaspy provides the fundamental building blocks for live monitoring, alerts and reporting. To learn more about Plaspy and how compatible devices are used on the platform visit https://www.plaspy.com. Product specifications and availability can change over time so verify current details and accessories on the manufacturer site https://www.riti.com.tw/

@@ -2,61 +2,60 @@
 slug: /topfly/knightx_100
 id: knightx_100
 sidebar_label: KnightX 100
+title: TopFly - KnightX 100
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto y recargable TopFly KnightX 100 para vigilancia discreta de activos y flotas, compatible con Plaspy para seguimiento y telemetría en tiempo real
+keywords:
+  - TopFly KnightX 100
+  - rastreador KnightX 100
+  - rastreador TopFly
+  - KnightX 100 Plaspy
+  - rastreador GPS
+  - rastreador de activos
+  - seguimiento de flotas
+  - monitoreo cadena de frío
+  - rastreador con montaje magnético
+  - rastreador con sensores BLE
 ---
+
 # TopFly - KnightX 100
 
 ![KnightX 100](./tracker.png)
 
-# KnightX 100
+El KnightX 100 es un rastreador GPS discreto y recargable, diseñado para la vigilancia a largo plazo de activos de alto valor. Integra posicionamiento híbrido, autonomía prolongada, almacenamiento en búfer y soporte para sensores auxiliares, lo que le permite ofrecer telemetría de ubicación y ambiental fiable sin necesidad de cableado permanente. Su tamaño compacto y montaje magnético lo hace ideal para instalaciones temporales donde la baja visibilidad y el bajo mantenimiento son prioridades.
 
-El KnightX 100 es un rastreador GPS discreto y recargable, diseñado para el monitoreo a largo plazo y encubierto de activos de alto valor. Compatible con Plaspy desde el inicio, el KnightX 100 combina una larga vida de batería, posicionamiento híbrido y soporte para sensores BLE para ofrecer rastreo en tiempo real y telemetría fiables para despliegues empresariales sin cableado permanente.
+Este modelo es compatible con Plaspy desde el primer momento, por lo que resulta una opción práctica para organizaciones que necesitan incorporar datos de ubicación, sensores y eventos a una plataforma de gestión de flotas ya establecida. Al integrarlo con Plaspy, el KnightX 100 puede alimentar paneles con seguimiento en tiempo real, alertas e informes históricos para supervisión operativa, flujos de trabajo antirobo y monitoreo de cadena de frío.
 
-Ideal para la gestión de flotas, flujos de trabajo con remolques y activos ocultos, el KnightX 100 combina posicionamiento GPS, Wi‑Fi y LBS con almacenamiento en búfer y opciones de actualización rápidas para satisfacer las necesidades de rastreo activo y anti‑robo. Su montaje magnético y su sonda de temperatura externa opcional lo convierten en una opción flexible para instalaciones temporales y monitoreo de la cadena de frío, mientras Plaspy ingiere datos de ubicación, sensores y eventos para alertas e informes.
+## Características principales
 
-## Puntos clave
-
-- Batería recargable de larga duración de 6400 mAh: diseñada para despliegues extendidos con operación de varios meses, dependiendo del intervalo de informes.
-- Posicionamiento híbrido \(GPS + Wi‑Fi + LBS\) con GNSS de múltiples constelaciones para lecturas de ubicación precisas en distintos entornos.
-- Capacidad de rastreo en tiempo real rápida \(actualizaciones de hasta cada 3 segundos\) y almacenamiento en búfer cuando no hay cobertura celular.
-- BLE 5.1 para sensores y accesorios Bluetooth — admite sensores de temperatura/humedad, botones de pánico y relés.
-- Sonda de temperatura externa opcional para monitoreo continuo de la cadena de frío o de cargas refrigeradas.
-- Montaje magnético discreto y formato compacto para instalaciones encubiertas y rastreo temporal de activos.
-- Clasificación IP67, amplio rango de temperatura de operación, indicadores LED de estado y USB‑C para mantenimiento sencillo.
+- Batería recargable de larga duración diseñada para despliegues de varios meses según el intervalo de reporte y uso.
+- Posicionamiento híbrido que combina GNSS con Wi Fi y LBS para mayor cobertura en distintos entornos.
+- Capacidad de actualizaciones rápidas con almacenamiento en búfer que preserva las posiciones rastreadas cuando la conectividad se interrumpe.
+- Soporte para sensores BLE y sonda de temperatura externa opcional para telemetría ambiental e integraciones con accesorios.
+- Montaje magnético discreto y factor de forma compacto para instalaciones encubiertas o temporales.
+- Carcasa con clasificación IP67 e interfaz USB C para mantenimiento sencillo en campo.
+- Actualizaciones de firmware remotas y opciones de configuración pensadas para la gestión a escala de flota.
 
 ## Cómo funciona con Plaspy
 
-El KnightX 100 transmite ubicación y telemetría a Plaspy empleando protocolos de comunicación estándar de la industria, de modo que sus dashboards de gestión de flotas y activos reciban actualizaciones consistentes y seguras. Los clientes de Plaspy pueden usar el dispositivo para habilitar rastreo en tiempo real, enrutamiento de alarmas e informes históricos, aprovechando al mismo tiempo el almacenamiento en búfer y las entradas de sensores del KnightX 100 cuando la conectividad se interrumpe.
+El KnightX 100 envía datos de ubicación, sensores y eventos a Plaspy para que gestores de flota y de activos obtengan visibilidad oportuna y alertas accionables. Plaspy ingiere los reportes del dispositivo y las cargas en búfer para mantener la continuidad del historial de rastreo y soportar informes, alertas y flujos operativos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas vía TCP/UDP/MQTT o SMS en Plaspy.
-- Alertas de inicio/parada de movimiento y eventos de manipulación/pánico \(botón de pánico integrado\) enviados a Plaspy para flujos de trabajo de anti‑robo y respuesta ante incidentes.
-- Almacenamiento de posición en búfer para subida automática cuando la cobertura celular se restablece, asegurando la continuidad de los datos de rastreo en Plaspy.
-- Lecturas de sonda de temperatura externa y sensores BLE \(temperatura/humedad, botones de pánico, relés\) disponibles en Plaspy para monitoreo de la cadena de frío y telemetría ambiental.
-- Transporte cifrado \(MD5/AES\) y soporte FOTA para actualizaciones seguras y mantenimiento remoto de la flota mediante flujos de trabajo compatibles con Plaspy.
+- Ubicación y telemetría en tiempo real aparecen en los paneles de Plaspy para monitoreo activo de la flota.
+- Eventos de movimiento, manipulación y pánico pueden reenviarse a Plaspy para enrutar alertas y coordinar respuestas incidentes.
+- El almacenamiento en búfer del dispositivo garantiza que posiciones y eventos se carguen a Plaspy una vez que se restablece la conectividad.
+- Lecturas de la sonda externa de temperatura y de sensores BLE se integran en Plaspy para monitoreo de cadena de frío y condiciones ambientales.
+- Las funciones de gestión remota permiten flujos de trabajo de firmware y configuración compatibles con el mantenimiento de flotas gestionado desde Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE Cat 1 \(FDD/TDD\) y soporte celular GSM; admite TCP, UDP, MQTT y SMS para comunicaciones. |
-| --- | --- |
-| Bandas | Soporte global LTE Cat 1 y GSM en numerosas bandas \(consulte al fabricante para listas de bandas regionales exactas\). |
-| Alimentación y batería | 6400 mAh / 3.7 V batería de litio‑ion recargable. Ejemplos del fabricante: hasta 215 días con informes cada 10 minutos, 141 días con 5 minutos, ~38 días con rastreo de 1 minuto; admite actualizaciones rápidas cada 3 segundos. |
-| Interfaces | Interfaz de datos USB‑C, montaje magnético, botón de pánico integrado, indicadores LED, sonda de temperatura externa opcional, conectividad con accesorios BLE. |
-| GNSS | Receptor multi‑constelación: GPS + GLONASS + Beidou + Galileo + QZSS, con precisión horizontal inferior a 1.5 m \(CEP\) en condiciones óptimas. |
-| Bluetooth | BLE 5.1 para emparejar con sensores y balizas de accesorios \(sensores de temperatura/humedad, botones de pánico, relés\). |
-| Gestión remota | Actualizaciones FOTA \(firmware over the air\) y configuración remota compatibles para mantenimiento a escala de flota. |
-| Factor de forma y entorno | Compacto: 91,8 × 43,5 × 29,2 mm, 165 g; clasificación IP67 \(no apto para inmersión prolongada\), rango operativo de -20 °C a +80 °C. |
-
-## Casos de uso
-
-- Seguimiento de activos ocultos — montaje magnético encubierto para objetos de valor, remolques y equipos cuando la instalación con cableado permanente resulta impráctica.
-- Protección de carga de alto valor y monitoreo anti‑robo — alertas de movimiento y eventos del botón de pánico alimentan a Plaspy para una respuesta rápida.
-- Monitoreo de la cadena de frío — sonda de temperatura externa opcional y sensores BLE de temperatura para conservar productos perecederos durante el transporte y almacenamiento.
-- Rastreo de flotas y remolques para despliegues temporales o estacionales — la larga vida de la batería permite cobertura de bajo mantenimiento sin instalación permanente.
-- Alquileres temporales y activos en campo — despliegue rápido, actualizaciones de firmware remotas y informes en búfer para entornos con cobertura intermitente.
+- Rastreo discreto de activos ocultos para equipos, remolques y objetos de valor donde se requiera montaje discreto.
+- Monitoreo de flotas y remolques en despliegues temporales o estacionales que demandan bajo mantenimiento.
+- Flujos de trabajo antirobo y de seguridad usando alertas de movimiento y eventos de pánico gestionados desde Plaspy.
+- Monitoreo de cadena de frío y carga refrigerada empleando la sonda de temperatura externa opcional y sensores BLE.
+- Alquileres por corto plazo y activos de campo que se benefician de despliegues rápidos y reportes en búfer.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Integrar el KnightX 100 con Plaspy ofrece una solución práctica y de bajo mantenimiento para organizaciones que requieren un rastreo GPS y telemetría fiables sin necesidad de cableado permanente. Su larga vida de batería, posicionamiento híbrido y soporte para sensores BLE permiten despliegues flexibles, mientras que FOTA y las comunicaciones cifradas mantienen seguras y actualizadas las operaciones de gestión de flotas y anti‑robo.
+El KnightX 100 es una opción práctica para organizaciones que requieren telemetría de ubicación y ambiental fiable sin una instalación cableada permanente. Su combinación de larga autonomía, posicionamiento híbrido y soporte para sensores lo hace versátil en casos que van desde la protección encubierta de activos hasta el monitoreo de cadena de frío, y se integra de forma natural con Plaspy para convertir los datos brutos del dispositivo en información operativa.
 
-Para las empresas que confían en Plaspy para el rastreo y la generación de informes en tiempo real, el KnightX 100 aporta valor mediante fijaciones GNSS precisas, subidas en búfer después de interrupciones de conectividad y una integración directa de sensores para el monitoreo ambiental. Ya sea que necesite protección encubierta de activos, telemetría de la cadena de frío o un rastreo confiable de remolques, el KnightX 100 proporciona los datos que Plaspy necesita para ofrecer insights accionables y control operacional.
-
+Si desea explorar cómo encaja el KnightX 100 en su programa de rastreo, conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y el soporte regional en el sitio del fabricante https://www.topflytech.com/.

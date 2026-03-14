@@ -1,63 +1,60 @@
 ---
 slug: /reachfar/rf_v10
 id: rf_v10
-sidebar_label: RF-V10
+sidebar_label: RF-V10+
+title: Reachfar - RF-V10+
 sidebar_class_name: menu_item_tracker
+description: Rastreador Reachfar RF-V10+ compacto con larga autonomía y alertas antirrobo, compatible con Plaspy
+keywords:
+  - reachfar rf-v10+
+  - reachfar rf-v10
+  - rf-v10+
+  - rastreador gps reachfar
+  - rf v10 plus
+  - compatible con plaspy
+  - rastreador gps vehicular
+  - rastreador para motocicleta
+  - dispositivo de rastreo para flotas
+  - rastreador gps plaspy
 ---
-# Reachfar - RF-V10
 
-![RF-V10](./tracker.jpg)
+# Reachfar - RF-V10+
 
-# RF-V10 Rastreador GPS para Motocicletas
+![RF-V10+](./tracker.jpg)
 
-El RF-V10 es un rastreador GPS compacto enfocado en motocicletas y un sistema antirrobo diseñado para ofrecer seguimiento en tiempo real confiable y múltiples funciones de alarma. Compatible con Plaspy por diseño, el RF-V10 transmite la ubicación y los eventos de alarma a través de GSM/GPRS y SMS para que los operadores puedan ver la ubicación en tiempo real, recibir alertas de manipulación y reproducir trazas históricas en Plaspy u otras plataformas en línea.
+El RF-V10+ es un rastreador GPS compacto con consumo extremadamente bajo diseñado para la seguridad de vehículos y motocicletas. Ofrece seguimiento en tiempo real junto con una gran autonomía en reposo y un conjunto de alarmas antirrobo. El dispositivo soporta reportes por GPRS y SMS y utiliza posicionamiento dual para mantener actualizaciones de ubicación confiables aun cuando la cobertura GPS sea limitada, lo que lo hace ideal para propietarios y pequeñas flotas que requieren supervisión continua sin recargas frecuentes.
 
-El RF-V10 combina posicionamiento GPS con sensores dedicados de vibración y sonido, escucha remota, geocercas y inmovilización remota para proteger vehículos pequeños y facilitar una gestión de flotas ágil. Con compatibilidad GSM quad-band \(850/900/1800/1900MHz\) y un host compacto de dos partes, está optimizado para uso antirrobo en motocicletas, al tiempo que se integra fácilmente con Plaspy para telemetría centralizada, alertas y operaciones.
+Como dispositivo compatible con Plaspy desde el primer momento, el RF-V10+ puede enviar datos de ubicación, alarmas y estado directamente a los paneles y vistas móviles de Plaspy. Esa compatibilidad permite a flotas y usuarios individuales recibir alertas oportunas, ver posiciones en vivo y revisar el historial de recorridos mientras aprovechan el diseño de bajo consumo y las funciones orientadas a vehículos del rastreador.
 
-## Puntos destacados
+## Aspectos clave
 
-- Compatible con Plaspy: reenvía mensajes GPS y de alarma a plataformas para seguimiento en tiempo real centralizado y reproducción de trazas.
-- Antirrobo optimizado para motocicletas: alarmas de sensores de vibración y de sonido detectan manipulación y movimientos no autorizados.
-- Inmovilización remota y escucha remota: capacidad para cortar la ignición y la alerta y escuchar el entorno cuando sea necesario.
-- GSM quad-band \(850/900/1800/1900MHz\): amplia compatibilidad de red para una conectividad GPRS/SMS fiable a nivel mundial.
-- Alertas de geocerca \(eco-fence\): alertas perimetrales configurables que le avisan cuando el vehículo sale de una zona previamente establecida.
-- Detección de batería baja y corte de línea/apagado: alertas automáticas por SMS/llamada al número maestro registrado para eventos críticos.
-- Factor de forma compacto con hasta 12 días en modo de espera: host principal y auxiliar diseñados para una instalación discreta en vehículos pequeños.
-- Múltiples métodos de acceso: admite control por SMS, aplicación web/móvil y WeChat, además del monitoreo en plataforma \(p. ej., REACHFAR plataforma en línea\).
+- Dispositivo compatible con Plaspy que ofrece seguimiento en tiempo real mediante telemetría GPRS y con SMS como respaldo para actualizaciones fiables.
+- Diseño de ultra bajo consumo con batería integrada de 520 mAh para prolongar la autonomía en espera entre cargas.
+- Conectividad GSM y GPRS cuatribanda que brinda cobertura celular amplia en la mayoría de las regiones.
+- Posicionamiento dual usando GPS con respaldo LBS para mantener la localización cuando las señales GPS son débiles.
+- Conjunto completo de funciones antirrobo incluyendo alarma por vibración, notificaciones por cambio de SIM y batería baja, alertas de geovalla y control remoto de armado, desarmado e inmovilización vía SMS o llavero.
+- Construcción robusta orientada al uso automotriz que tolera amplios rangos de temperatura y humedad, apta para vehículos y motocicletas.
 
 ## Cómo funciona con Plaspy
 
-La integración del RF-V10 con Plaspy es sencilla porque la unidad se comunica a través de canales GPRS/SMS estándar. Plaspy puede recibir la ubicación en tiempo real y los mensajes de alarma del dispositivo, mostrar telemetría en el panel de control y activar alertas e informes. Use Plaspy como la única interfaz para supervisar múltiples unidades RF-V10 en toda su operación.
+Al emparejarse con Plaspy, el RF-V10+ transmite fijaciones de posición, eventos de alarma y el estado del equipo a la plataforma de Plaspy, donde esos flujos se convierten en mapas en vivo, alertas y recorridos históricos. Plaspy procesa la telemetría GPRS y también puede manejar alertas basadas en SMS, de modo que los operadores obtienen visibilidad consolidada y pueden actuar sobre los eventos desde un solo lugar.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — RF-V10 envía las posiciones GPS a través de GPRS para mostrarlas en Plaspy y realizar seguimiento en vivo.
-- Eventos de alarma y estado — alarma por vibración, sonido, corte de línea/apagado y batería baja se reenvían a Plaspy para notificaciones inmediatas.
-- Eventos de ignición e inmovilizador — RF-V10 informa de ignición ilegal/manipulación y admite inmovilización remota cuando sea necesario.
-- Reproducción de trazas históricas — el historial de posiciones transmitido por el dispositivo puede ser utilizado por Plaspy para auditoría de rutas y esfuerzos de recuperación.
-- Múltiples vías de acceso — control y consultas del dispositivo por SMS o comandos de la plataforma complementan el control de Plaspy para redundancia.
+- Ubicación y telemetría en tiempo real entregadas a Plaspy con SMS como canal de respaldo.
+- Reenvío de alarmas y estados para que eventos de vibración, cambio de SIM y advertencias de batería baja aparezcan en los flujos de alerta de Plaspy.
+- Notificaciones de geovallas y reproducción de recorridos en Plaspy utilizando el historial de ubicación almacenado por el dispositivo.
+- Informes históricos y reproducción de viajes para revisión operativa y análisis de incidentes.
+- Soporte para flujos de inmovilización remota y control de arranque/parada iniciados por alertas de Plaspy y confirmados mediante las capacidades de comandos remotos del dispositivo.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS y SMS \(quad-band\) |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(quad-band GSM\) |
-| Alimentación y batería | Batería integrada; tiempo de espera anunciado de hasta 12 días. Tensión nominal de entrada de la batería: 12V ±3V. Alerta de batería baja enviada cuando la carga restante cae por debajo del 10%. |
-| Interfaces y entradas | Inmovilización remota \(soporta cortar la ignición en arranque ilegal/manipulación\), detección de corte de línea/apagado, control remoto por SMS desde un número maestro registrado. Viene con dos mandos a distancia y un arnés de cableado especial. |
-| GNSS | Posicionamiento GPS \(la unidad proporciona datos de ubicación GPS\); no se especifican constelaciones GNSS adicionales. |
-| Sensores | Alarma de sensor de vibración integrada y alarma de sensor de sonido para detección de manipulación/movimiento; escucha remota soportada. |
-| Bluetooth | No se mencionan sensores Bluetooth ni soporte BLE en las especificaciones. |
-| Gestión remota | Monitoreo en plataforma en línea y acceso a aplicación móvil/WeChat. Consulta/control por SMS desde un teléfono maestro registrado. Se integra con la plataforma en línea REACHFAR \(ejemplo: www.gps123.org\). |
-| Factor de forma | Host principal: 65 × 65 × 20 mm; Host auxiliar: 45 × 35 × 13.5 mm. Diseño compacto para instalación en motocicletas y vehículos pequeños. |
-
-## Casos de uso
-
-- Protección antirrobo para motocicletas: alarmas de vibración y sonido activan notificaciones instantáneas por SMS/GPRS y permiten la inmovilización remota para detener el robo en curso.
-- Gestión de un único vehículo y flotas pequeñas de motocicletas: monitorizar ubicación, estado y reproducción de trazas históricas en Plaspy para la asignación y supervisión de flotas de dos ruedas.
-- Operaciones de motocicletas en alquiler y compartidas: aplicar políticas de geocerca y recibir alertas de movimiento no autorizado para reducir pérdidas y acelerar la recuperación.
-- Recuperación e investigación de incidentes: usar la reproducción de trazas GPS y las líneas de tiempo de alarmas para localizar motocicletas robadas y reconstruir eventos para las autoridades.
+- Protección antirrobo de motocicletas donde el tamaño compacto, la detección por vibración y la inmovilización remota reducen el riesgo de robo.
+- Seguridad de automóviles y monitoreo de propietarios con seguimiento en vivo, alertas por geovalla y notificaciones de estado.
+- Gestión de pequeñas flotas para activos de bajo consumo o uso esporádico donde la larga autonomía en espera es importante.
+- Rastreo de activos que requiere alertas oportunas y reproducción para investigar movimientos inusuales.
+- Monitoreo de vehículos remotos o de temporada que necesitan verificaciones de ubicación ocasionales sin un consumo constante de energía.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El RF-V10 es un rastreador GPS para motocicletas diseñado específicamente para ofrecer características prácticas de antirrobo y telemetría en las que se puede confiar. Su conectividad GSM quad-band y su formato compacto de dos partes lo hacen apto para despliegues globales en vehículos pequeños, mientras que los sensores de vibración y sonido proporcionan detección inmediata de manipulación. Cuando está conectado a Plaspy, el RF-V10 pasa a formar parte de un flujo de trabajo de monitorización y alertas escalable: Plaspy centraliza el seguimiento en tiempo real, la reproducción de trazas históricas y la gestión de alarmas para que los operadores puedan actuar con rapidez.
+El RF-V10+ es una opción práctica para organizaciones y propietarios que buscan un equilibrio entre gran autonomía en espera, informes de ubicación confiables y funciones antirrobo útiles. Su combinación de GPS y posicionamiento por LBS ayuda a mantener el rastreo eficaz en áreas con señal marginal, mientras que el soporte cuatribanda ofrece un alcance amplio para la entrega de telemetría. Ser compatible con Plaspy desde el inicio permite incorporar el dispositivo rápidamente y aprovechar funciones de Plaspy como mapas en vivo, alertas basadas en reglas y reproducción histórica para mejorar la supervisión y la capacidad de respuesta.
 
-Opte por el RF-V10 con Plaspy si necesita una solución enfocada y confiable para la protección antirrobo de motocicletas y la supervisión de flotas de vehículos pequeños. Tenga en cuenta que el RF-V10 no lista sensores Bluetooth ni monitoreo dedicado del nivel de combustible; sin embargo, proporciona telemetría central —GPS, alarmas, estado de ignición/inmovilizador, geocerca y alertas de batería baja— que aborda las necesidades más comunes para la prevención de robos y operaciones rápidas. Para obtener los mejores resultados, instale la unidad donde la señal GSM sea fuerte y asegúrese de que la alimentación del vehículo se mantenga dentro del rango recomendado de 12V ±3V para que funciones críticas como arranque/parada remota permanezcan disponibles.
-
+Si desea más información sobre cómo el RF-V10+ puede integrarse en su despliegue con Plaspy, visite https://www.plaspy.com para explorar la plataforma. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por favor verifique los detalles técnicos más recientes y la documentación del fabricante en https://www.reachfargps.com/.

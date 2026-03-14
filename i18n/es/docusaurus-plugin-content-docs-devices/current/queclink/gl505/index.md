@@ -2,59 +2,60 @@
 slug: /queclink/gl505
 id: gl505
 sidebar_label: GL505
+title: QuecLink - GL505
 sidebar_class_name: menu_item_tracker
+description: Rastreador QuecLink GL505 para ganado y activos remotos compatible con Plaspy seguimiento prolongado geocercas y alertas de movimiento
+keywords:
+  - QuecLink GL505
+  - rastreador GL505
+  - GPS para ganado
+  - seguimiento de animales
+  - compatible con Plaspy
+  - rastreo de activos remotos
+  - rastreador GNSS
+  - rastreador de geocercas
+  - seguimiento rural
+  - rastreador IPX7
 ---
+
 # QuecLink - GL505
 
 ![GL505](./tracker.png)
 
-El GL505 es un localizador GPS compatible con Plaspy diseñado para monitoreo de ganado de larga duración con bajo mantenimiento y seguridad de activos al aire libre. Concebido para entornos pastorales y remotos, el GL505 alimentado por batería ofrece ubicación GNSS de alta precisión, geocercas configurables y alertas de inactividad basadas en movimiento — todo ello en una carcasa a prueba de intemperie y resistente a manipulación, que cabe dentro de los collares de los animales.
+El GL505 es un rastreador GPS compacto de QuecLink diseñado para el seguimiento de larga duración y bajo mantenimiento de ganado y activos remotos al aire libre. Pensado para entornos rurales y pastoriles, el GL505 combina posicionamiento GNSS de alta precisión con geocercas configurables y alertas de inactividad basadas en movimiento, todo en una carcasa resistente a la intemperie y a manipulaciones, con un tamaño apto para colocarse dentro de collares animales.
 
-Optimizado para la integración con Plaspy, el GL505 proporciona seguimiento en tiempo real confiable y telemetría automatizada en los flujos de trabajo de rebaños y activos. Su vida en reposo extremadamente larga y su construcción robusta con IPX7 lo hacen ideal para implementaciones en las que cambiar la batería con frecuencia es impráctico y donde los propietarios requieren una vigilancia continua para prevenir robos y acelerar la recuperación.
+Como dispositivo compatible con Plaspy, el GL505 envía datos fiables de ubicación y eventos a su plataforma Plaspy para que usted mantenga visibilidad sobre rebaños y activos. Su diseño orientado a una larga vida en espera y a la construcción robusta lo hace ideal para usuarios de Plaspy que necesitan monitoreo continuo con mantenimiento mínimo en campo.
 
-## Aspectos clave
+## Características principales
 
-- Localizador GPS compatible con Plaspy: integra la ubicación y las alertas directamente en el panel de Plaspy para un monitoreo centralizado.
-- Larga duración de la batería — hasta 5 años en modo de reposo cuando se configura para reportar una vez al día, minimizando el mantenimiento en campo.
-- Diseño robusto y a prueba de intemperie \(IPX7\) capaz de soportar polvo, barro, humedad y exposición prolongada al sol en entornos pastorales.
-- Posicionamiento GNSS de alta precisión con historial de movimientos y soporte de geocercas.
-- Soporte de geocercas personalizable para activar alertas cuando los animales entren o salgan de áreas predefinidas.
-- Sensor de movimiento con detección de inactividad para alertar a los propietarios si un animal deja de moverse durante un periodo establecido.
-- Instalación discreta y a prueba de manipulación: puede ser atornillada y oculta dentro del collar del animal.
+- Compatible con Plaspy para enviar datos de ubicación y alertas a una plataforma centralizada de monitoreo
+- Vida en espera excepcional de hasta cinco años si se configura con baja frecuencia de reporte
+- Carcasa robusta e IPX7 adecuada para polvo, barro y exposición prolongada al exterior
+- Posicionamiento GNSS de alta precisión con historial de movimiento para seguimiento en el tiempo
+- Geocercas configurables que generan alertas cuando los animales entran o salen de zonas predefinidas
+- Sensor de movimiento con detección de inactividad para notificar a los cuidadores sobre inmovilidad prolongada
+- Diseño resistente a la manipulación que permite instalación y ocultamiento dentro de collares animales
 
 ## Cómo funciona con Plaspy
 
-Cuando se combina con Plaspy, el GL505 transmite la ubicación y los datos de eventos a la plataforma Plaspy para que puedas ver ubicaciones en tiempo real, recibir alertas configurables y generar informes de movimiento. La integración compatible con Plaspy permite una configuración sencilla de reglas de geocerca, umbrales de inactividad y destinos de alertas \(SMS, correo electrónico o notificaciones de la app\), manteniendo la telemetría histórica para fines de auditoría y recuperación.
+Al integrarse con Plaspy, el GL505 transmite telemetría de ubicación y eventos a la plataforma para que usted pueda ver posiciones en vivo, recibir alertas y conservar registros históricos de movimiento para análisis y procesos de recuperación. Plaspy utiliza esos datos para ofrecer visibilidad centralizada y notificaciones configurables adaptadas a necesidades agrícolas y de activos remotos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para monitoreo en vivo y reproducción del historial.
-- Eventos de geocerca personalizados para notificar a los responsables cuando los animales abandonan áreas de pastoreo o ingresan a zonas restringidas.
-- Alarmas de inactividad basadas en movimiento para la detección temprana de lesiones, enfermedades o animales inmovilizados.
-- Notificaciones de montaje a prueba de manipulación y colocación discreta dentro de los collares para reducir el riesgo de robo y la pérdida del dispositivo.
-- Formato de datos listo para integración con Plaspy para combinar con otras fuentes de telemetría y flujos de trabajo operativos.
+- Actualizaciones de ubicación en tiempo real y reproducción de historial dentro del panel de Plaspy para monitoreo en directo
+- Eventos y alertas de geocercas que informan a los gestores sobre brechas de perímetro o entradas a áreas restringidas
+- Alarmas por inactividad basadas en movimiento para ayudar a detectar posibles problemas de bienestar o animales perdidos
+- Notificaciones de manipulación y de colocación para reducir el riesgo de hurto y pérdida de dispositivos mediante montaje discreto
+- Datos formateados para integración en informes y flujos operativos de Plaspy para auditoría y recuperación
 
-## Resumen técnico
+## Casos de uso habituales
 
-| Conectividad | Localizador de activos inalámbrico con GNSS; los detalles de conectividad celular/red no están especificados en la descripción de origen |
-| --- | --- |
-| Bandas | No especificado en la descripción |
-| Alimentación y batería | Con batería y vida en reposo extremadamente larga — hasta 5 años cuando se configura para reportar una vez al día |
-| Interfaces | Diseñado para instalación mediante tornillos dentro de los collares de los animales; montaje a prueba de manipulaciones \(entrada/salida específica no detallada\) |
-| GNSS | Posicionamiento GNSS de alta precisión con historial de movimientos y soporte de geocercas |
-| Bluetooth | No especificado en la descripción |
-| Gestión remota | Se integra en el ecosistema de seguimiento de activos de Queclink y es compatible con Plaspy \(gestión/firmware remota no especificados\) |
-| Formato | Carcasa compacta y robusta diseñada para montaje oculto en el collar y exposición exterior severa \(IPX7\) |
-
-## Casos de uso
-
-- Recuperación ante robo de ganado \(ganado, ovejas y cabras\) — alertas de violación de geocerca y historial de ubicación ayudan a localizar rápidamente a los animales.
-- Monitoreo de inactividad y bienestar — alertas del sensor de movimiento que identifican animales que han dejado de moverse o que podrían estar heridos.
-- Gestión remota del rebaño — reducir el personal automatizando la monitorización de perímetros y la generación de informes de movimiento en extensas áreas de pastoreo.
-- Rotación de pastos y analítica de pastoreo — rastrea patrones de movimiento y densidad para informar decisiones de pastoreo y asignación de recursos.
-- Seguridad de activos para equipos remotos o activos rurales estáticos donde la larga vida de batería y la protección contra el clima son esenciales.
+- Prevención de robos y recuperación rápida de ganado como bovinos, ovinos y caprinos mediante alertas de geocerca e historial de ubicaciones
+- Monitoreo del bienestar donde las alertas por movimiento identifican animales que han dejado de moverse
+- Gestión remota de rebaños para reducir recorridos de campo y automatizar la vigilancia perimetral
+- Análisis de rotación de pasturas y movimientos para apoyar la planificación de pastoreo y la asignación de recursos
+- Seguridad y monitoreo de equipos remotos o activos rurales estáticos donde importa la larga duración de batería
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GL505 está diseñado para las realidades de las operaciones pastorales: despliegues prolongados sin supervisión, condiciones adversas y la necesidad de datos de ubicación discretos y confiables. Al utilizarse con Plaspy, se convierte en un rastreador GPS práctico para operaciones agrícolas que requieren tanto seguimiento en tiempo real como un bajo costo total de propiedad. La combinación de hasta cinco años de vida en reposo, durabilidad con clasificación IPX7 y GNSS de alta precisión garantiza telemetría confiable sin mantenimiento frecuente.
+El GL505 está diseñado para entornos donde los dispositivos deben resistir condiciones adversas y operar durante largos periodos sin reemplazo frecuente de baterías. En conjunto con Plaspy, el GL505 convierte las lecturas GNSS precisas y los eventos de movimiento en información accionable que apoya la respuesta ante robos, el monitoreo de bienestar y la gestión rutinaria del rebaño.
 
-La compatibilidad con Plaspy añade visibilidad centralizada y alertas configurables, permitiéndote convertir los datos crudos de GNSS y movimiento en decisiones operativas — desde la respuesta ante robos hasta el monitoreo de la salud del hato. Aunque Plaspy también admite una gama más amplia de telemetría utilizada en la gestión de flotas \(por ejemplo, monitoreo de combustible, estado de encendido, inmovilizador y sensores Bluetooth en otros dispositivos\), el GL505 se centra en ubicación precisa, geocercas y detección de inactividad optimizadas para ganado y activos rurales. Este enfoque hace del GL505 una opción eficiente y diseñada específicamente para el seguimiento agrícola integrado en tu flujo de trabajo con Plaspy.
-
+Si busca un rastreador compacto y de bajo mantenimiento que envíe ubicaciones y alertas a una plataforma de gestión centralizada, el GL505 es una opción práctica para despliegues agrícolas y de activos remotos. Conozca más sobre Plaspy y cómo puede centralizar sus flujos de trabajo de seguimiento en https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que verifique la información técnica actual en el sitio oficial de QuecLink en https://www.queclink.com/.

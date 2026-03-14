@@ -2,62 +2,59 @@
 slug: /carscop/cc_338
 id: cc_338
 sidebar_label: CC-338
+title: Carscop - CC-338
 sidebar_class_name: menu_item_tracker
+description: Rastreador telemático compacto 4G T Box compatible con Plaspy para renta y gestión de flotas
+keywords:
+  - Carscop CC 338
+  - Rastreador CC 338
+  - Rastreador Carscop
+  - Rastreador compatible con Plaspy
+  - telemática vehicular
+  - rastreador para car sharing
+  - GPS para gestión de flotas
+  - OBD II CANBUS
+  - inmovilizador remoto
+  - respaldo GPS y LBS
 ---
+
 # Carscop - CC-338
 
 ![CC-338](./tracker.JPG)
 
-El CC-338 4G T-Box es un rastreador GPS de telemática vehicular compatible con Plaspy, diseñado para alquiler de coches, car sharing y gestión de flotas. Construido como un T-Box compacto con antenas GSM/GPS integradas y conectividad OBD II CANBUS, el CC-338 convierte vehículos comunes en coches controlables desde el teléfono móvil para alquiler sin personal y uso compartido en autoservicio. Su soporte celular multi-red \(4G/3G/2G\), A-GPS con respaldo LBS y registro a bordo lo convierten en una opción fiable para el seguimiento en tiempo real y el control remoto seguro.
+El CC-338 es un rastreador telemático vehicular compacto 4G T Box de Carscop diseñado para renta de autos, car sharing y gestión de flotas. Integra radios celular y GNSS junto con conectividad OBD II CANBUS para convertir vehículos convencionales en activos monitoreables y controlables de forma remota, pensados para alquiler sin atención y servicios de uso compartido. La unidad captura ubicación, estado del vehículo y eventos básicos, a la vez que ofrece canales para control remoto y gestión de accesos locales.
 
-El CC-338 combina telemetría profunda del vehículo con múltiples canales de control: Internet \(app/API\), Bluetooth LE para control local sin conexión y salidas cableadas para cierre central, sirena, luces, claxon y corte de motor. Diseñado específicamente para integradores y operadores de flotas, la unidad admite telemetría, alarmas de encendido y de puertas, flujos de trabajo antirrobo y comandos de inmovilizador remoto, al tiempo que ofrece una API abierta y conectividad TCP/IP para la integración con Plaspy y despliegues en servidores privados.
+Este modelo es compatible con Plaspy y puede funcionar como pasarela directa de datos y comandos hacia la plataforma. Gracias a sus opciones de conectividad abiertas y registro a bordo, los operadores pueden transmitir ubicación y telemetría al instante hacia Plaspy para monitoreo en vivo, alertas y flujos operativos. Su combinación de telemetría y múltiples vías de control lo convierte en una opción práctica para organizaciones que evalúan hardware compatible con Plaspy para renta, sharing o supervisión de flotas.
 
 ## Aspectos clave
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y gestión de flotas, con API abierta y conectividad TCP/IP para una integración fluida.
-- Soporte celular global multibanda 4G/3G/2G que garantiza una amplia cobertura de red para telemetría y control remoto.
-- La interfaz OBD II CANBUS proporciona telemetría y capacidad de control avanzadas del vehículo, habilitando diagnósticos y datos relacionados con el combustible cuando el CAN del vehículo lo admite.
-- Múltiples métodos de control: Internet/app/API, Bluetooth LE para control local fuera de línea y salidas cableadas para cierre central, luces, sirena y corte de motor con inmovilizador.
-- A-GPS incorporado y respaldo LBS, con registro a bordo y retención de la última posición conocida para condiciones sin GPS o sin GSM.
-- Sensores de seguridad que incluyen sensor de choque, sensor G para comportamiento de conducción, alarmas de puertas y ACC, además de una batería de respaldo Li‑ion recargable para alertas por fallo de energía.
-- Amplio rango de tensión de operación \(9–40 V\) compatible con vehículos de 12 V y 24 V, incluyendo flotas de gasolina, diésel y eléctricos.
+- Unidad telemática compatible con Plaspy, adecuada para renta de autos, car sharing y gestión de flotas.
+- Radios celulares y GNSS integrados con respaldo por GPS y por antenas celulares para mayor cobertura.
+- Conectividad OBD II CANBUS que permite acceso a telemetría y canales de control cuando los sistemas del vehículo exponen datos.
+- Múltiples métodos de control: API por internet, control inalámbrico local y salidas cableadas para bloqueo e inmovilización.
+- Registro a bordo y retención de la última posición conocida para preservar eventos cuando se interrumpe la conectividad.
+- Diseñado para integradores, con API abierta y conectividad TCP/IP para integración con servidores privados o plataformas.
 
 ## Cómo funciona con Plaspy
 
-Al combinarse con Plaspy, el CC-338 actúa como una pasarela de datos y comandos entre el vehículo y su plataforma de gestión. Transmite la ubicación y la telemetría del vehículo a Plaspy para monitorización en tiempo real, activa alarmas y acepta comandos remotos para inmovilización o control de acceso. La integración utiliza el canal TCP/IP del dispositivo o la API abierta, de modo que los gestores de flotas pueden implementar flujos de trabajo para car sharing, antirrobo y programación de mantenimiento.
+Cuando usted conecta el CC-338 a Plaspy, el dispositivo reenvía datos de ubicación y eventos del vehículo a la plataforma para visibilidad en tiempo real e informes históricos, además de recibir comandos remotos que soportan flujos de trabajo de sharing y seguridad. Plaspy puede aprovechar la transmisión de datos y los canales de control del equipo para automatizar alertas y respuestas operativas en flotas y despliegues de alquiler.
 
-- Actualizaciones de ubicación y telemetría en tiempo real transmitidas a Plaspy para monitorización e informes.
-- Estado de encendido/ACC, eventos de puertas y alarmas reportados a Plaspy para seguridad y seguimiento del uso.
-- Datos del vehículo CANBUS \(velocidad, estado del motor, diagnósticos y parámetros relacionados con el combustible cuando estén disponibles a través del CAN del vehículo\) enviados como telemetría.
-- Control remoto de inmovilizador / corte de motor vía comando por Internet o SMS para antirrobo y cumplimiento de alquiler.
-- Control local por BLE y sensores BLE para gestión de acceso fuera de línea y flujos de trabajo basados en la proximidad.
-- Registro a bordo y retención de la última posición conocida cuando GSM o GPS no están disponibles; los registros se envían a Plaspy cuando la conectividad se restablece.
+- Actualizaciones de ubicación en tiempo real e historial disponibles en los paneles e informes de Plaspy.
+- Reporte del estado del vehículo y eventos como encendido, puertas y alarmas para seguimiento de seguridad y uso.
+- Telemetría enviada a Plaspy para monitoreo operativo y programación de mantenimientos.
+- Comandos de inmovilización remota y control de acceso desde Plaspy para apoyar antirobo y políticas de alquiler.
+- Opciones de control inalámbrico local para accesos por proximidad y flujos offline, con registro que se sincroniza cuando se restablece la conectividad.
 
-## Resumen técnico
+## Casos de uso habituales
 
-| Conectividad | 4G LTE / 3G WCDMA / 2G GSM \(celular multi-red\) |
-| --- | --- |
-| Bandas | Soporte global multibanda 4G/3G/2G para operación global \(variantes globales proporcionadas por el fabricante\) |
-| Energía y batería | Voltaje de operación 9–40 V \(vehículos de 12V y 24V\); batería de respaldo Li‑ion recargable para alarmas por fallo de suministro y registro de respaldo |
-| Interfaces | Interfaz OBD II CANBUS para lectura de datos del vehículo y emisión de comandos de control; CANBUS y salidas cableadas de doble control para cierre central, sirena, luces, claxon y corte de motor; entradas ACC/ignición y alarmas de puertas |
-| GNSS | Módulo GPS con A-GPS para adquisición rápida; ubicación LBS \(torres de cel\) cuando GPS no está disponible; intervalos de subida de GPS configurables y memoria de la última posición conocida |
-| Bluetooth | Bluetooth Low Energy \(BLE\) para control local fuera de línea y soporte de sensores/beacons BLE |
-| Gestión remota | Actualización de firmware OTA \(GPRS\), conectividad TCP/IP para servidores privados, API abierta y control vía app/API para integración |
-| Forma y tamaño | T-Box de telemática para vehículos con antenas GSM y GPS integradas; compacto y perfil de instalación oculta; el paquete incluye unidad principal, arnés de cableado y manual de usuario |
-
-## Casos de uso
-
-- Alquiler de coches sin personal y car sharing de autoservicio: habilita control remoto de puertas, autenticación de usuarios vía app/Bluetooth y facturación automática vinculada a datos de ignición/uso.
-- Gestión de flotas y telemetría: rastrear la ubicación del vehículo, comportamiento de conducción \(sensor G\), diagnósticos OBD CANBUS y disparadores de mantenimiento a través de los tableros de Plaspy.
-- Antirrobo e inmovilización: corte remoto del motor vía Internet o SMS, además de notificaciones de alarmas para puertas, activaciones del sensor de choque y eventos de pérdida de energía.
-- Monitoreo de combustible y analítica operativa: enviar parámetros de combustible del CANBUS a Plaspy \(cuando estén disponibles a través del CAN del vehículo\) para soportar el monitoreo de combustible y reportes por viaje.
-- Control local/offline y flujos de trabajo basados en proximidad: desbloqueo local por BLE o acceso para alquileres a corto plazo y escenarios de entrada sin llaves sin depender exclusivamente de la cobertura celular.
+- Renta de autos sin atención y car sharing de autos en modalidad self service con control de acceso remoto y facturación basada en uso.
+- Seguimiento de flotas y supervisión operativa donde la ubicación y el estado del vehículo informan despacho y mantenimiento.
+- Flujos antirobo que combinan eventos de alarma, corte remoto de motor y notificaciones a los operadores.
+- Monitoreo de combustible y diagnósticos enviados a Plaspy cuando los datos están disponibles en el bus del vehículo.
+- Desbloqueo por proximidad y acceso temporal mediante control inalámbrico local para clientes o conductores invitados.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El CC-338 es una opción práctica para operadores que necesitan un rastreador GPS compatible con Plaspy que combine una telemetría vehicular rica con canales de control flexibles. Su acceso integrado a OBD II CANBUS ofrece datos detallados del vehículo para diagnóstico, monitorización de combustible cuando esté disponible y flujos de trabajo basados en el uso. Múltiples vías de control —app/API, BLE, salidas cableadas y SMS— permiten diseñar experiencias sólidas de antirrobo y car-sharing que funcionan tanto en tiempo real como en modo offline.
+El CC-338 combina telemetría vehicular detallada con canales de control flexibles, ideal para operadores de renta y flotas que requieren gestión remota y opciones de acceso local. Su conectividad OBD II CANBUS y los múltiples métodos de control permiten a los integradores diseñar flujos que combinan seguimiento en tiempo real, políticas basadas en uso y medidas antirobo, manteniendo capacidad offline mediante el registro a bordo.
 
-Para gestores de flota e integradores, el amplio rango de voltaje, el registro a bordo, las actualizaciones OTA y la API abierta reducen la fricción de despliegue y disminuyen los costos de mantenimiento a largo plazo. Ya sea que gestione una flota de alquiler, una plataforma de car sharing o necesite inmovilización antirobo, emparejar el CC-338 con Plaspy ofrece seguimiento en tiempo real escalable, telemetría accionable y control remoto seguro para mantener los vehículos bajo una supervisión operativa eficiente.
-
-Plataformas de demostración del fabricante disponibles \(demostración de control en la nube en https://www.999gps.com — cuenta: test / contraseña: 123456; demostración de alquiler de coches en http://rent.999gps.com — cuenta: carsharing / contraseña: 123456\) para integradores que evalúen la integración de rastreadores GPS compatibles con Plaspy y flujos de trabajo de API.
-
+Si desea saber más sobre cómo Plaspy puede integrarse con hardware compatible como el CC-338 visite https://www.plaspy.com. Las especificaciones de producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que es recomendable verificar la información técnica actual en el sitio oficial de Carscop http://www.carscop.com/ antes de tomar decisiones de despliegue.

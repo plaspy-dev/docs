@@ -2,19 +2,62 @@
 slug: /arknav/ir_7
 id: ir_7
 sidebar_label: IR-7
+title: ArkNav - IR-7
 sidebar_class_name: menu_item_tracker
+description: ArkNav IR-7 hybrid satellite GSM tracker provides global Iridium coverage and rugged IP67 protection for remote fleet and asset monitoring compatible with Plaspy
+keywords:
+  - ArkNav IR-7
+  - IR-7
+  - ArkNav tracker
+  - satellite GPS tracker
+  - hybrid tracker
+  - Iridium tracker
+  - marine tracking
+  - IP67 tracker
+  - fleet tracking
+  - Plaspy compatible
 ---
+
 # ArkNav - IR-7
 
 ![IR-7](./logo.jpg)
 
-The ARKNAV IR-7 Satellite GSM Hybrid GPS Tracker is a cutting-edge tracking solution designed to provide reliable real-time tracking in even the harshest and most remote environments. This tracker is specifically built to excel in marine, desert, and mountainous areas where GSM signal reception may be limited. 
+The ArkNav IR-7 is a hybrid satellite and GSM GPS tracker designed to deliver reliable real-time tracking in harsh and remote environments. Built with an integrated Iridium satellite module, the IR-7 provides global coverage through a constellation of low earth orbit satellites, and pairs that capability with GSM connectivity where available. Its rugged IP67 enclosure and broad input and output options make it suitable for outdoor and maritime deployments as well as use in deserts and mountainous regions.
 
-One of the standout features of the IR-7 is its built-in Iridium satellite module, which offers true global coverage with its network of 66 low orbiting satellites. This means that no matter where your assets are located, you can receive and send data without any limitations. The Iridium satellite network also consumes less power compared to GSM transmission in roaming areas, ensuring efficient and long-lasting performance. 
+As a Plaspy compatible device, the IR-7 can feed continuous location and status data into Plaspy's fleet monitoring platform. The hybrid design and automatic switching between satellite and GSM help maintain visibility where conventional cellular coverage is inconsistent. Features such as FOTA and COTA, main power loss detection, and automatic message saving and resending support remote device management and operational continuity when used with Plaspy.
 
-The IR-7 is a hybrid tracker, integrating both GSM/GPRS and satellite networks for a comprehensive tracking solution. This allows for seamless switching between networks depending on signal availability, ensuring continuous real-time data output. With 4 inputs and 4 outputs, the IR-7 offers extensive connectivity to sensors, making it a versatile solution for various tracking applications. 
+## Key Highlights
 
-In terms of durability, the IR-7 boasts a rugged design with an IP-67 waterproof rating, making it resistant to water and dust. It also features enhanced power input protection with ISO7637, providing reliable power range from 9 to 48V. Additionally, the tracker offers advanced features such as time/distance/angle triggering, main power loss detection, automatic message saving and resending, battery backup, and support for up to 5 roaming partners. 
+- Hybrid satellite and GSM tracking for wide area and global coverage
+- Built in Iridium satellite module enabling tracking in remote regions
+- Rugged IP67 waterproof and dust resistant housing for outdoor use
+- Four inputs and four outputs for flexible sensor and control integration
+- Broad 9 to 48V power support with enhanced input protection
+- Remote update and configuration via FOTA and COTA capabilities
+- Automatic message saving and resending for improved delivery reliability
 
-With FOTA \(Firmware Over the Air\) and COTA \(Configuration Over the Air\) capabilities, the IR-7 ensures easy and convenient updates and configuration changes. It also supports data transmission through SMS, GPRS, and satellite, giving you multiple options for communication. Whether you need to track assets in remote areas or ensure global coverage for your tracking needs, the ARKNAV IR-7 Satellite GSM Hybrid GPS Tracker is a reliable and versatile solution.
+## How It Works with Plaspy
 
+When paired with Plaspy, the IR-7 delivers location and event data to the platform so teams can maintain situational awareness across mixed coverage areas. Plaspy ingests the device's transmissions and presents them in dashboards, maps, and reports for operational use.
+
+- Continuous location visibility in Plaspy regardless of satellite or GSM link
+- Alerts and event notifications based on inputs, power status, and movement triggers
+- Consolidated fleet dashboards showing assets operating in remote or maritime zones
+- Historical logs and reporting that include saved messages and resend events
+- Remote configuration handling through COTA when integrated with Plaspy management workflows
+
+## Typical Use Cases
+
+- Tracking vessels and maritime equipment beyond coastal cellular range
+- Monitoring assets and convoys in desert or mountainous routes
+- Remote equipment oversight for construction or mining sites
+- Long haul logistics and transport across areas with intermittent GSM
+- Field operations requiring rugged hardware and reliable global coverage
+
+## Why Choose This Tracker with Plaspy
+
+The IR-7 is a practical option for organizations that need persistent tracking across challenging geographies. Its hybrid architecture and Iridium connectivity reduce blind spots, while IP67 protection and input/output flexibility support a variety of field applications. Used together with Plaspy, the device helps teams stay informed about asset locations and operational events even when devices transit outside standard cellular footprints.
+
+Plaspy users benefit from the IR-7's remote management features and resilient messaging behavior, which simplify device lifecycle and operational oversight in dispersed fleets. If your operations require global reach and robust hardware, the ArkNav IR-7 is a candidate worth evaluating within a Plaspy deployment.
+
+To learn more about Plaspy and how compatible devices like the IR-7 can be used for fleet and asset tracking, visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current specifications and documentation with the manufacturer at https://www.arknavgps.com.tw/.

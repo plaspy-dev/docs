@@ -2,59 +2,59 @@
 slug: /xirgo/xt47
 id: xt47
 sidebar_label: XT47
+title: Xirgo - XT47
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS resistente para monitoreo de activos remotos de alto valor compatible con Plaspy para seguimiento en tiempo real y protección
+keywords:
+  - Xirgo XT47
+  - Rastreador GPS XT47
+  - XT47 compatible con Plaspy
+  - Rastreador Xirgo
+  - rastreador de activos remotos
+  - seguimiento de generadores
+  - seguimiento de maquinaria de construcción
+  - seguimiento de remolques y contenedores
+  - seguimiento de flotas
+  - telemetría de activos
 ---
+
 # Xirgo - XT47
 
 ![XT47](./tracker.webp)
 
-El XT47 es un localizador GPS compatible con Plaspy, diseñado para el monitoreo y control de activos remotos robustos y de alto valor. Construido específicamente para generadores móviles, maquinaria de construcción, contenedores, remolques y otros equipos especializados, el XT47 aporta ubicación y telemetría confiables a Plaspy para seguimiento en tiempo real, protección de activos y operaciones remotas, incluso cuando la energía externa es intermitente.
+El XT47 es un rastreador GPS compatible con Plaspy, diseñado para el monitoreo y control de activos remotos de alto valor y construcción robusta. Pensado para grupos electrógenos móviles, maquinaria de construcción, contenedores, remolques y otros equipos especializados, el XT47 ofrece ubicación y telemetría adecuados para despliegues de campo a largo plazo y escenarios con alimentación eléctrica intermitente. Su caja y las opciones de E/S están preparadas para resistir condiciones exteriores y ofrecer control y reportes prácticos para activos a distancia.
 
-Con una carcasa robusta, múltiples E/S y conectividad optimizada para entornos de activos remotos, el XT47 se integra con Plaspy para soportar flujos de trabajo de gestión de flotas, respuestas antirrobo y mantenimiento impulsado por telemetría. Su diseño se centra en el despliegue en campo a largo plazo y opciones de control prácticas para reducir el tiempo de inactividad y proteger equipos costosos.
+Como dispositivo compatible con Plaspy, el XT47 integra la localización de activos, reportes de eventos y señales de control en una plataforma centralizada para la gestión de flotas y activos. Al integrar los datos del XT47 en Plaspy usted obtiene seguimiento en vivo, geocercas, alertas por eventos y flujos de trabajo basados en telemetría que facilitan la respuesta ante robos, la planificación de mantenimiento y la supervisión operativa de equipos distribuidos.
 
-## Key Highlights
+## Características principales
 
-- Localizador GPS compatible con Plaspy: integración nativa para seguimiento en tiempo real y gestión centralizada de la flota.
-- Carcasa robusta diseñada para entornos adversos — diseños con clasificación IP y resistencia a golpes para activos al aire libre y móviles.
-- Múltiples E/S para telemetría, alarmas y señales digitales; admite monitoreo de encendido e integraciones con sensores externos cuando se configuren.
-- Conectividad optimizada para sitios remotos — diseñada para mantener las comunicaciones en escenarios de baja cobertura o energía intermitente.
-- Diseñado para el despliegue remoto a largo plazo de activos de alto valor como conjuntos generadores, maquinaria de construcción y remolques.
-- Facilita flujos de trabajo antirrobo y control remoto del inmovilizador a través de E/S cuando se implementa con reglas de control gestionadas por Plaspy.
-- Escalable para flotas mixtas y tipos de activos — combina ubicación, estado y datos de eventos en cuadros de mando y reportes de Plaspy.
+- Compatibilidad nativa con Plaspy para gestión centralizada de ubicación y telemetría.
+- Carcasa resistente diseñada para ambientes exteriores exigentes y activos móviles.
+- Múltiples entradas y salidas para telemetría, alarmas y señales digitales, que permiten supervisión y control.
+- Conectividad optimizada para sitios remotos, manteniendo la comunicación cuando la cobertura o la energía son intermitentes.
+- Diseñado para despliegues a largo plazo en activos de alto valor como grupos electrógenos, maquinaria de construcción, remolques y contenedores.
+- Soporta flujos de trabajo anti robo y acciones de control remoto mediante las E/S cuando se configura con reglas en Plaspy.
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-El XT47 transmite ubicación y telemetría a Plaspy, donde puedes visualizar los activos en mapas, configurar geocercas, establecer alertas automatizadas y generar informes para la gestión de flotas. Plaspy recibe eventos de E/S y telemetría de sensores del XT47, de modo que los despachadores y equipos de mantenimiento reciban información oportuna y accionable.
+El XT47 transmite ubicación y eventos de activos a Plaspy, donde usted puede visualizar los dispositivos en mapas, configurar alertas de estado y generar informes sobre el rendimiento de la flota y la protección de activos. Plaspy procesa la telemetría y los eventos de E/S del XT47 para activar flujos de trabajo automáticos y brindar al despacho y a los equipos de mantenimiento una conciencia situacional oportuna.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para seguimiento en vivo de activos y reproducción histórica.
-- Informe de múltiples eventos de E/S — alarmas y señales digitales, y estado de encendido pueden reportarse en Plaspy para flujos de trabajo automatizados.
-- Monitoreo de combustible y otras telemetrías disponibles cuando sensores cableados se integran con el XT47 y se alimentan a los paneles de Plaspy.
-- Acciones de inmovilización remota y control compatibles a través de Plaspy cuando la instancia del XT47 está configurada con salidas de control.
-- Combina los datos del XT47 con sensores Bluetooth externos u otras fuentes de telemetría dentro de Plaspy para enriquecer la monitorización de activos \(donde se usen sensores externos\).
+- Actualizaciones de ubicación en tiempo real y reproducción histórica para análisis de movimiento de activos.
+- Reporte de eventos de E/S en Plaspy para alarmas, eventos de puertas o manipulación y notificaciones de encendido o estado de funcionamiento cuando está configurado.
+- Telemetría como niveles de combustible u otros datos de sensores disponible en los paneles de Plaspy cuando se integran sensores externos con el XT47.
+- Acciones de control remoto y flujos de inmovilización soportados a través de Plaspy cuando las salidas están configuradas para control.
+- Combine los datos del XT47 con sensores adicionales e información de activos dentro de Plaspy para enriquecer la supervisión y los informes.
 
-## Technical Overview
+## Casos de uso típicos
 
-| Modelo | XT47 |
-| --- | --- |
-| Uso previsto | Monitoreo y control de activos remotos robustos: generadores, maquinaria de construcción, contenedores, remolques y equipo especializado |
-| Carcasa | Carcasa robusta adecuada para entornos exteriores adversos y móviles \(a prueba de impactos y resistente a la intemperie\) |
-| E/S | Múltiples entradas y salidas para telemetría, alarmas y señales digitales \(soporta monitoreo de encendido e integraciones con sensores externos cuando se configure\). |
-| Conectividad | Conectividad optimizada para entornos de activos remotos. Variantes y bandas celulares/WAN específicas varían según la configuración y no se especifican aquí. |
-| Alimentación y batería | Diseñado para activos donde la disponibilidad de energía externa es una preocupación; admite escenarios de despliegue con energía intermitente. Las opciones exactas de batería de respaldo o alimentación varían según la configuración. |
-| GNSS | Posicionamiento con GPS para rastreo en tiempo real; los módulos GNSS y la precisión varían según la configuración del modelo. |
-| Bluetooth | La integración con sensores Bluetooth externos puede configurarse dentro de los flujos de Plaspy; la capacidad BLE nativa depende de la configuración elegida \(no especificada\). |
-| Gestión remota | Diseñado para despliegues remotos y su integración con Plaspy para gestión de firmware y configuración cuando sea soportada; las características exactas de gestión remota varían según la oferta. |
-| Formato | Unidad compacta y robusta para instalación en vehículos y activos; opciones de montaje para remolques, contenedores y equipos remotos fijos. |
+- Gestión de flotas de equipos mixtos que incluye generadores, excavadoras y remolques de servicios.
+- Protección anti robo para activos remotos de alto valor mediante geocercas, alertas por manipulación y opciones de control remoto.
+- Monitoreo de grupos electrógenos móviles y maquinaria de construcción para apoyar mantenimiento preventivo y maximizar tiempo en operación.
+- Seguimiento de contenedores y remolques en entornos de baja potencia o conectividad intermitente para visibilidad a largo plazo.
+- Flujos de trabajo de salud de activos y monitoreo de combustible cuando sensores cableados alimentan telemetría al XT47 y esta llega a Plaspy.
 
-## Use Cases
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas de equipos mixtos: rastrea generadores, excavadoras y remolques de servicio en Plaspy para la utilización y la planificación de despacho.
-- Protección antirrobo para activos remotos de alto valor: alertas de geocerca, reportes de manipulación y alarmas, y acciones de inmovilización remota cuando se configura con Plaspy.
-- Monitoreo de generadores móviles y maquinaria de construcción para mantenimiento preventivo mediante telemetría y reporte de eventos.
-- Rastreo de contenedores y remolques en entornos de baja energía o conexiones intermitentes: visibilidad de ubicación a largo plazo y alertas de eventos.
-- Flujos de trabajo de salud de activos y monitoreo de combustible cuando sensores cableados alimentan la telemetría del XT47 y se integran a los informes de Plaspy.
+El XT47 es una opción práctica para organizaciones que requieren rastreo robusto a largo plazo y reporte de eventos para equipos remotos de alto valor. Su combinación de carcasa durable, múltiples opciones de E/S y conectividad orientada a despliegues remotos lo hace ideal para generadores, activos de construcción, remolques y contenedores que necesitan visibilidad y control permanentes.
 
-## Why Choose This Tracker with Plaspy
-
-El XT47 ofrece una combinación equilibrada de robustez, E/S práctica y opciones de conectividad adaptadas para despliegues de activos remotos. Como localizador GPS compatible con Plaspy, proporciona seguimiento en tiempo real y telemetría confiables que alimentan directamente las herramientas de gestión de flotas de Plaspy. Esa combinación permite a los operadores reducir el riesgo de robo, mejorar la disponibilidad mediante mantenimiento impulsado por telemetría y centralizar el control entre diversas clases de activos. Para las organizaciones que gestionan equipos de alto valor en ubicaciones desafiantes, el XT47 junto con Plaspy ofrece una ruta escalable y segura hacia mejor visibilidad, respuesta más rápida y menor costo operativo.
-
+Al usarlo con Plaspy, los datos del XT47 se integran en un flujo de trabajo unificado de gestión de flotas que apoya la respuesta rápida, el mantenimiento programado y la consolidación de informes entre distintas clases de activos. Para equipos que administran equipamiento en ubicaciones desafiantes, combinar el XT47 con Plaspy ofrece una forma escalable de mejorar la visibilidad, reducir tiempos de inactividad y reforzar la protección de sus activos. Para obtener más información sobre Plaspy y cómo funciona con rastreadores compatibles, visite https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por lo que verifique los detalles y opciones de configuración actuales en el sitio del fabricante https://xirgo.com/.

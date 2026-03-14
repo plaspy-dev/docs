@@ -2,60 +2,58 @@
 slug: /cantrack/3000mah
 id: 3000mah
 sidebar_label: 3000mAh
+title: CanTrack - 3000mAh
 sidebar_class_name: menu_item_tracker
+description: Rechargeable magnetic asset tracker compatible with Plaspy for long duration covert vehicle and equipment monitoring
+keywords:
+  - CanTrack 3000mAh
+  - CanTrack GF40
+  - magnetic GPS tracker
+  - asset tracker
+  - vehicle tracker
+  - fleet tracking
+  - Plaspy compatible
+  - real time tracking
+  - geofence alerts
+  - long battery life
 ---
+
 # CanTrack - 3000mAh
 
 ![3000mAh](./tracker.JPG)
 
-The GF40 3000mAh Magnet Asset GPS Tracker is a Plaspy compatible, rechargeable magnetic tracker engineered for long-duration, covert installation on vehicles and high-value assets. Designed for quick attachment with a strong N54 magnet and ABS fireproof housing, the GF40 provides reliable real-time tracking and flexible reporting modes \(real-time, interval, and clock\) so you can balance accuracy and battery life for fleet management, asset monitoring, or anti-theft protection.
+The CanTrack 3000mAh (GF40) is a rechargeable magnetic asset GPS tracker designed for long duration, covert mounting on vehicles and high value equipment. It pairs a strong magnet and durable ABS housing with configurable reporting modes to balance update frequency and battery life. Typical capabilities include real time and interval reporting, tamper and vibration alerts, geofence notifications, and optional remote voice listen in, making the device suitable for discreet location monitoring of trailers, containers, and other movable assets.
 
-The GF40 integrates with standard web platforms and mobile apps and is fully controllable via SMS commands and platform settings, enabling remote telemetry, geofence alerts, tamper notifications, and optional remote voice listen-in. Its 3000mAh battery, low standby current, and configurable wake/sleep behavior make it ideal for discreet tracking of trailers, containers, construction equipment, and other assets that require long-term monitoring.
+As a Plaspy compatible device, the 3000mAh model can feed location and status data into the Plaspy platform for centralized visibility and operational oversight. Integration enables fleet and asset managers to see live positions, receive alarms and low battery notices, and adjust device reporting behavior through remote commands or platform settings. That compatibility makes the tracker a practical option when you want covert hardware combined with a robust monitoring and reporting platform like Plaspy.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker offering reliable real-time tracking for fleet management and asset oversight.
-- Rechargeable 3000mAh battery with highly optimized power modes — standby from 7 up to 365 days depending on reporting interval.
-- Multiple working modes \(real-time, interval, clock\) to maximize battery life while delivering accurate position updates.
-- Security-focused features: geo-fence alerts, low battery alarm, vibration/tamper alarm, and optional remote voice listen-in for anti-theft response.
-- Rugged, covert form factor: ABS fireproof case and strong N54 magnet for quick, tool-free mounting on metal surfaces.
-- GNSS accuracy under 5 meters with a 66-channel receiver and fast TTFF for dependable location data and telemetry.
-- Remote configuration and control via SMS or platform settings to fine-tune reporting intervals, alarm triggers, and network/APN settings.
+- Plaspy compatible magnetic asset tracker providing reliable real time tracking and status reporting.
+- Rechargeable 3000mAh battery with extended standby performance to support long duration monitoring.
+- Multiple working modes including real time, interval, and clock based reporting to balance accuracy and battery life.
+- Security oriented alerts such as geofence notifications, vibration and tamper alarms, and low battery warnings.
+- Rugged, covert design with ABS fireproof housing and a strong magnet for tool free mounting on metal surfaces.
+- Remote configuration and control via SMS commands or platform settings to tune reporting and alerts.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the GF40 streams location and status data over cellular networks to the Plaspy platform for centralized visibility, alerts, and reporting. Plaspy-compatible integration means you can view live location updates, analyze telemetry, and trigger workflows such as geofence alerts or anti-theft responses. Remote SMS and platform-based configuration let installers and fleet operators optimize the device for specific routes, duty cycles, and battery budgets.
+When connected to Plaspy, the CanTrack 3000mAh streams location and device status over cellular networks to provide centralized tracking, alerting, and reporting. Plaspy receives position updates and telemetry, applies configured geofence and alarm rules, and surfaces events to operators for timely action. Remote command support enables adjustments to reporting intervals and alarm thresholds without physical access to the tracker.
 
-- Real-time location and telemetry updates \(position rounds, battery status, and device health\).
-- Geo-fence alerts and vibration/tamper notifications forwarded to Plaspy for immediate action.
-- Low battery alarm and status reporting to avoid unexpected downtime.
-- Optional remote voice listen-in capability available for security verification when permitted.
-- Remote configuration via SMS commands or platform settings for interval tuning, APN/IP setup, and device resets.
+- Live location and telemetry visible in Plaspy including position updates and battery status.
+- Geofence and vibration tamper alerts forwarded to Plaspy for immediate notification and response.
+- Low battery and device health reports routed to Plaspy to help prevent unexpected downtime.
+- Optional remote voice listen in available where permitted for security verification workflows.
+- Remote configuration through SMS or platform controls to optimize reporting intervals and device behavior.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G GSM and 4G LTE \(GPRS Class 12 TCP/IP\). 4G uses SIMCom LTE Cat 1 A7670 Series + AT6558R; 2G uses MTK6261 + AT6558R for fallback. |
-| --- | --- |
-| Bands | LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28/B66; LTE-TDD B34/B38/B39/B40/B41; 2G GSM 850/900/1800/1900MHz. |
-| Power & Battery | Rechargeable 3000mAh battery. Standby range approximately 7 to 365 days depending on reporting interval and activity. Working current 100µA–100mA; standby consumption ~60–100µA/hour. |
-| Interfaces | Remote configuration and control via SMS command set \(default password 123456\). Optional remote voice listen-in feature. Reports via TCP/IP to platform or app. |
-| GNSS | AT6558R GPS module \(66-channel\). Location accuracy &lt;5 m typical. Tracking sensitivity -165 dBm; acquisition sensitivity -148 dBm. TTFF: hot start ≤1s, cold start ≤32s. |
-| Memory | 32 + 32 Mb internal memory for logging and buffering. |
-| Antennas | Built-in quad-band GSM antenna and ceramic GPS antenna. |
-| Remote Management | SMS command set for mode switching, APN/IP/port configuration, timezone/clock settings, status checks, factory reset; platform/web app for live monitoring. |
-| Form Factor & Durability | Compact magnetic asset tracker in ABS fireproof housing with N54-level strong magnet for secure mounting on metal surfaces. Operating temperature -20°C to +70°C. |
-| Bluetooth | Not available on device \(designed as a magnetic GNSS cellular tracker\). |
-
-## Use Cases
-
-- Fleet management for trailers and rental units — maintain location history, schedule maintenance windows, and monitor asset utilization.
-- Anti-theft monitoring for containers and parked equipment — geo-fence alerts, vibration/tamper alarms, and optional listen-in for security verification.
-- Construction equipment and heavy asset tracking — discrete mounting with long standby life to suit intermittent usage cycles.
-- Remote asset inventory and logistics — covert placement for long-term visibility of seasonal or off-site assets.
+- Long term tracking of trailers, rental equipment, and leased units for improved utilization and recovery.
+- Anti theft monitoring for containers, parked machinery, and high value assets with geofence and tamper alerts.
+- Construction site asset oversight where discreet mounting and extended standby life are important.
+- Remote inventory and logistics monitoring for seasonal or off site assets needing periodic position updates.
 
 ## Why Choose This Tracker with Plaspy
 
-Pairing the GF40 with Plaspy delivers a practical, scalable solution for organizations that need Plaspy compatible GPS tracker support across fleets and dispersed assets. The GF40’s long battery life, configurable reporting modes, and robust GNSS performance provide dependable real-time tracking and telemetry while minimizing maintenance. Built-in tamper detection and geofence alerts help reduce theft risk, and remote configuration via SMS or the platform simplifies deployment and tuning at scale.
+The CanTrack 3000mAh is a practical choice for organizations that need a covert, durable tracker with configurable reporting and long battery life. Its combination of magnetic mounting, configurable working modes, and alerting features aligns well with Plaspy workflows that prioritize centralized visibility, event driven notifications, and straightforward remote management. For fleet and asset managers, pairing this hardware with Plaspy helps consolidate location data and alerts in a single platform for easier operational oversight.
 
-For operations that rely on Plaspy to centralize monitoring, the GF40 complements platform workflows such as fuel monitoring, ignition or immobilizer event tracking, and third-party Bluetooth sensors by supplying consistent location and status data. Its combination of covert mounting, durable materials, and remote control makes it an effective choice when you need a trustworthy GPS tracker that integrates cleanly into Plaspy-based fleet management and anti-theft programs.
-
+To learn more about how Plaspy can work with CanTrack devices visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details and support information on the manufacturer site https://www.cantrackgps.com/.

@@ -2,60 +2,61 @@
 slug: /thingsys/ts_v6h
 id: ts_v6h
 sidebar_label: TS-V6H
+title: ThingSys - TS-V6H
 sidebar_class_name: menu_item_tracker
+description: Rastreador robusto ThingSys TS V6H compatible con Plaspy para posicionamiento fiable alertas por manipulación y control por relé
+keywords:
+  - ThingSys TS V6H
+  - Rastreador TS V6H
+  - Rastreador ThingSys
+  - Compatible con Plaspy
+  - Rastreador GPS para vehículos
+  - Seguimiento de flotas
+  - Seguimiento en tiempo real
+  - Rastreador antirrobo
+  - Rastreador GPRS y SMS
+  - Rastreador UBLOX GNSS
 ---
+
 # ThingSys - TS-V6H
 
 ![TS-V6H](./tracker.jpg)
 
-El TS-V6H es un rastreador GPS robusto, compatible con Plaspy, diseñado para un posicionamiento de vehículos fiable, seguimiento en tiempo real y gestión de flotas. Construido alrededor de un receptor UBLOX GNSS, con soporte para rangos de voltaje de vehículo amplios y conectividad GPRS/SMS, el TS-V6H proporciona actualizaciones de ubicación continuas, detección de manipulación y funciones de control remoto que se integran directamente con Plaspy para telemática de flotas y flujos de trabajo de anti-robo.
+El TS-V6H es un rastreador GPS vehicular robusto de ThingSys diseñado para ofrecer posicionamiento fiable, actualizaciones continuas de ubicación y gestión de flotas. Está basado en un receptor UBLOX GNSS y soporta reportes por GPRS con SMS como respaldo para la conectividad. El equipo incorpora funciones prácticas para vehículos, como monitorización de ignición, alertas por manipulación basadas en vibración, batería de respaldo para el seguimiento durante cortes de energía y control remoto por relé, lo que lo hace adecuado para aplicaciones de transporte y seguridad.
 
-Ideal para flotas mixtas, vehículos de alquiler y operadores preocupados por la seguridad, el TS-V6H ofrece telemetría práctica: detección de ignición, alertas de manipulación basadas en vibración, seguimiento de la batería de respaldo y corte remoto de potencia/circuito mediante relé, lo que facilita añadir monitoreo, alertas y operaciones basados en Plaspy sin necesidad de cambios de hardware.
+Como dispositivo compatible con Plaspy, el TS-V6H puede alimentar a Plaspy con datos de ubicación y estado del vehículo para mapas en vivo, alertas e informes históricos. Sus capacidades de telemetría y seguridad se integran de forma natural en los flujos de trabajo habituales de Plaspy para supervisión de flotas y operaciones antirrobo, permitiendo a los equipos añadir capacidades de monitoreo y respuesta sin necesidad de cambios de hardware personalizados.
 
-## Aspectos clave
+## Características destacadas
 
-- Rastreador GPS compatible con Plaspy que ofrece un seguimiento fiable en tiempo real mediante GPRS y consultas de ubicación por SMS.
-- Chip UBLOX GNSS de alta sensibilidad \(−159 dBm\) con precisión típica de posicionamiento alrededor de 5 metros.
-- Entrada de 9–75 VDC para conexión directa a coches, camiones y otros vehículos; batería de respaldo integrada de 3.7 V / 200 mAh para seguimiento durante cortes de energía.
-- Sensor de vibración y detección de ignición ACC para alertas anti-robo y telemetría basada en la ignición.
-- Corte remoto de potencia/circuito mediante control por relé que permite intervenciones al estilo inmovilizador cuando sea necesario.
-- Compatibilidad con micrófono externo y opción SOS para flujos de emergencia y respuesta cuando lo permita la normativa.
-- Formato compacto y ligero para uso automotriz \(94 × 45 × 14 mm, 85 g\) para una instalación discreta.
+- Rastreador compatible con Plaspy que ofrece seguimiento confiable en tiempo real mediante GPRS con SMS como respaldo
+- Receptor UBLOX GNSS de alta sensibilidad con precisión adecuada para rastreo vehicular
+- Amplio rango de voltaje vehicular y batería de respaldo integrada para mantener el rastreo durante eventos de corte de energía
+- Sensor de vibración y detección de ignición (ACC) para alertas por manipulación y telemetría basada en el encendido
+- Control por relé para corte o control remoto de circuitos, útil para intervenciones tipo inmovilizador cuando está autorizado
+- Soporte opcional de SOS y micrófono externo para flujos de emergencia donde esté permitido
+- Factor de forma compacto para instalación discreta y uso en flotas mixtas
 
 ## Cómo funciona con Plaspy
 
-El TS-V6H se integra en Plaspy utilizando informes GPRS estándar y la compatibilidad con SMS como respaldo. Las fijaciones de posición del módulo UBLOX GNSS se reportan a Plaspy a través de la conexión celular en tiempo real, mientras que los sensores integrados y las entradas digitales proporcionan telemetría sobre el estado del vehículo y la monitorización de seguridad. Plaspy procesa la ubicación y los mensajes de estado del rastreador y los convierte en mapas en vivo, reglas de alerta y informes históricos.
+El TS-V6H envía fijaciones de posición y mensajes de estado a través de datos celulares, con SMS disponible como método de respaldo, y Plaspy procesa esos mensajes para mostrar la ubicación en vivo, alertas y rutas históricas. Los sensores integrados y las entradas digitales proporcionan estado del vehículo y eventos de seguridad que Plaspy puede convertir en reglas, notificaciones e informes para la supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas por GPRS; la consulta de ubicación por SMS es compatible como respaldo.
-- Informe del estado de ignición \(ACC\) para eventos de encendido/apagado y perfilado de la actividad del conductor.
-- Sensor de vibración y detección de pérdida de energía para alertas de manipulación y anti-robo.
-- Corte remoto de potencia/circuito mediante control por relé para realizar acciones al estilo inmovilizador cuando esté autorizado.
-- Soporte de SOS y micrófono externo disponible para flujos de emergencia y monitoreo de audio cuando esté permitido.
+- Actualizaciones continuas de ubicación y telemetría entregadas a Plaspy para visualización en el mapa en vivo
+- Consulta de ubicación por SMS como método alternativo para obtener posición cuando sea necesario
+- Reporte de estado de ignición para eventos de encendido/apagado y análisis básico de actividad del conductor
+- Detección de vibración y pérdida de energía para activar alertas por manipulación y antirrobo en Plaspy
+- Integración de control por relé para ejecutar acciones tipo inmovilizador mediante flujos de trabajo de Plaspy
+- Soporte de SOS y audio que puede incluirse en alertas de emergencia donde la normativa lo permita
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | TS-V6H |
-| --- | --- |
-| Conectividad | GSM/GPRS \(datos móviles y SMS\) |
-| Bandas | 850 / 900 / 1800 / 1900 MHz |
-| Potencia y Batería | Entrada de tensión 9–75 VDC; batería de respaldo Li‑ion integrada de 3.7 V, 200 mAh para seguimiento durante cortes de energía |
-| Interfaces | Sensores de vibración, entrada de ignición ACC, soporte para micrófono externo, función SOS opcional, control por relé para corte remoto de potencia/circuito |
-| GNSS | Chip UBLOX GNSS; sensibilidad −159 dBm; precisión típica ~5 m; TTFF Frío 35–80 s, Templado ~35 s, Caliente ~1 s |
-| Condiciones de operación | Temperatura de operación −20°C a +55°C; Almacenamiento −40°C a +85°C; Humedad 5%–95% sin condensación |
-| Forma y peso | Dimensiones 94 × 45 × 14 mm; Peso 85 g \(rastreador automotriz compacto\) |
-| Informes | Posicionamiento GPS continuo con reporte GPRS; consultas de ubicación por SMS compatibles |
-
-## Casos de uso
-
-- Gestión de flotas — seguimiento en tiempo real continuo y telemetría de ignición para supervisión de rutas y registro de turnos del conductor.
-- Protección anti-robo — alertas de manipulación por vibración, detección de pérdida de energía y corte remoto por relé para inmovilización.
-- Servicios de alquiler y uso compartido de vehículos — historial de ubicación, seguimiento temporal y opciones de desactivación remota para asegurar los activos entre alquileres.
-- Respuesta a emergencias — función SOS opcional y soporte para micrófono externo para audio remoto y flujos de trabajo de emergencia donde lo permita la normativa local.
-- Localización y monitorización general de vehículos — formato compacto para instalación discreta y posicionamiento fiable en entornos mixtos.
+- Gestión de flotas con seguimiento en tiempo real y telemetría de ignición para supervisión de rutas
+- Protección antirrobo mediante alertas por vibración, detección de corte de energía y funciones de corte remoto
+- Servicios de alquiler y carsharing para historial de ubicaciones y opciones de desactivación remota
+- Vehículos de seguridad y patrulla que requieren instalación discreta y monitoreo continuo
+- Respuesta a emergencias o servicios asistidos donde el SOS y el soporte de audio sean aplicables
 
 ## Por qué elegir este rastreador con Plaspy
 
-Cuando se asocia con Plaspy, el TS-V6H se convierte en un componente rentable dentro de una pila de telemática moderna. Su precisión GNSS UBLOX y su reporte continuo por GPRS ofrecen un seguimiento en tiempo real fiable, mientras que el soporte de energía propio del vehículo y una batería de respaldo aseguran la continuidad de la telemetría durante eventos de energía. La entrada ACC y el sensor de vibración proporcionan entradas esenciales para la gestión de la flota y las reglas anti-robo, y el corte remoto de potencia/circuito controlado por relé admite intervenciones al estilo inmovilizador cuando se requieren.
+El TS-V6H es una opción práctica para organizaciones que requieren rastreo vehicular robusto integrado en una plataforma de gestión de flotas. Su posicionamiento basado en UBLOX y el reporte continuo proporcionan datos de ubicación confiables, mientras que el soporte nativo de alimentación vehicular y la batería de respaldo ayudan a mantener la visibilidad durante eventos de energía. La entrada de ignición, la detección de manipulación y el control por relé permiten flujos telemáticos y antirrobo comunes que Plaspy puede gestionar mediante reglas, alertas e informes.
 
-La implementación compatible con Plaspy del TS-V6H es sencilla: utilice GPRS para actualizaciones en tiempo real, SMS como respaldo y aproveche las alertas e informes de Plaspy para casos de telemática como integraciones de monitoreo de combustible y programación de mantenimiento. Aunque el TS-V6H se centra en un rastreo robusto del vehículo en lugar de sensores Bluetooth a bordo, integrarlo con Plaspy permite combinar dispositivos de telemetría basados en BLE cuando sea necesario para ampliar capacidades como monitoreo de temperatura o fusión avanzada de sensores.
-
+Combinar el TS-V6H con Plaspy ofrece una manera directa de incorporar telemetría vehicular a una plataforma administrada para supervisión operativa, análisis histórico y respuesta de seguridad. Si usted desea explorar las opciones de integración con Plaspy y cómo el TS-V6H puede encajar en su arquitectura de telemetría, obtenga más información sobre Plaspy en https://www.plaspy.com. Las especificaciones de producto y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y la disponibilidad actual en el sitio de ThingSys en https://www.thingsys.com/.

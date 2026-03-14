@@ -2,66 +2,59 @@
 slug: /ulbotech/t376
 id: t376
 sidebar_label: T376
+title: Ulbotech - T376
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS OBDII plug-and-play con telemetría en tiempo real y compatibilidad con Plaspy para gestión de flotas y control antirrobo
+keywords:
+  - Ulbotech T376
+  - Rastreador GPS T376
+  - Rastreador Ulbotech
+  - T376 compatible con Plaspy
+  - GPS OBDII
+  - telemetría vehicular
+  - seguimiento de flotas
+  - rastreador con inmovilizador
+  - rastreador GNSS
+  - rastreador FOTA
 ---
+
 # Ulbotech - T376
 
 ![T376](./tracker.jpg)
 
-El Ulbotech T376 es un rastreador GPS OBDII plug‑and‑play diseñado para una telemetría fiable de vehículos y la gestión de flotas. Diseñado alrededor de un módulo celular de la familia Telit xE910 con GSM/WCDMA \(variantes compatibles con 2G/3G/4G\) y Wi‑Fi incorporado, el T376 ofrece comunicaciones flexibles y de costo contenido. Como rastreador GPS compatible con Plaspy, proporciona acceso inmediato a la localización en tiempo real, parámetros OBDII del vehículo y un inmovilizador integrado que trabajan conjuntamente para mejorar la disponibilidad, la seguridad y la respuesta anti‑robo.
+El Ulbotech T376 es un rastreador GPS OBDII plug‑and‑play pensado para telemetría vehicular y gestión de flotas. Diseñado para ofrecer reportes de ubicación, acceso a parámetros del motor y control antirrobo desde el puerto OBDII, el T376 integra posicionamiento GNSS, comunicaciones celular y Wi‑Fi, detección de eventos mediante acelerómetro a bordo y capacidad de actualización remota de firmware para despliegues prácticos en vehículos.
 
-El T376 combina la posicionamiento GNSS u‑blox MAX‑7 \(GPS + GLONASS con AssistNow AGPS\) y una antena activa de alta ganancia para proporcionar un rápido TTFF y un informe de ubicación preciso incluso cuando la unidad está oculta. Con soporte a bordo de OBDII y SAE J1939, un acelerómetro de 3 ejes para eventos de comportamiento del conductor, telemetría de combustible y del motor, y actualizaciones FOTA por celular o Wi‑Fi, el T376 está optimizado para integrarse con Plaspy para una inteligencia de flota integral en tiempo real y gestión remota de dispositivos.
+Como dispositivo compatible con Plaspy, el T376 proporciona rastreo en tiempo real y telemetría del motor dentro de las herramientas de flota de Plaspy. Sus datos OBDII, eventos de comportamiento del conductor y la salida del inmovilizador se integran en Plaspy para mapeo en vivo, alertas, reportes y gestión remota de dispositivos, por lo que la unidad es una opción adecuada para organizaciones que buscan despliegue rápido y visibilidad consolidada de la flota dentro de la plataforma Plaspy.
 
-## Key Highlights
+## Puntos clave
 
-- Instalación OBDII plug‑and‑play para un despliegue rápido de la flota y telemetría inmediata desde sensores del motor y del vehículo.
-- Compatible con Plaspy para rastreo en tiempo real, alertas, geocercas y paneles de control de gestión de flotas.
-- Comunicaciones duales \(celular + Wi‑Fi\) con selección automática de enlace para equilibrar la velocidad de reporte y el costo operativo.
-- Inmovilizador integrado \(corte del motor\) y una salida digital dedicada para control anti‑robo y desactivación rápida del vehículo.
-- Soporte integral de OBDII y SAE J1939: RPM, velocidad, temperatura de refrigerante del motor, nivel y consumo de combustible y DTCs para telemetría detallada.
-- u‑blox MAX‑7 GNSS con GPS/GLONASS y una antena activa de alta ganancia para un TTFF rápido y una precisión horizontal típica de ~2.5 m.
-- Detección de comportamiento del conductor a bordo mediante un acelerómetro de 3 ejes para apoyar el monitoreo de combustible y programas de seguridad.
+- Factor de forma OBDII plug‑and‑play para instalación rápida y acceso inmediato a datos del motor y sensores del vehículo.
+- Compatible con Plaspy para ubicación en tiempo real, alertas, geocercas y paneles centrales de gestión de flotas.
+- Doble vía de comunicaciones mediante celular y Wi‑Fi para equilibrar la fiabilidad de la conexión y el costo operativo.
+- Salida de inmovilizador integrada para corte remoto del motor y respuesta antirrobo más ágil.
+- Posicionamiento GNSS con AGPS asistido y antena de alta ganancia para fijaciones rápidas y reportes precisos.
+- Acelerómetro integrado para detección de eventos del conductor que alimenta análisis de seguridad y consumo de combustible en Plaspy.
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-El T376 envía la ubicación del vehículo, telemetría OBDII y eventos de sensores a Plaspy vía celular o Wi‑Fi. Plaspy procesa estos flujos de datos para mapeo en tiempo real, reproducción histórica, alertas e informes automatizados. La selección automática entre Wi‑Fi y celular del dispositivo ayuda a garantizar un seguimiento continuo en tiempo real mientras se minimizan los costos de datos. El soporte FOTA permite que las actualizaciones de firmware se apliquen de forma remota para que los dispositivos permanezcan seguros y alineados con las mejoras de la plataforma Plaspy.
+El T376 transmite ubicación, telemetría OBDII y datos de eventos a Plaspy a través de su canal de datos activo. Plaspy ingiere esas señales para mostrar mapas en tiempo real, alertas de eventos e informes históricos, y permite flujos de trabajo de gestión remota de dispositivos como actualizaciones de firmware. La selección automática entre Wi‑Fi y celular mantiene el rastreo activo mientras ayuda a gestionar el uso de datos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(posiciones GPS/GLONASS y parámetros OBDII\).
-- Monitoreo de encendido y salida del motor con un inmovilizador integrado \(corte del motor\) para acciones anti‑robo.
-- Monitoreo de combustible y datos de consumo a través de OBDII y sensores del vehículo relacionados para respaldar informes de control de costos.
-- Detección de comportamiento del conductor y eventos \(frenadas bruscas, aceleraciones rápidas, toma de curvas\) desde el acelerómetro de 3 ejes.
-- Redundancia Wi‑Fi y celular para una conectividad robusta; FOTA sobre GPRS/WCDMA o Wi‑Fi permite la gestión remota del firmware.
+- Seguimiento de ubicación en vivo y reproducción histórica para visibilidad de la flota y análisis de rutas.
+- Monitorización del motor y encendido combinada con la salida del inmovilizador para acciones antirrobo coordinadas configurables dentro de Plaspy.
+- Telemetría OBDII, como parámetros del motor y datos diagnósticos disponibles en los reportes de Plaspy para mantenimiento y control de costos.
+- Eventos de comportamiento del conductor detectados por el acelerómetro que disparan alertas y respaldan la puntuación de seguridad.
+- Gestión remota de firmware y visibilidad del estado del dispositivo para mantener las unidades desplegadas actualizadas y operativas.
 
-## Technical Overview
+## Casos de uso habituales
 
-| Model | Ulbotech T376 \(OBDII plug‑in tracker\) |
-| --- | --- |
-| Connectivity | Telit xE910 family cellular module \(GSM/WCDMA; 2G/3G/4G‑ready variants\) with EDGE/GPRS fallbacks; built‑in Wi‑Fi \(802.11 b/g/n\) |
-| Bands | GSM 850/900/1800/1900 MHz; WCDMA bands including 800/850/900/1700/1900/2100 MHz; HSPA up to 21 Mbps downlink |
-| Power & Battery | Operating voltage 8–32 V DC; internal Li‑Polymer backup battery 3.7 V, 180 mAh; power consumption ~70 mA active, ~10 mA sleep \(max &lt;250 mA\) |
-| Interfaces | OBDII \(J1962\) supporting J1850 PWM/VPW, ISO 9141‑2, ISO14230 KWP2000, ISO15765‑4 CAN, SAE J1939; micro USIM slot; micro USB port; digital output for engine cut/immovilizer |
-| GNSS | u‑blox MAX‑7 \(56 channels\) with GPS + GLONASS, AssistNow AGPS; typical horizontal accuracy ~2.5 m \(autonomous\); TTFF: cold ~30 s, hot ~1 s |
-| Wi‑Fi | 802.11 b/g/n, WPA/WPA2, WPS; used as alternate data channel and for FOTA |
-| Antennas | Internal GSM/WCDMA, Wi‑Fi and GPS antennas; high‑gain 25×25 mm active ceramic GPS antenna integrated |
-| Sensors | 3‑axis accelerometer \(multiple selectable ranges\); vehicle and backup battery voltage sensing; temperature monitoring |
-| Memory | Built‑in memory ~16 MB \(approx. 40,000 records\) |
-| Geo‑features | Geo‑fence support \(circle, rectangle, polygon up to 32 points\); tracking by time/distance/status; auto APN and time zone identification |
-| Dimensions & Weight | 50 × 50 × 23 mm \(excluding J1962 connector\); ~50 g |
-| Operating Conditions | Operating temperature −30°C to +80°C \(without battery\) |
-| Remote Management | FOTA \(firmware over‑the‑air\) via GPRS/WCDMA or Wi‑Fi |
-| Indicators & Accessories | Internal LEDs \(GSM/GPS/OBD/Bluetooth\); standard micro USB cable; optional OBD cables and immobilizer modules |
+- Gestión de flotas para entregas, vehículos de servicio y flotas mixtas que requieren rastreo en vivo y telemetría del motor.
+- Programas antirrobo y recuperación de vehículos que utilizan control de inmovilizador y alertas por geocerca para reducir el riesgo de sustracción.
+- Programas de seguridad y coaching para conductores que se apoyan en la detección de eventos severos para mejorar conductas y reducir consumo de combustible.
+- Monitoreo para alquileres y seguros donde los datos OBDII y el historial de ubicaciones respaldan facturación, reclamaciones y cumplimiento.
+- Asistencia en carretera y servicios de respuesta rápida que se benefician de datos inmediatos del estado y la ubicación del vehículo.
 
-## Use Cases
+## Por qué elegir este rastreador con Plaspy
 
-- Fleet management — seguimiento en tiempo real de vehículos, reproducción de rutas, alertas de mantenimiento y análisis del consumo de combustible.
-- Anti‑theft & immobilization — corte rápido del motor mediante la salida de inmovilizador integrada y alertas de geocerca ante movimientos no autorizados.
-- Driver behavior programs — monitorizar eventos severos, puntuar a los conductores y reducir costos de combustible con coaching basado en telemetría.
-- Rental, insurance and compliance — diagnóstico remoto, captura de DTC y registros de uso para respaldar reclamaciones y facturación.
-- Roadside assistance and safety — compartir rápidamente la ubicación y telemetría del estado del vehículo para acelerar la respuesta.
+El Ulbotech T376 es una opción práctica para organizaciones que necesitan un rastreador compacto que se conecte al OBDII y combine telemetría del motor y control de inmovilizador en un solo equipo. Al integrarlo con Plaspy, la solución ofrece visibilidad consolidada de la ubicación, señales de salud del vehículo y eventos del conductor, lo que facilita la toma de decisiones operativas, la generación de alertas y la elaboración de reportes desde una única plataforma.
 
-## Why Choose This Tracker with Plaspy
-
-Cuando emparejas el Ulbotech T376 con Plaspy, obtienes un rastreador GPS compatible con Plaspy, diseñado para satisfacer necesidades prácticas de flotas: telemetría OBDII rica, posicionamiento GNSS robusto y conectividad flexible que puede alternar entre Wi‑Fi y celular para preservar los costos de datos mientras se mantiene el rastreo en tiempo real. El inmovilizador integrado y la salida digital de corte del motor proporcionan un canal de control anti‑robo directo, mientras que el acelerómetro de 3 ejes y los eventos de comportamiento del conductor alimentan las herramientas de informes y alertas de Plaspy para mejorar la seguridad y el monitoreo del combustible.
-
-El factor de forma plug‑and‑play del T376, sus dimensiones compactas y el soporte FOTA facilitan la implementación, el mantenimiento remoto y la escalabilidad. Para empresas que requieren telemetría fiable, control de ignición e inmovilizador, y un rastreo en tiempo real consistente a través de redes móviles mixtas, el T376 ofrece una solución práctica, lista para Plaspy, que enfatiza la fiabilidad, el control de costos y una inteligencia de vehículos accionable.
-
+Para más información sobre Plaspy y cómo dispositivos compatibles como el Ulbotech T376 pueden integrarse en su flota, visite el sitio web de Plaspy https://www.plaspy.com. Las especificaciones, características y disponibilidad de productos pueden cambiar con el tiempo, por lo que le recomendamos verificar los datos actuales con el fabricante en http://www.ulbotech.com/ antes de tomar una decisión de compra o despliegue.

@@ -2,62 +2,62 @@
 slug: /istartek/vt140
 id: vt140
 sidebar_label: VT140
+title: iStartek - VT140
 sidebar_class_name: menu_item_tracker
+description: Rastreador VT140 aprobado AIS 140 compatible con Plaspy para seguimiento de flotas en tiempo real, reportes de cumplimiento y gestión antirrobo
+keywords:
+  - iStartek VT140
+  - rastreador VT140 GPS
+  - compatibilidad VT140 Plaspy
+  - rastreador AIS 140
+  - rastreador protocolo CDAC
+  - dispositivo de seguimiento de flotas
+  - telemetría vehicular
+  - rastreador monitoreo de combustible
+  - inmovilizador remoto
+  - rastreador multi GNSS
 ---
+
 # iStartek - VT140
 
 ![VT140](./tracker.jpg)
 
-El rastreador GPS VT140 con aprobación AIS-140 es un dispositivo duradero, preparado para el cumplimiento normativo, diseñado para la gestión profesional de flotas y la seguridad de vehículos. La conformidad AIS-140, el soporte del protocolo CDAC y la subida a dos servidores mediante IP hacen del VT140 un rastreador GPS compatible con Plaspy para operadores que requieren informes regulatorios fiables y seguimiento en tiempo real continuo en coches, autobuses, camiones y vehículos comerciales.
+El VT140 de iStartek es un rastreador GPS aprobado bajo la norma AIS-140, diseñado para la gestión profesional de flotas y la seguridad vehicular. Está pensado para operar en entornos automotrices exigentes y combina posicionamiento multi GNSS, E/S robusta para telemetría y accesorios, además de funciones orientadas a la industria como corte remoto, soporte para detección de robo de combustible y subida de eventos de cámara. La capacidad de subida dual a servidores IP y la compatibilidad con el protocolo CDAC hacen al VT140 adecuado para despliegues regulados que requieren reportes continuos.
 
-Construido para entornos automotrices exigentes, el VT140 combina posicionamiento multi‑GNSS, E/S robusta para telemetría y accesorios, y características de la industria como corte remoto, soporte de detección de robo de combustible y subida de eventos de la cámara. Cuando se integra con Plaspy, la unidad proporciona a los gestores de flota telemetría accionable, controles anti‑robo y informes programados para apoyar el cumplimiento, la seguridad y la eficiencia operativa.
+Como dispositivo compatible con Plaspy, el VT140 puede enviar ubicaciones, eventos y datos de sensores a Plaspy para monitoreo en vivo, generación de informes y supervisión operativa. Su almacenamiento en memoria interna y la subida dual a servidores ayudan a mantener la continuidad de rutas durante intermitencias de conectividad, mientras que las opciones de telemetría permiten a los gestores de flota integrar posicionamiento con controles antirrobo, monitoreo de combustible e informes de cumplimiento programados.
 
-## Aspectos Clave
+## Características principales
 
-- Aprobado AIS-140 y compatible con el protocolo CDAC — listo para informes regulatorios e integración con Plaspy.
-- Posicionamiento multi-GNSS de alta precisión \(GPS, BDS, GLONASS y IRNSS/QZSS\) para un seguimiento en tiempo real preciso.
-- Caja robusta con grado IP66 a prueba de agua y rango de operación amplio de 9–100 V — adecuada para diversas clases de vehículos.
-- Batería de respaldo de 500 mAh que proporciona hasta cinco horas de operación tras pérdida de energía externa para un seguimiento ininterrumpido y respuesta anti‑robo.
-- Telemetría y E/S completas: RS232, 1-Wire, entradas analógicas/digitales, salidas de drenaje abierto y soporte para cámara para la subida de eventos.
-- Soporte de monitorización de combustible mediante sensores ultrasonidos o capacitivos y capacidad de corte remoto \(inmovilizador\) para anti‑robo y mitigación de robo de combustible.
-- Memoria flash integrada de 64 MB para almacenamiento local durante pérdidas de conectividad; control FOTA y OTA para mantenimiento y configuración remotos.
+- Aprobación AIS 140 y compatibilidad con protocolo CDAC para reportes regulatorios e integración simplificada con plataformas de rastreo.
+- Posicionamiento multi GNSS para seguimiento preciso en tiempo real en variados entornos operativos.
+- Carcasa resistente con grado IP66 y amplio rango de voltaje de operación para desempeño fiable en distintos tipos de vehículos.
+- Amplia compatibilidad de telemetría y E/S para periféricos, subida de eventos de cámaras y entradas de sensores de combustible.
+- Funciones de corte remoto e antirrobo que sustentan flujos de trabajo de seguridad para flotas.
+- Buffer en memoria flash y subida dual a servidores IP para preservar datos de rastreo durante interrupciones de conectividad.
+- Actualización remota de firmware y soporte OTA para reducir necesidades de mantenimiento en campo.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-El VT140 envía a Plaspy la telemetría de GNSS y del vehículo utilizando su capacidad de subida a dos servidores mediante IP y los protocolos compatibles con AIS-140. Plaspy recibe en tiempo real la ubicación, los eventos y los datos de sensores, lo que habilita mapas en vivo, alertas e informes históricos. La memoria intermedia integrada en el dispositivo conserva rutas de seguimiento completas cuando la conectividad es intermitente, asegurando que Plaspy muestre rutas continuas y telemetría precisa una vez que la conectividad se restablezca.
+Al conectarse a Plaspy, el VT140 transmite posiciones GNSS, eventos y telemetría de sensores a la plataforma de Plaspy utilizando su subida dual a servidores y los protocolos soportados. Plaspy recibe y procesa estas transmisiones para mostrar mapas en vivo, alertas e informes históricos, mientras que el buffer local del rastreador asegura continuidad de datos cuando cambian las condiciones de la red.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — posiciones multi-GNSS y datos de sensores del vehículo se envían a Plaspy para monitoreo en vivo.
-- Integración de eventos y alarmas — geocerca, estacionamiento, desconexión de antena, bajo nivel de batería e informes de encendido se envían a Plaspy para alertas inmediatas.
-- Alertas de comportamiento al conducir y seguridad — aceleración brusca, frenado, giro, exceso de velocidad y alarmas de fatiga/conducción bajo efectos del alcohol alimentan los módulos de puntuación de conductor y seguridad de Plaspy.
-- Monitoreo de combustible y detección de robo — se admiten entradas de sensores de combustible ultrasónicos o capacitivos y se reportan a través de Plaspy para paneles y alertas de monitoreo de combustible.
-- Inmovilizador/ corte remoto — Plaspy puede activar el control de salidas OTA para aislar combustible o energía como intervención anti‑robo \(sujeto a normativas locales y a procedimientos de seguridad\).
+- Las actualizaciones de ubicación y telemetría en tiempo real aparecen en los mapas en vivo de Plaspy, proporcionando visibilidad operativa.
+- Reenvío de eventos y alarmas para condiciones como cambio de alimentación, disparos de sensores y alertas designadas.
+- Los informes programados y bajo demanda en Plaspy utilizan los datos del dispositivo para reportes de cumplimiento y análisis operativo.
+- Los flujos de trabajo antirrobo, incluyendo acciones de inmovilizador remoto, pueden coordinarse a través de Plaspy y reflejarse en las alertas de la plataforma.
+- La subida de eventos de cámara y las capturas de eventos facilitan la documentación de incidentes dentro de los paneles de Plaspy.
 
-## Resumen Técnico
+## Casos de uso típicos
 
-| Conectividad | 2G GSM con datos GPRS \(Quectel M26\); GPRS de hasta 85,6 kbps |
-| --- | --- |
-| Bandas | 2G: 850 / 900 / 1800 / 1900 MHz |
-| Alimentación y batería | Rango de tensión de operación 9–100 V; batería interna de respaldo de 500 mAh — hasta 5 horas de operación con respaldo |
-| Interfaces | 3 entradas digitales positivas y 1 negativa; 2 salidas digitales de drenaje abierto \(máx. 500 mA\); 2 entradas analógicas \(0–36 V\); 2 puertos RS232; interfaz 1-Wire; mini USB; salida de 5V; indicadores LED para CEL y GNSS |
-| GNSS | Multi-GNSS: GPS, BDS, GLONASS y IRNSS/QZSS soportados; chipset L89 \(Quectel\) con sensibilidad de adquisición ~ -147 dBm, seguimiento ~ -163 dBm; precisión de posición autónoma &lt; 2,5 m CEP; TTFF Cold &lt; 32 s \(sin AGPS\), Hot &lt; 2 s; con AGPS Cold &lt; 13 s; reacquisición &lt; 1,5 s |
-| Almacenamiento | 64 MB de memoria flash integrada para almacenamiento en búfer y retención de rutas durante pérdidas de conectividad |
-| SIM / eSIM | Soporte de SIM física y compatible con eSIM; aprovisionamiento con operadores regionales soportado |
-| Cámara y accesorios | Soporte para subida de fotos de cámara disparadas por eventos; sensores de combustible capacitivos y ultrasónicos opcionales, comúnmente usados |
-| FOTA / Gestión remota | Firmware-over-the-air \(FOTA\) y control OTA de salidas soportados; subida a dos servidores y protocolo AIS-140/CDAC |
-| Bluetooth | No especificado en la descripción proporcionada — la unidad admite RS232 y 1-Wire para sensores y periféricos externos |
-| Formato | Rastreador compacto y robusto para vehículos con carcasa IP66 a prueba de agua para despliegue automotriz |
+- Reportes regulados y cumplimiento para transporte público y operadores de vehículos comerciales.
+- Seguimiento continuo en tiempo real y supervisión de rutas para autos, autobuses y camiones.
+- Escenarios de antirrobo e inmovilización vehicular combinados con alertas rápidas e intervención.
+- Monitoreo de nivel de combustible y detección de robo de combustible mediante sensores ultrasónicos o capacitivos.
+- Documentación e investigación de incidentes mediante subidas de cámara y telemetría basada en eventos.
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas y cumplimiento — la conformidad AIS-140 hace que VT140 sea adecuado para flotas reguladas, transporte público y operadores de vehículos comerciales que utilizan Plaspy para informes y seguimiento en tiempo real.
-- Antirrobo e inmovilización — corte remoto y aislamiento de energía/combustible integrados con alertas de Plaspy para la respuesta ante un vehículo robado.
-- Monitoreo de combustible y detección de robo — integre sensores de combustible ultrasónicos o capacitivos para supervisar los niveles de combustible y detectar robo o fugas.
-- Programas de comportamiento de conductor y seguridad — captura de eventos de conducción brusca y alarmas de fatiga/conducción bajo los efectos del alcohol alimentan los paneles de Plaspy para coaching e informes a aseguradoras.
-- Telemetría disparada por eventos y captura de cámara — use el soporte de la cámara y las cargas de eventos para documentar incidentes, mejorar la rendición de cuentas y agilizar investigaciones.
+El VT140 es una opción práctica para organizaciones que requieren un rastreador robusto y conforme, con amplias capacidades de telemetría y compatibilidad con Plaspy. Su enfoque en la preparación regulatoria, el almacenamiento de datos y el soporte de periféricos lo hace idóneo para flotas que necesitan reportes confiables y medidas antirrobo integradas sin un mantenimiento intensivo en sitio.
 
-## Por qué Elegir este Rastreador con Plaspy
+Para flotas que usan Plaspy, el VT140 ofrece un equilibrio entre continuidad, flexibilidad y controles a nivel de equipo que ayudan a mantener la visibilidad operativa y respaldan programas de seguridad y cumplimiento. Si sus prioridades de despliegue incluyen reportes regulados, monitoreo de combustible y captura de medios por eventos, el VT140 combinado con Plaspy puede ofrecer una solución coherente.
 
-El VT140 está diseñado para operadores que necesitan un rastreador GPS compatible con Plaspy que equilibre el cumplimiento regulatorio, la fiabilidad robusta y una integración profunda de telemetría. La aprobación AIS-140 y el soporte del protocolo CDAC reducen la fricción de integración para despliegues regulados, mientras que la subida a dos servidores y el almacenamiento en búfer a bordo mejoran la continuidad de los datos para el seguimiento en tiempo real. El soporte para una amplia E/S, periféricos RS232 y sensores de combustible ofrece a los gestores de flota telemetría flexible y herramientas anti-robo, y los controles FOTA/OTA minimizan las visitas de servicio de campo.
-
-En la práctica, el VT140 ofrece un seguimiento en tiempo real fiable, telemetría robusta y capacidad anti-robo para flotas y vehículos comerciales. Cuando se combina con los mapas, alertas e informes de Plaspy, el VT140 ayuda a los gestores de flota a mantener el cumplimiento, reducir la pérdida de combustible, mejorar la seguridad del conductor y responder rápidamente a eventos de seguridad, todo ello respaldado por un diseño robusto IP66 y una amplia tolerancia de voltaje para entornos vehiculares exigentes.
-
+Para conocer más sobre cómo Plaspy se integra con rastreadores compatibles como el VT140 visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos y la información regulatoria actual en el sitio del fabricante https://istartek.com/.

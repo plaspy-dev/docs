@@ -2,61 +2,62 @@
 slug: /itriangle/ts101_basic_4g
 id: ts101_basic_4g
 sidebar_label: TS101 Basic 4G
+title: iTriangle - TS101 Basic 4G
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto TS101 Basic 4G compatible con Plaspy para seguimiento GNSS 4G, batería de respaldo y E/S flexibles
+keywords:
+  - iTriangle TS101
+  - TS101 Basic 4G
+  - TS101 Plaspy
+  - iTriangle rastreador
+  - rastreador compatible Plaspy
+  - rastreador GPS 4G
+  - telemática vehicular
+  - seguimiento de flotas
+  - monitoreo de activos
+  - rastreador GNSS
 ---
+
 # iTriangle - TS101 Basic 4G
 
 ![TS101 Basic 4G](./tracker.png)
 
-El TS101 Basic 4G es un rastreador GPS compacto diseñado para telemática de vehículos y monitoreo de activos, ahora completamente compatible con Plaspy. Diseñado para flotas mixtas —vehículos eléctricos y convencionales— el TS101 Basic 4G combina conectividad LTE Cat‑1, posicionamiento GNSS \(GPS/GLONASS/BeiDou\) y almacenamiento en el borde para entregar seguimiento en tiempo real continuo y telemetría confiable para gestores de flotas que necesitan datos robustos e integrados en Plaspy.
+El TS101 Basic 4G es un rastreador GPS compacto diseñado para telemática vehicular y monitoreo de activos. Pensado para flotas mixtas que incluyen vehículos eléctricos y convencionales, el TS101 Basic 4G integra conectividad LTE Cat 1, posicionamiento multi‑GNSS y almacenamiento de datos a bordo para ofrecer seguimiento y telemetría en tiempo real de forma continua y fiable. Su factor de forma y rango de alimentación lo hacen apto para una amplia variedad de escenarios donde la ubicación persistente y el registro de eventos son críticos.
 
-Con un rango de entrada DC de 9 a 90 V, batería de respaldo interna de 180 mAh y soporte BLE 5.0 de corto alcance, el TS101 Basic 4G mantiene los vehículos visibles y controlables incluso durante pérdidas de energía o cobertura de red intermitente. Sus I/O configurables, interfaces CAN/RS485 opcionales y su aprovisionamiento OTA/FOTA lo convierten en una opción práctica y compatible con Plaspy para flujos de anti‑robo, monitoreo de combustible, estado de ignición, control del inmovilizador y análisis rutinarios de la flota.
+Como dispositivo compatible con Plaspy, el TS101 Basic 4G puede transmitir ubicación, eventos y telemetría del vehículo a la plataforma Plaspy para monitoreo, alertas e informes. La batería de respaldo integrada, el soporte para comunicaciones de corto alcance y las E/S configurables permiten a Plaspy correlacionar la telemetría con el estado de ignición, el control de inmovilizadores y entradas de sensores, mientras que el almacenamiento local asegura que los registros se conserven hasta poder cargarse en Plaspy para su análisis.
 
-## Aspectos clave
+## Puntos clave
 
-- Rastreador GPS compatible con Plaspy con LTE Cat‑1 para un seguimiento en tiempo real y telemetría confiables.
-- Rango de entrada 9–90V DC y batería de respaldo integrada de 180 mAh para seguimiento ininterrumpido ante pérdidas de energía.
-- Receptor GNSS múltiple: GPS, GLONASS y BeiDou para una mejor localización en entornos complejos.
-- Almacenamiento a bordo de 16 MB \(hasta ~6,000 registros de seguimiento\) para registro fuera de línea.
-- I/O configurable y, opcionalmente, interfaces RS485 y CAN para integrar el encendido, relés del inmovilizador, sensores de combustible y datos del bus CAN.
-- BLE 5.0 para sensores Bluetooth y aprovisionamiento de corto alcance o conectividad de accesorios.
-- Detección de movimiento, análisis de conducción eficiente y geocercas para respaldar la gestión de flotas y el monitoreo del comportamiento del conductor.
-- Actualizaciones OTA/FOTA y múltiples canales de configuración \(USB, SMS, TCP/IP, BLE\) para una gestión remota escalable.
+- Rastreador GPS compatible con Plaspy que incorpora LTE Cat 1 para seguimiento y telemetría en tiempo real confiables.
+- Receptor multi‑GNSS compatible con GPS, GLONASS y BeiDou para mejorar el posicionamiento en entornos variados.
+- Amplio rango de entrada de 9 a 90 V DC y batería interna de respaldo para mantener visibilidad ante interrupciones de energía.
+- Almacenamiento de datos a bordo capaz de retener miles de registros de seguimiento para registro offline y subida posterior.
+- E/S digitales y analógicas configurables con opciones RS485 y CAN para integración con señales del vehículo.
+- Soporte BLE 5.0 para sensores de corto alcance y aprovisionamiento, además de actualizaciones OTA/FOTA para gestión remota del dispositivo.
+- Unidad telemática compacta adecuada para instalaciones en vehículos y activos donde el espacio y la resistencia son importantes.
 
 ## Cómo funciona con Plaspy
 
-Integrar el TS101 Basic 4G con Plaspy proporciona flujos continuos de ubicación, eventos y telemetría a su panel de Plaspy. El dispositivo transmite fijaciones de posición GNSS y telemetría del vehículo mediante LTE Cat‑1 usando TCP/IP, mientras que el BLE local y las I/O permiten a Plaspy correlacionar las entradas de sensores, el estado de encendido y las acciones del inmovilizador con el historial de ubicación y alertas. Los registros fuera de línea almacenados en el dispositivo se cargan automáticamente cuando se restablece la cobertura de la red.
+Al integrarse con Plaspy, el TS101 Basic 4G envía posiciones GNSS y telemetría del vehículo a la plataforma Plaspy para monitoreo en vivo y análisis histórico. Plaspy puede utilizar las transmisiones del dispositivo, las entradas y los registros almacenados para generar alertas, informes e ideas operativas que apoyen la supervisión de la flota y los flujos de respuesta.
 
-- Actualizaciones de ubicación y telemetría en tiempo real mediante LTE Cat‑1 \(TCP/IP\) y posicionamiento GNSS múltiple.
-- Monitoreo del encendido, de puertas o de alarmas utilizando la entrada digital y la salida digital del dispositivo para la señalización de eventos.
-- Monitoreo de combustible y adquisición de datos de sensores a través de entrada analógica, interfaz 1‑Wire o integración CAN opcional.
-- Soporte remoto para inmovilizador: controle los relés de inmovilización o salidas de pánico a través de la salida digital para flujos de anti‑robo.
-- Sensores y balizas Bluetooth: BLE 5.0 habilita telemetría de corto alcance y conexión de accesorios para temperatura, movimiento o identificación del conductor.
+- Actualizaciones de ubicación en tiempo real y transmisión de telemetría a Plaspy mediante la conexión celular del dispositivo y las correcciones GNSS.
+- Monitoreo de eventos como cambios de ignición, puertas o señales de alarma relayed a través de entradas y salidas digitales configurables.
+- Resiliencia offline: los registros a bordo se conservan localmente y se sincronizan con Plaspy cuando se recupera la conectividad de red.
+- Correlación de sensores y accesorios usando BLE y entradas analógicas para que Plaspy incluya datos de temperatura, movimiento o identificación de conductor en los informes.
+- Control remoto y acciones antirrobo, como señalización de inmovilizadores, gestionadas a través de las salidas del dispositivo junto con las alertas de Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | TS101 Basic 4G |
-| --- | --- |
-| Conectividad | LTE Cat‑1 \(4G\) con TCP/IP; SMS; USB; BLE 5.0 |
-| Bandas | No especificado — consulte al fabricante o variante regional para las bandas LTE compatibles |
-| Alimentación y Batería | Entrada 9–90V DC; batería de respaldo interna de 180 mAh para seguimiento continuo ante pérdida de energía |
-| Almacenamiento de datos | Almacenamiento a bordo de 16 MB \(hasta ~6,000 registros de seguimiento\) para registro fuera de línea |
-| Interfaces y E/S | 1 entrada digital, 1 salida digital, 1 entrada analógica, interfaz 1‑Wire; interfaces RS485 y CAN opcionales |
-| GNSS | GPS, GLONASS, BeiDou |
-| Bluetooth | BLE 5.0 para sensores, balizas y configuración |
-| Gestión remota | Configurable vía USB, SMS, TCP/IP o BLE; admite actualizaciones OTA / FOTA |
-| Temperatura de funcionamiento | −25°C a +85°C |
-| Factor de forma | Unidad telemática compacta para instalación en vehículos y activos |
-
-## Casos de uso
-
-- Antirrobo y inmovilización de flotas: use la salida digital para controlar los relés del inmovilizador y alertas de Plaspy para activar flujos de respuesta.
-- Gestión de flotas en tiempo real: vigile la ubicación del vehículo, métricas de conducción eficiente y detección de movimiento para la optimización de rutas.
-- Monitoreo de combustible y telemetría del motor: capture datos de sensores de combustible o del bus CAN para reducir el consumo y detectar anomalías.
-- Integración de sensores Bluetooth: monitorice temperatura, movimiento de la carga o presencia del conductor con accesorios BLE conectados a los informes y alertas de Plaspy.
-- Seguimiento de activos con resiliencia fuera de línea: el almacenamiento a bordo guarda hasta 6,000 registros, sincronizándose con Plaspy cuando la cobertura regresa.
+- Flujos de trabajo antirrobo e inmovilización de flotas que combinan salidas del dispositivo y alertas de Plaspy para activar respuestas.
+- Gestión y supervisión en tiempo real de la flota con detección continua de ubicación y movimiento.
+- Monitoreo de combustible y recopilación de telemetría del motor para análisis de consumo y detección de anomalías.
+- Integración de sensores de corto alcance para controlar condiciones de la carga, presencia del conductor o variables ambientales locales.
+- Rastreo de activos con registro offline para preservar registros cuando los vehículos transitan por zonas de cobertura limitada.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El TS101 Basic 4G ofrece una combinación equilibrada de conectividad, posicionamiento GNSS probado e I/O flexible que lo convierten en un rastreador GPS eficaz para implementaciones basadas en Plaspy. Su amplio rango de voltaje y la batería de respaldo interna reducen las preocupaciones de instalación en vehículos eléctricos y convencionales, mientras que BLE 5.0 y el soporte opcional CAN/RS485 simplifican la integración de sensores y telemetría del vehículo. Para gestores de flotas que buscan un seguimiento en tiempo real confiable, controles antirrobo como inmovilizador remoto, monitoreo de combustible y telemetría que se transmite a Plaspy, este dispositivo ofrece una solución compacta, gestionable a distancia con resiliencia de datos sin conexión y capacidad de actualización OTA.
+El TS101 Basic 4G ofrece un equilibrio práctico entre fiabilidad de conectividad, posicionamiento GNSS y E/S flexibles, lo que lo convierte en una opción sensata para organizaciones que usan Plaspy. Su amplia tolerancia de voltaje y la batería interna de respaldo simplifican el despliegue en distintos tipos de vehículos, mientras que el BLE y las interfaces opcionales permiten a Plaspy incorporar sensores y señales adicionales del vehículo en los flujos de monitoreo e informes.
 
+Para gestores de flota que requieren visibilidad de la ubicación de forma persistente, controles antirrobo y registro offline resistente integrado en una plataforma centralizada, combinar el TS101 Basic 4G con Plaspy permite una solución compacta y gestionable de forma remota que incorpora la telemetría del dispositivo en paneles operativos y alertas.
+
+Si desea conocer más sobre Plaspy visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y datos del fabricante pueden cambiar con el tiempo; por favor verifique la información técnica actual en el sitio oficial de iTriangle https://www.itriangle.net/ antes de tomar decisiones de compra o despliegue.

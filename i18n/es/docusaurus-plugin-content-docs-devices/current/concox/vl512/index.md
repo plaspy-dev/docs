@@ -2,61 +2,59 @@
 slug: /concox/vl512
 id: vl512
 sidebar_label: VL512
+title: Concox - VL512
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBDII 4G compacto Concox VL512 compatible con Plaspy para seguimiento de vehículos en tiempo real y telemetría de flotas
+keywords:
+  - Concox VL512
+  - Rastreador VL512
+  - Rastreador Concox
+  - VL512 Plaspy
+  - Rastreador OBDII GPS
+  - Rastreador vehicular 4G
+  - seguimiento de flotas
+  - seguimiento en tiempo real
+  - comportamiento del conductor
+  - informes de telemetría
 ---
+
 # Concox - VL512
 
 ![VL512](./tracker.png)
 
-El VL512 es un rastreador OBDII 4G compacto, diseñado para una instalación rápida y plug-and-play en prácticamente cualquier automóvil de pasajeros a través del puerto OBDII del vehículo. Como rastreador compatible con Plaspy, el VL512 ofrece una comunicación LTE confiable con respaldo GSM, posicionamiento satelital preciso \(GPS + BDS\), detección de movimiento a bordo y alertas de eventos instantáneas, lo que lo convierte en una opción ideal para la gestión de flotas, el seguimiento de vehículos y la telemática basada en el uso, donde la rápida implementación y el seguimiento en tiempo real son críticos.
+El Concox VL512 es un rastreador GPS OBDII 4G compacto, diseñado para una instalación rápida y sin complicaciones en automóviles particulares. Combina posicionamiento satelital con sensores de movimiento integrados y un micrófono discreto para ofrecer localización continua y telemetría de eventos. El VL512 está pensado para despliegues sencillos en flotas y para escenarios que requieren seguimiento en tiempo real y alertas confiables.
 
-Fácil de instalar y diseñado para operar de forma continua en entornos comerciales, el VL512 combina telemetría avanzada con un micrófono discreto para monitoreo de voz a distancia y una pequeña batería de respaldo industrial de 50 mAh. Cuando se integra con Plaspy, el VL512 proporciona a operadores de flotas y proveedores de servicios la telemetría necesaria para habilitar flujos de trabajo anti-robo, análisis del comportamiento del conductor y generación de informes escalables sin cambios complejos de hardware.
+Como dispositivo compatible con Plaspy, el VL512 envía actualizaciones de ubicación, eventos de movimiento y notificaciones de alerta a Plaspy, lo que permite a los operadores supervisar vehículos, revisar rutas históricas y configurar notificaciones desde una sola plataforma. Su diseño y capacidades de telemetría lo convierten en una opción práctica para organizaciones que necesitan una implementación rápida junto con los paneles, reportes y herramientas operativas de Plaspy.
 
-## Asp ectos clave
+## Características principales
 
-- Instalación OBDII plug-and-play para despliegue rápido en automóviles de pasajeros — no se requiere cableado.
-- Conectividad LTE Cat 1 con respaldo GSM \(2G\) para mantener enlaces de datos confiables en las áreas de cobertura.
-- GNSS de alta precisión \(GPS + BDS\) con CEP \<2.5 m y alta sensibilidad para un seguimiento en tiempo real fiable.
-- Acelerómetro y giróscopo integrados para telemetría de comportamiento de conducción: aceleración brusca, frenada brusca, conducción en curvas y detección de colisiones.
-- Alertas instantáneas de movimiento, exceso de velocidad, entrada/salida de geocerca, desconexión de la alimentación y estado de la batería del vehículo.
-- Puerto USB Type-C a bordo y ranura Nano-SIM para configuración rápida y provisión de operador.
-- Diseño compacto de grado industrial con rango de entrada amplio \(9–36 V DC\) y batería de respaldo para reportar pérdidas de energía.
+- Factor de forma OBDII plug and play para despliegues rápidos en vehículos de pasajeros.
+- Conectividad LTE como prioridad con respaldo GSM para mantener la entrega de datos en distintas zonas de cobertura.
+- Posicionamiento GPS y BDS con alta precisión para localización en tiempo real confiable.
+- Sensores de movimiento integrados para detección de eventos de conducción y colisiones.
+- Alertas instantáneas por movimiento, entrada y salida de geocerca, exceso de velocidad y desconexión de alimentación.
+- Micrófono incorporado para monitoreo de voz remoto y batería de respaldo pequeña para notificar pérdidas de energía.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el VL512 envía mensajes periódicos de ubicación y eventos a través de LTE/GSM hacia la plataforma de Plaspy, habilitando seguimiento en tiempo real, alertas e informes históricos. Plaspy ingiere la telemetría del dispositivo y traduce los eventos de sensores en paneles de control de flotas, notificaciones e informes exportables adecuados para operaciones, seguridad y casos de uso de seguros.
+Al conectarse a Plaspy, el VL512 transmite periódicamente datos de posición y eventos para que la plataforma muestre ubicaciones en vivo, genere alertas y conserve registros históricos para análisis. Plaspy procesa la telemetría del dispositivo y mapea los eventos en paneles de flota, notificaciones y reportes exportables que son útiles para operaciones y vigilancia de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real para monitoreo de posición y reconstrucción de rutas.
-- Detección de encendido y estado de la alimentación para informes precisos de motor encendido/apagado y alertas de desconexión de energía.
-- Notificaciones de movimiento, velocidad y entrada/salida de geocerca para apoyar flujos anti-robo y cumplimiento de la flota.
-- Eventos de comportamiento de conducción \(aceleración brusca, frenada brusca, conducción en curvas\) y detección de colisiones para analítica de seguridad y programas de seguros basados en el uso.
-- Monitoreo de voz remoto mediante el micrófono integrado \(alcance de voz de hasta ~5 metros\) para apoyar la verificación de incidentes y las comunicaciones con el conductor cuando la ley lo permita.
-- Almacenamiento en búfer de datos a bordo y 16 + 16 MB de almacenamiento para preservar eventos recientes durante breves interrupciones de conectividad.
+- Actualizaciones de ubicación en tiempo real y reconstrucción de rutas para visibilidad activa de la flota.
+- Alertas basadas en eventos como movimiento, cruces de geocerca y desconexión de energía.
+- Información sobre comportamiento de conducción a partir de eventos de movimiento para apoyar programas de seguridad y análisis.
+- Indicadores de estado de encendido y alimentación para verificar si el motor está encendido o apagado.
+- Informes históricos y telemetría exportable para respaldar operaciones, cumplimiento y trámites con aseguradoras.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE Cat 1 con respaldo GSM \(2G\) |
-| --- | --- |
-| Bandas | Múltiples bandas LTE FDD/TDD; GSM 850/900/1800/1900 MHz |
-| Alimentación y batería | Rango de entrada 9–36 V DC; batería de respaldo LiCo de 50 mAh de grado industrial para reportar pérdidas de energía |
-| Interfaces | Conector OBDII plug-and-play; ranura Nano-SIM; puerto USB Type-C para configuración; detección de encendido/alimentación vía OBDII |
-| GNSS | Posicionamiento GPS + BDS; precisión \<2.5 m CEP; sensibilidad hasta -162 dBm; TTFF caliente ≤1 s, frío ≤32 s |
-| Sensores de movimiento | Acelerómetro y giróscopo para telemetría de conducción y detección de colisiones |
-| Monitoreo de voz | Micrófono integrado para monitoreo de voz a distancia \(alcance de hasta ~5 m\) |
-| Almacenamiento | Memoria a bordo 16 + 16 MB para almacenamiento de eventos |
-| Ambiental | Dimensiones 51.0 x 50.0 x 22.0 mm; peso 42 g; rango operativo -20 °C a 70 °C; 5–95% de humedad no condensante |
-
-## Casos de uso
-
-- Gestión de flotas: instalación rápida en vehículos y obtención de seguimiento en tiempo real inmediato, puntuación de conductores y telemática de rutas a través de Plaspy.
-- Antirobo y recuperación: alertas de movimiento, geocerca y desconexión de la alimentación proporcionan aviso temprano ante usos no autorizados y ayudan a localizar rápidamente los vehículos.
-- Seguros basados en el uso \(UBI\): datos GNSS precisos junto con acelerómetro/giróscopo respaldan primas basadas en el comportamiento y evaluación de riesgo.
-- Operaciones de alquiler y car-sharing: instalación rápida de OBDII, monitoreo de voz y telemetría remota simplifican la incorporación de la flota y la gestión de incidentes.
-- Asistencia en carretera y cumplimiento: ubicación inmediata y estado de la batería/encendido ayudan a los despachadores a priorizar el servicio y verificar el estado del vehículo.
+- Gestión de flotas de automóviles particulares que requieren instalación rápida y monitoreo centralizado.
+- Flujos de trabajo de antirrobo y recuperación usando alertas por movimiento, geocerca y pérdida de energía.
+- Programas de seguros basados en uso y puntuación de conductores que dependen de eventos de comportamiento.
+- Operaciones de renta y carsharing que necesitan incorporación rápida de vehículos y evidencia ante incidentes.
+- Despacho y asistencia en carretera donde el estado y la ubicación inmediata del vehículo son críticos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El VL512 combina una instalación fácil con la profundidad de telemetría que exigen las plataformas modernas de gestión de flotas y seguros. Su compatibilidad con Plaspy permite aprovechar el seguimiento en tiempo real, métricas de comportamiento del conductor y alertas basadas en eventos sin instalaciones complejas. La conectividad LTE-first con respaldo GSM, el posicionamiento GPS + BDS de alta precisión y los sensores de movimiento proporcionan datos de ubicación y seguridad confiables en Plaspy, mientras que el almacenamiento a bordo y una batería de respaldo reducen las lagunas de datos durante interrupciones transitorias.
+El VL512 combina despliegue sencillo con un conjunto de telemetría que se integra bien con las capacidades de monitoreo y reporte de Plaspy. Su diseño OBDII compacto y los sensores integrados proporcionan los datos básicos de ubicación y eventos que los operadores de flotas necesitan para mantener visibilidad, gestionar programas de seguridad y responder a incidentes sin cambios complejos de hardware.
 
-Ya sea que necesites un rastreador GPS para gestión de flotas escalable, monitoreo antirobo o analítica de seguros basada en el uso, el VL512 ofrece una solución OBDII compacta y rentable que se integra con los tableros y el sistema de alertas de Plaspy. Para despliegues que requieran capacidades adicionales como monitoreo de combustible, control del inmovilizador o sensores Bluetooth, el VL512 proporciona la telemetría fundamental; Plaspy puede combinar sus características de plataforma o periféricos externos para ampliar la funcionalidad donde sea necesario, configurando una pila telemática flexible que crece junto a su negocio.
-
+Si está evaluando rastreadores vehiculares compactos para seguimiento escalable de flotas, monitoreo antirrobo o telemetría basada en uso, el VL512 es una opción práctica a considerar junto con Plaspy. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com y verifique las especificaciones y disponibilidad actuales en el sitio del fabricante https://www.iconcox.com/. Las especificaciones y la disponibilidad de productos pueden cambiar con el tiempo, por lo que le recomendamos confirmar los detalles con la documentación oficial del fabricante.

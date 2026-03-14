@@ -2,73 +2,61 @@
 slug: /neomatica/adm50
 id: adm50
 sidebar_label: ADM50
+title: Neomatica - ADM50
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS personal compacto Neomatica ADM50 compatible con Plaspy para rastreo en tiempo real confiable y larga autonomía
+keywords:
+  - Neomatica ADM50
+  - rastreador GPS ADM50
+  - ADM50 Plaspy
+  - ADM50 compatible con Plaspy
+  - rastreador GPS personal
+  - rastreador de activos
+  - GPS de larga batería
+  - MT3333 GNSS
+  - rastreador GNSS
+  - ADM50 descontinuado
 ---
+
 # Neomatica - ADM50
 
 ![ADM50](./tracker.png)
 
-# ADM50 Personal GPS Tracker
+El ADM50 es un rastreador GPS compacto alimentado por batería, diseñado para la supervisión prolongada de personas y activos. Combina posicionamiento GNSS con correcciones asistidas por LBS, una batería Li‑Po de 3350 mAh y varios modos de funcionamiento para equilibrar la precisión de los reportes de ubicación y una larga vida en espera. El equipo incluye funciones de reporte por eventos como un botón de pánico y detección de movimiento, útiles para capturar incidentes y ahorrar batería cuando está inactivo.
 
-El ADM50 es un rastreador GPS compacto alimentado por batería, diseñado para el monitoreo personal y de activos a largo plazo, y listado como compatible con Plaspy para una integración sin fisuras en tus flujos de trabajo de rastreo en tiempo real y telemetría de Plaspy. Con posicionamiento GPS/GLONASS, correcciones asistidas por LBS y una batería Li-Po de 3350 mAh, el ADM50 equilibra el seguimiento preciso con tiempos de espera prolongados en múltiples modos de funcionamiento.
+Listado como compatible con Plaspy, el ADM50 puede integrarse en la plataforma para mapas en vivo, Alertas y reconstrucción histórica de rutas. Sus intervalos de reporte configurables, informes activados por movimiento e historial de pista local lo hacen práctico en despliegues que requieren visibilidad en tiempo real y monitoreo de larga duración. Tenga en cuenta que el fabricante indica este modelo como retirado o descontinuado, por lo que confirme la disponibilidad actual antes de comprar.
 
-Diseñado para casos de uso que van desde la seguridad personal hasta la protección remota de activos, el ADM50 admite modos detallados de rastreo y de beacon de bajo consumo, un botón de pánico \(alarma\), un acelerómetro de tres ejes para la detección de movimiento y intervalos de reporte configurables. Es adecuado para rastreo en tiempo real en Plaspy, ofreciendo tasas de actualización flexibles y una capacidad sustancial de historial de rastreo para la gestión de flotas, monitoreo antirrobo y necesidades generales de telemetría. Nota: el ADM50 está listado como retirado/descontinuado por el fabricante—verifique la disponibilidad antes de realizar el pedido.
+## Características clave
 
-## Puntos clave
-
-- Rastreador GPS compatible con Plaspy que admite rastreo en tiempo real y intervalos de reporte configurables para telemetría flexible.
-- Doble GNSS \(GPS/GLONASS\) vía el chipset MT3333 para fijaciones de posición confiables en entornos variados.
-- Batería Li‑Po de 3350 mAh de gran capacidad con múltiples modos de operación: desde actualizaciones del rastreador de alta frecuencia \(horas de funcionamiento\) hasta modo beacon \(hasta ~100 días\) para monitoreo a largo plazo.
-- Botón de pánico \(alarma\) para alertas inmediatas e informes basados en eventos hacia los paneles e alertas de Plaspy.
-- Acelerómetro de tres ejes para detección de movimiento, comportamiento de reposo/despertar y generación de informes basados en movimiento para preservar la vida de la batería.
-- Memoria de historial de rutas de hasta 100,000 registros—almacene registros de ruta extensos localmente para su posterior subida a Plaspy.
-- Factor de forma compacto y ligero \(88 × 56 × 25 mm, 120 g\) para colocación discreta en uso personal, de mascotas o de activos.
+- Rastreador GPS personal compatible con Plaspy, apto para monitoreo prolongado y visibilidad en tiempo real.
+- Posicionamiento dual GNSS con asistencia LBS para mejorar la obtención de fijaciones en entornos variados.
+- Batería Li‑Po de gran capacidad (3350 mAh) y múltiples modos de operación para ampliar la autonomía en espera y el tiempo entre beacons.
+- Botón físico de pánico para notificación inmediata de incidentes y alertas.
+- Acelerómetro de tres ejes para detección de movimiento e informes basados en actividad que reducen el consumo energético.
+- Capacidad de historial de pista local para almacenar registros de rutas y subirlos después para análisis.
+- Factor de forma compacto y liviano para colocación discreta en personas o activos.
 
 ## Cómo funciona con Plaspy
 
-El ADM50 transmite coordenadas GNSS y telemetría de eventos a través de GSM/GPRS a Plaspy para mapeo en tiempo real, alertas e informes históricos. La integración compatible con Plaspy aprovecha los intervalos de reporte configurables y las señales de alarma del dispositivo, de modo que puedas ajustar la frecuencia de actualizaciones y las alertas para adaptarlas a casos de uso que van desde el rastreo de alta resolución hasta el modo beacon de ahorro de batería. Dado que el ADM50 almacena historiales de ruta extensos localmente, Plaspy puede reconstruir rutas incluso cuando la conectividad es intermitente.
+Cuando lo utilice con Plaspy, el ADM50 envía telemetría de ubicación y eventos para seguimiento en vivo, alertas e informes históricos. Plaspy aprovecha el comportamiento de reporte configurable y las señales de evento del dispositivo para que usted ajuste con precisión la frecuencia de envío de posiciones y qué incidentes generan notificaciones.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas vía GPRS para rastreo en vivo en Plaspy.
-- La localización asistida por LBS complementa GNSS para fijaciones más rápidas o en interiores cuando la recepción satelital es limitada.
-- Notificaciones de movimiento y reposo/despertar del acelerómetro de tres ejes para informes activados por movimiento y ahorro de energía.
-- Eventos del botón de pánico/alarma enviados a Plaspy para alertas inmediatas y gestión de incidentes.
-- Intervalos de reporte configurables y múltiples modos de operación \(modo rastreador detallado y modo beacon\) para equilibrar la granularidad del rastreo y la autonomía de la batería.
-- Historial de rutas local \(hasta 100,000 registros\) compatible con análisis retrospectivo y recuperación de rutas en Plaspy.
-- Las alertas SMS de batería baja pueden usarse como canal de notificación secundario; la documentación del fabricante y el firmware están disponibles para orientación de configuración.
+- Actualizaciones de ubicación y telemetría en tiempo real mostradas en los mapas y paneles de Plaspy.
+- Posicionamiento asistido por LBS que complementa GNSS para mejorar las fijaciones cuando la recepción de satélites es limitada.
+- Notificaciones basadas en movimiento desde el acelerómetro que permiten reportes activados por actividad y reducción de informes durante inactividad.
+- Eventos del botón de pánico reenviados a Plaspy para generar alertas inmediatas para operadores o equipos de respuesta.
+- Intervalos de reporte y modos de beacon configurables para balancear la granularidad del seguimiento y la duración de la batería.
+- Historial de pista local almacenado en el dispositivo que permite recuperar rutas en Plaspy tras periodos de conectividad intermitente.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Chipset GNSS | MT3333 \(GPS / GLONASS\) |
-| --- | --- |
-| Conectividad | GSM con GPRS Multi-slot Class 12 |
-| Bandas | GSM 850 / 900 / 1800 / 1900 |
-| Potencia del transmisor GSM | 2 W |
-| Soporte de SIM | 1 tarjeta SIM + chip SIM |
-| Alimentación y batería | Li-Po 3350 mAh; voltaje de carga 5 V \(miniUSB\) |
-| Historial de rastreo | Hasta 100,000 registros de ruta |
-| Sensores | Acelerómetro de tres ejes \(detección de movimiento\) |
-| Pánico / Alarma | Botón físico de pánico |
-| Interfaz PC | miniUSB para carga y configuración |
-| Temperatura de operación \(descarga\) | -20 °C a +60 °C |
-| Temperatura de operación \(carga\) | 0 °C a +45 °C |
-| Dimensiones | 88 × 56 × 25 mm |
-| Peso | 120 g |
-| Bluetooth | No incluido / N/A |
-| Gestión remota y firmware | Documentación y firmware disponibles del fabricante a solicitud |
-| Disponibilidad | Listado como retirado/descontinuado—verifique stock antes de ordenar |
-| Precio minorista típico | 12,000 RUB \(como se muestra en la página del producto\) |
-
-## Casos de uso
-
-- Seguridad personal y sistemas de pánico: lleve el ADM50 para reportes de alarma instantáneos a Plaspy en situaciones de emergencia.
-- Seguridad de vehículos y mercancías: colocación discreta para monitoreo antirrobo y historial de rutas cuando se requiere telemetría granular.
-- Control de personal y acceso en sitios restringidos: monitoree el movimiento del personal y reciba alertas sobre eventos no autorizados.
-- Rastreo de mascotas y animales o eventos deportivos: tamaño compacto y vida útil prolongada en modo beacon permiten el rastreo sin recargas frecuentes.
-- Protección remota de activos y seguimiento general de activos: la capacidad de espera extendida es adecuada para activos estacionales o que requieren revisiones poco frecuentes.
+- Seguridad personal y monitoreo de trabajadores solitarios donde son necesarias alertas de pánico y visibilidad de ubicación.
+- Protección de activos y monitoreo anti‑robo para equipos portátiles o contenedores.
+- Seguimiento de mascotas o animales y eventos deportivos que se benefician de una larga autonomía en modo beacon.
+- Vigilancia de activos remotos para elementos estacionales o poco inspeccionados que requieren larga espera.
+- Seguimiento básico de flotas o equipos donde son suficientes fijaciones GNSS confiables e informes por movimiento.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el ADM50 para tu implementación en Plaspy te ofrece un rastreador GPS compacto y de bajo consumo, centrado en el monitoreo a largo plazo y una telemetría de ubicación confiable. Su chipset MT3333 GPS/GLONASS, posicionamiento asistido por LBS y modos de reporte configurables permiten optimizar el volumen de datos frente a la duración de la batería, ideal para escenarios de gestión de flotas que requieren rastreo en tiempo real y beacon de larga duración. El botón de pánico incorporado y la detección de movimiento basada en el acelerómetro proporcionan telemetría de eventos útil que Plaspy puede presentar como alertas e informes accionables.
+El ADM50 es una opción práctica para organizaciones que requieren un rastreador compacto y eficiente en consumo compatible con Plaspy. Su enfoque en posicionamiento GNSS, detección de movimiento, reportes configurables y almacenamiento local de pistas lo hace idóneo para escenarios que demandan un equilibrio entre monitoreo en tiempo real y larga autonomía. Estas características permiten a los usuarios de Plaspy adaptar la visibilidad y las alertas a las necesidades operativas sin generar volúmenes de datos innecesarios.
 
-Tenga en cuenta que el ADM50 pone énfasis en GNSS y telemetría de movimiento y no incluye sensores Bluetooth integrados, monitoreo de combustible ni interfaces de encendido/inmovilizador. Si su caso de uso con Plaspy necesita telemetría como nivel de combustible, estado de encendido o control remoto del inmovilizador, combine el ADM50 con sistemas externos apropiados o seleccione una variante de rastreador que admita explícitamente esas interfaces. Para un monitoreo estándar de uso personal, de activos y de flotas básico, donde primen la larga autonomía y la confiabilidad de los informes de posición, el ADM50 sigue siendo una opción práctica y compatible con Plaspy, siempre que confirme la disponibilidad actual con el fabricante.
-
+Dado que el ADM50 figura como retirado por el fabricante, su disponibilidad puede ser limitada. Si necesita tipos de telemetría adicionales u opciones de interfaz que este modelo no enfatiza, considere verificar dispositivos alternativos o integraciones externas que se ajusten mejor a esos requisitos. Para más información sobre cómo Plaspy puede usar rastreadores compatibles como el ADM50 visite https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos confirmar los detalles actuales en el sitio del fabricante https://neomatica.com/.

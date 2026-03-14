@@ -2,63 +2,61 @@
 slug: /topfly/tlp2_sfb
 id: tlp2_sfb
 sidebar_label: TLP2-SFB
+title: TopFly - TLP2-SFB
 sidebar_class_name: menu_item_tracker
+description: Solar assisted rugged GPS tracker for containers trailers and trucks Compatible with Plaspy for remote fleet visibility and sensor telemetry
+keywords:
+  - TopFly TLP2-SFB
+  - TLP2-SFB
+  - TopFly tracker
+  - solar asset tracker
+  - IP67 GPS tracker
+  - fleet tracking
+  - cold chain monitoring
+  - BLE sensor tracker
+  - Plaspy compatible
+  - remote asset monitoring
 ---
+
 # TopFly - TLP2-SFB
 
 ![TLP2-SFB](./tracker.png)
 
-## TLP2-SFB \(4G LTE\) Asset Tracker — Plaspy Compatible
+The TLP2-SFB is a solar assisted heavy duty GPS tracker designed for long term outdoor asset monitoring. Built for containers, trailers, and trucks, it combines a rugged IP67 enclosure and multiple mounting options with integrated solar charging to support extended deployments. The unit focuses on reliable location visibility and substantial offline buffering so assets remain trackable even across intermittent coverage zones.
 
-The TLP2-SFB \(4G LTE\) is a solar-assisted, heavy-duty GPS tracker designed for long-term outdoor asset monitoring. Built for containers, trailers and trucks, it delivers robust real-time tracking and extensive offline buffering so assets stay visible to Plaspy even in intermittent coverage. Its rugged IP67 enclosure, multiple mounting options, and integrated solar charging make it ideal for remote fleet management and anti-theft workflows.
-
-As a Plaspy compatible GPS tracker, the TLP2-SFB streams location and telemetry via TCP/UDP/MQTT/SMS and pairs with Bluetooth Low Energy sensors for temperature, humidity and door status. Use it to feed Plaspy dashboards and alerts for movement start/stop, parking, removal detection, and rich sensor telemetry that supports cold-chain monitoring and asset security programs.
+As a Plaspy compatible tracker, the TLP2-SFB streams location and telemetry to Plaspy and can relay external sensor data for richer operational insights. Its ability to deliver frequent position updates and to store buffered history makes it a practical choice for operators using Plaspy for real time monitoring, alerts, and historical reporting of remote or high value assets.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker with real-time tracking updates as frequent as every 3 seconds for precise location visibility.
-- Solar-charged 9600 mAh Li‑Polymer battery plus internal backup to extend deployment life in remote outdoor assets.
-- Large onboard buffer \(up to 49,000 location points\) preserves history when out of network coverage and syncs to Plaspy when reconnected.
-- BLE 5.0 support for temperature, humidity and door sensors \(TSTH1-B, TSDT1-B\) and wireless relays \(TSR1-B\) for telemetry and control integration.
-- Rugged IP67-rated housing, dual light sensors for tamper/removal detection, and flexible mounting \(magnet, screws, cable ties, glue\).
-- High-precision GNSS with Qualcomm Gen 8C receiver and multi-constellation support for sub-2 m autonomous accuracy \(CEP\).
-- Advanced event alerts: configurable movement start/stop, parking, and removal alarms that integrate with Plaspy rules and notifications.
+- Solar assisted design and large onboard battery capacity to extend deployment autonomy for remote assets.
+- Rugged IP67 rated housing and multiple mounting options suited for containers trailers and heavy vehicles.
+- High frequency tracking capability with updates as frequent as every 3 seconds for improved location visibility.
+- Large offline buffer preserving up to 49,000 location points to maintain history during connectivity gaps.
+- BLE sensor support for temperature humidity and door status to enable integrated telemetry in Plaspy.
+- Dual light sensors and motion detection to support removal and tamper alerts for security workflows.
 
 ## How It Works with Plaspy
 
-The TLP2-SFB integrates into Plaspy by transmitting location and telemetry over standard protocols \(TCP/UDP/MQTT/SMS\). Plaspy ingests GPS points, buffered history, and BLE sensor data to power real-time tracking, alerts, and historical reports. Administrators can configure alert thresholds in Plaspy for motion, parking, tamper, and sensor conditions to automate anti-theft and cold-chain responses.
+The TLP2-SFB integrates with Plaspy by sending location, buffered history, and sensor telemetry to Plaspy where points are ingested for live maps, alerts, and reports. Plaspy can use the tracker feed to power operational dashboards, automated notifications, and historical analysis.
 
-- Real-time location and telemetry updates \(as frequent as every 3 seconds\) for live Plaspy maps and tracking pages.
-- Buffered location storage \(up to 49,000 points\) that uploads to Plaspy when connectivity resumes to preserve trip history and forensic audit trails.
-- Movement start/stop and parking event alerts that trigger Plaspy notifications and workflows for fleet management and anti-theft.
-- Removal/tamper detection via dual light sensors, reported to Plaspy as removal or tamper events.
-- Bluetooth sensors \(temperature, humidity, door\) and wireless relays reported through the tracker, enabling Plaspy to monitor cold-chain conditions and door status in real time.
+- Live location and telemetry updates visible on Plaspy maps and tracking pages for operational oversight.
+- Buffered location uploads ensure trip history and diagnostic points are synchronized to Plaspy after connectivity resumes.
+- Movement start stop and parking events trigger Plaspy notifications and can be used in automated workflows for fleet operations.
+- Removal and tamper detection reported to Plaspy allow security teams to respond to unauthorized movement or device interference.
+- BLE sensor readings for temperature humidity and door status flow into Plaspy to support cold chain alerts and condition monitoring.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE \(FDD\), Cat M1 support; EGPRS; TCP/UDP/MQTT/SMS transport |
-| --- | --- |
-| Bands | FDD LTE B1/B2/B3/B4/B5/B8/B12/B13/B19/B20/B25/B28; TDD B39 \(Cat M1 only\); EGPRS for fallback |
-| Power & Battery | Rechargeable Li‑Polymer 9600 mAh \(3.6 V\) with solar panel charging; internal backup battery |
-| Onboard Storage | Buffer up to 49,000 location points for offline logging |
-| Interfaces & Indicators | Magnetic 4‑pin charging/data port, indicator LEDs, one physical power switch, dual light sensors, internal temperature sensor |
-| GNSS | Qualcomm Gen 8C receiver; GPS + GLONASS + Galileo + Beidou; autonomous position accuracy &lt;2 m CEP |
-| Bluetooth | BLE 5.0 for external sensors and wireless relays \(compatible with TOPFLYtech TSTH1-B, TSDT1-B, TSR1-B\) |
-| Sensing & Detection | 3‑axis accelerometer for motion detection; dual light sensors for removal/tamper alarms; supports up to 64 geo-fence regions |
-| Remote Management | FOTA support for remote firmware updates; remote telemetry via MQTT/TCP/UDP/SMS |
-| Form Factor & Durability | IP67 waterproofing \(tested to 5 m\), dimensions 85 × 185 × 31 mm, weight 370 g; multiple mounting options \(magnet, screws, cable ties, glue\) |
-
-## Use Cases
-
-- Container and trailer tracking — continuous real-time location and long offline buffering for cross-border or remote logistics.
-- Cold-chain asset monitoring — integrate BLE temperature and humidity sensors to feed Plaspy alerts and compliance reports.
-- Fleet management for heavy vehicles — live tracking and movement/parking events support route optimization and utilization reporting.
-- Anti-theft and removal detection — dual light sensors and accelerometer-triggered alerts provide tamper and removal notifications to Plaspy operators.
-- Long-term asset deployments — solar charging and rugged IP67 design enable extended field use without frequent maintenance.
+- Container and trailer tracking with long offline buffering for cross border and remote logistics visibility.
+- Cold chain asset monitoring using BLE temperature and humidity sensors to feed compliance and alerting in Plaspy.
+- Fleet monitoring for heavy vehicles where movement and parking events support utilization and route oversight.
+- Anti theft and removal detection workflows that rely on tamper alerts and movement notifications.
+- Long term outdoor asset deployments where solar charging and rugged construction reduce maintenance visits.
 
 ## Why Choose This Tracker with Plaspy
 
-The TLP2-SFB pairs durability and long autonomy with high-frequency positioning and extensive buffering to deliver reliable Plaspy-compatible tracking for demanding outdoor assets. Its BLE sensor support brings telemetry \(temperature, humidity, door status\) into the same platform, simplifying cold-chain and security monitoring. Solar charging plus a large Li‑Polymer battery reduces maintenance visits and keeps assets reporting for months. Rugged IP67 construction and multiple mounting options make it practical for fleet and container deployments where uptime is critical.
+The TLP2-SFB offers a balance of durability, extended autonomy, and integrated sensor support that aligns with Plaspy use cases for remote and heavy duty assets. Its combination of frequent position updates, large offline buffering, and BLE sensor integration helps organizations maintain continuous visibility and actionable telemetry within the Plaspy platform.
 
-When integrated with Plaspy, the TLP2-SFB supports streamlined fleet management, automated anti-theft alerts, and rich telemetry reporting. Organizations gain precise location history, tamper detection, and sensor-driven notifications without sacrificing deployment longevity — a practical choice for operators who require trustworthy, scalable GPS tracking and telemetry for heavy-duty assets.
+Choosing this tracker with Plaspy can reduce on site maintenance needs while centralizing location history, tamper alerts, and environmental sensor data in one fleet management system. For teams managing containers trailers or other long term outdoor assets, the TLP2-SFB is a practical option to consider for dependable reporting and integrated telemetry.
 
+Learn more about Plaspy on the main website https://www.plaspy.com and verify current product specifications availability and manufacturer documentation on the TopFly site https://www.topflytech.com/ as product details and features can change over time.

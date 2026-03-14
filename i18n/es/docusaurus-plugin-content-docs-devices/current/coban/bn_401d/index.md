@@ -2,63 +2,62 @@
 slug: /coban/bn_401d
 id: bn_401d
 sidebar_label: BN-401D
+title: Coban - BN-401D
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto Coban BN-401D compatible con Plaspy, seguimiento en tiempo real, alertas antirrobo y corte remoto
+keywords:
+  - Coban BN-401D
+  - BN-401D Plaspy
+  - rastreador GPS Coban BN-401D
+  - seguimiento de flotas BN-401D
+  - rastreador para motocicleta BN-401D
+  - BN-401D antirrobo
+  - rastreadores compatibles con Plaspy
+  - rastreador GPS para motocicletas
+  - rastreador compacto para vehículos
+  - inmovilizador BN-401D
 ---
+
 # Coban - BN-401D
 
 ![BN-401D](./tracker.png)
 
-# BN-401D LTE Motorcycle Management Terminal
+El BN-401D es un terminal GPS compacto de Coban diseñado para motocicletas y vehículos pequeños que brinda seguimiento confiable en tiempo real y protección antirrobo. Ideal para instalaciones ocultas, combina telemetría esencial con batería de respaldo recargable y, en la versión D, controles remotos que permiten seguimiento con detección de encendido, alarmas SOS y por impacto, geovallas y corte remoto de combustible o alimentación para una gestión y seguridad vehicular sencillas.
 
-El BN-401D es un rastreador GPS compacto, compatible con Plaspy, diseñado para un seguimiento en tiempo real confiable y protección anti‑robo de motocicletas y vehículos pequeños. Construido para instalaciones ocultas y gestión continua de flotas, esta unidad compatible con LTE ofrece las características centrales de telemetría y control remoto necesarias para una seguridad de vehículos efectiva y una gestión de vehículos sencilla.
+Como dispositivo compatible con Plaspy, el BN-401D envía actualizaciones de ubicación, alertas de eventos y estado del equipo necesarios para la supervisión centralizada de flotas y el monitoreo individual de vehículos. Su diseño LTE con retroceso a 2G y las funciones tipo inmovilizador lo convierten en una opción práctica para usuarios de Plaspy que requieren hardware compacto que se integre en paneles, reglas de alerta y reproducción de recorridos.
 
-El BN-401D admite tanto 4G LTE como una compatibilidad de respaldo 2G \(GSM/GPRS/LTE\) y se conecta directamente al suministro de energía del vehículo de 12V–24V. Con una batería de respaldo recargable y un control remoto dedicado en el D variant, ofrece seguimiento sensible a la ignición, alarmas SOS y de golpes, geocercas y corte remoto de combustible/potencia; todo ello se integra de forma limpia en Plaspy para la monitorización centralizada, alertas y reproducción de trayectos.
+## Características principales
 
-## Aspectos Clave
+- Diseñado para el seguimiento de motocicletas y autos pequeños, con factor de forma compacto para instalación oculta.
+- Conectividad LTE con retroceso a 2G para mayor cobertura y reporte continuo de telemetría.
+- Batería de respaldo recargable más conexión directa a 12V–24V del vehículo para mantener el rastreo ante pérdida de alimentación.
+- Modelo D incluye armar/desarmar remoto y corte remoto de combustible o alimentación para control tipo inmovilizador.
+- Suite de alarmas integrada: SOS, detección de impacto/movimiento, exceso de velocidad y aviso de desconexión de alimentación externa.
+- Comportamiento energético inteligente que reduce reportes en reposo y se reactiva rápidamente ante movimiento o eventos.
+- Kit estándar normalmente incluye relé, arnés de cableado y control remoto para despliegues más rápidos.
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y gestión antirrobo de motocicletas y automóviles pequeños.
-- Conectividad dual \(4G LTE + respaldo 2G\) para una cobertura más amplia y telemetría fiable.
-- Instalación compacta y oculta con alimentación directa de 12V–24V y una batería de respaldo recargable de 3.7V y 90 mAh.
-- Funciones de control remoto en la D variant: activar/desactivar y corte remoto de combustible/potencia \(funciona como una inmovilizador\).
-- Conjunto completo de alarmas: SOS, movimientos/choques, exceso de velocidad, batería baja y alertas por desconexión de energía externa.
-- Comportamiento inteligente de alimentación: permanece fuera de línea cuando está estacionario para ahorrar energía, se activa con el movimiento o ante disparos para reportes inmediatos.
-- Accesorios estándar incluidos: relé, conjunto de cableado y control remoto para instalación rápida y activación del inmovilizador.
+## Cómo funciona con Plaspy
 
-## Cómo Funciona con Plaspy
+Al conectarlo a Plaspy, el BN-401D transmite información de ubicación y eventos a la plataforma para que usted pueda ver posiciones en vivo, reproducir recorridos históricos y recibir alertas oportunas sobre incidentes de seguridad u operativos. Plaspy consolida los datos del rastreador con el resto de la información de la flota, ofreciendo una vista única del estado del dispositivo y del historial de incidentes.
 
-Al integrarse con Plaspy, el BN-401D entrega datos continuos del rastreador GPS y telemetría accionable a la plataforma Plaspy para la gestión centralizada de flotas y el monitoreo individual de vehículos. Plaspy procesa actualizaciones de ubicación, eventos de alarma y estado del dispositivo a través de los canales de comunicación compatibles del equipo, para que puedas ver posiciones en tiempo real, reproducir trayectos y configurar alertas para anti‑robo y flujos de trabajo operativos.
+- Actualizaciones de posición en vivo y reproducción de recorrido para visibilidad del movimiento de los vehículos.
+- Notificaciones de alarmas y eventos como SOS, movimiento/impacto, exceso de velocidad y violaciones de geovallas integradas en las alertas de Plaspy.
+- Reporte de encendido y estado del dispositivo para respaldar seguimiento basado en eventos y reportes operativos.
+- Acciones tipo inmovilizador desde el modelo D integradas en los controles de Plaspy, cuando la normativa local lo permita.
+- Alertas de batería y de alimentación externa para ayudar a prevenir tiempo de inactividad del dispositivo y facilitar mantenimiento proactivo.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(posición en vivo y reproducción de trayectos\) a través de LTE/2G.
-- Estado de encendido ACC y alarmas relacionadas con la ignición para seguimiento basado en eventos y monitorización del comportamiento del conductor.
-- Corte remoto de combustible/potencia, utilizable como inmovilizador mediante controles de Plaspy cuando se despliegue el modelo D.
-- Alertas de eventos críticos: alarma de emergencia SOS, alarma de movimiento/choque, alertas de exceso de velocidad y notificaciones de infracción de geocerca.
-- Telemetría de energía y batería: alarma de desconexión de energía externa y avisos de batería baja para evitar caídas del dispositivo.
+## Casos de uso típicos
 
-## Resumen Técnico
+- Protección antirrobo y recuperación de motocicletas con instalación oculta, alarmas por impacto y capacidad de corte remoto.
+- Seguimiento de pequeñas flotas para visibilidad en tiempo real, revisión de rutas y alertas simples basadas en geovallas.
+- Monitoreo propietario para vehículos individuales con notificaciones de encendido y avisos de batería baja.
+- Flujos de trabajo de inmovilización remota para recuperación o gestión segura del vehículo usando los controles de la variante D.
+- Programas de renta de corto plazo o vehículos compartidos que requieren rastreo ligero y funciones básicas de control remoto.
 
-| Conectividad | 4G LTE con respaldo 2G \(GSM/GPRS\) |
-| --- | --- |
-| Bandas | Bandas 4G: B1/B2/B3/B4/B5/B7/B8/B28A/B28B/B40; 2G: 850/900/1800/1900 MHz |
-| Alimentación y batería | Alimentación del vehículo: 12V–24V; batería de respaldo recargable: 3.7V, 90 mAh |
-| Interfaces y Controles | Conjunto de cableado y relé incluidos; D-model admite armado/desarmado remoto mediante control remoto dedicado; corte remoto de combustible/potencia compatible |
-| GNSS | Receptor de alta precisión; sensibilidad hasta -165 dBm; precisión de posicionamiento aproximadamente 5 m; arranque en frío ~45 s, arranque cálido ~35 s, arranque en caliente ~1 s |
-| Comportamiento de Posicionamiento | Generación de informes en tiempo real; modo offline inteligente cuando está estacionario; se activa con el movimiento o ante llamadas/SMS/alarmas entrantes |
-| Protocolos y Configuración Remota | Admite transporte TCP/UDP/SMS; comandos de configuración por SMS para ajuste directo |
-| Accesorios | El kit estándar incluye relé, conjunto de cableado y control remoto \(D-model\) |
-| Dimensiones y Peso | 6.78 × 4.1 × 1.84 cm; 58 g |
-| Ambiental | Temperatura de operación: -20°C a +45°C; Almacenamiento: -40°C a +85°C; Humedad 5%–95% sin condensación |
-| Formato y Uso | Rastreador compacto para instalación en vehículos, para motocicletas y automóviles pequeños; diseñado para instalación oculta |
+## Por qué elegir este rastreador con Plaspy
 
-## Casos de Uso
+El BN-401D combina un diseño de bajo perfil con un conjunto práctico de alarmas y funciones de control remoto que responden a las necesidades comunes de seguridad en motocicletas y supervisión de flotas pequeñas. Su enfoque LTE con retroceso garantiza que los datos de ubicación y eventos lleguen a Plaspy de forma fiable, mientras que el comportamiento energético inteligente y la batería de respaldo ayudan a mantener la cobertura cuando los vehículos están estacionados o se interrumpe la alimentación externa.
 
-- Antirrobo para motocicletas: instalación oculta, alarmas de movimiento y choque, SOS y corte remoto para inmovilizar un vehículo robado.
-- Gestión de flotas pequeñas: seguimiento en tiempo real, reproducción de trayectos y alertas de geocerca para una supervisión sencilla de la flota y visibilidad de rutas.
-- Monitoreo de vehículos individuales: notificaciones de encendido/ACC y alertas de batería baja/energía externa para la tranquilidad del propietario.
-- Escenarios de inmovilización remota: usar el armado/desarmado remoto y el corte remoto de combustible/potencia del D model para asegurar los vehículos bajo demanda.
+Si usted necesita un rastreador compacto que proporcione telemetría esencial, reportes de alarma y control tipo inmovilizador sin complejidad innecesaria, el BN-401D es una opción sensata para usar con Plaspy. Plaspy puede ingerir los datos del dispositivo y mostrarlos mediante paneles, alertas y reproducción para que los equipos monitoreen activos y respondan a incidentes desde una plataforma centralizada.
 
-## Por qué Elegir Este Rastreador con Plaspy
-
-Combinar el BN-401D con Plaspy ofrece un rastreador GPS diseñado específicamente para anti‑robo y telemetría de vehículos de forma sencilla. Su diseño LTE-first con respaldo 2G garantiza una conectividad constante para el seguimiento y la telemetría en tiempo real, mientras que el modo offline inteligente conserva la batería cuando los vehículos están estacionados. El control remoto de arm/ desarm y el corte de combustible/potencia del modelo D proporcionan un control práctico tipo inmovilizador que se integra en los flujos de trabajo de Plaspy para acciones remotas y alertas automatizadas.
-
-Para organizaciones y propietarios que necesitan un rastreador GPS de bajo impacto para la gestión de flotas o protección anti‑robo individual, el BN-401D ofrece posicionamiento fiable, alarmas esenciales y las funciones de control remoto requeridas para una seguridad de vehículos ágil. Al ser un dispositivo compatible con Plaspy, se integra en los paneles y sistemas de alertas existentes de Plaspy para gestionar dispositivos, revisar trayectos y responder a incidentes desde un único panel de control.
-
+Para saber más sobre cómo Plaspy puede gestionar dispositivos compatibles como el BN-401D, visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales y la documentación oficial del fabricante en https://www.coban.net/ antes de tomar decisiones críticas de adquisición o despliegue.

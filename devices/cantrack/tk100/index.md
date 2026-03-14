@@ -2,63 +2,61 @@
 slug: /cantrack/tk100
 id: tk100
 sidebar_label: TK100
+title: CanTrack - TK100
 sidebar_class_name: menu_item_tracker
+description: Hard wired vehicle GPS tracker compatible with Plaspy for real time tracking anti theft immobilizer SOS alarms and fleet monitoring
+keywords:
+  - CanTrack TK100
+  - TK100 tracker
+  - TK100 Plaspy
+  - GPS tracker TK100
+  - vehicle tracker TK100
+  - CanTrack GPS
+  - TK100 fleet tracking
+  - TK100 anti theft
+  - TK100 GPRS
+  - TK100 SOS
 ---
+
 # CanTrack - TK100
 
 ![TK100](./tracker.jpg)
 
-The TK100 \(GT06\) is a hard-wired vehicle GPS tracker designed for reliable, continuous positioning and remote control. Plaspy compatible out of the box, the TK100 uses GSM/GPRS and GPS satellite signals to deliver real-time tracking and telemetry to server and mobile app endpoints. Built for vehicle installation, it reports location, speed, ignition status and alarm events while providing anti-theft capabilities such as remote engine immobilization and SOS alarm reporting.
+The CanTrack TK100 is a hard wired vehicle GPS tracker built for continuous positioning and remote control. Commonly deployed in cars, trucks and motorcycles, it uses GPS satellite signals and cellular GPRS and SMS reporting to deliver real time location, speed, ignition state and alarm events to server and mobile endpoints. The TK100 also offers anti theft features such as remote engine immobilization and an SOS alarm for emergency reporting.
 
-Built for fleet management, car service shops, insurance tracking and motorcycle/e‑bike anti-theft applications, the TK100 runs from 9–36 V DC and is compact enough for discreet installation. Its support for GPRS upload, SMS reports and remote commands makes it easy to integrate with Plaspy for centralized fleet dashboards, alerts and historical analysis—giving operators dependable location data and actionable telematics without complex setup.
+As a device that is compatible with Plaspy out of the box, the TK100 can feed consistent telemetry into Plaspy dashboards and workflows. Its combination of GPRS upload, SMS reporting and remote command support makes it a practical choice for operators who want centralized fleet visibility, alerting and historical analysis without complex integration work.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for real-time tracking and centralized fleet management.
-- Hard-wired design \(9–36 V DC\) suitable for cars, trucks and motorcycles.
-- Remote engine immobilizer and SMS-based fuel/circuit control for anti-theft response.
-- GPRS or SMS reporting to server/app for continuous telemetry and historical logging.
-- Ignition \(ACC\) detection, overspeed and geo-fence alerts for operational oversight.
-- Power-cut alert and 200 mAh backup battery to detect tampering and short outages.
-- Emergency SOS button and two-way voice calling for driver safety and incident response.
+- Plaspy compatible GPS tracker for real time tracking and centralized fleet management
+- Hard wired design with wide input voltage range suitable for cars trucks and motorcycles
+- Remote engine immobilizer and SMS based circuit control for anti theft response
+- GPRS and SMS reporting to server and mobile endpoints for continuous telemetry and logging
+- Ignition detection plus overspeed and geo fence alert support for operational oversight
+- Power cut alert and a 200 mAh backup battery to detect tampering and short outages
+- Emergency SOS button and two way voice capability for driver safety and incident response
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, the TK100 streams vehicle position and event data over GPRS \(TCP/IP\) or sends SMS alerts to Plaspy endpoints, enabling live map views, automated notifications and fleet reports. Plaspy ingests the tracker’s telemetry so operators can combine GPS location, ignition state, speed and alarm events into dashboards, historical playback and custom alert rules for efficient fleet management and anti-theft workflows.
+When paired with Plaspy, the TK100 supplies position and event data so fleet operators can view live locations, receive alerts and analyze historical trips in a single platform. Plaspy ingests the tracker telemetry and makes it available for mapping, notifications and reporting to support daily operations and security workflows.
 
-- Real-time location and telemetry updates sent via GPRS \(TCP/IP\) or SMS to Plaspy servers.
-- Ignition \(ACC\) status and speed reporting for driver behavior and trip segmentation.
-- Geo-fencing alerts and overspeed alarms routed to Plaspy for immediate notification.
-- Remote immobilizer / fuel-circuit control via SMS commands for anti-theft intervention.
-- SOS/emergency alarm reporting and two-way voice call support for safety escalation.
-- Power-cut detection \(battery disconnect\) and backup battery reporting to surface tamper events.
-- Note: Plaspy can correlate TK100 data with other telemetry sources—such as dedicated fuel monitoring or Bluetooth sensors—if those inputs are available from integrated hardware or gateways.
+- Real time location and telemetry updates delivered to Plaspy via GPRS or SMS reporting
+- Ignition status and speed reporting to support trip segmentation and driver monitoring
+- Geo fence and overspeed alerts routed into Plaspy for immediate notification and action
+- Remote immobilizer commands and SMS control available for anti theft intervention
+- SOS alarm and two way voice events surfaced in Plaspy for safety escalation
+- Power cut detection and backup battery alerts to highlight potential tampering
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM/GPRS \(GPRS Class 12, TCP/IP\); SMS reporting |
-| --- | --- |
-| Bands | Quad-band GSM 850 / 900 / 1800 / 1900 MHz |
-| Power & Battery | Working voltage 9–36 V DC; working current 5–50 mA; internal backup battery 200 mAh / 3.7 V lithium manganese; standby ≈1 hour |
-| Interfaces | Ignition \(ACC\) status input, remote engine cut-off \(oil/circuit cut-off via SMS\), SOS button, two-way voice calling, alarm reporting |
-| GNSS | GPS chipset MT6261 + RDA6625e; GPS L1 1575.42 MHz C/A code; 66-channel receiver; location accuracy &lt;10 meters; tracking sensitivity -165 dBm; TTFF Hot ≤1 s, Cold ≤32 s |
-| Memory & Radio Performance | Memory 32 + 32 Mb; Transmit power GSM850/900: 33±3 dBm; GSM1800/1900: 30±3 dBm; Receive sensitivity Class II RBER2% \(-102 dBm\) |
-| Bluetooth | Not specified in product description |
-| Remote Management | Remote configuration via SMS and GPRS; remote parameter/firmware reset functions supported |
-| Indicators & Antennas | Built-in quad-band GSM antenna and ceramic GPS antenna; LED indicators for Power \(Red\), GSM \(Green\) and GPS \(Blue\) |
-| Form Factor & Environment | Compact wired unit, 90 x 49.3 x 16.7 mm; weight 50 g; operating temperature -20°C to +70°C |
-
-## Use Cases
-
-- Fleet management: live dispatching, route replay and driver behavior monitoring using Plaspy dashboards.
-- Anti-theft protection: remote immobilization, SOS alarms and power-cut alerts for quick recovery of stolen vehicles.
-- Vehicle service shops & insurance: installation for mileage, incident logging and theft recovery support.
-- Motorcycle and e‑bike security: compact hard-wired installation with discreet positioning and tamper alerts.
-- On-demand telemetry for trucks and delivery vehicles: geo-fence enforcement and overspeed alerting for operational control.
+- Fleet management for live dispatching route replay and operational reporting
+- Anti theft protection with remote immobilization SOS alarms and tamper alerts
+- Vehicle service centers and insurance applications for mileage and incident logging
+- Motorcycle and e bike security where compact wired installation and discreet placement are needed
+- Delivery and light truck operations requiring geo fence enforcement and overspeed alerts
 
 ## Why Choose This Tracker with Plaspy
 
-Pairing the TK100 with Plaspy delivers a practical, cost-effective solution for operators who need dependable real-time tracking, integrated telemetry and direct anti-theft controls. The TK100’s wired design and wide input voltage range make it easy to install across varied vehicle fleets, while GPRS and SMS reporting ensure data reaches Plaspy even when network conditions vary. Plaspy turns the TK100’s position, ignition and alarm events into live maps, alerts and historical reports that scale from single vehicles to large fleet deployments.
+The TK100 is a practical choice for organizations that need reliable vehicle location, basic telemetry and direct anti theft controls. Its hard wired form factor and support for both GPRS and SMS reporting make it adaptable across a range of vehicle types and network conditions, while its event reporting feeds into Plaspy for centralized monitoring and historical analysis.
 
-For fleet managers and service providers focused on reliability and actionable data, the TK100 provides the core GPS tracker features—real-time tracking, telemetry, ignition monitoring and immobilizer control—while Plaspy provides the platform for alerting, analytics and operational workflows. Together they offer an integrated, secure approach to fleet management, anti-theft response and vehicle monitoring without unnecessary complexity.
-
+If you want to learn more about Plaspy and how the platform works with compatible devices like the CanTrack TK100 visit https://www.plaspy.com. Product specifications and availability can change over time, so verify current technical details and manufacturer guidance at https://www.cantrackgps.com/.

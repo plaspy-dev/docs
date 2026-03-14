@@ -2,59 +2,59 @@
 slug: /okb_tehnoavtomatika/mta_glonass_ver_12m
 id: mta_glonass_ver_12m
 sidebar_label: MTA-Glonass (ver. 12M)
+title: OKB Tehnoavtomatika - MTA-Glonass (ver. 12M)
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto compatible con Plaspy, GNSS de alta sensibilidad, comunicaciones GSM y E/S para flotas
+keywords:
+  - OKB Tehnoavtomatika
+  - MTA-Glonass ver 12M
+  - MTA Glonass
+  - Compatible con Plaspy
+  - Rastreador GPS
+  - Rastreador GLONASS
+  - Seguimiento de flotas
+  - Telemetría vehicular
+  - Rastreador antirrobo
+  - Seguimiento en tiempo real
 ---
+
 # OKB Tehnoavtomatika - MTA-Glonass (ver. 12M)
 
 ![MTA-Glonass (ver. 12M)](./tracker.jpg)
 
-El MTA-Glonass \(ver. 12M\) es un rastreador GPS compacto, compatible con Plaspy, diseñado para un monitoreo de vehículos y telemetría confiables. Pensado para gestión de flotas y aplicaciones anti‑robo, este terminal combina un receptor GPS de alta sensibilidad de 50 canales con un módulo de comunicaciones GSM 900/1800 para ofrecer seguimiento en tiempo real, registro de eventos y intercambio de datos bidireccional a través de los canales DATA, GPRS y SMS.
+El MTA-Glonass (ver. 12M) es un terminal de rastreo GPS compacto diseñado para ofrecer monitorización y telemetría vehicular confiables. Integra un receptor GNSS de alta sensibilidad de 50 canales junto con comunicaciones GSM 900/1800, y soporta canales DATA, GPRS y SMS para intercambio bidireccional de datos. Esto lo hace adecuado para seguimiento en tiempo real, registro de eventos y tareas de control remoto en entornos automotrices e industriales. La unidad tolera un amplio rango de voltaje de entrada, incluye batería recargable integrada y ofrece múltiples entradas y salidas para necesidades comunes de telemetría.
 
-Su amplio rango de voltaje de entrada \(9–68 V\), batería recargable integrada y una extensa E/S hacen del MTA-Glonass \(ver. 12M\) un terminal ideal para instalación en vehículos automotrices e industriales donde se requieren telemetría ininterrumpida, monitoreo de combustible y control remoto del inmovilizador. Al ser un dispositivo compatible con Plaspy, se integra con la plataforma de Plaspy para actualizaciones de posición en tiempo real, informes de telemetría y alertas configurables.
+Como dispositivo compatible con Plaspy, el MTA-Glonass (ver. 12M) se integra con la plataforma de gestión de flotas de Plaspy para entregar actualizaciones de posición en vivo, alertas configurables e informes de telemetría. Su combinación de comunicaciones persistentes, almacenamiento de eventos a bordo y variadas capacidades de E/S permite que Plaspy consuma datos de ubicación y estado para visibilidad operativa, informes históricos y supervisión en flotas mixtas.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para un seguimiento en tiempo real fiable y una integración de telemetría.
-- Receptor GPS de alta sensibilidad de 50 canales para fijaciones de coordenadas precisas y posicionamiento estable.
-- Conectividad GSM 900/1800 con canales DATA, GPRS y SMS para comunicación bidireccional y alertas remotas.
-- Entrada DC amplia \(9–68 V\) y batería recargable interna de 600 mAh que proporciona ≥6 horas en modo de espera ante una pérdida de suministro.
-- Amplias E/S para monitoreo de combustible, detección de ignición, registro de horas de motor y control remoto del inmovilizador.
-- Bajo consumo de energía y carcasa compacta IP30 \(≤90 × 65 × 30 mm; masa ≤200 g\) adecuada para instalación discreta en vehículos.
-- Amplio almacenamiento de eventos no volátil \(16,000–125,000 registros, según la memoria configurada\) para registro fuera de línea y carga posterior a Plaspy.
+- Rastreador compatible con Plaspy que ofrece seguimiento en tiempo real e integración de telemetría confiable.  
+- Receptor GNSS de 50 canales y alta sensibilidad para obtener fijaciones de coordenadas consistentes en entornos diversos.  
+- Comunicaciones GSM 900/1800 con opciones DATA, GPRS y SMS para intercambio bidireccional de datos y notificaciones.  
+- Amplio rango de entrada DC y batería recargable integrada para mantener el rastreo durante interrupciones de alimentación.  
+- E/S completas aptas para monitoreo de combustible, detección de encendido, contabilización de horas de motor y control remoto de inmovilizador.  
+- Gran capacidad de almacenamiento de eventos a bordo para registro offline y posterior subida a Plaspy.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el MTA-Glonass \(ver. 12M\) se convierte en un activo completamente gestionado para la gestión de flotas, protección anti‑robo y reporte de telemetría. El dispositivo transmite coordenadas GPS y telemetría de eventos a través de GPRS/DATA o SMS a los servidores de Plaspy, donde los datos se procesan para mapas en tiempo real, geocercas, alertas e informes históricos. La configuración y los umbrales de alerta pueden establecerse en Plaspy para aprovechar las entradas y salidas a bordo del terminal.
+Al conectarse a Plaspy, el MTA-Glonass (ver. 12M) se convierte en un endpoint telemático gestionado: el terminal informa coordenadas GPS y telemetría de eventos a Plaspy, donde los datos se procesan para mapas en vivo, alertas, monitoreo de geocercas y análisis histórico. Plaspy también puede utilizar las entradas y salidas del terminal para disparar flujos operativos y generar datos de mantenimiento.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía GPRS/DATA \(con respaldo por SMS\) para una visibilidad continua de la flota.
-- La entrada de ignición se usa para el control de reposo y el cómputo preciso de las horas de motor, reportadas a Plaspy para la programación de mantenimiento.
-- Monitoreo de combustible mediante entrada ADC \(nivel directo del tanque\) y entradas de frecuencia/pulsos para caudalímetros o interfaces con la unidad de medición de nivel de combustible.
-- Inmovilizador remoto o conmutación mediante la salida de colector abierto opcional \(hasta 50 V, 1.5 A\) para apoyar acciones anti‑robo desde Plaspy.
-- Soporte de sensores de temperatura 1‑Wire \(opcional\) para telemetría de temperatura integrada en alertas y registros de Plaspy \(donde esté instalado\).
+- Actualizaciones de ubicación en tiempo real e historial de posiciones para visibilidad de flota en los mapas de Plaspy.  
+- Informes de telemetría como estado de encendido y horas de motor para apoyar la programación de mantenimiento.  
+- Integración de niveles de combustible y entradas de pulso en dashboards y alertas de Plaspy para monitoreo de combustible.  
+- Acciones de control remoto, como comandos de inmovilizador, disponibles desde Plaspy mediante las salidas del dispositivo.  
+- Registro de eventos sin conexión almacenado en la unidad y subido a Plaspy cuando se restablece la conectividad.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Módulo GSM con canales DATA, GPRS y SMS para comunicación bidireccional |
-| --- | --- |
-| Bandas | GSM 900 / 1800 |
-| Alimentación y batería | Entrada DC amplia 9–68 V; batería recargable ≈600 mAh. Operación en modo de espera ≥6 horas; disponibilidad operativa \<1 minuto. Consumo de energía a 12 V: activo ≤110 mA, inactivo ≤35 mA, sleep ≤20 mA. |
-| Interfaces | Entradas de contacto seco múltiples \(una con disparo negativo, una configurable negativo/positivo, entrada de ignición, disparo positivo para desconexión de batería a tierra, dos disparos negativos para sensores de frecuencia/pulsos de combustible\), una entrada analógica ADC \(≤12 V\), entrada 1‑Wire opcional, salida de colector abierto opcional \(≤50 V, ≤1.5 A\). |
-| GNSS | Receptor GPS de alta sensibilidad de 50 canales \(detección precisa de coordenadas\). |
-| Bluetooth | No especificado en la documentación del dispositivo \(sensores Bluetooth no incluidos en las especificaciones confirmadas\). |
-| Gestión remota | Intercambio de datos bidireccional vía DATA/GPRS/SMS para telemetría remota, configuración y carga de eventos \(no se especifica FOTA/gestión web\). |
-| Formato | Carcasa compacta IP30; dimensiones ≤90 × 65 × 30 mm; masa ≤200 g |
-
-## Casos de uso
-
-- Gestión de flotas y monitoreo de rutas: integre la ubicación GPS en tiempo real, ignición y horas de motor en Plaspy para optimizar la asignación de recursos y el mantenimiento.
-- Monitoreo de combustible y prevención de fraude: combine lecturas de nivel de tanque con ADC y entradas de frecuencia/pulsos para detectar pérdidas de combustible y generar alertas en Plaspy.
-- Anti‑robo e inmovilización remota: recibir alarmas de robo y accionar la salida de colector abierto desde Plaspy para inmovilizar el vehículo.
-- Registro de eventos y cumplimiento: almacenar grandes volúmenes de registros de eventos en el dispositivo y cargarlos a Plaspy para trazabilidad y reportes regulatorios.
-- Monitoreo de carga sensible a la temperatura: use la entrada opcional de temperatura 1‑Wire para telemetría de cadena de frío reportada a Plaspy \(donde esté instalado\).
+- Gestión de flotas y monitoreo de rutas donde el GPS en vivo, el estado de encendido y las horas de motor mejoran la gestión de despachos y la disponibilidad.  
+- Protección antirrobo con alarmas y posibilidad de inmovilización remota controlada desde la plataforma Plaspy.  
+- Monitoreo de combustible y detección de pérdidas mediante entradas analógicas y de pulso combinadas con alertas de Plaspy.  
+- Registro de eventos e informes de cumplimiento que dependen de registros retenidos y subida posterior a Plaspy.  
+- Supervisión de cargas sensibles a temperatura cuando existen entradas opcionales de temperatura reportadas a través de Plaspy.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Combinar el MTA-Glonass \(ver. 12M\) con Plaspy ofrece a los operadores de flotas un rastreador GPS robusto y de bajo consumo, con I/O de telemetría probadas y comunicaciones GSM confiables. Su amplio rango de voltaje y la batería de respaldo permiten mantener el seguimiento durante interrupciones de energía, mientras que las múltiples entradas permiten a Plaspy obtener telemetría relevante: estado de ignición para horas de motor, datos de combustible analógicos y de pulso para el monitoreo de combustible, y control por colector abierto para la inmovilización. El amplio almacenamiento a bordo garantiza que no se pierda información cuando la conectividad se interrumpe.
+El MTA-Glonass (ver. 12M) es una opción práctica para organizaciones que requieren un rastreador compacto y robusto con posicionamiento satelital comprobado y comunicaciones celulares fiables. Su tolerancia a un amplio rango de voltaje y la batería de respaldo ayudan a preservar el rastreo durante cortes de energía, mientras que las capacidades de E/S y el almacenamiento permiten que Plaspy capture telemetría relevante para la toma de decisiones operativas y el análisis histórico.
 
-Para operaciones que requieren hardware compacto, posicionamiento satelital confiable e integración simple con GPRS/SMS, este rastreador GPS compatible con Plaspy ofrece beneficios prácticos de gestión de flotas sin complejidad innecesaria. Es especialmente adecuado para organizaciones que necesitan un registro sólido de eventos, control de combustible y control remoto de vehículos, combinado con las capacidades de análisis y alertas disponibles en la plataforma Plaspy.
-
+Para más información sobre cómo Plaspy puede gestionar dispositivos como el MTA-Glonass (ver. 12M) visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, así que valide la información técnica actual en el sitio oficial del fabricante http://www.okb-ta.ru/.

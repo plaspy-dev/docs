@@ -2,60 +2,62 @@
 slug: /astra_telematics/at503
 id: at503
 sidebar_label: AT503
+title: Astra Telematics - AT503
 sidebar_class_name: menu_item_tracker
+description: Compact IP68 mini asset tracker AT503 compatible with Plaspy for long battery life and low maintenance asset monitoring
+keywords:
+  - Astra Telematics AT503
+  - AT503 tracker
+  - AT503 Plaspy compatible
+  - mini asset tracker
+  - IP68 GPS tracker
+  - LTE M NB IoT tracker
+  - long battery life tracker
+  - asset tracking device
+  - fleet tracking AT503
+  - AT503 telemetry
 ---
+
 # Astra Telematics - AT503
 
 ![AT503](./tracker.png)
 
-The AT503 Mini Asset Tracker from Astra Telematics is a purpose-built GPS tracker designed for long-life, low-maintenance monitoring of unpowered assets. Epoxy-encapsulated and rated IP68, the AT503 delivers rugged durability in a compact package and is fully Plaspy compatible for seamless integration with Plaspy’s real-time tracking and telemetry platform.
+The AT503 Mini Asset Tracker from Astra Telematics is a compact, purpose built GPS tracker designed for long life, low maintenance monitoring of unpowered assets. Epoxy encapsulation and an IP68 rating provide rugged durability for outdoor deployments, while internal antennas and a sealed housing keep the unit maintenance free for extended periods. The device is aimed at persistent location and movement tracking where infrequent servicing is a requirement.
 
-Designed for large-scale rollouts and demanding outdoor environments, the AT503 combines multi-constellation GNSS positioning, LTE-M / NB‑IoT connectivity with 2G fallback, and ultra-low-power electronics to provide up to five years of battery life in typical low-frequency reporting profiles. On-site setup and diagnostics are fast and simple thanks to Bluetooth Low Energy \(BLE\) provisioning via smartphone.
+As a Plaspy compatible device, the AT503 feeds location and health telemetry into Plaspy’s real time tracking and fleet management platform. Its combination of multi constellation GNSS positioning, cellular connectivity with eSIM provisioning, and ultra low power reporting profiles make it suitable for large scale rollouts and unattended asset fleets that need reliable visibility within Plaspy dashboards, alerts, and reporting tools.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for reliable real-time tracking and telemetry across fleets of non-powered assets.
-- Ultra-low-power design with a large internal 7800 mAh LiFeS2 \(LTC\) battery providing up to 5 years in typical 24-hour reporting profiles.
-- Multi-constellation GNSS \(GPS, Galileo, GLONASS & Beidou\) with an internal 15 mm GNSS antenna for improved position reliability.
-- Future-proof cellular connectivity: LTE‑M and NB‑IoT with GSM/GPRS \(2G\) fallback and an integrated e‑SIM for remote provisioning.
-- Rugged, maintenance-free construction: epoxy encapsulation, internal antennas, IP68 ingress protection, no external ports or LEDs.
-- Integrated MEMS accelerometer for movement detection and intelligent report triggers to extend battery life.
-- Flexible mounting: integrated magnetic mount plus provision for 2 x M4 bolt attachment for secure installation.
-- Bluetooth Low Energy for fast on-site configuration and diagnostics using a smartphone.
+- Designed for long life monitoring of unpowered assets with a sealed epoxy encapsulated housing and IP68 ingress protection.
+- Ultra low power electronics paired with a large internal battery providing up to five years in typical low frequency reporting profiles.
+- Multi constellation GNSS positioning for improved location reliability across varied environments.
+- Cellular connectivity with LTE M and NB IoT plus 2G fallback and integrated eSIM to simplify deployment at scale.
+- Integrated motion sensing that enables movement driven reporting to extend battery life and support theft alerts.
+- Bluetooth Low Energy support for fast on site provisioning and diagnostics using a smartphone.
+- Compact form factor with flexible mounting options for magnetic and bolted attachment.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the AT503 provides persistent location and movement telemetry that feeds directly into Plaspy’s dashboards, maps, and alerting engine. The device’s low-power reporting modes and intelligent accelerometer-driven wake logic allow you to balance update frequency and battery life according to fleet requirements. Because the AT503 uses LTE‑M / NB‑IoT with GSM fallback and an e‑SIM, it can report location and status to Plaspy reliably across wide coverage areas.
+When integrated with Plaspy, the AT503 delivers persistent location and movement telemetry into Plaspy maps, dashboards, and alerting systems. The device’s configurable low power modes and motion triggered reporting allow fleet managers to balance update cadence and battery life, while remote provisioning and cellular coverage help keep large deployments online with minimal field intervention.
 
-- Real-time location and telemetry updates delivered to Plaspy via cellular networks \(LTE-M / NB‑IoT / GSM fallback\).
-- Movement detection \(integrated MEMS accelerometer\) triggers intelligent reporting, geofence events, and anti-theft alerts.
-- GNSS multi-constellation fixes \(GPS, Galileo, GLONASS & Beidou\) provide consistent positioning for Plaspy maps and routing.
-- Bluetooth Low Energy for on-site configuration and diagnostics with a smartphone app to streamline field commissioning.
-- Battery and health reporting to Plaspy so fleet managers can schedule replacements and avoid downtime.
+- Real time location updates and status reporting flow into Plaspy for mapping and fleet visibility.
+- Motion detection triggers intelligent reporting, geofence events, and alert notifications within Plaspy.
+- Battery health and device status are reported to Plaspy so maintenance can be scheduled before service interruptions occur.
+- Bluetooth provisioning simplifies on site commissioning and diagnostics, reducing setup time per unit.
+- Scalable device provisioning and cellular connectivity support large scale rollouts and centralized device management inside Plaspy.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE‑M and NB‑IoT with GSM/GPRS \(2G\) fallback; integrated e‑SIM for connectivity provisioning |
-| --- | --- |
-| Bands / Network Modes | Supports LTE‑M, NB‑IoT and 2G \(GSM/GPRS\) network modes; specific band details available from the manufacturer datasheet |
-| Power & Battery | Internal non-replaceable LiFeS2 \(LTC\) battery, 7800 mAh; up to 5 years in typical low-power reporting profiles \(example: 24‑hour reporting\) |
-| Interfaces | Bluetooth Low Energy \(BLE\) for on-site configuration and diagnostics; no external ports; no LED indicators; no CAN bus, ADC inputs, digital I/O or tamper sensors by default |
-| GNSS | Multi‑constellation GNSS: GPS, Galileo, GLONASS & Beidou with internal 15 mm GNSS antenna |
-| Bluetooth | Bluetooth Low Energy \(BLE\) for smartphone provisioning and field diagnostics |
-| Remote Management | e‑SIM provisioning and manufacturer-provided reporting/hardware customization options; lifetime system updates and 5-year warranty from Astra Telematics |
-| Form Factor & Durability | Epoxy-encapsulated, IP68 ingress protection, internal GSM and GNSS antennas, integrated magnetic mount and 2 x M4 bolt mounting points |
-
-## Use Cases
-
-- Trailers and container tracking — long battery life and rugged encapsulation suit prolonged outdoor use and infrequent servicing.
-- Construction and rental equipment monitoring — track location and movement for asset utilization and recovery.
-- Remote asset fleets and large-scale rollouts — low total cost of ownership with minimal field maintenance requirements.
-- Anti-theft alerting and recovery workflows — movement-triggered reporting provides timely location telemetry to Plaspy.
-- General unattended asset tracking where ignition, CAN bus or fuel monitoring are not required but long-term telemetry and location are essential.
+- Tracking trailers, containers, and other unpowered transport assets where long battery life and ruggedness are essential.
+- Monitoring construction and rental equipment to improve utilization and recovery.
+- Managing remote asset fleets and large scale deployments with minimal maintenance cycles.
+- Anti theft alerting and recovery workflows that rely on movement triggered telemetry and timely location updates.
+- General unattended asset tracking where persistent GPS based visibility is required without vehicle level interfaces.
 
 ## Why Choose This Tracker with Plaspy
 
-The AT503 is ideal when you need a Plaspy compatible GPS tracker that prioritizes battery life, durability and low maintenance. Its epoxy-encapsulated, IP68 design and internal antennas make it resilient in harsh outdoor environments, while LTE‑M/NB‑IoT connectivity with e‑SIM provisioning reduces deployment friction at scale. The integrated accelerometer enables smart telemetry that maximizes battery life without sacrificing timely location updates. Astra Telematics backs the device with a 5-year warranty and lifetime system updates, and offers hardware/reporting customization for tailored fleet management solutions.
+The AT503 is a practical choice for organizations using Plaspy when the priority is long term, maintenance free tracking of unpowered assets. Its rugged sealed design and extended battery life reduce onsite servicing, while cellular connectivity and eSIM provisioning simplify deployment and ongoing connectivity management for fleet operators. The combination of motion based reporting and Plaspy visibility helps preserve battery life without sacrificing responsiveness for alerts and location updates.
 
-Note: the AT503 is focused on long-term, maintenance-free asset tracking of unpowered assets. It does not include CAN bus, ADC inputs, digital I/O, built-in tamper sensors, ignition inputs, or immobilizer outputs, and therefore is not intended as a direct replacement where fuel monitoring, ignition sensing, or remote immobilization are required. Instead, the AT503 pairs with Plaspy to provide dependable GPS-based location, movement telemetry and fleet-level visibility; for fleets that require fuel monitoring or immobilizer control, the AT503 can be used alongside Plaspy-compatible devices that provide those interfaces.
+This model focuses on dependable GPS based location and movement telemetry rather than vehicle level interfaces. It does not provide CAN bus inputs, fuel sensing, ignition sensing, or immobilizer outputs, so it is not intended to replace devices that provide those specific vehicle telematics functions. For fleets requiring those interfaces, the AT503 can be used alongside other Plaspy compatible devices to deliver a comprehensive solution.
 
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current specifications and warranty information with the manufacturer at https://astratelematics.com/.

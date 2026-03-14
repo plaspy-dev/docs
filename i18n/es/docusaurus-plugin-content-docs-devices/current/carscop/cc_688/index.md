@@ -2,59 +2,60 @@
 slug: /carscop/cc_688
 id: cc_688
 sidebar_label: CC-688
+title: Carscop - CC-688
 sidebar_class_name: menu_item_tracker
+description: T-Box Carscop CC-688 compatible con Plaspy para alquiler carsharing y gestión de flotas con seguimiento en tiempo real y control remoto
+keywords:
+  - Carscop CC-688
+  - rastreador CC-688
+  - rastreador Carscop
+  - rastreador compatible Plaspy
+  - T-Box para vehículos
+  - alquiler de autos sin llave
+  - seguimiento de flotas
+  - hardware para carsharing
+  - inmovilizador remoto
+  - rastreador GNSS para vehículos
 ---
+
 # Carscop - CC-688
 
 ![CC-688](./tracker.JPG)
 
-La CC-688 T-Box es un dispositivo de control de vehículos y rastreador GPS específicamente concebido para operadores de alquiler de coches, car-sharing y gestión de flotas que requieren un dispositivo compatible con Plaspy para seguimiento en tiempo real y control remoto. Diseñado para flujos de alquiler sin supervisión, la CC-688 combina conectividad celular global \(2G/3G/4G\), opciones de posicionamiento GNSS, BLE, NFC, control de punto de acceso Wi‑Fi y un sistema de arranque sin llave para que los operadores puedan ofrecer acceso mediante la app y autenticación local por toque o NFC sin la llave original del coche.
+La T-Box Carscop CC-688 es un dispositivo diseñado específicamente para el control vehicular y el rastreo GPS, pensado para operadores de alquiler de autos, carsharing y gestión de flotas. Combina posicionamiento GNSS con conectividad celular global y métodos de acceso locales para respaldar flujos de alquiler desatendidos y el control remoto del vehículo. La unidad está diseñada para permitir acceso mediante aplicación y autenticación local por NFC o entradas táctiles, además de soportar arranque sin llave (push start) para entregas más sencillas.
 
-La unidad integra telemetría CANBUS y OBD II para entregar datos del motor y sensores a plataformas Plaspy, además de salidas de relé y controles de actuadores para bloquear/desbloquear, bocina, luces y inicio/parada del motor. Con batería de respaldo opcional, detección de impactos con sensor G y actualizaciones de firmware OTA, la CC-688 está diseñada para soportar flujos de anti-robos, control de ignición y funciones de corte remoto del motor al estilo inmovilizador, manteniendo flujos de datos seguros compatibles con Plaspy para gestores de flotas y servicios de movilidad.
+Como dispositivo compatible con Plaspy, el CC-688 puede reenviar la ubicación y la telemetría del vehículo a la plataforma Plaspy para habilitar seguimiento en tiempo real, control remoto y gestión centralizada de dispositivos. Su conjunto de funciones se alinea con las necesidades habituales de movilidad y flotas, convirtiéndolo en una opción práctica para organizaciones que desean usar Plaspy para seguimiento, auditoría de accesos, gestión de alarmas e informes operativos.
 
-## Aspectos destacados
+## Aspectos clave
 
-- T-Box compatible con Plaspy con conectividad celular global para una conectividad fiable del rastreador GPS y seguimiento en tiempo real.
-- Soporte de alquiler sin llave y arranque push-start a través de la app móvil, lector NFC, módulo de contraseña en touchpad y Bluetooth BLE.
-- Telemetría CANBUS y OBD II para datos del motor, DTC y sensores del vehículo; admite datos de monitorización de combustible cuando están disponibles a través del bus del vehículo.
-- Control remoto de actuadores: salidas de relé integradas para bloquear/desbloquear puertas, bocina, luces y inicio/parada del motor o corte para flujos de inmovilizador.
-- Funciones de seguridad que incluyen detección de impactos con sensor G, batería de respaldo opcional para alertas de manipulación/pérdida de energía y soporte para sirena externa.
-- Actualizaciones de firmware y datos OBD vía OTA, además de cambios de parámetros remotos por SMS o Internet para una gestión de flotas escalable.
-- API abierta y reenvío TCP/IP para una integración fluida con Plaspy, servidores privados y plataformas de car-sharing.
+- T-Box diseñado para alquiler de autos, carsharing y gestión de flotas con capacidad de seguimiento en tiempo real
+- Acceso sin llave y soporte para arranque por botón mediante panel táctil NFC y flujos con BLE para entregas desatendidas
+- Telemetría del vehículo a través de interfaces de bus integradas para datos de motor y sensores cuando el vehículo los expone
+- Salidas de relé y control de actuadores para bloqueo/desbloqueo, claxon, luces y funciones de arranque/parada del motor, para soportar flujos tipo inmovilizador
+- Funciones de seguridad como detección de impactos, batería de respaldo opcional y soporte para sirena externa ante manipulaciones o robo
+- Actualizaciones de firmware OTA y parámetros remotos, además de API abierta y reenvío TCP/IP para integración con Plaspy y sistemas de terceros
 
 ## Cómo funciona con Plaspy
 
-La CC-688 transmite GNSS y telemetría del vehículo a Plaspy mediante conexiones TCP/IP seguras y la API abierta del proveedor. Plaspy recibe la ubicación, el estado y la telemetría CAN/OBD en tiempo real cercano y puede emitir comandos de control de vuelta al dispositivo, lo que habilita el rastreo en vivo, la inmovilización remota, el control de acceso y la generación de informes automatizados. Los parámetros del dispositivo, como el intervalo de subida de GPS y los umbrales de alerta, pueden gestionarse de forma central desde Plaspy o modificarse por SMS cuando sea necesario.
+Una vez conectado, el CC-688 reenvía la ubicación GNSS y la telemetría del vehículo a Plaspy, de modo que los gestores de flota puedan supervisar la posición, el estado y los recorridos históricos desde un único panel. Plaspy también puede enviar comandos de control al dispositivo para manejar el acceso y la inmovilización remota, manteniendo la configuración centralizada y las alarmas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento y reproducción histórica.
-- Estado de ignición y motor reportado vía CANBUS/OBD II; admite arranque/parada remotos y comandos de corte del motor \(inmovilizador\).
-- Entradas de señales de puerta, ACC, freno de mano y alarma disponibles para alertas basadas en eventos en los paneles de Plaspy.
-- Monitoreo de combustible y otra telemetría de motor/sensor disponible vía CAN/OBD II cuando el vehículo lo soporte.
-- Eventos Bluetooth BLE, NFC y touch pad \(acceso concedido/denegado\) enviados a Plaspy para registros de acceso y auditoría.
+- Actualizaciones de ubicación en tiempo real y reproducción histórica disponibles en Plaspy para visibilidad operativa
+- Estado del motor e ignición reportado vía telemetría del bus del vehículo para alimentar la supervisión de flota y reglas de eventos
+- Alertas basadas en eventos —como puertas, ACC o detección de impactos— aparecen en los paneles de Plaspy para una respuesta oportuna
+- Los eventos de acceso desde el panel táctil NFC o las interacciones BLE se registran y reenvían a Plaspy para auditorías
+- Datos de combustible y otros sensores del motor obtenidos del bus del vehículo pueden incluirse en los informes de Plaspy cuando el vehículo los expone
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Celular global: 2G GSM / 3G WCDMA / 4G LTE; reenvío de datos TCP/IP a través de redes móviles |
-| --- | --- |
-| Bandas | Soporta redes celulares globales \(2G/3G/4G LTE\) — las bandas regionales específicas dependen del modelo/ variante |
-| Alimentación y batería | Amplio rango de tensión de operación: 9–40V, apto para vehículos de 12V y 24V; batería de respaldo opcional para alarmas de manipulación/pérdida de energía |
-| Interfaces | CANBUS y OBD II para telemetría y DTC; salidas de relé para control de actuadores; múltiples entradas de señal \(puerta, ACC, ON, freno de mano\); soporte para módulo de bypass |
-| GNSS | Posicionamiento GPS con opción GPS/BEIDOU/GLONASS y asistencia A-GPS |
-| Bluetooth | Bluetooth BLE para sensores, emparejamiento con teléfono y autenticación local |
-| Otros sensores y E/S | Sensor G para detección de impactos y registro de conductas de conducción; lector NFC y módulo de contraseña en touch pad; control de punto de acceso Wi‑Fi |
-| Gestión remota | Actualizaciones de firmware y datos OBD vía OTA; cambios remotos de parámetros por SMS o Internet; API abierta para integración de datos y control |
-| Formato e instalación | T-Box para vehículo con soporte de antena externa GSM/GPS; el paquete típico incluye arnés de cableado, touchpad, sirena, botón de arranque, módulo de bypass y antenas; se recomienda instalación profesional para la integración CAN/OBD |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, telemetría, monitorización del comportamiento del conductor y inmovilización remota del motor para reducir riesgos y mejorar la utilización de la flota.
-- Alquiler de coches sin atención y car-sharing: reservas mediante app, desbloqueo por NFC/touch pad o BLE y arranque push-start para la entrega de vehículos sin llave.
-- Antirrobo y recuperación: alertas de manipulación e impacto, notificaciones de batería de respaldo y corte remoto del motor para asegurar vehículos robados o mal utilizados.
-- Telemetría y mantenimiento: DTC del motor, datos de sensores y combustible \(vía CAN/OBD II\) para mantenimiento predictivo y monitorización del combustible cuando estén disponibles desde el bus del vehículo.
+- Gestión de flotas para seguimiento de uso, monitoreo del comportamiento de conductores y programación de mantenimiento
+- Alquiler desatendido y carsharing con reservas desde la app, check‑in mediante NFC o panel táctil y entregas con arranque por botón
+- Monitoreo antirrobo y recuperación, con notificaciones por manipulación, alertas de impacto y opciones de corte remoto del motor
+- Flujos de mantenimiento basados en telemetría usando DTC y datos de sensores del bus del vehículo para diagnóstico y control de combustible
 
 ## Por qué elegir este rastreador con Plaspy
 
-La CC-688 ofrece un conjunto completo de características que se alinean con las necesidades de Plaspy para el seguimiento de vehículos escalable y seguro y el control remoto. Su combinación de posicionamiento GNSS, acceso por BLE/NFC, telemetría CAN/OBD y salidas de actuadores lo hace práctico para la gestión de flotas, car-sharing y automatización de alquiler. La integración compatible con Plaspy se admite mediante el reenvío TCP/IP y una API abierta, lo que permite seguimiento en tiempo real inmediato, manejo de alarmas y escenarios de inmovilizador remoto, manteniendo la gestión del dispositivo centralizada a través de actualizaciones OTA y control remoto de parámetros.
+El CC-688 ofrece un conjunto completo de funciones que encaja en escenarios habituales de movilidad y gestión de flotas donde Plaspy se utiliza para seguimiento centralizado y supervisión operativa. Su combinación de posicionamiento GNSS, control de acceso local y telemetría vehicular lo hace adecuado para carsharing, automatización de alquileres y despliegues de flotas empresariales en los que el control remoto y la trazabilidad son importantes.
 
-Los operadores que requieren medidas robustas anti-robos, control de ignición y telemetría detallada \(incluido datos relacionados con el combustible cuando el vehículo los expone a través de CAN/OBD II\) encontrarán que la CC-688 está preparada para implementaciones empresariales. Con instalación profesional e integración con Plaspy, la CC-688 ayuda a convertir los vehículos en activos conectados que mejoran la utilización, reducen el fraude y racionalizan la experiencia del cliente para servicios de movilidad compartida.
+La integración con Plaspy aprovecha las capacidades de reenvío y API del dispositivo para ofrecer visibilidad, control y reportes casi en tiempo real, manteniendo la gestión de dispositivos centralizada mediante actualizaciones y cambios de parámetros remotos. Para organizaciones que requieren seguimiento unificado junto con controles de acceso e inmovilización, el CC-688 es una opción compatible con Plaspy que soporta flujos de trabajo escalables.
 
+Conozca más sobre cómo Plaspy puede funcionar con dispositivos compatibles en el sitio web de Plaspy https://www.plaspy.com. Las especificaciones del producto, su disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual en el sitio del fabricante http://www.carscop.com/ antes de comprar o desplegar.

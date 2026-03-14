@@ -2,62 +2,63 @@
 slug: /arusnavi/integral_4
 id: integral_4
 sidebar_label: Integral 4
+title: Arusnavi - Integral 4
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto compatible con Plaspy para telemetría y monitoreo vehicular con multi GNSS y conectividad amplia
+keywords:
+  - Arusnavi Integral 4
+  - Rastreador GPS Integral 4
+  - Rastreador Arusnavi
+  - Rastreador compatible con Plaspy
+  - dispositivo de rastreo de flotas
+  - telemetría vehicular
+  - rastreador multi GNSS
+  - rastreador GPS doble SIM
+  - rastreador vehicular compacto
+  - registro tipo caja negra
 ---
+
 # Arusnavi - Integral 4
 
 ![Integral 4](./tracker.png)
 
-Integral 4 es un rastreador GPS compacto compatible con Plaspy y un controlador de navegación universal diseñado para la gestión profesional de flotas, telemetría y monitorización de vehículos. Construido alrededor de un microcontrolador potente con GNSS de múltiples constelaciones \(GPS, GLONASS, Galileo, BeiDou, QZSS\) y antenas internas celulares y de navegación, Integral 4 ofrece un seguimiento en tiempo real preciso y una amplia recopilación de datos a bordo que se integra sin problemas con Plaspy para la monitorización centralizada y la generación de informes.
+Integral 4 es un rastreador GPS compacto y controlador de navegación universal de Arusnavi, diseñado para la gestión profesional de flotas, telemetría y monitoreo de vehículos. Combina posicionamiento GNSS multiconstelación con antenas internas para celular y navegación, además de recolección de datos a bordo, para ofrecer ubicación en tiempo real y datos de diagnóstico precisos adecuados para la supervisión de vehículos y activos.
 
-Diseñado para instalaciones en espacios restringidos, Integral 4 combina conectividad 2G GSM con soporte para doble SIM, BLE interno y un amplio conjunto de interfaces cableadas \(USB, 1-WIRE, RS-485/CAN, UART/RS-232 opcional\). Esta flexibilidad hace que el dispositivo sea ideal para telemetría de flotas, monitorización de combustible, control de transporte de pasajeros y supervisión de activos, donde se requieren dispositivos compatibles con Plaspy para una ingestión de datos, alertas y análisis sin interrupciones.
+Como dispositivo compatible con Plaspy, Integral 4 puede enviar datos de posición, sensores y eventos a Plaspy para supervisión centralizada, alertas e informes. Su combinación de conectividad celular, Bluetooth interno y un conjunto amplio de interfaces cableadas lo hace ideal para despliegues de flota y telemetría que requieren ingestión fluida en los paneles y flujos de trabajo de Plaspy.
 
-## Key Highlights
+## Características principales
 
-- Rastreador GPS compatible con Plaspy con soporte multi-GNSS para un seguimiento en tiempo real fiable y obtener información de ruta.
-- Módem GSM 2G con doble SIM y antenas internas para una instalación más sencilla y conectividad continua.
-- Interfaces cableadas e inalámbricas extensas \(USB, 1-WIRE, RS-485/CAN, UART \(opcional\), RS-232 \(opcional\), BLE interna\) para recoger datos de telemetría y sensores.
-- Empareja con hasta 10 sensores Bluetooth y admite una amplia lista de dispositivos BLE compatibles para temperatura, proximidad y telemetría auxiliar.
-- Rango de alimentación apto para uso empresarial \(8–50 V\), batería interna de respaldo \(300–1800 mAh\) y registro de caja negra de hasta ~100,000 registros para continuidad offline.
-- I/O configurable para detección de eventos y control: múltiples entradas/salidas discretas y una entrada analógica ADC para integración de ignición, puertas, alarmas y actuadores.
-- Formato compacto \(70 x 52 x 22 mm, ~50 g\) adecuado para instalaciones estrechas en vehículos y activos móviles.
+- Rastreador compatible con Plaspy con soporte multi GNSS para posicionamiento en tiempo real y registro de rutas confiable.
+- Módem celular con doble SIM y 2G y antenas internas para mantener conectividad continua en entornos móviles.
+- Amplia variedad de interfaces, incluyendo USB, 1 WIRE, RS 485 y opciones configurables de bus vehicular, además de UART RS 232 opcional para integrar telemetría.
+- Bluetooth Low Energy interno con capacidad para emparejar hasta 10 sensores externos para temperatura, proximidad y telemetría auxiliar.
+- Registro tipo caja negra interno capaz de almacenar grandes conjuntos de datos para continuidad offline y posterior subida a Plaspy.
+- Entradas y salidas discretas configurables y una entrada analógica ADC para supervisar encendido, puertas y señales por eventos.
+- Factor de forma compacto, adecuado para instalaciones en espacios reducidos de vehículos y activos móviles.
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-Integral 4 se integra con Plaspy transmitiendo la posición GNSS, telemetría CAN/UART, lecturas de sensores y eventos de entrada discreta a través de su enlace celular hacia los servidores de monitoreo de Plaspy. El dispositivo admite protocolos industriales estándar y configuraciones de servidor ajustables, de modo que la ubicación, los datos de diagnóstico y los registros de eventos aparecen en los paneles de Plaspy como seguimiento en tiempo real, alertas e informes históricos.
+Integral 4 transmite posiciones GNSS, telemetría desde buses vehiculares y lecturas de sensores a Plaspy a través de su conexión celular, de modo que usted puede ver ubicaciones en vivo, eventos e historial en la plataforma Plaspy. La configuración de servidor y los formatos de datos compatibles permiten que registros de ubicación, diagnóstico y eventos aparezcan como seguimiento en tiempo real, alertas e informes históricos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real desde GNSS \(GPS/GLONASS/Galileo/BeiDou/QZSS\) y buses del vehículo.
-- Monitoreo de ignición y estado de puertas/alarma mediante las entradas discretas negativas y positivas del dispositivo y detección de movimiento por acelerómetro.
-- Soporte de monitorización de combustible usando sensores conectados por RS-485 \(hasta 8 DУТ\) y datos de combustible CAN-bus cuando estén disponibles.
-- Funcionalidad de control remoto e inmovilizador puede implementarse mediante salidas discretas configurables e integración con los flujos de trabajo de control de Plaspy.
-- Sensores/balizas Bluetooth: se empareja con hasta 10 dispositivos BLE \(lista de dispositivos compatibles incluida\) para temperatura, RFID, conteo de pasajeros y otra telemetría auxiliar.
-- El registro en caja negra fuera de línea almacena ~100,000 registros localmente y reenvía los datos a Plaspy cuando se restablece la conectividad, asegurando que no haya lagunas en el historial.
+- Actualizaciones de ubicación y telemetría en tiempo real derivadas de GNSS multiconstelación y fuentes de telemetría a bordo.
+- Monitoreo de eventos para encendido, puertas y estado de alarmas mediante entradas discretas y detección de movimiento para eventos de desplazamiento.
+- Telemetría de combustible y sensores por RS 485 o integración con el bus vehicular cuando esté disponible, para soportar flujos de trabajo de detección de consumo y pérdidas.
+- Acciones remotas y de inmovilizador implementables mediante salidas configurables y flujos de control desde Plaspy.
+- Soporte para sensores Bluetooth y balizas para telemetría auxiliar como control de temperatura, conteo de pasajeros o detección de proximidad.
+- Registro offline tipo caja negra que guarda registros localmente y los reenvía a Plaspy cuando se restablece la conectividad para preservar el historial.
 
-## Technical Overview
+## Casos de uso típicos
 
-| Conectividad | Módem GSM 2G con soporte para doble SIM; antena celular interna; USB para configuración y datos |
-| --- | --- |
-| Bandas | 2G GSM \(las bandas de frecuencia específicas dependen del modelo regional\) |
-| Alimentación y batería | Voltaje de operación 8–50 V; corriente típica de 1 mA \(reposo\) a 70 mA \(activo\); batería interna de respaldo 300–1800 mAh \(según variante\) |
-| Interfaces | USB, 1-WIRE, UART \(opcional\), RS-232 \(opcional\), RS-485, CAN \(configurable por variante\) |
-| GNSS | Multi-constelación: GPS, GLONASS, Galileo, BeiDou, QZSS; antena GNSS interna |
-| Bluetooth | Módulo BLE interno; admite emparejamiento con hasta 10 sensores BLE y una lista de dispositivos compatibles \(ARNAVI, ESCORT, Teltonika Eye Sensor, Mielta, ITALON, Gicam y otros\) |
-| Registro a bordo | Almacenamiento de caja negra ~32 MB \(~100,000 registros\) para registro fuera de línea |
-| Entradas / Salidas | 3 entradas discretas negativas, 1 entrada discreta positiva, 1 salida discreta negativa, 1 entrada analógica ADC \(algunas E/S opcionales según variante\) |
-| Protocolos & Servidores | Soporta protocolos INTERNAL, EXTERNAL, USER\_AG y EGTS; configurable con hasta dos servidores de monitorización |
-| Gestión remota | Configuración remota y actualizaciones de firmware vía web; herramienta de configuración en PC por USB; aplicación móvil vía Bluetooth/USB para la instalación en sitio |
-| Funciones avanzadas | Analítica EcoDriving, tacógrafo \(Shtrih\) e integraciones CAN DTA, CAN-LOG, soporte de cámara \(ZM, VC0607\), integración RFID y contador de pasajeros \(PP01\), seguimiento de evacuación de vehículo |
-| Forma | Compacto: 70 x 52 x 22 mm; peso ≈ 50 g |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, historial de rutas y diagnóstico de vehículos basado en CAN para mantenimiento programado y análisis del comportamiento del conductor.
-- Monitoreo de combustible y telemetría: conecte hasta ocho sensores de combustible RS-485 \(DУТ\) o utilice datos de combustible CAN para reducir pérdidas y optimizar el consumo.
-- Control de transporte de pasajeros: integre contadores de pasajeros, lectores RFID y sensores BLE para ocupación, cumplimiento de la ruta y control de tarifas.
-- Antirrobo y monitorización de seguridad: detecte eventos de ignición/puerta, movimiento mediante acelerómetro y dispare alertas o acciones de inmovilización mediante salidas discretas cuando esté integrado con los flujos de trabajo de Plaspy.
-- Telemetría de activos y equipos: su tamaño compacto y el amplio rango de voltaje hacen de Integral 4 una solución adecuada para contenedores, remolques y equipos móviles que requieren múltiples sensores y registro sin conexión.
+- Gestión de flotas con seguimiento en vivo, historial de rutas y diagnóstico vehicular para planificación operativa y de mantenimiento.
+- Monitoreo de combustible e integración de telemetría para detectar anomalías y apoyar análisis de consumo.
+- Control de transporte de pasajeros combinando sensores de ocupación, RFID y dispositivos BLE para cumplimiento de rutas y supervisión operativa.
+- Antirrobo y monitoreo de seguridad mediante eventos de puertas y encendido, detección de movimiento y salidas de control remoto.
+- Telemetría de activos y equipos para remolques, contenedores y maquinaria móvil que requieren dispositivos compactos y registro robusto.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir Integral 4 como rastreador GPS compatible con Plaspy ofrece una combinación equilibrada de seguimiento en tiempo real preciso, amplias interfaces de telemetría y registro y manejo de energía a nivel empresarial. Su posicionamiento multi‑GNSS, conectividad 2G de doble SIM y BLE interno simplifican la instalación e integración de sensores, mientras que las opciones configurables CAN/RS-485 y un conjunto completo de E/S facilitan la captura de datos de monitorización de combustible, diagnósticos y datos basados en eventos. Con configuración remota, capacidades de actualización de firmware y la documentación/mapas de comandos suministrados, Integral 4 se integra de manera eficiente en despliegues de gestión de flotas y activos impulsados por Plaspy, ayudando a reducir tiempos de inactividad, mejorar la eficiencia del combustible y fortalecer los procesos de antirrobo y monitorización sin complicaciones.
+Integral 4 es una opción práctica para organizaciones que usan Plaspy y necesitan un dispositivo compacto que equilibre posicionamiento preciso, múltiples interfaces de telemetría y registro de nivel empresarial. Su posicionamiento multi GNSS, conectividad celular con doble SIM y Bluetooth interno simplifican la integración de sensores y la instalación en espacios reducidos, mientras que las opciones de bus y serie configurables permiten capturar diagnósticos vehiculares y datos de combustible para análisis centralizados en Plaspy.
 
+Para despliegues que requieren continuidad offline fiable y una amplia gama de entradas y salidas, Integral 4 ofrece captura de datos y capacidades de gestión remota sencillas que se integran en los flujos de monitoreo, alertas e informes impulsados por Plaspy. Su conjunto de funciones cubre necesidades comunes de rastreo de flotas y activos sin exigir adaptaciones complejas en la plataforma.
+
+Learn more about Plaspy and how compatible devices are used in fleet and asset management on the Plaspy website https://www.plaspy.com. Product specifications, availability and manufacturer documentation can change over time so verify current details on the official Arusnavi site https://www.arusnavi.ru.

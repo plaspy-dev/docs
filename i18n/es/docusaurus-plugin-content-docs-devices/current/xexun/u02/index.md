@@ -2,63 +2,60 @@
 slug: /xexun/u02
 id: u02
 sidebar_label: U02
+title: Xexun - U02
 sidebar_class_name: menu_item_tracker
+description: Reloj wearable Xexun U02 con posicionamiento UWB a nivel centimétrico para interior y compatibilidad con Plaspy, ideal para seguridad institucional
+keywords:
+  - Xexun U02
+  - rastreador U02
+  - posicionamiento UWB
+  - posicionamiento en interiores
+  - reloj anti manipulación
+  - rastreador wearable
+  - compatible con Plaspy
+  - seguimiento de personal
+  - seguimiento institucional
+  - seguimiento en tiempo real
 ---
+
 # Xexun - U02
 
 ![U02](./tracker.jpg)
 
-El U02 es un reloj de posicionamiento profesional de banda ultraancha \(UWB\) compatible con Plaspy y diseñado para entregar posicionamiento en interiores a nivel de centímetros y posicionamiento de corto alcance en exteriores, donde los rastreadores GPS tradicionales tienen dificultades. Construido para entornos de alta seguridad y despliegues institucionales, el U02 combina el rango UWB, un módulo RFID de 2.4 GHz, sensores de signos vitales integrados y protección anti-tamper activa para proporcionar a los equipos de operaciones un seguimiento preciso en tiempo real y una detección rápida de incidentes dentro de la plataforma Plaspy.
+El U02 es un reloj wearable profesional de Xexun que combina medición por ultra wideband (UWB), un módulo RFID de 2.4 GHz, sensores integrados de signos vitales y protección activa contra manipulación. Diseñado para entornos donde el GPS tradicional tiene limitaciones, el U02 ofrece posicionamiento en interiores y en cortas distancias al exterior con precisión a nivel centimétrico, además de alertas inmediatas por manipulación o emergencias para desplegados sensibles en materia de seguridad.
 
-El U02 complementa las implementaciones de rastreadores GPS en el ecosistema de Plaspy al cubrir la brecha de precisión en interiores: mientras el GPS ofrece telemetría al aire libre de largo alcance y datos de gestión de flotas, el U02 proporciona posicionamiento de submetro a centímetros, alertas de manipulación y telemetría del personal \(frecuencia cardíaca y movimiento\) para entornos como prisiones, hospitales, escuelas y sitios industriales.
+Como dispositivo compatible con Plaspy, el U02 introduce ubicación interior de alta resolución y telemetría de personal en la misma plataforma que los operadores usan para gestión de flotas y activos. Al enviar posiciones derivadas de UWB, eventos de manipulación y telemetría de sensores a Plaspy, el U02 complementa a los rastreadores GPS de exterior y ayuda a crear una visión operacional unificada que abarque espacios interiores y exteriores.
 
-## Características clave
+## Características principales
 
-- Integración compatible con Plaspy para seguimiento en tiempo real y monitoreo centralizado junto con datos de rastreadores GPS.
-- Posicionamiento UWB a nivel de centímetros \(hasta 10 cm de precisión en condiciones ideales\) para localizar con precisión en interiores.
-- Módulo RFID de 2.4 GHz integrado \(mensajería bidireccional\) para mensajería bidireccional con anclas y el sistema de gestión, mejorando los flujos de trabajo asistidos por anclas.
-- Bucle conductor integrado en la correa para activar alarmas de manipulación de inmediato si la correa es cortada o retirada; ideal para despliegues sensibles a la seguridad.
-- Sensores integrados de movimiento y frecuencia cardíaca para telemetría en tiempo real del personal y detección de eventos de salud.
-- Diseño robusto con impermeabilidad IP68, amplio rango de temperatura de funcionamiento y larga autonomía en modo de espera para operaciones continuas.
-- Alarma de emergencia con botón táctil, alertas por vibración y soporte para mensajes push del sistema al dispositivo.
+- Integración compatible con Plaspy para monitoreo consolidado de posiciones UWB interiores y datos GPS exteriores
+- Posicionamiento UWB a nivel centimétrico para localización precisa en interiores donde el GPS es limitado
+- RFID de 2.4 GHz integrado para mensajería con anclas y mejoras en flujos de trabajo asistidos por anclas
+- Correa con lazo conductor que dispara alarmas inmediatas de anti manipulación al cortarse o retirarse la correa
+- Sensores integrados de movimiento y pulso para telemetría en tiempo real del personal y detección de eventos
+- Diseño robusto con protección IP68 y capacidad de espera extendida para operaciones continuas
+- Botón táctil de alarma de emergencia, alertas por vibración y soporte de mensajes del sistema para respuesta rápida
 
 ## Cómo funciona con Plaspy
 
-El U02 comunica su ubicación precisa y telemetría de sensores a Plaspy mediante una red de anclas UWB y la integración de backend. Las anclas reciben los paquetes periódicos de posicionamiento UWB del reloj y los intercambios RFID; el sistema de anclas o el motor de posicionamiento calcula las fijaciones de ubicación y las reenvía a Plaspy para visualización, alertas e informes. Plaspy consolida estos eventos de ubicación interiores y de corto alcance con la telemetría GPS exterior para proporcionar una visión operativa unificada.
+El U02 transmite mediciones UWB y eventos de sensores hacia un entorno integrado con Plaspy mediante una red de anclas y un motor de posicionamiento en el backend. Las anclas recogen las señales del reloj, calculan fijaciones de ubicación y reenvían los datos de posición y eventos a Plaspy para que los equipos operativos puedan visualizar ubicaciones, recibir alertas y revisar la actividad histórica junto con otras fuentes de telemetría.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: las posiciones derivadas de UWB y los datos de sensores se envían a Plaspy para mapas en vivo y reproducción histórica.
-- Eventos de manipulación y emergencia: alarmas de manipulación de la correa conductiva y señales de emergencia por botón táctil se envían como alertas inmediatas en Plaspy.
-- Cargas de sensores: datos de frecuencia cardíaca y movimiento se cargan al servidor para habilitar el monitoreo de salud y los registros de actividad.
-- Mensajería bidireccional: el RFID integrado de 2.4 GHz admite mensajes bidireccionales entre el reloj y las anclas; Plaspy puede enviar mensajes del sistema al dispositivo.
-- Complementario a la telemetría de vehículos: cuando se utiliza con rastreadores GPS en Plaspy, el U02 proporciona un posicionamiento interior preciso donde el GPS es limitado, útil junto con la gestión de flotas, telemetría de encendido o inmovilizador y monitoreo de combustible gestionados por los dispositivos del vehículo.
+- Actualizaciones en tiempo real de ubicación y telemetría para mapas en vivo y reproducción histórica en Plaspy
+- Alertas inmediatas de manipulación y emergencias entregadas a Plaspy cuando se corta la correa o se presiona el botón de emergencia
+- Subida de frecuencia cardíaca y movimiento que provee registros de salud y actividad para monitoreo y revisión de incidentes
+- Mensajería bidireccional entre el reloj y las anclas que soporta mensajes del sistema y coordinación operativa
+- Funciona junto a la telemetría de rastreadores GPS en Plaspy para unir la precisión interior con el rastreo de largo alcance en exteriores
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Tecnología de posicionamiento | Rango Ultra-Wideband \(UWB\) con posicionamiento asistido por anclas |
-| --- | --- |
-| Frecuencia UWB | 3.75–4.25 GHz |
-| RFID | Módulo RFID de 2.4 GHz integrado \(mensajería bidireccional\) |
-| Interfaces opcionales | NFC opcional indicado; interfaz de carga/datos por contacto |
-| Antena | Antena omnidireccional interna |
-| Sensores | Sensor de movimiento integrado y sensor de frecuencia cardíaca; alertas por vibración; alarma de emergencia con botón táctil |
-| Detección de manipulación | Bucle conductor integrado en la correa activa una alarma de manipulación de inmediato si la correa es cortada o retirada |
-| Rendimiento de posicionamiento | Precisión de hasta 10 cm en condiciones ideales; alcance sin obstrucciones de hasta ~80 metros \(dependiente de las anclas\) |
-| Batería | Batería recargable integrada de 550 mAh; modo de espera hasta 90 días; carga completa típica ~2 horas; alarma de batería baja a &lt;20% |
-| Durabilidad y medio ambiente | Impermeabilidad IP68; rango de temperatura de funcionamiento −30°C a +60°C; 10–90% de humedad relativa sin condensación |
-| Gestión remota | Soporta actualizaciones de firmware remotas \(FOTA\) |
-| Forma | Formato tipo reloj de muñeca para monitorización de personal y flujos de trabajo de inspección |
-
-## Casos de uso
-
-- Vigilancia de internos en prisiones y seguridad anti-tamper: alertas inmediatas ante la retirada de la correa y ubicación interior precisa para la respuesta a incidentes.
-- Seguridad y seguimiento del personal en fábricas u hospitales: combine ubicación en tiempo real con telemetría de frecuencia cardíaca y movimiento para el monitoreo del bienestar.
-- Asistencia, inspección y flujos de patrullaje: verificar las rutas y puntos de control del personal en sitio con precisión de centímetros.
-- Escuelas y despliegues institucionales: seguimiento wearable gestionado para la seguridad de los estudiantes y localización rápida durante incidentes.
-- Localización de activos o personal de corto alcance donde la cobertura de rastreadores GPS es limitada o no está disponible.
+- Monitoreo de internos y seguridad anti manipulación en centros penitenciarios
+- Seguridad y localización de personal en hospitales, fábricas y otros entornos institucionales
+- Verificación de asistencia, inspecciones y flujos de patrullaje con ubicación de alta precisión
+- Seguridad de niños y estudiantes en escuelas y campus
+- Localización de activos o personal a corta distancia cuando la cobertura GPS es limitada o inexistente
 
 ## Por qué elegir este rastreador con Plaspy
 
-El U02 aporta una capa especializada de precisión y seguridad a despliegues gestionados por Plaspy. Mientras que los rastreadores GPS proporcionan telemetría de gran alcance, detalles de gestión de flotas y señales centradas en vehículos, como encendido o monitoreo de combustible, el U02 ofrece posicionamiento interior de alta resolución, protección activa contra manipulación y telemetría del personal que el GPS por sí solo no puede proporcionar. Integrar dispositivos U02 en Plaspy permite una conciencia situacional unificada: ubicaciones interiores precisas, datos de salud y movimiento en tiempo real y alertas inmediatas de manipulación o emergencia, todo ello junto a la telemetría clásica para una visión operativa completa.
+El U02 añade una capa especializada de precisión y seguridad a los despliegues gestionados con Plaspy. Mientras que los rastreadores para vehículos y de área amplia aportan telemetría de largo alcance y datos de flota, el U02 suministra ubicaciones interiores de alta resolución, protección activa contra manipulación y telemetría del personal que resulta difícil obtener solo con GPS. Integrar el U02 en Plaspy permite un modelo de conciencia situacional más completo al combinar fijaciones interiores a nivel centimétrico con rastreo exterior y alertas operativas.
 
-Para las organizaciones que requieren datos fiables y auditable de ubicación y eventos en entornos sensibles, el U02 ofrece hardware robusto, larga duración de la batería y mensajería bidireccional con las anclas. Combinado con Plaspy, admite despliegues escalables donde la seguridad, la respuesta rápida y un seguimiento detallado son esenciales. Si su implementación también necesita telemetría de vehículos, como monitoreo de combustible, control de encendido o inmovilizador, el U02 se integra en la misma plataforma Plaspy con dispositivos rastreadores GPS para proporcionar una solución de telemetría completa.
-
+Si su despliegue requiere ubicación interior auditables, detección rápida de manipulación y telemetría en vivo del personal en sitios sensibles, el U02 es una opción wearable compatible a considerar dentro del ecosistema Plaspy. Learn more about Plaspy at https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time and should be verified on the official Xexun site https://www.xexun.com/.

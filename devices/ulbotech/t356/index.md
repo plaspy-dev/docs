@@ -2,63 +2,60 @@
 slug: /ulbotech/t356
 id: t356
 sidebar_label: T356
+title: Ulbotech - T356
 sidebar_class_name: menu_item_tracker
+description: Plaspy compatible Ulbotech T356 Wi Fi OBD II GPS tracker with offline storage and anti theft control for fleet and vehicle telematics
+keywords:
+  - Ulbotech T356
+  - T356 GPS tracker
+  - Ulbotech tracker
+  - Plaspy compatible
+  - T356 Plaspy
+  - Wi Fi GPS tracker
+  - OBD II tracker
+  - vehicle tracker
+  - fleet tracking
+  - anti theft tracker
 ---
+
 # Ulbotech - T356
 
 ![T356](./tracker.jpg)
 
-The T356 is a Plaspy compatible GPS tracker engineered for vehicles that need reliable, cost-efficient telemetry and secure anti‑theft controls. Designed as an OBD‑II plug‑in unit with built‑in Wi‑Fi and generous local storage, the T356 enables near‑real‑time tracking via Plaspy when a Wi‑Fi connection is available and seamless data offload with zero per‑use cellular cost. Its compact package and broad protocol support make it suitable for light and heavy vehicles, fleet management, rental and insurance fleets, and vehicle safety programs.
+The T356 is a compact vehicle GPS tracker from Ulbotech designed for cost efficient telemetry and secure anti theft control. Built as an OBD II plug in unit with built in Wi Fi and substantial local storage, the T356 stores trip records locally and can offload data automatically when it reaches configured Wi Fi networks. Its feature set focuses on reliable positioning, vehicle bus telemetry and remote immobilizer control for vehicle security and operational oversight.
 
-The T356 combines a u‑blox NEO‑6M GNSS receiver \(with A‑GPS\) and full OBD‑II protocol support to deliver accurate GPS positioning and in‑vehicle telemetry to Plaspy. With a large internal flash able to store roughly two weeks of records, configurable Wi‑Fi profiles for automated offload, internal immobilizer and engine‑cut output for anti‑theft control, and optional Bluetooth sensors, the T356 is built to reduce operating costs while providing the telemetry, ignition and immobilizer signals modern fleet and safety applications require.
+As a Plaspy compatible device, the T356 can feed location, trip and vehicle data into Plaspy dashboards and reports. The combination of local buffering and Wi Fi offload makes the T356 a practical option for fleets and operators that want to avoid per use cellular fees while retaining near real time visibility when vehicles return to depots or other configured networks. Plaspy users can leverage the T356 for monitoring, alerts and remote control workflows that combine location with vehicle events.
 
 ## Key Highlights
 
-- Plaspy compatible Wi‑Fi GPS tracker that enables cost‑free \(0 use‑cost\) data upload when in range of configured networks.
-- Large internal flash memory storing ~22,000 records \(~two weeks of tracking\) for robust offline operation and later data offload.
-- Full OBD‑II support \(J1850 PWM/VPW, ISO9141‑2, ISO14230/KWP2000, ISO15765‑4 CAN\) plus SAE J1939/J1708/J1587 for heavy vehicle telemetry.
-- Built‑in immobilizer and engine‑cut digital output for remote anti‑theft control and immobilization via Plaspy commands.
-- Internal 3‑axis accelerometer to detect and report up to eight configurable poor driving behaviors for driver profiling and safety programs.
-- Wi‑Fi \(802.11 b/g/n\) station & soft‑AP modes with WPA/WPA2/WPS and support for >1,600 access point profiles for automated data offload.
-- Low power design \(70 mA active, 10 mA sleep\) and broad operating voltage \(8–32 V DC\) for continuous vehicle operation.
+- Plaspy compatible Wi Fi tracker that enables cost free data offload when in range of configured networks.
+- Large internal flash memory storing roughly two weeks of records for robust offline operation.
+- OBD II and heavy vehicle protocol support for vehicle telemetry where the vehicle bus exposes data.
+- Built in immobilizer and engine cut outputs to support remote anti theft control and recovery workflows.
+- Internal accelerometer based event detection for driver behaviour monitoring and safety programs.
+- Configurable Wi Fi profile support for automated uploads at depots and service locations.
+- Low power design and wide operating voltage range suitable for continuous vehicle use.
 
 ## How It Works with Plaspy
 
-The T356 integrates with Plaspy to deliver location, vehicle telemetry and event information through Wi‑Fi offloads and live network uploads. While the device stores data locally during trips, it automatically uploads stored records to Plaspy when it detects a configured Wi‑Fi access point \(for example, at refueling stations, depots or parking locations\). When connected, Plaspy receives near‑real‑time tracking and telemetry for fleet management dashboards, alerts and reporting.
+When deployed with Plaspy, the T356 provides location, trip and vehicle event data through automatic Wi Fi offloads and live uploads when connected. Data collected during trips is retained locally and transferred to Plaspy when a configured access point is available, enabling centralized fleet visibility without constant cellular use.
 
-- Real‑time location and telemetry updates \(when connected via Wi‑Fi\) for routing and fleet management.
-- Ignition \(ACC\) and digital input status reporting for trip start/stop, SOS events and wired alarms.
-- On‑board OBD and J1939 telemetry such as engine parameters and common fuel/diagnostic data where available from the vehicle bus.
-- Remote immobilizer and engine‑cut control to support anti‑theft workflows and remote vehicle disable via Plaspy commands.
-- Optional Bluetooth sensors support \(BLE\) for accessory sensors or beacons when deployed and configured.
+- Near real time location and vehicle telemetry updates when Wi Fi connection is available.
+- Trip start and stop detection via ignition and digital input reporting for accurate trip logs.
+- Vehicle bus telemetry such as engine parameters and diagnostic values where available from the vehicle.
+- Remote immobilizer and engine cut control to support anti theft and recovery actions from Plaspy.
+- Optional accessory sensor support for accessory data and environmental inputs when configured.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | T356 |
-| --- | --- |
-| Connectivity | Wi‑Fi 802.11 b/g/n \(station & soft‑AP\); optional Bluetooth 4.0 BLE; micro USB for configuration and debugging |
-| Bands / Networking | Wi‑Fi only \(no cellular\); supports WPA/WPA2/WPS; configurable Wi‑Fi profile list >1,600 APs |
-| GNSS | u‑blox NEO‑6M with A‑GPS; position accuracy &lt;3 m \(open sky\), SBAS 2.0 m; tracking sensitivity −162 dBm |
-| OBD & Vehicle Protocols | Full OBD‑II protocols: J1850 PWM/VPW, ISO9141‑2, ISO14230/KWP2000, ISO15765‑4 CAN; SAE J1939/J1708/J1587 for heavy vehicles |
-| Memory & Storage | Internal flash ~22,000 records \(about two weeks\); configurable geo‑fences \(circular, rectangular, polygon up to 32 points\) |
-| Power & Battery | Operating voltage 8–32 V DC; internal Li‑Polymer backup battery 3.7 V, 180 mAh; low power modes: 70 mA active, 10 mA sleep |
-| Inputs & Outputs | Engine‑cut digital output; internal immobilizer; configurable inputs for ACC, SOS, and analog sensors |
-| Sensors | Internal 3‑axis accelerometer for driver behaviour monitoring \(up to 8 event types\) |
-| Antennas & Sensitivity | Internal GPS and Wi‑Fi antennas; Wi‑Fi sensitivity −98 dBm; GPS sensitivity −162 dBm tracking |
-| Firmware & Management | FOTA via Wi‑Fi; micro USB for firmware update and debugging |
-| Form Factor | Compact OBD‑II plug package, 50 × 50 × 23 mm, approx. 50 g |
-
-## Use Cases
-
-- Fleet management: cost‑effective telemetry and routing data collection with centralized Plaspy dashboards.
-- Anti‑theft and immobilization: remote engine‑cut and immobilizer control for stolen vehicle recovery and security workflows.
-- Driver behavior and insurance telematics: accelerometer‑based event detection and OBD‑based driving profiles for safety and risk scoring.
-- Rental and vehicle profiling: automated offload at depots and Wi‑Fi‑based uploads for usage reports and billing reconciliation.
-- Roadside assistance and diagnostics: OBD and J1939 telemetry to surface engine parameters and fault codes where available.
+- Fleet management for centralized monitoring, routing oversight and utilization reporting.
+- Rental and shared vehicle operations with automated depot offload for usage reconciliation.
+- Insurance telematics and driver risk programs using accelerometer and vehicle telemetry events.
+- Anti theft and recovery operations leveraging remote immobilizer and engine cut outputs.
+- Service and diagnostics workflows that make use of on board vehicle bus data where exposed.
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the T356 as a Plaspy compatible GPS tracker provides a practical balance of low operating cost, robust offline capability and vehicle‑grade telemetry. Its Wi‑Fi first approach eliminates ongoing cellular data fees when frequent depot or parking offload is possible, while the large internal flash prevents data loss between uploads. Full OBD‑II and heavy‑vehicle protocol support give fleets and service providers the telemetry needed for fuel monitoring, diagnostics and vehicle profiling where vehicle buses expose that data. Built‑in immobilizer and engine‑cut outputs, plus configurable ignition \(ACC\) and SOS inputs, allow Plaspy to combine location, event alerts and remote control for anti‑theft and operational workflows.
+The T356 is a practical choice for organizations that want a Wi Fi first approach to vehicle tracking combined with strong offline resilience. Its local storage reduces the risk of data gaps between uploads, and the ability to offload data at depots or parking locations can significantly lower operating costs compared with always on cellular solutions. For fleets that require vehicle bus telemetry and anti theft controls, the T356 offers a blend of vehicle grade data and control signals that integrate into Plaspy workflows.
 
-In short, T356 is a compact, Plaspy compatible GPS tracker that fits fleet management, insurance telematics and security applications that prioritize cost control, rich vehicle data and dependable off‑network storage. Its configurable Wi‑Fi profiles, FOTA capability and optional BLE support make deployment and long‑term management straightforward for organizations scaling their tracking and telemetry solutions.
-
+If your operations include regular return to fixed points such as depots or service centers, or if you need compact OBD II style hardware that reports vehicle events and supports remote immobilization, the T356 is a compatible option to evaluate with Plaspy. To learn more about Plaspy and how devices like the T356 work within the platform visit https://www.plaspy.com. Product specifications and availability can change over time so please verify current details on the manufacturer site http://www.ulbotech.com/.

@@ -2,58 +2,60 @@
 slug: /autofon/gl
 id: gl
 sidebar_label: GL-Маяк
+title: AutoFon - GL-Маяк
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto AutoFon GL-Маяк compatible con Plaspy para seguimiento de activos reportes de alarma y monitoreo de ubicación fiable
+keywords:
+  - AutoFon GL-Маяк
+  - GL-Beacon
+  - rastreador GPS
+  - GLONASS GPS
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - seguimiento de activos
+  - rastreo encubierto
+  - reportes de alarmas
+  - larga duración de batería
 ---
+
 # AutoFon - GL-Маяк
 
 ![GL-Маяк](./tracker.png)
 
-El AutoFon GL-Beacon \(АвтоФон GL-Маяк\) es un rastreador GPS compacto, compatible con Plaspy, diseñado para una operación autónoma prolongada y un reporte de ubicación fiable. Construido sobre la plataforma v.5.x, este rastreador GPS/GLONASS ofrece posicionamiento preciso, reporte de alarmas y canales de control remoto flexibles, lo que lo convierte en una opción práctica para la protección de activos, seguimiento encubierto de vehículos y seguridad en sitios remotos donde se requieren las funciones de monitoreo y gestión de flotas de Plaspy.
+El AutoFon GL-Маяк, también comercializado como GL-Beacon, es un rastreador compacto con GPS y GLONASS diseñado para operación autónoma prolongada y reportes de ubicación confiables. Combina un formato reducido con detección de eventos y notificación de alarmas para proteger activos, realizar rastreo discreto de vehículos y asegurar sitios remotos donde la telemetría continua y la autonomía de batería son determinantes.
 
-Diseñado para funcionar con Plaspy mediante informes estándar por GPRS y SMS, el GL-Beacon combina un módulo de navegación GLONASS+GPS integrado, detección de eventos robusta \(movimiento, impacto, vuelco\) y una memoria intermedia tipo "caja negra" para retención de datos fuera de línea. Los usuarios de Plaspy obtienen seguimiento en tiempo real, telemetría y gestión de alarmas desde un dispositivo de formato compacto que prioriza la duración de la batería y la entrega fiable de telemetría.
+Como dispositivo compatible con Plaspy, el GL-Маяк se integra con los flujos de monitoreo y gestión de flotas de Plaspy mediante reportes estándar por GPRS y SMS. Su almacenamiento en búfer para telemetría sin conexión, entradas de alarma —incluido un botón SOS— y un canal de control auxiliar lo hacen especialmente apto para entregar a Plaspy datos de ubicación, eventos y alarmas, permitiendo visibilidad en tiempo real, reproducción histórica y supervisión operativa.
 
-## Puntos clave
+## Características principales
 
-- Operación autónoma prolongada: funciona con dos baterías de litio CR123A de 3.0V \(1500 mAh\) con hasta 2 años de autonomía, según la configuración; ideal para despliegues de activos a largo plazo.
-- Posicionamiento de alta precisión: navegación GPS+GLONASS combinada \(chipset MGGS2217\) para datos de ubicación fiables en entornos mixtos.
-- Buffer offline robusto: almacenamiento interno para hasta 98,000 paquetes GPRS mantiene la telemetría cuando se pierde la conexión y reintenta la entrega automáticamente.
-- Alarma y detección integrales: acelerómetro digital incorporado para movimiento, impacto/accidente, vuelco y detección de caída con sensibilidad ajustable.
-- SOS y monitoreo de audio: botón SOS integrado para alarmas inmediatas y micrófono a bordo para comprobaciones de audio a distancia.
-- Canal de control auxiliar: salida auxiliar universal admite control remoto de corte de motor, activación de arranque, sirenas o calefactores, permitiendo intervenciones tipo inmovilizador.
-- Forma compacta y discreta: carcasa de 69×51×22 mm y antena separada de 25×25×4 mm facilitan una instalación discreta en vehículos, contenedores y activos.
-- Conectividad segura y gestionada: informes por GPRS y SMS, señal de vida configurable y supervisión del saldo de la SIM, protección por contraseña y control de números autorizados.
+- Operación autónoma de larga duración, adecuada para despliegues prolongados y monitoreo de bajo mantenimiento.
+- Posicionamiento combinado GPS y GLONASS para mayor fiabilidad en distintos entornos.
+- Amplio búfer offline que preserva la telemetría durante pérdidas de cobertura y reenvía los paquetes almacenados cuando vuelve la señal.
+- Detección de movimiento e impactos integrada, además de detección de vuelco, que soporta alertas basadas en eventos.
+- Botón SOS dedicado y micrófono a bordo para señalización inmediata de alarmas y comprobaciones de audio opcionales.
+- Salida auxiliar que permite acciones de control remoto para flujos como inmovilización u otras intervenciones.
+- Factor de forma compacto y discreto que se adapta a vehículos, contenedores y activos pequeños donde se requiere instalación encubierta.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el GL-Beacon transmite datos de posición y de eventos a su servidor de monitoreo de Plaspy a través de GPRS y también puede enviar alertas por SMS. Plaspy utiliza estos datos para proporcionar seguimiento en tiempo real, flujos de alarmas, reproducción histórica y paneles de telemetría. El almacenamiento en búfer de paquetes del GL-Beacon y su lógica de reintento aseguran que Plaspy reciba un registro continuo de ubicación y eventos incluso ante interrupciones temporales de la conectividad.
+Al conectarse a Plaspy, el GL-Маяк envía datos de posición y eventos a los servidores de Plaspy vía GPRS y puede entregar alertas críticas por SMS cuando está configurado. Plaspy procesa esas entradas para mostrar la ubicación en vivo, activar flujos de alarma y generar informes históricos, mientras que el búfer del dispositivo y su lógica de reintentos mejoran la continuidad de datos durante pérdidas temporales de señal.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a través de GPRS a los servidores de Plaspy; opción de SMS como respaldo para alertas críticas.
-- Eventos de alarma: pulsaciones del botón SOS, disparos de entrada de alarma externa, detección de movimiento, impacto, vuelco y caída reportados de inmediato a Plaspy para notificación instantánea.
-- Monitoreo de audio: el acceso al micrófono remoto puede usarse dentro de flujos de trabajo de Plaspy donde se admiten verificaciones de audio.
-- Control remoto: el canal auxiliar permite acciones activadas por Plaspy \(corte de motor/imovilizador o control de arranque\) cuando se configura en el cableado del vehículo.
-- Resiliencia offline: hasta 98,000 paquetes GPRS se almacenan localmente y se envían a Plaspy cuando la cobertura de red vuelve; la reserva LBS proporciona una posición aproximada cuando GNSS no está disponible.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy, con SMS como respaldo para notificaciones críticas.
+- Reportes de alarma inmediatos por pulsaciones del SOS, detección de movimiento, impactos y vuelcos para apoyar una respuesta rápida.
+- La capacidad de monitoreo de audio puede integrarse en los flujos de trabajo de Plaspy cuando estén permitidas las comprobaciones remotas de audio.
+- El control auxiliar remoto permite que Plaspy inicie acciones como inmovilización o control del arrancador cuando está configurado.
+- El reenvío de paquetes almacenados garantiza que Plaspy reciba registros históricos tras interrupciones de cobertura.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS \(módulo QUECTEL M12\); informes por SMS y subida de datos GPRS soportados |
-| --- | --- |
-| Bandas | GSM a través del módulo QUECTEL M12 \(las bandas de frecuencia específicas dependen de la variante del módulo\) |
-| Potencia y Batería | Dos baterías de litio CR123A de 3.0V \(1500 mAh\); hasta 2 años de autonomía según la configuración; admite alimentación externa |
-| Interfaces | 1 entrada de alarma, 1 canal auxiliar \(control remoto de dispositivos externos\), micro botón SOS, micrófono integrado para monitoreo de audio |
-| GNSS | GPS+GLONASS combinados \(chipset MGGS2217\); antena externa de 25×25×4 mm |
-| Bluetooth | No especificado / no se reporta Bluetooth integrado |
-| Gestión remota | Actualizaciones de firmware por GPRS; parámetros configurables y monitorización remota vía GPRS/SMS |
-| Forma | Carcasa compacta 69×51×22 mm; diseñada para instalación encubierta en vehículos y activos |
-
-## Casos de uso
-
-- Seguimiento encubierto de vehículos para coches, motocicletas y embarcaciones: instalación discreta con larga duración de la batería para monitoreo encubierto.
-- Protección de mercancías y contenedores valiosos: informes de alarmas en tiempo real y un buffering de paquetes robusto mantienen la telemetría del envío para revisión en Plaspy.
-- Monitoreo de personas y animales: rastreo compacto y autónomo con botón SOS y monitoreo de audio para la seguridad de niños, personas mayores o mascotas.
-- Protección de instalaciones remotas y estáticas: modos activos continuos o de beacon, además de soporte de energía externa para garajes, casas de verano y quioscos.
-- Telemetría de flotas pequeñas y activos: intégralo con Plaspy para gestión centralizada de la flota y flujos de trabajo basados en incidentes, utilizando las alarmas y controles auxiliares del GL-Beacon.
+- Rastreo encubierto de vehículos como autos, motocicletas y embarcaciones, donde la colocación discreta y la larga duración de la batería son prioritarias.
+- Protección de cargamentos y contenedores valiosos mediante telemetría persistente y preservación de datos en búfer.
+- Monitoreo de seguridad personal con alarma SOS y comprobaciones de audio opcionales para niños, adultos mayores o trabajadores en solitario.
+- Seguridad de sitios remotos para pequeñas instalaciones o equipos que requieren rastreo de bajo mantenimiento.
+- Telemetría de pequeñas flotas y activos integrada en Plaspy para supervisión centralizada y gestión de incidentes.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Emparejar el AutoFon GL-Beacon con Plaspy ofrece una solución de rastreo GPS resistente y de bajo mantenimiento, centrada en la fiabilidad, la duración de la batería y alarmas accionables. La posición GPS+GLONASS combinada y el amplio búfer de paquetes GPRS reducen la pérdida de datos durante interrupciones de cobertura, mientras que el botón SOS, la detección de eventos impulsada por el acelerómetro y el canal de control auxiliar amplían la utilidad más allá de un simple reporte de ubicación. Para organizaciones que necesiten un rastreador GPS compacto compatible con Plaspy para anti-robo, telemetría y protección de sitios remotos, el GL-Beacon ofrece un equilibrio entre autonomía, informes seguros y gestión remota, sin la complejidad innecesaria de Bluetooth integrado si la prioridad es una larga vida de la batería y una instalación encubierta.
+El AutoFon GL-Маяк es una opción práctica para organizaciones que necesitan un rastreador resistente y de bajo mantenimiento, con énfasis en la duración de la batería, reportes de posición fiables y manejo robusto de alarmas. Su combinación de posicionamiento GNSS, detección de eventos y amplio búfer offline encaja bien con las capacidades de Plaspy para monitoreo en tiempo real, generación de alertas y análisis retrospectivo sin añadir complejidad innecesaria.
 
+Para obtener más información sobre cómo Plaspy soporta dispositivos como el AutoFon GL-Маяк visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y las indicaciones del fabricante en el sitio oficial de AutoFon https://www.autofon.ru/.

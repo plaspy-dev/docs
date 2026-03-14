@@ -2,60 +2,61 @@
 slug: /condor/ts_728
 id: ts_728
 sidebar_label: TS-728
+title: Condor - TS-728
 sidebar_class_name: menu_item_tracker
+description: Maritime Iridium satellite tracker TS-728 compatible with Plaspy for global vessel tracking, telemetry, anti theft and centralized fleet visibility
+keywords:
+  - Condor TS-728
+  - TS-728 tracker
+  - Condor maritime tracker
+  - Iridium satellite tracker
+  - satellite vessel tracker
+  - Plaspy compatible
+  - vessel tracking
+  - fleet tracking
+  - maritime telemetry
+  - maritime fleet monitoring
 ---
+
 # Condor - TS-728
 
 ![TS-728](./tracker.png)
 
-The TS-728 is a purpose-built maritime tracker designed for reliable vessel monitoring via the Iridium satellite network. As a Plaspy compatible GPS tracker, the TS-728 brings global, no-limit coverage to fleet managers and vessel owners who need real-time tracking and telemetry across oceans and remote sea lanes.
+The TS-728 is a purpose built maritime tracker from Condor designed for reliable vessel monitoring via the Iridium satellite network. It provides global position reporting and telemetry for vessels operating beyond the reach of terrestrial cellular coverage, making it suitable for long range fishing boats, workboats, yachts, and other maritime assets that require continuous location visibility across oceans and remote sea lanes.
 
-Whether you operate a single yacht, a commercial fishing fleet, or multiple workboats, the TS-728 combined with Plaspy delivers centralized fleet management, anti-theft monitoring, and remote status visibility from anywhere in the world using satellite connectivity.
+As a Plaspy compatible GPS tracker, the TS-728 brings satellite delivered location and status data into Plaspy for centralized fleet oversight. That compatibility enables shore based operators to view vessel positions, receive alarms, and consolidate satellite tracked craft alongside other assets in Plaspy dashboards and reports for unified operational management.
 
 ## Key Highlights
 
-- Global satellite connectivity via Iridium — continuous coverage for vessels beyond cellular range.
-- Plaspy compatible for seamless real-time tracking, reporting, and alerting across an integrated platform.
-- Suitable for all types of maritime vessels — from leisure craft to commercial fleets.
-- Enables telemetry collection at sea to support fleet management and operational decision-making.
-- Supports anti-theft workflows and remote incident alerts when integrated with on-board sensors or systems.
-- Scalable deployment for single vessels or large fleets with centralized Plaspy dashboards and reports.
-- Designed for continuous monitoring in remote environments where terrestrial networks are not available.
+- Global satellite connectivity through the Iridium network for coverage beyond coastal limits.
+- Plaspy compatible for centralized real time tracking, reporting, and alerting.
+- Appropriate for a range of vessels from leisure craft to commercial fleets.
+- Enables at sea telemetry collection to support fleet management and operational decisions.
+- Supports anti theft monitoring and remote incident alerting when integrated with on board systems.
+- Scalable deployment for single vessel owners and large maritime operations requiring consolidated reporting.
 
 ## How It Works with Plaspy
 
-The TS-728 uses the Iridium satellite network to send location and telemetry from any point on the globe to Plaspy. Once data reaches Plaspy, it is available in real time through maps, alerts, and reports so operators can monitor vessel position, detect events, and act quickly. Integration with Plaspy allows administrators to consolidate satellite-tracked vessels into the same workflows used for cellular GPS trackers.
+The TS-728 sends vessel location and telemetry over the Iridium satellite network to Plaspy where that data becomes part of the platform view. Once in Plaspy, operators can monitor positions on maps, configure alerts, and generate reports that combine satellite tracked vessels with other assets for consistent operational oversight.
 
-- Real-time location and telemetry updates delivered via satellite to Plaspy for continuous situational awareness.
-- Event and alarm forwarding: Plaspy can trigger notifications for geofence breaches, unauthorized movement, or onboard alarms when events are emitted by the tracker.
-- Engine and fuel telemetry: Where the TS-728 installation includes engine or sensor inputs, Plaspy can record and report fuel monitoring and engine status for operational insight.
-- Remote control and immobilization: If enabled in the installed configuration, Plaspy can forward authorized remote commands \(such as immobilizer or shutdown requests\) via the satellite link.
-- Sensor data and BLE: When paired with compatible sensors, Plaspy can ingest Bluetooth sensor data forwarded by the TS-728 to extend monitoring to temperature, cargo conditions, or movement.
+- Real time location and telemetry updates delivered via satellite to Plaspy for continuous situational awareness.
+- Event and alarm forwarding to trigger notifications for geofence breaches, unauthorized movement, or onboard alarms emitted by the tracker.
+- Recording and reporting of engine and fuel related telemetry when those inputs are present on the installed tracker setup.
+- Forwarding of sensor data received by the tracker so Plaspy can monitor temperature, cargo conditions, or movement as available.
+- Support for consolidating satellite tracked vessels into the same monitoring workflows and reports used for terrestrial tracked assets.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | TS-728 |
-| --- | --- |
-| Connectivity | Iridium satellite network \(global satellite connectivity as specified by the device description\) |
-| Bands | Satellite network connectivity \(Iridium\) — global coverage; specific RF bands not specified in the supplied description |
-| Power & Battery | Not specified in the supplied description; confirm backup battery and power-loss behavior with vendor |
-| Interfaces | Not specified; vessel installations commonly support wired sensor inputs and CAN/serial integrations depending on configuration |
-| GNSS | Positioning capability is implied for vessel tracking; confirm GNSS type and accuracy with the manufacturer |
-| Bluetooth | Not specified; Bluetooth sensor support may be available in certain configurations—confirm if BLE sensors are required |
-| Remote Management | Not specified; check vendor options for remote configuration, firmware updates, and device diagnostics |
-| Form Factor | Marine-grade installation suitable for monitoring vessels of various sizes; specific dimensions and enclosure ratings not provided |
-
-## Use Cases
-
-- Fleet anti-theft and immobilization: Monitor vessel movement outside authorized zones and coordinate recovery or immobilizer actions through Plaspy when supported by your installation.
-- Long-range fleet management: Track fishing fleets, cargo boats, and offshore service vessels across vast sea areas where cellular coverage is unavailable.
-- Remote telemetry for engines and fuel: Collect engine status and fuel-related telemetry from vessels to optimize routes, maintenance, and operating costs \(where sensors are installed\).
-- Cold chain and cargo monitoring: When combined with compatible sensors forwarded by the tracker, monitor temperature or cargo conditions for refrigerated holds and sensitive freight.
-- Safety and compliance reporting: Maintain voyage logs and position histories in Plaspy for operational accountability and regulatory reporting across international waters.
+- Long range fleet management for fishing fleets, cargo boats, and offshore service vessels operating beyond cellular coverage.
+- Single yacht or leisure craft tracking for position awareness and incident notification while at sea.
+- Anti theft monitoring and recovery coordination using movement alerts and geofence notifications.
+- Remote telemetry collection for engine status and fuel oversight where sensor inputs are installed.
+- Cargo condition monitoring for refrigerated holds or sensitive freight when combined with compatible sensors.
 
 ## Why Choose This Tracker with Plaspy
 
-For maritime operators who require reliable global position and telemetry, the TS-728 paired with Plaspy offers a straightforward path to 24/7 vessel oversight beyond coastal cellular limits. The Iridium satellite link ensures coverage across oceans, while Plaspy delivers unified fleet management tools — real-time tracking, alerts, and consolidated reporting — so shore teams can manage assets and respond quickly to incidents.
+For maritime operations that need persistent global visibility, the TS-728 paired with Plaspy provides a practical solution for overseeing vessels across international waters. The satellite link addresses coverage gaps inherent to coastal and offshore operations, while Plaspy offers unified tools for real time monitoring, alerts, and consolidated reporting to help shore teams maintain operational control.
 
-Choosing a Plaspy compatible satellite tracker like the TS-728 emphasizes operational continuity, safety, and visibility. It is particularly valuable for organizations that need scalable fleet operations, anti-theft measures, and the ability to include telemetry such as fuel monitoring or engine status when on-board interfaces and sensors are installed. For exact interface options, battery configuration, or sensor support, consult the supplier to match the TS-728 installation to your operational requirements.
+Choosing a Plaspy compatible satellite tracker like the TS-728 supports continuity of operations, scalability across fleets, and enhanced situational awareness for safety and asset protection. Exact interface options, sensor capabilities, and installation choices can vary, so confirming the intended configuration with the supplier will help align the TS-728 deployment to your operational needs.
 
+To learn more about Plaspy and platform features visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so verify current specifications and installation guidance on the manufacturer website https://condorskyseeker.com/.

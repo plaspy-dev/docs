@@ -2,41 +2,61 @@
 slug: /castel/idd_212b
 id: idd_212b
 sidebar_label: IDD-212B
+title: Castel - IDD-212B
 sidebar_class_name: menu_item_tracker
+description: Escáner OBD Castel IDD-212B compatible con Plaspy para diagnósticos, consumo y kilometraje con hasta dos meses de almacenamiento
+keywords:
+  - Castel IDD-212B
+  - IDD-212B
+  - escáner OBD Castel
+  - escáner OBD para autos
+  - diagnósticos de vehículo
+  - seguimiento de flotas
+  - compatible con Plaspy
+  - monitoreo de combustible
+  - seguimiento de kilometraje
+  - registrador de datos a bordo
 ---
+
 # Castel - IDD-212B
 
 ![IDD-212B](./logo.jpg)
 
-El rastreador GPS Castel IDD-212B es una unidad OBD certificada con Bluetooth 4.0, diseñada específicamente para vehículos. Con características como DAB \(Digital Audio Broadcasting\), flash incorporado y un sensor G, este rastreador ofrece una amplia gama de funcionalidades.
+El Castel IDD-212B es un escáner OBD para automóviles con Bluetooth 4.0, diseñado para leer parámetros del motor directamente desde la ECU. Soporta diagnósticos comunes como velocidad, RPM, temperatura y códigos de falla, y ofrece lecturas de consumo de combustible y kilometraje. La unidad cuenta con certificación MFi y es compatible con dispositivos iPhone y Android; además incorpora un sensor G para detección de impactos y memoria flash a bordo capaz de almacenar hasta dos meses de datos.
 
-Una de las principales ventajas del IDD-212B es su capacidad para comunicarse con la ECU del vehículo y leer parámetros de funcionamiento como la velocidad, las RPM, los códigos de error y el consumo de combustible/kilometraje. Estos datos se transmiten a aplicaciones compatibles con Android, Windows CE e iOS, lo que permite a los usuarios monitorear y analizar el rendimiento de su vehículo en tiempo real.
+Como dispositivo compatible con Plaspy, el IDD-212B permite integrar información detallada a nivel OBD dentro de un entorno centralizado de monitoreo de flotas o vehículos. Su almacenamiento local y conectividad Bluetooth lo hacen indicado para operaciones con conectividad intermitente, y Plaspy puede aprovechar los datos que entrega el escáner para mejorar la visibilidad, los reportes y la supervisión operativa de los vehículos que lo utilizan.
 
-El rastreador también cuenta con Bluetooth 4.0, lo que significa que es compatible con dispositivos iPhone y Android. Además, tiene una memoria flash incorporada que puede almacenar datos de hasta dos meses.
+## Aspectos destacados
 
-Algunas de las especificaciones técnicas del IDD-212B incluyen una tensión de funcionamiento de DC 9-16V, una corriente normal de menos de 70 mA a 13.8V y una corriente de sueño de menos de 20 mA a 12.0V. También tiene una amplia temperatura de funcionamiento de -30 ℃ a +70 ℃ y una temperatura de almacenamiento de -40 ℃ a +85 ℃.
+- Conectividad Bluetooth 4.0 para emparejamiento con dispositivos iPhone y Android
+- Certificación MFi que indica compatibilidad con dispositivos Apple
+- Lectura de parámetros clave del motor: velocidad, RPM, temperatura y códigos de error
+- Monitoreo de consumo de combustible y kilometraje para apoyar análisis de eficiencia
+- Memoria flash integrada para hasta dos meses de datos almacenados en el dispositivo
+- Sensor G integrado para registrar movimientos bruscos o impactos
 
-En resumen, el rastreador GPS Castel IDD-212B es una opción confiable y versátil para aquellos que desean monitorear y analizar el rendimiento de su vehículo. Con su capacidad de lectura de datos del motor, indicación de consumo de combustible y compatibilidad con dispositivos Bluetooth, este rastreador ofrece una solución completa para el seguimiento y control de vehículos.
+## Cómo funciona con Plaspy
 
-### Características destacadas:
+Al integrarlo con Plaspy, los datos del IDD-212B pueden ser incorporados y presentados junto con otra telemetría de la flota para ofrecer una visión más completa del estado y uso del vehículo. Plaspy puede utilizar datos en tiempo real y registros almacenados por el escáner para respaldar flujos de trabajo de monitoreo y necesidades de reporte.
 
-- Bluetooth 4.0 compatible con iPhone y Android
-- Flash incorporado para almacenamiento de datos
-- Lectura de datos del motor del vehículo, como RPM, velocidad y temperatura
-- Indicación de consumo de combustible y contador
+- Recoja parámetros de diagnóstico y muéstrelos en los paneles de Plaspy para inspecciones rápidas
+- Use lecturas de combustible y kilometraje para respaldar informes de eficiencia y análisis de tendencias
+- Presente eventos del sensor G como notas de incidentes para facilitar revisiones y controles de seguridad
+- Acceda hasta dos meses de datos almacenados para reproducción histórica cuando los dispositivos vuelvan a conectarse
+- Combine datos OBD con las herramientas de ubicación y gestión de flotas de Plaspy para supervisión operativa
 
-### Especificaciones técnicas:
+## Casos de uso típicos
 
-- Tensión de funcionamiento: DC 9-16V
-- Corriente normal: menos de 70 mA a 13.8V
-- Corriente de sueño: menos de 20 mA a 12.0V
-- Temperatura de funcionamiento: -30 ℃ a +70 ℃
-- Temperatura de almacenamiento: -40 ℃ a +85 ℃
-- Humedad relativa: 5% a 95% sin escarcha
-- Clase de protección: IP30
-- Relación de datos Bluetooth: 2.1Mbps
-- Frecuencia de Bluetooth: 2.4-2.48GHz
-- Especificación Bluetooth: V2.1, clase II
-- Módulo Bluetooth: GFSK; PI/4-DQPSK; 8DPSK
-- Sensibilidad Bluetooth: -85dBm a 0.1% BER
+- Gerentes de flota que supervisan el desempeño de vehículos e identifican unidades ineficientes
+- Flotas pequeñas u operadores independientes que rastrean consumo de combustible y tendencias de kilometraje
+- Equipos de mantenimiento que usan lecturas de diagnóstico para planificar servicios
+- Equipos de seguridad y operaciones que revisan eventos del sensor G tras impactos o maniobras bruscas
+- Escenarios donde la conectividad intermitente se beneficia del almacenamiento local del dispositivo
 
+## Por qué elegir este rastreador con Plaspy
+
+El IDD-212B es una opción práctica para organizaciones que requieren diagnósticos a nivel OBD integrados con una plataforma de gestión de flotas más amplia. Su capacidad de almacenar datos a bordo por períodos prolongados ayuda a conservar el historial del vehículo cuando no hay conectividad continua, y su soporte para parámetros comunes del motor lo hace útil para monitoreo de rendimiento y diagnósticos básicos dentro de Plaspy.
+
+Dado que el dispositivo es compatible con los principales sistemas móviles y está diseñado para uso en vehículos con un amplio rango de voltaje, se adapta a diversas implementaciones en vehículos livianos. Plaspy puede incorporar la información del escáner en reportes y flujos de alerta centralizados, ayudando a los equipos a transformar datos crudos del vehículo en decisiones operativas.
+
+Para obtener más información sobre cómo Plaspy puede trabajar con dispositivos compatibles visite https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales y la documentación técnica en el sitio del fabricante http://www.castelecom.com/ antes de planificar despliegues.

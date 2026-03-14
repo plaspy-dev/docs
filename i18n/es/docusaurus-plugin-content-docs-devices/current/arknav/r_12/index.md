@@ -2,61 +2,62 @@
 slug: /arknav/r_12
 id: r_12
 sidebar_label: R-12
+title: ArkNav - R-12
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto IP67 LTE M R-12 compatible con Plaspy para seguimiento en tiempo real y protección antirrobo
+keywords:
+  - ArkNav R-12
+  - Rastreador R-12
+  - ArkNav R12
+  - Rastreador LTE M
+  - Rastreador GPS IP67
+  - Rastreador GPS para vehículos
+  - Rastreo de flotas
+  - Rastreador antirrobo
+  - Compatible con Plaspy
+  - Seguimiento en tiempo real
 ---
+
 # ArkNav - R-12
 
-![R-12](https://app.plaspy.com/r/Trackers/arknav/r12/tracker.png)
+![R-12](./)
 
-El R‑12 LTE M Waterproof GPS Vehicle Tracker es un rastreador compacto, con clasificación IP67, diseñado para un seguimiento en tiempo real fiable y compatible con Plaspy en automóviles, furgonetas, camiones, remolques y maquinaria pesada. Con conectividad principal LTE‑M \(Cat‑M1\) y respaldo EGPRS cuádri-banda, un receptor GNSS u‑Blox y antenas integradas, el R‑12 ofrece posicionamiento y telemetría robustos donde la gestión de flotas y la preparación ante robo son esenciales.
+El R-12 es un rastreador GPS vehicular compacto y resistente con clasificación IP67 de ArkNav, diseñado para ofrecer seguimiento confiable en tiempo real en automóviles, camionetas, camiones, remolques y maquinaria pesada. Combina conectividad LTE‑M con conmutación por EGPRS, un receptor GNSS u‑Blox y antenas integradas para proporcionar posicionamiento y telemetría robustos donde se requieren gestión de flotas y protección de activos.
 
-Diseñado para instalaciones listas para uso y operación sin intervención, el R‑12 se integra de forma limpia con Plaspy para localización en tiempo real, informes basados en ignición y alertas configurables. Su carcasa robusta con antena oculta, protección contra sobretensiones y actualizaciones OTA de firmware/configuración reducen la intervención en campo y simplifican despliegues a gran escala para integradores de sistemas y operadores de flotas que buscan soluciones de rastreo compatibles con Plaspy.
+Como dispositivo compatible con Plaspy, el R-12 se integra en el entorno de gestión de flotas de Plaspy para entregar ubicación en vivo, reportes conscientes del estado de ignición y alertas configurables. Su carcasa resistente, protección contra sobretensiones y soporte para actualizaciones OTA de firmware y configuración hacen del R-12 una opción práctica para despliegues a gran escala gestionados mediante los flujos de trabajo de dispositivos y flotas de Plaspy.
 
-## Aspectos clave
+## Características principales
 
-- Seguimiento en tiempo real compatible con Plaspy mediante LTE‑M, con respaldo EGPRS \(2G\) para cobertura amplia y fiabilidad.
-- Carcasa a prueba de agua IP67 y polvo, con antenas ocultas para instalaciones discretas y menor riesgo de manipulación.
-- Informes de eventos inteligentes \(velocidad, movimiento, ignición\) para optimizar la gestión de flotas y activar alertas oportunas.
-- Protección robusta de la alimentación del vehículo — protección frente a sobretensiones hasta 60 V y módulo ISO‑7637 opcional para entornos eléctricos adversos.
-- Dos salidas configurables \(opcionalmente utilizables como control de inmovilizador\) para soportar flujos de anti‑robo y desactivación remota con Plaspy.
-- GNSS u‑Blox integrado con AGPS para soluciones más rápidas, además de un acelerómetro de ±16G para detección de movimiento y golpes.
-- Actualizaciones OTA de firmware y configuración para simplificar el mantenimiento y ampliar despliegues sin acceso físico.
+- Seguimiento en tiempo real compatible con Plaspy sobre LTE‑M y con conmutación por EGPRS para amplia cobertura y mayor resiliencia
+- Carcasa IP67 impermeable y hermética al polvo con antenas ocultas para instalaciones discretas y duraderas
+- Reportes inteligentes por eventos de velocidad, movimiento e ignición que facilitan el registro preciso de viajes y comportamiento
+- Protección de alimentación vehicular hasta 60 V y soporte opcional de ISO 7637 para entornos eléctricos exigentes
+- Dos salidas configurables que pueden usarse con relés de inmovilizador para flujos de trabajo antirrobo
+- GNSS u‑Blox integrado con soporte AGPS y acelerómetro de ±16G para detección de movimiento e impactos
+- Actualizaciones OTA de firmware y configuración para reducir el servicio en campo y simplificar la escalabilidad
 
 ## Cómo funciona con Plaspy
 
-El R‑12 transmite posiciones GNSS, estado y telemetría a Plaspy mediante LTE‑M \(con respaldo EGPRS\), de modo que los gestores de flotas obtienen rastreo en tiempo real continuo y compatible con Plaspy e información. Plaspy recibe paquetes de ubicación y mensajes disparados por eventos \(velocidad, movimiento, ignición\) para mostrar mapas en vivo, generar alertas y alimentar informes y APIs para integrarse con sistemas de back‑office.
+Cuando se utiliza con Plaspy, el R-12 transmite posiciones GNSS y telemetría de eventos a la plataforma para que los gestores de flota y los integradores de sistemas puedan monitorear activos en mapas en vivo, recibir alertas e incorporar datos del dispositivo en reportes e integraciones. Plaspy procesa los paquetes de ubicación y las notificaciones de eventos para ofrecer visibilidad operativa y permitir respuestas automatizadas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real transmitidas sobre LTE‑M/EGPRS a Plaspy para mapeo e informes.
-- Informes de ignición, movimiento y velocidad para un inicio/detención de viaje preciso, comportamiento del conductor y escenarios PAYD.
-- Notificación de pérdida de alimentación externa y alertas de batería/voltaje bajos para prevenir fallos silenciosos y facilitar un servicio proactivo.
-- El control remoto del inmovilizador es posible a través de las salidas configurables del dispositivo \(cuando se usa con un relé de inmovilizador\) para respuestas anti‑robo mediante comandos de Plaspy.
-- Actualizaciones OTA de firmware y configuración entregadas a través de la gestión de dispositivos compatible con Plaspy para mantener los dispositivos actualizados y consistentes.
+- Ubicación y telemetría en tiempo real mostradas en los mapas de Plaspy para supervisión continua de la flota
+- Eventos de ignición, movimiento y velocidad que marcan inicio y fin de viajes y enriquecen los reportes
+- Alertas de pérdida de alimentación y de voltaje para notificar a los operadores sobre posibles problemas eléctricos antes de que escalen
+- Control remoto de inmovilizador mediante salidas configurables para respaldar respuestas antirrobo a través de Plaspy
+- Gestión OTA de firmware y configuración para mantener los dispositivos actualizados y homogéneos en toda la flota
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE‑M \(Cat‑M1\) principal con respaldo EGPRS cuádri-banda |
-| --- | --- |
-| Bandas | LTE‑M \(Cat‑M1\) mostrado como principal; EGPRS cuádri-banda \(bandas 2G estándar\) respaldo |
-| Alimentación y batería | Alimentado por el vehículo a través del circuito de ignición; protección frente a sobretensiones hasta 60 V; protección ISO‑7637 opcional; notificación de pérdida de alimentación externa. No se especifica batería interna. |
-| Interfaces | Entrada de ignición; dos salidas \(opcionalmente configurables como control de inmovilizador\); nano SIM \(push‑push\); puerto de depuración micro USB \(RS‑232\) |
-| GNSS | Receptor GNSS u‑Blox con soporte AGPS y antena GNSS integrada para fijaciones más rápidas |
-| Sensores | Acelerómetro de ±16G para detección de movimiento y impactos; informes inteligentes por velocidad/movimiento/ignición |
-| Memoria | 2 MB de memoria flash para respaldo de datos local \(aprox. 5,000 ciclos de escritura/borrado\) |
-| Gestión remota | Actualizaciones de firmware y configuración por aire \(OTA\) soportadas |
-| Formato | Carcasa compacta, impermeable IP67 con antenas integradas ocultas para instalaciones en vehículos y activos |
-| Bluetooth | No especificado / no se reportan sensores Bluetooth en la especificación del dispositivo |
-
-## Casos de uso
-
-- Antirrobo de flotas y desactivación remota — use las salidas configurables con un relé de inmovilizador y comandos de Plaspy para asegurar los activos.
-- Seguimiento de remolques y maquinaria pesada — la protección IP67 y la gestión de energía robusta se adaptan a entornos exteriores y de construcción exigentes.
-- Entrega, despacho y monitoreo de rutas — eventos de ignición, movimiento y velocidad permiten informes de viajes precisos y actualizaciones de ETA.
-- Seguro PAYD \(Paga por uso\) y comportamiento del conductor — telemetría basada en eventos admite seguros basados en el uso y análisis de rendimiento.
-- Caravana y recuperación de vehículos robados — instalación discreta y ocultamiento reducen la manipulación, mientras Plaspy posibilita flujos de recuperación rápidos.
+- Programas antirrobo de flota y bloqueo remoto utilizando salidas configurables y comandos desde Plaspy
+- Seguimiento de remolques y equipos pesados donde la protección IP67 y la robustez en alimentación son críticas
+- Monitoreo de entregas, despacho y rutas con reportes de viajes conscientes de la ignición y soporte de ETA
+- Seguros Pay As You Drive y análisis de comportamiento del conductor basados en telemetría por eventos
+- Recuperación de caravanas o activos donde se requiere instalación discreta y localización rápida
 
 ## Por qué elegir este rastreador con Plaspy
 
-El R‑12 ofrece un equilibrio práctico entre hardware robusto y conectividad compatible con Plaspy que reduce el tiempo de instalación, la carga de mantenimiento y el riesgo operativo. LTE‑M con respaldo 2G proporciona conectividad resistente para rastreo en tiempo real y telemetría, mientras que la carcasa IP67 y las antenas ocultas protegen los equipos en entornos exigentes de flotas y activos.
+El R-12 ofrece una combinación equilibrada de hardware resistente y funciones de conectividad que encajan bien con las capacidades de gestión de flotas de Plaspy. Sus comunicaciones resilientes, diseño con antenas ocultas y protecciones de alimentación de calidad vehicular reducen el tiempo de inactividad y el riesgo de manipulación, mientras que el soporte OTA y los reportes basados en eventos ayudan a disminuir los costos de mantenimiento en despliegues grandes.
 
-El valor para la gestión de flotas proviene de las protecciones de energía de grado automotriz del R‑12 \(protección 60 V y ISO‑7637 opcional\), la capacidad de actualizaciones OTA y el reporte por eventos; todas estas características reducen el tiempo de inactividad y los costos de servicio a largo plazo. Cuando se combina con Plaspy, el R‑12 se convierte en un bloque de construcción llave en mano para flujos de trabajo anti‑robo, rastreo con ignición, entrega de telemetría y gestión de flotas escalable sin integraciones complejas.
+Emparejado con Plaspy, el R-12 se convierte en un componente confiable para seguimiento consciente de ignición, flujos de trabajo antirrobo y operaciones de flota escalables. Las organizaciones que requieren rastreo GPS duradero y sencillo con gestión centralizada encontrarán en el R-12 una opción práctica al integrarlo con Plaspy.
 
+To learn more about how Plaspy works with compatible trackers like the ArkNav R-12, visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current specifications on the official ArkNav website https://www.arknavgps.com.tw/ before making purchasing or deployment decisions.

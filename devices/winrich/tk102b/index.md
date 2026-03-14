@@ -2,64 +2,60 @@
 slug: /winrich/tk102b
 id: tk102b
 sidebar_label: TK102B
+title: Winrich - TK102B
 sidebar_class_name: menu_item_tracker
+description: Compact Plaspy compatible TK102B GPS tracker for vehicles people and assets with real time tracking geo fencing and route backup
+keywords:
+  - Winrich TK102B
+  - TK102B tracker
+  - Winrich GPS tracker
+  - TK102B Plaspy compatible
+  - personal GPS tracker
+  - vehicle tracking
+  - asset tracking
+  - geo fencing tracker
+  - SOS alert tracker
+  - TF card route backup
 ---
+
 # Winrich - TK102B
 
 ![TK102B](./tracker.jpg)
 
-The TK102B is a compact personal GPS tracker engineered for reliable, Plaspy compatible real-time tracking across vehicles, people, and assets. With GPS+GSM dual positioning, automatic APN configuration, and TF card backup for route history, the TK102B delivers continuous location intelligence and essential anti-theft features that integrate smoothly with Plaspy for fleet management, staff safety, and personal security solutions.
+The TK102B is a compact personal GPS tracker designed for reliable real time location monitoring across vehicles people and portable assets. It combines GPS and GSM positioning with onboard route backup on a TF card to maintain continuous location intelligence and basic anti theft capabilities. The unit is built for straightforward tracking scenarios where size portability and dependable updates matter.
 
-The device combines a powerful SIRF3 GPS engine with quad-band GSM/GPRS connectivity to provide real-time tracking, geo-fencing, SOS alerts, and automatic interval reports. Its small form factor, long standby battery, and optional remote fuel/power cut-off make the TK102B a versatile GPS tracker for businesses and consumers who need dependable telemetry, location accuracy, and immediate event notifications via Plaspy.
+As a Plaspy compatible device the TK102B can feed location updates alerts and stored route history into Plaspy for centralized visibility and management. Automatic APN configuration and the ability to preserve route logs when cellular service is interrupted help reduce data gaps and simplify integration into Plaspy based fleet monitoring staff safety and personal security workflows.
 
 ## Key Highlights
 
-- Plaspy compatible: integrates location updates, alerts, and route logs for centralized monitoring and fleet management.
-- GPS+GSM dual positioning for continuous coverage and fast location fixes even in challenging reception areas.
-- Real-time tracking with automatic tracking reports and SOS emergency alerts for personnel and asset safety.
-- Geo-fencing, speed alerts, and dismount \(electronic lock\) notifications to support anti-theft and operational policies.
-- TF card route storage to preserve route history when GSM signal is unavailable, ensuring uninterrupted telemetry.
-- Optional remote fuel/power cut-off \(anti-theft\) when the unit is wired into supported vehicle setups.
-- Small, lightweight form factor suitable for portable use—ideal for personal safety, pet tracking, rental equipment, and covert asset protection.
+- Compatible with Plaspy for centralized mapping alerts and route logs.
+- GPS and GSM dual positioning for continuous coverage and faster fixes.
+- Real time tracking with periodic reporting and SOS emergency alerts.
+- Geo fencing and overspeed alerts to support security and compliance policies.
+- TF card route storage preserves history while GSM service is unavailable.
+- Optional remote fuel or power cut off for additional anti theft control when installed in supported vehicles.
+- Small lightweight form factor suitable for portable and covert placement.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the TK102B feeds consistent GPS and GSM-based location data into Plaspy’s dashboard for live visualization, alerting, and reporting. Plaspy receives the device’s position, event triggers, and status updates, enabling dispatchers and managers to act on real-time telemetry and historical routes. Automatic APN support and TF card backup reduce downtime and data gaps, while built-in alarms generate immediate notifications in Plaspy for faster responses.
+When connected to Plaspy the TK102B streams position updates event triggers and stored route data into the Plaspy dashboard so operators can monitor assets in real time and review historical movements. Plaspy consolidates alerts and location records from the device providing mapping reporting and notification tools that improve situational awareness and operational response.
 
-- Real-time location and telemetry updates delivered to Plaspy for mapping and reporting.
-- Geo-fence and overspeed alerts forwarded to Plaspy for compliance and safety monitoring.
-- SOS emergency alerts and monitoring-mode voice activation to support personal security workflows.
-- Remote immobilizer-style capability: remote fuel/power cut-off \(optional\) can be triggered from Plaspy when the device is wired in a supported vehicle.
-- TF card route history is available for upload to Plaspy when GSM service is restored, preserving continuous tracking records.
+- Live position updates appear on Plaspy maps for immediate visibility.
+- Geo fence and overspeed events generate alerts inside Plaspy for compliance tracking.
+- SOS alerts and monitoring mode events are forwarded to Plaspy for rapid notification and follow up.
+- TF card stored routes are uploaded to Plaspy when connectivity is restored to maintain continuous history.
+- Optional remote fuel or power cut off can be integrated into Plaspy workflows for controlled immobilization in supported setups.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM/GPRS |
-| --- | --- |
-| Bands | 850 / 900 / 1800 / 1900 MHz \(quad-band\) |
-| GNSS Chipset | SIRF3 |
-| Channels | 20 |
-| Sensitivity | -159 dBm |
-| Positioning Accuracy | ≤ 5 meters |
-| Start Time | Warm start ~1s, Cold start ~35s \(average\) |
-| Power & Battery | 3.7V 800mAh rechargeable lithium battery |
-| Storage | TF card slot for location data backup when GSM is unavailable |
-| Optional Anti-theft | Remote fuel/power cut-off supported when connected in compatible vehicle setups |
-| Dimensions & Weight | 46 × 64 × 17 mm; ~40 g |
-| Standard Functions | Real-time tracking, auto-tracking \(interval reports\), SOS call, geo-fence, dismount alert, overspeed alert, low battery warning |
-| Additional Features | Built-in shock sensor, monitoring \(voice\) mode, multi-language physical address reply, automatic APN settings |
-
-## Use Cases
-
-- Fleet management: monitor vehicle location, enforce speed policies, and retain route history for compliance and optimization.
-- Anti-theft protection: geo-fence and dismount alerts plus optional remote fuel/power cut-off help secure vehicles and rental equipment.
-- Personal security: SOS alerts, monitoring mode, and discreet placement for kids, elderly individuals, or lone workers.
-- Asset and equipment tracking: compact form factor and TF card backup make the TK102B suitable for rental fleets and portable assets where continuous telemetry is critical.
-- Covert or investigative tracking: small size, voice monitoring, and real-time updates provide flexible options for specialized deployments.
+- Fleet management for light vehicles and small rental fleets requiring compact trackers.
+- Anti theft protection for vehicles equipment and rental assets using geo fencing and immobilization options.
+- Personal security for lone workers children or elderly individuals needing SOS alerts and discreet placement.
+- Portable asset tracking where TF card backup ensures route history during intermittent connectivity.
+- Short term or covert deployments that need a small form factor with real time updates.
 
 ## Why Choose This Tracker with Plaspy
 
-Pairing the TK102B with Plaspy gives organizations and individuals a practical balance of accuracy, continuity, and anti-theft capability. The device’s reliable SIRF3 GPS, GSM fallback, and TF card storage minimize data gaps, while Plaspy centralizes real-time tracking and alerts into an operational dashboard for fleet management, telemetry analysis, and rapid incident response. Optional remote fuel/power cut-off provides an additional layer of control for anti-theft and immobilization workflows when configured in supported vehicles.
+The TK102B represents a practical, compact option for organizations and individuals that want dependable location updates and basic anti theft features integrated into Plaspy. Its combination of GPS accuracy GSM fallback and local route storage helps minimize gaps in telemetry while keeping hardware simple and portable. For teams that need centralized monitoring Plaspy brings the device data together into maps alerts and reports that support operational oversight and faster incident response.
 
-For businesses focused on efficiency and security, the TK102B offers a compact, cost-effective GPS tracker that is Plaspy compatible out of the box. Its built-in alarms, geo-fencing, and interval reporting support operational monitoring and compliance, while automatic APN setup and language-enabled address replies simplify deployment and user interaction. Whether you need real-time tracking, anti-theft response, or preserved route history for audits, the TK102B integrated with Plaspy gives actionable location intelligence and dependable telemetry.
-
+Learn more about how the TK102B works with Plaspy on the Plaspy website https://www.plaspy.com. Product specifications availability and manufacturer details can change over time so please verify the latest technical information and compatibility with the manufacturer at http://www.winrichgroup.com/en/.

@@ -2,62 +2,60 @@
 slug: /arknav/at_9000
 id: at_9000
 sidebar_label: AT-9000
+title: ArkNav - AT-9000
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS resistente de larga autonomía para contenedores remolques y equipos pesados compatible con Plaspy para telemetría de ubicación y movimiento
+keywords:
+  - ArkNav AT-9000
+  - rastreador ArkNav
+  - GPS AT-9000
+  - AT-9000 Plaspy
+  - rastreador de contenedores
+  - rastreador de larga duración
+  - rastreador GPS resistente
+  - seguimiento de activos
+  - gestión de flotas
+  - rastreador AGPS
 ---
+
 # ArkNav - AT-9000
 
 ![AT-9000](./tracker.png)
 
-AT-9000 Long Operation Container Tracker
+El AT-9000 es un rastreador GPS de larga autonomía diseñado para entornos hostiles y despliegues prolongados. Construido con una carcasa resistente, impermeable y a prueba de calor, está optimizado para el seguimiento de contenedores, remolques y equipos pesados cuando la alimentación externa no está disponible o es intermitente. El dispositivo prioriza la durabilidad y la autonomía, lo que lo hace ideal para mantener visibilidad de activos a largo plazo y reducir los ciclos de mantenimiento.
 
-El AT-9000 es un rastreador GPS de larga duración diseñado para entornos exigentes y despliegues prolongados. Robusto, impermeable y resistente al calor, el dispositivo está optimizado para el seguimiento de contenedores, remolques y equipos pesados cuando la alimentación externa no está disponible o es intermitente. Como rastreador compatible con Plaspy, el AT-9000 ofrece ubicación fiable y telemetría de movimiento para sus flujos de gestión de activos y gestión de flotas con un mantenimiento mínimo y una larga duración de la batería.
+Como dispositivo compatible con Plaspy, el AT-9000 integra la telemetría de ubicación y movimiento dentro de los flujos de trabajo de Plaspy para supervisión, alertas e informes históricos. Sus perfiles de reporte configurables, AGPS con respaldo por red celular, detección de movimiento y opciones de consulta remota lo convierten en una opción práctica para equipos que usan Plaspy para gestionar activos distribuidos con mínima intervención en sitio.
 
-Diseñado para integrarse con Plaspy para monitorización de ubicación, alertas e informes históricos, el AT-9000 utiliza AGPS avanzado y localización basada en celda para entregar información de posición incluso cuando la recepción de GPS es deficiente — como contenedores apilados o dentro de carcasas metálicas. Con perfiles de reporte configurables, detección de movimiento y recuperación simple por SMS/llamada, es un rastreador GPS práctico para monitorización anti robo, recopilación de telemetría y visibilidad de activos a largo plazo.
+## Principales características
 
-## Puntos destacados
+- Autonomía prolongada con paquete de batería recargable intercambiable y operación anunciada de hasta 120 días en modo de activación por temporizador.
+- Construcción robusta e impermeable con carcasa IP67 y protección térmica para despliegues exigentes al aire libre.
+- Posicionamiento híbrido con AGPS y respaldo por red celular para mejorar la disponibilidad de ubicación cuando la señal GPS es débil.
+- Detección de movimiento mediante acelerómetro de 3 ejes integrado para capturar eventos y conservar batería con activación inteligente.
+- Recuperación remota de ubicación a demanda vía respuesta por SMS con enlaces a mapas y respuesta por llamada telefónica para comprobaciones rápidas.
+- Resiliencia local de datos con memoria flash a bordo para almacenar telemetría durante cortes de cobertura y cargarla posteriormente.
+- Configuración en campo mediante ranura SIM de tamaño completo y interfaz USB a serial para actualizar perfiles.
 
-- Larga duración de la batería: gran batería recargable intercambiable que permite hasta 120 días de operación en modo de activación por temporizador para despliegues de bajo mantenimiento.
-- Diseño robusto y a prueba de intemperie: carcasa impermeable con clasificación IP67 y carcasa resistente al calor de hasta 85 °C para soportar entornos exigentes.
-- Posicionamiento híbrido: AGPS más una alternativa de ubicación por celda precisa para un seguimiento fiable cuando las señales GPS son débiles.
-- Activación inteligente: temporizador configurable y detección de movimiento \(acelerómetro de 3 ejes ±16G\) para ampliar el tiempo de funcionamiento y capturar eventos relevantes.
-- Recuperación de ubicación remota: admite SMS con hipervínculos de Google Maps y puede responder con la ubicación actual cuando se llama, útil cuando se necesita seguimiento inmediato.
-- Resiliencia de datos local: 8 MB de memoria flash para respaldo de datos cuando la conectividad no está disponible y subida diferida cuando la cobertura se restablece.
-- Configurable en campo: zócalo SIM de tamaño completo y puerto de comunicación USB-a-Serial Prolific para configuración y actualización de perfiles fáciles.
-- Formato compacto para activos: diseñado específicamente para contenedores, remolques, cubos de basura y equipos pesados donde la robustez y la autonomía importan.
+## Funcionamiento con Plaspy
 
-## Cómo funciona con Plaspy
+Al integrarse con Plaspy, el AT-9000 reporta posición y eventos de movimiento según perfiles configurables para que los operadores equilibren visibilidad y duración de batería. Plaspy procesa la telemetría del dispositivo para seguimiento en tiempo real, alertas e informes, y conserva los datos históricos para reproducción y análisis.
 
-El AT-9000 se conecta a redes celulares y reporta posiciones derivadas de AGPS o celda a Plaspy según perfiles configurables. En Plaspy, estas entradas de telemetría son procesadas para seguimiento en tiempo real, alertas de geocerca, reproducción histórica y generación de informes. La detección de movimiento y la generación de informes por temporizador permiten equilibrar la visibilidad en tiempo real con la conservación de la batería para despliegues prolongados.
+- Las ubicaciones en tiempo real y las cargas periódicas de telemetría son procesadas por Plaspy para visualización de flotas y paneles de estado.
+- Los eventos de movimiento detectados por el acelerómetro pueden disparar alertas inmediatas o activar el dispositivo para capturar una posición y así apoyar la monitorización antirrobo.
+- El respaldo de ubicación por red celular ofrece estimaciones de posición que Plaspy puede usar cuando la recepción GPS es limitada, mejorando la continuidad del rastreo.
+- Las consultas vía SMS y llamadas complementan los informes de Plaspy para comprobaciones puntuales cuando se requiere una ubicación inmediata.
+- La copia de seguridad en flash local garantiza que la telemetría se conserve durante interrupciones y se cargue en Plaspy una vez que vuelva la conectividad.
 
-- Ubicación en tiempo real y cargas útiles de telemetría periódicas mediante GSM y AGPS cuando la red está disponible.
-- Los eventos de movimiento detectados por el acelerómetro de 3 ejes integrado \(±16G\) generan informes inmediatos o activan el dispositivo para capturar la ubicación.
-- La ubicación basada en celda proporciona estimaciones de posición cuando la recepción GPS es deficiente—útil para contenedores apilados o carcasas metálicas.
-- Recuperación remota por SMS \(enlace de Google Maps\) y respuesta por llamada para ubicación bajo demanda sin sesiones de datos completas.
-- Respaldo de datos local \(8 MB de memoria flash\) garantiza la retención de telemetría durante las interrupciones de cobertura y su subida a Plaspy cuando la conectividad se restablece.
+## Casos de uso típicos
 
-## Resumen técnico
-
-| Conectividad | Conectividad celular GSM, soporte AGPS y capacidad de ubicación basada en celda \(se requiere red GSM\) |
-| --- | --- |
-| Bandas | Bandas de frecuencia celular específicas no especificadas en la descripción proporcionada |
-| Energía y batería | Gran batería recargable intercambiable; perfiles de operación configurables con activación por temporizador; hasta 120 días de operación citados en modo temporizador |
-| Interfaces | Zócalo SIM de tamaño completo; puerto de comunicación USB-a-Serial Prolific para configuración; conector IP68 para interfaces externas; tapa de carga a prueba de agua y polvo incluida |
-| GNSS | Receptor GPS integrado con asistencia AGPS y antena GPS interna de alta sensibilidad; fallback de ubicación por celda preciso cuando la señal GPS es débil |
-| Bluetooth | Ninguna interfaz Bluetooth especificada en la descripción |
-| Gestión remota | Perfiles de operación configurables vía USB-a-Serial y cable de configuración \(cable U2S opcional\); comandos por SMS y por llamada para recuperación de ubicación remota; FOTA no especificado |
-| Factor de forma | Carcasa plástica robusta, clasificación IP67 a prueba de agua, resistencia al calor hasta 85 °C, diseñada para uso en contenedores/remolques/equipos pesados; sin botón de encendido expuesto para resistencia a manipulación |
-
-## Casos de uso
-
-- Seguimiento de contenedores y remolques: la larga duración de la batería y la carcasa robusta lo hacen ideal para monitorizar contenedores en puertos o patios de almacenamiento.
-- Monitoreo de equipos pesados: se puede fijar a maquinaria y remolques para detectar movimiento, ubicación y posibles intentos de robo sin depender de alimentación externa.
-- Gestión de cubos de basura y activos: perfiles de reporte periódico reducen el mantenimiento mientras mantienen visibles los activos para la planificación de rutas y la seguridad.
-- Seguridad de caravanas y activos remotos: protección IP67 y diseño a prueba de calor, aptos para exposición a condiciones exteriores y viajes prolongados.
-- Seguimiento de equipos POS o portátiles: zócalo SIM de tamaño completo y almacenamiento de datos local ayudan a mantener la continuidad de la telemetría donde la cobertura fluctúa.
+- Rastreo de contenedores y remolques en puertos, patios y rutas de larga distancia donde la alimentación externa no está garantizada.
+- Monitoreo de equipos pesados para visibilidad de ubicación y detección de movimiento en obras sin cableado permanente.
+- Gestión de contenedores de residuos y activos donde la telemetría periódica reduce mantenimiento y preserva el historial de rutas y uso.
+- Seguridad de activos remotos para casas rodantes, equipos portátiles y bienes expuestos a condiciones ambientales extremas.
+- Continuidad de POS o dispositivos portátiles donde el almacenamiento local ayuda a mantener la telemetría durante huecos de cobertura.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El AT-9000 es un rastreador GPS compatible con Plaspy, diseñado para la fiabilidad y operación de bajo mantenimiento. Su batería duradera y recambiable, junto con perfiles de reporte configurables, minimizan las intervenciones de campo y reducen los costos operativos para programas de gestión de flotas y monitorización de contenedores a gran escala. AGPS más fallback de ubicación por celda aumenta la disponibilidad de la posición en condiciones desafiantes \(contenedores apilados, visión del cielo reducida\), y la detección de movimiento basada en acelerómetro garantiza capturar los eventos correctos sin sondeos constantes.
+El AT-9000 es adecuado para organizaciones que necesitan rastreadores de activos duraderos y de larga vida integrados en una plataforma de gestión de flotas. Su combinación de larga autonomía, carcasa resistente y posicionamiento híbrido aumenta la probabilidad de mantener datos útiles de ubicación en condiciones adversas. La configuración de reportes y la activación basada en movimiento ayudan a minimizar el mantenimiento y los costos operativos en despliegues a gran escala.
 
-Integrado con Plaspy, el AT-9000 ofrece telemetría accionable para impulsar flujos de trabajo anti-robos, visibilidad de activos y generación de informes de flota. Para los equipos que requieren monitoreo de combustible, control de encendido/inmovilizador o sensores Bluetooth para temperatura/movimiento, consulte opciones de accesorios y plataforma con su integrador de Plaspy—el conector IP68 del AT-9000 y sus interfaces de configuración facilitan confirmar compatibilidad con telemetría adicional o entradas externas en su instalación. En general, el AT-9000 es un rastreador GPS diseñado para visibilidad de activos a largo plazo donde la durabilidad, autonomía y reporte fiable de posición son lo más importante.
-
+Si desea saber más sobre cómo este rastreador puede integrarse en su despliegue de Plaspy visite https://www.plaspy.com. Las especificaciones del producto, su disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones y la documentación actuales en el sitio del fabricante https://www.arknavgps.com.tw/ antes de la adquisición.

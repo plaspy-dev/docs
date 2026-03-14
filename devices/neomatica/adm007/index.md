@@ -2,69 +2,62 @@
 slug: /neomatica/adm007
 id: adm007
 sidebar_label: ADM007
+title: Neomatica - ADM007
 sidebar_class_name: menu_item_tracker
+description: Compact Neomatica ADM007 GPS tracker compatible with Plaspy for discreet vehicle and asset tracking with BLE sensor telemetry and low data use
+keywords:
+  - Neomatica ADM007
+  - ADM007 GPS tracker
+  - ADM007 Plaspy compatible
+  - ADM007 BLE tracker
+  - Neomatica GPS
+  - fleet tracking
+  - asset tracking
+  - BLE telemetry
+  - covert vehicle tracker
+  - cold chain monitoring
 ---
+
 # Neomatica - ADM007
 
 ![ADM007](./tracker.png)
 
-# ADM007 BLE \(Neomatica\) — Plaspy compatible GPS tracker
+The ADM007 BLE from Neomatica is an ultra compact GPS tracker designed for vehicle and asset installations where space or wiring access is limited. It combines GNSS position reporting with integrated cellular connectivity and support for multiple Bluetooth Low Energy peripherals to provide location and environmental telemetry from a very small enclosure. The device is intended for discreet fleet installations, distributed asset monitoring and low profile anti theft use cases.
 
-The ADM007 BLE is an ultra-compact GPS tracker from Neomatica designed for vehicle and asset installations where space or wiring access is limited. As a Plaspy compatible GPS tracker, the ADM007 BLE brings real-time tracking, BLE sensor telemetry and reliable GNSS positioning into the Plaspy platform, enabling discreet fleet management, anti-theft monitoring and distributed asset telemetry without the complexity of larger wired trackers.
-
-The ADM007 BLE combines a high-sensitivity GNSS receiver, integrated GSM and GNSS/GLONASS antennas, and support for up to eight Bluetooth Low Energy sensors in a compact 45×25×12 mm enclosure. Optimized for low data usage \(approximately 8–10 MB per month\) and low power consumption, this CE-certified device is well suited for covert vehicle installs, site-wide environmental monitoring and scalable fleet solutions that require Bluetooth sensors for temperature, humidity, tilt and asset presence reporting.
+As a Plaspy compatible GPS tracker, the ADM007 BLE can forward location updates, device status and Bluetooth sensor data into Plaspy for live monitoring, alerts and historical review. Its low data usage profile, built in jamming detection and on device route storage make it a practical choice for organizations that want compact hardware feeding Plaspy dashboards and reporting without the complexity of larger wired trackers.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker: feeds GNSS positions and telemetry into Plaspy for dashboards, geofences and alerts.
-- Ultra-compact form factor \(45×25×12 mm, 30 g\) for discreet vehicle and asset installations.
-- Supports up to 8 Bluetooth sensors simultaneously \(BLE 4.0\) with a range up to 100 meters for environmental and asset telemetry.
-- High-sensitivity GNSS/GPS receiver \(‑165 dBm, 132 channels\) for fast, reliable position fixes in challenging conditions.
-- GSM 850/900/1800/1900 with GPRS Multi-slot Class 12 connectivity for efficient data transfer and low monthly data usage.
-- Built-in jamming detection to alert on possible anti-theft tampering or interference.
-- Large on-device route memory \(at least 63,000 entries\) for historical route upload and incident reconstruction.
-- Flexible control and configuration via Bluetooth, SMS, GPRS and FOTA for remote management and firmware updates.
+- Ultra compact form factor suitable for discreet vehicle and asset installations
+- Supports up to eight Bluetooth Low Energy sensors for environmental and presence telemetry
+- High sensitivity GNSS positioning for reliable fixes in typical operating conditions
+- Low monthly data usage making it economical for large scale deployments
+- Built in jamming detection to raise awareness of potential tampering or interference
+- Large on device route memory for historical playback and incident reconstruction
+- CE certified device designed for regional regulatory compliance
 
 ## How It Works with Plaspy
 
-The ADM007 BLE integrates with Plaspy by sending GNSS positions, device status and Bluetooth sensor telemetry over GPRS or SMS to the Plaspy platform. Plaspy ingests that data to provide real-time tracking, historical route playback, alerts and reports for fleet management and anti-theft workflows. Configuration changes and firmware updates are supported through the device’s remote management channels.
+The ADM007 BLE transmits GNSS positions, Bluetooth sensor telemetry and device health information to Plaspy where that data is processed for live tracking, geofencing, alerts and reporting. Plaspy ingests the device messages to present position history, sensor trends and operational status alongside other fleet assets.
 
-- Real-time location updates: GNSS/GPS \(and GLONASS\) positions are forwarded to Plaspy for live tracking and geofencing.
-- Bluetooth sensors: temperature, humidity, tilt, light and BLE tag telemetry from up to 8 peripherals are reported through the tracker into Plaspy.
-- Jamming and device status: jamming detection and device health alerts can trigger Plaspy notifications and incident workflows.
-- Route history upload: on-device storage of at least 63,000 records enables robust historical playback and forensic review in Plaspy.
-- External sensor signals: the single analog input can be used to report external sensor values \(for example wired fuel-sensor or ignition-state signals depending on installation\) into Plaspy.
-- Remote management: configuration via SMS/GPRS/Bluetooth and support for FOTA simplifies maintenance and keeps firmware up to date.
+- Real time location updates forwarded to Plaspy for live maps and geofence monitoring
+- Bluetooth sensor telemetry such as temperature and humidity is reported into Plaspy for alerting and trend analysis
+- Jamming and device status notifications can trigger Plaspy alerts and incident workflows
+- On device route history is uploaded and made available in Plaspy for playback and forensic review
+- Remote configuration and firmware update status are tracked to simplify device maintenance within Plaspy
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM/GPRS \(GPRS Multi-slot Class 12\) |
-| --- | --- |
-| Bands | GSM 850 / 900 / 1800 / 1900 |
-| GNSS | GPS / GLONASS receiver, 132 channels |
-| GNSS Sensitivity | Receiver sensitivity: -165 dBm |
-| SIM | 1 nanoSIM |
-| Power & Battery | Operating voltage: +8.5 … +45 V |
-| Route record capacity | At least 63,000 entries |
-| Analog / I/O | 1 analog input |
-| Sensor interface | Bluetooth 4.0 \(BLE\), up to 8 sensors, range up to 100 m |
-| Control & Configuration | Bluetooth, SMS, GPRS; FOTA supported for firmware updates |
-| Form Factor | Compact enclosure: 45 × 25 × 12 mm; Weight: 30 g |
-| Certifications | CE certified for EU sale |
-
-## Use Cases
-
-- Covert vehicle installations for anti-theft monitoring and discreet fleet tracking where low visibility is required.
-- Fleet management with BLE telemetry for temperature-sensitive cargo or equipment and centralized Plaspy dashboards.
-- Distributed site equipment monitoring: attach BLE sensors to assets across a site to capture temperature, tilt and presence.
-- Environmental and cold-chain monitoring: transmit temperature and humidity from BLE peripherals into Plaspy for alerts and compliance reporting.
-- Asset tracking for rental equipment or high-value tools where compact size and long sensor range reduce installation complexity.
+- Covert vehicle tracking and anti theft monitoring where a small footprint is required
+- Fleet operations that need BLE telemetry for temperature sensitive cargo or equipment
+- Distributed site equipment monitoring using BLE sensors to capture environmental or tilt data
+- Cold chain or environmental monitoring where centralized alerts and reporting are required
+- Asset tracking for rental equipment and high value tools that benefit from discreet installation
 
 ## Why Choose This Tracker with Plaspy
 
-The ADM007 BLE offers a balance of compact design and practical telemetry features that make it a strong choice for Plaspy users who need real-time tracking plus BLE sensor integration. Its high-sensitivity GNSS receiver and jamming detection improve positional reliability and security; the ability to handle up to eight BLE sensors extends Plaspy’s telemetry reach for environmental monitoring and asset condition reporting. Low data consumption and robust route storage minimize operational costs while supporting fleet management, anti-theft workflows and telemetry-driven insights. For fleets and deployments that require discreet installation or distributed sensor coverage, the ADM007 BLE is a Plaspy compatible GPS tracker that simplifies integration and ongoing device management.
+The ADM007 BLE pairs compact hardware with useful telemetry capabilities that extend Plaspy beyond simple location tracking. Its ability to relay multiple Bluetooth sensor streams into Plaspy makes it well suited for organizations that combine location awareness with condition monitoring, such as delivery fleets, rental services and distributed site assets. The device design emphasizes low data consumption and local route storage, which can help control operating costs while preserving detailed historical records.
 
-### Accessories and Support
+For teams that need a small footprint tracker feeding a modern fleet management platform, the ADM007 BLE provides a practical balance of discreet installation and telemetry reach. Plaspy users benefit from having GNSS positions, sensor readings and device health consolidated into one platform for monitoring, alerts and reporting.
 
-The ADM007 BLE is compatible with Neomatica BLE peripherals including ADM35 \(temperature\), ADM35H \(temperature & humidity\), ADM32 \(tilt\) and ADM34 \(BLE tag\). A cigarette-lighter power adapter version is available for installations that prefer an external power interface. Documentation \(user manual, conformity declarations\) and firmware update support are provided by Neomatica through their support channels.
-
+To learn more about Plaspy and how compatible devices like the ADM007 BLE work within the platform visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical information on the official Neomatica site https://neomatica.com/.

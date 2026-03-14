@@ -2,58 +2,60 @@
 slug: /gotop/c750
 id: c750
 sidebar_label: C750
+title: GOTOP - C750
 sidebar_class_name: menu_item_tracker
+description: Compact plug and play OBD GPS tracker compatible with Plaspy for real time vehicle tracking and alerts
+keywords:
+  - GOTOP C750
+  - GOTOP C750 GPS tracker
+  - C750 OBD tracker
+  - C750 Plaspy compatible
+  - GOTOP tracker Plaspy
+  - OBD GPS tracker
+  - fleet tracking C750
+  - vehicle tracking GOTOP
+  - real time GPS tracker
+  - C750 fleet management
 ---
+
 # GOTOP - C750
 
 ![C750](./tracker.jpg)
 
-The C750 OBD GPS Tracker is a compact, plug-and-play GPS tracker designed for fast deployment in cars and light commercial vehicles. Plaspy compatible out of the box, the C750 uses GSM/GPRS communications and U‑Blox GNSS positioning to deliver real-time tracking, configurable alerts, and reliable event reporting without hardwiring—simply plug it into the vehicle OBD-II port and start monitoring location and telemetry on Plaspy immediately.
+The GOTOP C750 is a compact plug and play OBD GPS tracker designed for fast deployment in cars and light commercial vehicles. Built with a focus on quick installation and immediate monitoring, the device combines GNSS positioning and GSM/GPRS communications to provide continuous location reporting, configurable alerts, and event reporting while connected to the vehicle OBD-II port.
 
-The C750 is optimized for fleet management and anti-theft use: built-in GPS and GSM antennas, A‑GPS assistance, and a small built-in rechargeable battery that maintains reporting during a power cut. Fleet managers and vehicle owners get instant Google Maps links, overspeed and geo-fence alerts, movement and vibration alarms, and GPRS/SMS reporting—making the C750 an effective, low-friction solution for real-time tracking and vehicle telemetry when integrated with Plaspy.
+As a Plaspy compatible device out of the box, the C750 is intended for operators who need low-friction tracking and telemetry integration. Its capabilities for real-time tracking, geo-fence and overspeed alerts, movement and power loss notifications make it a practical option to feed location and event data into Plaspy dashboards and workflows for fleet visibility and anti-theft monitoring.
 
 ## Key Highlights
 
-- Plaspy compatible plug-and-play OBD-II tracker for fast installation and immediate real-time tracking.
-- GSM/GPRS connectivity \(850/900/1800/1900 MHz\) and U‑Blox GPS for dependable positioning and telemetry.
-- Configurable alerts for overspeed, geo-fence breaches, movement, vibration, and power cuts to support anti-theft and driver behavior control.
-- Built-in rechargeable 110 mAh \(3.7V\) backup battery ensures reports continue during external power loss.
-- Instant location checks via Google Maps URLs delivered by SMS or over GPRS for quick visual verification.
-- Compact, lightweight form factor \(45 x 40 x 25 mm, 28 g\) made for unobtrusive in-vehicle use.
-- Suitable for both consumer vehicles and commercial fleet management deployments requiring low-effort installation.
+- Plug and play OBD-II form factor for fast installation and immediate tracking visibility.
+- Real-time location reporting via GSM GPRS and GNSS positioning for operational oversight.
+- Configurable alerts for overspeed, geo-fence breaches, movement, vibration, and power loss to support anti-theft and safety controls.
+- Built-in backup battery to continue sending reports during temporary external power loss.
+- Instant location links for quick visual verification and rapid response.
+- Compact and lightweight design suitable for unobtrusive in-vehicle use.
+- Well suited for both consumer cars and light commercial fleet deployments that need low-effort installation.
 
 ## How It Works with Plaspy
 
-Integrating the C750 with Plaspy provides a streamlined flow of location and event data into Plaspy’s dashboard and alerts engine. The device reports position via GPRS for continuous tracking or via SMS on demand. Plaspy ingests location and telemetry, applies geofencing and speed rules, raises notifications, and displays precise positions on maps for real-time operational visibility.
+When integrated with Plaspy, the C750 streams position and event data into Plaspy’s monitoring and alerts systems so fleet managers can see vehicle location on maps, receive notifications, and generate reports. Plaspy consumes the device reports and applies configured rules for geofencing, speed monitoring, and event escalation.
 
-- Real-time location and telemetry updates delivered to Plaspy over GPRS or on-demand via SMS.
-- Overspeed and geo-fence breach alerts forwarded to Plaspy for immediate notification and reporting.
-- Movement and vibration alarms reported to Plaspy to support anti-theft workflows and tamper detection.
-- Power-cut detection—C750’s backup battery allows the device to report power loss events and continue sending critical alerts to Plaspy.
-- Vehicle OBD-II connection enables capture of any vehicle-exposed telemetry \(for example ignition status or fuel-related data\) when that information is available via the vehicle’s OBD-II interface; Plaspy can correlate this OBD-derived data with GPS and event logs.
+- Real-time location and telemetry updates delivered to Plaspy over GPRS or on demand via SMS.
+- Overspeed and geo-fence breach alerts forwarded to Plaspy for immediate notification and historical reporting.
+- Movement and vibration alarms reported to Plaspy to support anti-theft workflows and rapid investigation.
+- Power-cut detection and backup battery reporting enable continuity of alerts during external power loss and allow Plaspy to track such events.
+- OBD-II connection lets Plaspy correlate vehicle-exposed telemetry with GPS and event logs when that information is available.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM/GPRS \(2G\) |
-| --- | --- |
-| Bands | 850 / 900 / 1800 / 1900 MHz |
-| Power & Battery | Input/charging +9 to +45 VDC; built-in rechargeable 110 mAh \(3.7V\) backup battery for power-cut reporting |
-| Interfaces | Plug-and-play OBD-II interface for vehicle connection; SMS/GPRS reporting for data and alerts |
-| GNSS | U‑Blox GPS chip; sensitivity down to -159 dBm; typical 2D RMS positioning accuracy ≈ 5 m; A-GPS supported |
-| Bluetooth | No Bluetooth/BLE sensors specified |
-| Remote Management | Configurable alerts and reporting via SMS and GPRS; Google Maps URL support for quick location checks |
-| Form Factor | Compact OBD-II plug; dimensions 45 x 40 x 25 mm; weight 28 g |
-| Environmental | Operating temperature -20°C to 70°C; humidity 5%–95% non-condensing |
-
-## Use Cases
-
-- Fleet management: real-time tracking of cars and light-duty vehicles, driver behavior monitoring \(overspeed alerts\), route verification, and basic telemetry reporting via Plaspy.
-- Vehicle anti-theft and recovery: movement, vibration, and power-cut alerts help detect unauthorized movement and trigger immediate Plaspy notifications.
-- Rental and shared vehicles: easy plug-and-play installation for temporary installations and fast turnover between drivers without hardwiring.
-- Compliance and safety: enforce speed policies with overspeed alerts and geo-fence zones to improve safety and reduce risk across your fleet.
-- Operational visibility for small fleets: low-cost deployment for managers who need real-time tracking and event-driven alerts integrated into Plaspy dashboards.
+- Fleet management for cars and light-duty vehicles needing fast rollout and continuous location visibility.
+- Vehicle anti-theft protection with movement, vibration, and power loss alerts feeding Plaspy notifications.
+- Rental and shared vehicle programs that benefit from temporary, non permanent installations and rapid turnover.
+- Compliance and safety monitoring using overspeed alerts and geo-fence enforcement across assigned zones.
+- Small fleet operational visibility where low-cost deployment and simple maintenance are priorities.
 
 ## Why Choose This Tracker with Plaspy
 
-The C750 offers a practical balance of reliability, simplicity, and cost-effectiveness when paired with Plaspy. Its OBD-II plug-and-play design removes installation complexity, accelerating rollouts across a fleet and reducing downtime. With robust GSM/GPRS communications, A‑GPS positioning, and a backup battery to report power loss events, the C750 supports core fleet management and anti-theft workflows that Plaspy optimizes into alerts, reports, and map-based monitoring. For teams seeking real-time tracking, improved driver compliance, and straightforward telemetry collection without custom wiring, the C750 plus Plaspy provides a fast, scalable solution.
+The C750 offers a straightforward approach to adding location and event visibility to Plaspy without complex wiring or lengthy installation. Its plug-and-play nature accelerates deployment across a range of vehicles, while built-in communications and a backup power source help ensure important alerts reach Plaspy even when external power is interrupted. Paired with Plaspy’s mapping, alerting, and reporting features, the C750 supports common fleet and anti-theft workflows in a compact package.
 
+If you want to explore how the GOTOP C750 can fit into your tracking strategy, learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current device specifications and documentation with GOTOP at https://www.gotop.cc/ before making deployment decisions.

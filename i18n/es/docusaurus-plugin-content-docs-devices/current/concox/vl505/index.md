@@ -2,61 +2,59 @@
 slug: /concox/vl505
 id: vl505
 sidebar_label: VL505
+title: Concox - VL505
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD II 4G Concox VL505, ultra compacto, compatible con Plaspy para rastreo en tiempo real y alertas configurables
+keywords:
+  - Concox VL505
+  - Rastreador GPS VL505
+  - Rastreador OBD II Concox
+  - VL505 compatible con Plaspy
+  - VL505 seguimiento de flotas
+  - VL505 4G
+  - VL505 GNSS
+  - rastreo de vehículos
+  - OBD II GPS
+  - telemática vehicular
 ---
+
 # Concox - VL505
 
 ![VL505](./tracker.png)
 
-El VL505 de un fabricante de dispositivos establecido es un rastreador GPS GNSS 4G OBD-II ultra compacto, plug-and-play, compatible con Plaspy y diseñado tanto para vehículos privados como para flotas comerciales. Diseñado para una instalación sin esfuerzo a través del puerto OBD-II del vehículo, el VL505 ofrece seguimiento en tiempo real continuo y telemetría detallada a través de LTE Cat 1, lo que lo convierte en una opción práctica para la gestión de flotas, monitorización anti-robo y programas de seguros basados en el uso que requieren posicionamiento fiable y alertas accionables.
+El Concox VL505 es un rastreador GNSS GPS 4G ultra compacto, plug and play, diseñado tanto para vehículos particulares como para flotas comerciales. Instalado en el puerto OBD II del vehículo, el VL505 ofrece ubicación y telemetría en tiempo real mediante LTE Cat 1, combinando posicionamiento por múltiples fuentes con sensores de movimiento y monitoreo de audio a bordo para soportar seguimiento, detección de movimiento y alertas configurables.
 
-Con posicionamiento de múltiples fuentes \(GPS, BDS, A-GPS y LBS\), acelerómetro y micrófono a bordo, y soporte para configuración remota vía SMS o plataformas en la nube como Tracksolid Pro, el VL505 ofrece una solución compacta pero capaz para alimentar a Plaspy con ubicación precisa, eventos de movimiento y alertas configurables. Su tamaño reducido y bajo consumo de energía simplifican la implementación en grandes flotas, manteniendo certificaciones regulatorias \(FCC, CE\) y una conectividad celular estable a través de variantes regionales VL505-NA y VL505-EU.
+Como dispositivo compatible con Plaspy, el VL505 puede transmitir actualizaciones de posición y eventos del dispositivo a Plaspy para supervisión en vivo, reproducción histórica e informes de flota. Su tamaño reducido y su instalación sencilla lo hacen ideal para despliegues masivos donde se exige posicionamiento fiable, notificaciones de eventos y datos accionables que alimenten los paneles y flujos de trabajo de Plaspy.
 
-## Características clave
+## Características principales
 
-- Instalación OBD-II plug-and-play para un despliegue rápido y una alimentación eléctrica fiable del vehículo, ideal para implementaciones de gestión de flotas.
-- Conectividad LTE Cat 1 para transmisión de datos estable y de baja latencia hacia Plaspy y otras plataformas en la nube.
-- GNSS de múltiples constelaciones \(GPS, BDS, A-GPS, LBS\) con alta precisión &lt;2.5 m CEP para un seguimiento en tiempo real fiable.
-- Conjunto completo de alertas: entrada/salida de geocerca, vibración, exceso de velocidad, desconexión de la fuente de alimentación, punto ciego GPS y eventos de comportamiento de conducción.
-- Acelerómetro y micrófono a bordo para monitorización de voz a distancia \(≤5 m\) y detección de colisiones/DBA.
-- Una batería interna de respaldo pequeña y un formato compacto permiten una instalación discreta y registro temporal si se interrumpe la alimentación.
-- Soporte eSIM e indicadores LED para facilitar el aprovisionamiento y las comprobaciones de estado operativo durante la instalación.
+- Instalación plug and play en OBD II para despliegues rápidos y alimentación confiable desde el vehículo
+- Conectividad celular LTE Cat 1 para transmisión de datos estable y baja latencia
+- Posicionamiento GNSS multiconstelación y métodos de localización asistida para seguimiento en tiempo real confiable
+- Acelerómetro y micrófono integrados para capturar eventos de movimiento y audio en investigaciones de incidentes
+- Factor de forma compacto con una pequeña batería de respaldo interna que permite registro temporal durante cortes breves de energía
+- Variantes regionales y certificaciones del sector para soportar implementaciones en distintos mercados
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el VL505 transmite datos de GPS y telemetría a través de LTE Cat 1 para ofrecer seguimiento en tiempo real, alertas e informes históricos. Plaspy recibe actualizaciones de ubicación, eventos de movimiento y alertas del dispositivo, de modo que los gestores de flotas pueden monitorizar los vehículos en un mapa en vivo, activar notificaciones y generar análisis para la seguridad y la eficiencia operativa. Donde estén disponibles los PIDs OBD-II del vehículo y el VL505/vehículo los admita, Plaspy también puede consolidar telemetría adicional, como estado de ignición y parámetros relacionados con el combustible, para enriquecer informes y paneles.
+Al integrarse con Plaspy, el VL505 envía ubicación y telemetría a través de la red celular para proporcionar posiciones en vivo, detección de movimiento y alertas del dispositivo. Plaspy ingiere esas actualizaciones para que los gestores de flota puedan ver los vehículos en un mapa, recibir notificaciones y generar informes que apoyen la supervisión operativa y los programas de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(GPS/BDS/A-GPS/LBS\) a Plaspy para un seguimiento fiable y la posibilidad de reproducir puntos históricos.
-- Alertas de eventos entregadas a Plaspy: entrada/salida de geocerca, vibración inesperada, exceso de velocidad, desconexión de la alimentación y notificaciones de punto ciego GPS.
-- Análisis de comportamiento de conducción \(aceleración brusca, frenado brusco, giro brusco, detección de colisiones\) disponibles en Plaspy para supervisión de seguridad y coaching.
-- Eventos del micrófono y del acelerómetro disponibles para Plaspy para investigación de incidentes y monitorización de voz remota \(rango de informe ≤5 m\).
-- Registro temporal en el borde \(hasta 400 entradas GPS\) que garantiza que no haya pérdida de datos inmediata durante interrupciones breves de conectividad antes de que Plaspy sincronice los puntos históricos.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para seguimiento en vivo y reproducción
+- Alertas de eventos como entrada y salida de geocercas, vibración o pérdida de alimentación visibles en Plaspy
+- Eventos de conducta de manejo y detección de movimiento disponibles en Plaspy para monitoreo de seguridad y capacitación
+- Registro temporal en el dispositivo que preserva puntos recientes durante breves interrupciones de conectividad antes de que Plaspy sincronice los datos históricos
+- La configuración y provisión a nivel de dispositivo puede gestionarse junto con los flujos de trabajo de Plaspy para alinear el comportamiento de los informes con las políticas de la flota
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Celular LTE Cat 1 \(4G\) |
-| --- | --- |
-| Bandas / Variantes | Variantes regionales: VL505-NA y VL505-EU \(soporte de bandas regional por modelo\) |
-| Alimentación & Batería | Voltaje de entrada 9–36 V DC; batería de respaldo interna 50 mAh / 3.7 V; corriente en espera ~2 mA; funcionamiento ~35 mA \(una actualización cada 10 s\) |
-| Interfaces | Conexión plug-and-play vía puerto OBD-II del vehículo; indicadores LED para Power \(Rojo\), GNSS \(Azul\), Cellular \(Verde\) |
-| GNSS & Posicionamiento | GPS, BDS, A-GPS y LBS; precisión de posicionamiento &lt;2.5 m CEP; sensibilidad de seguimiento –163 dBm; sensibilidad de adquisición –158 dBm; hot start ≤1 s; cold start ≤28 s \(cielo abierto\) |
-| Sensores & Entradas | Acelerómetro a bordo para movimiento y eventos DBA; micrófono a bordo \(rango de monitorización de voz ≤5 m\); almacena hasta 400 entradas de datos GPS para registro temporal |
-| SIM & Aprovisionamiento | Soporte eSIM; configuración remota vía SMS y plataforma en la nube \(p. ej., Tracksolid Pro\) |
-| Factor de forma | Formato compacto OBD-II: 45.0 × 30.0 × 22.5 mm; peso 26 g |
-| Certificaciones | FCC, CE |
-
-## Casos de uso
-
-- Gestión de flotas y despacho en tiempo real: rastrea la ubicación de los vehículos, supervisa el comportamiento del conductor y optimiza las rutas con los paneles de Plaspy.
-- Antirrobo y recuperación de vehículos: disparadores de geocerca y alertas de desconexión de energía ayudan a detectar movimientos no autorizados y permiten una respuesta rápida.
-- Seguro basado en el uso \(UBI\): capturar métricas de comportamiento de conducción \(frenado/aceleración bruscos y giros\) para apoyar la puntuación de riesgo y las primas.
-- Seguridad y cumplimiento del conductor: usar la detección de colisiones y análisis de comportamiento para entrenar a los conductores, reducir incidentes y disminuir costos operativos.
-- Monitoreo de vehículos privados y supervisión de flotas familiares: instalación discreta y sencilla para compartir ubicación de forma continua y alertas de seguridad.
+- Gestión de flotas y despacho en tiempo real para autos y vehículos comerciales ligeros
+- Monitoreo antirrobo y recuperación rápida mediante geocercas y alertas por pérdida de energía
+- Programas de seguro basado en uso que requieren registros de conducción y viajes
+- Supervisión de seguridad y cumplimiento del conductor, incluyendo detección de colisiones y conducción brusca
+- Compartición de ubicación de vehículos particulares y supervisión familiar con instalación discreta
 
 ## Por qué elegir este rastreador con Plaspy
 
-El VL505 combina la simplicidad de una instalación OBD-II plug-and-play con rendimiento LTE Cat 1 y GNSS de múltiples fuentes para entregar ubicación y telemetría fiables y de baja latencia para los usuarios de Plaspy. Su pequeño tamaño y bajo consumo de energía facilitan despliegues a gran escala, sin ser intrusivos, mientras que el soporte eSIM y los indicadores LED simplifican el aprovisionamiento en campo. Para operadores de flotas y organizaciones centradas en el seguimiento en tiempo real, la protección antirrobo y las ideas basadas en telemetría, el VL505 ofrece un dispositivo compacto y certificado que alimenta a Plaspy con posicionamiento preciso, eventos de movimiento y alertas configurables, lo que posibilita una respuesta ante incidentes más rápida, una gestión de conductores más eficiente y análisis de flotas accionables.
+El VL505 combina la conveniencia plug and play con posicionamiento GNSS de múltiples fuentes y conectividad celular robusta, lo que lo convierte en una opción práctica para organizaciones que necesitan localización de vehículos y reportes de eventos confiables. Su diseño compacto y bajo consumo facilitan implementaciones a gran escala, mientras que los eventos de movimiento y las alertas configurables alimentan los análisis y los sistemas de notificación de Plaspy.
 
-  \<meta itemprop="name" content="VL505 OBD-II 4G GNSS Tracker">
-  \<meta itemprop="brand" content="VL Series">
-
+Si desea saber más sobre cómo el VL505 puede integrarse con Plaspy y si se ajusta a sus necesidades operativas, visite Plaspy para explorar las características de la plataforma y las opciones de despliegue https://www.plaspy.com. Tenga en cuenta que las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo; verifique las especificaciones vigentes y las variantes regionales en el sitio del fabricante https://www.iconcox.com/.

@@ -2,61 +2,60 @@
 slug: /ruptela/eco5_lite
 id: eco5_lite
 sidebar_label: Eco5 Lite
+title: Ruptela - Eco5 Lite
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto compatible con Plaspy para flotas con posicionamiento GNSS preciso bajo consumo soporte BLE y protección IP54
+keywords:
+  - Ruptela Eco5 Lite
+  - Eco5 Lite
+  - Eco5 Lite Plaspy
+  - Rastreador GPS Ruptela
+  - seguimiento de flotas
+  - rastreador para vehículos
+  - rastreador GPS BLE
+  - rastreador de bajo consumo
+  - rastreador IP54
+  - rastreador 4G Cat M1
 ---
+
 # Ruptela - Eco5 Lite
 
 ![Eco5 Lite](./tracker.jpg)
 
-El Ruptela Eco5 Lite es un rastreador GPS compacto, compatible con Plaspy, diseñado para flotas y despliegues telemáticos ligeros que requieren un seguimiento fiable en tiempo real sin complejidades. Con un grosor de apenas 14 mm y protegido por una carcasa con clasificación IP54, Eco5 Lite combina un factor de forma delgado y apto para vehículos con operación energéticamente eficiente — lo que lo convierte en un rastreador GPS ideal para instalaciones donde el espacio y el consumo de energía importan.
+El Ruptela Eco5 Lite es un rastreador GPS compacto diseñado para despliegues de flotas y telemática ligera que requieren seguimiento en tiempo real fiable sin complejidad innecesaria. Combina un formato delgado y compatible con vehículos con un funcionamiento eficiente en consumo y una carcasa con clasificación IP54, lo que lo hace apropiado para instalaciones donde el espacio y el bajo consumo energético son prioritarios. Entre sus características destacan posicionamiento GNSS de precisión, soporte Bluetooth de corto alcance, entradas y salidas básicas para señales del vehículo, opciones de conectividad celular, detección de interferencias (jamming) y batería de respaldo para mayor resiliencia.
 
-Basado en un módulo GNSS de alto rendimiento de u‑blox y BLE 5.0, el Eco5 Lite ofrece posicionamiento preciso, soporte para sensores Bluetooth de corto alcance y telemetría vehicular esencial. Con opciones celulares 4G Cat‑1 y Cat‑M1 \(con retroceso a 2G\), detección de interferencias, una batería de respaldo y E/S básica para la integración con el vehículo, Eco5 Lite es una elección sencilla para usuarios de Plaspy que buscan gestión de flotas fiable, protección antirrobo e integración telemétrica simple.
+Como dispositivo compatible con Plaspy, el Eco5 Lite puede enviar ubicación y telemetría a Plaspy para monitoreo, elaboración de informes y supervisión operativa. Su combinación de precisión GNSS, soporte BLE para sensores e identificación de conductor, y entradas analógicas y digitales básicas hace al rastreador útil para flujos de trabajo habituales en Plaspy, tales como visibilidad en tiempo real, alertas por eventos e integración sencilla de sensores.
 
-## Características clave
+## Puntos clave
 
-- Rastreador GPS compatible con Plaspy: se integra con Plaspy para seguimiento en tiempo real y flujos de trabajo de gestión de flotas.
-- Diseño de bajo consumo: consumo en modo hibernación profunda de tan solo 0,5 mA para instalaciones de vehículos a largo plazo y baja descarga de la batería.
-- Factor de forma compacto y robusto: apenas 14 mm de grosor con carcasa IP54 adecuada para entornos diarios de vehículos.
-- GNSS moderno y Bluetooth: módulo GNSS de u‑blox para posicionamiento fiable y BLE 5.0 para identificación del conductor y sensores/beacons Bluetooth.
-- Conectividad celular flexible: disponible en variantes 4G Cat‑1 y 4G Cat‑M1 con retroceso a 2G para cobertura amplia.
-- Entrada/Salida básica del vehículo: 1 entrada digital \(DIN\), 1 salida digital \(DOUT\), 1 entrada analógica/digital combinada.
-- Seguridad y confiabilidad: detección de interferencias; carcasa clasificada IP54 para protección en entornos vehiculares.
+- Rastreador compatible con Plaspy que se integra con la plataforma para seguimiento en tiempo real y flujos de gestión de flotas
+- Diseño delgado y apto para vehículos con aproximadamente 14 mm de grosor y carcasa IP54 para protección en uso cotidiano
+- Funcionamiento eficiente en energía, incluyendo modo de sueño profundo para minimizar el consumo en instalaciones a largo plazo
+- Módulo GNSS de alto rendimiento para posicionamiento fiable y compatibilidad BLE para sensores de corto alcance e identificación de conductores
+- Opciones de conectividad celular con variantes 4G modernas y retroceso a 2G para cobertura regional amplia
+- Entradas y salidas básicas del vehículo y batería de respaldo para capturar telemetría simple y mantener la operación durante interrupciones de la alimentación principal
+- Detección integrada de interferencias (jamming) para mejorar la seguridad y la visibilidad de eventos que afecten la señal GNSS
 
-## Cómo funciona con Plaspy
+## Integración con Plaspy
 
-Eco5 Lite se conecta a Plaspy a través de flujos de datos telemáticos estándar para obtener seguimiento en tiempo real, telemetría y alertas basadas en eventos en su panel de Plaspy. Los datos del dispositivo fluyen desde el GNSS del rastreador, las entradas digitales/analógicas y las lecturas de sensores Bluetooth hacia Plaspy para su visualización, geofencing, informes y notificaciones.
+El Eco5 Lite transmite posicionamiento, estados de entradas y datos de sensores Bluetooth de corto alcance a Plaspy para que usted pueda visualizar activos, recibir alertas y generar informes desde una única plataforma. Plaspy procesa los datos principales del dispositivo y los presenta mediante mapas, notificaciones y registros históricos para uso operativo.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para una visibilidad continua de activos y vehículos.
-- Monitoreo de entradas digitales \(p. ej., encendido, estado de puertas, sensores de alarma\) que pueden asignarse a eventos y disparadores en Plaspy.
-- Monitoreo de combustible y otras telemetrías analógicas cuando se empareja con sensores adecuados; Eco5 Lite proporciona la entrada analógica para capturar valores para los informes de Plaspy.
-- Las funciones de inmovilización remota y control pueden implementarse cuando se configura una salida digital y es compatible con la instalación.
-- BLE 5.0 permite la identificación del conductor y sensores Bluetooth de corto alcance \(temperatura, presencia, beacons\) para alimentar telemetría suplementaria en Plaspy.
+- Actualizaciones de ubicación en tiempo real en Plaspy para visibilidad continua de vehículos y activos
+- Monitoreo de entradas digitales como encendido o estado de puertas, mapeadas a eventos y activadores en Plaspy
+- Telemetría de entradas analógicas capturada para informes cuando se vincula con sensores adecuados
+- Control de salidas digitales disponible para implementaciones que requieran acciones remotas y que estén soportadas por la instalación
+- Identificación de conductor basada en BLE y sensores de corto alcance que alimentan telemetría adicional en los tableros de Plaspy
 
-## Resumen técnico
+## Casos de uso habituales
 
-| Modelo | Eco5 Lite \(Ruptela\) |
-| --- | --- |
-| Conectividad | Variantes 4G Cat‑1 y 4G Cat‑M1 con retroceso a 2G |
-| Variantes y regiones | Modelos regionales disponibles \(p. ej., Eco5-5W-LTE-EMEA-IP54, Eco5-5W-LTE-LA-IP54, Eco5-5W-LTM-IP54\) |
-| Alimentación y batería | Operación de bajo consumo \(modo hibernación ~0,5 mA\); batería de respaldo integrada para mantener la operación ante pérdidas de energía primaria |
-| Interfaces | 1 entrada digital \(DIN\), 1 salida digital \(DOUT\), 1 entrada analógica/digital combinada |
-| GNSS | Módulo GNSS de alto rendimiento de u‑blox para posicionamiento confiable |
-| Bluetooth | BLE 5.0 para identificación del conductor y sensores/beacons Bluetooth |
-| Seguridad y confiabilidad | Detección de interferencias; carcasa IP54 para protección en entornos vehiculares |
-| Gestión remota | Soportado por Ruptela Device Center y Device Management Platform para configuración y actualizaciones de firmware |
-| Factor de forma | Rastreador para vehículos delgado y compacto — 14 mm de grosor |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento GPS continuo, monitoreo de rutas y datos de comportamiento del conductor para la eficiencia operativa.
-- Antirrobo y recuperación de vehículos: rastreo de ubicación y alertas de interferencia para facilitar la recuperación.
-- Identificación del conductor y monitoreo del comportamiento: identificación del conductor basada en BLE junto con entradas digitales para eventos como encendido o estado de las puertas.
-- Monitoreo básico de la carga: sensores BLE de corto alcance para temperatura o presencia y soporte de entrada analógica para telemetría simple de la carga.
-- Detección de accidentes y respuesta rápida: reporte de ubicación basado en GNSS y señales de evento enviadas a Plaspy para alertas y despacho.
+- Seguimiento de flotas y monitoreo de rutas para operaciones diarias y planificación de despacho
+- Medidas antirrobo y recuperación de vehículos con reportes de ubicación y alertas por interferencias
+- Identificación de conductor y seguimiento básico de comportamiento o presencia mediante etiquetas BLE
+- Conciencia de carga sencilla usando sensores Bluetooth de corto alcance y telemetría por entradas analógicas
+- Alertas y flujos de respuesta rápida basados en eventos reportados por entradas digitales a Plaspy
 
 ## Por qué elegir este rastreador con Plaspy
 
-Eco5 Lite ofrece una combinación equilibrada de precio, bajo consumo de energía y características telemáticas prácticas orientadas a operadores de flotas y proveedores de servicios que utilizan Plaspy. Su módulo GNSS moderno y el soporte BLE 5.0 permiten combinar ubicación con telemetría de corto alcance \(identificación del conductor y sensores\), mientras que la E/S básica ofrece a los instaladores la flexibilidad para capturar señales de encendido, puertas o analógicas para telemetría y flujos de trabajo basados en eventos en Plaspy. Las variantes celulares regionales, junto con el retroceso a 2G, facilitan el despliegue en múltiples mercados, y Ruptela Device Center y Device Management Platform simplifican la configuración remota y las actualizaciones de firmware.
+El Eco5 Lite es una opción práctica para organizaciones que necesitan un equilibrio entre tamaño compacto, eficiencia energética y las funciones telemáticas esenciales para operaciones de flota. Su conjunto de características directo se alinea con los casos de uso comunes en Plaspy, permitiendo a los equipos obtener datos de ubicación fiables, señales básicas del vehículo y entradas de sensores de corto alcance dentro de sus flujos de trabajo sin complejidad excesiva.
 
-En resumen, si necesita un rastreador GPS compatible con Plaspy que priorice la eficiencia energética, una instalación compacta y las funciones telemáticas esenciales para la gestión de flotas, la seguridad contra robos y el monitoreo básico de la carga, Eco5 Lite es una opción fiable y fácil de integrar.
-
+Si está evaluando dispositivos para la gestión de flotas con Plaspy, el Eco5 Lite ofrece una opción de perfil bajo y resistente para instalaciones que priorizan el espacio y el consumo mientras requieren telemetría útil. Para saber más sobre Plaspy y cómo este rastreador puede encajar en su estrategia de gestión de flotas visite https://www.plaspy.com. Las especificaciones y la disponibilidad de producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en el sitio del fabricante https://ruptela.com/ antes de finalizar compras o despliegues.

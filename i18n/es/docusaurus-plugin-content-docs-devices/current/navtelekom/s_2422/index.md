@@ -2,58 +2,61 @@
 slug: /navtelekom/s_2422
 id: s_2422
 sidebar_label: СМАРТ S-2422
+title: Navtelekom - СМАРТ S-2422
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular GLONASS GPS compacto compatible con Plaspy para seguimiento en tiempo real telemetría de combustible y control remoto
+keywords:
+  - Navtelekom
+  - СМАРТ S-2422
+  - SMART S-2422
+  - rastreador GPS
+  - GLONASS GPS
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - rastreador vehicular
+  - monitoreo de combustible
+  - RS485 1-Wire
 ---
+
 # Navtelekom - СМАРТ S-2422
 
 ![СМАРТ S-2422](./tracker.webp)
 
-El SMART S-2422 es un rastreador compacto para vehículos con GLONASS/GPS, diseñado para una gestión de flotas robusta y una integración fluida con Plaspy. Construido con antenas GLONASS/GPS y GSM a bordo, el S-2422 ofrece seguimiento en tiempo real y telemetría fiables para vehículos sin depender de una batería interna, lo que lo hace ideal para instalaciones cableadas de forma permanente que requieren datos continuos para la planificación de rutas, generación de informes y flujos de protección anti-robos.
+El СМАРТ S-2422 es un rastreador vehicular GLONASS GPS compacto, diseñado para una gestión de flotas robusta en instalaciones con alimentación permanente. Cuenta con antenas GLONASS GPS y GSM integradas de alta sensibilidad y no requiere batería interna, lo que lo hace ideal para vehículos con suministro continuo de energía y donde se necesita seguimiento ininterrumpido. El dispositivo está pensado para ofrecer localización y telemetría confiables en tiempo real, soportando rutas, informes y flujos de trabajo antirobo.
 
-Compatible con Plaspy desde el primer momento, el SMART S-2422 conecta sensores del vehículo, sondas de combustible externas y accesorios para entregar la ubicación, telemetría de sensores y acciones de control remoto en los paneles de Plaspy y alertas. Con protección de entrada de grado industrial y E/S digitales flexibles, además de Bluetooth 4.0 para la configuración de accesorios a corta distancia, este rastreador admite casos prácticos de seguimiento de flotas, monitorización de combustible y control remoto de equipos.
+Como dispositivo compatible con Plaspy desde el primer momento, el СМАРТ S-2422 envía datos de posición y telemetría de sensores directamente a los paneles y alertas de Plaspy. Soporta sensores vehiculares, sondas de combustible externas y accesorios mediante entradas digitales universales, puertos RS 485 y 1 Wire; además ofrece salidas de control configurables y Bluetooth 4.0 para la configuración local de accesorios. Esto permite a los usuarios de Plaspy monitorear activos y reaccionar ante eventos del vehículo desde una única plataforma.
 
-## Puntos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para un seguimiento en tiempo real fiable e integración con la gestión de flotas.
-- Posicionamiento dual GLONASS/GPS con antenas sensibles integradas para actualizaciones de ubicación consistentes.
-- Módem GSM 2G con una ranura SIM para conectividad celular y transmisión de telemetría a Plaspy.
-- E/S de vehículo extensas: tres entradas digitales universales y dos salidas de control configurables para la integración de sensores y actuadores.
-- Interfaces RS-485 y 1-Wire para sensores de nivel de combustible externos \(DUT\) y otros dispositivos de telemetría.
-- Bluetooth 4.0 para configuración local y conectividad de accesorios a corto alcance.
-- Protección robusta de alimentación y protección de la línea de entrada de hasta 200 V para entornos eléctricos de vehículos exigentes.
+- Rastreador compatible con Plaspy para integración confiable de ubicación en tiempo real y gestión de flotas
+- Posicionamiento dual GLONASS y GPS con antenas integradas de alta sensibilidad para actualizaciones constantes
+- Diseñado para instalaciones vehiculares con alimentación permanente, sin batería interna requerida
+- Múltiples puntos de E/S vehicular, incluidas entradas digitales universales y salidas de control configurables
+- Soporte RS 485 y 1 Wire para sondas de combustible externas y dispositivos de telemetría
+- Bluetooth 4.0 para configuración local y emparejamiento de accesorios de corto alcance
+- Protección robusta contra variaciones de energía y protección de líneas de entrada adecuada para entornos eléctricos exigentes
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el SMART S-2422 proporciona ubicación continua y telemetría del vehículo a la plataforma, de modo que los despachadores y gestores puedan supervisar los activos en tiempo real. El rastreador envía coordenadas GNSS y lecturas de sensores vía la conexión GSM 2G a los servidores de Plaspy, donde los datos se visualizan, registran y se utilizan para activar alertas e informes. Las entradas digitales, las interfaces RS-485 y 1-Wire del dispositivo llevan los eventos del vehículo y la telemetría de combustible a Plaspy para obtener información accionable.
+Conectado a Plaspy, el СМАРТ S-2422 transmite de forma continua ubicación y telemetría vehicular para que despachantes y gestores de flota visualicen posiciones de activos, monitoreen datos de sensores y reciban alertas. Los datos enviados por la conexión celular se registran y utilizan en Plaspy para seguimiento en vivo, informes históricos y notificaciones basadas en reglas que facilitan la supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(GLONASS/GPS → celular → Plaspy\).
-- Informes de eventos de entradas digitales \(p. ej., encendido, puertas o entradas de alarma configurables mediante reglas de Plaspy\).
-- Monitoreo de combustible y telemetría: conecte sensores externos de nivel de combustible a través de RS-485 para monitorizar el consumo y enviar telemetría a Plaspy.
-- Control remoto y acciones tipo inmovilizador mediante salidas de control configurables cuando están conectadas a los sistemas del vehículo.
-- Bluetooth 4.0 para configuración local y emparejamiento de accesorios; funciona junto con la configuración gestionada por Plaspy.
-- Gestión remota de firmware a través del sistema DRC para mantener los dispositivos actualizados y compatibles con las integraciones de Plaspy.
+- Actualizaciones de ubicación en tiempo real e historial de posiciones visibles en mapas y paneles de Plaspy
+- Reportes de eventos desde entradas digitales para monitoreo de estado de ignición, puertas y alarmas mediante reglas de Plaspy
+- Telemetría de nivel de combustible desde sensores externos conectados vía RS 485 o 1 Wire, disponible en informes de Plaspy
+- Salidas de control que pueden activarse desde Plaspy para soportar control remoto de equipos y flujos de trabajo tipo inmovilizador
+- Bluetooth 4.0 para configuración local del dispositivo y emparejamiento de accesorios que complementan las configuraciones gestionadas por Plaspy
+- Soporte para gestión remota de firmware y configuración que ayuda a mantener los dispositivos alineados con las integraciones de Plaspy
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Módem GSM 2G \(una ranura SIM\); GLONASS/GPS |
-| --- | --- |
-| Bandas | No especificadas en la descripción del fabricante |
-| Alimentación y Batería | Sin batería interna; alimentado por el sistema eléctrico del vehículo. Protección de alimentación robusta y protección de la línea de entrada hasta 200 V. |
-| Interfaces | 3 entradas digitales universales; 2 salidas de control configurables; interfaz RS-485 \(para sensores de combustible / DUT\); interfaz 1-Wire |
-| GNSS | GLONASS y GPS con antena GNSS sensible integrada \(precisión según la documentación del fabricante\). |
-| Bluetooth | Bluetooth 4.0 \(BLE\) para configuración local y accesorios de corto alcance |
-| Gestión remota | Configurable con NTC Configurator; admite gestión remota de firmware a través del sistema DRC |
-| Formato | Unidad montada en el vehículo con antenas GLONASS/GPS y GSM integradas, adecuada para instalaciones de flotas |
-
-## Casos de uso
-
-- Seguimiento de flotas y ruteo: supervisar la ubicación de los vehículos en tiempo real desde los paneles de Plaspy.
-- Protección anti-robos e inmovilización remota: las salidas de control pueden utilizarse para implementar protecciones tipo inmovilizador cuando están conectadas a los sistemas del vehículo.
-- Monitoreo de combustible y telemetría: conecte sensores externos de nivel de combustible a través de RS-485 para monitoreo continuo y reporte a Plaspy.
-- Control remoto de equipos: activar relés o dispositivos de control mediante salidas configurables para acciones a demanda reportadas en Plaspy.
-- Integración de sensores por Bluetooth de corto alcance y configuración local para técnicos de servicio en el vehículo.
+- Seguimiento y enrutamiento de flotas con alimentación continua de ubicación hacia los paneles de Plaspy
+- Monitoreo y reporte de combustible usando sondas o dispositivos DUT externos
+- Flujos de trabajo antirobo y bloqueo remoto mediante salidas de control configurables
+- Control remoto y monitoreo de estado de equipos instalados en el vehículo
+- Configuración local y diagnóstico de corto alcance para técnicos de servicio mediante Bluetooth
 
 ## Por qué elegir este rastreador con Plaspy
 
-El SMART S-2422 combina hardware robusto de grado vehicular con las funciones de telemetría y control que esperan los operadores de flotas de un rastreador GPS compatible con Plaspy. Sus antenas GLONASS/GPS integradas y su enfoque de alimentación por cable lo hacen adecuado para vehículos que requieren seguimiento persistente e ininterrumpido. Con soporte RS-485 y 1-Wire obtienes monitoreo de combustible y telemetría de sensores de forma directa; la E/S digital y las salidas configurables amplían las capacidades de control para funciones anti-robos y de inmovilizador. Los administradores se benefician de la gestión remota de firmware a través de DRC y de la configuración local mediante NTC Configurator, simplificando la implementación y la gestión del ciclo de vida en grandes flotas. En resumen, el SMART S-2422 es una opción práctica y fiable para operadores que buscan un seguimiento en tiempo real preciso, telemetría e integración del vehículo dentro del ecosistema de Plaspy.
+El СМАРТ S-2422 combina hardware de grado vehicular con la plataforma Plaspy para ofrecer una solución práctica a organizaciones que requieren seguimiento ininterrumpido y telemetría fiable. Su diseño con alimentación cableada y antenas GNSS integradas es adecuado para vehículos donde la recolección continua de datos es esencial, mientras que la combinación de E/S digitales, RS 485 y 1 Wire facilita la captura de información de sensores y combustible para reportes operativos.
 
+Para flotas que precisan monitoreo centralizado e información accionable, usar el СМАРТ S-2422 con Plaspy proporciona visibilidad simplificada, opciones de control remoto y funciones de gestión del ciclo de vida como la configuración remota. Para saber más sobre cómo Plaspy puede trabajar con este rastreador visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que confirme la información técnica actual en la documentación oficial de Navtelekom en https://www.navtelecom.ru/

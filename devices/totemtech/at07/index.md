@@ -2,29 +2,62 @@
 slug: /totemtech/at07
 id: at07
 sidebar_label: AT07
+title: Totemtech - AT07
 sidebar_class_name: menu_item_tracker
+description: Totemtech AT07 GPS tracker compatible with Plaspy for fleet and asset monitoring with OTA updates accelerometer detection and dual server reporting
+keywords:
+  - Totemtech AT07
+  - AT07 GPS tracker
+  - Totemtech tracker
+  - AT07 Plaspy compatibility
+  - GPS tracker for fleet
+  - asset tracking device
+  - vehicle tracking hardware
+  - OTA firmware tracker
+  - accelerometer GPS tracker
+  - dual server reporting
 ---
+
 # Totemtech - AT07
 
 ![AT07](./logo.jpg)
 
-The Totemtech AT07 GPS tracker is a versatile and reliable device that offers a wide range of features for effective tracking and monitoring. With the ability to send data to two servers simultaneously, you can ensure that your tracking information is always accessible and secure. The built-in 3-Axis Digital Accelerometer allows for movement status monitoring, providing valuable insights into the behavior and activity of the tracked object.
+The Totemtech AT07 is a compact and versatile GPS tracker designed for a range of tracking and monitoring tasks. Built with features such as simultaneous data reporting to two servers, a 3 axis digital accelerometer for movement status, and onboard flash storage for historical points, the AT07 is positioned as a flexible device for vehicles and mobile assets. It also offers OTA firmware updates, a wide accepted power input range with over voltage protection, voice monitoring capabilities, and configurable I O ports for digital and analog signals.
 
-One of the standout features of the AT07 is its firmware upgrade capability via OTA \(Over-The-Air\), eliminating the need for manual updates and ensuring that you always have the latest features and improvements. The tracker supports a wide range of power inputs, from DC 9v to 50v, and features over-voltage protection for added safety and durability.
+As a device listed as compatible with Plaspy, the AT07 can feed location and status data into the Plaspy platform to support visibility and operational oversight. Its ability to send data to two endpoints, record multiple data points locally, and report movement and input states makes it a practical option for organizations that want to centralize tracking, alerts, and reporting inside Plaspy without relying on a single data path.
 
-With the Totemtech AT07, you have full control over your GPS tracking experience. You can send commands to the tracker via GPRS or SMS, and send GPRS data to an IP or domain name of your choice. The device also includes 16Mb of Flash Memory, allowing for the storage of approximately 4000 data points.
+## Key Highlights
 
-Other notable features of the AT07 include fuel/oil level detection with high accuracy, voice monitoring function with a built-in microphone, and user-defined settings on I/O ports for digital input, digital output, and analog input. Whether you need to track vehicles, assets, or even people, the Totemtech AT07 GPS tracker is a reliable and feature-rich solution.
+- Dual server reporting for redundancy and flexible data routing
+- 3 axis accelerometer for movement and activity status monitoring
+- OTA firmware upgrade support to keep devices up to date
+- Wide input voltage support with over voltage protection for robust vehicle use
+- Local flash memory for storing historical location points
+- Fuel and oil level detection plus voice monitoring for broader operational insight
+- Configurable I O ports for digital input output and analog input flexibility
 
-### Key Features:
+## How It Works with Plaspy
 
-- Simultaneous data transmission to two servers
-- 3-Axis Digital Accelerometer for movement status monitoring
-- Firmware upgrade via OTA
-- Support for DC 9v to 50v power input with over-voltage protection
-- GPRS and SMS command support
-- 16Mb Flash Memory for data storage
-- Fuel/oil level detection with high accuracy
-- Voice monitoring function with microphone
-- User-defined settings on I/O ports
+When integrated with Plaspy, the Totemtech AT07 provides location, movement, and input status that Plaspy can display, track, and include in alerts and reports. The device sends periodic and event driven data that Plaspy ingests to provide live visibility and historical context for fleet and asset operations.
 
+- Live and historical location visualization for fleet monitoring and route review
+- Movement and activity status based on accelerometer readings to detect motion events
+- Monitoring of I O port states and fuel level inputs to support operational alerts
+- Storage retrieval and display of stored data points for gaps in connectivity or historical analysis
+- Alerting and notification configuration in Plaspy based on the tracker reported events and inputs
+
+## Typical Use Cases
+
+- Fleet vehicle location tracking and operational oversight
+- Asset monitoring for mobile equipment and trailers
+- Fuel usage and level monitoring for fleet cost control
+- Remote voice monitoring where permitted for situational awareness
+- Tracking and reporting for rented or leased vehicles and equipment
+
+## Why Choose This Tracker with Plaspy
+
+The AT07 combines practical tracking features with flexible reporting options that match common needs in Plaspy deployments. Dual server reporting and onboard storage help preserve continuity of tracking data, while accelerometer based movement detection and configurable I O ports let organizations tailor monitoring and alerts to their workflows. Firmware updates via OTA help keep deployed devices current without manual intervention, which can reduce maintenance overhead.
+
+For teams using Plaspy, the AT07 is a sensible choice when you need a device that balances reporting reliability, storage for historical points, and configurable inputs. Its mix of features supports standard fleet and asset tracking scenarios while allowing Plaspy to consolidate location, status, and alerting in one platform.
+
+To learn more about how Plaspy can work with devices like the Totemtech AT07 visit https://www.plaspy.com. Product specifications and availability can change over time so please verify current details with the manufacturer at http://www.totemtek.com/

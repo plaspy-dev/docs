@@ -2,64 +2,61 @@
 slug: /carscop/cc_318
 id: cc_318
 sidebar_label: CC-318
+title: Carscop - CC-318
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS CC-318 compatible con Plaspy para gestión de flotas, alquiler y car sharing
+keywords:
+  - Carscop CC-318
+  - rastreador CC-318
+  - rastreador Carscop
+  - compatible con Plaspy
+  - rastreador GPS
+  - seguimiento de flotas
+  - rastreador para alquiler de autos
+  - rastreador para car sharing
+  - inmovilizador vehicular
+  - telemetría vehicular
 ---
+
 # Carscop - CC-318
 
 ![CC-318](./tracker.JPG)
 
-# CC-318 GPS Tracker
+El CC-318 es un rastreador vehicular compacto pensado para entornos de alquiler de autos, car sharing y gestión de flotas. Diseñado para proporcionar reportes de posición continuos y control remoto del vehículo, combina posicionamiento GNSS con conectividad celular y salidas de control para soportar rastreo en tiempo real, inmovilización remota y funciones básicas antirrobo. Además, incluye una batería interna de respaldo y una alarma por corte de alimentación para mantener visibilidad cuando se pierde la alimentación principal.
 
-El CC-318 es un rastreador GPS compatible con Plaspy, diseñado para entornos de alquiler de coches, car-sharing y gestión de flotas. Este dispositivo de control de coche 2G GSM y rastreo GPS combina seguimiento en tiempo real fiable, capacidad de inmovilización remota y salidas de control del vehículo para ofrecer la conectividad y las características de seguridad que requieren las flotas y los operadores de alquiler. Con posicionamiento GPS/Beidou integrado, asistencia A-GPS y respaldo LBS, el CC-318 mantiene visibles los vehículos ante Plaspy incluso en condiciones de señal desafiantes.
+Como dispositivo compatible con Plaspy, el CC-318 puede enviar ubicaciones, alarmas y eventos de control a Plaspy para su monitoreo centralizado y gestión operativa. Su combinación de reportes de posición, entradas de seguridad y salidas remotas lo convierte en una opción práctica para operadores que desean administrar flotas, flotas de alquiler o servicios de movilidad compartida desde Plaspy, manteniendo la capacidad de actuar de forma remota sobre vehículos individuales.
 
-Diseñado para una instalación sencilla y un montaje discreto, el CC-318 incluye una batería de respaldo interna recargable Li‑ion y una alarma de apagado para que los eventos críticos se informen a Plaspy si se corta la alimentación principal. La unidad admite acciones remotas como bloqueo/desbloqueo, activación de luces y bocina, además de control cableado de cerraduras centrales y sirenas —lo que la convierte en una herramienta práctica de anti‑robo y telemetría para operaciones de vehículo y movilidad compartida.
+## Características principales
 
-## Aspectos destacados
-
-- Rastreador GPS 2G GSM compatible con Plaspy para un seguimiento en tiempo real fiable y un historial de ubicaciones.
-- Funciones de control remoto — bloqueo/desbloqueo, activación de luces y bocina, y corte de motor a demanda \(inmovilizador remoto\) vía Internet o SMS.
-- GPS/Beidou integrado con A-GPS para obtención rápida de la posición y respaldo LBS cuando la señal GPS no está disponible.
-- Batería de respaldo interna recargable Li‑ion y alarma de apagado para reportar manipulación o pérdida de energía.
-- Entradas de alarma para golpes, puerta y ACC para generar alertas de seguridad y comportamiento del conductor en Plaspy.
-- Memoria a bordo para grabación de ruta sin conexión, además de registro con G-sensor para el comportamiento de conducción y análisis de telemetría.
-- Amplio rango de tensión de funcionamiento \(9–40 V\) apto para vehículos de 12 V y 24 V usados en gestión de flotas, alquiler y car-sharing.
-- Actualizaciones opcionales \(Bluetooth, CANbus\) para ampliar el soporte de sensores, acceso a datos del vehículo e integración de telemetría de combustible.
+- Diseñado para uso en flotas, alquiler y car sharing con reporte continuo de ubicación e historial.
+- Funciones de control remoto como bloqueo/desbloqueo, activación de luces o claxon y corte de motor a demanda para flujos de trabajo de alquiler y seguridad.
+- Posicionamiento GNSS con asistencia y respaldo por red celular para mantener visibilidad en condiciones de señal variadas.
+- Batería interna recargable de respaldo y alarma por corte de alimentación para detectar manipulación o pérdida de energía principal.
+- Entradas de alarma para eventos como puertas, impactos y encendido que generan alertas de seguridad y comportamiento del conductor.
+- Registro a bordo para retención de recorridos sin conexión e intervalos de subida configurables para preservar la continuidad.
+- Expansiones opcionales para ampliar telemetría y datos del vehículo cuando se instalan módulos adicionales.
 
 ## Cómo funciona con Plaspy
 
-Integrar el CC-318 con Plaspy permite telemetría continua, alertas configurables y control remoto del vehículo desde la plataforma Plaspy o la aplicación móvil. El dispositivo informa ubicación, entradas de seguridad y eventos de sensores a Plaspy mediante TCP/IP y datos GSM, y también puede recurrir a notificaciones por SMS cuando sea necesario. Una API abierta y el modo cliente TCP/IP facilitan enviar datos a servidores privados o ingerir eventos del dispositivo en Plaspy para análisis, geocercas y flujos de trabajo de la flota.
+Al conectarse a Plaspy, el CC-318 reporta actualizaciones de ubicación, cambios en entradas de seguridad y eventos del dispositivo para que usted pueda monitorizar activos en tiempo real, recibir alertas y activar flujos operativos remotos. Plaspy procesa los datos del dispositivo para mapeo, notificaciones e informes históricos, permitiendo supervisión operativa sobre una flota o un parque de alquiler.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy \(GPS/Beidou + A-GPS, respaldo LBS\).
-- Entradas de alarma y reporte de estado: eventos de puerta, choque y ACC se transmiten como alertas.
-- Monitoreo de combustible y datos del vehículo mediante la integración CANbus opcional \(cuando está instalado y configurado\).
-- Inmovilizador remoto / corte de motor a demanda mediante comando por Internet o SMS para anti‑robo y flujos de alquiler.
-- Soporte opcional para sensores/beacons Bluetooth para proximidad, identificación del conductor o telemetría ambiental cuando se usa la actualización Bluetooth.
-- Intervalos de subida configurables y registro a bordo para garantizar la continuidad de la trazabilidad, incluso con conectividad intermitente.
+- Localización en tiempo real e historial disponibles en la plataforma Plaspy para visibilidad de la flota.
+- Eventos de seguridad y alarmas como puertas, impactos y corte de alimentación se envían a Plaspy como alertas.
+- El inmovilizador remoto y las salidas de control pueden utilizarse desde Plaspy para gestionar devoluciones de alquiler y respuestas ante robos.
+- El registro a bordo y los intervalos de subida configurables ayudan a mantener los recorridos durante conectividad intermitente.
+- Las mejoras opcionales amplían la telemetría que Plaspy puede incorporar en informes y paneles.
+- Alertas configurables, geocercas e informes en Plaspy convierten los eventos del dispositivo en flujos de trabajo operativos.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Módulo 2G GSM de 4 bandas \(datos GSM y SMS para comandos y telemetría\) |
-| --- | --- |
-| GNSS | Posicionamiento GPS y Beidou con asistencia A-GPS; respaldo LBS \(torre celular\) para reporte de ubicación |
-| Alimentación y batería | Amplio rango de tensión 9–40 V; batería interna recargable de Li‑ion de respaldo; alarma de apagado |
-| Entradas y salidas | Entradas de alarma \(golpe, puerta, ACC\); salidas cableadas para cerraduras centrales, sirenas y otros sistemas del vehículo; soporte para inmovilización remota \(corte de motor\) |
-| Memoria a bordo | Memoria interna para grabación de ruta sin conexión cuando la red no está disponible |
-| Sensores | Sensor G integrado para registro del comportamiento de conducción; sensores Bluetooth opcionales compatibles mediante actualización |
-| Actualizaciones opcionales | Módulo Bluetooth e integración CANbus disponibles para ampliar el telemetría y el acceso a datos del vehículo |
-| Gestión remota | Conexión TCP/IP para servidores de clientes privados, API abierta para reenvío de datos, control por Internet y SMS, compatibilidad con la app móvil a través de Plaspy |
-| Antenas y formato | Antenas GSM y GPS integradas; unidad compacta diseñada para instalación oculta en el vehículo; incluye arnés de cables y tarjeta de instrucciones |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, telemetría de comportamiento del conductor y grabación de rutas sin conexión para mejorar la eficiencia de rutas y el cumplimiento.
-- Alquiler de coches y car-sharing: bloqueo/desbloqueo remoto, inmovilización a demanda y seguimiento de uso integrados con los flujos de trabajo de Plaspy.
-- Anti‑robo y recuperación: alertas de manipulación/power-down, alarmas de puerta y de choque, además de inmovilizador remoto para asegurar los vehículos.
-- Telemetría y mantenimiento del vehículo: registro con G-sensor y datos CANbus opcionales para monitoreo de combustible y diagnóstico del motor/eventos.
-- Configuraciones de monitoreo híbridas: usar sensores Bluetooth para identificación del conductor, monitoreo de carga/ambiental o eventos disparados por proximidad.
+- Gestión de flotas para vehículos de reparto, servicio o empresas que necesitan visibilidad de ubicación y alertas por eventos de conductor.
+- Operaciones de alquiler de autos que requieren bloqueo/desbloqueo remoto, seguimiento de uso e inmovilización bajo demanda.
+- Plataformas de car sharing que buscan monitoreo discreto del vehículo junto con opciones de control remoto.
+- Escenarios antirrobo y recuperación que usan alarmas por manipulación y corte de alimentación más capacidades de inmovilizador remoto.
+- Telemetría vehicular y planificación de mantenimiento donde el registro a bordo y módulos de datos opcionales apoyan diagnósticos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El CC-318 ofrece una opción práctica y específica para operadores que necesitan un rastreador GPS compatible con Plaspy que combine control del vehículo, características anti‑robo y telemetría. Su confiable conectividad 2G GSM, posicionamiento GNSS con A-GPS y respaldo LBS aseguran una reporte de ubicación continuo para el seguimiento en tiempo real y el análisis histórico. La batería de respaldo integrada y la alarma de apagado aumentan la resiliencia ante manipulaciones, mientras que los intervalos de subida configurables y la memoria a bordo mantienen la continuidad de los datos para los informes de gestión de flotas.
+El CC-318 es una opción práctica para organizaciones que necesitan un rastreador compacto que combine reporte de posición, entradas de seguridad y funciones de control remoto. Su alimentación de respaldo y la alarma por corte de energía aumentan la resiliencia y ayudan a mantener la conciencia situacional, mientras que el registro a bordo reduce los huecos de datos durante pérdidas temporales de conectividad. Para operadores de alquiler y movilidad compartida, las salidas de control remotas y las entradas de alarma se ajustan directamente a necesidades operativas habituales.
 
-Para plataformas de car-sharing y alquiler, el inmovilizador remoto del CC-318, las salidas de bloqueo/desbloqueo y las entradas de alarma simplifican el control operativo y la seguridad a través de Plaspy. Las mejoras opcionales de Bluetooth y CANbus permiten ampliar el dispositivo para capturar sensores del conductor o ambientales y datos del bus del vehículo \(incluyendo métricas de combustible cuando se utiliza CANbus\). Combinado con TCP/IP, control por SMS y una API abierta, el CC-318 se integra con Plaspy para ofrecer telemetría accionable, protección anti‑robo y operaciones de vehículos más eficientes.
-
+Combinado con Plaspy, el CC-318 puede ofrecer la visibilidad y las acciones remotas que usted espera de una plataforma de flotas sin añadir complejidad innecesaria. Plaspy aporta monitoreo centralizado, alertas configurables e informes para que los eventos del dispositivo se transformen en datos accionables en la operación diaria. Para más información sobre Plaspy visite el sitio principal https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden variar con el tiempo, por lo que es recomendable verificar los detalles actuales con el fabricante en http://www.carscop.com/.

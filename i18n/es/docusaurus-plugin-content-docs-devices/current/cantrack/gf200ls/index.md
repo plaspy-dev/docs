@@ -2,64 +2,60 @@
 slug: /cantrack/gf200ls
 id: gf200ls
 sidebar_label: GF200LS
+title: CanTrack - GF200LS
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS CanTrack GF200LS con larga autonomía, montaje magnético y compatibilidad con Plaspy para seguimiento de activos y flotas hasta tres años en reposo
+keywords:
+  - CanTrack GF200LS
+  - rastreador GF200LS
+  - GF200LS compatible con Plaspy
+  - rastreador GPS para activos
+  - GPS de larga autonomía
+  - rastreador con imán
+  - seguimiento de flotas
+  - seguimiento de contenedores
+  - antimanipulación GPS
+  - rastreo de activos a largo plazo
 ---
+
 # CanTrack - GF200LS
 
 ![GF200LS](./tracker.png)
 
-# GF200LS — Rastreador GPS de activos desechable con 3 años de autonomía
+El GF200LS es un rastreador GPS de larga autonomía y tipo desechable de CanTrack, diseñado para despliegues de baja intervención y larga duración. Pensado para vehículos de trabajo pesado, contenedores de carga y unidades prestadas o alquiladas, el GF200LS combina un diseño eficiente de bajo consumo con un potente imán para montaje, carcasa impermeable y sensor de luz para detección de manipulación. Configurado con tasas de reporte bajas, el dispositivo puede ofrecer hasta tres años en modo standby, lo que lo hace ideal para activos que se revisan con poca frecuencia.
 
-El GF200LS es un rastreador GPS de activos magnético de larga duración compatible con Plaspy, diseñado para despliegues de bajo mantenimiento y a largo plazo. Pensado para vehículos de servicio pesado, contenedores de carga y unidades en préstamo o arrendadas, el GF200LS equilibra una duración de batería excepcional con modos de reporte flexibles para soportar escenarios de seguimiento tanto periódicos como en tiempo real en las plataformas web y móviles de Plaspy.
+Como dispositivo compatible con Plaspy, el GF200LS puede enviar posiciones y eventos a las plataformas web y móviles de Plaspy tanto en modo periódico como en tiempo real. Esta compatibilidad convierte al rastreador en una opción práctica para organizaciones que requieren reportes de ubicación confiables, alertas por manipulación y telemetría a largo plazo, minimizando al mismo tiempo el mantenimiento en sitio. Plaspy muestra los datos del GF200LS junto con la información de la flota para facilitar monitoreo, generación de informes y operaciones diarias.
 
-El dispositivo utiliza tres baterías CR123 y un diseño de bajo consumo eficiente para ofrecer hasta tres años de operación en modo de standby cuando está configurado para una posición por día. Con clasificación IP65 a prueba de agua, un soporte magnético fuerte y un sensor de luz anti-tamper, el GF200LS está optimizado para la gestión de flotas, monitoreo anti-robo, asistencia en recuperación de vehículos robados y otras necesidades de gestión de activos a largo plazo, donde la telemetría de bajo contacto y la reportación de ubicación confiable son esenciales.
+## Características principales
 
-## Aspectos clave
-
-- Autonomía ultralarga — hasta tres años en una sola ubicación por día para un seguimiento de activos GPS de bajo mantenimiento.
-- Compatible con Plaspy para un seguimiento en tiempo real sin interrupciones y generación de informes históricos en plataformas web y móviles.
-- Múltiples modos de funcionamiento \(tiempo real, intervalo, reloj\) permiten equilibrar la frecuencia de informes y la duración de la batería.
-- Carcasa ABS a prueba de agua IP65 con imán N54 fuerte y tapa desmontable para una instalación sencilla en activos metálicos.
-- GNSS rápido y sensible \(SIMCom A767 + AT6558R\) para TTFF rápido y precisión inferior a 5 m en condiciones típicas.
-- Soporte celular multibanda \(LTE-FDD, LTE-TDD y 2G GSM\) para conectividad en áreas amplias e informes GPRS/TCP/IP.
-- Alertas de manipulación con sensor de luz para detectar retirada no autorizada y apoyar flujos de trabajo anti-robo.
+- Autonomía ultra larga de hasta tres años en modos de reporte bajo para seguimiento de activos con mínima intervención
+- Compatible con Plaspy para monitoreo en tiempo real e informes históricos en plataformas web y móviles
+- Múltiples modos de funcionamiento para equilibrar frecuencia de reporte y duración de batería según las necesidades de despliegue
+- Carcasa resistente IP65 en ABS con imán extraíble de gran sujeción para montaje externo en superficies metálicas
+- Alerta por sensor de luz para detectar retiradas no autorizadas y apoyar los procesos de recuperación
+- Rápido rendimiento GNSS con precisión típica por debajo de 5 m en condiciones normales
+- Soporte celular multiplataforma para conectividad amplia y entrega de reportes de posición
 
 ## Cómo funciona con Plaspy
 
-Como rastreador GPS compatible con Plaspy, el GF200LS envía datos de posición y de eventos a Plaspy mediante su enlace celular \(GPRS/TCP sobre LTE/2G\) o a través de la IP/puerto del servidor configurados. Plaspy ingiere los informes de ubicación y alertas del dispositivo, lo que permite a los responsables de flotas y a los propietarios de activos ver posiciones en tiempo real, revisar rutas históricas y recibir notificaciones de manipulación o estado a través de los paneles de Plaspy y de sus apps móviles.
+Al integrarse con Plaspy, los reportes de ubicación y los eventos del GF200LS son recibidos por la plataforma y presentados mediante paneles y vistas móviles para ofrecer visibilidad operativa. Plaspy procesa posiciones periódicas, actualizaciones en tiempo real y eventos de manipulación para que los administradores de flota y propietarios de activos puedan supervisar ubicaciones, recibir notificaciones y revisar el historial de actividad.
 
-- Seguimiento en tiempo real: al estar en modo tiempo real, el GF200LS puede ofrecer actualizaciones continuas de ubicación \(aprox. 24 horas de batería en este modo\) para monitorización activa a corto plazo.
-- Telemetría periódica: modos intervalo y reloj \(p. ej., una posición por día\) permiten telemetría a largo plazo con una vida de batería de varios años, ideal para seguimiento de contenedores y vehículos en préstamo.
-- Alertas de manipulación y retirada: los informes de anti-tamper con sensor de luz se envían como eventos para activar notificaciones inmediatas en Plaspy y flujos de escalamiento.
-- Configuración y control: el dispositivo admite configuración de APN e IP/puerto del servidor, además de comandos SMS para cambiar de modo remoto y verificar estado; Plaspy puede guiar la configuración para asegurar un reporte consistente.
-- Compatibilidad con telemetría complementaria: Plaspy puede combinar la ubicación y los eventos del GF200LS con otros inputs compatibles con Plaspy \(monitoreo de combustible, estado de ignición o inmovilizador, o sensores Bluetooth externos\) mediante dispositivos o integraciones adicionales compatibles con Plaspy.
+- Seguimiento en tiempo real para monitoreo activo a corto plazo cuando el dispositivo está configurado con reportes frecuentes
+- Modos de telemetría periódica que preservan la batería a la vez que entregan actualizaciones programadas para despliegues de larga duración
+- Alertas por manipulación o extracción enviadas a Plaspy para activar notificaciones y flujos de escalamiento
+- Opciones de configuración remota soportadas por el dispositivo que Plaspy puede coordinar para garantizar reportes consistentes
+- Consolidación de datos de posición y eventos del GF200LS con otras entradas compatibles con Plaspy para enriquecer informes y contexto operativo
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | LTE-FDD, LTE-TDD y 2G GSM con GPRS Clase 12 TCP/IP |
-| --- | --- |
-| Bandas | LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B28/B66; LTE-TDD: B34/B38/B39/B40/B41; 2G GSM: 850/900/1800/1900 MHz |
-| Alimentación y Batería | 3 × CR123 baterías \(4500 mAh en total, ~3V equivalentes\). En standby típico: 1 ubicación/día ≈ hasta 3 años; modo en tiempo real ≈ 24 horas. Corriente de funcionamiento 40–80 mA/h \(entrada de 3V\); corriente en standby 60–100 μA/h. |
-| Interfaces | Cobertura trasera magnética removible; alarma de manipulación por sensor de luz \(anti-tamper\); comandos de configuración por SMS \(contraseña por defecto 123456\) para ajustes de modo/APN/servidor y verificación de estado. |
-| GNSS | GPS SIMCom A767 + AT6558R; GPS L1 1575.42 MHz, 66 canales; arranque en caliente ≤3 s, arranque en frío ≤45 s; sensibilidad de seguimiento -165 dBm; adquisición -148 dBm; precisión típica \<5 m. |
-| Antena | Antena LTE integrada y antena GPS cerámica |
-| Memoria | 32 + 32 Mb |
-| Rango de operación | Temperatura de operación: -20 °C a +60 °C |
-| Carcasa y Formato | Carcasa de ABS ignífuga, clasificación IP65 a prueba de agua, tamaño 64 × 55 × 30 mm, peso 0.15 kg, imán fuerte de nivel N54 para montaje externo |
-| Bluetooth | No listado / no se reporta BLE |
-| Gestión remota | Comandos de configuración por SMS para cambio de modo, zona horaria, APN, IP/puerto administrativo, reinicio, verificación de estado y restablecimiento de fábrica; IP/puerto del servidor configurable para informes TCP/IP. |
-
-## Casos de uso
-
-- Monitoreo de activos en préstamos financieros — asegure la ubicación de la garantía con informes GPS de bajo mantenimiento y larga duración.
-- Seguimiento de contenedores y cargas — actualizaciones periódicas de ubicación y alertas de manipulación para largos periodos de tránsito y almacenamiento.
-- Asistencia en recuperación de vehículos robados — proporcionar telemetría de ubicación discreta y alertas de retirada para apoyar a los equipos de recuperación.
-- Gestión de vehículos en préstamo o arrendados — rastrear activos dispersos y de uso intermitente sin necesidad de mantenimiento frecuente.
-- Inventario de activos a largo plazo y gestión de flotas — mantener visibilidad de ubicación para equipos que se mueven poco o de uso estacional.
+- Monitoreo de bajo mantenimiento de activos financiados para mantener visibilidad sobre garantías colaterales
+- Seguimiento de contenedores y carga durante largos tránsitos o periodos de almacenamiento con actualizaciones periódicas de ubicación
+- Asistencia en recuperación de activos robados mediante telemetría discreta y alertas de extracción
+- Gestión de vehículos y equipos prestados o alquilados que se encuentran dispersos y se usan de forma intermitente
+- Control de inventario a largo plazo para activos de flota estacionales o que se mueven raramente
 
 ## Por qué elegir este rastreador con Plaspy
 
-Emparejar el GF200LS con Plaspy ofrece una solución práctica y rentable para las organizaciones que requieren datos de ubicación confiables sin necesidad de mantenimiento frecuente en sitio. El GF200LS destaca por su capacidad de standby de tres años en modos de informes reducidos, su construcción robusta IP65 y una instalación magnética simple, lo que lo hace adecuado para la gestión de flotas y despliegues anti-robo donde la telemetría de bajo contacto es esencial.
+El GF200LS es una opción acertada para organizaciones que priorizan la larga duración de batería y despliegues de baja intervención. Su diseño está enfocado en escenarios donde el mantenimiento frecuente no es factible, pero donde los reportes de ubicación y las alertas por manipulación siguen siendo críticos. En combinación con Plaspy, los datos del GF200LS resultan más útiles: usted puede alternar entre seguimiento en tiempo real y reportes por intervalos, recibir notificaciones inmediatas de manipulación y revisar rutas y estados históricos dentro de la plataforma Plaspy.
 
-En Plaspy, los datos del GF200LS se vuelven operativos: seguimiento en tiempo real cuando sea necesario, informes programados por intervalos para monitoreo a largo plazo y notificaciones inmediatas de manipulación para activar alertas o flujos de recuperación. Si bien el GF200LS se centra en la telemetría de ubicación y eventos, Plaspy puede enriquecer esos registros combinándolos con otras fuentes de telemetría \(monitoreo de combustible, estado de ignición o inmovilizador, o sensores Bluetooth externos\) mediante dispositivos o integraciones adicionales compatibles con Plaspy. Juntos, proporcionan un seguimiento e informes escalables y confiables que reducen la carga operativa y mejoran la seguridad de los activos.
-
+Para conocer más sobre Plaspy y cómo se visualizan los datos del GF200LS en los paneles y vistas móviles de Plaspy visite https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y la documentación oficial en el sitio del fabricante https://www.cantrackgps.com/.

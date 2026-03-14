@@ -2,60 +2,60 @@
 slug: /ulbotech/t363a
 id: t363a
 sidebar_label: T363A
+title: Ulbotech - T363A
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS OBD plug and play compatible con Plaspy para gestión de flotas, monitoreo de conductores y protección antirrobo
+keywords:
+  - Ulbotech T363A
+  - T363A rastreador
+  - T363A compatible con Plaspy
+  - rastreador GPS OBD
+  - seguimiento de flotas
+  - telemática vehicular
+  - monitoreo de conducta del conductor
+  - rastreador antirrobo
+  - telemática OBD
+  - u-blox GNSS
 ---
+
 # Ulbotech - T363A
 
 ![T363A](./tracker.jpg)
 
-El rastreador OBD GPS T363A es un dispositivo plug-and-play diseñado para la gestión de flotas, protección anti-robo y monitoreo del comportamiento del conductor. Diseñado para conectarse directamente al puerto OBD-II del vehículo, el T363A ofrece seguimiento en tiempo real y telemetría del vehículo a sistemas back-end. Como dispositivo compatible con Plaspy, se integra de forma fluida con la plataforma de seguimiento de Plaspy para proporcionar ubicación, diagnósticos basados en OBD y alertas configurables para flotas, operadores de alquiler y propietarios de vehículos.
+El T363A es un rastreador GPS OBD plug and play diseñado para la gestión de flotas, la protección antirrobo y el monitoreo de comportamiento del conductor. Al conectarse directamente al puerto OBD del vehículo, el dispositivo transmite en tiempo real la ubicación y la telemetría del vehículo a los sistemas de backend. Su factor de forma compacto y los componentes GNSS y celulares integrados facilitan despliegues rápidos en flotas mixtas y a operadores que necesitan visibilidad inmediata sin instalaciones complejas.
 
-El compacto T363A integra un receptor GNSS u-blox, un módem GSM/GPRS de cuatro bandas y Bluetooth a bordo para ofrecer una precisión de posición confiable, TTFF rápido y entrega de datos sin interrupciones. Su salida de inmovilizador interna, la detección de comportamiento del conductor basada en acelerómetro y el soporte para los protocolos OBD estándar hacen de este dispositivo una opción práctica para empresas y proveedores de servicios que utilizan Plaspy para monitoreo en tiempo real, generación de informes y flujos de trabajo automatizados.
+Como dispositivo compatible con Plaspy, el T363A se integra con la plataforma para aportar ubicación, diagnósticos derivados del OBD y alertas configurables para flotas, arrendadoras y propietarios de vehículos. Al emparejarlo con Plaspy, el rastreador envía datos de ubicación y eventos que pueden usarse para monitoreo en vivo, generación de informes y flujos de trabajo automatizados, ayudando a transformar señales del vehículo en información operativa útil.
 
-## Características clave
+## Aspectos destacados
 
-- Instalación OBD-II plug-and-play: implementación rápida para la gestión de flotas sin necesidad de cableado.
-- Compatible con Plaspy para seguimiento en tiempo real, alertas e informes telemáticos de la flota.
-- GNSS u-blox de alta sensibilidad con A-GPS para un TTFF rápido y precisión de posición típica por debajo de 3 m.
-- Módem GSM/GPRS de cuatro bandas \(850/900/1800/1900 MHz\) para una transmisión de datos confiable en distintas regiones.
-- Bluetooth 2.0 a bordo para emparejar dispositivos o sensores externos cuando sea necesario.
-- Salida digital interna para inmovilizador \(corte del motor\) para respaldar flujos de trabajo anti-robo.
-- Acelerómetro de 3 ejes y detección de eventos de conducción para frenadas duras, aceleraciones bruscas, giros y monitorización del ralentí.
+- Instalación OBD plug and play para despliegues rápidos en flotas de vehículos.
+- Compatible con Plaspy para seguimiento en tiempo real, alertas e informes telemáticos.
+- Receptor GNSS de alta sensibilidad con posicionamiento asistido para fijaciones más rápidas y posiciones precisas.
+- Conectividad celular quad-band para amplio alcance regional en la entrega de datos.
+- Bluetooth a bordo para emparejar accesorios opcionales o sensores externos.
+- Salida de inmovilizador interna y detección de eventos basada en acelerómetro para soportar flujos de trabajo de antirrobo y monitoreo del conductor.
 
 ## Cómo funciona con Plaspy
 
-El T363A alimenta la plataforma Plaspy con las posiciones GNSS, telemetría derivada de OBD y datos de eventos a través de GPRS para seguimiento en tiempo real, alertas e informes históricos. Plaspy procesa el flujo de datos del dispositivo para presentar mapas en vivo, alertas de geocerca, puntuación de comportamiento del conductor e hallazgos diagnósticos. La integración se realiza a través de canales TCP/UDP/GPRS estándar compatibles con Plaspy; la configuración del dispositivo y las actualizaciones FOTA se gestionan de forma remota cuando sea necesario.
+El T363A transmite posiciones GNSS, telemetría derivada del OBD y datos de eventos a través de la red celular hacia la plataforma Plaspy. Plaspy consume estos flujos de datos para mostrar ubicaciones de vehículos en tiempo real, generar alertas y compilar reportes históricos que apoyan la toma de decisiones operativas. Desde Plaspy se pueden gestionar las configuraciones del dispositivo y su comportamiento para alinear las señales entrantes con las reglas de negocio y las necesidades de reporte.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: GNSS continuo y PIDs de OBD periódicos para la visibilidad operativa.
-- Estado de encendido y diagnóstico vía OBD: Plaspy puede usar el estado de encendido y los códigos OBD para flujos de trabajo de la flota y disparadores de mantenimiento.
-- Telemetría relacionada con el combustible: los PIDs de OBD pueden proporcionar datos de combustible y consumo donde el vehículo admita esos parámetros \(según el vehículo\).
-- Control remoto del inmovilizador: la salida digital habilita flujos de trabajo de inmovilización impulsados por Plaspy para la respuesta ante robos.
-- Conectividad Bluetooth: emparejar sensores o accesorios Bluetooth para telemetría adicional y contexto dentro de Plaspy.
-- Alertas de geocerca y eventos: geocercas circulares, rectangulares y poligonales \(hasta 32 puntos\) activan notificaciones e informes en Plaspy.
+- Actualizaciones de ubicación y telemetría en tiempo real para vistas de mapas en vivo y reproducción de rutas.
+- Señales de ignición y diagnósticos basados en OBD que Plaspy utiliza para disparar mantenimientos y flujos operativos.
+- Parámetros de uso del vehículo y de consumo de combustible, cuando están disponibles, se muestran en los informes de Plaspy para analizar costos y consumo.
+- Flujos remotos de inmovilizador, habilitados por la salida digital del dispositivo, que pueden integrarse en los procesos de alerta y respuesta de Plaspy.
+- Accesorios conectados por Bluetooth que aportan contexto adicional a Plaspy para una mejor correlación de eventos.
+- Alertas de geocercas y de eventos que alimentan las notificaciones y los registros históricos en Plaspy para cumplimiento y revisión operativa.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Módem GSM/GPRS de cuatro bandas |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz |
-| Almacenamiento | Memoria interna de 8 Mb \(aprox. 15,000 registros\) |
-| Alimentación y batería | Tensión de funcionamiento 8–32 V DC; batería de respaldo Li-Polímero de 3.7V y 180 mAh; consumo de energía ~70 mA en funcionamiento, ~10 mA en reposo, pico &lt;250 mA |
-| Interfaces | Conector OBD-II \(J1962\), puerto micro USB para configuración y firmware, salida digital para inmovilizador/corte del motor, indicadores de GSM/GPS/OBD/BLE |
-| Sensores e entradas | Acelerómetro de 3 ejes para detección de movimiento y comportamiento del conductor; compatible con monitoreo de voz |
-| GNSS | u-blox 6M con A-GPS; sensibilidad de seguimiento hasta -162 dBm; sensibilidad autónoma indicada en -147 dBm; precisión de posición típica &lt;3 m; arranques en caliente rápidos &lt;1 s |
-| Bluetooth | Bluetooth 2.0 a bordo para dispositivos o sensores externos |
-| Gestión remota | FOTA \(actualizaciones de firmware vía GPRS\); micro USB para configuración local |
-| Factor de forma | Diseño compacto de enchufe OBD — dimensiones 62×50×23 mm o 45×50×23 mm \(sin incluir el conector J1962\); peso ~50 g |
-
-## Casos de uso
-
-- Gestión de flotas: ubicación en tiempo real del vehículo, reproducción de rutas y telemetría de comportamiento del conductor para la eficiencia operativa y el cumplimiento.
-- Antirrobo e inmovilización: alertas de manipulación/desconexión con batería de respaldo y corte remoto del motor mediante la salida de inmovilizador.
-- Seguimiento para alquiler y seguros: monitorización por uso, geocercas y registros de eventos para flotas de alquiler o programas de seguros telemáticos.
-- Asistencia en carretera y diagnóstico: soporte de protocolos OBD \(J1850, ISO 9141-2, ISO14230, ISO15765-4, SAE J1939, J1708/J1587\) que permite obtener estado del vehículo y lecturas de diagnóstico básicas para decisiones rápidas de servicio.
-- Perfil de conductores jóvenes y del vehículo: eventos basados en acelerómetro \(frenadas bruscas, aceleración rápida, giros\) que ayudan a promover una conducción segura y a generar puntuaciones de conductor.
+- Gestión de flotas con seguimiento en vivo, análisis de rutas y telemetría de conducta del conductor.
+- Monitoreo antirrobo con alertas por manipulación, respaldo de energía y control remoto de inmovilizador.
+- Operaciones de flotas de alquiler y seguimiento basado en uso, incluyendo geocercas y registros de eventos.
+- Soporte en carretera y diagnóstico vehicular mediante estados y fallas derivadas del OBD.
+- Entrenamiento y perfilado de conductores utilizando detección de eventos por acelerómetro para frenadas bruscas o aceleraciones rápidas.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El T363A ofrece un rastreador GPS práctico y compatible con Plaspy para organizaciones que requieren una implementación plug-and-play, seguimiento en tiempo real fiable y telemetría OBD robusta. Su radio GSM/GPRS de cuatro bandas y el GNSS de u-blox proporcionan conectividad constante y posicionamiento preciso, mientras que la salida de inmovilizador interna y la batería de respaldo fortalecen los flujos de trabajo anti-robo. Con Bluetooth a bordo y soporte FOTA, el T363A es flexible para sensores adicionales y mantenimiento remoto, lo que lo convierte en una opción rentable para una gestión de flotas escalable, protección anti-robo y mejora operativa impulsada por telemetría en la plataforma Plaspy.
+El T363A es una opción práctica para organizaciones que buscan un dispositivo telemático plug and play que se integre con una plataforma de seguimiento completa. Su combinación de posicionamiento GNSS, diagnósticos derivados del OBD y detección de eventos permite a las flotas obtener visibilidad operativa inmediata sin instalaciones complejas. Para operaciones que ya usan Plaspy, el T363A suministra las señales fundamentales que la plataforma espera para mapeo, alertas y flujos de trabajo de reporte.
 
+Si desea más información sobre cómo Plaspy puede trabajar con dispositivos como el T363A visite https://www.plaspy.com para detalles de la plataforma y recursos de ventas. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo; para obtener los detalles técnicos y la documentación del fabricante más actualizados, consulte el sitio oficial de Ulbotech en http://www.ulbotech.com/.

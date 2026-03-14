@@ -2,59 +2,59 @@
 slug: /xirgo/xt47
 id: xt47
 sidebar_label: XT47
+title: Xirgo - XT47
 sidebar_class_name: menu_item_tracker
+description: Rugged GPS tracker for monitoring high value remote assets compatible with Plaspy for real time tracking and asset protection
+keywords:
+  - Xirgo XT47
+  - XT47 GPS tracker
+  - XT47 Plaspy compatible
+  - Xirgo tracker
+  - remote asset tracker
+  - generator tracking
+  - construction equipment tracking
+  - trailer and container tracking
+  - fleet tracking
+  - asset telemetry
 ---
+
 # Xirgo - XT47
 
 ![XT47](./tracker.webp)
 
-The XT47 is a Plaspy compatible GPS tracker engineered for monitoring and control of high-value, ruggedized remote assets. Purpose-built for mobile generator sets, construction machinery, containers, trailers and other specialized equipment, the XT47 brings reliable location and telemetry into Plaspy for real-time tracking, asset protection and remote operations even where external power is intermittent.
+The XT47 is a Plaspy compatible GPS tracker engineered for monitoring and control of high value, ruggedized remote assets. Purpose built for mobile generator sets, construction machinery, containers, trailers and other specialized equipment, the XT47 delivers location and telemetry suited to long term field deployment and intermittent external power scenarios. Its enclosure and I/O options are designed to withstand outdoor conditions and provide practical control and reporting for remote assets.
 
-With a rugged housing, multiple I/O and connectivity optimized for remote asset environments, the XT47 integrates with Plaspy to support fleet management workflows, anti-theft responses and telemetry-driven maintenance. Its design focuses on long-term field deployment and practical control options to reduce downtime and protect expensive equipment.
+As a device compatible with Plaspy, the XT47 brings asset location, event reporting and control signals into a centralized platform for fleet and asset management. Integrating XT47 data into Plaspy enables live tracking, geofencing, event alerts and telemetry based workflows that support anti theft response, maintenance planning and operational oversight for widely distributed equipment.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker: native integration for real-time tracking and centralized fleet management.
-- Rugged housing built for harsh environments — IP- and shock-rated designs for outdoor and mobile assets.
-- Multiple I/O for telemetry, alarms and digital inputs — supports ignition monitoring and external sensors where configured.
-- Optimized connectivity for remote sites — engineered to maintain communications in low-coverage or intermittent-power scenarios.
-- Designed for long-term remote deployment of high-value assets like generator sets, construction machinery and trailers.
-- Enables anti-theft workflows and remote immobilizer control via I/O when deployed with Plaspy-managed control rules.
-- Scalable for mixed fleets and asset types — combines location, status and event data into Plaspy dashboards and reports.
+- Native compatibility with Plaspy for centralized location and telemetry management.
+- Rugged housing built for harsh outdoor and mobile asset environments.
+- Multiple inputs and outputs for telemetry, alarms and digital signals to support monitoring and control.
+- Connectivity optimized for remote sites to maintain communications when coverage or power is intermittent.
+- Designed for long term deployment on high value assets such as generator sets, construction machinery, trailers and containers.
+- Supports anti theft workflows and remote control actions through I/O when configured with Plaspy rules.
 
 ## How It Works with Plaspy
 
-The XT47 streams location and telemetry to Plaspy, where you can visualize assets on maps, configure geofences, set automated alerts and generate reports for fleet management. Plaspy ingests I/O events and sensor telemetry from the XT47 so dispatchers and maintenance teams receive timely, actionable information.
+The XT47 streams location and asset events into Plaspy where operators can visualize devices on maps, configure status alerts and run reports for fleet performance and asset protection. Plaspy ingests the XT47's telemetry and I/O events to power automated workflows and give dispatch and maintenance teams timely situational awareness.
 
-- Real-time location and telemetry updates delivered to Plaspy for live asset tracking and historical playback.
-- Multiple I/O event reporting — door/alarms, digital inputs and ignition status can be reported into Plaspy for automated workflows.
-- Fuel monitoring and other telemetry available when wired sensors are integrated with the XT47 and fed into Plaspy dashboards.
-- Remote immobilizer and control actions supported through Plaspy when the XT47 instance is configured with control outputs.
-- Combine XT47 data with external Bluetooth sensors or other telemetry sources inside Plaspy to enrich asset monitoring \(where external sensors are used\).
+- Real time location updates and historical playback for asset movement analysis.
+- I/O event reporting in Plaspy for alarms, door or tamper events, and ignition or run state notifications when configured.
+- Telemetry such as fuel or other sensor data available in Plaspy dashboards when external sensors are integrated with the XT47.
+- Remote control actions and immobilizer workflows supported through Plaspy when outputs are configured for control.
+- Combine XT47 data with additional sensors and asset information inside Plaspy to enrich monitoring and reporting.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | XT47 |
-| --- | --- |
-| Intended Use | Monitoring and control of ruggedized remote assets: generators, construction machinery, containers, trailers, specialized equipment |
-| Housing | Rugged enclosure suitable for harsh outdoor and mobile environments \(shock and weather resistant\) |
-| I/O | Multiple inputs and outputs for telemetry, alarms and digital signaling \(supports ignition monitoring and control integrations where configured\) |
-| Connectivity | Connectivity optimized for remote asset environments. Specific cellular/WAN variants and bands vary by configuration and are not specified here. |
-| Power & Battery | Designed for assets where external power availability is a concern; supports deployment scenarios with intermittent power. Exact backup battery or power options vary by configuration. |
-| GNSS | GPS-capable positioning for real-time tracking; specific GNSS modules and accuracy vary by model configuration. |
-| Bluetooth | Integration with external Bluetooth sensors can be arranged within Plaspy workflows; native BLE capability depends on selected configuration \(not specified\). |
-| Remote Management | Designed for remote deployments and integration with Plaspy for firmware and configuration management where supported — exact remote management features vary by offering. |
-| Form Factor | Compact rugged unit for vehicle and asset installation; mounting options for trailers, containers and fixed remote equipment. |
-
-## Use Cases
-
-- Fleet management of mixed equipment fleets — track generators, excavators and service trailers in Plaspy for utilization and dispatch planning.
-- Anti-theft protection for high-value remote assets — geofence alerts, tamper and alarm reporting, and remote immobilizer actions when configured with Plaspy.
-- Monitoring of mobile generator sets and construction machinery for preventive maintenance using telemetry and event reporting.
-- Container and trailer tracking in low-power or intermittent-connection environments — long-term location visibility and event alerts.
-- Asset health and fuel monitoring workflows when wired sensors feed telemetry into the XT47 and onward to Plaspy reports.
+- Fleet management of mixed equipment fleets including generators, excavators and service trailers.
+- Anti theft protection for high value remote assets using geofences, tamper alerts and remote control options.
+- Monitoring mobile generator sets and construction machinery to support preventive maintenance and uptime.
+- Container and trailer tracking in low power or intermittent connectivity environments for long term visibility.
+- Asset health and fuel monitoring workflows when wired sensors feed telemetry into the XT47 and onward to Plaspy.
 
 ## Why Choose This Tracker with Plaspy
 
-The XT47 delivers a balanced mix of ruggedness, practical I/O and connectivity choices tailored for remote asset deployments. As a Plaspy compatible GPS tracker, it provides reliable real-time tracking and telemetry that feed directly into Plaspy’s fleet management tools. That combination enables operators to reduce theft risk, improve uptime with telemetry-led maintenance, and centralize control across diverse asset classes. For organizations managing high-value equipment in challenging locations, the XT47 plus Plaspy offers a scalable, secure path to better visibility, faster response and lower operating cost.
+The XT47 is a practical choice for organizations that need rugged, long term tracking and event reporting for high value remote equipment. Its combination of durable packaging, multiple I/O options and connectivity aimed at remote deployments makes it well suited to generators, construction assets, trailers and containers that require persistent visibility and control.
 
+When used with Plaspy, XT47 data becomes part of a unified fleet management workflow that supports rapid response, scheduled maintenance and consolidated reporting across diverse asset classes. For teams managing equipment in challenging locations, pairing the XT47 with Plaspy provides a scalable way to improve visibility, reduce downtime and strengthen asset protection. To learn more about Plaspy and how it can work with compatible trackers explore https://www.plaspy.com. Product specifications and availability can change over time, so verify current details and configuration options on the manufacturer site https://xirgo.com/.

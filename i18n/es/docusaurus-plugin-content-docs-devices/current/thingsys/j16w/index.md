@@ -2,62 +2,60 @@
 slug: /thingsys/j16w
 id: j16w
 sidebar_label: J16W
+title: ThingSys - J16W
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular ThingSys J16W IP67 resistente, 4G 2G, compatible con Plaspy para seguimiento en tiempo real y alertas
+keywords:
+  - ThingSys J16W
+  - rastreador J16W
+  - rastreador ThingSys
+  - compatible con Plaspy
+  - rastreador GPS
+  - rastreador vehicular
+  - seguimiento de flotas
+  - seguimiento en tiempo real
+  - rastreador IP67
+  - rastreador 4G LTE
 ---
+
 # ThingSys - J16W
 
 ![J16W](./tracker.jpg)
 
-El J16W es un rastreador GPS robusto, con clasificación IP67, diseñado para instalaciones en vehículos y optimizado para trabajar con Plaspy para seguimiento en tiempo real y gestión de flotas. Compacto y ligero, el J16W utiliza un módem SIMCOM A7670SA 4G LTE \(CAT1\) con respaldo a 2G y un receptor GNSS de alta sensibilidad para ofrecer posicionamiento y telemetría fiables en entornos adversos. Como rastreador compatible con Plaspy, integra ubicación, estado de ignición y eventos de control del vehículo en los tableros y alertas de Plaspy para operaciones de flota fluidas y flujos de trabajo anti-robo.
+El J16W es un rastreador robusto con certificación IP67 diseñado específicamente para instalaciones en vehículos. Compacto y liviano, combina un módem 4G LTE CAT1 con retroceso a 2G y un receptor GNSS de alta sensibilidad para proporcionar posicionamiento y telemetría fiables aun en entornos exigentes. La familia J16W incluye una unidad base con entrada ACC y control de relé, y la variante J16Wm que añade micrófono y funcionalidad SOS para flujos de trabajo de emergencia.
 
-Diseñado para flotas, autobuses, camiones, motocicletas y otros vehículos, el J16W combina un amplio soporte de bandas celulares, un almacenamiento local robusto y resiliencia de energía para garantizar una transmisión continua de datos. La familia J16W incluye una unidad estándar con control ACC y relé, y una variante J16Wm que añade micrófono, SOS y funciones de relé ampliadas para voz de emergencia/escucha y monitorización remota cuando se utiliza con las capacidades de manejo de incidentes y visualización de telemetría de Plaspy.
+Como dispositivo compatible con Plaspy, el J16W integra la ubicación del vehículo, el estado de ignición y eventos de control en los paneles y alertas de Plaspy. Su almacenamiento en búfer offline y su resiliencia ante cortes de energía ayudan a mantener la transmisión continua hacia Plaspy, por lo que el J16W es apto para monitoreo de flotas, visibilidad de rutas, operaciones anti robo y gestión de incidentes cuando se utiliza junto con los flujos de trabajo de Plaspy.
 
-## Key Highlights
+## Puntos destacados
 
-- Diseño compatible con Plaspy para seguimiento en tiempo real, alertas e informes de flota sin interrupciones.
-- Conectividad 4G LTE \(CAT1\) con respaldo a 2G para cobertura celular global y entrega fiable de telemetría.
-- GNSS de alta sensibilidad \(GPS + BeiDou\) con una precisión de posicionamiento de menos de 10 m \(1σ\) para ubicación precisa del vehículo.
-- Resistente al agua IP67 y formato compacto \(82 × 36 × 17 mm, 55 g\) para una instalación en vehículo discreta y duradera.
-- Amplio rango de voltaje de entrada \(DC 9–95 V\) y batería de respaldo de 300 mAh para seguimiento ininterrumpido y reportes de emergencia durante pérdidas de energía.
-- Entradas/salidas específicas para vehículo: detección ACC/ignición y corte/restauración controlados por relé \(hardware de relé opcional\); J16Wm añade micrófono y entrada SOS.
-- Almacenamiento offline de puntos GPS y retransmisión cuando se restaura la red, preservando la telemetría histórica para análisis de Plaspy.
+- Diseñado para vehículos con carcasa IP67 que ofrece protección en condiciones adversas.
+- Conectividad celular 4G LTE con retroceso a 2G para amplia cobertura y reportes confiables.
+- Receptor GNSS de alta sensibilidad compatible con GPS y BeiDou para ubicación precisa del vehículo.
+- Tamaño compacto y peso reducido para instalaciones discretas en activos de flota.
+- Amplio rango de voltaje de operación y batería de respaldo integrada para preservar reportes durante interrupciones de energía.
+- Entradas dedicadas para vehículo y salida de relé para detección de ignición y acciones controladas de corte o restauración.
+- Almacenamiento de datos offline y retransmisión para preservar la telemetría cuando la conectividad es intermitente.
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el J16W transmite la posición GNSS y la telemetría del vehículo a la plataforma de Plaspy a través de GPRS/4G. Plaspy procesa las actualizaciones de ubicación, indicadores de estado y eventos de E/S del rastreador para ofrecer seguimiento en tiempo real, reproducción de rutas, alertas de geocerca y analítica de flotas. La configuración puede realizarse vía SMS, software para PC o ajustes de línea de producción, de modo que las unidades lleguen preconfiguradas para el aprovisionamiento en Plaspy.
+Cuando se conecta a Plaspy, el J16W envía posición GNSS y telemetría del vehículo para que Plaspy muestre seguimiento en vivo, alertas y reproducción histórica. Plaspy procesa banderas de estado y eventos I/O del dispositivo para respaldar supervisión operativa, alertas automatizadas e informes sobre los activos de la flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real para el seguimiento en vivo del vehículo y la monitorización de rutas.
-- Detección ACC/ignición para supervisar eventos de encendido/apagado del motor y activar alertas o informes de Plaspy.
-- Corte/restauración controlados por relé, utilizables como inmovilizador o para apagados controlados de combustible/circuitos \(útil en flujos de anti-robo y monitoreo de combustible\).
-- Almacenamiento offline de puntos GPS y retransmisión cuando se restablece la red, preservando la telemetría histórica para análisis de Plaspy.
-- Variante J16Wm: SOS y micrófono para habilitar eventos de voz/escucha de emergencia que se integran en los flujos de incidentes de Plaspy.
+- Actualizaciones de ubicación en tiempo real y reproducción de rutas para visibilidad operativa y monitoreo.
+- Detección de ignición y ACC que puede disparar alertas, informes o resúmenes de uso en Plaspy.
+- Control por relé para corte y restauración utilizable en rutinas de inmovilizador y anti robo gestionadas desde Plaspy.
+- Almacenamiento de puntos offline con retransmisión para que Plaspy mantenga un registro continuo de telemetría tras la restauración de red.
+- Soporte de la variante J16Wm para eventos SOS y micrófono, de modo que los flujos de trabajo de incidentes en Plaspy puedan incluir señalización de emergencia y contexto de voz.
 
-## Technical Overview
+## Casos de uso típicos
 
-| Connectivity | 4G LTE \(CAT1\) vía SIMCOM A7670SA con respaldo a GSM 2G \(GPRS\) |
-| --- | --- |
-| Bands | LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28/B66; GSM 2G 850/900/1800/1900 MHz |
-| Power & Battery | Voltaje de funcionamiento DC 9–95 V; batería de respaldo integrada de 300 mAh \(3.7 V\) de polímero para reportes de emergencia |
-| Interfaces | Entrada de detección ACC/ignición; salida de relé para control de corte/restauración \(hardware de relé opcional\); J16Wm añade micrófono y entrada SOS |
-| GNSS | Receptor de alta sensibilidad Zhongke Micro AT6558R — GPS + BeiDou, hasta 32 canales, precisión de posicionamiento \<10 m \(1σ\) |
-| GNSS Performance | Cold start ~32 s; hot start ~1 s; sensibilidad hasta −162 dBm |
-| Current Consumption | Corriente de reposo ≈10 mA @12 V; corriente en funcionamiento ≈35 mA @12 V |
-| SIM & Antenna | Soporte para nano SIM; antenas FPC y dieléctrica cerámica integradas para celular y GNSS |
-| Protocol & Management | GT06 por defecto; protocolos opcionales JT808, Tianhe, TQ, Tianqin, Hy o protocolos OEM privados. Configurable vía SMS, software para PC, ajustes de la línea de producción; seguimiento GPRS soportado |
-| Protection & Env. | Resistente al agua IP67; rango de temperatura de operación −20°C a 75°C; almacenamiento −30°C a 80°C |
-| Form Factor | Tamaño de la carcasa 82 × 36 × 17 mm; peso 55 g; carcasa compacta de grado automotriz |
+- Gestión de flotas para autobuses, camiones y vehículos de servicio que requieren visibilidad continua de ubicación y estado.
+- Seguridad vehicular y operaciones anti robo mediante monitoreo de ignición y control de inmovilizador por relé.
+- Respuesta remota a incidentes donde la señal SOS y el contexto de audio se integran en los flujos de trabajo de operadores.
+- Seguimiento de vehículos pequeños y motocicletas donde el tamaño compacto y el amplio soporte de voltaje son ventajosos.
+- Flujos operativos que dependen del almacenamiento offline y la reconciliación posterior de telemetría para informes.
 
-## Use Cases
+## ¿Por qué elegir este rastreador con Plaspy?
 
-- Gestión de flotas — seguimiento en tiempo real, reproducción de rutas y telemetría para autobuses, camiones y flotas de servicios.
-- Seguridad del vehículo y anti-robo — monitoreo de ignición más inmovilizador basado en relé o corte controlado de combustible/circuitos para proteger activos de alto valor.
-- Monitoreo remoto y respuesta a incidentes — SOS y micrófono en el J16Wm permiten a los operadores recibir alertas de emergencia y contexto de voz a través de Plaspy.
-- Flujos de trabajo de monitoreo de combustible — control por relé y telemetría para apoyar procedimientos operativos de corte/restauración de combustible y rutinas de prevención de robo.
-- Rastreo de vehículos pequeños y e-bikes — amplio rango de voltaje y formato compacto hacen del J16W una opción adecuada para motocicletas y vehículos eléctricos ligeros.
+El J16W es una opción práctica para organizaciones que necesitan un rastreador vehicular resistente que entregue datos de posición y estado confiables a Plaspy. Su carcasa duradera, amplia cobertura celular y almacenamiento integrado reducen las brechas de datos y facilitan la monitorización continua en distintos tipos de vehículos. Las variantes con soporte SOS y micrófono aportan capacidades útiles para el manejo de incidentes cuando se combinan con las funciones de alertas y gestión de Plaspy.
 
-## Why Choose This Tracker with Plaspy
-
-El J16W es una opción práctica para organizaciones que necesitan un rastreador GPS confiable, compatible con Plaspy, que soporte condiciones reales. Su carcasa con clasificación IP67, su tolerancia a un amplio rango de voltaje y su batería de respaldo integrada reducen el tiempo de inactividad y los huecos de datos. Combinado con las capacidades de la plataforma de Plaspy, el J16W ofrece telemetría accionable, controles de ignición e inmovilizador y un buffering offline fiable para que los gestores de flotas obtengan una visión continua de la ubicación y el estado de los vehículos.
-
-Para implementaciones que requieren protocolos personalizados, branding o cambios de hardware, el J16W admite servicios OEM/ODM y múltiples protocolos de comunicación, para que los integradores puedan adaptar el comportamiento del dispositivo a flujos de trabajo específicos de Plaspy. Si necesita un rastreador GPS compacto y preciso para la gestión de flotas, protección anti-robo y telemetría robusta que alimenta directamente Plaspy, el J16W está diseñado para satisfacer esas necesidades sin complejidad innecesaria.
-
+Para saber más sobre cómo Plaspy puede usar rastreadores compatibles como el ThingSys J16W visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por favor verifique los detalles técnicos y las características de las variantes en el sitio del fabricante https://www.thingsys.com/.

@@ -2,60 +2,62 @@
 slug: /autoseeker/at_7
 id: at_7
 sidebar_label: AT-7
+title: Autoseeker - AT-7
 sidebar_class_name: menu_item_tracker
+description: Compact card style Autoseeker AT 7 GPS tracker compatible with Plaspy for personal safety pet and asset tracking with geofencing and alerts
+keywords:
+  - Autoseeker AT 7
+  - AT 7 tracker
+  - Autoseeker tracker
+  - AT 7 Plaspy compatible
+  - AT 7 GPS
+  - card GPS tracker
+  - pet tracker
+  - child safety tracker
+  - elderly care tracker
+  - asset tracking
 ---
+
 # Autoseeker - AT-7
 
 ![AT-7](./tracker.jpg)
 
-# AT-7 4G Card GPS Tracker
+The Autoseeker AT-7 is a compact card style 4G GPS tracker designed for everyday carry and lightweight monitoring. It combines multi constellation positioning (GPS BDS AGPS LBS) with high sensitivity satellite reception and cellular connectivity to provide consistent location updates in mixed urban and indoor environments. The device includes practical features such as geofencing SOS and vibration alarms motion detection offline data caching and remote firmware upgrade to support continuous tracking and alerting.
 
-The AT-7 4G Card GPS Tracker is a compact, card-style GPS tracker designed for Plaspy compatible deployments focused on student safety, elderly care, and pet monitoring. Its multi-constellation positioning \(GPS + BDS + AGPS + LBS\) and high-sensitivity GNSS hardware provide reliable real-time tracking in urban canyons and mixed indoor/outdoor environments, while 4G LTE and legacy GSM support ensures wide cellular coverage for continuous connectivity.
-
-Built for easy everyday carry—about 40 g and credit-card sized—the AT-7 integrates geofencing, emergency and vibration alarms, motion detection, offline data caching and remote firmware upgrade to deliver practical telemetry and alerting through the Plaspy platform. Organisations and families using Plaspy compatible trackers can deploy the AT-7 to get fast location fixes, instant zone alerts, and a history of tracks for up to 180 days.
+As a Plaspy compatible device the AT-7 can integrate into Plaspy deployments for real time monitoring and historical review. Its form factor and feature set make it suitable for family safety programs pet tracking and small item monitoring while the platform integration enables centralized visibility geofence management and alarm routing through Plaspy dashboards and notification channels.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker in a slim, card-style form factor—easy to carry in a wallet or mount on a pet collar.
-- Multi-constellation positioning \(GPS + BDS + AGPS + LBS\) with a high-sensitivity ceramic antenna for faster satellite acquisition and improved accuracy.
-- 4G LTE \(FDD & TDD\) plus GSM fallback and CAT-1 optimized data for efficient, low-power real-time tracking.
-- Geofencing and instant alerts for enter/exit events, plus SOS and vibration alarms that notify monitoring numbers and upload events to Plaspy servers.
-- Built-in 3-axis accelerometer for motion and posture detection to support telemetry, activity alerts, and intelligent power saving.
-- Offline FLASH storage caches location points in blind zones and automatically uploads missing data when connectivity resumes; historical tracking retained on the platform for up to 180 days.
-- IP65-rated enclosure for everyday splash and dust resistance—suitable for personal, family and pet tracking applications.
+- Slim card style design roughly credit card sized and lightweight for discreet everyday use.
+- Multi constellation positioning for faster fixes and improved reliability in challenging signal environments.
+- 4G connectivity with cellular fallback to maintain wide area coverage for location updates.
+- Geofencing plus SOS and vibration alarms to support instant notifications and timely response.
+- Onboard motion detection and accelerometer based events to drive activity alerts and power saving.
+- Offline flash storage preserves tracking points during connectivity gaps and uploads missing data when service resumes.
+- IP65 rated enclosure for splash and dust resistance suitable for personal and pet applications.
 
 ## How It Works with Plaspy
 
-The AT-7 feeds Plaspy with continuous location and event data using TCP/IP domain or IP connections over cellular networks. Once the device is registered in Plaspy, the platform receives real-time tracking updates, alert notifications and historical tracks. Plaspy-compatible integration makes it straightforward to set geofences, configure alarm recipients, and view telemetry on dashboards and mobile apps.
+When registered in Plaspy the AT-7 delivers location points and event messages to the platform so fleets families or monitoring teams can view live positions and receive alerts. Plaspy stores historical tracks and presents device telemetry in dashboards and reports, enabling operational oversight and quick reaction to alarms.
 
-- Real-time location and telemetry updates \(multi-constellation GNSS and cellular positioning\).
-- Geofence enter/exit alerts and instant SOS/vibration alarm reporting to Plaspy dashboards and designated phone numbers.
-- Offline data caching with automatic supplementary upload when cellular connectivity restores—ensures continuous track history on Plaspy.
-- Remote configuration and online firmware upgrade \(FOTA\) through the platform for centralized device management.
-- Retains historical tracking data on the service platform for up to 180 days to support review and reporting.
+- Real time location updates and telemetry visible on Plaspy maps and device lists.
+- Geofence enter and exit alerts plus SOS and vibration alarm notifications routed to designated contacts and platform users.
+- Offline caching ensures continuous track history on Plaspy by uploading stored points when connectivity is restored.
+- Remote configuration and online firmware update support for centralized device management through the platform.
+- Historical route retention on Plaspy to assist review reporting and audit of past movements.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE \(FDD/TDD\) with legacy GSM; CAT-1 data transmission and TCP/IP \(domain/IP\) server connection |
-| --- | --- |
-| Bands | LTE-FDD B1/B3/B5/B8; LTE-TDD B34/B38/B39/B40/B41; GSM 850/900/1800/1900 MHz |
-| Power & Battery | Built-in rechargeable backup battery — 700mAh \(3.7V polymer\) per technical specification; operating voltage DC 3.4–4.5 V; working current ~60 mA \(4V average\); standby ~5 mA \(4V average\) |
-| Interfaces | Device-level I/O not specified in the provided description; primary operation via cellular/GNSS and onboard sensors |
-| GNSS | GPS + BDS + AGPS + LBS; ZKW GPS chipset; ceramic antenna; hot/warm/cold start ~1s / ~30s / ~35s \(average\) |
-| Bluetooth | Not specified for AT-7 in provided materials |
-| Remote Management | Remote configuration and online firmware upgrade \(FOTA\) supported |
-| Form Factor | Card-style compact tracker, approx. 81.2 × 54.2 × 6.5 mm; weight ~40 g; IP65 waterproof rating |
-
-## Use Cases
-
-- Child safety and student roll-call positioning — parents and institutions can receive real-time location and zone alerts through Plaspy.
-- Elderly care and vulnerable-person monitoring — motion detection, posture alerts and SOS reporting support timely assistance.
-- Pet tracking — lightweight design and durable casing make the AT-7 suitable for collars and outdoor activity monitoring.
-- Small-item or personal-asset tracking — card form factor fits wallets, bags or equipment to provide basic anti-theft tracking and historical routes.
+- Child safety and student tracking for roll call and location awareness in school or transit scenarios.
+- Elderly care monitoring with motion alerts SOS notifications and location visibility for caregivers.
+- Pet tracking for collars and lightweight outdoor monitoring of activity and location.
+- Small item or personal asset tracking such as wallets bags or portable equipment for basic loss prevention.
+- Community programs and private organizations that need compact trackers for non vehicle assets and people monitoring.
 
 ## Why Choose This Tracker with Plaspy
 
-The AT-7 offers a balance of compact design, multi-constellation positioning and reliable cellular connectivity that pairs cleanly with Plaspy compatible platforms. For organizations and families prioritizing real-time tracking, geofence alerts and lifesaving SOS notifications, the AT-7 delivers consistent telemetry and offline data handling so records are preserved through connectivity gaps. Plaspy’s dashboards and mobile apps translate the device’s location, accelerometer events and alarm messages into actionable alerts and reports.
+The AT-7 pairs a small unobtrusive form factor with features that matter for personal safety and light asset monitoring. Its combination of multi constellation GNSS cellular connectivity and onboard event detection makes it a practical option for organizations and families that want straightforward location reporting and reliable alerting surfaced by Plaspy.
 
-Plaspy users who require advanced fleet management or vehicle-specific functions should note that platform features such as ignition, immobilizer control, fuel monitoring or Bluetooth sensors are available at the Plaspy platform level and can be used when a device provides the necessary inputs and interfaces. The AT-7 is optimized for personal and pet applications, supplying the core GPS tracker and telemetry features that matter for safety monitoring and lightweight asset tracking.
+Choosing the AT-7 for use with Plaspy provides centralized visibility and historical record keeping without requiring vehicle grade hardware. For users focused on student safety pet monitoring or vulnerable person oversight the AT-7 supplies core telemetry and alarm functions that integrate into Plaspy workflows and reporting.
 
+To learn more about Plaspy and how compatible devices are managed please visit https://www.plaspy.com. Product specifications availability and manufacturer details can change over time so verify current technical information on the official Autoseeker site https://autoseekergps.com/.

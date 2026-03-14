@@ -2,62 +2,61 @@
 slug: /sinotrack/st_901al
 id: st_901al
 sidebar_label: ST-901AL
+title: SinoTrack - ST-901AL
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular cableado SinoTrack ST-901AL 4G LTE compatible con Plaspy para seguimiento en tiempo real, detección de ignición y control remoto de inmovilizador
+keywords:
+  - SinoTrack ST-901AL
+  - ST-901AL
+  - rastreador SinoTrack
+  - ST-901AL Plaspy
+  - GPS 4G
+  - rastreador vehicular
+  - seguimiento de flotas
+  - inmovilizador remoto
+  - detección de ignición
+  - rastreo GPRS SMS
 ---
+
 # SinoTrack - ST-901AL
 
 ![ST-901AL](./tracker.jpg)
 
-El SinoTrack ST-901AL es un rastreador GPS con cable 4G LTE diseñado para un monitoreo y seguridad fiables de vehículos. Diseñado para instalaciones profesionales, el ST-901AL informa la ubicación vía GPRS y SMS, incluye una entrada ACC \(encendido\) para telemetría precisa del motor encendido/apagado y admite corte remoto a través de un relé externo — convirtiéndolo en una excelente opción para despliegues compatibles con Plaspy que requieren seguimiento en tiempo real y control antirrobo.
+El SinoTrack ST-901AL es un rastreador GPS cableado 4G LTE diseñado para ofrecer monitoreo vehicular y seguridad confiables. Orientado a instalaciones profesionales, el ST-901AL reporta posición vía GPRS y SMS, dispone de una entrada ACC para telemetría de encendido/apagado, y soporta corte remoto mediante un relé externo. Estas características lo hacen adecuado para organizaciones que requieren seguimiento continuo y controles antirrobo en autos, camiones, motocicletas y vehículos similares.
 
-El dispositivo es compatible con Plaspy porque expone ajustes configurables de IP/puerto y APN y admite protocolos estándar de reporte por SMS/GPRS, lo que permite una integración fluida con plataformas de terceros como Plaspy, así como con la propia app SinoTrack PRO y el portal web VIP.SINOTRACK de SinoTrack. Los clientes pueden instalar su propia SIM, configurar credenciales APN y activar el seguimiento en línea mediante comandos SMS para una configuración rápida en el campo.
+Este modelo es compatible con Plaspy porque permite la configuración de APN y ajustes de servidor, y soporta los métodos estándar de reporte por SMS y GPRS. Con sus comandos SMS documentados y la posibilidad de instalar una tarjeta SIM por el usuario, usted puede apuntar el ST-901AL hacia Plaspy para seguimiento en tiempo real, notificaciones y supervisión de flotas, facilitando la integración con plataformas de terceros.
 
 ## Principales características
 
-- Rastreador GPS con cable 4G LTE compatible con quad-band GSM para soporte de red amplio y seguimiento en tiempo real constante.
-- Entrada ACC para detección de encendido y telemetría precisa del estado del motor, mejorando los informes para la gestión de flotas y el análisis de uso.
-- Capacidad de inmovilización remota mediante un relé externo para cortar circuitos de combustible o energía, con fines antirrobo y respuesta ante uso no autorizado.
-- Múltiples canales de reporte: ubicación en tiempo real vía GPRS y SMS para una conectividad resiliente en diversas condiciones de red.
-- Ajustes configurables de IP/puerto y APN, además de comandos SMS documentados para una integración rápida con Plaspy u otras plataformas de rastreo.
-- Acceso gratuito de por vida a la app móvil SinoTrack PRO y al portal web VIP.SINOTRACK \(la SIM no está incluida\) para la gestión opcional de la plataforma.
-- Guía de instalación y referencias de cableado ilustradas disponibles para coches, motocicletas y una amplia gama de tipos de vehículos.
+- Rastreador cableado 4G LTE con respaldo GSM de cuatro bandas para amplia cobertura móvil y reportes estables.
+- Entrada ACC para una detección fiable de la ignición y mejor registro de eventos de encendido y apagado del motor.
+- Soporte para inmovilizador remoto a través de un relé externo, que permite cortar suministro de combustible o energía como respuesta antirrobo.
+- Canales de reporte duales: GPRS en tiempo real y SMS como respaldo para una conectividad más resiliente.
+- Configuración de APN y servidor, además de comandos SMS documentados para integración con Plaspy y otras plataformas.
+- Acceso opcional a la app móvil SinoTrack PRO y al portal web VIP.SINOTRACK como alternativas de gestión del dispositivo.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el ST-901AL envía datos de ubicación y alarmas a través de GPRS al IP/puerto de servidor configurados. Dado que el rastreador admite ajustes configurables de APN y servidor vía SMS, puedes dirigir el tráfico del dispositivo al punto de ingesta de Plaspy y recibir seguimiento en tiempo real, alertas y telemetría en el panel de Plaspy o mediante las API de Plaspy.
+Al integrarlo con Plaspy, el ST-901AL envía datos de ubicación y eventos a la dirección de servidor configurada y utiliza SMS como canal de respaldo cuando es necesario. Dado que el dispositivo permite configurar APN y servidor por SMS, los instaladores y gestores de flota pueden dirigir el tráfico de los dispositivos hacia Plaspy y recibir seguimiento, alertas y telemetría dentro de la plataforma.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía GPRS \(primario\) y SMS \(alternativo\) para visibilidad continua.
-- Detección ACC \(encendido\) — Plaspy puede utilizar eventos de encendido para crear informes basados en el encendido y analítica de tiempo de conducción.
-- Control remoto del inmovilizador/rela — activar un corte de combustible o energía mediante comandos emitidos por Plaspy \(se requiere cableado de relé externo y las comprobaciones de seguridad/legalidad correspondientes\).
-- Notificaciones de alarmas y eventos — exceso de velocidad, violaciones de números autorizados y los intervalos de guardado de datos de detención/inicio se reportan y pueden convertirse en alertas de Plaspy.
-- Configuración de la plataforma por SMS — los dispositivos pueden cambiar su destino hacia Plaspy enviando las secuencias SMS documentadas para configurar APN, IP/puerto del servidor.
+- Actualizaciones de ubicación en tiempo real vía GPRS, con SMS como alternativa para mantener la visibilidad en condiciones variables.
+- Detección de ignición mediante la entrada ACC, lo que permite a Plaspy generar informes de tiempo de conducción y análisis de encendido/apagado del motor.
+- Control remoto del inmovilizador a través de la salida de relé, que Plaspy puede activar como parte de un flujo de trabajo antirrobo donde la normativa local lo permita.
+- Notificaciones de alarma y eventos como exceso de velocidad y uso no autorizado, que pueden convertirse en alertas y acciones dentro de Plaspy.
+- Configuración remota por SMS para reorientar APN y ajustes de servidor, facilitando el aprovisionamiento en campo y el redepliegue rápido.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | SinoTrack ST-901AL |
-| --- | --- |
-| Conectividad | 4G LTE \(con fallback GSM cuádruple banda\), informes por SMS y GPRS |
-| Bandas | GSM cuádruple banda y redes 4G compatibles \(soporte de red específico del modelo\) |
-| Alimentación & Batería | Alimentación por vehículo con cable; no se especifica batería interna en la documentación \(diseñado para cableado en línea\) |
-| Interfaces | Entrada ACC \(encendido\); salida de control de relé para corte remoto \(se requiere relé externo\); configuración de número autorizado vía SMS |
-| GNSS | Posicionamiento por satélite GPS con reporte en tiempo real \(se admite reporte de ubicación por GPS/GPRS/SMS\) |
-| Bluetooth | No se indican sensores Bluetooth/BLE para este modelo |
-| Gestión remota | Comandos de configuración por SMS para APN, IP/puerto del servidor y manejo de IMEI; compatible con SinoTrack PRO y VIP.SINOTRACK \(servidor predeterminado VIP.SINOTRACK; ejemplo IP 45.112.204.242:8090\) |
-| SIM & APN | Tarjeta SIM no incluida — se requieren ajustes de APN y configuraciones de operador por parte del usuario |
-| Garantía & Soporte | Garantía de 2 años proporcionada por el fabricante y soporte de instalación/configuración 24 horas |
-| Factor de forma | Rastreador de vehículo compacto con cable para instalación en línea \(coches, camiones, motocicletas, scooters\) |
-
-## Casos de uso
-
-- Gestión de flotas: supervisar la ubicación de vehículos, horarios de encendido y eventos de exceso de velocidad para taxis, camiones de reparto y flotas de servicio.
-- Protección antirrobo: utilizar el relé externo para deshabilitar de forma remota el suministro de combustible o energía en vehículos robados o mal usados cuando se coordina con alertas de Plaspy.
-- Monitoreo de vehículos privados: configuración sencilla para coches o motocicletas para rastrear recorridos y recibir notificaciones de alarma en tiempo real.
-- Gestión de dos ruedas y micromovilidad: instalaciones con cableado y pautas de montaje hacen que ST-901AL sea adecuado para e-bikes y scooters con alimentación eléctrica en línea.
-- Informes basados en telemetría: eventos de encendido y datos intermedios guardados mientras está detenido proporcionan archivos telemáticos más completos para análisis operativos.
+- Gestión de flotas para taxis, vehículos de reparto y flotas de servicio que requieren monitoreo de ubicación, ignición y eventos.
+- Flujos de trabajo antirrobo que combinan alertas en tiempo real con acciones de inmovilizador remoto para responder ante uso no autorizado.
+- Monitoreo de vehículos particulares para propietarios que desean seguimiento en tiempo real y notificaciones de alarma.
+- Gestión de motocicletas y soluciones de micromovilidad donde se requiere un rastreador cableado para alimentación estable y reportes consistentes.
+- Informes operativos que aprovechan eventos de ignición y datos interinos guardados para análisis de uso.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El SinoTrack ST-901AL es una opción práctica y compatible con Plaspy para organizaciones e individuos que requieren seguimiento en tiempo real confiable y control antirrobo sin quedar atados a suscripción. Dado que el dispositivo admite APN y configuración de IP/puerto del servidor vía SMS, se integra de forma limpia con Plaspy u otros sistemas back-end, brindando a los gestores de flotas e instaladores flexibilidad al implementar telemetría, flujos de monitoreo de combustible e informes basados en el encendido.
+El ST-901AL es una opción práctica para organizaciones e instaladores que valoran un rastreador cableado y de grado profesional que pueda integrarse en una plataforma de terceros. Su soporte para configuración de APN y servidor, junto con los métodos estándar de reporte por GPRS y SMS, ofrece a los gestores de flota la flexibilidad de usar la SIM y el backend de su preferencia, incluyendo Plaspy, sin quedar atados a un solo portal.
 
-Elija el ST-901AL cuando necesite un rastreador GPS con cable, de grado profesional, con métodos de reporte probados \(GPRS/SMS\), detección ACC/encendido y capacidad de inmovilizador controlado por relé, respaldados por la documentación del fabricante, guías de instalación y una garantía de dos años. Para los usuarios de Plaspy, esto significa una incorporación rápida, telemetría predecible y una ruta segura para implementar flujos antirrobo y gestión de flotas, manteniendo el control sobre la selección de la SIM y la configuración de APN.
+Para los usuarios de Plaspy, el ST-901AL proporciona canales de telemetría previsibles, datos basados en la ignición y la capacidad de controlar un inmovilizador mediante relé, lo que respalda flujos de trabajo comunes de seguridad y gestión de flotas. Su diseño orientado a la instalación y la documentación del fabricante ayudan a agilizar el despliegue en flotas mixtas, mientras Plaspy centraliza el monitoreo, las alertas y los informes.
 
+Para obtener más información sobre cómo Plaspy puede trabajar con dispositivos como el ST-901AL visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información actual en el sitio oficial del fabricante https://www.sinotrackgps.com/.

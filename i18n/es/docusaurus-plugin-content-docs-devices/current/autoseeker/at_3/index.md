@@ -2,58 +2,61 @@
 slug: /autoseeker/at_3
 id: at_3
 sidebar_label: AT-3
+title: Autoseeker - AT-3
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto IP67 para mascotas Autoseeker AT-3 compatible con Plaspy, con ubicación en tiempo real, alertas de geocerca, zumbador y reproducción de rutas
+keywords:
+  - Autoseeker AT-3
+  - rastreador GPS AT-3
+  - Autoseeker AT3
+  - rastreador GPS para mascotas
+  - rastreador GPS 4G
+  - compatible con Plaspy
+  - rastreo en tiempo real
+  - alertas de geocerca
+  - rastreador con zumbador y LED
+  - rastreador IP67 para mascotas
 ---
+
 # Autoseeker - AT-3
 
 ![AT-3](./tracker.jpg)
 
-El AT-3 4G GPS Pet Tracker es un rastreador GPS compacto y resistente a la intemperie, diseñado para mantener a los perros y otras mascotas seguras gracias al rastreo en tiempo real compatible con Plaspy. Basado en conectividad 4G LTE Cat-1 y soporte multibanda, el AT-3 ofrece telemetría y actualizaciones de ubicación fiables y de bajo consumo que se integran con Plaspy para mapas en vivo, alertas y reproducción de rutas históricas.
+El Autoseeker AT-3 es un rastreador GPS compacto y resistente al clima, diseñado para seguimiento fiable en exteriores de perros y otros animales. Con conectividad celular multibanda y consumo de energía optimizado, el AT-3 ofrece actualizaciones continuas de posición y funciones básicas de recuperación, como un zumbador y un LED para facilitar la localización en campo. Su carcasa de ABS robusta y su formato pensado para collar o arnés lo hacen adecuado para paseos diarios, salidas activas y uso en refugios.
 
-Ligero y resistente con una carcasa de ABS con clasificación IP67 y una batería recargable de 700mAh, el AT-3 está optimizado para montaje en collar o arnés. Su combinación de rastreo en tiempo real, zumbador y ayudas de localización mediante LED, alarmas de geocerca y alertas de bajo consumo lo convierten en una opción práctica para propietarios de mascotas, refugios y operaciones de cuidado animal que utilizan una infraestructura de rastreo compatible con Plaspy.
+Como dispositivo compatible con Plaspy, el AT-3 envía telemetría de ubicación y estado a la plataforma Plaspy para visualización en mapas en vivo, alertas configurables y reproducción histórica de rutas. La integración con Plaspy permite a propietarios y equipos de cuidado monitorear animales en tiempo real, recibir notificaciones de geocercas y batería baja, y revisar trayectos para análisis posterior, todo dentro de un flujo de seguimiento centralizado.
 
-## Aspectos clave
+## Aspectos destacados
 
-- Rastreo en tiempo real compatible con Plaspy sobre 4G LTE Cat-1 para ubicación y telemetría continuas de baja latencia.
-- Larga autonomía en modo de espera: hasta siete días en condiciones normales, con una celda de respaldo de polímero recargable de 700 mAh.
-- Caja de ABS resistente al agua y al polvo con IP67 para un uso fiable al aire libre durante paseos, senderismo y exposición ligera al agua.
-- Zumbador y LED integrados para localización rápida de la mascota y señales visuales/sonoras desde la app o consola web de Plaspy.
-- Alarmas de geocerca y notificaciones de batería baja configurables a través de Plaspy para una protección proactiva de la mascota.
-- Formato compacto y ligero diseñado para montaje en collar o arnés con carga magnética segura.
-- La reproducción del historial permite a los propietarios y cuidadores revisar recorridos y eventos para una mejor conciencia situacional dentro de Plaspy.
+- Rastreo en tiempo real compatible con Plaspy mediante 4G LTE Cat-1 para actualizaciones continuas de ubicación y telemetría oportuna.
+- Larga autonomía en modo espera gracias a una batería recargable de 700 mAh que soporta uso prolongado entre cargas.
+- Carcasa de ABS con certificación IP67 para resistencia al agua y al polvo en entornos exteriores.
+- Zumbador y LED integrados como ayudas de recuperación que pueden activarse desde la interfaz de Plaspy.
+- Alarmas de geocerca y notificaciones de batería baja configurables y visibles en los paneles de Plaspy.
+- Diseño compacto y ligero pensado para montaje en collar o arnés y uso cotidiano.
+- Reproducción de historial disponible en Plaspy para revisar rutas y eventos después de una salida.
 
 ## Cómo funciona con Plaspy
 
-El AT-3 transmite fijaciones de posición GNSS y telemetría de estado a través de redes celulares para ser ingeridas por la plataforma de Plaspy. Una vez que los dispositivos están registrados en Plaspy, los puntos de ubicación, el nivel de batería y las señales de eventos \(p. ej., entradas/salidas de geocerca y batería baja\) aparecen en tiempo real en mapas y paneles. Las alertas, informes y reproducción histórica compatibles con Plaspy permiten a los propietarios y operadores monitorear a los animales, recibir notificaciones y actuar con rapidez cuando sea necesario.
+Al registrarse en Plaspy, el AT-3 transmite fijaciones de posición GNSS y el estado del dispositivo a través de redes celulares hacia los servidores de Plaspy. Plaspy muestra los puntos de ubicación en los mapas y destaca eventos y alertas relevantes para que los cuidadores puedan actuar con rapidez. Esta combinación de seguimiento en el dispositivo y los servicios de plataforma de Plaspy proporciona visibilidad continua y supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real para rastreo en vivo y monitoreo del estado en Plaspy.
-- Eventos de alarma de geocerca enviados a Plaspy para notificaciones instantáneas cuando una mascota cruza límites predefinidos.
-- Activación remota del zumbador y LED a través de las interfaces de Plaspy para facilitar la localización de animales ocultos o perdidos.
-- Reproducción del historial y revisión de rutas para análisis posterior al evento y registros de entrenamiento.
-- Alertas de batería baja reenviadas a Plaspy para que los cuidadores programen recargas y eviten tiempos de inactividad.
-- Diseñado para telemetría y ubicación de mascotas: no incluye interfaces de arranque, inmovilizador o monitoreo de combustible propios de vehículos.
+- Las ubicaciones y la telemetría en tiempo real aparecen en los mapas de Plaspy para monitorización en vivo.
+- Los eventos de entrada y salida de geocercas se envían a Plaspy para notificaciones instantáneas a los responsables.
+- El zumbador y el LED pueden activarse de forma remota desde Plaspy para facilitar la recuperación.
+- La reproducción de historial y la revisión de rutas en Plaspy permiten analizar movimientos e incidentes pasados.
+- Las alertas de batería baja se envían a Plaspy para que los equipos programen recargas y reduzcan tiempos de inactividad.
+- El estado del dispositivo y las banderas de eventos se integran en los paneles e informes de Plaspy para una gestión centralizada.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE-FDD \(Cat-1\) con respaldo GSM |
-| --- | --- |
-| Bandas | LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B28/B66; GSM: B2/B3/B5/B8 \(850/900/1800/1900 MHz\) |
-| Alimentación y Batería | Voltaje de operación DC 3.4V–4.5V; corriente de funcionamiento promedio 55mA @ 4V; en reposo 5mA; sleep 3mA. Batería de respaldo: 700mAh \(3.7V\) de celda de polímero. Carga magnética compatible. |
-| Interfaces | Zumbador y función de LED integrados. \(Entradas/salidas externas como arranque o inmovilizador no aplican.\) |
-| GNSS | Chipset GPS ZKW AT6558D para posicionamiento y registro de rutas. |
-| Bluetooth | No especificado |
-| Gestión remota | Compatible con apps para smartphones y plataformas web para rastreo en vivo, alertas y reproducción de historial; se integra con Plaspy para la gestión centralizada de dispositivos. |
-| Forma | Carcasa de plástico ABS, clasificación IP67. Dimensiones: aprox. 75.8 x 37.6 x 19 mm \(30 mm sin orejas de montaje\). Peso: ~50 g. Diseñado para montaje en collar o arnés. |
-
-## Casos de uso
-
-- Paseos diarios y aventuras al aire libre — rastreador GPS en tiempo real y zumbador/LED que ayudan a localizar a las mascotas en senderos y parques.
-- Perros de entrenamiento y caza — reproducción de historial y rastreo en tiempo real mediante Plaspy para revisión de rendimiento y supervisión de seguridad.
-- Empresas de cuidado de mascotas y refugios — gestionan múltiples animales con telemetría compatible con Plaspy para ubicación, estado y alertas.
-- Operaciones veterinarias de campo y rescates — dispositivo compacto y resistente a la intemperie para rastrear animales durante el transporte y búsquedas en campo.
-- Monitoreo de animales sueltos o sin correa — alarmas de geocerca proporcionan notificaciones automáticas cuando las mascotas salen de las zonas seguras.
+- Paseos diarios y actividades al aire libre donde la ubicación en vivo y las ayudas de recuperación aumentan la seguridad de la mascota.
+- Perros de trabajo y entrenamiento en los que el historial de rutas y el rastreo en tiempo real apoyan la revisión del desempeño.
+- Refugios y servicios de cuidado de animales que requieren monitoreo centralizado de múltiples animales.
+- Servicios veterinarios de campo y operaciones de rescate que necesitan un rastreador compacto y resistente al clima.
+- Escenarios de libertad sin correa y de roaming donde las alertas de geocerca entregan notificaciones automáticas de límites.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el AT-3 como rastreador GPS compatible con Plaspy ofrece a los dueños de mascotas y a las organizaciones de cuidado animal una solución enfocada para un rastreo en tiempo real fiable y de bajo consumo y telemetría. La radio 4G LTE Cat-1 multibanda garantiza una amplia cobertura celular para actualizaciones en tiempo real, mientras que la carcasa ABS con clasificación IP67 y la carga magnética simplifican el uso diario. La integración con Plaspy lleva esos puntos de ubicación y alertas a un panel único, permitiendo monitoreo centralizado, gestión de geocercas y análisis histórico, útil tanto si gestionas un perro como si administras un grupo en una instalación. Diseñado expresamente para animales, el AT-3 pone énfasis en funciones de recuperación, eficiencia de batería y portabilidad robusta, más que en telemetría específica de vehículos como arranque o monitoreo de combustible, lo que lo convierte en una opción práctica y fiable para rastreo centrado en mascotas en la plataforma Plaspy.
+El AT-3 es una solución enfocada en el seguimiento para mascotas que equilibra un diseño duradero con operación de bajo consumo. Sus funciones de recuperación y su carcasa resistente al clima son prácticas para entornos de cuidado animal, mientras que la conectividad celular multibanda ayuda a mantener actualizaciones consistentes cuando se utiliza con una plataforma compatible como Plaspy. Al combinar el AT-3 con Plaspy, organizaciones y propietarios pueden consolidar datos de ubicación, alertas y registros históricos en una sola plataforma para una supervisión más sencilla.
 
+Para conocer más sobre cómo Plaspy puede gestionar dispositivos Autoseeker y otros rastreadores compatibles, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y el soporte actuales en el sitio del fabricante https://autoseekergps.com/.

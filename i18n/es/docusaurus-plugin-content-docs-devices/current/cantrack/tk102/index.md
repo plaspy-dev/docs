@@ -2,25 +2,59 @@
 slug: /cantrack/tk102
 id: tk102
 sidebar_label: TK102
+title: CanTrack - TK102
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS CanTrack TK102 compatible con Plaspy para seguimiento de personas y vehículos con ubicación en tiempo real y alertas
+keywords:
+  - CanTrack TK102
+  - Rastreador GPS TK102
+  - Rastreador CanTrack
+  - Compatible con Plaspy
+  - Seguimiento GPS
+  - Seguimiento de vehículos
+  - Rastreador personal
+  - Seguimiento en tiempo real
+  - Geocercas
+  - Vigilancia por voz
 ---
+
 # CanTrack - TK102
 
 ![TK102](./logo.jpg)
 
-El rastreador GPS CanTrack TK102 es un dispositivo compacto y fácil de usar que utiliza la tecnología de satélite GSM/GPRS y GPS para localizar y supervisar de forma remota cualquier objetivo. Diseñado tanto para el seguimiento personal como para vehículos, este rastreador cuenta con un módulo GPS y GSM que captura los datos de ubicación y los envía al número de teléfono autorizado a través de SMS. Puede mostrar la ubicación actual en su teléfono o realizar un seguimiento en tiempo real en Google Earth o Google Maps. Además, los datos GPS también se pueden transmitir por GPRS a un servidor de Internet, lo que permite un seguimiento en tiempo real en un ordenador.
+El CanTrack TK102 es un rastreador GPS compacto y versátil, pensado tanto para seguimiento personal como para vehículos. Emplea satélites GPS para la localización y la red GSM GPRS para enviar datos de posición y alertas. El dispositivo puede remitir actualizaciones de ubicación vía SMS a números autorizados y también transmitir datos por GPRS a un servidor en internet para seguimiento y monitoreo en tiempo real.
 
-El CanTrack TK102 es ideal para una variedad de aplicaciones, como la gestión de flotas de vehículos de alquiler, la protección de niños, personas mayores, personas con discapacidad o mascotas, y proporciona tranquilidad a los hombres de negocios. También se puede utilizar para la gestión de personal, el seguimiento encubierto de delincuentes y el seguimiento oculto gracias a su tapa magnética y bolsa a prueba de agua.
+Como equipo compatible con Plaspy, el TK102 puede enviar posiciones y eventos de alarma a Plaspy para ofrecer visibilidad centralizada y supervisión operativa. Plaspy puede recibir los datos transmitidos por GPRS desde el TK102 y mostrarlos en mapas, integrar los eventos en flujos de notificación y almacenar el historial de rastreo para reportes y auditorías. Esa combinación convierte al TK102 en una opción práctica para quienes buscan un rastreador sencillo con una ruta clara hacia un sistema de monitoreo de flotas y activos.
 
-Características destacadas del CanTrack TK102:
+## Puntos clave
 
-- Seguimiento en tiempo real: conozca la ubicación de su vehículo en cualquier momento y en cualquier lugar.
-- Seguimiento continuo: envía datos de seguimiento cada 30 segundos.
-- Vigilancia de voz a distancia: marque el número del dispositivo para escuchar el sonido alrededor del dispositivo.
-- Geo-cerca: reciba una alarma cuando el dispositivo salga de una zona predefinida.
-- Alarma de movimiento: reciba una alarma cuando el vehículo se mueva de un lugar predefinido.
-- Alarma de exceso de velocidad: reciba una alarma cuando la velocidad de conducción supere un valor predefinido.
-- Alarma SOS: envíe una alarma de emergencia al presionar el botón de SOS.
-- Alarma de baja tensión: reciba una alarma cuando la tensión de la batería sea baja.
-- Soporte de tarjeta TF para almacenamiento de datos cuando no hay señal GSM.
+- Diseñado para seguimiento personal y de vehículos con opciones de reporte por SMS y GPRS
+- Seguimiento en tiempo real cuando está conectado a un servidor en internet
+- Vigilancia por voz remota para monitorear el entorno llamando al dispositivo
+- Varias funciones de alarma: geocercas, detección de movimiento, exceso de velocidad, SOS, bajo voltaje y vibración
+- Soporte para tarjeta TF para registrar datos cuando la cobertura celular no está disponible
+- Características de hardware prácticas para colocación discreta como tapa magnética y bolsa impermeable
 
+## Cómo funciona con Plaspy
+
+Cuando el TK102 transmite información de ubicación y alarmas a través de la red celular hacia un servidor, Plaspy puede procesar esas actualizaciones y mostrarlas en su interfaz de rastreo. Esto permite supervisión y gestión centralizada de múltiples equipos y usuarios.
+
+- Ubicaciones en vivo de los dispositivos mostradas en los mapas de Plaspy para visibilidad en tiempo real
+- Eventos de alarma como violaciones de geocerca, movimiento, exceso de velocidad y SOS reenviados a los canales de notificación de Plaspy
+- Reproducción de rutas históricas e informes para revisar trayectos grabados en el servidor
+- Monitoreo consolidado de flotas para visualizar múltiples unidades TK102 en una sola cuenta de Plaspy
+- Alertas centralizadas y supervisión operativa para apoyar los flujos de respuesta
+
+## Casos de uso típicos
+
+- Rastreo de flotas y monitoreo básico de vehículos para alquileres o pequeñas flotas comerciales
+- Protección de activos y visibilidad de la ubicación de vehículos y equipos de empresa
+- Seguridad personal y monitoreo de ubicación para niños, adultos mayores o cuidadores
+- Seguimiento y recuperación de mascotas cuando se requiere una colocación discreta del dispositivo
+- Monitoreo situacional y vigilancia de seguridad que se benefician de la función de escucha remota
+
+## Por qué elegir este rastreador con Plaspy
+
+El CanTrack TK102 es un rastreador sencillo que ofrece reportes de ubicación prácticos y un conjunto de funciones de alarma comunes. Para organizaciones o usuarios que desean integrar fuentes de ubicación basadas en hardware dentro de una plataforma de software, el TK102 proporciona funciones familiares que se complementan bien con las capacidades de Plaspy, como mapas en vivo, alertas e informes básicos.
+
+Si busca centralizar el rastreo y gestionar alertas e historial en una sola plataforma, combinar unidades TK102 con Plaspy es una alternativa a considerar. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones y opciones de accesorios actuales en el sitio del fabricante https://www.cantrackgps.com/.

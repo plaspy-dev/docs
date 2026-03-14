@@ -2,63 +2,61 @@
 slug: /winrich/tk_168
 id: tk_168
 sidebar_label: TK-168
+title: Winrich - TK-168
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto para vehículo compatible con Plaspy, seguimiento en tiempo real, alertas y reproducción de rutas
+keywords:
+  - Winrich TK-168
+  - Rastreador TK-168
+  - Rastreador GPS Winrich
+  - Rastreador compatible con Plaspy
+  - dispositivo de rastreo para vehículo
+  - seguimiento de flotas TK-168
+  - receptor SiRF III
+  - rastreador GSM cuatribanda
+  - rastreo GPS Plaspy
+  - rastreador SOS
 ---
+
 # Winrich - TK-168
 
 ![TK-168](./tracker.jpg)
 
-# TK-168 GPS Tracker
+El TK-168 es un rastreador GPS compacto para vehículos fabricado por Winrich, pensado para ofrecer seguimiento confiable y supervisión operativa a bordo. Basado en un receptor GNSS SiRF III y comunicaciones GPRS sobre GSM cuatribanda, el TK-168 proporciona posicionamientos precisos, reacceso rápido a satélites y un conjunto de funciones de control remoto y alertas orientadas a la gestión de flotas, la protección antirrobo y tareas telemáticas habituales.
 
-El TK-168 es un compacto rastreador GPS para vehículos, diseñado para un seguimiento en tiempo real fiable y compatible con Plaspy. Construido alrededor de un chipset GPS SiRF III y conectividad GSM/GPRS cuád-banda, el TK-168 ofrece posicionamiento preciso, adquisición rápida de satélites y funciones de control remoto—lo que lo convierte en una opción práctica para la gestión de flotas, la protección antirrobo y operaciones impulsadas por telemática.
+Como dispositivo compatible con Plaspy, el TK-168 puede enviar su ubicación y eventos al sistema para monitorización en vivo, alertas configurables y reproducción histórica de rutas. Su soporte para reportes por GPRS y SMS, junto con funciones SOS y corte remoto de motor o alimentación, lo convierten en una opción práctica cuando la visibilidad en tiempo real y el control operativo son prioritarios y Plaspy centraliza el seguimiento, las notificaciones y los informes.
 
-El dispositivo admite modos de datos SMS y GPRS y puede configurarse para reportar la ubicación y la telemetría a la plataforma de Plaspy para monitoreo en vivo, alertas y reproducción histórica. Con corte remoto de combustible/energía y un interruptor de emergencia SOS, el TK-168 combina capacidad antirrobo y telemetría operativa en un formato compacto que facilita instalaciones discretas en vehículos.
+## Características principales
 
-## Puntos destacados
-
-- Rastreo en tiempo real compatible con Plaspy mediante GPRS y SMS para visibilidad inmediata de la ubicación e informes.
-- GSM de cuád-banda \(850/900/1800/1900 MHz\) para una cobertura global amplia y conectividad fiable.
-- Receptor GNSS SiRF III de alta sensibilidad para una posición estable incluso en cañones urbanos y entornos con obstrucciones.
-- Corte remoto del motor \(combustible y/o energía\) para un control tipo inmovilizador anti-robo desde Plaspy.
-- Arranque en caliente rápido \(~1 s\) y modo de espera de bajo consumo \(\<80 mA\) para una reacquisición rápida y ciclos de funcionamiento eficientes.
-- Interruptor de emergencia SOS para alertas inmediatas de incidentes y coordinación de respuesta ante emergencias.
-- Diseño compacto y apto para instalación discreta en vehículos y activos.
+- Compatible con Plaspy para visibilidad de ubicación en tiempo real y envío de eventos por GPRS y SMS.
+- Soporte GSM cuatribanda para amplia cobertura celular geográfica.
+- Receptor GNSS de alta sensibilidad SiRF III que mejora la estabilidad de la posición y acelera la adquisición de satélites.
+- Capacidad de corte remoto de combustible o alimentación para acciones tipo inmovilizador como medida antirrobo.
+- Interruptor SOS dedicado para alertas de emergencia inmediatas.
+- Diseño compacto adecuado para instalación discreta en vehículos y despliegues de perfil bajo.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el TK-168 transmite la ubicación y la telemetría a través de sus canales de comunicación compatibles \(GPRS y SMS\). Plaspy consume estas señales para ofrecer mapas en tiempo real, alertas configurables, reproducción de rutas históricas e informes de flotas. La configuración del propio dispositivo determina qué eventos y telemetría se envían a Plaspy, de modo que los equipos puedan monitorizar los parámetros más relevantes para operaciones y seguridad.
+Al integrarse con Plaspy, el TK-168 transmite su posición y los eventos configurados para que los equipos puedan monitorear activos en mapas en vivo, recibir alertas y revisar trayectos históricos. Plaspy procesa los datos del dispositivo para ofrecer paneles operativos, enrutamiento de notificaciones e informes que convierten la telemetría en información accionable para despachadores y gestores de flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas por GPRS \(plataforma en línea\) o SMS.
-- Los eventos de corte remoto del motor \(combustible y/o energía\) pueden iniciarse desde Plaspy como una acción de anti-robo tipo inmovilizador.
-- Las alertas de emergencia SOS reportan señales de socorro inmediatas a Plaspy para una rápida coordinación de respuesta.
-- La reproducción de rutas y el almacenamiento de datos históricos permiten análisis posterior al viaje y la generación de informes de cumplimiento.
-- La telemetría de kilometraje y distancia soporta informes de gestión de flotas y análisis de eficiencia de combustible.
+- Seguimiento en mapas en vivo con actualizaciones periódicas de ubicación desde el dispositivo para conocimiento en tiempo real.
+- Alertas configurables gestionadas por Plaspy para eventos SOS y otras señales del equipo.
+- Comandos remotos tipo inmovilizador, como corte de combustible o alimentación, que pueden iniciarse desde Plaspy según la configuración soportada por el dispositivo.
+- Reproducción histórica de rutas y almacenamiento de viajes para análisis posterior y revisiones de cumplimiento.
+- Informes de distancia y kilometraje que apoyan la planificación de recursos y los reportes rutinarios de flota.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM / GPRS \(soporta modos de datos SMS y GPRS\) |
-| --- | --- |
-| Bandas | GSM 850 / 900 / 1800 / 1900 MHz \(cuád-banda\) |
-| Alimentación y corriente | Tensión de operación 10V–25V; corriente de espera promedio \< 80 mA \(no se especifica batería de respaldo interna\) |
-| Indicadores y entradas | Indicadores LED para GPS, GSM y estado del dispositivo; interruptor de emergencia SOS; control remoto de corte de combustible/energía |
-| GNSS | Conjunto SiRF III; GPS L1 1575.42 MHz; sensibilidad -159 dBm; sistema de coordenadas WGS-84 |
-| Precisión y rendimiento | Precisión de posición 5–25 metros; precisión de velocidad 0.1 m/s; sincronización de tiempo con GPS; arranque en caliente ~1 s, arranque en frío ~38 s |
-| Condiciones de operación | Temperatura -20 °C a 65 °C; humedad 5%–95% |
-| Factor de forma | Unidad de rastreo para vehículos compacta, diseñada para instalación discreta |
-| Funciones adicionales | Rastreo en tiempo real, reproducción de rutas, monitoreo de distancia/kilometraje, protección antirrobo, monitoreo del comportamiento del conductor |
-| Gestión remota | Acceso a plataforma de rastreo en línea en tiempo real y comandos remotos basados en SMS; métodos de actualización de firmware \(FOTA\) no especificados |
-
-## Casos de uso
-
-- Antirrobo de flotas e inmovilización: corte remoto de combustible y/o energía vía Plaspy para asegurar los activos tras movimientos no autorizados.
-- Despacho y gestión de rutas: actualizaciones de posición en tiempo real y reproducción de rutas ayudan a optimizar las flotas y a mejorar la precisión de los ETAs.
-- Comportamiento y cumplimiento del conductor: historial de distancias, velocidad y rutas para orientar al conductor y generar informes regulatorios.
-- Respuesta ante emergencias: alertas SOS reportan incidentes inmediatos a los centros de operaciones a través de Plaspy para una intervención rápida.
-- Seguimiento discreto de vehículos o activos: diseño compacto para instalaciones donde se requiere ocultamiento y perfil bajo.
+- Antirrobo y servicios de inmovilización para recuperar o asegurar vehículos ante movimientos no autorizados.
+- Despacho y optimización de rutas donde las actualizaciones de posición en vivo mejoran la precisión de tiempos estimados de llegada y las decisiones de enrutado.
+- Revisión del comportamiento del conductor y generación de reportes de cumplimiento usando el historial de rutas y registros de distancia.
+- Coordinación de respuesta ante emergencias mediante alertas SOS dirigidas a los equipos operativos.
+- Rastreo discreto de vehículos o activos cuando se requiere un factor de forma compacto y fácil de ocultar.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Combinar el TK-168 con Plaspy ofrece a las organizaciones un rastreador GPS práctico y rentable que pone énfasis en la fiabilidad y la telemática esencial. Su conectividad GSM de cuád-banda y el receptor SiRF III proporcionan un seguimiento en tiempo real constante a través de amplias geografías, mientras que el corte remoto del motor y el soporte SOS añaden capacidades tangibles de antirrobo y seguridad. Para los equipos de gestión de flotas, los paneles de control y las alertas de Plaspy traducen la telemetría del TK-168 en información accionable, acelerando los tiempos de respuesta, mejorando la eficiencia de las rutas y apoyando el monitoreo de combustible mediante el reporte de distancia y uso.
+El TK-168 combina un receptor GNSS probado con amplia compatibilidad celular, entregando reportes de posición confiables en diversos entornos operativos. Para organizaciones que usan Plaspy, la consistencia en los datos de ubicación junto con las funciones de alerta y control remoto del TK-168 facilitan mantener la supervisión operativa sin añadir complejidad innecesaria.
 
-En pocas palabras, el TK-168 es un rastreador GPS directo y compatible con Plaspy que ofrece las capacidades centrales que requieren las flotas y los propietarios de vehículos: rastreo en tiempo real, telemetría para la gestión de flotas, control de inmovilizador anti-robo y alertas de emergencia, respaldados por un rendimiento GNSS probado y una operación de bajo consumo.
+Plaspy transforma la telemetría del TK-168 en paneles, alertas e informes históricos que son útiles para gestores de flota, equipos de seguridad y operaciones de despacho. Si usted necesita un rastreador sencillo y compacto que se integre a una plataforma centralizada de seguimiento, el TK-168 es una opción práctica que equilibra la telemática esencial con capacidades de control remoto y emergencia.
 
+Para obtener más información sobre Plaspy y cómo dispositivos compatibles como el TK-168 se integran con la plataforma, visite https://www.plaspy.com. Las especificaciones y la disponibilidad de producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles y la documentación actual en el sitio del fabricante http://www.winrichgroup.com/en/.

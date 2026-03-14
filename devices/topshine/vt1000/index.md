@@ -2,61 +2,60 @@
 slug: /topshine/vt1000
 id: vt1000
 sidebar_label: VT1000
+title: TopShine - VT1000
 sidebar_class_name: menu_item_tracker
+description: Professional vehicle GPS tracker VT1000 compatible with Plaspy for fleet tracking passenger WiFi and video enabled telemetry
+keywords:
+  - TopShine VT1000
+  - VT1000 tracker
+  - TopShine GPS tracker
+  - VT1000 Plaspy compatible
+  - Plaspy VT1000
+  - vehicle tracker VT1000
+  - VT1000 fleet tracking
+  - VT1000 WiFi hotspot
+  - VT1000 video support
+  - VT1000 telemetry
 ---
+
 # TopShine - VT1000
 
 ![VT1000](./tracker.jpg)
 
-The VT1000 \(4G WiFi VT1000\) is a professional-grade vehicle GPS tracker designed for fleet management, passenger connectivity and vehicle security. Plaspy compatible out of the box, the VT1000 combines high-precision GNSS positioning, multi-band LTE/3G/GSM communications and an integrated WiFi hotspot so fleets can deliver passenger internet access while maintaining real-time location and telemetry through Plaspy.
+The TopShine VT1000 is a professional vehicle GPS tracker designed for fleet management, passenger connectivity and vehicle security. It combines high precision GNSS positioning with multi band cellular communications and an integrated WiFi hotspot to provide location tracking, telemetry and passenger internet access in a single unit. The VT1000 also supports camera connectivity and on board storage to preserve video and photo evidence alongside location data.
 
-The unit supports real-time tracking and rich telemetry — including engine on/off detection, door status, analog fuel and temperature inputs, and remote engine cut-off for emergency immobilization. With support for up to 20+ WiFi cameras, SD card recording and RS232 camera interfacing, the VT1000 is suited to mixed-use fleets that require anti-theft safeguards, video evidence capture and operational insights integrated into the Plaspy platform.
+As a device that ships Plaspy compatible out of the box, the VT1000 can deliver its location updates, alarms and sensor readings directly into the Plaspy platform. That makes it straightforward to add the VT1000 to an existing Plaspy deployment for real time visibility, alerts and historical reporting without custom integration work.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker with LTE/4G \(FDD & TDD\), 3G and GSM for reliable global connectivity.
-- Integrated WiFi hotspot to serve passengers and connect 20+ WiFi cameras for real-time video monitoring.
-- Comprehensive vehicle telemetry: engine on/off detection, door open/close, harsh braking/acceleration alarms and geo-fence alerts.
-- Fuel monitoring and temperature inputs via 4 analog channels for operational and fuel monitoring insights.
-- Emergency features including SOS button and remote engine cut-off relay for immobilizer functionality and anti-theft response.
-- On-board storage \(SD card\) and 4MB flash for >26,000 waypoints to ensure continuity during temporary network loss.
-- Industrial-grade design with wide operating temperature range and synchronized GPS time for accurate telemetry timestamps.
+- Plaspy compatible vehicle tracker combining GNSS positioning with multi band cellular connectivity and an integrated WiFi hotspot.  
+- Supports connection to many WiFi cameras and on board SD storage for video and photo archiving.  
+- Rich vehicle telemetry including engine on off detection, door status and analog inputs for fuel and temperature monitoring.  
+- Remote immobilizer capability with an engine cut off relay and an SOS button for emergency response.  
+- Designed for continuous logging and resilience with on board storage to preserve waypoints and media during network interruptions.  
+- Suited to mixed use fleets that need passenger connectivity, evidence capture and operational oversight in one device.
 
 ## How It Works with Plaspy
 
-The VT1000 transmits position and vehicle telemetry to Plaspy using standard channels supported by the device: TCP/UDP over GPRS/4G and SMS where needed. Once registered on Plaspy, the tracker supplies frequent location updates, alarms and sensor readings so dispatchers and fleet managers can act in real time. Plaspy aggregates these inputs into maps, alerts and reports for fleet management, anti-theft response and compliance tracking.
+When connected, the VT1000 sends position data, alarms and sensor readings to Plaspy so fleet managers can monitor vehicles in real time and run historical reports. Plaspy aggregates location, telemetry and events into maps, alert workflows and exportable reports to support dispatch, security and compliance activities.
 
-- Real-time location and telemetry updates via TCP/UDP \(GPRS/4G\) and SMS as a backup.
-- Engine on/off status, ignition detection and door open/close events for ignition and door monitoring.
-- Analog fuel and temperature monitoring for fuel monitoring and temperature-sensitive cargo.
-- Remote immobilizer control through the built-in engine cut-off relay for emergency engine shutdown.
-- Video and photo evidence: camera photo logging with location and driving data; SD storage for video/photo archiving \(video streams may be managed via the device’s WiFi/PC/mobile platform alongside Plaspy telemetry\).
+- Real time location updates and frequent telemetry feeds visible in the Plaspy map and dashboard.  
+- Alarm and event reporting for door open close, ignition state and SOS events to trigger alerts and notifications.  
+- Analog sensor readings for fuel and temperature integrated into Plaspy reporting and exceptions monitoring.  
+- Remote immobilizer control available through Plaspy workflows where supported by device configuration.  
+- Video and photo evidence correlation so media captured by cameras can be referenced against location and driving data stored in Plaspy.  
+- On board logging and SD storage ensure continuity of data when network connectivity is temporarily reduced.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | VT1000 \(4G WiFi VT1000\) |
-| --- | --- |
-| Connectivity | LTE/4G \(FDD & TDD\), WCDMA \(3G\), GSM \(2G\); supports TCP/UDP GPRS and SMS |
-| Supported 4G / 3G / GSM Bands | LTE FDD: B1, B3, B5, B7, B8, B20; LTE TDD: B38, B40, B41; WCDMA: B1, B5, B8; GSM: B3, B8 |
-| Power & Battery | Input voltage DC +9V to +60V / 1.5A; built-in 850 mAh backup battery; sleep mode with motion sensing |
-| I/O Interfaces | 1 camera port, 1 RS232 port, MIC & speaker port, USB port, SD card slot, 5 digital inputs, 5 outputs, 4 analog inputs, SOS button, engine cut-off relay |
-| GNSS | GPS L1 1575.42 MHz, 20-channel all-in-view tracking; sensitivity -160 dB; positioning accuracy ~5 m \(CEP\); velocity accuracy 0.1 m/s; time accuracy 1 μs |
-| Storage | SD card support \(up to 64 GB optional\); 4 MB flash for data logging \(~26,000+ waypoints\) |
-| Video & Cameras | Built-in WiFi hotspot; supports more than 20 WiFi cameras; camera photo logging with location and driving info; RS232 camera interface |
-| Software & Management | OTA firmware upgrades \(OTA/FOTA\); supplied web tracking platform \(track-car.com\) and mobile access; supports SMS/URL tracking commands |
-| Physical | Dimensions 110 × 80 × 30 mm; weight 180 g; operating temperature -40°C to 75°C; humidity 5%–95% non-condensing |
-
-## Use Cases
-
-- Fleet management: monitor routes, mileage, driver behavior \(harsh braking/acceleration\) and fuel usage to reduce operating costs and improve safety.
-- Anti-theft and emergency immobilization: SOS alerts plus remote engine cut-off relay allow rapid response to theft or unauthorized use.
-- Passenger transport with onboard connectivity: provide passenger WiFi while using camera feeds and photo logging for incident evidence and security.
-- Temperature- or fuel-sensitive deliveries: analog inputs for fuel and temperature sensors feed telemetry to Plaspy for compliance and exception reporting.
-- Multi-channel video documentation: integrate WiFi cameras for real-time monitoring and SD-based video/photo storage for incident review.
+- Fleet route monitoring and driver behavior oversight for buses, coaches and commercial vehicles.  
+- Passenger transport operations that need onboard WiFi plus security camera integration for incident review.  
+- Anti theft and emergency immobilization workflows using SOS alerts and remote engine cut off.  
+- Temperature sensitive or fuel monitored deliveries where analog inputs feed operational alerts and reports.  
+- Multi camera documentation for large fleets requiring synchronized location and video evidence for investigations.
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the VT1000 as a Plaspy compatible GPS tracker gives fleet operators a single device that combines robust real-time tracking, rich telemetry and passenger-facing WiFi/video capabilities. The VT1000’s multi-band LTE/3G/GSM support ensures connectivity across regions, while the device’s analog inputs, digital I/O and engine cut-off relay provide actionable control points for anti-theft and ignition control.
+The VT1000 is a versatile option for organizations that want a single device to handle tracking, passenger connectivity and video evidence capture while integrating with a fleet platform. Its combined telemetry, camera support and on board storage make it practical for operators who need both real time visibility and retained records for later review. Because the unit is Plaspy compatible out of the box, it reduces setup friction and lets teams centralize vehicle data, alerts and historical reports in the Plaspy environment.
 
-When paired with Plaspy, the VT1000 delivers consolidated telemetry \(location, ignition, fuel monitoring, door/alarms\), alerting \(geo-fence, over-speed, SOS\) and historical reporting for operational visibility. The VT1000’s on-board storage and SD video/photo archiving complement Plaspy’s telemetry by preserving evidence when network conditions are variable. For fleets seeking reliability, scalability and full-spectrum vehicle security — including remote immobilizer capability and integrated video options — the VT1000 provides a practical, Plaspy compatible solution.
-
+If you want to learn more about how the VT1000 can work with Plaspy for fleet monitoring, reporting and security, visit https://www.plaspy.com for platform details. Product specifications and availability can change over time, so please verify current technical details and options with the manufacturer at https://www.gztopshine.com/.

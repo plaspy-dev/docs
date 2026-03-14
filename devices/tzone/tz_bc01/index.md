@@ -2,29 +2,62 @@
 slug: /tzone/tz_bc01
 id: tz_bc01
 sidebar_label: TZ-BC01
+title: TZone - TZ-BC01
 sidebar_class_name: menu_item_tracker
+description: Compact TZone TZ-BC01 iBeacon tracker compatible with Plaspy for discreet proximity and location monitoring and long battery life
+keywords:
+  - TZone TZ-BC01
+  - TZ-BC01
+  - TZone tracker
+  - iBeacon tracker
+  - Bluetooth 4.0 tracker
+  - Plaspy compatible
+  - asset tracking
+  - proximity tracking
+  - fleet tracking
+  - compact tracker
 ---
+
 # TZone - TZ-BC01
 
 ![TZ-BC01](./logo.jpg)
 
-The TZone TZ-BC01 is a compact and lightweight GPS tracker designed to provide accurate and reliable location tracking. With its creamy white color and sleek design, it is both stylish and discreet. Measuring just 50\*35\*15 mm and weighing only 30 grams, it is easy to carry and can be attached to various objects for tracking purposes.
+The TZone TZ-BC01 is a compact and lightweight tracker designed to provide accurate and reliable location tracking in a discreet form factor. It measures approximately 50 x 35 x 15 mm and weighs about 30 grams, making it simple to attach or carry with personal items, equipment, or light vehicles. The unit uses the iPhone iBeacon protocol with Bluetooth 4.0 communication and supports both iOS 7.0 and above and Android 4.3 and above, offering broad device compatibility for proximity based monitoring.
 
-One of the standout features of the TZ-BC01 is its use of the iPhone iBeacon protocol, which utilizes Bluetooth 4.0 technology for seamless and efficient communication. This allows for a stable and secure connection between the tracker and your device. The tracker is compatible with iOS 7.0 and above, as well as Android 4.3 and above, making it suitable for a wide range of devices.
+As a Plaspy compatible device, the TZ-BC01 can be integrated into Plaspy workflows to provide presence, proximity, and location updates where Bluetooth connectivity and supported devices are available. Its adjustable broadcasting interval and transmit power, long working time from a CR2450 battery, and password protection make it suitable for scenarios where low maintenance and discreet tracking are important. Plaspy can surface the tracker's location and status within fleet and asset views alongside other compatible devices.
 
-The TZ-BC01 is powered by a CR 2450 battery, which provides a long working time of up to 12 months. This means you can rely on the tracker for extended periods without the need for frequent battery changes. The broadcasting interval is adjustable, with a default setting of 500 ms, and the transmitted power can also be adjusted between -20~4 dBm. This allows for customization based on your specific tracking needs.
+## Key Highlights
 
-With a transmission distance of 50-80 meters in an open field, the TZ-BC01 offers a reliable range for tracking objects or individuals. It also supports password protection for added security, ensuring that only authorized users can access the tracker's data. Whether you need to keep track of your personal belongings, monitor the location of a loved one, or enhance the security of your assets, the TZone TZ-BC01 is a versatile and reliable GPS tracker that delivers on performance and convenience.
+- Compact and lightweight form factor for discreet placement and easy handling
+- Uses iPhone iBeacon protocol and Bluetooth 4.0 for device discovery and proximity updates
+- Compatible with iOS 7.0 and above and Android 4.3 and above for wide device support
+- Long working time from a CR2450 battery, suitable for extended deployments
+- Adjustable broadcasting interval and transmit power to tune visibility and battery life
+- Transmission range of approximately 50 to 80 meters in open field conditions
+- Password protection to restrict access to the tracker settings and data
 
-### Outstanding Features:
+## How It Works with Plaspy
 
-- Compact and lightweight design
-- Utilizes iPhone iBeacon protocol
-- Bluetooth 4.0 technology
-- Compatible with iOS 7.0 and above, Android 4.3 and above
-- Long working time of up to 12 months
-- Adjustable broadcasting interval
-- Adjustable transmitted power
-- Transmission distance of 50-80 meters
-- Password protection for added security
+When used with Plaspy, the TZ-BC01 provides proximity and location signals that Plaspy can record and present alongside other tracking data. Plaspy treats compatible beacons as part of an overall monitoring strategy, giving operations teams the ability to view presence, recent activity, and location context within the Plaspy platform.
 
+- Display proximity events and recent location appearances in Plaspy dashboards
+- Group TZ-BC01 units with assets or personnel for consolidated monitoring
+- Configure alerts in Plaspy for arrival, departure, or unexpected absence based on beacon signals
+- Include TZ-BC01 activity in routine reports to track asset movement and uptime
+- Use Plaspy views to correlate beacon presence with other device data for operational oversight
+
+## Typical Use Cases
+
+- Tracking small assets and personal belongings that benefit from a lightweight, discreet beacon
+- Proximity monitoring for equipment or packages in storage and workplace environments
+- Temporary tagging of items during short term operations where long battery life is useful
+- Adding presence detection to workflows within a Plaspy managed fleet or asset list
+- Security enhancement through password protected beacon access for restricted items
+
+## Why Choose This Tracker with Plaspy
+
+The TZ-BC01 is a practical option when you need a compact, easy to deploy tracker that emphasizes low maintenance and discreet operation. Its iBeacon based design and adjustable broadcast settings let organizations balance visibility and battery life, while compatibility with common mobile operating systems allows straightforward integration into existing device ecosystems.
+
+Paired with Plaspy, the TZ-BC01 can extend presence and proximity awareness into fleet and asset management workflows, helping teams monitor small items or augment location context where GPS devices are not required or practical. For organizations seeking a simple, battery efficient tracker that can be shown and managed within Plaspy, the TZ-BC01 is a relevant choice.
+
+To learn more about using compatible trackers with Plaspy visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so verify current technical information on the official manufacturer site http://www.tzonedigital.com/.

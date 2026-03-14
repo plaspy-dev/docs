@@ -2,62 +2,59 @@
 slug: /topshine/mt06
 id: mt06
 sidebar_label: MT06
+title: TopShine - MT06
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto TopShine MT06 para motocicletas y vehículos pequeños, resistente al agua y compatible con Plaspy, con soporte para inmovilizador
+keywords:
+  - TopShine MT06
+  - MT06 rastreador
+  - rastreador TopShine
+  - MT06 GPS
+  - MT06 Plaspy
+  - compatible con Plaspy
+  - rastreador GPS para motocicleta
+  - rastreador para vehículos pequeños
+  - seguimiento de flotas
+  - rastreador antirrobo
 ---
+
 # TopShine - MT06
 
 ![MT06](./tracker.jpg)
 
-El MT06 es un rastreador GPS compacto, registrado IMEI, diseñado para motocicletas y vehículos pequeños y es plenamente compatible con Plaspy para una implementación rápida en su pila de rastreo. Con antenas GPS y GSM integradas, una carcasa mini impermeable y un diseño de bajo consumo que minimiza el gasto de datos GPRS, el MT06 ofrece seguimiento e seguridad en tiempo real confiables sin añadir volumen. Certificado conforme a las normas CE, FCC y RoHS, la unidad está lista para la gestión de flotas comerciales y aplicaciones de antirrobo donde la ocultación y la durabilidad son importantes.
+El MT06 es un rastreador GPS compacto, con IMEI registrado, diseñado para motocicletas y vehículos pequeños. Integra antenas GPS y GSM en una carcasa miniatura resistente al agua y utiliza un diseño de bajo consumo para reducir el uso de datos, manteniendo al mismo tiempo reportes continuos de posición y estado. Certificado según las normas CE, FCC y RoHS, el equipo está pensado para instalaciones discretas y para resistir el uso en despliegues comerciales y soluciones antirrobo.
 
-Diseñado para funcionar con la plataforma web y móvil gratuita proporcionada por el fabricante \(https://www.track-car.com – demo: Officetest / 123\), el MT06 suministra reportes continuos de ubicación, velocidad y estado a Plaspy. También admite el corte remoto del motor mediante control de relé, geocercas, alarmas por exceso de velocidad y respuestas de ubicación por SMS con enlaces de Google Maps, lo que lo convierte en una opción práctica de rastreador GPS para operadores que requieren telemetría accionable, respuesta rápida ante incidentes e integración sencilla con Plaspy.
+Como dispositivo totalmente compatible con Plaspy, el MT06 puede incorporarse rápidamente a una infraestructura de seguimiento existente para ofrecer ubicación en tiempo real, velocidad y actualizaciones de estado. Su compatibilidad con corte de motor por relé, geocercas, alarmas por exceso de velocidad y respuestas de ubicación por SMS con enlaces a Google Maps lo convierten en una opción práctica para operadores que requieren telemetría accionable y una respuesta rápida a incidentes junto con el monitoreo y los reportes de Plaspy.
 
-## Puntos destacados
+## Características principales
 
-- Seguimiento en tiempo real compatible con Plaspy: integración fluida de la posición GPS y del estado en los paneles e alertas de Plaspy.
-- Soporte de inmovilizador antirrobo: corte y reinicio remoto del motor mediante control de relé para intervención rápida.
-- Factor de forma compacto e impermeable con antenas GSM/GPS ocultas — ideal para instalaciones en motocicletas y vehículos pequeños.
-- Diseño de bajo consumo para reducir datos GPRS y costos operativos, manteniendo una telemetría fiable.
-- Geocerca integrada, alarma por exceso de velocidad y reporte de odómetro para la gestión de flotas y el cumplimiento normativo.
-- Plataforma de rastreo web y móvil gratuita \(iOS/Android\) con respuestas de ubicación por SMS y enlaces de Google Maps para una consulta rápida de la ubicación.
-- Certificaciones regulatorias \(CE, FCC, RoHS\) y registro IMEI para un despliegue legal y global; personalización OEM/ODM disponible.
+- Seguimiento en tiempo real compatible con Plaspy para integración de posición y estado
+- Carcasa compacta y resistente al agua con antenas integradas para instalaciones discretas
+- Registro IMEI y certificaciones CE, FCC y RoHS para uso comercial
+- Diseño de bajo consumo que ayuda a reducir el consumo de datos GPRS y los costos operativos
+- Soporte remoto para inmovilizador mediante relé para intervenciones antirrobo
+- Geocercas y alarmas por exceso de velocidad integradas con respuestas por SMS y enlaces a mapas
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el MT06 transmite determinaciones de posición GPS, telemetría de movimiento y eventos de alarma a través de su conexión de datos GSM o del canal SMS. Plaspy procesa estos mensajes para ofrecer vistas en tiempo real del mapa, reproducción histórica, notificaciones de eventos e informes de flota. El control de relé y las señales de alarma del dispositivo pueden activar flujos de trabajo en Plaspy \(alertas, comandos de inmovilización o acciones posteriores\), de modo que los equipos de operaciones obtengan datos inmediatos y accionables.
+Cuando se conecta a Plaspy, el MT06 envía fijaciones de ubicación, telemetría de movimiento y eventos de alarma a través de sus canales de datos celulares o SMS. Plaspy procesa esos mensajes para ofrecer mapas en vivo, reproducciones históricas, notificaciones e informes de flota, de modo que los equipos puedan supervisar vehículos y responder a incidentes casi en tiempo real.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: la posición GPS, la velocidad y el estado fluyen hacia Plaspy para un seguimiento e informes en vivo.
-- Eventos de geocerca y exceso de velocidad: las intrusiones en el perímetro y las violaciones de velocidad se envían como alarmas a Plaspy para notificación instantánea.
-- Inmovilizador remoto \(corte del motor\) mediante relé: órdenes de detención y reinicio autorizadas pueden coordinarse a través de flujos de trabajo de Plaspy.
-- Alarma de corte de suministro externo y reporte de odómetro: la pérdida de energía y la telemetría de kilometraje están disponibles para mantenimiento y detección de manipulación.
-- Respuestas de ubicación por SMS con enlaces de Google Maps: consulta rápida cuando la conectividad de datos es limitada; los enlaces pueden usarse junto con las herramientas de Plaspy.
+- Actualizaciones de ubicación y telemetría en tiempo real que se integran en los paneles de Plaspy para monitoreo continuo
+- Las violaciones de geocerca y los eventos de exceso de velocidad se entregan como alarmas para notificaciones inmediatas
+- Comandos remotos de inmovilizador coordinados mediante flujos de trabajo de Plaspy permiten intervenciones rápidas
+- Reproducción histórica de rutas y resúmenes de odómetro que respaldan la revisión operativa y los informes
+- Respuestas de ubicación por SMS con enlaces a Google Maps como alternativa cuando la conectividad de datos es limitada
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | MT06 |
-| --- | --- |
-| Conectividad | Principalmente 2G/GSM, con soporte declarado por el fabricante para múltiples bandas LTE-FDD / LTE-TDD y GSM \(existen variantes regionales\) |
-| Bandas | Amplio soporte de bandas LTE/GSM listado por el fabricante; las bandas específicas varían por región/modelo \(ver lista de bandas del proveedor\) |
-| Alimentación y batería | Voltaje de entrada 9–36 V DC. Batería interna de respaldo recargable opcional \(opción del fabricante\). |
-| Interfaces | Control de relé para corte/reanudación remota del motor; entrada de alarma de corte de energía externa; reporte de odómetro; conjunto de cableado incluido. |
-| GNSS | GPS L1 1575.42 MHz; -158 dB de sensibilidad; rastreo de 20 canales con visión de todos los satélites. Precisión de posición ≈ 10 m \(2D RMS\); precisión de velocidad 0,1 m/s; sincronización de tiempo 1 µs con el tiempo GPS. |
-| Bluetooth | No especificado por el fabricante para la unidad MT06 estándar. |
-| Gestión remota | Plataforma web y móvil gratuita \(https://www.track-car.com\) con cuenta de demostración; personalización de plataforma OEM/ODM disponible. FOTA no especificado. |
-| Factor de forma e indicadores | Carcasa mini impermeable; dimensiones 48 × 48 × 12 mm; peso ~30 g \(el fabricante indica ~30–40 g\). 2 LEDs para estado GPS/GSM. |
-| Ambiental | Temperatura de operación -20°C a 65°C; humedad 5%–95% sin condensación. |
-| Conformidad y garantía | Certificado CE, FCC, RoHS; IMEI registrado; garantía del fabricante de 2 años. |
+- Protección antirrobo y recuperación rápida de motocicletas mediante montaje discreto y control de inmovilizador
+- Seguimiento de pequeñas flotas para supervisión de rutas, cumplimiento y control de conductores
+- Operaciones de reparto y última milla donde el tamaño compacto y el registro de eventos son clave
+- Vehículos de alquiler y uso compartido que combinan seguimiento en tiempo real con control de inmovilizador
+- Detección de manipulación y mantenimiento mediante alertas de corte de alimentación externa y reportes de kilometraje
 
-## Casos de uso
+## Por qué elegir este tracker con Plaspy
 
-- Antirrobo y recuperación para motocicletas: montaje discreto, alertas en tiempo real y corte remoto del motor reducen el riesgo de robo y aceleran la recuperación.
-- Gestión de flotas pequeñas: ubicación en vivo, geocerca e informes de exceso de velocidad optimizan el cumplimiento de rutas y la supervisión de conductores.
-- Entrega y logística de última milla: diseño compacto para instalaciones en scooters y vehículos ligeros con odómetro y seguimiento de eventos para comprobante de servicio.
-- Monitoreo de vehículos de alquiler y uso compartido: combina seguimiento en tiempo real con control del inmovilizador y telemetría de uso para la protección del activo.
-- Mantenimiento y detección de manipulación: alarmas de corte de alimentación externa y reporte de kilometraje alimentan paneles de telemetría para la planificación de mantenimiento preventivo.
+El MT06 combina un diseño específico para motocicletas y vehículos pequeños con flujos de datos compatibles con Plaspy para ofrecer seguimiento en tiempo real confiable y de bajo costo, además de control básico de inmovilizador. Su carcasa compacta y resistente al agua, junto con antenas ocultas, facilita instalaciones discretas; el diseño de bajo consumo reduce los gastos recurrentes de datos en telemetría de flotas.
 
-## Por qué elegir este rastreador con Plaspy
-
-El MT06 combina un rastreador GPS diseñado para motocicletas y vehículos ligeros con flujos de datos compatibles con Plaspy para ofrecer un seguimiento y seguridad en tiempo real, fiable y de bajo costo. Su carcasa impermeable y compacta y sus antenas ocultas lo hacen ideal para instalaciones discretas, mientras que el firmware de bajo consumo reduce el uso de datos GPRS, lo que resulta clave para los costos de telemetría de flotas a largo plazo. El inmovilizador integrado para corte del motor ofrece a los equipos de operaciones una opción de inmovilización simple, controlada a través de flujos de trabajo de Plaspy, y la plataforma web/móvil incluida y las respuestas de ubicación por SMS aseguran acceso continuo a los datos de posición incluso al integrarlo en sistemas más amplios.
-
-Certificado conforme a las normas CE, FCC y RoHS, con una garantía de dos años y opciones de personalización OEM/ODM, el MT06 es un rastreador GPS económico y práctico para organizaciones que implementan gestión de flotas basada en Plaspy, protección antirrobo y telemetría de vehículos. Para proyectos que requieran monitorización de combustible, interfaces de ignition adicionales o sensores Bluetooth, póngase en contacto con el fabricante sobre opciones de personalización y accesorios para ampliar las capacidades de telemetría manteniendo la compatibilidad con Plaspy. Los listados del fabricante señalan un rango de precio típico de USD 30–45 por conjunto y plazos rápidos de muestra/venta al por mayor para despliegues escalables.
-
+Si necesita un rastreador compacto que se integre con Plaspy para monitoreo de flotas, protección antirrobo y reportes operativos sencillos, el MT06 es una opción práctica a evaluar. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com y verifique las especificaciones actuales del producto, disponibilidad y datos del fabricante en el sitio oficial de TopShine https://www.gztopshine.com/ ya que las características y las ofertas del producto pueden cambiar con el tiempo.

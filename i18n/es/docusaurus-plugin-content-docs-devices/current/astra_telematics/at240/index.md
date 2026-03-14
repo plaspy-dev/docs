@@ -2,15 +2,59 @@
 slug: /astra_telematics/at240
 id: at240
 sidebar_label: AT240
+title: Astra Telematics - AT240
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto para vehículos con ubicación precisa, carcasa IP67 y compatibilidad con Plaspy
+keywords:
+  - Astra Telematics AT240
+  - AT240 rastreador GPS
+  - AT240 Plaspy
+  - Astra AT240
+  - AT240 seguimiento de flotas
+  - AT240 rastreador de vehículos
+  - AT240 telemática
+  - Rastreador Astra Telematics
+  - AT240 IP67
+  - AT240 SiRFStar IV
 ---
+
 # Astra Telematics - AT240
 
 ![AT240](./logo.jpg)
 
-El rastreador GPS Astra Telematics AT240 ha sido diseñado utilizando la última tecnología, incluyendo un procesador Cortex M3, SiRFStar IV GPS, Bluetooth Low Energy y un sistema de administración de energía/batería muy inteligente. Con un diseño que se asemeja a un dispositivo automotriz, el AT240 cuenta con un sellado resistente al agua IP67 y antenas integradas, lo que lo hace fácil de instalar y poco visible en apariencia.
+El Astra Telematics AT240 es un rastreador GPS automotriz compacto diseñado para aplicaciones en vehículos y gestión de flotas. Integra un receptor GPS SiRFStar IV y un procesador Cortex M3 para ofrecer información de posición confiable, mientras que las antenas internas y un diseño de corte automotriz mantienen el equipo discreto. Con clasificación IP67, el AT240 está preparado para soportar condiciones exigentes y seguir operando en distintos entornos.
 
-Este rastreador GPS de Astra Telematics es ideal para aplicaciones de seguimiento y recuperación de vehículos, gestión de flotas y sistemas de navegación inteligentes. Cuenta con una banda GSM cuatribanda completa y no tiene capacidad de voz. Además, tiene una batería de respaldo, memoria interna y se comunica a través de GPRS, TCP y UDP.
+Como dispositivo compatible con Plaspy, el AT240 puede enviar datos de ubicación y estado al entorno de gestión de flotas de Plaspy para supervisión y generación de informes en tiempo real. Su soporte para Bluetooth Low Energy y conectividad CANBus le permite integrarse con sistemas del vehículo y dispositivos cercanos, lo que hace del rastreador una opción práctica para organizaciones que requieren seguimiento consistente, visibilidad de flota y gestión de activos mediante Plaspy.
 
-El AT240 también ofrece ahorro de energía, más de 4 entradas digitales, eventos internos basados en la posición, antenas GPS y GSM internas, carcasa de plástico y conexiones adicionales como identificación del conductor y puerto serie. Además, cuenta con soporte para CAN Bus FMS y ha sido fabricado en Europa.
+## Puntos clave
 
+- Seguimiento de ubicación preciso gracias al receptor GPS SiRFStar IV para datos de posición fiables
+- Procesamiento eficiente a bordo con un procesador Cortex M3
+- Soporte para Bluetooth Low Energy para interacciones locales con dispositivos y conectividad adicional
+- Compatibilidad con CANBus para acceder a flujos de datos del vehículo cuando estén disponibles
+- Carcasa con clasificación IP67 para resistencia al polvo y al agua en entornos exigentes
+- Antenas internas integradas y diseño automotriz para una instalación de apariencia discreta
+
+## Cómo funciona con Plaspy
+
+Al integrarse con Plaspy, el AT240 proporciona actualizaciones continuas de ubicación y datos de eventos que Plaspy consolida en una única interfaz de gestión. Esto permite que los administradores de flota supervisen activos, revisen historiales y respondan alertas sin tener que gestionar conexiones de dispositivo en crudo.
+
+- Visibilidad de ubicación y reportes de estado en tiempo real desde el panel de control de Plaspy
+- Reproducción de rutas históricas y registros de viaje para análisis posterior y generación de informes
+- Entrega de eventos y alertas para notificar a los operadores sobre movimientos, entradas a geocercas o condiciones configuradas
+- Consolidación de datos del vehículo vía CANBus en Plaspy para supervisión operativa cuando los datos del vehículo estén disponibles
+- Uso de Bluetooth Low Energy para interacciones locales que complementan los datos de seguimiento del vehículo
+
+## Casos de uso habituales
+
+- Gestión de flotas pequeñas y medianas que necesitan seguimiento centralizado
+- Operaciones de rastreo y localización para mantener visibilidad sobre la ubicación de activos
+- Recuperación de vehículos donde el seguimiento preciso y persistente facilita la recuperación
+- Proyectos de telemática que combinan datos de ubicación y del vehículo para informes operativos
+- Verificación de rutas e historial de viajes para cumplimiento o análisis de desempeño
+
+## Por qué elegir este rastreador con Plaspy
+
+El AT240 es una opción robusta para organizaciones que buscan un rastreador orientado a vehículos y resistente que se integre en una plataforma de flotas moderna. La combinación de un receptor GPS capaz, procesamiento a bordo y opciones de conectividad con el vehículo lo hace adecuado para las necesidades habituales de gestión de flotas y telemática sin complicaciones innecesarias.
+
+Si usted necesita un rastreador compacto y discreto que reporte ubicación y estado del vehículo a una plataforma centralizada, el AT240 combinado con Plaspy ofrece una solución práctica para supervisión, reporte y control operativo. Para obtener más información sobre Plaspy y cómo puede trabajar con dispositivos compatibles como el AT240 visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por favor verifique los detalles técnicos actuales en el sitio del fabricante https://astratelematics.com/.

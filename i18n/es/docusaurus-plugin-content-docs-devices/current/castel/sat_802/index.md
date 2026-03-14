@@ -2,29 +2,61 @@
 slug: /castel/sat_802
 id: sat_802
 sidebar_label: SAT-802
+title: Castel - SAT-802
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS global con conectividad Iridium y GPRS para activos de alto valor compatible con Plaspy
+keywords:
+  - Castel SAT-802
+  - rastreador SAT-802
+  - rastreador Castel
+  - SAT-802 Plaspy
+  - SAT-802 GPS
+  - rastreador satelital
+  - rastreador Iridium GPRS
+  - seguimiento de activos
+  - seguimiento de flotas
+  - rastreo global
 ---
+
 # Castel - SAT-802
 
 ![SAT-802](./logo.jpg)
 
-El rastreador GPS Castel SAT-802 utiliza la tecnología Iridium SBD y GPRS para ofrecer un seguimiento sin ángulo muerto en todo el mundo. Diseñado especialmente para el rastreo de bienes de alto valor, este dispositivo proporciona a los operadores de flotas una cobertura global del 100% y un seguimiento basado en Internet, al mismo tiempo que reduce los costos mensuales de seguimiento.
+El Castel SAT-802 es un rastreador GPS compacto diseñado para cobertura global y monitoreo confiable de activos. Combina la capacidad satelital Iridium SBD con comunicaciones GPRS para reducir zonas muertas y ofrecer seguimiento en amplias áreas para activos de alto valor. El equipo utiliza posicionamiento GPS y un módulo de comunicación dual para mantener el intercambio de datos bidireccional, priorizando la red GSM cuando esté disponible.
 
-El SAT-802 cuenta con un módulo dual Iridium y GSM, lo que garantiza una transmisión de datos bidireccional transparente. Además, el dispositivo tiene la capacidad de elegir automáticamente el canal de comunicación, dándole prioridad al GSM. Esto asegura una conectividad constante y confiable en cualquier parte del mundo.
+Como dispositivo compatible con Plaspy, el SAT-802 puede enviar información de ubicación y estado al entorno de monitoreo de flotas de Plaspy para lograr visibilidad continua en regiones donde las redes convencionales son limitadas. Su alcance global y sus funciones de gestión de energía lo hacen útil para organizaciones que necesitan consolidar el rastreo dentro de Plaspy junto con otros activos de la flota.
 
-Especificaciones técnicas:
+## Características principales
 
-- Voltaje de funcionamiento: 9V ~ 36V DC
-- Transmisión de datos: Iridium SBD y GPRS
-- Posicionamiento: GPS
-- Corriente máxima de funcionamiento: &lt;450mA@13.8V \(2W pico de corriente transitoria\)
-- Corriente de trabajo en el transceptor de datos: &lt;350 mA@13.8V
-- Corriente de trabajo en modo de espera: &lt;145mA@13.8V
-- Corriente de trabajo en modo de ahorro de energía: &lt;95mA@13.8V
-- Temperatura de trabajo: -30 ℃ ~ + 70 ℃
-- Temperatura de almacenamiento: -40 ℃ ~ + 85 ℃
-- Humedad relativa: 5% ~ 95% \(sin escarcha\)
-- Grado de protección: IP30
+- Módulos de comunicación dual que combinan satélite Iridium SBD y GPRS para amplia cobertura
+- Transmisión de datos bidireccional con selección automática que favorece GSM cuando está disponible
+- Posicionamiento por GPS apto para actualizaciones de ubicación continuas
+- Amplio rango de voltaje de funcionamiento de 9 V a 36 V para compatibilidad con diversos sistemas de alimentación de vehículos y activos
+- Construido para operar en un amplio rango de temperaturas y con resistencia básica al polvo y la humedad con protección IP30
+- Múltiples modos de ahorro de energía para reducir el consumo promedio en espera
 
-Con el rastreador GPS Castel SAT-802, los operadores de flotas pueden tener la tranquilidad de que sus bienes de alto valor están siendo monitoreados de manera efectiva y segura en cualquier parte del mundo. Su cobertura global, combinada con su capacidad de transmisión de datos bidireccional, lo convierte en una opción ideal para el seguimiento de flotas en diversas industrias.
+## Cómo funciona con Plaspy
 
+Al integrarse con Plaspy, el SAT-802 suministra la ubicación y el estado de conectividad que Plaspy utiliza para mostrar mapas unificados, alertas e informes. Plaspy puede ingerir los datos del rastreador para ayudar a los equipos a mantener supervisión operativa de activos en distintas regiones y condiciones de comunicación.
+
+- Seguimiento de ubicación en tiempo real e histórico mostrado en los mapas de Plaspy para visibilidad de la flota
+- Alertas y notificaciones en Plaspy basadas en movimiento, geocercas o cambios en la conectividad
+- Informes consolidados en Plaspy del historial de rutas y tiempo operativo de activos a través de cobertura satelital y celular
+- Monitoreo centralizado que permite a los operadores ver activos que cambian entre enlaces GSM y satelitales
+- Uso de los paneles de Plaspy para agrupar dispositivos SAT-802 con otros rastreadores en la gestión de flotas mixtas
+
+## Casos de uso típicos
+
+- Rastreo de activos de alto valor donde se requiere cobertura continua
+- Vehículos de flotas de largo alcance o en zonas remotas fuera de redes celulares estándar
+- Monitoreo de contenedores y carga durante tránsito por regiones con cobertura variable
+- Operaciones centralizadas de flota que necesitan una mezcla de telemetría satelital y celular
+- Activos que requieren tolerancia robusta a temperatura y voltaje en entornos diversos
+
+## Por qué elegir este rastreador con Plaspy
+
+El SAT-802 es una opción práctica para operadores que necesitan cobertura geográfica amplia combinada con la comodidad de prioridad celular cuando está disponible. Su diseño de módulos duales ayuda a reducir las zonas muertas, mientras que el posicionamiento GPS y las opciones de gestión de energía permiten un monitoreo continuo sin consumo excesivo. En Plaspy, esas capacidades se traducen en mayor visibilidad de activos y reportes más consistentes en áreas de cobertura mixta.
+
+Dado que el SAT-802 ofrece calificaciones ambientales básicas y un amplio rango de voltaje, puede adaptarse a muchas flotas de vehículos y activos; sin embargo, tenga en cuenta que la protección IP30 proporciona resistencia limitada a la humedad, por lo que conviene considerar montajes y cajas protectoras según el entorno. Para organizaciones que utilizan Plaspy, el SAT-802 puede ser un componente útil en una estrategia de rastreo por capas que cubra tanto zonas urbanas con red celular como ubicaciones remotas.
+
+Para obtener más información sobre cómo Plaspy puede utilizar los datos del dispositivo SAT-802 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo; verifique las especificaciones actuales con el fabricante en http://www.castelecom.com/.

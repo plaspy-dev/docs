@@ -2,62 +2,61 @@
 slug: /coban/bn_403d
 id: bn_403d
 sidebar_label: BN-403D
+title: Coban - BN-403D
 sidebar_class_name: menu_item_tracker
+description: Compact vehicle GPS tracker BN-403D compatible with Plaspy for real time tracking alerts and concealed installation
+keywords:
+  - Coban BN-403D
+  - BN-403D GPS tracker
+  - Coban tracker
+  - BN-403D Plaspy compatibility
+  - vehicle GPS tracker
+  - LTE GPS tracker
+  - concealed installation
+  - fleet tracking
+  - fuel monitoring
+  - one way voice
 ---
+
 # Coban - BN-403D
 
 ![BN-403D](./tracker.png)
 
-# BN-403D LTE Vehicle GPS Tracker
+The BN-403D is a compact vehicle mounted GPS tracker designed to provide reliable positioning and wide area cellular communication. Designed for concealed installation in cars and light commercial vehicles, the BN-403D provides real time tracking, configurable alarms and one way voice listening for emergency situations. It also supports Bluetooth configuration and automatic induction arming and disarming, with optional fuel monitoring available when paired with a supported fuel sensor.
 
-The BN-403D is a compact, vehicle-mounted GPS tracker designed for reliable positioning and wide-area 2G/4G communication. Plaspy compatible out of the box, this smart terminal delivers real-time tracking, configurable alerts and concealed installation options so fleets and private owners can monitor vehicles, respond to incidents, and manage telemetry from a single platform.
-
-The device supports Bluetooth configuration and automatic induction arming/disarming, one-way remote voice listening for emergencies, and a range of alarm types including ACC ignition, door open, shock/vibration and geo-fence events. Optional fuel monitoring is available when paired with an approved fuel sensor, making the BN-403D a practical choice for anti-theft, fleet management and insurance telematics projects integrated with Plaspy.
+As a device that is Plaspy compatible out of the box, the BN-403D can feed location, status and alarm events into Plaspy for unified fleet monitoring and incident response. Plaspy users can use the BN-403D to maintain live visibility, trigger alerts, and review historical tracks and events across mixed vehicle fleets without needing separate integrations.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker with real-time tracking and track playback for fast situational awareness and fleet management.
-- Wide-area connectivity: LTE \(4G\) plus fallback to 2G ensures continuous reporting across network conditions.
-- Concealed vehicle installation with direct 12V–24V power connection and a rechargeable backup battery for uninterrupted telemetry.
-- Bluetooth configuration and automatic induction arming/disarming for convenient setup and accessory pairing.
-- Comprehensive alarms: ACC/ignition, door open, shock/vibration, overspeed, geo-fence, SOS and low battery/external power loss.
-- One-way remote voice listening for emergency situations and a relay + remote power cut control for controlled shutdowns.
-- Optional fuel query and fuel detection alarm when used with the compatible fuel sensor — useful for fuel monitoring and loss prevention.
+- Real time tracking and track playback for rapid situational awareness and post event review.
+- LTE connectivity with fallback to 2G to maintain reporting across varied coverage areas.
+- Concealed vehicle installation with direct vehicle power and a built in rechargeable backup battery to preserve telemetry when external power is lost.
+- Bluetooth configuration and automatic induction arming and disarming for easier commissioning and accessory pairing.
+- Comprehensive alarm set including ignition ACC, door open, shock or vibration, geo fence, SOS and low power or external power loss.
+- One way remote voice listening and a relay for controlled remote power cut provide additional options for emergency response and anti theft measures.
+- Optional fuel query and fuel detection alarm support when used with a compatible external fuel sensor.
 
 ## How It Works with Plaspy
 
-The BN-403D integrates with Plaspy using industry-standard transport protocols to deliver continuous location and telemetry into the Plaspy platform. Position fixes, status updates and alarm events are forwarded over TCP, UDP or SMS so Plaspy dashboards and mobile apps receive timely information for real-time tracking, geofence enforcement and historical playback. Configuration commands can be issued remotely or via Bluetooth for on‑vehicle setup.
+When connected with Plaspy, the BN-403D delivers position updates, status changes and alarm events to the Plaspy platform so teams can monitor vehicles in real time and review historical journeys. Configuration can be performed remotely or locally via Bluetooth, and Plaspy presents incoming telemetry through dashboards, alerts and reports that are useful for operational oversight.
 
-- Real-time location and telemetry updates transmitted to Plaspy for live tracking and route playback.
-- Ignition \(ACC\), door and alarm status reporting for anti-theft and operational monitoring.
-- Optional fuel monitoring: remaining fuel queries and fuel detection alarms when paired with the supported fuel sensor.
-- Remote power cut control via the included relay—commonly used to disable vehicle power safely from Plaspy when required.
-- Bluetooth configuration for quick setup and automatic induction arming/disarming; compatible with in-vehicle accessories and easy commissioning.
+- Real time location updates and route playback visible in Plaspy dashboards for fleet monitoring.
+- Alarm and status reporting such as ignition, door events, shock and geo fence triggers for incident detection.
+- Optional fuel monitoring data forwarded to Plaspy when the tracker is paired with a supported fuel sensor to help track consumption and losses.
+- Remote power cut control via the included relay to support vehicle immobilization workflows managed from Plaspy.
+- Bluetooth based device configuration and induction arming for simplified on vehicle setup and commissioning.
+- Alerts and notifications routed through Plaspy to notify operators of critical events and exceptions.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE \(4G\) and 2G GSM communication |
-| --- | --- |
-| Bands | Bands: B1/B2/B3/B4/B5/B7/B8/B28A/B28B/B40; 2G: 850/900/1800/1900 MHz |
-| Power & Battery | Vehicle power 12V–24V direct connection; built-in rechargeable 3.7V 300mAh Li-ion backup battery |
-| Interfaces | Relay included; external microphone; extension cord with SOS and remote control; ACC/ignition input and digital I/O for alarms |
-| GNSS | High-precision GNSS receiver, sensitivity to -165 dBm; typical GPS accuracy ~5 m; TTFF: cold 45 s, warm 35 s, hot 1 s |
-| Bluetooth | Bluetooth configuration for device setup and automatic induction arming/disarming |
-| Remote Management | Supports TCP, UDP and SMS transport protocols for reporting and remote configuration; real-time online reporting and configurable SMS commands |
-| Environmental | Operating temperature -20°C to +45°C; storage -40°C to +85°C; humidity 5%–95% non‑condensing |
-| Form Factor | Compact vehicle-mounted terminal; dimensions 9.6 × 5.3 × 1.8 cm; weight ~70 g |
-
-## Use Cases
-
-- Private car anti-theft: concealed installation, door/ACC/shock alarms and remote power cut control help protect personal vehicles.
-- Fleet management and logistics: real-time tracking, track playback and geofence management support route monitoring and operational control.
-- Automotive risk control and insurance telematics: telemetry and alarm records enable incident analysis and policy-backed monitoring.
-- Public vehicle and transportation management: one-way voice listening and configurable alerts assist in driver safety and incident response.
-- Fuel monitoring and loss prevention: optional fuel sensor support provides remaining fuel queries and fuel detection alarms for mixed fleets.
+- Private vehicle anti theft with concealed installation, alarm reporting and remote power cut capability.
+- Fleet management and logistics where real time tracking, geofence alerts and track playback support route supervision.
+- Insurance telematics and risk control projects that require event logging and historical analysis.
+- Public transport and driver safety programs leveraging one way voice listening and configurable alerts for incident response.
+- Fuel monitoring and loss prevention for mixed fleets using an approved external fuel sensor.
 
 ## Why Choose This Tracker with Plaspy
 
-When integrated with Plaspy, the BN-403D delivers a balanced solution for customers seeking dependable GPS tracking, telemetry and anti-theft capabilities. Its LTE/2G network support and smart low-power mode provide consistent reporting while conserving energy when vehicles are stationary. Bluetooth configuration simplifies installation and commissioning, and the compact form factor enables concealed mounting for enhanced security.
+The BN-403D is a practical choice for organizations that need a compact vehicle tracker with broad alarm coverage and easy provisioning. Its cellular connectivity and built in backup power help maintain continuous reporting for moving vehicles and during short power interruptions, while Bluetooth configuration reduces the time required for initial setup. These traits make the BN-403D well suited to fleet managers, small transport operators and vehicle security programs that want consistent visibility without excessive complexity.
 
-For fleet managers and telematics projects, the BN-403D brings practical alarm coverage \(ignition, door, shock, overspeed, geo-fence, SOS and power loss\), one-way voice monitoring for critical events, and optional fuel monitoring to control operating costs. Combined with Plaspy’s real-time dashboards, alerts and playback, this tracker is a cost-effective choice for scalable fleet management, anti-theft protection and vehicle telemetry programs.
-
+Plaspy complements the BN-403D by aggregating location data, alarms and optional fuel metrics into a single operational view, enabling teams to set up alerts, perform playback and generate reports across large fleets. To learn more about Plaspy and how the BN-403D can fit into your tracking strategy visit https://www.plaspy.com. Please note that product specifications, availability and manufacturer details can change over time and should be verified with the official manufacturer documentation at https://www.coban.net/.

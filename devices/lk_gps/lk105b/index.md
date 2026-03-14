@@ -2,41 +2,59 @@
 slug: /lk_gps/lk105b
 id: lk105b
 sidebar_label: LK105B
+title: LK-GPS - LK105B
 sidebar_class_name: menu_item_tracker
+description: Compact LK GPS LK105B pet tracker compatible with Plaspy for real time location tracking SOS alerts and history playback
+keywords:
+  - LK GPS LK105B
+  - LK105B tracker
+  - pet GPS tracker
+  - mini pet tracker
+  - real time tracking
+  - Plaspy compatible
+  - pet safety tracker
+  - SOS pet tracker
+  - location history tracker
+  - waterproof tracker
 ---
+
 # LK-GPS - LK105B
 
 ![LK105B](./logo..jpg)
 
-The KJ-GPS LK105B Mini Pet GPS Tracker is a compact and reliable device designed to keep your furry friends safe and secure. With its advanced GPS and Location Based Service \(LBS\) technology, you can easily track the real-time location of your pets, ensuring their safety at all times. Whether you have dogs or cats, this anti-lost device is perfect for keeping an eye on your beloved pets.
+The LK-GPS LK105B is a compact mini pet GPS tracker designed to help pet owners keep close tabs on dogs and cats. It combines GPS and LBS location methods to provide continuous position updates, supports real time tracking from a smartphone or web platform, and includes features such as location history playback, voice communication around the device, and an SOS alarm for emergencies.
 
-One of the standout features of the LK105B is its real-time tracking capability. You can track the location of your pets in real-time using your cell phone or the platform provided. The device also supports location updates every 5 seconds, with an impressive GPS accuracy of 5 meters. This ensures that you always have accurate and up-to-date information about your pet's whereabouts.
+Because the LK105B provides frequent location updates, history playback and alert functions, it is a practical candidate for use with Plaspy. Plaspy can display the device location on maps, record route history, and surface alarms and movement notifications so pet owners and small asset managers gain consistent visibility and quick notification when events occur.
 
-In addition to real-time tracking, the LK105B offers a range of other useful features. You can check the history of your pet's routes on the platform, allowing you to review their movements over the past year. The device also has a communication function, allowing you to hear the voice around the tracker and even communicate with your pet using your cell phone.
+## Key Highlights
 
-With its SOS alarm button, the LK105B provides an added layer of security. In case of an emergency, simply press the SOS button and the tracker will send an "help me" SMS to all authorized phone numbers and the web platform. This ensures that you can quickly respond to any potential dangers or emergencies.
+- Real time location tracking suitable for pets and small personal items
+- Location updates as frequently as every 5 seconds for near real time visibility
+- Reported GPS accuracy on the order of meters to support precise location discovery
+- SOS alarm button that notifies authorized contacts and the tracking platform
+- Voice monitoring and two way communication capability via a mobile phone
+- Compact waterproof design and power saving behavior for everyday use
 
-The LK105B is designed with power-saving features, automatically going into standby mode when there is no vibration for 5 minutes. It will then switch back to working mode as soon as it detects any movement. This helps to conserve battery life and ensures that the device is always ready to track your pet.
+## How It Works with Plaspy
 
-With its small size and waterproof design, the LK105B is perfect for both indoor and outdoor use. It is easy to install and can be used for tracking not only pets but also personal belongings or even people. The device supports both Android and Apple APP tracking, allowing you to conveniently monitor your pet's location from your smartphone.
+When paired with Plaspy, the LK105B streams location and event information to the Plaspy platform so you can monitor activity on a unified map and use platform tools to manage alerts and history. Plaspy ingests the tracker's position updates and presents them alongside other tracked assets for centralized oversight.
 
-Overall, the KJ-GPS LK105B Mini Pet GPS Tracker is a reliable and versatile device that offers real-time tracking, communication, and SOS features to keep your pets safe and secure. Its compact size, waterproof design, and easy installation make it a great choice for pet owners who want peace of mind knowing that their furry friends are always within reach.
+- View live location on the Plaspy map for quick situational awareness
+- Access historical routes and playback movement to review past activity
+- Receive and manage SOS and movement alerts through Plaspy notification channels
+- Create geofence style alerts and monitor entries and exits for defined areas
+- Use reporting and export features in Plaspy to analyze location trends over time
 
-### Highlighted Features:
+## Typical Use Cases
 
-- Real-time tracking with cell phone and platform
-- Location history playback on the web platform
-- Communication with the tracker via cell phone
-- SOS alarm button for emergencies
-- Power-saving mode for extended battery life
-- Supports Google Maps for easy location checking
-- Geo-fence and movement alert for added security
+- Tracking family pets to quickly locate a lost or wandering animal
+- Monitoring animals at a daycare or boarding facility for oversight
+- Attaching to small valuable items or portable equipment for recovery support
+- Providing discreet location awareness for personal safety and check ins
+- Recording movement history for behavioral review or operational records
 
-### Technical Specifications:
+## Why Choose This Tracker with Plaspy
 
-- CPU: SC9820E
-- Network frequency band: LTE: B1 B2 B3 B4 B5 B7 B8 B12 \(17\) B20 B28 B38 B39 B40 B41, WCDMA: B1 B2 B5 B8, GSM: 850/900/1800/1900
-- Tracking sensitivity: -159dBm
-- Capture sensitivity: -148dBm
-- Positioning accuracy: \<10m \(2DRMS\)
+The LK105B pairs practical pet focused features with compact hardware that fits daily life. Its real time updates, SOS function, and history playback align well with Plaspy capabilities for map display, alerting, and reporting, making it a sensible option for pet owners and small scale asset monitoring projects.
 
+If you want a lightweight tracker that can feed consistent position and event data into a single monitoring platform, the LK105B is a compatible choice to consider. To learn more about Plaspy and how it can present and manage LK105B data visit https://www.plaspy.com. Product specifications and availability can change over time so please verify current technical details and official documentation with the manufacturer at https://www.lk-gps.com.

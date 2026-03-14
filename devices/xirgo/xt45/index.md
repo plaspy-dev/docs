@@ -2,60 +2,59 @@
 slug: /xirgo/xt45
 id: xt45
 sidebar_label: XT45
+title: Xirgo - XT45
 sidebar_class_name: menu_item_tracker
+description: Rugged Xirgo XT45 GPS tracker compatible with Plaspy for reliable asset tracking and remote monitoring in intermittent power environments
+keywords:
+  - Xirgo XT45
+  - XT45 GPS tracker
+  - Xirgo tracker
+  - XT45 Plaspy compatible
+  - XT45 fleet tracking
+  - rugged GPS tracker
+  - intermittent power tracker
+  - asset protection tracker
+  - remote equipment tracking
+  - trailer tracking
 ---
+
 # Xirgo - XT45
 
 ![XT45](./tracker.webp)
 
-The XT45 is a rugged GPS tracker engineered for reliable asset protection and remote monitoring where power is intermittent. Built with integrated cellular and GPS connectivity, extended temperature tolerance, and supervisory inputs/outputs for control and monitoring, the XT45 is designed to keep location and status telemetry flowing even in extreme conditions where many competing devices fail. As a Plaspy compatible tracker, the XT45 delivers the consistent, actionable data Plaspy users expect for real-time tracking and operational oversight.
+The XT45 is a rugged GPS tracker engineered for reliable asset protection and remote monitoring where power is intermittent. Built with integrated cellular and GPS connectivity, extended temperature tolerance, and supervisory inputs and outputs for control and monitoring, the XT45 is intended to keep location and status telemetry flowing in conditions where many competing devices fail. Its design emphasizes durability and consistent reporting for assets exposed to harsh environments.
 
-Deployed on trailers, construction machinery, remote equipment, or any high-value asset with part-time power availability, the XT45 provides a durable platform for fleet management, anti-theft workflows, and remote telemetry. Its rugged housing and supervisory interfaces make it simple to integrate ignition sensing, immobilizer control, and other vehicle inputs into Plaspy to enable alerts, geofencing, and historical reporting.
+As a Plaspy compatible device, the XT45 delivers the steady, actionable data Plaspy users expect for real-time tracking and operational oversight. Integration with Plaspy makes it straightforward to view live positions, receive event alerts, and include XT45 telemetry in fleet reports and historical playback, helping teams maintain visibility across trailers, construction equipment, and other remote assets with part-time power availability.
 
 ## Key Highlights
 
-- Plaspy compatible — delivers reliable GPS tracker data to Plaspy for real-time tracking and reporting.
-- Resilient under extreme conditions — engineered to continue GPS tracking where others fail.
-- Integrated cellular and GPS connectivity — simplifies installation and cloud integration.
-- Supervisory inputs/outputs — enables control and monitoring use cases such as ignition sensing and remote immobilizer control.
-- Rugged housing and extended temperature range — suitable for construction, trailers, and exposed remote assets.
-- Designed for intermittent power — performs reliably when installed on assets with part-time power availability.
-- Optimized for telemetry — supports asset health and location reporting that enhances fleet management and anti-theft strategies.
+- Plaspy compatible for direct delivery of location and telemetry into Plaspy dashboards and reports
+- Rugged housing and extended temperature tolerance suited to exposed assets and harsh environments
+- Integrated cellular and GPS connectivity simplifies cloud reporting and reduces external dependencies
+- Supervisory inputs and outputs enable ignition sensing, immobilizer control, and event driven workflows
+- Designed to operate reliably with intermittent or part time power on remote equipment
+- Practical for fleet anti-theft, asset protection, and ongoing remote monitoring requirements
 
 ## How It Works with Plaspy
 
-The XT45 streams GPS position fixes and supervisory telemetry to Plaspy using its integrated cellular link. Plaspy ingests that data for live maps, historical playback, alerts, and reports. Because the XT45 is built to operate under intermittent power, Plaspy can still receive timely location and status updates during brief power windows or harsh environmental conditions.
+The XT45 streams GPS positions and supervisory telemetry to Plaspy using its integrated connectivity so operators can monitor live locations, receive event notifications, and analyze historical data. Plaspy ingests that incoming data and surfaces it through maps, alerts, and reports to support operational decisions and incident response, even when assets only have brief power windows.
 
-- Real-time location and telemetry updates — Plaspy displays live positions and status on dashboards and mobile apps.
-- Ignition, door, and alarm status — supervisory inputs can feed discrete event data \(e.g., ignition on/off\) into Plaspy for alerting and analytics.
-- Fuel monitoring and telemetry-ready — supervisory I/O and telemetry can support integrations that track fuel events when paired with appropriate sensors.
-- Remote immobilizer and control — use the XT45’s outputs to trigger immobilizer actions or remote shutdown sequences via Plaspy workflows.
-- Bluetooth sensors — where Bluetooth peripherals are used in a solution, Plaspy can correlate external Bluetooth sensor data with XT45 location and telemetry for complete context.
+- Real time location and telemetry displayed on Plaspy maps and dashboards for fleet visibility
+- Event and status alerts driven by supervisory inputs such as ignition or alarm changes
+- Geofence alerts and historical playback to support investigations and route review
+- Use outputs for remote immobilizer actions or other control workflows initiated from Plaspy
+- Correlation of external sensor data, including compatible peripherals, with XT45 location and status for fuller context
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | XT45 |
-| --- | --- |
-| Connectivity | Integrated cellular and GPS |
-| Bands | Not specified |
-| Power & Battery | Designed for operation with intermittent/part-time power; built to continue GPS tracking under extreme conditions |
-| Interfaces | Supervisory inputs/outputs for control and monitoring \(ignition sensing, control outputs\) |
-| GNSS | GPS integrated |
-| Bluetooth | Not specified |
-| Remote Management | Not specified |
-| Form Factor | Rugged housing; suitable for remote equipment, trailers, construction machinery; extended temperature range |
-
-## Use Cases
-
-- Fleet anti-theft and immobilization — detect unauthorized movement, trigger alerts, and execute remote immobilizer actions through supervisory outputs.
-- Remote equipment and construction machinery monitoring — continuous location and status telemetry even with intermittent power on site.
-- Trailer and asset tracking — durable housing and extended temperature tolerance make the XT45 ideal for exposed trailers and towed assets.
-- Telemetry and fuel event correlation — supervisory inputs enable fuel-related telemetry and event logging when paired with fuel sensors.
-- General high-value asset protection — maintain geofence alerts, historical playback, and maintenance scheduling for remote assets.
+- Trailer tracking and protection for towed assets exposed to weather and long idle periods
+- Construction machinery monitoring where site power is intermittent and conditions are harsh
+- Remote equipment and generator visibility to confirm location and operational status
+- Fleet anti-theft workflows using geofencing, alerts, and remote immobilizer actions
+- High value asset protection that requires durable hardware and consistent telemetry
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the XT45 with Plaspy gives you a dependable GPS tracker engineered for harsh environments and intermittent power conditions. Its integrated cellular/GPS design and supervisory I/O make it straightforward to capture the telemetry needed for fleet management, anti-theft workflows, and remote control actions. Plaspy’s platform then turns that telemetry into real-time tracking, alerts, and reports — providing operators with immediate situational awareness and the ability to act, whether through immobilizer commands, ignition monitoring, or event-driven notifications.
+The XT45 is a practical option for organizations that need a durable tracker capable of reliable reporting in challenging deployments. Its combination of rugged construction, supervisory I O, and tolerance for intermittent power aligns with common fleet and asset protection requirements, making it a natural fit for Plaspy users who need continuous situational awareness and straightforward event driven control.
 
-For organizations that manage remote equipment, trailers, or construction fleets, the XT45 represents a practical, resilience-focused choice. Its rugged construction and compatibility with Plaspy reduce installation complexity and increase uptime for mission-critical tracking and asset protection programs. Integrate the XT45 with Plaspy to unlock reliable location intelligence, robust telemetry, and simplified remote management across even the most challenging deployments.
-
+If your operations include trailers, remote machinery, or other exposed assets, pairing the XT45 with Plaspy can reduce blind spots and streamline monitoring and alerting workflows. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current technical information on the official manufacturer site https://xirgo.com/.

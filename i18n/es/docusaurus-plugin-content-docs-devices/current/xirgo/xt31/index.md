@@ -2,58 +2,60 @@
 slug: /xirgo/xt31
 id: xt31
 sidebar_label: XT31
+title: Xirgo - XT31
 sidebar_class_name: menu_item_tracker
+description: Gateway IoT para remolques y contenedores con sensores de carga y métricas de capacidad compatible con Plaspy
+keywords:
+  - Xirgo XT31
+  - rastreador XT31
+  - XT31 Plaspy
+  - gateway de carga Xirgo
+  - telemática de contenedores
+  - monitoreo de remolques
+  - monitoreo de carga
+  - gateway industrial IoT
+  - rastreo de flotas
+  - rastreador compatible Plaspy
 ---
+
 # Xirgo - XT31
 
 ![XT31](./tracker.webp)
 
-El XT31 es una pasarela IoT industrial compatible con Plaspy y una solución de monitoreo de carga diseñada para telemática de remolques y contenedores. Como una pasarela completa con sensores de carga integrados y evaluación remota de capacidad, el XT31 ofrece información de estado en tiempo real e histórica basada en eventos que ayuda a las flotas y a los operadores logísticos a tomar decisiones más rápidas y basadas en datos.
+El XT31 es un gateway IoT industrial y una solución de monitoreo de carga diseñada para la telemática de remolques y contenedores. Como gateway completo con sensores integrados para la detección de carga y evaluación remota de capacidad, el XT31 genera información de estado en tiempo real y registros históricos basados en eventos, lo que ayuda a flotas y operadores logísticos a tomar decisiones más rápidas y fundamentadas sobre sus activos y el estado de la carga.
 
-Diseñada específicamente para telemática de carga y contenedores, donde se requieren fusiones de sensores integradas y capacidad de la pasarela, el XT31 complementa las implementaciones de rastreadores GPS y plataformas de gestión de flotas. Al combinarse con Plaspy, el XT31 alimenta telemetría e insights de carga en una única vista para optimizar el enrutamiento, la utilización de activos y los procesos de seguridad.
+Al ser compatible con Plaspy, la telemetría de la carga y los datos del gateway provenientes del dispositivo pueden consolidarse en Plaspy para lograr visibilidad centralizada. Al integrarse con Plaspy, el XT31 complementa los flujos de datos de los rastreadores GPS y los procesos operativos de la flota al aportar información sobre la carga, métricas de capacidad y registros de eventos en una sola vista operativa utilizada para enrutamiento, utilización y monitoreo de seguridad.
 
-## Puntos clave
+## Características principales
 
-- Compatible con Plaspy: integra datos de carga y de la pasarela en la plataforma Plaspy para monitoreo y reporte centralizados.
-- Sensado de carga integrado: entradas de sensores nativas capturan la condición y el estado de la carga sin necesidad de middleware adicional.
-- Evaluación remota de la capacidad de remolques y contenedores: proporciona métricas que ayudan a planificar la carga, reducir viajes en vacío y optimizar la utilización.
-- Alertas basadas en eventos y registros históricos: permiten acciones operativas oportunas y análisis post‑viaje para auditorías y cumplimiento.
-- Diseñado para telemática de contenedores y remolques: desarrollado alrededor de casos reales de flota y usos intermodales.
-- Complementa los rastreadores GPS y los sistemas de telemetría: funciona junto a dispositivos de ubicación para una visión situacional completa.
-- Enfoque de pasarela IoT escalable: consolida los datos de sensores en el borde para reducir el backhaul y simplificar integraciones.
+- Integración compatible con Plaspy para monitoreo y generación de informes centralizados
+- Sensores de carga integrados para capturar el estado y las condiciones de la carga en el borde
+- Evaluación remota de capacidad de remolques y contenedores para apoyar la planificación y la utilización
+- Alertas activadas por eventos y registros históricos para facilitar acciones oportunas y análisis post viaje
+- Diseñado específicamente para telemática de contenedores y remolques y casos de uso intermodales
+- Complementa despliegues de rastreadores GPS para una mayor visibilidad operativa
+- Enfoque escalable de gateway para consolidar datos de sensores y simplificar la ingestión
 
 ## Cómo funciona con Plaspy
 
-El XT31 envía el estado de la carga, lecturas de sensores y evaluaciones de capacidad a Plaspy, donde los datos se normalizan, visualizan y se actúan. Plaspy ingiere actualizaciones basadas en eventos y registros históricos del XT31 para generar alertas, informes y tableros para gerentes de flota y equipos de operaciones. Dado que el XT31 se centra en telemática de carga y contenedores, se integra de forma natural con las fuentes de rastreadores GPS en Plaspy para crear una visión completa de ubicación, condición y utilización.
+El XT31 envía el estado de la carga, lecturas de sensores y evaluaciones de capacidad a Plaspy, donde los datos se normalizan, visualizan y se actúa sobre ellos. Plaspy ingiere actualizaciones impulsadas por eventos y registros históricos del XT31 para generar alertas, informes y paneles que los gerentes de flota y los equipos de operaciones pueden utilizar para mejorar la toma de decisiones y los tiempos de respuesta.
 
-- Telemetría de carga en tiempo real y actualizaciones de estado entregadas a Plaspy para una respuesta operativa rápida.
-- Alertas basadas en eventos \(por ejemplo, carga/descarga, umbrales superados\) que activan notificaciones y flujos de trabajo en Plaspy.
-- Datos históricos de estado y tendencias almacenados y visualizados en Plaspy para análisis e informes.
-- Evaluación remota de la capacidad de remolque/contenedor para respaldar decisiones de planificación y despacho dentro de los tableros de Plaspy.
-- Se integra con datos de rastreadores GPS y módulos de gestión de flotas en Plaspy para correlacionar ubicación, carga y flujos de telemetría.
+- Telemetría de carga y actualizaciones de estado en tiempo real entregadas a Plaspy para la respuesta operativa
+- Alertas basadas en eventos, como notificaciones de carga o umbrales, que activan flujos de trabajo en Plaspy
+- Datos históricos de estado y tendencias almacenados y visualizados en Plaspy para análisis e informes
+- Evaluaciones remotas de capacidad visibles en paneles para informar planes de despacho y carga
+- Correlación con flujos de rastreadores GPS y módulos de flota en Plaspy para alinear ubicación con el estado de la carga
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | XT31 |
-| --- | --- |
-| Tipo de dispositivo | Pasarela IoT industrial con monitoreo de carga integrado |
-| Capacidades clave | Detección integrada de carga; evaluación remota de la capacidad de remolques y contenedores; informes de estado basados en eventos e históricos |
-| Uso previsto | Telemática de remolques y contenedores; monitoreo de carga y apoyo a la toma de decisiones |
-| Tipos de datos | Estado de la carga en tiempo real e histórico, telemetría de sensores y registros de eventos |
-| Integración de sensores | Soporta sensores de carga integrados y agregación de la pasarela para ecosistemas de sensores a bordo |
-| Formato | Pasarela industrial diseñada para remolques y contenedores |
-
-## Casos de uso
-
-- Planificación de capacidad de flota: evaluar de forma remota las cargas de los remolques para mejorar las decisiones de despacho y reducir los viajes en vacío.
-- Monitoreo de la condición de contenedores: seguir el estado de la carga y los eventos de sensores a lo largo de trayectos intermodales para garantizar la calidad.
-- Operaciones en patios y puertos: agrupar datos de sensores y eventos en la pasarela para acelerar los tiempos de giro en patios y el flujo de activos.
-- Telemetría integrada para logística: fusionar datos de carga del XT31 con las señales de los rastreadores GPS en Plaspy para obtener una visión más completa de la gestión de la flota.
-- Análisis post‑viaje y auditoría: utilizar el estado histórico y los registros de eventos para validar el manejo, reclamaciones y cumplimiento.
+- Planificación de capacidad de flota para reducir viajes con unidades vacías y mejorar la asignación de cargas
+- Monitoreo de la condición de contenedores a lo largo de trayectos intermodales para asegurar la calidad
+- Operaciones en patios y puertos para acelerar la rotación de activos usando datos agregados del gateway
+- Telemetría integrada para logística que combina información de carga con datos de ubicación
+- Análisis y auditoría post viaje empleando registros históricos de eventos para validación e informes
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el XT31 como parte de una implementación compatible con Plaspy ofrece a los equipos de operaciones un enfoque de telemetría centrado en la carga que complementa la funcionalidad tradicional de los rastreadores GPS. En lugar de reemplazar los dispositivos de ubicación, el XT31 enriquece la gestión de flotas con información sobre la condición de la carga y su capacidad, lo que mejora el enrutamiento, la utilización y la entrega de servicios. Plaspy ingiere estos datos para proporcionar paneles unificados, alertas automáticas y análisis en toda la flota.
+El XT31 ofrece un enfoque de telemetría centrado en la carga que mejora el seguimiento tradicional de ubicación al sumar inteligencia sobre condición y capacidad. Para organizaciones que gestionan remolques y contenedores, combinar el XT31 con Plaspy ayuda a obtener una imagen operativa más completa sin reemplazar los rastreadores GPS existentes, permitiendo que su equipo actúe sobre la ubicación y el estado de la carga desde una sola plataforma.
 
-Para las organizaciones que requieren telemetría confiable entre remolques y contenedores, el XT31 ofrece una solución de pasarela enfocada que se integra con rastreadores GPS existentes y plataformas de gestión de flotas. Utilice el XT31 con Plaspy para ampliar capacidades como rastreo en tiempo real, gestión de flota, monitoreo antirrobo y generación de informes de telemetría. También admite estrategias de integración en las que la monitorización de combustible, eventos de encendido, control del inmovilizador y sensores Bluetooth son gestionados por dispositivos complementarios o módulos del sistema dentro del ecosistema Plaspy, consolidando todos los datos en una única vista operativa.
-
+Si sus operaciones dependen de la visibilidad de la carga, métricas de utilización y alertas activadas por eventos, el XT31 es una opción de gateway enfocada que se integra con Plaspy para respaldar los flujos de trabajo de enrutamiento, utilización y seguridad. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales en el sitio oficial de Xirgo https://xirgo.com/.

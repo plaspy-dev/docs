@@ -2,58 +2,59 @@
 slug: /megastek/mt80
 id: mt80
 sidebar_label: MT80
+title: Megastek - MT80
 sidebar_class_name: menu_item_tracker
+description: Resumen y compatibilidad con Plaspy del reloj GPS Megastek MT80 para monitoreo de pacientes y cuidado de adultos
+keywords:
+  - Megastek MT80
+  - rastreador GPS MT80
+  - reloj GPS Megastek
+  - compatible con Plaspy
+  - reloj con telemetría de salud
+  - rastreador para cuidado de adultos
+  - dispositivo de monitoreo de pacientes
+  - rastreador GPS portátil
+  - software de rastreo MT80
+  - seguimiento de flotas MT80
 ---
+
 # Megastek - MT80
 
 ![MT80](./tracker.jpg)
 
-El MT80 Series Health Care GPS Watch de MT80 \(nombre del fabricante según se indique\) es un rastreador GPS compatible con Plaspy, diseñado para telemetría médica y localización continua en escenarios de cuidado al aire libre de personas mayores, monitoreo de pacientes y protección personal. Construido como un reloj inteligente 4G, la MT80 Series combina seguimiento en tiempo real con sensores de salud integrados en el cuerpo —incluyendo temperatura de la piel, SpO2 y frecuencia cardíaca— además de SOS, voz bidireccional y alarmas de evento para ofrecer conciencia situacional donde cada minuto cuenta.
+La serie Megastek MT80 es un reloj GPS orientado al cuidado de la salud, diseñado para ofrecer ubicación continua y telemetría médica en el cuerpo. Como familia de variantes de smartwatches 4G, el MT80 combina seguimiento en tiempo real con sensores de salud como temperatura de la piel, SpO2 y frecuencia cardíaca, además de funciones de SOS, voz bidireccional y alertas por eventos. Su forma wearable compacta, resistente al agua y con carga inalámbrica lo hace apropiado para uso prolongado en entornos de atención supervisada y escenarios de protección personal.
 
-Disponible en dos variantes de hardware \(MT80BLE y MT804G\), MT80 Series ofrece opciones de conectividad flexibles para su integración con Plaspy y otras plataformas estándar de rastreo GPS. Su diseño compacto y resistente al agua, la carga inalámbrica y el probado módulo GNSS Ublox MAX‑8Q hacen del MT80 un rastreador GPS fiable para personas supervisadas, trabajadores solitarios y activos que requieren telemetría de salud junto con datos de ubicación.
+Como dispositivo compatible con Plaspy, el MT80 puede enviar datos de ubicación, eventos y telemetría de salud a la plataforma Plaspy para monitoreo en vivo, generación de alertas y análisis histórico. La serie ofrece dos variantes de hardware y opciones de conectividad flexibles, lo que permite a integradores y equipos de cuidado encaminar los datos de seguimiento y telemetría hacia Plaspy para visibilidad operativa, gestión de alarmas e informes sobre individuos monitorizados y pequeñas flotas.
 
-## Puntos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy: envía ubicación en tiempo real e informes de eventos a través de SMS/GPRS \(TCP/UDP\) a plataformas de rastreo estándar.
-- Telemetría de salud integrada: temperatura de la piel, oxígeno en sangre \(SpO2\) y monitoreo de la frecuencia cardíaca \(MT80BLE\) para atención continua de pacientes y personas mayores.
-- Variantes de conectividad dual: reenvío Bluetooth 5.0 \(MT80BLE\) o posicionamiento y subida asistidos por Wi‑Fi \(MT804G\).
-- Posicionamiento satelital fiable: módulo GNSS Ublox MAX‑8Q para fijaciones GPS consistentes y consulta de historial de trazas.
-- Características de seguridad integrales: alarma SOS, voz bidireccional, alertas de geocerca, batería baja, detección de cinturón puesto/quitar y alarmas de corte.
-- Diseño duradero y ponible: clasificación IP66–67 a prueba de agua, carga inalámbrica y peso neto ligero de ≈ 75 g.
-- Soporta protocolos de telemetría estándar y personalización de protocolo para integradores y despliegues OEM.
+- Reloj de salud GPS compatible con Plaspy que reporta ubicación y eventos para monitoreo en tiempo real.
+- Telemetría de salud integrada, incluyendo temperatura de piel, oxigenación SpO2 y frecuencia cardíaca para atención de pacientes y adultos mayores.
+- Alarma SOS y comunicación bidireccional para respuesta inmediata ante incidentes.
+- Dos variantes de hardware con reenvío vía Bluetooth o posicionamiento asistido por Wi‑Fi para adaptarse a distintas necesidades de conectividad.
+- Módulo GNSS probado para posicionamiento satelital consistente y un historial de trayectos fiable.
+- Diseño wearable con resistencia al agua y carga inalámbrica para comodidad en el uso diario.
+- Soporte para reportes de telemetría estándar y personalización de protocolos para facilitar la integración.
 
 ## Cómo funciona con Plaspy
 
-Integrar la MT80 Series con Plaspy es sencillo gracias al soporte del dispositivo para métodos de reporte estandarizados de la industria y a la personalización de protocolos. El reloj puede configurarse para entregar ubicación, eventos y telemetría de salud a los puntos de ingestión de Plaspy a través de TCP/UDP GPRS o SMS, posibilitando rastreo en tiempo real, alertas y reproducción histórica en el panel de Plaspy.
+La serie MT80 se integra con Plaspy enviando ubicación, eventos y telemetría de salud a los endpoints de ingestión de Plaspy mediante los métodos de reporte estándar del dispositivo. Una vez configurados, los datos del reloj aparecen en Plaspy para monitoreo, alertas y análisis histórico, permitiendo que cuidadores y operadores mantengan conciencia situacional desde un tablero central.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas por SMS/GPRS \(TCP/UDP\) para rastreo en vivo en Plaspy.
-- Reenvío de datos de salud: MT80BLE utiliza Bluetooth 5.0 para enviar temperatura, SpO2 y frecuencia cardíaca a un teléfono emparejado o a Plaspy a través del gateway del teléfono.
-- Posicionamiento y carga de datos asistidos por Wi‑Fi en MT804G para mejorar la fiabilidad y la velocidad de las fijaciones en entornos urbanos.
-- SOS, voz bidireccional y eventos de alarma \(geocerca, batería baja, detección de cinturón puesto/quitar\) reportados en tiempo real para coordinar respuestas rápidas.
-- Personalización de protocolos y compatibilidad con terceros permiten a los integradores mapear los campos del dispositivo a la telemetría y al esquema de alarmas de Plaspy.
+- Actualizaciones de ubicación y eventos en tiempo real entregadas a Plaspy para seguimiento activo y visualización en mapas.
+- Reenvío de telemetría de salud para que temperatura, SpO2 y frecuencia cardíaca se muestren en los dashboards e informes de la plataforma.
+- Eventos de SOS y alarmas reportados a Plaspy para activar notificaciones y flujos de respuesta.
+- Reenvío específico según variante: el MT80BLE puede retransmitir datos de sensores a través de un teléfono emparejado como gateway, y el MT804G utiliza carga asistida inalámbrica para mejorar la fiabilidad de las posiciones.
+- El mapeo y la personalización de protocolos permiten a los integradores alinear los campos del MT80 con los esquemas de telemetría y alarma de Plaspy para reportes coherentes.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | Celular 2G/3G/4G \(según variante\); SMS/GPRS \(TCP/UDP\) |
-| --- | --- |
-| Bandas | Las bandas celulares varían según el modelo regional \(soporta 2G/3G/4G confirmada\) |
-| Alimentación y batería | Batería de polímero Li‑ion de 430 mAh; carga inalámbrica soportada; gestión típica de energía de wearable con control de GPS encendido/apagado |
-| Interfaces | Botón SOS, voz bidireccional, detección de cinturón puesto/quitar y corte; registro de datos GPRS; intervalos de reporte configurables |
-| GNSS | Módulo Ublox MAX‑8Q \(GPS\); soporta GPS+LBS+AGPS \(ambas variantes\) y asistencia de posicionamiento por WIFI en MT804G |
-| Bluetooth | Bluetooth 5.0 presente en MT80BLE para reenvío de sensores y emparejamiento con teléfonos |
-| Gestión remota | Personalización de protocolos; compatible con plataformas estándar de rastreo GPS \(p. ej., Teratrack, Navixy, iTrack, Gurtam, Traccar, Geotrucks\) |
-| Factor de forma | Reloj inteligente ponible; peso neto ≈ 75 g; carcasa impermeable IP66–67 |
-
-## Casos de uso
-
-- Cuidado al aire libre de personas mayores y monitoreo de pacientes con Alzheimer — ubicación continua, eventos similares a caídas y telemetría de signos vitales para cuidadores y plataformas de monitoreo.
-- Supervisión de personas en libertad condicional y protección personal — alarma SOS, alertas de geocerca y voz bidireccional para individuos supervisados que requieren responsabilidad.
-- Seguridad de trabajadores solitarios y monitoreo de personal de campo — rastreador GPS ponible con monitoreo de voz y alarmas para mejorar tiempos de respuesta y la conciencia situacional.
-- Monitoreo de salud centrado en activos — cuando datos biométricos del wearable combinados con la ubicación son relevantes para personal médico o primeros respondedores.
+- Atención al aire libre de adultos mayores y monitoreo de pacientes donde se requiere ubicación continua y conocimiento de signos vitales.
+- Protección personal e individuos supervisados que necesitan SOS, comunicación por voz y alertas por geocercas.
+- Programas de seguridad para trabajadores solitarios que requieren seguimiento wearable y escalamiento de alarmas.
+- Despliegues a pequeña escala donde los datos biométricos portátiles combinados con la ubicación mejoran la respuesta ante incidentes.
 
 ## Por qué elegir este rastreador con Plaspy
 
-La MT80 Series ofrece una combinación enfocada de telemetría de salud y seguimiento en tiempo real confiable dentro de un paquete compatible con Plaspy. Su probado módulo GNSS, múltiples opciones de conectividad y soporte para protocolos de reporte estándar facilitan la integración con Plaspy para una visibilidad inmediata a través de dispositivos y usuarios. Para organizaciones que necesitan más que localización —incluidos signos vitales, SOS y monitoreo de voz— la MT80 aporta profundidad telemétrica sin sacrificar la comodidad del wearable ni la duración de la batería.
+La serie MT80 es una opción práctica para organizaciones que necesitan más que un simple rastreo de ubicación. Su combinación de comodidad wearable, telemetría de salud y funciones de alarma complementa las capacidades de monitoreo, alerta e informes de Plaspy, resultando útil para proveedores de cuidado, equipos de seguridad y supervisores que requieren tanto conciencia posicional como datos de signos vitales.
 
-Si bien el ecosistema más amplio de Plaspy también admite características de gestión de flotas, como ignición, control de inmovilizador y monitoreo de combustible, la MT80 Series está optimizada para la supervisión personal y la telemetría médica. Los integradores pueden utilizar la personalización de protocolos y las capacidades de informes de terceros del dispositivo para mapear los datos de MT80 hacia los flujos de trabajo, alarmas e informes de Plaspy, escalando desde despliegues de atención individual hasta proyectos OEM que requieren empaquetado y documentación de patentes.
-
+Si desea más contexto sobre cómo integrar dispositivos MT80 en su despliegue de Plaspy o evaluar su idoneidad para un escenario operativo particular, conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la documentación técnica vigente y las variantes de modelo en el sitio oficial de Megastek https://www.megastek.com/.

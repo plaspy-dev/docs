@@ -2,63 +2,61 @@
 slug: /neomatica/adm700
 id: adm700
 sidebar_label: ADM700
+title: Neomatica - ADM700
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular GPS GLONASS ADM700 compatible con Plaspy resistente IP65 doble SIM y registro offline
+keywords:
+  - Neomatica ADM700
+  - ADM700 rastreador
+  - ADM700 Plaspy
+  - ADM700 GPS
+  - Neomatica rastreador
+  - rastreador vehicular ADM700
+  - seguimiento de flotas ADM700
+  - ADM700 GLONASS
+  - ADM700 doble SIM
+  - ADM700 IP65
 ---
+
 # Neomatica - ADM700
 
 ![ADM700](./tracker.png)
 
-El ADM700 es un terminal de localización GPS/GLONASS montado en vehículo, diseñado para una gestión de flotas fiable y despliegues compatibles con Plaspy. Como unidad adicional para camiones, furgonetas y equipos pesados, el ADM700 ofrece registro continuo de ubicación, velocidad y dirección con posicionamiento GPS/GLONASS y transmite telemetría por GSM/GPRS para seguimiento en tiempo real, monitorización remota y despacho. Su robusta carcasa IP65 / IK07, el soporte de doble SIM y la batería de respaldo lo convierten en un rastreador GPS fiable para aplicaciones exigentes de transporte y logística.
+El ADM700 es un terminal de seguimiento instalado en vehículo con GNSS (GPS y GLONASS) diseñado para una gestión de flotas confiable y compatible con Plaspy. Como unidad adicional para camiones, vans y maquinaria pesada, el ADM700 registra de forma continua ubicación, velocidad y rumbo, y transmite telemetría por GSM GPRS para seguimiento en tiempo real, monitoreo remoto y despacho. Su carcasa robusta con protección IP65 e IK07, la compatibilidad con doble SIM y la batería interna de respaldo lo hacen apto para entornos exigentes de transporte y logística.
 
-El ADM700 integra múltiples interfaces de vehículo — entre ellas CAN bus \(FMS/J1939\), RS-232/RS-485 y 1-Wire — además de entradas analógicas y discretas para capturar datos de sensores, telemetría de combustible y estados discretos. Con una amplia memoria interna \(hasta 150,000 registros de ruta\) y expansión opcional microSD, la unidad conserva todo el historial de rutas y eventos cuando está offline y envía los datos a Plaspy tan pronto como haya cobertura GSM. Esa combinación de robustez, profundidad de telemetría y compatibilidad con Plaspy convierte al ADM700 en una opción sólida para antirrobo, diagnóstico y optimización operativa.
+Al soportar una amplia gama de interfaces vehiculares y registro local, el ADM700 se integra de forma natural con Plaspy. El dispositivo puede enviar posiciones, registros de eventos y entradas de sensores a Plaspy, para que los operadores de flota tengan visibilidad en vivo, reproducción de rutas y registros históricos. El almacenamiento offline y las opciones de conectividad robustas permiten que Plaspy reciba los registros tan pronto como haya cobertura GSM, manteniendo continuidad para la prevención de robos, diagnósticos e informes operativos.
 
-## Puntos Clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para un seguimiento en tiempo real fiable y una gestión de despacho mediante redes GSM/GPRS.
-- GNSS de alta sensibilidad \(GPS/GLONASS, ‑165 dBm, 132 canales\) para una recepción satelital sólida en entornos difíciles.
-- Diseño robusto preparado para el campo con protección IP65 frente a polvo/agua y resistencia a impactos IK07, para flotas de construcción y trabajos pesados.
-- Interfaces de vehículo extensas: CAN bus \(FMS/J1939\), RS-232/RS-485, 1-Wire, que permiten una telemetría profunda e integración de diagnósticos.
-- Entradas/salidas flexibles: seis entradas analógicas/discretas, dos entradas de pulso y cuatro salidas de colector abierto para sensores, monitorización de encendido y control externo.
-- Doble SIM con soporte opcional de chip SIM, capacidad de voz y amplia cobertura de bandas GSM \(850/900/1800/1900\) para garantizar conectividad y respaldo.
-- Batería interna de respaldo de 1000 mAh Li‑ion \(~6 horas\) y amplia memoria interna con expansión microSD opcional para mantener los registros durante pérdidas de alimentación.
+- Rastreador GPS GLONASS compatible con Plaspy para seguimiento y despacho en tiempo real vía GSM GPRS
+- Alta sensibilidad GNSS para posicionamiento satelital fiable en entornos variados
+- Diseño resistente para campo con protección contra polvo y agua IP65 y resistencia a impactos IK07
+- Múltiples interfaces vehiculares, incluyendo CAN bus FMS J1939, RS-232, RS-485 y 1-Wire para integración de telemetría
+- Entradas y salidas flexibles: entradas analógicas y discretas, entradas de pulso y salidas colector abierto para sensores y control externo
+- Soporte de doble SIM y batería interna de respaldo para continuidad de conectividad y energía a corto plazo
+- Amplio almacenamiento interno con capacidad para registros extensos de rutas y microSD opcional para registro offline
 
-## Funcionamiento con Plaspy
+## Cómo funciona con Plaspy
 
-ADM700 envía correcciones de posición, telemetría y registros de eventos a Plaspy utilizando transportes GSM/GPRS estándar. Plaspy ingiere la ubicación y la telemetría del vehículo para proporcionar seguimiento en tiempo real, alertas, reproducción de rutas e informes de flota. Las interfaces del dispositivo permiten capturar datos de motor y combustible basados en CAN, valores de sensores analógicos y entradas discretas para eventos de estado; Plaspy asigna esas entradas a alarmas, paneles de monitorización de combustible e informes personalizados.
+El ADM700 transmite posiciones, telemetría y registros de eventos a Plaspy mediante enlaces GSM GPRS estándar, donde la plataforma consolida los datos de ubicación, alertas y la reproducción histórica. Plaspy mapea las entradas del dispositivo en paneles y reportes para que los operadores monitoreen el estado del vehículo y respondan a eventos casi en tiempo real.
 
-- Actualizaciones de ubicación y telemetría en tiempo real transmitidas por GPRS para seguimiento en vivo y alertas de geocerca.
-- Integración de CAN bus \(FMS/J1939\) para entregar telemetría del vehículo como parámetros del motor, velocidad y mensajes relacionados con el combustible a Plaspy.
-- Entradas analógicas y discretas para sensores y estado de encendido \(configuración cableada\), lo que habilita telemetría y alertas basadas en eventos.
-- Entradas de pulso adecuadas para sensores de caudal de combustible o pulsos del odómetro; Plaspy puede procesar pulsos para monitorización de combustible y análisis de kilometraje.
-- Salidas de colector abierto que pueden usarse para activar dispositivos externos; al integrarse con los sistemas del vehículo, estas salidas pueden admitir flujos de trabajo de control de inmovilizador a través de Plaspy.
-- Registro local en memoria interna \(y microSD opcional\) para una conservación continua de registros; los registros almacenados se cargan a Plaspy cuando se restablece la conectividad.
-- Gestión del dispositivo vía USB, SMS o GPRS para configuración remota y actualizaciones de firmware/parámetros mediante herramientas compatibles con Plaspy.
+- Actualizaciones de ubicación y telemetría en vivo para visibilidad de la flota, alertas de geocercas y soporte al despacho
+- Integración CAN bus para incorporar mensajes del motor y de combustible en los paneles de Plaspy
+- Entradas analógicas y discretas que proveen lecturas de sensores y eventos de encendido o estado para alarmas y reportes
+- Entradas de pulso que pueden procesarse para análisis de consumo de combustible o kilometraje y cálculos históricos
+- Salidas colector abierto disponibles para control de dispositivos externos y flujos de trabajo coordinados cuando se gestionan desde Plaspy
+- Registro local en memoria interna y microSD opcional con carga automática a Plaspy cuando se recupera la conectividad
 
-## Resumen Técnico
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS \(multibanda 850/900/1800/1900\), GPRS Clase de ranuras múltiples 12 |
-| --- | --- |
-| Bandas | GSM 850 / 900 / 1800 / 1900 |
-| GNSS | Receptor GPS / GLONASS, sensibilidad ‑165 dBm, 132 canales |
-| Alimentación y Batería | Voltaje de entrada +8.5…+48 V; batería de respaldo Li‑Ion interna de 1000 mAh \(~6 horas de funcionamiento con respaldo\) |
-| Entradas y Salidas | 6 entradas analógicas/discretas, 2 entradas de pulso/discretas, 4 salidas de colector abierto |
-| Interfaces de Vehículo | CAN bus \(FMS/J1939\), RS-485, RS-232, 1-Wire |
-| Memoria y Almacenamiento | Registro interno de hasta 150,000 registros de ruta; ranura microSD opcional \(1 GB puede aumentar los registros hasta ~8,000,000\) |
-| SIM y Voz | Funcionalidad de doble SIM con soporte opcional de chip SIM; voz compatible |
-| Robustez | Protección IP65 frente a polvo/agua, resistencia a impactos IK07 |
-| Gestión del Dispositivo | Configuración y gestión vía USB, SMS y GPRS |
-| Factor de Forma | Dimensiones ≤ 147 × 138 × 25 mm; peso hasta 250 g |
-| Bluetooth | No especificado / no se reporta Bluetooth incorporado |
+- Seguimiento de flotas y despacho para camiones, furgonetas de reparto y vehículos de servicio con monitoreo en vivo y reproducción de rutas
+- Monitoreo antirrobo y procesos de recuperación aprovechando la batería de respaldo y el registro de eventos
+- Monitoreo de combustible y detección de pérdidas mediante mensajes CAN o entradas de pulso y analógicas
+- Diagnóstico vehicular y planificación de mantenimiento usando telemetría del motor capturada desde las interfaces del vehículo
+- Seguimiento de maquinaria pesada y equipos de construcción donde la robustez y la tolerancia a amplios rangos de tensión son necesarias
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas: seguimiento en vivo de vehículos, reproducción de rutas y paneles de telemetría para camiones, furgones de reparto y flotas de servicios.
-- Monitoreo y recuperación anti‑robo: resiliencia ante manipulación y pérdida de energía con batería de respaldo y registro de eventos para una respuesta oportuna.
-- Monitorización de combustible y telemetría: integra mensajes CAN de combustible o sensores de pulso/analógicos a Plaspy para análisis de consumo y detección de pérdidas.
-- Diagnóstico y mantenimiento del vehículo: leer datos del motor y diagnósticos mediante CAN para programar mantenimientos y reducir el tiempo de inactividad.
-- Seguimiento de equipos pesados y maquinaria de construcción: protección mecánica robusta y amplio rango de tensión de entrada para entornos exigentes.
+Integrar el ADM700 con Plaspy ofrece a los gestores de flota una combinación de hardware resistente y amplias capacidades de telemetría. El rendimiento GNSS del equipo y la conectividad GSM multibanda ayudan a mantener los vehículos visibles en áreas con cobertura mixta, mientras que la doble SIM y el registro de respaldo mejoran la continuidad de los datos. Las numerosas E/S e interfaces vehiculares permiten consolidar datos de motor, combustible y sensores en Plaspy para que los análisis operativos y las alertas estén disponibles en un solo lugar.
 
-## Por qué Elegir este Rastreador con Plaspy
-
-Emparejar el ADM700 con Plaspy ofrece un equilibrio práctico entre hardware robusto y telemetría profunda para las operaciones de flota. El receptor GPS/GLONASS de alta sensibilidad y la conectividad GSM multibanda facilitan un seguimiento en tiempo real fiable, incluso en áreas con cobertura difícil. Interfaces de vehículo extensas \(CAN, RS-232/485, 1-Wire\) permiten consolidar datos del motor, del combustible y de sensores en los paneles de Plaspy para obtener insights accionables de gestión de flota. El soporte de doble SIM, la batería interna de respaldo y una amplia capacidad de registro offline aseguran la continuidad de los datos para protección anti‑robo y cumplimiento regulatorio. Para operaciones que requieren un historial de rutas robusto, monitorización de combustible e integración fluida en un entorno compatible con Plaspy, el ADM700 ofrece la conectividad y durabilidad para mantener los vehículos visibles, monitorizados y bajo control.
-
+Si usted desea un rastreador duradero que conserve el historial de rutas y envíe telemetría detallada a una plataforma de flotas, el ADM700 es una opción práctica a considerar para integraciones con Plaspy. Más información sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, así que verifique los detalles actuales en el sitio del fabricante https://neomatica.com/ antes de finalizar implementaciones.

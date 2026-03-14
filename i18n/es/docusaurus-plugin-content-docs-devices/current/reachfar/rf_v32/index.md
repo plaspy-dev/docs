@@ -2,67 +2,60 @@
 slug: /reachfar/rf_v32
 id: rf_v32
 sidebar_label: RF-V32
+title: Reachfar - RF-V32
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto Reachfar RF-V32 para mascotas y ganado compatible con Plaspy para ubicación en tiempo real y alertas
+keywords:
+  - Reachfar RF V32
+  - Rastreador GPS RF V32
+  - RF V32 para mascotas
+  - Rastreador Reachfar para mascotas
+  - RF V32 para ganado
+  - Compatible con Plaspy
+  - Rastreador GPS para animales
+  - Rastreador GPS IP67
+  - Rastreador GPS GPRS
+  - Reproducción de historial de ruta
 ---
+
 # Reachfar - RF-V32
 
 ![RF-V32](./tracker.jpg)
 
-# RF-V32 Rastreador GPS para Mascotas y Animales — Compatible con Plaspy
+El RF-V32 es un rastreador GPS compacto y resistente pensado para mascotas y ganado. Combina posicionamiento por GPS con LBS, A-GPS y fallback por WiFi para ofrecer visibilidad de la ubicación tanto en exteriores como en entornos con señal limitada. Diseñado para soportar uso en campo, el RF-V32 cuenta con protección IP67, antenas GSM y GPS integradas, conectividad GSM cuatribanda y modos de reporte múltiples, lo que lo hace apropiado para montaje en collares y tareas habituales de seguimiento animal.
 
-El RF-V32 es un rastreador GPS compacto y robusto, diseñado para mascotas y ganado, y presentado aquí como un dispositivo compatible con Plaspy para una visibilidad de ubicación confiable. Con posicionamiento GPS, LBS, A-GPS y WiFi integrado, el RF-V32 ofrece un seguimiento en tiempo real flexible para entornos al aire libre y un posicionamiento de respaldo para interiores o escenarios con señal débil. Su clasificación IP67 a prueba de agua, antena integrada GSM/GPS y conectividad GSM en cuatro bandas lo convierten en una opción práctica para propietarios y gestores de pequeña escala que requieren actualizaciones de ubicación consistentes y reportes de alarmas a través de la plataforma de Plaspy.
+Como dispositivo compatible con Plaspy, el RF-V32 suministra los datos de ubicación y alarmas que Plaspy necesita para monitoreo en vivo y revisión histórica. Su capacidad para reportar ubicación mediante GPRS y SMS y generar alertas por geocerca, batería baja y cambio de SIM permite que usted reciba notificaciones oportunas, vea posiciones en tiempo real y reproduzca el historial de movimiento para recuperación de mascotas o gestión de ganado.
 
-Diseñado para una operación de larga duración en modo de espera y una integración sencilla, el RF-V32 admite seguimiento en línea a través de GPRS \(TCP/IP\), SMS, aplicación móvil y acceso a la plataforma web. Cuando se utiliza con Plaspy, el RF-V32 proporciona ubicación, reproducción de trazas históricas y alarmas, lo que permite a los propietarios de mascotas y a los gestores de ganado monitorear a los animales, configurar geocercas y recibir alertas de batería baja o cambio de SIM en tiempo casi real.
+## Características principales
 
-## Puntos Clave
+- Compatible con Plaspy mediante reportes por GPRS e integración por SMS para ubicación y alertas
+- Posicionamiento multimodal con GPS combinado con LBS, A-GPS y fallback por WiFi para entornos mixtos
+- Carcasa robusta con clasificación IP67, adecuada para uso en exteriores con mascotas y ganado
+- Larga autonomía en espera para reducir intervalos de mantenimiento de las unidades desplegadas
+- Diseño compacto y ligero, fácil de fijar a collares y lo suficientemente liviano para animales
+- Reporte de alarmas integrado para violaciones de geocerca, batería baja y cambio de SIM
+- Reproducción histórica de rutas disponible en Plaspy para análisis y revisión posterior a eventos
 
-- Compatible con Plaspy: se integra con Plaspy mediante GPRS \(TCP/IP\) y admite informes por SMS, app y web para ubicación y alarmas.
-- Posicionamiento multimodo: GPS con LBS, A-GPS y respaldo WiFi para un seguimiento fiable tanto en interiores como exteriores.
-- Diseño robusto y a prueba de agua: carcasa con clasificación IP67 para uso en ganado y mascotas al aire libre en entornos variados.
-- Larga duración de la batería: batería integrada de 400 mAh con hasta ~300 horas en espera GSM \(GPS desactivado\); ~60 horas de espera GPS cuando se configuran intervalos de 10 minutos.
-- Diseño compacto y ligero: fácil de montar en collares para perros, ovejas o ganado sin sobrecargar al animal.
-- Alertas integrales: alarmas por violación de geocerca, batería baja y cambio de SIM para ayudar a proteger a los animales y facilitar una respuesta rápida.
-- Reproducción de trazas: datos de rutas históricas cargados y visibles en Plaspy para análisis de ruta y revisión de incidentes.
+## Cómo funciona con Plaspy
 
-## Cómo Funciona con Plaspy
+La integración es directa: el RF-V32 transmite mensajes de ubicación y estado que Plaspy procesa para mostrar posiciones en vivo y gestionar alertas. Plaspy ofrece un panel unificado donde propietarios y administradores pueden monitorear animales, configurar geocercas y acceder a los datos históricos de movimiento recopilados por el dispositivo.
 
-La integración con Plaspy es sencilla porque el RF-V32 transmite información de ubicación y estado a través de GPRS \(TCP/IP\) y admite métodos de reporte estándar \(SMS, app y web\). Plaspy ingiere los datos de ubicación y alarmas del dispositivo y proporciona un panel unificado para el seguimiento en tiempo real, alertas y análisis histórico. Para casos de rastreo de animales, esto significa una recuperación más rápida ante escapes, una mejor gestión del pastoreo y una monitorización más sencilla del comportamiento de desplazamiento de los animales.
+- Visualización de la ubicación en vivo en Plaspy con los datos enviados por el RF-V32 para seguimiento casi en tiempo real
+- Alarmas como violación de geocerca, batería baja y cambio de SIM encaminadas a Plaspy para notificaciones
+- Reproducción histórica de rutas cargada por el dispositivo y visible en Plaspy para revisión de recorridos
+- Fiabilidad del posicionamiento mejorada por A-GPS y fallback por WiFi para cobertura en interiores o en zonas de señal débil
+- Enfoque del dispositivo en seguimiento animal lo hace ideal para despliegues de Plaspy centrados en mascotas y ganado
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía GPRS \(TCP/IP\) para visualización en vivo en Plaspy.
-- Alarmas reenviadas a Plaspy: violación de geocerca, batería baja y cambios de SIM para notificaciones oportunas.
-- Reproducción de trazas: datos de rutas históricas cargados y visibles en Plaspy para análisis de ruta y revisión de incidentes.
-- Alarma anti-pérdida por WiFi y A-GPS para mejorar el posicionamiento en interiores o con señales débiles y aumentar la precisión en entornos mixtos.
-- Nota sobre telemetría de vehículos: el RF-V32 está orientado al rastreo de mascotas y ganado. No incluye telemetría específica para vehículos como encendido, inmovilizador o monitoreo de combustible; para esas funciones de Gestión de Flotas, existen otros dispositivos compatibles con Plaspy.
+## Casos de uso típicos
 
-## Visión Técnica
+- Recuperación y monitoreo de mascotas como perros y otros animales de compañía mediante montaje en collar
+- Seguimiento de ganado para observar patrones de pastoreo, localizar ejemplares extraviados y gestionar el movimiento del rebaño
+- Protección de propiedades rurales y perímetros usando geocercas y notificaciones de alarma
+- Análisis de movimientos y comportamiento después de eventos mediante la reproducción de trazas en Plaspy
+- Gestión animal a pequeña escala donde se prioriza hardware compacto, robusto y con larga autonomía
 
-| Conectividad | GSM cuádruple banda con GPRS Clase 12 \(TCP/IP\) para informes en línea; admite informes por SMS. |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(cuádruple banda\) |
-| GPRS | Clase 12, TCP/IP |
-| GNSS | GPS \(A-GPS asistido\); posicionamiento LBS y WiFi para respaldo en interiores |
-| Precisión GPS | Aproximadamente 10–15 metros \(con cielo despejado, típico\) |
-| Tiempo de posicionamiento | Arranque en frío ~30 s; Arranque tibio ~29 s; Arranque en caliente ~5 s \(con cielo despejado\) |
-| Energía & Batería | Batería integrada de 400 mAh. En espera GSM ~300 horas \(GPS desactivado\); En espera GPS ~60 horas cuando se configura a intervalos de 10 minutos. |
-| Antena | Antena integrada GSM/GPS |
-| Interfaces | No se especifican interfaces externas de encendido/inmovilizador; el dispositivo admite informes de alarmas vía SMS y GPRS. |
-| Bluetooth | No especificado / no listado para soporte de sensores BLE |
-| Resistencia al agua & Durabilidad | IP67, rango de temperatura de operación -20°C a +70°C; humedad 5%–95% HR |
-| Físico | Tamaño del dispositivo 47 × 50 × 15 mm; peso ~40 g; peso del paquete ~150 g |
-| Colores & Paquete | Colores disponibles: Azul, Negro, Dorado. El paquete incluye RF-V32, cable USB multi-función, manual de usuario, cargador inalámbrico y collar opcional. |
-| Estado de Producción | Marcado como fuera de producción en la página del producto — la disponibilidad puede ser limitada. Póngase en contacto con el fabricante o distribuidor para stock u opciones de reemplazo. |
-| Gestión Remota | Admite acceso a la app móvil y plataforma web, además de comandos por SMS; FOTA no especificado. |
+## ¿Por qué elegir este rastreador con Plaspy?
 
-## Casos de Uso
+El RF-V32 es una opción práctica para organizaciones y particulares que requieren un rastreador compacto y resistente que funcione con Plaspy para obtener visibilidad confiable de la ubicación y reportes básicos de alarmas. Su combinación de posicionamiento asistido por GPS con LBS y fallback por WiFi, junto con protección IP67 y reportes integrados, responde bien a las necesidades habituales de seguimiento animal donde son importantes las actualizaciones constantes y el bajo mantenimiento.
 
-- Recuperación de mascotas: colocar en collares de perros para habilitar el rastreo en tiempo real con Plaspy y localizar rápidamente a una mascota si se pierde.
-- Monitoreo de ganado: rastrear patrones de pastoreo y movimiento del rebaño para ovejas y ganado, para optimizar el uso de pastos y localizar animales extraviados.
-- Protección de propiedades rurales: geocercas en áreas sensibles y recibir alertas a través de Plaspy cuando los animales cruzan límites o ingresan a zonas restringidas.
-- Análisis de rutas históricas: utilizar la reproducción de trazas en Plaspy para investigar movimientos a lo largo del tiempo para estudios de comportamiento animal o revisiones de incidentes.
-
-## Por qué Elegir Este Rastreador con Plaspy
-
-Para propietarios de mascotas y gestores de ganado que buscan un rastreador GPS compacto y resistente que se integre con Plaspy, el RF-V32 ofrece una precisión fiable de GPS al aire libre, además de respaldo LBS/A-GPS/WiFi para entornos mixtos. Su larga autonomía de batería y la protección IP67 reducen el mantenimiento y la frecuencia de reemplazo, mientras que el reporte incorporado vía GPRS y SMS garantiza que Plaspy reciba ubicaciones y alarmas oportunas. Aunque este dispositivo está orientado a mascotas y ganado más que a vehículos — y no incluye telemetría específica para vehículos como encendido, inmovilizador o monitoreo de combustible — es una opción práctica y de bajo costo cuando la monitorización en tiempo real, geocercas y reproducción histórica en Plaspy son las principales necesidades.
-
-Antes de la compra, tenga en cuenta que el RF-V32 figura actualmente como fuera de producción, por lo que el stock puede ser limitado. Póngase en contacto con el fabricante o con un distribuidor autorizado para conocer la disponibilidad, soporte de garantía o recomendaciones sobre modelos compatibles con Plaspy más recientes que incluyan telemetría adicional \(encendido, monitoreo de combustible\) o soporte de sensores Bluetooth si esas funciones fueran necesarias.
-
+Si sus necesidades principales son rastreo en tiempo real, gestión de geocercas y reproducción histórica para mascotas o ganado, el RF-V32 y Plaspy ofrecen una solución enfocada. Para despliegues que requieran telemetría específica de vehículos, integraciones avanzadas de sensores o ecosistemas de sensores Bluetooth, podría considerar otros modelos compatibles con Plaspy que incluyan esas funcionalidades. Para más información sobre Plaspy visite https://www.plaspy.com. Nota editorial de precisión Las especificaciones del producto RF V32, disponibilidad y detalles del fabricante pueden cambiar con el tiempo por lo que verifique las especificaciones actuales y la información de stock en el sitio oficial de Reachfar https://www.reachfargps.com/

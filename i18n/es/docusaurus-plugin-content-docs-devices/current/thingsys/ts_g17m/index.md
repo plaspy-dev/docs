@@ -2,55 +2,60 @@
 slug: /thingsys/ts_g17m
 id: ts_g17m
 sidebar_label: TS-G17M
+title: ThingSys - TS-G17M
 sidebar_class_name: menu_item_tracker
+description: Localizador GPS compacto ThingSys TS-G17M para motos y vehículos pequeños compatible con Plaspy seguimiento en tiempo real y inmovilización remota
+keywords:
+  - ThingSys TS-G17M
+  - rastreador TS-G17M
+  - rastreador GPS ThingSys
+  - localizador GPS para motocicletas
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - inmovilizador de vehículos
+  - alertas de geocerca
+  - seguimiento en tiempo real
+  - reproducción de rutas
 ---
+
 # ThingSys - TS-G17M
 
 ![TS-G17M](./tracker.jpg)
 
-El TS-G17M, procedente de una familia de dispositivos ya establecida, es un rastreador GPS compacto y multifuncional diseñado para la seguridad de motocicletas y vehículos ligeros donde la compatibilidad con Plaspy y la telemetría fiable son importantes. Diseñado para seguimiento en tiempo real sobre GSM/GPRS con posicionamiento híbrido GPS/GPRS/LBS/AGPS, el TS-G17M combina alarmas enfocadas al vehículo y control de relé con un factor de forma reducido \(76 × 26 × 15 mm\), facilitando su instalación en motocicletas y activos similares. La integración compatible con Plaspy aporta esas actualizaciones de ubicación en tiempo real, alarmas y controles remotos a una única vista de gestión de flota o activos.
+El TS-G17M es un rastreador GPS compacto y multifuncional de ThingSys, pensado para la seguridad de motocicletas y vehículos pequeños. Combina posicionamiento híbrido con alarmas específicas para vehículos y control de relé en un formato reducido, lo que lo hace apropiado para montajes discretos y telemetría confiable en dos ruedas y activos similares. El equipo ofrece seguimiento en tiempo real, alertas y capacidades de control remoto orientadas a la prevención de robos y la supervisión operativa.
 
-Construido para respaldar medidas antirobos y monitoreo operativo, el TS-G17M incluye control remoto de relé para corte de motor/combustible \(capacidad de inmovilización\), detección ACC \(estado de ignición\), un botón SOS de pánico y un micrófono integrado para supervisión de voz remota. Con características como alertas de geocerca, alarmas de vibración/inclinación, alertas de apagado de energía y hasta 365 días de reproducción histórica de rutas, este rastreador GPS está optimizado para seguimiento en tiempo real, telemetría y gestión segura de flotas a través de la plataforma Plaspy.
+Como dispositivo compatible con Plaspy, el TS-G17M integra sus actualizaciones de ubicación en vivo, notificaciones y acciones remotas de relé dentro del entorno de gestión de flotas y activos de Plaspy. Esta compatibilidad permite a los operadores visualizar datos de posicionamiento híbrido y telemetría junto con el resto de sus activos en Plaspy, lo que convierte al rastreador en una opción práctica para equipos que requieren visibilidad centralizada, alertas de incidentes y reproducción histórica de rutas en una sola plataforma.
 
-## Casos de uso
+## Características principales
 
-- Gestión de flotas para mensajeros motorizados y flotas de vehículos ligeros — ubicación en vivo, auditoría de trayectos y control de combustible/motor mediante comandos de relé.
-- Protección antirobos — alarmas por vibración e inclinación, además de inmovilización remota mediante relé para recuperar vehículos robados o manipulados.
-- Seguridad del conductor y respuesta ante incidentes — botón de pánico SOS y monitoreo de voz para evaluar rápidamente situaciones de emergencia a través de Plaspy.
-- Telemetría operativa y mantenimiento — alertas de batería baja y de apagado para prevenir fallos imprevistos y monitorizar la carga.
-- Cumplimiento normativo o registro de evidencias — hasta 365 días de reproducción histórica de rutas para cumplimiento, resolución de disputas o investigación de incidentes.
+- Compatible con Plaspy para seguimiento en tiempo real y entrega de alertas a una plataforma central de flotas
+- Control de relé remoto para cortar encendido o suministro de combustible y facilitar intervenciones tipo inmovilizador
+- Reporte de telemetría del vehículo incluyendo detección de estado de encendido y alertas de alimentación eléctrica
+- Múltiples tipos de alarma como botón SOS, detección de vibración e inclinación, y avisos por pérdida de energía
+- Posicionamiento híbrido usando GPS y métodos asistidos por red para mejorar la disponibilidad de la ubicación
+- Reproducción extensa del historial de rutas, útil para investigaciones y revisiones operativas
+- Factor de forma compacto optimizado para motocicletas y fácil instalación en dos ruedas
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el TS-G17M ofrece datos de ubicación y estado a través de GPRS o SMS para que los gestores de flota y los propietarios de vehículos accedan a seguimiento en tiempo real, alertas e informes históricos desde una única interfaz. Plaspy ingiere el posicionamiento y telemetría híbridos del dispositivo, convirtiendo los datos brutos de GPS/GPRS/LBS/AGPS en mapas utilizables, alertas de geocerca y reproducción de la cronología de rutas. Los comandos remotos iniciados en Plaspy —como la activación del relé para el corte del motor— se transmiten de vuelta al TS-G17M a través del enlace celular.
+Al integrarse con Plaspy, el TS-G17M transmite datos de ubicación y eventos para que gestores de flota y propietarios puedan monitorear activos, recibir alertas y revisar movimientos históricos desde una única interfaz. Plaspy consume la telemetría del rastreador y la muestra en mapas, líneas de tiempo e informes, mientras que los comandos remotos emitidos desde Plaspy pueden enviarse al dispositivo para activar acciones como la inmovilización.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía GPRS \(TCP/IP\) y SMS.
-- Estado de ignición/ACC reportado para eventos de inicio/parada y análisis de trayectos.
-- Alertas de geocerca y apagado enviadas a Plaspy como notificaciones push o alertas.
-- Control remoto del inmovilizador/relé para corte de motor o combustible a través de la interfaz de comandos de Plaspy.
-- Monitoreo de voz y eventos SOS accesibles en los registros de incidentes de Plaspy para una respuesta rápida.
+- Actualizaciones de ubicación y estado en tiempo real entregadas en Plaspy para visibilidad inmediata
+- Eventos de encendido y desplazamiento reportados para análisis de arranques y auditorías operativas
+- Alertas de geocerca, vibración, inclinación y pérdida de energía enviadas a Plaspy para notificación rápida
+- Comandos remotos de relé iniciados desde Plaspy para asistir en la respuesta y recuperación ante robos
+- Eventos SOS y registros de monitoreo de voz disponibles en las vistas de incidentes de Plaspy para una evaluación ágil
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM / GPRS / GPS con GPRS Clase 12 \(TCP/IP\); Seguimiento por SMS/GPRS; posicionamiento híbrido \(GPS/GPRS/LBS/AGPS\) |
-| --- | --- |
-| Bandas | GSM cuádruple banda: 850 / 900 / 1800 / 1900 MHz |
-| Alimentación y batería | Voltaje de funcionamiento DC 9–100V; batería interna recargable 180 mAh; corriente típica ≈22 mA @12V DC, ≈12 mA @24V DC |
-| Interfaces | Control de relé para corte de motor/combustible, detección ACC \(ignición\), botón SOS de pánico, micrófono incorporado, sensor G para vibración/inclinación, alarmas de batería baja y de apagado |
-| GNSS | GPS \(MTK6261\), MCU MTK; tiempos de posicionamiento Cold ≈38s, Warm ≈32s, Hot ≈2s \(cielo despejado\); precisión reportada ≈5–10 m \(RM 2D de 10 m\) |
-| Bluetooth | No especificado / no indicado |
-| Gestión remota | Configuración y comandos vía SMS/GPRS; modos de seguimiento incluyen tiempo real, programado/intervalo y rastreo a demanda \(FOTA no especificado\) |
-| Factor de forma y entorno | Dimensiones 76 × 26 × 15 mm; uso en motocicletas/vehículos ligeros; colores negro o OEM; rango de temperatura de operación -20°C a +70°C; humedad 20%–80% RH; 1 año de garantía |
-
-## Casos de uso
-
-- Gestión de flotas para mensajeros motorizados y flotas de vehículos ligeros — ubicación en vivo, auditoría de trayectos y control de combustible/motor mediante comandos de relé.
-- Protección antirobos — alarmas de vibración e inclinación, además de inmovilización remota mediante relé para recuperar vehículos robados o manipulados.
-- Seguridad del conductor y respuesta ante incidentes — botón de pánico SOS y monitoreo de voz para evaluar rápidamente situaciones de emergencia a través de Plaspy.
-- Telemetría operativa y mantenimiento — alertas de batería baja y de apagado para prevenir fallos imprevistos y monitorizar la carga.
-- Cumplimiento normativo o registro de evidencias — hasta 365 días de reproducción histórica de rutas para cumplimiento, resolución de disputas o investigación de incidentes.
+- Flotas de mensajería en motocicleta que requieren seguimiento en vivo, auditoría de viajes y disuasión de robos
+- Protección antirrobo para scooters y vehículos pequeños mediante alertas por vibración e inmovilización remota
+- Monitoreo de seguridad donde alertas SOS y monitoreo de voz ayudan a coordinar respuestas
+- Supervisión operativa y de mantenimiento mediante notificaciones de batería baja y apagado de energía
+- Cumplimiento e investigación de incidentes usando la reproducción detallada del historial de rutas
 
 ## Por qué elegir este rastreador con Plaspy
 
-El TS-G17M es una opción pragmática cuando necesitas un rastreador GPS compacto, apto para motocicletas, que se integre de forma fluida con Plaspy para una gestión centralizada de la flota. Su conectividad GSM cuádruple banda y posicionamiento híbrido proporcionan un seguimiento en tiempo real consistente, mientras que la detección ACC, el inmovilizador controlado por relé y múltiples tipos de alarmas ofrecen los controles antirobo que esperan los operadores. Para las organizaciones que dependen de la telemetría—eventos de ignición, notificaciones de batería baja y alertas de vibración—el TS-G17M alimenta esos datos directamente a Plaspy para que los equipos actúen con rapidez. Su factor de forma compacto, la reproducción histórica prolongada y la garantía de 1 año lo convierten en un componente fiable y rentable en cualquier despliegue de rastreo compatible con Plaspy.
+El TS-G17M es una opción práctica para organizaciones que necesitan un rastreador pequeño y orientado a vehículos que entregue telemetría consistente a Plaspy. Su combinación de posicionamiento híbrido, múltiples tipos de alarma y control de relé ofrece la funcionalidad que los operadores de flotas suelen requerir para medidas antirrobo y monitoreo diario. Al integrar el TS-G17M con Plaspy, los equipos obtienen mapas centralizados, alertas y capacidades de reproducción que agilizan la gestión de incidentes y la supervisión operativa.
 
+Si desea obtener más información sobre cómo Plaspy puede gestionar equipos como el ThingSys TS-G17M, visite https://www.plaspy.com para información sobre la plataforma y sus características. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones técnicas actuales y la información de garantía con el fabricante en https://www.thingsys.com/ antes de la compra o el despliegue.

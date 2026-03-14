@@ -2,64 +2,63 @@
 slug: /arusnavi/arnavi_6
 id: arnavi_6
 sidebar_label: ARNAVI 6
+title: Arusnavi - ARNAVI 6
 sidebar_class_name: menu_item_tracker
+description: Compact navigation controller compatible with Plaspy for real time fleet tracking and robust vehicle telemetry
+keywords:
+  - Arusnavi ARNAVI 6
+  - ARNAVI 6 tracker
+  - ARNAVI 6 Plaspy compatible
+  - Arusnavi GPS tracker
+  - fleet tracking device
+  - multi constellation GNSS
+  - dual SIM tracker
+  - vehicle telemetry
+  - black box logging
+  - BLE sensor support
 ---
+
 # Arusnavi - ARNAVI 6
 
 ![ARNAVI 6](./tracker.png)
 
-ARNAVI 6 is a compact, professional navigation controller engineered for fleet management and remote monitoring. Plaspy compatible out of the box, the ARNAVI 6 delivers reliable GPS tracker functionality with flexible connectivity and rich telemetry to support real-time tracking, anti-theft workflows and advanced vehicle data collection. Its dual-SIM cellular design, multi-constellation GNSS and optional Wi‑Fi backup make ARNAVI 6 an ideal choice for operations that require continuous visibility and robust integration with third-party platforms like Plaspy.
+ARNAVI 6 is a compact professional navigation controller designed for fleet management and remote monitoring. Built to provide reliable GPS tracking and rich vehicle telemetry, the device supports a range of communications and I/O options suitable for mixed fleets and sensor rich environments. Its small footprint and remote management features make it appropriate for installations where continuous visibility and operational oversight are priorities.
 
-Designed for mixed fleets and sensor-rich telemetry environments, ARNAVI 6 combines a small physical footprint with extensive I/O and communications options. Whether you need immediate location updates for dispatch, fuel monitoring and driver behavior insights, or secure event snapshots from supported camera modules, this device provides the interfaces and remote management tools to keep your Plaspy-enabled system accurate, secure, and easy to maintain.
+As an out of the box Plaspy compatible device, ARNAVI 6 can feed real time location, event and telemetry data directly into Plaspy for live monitoring, reporting, and alerts. The combination of multi constellation GNSS, dual SIM cellular with optional Wi‑Fi backup, and support for wireless sensors and serial interfaces makes this tracker a practical choice to integrate into Plaspy powered fleet workflows without custom bridging.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for reliable real-time tracking and fleet management integration.
-- Dual-SIM 2G/4G cellular connectivity with optional Wi‑Fi channel for improved availability and roaming resilience.
-- Multi-constellation GNSS \(GPS, GLONASS, Galileo, BeiDou, QZSS\) for fast and accurate positioning.
-- Bluetooth 4.0 \(BLE\) support for up to 10 wireless sensors—ideal for fuel monitoring and temperature telemetry.
-- Comprehensive vehicle interfaces: CAN, RS232, RS485, 1-WIRE, USB and multiple digital/analog inputs and outputs.
-- Protected power input \(rated up to 500 V\), 8–50 V operating range, internal power management and backup battery options.
-- Onboard black box logging \(32 MB / up to 100,000 records\) for offline data capture and later upload to Plaspy.
-- Remote web configurator, service button for field updates, and mobile/PC configuration via USB or Bluetooth.
+- Plaspy compatible GPS tracker offering continuous location updates and vehicle telemetry for fleet management.
+- Dual SIM cellular connectivity with optional Wi‑Fi backup to improve availability and roaming resilience.
+- Multi constellation GNSS support for faster and more reliable positioning in diverse environments.
+- Support for Bluetooth sensors and multiple wired interfaces to collect fuel, temperature and vehicle data.
+- Onboard black box logging for offline data capture and later synchronization with Plaspy.
+- Compact form factor with extensive I/O and protected power input for professional fleet installations.
+- Remote web configurator and mobile or PC configuration options to reduce field maintenance time.
 
 ## How It Works with Plaspy
 
-ARNAVI 6 integrates with Plaspy to deliver continuous location and vehicle telemetry. Data from GNSS, CAN bus, digital inputs and Bluetooth sensors is packaged and transmitted over the active cellular link \(with Wi‑Fi as an optional backup\). Plaspy receives these feeds for live tracking, alerts, historical reports and event-driven workflows.
+ARNAVI 6 transmits position, sensor and event data over its active cellular link or optional Wi‑Fi channel to Plaspy, enabling live tracking, alerting and historical reporting. Plaspy consumes these feeds to provide centralized fleet visibility, operational insights and automated workflows based on device events.
 
-- Real-time location and telemetry updates: multi-constellation GNSS combined with cellular uplink for continuous tracking in Plaspy.
-- Ignition, door and alarm status: discrete inputs provide event flags that Plaspy can use for alerts and trip segmentation.
-- Fuel monitoring: supports multiple fuel sensors \(RS485 and RS232\) and BLE-connected sensors for accurate fuel telemetry.
-- Remote immobilizer-style control: device outputs can be used for ignition control or immobilization when configured through Plaspy.
-- Bluetooth sensors & beacons: BLE connectivity enables temperature probes, wireless fuel sensors, and other telemetry to be forwarded to Plaspy.
-- Offline logging and catch-up: onboard black box stores records when connectivity is lost and synchronizes with Plaspy when the link is restored.
+- Real time location and telemetry in Plaspy for live vehicle visibility and dispatch coordination.
+- Event driven alerts such as ignition, door or alarm triggers for security and trip segmentation.
+- Fuel and sensor telemetry forwarded to Plaspy for monitoring, reporting, and anomaly detection.
+- Remote control outputs can be leveraged for immobilizer style workflows when configured through Plaspy.
+- Bluetooth sensor support enables wireless probes and beacons to feed temperature and fuel data into Plaspy.
+- Offline logging on the device ensures data continuity and automatic catch up when connectivity is restored.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | Dual-SIM cellular with 2G and 4G modems; optional Wi‑Fi module \(can be used as main or backup data channel\) |
-| --- | --- |
-| Antennas | GNSS and GSM antennas: internal or external options |
-| GNSS | GPS, GLONASS, Galileo, BeiDou, QZSS |
-| Bluetooth | Bluetooth 4.0 \(BLE\) supporting up to 10 wireless sensors |
-| Power & Battery | Operating voltage 8–50 V; protected power input \(rated up to 500 V\); internal power-management with temperature-based charge control; backup battery options 300–2000 mAh; typical current consumption ~2 mA \(sleep\) to ~80 mA \(active\) |
-| Inputs & Outputs | Multiple digital and analog inputs/outputs: 4 negative inputs, 2 positive inputs\*, 3 negative outputs; positive outputs supply 5 V @ 50 mA and 12 V @ 300 mA; accelerometer for motion detection; service button for field operations |
-| Interfaces | CAN, RS232, RS485, 1-WIRE \(support for up to 10 1-WIRE sensors\), USB for PC configuration |
-| Fuel & Sensors | Up to 8 fuel sensors via RS485 and 1 via RS232; BLE sensor connectivity; support for temperature probes and other telemetry sensors |
-| Storage \(Black Box\) | 32 MB onboard storage \(or up to ~100,000 records for offline logging, depending on configuration\) |
-| Software & Protocols | Remote configuration and web-based firmware updates \(FOTA via web configurator\); PC configuration via USB; mobile configuration via Bluetooth or USB; protocols: INTERNAL, EXTERNAL, USER\_AG, EGTS; MODBUS and tachograph/CAN integrations supported |
-| Physical | Weight ≈ 100 g; dimensions 70 × 75 × 22 mm |
-
-## Use Cases
-
-- Fleet management: real-time tracking, EcoDriving reports and vehicle telemetry for dispatch optimization and driver behavior analysis.
-- Anti-theft and vehicle security: door/ignition monitoring, event logging and remote control outputs for immobilizer-style actions when configured.
-- Fuel monitoring and telemetry: support for multiple RS485/RS232 sensors plus BLE fuel sensors to detect discrepancies and reduce fuel loss.
-- Sensor-rich asset tracking: temperature probes, 1-WIRE sensors and CAN bus telemetry for refrigerated transport, construction equipment or specialized vehicles.
-- Event capture and diagnostics: integration with supported camera modules \(ZM, VC0607\) for snapshots, plus onboard logging for post-incident analysis.
+- Fleet management and dispatch where continuous location and vehicle telemetry improve routing and utilization.
+- Anti theft and security workflows using discrete inputs, event logging, and remote output control.
+- Fuel monitoring programs that combine wired sensors and wireless probes to reduce loss and optimize consumption.
+- Sensor rich assets such as refrigerated transport or construction equipment requiring temperature and CAN telemetry.
+- Event capture and diagnostics for post incident analysis using onboard logging and optional camera snapshots.
 
 ## Why Choose This Tracker with Plaspy
 
-ARNAVI 6 combines the small form factor expected of a modern GPS tracker with professional interfaces and rugged power management needed for demanding fleets. As a Plaspy compatible device, it delivers the connectivity and telemetry types Plaspy relies on—real-time GNSS positioning, CAN and serial data, Bluetooth sensor feeds, and robust offline logging. Remote web configurator and firmware update capabilities reduce maintenance overhead, while dual-SIM and optional Wi‑Fi provide resilient communications for uninterrupted monitoring.
+ARNAVI 6 offers a balance of compact design and professional interfaces that suits organizations needing dependable real time tracking and broad telemetry coverage. Its compatibility with Plaspy means operators can integrate GNSS positioning, sensor feeds and event data into a single monitoring and reporting platform without complex middleware.
 
-For organizations that need accurate real-time tracking, comprehensive telemetry, and dependable anti-theft workflows, ARNAVI 6 offers a flexible platform that integrates with Plaspy to provide scalable fleet management, efficient fuel monitoring, ignition and door event tracking, and sensor-driven insights. The device’s extensive I/O and protocol support make it a practical choice where professional integration and dependable remote management are priorities.
+For fleets that prioritize resilient communications, remote manageability, and flexible sensor integration, ARNAVI 6 provides the data types and remote features Plaspy expects to support operational oversight, security workflows and historical analysis. The device is particularly useful where mixed fleets and varied telemetry sources require a consistent integration path into Plaspy.
 
+If you want to learn more about how ARNAVI 6 works with Plaspy and how it can fit your fleet program, visit https://www.plaspy.com. Please note that product specifications, availability and manufacturer details can change over time, so verify the current specifications with the official manufacturer documentation at https://www.arusnavi.ru.

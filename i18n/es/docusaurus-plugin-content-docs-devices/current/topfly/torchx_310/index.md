@@ -2,62 +2,61 @@
 slug: /topfly/torchx_310
 id: torchx_310
 sidebar_label: TorchX 310
+title: TopFly - TorchX 310
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD-II TopFly TorchX 310 plug-and-play compatible con Plaspy para flotas, telemetría CAN, sensores BLE y alertas de conductor
+keywords:
+  - TopFly TorchX 310
+  - TorchX 310 Plaspy
+  - Rastreador GPS TopFly
+  - Rastreador OBD-II
+  - Telemetría CAN
+  - Dispositivo para seguimiento de flotas
+  - Rastreador con sensores BLE
+  - Rastreador LTE Cat M1
+  - Rastreador de diagnóstico vehicular
+  - Rastreador plug-and-play
 ---
+
 # TopFly - TorchX 310
 
 ![TorchX 310](./tracker.jpg)
 
-El TorchX 310 es un rastreador GPS OBD-II plug-and-play diseñado para un despliegue rápido de flotas y uso individual en vehículos. Compatible con Plaspy desde la primera instalación, el TorchX 310 ofrece telemetría CAN-bus, rastreo en tiempo real, soporte para sensores BLE y alertas de conductor integradas para que los gestores de flotas obtengan ubicación precisa, diagnósticos del vehículo y datos de comportamiento sin instalación compleja.
+El TorchX 310 es un rastreador GPS OBD-II compacto y plug-and-play, pensado para una implementación sencilla en flotas comerciales y vehículos particulares. Combina posicionamiento GNSS a bordo con datos del bus CAN para entregar VIN, odómetro real, nivel de combustible, códigos de diagnóstico, estado de encendido y otros parámetros del vehículo sin necesidad de instalaciones complejas. Además, el equipo soporta emparejamiento de accesorios BLE y cuenta con alertas integradas para conductor, lo que permite capturar contexto de comportamiento y condiciones ambientales junto con la ubicación.
 
-El dispositivo compacto se conecta directamente al puerto OBD-II del vehículo y lee el VIN, el odómetro real, el nivel de combustible, los códigos de diagnóstico \(DTC\), el estado de ignición y otros parámetros CAN. Con conectividad LTE Cat‑M1 \(con respaldo NB2/2G cuando corresponda\), GNSS multiconstelación interno y BLE 5.0 para emparejamiento de accesorios, el TorchX 310 ofrece telemetría fiable e informes seguros adecuados para la gestión de flotas basada en Plaspy, flujos de trabajo antirrobo y programas de seguros basados en el uso \(UBI\).
+Al ser compatible con Plaspy desde el primer momento, el TorchX 310 se integra en los flujos de gestión de flotas basados en Plaspy para ofrecer visibilidad continua de ubicación y diagnóstico vehicular. Su combinación de seguimiento en tiempo real, registro en búfer sin conexión y soporte de accesorios lo hace útil para monitoreo en vivo, generación automática de informes y alertas dentro de Plaspy, ayudando a reducir tiempos de inactividad y mejorar la supervisión operativa.
 
-## Puntos clave
+## Características principales
 
-- Instalación OBD-II plug-and-play para despliegues rápidos y tiempos de inactividad mínimos.
-- Compatible con Plaspy para un seguimiento en tiempo real, generación de informes y dashboards sin interrupciones.
-- Lecturas directas del bus CAN de VIN, odómetro, nivel de combustible y DTC para telemetría precisa.
-- Soporte BLE 5.0 para emparejar sensores de temperatura, sensores de puertas, relevadores inalámbricos y llaveros.
-- Conectividad LTE Cat‑M1 con respaldo NB2/2G y cobertura mundial de bandas para flotas globales.
-- Actualizaciones de alta frecuencia \(configurables hasta cada 3 segundos\) y búfer de 49,000 puntos para registro offline fiable.
-- Funciones de seguridad del conductor con detección de accidentes, monitoreo de conductas de conducción brusas y alertas en cabina.
+- Instalación OBD-II plug-and-play para despliegues rápidos y mínima inmovilización del vehículo.
+- Compatibilidad con Plaspy para seguimiento en tiempo real, informes y integración en paneles de control.
+- Lecturas directas del bus CAN de VIN, odómetro real, nivel de combustible y códigos de diagnóstico para telemetría precisa.
+- Soporte BLE 5.0 para emparejar sensores de temperatura, sensores de puertas, relés inalámbricos y llaveros, ampliando la telemetría.
+- Conectividad LTE Cat M1 con NB2 y fallback a 2G donde aplique para amplia cobertura celular.
+- Gran búfer offline y intervalos de reporte configurables para un registro fiable durante cortes de conectividad.
+- Funciones de seguridad al conductor como detección de choques, monitoreo de eventos bruscos y un zumbador interno para alertas dentro de la cabina.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el TorchX 310 envía telemetría GNSS y CAN derivada a tu instancia de Plaspy utilizando protocolos de transporte estándar. Plaspy procesa la ubicación, el VIN y los datos de diagnóstico para generar mapas en tiempo real, informes automáticos y flujos de alertas para la gestión de flotas, monitoreo antirrobo y análisis del comportamiento del conductor.
+Cuando se utiliza con Plaspy, el TorchX 310 transmite la ubicación GNSS y la telemetría derivada del CAN a la plataforma Plaspy, permitiendo a los gestores de flota visualizar posiciones, monitorear el estado del vehículo y generar alertas. Plaspy procesa los datos entrantes para poblar mapas en vivo, recorridos históricos, registros de diagnóstico y notificaciones basadas en reglas que apoyan la toma de decisiones operativas.
 
-- Actualización de ubicación y telemetría en tiempo real \(intervalos de informe configurables, hasta cada 3 segundos\).
-- Estado del vehículo: VIN, odómetro real, nivel de combustible y códigos de diagnóstico \(DTC\) procedentes del bus CAN.
-- Estado de ignición y comportamiento de conducción: aceleración brusca, frenado brusco, giros pronunciados, exceso de velocidad y eventos de choque.
-- Datos en búfer: hasta 49,000 puntos de ubicación almacenados cuando no hay cobertura de red y enviados a Plaspy cuando la conectividad se restablece.
-- Integración de accesorios BLE: sensores de temperatura, sensores de puertas, relevadores inalámbricos y llaveros para telemetría extendida y escenarios de control remoto.
-- Transportes seguros: informes TCP/UDP/MQTT/SMS con opciones de cifrado MD5 y AES128 para proteger la telemetría en tránsito.
+- Actualizaciones de ubicación y telemetría en tiempo real con intervalos de reporte configurables para visibilidad continua.
+- Informes de estado del vehículo incluyendo VIN, odómetro real, nivel de combustible y códigos de diagnóstico para flujos de trabajo de mantenimiento y cumplimiento.
+- Detección de eventos y comportamientos como estado de encendido, aceleraciones bruscas, frenadas intensas, giros pronunciados y eventos de choque para programas de capacitación y seguridad vial.
+- Reenvío de datos en búfer para que los puntos almacenados se transmitan a Plaspy cuando se restaure la conectividad, preservando la continuidad de los registros.
+- Integración de accesorios BLE para mostrar temperatura, estado de puertas u otras lecturas de sensores junto con los datos del vehículo.
+- Alertas configurables e informes automáticos para apoyar monitoreo antirrobo, programación de mantenimiento y KPIs operativos.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE Cat‑M1 con respaldo NB2/2G \(cuando corresponda\); informes TCP/UDP/MQTT/SMS |
-| --- | --- |
-| Bandas | Cobertura mundial de bandas \(el soporte de bandas regionales varía según el modelo\) |
-| GNSS | GNSS interno que admite GPS, BeiDou, Galileo y QZSS; antena interna |
-| Bluetooth | BLE 5.0 para emparejar sensores externos, relevadores inalámbricos y llaveros |
-| Potencia y batería | Tensión de operación 7–32 V DC; batería de respaldo interna Li‑Polímero de 100 mAh para alertas de desconexión |
-| Interfaces y Protocolos | Se conecta a OBD-II; admite protocolos OBDII/CAN estandarizados \(ISO 15765, SAE J1939, ISO 14230/KWP2000, ISO9142-2, SAE J1708\); ranura nano SIM; USB para depuración/configuración |
-| Datos y Reportes | Intervalos de informe configurables \(tan frecuentes como 3 segundos\); búfer de hasta 49,000 puntos GPS; opciones de cifrado MD5 y AES128 |
-| Indicadores y Puertos | Indicadores LED para red, diagnóstico y GNSS; puerto USB mini para depuración; ranura nano SIM |
-| Seguridad y Monitorización | Detección de choques, monitoreo del comportamiento de conducción \(aceleración brusca, frenado brusco y giros brusos\), alertas por exceso de velocidad y interferencia de red; zumbador interno para avisos al conductor |
-| Factor de forma y entorno | Dimensiones 52.8 × 47.8 × 24.8 mm; peso 70 g; temperatura de operación -30°C a +80°C; almacenamiento -40°C a +85°C |
-
-## Casos de uso
-
-- Gestión de flotas: rastreador GPS plug-and-play para ubicación de vehículos, monitorización de combustible y diagnósticos basados en CAN en flotas comerciales.
-- UBI y comportamiento del conductor: captura de eventos de conducción brusos, exceso de velocidad y detección de accidentes para seguros basados en el uso \(UBI\) o programas de coaching para conductores.
-- Antirrobo y alertas de manipulación: alertas de desconexión mediante la batería de respaldo y detección de interferencias en la red para proteger vehículos de alto valor.
-- Monitoreo de cadena de frío y activos: sensores BLE para temperatura y estado de puerta integrados con la telemetría del vehículo para transporte refrigerado.
-- Control remoto de relevadores y acceso: emparejar relevadores inalámbricos o llaveros vía BLE para habilitar inmovilizador externo o flujos de trabajo de control remoto cuando sea necesario.
+- Gestión de flotas para rastreo de ubicación, monitoreo de combustible y diagnóstico CAN en vehículos ligeros y pesados.
+- Programas de seguro basado en uso y comportamiento del conductor que requieren captura de eventos bruscos y detección de choques.
+- Monitoreo antirrobo y alertas por manipulación usando reportes de respaldo y notificaciones en cabina.
+- Monitoreo de cadena de frío y transporte refrigerado emparejando sensores de temperatura BLE con la telemetría del vehículo.
+- Flujos de trabajo de control remoto e inmovilizadores usando relés inalámbricos o llaveros emparejados para acceso y seguridad.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el TorchX 310 como rastreador GPS compatible con Plaspy ofrece una mezcla práctica de telemetría a nivel de vehículo y conectividad moderna. Su integración OBD-II le proporciona información precisa de VIN, odómetro, nivel de combustible y DTC sin necesidad de cables adicionales, mientras que la conectividad LTE Cat‑M1 y un amplio búfer offline mantienen la continuidad para el seguimiento en tiempo real y la gestión de flotas. El soporte BLE 5.0 amplía la telemetría con sensores de temperatura y de puertas o relevadores para inmovilización y control de acceso, y el zumbador interno ofrece avisos inmediatos en cabina para ayudar a reducir la conducción imprudente.
+El TorchX 310 es una opción práctica para organizaciones que usan Plaspy y necesitan telemetría precisa a nivel de vehículo junto con una implementación sencilla. Su integración OBD-II ofrece acceso directo a VIN y diagnósticos derivados del CAN sin cableados adicionales, mientras que la conectividad celular y un búfer offline considerable ayudan a mantener un seguimiento fiable y registros históricos. El soporte de accesorios BLE y las alertas en cabina amplían los casos de uso operativos, desde monitoreo de temperatura hasta seguridad del conductor, sin requerir ecosistemas de hardware separados.
 
-Para operaciones que ejecutan Plaspy, el TorchX 310 ofrece flujos de datos fiables \(TCP/UDP/MQTT/SMS\), opciones de cifrado \(MD5, AES128\) y actualizaciones de firmware por aire para mantener los dispositivos seguros y actualizados. Esa combinación convierte al TorchX 310 en una opción fiable y escalable para organizaciones que buscan un rastreador GPS compacto que equilibre diagnósticos CAN-bus, seguimiento en tiempo real, alertas antirrobo e integración de sensores BLE bajo una plataforma de gestión habilitada por Plaspy.
-
+Para equipos que gestionan flotas en Plaspy, el TorchX 310 ofrece un conjunto equilibrado de funciones que cubren visibilidad de ubicación, diagnóstico vehicular y monitoreo de comportamiento en un paquete compacto. Para conocer más sobre cómo Plaspy puede aprovechar la telemetría y los informes del TorchX 310, visite el sitio principal de Plaspy en https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales y la compatibilidad en el sitio oficial del fabricante en https://www.topflytech.com/.

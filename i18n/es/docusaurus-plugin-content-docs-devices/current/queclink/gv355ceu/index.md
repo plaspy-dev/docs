@@ -2,60 +2,60 @@
 slug: /queclink/gv355ceu
 id: gv355ceu
 sidebar_label: GV355CEU
+title: QuecLink - GV355CEU
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular LTE de alta precisión compatible con Plaspy para ubicación en tiempo real, descargas DDD y telemetría de flotas
+keywords:
+  - QuecLink GV355CEU
+  - GV355CEU rastreador
+  - Rastreador QuecLink
+  - rastreador GPS vehicular
+  - seguimiento de flotas
+  - tacógrafo DDD
+  - gestión de flotas
+  - compatible con Plaspy
+  - seguimiento en tiempo real
+  - GNSS de alta precisión
 ---
+
 # QuecLink - GV355CEU
 
 ![GV355CEU](./tracker.png)
 
-El Queclink GV355CEU es un rastreador GPS para vehículos LTE de alta precisión diseñado para aplicaciones exigentes de gestión de flotas y cumplimiento normativo. Como dispositivo compatible con Plaspy, el GV355CEU ofrece seguimiento en tiempo real fiable, telemetría completa del vehículo y recuperación remota de tacógrafo, de modo que las flotas pueden supervisar la ubicación del vehículo, las horas del conductor y datos diagnósticos críticos desde una única plataforma.
+El QuecLink GV355CEU es un rastreador GPS vehicular LTE de alta precisión diseñado para la gestión exigente de flotas y el cumplimiento normativo. Pensado para flotas mixtas y uso intensivo, el dispositivo ofrece seguimiento en tiempo real, telemetría vehicular completa y descarga remota de tacógrafos para que las flotas supervisen la ubicación de los vehículos, las horas de conducción y la información diagnóstica crítica desde una sola plataforma.
 
-Construido para flotas mixtas y uso intensivo, el GV355CEU combina conectividad LTE Cat‑1 con respaldo 2G, un motor GNSS de u‑blox y amplio soporte de interfaces de vehículo \(dual CAN, J1708, K‑Line y OBDII\). Cuando se integra con Plaspy, este rastreador permite una precisión de posición continua por debajo de 2 m, descargas automáticas de archivos DDD desde tacógrafos compatibles y alertas accionables para anti‑robo, comportamiento del conductor y flujos de trabajo de mantenimiento.
+Como dispositivo compatible con Plaspy, el GV355CEU se integra con la plataforma para centralizar datos de ubicación, tacógrafo y vehículo y facilitar la supervisión operativa. Al vincularlo con Plaspy, las flotas obtienen posicionamiento de alta precisión, automatizan la descarga de archivos DDD para procesos de cumplimiento y reciben alertas e informes que respaldan la seguridad, el mantenimiento y la prevención de robos.
 
-## Puntos destacados
+## Aspectos destacados
 
-- Rastreador GPS compatible con Plaspy que ofrece seguimiento en tiempo real fiable y visibilidad de la gestión de la flota.
-- Soporte avanzado de tacógrafo — descarga remota de archivos DDD para horas del conductor y flujos de cumplimiento.
-- Interfaces dual CAN, J1708 y OBDII para telemetría enriquecida y extracción de códigos DTC \(diagnóstico\).
-- GNSS de alta precisión \(GPS/GLONASS/Galileo/BeiDou\) con precisión autónoma \< 2 m para rutas precisas y geocercas.
-- Soporte BLE 5.2 y 1‑Wire para sensores Bluetooth, sondas de temperatura e integración de identificación del conductor \(iButton\).
-- Formato compacto y robusto con antenas internas y batería de respaldo para mantener los informes durante cortes de energía.
-- Conjunto de eventos y alarmas: geocerca, alarma de remolque, detección de conducción agresiva/colisión y alarmas de entrada configurables para protección antirrobo.
+- Rastreador compatible con Plaspy que brinda seguimiento en tiempo real y visibilidad fiable en flotas mixtas
+- Soporte remoto de tacógrafo para descargas automáticas de archivos DDD y gestión de las horas de los conductores
+- Amplio soporte de interfaces vehiculares para extracción de telemetría y datos diagnósticos
+- Posicionamiento GNSS de alta precisión con exactitud autónoma inferior a 2 metros para enrutamiento y geocercas precisas
+- Soporte para sensores externos e identificación de conductor para gestión de carga y personal
+- Diseño compacto y robusto con antenas integradas y reportes de respaldo durante eventos de corte de energía
 
 ## Cómo funciona con Plaspy
 
-Cuando se combina con Plaspy, el GV355CEU transmite la ubicación y la telemetría del vehículo a la plataforma a través de LTE/2G mediante TCP/UDP o SMS. Plaspy ingiere posiciones GNSS, parámetros del bus CAN y archivos DDD de tacógrafo para que los gestores de flota obtengan una visión unificada de la ubicación del vehículo, las horas del conductor, diagnósticos y eventos de estado. Las alertas e informes se generan en Plaspy a partir de eventos del dispositivo, informes programados y disparadores de geocerca.
+Integrado con Plaspy, el GV355CEU envía en tiempo real la ubicación y la telemetría del vehículo a la plataforma, de modo que los gestores obtienen una vista unificada de los activos, los conductores y el estado de cumplimiento. Plaspy procesa las actualizaciones de posición, los parámetros del vehículo y los archivos de tacógrafo para generar alertas, informes y flujos de trabajo operativos.
 
-- Actualizaciones en tiempo real de ubicación y telemetría transmitidas a Plaspy para seguimiento en vivo y reproducción histórica.
-- Descarga remota de archivos DDD de tacógrafos D8 y tacógrafos con interfaz CAN para informes de cumplimiento.
-- Estado de ignición y entradas digitales/analógicas \(puertas, alarmas, PTO\) utilizado por Plaspy para activar reglas y flujos de trabajo.
-- Monitoreo de combustible y parámetros del motor disponibles a través de CAN/OBDII cuando el vehículo expone esas señales, habilitando monitoreo de combustible e informes de eficiencia.
-- Control remoto de salidas para admitir flujos de inmovilización o corte del motor cuando se integra mediante comandos de Plaspy y salidas del dispositivo.
-- Sensores Bluetooth y sondas 1‑Wire alimentan Plaspy con datos de temperatura, identificación del conductor y datos de accesorios para la gestión de carga o conductor.
+- Actualizaciones de ubicación y telemetría en tiempo real para seguimiento en vivo y reproducción histórica en Plaspy
+- Descarga remota de archivos DDD para reportes regulatorios y conciliación de horas de conducción
+- Estados de entrada e ignición utilizados por Plaspy para activar reglas, alertas y automatizaciones
+- Telemetría del vehículo a través de interfaces soportadas disponible para diagnóstico, monitoreo de combustible e informes de mantenimiento cuando el vehículo lo expone
+- Control remoto de salidas para apoyar flujos de trabajo de inmovilización o corte de motor cuando se configuran desde Plaspy
+- Datos de sensores e identificación de conductor alimentados en Plaspy para monitoreo de temperatura, supervisión de carga y asignación de conductores
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE Cat 1 con respaldo 2G; transmisión TCP/UDP/SMS |
-| --- | --- |
-| Bandas | LTE‑FDD: B1/B2/B3/B4/B5/B7/B8/B20/B28; GSM/GPRS/EDGE como respaldo |
-| Alimentación y batería | Amplio rango de voltaje de operación 8–32 V DC; batería de respaldo Li‑Polímero interna de 250 mAh |
-| Interfaces | 1 × RS232, 1 × RS485, dual CAN \(vehículo pesado y ligero\), K‑Line \(D8 tacógrafo\), mini‑USB, 1‑Wire, múltiples entradas digitales y analógicas, salida digital con enclavamiento, puerto I/O configurable |
-| GNSS | Receptor GNSS u‑blox \(GPS/GLONASS/Galileo/BeiDou\); precisión de posición autónoma \< 2 m |
-| Bluetooth | BLE 5.2 para identificación del conductor, sensores de temperatura y accesorios BLE |
-| Gestión remota | Descarga remota de tacógrafos y control de salidas; mini‑USB para configuración y firmware; OTA control de salidas del dispositivo |
-| Formato | Compacto: 94 × 58.5 × 21 mm; peso 92 g; antenas internas para celular, GNSS y BLE; indicadores LED para estado de señal celular, GNSS, energía y tacógrafo/CAN |
-
-## Casos de uso
-
-- Cumplimiento de flota y gestión de tacógrafos: automatizar la recuperación de DDD y la generación de informes de horas del conductor para auditorías regulatorias.
-- Antirrobo y recuperación de la flota: alertas de geocerca, monitorización de la ignición y control remoto de salidas ayudan a disuadir robos y permiten flujos de inmovilización.
-- Telemetría de flota mixta: recopilar parámetros del motor, DTCs y datos de combustible de vehículos pesados y ligeros vía J1939/CAN y OBDII para la planificación de mantenimiento.
-- Monitoreo de cadena de frío y carga: integrar sensores de temperatura 1‑Wire y BLE para rastrear las condiciones de la carga junto con la posición GPS en Plaspy.
-- Identificación del conductor y seguimiento de comportamiento: identificación del conductor por BLE y detección de conducción brusca respaldan la conciliación de nómina y programas de entrenamiento en seguridad.
+- Cumplimiento de flota y gestión de tacógrafos para auditorías regulatorias e informes de horas de conducción
+- Flujos de trabajo de prevención y recuperación ante robos usando geocercas, monitoreo de ignición y salidas remotas
+- Telemetría en flotas mixtas para planificación de mantenimiento en vehículos pesados y ligeros
+- Cadena de frío y monitoreo de carga combinando sensores de temperatura con la posición GPS en Plaspy
+- Identificación de conductor y monitoreo de comportamiento para apoyar la capacitación en seguridad y la conciliación de nóminas
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GV355CEU está diseñado para flotas que requieren un rendimiento fiable de rastreador GPS, además de datos profundos del vehículo, todo accesible desde Plaspy para una gestión centralizada. Su amplio soporte de protocolos \(dual CAN, J1708, K‑Line y OBDII\), GNSS de alta precisión y conectividad LTE aseguran un seguimiento en tiempo real continuo y telemetría enriquecida. Los usuarios de Plaspy obtienen descargas automáticas de DDD de tacógrafos, alertas configurables \(geocerca, remolque, batería baja, choque\) y control remoto de salidas para respaldar procedimientos de inmovilización y antirrobo.
+El GV355CEU es adecuado para organizaciones que requieren un rastreo confiable junto con datos vehiculares profundos accesibles desde una plataforma telemática centralizada. Su enfoque en posicionamiento preciso, soporte de tacógrafo y amplia compatibilidad con interfaces vehiculares lo convierten en una opción práctica para flotas que necesitan cumplimiento, seguridad e información operativa en una sola vista.
 
-Optar por el GV355CEU junto con Plaspy ofrece una solución telemática escalable que reduce procesos manuales, mejora la seguridad de la flota, facilita el cumplimiento normativo y permite obtener insights operativos como el monitoreo de combustible y el mantenimiento predictivo cuando el CAN del vehículo expone esos parámetros. Con sensores BLE, identificación del conductor y un formato compacto, preparado para uso en vehículos, este rastreador de Queclink está optimizado para la gestión moderna de flotas, la recuperación de vehículos robados y las necesidades de telemetría de extremo a extremo.
-
+Para conocer más sobre cómo Plaspy puede aprovechar dispositivos compatibles como el QuecLink GV355CEU para mejorar la supervisión y el cumplimiento de su flota visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y las características actuales en el sitio oficial del fabricante https://www.queclink.com/.

@@ -2,58 +2,62 @@
 slug: /careu/ua1
 id: ua1
 sidebar_label: UA1
+title: CAREU - UA1
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto IP67 para monitoreo prolongado de contenedores y activos estáticos compatible con Plaspy
+keywords:
+  - CAREU UA1
+  - rastreador UA1
+  - rastreador GPS CAREU
+  - UA1 compatible con Plaspy
+  - rastreador de activos
+  - rastreo de contenedores
+  - GPS IP67
+  - rastreador de larga batería
+  - rastreo de flotas
+  - telemetría y reportes
 ---
+
 # CAREU - UA1
 
 ![UA1](./tracker.png)
 
-El CAREU UA1 es un rastreador GPS compacto, con clasificación IP67, diseñado para el monitoreo a largo plazo de activos no alimentados y ocultos. Diseñado para despliegues en contenedores, carga y activos estáticos, el UA1 ofrece informes de ubicación y telemetría compatibles con Plaspy a través de 4G LTE Cat M1 / NB1 con retroceso a 2G, además de SMS, FTP y USSD, para que puedas integrar un rastreo de bajo consumo en los flujos de gestión de flotas y supervisión de activos impulsados por Plaspy.
+El CAREU UA1 es un rastreador GPS compacto con certificación IP67 diseñado para el seguimiento prolongado de activos sin alimentación y para instalaciones ocultas. Está pensado para despliegues en contenedores, carga y activos estáticos, y ofrece posicionamiento GNSS con énfasis en consumo de energía reducido y operación resistente a manipulaciones. El equipo admite opciones de batería de varios años, incorpora un acelerómetro de 3 ejes y permite configuración por Bluetooth para su puesta en servicio en campo.
 
-El UA1 combina opciones de batería para varios años, posicionamiento GNSS \(GPS/GLONASS/QZSS\) y un acelerómetro de 3 ejes a bordo con detección de manipulación y configuración inalámtrica por Bluetooth. Ya sea que necesites beaconing periódico para logística a largo plazo o un rastreo más frecuente y casi en tiempo real cuando los activos están activos, el CAREU UA1 está optimizado para telemetría segura de bajo consumo y una integración simple con Plaspy.
+Como dispositivo compatible con Plaspy, el UA1 puede enviar ubicación y telemetría esencial a los flujos de trabajo de gestión de flotas y supervisión de activos impulsados por Plaspy. Su soporte para reportes celulares con canales de respaldo y modos de reporte periódico de bajo consumo lo hacen idóneo para integrar seguimiento de larga duración, alertas por manipulación y telemetría opcional de sensores dentro de los paneles, alertas y reportes de Plaspy.
 
-## Aspectos clave
+## Puntos clave
 
-- Rastreador GPS compatible con Plaspy con GNSS \(GPS/GLONASS/QZSS\) para datos de ubicación confiables.
-- Diseños de bajo consumo con múltiples configuraciones de batería: baterías recargables de 6,700 mAh o paquetes de larga vida no recargables \(18,000 mAh / 27,000 mAh\) para adaptar las necesidades de despliegue.
-- Conectividad 4G LTE Cat.M1 / NB1 con retroceso a 2G \(GPRS/EDGE\), además de FTP, SMS y USSD para una entrega de datos robusta incluso en redes variables.
-- Carcasa duradera IP67 y opciones de montaje flexibles \(imanes, hardware\) para contenedores, maquinaria pesada y activos ocultos.
-- Acelerómetro de 3 ejes a bordo y sensor de manipulación inferior para detección de movimiento e impacto y intrusión; telemetría anti‑robo central para alertas de Plaspy.
-- Configuración inalámbrica vía Bluetooth \(BLE 4.0 opcional\) para una puesta en servicio sencilla y soporte de sensores BLE para datos de temperatura/puerta/ambiente.
-- Actualizaciones de firmware FOTA vía FTP y opciones de baterías externas acoplables para una gestión de flota escalable y de mínima intervención.
+- Rastreador compatible con Plaspy que ofrece posicionamiento GNSS para actualizaciones de ubicación confiables.
+- Carcasa IP67 adecuada para contenedores, carga y activos estáticos en exteriores.
+- Diseño de bajo consumo con varias configuraciones de batería para operación prolongada sin supervisión.
+- Reporte celular con canales de respaldo para mantener la entrega de datos en coberturas variables.
+- Acelerómetro de 3 ejes integrado y sensor de manipulación en la base para alertas de movimiento e intrusión.
+- Configuración inalámbrica por Bluetooth para instalación en campo y soporte para sensores externos opcionales.
+- Soporta actualizaciones de firmware remotas y baterías externas acoplables para simplificar la gestión del ciclo de vida.
 
 ## Cómo funciona con Plaspy
 
-El CAREU UA1 envía ubicaciones GNSS y telemetría del dispositivo a Plaspy utilizando canales celulares y de mensajería estándar compatibles con el dispositivo. Plaspy procesa informes de ubicación, eventos de movimiento y manipulación, y datos de sensores opcionales para ofrecer paneles, alertas e informes adecuados para la gestión de flotas y el monitoreo a largo plazo de activos.
+El CAREU UA1 envía posiciones GNSS, eventos de movimiento y manipulación, y telemetría de sensores opcionales a Plaspy mediante los canales de datos que admite el dispositivo. Plaspy procesa estos reportes para ofrecer visibilidad de ubicación, activar alertas y generar informes que apoyan tanto las operaciones de flota como la supervisión prolongada de activos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real cuando se configuran para informes frecuentes, y reportes periódicos de gran ahorro de batería para despliegues a largo plazo.
-- Alertas de movimiento e impacto del acelerómetro de 3 ejes y notificaciones de manipulación del sensor inferior para flujos anti‑robo.
-- Sensores opcionales de luz ambiental y presión, o sensores BLE, pueden proporcionar telemetría ambiental a Plaspy para monitoreo de carga refrigerada o de alto valor.
-- Entrada/salida digital a través del cable USB‑C I/O opcional permite detección de encendido o flujos básicos de inmovilización remota cuando se integra en alarmas y comandos de Plaspy.
-- Actualizaciones de firmware FOTA \(firmware over‑the‑air\) vía FTP y configuración Bluetooth simplifican las actualizaciones en campo y la gestión remota de dispositivos a través de los procesos operativos de Plaspy.
+- Configure envíos frecuentes para actualizaciones de ubicación casi en tiempo real o use beaconing periódico para un seguimiento de larga duración y bajo consumo.
+- Reciba notificaciones de movimiento, impactos y manipulación en Plaspy para impulsar flujos de trabajo anti robo y alertas inmediatas.
+- Incluya datos ambientales u otros sensores BLE opcionales para que Plaspy supervise las condiciones de la carga y active alertas basadas en umbrales.
+- Aproveche entradas/salidas digitales cuando estén disponibles para integrar estado de encendido o acciones básicas de inmovilizador en las reglas de Plaspy.
+- Gestione dispositivos a escala con actualizaciones por aire (OTA) y procesos de puesta en servicio por Bluetooth que reducen el tiempo de servicio en campo.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE Cat.M1 / NB1 con retroceso a 2G \(GPRS/EDGE\); admite SMS, FTP y USSD para transporte de datos |
-| --- | --- |
-| Bandas | LTE Cat.M1 / NB1 con retroceso a 2G \(bandas regionales específicas determinadas por el modelo/variante\) |
-| Alimentación y Batería | Múltiples opciones: batería interna recargable de 6,700 mAh \(~30 meses a 1 informe/día\), dos baterías no recargables de 18,000 mAh \(~4 años a 1 informe/día\) y 27,000 mAh \(~6 años a 1 informe/día\); la unidad principal puede suministrarse con o sin batería interna; baterías externas acoplables compatibles |
-| Interfaces | Sensor de manipulación inferior; cable USB‑C I/O opcional que proporciona una entrada digital y una salida digital \(pueden usarse para detección de encendido o control básico del inmovilizador\) |
-| GNSS | Posicionamiento GPS / GLONASS / QZSS |
-| Acelerómetro y sensores | Acelerómetro de 3 ejes incorporado para detección de movimiento/impacto; sensores opcionales de luz ambiental y presión |
-| Bluetooth | Configuración inalámbrica vía Bluetooth; soporte opcional BLE 4.0 para sensores y beacons |
-| Gestión remota | Actualizaciones de firmware FOTA vía FTP; configuración Bluetooth para instalación en campo |
-| Factor de forma | Carcasa compacta, con clasificación IP67 y opciones de montaje para instalaciones ocultas o expuestas |
-
-## Casos de uso
-
-- Seguimiento de contenedores y logística internacional con larga vida de la batería entre informes para trayectos prolongados por mar e intermodales.
-- Monitoreo de carga refrigerada o sensible cuando se acompaña de sensores de temperatura BLE o sensores ambientales opcionales; la telemetría se envía a Plaspy para alertas e informes.
-- Control de efectivo, paquetes y protección de cajeros automáticos mediante detección de manipulación y alertas de movimiento para activar flujos anti‑robo de Plaspy.
-- Seguimiento de activos estáticos y de movimiento lento \(generadores, maquinaria pesada, remolques\) donde se requiere operación prolongada y resistencia a la manipulación.
-- Rastreo de respaldo de vehículos ejecutivos o seguimiento complementario de activos utilizando el cable I/O opcional para el estado de encendido y el control del inmovilizador a través de reglas de Plaspy.
+- Logística de contenedores e intermodal donde se requiere larga autonomía de batería y montaje oculto.
+- Monitoreo de carga refrigerada o sensible cuando se combina con sensores de temperatura o ambientales externos.
+- Protección de efectivo, paquetería y cajeros automáticos que se apoya en alertas de manipulación y movimiento para activar flujos de seguridad en Plaspy.
+- Seguimiento de activos estáticos o de movimiento lento como generadores, remolques y equipos estacionados que necesitan operación prolongada sin supervisión.
+- Seguimiento suplementario o de respaldo para vehículos y activos de alto valor cuando se desean señales basadas en encendido o E/S.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El CAREU UA1 es una opción práctica para organizaciones que necesitan un rastreador GPS compatible con Plaspy, que ofrezca vida de batería multianual, instalación flexible y telemetría fiable sobre redes celulares. Su durabilidad IP67, detección de robo basada en acelerómetro y sensores BLE opcionales lo hacen adecuado tanto para la gestión de flotas como para la protección de activos estáticos. Con FOTA a través de FTP y puesta en marcha por Bluetooth, el UA1 minimiza las intervenciones en campo y se escala fácilmente en despliegues de gran tamaño. Elija el UA1 para un rastreo GPS y telemetría confiables y de bajo mantenimiento que se integran de forma fluida en los paneles y alertas de Plaspy, respaldando casos de uso desde la gestión de flotas y el rastreo en tiempo real hasta anti‑robo, flujos de monitoreo de combustible impulsados por telemetría e integraciones de encendido/inmovilizador cuando se utiliza el accesorio I/O opcional.
+El CAREU UA1 es una opción práctica para organizaciones que requieren seguimiento duradero y de bajo mantenimiento integrado con Plaspy. Su combinación de opciones de batería de larga duración, resistencia IP67 y detección de movimiento y manipulación lo hace adecuado para despliegues mixtos que abarcan contenedores, activos estáticos y necesidades ocasionales de seguimiento activo. La configuración inalámbrica y la capacidad de actualizaciones remotas ayudan a reducir la carga operativa continua al administrar grandes flotas de dispositivos.
 
+Al integrarlo con Plaspy, el UA1 ofrece una vía directa para traducir telemetría de bajo consumo en historial de ubicaciones consultable, alertas e informes operativos. Esa integración soporta tanto la supervisión rutinaria de flotas como flujos de trabajo específicos de prevención de robo o monitoreo ambiental sin requerir intervenciones intensivas en campo.
+
+Para obtener más información sobre cómo Plaspy puede trabajar con dispositivos CAREU visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo; por favor verifique las especificaciones actuales y la información de variantes en el sitio del fabricante https://www.systech-iot.com/ antes de finalizar despliegues.

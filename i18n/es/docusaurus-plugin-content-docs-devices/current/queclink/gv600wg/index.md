@@ -2,61 +2,61 @@
 slug: /queclink/gv600wg
 id: gv600wg
 sidebar_label: GV600WG
+title: QuecLink - GV600WG
 sidebar_class_name: menu_item_tracker
+description: Rastreador QuecLink GV600WG resistente IP67 compatible con Plaspy para remolques y vehículos pesados larga autonomía y telemetría confiable
+keywords:
+  - QuecLink GV600WG
+  - GV600WG compatible con Plaspy
+  - rastreador QuecLink Plaspy
+  - rastreador GPS GV600WG
+  - rastreador para remolques
+  - seguimiento de flotas
+  - rastreador para vehículos pesados
+  - rastreador GPS IP67
+  - rastreador GNSS u-blox
+  - rastreador de larga batería
 ---
+
 # QuecLink - GV600WG
 
 ![GV600WG](./tracker.png)
 
-El GV600WG de Queclink es un rastreador GPS robusto, diseñado para vehículos de uso intensivo — remolques, cisternas, unidades refrigeradas y plataformas planas — y es compatible con Plaspy para una integración rápida en flujos de gestión de flotas. Con impermeabilización IP67, antenas internas a prueba de manipulación y una batería interna de alta capacidad, el GV600WG ofrece seguimiento en tiempo real fiable y telemetría rica incluso en los entornos de transporte más exigentes.
+El QuecLink GV600WG es un rastreador GPS robusto diseñado para activos de alta exigencia como remolques, cisternas, unidades refrigeradas y plataformas. Combina una carcasa resistente con clasificación IP67, un diseño de antena a prueba de manipulación y una batería interna de gran capacidad para ofrecer seguimiento continuo y telemetría fiable en entornos de transporte y logística exigentes.
 
-Construido alrededor de un receptor GNSS All‑in‑One de u-blox y un amplio soporte celular UMTS/GSM, el GV600WG ofrece ubicación precisa, modos de reporte flexibles y un amplio conjunto de E/S para detección de encendido, sensores analógicos y accesorios BLE. Combinar este dispositivo con Plaspy ofrece una solución escalable para protección antirrobo, control remoto del inmovilizador, interfaces de monitoreo de combustible y visibilidad de extremo a extremo del ciclo de vida del remolque.
+Como dispositivo compatible con Plaspy, el GV600WG se integra fácilmente en los flujos de trabajo de gestión de flotas para ofrecer seguimiento en tiempo real, reenvío de alarmas y telemetría histórica. Su posicionamiento GNSS, amplio soporte celular y conjunto extensible de E/S lo convierten en una opción práctica para operadores que requieren larga autonomía en espera, capacidades de control remoto y soporte para sensores adicionales dentro de la plataforma Plaspy.
 
-## Aspectos clave
+## Características principales
 
-- Carcasa robusta a prueba de agua IP67 y construcción duradera para entornos de flota y transporte de químicos/combustibles.
-- Duración excepcional de la batería en modo de espera — batería interna 3.7V 5800 mAh \(18650\); admite hasta 120 días al reportar una vez al día — ideal para remolques sin alimentación continua.
-- Posicionamiento GNSS de precisión con receptor u-blox \(precisión autónoma \< 2.5 m CEP\) y alta sensibilidad \(tracking -162 dBm\) para un seguimiento en tiempo real fiable.
-- Amplia cobertura celular: UMTS/HSPA y GSM/GPRS/EDGE en bandas globales para una conectividad constante y carga de telemetría.
-- Conjunto completo de E/S para telemetría de flotas: entrada de encendido \(ignition\); entrada analógica \(0–32 V\); soporte 1‑wire \(sensores de temperatura, iButton ID\); puertos serie y salidas digitales configurables.
-- Soporte para accesorios BLE \(sensores de temperatura y humedad, llaveros, expansores de E/S\) para monitoreo ampliado y flujos de trabajo anti‑robo.
-- Buffering en el dispositivo de hasta 10,000 mensajes garantiza continuidad de datos durante interrupciones de red.
-- Capacidades de control remoto \(control OTA de salidas digitales\) para intervenciones tipo inmovilizador y gestión remota de activos.
+- Carcasa impermeable IP67 y diseño resistente a manipulación, apropiado para entornos de flota hostiles y transporte de combustible o productos químicos.
+- Larga autonomía en espera gracias a la batería interna de alta capacidad, ideal para remolques y activos sin alimentación externa continua.
+- Posicionamiento GNSS preciso mediante receptor basado en u-blox para actualizaciones de ubicación confiables en escenarios típicos de flotas.
+- Amplio soporte celular para cargas de telemetría consistentes en zonas de amplia cobertura.
+- Soporte completo de E/S y accesorios para detección de encendido, telemetría analógica y sensores auxiliares que amplían la visibilidad de la flota.
+- Almacenamiento en el dispositivo y control remoto de salidas para preservar la continuidad de los datos y permitir intervenciones tipo inmovilizador cuando se integra con un backend.
+- Compatibilidad con accesorios BLE para incorporar sensores de temperatura y llaveros, útil en flujos de trabajo de cumplimiento de carga y antirobo.
 
 ## Cómo funciona con Plaspy
 
-La integración del GV600WG con Plaspy proporciona un flujo completo de telemetría y rastreo: el dispositivo recopila datos GNSS y de sensores, y luego transmite mensajes a Plaspy a través de transports estándar. Plaspy decodifica los paquetes entrantes, presenta la ubicación en tiempo real en mapas, activa flujos de trabajo de geocerca y alarmas, y almacena telemetría histórica para informes y análisis. Este conjunto compatible con Plaspy admite una gestión proactiva de la flota y una respuesta ante robos, manteniendo la continuidad de datos durante pérdidas de conectividad.
+Al integrarse con Plaspy, el GV600WG forma parte de una solución de seguimiento de extremo a extremo: el dispositivo recoge datos GNSS y de sensores, envía mensajes a Plaspy, y Plaspy decodifica, visualiza y archiva esos datos para monitoreo, alertas e informes. Esta integración soporta supervisión operativa continua, alarmas oportunas y análisis histórico para los responsables de flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas por TCP, UDP o SMS a Plaspy para paneles de seguimiento en vivo y registros históricos.
-- Monitoreo del estado de encendido mediante la entrada de disparo positiva para respaldar informes de comportamiento del conductor, eventos de inicio/detención de ruta y estrategias de ahorro de combustible.
-- Entrada analógica usable para monitoreo de combustible u otra telemetría analógica, con umbrales y alarmas personalizables en Plaspy.
-- Inmovilizador remoto y control de salidas mediante comandos OTA de salidas digitales para intervenir ante robos desde Plaspy.
-- Sensores Bluetooth \(BLE\) para temperatura/humedad y presencia de llavero integrados a alertas de Plaspy y monitoreo de cumplimiento.
-- Alarmas de geocerca \(hasta 20 regiones circulares + 20 poligonales\), avisos de batería baja y alarmas especiales disparadas por acelerómetro enviadas a Plaspy para notificación instantánea.
+- Ubicación y telemetría en tiempo real visibles en los paneles de seguimiento en vivo de Plaspy y conservadas para informes históricos.
+- Eventos de encendido y movimiento utilizados por Plaspy para registrar inicio y fin de rutas, resúmenes de comportamiento de conductores y métricas de utilización.
+- Entradas analógicas y de sensores encaminadas a las reglas de alarma y umbrales personalizados de Plaspy para monitorizar combustible o parámetros de equipos.
+- Control remoto de salidas disponible mediante flujos de trabajo de Plaspy para apoyar intervenciones antirobo y acciones de gestión de activos.
+- Lecturas de sensores BLE y presencia de accesorios integradas en las alertas de Plaspy para control de temperatura y vigilancia de seguridad.
+- Eventos de geocerca, notificaciones de batería baja y otras alarmas reenviadas a Plaspy para notificación inmediata y respuesta operativa.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | UMTS/HSPA y GSM/GPRS/EDGE; HSPA DL hasta 7.2 Mbps / UL hasta 5.76 Mbps |
-| --- | --- |
-| Bandas | UMTS/HSPA 850/900/1900/2100 MHz; GSM 850/900/1800/1900 MHz |
-| Alimentación y batería | Batería interna de ion de litio 3.7V, 5800 mAh \(18650\); autonomía en espera hasta 120 días al reportar una vez al día; voltaje de operación DC 8–32 V; admite múltiples fuentes de alimentación; conector impermeable de 18 pines |
-| Interfaces | 1 entrada digital de disparo positivo \(detección de encendido\); 1 entrada analógica \(0–32 V\); soporte 1-wire \(sensores de temperatura, iButton ID\); 1 salida de alimentación \(3.3 V\); 4 entradas de disparo negativo configurables o salidas open-drain \(150 mA máx.\); RS232 y puertos serial TTL |
-| GNSS | Receptor GNSS All‑in‑One de u-blox; precisión de posición autónoma \< 2.5 m CEP; sensibilidad de seguimiento -162 dBm; TTFF: frío/templado ≈ 27 s, caliente ≈ 1 s |
-| Bluetooth | Soporte BLE para accesorios \(sensores de temperatura y humedad, llaveros, expansores de E/S\) |
-| Gestión remota | Transportes TCP, UDP, SMS; control OTA de salidas digitales; buffer en el dispositivo de hasta 10,000 mensajes; modos de reporte flexibles \(tiempo, distancia, kilometraje\) |
-| Forma y entorno | 135 × 62 × 38 mm, 320 g; IP67 a prueba de agua; voltaje de operación DC 8–32 V; temperatura -30 °C a +80 °C; humedad 0%–95% sin condensación |
-
-## Casos de uso
-
-- Gestión de flotas para remolques y vehículos pesados — seguimiento continuo de posición, kilometraje y telemetría de encendido para programación y reportes de utilización.
-- Protección antirrobo e inmovilización remota — alertas habilitadas por Plaspy más control OTA de salidas para intervenciones oportunas.
-- Carga refrigerada y sensible a la temperatura — sensores BLE de temperatura o sondas 1-wire alimentan a Plaspy para cumplimiento y alertas de prevención de deterioro.
-- Cisternas y materiales peligrosos — carcasa IP67 y construcción robusta para rastreo seguro en entornos de transporte de combustibles y químicos.
-- Remolques estacionales o de alquiler — la larga autonomía de la batería facilita despliegues a largo plazo cuando se desconecta la alimentación externa.
+- Seguimiento de flota de remolques para programación, contabilización de kilometraje e informes de utilización cuando la alimentación externa es intermitente.
+- Protección antirobo con control remoto de salidas y alertas para permitir intervenciones rápidas por parte del equipo operativo.
+- Monitorización de cargas refrigeradas usando sensores de temperatura accesorios para mantener el cumplimiento y reducir riesgo de pérdida.
+- Rastreo de cisternas y mercancías peligrosas donde se requiere una carcasa impermeable y telemetría fiable.
+- Despliegues estacionales o de remolques en renta que se benefician de la larga autonomía en espera y del almacenamiento en el dispositivo.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Combinar el GV600WG con Plaspy ofrece a los operadores de flotas un rastreador GPS robusto, compatible con Plaspy, que equilibra una larga vida de batería, posicionamiento GNSS preciso y un conjunto completo de interfaces enfocadas a la flota. El soporte BLE interno, la entrada analógica y los puertos serie facilitan la extensión de la telemetría para monitoreo de combustible, cumplimiento de temperatura e identificación de conductor/activo. En operaciones, el transporte TCP/UDP/SMS y un buffering sólido de mensajes aseguran datos continuos en Plaspy para informes fiables, geocercas y flujos de trabajo de anti‑robo.
+El GV600WG es adecuado para flotas que necesitan un rastreador duradero con gran autonomía en espera y una interfaz flexible para sensores. Su enfoque en la resistencia de la batería, posicionamiento GNSS confiable y soporte de accesorios lo hace ideal para operaciones centradas en remolques, transporte refrigerado y programas de protección de activos. Al emplearlo con Plaspy, los operadores obtienen visibilidad centralizada, manejo coherente de eventos y flujos de trabajo de alarmas integrados que simplifican la supervisión diaria de la flota.
 
-Nota: Queclink ha anunciado la fase de descontinuación \(EOL\) del GV600WG y los pedidos se han discontinuado a partir del 8 de agosto de 2025. Se proporciona una garantía de un año para los clientes afectados, y Queclink recomienda opciones de migración como GV650CAU Lite. Aunque el GV600WG siga siendo una opción sólida compatible con Plaspy mientras esté disponible, consulte a Queclink o a su integrador de Plaspy para planificar la migración y las hojas de ruta de flota a largo plazo.
-
+Para obtener más información sobre el uso del GV600WG con Plaspy visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo; por favor verifique las especificaciones técnicas actuales y el estado del ciclo de vida con Queclink en https://www.queclink.com/ antes de tomar decisiones de compra o despliegue.

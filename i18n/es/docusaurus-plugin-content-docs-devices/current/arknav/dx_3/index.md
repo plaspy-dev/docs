@@ -2,63 +2,60 @@
 slug: /arknav/dx_3
 id: dx_3
 sidebar_label: DX-3
+title: ArkNav - DX-3
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS personal compacto compatible con Plaspy para seguimiento a demanda y alertas de emergencia rápidas
+keywords:
+  - ArkNav DX-3
+  - Rastreador DX-3
+  - Rastreador GPS ArkNav
+  - Rastreador compatible con Plaspy
+  - Rastreador de seguridad personal
+  - Seguridad para trabajadores solitarios
+  - Rastreador para cuidado de adultos mayores
+  - GPS con botón de pánico
+  - Dispositivo GPS accesible
+  - Rastreador resistente a salpicaduras
 ---
+
 # ArkNav - DX-3
 
 ![DX-3](./tracker.png)
 
-El DX-3 es un rastreador GPS compacto compatible con Plaspy, diseñado para la seguridad personal y una respuesta a incidentes fiable. Desarrollado para el cuidado de personas mayores, trabajadores aislados, rondas de patrullaje y protección de personas vulnerables, el DX-3 combina señalización de emergencia clara, voz bidireccional, ayudas de accesibilidad y una larga vida de espera en un estuche resistente a salpicaduras, convirtiéndolo en un dispositivo compatible con Plaspy ideal para seguimiento en demanda y alertas rápidas con enfoque en la privacidad.
+El DX-3 es un rastreador GPS personal compacto diseñado para la seguridad y una respuesta confiable ante incidentes. Está pensado para escenarios como el cuidado de adultos mayores, trabajadores solitarios, rondas de seguridad y protección de personas vulnerables. El equipo prioriza la señalización inmediata de emergencias, comunicación de voz bidireccional, ayudas de accesibilidad como vibración y avisos sonoros, y una carcasa resistente a salpicaduras para uso diario y despliegues prácticos.
 
-El dispositivo prioriza la independencia del usuario y la implementación práctica: la ubicación continua solo se comparte cuando se pulsa el botón Iniciar Rastreo o se activa una emergencia, y las alertas de pánico o de caída se envían de inmediato. Cuando se integra con la plataforma Plaspy, el DX-3 ofrece a cuidadores y operadores notificaciones rápidas y accionables sin vigilancia invasiva 24/7, mientras sigue proporcionando capacidades fiables de rastreo GPS y comunicación por voz manos libres en situaciones urgentes.
+Como dispositivo compatible con Plaspy, el DX-3 se adapta a flujos de trabajo de seguimiento a demanda respetuosos de la privacidad y alertas rápidas. El intercambio de ubicación se limita intencionalmente a sesiones de Inicio de seguimiento o activaciones de emergencia, lo que permite que cuidadores y operadores reciban alertas accionables mediante Plaspy sin vigilancia continua. Este comportamiento hace del DX-3 una opción útil para organizaciones que requieren respuesta rápida ante incidentes respetando la independencia del usuario.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy diseñado para la seguridad personal y monitoreo de personas vulnerables.
-- Botón de emergencia de goma dedicado \(pánico\) y activación por cordón para alertas inmediatas.
-- Voz bidireccional manos libres mediante altavoz y micrófono integrados para la comunicación directa durante incidentes.
-- Funciones de accesibilidad: vibración, señales sonoras e indicadores LED icónicos para ayudar a usuarios con discapacidad auditiva o visual.
-- Seguimiento con enfoque en la privacidad: no hay rastreo continuo a menos que se inicie Iniciar Rastreo o ocurra una emergencia; reduce la telemetría innecesaria y la exposición legal.
-- Carcasa robusta resistente a salpicaduras IP54 y base de carga apilable para un uso diario práctico, fácil de dejar funcionando.
-- Batería de larga duración \(1100 mAh\) con aproximadamente 72+ horas entre cargas para una disponibilidad confiable.
+- Diseñado para seguridad personal y monitoreo de personas vulnerables con compatibilidad para Plaspy.
+- Botón de pánico dedicado y activación por cordón para alertas inmediatas.
+- Comunicación de voz manos libres bidireccional mediante altavoz y micrófono integrados para apoyar la comunicación durante incidentes.
+- Funciones de accesibilidad como vibración, avisos de audio e íconos LED claros para asistir a usuarios diversos.
+- Funcionamiento con enfoque en la privacidad que comparte ubicación continua solo cuando se inicia el seguimiento o ocurre una emergencia.
+- Carcasa resistente a salpicaduras y base de carga apilable para un uso diario sencillo.
+- Larga autonomía en espera para mantener el dispositivo listo durante períodos extendidos entre cargas.
 
-## Cómo funciona con Plaspy
+## Integración con Plaspy
 
-Cuando se integra con Plaspy, el DX-3 proporciona datos claros de incidentes y de ubicación a la plataforma para que cuidadores, despachadores o equipos de monitoreo puedan actuar con rapidez. Plaspy recibe eventos de alarma discretos, actualizaciones de ubicación cuando el rastreo está activado y información de estado para que los equipos puedan priorizar respuestas sin mantener una vigilancia continua.
+Al integrarse con Plaspy, el DX-3 entrega eventos de alarma discretos y actualizaciones de ubicación bajo demanda para que cuidadores, despachadores y equipos de monitoreo puedan priorizar respuestas sin telemetría continua. Plaspy agrupa la información de alarma y el contexto de estado para ayudar a los equipos a actuar con rapidez mientras preserva el comportamiento del dispositivo orientado a la privacidad.
 
-- Actualizaciones de ubicación en tiempo real cuando se ha activado Iniciar Rastreo o durante sesiones de emergencia; Plaspy muestra la posición del usuario en el mapa en vivo.
-- Alertas de pánico y eventos de caída transmitidos a Plaspy para enrutar y escalar las notificaciones de forma inmediata.
-- Las sesiones de voz bidireccionales iniciadas durante las alertas permiten que los operadores de Plaspy o respondedores hablen directamente con el usuario si la capacidad de voz de la red está disponible.
-- Estado de la batería y del cargador reportado para que Plaspy pueda notificar a los cuidadores sobre bajo nivel de energía y mantener la operatividad para la seguridad del trabajador aislado.
-- Soporte del protocolo Contact ID \(CID\) permite mensajería de alarmas estandarizada hacia sistemas de recepción de alarmas e integraciones con Plaspy donde se utilice Contact ID.
+- Las actualizaciones de ubicación aparecen en los mapas de Plaspy cuando se activa Inicio de seguimiento o durante una sesión de emergencia.
+- Las alertas de pánico y de caída (man down) se enrutan a Plaspy para notificaciones rápidas y flujos de escalamiento.
+- Se pueden iniciar sesiones de voz bidireccional durante las alertas para que operadores o respondedores se comuniquen directamente con el usuario.
+- El estado de batería y del cargador reportado a Plaspy ayuda a mantener la disponibilidad del dispositivo y señala cuándo es necesario cargarlo.
+- Mensajería de alarma estandarizada como soporte Contact ID facilita la integración con sistemas de monitoreo y los flujos de trabajo de Plaspy.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | Posicionamiento GPS y capacidad de comunicación de eventos/voz \(se requiere servicio de red; consulte la hoja de datos del fabricante para detalles completos de conectividad\) |
-| --- | --- |
-| Protocolos | Protocolo de alarma Contact ID \(CID\) compatible para alertas estandarizadas |
-| Alimentación y batería | Entrada de alimentación: +5 V DC a través del puerto de carga; Batería: 1100 mAh \(aprox. 72+ horas en modo de espera\) |
-| Indicadores y accesibilidad | Indicadores LED icónicos, vibración y señales sonoras; botones distintos de pánico, Iniciar Rastreo y Hablar; altavoz y micrófono manos libres |
-| Protección IP | IP54 \(protección contra polvo y salpicaduras de agua\) |
-| Dimensiones y peso | 114.5 x 66.5 x 13.7 mm \(±1 mm\); Peso: 140 g \(±5 g\) |
-| Materiales y apariencia | Carcasa de plástico con pantalla; Color: Blanco |
-| Temperaturas de funcionamiento/almacenamiento | Operativo \(placa\): 0°C a +40°C; Almacenamiento: -20°C a +60°C. Límites de operación/almacenamiento de la batería: Operación -20°C a +60°C; Almacenamiento -40°C a +85°C |
-| Interfaces y accesorios | Anilla para cordón \(activación de pánico\), base de carga apilable, cargador de viaje, cable USB-a-serial para programación |
-| Formato | Rastreador GPS personal compacto diseñado para uso como wearable o con cordón; base de carga opcional para despliegue en escritorio o estación base |
-
-## Casos de uso
-
-- Seguridad de personas mayores: protección discreta para usar como dispositivo ponible con alertas inmediatas de pánico y caída para cuidadores y centros de monitoreo.
-- Protección para trabajadores aislados: Inicio de rastreo bajo demanda para comprobaciones y comunicación de voz bidireccional rápida durante incidentes.
-- Guardias de patrulla y rondas de seguridad: señalización de emergencia simple y comunicación manos libres sin rastreo continuo.
-- Monitoreo de personas vulnerables en entornos de vida asistida o atención comunitaria, donde la privacidad y la independencia son prioridades.
-- Despliegues temporales y eventos: bases de carga apilables y una larga vida de espera permiten un mantenimiento sencillo y rotación de dispositivos.
+- Seguridad de adultos mayores y residencias asistidas donde se requiere protección discreta y alertas inmediatas.
+- Programas para trabajadores solitarios que necesitan registros de verificación puntuales y contacto de voz rápido en incidentes.
+- Rondas de patrulla y seguridad para alertas situacionales sin seguimiento continuo del personal.
+- Atención comunitaria y monitoreo de personas vulnerables donde la privacidad y la independencia son prioritarias.
+- Despliegues temporales o eventos que se benefician de cargadores apilables y larga autonomía en espera.
 
 ## Por qué elegir este rastreador con Plaspy
 
-DX-3 es una opción enfocada y confiable cuando necesitas un rastreador GPS compatible con Plaspy que enfatice la seguridad, la accesibilidad y la privacidad. Sus alertas de pánico y de caída, su interfaz de usuario clara y su enlace de voz bidireccional reducen los tiempos de respuesta y mejoran los resultados en emergencias. El comportamiento de “inicio de rastreo bajo demanda” del dispositivo ofrece a las organizaciones una forma escalable de gestionar la protección de personas vulnerables sin la sobrecarga de la telemetría continua.
+El DX-3 es una opción enfocada para organizaciones que necesitan un rastreador personal compacto y accesible integrado en una plataforma de monitoreo más amplia. Su señalización de emergencia, voz bidireccional y funciones de accesibilidad permiten respuestas más rápidas y claras en situaciones urgentes, mientras que el comportamiento del dispositivo reduce el seguimiento continuo innecesario. Esas características hacen del DX-3 una combinación práctica para los flujos de trabajo de Plaspy centrados en monitoreo a demanda y respeto por la privacidad.
 
-Si bien el DX-3 está optimizado para la protección personal en lugar de la gestión de flotas o el rastreo de vehículos con telemetría, se integra de manera fluida en Plaspy junto a otros dispositivos: los operadores pueden gestionar los eventos de alarma y ubicación del DX-3 dentro del mismo panel de Plaspy utilizado para implementaciones más amplias que incluyen activos con monitoreo de combustible, ignición, inmovilizador o sensores Bluetooth. Para clientes centrados en antipérdida, telemetría detallada de vehículos o características centradas en flotas, Plaspy posibilita una visibilidad combinada entre rastreadores especializados y el perfil de seguridad personal DX-3.
-
-Elige el DX-3 con Plaspy cuando necesites un rastreador GPS compacto y accesible que proporcione alertas de emergencia fiables, uso diario práctico y seguimiento con enfoque en la privacidad para el cuidado de personas mayores, trabajadores aislados y otras personas vulnerables. Para obtener detalles técnicos completos y opciones de conectividad, consulta la hoja de datos del fabricante disponible en la página del producto.
-
+Si desea conocer más sobre el uso de Plaspy con dispositivos como el DX-3, visite https://www.plaspy.com para explorar las funciones de la plataforma y las opciones de despliegue. Las especificaciones del producto, la disponibilidad y la documentación del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales en el sitio de ArkNav en https://www.arknavgps.com.tw/.

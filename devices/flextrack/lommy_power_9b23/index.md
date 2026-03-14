@@ -2,63 +2,59 @@
 slug: /flextrack/lommy_power_9b23
 id: lommy_power_9b23
 sidebar_label: Lommy Power 9B23
+title: Flextrack - Lommy Power 9B23
 sidebar_class_name: menu_item_tracker
+description: Compact hard wired tracker for continuous heavy equipment monitoring compatible with Plaspy fleet management
+keywords:
+  - Flextrack Lommy Power 9B23
+  - Lommy Power 9B23
+  - Lommy Power tracker
+  - Plaspy compatible tracker
+  - heavy equipment GPS
+  - machine monitoring
+  - fleet tracking
+  - operating hours tracking
+  - construction equipment tracker
+  - rental fleet telematics
 ---
+
 # Flextrack - Lommy Power 9B23
 
 ![Lommy Power 9B23](./tracker.jpg)
 
-Lommy Power 9B23 is a compact, hard-wired GPS tracker that is Plaspy compatible and built for continuous monitoring of heavy equipment and machinery. Designed for construction, agricultural and forestry vehicles, Lommy Power 9B23 draws operating power directly from the machine battery \(5–40 V\) so it remains online for reliable real-time tracking, telemetry and utilization reporting without dependence on an internal battery.
+Lommy Power 9B23 is a compact, hard wired GPS tracker designed for continuous monitoring of heavy equipment and machinery. It draws operating power directly from the machine battery and is intended for use on construction, agricultural, and forestry vehicles where persistent connectivity and robust positioning are required. The device is built to remain online while the host machine has power, supporting real time tracking, telemetry and utilization reporting without reliance on an internal battery.
 
-With multi-constellation GNSS, LTE Cat M1 cellular connectivity plus GSM fallback, and intelligent reporting logic based on ignition and motion, Lommy Power 9B23 delivers the vehicle-level data fleet managers and rental operators need for theft recovery, preventive maintenance scheduling and accurate operating-hour invoicing. Its compact IP65 enclosure and discreet installation make it an ideal Plaspy compatible GPS tracker for demanding outdoor environments.
+As a Plaspy compatible device, Lommy Power 9B23 streams position and operational data into Plaspy for fleet visibility and management. Its event based reporting for ignition and motion, multi constellation GNSS positioning and cellular connectivity with fallback provide the kinds of vehicle level inputs that Plaspy uses for geofencing, alerts, utilization reporting and maintenance workflows for rental and fleet operators.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker optimized for continuous machine monitoring and fleet management workflows.
-- Hard-wired design \(5–40 V\) with no internal battery—continuous operation while the machine battery is present.
-- Multi-constellation GNSS \(GPS, GLONASS, GALILEO, BEIDOU, QZSS\) with assisted GNSS and 33-channel receiver for accurate positioning.
-- Cellular connectivity: LTE Cat M1 \(B3/B8/B20\) with quad-band 2G fallback and data transmission via UDP or SMS for broad coverage.
-- Intelligent reporting: 2-minute updates during operation or motion, 24-hour heartbeat when parked and immobile—balances availability and low data use.
-- Onboard telemetry: battery current measurement, ignition/start-stop detection and operating-hour counting for maintenance and invoicing.
-- Robust hardware: IP65-rated enclosure, compact 54 × 44 × 19 mm form factor and wide operating temperature range for outdoor use.
+- Plaspy compatible GPS tracker optimized for continuous machine monitoring and fleet management workflows
+- Hard wired design with machine power operation to support long term online availability while the host battery is present
+- Multi constellation GNSS for reliable positioning in demanding outdoor environments
+- Cellular connectivity with modern low power cellular backbone and fallback for broad coverage and consistent data delivery
+- Intelligent reporting logic based on ignition and motion to provide timely updates during operation and conserve data when idle
+- Rugged, compact IP65 enclosure suitable for outdoor equipment and exposed work sites
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, Lommy Power 9B23 streams position and telemetry data into Plaspy’s dashboards and APIs so you can leverage real-time tracking, geofencing alerts, utilization reports and maintenance triggers. The device’s event logic \(ignition, motion, auxiliary inputs\) maps directly to Plaspy alerts and workflows for anti-theft notifications, operating-hour accumulation and operational oversight.
+When connected to Plaspy, Lommy Power 9B23 delivers position and telemetry into Plaspy dashboards and APIs so operators can monitor assets, configure alerts and generate usage reports. The tracker maps its internal event logic to Plaspy workflows, enabling automated notifications and data driven decision making across maintenance, security and operational oversight.
 
-- Real-time location and telemetry updates via LTE Cat M1 and 2G fallback—configured for UDP or SMS delivery to Plaspy endpoints.
-- Ignition and motion events: accurate detection of engine start/stop and movement using battery current measurement and a 3-axis G-sensor.
-- Operating hours and utilization telemetry for fleet management, invoicing and preventive maintenance scheduling.
-- Auxiliary input reporting \(optional green wire\) to track attachments, implements or other auxiliary equipment activity.
-- Local storage \(2 MB internal flash\) retains recent data if cellular connectivity is interrupted, ensuring continuity for Plaspy ingestion when the link resumes.
+- Real time location and telemetry updates delivered to Plaspy to support live fleet visibility and mapping
+- Ignition and motion event reporting used to trigger Plaspy alerts for unauthorized movement and start stop monitoring
+- Operating hour and utilization telemetry available in Plaspy for maintenance planning and accurate invoicing
+- Auxiliary input and equipment activity reporting mapped to Plaspy for attachment monitoring and operational insight
+- Local data buffering maintains recent records when cellular coverage is interrupted so Plaspy receives continuity of data when connectivity resumes
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | FDD LTE Cat M1 \(Bands B3/B8/B20\); GSM quad-band 2G \(850/900/1800/1900 MHz\); data via UDP or SMS |
-| --- | --- |
-| Bands | LTE B3 / B8 / B20; GSM 850/900/1800/1900 |
-| Power & Battery | Hard-wired to machine battery; operational range 5–40 V; no internal rechargeable battery |
-| Interfaces | Red/black power wires to +/–; optional green auxiliary input \(3rd wire\) for equipment/activity detection; battery current measurement for engine event detection |
-| GNSS | GPS, GLONASS, GALILEO, BEIDOU, QZSS with SBAS support; 33 tracking channels; sensitivity –166 dBm |
-| Bluetooth | Not included \(device uses internal GNSS and LTE/GSM antennas\) |
-| Internal Storage | 2 MB internal flash memory for local data buffering |
-| Antennas | Internal GNSS and LTE/GSM antennas |
-| Form Factor & Weight | 54 × 44 × 19 mm; 42 g; IP65 enclosure |
-| Environmental Specs | Operating temperature range –30 °C to +60 °C; CE, RoHS, WEEE certified; server/data handling aligned with ISAE3402 \(ref. ISO 27002\) |
-
-## Use Cases
-
-- Fleet management for construction and agricultural equipment—track location, operating hours and utilization to improve asset allocation and reduce idle time.
-- Rental and short-term hire—accurate operating-hour reporting and geofence alerts support invoicing, contract enforcement and loss prevention.
-- Preventive maintenance planning—combine operating-hour telemetry with Plaspy alerts to schedule service before failures occur.
-- Anti-theft and recovery—motion, ignition and location reports trigger Plaspy notifications and support coordinated recovery efforts.
-- Attachment and auxiliary monitoring—use the auxiliary input to detect implements or secondary equipment activity for billing or operational insights.
+- Monitoring construction and agricultural machinery to track location and operating hours for better asset allocation
+- Rental and short term hire fleets that need accurate usage based invoicing and geofence driven alerts
+- Preventive maintenance programs that rely on operating hour data to schedule service before failures occur
+- Anti theft detection and recovery workflows that use motion, ignition and location reports to alert teams
+- Attachment and auxiliary monitoring to record activity of implements for billing or operational analysis
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing Lommy Power 9B23 as a Plaspy compatible GPS tracker delivers a pragmatic combination of continuous power, multi-constellation GNSS accuracy and rugged hardware for outdoor machinery. Its LTE Cat M1 backbone with GSM fallback gives broad coverage and cost-effective connectivity, while intelligent reporting rules ensure you get rapid updates during operation and conserve data when assets are idle. For fleet managers and rental operators, the built-in operating-hour measurement and battery-current-based ignition detection provide reliable telemetry for maintenance, invoicing and utilization analytics.
+Lommy Power 9B23 is a pragmatic choice for organizations using Plaspy when continuous, machine powered monitoring is required. Its compact, weather resistant enclosure and reliable positioning make it well suited to outdoor equipment, while event based reporting and operating hour telemetry feed directly into Plaspy for actionable fleet analytics. For fleet managers and rental operators, this combination supports theft recovery, utilization optimization and maintenance scheduling without reliance on internal device batteries.
 
-Integrated with Plaspy, Lommy Power 9B23 feeds real-time tracking, telemetry and event data into dashboards, geofence alerts and APIs so teams can act quickly on anti-theft notifications, schedule preventive service and generate accurate usage reports. Although Lommy Power does not include Bluetooth sensors, Plaspy platforms can combine its telemetry with other sensor streams \(for example, BLE temperature or fuel-monitoring sensors\) to create a full telematics picture. For workflows that require immobilizer control or remote vehicle intervention, Plaspy supports such capabilities where the vehicle interface and chosen hardware permit it; Lommy Power supplies the essential ignition and motion events to support safe immobilizer logic and coordinated actions.
-
-Installation is straightforward: hard-wire the unit to the machine battery \(red to +, black to –\) and use the optional auxiliary input for attachments. For best GNSS and cellular reception position the label side and thin edge facing outwards and protect wire connections against water to preserve warranty and long-term reliability. Lommy Power 9B23 gives operators a durable, Plaspy compatible GPS tracker designed for continuous, mission-critical monitoring of machinery in the toughest environments.
-
+To learn more about how Plaspy works with Lommy Power 9B23 and other compatible devices, visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details and compatibility with the manufacturer documentation at https://flextrack.dk.

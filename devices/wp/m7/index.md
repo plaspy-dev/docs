@@ -2,47 +2,63 @@
 slug: /wp/m7
 id: m7
 sidebar_label: M7
+title: WP - M7
 sidebar_class_name: menu_item_tracker
+description: Compact portable GPS tracker with long standby and versatile transmission options compatible with Plaspy
+keywords:
+  - WP M7
+  - WP M7 GPS
+  - M7 tracker
+  - WP M7 Plaspy
+  - M7 GPS tracker
+  - vehicle tracking M7
+  - M7 magnetic tracker
+  - portable GPS tracker
+  - fleet tracking M7
+  - M7 IP67
 ---
+
 # WP - M7
 
 ![M7](./logo..png)
 
-The WP M7 is a portable GPS tracking device that offers reliable and convenient tracking capabilities. With its compact size and magnetic installation feature, it can be easily mounted or hidden in a vehicle. The M7 is equipped with superior GPS and GSM/GPRS modules, ensuring accurate and real-time tracking data transmission. It also boasts an ultra-low standby power consumption, allowing for extended battery life and up to 3 years+ of standby time.
+The WP M7 is a portable GPS tracking device designed for reliable and convenient vehicle tracking. Its compact form factor and magnetic mounting option make it easy to mount or conceal on a vehicle, while integrated GPS and GSM GPRS modules provide continuous position reporting. The M7 also includes features such as detached alert, motion reporting, low battery notification, and an IP67 enclosure that supports outdoor use.
 
-One of the standout features of the M7 is its data transmission capability via SMS, GPRS, UDP, and TCP. This allows for flexible and versatile tracking options, ensuring that you can receive tracking data in the most convenient way for you. Additionally, the M7 comes with a detached alert feature, which notifies you if the device has been tampered with or removed. This adds an extra layer of security and peace of mind.
+As a Plaspy compatible device, the M7 can deliver its location and status data into Plaspy for visibility and operational oversight. The tracker’s multiple data transmission options and long standby capability make it a practical choice for fleet managers and individual users who need flexible reporting, tamper notifications, and long-term monitoring through the Plaspy platform.
 
-The M7 also offers motion reporting, roaming preference setting, low battery level alerts, power management settings, and tracking by voice call. Its IP67 waterproof rating makes it suitable for outdoor environments, ensuring durability and reliability even in harsh conditions. With its easy installation process and magnetic mounting, you can have the M7 up and running in seconds.
+## Key Highlights
 
-Overall, the WP M7 is a versatile and reliable GPS tracking device that is perfect for vehicle tracking applications. Its compact size, powerful features, and long battery life make it an excellent choice for individuals and businesses alike.
+- Compact portable design with magnetic mounting for quick deployment
+- Integrated GPS and GSM GPRS modules for reliable position reporting
+- Multiple data transmission options including SMS, GPRS, UDP, and TCP
+- Detached alert and motion reporting for tamper detection and movement status
+- Ultra low standby consumption with up to 3 years plus standby time
+- IP67 rated enclosure for protection in outdoor and harsh environments
+- Low battery alerts and power management settings for extended use
 
-### Key Features:
+## How It Works with Plaspy
 
-- Data transmission via SMS/GPRS/UDP/TCP
-- Detached alert
-- Motion report
-- Roaming preference setting
-- Low battery level alert
-- Power management setting
-- Tracking by voice call
-- Installation in seconds
-- Up to 3 years+ standby time
+Plaspy ingests the position and status reports sent by the M7 and presents them on maps, dashboards, and reports so teams can monitor vehicles and assets in near real time. The M7’s configurable alerts and reporting modes map naturally to Plaspy features for operational monitoring and exception handling.
 
-### Hardware Specifications:
+- Live location tracking and history playback within Plaspy dashboards
+- Device status and low battery alerts forwarded into Plaspy notification workflows
+- Tamper and detached alerts available as events for immediate attention
+- Motion based reporting to reduce noise and focus on meaningful movement events
+- Fleet level visibility and simple grouping for operational oversight and dispatch
+- Exportable reports and logs that include M7 supplied position and event data
 
-- Dimensions \(L x W x H\): 102mm x 47mm x 46mm
-- Weight \(net\): 300g
-- Communication module: Quad-band, GSM 850/900/1800/1900 MHz
-- GPS receiver: 66 channels, -165dBm high sensitivity tracking
-- Memory: 4MB
-- Back-up battery: Built-in 5200mAh Li-ion rechargeable battery
-- Unit charging: 5V DC, 900 mA
-- Tampering switch: Built-in
-- GPS antenna: Built-in
-- GSM antenna: Built-in
-- 3-axis acceleration sensor: Built-in
-- Enclosure: ABS plastic, IP 67 rated
-- LED indicator: One LED with 3 colors for status indicating
-- Mounting: Magnetic
-- Radio Beacon: 433MHz, optional
+## Typical Use Cases
 
+- Routine fleet vehicle tracking for route oversight and location history
+- Temporary or covert monitoring where magnetic mounting and concealment are needed
+- Long term parked vehicle monitoring leveraging extended standby time
+- Asset protection for trailers and equipment used outdoors in challenging conditions
+- Rental and shared vehicle monitoring where tamper notifications and low power are important
+
+## Why Choose This Tracker with Plaspy
+
+The WP M7 is a practical option for organizations that need a compact, durable tracker with flexible transmission methods and long standby life. Its tamper alert and motion reporting capabilities help reduce false alerts while providing meaningful events that Plaspy can act on. The IP67 rating and magnetic mount make the M7 suitable for many vehicle and outdoor asset applications where durability and discreet placement matter.
+
+Paired with Plaspy, the M7 offers straightforward operational benefits: consolidated location visibility, configurable alerts, and reporting tools that help teams respond faster and maintain better oversight. If your deployment values long standby performance, simple mounting, and reliable position reporting, the M7 is a compatible candidate to consider for use with Plaspy.
+
+To learn more about how Plaspy can work with compatible trackers like the WP M7 visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current specifications on the official manufacturer site http://www.wondeproud.com/.

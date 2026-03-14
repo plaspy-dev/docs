@@ -2,64 +2,60 @@
 slug: /coban/bn_108b
 id: bn_108b
 sidebar_label: BN-108B
+title: Coban - BN-108B
 sidebar_class_name: menu_item_tracker
+description: Compact Plaspy compatible Coban BN-108B GPS tracker for long life asset tracking and anti theft protection with magnetic housing and large battery
+keywords:
+  - Coban BN-108B
+  - BN-108B tracker
+  - Coban GPS tracker
+  - BN-108B Plaspy
+  - Plaspy compatible tracker
+  - portable GPS tracker
+  - magnetic GPS tracker
+  - fleet tracking
+  - asset tracking
+  - anti theft tracker
 ---
+
 # Coban - BN-108B
 
 ![BN-108B](./tracker.png)
 
-The BN-108B \(Model 108\) is a Plaspy compatible portable 2G GPS tracker built for long-life mobile asset management and anti-theft protection. With a strong magnetic housing for quick, discreet installation and a very large 10,000 mAh rechargeable battery, this GPS tracker delivers reliable real-time tracking and telemetry for vehicles, trailers, rental cars, and high-value portable equipment.
+The BN-108B is a portable 2G GPS tracker from Coban designed for long life mobile asset management and anti theft protection. It combines a strong magnetic housing for discreet mounting with a very large rechargeable battery to provide extended standby and tracking for vehicles, trailers, rental cars, and high value portable equipment. The device offers configurable reporting modes and a set of security features intended to support continuous monitoring without permanent wiring.
 
-This Plaspy compatible device supports multiple reporting strategies — real-time online, Smart mode \(sleep when stationary, wake on motion\), and Power saving mode \(scheduled wake-ups\) — and adds security features including external power-disconnection alarm, SOS alarm, remote immobilization \(cut-off oil/power\), Bluetooth automatic arming/disarming and remote voice monitoring. Its GSM/GPRS connectivity and TCP/UDP/SMS transport make integration with Plaspy straightforward for fleet management, anti-theft workflows, and long-term location monitoring.
+As a Plaspy compatible device, the BN-108B can be used with Plaspy to deliver live positions, event alerts, and historical tracks for fleet and asset workflows. Its support for common transport methods and flexible reporting strategies makes integration straightforward, allowing Plaspy users to balance update frequency and battery life while using alarms and remote controls to support anti theft and operational response processes.
 
 ## Key Highlights
 
-- Long-life operation with a 3.7V 10,000 mAh rechargeable Li-ion battery for extended standby and tracking.
-- Strong magnetic housing for easy, discreet installation and removal on vehicle chassis or portable assets.
-- Plaspy compatible real-time tracking via GSM/GPRS with TCP/UDP/SMS transport protocols.
-- Multiple reporting strategies — Real-time, Smart \(motion wake\), and Power Saving \(scheduled wake-ups\) to balance tracking frequency and battery life.
-- Advanced security: external power-disconnection alarm, SOS alarm, and remote immobilization \(cut-off oil/power\) in Model B.
-- Bluetooth automatic induction for arming/disarming workflows and simplified local control.
-- Standard telematics features: geo-fence, track playback, overspeed and movement/shock alarms, and low battery alerts.
-- Remote voice monitoring for on-device listen-in capability and SMS-based remote configuration.
+- Very large rechargeable battery for extended standby and prolonged tracking between charges.
+- Strong magnetic housing for quick and discreet attachment to mobile assets and vehicles.
+- Plaspy compatible real time tracking using standard cellular transport methods for live position updates.
+- Multiple reporting strategies including real time, motion triggered Smart mode, and scheduled Power Saving mode to balance battery life against tracking frequency.
+- Security features such as external power disconnect alarm, SOS alarm, and remote immobilization to support anti theft workflows.
+- Bluetooth automatic arming and disarming plus remote voice monitoring for local control and situational awareness.
+- Standard telematics capabilities like geo fence alerts, track playback, movement or shock alarms, and low battery notifications.
 
 ## How It Works with Plaspy
 
-When connected to Plaspy, the BN-108B becomes a compact telemetry node delivering positional and status data for fleet management and anti-theft monitoring. Plaspy ingests the device’s TCP/UDP data streams or SMS reports and translates them into live map positions, event alerts, and playback tracks. The tracker’s configurable reporting modes let you optimize update frequency and battery life depending on the use case.
+When paired with Plaspy, the BN-108B acts as a compact telemetry node that reports position and event data to Plaspy for visualization, alerting, and historical playback. Plaspy ingests the device reports and represents them as live map markers, timeline tracks, and alarm events so fleet managers and security teams can monitor assets and respond to incidents.
 
-- Real-time location and telemetry updates via GSM/GPRS to Plaspy for live vehicle tracking and route visualization.
-- Alarms and events \(external power disconnect, SOS, movement/shock, overspeed, geo-fence breaches, low battery\) forwarded as immediate alerts in Plaspy.
-- Remote immobilizer control \(cut-off oil/power\) and SOS handling integrated into Plaspy alert workflows for quick response to theft or emergency.
-- Bluetooth automatic arming/disarming for hands-free local control; status changes can be tracked and reported through Plaspy.
-- Track playback and historical telemetry in Plaspy using stored positions and timestamps reported by the BN-108B.
+- Live location updates and route visualization in Plaspy using the tracker reports for ongoing operational visibility.
+- Immediate forwarding of alarms and events such as external power disconnect, SOS, movement and shock alerts, geo fence breaches, and low battery warnings.
+- Integration of remote immobilization and SOS handling into Plaspy workflows to support coordinated response and recovery.
+- Track playback and historical position analysis in Plaspy using stored timestamps and positions reported by the device.
+- Status reporting for Bluetooth arming and disarming so local control changes are visible within Plaspy dashboards.
 
-## Technical Overview
+## Typical Use Cases
 
-| Product name | GPS TRACKER \(BN-108B, Model 108\) |
-| --- | --- |
-| Connectivity | GSM/GPRS |
-| Bands | 850 / 900 / 1800 / 1900 MHz |
-| Transport protocols | TCP, UDP, SMS |
-| Power & Battery | Rechargeable 3.7V 10000 mAh Li‑ion battery |
-| Dimensions & Weight | 106 mm × 63 mm × 37.5 mm; 343 g |
-| Operating conditions | Operating: -20°C to +45°C; Storage: -40°C to +85°C; Humidity: 5%–95% non-condensing |
-| GNSS | GPS sensitivity −165 dBm; Accuracy approx. 5 m; TTFF Cold ~45 s, Warm ~35 s, Hot ~1 s |
-| Interfaces & Functions | Remote voice monitoring \(listen‑in\), SMS configuration commands, alarms \(low battery, shock/movement, overspeed, geo‑fence\), external power disconnect alarm, SOS alarm, cut off oil/power \(remote immobilization\). |
-| Bluetooth | Bluetooth automatic induction for arming/disarming |
-| Remote Management | Remote configuration via SMS; TCP/UDP data for server-side integration |
-| Form Factor | Portable unit with strong magnetic housing for vehicle chassis or asset attachment |
-
-## Use Cases
-
-- Fleet and truck asset tracking — discreetly monitor vehicles, trailers, and subcontractor equipment with long battery life and Plaspy real-time tracking.
-- Anti-theft and remote immobilization — external power-disconnect alerts, SOS, and cut-off oil/power support secure response workflows through Plaspy.
-- Rental car and shared mobility monitoring — reliable position reporting, movement alerts, and remote listen-in for security and incident investigation.
-- Portable equipment protection — magnetic attachment makes it ideal for temporary installation on construction tools, generators, or high-value portable assets.
-- Long-term covert tracking — power-saving modes and large battery capacity enable extended monitoring where permanent wiring is not feasible.
+- Fleet and heavy asset tracking where discreet attachment and long battery life help monitor vehicles, trailers, and subcontractor equipment.
+- Anti theft protection with external power disconnect alerts, SOS handling, and remote immobilization for rapid response.
+- Rental car and shared mobility monitoring to capture location history, movement alerts, and support security investigations.
+- Portable equipment protection for tools, generators, and other high value items that need temporary but reliable tracking.
+- Long term covert monitoring where power saving modes and large battery capacity are required without permanent installation.
 
 ## Why Choose This Tracker with Plaspy
 
-Pairing the BN-108B with Plaspy gives you a practical, reliable solution for real-time tracking and telemetry across fleets and mobile assets. The device’s very large battery and magnetic form factor reduce installation time and maintenance, while configurable reporting modes let you tune battery life versus update frequency. Security-focused features such as external power disconnect alarm, SOS alert, and remote immobilization strengthen anti-theft workflows. Using standard GSM/GPRS and TCP/UDP/SMS protocols ensures straightforward integration into Plaspy for live location, alerting, track playback, and fleet management dashboards.
+The BN-108B is a practical choice for organizations that need portable, long endurance tracking with straightforward remote management. Its magnetic form factor and sizable battery reduce installation time and maintenance, while configurable reporting modes allow teams to tune the balance between update frequency and battery life to match operational needs. Security oriented capabilities such as external power disconnect alerts, SOS, and immobilization add useful controls for anti theft use cases when combined with Plaspy alerting and response tools.
 
-For deployments that require discreet attachment, long standby, and a balance of strong security controls and simple remote management, the BN-108B is a Plaspy compatible choice that delivers consistent position reporting and essential telemetry without complex wiring. Documentation, installation guidance and accessory harnesses \(SOS button, relay, charging/data cable\) help accelerate roll-out and integration into your Plaspy fleet or asset management setup.
-
+For deployments that require discreet attachment, extended standby, and integrated alerting within a fleet or asset management platform, the BN-108B provides a compact solution that maps naturally into Plaspy for live tracking, event monitoring, and historical playback. To learn more about how Plaspy can work with devices like the BN-108B visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current specifications and documentation with the manufacturer at https://www.coban.net/.

@@ -2,64 +2,61 @@
 slug: /thingsys/ts_g17h
 id: ts_g17h
 sidebar_label: TS-G17H
+title: ThingSys - TS-G17H
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto para vehículos compatible con Plaspy, seguimiento en tiempo real y funciones antirrobo básicas a nivel mundial
+keywords:
+  - ThingSys TS-G17H
+  - TS-G17H rastreador GPS
+  - TS G17H compatible con Plaspy
+  - rastreador GT06
+  - rastreador GPS cuatribanda
+  - rastreador para vehículos
+  - localizador para motocicletas
+  - inmovilizador por relé
+  - rastreador GPRS
+  - rastreador oculto para autos
 ---
+
 # ThingSys - TS-G17H
 
 ![TS-G17H](./tracker.jpg)
 
-El TS-G17H es un rastreador GPS para vehículos compacto y compatible con Plaspy, diseñado para un seguimiento en tiempo real fiable y discreto. Pensado para uso mundial, el TS-G17H combina conectividad GSM quad-band con reportes GPRS TCP/IP y el protocolo GT06 para proporcionar a equipos de gestión de flotas y a propietarios individuales localización precisa, telemetría y herramientas básicas de anti-robo. Su tamaño reducido y su amplio rango de tensión de entrada lo hacen ideal como rastreador GPS oculto para coche o localizador de motocicletas.
+El TS-G17H es un rastreador GPS compacto para vehículos, diseñado para ofrecer seguimiento en tiempo real de forma confiable y discreta. Preparado para despliegues globales, combina conectividad GSM cuatribanda con reportes GPRS TCP/IP e implementa el formato de mensajes GT06 para proporcionar ubicación, telemetría básica y funciones antirrobo. Su tamaño reducido, antena GPS integrada y batería de respaldo lo hacen adecuado como rastreador oculto para autos y localizador de motocicletas cuando el espacio y la continuidad en los reportes son importantes.
 
-Esta unidad ha sido diseñada para implementaciones prácticas: detección ACC/encendido, una antena GPS integrada y batería de respaldo, y control de relés para inmovilización remota, proporcionan las funciones básicas que esperan los operadores de flotas y conductores preocupados por la seguridad. Cuando se integra con Plaspy, el TS-G17H ofrece seguimiento en tiempo real fiable, alertas por exceso de velocidad y geocerca, y opciones de control remoto que simplifican la monitorización de vehículos y los flujos de recuperación ante robos.
+Como dispositivo compatible con Plaspy, el TS-G17H puede integrarse en los flujos de trabajo de Plaspy para ofrecer visibilidad continua y controles remotos prácticos. Al apuntar sus reportes hacia Plaspy, el equipo envía actualizaciones de posición, estado de encendido y eventos de alarma que Plaspy procesa para mapeo en vivo, alertas y reproducciones históricas. Esto convierte al TS-G17H en una opción directa para operadores que necesitan rastreo fiable y controles de inmovilización remotos sencillos dentro de la plataforma Plaspy.
 
-## Aspectos destacados
+## Características principales
 
-- Compatible con Plaspy a través del protocolo GT06 y GPRS \(TCP/IP\) para un seguimiento en tiempo real sin interrupciones y reporte al servidor.
-- GSM quad-band \(850/900/1800/1900\) garantiza cobertura celular global para la gestión de flotas y vehículos remotos.
-- Control de relé para funcionalidad de inmovilizador remoto — útil para la respuesta ante robos y el apagado remoto del vehículo.
-- Amplio rango de tensión de entrada \(9–100 V DC\) y bajo consumo de corriente en reposo lo hacen adecuado para automóviles, camiones y motocicletas.
-- Antena GPS integrada y batería de respaldo permiten mantener el reporte de posición durante interrupciones de energía.
-- Soporta alarmas de geocerca y de exceso de velocidad para alertas automáticas de incidentes y monitoreo de cumplimiento.
-- Factor de forma compacto para instalación discreta y aplicaciones de rastreador GPS oculto para vehículos.
+- Compatibilidad con Plaspy mediante el protocolo GT06 y reportes GPRS TCP/IP para actualizaciones en tiempo real al servidor.
+- Soporte GSM cuatribanda para una amplia cobertura celular en múltiples regiones.
+- Control por relé para acciones de inmovilización remota y flujos de trabajo de antirrobo y recuperación.
+- Amplio rango de tensión de entrada y tamaño compacto, apto para autos, camiones y motocicletas.
+- Antena GPS integrada y batería de respaldo que mantienen los reportes de posición durante interrupciones de alimentación.
+- Soporte para geocercas y alarmas por exceso de velocidad para notificaciones automáticas de incidentes.
 
 ## Cómo funciona con Plaspy
 
-La integración con Plaspy es simple: el TS-G17H utiliza GPRS TCP/IP para reportar la posición y telemetría a un servidor de Plaspy e implementa el protocolo GT06, ampliamente utilizado, para el formateo de mensajes. Una vez configurado para apuntar al servidor y puerto de Plaspy, el rastreador envía actualizaciones periódicas de posición, eventos de alarma y estados que Plaspy ingiere para el seguimiento en tiempo real, la reproducción histórica y las alertas.
+La integración se basa en que el dispositivo reporte mensajes de posición y eventos a un servidor Plaspy usando GPRS TCP/IP y el formato GT06. Una vez configurado para enviar mensajes a Plaspy, el TS-G17H aporta a la plataforma información de ubicación y estado que Plaspy utiliza para visualización, alertas e informes.
 
-- Actualizaciones de posición y telemetría en tiempo real mediante GPRS \(TCP/IP\) y protocolo GT06 para su visualización en los paneles de Plaspy.
-- El estado de encendido/ACC se reporta para reflejar si el vehículo está encendido o apagado; resulta útil para la gestión de flotas y auditoría de rutas.
-- Alarmas de geocerca y de exceso de velocidad se transmiten de inmediato a Plaspy para activar notificaciones y flujos de trabajo.
-- Capacidad de inmovilizador remoto mediante control de relé: las órdenes pueden emitirse desde Plaspy o vía SMS/comando, según la configuración.
-- Comandos estándar por SMS/comando y configuración del servidor para aprovisionamiento remoto, resolución de problemas y verificación de IMEI/servidor.
-- Los datos de telemetría del dispositivo pueden combinarse con sensores externos \(cuando estén disponibles\) para soportar flujos de trabajo de monitoreo de combustible en Plaspy.
+- Actualizaciones de ubicación y telemetría en tiempo real para mapeo en vivo en los paneles de Plaspy.
+- Reportes de estado de ignición y ACC para reflejar si el vehículo está encendido o apagado, útil en auditorías y control de uso de flotas.
+- Alarmas de geocerca y exceso de velocidad que se transmiten a Plaspy para activar notificaciones y flujos de respuesta.
+- Comandos remotos de inmovilizador vía relé que pueden iniciarse desde Plaspy o mediante métodos de comando configurados.
+- Opciones estándar de configuración y diagnóstico vía SMS y comandos soportadas para aprovisionamiento y resolución de problemas remotos cuando se requiera.
 
-## Descripción Técnica
+## Casos de uso típicos
 
-| Modelo | TS-G17H |
-| --- | --- |
-| Conectividad | Quad-band GSM 850/900/1800/1900; GPRS Class 12 \(TCP/IP\) |
-| Protocolo | GT06 \(formatos estándar de mensajes de seguimiento\) |
-| Bandas | 850 / 900 / 1800 / 1900 MHz |
-| Alimentación y Batería | Tensión de entrada 9–100V DC; batería de respaldo integrada; corriente típica ≈22mA @12V, ≈12mA @24V |
-| Interfaces | Detección ACC/encendido; control de relé para corte remoto / inmovilizador; cable de alimentación \(rojo/negro\), cable ACC \(naranja\), cable de relé \(amarillo\) |
-| GNSS | Antena GPS integrada; precisión de posicionamiento 2D ≈10 m \(RM\); inicio en frío ≈38 s, cálido ≈32 s, caliente ≈2 s \(cielo abierto\) |
-| Indicadores | LED rojo: alimentación; LED azul: señal GSM \(lleno=no GSM, parpadeo=normal, rápido=TX\); LED amarillo: estado GPS \(fijo sólido=no fix, parpadeo=fijo válido\) |
-| Alarmas y Alertas | Geocerca, alarma por exceso de velocidad y seguimiento en tiempo real; inmovilización remota por relé |
-| Ambiental | Temperatura de operación -20°C a +70°C; humedad relativa 20%–80% |
-| Factor de Forma | Compacto: aprox. 76 × 26 × 19 mm — diseñado para instalación en vehículos/motocicletas |
-| Configuración | Controles por SMS/comando para IMEI, configuración de servidor/APN/GMT, reseteo de fábrica y consultas de ubicación \(p. ej., WHERE#\) |
-
-## Casos de uso
-
-- Gestión de flotas: monitorizar la ubicación del vehículo, el estado de encendido y los eventos de exceso de velocidad para optimizar rutas y garantizar el cumplimiento.
-- Antirrobo y recuperación: colocación de rastreador GPS oculto para coche con inmovilización por relé para apagado remoto y flujos de recuperación.
-- Localización de motocicletas: su tamaño compacto y la amplia compatibilidad de tensión lo hacen adecuado como localizador discreto para motos.
-- Telemetría básica: utilice datos de posición, velocidad y encendido en los paneles de Plaspy para visión operativa.
-- Control de alquiler y activos: alertas de geocerca e inmovilizador remoto ayudan a hacer cumplir acuerdos de alquiler y recuperar activos.
+- Gestión de flotas para monitoreo de ubicación, seguimiento de encendido y detección de exceso de velocidad.
+- Flujos de recuperación y antirrobo mediante instalación oculta e inmovilización por relé.
+- Seguimiento de motocicletas donde el tamaño compacto y la flexibilidad de voltaje son críticos.
+- Control de alquileres y activos usando geocercas y funciones de inmovilizador remoto.
+- Reporte de telemetría básica combinado con los paneles de Plaspy para visibilidad operativa.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el TS-G17H para la integración con Plaspy proporciona un rastreador GPS rentable y fiable que admite las características clave que requieren flotas y propietarios: seguimiento en tiempo real, informes de telemetría, detección de encendido e inmovilización por relé. Su compatibilidad con el protocolo GT06 y la conectividad GPRS TCP/IP permiten una rápida incorporación a la infraestructura del servidor de Plaspy, y su amplia tolerancia de voltaje y su formato compacto simplifican la instalación en automóviles, camiones y motocicletas.
+El TS-G17H ofrece un equilibrio práctico entre funciones esenciales de rastreo e integración sencilla para organizaciones que usan Plaspy. Su implementación del protocolo GT06 y los reportes GPRS hacen que la incorporación a Plaspy sea predecible, y el enfoque del hardware en detección de ignición, control por relé y alimentación de respaldo satisface requisitos comunes de flotas y seguridad sin complejidad innecesaria.
 
-Para operadores centrados en un seguimiento fiable y un control remoto sencillo, el TS-G17H se integra bien con las herramientas de mapas, alertas e informes de Plaspy, proporcionando inteligencia accionable sobre los vehículos sin complejidad innecesaria. Ya sea que su prioridad sea la gestión de flotas, la protección antirrobo o flujos de trabajo básicos de combustible/telemetría cuando se combina con sensores externos, el TS-G17H ofrece una base estable para implementaciones habilitadas para Plaspy.
+Para equipos que requieren seguimiento en tiempo real fiable, alertas por eventos y controles remotos simples, el TS-G17H es una elección pragmática para combinar con los mapas, informes y herramientas de alerta de Plaspy. Su tamaño compacto y flexibilidad de voltaje también lo convierten en una opción versátil para distintos tipos de vehículos y despliegues.
 
+Obtenga más información sobre cómo Plaspy soporta dispositivos como el TS-G17H en el sitio principal de Plaspy https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar los datos técnicos y las listas de funciones actuales con el fabricante en https://www.thingsys.com/.

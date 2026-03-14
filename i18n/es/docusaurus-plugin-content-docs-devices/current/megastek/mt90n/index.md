@@ -2,66 +2,59 @@
 slug: /megastek/mt90n
 id: mt90n
 sidebar_label: MT90N
+title: Megastek - MT90N
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS personal NB IoT compacto compatible con Plaspy para ubicación fiable alertas SOS y reproducción
+keywords:
+  - Megastek MT90N
+  - MT90N
+  - Rastreador Megastek
+  - Rastreador NB IoT
+  - Rastreador GPS personal
+  - Compatible con Plaspy
+  - Rastreador GPS para seguridad
+  - alertas de geocerca
+  - u-blox GNSS
+  - Rastreador impermeable
 ---
+
 # Megastek - MT90N
 
 ![MT90N](./tracker.jpg)
 
-# MT90N NB‑IoT Rastreador GPS Personal — Compatible con Plaspy
+El MT90N es un rastreador GPS personal NB IoT compacto diseñado para la seguridad personal y el monitoreo de activos ligeros. Combina posicionamiento GNSS con asistencia por Wi‑Fi y LBS para mejorar el rendimiento de ubicación en entornos difíciles. El equipo incluye un botón SOS dedicado, protección robusta contra el agua y comportamiento de reporte configurable, ideal para niños, personas mayores, mascotas y trabajadores que laboran solos.
 
-El MT90N es un rastreador GPS personal NB‑IoT compacto, diseñado para una seguridad personal fiable y monitorización ligera de activos. Construido para niños, personas mayores, mascotas y trabajadores que trabajan solos, el MT90N combina u‑blox GNSS, Wi‑Fi y posicionamiento LBS para entregar datos de ubicación precisos en entornos desafiantes. Como dispositivo compatible con Plaspy, se integra de forma fluida en Plaspy para seguimiento en tiempo real, alertas y reproducción histórica.
-
-Con protección IP66–67 frente al agua, un botón SOS dedicado y hasta 10 días en modo personal, el MT90N equilibra autonomía y portabilidad. El dispositivo reporta la ubicación vía TCP/UDP y admite alertas de geocerca, avisos de batería baja y intervalos de informe configurables, lo que lo convierte en un rastreador GPS práctico para la seguridad personal, monitorización de vehículos a corto plazo y flujos de telemetría más amplios cuando se usa con Plaspy.
+Como dispositivo compatible con Plaspy, el MT90N puede enviar datos de ubicación y eventos a Plaspy para ofrecer visibilidad en tiempo real, generar alertas y reproducir históricos. Su conectividad NB IoT de bajo consumo y su posicionamiento multimodal lo convierten en una opción práctica cuando necesita actualizaciones persistentes de ubicación, notificaciones de emergencia e integración sencilla en flujos de trabajo de monitoreo o gestión basados en Plaspy.
 
 ## Aspectos clave
 
-- Compatible con Plaspy: integra ubicación y telemetría en Plaspy para un monitoreo y generación de informes unificados.
-- Posicionamiento multivía: GPS + Wi‑Fi + LBS mejora la precisión en interiores y en entornos urbanos.
-- Conectividad NB‑IoT \(B1/B3/B5/B8\) para informes celulares de bajo consumo y amplia cobertura.
-- Compacto y robusto: 50 × 40 × 20 mm, ~50 g y clasificado IP66–67 para uso en exteriores.
-- Botón SOS dedicado e indicadores LED de estado para alertas inmediatas y diagnósticos sencillos.
-- Gran autonomía: hasta 10 días en modo personal \(según el intervalo de informe y la configuración\).
-- Carga y operación sencilla: Carga por Mini USB y controles físicos de dos botones \(SOS + encendido\).
+- Compatible con Plaspy para monitoreo unificado de ubicaciones y eventos en toda su implementación.
+- Posicionamiento multimodal que combina GNSS con asistencia por Wi‑Fi y LBS para mejorar la precisión en interiores y zonas urbanas.
+- Conectividad NB IoT diseñada para reportes de área amplia y bajo consumo con mayor standby.
+- Diseño resistente con protección contra agua y polvo, adecuado para uso personal y de activos en exteriores.
+- Botón SOS dedicado e indicadores de estado para alertas inmediatas y diagnóstico simple.
+- Intervalos de reporte configurables además de soporte para geocercas y alertas por batería baja para control operativo.
 
 ## Cómo funciona con Plaspy
 
-El MT90N envía lecturas de posición y telemetría a Plaspy mediante TCP/UDP utilizando NB‑IoT. Plaspy ingiere esos mensajes y muestra seguimiento en tiempo real, activa eventos de geocerca, registra rutas históricas y emite alertas de batería baja o SOS. La asistencia de Wi‑Fi y LBS reduce el tiempo hasta la primera fijación y mejora la precisión en entornos construidos, mientras que el chipset u‑blox ofrece alta sensibilidad para la recepción de señales débiles.
+Cuando el MT90N envía posiciones y mensajes de eventos, Plaspy procesa esos flujos y los presenta en tiempo real para los operadores. Plaspy puede entonces generar alertas, registrar el historial de movimientos e integrar los datos del MT90N junto con la telemetría de otros activos para apoyar las tareas de monitoreo e informes.
 
-- Seguimiento en tiempo real: actualizaciones de ubicación regulares e intervalos de informe configurables para un monitoreo continuo.
-- Alertas SOS y de emergencia: SOS con un solo toque envía una alarma inmediata a través de Plaspy para una respuesta rápida.
-- Geocerca y alertas de eventos: Crea zonas y recibe notificaciones de entrada/salida a través de Plaspy.
-- Reproducción de trayectos históricos: Almacena y revisa el historial de movimientos en Plaspy para auditoría y análisis.
-- Posicionamiento asistido por Wi‑Fi/LBS: mejora el rendimiento de la ubicación en interiores y en entornos urbanos densos.
+- Seguimiento en tiempo real e intervalos de reporte configurables para visibilidad continua en Plaspy.
+- Notificaciones SOS y de emergencia dirigidas a Plaspy para que los equipos puedan responder con rapidez.
+- Eventos de geocerca y alertas de batería baja entregados en Plaspy para notificaciones automatizadas.
+- Reproducción de rutas históricas y registros disponibles en Plaspy para revisión y análisis.
+- Combine las transmisiones de ubicación del MT90N con otros activos en los tableros de Plaspy para una supervisión consolidada.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | NB‑IoT \(celular\) |
-| --- | --- |
-| Bandas | B1 / B3 / B5 / B8 |
-| GNSS | chipset GNSS de u‑blox |
-| Sensibilidad GPS | −160 dB \(alta sensibilidad\) |
-| Wi‑Fi | IEEE 802.11 b/g/n \(utilizado para posicionamiento asistido\) |
-| Carga | Mini USB DC 4.5–5.5 V / 820 mA |
-| Tiempo en espera | Hasta 10 días \(modo personal\); ~12 horas \(modo vehículo\) — depende de la configuración |
-| Protección | IP66–67 \(resistente al agua y al polvo\) |
-| Dimensiones y peso | 50 × 40 × 20 mm; ≈ 50 g |
-| Botones e indicadores | Botón SOS, interruptor de encendido; LEDs de estado de alimentación, GPS, GSM y batería |
-| Temperatura de operación | −20 °C a +55 °C |
-| Protocolos y reporte | Informes TCP/UDP; temporización y rastreo en tiempo real; geocerca, batería baja, reproducción histórica, consulta automática de APN |
-| Compatibilidad con terceros | Compatible con plataformas de rastreo comunes y sistemas de terceros \(ejemplos listados por el fabricante\) |
-
-## Casos de uso
-
-- Seguridad infantil: rastreador GPS personal discreto con SOS y alertas de Plaspy para tutores y familiares.
-- Cuidado de personas mayores y monitoreo de trabajadores aislados: informes de ubicación de respaldo y notificaciones de emergencia a través de Plaspy.
-- Seguimiento de mascotas: se coloca en el collar para recuperación de ubicación y alertas de límites mediante geocercas.
-- Monitoreo de vehículos a corto plazo o de alquiler: el modo vehículo ofrece informes más frecuentes para necesidades temporales de flota.
-- Seguimiento de activos ligeros: vigilar la ubicación y movimiento de equipos portátiles con protección a prueba de agua.
+- Seguridad infantil y supervisión por parte de tutores con alertas SOS e historial de ubicaciones.
+- Cuidado de personas mayores y protección de trabajadores solitarios donde se requiere señalización de emergencia simple y reportes periódicos.
+- Monitoreo de mascotas para recuperación de ubicación y alertas por límites virtuales mediante geocercas.
+- Seguimiento temporal de vehículos o unidades de alquiler cuando se necesita rastreo por tiempo limitado.
+- Rastreo de activos ligeros para equipos portátiles que se benefician de protección impermeable y diseño compacto.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El MT90N es un rastreador GPS compatible con Plaspy que ofrece conectividad NB‑IoT fiable y de bajo consumo, junto con posicionamiento multivía y un diseño compacto y robusto. Está orientado a escenarios de seguridad personal donde la duración de la batería, la precisión del posicionamiento y una señalización de emergencias sencilla son primordiales. Cuando se integra con Plaspy, el MT90N ofrece seguimiento en tiempo real y alertas, al tiempo que permite a los operadores correlacionar los datos de ubicación con flujos de telemetría más amplios. Plaspy puede combinar los flujos de ubicación del MT90N con otros telemáticos de vehículos o flotas \(por ejemplo, monitoreo de combustible, eventos de encendido o inmovilizador producidos por dispositivos de grado vehicular\) para crear una visión operativa completa sin requerir esos sensores específicos del vehículo en el propio MT90N.
+El MT90N es una opción práctica para organizaciones que usan Plaspy y requieren un rastreador compacto de bajo consumo con posicionamiento fiable y señalización de emergencia. Su combinación de GNSS, asistencia por Wi‑Fi y LBS reduce el tiempo hasta la primera fijación en entornos complejos, mientras que la conectividad NB IoT permite un mayor tiempo de standby entre reportes. Las alertas integradas de SOS, geocerca y batería hacen que el dispositivo sea adecuado para escenarios de seguridad personal y monitoreo de activos ligeros.
 
-Elija el MT90N con Plaspy cuando necesite un rastreador GPS fiable y de fácil despliegue para la seguridad personal, la recuperación de mascotas o el monitoreo de activos/vehículos a corto plazo. Su eficiencia NB‑IoT, la sensibilidad de u‑blox y la asistencia de Wi‑Fi/LBS lo convierten en un componente práctico dentro de estrategias de gestión de flotas y telemetría escalables que dependen de las herramientas de visualización en tiempo real, alertas y análisis histórico de Plaspy.
-
+Si desea evaluar el MT90N para su implementación con Plaspy, este rastreador ofrece un conjunto equilibrado de funciones para ubicación en tiempo real, alertas y reproducción histórica sin necesidad de hardware específico para vehículos. Obtenga más información sobre Plaspy en el sitio web principal https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, así que verifique los detalles técnicos actuales e información del fabricante en https://www.megastek.com/ antes de la compra.

@@ -2,41 +2,59 @@
 slug: /castel/pt_718
 id: pt_718
 sidebar_label: PT-718
+title: Castel - PT-718
 sidebar_class_name: menu_item_tracker
+description: Portable personal GPS tracker for people pets and vehicles with SOS and geo fence alerts compatible with Plaspy
+keywords:
+  - Castel PT-718
+  - PT-718 tracker
+  - Castel tracker
+  - personal GPS tracker
+  - pet tracker
+  - vehicle tracking
+  - Plaspy compatible
+  - GPS tracking device
+  - real time tracking
+  - geo fence alert
 ---
+
 # Castel - PT-718
 
 ![PT-718](./logo.jpg)
 
-The Castel PT-718 is a portable personal GPS tracker designed for various applications such as tracking humans, vehicles, and pets. This small yet powerful device operates on existing GSM/GPRS networks and GPS satellites, allowing for accurate and real-time positioning. With its low power consumption, the PT-718 is equipped with a built-in high capacity battery that ensures long standby time and low energy consumption.
+The Castel PT-718 is a compact portable personal GPS tracker designed for tracking people, vehicles, and pets. It combines GPS and A GPS positioning with GSM GPRS connectivity to provide timely location updates and supports features commonly needed for personal safety and lightweight asset tracking. The device emphasizes long standby time and low energy consumption while offering practical alarms such as SOS and geo fence alerts.
 
-One of the standout features of the PT-718 is its SOS alert function, which allows users to send distress signals in emergency situations. Additionally, the tracker offers monitoring capabilities, timing positioning, and real-time tracking. It supports both GPS and A-GPS dual position modes, ensuring accurate and reliable location information. The PT-718 also features a geo-fence alert, which notifies users when the tracker enters or exits a predefined area.
+As a device that can communicate location via SMS or GPRS, the PT-718 is a natural fit for use with Plaspy for monitoring and management. Plaspy can ingest and visualize position reports from compatible trackers, enabling fleet managers and individual users to monitor movement, receive alerts, and generate operational insights from PT-718 devices alongside other equipment on the platform.
 
-With the PT-718, users can track their devices using SMS or GPRS, and the location data can be displayed on both Android and iOS devices through the dedicated app. The tracker is compact and lightweight, measuring 63mm x 40mm x 16.5mm and weighing only 48g. Its shell is made of durable ABS+PC material, ensuring durability and longevity. The PT-718 is an ideal choice for personal tracking and pet monitoring, providing peace of mind and security.
+## Key Highlights
 
-### Key Features:
+- Portable and lightweight design suitable for personal and pet use
+- SOS alert function for emergency notifications
+- Real time tracking and timing positioning for up to date location information
+- GPS and A GPS dual position modes to improve reliability of fixes
+- Geo fence alert to notify entry or exit from predefined areas
+- Built in high capacity battery and low power consumption for extended standby
 
-- SOS alert function for emergency situations
-- Monitoring capabilities for real-time tracking
-- Timing positioning for accurate location information
-- GPS and A-GPS dual position modes for reliable tracking
-- Built-in high capacity battery for long standby time
-- Supports GSM 850/900/1800/1900 frequencies
-- Low voltage alert to prevent power depletion
-- Track by SMS or GPRS for convenient tracking
-- Geo-fence alert for boundary notifications
-- Compatible with Android and iOS devices through dedicated app
-- Low energy consumption for extended battery life
+## How It Works with Plaspy
 
-### Technical Specifications:
+When used with Plaspy, the PT-718 provides location and alert data that the platform can present for operational oversight and incident response. Plaspy brings that data into a centralized view where tracking, historical playback, and alert handling are available alongside other devices.
 
-- Dimension: 63mm x 40mm x 16.5mm
-- Weight: 48g
-- Shell Material: ABS+PC
-- Battery: 3.7V / 1200mAH Li-ion battery
-- Max operation current: &lt;260mA
-- Data TX/RX current: &lt;120mA
-- Standby current: &lt;5mA
-- Charge current: 400mAh
-- Charge duration: 2 hours
+- Centralized live location view for individual devices and groups
+- Alerts mapping including SOS and geo fence notifications routed to platform users
+- Historical route playback for reviewing movements over time
+- Customizable reporting and export of location and event logs
+- Device status and connectivity overview to support operational decisions
 
+## Typical Use Cases
+
+- Personal safety monitoring for children, seniors, and lone workers
+- Pet tracking to locate and recover lost animals
+- Light vehicle or scooter location tracking for small fleets
+- Short term asset monitoring for equipment in transit
+- Situational monitoring where compact, portable tracking is required
+
+## Why Choose This Tracker with Plaspy
+
+The PT-718 offers a compact form factor with core tracking and alarm features that align well with Plaspy use cases for personal safety and small scale fleet oversight. Its SOS function and geo fence alerts provide clear event types that Plaspy can surface to operators, while the device battery characteristics and low power behavior support longer deployment between charges.
+
+If you are evaluating devices for integration into Plaspy, the PT-718 is a practical option when you need a lightweight, portable tracker that reports location and alerts over standard mobile data channels. To learn more about Plaspy and how the platform can manage PT-718 devices, visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details with the manufacturer at http://www.castelecom.com/ before making procurement or deployment decisions.

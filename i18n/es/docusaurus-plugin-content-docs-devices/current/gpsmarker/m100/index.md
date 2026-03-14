@@ -2,33 +2,59 @@
 slug: /gpsmarker/m100
 id: m100
 sidebar_label: M100
+title: GPSMarker - M100
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPSMarker M100 compatible con Plaspy para seguimiento preciso de vehículos y activos con larga autonomía y sensores múltiples
+keywords:
+  - GPSMarker M100
+  - Rastreador M100
+  - Rastreador GPS
+  - seguimiento de vehículos
+  - seguimiento de activos
+  - gestión de flotas
+  - compatible con Plaspy
+  - geocercas
+  - monitoreo de temperatura
+  - alarma SOS
 ---
+
 # GPSMarker - M100
 
 ![M100](./logo.jpg)
 
-El rastreador GPS GPSMarker M100 es un receptor GPS de 72 canales que aumenta la fiabilidad y precisión de las coordenadas. Una de las características destacadas de este dispositivo es la capacidad de actualizar el firmware de forma gratuita a través de un cable especial, lo que garantiza que siempre esté actualizado con las últimas mejoras y características.
+El GPSMarker M100 es un rastreador GPS compacto y confiable diseñado para la protección de vehículos y activos. Emplea un receptor GPS de alta sensibilidad con 72 canales para entregar coordenadas precisas y actualizaciones de posición consistentes. El M100 incorpora además múltiples sensores integrados, como detección de movimiento, detección de colisiones, un sensor de revoluciones para monitoreo de impactos, sensor de temperatura y un botón de pánico SOS, cubriendo así una amplia gama de necesidades de monitoreo.
 
-Con una duración de batería de hasta 2 años, el M100 no requiere ninguna cuota de suscripción adicional. Solo se cobran los mensajes SMS salientes y el tráfico GPRS. Esto lo convierte en una opción rentable para aquellos que desean un rastreador GPS sin costos mensuales recurrentes.
+Gracias a su protocolo GPRS abierto, la larga duración de batería y la posibilidad de actualizaciones en campo, el M100 resulta una opción práctica para integrarse con plataformas de monitoreo. El M100 es compatible con Plaspy, lo que permite a las organizaciones consolidar datos de ubicación, alertas y eventos de sensores en una única interfaz de gestión de flotas para mejorar la supervisión operacional.
 
-El M100 cuenta con varios sensores que mejoran su funcionalidad. Tiene un sensor de movimiento que ajusta la sensibilidad y puede detectar intentos de secuestro o evacuación de su vehículo. También cuenta con un sensor de impacto que envía mensajes con las coordenadas exactas en caso de accidente, lo que permite una respuesta rápida en caso de emergencia.
+## Características principales
 
-Otra característica interesante del M100 es su capacidad para controlar dispositivos externos a través de relés. Esto significa que puede, por ejemplo, apagar el motor de su automóvil de forma remota en caso de robo. Además, cuenta con un botón de pánico SOS que le permite informar rápidamente sobre cualquier peligro inminente.
+- Receptor GPS de alta sensibilidad con 72 canales para reportes de ubicación precisos
+- Autonomía extendida de batería hasta dos años para despliegues de bajo mantenimiento
+- Múltiples sensores de seguridad y telemetría: movimiento, colisión, impactos, temperatura y SOS
+- Actualizaciones de firmware gratuitas por cable para mantener las funciones al día
+- Control de relé para gestionar dispositivos externos o actuadores
+- Protocolo GPRS abierto para una integración sencilla con sistemas de monitoreo de terceros
 
-El M100 también ofrece funciones de monitoreo de temperatura y control de velocidad máxima del objeto. Además, cuenta con un protocolo GPRS abierto que facilita su integración en sistemas de vigilancia existentes.
+## Cómo funciona con Plaspy
 
-En resumen, el rastreador GPS GPSMarker M100 es una opción confiable y versátil para aquellos que buscan un dispositivo de seguimiento de alta calidad. Con su amplia gama de características y su facilidad de uso, es ideal para aplicaciones de vigilancia de vehículos y ofrece una gran tranquilidad a los propietarios de automóviles y flotas.
+Al utilizarse con Plaspy, el GPSMarker M100 envía eventos de ubicación y sensores al entorno de monitoreo de la plataforma, de modo que los equipos pueden supervisar activos desde un único lugar. Plaspy ofrece visibilidad en tiempo real e informes históricos basados en los datos del M100, facilitando flujos de trabajo operativos y de seguridad.
 
-### Características destacadas:
+- Localización centralizada en vivo y historial de posiciones en los paneles de Plaspy
+- Alertas basadas en sensores entregadas por Plaspy ante inicio de movimiento, eventos de colisión y activación del SOS
+- Notificaciones por geocerca para controlar entradas y salidas de zonas virtuales definidas en Plaspy
+- Monitoreo de temperatura e impactos para proteger carga sensible y validar el manejo
+- Uso de eventos de control de relé para reflejar conmutación remota de dispositivos o activar flujos de trabajo en Plaspy
 
-- Receptor GPS de 72 canales para mayor fiabilidad y precisión
-- Actualización gratuita de firmware a través de cable especial
-- Duración de batería de hasta 2 años
-- No requiere cuota de suscripción adicional
-- Sensores de movimiento, impacto, revoluciones y temperatura
-- Botón de pánico SOS para informar rápidamente sobre peligros
-- Relés para control de dispositivos externos
-- Control de velocidad máxima del objeto
-- Protocolo GPRS abierto para integración en sistemas de vigilancia existentes
+## Casos de uso habituales
 
+- Seguimiento de la ubicación de vehículos de flota y supervisión de rutas
+- Seguridad de remolques y contenedores con monitoreo de movimiento e impactos
+- Control de la temperatura de la carga durante el transporte
+- Alertas de pánico para seguridad personal o protección de activos mediante el botón SOS
+- Seguimiento de equipos y activos para alquileres o despliegues a largo plazo
+
+## Por qué elegir este rastreador con Plaspy
+
+El GPSMarker M100 combina características de hardware prácticas con operación de bajo mantenimiento, lo que lo hace adecuado para organizaciones que requieren visibilidad confiable de ubicación sin intervenciones frecuentes. Su combinación de larga autonomía, variedad de sensores y firmware actualizable lo hace idóneo para transporte, logística y protección de activos.
+
+Al utilizar el M100 junto con Plaspy, los eventos de sensores y los datos de ubicación se integran en un único entorno de monitoreo e informes, mejorando la conciencia situacional y simplificando las operaciones de la flota. Para obtener más información sobre Plaspy y cómo la plataforma puede trabajar con dispositivos compatibles como el GPSMarker M100 visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que confirme las especificaciones actuales y la documentación más reciente en el sitio del fabricante https://gpsmarker.ru/.

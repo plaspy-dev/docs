@@ -2,58 +2,60 @@
 slug: /gotop/c750
 id: c750
 sidebar_label: C750
+title: GOTOP - C750
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD GPS compacto plug and play compatible con Plaspy para seguimiento y alertas de vehículos en tiempo real
+keywords:
+  - GOTOP C750
+  - Rastreador GPS GOTOP C750
+  - Rastreador OBD C750
+  - C750 compatible con Plaspy
+  - Rastreador GOTOP Plaspy
+  - Rastreador OBD GPS
+  - seguimiento de flotas C750
+  - seguimiento de vehículos GOTOP
+  - rastreador GPS en tiempo real
+  - C750 gestión de flotas
 ---
+
 # GOTOP - C750
 
 ![C750](./tracker.jpg)
 
-El Rastreador GPS OBD C750 es un dispositivo compacto, de instalación rápida y plug‑and‑play, diseñado para un despliegue veloz en automóviles y vehículos comerciales ligeros. Compatible con Plaspy desde el primer momento, el C750 utiliza comunicaciones GSM/GPRS y posicionamiento GNSS de U‑Blox para ofrecer seguimiento en tiempo real, alertas configurables y reportes de eventos fiables sin necesidad de cableado: simplemente conéctelo al puerto OBD-II del vehículo y comience a monitorizar la ubicación y la telemetría en Plaspy de inmediato.
+El GOTOP C750 es un rastreador OBD GPS compacto, plug and play, diseñado para desplegarse rápidamente en automóviles y vehículos comerciales ligeros. Pensado para instalaciones sencillas y monitoreo inmediato, el equipo combina posicionamiento GNSS y comunicaciones GSM/GPRS para ofrecer reportes de ubicación continuos, alertas configurables e informes de eventos mientras está conectado al puerto OBD-II del vehículo.
 
-El C750 está optimizado para la gestión de flotas y usos antirobos: antenas GPS y GSM integradas, asistencia A‑GPS y una pequeña batería recargable interna que mantiene la continuidad de los reportes ante un corte de energía. Los responsables de la flota y los propietarios de vehículos disponen de enlaces instantáneos a Google Maps, alertas de exceso de velocidad y de geocerca, alarmas de movimiento y vibración, y reporting por GPRS/SMS, lo que convierte al C750 en una solución eficaz y de baja fricción para el seguimiento en tiempo real y la telemetría de vehículos cuando se integra con Plaspy.
+Como dispositivo compatible con Plaspy desde el primer uso, el C750 está orientado a operadores que requieren integración de rastreo y telemetría sin fricciones. Sus capacidades de seguimiento en tiempo real, alertas por geocerca y exceso de velocidad, notificaciones de movimiento y pérdida de energía lo convierten en una opción práctica para alimentar datos de ubicación y eventos en los paneles y flujos de trabajo de Plaspy para visibilidad de flotas y monitoreo antirrobo.
 
-## Aspectos destacados
+## Aspectos principales
 
-- Rastreador OBD-II plug‑and‑play compatible con Plaspy para instalación rápida y seguimiento en tiempo real de inmediato.
-- Conectividad GSM/GPRS \(850/900/1800/1900 MHz\) y GPS de U‑Blox para un posicionamiento y telemetría fiables.
-- Alertas configurables para exceso de velocidad, incumplimiento de geocerca, movimiento, vibración y cortes de energía para apoyar el anti‑robo y el control del comportamiento del conductor.
-- Batería de respaldo recargable integrada de 110 mAh \(3.7V\) que garantiza que los informes continúen durante la pérdida de energía externa.
-- Consultas de ubicación instantáneas mediante URLs de Google Maps entregadas por SMS o por GPRS para verificación visual rápida.
-- Formato compacto y ligero \(45 x 40 x 25 mm, 28 g\) diseñado para un uso en el vehículo poco intrusivo.
-- Apto tanto para vehículos de consumo como para despliegues de gestión de flotas comerciales que requieren una instalación de bajo esfuerzo.
+- Factor de forma OBD-II plug and play para instalación rápida y visibilidad inmediata del rastreo.
+- Reportes de ubicación en tiempo real vía GSM GPRS y posicionamiento GNSS para supervisión operativa.
+- Alertas configurables por exceso de velocidad, violación de geocerca, movimiento, vibración y pérdida de energía para apoyar controles de seguridad y antirrobo.
+- Batería de respaldo integrada que permite seguir enviando reportes ante cortes temporales de energía externa.
+- Enlaces de ubicación instantáneos para verificación rápida y respuesta ágil.
+- Diseño compacto y liviano, adecuado para uso discreto dentro del vehículo.
+- Ideal tanto para vehículos particulares como para flotas ligeras que necesitan una implementación de bajo esfuerzo.
 
-## Cómo funciona con Plaspy
+## Integración con Plaspy
 
-La integración del C750 con Plaspy ofrece un flujo optimizado de datos de ubicación y de eventos hacia el panel de control y el motor de alertas de Plaspy. El dispositivo reporta la posición vía GPRS para un seguimiento continuo o vía SMS a demanda. Plaspy ingiere la ubicación y la telemetría, aplica geocercas y reglas de velocidad, genera notificaciones y muestra posiciones precisas en mapas para una visibilidad operativa en tiempo real.
+Al integrarse con Plaspy, el C750 transmite datos de posición y eventos a los sistemas de monitoreo y alertas de Plaspy, de modo que los gestores de flota puedan visualizar la ubicación en mapas, recibir notificaciones y generar reportes. Plaspy procesa los reportes del dispositivo y aplica las reglas configuradas para geocercas, control de velocidad y escalamiento de eventos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy vía GPRS o a demanda por SMS.
-- Alertas de exceso de velocidad y de incumplimiento de geocerca enviadas a Plaspy para notificaciones y reportes inmediatos.
-- Alarmas de movimiento y vibración reportadas a Plaspy para apoyar flujos de anti‑robo y detección de manipulación.
-- Detección de corte de energía: la batería de respaldo del C750 permite reportar eventos de pérdida de energía y continuar enviando alertas críticas a Plaspy.
-- La conexión OBD-II del vehículo permite capturar telemetría expuesta por el propio vehículo \(por ejemplo, estado de encendido o datos relacionados con combustible\) cuando esa información está disponible a través de la interfaz OBD-II del vehículo; Plaspy puede correlacionar estos datos derivados del OBD con GPS y registros de eventos.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy por GPRS o bajo demanda vía SMS.
+- Alertas por exceso de velocidad y violación de geocerca remitidas a Plaspy para notificación inmediata e inclusión en historiales.
+- Alarmas de movimiento y vibración reportadas a Plaspy para soportar flujos de trabajo antirrobo y facilitar investigaciones rápidas.
+- Detección de corte de energía y reportes de batería de respaldo que aseguran la continuidad de las alertas durante la pérdida de energía externa y permiten a Plaspy rastrear esos eventos.
+- La conexión OBD-II permite a Plaspy correlacionar la telemetría expuesta por el vehículo con los registros GPS y de eventos cuando esa información está disponible.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS \(2G\) |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz |
-| Alimentación y batería | Entrada/carga +9 a +45 VDC; batería de respaldo recargable integrada de 110 mAh \(3.7V\) para reportes ante cortes de energía |
-| Interfaces | Interfaz OBD-II plug‑and‑play para conexión del vehículo; reportes por SMS/GPRS para datos y alertas |
-| GNSS | Chip GPS de U‑Blox; sensibilidad hasta -159 dBm; precisión típica de posicionamiento 2D RMS ≈ 5 m; A-GPS soportado |
-| Bluetooth | No se especifican sensores Bluetooth/BLE |
-| Gestión remota | Alertas y reportes configurables vía SMS y GPRS; soporte de URL de Google Maps para verificaciones rápidas de ubicación |
-| Formato | Conector OBD-II compacto; dimensiones 45 x 40 x 25 mm; peso 28 g |
-| Ambiental | Temperatura de operación -20 °C a 70 °C; humedad 5%–95% sin condensación |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real de automóviles y vehículos ligeros, monitoreo del comportamiento del conductor \(alertas de exceso de velocidad\), verificación de rutas y reporte básico de telemetría a través de Plaspy.
-- Antirrobo y recuperación del vehículo: alertas de movimiento, vibración y corte de energía que ayudan a detectar movimientos no autorizados y activar notificaciones inmediatas en Plaspy.
-- Vehículos de alquiler y compartidos: instalación plug‑and‑play fácil para instalaciones temporales y rápida rotación entre conductores sin cableado.
-- Cumplimiento y seguridad: hacer cumplir las políticas de velocidad con alertas de exceso de velocidad y zonas de geocerca para mejorar la seguridad y reducir riesgos en la flota.
-- Visibilidad operativa para flotas pequeñas: implementación de bajo costo para gestores que necesitan seguimiento en tiempo real y alertas basadas en eventos integradas en los paneles de Plaspy.
+- Gestión de flotas para automóviles y vehículos ligeros que requieren despliegue rápido y visibilidad de ubicación continua.
+- Protección antirrobo de vehículos con alertas de movimiento, vibración y pérdida de energía integradas a las notificaciones de Plaspy.
+- Programas de renta y vehículos compartidos que se benefician de instalaciones temporales, no permanentes, y de una rotación rápida.
+- Cumplimiento y monitoreo de seguridad mediante alertas por exceso de velocidad y aplicación de geocercas en zonas asignadas.
+- Visibilidad operativa para pequeñas flotas donde la implementación de bajo costo y el mantenimiento sencillo son prioritarios.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El C750 ofrece un equilibrio práctico entre fiabilidad, simplicidad y rentabilidad cuando se combina con Plaspy. Su diseño OBD-II plug‑and‑play elimina la complejidad de instalación, acelerando los despliegues en una flota y reduciendo el tiempo de inactividad. Con comunicaciones GSM/GPRS robustas, posicionamiento A‑GPS y una batería de respaldo para reportar cortes de energía, el C750 admite los flujos de trabajo centrales de gestión de flotas y anti‑robo que Plaspy optimiza en alertas, informes y monitorización basada en mapas. Para equipos que buscan seguimiento en tiempo real, mayor cumplimiento del conductor y una recopilación de telemetría sencilla sin cableado a medida, el C750 junto con Plaspy ofrece una solución rápida y escalable.
+El C750 ofrece una solución directa para añadir visibilidad de ubicación y eventos a Plaspy sin cableado complejo ni instalaciones prolongadas. Su naturaleza plug-and-play acelera el despliegue en distintos vehículos, mientras que las comunicaciones integradas y la fuente de energía de respaldo ayudan a garantizar que las alertas importantes lleguen a Plaspy incluso cuando la alimentación externa se interrumpe. Combinado con las funciones de mapas, alertas y reportes de Plaspy, el C750 soporta flujos habituales de gestión de flotas y antirrobo en un paquete compacto.
 
+Si desea explorar cómo el GOTOP C750 puede integrarse en su estrategia de rastreo, obtenga más información sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones y la documentación actuales con GOTOP en https://www.gotop.cc/ antes de tomar decisiones de despliegue.

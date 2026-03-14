@@ -2,60 +2,61 @@
 slug: /eelink/gpt48x
 id: gpt48x
 sidebar_label: GPT48‑X
+title: EElink - GPT48‑X
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS EElink GPT48‑X de larga autonomía, IP67 y GNSS múltiple, compatible con Plaspy para rastreo de activos y gestión de flotas
+keywords:
+  - EElink GPT48‑X
+  - GPT48‑X
+  - rastreador EElink
+  - rastreador GPS de larga autonomía
+  - compatible con Plaspy
+  - rastreo de activos
+  - gestión de flotas
+  - rastreo de contenedores
+  - GNSS múltiple
+  - rastreador IP67
 ---
+
 # EElink - GPT48‑X
 
 ![GPT48‑X](./tracker.jpg)
 
-El GPT48‑X es un rastreador GPS de larga autonomía diseñado para el seguimiento de activos duradero y despliegues compatibles con Plaspy. Construido sobre conectividad LTE Cat‑M y NB‑IoT y posicionamiento multi‑GNSS, el GPT48‑X ofrece una conciencia de ubicación persistente y operación de bajo mantenimiento para activos remotos o con conectividad intermitente. Su robusta carcasa IP67, un montaje magnético fuerte y una larga vida de batería lo hacen ideal para la gestión de flotas, el monitoreo de contenedores y aplicaciones anti‑robo donde el seguimiento en tiempo real y la telemetría confiable son esenciales.
+El GPT48‑X es un rastreador GPS de larga autonomía pensado para el monitoreo durable de activos y despliegues con bajo mantenimiento. Basado en conectividad celular de bajo consumo y posicionamiento multi GNSS, el GPT48‑X ofrece detección de ubicación persistente para activos remotos o con conectividad intermitente. Su carcasa robusta IP67 y el fuerte montaje magnético lo hacen idóneo para unidades de flota, contenedores y equipos donde la fiabilidad de la ubicación y la reducción de visitas de campo son prioritarias.
 
-Diseñado para una integración fluida en la plataforma Plaspy, el GPT48‑X utiliza el protocolo EELINK y admite configuración remota a través de la plataforma, la aplicación móvil o SMS. Las funciones compatibles con Plaspy, como alertas de geocerca, detección de manipulación y un modo de reporte de emergencias, aseguran que los operadores reciban alertas oportunas e informes históricos sin visitas frecuentes al campo — reduciendo el tiempo de inactividad y el costo total de propiedad para las flotas de activos.
+Este modelo es relevante para usuarios de Plaspy porque está diseñado para integrarse sin fricciones en la plataforma. El GPT48‑X se comunica usando el protocolo EELINK y admite configuración remota vía plataforma, aplicación móvil o SMS. Plaspy puede recibir eventos del dispositivo, alertas de geocerca, notificaciones de manipulación y reportes de emergencia del GPT48‑X para ofrecer seguimiento en tiempo real, reportes históricos y alertas operativas con menos trabajo de mantenimiento.
 
-## Aspectos destacados
+## Características principales
 
-- Autonomía ultra larga: batería de 8000 mAh con hasta cinco años de espera en modo de reposo para minimizar los ciclos de mantenimiento.
-- Conectividad celular de bajo consumo: LTE Cat‑M y NB‑IoT optimizados para una larga vida de la batería y cobertura en áreas extensas.
-- Posicionamiento multi‑GNSS: GPS, BDS, GLONASS, Galileo y QZSS para mayor precisión y cobertura global.
-- Montaje resistente y magnético: carcasa IP67 con imanes potentes para una fijación rápida y fiable a activos de metal.
-- Activación inteligente y detección de manipulación: activación por vibración, alarma de manipulación con sensor de luz y alertas de geocerca para detectar movimiento e intrusión.
-- Modo de reporte de emergencias: informes frecuentes activados por movimiento para apoyar procesos de antirrobo y recuperación.
-- Gestión remota: actualizaciones de firmware OTA y configuración remota vía plataforma/aplicación o SMS para implementaciones rápidas y escalables.
-- Compatible con Plaspy: se integra mediante el protocolo EELINK para una incorporación sencilla al seguimiento y reporte en tiempo real de Plaspy.
+- Autonomía ultra larga con batería de 8000 mAh y diseño orientado a años de uso con ciclos mínimos de mantenimiento
+- Conectividad celular de bajo consumo mediante LTE Cat M y NB‑IoT para cobertura amplia y transmisión eficiente de datos
+- Posicionamiento multi GNSS que incluye GPS, BDS, GLONASS, Galileo y QZSS para mayor fiabilidad en la localización
+- Carcasa resistente IP67 y montaje magnético potente para fijación duradera en activos metálicos
+- Detección de manipulación y funciones inteligentes de activación como despertar por vibración y alarmas por sensor de luz para detectar movimiento o intrusión
+- Gestión remota mediante actualizaciones OTA y configuración a través de la plataforma, la app móvil o SMS, además de compatibilidad con el protocolo EELINK para la incorporación en Plaspy
 
 ## Cómo funciona con Plaspy
 
-Cuando se utiliza junto con Plaspy, el GPT48‑X se convierte en un nodo de rastreo en tiempo real de bajo mantenimiento que alimenta la ubicación y la telemetría a los paneles, alertas e informes históricos de Plaspy. Plaspy ingiere las posiciones multi‑GNSS y el estado del dispositivo transmitidos por LTE Cat‑M / NB‑IoT y utiliza los campos del protocolo EELINK para decodificar eventos del dispositivo, niveles de batería y condiciones de manipulación. Las reglas y programaciones en Plaspy pueden cambiar automáticamente los dispositivos entre modos de reporte normal y de emergencia para ahorrar batería mientras se aseguran actualizaciones de alta frecuencia cuando se detecta movimiento.
+Al conectar el GPT48‑X a Plaspy, usted obtiene un nodo de seguimiento de bajo mantenimiento que entrega ubicación y estado del dispositivo a los paneles, alertas y reportes de Plaspy. Plaspy decodifica mensajes en formato EELINK y utiliza las posiciones multi GNSS y el estado del equipo para apoyar la supervisión operativa y las respuestas automatizadas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: soluciones GNSS continuas y estado del dispositivo reportados a Plaspy para supervisión en vivo.
-- Alertas de vibración, movimiento y manipulación: alarmas de manipulación por sensor de luz y activación por vibración generan notificaciones en Plaspy y verificaciones de geocerca.
-- Alertas de geocerca y flujos de recuperación: Plaspy puede generar alarmas e iniciar procedimientos de recuperación cuando los activos salen de las zonas designadas.
-- Monitoreo de combustible y datos de encendido: el GPT48‑X no incluye entradas de combustible o de encendido en la descripción base; Plaspy puede aceptar estos flujos de datos si una instalación específica o integración de sensores externos los proporciona.
-- Inmovilización y control remotos: la inmovilización remota es posible solo si la instalación incluye interfaces de relé/control compatibles; confirme la disponibilidad de la interfaz para flujos de trabajo de inmovilización.
-- Sensores y balizas Bluetooth: la capacidad Bluetooth no se especifica para el GPT48‑X; Plaspy admite sensores BLE cuando un rastreador o gateway proporciona esos datos.
+- Actualizaciones de ubicación y telemetría en tiempo real para la supervisión en vivo de activos en los mapas de Plaspy
+- Alertas de manipulación y movimiento reenviadas a Plaspy para activar notificaciones y flujos de trabajo de operadores
+- Gestión de geocercas y alertas de salida para apoyar la recuperación y los reportes por zonas
+- Configuración remota y actualizaciones OTA coordinadas desde Plaspy para reducir intervenciones in situ
+- Reportes históricos y paneles de salud del dispositivo para monitorear tendencias de batería y el rendimiento de los despliegues
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Celular LTE Cat‑M y NB‑IoT |
-| --- | --- |
-| Bandas | LTE Cat‑M / NB‑IoT \(bandas regionales y SKU pueden variar; confirmar con el proveedor\) |
-| Alimentación y batería | Batería interna de 8000 mAh; hasta cinco años de espera en modo de reposo; modo de emergencia permite reportes frecuentes al moverse |
-| Interfaces | Integración con protocolo EELINK; configuración remota vía plataforma, aplicación o SMS \(no se especifica pinout de E/S en la descripción\) |
-| GNSS | Multi‑GNSS: GPS, BDS, GLONASS, Galileo, QZSS |
-| Bluetooth | No especificado en la descripción proporcionada |
-| Gestión remota | Actualizaciones de firmware OTA; configuración remota a través de plataforma/aplicación/SMS |
-| Formato físico | Aprox. 120 × 69 × 19,5 mm; carcasa robusta con imanes potentes; clasificado IP67 |
-
-## Casos de uso
-
-- Monitoreo de activos a largo plazo: ideal para remolques estacionados, contenedores y equipos estacionales que requieren un mantenimiento poco frecuente.
-- Gestión de flotas para vehículos de bajo uso: rastrea activos inactivos y recibe alertas de movimiento sin cambios de batería frecuentes, apoyando el seguimiento en tiempo real en los paneles de Plaspy.
-- Antirrobo y recuperación: alarmas de manipulación, activación por vibración y reporte de emergencias ayudan a detectar movimientos no autorizados y acelerar las acciones de recuperación.
-- Telemetría remota para patios de equipos: supervisa ubicación y salud de la batería durante años, reduciendo visitas al sitio y optimizando la planificación de mantenimiento.
+- Monitoreo a largo plazo de remolques estacionados, contenedores y equipos estacionales
+- Gestión de flotas para vehículos de uso esporádico o con actividad intermitente donde la larga duración de la batería reduce el mantenimiento
+- Monitoreo anti robo y flujos de recuperación usando alarmas de manipulación y modos de reportes de emergencia
+- Supervisión de patios remotos para reducir visitas al sitio y facilitar el mantenimiento planificado
+- Rastreo de contenedores y carga donde se requiere montaje robusto y posicionamiento confiable
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GPT48‑X con compatibilidad Plaspy ofrece un equilibrio práctico entre larga vida de la batería, posicionamiento robusto y gestión remota — todo ello relevante para una gestión de flotas escalable y la protección de activos. La batería de 8000 mAh y los modos de sueño y emergencia inteligentes reducen los costos operativos y prolongan la vida útil de la implementación, mientras que el posicionamiento multi‑GNSS mejora la fiabilidad de la ubicación en entornos desafiantes. La construcción robusta IP67 y el montaje magnético simplifican la instalación y protegen el hardware en condiciones adversas.
+El GPT48‑X combina larga vida de batería, posicionamiento multi GNSS robusto y construcción resistente con funciones de gestión remota que complementan los despliegues en Plaspy. Para organizaciones que necesitan seguimiento persistente de activos remotos, esta combinación reduce el costo total de propiedad al minimizar reemplazos de batería y desplazamientos, mientras entrega datos de ubicación fiables para los equipos operativos.
 
-La integración a través del protocolo EELINK, junto con actualizaciones de firmware OTA y configuración remota, permite despliegues más rápidos y menos visitas de campo. Para organizaciones que requieren seguimiento en tiempo real, telemetría y alertas anti‑robo en Plaspy — y que podrían añadir sensores de combustible, interfaces de encendido o relés de inmovilización en el futuro — el GPT48‑X es una opción duradera y de bajo mantenimiento que admite una integración escalonada. Confirme con su proveedor las necesidades de E/S o sensores BLE para garantizar que la variante exacta cumpla con los requisitos de telemetría y control.
+La integración mediante el protocolo EELINK y el soporte para configuración remota y actualizaciones OTA acelera los despliegues y simplifica la administración continua de los dispositivos en Plaspy. Si su proyecto requiere entradas adicionales o soporte de sensores Bluetooth, confirme la variante exacta y las interfaces con el proveedor para asegurar que el rastreador cumpla cualquier requisito específico de telemetría o control.
 
+Learn more about how Plaspy supports devices like the GPT48‑X and explore platform capabilities at https://www.plaspy.com. Product specifications and availability can change over time so verify current details with the manufacturer at https://www.eelink.com.cn/ before purchase or deployment.

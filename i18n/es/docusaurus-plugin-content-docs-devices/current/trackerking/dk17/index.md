@@ -2,63 +2,62 @@
 slug: /trackerking/dk17
 id: dk17
 sidebar_label: DK17
+title: TrackerKing - DK17
 sidebar_class_name: menu_item_tracker
+description: Rastreador profesional TrackerKing DK17 compatible con Plaspy para seguimiento en tiempo real, registro de kilometraje y control remoto del inmovilizador
+keywords:
+  - TrackerKing DK17
+  - rastreador DK17
+  - rastreador GPS DK17
+  - TrackerKing rastreador
+  - compatible con Plaspy
+  - rastreador de vehículos
+  - seguimiento de flotas
+  - seguimiento en tiempo real
+  - inmovilizador remoto
+  - registro de kilometraje
+  - seguridad vehicular
 ---
+
 # TrackerKing - DK17
 
 ![DK17](./tracker.jpg)
 
-# DK17 Vehicle GPS Tracker
+El DK17 es un rastreador GPS profesional de TrackerKing diseñado para ofrecer seguimiento en tiempo real y gestión de flotas confiable. Como dispositivo cableado con conectividad celular 4G y 2G Cat 1, proporciona actualizaciones continuas de ubicación, estadísticas de kilometraje y un conjunto de funciones de seguridad y control remoto pensadas para flotas comerciales, vehículos de alquiler y despliegues antirobo. El equipo está diseñado para operar en un amplio rango de voltaje de entrada y cuenta con una batería interna de respaldo que preserva el rastreo ante interrupciones de energía.
 
-DK17 es un rastreador GPS profesional, compatible con Plaspy, diseñado para un seguimiento en tiempo real fiable y una gestión de flota robusta. Construido como un rastreador de vehículos con conectividad celular 4G + 2G Cat-1, DK17 ofrece actualizaciones de ubicación ininterrumpidas, estadísticas de kilometraje y un conjunto de funciones de seguridad y control remoto diseñadas para flotas comerciales, vehículos de alquiler y despliegues de protección antirrobo.
+Al ser explícitamente compatible con Plaspy, el DK17 resulta una opción práctica para quienes desean centralizar la visibilidad y el control de sus vehículos. El dispositivo transmite telemetría y eventos que Plaspy utiliza para paneles en vivo, alertas automáticas y reproducción histórica. Entradas integradas para detección de ignición y soporte para corte remoto de motor o combustible, además de reporte de alarmas por manipulación, hacen al DK17 adecuado para implementaciones que requieren monitoreo y acciones remotas básicas desde una plataforma unificada.
 
-Diseñado para una integración sencilla con la plataforma Plaspy, el DK17 proporciona telemetría continua e informes de eventos que Plaspy puede usar para el monitoreo de paneles de control, alertas y análisis histórico. Su amplio rango de operación de 9–90V y la batería interna de respaldo aseguran la continuidad del rastreo en sistemas de 12V y 24V, mientras la detección de encendido ACC, el corte remoto del motor/combustible y las alarmas de manipulación ofrecen el tipo de control que los operadores esperan de una solución de rastreo compatible con Plaspy.
+## Características principales
 
-## Key Highlights
+- Compatible con Plaspy para actualizaciones de ubicación en tiempo real y reproducción del historial de rutas en una sola plataforma
+- Conectividad celular 4G y 2G Cat 1 para comunicaciones consistentes y amplia cobertura
+- Amplio rango de funcionamiento de 9–90V con batería interna de respaldo para mantener el rastreo tras pérdidas de alimentación
+- Detección de ignición ACC y estadísticas de kilometraje para registro preciso de uso y tiempo de funcionamiento
+- Funciones de inmovilizador remoto y alarma por manipulación para fortalecer los procesos de seguridad vehicular
+- Alertas de geocerca y exceso de velocidad para automatizar notificaciones de límites y velocidad vía Plaspy
+- Soporte opcional para monitoreo de voz remoto mediante micrófono externo para verificación situacional
 
-- Plaspy compatible GPS tracker for real-time tracking and history route playback on a unified platform
-- 4G + 2G Cat-1 cellular connectivity for stable communications and wide-area coverage
-- Wide input voltage \(9–90V\) and internal backup battery to maintain operation after power loss
-- Comprehensive security: ACC ignition detection, SOS, vibration alarm and remote immobilizer \(engine/fuel cutoff\)
-- Fleet telemetry including mileage statistics and vehicle battery voltage monitoring
-- Geo-fence and overspeed alerts to automate boundary and speed violation notifications via Plaspy
-- Remote voice monitoring support with external microphone for situational checks and security
+## Cómo funciona con Plaspy
 
-## How It Works with Plaspy
+Una vez instalado y conectado a redes móviles, el DK17 envía datos de posición y eventos a Plaspy para que usted pueda monitorear su flota desde un panel centralizado. Plaspy procesa la telemetría y los disparadores de eventos para habilitar el rastreo en vivo, las alertas y los informes históricos, permitiendo que los equipos actúen con mayor rapidez ante incidentes de seguridad y excepciones operativas.
 
-When installed in a vehicle and connected to mobile networks, the DK17 streams location and telemetry data to Plaspy. Plaspy ingests real-time position updates, event triggers and sensor readings from the tracker to provide centralized fleet dashboards, automated alerts and historical reporting. The DK17's alarm and remote-control functions can be executed or displayed through Plaspy to simplify operations and improve response times.
+- Las actualizaciones de ubicación y telemetría en tiempo real aparecen en Plaspy para seguimiento y despacho inmediato
+- Eventos de alarma como SOS, vibración, geocerca y exceso de velocidad se reenvían como alertas en Plaspy
+- Las estadísticas de kilometraje y la tensión de batería facilitan diagnósticos de rutina e informes en Plaspy
+- Se pueden emitir comandos de inmovilizador remoto desde la plataforma cuando la instalación lo permite
+- El historial de eventos y la reproducción de rutas en Plaspy permiten auditorías, investigaciones y análisis de desempeño
+- El monitoreo de voz remoto puede integrarse en flujos de trabajo de Plaspy cuando se instala un micrófono externo
 
-- Real-time location and telemetry updates delivered to Plaspy for live tracking and dispatch
-- ACC ignition and virtual ignition state reporting for accurate engine run-time logging
-- Mileage statistics and battery voltage monitoring for routine fleet diagnostics and fuel monitoring workflows
-- Remote immobilizer functionality \(engine/fuel cutoff\) controllable via platform commands where supported
-- Alarm events — SOS, vibration, geo-fence and overspeed — forwarded as Plaspy alerts to operators and administrators
-- Remote voice monitoring \(requires external microphone wiring\) for security verifications through Plaspy-connected workflows
-- Works alongside Bluetooth sensors and beacons within the Plaspy ecosystem even if BLE accessories are managed separately from the DK17
+## Casos de uso típicos
 
-## Technical Overview
+- Gestión de flotas con seguimiento en vivo de vehículos, historial de rutas y registro de kilometraje
+- Monitoreo de vehículos de alquiler para detección de ignición, geocercas y conciliación de uso
+- Despliegues antirobo usando alarmas por vibración, alertas SOS y controles de inmovilizador remoto
+- Rastreo de activos a largo plazo y reproducción histórica para auditorías y seguimiento del ciclo de vida
+- Flujos de trabajo de seguridad y cumplimiento que se benefician del registro de eventos y verificaciones de voz opcionales
 
-| Connectivity | 4G + 2G \(LTE Cat-1 with 2G fallback\) |
-| --- | --- |
-| Bands | Manufacturer-specified 4G/2G bands \(model variants may differ\) |
-| Power & Battery | Operating voltage 9–90V; internal backup battery with power-failure alarm |
-| Interfaces | Wired installation requiring vehicle power; ACC ignition input; relay control for remote engine/fuel cutoff; external microphone input for remote voice monitoring |
-| GNSS | GPS-based real-time tracking with history playback \(GNSS functionality for location reporting\) |
-| Bluetooth | No built-in BLE reported; can be used in Plaspy workflows alongside Bluetooth sensors managed on the platform |
-| Remote Management | Remote cut-off and alarm/reporting through integration with Plaspy; firmware update methods not specified |
-| Form Factor | Wired vehicle tracker for professional installation in passenger cars, commercial vehicles and 12/24V systems |
+## Por qué elegir este rastreador con Plaspy
 
-## Use Cases
+El DK17 conviene a organizaciones que necesitan un rastreo vehicular confiable junto con funciones prácticas de seguridad y control. Su amplia tolerancia de voltaje y la batería interna de respaldo ayudan a garantizar reportes continuos en flotas heterogéneas, y sus capacidades de alarma e inmovilizador cubren necesidades habituales de antirobo y control operativo. En combinación con Plaspy, el DK17 ofrece visibilidad centralizada y alertas estandarizadas que simplifican la supervisión de la flota y la respuesta a incidentes.
 
-- Fleet management: real-time tracking, mileage logging and operational alerts to optimize routes and vehicle uptime
-- Car rental monitoring: ignition detection, geo-fencing and mileage statistics for usage tracking and dispute resolution
-- Anti-theft protection: vibration alarms, SOS, remote immobilizer \(engine/fuel cutoff\) and power-failure alerts to protect assets
-- Long-term asset tracking: continuous telemetry and history playback for asset audits and lifecycle monitoring
-- Security and compliance: remote voice monitoring and event logging to support incident investigations and driver safety programs
-
-## Why Choose This Tracker with Plaspy
-
-DK17 is built for professional vehicle tracking deployments that require dependable connectivity, robust telemetry and actionable remote-control features. Its 4G + 2G Cat-1 radio ensures resilient communications, while the wide 9–90V range and internal backup battery reduce downtime and preserve tracking continuity during power loss. Together with Plaspy, DK17 becomes part of a scalable solution for fleet management, anti-theft protection and operational monitoring — delivering the real-time tracking, ignition and immobilizer controls, and telemetry data fleet operators rely on.
-
-Choosing a Plaspy compatible DK17 gives fleets and vehicle owners a straightforward path to live tracking, automated alerts and centralized reporting without sacrificing the security and remote-control capabilities needed in professional installations. For organizations that need reliable GPS tracking, flexible deployment across 12V/24V vehicles, and a rich set of alarms and control functions, the DK17 is a practical choice to integrate with the Plaspy platform.
-
+Si está evaluando hardware compatible con Plaspy para casos de uso en flotas o seguridad vehicular, el TrackerKing DK17 es una opción sólida a considerar. Obtenga más información sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual en el sitio oficial de TrackerKing https://trackerking.cn/ antes de tomar decisiones de despliegue.

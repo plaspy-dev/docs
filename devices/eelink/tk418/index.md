@@ -2,61 +2,61 @@
 slug: /eelink/tk418
 id: tk418
 sidebar_label: TK418
+title: EElink - TK418
 sidebar_class_name: menu_item_tracker
+description: Compact IoT GPS tracker for vehicles and light assets compatible with Plaspy and offering broad cellular coverage
+keywords:
+  - EElink TK418
+  - TK418 tracker
+  - EElink tracker
+  - TK418 Plaspy compatible
+  - TK418 GPS tracker
+  - vehicle asset tracking
+  - NB IoT tracker
+  - LTE Cat M1 tracker
+  - multi GNSS tracker
+  - fleet tracking device
 ---
+
 # EElink - TK418
 
 ![TK418](./tracker.jpg)
 
-The TK418 is a compact, IoT‑oriented GPS tracker designed for vehicle and light‑asset deployments and is Plaspy compatible out of the box. Built for broad cellular coverage with LTE Cat M1 and NB‑IoT as primary connectivity and GSM fallback, the TK418 delivers dependable real‑time tracking, rich telemetry and configurable safety features that fleet managers and integrators expect from a modern Plaspy compatible device.
+The TK418 is a compact, IoT oriented GPS tracker designed for vehicle and light asset deployments. It provides multi GNSS positioning and a set of event detections such as ACC ignition status, crash and vibration alerts, and an optional relay for remote cut off. The unit is built for broad cellular coverage with LTE Cat M1 and NB IoT as primary connectivity and GSM fallback, delivering dependable real time tracking, telemetry and configurable safety features in a small form factor.
 
-Small but capable, the TK418 combines multi‑GNSS positioning, ACC \(ignition\) detection, crash and vibration alerts, and an optional relay for remote cut‑off \(immobilizer\) into a 89 × 37 × 12 mm housing. It integrates with telematics platforms via the EELINK protocol so you can start pairing location, events and sensor data with Plaspy for fleet management, anti‑theft response and operational reporting.
+As a device that is Plaspy compatible out of the box, the TK418 is straightforward to integrate into fleet management workflows. It communicates using the EELINK protocol so Plaspy can ingest location, events and sensor data to provide live maps, alerting and historical reports. That makes the TK418 a practical choice for fleets and integrators who want a compact tracker that pairs readily with Plaspy for monitoring, anti theft response and operational reporting.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker with LTE Cat M1 and NB‑IoT primary networks and GSM fallback for wide coverage.
-- Multi‑GNSS support \(GPS/BeiDou/GLONASS/Galileo/QZSS\) for reliable position fixes in difficult environments.
-- Real‑time tracking and telemetry including crash, acceleration/deceleration, vibration and overspeed alerts.
-- ACC \(ignition\) detection plus optional relay for remote cut‑off to support immobilizer and anti‑theft strategies.
-- Expandable interfaces \(RS232/GPIO\) and a customizable SOS port that can accept external battery, iButton or Bluetooth devices for flexible sensor integration.
-- 140 mAh backup battery with cut‑off and low‑power alarms to maintain reporting and notify Plaspy of power events.
-- Compact, lightweight form factor \(46 g\) suitable for covert installation in vehicles and assets.
+- Plaspy compatible device offering out of the box integration via the EELINK protocol
+- Broad cellular coverage with LTE Cat M1 and NB IoT primary networks and GSM fallback
+- Multi GNSS positioning for improved fix reliability in varied environments
+- Real time tracking and telemetry with crash, vibration and overspeed alerting
+- ACC ignition detection plus optional relay for remote immobilizer support
+- Expandable I O via RS232 and GPIO and a customizable SOS port for external sensors
+- Compact and lightweight form factor suitable for discreet vehicle and asset installation
 
 ## How It Works with Plaspy
 
-Integrating the TK418 with Plaspy provides continuous, actionable location and event data. The unit communicates position and telemetry over LTE Cat M1 or NB‑IoT and falls back to GSM when needed. Plaspy ingests EELINK protocol messages to create real‑time tracking views, alerts and historical reports used for fleet management and operational decision‑making.
+When paired with Plaspy the TK418 streams position and event messages that Plaspy uses to populate maps, alerts and reports for operational oversight. Plaspy ingests the device messages and applies platform rules for notifications, historical analysis and dashboard visualizations.
 
-- Real‑time location and telemetry updates \(multi‑GNSS\) for precise tracking on Plaspy maps.
-- ACC/ignition status reporting to correlate vehicle on/off events and driver behavior.
-- Crash, vibration, acceleration/deceleration and overspeed alerts forwarded to Plaspy for instant notifications and incident logging.
-- Geofencing events generated on device or in Plaspy for perimeter alerts and route enforcement.
-- Remote immobilizer support via the optional relay for anti‑theft actions initiated from Plaspy.
-- External sensor integration \(RS232/GPIO\) to add telemetry such as fuel‑sensor inputs or door/alarm contacts into Plaspy dashboards.
-- SOS port customization to connect an external battery, iButton or Bluetooth device — Plaspy can surface SOS events and associated sensor data.
+- Real time location updates on Plaspy maps using multi GNSS fixes
+- ACC and ignition status reporting to correlate vehicle on and off events
+- Crash, vibration and overspeed alerts forwarded to Plaspy for notifications and incident logs
+- Geofence events available to trigger perimeter alerts and route enforcement in Plaspy
+- Remote immobilizer actions via the optional relay that can be initiated from Plaspy when supported
+- External sensor inputs from RS232 and GPIO surfaced in Plaspy dashboards and reports
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat M1, NB‑IoT with GSM fallback |
-| --- | --- |
-| GNSS | Multi‑GNSS: GPS, BeiDou, GLONASS, Galileo, QZSS |
-| Power & Battery | 9–48 V DC input; 140 mAh backup battery with cut‑off and low‑power alarms |
-| Interfaces | ACC detection \(ignition input\), RS232, GPIO expansion; optional relay for remote cut‑off; optional SOS button/port |
-| Alerts & Events | Crash, acceleration, deceleration, vibration, overspeed, geofence |
-| Bluetooth | SOS port customizable to connect an external Bluetooth device \(no built‑in BLE specified\) |
-| Integration | EELINK protocol for platform integration \(suitable for Plaspy ingestion\) |
-| Form Factor | 89 × 37 × 12 mm; weight 46 g — compact for vehicle/asset installation |
-
-## Use Cases
-
-- Fleet management: continuous location, ignition state and driver event telemetry for route optimization and compliance reporting in Plaspy.
-- Anti‑theft and immobilization: rapid immobilizer activation via optional relay combined with geofence and overspeed alerts to reduce vehicle theft risk.
-- Driver safety and incident response: crash, vibration and SOS events forwarded to Plaspy for fast operator response and incident logging.
-- Telemetry extension: integrate fuel sensors, door/alarm contacts or other serial/GPIO devices to centralize fuel monitoring and asset telemetry in Plaspy.
-- Light asset tracking: discreet installation on trailers, equipment or small vehicles where compact size and NB‑IoT battery efficiency matter.
+- Fleet management with continuous location, ignition state and driver event telemetry
+- Anti theft and immobilization workflows combining relay control with geofence and alerting
+- Driver safety and incident response using crash and SOS event forwarding to operators
+- Telemetry extension by integrating fuel sensors, door contacts or other peripherals into a central platform
+- Light asset tracking for trailers, equipment and small vehicles where compact size matters
 
 ## Why Choose This Tracker with Plaspy
 
-When you need a Plaspy compatible GPS tracker that balances small size with robust connectivity and flexible I/O, the TK418 is a practical choice. Its LTE Cat M1/NB‑IoT connectivity reduces power and extends coverage in IoT deployments while GSM fallback keeps devices reachable in legacy cellular areas. Multi‑GNSS positioning improves fix reliability for real‑time tracking and map accuracy, while ACC detection and optional relay enable ignition awareness and remote immobilizer strategies for anti‑theft workflows.
+The TK418 combines a small footprint with connectivity and I O flexibility that makes it a useful fit for many Plaspy deployments. Its cellular options and multi GNSS support are geared toward reliable coverage and position accuracy, while ACC detection, crash alerts and an optional relay enable practical anti theft and operational controls that teams commonly need. For integrators, the expandable interfaces and customizable SOS port offer ways to centralize extra telemetry without changing the core device.
 
-For integrators and fleet operators focused on telemetry and operational insight, the TK418’s RS232/GPIO expansion and customizable SOS port let you add fuel sensors, door contacts, iButton authentication or Bluetooth peripherals without replacing the core unit. Integration via the EELINK protocol means Plaspy can immediately parse position, event and sensor data for dashboards, alerts and historical reports—helping teams reduce response times, improve routing and protect assets with a compact, reliable device.
-
+To learn more about using Plaspy with compatible devices like the TK418 visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical information on the manufacturer site https://www.eelink.com.cn/ before making deployment decisions.

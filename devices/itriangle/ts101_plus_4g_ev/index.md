@@ -2,62 +2,60 @@
 slug: /itriangle/ts101_plus_4g_ev
 id: ts101_plus_4g_ev
 sidebar_label: TS101 PLUS 4G EV
+title: iTriangle - TS101 PLUS 4G EV
 sidebar_class_name: menu_item_tracker
+description: Telematics GPS tracker for electric vehicles with multi GNSS positioning CAN telemetry BLE sensors and out of the box Plaspy compatibility
+keywords:
+  - iTriangle TS101
+  - TS101 PLUS 4G EV
+  - TS101 4G EV tracker
+  - iTriangle EV tracker
+  - EV fleet tracker
+  - Plaspy compatible trackers
+  - GPS telematics EV
+  - multi GNSS tracker
+  - CAN bus tracker
+  - BLE tracker
 ---
+
 # iTriangle - TS101 PLUS 4G EV
 
 ![TS101 PLUS 4G EV](./tracker.png)
 
-The TS101 PLUS 4G EV is a purpose-built telematics GPS tracker designed for electric vehicles and EV fleets. Plaspy compatible out of the box, this LTE Cat‑1 device delivers precise multi‑GNSS positioning \(GPS, Galileo, NavIC, BeiDou\), vehicle telemetry, and event detection for real‑time tracking, diagnostics, and driver behavior monitoring. Its wide 9–90V DC input, rugged IP65 enclosure, and automotive interfaces make it a reliable option for EV cars, scooters, motorcycles, and fleet vehicles that require continuous remote insight.
+The TS101 PLUS 4G EV is a purpose built telematics GPS tracker designed specifically for electric vehicles and EV fleets. It combines LTE Cat 1 cellular connectivity with multi GNSS positioning and vehicle telemetry to provide continuous remote insight into vehicle location, motion, and health. The device includes vehicle interfaces, internal motion sensors, an embedded eSIM and a rugged IP65 enclosure, making it suitable for cars, scooters, motorcycles and commercial EV vehicles that require reliable field performance.
 
-Integrated with Plaspy, the TS101 PLUS 4G EV feeds high‑resolution location, motion, and CAN bus data into your telematics platform for fleet management, anti‑theft alerts, and predictive maintenance workflows. With internal BLE 5.0, built‑in motion sensors, an embedded eSIM, and OTA/FOTA support, the unit simplifies deployment and ongoing management across diverse electric vehicle applications.
+As a Plaspy compatible device out of the box, the TS101 PLUS 4G EV can feed high resolution location and vehicle data directly into Plaspy for fleet monitoring and operational oversight. Integrating this tracker with Plaspy gives fleet managers centralized visibility, event alerts, and reporting that help with anti theft workflows, remote diagnostics, and driver behavior monitoring without extensive customization.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker optimized for electric vehicles and multi‑vehicle fleets.
-- LTE Cat‑1 plus 2G fallback with embedded eSIM for robust cellular connectivity and global coverage.
-- Multi‑GNSS positioning \(GPS, Galileo, NavIC, BeiDou\) for accurate real‑time tracking and route replay.
-- Built‑in accelerometer and gyroscope for harsh braking, sudden acceleration, collision detection, and driver behavior telemetry.
-- CAN bus integration and selectable RS232/RS485 for deep vehicle diagnostics and OEM telemetry integration.
-- Internal BLE 5.0 for Bluetooth sensors and beacon support without external antennas.
-- Rugged IP65 enclosure, wide operating temperature range, and low sleep consumption for long‑term field reliability.
+- Purpose built for electric vehicles and multi vehicle EV fleets with telematics focused design
+- Plaspy compatible out of the box for straightforward platform integration
+- LTE Cat 1 connectivity with embedded eSIM and 2G fallback for broad cellular coverage
+- Multi GNSS positioning for accurate real time tracking and route replay
+- Built in accelerometer and gyroscope for motion and harsh event detection
+- CAN bus access and selectable serial options for vehicle diagnostics and OEM telemetry
+- Rugged IP65 enclosure and wide 9 90V DC input for reliable field operation
 
 ## How It Works with Plaspy
 
-When connected to Plaspy, the TS101 PLUS 4G EV streams location and vehicle telemetry in real time using secure LTE Cat‑1 sessions. Plaspy ingests GNSS positions, CAN bus diagnostics, and event flags \(eg, harsh events and tamper alerts\) to provide dashboards, alerts, and reports for fleet managers. OTA updates and configuration sync keep device firmware and settings aligned with Plaspy policies.
+When paired with Plaspy the TS101 PLUS 4G EV streams location and vehicle telemetry so the platform can present maps, alerts and fleet reports in near real time. Plaspy ingests GNSS positions, motion events and vehicle bus data to support monitoring and operational workflows while remote update capabilities allow devices to stay aligned with platform configuration.
 
-- Real‑time location and telemetry updates: multi‑GNSS positions are reported periodically or on events for accurate real‑time tracking.
-- Vehicle event reporting: accelerometer/gyroscope detect harsh braking, sudden acceleration, and collisions; tamper and panic inputs generate instant alerts.
-- CAN bus telemetry: engine/EV status and other vehicle signals are relayed to Plaspy for diagnostics and performance monitoring.
-- Ignition and digital I/O: ignition status and digital inputs integrate into Plaspy rules; digital outputs can be used to trigger external devices such as immobilizers or alarms.
-- Bluetooth sensors: BLE 5.0 enables proximity beacons and sensor data to extend monitoring \(eg, temperature sensors or accessory tracking\) into Plaspy.
+- Real time location updates and route history for live monitoring and post event analysis
+- Event driven alerts for harsh braking sudden acceleration collisions tamper and panic conditions
+- Vehicle telemetry from CAN bus delivered to Plaspy for diagnostics and performance tracking
+- Ignition and digital input status used by Plaspy rules to trigger alerts and automate reports
+- BLE sensor and beacon data available to extend monitoring for accessories or proximity use cases
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat‑1 with embedded eSIM; 2G fallback \(900/1800 MHz\). No 3G. |
-| --- | --- |
-| Bands | LTE Bands B1 / B3 / B5 / B8 / B34 / B39 / B40 / B41; 2G 900/1800 MHz |
-| Power & Battery | Input 9–90V DC; internal rechargeable battery 850mAh; sleep consumption &lt;5mA |
-| Interfaces | 2 analog inputs, 4 digital inputs, 4 digital outputs, selectable 1x RS232 or 1x RS485, 1x CAN Bus channel, USB 2.0 \(config only\) |
-| GNSS | GPS, Galileo, NavIC, BeiDou \(multi‑GNSS support for improved positioning\) |
-| Bluetooth | Internal BLE 5.0 for sensors and beacons \(no Wi‑Fi\) |
-| Remote Management | Configuration via USB / SMS / TCP/IP / BLE; OTA & FOTA supported for firmware and configuration |
-| Sensors | Built‑in accelerometer and gyroscope for motion and impact detection |
-| Data Storage | 128MB internal memory; capacity up to ~40,000 records |
-| Alerts & Wake‑up | Ignition, Panic Button, Accelerometer \(motion\), Tamper Alert |
-| Enclosure & Temp | IP65 rated; operating −25°C to +85°C; storage −40°C to +85°C |
-| Form Factor | Compact module 98mm × 85mm × 31mm; weight &lt;185g |
-| SIM | Embedded eSIM \(MFF2\) |
-
-## Use Cases
-
-- Electric fleet management: real‑time tracking, route optimization, and remote diagnostics for EV vans and service vehicles.
-- OEM EV integration: CAN bus diagnostics and compact form factor for factory or aftermarket installation in electric cars and scooters.
-- Micromobility and motorcycle fleets: rugged IP65 housing and wide voltage support make it ideal for scooters and two‑wheel fleets.
-- Safety and driver behavior: accelerometer/gyroscope telemetry to monitor harsh events and coach drivers through Plaspy reporting.
-- Remote maintenance and warranty monitoring: OTA/FOTA and continuous telemetry help reduce downtime and support proactive servicing.
+- Electric fleet management for vans service vehicles and delivery EVs requiring remote oversight
+- OEM and aftermarket EV integration for factory fitted or retrofitted diagnostics and telemetry
+- Micromobility and motorcycle fleets where rugged design and wide voltage support matter
+- Safety and driver coaching programs using motion event telemetry and behavior reports
+- Remote maintenance and warranty monitoring with OTA updates and continuous data capture
 
 ## Why Choose This Tracker with Plaspy
 
-The TS101 PLUS 4G EV delivers a balanced mix of reliable connectivity, robust hardware, and flexible integration points that make it a strong choice when paired with Plaspy. Its multi‑GNSS support and internal motion sensors enable accurate real‑time tracking and event detection for safer operations, while CAN bus access and USB/serial interfaces provide rich telemetry for diagnostics. The embedded eSIM and OTA/FOTA capabilities simplify deployment and lifecycle management across dispersed fleets, and internal BLE 5.0 extends monitoring to Bluetooth sensors without extra antennas. Together with Plaspy, this device supports scalable fleet management, anti‑theft measures, remote diagnostics, and actionable telemetry—helping operators turn vehicle data into measurable operational improvements.
+The TS101 PLUS 4G EV pairs hardware designed for electric vehicles with the operational features fleet teams expect from a modern telematics platform. Its combination of multi GNSS location, motion sensors, and vehicle bus access provides a strong foundation for accurate tracking and actionable diagnostics. Embedded connectivity and remote update support reduce ongoing management overhead, while the rugged enclosure and broad voltage tolerance help ensure reliable operation across diverse EV types.
 
+If you want a tracker that feeds high resolution vehicle data into Plaspy for fleet tracking anti theft alerts and maintenance workflows the TS101 PLUS 4G EV is a practical option to consider. Learn more about Plaspy on the main website https://www.plaspy.com and verify current specifications and availability on the manufacturer site https://www.itriangle.net/ since product details and features can change over time.

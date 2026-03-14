@@ -2,59 +2,59 @@
 slug: /teltonika/fmb110
 id: fmb110
 sidebar_label: FMB110
+title: Teltonika - FMB110
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto Teltonika FMB110 compatible con Plaspy para seguimiento vehicular, sensado de temperatura, integración BLE y funciones antirrobo
+keywords:
+  - Teltonika FMB110
+  - rastreador FMB110
+  - FMB110 compatible con Plaspy
+  - rastreador vehicular
+  - seguimiento de flotas
+  - monitoreo cadena de frío
+  - rastreador BLE
+  - temperatura 1 Wire
+  - inmovilizador
+  - seguimiento en tiempo real
 ---
+
 # Teltonika - FMB110
 
 ![FMB110](./tracker.png)
 
-El Teltonika FMB110 es un rastreador GPS 2G compacto diseñado para un monitoreo fiable de vehículos y telemática básica. Con antenas internas celulares y GNSS, soporte para bandas 2G GSM \(B2, B3, B5, B8\) e interfaces integradas para sensores de temperatura y lectura de identificación por RFID/iButton, el FMB110 es compatible con Plaspy y está listo para proporcionar seguimiento en tiempo real, telemetría y funciones anti-robo para gestión de flotas, logística y aplicaciones de car sharing.
+El Teltonika FMB110 es un rastreador GPS 2G compacto pensado para ofrecer seguimiento vehicular confiable y funciones telemáticas básicas. Integra antenas internas para celular y GNSS y es compatible con las bandas GSM habituales. Dispone de interfaces para sondas de temperatura y lectura de iButton o RFID, lo cual facilita instalaciones sencillas en vehículos donde se requiere un tamaño reducido y telemetría esencial.
 
-Construido para una integración sencilla con plataformas como Plaspy, el FMB110 admite bloqueo remoto del motor \(inmovilizador\), conectividad BLE a balizas y sensores externos, y entrada 1-Wire para sondas de temperatura DS18B20 y etiquetas iButton/RFID. Su formato compacto y las opciones de embalaje estándar facilitan su despliegue a gran escala para flotas de vehículos mixtas y monitoreo de activos en cadena de frío, aprovechando las herramientas de paneles, alertas e informes de Plaspy.
+Como dispositivo compatible con Plaspy, el FMB110 puede enviar posiciones, lecturas de sensores y estados al panel y herramientas de informes de Plaspy. Esta compatibilidad lo hace ideal para gestión de flotas, logística, monitoreo de la cadena de frío y modelos de car sharing, donde Plaspy aporta visibilidad, alertas y análisis histórico para la supervisión operativa.
 
-## Puntos destacados
+## Características principales
 
-- Rastreador GPS compatible con Plaspy que ofrece seguimiento en tiempo real fiable a través de redes GSM 2G.
-- Diseño compacto con antenas internas celulares y GNSS para instalaciones limpias en vehículos.
-- Interfaz 1-Wire para sensores de temperatura DS18B20 y lectura de etiquetas iButton/RFID, ideal para telemetría de cadena de frío y identificación del conductor.
-- Soporte BLE para balizas y sensores inalámbricos \(temperatura, humedad, movimiento y estado de imán\).
-- Bloqueo remoto del motor \(inmovilizador\) para anti-robo y control de acceso de la flota.
-- Opciones estándar de SKU y de embalaje \(cables y cantidades por caja\) facilitan la adquisición e implementación.
-- Soporte del fabricante a través de Teltonika Knowledge Base, descargas de firmware, FOTA Web y Teltonika Configurator para actualizaciones remotas y gestión del dispositivo.
+- Rastreador compatible con Plaspy que ofrece seguimiento en tiempo real y confiable sobre redes 2G.
+- Diseño compacto con antenas celulares y GNSS internas para instalaciones discretas en vehículos.
+- Interfaz 1-Wire para sondas DS18B20 y lectura de iButton o etiquetas RFID para identificación de conductores o activos.
+- Soporte Bluetooth Low Energy para conectar balizas y sensores inalámbricos destinados al monitoreo ambiental y de movimiento.
+- Capacidad de inmovilizador remoto para bloqueo del motor, útil en flujos de trabajo antirrobo y control de acceso.
+- Opciones estándar de empaquetado y SKU que facilitan la adquisición y despliegues a escala.
 
 ## Cómo funciona con Plaspy
 
-Cuando se asocia con Plaspy, el FMB110 se convierte en un punto final compacto pero capaz para telemetría de vehículos e inteligencia de ubicación. El dispositivo transmite posiciones GNSS e información de estado a través de GSM a los servidores de Plaspy, donde los datos aparecen en tiempo real en mapas, alertas e informes históricos. Plaspy puede consumir los flujos de telemetría y sensores del rastreador para habilitar la gestión de flotas, acciones anti-robo y monitoreo especializado como el registro de temperatura.
+Al integrarse con Plaspy, el FMB110 actúa como un endpoint telemétrico que transmite ubicación, datos de sensores y estados a la plataforma para su visualización, notificaciones e informes. Plaspy consume esos flujos para ofrecer visibilidad continua y controles operativos sobre la flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: rastrea el movimiento y el estado del vehículo en los paneles de Plaspy.
-- Encendido y bloqueo remoto del motor: monitoriza el estado de encendido y ejecuta comandos del inmovilizador para anti-robo o control de la flota.
-- Monitoreo de temperatura vía 1-Wire: registra y genera alertas ante las lecturas DS18B20 para cadena de frío y protección de activos.
-- Sensores y balizas Bluetooth: integra sensores externos de temperatura, humedad, movimiento o estado de imán en Plaspy mediante BLE.
-- Telemetría para conducción eficiente: proporciona a Plaspy datos de comportamiento del conductor para respaldar iniciativas de monitoreo de combustible y programas de conducción más seguros.
+- Actualizaciones de ubicación y telemetría en tiempo real mostradas en mapas y paneles de Plaspy.
+- Alertas y notificaciones basadas en umbrales de temperatura, eventos de movimiento o lecturas de etiquetas.
+- Acciones de inmovilizador remoto y estado de ignición visibles en Plaspy para control antirrobo y de flota.
+- Informes históricos y registros exportables de temperatura, trayectoria y actividad del dispositivo.
+- Datos de sensores BLE y balizas agregados en Plaspy para monitoreo ambiental y detección de manipulaciones.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 2G GSM \(datos celulares para telemetría y envío de ubicación\) |
-| --- | --- |
-| Bandas | GSM B2 / B3 / B5 / B8 |
-| Alimentación y batería | Alimentado por el vehículo; algunos kits incluyen un cable de alimentación de entrada/salida \(0,9 m\). No se especifica batería interna en la descripción del fabricante. |
-| Interfaces | Interfaz 1-Wire para DS18B20 y iButton/RFID, BLE \(Bluetooth Low Energy\), soporte para bloqueo remoto del motor/inmovilizador; cable micro USB opcional en algunos paquetes. |
-| GNSS | Antena GNSS interna para seguimiento de posición \(los sistemas GNSS exactos no se especifican en la descripción\). |
-| Bluetooth | Soporte BLE para balizas externas y sensores inalámbricos \(temperatura, humedad, movimiento, estado de imán\). |
-| Gestión remota | FOTA Web y Teltonika Configurator para actualizaciones de firmware y configuración remota; Base de conocimientos del fabricante y descargas de firmware disponibles. |
-| Factor de forma | Rastreador de vehículos compacto con antenas internas; empaquetado en paquetes SKU estándar \(10 uds por caja para ciertas configuraciones\). |
-
-## Casos de uso
-
-- Anti-robo de flota e inmovilización: utiliza Plaspy para monitorizar la ubicación y activar el bloqueo remoto del motor si se detecta uso no autorizado.
-- Registro de temperatura en cadena de frío: despliegue de sondas DS18B20 a través de la interfaz 1-Wire y recopilación de telemetría de temperatura en Plaspy para cumplimiento normativo y prevención de pérdidas por deterioro.
-- Car-sharing e identificación del conductor: leer etiquetas iButton/RFID del conductor para gestionar acceso, facturación y registros de uso dentro de Plaspy.
-- Monitoreo de remolques y carga con sensores BLE: empareja balizas BLE externas para detectar humedad, vibración o manipulación magnética y generar alertas en Plaspy.
-- Conducción eficiente y monitoreo básico de combustible: utiliza telemetría y datos de comportamiento del conductor para respaldar iniciativas de eficiencia de combustible y planificación de mantenimiento del vehículo.
+- Anti robo y bloqueo remoto de flotas, donde el bloqueo y la localización en vivo permiten una respuesta rápida.
+- Logística de cadena de frío usando sondas DS18B20 para registro de temperatura y reportes de cumplimiento.
+- Car sharing y control de accesos con identificación de conductor mediante iButton o RFID y seguimiento de actividad.
+- Monitoreo de tráileres y carga con balizas BLE para humedad, vibración o detección magnética de manipulación.
+- Monitoreo básico de comportamiento del conductor y operaciones para apoyar programas de mantenimiento y eficiencia.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El Teltonika FMB110 ofrece un conjunto de características equilibrado para flotas y gestores de activos que requieren un rastreador GPS asequible, compatible con Plaspy y con capacidades telemáticas básicas. Su soporte para seguimiento en tiempo real, detección de temperatura vía 1-Wire, integración de sensores BLE y bloqueo remoto del motor proporcionan los cimientos para la gestión de flotas, protección anti-robo y telemetría de cadena de frío. Con las herramientas FOTA Web y Configurator de Teltonika, además de los recursos del Knowledge Base del fabricante, el FMB110 puede gestionarse y actualizarse de forma remota, simplificando despliegues a gran escala.
+El Teltonika FMB110 ofrece un conjunto concentrado de funciones telemáticas en un formato pequeño, lo que lo convierte en una opción práctica para gestores de flota y activos que necesitan reporte de posición confiable, sensado de temperatura y controles antirrobo básicos. Su compatibilidad con Plaspy permite centralizar datos de seguimiento, alertas e informes históricos sin añadir complejidad innecesaria.
 
-Antes de implementaciones a gran escala, verifique el estado actual de producción y soporte con el equipo de ventas o soporte de Teltonika: la descripción del producto para el FMB110 incluye enlaces de fin de vida y los clientes deben confirmar disponibilidad, soporte de firmware y opciones de embalaje de SKU. Una vez confirmado e integrado con Plaspy, el FMB110 es una opción práctica para organizaciones que buscan un rastreo GPS compacto, telemetría fiable e integración sencilla en los flujos de gestión de flotas.
-
+Si desea saber más sobre cómo Plaspy puede trabajar con el Teltonika FMB110, visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y soporte del fabricante pueden variar con el tiempo, por lo que le recomendamos verificar los detalles actuales y la información de firmware en el sitio oficial de Teltonika https://www.teltonika-gps.com/ antes de desplegar en gran escala.

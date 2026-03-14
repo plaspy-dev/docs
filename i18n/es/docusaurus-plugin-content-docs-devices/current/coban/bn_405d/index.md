@@ -2,60 +2,62 @@
 slug: /coban/bn_405d
 id: bn_405d
 sidebar_label: BN-405D
+title: Coban - BN-405D
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto BN-405D para vehículos, seguimiento fiable de flotas y compatibilidad con Plaspy
+keywords:
+  - coban bn-405d
+  - rastreador bn-405d
+  - bn 405d
+  - rastreador coban
+  - rastreo de flotas
+  - rastreador GPS para vehículos
+  - compatible plaspy
+  - dispositivo telemático
+  - seguimiento de activos
+  - rastreo en tiempo real
 ---
+
 # Coban - BN-405D
 
 ![BN-405D](./tracker.png)
 
-El BN-405D es un rastreador GPS compacto para montaje en vehículo, diseñado para gestión profesional de flotas, logística, construcción y vehículos públicos. Compatible con Plaspy y construido para un seguimiento fiable en tiempo real, el BN-405D combina conectividad celular multi banda 4G/3G/2G con un receptor GNSS de alta sensibilidad para entregar información precisa de posición, telemetría e informes de alarmas en entornos de red mixtos.
+El BN-405D es un rastreador GPS compacto montado en vehículo, diseñado para la gestión profesional de flotas, logística, obra civil y transporte público. Diseñado para ofrecer seguimiento en tiempo real y alta fiabilidad, el BN-405D combina conectividad celular multibanda con un receptor GNSS de alta sensibilidad para entregar posición, telemetría e informes de alarma en entornos de red mixtos. Su factor de forma y conjunto de funciones orientadas a vehículos lo hacen apto para instalación embebida en unidades de 12–24 V usadas en operaciones comerciales.
 
-Diseñado para instalación integrada en vehículos de 12–24V, el BN-405D ofrece un conjunto completo de telemática — desde notificaciones de encendido y ACC hasta corte remoto de combustible y energía y alarmas de emergencia SOS — lo que lo convierte en una opción ideal para anti-robo, optimización de flotas basada en telemetría y seguridad de vehículos automatizada cuando se integra con Plaspy.
+Como dispositivo compatible con Plaspy, el BN-405D puede enviar datos de ubicación y eventos de forma continua a los paneles de Plaspy para brindar visibilidad y supervisión operativa. Al integrarlo con Plaspy, la telemetría y los reportes de alarma del equipo apoyan la optimización de flotas, los flujos de trabajo de seguridad y las alertas automáticas, permitiendo a las organizaciones monitorear vehículos, responder a incidentes y centralizar el seguimiento en una sola plataforma telemática.
 
-## Puntos destacados
+## Puntos clave
 
-- Compatible con Plaspy: se integra vía TCP/UDP o SMS para una configuración rápida con la infraestructura de servidor de Plaspy y paneles de seguimiento en tiempo real.
-- Conectividad celular multi banda \(4G/3G/2G\) para una cobertura estable y roaming sin fisuras entre redes.
-- GNSS de alta precisión con una precisión típica de ~5 m y sensibilidad de −165 dBm para informes de ubicación fiables.
-- Conjunto completo de alarmas: exceso de velocidad, geocerca, aceleración/choque, apertura de puerta, movimiento, batería baja y desconexión de alimentación externa para una sólida protección antirrobo.
-- Cortes remotos de combustible y energía \(inmovilizador vía relé\), armado/desarmado y escucha remota para respuesta de seguridad.
-- Soporte flexible de telemetría y sensores: sensores opcionales de nivel de combustible, temperatura y humedad y hasta ocho cámaras Wi‑Fi para evidencia fotográfica y de video.
-- Diseño de grado vehicular: montaje integrado, formato compacto, batería de respaldo para alertas de manipulación y amplio rango de temperatura de funcionamiento.
+- Compatible con Plaspy y opciones de integración mediante TCP, UDP y SMS para el envío directo a los servidores de Plaspy y una incorporación rápida.
+- Conectividad celular multibanda para cobertura estable y roaming en entornos con redes mixtas.
+- Receptor GNSS de alta sensibilidad con precisión típica de posición alrededor de 5 m para un informe de ubicación confiable.
+- Conjunto completo de alarmas que incluye exceso de velocidad, geocerca, choque, apertura de puertas, movimiento, batería baja y desconexión de alimentación externa para protección antirrobo robusta.
+- Funciones remotas y de seguridad como corte de combustible o de corriente por relé, armado/desarmado y alarma SOS para una respuesta rápida.
+- Soporte de telemetría flexible con opciones de sensor de nivel de combustible y ambientales, además de compatibilidad con módulos de cámara externos y escucha remota.
+- Diseño para uso vehicular pensado para instalación embebida, con factor de forma compacto y capacidad de respaldo para alertas por manipulación.
 
 ## Cómo funciona con Plaspy
 
-La integración del BN-405D con Plaspy proporciona ubicación continua y telemetría de vehículo accionables a tu panel de control de Plaspy. El dispositivo reporta la posición, el estado y las alarmas mediante TCP/UDP o SMS, para que Plaspy pueda mostrar la ubicación en tiempo real, reproducir rutas históricas y activar alertas y flujos de trabajo automatizados para la gestión de flotas y la respuesta ante robo.
+El BN-405D envía posiciones, estados y eventos de alarma a Plaspy para que los gestores de flota puedan ver la ubicación en vivo, reproducir recorridos históricos y activar alertas y flujos de trabajo automatizados. La integración aprovecha los métodos de reporte del dispositivo para alimentar Plaspy con datos continuos y accionables destinados al monitoreo y la respuesta ante incidentes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy mediante los protocolos de transporte TCP, UDP o SMS.
-- Notificaciones de encendido/ACC y los eventos de puerta/apertura/choque permiten a Plaspy correlacionar el comportamiento de conducción con eventos de seguridad.
-- Monitoreo de combustible \(opcional\) integra datos de nivel de combustible en Plaspy para gestión de combustible y detección de robo cuando se acopla un sensor de combustible externo.
-- El inmovilizador remoto y el corte de energía/combustible vía relé permiten el apagado del vehículo iniciado desde Plaspy para la prevención de robos y control de riesgos.
-- La activación automática por Bluetooth admite flujos de armado/desarmado y puede usarse con sensores Bluetooth para ampliar la automatización disparada por Plaspy.
-- Escucha remota, SOS y foto/video \(con cámara Wi‑Fi opcional\) proporcionan captura de evidencias y capacidades de respuesta ante emergencias en Plaspy.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy mediante TCP, UDP o SMS según lo soporte el equipo.
+- Reportes de eventos y alarmas como encendido ACC, apertura de puertas, choques y movimiento que permiten a Plaspy correlacionar el comportamiento de conducción y los incidentes de seguridad.
+- Telemetría opcional de nivel de combustible y sensores que puede integrarse en Plaspy para la gestión de combustible y la detección de sustracciones cuando hay sensores externos instalados.
+- Capacidades de inmovilizador remoto y corte de energía o combustible que permiten acciones iniciadas desde Plaspy para prevención de robos y control de riesgos.
+- Alarmas SOS, escucha remota y evidencia de cámara que apoyan los flujos de trabajo de seguridad e investigaciones de incidentes dentro de Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS/WCDMA/LTE \(4G\) con transporte TCP/UDP/SMS |
-| --- | --- |
-| Bandas | 4G: B1/B2/B3/B4/B5/B7/B8/B28A/B28B/B40; 3G: B1/B2/B3/B5/B8; 2G: 850/900/1800/1900 MHz |
-| Alimentación y batería | Alimentación del vehículo 12–24V; batería de respaldo recargable de 3.7 V, 90 mAh para operación a corto plazo y alertas de manipulación |
-| Interfaces | Varias interfaces de hardware para sensores externos, relés, micrófono externo, cable de extensión con SOS y control remoto; admite cámaras Wi‑Fi opcionales y sensores de combustible/temperatura |
-| GNSS | Receptor GNSS de alta precisión; sensibilidad −165 dBm; precisión típica ~5 m; cold start ~45 s, warm start ~35 s, hot start ~1 s |
-| Bluetooth | Activación automática por Bluetooth para armado/desarmado y flujos de trabajo basados en proximidad |
-| Gestión remota | Configuración de parámetros remota y actualizaciones de firmware vía TCP/UDP; se admite configuración de comandos por SMS |
-| Factor de forma | Terminal compacto para montaje en vehículo, 96 × 54 × 19 mm, ~70 g; diseñado para instalación oculta/embebida |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real de vehículos, reproducción de rutas y telemetría para optimización de despachos y supervisión de conductores.
-- Antirrobo e inmovilización: alarmas instantáneas, corte remoto de combustible/energía y inmovilizador controlado por relé para proteger vehículos de alto valor.
-- Transporte público y vehículos de pasajeros: monitorización de ACC y eventos de puertas, alarma SOS y escucha remota para seguridad y respuesta ante incidentes.
-- Control de combustible y activos: sensores opcionales de nivel de combustible y telemetría para monitorización de combustible y detección de robo.
-- Flotas de construcción y fuera de carretera: monitorización robusta de vehículos, historial de ubicación y estrategias de activación por alarmas para operación intermitente.
+- Gestión de flotas y optimización de despacho con rastreo en vivo y reproducción de rutas para flotas de vehículos comerciales.
+- Protección antirrobo e inmovilización de vehículos de alto valor mediante alarmas y control remoto de relés.
+- Supervisión de seguridad en transporte público y vehículos de pasajeros con visibilidad de eventos ACC y apertura de puertas, y respuesta SOS.
+- Control de combustible y activos usando sensores de combustible opcionales y telemetría para detectar anomalías en el consumo y sustracciones.
+- Seguimiento de flotas de obra y vehículos off road que operan en zonas de cobertura mixta con reportes de alarma robustos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El BN-405D ofrece una combinación equilibrada de conectividad, sensores y funciones de control remoto que lo convierten en una opción sólida para organizaciones que despliegan Plaspy en flotas mixtas. Su soporte multi banda 4G/3G/2G garantiza una cobertura robusta, mientras que el GNSS de alta sensibilidad proporciona fijaciones de posición precisas para un seguimiento en tiempo real y reproducción de rutas de forma efectiva. La lógica de alarmas integrada \(geocerca, exceso de velocidad, choque, puerta, batería baja\) y las capacidades de corte remoto brindan a los operadores de flotas las herramientas de anti-robo y control de riesgos que necesitan, y los módulos opcionales de combustible, temperatura y cámaras amplían la telemetría y la captura de evidencias para flujos de trabajo avanzados.
+El BN-405D ofrece una combinación práctica de conectividad, precisión posicional y funciones orientadas a vehículos que se alinean con las capacidades de monitoreo y seguridad de Plaspy. Su soporte celular multibanda y el receptor GNSS de alta sensibilidad ayudan a mantener un rastreo confiable en distintos escenarios de cobertura, mientras que la lógica de alarmas incorporada y las funciones de control remoto brindan a los operadores herramientas para la respuesta antirrobo y el control operativo.
 
-La integración es sencilla: el BN-405D admite protocolos TCP/UDP/SMS y configuración remota, lo que facilita la incorporación a los servidores de Plaspy y a los paneles centrales de la flota. Para empresas que requieren fiabilidad de grado vehicular, telemetría rica y un formato compacto y embebido, el BN-405D emparejado con Plaspy ofrece una solución escalable y segura para la gestión de flotas, protección anti-robo y telemetría operativa.
+Al integrarse con Plaspy, el BN-405D puede incorporarse rápidamente a paneles centralizados para ofrecer visibilidad en tiempo real, alertas basadas en eventos e informes históricos. Esto lo convierte en una opción adecuada para organizaciones que buscan estandarizar la telemática en flotas mixtas y añadir workflows de seguridad remota y telemetría operativa.
 
+Para conocer más sobre cómo usar el BN-405D con Plaspy visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo por lo que le recomendamos verificar las especificaciones y la documentación actual en el sitio del fabricante https://www.coban.net/ antes de la compra o el despliegue.

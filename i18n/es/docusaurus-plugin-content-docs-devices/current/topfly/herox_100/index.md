@@ -2,60 +2,60 @@
 slug: /topfly/herox_100
 id: herox_100
 sidebar_label: HeroX 100
+title: TopFly - HeroX 100
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS TopFly HeroX 100 cableado compatible con Plaspy para seguimiento preciso de flotas y activos con E/S y sensores BLE
+keywords:
+  - TopFly HeroX 100
+  - HeroX 100
+  - Rastreador TopFly
+  - HeroX 100 Plaspy
+  - Rastreador compatible con Plaspy
+  - seguimiento de flotas
+  - seguimiento de activos
+  - telemetría vehicular
+  - rastreador con sensores BLE
+  - rastreador CAN BUS
 ---
+
 # TopFly - HeroX 100
 
 ![HeroX 100](./tracker.png)
 
-HeroX 100 es un rastreador GPS cableado compatible con Plaspy, diseñado para implementaciones exigentes de seguimiento de vehículos y activos. Con conectividad 4G CAT-1 \(respaldo 2G\), posicionamiento multi‑GNSS y un CEP autónomo &lt;1.5 m, HeroX 100 ofrece un rastreo GPS preciso y telemetría para seguimiento en tiempo real, gestión de flotas y aplicaciones anti‑robo.
+El TopFly HeroX 100 es un rastreador GPS de instalación fija diseñado para implementaciones exigentes de seguimiento de vehículos y activos. Ofrece posicionamiento multi GNSS de alta precisión con un CEP autónomo por debajo de 1,5 m y utiliza conectividad 4G CAT 1 con retroceso a 2G, proporcionando localizaciones y telemetría fiables para seguimiento en tiempo real, gestión de flotas y escenarios antirrobo.
 
-Diseñado para integraciones que requieren entradas/salidas ricas y soporte flexible de sensores, el HeroX 100 combina telemetría CAN BUS \(FMS\) nativa, extensas interfaces digitales/analógicas y conectividad BLE 5.1 de largo alcance con los sensores BLE de TOPFLYtech y de terceros. Cuando se usa con Plaspy, este rastreador se convierte en un dispositivo llave en mano para control remoto de inmovilizador, monitoreo de combustible, identificación del conductor y reporte continuo de posición incluso durante caídas de la red.
+Como dispositivo compatible con Plaspy, el HeroX 100 puede enviar de forma continua posiciones y telemetría a la plataforma para monitorización en vivo, alertas e informes. Su amplio conjunto de opciones de E/S, telemetría CAN BUS y soporte para sensores BLE lo hacen práctico para integraciones como control remoto de inmovilizadores, monitoreo de combustible e identificación de conductores, mientras que el almacenamiento en búfer a bordo preserva el historial durante interrupciones temporales de la red.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy con alta precisión multi-GNSS \(GPS + BeiDou + Galileo + QZSS\) y CEP autónomo &lt;1.5 m para rutas y geocercas precisas.
-- Conectividad celular 4G CAT-1 con respaldo 2G para amplia cobertura de red y transmisión de telemetría segura.
-- Seguimiento en tiempo real con actualizaciones cada 3 segundos y almacenamiento fuera de línea de hasta 49,000 puntos para conservar el historial ante pérdidas de conectividad.
-- Amplias I/O y capacidad de expansión: múltiples I/O digitales, dos salidas de relé, entradas analógicas, puertos RS485, soporte 1‑wire iButton/temperatura y CAN BUS \(FMS\).
-- Soporte BLE 5.1 de largo alcance para temperatura, humedad, sensores de puerta, relés inalámbricos y etiquetas de identificación del conductor—ideal para cadenas de frío y flujos de identificación del conductor.
-- Funciones enfocadas en vehículos: detección de encendido, alertas de desconexión de encendido, entrada SOS, comportamiento de conducción y detección de accidentes mediante accelerómetro de 6 ejes, alarmas de velocidad y de remolque, y detección de interferencia en la red.
-- Telemetría y seguridad de nivel empresarial: protocolos TCP/UDP/MQTT/SMS; opciones de cifrado que incluyen MD5 y AES256; actualizaciones de firmware FOTA para mantenimiento remoto.
-- Hardware robusto y compacto con amplia entrada de alimentación \(DC 5V–32V\), batería interna de respaldo y amplio rango de temperatura de operación para uso en flotas y activos.
+- Rastreador cableado compatible con Plaspy que ofrece posicionamiento multi GNSS preciso con CEP autónomo por debajo de 1,5 m.
+- Conectividad celular 4G CAT 1 con fallback a 2G para amplia cobertura de red y telemetría continua.
+- Amplias E/S y posibilidad de expansión, incluyendo soporte CAN BUS y múltiples interfaces digitales y analógicas para datos y control del vehículo.
+- Soporte BLE 5.1 de largo alcance para emparejar accesorios de temperatura, humedad, puertas e identificación de conductores.
+- Almacenamiento en búfer integrado y reportes de alta frecuencia para mantener el historial durante pérdidas de conectividad y seguimiento ágil.
+- Diseñado para uso vehicular con funciones útiles para antirrobo, inmovilización y monitoreo operativo.
 
 ## Cómo funciona con Plaspy
 
-HeroX 100 se integra con Plaspy para proporcionar datos continuos y accionables de vehículos y activos. El dispositivo transmite posiciones GNSS, telemetría CAN BUS, eventos de I/O y lecturas de sensores BLE a Plaspy mediante protocolos de transporte configurables. Plaspy ingiere esos datos para mapas en tiempo real, alertas, informes y flujos de trabajo automatizados utilizados en la gestión de flotas y operaciones anti‑robo.
+Al conectarlo a Plaspy, el HeroX 100 transmite posiciones GNSS, telemetría del vehículo, eventos de E/S y lecturas de sensores BLE a la plataforma, donde esos datos se normalizan para mapas, alertas e informes. Plaspy utiliza las señales entrantes para ofrecer visibilidad de flota en tiempo real, flujos de trabajo automáticos y análisis histórico que apoyan a equipos operativos y a procesos de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real, configurables hasta cada 3 segundos para un seguimiento de flota y despacho rápidos.
-- Alertas de encendido, encendido/apagado y desconexión — Plaspy puede activar flujos de trabajo, notificaciones al conductor o indicadores de mantenimiento a partir de estos eventos.
-- Telemetría de combustible y del vehículo a través de CAN BUS \(FMS\) — utilice paneles de Plaspy para monitorear el consumo de combustible, el odómetro, las RPM y otros datos del vehículo cuando estén disponibles.
-- Control remoto del inmovilizador y relé — las salidas digitales del dispositivo permiten cortar el motor de forma remota y acciones anti‑robo gestionadas mediante comandos de Plaspy.
-- Sensores Bluetooth — lectura de temperatura, humedad, sensores de puerta y ID del conductor desde accesorios BLE son transmitidos a Plaspy para monitoreo de la cadena de frío y auditoría de accesos.
-- Detección de colisiones y alertas de seguridad — eventos del acelerómetro interno de 6 ejes y entradas SOS generan alarmas inmediatas en Plaspy para una respuesta rápida.
+- Actualizaciones de ubicación en tiempo real y visualización en mapa para despacho y monitoreo, configurables según sus necesidades de reporte.
+- Alertas por encendido, desconexión y eventos SOS, que permiten a Plaspy activar notificaciones o respuestas operativas.
+- Telemetría vehicular vía CAN BUS e entradas analógicas disponible en los paneles de Plaspy para datos de combustible, odómetro y motor cuando el vehículo lo proporciona.
+- Control remoto de relés e inmovilizadores gestionado desde Plaspy usando las salidas del dispositivo para flujos de trabajo de antirrobo y control de acceso.
+- Integración de sensores BLE para datos de temperatura e identificación de conductor enviados a Plaspy para monitoreo de cadena de frío y auditoría de accesos.
+- Sincronización de datos almacenados en búfer tras cortes, de modo que Plaspy conserva un historial continuo y líneas de tiempo de eventos precisas.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G CAT-1 con respaldo 2G |
-| --- | --- |
-| GNSS | GPS + BeiDou + Galileo + QZSS; rápido tiempo para la primera fijación; CEP autónomo &lt;1.5 m; informes con la frecuencia de cada 3 segundos; almacenamiento en búfer de hasta 49,000 puntos |
-| Alimentación y batería | Entrada externa DC 5V–32V; batería interna de respaldo Li‑Polímero \(200 mAh\) |
-| Interfaces | Múltiples I/O digitales \(entradas positivas y negativas\), dos salidas digitales para control de relé, dos entradas analógicas \(configurables como digitales\), dos puertos RS485, 1‑wire para sensor de temperatura y iButton de identificación de conductor \(hasta 8 canales\), CAN BUS \(FMS\), USB Tipo‑C para configuración |
-| Bluetooth | BLE 5.1 de largo alcance; compatible con accesorios BLE de TOPFLYtech y dispositivos BLE de terceros |
-| Sensores y seguridad | Acelerómetro interno de 6 ejes para comportamiento de conducción y detección de accidentes; compatibilidad de entrada SOS; detección de interferencia de red; alarmas de velocidad y de remolque |
-| Protocolos y seguridad | TCP, UDP, MQTT, SMS; opciones de cifrado incluyendo MD5 y AES256; actualizaciones de firmware FOTA |
-| Almacenamiento y extras | MicroSD opcional de hasta 128 GB; antena externa opcional y ranura para tarjeta SD para grabación de video |
-| Forma y entorno | Compacto: 84,5 × 69,7 × 21,8 mm; protección IP41; rango de temperatura de operación −30°C a +80°C |
-
-## Casos de uso
-
-- Gestión de flotas y telemetría — ubicación en tiempo real, datos de combustible y del vehículo vía CAN BUS, insights sobre el comportamiento del conductor y generación de informes programados para la optimización de rutas.
-- Anti‑robo e inmovilización — salidas de relé y control remoto vía Plaspy permiten flujos de trabajo de inmovilizador, alertas de manipulación y notificaciones de encendido/desconexión.
-- Monitoreo de la cadena de frío — empareje sensores BLE de temperatura y humedad para mantener y reportar las condiciones de la carga sensibles a la temperatura a Plaspy.
-- Identificación del conductor y control de acceso — iButton 1‑wire y etiquetas BLE de conductor para asignación automatizada de conductores, registro y seguimiento de cumplimiento.
-- Activos y equipos especializados — RS485, entradas analógicas y conectividad CAN para telemetría personalizada e integraciones de sensores de terceros para vehículos industriales y remolques.
+- Gestión de flotas y optimización de rutas con seguimiento en vivo e informes programados.
+- Flujos de trabajo antirrobo e inmovilización que coordinan control remoto de relés y alertas por manipulación.
+- Monitoreo de cadena de frío con sensores BLE de temperatura y humedad, con alertas y registros en la plataforma.
+- Identificación y registro de conductores para cumplimiento y asignación de turnos usando etiquetas BLE o 1-wire.
+- Monitoreo de activos y equipos especializados que requieren telemetría analógica, RS485 o basada en CAN.
 
 ## Por qué elegir este rastreador con Plaspy
 
-HeroX 100 es un rastreador GPS compacto y rico en funciones, diseñado para transportistas, operadores de flotas e integradores que necesitan hardware fiable compatible con Plaspy, con telemetría profunda y capacidades de I/O. Su rápida posición multi‑GNSS, conectividad 4G CAT‑1 con respaldo 2G, interfaces amplias y soporte para accesorios BLE lo hacen versátil para gestión de flotas, configuraciones de inmovilización anti‑robo, monitoreo de combustible y aplicaciones de cadena de frío. El almacenamiento en búfer integrado garantiza un seguimiento continuo ante lagunas de red, mientras FOTA, transporte cifrado y control remoto de salidas simplifican la implementación y el mantenimiento a gran escala. Cuando se empareja con Plaspy, HeroX 100 transforma datos a nivel de dispositivo en información operativa y flujos de trabajo seguros para una mejor visibilidad, seguridad y control de costos.
+El HeroX 100 es un rastreador compacto y lleno de funciones, ideal para transportistas, operadores de flota e integradores de sistemas que requieren un dispositivo compatible con Plaspy con telemetría profunda y E/S flexibles. Su combinación de posicionamiento multi GNSS preciso, conectividad celular resistente y soporte para accesorios lo hace apropiado para flotas mixtas y proyectos de seguimiento de activos donde la telemetría continua y el control remoto son críticos.
 
+Para conocer más sobre cómo Plaspy puede usar datos a nivel de dispositivo de modelos como el TopFly HeroX 100, visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que verifique los detalles técnicos y las opciones de accesorios actuales con el fabricante en https://www.topflytech.com/.

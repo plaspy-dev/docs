@@ -2,64 +2,62 @@
 slug: /minifinder/zepto
 id: zepto
 sidebar_label: Zepto
+title: MiniFinder - Zepto
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD2 MiniFinder Zepto compacto compatible con Plaspy para seguimiento vehicular y de flotas en tiempo real
+keywords:
+  - MiniFinder Zepto
+  - rastreador GPS Zepto
+  - MiniFinder Zepto Plaspy
+  - rastreador OBD2 Zepto
+  - rastreador vehicular Zepto
+  - seguimiento de flotas Zepto
+  - seguimiento en tiempo real Zepto
+  - rastreador MiniFinder
+  - geocercas Zepto
+  - registros de viajes Zepto
 ---
+
 # MiniFinder - Zepto
 
 ![Zepto](./tracker.png)
 
-El MiniFinder Zepto es un rastreador GPS OBD2 compacto, de instalación plug-and-play, diseñado para un seguimiento discreto de vehículos y una monitorización continua en tiempo real. Compatible con Plaspy desde el primer momento, Zepto ofrece un posicionamiento preciso de múltiples constelaciones y una conectividad constante para coches privados y operaciones de flota. Su pequeño factor de forma y montaje interno reducen el riesgo de ser detectado frente a rastreadores magnéticos externos, al tiempo que proporcionan la ubicación en tiempo real y la telemetría que exigen los flujos de trabajo modernos de gestión de flotas y anti-robos.
+El MiniFinder Zepto es un rastreador GPS compacto tipo OBD2, plug and play, diseñado para el seguimiento vehicular discreto y la monitorización continua en tiempo real. Pensado para montaje interno y uso normal del vehículo, Zepto ofrece ubicación en vivo y telemetría adecuada tanto para autos particulares como para vehículos de flota. Su tamaño reducido y la alimentación constante desde el vehículo lo hacen práctico para despliegues a largo plazo donde la discreción y la conectividad permanente son prioridades.
 
-Diseñado para funcionar desde el puerto OBD del vehículo \(10–30V DC\), Zepto no requiere carga por parte del usuario y mantiene un flujo de datos continuo hacia Plaspy u otras plataformas compatibles. Un rendimiento GNSS robusto, viajes históricos almacenados, geocercas configurables y alarmas de eventos hacen de Zepto una opción práctica para empresas y conductores que necesitan un seguimiento fiable, diarios de viaje compatibles con la normativa fiscal y reproducción para análisis post-incidente.
+Zepto es compatible con Plaspy desde el primer momento, lo que permite enviar ubicación y telemetría proveniente del OBD directamente a la plataforma Plaspy para visibilidad en tiempo real, alertas e informes históricos. Esa compatibilidad convierte a Zepto en una opción eficiente para organizaciones que desean un rastreador de bajo mantenimiento que alimente datos a Plaspy para la gestión de flotas, procesos antirobo y registro de viajes.
 
 ## Aspectos clave
 
-- Rastreador GPS compatible con Plaspy para una integración fluida en su panel de seguimiento en tiempo real y flujos de gestión de flotas.
-- GNSS de múltiples constelaciones \(GPS, GLONASS, Galileo, BeiDou, AGPS\) con una precisión típica al aire libre de 0–5 m para una localización y telemetría precisas.
-- Conexión OBD2 plug-and-play \(10–30V DC\) — alimentación continua desde la batería del vehículo y no se requiere carga por parte del usuario.
-- Factor de forma pequeño e interno \(67 × 49 × 25 mm\) que es sencillo de ocultar para una mayor protección anti-robos.
-- Cobertura celular global en LTE: B1/B3/B7/B8/B20/B28 y GSM: B2/B3/B5/B8 — apta para más de 190 países.
-- Informes de eventos y operación de emergencia breve respaldados por una batería interna de respaldo de 170 mAh en caso de pérdida de energía del vehículo.
-- Conjunto de funciones para uso en flotas: registro de viajes históricos, geocercas, alertas de exceso de velocidad, alarmas de movimiento y sabotaje, y acceso multiusuario.
+- Conexión OBD2 plug and play para seguimiento con alimentación continua del vehículo sin necesidad de recarga por parte del usuario.
+- GNSS multi-constelación para posicionamiento preciso en exteriores y actualizaciones de ubicación fiables.
+- Factor de forma pequeño para montaje interno discreto y menor riesgo de descubrimiento.
+- Batería interna de respaldo para reportes de emergencia cortos en caso de interrupción de la alimentación del vehículo.
+- Registro histórico de recorridos y geocercas configurables para reproducción y reportes de cumplimiento.
+- Alarmas por eventos como exceso de velocidad, movimiento y manipulación para soportar flujos de trabajo de flota y antirobo.
 
 ## Cómo funciona con Plaspy
 
-Al combinarse con Plaspy, el MiniFinder Zepto transmite la ubicación y la telemetría derivada de OBD a su cuenta de Plaspy para visibilidad en tiempo real, alertas e informes históricos. La integración compatible con Plaspy permite a gestores de flotas y usuarios privados ver la posición en vivo, reproducir viajes y recibir alarmas configurables. La interfaz OBD de Zepto proporciona alimentación provista por la batería del vehículo y la capacidad de capturar eventos de conducción; Plaspy procesa dichos eventos y los presenta como insights accionables en dispositivos móviles y en la web.
+Al integrarlo con Plaspy, el MiniFinder Zepto transmite la posición en tiempo real y los eventos derivados del OBD a su cuenta de Plaspy, de modo que los equipos pueden monitorear vehículos en vivo, recibir alertas y generar informes. Plaspy presenta estos datos entrantes en paneles y vistas de reproducción para apoyar la toma de decisiones operativas y la revisión de incidentes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para visibilidad inmediata y paneles de seguimiento en vivo.
-- Estado de Ignición y alarmas — Plaspy puede mostrar eventos de ignición o alarmas cuando estas señales están disponibles a través de la interfaz OBD del vehículo.
-- Monitorización de combustible: cuando los datos de combustible son expuestos por el sistema OBD del vehículo o a través de sensores externos compatibles, Plaspy puede incorporar métricas de combustible en los informes; Zepto reporta horas de motor y registros de viaje según lo suministrado por la entrada OBD.
-- Inmovilizador remoto: Plaspy admite flujos de trabajo de inmovilización cuando el rastreador y el vehículo permiten ese control; Zepto se centra en datos y eventos provenientes de OBD, por lo que confirme la capacidad de inmovilización para casos de uso específicos.
-- Sensores Bluetooth: Plaspy admite sensores Bluetooth cuando se emparejan con rastreadores compatibles; las especificaciones publicadas de Zepto no mencionan Bluetooth en el equipo a bordo, por lo que el soporte de sensores Bluetooth depende de la arquitectura del sistema más amplia o de las opciones de accesorios.
+- Entregar actualizaciones de ubicación en tiempo real a Plaspy para paneles de seguimiento y vistas de mapa.
+- Activar alertas configurables por geocerca y por eventos dentro de Plaspy para notificar de inmediato incidentes relevantes.
+- Reproducir recorridos históricos y acceder a registros de trayectos almacenados para análisis posterior a incidentes y reportes de cumplimiento.
+- Mostrar eventos provenientes del OBD, como encendido o señales de alarma, en Plaspy cuando esas señales estén disponibles en la alimentación del vehículo.
+- Incluir datos de viaje y horas de motor en los informes de Plaspy para apoyar diarios de kilometraje y auditorías operativas.
+- Soportar flujos de trabajo y acceso para múltiples usuarios para que gerentes y responsables trabajen con los mismos datos rastreados.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Fabricante y modelo | MiniFinder Zepto |
-| --- | --- |
-| Conectividad | Celular LTE y GSM \(ver bandas\) |
-| Bandas | LTE: B1/B3/B7/B8/B20/B28; GSM: B2/B3/B5/B8 |
-| Alimentación y batería | Entrada de alimentación OBD 10–30V DC; batería interna de respaldo de 170 mAh para informes de eventos ante la pérdida de energía |
-| Interfaces | Conexión OBD2 plug-and-play \(puerto OBD del vehículo\) |
-| GNSS | GPS, GLONASS, GALILEO, BEIDOU, AGPS — precisión típica al aire libre 0–5 m; sensibilidad GPS –165 dB |
-| Indicadores LED | LEDs duales que indican el estado de GPS y LTE |
-| Almacenamiento | Historial de seguimiento almacenado por hasta un año para historia e informes |
-| Condiciones de operación | Dimensiones 67 × 49 × 25 mm; peso 63 g; temperatura de operación –40°C a +85°C; humedad 5–95% |
-| Garantía | Garantía de 5 años |
-| Gestión remota y plataforma | Gestionado a través de las plataformas móviles y web de MiniFinder GO; compatible con Plaspy \(integración para seguimiento en tiempo real e informes\) |
-| Factor de forma y uso | Diseño compacto plug-and-play OBD para coches, camiones, autobuses, remolques, motocicletas, excavadoras y embarcaciones |
-| Accesorios | Adaptador de alimentación OBD opcional y cable de extensión OBD |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real continuo y registros de viajes históricos para optimizar rutas, cumplimiento y análisis del rendimiento del conductor.
-- Protección anti-robos: instalación discreta en OBD y alarmas de movimiento/sabotaje proporcionan alertas rápidas ante sospecha de robo o movimiento no deseado.
-- Diarios de viaje del conductor y conformidad fiscal: generación automática de diarios electrónicos de conducción para informes de kilometraje y registros fiscales cuando se usa con plataformas compatibles.
-- Equipos y flotas de vehículos mixtos: instálelo en coches, camiones, autobuses, remolques, motocicletas, excavadoras y embarcaciones para centralizar telemetría y ubicación en Plaspy.
-- Informes operativos: informes de uso por área y por periodo, horas de motor y marcadores de eventos que apoyan la planificación de mantenimiento y revisiones de utilización.
+- Gestión de flotas para seguimiento continuo, optimización de rutas y revisión del desempeño del conductor.
+- Protección antirobo mediante instalación discreta, alarmas de movimiento y manipulación, y alertas rápidas.
+- Diarios de viaje para conductores y registro de kilometraje conforme a requisitos fiscales usando registros de trayectos y reproducción.
+- Supervisión de flotas mixtas que incluyen autos, camiones y autobuses, centralizando la telemetría en Plaspy.
+- Informes operativos para planificación de mantenimiento a partir del historial de viajes y resúmenes de horas de motor.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el MiniFinder Zepto como rastreador GPS compatible con Plaspy ofrece a las organizaciones y a los propietarios privados una solución OBD fiable y de bajo perfil para una ubicación precisa, telemetría continua y generación de informes a largo plazo. El GNSS de múltiples constelaciones del Zepto y su amplio soporte de bandas celulares ayudan a garantizar una cobertura constante y una ubicación de alta precisión en distintas regiones, mientras que su diseño alimentado por OBD elimina la necesidad de recargas por parte del usuario y reduce la carga de mantenimiento. Para casos de gestión de flotas y uso anti-robos, las alarmas de movimiento y sabotaje, las geocercas y las alertas de exceso de velocidad alimentan directamente a Plaspy para alertas rápidas y paneles unificados.
+El MiniFinder Zepto es una opción práctica para empresas y usuarios particulares que buscan un rastreador discreto alimentado por el vehículo que se conecte directamente a Plaspy para monitorización en vivo e informes históricos. Su diseño OBD2 plug and play reduce la necesidad de mantenimiento, mientras que el posicionamiento multiconstelación y el amplio soporte celular ayudan a mantener una cobertura consistente en muchas regiones. Alimentar los datos de Zepto en Plaspy permite paneles unificados, alertas configurables y herramientas de reproducción que simplifican la supervisión de flotas y el análisis de incidentes.
 
-Los equipos operativos se benefician de un historial almacenado \(hasta un año\), acceso multiusuario y la capacidad de generar diarios de conducción e informes de horas de motor sin necesidad de hardware adicional. Si su implementación requiere monitorización de combustible, control de inmovilizador o integración con sensores Bluetooth, verifique esas capacidades específicas dentro de la configuración más amplia de Plaspy o del ecosistema de accesorios: Zepto se centra en el seguimiento y telemetría obtenidos por OBD y se integra de forma fluida en plataformas que admiten estos flujos de trabajo avanzados.
+Si su implementación requiere integraciones más avanzadas, como sensores externos o control de inmovilizador, verifique esas capacidades específicas para su vehículo y las opciones de accesorios. Zepto se enfoca en el seguimiento y la notificación de eventos provenientes del OBD e integra esos flujos de datos en los procesos de Plaspy que dependen de dichas señales.
 
+Para obtener más información sobre Plaspy y cómo puede gestionar dispositivos MiniFinder Zepto visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, así que confirme los detalles y la compatibilidad actuales en el sitio del fabricante https://minifinder.se/.

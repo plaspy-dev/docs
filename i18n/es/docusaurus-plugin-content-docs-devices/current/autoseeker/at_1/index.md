@@ -2,51 +2,61 @@
 slug: /autoseeker/at_1
 id: at_1
 sidebar_label: AT-1
+title: Autoseeker - AT-1
 sidebar_class_name: menu_item_tracker
+description: Mini rastreador GPS 4G resistente al agua compatible con Plaspy para seguimiento en tiempo real alertas por geocerca y larga duración de batería
+keywords:
+  - Autoseeker AT-1
+  - Rastreador GPS AT-1
+  - Rastreador Autoseeker
+  - Rastreador AT-1 resistente al agua
+  - Rastreador CAT M1
+  - Rastreador NB IoT
+  - Rastreador GPS para niños
+  - dispositivo de rastreo para mascotas
+  - Rastreador compatible con Plaspy
+  - rastreador compacto de ubicación
 ---
+
 # Autoseeker - AT-1
 
 ![AT-1](./logo..jpg)
 
-El Autoseeker AT-1 es un mini rastreador GPS resistente al agua con tecnología 4G CAT M1, que ofrece un bajo consumo de energía y una transmisión de datos optimizada a bajo costo. Con una clasificación de resistencia al agua IP68, este rastreador es perfecto para el seguimiento de mascotas, niños y personas mayores. Los padres o dueños de mascotas pueden rastrear fácilmente la unidad a través de su teléfono inteligente, incluso a distancia. El AT-1 cuenta con un sistema de posicionamiento GPS profesional que proporciona información precisa sobre la ubicación.
+El Autoseeker AT-1 es un rastreador GPS compacto e impermeable 4G, diseñado para seguimiento personal y de activos ligeros. Combina un tamaño reducido y clasificación IP68 con un módulo GNSS profesional para proporcionar ubicaciones precisas. El AT-1 funciona con batería recargable y ofrece varios modos de operación, incluyendo seguimiento en tiempo real, registro de historial y alertas por geocerca, lo que lo hace adecuado para supervisar a niños, adultos mayores, mascotas y otros activos móviles pequeños.
 
-Con 8 modos de trabajo diferentes, incluido el seguimiento en tiempo real y el seguimiento histórico, el Autoseeker AT-1 ofrece una funcionalidad versátil. También cuenta con una duración de batería de un año en espera, lo que garantiza un rendimiento duradero. La función de geovalla permite a los usuarios establecer límites virtuales y recibir alertas cuando el rastreador entra o sale del área designada. En caso de emergencia, el AT-1 está equipado con un botón de SOS para obtener ayuda inmediata.
+Como dispositivo compatible con Plaspy, el AT-1 puede enviar datos de ubicación y estado a la plataforma Plaspy para visibilidad en vivo y revisión histórica. Su diseño de bajo consumo y su compatibilidad con tecnologías celulares de amplio alcance lo convierten en una opción práctica cuando la duración de la batería y el rendimiento en exteriores son prioritarios. Al integrarse con Plaspy, el AT-1 extiende las capacidades de la plataforma hacia escenarios de rastreo personal y monitoreo de activos ligeros.
 
-El Autoseeker AT-1 funciona con una batería recargable con una capacidad de 650mAh. Tiene un amplio rango de voltaje de funcionamiento de DC 3.1V-4.2V y consume poca energía, lo que lo hace eficiente en términos de consumo energético. El rastreador está construido con una carcasa duradera de plástico ABS y tiene una clasificación IP68, que proporciona protección contra el agua y el polvo. También es compatible con varias frecuencias, incluidas Cat M1 \(LTEM.eMTC\), NB-loT \(Cat NB1\) y GSM.
+## Características principales
 
-### Características destacadas:
+- Diseño pequeño y ligero con dimensiones aproximadas de 46 x 41 x 16 mm y peso cercano a 36 g para colocación discreta
+- Carcasa con certificación IP68 para uso fiable en exteriores y condiciones húmedas
+- Batería recargable con escenarios de uso que van desde reportes frecuentes durante horas hasta modos de espera extendidos para actualizaciones periódicas
+- Múltiples modos de operación, incluyendo seguimiento en tiempo real y reproducción de historial para diferentes necesidades de monitoreo
+- Posicionamiento preciso gracias a módulo Qualcomm GNSS
+- Soporta tecnologías celulares de área amplia para alcance de red amplio
+- Función de geocerca para alertas de entrada y salida en zonas predefinidas
 
-- Rastreador GPS mini resistente al agua
-- Utiliza tecnología 4G CAT M1 para un bajo consumo de energía y una transmisión de datos optimizada
-- Clasificación de resistencia al agua IP68
-- Sistema de posicionamiento GPS profesional para un seguimiento preciso de la ubicación
-- 8 modos de trabajo diferentes, incluido el seguimiento en tiempo real y el seguimiento histórico
-- Duración de batería de un año en espera
-- Función de geovalla para establecer límites virtuales
-- Botón de SOS para obtener ayuda inmediata
-- Batería recargable con una capacidad de 650mAh
-- Carcasa duradera de plástico ABS
-- Compatible con las frecuencias Cat M1, NB-loT y GSM
+## Cómo funciona con Plaspy
 
-### Especificaciones técnicas:
+Al conectarse a Plaspy, el Autoseeker AT-1 transmite sus actualizaciones de ubicación y estado a la plataforma, donde los equipos pueden supervisar movimientos, revisar historial y recibir alertas. Plaspy procesa los datos del dispositivo y los muestra en paneles y reportes que facilitan la supervisión operativa y la seguridad.
 
-- Modo de alimentación: Alimentado por batería \(recargable\)
-- Rango de voltaje de funcionamiento: DC 3.1V-4.2V
-- Corriente de trabajo: 4V / promedio 37mA
-- Corriente en espera: 4V / promedio 4.5uA
-- Corriente en reposo: 4V / promedio 2.2uA
-- Capacidad de la batería incorporada: 650mAh \(batería de polímero de 3.7V\)
-- Rango de temperatura de funcionamiento: -20°C a 75°C
-- Rango de temperatura de almacenamiento: -30°C a 80°C
-- Rango de temperatura de funcionamiento: 10% -85% HR sin condensación
-- Marca / modelo de chip del módulo de posicionamiento: Receptor GNSS Qualcomm Gen 8C
-- Tiempo de inicio en frío: 32 segundos en promedio
-- Tiempo de inicio en caliente: 1 segundo en promedio
-- Sensibilidad \(seguimiento\): -162DBM
-- Antena de posicionamiento: Antena incorporada
-- Dimensiones: Tamaño: 46 \* 41 \* 16 mm, Peso: 36 g
-- Material de la carcasa: Plástico ABS
-- Clasificación IP: IP68
-- Consumo de batería: 1 día/dato \(la batería puede funcionar durante 1 año\), 10 segundos/dato \(la batería puede funcionar durante 28 horas\), un minuto/dato \(la batería puede funcionar durante 39 horas\)
-- Frecuencia de soporte: Cat M1 \(LTEM.eMTC\) B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B26/B28/B39, NB-loT \(Cat NB1\) B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B26/B28, GSM: 850/900/1800/1900Mhz
+- Visualización de ubicación en tiempo real en Plaspy para visibilidad continua de la unidad rastreada
+- Alertas por geocerca en Plaspy para notificar cuando el rastreador entra o sale de zonas configuradas
+- Registro de historial y reproducción de rutas en Plaspy para revisión de incidentes y análisis de movimientos
+- Informes de estado del dispositivo para evaluar condición de batería y presencia en línea
+- Notificaciones y alertas configurables para mantener informados a los equipos sobre eventos importantes
+- Reportes agregados para obtener información operativa cuando se despliegan múltiples unidades AT-1
 
+## Casos de uso típicos
+
+- Supervisión de la ubicación de niños durante salidas o desplazamientos
+- Rastreo de adultos mayores o personas con necesidades médicas para mayor seguridad
+- Localización y control de mascotas cuando está fuera de casa
+- Seguimiento discreto de pequeños activos o pertenencias personales que requieren comprobaciones periódicas de ubicación
+- Control de equipos en alquiler a corto plazo o compartidos donde se prefieren dispositivos compactos e impermeables
+
+## Por qué elegir este rastreador con Plaspy
+
+El Autoseeker AT-1 es una opción práctica para familias y organizaciones que necesitan un rastreador pequeño, resistente a la intemperie y con modos de reporte flexibles. Su combinación de tamaño compacto, potencial de larga espera y precisión de posicionamiento estándar lo hace adecuado para escenarios de seguridad personal y monitoreo de activos ligeros. Integrado en Plaspy, el AT-1 forma parte de un flujo de trabajo completo de monitoreo y generación de reportes, permitiendo a los equipos recibir alertas, revisar historial de ubicaciones y gestionar unidades a escala.
+
+Aunque el AT-1 aporta atributos útiles para rastreo personal y comercial ligero, los requisitos de despliegue varían según el caso de uso. Conozca más sobre cómo Plaspy puede integrar dispositivos como el Autoseeker AT-1 y apoyar sus necesidades de rastreo visitando https://www.plaspy.com. Para especificaciones, disponibilidad y documentación del fabricante, verifique los detalles en el sitio oficial de Autoseeker https://autoseekergps.com/

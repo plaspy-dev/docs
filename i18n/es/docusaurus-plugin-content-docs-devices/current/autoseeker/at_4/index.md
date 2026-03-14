@@ -2,59 +2,59 @@
 slug: /autoseeker/at_4
 id: at_4
 sidebar_label: AT-4
+title: Autoseeker - AT-4
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS para mascotas Autoseeker AT-4 compatible con Plaspy, resistente IP67, batería de larga duración, alertas de geocerca y llamadas bidireccionales
+keywords:
+  - Autoseeker AT-4
+  - AT-4 rastreador GPS
+  - AT-4 rastreador para mascotas
+  - rastreador Autoseeker
+  - dispositivos compatibles con Plaspy
+  - rastreador 4G para mascotas
+  - rastreador GPS para animales
+  - rastreador con geocerca
+  - rastreador GPS de larga autonomía
+  - seguimiento de mascotas al aire libre
 ---
+
 # Autoseeker - AT-4
 
 ![AT-4](./tracker.jpg)
 
-El AT-4 es un localizador GPS para mascotas diseñado específicamente para un seguimiento fiable y de larga duración de animales de mayor tamaño. Como dispositivo compatible con Plaspy, el AT-4 ofrece posicionamiento preciso, larga autonomía y interacción directa con el propietario mediante llamadas bidireccionales y monitorización de voz remota — convirtiéndolo en una opción sólida para dueños, criadores y cuidadores que necesitan un seguimiento en tiempo real fiable en entornos exteriores y de campo abierto.
+El Autoseeker AT-4 es un rastreador GPS para mascotas diseñado en 4G CAT 1 para ofrecer seguimiento confiable y de larga duración en animales de mayor tamaño. Combina una carcasa ABS resistente con certificación IP67 con una batería recargable de alta capacidad de 3000 mAh y funciones prácticas como alarmas por geocerca, luz de búsqueda, zumbador audible, llamadas bidireccionales y monitorización remota de voz para soportar uso continuo en exteriores y una interacción sencilla por parte del propietario.
 
-El AT-4 combina una durabilidad exterior robusta \(carcasa ABS con clasificación IP67\), una batería recargable de 3000mAh de alta capacidad y una amplia cobertura celular en bandas 4G LTE-FDD y GSM de respaldo para mantener flujos de ubicación y actualizaciones de estado hacia aplicaciones y plataformas para smartphones que aceptan rastreadores GPS/GSM estándar. Su conjunto de características — alarmas por geocerca, alertas de batería baja, reproducción de historial, linterna de búsqueda integrada y zumbador audible — se integra a la perfección con la plataforma de Plaspy para notificaciones instantáneas, revisión de rutas y monitorización remota de mascotas en el campo.
+Como dispositivo compatible con Plaspy, el AT-4 transmite posicionamiento y estados a plataformas que aceptan rastreadores GPS GSM estándar, por lo que resulta adecuado para usuarios que desean monitorizar animales en tiempo real usando Plaspy. Su combinación de mayor autonomía en espera, robustez para exteriores y funciones orientadas al propietario lo hace idóneo para integrarse en los flujos de trabajo de Plaspy para monitoreo, alertas y revisión de historial en entornos de campo y áreas abiertas.
 
-## Key Highlights
+## Puntos destacados
 
-- Largo tiempo de batería: batería de polímero recargable de 3000mAh ofrece hasta 30–31 days de autonomía en standby para despliegues prolongados sin recargas frecuentes.
-- Compatible con Plaspy: Envía seguimiento en tiempo real y actualizaciones de estado a través de 4G LTE-FDD a plataformas y apps para smartphones que aceptan rastreadores GPS/GSM estándar.
-- Llamadas bidireccionales y monitorización de voz remota: Contacto vocal directo y monitorización pasiva ayudan a los propietarios a tranquilizar o revisar a su animal desde la distancia.
-- Construcción exterior duradera: carcasa de ABS con clasificación IP67 que resiste polvo y exposición al agua durante actividades al aire libre.
-- Búsqueda nocturna y alertas: la luz de búsqueda integrada y el zumbador ayudan a localizar a los animales durante la noche o en condiciones de poca visibilidad.
-- Geocerca y reproducción de historial: Defina límites virtuales y revise el historial detallado de las rutas para respaldar la seguridad y los flujos de entrenamiento.
-- Cobertura celular amplia: Soporte multi-banda 4G LTE-FDD y GSM garantiza conectividad en diversas regiones.
+- Diseñado para uso exterior con carcasa ABS con clasificación IP67 para protección contra polvo y agua.
+- Batería recargable de alta capacidad de 3000 mAh para prolongados periodos de autonomía entre cargas.
+- Conectividad 4G LTE FDD con retroceso a GSM para mantener amplia cobertura celular en actualizaciones de posición.
+- Herramientas de interacción con el propietario como llamadas bidireccionales y monitorización remota de voz para contacto directo.
+- Ayudas para búsqueda nocturna con luz integrada y zumbador audible para localizar animales con poca visibilidad.
+- Alarmas por geocerca y reproducción de historial para apoyar en seguridad, recuperación y análisis de comportamiento.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el AT-4 transmite datos de posición y estado a través de su enlace celular hacia la plataforma para que propietarios y operadores puedan monitorear a los animales en tiempo real, recibir alarmas y revisar el historial de telemetría. Plaspy ingiere la ubicación del dispositivo y los mensajes de eventos para alimentar mapas en tiempo real, notificaciones de geocerca y reproducción de historial, lo que facilita incorporar el AT-4 en flujos de trabajo para la seguridad de las mascotas y la gestión de campo.
+Cuando usted lo conecta a Plaspy, el AT-4 entrega información de ubicación y eventos a través de su enlace celular para que propietarios y operadores puedan ver posiciones en vivo, recibir notificaciones y revisar recorridos anteriores. Plaspy procesa las actualizaciones del dispositivo para ofrecer visualización en mapa, alertas por geocerca y reproducción del historial junto con otros dispositivos gestionados en la plataforma.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a través de 4G LTE-FDD a apps y paneles compatibles con Plaspy.
-- Las llamadas bidireccionales y la monitorización de voz remota permiten contacto de audio en tiempo real y escucha pasiva a través del dispositivo.
-- Soporte de alarma de geocerca con notificaciones inmediatas cuando un animal sale de un área definida.
-- Alertas de batería baja y funciones de monitorización remota para mantener la supervisión y reducir el tiempo de inactividad.
-- Reproducción de historial para revisión de rutas y análisis de comportamiento a lo largo del tiempo.
+- Actualizaciones de ubicación en vivo y mensajes de estado visibles en los mapas y paneles de Plaspy para supervisión en tiempo real.
+- Entrega de alarmas por geocerca para notificar cuando un animal sale o reingresa a áreas predefinidas.
+- Notificaciones de batería baja para ayudar a mantener el tiempo operativo del dispositivo y programar recargas.
+- Reproducción de historial para revisar rutas y realizar análisis postevento dentro de los informes de Plaspy.
+- Uso de llamadas bidireccionales y monitorización remota de voz para contacto de audio inmediato cuando sea necesario.
 
-## Resumen técnico
+## Casos típicos de uso
 
-| Conectividad | 4G LTE-FDD \(CAT 1\); conmutación a GSM |
-| --- | --- |
-| Bandas | 4G LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B28/B66; GSM: B2/B3/B5/B8 \(850/900/1800/1900 MHz\) |
-| Batería y alimentación | Batería de polímero recargable de 3000mAh \(3.7V\); voltaje de operación DC 3.4V–4.5V |
-| Consumo de energía | Corriente de funcionamiento típica ~55mA a 4V; en espera ~5mA; sleep ~20µA a 4V |
-| GNSS | ZKW AT6558D GPS chipset \(posicionamiento GPS; chipset especificado en la documentación del producto\) |
-| Interfaces y Alertas | Zumbador integrado, luz de búsqueda, interfaz de carga magnética; admite llamadas bidireccionales y monitorización de voz remota |
-| Funciones del firmware | Seguimiento en tiempo real, reproducción de historial, alarma de geocerca, alarma de bajo consumo y monitorización remota; OTA/FOTA no especificado |
-| Protección y carcasa | Resistencia al agua y polvo IP67; carcasa de plástico ABS para durabilidad en exteriores |
-| Dimensiones | Dimensiones 49 × 82 × 38.7 mm; peso aproximadamente 400 g |
+- Seguimiento de perros grandes durante cacería, trabajo de campo o actividades prolongadas al aire libre donde la larga autonomía es crucial.
+- Criadores y manejadores que monitorean múltiples animales en propiedades extensas con alertas por geocerca.
+- Localización y recuperación de animales durante la noche utilizando la luz de búsqueda y el zumbador audible.
+- Monitoreo remoto y contacto vocal directo para tranquilizar o comprobar a los animales en el campo.
+- Análisis de rutas y revisión de comportamientos mediante la reproducción de historial para apoyar en entrenamiento y manejo.
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Seguridad y monitorización de ubicación de mascotas para perros de gran tamaño durante la caza, trabajos de campo o actividades al aire libre prolongadas.
-- Criadores y manejadores que rastrean múltiples animales a través de grandes propiedades con alertas de geocerca y reproducción de historial.
-- Monitorización remota y contacto vocal inmediato cuando los animales se desvían o requieren atención en condiciones de poca visibilidad.
-- Entrenamiento al aire libre y análisis de rutas mediante reproducción de historial para perfeccionar los patrones de movimiento y el comportamiento.
+El AT-4 combina funciones prácticas para el rastreo animal con durabilidad y una batería de larga autonomía, lo que lo convierte en una opción sensata para propietarios, criadores y manejadores que requieren monitoreo remoto fiable. Al utilizarlo con Plaspy, las actualizaciones en tiempo real del dispositivo, las alertas por geocerca y la reproducción de historial se presentan en una interfaz unificada que facilita la supervisión operativa y la respuesta ante incidentes.
 
-## Por qué elegir este localizador con Plaspy
-
-Elegir el AT-4 como localizador GPS compatible con Plaspy ofrece un equilibrio entre una batería de larga duración, un diseño robusto para exteriores y herramientas de interacción con el propietario que resultan relevantes para el rastreo de mascotas. Su batería de 3000mAh y la conectividad eficiente 4G LTE-FDD reducen la necesidad de recargas y mantienen el dispositivo online durante days o weeks, mientras que la protección IP67 y la carcasa de ABS resisten el uso real. Las llamadas bidireccionales, la monitorización de voz remota, las alarmas de geocerca y la luz de búsqueda son características prácticas que mejoran la seguridad y facilitan la recuperación en terreno y la tranquilidad.
-
-Para equipos o individuos que también utilizan Plaspy para una gestión de activos más amplia, la plataforma admite una gama de casos de telemetría. Si bien el AT-4 se centra en el rastreo de mascotas, las soluciones compatibles con Plaspy pueden respaldar escenarios de gestión de flotas que incluyan telemetría, medidas antirobo y funciones específicas de vehículos como monitoreo de combustible, control de arranque e inmovilizador cuando se combinan con dispositivos diseñados para esos fines. Esa flexibilidad hace de Plaspy un centro eficaz para combinar localizadores enfocados a mascotas como el AT-4 con otros dispositivos habilitados para telemetría y sensores Bluetooth en una única vista operativa.
-
+Si desea saber más sobre cómo Plaspy puede incorporar el Autoseeker AT-4 en sus flujos de trabajo de rastreo, visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar las características y detalles técnicos actuales en el sitio del fabricante https://autoseekergps.com/ antes de tomar decisiones de compra o despliegue.

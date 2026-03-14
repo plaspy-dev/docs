@@ -2,62 +2,60 @@
 slug: /itriangle/ts101_basic_ev
 id: ts101_basic_ev
 sidebar_label: TS101 Basic EV
+title: iTriangle - TS101 Basic EV
 sidebar_class_name: menu_item_tracker
+description: Rugged compact GPS tracker for electric vehicles and mixed fleets compatible with Plaspy for reliable real time tracking and event logging
+keywords:
+  - iTriangle TS101 Basic EV
+  - TS101 Basic EV
+  - iTriangle tracker
+  - TS101 tracker
+  - TS101 Plaspy compatible
+  - EV GPS tracker
+  - fleet GPS tracker
+  - compact GPS tracker
+  - IP65 GPS tracker
+  - vehicle telematics
 ---
+
 # iTriangle - TS101 Basic EV
 
 ![TS101 Basic EV](./tracker.png)
 
-The TS101 Basic EV is a rugged, compact GPS tracker engineered for electric vehicles and mixed fleets that require dependable telemetry and Plaspy compatible integration. With multi-constellation GNSS, internal antennas, and a wide 9–90V DC input range, the TS101 Basic EV delivers reliable real-time tracking and event logging for commercial fleet management, two- and three-wheeler operations, and EV OEM applications.
+The TS101 Basic EV is a rugged, compact GPS tracker engineered for electric vehicles and mixed fleets that need dependable location and event telemetry. It combines multi constellation GNSS positioning, internal antennas, and a wide 9–90V DC input range to deliver continuous real time tracking and event logging suitable for commercial fleet management, two and three wheeler operations, and EV OEM applications.
 
-Designed for harsh environments, the TS101 Basic EV pairs IP65-rated protection with Bluetooth 3.0 and 2G GSM connectivity to keep location, accelerometer events, and I/O state telemetry flowing into Plaspy. The device’s internal memory and power backup ensure continuous data capture during temporary network or power interruptions — a practical Plaspy compatible tracker for vehicle security, anti-theft monitoring, and basic sensor telemetry.
+As a Plaspy compatible device, the TS101 Basic EV feeds location, movement events, and basic I O telemetry into centralized fleet software for visibility and operational oversight. Its design for harsh environments, onboard event logging, and short range wireless connectivity make it a practical option for operators who want resilient tracking and straightforward integration with Plaspy.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker with multi-constellation GNSS \(GPS/GLONASS/Galileo/BeiDou\) for accurate real-time tracking across regions.
-- Wide 9–90V DC input and 500mAh backup battery for resilient operation in electric vehicles and conventional fleets.
-- Rugged IP65 enclosure and compact form factor \(96 × 84 × 31 mm\) for reliable field deployment on two- and three-wheelers or larger vehicles.
-- Internal GSM/GNSS/BLE antennas plus Bluetooth 3.0 for short-range sensor connectivity and local configuration.
-- Onboard accelerometer and tamper detection to support anti-theft alerts and movement-based event triggers.
-- Local event logging \(up to 6,000 records\) to preserve telemetry when the network is unavailable.
-- Flexible I/O \(1 analog in, 2 digital in, 1 digital out\) for basic telemetry, sensor inputs, and external actuator control.
+- Compatible with Plaspy for real time tracking and event reporting across mixed fleets.
+- Multi constellation GNSS support for improved positioning across regions.
+- Wide 9–90V DC input and internal backup power to maintain operation in vehicle contexts.
+- Rugged IP65 rated enclosure and compact footprint for deployment on two wheelers, three wheelers, and larger vehicles.
+- Bluetooth 3.0 and 2G GSM connectivity for local pairing and cellular telemetry as supported by the device.
+- Onboard accelerometer and tamper detection to enable movement alerts and basic security monitoring.
+- Local event logging to preserve telemetry during temporary connectivity or power interruptions.
 
 ## How It Works with Plaspy
 
-Integrating the TS101 Basic EV with Plaspy provides a straightforward path to centralized fleet management, real-time tracking, and telematics reporting. The device streams GNSS position and event telemetry over TCP/IP via 2G GSM, while Bluetooth and local configuration options allow quick commissioning. Plaspy ingests the device’s location, accelerometer events, and I/O telemetry to power live maps, alerts, and historical reports.
+Integrating the TS101 Basic EV with Plaspy provides centralized visibility into vehicle location, movement events, and basic sensor inputs so fleet teams can monitor operations and respond to incidents. The device transmits position and event telemetry to Plaspy while local buffering and short range connectivity help preserve data and simplify commissioning.
 
-- Real-time location and telemetry updates delivered to Plaspy for live tracking and route playback.
-- Movement and tamper alerts using the onboard accelerometer for anti-theft notifications and incident detection.
-- Local data storage of up to 6,000 event records to bridge connectivity outages and allow Plaspy to reconcile missing intervals.
-- Analog and digital inputs enable monitoring of vehicle states and external sensors \(for example, fuel-level sensors or door/ignition signals\) to feed telemetry into Plaspy dashboards.
-- Bluetooth 3.0 support for local sensor pairing and short-range data exchange with compatible Bluetooth sensors or commissioning tools.
+- Real time location updates and route playback in Plaspy for live fleet monitoring.
+- Movement and tamper alerts routed into Plaspy alerting to support anti theft notifications and incident response.
+- Local event storage that bridges connectivity gaps so Plaspy can reconcile missing intervals when the device regains connection.
+- Analog and digital input telemetry available to feed Plaspy dashboards for basic sensor and vehicle state monitoring.
+- Bluetooth support for local sensor pairing and short range configuration to assist field setup and maintenance.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | TS101 Basic EV |
-| --- | --- |
-| Connectivity | 2G GSM, Bluetooth 3.0 \(BLE support\) |
-| Power Input | Wide range 9–90V DC |
-| Internal Battery | 500 mAh backup battery |
-| GNSS | GPS, GLONASS, Galileo, BeiDou |
-| Data Storage | Up to 6,000 event records \(16 MB\) |
-| Interfaces | 1 Analog Input, 2 Digital Inputs, 1 Digital Output, RS232 \(debug\) |
-| Sensors | Accelerometer, Tamper detection |
-| Enclosure Rating | IP65 \(dust and water resistant\) |
-| Dimensions & Weight | 96 mm × 84 mm × 31 mm; 145 g |
-| Data & Configuration | TCP/IP reporting; configurable via USB, SMS, TCP/IP, or Bluetooth |
-
-## Use Cases
-
-- Fleet management for small commercial operators and EV fleets requiring real-time tracking and event telemetry in Plaspy.
-- Two- and three-wheeler operators seeking compact GPS tracker installation with tamper detection and durable IP65 protection.
-- Anti-theft monitoring and movement alerts using the accelerometer tied into Plaspy alerting rules for rapid response.
-- Basic telemetry and fuel-level monitoring through the analog input for operators pairing external sensors and consolidating data in Plaspy.
-- OEM EV integration where a compact telematics unit with wide voltage tolerance and BLE is needed for local sensor and commissioning connectivity.
+- Fleet management for small commercial operators and electric vehicle fleets requiring consistent location and event telemetry.
+- Compact tracker deployment on two and three wheelers where size and environmental protection are important.
+- Anti theft monitoring and movement alerting integrated into Plaspy workflows for faster response.
+- Basic telemetry collection such as fuel level or door and ignition states via analog and digital inputs consolidated in Plaspy.
+- OEM EV integration where a resilient telematics unit is needed for basic vehicle monitoring and local commissioning.
 
 ## Why Choose This Tracker with Plaspy
 
-The TS101 Basic EV is a practical Plaspy compatible GPS tracker when you need a balance of ruggedness, compact size, and essential telematics capabilities. Its wide voltage range and IP65 enclosure make it suitable for electric vehicles and conventional fleets, while onboard accelerometer and tamper detection strengthen anti-theft monitoring. The device’s I/O set and internal storage provide resilient telemetry and event capture that Plaspy can use for fleet management, real-time tracking, and telemetry dashboards.
+The TS101 Basic EV is a practical choice for organizations using Plaspy when they need a balance of ruggedness, compact size, and essential telematics capabilities. Its wide voltage tolerance and IP65 enclosure suit electric and conventional vehicles, while accelerometer and tamper detection add a useful layer for security and incident detection. Built in event buffering and flexible I O make it easier for Plaspy to provide continuous visibility and reporting even when networks or power are temporarily interrupted.
 
-Operationally, the TS101 Basic EV minimizes downtime: internal buffering preserves up to 6,000 records during connectivity gaps, and multiple configuration channels \(USB, SMS, TCP/IP, Bluetooth\) simplify deployment and maintenance. For fleet operators and EV OEMs integrating with Plaspy, the unit offers a cost-effective route to implement tracking, movement alerts, and basic sensor telemetry — supporting broader workflows such as fuel monitoring, ignition-event logging, and immobilizer control when paired with appropriate external actuators and wiring.
-
+If you want to learn more about how Plaspy can work with compatible trackers like the TS101 Basic EV, visit https://www.plaspy.com for platform details and feature overviews. Product specifications, availability, and manufacturer documentation can change over time, so verify current technical details and installation guidance with the device manufacturer at https://www.itriangle.net/.

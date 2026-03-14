@@ -2,19 +2,62 @@
 slug: /tzone/tz_bc02
 id: tz_bc02
 sidebar_label: TZ-BC02
+title: TZone - TZ-BC02
 sidebar_class_name: menu_item_tracker
+description: Compact TZone TZ-BC02 GPS tracker overview and Plaspy compatibility guide for asset and personal tracking with Bluetooth iBeacon and long battery life
+keywords:
+  - TZone TZ-BC02
+  - TZ-BC02 tracker
+  - TZone tracker
+  - TZ BC02 Plaspy
+  - TZ BC02 Bluetooth
+  - iBeacon tracker
+  - compact GPS tracker
+  - asset tracker
+  - personal tracker
+  - fleet tracking compatibility
 ---
+
 # TZone - TZ-BC02
 
 ![TZ-BC02](./logo.jpg)
 
-The TZone TZ-BC02 is a compact and lightweight GPS tracker designed to provide accurate and reliable tracking capabilities. With its sleek black color and dimensions of 50\*50\*20 mm, it is easy to carry and conceal. Weighing only 30 grams, it is lightweight and won't add any unnecessary bulk to your belongings. Whether you need to track your personal items or keep an eye on your loved ones, the TZ-BC02 is a reliable choice.
+The TZone TZ-BC02 is a compact and lightweight tracking device designed to provide reliable location and proximity monitoring for small assets and personal items. Measuring approximately 50 x 50 x 20 mm and weighing about 30 grams, the unit is easy to carry and conceal. It supports iPhone iBeacon protocol with Bluetooth 4.0 compatibility and also works with Android devices running Android 4.3 and above, offering broad smartphone interoperability for proximity based tracking.
 
-One of the standout features of the TZ-BC02 is its compatibility with the iPhone iBeacon protocol, utilizing Bluetooth 4.0 technology. This allows for seamless integration with iOS devices, making it easy to track and monitor your belongings using your smartphone. Additionally, it is also compatible with Android devices running Android 4.3 and above, ensuring wide compatibility for users.
+As a Plaspy compatible device, the TZ-BC02 can be incorporated into Plaspy workflows for monitoring, grouping, and reporting on tracked items. Its small form factor and long expected battery life make it practical for ongoing asset oversight, and adjustable transmit settings and broadcast intervals allow for flexible use patterns that Plaspy can surface in dashboards and alerts.
 
-The TZ-BC02 is powered by a CR 2477 battery, providing a long-lasting and reliable power source. With a voltage of 3V DC, you can trust that the tracker will remain operational for extended periods of time. The broadcasting interval is adjustable, with a default setting of 500 ms. The transmitted power can also be adjusted from -20 to 4 dBm, allowing for customization based on your specific tracking needs.
+## Key Highlights
 
-With a transmission distance of 50-80 meters in an open field, the TZ-BC02 offers a wide coverage area for tracking purposes. Whether you're tracking a vehicle, a pet, or a valuable item, you can trust that the tracker will provide accurate and real-time location information. The working time of the tracker depends on the working mode, with an estimated range of 1.5-2.5 years.
+- Compact and lightweight design suitable for discreet placement on small assets
+- Compatible with iPhone iBeacon protocol and Android devices running Android 4.3 and above
+- Long battery life with an expected working time of roughly 1.5 to 2.5 years depending on mode
+- Adjustable broadcasting interval with a default of 500 ms for flexible reporting behavior
+- Transmit power can be adjusted to suit proximity needs and preserve battery life
+- Transmission distance of approximately 50 to 80 meters in an open field for short range coverage
 
-Overall, the TZone TZ-BC02 is a reliable and versatile GPS tracker that offers a range of features to meet your tracking needs. Its compact size, compatibility with iOS and Android devices, and long battery life make it a practical choice for personal and professional use. Whether you're tracking your personal belongings or monitoring the whereabouts of your loved ones, the TZ-BC02 is a reliable and efficient solution.
+## How It Works with Plaspy
 
+When used with Plaspy, the TZ-BC02 provides proximity and location signals that can be recorded and managed inside the Plaspy platform to improve visibility and operational oversight. Plaspy can group TZ-BC02 devices with other assets, trigger notifications, and include beacon events in historical reporting to support audits and asset lifecycle tracking.
+
+- Display proximity events and last known location on Plaspy maps and asset lists
+- Create alerts and notifications for presence or absence based on beacon transmissions
+- Include TZ-BC02 devices in asset groups and tags for organized monitoring and reporting
+- Track historical movement and generate time based reports for operational review
+- Use Plaspy dashboards to monitor fleet or asset pools that include TZ-BC02 devices
+- Integrate beacon activity into routine audits and inventory checks managed in Plaspy
+
+## Typical Use Cases
+
+- Keeping track of personal belongings such as bags and luggage during travel
+- Monitoring small equipment and tools in warehouses or worksites
+- Proximity based checks for pets or children in limited range environments
+- Attaching to high value items for short range location and presence monitoring
+- Supplementary tracking for trailers or cargo compartments where short range beacons are appropriate
+
+## Why Choose This Tracker with Plaspy
+
+The TZ-BC02 is a practical choice for organizations and individuals who need discreet, battery efficient tracking for small assets and personal items. Its compatibility with common smartphone platforms and iBeacon protocol makes it well suited to proximity monitoring scenarios, while adjustable transmit settings help balance visibility and battery life. When connected to Plaspy, the device becomes part of a unified monitoring environment where beacon events and item groupings contribute to clearer operational oversight.
+
+Because the TZ-BC02 focuses on compactness and long battery life rather than broad range continuous telematics, it is most useful where short range detection and periodic reporting meet your operational needs. Plaspy will help surface the device data alongside other trackers and assets so teams can manage mixed fleets and item inventories from a single platform.
+
+To learn more about using Plaspy with compatible trackers visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details and manufacturer information at http://www.tzonedigital.com/.

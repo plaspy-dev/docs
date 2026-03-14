@@ -2,60 +2,63 @@
 slug: /cantrack/g03
 id: g03
 sidebar_label: G03
+title: CanTrack - G03
 sidebar_class_name: menu_item_tracker
+description: Compact personal GPS tracker for safety and portable asset protection compatible with Plaspy for real time tracking and history playback
+keywords:
+  - CanTrack G03
+  - CanTrack G03 GPS tracker
+  - CanTrack G03 Plaspy
+  - G03 tracker
+  - personal GPS tracker
+  - portable asset tracker
+  - SOS GPS tracker
+  - Plaspy compatible tracker
+  - GPS history playback
+  - IP65 GPS device
 ---
+
 # CanTrack - G03
 
 ![G03](./tracker.jpg)
 
-The G03 is a compact, purpose-built GPS tracker optimized for personal safety and portable asset protection. Plaspy compatible out of the box, the G03 delivers reliable real-time tracking and history playback so caregivers, family members, and managers can monitor movement from the Plaspy platform or mobile app. Its small footprint, IP65 water resistance, and ABS polymer shell make it ideal for everyday use on wheelchairs, personal carry items, and other portable assets.
+The CanTrack G03 is a compact, purpose built GPS tracker designed for personal safety and protection of portable assets. It combines a small footprint and a durable ABS polymer shell with IP65 water resistance, making it suitable for everyday use on wheelchairs, personal carry items, and other portable belongings. The G03 provides real time location updates and historical route playback so caregivers, family members, and managers can monitor movement over time.
 
-The G03 focuses on low-power operation and essential safety features: a dedicated SOS function to alert pre-set contacts, low battery alarms, intelligent sleep modes to extend standby life, and triple positioning \(GPS + LBS + AGPS\) for robust location accuracy. When paired with Plaspy, the device provides actionable telemetry that supports timely alerts, geofencing, and secure historical trace review for proactive safety monitoring.
+As a Plaspy compatible device out of the box, the G03 integrates with the Plaspy platform to turn location and event signals into usable monitoring data. Its SOS function, low battery alarms, intelligent sleep modes, and multi mode positioning are aligned with common Plaspy features such as alerts, geofencing, and history review, making the device a practical choice for organizations and individuals who need straightforward, persistent tracking within the Plaspy ecosystem.
 
 ## Key Highlights
 
-- Compact, durable design \(70 x 55 x 25 mm; ABS housing\) built for everyday portable use and easy mounting.
-- Plaspy compatible for seamless real-time tracking, history playback, and event notifications via platform and app.
-- Triple positioning \(GPS + LBS + AGPS\) with GPS/BDS support and ≤ 5 m typical accuracy for dependable location data.
-- Dedicated SOS button for instant emergency alerts to pre-set phone numbers and as a Plaspy event.
-- Long standby operation: 3000 mAh battery with up to ~30 days standby depending on reporting interval and configuration.
-- IP65 water resistance and robust assembly for resilient daily operation in personal and portable tracking scenarios.
-- Smart sleep/low-power modes plus low battery alarms to extend runtime while ensuring timely notifications.
+- Compact and durable form factor for portable use with ABS housing and IP65 water resistance.
+- Plaspy compatible for real time tracking, history playback, and event notifications through the Plaspy platform and mobile access.
+- Triple positioning support including GPS and auxiliary location modes for robust location visibility and typical accuracy suitable for personal tracking.
+- Dedicated SOS button to create immediate emergency events and notify pre configured contacts while registering alerts in Plaspy.
+- Long standby capability with a high capacity battery that supports extended runtime depending on reporting interval and configuration.
+- Smart sleep and low power modes plus low battery alerts to extend operational life while maintaining timely notifications.
+- Designed for daily portability where simple, reliable tracking and safety alerts are the priority.
 
 ## How It Works with Plaspy
 
-Integrating the G03 with Plaspy turns raw location and status signals into actionable monitoring and alerts. The device sends GNSS positions and telemetry over the cellular link to Plaspy, where the platform handles real-time maps, event rules, geofences, and historical route playback. Plaspy-compatible configuration makes it simple to onboard devices, set reporting intervals, and route SOS and low-battery events to caregivers or administrators.
+When used with Plaspy, the G03 sends position and status telemetry to the Plaspy platform where that data is visualized and turned into operational alerts and historical records. Plaspy handles mapping, event rules, and secure trace review so caregivers and administrators can act on location changes, SOS events, and battery warnings.
 
-- Real-time location and telemetry updates transmitted to Plaspy for immediate visibility on maps and dashboards.
-- SOS alerts: the G03 sends emergency events to pre-configured phone numbers and registers the event in Plaspy for notifications and escalation.
-- Low-battery and sleep-mode notifications ensure caregivers receive proactive alerts before power loss affects tracking.
-- Geo-fence entry/exit notifications configured in Plaspy for perimeter monitoring of safe areas and restricted zones.
-- History trace playback of past routes available through Plaspy for review, incident analysis, or caregiver reporting.
+- Real time location and telemetry updates displayed on Plaspy maps and dashboards for immediate visibility.
+- SOS events from the device appear in Plaspy so teams can receive notifications and escalate as needed.
+- Low battery and sleep mode notifications routed to Plaspy to help maintain continuous monitoring and avoid unexpected downtime.
+- Geofence entry and exit alerts configured in Plaspy for perimeter monitoring of safe zones and restricted areas.
+- Historical trace playback available in Plaspy for review, incident analysis, and reporting to caregivers or managers.
+- Device onboarding and basic configuration supported through Plaspy to simplify deployment and monitoring setup.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | Cellular modules: Quectel BG95 \(Cat NB2 / Cat M1\) and regional variants \(BG95-M2, EC200S-CN, EC-25-J\) |
-| --- | --- |
-| Bands | Supports multiple LTE-FDD/TDD and GSM bands via regional module variants for broad global compatibility |
-| Power & Battery | Battery: 3000 mAh; Standby up to ~30 days depending on configuration and reporting interval; Working current 120–180 mA; Standby current 10 μA |
-| Interfaces | Dedicated SOS button for emergency alerts. Other vehicle-specific interfaces \(ignition, immobilizer, dedicated digital I/O\) are not specified for this model. |
-| GNSS | Satellite systems: GPS and BDS. GPS accuracy ≤ 5 m. Positioning chip: AT6558R. |
-| Performance | Speed accuracy &lt; 0.1 m/s; Cold start ≤ 32 s; Normal start ≤ 3 s. |
-| Processing | MCU: STM32F103RCT6 |
-| Bluetooth | Not specified for this device \(BLE sensors/beacons not listed in specifications\) |
-| Remote Management | Integration with Cantrack platforms and mobile apps enables remote management, real-time alerts, and geofencing. FOTA or specific web management tools are not specified. |
-| Form Factor & Durability | Dimensions: 70 x 55 x 25 mm; Shell material: ABS polymer; Waterproof rating: IP65; Operating temperature -10°C to +65°C; Storage -40°C to +85°C. |
-
-## Use Cases
-
-- Wheelchair user monitoring — allow caregivers to track real-time location, receive SOS events, and review route history for safety and assistance.
-- Personal safety for elderly or children — compact wearable or mountable device with long standby and a one-press SOS for immediate help.
-- Portable asset protection — attach to bags, equipment, or foldable mobility aids where water resistance and low-power operation matter.
-- Outdoor day trips and short-term monitoring — provide location sharing and history playback without frequent recharging.
+- Wheelchair user monitoring for caregivers who need real time location, SOS alerts, and route history.
+- Personal safety for elderly family members or children requiring a compact device with one press emergency notification.
+- Portable asset protection for bags, equipment, and personal items that benefit from discreet, water resistant tracking.
+- Short term location monitoring during day trips or activities where long standby and history playback are useful.
+- Managerial oversight of small portable inventories or shared mobility aids that require periodic location checks.
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the G03 as a Plaspy compatible tracker gives you a focused solution for personal safety and portable asset tracking. Its combination of compact form, long battery life, reliable GNSS \(GPS/BDS\) positioning, IP65 durability, and an SOS button addresses the primary needs of caregivers and individuals who require persistent, low-maintenance monitoring. When connected to Plaspy, the G03 supplies the telemetry and event data needed for timely alerts, geofence rules, and historical playback—making it easier to implement effective safety workflows.
+The G03 is a focused solution for personal safety and portable asset tracking where size, runtime, and straightforward alerting matter. Its compact design, durable construction, long standby capability, and dedicated SOS control complement Plaspy's monitoring, alerting, and historical playback features to provide practical safety workflows for caregivers, families, and small operations. Together, the device and platform offer a concise toolset for persistent location visibility without unnecessary complexity.
 
-For organizations that require broader fleet management features such as fuel monitoring, ignition control, immobilizer functions, or Bluetooth sensor ecosystems, note that the G03 is optimized for personal and portable use and does not document vehicle-specific I/O or BLE sensor support. If those specific telemetry and control interfaces are required, complementing the G03 with a vehicle-focused unit in your Plaspy deployment is recommended. For pure personal safety, caregiver monitoring, and compact asset tracking, the G03 delivers dependable Plaspy-compatible performance with long runtime and clear, actionable alerts.
+For organizations that need vehicle specific telemetry, extensive I O control, or broader sensor ecosystems, the G03 is optimized for personal and portable scenarios rather than full fleet telematics. If those additional interfaces are required, consider pairing the G03 with other Plaspy compatible hardware that addresses those needs while retaining the G03 for personal safety roles.
 
+To learn more about how Plaspy can work with compatible devices like the CanTrack G03 visit the Plaspy website at https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current technical information on the official CanTrack site at https://www.cantrackgps.com/.

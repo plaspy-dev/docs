@@ -2,60 +2,62 @@
 slug: /concox/jm_ll02
 id: jm_ll02
 sidebar_label: JM-LL02
+title: Concox - JM-LL02
 sidebar_class_name: menu_item_tracker
+description: Rastreador robusto Concox JM-LL02 compatible con Plaspy, larga autonomía, montaje magnético, protección IP67
+keywords:
+  - Concox JM-LL02
+  - Rastreador JM-LL02
+  - Rastreador Concox
+  - Compatible con Plaspy
+  - Rastreador GPS
+  - Rastreador de activos
+  - Rastreador para remolques
+  - Rastreador para contenedores
+  - GPS de larga autonomía
+  - Rastreador GPS resistente
 ---
+
 # Concox - JM-LL02
 
 ![JM-LL02](./tracker.png)
 
-El JM-LL02 de JM es un rastreador GPS robusto, compatible con Plaspy, diseñado para despliegues de activos a largo plazo donde es esencial una instalación prácticamente nula y un modo de espera prolongado. Construido alrededor de conectividad LTE Cat M1 / NB2 con respaldo a GSM y una batería Li-Polymer industrial de alta capacidad de 6.000 mAh, el JM-LL02 ofrece seguimiento en tiempo real y telemetría de eventos confiables para Plaspy en gestión de flotas, seguridad de activos y operaciones logísticas. Su montaje magnético integrado, carcasa IP67 y configuración Bluetooth 5.0 permiten una redeploy rápido y configuración en campo sin herramientas.
+El JM-LL02 de Concox es un rastreador GPS resistente compatible con Plaspy, diseñado para despliegues de activos a largo plazo donde la mínima intervención en la instalación y una amplia autonomía de espera son cruciales. Combina posicionamiento multifuente con conectividad celular y una batería industrial de alta capacidad para ofrecer reportes de ubicación continuos y telemetría de eventos en activos móviles como remolques, contenedores y maquinaria de obra. El equipo cuenta con una carcasa IP67, montaje magnético integrado y configuración por Bluetooth a bordo para facilitar la redistribución sin herramientas y una puesta en marcha sencilla en campo.
 
-Diseñado para activos como remolques, contenedores, equipos de construcción y vehículos de alquiler, el JM-LL02 se centra en la longevidad de la batería, la detección de manipulación y el posicionamiento preciso. Con posicionamiento de múltiples fuentes \(GPS + LBS\), alta sensibilidad \(−165 dBm\) y precisión CEP inferior a 2,5 m, este rastreador compatible con Plaspy proporciona ubicación precisa, eventos de geocerca y alertas de escenario \(batería baja, manipulación, vibración, exceso de velocidad\) para reducir el riesgo de robo, gestionar telemetría y mantener las operaciones funcionando sin contratiempos.
+Como dispositivo compatible con Plaspy, el JM-LL02 puede transmitir su ubicación y datos de evento a Plaspy para monitoreo centralizado, alertas e informes. Su enfoque en la longevidad de la batería, detección de manipulación y posicionamiento fiable lo hace ideal para flujos de trabajo de Plaspy orientados a la seguridad de activos, supervisión de flotas y visibilidad logística. Las organizaciones que usan Plaspy pueden aprovechar el JM-LL02 para reducir ciclos de mantenimiento, mejorar la respuesta ante robo y mantener un rastreo continuo durante recorridos prolongados.
 
-## Aspectos destacados
+## Puntos clave
 
-- Rastreador GPS compatible con Plaspy con conectividad LTE Cat M1 / NB2 y GSM para una cobertura celular resiliente.
-- Autonomía excepcional: batería Li-Polymer industrial de 6.000 mAh y hasta 1,5 años en modo de ahorro de energía para despliegues a largo plazo.
-- Diseño robusto: carcasa IP67 y amplio rango de temperatura de funcionamiento \(–20 °C a +70 °C\) para entornos exigentes.
-- Instalación rápida y no invasiva mediante un montaje magnético integrado —ideal para activos móviles y redeploy rápido.
-- Posicionamiento de alta precisión: GPS + LBS con sensibilidad −165 dBm y precisión CEP \< 2,5 m para datos de ubicación confiables.
-- Bluetooth 5.0 a bordo para configuración directa y sin cables.
-- Alertas de escenario integrales \(manipulación, batería baja, vibración, exceso de velocidad, geocerca\) para flujos anti-robo y monitoreo de flotas.
-- LEDs visibles para GNSS, estado de la red celular y alimentación, además de un puerto de carga magnético para mantenimiento y depuración convenientes.
+- Rastreador GPS compatible con Plaspy con conectividad LTE Cat M1 y NB2 y retroceso a GSM para cobertura celular resistente
+- Batería industrial de larga duración de 6,000 mAh diseñada para prolongar la autonomía en espera y reducir los intervalos de mantenimiento
+- Carcasa robusta con protección IP67 y soporte magnético para fijación no permanente y redeployment sencillo
+- Posicionamiento multifuente con alta sensibilidad y precisión CEP por debajo de 2.5 m para reportes de ubicación precisos
+- Bluetooth 5.0 integrado para configuración sin cables y aprovisionamiento rápido en campo
+- Alertas por escenarios como batería baja, manipulación, vibración, exceso de velocidad y eventos de geocerca para apoyar flujos anti robo
+- Almacenamiento en búfer local para proteger contra pérdidas temporales de conectividad y preservar la telemetría reciente
 
 ## Cómo funciona con Plaspy
 
-La integración con Plaspy convierte el GNSS, la conectividad celular y los sensores a bordo del JM-LL02 en paneles de control accionables, reglas de geocerca y flujos de alertas. El rastreador transmite datos de ubicación y eventos a Plaspy a través de LTE Cat M1 / NB2 \(o GSM cuando corresponda\), habilitando el seguimiento en tiempo real, la agregación de telemetría y notificaciones automatizadas. Bluetooth 5.0 simplifica la provisión inicial para que los dispositivos lleguen configurados y listos para reportar en Plaspy con un mínimo esfuerzo en campo.
+Al emparejarlo con Plaspy, el JM-LL02 convierte señales GNSS y eventos a bordo en paneles accionables y alertas automatizadas. El rastreador envía ubicación y notificaciones de escenarios a Plaspy, de modo que usted pueda monitorear activos en tiempo real, revisar rutas históricas y responder a incidentes. El Bluetooth facilita la configuración inicial para que los dispositivos se aprovisionen y reporten a Plaspy con mínimo esfuerzo en terreno.
 
-- Actualizaciones en tiempo real de ubicación y telemetría \(GPS + LBS\) enviadas a Plaspy para mapeo y rutas históricas.
-- Alertas de manipulación y retirada de la cubierta mediante el sensor de luz integrado para respaldar flujos anti-robo en Plaspy.
-- Alertas de escenario soportadas: batería baja, vibración, exceso de velocidad y notificaciones de entrada/salida de geocerca.
-- Almacenamiento local de datos \(32 + 32 MB\) garantiza informes en búfer ante pérdidas de conectividad temporales.
-- Bluetooth 5.0 para configuración en sitio y reimplante rápido sin conexiones por cable.
+- Actualizaciones de ubicación en tiempo real y reproducción de rutas históricas en las vistas de mapas de Plaspy
+- Notificaciones de entrada y salida de geocercas dirigidas a Plaspy para alertas y flujos automatizados
+- Alertas por escenarios como batería baja, manipulación, vibración y exceso de velocidad entregadas al flujo de eventos de Plaspy
+- Almacenamiento local en búfer para asegurar que los datos recientes se reenvíen a Plaspy tras interrupciones temporales de conectividad
+- Aprovisionamiento y redeployment mediante Bluetooth para reducir el tiempo de configuración al asignar dispositivos a activos
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE Cat M1 / NB2; GSM como respaldo |
-| --- | --- |
-| Bandas | LTE: B2 / B4 / B5 / B12 / B13 / B66; GSM: 850 / 1900 MHz |
-| Alimentación y batería | 6.000 mAh Li-Polymer industrial \(3.7V\); hasta 1,5 años en modo de ahorro de energía |
-| Interfaces | Montaje magnético integrado robusto, puerto de carga magnético, interruptor de encendido/apagado \(desactivación de funciones especiales\), ranura Nano‑SIM, indicadores LED \(GNSS Azul, Celular Verde, Alimentación Rojo\), sensor de luz para detección de manipulación |
-| GNSS | Posicionamiento GPS + LBS; sensibilidad −165 dBm; precisión de posicionamiento \< 2,5 m CEP |
-| Bluetooth | Bluetooth 5.0 para configuración y puesta en marcha directas |
-| Gestión remota | Configuración directa del dispositivo vía Bluetooth; se integra con la plataforma Plaspy para reportes y alertas |
-| Factor de forma | 85,0 × 58,0 × 29,0 mm; 158 g; IP67; rango de temperatura de operación –20 °C a +70 °C; humedad 5–95% sin condensación |
-
-## Casos de uso
-
-- Gestión de flotas para vehículos de alquiler y remolques ligeros, donde una instalación sencilla y una larga vida de batería reducen el tiempo de inactividad.
-- Seguimiento de activos de equipos de construcción y plantas móviles con alertas de manipulación y montaje magnético para una instalación no permanente.
-- Monitoreo logístico y de contenedores durante recorridos largos, donde la espera extendida y el almacenamiento local en búfer mantienen los informes entre cargas.
-- Flujos de anti-robo para remolques y activos de alto valor mediante geocercas, alertas de vibración y sensores de luz enviadas a Plaspy.
-- Escenarios de reimplante rápido donde la configuración Bluetooth y el montaje magnético reducen el tiempo de instalación en todo el parque de activos.
+- Rastreo de flotas para vehículos de alquiler y remolques ligeros donde el montaje magnético y la larga autonomía reducen los costos operativos
+- Monitoreo de activos para maquinaria de construcción y plantas móviles con alertas de manipulación y vibración para seguridad
+- Vigilancia de contenedores y logística durante tránsitos prolongados que requieren larga autonomía y reportes con búfer
+- Flujos anti robo y recuperación que dependen de notificaciones de geocerca y manipulación entregadas a Plaspy
+- Programas de redeployment rápido donde la configuración por Bluetooth y el montaje no invasivo aceleran la rotación de activos
 
 ## Por qué elegir este rastreador con Plaspy
 
-El JM-LL02 es una opción práctica para organizaciones que necesitan un rastreador GPS compatible con Plaspy, diseñado para la resistencia, una instalación sencilla y reportes fiables. Su batería de 6.000 mAh de larga duración y los modos de ahorro de energía reducen los ciclos de mantenimiento y disminuyen el costo total de propiedad para programas de gestión de flotas y seguimiento de activos. Combinado con alta sensibilidad GNSS, protección IP67 y alertas de escenario para manipulación, vibración y eventos de geocerca, el dispositivo ofrece las capacidades de anti-robo y telemetría necesarias para las operaciones modernas.
+El JM-LL02 es una opción práctica para organizaciones que necesitan un rastreador duradero y de bajo mantenimiento compatible con Plaspy. Su combinación de larga vida de batería, carcasa resistente y montaje sencillo reduce el trabajo en sitio mientras ofrece la fidelidad de ubicación y la notificación de eventos necesarias para la protección de activos y la supervisión de flotas. Para equipos que gestionan activos dispersos o con conectividad intermitente, el dispositivo equilibra resistencia y facilidad de uso.
 
-La integración con Plaspy lleva esas capacidades a paneles de control centralizados y flujos de trabajo automatizados—soportando seguimiento en tiempo real, agregación de telemetría y alertas configurables. Bluetooth 5.0 permite una provisión rápida y sin cables en el campo, mientras que el montaje magnético y la carcasa robusta hacen del JM-LL02 una solución versátil y de baja fricción para rastrear remolques, contenedores, flotas de alquiler y otros activos móviles. Para proyectos que priorizan una larga duración de la batería, instalación mínima y conectividad confiable, el JM-LL02 es una opción Plaspy-compatible sólida.
+Al integrar el JM-LL02 con Plaspy, esas capacidades de dispositivo se incorporan a paneles centralizados y alertas configurables para que los equipos operativos puedan actuar rápidamente sobre los datos de ubicación y eventos. Si sus prioridades incluyen largos tiempos de espera, aprovisionamiento simple en campo y rastreo resistente, el JM-LL02 es una sólida opción compatible con Plaspy a considerar.
 
+Aprenda más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique las especificaciones y la documentación actual en el sitio oficial del fabricante https://www.iconcox.com/.

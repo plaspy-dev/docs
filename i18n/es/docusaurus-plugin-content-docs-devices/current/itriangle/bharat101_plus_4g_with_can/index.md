@@ -2,68 +2,62 @@
 slug: /itriangle/bharat101_plus_4g_with_can
 id: bharat101_plus_4g_with_can
 sidebar_label: Bharat101 Plus 4G with CAN
+title: iTriangle - Bharat101 Plus 4G with CAN
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G certificado AIS-140 con telemetría CAN y diseño robusto, compatible con Plaspy
+keywords:
+  - iTriangle Bharat101 Plus 4G con CAN
+  - Bharat101 Plus 4G
+  - rastreador AIS-140
+  - rastreador GPS 4G
+  - telemetría CAN
+  - seguimiento de flotas
+  - telemetría vehicular
+  - GNSS multiconstelación
+  - rastreador robusto para vehículos
+  - compatible con Plaspy
 ---
-# iTriangle - Bharat101 Plus 4G with CAN
+
+# iTriangle - Bharat101 Plus 4G con CAN
 
 ![Bharat101 Plus 4G with CAN](./tracker.png)
 
-\<meta itemprop="name" content="Bharat101 Plus 4G with CAN">
-  
-El Bharat101 Plus 4G with CAN es un rastreador GPS certificado AIS-140, diseñado para flotas profesionales, transporte público y aplicaciones en vehículos de alta exigencia. Construido para entornos difíciles con protección IP65 y un rango de entrada de 9–90V DC, este rastreador compatible con Plaspy ofrece conectividad LTE Cat-1, diagnósticos a través del bus CAN y GNSS de múltiples constelaciones para un seguimiento en tiempo real confiable y telemetría del vehículo.
+El Bharat101 Plus 4G con CAN es un rastreador GPS certificado AIS-140 diseñado para flotas profesionales, transporte público y aplicaciones en vehículos de servicio pesado. Está pensado para operar en entornos exigentes gracias a su carcasa robusta con grado de protección IP65 y su amplio rango de voltaje de entrada. El equipo ofrece conectividad LTE Cat 1, GNSS multiconstelación, acceso al bus CAN para diagnóstico y sensores integrados que entregan ubicación continua y telemetría vehicular para monitoreo operativo y cumplimiento normativo.
 
-Como dispositivo compatible con Plaspy, el Bharat101 Plus 4G with CAN integra la ubicación del vehículo, parámetros diagnósticos obtenidos del CAN y datos de sensores a bordo en los flujos de trabajo de gestión de flotas e informes de Plaspy. El dispositivo admite inmovilización remota, monitorización de combustible, detección de encendido, alertas de manipulación y actualizaciones de firmware OTA, lo que lo convierte en un punto final telemático completo para anti-robo, cumplimiento y eficiencia operativa.
+Como dispositivo compatible con Plaspy, el Bharat101 Plus 4G con CAN puede transmitir la ubicación del vehículo, parámetros diagnósticos obtenidos del CAN y eventos de sensores al entorno de gestión de flotas de Plaspy. Esta integración permite a los operadores combinar seguimiento en tiempo real, alertas basadas en telemetría e informes dentro de Plaspy para apoyar la prevención de robos, reportes de cumplimiento, supervisión de combustible y la mejora de la eficiencia operativa sin requerir integraciones personalizadas extensas.
 
-## Aspectos clave
+## Aspectos destacados
 
-- Rastreador GPS certificado AIS-140, diseñado para flotas comerciales y cumplimiento en transporte público cuando se usa con Plaspy.
-- LTE Cat-1 con respaldo 2G para una cobertura celular amplia y un seguimiento en tiempo real fiable a lo largo de distintas regiones.
-- Acceso integrado al bus CAN para leer datos diagnósticos del motor y del vehículo, permitiendo telemetría y reportes avanzados.
-- Carcasa robusta con protección IP65 y un amplio rango de temperatura de operación para un rendimiento fiable en entornos adversos.
-- Múltiples entradas/salidas y soporte de sensores para monitorización de combustible, estado de encendido, alertas de pánico/manipulación y inmovilización remota.
-- GNSS interno que admite GPS, Galileo, NavIC y BeiDou para ubicación de alta precisión y reproducción de rutas en Plaspy.
-- Acelerómetro y giroscopio a bordo para alertas por eventos como frenadas bruscas, remolque y detección de colisiones.
-- eSIM, almacenamiento interno para registro sin conexión y soporte FOTA para simplificar el despliegue y el mantenimiento remoto.
+- Dispositivo certificado AIS-140, apto para cumplimiento en flotas comerciales y transporte público.
+- Conectividad LTE Cat 1 con amplia cobertura celular para un seguimiento en tiempo real más resiliente.
+- Acceso integrado al bus CAN para exponer datos diagnósticos y parámetros de telemetría del vehículo.
+- Carcasa robusta IP65 y amplio rango de voltaje de entrada para operación confiable en campo.
+- GNSS multiconstelación para mayor precisión de posición y mejor reproducción de rutas.
+- Entradas y salidas múltiples, además de sensores de movimiento integrados para detección de eventos y controles.
+- Capacidad de actualización de firmware OTA y almacenamiento interno para registro offline.
 
 ## Cómo funciona con Plaspy
 
-Cuando se despliega con Plaspy, el Bharat101 Plus 4G with CAN transmite en tiempo real coordenadas GPS y telemetría derivada del CAN a la plataforma de Plaspy mediante conectividad LTE Cat-1 segura con respaldo automático a 2G. Plaspy procesa la ubicación, los eventos de sensores y el estado del vehículo para proporcionar seguimiento en vivo, geocercas, informes de rutas y alertas de excepciones. Los equipos de campo y los administradores pueden confiar en actualizaciones continuas de posición y en diagnósticos detallados del vehículo para una gestión de flotas más inteligente.
+Cuando se integra con Plaspy, el Bharat101 Plus 4G con CAN transmite datos de ubicación y telemetría del vehículo para que Plaspy proporcione visibilidad en vivo, geocercas, análisis de viajes y alertas automáticas. Plaspy procesa los datos del dispositivo y los pone a disposición de administradores y equipos de campo para supervisión operativa, generación de informes y gestión de excepciones.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía LTE Cat-1 \(con respaldo 2G\) para un seguimiento continuo.
-- Integración de datos del bus CAN para parámetros del motor, velocidad, lecturas de nivel de combustible \(cuando esté disponible desde el CAN del vehículo\) y señales diagnósticas.
-- Detección del estado de encendido y entradas digitales para eventos de apertura de puertas y monitoreo del botón de pánico.
-- Soporte de inmovilizador remoto a través de salidas digitales configurables para activar respuestas antirrobo.
-- BLE disponible para configuración y sensores/beacons Bluetooth compatibles \(el dispositivo incluye antena BLE y configuración vía BLE\).
+- Seguimiento de ubicación en vivo e historial de rutas visibles en Plaspy para la monitorización de la flota.
+- Parámetros derivados del CAN y eventos de sensores incluidos en los informes y paneles de Plaspy.
+- Alertas configurables por cambios de encendido, intentos de manipulación, excepciones de combustible y conducción brusca detectada por los sensores internos.
+- Control remoto y activación de salidas coordinables a través de flujos de trabajo de Plaspy para inmovilización o acciones de recuperación.
+- Registros almacenados en el dispositivo y estado de actualizaciones OTA disponibles para gestión y resolución de incidencias.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE Cat-1 con respaldo 2G \(900/1800 MHz\) |
-| --- | --- |
-| Bandas | B1, B3, B5, B8, B34, B39, B40, B41 \(LTE Cat-1\) |
-| Alimentación y batería | Entrada 9–90V DC; batería de respaldo interna de 850mAh que proporciona varias horas de funcionamiento ante una pérdida de energía |
-| Interfaces | 2 entradas analógicas; 4 entradas digitales; 4 salidas digitales; RS232 o RS485 \(seleccionable\); 1 canal CAN; USB 2.0 para configuración |
-| GNSS | Receptor GNSS interno compatible con GPS, Galileo, NavIC y BeiDou |
-| Sensores | Acelerómetro y giroscopio internos para frenadas bruscas, aceleración rápida, remolque y detección de colisiones |
-| SIM | eSIM \(MFF2\) |
-| Almacenamiento interno | 128 MB de memoria \(aprox. ~40,000 registros de ubicación\) |
-| Antenas | Antenas internas GSM, GNSS y BLE |
-| Bluetooth | BLE compatible para configuración y sensores/beacons Bluetooth compatibles |
-| Gestión remota | Configuración vía USB, SMS, TCP/IP o BLE; soporte completo de actualizaciones de firmware OTA/FOTA |
-| Protección y entorno | Protección IP65 contra agua y polvo; rango de temperatura de operación -25°C a +85°C |
-| Certificaciones | AIS-140; EMI/EMC AIS-004 |
-| Formato | Dimensiones 98 × 85 × 31 mm; peso \< 185 g; carcasa robusta y compacta para montaje en vehículo/activo |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, historial de rutas, monitorización del comportamiento del conductor y telemetría reportada a lo largo de flotas mixtas.
-- Transporte público y cumplimiento: rastreo certificado AIS-140 para autobuses y vehículos de pasajeros integrado con los informes de Plaspy.
-- Antirrobo e inmovilización: monitorización del encendido, alertas de manipulación y control remoto del inmovilizador para reducir el riesgo de robo y facilitar una respuesta rápida.
-- Equipo pesado y construcción: carcasa IP65 robusta y acceso CAN para monitorizar horas de motor, consumo de combustible y códigos de fallo en vehículos fuera de carretera.
-- Logística y monitorización de generadores: ubicación precisa, monitorización de combustible y telemetría para optimizar la utilización y la programación del mantenimiento.
+- Operaciones de flota que requieren seguimiento continuo, datos de cumplimiento y diagnóstico vehicular en flotas mixtas.
+- Proveedores de transporte público que necesitan rastreo conforme a AIS-140 e integración con sistemas de reporte.
+- Flujos de trabajo anti robo que combinan monitoreo de encendido, alertas de manipulación y controles remotos de inmovilización.
+- Flotas de maquinaria pesada y construcción que precisan dispositivos robustos con acceso a telemetría para planificación de mantenimiento.
+- Logística y operaciones sensibles al combustible que usan monitoreo de consumo e historial de rutas para optimizar la utilización.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El Bharat101 Plus 4G with CAN está diseñado para operadores que requieren un rendimiento confiable del rastreador GPS, telemetría profunda del vehículo vía CAN y una integración simplificada con los servicios de gestión de flotas de Plaspy. La certificación AIS-140, GNSS de múltiples constelaciones y la conectividad LTE Cat-1 aseguran un seguimiento en tiempo real preciso incluso en entornos desafiantes. Sus múltiples opciones de E/S, sensores internos y la carcasa robusta con IP65 lo hacen adecuado para flujos de trabajo anti-robo, monitoreo de combustible, alertas por encendido y casos de uso telemáticos avanzados.
+El Bharat101 Plus 4G con CAN es una opción práctica para organizaciones que necesitan un equipo telemático robusto y orientado a estándares, con acceso profundo a telemetría del vehículo. Su certificación, GNSS multiconstelación, acceso al bus CAN y sensores integrados lo convierten en una buena opción para los usuarios de Plaspy que buscan combinar reportes de cumplimiento y visión operativa desde un único dispositivo.
 
-Elegir este dispositivo compatible con Plaspy ofrece un endpoint telemático escalable que admite gestión remota \(OTA/FOTA\), almacenamiento local de datos en búfer y configuración flexible vía USB, BLE, SMS o TCP/IP. Para los gestores de flotas enfocados en fiabilidad, cumplimiento y conocimientos operativos accionables —a lo largo de transporte por camión, transporte público, construcción o minería—, el Bharat101 Plus 4G with CAN proporciona la base de hardware para desbloquear seguimiento en tiempo real, señales de mantenimiento predictivo y controles antirrobo más robustos a través de la plataforma de Plaspy.
+Integrado con Plaspy, este rastreador simplifica la recolección de datos, mejora la visibilidad sobre el estado y comportamiento del vehículo, y facilita respuestas y reportes automatizados. Para gestores de flota centrados en la fiabilidad, requerimientos regulatorios y telemetría accionable, el Bharat101 Plus 4G con CAN ofrece una base de hardware sólida que se integra con los flujos de monitoreo e informes de Plaspy.
 
+Obtenga más información sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por favor verifique las especificaciones actuales en el sitio oficial de iTriangle https://www.itriangle.net/.

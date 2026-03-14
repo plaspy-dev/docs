@@ -2,61 +2,59 @@
 slug: /teltonika/tft100
 id: tft100
 sidebar_label: TFT100
+title: Teltonika - TFT100
 sidebar_class_name: menu_item_tracker
+description: Rugged Teltonika TFT100 2G tracker for e mobility and high voltage industrial vehicles Plaspy compatible for fleet tracking and telemetry
+keywords:
+  - Teltonika TFT100
+  - TFT100 tracker
+  - TFT100 Plaspy
+  - TFT100 GPS tracker
+  - Teltonika tracker
+  - e mobility tracker
+  - industrial vehicle tracker
+  - fleet tracking
+  - vehicle telemetry
+  - IP67 tracker
 ---
+
 # Teltonika - TFT100
 
 ![TFT100](./tracker.png)
 
-The Teltonika TFT100 is a rugged 2G GPS tracker engineered for e-mobility and high-voltage industrial vehicles — forklifts, telehandlers, loaders and other heavy machinery. Plaspy compatible out of the box, the TFT100 delivers dependable position fixes and rich vehicle telemetry in harsh outdoor environments thanks to its IP67-rated enclosure and a wide 10–97 V power input range. Designed for fleets and assets that operate in demanding conditions, the TFT100 brings the core capabilities fleet managers expect: reliable GPS tracker performance, vehicle-bus integration and extensible sensor support.
+The Teltonika TFT100 is a rugged 2G GPS tracker engineered for e mobility and high voltage industrial vehicles such as forklifts, telehandlers, loaders and other heavy machinery. Designed with an IP67 rated enclosure and a wide 10–97 V input range, the device is intended to operate reliably in harsh outdoor and industrial environments where robust power handling and weather resistance are essential.
 
-When integrated with Plaspy, the TFT100 enables real-time tracking, telemetry visualization and fleet management workflows tailored to e-mobility operations. Its multiple wired interfaces and Bluetooth Low Energy connectivity let you capture CAN bus data, BLE sensor readings and status signals that feed anti-theft alerts, battery management dashboards and operational reports. Note: Teltonika lists the TFT100 as End of Life; confirm availability and replacement options with Teltonika support or sales before deployment.
+As a Plaspy compatible device out of the box, the TFT100 can feed location and vehicle telemetry into Plaspy for live monitoring and operational oversight. Its support for vehicle bus connectivity and Bluetooth Low Energy sensor pairing makes it a practical choice for fleet managers who need consolidated tracking, telemetry visualization and alerting for e mobility and industrial fleets.
 
 ## Key Highlights
 
-- Rugged IP67 enclosure built for outdoor, high-voltage industrial vehicles and heavy machinery.
-- Wide vehicle power compatibility \(10–97 V\) removes the need for external converters across e-mobility platforms.
-- 2G cellular modem for broad connectivity in supported regions — suitable for location tracking and telemetry uplinks.
-- Direct vehicle integration via CAN, RS232, RS485 and UART interfaces to access BMS and on-board telemetry.
-- Bluetooth Low Energy \(BLE\) for pairing external sensors and beacons \(temperature, humidity, magnet/movement, asset ID\).
-- Multiple interface variants and order codes for flexible installation and custom packaging options.
-- Configured with Teltonika tools \(FOTA WEB, Configurator and product wiki\) to simplify setup and CAN parsing for Plaspy ingestion.
+- Rugged IP67 enclosure built for outdoor and high voltage industrial vehicle environments.
+- Wide 10–97 V power input to accommodate a range of e mobility vehicle systems.
+- 2G cellular connectivity for location reporting and telemetry uplinks in supported regions.
+- Direct vehicle bus and serial interfaces plus BLE to extend telemetry and sensor inputs.
+- Designed for fleet and asset scenarios such as forklifts, telehandlers and loaders.
+- Configurable using Teltonika management tools to prepare data streams for backend platforms like Plaspy.
 
 ## How It Works with Plaspy
 
-Connecting the TFT100 to Plaspy gives you real-time tracking and telemetry for e-mobility and industrial fleets. Configure the device with Teltonika’s Configurator and FOTA WEB to define cellular communication parameters and CAN parsing rules, then direct the tracker’s telemetry stream to your Plaspy instance. Plaspy receives location and sensor data and converts it into live maps, alerts, historical routes and telemetry dashboards suitable for fleet management and maintenance scheduling.
+When connected to Plaspy the TFT100 supplies position fixes and vehicle telemetry that Plaspy converts into maps, alerts and operational reports. Configure the tracker with the vendor tools to define which vehicle signals and sensor data are reported, then point the device telemetry to your Plaspy instance so the platform can display and act on the incoming data.
 
-- Real-time location and telemetry updates appear in Plaspy for live monitoring and historical playback.
-- Vehicle-bus data \(CAN/RS232/RS485/UART\) can provide BMS metrics, state-of-charge indicators and other telemetry to Plaspy.
-- Bluetooth sensors allow Plaspy to ingest temperature, humidity, movement/magnet events and asset-identification beacons.
-- Use CAN-derived events \(for example, charge state or door/alert signals\) to trigger Plaspy alerts and anti-theft workflows.
-- Contact Teltonika for specifics on configuring contactless CAN adapters and routing parsed fields into Plaspy reports.
+- Real time location and historical route playback appear in Plaspy for live monitoring and review.
+- Vehicle bus and serial data can be parsed and surfaced in Plaspy dashboards for battery and system status visibility.
+- BLE connected sensors provide environmental and movement events that Plaspy can index and graph.
+- Use parsed vehicle events to trigger Plaspy alerts and routine workflows for maintenance and security.
+- Plaspy converts the tracker feed into reports and operational metrics useful for fleet optimization and scheduling.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | TFT100 \(Teltonika\) |
-| --- | --- |
-| Connectivity | 2G cellular modem |
-| Bands / Frequency | 2G \(frequency details vary by regional variant — consult product documentation\) |
-| Power & Battery | Wide input 10–97 V \(suitable for e-mobility high-voltage systems\). No internal backup battery specified in standard documentation. |
-| Interfaces | Variants with CAN, RS485, RS232 or UART. Contactless CAN data acquisition supported via compatible adapters. Standard packages include power supply cable; some custom packages include a micro USB cable. |
-| GNSS | GPS position tracking for real-time location reporting \(accuracy per GNSS conditions; consult manufacturer specs\). |
-| Bluetooth | BLE \(Bluetooth Low Energy\) for external sensors and beacons \(temperature, humidity, magnet/movement, asset identification\). |
-| Remote Management | Supported via Teltonika tools: FOTA WEB, Teltonika Configurator and product wiki for firmware updates and configuration. |
-| Form Factor | Rugged IP67-rated unit intended for vehicle and heavy-equipment installations; multiple package and ordering codes available. |
-| Ordering / EOL | Typical product codes: TFT100TSTAA0 \(CAN\), TFT100TSRAB0 \(RS485\), TFT100TRSAC0 \(RS232\), TFT100TURAD0 \(UART\). Custom codes available; listed as End of Life by manufacturer — verify availability. |
-
-## Use Cases
-
-- BMS monitoring for e-forklifts and electric industrial vehicles — capture battery metrics and state-of-charge telemetry via CAN for predictive maintenance.
-- E-mobility fleet management — real-time tracking and utilization analytics to optimize routing, charging and uptime across shared vehicle services.
-- Heavy machinery deployment — position tracking and operation telemetry for telehandlers, loaders and outdoor equipment in harsh conditions.
-- Environmental and asset sensing — BLE-connected temperature/humidity sensors and magnet/movement beacons for cold-chain or anti-tamper monitoring.
-- Anti-theft and security workflows — feed vehicle-bus events and BLE beacon alerts into Plaspy to trigger immobilization or alarm routines when combined with appropriate vehicle controls.
+- Monitoring battery management system metrics for e forklifts and electric industrial vehicles.
+- E mobility fleet tracking to optimize routing, charging cycles and vehicle utilization.
+- Position and operation oversight for heavy machinery operating outdoors in demanding conditions.
+- Environmental and asset monitoring using BLE sensors for temperature, humidity and tamper detection.
+- Anti theft and security workflows that combine bus events and sensor alerts into response rules.
 
 ## Why Choose This Tracker with Plaspy
 
-Pairing the Teltonika TFT100 with Plaspy gives fleet and operations teams a focused solution for e-mobility and industrial vehicle management. The tracker’s wide power input and IP67 construction make it reliable for rugged installations, while direct CAN and serial interfaces provide rich telemetry for BMS, battery safety and operational analytics. Bluetooth sensors extend visibility for environmental monitoring and asset identification. Using Plaspy as your platform, you gain real-time tracking, telemetry-driven alerts and fleet management features without rebuilding integrations — Plaspy consumes the tracker’s telemetry and converts it into actionable dashboards and reports.
+The TFT100 is suitable for organizations that operate e mobility and high voltage industrial fleets and need a durable tracker that can deliver core telemetry to a fleet management platform. Its rugged construction and broad vehicle power compatibility reduce installation concerns in harsh environments, while onboard interfaces and BLE support enable richer data collection that Plaspy can turn into actionable insight.
 
-Before purchase, confirm current availability and EOL implications with Teltonika sales. For deployment, use Teltonika Configurator and FOTA WEB to prepare the TFT100, define CAN parsing rules and pair BLE sensors so that Plaspy can immediately display location, telemetry and alerts for efficient fleet management and anti-theft operations.
-
+If you are evaluating devices for e mobility or heavy equipment fleets, the TFT100’s feature set makes it a practical fit when paired with Plaspy for centralized tracking, alerts and reporting. Learn more about Plaspy on our main website https://www.plaspy.com and verify current product availability and specification details with the manufacturer documentation at https://www.teltonika-gps.com/ since specifications and product status can change over time.

@@ -2,22 +2,62 @@
 slug: /xirgo/xt_2100
 id: xt_2100
 sidebar_label: XT-2100
+title: Xirgo - XT-2100
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto para vehículos y activos con GPRS integrado y compatibilidad con Plaspy para flotas y seguimiento remoto
+keywords:
+  - xirgo xt-2100
+  - xt-2100
+  - rastreador xirgo
+  - rastreador GPS XT-2100
+  - XT-2100 compatible con Plaspy
+  - rastreo de flotas
+  - seguimiento de activos
+  - gestión de recursos móviles
+  - monitoreo comportamiento del conductor
+  - rastreador GPS cuatribanda
 ---
+
 # Xirgo - XT-2100
 
 ![XT-2100](./logo.jpg)
 
-El Xirgo XT-2100 es un rastreador GPS que cuenta con un módem GPRS celular y GPS integrado, lo que lo convierte en una solución ideal para el seguimiento y control remoto de activos móviles. Este dispositivo es ampliamente utilizado en aplicaciones como la gestión de recursos móviles, el mercado de accesorios del automóvil, soluciones de consumo y el seguimiento y modificación del comportamiento del conductor.
+El Xirgo XT-2100 es un rastreador GPS compacto e integrado, pensado para la supervisión y el control de activos móviles y remotos. Integra un motor GPS y un módem celular GPRS para ofrecer actualizaciones continuas de posición, rumbo y velocidad. Su diseño reducido y las antenas integradas permiten una instalación discreta en vehículos y otros activos móviles. El equipo incluye entradas digitales de propósito general, una entrada analógica interna para monitorear el voltaje de la batería y una salida digital que puede accionar relés externos.
 
-El XT-2100 es un dispositivo de seguimiento totalmente integrado que utiliza redes GSM/GPRS para comunicar información de ubicación de vehículos a los propietarios. Con su motor de GPS integrado y antenas GPS y celulares incorporadas, este rastreador proporciona una solución rentable para monitorear la ubicación, velocidad y dirección de los vehículos. Además, cuenta con dos entradas digitales de uso general y una entrada analógica interna para monitorear el voltaje de la batería. También ofrece una salida digital que puede controlar relés de encendido. Para aquellos casos en los que se requiere una mayor sensibilidad GPS, el XT-2100 ofrece la opción de utilizar una antena GPS externa. Su diseño compacto permite que se pueda ocultar en lugares estrechos.
+Como dispositivo compatible con Plaspy, el XT-2100 puede enviar datos de ubicación y estado a Plaspy para la supervisión de flotas y la gestión operativa. Su compatibilidad con métodos comunes de comunicación y la posibilidad de configuraciones y actualizaciones de firmware por aire permiten integrarlo en un flujo de trabajo de rastreo gestionado. Plaspy puede aprovechar los datos entrantes del XT-2100 para ofrecer visibilidad en tiempo real, alertas e informes según las necesidades de gestión de flotas y activos.
 
-El XT-2100 es compatible con redes GSM de cuatro bandas y puede ser utilizado en prácticamente cualquier país donde haya una red GSM disponible. Además, cuenta con un firmware altamente maduro que es compatible con los protocolos TCP, UDP y FTP. También es capaz de actualización del firmware y la configuración.
+## Aspectos destacados
 
-Características destacadas del Xirgo XT-2100:
+- Motor GPS integrado y módem celular GPRS para reportes continuos de posición
+- Diseño compacto con antenas integradas para instalaciones discretas en espacios reducidos
+- Proporciona datos de ubicación, velocidad y rumbo para visibilidad de vehículos y activos
+- Dos entradas digitales de propósito general y una entrada analógica interna para monitoreo básico
+- Salida digital disponible para controlar encendido o relés externos
+- Soporta configuración y actualizaciones de firmware por aire para manejo remoto
+- Compatibilidad cuatribanda para despliegues en amplias zonas geográficas
 
-- Antenas celulares y GPS integradas
-- Motor de GPS de alta precisión
-- Compatible con los protocolos TCP, UDP y FTP
-- Amplias entradas y salidas
+## Cómo funciona con Plaspy
 
+El XT-2100 puede alimentar a Plaspy con telemetría frecuente y consistente, de modo que su equipo obtenga una conciencia situacional clara sobre vehículos y activos. Cuando usted configure el dispositivo para comunicarse con Plaspy, los mensajes de ubicación y estado pasan a formar parte del ecosistema de rastreo de Plaspy, permitiendo visualización, alertas e informes históricos.
+
+- Los datos de ubicación y movimiento en tiempo real aparecen en los mapas y paneles de Plaspy
+- Los cambios en las entradas digitales y las lecturas de voltaje analógico pueden activar alertas y eventos
+- Plaspy puede generar informes y reproducir trayectos basados en el historial de posiciones del XT-2100
+- Se pueden configurar alertas por exceso de velocidad, entrada o salida de geocercas y otras condiciones
+- Las capacidades de configuración remota y actualización de firmware reducen la necesidad de manipular físicamente los equipos
+
+## Casos de uso típicos
+
+- Rastreo y supervisión de rutas para flotas comerciales de vehículos ligeros y medianos
+- Gestión de recursos móviles para operaciones de servicio y entrega
+- Rastreo posventa en automóviles para recuperación y monitoreo
+- Soluciones de monitoreo vehicular para consumidores que requieren ubicación y estado básico
+- Programas de observación y mejora del comportamiento del conductor mediante datos de posición y movimiento
+
+## Por qué elegir este rastreador con Plaspy
+
+El XT-2100 es una opción práctica para organizaciones que requieren un rastreador compacto y sencillo que entregue información esencial de ubicación y estado. Sus comunicaciones integradas y la gestión por aire lo hacen adecuado cuando las actualizaciones remotas y la supervisión centralizada son importantes. Los puntos de E/S disponibles ofrecen entradas simples y una salida para monitoreo y control básico que complementan los flujos de trabajo en Plaspy.
+
+Usado con Plaspy, el XT-2100 suministra los datos que la plataforma necesita para ofrecer visibilidad operativa, gestión de eventos e informes sin complejidad innecesaria. Para equipos que buscan un rastreador fiable que se integre con sistemas de rastreo de flotas y activos ya establecidos, el XT-2100 y Plaspy constituyen una solución equilibrada.
+
+Para saber más sobre Plaspy y cómo funciona la compatibilidad de dispositivos visite https://www.plaspy.com. Las especificaciones y la disponibilidad de los productos pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y la información de soporte con el fabricante en https://xirgo.com/.

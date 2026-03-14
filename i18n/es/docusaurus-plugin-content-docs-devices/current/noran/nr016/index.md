@@ -2,63 +2,59 @@
 slug: /noran/nr016
 id: nr016
 sidebar_label: NR016
+title: Noran - NR016
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS para vehículos NR016 compatible con Plaspy, con seguimiento en tiempo real, alertas antirrobo e inmovilización remota
+keywords:
+  - Noran NR016
+  - Rastreador GPS NR016
+  - rastreador Noran
+  - NR016 compatible con Plaspy
+  - rastreo de vehículos
+  - gestión de flotas
+  - antirrobo
+  - rastreo en tiempo real
+  - alarma SOS
+  - inmovilización remota
 ---
+
 # Noran - NR016
 
 ![NR016](./tracker.jpg)
 
-El Car Alarm GPS Tracker NR016, de una familia de hardware consolidada, ofrece rastreo compatible con Plaspy, enfocado en vehículos, y protección antirrobo para automóviles, taxis, autobuses y flotas comerciales. Combinando posicionamiento por GPS con comunicaciones GSM/GPRS y soporte 3G, el NR016 proporciona seguimiento en tiempo real fiable, alertas SOS, inmovilización remota y telemetría de entradas múltiples que se integran sin problemas en la plataforma Plaspy para la gestión centralizada de flotas y la monitorización de seguridad.
+El NR016 es un rastreador GPS con función de alarma diseñado para la seguridad vehicular y la telemática de flotas. Perteneciente a una familia de hardware consolidada, combina posicionamiento por satélite GPS con comunicación GSM GPRS y soporte 3G para ofrecer actualizaciones continuas de ubicación, alertas SOS, inmovilización remota y telemetría con múltiples entradas. El dispositivo está orientado a automóviles, taxis, autobuses y flotas comerciales que requieren protección antirrobo práctica junto con funciones rutinarias de seguimiento.
 
-Diseñado para instaladores y operadores de flotas que requieren funcionalidad antirrobo robusta y telemática práctica, el NR016 admite entradas de estado ACC, puertas, maletero y capó, detección de vibración/choque y monitoreo de voz remoto. Cuando se combina con Plaspy, el NR016 alimenta la posición en tiempo real, eventos de alarma y telemetría de sensores en paneles, alertas e informes que facilitan la recuperación de vehículos robados, reducen el tiempo de inactividad y mejoran la visibilidad operativa.
+Como dispositivo compatible con Plaspy, el NR016 envía posiciones, eventos de alarma y telemetría de sensores a los flujos centralizados de gestión de flotas. Plaspy puede ingerir esos datos para mostrar mapas en tiempo real, activar alertas y generar informes históricos, lo que convierte al NR016 en una opción relevante para operadores que desean herramientas integradas de monitoreo y recuperación sin reemplazar su plataforma telemática existente.
 
-## Aspectos Destacados
+## Puntos clave
 
-- Seguimiento en tiempo real compatible con Plaspy mediante GPS y localización híbrida por estación base móvil para actualizaciones de posición consistentes.
-- Funciones antirrobo para vehículos: alarma SOS, alarma de sobrevelocidad, geocercas y alertas inmediatas a números designados o plataformas.
-- Inmovilizador remoto y capacidad de corte para desactivar combustible o energía de forma remota para recuperación ante el robo y control de la flota.
-- I/O completos: 10 entradas/salidas digitales/analógicas para ACC, monitoreo de puertas, maletero y capó, relés y sensores externos.
-- Sensor de vibración integrado y accesorio de vibración externo para detección de manipulación y golpes.
-- Batería de respaldo \(~400 mAh\) para mantener la operación y enviar alarmas si se retira la alimentación del vehículo.
-- Accesorios incluidos: antena GPS, antena GSM, micrófono, botón SOS, sirena de alarma, relé, cables de conexión, sensor de vibración.
+- Funciones de seguimiento y antirrobo enfocadas en vehículos y flotas comerciales
+- Actualizaciones de ubicación en tiempo real mediante GPS con localización híbrida por estaciones base móviles para posiciones más consistentes
+- Alarma SOS, geo cercas configurables e informes de eventos de alarma para notificaciones rápidas
+- Inmovilización remota mediante salidas de relé para ayudar en la recuperación tras un robo y en el control de flotas
+- Entradas y salidas múltiples para detectar encendido, puertas, cajuela y cofre, además de controlar periféricos
+- Detección de vibración integrada y accesorios incluidos como micrófono y botón SOS para monitoreo por voz y alertas por manipulación
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se instala en un vehículo, el NR016 transmite datos de ubicación y eventos a través de GSM/GPRS \(y 3G cuando esté disponible\) a los servidores de Plaspy. Plaspy ingiere coordenadas GPS, datos de ubicación basada en red híbrida \(LBS\) y telemetría digital/analógica del dispositivo para entregar mapas en tiempo real, alertas e informes históricos. Los administradores pueden configurar geocercas, umbrales de sobrevelocidad y destinatarios de alarmas dentro de Plaspy para recibir notificaciones oportunas y obtener información accionable.
+Instalado en un vehículo, el NR016 transmite datos de ubicación y eventos a través de redes móviles hacia Plaspy. La plataforma recibe coordenadas GPS, información de localización híbrida y telemetría digital o analógica del equipo, y consolida esas corrientes en paneles, alertas e informes para supervisión operativa y respuesta de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(GPS + localización híbrida por estación base móvil\) en los paneles y alertas de Plaspy.
-- Informe del estado de encendido \(ACC\), puertas, maletero y capó para un registro preciso de viajes y eventos de seguridad.
-- Capacidad de control de combustible y energía mediante salidas de relé y entradas analógicas — admite corte remoto para inmovilización.
-- Monitoreo de voz remoto \(escucha\) y alertas del botón SOS enviadas a Plaspy para una respuesta rápida ante incidentes.
-- Detección de vibraciones/golpes y avisos de batería baja enviados como alarmas a Plaspy para detección de manipulación y planificación de mantenimiento.
+- Actualizaciones en vivo de ubicación y telemetría que se muestran en los paneles y mapas de Plaspy
+- Eventos de encendido, puertas, cajuela y cofre registrados para análisis de viajes y seguridad
+- Comandos de corte y relé remotos disponibles desde la plataforma para inmovilización
+- Alarmas SOS y alertas de monitoreo por voz integradas en los flujos de incidentes de Plaspy para verificación
+- Alarmas por vibración y batería baja enviadas a Plaspy para detección de manipulación y planificación de mantenimiento
 
-## Resumen Técnico
+## Casos de uso típicos
 
-| Modelo | NR016 \(Car Alarm GPS Tracker\) |
-| --- | --- |
-| Conectividad | GSM/GPRS \(SIMCOM900D\), posicionamiento por satélite GPS; admite informes por Internet o SMS |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(GSM\) y 2100 MHz \(soporte 3G\) |
-| GNSS | Chipset GPS: SIRF3; admite posicionamiento GPS y localización híbrida por estación base móvil |
-| Alimentación y Batería | Alimentación de operación 6.3V–40V DC; corriente de funcionamiento 60–150 mA; batería de respaldo integrada ≈ 400 mAh |
-| Condiciones de Operación | Temperatura -40°C a 85°C; Humedad 10%–90% |
-| Interfaces | 10 I/O digitales/analógicas para sensores, entrada de encendido, relés y periféricos externos; incluye relé |
-| Alarmas y Sensores | Alarma SOS, sobrevelocidad, geocercas, aviso de batería baja, detección de vibración/golpes, micrófono para monitoreo de voz |
-| Accesorios Incluidos | Antena GPS, antena GSM, micrófono, botón SOS, sirena de alarma, relé, cables de conexión, sensor de vibración |
-| Formato | Aprox. 131 × 75 × 30 mm — instalación compacta en vehículo |
-| Bluetooth | Sin módulo Bluetooth especificado \(los sensores Bluetooth a nivel de plataforma pueden combinarse con Plaspy por separado\) |
-| Gestión Remota | Comandos y alarmas a través de SMS/Internet; corte remoto de combustible o energía; monitoreo de voz remoto |
-
-## Casos de Uso
-
-- Gestión de flotas: seguimiento en tiempo real continuo, historial de rutas y alertas de sobrevelocidad para taxis, autobuses de traslado y flotas de reparto.
-- Antirrobo de vehículos: integrarse con sistemas de alarma de fábrica, activar alertas SOS y inmovilizar vehículos de forma remota para facilitar la recuperación.
-- Telemática y comportamiento del conductor: monitorizar ciclos de encendido, eventos de velocidad y actividad de puertas/maletero para seguridad y generación de informes de cumplimiento.
-- Monitoreo remoto de activos de alto valor: detección de vibraciones y geocercas alertan a los operadores sobre movimientos no autorizados.
-- Respuesta de emergencia integrada: el botón SOS y el monitoreo de voz permiten verificación rápida de incidentes y notificaciones a través de Plaspy.
+- Gestión de flotas para taxis, autobuses de enlace y vehículos de reparto con seguimiento continuo e historial de rutas
+- Sistemas antirrobo para vehículos que combinan alertas SOS e inmovilización remota para facilitar la recuperación
+- Telemática y monitoreo de conducta del conductor usando registros de encendido y eventos de puertas para cumplimiento
+- Monitoreo remoto de vehículos o activos de alto valor con detección de vibraciones y geo cercas
+- Respuesta de emergencia integrada donde SOS y monitoreo por voz permiten una verificación rápida del incidente
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el NR016 como rastreador GPS compatible con Plaspy ofrece a los gestores de flotas y a los equipos de seguridad una opción robusta, diseñada para vehículos, que equilibra controles antirrobo con datos telemáticos necesarios para una gestión eficiente de la flota. Su I/O de múltiples entradas, salidas de relé para inmovilización y su sensor de vibración integrado lo hacen práctico para instalaciones que requieren monitoreo de ACC, puertas y maletero, además de control directo del vehículo. Plaspy convierte las señales crudas de ubicación y alarmas del NR016 en mapas en tiempo real, alertas configurables e informes históricos, lo que facilita una recuperación más rápida, reduce las falsas alarmas y proporciona una inteligencia operativa más clara.
+El NR016 ofrece un equilibrio entre controles antirrobo y entradas telemáticas que lo hacen práctico para organizaciones que usan Plaspy. Sus múltiples entradas y salidas de relé permiten reportar y gestionar señales y acciones comunes del vehículo desde una sola plataforma, y los sensores integrados ayudan a reducir falsas alarmas y a acelerar la detección de incidentes. Plaspy convierte las señales del dispositivo en visibilidad accionable mediante alertas configurables, mapas en vivo e informes históricos, apoyando una recuperación más rápida y una visión operativa más clara.
 
-Como el NR016 admite localización híbrida, múltiples tipos de alarma y conectividad GSM/3G estándar, se integra fácilmente en los flujos de trabajo existentes de Plaspy sin modificaciones complicadas. Úselo para hacer cumplir el cumplimiento de rutas, monitorizar el encendido y la telemetría, y combinar las fuentes del dispositivo con herramientas a nivel de plataforma, como sensores Bluetooth o entradas de monitorización de combustible, para construir una solución telemática completa adaptada a las necesidades de su flota.
-
+Si desea evaluar cómo el Noran NR016 podría encajar en su flota o en su esquema de seguridad, conozca más sobre Plaspy en https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden variar con el tiempo, por lo que verifique las especificaciones técnicas y la lista de accesorios actuales en el sitio oficial del fabricante http://www.norantracker.com/ antes de realizar la compra final.

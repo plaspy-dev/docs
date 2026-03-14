@@ -2,58 +2,60 @@
 slug: /trackerking/ec35
 id: ec35
 sidebar_label: EC35
+title: TrackerKing - EC35
 sidebar_class_name: menu_item_tracker
+description: Rastreador TrackerKing EC35 resistente compatible con Plaspy para seguimiento en tiempo real telemetría inmovilizador e historial de rutas
+keywords:
+  - TrackerKing EC35
+  - EC35 rastreador GPS
+  - TrackerKing EC35 Plaspy
+  - EC35 seguimiento de flotas
+  - EC35 rastreador vehicular
+  - Rastreador compatible con Plaspy
+  - EC35 resistente al agua
+  - EC35 monitoreo de combustible
+  - EC35 inmovilizador remoto
+  - EC35 rastreador 4G
 ---
+
 # TrackerKing - EC35
 
 ![EC35](./tracker.jpg)
 
-El TrackerKing EC35 es un rastreador GPS robusto y compatible con Plaspy, diseñado para entornos vehiculares exigentes. Construido alrededor de un módulo Quectel 4G Cat1 con conmutación automática a 2G, el EC35 ofrece seguimiento en tiempo real, telemetría fiable y reproducción del historial de rutas para automóviles, camiones y motocicletas. Su impermeabilización IP68, su amplio rango de entrada de 9–90 V y su batería interna de respaldo hacen del EC35 una opción práctica donde la disponibilidad y la durabilidad importan.
+El TrackerKing EC35 es un rastreador GPS robusto diseñado para entornos vehiculares exigentes. Basado en un módulo Quectel 4G Cat1 con conmutación automática a 2G, el EC35 ofrece seguimiento de ubicación en tiempo real, reproducción del historial de rutas y telemetría confiable para autos, camiones y motocicletas. Cuenta con protección IP68, un amplio rango de entrada de 9–90V y una batería interna de respaldo para mantener la operatividad en condiciones adversas.
 
-El EC35 integra interfaces de sensores para monitoreo de combustible, detección de temperatura e identificación del conductor \(IButton\), además de módulos de relé Bluetooth opcionales para ampliar la telemetría y la conectividad en sitio. Diseñado para reportar mediante protocolos estándar de rastreo como GT06, JT808 y Tianqin, el EC35 se instala fácilmente y se empareja con Plaspy para la gestión de flotas, protección antirrobo, control remoto del inmovilizador y generación de informes detallados del vehículo.
+Como dispositivo compatible con Plaspy, el EC35 puede funcionar como un punto final telemático completo para la administración de flotas y activos. Su soporte para protocolos de rastreo ampliamente utilizados y su variedad de interfaces para sensores facilitan la integración con Plaspy para mapas en vivo, alertas, reproducción histórica y flujos de trabajo de inmovilizador remoto sin necesidad de desarrollos personalizados extensos.
 
-## Aspectos clave
+## Características principales
 
-- Compatible con Plaspy: admite los protocolos GT06, JT808 y Tianqin para una integración sencilla con el seguimiento en tiempo real e informes de Plaspy.
-- Seguimiento en tiempo real fiable sobre 4G Cat1 con conmutación automática a 2G para mantener la conectividad en áreas de cobertura diversas.
-- Impermeabilización IP68 y diseño robusto para automóviles, camiones, equipos pesados y motocicletas en condiciones adversas.
-- Amplio rango de entrada 9–90V y batería interna de respaldo para garantizar telemetría continua y alertas por fallo de alimentación.
-- Detección de encendido integrada \(ACC\) y soporte de encendido virtual para un registro preciso de kilometraje, eventos de encendido y telemetría de la flota.
-- Soporte para sensores externos de nivel de combustible y temperatura para habilitar el monitoreo de combustible y la visibilidad de la cadena de frío cuando sea necesario.
-- Corte remoto del motor y del combustible para funciones antirrobo y control estilo inmovilizador desde Plaspy.
-- Identificación del conductor con IButton y relé Bluetooth opcional integrados en Plaspy para atribución del conductor y emparejamiento de sensores locales.
+- Compatibilidad con Plaspy mediante soporte de protocolos estándar de rastreo para una integración de servidor sencilla.
+- Conectividad 4G Cat1 con conmutación automática a 2G para mantener el seguimiento en áreas con cobertura variable.
+- Carcasa con certificación IP68 y amplio rango de entrada 9–90V para uso fiable en automóviles, camiones, motocicletas y maquinaria pesada.
+- Batería interna de respaldo que preserva los reportes durante la pérdida de la alimentación principal y permite alertas por fallo de energía.
+- Entradas integradas para nivel de combustible, sensores de temperatura e identificación de conductor, con módulos Bluetooth relay opcionales.
+- Capacidad de corte remoto de motor y combustible para control antirobo e inmovilizador desde plataformas de gestión.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el EC35 se convierte en un punto final telemático completo: envía ubicación, telemetría de sensores y eventos de estado al servidor de Plaspy utilizando protocolos de rastreo GPS estándar de la industria. Plaspy ingiere los informes TCP/UDP del dispositivo para proporcionar mapas en tiempo real, alertas, reproducción histórica y paneles de flota. Las características del EC35—como la detección ACC de encendido, las entradas de sensores externos y el corte remoto—se exponen en Plaspy para reglas automatizadas, notificaciones y flujos de trabajo de control remoto.
+Cuando está conectado a Plaspy, el EC35 envía ubicación, telemetría de sensores y eventos de estado a los servidores de Plaspy usando formatos de rastreo estándar de la industria. Plaspy procesa estos reportes para mostrar ubicaciones en vivo, alertas basadas en eventos, reproducción de rutas y paneles de control a nivel de flota, además de habilitar acciones remotas cuando el dispositivo lo permite.
 
-- Ubicación y telemetría en tiempo real transmitidas a Plaspy vía 4G Cat1 \(con conmutación a 2G\) para un seguimiento continuo.
-- Eventos de encendido y encendido virtual reportados a Plaspy para kilometraje, horas de motor y analítica basada en uso.
-- Monitoreo de combustible y datos de sensores de temperatura externa transmitidos a Plaspy para gestión de combustible y visibilidad de la cadena de frío.
-- Corte remoto del motor y del combustible \(control estilo inmovilizador\) accionable desde los paneles y alertas de Plaspy.
-- Relé Bluetooth opcional e ID de conductor con IButton integrados en Plaspy para atribución del conductor y emparejamiento de sensores locales.
+- Transmisión en tiempo real de ubicación y telemetría a Plaspy para visibilidad continua de la flota.
+- Reporte de eventos de encendido y eventos virtuales de ignición a Plaspy para seguimiento de kilometraje y análisis de uso.
+- Datos de nivel de combustible y de sensores de temperatura externa entregados a Plaspy para monitoreo de consumo y visibilidad de la cadena de frío.
+- Corte remoto de motor y combustible accionable desde los paneles de Plaspy para respuesta ante robos y flujos de trabajo de inmovilizador.
+- Atribución de conductor mediante IButton y relé Bluetooth opcional presentada dentro de Plaspy para reportes y eventos a nivel de conductor.
+- Reproducción del historial de rutas e informes recuperables para revisión de incidentes y análisis operativo.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Módulo Quectel 4G Cat1 con conmutación automática a 2G |
-| --- | --- |
-| Bandas | 4G Cat1 \(módulo Quectel\) con conmutación a 2G; las variantes de bandas de red específicas dependen del modelo/región |
-| Alimentación y batería | Rango de voltaje de entrada amplio: 9–90V; batería interna de respaldo para alertas por fallo de alimentación |
-| Interfaces | Detección de encendido ACC y soporte de encendido virtual; entradas para sensores de nivel de combustible y temperatura; IButton de identificación del conductor; salida para corte remoto de motor/combustible |
-| GNSS | Posicionamiento GPS con reproducción de ruta histórica y retransmisión desde áreas sin señal GPS |
-| Bluetooth | Módulos de relé Bluetooth opcionales y accesorios para emparejamiento de sensores locales y expansiones |
-| Gestión remota | Soporta protocolos estándar de rastreo GPS GT06, JT808, Tianqin; informes TCP/UDP para integración con servidor |
-| Formato | Rastreador compacto para vehículos, carcasa impermeable IP68 adecuada para automóviles, camiones, equipos pesados y motocicletas |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, eventos de encendido y estadísticas de kilometraje para optimizar rutas e informes.
-- Antirrobo y recuperación de vehículos: corte remoto de motor/combustible combinado con geocercas y alarmas de vibración para una respuesta rápida.
-- Monitoreo de combustible: integración de sensores externos de nivel de combustible para detectar robos, ineficiencia y tendencias de consumo.
-- Cadena de frío y carga sensible a la temperatura: sensores externos de temperatura retransmiten telemetría a Plaspy para cumplimiento y alertas.
-- Protección de motocicletas y seguimiento de equipos pesados: impermeabilización IP68 y amplio rango de voltaje para despliegues en exteriores en condiciones adversas.
+- Gestión de flotas y optimización de rutas con posición en tiempo real, eventos de encendido y reproducción histórica.
+- Protección antirobo y recuperación mediante control de inmovilizador combinado con geocercas y alertas.
+- Monitoreo de combustible para detectar hurto, ineficiencias y analizar tendencias de consumo entre vehículos.
+- Monitoreo de cadena de frío y carga sensible a la temperatura con telemetría de sensores de temperatura externos.
+- Rastreo de motocicletas y maquinaria pesada donde se requieren resistencia al agua y amplio rango de tensión de entrada.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El TrackerKing EC35 está diseñado para llevar un seguimiento GPS confiable y telemetría de vehículos a Plaspy con un mínimo esfuerzo de integración. Su soporte para los protocolos GT06, JT808 y Tianqin y el informe TCP/UDP garantiza conectividad compatible con Plaspy lista para usar. Con un amplio rango de voltaje, impermeabilización IP68 y una batería interna de respaldo, el EC35 reduce el tiempo de inactividad y mejora la continuidad de datos para la gestión de flotas y flujos de trabajo de anti‑robo. La detección de encendido integrada, el soporte de sensores de combustible y temperatura y el corte remoto de motor/combustible permiten a los operadores disponer del control e información necesarios para operaciones eficientes, mayor seguridad y telemetría más rica. Para flotas y operadores de activos que buscan un rastreador GPS duradero, compatible con Plaspy, con opciones de sensores flexibles y capacidad de inmovilizador remoto, el EC35 ofrece valor práctico sin configuraciones complejas.
+El TrackerKing EC35 es una opción práctica para organizaciones que necesitan un rastreador vehicular duradero e integrable en una plataforma telemática consolidada. Su combinación de hardware robusto, amplia tolerancia a voltajes de entrada y energía de respaldo ayuda a reducir vacíos de datos y tiempos de inactividad en las operaciones diarias de la flota. Las entradas para sensores y las opciones de identificación de conductor amplían las capacidades del dispositivo más allá del seguimiento básico de posición, posibilitando reportes operativos más completos dentro de Plaspy.
 
+Si desea obtener más información sobre cómo Plaspy puede utilizar el EC35 para el seguimiento de flotas y la seguridad vehicular, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones y opciones actuales con TrackerKing en https://trackerking.cn/.

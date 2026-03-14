@@ -2,63 +2,61 @@
 slug: /queclink/gl52sp
 id: gl52sp
 sidebar_label: GL52SP
+title: QuecLink - GL52SP
 sidebar_class_name: menu_item_tracker
+description: Rastreador Sigfox compacto con GNSS y varios años de autonomía compatible con Plaspy para gestión de flotas y activos
+keywords:
+  - QuecLink GL52SP
+  - GL52SP
+  - rastreador QuecLink
+  - rastreador Sigfox
+  - posicionamiento GNSS
+  - monitoreo de activos
+  - rastreo de flotas
+  - larga duración de batería
+  - mini rastreador
+  - compatible con Plaspy
 ---
+
 # QuecLink - GL52SP
 
 ![GL52SP](./logo..png)
 
-El QuecLink GL52SP es un rastreador de activos en espera mini de Sigfox diseñado para aplicaciones de monitoreo de activos. Con su diseño ultra delgado y mini, es perfecto para el monitoreo de activos estacionarios, control de inventario y otras aplicaciones de gestión de seguimiento que requieren un tamaño pequeño y una larga vida útil de la batería. El GL52SP tiene un tiempo de espera de más de cuatro años, lo que garantiza un seguimiento continuo sin la necesidad de reemplazos frecuentes de batería.
+El QuecLink GL52SP es un rastreador Sigfox de perfil reducido y modo espera diseñado para el monitoreo de activos a largo plazo. Su diseño ultradelgado y compacto, junto con la capacidad de permanecer varios años en espera, lo hacen ideal para supervisión de activos estacionarios, control de inventarios y otras aplicaciones donde el tamaño reducido y la larga autonomía son prioritarios. El GL52SP incorpora posicionamiento GNSS para reportes de ubicación y cuenta con certificación Sigfox de alto nivel para mejorar la conectividad y movilidad en las regiones soportadas.
 
-Una de las características clave del GL52SP es su soporte para posicionamiento GNSS, lo que permite un seguimiento preciso e información de ubicación. También tiene resistencia a las técnicas de interferencia existentes, lo que garantiza un seguimiento confiable e ininterrumpido incluso en entornos desafiantes. El dispositivo está certificado como Sigfox Ready Class 0, lo que proporciona una mejor conectividad de red, movilidad y una mayor tasa de éxito al recibir información y datos.
+Como dispositivo compatible con Plaspy, el GL52SP puede enviar reportes de ubicación y estado a la plataforma Plaspy para facilitar la visibilidad y los informes centralizados. Su prolongada vida en espera y tamaño reducido minimizan las tareas de mantenimiento a la vez que proporcionan actualizaciones de posición fiables para los activos gestionados. Los usuarios de Plaspy pueden incorporar el GL52SP a sus flujos de trabajo de monitoreo de flotas y activos para aprovechar el seguimiento consolidado, las alertas y el análisis histórico de datos.
 
-El GL52SP funciona en la red Sigfox, que ofrece costos de red más bajos en aplicaciones de bajo uso de datos. Admite múltiples regiones, incluyendo Europa, Oriente Medio, África, Brasil, Canadá, México, Puerto Rico, Estados Unidos, América Latina, Asia Pacífico y Rusia.
+## Características principales
 
-Con sus dimensiones compactas de 89.8 × 44 × 10.5 mm y un diseño ligero de 48 g, el GL52SP es fácil de instalar y ocultar. También cuenta con una batería de respaldo con una capacidad de 2400 mAh, lo que garantiza largos tiempos de espera incluso con un consumo mínimo de energía. El dispositivo admite BLE 5.0 para comunicación inalámbrica y tiene indicadores LED para el estado de la alimentación.
+- Perfil ultradelgado y tamaño mini, adecuado para instalación discreta en activos estacionarios
+- Más de cuatro años en modo espera para despliegues a largo plazo con bajo mantenimiento
+- Posicionamiento GNSS para reportes de ubicación precisos
+- Certificación Sigfox de alto nivel que mejora la conectividad y movilidad en la red
+- Diseño pensado para resistir técnicas comunes de interferencia y ofrecer recepción de señal más confiable
+- Soporte para múltiples regiones Sigfox para amplia cobertura geográfica
 
-En general, el QuecLink GL52SP es una opción ideal para aplicaciones de monitoreo de activos que requieren un dispositivo de seguimiento pequeño, duradero y confiable. Su integración Sigfox, posicionamiento GNSS y resistencia a las técnicas de interferencia lo convierten en una solución potente para el seguimiento de activos.
+## Cómo funciona con Plaspy
 
-### Características destacadas:
+Al integrarse con Plaspy, el GL52SP transmite sus mensajes de ubicación y estado a la plataforma, donde son decodificados, almacenados y presentados en los paneles e informes de Plaspy. La plataforma convierte los reportes entrantes en vistas accionables para que los equipos operativos puedan supervisar el estado de los activos, sus movimientos y los patrones de reportes programados desde una sola interfaz.
 
-- Rastreador de activos en espera mini de Sigfox
-- Soporta posicionamiento GNSS
-- Tiempo de espera de más de 4 años
-- Diseño ultra delgado y mini
-- Resistente a las técnicas de interferencia existentes
-- Ideal para aplicaciones de monitoreo de activos
+- Reciba reportes de posición GNSS y vea el historial de ubicaciones en Plaspy
+- Use reportes temporizados para reducir el consumo de datos manteniendo visibilidad periódica
+- Active alertas en Plaspy a partir de detección de movimiento o reportes de activación para monitoreo basado en eventos
+- Consolide datos de dispositivos de múltiples regiones bajo una cuenta Plaspy para supervisión centralizada
+- Genere informes y exporte datos históricos de rastreo para auditorías y control de inventarios
 
-### Especificaciones técnicas:
+## Casos de uso típicos
 
-| Sigfox Especificaciones |
-| --- |
-| Región compatible | RC1: Europa, Francia de Ultramar, Oriente Medio y África RC2: Brasil, Canadá, México, Puerto Rico, EE. UU. RC4: América Latina, Asia Pacífico RC7: Rusia |
-| Frecuencia RF | RC1: Tx:868.13MHz Rx:869.525MHz RC2: Tx:902.2MHz Rx:905.2MHz RC4: Tx:920.8MHz Rx:922.3MHz RC7: Tx:868.8MHz Rx:869.1MHz |
-| Potencia de salida de transmisión | RC1: 13.5dBm \("15" configuración\) RC2: 22.5dBm \("24" configuración\) RC4: 22.5dBm \("24" configuración\) RC7: 13.5dBm \("15" configuración\) |
-| Sensibilidad del receptor | RC1: -127dBm \(600bps, GFSK\) RC2: -129dBm \(600bps, GFSK\) RC4: -129dBm \(600bps, GFSK\) RC7: -127dBm \(600bps, GFSK\) |
-| Tolerancia de error de frecuencia | ±2.5ppm \(25°C\) |
-| Emisión espuria del receptor | -54dBm \(30MHz~12.75GHz\) |
-| Especificaciones GNSS |
-| Tipo GNSS | Receptor GNSS todo en uno u-blox |
-| Sensibilidad | Autónomo: -147 dBm Inicio en caliente: -156 dBm Reacquisición: -160 dBm Seguimiento: -162 dBm |
-| Precisión de posición \(CEP\) | Autónomo: &lt; 2.5m |
-| TTFF \(Cielo abierto\) | Inicio en frío: 27s promedio Inicio en caliente: 27s promedio Inicio rápido: 1s promedio |
-| Especificaciones generales |
-| Dimensiones | 89.8 × 44 × 10.5mm \(3.54’’\(L\) ×1.73’’\(W\) ×0.41’’\(H\)\) |
-| Peso | 48g \(1.69oz\) |
-| Batería de respaldo | Batería de dióxido de manganeso de litio, 2400 mAh |
-| Tiempo de espera \(BLE apagado, sensor de movimiento apagado\) | 1 informe/día: 1750 días 1 informe/6 horas: 540 días |
-| Temperatura de funcionamiento | -20°C ~+60°C |
-| Soporte BLE | BLE 5.0 |
-| Interfaces |
-| Antena Sigfox | Solo interna |
-| Antena GNSS | Solo interna |
-| Antena BLE | Solo interna |
-| Indicador LED | Encendido |
-| Protocolo de interfaz aérea |
-| Conjunto de comandos | Protocolo de interfaz aérea Lite de @Track |
-| Protocolo de transmisión | Protocolo Sigfox |
-| Modos de trabajo | Modo continuo, para seguimiento de emergencia Modo de ahorro de energía, para tiempo de espera prolongado |
-| Informe de programación de tiempo | Informes de posición y estado en intervalos preestablecidos |
-| Detección de movimiento | Alarma de movimiento basada en acelerómetro interno de 3 ejes |
-| Informe de activación | Activación en intervalos preestablecidos |
+- Monitoreo de activos estacionarios como generadores, gabinetes y equipos fijos
+- Control de inventarios para pallets y mercancías almacenadas que requieren verificaciones periódicas de ubicación
+- Supervisión remota de activos donde la larga autonomía reduce las visitas de mantenimiento
+- Rastreo de artículos valiosos o sensibles que requieren dispositivos discretos y compactos
+- Activos distribuidos en distintas regiones donde se prefiere la conectividad de bajo costo de Sigfox
 
+## Por qué elegir este rastreador con Plaspy
+
+El GL52SP es una opción práctica para organizaciones que necesitan un rastreador de bajo mantenimiento para activos estacionarios o que reportan de forma intermitente. Su combinación de factor de forma compacto, posicionamiento GNSS y varios años de espera lo hace adecuado en despliegues donde no se desea reemplazar baterías con frecuencia y la instalación discreta es importante. Emparejado con Plaspy, el dispositivo ayuda a los equipos a centralizar el monitoreo y automatizar alertas e informes sin una gran carga operativa.
+
+Plaspy ofrece la capa de plataforma necesaria para recibir los reportes del GL52SP y presentarlos en contexto para gerentes de flota y responsables de activos. Si requiere un rastreador Sigfox con GNSS enfocado en larga autonomía y reportes periódicos sencillos, el GL52SP junto a Plaspy puede ser una buena opción. Evalúe el dispositivo frente a sus requerimientos de frecuencia de reporte y cobertura regional para confirmar que cumple con sus necesidades operativas.
+
+Para obtener más información sobre Plaspy y cómo se gestionan los rastreadores compatibles en la plataforma visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles y las opciones regionales actuales en el sitio del fabricante https://www.queclink.com/.

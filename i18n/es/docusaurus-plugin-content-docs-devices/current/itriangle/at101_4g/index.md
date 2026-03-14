@@ -2,63 +2,62 @@
 slug: /itriangle/at101_4g
 id: at101_4g
 sidebar_label: AT101 4G
+title: iTriangle - AT101 4G
 sidebar_class_name: menu_item_tracker
+description: Rastreador 4G compatible con Plaspy para seguimiento discreto de activos a largo plazo con batería 10000mAh GNSS multiconstelación y protección contra manipulación
+keywords:
+  - iTriangle AT101 4G
+  - rastreador AT101 4G
+  - rastreador iTriangle
+  - rastreador compatible con Plaspy
+  - rastreador de activos 4G
+  - rastreador con montaje magnético
+  - rastreador GPS de larga batería
+  - GNSS multiconstelación
+  - rastreador con detección de manipulación
+  - rastreador BLE para activos
 ---
+
 # iTriangle - AT101 4G
 
 ![AT101 4G](./tracker.png)
 
-El iTriangle AT101 es un rastreador GPS compatible con Plaspy, diseñado para el seguimiento discreto y a largo plazo de activos. Con una batería interna de alta capacidad de 10000mAh, soporte magnético robusto y GNSS de múltiples constelaciones \(GPS, Galileo, BeiDou\), el AT101 ofrece un seguimiento en tiempo real fiable para una amplia gama de activos sin cables externos. Diseñado para despliegues listos para campo, combina sensores de movimiento, geocercas y detección de manipulación para proporcionar protección antirrobo práctica y telemetría continua hacia la plataforma Plaspy.
+El iTriangle AT101 4G es un rastreador GPS compatible con Plaspy, diseñado para el seguimiento discreto de activos a largo plazo. Combina una batería interna de alta capacidad de 10000mAh, un soporte magnético resistente y posicionamiento GNSS multiconstelación para ofrecer monitorización continua de ubicación sin necesidad de cableado externo. Pensado para despliegues en campo, el dispositivo también incorpora detección de movimiento, geocercas y alertas por manipulación para soportar flujos de trabajo prácticos contra el robo y la recopilación constante de telemetría.
 
-La conectividad 4G LTE Cat 1 del AT101 y su respaldo GSM, junto con BLE 4.0 integrado, antenas internas y gestión OTA/FOTA, facilitan su integración en flotas de gestión y seguridad de activos impulsadas por Plaspy. Ya sea que necesites monitorización duradera sin cables para equipos en alquiler, activos logísticos, maquinaria agrícola o envíos de alto valor, el AT101 ofrece una precisión de ubicación fiable, alertas de eventos y almacenamiento local de datos para mantener tus operaciones informadas y seguras.
+Como dispositivo compatible con Plaspy, el AT101 integra sus actualizaciones de ubicación y alertas de eventos en los flujos de gestión de flotas y activos de Plaspy. Su diseño sin cables, el almacenamiento local en búfer y las capacidades de administración remota lo hacen adecuado para despliegues de baja intervención donde se requiere visibilidad remota, alertas configurables y seguimiento histórico. Esta combinación permite a las operaciones supervisar equipos, envíos y activos temporales desde los paneles de Plaspy con menos mantenimiento en sitio.
 
-## Key Highlights
+## Características principales
 
-- Rastreador GPS compatible con Plaspy: seguimiento en tiempo real con GNSS de múltiples constelaciones \(GPS, Galileo, BeiDou\) para una localización fiable.
-- Funcionamiento sin cables de larga duración gracias a una batería interna de 10000mAh para meses de operación entre cargas.
-- 4G LTE Cat 1 \(nano SIM\), respaldo GSM para una amplia cobertura celular a través de las bandas y regiones indicadas.
-- Montaje magnético robusto para instalación rápida y discreta sin cableado externo — ideal para colocación temporal o encubierta.
-- Detección de movimiento integrada \(acelerómetro, giroscopio\), alertas de geocercas y detección de manipulación \(apertura de carcasa\) para flujos de trabajo anti-robo.
-- Soporte BLE 4.0 para sensores y beacons de corto alcance.
-- Almacenamiento a bordo hasta 40,000 registros y OTA / FOTA para configuración remota y actualizaciones de firmware compatibles.
+- Seguimiento en tiempo real compatible con Plaspy y posicionamiento GNSS multiconstelación para una localización fiable.
+- Batería interna de alta capacidad de 10000mAh para despliegues prolongados sin alimentación externa.
+- Montaje magnético sin cables para una fijación rápida y discreta sin necesidad de instalación eléctrica.
+- Detección de movimiento, geocercas y alertas por manipulación para apoyar casos de uso de seguridad y anti robo.
+- Soporte BLE 4.0 para integración con sensores de corto alcance e interacciones locales.
+- Gran almacenamiento a bordo con buffering local para preservar registros durante interrupciones de conectividad.
+- Soporte OTA y FOTA para configuración remota y actualizaciones de firmware.
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-El AT101 envía la ubicación GNSS y la telemetría de sensores a Plaspy a través de LTE/GSM utilizando la nano SIM del dispositivo. Plaspy procesa actualizaciones de ubicación, eventos de movimiento, activaciones de geocercas y alertas de manipulación para proporcionar mapas en vivo, rutas históricas y notificaciones configurables. El soporte OTA/FOTA permite a los administradores actualizar la configuración del dispositivo y el firmware de forma remota a través de los flujos de gestión de dispositivos de Plaspy, minimizando las visitas de servicio y manteniendo los dispositivos con las versiones más seguras.
+El AT101 transmite la ubicación GNSS y la telemetría de eventos a Plaspy, donde los datos se visualizan, almacenan y se pueden accionar. Plaspy procesa puntos de ubicación, activaciones por movimiento y geocercas, y alertas por manipulación para ofrecer mapas en vivo, recorridos históricos y notificaciones configurables. Las capacidades de actualización remota permiten a los administradores gestionar ajustes y firmware desde la plataforma, reduciendo visitas a sitio y manteniendo un comportamiento de dispositivo coherente.
 
-- Actualizaciones de ubicación y telemetría en tiempo real hacia Plaspy para monitoreo y generación de informes en vivo.
-- Alertas de movimiento y geocerca: notificaciones inmediatas cuando los activos se desplazan fuera de las zonas definidas.
-- Detección de manipulación \(apertura de carcasa\) reportada a Plaspy para escalamiento de seguridad anti-robo.
-- Soporte BLE 4.0 para integrar sensores y beacons Bluetooth de corto alcance en los paneles de telemetría de Plaspy.
-- Almacenamiento en búfer local \(hasta 40,000 registros\) garantiza la continuidad de datos durante cortes temporales de red; los registros en cola se sincronizan cuando la conectividad se restablece.
+- Transmisión de ubicación y telemetría en vivo a Plaspy para monitoreo en tiempo real.
+- Alertas por movimiento y geocerca encaminadas a Plaspy para notificación y escalamiento inmediato.
+- Reportes de eventos de manipulación para respaldar flujos de seguridad y respuesta rápida.
+- Datos de sensores BLE e interacciones de corto alcance visibles en los paneles de Plaspy.
+- El búfer de datos local garantiza la continuidad de los registros y se sincroniza con Plaspy cuando retorna la conectividad.
 
-## Technical Overview
+## Casos de uso típicos
 
-| Modelo | iTriangle AT101 |
-| --- | --- |
-| Conectividad | 4G LTE Cat 1 \(nano SIM\), respaldo GSM 2G |
-| Bandas | Bandas LTE: B1, B3, B5, B8, B35, B39, B40, B41; GSM: 900/1800 MHz |
-| Batería | Batería interna recargable de 10000mAh \(funcionamiento sin cables\) |
-| Antennas | Antenas internas GSM / GNSS / BLE |
-| GNSS | Posicionamiento multi-constelación GPS, Galileo, BeiDou |
-| Sensores | Acelerómetro y giroscopio \(detección de movimiento\), sensor de manipulación \(apertura de carcasa\) |
-| Bluetooth | BLE 4.0 para sensores y beacons de corto alcance |
-| Almacenamiento | Almacenamiento a bordo hasta 40,000 registros \(registro local\) |
-| Gestión remota | Configuración OTA / FOTA y actualizaciones de firmware compatibles |
-| Ambiental | Temperatura de funcionamiento -25°C a +85°C; protección IP65 |
-| Montaje / Formato | Sin cables, montaje magnético para instalación rápida y discreta |
+- Seguimiento de equipos de renta y activos temporales que requieren despliegues de baja intervención.
+- Monitoreo de activos logísticos, remolques y contenedores para historial de ubicación y movimiento.
+- Protección de envíos de alto valor con geocercas y alertas por manipulación integradas a los flujos de despacho.
+- Vigilancia de maquinaria estacional y agrícola donde la operación sin cables y la robustez son importantes.
+- Programas de seguridad de activos que demandan instalación discreta y notificación fiable de eventos.
 
-## Use Cases
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas y logística: rastrear remolques, contenedores y activos no energizados con ubicación en tiempo real y rutas históricas.
-- Seguridad de activos y anti-robo: alertas de geocerca y detección de manipulación que ayudan a detectar y responder ante movimientos no autorizados.
-- Monitoreo de equipos en renta: larga duración de batería y montaje magnético discreto permiten despliegues de mínimo mantenimiento para alquileres a corto y largo plazo.
-- Monitorización de maquinaria agrícola: carcasa resistente IP65 y amplio rango de temperaturas permiten su uso en maquinaria y equipo estacional.
-- Protección de activos de alto valor: integración de sensores BLE y almacenamiento de datos local protegen la continuidad de la telemetría para objetos valiosos en tránsito o almacenamiento.
+El AT101 4G es una opción práctica para organizaciones que usan Plaspy cuando la autonomía sin cable, el montaje discreto y la gestión remota son prioritarios. Su combinación de GNSS multiconstelación, autonomía de batería interna y detección de eventos proporciona visibilidad constante para activos no alimentados y equipos de campo. El soporte de actualizaciones remotas y el buffering a bordo reducen la carga operativa y ayudan a mantener la continuidad de datos durante interrupciones temporales de la red.
 
-## Why Choose This Tracker with Plaspy
+Integrado en Plaspy, el AT101 alimenta paneles centralizados usados para monitoreo de flota, análisis histórico y alertas, facilitando la correlación de datos de ubicación y eventos entre activos. Si necesita un rastreador de bajo mantenimiento que soporte despliegues discretos y gestión remota de dispositivos, el AT101 es una opción compatible con Plaspy a considerar.
 
-Elegir el iTriangle AT101 como rastreador GPS compatible con Plaspy ofrece a las operaciones una combinación práctica de resistencia, precisión y manejabilidad. La batería de 10000mAh y la instalación magnética sin cables reducen el tiempo de instalación y los ciclos de mantenimiento, mientras que el GNSS de múltiples constelaciones y la conectividad LTE/GSM proporcionan un seguimiento en tiempo real fiable. Sensores de movimiento integrados, geocercas y alertas de manipulación respaldan flujos de trabajo anti-robo; BLE 4.0 facilita extensiones de sensores de corto alcance. OTA/FOTA y un almacenamiento importante a bordo implican menos intervenciones físicas y menos lagunas de datos durante pérdidas de conectividad.
-
-Integrado con Plaspy, el AT101 alimenta telemetría en paneles centralizados para la gestión de flotas, análisis histórico y alertas automáticas. Esta configuración puede formar parte de una estrategia de telemetría más amplia que también incluya monitoreo de combustible, seguimiento de eventos de arranque/antirrobo y sensores Bluetooth cuando esos sistemas estén presentes en la arquitectura de su flota, permitiendo que Plaspy correlacione ubicación, estado y datos de sensores para obtener insights accionables. Para equipos que requieren un seguimiento de activos a largo plazo con compatibilidad de nivel profesional y gestión remota, el AT101 es una opción fiable compatible con Plaspy.
-
+Para más información sobre Plaspy y la gestión de dispositivos compatibles visite el sitio principal de Plaspy https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual en el sitio oficial de iTriangle https://www.itriangle.net/.

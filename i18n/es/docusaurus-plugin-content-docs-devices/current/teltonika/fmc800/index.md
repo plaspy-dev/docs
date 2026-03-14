@@ -2,30 +2,61 @@
 slug: /teltonika/fmc800
 id: fmc800
 sidebar_label: FMC800
+title: Teltonika - FMC800
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto plug and play con conectividad LTE, registro de choques y soporte para sensores Bluetooth LE compatible con Plaspy
+keywords:
+  - Teltonika FMC800
+  - Rastreador FMC800
+  - FMC800 compatible con Plaspy
+  - Rastreador vehicular Teltonika
+  - Seguimiento de flotas FMC800
+  - Registro de choques FMC800
+  - FMC800 Bluetooth LE
+  - Rastreador OBD II FMC800
+  - FMC800 GNSS
+  - Rastreador LTE FMC800
 ---
+
 # Teltonika - FMC800
 
 ![FMC800](./logo..png)
 
-El rastreador GPS Teltonika FMC800 es un dispositivo plug & play con conectividad 4G LTE Cat 1. Ofrece una cobertura de red confiable y futura gracias a su capacidad de retroceso a 2G. La instalación es sencilla, simplemente conecta el dispositivo al puerto OBD-II y comienza a rastrear.
+El Teltonika FMC800 es un rastreador GPS compacto plug and play pensado para la gestión de flotas y el seguimiento vehicular. Diseñado para conectarse fácilmente al puerto OBD II del vehículo, el FMC800 ofrece posicionamiento continuo mediante conectividad celular moderna y soporte multi GNSS. Está construido para proporcionar datos de ubicación precisos e información detallada de registro de choques, manteniéndose discreto tanto en tamaño como en operación.
 
-Una de las características destacadas del FMC800 es su capacidad para proporcionar datos precisos y detallados de trazado de accidentes. Cuenta con una funcionalidad de detección de choques basada en un acelerómetro incorporado de 3 ejes, con parámetros totalmente configurables a través de nuestro software para garantizar datos precisos de trazado de accidentes.
+Como dispositivo compatible con Plaspy, el FMC800 puede integrarse en sus flujos de trabajo de monitoreo de flotas para ofrecer visibilidad en tiempo real y datos de eventos junto con otros activos. Su detección de choques, batería interna de respaldo y soporte Bluetooth LE para sensores auxiliares amplían los tipos de información operativa disponibles en Plaspy sin requerir integraciones de hardware complejas.
 
-Además, el FMC800 ofrece una amplia gama de escenarios de uso del producto. Puede establecer una conexión inalámbrica Bluetooth® LE con dispositivos externos, como sensores de baja energía y balizas, para monitorear la temperatura, la humedad, la detección de imanes y el movimiento.
+## Características principales
 
-El FMC800 también cuenta con una serie de especificaciones técnicas impresionantes. Tiene una antena GNSS interna de alta ganancia y una antena GSM interna de alta ganancia. La memoria interna de 128 MB permite un almacenamiento adecuado de datos. Además, el dispositivo tiene un rango de voltaje de entrada de 10-30 V DC con protección contra sobretensión y polaridad inversa.
+- Instalación plug and play mediante el puerto de diagnóstico del vehículo para un despliegue rápido
+- Conectividad 4G LTE Cat 1 con mecanismos de respaldo para mayor cobertura de red y preparación a futuro
+- Acelerómetro interno de 3 ejes que permite registro de choques y detección de impactos configurable
+- Expansión mediante Bluetooth LE para balizas externas y sensores ambientales
+- Posicionamiento multi GNSS para mejorar la precisión y fiabilidad de la ubicación
+- Factor de forma compacto con batería interna de respaldo para seguimiento ininterrumpido
+- Funciones de eventos integradas como disparadores de geocercas, detección de remolque y alertas por inactividad
 
-En resumen, el rastreador GPS Teltonika FMC800 es una opción confiable y versátil para el monitoreo de flotas. Con su conectividad 4G, instalación plug & play y capacidad de detección de accidentes precisa, es una solución ideal para empresas que desean mantener un control efectivo de sus vehículos.
+## Cómo funciona con Plaspy
 
-### Características destacadas:
+Cuando el FMC800 se conecta a Plaspy, transmite la ubicación y la información de eventos a la plataforma para que usted pueda monitorear vehículos, responder a incidentes y analizar el desempeño de la flota. Plaspy recopila y presenta los datos del rastreador junto con otras entradas de la flota para ofrecer una visión unificada y reportes históricos.
 
-- Conectividad 4G LTE Cat 1
-- Instalación plug & play
-- Detección precisa de accidentes
-- Conexión inalámbrica Bluetooth® LE
-- Antena GNSS interna de alta ganancia
-- Antena GSM interna de alta ganancia
-- Memoria interna de 128 MB
-- Rango de voltaje de entrada de 10-30 V DC
+- Actualizaciones en tiempo real de ubicación y estado visualizadas en los mapas y paneles de Plaspy
+- Registros de choques e impactos enviados a Plaspy para revisión de incidentes y flujos de trabajo de respuesta
+- Datos de sensores Bluetooth LE disponibles en Plaspy para monitorear temperatura, movimiento u otras entradas externas
+- Eventos de geocerca y trayectos generados por el dispositivo aparecen como alertas y entradas en la línea de tiempo de Plaspy
+- Rutas históricas y registros de actividad usados para reportes y análisis operativo
+- Las notificaciones y reglas en Plaspy permiten respuestas automatizadas a eventos clave reportados por el rastreador
 
+## Casos de uso típicos
+
+- Seguimiento de vehículos de flotas comerciales para supervisión de rutas y responsabilidad del conductor
+- Detección de incidentes y análisis postevento usando los registros de choques para revisiones de seguridad
+- Monitoreo de condición de activos con sensores Bluetooth LE para alertas de temperatura o movimiento
+- Gestión de vehículos de renta o leasing donde la instalación plug and play acelera el despliegue
+- Supervisión de vehículos de reparto y servicio urbano que requieren dispositivos compactos y discretos
+
+## Por qué elegir este rastreador con Plaspy
+
+El FMC800 es una opción práctica para organizaciones que necesitan un rastreador sencillo con conectividad celular moderna y reportes avanzados de eventos. Su diseño plug and play reduce el tiempo de despliegue, mientras que la detección de choques configurable y la posibilidad de ampliar con sensores ofrecen datos telemáticos más ricos para flujos de trabajo de seguridad y operación. Usar el FMC800 con Plaspy ayuda a consolidar la posición del vehículo, el historial de eventos y las entradas de sensores en una vista operativa única.
+
+Si está evaluando hardware para el seguimiento de flotas en Plaspy, el FMC800 es una buena opción cuando desea una instalación compacta, capacidad de registro de choques y la opción de añadir sensores inalámbricos externos. Para especificaciones completas, características e información sobre firmware, consulte la documentación del fabricante. Para saber más sobre cómo Plaspy se integra con dispositivos como el FMC800 visite https://www.plaspy.com y verifique los detalles actuales del producto en el sitio oficial de Teltonika https://www.teltonika-gps.com/ ya que las especificaciones y la disponibilidad pueden cambiar con el tiempo.

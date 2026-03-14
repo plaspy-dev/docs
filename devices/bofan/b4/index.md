@@ -2,33 +2,61 @@
 slug: /bofan/b4
 id: b4
 sidebar_label: B4
+title: Bofan - B4
 sidebar_class_name: menu_item_tracker
+description: A basic 4G vehicle tracker offering geofence alerts remote engine cut and cost conscious fleet monitoring
+keywords:
+  - Bofan B4
+  - B4 GPS tracker
+  - Bofan tracker
+  - Bofan B4 Plaspy
+  - Plaspy compatible tracker
+  - 4G vehicle tracker
+  - fleet tracking B4
+  - geofence alert
+  - engine cut
+  - SMS and GPRS tracking
 ---
+
 # Bofan - B4
 
 ![B4](./logo..png)
 
-The Bofan B4 is a basic 4G GPS vehicle tracker that offers excellent performance at a reasonable cost. With its classic design and reliable features, it is a great choice for tracking your vehicles anytime, anywhere. Whether you need to monitor your fleet of vehicles or keep an eye on your personal car, the Bofan B4 has you covered.
+The Bofan B4 is a basic 4G GPS vehicle tracker designed for straightforward vehicle monitoring at a reasonable cost. It offers essential tracking features in a compact, classic package and is positioned for both fleet and personal vehicle use. Core capabilities described by the manufacturer include geofence alerts, remote engine cut, engine operating time monitoring, SMS and GPRS tracking options, internal antennas, and a single ACC input and output for simple integrations.
 
-One of the standout features of the Bofan B4 is its geo-fence alert. This feature allows you to set up a virtual boundary on the tracking platform, and you will receive an alarm notification if your vehicle leaves or enters the preset area. This is particularly useful for fleet management or for keeping track of your personal vehicle's whereabouts.
+Although Bofan promotes the B4 for use with its own platform, the B4 is also compatible with Plaspy, allowing users to integrate the device into Plaspy's fleet management environment. When connected to Plaspy, the device's core features can be used to add location visibility, alerting, and basic operational oversight alongside other devices managed in the same platform.
 
-Another impressive feature of the Bofan B4 is the ability to remotely cut the engine. In the unfortunate event that your vehicle is stolen, you can take immediate action by cutting the engine remotely. This can help prevent further damage or theft of your vehicle.
+## Key Highlights
 
-The Bofan B4 also offers the option to monitor the car engine's working time on the platform. This feature can help you save power and optimize the usage of your vehicle. Additionally, the Bofan B4 is designed to save GPRS costs by not reporting data in car static mode, further reducing your expenses.
+- Basic 4G GPS tracking suitable for cost conscious vehicle monitoring
+- Geo-fence alerting to notify when a vehicle enters or leaves a preset area
+- Remote engine cut capability for theft response and asset protection
+- Engine running time monitoring to help track usage and optimize operations
+- Options for tracking via SMS or live reporting by GPRS for flexible connectivity
+- Designed to reduce GPRS reporting when the vehicle is static to save data costs
+- Internal GSM and GPS antennas with one ACC input and one output for simple control
 
-With its track via SMS or live tracking by GPRS capabilities, the Bofan B4 provides flexibility in how you monitor your vehicles. It also features an internal GSM and GPS antenna for reliable and accurate tracking. The Bofan B4 has 1 ACC input and 1 output, allowing for additional customization and integration with other devices.
+## How It Works with Plaspy
 
-Please note that the Bofan B4 only works with the Bofan platform, ensuring seamless compatibility and a user-friendly experience. If you're looking for a reliable and cost-effective GPS vehicle tracker, the Bofan B4 is an excellent choice.
+The Bofan B4 can be integrated into Plaspy to provide location data, alerts, and basic vehicle control signals alongside other fleet devices. Plaspy can ingest the B4's location updates and event notifications and present them in dashboards and reports that support everyday fleet operations.
 
-### Key Features:
+- Real time location and historical route viewing within Plaspy dashboards
+- Geofence creation and alert delivery through Plaspy when boundaries are crossed
+- Remote engine cut commands coordinated via Plaspy where the device and account configuration allow
+- Engine on time and usage reports available for operational insight and scheduling
+- SMS fallback and GPRS reporting handled so Plaspy can show device activity even with varied connectivity
+- Reduced reporting during static periods reflected in Plaspy to help control data costs
 
-- 4G connectivity for fast and reliable tracking
-- Geo-fence alert to notify you when your vehicle leaves or enters a preset area
-- Remote engine cut to take immediate action in case of theft
-- Engine-on working time monitoring to optimize power usage
-- Save GPRS costs by not reporting data in car static mode
-- Track via SMS or live tracking by GPRS
-- Internal GSM and GPS antenna for reliable tracking
-- 1 ACC input and 1 output for customization and integration
-- Compatible with the Bofan platform for a seamless user experience
+## Typical Use Cases
 
+- Small to medium fleet tracking where cost effective visibility is required
+- Personal vehicle monitoring for location awareness and geofence alerts
+- Theft response workflows that use remote engine cut to limit loss
+- Usage tracking to monitor engine run time for scheduling maintenance or optimizing operations
+- Situations where SMS fallback or reduced reporting in static mode helps lower connectivity expenses
+
+## Why Choose This Tracker with Plaspy
+
+The Bofan B4 is a practical option for organizations seeking a straightforward, budget conscious 4G tracker that covers essential fleet monitoring needs. Its geofence alerts, remote engine cut, and engine run time reporting align with common operational requirements, and combining the B4 with Plaspy brings those signals into a broader fleet management context. Using Plaspy, teams can centralize visibility, configure alert workflows, and include the B4 in mixed device deployments without needing specialized tooling.
+
+Because product descriptions and feature claims vary, the B4 is best considered when the stated functions meet your operational needs and when you confirm behavior in your environment. To learn more about Plaspy and how it can manage devices like the Bofan B4, visit https://www.plaspy.com. Please note that product specifications availability and manufacturer details can change over time so verify current specifications on the manufacturer's official site https://www.bofancloud.com/ before purchase or deployment.

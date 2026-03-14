@@ -2,62 +2,59 @@
 slug: /teltonika/fmc125
 id: fmc125
 sidebar_label: FMC125
+title: Teltonika - FMC125
 sidebar_class_name: menu_item_tracker
+description: Compatibilidad del rastreador profesional Teltonika FMC125 con Plaspy para gestión de flotas monitoreo de combustible y telemetría vehicular
+keywords:
+  - Teltonika FMC125
+  - FMC125 Plaspy
+  - FMC125 rastreador
+  - Teltonika rastreador
+  - seguimiento de flotas
+  - monitoreo de combustible
+  - telemetría vehicular
+  - rastreador GPS
+  - rastreador 4G LTE
+  - identificación de conductor
 ---
+
 # Teltonika - FMC125
 
 ![FMC125](./tracker.png)
 
-El FMC125 es un rastreador GPS de grado profesional diseñado para la gestión de flotas y la telemetría avanzada de vehículos. Compatible con Plaspy desde el inicio, el FMC125 ofrece una conectividad confiable 4G LTE Cat 1 con respaldo a 2G, resiliencia de Dual SIM e interfaces seriales robustas para brindar seguimiento en tiempo real preciso y monitoreo de combustible para logística, transporte y flotas de servicio.
+El FMC125 es un rastreador GPS de grado profesional diseñado para la gestión de flotas y la telemetría vehicular. Orientado a operaciones de logística, transporte y flotas de servicio, el equipo ofrece conectividad celular con respaldo, resiliencia mediante doble SIM e interfaces seriales robustas para recopilar posición GNSS y telemetría externa. El FMC125 admite entradas por impulso para caudalímetros de combustible y entradas de identificación como RFID y sensores 1‑wire, lo que permite un seguimiento preciso y control de combustible en operaciones exigentes.
 
-Concebido para la integración, el FMC125 admite enlaces serial RS232 y RS485 para lectura de datos externos, entradas de impulso para medidores de caudal de combustible y la identificación de conductor o activo mediante RFID y sensores 1-wire. Cuando se combina con Plaspy, este rastreador convierte la telemetría del vehículo en paneles de control, alertas e informes accionables que respaldan flujos de trabajo de anti-robo, análisis de combustible y optimización operativa.
+Como dispositivo compatible con Plaspy desde su configuración inicial, el FMC125 puede transmitir posición y datos de periféricos a Plaspy para alimentar mapas en vivo, alertas e informes. Sus capacidades de transmisión serial y el soporte para unidades de cámara emparejadas lo hacen útil para empresas que necesitan telemetría más detallada, análisis de combustible y evidencia de video correlacionada junto al seguimiento en tiempo real dentro de los tableros de Plaspy.
 
-## Aspectos Clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para un seguimiento en tiempo real confiable y gestión de flotas.
-- Conectividad 4G LTE Cat 1 con respaldo a 2G y Dual SIM para reducir el roaming y asegurar la disponibilidad.
-- Adquisición de datos serial mediante RS232 y RS485 para integrar medidores de caudal de combustible, telemática y cámaras.
-- Entrada de impulso y soporte para sensores RFID y 1-wire permiten un monitoreo de combustible preciso y la identificación del conductor.
-- Soporte de telemática de video Teltonika \(DualCam y Dashcam\) vía RS232 para captura de eventos y recopilación de evidencias.
-- Módulos regionales y códigos de pedido disponibles para cubrir diferentes bandas de frecuencia y mercados.
-- Empaquetado para despliegues profesionales con opciones de pedido al por mayor estándar y personalizables.
+- Rastreador profesional compatible con Plaspy para ubicación y telemetría confiables en flotas.
+- Conectividad 4G LTE Cat 1 con respaldo 2G y Dual SIM para mayor disponibilidad.
+- Interfaces seriales RS232 y RS485 para integrar telemetría externa y periféricos.
+- Entrada por impulso y soporte para RFID y sensores 1‑wire que permiten un monitoreo preciso del combustible y la identificación de conductores.
+- Integración con Teltonika DualCam y Dashcam para correlacionar video con eventos.
+- Opciones de módulos regionales y empaques por volumen para implementaciones profesionales escalables.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-El FMC125 transmite la posición GNSS y la telemetría serial a Plaspy mediante su enlace celular. Plaspy procesa la ubicación, pulsos de impulso, eventos RFID/1-wire y datos seriales de los periféricos conectados para proporcionar mapas en vivo, trazas históricas, alertas e informes de consumo de combustible. Este enfoque integrado ofrece seguimiento en tiempo real y telemetría más rica para los operadores de flotas.
+Al conectarse, el FMC125 transmite posición GNSS y telemetría serial a Plaspy, donde los datos son recibidos, procesados y presentados en mapas, líneas de tiempo e informes. Plaspy convierte recuentos de impulsos, eventos de sensores y flujos seriales en información útil para los operadores de flota, facilitando la supervisión, las alertas y el análisis histórico.
 
-- Actualizaciones de ubicación y telemetría en tiempo real transmitidas por LTE Cat 1 \(con respaldo 2G\) a Plaspy.
-- Monitoreo de combustible vía entrada de impulso: los conteos de pulso de los medidores de caudal se analizan e informan a Plaspy para analytics de consumo.
-- Identificación de conductores y activos mediante RFID y sensores 1-wire, lo que permite informes por conductor y flujos de seguridad.
-- Integración serial \(RS232/RS485\) para telemetría, sensores externos y telemática de video Teltonika DualCam / Dashcam.
-- Operación Dual SIM para mantener la conectividad entre redes y regiones, asegurando seguimiento continuo y alertas de anti-robo.
-- Admite flujos de trabajo que pueden incluir monitoreo del estado de encendido y acciones del inmovilizador cuando se integra con el cableado del vehículo y las reglas de automatización de Plaspy.
-- La compatibilidad con sensores Bluetooth se puede lograr mediante integraciones de Plaspy o gateways externos dentro del ecosistema telemático conectado.
+- Actualizaciones de ubicación en tiempo real y trazas históricas mostradas en los mapas y líneas de tiempo de Plaspy.
+- Monitoreo de combustible basado en el conteo de pulsos de la entrada por impulso, reportado a Plaspy para análisis de consumo y detección de anomalías.
+- Eventos de identificación de conductor y activos provenientes de RFID y sensores 1‑wire para informes por conductor y flujos de seguridad.
+- Integración serial para telemetría externa y correlación con eventos de cámara que enriquecen los registros de incidentes.
+- La resiliencia de la conectividad por Dual SIM ayuda a mantener el flujo continuo de datos y permite a Plaspy generar alertas cuando se interrumpe el enlace.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE Cat 1 con respaldo a 2G; Soporte Dual SIM |
-| --- | --- |
-| Bandas / Variantes | Múltiples módulos regionales y códigos de pedido \(ejemplos: FMC125TLXW01 para EU/MEA, FMC12547XW01 para APAC/LATAM\) |
-| Alimentación y batería | Con alimentación proveniente del vehículo; por lo general se suministra con un cable de alimentación/entrada-salida. No se especifica batería interna en la descripción. |
-| Interfaces | RS232, RS485 puertos seriales; entrada de impulso para medidores de caudal; soporte para sensores RFID y 1-wire; cable de alimentación/entrada-salida estándar incluido en muchos paquetes |
-| GNSS | Informe de ubicación basado en GPS para seguimiento en tiempo real y telemetría histórica \(la precisión depende de la señal y del entorno\) |
-| Bluetooth | No especificado como incorporado. La integración con sensores Bluetooth es posible mediante integraciones de Plaspy o gateways externos cuando sea necesario. |
-| Telemática de video | Soporta Teltonika DualCam y Dashcam a través de RS232 para captura de eventos de cámara emparejados |
-| Gestión remota | Se puede pedir en paquetes estándar o personalizados; las características de gestión remota no se detallan en la descripción |
-| Formato | Rastreador montado en vehículo destinado a uso en flotas y activos; disponibles opciones de empaquetado estándar y a granel. |
-
-## Casos de uso
-
-- Telemática de flotas y despacho: datos de rastreador GPS en tiempo real enviados a Plaspy para supervisión de rutas, cálculos de ETA e informes de rendimiento.
-- Monitoreo y análisis de combustible: usar entradas de impulso con medidores de caudal para generar informes de consumo precisos y detectar pérdidas o robos de combustible.
-- Identificación del conductor y cumplimiento: RFID y sensores 1-wire permiten el registro por conductor, control de acceso y atribución de comportamientos.
-- Captura de eventos en video: emparejamiento con unidades Teltonika DualCam y Dashcam compatibles mediante RS232 para registrar incidentes y correlacionar video con telemetría.
-- Control de activos y anti-robo: la conectividad Dual SIM y los flujos de alarma de Plaspy soportan detección de robo, flujos de inmovilización y procesos de recuperación cuando se integran a los sistemas del vehículo.
+- Telemática de flotas y despacho con seguimiento en vivo, supervisión de rutas e informes de desempeño.
+- Monitoreo del consumo de combustible y detección de robo mediante entradas por impulso y análisis en Plaspy.
+- Identificación, registro y cumplimiento de conductores usando eventos de RFID y sensores 1‑wire.
+- Captura de eventos en video y recopilación de evidencia emparejando unidades de cámara compatibles y correlacionando las grabaciones en Plaspy.
+- Flujos de protección y recuperación de activos aprovechando la conectividad continua y las alarmas de Plaspy.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El FMC125 está orientado a operadores que requieren un rastreador GPS confiable, preparado para integración, para la gestión profesional de flotas y telemetría. Su combinación de conectividad LTE Cat 1 con respaldo 2G y resiliencia Dual SIM reduce el riesgo de conectividad a través de las regiones. Las interfaces RS232/RS485, entradas de impulso y el soporte de sensores permiten capturar datos de monitoreo de combustible, identificaciones de conductores y flujos telemáticos de terceros. Cuando se combina con Plaspy, el FMC125 convierte los datos brutos del vehículo en seguimiento en tiempo real práctico, monitoreo de combustible y capacidades anti-robo, posibilitando un mejor control operativo, menores costos de combustible y una respuesta ante incidentes más rápida.
+El FMC125 es una opción práctica para organizaciones que necesitan un rastreador robusto y listo para integrar que pueda manejar telemetría serial y entradas de sensores. Sus características de resiliencia y las múltiples variantes regionales lo hacen apropiado para flotas mixtas que operan en distintas zonas, mientras que las interfaces disponibles soportan flujos de trabajo para análisis de combustible, identificación de conductores e integración de cámaras. Emparejado con Plaspy, el FMC125 ayuda a convertir datos a nivel vehicular en tableros, alertas e informes que mejoran la supervisión operativa.
 
-Para flotas y proveedores logísticos que buscan una unidad compatible con Plaspy que gestione la adquisición de datos serial, la integración de cámaras y análisis de combustible precisos, el FMC125 ofrece una opción escalable con módulos regionales y opciones de empaquetado al por mayor para respaldar implementaciones de mayor tamaño. Sus fortalezas residen en una conectividad fiable, entradas de telemetría extensibles y una integración sencilla en los paneles de Plaspy y las reglas de automatización.
-
+Para obtener más información sobre cómo Plaspy puede utilizar datos de dispositivos como el FMC125, visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles y las variantes actuales en el sitio del fabricante https://www.teltonika-gps.com/ antes de planear implementaciones.

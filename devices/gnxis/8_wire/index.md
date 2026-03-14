@@ -2,40 +2,62 @@
 slug: /gnxis/8_wire
 id: 8_wire
 sidebar_label: 8-wire
+title: Gnxis - 8-wire
 sidebar_class_name: menu_item_tracker
+description: Compact Gnxis 8-wire GPS tracker for real time vehicle tracking and security alerts compatible with Plaspy fleet management
+keywords:
+  - Gnxis 8-wire
+  - Gnxis 8 wire
+  - 8-wire GPS tracker
+  - Gnxis GPS tracker
+  - Plaspy compatible
+  - fleet tracking
+  - vehicle tracking
+  - real time tracking
+  - GPS tracker for fleets
+  - motorcycle GPS tracker
 ---
+
 # Gnxis - 8-wire
 
 ![8-wire](./Logo.png)
 
-The GNXIS GPS tracker provides accurate and reliable real-time tracking through specialized platforms and mobile applications. It is an ideal solution for private vehicles, commercial fleets, and motorcycles, offering precise location tracking and various security alerts. Compatible with LTE/GSM/GPRS networks, it ensures stable connectivity across different frequencies.
+The Gnxis 8-wire is a compact GPS tracker designed to provide accurate, reliable real time location monitoring and security alerts for a range of vehicles. It is described as suitable for private cars, commercial fleets, and motorcycles, offering precise position reporting and several alarm functions such as ignition and movement alerts, power loss notification, and optional remote fuel or electricity cut off. The device includes built in antennas and supports broad network compatibility to maintain connectivity across different environments.
 
-### ? **Key Features:**
+As a Plaspy compatible device, the 8-wire can be integrated into Plaspy fleet workflows to bring that real time visibility and alerting into a single management platform. Plaspy can use the tracker's live location updates and security notifications to support centralized monitoring, operational oversight, and reporting for mixed vehicle fleets without requiring changes to how the tracker communicates basic location and alarm information.
 
-- **Real-time Tracking:** Live monitoring through a specialized platform or app.
-- **Ignition/Movement Alarm:** Immediate notification when the vehicle starts or stops.
-- **Speeding/ACC Detection:** Alerts for speeding incidents and ignition status.
-- **Angle-Based Location Updates:** Location refreshed based on changes in angle for improved accuracy.
-- **Power-off Alarm:** Notifies when external power is disconnected.
-- **Fuel/Electricity Cut-off \(Optional\):** Remotely disable fuel or electricity for security.
-- **Energy-saving Mode:** GSM/GPS suspension when parked.
-- **GPS Precision:** Accurate positioning within less than 5 meters in open conditions.
-- **Built-in Antennas:** Internal GSM and GPS antennas for easy installation.
+## Key Highlights
 
-### ⚙️ **Technical Specifications:**
+- Real time tracking suitable for private vehicles, motorcycles, and commercial fleets
+- Multiple security alerts including ignition or movement notifications and power off alarm
+- Optional remote fuel or electricity cut off for added asset security
+- Energy saving mode to reduce reporting when a vehicle is parked
+- High positioning precision reported to be under 5 meters in open sky conditions
+- Built in GSM and GPS antennas for simplified hardware packaging
+- Designed to operate across common mobile network types for stable connectivity
 
-| Specification | Details |
-| --- | --- |
-| **Network** | LTE / GSM / GPRS |
-| **LTE Bands/Frequencies** | LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B28/B66  LTE-TDD: B34/B38/B39/B40/B41  GSM: 850/900/1800/1900 MHz |
-| **GPS Channels** | 66 channels |
-| **Tracking Sensitivity** | &lt;5 meters in open sky conditions |
-| **Operating Voltage** | 9-90V DC |
-| **GPRS Protocol** | Class 12, TCP/IP |
-| **Operating Temperature** | -20°C to +70°C |
-| **Backup Battery** | 150mAh / 3.7V |
-| **Power Consumption** | 5mA~50mA |
-| **Connector Type** | 8-wire or 4-wire |
+## How It Works with Plaspy
 
-The GNXIS tracker is a compact, reliable, and efficient solution, ideal for managing and securing personal vehicles and commercial fleets. ??
+When used with Plaspy, the Gnxis 8-wire provides continuous location and alert data that Plaspy displays and analyzes for fleet managers and operators. Plaspy aggregates the device updates into maps, timelines, and notification streams so teams can monitor assets and respond to events from a single platform.
 
+- Live location visualization on Plaspy maps for real time oversight
+- Centralized alerts for ignition changes, movement, power loss, and optional cut off events
+- Historical tracking and basic reporting to review trips and incidents
+- Operational monitoring for mixed fleets including cars and motorcycles
+- Energy and connectivity status shown alongside location to aid troubleshooting
+
+## Typical Use Cases
+
+- Monitoring personal vehicles for location and security alerts
+- Managing commercial fleets with live tracking and centralized notifications
+- Tracking motorcycles where compact hardware and built in antennas are beneficial
+- Deterring theft and enabling remote intervention with optional fuel or power cut off
+- Reducing idle reporting and power use via the device energy saving mode
+
+## Why Choose This Tracker with Plaspy
+
+The Gnxis 8-wire is a practical choice for organizations and individuals seeking a straightforward, compact tracking device that complements Plaspy fleet capabilities. Its combination of real time reporting, common security alerts, and energy saving behavior makes it well suited to everyday fleet oversight and vehicle security without unnecessary complexity.
+
+Because the tracker is described as compatible with common mobile networks and includes built in antennas, it can offer stable connectivity and installation flexibility that aligns with Plaspy usage patterns. That said, the 8-wire is best evaluated in the context of each organization’s operational requirements and the full set of features offered by Plaspy.
+
+To learn more about how Plaspy can work with the Gnxis 8-wire and other compatible devices, visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current specifications on the official manufacturer documentation before making procurement decisions.

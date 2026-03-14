@@ -2,62 +2,59 @@
 slug: /lk_gps/lk980_4g
 id: lk980_4g
 sidebar_label: LK980-4G
+title: LK-GPS - LK980-4G
 sidebar_class_name: menu_item_tracker
+description: Compact wired 4G GPS tracker compatible with Plaspy for real time vehicle tracking alarms and immobilization
+keywords:
+  - LK-GPS
+  - LK980-4G
+  - LK980 4G
+  - Plaspy compatible
+  - vehicle tracker
+  - fleet tracking
+  - real time tracking
+  - immobilizer
+  - GPS tracker
+  - motorcycle tracker
 ---
+
 # LK-GPS - LK980-4G
 
 ![LK980-4G](./tracker.jpg)
 
-# LK980-4G
+The LK980-4G is a compact wired GPS tracker designed for dependable vehicle security and fleet management. It combines built-in GPS and GSM antennas with 4G LTE connectivity and automatic 2G fallback to provide continuous location reporting and event forwarding. The device includes a set of practical security and operational controls such as SOS alarm, silent listen-in, vibration and tamper alerts, and remote fuel or power cut-off, plus mobile app and SMS management options.
 
-The LK980-4G is a compact, wired GPS tracker built for dependable vehicle security and fleet management. Designed with built-in GPS and GSM antennas and support for 4G LTE with 2G fallback, the LK980-4G delivers Plaspy compatible real-time tracking, configurable alarms and telemetry to help fleets, rental operators and logistics teams maintain visibility and control over their vehicles.
-
-The LK980-4G integrates essential anti-theft and operational controls — including SOS alarm, silent listen-in, vibration/tamper alerts and remote fuel/power cut-off — with Android and iOS mobile apps plus SMS configuration. Its wired installation and broad voltage range make it a stable option for cars and motorcycles in mixed fleets where continuous power and accurate location reporting are critical.
+As a Plaspy compatible tracker, the LK980-4G can stream location, telemetry and alarm events into Plaspy for centralized monitoring and reporting. Its wired installation and wide operating voltage make it suitable for mixed fleet environments where stable power and accurate, real time tracking are important. Operators using Plaspy can leverage the LK980-4G to increase visibility, respond faster to incidents, and produce historical playback for analysis.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker with 4G LTE and automatic 2G fallback for reliable real-time tracking across networks.
-- Built-in GPS and GSM antennas in a compact 50 g housing for discreet vehicle and motorcycle installations.
-- Comprehensive security features: SOS alarm, silent sound listening \(listen-in\), vibration/tamper alarms and remote fuel/power cut-off \(immobilizer capability\).
-- Multiple configurable input/output ports for vehicle signals and external sensors, enabling telemetry and event-based alerts.
-- Shock wake-up and vibration sensor modes to detect movement or tampering while conserving vehicle power circuits.
-- Historical route playback and reliable location reporting for fleet optimization, driver behavior monitoring and route analysis.
-- Mobile app control for Android and iOS plus SMS-based parameter configuration and queries for simple remote management.
+- Plaspy compatible 4G GPS tracker with automatic 2G fallback for resilient connectivity across coverage areas
+- Built in GPS and GSM antennas in a compact module suited to discreet vehicle and motorcycle installations
+- Security features including SOS alert, silent listen in, vibration and tamper detection, and remote fuel or power cut off
+- Configurable input and output ports to capture vehicle signals and support event based alerts and telemetry
+- Historical route playback and event logging to support route analysis and operational review
+- Mobile app control for Android and iOS plus SMS based configuration for remote parameter changes
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the LK980-4G streams location and event data to the platform for unified monitoring, alerts and reporting. Plaspy ingests GPS coordinates, telemetry and alarm events to provide live maps, notifications and historical playback — enabling operators to act quickly on theft alerts, route deviations or vehicle status changes.
+When integrated with Plaspy, the LK980-4G sends position and event data to the platform so operators can monitor assets from a single interface. Plaspy aggregates location updates, alarms and telemetry to enable live tracking, notifications and historical review across fleets and vehicle types.
 
-- Real-time location and telemetry updates over 4G LTE \(with 2G fallback\) for continuous tracking on Plaspy.
-- Alarm and status events: SOS, vibration/tamper alerts and listen-in events forwarded to Plaspy for immediate notification.
-- Remote immobilizer and fuel/power cut-off commands can be managed through Plaspy where supported, enabling fast anti-theft response.
-- Configurable input/output ports capture vehicle signals \(ignition, door or alarm sensor inputs\) and feed telemetry into Plaspy dashboards and reports.
-- Historical route playback and event logs available in Plaspy for forensic review, compliance and fleet optimization.
+- Real time location updates and telemetry shown on Plaspy live maps for immediate situational awareness
+- Alarm forwarding for SOS, vibration or tamper events so teams receive timely notifications and can take action
+- Remote immobilizer and fuel or power cut off commands manageable through Plaspy where device support is available
+- Input and output events such as ignition or door signals recorded and surfaced in Plaspy dashboards and reports
+- Historical route playback and event logs available in Plaspy for audits, investigations and operational optimization
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE with automatic 2G \(GSM/GPRS/EDGE\) fallback |
-| --- | --- |
-| Bands | LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B28/B66; GSM/GPRS/EDGE: 850/900/1800/1900 MHz |
-| Power & Battery | Wired installation; voltage input range 8–89 V \(no internal backup battery specified\) |
-| Interfaces | Multiple configurable input/output ports; supports remote fuel/power cut-off, SOS, listen-in, vibration/tamper alerts |
-| GNSS | Built-in GPS antenna \(GNSS location reporting\); accuracy depends on satellite reception and environment |
-| Bluetooth | Not specified for the LK980-4G; Plaspy can integrate Bluetooth sensors separately where needed |
-| Remote Management | Android and iOS apps for live tracking and management; SMS-based parameter configuration and queries; OEM customization available |
-| Form Factor | Compact wired module, weight 50 g — suited for vehicle and motorcycle installations |
-| Environmental | Operating temp: -20°C to +55°C; storage: -40°C to +85°C; humidity 5%–95% non-condensing |
-
-## Use Cases
-
-- Fleet management: continuous real-time tracking, route playback and telemetry to improve utilization and reduce idle time.
-- Anti-theft and immobilization: instant SOS and vibration alarms plus remote fuel/power cut-off to prevent vehicle theft.
-- Rental and ride-hailing operations: discreet wired installation with tamper alerts and remote monitoring for asset protection.
-- Logistics and deliveries: accurate location reports and event logging to validate routes, times and deliveries.
-- Driver behavior and compliance: event-triggered telemetry and historical playback to analyze driving patterns and incidents.
+- Fleet management requiring continuous vehicle tracking, route playback and utilization reporting
+- Anti theft workflows using SOS alerts, tamper detection and remote immobilization to protect assets
+- Rental and ride hailing operations that need discreet wired installations and tamper monitoring
+- Logistics and delivery services tracking vehicle movements, timestamps and event logs for proof of service
+- Mixed vehicle fleets including motorcycles and light vehicles where broad voltage support and stable power are needed
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the LK980-4G as a Plaspy compatible GPS tracker delivers a balanced combination of network reliability, vehicle-grade security functions and practical fleet features. The 4G LTE connectivity with 2G fallback keeps location and telemetry flowing in varied coverage areas, while wired power and a broad voltage range ensure continuous operation across car and motorcycle applications. Integrated security functions — SOS, listen-in, vibration/tamper alarms and remote fuel/power cut-off — give operators robust anti-theft tools and fast response options via the Plaspy platform.
+The LK980-4G pairs a compact, vehicle focused design with security and operational features that align well with fleet oversight needs. Its 4G connectivity with fallback and wired power profile help maintain continuous reporting, while configurable inputs and alarm functions deliver actionable events into Plaspy for centralized monitoring.
 
-Operational teams benefit from simplified device management through Android/iOS apps and SMS configuration, plus OEM customization for tailored deployments. For fleets focused on real-time tracking, fuel monitoring workflows, ignition/immobilizer integration and centralized reporting, the LK980-4G provides a practical, Plaspy compatible solution that prioritizes reliability, actionable telemetry and scalable deployment.
-
+For organizations seeking a practical, Plaspy compatible tracker for vehicle security and fleet visibility, the LK980-4G offers a balanced feature set oriented toward real time tracking, alarm management and historical review. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so verify current information on the official LK GPS site https://www.lk-gps.com.

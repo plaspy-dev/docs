@@ -2,37 +2,62 @@
 slug: /meitrack/mt_88
 id: mt_88
 sidebar_label: MT-88
+title: Meitrack - MT-88
 sidebar_class_name: menu_item_tracker
+description: Compact Meitrack MT-88 GPS tracker compatible with Plaspy for personal pet asset and light vehicle tracking with long standby and multiple tracking modes
+keywords:
+  - Meitrack MT-88
+  - MT-88 GPS
+  - Meitrack tracker
+  - MT88 Plaspy
+  - MT 88 tracking
+  - MT-88 GPS tracker
+  - Meitrack MT88 compatibility
+  - MT88 fleet tracking
+  - pet tracker MT-88
+  - MT-88 asset tracking
 ---
+
 # Meitrack - MT-88
 
 ![MT-88](./logo.jpg)
 
-The Meitrack MT-88 GPS tracker is a versatile and reliable device that offers a wide range of applications. Whether you need to track and protect personal belongings, keep an eye on your pets, ensure the security of your assets, or monitor the location of your vehicles, the MT-88 has got you covered.
+The Meitrack MT-88 is a compact, lightweight GPS tracker designed for a range of personal and small asset tracking needs. At 61x42x15mm and about 50g it is easy to attach to a belt or a pet collar using the included clip. The device combines SiRF III GPS positioning with Quad Band GSM connectivity and AGPS assistance to provide reliable location reporting in common tracking scenarios. Built in features described for the MT-88 include multiple tracking modes, voice monitor capability, internal logging memory, motion detection, an SOS alarm, and a rechargeable internal battery.
 
-With its compact size of 61x42x15mm and lightweight design of just 50g, the MT-88 is highly portable and can be easily attached to a watch belt or pet collar using the included belt clip. Despite its small size, this tracker packs a punch when it comes to performance. It features SiRF III GPS technology and Quad Band GSM 850/900/1800/1900Mhz connectivity, ensuring accurate and reliable tracking capabilities.
+As a device compatible with Plaspy, the MT-88 can feed location and event data into the Plaspy platform for centralized visibility and management. Plaspy can present MT-88 position updates, history, and alerts alongside other devices so organizations and individuals can monitor assets, pets, or vehicles from a single dashboard. The MT-88s low power profile and flexible tracking options make it a practical choice for users who need long standby operation and a variety of tracking behaviors that map well to Plaspy reporting and alerting features.
 
-One of the standout features of the MT-88 is its low power consumption and long standby time, making it ideal for long-term tracking applications. It also comes equipped with AGPS \(Assisted GPS\) technology, which utilizes GSM Base Station ID to enhance the GPS signal and provide more accurate location information.
+## Key Highlights
 
-The MT-88 offers multiple tracking options, including SMS/GPRS tracking using the MEITRACK protocol, track on demand, track by time interval, and track by distance interval. You can easily track the device using your mobile phone or listen in to the surrounding environment with the voice monitoring feature. The tracker also has an internal 4Mb memory for logging and an inbuilt motion sensor for added security.
+- Compact and lightweight design suitable for pets personal belongings and small assets
+- SiRF III GPS positioning with AGPS assistance for improved initial fix performance
+- Quad Band GSM connectivity for broad regional cellular coverage
+- Multiple tracking modes including track on demand time interval and distance interval
+- Low power consumption and long standby time for extended deployments
+- Built in motion sensor internal logging memory and SOS alarm for security and incident reporting
 
-In case of emergencies, the MT-88 features an SOS alarm function, allowing users to send distress signals and alert designated contacts. With its impressive range of features and reliable performance, the Meitrack MT-88 GPS tracker is a top choice for personal tracking, pet tracking, asset tracking, and vehicle tracking applications.
+## How It Works with Plaspy
 
-### Key Features:
+When used with Plaspy the MT-88 provides positional and event information that Plaspy can display, log, and use to drive alerts and reports. Integration lets you manage MT-88 devices alongside other trackers to maintain consistent operational oversight across a mixed fleet.
 
-- SiRF III GPS and Quad Band GSM 850/900/1800/1900Mhz
-- Small Size \(61x42x15mm\) and Lightweight 50g
-- Low Power Consumption and Long Standby Time
-- Belt Clip for watch belt or pet collar
-- AGPS \(with GSM Base Station ID\)
-- Track by SMS/GPRS \(MEITRACK Protocol\)
-- Track on Demand
-- Track by Time Interval
-- Track by Distance Interval
-- Track on Mobile Phone
-- Listen-in \(Voice Monitoring\)
-- Internal 4Mb Memory for Logging
-- Inbuilt Motion Sensor
-- Inbuilt Battery
-- SOS Alarm
+- Real time location on Plaspy maps and device lists for immediate visibility
+- Historical route and position reports based on device transmissions and internal logs
+- Event alerts in Plaspy for SOS triggers and motion events reported by the MT-88
+- Scheduled tracking and distance based updates appear as configurable data points in Plaspy reporting
+- Track on demand events can be reflected in Plaspy when the device sends an immediate location update
+- Device status and recent activity available in Plaspy to support operational decisions
 
+## Typical Use Cases
+
+- Pet tracking and monitoring while retaining a small form factor and lightweight fit
+- Personal item protection such as luggage or backpacks during travel
+- Asset tracking for portable equipment and high value tools
+- Light vehicle tracking for scooters motorcycles or small service vehicles
+- Field staff position monitoring for teams operating in dispersed locations
+
+## Why Choose This Tracker with Plaspy
+
+The MT-88 is a practical option when you need a small versatile tracker that balances portability with functional tracking features. Its combination of compact size, assisted GPS, multiple reporting modes, and basic security functions like SOS and motion detection make it a suitable fit for mixed deployments where Plaspy provides consolidated monitoring, alerts, and reporting.
+
+If your deployment requires simple reliable tracking for people pets or small assets and you want to manage those devices within a single platform, pairing the MT-88 with Plaspy can deliver clear operational benefits. For full accuracy on technical details features and current availability please consult the manufacturer documentation and verify how the device will behave in your specific operating environment.
+
+Learn more about Plaspy and how it can work with compatible trackers on the Plaspy website https://www.plaspy.com. Product specifications availability and manufacturer details can change over time so please verify current MT-88 specifications on the official Meitrack website https://www.meitrack.com/

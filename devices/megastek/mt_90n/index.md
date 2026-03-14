@@ -2,58 +2,60 @@
 slug: /megastek/mt_90n
 id: mt_90n
 sidebar_label: MT-90N
+title: Megastek - MT-90N
 sidebar_class_name: menu_item_tracker
+description: Compact NB IoT personal GPS tracker compatible with Plaspy for reliable real time tracking SOS alerts geo fencing and playback
+keywords:
+  - Megastek MT 90N
+  - MT 90N GPS tracker
+  - Megastek tracker
+  - MT 90N Plaspy compatible
+  - NB IoT tracker
+  - personal GPS tracker
+  - SOS GPS tracker
+  - hybrid positioning tracker
+  - waterproof personal tracker
+  - fleet tracking MT 90N
 ---
+
 # Megastek - MT-90N
 
 ![MT-90N](./tracker.jpg)
 
-The MT-90N Mini NB‑IoT GPS Tracker from MT‑Series is a compact, Plaspy compatible personal tracker engineered for reliable real-time tracking and personal safety. Combining a u‑blox GNSS chipset with NB‑IoT cellular connectivity and hybrid positioning \(GPS + Wi‑Fi + LBS\), the MT‑90N delivers precise location updates for children, pets and individuals while keeping installation and daily use simple.
+The MT-90N Mini NB IoT GPS Tracker from Megastek is a compact personal tracker designed for reliable real time tracking and basic safety monitoring. It combines a u-blox GNSS receiver with NB IoT cellular connectivity and hybrid positioning that leverages GPS, Wi Fi and location services to improve accuracy in urban and indoor environments. The device targets children, pets and individuals who need discreet location reporting with simple day to day use.
 
-Designed for both consumer safety and light commercial telemetry, this waterproof GPS tracker supports SOS emergency alarms, geo‑fencing, historical track playback and automated APN/time‑zone configuration for fast integration with third‑party platforms such as Plaspy. Its small form factor, long standby times and robust outdoor rating make the MT‑90N a practical choice for personal tracking, temporary vehicle monitoring and lightweight fleet management scenarios.
+As a Plaspy compatible device, the MT-90N can forward location and telemetry into Plaspy for unified monitoring and alerting. Built in features such as SOS alarms, geo fencing, historical track playback and automated APN and time zone configuration make it straightforward to bring the tracker online with third party platforms like Plaspy, enabling faster deployment for personal safety programs and light telematics projects.
 
 ## Key Highlights
 
-- Plaspy compatible: Built to integrate easily with third‑party tracking platforms for real‑time tracking and reporting.
-- Compact and lightweight: 50 × 40 × 20 mm, 42 g — easy to carry, clip to a collar, or slip into clothing.
-- Reliable outdoor rating: IP66–IP67 water protection for use in rain and wet environments.
-- Hybrid positioning: GPS, Wi‑Fi and LBS combine to improve indoor and urban accuracy.
-- NB‑IoT connectivity \(B1/B3/B5/B8\) with GPRS TCP/UDP reporting for flexible telemetry options.
-- Safety and alerts: SOS button, geo‑fence alarm and low battery notification for immediate situational awareness.
-- Practical battery life: Up to 10 days standby \(personal mode\) or around 12 hours in vehicle mode depending on reporting interval.
-- Simple charging and status feedback: Mini USB charging and LED indicators for power, GPS, GSM and battery state.
+- Plaspy compatible for seamless integration with third party tracking platforms and real time dashboards.
+- Compact and lightweight design suitable for carrying, clipping to a collar, or placing in clothing.
+- IP66 to IP67 water protection for dependable outdoor use in wet conditions.
+- Hybrid positioning using GPS, Wi Fi and LBS to improve location accuracy in challenging environments.
+- NB IoT connectivity with GPRS reporting supported for flexible telemetry delivery.
+- Built in SOS alarm, geo fence alerts and low battery notification for improved situational awareness.
+- Long standby capability in personal mode and simple charging with visible LED status indicators.
 
 ## How It Works with Plaspy
 
-The MT‑90N sends location and telemetry data over NB‑IoT \(and GPRS where supported\) to tracking platforms. When integrated with Plaspy, device messages map to Plaspy’s real‑time dashboard and alerting system so you can monitor positions, receive SOS alarms and review historical tracks from one interface. Automatic APN query and time‑zone setting reduce configuration time, enabling faster deployment for large groups or light fleet setups.
+When connected, the MT-90N transmits periodic location and status messages that Plaspy ingests to present live positions, alerts and historical tracks in a single interface. Automatic APN and time zone configuration reduces manual setup so devices can be provisioned quickly at scale. Once integrated, Plaspy maps the tracker messages to vehicle or asset records, enables alert routing, and stores track history for playback and reporting.
 
-- Real‑time location and telemetry updates delivered to Plaspy for live tracking and playback.
-- SOS emergency alarm and immediate notification routing through Plaspy’s alert system.
-- Geo‑fence creation and geo‑fence alarms reported in real time for anti‑theft and boundary monitoring.
-- Low battery alerts and device status indicators forwarded to Plaspy to prevent downtime.
-- Historical track playback and timed tracking \(data logged and viewable in Plaspy\).
+- Real time location and telemetry updates displayed on Plaspy maps and dashboards.
+- SOS emergency alarms forwarded to Plaspy for immediate notification and escalation.
+- Geo fence creation and real time geo fence alerts visible and actionable within Plaspy.
+- Low battery and device status messages delivered to Plaspy to help manage uptime.
+- Historical track playback and timed tracking accessible for review and reporting.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | NB‑IoT cellular connectivity; GPRS TCP/UDP reporting supported \(as described\) |
-| --- | --- |
-| Bands | NB‑IoT bands B1 / B3 / B5 / B8 |
-| Power & Battery | Charging via Mini USB \(DC 4.5–5.5V / 820mA\); typical operation up to 10 days standby \(personal mode\) or ~12 hours in vehicle mode depending on reporting interval |
-| Interfaces | Two buttons \(SOS and power\); Mini USB charging port; LED indicators for power, GPS, GSM and battery status |
-| GNSS | u‑blox GPS chipset; hybrid positioning using GPS, Wi‑Fi and LBS; GPS sensitivity ~‑160 dB |
-| Bluetooth | Not specified |
-| Remote Management | Automatic APN query, automatic time‑zone setting, GPRS data logging; compatible with third‑party tracking platforms \(including Plaspy\) |
-| Form Factor | Compact personal tracker, 50 × 40 × 20 mm; weight 42 g; IP66–IP67 water protection |
-
-## Use Cases
-
-- Child and pet safety — discreet, waterproof GPS tracker for real‑time tracking and SOS alerts.
-- Elderly or vulnerable person monitoring — location history and emergency alarms for caregivers.
-- Light commercial telematics — temporary tracking of couriers, deliveries or rental equipment where compact size matters.
-- Temporary vehicle monitoring — vehicle mode for short‑term tracking and situational awareness \(note: dedicated ignition/immobilizer interfaces are not specified\).
-- Event or group tracking — easy deployment for supervised activities where Plaspy’s dashboard centralizes monitoring.
+- Child and pet safety monitoring with discreet waterproof tracking and SOS alerts.
+- Caregiver support for elderly or vulnerable people using location history and emergency alarm features.
+- Light commercial telematics for temporary tracking of couriers, deliveries or rental items.
+- Short term vehicle monitoring where a compact tracker and simple setup are priorities.
+- Event and group tracking to centralize supervision and location awareness during activities.
 
 ## Why Choose This Tracker with Plaspy
 
-Pairing the MT‑90N with Plaspy gives you a compact GPS tracker that’s optimized for personal safety and light telemetry tasks while keeping integration friction low. The device’s NB‑IoT connectivity and hybrid positioning ensure better coverage and indoor accuracy, and features such as SOS, geo‑fencing and historical playback feed directly into Plaspy’s real‑time dashboard for fast decision making. If your requirements center on personal tracking, anti‑theft notifications and straightforward telemetry, this Plaspy compatible GPS tracker offers a dependable, easy‑to‑deploy solution. For operations requiring dedicated vehicle telematics features like ignition control, immobilizer or fuel monitoring, consider vehicle‑specific units alongside the MT‑90N to cover those needs.
+The MT-90N is a practical choice when you need a small, straightforward tracker that feeds reliable position and alarm data into a central platform. Its hybrid positioning and NB IoT connectivity help extend coverage and improve indoor performance compared with GPS alone, while built in safety features map naturally into Plaspy workflows for alerts, monitoring and historical review. For organizations focused on personal safety, temporary asset tracking or lightweight fleet visibility, the MT-90N offers a low friction path to integrate devices into Plaspy.
 
+To learn more about how Plaspy can present MT-90N data and support your tracking needs visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical information and compatibility on the official Megastek site https://www.megastek.com/.

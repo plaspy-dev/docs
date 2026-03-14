@@ -2,58 +2,60 @@
 slug: /stars_nav/pt_35
 id: pt_35
 sidebar_label: PT-35
+title: Stars Nav - PT-35
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS personal PT-35 compacto y resistente, compatible con Plaspy para alertas en tiempo real y larga autonomía
+keywords:
+  - Stars Nav PT-35
+  - rastreador PT-35
+  - rastreador GPS personal
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - seguimiento de activos
+  - rastreador con alarma de pánico
+  - rastreador GPRS SMS
+  - rastreador con batería de larga duración
+  - rastreador GPS compacto
 ---
+
 # Stars Nav - PT-35
 
 ![PT-35](./tracker.jpg)
 
-El PT-35 Personal Tracker de la serie PT \(PT-35\) es un rastreador GPS compacto y resistente, diseñado para despliegues compatibles con Plaspy que requieren discreción, larga autonomía y E/S flexible. Combinando la posición GNSS de u‑blox con un módem GSM de cuádruple banda \(GPRS/SMS/voz\), el PT-35 ofrece localización precisa y telemetría de eventos para seguridad personal, protección de activos y monitorización de vehículos, integrándose sin problemas con Plaspy para seguimiento en tiempo real y gestión centralizada de flotas.
+El PT-35 de Stars Nav es un rastreador GPS personal compacto y resistente, pensado para implementaciones donde la discreción y la larga autonomía son prioritarias. Basado en la serie PT, el equipo combina un receptor GNSS u‑blox con un módem GSM cuatribanda para ofrecer localización precisa y telemetría de eventos, apta para seguridad personal, protección de activos y monitoreo de vehículos ligeros. Su tamaño reducido y la opción de carcasa magnética impermeable lo hacen idóneo para colocaciones encubiertas o ambientes exigentes.
 
-La unidad está optimizada para un funcionamiento de ultra‑bajo consumo y admite una E/S integral para alarmas, detección de movimiento y sensores externos. Diseñado para ser compatible con Plaspy, el PT-35 soporta transporte GPRS TCP/IP y SMS, por lo que los informes de ubicación, alertas de pánico y mensajes almacenados pueden enviarse a Plaspy para mapas en tiempo real, alertas e informes históricos, lo que lo convierte en una opción práctica para anti‑robo, seguridad del personal y casos de telemetría.
+Este modelo funciona como dispositivo compatible con Plaspy, enviando informes de ubicación, alertas de pánico y mensajes almacenados mediante GPRS TCP/IP y SMS. Esa capacidad permite que el PT-35 alimente posiciones y eventos en tiempo real a Plaspy para mapas en vivo, alertas centralizadas e informes históricos. Sus modos de bajo consumo, almacenamiento en búfer de mensajes y entradas/salidas flexibles lo convierten en una opción práctica cuando la conectividad continua no puede garantizarse.
 
-## Aspectos clave
+## Características principales
 
-- Compatibilidad con Plaspy: entrega datos de ubicación y de eventos por GPRS/SMS a Plaspy para seguimiento en tiempo real e informes.
-- Funcionamiento de larga duración: modos de reposo profundo y temporizadores configurables extienden la espera de días a varios años bajo condiciones óptimas.
-- Compacto y resistente: diseño de tamaño de bolsillo con una carcasa magnética resistente al agua opcional para instalaciones discretas o en entornos duros.
-- Amplias E/S para telemetría: entradas digitales y analógicas, además de soporte para conector multi E/S para sensores externos, entradas de pánico y señales de alarma.
-- Soporte de pánico y voz: micrófono y altavoz integrados y entradas de pánico permiten llamadas de voz manos libres y rastreo inmediato ante la alarma.
-- Almacenamiento a bordo: almacenamiento automático de hasta 5,000 mensajes de posición/activación para su subida posterior o escenarios de recuperación.
-- Opciones de alimentación flexibles: entrada USB +5 V; cargador integrado para una batería Li‑ion de 3,7 V y soporte para entrada de batería externa/energía solar.
+- Compatible con Plaspy para entrega de datos de ubicación y eventos por GPRS y SMS
+- Operación de larga duración con modos de sueño profundo configurables y temporizadores programables
+- Diseño compacto y resistente con opción de carcasa magnética impermeable para montaje encubierto
+- Telemetría completa y entradas/salidas para alarmas, detección de movimiento y sensores externos
+- Soporte de pánico y voz para alertas inmediatas y llamadas manos libres
+- Almacenamiento interno para miles de posiciones y activaciones, para subida posterior
+- Opciones de alimentación flexibles, incluyendo carga por USB y soporte para baterías externas
 
 ## Cómo funciona con Plaspy
 
-La integración con Plaspy aprovecha las capacidades de datos y mensajería GSM del PT-35 para entregar actualizaciones frecuentes y fiables a tu panel de control de Plaspy. El rastreador puede configurarse para activarse según un horario, por movimiento o por entrada de pánico; cuando está activo envía coordenadas GPS y telemetría por GPRS \(TCP/IP\) o SMS a Plaspy para que recibas localización, estado e información de alertas en tiempo real.
+Al integrarse con Plaspy, el PT-35 envía actualizaciones periódicas o por evento a su cuenta Plaspy para que los operadores supervisen la posición, reciban alertas y consulten el historial. El rastreador puede configurarse para activarse según un horario, por movimiento o mediante una entrada de pánico y luego remitir coordenadas GPS y mensajes de estado a Plaspy vía GPRS o SMS para su procesamiento inmediato.
 
-- Actualizaciones de localización y telemetría en tiempo real vía GPRS \(TCP/IP\) o SMS para un seguimiento continuo en Plaspy.
-- Botón de pánico y voz manos libres: alertas inmediatas y soporte de voz bidireccional enviados junto con la ubicación para una respuesta rápida.
-- Alertas por movimiento y manipulación: el acelerómetro integrado y la entrada externa de pánico/manipulación disparan alertas de Plaspy de inmediato cuando se detecta movimiento o corte de cable.
-- Carga de mensajes almacenados: hasta 5,000 mensajes en búfer pueden cargarse en Plaspy tras la reconexión de red para completar el historial.
-- Telemetría E/S digital/analógica: utilice la entrada digital para estado de encendido/puerta/alarma y la entrada analógica para lecturas de sensores externos \(p. ej., transductor de nivel de combustible\) cuando esté cableado por un instalador.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para seguimiento y monitoreo en vivo
+- Eventos de botón de pánico y manos libres reenviados a Plaspy para facilitar flujos de respuesta rápidos
+- Alertas por movimiento y manipulación que generan notificaciones inmediatas en Plaspy para mayor conciencia operativa
+- Subida de mensajes en búfer que restaura datos históricos a Plaspy tras la reconexión a la red
+- Lecturas digitales y analógicas que pueden mostrarse en los paneles y reportes de Plaspy como indicadores de estado
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Módem GSM cuádruple banda con GPRS \(TCP/IP\), SMS \(texto/PDU\) y voz \(850/900/1800/1900 MHz\) |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(cuádruple banda\) |
-| Alimentación y batería | Entrada USB +5 VDC; diseñado para batería Li‑ion de 3,7 V \(800 mAh típico\); circuito de carga de batería y entrada para batería externa/energía solar soportados; respaldo por temporizador mantiene la programación durante 5+ años |
-| Interfaces | 1 entrada digital \(0–60 V DC\), 1 entrada analógica \(hasta 3,3 V\) o salida digital configurable; interfaz USB‑to‑serial para comunicaciones/actualizaciones de firmware; conector mini multi E/S de 18 pines opcional; entrada externa de pánico; conexiones externas de altavoz/micrófono |
-| GNSS | Opciones u‑blox LEA‑4S o LEA‑5S; hasta 16 canales, actualización de navegación de hasta 4 Hz; precisión de posición ~2–2,5 m CEP \(con DGPS/SBAS\); alta sensibilidad \(variantes LEA‑5 ~‑158 dBm\) |
-| Bluetooth | No se especifica chipset Bluetooth/BLE \(los sensores externos pueden integrarse vía E/S\) |
-| Gestión remota | Interfaz USB‑to‑serial para actualizaciones de firmware y configuración; FOTA no especificado |
-| Factor de forma y entorno | Dimensiones: 90,4 × 38,4 × 15,1 mm \(carcasa plástica\); carcasa magnética impermeable opcional; rango de temperatura de funcionamiento aproximadamente -25 °C a +70 °C \(placa\); almacenamiento -40 °C a +80 °C |
-| Consumo de energía y modos | Operación activa normal ~10 horas \(según uso\); modo de reposo básico se extiende a días \(hasta 55+ días\); modo de reposo profundo con temporizador puede ofrecer un modo de espera de varios años \(3–5+ años\) bajo condiciones óptimas |
-
-## Casos de uso
-
-- Seguridad personal y anti‑robo: se puede llevar discretamente el PT-35 para localización rápida y alertas de pánico enviadas a Plaspy para una respuesta inmediata.
-- Control de activos y equipos: oculto en herramientas, contenedores o equipos de alquiler, con carcasa impermeable opcional y soporte magnético.
-- Monitoreo de vehículos y embarcaciones de uso especial: rastree motocicletas, motos de agua, motos de nieve o embarcaciones pequeñas donde un diseño compacto y un modo de espera de bajo consumo son esenciales.
-- Personal de campo, seguridad y operaciones de rescate: localización en tiempo real y soporte de voz mantienen a los equipos coordinados y seguros cuando se integra con Plaspy.
-- Telemetría e integración de sensores: las entradas analógicas/digitales permiten recoger telemetría simple \(temperatura, nivel de combustible o estado de puerta/encendido\) para los paneles de Plaspy cuando están conectadas a sensores compatibles.
+- Seguridad personal y protección de trabajadores solitarios con alertas de pánico dirigidas a Plaspy
+- Seguimiento de activos y equipos como herramientas, contenedores y material en alquiler mediante montaje encubierto
+- Monitoreo de vehículos pequeños y embarcaciones de propósito especial donde importan el tamaño compacto y la autonomía de espera
+- Coordinación de personal de seguridad y de campo mediante posición en vivo y alertas de evento
+- Recolección sencilla de telemetría, como estados de sensores o entradas de alarma, para reporte centralizado
 
 ## Por qué elegir este rastreador con Plaspy
 
-Cuando se combina con Plaspy, el PT-35 ofrece una solución equilibrada para organizaciones e individuos que requieren un rendimiento confiable del rastreador GPS, larga duración de la batería y E/S de telemetría flexibles sin hardware voluminoso. Su soporte para GPRS/SMS/voz, almacenamiento de mensajes en búfer y modos de energía configurables lo hacen especialmente eficaz para protección anti‑robo, gestión de flotas y monitorización remota, donde la conectividad es intermitente y la instalación discreta es común. Los instaladores e integradores apreciarán la flexibilidad de E/S del dispositivo y la ruta de actualización de firmware, mientras que los usuarios finales se beneficiarán de las capacidades de seguimiento en tiempo real, alertas e informes de Plaspy impulsadas por el GNSS preciso y la telemetría de eventos del PT-35.
+El PT-35 combina un chasis pequeño y resistente con opciones de telemetría flexibles y larga capacidad de espera, lo que lo convierte en una elección sensata para organizaciones e individuos que requieren seguimiento discreto y confiable integrado a una plataforma centralizada. Su soporte tanto para transporte de datos como de mensajes, junto con el almacenamiento en búfer a bordo, ayuda a mantener la continuidad del historial de ubicaciones en entornos con cobertura intermitente.
 
+Para obtener más información sobre cómo Plaspy funciona con dispositivos compatibles como el PT-35 visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que verifique los detalles técnicos actuales y las opciones de accesorios en el sitio del fabricante http://www.starsnav.com/ antes de comprar o desplegar.

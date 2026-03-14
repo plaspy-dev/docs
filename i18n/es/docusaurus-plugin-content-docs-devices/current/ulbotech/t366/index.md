@@ -2,62 +2,59 @@
 slug: /ulbotech/t366
 id: t366
 sidebar_label: T366
+title: Ulbotech - T366
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS OBD Ulbotech T366 compatible con Plaspy para flotas, antirobo y telemetría vehicular
+keywords:
+  - Ulbotech T366
+  - rastreador T366
+  - rastreador Ulbotech Plaspy
+  - T366 compatible con Plaspy
+  - rastreador GPS OBD
+  - telemetría vehicular
+  - seguimiento de flotas
+  - inmovilizador antirrobo
+  - monitoreo de comportamiento del conductor
+  - actualizaciones FOTA
 ---
+
 # Ulbotech - T366
 
 ![T366](./tracker.jpg)
 
-El T366 es un rastreador OBD GPS mejorado, diseñado para el monitoreo de vehículos y despliegues compatibles con Plaspy. Se conecta a cualquier puerto OBD‑II estándar para una instalación sin herramientas; el T366 combina un módulo GNSS u‑blox 6M con GPS asistido, radios GSM y Wi‑Fi internos, y un inmovilizador integrado para ofrecer seguimiento en tiempo real fiable, capacidad anti‑robo y telemetría avanzada del vehículo para gestión de flotas y análisis del comportamiento del conductor.
+El T366 es un rastreador GPS OBD avanzado de Ulbotech, diseñado para el monitoreo vehicular y la integración con plataformas telemáticas. Se conecta al puerto OBD II estándar para una instalación sin herramientas y combina un módulo GNSS u‑blox 6M con asistencia A‑GPS, radios celulares y Wi‑Fi integrados, y un inmovilizador incorporado, ofreciendo reporte continuo de ubicación, control antirrobo y una amplia telemetría vehicular de utilidad para administradores de flotas y proveedores de servicios.
 
-Optimizado para la integración con Plaspy, el T366 cambia automáticamente entre Wi‑Fi y GPRS para equilibrar la conectividad, reducir costos de datos y mantener reportes continuos. Con compatibilidad total OBD‑II y CAN \(incluyendo SAE J1939 y J1708/J1587\), detección configurable del comportamiento del conductor, monitor de voz y actualizaciones FOTA, el T366 es una solución compacta y profesional para gerentes de flota, aseguradoras y operadores de alquiler que requieren un seguimiento preciso compatible con Plaspy y una inteligencia de vehículo accionable.
+Como dispositivo compatible con Plaspy, el T366 está optimizado para enviar posiciones, telemetría OBD y CAN, y alertas de eventos a la plataforma Plaspy para monitoreo en tiempo real e informes históricos. El cambio automático entre Wi‑Fi y GPRS ayuda a balancear la conectividad y los costos de datos, mientras que funciones como la detección de comportamiento del conductor y las actualizaciones de firmware por aire lo convierten en una opción práctica para flotas, aseguradoras y operadores de renta que buscan inteligencia vehicular integrada en Plaspy.
 
-## Aspectos destacados
+## Características principales
 
-- Rastreador GPS OBD compatible con Plaspy: instalación rápida mediante enchufe OBD‑II con soporte completo de protocolos para una integración y despliegue rápidos.
-- Posicionamiento GNSS preciso: u‑blox 6M con A‑GPS; precisión autónoma por debajo de 3 m y SBAS hasta alrededor de 2.0 m para un rastreo en tiempo real fiable.
-- Conmutación automática de doble modo: entre Wi‑Fi y GPRS para optimizar la conectividad y los costos de datos mientras se mantiene la actualización en tiempo real.
-- Inmovilizador integrado y salida de corte digital del motor para control anti‑robo e inmovilización remota a través de Plaspy.
-- Telemetría integral del vehículo: datos OBD/CAN, monitorización de la tensión de la batería y detección configurable del comportamiento del conductor para gestión de flotas y perfilado de conductores.
-- Actualizaciones de firmware por aire \(FOTA\) vía GPRS o Wi‑Fi para una gestión remota más sencilla y mantenimiento de seguridad.
-- Formato compacto y robusto para uso en vehículos con rango de alimentación amplio \(8–32 VDC\) y batería de respaldo integrada para mantener la continuidad de los reportes ante pérdidas de energía.
+- Factor de forma OBD compatible con Plaspy para despliegues rápidos plug‑and‑play en flotas mixtas.
+- Posicionamiento GNSS preciso mediante un módulo u‑blox 6M con asistencia A‑GPS para seguimiento confiable en tiempo real.
+- Cambio automático entre Wi‑Fi y GPRS para mantener conectividad y ayudar a controlar el consumo de datos.
+- Inmovilizador integrado y salida digital para corte de motor, permitiendo control antirrobo remoto vía Plaspy.
+- Telemetría vehicular completa desde OBD y CAN, además de detección configurable del comportamiento del conductor para obtener información operativa.
+- Actualizaciones de firmware por aire (FOTA) para mantenimiento y configuración remotos cuando el equipo está conectado.
 
 ## Cómo funciona con Plaspy
 
-El T366 transmite coordenadas GNSS, telemetría OBD y CAN, alertas de eventos y eventos de comportamiento del conductor a la plataforma Plaspy utilizando GPRS o Wi‑Fi. Plaspy procesa estos flujos de datos para seguimiento en tiempo real, alertas e informes históricos, permitiendo a los gestores de flota actuar sobre información de ubicación, rendimiento y seguridad.
+Al instalarse, el T366 transmite posiciones GNSS, telemetría OBD y CAN, alertas de eventos y eventos de comportamiento del conductor a Plaspy, de modo que los operadores pueden monitorear los vehículos en vivo, recibir alertas configurables y analizar datos históricos. Plaspy procesa estos flujos para ofrecer visibilidad en mapas, herramientas de informes y flujos de trabajo orientados a seguridad y optimización de flotas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: posiciones GNSS y parámetros OBD/CAN enviados a Plaspy para mapas en vivo y reproducción.
-- Controles de encendido, corte del motor e inmovilizador: salida digital y soporte de inmovilizador integrado para inmovilización remota a través de Plaspy.
-- Comportamiento del conductor y alertas de eventos: ocho detecciones de comportamiento configurables \(p. ej., aceleración rápida, frenado brusco, conducción fatigada\) que aparecen como eventos en Plaspy para puntuación y coaching.
-- Informe de batería y pérdida de energía: monitorización de la tensión de la batería del vehículo, además de una batería de respaldo de 3.7 V y 180 mAh, para asegurar la continuidad de alertas críticas.
-- FOTA y gestión remota de dispositivos: actualizar el firmware y ajustar la configuración a través de GPRS o Wi‑Fi para mantener los dispositivos actualizados cuando están conectados a las herramientas de gestión de Plaspy.
+- Ubicación y telemetría en vivo en los mapas de Plaspy con reproducción histórica para revisiones de incidentes.
+- Control remoto de inmovilizador y corte de motor expuesto en los flujos de trabajo de Plaspy para respuestas de seguridad.
+- Eventos de comportamiento del conductor registrados como alertas y entradas en Plaspy para programas de puntuación y capacitación.
+- Alertas de batería y pérdida de energía que mantienen la continuidad de notificaciones críticas al equipo de operaciones.
+- Gestión remota del dispositivo y FOTA para aplicar actualizaciones y cambios de configuración desde Plaspy cuando el rastreador esté conectado.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | T366 \(rastreador OBD GPS\) |
-| --- | --- |
-| Conectividad | Conectividad de doble modo: GPRS \(cuadribanda\) y Wi‑Fi 802.11 b/g/n |
-| Bandas | GSM 850 / 900 / 1800 / 1900 MHz; GPRS clase multi‑slot 12 |
-| GNSS | u‑blox 6M con A‑GPS; precisión autónoma \< 3 m, SBAS ~ 2.0 m; sensibilidad hasta ~ ‑162 dBm |
-| Wi‑Fi | 802.11 b/g/n, WPA/WPA2/WPS; conmutación automática entre Wi‑Fi y GPRS para informes |
-| Alimentación & Batería | Funcionamiento 8–32 VDC; batería de respaldo Li‑Polímero 3.7 V, 180 mAh; corriente típica ~70 mA en actividad, 10 mA en reposo |
-| Interfaces | Conector OBD‑II \(J1962\), admite protocolos OBDII y CAN \(J1850 PWM/VPW, ISO9141‑2, ISO14230, ISO15765‑4 CAN, SAE J1939, J1708/J1587\); micro USB para configuración; ranura SIM de tamaño estándar; LEDs indicativos; una salida digital \(corte de motor\) |
-| Sensores & Memoria | Acelerómetro de 3 ejes \(±2/4/8/16 g configurable\), detección de tensión de la batería del vehículo, sensor de temperatura opcional, ~16 MB de memoria interna \(~40,000 registros\) |
-| Funciones | Inmovilizador integrado, monitor de voz, geocercas \(circulares/rectangulares/polígonos de hasta 32 puntos\), rastreo por tiempo/distancia/trayectoria/estado, detección de comportamiento del conductor \(8 tipos\) |
-| Gestión Remota | FOTA vía GPRS o Wi‑Fi, APN automático, identificación automática de la zona horaria |
-| Forma y Dimensiones | 62 × 50 × 23 mm \(45 × 50 × 23 mm sin incluir el conector J1962\); peso ~56 g |
-
-## Casos de uso
-
-- Gestión de flotas: monitorizar la ubicación del vehículo, el comportamiento del conductor y el estado del vehículo para optimización de rutas y mejoras de productividad.
-- Anti‑robo e inmovilización: detectar eventos de robo e inmovilizar remotamente los vehículos mediante el inmovilizador integrado y la salida de corte del motor a través de Plaspy.
-- Seguros y monitoreo basado en el uso: recopilar eventos de conducción y telemetría OBD para respaldar programas de seguros telemáticos y puntuación de riesgos.
-- Alquiler y asistencia en carretera: reporte preciso de ubicación y estado del vehículo para despacho rápido, recuperación y soporte.
-- Perfilado de conductores y programas de seguridad: identificar conducción brusca, patrones de fatiga y eventos sin calentamiento previo para reducir riesgos y costos de capacitación.
+- Gestión de flotas para seguimiento en tiempo real, optimización de rutas y monitoreo del estado del vehículo.
+- Monitoreo antirrobo y inmovilización remota para recuperación o protección de activos.
+- Programas de seguros y monitoreo basado en uso que requieren eventos de conducción y datos telemáticos.
+- Operaciones de renta y uso compartido de vehículos que necesitan rastreo rápido de activos y verificaciones de estado remotas.
+- Programas de seguridad y desempeño del conductor empleando detección configurable de conductas e informes.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El T366 ofrece una combinación equilibrada de GNSS preciso, telemetría OBD/CAN rica y flexibilidad de comunicaciones que lo hace particularmente adecuado para implementaciones con Plaspy. Su formato OBD de enchufe simplifica la instalación en flotas mixtas, mientras que la conmutación automática entre Wi‑Fi y GPRS y el soporte FOTA reducen los costos operativos y facilitan la gestión remota. El control de inmovilizador integrado y la detección integral del comportamiento del conductor ofrecen seguridad y conocimientos accionables, para que los operadores de flotas y las aseguradoras puedan reducir el riesgo y mejorar la disponibilidad.
+El T366 combina un factor de forma compacto plug‑in OBD con posicionamiento GNSS preciso y amplia telemetría vehicular para aportar beneficios prácticos a las organizaciones que usan Plaspy. Su flexibilidad de comunicaciones y la capacidad de actualización por aire reducen el mantenimiento presencial, mientras que el control de inmovilizador integrado y la detección de comportamiento del conductor ofrecen insumos accionables para programas de seguridad y rendimiento de flotas. Para equipos enfocados en visibilidad operativa y despliegues escalables, el T366 es un dispositivo sensato para integrar con Plaspy.
 
-Para las organizaciones que usan Plaspy, añadir el T366 proporciona seguimiento en tiempo real fiable, telemetría detallada y capacidades de control remoto en un formato compacto. Ya sea que necesite gestión de flotas, protección anti‑robo, telemetría para el análisis de combustible y del encendido mediante OBD, o perfilado de conductores, el T366 está diseñado para ofrecer un rendimiento consistente y una integración con Plaspy sencilla.
-
+Para obtener más información sobre cómo Plaspy puede funcionar con el Ulbotech T366 visite https://www.plaspy.com y revise la información actual del producto en el sitio del fabricante en http://www.ulbotech.com/ para conocer las especificaciones, disponibilidad y documentación más recientes. Tenga en cuenta que las especificaciones, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que debe verificar la información actual con Ulbotech antes de finalizar la compra.

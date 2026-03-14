@@ -2,60 +2,60 @@
 slug: /sinotrack/st_901
 id: st_901
 sidebar_label: ST-901
+title: SinoTrack - ST-901
 sidebar_class_name: menu_item_tracker
+description: Compact waterproof GPS tracker for motorcycles scooters cars and light trucks compatible with Plaspy for fleet tracking and remote immobilization
+keywords:
+  - SinoTrack ST-901
+  - ST-901 tracker
+  - SinoTrack GPS tracker
+  - ST-901 Plaspy
+  - motorcycle GPS tracker
+  - scooter GPS tracker
+  - vehicle immobilizer tracker
+  - GPS GPRS SMS tracker
+  - fleet tracking device
+  - waterproof GPS tracker
 ---
+
 # SinoTrack - ST-901
 
 ![ST-901](./tracker.jpg)
 
-The ST-901 4PIN Tracker from SinoTrack is a compact, waterproof wired GPS tracker designed for motorcycles, scooters, cars and light trucks. Built for discreet installation and reliable cellular reporting, the ST-901 provides GPS/GPRS/SMS positioning, geo-fence and over-speed alerts, ACC ignition detection, and a built-in backup battery for main power-off alarms. Its simple 4-pin wiring and external relay support let fleet managers and vehicle owners add remote engine cut-off \(immobilizer\) for anti-theft protection.
+The SinoTrack ST-901 is a compact, waterproof wired GPS tracker designed for motorcycles, scooters, cars and light trucks. Built for discreet mounting, the unit delivers GPS/GPRS/SMS positioning together with common vehicle alarms such as geo-fence and over-speed alerts, ACC ignition detection and a built-in backup battery to warn on main power loss. Its straightforward 4‑pin wiring and support for an external relay enable remote engine cut-off options for theft response.
 
-Plaspy-compatible out of the box when configured to report to a third‑party server, the ST-901 integrates with cloud tracking platforms via standard GPRS/SMS reporting. Configure the device with SMS commands to point it at Plaspy’s server IP and port, and you get real-time tracking, telemetry and alerting in Plaspy alongside SinoTrack’s free web and mobile platform. This makes the ST-901 a practical, cost-effective choice for fleet management and vehicle security deployments that require dependable position updates and remote immobilization.
+As a Plaspy compatible device, the ST-901 can forward its location and alarm messages to third party tracking platforms when configured to report to external servers. By setting the device to send data to Plaspy’s ingestion endpoint via the manufacturer SMS commands, fleet and security teams can receive real-time tracking, telemetry and alerting inside Plaspy while retaining the option to use SinoTrack’s own monitoring apps.
 
 ## Key Highlights
 
-- Plaspy compatible: set server IP/port and APN via SMS to report real-time location and alerts to Plaspy.
-- Compact, waterproof design for easy and discreet installation on motorcycles, scooters, cars and trucks.
-- Remote immobilizer support through a 4-pin interface and external relay for engine/fuel circuit control — ideal for anti-theft response.
-- Real-time GPS/GPRS positioning plus SMS alerts with Google Maps links for quick location sharing.
-- Core telemetry and safety alarms: ACC \(ignition\) detection, main power-off alarm \(internal battery\), geo-fence and over-speed alarms.
-- Built-in high-sensitivity GPS and GSM antennas to maximize satellite fixes and cellular link reliability in typical vehicle environments.
-- Free web platform and mobile app \(SinoTrack PRO\) for additional monitoring; can be configured to work with Plaspy for consolidated fleet management.
+- Plaspy compatible out of the box when configured to report to an external server via SMS commands
+- Compact waterproof design suited to motorcycles scooters cars and light trucks
+- Simple 4‑pin wiring and external relay support for remote immobilizer or engine cut-off control
+- GPS/GPRS positioning with SMS alerts and convenience features such as Google Maps links for quick sharing
+- Vehicle status alarms including ACC ignition detection and main power loss notification via internal backup battery
+- Geo-fence and over-speed alarms for perimeter and speed based event monitoring
+- SinoTrack free web platform and mobile app available alongside Plaspy integration for flexible monitoring
 
 ## How It Works with Plaspy
 
-The ST-901 transmits positional data and alarm events using standard GPS/GPRS/SMS modes. To integrate with Plaspy, configure the device’s server IP, port and APN via the manufacturer’s SMS commands so the tracker forwards its packets to Plaspy’s ingestion endpoint. Once connected, Plaspy receives location, status and alarm messages for real-time tracking, reporting and rule-based alerts.
+The ST-901 transmits positional data and alarm events using standard GPS GPRS and SMS modes. Configure the tracker with the manufacturer SMS commands to set the server address and APN so it forwards its location and events to Plaspy. Once configured, Plaspy ingests those packets and presents location, status and alarm messages for real-time visibility and operational use.
 
-- Real-time location and telemetry updates: GPS coordinates are sent over GPRS to the configured server for live tracking in Plaspy.
-- Ignition \(ACC\) status and main power alarm: ACC detection reports ignition on/off; internal battery triggers alerts on main power loss.
-- Geo-fence and over-speed alerts: boundary breaches and speed violations generate immediate events to Plaspy and SMS notifications.
-- Remote immobilizer \(engine cut-off\): connect an external relay through the 4-pin interface to enable remote engine or fuel circuit control for anti-theft actions.
-- SMS failover and direct alerts: the unit can send SMS alerts \(including Google Maps links\) when immediate notification is required or GPRS is unavailable.
-- Activation and IMEI considerations: configure via SMS commands \(server IP/port and APN\). Note local IMEI registration rules may apply in some countries and the device supports IMEI read/change commands per the manufacturer guidance.
+- Real-time location and telemetry updates forwarded to Plaspy for live fleet tracking
+- Ignition and power state reporting so Plaspy can show ACC on/off and main power loss alerts
+- Geo-fence and over-speed event forwarding for immediate alerts and historical analysis
+- Remote immobilizer support via external relay to enable remote engine or fuel circuit control actions from Plaspy workflows
+- SMS failover and direct alerting to provide notifications when GPRS connectivity is limited
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | ST-901 4PIN Tracker |
-| --- | --- |
-| Manufacturer | SinoTrack |
-| Connectivity | 2G GSM; GPS/GPRS/GSM/SMS positioning modes |
-| Bands | 2G GSM \(specific bands/variants depend on model/region\) |
-| Power & Battery | Wired to vehicle main power; internal backup battery for main power-off alarm \(capacity not specified\) |
-| Interfaces | 4-pin wired interface; ACC \(ignition\) detection input; external relay control for remote engine cut-off/immobilizer; wiring to power and ACC circuits |
-| GNSS | Built-in high-sensitivity GPS antenna and receiver \(GPS positioning; accuracy not specified\) |
-| Bluetooth | No Bluetooth reported / not specified |
-| Remote Management | SMS configuration commands for server IP/port/APN; free SinoTrackPro web platform and iOS/Android app for monitoring |
-| Form Factor | Mini, waterproof wired module for vehicle mounting \(motorcycle, scooter, car, truck\) |
-
-## Use Cases
-
-- Fleet management: track vehicles in real time with Plaspy for route oversight, driver monitoring and simple telemetry reporting.
-- Anti-theft protection: remotely immobilize a vehicle by triggering an external relay connected to the ST-901 to cut ignition or fuel circuit when a theft event is detected.
-- Two‑wheeler security: discreet, waterproof installation on motorcycles and scooters to provide location tracking and power-cut alerts where compact form factor is essential.
-- Alarm-driven operations: receive geo-fence, main power-off and over-speed alarms in Plaspy and via SMS for quick incident response.
-- Backup notification: use SMS alerts \(with Google Maps links\) for rapid sharing of vehicle location when data connectivity is limited.
+- Fleet management for small vehicle fleets requiring live location and simple telemetry
+- Anti-theft protection using remote immobilizer control and location alerts
+- Two wheeler security where a small waterproof form factor and discreet installation matter
+- Alarm driven operations that depend on geo-fence main power loss and speed alerts for incident response
+- Backup notification using SMS alerts with location links when data connectivity is unreliable
 
 ## Why Choose This Tracker with Plaspy
 
-The ST-901 combines a small, discreet waterproof design with practical vehicle-focused inputs and a relay option for immobilization, delivering reliable anti-theft and fleet management capabilities. Its support for standard GPS/GPRS/SMS reporting and SMS-based configuration makes it straightforward to point the device at Plaspy’s servers so your fleet or security operations can receive real-time tracking, ignition status, power-loss alarms and geo-fence/over-speed events. For teams that need simple but effective telemetry and immobilizer control without complex installation, the ST-901 is a dependable, cost‑effective choice—backed by SinoTrack’s free platform and mobile apps and manufacturer support for activation, wiring diagrams and IMEI management where required.
+The ST-901 is a practical option for organizations that need a compact waterproof tracker with core vehicle inputs and relay support for immobilization. Its support for standard reporting modes and SMS configuration makes it straightforward to point the device at Plaspy so teams can consolidate tracking, alerts and simple telemetry in a single platform.
 
+Learn more about how Plaspy can work with compatible trackers by visiting https://www.plaspy.com. Product specifications and availability can change over time, so verify current device details and official documentation with the manufacturer at https://www.sinotrackgps.com/ before making deployment decisions.

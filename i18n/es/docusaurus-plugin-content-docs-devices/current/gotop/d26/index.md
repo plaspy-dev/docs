@@ -2,53 +2,59 @@
 slug: /gotop/d26
 id: d26
 sidebar_label: D26
+title: GOTOP - D26
 sidebar_class_name: menu_item_tracker
+description: Rastreador solar GNSS D26 IP67 compatible con Plaspy para seguimiento y alertas confiables de activos en exteriores
+keywords:
+  - GOTOP D26
+  - rastreador D26
+  - rastreador GOTOP
+  - rastreador GPS solar
+  - rastreador 4G
+  - rastreador GNSS
+  - rastreo de activos
+  - seguimiento de flotas
+  - compatible con Plaspy
+  - rastreador para exteriores
 ---
+
 # GOTOP - D26
 
 ![D26](./tracker.jpg)
 
-El D26 4G Solar Tracking terminal es un rastreador robusto, con clasificación IP67, diseñado para el seguimiento de activos al aire libre a largo plazo y despliegues de IoT. Compatible con Plaspy de fábrica, el D26 combina carga solar, GNSS de alta sensibilidad y comunicaciones 4G/GPRS para ofrecer seguimiento en tiempo real confiable, telemetría remota y alertas basadas en eventos para contenedores, remolques, maquinaria y otros activos de difícil acceso.
+El D26 es un terminal de seguimiento solar 4G de GOTOP diseñado para el seguimiento prolongado de activos en exteriores y despliegues IoT. Con una carcasa resistente con certificación IP67 y una antena integrada de grado industrial, el D26 combina carga solar, posicionamiento GNSS de alta sensibilidad y comunicaciones celulares para ofrecer informes continuos de ubicación, telemetría remota y alertas por eventos en contenedores, remolques, maquinaria y otros activos de difícil acceso.
 
-La carcasa industrial con antena completamente integrada y la construcción duradera minimizan el mantenimiento y maximizan el tiempo de actividad. Características integradas como un sistema de carga solar incorporado, sensor de aceleración de 3 ejes para activación inteligente y ahorro de energía, AGPS rápido y memoria integrada para almacenamiento fuera de línea hacen del D26 una opción atractiva para la gestión de flotas y la monitorización anti-robo cuando se combina con la plataforma de Plaspy para mapas en tiempo real, alertas y telemática de flotas.
+Como dispositivo compatible con Plaspy desde el primer momento, el D26 se integra con la plataforma para ofrecer mapas en vivo, notificaciones, reproducción histórica y telemetría de flotas. Sus funciones integradas —como posicionamiento asistido por AGPS, ahorro de energía basado en movimiento, almacenamiento local para periodos sin conexión y gestión remota del equipo— lo convierten en una opción práctica cuando usted necesita seguimiento exterior de bajo mantenimiento junto con las herramientas centralizadas de monitoreo e informes de Plaspy.
 
-## Puntos destacados
+## Características principales
 
-- Operación prolongada al aire libre con carga solar integrada para ciclos continuos de carga y descarga, ideal para activos remotos.
-- Carcasa resistente con clasificación IP67 y antena industrial completamente integrada para despliegues al aire libre duraderos y de bajo mantenimiento.
-- Conectividad 4G LTE y GPRS para seguimiento en tiempo real y telemetría a través de redes celulares, con soporte TCP/IP para conexiones confiables con el servidor.
-- Posicionamiento GPS/BDS de alta sensibilidad, con soporte AGPS para un posicionamiento inicial más rápido y una mejor recepción satelital gracias a una antena anti-interferencias.
-- Sensor de aceleración de 3 ejes que permite activación inteligente, detección de movimiento y modos de ahorro de energía para prolongar la vida operativa.
-- Múltiples tipos de alarmas: alarma por vibración, alarma de sobrevelocidad, geocerca \(cerca electrónica\) y alertas SOS vía SMS/llamada, cargadas a la plataforma en tiempo real.
-- Memoria integrada para almacenamiento de datos fuera de línea y transmisión suplementaria para manejar escenarios de zonas sin cobertura o conectividad intermitente.
-- Configuración remota y actualizaciones de firmware en línea para la gestión a nivel de flota y reducción de visitas en campo.
+- Carga solar para operación prolongada en campo y menos visitas de mantenimiento.
+- Carcasa robusta IP67 con antena integrada para despliegues confiables en exteriores.
+- Conectividad celular 4G y GPRS para rastreo en tiempo real y transmisión de telemetría.
+- Posicionamiento GNSS con GPS y BDS y asistencia AGPS para fijaciones más rápidas y recepción estable.
+- Sensor de aceleración de 3 ejes integrado para detección de movimiento y activación inteligente que ahorra energía.
+- Almacenamiento local de datos para conservar el historial de eventos durante coberturas intermitentes.
 
-## Resumen técnico
+## Cómo funciona con Plaspy
 
-| Conectividad | 4G LTE y GPRS \(soporte TCP/IP\) |
-| --- | --- |
-| Bandas | No especificadas / dependientes de la región |
-| Alimentación y Batería | Sistema de carga solar integrado para ciclos de carga y descarga; diseñado para operación al aire libre a largo plazo |
-| Interfaces | Las funciones de alarma y rastreo incluyen alarma por vibración, alarma de sobrevelocidad, geocerca y alertas SOS vía SMS/llamada; detalles de E/S no especificados |
-| GNSS | Posicionamiento GPS y BDS con posicionamiento AGPS rápido y antena anti-interferencias para una recepción satelital estable |
-| Aceleración | Sensor de aceleración de 3 ejes incorporado para detección de movimiento, activación inteligente y ahorro de energía |
-| Memoria | Almacenamiento de datos fuera de línea integrado con transmisión suplementaria para escenarios de zonas sin cobertura |
-| Gestión remota | Configuración remota y actualizaciones de firmware en línea soportadas |
-| Procesador | MCU STM32 de 32 bits de alto rendimiento \(grado industrial\) |
-| Factor de forma | Carcasa industrial robusta con clasificación IP67 y antena completamente integrada; optimizada para activos al aire libre y montaje en contenedores |
-| Bluetooth | No especificado |
+Cuando el D26 está conectado a Plaspy, el dispositivo envía flujo de datos de ubicación y eventos a la interfaz centralizada de gestión de flotas, donde su equipo puede ver posiciones en tiempo real, recibir alertas y generar reportes. Plaspy utiliza la telemetría y las alarmas del equipo para apoyar la supervisión operativa y el análisis histórico, mientras que el búfer offline del D26 ayuda a garantizar la continuidad de los datos durante las brechas de cobertura.
 
-## Casos de uso
+- Actualizaciones en tiempo real de ubicación GNSS y telemetría entregadas a Plaspy para paneles de seguimiento en vivo.
+- Reenvío inmediato de eventos de alarma como vibración, salidas de geocerca, exceso de velocidad y SOS para que Plaspy active notificaciones y flujos de trabajo.
+- Búfer de memoria offline con transmisión suplementaria para preservar el historial de eventos durante periodos en puntos ciegos.
+- Posicionamiento asistido por AGPS que reduce el tiempo de primer fijado y mejora la capacidad de respuesta de los mapas en Plaspy.
+- Capacidades de configuración remota y actualización de firmware para simplificar la gestión de dispositivos en la flota.
 
-- Rastreo de contenedores y remolques: monitorización a largo plazo al aire libre con carga solar y alertas de geocerca para prevenir pérdidas de carga.
-- Monitorización remota de equipos y maquinaria: detección de vibraciones y movimiento combinada con telemetría para mantenimiento preventivo.
-- Gestión de flotas de activos fuera de carretera o semi-permanentes: posicionamiento en tiempo real, alertas de sobrevelocidad y almacenamiento en búfer para áreas con cobertura intermitente.
-- Protección de activos de construcción y agrícola: diseño robusto IP67 y alarmas SOS y de velocidad excesiva para ayudar a reducir el robo y el uso indebido.
-- Telemetría general de activos al aire libre: transmite ubicación GNSS, eventos de movimiento y datos de alarmas a Plaspy para informes centralizados y reproducción histórica.
+## Casos de uso típicos
+
+- Monitoreo a largo plazo de contenedores y remolques con alertas por geocerca y movimiento.
+- Seguimiento de maquinaria y equipos remotos para prevención de robos y visibilidad de activos.
+- Gestión de flotas de activos semipermanentes u off-road que experimentan cobertura intermitente.
+- Protección de activos en construcción y agricultura con carcasa resistente y notificaciones por eventos.
+- Telemetría exterior general para activos dispersos que requieren operación de bajo mantenimiento.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Combinado con Plaspy, el D26 se convierte en una solución de bajo mantenimiento y alta fiabilidad para la visibilidad de activos al aire libre. La carga solar integrada y la gestión inteligente de la energía prolongan significativamente los intervalos operativos entre visitas de servicio, reduciendo el costo total de propiedad. Combinado con el seguimiento en tiempo real, alertas y telemática de flotas de Plaspy, las implementaciones de D26 proporcionan información accionable para la gestión de flotas, flujos de trabajo anti robo y telemetría remota.
+El D26 combina una robusta durabilidad de hardware con funciones que favorecen despliegues exteriores de bajo mantenimiento y larga duración. La carga solar y la gestión inteligente de energía reducen la necesidad de visitas frecuentes al sitio, mientras que la memoria interna y la operación sensible al movimiento ayudan a preservar datos y extender el tiempo operativo. Al integrarlo con Plaspy, el D26 brinda a los operadores visibilidad centralizada, alertas y reproducción histórica que apoyan flujos de trabajo anti robo y la toma de decisiones operativas.
 
-El diseño industrial del D26, el GNSS asistido por AGPS y las comunicaciones robustas ofrecen a los operadores de flotas una precisión de ubicación y reporte de eventos fiables. Para implementaciones que requieran señales adicionales—como arranque, control de inmovilizador, monitorización de combustible o sensores Bluetooth—confirme las interfaces de hardware disponibles e integraciones para su variante de D26. Configurado para su caso de uso, D26 + Plaspy proporciona una plataforma escalable y segura para gestionar activos, responder a incidentes y optimizar las operaciones en campo.
-
+Si su organización necesita señales adicionales o integraciones específicas para determinados flujos de trabajo, confirme las interfaces de hardware disponibles para la variante de D26 antes del despliegue. Para obtener más información sobre Plaspy y cómo puede gestionar dispositivos GOTOP a escala visite el sitio principal https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, así que verifique los detalles actuales en el sitio del fabricante https://www.gotop.cc/ antes de finalizar la compra.

@@ -2,63 +2,59 @@
 slug: /reachfar/rf_v26
 id: rf_v26
 sidebar_label: RF-V26+
+title: Reachfar - RF-V26+
 sidebar_class_name: menu_item_tracker
+description: Compact solar assisted GPS tracker for livestock with rugged waterproof design and Plaspy compatibility for real time farm tracking
+keywords:
+  - Reachfar RF-V26+
+  - RF-V26+
+  - Reachfar animal GPS tracker
+  - animal GPS tracker
+  - livestock GPS tracker
+  - collar GPS tracker
+  - solar GPS tracker
+  - Plaspy compatible tracker
+  - farm tracking device
+  - livestock monitoring
 ---
+
 # Reachfar - RF-V26+
 
 ![RF-V26+](./tracker.jpg)
 
-The RF-V26+ is a compact animal GPS tracker purpose-built for livestock and large animals such as sheep, horses and cows. Plaspy compatible by design when integrated through standard location feeds, the RF-V26+ combines a rugged, waterproof enclosure with long-life solar charging to deliver reliable on-animal positioning for grazing management, anti-loss monitoring, and remote supervision of farm assets.
+The RF-V26+ is a compact animal GPS tracker purpose built for livestock and large animals such as sheep, horses and cows. It combines a rugged waterproof enclosure with solar assisted charging to provide extended field operation. The device is small and lightweight at 6.5 x 5.5 x 1.7 cm and approximately 73 g and ships with a holder, a magnet USB charging cable and a user manual, making it suitable for collar or holder mounting in grazing environments.
 
-Small and lightweight at 6.5 x 5.5 x 1.7 cm and approximately 73 g, the RF-V26+ is intended for collar or holder mounting and ships with a holder, a magnet USB charging cable and a user manual. Although the original product listing is marked out of production, the RF-V26+ remains a practical option for operations that need straightforward GPS tracker data fed into Plaspy for real-time tracking and farm telemetry.
+As a Plaspy compatible device by design, the RF-V26+ can feed standard location and status data into Plaspy for real time tracking and basic farm telemetry. This makes the tracker relevant for operations that need straightforward on-animal positioning for grazing management, anti loss monitoring and remote supervision of farm assets while using Plaspy for maps, alerts and reporting.
 
 ## Key Highlights
 
-- Compact, lightweight form factor for comfortable collar mounting on sheep, horses, cows and other livestock.
-- Solar-assisted power design extends operational life in the field and reduces maintenance intervals.
-- Rugged, waterproof enclosure built for outdoor grazing and harsh environments.
-- Includes holder and magnet USB charging cable for simple installation and charging.
-- Designed to provide position and status data suitable for Plaspy integration for real-time tracking and reporting.
-- Neutral retail packaging and bulk packing options support fleet deployments and inventory management.
-- Practical accessory pack and clear user documentation for fast commissioning on site.
+- Compact lightweight form factor designed for comfortable collar mounting on sheep, horses, cows and similar livestock
+- Solar assisted charging to extend operational life and reduce maintenance intervals in the field
+- Rugged waterproof enclosure built for outdoor grazing and harsh environmental conditions
+- Supplied with holder and magnet USB charging cable for straightforward on site setup and charging
+- Intended to provide position and basic device status suitable for Plaspy integration and mapping
+- Practical packaging and documentation options to support fleet deployments and inventory handling
 
 ## How It Works with Plaspy
 
-When you integrate the RF-V26+ with Plaspy, location points and device status are delivered to Plaspy’s platform where they appear as live positions, history trails and telemetry records. This allows farm managers to monitor animal movement, set geofence alerts and review historical ranges directly in Plaspy for operational decisions and reporting.
+When integrated with Plaspy, RF-V26+ location points and device status are presented on Plaspy maps and dashboards so managers can monitor animals in real time and review historical movement. Plaspy turns the incoming device feeds into visual tracks, alerts and reports that support operational oversight of grazing stock and mounted equipment.
 
-- Real-time location updates displayed on Plaspy maps and dashboards \(subject to device upload configuration\).
-- Position history and movement trails for grazing pattern analysis and herd management.
-- Battery and solar charging status available to Plaspy when the device firmware reports power telemetry.
-- Alerting and geofence notifications for anti-loss monitoring and perimeter management.
-- Compatibility with Plaspy’s reporting and export tools for integration into fleet management and telemetry workflows.
+- Live positions and movement trails displayed on Plaspy maps for situational awareness
+- Historical location history for grazing pattern analysis and seasonal planning
+- Status indicators such as charging or battery conditions reported to Plaspy when available from the device
+- Geofence alerts and perimeter notifications for anti loss monitoring and boundary management
+- Exportable reports and logs to support record keeping and integration with other farm workflows
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | RF-V26+ |
-| --- | --- |
-| Product type | Animal GPS tracker \(collar/holder mount\) |
-| Connectivity | GPS positioning \(device described as a GPS tracker\). Specific uplink/network type not specified on original listing. |
-| Bands | Not specified |
-| Power & Battery | Solar-assisted charging; includes magnet USB charging cable. Exact battery capacity and backup duration not specified. |
-| Interfaces | Designed for collar/holder mounting; package includes holder. No additional I/O details provided. |
-| GNSS | GPS positioning \(explicitly described as a GPS tracker\). Additional GNSS constellations not specified. |
-| Bluetooth | Not specified |
-| Remote Management | Not specified \(firmware management and FOTA not listed\). |
-| Form Factor | Compact waterproof enclosure, dimensions 6.5 x 5.5 x 1.7 cm, weight ~73 g. Supplied with holder for collar mounting. |
-| Package Contents | RF-V26+ tracker, holder, magnet USB charging cable, user manual. |
-| Packing & Lead Time | Neutral box \(8 x 8 x 4.5 cm\); carton holds 40 pcs \(35 x 26 x 20 cm, 6.2 kg\). Lead times: 1–2 pcs \(1 day\); 3–100 pcs \(3 days\); 101–1000 pcs \(15 days\); quantities &gt;1000 negotiable. Original listing marked out of production. |
-
-## Use Cases
-
-- Grazing management: map pasture usage and movement patterns to optimize grazing rotation and pasture recovery.
-- Animal anti-loss and perimeter alerts: get geofence notifications through Plaspy when animals stray beyond defined boundaries.
-- Remote herd supervision: monitor remote herds for location and basic status without daily physical checks.
-- Asset tracking for mounted equipment: track collars and holders used on working animals or mounted tools in the field.
-- Historical movement analysis: review trails and behavior over time to support breeding, health, or resource planning.
+- Grazing management to map pasture usage and optimize rotation across fields
+- Animal anti loss monitoring with geofence alerts to notify when animals stray beyond set boundaries
+- Remote herd supervision to reduce the need for routine physical checks across large areas
+- Tracking collars and holders used on working animals or mounted tools in pastoral operations
+- Reviewing historical movement for breeding decisions, health monitoring or resource planning
 
 ## Why Choose This Tracker with Plaspy
 
-The RF-V26+ offers a focused solution for animal GPS tracking where solar-extended battery life, a waterproof compact form and simple mounting are priorities. Paired with Plaspy, RF-V26+ location and status feeds can be turned into actionable telemetry and real-time tracking views for farm and fleet management workflows. For operations that need basic on-animal positioning and durable field performance, the RF-V26+ integrates into Plaspy to deliver mapping, alerts and historical reporting without unnecessary complexity.
+The RF-V26+ is a focused solution for farms and grazing operations that need reliable on-animal positioning with a durable enclosure and extended operation through solar assistance. Its compact size and included mounting accessories make it practical to deploy across herds, while the device design supports straightforward data feeds into Plaspy for mapping, alerts and reporting.
 
-Note on advanced features and keywords: this product is optimized for GPS-based animal tracking and Plaspy-compatible location reporting. Features commonly associated with vehicle telematics — such as fuel monitoring, ignition detection, remote immobilizer or built-in Bluetooth sensors — are not specified for the RF-V26+. If you require those capabilities for a mixed fleet \(vehicles and animals\), confirm hardware-level support or consider Plaspy-compatible variants that explicitly list telemetry, BLE sensor support or vehicle I/O.
-
+If your goals are real time location visibility, basic device status monitoring and simple historical reporting within Plaspy, the RF-V26+ is a sensible option to consider. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so verify current specifications and support information with the manufacturer at https://www.reachfargps.com/

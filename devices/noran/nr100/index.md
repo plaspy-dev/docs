@@ -2,59 +2,61 @@
 slug: /noran/nr100
 id: nr100
 sidebar_label: NR100
+title: Noran - NR100
 sidebar_class_name: menu_item_tracker
+description: Compact OBD II GPS tracker with dual positioning and event alerts compatible with Plaspy for real time fleet tracking and security
+keywords:
+  - Noran NR100
+  - NR100 GPS tracker
+  - Noran tracker
+  - NR100 Plaspy compatible
+  - NR100 fleet tracking
+  - NR100 OBD tracker
+  - NR100 real time tracking
+  - Noran NR100 alerts
+  - Plaspy compatible trackers
+  - vehicle tracking NR100
 ---
+
 # Noran - NR100
 
 ![NR100](./tracker.jpg)
 
-The NR100 OBD GPS Tracker is a compact OBD-II plug-in GPS tracker designed for Plaspy compatible deployments that need reliable real-time tracking and fleet management. With dual GPS and LBS positioning, built-in GPS/GSM antennas and a SiRF GPS receiver, the NR100 delivers continuous location updates, configurable reporting intervals, and immediate alerting for overspeed, power-cut and geo-fence events — all easily integrated into the Plaspy platform for centralized monitoring and reporting.
+The NR100 is a compact OBD II plug in GPS tracker designed for fleet and security deployments that require reliable real time location and event monitoring. It combines dual positioning (GPS plus LBS), built in antennas and a SiRF GPS receiver to provide continuous location updates, configurable reporting intervals and immediate alerts for overspeed, power cut and geo fence events. The unit also supports SMS and Internet reporting, remote audio monitoring and remote self failure analysis to help maintain device health and situational awareness.
 
-Easy to install and maintain, the NR100 is optimized for commercial fleets, service vehicles and security applications where fast deployment and discreet installation matter. The unit supports SMS and Internet reporting, remote audio monitoring and remote self-failure analysis, providing fleet managers with the telemetry and situational awareness needed to reduce theft, improve route efficiency and manage driver behavior through Plaspy’s dashboards and alerting.
+As a Plaspy compatible device, the NR100 can stream its location and event data into the Plaspy platform for centralized monitoring and reporting. That compatibility makes the NR100 a practical choice for organizations that want a plug and play OBD II solution that integrates into Plaspy dashboards, alerting and historical playback workflows without heavy customization.
 
 ## Key Highlights
 
-- Plaspy compatible for real-time tracking and centralized fleet management via Internet or SMS.
-- Dual positioning \(GPS + LBS\) for improved coverage in urban and marginal-signal environments.
-- Plug-and-play OBD-II form factor for fast installation without vehicle disassembly.
-- Configurable reporting intervals by time or distance to balance accuracy and data usage.
-- Immediate alerts: overspeed, power-cut and geo-fence notifications to support anti-theft workflows.
-- Remote audio monitor and self-failure analysis for security and device health assurance.
-- Compact, robust design with wide operating temperature and humidity tolerances for demanding fleet operations.
+- Plaspy compatible for real time tracking and centralized fleet management via SMS or Internet reporting
+- Dual positioning (GPS + LBS) to improve coverage in urban and marginal signal areas
+- Plug and play OBD II form factor for fast deployment in supported vehicles
+- Configurable reporting intervals to balance location accuracy and data usage
+- Immediate alerts for overspeed, power cut and geo fence events to support rapid incident response
+- Remote audio monitoring and self failure analysis to assist security and device maintenance
+- Compact design suited to commercial fleets and service vehicle deployments
 
 ## How It Works with Plaspy
 
-When connected to Plaspy, the NR100 becomes a Plaspy compatible GPS tracker that streams location and event data to the platform for real-time tracking, historical playback and automated reporting. Plaspy ingests telemetry and alert messages from the tracker, visualizes trips on maps, and triggers notifications or workflows used by fleet managers and security teams.
+When integrated with Plaspy, the NR100 forwards location telemetry and event messages to the platform where fleet managers can visualize trips, receive alerts and generate reports. Plaspy ingests the tracker data for real time oversight and historical analysis, enabling automated notifications and operational workflows.
 
-- Real-time location and telemetry updates via GSM/3G and GPS \(dual GPS + LBS positioning\).
-- Power-cut and overspeed alerts sent to Plaspy for immediate incident handling.
-- Geo-fence notifications and configurable alerts for perimeter and route compliance monitoring.
-- Audio monitor feature accessible through Plaspy workflows for remote listening where permitted by law.
-- Fuel monitoring and ignition-based reports: the OBD-II interface provides vehicle telemetry that Plaspy can use for fuel and ignition reporting when the vehicle’s OBD data supports those PIDs.
-- Remote immobilizer capability can be implemented using the optional relay accessory to execute engine cut-off workflows through Plaspy \(relay sold separately/optional\).
-- Plaspy’s platform also supports external Bluetooth sensors; use the NR100’s OBD-II telemetry together with Plaspy’s BLE-enabled devices for combined solutions where required.
+- Real time location updates and trip visualization on Plaspy maps for live monitoring and playback
+- Alert routing for overspeed, power cut and geo fence events so teams can respond quickly
+- Configurable reporting and notification rules in Plaspy to match operational needs and data budgets
+- Remote audio monitoring and device health messages available within Plaspy workflows where permitted
+- Use of OBD II telemetry for ignition and vehicle data reporting in Plaspy when supported by the vehicle
+- Integration with external sensors and accessories through Plaspy to expand monitoring capabilities
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM and 3G cellular for SMS and Internet reporting; supports LBS for supplemental positioning |
-| --- | --- |
-| Bands | GSM: 850 / 900 / 1800 / 1900 MHz; 3G: 2100 MHz |
-| Power & Battery | DC 12V / 1A input; 150 mAh / 3.7V backup battery; standby ~15 hours \(power-saving mode\), ~3 hours \(normal mode\) |
-| Interfaces | OBD-II plug-in form factor; built-in GPS and GSM antennas \(compact profile\); audio monitor; two status LEDs \(GPS/GSM and power\); optional external accessories include digital camera, SOS button and relay |
-| GNSS | GPS SiRF chipset; sensitivity 163 dB; positioning accuracy approximately 10 meters; dual GPS + LBS positioning for improved coverage |
-| Bluetooth | No built-in Bluetooth reported; Plaspy platform supports BLE sensors that can be used alongside the NR100 where applicable |
-| Remote Management | Remote self-failure analysis and remote audio monitoring supported; remote firmware update \(FOTA\) not specified |
-| Form Factor | OBD-II plug-in device, compact dimensions 72 x 48 x 24 mm; weight approximately 100 g; shipped with cables and manual |
-
-## Use Cases
-
-- Fleet anti-theft and immobilization: overspeed and power-cut alerts plus optional relay enable rapid theft response through Plaspy workflows.
-- Delivery and service vehicle visibility: real-time tracking and configurable reporting intervals help optimize routes and improve ETA accuracy.
-- Driver behavior and compliance monitoring: use overspeed alerts and trip playback in Plaspy to coach drivers and reduce operational risk.
-- Security and remote listening: audio monitor and geo-fence notifications support safety teams and post-incident investigations.
-- Vehicle telemetry integration: OBD-II telemetry supports ignition and engine data reporting, enabling fuel monitoring and basic diagnostics in Plaspy where the vehicle exposes those PIDs.
+- Commercial fleet tracking for route visibility, ETA improvement and utilization reporting
+- Service and delivery vehicle monitoring where fast deployment and discrete installation matter
+- Anti theft and rapid response workflows using power cut, geo fence and overspeed alerts
+- Driver behavior and compliance monitoring with event alerts and trip playback
+- Security operations that require remote audio monitoring and device health checks
 
 ## Why Choose This Tracker with Plaspy
 
-The NR100 is a practical, Plaspy compatible GPS tracker for organizations that require a compact, plug-and-play OBD-II solution for fleet management and anti-theft protection. Its combination of dual GPS/LBS positioning, configurable real-time tracking, alerting features and remote device diagnostics reduces installation time and operational overhead. Pairing the NR100 with Plaspy delivers centralized telemetry, reports and automated alerts so fleets can improve utilization, respond faster to incidents and maintain continuous oversight across vehicles and service deployments.
+The NR100 is a practical fit for organizations seeking a compact, plug and play OBD II tracker that connects into a centralized fleet platform. Its combination of dual positioning and event alerts maps well to Plaspy features for real time visibility, automated notifications and historical reporting. For fleets that prioritize quick installation and operational oversight, pairing the NR100 with Plaspy reduces setup time and centralizes telemetry for easier management.
 
+If you want to evaluate how the NR100 can support your fleet or security workflows, Plaspy provides the dashboards and alerting tools to ingest the device data and turn it into operational insight. To learn more about Plaspy visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details and compatibility on the manufacturer site http://www.norantracker.com/ before final procurement.

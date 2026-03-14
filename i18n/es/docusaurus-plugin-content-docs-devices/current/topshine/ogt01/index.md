@@ -2,68 +2,59 @@
 slug: /topshine/ogt01
 id: ogt01
 sidebar_label: OGT01
+title: TopShine - OGT01
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD II compacto OGT01 plug and play compatible con Plaspy para ubicación en tiempo real, diagnóstico y monitoreo de flotas
+keywords:
+  - TopShine OGT01
+  - OGT01
+  - TopShine rastreador
+  - OGT01 Plaspy
+  - rastreador OBD II
+  - rastreador de vehículos
+  - seguimiento de flotas
+  - seguimiento en tiempo real
+  - diagnóstico OBD
+  - rastreo de activos
 ---
+
 # TopShine - OGT01
 
 ![OGT01](./tracker.jpg)
 
-El OGT01 OBD II Car Tracking Device es un rastreador GPS compacto, plug-and-play, diseñado para vehículos y activos de flota que requieren datos fiables de ubicación y diagnósticos de forma continua. Construido para encajar directamente en cualquier puerto OBD-II estándar, el OGT01 ofrece rastreo en tiempo real compatible con Plaspy, telemetría a bordo y diagnósticos OBD sin necesidad de cableado complejo ni fuente de alimentación adicional.
+El TopShine OGT01 es un rastreador OBD II compacto plug and play diseñado para vehículos y activos de flota ligera. Se conecta al puerto OBD II estándar para ofrecer ubicación continua del vehículo y diagnóstico a bordo sin cableado adicional. La unidad incluye antenas GPS y GSM integradas, localización dual LBS y GPS, un registrador de datos interno de 2 MB para periodos con cobertura celular limitada y una batería de respaldo capaz de mantener reportes durante periodos extendidos en modo ahorro de energía.
 
-Con antenas GPS y GSM integradas, localización dual LBS/GPS, un registrador de datos interno de 2 MB para zonas ciegas de GSM/GPRS y una batería de respaldo que puede mantener el dispositivo informando hasta 15 horas en modo de ahorro de energía, el OGT01 está orientado a la gestión de flotas, flujos de trabajo anti-robo y operadores que deseen monitorizar el combustible a nivel de vehículo y telemetría del motor accesibles a través de una plataforma web gratuita y una app móvil.
+Como dispositivo compatible con Plaspy, el OGT01 puede enviar en tiempo real ubicación y telemetría a una plataforma habilitada para Plaspy, lo que permite que administradores de flota y propietarios combinen seguimiento GPS con diagnósticos a nivel OBD. Esa integración hace que el dispositivo sea útil para organizaciones que requieren visibilidad inmediata y datos detallados del vehículo accesibles mediante los paneles, alertas e informes de Plaspy.
 
-## Aspectos destacados
+## Aspectos clave
 
-- Instalación OBD II plug-and-play para un despliegue rápido en automóviles y vehículos ligeros — no se requiere instalación profesional.
-- Rastreo en tiempo real compatible con Plaspy vía SMS y GPRS \(TCP/UDP\) con una plataforma web gratuita y una app para Android \(demo: www.track-car.com; móvil: http://www.track-car.com/M; demo/officetest: officetest / 123\).
-- Diagnósticos y telemetría a bordo OBD, incluyendo posición del acelerador, velocidad del motor, consumo medio de combustible, temperatura, carga en tiempo real y códigos de fallo/errores para obtener información accionable sobre el vehículo.
-- Alimentación continua desde el vehículo con una batería de respaldo integrada que soporta hasta 15 horas de rastreo en modo de ahorro de energía si la batería del coche se agota.
-- Registrador de datos interno de 2 MB que registra la ubicación y eventos durante áreas ciegas de GSM/GPRS, subiendo automáticamente los datos almacenados cuando se restablece la conectividad.
-- Alarmas operativas y características de seguridad: alertas de geocerca, alarmas de exceso de velocidad, alertas de movimiento, reporte de odómetro y detección de encendido/apagado del motor para anti-robo y control de la flota.
-- Listo para uso comercial: plataforma de rastreo gratuita de por vida proporcionada por el fabricante, certificaciones CE/FCC/RoHS, garantía de 2 años y opciones de personalización OEM/ODM.
+- Instalación plug and play en puerto OBD II para despliegues rápidos en automóviles y vehículos ligeros.
+- Compatible con Plaspy para seguimiento y reporte de telemetría en tiempo real vía GPRS y SMS.
+- Diagnóstico OBD integrado con estimaciones de consumo de combustible, revoluciones del motor (RPM), posición del acelerador e informe de códigos de falla.
+- Alimentación continua del vehículo con batería de respaldo interna que permite reportes prolongados en modo ahorro de energía.
+- Registrador de datos interno de 2 MB que almacena posición y eventos durante zonas sin cobertura celular y sube la información cuando se restablece la conectividad.
+- Alertas operativas como geocercas, exceso de velocidad, alertas de movimiento, informes de odómetro y detección de encendido/apagado del motor para control de flota y flujos de trabajo antirobo.
 
 ## Cómo funciona con Plaspy
 
-Cuando se instala en el puerto OBD del vehículo, el OGT01 transmite datos de ubicación y diagnósticos a la plataforma compatible con Plaspy mediante GPRS \(TCP/UDP\) o SMS. Plaspy ingiere la telemetría del dispositivo y los informes OBD, consolidando la ubicación, parámetros del motor y alertas de eventos en paneles en tiempo real, reglas de geocercas y informes exportables para gestores de flotas y propietarios de vehículos.
+Cuando se instala en el puerto OBD de un vehículo, el OGT01 transmite ubicación y telemetría OBD a un backend compatible con Plaspy, donde esa información se normaliza y se presenta en paneles, mapas e informes para uso operativo. Plaspy consolida los datos del dispositivo con alertas basadas en reglas e informes históricos para apoyar la supervisión de flotas y la planificación de mantenimiento.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía GPRS/TCP/UDP y SMS para una visibilidad inmediata en los tableros de Plaspy.
-- Estado del motor/encendido \(motor encendido/apagado\) para análisis de paradas y arranques y monitoreo anti-robo.
-- Monitoreo de combustible y telemetría basada en OBD: consumo medio de combustible, velocidad del motor y posición del acelerador disponibles para informes de eficiencia de combustible.
-- Alertas activadas por eventos enviadas a Plaspy: infracciones de geocerca, exceso de velocidad, movimiento y códigos de error almacenados.
-- Registro fuera de línea: el registrador de datos interno de 2 MB almacena ubicación y datos de eventos durante brechas de conectividad y se sincroniza cuando el dispositivo se reconecta a la red.
+- Las actualizaciones de ubicación en tiempo real y la telemetría aparecen en los mapas y vistas en vivo de Plaspy para visibilidad inmediata.
+- Los reportes de estado del motor e ignición facilitan el análisis de detenciones y arranques y ayudan a detectar uso no autorizado.
+- El monitoreo de combustible y la telemetría basada en OBD están disponibles dentro de Plaspy para reportes de eficiencia y costos.
+- Las alertas por eventos, como violaciones de geocerca, exceso de velocidad, movimiento y códigos de falla registrados, pueden entregarse a los operadores.
+- El almacenamiento offline del registrador interno sincroniza posiciones y eventos históricos con Plaspy cuando la unidad recupera conectividad.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conexión | Puerto OBD II \(plug-and-play\) |
-| --- | --- |
-| Dimensiones | 70 x 45 x 25 mm |
-| Peso | 40 g |
-| Voltaje de operación | Voltaje de operación 6V–24V \(voltaje de funcionamiento listado como 9–24V DC\) |
-| Frecuencia / Bandas GSM | 850 / 900 / 1800 / 1900 MHz \(GSM/GPRS\) |
-| GNSS \(GPS\) | Antena GPS integrada; precisión de 5–10 m; admite localización dual LBS/GPS |
-| Registrador de datos interno | 2 MB \(almacena datos durante áreas ciegas de GSM/GPRS\) |
-| Alimentación y batería | Alimentación continua mientras esté conectado a OBD; batería interna de respaldo ofrece hasta 15 horas en modo de ahorro de energía |
-| Interfaces | Interfaz OBD II para diagnósticos y telemetría del vehículo; admite reporte de parámetros OBD y detección de encendido/apagado del motor |
-| Bluetooth | No especificado en los datos del fabricante |
-| Gestión remota | Informes en tiempo real vía SMS/GPRS \(TCP/UDP\); compatible con plataforma web gratuita y app para Android \(credenciales de demo proporcionadas\) |
-| Certificaciones y garantía | Certificaciones CE / FCC / RoHS; garantía de 2 años |
-| Formato y empaquetado | Unidad compacta impermeable; dimensiones de la unidad 70 x 45 x 25 mm; caja color neutro de 8 x 5 x 2.5 cm; 100 unidades por carton |
-
-## Casos de uso
-
-- Gestión de flotas: ubicación continua, telemetría OBD e informe de consumo de combustible para optimización de rutas y control de costos.
-- Anti-robo y recuperación: detección de encendido del motor, alertas de movimiento y alarmas de geocerca para detectar uso no autorizado y activar respuestas oportunas.
-- Diagnóstico remoto: códigos de error en tiempo real y parámetros del motor en vivo para reducir el tiempo de inactividad y priorizar el mantenimiento.
-- Utilización del vehículo y comportamiento del conductor: reporte de odómetro, alarmas de exceso de velocidad y telemetría de acelerador/velocidad del motor para monitorizar uso y promover una conducción más segura.
-- Rastreo de respaldo para cobertura intermitente: registrador de datos interno almacena trayectos y eventos durante zonas sin cobertura GSM, sincronizando posteriormente con la plataforma.
+- Gestión de flotas para seguimiento de rutas, monitoreo de utilización y análisis de eficiencia de combustible.
+- Antirrobo y recuperación con alertas de movimiento, detección de encendido/apagado y notificaciones de geocerca.
+- Diagnóstico remoto para priorizar mantenimiento mediante códigos de error en vivo y parámetros del motor.
+- Monitoreo del comportamiento del conductor y uso del vehículo mediante reportes de odómetro y alertas por exceso de velocidad.
+- Seguimiento de respaldo en zonas con cobertura celular intermitente usando el registrador de datos interno.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El OGT01 ofrece una combinación equilibrada de simplicidad plug-and-play, telemetría OBD robusta y rastreo en tiempo real compatible con Plaspy que se adapta a pequeñas flotas, operadores de alquiler y propietarios de vehículos individuales. Su conexión OBD directa elimina el cableado y proporciona acceso a parámetros OBD estándar \(consumo de combustible, velocidad del motor, posición del acelerador y códigos de error\), de modo que Plaspy pueda entregar telemetría más rica e informes accionables sin costosas retrofitaciones.
+El OGT01 combina un despliegue sencillo con diagnósticos a nivel vehículo, lo que lo convierte en una opción práctica para operadores que desean telemetría avanzada sin instalaciones complejas. En conjunto con Plaspy, el dispositivo permite un monitoreo de flota integrado donde ubicación, parámetros del motor y alertas de eventos son visibles en una sola plataforma para la toma de decisiones operativas.
 
-Las ventajas comerciales incluyen una plataforma de rastreo gratuita de por vida, acceso a la app de Android, opciones OEM/ODM, cumplimiento CE/FCC/RoHS y una garantía de 2 años. Entre las características operativas se encuentran un registrador de datos interno de 2 MB y una batería de respaldo que extienden la continuidad del rastreo en áreas de baja cobertura o durante eventos de descarga de batería, haciendo del OGT01 una opción práctica para empresas centradas en fiabilidad, control de costos y una fácil integración con Plaspy.
-
-  \<meta itemprop="name" content="OGT01 OBD II Car Tracking Device">
-  \<meta itemprop="brand" content="OGT01 Manufacturer">
-  \<meta itemprop="model" content="OGT01">
-
+Para obtener más información sobre Plaspy y cómo este dispositivo puede integrarse en sus flujos de trabajo de rastreo visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y datos del fabricante pueden cambiar con el tiempo; por favor verifique las especificaciones actuales y la documentación con el fabricante en https://www.gztopshine.com/.

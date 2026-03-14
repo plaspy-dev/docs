@@ -2,27 +2,61 @@
 slug: /tzone/tz_bc06
 id: tz_bc06
 sidebar_label: TZ-BC06
+title: TZone - TZ-BC06
 sidebar_class_name: menu_item_tracker
+description: Rastreador beacon compacto TZone TZ-BC06 compatible con Plaspy para localización y seguimiento por proximidad vía iBeacon y Bluetooth 4.0
+keywords:
+  - TZone TZ-BC06
+  - TZ-BC06
+  - rastreador TZone
+  - compatibilidad TZ BC06
+  - TZ-BC06 Plaspy
+  - rastreador iBeacon
+  - rastreador Bluetooth 4.0
+  - rastreador compacto
+  - rastreador por proximidad
+  - seguimiento de corto alcance
 ---
+
 # TZone - TZ-BC06
 
 ![TZ-BC06](./logo.jpg)
 
-El rastreador GPS TZ-BC06 de TZone es un dispositivo compacto y ligero diseñado para proporcionar un seguimiento preciso y confiable de objetos y personas. Con un tamaño de 60 \* 24 \* 9 mm y un peso de solo 15 gramos, este rastreador es fácil de llevar y ocultar discretamente.
+El TZone TZ-BC06 es un rastreador compacto y ligero diseñado para ofrecer detección de presencia y localización a corto alcance de forma precisa y confiable. Con un acabado blanco crema y unas dimensiones reducidas de aproximadamente 60 x 24 x 9 mm, además de un peso cercano a los 15 gramos, el TZ-BC06 resulta fácil de portar o fijar a objetos personales y equipos. Utiliza el protocolo iBeacon de iPhone sobre Bluetooth 4.0 para emitir señales con intervalos y potencia de transmisión configurables, lo que permite ajustar su rendimiento y alcance según las necesidades.
 
-El TZ-BC06 utiliza el estándar del protocolo IBeacon iPhone \(Bluetooth 4.0 técnica\) para transmitir su ubicación en tiempo real. Con un intervalo de radiodifusión ajustable de 0,1 s a 3 s, este rastreador puede adaptarse a diferentes necesidades de seguimiento. Además, la potencia transmitida también es ajustable, variando desde -30 dBm hasta 4.
+Como dispositivo compatible con Plaspy, el TZ-BC06 puede ampliar la visibilidad de Plaspy a casos de uso de proximidad y corto alcance donde la detección tipo beacon resulta útil. Plaspy puede registrar y mostrar eventos de beacon y cambios de presencia reportados por receptores compatibles, lo que permite que usted y su equipo rastreen objetos, monitoreen puntos de acceso e integren datos de proximidad en flujos operativos más amplios. Esto convierte al TZ-BC06 en una adición práctica a despliegues de Plaspy que requieren conciencia de ubicación cercana junto con otros dispositivos de seguimiento.
 
-Este rastreador es compatible con sistemas IOS 7.0 y superiores, así como con Android 4.3 y superiores. También cuenta con soporte de contraseña para una conexión segura. Con una distancia de transmisión de 50-80 metros en espacios abiertos, el TZ-BC06 ofrece un rango de seguimiento amplio y confiable.
+## Características principales
 
-En resumen, el rastreador GPS TZ-BC06 de TZone es una opción ideal para aquellos que buscan un dispositivo compacto y confiable para el seguimiento de objetos y personas. Su tamaño compacto, peso ligero y características técnicas ajustables lo convierten en una herramienta versátil y fácil de usar.
+- Diseño compacto y liviano, ideal para fijar a objetos pequeños o llevarlo encima
+- Emisiones de presencia tipo beacon mediante el protocolo iBeacon de iPhone
+- Comunicaciones basadas en Bluetooth 4.0 para compatibilidad con una amplia variedad de receptores
+- Intervalo de transmisión y potencia ajustables para optimizar rendimiento y alcance
+- Funciona con iOS 7.0 en adelante y Android 4.3 en adelante
+- Admite conexiones protegidas por contraseña y ofrece distancia de transmisión de 50 a 80 metros en condiciones de campo abierto
 
-### Características destacadas:
+## Cómo funciona con Plaspy
 
-- Tamaño compacto y peso ligero
-- Protocolo IBeacon iPhone \(Bluetooth 4.0 técnica\)
-- Intervalo de radiodifusión ajustable
-- Potencia transmitida ajustable
-- Compatible con IOS 7.0 y superiores, Android 4.3 y superiores
-- Soporte de contraseña para conexión segura
-- Distancia de transmisión de 50-80 metros en espacios abiertos
+El TZ-BC06 emite señales beacon que pueden ser detectadas por dispositivos y gateways compatibles integrados en Plaspy. Una vez detectados, esos eventos pueden capturarse en Plaspy para proporcionar información de presencia, marcadores de ubicación a corto alcance y registros con sello de tiempo que alimentan flujos de supervisión e informes.
 
+- Registre eventos de proximidad y cambios de presencia en los paneles de Plaspy para visibilidad de activos y personal
+- Use las detecciones de señal para disparar alertas o notificaciones cuando un objeto entre o salga de un área monitoreada
+- Agregue detecciones de beacon en vistas temporales e informes para supervisión operativa
+- Combine los datos de proximidad del TZ-BC06 con información de otros dispositivos Plaspy para enriquecer la conciencia situacional
+- Aplique ajustes de emisión para equilibrar el rango de detección y la frecuencia de actualización dentro de los flujos de trabajo de Plaspy
+
+## Casos de uso típicos
+
+- Rastrear pequeños activos y herramientas dentro de una instalación o patio
+- Monitorear la presencia de pertenencias personales como bolsos o llaves
+- Flujos de trabajo por proximidad para registro de entrada y salida de equipos
+- Puntos de ubicación a corto alcance para zonas de almacén, portones o accesos
+- Añadir marcadores basados en beacon a flotas mixtas de dispositivos para contexto de ubicación más rico
+
+## Por qué elegir este rastreador con Plaspy
+
+El TZ-BC06 es una opción sensata para organizaciones que requieren seguimiento por proximidad compacto y de fácil despliegue, integrado dentro de una plataforma de seguimiento más amplia. Su tamaño reducido y su comportamiento de emisión configurable lo hacen adaptable para usarse en pertenencias personales, equipos o como balizas de ubicación dentro de edificios y en exteriores. Al usarse con Plaspy, el TZ-BC06 aporta detección de presencia a corto alcance que complementa a los dispositivos de rastreo de mayor alcance, ayudando a los equipos a obtener visibilidad más granular donde es importante.
+
+Dado que el TZ-BC06 se basa en emisiones estilo iBeacon, está pensado principalmente para casos de uso de proximidad y corto alcance más que para posicionamiento a larga distancia por sí solo. Para equipos que quieran combinar distintas tecnologías de rastreo, Plaspy puede ingerir eventos de beacon junto con datos de otros dispositivos para proporcionar una vista unificada de activos y operaciones.
+
+Para saber más sobre cómo Plaspy puede trabajar con dispositivos compatibles como el TZone TZ-BC06, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones y documentación vigentes con el fabricante en http://www.tzonedigital.com/.

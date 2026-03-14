@@ -2,64 +2,59 @@
 slug: /xirgo/xt24
 id: xt24
 sidebar_label: XT24
+title: Xirgo - XT24
 sidebar_class_name: menu_item_tracker
+description: Compact plug and play OBD GPS tracker that delivers vehicle location and telemetry to Plaspy for real time fleet tracking and anti theft workflows
+keywords:
+  - Xirgo XT24
+  - XT24 tracker
+  - XT24 Plaspy compatible
+  - OBD GPS tracker
+  - plug and play tracker
+  - fleet tracking
+  - vehicle telemetry
+  - GNSS tracking
+  - LTE Cat M1 tracker
+  - accelerometer events
 ---
+
 # Xirgo - XT24
 
 ![XT24](./tracker.webp)
 
-# XT24 OBD GPS Tracker
+The XT24 is a compact plug and play OBD GPS tracker designed for passenger and light duty vehicles. It combines an integrated GNSS receiver with cellular communications and a direct OBD interface to provide location, speed, and vehicle bus telemetry. The device is intended for rapid deployment across vehicle fleets where simple self installation and continuous vehicle monitoring are priorities.
 
-The XT24 is a compact, plug-and-play OBD GPS tracker designed for quick self-installation on passenger and light-duty vehicles. Built with an integrated GPS engine, cellular and GPS antennas, and a direct OBD interface, the XT24 delivers reliable vehicle location, speed and vehicle-bus telemetry to Plaspy for real-time tracking and fleet management.
-
-The device is Plaspy compatible out of the box: it reads standard OBD-II parameters and many OEM proprietary PIDs, reports GNSS position over LTE Cat M1, and provides motion data from a 3-axis accelerometer. Use the XT24 to improve fleet visibility, implement anti-theft workflows, and capture vehicle telemetry such as ignition status and fuel-related PIDs when available from the vehicle’s OBD system.
+As a Plaspy compatible device out of the box, the XT24 streams GNSS position, vehicle bus parameters, and motion events into the Plaspy platform. This compatibility makes the XT24 a practical option for organizations that want to consolidate location tracking, fuel and engine related telemetry, and movement alerts within Plaspy for real time visibility and operational oversight.
 
 ## Key Highlights
 
-- Plug-and-play OBD installation — self-installs in seconds for rapid deployment across fleets.
-- Plaspy compatible: transmits real-time GPS and OBD telemetry for seamless platform integration.
-- LTE Cat M1 cellular connectivity for efficient, low-power wide-area communications.
-- Integrated GPS receiver and antenna for dependable position and speed reporting.
-- 3-axis accelerometer and motion detector for movement, impact and tamper awareness.
-- Supports open OBD standard plus many OEM proprietary parameters for richer vehicle data.
-- LED indicators for GPS lock, GSM registration and OBD communication to simplify commissioning.
+- Plug and play OBD form factor for fast self installation across passenger and light duty vehicles
+- Native compatibility with Plaspy for real time GPS and vehicle telemetry ingestion
+- GNSS position reporting combined with vehicle bus data to give richer context for tracking
+- Motion detection using a 3 axis accelerometer to support movement and impact alerts
+- Supports standard OBD parameters and many OEM proprietary PIDs where available from the vehicle
+- LED indicators to simplify commissioning and verify basic device status during deployment
 
 ## How It Works with Plaspy
 
-The XT24 sends location and vehicle-bus data directly to Plaspy via LTE Cat M1. Once plugged into the vehicle OBD port, the unit polls the vehicle’s ECU for supported OBD PIDs and combines those telemetry streams with GNSS position and accelerometer events. Plaspy ingests these messages to provide real-time tracking, alerts, route history and fleet reporting.
+Once connected to a vehicle, the XT24 reads supported vehicle parameters and transmits those telemetry streams alongside GNSS position and motion events to Plaspy. Plaspy ingests the incoming messages and makes them available for live monitoring, alerts, and reporting so fleets can act on location and vehicle health information in near real time.
 
-- Real-time location and telemetry updates — GNSS position and vehicle parameters push to Plaspy for live tracking.
-- Ignition status and engine-related PIDs — read from the OBD port when the vehicle exposes those parameters.
-- Fuel monitoring and diagnostic data — Plaspy can display fuel-related OBD PIDs where the vehicle supports them.
-- Motion and impact events — the 3-axis accelerometer enables movement alerts, harsh braking or collision detection workflows.
-- Anti-theft and immobilization workflows — pair XT24 telemetry with Plaspy controls and compatible immobilizer hardware for remote response.
+- Real time location and telemetry updates to Plaspy for live fleet tracking and mapping
+- Ignition and engine related parameters read from the vehicle bus appear in Plaspy when exposed by the vehicle
+- Fuel and diagnostic related PIDs can be displayed and trended in Plaspy when the vehicle supports those values
+- Motion and impact events from the accelerometer enable movement alerts and incident workflows
+- Anti theft workflows and remote response can be coordinated by combining XT24 telemetry with Plaspy rules and compatible control hardware
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | XT24 |
-| :--- | --- |
-| Connectivity | LTE Cat M1 |
-| Bands | Not specified |
-| Power & Battery | Powered via vehicle OBD port; optional 250 mAh Li‑Ion backup battery |
-| Interfaces | Integrated OBD interface; supports open OBD standards and many OEM proprietary parameters |
-| GNSS | Integrated GPS receiver and antenna |
-| Sensors | 3-axis accelerometer and motion detector |
-| LED Indicators | GPS lock, GSM registration, OBD communication |
-| Remote Management | Not specified \(consult vendor for FOTA/remote tools\) |
-| Certifications | FCC, IC, ISED certified |
-| Form Factor | Compact plug-in OBD form factor for passenger/light-duty vehicles |
-
-## Use Cases
-
-- Fleet management — monitor vehicle location, mileage, and OBD telemetry to optimize routes and utilization.
-- Anti-theft monitoring — receive movement alerts and real-time position to support rapid recovery and response.
-- Vehicle diagnostics and fuel monitoring — collect OBD PIDs for fuel-related metrics and engine status where supported.
-- Driver behavior and safety — use accelerometer events to detect harsh braking or collisions for coaching and claims support.
-- Rapid rollouts — plug-and-play design simplifies large-scale deployments for passenger and light-duty vehicle fleets.
+- Fleet management for passenger and light duty vehicle pools to monitor location and utilization
+- Anti theft monitoring and recovery support using real time position and movement alerts
+- Fuel monitoring and basic diagnostics by capturing vehicle bus parameters when available
+- Driver behavior and safety programs that use motion events to surface harsh maneuvers
+- Rapid large scale rollouts where quick plug and play installation reduces deployment time
 
 ## Why Choose This Tracker with Plaspy
 
-The XT24 pairs simple installation with the data depth required for modern telematics programs. Its direct OBD access gives Plaspy the ability to display both GNSS-based real-time tracking and vehicle-bus telemetry such as ignition status and fuel-related parameters when available from the vehicle. LTE Cat M1 provides efficient cellular connectivity for continuous reporting without the power overhead of older 4G modules.
+The XT24 pairs a simple plug and play form factor with vehicle bus access that delivers both GNSS position and useful telemetry to Plaspy. For operators who need quick installation and continuous visibility, the XT24 provides the inputs Plaspy uses to present location, vehicle parameters, and event driven alerts in a unified view. That combination helps reduce installation overhead while enabling common telematics workflows such as route visibility, fuel monitoring, and movement alerts.
 
-For fleet operators and managers looking to scale, the XT24 reduces installation time and provides the essential inputs to Plaspy for actionable insights — from route optimization and fuel monitoring to anti-theft alerts and telemetry-based maintenance triggers. When additional features such as remote immobilizer control or Bluetooth sensors are required, Plaspy can integrate XT24 data with compatible peripherals and services to build a complete vehicle security and diagnostics solution.
-
+Learn more about how Plaspy can use XT24 telemetry and features by visiting https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time so verify current device capabilities and documentation with the manufacturer at https://xirgo.com/.

@@ -2,60 +2,60 @@
 slug: /coban/bn_501
 id: bn_501
 sidebar_label: BN-501
+title: Coban - BN-501
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto tipo wearable para seguridad personal y monitoreo de activos compatible con Plaspy para seguimiento y alertas en tiempo real
+keywords:
+  - Coban BN-501
+  - Rastreador BN-501
+  - rastreador GPS wearable
+  - compatible con Plaspy
+  - rastreador discreto
+  - rastreador de seguridad personal
+  - rastreador para mascotas
+  - seguimiento de activos
+  - rastreador con alarma SOS
+  - rastreador GPS con BLE
 ---
+
 # Coban - BN-501
 
 ![BN-501](./tracker.png)
 
-El BN-501 es un rastreador GPS compacto, de estilo joya, diseñado para seguridad personal discreta y seguimiento de activos de forma oculta. Compatible con Plaspy desde el momento de su instalación, el BN-501 combina GPS, posicionamiento asistido por WiFi, BLE 5.0 y comunicaciones celulares en múltiples redes \(GSM/GPRS, NB‑IoT y LTE Cat M\) para proporcionar actualizaciones de ubicación confiables, alarmas en el dispositivo y modos de energía configurables para una larga duración de la batería.
+El BN-501 es un rastreador GPS compacto con diseño tipo joyería pensado para uso wearable discreto y monitoreo oculto de bienes. Combina posicionamiento satelital con correcciones asistidas por WiFi, BLE 5.0 y comunicación celular multi red para ofrecer actualizaciones periódicas de ubicación, alarmas en el dispositivo y modos de energía configurables para uso prolongado. Su factor de forma y conjunto de funciones lo hacen ideal cuando la comodidad y la discreción son prioritarias.
 
-El BN-501 es ideal para protección personal, rastreo de mascotas y monitoreo de activos discreto donde la ocultación y la comodidad son importantes. Su alarma de ayuda SOS, alerta de golpes y movimientos y opciones de configuración BLE facilitan la integración con Plaspy para seguimiento en tiempo real, telemetría y alertas sin sacrificar la comodidad o el estilo del usuario.
+Este modelo es compatible con Plaspy desde el primer momento, lo que significa que la ubicación y los eventos generados por el BN-501 se pueden integrar en Plaspy para monitoreo en tiempo real, alertas e informes. Plaspy puede procesar la posición del dispositivo, eventos de proximidad y alarmas para ofrecer seguimiento en mapas, visibilidad en paneles y flujos de notificación orientados a seguridad personal, monitoreo de mascotas y protección discreta de activos.
 
-## Principales características
+## Características principales
 
-- Rastreador GPS wearable compatible con Plaspy diseñado para protección personal y de activos de forma discreta.
-- Conectividad en múltiples redes: GSM/GPRS, NB‑IoT y LTE Cat M para una cobertura amplia y opciones de bajo consumo.
-- Posicionamiento preciso con GPS, asistencia de WiFi y BLE 5.0 para entornos interiores y escenarios de proximidad.
-- Perfiles de energía múltiples \(Tiempo real, Inteligente, Ahorro de energía\) para equilibrar el seguimiento en tiempo real y una mayor duración de la batería.
-- Alarma de ayuda SOS integrada y múltiples tipos de alarma \(batería baja, golpe, movimiento, geocerca\) para notificaciones inmediatas de incidentes.
-- Formato compacto en estilo pulsera/joya \(≈50 g\) para un uso cómodo y alto grado de ocultación.
-- Configuración en campo sencilla vía Bluetooth o comandos SMS y transporte de datos TCP/UDP a Plaspy.
+- Diseñado como rastreador wearable discreto para seguridad personal y monitoreo oculto de activos.
+- Compatible con Plaspy desde el primer momento para una integración sencilla en flujos de monitoreo y alertas.
+- Conectividad celular multi red junto con GPS y posicionamiento asistido por WiFi para mayor cobertura y mejores fijaciones de posición.
+- Soporta BLE 5.0 para configuración en el dispositivo y escenarios basados en proximidad.
+- Perfiles de energía configurables para equilibrar la frecuencia de reporte y la autonomía de la batería en uso a largo plazo.
+- Alarma SOS integrada y alertas relacionadas con movimiento para notificación inmediata de incidentes.
+- Factor de forma compacto tipo correa o joyería para uso continuo cómodo y fácil ocultamiento.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el BN-501 transmite datos de posición y telemetría a la plataforma de Plaspy mediante TCP, UDP o SMS. Plaspy procesa las fijaciones GPS con asistencia de WiFi y datos de proximidad derivados de BLE, aplica la lógica de alarmas y ofrece seguimiento en tiempo real, mapeo y alertas a dashboards, apps móviles y APIs. Los modos de funcionamiento configurables del BN-501 permiten a Plaspy optimizar la frecuencia de reporte para cada caso de uso: actualizaciones de alta frecuencia para monitoreo activo o intervalos que ahorran batería para una ocultación a largo plazo.
+Al integrarlo con Plaspy, el BN-501 entrega telemetría continua de posición y eventos que Plaspy puede mostrar, alertar e incluir en reportes históricos. Plaspy utiliza esos datos para generar mapas en vivo, notificaciones y resúmenes operativos que permiten a los equipos monitorear dispositivos a escala sin perder la naturaleza discreta del hardware.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy vía TCP/UDP o SMS.
-- Alarma de ayuda SOS y reenvío inmediato de alertas a Plaspy para flujos de trabajo de emergencia.
-- Alertas de movimiento, golpes y geocerca aparecen como eventos en Plaspy para flujos de trabajo anti‑robo y seguridad del personal.
-- La configuración por Bluetooth y el soporte BLE 5.0 permiten la configuración del dispositivo y funciones basadas en proximidad a través de apps integradas con Plaspy.
-- El nivel de batería y alertas de batería baja alimentan la telemetría de Plaspy para mantenimiento proactivo o programación de reemplazo.
+- La ubicación y la telemetría en tiempo real aparecen en los paneles de Plaspy para seguimiento y conciencia situacional.
+- Las alarmas SOS y otras alertas se reenvían a Plaspy para activar notificaciones y flujos de escalamiento.
+- Eventos de movimiento, golpes y geocercas se registran en Plaspy como eventos accionables para respuestas de seguridad y anti robo.
+- La configuración basada en BLE facilita la puesta en marcha en campo y funciones de proximidad que las apps compatibles con Plaspy pueden aprovechar.
+- El estado de batería y las alertas de batería baja alimentan la telemetría de Plaspy para planificación de mantenimiento y vigilancia del estado del dispositivo.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS, NB‑IoT y LTE Cat M |
-| --- | --- |
-| Bandas | LTE Cat M / NB‑IoT bandas B1, B3, B5 |
-| Alimentación y batería | Batería de litio-ion recargable de 3.8 V, 240 mAh; hasta 375 horas en modo de espera \(condiciones típicas\) |
-| Interfaces | Llave de deslizamiento inductiva \(activar/desactivar\), configuración BLE 5.0, soporte de comandos SMS, transporte de datos TCP/UDP |
-| GNSS | Posicionamiento GPS; sensibilidad −165 dBm; precisión típica ≈ 5 m; TTFF frío 45 s, cálido 35 s, caliente 1 s |
-| Bluetooth | BLE 5.0 para configuración e interacciones de proximidad |
-| Gestión remota | Configuración de la app Bluetooth, comandos de configuración por SMS, informes TCP/UDP; manuales descargables y videos de instalación |
-| Formato | Terminal compacto tipo pulsera/joya, modelo 501, aprox. 50 g |
-| Ambiental | Rango de funcionamiento −20°C a +45°C; Almacenamiento −40°C a +85°C; Humedad 5%–95% sin condensación |
-
-## Casos de uso
-
-- Seguridad personal y cuidado de personas mayores: dispositivo wearable discreto para mayores que envía alertas SOS y de movimiento a Plaspy para supervisión por el cuidador.
-- Protección y supervisión de niños: dispositivo en estilo joya que ofrece seguimiento en tiempo real discreto y alertas de geocerca para los tutores a través de Plaspy.
-- Rastreo de mascotas y accesorios: se puede colocar en collares o adornos de bolsos para monitorear discretamente mascotas o artículos personales.
-- Seguridad del personal de forma discreta: wearable oculto para personal de campo donde los rastreadores visibles son imprácticos, alimentando telemetría a Plaspy para respuesta a incidentes.
-- Ocultación de activos en vehículos o equipaje: monitoreo discreto de objetos de valor con alertas de movimiento y geocerca para respuesta anti‑robo.
+- Seguridad personal y monitoreo de personas mayores con alertas SOS y de movimiento discretas para notificar a cuidadores.
+- Protección y supervisión de niños con un rastreador tipo joyería que se integra con el uso diario.
+- Seguimiento de mascotas con montaje en collar o accesorio para monitoreo oculto de animales de compañía.
+- Seguridad de personal en campo cuando rastreadores visibles no son prácticos.
+- Monitoreo oculto de objetos personales o equipaje donde el tamaño reducido y las alertas son determinantes.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El BN-501 ofrece un equilibrio entre ocultamiento, conectividad y eficiencia de la batería, lo que lo convierte en un rastreador GPS compatible con Plaspy adecuado para escenarios personales y de activos ligeros. Su soporte multi-red \(incluyendo NB‑IoT y LTE Cat M\) y la configuración basada en BLE simplifican el despliegue, mientras que la alarma de ayuda SOS y el conjunto de eventos \(golpe, movimiento, geocerca y batería baja\) proporcionan la telemetría y alertas necesarias para un seguimiento en tiempo real confiable y flujos de trabajo anti‑robo. Para organizaciones que utilizan Plaspy para gestión de flotas o paneles de telemetría, el BN-501 añade una opción wearable donde el factor de forma compacto y la discreción son prioridades.
+El BN-501 es una opción práctica para organizaciones e individuos que necesitan un dispositivo de rastreo wearable de baja visibilidad que se integre en una plataforma centralizada de monitoreo. Su combinación de métodos de posicionamiento, configuración por BLE y múltiples opciones de conectividad ayuda a los usuarios de Plaspy a mantener visibilidad y responder a incidentes sin sacrificar comodidad o discreción.
 
-Nota sobre IO especializado: el BN-501 está diseñado como un wearable personal y no incluye salidas dedicadas de encendido o inmovilizador. Sin embargo, Plaspy puede combinar la telemetría del BN-501 \(ubicación, movimiento, batería\) con otros dispositivos compatibles con Plaspy que proporcionen encendido, inmovilización o monitorización de combustible para soluciones integrales de gestión de flota.
-
+Si usted evalúa opciones wearables, el BN-501 se complementa de forma natural con las funciones de mapeo, alertas e informes de Plaspy para ofrecer una solución compacta orientada a seguridad personal, monitoreo de mascotas y protección discreta de activos. Para obtener más información sobre Plaspy y cómo puede apoyar despliegues con BN-501 visite https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales con el fabricante en https://www.coban.net/.

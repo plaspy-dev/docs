@@ -2,57 +2,60 @@
 slug: /ruptela/asset5
 id: asset5
 sidebar_label: Asset5
+title: Ruptela - Asset5
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto y resistente para monitorización de activos sin alimentación con larga autonomía, compatible con Plaspy para seguimiento en tiempo real
+keywords:
+  - Ruptela Asset5
+  - Asset5 rastreador
+  - rastreador GPS Ruptela
+  - Asset5 compatible Plaspy
+  - rastreador de activos
+  - seguimiento de remolques
+  - seguimiento de contenedores
+  - rastreador larga duración batería
+  - rastreador GPS IP68
+  - dispositivo seguimiento de flotas
 ---
+
 # Ruptela - Asset5
 
 ![Asset5](./tracker.png)
 
-Asset5 es un rastreador GPS compacto y robusto, diseñado para monitorizar a largo plazo activos sin alimentación o de alto valor con un mantenimiento mínimo. Compatible con Plaspy desde el primer uso, Asset5 ofrece posicionamiento resistente y telemetría de bajo consumo para que puedas añadir un seguimiento en tiempo real fiable a contenedores, remolques, equipos en alquiler, herramientas de construcción y otros activos remotos sin cambios frecuentes de batería.
+El Asset5 es un rastreador GPS compacto y resistente diseñado para la monitorización prolongada y de bajo mantenimiento de activos sin alimentación o de alto valor. Pensado para entornos exigentes, combina posicionamiento GNSS multiconstelación con conectividad celular global y Bluetooth LE para la configuración en sitio y el soporte de sensores. Con protección IP68 y intervalos de reporte conservadores que pueden ofrecer hasta tres años de operación autónoma, el Asset5 está destinado a despliegues extendidos donde el servicio frecuente no es práctico.
 
-Diseñado para entornos duros, Asset5 combina posicionamiento GNSS de múltiples constelaciones con conectividad celular global y Bluetooth LE para la configuración en el sitio y el soporte de sensores. Su carcasa IP68 y hasta tres años de operación autónoma con intervalos de reporte conservadores hacen de Asset5 una opción práctica para la recuperación ante robo, la gestión de flotas de activos sin alimentación y la telemetría remota a largo plazo.
+Como dispositivo compatible con Plaspy desde el primer momento, el Asset5 se integra en los flujos de trabajo de Plaspy para proporcionar posicionamiento robusto, telemetría de bajo consumo y reportes sensibles al movimiento. Al conectarse a Plaspy, los propietarios de activos y los gestores de flotas obtienen visibilidad continua, alertas por eventos e informes históricos para remolques, contenedores, equipos de alquiler, herramientas de construcción y otros activos remotos que requieren seguimiento confiable a largo plazo.
 
-## Aspectos destacados
+## Puntos clave
 
-- Rastreador GPS compatible con Plaspy optimizado para una larga duración de la batería y bajo mantenimiento.
-- Hasta 3 años de operación autónoma \(2 informes/día\) utilizando baterías AA intercambiables 2×LiSOCl2.
-- GNSS multiconstelación \(GPS, GLONASS, Galileo, BeiDou\) con fallback de Cell-ID para un posicionamiento fiable.
-- Opciones celulares globales: LTE Cat‑1bis / Cat M1 / NB‑IoT con fallback a 2G para maximizar la cobertura.
-- Carcasa impermeable IP68 y formato compacto \(70 × 56 × 28 mm\) para montaje en condiciones exteriores adversas.
-- Bluetooth LE 6.0 para configuración inalámbrica mediante la app móvil mDMP y modo de anuncio BLE para identificación local.
-- Acelerómetro de 3 ejes integrado que aumenta la frecuencia de informes ante movimiento para una recuperación oportuna de activos sustraídos.
+- Rastreador compatible con Plaspy optimizado para larga autonomía de batería y mantenimiento mínimo
+- Diseñado para operación autónoma prolongada con programas de reporte conservadores
+- Posicionamiento GNSS multiconstelación para mayor resiliencia de la localización
+- Opciones de conectividad celular global con modos de respaldo para maximizar la cobertura
+- Carcasa compacta con clasificación IP68 para uso en exteriores y entornos adversos
+- Bluetooth LE para configuración local y publicidad BLE que facilita flujos de trabajo en sitio
+- Acelerómetro integrado que incrementa la frecuencia de reporte en movimiento para recuperación ante robos
 
 ## Cómo funciona con Plaspy
 
-Asset5 transmite la ubicación y telemetría esencial a través de redes celulares hacia la plataforma Plaspy, lo que permite seguimiento en tiempo real, alertas de eventos y reportes históricos. Plaspy lee las fijaciones GNSS, los datos de ubicación por Cell‑ID, los eventos de movimiento del acelerómetro y el estado de la batería para ofrecer paneles e informes automáticos. Bluetooth LE ofrece configuración local y puede soportar balizas BLE o sensores cuando los flujos de trabajo de Plaspy aprovechan esos datos.
+El Asset5 envía fijaciones de ubicación y telemetría esencial a través de redes celulares hacia Plaspy, de modo que los equipos puedan supervisar los activos en tiempo real, recibir alertas y revisar la actividad histórica. Plaspy utiliza los datos del dispositivo para poblar paneles, activar notificaciones y respaldar informes operativos. Bluetooth LE permite la configuración local y flujos de identificación en sitio que complementan la monitorización remota en Plaspy.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy mediante LTE/celular.
-- La detección de movimiento incrementa la frecuencia de informes cuando el activo se desplaza, mejorando la recuperación de activos sustraídos.
-- Telemetría de batería y estado del dispositivo para apoyar la gestión de flotas a largo plazo y la planificación del mantenimiento.
-- Bluetooth LE 6.0 para configuración móvil \(aplicación mDMP\) y modo de anuncio BLE para identificar activos en el sitio.
-- Nota: Asset5 está diseñado para activos sin alimentación; no incluye entradas dedicadas de encendido de vehículo ni inmovilizador para control directo del motor.
+- Ubicación y telemetría en tiempo real entregadas a Plaspy para seguimiento y supervisión en vivo
+- Reportes basados en movimiento que aumentan la frecuencia de actualización cuando los activos se desplazan para una respuesta rápida
+- Telemetría de batería y estado del dispositivo visible en Plaspy para apoyar la planificación del mantenimiento
+- Configuración por Bluetooth LE y modo de publicidad BLE para ayudar en la identificación local en sitio
+- Alertas automatizadas e informes históricos para seguir movimientos, tiempos de permanencia y eventos
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Variantes LTE Cat‑1bis / Cat M1 / NB‑IoT con fallback a 2G \(soporte global; bandas específicas varían según el modelo\) |
-| --- | --- |
-| Bandas | Bandas celulares globales dependientes de la variante \(consulte la documentación de la variante del producto\) |
-| Alimentación y batería | Interna: 2× LiSOCl2 \(AA\), 3.6 V, 2200 mAh. Operación típica de hasta 3 años con dos informes por día. |
-| Interfaces | Botón de acción programable \(pánico/anuncio\), configuración por Bluetooth LE, acelerómetro interno de 3 ejes; accesorios de montaje magnéticos opcionales. |
-| GNSS | Multi‑constelación: GPS, GLONASS, Galileo, BeiDou con fallback de Cell‑ID ante condiciones débiles de GNSS. |
-| Bluetooth | Bluetooth LE 6.0 para configuración y modo de anuncio BLE \(compatibles con flujos de trabajo locales de sensores o balizas\). |
-| Gestión remota | Configuración inalámbrica vía la app móvil mDMP; firmware y documentación disponibles a través del portal oficial de Ruptela. |
-| Formato y protección | Carcasa compacta y robusta, 70 × 56 × 28 mm; protección IP68 para uso en exteriores y entornos adversos. |
-
-## Casos de uso
-
-- Rastreo de respaldo y recuperación de activos robados para remolques, contenedores y equipos estacionados; aproveche la detección de movimiento y las alertas de Plaspy para una respuesta rápida.
-- Monitoreo de activos en alquiler y arrendamiento, donde una larga vida de la batería y bajo mantenimiento reducen costos operativos.
-- Vigilancia de contenedores, remolques y equipos de construcción a lo largo de sitios urbanos, rurales y remotos, usando la cobertura celular y el fallback de Cell‑ID.
-- Seguimiento de ubicación de equipos agrícolas y mineros para implementos y accesorios que requieren hardware robusto e impermeable.
-- Inventario general de activos y detección de presencia en sitio mediante modo de anuncio BLE, para flujos de trabajo locales y reportes de Plaspy.
+- Recuperación de activos robados y monitoreo de seguridad para remolques, contenedores y equipos estacionados
+- Operaciones de alquiler y arrendamiento donde la larga duración de la batería reduce tiempos de inactividad y costos de servicio
+- Supervisión de contenedores, remolques y maquinaria de construcción en sitios dispersos
+- Seguimiento de implementos y acoples sin alimentación en entornos agrícolas y mineros
+- Inventario de activos y detección de presencia en sitio mediante publicidad BLE para flujos de trabajo locales
 
 ## Por qué elegir este rastreador con Plaspy
 
-Asset5 está diseñado para gestores que necesitan un seguimiento GPS fiable para activos con baja necesidad de mantenimiento y que rara vez están conectados a la energía. Al combinarse con Plaspy, Asset5 ofrece una solución práctica para la gestión de flotas de activos sin alimentación, medidas anti‑robo y planificación de mantenimiento basada en telemetría. La combinación de GNSS de multi‑constelación, conectividad celular resistente y configuración por Bluetooth garantiza un despliegue rápido y una visión continua de la ubicación y el estado del activo sin intervenciones frecuentes. La documentación y el soporte de firmware a través del portal de documentación oficial simplifican la integración y la gestión del ciclo de vida, mientras que los paneles en tiempo real de Plaspy y las alertas proporcionan la visibilidad necesaria para proteger y optimizar el uso de los activos.
+El Asset5 es una opción práctica para organizaciones que necesitan seguimiento GPS confiable y de bajo mantenimiento para activos que no están alimentados de forma continua. En conjunto con Plaspy, ofrece una forma sencilla de añadir visibilidad de ubicación a largo plazo, reportes sensibles al movimiento y monitoreo del estado del equipo sin cambios frecuentes de batería ni servicio de campo intensivo. El diseño del dispositivo y los análisis de Plaspy apoyan medidas antirrobo, supervisión de flotas y planificación de mantenimiento basada en telemetría.
 
+Obtenga más información sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales y la documentación oficial en el sitio del fabricante https://ruptela.com/ antes de tomar decisiones de compra o despliegue.

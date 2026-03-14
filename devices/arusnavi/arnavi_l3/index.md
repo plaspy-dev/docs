@@ -2,58 +2,60 @@
 slug: /arusnavi/arnavi_l3
 id: arnavi_l3
 sidebar_label: Arnavi L3
+title: Arusnavi - Arnavi L3
 sidebar_class_name: menu_item_tracker
+description: Compact Arusnavi Arnavi L3 GPS tracker compatible with Plaspy for real time vehicle tracking BLE sensors and reliable fleet telemetry
+keywords:
+  - Arusnavi Arnavi L3
+  - Arnavi L3 GPS
+  - Arusnavi tracker
+  - Plaspy compatible
+  - fleet tracking
+  - vehicle tracker
+  - BLE sensors
+  - multi constellation GNSS
+  - dual server reporting
+  - telematics device
 ---
+
 # Arusnavi - Arnavi L3
 
 ![Arnavi L3](./tracker.png)
 
-The Arnavi L3 is a compact, Plaspy compatible GPS tracker built for reliable real-time tracking and telemetry of vehicles and mobile assets. At just 61 x 42 x 13 mm and 36 g, this small navigation controller combines multi-constellation GNSS, 2G/GPRS cellular connectivity, Bluetooth Low Energy for external sensors, and robust I/O to deliver a complete solution for fleet management, anti-theft and remote diagnostics.
+The Arnavi L3 is a compact GPS tracker and navigation controller designed for reliable real time tracking and telemetry of vehicles and mobile assets. At 61 x 42 x 13 mm and 36 g, the device combines multi constellation GNSS positioning, 2G GPRS cellular connectivity, Bluetooth Low Energy for external sensors, and a set of robust inputs and outputs to support fleet monitoring, anti theft workflows and remote diagnostics.
 
-Designed to integrate directly with Plaspy via dual-server reporting and standard telematics protocols, the Arnavi L3 enables continuous location updates, sensor telemetry, and event-driven alerts. Its low power profile, internal black-box memory and support for multiple BLE sensor families make it a practical choice where compact size, dependable reporting and flexible telemetry \(fuel monitoring, temperature probes, ignition status and immobilization control\) are required.
+As a Plaspy compatible device, the Arnavi L3 integrates via dual server reporting and standard telematics protocols to deliver continuous location updates, sensor telemetry and event driven alerts into Plaspy dashboards. Its compact size, internal data logging and support for a range of BLE sensors make it a practical choice where dependable reporting and flexible telemetry are required for fleet and asset management with Plaspy.
 
 ## Key Highlights
 
-- Plaspy compatible: dual-server reporting and support for common telematics protocols enable seamless integration with Plaspy for real-time tracking and reporting.
-- Multi-constellation GNSS: GPS, GLONASS, Galileo, BeiDou and QZSS provide stronger position fixes across diverse environments.
-- Bluetooth sensors: Bluetooth 4.0 LE connects up to eight wireless sensors for fuel monitoring, temperature telemetry and relay control.
-- Compact and low-power: ultra-small form factor \(61 x 42 x 13 mm\) with sleep consumption near 2 mA and active around 40 mA for efficient fleet deployments.
-- Dual-server redundancy: reports to two monitoring servers \(Arnavi and EGTS protocols supported\) for resilient data delivery and flexible integrations with Plaspy plus a backup server.
-- Robust data logging: 32 MB black box stores roughly 65,000 records to preserve history during offline periods or power loss.
-- Wide input voltage options: standard 8–40 V input or an L3R100 variant with 8–95 V support to fit a broad range of vehicle electrical systems.
-- Remote configuration and updates: web-based firmware updates and remote configuration, plus a PC configurator via USB Type-C for convenient management.
+- Plaspy compatible with dual server reporting and common telematics protocol support for straightforward integration.
+- Compact and low power form factor at 61 x 42 x 13 mm and 36 g for discreet installations on vehicles and mobile assets.
+- Multi constellation GNSS for improved position fixes across varied environments.
+- Bluetooth Low Energy support for up to eight wireless sensors to capture fuel level, temperature and relay state.
+- Built in 32 MB black box data logging to preserve history during offline periods or power interruptions.
+- Wide input voltage options including a higher voltage variant to suit diverse vehicle electrical systems.
+- Remote configuration and web based firmware updates plus a PC configurator for easier fleet maintenance.
 
 ## How It Works with Plaspy
 
-The Arnavi L3 uses its cellular 2G/GPRS channel and supported telematics protocols to push live position and telemetry to monitoring platforms. With dual-server reporting, you can configure the device to send identical streams to Plaspy and a secondary server \(Arnavi or EGTS\), ensuring redundant delivery for mission-critical fleet management and anti-theft systems.
+The Arnavi L3 uses its cellular data link and supported telematics protocols to stream GNSS positions and sensor telemetry into Plaspy. Dual server reporting allows the device to send data to Plaspy while maintaining a secondary reporting path for redundancy, helping ensure continuous monitoring and event delivery for fleet operations.
 
-- Real-time location and telemetry updates: GNSS position fixes stream to Plaspy for live maps, geofencing and route playback.
-- Ignition and event status: discrete inputs capture ignition and other digital events for driver behavior and ignition-based reporting.
-- Fuel monitoring: read fuel level sensors via Bluetooth LE or the analog ADC input and relay that telemetry to Plaspy.
-- Remote immobilizer and anti-theft workflows: control immobilization logic using discrete outputs and relays in coordinated Plaspy workflows.
-- Bluetooth sensors: connect BLE sensors \(fuel, temperature, relays\) and include those measurements in Plaspy telemetry and alerts.
+- Real time location and telemetry updates flow into Plaspy for live maps, route playback and operational oversight.
+- Discrete inputs report ignition and event status so Plaspy can include driving and event context in reports and alerts.
+- Fuel level and analog telemetry from BLE or analog inputs are forwarded to Plaspy for consumption monitoring and anomaly detection.
+- Remote immobilizer and anti theft control can be coordinated with Plaspy alerts and workflows using discrete outputs and relay controls.
+- BLE sensor measurements such as temperature or additional probe data are included in Plaspy telemetry and alerting rules.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G/GPRS \(GSM\) for data transmission; dual-server reporting \(Arnavi, EGTS\) and support for INTERNAL, EXTERNAL, USER\_AG protocols |
-| --- | --- |
-| Bands | Not specified in description |
-| Power & Battery | Power input: 8–40 V \(standard\) or 8–95 V \(L3R100 variant\); input power protection up to 60 V; power consumption ~2 mA \(sleep\) to ~40 mA \(active\) |
-| Interfaces | Discrete inputs: 3 negative inputs \(L3\) / 1 negative input \(L3R\); 1 discrete positive input; 1 ADC \(analog\) input; 1 discrete negative output \(no positive outputs\). Optional UART and RS-232; RS-485 on L3R variant. |
-| GNSS | GPS, GLONASS, Galileo, BeiDou and QZSS \(multi-constellation\) |
-| Bluetooth | Bluetooth 4.0 LE for up to eight wireless sensors \(supports Arnavi BLE-LLS, ARNAVI BTS v.3, ARNAVI BLE-RELAY, ESCORT BLE family, Teltonika Eye Sensor, ITALON BLE, Mielta Fantom BLE\) |
-| Remote Management | Firmware supports remote configuration and web-based updates; PC configurator available via USB Type-C |
-| Form Factor | Compact navigation controller, 61 x 42 x 13 mm, 36 g. Includes 60 cm wiring harness. Internal 32 MB black box \(~65,000 records\) |
+- Fleet management with continuous tracking, route history and operational reporting in Plaspy.
+- Anti theft and immobilization scenarios using relay control and event driven alerts integrated with Plaspy workflows.
+- Fuel monitoring for fuel consumption analysis and fuel loss detection using BLE probes or analog inputs.
+- Temperature sensitive cargo monitoring via BLE temperature sensors and Plaspy alerting for cold chain management.
+- Remote diagnostics and centralized device management to reduce downtime and simplify updates across a fleet.
 
-## Use Cases
+## Why Choose This Tracker with Plaspy
 
-- Fleet management: continuous real-time tracking, route history and driver behavior telemetry integrated with Plaspy dashboards for logistics optimization.
-- Anti-theft and immobilization: theft detection and remote immobilizer workflows using discrete outputs and relay-controlled immobilizers coordinated through Plaspy alerts.
-- Fuel monitoring and telemetry: BLE fuel probes or analog sensors report fuel levels to Plaspy for consumption analysis and fuel loss detection.
-- Temperature-sensitive cargo: Bluetooth temperature sensors send telemetry via BLE to the device and onward to Plaspy for cold-chain monitoring and alerts.
-- Remote diagnostics and OTA management: remote configuration and web updates reduce driver downtime and simplify firmware maintenance across a mixed fleet.
+The Arnavi L3 is a sensible option for organizations using Plaspy when a compact but capable telematics device is needed. Its combination of multi constellation GNSS, BLE sensor support, internal data logging and dual server reporting provides a balanced feature set for tracking, telemetry and anti theft tasks while allowing redundancy and straightforward integration into Plaspy monitoring workflows.
 
-## Why Choose the Arnavi L3 with Plaspy
-
-The Arnavi L3 is a practical, Plaspy compatible GPS tracker when you need compact hardware that doesn’t compromise on telemetry and integration flexibility. Dual-server reporting and broad protocol support make setup with Plaspy straightforward while adding a secondary server for redundancy. The multi-constellation GNSS, BLE sensor support and efficient power profile make the L3 well-suited to fleet management, fuel monitoring and anti-theft applications where reliable real-time tracking, telemetry and remote immobilizer control are essential. With built-in data logging, remote configuration and web updates, the Arnavi L3 reduces field service complexity while improving uptime and visibility for telematics operations.
-
+If you want to learn more about how Plaspy can use the Arnavi L3 for fleet visibility and operational oversight, visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical specifications and variant options on the manufacturer site https://www.arusnavi.ru.

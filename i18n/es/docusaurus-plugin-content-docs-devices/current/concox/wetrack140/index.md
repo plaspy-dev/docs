@@ -2,64 +2,61 @@
 slug: /concox/wetrack140
 id: wetrack140
 sidebar_label: WeTrack140
+title: Concox - WeTrack140
 sidebar_class_name: menu_item_tracker
+description: Localizador vehicular AIS140 compatible con Plaspy para rastreo en tiempo real telemática y control operativo en flotas de India
+keywords:
+  - Concox WeTrack140
+  - rastreador WeTrack140
+  - rastreador Concox
+  - rastreador GPS AIS140
+  - WeTrack140 compatible con Plaspy
+  - rastreo de flotas WeTrack140
+  - rastreador vehicular India
+  - telemática WeTrack140
+  - rastreador compatible con Plaspy
+  - gestión de flotas WeTrack140
 ---
+
 # Concox - WeTrack140
 
 ![WeTrack140](./tracker.png)
 
-El WeTrack140 es un rastreador GPS para vehículos multifuncional aprobado AIS140, diseñado para el mercado indio y optimizado para la gestión de flotas compatible con Plaspy. Diseñado para satisfacer las necesidades de flotas gubernamentales, servicios de mensajería y empresas de alquiler de automóviles, el WeTrack140 ofrece un seguimiento preciso en tiempo real de la ubicación del vehículo, la velocidad y la distancia recorrida, a la vez que proporciona telemática detallada y entradas de estado que se integran de manera fluida con la plataforma de Plaspy.
+El WeTrack140 es un rastreador GPS vehicular multifuncional aprobado por AIS140 y diseñado para el mercado indio. Ofrece rastreo continuo en tiempo real junto con monitoreo de distancia y velocidad, además de exponer diversas entradas de telemetría y estados útiles para la supervisión a nivel de vehículo. El equipo está diseñado para uso automotriz resistente, con protección contra polvo y agua, alimentación de respaldo y funciones orientadas al control operativo y la seguridad.
 
-Diseñado para la resiliencia y el control operativo, el WeTrack140 combina posicionamiento GNSS \(GPS + IRNSS + GLONASS\), comunicaciones celulares cuádruple banda, una batería de respaldo de 450 mAh y una robusta protección IP66. Sus características de seguridad y control — incluyendo corte remoto \(combustible/energía\), botón de pánico, monitorización de voz y análisis del comportamiento de conducción — lo convierten en una opción práctica para protección antirrobo, telemetría, flujos de trabajo de monitoreo de combustible y gestión inteligente de flotas cuando se utiliza junto con Plaspy.
+Como dispositivo compatible con Plaspy, el WeTrack140 se integra con flujos de trabajo centralizados de gestión de flotas para proporcionar visibilidad de ubicación en vivo, reproducción de rutas, alertas e informes. Esa compatibilidad lo hace interesante para organizaciones que usan Plaspy y requieren cumplimiento normativo, funciones de control vehicular y telemática consolidada en una única plataforma de gestión.
 
-## Key Highlights
+## Aspectos clave
 
-- Aprobado AIS140 para cumplimiento regulatorio en la India y despliegue de flotas confiables.
-- Compatible con Plaspy para seguimiento en tiempo real, generación de informes y gestión centralizada de flotas.
-- GNSS: GPS + IRNSS + GLONASS, con alta sensibilidad y precisión de posicionamiento CEP \< 2,5 m.
-- Control operativo mediante corte remoto \(combustible/energía\) y botón de pánico para alertas de emergencia.
-- Análisis del comportamiento de conducción \(aceleración brusca, frenado brusco, toma de curvas brusca, detección de colisiones\) para respaldar programas de conducción más seguras y obtener insights telemétricos.
-- Monitorización de voz y capacidad de escucha remota para conciencia situacional a demanda \(alcance de hasta ~5 m\).
-- Construcción robusta y certificación IP66 para un rendimiento fiable en entornos automotrices exigentes.
-- Amplia capacidad de almacenamiento a bordo y rendimiento de standby para conservar registros históricos durante interrupciones.
+- Aprobación AIS140 para despliegues que exigen cumplimiento regulatorio en India y telemetría estandarizada.
+- Compatibilidad con Plaspy para monitoreo centralizado de flotas, generación de informes y alertas.
+- Posicionamiento GNSS multiconstelación para un rastreo de ubicación vehicular más robusto.
+- Funciones de control operativo como corte remoto y botón de pánico para alertas de emergencia.
+- Análisis de comportamiento de conducción y detección de colisiones para apoyar programas de seguridad e inteligencia operativa.
+- Monitoreo de voz y escucha remota para conciencia situacional cuando sea necesario.
+- Diseño resistente IP66 y almacenamiento a bordo para preservar registros durante interrupciones.
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-El WeTrack140 transmite datos GNSS y telemáticos a través de GSM/GPRS a Plaspy en tiempo real, lo que permite vistas de ubicación en vivo, reproducción de rutas y alertas operativas. Plaspy ingiere telemetría del dispositivo y entradas de estado para crear paneles, informes automatizados y notificaciones basadas en eventos para los operadores de flotas. La integración es sencilla para flotas y proveedores de servicios que necesitan un rastreador GPS compatible con Plaspy que cumpla con los requisitos regulatorios y controles prácticos del vehículo.
+Cuando lo vincula con Plaspy, el WeTrack140 transmite posicionamiento GNSS y estados del vehículo a la plataforma, permitiendo supervisión en vivo, reproducción histórica y notificaciones basadas en eventos. Plaspy ingiere la telemetría y las entradas de estado del rastreador para poblar paneles, activar alertas y generar informes rutinarios o puntuales para los operadores de flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(posición GNSS, velocidad, distancia recorrida\).
-- Entradas de estado como estado de puertas y otras señales telemétricas \(incluidas entradas tipo encendido cuando están conectadas al arnés del vehículo\).
-- Corte remoto \(combustible/energía\) para anti‑robo y control de activos—puede implementarse como una intervención al estilo inmovilizador.
-- Notificaciones de emergencia vía botón de pánico y escucha remota/monitorización de voz para respuesta ante incidentes.
-- Eventos de análisis de comportamiento de conducción y detección de colisiones enviados a Plaspy para análisis y generación de informes de cumplimiento.
+- Actualizaciones de ubicación en tiempo real con mediciones de velocidad y distancia para visibilidad inmediata de la flota.
+- Entradas de estado del vehículo, como señales de puerta o encendido, para validar paradas y el estado del activo.
+- Capacidad de corte remoto integrada en las alertas y flujos de trabajo de Plaspy para protección de activos.
+- Eventos de botón de pánico y monitoreo de voz reenviados a Plaspy para la respuesta ante incidentes.
+- Eventos de comportamiento de conducción y colisiones registrados y analizados en Plaspy para entrenamiento y cumplimiento.
+- Registros históricos y reproducción de rutas disponibles en Plaspy para apoyar investigaciones e informes.
 
-## Technical Overview
+## Casos de uso típicos
 
-| Model | WeTrack140 |
-| --- | --- |
-| Approval | Aprobado AIS140 \(diseñado para el mercado indio\) |
-| Connectivity | GSM cuádruple banda \(GPRS Clase 12, TCP/IP\) |
-| Bands | 850 / 900 / 1800 / 1900 MHz |
-| GNSS | GPS + IRNSS + GLONASS; precisión de posicionamiento CEP \< 2,5 m; sensibilidad de seguimiento -163 dBm; sensibilidad de adquisición -147 dBm; TTFF arranque en caliente ≤2 s, arranque en frío ≤32 s |
-| Power & Battery | Voltaje de entrada 9–36 VDC; batería de respaldo Li‑Po industrial de 450 mAh / 3,7 V; corriente en modo de standby ≤5 mA \(dependiendo de la batería\); standby típico ~60 horas; tiempo de funcionamiento ~4 horas |
-| Interfaces | Corte remoto \(combustible/energía\), botón de pánico, monitorización de voz \(escucha remota\), entradas de estado como puerta y entradas telemáticas; ampliación de periféricos en modelos compatibles |
-| Data Storage | Almacenamiento a bordo ~32 + 64 MB \(según información del fabricante\); capacidad de registros históricos de hasta 50,000 registros |
-| Antennas & Indicators | Antena cerámica GPS integrada y antena GSM cuádruple banda; LEDs para GNSS \(azul\), celular \(verde\) y alimentación \(rojo\) |
-| Environmental & Form Factor | Dimensiones 98,5 × 52,0 × 15,0 mm; peso ~80 g; rango de temperatura de operación -20°C a +70°C; resistencia IP66 a polvo/agua |
-| Voice & Audio | Capacidad de monitorización de voz de hasta aproximadamente 5 metros; escucha remota compatible |
-| Additional Capabilities | Algoritmos de análisis del comportamiento de conducción \(aceleración/brusca aceleración, frenado/brusco, giro brusco, detección de colisiones\) |
+- Flotas gubernamentales y municipales que requieren cumplimiento AIS140 y reportes de telemetría centralizados.
+- Operaciones de mensajería y última milla que necesitan rastreo en tiempo real y verificación de paradas.
+- Servicios de renta de autos y movilidad compartida que se benefician de funciones de control remoto y analíticas de conducción.
+- Flotas de logística y distribución que buscan reproducción de rutas, seguimiento de kilometraje e indicadores de desempeño del conductor.
+- Escenarios de anti robo y recuperación que utilizan alertas de pánico, corte remoto y datos de ubicación en vivo.
 
-## Use Cases
+## Por qué elegir este rastreador con Plaspy
 
-- Rastreo de flotas gubernamentales y municipales para cumplir con AIS140 y generación de telemetría centralizada en Plaspy.
-- Flotas de mensajería y entrega de última milla: seguimiento en tiempo real, reproducción de rutas y entradas de estado de puertas para verificar paradas y entregas.
-- Alquiler de coches y movilidad compartida: corte remoto y monitorización de voz para la seguridad, además de análisis del comportamiento de conducción para revisión de incidentes.
-- Logística y distribución: telemetría de kilometraje y velocidad para monitorear combustible, optimizar rutas y entrenar a los conductores a través de paneles de Plaspy.
-- Antirrobo y recuperación: alertas del botón de pánico, corte remoto y actualizaciones de ubicación en tiempo real para apoyar una respuesta rápida.
+El WeTrack140 es una opción práctica para organizaciones que necesitan un rastreador aprobado por AIS140 que combine alineación regulatoria, controles operativos y telemática. Su combinación de posicionamiento resistente, entradas de estado y funciones de seguridad integradas cubre los requisitos típicos de gestión de flota sin añadir complejidad innecesaria. Para equipos que usan Plaspy, el dispositivo entrega la telemetría y las señales de evento que alimentan paneles, alertas e informes automáticos útiles en la operación diaria de la flota.
 
-## Why Choose This Tracker with Plaspy
-
-Cuando necesitas un rastreador GPS compatible con Plaspy diseñado para flotas indias, el WeTrack140 ofrece un equilibrio entre cumplimiento regulatorio, fiabilidad y controles prácticos del vehículo. Su GNSS de múltiples constelaciones \(incluido IRNSS\) y su alta sensibilidad proporcionan una posición precisa y resiliente para el seguimiento en tiempo real y la telemetría. Las características de seguridad y control integradas — corte remoto, botón de pánico y monitorización de voz — respaldan los flujos de trabajo de anti‑robo y gestión de incidentes, mientras que los análisis del comportamiento de conducción ofrecen insights accionables para reducir costos y mejorar la seguridad.
-
-Para gestores de flotas que buscan una gestión de flotas escalable, el WeTrack140 se integra con Plaspy para proporcionar flujos de datos consistentes para informes, alertas y automatización. El diseño robusto IP66 del dispositivo, su almacenamiento extendido de registros y la opción de eSIM integrada lo hacen adecuado para diversas flotas de vehículos y condiciones operativas. Si su implementación requiere integración adicional de sensores, Plaspy puede ingerir telemetría externa \(por ejemplo, entradas de monitoreo de combustible o sensores Bluetooth vía gateway/periféricos\) para ampliar la visibilidad sin cambiar la plataforma de rastreo central.
-
+Para obtener más información sobre cómo Plaspy puede funcionar con dispositivos Concox como el WeTrack140 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique las especificaciones actuales en el sitio oficial de Concox https://www.iconcox.com/ antes de finalizar la compra o los planes de despliegue.

@@ -2,60 +2,60 @@
 slug: /teltonika/fmb930
 id: fmb930
 sidebar_label: FMB930
+title: Teltonika - FMB930
 sidebar_class_name: menu_item_tracker
+description: Compact low power GPS tracker for electric two wheelers and light EVs compatible with Plaspy for tracking and BLE telemetry
+keywords:
+  - Teltonika FMB930
+  - FMB930
+  - Teltonika tracker
+  - GPS tracker
+  - e scooter tracker
+  - e moped tracker
+  - BLE telemetry
+  - low power GPS
+  - fleet tracking
+  - Plaspy compatible
 ---
+
 # Teltonika - FMB930
 
 ![FMB930](./tracker.png)
 
-The FMB930 is a compact, low-power GPS tracker designed specifically for electric two‑wheelers and light electric vehicles. Plaspy compatible out of the box, the FMB930 delivers reliable location data and BLE-based telemetry that makes it an ideal choice for e-moped and e-motorcycle fleets where extended idle periods and tight power budgets are common.
+The FMB930 is a compact, low power GPS tracker designed specifically for electric two wheelers and light electric vehicles. It combines an internal rechargeable battery with cellular connectivity and Bluetooth Low Energy support for external sensors, making it a practical choice where space is limited and long idle periods are common. The device is optimized for minimal standby drain and basic on vehicle positioning and sensor telemetry.
 
-Engineered around ultra-low power consumption, the FMB930 combines 2G GSM connectivity \(B2/B3/B5/B8\), an internal rechargeable 170 mAh battery, and Bluetooth Low Energy \(BLE\) support for external sensors. When paired with Plaspy, fleet managers gain real-time tracking, anti-theft monitoring, and scalable device management through supported remote management tools like FOTA WEB.
+As a Plaspy compatible device out of the box, the FMB930 can feed location, power state, and BLE sensor data into Plaspy for real time visibility, anti theft monitoring, and fleet level oversight. That compatibility makes the FMB930 suitable for operators who need straightforward device management, remote updates, and consolidated reporting across light electric vehicle fleets inside the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker tuned for electric two‑wheelers and light EVs.
-- Ultra-low power "Power Off" sleep mode \(~1 mA\) for long autonomous standby.
-- Internal rechargeable 170 mAh battery for extended off‑grid operation.
-- 2G GSM connectivity on bands B2, B3, B5 and B8 for wide GSM coverage.
-- Bluetooth Low Energy \(BLE\) for external sensors and beacon pairing \(temperature, humidity, magnet, movement\).
-- Remote device management support \(FOTA WEB\) for firmware and configuration updates at scale.
-- Compact form factor and simple wiring \(0.7 m power supply cable included in standard packages\).
+- Plaspy compatible GPS tracker tuned for electric two wheelers and light EVs
+- Ultra low power sleep mode for long autonomous standby behavior
+- Internal rechargeable battery for extended off grid operation
+- 2G cellular connectivity on commonly used bands for wide coverage
+- Bluetooth Low Energy support for external sensors and beacon pairing
+- Remote device management support for firmware and configuration updates at scale
+- Compact form factor and simple wiring suited to small vehicles and shared micromobility assets
 
 ## How It Works with Plaspy
 
-Integrating the FMB930 with Plaspy is straightforward: the tracker transmits GNSS position and sensor telemetry over 2G to your telematics platform, where Plaspy processes the data for real-time tracking, alerts, and historical reporting. Plaspy compatible integration enables immediate visualization of vehicle locations, BLE sensor readings, and device status — allowing fleet managers to act on anti-theft alarms, movement events, and long-term uptime metrics.
+When integrated with Plaspy, the FMB930 delivers GNSS positions and BLE based sensor telemetry to the Plaspy platform where that data is processed for live tracking, alerts, and historical analysis. Plaspy surfaces device status and events so fleet managers can monitor distributed e vehicle assets and act on theft or battery related conditions.
 
-- Real-time tracking: GNSS location updates delivered to Plaspy for live maps and route playback.
-- BLE telemetry: Bluetooth sensors \(temperature, humidity, magnet detection, motion\) paired to the tracker and forwarded as telemetry to Plaspy.
-- Power state and sleep mode alerts: Monitor Power Off sleep behavior and low-battery notifications remotely.
-- Remote firmware & config: Use FOTA WEB compatibility to deploy firmware updates and configuration changes via Plaspy-managed workflows.
-- Fleet management readiness: Data can be combined within Plaspy with ignition or immobilizer inputs from other integrations, and with fuel monitoring feeds when available, to create a complete fleet picture.
+- Real time tracking: GNSS location updates appear on Plaspy maps for live monitoring and route playback
+- BLE telemetry: External sensor readings such as temperature or movement are forwarded to Plaspy as telemetry
+- Power state and sleep mode monitoring: Track battery and sleep behavior and receive notifications through Plaspy
+- Remote firmware and configuration: Use supported remote management services to keep devices updated via Plaspy workflows
+- Fleet level visibility: Combine FMB930 data in Plaspy with other device feeds to create consolidated reports and operational dashboards
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G GSM \(GSM/GPRS\) |
-| --- | --- |
-| Bands | B2 / B3 / B5 / B8 |
-| Power & Battery | Internal rechargeable 170 mAh battery; Power Off sleep mode ~1 mA for extended autonomy |
-| Interfaces | Input/output power supply cable \(0.7 m\) included in standard packages; additional micro USB cable available in some kits |
-| GNSS | GPS-based positioning \(compact GNSS module for vehicle tracking\) |
-| Bluetooth | Bluetooth Low Energy \(BLE\) for external sensors and beacons |
-| Remote Management | Compatible with remote device management platforms \(e.g., FOTA WEB\) for firmware and configuration updates |
-| Form Factor | Compact tracker designed for electric two‑wheelers, e-rickshaws, and light electric vehicles |
-| Ordering / Product Codes | Examples: FMB930XR3C01, FMB930XR4C01, FMB930XRUB01 \(standard and custom packages available\) |
-
-## Use Cases
-
-- Anti-theft monitoring for e-mopeds and e-motorcycles — detect unauthorized movement and send alerts via Plaspy.
-- Basic track-and-trace for urban delivery scooters and last-mile e-vehicles with long idle intervals.
-- E-mobility fleet management where low standby consumption preserves battery life during long parking periods.
-- Environmental monitoring using BLE sensors — temperature, humidity, and movement telemetry for sensitive cargo on light EVs.
-- Compact asset tracking for shared micro-mobility fleets and rentable e-vehicles.
+- Anti theft monitoring for e mopeds and e motorcycles with remote alerting
+- Track and trace for urban delivery scooters and last mile light EVs
+- Fleet management for shared micromobility where long parking intervals demand low standby consumption
+- Environmental monitoring on light EVs using BLE sensors for temperature or movement detection
+- Compact asset tracking for rentable e vehicles and small commercial EV fleets
 
 ## Why Choose This Tracker with Plaspy
 
-The FMB930 is a focused GPS tracker built for environments where power efficiency and compact form matter. When deployed with Plaspy, it becomes a cost-effective building block for real-time tracking, anti-theft protection, and BLE-enabled telemetry across lightweight electric vehicles. Plaspy's platform takes the FMB930's low-power GNSS and BLE data and combines it with fleet management workflows — enabling alerts, historical reports, and remote device maintenance.
+The FMB930 is a focused option when compact size and low power consumption are primary concerns. Paired with Plaspy, the tracker becomes part of a scalable fleet management solution that highlights location, device health, and sensor telemetry without adding complexity. Plaspy can ingest the FMB930's position and BLE data, apply alerts and reporting, and coordinate remote device maintenance to help keep lightweight electric fleets operational.
 
-For operations that also require ignition or immobilizer control, or advanced fuel monitoring, Plaspy can ingest and correlate those signals from complementary devices or vehicle integrations alongside FMB930 data. This makes the FMB930 a practical, Plaspy compatible tracker for mixed fleets where some assets need a compact, ultra-low-power tracker and others require broader I/O or CAN-based telemetry.
-
+For mixed fleets that include larger vehicles or assets requiring broader inputs, Plaspy can correlate FMB930 data with information from complementary devices and integrations to provide a fuller operational picture. To learn more about how Plaspy can work with lightweight electric vehicle trackers like the FMB930 visit https://www.plaspy.com. Product specifications and availability can change over time, so verify current specifications and detailed documentation on the manufacturer's official site https://www.teltonika-gps.com/.

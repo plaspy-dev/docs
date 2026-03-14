@@ -2,61 +2,59 @@
 slug: /istartek/vt100
 id: vt100
 sidebar_label: VT100
+title: iStartek - VT100
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto iStartek VT100 compatible con Plaspy para seguimiento de vehículos, antirrobo y gestión de flotas
+keywords:
+  - iStartek VT100
+  - Rastreador GPS VT100
+  - iStartek rastreador GPS
+  - VT100 compatible con Plaspy
+  - rastreo de vehículos
+  - gestión de flotas
+  - rastreador antirrobo
+  - rastreador IP66
+  - GNSS GPS BEIDOU
+  - rastreo en tiempo real
 ---
+
 # iStartek - VT100
 
 ![VT100](./tracker.jpg)
 
-# VT100 Vehicle GPS Tracker
+El VT100 es un rastreador GPS vehicular compacto de iStartek, pensado para aplicaciones profesionales de gestión de flotas y protección antirrobo. Integra posicionamiento GNSS con conectividad celular dentro de una carcasa resistente con grado de protección IP66 y soporta un amplio rango de voltaje de entrada para adaptarse a distintos tipos de vehículos y entornos operativos. El VT100 está diseñado para ofrecer informes de ubicación continuos, detección de movimiento, registro local sin conexión y funciones de control remoto valiosas para procesos de transporte y seguridad.
 
-El VT100 es un rastreador GPS 2G GSM compacto diseñado para monitoreo profesional de vehículos y despliegues compatibles con Plaspy. Construido para un seguimiento confiable en tiempo real y una protección anti-robos robusta, el VT100 transmite continuamente la ubicación y el estado del vehículo a plataformas de rastreo a través de redes celulares. Su amplio rango de tensión de entrada y su carcasa con certificación IP66 lo hacen apto para una amplia gama de vehículos y entornos operativos.
+Como dispositivo compatible con Plaspy, el VT100 puede alimentar los paneles y reportes de Plaspy con datos de ubicación en tiempo real, eventos y estados. La integración con Plaspy permite a los equipos de operaciones y despacho visualizar mapas en vivo, recibir alertas por incidentes de seguridad y generar informes de flota, aprovechando las capacidades de hardware del VT100 como almacenamiento offline, control de inmovilizador y configuración remota.
 
-Optimizado para la gestión de flotas, supervisión del transporte público, operaciones de taxi y uso de anti-robo en automóviles privados, el VT100 ofrece un conjunto amplio de funciones telemáticas —desde una posición GNSS precisa \(GPS + BEIDOU\) y detección de movimiento integrada hasta corte remoto de motor y monitorización de combustible cuando se combina con sensores opcionales. Como rastreador compatible con Plaspy, el VT100 se integra sin problemas en paneles de seguimiento en tiempo real, alertas y flujos de generación de informes utilizados por los equipos de despacho y operaciones.
+## Características principales
 
-## Puntos Clave
+- Rastreador compatible con Plaspy para ubicación de vehículos en tiempo real y paneles de flota.
+- Soporte dual GNSS con GPS y BEIDOU para posicionamiento confiable en condiciones diversas.
+- Carcasa robusta IP66 y amplio rango de entrada DC para operar en entornos exigentes y con distintos sistemas eléctricos.
+- Detección de movimiento integrada y reportes de eventos basados en acelerómetro para conciencia de colisiones y comportamiento del conductor.
+- Registro en memoria flash cuando no hay conectividad y carga automática de los datos al restablecerse la red.
+- Gestión remota que incluye actualizaciones de firmware y comandos configurables para reducir intervenciones de campo.
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y paneles de flota.
-- GNSS de alta precisión \(GPS + BEIDOU\) con sensibilidad de rastreo de hasta -165 dBm y CEP &lt;2.5 m.
-- Conectividad GSM 2G cuádruple banda \(850/900/1800/1900 MHz\) con subida a dos servidores y comandos configurables por SMS/GPRS.
-- Carcasa robusta con IP66 y entrada DC 9–100V para soportar entornos severos y todo tipo de vehículos.
-- Acelerómetro 3D integrado para detección de colisiones/vibraciones y monitorización del comportamiento del conductor \(aceleración/bruscas frenadas, giros bruscos, exceso de velocidad, fatiga\).
-- Alarma SOS, escucha remota \(micrófono\) y corte remoto de motor/energía para anti-robos y control del inmovilizador.
-- Memoria flash interna \(16 Mbit\) para registro fuera de línea en zonas sin señal con reenvío automático cuando se restablezca la conectividad.
-- Soporta funciones de gestión avanzadas como FOTA \(firmware over-the-air\) para actualizaciones remotas.
+## Cómo funciona con Plaspy
 
-## Cómo Funciona con Plaspy
+Usado con Plaspy, el VT100 actúa como un endpoint telemático que transmite datos de ubicación y eventos a la plataforma para su normalización, visualización y notificación. Plaspy procesa la alimentación del dispositivo para que los equipos puedan rastrear activos en tiempo real, revisar movimientos históricos y configurar flujos de trabajo basados en eventos que se adapten a las necesidades operativas.
 
-Cuando se integra con Plaspy, el VT100 pasa a ser una fuente de datos para ubicación en tiempo real, telemetría y alertas basadas en eventos. El dispositivo transmite coordenadas GNSS, movimientos y eventos de estado a través de GSM a los servidores de Plaspy, donde los datos se normalizan en mapas en tiempo real, históricos de rutas, notificaciones de geocercas y reportes de flota. La integración compatible con Plaspy garantiza que los operadores de despacho y los equipos de operaciones reciban actualizaciones constantes y de baja latencia que respaldan la toma de decisiones y los flujos de seguridad.
+- Ubicación y telemetría en tiempo real se muestran en los mapas y pantallas de monitoreo de Plaspy.
+- Alertas por eventos como SOS, colisión e inmovilizador pueden activar notificaciones y procedimientos de respuesta en Plaspy.
+- Historial de rutas y reproducción de viajes permiten revisiones posteriores a incidentes y análisis operativo.
+- Telemetría de combustible y auxiliares, mediante sensores opcionales, puede ser procesada por Plaspy para consumo y generación de alarmas.
+- Las posiciones registradas offline se envían a Plaspy al restablecerse la conexión para mantener registros completos de los viajes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy vía GPRS/SMS.
-- Detección de ignición/ACC y corte remoto de motor/energía \(inmovilizador\) para respuesta ante robo y control de la flota.
-- Generación de eventos para SOS/pánico, colisiones/vibración y comportamiento del conductor, posibilitando alertas automáticas en Plaspy.
-- Monitoreo de combustible y alarmas de robo o bajo nivel de combustible cuando se empareja con sensores capacitivos o ultrasonidos opcionales; Plaspy ingiere la telemetría de combustible para informes de consumo.
-- Sensores Bluetooth: la descripción del VT100 no especifica Bluetooth a bordo. El ecosistema de Plaspy admite sensores BLE para telemetría ampliada si se utiliza junto a un gateway compatible o un dispositivo con BLE compatible con VT100.
+## Casos de uso típicos
 
-## Resumen Técnico
+- Gestión de flotas para servicios de reparto y supervisión de vehículos de empresa con seguimiento en vivo e informes.
+- Supervisión de transporte público y rutas de transporte escolar para monitorear recorridos y gestionar alertas de seguridad.
+- Servicios de taxi y plataformas de transporte que requieren telemetría de viajes, compartición de ubicación en vivo y disuasión de robo.
+- Programas de leasing e insurance que necesitan reportes de kilometraje, telemetría de incidentes y capacidad de inmovilización remota.
+- Protección antirrobo para autos particulares con funciones SOS, soporte de escucha remota y corte remoto del motor.
 
-| Conectividad | módulo GSM 2G \(M25 / Quectel\) |
-| --- | --- |
-| Bandas | GSM cuádruple banda: 850 / 900 / 1800 / 1900 MHz |
-| Alimentación & Batería | Entrada DC 9–100V; batería de respaldo Li‑ion de 55 mAh |
-| Interfaces | 2 entradas digitales configurables \(una como detección ACC / AD1\), 1 salida digital, 1 puerto de micrófono, Micro-USB 2.0, ranura Nano SIM, 2 LEDs de estado, antena GSM FPC integrada, antena GPS cerámica integrada \(25×25×4 mm\); opcional: 2 AD, RS232 |
-| GNSS | Módulo: L76K \(modo dual GPS + BEIDOU\), receptor de 33 canales; sensibilidad -165 dBm; precisión de posicionamiento CEP &lt;2.5 m; hot start &lt;1 s, cold start &lt;35 s |
-| Bluetooth | No especificado en la descripción del dispositivo |
-| Gestión Remota | FOTA \(actualización de firmware por aire\), subida a servidor dual, comandos configurables por SMS/GPRS |
-| Forma & Entorno | Compacto: 80×34×15 mm, ≈48 g; Operación: -20°C a 80°C, 5%–95% de humedad no condensante; IP66 protección de ingreso |
-| Memoria | Flash integrada de 16 Mbit para registro de posiciones fuera de línea |
+## Por qué elegir este rastreador con Plaspy
 
-## Casos de Uso
+El VT100 combina un hardware práctico y resistente con las capacidades de seguimiento y reporte de Plaspy para respaldar una variedad de flujos operativos y de seguridad. Su mezcla de posicionamiento GNSS, detección de movimiento, registro offline y gestión remota reduce las brechas de monitoreo y ayuda a mantener la continuidad operativa en flotas y activos distribuidos.
 
-- Gestión de flotas: seguimiento en tiempo real, reproducción de rutas, monitorización del comportamiento del conductor e integración de despacho centralizada vía Plaspy.
-- Transporte público y supervisión de autobuses escolares: cumplimiento de ruta, alertas de seguridad de pasajeros y manejo de eventos SOS.
-- Taxis y servicios de movilidad: compartir ubicación en tiempo real, telemetría de viajes y protección contra robo mediante controles de inmovilizador.
-- Leasing de vehículos y seguimiento de seguros: informes de kilometraje, inmovilización remota y telemetría de incidentes para reclamaciones y cumplimiento.
-- Anti-robos en coches privados: botón SOS, escucha remota y corte remoto del motor para proteger activos y disuadir el robo.
-
-## Por Qué Elegir Este Rastreador con Plaspy
-
-El VT100 combina hardware de grado profesional con las capacidades de la plataforma Plaspy para ofrecer telemetría de vehículos fiable y accionable. Su diseño compacto y robusto, su amplio rango de tensión \(DC 9–100V\) y la certificación IP66 permiten menores restricciones de instalación y reducen las fallas en campo. El almacenamiento fuera de línea integrado preserva el historial de viajes durante caídas de la red, mientras que FOTA y la configuración remota reducen la carga de mantenimiento. Para gestores de flotas y equipos de seguridad que requieren un seguimiento en tiempo real consistente, controles anti-robos \(acciones de ignición/inmovilizador\), soporte de monitoreo de combustible y datos detallados de comportamiento del conductor, el VT100 ofrece una solución equilibrada, compatible con Plaspy, que enfatiza la disponibilidad, escalabilidad y una integración sencilla en los flujos de despacho e informes existentes.
-
+Para organizaciones que evalúan rastreadores para usar con Plaspy, el VT100 ofrece un conjunto equilibrado de funciones que priorizan confiabilidad, robustez ambiental y mantenimiento manejable. Para saber más sobre cómo Plaspy funciona con dispositivos como el VT100 visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por favor verifique los detalles actuales y la documentación técnica en el sitio del fabricante https://istartek.com/.

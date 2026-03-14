@@ -2,67 +2,59 @@
 slug: /minifinder/rex
 id: rex
 sidebar_label: Rex
+title: MiniFinder - Rex
 sidebar_class_name: menu_item_tracker
+description: A rugged GPS tracker for hunting dogs compatible with Plaspy for real time location alerts team coordination and mapping
+keywords:
+  - MiniFinder Rex
+  - MiniFinder Rex GPS tracker
+  - Rex GPS tracker
+  - Rex hunting dog tracker
+  - MiniFinder Rex compatible with Plaspy
+  - Rex Plaspy integration
+  - dog GPS tracker
+  - outdoor animal tracker
+  - rugged waterproof tracker
+  - real time tracking
 ---
+
 # MiniFinder - Rex
 
 ![Rex](./tracker.png)
 
-# MiniFinder Rex — Plaspy compatible GPS tracker for hunting dogs
+The MiniFinder Rex is a purpose built GPS tracker for hunting dogs and working animals. Rugged and waterproof with a compact form factor, Rex combines high sensitivity GNSS positioning, long battery life, and local wireless connectivity to deliver reliable, real time location and behavior data in the field. Built features focused on outdoor use include a guiding LED, barking detection, vibration and voice command modes, and audio communication to help handlers locate and interact with animals during operations.
 
-The MiniFinder Rex is a purpose-built GPS tracker for hunting dogs and outdoor working animals, now available as a Plaspy compatible device. Rugged, waterproof \(IP67\), and compact, Rex pairs high-sensitivity GPS/GLONASS positioning with long battery life and local connectivity \(BLE 5.0, Wi‑Fi\) to deliver reliable, real-time tracking where it matters most. When integrated with the Plaspy platform, Rex brings precise location, behavior alerts, and team coordination tools into your existing telemetry and fleet-management workflows.
-
-Designed for active use in harsh conditions, Rex combines hunting-focused features — a powerful guiding LED, barking detection, vibration and voice command modes, and speaker/microphone communication — with Plaspy’s live-mapping and alerting capabilities. Whether you manage a team of handlers in the field or need a trusted tracker for a single working dog, Rex offers a compact form factor and proven connectivity to keep you connected to the animal and the data you rely on.
+Rex is available as a Plaspy compatible device, making it straightforward to bring its tracking and hunting specific data into a broader telemetry and fleet management workflow. When integrated with Plaspy, Rex location and status information appear on live maps, add to alert rules, and feed historical reports so handlers and teams can coordinate more effectively without losing the device native features designed for field use.
 
 ## Key Highlights
 
-- Plaspy compatible for real-time tracking, team coordination, and integration into broader telemetry or fleet management workflows.
-- Rugged, waterproof IP67 enclosure designed for collar or harness mounting \(compact 80 x 40 x 30 mm; 100 g\).
-- Global cellular coverage via 4G/LTE‑M \(CAT‑M1\) and GSM \(900/1800 MHz\) for live position updates across 190+ countries.
-- Long-life 2,500 mAh rechargeable battery with USB‑C charging — up to 100 hours of active use, and extended low-activity modes for multi-day operation.
-- Hunting-focused features: configurable LED guiding light \(up to 200 m visibility\), barking detection with notifications, vibration modes, voice command capability, speaker and microphone for communication.
-- High-sensitivity GPS/GLONASS reception with an advanced low-power MLPC algorithm and AI-assisted movement adaptation for efficient, accurate tracking.
-- Local connectivity: Bluetooth 5.0 and 2.4 GHz Wi‑Fi for short-range interactions with phones and accessories, plus 16 MB flash for local event storage.
+- Purpose built for hunting dogs and outdoor working animals with a compact rugged design and waterproof rating.
+- Built in guiding LED and audible options to help locate animals in low light or dense terrain.
+- Behavior monitoring features such as barking detection and configurable vibration and voice command modes.
+- Long runtime and rechargeable design intended to support extended field operations.
+- Local wireless connectivity for short range interactions and cellular coverage for live updates when available.
+- Compatible with Plaspy to bring live location, alerts, and historical data into existing monitoring and coordination workflows.
 
 ## How It Works with Plaspy
 
-When paired with the Plaspy platform, MiniFinder Rex becomes part of a real-time tracking and telemetry ecosystem. Rex streams location and status data over cellular networks and can use BLE/Wi‑Fi for local communications; Plaspy ingests that data to display live positions, generate alerts, and produce historical reports. Integration is designed to be straightforward so handlers and teams can use Plaspy’s maps and notifications without compromising the device’s native hunting features.
+When Rex is used with Plaspy, device position and status are streamed into Plaspy so teams can view live locations, receive alerts, and analyze activity after an operation. Plaspy ingests the device data to provide mapping, notifications, and reporting while preserving Rex specific features for field use.
 
-- Real-time location and telemetry updates \(GPS/GLONASS position, battery level, GSM signal\).
-- Geofence alerts and place history synchronized to Plaspy for post-hunt analysis and event playback.
-- Activity and safety alerts: stop alerts, G-sensor movement events, and barking-detection notifications forwarded to Plaspy.
-- Remote control commands via the connected app or platform: trigger the guiding LED, vibration mode, or audible signals to locate or command dogs in the field.
-- Local BLE and Wi‑Fi interactions for quick pairing, firmware or configuration sync \(where supported\), and accessory detection.
+- Live position updates and device status visible on Plaspy maps for situational awareness.
+- Geofence alerts and place history synchronized to Plaspy for post event review and analysis.
+- Activity and safety notifications such as stop events and barking alerts routed into Plaspy alerting rules.
+- Remote commands and signals initiated from the platform or paired app allow handlers to trigger guiding lights or audible cues where supported by the device.
+- Local wireless interactions for quick pairing and configuration sync augment Plaspy workflows for nearby devices.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G/LTE‑M \(CAT‑M1\) and GSM |
-| --- | --- |
-| Bands | GSM 900 / 1800 MHz; LTE‑M for global operation \(device supports operation across 190+ countries\) |
-| Power & Battery | 2,500 mAh rechargeable battery; USB‑C charging; charging adapter spec: 100–240V AC → 5.0V DC 2.0A |
-| Interfaces | USB‑C port, speaker, microphone, vibration motor; three indicator LEDs \(GPS, GSM, power\) |
-| GNSS | High-sensitivity GPS / GLONASS receiver; MLPC low-power algorithm and AI-assisted movement adaptation \(for extended operation\) |
-| Bluetooth | Bluetooth 5.0 \(BLE\) for sensors and short-range connectivity |
-| Local Wireless | Wi‑Fi 2.4 GHz |
-| Memory | 16 MB flash for local event storage |
-| Durability | IP67 waterproof rating; rugged enclosure for outdoor use |
-| Dimensions & Weight | 80 x 40 x 30 mm; 100 g |
-| Operational Endurance | Up to 100 hours active use; at least 10 days in low-activity modes \(subject to configuration and network conditions\) |
-| Special Features | Guiding LED \(configurable color/brightness, up to 200 m visibility\), barking detection, G-sensor, voice command, audible speaker |
-| Warranty & Accessories | 3‑year warranty; TPU dog collar sold separately |
-| Subscription | Requires subscription for MiniFinder service and MiniFinder Hunter app \(manufacturer lists annual fee\); verify Plaspy service terms for platform access |
-
-## Use Cases
-
-- Hunting and field work: live locate dogs, use the guiding LED to find animals in low light, and receive barking and stop alerts for safety and efficiency.
-- Working dog management: remote vibration and voice command modes plus audio communication to assist training and control during tasks.
-- Search & rescue support: compact, rugged tracking for search dogs operating in remote or rugged terrain, combined with Plaspy live maps for team coordination.
-- Handler teams and collaborative hunts: share live positions and geofence alerts across a team using Plaspy for coordinated operations and post-hunt analysis.
-- Behavior monitoring and after-action review: place history and telemetry logs help analyze routes, rest times, and event timelines after a hunt or exercise.
+- Hunting and field work where locating and communicating with dogs quickly is critical.
+- Working dog management and training that benefit from remote vibration or voice command capabilities.
+- Search and rescue support where compact rugged trackers enable team coordination on Plaspy live maps.
+- Collaborative handler teams sharing live positions and event alerts during operations.
+- Post operation analysis of routes, rest periods, and event timelines using Plaspy reporting.
 
 ## Why Choose This Tracker with Plaspy
 
-MiniFinder Rex is engineered for the demands of outdoor dog tracking and pairs naturally with the Plaspy platform to bring those capabilities into a broader telemetry and management environment. The combination of long battery life, proven cellular coverage \(LTE‑M/GSM\), high‑sensitivity GNSS, and hunting-specific sensors \(bark detection, G-sensor, guiding LED\) delivers reliable, real-time tracking and actionable alerts. Using Rex with Plaspy lets you leverage Plaspy’s live mapping, alert rules, and team-management tools — useful not only for individual handlers but also where telemetry, fleet management-style visibility, or coordinated responses are required.
+MiniFinder Rex is designed to meet the practical needs of handlers and teams operating in outdoor environments, and its feature set maps well to Plaspy use cases for live monitoring and coordinated response. The combination of field oriented sensors, durable construction, and long run times makes Rex a relevant option for organizations that want to add animal tracking into a broader telemetry or fleet visibility setup.
 
-Note: Rex typically requires a subscription to the manufacturer’s service \(MiniFinder\) to access the MiniFinder Hunter app and related services. If you plan to use Rex with Plaspy, confirm platform compatibility and subscription requirements so your data, alerts, and team workflows run smoothly. For handlers and organizations that need a compact, rugged GPS tracker purpose-built for dogs and able to connect into Plaspy’s ecosystem, MiniFinder Rex is a practical, field-ready option.
-
+If you want to learn more about how Plaspy can bring Rex tracking into your monitoring and coordination workflows visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so verify current specifications and subscription requirements on the manufacturer website https://minifinder.se/.

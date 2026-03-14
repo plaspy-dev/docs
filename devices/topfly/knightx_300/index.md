@@ -2,61 +2,62 @@
 slug: /topfly/knightx_300
 id: knightx_300
 sidebar_label: KnightX 300
+title: TopFly - KnightX 300
 sidebar_class_name: menu_item_tracker
+description: Compact rechargeable asset tracker KnightX 300 compatible with Plaspy for real time location and environmental monitoring
+keywords:
+  - TopFly KnightX 300
+  - KnightX 300
+  - TopFly tracker
+  - asset tracker
+  - rechargeable tracker
+  - cold chain tracker
+  - BLE sensor tracker
+  - Plaspy compatible tracker
+  - fleet tracking
+  - real time tracking
 ---
+
 # TopFly - KnightX 300
 
 ![KnightX 300](./tracker.png)
 
-The KnightX 300 is a compact, rechargeable asset tracker designed for Plaspy-compatible deployments where long battery life, accurate positioning and environmental monitoring matter. Built for non-permanent installation, the KnightX 300 delivers real-time tracking, rich telemetry and BLE sensor support in a lightweight, IP67-rated enclosure. Its LTE Cat‑M1 core with NB‑IoT/GSM fallback and broad GNSS support makes it ideal for persistent asset visibility and cold‑chain monitoring without the need for wired power.
+The KnightX 300 is a compact, rechargeable asset tracker designed for deployments that require long battery life, accurate positioning and environmental monitoring. It is built for non permanent installation and housed in an IP67 rated enclosure, offering a lightweight option for persistent asset visibility. The device supports multi constellation GNSS for positioning, LTE Cat M1 with NB IoT and GSM fallback for wide area connectivity, and includes on board temperature sensing plus support for an external probe and Bluetooth sensors.
 
-Seamless integration with Plaspy enables fleet management teams and logistics operators to ingest frequent location updates, buffered logs and environmental data into familiar dashboards and alerting workflows. With an integrated panic button, optional external temperature probe and BLE 5.1 for wireless sensors and key‑fobs, the KnightX 300 is tuned for anti‑theft alerts, unattended equipment protection and temperature‑sensitive cargo tracking.
+As a Plaspy compatible device, the KnightX 300 can feed frequent location updates, buffered logs and environmental telemetry into Plaspy dashboards and alerting workflows. Its integrated panic button and BLE sensor support make it useful for anti theft alerts and unattended equipment protection, while rechargeable power and configurable reporting behavior help balance update frequency with operational endurance when managed from Plaspy.
 
 ## Key Highlights
 
-- Plaspy compatible: integrates location, telemetry and sensor data for real-time tracking and reporting.
-- Long battery life: 6400 mAh rechargeable battery with configurable reporting intervals to balance update frequency and endurance.
-- High‑precision GNSS: multi‑constellation receiver \(GPS/GLONASS/BeiDou/Galileo/QZSS\) with \<1.5 m CEP accuracy and very fast TTFF.
-- Cold‑chain ready: internal temperature sensing plus support for an external temperature probe and BLE temperature/humidity sensors.
-- BLE 5.1 support: pair wireless sensors, relays and panic key‑fobs for expanded telemetry and alerting.
-- Buffered logging & frequent updates: stores data offline and uploads when coverage returns; configurable reports as often as every 3 seconds.
-- Portable, non‑intrusive form factor: designed to be left with assets without permanent installation; includes USB‑C charging and indicator LEDs.
+- Plaspy compatible for location, telemetry and sensor integration into fleet dashboards.
+- Rechargeable 6400 mAh battery with configurable reporting intervals to extend field life.
+- Multi constellation GNSS support for improved positioning accuracy in diverse environments.
+- Environmental monitoring with internal temperature sensing and optional external probe support.
+- BLE 5.1 support for wireless sensors and key fob events to expand telemetry and alerts.
+- Buffered logging preserves data when coverage is lost and forwards records when connectivity returns.
+- IP67 enclosure and compact form factor suitable for temporary or removable deployment on assets.
 
 ## How It Works with Plaspy
 
-Integrating the KnightX 300 with Plaspy brings location, telemetry and sensor events into a single platform for fleet management, anti‑theft workflows and cold‑chain visibility. The device communicates over LTE Cat‑M1 with NB‑IoT/GSM fallback and supports standard transport protocols that Plaspy can ingest, allowing reliable, low‑power data delivery across wide areas.
+Integrating the KnightX 300 with Plaspy brings location, sensor readings and device events into a single operational view so teams can monitor assets, receive alerts and run reports from familiar Plaspy workflows. The device delivers periodic and event driven updates that Plaspy ingests for live visibility and historical analysis.
 
-- Real-time location and telemetry updates via TCP, UDP, MQTT or SMS \(protocols supported by the device for flexible Plaspy ingestion\).
-- Panic button and panic key‑fob events push immediate alerts to Plaspy for anti‑theft and emergency workflows.
-- Environmental telemetry: internal temperature plus optional external temperature probe and BLE sensor data for cold‑chain monitoring in Plaspy dashboards.
-- Buffered logging: the tracker stores data off‑line and forwards logs to Plaspy when connectivity returns, preserving historical traces and compliance records.
-- Secure transport options: optional MD5/AES data security can be enabled where Plaspy supports encrypted ingestion.
+- Ingest frequent location updates and telemetry into Plaspy for real time tracking and route visibility.
+- Surface panic button and key fob events as immediate alerts in Plaspy to support anti theft and emergency responses.
+- Display environmental data from the internal sensor, optional external probe and paired BLE sensors in Plaspy dashboards for cold chain oversight.
+- Use buffered logs uploaded after reconnection to preserve continuity of traces and compliance records in Plaspy reporting.
+- Configure reporting frequency and alert thresholds in Plaspy to balance battery endurance with operational needs.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat‑M1 with Cat NB2 / GSM fallback |
-| --- | --- |
-| Bands | Multiple global bands \(manufacturer lists wide regional coverage for Cat‑M1/NB2/GSM\) |
-| Power & Battery | Rechargeable 6400 mAh / 3.7 V lithium‑ion battery; USB‑C charging/data interface |
-| Interfaces | Panic button; USB‑C \(charging & data\); optional external temperature probe; indicator LEDs \(network, GNSS, power\) |
-| GNSS | All‑In‑One GNSS: GPS, GLONASS, BeiDou, Galileo, QZSS; autonomous horizontal accuracy &lt;1.5 m CEP; cold start TTFF &lt;5 s |
-| Bluetooth | BLE 5.1 for wireless sensors, key‑fobs and accessories |
-| Remote Management | FOTA \(firmware over‑the‑air\) support |
-| Form Factor & Environmental | Compact: 91.8 × 43.5 × 29.2 mm; 165 g; IP67 enclosure \(product notes: suitable for protected/unexposed installations\); operating range -20 °C to 80 °C |
-| Data & Security | Supports TCP, UDP, MQTT, SMS; optional MD5/AES for data security; buffered logging when out of coverage |
-| Reporting & Battery Life Examples | Configurable reporting intervals — up to every 3 s. Example endurance: ~247 days at 10‑minute reporting \(2 h active/day\), ~130 days at 5‑minute, ~44 days at 1‑minute. |
+- Temporary asset tracking for non powered equipment, trailers and containers where removable mounting is preferred.
+- Cold chain monitoring for parcels, medical shipments and refrigerated loads using internal and external probe data.
+- Unattended equipment protection with panic button and BLE key fob alerts for theft response workflows.
+- Distributed sensor telemetry where BLE sensors provide environmental context without wiring.
+- Fleet visibility for logistics and operations teams needing consolidated location and environmental data.
 
-## Use Cases
+## Why Choose This Tracker with Plaspy
 
-- Asset tracking for non‑powered equipment and containers where a temporary or removable tracker is needed.
-- Cold‑chain visibility: monitor internal and external probe temperatures for parcels, medical shipments, and refrigerated containers.
-- Trailer and container monitoring within fleet management programs for location, door/open events and environmental telemetry.
-- Parcel and unattended equipment protection using panic button events and BLE key‑fob alerts for anti‑theft response.
-- Distributed sensor telemetry: pair BLE temperature/humidity sensors to extend environmental monitoring without additional wiring.
+The KnightX 300 is a practical choice for organizations that need a portable, Plaspy compatible tracker providing both location and environmental telemetry without permanent installation. Its rechargeable power and efficient wide area connectivity make it suitable for long deployments on non powered assets, while multi constellation GNSS and buffered logging support reliable positioning and data continuity for analytics and recovery workflows.
 
-## Why Choose the KnightX 300 with Plaspy
+When paired with Plaspy, the KnightX 300 helps teams centralize asset visibility, configure alerting around sensor events and maintain historical records for operations and compliance. Its combination of compact design, sensor support and device level features simplifies rolling out tracking and cold chain monitoring across diverse asset fleets without extensive hardware changes.
 
-Choosing the KnightX 300 for Plaspy deployments delivers a balanced solution for operators who need precise real‑time tracking plus environmental telemetry without permanent installation. Its rechargeable 6400 mAh battery and efficient Cat‑M1 connectivity enable long operational lifetimes, while multi‑constellation GNSS gives confident location accuracy for asset recovery and route analytics. BLE 5.1 and external probe support make it straightforward to capture cold‑chain data and sensor telemetry alongside location.
-
-Integrated features such as buffered logging, frequent reporting capability and FOTA updates reduce maintenance overhead and ensure continuity of data into Plaspy dashboards. For fleet management, anti‑theft workflows and cold‑chain monitoring, the KnightX 300 brings portable, Plaspy‑compatible tracking, reliable telemetry and easy sensor pairing — helping teams convert location and sensor streams into actionable insights without complex installation.
-
+To learn more about using Plaspy with compatible devices like the KnightX 300, visit the Plaspy main website https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details and features on the manufacturer site https://www.topflytech.com/.

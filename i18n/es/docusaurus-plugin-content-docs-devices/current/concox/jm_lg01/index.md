@@ -2,59 +2,58 @@
 slug: /concox/jm_lg01
 id: jm_lg01
 sidebar_label: JM-LG01
+title: Concox - JM-LG01
 sidebar_class_name: menu_item_tracker
+description: Rastreador GNSS portátil compatible con Plaspy para monitoreo prolongado de activos sin alimentación como autos de alquiler y equipos
+keywords:
+  - Concox JM-LG01
+  - rastreador JM-LG01
+  - rastreador Concox
+  - rastreador GNSS portátil
+  - rastreador de larga autonomía
+  - seguimiento de autos de alquiler
+  - protección de garantía vehicular
+  - rastreador con montaje magnético
+  - rastreador compatible con Plaspy
+  - dispositivo de rastreo para flotas
 ---
+
 # Concox - JM-LG01
 
 ![JM-LG01](./tracker.png)
 
-El JM-LG01 es un rastreador GNSS/GPS portátil, compatible con Plaspy, diseñado para el monitoreo a largo plazo de activos sin suministro eléctrico. Desarrollado para una gestión de flotas de bajo mantenimiento y protección de activos, el JM-LG01 combina posicionamiento de alta sensibilidad, perfiles de energía configurables y telemetría con detección de manipulación para ofrecer un seguimiento confiable y de larga duración para flotas de alquiler de coches, protección de la financiación de vehículos y seguimiento general de activos.
+El JM-LG01 es un rastreador GNSS GPS portátil de Concox diseñado para el monitoreo prolongado de activos sin alimentación. Pensado para una gestión de flotas de bajo mantenimiento y la protección de activos, el equipo destaca por su larga autonomía de batería, posicionamiento de alta sensibilidad, telemetría consciente ante manipulaciones y una carcasa resistente al agua con un potente imán para una instalación prácticamente inmediata.
 
-Diseñado para una instalación prácticamente nula con un soporte magnético fuerte y una carcasa resistente al agua IPX5, el JM-LG01 es ideal cuando predomina la larga vida de la batería y un mínimo de mantenimiento. Al conectarse a Plaspy, el dispositivo ofrece seguimiento en tiempo real, reproducción de rutas históricas y alertas configurables, lo que permite flujos de trabajo proactivos de antirrobo y operaciones de activos basadas en datos.
+Al ser compatible con Plaspy, el JM-LG01 puede enviar fijaciones de ubicación, alertas de eventos y telemetría a los paneles de gestión de flotas y activos de Plaspy. Esta compatibilidad hace que el JM-LG01 sea relevante para equipos que requieren seguimiento confiable a largo plazo, reproducción histórica de rutas y notificaciones configurables en la plataforma cloud de Plaspy sin necesidad de servicios de mantenimiento frecuentes.
 
-## Aspectos clave
+## Aspectos principales
 
-- Compatible con Plaspy: integración fluida para rastreo en tiempo real y visualización en la nube.
-- Autonomía ultra larga: gestión de energía inteligente ofrece hasta 3 años en modo de espera \(1 lectura de posición al día, solo posicionamiento por Wi‑Fi\).
-- GNSS de alta precisión: precisión en exteriores inferior a 2,5 m CEP para datos de ubicación confiables.
-- Diseño duradero y de bajo mantenimiento: resistencia al agua IPX5 y soporte magnético robusto para una fijación rápida.
-- Telemetría robusta: nivel de batería, detección de movimiento, detección de manipulación \(sensor de luz\) y alertas de geocerca.
-- Almacenamiento de datos local: memoria a bordo para registrar datos cuando la conectividad es intermitente.
-- Compacto y ligero: fácil de desplegar en activos distribuidos sin afectar la maniobrabilidad.
+- Compatible con Plaspy para seguimiento en tiempo real, reproducción histórica y visualización en la nube.
+- Capacidad de espera ultra larga para despliegues extendidos con mantenimiento mínimo.
+- Posicionamiento GNSS de alta sensibilidad para datos de ubicación confiables al aire libre.
+- Carcasa resistente y a prueba de agua con montaje magnético fuerte para despliegues rápidos.
+- Telemetría con detección de manipulación, incluyendo alertas por movimiento y sensor de luz.
+- Registro local de posiciones para preservar el historial cuando la conectividad es intermitente.
 
 ## Cómo funciona con Plaspy
 
-Al emparejarse con Plaspy, el JM-LG01 transmite datos de ubicación GNSS validados y ubicación asistida por red celular a los paneles y herramientas de informes de Plaspy. Plaspy procesa las determinaciones de posición del dispositivo, la telemetría y los eventos de alarma para permitir el monitoreo en tiempo real, la reproducción de rutas históricas y notificaciones configurables para operaciones o equipos de seguridad.
+Cuando se conecta a Plaspy, el JM-LG01 transmite fijaciones de ubicación validadas y telemetría de eventos a las herramientas de monitoreo y reporte de Plaspy, de modo que usted puede mantener visibilidad sobre activos distribuidos. Plaspy ingiere las posiciones y alarmas del dispositivo para habilitar supervisión en vivo y flujos de trabajo automatizados.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(modos de posicionamiento GNSS + LBS/Wi‑Fi\).
-- Alertas de manipulación y sensor de luz para monitoreo anti-robo y notificaciones basadas en eventos.
-- Alertas de batería baja e informes de estado para programar mantenimiento o reemplazo de batería.
-- Eventos de violación de geocerca y modos de trabajo basados en horarios, procesados como alertas de Plaspy.
-- Detección de movimiento mediante acelerómetro a bordo para activar el despertar, iniciar el seguimiento o emitir alarmas.
+- Actualizaciones de ubicación en vivo y visualización de posiciones en los paneles de Plaspy.
+- Reproducción histórica de rutas para revisar movimientos y respaldar auditorías.
+- Alertas por manipulación y sensor de luz dirigidas a equipos de operaciones o seguridad.
+- Notificaciones de batería baja y estado para planificar mantenimiento y sustitución de baterías.
+- Alertas de violación de geocercas y reportes programados procesados como eventos en Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM cuádband \(850 / 900 / 1800 / 1900 MHz\) |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(GSM cuádband\) |
-| Potencia y batería | 2,800 mAh de batería industrial Li‑Manganese desechable \(3.0 V\); modos de energía configurables; hasta 3 años en modo de espera \(1 lectura de posición al día, solo posicionamiento por Wi‑Fi\) |
-| Interfaces | Ranura micro-SIM, indicador de estado LED rojo único, soporte magnético robusto; detección de manipulación mediante sensor de luz; acelerómetro para detección de movimiento |
-| GNSS | Posicionamiento multimodo \(GPS + LBS\); precisión exterior &lt; 2.5 m CEP; receptor de alta sensibilidad \(tracking -165 dBm, adquisición -148 dBm\); TTFF arranque en caliente ≤1 s, arranque en frío ≤32 s |
-| Bluetooth | No incluido / N/A |
-| Gestión remota | Registro de datos local \(32 + 32 Mb\); se integra con plataformas de rastreo en la nube para visualización en tiempo real y reproducción de rutas históricas |
-| Formato | Rastreador de activos compacto y portátil; 82.0 × 42.0 × 20.0 mm; peso 72 g \(sin soporte magnético\); resistente al agua IPX5 |
-| Rango de operación | -20 °C a +70 °C; 5%–95% de humedad no condensante |
-
-## Casos de uso
-
-- Gestión de flotas de alquiler de vehículos: rastreador GPS de largo plazo y bajo mantenimiento para vehículos fuera de servicio y apoyo a la recuperación.
-- Financiación de automóviles y protección de la hipoteca del vehículo: alertas de manipulación e historial de ubicación persistente para proteger el aval.
-- Rastreo general de activos: rastreo portátil para remolques, equipos y otros activos sin energía, donde la longevidad de la batería es esencial.
-- Instalaciones remotas y activos estacionales: modo de espera extendido y horarios de informe configurables para minimizar el mantenimiento.
+- Gestión de flotas de alquiler de autos para vehículos fuera de servicio y apoyo en recuperación.
+- Protección de préstamos prendarios y colaterales con historial persistente de ubicaciones.
+- Rastreo de remolques, equipos y otros activos sin alimentación donde la vida útil de la batería es crítica.
+- Instalaciones remotas o estacionales que requieren larga autonomía y baja necesidad de mantenimiento.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El JM-LG01 aporta una combinación práctica de larga duración de la batería, posicionamiento GNSS de alta precisión y telemetría con detección de manipulación que complementa las funciones de gestión de flotas y seguridad de Plaspy. Su soporte magnético fuerte y su diseño IPX5 facilitan una implementación rápida y fiable, reduciendo el tiempo de instalación y el costo de mantenimiento. El almacenamiento local integrado y los modos de energía inteligente garantizan la continuidad del seguimiento en áreas con cobertura celular intermitente, mientras que las herramientas en la nube de Plaspy convierten esos datos en ideas accionables — desde el seguimiento en tiempo real y alertas anti-robo hasta la reproducción histórica para auditorías e informes.
+El JM-LG01 combina seguimiento de larga duración y telemetría sensible a manipulaciones con un formato compacto y ligero que reduce el tiempo de instalación y la carga operativa. Su diseño está orientado a organizaciones que necesitan un sensor de ubicación resistente y de bajo mantenimiento para alimentar las funciones de monitoreo, alertas y reportes de Plaspy.
 
-Para operaciones que requieren telemetría amplia y control de dispositivos, como monitoreo de combustible, control de ignición, funciones de inmovilizador o sensores Bluetooth, el JM-LG01 se utiliza mejor como un sensor de ubicación y eventos de larga duración dentro de una solución más amplia habilitada para Plaspy. Plaspy puede correlacionar la ubicación y los datos de manipulación del JM-LG01 con otras fuentes de telemetría en su implementación para entregar una visión completa de la salud y el estado de los activos sin comprometer la fortaleza central del JM-LG01: rastreo GNSS de bajo mantenimiento y a largo plazo.
-
+Para saber más sobre cómo Plaspy puede usar los datos del JM-LG01 para mejorar la visibilidad y proteger activos visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y la información del fabricante pueden cambiar con el tiempo, por favor verifique las especificaciones actuales en el sitio del fabricante https://www.iconcox.com/.

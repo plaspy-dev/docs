@@ -2,60 +2,59 @@
 slug: /concox/ll705
 id: ll705
 sidebar_label: LL705
+title: Concox - LL705
 sidebar_class_name: menu_item_tracker
+description: Plaspy compatible Concox LL705 4G GPS tracker for long term asset monitoring with rugged IP67 enclosure and extended battery life
+keywords:
+  - Concox LL705
+  - LL705 tracker
+  - Concox GPS tracker
+  - LL705 Plaspy compatible
+  - asset tracker
+  - 4G GPS tracker
+  - long battery tracker
+  - IP67 tracker
+  - fleet tracking
+  - remote asset monitoring
 ---
+
 # Concox - LL705
 
 ![LL705](./tracker.png)
 
-The LL705 is a purpose-built 4G GPS tracker designed for long-term, low-maintenance monitoring of high-value assets. As a Plaspy compatible asset tracker, the LL705 combines LTE Cat 1 connectivity with GSM fallback, multi-source positioning \(GPS, Beidou/BDS, LBS and BLE\), and a rugged IP67 enclosure to deliver reliable real-time tracking for construction, mining, trailers and other remote assets.
+The Concox LL705 is a purpose built 4G GPS tracker designed for long term, low maintenance monitoring of high value assets. It combines LTE Cat 1 connectivity with GSM fallback, multi source positioning including GPS and Beidou BDS, cell tower LBS and BLE, and a rugged IP67 enclosure to provide persistent location reporting in demanding outdoor and industrial environments. The device is optimized for extended deployments through a high capacity 18,000mAh Li SOCl2 battery and configurable working modes to balance update frequency and battery life.
 
-With an industry-leading 18,000mAh Li‑SOCl2 battery and configurable working modes \(Regular GPS, Tracking, Phase‑based and Alarm‑based\), the LL705 minimizes maintenance intervals and reduces total cost of ownership for fleet management and asset monitoring programs. Its long standby life, tamper and low-battery alerts, and FOTA capability make it easy to deploy at scale and keep devices up to date via Plaspy.
+As a Plaspy compatible asset tracker, the LL705 integrates into Plaspy to add continuous visibility, alerting and historical reporting for fleet and asset management programs. Plaspy can ingest LL705 location and event messages to power geofences, scheduled reports and maintenance workflows, while remote firmware update capability and tamper and low battery alerts simplify large scale deployments and upkeep.
 
 ## Key Highlights
 
-- Plaspy compatible 4G GPS tracker built for extended field deployments and real-time tracking.
-- 18,000mAh Li‑SOCl2 battery delivers extremely long standby performance — up to 10 years in the most energy‑efficient configuration \(one update per day\).
-- Multi-source positioning: GPS + Beidou \(BDS\) GNSS, LBS cell‑tower fallback and BLE to maintain location reporting in challenging environments.
-- Rugged IP67-rated enclosure for dust and water resistance in harsh outdoor and industrial settings.
-- Advanced alerting including light-sensor tamper detection, low-battery notifications \(below 20%\), and optional vibration alerts.
-- Configurable working modes to balance update frequency and battery life for telemetry and fleet management needs.
-- FOTA support for remote firmware updates and simplified in-field maintenance.
+- Built for extended field use with an 18,000mAh battery that minimizes maintenance visits and lowers operating cost.
+- Multi source positioning using GPS and Beidou plus cell based LBS and BLE for improved location resilience.
+- Rugged IP67 rated enclosure suitable for outdoor, construction and industrial asset deployments.
+- Configurable working modes to trade off between reporting frequency and battery life for specific monitoring needs.
+- Tamper detection and low battery alerts to help protect high value assets and trigger timely maintenance.
+- FOTA support to enable remote firmware updates and streamlined device management.
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, the LL705 provides continuous visibility into asset location, status and basic telemetry. The device transmits GNSS positions, cell‑based LBS fixes and BLE sensor discoveries to Plaspy for real-time tracking, alerts and historical reporting. Plaspy ingests the LL705’s messages to drive geofencing, scheduled reports, and event-driven workflows for fleet management and anti-theft operations.
+When connected to Plaspy, the LL705 delivers location and status data to a centralized platform where teams can monitor assets in real time and run post event analysis. Plaspy receives the device messages and converts them into map views, alerts and reports that help operations and security teams respond quickly and plan maintenance.
 
-- Real-time location and telemetry updates \(GNSS + LBS + BLE\) for accurate situational awareness.
-- Tamper alerts \(light-sensor based\) and optional vibration alerts delivered to Plaspy for anti-theft workflows.
-- Low-battery notifications \(threshold alert at 20%\) to trigger maintenance tasks within Plaspy.
-- BLE support for nearby sensor integration and short-range telemetry when BLE sensors are present.
-- FOTA-enabled remote firmware updates coordinated through Plaspy-compatible device management.
+- Real time location updates and historical tracking for fleet visibility and asset history.
+- Event and alert delivery such as tamper notifications and low battery warnings routed into Plaspy workflows.
+- Geofencing and movement detection to trigger automated actions and notifications inside Plaspy.
+- Scheduled and on demand reports to support maintenance planning and asset utilization reviews.
+- Remote device management features coordinated through Plaspy for firmware updates and configuration changes.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat 1 with GSM fallback \(4G primary, 2G fallback\) |
-| --- | --- |
-| Bands | Region-dependent variants \(LL705\(E\) and LL705\(GL\)\) supporting multiple LTE-FDD/TDD and GSM bands to accommodate global deployments |
-| Power & Battery | 18,000mAh Li‑SOCl2 battery; standby up to 10 years with one update per day in the most energy-efficient configuration |
-| Positioning \(GNSS\) | GPS and Beidou \(BDS\); high-precision positioning &lt;2.5 m CEP |
-| GNSS Sensitivity | Tracking sensitivity down to –165 dBm |
-| Bluetooth | BLE for short-range sensor and beacon integration |
-| SIM & Indicators | Nano‑SIM slot; LED power indication |
-| Firmware & Remote Management | FOTA support for in-field firmware updates and remote maintenance |
-| Enclosure & Durability | IP67-rated for dust and water protection; ruggedized for outdoor/industrial use |
-| Dimensions & Weight | 120.0 × 68.0 × 43.5 mm; 289 g |
-| Operating Conditions | Temperature −20 °C to +70 °C; humidity 5%–95% non‑condensing |
-| Mounting Options | Screw mount; optional internal magnet; 3M double-sided adhesive tape; cable ties |
-
-## Use Cases
-
-- Construction equipment monitoring — extended battery life and rugged IP67 protection reduce field visits while enabling reliable GPS tracker telemetry.
-- Mining equipment tracking — multi-source positioning and BLE help maintain visibility in mixed signal environments.
-- Trailer and container tracking — long standby times and tamper alerts improve anti-theft capability for fleet management.
-- Remote asset inventory — deploy LL705 on non-powered assets to capture periodic location updates without frequent maintenance.
+- Construction equipment monitoring where rugged enclosures and long battery life reduce site visits.
+- Mining equipment tracking in mixed signal environments needing multi source positioning.
+- Trailer and container tracking with long standby times and tamper alerts for theft mitigation.
+- Remote asset inventory for non powered assets that require periodic location checks.
+- Equipment rental fleets that benefit from long term telemetry and centralized reporting.
 
 ## Why Choose This Tracker with Plaspy
 
-Pairing the LL705 with Plaspy gives fleet managers and asset owners a Plaspy compatible solution that emphasizes longevity, resilience and operational simplicity. The LL705’s massive Li‑SOCl2 battery and configurable working modes translate into fewer site visits and lower total cost of ownership. Plaspy adds real-time tracking, geofencing, alert routing and centralized telemetry dashboards so teams can act on tamper, low-battery or movement events quickly. For organizations seeking a reliable GPS tracker for long-term fleet management, anti-theft protection and telemetry consolidation — especially in harsh or remote environments — the LL705 delivers a scalable, low-maintenance option that integrates smoothly with Plaspy’s reporting and device management workflows.
+Pairing the LL705 with Plaspy gives organizations a low maintenance, resilient solution for long term asset visibility. The LL705 emphasizes longevity and environmental protection, while Plaspy supplies centralized dashboards, alert routing and reporting to make operational oversight and incident response straightforward. Together they reduce the operational burden of frequent field visits and provide the data needed to manage assets across dispersed sites.
 
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so verify current specifications and documentation on the official Concox site https://www.iconcox.com/.

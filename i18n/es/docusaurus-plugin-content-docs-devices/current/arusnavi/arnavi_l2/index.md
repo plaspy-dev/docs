@@ -2,60 +2,61 @@
 slug: /arusnavi/arnavi_l2
 id: arnavi_l2
 sidebar_label: Arnavi L2
+title: Arusnavi - Arnavi L2
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto hermético compatible con Plaspy para seguimiento en tiempo real de flotas y activos en ambientes húmedos o mojados
+keywords:
+  - Arusnavi Arnavi L2
+  - Arnavi L2
+  - rastreador Arusnavi
+  - rastreador Arnavi
+  - compatible Plaspy
+  - rastreador GPS
+  - seguimiento de flotas
+  - seguimiento de activos
+  - seguimiento de sensores BLE
+  - rastreador GPS hermético
 ---
+
 # Arusnavi - Arnavi L2
 
 ![Arnavi L2](./tracker.png)
 
-El Arnavi L2 es un localizador GPS compacto, herméticamente sellado, diseñado para un seguimiento en tiempo real fiable y telemetría compatible con Plaspy, incluso en entornos húmedos o con alta humedad. Diseñado para activos móviles y gestión de flotas, el L2 combina posicionamiento GNSS de múltiples constelaciones, un módem celular 2G de bajo consumo y Bluetooth Low Energy para proporcionar ubicación precisa, datos de comportamiento de conducción y telemetría de sensores con un esfuerzo de instalación mínimo.
+El Arnavi L2 es un rastreador GPS compacto y herméticamente sellado, diseñado para ofrecer seguimiento y telemetría en tiempo real de manera fiable en entornos húmedos o con alta humedad. Pensado para activos móviles y gestión de flotas, combina posicionamiento GNSS multiconstelación con un módem celular de bajo consumo y Bluetooth Low Energy para proporcionar ubicación, datos de comportamiento de conducción y telemetría de sensores en una carcasa pequeña y protegida.
 
-El recinto sellado, las antenas internas para señales celulares, de navegación y Bluetooth, y un arnés de cableado de 60 cm hacen del Arnavi L2 una opción ideal cuando el espacio y la protección ambiental son prioritarios. Con funciones de eco-conducción basadas en acelerómetro integradas, registro de caja negra a bordo y herramientas de configuración remota, el L2 se integra fácilmente con Plaspy para monitorización antirobo, monitoreo de combustible mediante sensores Bluetooth, detección de encendido e supervisión de la flota.
+Como dispositivo compatible con Plaspy, el Arnavi L2 puede enviar ubicación, eventos y datos de sensores a Plaspy para monitoreo en vivo, alertas y análisis históricos. Su diseño sellado, antenas internas y registro a bordo lo convierten en una opción práctica para flotas y activos que necesitan visibilidad continua en condiciones adversas, al mismo tiempo que minimiza la complejidad de instalación.
 
-## Puntos clave
+## Aspectos destacados
 
-- Dispositivo compatible con Plaspy con informes al servidor configurables y soporte para protocolos de telemetría comunes \(INTERNAL, EXTERNAL, USER\_AG, EGTS\).
-- GNSS robusto de múltiples constelaciones \(GPS, GLONASS, Galileo, BeiDou, QZSS\) para posicionamientos fiables en entornos desafiantes.
-- Carcasa hermética y antenas internas simplifican la instalación y protegen la electrónica de la humedad y de entornos con alta humedad.
-- Bluetooth 4.0 LE; admite hasta cinco sensores BLE externos y es compatible con dispositivos Arnavi BLE y sensores BLE de terceros.
-- Bajo consumo \(≈2 mA en reposo, ≈40 mA activo\) y rango de tensión de entrada amplio \(8–40 V\) con protección de entrada hasta 60 V para instalaciones versátiles en vehículos y activos.
-- Formato compacto \(61 × 42 × 13 mm, ~35 g\) con registrador de datos a bordo \(~8 MB / ~12,000 registros\) para grabación de caja negra sin conexión.
-- Acelerómetro a bordo y entrada de encendido permiten análisis de eco-conducción, detección de movimiento e informes basados en eventos para la gestión de la flota.
+- Carcasa hermética y antenas internas que reducen la exposición a la humedad y facilitan el montaje en entornos mojados o de alta humedad.
+- Soporte GNSS multiconstelación para obtener posiciones fiables en distintas condiciones de operación.
+- Bluetooth Low Energy para emparejar sensores externos como equipos de nivel de combustible y monitores de temperatura.
+- Acelerómetro a bordo y reporte de eventos para aportar datos sobre conducción eficiente y generar alertas basadas en movimiento.
+- Registrador de datos interno que funciona como caja negra y almacena información cuando la conectividad se interrumpe.
+- Factor de forma compacto y bajo consumo de energía ideal para vehículos pequeños e instalaciones con espacio limitado.
 
 ## Cómo funciona con Plaspy
 
-El Arnavi L2 se puede configurar para reportar directamente a los servidores de monitoreo de Plaspy utilizando sus protocolos de comunicación soportados y la capacidad de reporte a dos servidores. Una vez conectado, Plaspy recibe actualizaciones de ubicación, telemetría y eventos de sensores en tiempo casi real para visualización, alertas y análisis histórico. La configuración remota y las actualizaciones de firmware pueden gestionarse de forma central para mantener los dispositivos alineados con las políticas de la flota.
+Una vez configurado para reportar a Plaspy, el Arnavi L2 entrega actualizaciones continuas de ubicación y telemetría que Plaspy utiliza para seguimiento en vivo, alertas e informes. Plaspy puede agregar eventos del dispositivo, lecturas de sensores y recorridos históricos de unidades L2 para apoyar flujos operativos y análisis de desempeño de la flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para seguimiento en vivo y reproducción de rutas.
-- Informes de encendido y de eventos a través de la entrada discreta positiva para inicio/fin de viaje, disparadores de identificación del conductor y registro de kilometraje.
-- Monitoreo de combustible y telemetría de temperatura mediante sensores Bluetooth compatibles \(BLE\) emparejados con el L2.
-- Control remoto de actuadores externos \(salida I/O universal capaz de conmutar hasta 500 mA\) para soportar control de relés tipo inmovilizador o conmutación de dispositivos auxiliares.
-- Carga de datos de la caja negra y reporte de respaldo: los registros almacenados están disponibles para que Plaspy los recupere tras la restauración de la señal.
+- Ubicación en tiempo real y reproducción de rutas en Plaspy para visibilidad operativa inmediata.
+- Reportes basados en eventos como cambios de ignición y detección de movimiento para segmentación de viajes y alertas.
+- Telemetría de sensores emparejados por BLE enviada a Plaspy para monitoreo de combustible y control de temperatura.
+- Subida de datos de la caja negra y reportes de respaldo para recuperar registros almacenados cuando se restablece la conectividad.
+- Configuración remota y gestión de dispositivos para ajustar el comportamiento de reporte y los umbrales según las políticas de la flota.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | Módem GSM/GPRS 2G con antena GSM interna; una nano-SIM o ranura SIM embebida |
-| --- | --- |
-| Bandas | 2G GSM/GPRS \(las bandas soportadas específicas no se listan aquí — consulte la hoja de datos de Arnavi para el soporte regional de bandas\) |
-| Potencia y consumo | Voltaje de operación 8–40 V; protección de entrada hasta 60 V; consumo de corriente ≈2 mA \(inactivo\) a ≈40 mA \(activo\) |
-| Interfaces | 1 entrada discreta positiva \(encendido/sensor\); 1 entrada/salida universal protegida contra sobretensiones inductivas \(salida hasta 500 mA\); USB para configuración |
-| GNSS | Soporta GPS, GLONASS, Galileo, BeiDou, QZSS \(posicionamiento multi-constelación\) |
-| Bluetooth | Bluetooth 4.0 LE; admite hasta cinco sensores BLE externos y es compatible con dispositivos Arnavi BLE y sensores BLE de terceros |
-| Gestión remota | Configuración remota y actualizaciones de firmware vía web; herramienta de configuración para PC vía USB; aplicación móvil vía Bluetooth o USB |
-| Sensores a bordo y almacenamiento | Acelerómetro a bordo para el análisis de movimiento y comportamiento de conducción; registrador de datos interno ~8 MB \(~12,000 registros\) |
-| Forma | Carcasa hermética; dimensiones 61 × 42 × 13 mm; peso ≈35 g; incluye arnés de cableado de 60 cm |
+- Gestión de flotas de vehículos comerciales ligeros que requieren análisis de conducción ecológica y supervisión de rutas.
+- Flujos de trabajo de seguridad y antirrobo que usan eventos de movimiento, ignición y etiquetas BLE para detectar movimientos no autorizados.
+- Monitoreo remoto de combustible y telemetría de temperatura emparejando sensores BLE para supervisión de niveles de combustible y cadena de frío.
+- Seguimiento de activos en entornos agresivos donde se necesita una carcasa sellada y antenas internas.
+- Instalaciones en vehículos o equipos compactos donde el tamaño reducido facilita la integración.
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas — datos continuos del localizador GPS y análisis de eco-conducción para reducir costos de combustible y mejorar la seguridad.
-- Antirrobo y seguridad — modo de seguridad con etiquetas BLE y alertas de encendido y movimiento para una intervención rápida.
-- Monitoreo de combustible y telemetría de temperatura — emparejar sensores BLE de nivel de combustible y temperatura para monitoreo remoto de combustible y supervisión de la cadena de frío.
-- Seguimiento de activos en entornos adversos — diseño sellado y hermético para activos que operan en entornos de alta humedad, marítimos o en condiciones húmedas.
-- Instalaciones en vehículos pequeños y activos compactos — huella reducida y antenas internas simplifican el montaje cuando el espacio es limitado.
+El Arnavi L2 combina protección ambiental y posicionamiento multiconstelación con funciones de telemetría prácticas que encajan bien con los flujos de trabajo de Plaspy. Su diseño sellado y antenas internas reducen la complejidad de instalación en condiciones húmedas, mientras que el soporte BLE y el sensor de movimiento a bordo amplían la variedad de datos que Plaspy puede utilizar para vigilancia de seguridad, eficiencia y control.
 
-## Por qué elegir este localizador con Plaspy
+Funciones operativas como el registro interno, la amplia tolerancia de voltaje y la configuración remota hacen del L2 una opción resistente para organizaciones que necesitan nodos de rastreo confiables en vehículos y activos móviles. Al combinarse con Plaspy, el dispositivo ayuda a proporcionar la visibilidad, las alertas y el análisis histórico necesarios para las operaciones diarias de la flota.
 
-El Arnavi L2 ofrece un equilibrio entre protección ambiental, posicionamiento multi-constelación y telemetría flexible que lo convierten en un localizador GPS compatible con Plaspy eficaz para una amplia variedad de aplicaciones de vehículos y activos. Su carcasa sellada y las antenas internas reducen la complejidad de instalación y protegen la electrónica frente a la humedad. El soporte Bluetooth LE y el acelerómetro a bordo amplían la telemetría más allá del GPS puro, permitiendo el monitoreo de combustible, la detección de temperatura y conocimientos de eco-conducción que Plaspy puede aprovechar para una gestión de flotas más inteligente y flujos de trabajo anti-robo.
-
-En operación, el perfil de bajo consumo del L2, su amplia tolerancia de voltaje y el registrador de datos a bordo garantizan un funcionamiento continuo en vehículos y activos remotos. La configuración remota, las actualizaciones de firmware basadas en la web y la doble capacidad de reporte evitan complicaciones en el despliegue y mantenimiento a nivel de flota bajo Plaspy. Para operaciones que requieren un nodo de telemetría compacto y fiable con soporte para sensores BLE, detección de encendido y la capacidad de conmutar relés externos, el Arnavi L2 se presenta como una opción pragmática y lista para la integración.
-
+Para saber más sobre cómo Plaspy puede integrarse con dispositivos como el Arnavi L2 visite https://www.plaspy.com. Las especificaciones y la disponibilidad de los productos pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales y la documentación técnica en el sitio del fabricante https://www.arusnavi.ru.

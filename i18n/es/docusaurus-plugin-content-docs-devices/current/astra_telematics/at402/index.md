@@ -2,57 +2,60 @@
 slug: /astra_telematics/at402
 id: at402
 sidebar_label: AT402
+title: Astra Telematics - AT402
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto compatible con Plaspy para motosharing y flotas con LTE M y respaldo 2G diseño IP65
+keywords:
+  - Astra Telematics
+  - AT402
+  - AT402 rastreador GPS
+  - AT402 compatible con Plaspy
+  - rastreador LTE M
+  - seguimiento de flotas
+  - rastreador para motosharing
+  - telemetría de vehículos
+  - rastreador GPS IP65
+  - rastreador CANBus
 ---
+
 # Astra Telematics - AT402
 
 ![AT402](./tracker.jpg)
 
-El Astra Telematics AT402 es un rastreador GPS compatible con Plaspy, diseñado para moto‑sharing y despliegues de vehículos conectados. Basándose en la probada serie AT400, el AT402 combina conectividad celular LTE‑M con respaldo GSM/GPRS 2G para ofrecer seguimiento en tiempo real y telemetría de vehículos fiables para la gestión de flotas, protección antirrobo y servicios de movilidad compartida. Compacto, preparado para uso automotriz y con clasificación IP65, la unidad está diseñada para facilitar la instalación con antenas GNSS y GSM internas y un conector de cableado automotriz para montaje en producción o de posventa.
+El Astra Telematics AT402 es un rastreador GPS compacto y listo para aplicaciones automotrices, pensado para motosharing y despliegues más amplios de vehículos conectados. Basado en la serie AT400, el AT402 combina conectividad LTE-M como enlace principal con respaldo GSM GPRS 2G para asegurar el reporte continuo de posición y la telemetría del vehículo. El equipo cuenta con certificación IP65, antenas GNSS y celulares internas, y emplea un conector de estilo automotriz que simplifica tanto la producción como las instalaciones posventa.
 
-El AT402 admite un amplio conjunto de interfaces — CANBus para datos del vehículo, BLE para interacciones con dispositivos locales, RS232 y 1‑Wire para periféricos, además de E/S digitales y soporte de driver ID — lo que permite a Plaspy recibir telemetría rica, eventos de encendido y de conductor. Con una batería de respaldo de 510 mAh, un rango de tensión de operación \(6–65 V\) y la garantía de cinco años de Astra, además de actualizaciones del sistema de por vida, el AT402 equilibra costo, durabilidad y flexibilidad de integración para seguimiento en tiempo real y analítica de flotas basada en Plaspy.
+Como dispositivo compatible con Plaspy, el AT402 entrega los datos de ubicación y telemetría que la plataforma utiliza para el seguimiento en tiempo real, la supervisión de flotas y la detección de robos. Su soporte para interfaces del vehículo, emparejamiento inalámbrico local, entradas digitales y una batería interna de respaldo lo hace idóneo para servicios de movilidad compartida y flotas comerciales ligeras que requieren seguimiento resistente y flexibilidad de integración con Plaspy.
 
-## Aspectos clave
+## Características principales
 
-- Dispositivo compatible con Plaspy con conectividad LTE‑M principal y respaldo GSM/GPRS 2G para seguimiento en tiempo real continuo.
-- Diseño automotriz robusto IP65 con antenas GNSS y GSM internas para instalación simplificada y una fijación de ubicación fiable.
-- Soporte CANBus y RS232 para telemetría del vehículo, permitiendo monitoreo de combustible y gestión avanzada de flotas cuando se usa con Plaspy.
-- Bluetooth Low Energy \(BLE\) para emparejar con sensores, interacciones de proximidad y gestión de dispositivos de corto alcance.
-- Batería interna de respaldo de 510 mAh que ofrece aproximadamente seis días en modo de bajo consumo con informes cada 24 horas para resiliencia antirrobo.
-- E/S del vehículo, incluyendo 2 entradas digitales, 2 salidas digitales y soporte de driver ID para capturar el estado de encendido e habilitar funciones de inmovilizador o control remoto.
-- Con garantía de cinco años de Astra, actualizaciones del sistema de por vida y personalización gratuita de hardware/informes para apoyar la escalabilidad en Plaspy.
+- Rastreador compatible con Plaspy con conectividad LTE-M como primaria y respaldo GSM GPRS 2G para reportes fiables.
+- Carcasa robusta IP65 preparada para uso automotriz con antenas GNSS y celulares internas para una instalación simplificada.
+- Amplio soporte de interfaces vehiculares incluyendo CANBus, RS232 y 1-Wire, además de identificación de conductor y entradas digitales para telemetría y captura de eventos.
+- Soporte Bluetooth Low Energy para emparejamiento local de sensores e interacciones de corta distancia.
+- Batería interna de respaldo y amplio rango de tensión de operación para mayor resiliencia en escenarios de anti robo y movilidad compartida.
+- Diseñado tanto para instalación en producción como para posventa, con conector automotriz y factor de forma compacto.
+- Garantía ofrecida por Astra y actualizaciones continuas del sistema para respaldar despliegues a escala y operación a largo plazo.
 
 ## Cómo funciona con Plaspy
 
-El AT402 transmite la posición GNSS y telemetría a través de LTE‑M \(con respaldo 2G\) a la nube de Plaspy, donde los datos se procesan para seguimiento en tiempo real, alertas e informes. Plaspy puede consumir parámetros de CANBus del vehículo, eventos de entradas digitales y datos de sensores BLE enviados por el dispositivo para ofrecer un panel unificado de gestión de flotas y flujos de trabajo de anti‑robo. Las opciones de integración y los kits de evaluación de Astra facilitan el registro de unidades AT402 en Plaspy para monitoreo, geocercas y análisis operativos.
+Al integrarse con Plaspy, el AT402 envía posiciones GNSS y telemetría del vehículo a la nube de Plaspy, donde esos datos se procesan para seguimiento en vivo, alertas, geocercas e informes. Plaspy combina las transmisiones del dispositivo con reglas y paneles de control de la plataforma para que los operadores puedan supervisar el estado de la flota, recibir alarmas por robo y generar análisis operativos.
 
-- Actualización de ubicación en tiempo real y telemetría multi‑GNSS \(GPS, Galileo, GLONASS, BeiDou\).
-- Monitoreo de encendido y entradas digitales para eventos de inicio/parada y disparadores de alarmas.
-- Telemetría del vehículo a través de CANBus — admite consumo de combustible, velocidad y otros parámetros del bus del vehículo cuando son expuestos por el propio vehículo.
-- Inmovilizador remoto y capacidad de control mediante salidas digitales configurables \(la implementación depende del cableado del vehículo y de las reglas de Plaspy\).
-- Bluetooth Low Energy \(BLE\) para emparejar con sensores o balizas para telemetría local y comprobaciones de proximidad.
+- Actualizaciones de ubicación en tiempo real para visibilidad instantánea de la flota.
+- Monitoreo de encendido y entradas digitales para registrar eventos de arranque y parada y activar alarmas.
+- Telemetría del vehículo a través de CANBus e interfaces seriales para reportes de salud y rendimiento cuando hay datos del vehículo disponibles.
+- Acciones remotas y control mediante salidas digitales configurables coordinadas por las reglas de Plaspy.
+- Emparejamiento BLE para datos de sensores locales e interacciones basadas en proximidad que apoyan flujos de trabajo de movilidad compartida.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | LTE‑M con respaldo a GSM/GPRS \(2G\) |
-| --- | --- |
-| Bandas | Bandas LTE‑M y GSM especificadas por el fabricante \(consulte la hoja de datos de Astra para la lista de bandas\) |
-| Potencia y batería | Tensión de funcionamiento 6.0 V a 65.0 V; batería interna de respaldo de 510 mAh \(~6 días en modo de bajo consumo con informes cada 24 horas\) |
-| Interfaces | 2 entradas digitales, 2 salidas digitales, 1 puerto RS232, CANBus, 1‑Wire \(Dallas\), soporte de driver ID; sin salida AUX de 3.3V |
-| GNSS | Soporte de GPS, Galileo, GLONASS y BeiDou con antena GNSS interna de 15 mm |
-| Bluetooth | Bluetooth Low Energy \(BLE\) para sensores e interacciones con dispositivos locales |
-| Gestión remota | Actualizaciones de sistema de por vida; Astra ofrece personalización de hardware e informes y kits de evaluación |
-| Factor de forma | Unidad robusta IP65, compacta, preparada para uso automotriz con ranura Micro SIM, indicadores LED internos y conector automotriz |
-
-## Casos de uso
-
-- Gestión de flotas para vehículos comerciales ligeros y flotas de movilidad compartida que requieren seguimiento en tiempo real fiable y telemetría CANBus.
-- Despliegues de moto‑sharing y flotas de scooters/bicicletas que requieren dispositivos compactos IP65 con instalación simplificada y BLE para interacciones con el usuario.
-- Monitoreo anti‑robo e inmovilización remota mediante entradas de encendido y salidas digitales configurables gestionadas a través de las reglas de Plaspy.
-- Monitoreo de combustible y analítica de salud del vehículo capturando parámetros CANBus y reenviándolos a Plaspy para informes y alertas.
-- Instalaciones de posventa y despliegues de producción en volumen usando los arneses plug‑and‑play de Astra, cables de alimentación/encendido y kits de evaluación.
+- Flotas de motosharing y micromovilidad que requieren equipos compactos, resistentes a la intemperie y con capacidad de emparejamiento local.
+- Vehículos comerciales ligeros y flotas de servicio que necesitan seguimiento en tiempo real confiable y telemetría del vehículo.
+- Protección anti robo e inmovilización remota gestionada mediante entradas de encendido y salidas digitales.
+- Monitoreo de combustible e informes de salud del vehículo mediante el reenvío de parámetros disponibles del bus del vehículo a Plaspy.
+- Instalaciones posventa y despliegues en producción a escala donde el cableado simplificado y los kits de evaluación aceleran la integración.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El AT402 ofrece un equilibrio práctico entre durabilidad, conectividad e integración con vehículos para implementaciones con Plaspy. Su ruta celular LTE‑M con respaldo 2G garantiza un seguimiento en tiempo real de bajo consumo y preparado para el futuro, mientras soporta telemetría esencial de flotas a través de CANBus y RS232. La capacidad BLE del dispositivo extiende los flujos de trabajo de Plaspy hacia sensores locales e interacciones con usuarios, y la batería interna de respaldo junto con su amplio rango de voltaje añaden resiliencia para casos de uso anti‑robo y movilidad compartida. La garantía de cinco años de Astra, las actualizaciones del sistema de por vida y la personalización gratuita reducen la fricción de integración y el costo total de propiedad al escalar la telemática habilitada para Plaspy en las flotas.
+El AT402 es una opción práctica para organizaciones que necesitan un rastreador duradero y fácil de integrar para operaciones de movilidad compartida o flotas. Su combinación de conectividad celular de bajo consumo con respaldo 2G, opciones de interfaces vehiculares y emparejamiento inalámbrico local ofrece a los clientes de Plaspy la flexibilidad para capturar ubicación, eventos del conductor y datos del vehículo en un solo equipo. El diseño compacto con protección IP65 y el conector automotriz lo hacen adecuado tanto para retrofit como para entornos de producción, mientras que la batería interna de respaldo y el amplio rango de voltaje aumentan la resiliencia frente al robo y garantizan continuidad del servicio.
 
+Si desea conocer más sobre cómo Plaspy puede trabajar con los dispositivos de Astra Telematics visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en el sitio del fabricante https://astratelematics.com/.

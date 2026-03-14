@@ -2,66 +2,59 @@
 slug: /concox/qbit_m
 id: qbit_m
 sidebar_label: Qbit M
+title: Concox - Qbit M
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto compatible con Plaspy para seguridad personal y monitoreo discreto de activos con LTE M y posicionamiento QZSS
+keywords:
+  - Concox Qbit M
+  - rastreador GPS Qbit M
+  - Qbit M Plaspy
+  - rastreador Concox
+  - rastreador para seguridad personal
+  - rastreador LTE M
+  - rastreador GPS QZSS
+  - seguimiento de pequeños activos
+  - rastreador para cuidado de adultos mayores
+  - rastreador con boton de panico
 ---
+
 # Concox - Qbit M
 
 ![Qbit M](./tracker.png)
 
-El Qbit M de Qbit \(modelo Qbit M\) es un rastreador GPS compacto, compatible con Plaspy, diseñado para la seguridad personal y la monitorización discreta de activos. Al combinar posicionamiento GPS + QZSS con conectividad celular LTE‑M \(Cat M1 / Cat NB\), el Qbit M ofrece seguimiento en tiempo real confiable y de bajo consumo, y alertas de emergencia para el cuidado de personas mayores, niños, acompañantes y la protección de activos pequeños.
+El Qbit M de Concox es un rastreador GPS compacto diseñado para la seguridad personal y el monitoreo discreto de activos. Combina posicionamiento GPS y QZSS con conectividad celular LTE‑M para ofrecer actualizaciones de ubicación en casi tiempo real con bajo consumo energético y alertas de emergencia. El equipo está pensado para llevarse con facilidad y mantener acceso continuo a la red, e incorpora funciones orientadas a necesidades diarias como geocercas, alarma sonora y programación de operación.
 
-Diseñado para facilitar su transporte y el acceso continuo a la red, el Qbit M admite posicionamiento inteligente en interiores y exteriores, múltiples modos de funcionamiento y funciones impulsadas por la app, como geocercas, alarma sonora y operación programada. Los usuarios de Plaspy pueden integrar los datos del Qbit M en paneles e alertas para apoyar el rastreo en tiempo real, telemetría y flujos de trabajo de antirrobo para casos de uso de flotas ligeras o dispositivos personales.
+Al ser compatible con Plaspy, el Qbit M puede enviar datos de ubicación y eventos a los paneles y flujos de notificaciones de Plaspy. Los usuarios de Plaspy obtienen visibilidad centralizada, reproducción histórica y alertas configurables que hacen al Qbit M útil para monitoreo de seguridad, supervisión ligera de flotas y escenarios anti robo. La integración con Plaspy transforma las señales de posición y eventos del equipo en información operativa y notificaciones oportunas.
 
-## Aspectos Clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy: integra actualizaciones de ubicación GNSS + LTE‑M para rastreo en tiempo real y alertas.
-- Posicionamiento de alta precisión: GPS + QZSS con posicionamiento asistido para cobertura interior/exterior y una precisión CEP de &lt;2.5 m.
-- Gran autonomía y bajo consumo: batería Li‑Polímero de 650 mAh a 3.8 V industrial; autonomía típica en modo de espera de hasta ~7 días en modo inteligente \(2 h de movimiento/día, intervalo de localización de 180 s mientras se mueve\).
-- Controles de emergencia dedicados: un botón funcional y un botón de pánico dedicado para compartir ubicación de inmediato y activar alertas.
-- Formato compacto y duradero: 40.0 × 45.0 × 15.0 mm, 30.5 g, IP65 \(resistente a polvo y agua\) y amplio rango de temperatura de operación.
-- Funciones de la app: geocerca \(cerca de seguridad\) vinculada a hotspots Wi‑Fi, alarma sonora para localizar al usuario, operación programada y alertas de batería baja.
-- Alta sensibilidad de rastreo y TTFF competitivo para telemetría y reportes de posición oportunos.
+- Rastreador compatible con Plaspy que ofrece posicionamiento GNSS combinado con reportes por LTE‑M para monitoreo continuo.
+- GPS más QZSS para mejorar la precisión de ubicación en muchos entornos operativos.
+- Diseño compacto y resistente, adecuado para transporte personal y protección de pequeños activos, con resistencia al polvo y agua IP65.
+- Botón de pánico y botones funcionales dedicados para compartir la ubicación de inmediato y generar alertas de emergencia.
+- Funciones activadas desde la app como geocercas, alarma sonora y operación programada para apoyar flujos de trabajo de cuidadores y seguridad.
+- Diseño de bajo consumo con modos de operación múltiples para equilibrar la autonomía en espera y los intervalos de reporte regulares.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el Qbit M transmite posiciones GNSS y el estado del dispositivo vía LTE‑M para proporcionar una visión situacional continua y alertas configurables. Plaspy ingiere la ubicación, el movimiento y los datos de eventos del rastreador para alimentar mapas de rastreo en tiempo real, reproducción de historial y reglas de notificación para seguridad, telemetría y gestión ligera de flotas.
+Cuando usted conecta el Qbit M a Plaspy, el dispositivo transmite información de posición y eventos para proporcionar conciencia situacional persistente y alertas configurables. Plaspy incorpora las actualizaciones del rastreador para poblar mapas en vivo, vistas de estado de dispositivos y trayectos históricos, de modo que los equipos puedan monitorear movimientos, responder a alertas y administrar flotas o despliegues de seguridad personal.
 
-- Actualizaciones de ubicación y telemetría en tiempo real proporcionadas por LTE‑M \(Cat M1 / Cat NB\) para un rastreo continuo.
-- Estado del botón de pánico/emergencia y compartición instantánea de ubicación para flujos de trabajo de respuesta rápida.
-- Alertas de salida/entrada de geocerca \(cerca de seguridad\) y zonas vinculadas a hotspots Wi‑Fi para activar notificaciones en Plaspy.
-- Alertas de zumbador y batería baja reenviadas a Plaspy para avisos proactivos de mantenimiento del dispositivo.
-- Detección de movimiento mediante el acelerómetro integrado para activar el rastreo por movimiento y posicionamiento inteligente.
+- Actualizaciones de ubicación en vivo y estado del dispositivo mostrados en los mapas de Plaspy para monitoreo en tiempo real.
+- Eventos de pánico y emergencia reenviados a Plaspy para activar notificaciones o procedimientos de respuesta.
+- Alertas de entrada y salida de geocercas, incluidas zonas vinculadas a puntos de acceso Wi‑Fi, utilizadas para automatizar notificaciones y reglas.
+- Alertas de batería baja y del zumbador visibles en Plaspy para ayudar a programar mantenimiento y reemplazos.
+- Eventos de detección de movimiento que permiten el seguimiento activado por movimiento, la reproducción histórica y la revisión de incidentes.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE‑M Cat M1 y Cat NB \(NB‑IoT\) celular |
-| --- | --- |
-| Bandas | Soporta múltiples bandas LTE‑M / NB a nivel global \(según modelo/región\) |
-| Alimentación y batería | 650 mAh / 3.8 V Li‑Polímero industrial; autonomía típica de espera hasta ~7 días en modo inteligente \(2 h de movimiento/día, intervalo de localización de 180 s mientras se mueve\) |
-| Modos de funcionamiento | Smart mode y Interval mode; operación programada \(horario\) soportada vía la app |
-| Interfaces | Un botón funcional, un botón de pánico dedicado, zumbador/alertas de batería baja |
-| GNSS | GPS + QZSS; posicionamiento asistido por red con nRF opcional para mejorar la cobertura interior |
-| Precisión de posicionamiento | CEP inferior a 2.5 m \(según lo declarado\) |
-| Sensibilidad del receptor y TTFF | Sensibilidad de rastreo −155 dBm; sensibilidad de adquisición −147 dBm; TTFF caliente ≤1 s, frío ≤36 s \(cielo despejado\) |
-| Sensores | Acelerómetro incorporado para detección de movimiento y disparadores de posicionamiento inteligente |
-| SIM | Nano‑SIM o SIM suave \(soft SIM\) soportados |
-| Dimensiones y peso | 40.0 × 45.0 × 15.0 mm; 30.5 g |
-| Protección IP | IP65 \(resistente al polvo y al agua\) |
-| Rango de operación | −20 °C a +75 °C; 5–95% de humedad no condensante |
-| Bluetooth | No especificado |
-| Gestión remota | No especificado \(las funciones de la app incluyen programación, geocerca, alarma sonora\) |
-| Formato | Rastreador compacto y portátil para uso personal y de activos pequeños |
-
-## Casos de uso
-
-- Seguimiento de seguridad personal para familiares mayores o niños, con alertas de botón de pánico y notificaciones de geocerca.
-- Monitoreo de cuidadores y mascotas cuando se requiere un rastreador GPS pequeño y ligero y una batería de larga duración.
-- Seguimiento discreto de paquetes o envíos pequeños que se benefician de la conectividad LTE‑M y detección de movimiento.
-- Flujos de trabajo de cuidado a corto alcance: verificaciones de ubicación programadas, alarma sonora para localizar al usuario y alertas de salida ligadas a zonas seguras.
+- Monitoreo de seguridad personal para adultos mayores o niños, con alertas de pánico y notificaciones de geocercas.
+- Protección de acompañantes y pequeños activos donde se prefiere un rastreador ligero con larga autonomía en espera.
+- Seguimiento discreto de paquetes y envíos pequeños que requieren detección de movimiento y alertas remotas.
+- Tareas de cuidado y monitoreo de corto alcance como registros programados, comprobaciones de ubicación y ayuda para localizar mediante alarma sonora.
+- Flotas livianas o conjuntos de dispositivos donde se requiere seguimiento centralizado y alertas simples.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Qbit M es un rastreador GPS ideal para Plaspy cuando se necesita un seguimiento en tiempo real, preciso y de bajo consumo, en un formato muy compacto. Su conectividad LTE‑M y la mezcla GNSS proporcionan informes de posición y telemetría confiables, mientras que el botón de pánico, el acelerómetro y las funciones de la app ofrecen capacidades prácticas de antirrobo y alertas de emergencia. La integración con Plaspy amplía el valor del Qbit M al centralizar el historial de ubicación, notificaciones configurables y monitorización en vivo, ayudando a los equipos a escalar desde despliegues de seguridad personal individuales hacia una gestión ligera de flotas y escenarios de telemetría.
+El Qbit M es adecuado para organizaciones e individuos que necesitan seguimiento en tiempo real preciso y de bajo consumo en un formato portátil y pequeño. Su combinación de posicionamiento GNSS, conectividad LTE‑M y funciones orientadas al usuario como botón de pánico y alarma sonora entregan capacidades prácticas para la seguridad personal y la supervisión de pequeños activos. Usar Plaspy para agregar y actuar sobre los datos del Qbit M aporta valor operativo mediante paneles unificados, reglas de notificación e informes históricos.
 
-Nota: Qbit M se centra en el rastreo personal y de activos pequeños. Para telemetría de grado vehicular, como monitoreo de combustible, detección de encendido o control del inmovilizador, verifique el soporte de interfaz del vehículo y las variantes disponibles antes de su despliegue. Para la integración con sensores Bluetooth o entradas/salidas adicionales, consulte la documentación del dispositivo o las especificaciones del accesorio para confirmar la compatibilidad.
-
+Si desea explorar cómo el Qbit M puede integrarse en sus flujos de trabajo de seguimiento, conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y las características del fabricante pueden cambiar con el tiempo, por lo que es recomendable verificar los detalles actuales en el sitio oficial de Concox https://www.iconcox.com/ antes de desplegar.

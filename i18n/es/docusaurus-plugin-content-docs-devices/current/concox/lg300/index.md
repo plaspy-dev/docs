@@ -2,66 +2,60 @@
 slug: /concox/lg300
 id: lg300
 sidebar_label: LG300
+title: Concox - LG300
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS robusto compatible con Plaspy para seguimiento de activos y flotas en standby prolongado con alertas por manipulación y captura de audio
+keywords:
+  - Concox LG300
+  - rastreador LG300
+  - Concox LG300 GPS
+  - LG300 compatible con Plaspy
+  - rastreador de activos LG300
+  - rastreador GPS robusto
+  - rastreador de larga autonomía
+  - rastreador IP66
+  - rastreador para vehículos
+  - rastreador para contenedores
 ---
+
 # Concox - LG300
 
 ![LG300](./tracker.png)
 
-El LG300 rastreador de activos resistente es compatible con Plaspy y está diseñado para el seguimiento industrial persistente de vehículos, contenedores y carga de alto valor. Como rastreador GPS concebido para despliegues de larga duración en modo de espera, el LG300 combina posicionamiento multi-constelación con una batería Li‑Polímero recargable de 10,000 mAh y una carcasa IP66 para ofrecer ubicación confiable y telemetría de manipulación donde se requiere larga vida útil y resiliencia ambiental.
+El Concox LG300 es un rastreador de activos resistente, diseñado para el seguimiento industrial persistente de vehículos, contenedores y cargas de alto valor. Pensado para despliegues con largas esperas en standby, el equipo combina posicionamiento multi-constelación con una batería de alta capacidad y una carcasa IP66 para ofrecer localizaciones fiables y telemetría de manipulación en condiciones exigentes. Diseñado para registrar eventos de movimiento y capturar audio contextual cuando sea necesario, el LG300 está orientado a un seguimiento duradero y de bajo mantenimiento para activos móviles o remotos.
 
-Diseñado para integrarse con Plaspy para la gestión de flotas y el seguimiento en tiempo real, el LG300 envía datos de ubicación y eventos a la nube o por SMS, habilitando el monitoreo anti-robo, captura de audio de incidentes de forma remota y reportes configurables para equilibrar el detalle de telemetría y la duración de la batería. Cuando se empareja con Plaspy, este dispositivo compatible con Plaspy pasa a formar parte de una solución de seguimiento escalable que complementa otra telemetría de la flota, como el monitoreo de combustible o controles de inmovilizador gestionados por la plataforma.
+Como dispositivo compatible con Plaspy, el LG300 se integra con la plataforma para ofrecer gestión consolidada de flotas y seguimiento en tiempo real. Las actualizaciones de ubicación y la telemetría de eventos del LG300 se muestran en los paneles, alertas e informes de Plaspy, de modo que los equipos puedan supervisar el estado de los activos, responder a posibles robos o incidentes y ajustar la frecuencia de reporte para optimizar la vida útil de la batería. Esta compatibilidad convierte al LG300 en una opción práctica para organizaciones que buscan hardware robusto vinculado a una plataforma de seguimiento escalable.
 
-## Puntos clave
+## Aspectos destacados
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real e integración con la gestión de flotas.
-- Posicionamiento multi-constelación \(GPS + BDS + LBS\) con precisión reportada inferior a 2,5 m CEP.
-- Operación de espera prolongada alimentada por una batería Li‑Polímero recargable de 10,000 mAh para despliegues extendidos.
-- Carcasa robusta con clasificación IP66 y rango operativo para soportar condiciones de campo y entornos adversos.
-- Detección de manipulación mediante sensor de luz y acelerómetro de 3 ejes para alertas antirobo y supervisión de movimientos.
-- Alertas activadas por sonido y grabación de audio automática/remota para capturar el contexto del incidente.
-- Monitoreo remoto vía SMS o plataforma en la nube y modos de seguimiento configurables para optimizar la vida de la batería frente a la frecuencia de informes.
+- Rastreador de activos compatible con Plaspy, diseñado para seguimiento persistente y de larga espera.
+- Posicionamiento multi-constelación para mayor resiliencia de la localización en campo.
+- Batería de alta capacidad pensada para despliegues prolongados y ciclos de redeploy.
+- Carcasa con clasificación IP66 que protege contra polvo y chorros intensos en entornos duros.
+- Detección de manipulación y alertas por movimiento para soportar monitoreo antirrobo y notificaciones de eventos.
+- Alertas activadas por sonido y captura remota de audio para aportar contexto en incidentes cuando se requiera.
+- Reporte remoto vía nube o SMS y modos de rastreo configurables para optimizar la autonomía.
 
 ## Cómo funciona con Plaspy
 
-El LG300 transmite fijaciones de posición GNSS y telemetría de eventos a través de GSM a los puntos de ingesta de Plaspy, o puede consultarse/mandarse por SMS cuando la conectividad de red lo requiera. Plaspy ingiere la secuencia de ubicación del LG300, eventos de movimiento y manipulación, estado de la batería y alertas disparadas por audio para proporcionar paneles de control consolidados, alertas e informes históricos para equipos de gestión de flotas. Los modos de informe configurables permiten intercambiar la frecuencia de informes por la duración de la batería; Plaspy utiliza la cadencia de informes del dispositivo para generar un seguimiento en tiempo real preciso y reproducción histórica.
+Al integrarse con Plaspy, el LG300 suministra datos continuos de ubicación y eventos que la plataforma procesa y presenta mediante sus herramientas de monitoreo y reporte. Plaspy utiliza el flujo del dispositivo para generar vistas de posición en tiempo real, flujos de alertas y reproducciones históricas, a la vez que permite configurar el comportamiento de los reportes para extender la vida de la batería en despliegues prolongados.
 
-- Actualizaciones en tiempo real de ubicación y telemetría entregadas a Plaspy a través de GSM, la nube o SMS.
-- Detección de manipulación y movimiento \(sensor de luz + acelerómetro de 3 ejes\) para alertas anti‑robo.
-- Alertas de batería baja \(umbral configurable por el usuario; el dispositivo emite alertas a &lt;20% por defecto\) reportadas a Plaspy.
-- Alertas disparadas por sonido con grabación de audio automática y a demanda para capturar el contexto del incidente.
-- Modos de funcionamiento configurables \(modo GPS regular y modo de seguimiento dedicado\) para equilibrar la frecuencia de informes y la autonomía de la batería.
+- Ubicación y telemetría en tiempo real entregadas a Plaspy para vistas en mapa y monitoreo operativo.
+- Eventos de manipulación y movimiento enviados como alertas para respaldar flujos de trabajo antirrobo e investigaciones inmediatas.
+- Eventos activados por audio y fragmentos grabados asociados a incidentes para informes contextualizados en Plaspy.
+- Notificaciones de batería baja y estado dirigidas a Plaspy para que los operadores planifiquen mantenimiento o redistribución.
+- Modos de reporte configurables que permiten equilibrar la frecuencia de actualizaciones de posición con la duración de la batería.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | LG300 |
-| --- | --- |
-| Conectividad | 2G GSM \(comunicación GSM\) |
-| Bandas | B2 / B3 / B5 / B8 |
-| SIM | Ranura Nano‑SIM |
-| GNSS | GPS + BDS + LBS \(multi‑constelación\) |
-| Posicionamiento | Precisión reportada &lt; 2,5 m CEP |
-| Sensibilidad GNSS | Sensibilidad de GNSS: -165 dBm |
-| Tiempo para la Primera Fijación \(TTFF\) | Promedio de arranque en caliente ≤ 1 s; Promedio de arranque en frío ≤ 32 s \(cielo despejado\) |
-| Alimentación y Batería | 10,000 mAh / 3.7 V batería recargable Li‑Polímero \(diseñada para larga espera; recargable para nuevo despliegue\) |
-| Alertas y Sensores | Acelerómetro de 3 ejes, sensor de luz \(detección de manipulación\), alerta activada por sonido, alerta de batería baja \(\<20% notificación\), indicadores LED \(GNSS: Azul; Celular: Verde; Alimentación: Blanco\) |
-| Comunicación / Monitorización | Monitoreo remoto vía SMS o plataforma en la nube; modos de informes configurables |
-| Actualizaciones de Firmware | Actualizaciones OTA \(delta\) de firmware |
-| Carcasa y Medio Ambiente | Clasificación IP66; temperatura de operación -20°C a +70°C; humedad 5–95% sin condensación |
-| Dimensiones y peso | 86,0 × 63,0 × 31,5 mm; aprox. 245 g |
-| Formato / Uso | Carcasa robusta y compacta para vehículos, remolques, contenedores y activos portátiles |
-
-## Casos de uso
-
-- Gestión de flotas y alquiler de vehículos: visibilidad persistente de activos y alertas de manipulación durante largos periodos de inactividad.
-- Seguimiento logístico y de carga: monitoreo de contenedores y remolques donde se requiere protección IP66 robusta y standby extendido.
-- Protección de cargas de alto valor: monitoreo anti‑robo con detección de movimiento/manipulación y captura de audio para respaldar investigaciones de incidentes.
-- Ciclo de vida de activos en alquiler: batería redeployable y reporte de estado remoto simplifican la rotación de activos y la reconciliación de inventario.
-- Gestión general de activos: monitorización remota de activos fuera de red que requieren fijaciones de posición confiables y telemetría de eventos.
+- Gestión de flotas y alquiler de vehículos donde largos periodos de inactividad requieren visibilidad persistente y alertas por manipulación.
+- Logística y transporte de carga en contenedores y remolques que necesitan protección robusta y operación en standby prolongado.
+- Protección de carga de alto valor mediante detección de movimiento y captura de audio para apoyar investigaciones.
+- Ciclos de vida y redistribución de activos de alquiler donde la batería recargable de larga duración facilita los cambios de turno.
+- Activos remotos o fuera de la red que exigen fix de posición fiable y telemetría de eventos en intervalos extendidos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El LG300 es un rastreador GPS centrado y compatible con Plaspy para organizaciones que necesitan telemetría robusta y probada en el campo sin mantenimiento frecuente. Su rendimiento GNSS de múltiples constelaciones, su seguimiento de alta sensibilidad y su batería de larga duración de 10,000 mAh lo hacen especialmente adecuado para despliegues de espera prolongada, comunes en la gestión de flotas y la logística. La detección de manipulación integrada, los eventos activated por sonido y la grabación de audio remota añaden capacidades prácticas de anti‑robo y captura de incidentes que alimentan directamente los flujos de alertas e informes de Plaspy.
+El LG300 es apropiado para organizaciones que requieren un rastreador robusto y de larga autonomía que pueda integrarse en una plataforma empresarial de seguimiento. Su combinación de carcasa resistente, rendimiento extendido de batería y funciones de captura de eventos lo convierte en una opción práctica para propietarios de activos que necesitan visibilidad confiable sin servicios frecuentes. Al combinarse con Plaspy, la telemetría del LG300 pasa a formar parte de las operaciones de flota más amplias, permitiendo monitoreo, alertas e informes junto con otros datos vehiculares o de activos gestionados en la plataforma.
 
-Al integrar el LG300 en su entorno de Plaspy, obtiene seguimiento y telemetría en tiempo real fiables, al tiempo que conserva la vida de la batería mediante modos de informe configurables. Plaspy puede consolidar los datos del LG300 junto con otra telemetría —por ejemplo, monitoreo de combustible o controles de inmovilizador/encendido gestionados por la plataforma— para proporcionar una visión operativa completa. La combinación de hardware robusto, gestión de firmware OTA y reporte preparado para la nube convierte al LG300 en un activo fiable para programas exigentes de seguimiento de flotas y activos.
-
+Si desea saber más sobre cómo Plaspy puede trabajar con el Concox LG300 y otros dispositivos compatibles, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique la información técnica vigente en el sitio del fabricante https://www.iconcox.com/.

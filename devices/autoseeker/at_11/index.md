@@ -2,59 +2,62 @@
 slug: /autoseeker/at_11
 id: at_11
 sidebar_label: AT-11
+title: Autoseeker - AT-11
 sidebar_class_name: menu_item_tracker
+description: Compact plug and play Autoseeker AT-11 4G car charger GPS tracker compatible with Plaspy for real time fleet tracking alerts and history playback
+keywords:
+  - Autoseeker AT-11
+  - AT-11 GPS tracker
+  - AT-11 tracker
+  - Autoseeker tracker
+  - AT-11 car charger tracker
+  - Plaspy compatible
+  - Plaspy GPS tracker
+  - fleet tracking AT-11
+  - vehicle tracking AT-11
+  - AT-11 alerts
 ---
+
 # Autoseeker - AT-11
 
 ![AT-11](./tracker.jpeg)
 
-The AT-11 4G Car Charger GPS Tracker from a trusted OEM is a compact, plug-and-play vehicle tracking terminal that is Plaspy compatible and built for real-time tracking and fleet management. Designed to insert into a vehicle cigarette lighter socket, the AT-11 combines global 4G connectivity with GPS + Beidou positioning and an integrated mobile phone charging function, delivering continuous location updates, alarms and history playback without hardwiring.
+The Autoseeker AT-11 is a compact plug and play 4G car charger GPS tracker designed for quick deployment in vehicles. Intended to be used in a cigarette lighter socket, the device combines GNSS positioning with cellular connectivity and an integrated mobile phone charging function to provide continuous location updates, alarm reporting and history playback without hardwiring. Its form factor and lightweight enclosure make it practical for fleets, rental vehicles and private cars where simple installation and immediate tracking are priorities.
 
-As a Plaspy compatible GPS tracker, the AT-11 brings telemetry, anti-theft alerts and practical convenience together: fleet operators, insurance telematics providers, dealerships and private vehicle owners gain reliable location data, overspeed and geo-fence alarms, and power-failure/unplug notifications while also using the unit as a convenient charger. Lightweight and low-power, it minimizes installation time and integrates easily with Plaspy dashboards and compatible tracking servers for immediate operational benefit.
+As a Plaspy compatible device, the AT-11 feeds location and event data into Plaspy enabled tracking servers so fleet managers and operators can use Plaspy dashboards for live maps, alerts and reporting. The combination of real time tracking, geo fence and overspeed notifications, and power loss or unplug alerts makes the AT-11 a relevant option for organizations and individuals who want rapid deployment of tracking services through Plaspy without complex installation work.
 
 ## Key Highlights
 
-- Plug-and-play cigarette-lighter installation — no hardwiring required for fast deployment across fleets and rental vehicles.
-- Dual-function design: high-precision GPS tracker paired with an integrated mobile phone charger for driver convenience.
-- Global 4G LTE-FDD/TDD connectivity with GSM/GPRS/EDGE 2G fallback and Nano SIM support for broad network coverage.
-- Beidou + GPS positioning with \<10 m accuracy \(1σ\) and fast hot-start performance for dependable real-time tracking.
-- Comprehensive security alarms: geo-fence, overspeed, movement/towing, vibration, illegal ignition detection and power-failure/unplug alerts.
-- Internal 50 mAh backup battery and smart power-saving modes ensure safe shutdown and short-term operation after power loss.
-- Industrial-grade internal antennas and a compact ABS enclosure for durable, low-profile vehicle installation.
+- Plug and play cigarette lighter installation for fast deployment across fleets and rental vehicles.
+- Dual function design combining GNSS tracking with an integrated mobile phone charging port for driver convenience.
+- Global 4G connectivity with 2G fallback for broad network reach and continuous reporting.
+- GPS plus Beidou positioning with positioning accuracy reported under 10 m for dependable location updates.
+- Comprehensive security alarms including geo fence, overspeed, movement or towing, vibration and unplug or power failure alerts.
+- Built in backup battery and low power consumption to preserve short term operation and safe shutdown after power loss.
+- Compact, durable ABS enclosure and internal antennas for a low profile vehicle installation.
 
 ## How It Works with Plaspy
 
-The AT-11 sends GNSS positions and event telemetry to Plaspy-compatible servers in real time. When paired with Plaspy, the tracker’s location, speed, status and alarm events appear on live maps, generate configurable alerts, and feed historical playback and reports. Administrators use Plaspy to set geo-fences, speed thresholds and alarm triggers, and receive immediate notifications when the AT-11 reports an event.
+When connected to a compatible network, the AT-11 transmits GNSS positions and event telemetry to Plaspy capable tracking servers in real time. Plaspy presents that data on live maps, routes and timelines, and uses configurable rules to generate notifications and reports that support operational oversight.
 
-- Real-time location and telemetry updates \(GPS+Beidou coordinates, timestamp, speed, heading\).
-- Geo-fence and overspeed alerts delivered to Plaspy for instant notifications and audit trails.
-- Movement/towing, vibration and unauthorized ignition \(illegal start\) alarms routed to Plaspy for anti-theft response.
-- Power-failure / unplug alerts and internal battery status visible in Plaspy, enabling remote monitoring of device health.
-- Optional one-way call functionality and event logs accessible through Plaspy-compatible tracking servers and the vendor web platform.
+- Real time location and telemetry updates visible on Plaspy live maps for dispatch and monitoring.
+- Geo fence and overspeed alerts delivered to Plaspy for instant notifications and audit trails.
+- Movement, towing, vibration and unauthorized ignition alerts routed into Plaspy for anti theft and incident response.
+- Power failure and unplug notifications plus backup battery status shown in Plaspy to track device health.
+- Event history and playback available in Plaspy for trips, incidents and compliance reporting.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE-FDD / LTE-TDD \(wide band support\) with GSM/GPRS/EDGE 2G fallback; Nano SIM; SIMCOM 7670G cellular chipset |
-| --- | --- |
-| Bands | Wideband 4G support \(LTE-FDD & LTE-TDD\); 2G fallback \(GSM/GPRS/EDGE\) — global network compatibility via wide 4G support |
-| Power & Battery | Power input DC 9V–32V; Average working current 65 mA \(12V\); Sleep current &lt;10 mA \(12V\); Built-in 50 mAh \(3.7V polymer\) backup battery for short-term operation and safe shutdown |
-| Interfaces | Plug-in cigarette-lighter terminal \(no hardwiring\); unplug/power-failure alarm; illegal ignition detection via internal sensors; optional one-way call supported |
-| GNSS | GPS + Beidou positioning \(ZKW AT6558R chipset\); Positioning accuracy &lt;10 m \(1σ\); Cold start ≈32 s; Hot start ≈1 s; Tracking sensitivity -162 dBm |
-| Bluetooth | Not reported / N/A |
-| Remote Management | Configurable remotely via vendor web platform and compatible tracking servers \(Plaspy support\); FOTA not specified |
-| Form Factor | Compact ABS enclosure, 85 × 49.2 × 26 mm; Weight 41 g; Internal positioning and cellular antennas \(25 × 25 × 4 mm\) |
-
-## Use Cases
-
-- Fleet management: continuous GPS tracking, overspeed and geo-fence alerts for dispatch optimization and driver compliance.
-- Insurance telematics: mileage and behavior monitoring with event history and tamper/power-failure alerts for policy programs.
-- Anti-theft and vehicle security: immediate unplug, movement/towing and illegal ignition alarms routed to Plaspy for rapid response.
-- Dealerships and rental/taxi operations: easy swap-in installation for short-term tracking of inventory or rental fleets.
-- Individual drivers and passenger cars: discreet tracking plus a convenient in-car charger for everyday use.
+- Fleet management for continuous tracking, route oversight and driver behavior alerts.
+- Insurance telematics programs for mileage and event history with tamper and power loss indicators.
+- Anti theft and vehicle security monitoring using unplug and movement alarms routed to an operations center.
+- Dealerships and rental or taxi operations needing quick swap in tracking for inventory and short term assignments.
+- Individual vehicle owners who want discreet tracking combined with a convenient in car charger.
 
 ## Why Choose This Tracker with Plaspy
 
-The AT-11 makes Plaspy-compatible tracking practical and cost-effective. Its plug-and-play charger form factor eliminates installation delays, while global 4G coverage with 2G fallback ensures broad network availability for real-time tracking and telemetry. Security-focused alarms — including geo-fence, overspeed, vibration, illegal ignition detection and power-failure alerts — provide crucial anti-theft protection and operational visibility. Lightweight and low-power, the AT-11 reduces maintenance overhead and integrates easily into Plaspy workflows for alerting, history playback and reporting.
+The AT-11 is well suited to environments where speed of deployment and practical convenience matter. Its plug in charger form factor reduces installation time and makes it easy to move between vehicles, while the combination of GNSS positioning and cellular connectivity enables continuous reporting into Plaspy for live oversight. Security focused alarms and short term backup power add useful layers of protection and operational visibility without requiring a permanent install.
 
-For organizations that need scalable fleet management or individuals requiring reliable anti-theft monitoring, the AT-11 delivers dependable GNSS positioning, continuous data streaming and quick deployment. When combined with Plaspy’s dashboard and notification tools, it provides actionable location intelligence that supports safer fleets, improved utilization and faster incident response. The device also complements broader telemetry solutions—such as immobilizer systems or external Bluetooth sensors—through Plaspy’s integration capabilities, enabling a fuller vehicle management picture without changing the unit’s simple plug-in setup.
+For teams using Plaspy, the AT-11 provides an approachable option to add location intelligence across mixed fleets or short term vehicle programs. Its design balances everyday convenience with the core tracking and alerting features that feed Plaspy workflows for notifications, history playback and reporting.
 
+Learn more about Plaspy and how compatible devices like the AT-11 can be used with the platform at https://www.plaspy.com. Product specifications and availability can change over time; verify current technical details and the latest documentation on the manufacturer website https://autoseekergps.com/.

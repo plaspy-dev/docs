@@ -2,59 +2,63 @@
 slug: /gosafe/gtu60
 id: gtu60
 sidebar_label: GTU60
+title: Gosafe - GTU60
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS económico y completo para vehículos con GNSS y conectividad celular multibanda, compatible con Plaspy para seguimiento de flotas
+keywords:
+  - gosafe gtu60
+  - Gosafe GTU60
+  - rastreador GTU60
+  - GTU60 compatible con Plaspy
+  - rastreador GPS GTU60
+  - dispositivo de rastreo vehicular
+  - seguimiento de flotas
+  - recuperación de vehículos robados
+  - monitoreo de flotas de alquiler
+  - seguimiento para vehículos comerciales ligeros
 ---
+
 # Gosafe - GTU60
 
 ![GTU60](./tracker.webp)
 
-El GTU60, de un OEM probado, es un rastreador GPS económico y completo, diseñado para una instalación rápida y una integración fiable con Plaspy. Orientado al seguimiento de flotas comerciales ligeras, alquiler y operaciones BHPH, así como a la recuperación de vehículos robados, el GTU60 combina conectividad LTE CAT1 y 2G con un receptor GNSS de alta sensibilidad de 32 canales GPS/GLONASS/BeiDou y AGPS para ofrecer seguimiento y telemetría en tiempo real consistentes en la plataforma de Plaspy.
+El GTU60 es un rastreador GPS económico y con todas las funciones básicas, diseñado por un fabricante OEM consolidado para instalaciones rápidas y funcionamiento confiable en flotas de vehículos. Combina conectividad celular multibanda con un receptor GNSS de 32 canales y alta sensibilidad más AGPS para ofrecer posiciones y telemetría en tiempo real de forma consistente. La unidad es compacta y resistente a manipulaciones, con antenas internas y una carcasa con protección IP65 para instalaciones discretas en vehículos comerciales ligeros y flotas de alquiler.
 
-Compacto y a prueba de manipulaciones, el GTU60 cuenta con una carcasa IP65 resistente al agua, antenas internas y un amplio rango de tensión de entrada para sistemas de 12 V y 24 V. Su diseño de bajo consumo, el acelerómetro a bordo capaz de registrar impactos y sus entradas/salidas simples lo convierten en una opción práctica para la gestión de flotas, flujos de anti-robo y el control remoto del inmovilizador cuando se integra a través de Plaspy.
+Como dispositivo compatible con Plaspy, el GTU60 transmite posición, eventos de movimiento y estado de E/S (I/O) a Plaspy para monitoreo en vivo y generación de informes históricos. Su conjunto de funciones se alinea con los flujos de trabajo comunes de flotas y antirobo que Plaspy soporta, incluidos reportes de encendido, detección de choques y control remoto de inmovilización cuando se usa con accesorios de relé. Esto hace del GTU60 una opción práctica para operadores que necesitan datos de rastreo confiables integrados en Plaspy para supervisión operativa.
 
-## Puntos clave
+## Aspectos destacados
 
-- Seguimiento en tiempo real compatible con Plaspy: datos LTE/GPRS y reportes TCP/SMS para actualizaciones continuas de ubicación y telemetría.
-- GNSS de alta sensibilidad: receptor de 32 canales GPS/GLONASS/BeiDou con precisión SBAS \(~10 m CEP\) y sensibilidad de seguimiento de hasta −162 dBm.
-- Alimentación y respaldo de grado vehicular: entrada DC de 9–90 V, adecuada para sistemas de 12 V y 24 V, además de una batería de respaldo Li‑ion recargable de 220 mAh.
-- Bajo consumo de energía: corriente en reposo ≈4 mA a 12 V y ~29 mA durante el seguimiento activo para prolongar la disponibilidad del vehículo y reducir el consumo parasitario.
-- Soporte anti-robo e inmovilizador: detección de encendido 1-wire y una salida digital de drenaje abierto \(open-drain\) para corte de arranque o flujos de inmovilización controlados por relé.
-- Telemetría de choques y movimiento: acelerómetro 3D registra eventos de choque a 50 Hz para el registro de accidentes y alertas automáticas a través de Plaspy.
-- Formato compacto y a prueba de manipulaciones: SIM y antenas internos, diseño IP65 resistente al agua y opciones de montaje flexibles para instalaciones discretas.
+- Rastreador económico y con funciones completas, diseñado para aplicaciones de flotas, alquileres y recuperación de vehículos robados.
+- Conectividad celular multibanda con mecanismos de respaldo para entrega consistente de datos a Plaspy.
+- Receptor GNSS de 32 canales de alta sensibilidad con AGPS para mejorar la adquisición de posición y mantener un rastreo estable.
+- Carcasa compacta, resistente a manipulaciones y con certificación IP65, con SIM y antenas internas para montajes discretos.
+- Diseñado para rangos de alimentación vehicular con amplio margen de voltaje de entrada y una pequeña batería de respaldo recargable integrada.
+- Acelerómetro 3D integrado con capacidad de detección de choques y detección de encendido para eventos y reportes de tiempo de uso.
+- Diseño de bajo consumo para reducir la descarga parasitaria y prolongar el tiempo operativo del vehículo entre mantenimientos.
 
 ## Cómo funciona con Plaspy
 
-Al instalarse en un vehículo, el GTU60 transmite su ubicación y telemetría a Plaspy utilizando la conexión LTE \(CAT1\) o 2G mediante TCP o SMS. Plaspy ingiere la posición GNSS del dispositivo, los eventos del acelerómetro y el estado de las E/S para ofrecer seguimiento en tiempo real, enrutamiento de alarmas y reportes históricos. La integración utiliza flujos telemáticos estándar, de modo que los gestores de flotas pueden habilitar mapas en tiempo real, alertas de geocerca, informes de viajes y respuestas automáticas ante anti-robo sin necesidad de configuraciones complejas.
+Al integrarse con Plaspy, el GTU60 envía ubicación, eventos de movimiento y estados de E/S a la plataforma para que los administradores de flota puedan supervisar vehículos en tiempo real, enrutar alertas y generar informes históricos. Plaspy ingiere la telemetría del dispositivo y la expone en mapas, notificaciones y herramientas de reporte que apoyan la toma de decisiones operativas y la prevención de pérdidas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas por LTE/GPRS \(TCP\) o SMS para redundancia.
-- Detección de encendido \(1-wire\) reportada a Plaspy para tiempo de funcionamiento, puntuación del conductor y alertas de arranque no autorizado.
-- Detección de choques e registro de impactos mediante el acelerómetro 3D, habilitando notificaciones automáticas de incidentes.
-- Capacidad de inmovilización remota mediante la salida digital de drenaje abierto con módulos de relé \(la integración para corte de arranque es compatible a través de accesorios\).
-- Monitoreo de combustible y datos de sensores de temperatura disponibles a través de sensores de posventa compatibles e integraciones serial/1-wire; Plaspy puede mapear estas entradas en paneles de monitoreo de combustible y telemetría.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para mapas en vivo y paneles de estado.
+- Detección de encendido reportada a Plaspy para soportar seguimiento de tiempo de uso, alertas por arranque no autorizado e informes de consumo.
+- Detección de choques y registro de impactos enviados a Plaspy para notificaciones rápidas de incidentes y análisis posterior al evento.
+- Flujos de trabajo de inmovilización remota posibles mediante la salida digital del dispositivo y accesorios de relé, controlables desde la configuración de Plaspy.
+- Alertas de geocercas, reportes de viajes y rastreo histórico disponibles en Plaspy utilizando la transmisión de posición del dispositivo.
+- Entradas de sensores e integraciones seriales o 1-wire pueden mapearse en Plaspy para telemetría extendida como combustible o temperatura cuando son compatibles.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | LTE CAT1 y GPRS \(2G\); comunicación TCP y SMS |
-| --- | --- |
-| Bandas | LTE: B1/B2/B3/B4/B5/B7/B8/B20/B28/B66; 2G GSM: 850/900/1800/1900 MHz |
-| Alimentación y batería | Entrada 9–90 V DC \(compatible 12 V y 24 V\); batería de respaldo Li‑ion recargable integrada de 220 mAh; sueño de bajo consumo ≈4 mA @12 V, activo ≈29 mA |
-| Interfaces | Detección de encendido 1-wire; una salida digital de drenaje abierto \(máx. 300 mA\); conector Molex de 10 pines; LEDs de estado para GPS/celular; SIM y antenas internos |
-| GNSS | Receptor de 32 canales GPS/GLONASS/BeiDou con AGPS; precisión SBAS ≈10 m CEP; sensibilidad de seguimiento hasta −162 dBm |
-| Bluetooth | N/A \(no reporta Bluetooth a bordo\) |
-| Gestión remota | El dispositivo almacena ~3000 registros en una memoria flash de 4 Mbit; gestión FOTA/web no especificada |
-| Formato | Compacto: 78 × 33 × 15 mm; ~35 g \(con batería\); IP65 a prueba de agua \(se indica IPX5\); montaje mediante bridas, Velcro o adhesivo |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, historial de viajes, informes basados en el encendido y telemetría de comportamiento del conductor para vehículos comerciales ligeros.
-- Anti-robo y recuperación de vehículos: instalación encubierta con antenas internas y SIM interna, además de inmovilización remota mediante control de relé.
-- Monitoreo de alquiler y BHPH: aplicar geocercas, monitorizar pagos y detectar uso no autorizado mediante detección de encendido y telemetría GPS reportadas a Plaspy.
-- Monitoreo de combustible e integraciones de sensores: integre sensores de combustible, sondas de temperatura o kits de identificación de conductor iButton para ampliar los paneles de Plaspy con telemetría por vehículo.
-- Informe de accidentes e incidentes: el acelerómetro a bordo captura eventos de choque a 50 Hz para alertas rápidas y análisis postincidente en Plaspy.
+- Rastreo de flotas comerciales ligeras para entregas, vehículos de servicio y trabajo que requieren ubicación confiable e informes de tiempo de uso.
+- Operaciones de alquiler y buy here pay here que necesitan cumplimiento de geocercas, monitoreo de uso y alertas por uso no autorizado.
+- Recuperación de vehículos robados y despliegues antirobo mediante instalación discreta, antenas internas y opciones de inmovilización remota.
+- Reporte de accidentes e incidentes donde los eventos de choque detectados por el acelerómetro disparan alertas y registros en Plaspy.
+- Expansión de telemetría con sensores de posventa para capturar combustible, temperatura o identificación de conductor y mostrar esos datos en los paneles de Plaspy.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el GTU60 para una implementación compatible con Plaspy ofrece a los propietarios de flotas un rastreador GPS rentable y de bajo consumo, con una diversidad celular probada y un rendimiento fiable de GNSS. Su amplio soporte de bandas LTE y 2G garantiza conectividad en áreas con cobertura mixta, mientras que su diseño compacto IP65 y las antenas/SIM internas permiten instalaciones discretas para aplicaciones de anti-robo y alquiler. Con detección de encendido, una salida digital capaz de accionar un relé para inmovilización, acelerometría capaz de registrar impactos y expansión serial/1-wire para sensores de combustible o temperatura, el GTU60 cubre las necesidades clave de gestión de flotas, telemetría y flujos de anti-robo.
+El GTU60 es una opción práctica para organizaciones que necesitan un rastreador enfocado en vehículos y con buena relación costo-beneficio que alimente datos a Plaspy. Su combinación de recepción GNSS fiable, conectividad celular multibanda, detección de encendido y acelerometría con capacidad de choque cubre los requisitos centrales para monitoreo de flotas, flujos antirobo y supervisión de alquileres. La forma compacta y resistente a manipulaciones con SIM y antenas internas facilita una instalación discreta que favorece los casos de uso de recuperación y seguridad.
 
-Integrado con Plaspy, el GTU60 pasa a formar parte de un ecosistema telemático escalable: permite seguimiento en tiempo real, alertas automatizadas, opciones de inmovilización remota y reportes a nivel de flota, todo ello manteniendo una instalación simple y un bajo costo total de propiedad. Para operadores que buscan un rastreador GPS económico que soporte funciones esenciales de flota y anti-robo, el GTU60 es una opción práctica compatible con Plaspy.
+Cuando se integra en Plaspy, el GTU60 respalda las capacidades de la plataforma en las que confían los operadores de flota: visibilidad en vivo, alertas automáticas, reportes de viajes y tiempos de uso, y opciones de inmovilización remota mediante relés accesorios. Para flotas y operadores de alquiler que buscan un rastreador económico que cubra las necesidades esenciales de rastreo y antirobo y que entregue datos a Plaspy, el GTU60 es una opción sólida y práctica.
 
+Learn more about how Plaspy can use compatible trackers like the GTU60 on the Plaspy website https://www.plaspy.com. Product specifications and manufacturer details can change over time, so please verify current technical specifications and availability on the Gosafe official website https://gosafesystem.com/.

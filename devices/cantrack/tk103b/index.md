@@ -2,60 +2,61 @@
 slug: /cantrack/tk103b
 id: tk103b
 sidebar_label: TK103B
+title: CanTrack - TK103B
 sidebar_class_name: menu_item_tracker
+description: Compact CanTrack TK103B vehicle tracker compatible with Plaspy for reliable real time fleet tracking, alerts, SD logging and remote immobilization
+keywords:
+  - CanTrack TK103B
+  - TK103B tracker
+  - CanTrack GPS
+  - vehicle tracker
+  - fleet tracking
+  - Plaspy compatible
+  - real time tracking
+  - anti theft tracker
+  - GPRS tracking
+  - SD card logging
 ---
+
 # CanTrack - TK103B
 
 ![TK103B](./tracker.jpg)
 
-The TK103B is a compact, hard‑wired vehicle GPS tracker engineered for reliable Plaspy compatible deployment in fleet management, anti‑theft and real‑time tracking scenarios. Designed to report location, alarms and basic telemetry over GSM/GPRS and GPS satellite positioning, the TK103B integrates with web and mobile platforms for live monitoring, history playback and incident alerts — making it a practical choice for rental, taxi and commercial vehicle fleets using Plaspy.
+The TK103B is a compact, hard wired vehicle GPS tracker designed for reliable deployment in fleet management, anti theft and real time tracking scenarios. It reports location, alarms and basic telemetry using GSM GPRS together with GPS satellite positioning, and integrates with web and mobile platforms for live monitoring, history playback and incident alerts. Its form factor and feature set make it a practical choice for rental cars, taxis and commercial vehicle fleets.
 
-With native support for SMS commands, TCP/IP reporting and SD card logging, the TK103B ensures continuous data flow to Plaspy even when mobile data coverage fluctuates. Its built‑in backup battery, ignition and door detection inputs, overspeed and geo‑fence alarms, and remote engine/power disable capability provide the core functions fleet operators expect for security, driver oversight and rapid incident response.
+As a Plaspy compatible device, the TK103B can feed live positions and event notifications into Plaspy dashboards and notification workflows. Native support for SMS commands, TCP IP reporting and SD card logging helps maintain continuous data flow to Plaspy even when mobile data coverage fluctuates, while inputs for ignition and door detection plus overspeed and geo fence alarms support common fleet security and operational needs.
 
 ## Key Highlights
 
-- Plaspy compatible real‑time tracking: reports GPS position via GPRS/TCP‑IP to integrate seamlessly with Plaspy dashboards and mobile apps.
-- Vehicle anti‑theft and immobilizer readiness: remote engine/power disable \(petrol/power cut‑off\) supports rapid immobilization from Plaspy.
-- Comprehensive alarm set: overspeed, ignition‑on, cut‑off, SOS, vibration and door‑open detection for timely alerts.
-- Reliable offline logging: SD card support for local data storage and history trace when GPRS is unavailable.
-- Backup power and discreet installation: rechargeable 3.7 V Li‑ion backup ensures limited operation after power loss; compact form factor for hidden mounting.
-- Fleet management focused: TCP/IP reporting, history replay and multiple alarm push methods improve dispatch and incident workflows.
-- Simple remote control and configuration: SMS and platform commands enable quick setup and on‑the‑fly adjustments.
+- Plaspy compatible real time tracking with GPS position reporting over GPRS for live maps and history replay.
+- Vehicle anti theft capability including remote engine or power disable for rapid immobilization workflows.
+- Multiple alarm types supported such as overspeed, SOS, vibration and door open to trigger timely alerts.
+- Local SD card logging provides continuity and post incident history when live data is interrupted.
+- Built in backup power and compact hard wired design permit discreet installation and limited operation after power loss.
+- Simple remote control options via SMS and platform commands for on the fly adjustments.
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, the TK103B streams GPS positions and event data to your central server using GPRS/TCP‑IP. Plaspy ingests the device’s location, status and alarm messages to provide live maps, geofencing alerts, route history and notification workflows. Operators receive timely push alerts and can trigger immobilization or query device state directly from the Plaspy interface.
+When connected to Plaspy, the TK103B transmits location and event data to your central account so dispatchers and managers can monitor vehicles, receive alerts and review historical traces. Plaspy ingests the tracker’s status messages and alarm signals to present them on maps, in reports and as part of automated notification rules.
 
-- Real‑time location and telemetry updates transmitted via GPRS/TCP‑IP and optionally via SMS for critical commands.
-- Ignition, door and alarm status reporting for driver behavior and security monitoring.
-- Geo‑fence alerts and overspeed warnings to enforce route compliance and safe driving policies.
-- Remote immobilizer support \(engine/power disable\) for anti‑theft response and vehicle recovery management.
-- Local SD card logging and history playback for audit trails and post‑incident analysis when live data is interrupted.
+- Real time location and telemetry displayed on Plaspy live maps and fed into fleet dashboards.
+- Alarm and input reporting such as ignition, door and SOS routed into Plaspy alerting and escalation flows.
+- Geo fence and overspeed events trigger notifications and support route compliance monitoring.
+- Remote immobilizer commands and device queries facilitated from the Plaspy interface for security response.
+- SD card based history playback available in Plaspy for audits and post incident analysis when live reporting is interrupted.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | TK103B \(also referenced TK103A/TK103B\) |
-| --- | --- |
-| Connectivity | GSM / GPRS / GPS; TCP/IP reporting over GPRS; SMS command support |
-| Frequency Bands | Quad‑band GSM: 850 / 900 / 1800 / 1900 MHz |
-| GNSS | GPS satellite positioning; sensitivity −159 dBm; accuracy ~5 meters; Cold/Warm/Hot start ~45 s / 35 s / 1 s |
-| Power & Battery | Working voltage 12–24 V DC \(vehicle hard‑wired\); removable/rechargeable 3.7 V Li‑ion backup battery |
-| Interfaces & I/O | Ignition detection, door‑open detection, SOS input, alarms \(overspeed, vibration\), remote engine/power disable capability, SD card slot for local logging |
-| Environmental | Operating: −20 °C to +65 °C; Storage: −40 °C to +85 °C; Humidity 5%–95% non‑condensing |
-| Dimensions & Form Factor | 81.8 mm × 35.7 mm × 60.3 mm; compact hard‑wired vehicle tracker |
-| Reporting & Integration | GPRS/TCP‑IP reporting to tracking servers; SMS remote control; compatible with web platforms and mobile apps for live tracking and history playback |
-
-## Use Cases
-
-- Fleet anti‑theft and immobilization — remotely disable engines and receive instant cut‑off and SOS alerts through Plaspy.
-- Fleet management and route compliance — live GPS tracking, geo‑fencing and history replay to monitor routes and driver behavior.
-- Taxi and rental monitoring — ignition and door events, overspeed alerts and discreet installation for passenger safety and loss prevention.
-- Driver behavior and safety programs — overspeed and vibration detection help identify risky driving and potential collisions.
-- Offline logging and post‑incident analysis — SD card history trace provides continuity when cellular data is lost.
+- Rental and taxi fleets that need discreet vehicle monitoring, passenger safety alerts and loss prevention.
+- Commercial fleet operations requiring live tracking, route replay and incident notification for dispatch teams.
+- Vehicle anti theft programs leveraging remote immobilization and SOS alarm workflows.
+- Driver behavior and safety initiatives using overspeed and vibration alerts to identify risky events.
+- Situations where intermittent connectivity is expected and local logging preserves the activity record.
 
 ## Why Choose This Tracker with Plaspy
 
-The TK103B offers a proven, no‑frills platform for organizations seeking Plaspy compatible GPS tracking with the core features required for vehicle security and fleet operations. Its combination of real‑time tracking, ignition and door status, remote immobilizer capability, and local logging delivers dependable telemetry for day‑to‑day fleet management and incident response. Paired with Plaspy, the device feeds live location, alarm and historical data into a single pane of glass so dispatchers and managers can act quickly.
+The TK103B provides a focused set of vehicle tracking and security functions that align with common fleet management requirements. Its combination of live reporting, alarm inputs, remote immobilizer capability and local logging gives operators the core tools they need to maintain visibility and respond to incidents through Plaspy.
 
-Plaspy also supports extended telemetry needs — such as fuel monitoring integrations or Bluetooth sensors — allowing operators to combine TK103B position and alarm feeds with additional data sources for richer analytics. For fleets prioritizing reliable anti‑theft controls, straightforward integration, and consistent real‑time tracking, the TK103B is a practical, Plaspy compatible option that focuses on security, uptime and ease of integration.
+Paired with Plaspy, the TK103B becomes part of a single operational view where location, alerts and history converge for dispatchers and managers. Plaspy also supports integrations and extended telemetry needs so operators can combine TK103B position and alarm feeds with additional data sources for richer analysis when required.
 
+To learn more about how Plaspy can work with CanTrack devices such as the TK103B visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical information on the official CanTrack site https://www.cantrackgps.com/.

@@ -2,63 +2,63 @@
 slug: /concox/jm_vg02u
 id: jm_vg02u
 sidebar_label: JM-VG02U
+title: Concox - JM-VG02U
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBDII GNSS compacto Concox JM-VG02U con INS para instalación plug and play y compatibilidad con Plaspy
+keywords:
+  - Concox JM-VG02U
+  - JM-VG02U
+  - rastreador Concox
+  - rastreador GPS OBDII
+  - rastreador con INS
+  - rastreador vehicular
+  - seguimiento de flotas
+  - telemetría
+  - seguro por uso
+  - compatible con Plaspy
 ---
+
 # Concox - JM-VG02U
 
 ![JM-VG02U](./tracker.png)
 
-# JM-VG02U
+El JM-VG02U es un rastreador vehicular GNSS con asistencia INS en formato OBDII diseñado para una instalación rápida plug and play mediante el puerto OBD II del vehículo. Combina la recepción multi-constelación GNSS con sensores de navegación inercial para ofrecer posicionamiento continuo y datos de movimiento para la gestión de flotas y monitoreo vehicular sin cableado complicado.
 
-El JM-VG02U es un rastreador GNSS para vehículos con INS integrado y soporte OBDII, diseñado para una instalación plug‑and‑play rápida a través del puerto OBD II del vehículo. Diseñado para la gestión de flotas y el monitoreo de vehículos, el JM-VG02U ofrece posicionamiento continuo y fiable al fusionar GNSS de múltiples constelaciones \(GPS/GLONASS/BDS\) con un sistema de navegación inercial \(acelerómetro de 3 ejes + giroscopio de 3 ejes\). Como rastreador compatible con Plaspy, se integra de forma fluida en el entorno de seguimiento en tiempo real y telemetría de Plaspy para proporcionar ubicación precisa, análisis de conducción y alertas instantáneas sin cableado complejo.
+Como dispositivo compatible con Plaspy, el JM-VG02U puede suministrar ubicación en tiempo real, análisis de conducción y alertas de evento a la plataforma de Plaspy. Su diseño plug and play y la fusión de sensores lo convierten en una opción práctica para organizaciones que requieren despliegues rápidos, seguimiento fiable en entornos de cobertura mixta y datos de comportamiento vehicular integrados en Plaspy para monitoreo e informes.
 
-Compacto y tolerante a un amplio rango de voltaje de entrada \(9–36 VDC\), el JM-VG02U es ideal para flotas corporativas de vehículos, seguros basados en uso \(UBI\), programas de conducción ecológica y monitoreo general de vehículos donde el despliegue rápido y datos fiables son esenciales. Los usuarios de Plaspy pueden aprovechar la alta precisión de posicionamiento del dispositivo, la continuidad del INS en entornos con cobertura GPS deficiente y la detección avanzada de comportamientos para mejorar la seguridad, reducir riesgos y optimizar las operaciones.
+## Características principales
 
-## Aspectos clave
-
-- Instalación OBDII plug‑and‑play para un despliegue rápido en flotas de vehículos — no se requiere cableado.
-- GNSS de múltiples constelaciones con apoyo INS \(GPS/GLONASS/BDS\) y fusión de sensores para un seguimiento continuo de la posición incluso en entornos desafiantes.
-- Alto rendimiento de posicionamiento: sensibilidad de seguimiento −165 dBm y alta precisión \(\<2.5 m CEP\) con arranque en caliente rápido \(≤1 s\).
-- Detección integral del comportamiento de conducción — detecta ocho comportamientos inapropiados \(aceleración/brusco frenado, giro brusco, cambio de carril repentino, colisión, patinamiento, volcadura, balanceo y cabeceo\).
-- Alertas instantáneas por exceso de velocidad, movimiento del vehículo, batería baja, desconexión de la fuente de alimentación y violaciones de geocerca para respaldar flujos de trabajo de anti‑robo y seguridad.
-- Cálculo de kilometraje preciso \(≥98% de precisión\) y detección de la ignición mediante voltaje de alimentación externo para un registro preciso del odómetro y de los viajes.
-- Formato compacto y robusto con almacenamiento a bordo y una pequeña batería de respaldo Li‑Polímero para operaciones offline breves y persistencia de datos.
+- Factor de forma OBDII plug and play para despliegue rápido en flotas sin necesidad de cableado fijo
+- Posicionamiento GNSS multi-constelación asistido por INS, combinando GPS, GLONASS y BDS con fusión de sensores para seguimiento continuo
+- Alto rendimiento de posicionamiento y arranque rápido para reportes de ubicación precisos en condiciones normales
+- Detección integral de comportamientos de conducción que cubre múltiples tipos de eventos inseguros para apoyar programas de seguridad
+- Alertas instantáneas por exceso de velocidad, detección de movimiento, desconexión de alimentación y violaciones de geocerca para respuesta operativa
+- Informe preciso de kilometraje y detección de ignición para respaldar registro de viajes, planificación de mantenimiento y casos de uso de seguro por uso
+- Diseño compacto y robusto con almacenamiento a bordo y una pequeña batería de respaldo para persistencia corta de datos
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el JM-VG02U proporciona fijaciones de posición GNSS/INS continuas, telemetría de movimiento e actitud, y alertas basadas en eventos hacia la nube de Plaspy. Plaspy procesa estos flujos de datos en tiempo real para visualización, geocercas, informes y flujos de trabajo automatizados. La conexión OBDII del rastreador simplifica el acceso a la alimentación e estado de ignición del vehículo, y sus sensores a bordo permiten un análisis de comportamiento de conducción y alertas de seguridad a nivel de plataforma.
+Cuando lo conecta, el JM-VG02U transmite fijaciones de posición fusionadas GNSS e inerciales junto con telemetría de movimiento y eventos hacia Plaspy. Plaspy ingiere estas señales para visualización, notificaciones e informes, de modo que los gestores y operadores de flota puedan supervisar la ubicación y el comportamiento del vehículo en tiempo real y mediante análisis históricos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \( fijas GNSS + INS fusionadas \) para un seguimiento fiable.
-- Posicionamiento con apoyo INS y asistencia LBS para mantener el seguimiento donde GPS está degradado o no disponible.
-- Estado de ignición detectado vía voltaje de alimentación externo para una segmentación precisa de viajes.
-- Eventos de comportamiento de conducción y alertas de seguridad \(aceleración/braking bruscos, colisiones, eventos de balanceo\) alimentados a las analíticas de Plaspy.
-- Informe de kilometraje y odómetro \(≥98% de precisión\) para seguros basados en telemática, programación de mantenimiento y optimización de la flota.
-- Notificaciones instantáneas por exceso de velocidad, violaciones de geocerca, desconexión de energía y batería baja para detección de robo y alertas operativas.
-- Registro a bordo \(32+32 Mb\) para almacenar datos durante pérdidas temporales de conectividad, sincronizándose con Plaspy cuando el servicio se restablece.
+- Actualizaciones en tiempo real de ubicación y telemetría usando fijaciones fusionadas GNSS e INS para un seguimiento fiable
+- Posicionamiento asistido por INS y por red para ayudar a mantener la continuidad cuando las señales satelitales se degradan
+- Segmentación de ignición y viajes inferida a partir del estado de alimentación del vehículo para registros precisos de viajes y kilometraje
+- Eventos de comportamiento de conducción y alertas de seguridad integrados en los análisis de Plaspy para coaching y revisión de incidentes
+- Informes de kilometraje y odómetro para apoyar seguro por uso, planificación de mantenimiento y métricas operativas
+- Registro en memoria a bordo para preservar eventos durante pérdidas temporales de conectividad y sincronizarlos cuando se restablece la conexión
 
-## Resumen técnico
+## Casos de uso habituales
 
-| Conectividad | Nano‑SIM GSM comunicaciones \(GSM de doble banda\) |
-| --- | --- |
-| Bandas | GSM de doble banda: 900/1800 & 850/1900 MHz |
-| Alimentación y batería | Tensión de operación 9–36 VDC; batería de respaldo Li‑Polímero integrada de 50 mAh, 3.7 V |
-| Interfaces | Formato enchufable OBD II; detección de ignición vía voltaje de alimentación externo |
-| GNSS | Multi‑constelación GPS / GLONASS / BDS; sensibilidad de seguimiento −165 dBm; precisión de posicionamiento \<2.5 m CEP; arranque en caliente ≤1 s |
-| Sensores inerciales | Acelerómetro de 3 ejes y giroscopio de 3 ejes con algoritmo de fusión INS |
-| Almacenamiento a bordo | Almacenamiento interno de 32 + 32 Mb para registro de eventos y buffering de corto plazo |
-| Ambiente | Temperatura de operación −20°C a +70°C; humedad 5%–95% sin condensación |
-| Formato | Módulo OBDII compacto, 48.6 × 49.0 × 24.0 mm; peso 37 g |
-| Otros | Detección avanzada del comportamiento de conducción \(8 tipos de eventos\); asistencia basada en LBS |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, informes de kilometraje y análisis del comportamiento de conducción para reducir costos de combustible y mejorar la seguridad del conductor.
-- Seguro basado en el uso \(UBI\): segmentación precisa de viajes y precisión de kilometraje ≥98% respaldan primas telemáticas y puntuación de riesgo.
-- Programas de conducción ecológica y seguridad: monitorear eventos bruscos, orientar a los conductores y medir el impacto del programa con las analíticas de Plaspy.
-- Flujos de trabajo de anti‑robo y recuperación: alertas instantáneas de movimiento, desconexión de la energía y violaciones de geocerca para activar respuestas rápidas y procesos de recuperación.
-- Flotas de vehículos corporativos y monitoreo de activos: despliegue rápido de OBDII para vehículos temporales o de sustitución y telemetría centralizada vía Plaspy.
+- Gestión de flotas para seguimiento en tiempo real, monitoreo de rutas e informes basados en kilometraje
+- Despliegues de seguro por uso que requieren segmentación precisa de viajes y conciliación de kilometraje
+- Programas de conducción eficiente y seguridad del conductor que dependen de detección de eventos y análisis post‑viaje
+- Flujos de trabajo anti‑robo y recuperación usando detección de movimiento, alertas por desconexión de alimentación y disparadores de geocerca
+- Vehículos de uso compartido corporativo y asignaciones temporales donde se prefiere una instalación rápida plug and play
 
 ## Por qué elegir este rastreador con Plaspy
 
-El JM-VG02U combina la conveniencia de un conector OBDII enchufable con un posicionamiento GNSS avanzado con INS para ofrecer seguimiento en tiempo real fiable y telemetría rica dentro de Plaspy. Su diseño compacto y su amplio rango de voltaje lo hacen apto para diversas flotas de vehículos, mientras que los sensores a bordo y el cálculo preciso del kilometraje permiten obtener información accionable para gestores de flotas, aseguradoras y equipos de seguridad. Como rastreador GPS compatible con Plaspy, se convierte en una fuente de datos central que Plaspy puede combinar con funciones de la plataforma, como monitoreo de combustible, paneles de telemetría, flujos de trabajo de inmovilizador e integraciones de sensores Bluetooth \(donde la plataforma o el vehículo lo admitan\) para crear una solución completa de monitoreo de flotas o vehículos. Elija el JM-VG02U para un despliegue rápido, un posicionamiento fiable en entornos difíciles y datos claros y accionables que escalen con su implementación de Plaspy.
+El JM-VG02U combina una implementación conveniente vía OBDII con posicionamiento GNSS asistido por INS para proporcionar datos consistentes de ubicación y comportamiento, adecuados para flotas y tareas de monitoreo vehicular. Su capacidad de mantener continuidad posicional cuando la cobertura satelital es limitada, junto con la detección de eventos y el reporte de kilometraje, lo convierte en una fuente de datos valiosa para equipos que usan Plaspy para supervisar operaciones y programas de seguridad.
 
+Al ser compatible con Plaspy, las organizaciones pueden integrar los datos del JM-VG02U en cuadros de mando, alertas e informes existentes sin cambios de hardware complejos. Esa combinación de despliegue rápido y telemetría rica facilita escalar los esfuerzos de monitoreo vehicular manteniendo la implementación sencilla.
+
+Learn more about how Plaspy can use device data for tracking and fleet oversight at https://www.plaspy.com. Product specifications and manufacturer details can change over time, so please verify current specifications and availability on the official Concox site at https://www.iconcox.com/.

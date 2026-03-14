@@ -2,60 +2,61 @@
 slug: /concox/pg201
 id: pg201
 sidebar_label: PG201
+title: Concox - PG201
 sidebar_class_name: menu_item_tracker
+description: Concox PG201 personal GPS tracker compatibility, SOS features and Plaspy integration for workforce safety and location monitoring
+keywords:
+  - Concox PG201
+  - PG201 tracker
+  - Concox tracker
+  - personal GPS tracker
+  - workforce safety
+  - Plaspy compatible
+  - fleet tracking
+  - SOS panic button
+  - real time tracking
+  - portable GPS device
 ---
+
 # Concox - PG201
 
 ![PG201](./tracker.png)
 
-The PG201 is a compact, intelligent personal GPS tracker designed for on-site personnel management and personal safety. Plaspy compatible out of the box, the PG201 delivers accurate position fixes \(GPS + BDS + LBS\), two-way communication and a dedicated SOS panic button so organizations can monitor field staff, sanitation teams and other vulnerable workers with confidence. Lightweight and water-resistant, it is a practical GPS tracker for real-world operational use.
+The PG201 is a compact, intelligent personal GPS tracker designed for on-site personnel management and personal safety. It combines multi-system positioning, two-way communication and a dedicated SOS panic button in a lightweight, water-resistant form factor to help organizations monitor field staff, sanitation teams and other vulnerable workers during daily operations.
 
-Built for reliable real-time tracking and fast emergency response, the PG201 balances tracking granularity and battery life through scheduled, period-based and instant reporting modes. Integrating with Plaspy, the device streams location, motion and alert telemetry to the cloud platform so managers receive timely notifications, maps and status updates for workforce safety and basic fleet management visibility.
+Because the PG201 is Plaspy compatible out of the box, it can stream location, motion and alert telemetry directly to the Plaspy cloud platform. That compatibility makes the device a practical choice when teams need centralized visibility, timely notifications and simple status reporting for workforce safety and basic tracking workflows.
 
 ## Key Highlights
 
-- Plaspy compatible: seamless cloud reporting of location and alerts for immediate situational awareness and centralized management.
-- Multi-system positioning \(GPS + BDS + LBS\) with claimed accuracy under 2.5 m CEP for precise personnel location.
-- Dedicated SOS panic button and two-way communication to accelerate emergency response and direct contact with personnel.
-- Lightweight, compact design \(102.5 × 62.0 × 9.0 mm, ~70 g\) with IPX5 water resistance for outdoor and semi-exposed environments.
-- Long battery standby from a 1,200 mAh Li‑Polymer cell \(up to 8 days typical\) using intelligent reporting modes to extend operational time.
-- Motion detection via built-in accelerometer enables activity monitoring and movement-based alerts for telemetry-driven workflows.
-- Configurable alerts including SOS, geo-fence entry/exit and low-battery notifications to keep supervisors informed.
+- Plaspy compatible for seamless cloud reporting of location and alerts to a centralized management console
+- Multi-system positioning (GPS + BDS + LBS) with a claimed position accuracy under 2.5 m CEP for precise personnel location
+- Dedicated SOS panic button and two-way communication to accelerate emergency response and direct contact with personnel
+- Lightweight, compact design (102.5 × 62.0 × 9.0 mm, approx. 70 g) with IPX5 water resistance for outdoor and semi-exposed environments
+- Long battery standby from a 1,200 mAh Li‑Polymer cell with intelligent reporting modes to extend operational time
+- Motion detection via a built-in accelerometer for activity monitoring and movement-based alerts
+- Configurable alerts including SOS, geo-fence entry and exit, and low-battery notifications for proactive supervision
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, the PG201 sends GNSS and LBS-derived location data and status messages over GSM to the cloud. Plaspy displays device position on live maps, triggers notifications for SOS and geo-fence events, and records telemetry for reporting. Administrators can configure reporting intervals and alert rules in Plaspy to balance real-time tracking needs and battery life.
+When integrated with Plaspy the PG201 sends GNSS and LBS-derived location data and status messages over the cellular network to the cloud. Plaspy displays device position on live maps, triggers notifications for SOS and geo-fence events, and records telemetry for reporting. Administrators can adjust reporting intervals and alert rules in Plaspy to balance tracking detail with battery life.
 
-- Real-time location and telemetry updates \(GPS + BDS + LBS\) shown on Plaspy maps.
-- SOS/panic alerts: immediate notifications and location details for rapid incident response.
-- Motion detection \(accelerometer\): movement events, inactivity alerts and basic telemetry reporting.
-- Geo-fence notifications and scheduled or period-based reporting to manage workforce coverage and safety.
-- Two-way communication and speed-dial records: contact and coordinate with personnel after alerts are received via Plaspy.
-- Low-battery and status LEDs \(GNSS/GSM/power\) relayed as device status for proactive maintenance.
+- Real-time location and telemetry updates shown on Plaspy maps for live situational awareness
+- SOS and panic alerts with location details to support rapid incident response and escalation
+- Motion detection events and inactivity alerts to help identify unusual behavior or stops
+- Geo-fence notifications and scheduled or period-based reporting for coverage and attendance checks
+- Two-way communication and contact coordination for direct outreach after alerts
+- Low-battery and device status reporting so managers can plan maintenance and replacements
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM cellular \(nano‑SIM\) |
-| --- | --- |
-| Bands | 850 / 900 / 1800 / 1900 MHz \(GSM\) |
-| Power & Battery | 1,200 mAh / 3.7 V Li‑Polymer battery; extended standby up to 8 days \(typical\) |
-| Interfaces | Dedicated SOS panic button, two-way communication, speed-dial \(up to 3 contacts\), accelerometer, GNSS/GSM/power LEDs, nano-SIM slot |
-| GNSS | GPS + BDS + LBS; claimed position accuracy &lt; 2.5 m CEP; tracking sensitivity -162 dBm; acquisition sensitivity -148 dBm; TTFF average hot start ≤ 1 s, average cold start ≤ 32 s \(open sky\) |
-| Bluetooth | Not specified / No Bluetooth sensors mentioned |
-| Remote Management | Cloud reporting compatible with Plaspy \(location, alerts, telemetry\). FOTA or dedicated remote update tools not specified. |
-| Form Factor | Portable terminal: 102.5 × 62.0 × 9.0 mm; approx. 70 g; operating range -20 °C to +60 °C; IPX5 water resistance |
-
-## Use Cases
-
-- Sanitation and street maintenance crews — monitor routes, confirm attendance, and receive SOS alerts for worker safety.
-- Field staff and inspection teams — real-time tracking for dispatch, location verification and check-in workflows using scheduled reporting.
-- Lone worker protection — panic button, two-way communication and geo-fence monitoring for rapid incident response.
-- Construction and site contractors — lightweight personal tracking and movement telemetry to manage site access and personnel safety.
-- Patrol and security personnel — configurable timing and instant location modes to balance battery life with tracking needs.
+- Sanitation and street maintenance crews for route monitoring, attendance confirmation and SOS alerts
+- Field staff and inspection teams for dispatch, location verification and scheduled check-ins
+- Lone worker protection where panic button and two-way communication speed emergency response
+- Construction site personnel monitoring to manage access and improve on-site safety
+- Patrol and security teams needing configurable timing and instant location modes for coverage
 
 ## Why Choose This Tracker with Plaspy
 
-The PG201 is a purpose-built GPS tracker for organizations that need reliable personnel tracking, emergency response and simple telemetry without the complexity of vehicle-specific hardware. Its multi-constellation positioning and claimed sub‑2.5 m accuracy provide dependable location data for Plaspy’s mapping and alerting tools. Long battery life, compact form factor and IPX5 resistance make it practical for day-to-day field operations.
+The PG201 is purpose built for organizations that prioritize personnel safety, simple telemetry and fast emergency response rather than vehicle telematics. Its multi-constellation positioning and focused feature set deliver dependable location data and alerting that integrate cleanly into Plaspy’s maps, notifications and reporting tools. The compact form factor, water resistance and extended standby profile make it well suited for day-to-day field use.
 
-While the PG201 is optimized for workforce safety and on-person monitoring, it is not a vehicle telematics unit — features like ignition sensing, immobilizer control or fuel monitoring are not part of this device’s specification. Instead, the PG201 complements Plaspy deployments where real-time tracking, SOS alerts, motion telemetry and configurable geofencing are the priority for protecting personnel and improving operational oversight.
-
+To learn more about how the PG201 works with Plaspy visit https://www.plaspy.com for platform details and deployment guidance. Product specifications, availability and manufacturer information can change over time, so please verify the latest device details on the manufacturer website https://www.iconcox.com/.

@@ -2,68 +2,60 @@
 slug: /dct/solar_asset_tracker
 id: solar_asset_tracker
 sidebar_label: Solar Asset Tracker
+title: DCT - Solar Asset Tracker
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS solar resistente para activos y flotas en exteriores compatible con Plaspy para ubicaciones en tiempo real y alertas
+keywords:
+  - Rastreador Solar DCT
+  - Rastreador Solar para Activos
+  - SPA4G-1204-16
+  - rastreador DCT
+  - rastreador GPS solar
+  - seguimiento de activos
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - rastreador antirrobo
+  - rastreador IP67 para activos
 ---
+
 # DCT - Solar Asset Tracker
 
 ![Solar Asset Tracker](./tracker.png)
 
-# Solar Asset Tracker \(ITEM # SPA4G-1204-16\)
+El DCT Solar Asset Tracker (SPA4G-1204-16) es un rastreador GPS robusto y autosuficiente diseñado para despliegues prolongados en exteriores. Con un panel solar integrado y una batería recargable de 10 Ah, el equipo está pensado para mantenerse operativo en activos remotos sin conexión a la red eléctrica. Combina posicionamiento GNSS con respaldo por Wi‑Fi y LBS, y utiliza conectividad 4G global para entregar actualizaciones continuas de ubicación, estado del dispositivo y alertas de eventos útiles para la supervisión de flotas y escenarios antirrobo.
 
-The Solar Asset Tracker \(SPA4G-1204-16\) is a rugged, self-powered GPS tracker designed for long-term outdoor deployments and built to be Plaspy compatible. Its integrated solar panel and 10Ah rechargeable battery deliver extended autonomy for remote assets, while GNSS positioning, Wi‑Fi and LBS fallback, plus global 4G connectivity enable reliable real-time tracking and telemetry for fleet management and anti-theft applications.
+Este rastreador figura como compatible con Plaspy y puede enviar su telemetría a la plataforma Plaspy para su monitoreo y gestión centralizados. Esa compatibilidad convierte al Solar Asset Tracker en una opción práctica para organizaciones que desean incorporar activos fuera de la red y de larga duración en los flujos de trabajo de Plaspy para seguimiento en vivo, notificaciones y reportes históricos junto con otros dispositivos de la flota.
 
-Engineered for harsh environments, the IP67 polycarbonate enclosure and multiple mounting options make this GPS tracker ideal for trailers, containers, heavy equipment, maritime assets, and field-deployed installations. Configurable alerts for tamper \(vibration\), movement, geofence breaches and low battery ensure you get actionable notifications through Plaspy or other fleet platforms.
+## Aspectos destacados
 
-## Key Highlights
+- Panel solar integrado con batería recargable de 10 Ah para operación prolongada fuera de la red
+- Diseñado para compatibilidad con Plaspy y transmitir ubicación y telemetría en tiempo real a su plataforma de flotas
+- Varios métodos de posicionamiento: GNSS con respaldo por Wi‑Fi y LBS para mejorar fijaciones en zonas difíciles
+- Conectividad 4G global para telemetría continua, entrega de eventos y gestión remota en la nube
+- Carcasa robusta de policarbonato IP67 apta para entornos exteriores, marinos e industriales
+- Alertas por eventos como detección de manipulación o vibración, geocercas configurables, movimiento y batería baja
+- Opciones de montaje flexibles, como imán o anclaje con pernos, para despliegues rápidos en remolques, contenedores y equipos
 
-- Autónomo, con panel solar integrado y batería recargable de 10Ah — hasta tres semanas de funcionamiento sin luz solar directa tras una carga completa.
-- Compatible con Plaspy para un seguimiento en tiempo real y gestión de la flota utilizando tus flujos de trabajo existentes en Plaspy.
-- Múltiples métodos de posicionamiento: GPS y BDS, con respaldo de Wi‑Fi y LBS para mejorar las tasas de fijación en ubicaciones desafiantes.
-- Conectividad 4G global para telemetría continua, alertas y actualizaciones OTA a través de la gestión en la nube.
-- Carcasa de policarbonato resistente con grado IP67 para protección contra polvo y agua en entornos de construcción, marítimos, agricultura y silvicultura.
-- Alertas basadas en eventos: detección de manipulación y vibración, geocercas configurables, notificaciones de movimiento y batería baja adaptadas para monitoreo antirrobo.
-- Opciones de montaje simples \(con imán o perno\) diseñadas para una instalación rápida en remolques, contenedores y equipos.
+## Cómo funciona con Plaspy
 
-## How It Works with Plaspy
+Cuando usted lo configura para Plaspy, el Solar Asset Tracker envía datos de ubicación, estado y eventos a la plataforma Plaspy, donde se integran en paneles de control, notificaciones y reportes. Plaspy puede mostrar posiciones en vivo en mapas, activar alertas y conservar datos históricos para auditoría y análisis.
 
-The Solar Asset Tracker is designed to feed location and telemetry into Plaspy for real-time tracking, alerting, and historical reporting. Once deployed, the unit acquires position using GPS/BDS and supplements location with Wi‑Fi and LBS when GNSS coverage is limited. Location fixes, device health, and event flags are transmitted over global 4G to the cloud. When configured as Plaspy compatible, the tracker forwards its telemetry to Plaspy so you can manage assets alongside other fleet data.
+- Actualizaciones de ubicación en tiempo real mediante 4G global para seguimiento en vivo en los mapas de Plaspy
+- Alertas inmediatas por manipulación y vibración dirigidas a las notificaciones de Plaspy para una respuesta rápida
+- Informes de estado del dispositivo y batería baja para planificar mantenimiento y minimizar tiempos de inactividad
+- Geocercas y alertas de movimiento configurables para detectar intrusiones en perímetros y desplazamientos no autorizados
+- Datos disponibles para reproducción histórica de rutas, paneles de flota y reportes exportables en Plaspy
 
-- Real-time location and telemetry updates sent over global 4G for live map tracking in Plaspy.
-- Tamper and vibration alerts delivered as immediate notifications for anti-theft response.
-- Low battery and device health reporting to keep field assets monitored for maintenance cycles.
-- Configurable geofence and movement alerts for perimeter and unauthorized-movement detection.
-- Data suitable for fleet management dashboards, historic route playback, and exportable reports in Plaspy.
+## Casos de uso típicos
 
-## Technical Overview
-
-| Número de artículo | SPA4G-1204-16 |
-| --- | --- |
-| Conectividad | Global 4G celular; posicionamiento GPS y BDS; Wi‑Fi y LBS como respaldo |
-| Bandas | No especificado en la documentación proporcionada \(consulte la hoja de datos del fabricante\) |
-| Alimentación y batería | Panel solar integrado con batería recargable de 10Ah |
-| Autonomía | Hasta tres semanas de operación activa sin luz solar tras una carga completa |
-| GNSS | Posicionamiento GPS y BDS \(la precisión no especificada\) |
-| Wi‑Fi / LBS | Soportado para mejorar la adquisición de ubicación en áreas con GNSS limitado |
-| Alertas y Eventos | Detección de manipulación/vibración, batería baja, alertas configurables de geocerca y movimiento |
-| Carcasa | Carcasa sellada de policarbonato con IP67 \(a prueba de agua y polvo\) |
-| Montaje | Opciones de montaje magnético o con perno, típicas para el despliegue de activos |
-| Bluetooth | No especificado / no indicado en la descripción del producto |
-| Gestión remota | Gestionable vía Pegasus IoT Cloud; compatible para integración con Plaspy para telemetría a escala de flota |
-| Formato | Rastreador compacto y robusto para exteriores, diseñado para despliegues de larga duración sin suministro de energía eléctrica |
-
-## Casos de uso
-
-- Seguimiento de remolques y contenedores — alertas persistentes de ubicación y movimiento para la seguridad de la carga y la visibilidad logística.
-- Monitoreo de equipos pesados en sitios de construcción y minería — rastrea la ubicación de los activos, detecta movimientos no autorizados y programa el mantenimiento.
-- Protección antirrobo para activos remotos — alertas de manipulación y vibración combinadas con reglas de geocerca en Plaspy que activan flujos de respuesta rápida.
-- Gestión remota de flotas para agricultura y silvicultura — la autonomía de la batería y la recarga solar mantienen la telemetría en ubicaciones fuera de la red.
-- Equipos comerciales marítimos y de campo — resistencia a la intemperie IP67 y respaldo GNSS/Wi‑Fi que mantienen la trazabilidad fiable cerca de la costa o en el sitio.
+- Seguimiento de remolques y contenedores para seguridad de carga y visibilidad logística
+- Monitoreo de equipos pesados en obras y minas para detectar movimientos no autorizados
+- Protección antirrobo de activos remotos mediante alertas de manipulación y geocercas
+- Monitoreo de flotas fuera de la red en agricultura y silvicultura, donde la autonomía solar reduce el mantenimiento
+- Rastreo de equipos marítimos comerciales y de campo donde la resistencia a la intemperie y las opciones de posicionamiento de respaldo aumentan la fiabilidad
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el Solar Asset Tracker \(SPA4G-1204-16\) para un despliegue compatible con Plaspy le ofrece una solución diseñada específicamente para el seguimiento de activos fuera de la red durante largos periodos. La combinación de energía solar, una batería de 10Ah y una carcasa IP67 proporciona un dispositivo de bajo mantenimiento que permanece en línea donde no hay suministro eléctrico. Con telemetría 4G global y múltiples tecnologías de posicionamiento, obtendrá un seguimiento en tiempo real fiable, telemetría y alertas de antirrobo que se integran en Plaspy para la gestión centralizada de la flota.
+El Solar Asset Tracker es una opción sólida para organizaciones que necesitan un dispositivo resistente y de bajo mantenimiento para supervisar activos remotos dentro de Plaspy. Su capacidad de recarga solar y la amplia autonomía de la batería reducen la necesidad de servicios frecuentes, mientras que la carcasa IP67 y las múltiples opciones de posicionamiento ayudan a mantener la visibilidad en entornos exigentes.
 
-Este rastreador se centra en entregar datos de ubicación robustos, estado del dispositivo y notificaciones de eventos. Aunque no especifica monitoreo de combustible integrado, detección de encendido o una interfaz de inmovilizador en la documentación proporcionada, Plaspy puede combinar la telemetría de este dispositivo con otros sensores de vehículo o dispositivos gateway para construir una solución completa que incluya monitoreo de combustible y flujos de trabajo basados en el encendido. Para despliegues que requieran sensores BLE o control directo del inmovilizador, consulte la hoja de datos del fabricante o considere emparejar el Solar Asset Tracker con dispositivos complementarios gestionados en Plaspy.
-
-En resumen, SPA4G-1204-16 es un rastreador GPS confiable para la gestión de flotas, protección antirrobo y monitorización al aire libre a largo plazo. Su diseño robusto, autonomía solar y compatibilidad con Plaspy lo convierten en una opción práctica para las organizaciones que requieren telemetría continua y accionable de activos remotos sin mantenimiento frecuente.
-
+Al integrar este rastreador con Plaspy, los equipos obtienen supervisión centralizada de despliegues de larga duración junto con otros activos de la flota, lo que permite alertas coherentes, reportes y flujos operativos unificados. Para despliegues que requieran tipos adicionales de telemetría o sensores periféricos, Plaspy puede combinar los datos del rastreador con otros dispositivos para crear una solución más completa. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo; verifique las especificaciones actuales con la documentación del fabricante en https://www.digitalcomtech.com/

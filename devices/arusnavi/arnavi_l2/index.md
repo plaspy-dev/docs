@@ -2,60 +2,61 @@
 slug: /arusnavi/arnavi_l2
 id: arnavi_l2
 sidebar_label: Arnavi L2
+title: Arusnavi - Arnavi L2
 sidebar_class_name: menu_item_tracker
+description: Compact hermetically sealed GPS tracker compatible with Plaspy for reliable real time fleet and asset tracking in wet or high humidity environments
+keywords:
+  - Arusnavi Arnavi L2
+  - Arnavi L2
+  - Arusnavi tracker
+  - Arnavi tracker
+  - Plaspy compatible
+  - GPS tracker
+  - fleet tracking
+  - asset tracking
+  - BLE sensor tracking
+  - hermetic GPS tracker
 ---
+
 # Arusnavi - Arnavi L2
 
 ![Arnavi L2](./tracker.png)
 
-The Arnavi L2 is a compact, hermetically sealed GPS tracker designed for reliable Plaspy compatible real-time tracking and telemetry in wet or high-humidity environments. Built for mobile assets and fleet management, the L2 combines multi-constellation GNSS positioning, a low-power 2G cellular modem, and Bluetooth Low Energy to deliver accurate location, driving behavior data, and sensor telemetry with minimal installation effort.
+The Arnavi L2 is a compact, hermetically sealed GPS tracker designed for reliable real time tracking and telemetry in wet or high humidity environments. It is built for mobile assets and fleet management and combines multi constellation GNSS positioning with a low power cellular modem and Bluetooth Low Energy to deliver location, driving behavior data and sensor telemetry in a small, protected enclosure.
 
-The sealed enclosure, internal antennas for cellular, navigation and Bluetooth signals, and a 60 cm wiring harness make the Arnavi L2 an ideal choice where space and environmental protection matter. With built-in accelerometer-based eco-driving functions, on-board black box logging and remote configuration tools, the L2 integrates easily with Plaspy for anti-theft monitoring, fuel monitoring via Bluetooth sensors, ignition detection and fleet oversight.
+As a Plaspy compatible device, the Arnavi L2 can feed location, event and sensor data into Plaspy for live monitoring, alerts and historical analysis. Its sealed design, internal antennas and on board logging make it a practical option for fleets and assets that require continuous visibility in challenging conditions while minimizing installation complexity.
 
 ## Key Highlights
 
-- Plaspy compatible device with configurable server reporting and support for common telemetry protocols \(INTERNAL, EXTERNAL, USER\_AG, EGTS\).
-- Robust multi-constellation GNSS \(GPS, GLONASS, Galileo, BeiDou, QZSS\) for dependable location fixes in challenging environments.
-- Hermetic enclosure and internal antennas simplify installation and protect electronics from moisture and high-humidity conditions.
-- Bluetooth 4.0 LE supports up to five BLE sensors for fuel monitoring, temperature telemetry, and BLE-tag security modes.
-- Low power consumption \(≈2 mA sleep, ≈40 mA active\) and wide supply range \(8–40 V\) with input protection up to 60 V for versatile vehicle and asset installations.
-- Small form factor \(61 × 42 × 13 mm, ~35 g\) with internal data logger \(~8 MB / ~12,000 records\) for offline black box recording.
-- Onboard accelerometer and ignition input enable eco-driving analysis, motion detection and event-based reporting for fleet management.
+- Hermetically sealed enclosure and internal antennas reduce exposure to moisture and simplify mounting in wet or high humidity environments.
+- Multi constellation GNSS support for dependable location fixes across varied operating conditions.
+- Bluetooth Low Energy support for pairing external sensors such as fuel level and temperature monitors.
+- Onboard accelerometer and event reporting enable eco driving insight and motion based alerts for fleet oversight.
+- Internal data logger for black box recording and fallback data storage when connectivity is interrupted.
+- Compact form factor and low power profile suited to small vehicles and space constrained asset installations.
 
 ## How It Works with Plaspy
 
-The Arnavi L2 can be configured to report directly to Plaspy’s monitoring servers using its supported communication protocols and dual-server reporting capability. Once connected, Plaspy receives location updates, telemetry and sensor events in near real-time for display, alerting and historical analysis. Remote configuration and firmware updates can be managed centrally to keep devices aligned with fleet policies.
+Once configured to report to Plaspy, the Arnavi L2 provides continuous location updates and telemetry that Plaspy uses for live tracking, alerting and reporting. Plaspy can aggregate device events, sensor readings and historical tracks from L2 units to support operational workflows and fleet performance analysis.
 
-- Real-time location and telemetry updates delivered to Plaspy for live tracking and route playback.
-- Ignition and event reporting via the positive discrete input for trip start/stop, driver identification triggers and mileage logging.
-- Fuel monitoring and temperature telemetry via compatible Bluetooth sensors \(BLE\) paired to the L2.
-- Remote control of external actuators \(universal I/O output that can switch up to 500 mA\) to support immobilizer-style relay control or auxiliary device switching.
-- Black box data upload and fallback reporting: stored records are available for Plaspy to retrieve following signal restoration.
+- Real time location and route playback in Plaspy for live operational visibility.
+- Event based reporting such as ignition changes and motion detection for trip segmentation and alerts.
+- Sensor telemetry from paired BLE devices delivered to Plaspy for fuel monitoring and temperature oversight.
+- Black box data upload and fallback reporting so stored records can be retrieved when connectivity is restored.
+- Remote configuration and device management to align reporting behavior and thresholds with fleet policies.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G GSM/GPRS modem with internal GSM antenna; single nano-SIM or embedded SIM slot |
-| --- | --- |
-| Bands | 2G GSM/GPRS \(specific supported bands not listed here — consult Arnavi datasheet for regional band support\) |
-| Power & Consumption | Operating voltage 8–40 V; input protection up to 60 V; current consumption ≈2 mA \(sleep\) to ≈40 mA \(active\) |
-| Interfaces | 1 positive discrete input \(ignition/sensor\); 1 universal input/output protected against inductive surges \(output up to 500 mA\); USB for configuration |
-| GNSS | Supports GPS, GLONASS, Galileo, BeiDou, QZSS \(multi-constellation positioning\) |
-| Bluetooth | Bluetooth 4.0 LE; supports up to five external BLE sensors and compatibility with Arnavi BLE devices and third-party BLE sensors |
-| Remote Management | Remote configuration and firmware updates via web; PC configuration tool over USB; mobile app via Bluetooth or USB |
-| On-board Sensors & Storage | Onboard accelerometer for motion and driving behavior analysis; internal data logger ~8 MB \(~12,000 records\) |
-| Form Factor | Hermetic enclosure; dimensions 61 × 42 × 13 mm; weight ≈35 g; includes 60 cm wiring harness |
-
-## Use Cases
-
-- Fleet management — continuous GPS tracker data and eco-driving analytics for reducing fuel costs and improving safety.
-- Anti-theft and security — BLE-tag security/guard mode plus ignition and motion alerts for fast intervention.
-- Fuel monitoring and temperature telemetry — pair BLE fuel level and temperature sensors for remote fuel monitoring and cold-chain oversight.
-- Harsh-environment asset tracking — sealed, hermetic design for assets operating in high humidity, marine or wet-duty conditions.
-- Small vehicle and compact-asset installations — minimal footprint and internal antennas simplify mounting where space is limited.
+- Fleet management for light commercial vehicles requiring eco driving analysis and route oversight.
+- Anti theft and security workflows using motion, ignition and BLE tag events to detect unauthorized movement.
+- Remote fuel monitoring and temperature telemetry by pairing BLE sensors for fuel level and cold chain visibility.
+- Harsh environment asset tracking where a sealed enclosure and internal antennas are needed.
+- Compact vehicle or equipment installations where small form factor simplifies integration.
 
 ## Why Choose This Tracker with Plaspy
 
-The Arnavi L2 delivers a balance of environmental protection, multi-constellation positioning and flexible telemetry that makes it an effective Plaspy compatible GPS tracker for diverse vehicle and asset applications. Its sealed housing and internal antennas reduce installation complexity and protect electronics from moisture. Bluetooth LE support and onboard accelerometer extend telemetry beyond raw GPS — enabling fuel monitoring, temperature sensing and eco-driving insights that Plaspy can leverage for smarter fleet management and anti-theft workflows.
+The Arnavi L2 pairs environmental protection and multi constellation positioning with practical telemetry features that align well with Plaspy workflows. Its sealed design and internal antennas reduce installation complexity in wet or humid conditions, while BLE support and onboard motion sensing extend the range of data Plaspy can use for safety, efficiency and security monitoring.
 
-Operationally, the L2’s low power profile, wide voltage tolerance and onboard data logger ensure continuous operation in vehicles and remote assets. Remote configuration, web-based firmware updates and dual-server reporting simplify fleet-wide deployment and maintenance under Plaspy. For operations that require a compact, reliable telemetry node with BLE sensor support, ignition sensing and the ability to drive external relays, the Arnavi L2 is a pragmatic, integration-ready option.
+Operational features such as internal logging, wide voltage tolerance and remote configuration support make the L2 a practical choice for organizations that need resilient tracking nodes for vehicles and mobile assets. When combined with Plaspy, the device helps deliver visibility, alerts and historical analysis needed for everyday fleet operations.
 
+To learn more about how Plaspy can work with devices like the Arnavi L2 visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details and technical documentation on the manufacturer site https://www.arusnavi.ru.

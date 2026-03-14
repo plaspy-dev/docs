@@ -2,62 +2,60 @@
 slug: /xirgo/xg37
 id: xg37
 sidebar_label: XG37
+title: Xirgo - XG37
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS Xirgo XG37 para flotas compatible con Plaspy con telemetría CANBUS alertas de geocerca y descarga de tacógrafo
+keywords:
+  - Xirgo XG37
+  - rastreador XG37
+  - rastreador Xirgo
+  - XG37 Plaspy
+  - rastreador compatible con Plaspy
+  - rastreador GPS para flotas
+  - telemetría CANBUS
+  - descarga de tacógrafo
+  - alertas de geocerca
+  - telemetría MQTT TLS
 ---
+
 # Xirgo - XG37
 
 ![XG37](./tracker.webp)
 
-El XG37 es un rastreador GPS telemático robusto para vehículos de flota, diseñado para la gestión profesional de flotas y flujos de cumplimiento. Predecesor probado del LX40, el XG37 ofrece telemetría CANBUS completa, notificaciones instantáneas de geocerca y un SDK para escenarios personalizados — todo empaquetado para una integración fluida como rastreador GPS compatible con Plaspy para seguimiento en tiempo real y visibilidad operativa.
+El XG37 es un rastreador telemático robusto para vehículos de flota, diseñado para la gestión profesional de flotas y procesos de cumplimiento. Como predecesor probado del LX40, el XG37 ofrece localización junto con telemetría completa CANBUS, notificaciones inmediatas de geocerca, capacidad de descarga remota de tacógrafo y un SDK para escenarios personalizados en el dispositivo. Está construido para proporcionar datos vehiculares confiables y telemetría organizada para las operaciones de flota.
 
-Diseñado para flotas que requieren ubicación fiable, datos del vehículo y transmisión segura, el XG37 admite LTE Cat M1 \(con respaldo 2G\) o LTE Cat 1 \(con respaldo 3G UMTS/HSPA y 2G\) según el modelo. Su transferencia de datos basada en MQTT y el soporte de TLS 1.2 facilitan la transmisión en tiempo real de la ubicación y la telemetría CANBUS hacia Plaspy para monitorización en vivo, generación de informes y verificación de cumplimiento.
+Gracias a su capacidad para transmitir telemetría de forma segura y eficiente, el XG37 es una opción práctica compatible con Plaspy para organizaciones que buscan consolidar seguimiento en tiempo real, diagnóstico de vehículos y datos de cumplimiento en una sola plataforma de gestión de flotas. Su soporte para transporte basado en MQTT con TLS 1.2 y la personalización en el dispositivo facilita enviar posiciones mapeadas, señales CANBUS y alertas de eventos a Plaspy para monitoreo, informes y supervisión operativa.
 
-## Aspectos destacados
+## Aspectos clave
 
-- Rastreador GPS compatible con Plaspy: diseñado para alimentar el seguimiento en tiempo real y la telemetría en Plaspy para la gestión de flotas e informes.
-- Acceso completo a datos CANBUS: captura de señales del motor, combustible y diagnóstico cuando estén disponibles para telemetría más detallada y monitoreo de combustible.
-- Telemetría segura y ligera: transferencia de datos basada en MQTT con TLS 1.2 para comunicaciones cifradas y de baja latencia.
-- Descarga remota de tacógrafo: admite la obtención remota de datos de tacógrafo para simplificar las horas de conducción y los flujos de cumplimiento.
-- Notificaciones instantáneas de geocerca: alertas configurables para cumplimiento de rutas, entrada/salida en las instalaciones y monitoreo antirrobo.
-- Opciones de energía flexibles: baterías opcionales \(1800 mAh, 850 mAh, 210 mAh\) para soportar operación de respaldo o adaptar a diferentes necesidades de instalación.
-- SDK y algoritmos personalizados: el SDK integrado permite escenarios únicos y algoritmos en el propio dispositivo para reducir el ruido de datos y soportar lógica en el borde.
-- Control de inmovilizador/accesorios donde sea compatible: puede integrarse con interfaces del vehículo para soportar flujos de inmovilización o accesorios externos cuando se desplieguen con el cableado adecuado y el soporte del vehículo.
+- Dispositivo compatible con Plaspy diseñado para entregar seguimiento y telemetría en tiempo real a la plataforma
+- Acceso completo a datos CANBUS para estado del motor, encendido y señales relacionadas con combustible cuando están disponibles
+- Telemetría segura basada en MQTT con TLS 1.2 para transferencia cifrada de datos a sistemas back end
+- Descarga remota de tacógrafo para apoyar la administración de horas de conducción y procesos regulatorios
+- Notificaciones instantáneas de geocerca para cumplimiento de rutas y monitoreo anti robo
+- SDK integrado y configuraciones opcionales de batería para despliegues flexibles y lógica en el dispositivo
 
 ## Cómo funciona con Plaspy
 
-La integración con Plaspy está optimizada para flotas que requieren seguimiento en tiempo real, telemetría CANBUS y datos de cumplimiento en una única plataforma. El XG37 envía la posición GPS y los datos del vehículo mediante MQTT, y con TLS 1.2 el dispositivo asegura el canal entre rastreador y Plaspy. El SDK del dispositivo te permite adaptar los formatos de mensajes o activar reglas en el propio dispositivo para que Plaspy reciba solo los eventos y la telemetría que necesites.
+La integración con Plaspy está pensada para reunir posición, telemetría del vehículo y eventos de cumplimiento en un único entorno de monitoreo e informes. El XG37 puede configurarse para enviar a Plaspy la telemetría necesaria, mientras que las reglas en el dispositivo reducen el ruido y mejoran la relevancia de los eventos entrantes.
 
-- Actualización de ubicación y telemetría en tiempo real: la posición GNSS se envía a Plaspy para mapeo y monitorización en vivo.
-- Telemetría CANBUS \(motor/encendido/ combustible cuando esté disponible\): datos de diagnóstico del vehículo y monitoreo de combustible pueden enviarse a Plaspy para su análisis.
-- Alertas de geocerca y de eventos: las notificaciones instantáneas de geocerca llegan a Plaspy para el cumplimiento de rutas y la consciencia de anti-robo.
-- Descargas remotas de tacógrafo: los datos de tacógrafo pueden recogerse y entregarse a Plaspy para cumplimiento e informes.
-- Transporte seguro: el protocolo MQTT con TLS 1.2 protege la telemetría en tránsito hacia los servidores de Plaspy.
-- Escenarios personalizados mediante el SDK: implemente lógica en el lado del dispositivo \(p. ej., muestreo inteligente, detección de eventos del conductor\) que alimente telemetría adaptada a Plaspy.
-- Control de inmovilizador/accesorios cuando esté soportado: puede integrarse con interfaces del vehículo para soportar flujos de inmovilización o accesorios externos cuando se despliegue con el cableado adecuado y el soporte del vehículo.
+- Actualizaciones de ubicación en tiempo real enviadas a Plaspy para mapeo y monitoreo en vivo de la flota
+- Telemetría CANBUS reenviada a Plaspy para diagnóstico, monitoreo de combustible y análisis a nivel vehicular
+- Eventos de geocerca y alertas instantáneas que llegan a Plaspy para apoyar cumplimiento de rutas y flujos de seguridad
+- Recuperación remota de tacógrafo entregada en Plaspy para auditoría e informes de horas de conductor
+- Transporte cifrado vía MQTT con TLS 1.2 para proteger la telemetría en tránsito hacia Plaspy
+- Escenarios personalizados en el dispositivo implementados con el SDK para ajustar el muestreo y la generación de eventos para consumo por Plaspy
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | LTE Cat M1 con respaldo 2G, o LTE Cat 1 con 3G UMTS/HSPA y respaldo 2G GSM \(dependiente del modelo\) |
-| --- | --- |
-| Bandas | Varía por modelo — consulte al fabricante o la etiqueta del dispositivo para soporte de bandas regionales |
-| Alimentación y batería | Configuraciones de batería opcionales: 1800 mAh, 850 mAh o 210 mAh \(según el modelo\) |
-| Interfaces | Datos CANBUS completos, numerosas interfaces y E/S del vehículo; descarga remota de datos de tacógrafo soportada; SDK para integraciones personalizadas |
-| GNSS | Motor GNSS integrado y antena GNSS para posición y rumbo |
-| Bluetooth | No especificado en la descripción del dispositivo disponible — consulte la documentación del producto para soporte de sensores BLE |
-| Gestión remota y seguridad | Protocolo de transferencia de datos basado en MQTT; admite TLS 1.2. SDK habilita escenarios y algoritmos en el dispositivo. |
-| Factor de forma | Unidad telemática para vehículos diseñada para instalaciones en flotas; predecesora del LX40 |
-| Certificaciones | IEC, CE/RED, E-Mark E24, TRA, SASO, ICASA, ANRT, OSTST, ANATEL |
-
-## Casos de uso
-
-- Gestión de flotas y optimización de rutas — seguimiento en tiempo real en Plaspy combinado con telemetría CANBUS para mejorar la utilización y reducir el tiempo de inactividad.
-- Conformidad regulatoria y horas de conducción — las descargas remotas de tacógrafo simplifican auditorías y el mantenimiento de los registros de los conductores.
-- Antirrobo y aplicación de geocerca — alertas instantáneas de geocerca y datos de posición en vivo en Plaspy ayudan a detectar movimientos no autorizados y a activar respuestas rápidas.
-- Mantenimiento impulsado por telemetría y monitoreo de combustible — provea datos CANBUS de combustible y motor a Plaspy para identificar ineficiencias y planificar el servicio preventivo.
+- Gestión de flotas y optimización de rutas usando ubicación en vivo y telemetría del vehículo
+- Cumplimiento normativo y administración de horas de conductor con recolección remota de tacógrafos
+- Anti robo y monitoreo seguro de predios mediante alertas de geocerca y seguimiento en tiempo real
+- Mantenimiento basado en telemetría y monitoreo de combustible a partir de datos CANBUS
+- Despliegues de flotas mixtas donde se requiere telemetría segura y configurable
 
 ## Por qué elegir este rastreador con Plaspy
 
-El XG37 es una opción práctica para operadores que requieren un rastreador GPS compatible con Plaspy que equilibre telemetría completa del vehículo, funciones de cumplimiento y transporte de telemetría seguro. Sus capacidades CANBUS y la descarga remota de tacógrafo reducen la carga administrativa, mientras que la pila MQTT/TLS mantiene la entrega de datos eficiente y segura. El SDK del dispositivo y las opciones de batería opcionales hacen que el XG37 sea flexible para diferentes escenarios de flota, desde camiones de larga distancia hasta vehículos de reparto urbano.
+El XG37 es una opción práctica para organizaciones que usan Plaspy y necesitan una unidad telemática madura que aporte datos vehiculares completos, funciones de cumplimiento y transporte seguro. Sus capacidades CANBUS y el soporte para descarga remota de tacógrafos reducen la carga administrativa para flotas que deben controlar horas de conducción y el estado del vehículo, mientras que MQTT y TLS 1.2 ofrecen un canal moderno y seguro para la transmisión de datos a Plaspy.
 
-Al combinar el XG37 con Plaspy obtienes seguimiento en tiempo real fiable, telemetría enriquecida \(motor, encendido y combustible cuando esté disponible\) y una plataforma configurable para alertas e informes. Para flotas enfocadas en la visibilidad operativa, el cumplimiento regulatorio y la supervisión anti-robo, el XG37 ofrece una base telemática madura que se integra de forma limpia en tus flujos de trabajo de Plaspy.
-
+Si su flota requiere actualizaciones de posición confiables, telemetría integrada del vehículo y lógica configurable en el dispositivo, combinar el XG37 con Plaspy le brinda una plataforma consolidada para monitoreo, alertas e informes. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications and availability can change over time, so verify current device details and regional support with the manufacturer at https://xirgo.com/.

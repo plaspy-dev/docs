@@ -2,25 +2,60 @@
 slug: /aoya/t8gps
 id: t8gps
 sidebar_label: T8GPS
+title: AoYa - T8GPS
 sidebar_class_name: menu_item_tracker
+description: Compact waterproof automotive GPS tracker with accurate real time location and broad vehicle compatibility for fleet and personal tracking
+keywords:
+  - AoYa T8GPS
+  - AoYa GPS
+  - T8GPS tracker
+  - automotive GPS tracker
+  - waterproof GPS tracker
+  - vehicle tracking
+  - fleet tracking
+  - Plaspy compatible
+  - real time tracking
+  - UBLOX GPS
 ---
+
 # AoYa - T8GPS
 
 ![T8GPS](./logo.jpg)
 
-The AoYa T8GPS is a compact and versatile GPS tracker designed specifically for automotive use. With its small size and waterproof IP67 rating, this tracker is perfect for tracking cars, trucks, and boats in various weather conditions. The T8GPS is equipped with advanced GPS/LBS/AGPS tracking technology, allowing for accurate and real-time location tracking.
+The AoYa T8GPS is a compact, automotive focused GPS tracker built for cars, trucks, and boats. It combines a waterproof IP67 enclosure with a small footprint and light weight, making it suitable for a variety of vehicle mounting scenarios. The device supports GPS, LBS, and AGPS positioning to provide real time location data, and its advertised accuracy of roughly 5 to 10 meters supports routine tracking and fleet oversight needs.
 
-Measuring at just 68.2\*46.2\*21.6mm and weighing only 52g, the T8GPS is incredibly lightweight and easy to install. It can be powered by a wide range of voltages, from 9V to 100V, making it compatible with most vehicles on the market. The tracker utilizes a GSM/GPRS network and features a SIMTK6260 GSM chip and a UBLOX GPS chip, ensuring reliable and stable performance.
+As a Plaspy compatible tracker, the T8GPS can feed its location data into Plaspy for centralized visibility and operational monitoring. Its wide input voltage range and built in emergency battery help maintain reporting continuity across different vehicle types, while the use of common GPS and cellular components makes it a practical choice for organizations seeking reliable position updates and basic event reporting within the Plaspy platform.
 
-With a GPS sensitivity of -169dBm and an accuracy of 5-10m, the T8GPS provides precise location information. It also comes with an emergency battery with a capacity of 42mAh, ensuring that the tracker continues to function even in the event of a power outage. Whether you need to track your personal vehicle or manage a fleet of vehicles, the AoYa T8GPS is a reliable and efficient solution.
+## Key Highlights
 
-### Key Features:
+- Compact IP67 rated waterproof design suitable for cars trucks and boats
+- GPS LBS and AGPS positioning for real time location tracking
+- Small dimensions and low weight for flexible placement and deployment
+- Wide input voltage range of 9V to 100V for compatibility across vehicle types
+- Emergency backup battery to maintain operation during power loss
+- Uses UBLOX GPS and SIMTK6260 GSM components as part of its location and communication hardware
+- Advertised accuracy in the 5 to 10 meter range and high GPS sensitivity
 
-- Compact and waterproof design \(IP67\)
-- GPS/LBS/AGPS tracking for accurate location information
-- Wide voltage range \(9V-100V\) for compatibility with various vehicles
-- GSM/GPRS network with SIMTK6260 GSM chip
-- UBLOX GPS chip for reliable performance
-- GPS sensitivity of -169dBm and accuracy of 5-10m
-- Emergency battery with 42mAh capacity
+## How It Works with Plaspy
 
+When used with Plaspy, the T8GPS transmits its position and basic status information to Plaspy where that data is presented alongside other fleet assets. Plaspy ingests the incoming location stream and makes it available for live monitoring, history playback, alerting, and reporting, enabling practical fleet management workflows.
+
+- Live location display and vehicle status overview within Plaspy dashboards
+- Location history and route replay for trip review and incident analysis
+- Geofencing and movement alerts to notify teams of important events
+- Consolidated fleet views and reporting for operational insight and planning
+- Continued tracking visibility during power interruptions using the emergency battery
+
+## Typical Use Cases
+
+- Commercial fleet vehicle tracking and route oversight
+- Tracking of boats and marine assets in mixed weather conditions
+- Rental car and vehicle pool monitoring for location and utilization
+- Small to medium fleet operations requiring compact waterproof hardware
+- Asset recovery and location verification for individual vehicles
+
+## Why Choose This Tracker with Plaspy
+
+The AoYa T8GPS is a practical option for organizations that need a compact waterproof tracker for everyday vehicle monitoring. Its combination of multiple positioning modes and a broad voltage range makes it well suited to diverse automotive environments, while the small form factor aids discreet installation where needed. Paired with Plaspy, the T8GPS contributes straightforward location data and basic continuity features that support common fleet management tasks without adding unnecessary complexity.
+
+If you need an uncomplicated automotive tracker that integrates into a modern fleet platform, the T8GPS is worth considering. To learn more about how Plaspy can display and manage data from devices like the AoYa T8GPS visit https://www.plaspy.com. Product specifications and availability can change over time so verify current technical details on the manufacturer site http://www.aoyagps.com/ before making procurement decisions.

@@ -2,62 +2,59 @@
 slug: /atrack/as500
 id: as500
 sidebar_label: AS500
+title: ATrack - AS500
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS robusto de larga autonomía compatible con Plaspy para seguimiento de activos y flotas en entornos exigentes
+keywords:
+  - atrack as500
+  - as500 rastreador gps
+  - atrack as500 plaspy
+  - as500 compatible con plaspy
+  - seguimiento de activos
+  - seguimiento de flotas
+  - rastreador gps robusto
+  - rastreador de larga autonomía
+  - rastreador lte cat m1
+  - posicionamiento Wi Fi y BLE
 ---
+
 # ATrack - AS500
 
 ![AS500](./tracker.jpg)
 
-El AS500 es un rastreador GPS robusto y de larga duración, diseñado para aplicaciones exigentes de seguimiento de activos y compatible con Plaspy desde el primer uso. Construido para obras de construcción, minería, patios logísticos y otros entornos adversos, el AS500 combina protección mecánica IP67/IP69K, una arquitectura de bajo consumo y conectividad celular LTE Cat-M1 para ofrecer ubicación y telemetría fiables donde la autonomía de la batería y la durabilidad son determinantes.
+El AS500 es un rastreador GPS robusto con larga autonomía diseñado para aplicaciones exigentes de seguimiento de activos. Construido para entornos como obras, minas, patios logísticos y otras ubicaciones hostiles, el AS500 combina protección mecánica con una arquitectura de bajo consumo y conectividad celular para ofrecer ubicación y telemetría fiables cuando la durabilidad y la vida útil de la batería son críticas.
 
-El AS500 integra GNSS de 99 canales \(GPS + GLONASS\), escaneo de Wi‑Fi y Bluetooth Low Energy 5.1 para posicionamiento mixto interior/exterior y monitoreo remoto de sensores. Con transporte de datos flexible \(UDP, TCP, MQTT\), encolamiento en el propio dispositivo y soporte para Nano SIM o eSIM, el AS500 está diseñado para suministrar a Plaspy datos de ubicación, movimiento y sensores de alta calidad para rastreo en tiempo real, gestión de flotas y flujos de trabajo de anti‑robo.
+Como dispositivo compatible con Plaspy listo para usar, el AS500 está diseñado para alimentar a Plaspy con datos de ubicación, movimiento y sensores de alta calidad. Sus capacidades mixtas de posicionamiento interior/exterior y el almacenamiento local de datos lo hacen práctico para monitoreo de flotas, flujos de trabajo contra robo y gestión remota de activos a través de la plataforma Plaspy.
 
-## Aspectos destacados
+## Características principales
 
-- Gran autonomía de la batería: hasta ocho años con tres pilas AA Li‑FeS2 \(3,000 mAh\) y reportes diarios—ideal para activos sin alimentación.
-- Compatible con Plaspy: envía telemetría vía UDP/TCP/MQTT para una integración fluida con los paneles y alertas de Plaspy.
-- Carcasa robusta: clasificación IP67 e IP69K, además de resistencia MIL‑STD‑810H a vibración, golpes, niebla salina y radiación solar.
-- Posicionamiento preciso: GNSS de 99 canales \(GPS y GLONASS\) con una precisión típica de ≈2.5 m CEP para un rastreo GPS fiable.
-- Complemento interior/ubicación: escaneo Wi‑Fi y BLE 5.1 de largo alcance para mejorar la detección en interiores y sensores Bluetooth.
-- Gestión inteligente de energía: consumo en modo deep sleep \<25 μA y reportes inteligentes para maximizar el tiempo en espera.
-- Resiliencia de datos local: 16 Mbit de flash interno \(≈10,000 entradas en cola\) para almacenar eventos durante interrupciones o traslados.
+- Autonomía prolongada adecuada para activos sin alimentación, reduciendo la frecuencia de mantenimiento.
+- Carcasa resistente que ofrece protección mecánica elevada en entornos adversos.
+- Conectividad celular LTE Cat M1 para cobertura amplia y entrega eficiente de datos.
+- Receptor GNSS de 99 canales más escaneo Wi Fi y BLE 5.1 para mejorar el posicionamiento interior y exterior.
+- Almacenamiento local de datos para preservar eventos durante pérdidas temporales de conectividad.
+- Opciones flexibles de transporte y soporte de gestión de dispositivos para integración y aprovisionamiento.
 
 ## Cómo funciona con Plaspy
 
-El AS500 transmite y almacena en búfer datos de ubicación y sensores utilizando protocolos estándar para que Plaspy pueda ofrecer seguimiento en tiempo real, alertas de eventos y telemetría histórica. Configure intervalos de reporte, reglas de geovalla y umbrales de eventos en Plaspy mientras el dispositivo prioriza la eficiencia energética y la entrega fiable.
+El AS500 transmite y almacena en búfer datos de ubicación y sensores mediante métodos de transporte estándar para que Plaspy pueda mostrar ubicaciones en tiempo real, activar alertas y conservar la telemetría histórica. Usted configura el comportamiento de reporte y las reglas en Plaspy mientras el dispositivo se enfoca en la eficiencia energética y la entrega fiable.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy mediante UDP, TCP o MQTT.
-- Eventos de movimiento, manipulación y apertura de puertas reportados para activar alertas de Plaspy en flujos de seguridad y anti‑robo.
-- Escaneo de Wi‑Fi y datos de sensores BLE \(BLE 5.1\) para posicionamiento en interiores y monitorización remota a través de los paneles de Plaspy.
-- Almacenamiento local en cola \(≈10,000 entradas\) garantiza que no se pierdan datos durante interrupciones de conectividad; Plaspy ingiere los datos en cola cuando se restablece la conexión.
-- Soporte ADM \(ATrack Device Management\) y UART permiten configuración remota, actualizaciones de firmware y mantenimiento in situ vinculados a los procesos de provisioning de Plaspy.
+- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para monitoreo y mapeo en vivo.
+- Eventos de movimiento, manipulación y apertura reportados para activar alertas y flujos de seguridad en Plaspy.
+- Escaneo Wi Fi e inputs de sensores BLE que aportan aumento de posicionamiento interior y visibilidad remota en los paneles de Plaspy.
+- El encolado local de eventos garantiza que los datos se reenvíen a Plaspy cuando se restablece la conectividad.
+- Las funciones de gestión de dispositivos soportan aprovisionamiento remoto y mantenimiento integrados con los flujos de trabajo de Plaspy.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | LTE Cat.M1 \(variantes regionales: AS500‑LE para EMEA/APAC, AS500‑MG global, AS500‑MX Norteamérica\); datos vía UDP/IP, TCP/IP o MQTT; Nano SIM y eSIM; antena celular integrada |
-| --- | --- |
-| Bandas / Variantes | Variantes regionales Cat.M1 disponibles—las bandas específicas dependen de la variante y el mercado \(AS500‑LE, AS500‑MG, AS500‑MX\) |
-| Potencia & Batería | Tres baterías AA Li‑FeS2 \(3,000 mAh\), ahorro de energía de alta eficiencia; hasta ocho años con reportes diarios; corriente en deep‑sleep \<25 μA |
-| Interfaces | Soporte de detección de manipulación y apertura de puertas; compatibilidad con sensores BLE \(serie BL1 y otros\); UART para configuración/firmware; montaje mediante tornillos/tuercas o imán opcional |
-| GNSS | Receptor GNSS de 99 canales \(GPS + GLONASS\); precisión típica de ubicación ≈2.5 m CEP |
-| Bluetooth | Bluetooth Low Energy 5.1 \(largo alcance\) para telemetría de sensores y detección de proximidad |
-| Almacenamiento local | 16 Mbit de flash interno, aproximadamente 10,000 entradas en cola para buffering fuera de línea |
-| Gestión remota | Soporte ATrack Device Management \(ADM\) y cable UART para configuración del dispositivo y actualizaciones de firmware |
-| Ambiente & Durabilidad | Carcasa IP67 e IP69K; pruebas MIL‑STD‑810H de vibración, choque, niebla salina, radiación solar y presión baja; operación de −40 °C a 60 °C, 95% HR @50 °C sin condensación |
-| Forma | 118 × 65 × 28 mm; ≈171 g con baterías; rastreador compacto para montaje exterior/interno |
-| Certificaciones | FCC, IC, PTCRB, CE, RoHS; aprobaciones de operadores comunes \(AT&T, Verizon\) para variantes de Norteamérica |
-
-## Casos de uso
-
-- Seguimiento de contenedores y remolques: gran autonomía y carcasa robusta para activos sin alimentación a largo plazo.
-- Monitoreo de activos en construcción y minería: resistente a lavados intensos, vibración y entornos extremos.
-- Localización y monitoreo de uso de generadores y equipos: eventos de movimiento y manipulación ayudan a detectar movimientos no autorizados.
-- Seguimiento mixto interior/exterior de activos: GNSS en exteriores con escaneo de Wi‑Fi y sensores BLE en interiores para cobertura continua.
-- Accesorios para patios logísticos y flotas: telemetría en búfer durante interrupciones de conectividad y reporte a Plaspy cuando esté en línea para obtener insights de gestión de la flota.
+- Rastreo de contenedores y remolques para activos sin alimentación a largo plazo en patios y puertos.
+- Monitoreo de equipos en construcción y minería donde se requiere durabilidad y resistencia a lavados.
+- Detección de ubicación y movimiento de generadores y maquinaria pesada para prevención de robos.
+- Seguimiento de activos mixtos interior/exterior usando GNSS junto con Wi Fi y BLE como apoyo.
+- Seguimiento complementario en patios logísticos para almacenar telemetría durante brechas de conectividad y reportarla a Plaspy cuando haya conexión.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Combinar el AS500 con Plaspy ofrece una solución fiable de rastreo GPS de bajo mantenimiento para operadores que requieren gran autonomía, hardware robusto y telemetría flexible. La conectividad LTE Cat-M1 del dispositivo y el soporte para UDP/TCP/MQTT permiten a Plaspy ingerir datos de ubicación, movimiento y sensores en tiempo real, mientras el encolamiento local y los modos de sueño profundo aseguran continuidad y una autonomía de espera excepcional. El escaneo BLE y Wi‑Fi amplían la visibilidad de Plaspy en interiores, y los eventos de manipulación/apertura de puertas fortalecen los flujos de seguridad y anti‑robo.
+Combinar el AS500 con Plaspy ofrece una opción confiable y de bajo mantenimiento para organizaciones que necesitan larga autonomía y un chasis resistente. La entrega de telemetría flexible y el almacenamiento local del dispositivo permiten a Plaspy mantener la continuidad de datos de ubicación y eventos para supervisión operativa, generación de informes y alertas automatizadas.
 
-Para programas de gestión de flotas y telemetría que requieren rastreadores escalables compatibles con Plaspy—especialmente cuando los activos están desenergizados o expuestos a condiciones adversas—el AS500 ofrece una opción compacta, certificada y probada en campo. Su soporte de gestión remota \(ADM y UART\), aprobaciones de operadores y variantes regionales simplifican el despliegue y el mantenimiento, y sus integraciones de sensores facilitan la construcción de reglas de monitorización y operativas más ricas en Plaspy \(incluidas flujos complementarios con sistemas de ignición o inmovilizador mediante integraciones de Plaspy cuando sea aplicable\).
-
+Si su programa requiere seguimiento escalable de activos o flotas en condiciones desafiantes, el AS500 es una solución práctica que complementa las capacidades de monitoreo y notificación de Plaspy. Learn more about Plaspy on the main website https://www.plaspy.com and verify current product specifications and availability with the manufacturer at https://www.atrack.com.tw/ . Product specifications and certifications can change over time, so consult the official manufacturer documentation for the latest details.

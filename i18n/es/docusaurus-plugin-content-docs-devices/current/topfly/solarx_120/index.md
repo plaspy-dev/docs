@@ -2,61 +2,60 @@
 slug: /topfly/solarx_120
 id: solarx_120
 sidebar_label: SolarX 120
+title: TopFly - SolarX 120
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS robusto con asistencia solar compatible con Plaspy para monitoreo prolongado de activos y flotas en exteriores
+keywords:
+  - TopFly SolarX 120
+  - SolarX 120 Plaspy
+  - SolarX 120 rastreador GPS
+  - TopFly rastreador GPS
+  - rastreador con asistencia solar
+  - rastreador GPS IP67
+  - rastreador para remolques
+  - rastreo de contenedores
+  - rastreador con sensores BLE
+  - seguimiento de flota SolarX 120
 ---
+
 # TopFly - SolarX 120
 
 ![SolarX 120](./tracker.png)
 
-El SolarX 120 de SolarX \(modelo SolarX 120\) es un rastreador GPS de alta durabilidad con asistencia solar, diseñado para el monitoreo de activos al aire libre a largo plazo. Construido para soportar entornos adversos con una carcasa robusta con clasificación IP67 y una batería recargable Li-Polymer de 7,500 mAh, este rastreador compatible con Plaspy extiende la vida útil en campo gracias a la carga solar continua y a intervalos de reporte configurables de hasta cada 3 segundos para un seguimiento en tiempo real.
+El SolarX 120 de TopFly es un rastreador GPS robusto con asistencia solar, diseñado para el monitoreo prolongado de activos en exteriores. Cuenta con una carcasa resistente con certificación IP67, una batería recargable de gran capacidad y carga solar para extender los despliegues sin necesidad de mantenimiento frecuente. El dispositivo está pensado para su uso en contenedores, remolques, camiones y otros activos pesados donde el hardware resistente a la intemperie y el reporte fiable de ubicaciones son imprescindibles.
 
-Diseñado para contenedores, remolques, camiones y otros activos pesados, SolarX 120 combina posicionamiento GNSS de múltiples constelaciones, conectividad celular LTE/2G y soporte de sensores BLE 5.3 para ofrecer telemetría robusta, alertas de movimiento y de retirada. Cuando se integra con Plaspy, el dispositivo proporciona flujos de ubicación confiables, reporte con almacenamiento intermedio cuando la cobertura se interrumpe y telemetría de sensores para temperatura, humedad y estado de la puerta usando sensores BLE TOPFLYtech \(TSTH1-B, TSDT1-B\) u otros dispositivos BLE compatibles.
+Como dispositivo compatible con Plaspy, el SolarX 120 puede enviar flujos de posición y telemetría de sensores a Plaspy para visibilidad en vivo, alertas por eventos e informes históricos. Su capacidad para almacenar miles de puntos durante una pérdida de cobertura y cargarlos posteriormente lo hace adecuado para escenarios con conectividad remota o intermitente, mientras que el soporte de sensores permite que datos ambientales y el estado de puertas se integren con las trazas de ubicación en los paneles de Plaspy.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy diseñado para el seguimiento de activos en exterior, con protección IP67 y una carcasa robusta y de gran espesor.
-- Carga asistida por energía solar, junto con una batería Li-Polymer recargable de 7,500 mAh para una operación prolongada sin supervisión.
-- Seguimiento en tiempo real con actualizaciones configurables tan frecuentes como cada 3 segundos y almacenamiento en búfer de hasta 49,000 puntos.
-- Soporte BLE 5.3 y compatible con sensores TOPFLYtech BLE \(TSTH1-B, TSDT1-B\) para monitorización de temperatura, humedad y puerta.
-- Alertas de movimiento \(inicio de movimiento y detención\) y eventos de estacionamiento utilizables en flujos de trabajo de Plaspy para gestión de flotas y detección antirrobo.
-- Conectividad celular multimodal \(LTE FDD/Cat 1 y 2G GSM\) con transporte TCP/UDP/MQTT/SMS para una entrega de telemetría flexible a Plaspy.
-- Opciones de montaje robustas — imanes, tornillos, cinta, bridas o poliuretano — para instalación rápida en activos pesados.
+- Carcasa robusta con certificación IP67, diseñada para despliegues prolongados al aire libre y resistente a condiciones duras.
+- Carga asistida por energía solar junto con una batería recargable de gran capacidad para reducir visitas de mantenimiento y prolongar la operación sin supervisión.
+- Informes configurables con opciones de actualización frecuentes, incluso con intervalos de hasta tres segundos para necesidades de rastreo casi en tiempo real.
+- Soporte para sensores BLE externos para capturar temperatura, humedad y estado de puertas junto con los datos de ubicación.
+- Alertas de movimiento, estacionamiento y extracción que facilitan flujos de trabajo antirobo y notificaciones operativas.
+- Almacenamiento en búfer de puntos históricos para preservar datos cuando la cobertura celular no esté disponible.
+- Múltiples opciones de conectividad celular para mantener la entrega de telemetría a través de distintas redes.
 
 ## Cómo funciona con Plaspy
 
-El SolarX 120 transmite ubicación y telemetría de sensores a Plaspy utilizando protocolos de transporte estándar y puede operar en modos en vivo o de almacenamiento y reenvío. Con cobertura normal, envía fijaciones GNSS frecuentes y datos de sensores BLE a Plaspy para visualización inmediata, geocercas y alertas basadas en reglas. Si se interrumpe la cobertura, el dispositivo almacena en búfer hasta 49,000 puntos y los sube cuando se restablece la conexión, garantizando que no se pierdan datos históricos de seguimiento.
+Al integrarse con Plaspy, el SolarX 120 entrega flujos continuos de ubicación y telemetría de sensores para monitoreo y operaciones. Con cobertura normal transmite posiciones GNSS frecuentes y lecturas de sensores externos a Plaspy para su uso inmediato en mapas, geocercas y reglas. Si se pierde la conectividad, el dispositivo guarda los datos localmente y los remite a Plaspy cuando se restablece la conexión, garantizando continuidad de seguimiento y trazabilidad.
 
-- Actualizaciones en tiempo real de ubicación y telemetría a Plaspy mediante TCP, UDP, MQTT o SMS.
-- Alertas de movimiento \(inicio de movimiento y detención\) y eventos de estacionamiento utilizables en flujos de trabajo de Plaspy para gestión de flotas y detección antirrobo.
-- Alertas de retirada mediante el sensor de luz incorporado para notificar a Plaspy posibles manipulaciones o desenganche.
-- Telemetría de sensores BLE \(temperatura, humedad y estado de la puerta\) de sensores TOPFLYtech compatibles y otros dispositivos BLE, integrada en los paneles y reportes de Plaspy.
-- Almacenamiento de datos en búfer para su transmisión posterior cuando el dispositivo recupera la conectividad, preservando las trayectorias históricas para auditorías y análisis.
+- Las actualizaciones de ubicación en tiempo real y la telemetría de sensores se muestran en los paneles de Plaspy para visibilidad de flota y monitoreo en vivo.
+- La entrega de eventos y alarmas, como alertas de movimiento, estacionamiento y extracción, puede activar reglas y notificaciones en Plaspy.
+- La subida de datos en búfer preserva las trazas históricas y las sincroniza con Plaspy para informes, cumplimiento y análisis posterior a eventos.
+- Las lecturas de sensores BLE para temperatura, humedad y estado de puertas se integran en los informes de Plaspy y pueden combinarse con el contexto de ubicación.
+- Los datos recopilados por el SolarX 120 permiten geocercas, análisis de historial de viajes y paneles operativos dentro de Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE FDD Cat 1, LTE TDD Cat 1, 2G GSM |
-| --- | --- |
-| Bandas | LTE FDD: B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B18/B19/B20/B25/B26/B28/B66; LTE TDD: B34/B38/B39/B40/B41; 2G GSM: 850/900/1800/1900 MHz |
-| Alimentación y batería | batería recargable Li-Polymer de 7,500 mAh / 3.6 V; carga asistida por energía solar; cable magnético USB-C para carga/datos |
-| Interfaces | USB-C \(cable magnético\) para carga/datos, indicadores LED para red/GNSS/batería, interruptor de encendido físico |
-| GNSS | Receptor todo en uno: GPS, BeiDou, Galileo, QZSS \(SBAS\); 24 canales de seguimiento / 64 de adquisición; precisión horizontal \< 1.5 m CEP; sensibilidad de adquisición -148 dBm; sensibilidad de seguimiento -162 dBm; TTFF frío \<20 s, tibio \<2 s, caliente \<2 s |
-| Bluetooth | BLE 5.3 para sensores externos; compatible con sensores TOPFLYtech BLE \(TSTH1-B, TSDT1-B\) y otros dispositivos BLE |
-| Gestión remota | Soporte FOTA; intervalos de reporte configurables; admite TCP, UDP, MQTT y SMS |
-| Formato | Carcasa exterior robusta para exteriores, IP67 \(probada a 5 m durante 15 horas\); dimensiones 85 × 185 × 31 mm; peso 370 g |
-| Sensores y almacenamiento | Sensor de temperatura interno, sensor de luz para detección de retirada, acelerómetro de 3 ejes; búfer interno de hasta 49,000 puntos de ubicación; hasta 64 regiones de geocerca |
-| Rango operativo | -25 °C a +80 °C |
-
-## Casos de uso
-
-- Gestión de flotas para camiones y remolques de larga distancia: telemetría continua del rastreador GPS para optimización de rutas, detección de inactividad e historial de viajes.
-- Monitoreo de contenedores de envío: energía solar y una carcasa robusta permiten despliegues prolongados con alertas de retirada y manipulación.
-- Antirrobo para remolques y equipos pesados: alertas de movimiento y retirada alimentan las reglas de Plaspy para activar alertas y flujos de recuperación.
-- Monitoreo de cadena de frío o condiciones de la carga: sensores BLE de temperatura/humedad emparejados con SolarX 120 proporcionan telemetría ambiental a los paneles de Plaspy.
-- Auditoría remota de activos: almacenamiento de ubicaciones en búfer conserva el historial de rutas cuando los dispositivos operan en zonas de baja cobertura y luego se sincronizan con Plaspy para informes de cumplimiento.
+- Rastreo de flotas de larga distancia para camiones y remolques que requieren operación prolongada sin supervisión y un historial de ubicaciones fiable.
+- Monitoreo de contenedores donde la energía solar y la carcasa resistente permiten despliegues prolongados y detección de manipulación.
+- Casos antirobo para remolques y maquinaria pesada que emplean alertas de movimiento y extracción para activar procesos de recuperación.
+- Monitoreo de condiciones de la carga mediante sensores emparejados que reportan temperatura y humedad junto con la ubicación.
+- Auditoría remota de activos y cumplimiento, donde el almacenamiento en búfer garantiza que no se pierda el historial de seguimiento cuando la cobertura es intermitente.
 
 ## Por qué elegir este rastreador con Plaspy
 
-SolarX 120 está diseñado para organizaciones que requieren un rastreo de activos fiable y de bajo mantenimiento, con total compatibilidad con Plaspy. Su combinación de hardware robusto, autonomía de batería con asistencia solar y conectividad multimodal minimiza las visitas de servicio y mantiene en línea flotas, contenedores y equipos pesados. El soporte de sensores BLE y la telemetría avanzada facilitan la captura de datos ambientales y el estado de las puertas junto con fijaciones GNSS precisas, mientras que el almacenamiento en búfer y FOTA reducen la carga operativa.
+SolarX 120 es una opción práctica para organizaciones que necesitan hardware resiliente para rastreo de activos al aire libre y que desean integrarlo con una plataforma moderna de gestión de flotas como Plaspy. Su combinación de alimentación asistida por solar, carcasa robusta y amplio almacenamiento en búfer lo hace adecuado para despliegues a largo plazo con bajo mantenimiento. El soporte de sensores externos y las alertas por eventos aportan telemetría más rica que Plaspy puede aprovechar para reglas, informes y supervisión operativa.
 
-Combinado con Plaspy, SolarX 120 ofrece seguimiento en tiempo real accionable, telemetría robusta y alertas basadas en eventos que respaldan respuestas ante robos, monitoreo de flotas y reporting basado en condiciones. Ya sea que necesite seguimiento de alta frecuencia para análisis detallados de rutas o despliegues prolongados sin supervisión para activos remotos, el SolarX 120 ofrece la resiliencia del hardware y la flexibilidad de datos necesarias para escalar su programa de seguimiento con confianza.
-
+Para obtener más información sobre cómo SolarX 120 puede trabajar con Plaspy visite https://www.plaspy.com para detalles sobre la plataforma y sus funciones. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, así que verifique las especificaciones técnicas actuales y la compatibilidad de accesorios en el sitio web del fabricante https://www.topflytech.com/ antes de comprar o desplegar el hardware.

@@ -2,62 +2,59 @@
 slug: /topshine/ca02
 id: ca02
 sidebar_label: CA02
+title: TopShine - CA02
 sidebar_class_name: menu_item_tracker
+description: In dash GPS tracker with siren shock sensor and immobilizer compatible with Plaspy for real time vehicle monitoring
+keywords:
+  - TopShine CA02
+  - CA02 tracker
+  - TopShine tracker
+  - CA02 GPS
+  - CA02 Plaspy
+  - vehicle tracker
+  - fleet tracking
+  - car alarm system
+  - in dash tracker
+  - immobilizer tracker
 ---
+
 # TopShine - CA02
 
 ![CA02](./tracker.jpg)
 
-# CA02 GSM Siren Car Security Alarm System
+The CA02 is an in dash vehicle security and tracking unit that combines audible alarm capability with real time GPS location and central locking control. Designed for 1DIN or 2DIN installations, the unit integrates a siren and shock sensor with GSM based telemetry and relay outputs for engine or oil cut off, providing a consolidated solution for vehicle anti theft protection and continuous monitoring of passenger cars and light commercial vehicles.
 
-The CA02 is a Plaspy compatible GPS tracker and car security alarm designed for in-dash installation \(1DIN or 2DIN\). This 3-in-1 system combines an audible siren with a shock sensor, real-time GPS tracker, and central locking control to deliver reliable anti-theft protection and continuous vehicle monitoring. With 2G GSM connectivity and free web/mobile tracking, the CA02 makes it straightforward to add dependable real-time tracking and remote immobilizer functionality to passenger cars and light commercial vehicles.
-
-Built for fleet management and individual vehicle security, the CA02 provides immediate alarm response, SMS alerts, geofence and overspeed notifications, and relay-driven engine/oil cut-off for immobilization when GSM jamming or theft is detected. Its industrial-grade GSM/GPS modules, legal IMEI code and a two-year warranty make it a practical choice for installers and operators seeking proven telemetry and security features integrated with the Plaspy platform.
+As a Plaspy compatible device, the CA02 can forward position updates, alarm events and status signals into the Plaspy platform so fleet managers and vehicle owners can monitor vehicles from a centralized dashboard and mobile apps. Its combination of real time tracking, geofence and overspeed alerts, and relay driven immobilizer functions makes the CA02 a practical option where integrated security and operational visibility are required within Plaspy workflows.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker: real-time tracking and historical route playback via web and iOS/Android apps.
-- Integrated siren and shock sensor for immediate audible alerts on impact or tampering.
-- Central locking control and trunk open commands from remote, SMS, app or platform — convenient and secure.
-- GSM jamming detection with relay-triggered engine/oil cut-off for robust anti-theft immobilizer capability.
-- Movement, geofence, overspeed and illegal door-open alarms to support fleet safety and compliance.
-- Optional expansions such as fuel monitoring and external microphone for advanced telemetry and security use cases.
-- Compact in-dash form factor \(1DIN/2DIN\) with industrial-grade modules and a 2-year warranty for long-term deployment.
+- In dash 1DIN or 2DIN form factor combining siren, shock sensor and GPS tracker for integrated vehicle security.
+- Real time position reporting and historical route playback via web and mobile tracking platforms.
+- Relay driven engine or oil cut off for remote immobilization when theft indicators are detected.
+- Alarm types include shock sensor triggers, door open alerts, movement detection, geofence and overspeed notifications.
+- GSM based telemetry with legal IMEI and industrial grade modules suitable for fleet deployments.
+- Optional expansion support for additional telemetry such as fuel monitoring and in cab microphone for broader monitoring needs.
 
 ## How It Works with Plaspy
 
-The CA02 communicates position and alarm telemetry over 2G GSM to Plaspy’s tracking infrastructure, enabling real-time tracking, alerting and remote control from the Plaspy dashboard or mobile apps. When the unit reports events \(shock sensor trigger, door open, movement, overspeed or geofence breach\), Plaspy receives those telemetry updates and can present instant notifications, route history and status information to fleet managers or vehicle owners.
+When installed and connected, the CA02 sends location and event telemetry to Plaspy over GSM so the platform can display live positions, notify stakeholders of alarms, and store route history for reporting and compliance. Plaspy receives and interprets alarm signals from the device and enables remote control of relay outputs where allowed, turning raw device data into operational insight and actionable alerts.
 
-- Real-time location and telemetry updates delivered over 2G GSM to Plaspy for live vehicle monitoring.
-- Alarm and status reporting — shock sensor alerts, illegal door-open and movement events are forwarded to Plaspy.
-- Optional telemetry such as fuel monitoring can be integrated when the expansion modules are present, allowing Plaspy to show fuel data alongside GPS tracks.
-- Remote immobilizer and engine cut-off commands sent from Plaspy or via SMS/platform controls to the CA02 relay-controlled outputs.
-- Plaspy can complement CA02 data with additional sensors \(for example, Bluetooth sensors supported by Plaspy\) to expand telemetry without implying native BLE support on the CA02 itself.
+- Live location tracking and route playback visible in Plaspy for fleet oversight and historical review.
+- Alarm event forwarding including shock sensor, illegal door open, movement, geofence breach and overspeed notices.
+- Remote immobilizer control and engine cut off commands available via Plaspy when relay outputs are configured on the CA02.
+- Optional telemetry such as fuel data can be integrated and displayed alongside GPS tracks when expansion modules are present.
+- Plaspy can combine CA02 data with additional platform sensor inputs to provide broader situational awareness without implying native sensor support on the device.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G GSM \(2G SIM card required\) |
-| --- | --- |
-| Bands | 2G GSM — specific frequency bands not specified by manufacturer |
-| Power & Electrical | Rated Voltage: DC 12V ±10%; Static Current: 1.5A ±5%; Loading Current: 2.5A ±5%; Locked-rotor Current: 4–5A |
-| Interfaces & Controls | Built-in siren and shock sensor; central locking control; relay outputs for engine/oil cut-off and trunk control; SMS/app/platform command support; GSM jamming detection; optional SOS and microphone expansions |
-| GNSS | Real-time GPS tracking \(GNSS accuracy unspecified\) |
-| Bluetooth | Not specified for the CA02 \(Plaspy platform supports BLE sensor integration separately\) |
-| Remote Management | Free web-based tracking platform and iOS/Android apps; device accepts commands via platform and SMS |
-| Form Factor | In-dash installation: 1DIN or 2DIN; ABS shell; unit weight ~1 kg; dimensions ~12 × 8 × 3.5 cm |
-| Warranty | 2 years |
-
-## Use Cases
-
-- Fleet anti-theft and immobilization — use Plaspy to monitor vehicle locations and trigger remote engine cut-off on confirmed theft events.
-- Real-time driver and vehicle monitoring — overspeed alerts, route playback and movement notifications for better fleet management.
-- Parked vehicle protection — shock sensor and siren activation combined with geofence and door-open alerts to deter tampering.
-- Secure access and convenience — central locking and trunk open control from Plaspy or a smartphone app for remote operations.
-- Advanced telemetry deployments — add optional fuel monitoring or microphone expansion modules where fuel data or in-cab audio monitoring is required.
+- Fleet anti theft monitoring with remote immobilization to respond to confirmed theft events.
+- Real time driver and vehicle oversight for route management, overspeed alerts and compliance reporting.
+- Parked vehicle protection using shock sensor and siren activation combined with geofence and door open alerts.
+- Remote convenience and security operations such as central locking and trunk control from a centralized platform.
+- Enhanced telemetry deployments where optional fuel monitoring or audio expansion are required for specific operations.
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the CA02 with Plaspy delivers a practical balance of anti-theft security, real-time tracking and fleet-focused telemetry in a single in-dash unit. Its integrated siren and shock sensor provide immediate audible deterrence, while telemetric alarms and geofence/overspeed reporting feed directly into Plaspy for centralized visibility. The relay-based immobilizer and GSM jamming detection add an important layer of vehicle protection for high-risk scenarios.
+The CA02 packs security and telematics into a single in dash unit, making it suitable for organizations that need both audible anti theft deterrents and continuous tracking. Paired with Plaspy, the device becomes part of a broader monitoring and management workflow that surfaces alarms, location history and status information for rapid operational response. Its relay based immobilizer and alarm suite provide practical tools for reducing vehicle loss and improving fleet oversight.
 
-For fleet managers and vehicle owners, the CA02 supports common operational needs — remote engine cut-off, central locking control, and optional fuel monitoring — and pairs with Plaspy’s web and mobile apps to turn raw GPS and alarm data into actionable insights. Backed by industrial-grade components and a two-year warranty, the CA02 is a trustworthy option when you need Plaspy compatible real-time tracking, anti-theft protection, and a compact in-dash installation.
-
+For teams evaluating Plaspy compatible hardware, the CA02 represents a balanced choice when integrated alarm functionality and remote control are priorities. Learn more about Plaspy on the main website https://www.plaspy.com and verify current product specifications and manufacturer details on the TopShine site https://www.gztopshine.com since specifications and availability can change over time.

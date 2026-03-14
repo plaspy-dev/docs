@@ -2,67 +2,59 @@
 slug: /ruptela/pro5_lite
 id: pro5_lite
 sidebar_label: Pro5 Lite
+title: Ruptela - Pro5 Lite
 sidebar_class_name: menu_item_tracker
+description: Ruptela Pro5 Lite rastreador GPS compacto compatible con Plaspy GNSS preciso conectividad LTE y telemetría para flotas
+keywords:
+  - Ruptela Pro5 Lite
+  - Rastreador Pro5 Lite
+  - Rastreador GPS Ruptela
+  - Pro5 Lite compatible Plaspy
+  - Seguimiento de flotas Pro5 Lite
+  - Telemetría Pro5 Lite
+  - Software de rastreo Ruptela Pro5 Lite
+  - Dispositivo GPS para flotas
+  - Rastreador compatible con Plaspy
+  - Dispositivo telemático vehicular
 ---
+
 # Ruptela - Pro5 Lite
 
 ![Pro5 Lite](./tracker.png)
 
-**Ruptela Pro5 Lite**
+Pro5 Lite es un rastreador GPS compacto de Ruptela diseñado para flotas comerciales y gestores de activos que requieren seguimiento en tiempo real y confiable. Basado en un módulo GNSS U‑blox con antena interna y conectividad LTE con fallback a 2G, el equipo ofrece posicionamiento preciso y telemetría en una carcasa pequeña sin tornillos, adecuada para instalaciones discretas o ubicaciones OBD. El Pro5 Lite está pensado para proporcionar posicionamiento consistente e integración vehicular flexible para gestión de flotas, cargas y conductores.
 
-Pro5 Lite es un rastreador GPS compacto y preparado para el futuro, diseñado para flotas comerciales y operadores de activos que requieren seguimiento en tiempo real fiable y compatible con Plaspy. Construido alrededor de un módulo GNSS de U‑blox con antena interna y conectividad LTE \(con retroceso a 2G\), el Pro5 Lite ofrece ubicación de alta precisión y telemetría rica para la gestión de flotas, protección de mercancías e identificación del conductor. Su tamaño reducido y su carcasa ergonómica sin tornillos facilitan la instalación en ubicaciones ocultas o en el puerto OBD, manteniendo un conjunto completo de interfaces de vehículo.
+Como rastreador compatible con Plaspy, Pro5 Lite se integra con Plaspy para entregar actualizaciones de posición en vivo, flujos de telemetría y transmisión segura de datos para monitoreo e informes. Plaspy puede ingerir los datos del Pro5 Lite para mostrar ubicaciones, estados y eventos de los vehículos en paneles y alertas, lo que convierte al dispositivo en una opción práctica para operadores que necesitan un rastreador compacto que funcione con una plataforma moderna de gestión de flotas.
 
-Como rastreador compatible con Plaspy, Pro5 Lite se integra de forma fluida con la plataforma de Plaspy para proporcionar actualizaciones de posición en tiempo real, flujos de telemetría flexibles y entrega segura de datos. Las características de seguridad robustas —incluyendo detección de manipulación y de interferencia y TLS v1.2— protegen los datos en tránsito, mientras BLE 5.0, soporte para CAN bus y múltiples E/S permiten adaptar la telemetría, los flujos de trabajo antifurto y la comunicación con el conductor a sus operaciones.
+## Aspectos destacados
 
-## Puntos destacados
-
-- Rastreador GPS compatible con Plaspy: soporte nativo para seguimiento en tiempo real e integración de telemetría con Plaspy.
-- GNSS de alta precisión: módulo U‑blox con antena interna para una localización constante en entornos urbanos y en autopista.
-- Conectividad LTE con retroceso a 2G y variantes específicas por región \(p. ej., Pro5‑Lite‑LTE‑LA para LATAM\) para cobertura global de flotas.
-- Amplia integración vehicular: doble CAN \(FMS, J1939, HCV/LCV CAN, OBD\) más CustomCAN para parámetros OEM.
-- Amplias E/S e interfaces \(3×DIN, 2×AIN, 4×DOUT, 1‑wire, RS232, RS485\) para soportar detección de encendido, sensores y flujos de trabajo del inmovilizador.
-- Seguridad y resiliencia integradas: detección de manipulación y de interferencia, TLS v1.2 y batería interna de respaldo de 1050 mAh para mantener la operación.
-- BLE 5.0 para emparejamiento de accesorios y sensores Bluetooth, además de una toma de audio de 3,5 mm para comunicación con el conductor.
+- Compatibilidad nativa con Plaspy para seguimiento en vivo e integración telemática.
+- Posicionamiento GNSS de alta precisión con antena interna para cobertura consistente.
+- Conectividad LTE con fallback a 2G y variantes por región para amplia cobertura.
+- Amplias capacidades de integración vehicular y múltiples opciones de entradas y salidas (I/O) para soportar ignición, sensores y flujos de inmovilizador.
+- Funciones de seguridad integradas, incluyendo detección de manipulación y jamming, y transmisión segura de datos.
+- Carcasa compacta sin tornillos y batería interna de respaldo para mantener la operación y permitir una instalación discreta.
 
 ## Cómo funciona con Plaspy
 
-Instalar Pro5 Lite y conectarlo a Plaspy proporciona un flujo de telemetría llave en mano que alimenta tableros, alertas e informes automáticos. Plaspy ingiere telemetría GNSS y CAN del dispositivo, presentando la ubicación del vehículo, su estado y eventos en tiempo real. La integración es adecuada para operadores de flotas que necesitan diagnósticos de vehículos granulares, analítica de comportamiento y monitorización antifurto.
+Cuando lo conecta a Plaspy, Pro5 Lite proporciona un flujo continuo de ubicación y telemetría que alimenta el monitoreo, las alertas y los informes en toda la flota. Plaspy presenta los datos del dispositivo en tiempo real y conserva registros históricos para reproducción y análisis, facilitando la supervisión operativa y la toma de decisiones.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: las soluciones GNSS y la subida LTE envían datos de posición a Plaspy para supervisión en vivo y reproducción histórica.
-- Telemetría por bus CAN: FMS, J1939 y CustomCAN proporcionan parámetros del motor, odómetro, RPM, nivel de combustible y códigos de fallo para la gestión de flotas y el monitoreo de combustible.
-- Eventos de acelerómetro: el acelerómetro interno de 3 ejes permite detección de movimiento, alertas de colisión e informes de conducción brusca dentro de Plaspy.
-- Entradas/salidas digitales: las interfaces DIN y DOUT permiten monitoreo del estado de encendido, detección de eventos de puertas y alarmas, e integración con flujos de trabajo del inmovilizador.
-- Sensores Bluetooth: BLE 5.0 admite sensores Bluetooth y beacons para temperatura, estado de la carga o accesorios de identificación del conductor.
+- Reporte de posiciones en vivo para seguimiento en tiempo real y vistas en mapa dentro de Plaspy.
+- Telemetría y datos vehiculares que alimentan paneles e informes sobre salud y utilización de la flota.
+- Entrega de eventos y alertas por manipulación, movimiento y otras condiciones configuradas para soportar flujos de trabajo de antirrobo y seguridad.
+- Actualizaciones de estado basadas en entradas y salidas para reflejar condiciones como ignición, puertas o alarmas dentro de Plaspy.
+- Soporte para accesorios Bluetooth y telemetría a bordo para extender el monitoreo en casos de uso relacionados con carga o conductor.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Fabricante y Modelo | Ruptela Pro5 Lite |
-| --- | --- |
-| Conectividad | LTE con retroceso a 2G |
-| Bandas / Variantes | Variantes LTE específicas por región \(p. ej., Pro5‑Lite‑LTE‑LA para LATAM\) |
-| GNSS | Módulo GNSS de U‑blox con antena GNSS interna |
-| Potencia y Batería | Batería de respaldo interna, 1050 mAh |
-| Interfaces | doble CAN \(FMS, J1939, HCV/LCV CAN, OBD\), 3×DIN, 2×AIN, 4×DOUT, 1‑wire, RS232, RS485 |
-| Sensores | Acelerómetro de 3 ejes para detección de movimiento y de colisiones |
-| Bluetooth | BLE 5.0 para emparejamiento de accesorios y sensores Bluetooth |
-| Audio | Conector de audio de 3,5 mm para comunicación con el conductor |
-| Memoria | Memoria interna de 16 MB |
-| Seguridad y Protocolos | Detección de manipulación y de interferencia; TLS v1.2 para transmisión de datos segura |
-| Gestión Remota | Actualizaciones de firmware FOTA; app Ruptela Device Center para aprovisionamiento; Plataforma de Gestión de Dispositivos para configuración y monitorización remotas |
-| Forma / Form Factor | Carcasa sin tornillos, compacta: 101 × 74 × 23 mm \(apta para instalaciones ocultas o en OBD\) |
-| Opciones de Configuración | Opciones de configuración por SMS, GPRS y USB además de la provisión de la plataforma |
-
-## Casos de uso
-
-- Gestión y optimización de flotas: combinar datos GNSS y CAN en Plaspy para reducir el tiempo de inactividad, optimizar rutas y monitorizar la salud del vehículo.
-- Antirrobo y recuperación de vehículos: alertas de manipulación/interferencia, seguimiento en tiempo real y flujos de corte remoto usando salidas DOUT para la integración con el inmovilizador.
-- Monitoreo de combustible y telemetría: datos FMS/J1939 y CustomCAN permiten un control preciso del consumo de combustible, análisis de consumo y control de costos.
-- Comportamiento y seguridad del conductor: frenadas bruscas y detección de colisiones basadas en el acelerómetro alimentan alertas de Plaspy y módulos de puntuación del conductor.
-- Monitoreo de carga y accesorios: sensores BLE y la memoria interna soportan el registro de temperatura, estado de puertas y de la carga para cumplimiento y necesidades de seguro.
+- Seguimiento de flotas comerciales y supervisión de rutas para mejorar la utilización y la asignación de unidades.
+- Monitoreo antirrobo y flujos de recuperación usando seguimiento en vivo y alertas de manipulación.
+- Supervisión de combustible y parámetros del motor como parte de diagnósticos de flota y control de costos.
+- Monitoreo del comportamiento del conductor y seguridad mediante alertas basadas en eventos y movimiento.
+- Monitoreo de carga y accesorios con integración de sensores Bluetooth para registro de estados.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Pro5 Lite está diseñado para flotas que requieren seguimiento GPS confiable, telemetría segura y una integración de vehículos flexible sin un tamaño de dispositivo grande. Como rastreador compatible con Plaspy, ofrece los elementos centrales que esperan los operadores: seguimiento en tiempo real, soporte robusto para CAN para datos del motor y del combustible, y flexibilidad de E/S para detección de encendido, alarmas y acciones del inmovilizador. La combinación de BLE 5.0 y una amplia E/S facilita añadir sensores Bluetooth o implementar flujos de comunicación e identificación del conductor.
+Pro5 Lite es una opción sensata para organizaciones que necesitan un rastreador compacto y con muchas capacidades que se integre con una plataforma de gestión de flotas completa. Su énfasis en posicionamiento GNSS preciso, conectividad celular resistente y E/S flexible lo hace útil para operadores que buscan datos de ubicación fiables junto con telemetría a nivel de vehículo presentados a través de Plaspy. El factor de forma reducido del dispositivo y sus funciones de gestión facilitan despliegues a gran escala donde la instalación discreta y la provisión remota son importantes.
 
-En operación, Pro5 Lite reduce la complejidad de instalación con una carcasa compacta y sin tornillos y ofrece gestión de dispositivos escalable a través de la app Ruptela Device Center y la Plataforma de Gestión de Dispositivos, incluyendo actualizaciones FOTA para mantener la flota al día. Las medidas de seguridad integradas y el respaldo de batería aseguran la continuidad del servicio para aplicaciones críticas de antifurto y telemetría. Para propietarios de flotas e integradores de telemática que buscan un rastreador GPS compatible con Plaspy que equilibre posicionamiento de precisión, diagnósticos a nivel CAN y gestión remota, Pro5 Lite es un componente práctico y completo para incluir en su stack telemático.
-
+Para obtener más información sobre Plaspy y cómo dispositivos compatibles como el Ruptela Pro5 Lite funcionan dentro de la plataforma visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos y las variantes más recientes en el sitio del fabricante https://ruptela.com/.

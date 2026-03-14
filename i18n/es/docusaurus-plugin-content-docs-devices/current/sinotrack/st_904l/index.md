@@ -2,60 +2,61 @@
 slug: /sinotrack/st_904l
 id: st_904l
 sidebar_label: ST-904L
+title: SinoTrack - ST-904L
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto SinoTrack ST-904L compatible con Plaspy para seguimiento discreto con SOS y voz
+keywords:
+  - SinoTrack ST-904L
+  - ST-904L Plaspy
+  - Rastreador GPS ST-904L
+  - Rastreador SinoTrack
+  - Rastreador GPS 4G
+  - Rastreador para vehículos
+  - Rastreador personal
+  - Rastreador con alarma SOS
+  - Rastreador con voz bidireccional
+  - Rastreador GPS compacto
 ---
+
 # SinoTrack - ST-904L
 
 ![ST-904L](./tracker.jpg)
 
-El SinoTrack ST-904L es un rastreador GPS compacto compatible con Plaspy, diseñado para un rastreo discreto de vehículos y personas. Con conectividad 4G LTE \(con retroceso a 2G\), antenas GPS y GSM de alta sensibilidad integradas y un tamaño compacto, el ST-904L ofrece seguimiento y telemetría en tiempo real confiables para motocicletas, bicicletas, automóviles, mascotas y objetos de valor. Soporta informes por SMS/GPRS, alarma SOS y voz bidireccional para que puedas vigilar y responder de inmediato desde la plataforma Plaspy.
+El SinoTrack ST-904L es un rastreador GPS de tamaño compacto pensado para el seguimiento discreto de vehículos y personas. Integra antenas GPS y GSM de alta sensibilidad en una carcasa reducida y soporta conectividad 4G LTE con retroceso a 2G. El equipo ofrece envío de posición en vivo vía SMS y GPRS, alarma SOS y comunicación de voz bidireccional, por lo que resulta idóneo para motocicletas, bicicletas, automóviles, mascotas y objetos pequeños de valor que requieren actualizaciones de ubicación confiables y alertas básicas.
 
-Diseñado para una integración sencilla, el ST-904L puede configurarse para apuntar a servidores de terceros mediante configuración por SMS y activarse en plataformas en línea. Eso facilita añadir este rastreador GPS a Plaspy para actualizaciones de posición en tiempo real, alertas de geocerca y velocidad excesiva, y una gestión de flota consolidada o monitoreo personal antirrobo sin instalaciones complejas.
+Al ser un dispositivo compatible con Plaspy, el ST-904L puede configurarse por SMS para apuntar a servidores de terceros y activarse en plataformas en línea, lo que facilita una integración rápida con Plaspy para seguimiento en tiempo real y gestión de eventos. Esta compatibilidad simplifica la recepción de actualizaciones de posición, alertas de geocercas y exceso de velocidad, eventos SOS y el monitoreo consolidado dentro de Plaspy sin necesidad de modificar el hardware del rastreador.
 
-## Principales características
+## Características principales
 
-- Compatible con Plaspy: configure la IP del servidor/APN por SMS para integrar los datos del rastreador GPS en Plaspy para un rastreo en tiempo real centralizado e informes.
-- 4G LTE con compatibilidad 2G: conectividad moderna para una cobertura fiable y respaldo SMS/GPRS cuando sea necesario.
-- Diseño compacto y discreto: carcasa pequeña y antenas GPS/GSM integradas para facilitar su ocultación en motocicletas, bicicletas, automóviles y objetos personales.
-- Batería integrada de 1200mAh con múltiples modos de energía: elige Keep Working, Move o Standby para optimizar la duración entre el rastreo inmediato y un largo modo de espera.
-- Seguridad y alertas: alarma SOS, alertas de geocerca, alertas de exceso de velocidad y reporte de posición por SMS con enlaces de Google Maps para una rápida comprensión situacional.
-- Voz bidireccional: hace que el dispositivo sea útil para el rastreo personal cuando se necesita una comunicación directa, además de telemetría.
-- Activación simple de IMEI y de la plataforma: comandos por SMS para consultar/cambiar IMEI y para configurar ajustes de plataforma en línea/IP/APN.
+- Compatible con Plaspy mediante configuración de servidor por SMS y GPRS para seguimiento centralizado en tiempo real.
+- Conectividad 4G LTE con fallback a 2G que mejora la cobertura y la fiabilidad en el reporte de posiciones.
+- Factor de forma compacto y discreto, ideal para motocicletas, bicicletas, autos, mascotas y objetos portátiles.
+- Batería integrada de 1200 mAh con modos de energía seleccionables para equilibrar autonomía y capacidad de respuesta.
+- Funciones de seguridad como alarma SOS, alertas de geocerca y notificación de exceso de velocidad para detección rápida de incidentes.
+- Voz bidireccional y control por SMS para comunicación directa y consultas remotas del equipo.
 
 ## Cómo funciona con Plaspy
 
-La integración del ST-904L con Plaspy es sencilla, ya que el dispositivo admite configuración por SMS y GPRS de IP del servidor y del APN. Utilice el mismo flujo de configuración por SMS utilizado para la plataforma nativa de SinoTrack para dirigir el rastreador al servidor de Plaspy y comenzar a recibir seguimiento en tiempo real, alarmas e historial de ubicaciones en el panel de control o en la app móvil de Plaspy.
+La integración del ST-904L con Plaspy se basa en sus opciones de configuración por SMS y GPRS para establecer la IP del servidor y el APN, de manera que el rastreador informe directamente a Plaspy. Una vez configurado, el dispositivo envía reportes de posición y señales de eventos a Plaspy para su mapeo, alertas y reproducción histórica.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: informes de posición GPS vía GPRS/SMS a Plaspy para mapas en vivo y rastro de ubicaciones.
-- Eventos SOS y alarmas: alarma SOS, alertas de geocerca y de exceso de velocidad se envían a Plaspy como eventos disparados para notificación y respuesta inmediatas.
-- Voz bidireccional y control por SMS: llamadas de voz y SMS permiten contacto directo con la unidad y consultas remotas por parte del personal gestionado por Plaspy.
-- Servidor/IP configurable por SMS: use comandos SMS para establecer IP y APN para que ST-904L reporte a Plaspy en lugar de la plataforma predeterminada.
-- Gestión de IMEI y reconocimiento de registro: opciones de consulta/cambio de IMEI ayudan a cumplir con los requisitos de registro locales antes de añadir el dispositivo a Plaspy.
+- Actualizaciones de ubicación en tiempo real y rastro de posiciones entregados a Plaspy para visualización en mapas y historial de seguimiento.
+- Alarmas SOS, eventos de geocerca y excesos de velocidad reenviados a Plaspy como notificaciones para respuesta inmediata.
+- La voz bidireccional y los comandos por SMS permiten a los usuarios de Plaspy comunicarse con la unidad o realizar consultas remotas cuando sea necesario.
+- La configuración por SMS de servidor/IP y APN permite apuntar el dispositivo a Plaspy sin cambios de firmware.
+- Las opciones de consulta y cambio de IMEI facilitan el registro del dispositivo y su identificación antes de incorporarlo a Plaspy.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Modelo | SinoTrack ST-904L |
-| --- | --- |
-| Conectividad | 4G LTE \(con compatibilidad 2G\); rastreo GPS/GPRS/GSM/SMS |
-| Bandas | No especificado en la descripción proporcionada |
-| Alimentación y batería | Batería integrada de 1200 mAh. Modo Keep Working: duración típica 18–24 horas. Modo Move \(activado por movimiento\): duración típica 3–10 días. Modo Standby \(sleep, activación por SMS/llamada/vibración\): espera hasta ~15 días. |
-| Interfaces | Botón de alarma SOS, voz bidireccional, configuración e informes por SMS, activación por movimiento/vibración. \(No se especifican entradas de encendido/combustible/inmovilizador en la descripción.\) |
-| GNSS | Antena GPS integrada de alta sensibilidad \(informes de posición GPS\). Otros sistemas GNSS no especificados. |
-| Bluetooth | No especificado en la descripción proporcionada |
-| Gestión remota | Configuración por SMS del servidor IP y APN; compatible con la plataforma VIP.SINOTRACK; portal web en www.sinotrackpro.com y la app móvil “SinoTrack PRO”. Consulta/cambio de IMEI soportados \(según país\). |
-| Formato | Carcasa mini y compacta para uso personal y en vehículos \(motocicletas, bicicletas, coches, mascotas, objetos de valor\). |
-
-## Casos de uso
-
-- Seguridad personal y familiar: vigile a niños, personas mayores o cuidadores con ubicación en tiempo real, SOS y voz bidireccional.
-- Rastreo de motocicletas y bicicletas: instalación discreta y tamaño compacto para disuasión de robos y recuperación.
-- Antirrobo de coches y alertas de exceso de velocidad: las alertas de geocerca y velocidad se alimentan a Plaspy para notificaciones inmediatas y historial de eventos.
-- Rastreo de objetos de valor y activos portátiles: perfil reducido para equipaje, equipos u objetos de alto valor que requieren seguimiento periódico o por movimiento.
-- Monitoreo ligero de flotas o de un solo vehículo: use Plaspy para rastreo en tiempo real centralizado y flujos de trabajo básicos de gestión de flotas cuando no se requieren entradas avanzadas \(combustible/encendido\).
+- Monitoreo de seguridad personal y familiar con SOS y voz bidireccional para comunicación rápida en emergencias.
+- Seguridad en motocicletas y bicicletas donde se requiere un rastreador pequeño y discreto para disuadir robos y facilitar la recuperación.
+- Vigilancia antirrobo en autos y alertas por exceso de velocidad integradas en Plaspy para historial de eventos y notificaciones.
+- Seguimiento de objetos de valor pequeños, equipaje o activos portátiles que necesiten actualizaciones periódicas o activadas por movimiento.
+- Monitoreo de flotas ligeras o vehículos individuales donde rastreadores compactos y centrados en la ubicación cubren necesidades operativas básicas.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El ST-904L es una opción práctica cuando necesitas un rastreador GPS pequeño y fiable que se integre con Plaspy para rastreo en tiempo real, alertas de geocerca y monitoreo SOS sin una instalación compleja. Su conectividad 4G con respaldo 2G garantiza una cobertura amplia, mientras que los modos de energía configurables permiten equilibrar la capacidad de respuesta y la autonomía según el uso. Dado que el dispositivo admite configuración por SMS del servidor y APN, añadir el ST-904L a tu cuenta de Plaspy es rápido y predecible. Para organizaciones centradas en la gestión básica de flotas, protección anti-robos y seguridad personal, el ST-904L ofrece una fuente de telemetría asequible y fácil de gestionar que se integra sin problemas con las herramientas de mapas, alertas e informes de Plaspy.
+El ST-904L es una opción práctica cuando necesita un rastreador pequeño y fácil de desplegar que se conecte a Plaspy para mapeo en vivo, alertas y supervisión básica. Su combinación de tamaño compacto, conectividad celular y configuración de servidor por SMS hace que la incorporación a Plaspy sea sencilla tanto para usos personales como para implementaciones comerciales livianas.
 
-Beneficios prácticos adicionales: el ST-904L admite gestión de IMEI y activación de la plataforma para regiones donde se exige registro, incluye uso básico gratuito de la plataforma SinoTrack y viene con una garantía de 2 años más soporte del proveedor \(respuesta típica dentro de 24 horas\). Las opciones de envío y pago son flexibles para implementaciones comerciales. Si necesita telemetría avanzada como monitoreo dedicado de combustible, control de encendido o inmovilizador, o soporte de sensores Bluetooth para temperatura o detección de activos, verifique esas interfaces específicas antes de la compra: el ST-904L está optimizado para un rastreo y alarmas centrados en la ubicación y descritos como compactos.
+Si sus necesidades se centran en el reporte de ubicación, alertas SOS inmediatas y control remoto simple vía SMS o voz, el ST-904L se integra bien con Plaspy para ofrecer visibilidad centralizada y manejo de eventos. Para implementaciones que requieran telemetría avanzada o interfaces especializadas, verifique las capacidades e interfaces exactas del dispositivo antes de la compra para confirmar que satisfacen sus requisitos.
 
+Para saber más sobre Plaspy y flujos de trabajo con dispositivos compatibles visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que conviene verificar la documentación y especificaciones vigentes en el sitio del fabricante https://www.sinotrackgps.com/ antes de la compra.

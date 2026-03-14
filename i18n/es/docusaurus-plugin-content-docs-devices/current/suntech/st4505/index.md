@@ -2,63 +2,60 @@
 slug: /suntech/st4505
 id: st4505
 sidebar_label: ST4505
+title: Suntech - ST4505
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD-II Suntech ST4505 enchufar y listo compatible con Plaspy para seguimiento en tiempo real diagnóstico y gestión de flotas
+keywords:
+  - Suntech ST4505
+  - rastreador ST4505
+  - rastreador GPS Suntech
+  - ST4505 compatible Plaspy
+  - telemetría vehicular
+  - seguimiento de flotas
+  - rastreador OBD-II
+  - rastreador LTE Cat M1
+  - rastreador GPS GLONASS
+  - gestión de flotas
 ---
+
 # Suntech - ST4505
 
 ![ST4505](./tracker.jpg)
 
-El ST4505, rastreador GPS LTE Cat M1 OBD-II de un proveedor de telemática probado, es un dispositivo plug-and-play diseñado para la gestión de flotas moderna y la telemática de vehículos. Compatible con Plaspy de fábrica, el ST4505 ofrece seguimiento GPS continuo basado en GNSS, diagnósticos del vehículo a través del puerto J1962 OBD-II y telemetría que admite seguimiento en tiempo real, análisis del comportamiento del conductor y una respuesta rápida ante incidentes.
+El Suntech ST4505 es un rastreador OBD-II de tipo enchufar y listo diseñado para la telemetría vehicular moderna y la gestión de flotas. Ofrece posicionamiento continuo basado en GNSS, diagnóstico vehicular a través del conector J1962 OBD-II y telemetría pensada para soportar el seguimiento en tiempo real, el análisis del comportamiento del conductor y la respuesta rápida ante incidentes. Fabricado para uso dentro del vehículo, la familia ST4505 incluye variantes con soporte para sensores Bluetooth y detección opcional de interferencias para ampliar sus capacidades.
 
-Con un diseño orientado a una operación fiable en vehículo, el ST4505 admite redes LTE Cat M1, NB‑IoT y 2G de respaldo, incluye GPS+GLONASS con soporte SBAS y una batería de respaldo recargable para mantener la generación de reportes durante la pérdida de alimentación principal. Las variantes disponibles \(ST4505T y ST4505DO\) añaden soporte para sensores Bluetooth y otras funciones opcionales como detección de interferencias para ampliar las capacidades anti-robo y de telemetría cuando se utiliza con Plaspy.
+Como dispositivo compatible con Plaspy desde el primer encendido, el ST4505 se integra en despliegues de Plaspy con una configuración mínima. Su combinación de posicionamiento, transmisión de datos de diagnóstico y funciones de reporte de respaldo lo convierten en una opción práctica para operadores que desean alimentar a Plaspy con telemetría fiable para monitoreo, alertas e informes en toda la flota.
 
-## Aspectos clave
+## Aspectos destacados
 
-- Instalación OBD-II plug-and-play compatible con Plaspy para implementaciones rápidas de flotas y minimizar el tiempo de inactividad.
-- Conectividad multi-red \(LTE Cat M1, NB‑IoT y respaldo 2G\) para cobertura en áreas amplias y transporte de datos rentable.
-- GNSS de alta precisión \(GPS + GLONASS\) con soporte SBAS y precisión típica de ubicación de aproximadamente ±3 m CEP para un seguimiento en tiempo real preciso.
-- Telemetría integral del vehículo a través del puerto J1962 OBD-II \(J1850, ISO 9141-2, ISO 14230, ISO 15765-4/CAN\) que habilita diagnósticos, reporte de DTC y datos de combustible/motor cuando el vehículo los proporciona.
-- Acelerómetro de 3 ejes y giroscopio de 3 ejes \(BMI160\) integrados para reconstrucción de impactos, detección de eventos y puntuación del comportamiento del conductor.
-- Batería de respaldo recargable de 3.7 V, 350 mAh para reportes esenciales durante la pérdida de energía principal y mayor resiliencia anti-robo.
-- Actualización de firmware OTA \(actualización remota de firmware\) y detección de interferencias opcional y Bluetooth en la variante ST4505T para sensores y balizas Bluetooth.
+- Factor de forma OBD-II enchufar y listo para despliegues rápidos en vehículos y tiempo mínimo de instalación.
+- Conectividad celular multinetwork para cobertura amplia y transporte de datos eficiente.
+- Posicionamiento GNSS con GPS y GLONASS más augmentación SBAS para una mayor precisión en la ubicación.
+- Diagnóstico vehicular mediante la interfaz J1962 OBD-II para acceder a datos del motor y otros parámetros expuestos por el vehículo.
+- Sensores de movimiento integrados para detección de eventos, reconstrucción de incidentes y análisis del comportamiento del conductor.
+- Batería de respaldo recargable para mantener el reporte durante pérdida de alimentación principal y soportar flujos de trabajo antirobo.
+- Opciones de variantes con soporte para sensores Bluetooth y detección de interferencias para ampliar la telemetría y las funciones de seguridad.
 
 ## Cómo funciona con Plaspy
 
-El ST4505 se integra con Plaspy enviando correcciones GNSS, telemetría OBD-II del vehículo y eventos de sensores a través de redes celulares al backend de Plaspy. Plaspy ingiere flujos de ubicación y diagnóstico para seguimiento en tiempo real, alertas automáticas e informes históricos. Los flujos de datos y las tasas de actualización son configurables dentro de Plaspy para equilibrar la capacidad de respuesta y los costos de datos en aplicaciones de gestión de flotas.
+El ST4505 transmite posicionamientos GNSS, datos de diagnóstico del vehículo y eventos de sensor a través de redes celulares hacia Plaspy, donde esas señales se procesan para seguimiento en vivo, generación de alertas y análisis histórico. Plaspy procesa la telemetría entrante para que los administradores de flota puedan configurar frecuencias de actualización, notificaciones e informes que se ajusten a sus necesidades operativas sin desperdiciar datos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas vía LTE Cat M1/NB-IoT o respaldo 2G.
-- Detección de choques y eventos severos mediante el acelerómetro y el giroscopio integrados para alertas inmediatas y reconstrucción de incidentes.
-- Diagnósticos del vehículo y reporte de DTC desde OBD-II PIDs, que permiten mantenimiento preventivo y telemetría como el monitoreo de combustible cuando el vehículo expone esos datos PID.
-- Reportes respaldados por la batería durante la pérdida de energía principal para mantener la conectividad y notificaciones anti-robo.
-- Soporte opcional para sensores Bluetooth \(ST4505T\) para sensores de temperatura, sensores de puertas o balizas Bluetooth cuando se utilizan con flujos de trabajo compatibles de Plaspy.
+- Actualizaciones de ubicación en tiempo real y trazado de recorrido para visibilidad de rutas y monitoreo en vivo de la flota.
+- Alertas por choques, maniobras bruscas y otros incidentes basados en movimiento usando los sensores integrados.
+- Reporte de diagnóstico del vehículo y códigos DTC reenviados a Plaspy para flujos de trabajo de mantenimiento preventivo y reducción de tiempos de inactividad.
+- Reporte basado en la batería de respaldo que mantiene la conectividad durante cortes de energía y soporta notificaciones antirobo.
+- Datos opcionales de sensores Bluetooth desde la variante ST4505T que alimentan flujos para temperatura, puertas o monitoreo de carga cuando se configuran en Plaspy.
 
-## Visión técnica
+## Casos de uso habituales
 
-| Conectividad | LTE Cat M1, NB‑IoT, respaldo 2G |
-| --- | --- |
-| Bandas | Bandas específicas del operador/modelo dependientes — las bandas no están especificadas en la descripción proporcionada |
-| Alimentación y batería | Entrada DC 8–33 V con protección contra inversión; batería de respaldo recargable de 3.7 V, 350 mAh |
-| Consumo de energía | ~120–130 mA activo a 12 V; \<5 mA en reposo; modo sueño profundo \<2 mA |
-| Interfaces | Conector OBD-II J1962 de 16 pines que soporta J1850, ISO 9141-2, ISO 14230 \(K-line\), ISO 15765-4 \(CAN\) para diagnósticos del motor/vehículo y DTCs; dos LEDs para estado de red y GPS; antena interna |
-| GNSS | GPS + GLONASS con SBAS \(WAAS/EGNOS/MASA\); precisión típica ~±3 m CEP; sensibilidad hasta −167 dBm; TTFF: cold \<35 s, warm \<30 s, hot \<1 s |
-| Sensores | Acelerómetro de 3 ejes y giroscopio de 3 ejes \(BMI160\) para detección de movimiento, choques y comportamiento de conducción |
-| Bluetooth | Opcional en la variante ST4505T para sensores/beacons Bluetooth |
-| Gestión remota | Actualizaciones de firmware OTA \(actualización de firmware remota\) |
-| Forma | Módulo OBD-IIPlug-in, dimensiones 74 × 46 × 25 mm; peso ~71 g |
-| Entorno operativo | Temperatura de operación −30 °C a +85 °C |
-| Certificaciones | FCC, IC, PTCRB |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real continuo, análisis de rutas y telemetría para optimizar operaciones y reducir costos de combustible.
-- Antirrobo y recuperación de vehículos: reporte de la batería de respaldo y detección opcional de interferencias combinados con alertas de Plaspy ayudan a detectar robos y facilitar la recuperación.
-- Comportamiento del conductor y telemática de seguros: los datos del acelerómetro/giroscopio proporcionan eventos de frenado brusco, aceleración y giro para coaching o seguros basados en el uso.
-- Mantenimiento preventivo y reporte de DTC: diagnósticos del vehículo y datos del motor en tiempo real alimentan alertas de Plaspy para servicios programados y reducción de tiempos de inactividad.
-- Monitoreo de activos con sensores BLE \(ST4505T\): agregar sensores de temperatura, puertas o carga vía Bluetooth cuando sea necesario para los flujos de trabajo comerciales.
+- Seguimiento de flotas comerciales para optimizar rutas, supervisar la utilización y mantener la supervisión operativa.
+- Protección de vehículos de alquiler y activos usando reportes de respaldo y detección opcional de interferencias.
+- Programas de capacitación y seguridad para conductores impulsados por la detección de eventos de movimiento y scoring de comportamiento.
+- Programas de mantenimiento preventivo que dependen de datos de diagnóstico vehicular para activar alertas de servicio.
+- Monitoreo de cadena de frío o carga cuando se añaden sensores Bluetooth en las variantes compatibles.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el ST4505 para implementaciones con Plaspy ofrece un rastreador GPS fiable y fácil de instalar que combina posicionamiento preciso, telemetría a nivel de vehículo y datos de sensores robustos. Su interfaz OBD-II habilita diagnósticos y telemetría enriquecidos \(incluidos datos relacionados con el combustible cuando el vehículo los proporciona\), mientras que el acelerómetro y el giroscopio integrados respaldan la reconstrucción de accidentes y la puntuación del conductor. El soporte multi-red celular y una batería de respaldo maximizan la disponibilidad para operaciones críticas de gestión de flotas y flujos de trabajo anti-robo.
+El ST4505 es una opción práctica para organizaciones que necesitan un rastreador OBD-II sencillo que entregue posición, telemetría del vehículo y eventos de sensores a una plataforma de gestión de flotas. Su diseño enchufar y listo y la detección de movimiento integrada lo hacen ideal para flotas, operadores de alquiler y programas de seguros o seguridad que dependen de datos oportunos de ubicación y eventos.
 
-Para operadores que buscan telemática escalable, la capacidad OTA del ST4505 y la compatibilidad con Plaspy simplifican el mantenimiento y la configuración remotos. Las funciones opcionales de Bluetooth y detección de interferencias \(en las variantes\) amplían la capacidad a sensores Bluetooth y medidas anti-robo reforzadas cuando se utilizan dentro de los flujos de alertas e inmovilización de Plaspy o con módulos de inmovilización externos. El resultado es un rastreador GPS práctico y rentable para flotas, vehículos de alquiler, telemática de seguros y programas de mantenimiento preventivo que requieren seguimiento y telemetría en tiempo real fiables.
-
+Para saber más sobre cómo Plaspy puede usar la telemetría del ST4505 en sus flujos de trabajo, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales y las características de las variantes con el fabricante en http://www.suntechint.com/ antes de tomar decisiones de compra o despliegue.

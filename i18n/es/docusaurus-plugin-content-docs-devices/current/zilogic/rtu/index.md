@@ -2,27 +2,62 @@
 slug: /zilogic/rtu
 id: rtu
 sidebar_label: RTU
+title: Zilogic - RTU
 sidebar_class_name: menu_item_tracker
+description: Unidad RTU de monitoreo remoto Zilogic compatible con Plaspy para reportes en la nube, control de E/S, GPS opcional y transmisión configurable
+keywords:
+  - Zilogic RTU
+  - rastreador RTU
+  - BlackKite RTU
+  - compatibilidad RTU Plaspy
+  - rastreador GPS RTU
+  - monitoreo remoto RTU
+  - RTU M2M
+  - RTU MQTT
+  - RTU HTTP
+  - RTU ModBus
 ---
+
 # Zilogic - RTU
 
 ![RTU](./logo.jpg)
 
-El BlackKite-RTU de Zilogic es un sistema de monitoreo remoto asequible y ampliable que admite plataformas en la nube M2M a través de los protocolos HTTP y MQTT. Este dispositivo cuenta con un rico conjunto de IO e interfaz en serie para adquirir, monitorear y controlar los dispositivos de campo remotos de manera eficiente.
+El Zilogic RTU, también comercializado como BlackKite-RTU, es una unidad versátil de monitoreo remoto diseñada para plataformas máquina a máquina en la nube. Soporta protocolos listos para la nube y ofrece una variedad de entradas y salidas para adquirir, supervisar y controlar dispositivos de campo remotos. El RTU incluye funciones de almacenamiento en búfer durante cortes de conectividad, intervalos de reporte configurables y GPS opcional para seguimiento de ubicación, lo que lo hace adecuado para múltiples escenarios de monitoreo remoto.
 
-Una de las características destacadas del BlackKite-RTU es su capacidad para admitir protocolos de dispositivos HTTP / MQTT listos para la nube. Esto permite una fácil integración con plataformas en la nube y facilita el monitoreo y control remoto de los dispositivos conectados.
+Como dispositivo compatible con Plaspy, el RTU puede enviar información de ubicación y estado a Plaspy para la supervisión de flotas y activos. Su soporte para protocolos comunes y su comportamiento de transmisión configurable permiten integrarlo con Plaspy para proporcionar actualizaciones periódicas, notificaciones de eventos y datos históricos que Plaspy emplea en visualización, alertas e informes. Esta compatibilidad convierte al RTU en una opción práctica para organizaciones que desean combinar la flexibilidad del hardware de campo con las herramientas operativas de Plaspy.
 
-Otra característica destacada es la expansión de IO con interfaz ModBus opcional. Esto permite una mayor flexibilidad al conectar y controlar una amplia gama de sensores y dispositivos de campo remotos.
+## Aspectos destacados
 
-El BlackKite-RTU también ofrece un intervalo de transmisión de datos configurable, lo que le permite ajustar la frecuencia de envío de datos según sus necesidades. Además, cuenta con una selección de parámetros basada en TAG altamente configurable para reducir el tráfico GPRS y optimizar la eficiencia de la transmisión de datos.
+- Preparado para la nube con soporte de protocolos HTTP y MQTT para una integración sencilla con plataformas cloud
+- Intervalo de transmisión configurable desde 30 segundos para equilibrar frecuencia de actualizaciones y consumo de datos
+- Memoria FLASH interna que almacena hasta 24 horas de datos durante cortes de GPRS para evitar pérdida de información
+- Opciones de expansión de E/S y una interfaz ModBus opcional para conectar y controlar una amplia gama de dispositivos de campo
+- Soporte GPS opcional para monitoreo de ubicación de activos y vehículos
+- Autenticación en dos niveles para acceso remoto al dispositivo y mayor seguridad de conexión
+- Indicadores visuales de estado que facilitan la verificación de instalación y la resolución básica de problemas
 
-Este dispositivo también ofrece alertas de SMS generadas por el dispositivo, que se pueden configurar para notificar cambios de estado en las entradas y salidas. Además, cuenta con una memoria FLASH interna que puede almacenar hasta 24 horas de datos durante una interrupción de GPRS, lo que garantiza que no se pierda información importante.
+## Cómo funciona con Plaspy
 
-El BlackKite-RTU también ofrece autenticación de dos niveles para el acceso remoto a dispositivos, lo que garantiza la seguridad de sus datos y configuraciones. Además, tiene soporte opcional de GPS para el seguimiento de la ubicación, lo que le permite rastrear y monitorear la ubicación de sus dispositivos en tiempo real.
+Al integrarse con Plaspy, el Zilogic RTU entrega datos de campo y estado del dispositivo a la plataforma Plaspy, donde pueden ser monitoreados, agregados y gestionados. Plaspy ingiere los datos del RTU y ofrece paneles, alertas e informes pensados para la gestión de flotas y activos remotos.
 
-En cuanto a las interfaces, el BlackKite-RTU cuenta con una banda dual GSM / GPRS para conectividad, lo que garantiza una conexión estable y confiable. También cuenta con LED de estado útiles para la instalación del dispositivo y la resolución de problemas.
+- Utilice Plaspy para visualizar datos de ubicación cuando el RTU esté configurado con GPS opcional
+- Configure alertas de eventos y de estado en Plaspy basadas en cambios de E/S del RTU y en alertas generadas por el dispositivo
+- Supervise la conectividad del equipo y el comportamiento del almacenamiento en búfer en Plaspy durante cortes temporales de GPRS
+- Agregue la telemetría del RTU en Plaspy para reportes históricos y análisis operativos
+- Combine las entradas del RTU con otros activos conectados en Plaspy para una supervisión unificada de la flota y los dispositivos de campo
 
-Además, este dispositivo ofrece entradas digitales y analógicas para controlar de forma remota los sensores de campo, así como salidas digitales para controlar de forma remota los dispositivos conectados. También cuenta con una batería incorporada que proporciona operación a prueba de fallas durante aproximadamente 4 horas.
+## Casos de uso típicos
 
-Por último, el BlackKite-RTU cuenta con una interfaz serie para conectividad de sensores ampliados, lo que le permite conectar y controlar una amplia gama de sensores adicionales según sea necesario.
+- Rastreo remoto de activos y monitoreo básico de flota donde se requiere GPS opcional
+- Monitoreo de sitios industriales o de servicios públicos con reportes de E/S digitales y analógicos a una plataforma en la nube
+- Control remoto y actuación de dispositivos de campo mediante salidas digitales e interfaces seriales
+- Recolección de datos en sitios con conectividad intermitente, usando el almacenamiento a bordo para cubrir los periodos de desconexión
+- Despliegues M2M que requieren flexibilidad de protocolos y expansión de E/S para distintos sensores y actuadores
 
+## Por qué elegir este RTU con Plaspy
+
+El Zilogic RTU es una opción práctica para organizaciones que necesitan una unidad de monitoreo remoto flexible y capaz de integrarse con plataformas en la nube. Su soporte para HTTP y MQTT, los intervalos de transmisión configurables y el almacenamiento a bordo para resiliencia ante cortes encajan bien con los flujos de trabajo de Plaspy para monitoreo continuo, alertas e informes. La expansión ModBus opcional y la conectividad serial hacen al RTU adaptable a diversos equipos de campo sin necesidad de cambios de hardware personalizados.
+
+Dado que Plaspy se especializa en agregar y presentar datos de dispositivos para uso operativo, combinar el RTU con Plaspy es útil cuando usted busca una vista gestionada de equipos distribuidos, notificaciones oportunas sobre cambios de estado de E/S y visibilidad histórica para análisis. Si su despliegue requiere cadencia de reporte configurable, datos almacenados durante cortes y ubicación opcional, vale la pena evaluar el RTU como parte de una solución con Plaspy.
+
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current technical information and options with the official Zilogic documentation at https://zilogic.com/.

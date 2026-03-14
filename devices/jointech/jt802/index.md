@@ -2,61 +2,60 @@
 slug: /jointech/jt802
 id: jt802
 sidebar_label: JT802
+title: Jointech - JT802
 sidebar_class_name: menu_item_tracker
+description: Jointech JT802 valve slave lock compatible with Plaspy for secure valve control, alarm reporting, and safer tanker operations
+keywords:
+  - Jointech JT802
+  - JT802 valve lock
+  - tank truck valve slave
+  - Plaspy compatible
+  - intrinsic safety valve lock
+  - Bluetooth offline unlocking
+  - remote valve control
+  - fleet telemetry integration
+  - tanker security
+  - valve event reporting
 ---
+
 # Jointech - JT802
 
 ![JT802](./tracker.jpg)
 
-The Jointech JT802 is an intelligent tank truck valve slave lock engineered for safe, low-power control of multi-valve tanker installations. Designed to operate alongside Jointech master locks \(such as the JT701D and JT701L\), the JT802 adds secure, remotely managed valve control and event reporting to Plaspy compatible fleets and telemetry stacks. Its intrinsic safety certification and compatibility with intrinsically safe handheld terminals make it suitable for hazardous environments like fuel and oil transportation.
+The Jointech JT802 is an intelligent tank truck valve slave lock designed to provide safe, low-power control of multi-valve tanker installations. Intended to work alongside Jointech master locks such as the JT701D and JT701L, the JT802 adds remotely managed valve control and event reporting capabilities while meeting intrinsic safety requirements for hazardous fuel and oil environments.
 
-As a Plaspy compatible device, the JT802 complements GPS tracker solutions and real-time tracking platforms by delivering valve lock status, alarm events, and route playback data that integrate with fleet management, anti-theft workflows, and fuel monitoring processes. It supports both remote online unlocking through the master lock and Bluetooth-based offline unlocking for field crews, giving tanker operators flexible, auditable access control for everyday operations and emergency response.
+As a Plaspy compatible device, the JT802 complements GPS trackers and fleet platforms by surfacing valve lock status, alarm events, and timing data alongside position feeds. This enables coordinated access control, auditable unlocking workflows, and clearer route playback for tanker operators using Plaspy for fleet monitoring and operational oversight.
 
 ## Key Highlights
 
-- Plaspy compatible slave valve lock that works with Jointech master locks \(JT701D / JT701L\) to scale multi-valve tank truck deployments.
-- Remote online unlocking plus on-site Bluetooth offline unlocking for flexible access control across field and central operations.
-- Low-power, long-term operation powered by a disposable lithium manganese battery for reliable service life in remote fleets.
-- Intrinsic safety \(explosion-proof\) certification and compatibility with intrinsically safe handheld terminals for safe use in hazardous fuel and oil environments.
-- Real-time monitoring and historical route playback on supported platforms for faster incident response and clear audit trails.
-- Remote configuration of product parameters to simplify fleet rollouts and reduce field service visits.
-- Combines master lock data and mobile phone positioning to provide precise asset timing and location context without assuming an onboard GNSS unit.
+- Plaspy compatible valve slave lock that integrates with Jointech master locks to scale multi-valve tanker deployments
+- Supports remote online unlocking through the master lock and Bluetooth offline unlocking for on-site crews
+- Low-power design with a disposable lithium manganese battery for extended service life in remote fleets
+- Intrinsic safety certification and compatibility with intrinsically safe handheld terminals for hazardous environments
+- Real-time status and historical event playback to assist incident response and audit trails
+- Remote configuration of parameters to simplify rollouts and reduce field service needs
 
 ## How It Works with Plaspy
 
-The JT802 integrates into Plaspy-compatible workflows by reporting valve status, alarms, and timing data collected in cooperation with a Jointech master lock and handheld devices. When paired with a Plaspy-enabled fleet, the JT802’s events and status updates are surfaced alongside GPS tracker position data and other telemetry to create a unified operational view.
+The JT802 feeds valve events and status into Plaspy-enabled fleets by coordinating with a Jointech master lock and compatible handheld terminals. In Plaspy, these events are displayed alongside GPS tracker data to produce a unified operational picture that links access control to location and timing.
 
-- Real-time location and telemetry updates: Valve events and timing are linked with master lock and mobile phone positioning for situational awareness on Plaspy dashboards.
-- Remote online unlocking: Central operators can unlock valves remotely via the master lock pathway when permitted.
-- Bluetooth offline unlocking: Field crews can perform on-site unlocking using a Bluetooth-capable intrinsically safe handheld terminal even when network connectivity is unavailable.
-- Alarm and status reporting: Valve lock status and alarm events are transmitted to allow timely response and automated notifications in Plaspy.
-- Simultaneous control: Cloud platform and handheld terminal can both manage the JT802, enabling coordinated workflows and audit logging.
+- Link valve event timestamps with tracker positions to provide context for route playback and investigations
+- Allow central operators to perform permitted remote unlocking via the master lock pathway and view the result in Plaspy
+- Enable field crews to unlock on-site using Bluetooth capable intrinsically safe handheld terminals when connectivity is limited
+- Surface alarm and status reports in Plaspy to support timely notifications and operational response
+- Maintain coordinated control and audit logging when both cloud and handheld terminals interact with the JT802
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | JT802 |
-| --- | --- |
-| Manufacturer | Jointech \(designed to work with Jointech master locks JT701D / JT701L\) |
-| Connectivity | Slave communication with Jointech master locks; remote online unlocking via master; Bluetooth for on-site offline unlocking and handheld pairing |
-| Bands | Not specified \(communication depends on master lock and platform connectivity\) |
-| Power & Battery | Disposable lithium manganese battery for long-term, low-power operation |
-| Interfaces | Master-slave locking interface; remote unlock control; alarm reporting to master/cloud; Bluetooth interface for handheld terminals |
-| GNSS / Positioning | Positioning derived from combined data of master lock and mobile phone positioning; no separate GNSS module specified for JT802 |
-| Bluetooth | Bluetooth support for offline unlocking and pairing with intrinsically safe handheld terminals |
-| Remote Management | Remote configuration of product parameters; cloud and handheld terminal can control device simultaneously |
-| Safety & Certification | Intrinsic safety \(explosion-proof\) certification; compatible with intrinsically safe handheld terminals |
-| Form Factor | Valve slave lock for tank trucks and multi-valve tanker systems |
-
-## Use Cases
-
-- Fuel distribution management — coordinate valve access, delivery timing, and audit trails across multi-stop routes when used with Plaspy and GPS trackers.
-- Anti-theft protection — detect and report unauthorized valve activity or alarm events in real time to reduce fuel loss and support rapid intervention.
-- Tanker transportation monitoring — link valve events and route playback for compliance, dispatching, and incident investigation.
-- Secure oil logistics operations — deploy in hazardous environments with intrinsic safety certification and interoperable handheld control for safe field workflows.
+- Fuel distribution management coordinating valve access, delivery timing, and audit trails across multi-stop routes
+- Anti-theft monitoring to detect and report unauthorized valve activity and support rapid intervention
+- Tanker transportation oversight linking valve events with route playback for compliance and incident review
+- Secure oil logistics in hazardous locations where intrinsic safety certification and handheld interoperability are required
 
 ## Why Choose This Tracker with Plaspy
 
-Although the JT802 is a valve lock rather than a standalone GPS tracker, it is built to integrate tightly with Plaspy-compatible fleets and telemetry systems. By pairing valve status and alarm events with GPS tracker location feeds and fleet management data, JT802 extends real-time tracking and telemetry into the access-control layer of tanker operations. This combined visibility helps operators reduce risk, streamline fuel monitoring and anti-theft processes, and maintain regulatory and safety compliance.
+Although the JT802 functions as a valve slave lock rather than a standalone GPS tracker, it extends fleet visibility when used with Plaspy by bringing access control and alarm events into the same telemetry stream as position data. This combined view helps operators streamline anti-theft workflows, improve fuel monitoring, and maintain clearer audit records across tanker operations.
 
-The JT802’s low-power design and disposable lithium manganese battery reduce maintenance overheads, while remote configuration and simultaneous cloud/handheld control speed deployments and lower total cost of ownership. Intrinsic safety certification and Bluetooth offline unlocking via safe handheld terminals ensure the device can be deployed across high-risk routes and facilities with confidence. For tanker operators looking to enhance fleet management, telemetry, and security workflows on Plaspy, the JT802 is a practical, interoperable component that complements GPS trackers, ignition/immobilizer datasets, fuel monitoring systems, and Bluetooth sensors already in use.
+The device is designed for long service intervals and safe deployment in hazardous environments, and its support for both remote online unlocking and Bluetooth offline unlocking gives operators flexible, auditable control options. For organizations using Plaspy to centralize fleet monitoring and operational oversight, the JT802 provides an interoperable component that complements GPS trackers and handheld workflows.
 
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current specifications on the manufacturer's official website https://www.jointcontrols.com/.

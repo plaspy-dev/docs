@@ -2,32 +2,62 @@
 slug: /totemtech/at09
 id: at09
 sidebar_label: AT09
+title: Totemtech - AT09
 sidebar_class_name: menu_item_tracker
+description: Compatibilidad y características del rastreador GPS Totemtech AT09 con Plaspy para control y monitoreo de flotas
+keywords:
+  - Totemtech AT09
+  - Rastreador AT09
+  - Rastreador Totemtech
+  - AT09 Plaspy
+  - Rastreador GPS AT09
+  - Rastreador vehicular AT09
+  - Seguimiento de flotas AT09
+  - Funciones AT09
+  - GPS Totemtech
+  - Monitoreo AT09
 ---
+
 # Totemtech - AT09
 
 ![AT09](./logo.jpg)
 
-El rastreador GPS Totemtech AT09 es una solución de monitoreo de vehículos de alta calidad que ofrece una amplia gama de características y funcionalidades. Con este dispositivo, podrás realizar un seguimiento en tiempo real de tu vehículo y acceder a datos de seguimiento históricos. Además, cuenta con la capacidad de enviar datos a dos servidores simultáneamente, lo que garantiza una mayor confiabilidad y seguridad en la transmisión de información.
+El Totemtech AT09 es un rastreador GPS vehicular versátil diseñado para el seguimiento en tiempo real y la monitorización mediante múltiples sensores. Combina la localización con entradas especializadas para presión de neumáticos, hasta varios sensores de combustible y sondas de temperatura, además de conectividad para periféricos como pantallas, cámaras y lectores RFID. La detección de movimiento integrada y el almacenamiento local amplían su utilidad para supervisión continua y revisión histórica de recorridos.
 
-Una de las características destacadas del AT09 es su capacidad de monitorear en tiempo real la presión de los neumáticos, así como también los sensores de combustible y temperatura. Esto te permitirá tener un control completo sobre el estado de tu vehículo y tomar medidas preventivas en caso de cualquier anomalía. Además, el rastreador GPS AT09 es compatible con una amplia gama de dispositivos, como pantallas, cámaras, lectores de RFID y navegadores Garmin, lo que te brinda una mayor flexibilidad y versatilidad en su uso.
+Como modelo compatible con Plaspy, el AT09 puede enviar su telemetría y eventos a la plataforma de gestión de flotas de Plaspy. Esta compatibilidad hace que el AT09 sea adecuado para organizaciones que desean consolidar ubicación de vehículos, lecturas de sensores y eventos de periféricos en una sola vista operativa para monitoreo, alertas e informes dentro de Plaspy.
 
-El AT09 también cuenta con otras características importantes, como la capacidad de enviar comandos a través de GPRS, la integración de tarjetas Micro SD y la función de control de voz con micrófono. Además, este rastreador GPS es compatible con diferentes modos de ahorro de tráfico de datos GPRS, lo que te permitirá optimizar el uso de datos y prolongar la duración de la batería.
+## Características clave
 
-En cuanto a las especificaciones técnicas, el AT09 cuenta con una fuente de alimentación de 12V a 60V y una batería de respaldo de 800mAh. Tiene un consumo de energía normal de 2W, con un pico de 12.5W. Sus dimensiones son 93 \* 82 \* 30mm y pesa 150g. Además, cuenta con una amplia gama de interfaces, incluyendo entradas y salidas digitales y analógicas, puertos RS232 y RS485, y puertos para la comunicación de voz.
+- Seguimiento de ubicación en tiempo real con trazas históricas para revisar rutas y reproducción  
+- Monitoreo de presión de neumáticos para mantener la seguridad en operación  
+- Soporte para hasta cuatro sensores de combustible y dos sensores de temperatura para telemetría multipunto  
+- Transmisión a servidores redundantes para entrega de datos más fiable  
+- Tres puertos seriales para conectar periféricos como pantallas, cámaras y lectores RFID  
+- Acelerómetro integrado de 3 ejes para reportar estado de movimiento y eventos  
+- Actualizaciones de firmware OTA que simplifican el mantenimiento y la puesta al día del dispositivo
 
-En resumen, el rastreador GPS Totemtech AT09 es una opción confiable y versátil para el monitoreo de vehículos. Con sus características avanzadas y su capacidad de enviar datos a dos servidores simultáneamente, te brindará un control completo sobre tu vehículo y te permitirá tomar medidas preventivas en caso de cualquier anomalía. Además, su compatibilidad con una amplia gama de dispositivos y su capacidad de enviar comandos a través de GPRS lo convierten en una solución flexible y fácil de usar.
+## Cómo funciona con Plaspy
 
-### Características destacadas:
+Al integrarse con Plaspy, el AT09 envía datos de ubicación y de sensores a la plataforma, donde se pueden visualizar, registrar y gestionar. Plaspy recibe la información entrante del dispositivo y la convierte en posición vehicular, valores de sensores y registros de eventos que son útiles en los flujos de trabajo de la flota.
 
-- Monitoreo en tiempo real de la presión de los neumáticos
-- Monitoreo simultáneo de sensores de combustible y temperatura
-- Envío de datos a dos servidores simultáneamente
-- Compatibilidad con pantallas, cámaras, lectores de RFID y navegadores Garmin
-- Seguimiento en tiempo real y datos de seguimiento históricos
-- Actualización de firmware por OTA
-- Soporte de DC 9V a 50V con protección de sobretensión
-- Envío de comandos a través de GPRS
-- Integración de tarjeta Micro SD
-- Función de control de voz con micrófono
+- Consolide ubicación en vivo y trazas históricas en los mapas y líneas de tiempo de Plaspy  
+- Muestre lecturas de presión de neumáticos, nivel de combustible y temperatura en paneles e informes  
+- Configure alertas en Plaspy para umbrales como bajo nivel de combustible o presión anormal de neumáticos  
+- Use las herramientas de reportes de Plaspy para analizar tendencias de sensores y la utilización de vehículos a lo largo del tiempo  
+- Aproveche la transmisión a servidores duales para reducir huecos de datos en los informes de Plaspy
 
+## Casos de uso típicos
+
+- Monitoreo de flotas donde la supervisión de presión de neumáticos y combustible mejora la seguridad y reduce costos  
+- Operaciones de transporte de larga distancia y logística que requieren seguimiento redundante y revisión histórica de rutas  
+- Control de carga sensible a la temperatura mediante sensores integrados en el rastreador  
+- Vehículos de servicio y utilitarios que incorporan cámaras o lectores RFID para capturar eventos operativos  
+- Vigilancia de activos y equipos donde la detección de movimiento y el almacenamiento local son útiles
+
+## Por qué elegir este rastreador con Plaspy
+
+El AT09 es una opción práctica para flotas que necesitan más que la ubicación GPS básica. Su soporte para múltiples sensores de combustible y temperatura, monitorización de presión de neumáticos y conexiones a periféricos permite a los operadores recopilar un amplio conjunto de datos operativos por vehículo. Esas capacidades encajan bien con Plaspy, donde los flujos de sensores y eventos se pueden convertir en alertas, informes e información procesable.
+
+Plaspy facilita integrar los datos del AT09 en una única capa operativa, lo que hace más sencillo vigilar la salud del vehículo, activar notificaciones y generar reportes de desempeño. Si sus operaciones dependen de combinar ubicación con telemetría de sensores y dispositivos conectados, el AT09 junto con Plaspy ofrece una alternativa equilibrada para mejorar la visibilidad y supervisión.
+
+Para obtener más información sobre cómo Plaspy trabaja con rastreadores compatibles como el Totemtech AT09, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, así que verifique la información técnica actual en el sitio oficial de Totemtech http://www.totemtek.com/ antes de tomar decisiones de compra.

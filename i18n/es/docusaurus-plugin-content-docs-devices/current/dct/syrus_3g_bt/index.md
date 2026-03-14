@@ -2,59 +2,59 @@
 slug: /dct/syrus_3g_bt
 id: syrus_3g_bt
 sidebar_label: Syrus 3G+ BT
+title: DCT - Syrus 3G+ BT
 sidebar_class_name: menu_item_tracker
+description: Compatibilidad e integración del rastreador DCT Syrus 3G+ BT con Plaspy para gestión de flotas y telemetría
+keywords:
+  - DCT Syrus 3G+ BT
+  - Syrus 3G+ BT
+  - Syrus 3G+ BT Plaspy
+  - Rastreador GPS DCT Syrus
+  - Seguimiento de flotas Syrus 3G+ BT
+  - Compatible Syrus BTT-1634
+  - Pegasus Gateway REST APIs
+  - Respaldo satelital Iridium
+  - Rastreador de sensores Bluetooth
+  - Pasarela telemática industrial
 ---
+
 # DCT - Syrus 3G+ BT
 
 ![Syrus 3G+ BT](./tracker.png)
 
-El Syrus 3G+ BT \(Ítem # S3GBT-2481\) es un gateway telemático robusto diseñado para despliegues de IoT y M2M escalables. Diseñado para gestión de flotas y monitoreo industrial, el dispositivo admite Bluetooth 4.1 \(Smart Ready\) para el emparejamiento de sensores de bajo consumo, múltiples puertos físicos para telemetría y periféricos, y respaldo satelital opcional mediante un accesorio Iridium Satcom. Como gateway rastreador GPS compatible con Plaspy, el Syrus 3G+ BT ofrece la conectividad y la flexibilidad de sensores necesarias para un rastreo en tiempo real confiable y para obtener insights operativos accionables para la flota.
+El Syrus 3G+ BT es una pasarela telemática robusta de DCT diseñada para despliegues IoT y M2M escalables. Orientado a la gestión de flotas y al monitoreo industrial, el dispositivo soporta Bluetooth 4.1 Smart Ready para emparejar sensores de bajo consumo, múltiples puertos físicos para accesorios y periféricos, y un accesorio opcional de comunicaciones por satélite Iridium como respaldo. Como gateway de hardware, consolida en el borde la ubicación y los datos de sensores para ofrecer rastreo fiable y visibilidad operativa.
 
-Ya sea que necesite una unidad robusta para telemática de vehículos, seguimiento de activos o IoT industrial remoto, el Syrus 3G+ BT se integra con plataformas en la nube mediante Pegasus Gateway REST APIs para simplificar la integración y acelerar la implementación. Su enfoque modular admite sensores Bluetooth, etiquetas multi-sensor \(incluida la compatibilidad con Syrus BTT-1634\) y un amplio conjunto de interfaces de accesorios, lo que lo convierte en un dispositivo edge de telemetría ideal cuando se combina con Plaspy para monitoreo, alertas e informes.
+Este modelo es compatible con Plaspy e puede integrarse en flujos de trabajo de seguimiento en la nube mediante las Pegasus Gateway REST APIs. Esa integración convierte al Syrus 3G+ BT en una opción práctica cuando usted necesita un dispositivo endurecido en el borde que envíe ubicación, estado y flujos de sensores a Plaspy para monitoreo en tiempo real, alertas e informes. Su diseño modular y el soporte de accesorios brindan flexibilidad para distintos requisitos de telemetría en flotas e industrias.
 
-## Características clave
+## Aspectos destacados
 
-- Plaspy compatible: se integra con Plaspy a través de Pegasus Gateway REST APIs para conectividad rápida basada en estándares y intercambio de datos.
-- Bluetooth 4.1 Smart Ready: se empareja con sensores y beacons Bluetooth de bajo consumo, incluida la etiqueta multi-sensor Syrus BTT-1634, para ampliar la telemetría.
-- Gateway telemático robusto: diseñado para entornos de vehículos e industriales con múltiples puertos físicos para conectar sensores y periféricos.
-- Opción de respaldo satelital: compatible con accesorio Iridium Satcom opcional para mantener la conectividad en áreas remotas.
-- Écosistema modular de sensores: admite casos de telemetría como monitoreo de combustible, detección de encendido/estado y sensorización ambiental cuando está conectado a periféricos adecuados.
-- APIs listas para la nube: Pegasus Gateway REST APIs abstraen protocolos de hardware y simplifican la integración con Plaspy y otros sistemas back-end.
-- Diseñado para seguimiento en tiempo real y telemetría: facilita la gestión de flotas, monitorización anti-robo y visibilidad de activos en redes mixtas.
+- Pasarela compatible con Plaspy que se integra mediante Pegasus Gateway REST APIs para el intercambio de datos en la nube
+- Soporte Bluetooth 4.1 Smart Ready para emparejar sensores y tags de bajo consumo como el Syrus BTT-1634
+- Diseño resistente, adecuado para telemática vehicular y entornos industriales, con múltiples puertos para accesorios
+- Accesorio opcional de respaldo satelital Iridium para mantener la conectividad donde no hay servicio celular
+- Ecosistema modular de sensores y accesorios que permite ampliar la recolección de telemetría según el caso de uso
+- Integración lista para la nube que facilita el envío de datos de los dispositivos a la supervisión y reporte en Plaspy
 
 ## Cómo funciona con Plaspy
 
-El Syrus 3G+ BT conecta la telemetría de vehículos y activos con Plaspy reenviando datos de sensores y de estado a través de Pegasus Gateway REST APIs o canales de telemetría directos. Plaspy recibe flujos de ubicación y sensores para seguimiento en tiempo real, alertas personalizables e informes. Esta combinación transforma datos brutos del dispositivo en insights accionables para operaciones de flota, seguridad y flujos de trabajo de mantenimiento.
+El Syrus 3G+ BT reenvía telemetría y datos de ubicación a Plaspy a través de APIs estandarizadas de gateway, lo que permite que Plaspy consuma los flujos del dispositivo y los muestre en mapas, paneles y reglas de alerta. Plaspy transforma esos datos entrantes en información útil para operaciones de flota, alertas de seguridad y procesos de mantenimiento.
 
-- Actualizaciones de seguimiento y telemetría en tiempo real enviadas a Plaspy para monitorización basada en mapas e informes históricos.
-- Integración de sensores Bluetooth: recibir datos de temperatura, movimiento, puertas u otros datos de sensores desde etiquetas BLE como la BTT-1634.
-- Mensajería satelital de respaldo: continuidad de alertas críticas y actualizaciones de ubicación cuando no hay cobertura celular \(requiere accesorio Iridium\).
-- Agregación de datos de accesorios y periféricos: múltiples puertos físicos permiten entradas de sensores de combustible, interruptores de puertas y otras interfaces del vehículo cuando están instalados.
-- Comandos y configuración basados en API: use Pegasus Gateway REST APIs para gestionar el comportamiento del dispositivo, activar diagnósticos remotos y optimizar las implementaciones con Plaspy.
+- Actualizaciones de ubicación y telemetría en tiempo real que aparecen en Plaspy para monitoreo por mapas y revisión de historiales
+- Datos de sensores Bluetooth de tags emparejados que pueden transmitirse a Plaspy para monitoreo de temperatura, movimiento, puertas u otros sensores personalizados
+- El accesorio satelital opcional garantiza continuidad para alertas críticas y actualizaciones de ubicación cuando no hay cobertura celular
+- Los múltiples puertos para accesorios permiten agregar entradas como sensores de combustible o de estado para consolidar reportes en Plaspy
+- Las Pegasus Gateway REST APIs facilitan flujos de trabajo de configuración y gestión remota para optimizar despliegues con Plaspy
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | Syrus 3G+ BT \(Ítem # S3GBT-2481\) |
-| --- | --- |
-| Conectividad | Celular 3G \(3G+\); respaldo satelital opcional mediante un accesorio Iridium Satcom |
-| Bluetooth | Bluetooth 4.1, Smart Ready \(compatible con la etiqueta multi-sensor Syrus BTT-1634\) |
-| Interfaces físicas | Múltiples puertos físicos para integración de accesorios y periféricos \(soporta una amplia gama de sensores\) |
-| APIs e Integración | Pegasus Gateway REST APIs para abstracción de hardware y simplificación de la integración en la nube |
-| Satélite | Accesorio Iridium Satcom opcional compatible para comunicaciones de respaldo en áreas remotas |
-| Factor de forma | Gateway telemático robusto diseñado para instalaciones en vehículos e IoT industriales |
-| Documentación | Guía de instalación y hoja de datos disponibles por el fabricante |
-
-## Casos de uso
-
-- Gestión de flotas y despliegues de rastreadores GPS en tiempo real: entrega la ubicación de los vehículos, historial de rutas y telemetría a Plaspy para visibilidad operativa.
-- Antirrobo y monitorización de seguridad: combina entradas de sensores con alertas de Plaspy y la conexión satelital opcional para mantener alertas y ubicación reportadas en zonas remotas.
-- Seguimiento de activos industriales: monitorea equipos remotos y sensores mediante etiquetas Bluetooth para temperatura, choques o detección de manipulación.
-- Telemetría de combustible y estado: integra sensores de nivel de combustible y entradas de estado a través de los puertos de accesorios del dispositivo para alimentar paneles de monitorización de combustible y prevenir uso no autorizado.
-- Escenarios de conectividad híbrida: usar cellular como transporte principal y Iridium satélite como respaldo para garantizar la continuidad de telemetría de activos críticos.
+- Gestión de flotas para vehículos que requieren rastreo sólido, historial de rutas y supervisión operativa
+- Prevención de robos y monitoreo de seguridad que combina entradas de sensores con alertas de Plaspy y respaldo satelital opcional
+- Monitoreo remoto de activos industriales usando tags Bluetooth para detección ambiental o de manipulación
+- Telemetría de combustible y estados para paneles que rastrean consumo y uso no autorizado
+- Configuraciones de conectividad híbrida donde lo celular es primario y lo satelital actúa como respaldo resiliente
 
 ## Por qué elegir este rastreador con Plaspy
 
-La combinación del Syrus 3G+ BT con Plaspy ofrece un equilibrio práctico entre hardware de campo robusto e integración preparada para la nube. El soporte de sensores Bluetooth y la E/S multiport permiten recopilar telemetría rica —temperatura, movimiento, nivel de combustible, estado de puertas o encendido—, mientras que las Pegasus Gateway REST APIs reducen el tiempo de integración al abstraer los protocolos de bajo nivel. Para los equipos de gestión de flotas, eso se traduce en despliegues más rápidos, seguimiento en tiempo real consistente y flujos de trabajo de anti-robo y mantenimiento más fiables. Cuando las operaciones se extienden más allá de la cobertura celular, el accesorio satelital Iridium opcional añade una ruta de respaldo resiliente para que Plaspy siga recibiendo alertas críticas y datos de ubicación.
+El Syrus 3G+ BT ofrece un equilibrio práctico entre hardware resistente para campo e integración lista para la nube, ideal para organizaciones que requieren telemetría flexible en el borde. Su soporte Bluetooth y las opciones de accesorios multi puerto permiten a los equipos recopilar una gama más amplia de datos de sensores, mientras que las Pegasus Gateway REST APIs reducen la complejidad de integración al enviar esos flujos a Plaspy. Para usuarios de flotas e industria, esa combinación facilita despliegues más rápidos, visibilidad en tiempo real y mejor supervisión operativa.
 
-En resumen, las organizaciones que necesiten un gateway rastreador GPS flexible con una sólida compatibilidad con sensores Bluetooth, conectividad de múltiples accesorios y soporte de APIs en la nube encontrarán en el Syrus 3G+ BT una opción fiable para soluciones de telemetría de flotas e industriales basadas en Plaspy.
-
+Para saber más sobre Plaspy y cómo funciona con dispositivos compatibles como el Syrus 3G+ BT visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo; por favor verifique la información técnica actual y las opciones de accesorios en el sitio del fabricante https://www.digitalcomtech.com/ antes de tomar decisiones de compra o despliegue.

@@ -2,65 +2,62 @@
 slug: /atrack/ax300
 id: ax300
 sidebar_label: AX300
+title: ATrack - AX300
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD ATrack AX300 para vehículos compatible con Plaspy, seguimiento y diagnóstico vía LTE-M
+keywords:
+  - ATrack AX300
+  - AX300 rastreador
+  - AX300 Plaspy
+  - rastreador ATrack
+  - rastreador OBD para vehículos
+  - rastreador LTE-M
+  - seguimiento de flotas
+  - telemetría vehicular
+  - rastreador GNSS
+  - compatible con Plaspy
 ---
+
 # ATrack - AX300
 
 ![AX300](./tracker.jpg)
 
-# AX300 LTE-M OBD Vehicle Tracker
+La AX300 de ATrack es un rastreador compacto pensado para la gestión profesional de flotas y la telemetría vehicular. Diseñado para conectarse a través del puerto OBD-II del vehículo, la AX300 proporciona posición GNSS en tiempo real junto con datos del motor y parámetros de diagnóstico, por lo que resulta ideal en operaciones que requieren visibilidad tanto de la ubicación como del estado del vehículo. Su diseño prioriza el uso en entornos vehiculares exigentes donde la telemetría continua y la conectividad confiable son fundamentales.
 
-El AX300 de ATrack es un rastreador GPS compacto, compatible con Plaspy, diseñado para la gestión profesional de flotas y la telemática de vehículos. Diseñado para conectarse al puerto OBD-II, el AX300 ofrece seguimiento en tiempo real, telemetría del motor y datos de diagnóstico a través de LTE-M para que los operadores de flotas puedan monitorizar la ubicación, la velocidad y el estado del vehículo a través de la plataforma de Plaspy.
+Como dispositivo compatible con Plaspy, la AX300 puede transmitir posicionamiento y datos de diagnóstico a Plaspy para monitorización unificada, alertas e informes. Esta compatibilidad permite a los operadores de flotas combinar posicionamiento preciso con telemetría derivada del OBD dentro de los paneles de Plaspy, facilitando la supervisión operativa, los flujos de mantenimiento y las respuestas ante robos sin necesidad de sistemas separados.
 
-Construido para despliegues de vehículos exigentes, el AX300 es compatible con datos OEM CAN, admite dos canales CAN, es compatible con adaptadores RP1226 y sensores Bluetooth opcionales — lo que lo hace ideal para flotas de logística, autobuses escolares, alquiler de coches y construcción que requieren telemetría fiable, flujos de antirrobo e insights operativos a través de Plaspy.
+## Aspectos destacados
 
-## Aspectos clave
-
-- Compatible con Plaspy: integración nativa lista para alimentar la ubicación en tiempo real y la telemetría diagnóstica en Plaspy para paneles, alertas e informes.
-- Conectividad LTE-M: variantes regionales Cat.M1 \(AX300‑MX, AX300‑MT, AX300‑MG\) ofrecen comunicación celular de área amplia y bajo consumo para un seguimiento continuo.
-- Acceso directo OBD-II: Recupera diagnósticos del motor y del vehículo \(ISO 15765-4, Dual SAE J1939, SAE J1708\) para obtener información más rica de la flota, incluida telemetría relacionada con el combustible cuando esté disponible en el vehículo.
-- Doble CAN y detección automática: Soporta doble bus CAN y datos CAN OEM con detección automática de protocolos para una integración fluida con vehículos modernos.
-- Rendimiento GNSS robusto: GPS + GLONASS con excelente sensibilidad y una precisión típica CEP de 2.5 m para un seguimiento en tiempo real preciso.
-- Durabilidad de grado vehicular: Amplio rango de temperatura de funcionamiento, resistencia a vibraciones y golpes conforme MIL-STD-810G y SAE J1455 para entornos exigentes.
-- Sensores opcionales Bluetooth: compatibilidad BLE v5.0 que permite sensores inalámbricos o una app móvil complementaria para telemetría adicional o flujos de trabajo del conductor.
+- Compatible con Plaspy para integración en tiempo real de ubicación y telemetría de diagnóstico.
+- Acceso directo al OBD-II para obtener parámetros del motor y diagnósticos que enriquecen la visibilidad de la flota.
+- Conectividad LTE-M con variantes regionales para seguimiento eficiente en áreas amplias.
+- Soporte de doble CAN y acceso a datos CAN OEM para telemetría en vehículos modernos.
+- Rendimiento GNSS robusto con alta sensibilidad y precisión típica a nivel de metros.
+- Durabilidad de grado vehicular con amplio rango de temperatura operativa y resistencia a vibraciones.
+- Soporte opcional de sensores vía Bluetooth para ampliar la información situacional.
 
 ## Cómo funciona con Plaspy
 
-El AX300 transmite la posición GNSS y los diagnósticos del vehículo a Plaspy a través de LTE-M usando transporte UDP/IP, TCP/IP o SMS. Una vez configurado en Plaspy, el rastreador proporciona actualizaciones de ubicación continuas, parámetros obtenidos por CAN y alertas basadas en eventos para gestionar de forma eficiente la flota, monitorizar anti-robo y programas de mantenimiento desde una única consola.
+Al conectarse, la AX300 envía posicionamientos GNSS y telemetría OBD/CAN a Plaspy para que los operadores puedan monitorear vehículos y analizar comportamientos históricos. En Plaspy, estos datos se integran en vistas de mapa, flujos de eventos e informes que apoyan las operaciones diarias de la flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: las correcciones GNSS y los datos del vehículo derivados de OBD llegan a Plaspy para mapas en vivo y trazados históricos.
-- Estado del motor e encendido: los canales OBD-II y CAN informan sobre el estado del motor, RPM y estado de encendido para apoyar el análisis del comportamiento del conductor y de las rutas.
-- Monitoreo de combustible y diagnósticos: donde OBD-II del vehículo expone parámetros de combustible o consumo, el AX300 transmite esta telemetría a Plaspy para monitoreo y control de costos de combustible.
-- Flujos de antirrobo e inmovilización: Plaspy puede usar la información de encendido o diagnósticos para activar alertas; se pueden implementar flujos de inmovilización o corte cuando se empareja con actuadores compatibles y la instalación.
-- Sensores y balizas Bluetooth: datos BLE opcionales \(temperatura, sensores de puerta o presencia de la app móvil\) se envían a Plaspy para mejorar la conciencia situacional.
+- Ubicación continua y trazas históricas para análisis de rutas y geocercas.
+- Informes de estado del motor e ignición para evaluar el comportamiento del conductor y el estado del vehículo.
+- Parámetros de combustible y diagnósticos transmitidos a Plaspy cuando están disponibles desde el vehículo, lo que aporta información para costos y mantenimiento.
+- Alertas y notificaciones basadas en eventos de ignición, movimiento o disparadores de diagnóstico.
+- Entradas de sensores Bluetooth disponibles en Plaspy para agregar señales de temperatura, puertas o presencia y ampliar el monitoreo.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE FDD Cat.M1 \(variantes regionales\). Transporte de datos: UDP/IP, TCP/IP, SMS. |
-| --- | --- |
-| Bandas / Variantes | Variantes regionales: AX300‑MX \(Norteamérica\), AX300‑MT \(LATAM\), AX300‑MG \(Global\) con soporte de bandas LTE FDD regional apropiadas. |
-| Alimentación y batería | Funciona en sistemas de vehículo de 12V/24V; corriente típica ~100 mA a 12V; modo de suspensión profundo ~3.3 mA a 12V. Batería de respaldo de 3.7V y 250 mAh. 16 Mbit de flash interno para almacenamiento local. |
-| Interfaces | Conector OBDII SAE J1962 Tipo B; adaptadores opcionales DEUTSCH/6-pin/9-pin y RP1226; zócalo Nano SIM; Micro USB para configuración. Soporta doble bus CAN y acceso a datos CAN OEM. |
-| GNSS | GPS + GLONASS. 33 canales de seguimiento / 99 de adquisición. Sensibilidad de adquisición -149 dBm; seguimiento -167 dBm. Precisión típica de ubicación 2.5 m CEP \(50%\). |
-| Bluetooth | BLE v5.0 opcional para sensores inalámbricos y conectividad con la app móvil. |
-| Gestión remota | Gestión de dispositivos ATrack \(ADM\), comandos SMS, configuración USB y actualizaciones FOTA \(firmware over-the-air\) soportadas. |
-| Formato y durabilidad | Dimensiones 66.8 × 50 × 23 mm; peso ≈ 50 g. Alcance operativo -40°C a 60°C \(con alimentación principal\), -20°C a 60°C con batería interna; 95% HR sin condensación. Cumple MIL-STD-810G y SAE J1455 de vibración/choque. |
-| Audio / Indicadores | Acelerómetro de 3 ejes ±16g; zumbador >70 dB a 10 cm; tres LEDs de estado \(Power, GPS, Cellular\). |
-| Certificaciones y operadores | FCC, IC, PTCRB, RoHS. Operadores listados incluyen AT&T y Verizon para despliegues en Norteamérica. |
-
-## Casos de uso
-
-- Gestión de flotas y logística: seguimiento centralizado en tiempo real, reproducción de rutas y telemetría del motor para una mayor eficiencia operativa.
-- Autobuses escolares y flotas de pasajeros: supervisión de seguridad, estado de encendido y visibilidad de la ubicación a través de Plaspy para alertas a padres y operadores.
-- Car sharing y alquiler: diagnósticos derivados de OBD y ubicación para el seguimiento de uso, facturación y medidas antirrobo.
-- Construcción, minería y vehículos pesados: telemetría robusta con resistencia a vibraciones y rango de temperatura ampliado para emplazamientos severos.
-- Taxis y servicios a demanda: despacho en tiempo real, telemetría de comportamiento del conductor y BLE opcional para emparejamiento con la app del conductor.
+- Gestión centralizada de flotas y logística con seguimiento en vivo y reproducción de rutas.
+- Visibilidad de autobuses escolares y flotas de pasajeros para seguridad y notificaciones al operador.
+- Operaciones de car sharing y alquiler que requieren ubicación además de datos de uso provenientes del OBD.
+- Implementaciones en construcción y vehículos pesados que necesitan telemetría robusta en condiciones adversas.
+- Taxis y servicios bajo demanda que monitorean ubicación y telemetría relacionada con el conductor.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Al combinar el AX300 con Plaspy, obtiene una solución integrada para la gestión de flotas basada en rastreadores GPS que combina una posición GNSS precisa con diagnósticos detallados del vehículo. La conexión OBD-II y el soporte de doble CAN ofrecen telemetría de alto valor, desde la velocidad y parámetros del motor hasta datos de combustible cuando están disponibles, lo que facilita un mantenimiento más inteligente, menos tiempo de inactividad y un mejor control del combustible.
+Combinar la AX300 con Plaspy ofrece una vía práctica para unir un posicionamiento GNSS preciso con contexto diagnóstico del vehículo, lo que favorece una planificación de mantenimiento más inteligente y un mejor control operativo. La capacidad OBD-II y el soporte de doble CAN introducen datos vehiculares más profundos en Plaspy para que los equipos puedan actuar sobre el estado del motor y del vehículo junto con la información de ubicación.
 
-La conectividad LTE-M y el diseño de bajo consumo del AX300 están optimizados para implementaciones escalables, mientras ADM y FOTA facilitan la gestión del ciclo de vida del dispositivo. Para operadores enfocados en flujos de trabajo de anti-robo y control remoto, Plaspy puede actuar sobre las señales de encendido y diagnóstico del AX300 e implementar procedimientos de inmovilización o corte cuando se empareja con hardware compatible. Sensores Bluetooth opcionales amplían aún más las capacidades para monitoreo de temperatura, detección de puertas o integración con la app del conductor.
+La AX300 está diseñada para despliegues escalables en vehículos, con variantes LTE-M regionales, funciones de gestión de dispositivos y expansión Bluetooth opcional para cubrir requerimientos comunes de flota. Para organizaciones que buscan seguimiento integrado, diagnósticos y alertas en una sola plataforma, la combinación del hardware AX300 y el software Plaspy ofrece una solución clara y manejable.
 
-En conjunto, el AX300 ofrece una plataforma fiable y compatible con Plaspy para rastreo en tiempo real, telemetría y diagnósticos del vehículo, ayudando a las flotas a mejorar la utilización, la seguridad y la eficiencia operativa sin sacrificar robustez ni manejabilidad.
-
+Learn more about Plaspy and how compatible trackers are used with the platform at https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so verify current technical information and regional variants on the official ATrack site https://www.atrack.com.tw/.

@@ -2,43 +2,59 @@
 slug: /lk_gps/lk105b
 id: lk105b
 sidebar_label: LK105B
+title: LK-GPS - LK105B
 sidebar_class_name: menu_item_tracker
+description: Pequeño rastreador GPS para mascotas LK105B compatible con Plaspy para ubicación en tiempo real, alertas SOS y reproducción de historial
+keywords:
+  - LK GPS LK105B
+  - rastreador LK105B
+  - rastreador GPS para mascotas
+  - mini rastreador para mascotas
+  - rastreo en tiempo real
+  - compatible con Plaspy
+  - rastreador de seguridad para mascotas
+  - rastreador SOS para mascotas
+  - rastreador con historial de ubicaciones
+  - rastreador resistente al agua
 ---
+
 # LK-GPS - LK105B
 
 ![LK105B](./logo..jpg)
 
-El rastreador GPS para mascotas LK105B de KJ-GPS es un dispositivo compacto y confiable diseñado para mantener un seguimiento de tus queridas mascotas. Con su tecnología GPS y de Servicio Basado en la Localización \(LBS\), este rastreador puede localizar con precisión a tu mascota en tiempo real, incluso en entornos subterráneos o de túneles, gracias a su capacidad A-GPS. La precisión del GPS es de 5 metros, lo que garantiza información de seguimiento precisa.
+El LK-GPS LK105B es un rastreador GPS compacto y pequeño pensado para ayudar a los dueños de mascotas a localizar perros y gatos con facilidad. Combina posicionamiento GPS y LBS para ofrecer actualizaciones continuas de ubicación, permite el seguimiento en tiempo real desde un smartphone o la plataforma web, y cuenta con funciones como reproducción del historial de ubicaciones, monitoreo de voz alrededor del dispositivo y un botón de alarma SOS para emergencias.
 
-Una de las características clave del LK105B es su capacidad de seguimiento en tiempo real. Puedes rastrear fácilmente la ubicación de tu mascota utilizando tu teléfono celular o la plataforma proporcionada. También puedes configurar el rastreador para enviar actualizaciones de ubicación cada 5 segundos para un seguimiento aún más preciso. Además, el dispositivo te permite verificar y reproducir el historial de la ruta de tu mascota durante hasta un año en el centro web.
+Como el LK105B entrega actualizaciones frecuentes de ubicación, reproducción de historial y notificaciones por alarma, es un candidato práctico para integrarse con Plaspy. Plaspy puede mostrar la ubicación del dispositivo en mapas, registrar el historial de rutas y emitir alertas y notificaciones de movimiento para que los dueños y gestores de pequeños activos obtengan visibilidad constante y avisos rápidos cuando ocurran eventos.
 
-En caso de emergencias, el LK105B está equipado con un botón de SOS. Al presionarlo, el rastreador enviará un SMS de "ayuda" a todos los números de teléfono autorizados y a la plataforma web, asegurando que puedas responder rápidamente a cualquier situación. El dispositivo también cuenta con un modo de ahorro de energía, que se activa automáticamente cuando no hay vibración durante 5 minutos y se activa cuando detecta vibración.
+## Características principales
 
-Otras características destacadas del LK105B incluyen la capacidad de escuchar el sonido alrededor del rastreador utilizando tu teléfono celular, soporte para la comunicación con el rastreador a través del teléfono celular y la opción de verificar la ubicación con Google Maps en tu dispositivo móvil. El dispositivo también admite la geo-cerca, lo que te permite establecer un límite virtual para tu mascota y enviará un mensaje al número autorizado si se viola el límite.
+- Seguimiento de ubicación en tiempo real apto para mascotas y objetos personales pequeños
+- Actualizaciones de ubicación con frecuencia de hasta cada 5 segundos para una visibilidad casi en tiempo real
+- Precisión GPS en el orden de metros para facilitar la localización exacta
+- Botón de alarma SOS que notifica a contactos autorizados y a la plataforma de seguimiento
+- Monitoreo de voz y capacidad de comunicación bidireccional mediante un teléfono móvil
+- Diseño compacto resistente al agua y comportamiento de ahorro de energía para el uso diario
 
-El LK105B Mini Pet GPS Tracker es de tamaño pequeño, lo que lo hace adecuado tanto para mascotas como para uso personal. También es portátil y resistente al agua, lo que garantiza durabilidad y confiabilidad en varios entornos. El dispositivo admite tanto el seguimiento de aplicaciones Android como Apple, y puedes leer fácilmente la información de posición y la energía de la batería restante a través de la interfaz telefónica B/S y de la aplicación. Con su posicionamiento GPS + LBS, puedes estar seguro de que siempre tendrás información de ubicación precisa para tu mascota.
+## Cómo funciona con Plaspy
 
-### Características destacadas:
+Al emparejarse con Plaspy, el LK105B transmite información de ubicación y eventos a la plataforma para que usted pueda monitorear la actividad en un mapa unificado y utilizar las herramientas de la plataforma para gestionar alertas e historial. Plaspy procesa las actualizaciones de posición del rastreador y las presenta junto a otros activos rastreados para una supervisión centralizada.
 
-- Tecnología GPS y LBS para una ubicación precisa
-- Capacidad de seguimiento en tiempo real
-- Actualizaciones de ubicación cada 5 segundos
-- Historial de ruta de hasta un año
-- Botón de SOS para emergencias
-- Modo de ahorro de energía
-- Escucha el sonido alrededor del rastreador
-- Comunicación con el rastreador a través del teléfono celular
-- Verificación de ubicación con Google Maps
-- Soporte para geo-cerca
-- Tamaño compacto y resistente al agua
-- Compatibilidad con aplicaciones Android y Apple
-- Información de posición y energía de la batería a través de la interfaz telefónica y de la aplicación
+- Ver la ubicación en vivo en el mapa de Plaspy para obtener conciencia situacional rápida
+- Acceder a rutas históricas y reproducir movimientos para revisar actividad pasada
+- Recibir y gestionar alertas SOS y de movimiento a través de los canales de notificación de Plaspy
+- Crear alertas tipo geocerca y monitorear entradas y salidas de zonas definidas
+- Usar las funciones de informes y exportación en Plaspy para analizar tendencias de ubicación a lo largo del tiempo
 
-### Especificaciones técnicas:
+## Casos de uso típicos
 
-- CPU: SC9820E
-- Banda de frecuencia de red: LTE: B1 B2 B3 B4 B5 B7 B8 B12 \(17\) B20 B28 B38 B39 B40 B41, WCDMA: B1 B2 B5 B8, GSM: 850/900 / 1800 / 1900
-- Sensibilidad de seguimiento: -159dBm
-- Sensibilidad de captura: -148dBm
-- Precisión de posicionamiento:
+- Rastrear mascotas de la familia para localizar rápidamente un animal perdido o que se haya alejado
+- Supervisar animales en guarderías o residencias para control y tranquilidad
+- Colocar en objetos valiosos o equipos portátiles para apoyar su recuperación
+- Brindar ubicación discreta para seguridad personal y registros de registro
+- Registrar el historial de movimiento para revisiones de comportamiento o registros operativos
 
+## Por qué elegir este rastreador con Plaspy
+
+El LK105B combina características prácticas enfocadas en mascotas con un hardware compacto que se adapta al día a día. Sus actualizaciones en tiempo real, función SOS y reproducción de historial encajan bien con las capacidades de Plaspy para visualización en mapas, alertas e informes, lo que lo convierte en una opción sensata para dueños de mascotas y proyectos de monitoreo de activos a pequeña escala.
+
+Si desea un rastreador ligero que aporte datos consistentes de posición y eventos a una plataforma de monitoreo única, el LK105B es una alternativa compatible a considerar. Para obtener más información sobre Plaspy y cómo puede presentar y gestionar los datos del LK105B visite https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y la documentación oficial con el fabricante en https://www.lk-gps.com.

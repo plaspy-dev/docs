@@ -2,60 +2,61 @@
 slug: /cantrack/gf30
 id: gf30
 sidebar_label: GF30
+title: CanTrack - GF30
 sidebar_class_name: menu_item_tracker
+description: Compact magnet mounted GF30 tracker for covert long duration asset tracking compatible with Plaspy platform and fleet workflows
+keywords:
+  - CanTrack GF30
+  - GF30 tracker
+  - GF30 GPS
+  - CanTrack GPS
+  - GF30 Plaspy
+  - Plaspy compatible
+  - magnet GPS tracker
+  - asset tracking
+  - fleet tracking
+  - trailer tracker
 ---
+
 # CanTrack - GF30
 
 ![GF30](./tracker.jpg)
 
-The GF30 Magnet GPS Tracker from GF-series delivers long-duration, covert asset tracking with built-in magnetic mounting and a high-capacity 1600mAh battery. Plaspy compatible out of the box, this compact GPS tracker is optimized for real-time tracking and reliable position reporting via platform, app, or SMS — making it a practical choice for recovery, security, and professional asset monitoring.
+The CanTrack GF30 is a compact magnet GPS tracker from the GF series designed for long duration, covert asset tracking. It features built-in magnetic mounting and a high capacity 1600mAh battery, making it suitable for discreet placement on vehicles, trailers, containers, and heavy equipment. The GF30 is optimized for real-time position reporting and basic event telemetry through platform, app, or SMS channels.
 
-Designed for vehicles, trailers, containers, and heavy equipment, the GF30 combines MTK high-sensitivity GPS/GSM positioning with rugged magnet housing to enable quick installation and discreet placement. When paired with Plaspy, the GF30 feeds accurate location and alarm data into dashboards and workflows used for fleet management, anti-theft response, and telemetry-driven decision making.
+As a Plaspy compatible device out of the box, the GF30 can feed location and alarm data directly into Plaspy dashboards and workflows. That integration makes the GF30 a practical option for organizations that need continuous visibility, alerting for recovery or security incidents, and straightforward incorporation of device data into fleet monitoring and reporting routines on Plaspy.
 
 ## Key Highlights
 
-- Plaspy compatible for seamless integration into existing real-time tracking and fleet management workflows.
-- Long-run battery \(GF30: 1600mAh\) and low-power modes for extended remote monitoring and asset recovery.
-- Strong magnetic housing for covert, rapid attachment to metal surfaces — ideal for trailers, containers, and equipment.
-- Accurate GPS + LBS + AGPS positioning with quick fixes and sub-10 m CEP accuracy for dependable location data.
-- On-board voice listening and voice recording for situational awareness during recovery or security incidents.
-- Geo-fence, vibration alarm, and low-battery alerts to trigger instant notifications and automated responses.
-- Local memory storage when GSM connectivity is lost to prevent data gaps and ensure telemetry continuity.
+- Plaspy compatible for seamless integration into real time tracking and fleet management workflows
+- Long run battery with a 1600mAh capacity for extended remote monitoring and recovery scenarios
+- Rugged magnetic housing for covert, rapid attachment to metal surfaces such as trailers and containers
+- GPS plus LBS and AGPS positioning with reliable location reporting for operational visibility
+- Remote voice listening and voice recording to provide additional situational awareness during incidents
+- Geo fence, vibration alarm, and low battery alerts to trigger timely notifications and responses
+- Local memory storage to retain data when cellular connectivity is unavailable and forward it later
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, the GF30 provides continuous telemetry and event reporting to the platform or mobile app. Position updates and alarm events are delivered in real time \(or stored and forwarded after connectivity resumes\), enabling Plaspy to present live maps, alerts, and historical tracks for analysis and operational response.
+When connected to Plaspy, the GF30 supplies continuous telemetry and event reporting so the platform can present live maps, alerts, and historical tracks. Position updates and alarms are delivered in real time or stored and forwarded after connectivity resumes, enabling Plaspy to maintain operational visibility and support response workflows.
 
-- Real-time location updates via GPS + LBS + AGPS for continuous tracking on Plaspy maps.
-- Geo-fence alerts and vibration alarms reported immediately to Plaspy for anti-theft and perimeter monitoring.
-- Low battery and connectivity alerts to keep operations informed and minimize downtime.
-- Remote voice listening and voice recording available during recovery or incident assessment.
-- On-device memory storage ensures position data is retained when GSM is unavailable and uploaded to Plaspy once reconnected.
+- Real time location updates for continuous tracking on Plaspy maps and live views
+- Geo fence and vibration alerts reported to Plaspy for perimeter monitoring and anti theft response
+- Low battery and connectivity notifications to keep operations informed and reduce downtime
+- Remote voice listening and recording events surfaced in Plaspy for incident assessment
+- On device memory storage prevents data gaps and allows Plaspy to reconstruct historical tracks after reconnection
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | GF30 \(1600mAh\); Variant: GF20 \(800mAh\) |
-| --- | --- |
-| Form Factor & Dimensions | Rugged magnetic housing for metal surfaces. GF30: 74 × 36.5 × 30 mm; GF20: 50 × 27 × 25 mm |
-| Connectivity / Bands | GSM 850 / 900 / 1800 / 1900 MHz |
-| GPS / GNSS | MTK high-sensitivity GPS/GSM chipset; tracking sensitivity approx. -165 dBm; location accuracy &lt;10 m CEP |
-| Time to First Fix \(TTFF\) | Cold start &lt;35 s; Hot start &lt;1 s \(open sky\) |
-| Power & Battery | GF30: 1600mAh battery; GF20: 800mAh battery. Working voltage: 5 VDC |
-| Current Consumption | Standby & working current: ~5 mA ~ 50 mA \(depending on mode\) |
-| Environmental | Operating temperature: -20°C to +65°C |
-| Features & Interfaces | Real-time reporting via platform/app/SMS; remote voice listening and voice recording; geo-fence; vibration alarm; power saving mode; on-device memory storage when GSM is lost |
-| Reporting & Platform Support | Supports platform and mobile app tracking and SMS reporting. Compatible with Plaspy integrations for mapping, alerts, and fleet management workflows. |
-
-## Use Cases
-
-- Fleet management: attach GF30 to trailers or seasonal equipment for long-term tracking and route history analysis in Plaspy.
-- Asset recovery and anti-theft: covert magnetic mounting plus vibration and geo-fence alerts improve recovery response.
-- Container and equipment monitoring: reliable remote monitoring of off-road assets where extended battery life and rugged mounting matter.
-- Security and incident investigation: remote voice listening and recording add situational telemetry for recovery teams.
+- Fleet tracking for trailers and seasonal equipment where discreet mounting and long battery life are important
+- Asset recovery and anti theft monitoring using geo fence and vibration alerts to trigger response
+- Container and heavy equipment oversight in remote or off road environments
+- Security and incident investigation where recorded audio and location history assist recovery teams
 
 ## Why Choose This Tracker with Plaspy
 
-The GF30 Magnet GPS Tracker offers a balanced mix of endurance, accuracy, and covert installation for professional asset tracking. When paired with Plaspy, the device’s reliable GPS + LBS + AGPS data and event reporting feed into a scalable platform for real-time tracking, telemetry dashboards, and automated alerts. Its strong magnet housing reduces installation time and visual exposure, while on-device memory and low-power modes keep data continuity and battery life top priorities.
+The GF30 pairs endurance and discreet installation with practical reporting features that align well with Plaspy workflows. Its magnetic housing and extended battery life reduce installation effort and support longer unattended deployments, while on device storage and event reporting help maintain continuity of telemetry for operational teams.
 
-For organizations seeking practical GPS tracker hardware that integrates with Plaspy for fleet management, anti-theft monitoring, and telemetry-driven operations, the GF30 delivers proven positioning performance and features that support operational recovery and monitoring strategies. Plaspy can also correlate GF30 location and alarm data with additional vehicle signals — such as ignition, fuel monitoring, or immobilizer status — where those inputs are available in your overall telematics setup, enabling richer insights without requiring unsupported assumptions about the device itself.
+For organizations that need straightforward hardware which can integrate into a broader telematics platform, the GF30 offers a clear balance of positioning performance and event features that Plaspy can use for dashboards, alerts, and historical analysis. The device complements Plaspy's fleet monitoring and incident response capabilities without requiring complex configuration.
 
+Learn more about how Plaspy works with compatible devices on the Plaspy website https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details and manufacturer guidance on the CanTrack site https://www.cantrackgps.com/.

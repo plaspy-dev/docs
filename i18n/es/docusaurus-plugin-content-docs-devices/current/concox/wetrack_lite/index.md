@@ -2,60 +2,59 @@
 slug: /concox/wetrack_lite
 id: wetrack_lite
 sidebar_label: Wetrack Lite
+title: Concox - Wetrack Lite
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto compatible con Plaspy para supervisión discreta de vehículos en flotas rentas y logística ligera
+keywords:
+  - Concox Wetrack Lite
+  - Wetrack Lite
+  - rastreador GPS Concox
+  - Wetrack Lite Plaspy
+  - rastreador de vehículos
+  - seguimiento de flotas
+  - seguimiento de autos de alquiler
+  - GPS antirrobo
+  - mini rastreador GPS
+  - seguimiento en tiempo real
 ---
+
 # Concox - Wetrack Lite
 
 ![Wetrack Lite](./tracker.png)
 
-Wetrack Lite es un rastreador GPS compacto, compatible con Plaspy, diseñado para el monitoreo discreto de vehículos en aplicaciones de alquiler de coches, gestión de flotas y logística ligera. Su formato miniatura, LED oculto y su amplia tolerancia de voltaje lo hacen ideal cuando se requiere un rastreador de bajo perfil—proporcionando rastreo en tiempo real confiable y alertas de eventos, minimizando la percepción del dispositivo por parte del conductor.
+El Wetrack Lite es un rastreador GPS compacto de Concox diseñado para la supervisión discreta de vehículos en aplicaciones de alquiler de autos, gestión de flotas y logística ligera. Su tamaño reducido, LED oculto y amplio rango de voltaje lo hacen ideal cuando se requiere un perfil bajo, sin sacrificar el seguimiento en tiempo real ni las notificaciones de eventos. El dispositivo está pensado para proporcionar ubicación e información de estado con mínima detección por parte del conductor.
 
-El dispositivo combina posicionamiento GPS + BDS + LBS con telemetría centrada en el vehículo, como detección ACC \(encendido\), movimiento y alertas de vibración basadas en acelerómetro, y protección de la batería. Cuando se integra con Plaspy, Wetrack Lite ofrece datos accionables de ubicación y estado para la gestión de flotas, flujos de trabajo anti-robos y reportes operativos.
+Como dispositivo compatible con Plaspy, el Wetrack Lite puede enviar datos de ubicación y estado del vehículo a Plaspy para su visualización unificada en mapa, gestión de alertas e informes. Integrar este modelo con Plaspy ofrece a administradores de flota y operadores de renta datos de posición accionables y notificaciones de eventos que apoyan flujos de trabajo antirrobo, análisis de uso y supervisión operativa.
 
-## Principales características
+## Características principales
 
-- Rastreador GPS compatible con Plaspy, diseñado para una instalación discreta y monitorización ininterrumpida.
-- Posicionamiento multi-constelación \(GPS + BDS + LBS\) con alta precisión \(\<2.5 m CEP\) para enrutamiento preciso y geocercas.
-- Amplio rango de voltaje de operación \(9–90 VDC\) y protección integrada de batería del vehículo para soportar automóviles, scooters y equipos industriales.
-- Diseño ligero y compacto \(73.8 × 25.9 × 12.2 mm, 26.6 g\) apto para montaje oculto en vehículos de alquiler y de flota.
-- Alertas por eventos: exceso de velocidad, entrada/salida de geocerca, movimiento, vibración anómala, detección de batería y desconexión de energía.
-- Almacenamiento a bordo con buffering \(32+32 Mb\) para preservar historial de ubicación y de eventos durante pérdidas temporales de conectividad.
-- Resistencia al agua IPX5 y rango de temperatura de operación extendido para un rendimiento fiable en campo.
+- Rastreador GPS compacto compatible con Plaspy, pensado para supervisión discreta y vigilancia continua.
+- Posicionamiento multiconstelación con GPS, BDS y LBS para un reporte de ubicación más preciso.
+- Amplio rango de voltaje de operación y protección integrada de la batería del vehículo para desplegarlo en distintos tipos de automotores.
+- Factor de forma mini y ligero, apropiado para montaje oculto en autos de alquiler, scooters y equipos ligeros.
+- Alertas basadas en eventos como exceso de velocidad, geocerca, movimiento, vibración, detección de batería y desconexión de alimentación.
+- Almacenamiento en el dispositivo para preservar historial de ubicación y eventos durante interrupciones temporales de conectividad.
 
 ## Cómo funciona con Plaspy
 
-Wetrack Lite envía ubicaciones derivadas de GNSS y paquetes de eventos a través de la red celular hacia Plaspy, donde la plataforma normaliza la telemetría en mapas en vivo, alertas e informes históricos. Plaspy ingiere la ubicación del rastreador, el estado de ACC/encendido y las alertas de eventos para proporcionar un rastreo en tiempo real continuo y notificaciones basadas en reglas para gestores de flotas y operadores de alquiler.
+Al emparejarse con Plaspy, el Wetrack Lite transmite actualizaciones de ubicación y paquetes de eventos a la plataforma, donde los datos se normalizan para mostrarse en mapas en vivo, generar alertas y generar reportes históricos. Plaspy aprovecha la posición y las señales del vehículo del rastreador para ofrecer visibilidad continua y notificaciones basadas en reglas para los equipos operativos y administradores de flota.
 
-- Actualizaciones en tiempo real de ubicación y telemetría \(GPS + BDS + LBS\) para un seguimiento preciso del vehículo y su enrutamiento.
-- Informe del estado de encendido \(ACC\) para detectar si el vehículo está encendido o apagado, mejorando la utilización y los informes de inactividad.
-- Alertas de movimiento, exceso de velocidad, entrada/salida de geocerca y vibración anómala para flujos de trabajo anti- robo y seguridad.
-- Detección de batería del vehículo y alertas de desconexión de energía para señalar manipulación o baterías agotadas.
-- Buffering de almacenamiento a bordo \(32+32 Mb\) para encolar datos durante interrupciones temporales de GSM, de modo que Plaspy reciba el historial completo del viaje cuando la conectividad se restablezca.
+- Actualizaciones de ubicación en tiempo real para un seguimiento preciso y visibilidad de rutas en los mapas de Plaspy.
+- Reporte de encendido y estado ON/OFF del vehículo para apoyar el análisis de utilización e inactividad.
+- Alertas por evento para movimiento, exceso de velocidad, entrada y salida de geocerca y vibración anómala, vinculadas a las reglas de notificación de Plaspy.
+- Detección de batería y alertas por desconexión de alimentación para señalar posible manipulación o problemas eléctricos.
+- Almacenamiento en búfer en el dispositivo que garantiza que el historial completo de viajes esté disponible en Plaspy tras cortes temporales de red.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | GSM cuádrupla banda |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz |
-| Alimentación y batería | Entrada 9–90 VDC; batería de respaldo Li‑Polímero de grado industrial de 100 mAh / 3.7 V; protección de batería del vehículo |
-| Interfaces y almacenamiento | Ranura Micro-SIM; indicadores LED \(GPS azul, GSM verde\); 32+32 Mb de almacenamiento a bordo |
-| GNSS | GPS + BDS + LBS; precisión de posicionamiento &lt;2.5 m CEP |
-| Sensibilidad y TTFF | Sensibilidad de seguimiento −165 dBm; sensibilidad de adquisición −148 dBm; TTFF \(cielo despejado\) arranque en caliente ≤1 s, arranque en frío ≤32 s |
-| Sensores y características | Acelerómetro, detección ACC \(encendido\), admite escenarios de corte remoto y múltiples alertas instantáneas \(movimiento, exceso de velocidad, vibración, eventos de energía\) |
-| Dimensiones | Dimensiones 73.8 × 25.9 × 12.2 mm; peso 26.6 g; rastreador compacto para instalación oculta |
-| Ambiente y Protección | Rango de temperatura de operación −20 °C a 70 °C; protección IPX5 contra el agua |
-
-## Casos de uso
-
-- Gestión de flotas: ubicación en tiempo real, optimización de rutas y reporte de uso del vehículo basado en ACC para coches y vehículos comerciales ligeros.
-- Alquiler de coches y movilidad compartida: instalación discreta en unidades de alquiler para monitorizar devoluciones, movimientos no autorizados y incumplimientos de geocercas.
-- Anti-robos y recuperación: alertas de movimiento, vibración y desconexión de energía para acelerar la recuperación y apoyar procesos de inmovilización.
-- Rastreo de dos ruedas y vehículos ligeros: amplio rango de voltaje y diseño compacto para scooters, motocicletas y equipos industriales pequeños.
-- Visibilidad logística: seguimiento en tiempo real y telemetría buffered para entregas de corto recorrido y servicios de transporte donde la cobertura continua es importante.
+- Gestión de flotas para seguimiento en vivo, supervisión de rutas y reportes de uso basados en encendido.
+- Alquiler de autos y movilidad compartida para controlar devoluciones, detectar movimientos no autorizados y gestionar violaciones de geocerca.
+- Flujos de trabajo antirrobo y recuperación que usan alertas de movimiento, vibración y eventos de energía para acelerar la respuesta.
+- Seguimiento de vehículos de dos ruedas y unidades ligeras donde el tamaño compacto y la tolerancia de voltaje son cruciales.
+- Logística de corta distancia y servicios de transporte que requieren visibilidad en tiempo real y continuidad de telemetría con buffering.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Wetrack Lite ofrece una combinación equilibrada de posicionamiento GNSS de precisión, telemetría centrada en el vehículo y un factor de forma casi invisible, convirtiéndolo en una opción práctica para operadores que necesitan un hardware compatible con Plaspy que no comprometa el camuflaje. La amplia tolerancia de voltaje del dispositivo y la protección de batería reducen las restricciones de instalación en diversos tipos de vehículos, mientras que la detección ACC y las alertas del acelerómetro alimentan a Plaspy con la telemetría necesaria para protección anti-robo, analítica de utilización de la flota y alertas operativas en tiempo real.
+El Wetrack Lite combina un factor de forma casi invisible con telemetría enfocada en vehículos que se adapta bien a los flujos de trabajo habituales de Plaspy. Su diseño compacto y amplio rango de voltaje lo hacen versátil para autos, scooters y equipos ligeros, mientras que las alertas por eventos alimentan a Plaspy con las señales que los equipos de operaciones y seguridad necesitan para tomar decisiones.
 
-La integración de Wetrack Lite en su despliegue de Plaspy ofrece rastreo en tiempo real fiable, continuidad de datos durante interrupciones de GSM y alertas basadas en eventos de las que dependen los gestores de flotas para reducir el tiempo de inactividad y mejorar la seguridad. Para organizaciones que necesitan un rastreador GPS compacto y robusto que soporte telemetría central de flotas y escenarios anti-robo, Wetrack Lite es una solución enfocada que se integra a la perfección con los flujos de mapeo, informes y alertas de Plaspy.
-
+Para conocer más sobre Plaspy y cómo dispositivos compatibles como Wetrack Lite se integran con nuestras funciones de mapas, informes y alertas, visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones vigentes en el sitio oficial de Concox https://www.iconcox.com/ antes de comprar o desplegar hardware.

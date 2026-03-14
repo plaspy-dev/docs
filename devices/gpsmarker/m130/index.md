@@ -2,21 +2,62 @@
 slug: /gpsmarker/m130
 id: m130
 sidebar_label: M130
+title: GPSMarker - M130
 sidebar_class_name: menu_item_tracker
+description: Compact GPSMarker M130 tracker with long battery life and no subscription fee compatible with Plaspy for fleet and asset monitoring
+keywords:
+  - GPSMarker M130
+  - M130 tracker
+  - GPSMarker M130 tracker
+  - M130 compatible with Plaspy
+  - GPSMarker fleet tracking
+  - M130 asset tracking
+  - GPSMarker long battery
+  - M130 no subscription
+  - GPSMarker sensors
+  - M130 temperature monitoring
 ---
+
 # GPSMarker - M130
 
 ![M130](./logo.jpg)
 
-The GPSMarker M130 is a versatile GPS tracker that offers a wide range of features and functionalities. One of its standout features is the absence of a subscription fee. With this tracker, you only pay for outgoing SMS messages and GPRS traffic, making it a cost-effective option for tracking your assets or vehicles. 
+The GPSMarker M130 is a versatile standalone GPS tracker designed for reliable location monitoring of vehicles and portable assets. It includes a multi constellation GNSS receiver with broad satellite channel coverage to improve coordinate accuracy, and it ships with a dedicated SIM card and tariff plan optimized for online monitoring. The M130 offers extended battery life, periodic wake modes to conserve power, and a set of built in sensors and alarms for movement, impact detection, temperature, and panic notification.
 
-The M130 is equipped with a 99-channel GPS/GLONASS receiver, which significantly enhances the reliability and accuracy of the coordinates. This ensures that you can track your assets with precision. Additionally, the tracker comes with a complete thermo SIM card with a special tariff plan optimized for online monitoring systems. This ensures seamless connectivity and efficient data transmission.
+As a Plaspy compatible device, the M130 can feed location and event data into Plaspy for centralized visibility and fleet management. Its subscription free operating model reduces recurring platform costs, while built in telemetry and alert capabilities make it a practical choice for organizations that want to integrate device level monitoring into Plaspy for tracking, incident alerting, and basic device oversight.
 
-One of the key advantages of the M130 is its long battery life. With a battery life of up to 3 years or more, you can set the tracker to "awaken" once a week, extending the battery life to 8 years. The tracker also features an automatic notification of low battery, so you'll always be aware of when it's time to replace the batteries.
+## Key Highlights
 
-In terms of security features, the M130 offers a range of sensors and alarms. It has a sensor for detecting the beginning of movement, allowing you to be alerted in case of attempted theft or unauthorized movement. The tracker also has a crash sensor that is triggered by impacts, sending messages with the exact coordinates of the incident to registered phone numbers. This feature can be invaluable in case of accidents or emergencies.
+- No recurring subscription fees for the device itself beyond messaging and data usage
+- 99 channel GPS GLONASS receiver for improved coordinate reliability
+- Long battery life with multi year operation and configurable wake intervals
+- Included SIM card and tariff optimized for online monitoring systems
+- Built in movement detection and crash alerting for security and incident notification
+- Panic button, temperature sensing, and relay outputs for external device control
 
-Other notable features of the M130 include a panic button for quickly alerting others of impending danger, a temperature sensor for monitoring the temperature around the device, and the ability to control external devices using relays. The tracker also supports multiple languages, including Russian and English, and offers various preset modes of operation for easy customization.
+## How It Works with Plaspy
 
-With its advanced features, reliable performance, and user-friendly interface, the GPSMarker M130 is an excellent choice for individuals and businesses looking for a high-quality GPS tracker. Whether you need to track vehicles, assets, or loved ones, the M130 provides the functionality and convenience you need.
+The M130 can be added to Plaspy as a tracked device to provide regular location updates and event notifications into a central fleet or asset management workspace. Once connected, Plaspy aggregates position data, alerts, and basic device state information to support live monitoring and historical review.
 
+- Live location visibility and map tracking inside Plaspy
+- Event based alerts forwarded to Plaspy for movement, crash, panic, and low battery
+- Historical route playback and position history for operational review
+- Temperature readings and threshold alerts visible in Plaspy reporting
+- Remote control signals to relays coordinated through the platform where supported
+- Consolidated device status and reporting for fleet level oversight
+
+## Typical Use Cases
+
+- Fleet vehicle location monitoring for routing and oversight
+- High value or portable asset tracking with extended battery needs
+- Remote site equipment supervision where long maintenance intervals are required
+- Safety and incident monitoring with crash alerts and panic notifications
+- Temperature sensitive asset or cargo monitoring in transit or storage
+
+## Why Choose This Tracker with Plaspy
+
+The GPSMarker M130 pairs practical device level features with a cost conscious operating model, making it suitable for organizations that need reliable tracking without ongoing subscription costs. Its combination of long battery life, onboard alarms, and a SIM plan optimized for monitoring means less onsite maintenance and more consistent data for Plaspy to process.
+
+When used with Plaspy, the M130 becomes part of a single pane of glass for location awareness, alerting, and reporting. That makes it a good option for operators who want straightforward integration into fleet and asset workflows while keeping device costs and upkeep predictable.
+
+If you want to learn more about Plaspy and how it can manage devices like the GPSMarker M130 visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current technical information on the manufacturer site https://gpsmarker.ru/.

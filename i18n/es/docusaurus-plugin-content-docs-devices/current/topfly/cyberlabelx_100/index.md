@@ -2,58 +2,61 @@
 slug: /topfly/cyberlabelx_100
 id: cyberlabelx_100
 sidebar_label: CyberLabelX 100
+title: TopFly - CyberLabelX 100
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS delgado y recargable para paquetes, compatible con Plaspy; visibilidad en tiempo real y monitoreo de cadena de frío
+keywords:
+  - TopFly CyberLabelX 100
+  - CyberLabelX 100
+  - Rastreador CyberLabelX
+  - Rastreador de paquetes TopFly
+  - rastreador GPS para paquetes
+  - Compatible con Plaspy
+  - visibilidad de envíos
+  - seguimiento cadena de frío
+  - seguimiento de activos TopFly
+  - telemetría a nivel de paquete
 ---
+
 # TopFly - CyberLabelX 100
 
 ![CyberLabelX 100](./tracker.png)
 
-El CyberLabelX 100 es un rastreador GPS delgado y recargable para visibilidad a nivel de paquete y envíos de alto valor. Listo para usar con Plaspy, este rastreador compacto ofrece posicionamiento GNSS de múltiples constelaciones, intervalos de reporte configurables desde cada 3 segundos y registro en búfer para asegurar un historial de ubicaciones continuo incluso cuando la cobertura celular es intermitente.
+El CyberLabelX 100 es un rastreador GPS recargable y de perfil delgado diseñado específicamente para ofrecer visibilidad a nivel de paquete y en envíos de alto valor. Pensado para fijarse de forma discreta a cajas y activos retornables, combina posicionamiento GNSS multiconstelación, intervalos de reporte configurables de hasta cada 3 segundos y registro en búfer para preservar el historial de ubicaciones cuando la cobertura celular es intermitente.
 
-Diseñado para equipos de logística y gestores de activos que necesitan seguimiento en tiempo real fiable y telemetría ambiental, el CyberLabelX 100 añade detección de manipulación y conocimiento de temperatura mediante un sensor de luz ambiental interno, sensor de movimiento y sensor de temperatura, además del soporte para una sonda externa opcional de temperatura o de temperatura y humedad para envíos en cadena de frío. Su perfil delgado, carga inalámbrica y montaje sencillo con adhesivo 3M o brida de cable facilitan el uso en cajas, paquetes y flujos de activos retornables donde se requiere un rastreo discreto y de larga duración.
+Como dispositivo compatible con Plaspy desde el primer momento, el CyberLabelX 100 envía ubicaciones, telemetría ambiental y alertas de eventos a los paneles y APIs de Plaspy. Su combinación de detección de manipulación, sensor de movimiento y monitoreo de temperatura lo hace una opción práctica para equipos de logística y gestores de activos que requieren visibilidad a nivel de paquete a través de Plaspy para seguimiento, alertas e informes históricos.
 
-## Aspectos clave
+## Puntos clave
 
-- Compatible con Plaspy para seguimiento en tiempo real sin interrupciones y la integración en la nube mediante transportes TCP, UDP, MQTT o SMS.
-- GNSS de múltiples constelaciones \(GPS/GLONASS/BeiDou/Galileo/QZSS\) con precisión horizontal autónoma CEP \< 1,5 m para posicionamiento preciso de paquetes y contenedores.
-- Batería recargable de larga duración de 1900 mAh / 3,7 V Li‑ion; carga inalámbrica; duración de la batería de ejemplo: 57 días \(informes cada 1 hora\), 108 días \(2 horas\), 194 días \(4 horas\).
-- Registro en búfer almacena puntos de ubicación durante fallas de red para evitar pérdida de datos y se sincroniza cuando la cobertura se restablece.
-- Sensores ambientales: sensor de temperatura interno, además de una sonda externa opcional de temperatura o de temperatura y humedad para visibilidad en la cadena de frío.
-- Alertas de manipulación y seguridad mediante sensor de luz ambiental y sensor de movimiento, así como hasta 25 tipos de alarmas personalizables para anti‑robo y notificaciones de exposición.
-- Formato compacto y ligero con clasificación IP54 y montaje sencillo mediante adhesivo 3M o brida de cable; diseñado para sujeción en paquetes y cajas.
+- Compatible con Plaspy desde el primer momento, con opciones de transporte estándar para integración en la nube y seguimiento en tiempo real.
+- Diseño recargable y delgado con carga inalámbrica y perfiles de operación prolongados para despliegues de varios días.
+- Posicionamiento GNSS multiconstelación para reportes precisos de la ubicación de paquetes y contenedores.
+- Intervalos de reporte configurables hasta cada 3 segundos y registro en búfer para evitar pérdida de datos durante cortes de red.
+- Sensores internos de luz ambiental, movimiento y temperatura, además de soporte para una sonda externa opcional de temperatura o de temperatura y humedad para necesidades de cadena de frío.
+- Factor de forma compacto con montaje mediante adhesivo o brida y una carcasa resistente adecuada para fijación a paquetes y activos.
 
 ## Cómo funciona con Plaspy
 
-La integración del CyberLabelX 100 con Plaspy permite seguimiento en tiempo real, alertas de eventos y reproducción histórica dentro de tus paneles de control y API de Plaspy. El dispositivo se comunica mediante transportes estándar compatibles con Plaspy \(TCP, UDP, MQTT, SMS\), entregando ubicaciones, telemetría y eventos de alarma. Cuando se pierde la señal, los puntos en búfer se mantienen en el dispositivo y se cargan automáticamente cuando la conectividad se restablece, preservando la continuidad para los informes logísticos.
+Al emparejarse con Plaspy, el CyberLabelX 100 transmite fijaciones de ubicación, telemetría de sensores y eventos de alarma a su cuenta de Plaspy, donde pueden visualizarse, filtrarse y generar informes. Los puntos en búfer recopilados mientras el dispositivo está sin conexión se sincronizan automáticamente cuando vuelve la conectividad, preservando la continuidad para análisis logísticos y auditorías.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(informes configurables hasta cada 3 segundos\).
-- Alertas de manipulación y visibilidad mediante sensor de luz ambiental \(útiles para notificaciones anti‑robo\).
-- Eventos de detección de movimiento para el manejo de envíos y movimientos no autorizados.
-- Monitoreo de temperatura: sensor interno y soporte para una sonda externa opcional de temperatura o de temperatura y humedad para cumplimiento de la cadena de frío.
-- Registro en búfer para prevenir pérdidas de datos durante periodos sin cobertura; carga automática en Plaspy cuando hay conexión.
+- Actualizaciones de ubicación en tiempo real e intervalos de reporte configurables visibles en los paneles de Plaspy.
+- Alertas de manipulación y de visibilidad basadas en el sensor de luz ambiental que pueden disparar notificaciones y flujos de trabajo.
+- Eventos de detección de movimiento para indicar manipuleo o movimiento no autorizado y respaldar alertas operativas.
+- Monitoreo de temperatura desde el sensor interno y la sonda externa opcional para supervisión de la cadena de frío en los informes de Plaspy.
+- Registro en búfer y subida automática a Plaspy cuando el dispositivo recupera acceso a la red para una reproducción histórica completa.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | LTE FDD Cat 1, LTE TDD Cat 1 y GSM \(respaldo\) |
-| --- | --- |
-| Bandas | LTE FDD: B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B18/B19/B20/B25/B26/B28/B66; LTE TDD: B34/B38/B39/B40/B41; GSM: 850/900/1800/1900 MHz |
-| Alimentación y batería | Batería recargable de 1900 mAh / 3,7 V Li‑ion; carga inalámbrica; duración de la batería de ejemplo: 57 días \(informes cada 1 hora\), 108 días \(2 horas\), 194 días \(4 horas\) |
-| Interfaces | Ranura nano SIM, USB Type-C para configuración, indicadores LED para red/GNSS/alarma/batería, botón táctil para encender |
-| GNSS | GPS paralelo + GLONASS + BeiDou + Galileo + QZSS; precisión horizontal autónoma &lt; 1,5 m CEP |
-| Sensores | Sensor de luz ambiental interno, sensor de movimiento, sensor de temperatura interno; soporte para sonda externa opcional de temperatura o de temperatura y humedad |
-| Seguridad y protocolos | TCP, UDP, MQTT, SMS; opciones de seguridad de datos MD5 o AES‑128; FOTA \(firmware over the air\) soportado |
-| General y formato | IP54; dimensiones con soporte 139,1 × 110 × 8,3 mm; sin soporte 138 × 107 × 5,6 mm; peso con soporte 128 g, sin soporte 100 g; montaje mediante adhesivo 3M o brida de cable; temperatura de funcionamiento -20 °C a 80 °C |
-
-## Casos de uso
-
-- Seguimiento de paquetes y cajas para visibilidad de la última milla y confirmación de entrega en operaciones de comercio electrónico.
-- Monitoreo de tránsito de activos de alto valor donde rastreadores GPS discretos y recargables reducen el riesgo de robo y pérdida.
-- Envíos en cadena de frío usando la sonda externa opcional de temperatura o de temperatura y humedad para monitorizar el cumplimiento durante el tránsito.
-- Visibilidad de activos retornables para pallets, cajas y jaulas rodantes donde se requiere un montaje delgado y adherible.
+- Seguimiento de paquetes y cajas para visibilidad en la última milla y confirmación de entrega en operaciones de comercio electrónico.
+- Monitoreo de traslado de activos de alto valor donde los rastreadores recargables y discretos reducen el riesgo de robo y pérdidas.
+- Envíos en cadena de frío utilizando la sonda externa opcional de temperatura o de temperatura y humedad para controlar la exposición térmica.
+- Flujos de activos retornables para pallets, cajones y jaulas donde se requiere un montaje delgado con adhesivo.
+- Etiquetado discreto para monitoreo temporal o de corto plazo en redes logísticas complejas.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El CyberLabelX 100 ofrece telemetría enfocada a nivel de paquete y una fidelidad de ubicación robusta en un formato diseñado para integrarse sin problemas con Plaspy. Su GNSS de múltiples constelaciones, conectividad LTE/GSM fiable y el registro en búfer proporcionan a los equipos logísticos una visión precisa y continua de los envíos y activos de alto valor. Las alertas de manipulación \(con detección de luz\) y movimiento integradas ofrecen avisos prácticos de anti‑robo, mientras que la sonda externa opcional amplía la capacidad a casos de cadena de frío.
+El CyberLabelX 100 es ideal para organizaciones que necesitan seguimiento compacto y de larga duración para activos sin alimentación y paquetes, usando Plaspy para la supervisión centralizada. Su combinación de posicionamiento GNSS preciso, registro en búfer y sensado ambiental ofrece a los equipos logísticos visibilidad accionable sin recurrir a hardware telemático más voluminoso orientado a vehículos.
 
-Para organizaciones que utilizan Plaspy para la gestión de flotas, el CyberLabelX 100 es un excelente complemento cuando se requieren rastreadores GPS compactos y de larga duración para activos y envíos que no requieren alimentación externa. Tenga en cuenta que las características telemáticas específicas para vehículos, como entradas de encendido, control de inmovilizador o monitorización de combustible a bordo, no forman parte de este perfil de dispositivo; si se requieren estas capacidades, combine el rastreo de CyberLabelX 100 para paquetes con módulos de telemática de vehículos u otros sensores en su implementación de Plaspy. Del mismo modo, mientras este modelo se centra en sensores ambientales integrados en lugar de sensores Bluetooth, Plaspy puede correlacionar datos de dispositivos y gateways Bluetooth en soluciones multsensor para proporcionar una imagen de telemetría completa.
+Si su implementación requiere telemática específica para vehículos, como entradas de ignición o diagnósticos a bordo, combine el seguimiento de paquetes CyberLabelX 100 con otros módulos telemáticos dentro de su solución Plaspy. Para escenarios de envío y activos que priorizan el montaje discreto, la larga duración de batería y la detección de temperatura, este rastreador es un complemento práctico para Plaspy.
 
+To learn more about using the CyberLabelX 100 with Plaspy visit https://www.plaspy.com for platform information. Product specifications and availability can change over time, so verify current technical details and supported accessories on the manufacturer site https://www.topflytech.com/.

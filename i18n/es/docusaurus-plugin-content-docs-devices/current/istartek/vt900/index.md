@@ -2,87 +2,62 @@
 slug: /istartek/vt900
 id: vt900
 sidebar_label: VT900
+title: iStartek - VT900
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto iStartek VT900 compatible con Plaspy para vehículos y activos con detección de movimiento y registro local
+keywords:
+  - iStartek VT900
+  - rastreador VT900
+  - VT900 para Plaspy
+  - rastreador iStartek
+  - rastreador GPS para vehículo
+  - rastreador de activos
+  - seguimiento de flotas
+  - registro GPS
+  - rastreador con sensor de vibración
+  - alarma de geocerca
 ---
+
 # iStartek - VT900
 
 ![VT900](./logo.jpg)
 
-El rastreador GPS iStartek VT900 es un dispositivo de seguimiento de vehículos que ofrece una amplia gama de características y funcionalidades. Con soporte para UMTS / HSDPA y GSM / GPRS, el VT900 es compatible con diferentes frecuencias y bandas, lo que le permite funcionar en diferentes regiones y redes móviles.
+El iStartek VT900 es un rastreador GPS compacto diseñado para el seguimiento de vehículos y activos. Soporta redes celulares comunes para enviar actualizaciones de ubicación por SMS o mediante conexiones de datos, ofrece modos de seguimiento por demanda e intervalos configurables, y cuenta con registro interno para conservar el historial de posiciones. El equipo incluye además un sensor de vibración interno para detectar movimiento, una función de alarma SOS y una batería de respaldo que ayuda a mantener la operación si se interrumpe la alimentación externa.
 
-Una de las características destacadas del VT900 es su capacidad de seguimiento a través de SMS y GPRS. Esto significa que puede recibir actualizaciones de ubicación en tiempo real a través de mensajes de texto o mediante una conexión de datos. También puede realizar un seguimiento bajo demanda, establecer intervalos de tiempo para el seguimiento automático o incluso rastrear la ubicación directamente desde su teléfono móvil.
+Como dispositivo compatible con Plaspy, el VT900 puede integrarse en un flujo de trabajo centralizado de gestión de flotas y activos. Plaspy puede recibir los datos de ubicación y eventos del VT900 para que los operadores obtengan visibilidad continua, rutas históricas y notificaciones de alarma de dispositivos desplegados en distintas regiones. La combinación de modos de seguimiento flexibles, registro local y opciones de alarma del VT900 lo convierte en una opción práctica para organizaciones que deseen usar Plaspy para monitoreo e informes.
 
-El VT900 también cuenta con una memoria interna de 8MB para el registro de datos, lo que le permite almacenar información de seguimiento incluso cuando no hay una conexión disponible. Además, está equipado con un sensor de temblor incorporado, una batería de reserva interna y varias alarmas, como SOS, Geo-fence, batería baja y velocidad, que le mantendrán informado sobre cualquier evento o situación inusual.
+## Aspectos clave
 
-En cuanto a las especificaciones técnicas, el VT900 tiene una fuente de alimentación de 10.6V - 36V / 1.5A y una batería de reserva de 500mAh. Tiene un consumo de energía normal de 55mA / h y dimensiones de 65 mm x 61 mm x 26 mm, lo que lo hace compacto y fácil de instalar en cualquier vehículo. También es resistente, con una temperatura de funcionamiento de -20 a 65 grados y una humedad de 5% a 95% sin condensación.
+- Opciones de seguimiento flexibles con rastreo por demanda y reportes en intervalos configurables
+- Soporta redes celulares comunes para cobertura regional amplia y rastreo remoto
+- Memoria flash interna de 8MB para registro local y preservación del historial de ubicaciones
+- Sensor de vibración integrado y alarma SOS para detección de movimiento y alertas de emergencia
+- Batería de respaldo interna para mantener la operación durante cortes de alimentación externa
+- Múltiples entradas y salidas que amplían las capacidades de monitoreo y control
+- Diseño compacto y ligero con una precisión de posición aproximada de 10 metros
 
-En resumen, el rastreador GPS iStartek VT900 es una opción confiable y versátil para el seguimiento de vehículos. Con su amplia gama de características, especificaciones técnicas sólidas y facilidad de uso, es una herramienta valiosa para cualquier empresa o individuo que necesite mantener un control preciso y seguro de sus activos.
+## Cómo funciona con Plaspy
 
-### Características destacadas:
+Al emparejarse con Plaspy, el VT900 se convierte en una fuente de datos de ubicación y eventos que la plataforma consolida para brindar visibilidad e información operativa. Plaspy recibe las actualizaciones del rastreador y las muestra mediante mapas, alertas y herramientas de informes para que los equipos gestionen activos desde una única interfaz.
 
-- Seguimiento por SMS / GPRS
-- Pista bajo demanda
-- Seguimiento por intervalo de tiempo
-- Pista en el teléfono móvil
-- Memoria interna de 8MB para registro
-- Sensor de temblor incorporado
-- Batería de reserva interna
-- Alarma SOS
-- Alarma Geo-fence
-- Alarma de zona ciega GPS
-- Alarma de batería baja
-- Alarma de velocidad
-- Alarma de Corte de Energía Externa
-- Corte del motor \(inmovilización del motor\)
-- Control de combustible
-- 1RS232 ++ 2OUTPUT + 3INPUT
-- 1 Detección de entrada analógica
+- Visualización de ubicación en tiempo real y seguimiento en mapa de vehículos y equipos monitorizados
+- Reconstrucción de rutas históricas usando registros a bordo y datos almacenados en la plataforma
+- Reenvío de alarmas del dispositivo, como eventos SOS, activaciones de geocerca y alertas de movimiento, hacia los sistemas de notificación de Plaspy
+- Informes programados y por demanda dentro de Plaspy para análisis de rendimiento de la flota y revisión de eventos
+- Estado centralizado del dispositivo e información diagnóstica para apoyar la supervisión operativa
 
-### Especificaciones técnicas:
+## Casos de uso típicos
 
-- Fuente de alimentación: 10.6V - 36V / 1.5A
-- Batería de reserva: 500mAh
-- Consumo de energía normal: 55mA / h
-- Dimensión: 65 mm x 61 mm x 26 mm
-- Peso: 90 g
-- Tiempo de trabajo: 30 horas en modo de ahorro de energía y 7,5 horas en modo normal
-- Temperatura de funcionamiento: -20 a 65 grados
-- Humedad: 5% a 95% Sin condensación
-- Frecuencia: UMTS / HSDPA: 850/2100 MHz \(VT900 T\), 850/1900 MHz \(VT900 A\), 900 / 2100MHz \(VT900 E\); GSM / GPRS: 850/900/1800/1900 MHz
-- Módulo GPS: Quectel L70
-- Sensibilidad del GPS: -159Db
-- Frecuencia GPS: L1, 1575,42 MHz
-- C / A Código: Tasa de chip de 1,023 MHz
-- Canales: 20 canales de seguimiento de todo en la vista
-- Precisión de posición: 10 metros, 2D RMS
-- Precisión de la velocidad: 0,1 m / s
-- Precisión de tiempo: 1 nosotros sincronizados con el tiempo GPS
-- Dato predeterminado: WGS-84
-- Reacquisición: 0,1 seg., Promedio
-- Arranque en caliente: 1 seg., Promedio
-- Arranque en caliente: 38 seg., Promedio
-- Inicio fresco: 42 seg., Promedio
-- Límite de Altitud: 18.000 metros \(60.000 pies\) máximo
-- Límite de velocidad: 515 metros / segundo \(1000 nudos\) máx.
-- LED: 2 luces LED para mostrar el estado GPS / GSM
-- Memoria flash: 8MB
-- Interfaz: Puerto 1RS232 para conectar con lector de tarjetas magnéticas, 3 entradas digitales, 2 salidas, 1 entrada analógica
+- Seguimiento de vehículos de flota y monitoreo de rutas para servicios de transporte y entrega
+- Rastreo de seguridad para remolques, contenedores y activos móviles de alto valor
+- Protección remota de activos mediante alertas de sensor de vibración y notificaciones de geocerca
+- Respuesta a emergencias o monitoreo de trabajadores solitarios aprovechando la función SOS
+- Monitoreo de combustible y parámetros auxiliares cuando se conectan sensores externos
 
-### Accesorios incluidos:
+## Por qué elegir este rastreador con Plaspy
 
-- VT900 3G Tracker
-- Antena GSM
-- Antena GPS
-- Cable de energía
+El VT900 combina funciones prácticas de seguimiento con registro a bordo y detección de eventos que cubren muchas necesidades habituales de gestión de flotas y activos. Su factor de forma compacto y sus múltiples entradas y salidas lo hacen adaptable para instalaciones donde se requieren funciones de rastreo y alarma simples pero confiables. Para organizaciones que usan Plaspy, el VT900 puede proporcionar tanto flujos de ubicación en vivo como datos históricos que la plataforma utiliza para mapeo, alertas e informes.
 
-### Accesorios opcionales:
+Elegir el VT900 para usar con Plaspy es una forma de incorporar una opción de hardware capaz en una plataforma de gestión unificada sin depender de especificaciones hardware excesivamente especializadas. Si necesita un rastreador compacto que soporte múltiples modos de seguimiento, detección de movimiento y conexiones básicas para sensores externos, el VT900 es un candidato a evaluar dentro de Plaspy.
 
-- Cable de datos USB
-- Sensor de combustible
-- Lector de tarjetas magnéticas
-- Interruptor de clavija
-- Relé
-- IButton
-- Tarjeta RFID
-- Temperatura. Sensor
-
+Obtenga más información sobre Plaspy en el sitio web principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que debe verificar las especificaciones actuales y las opciones de accesorios en el sitio web de iStartek https://istartek.com/.

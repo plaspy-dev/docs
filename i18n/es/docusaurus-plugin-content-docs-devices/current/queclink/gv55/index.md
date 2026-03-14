@@ -2,66 +2,60 @@
 slug: /queclink/gv55
 id: gv55
 sidebar_label: GV55
+title: QuecLink - GV55
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto compatible con Plaspy, diseño encubierto y telemetría rica en eventos para flotas y antirrobo
+keywords:
+  - queclink gv55
+  - queclink gv55 rastreador gps
+  - rastreador gv55
+  - gv55 compatible plaspy
+  - gv55 seguimiento de flotas
+  - mini rastreador vehicular
+  - rastreador gps discreto
+  - u-blox gnss rastreador
+  - gsm gprs rastreador
+  - recuperacion de vehiculos robados
 ---
+
 # QuecLink - GV55
 
 ![GV55](./tracker.png)
 
-El rastreador GPS GV55 para vehículos de Concox \(modelo GV55\) es un rastreador GPS compacto y de instalación encubierta, diseñado para telemática en vehículo fiable y despliegues compatibles con Plaspy. Con un receptor GNSS All-in-One interno de u-blox y conectividad GSM/GPRS integrada, el GV55 ofrece posicionamiento preciso y telemetría robusta para la gestión de flotas, recuperación de vehículos robados y aplicaciones de seguros basados en el uso cuando se integra con la plataforma de seguimiento en tiempo real de Plaspy.
+El GV55 es un rastreador GPS vehicular compacto y discreto diseñado para telemática embarcada. Integra un receptor GNSS u-blox, conectividad GSM GPRS incorporada y una batería interna de respaldo que permiten reportes de posición continuos y telemetría en búfer. El equipo está pensado para aplicaciones que requieren instalación sigilosa y notificación confiable de eventos en vehículos ligeros.
 
-Listo para Plaspy desde la caja, el GV55 proporciona las señales esenciales y los datos de eventos requeridos por soluciones modernas de flota y movilidad: detección de encendido, control del inmovilizador remoto, eventos de accidentes y conducción agresiva, geocercas y transporte multi‑protocolo \(TCP/UDP/SMS\). Su formato mini y encubierto, las antenas internas y la batería interna de respaldo de 250 mAh lo hacen ideal cuando se requiere rastreo discreto y monitorización antirrobo continua.
+Compatible con Plaspy desde el primer momento, el GV55 suministra señales básicas de posición y eventos que alimentan a Plaspy para seguimiento en tiempo real, alertas e informes históricos. Su telemetría rica en eventos y el almacenamiento en búfer de mensajes lo convierten en una opción práctica para administradores de flotas y proveedores de servicios que desean integrar un hardware compacto con Plaspy para visibilidad operativa y procesos antirrobo.
 
-## Principales características
+## Características principales
 
-- Rastreador GPS compatible con Plaspy con GNSS interno de u-blox para seguimiento y telemetría precisos en tiempo real.
-- Conectividad GSM/GPRS integrada \(850/900/1800/1900 MHz\) con opciones de transporte TCP, UDP y SMS para una entrega de datos flexible.
-- Detección avanzada de eventos: entrada de encendido, inmovilización remota, interfaz de botón de pánico, detección de colisiones y monitorización del comportamiento de conducción \(frenadas bruscas/aceleración rápida\).
-- Formato mini encubierto \(63 x 50 x 21,8 mm, 50 g\) con antenas internas para una instalación discreta en vehículos ligeros.
-- Batería de respaldo Li-Polymer de 250 mAh mantiene la monitorización durante interrupciones de alimentación; almacena hasta 10.000 mensajes.
-- Alarmas y gestión integrales: geocercas \(hasta 20 regiones\), alarma de remolque y de velocidad, detección de interferencias y control OTA de salidas digitales.
-- Certificaciones regulatorias \(FCC, PTCRB, CE, E‑Mark, Anatel\) para despliegues globales y implementaciones de flotas comerciales.
+- Mini rastreador vehicular compatible con Plaspy, con GNSS u-blox interno para localización precisa
+- Conectividad GSM GPRS integrada con opciones de transporte TCP, UDP y SMS para entrega flexible de datos
+- Detección y control de eventos, incluyendo detección de encendido, control remoto de inmovilizador y entrada de pánico
+- Reporte de choques y comportamiento de manejo, con geocercas, alarmas por remolque y exceso de velocidad para seguridad
+- Factor de forma compacto y discreto con antenas internas y batería de respaldo interna para seguimiento continuo
+- Almacenamiento en búfer de mensajes para proteger contra pérdidas temporales de conectividad y asegurar la entrega de datos
 
 ## Cómo funciona con Plaspy
 
-Cuando se combina con Plaspy, el GV55 transmite la posición y la telemetría de eventos directamente a la plataforma Plaspy para seguimiento en tiempo real, alertas e informes históricos. Plaspy utiliza las coordenadas GNSS del dispositivo, los eventos de entradas/salidas digitales y los estados de alarma para ofrecer paneles de control, mapas en tiempo real y notificaciones automáticas en las que confían los gestores de flotas y los proveedores de servicios.
+Al integrarse con Plaspy, el GV55 envía posiciones GNSS y telemetría de eventos del dispositivo a los paneles, mapas y sistemas de alertas de Plaspy, permitiendo que los operadores supervisen los vehículos en tiempo real y respondan a eventos relevantes. Plaspy agrega los datos del dispositivo para ofrecer visibilidad, notificaciones y reproducción histórica para supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: soluciones de GNSS \(u-blox\), sellos de tiempo y datos de movimiento alimentan a Plaspy para geolocalización en vivo y reproducción.
-- Estado de encendido e inmovilizador: la E/S digital proporciona detección de encendido y control remoto de inmovilización para flujos de trabajo anti‑robo.
-- Colisiones y comportamiento de conducción: frenadas bruscas, aceleración rápida y datos de eventos de choque se reportan para que Plaspy active flujos de trabajo de emergencia o calificación del conductor.
-- Geocercas y alarmas: hasta 20 regiones de geocerca internas, alarmas de remolque/velocidad/entradas especiales y detección de interferencias se envían a Plaspy para alertas inmediatas.
-- Agrupación de telemetría: almacenamiento en búfer de mensajes \(hasta 10.000\) y generación de informes programados por tiempo, distancia o kilometraje garantizan una entrega fiable de datos a Plaspy incluso durante pérdidas temporales de conectividad.
-- Integración con monitorización de combustible o sensores Bluetooth: si bien el GV55 no incorpora sensores BLE integrados, la telemetría y las E/S del GV55 pueden combinarse en Plaspy con sistemas externos \(sondas de combustible o flujos de sensores Bluetooth\) para proporcionar telemetría integral de la flota.
+- Actualizaciones de ubicación en tiempo real y reproducción histórica para análisis de rutas y despacho
+- Alertas basadas en eventos por cambios de encendido, acciones de inmovilizador y activación de pánico
+- Eventos de choque y conducción brusca integrados en flujos de trabajo de incidentes y evaluación de conductores en Plaspy
+- Geocercas y alarmas enviadas como notificaciones inmediatas por violaciones de perímetro y remolques
+- La entrega de mensajes en búfer y la generación de reportes programados ayudan a mantener la continuidad de datos durante breves interrupciones de conectividad
+- La agregación de telemetría en Plaspy permite vistas combinadas de posición, estado e historial de alarmas por vehículo
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Modelo | GV55 |
-| --- | --- |
-| Fabricante | Concox |
-| Conectividad | GSM / GPRS \(celular interno\), clase de ranuras GPRS 12 |
-| Bandas | GSM 850 / 900 / 1800 / 1900 MHz |
-| GNSS | Receptor GNSS All‑in‑One interno de u‑blox; sensibilidad de –162 dBm; precisión de posición \(CEP\) \< 2.5 m; TTFF tan rápido como 1 s \(arranque en caliente\) |
-| Alimentación & Batería | Voltaje de funcionamiento 8–32 V DC; batería interna de respaldo Li‑Polymer de 250 mAh; tiempos de espera ~35–59 horas dependiendo del intervalo de informes |
-| Interfaces | 1 entrada digital positiva y 1 entrada digital negativa, 1 salida digital de drenaje abierto \(150 mA máx\), 1 salida digital con latch \(interna, 150 mA\); mini USB para actualización/depuración; múltiples LEDs \(GSM, GPS, PWR\) |
-| Alarmas & Características | Detección de encendido, inmovilización remota, entrada de botón de pánico, monitorización del comportamiento de conducción, detección de colisiones, geocercas \(hasta 20 regiones\), alarma de remolque, alarma de velocidad, alarmas por entradas digitales especiales, detección de interferencias, control OTA de salidas digitales |
-| Protocolos de Transporte | TCP, UDP y SMS |
-| Gestión de Datos | Almacenamiento en búfer de hasta 10.000 mensajes; informes programados por tiempo, distancia o kilometraje; compresión y filtrado de datos UBI soportados |
-| Dimensiones y Peso | 63 x 50 x 21,8 mm; 50 g |
-| Ambiental | Operación: −30°C a +80°C; Almacenamiento: hasta −40°C |
-| Certificaciones | FCC, PTCRB, CE, E‑Mark, Anatel |
-| Formato | Rastreador compacto para vehículos con antenas internas celulares y GPS para instalación encubierta |
-
-## Casos de uso
-
-- Gestión de flotas y monitorización de rutas: datos del rastreador GPS en tiempo real y telemetría alimentan Plaspy para despacho, puntuación de conductores e informes de utilización.
-- Recuperación de vehículos robados y anti‑robo: control remoto del inmovilizador, detección de encendido y alarmas de geocerca/remolque compatibles con flujos de recuperación rápida a través de Plaspy.
-- Seguro basado en uso \(UBI\): monitorización del comportamiento de conducción, registro de trayectos y compresión de datos UBI que habilitan programas de seguros telemáticos.
-- Flotas Buy Here Pay Here y de alquiler: instalación encubierta, detección de choques y generación de informes programados ayudan a proteger activos y automatizar los informes de cumplimiento.
-- Rastreo de activos de vehículos ligeros general: formato compacto e informes en búfer garantizan un seguimiento discreto y fiable cuando se requiere monitorización continua.
+- Gestión de flotas y monitoreo de rutas con seguimiento en vivo e informes de utilización
+- Recuperación de vehículos robados y operaciones antirrobo mediante inmovilizador remoto y alarmas de geocerca
+- Monitoreo tipo seguro por uso con registro de comportamiento de manejo y viajes
+- Programas de alquiler y vehículos compartidos que requieren rastreo discreto y reportes programados
+- Rastreo de activos vehiculares ligeros donde la instalación discreta y la telemetría en búfer son importantes
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GV55 es un rastreador GPS diseñado específicamente para ser compatible con Plaspy, con foco en una precisión de posicionamiento fiable, telemetría rica en eventos y una instalación discreta. Para proveedores de servicios y operadores de flotas, ofrece las entradas y alarmas esenciales—detección de encendido, control del inmovilizador, informe de choques y geocercas—necesarias para impulsar soluciones de antirrobo, gestión de flotas y UBI en Plaspy. El almacenamiento en búfer de mensajes, el transporte multi‑protocolo y las certificaciones regulatorias reducen la fricción de despliegue, mientras que su formato compacto y antenas internas facilitan instalaciones encubiertas.
+El GV55 es una opción práctica cuando se necesita un rastreador pequeño y discreto acompañado de telemetría rica en eventos. Su combinación de posicionamiento GNSS, conectividad celular y señales de eventos basadas en entradas proporciona los datos esenciales que Plaspy necesita para ofrecer mapas, alertas e informes para flujos operativos de flotas y seguridad. El almacenamiento en búfer de mensajes y las múltiples opciones de transporte reducen el impacto de la conectividad intermitente en la calidad de los datos.
 
-Combinado con Plaspy, el GV55 se convierte en un bloque de base fiable para implementaciones de telemática escalables: seguimiento en tiempo real, telemetría robusta, control remoto y flujos de trabajo basados en eventos con la fidelidad de datos necesaria para la toma de decisiones operativas. Si su proyecto requiere un rastreador GPS compacto y certificado que se integre de forma limpia con Plaspy para gestión de flotas, antirrobo y servicios basados en telemetría, el GV55 está diseñado para satisfacer esas necesidades sin complejidad innecesaria.
-
+En conjunto con Plaspy, el GV55 puede servir como un componente confiable para el seguimiento operativo, la respuesta antirrobo y los servicios basados en telemetría sin añadir complejidad innecesaria. Para saber más sobre Plaspy y cómo este dispositivo puede encajar en su arquitectura telemática visite https://www.plaspy.com. Las especificaciones del producto, certificaciones y disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y la conformidad con el fabricante en https://www.queclink.com/.

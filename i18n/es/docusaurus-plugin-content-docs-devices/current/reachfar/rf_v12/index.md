@@ -2,61 +2,61 @@
 slug: /reachfar/rf_v12
 id: rf_v12
 sidebar_label: RF-V12
+title: Reachfar - RF-V12
 sidebar_class_name: menu_item_tracker
+description: Rastreador Reachfar RF V12 compacto para bicicletas eléctricas y motocicletas con alertas antirrobo y localización en tiempo real compatible con Plaspy
+keywords:
+  - Reachfar RF V12
+  - Rastreador RF V12
+  - Rastreador GPS Reachfar
+  - Compatible con Plaspy
+  - Rastreador para bicicletas eléctricas
+  - Rastreador para motocicletas
+  - GPS antirrobo
+  - Seguimiento en tiempo real
+  - Seguimiento de flotas
+  - Seguridad vehicular
 ---
+
 # Reachfar - RF-V12
 
 ![RF-V12](./tracker.jpg)
 
-# RF‑V12 GSM GPRS Rastreador en tiempo real — compatible con Plaspy
+El RF-V12 es un rastreador GPS GSM GPRS compacto en tiempo real de Reachfar, diseñado para bicicletas eléctricas y motocicletas. Su enfoque principal es la protección antirrobo y la visibilidad de la ubicación en vivo, combinando reportes continuos de posición con funciones específicas de detección de manipulación como alarmas por vibración y sonora, detección de corte de línea, alertas por desplazamiento y escucha remota. El equipo está pensado para un montaje discreto y un uso sencillo, apto tanto para vehículos individuales como para flotas gestionadas.
 
-El RF‑V12 GSM GPRS Real‑time Tracker es un rastreador GPS compacto, diseñado para bicicletas y motocicletas eléctricas, que ofrece una protección antirrobo robusta y visibilidad de ubicación en tiempo real para flotas y usuarios individuales compatibles con Plaspy. Diseñado para una instalación sencilla y un monitoréo continuo, el RF‑V12 combina seguimiento en tiempo real, alarmas por sensores de vibración y sonido, escucha remota y detección de manipulación, para que puedas proteger tus activos con confianza en la plataforma Plaspy.
+Como rastreador compatible con Plaspy, el RF-V12 puede enviar datos de ubicación y eventos a Plaspy para monitoreo en vivo, reproducción de historial y notificaciones de alarma. Su conjunto de funcionalidades y su formato compacto lo hacen apropiado para quienes requieren alertas antirrobo confiables y telemetría básica dentro de la plataforma Plaspy sin configuraciones complejas.
 
-Como rastreador GPS compatible con Plaspy, el RF‑V12 transmite la posición y telemetría a plataformas en línea \(incluido el portal del fabricante, WeChat, apps móviles e interfaces web\) para seguimiento en tiempo real, reproducción de trazas y notificaciones de alarma. Su formato compacto, batería interna de larga duración y GSM quad‑band lo convierten en una opción rentable para la gestión de flotas, monitoreo anti‑robo y supervisión remota de activos, donde son esenciales las alertas de manipulación y desplazamiento.
+## Características principales
 
-## Puntos destacados
-
-- Rastreador GPS compatible con Plaspy con seguimiento en tiempo real y reproducción de historial mediante interfaces web y móviles.
-- Sensores anti‑robo dedicados: alarma por vibración, alarma por sonido y detección de línea cortada para detectar manipulación o remoción.
-- Función de escucha remota para supervisar de forma audible el entorno del dispositivo cuando se activa una alarma.
-- Detección de encendido y alertas de desplazamiento que proporcionan telemetría útil para la gestión de flotas y flujos de seguridad.
-- Batería integrada con larga autonomía y notificación de batería baja \(alertas cuando la batería cae por debajo del 10%\).
-- GSM quad‑band \(850/900/1800/1900 MHz\) para amplia compatibilidad celular y opciones de reporte por SMS/GPRS.
-- Factor de forma compacto dual‑host, adecuado para instalación oculta en bicicletas, patinetes y motocicletas.
+- Rastreo GPS en tiempo real con reproducción de historial accesible desde interfaces web y móviles.
+- Sensores dedicados antirrobo que incluyen alarma por vibración, alarma sonora y detección de corte de línea para identificar manipulación.
+- Capacidad de escucha remota para ayudar a verificar condiciones de alarma y la actividad alrededor del vehículo.
+- Detección de encendido y alertas por desplazamiento que apoyan flujos de trabajo básicos de gestión de flotas y seguridad.
+- Batería interna con larga autonomía en modo reposo y notificación de batería baja para mantener la visibilidad mientras está estacionado.
+- Compatibilidad quad band GSM y opciones de reporte por SMS/GPRS para amplia cobertura celular.
+- Diseño compacto de doble host para instalación oculta en bicicletas eléctricas, scooters y motocicletas.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el RF‑V12 transmite la ubicación y los eventos de alarma a tu panel de control de Plaspy o a un endpoint de API para una visibilidad situacional inmediata y análisis histórico. El dispositivo usa GSM GPRS para subir coordenadas GPS y datos de eventos a servidores en línea y también admite SMS para alertas directas. Plaspy aprovecha esos puntos de telemetría entrantes para proporcionar mapas en vivo, alertas de geocerca, reproducción de trazas y reglas de notificación configurables.
+Cuando lo conecte a Plaspy, el RF-V12 entrega actualizaciones de posición y eventos de alarma a su panel de Plaspy o a la API, de modo que los equipos puedan monitorear activos en tiempo real y revisar recorridos históricos. Plaspy utiliza la telemetría entrante para generar mapas en vivo, alertas configurables e informes orientados a la supervisión de flotas y operaciones de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas vía GPRS \(o SMS cuando esté configurado\) a Plaspy.
-- Estado de encendido y de línea cortada/pérdida de energía reportados como eventos para la gestión de flotas y flujos de trabajo de seguridad.
-- Alarmas de sensores de vibración y sonido generan notificaciones inmediatas y llamadas a números de contacto principales.
-- Escucha remota disponible para corroborar condiciones de alarma y verificar la actividad en el entorno.
-- Alertas de geocerca \(eco‑fence\) y reproducción de trazas para revisión de historial y verificación de rutas en Plaspy.
+- Ubicación en tiempo real y actualizaciones de telemetría enviadas vía GPRS o SMS a Plaspy para visibilidad inmediata.
+- Reporte de eventos como estado de encendido, corte de línea o pérdida de alimentación, y desplazamiento para apoyar procesos operativos.
+- Eventos de alarma por vibración y sonido que activan notificaciones que Plaspy puede direccionar a usuarios o equipos.
+- Eventos de escucha remota que sirven para corroborar alarmas y aportar verificación contextual.
+- Alertas de batería baja y otras notificaciones del dispositivo visibles en Plaspy para una gestión proactiva de activos.
+- Reproducción de trazas y alertas por geocercas disponibles en Plaspy para revisar historial e investigar incidentes.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM GPRS \(quad‑band\) |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(quad‑band\) |
-| Potencia & Batería | Batería integrada; rango de voltaje de operación 36 V – 96 V \(diseñado para bicicletas/motocicletas eléctricas\); alerta de batería baja a &lt;10% |
-| Interfaces & Sensores | Alarma de sensor de vibración, alarma de sensor de sonido, detección de línea cortada \(corte de energía\), detección de encendido, alertas de desplazamiento, escucha remota; admite SMS y alertas de llamadas a números maestros; 2 mandos remotos incluidos |
-| GNSS | Seguimiento GPS en tiempo real \(coordenadas GPS reportadas vía GPRS/SMS\) |
-| Bluetooth | No especificado / no se reportan sensores Bluetooth en la descripción del producto |
-| Gestión remota | Plataforma en línea compatible \(www.gps123.org\), WeChat, apps móviles e interfaces web para seguimiento en vivo y reproducción de historial \(FOTA no especificado\) |
-| Forma y Embalaje | Unidad principal: 65 × 65 × 20 mm; Unidad auxiliar: 45 × 35 × 13,5 mm; Embalaje: 230 × 150 × 50 mm; Peso del paquete: 340 g; Color: negro |
-
-## Casos de uso
-
-- Monitoreo antirrobo para bicicletas eléctricas y motocicletas: alertas de vibración, sonido y línea cortada para proteger vehículos estacionados o en servicio.
-- Gestión de flotas donde la detección de manipulación y alertas de desplazamiento mejoran la seguridad y reducen el uso no autorizado.
-- Operaciones de alquiler o movilidad compartida que requieren seguimiento en tiempo real remoto, verificación audible y reproducción de historial.
-- Protección de activos en campus o comunidades: monitorea vehículos estacionados por largos periodos y recibe notificaciones de batería baja y movimiento.
-- Cualquier escenario de activo remoto que necesite alertas por SMS/llamadas inmediatas y reproducción de trazas basada en la web para la investigación de incidentes.
+- Protección antirrobo para bicicletas eléctricas y motocicletas mediante alertas por vibración, sonido y corte de línea.
+- Gestión de pequeñas flotas donde la detección de manipulación y las alertas de movimiento mejoran la seguridad y el control.
+- Servicios de alquiler y movilidad compartida que requieren rastreo en tiempo real, verificación audible e historial de viajes.
+- Monitoreo de vehículos en campus o comunidades para recibir notificaciones de movimiento y batería baja en activos estacionados.
+- Supervisión remota de activos donde el SMS y la reproducción web de trazas facilitan el seguimiento de incidentes.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El RF‑V12 es un rastreador GPS práctico compatible con Plaspy para operadores que requieren funciones anti‑robo fiables y telemetría clara sin instalaciones complejas. Informa la ubicación GPS y eventos críticos \(encendido, corte de energía, vibración, sonido y desplazamiento\) para que Plaspy pueda ofrecer seguimiento en tiempo real, alertas de geocerca y reproducción de trazas para la gestión de flotas y los equipos de seguridad. La batería integrada y el soporte GSM quad‑band lo hacen adecuado para despliegues amplios, mientras que las unidades host compactas permiten un montaje discreto en bicicletas eléctricas y motocicletas.
+El RF-V12 es una opción práctica para organizaciones e individuos que buscan hardware compacto compatible con Plaspy centrado en la detección antirrobo y la visibilidad básica de la flota. Reporta ubicación y eventos clave que Plaspy convierte en mapas, alertas y rutas reproducibles, ayudando a los equipos a responder con rapidez ante desplazamientos o intentos de manipulación.
 
-Para clientes que buscan telemetría adicional como monitoreo de combustible, control de inmovilizador o sensores Bluetooth, Plaspy admite esas capacidades cuando se combinen con sensores externos compatibles o variantes específicas del rastreador. Tenga en cuenta que el funcionamiento del RF‑V12 depende de la energía del dispositivo y del comportamiento del regulador del vehículo; si la batería del vehículo se agota o se funda, el rastreador puede no funcionar correctamente. Utilice los comandos SMS incluidos, las aplicaciones móviles o el portal web del proveedor para poner en servicio los dispositivos y configurar rápidamente las alertas de Plaspy.
-
+Si desea conocer más sobre Plaspy y cómo se integra con dispositivos como el RF-V12 visite https://www.plaspy.com. Las especificaciones y la disponibilidad de producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y las opciones de firmware en el sitio oficial del fabricante https://www.reachfargps.com/ antes del despliegue final.

@@ -2,62 +2,59 @@
 slug: /istartek/pt23
 id: pt23
 sidebar_label: PT23
+title: iStartek - PT23
 sidebar_class_name: menu_item_tracker
+description: Reloj GPS compacto para niños compatible con Plaspy para monitoreo en tiempo real y alertas de seguridad
+keywords:
+  - iStartek PT23
+  - rastreador PT23
+  - PT23 GPS
+  - reloj rastreador para niños
+  - PT23 Plaspy
+  - rastreador GPS Plaspy
+  - reloj GPS infantil
+  - rastreador portátil
+  - características PT23
+  - rastreador compatible con Plaspy
 ---
+
 # iStartek - PT23
 
 ![PT23](./tracker.jpg)
 
-El PT23 Kids Watch GPS Tracker de iStartek es un rastreador GPS compacto, compatible con Plaspy, diseñado para la seguridad de los niños y el uso diario. Combinando posicionamiento multimodal \(GPS/Beidou, Wi‑Fi y LBS\) con voz bidireccional, llamadas SOS y alertas de geocerca inteligentes, el PT23 facilita un seguimiento en tiempo real confiable y la concienciación situacional para padres y administradores a través de SMS, la aplicación móvil y el acceso a la plataforma web.
+El PT23 Kids Watch GPS Tracker de iStartek es un dispositivo portátil y compacto diseñado para la seguridad infantil y el uso diario. Combina posicionamiento multimodal (GPS y Beidou, además de Wi‑Fi y LBS), comunicación de voz bidireccional, llamada SOS y alertas inteligentes de geocerca en un equipo resistente con protección IP67 y pantalla de 1.30". Está pensado para uso activo y ofrece actualizaciones de ubicación y estado en tiempo real, adecuadas para padres, escuelas y cuidadores.
 
-Construido para uso activo, el PT23 es resistente al agua IP67 y ligero \(45 x 39 x 15 mm, 40 g\) con una pantalla de 1.30" 240x240 y una batería de respaldo de 450 mAh que se recarga mediante succión magnética. Compatible con Plaspy desde el primer momento, el PT23 se integra en paneles de monitoreo y flujos de trabajo de informes para que puedas obtener ubicación en tiempo real, rutas históricas \(hasta tres meses\) y alertas de seguridad sin configuraciones complicadas.
+Como dispositivo compatible con Plaspy desde su configuración de fábrica, el PT23 puede integrarse en los paneles de monitoreo y flujos de reporte de Plaspy sin configuraciones complejas. Esa compatibilidad facilita ver la ubicación en vivo, recibir alertas de seguridad y revisar rutas históricas dentro de Plaspy, para que familias y operadores mantengan conciencia situacional y respondan con rapidez ante eventos.
 
-## Aspectos clave
+## Puntos clave
 
-- Rastreador GPS compatible con Plaspy optimizado para la seguridad infantil: seguimiento en tiempo real a través de la aplicación, web y entrega por SMS.
-- Posicionamiento multimodal: GPS/Beidou para precisión al aire libre, Wi‑Fi para mejora en interiores y LBS para cobertura de respaldo.
-- Voz bidireccional y monitoreo de voz con un botón SOS dedicado para una comunicación rápida y directa en emergencias.
-- Construcción a prueba de agua IP67 y diseño ergonómico ligero para uso diario y activo.
-- Informes y alertas flexibles: disparadores por tiempo/distancia/kilometraje, alertas de geocerca inteligentes y alarmas de batería baja.
-- Batería de respaldo de 450 mAh con carga magnética y perfiles de energía configurables para una mayor autonomía en modo de espera.
-- No se requiere suscripción de servidor por parte de iStartek: los clientes proporcionan una SIM 2G local para llamadas/datos y acceden al servidor sin costo mensual.
+- Reloj para niños compatible con Plaspy que ofrece seguimiento en tiempo real y alertas de seguridad por app, web y SMS.
+- Posicionamiento multimodal para cobertura más amplia mediante GPS y Beidou, con Wi‑Fi y LBS como fuentes adicionales de ubicación.
+- Comunicación de voz bidireccional y botón SOS dedicado para contacto directo y notificación de emergencias.
+- Diseño resistente para el uso diario con protección IP67 y factor de forma ligero, apropiado para niños.
+- Reproducción de rutas históricas de hasta tres meses y alertas inteligentes de geocerca para control de llegadas y salidas.
+- Informes y disparadores de alertas configurables, incluyendo notificaciones por tiempo, distancia y batería baja.
 
 ## Cómo funciona con Plaspy
 
-Integrar el PT23 con Plaspy ofrece a padres y operadores una experiencia de monitoreo simplificada. El reloj envía mensajes de ubicación y estado a través de TCP, UDP o SMS al servidor de iStartek o directamente a endpoints compatibles con Plaspy. Plaspy ingiere esos mensajes para proporcionar mapas en vivo, alertas y reproducción histórica, de modo que puedas responder con rapidez ante eventos SOS, violaciones de geocerca o comprobaciones rutinarias.
+Cuando se usa con Plaspy, el PT23 envía flujos de mensajes de ubicación y estado a los puntos finales compatibles para que los operadores puedan monitorear los dispositivos en mapas en vivo y activar notificaciones. Plaspy procesa los mensajes del dispositivo y los presenta como elementos accionables en paneles y reportes, ayudando a padres y administradores a seguir los desplazamientos y reaccionar ante alertas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas por TCP/UDP o SMS para el seguimiento en paneles de Plaspy.
-- Voz bidireccional y monitoreo de voz remotos disponibles para una comunicación directa y evaluación de la situación.
-- Eventos SOS: un botón dedicado genera alertas inmediatas y capacidades de llamada integradas en los flujos de trabajo de Plaspy.
-- Alertas de geocerca inteligentes y reproducción de rutas históricas \(hasta tres meses\) para revisión de rutas y verificación de asistencia.
-- Telemetría de estado del dispositivo \(nivel de batería, modo de reporte\) y disparadores configurables \(tiempo, distancia, kilometraje, batería baja\) para notificaciones automáticas.
+- Actualizaciones de ubicación en tiempo real y estado del dispositivo aparecen en los mapas y listados de Plaspy para visibilidad instantánea.
+- Eventos SOS y condiciones de alarma se muestran como notificaciones prioritarias dentro de los flujos de trabajo de Plaspy para una respuesta rápida.
+- La comunicación de voz bidireccional y la supervisión remota están disponibles para comunicación directa vinculada a la entrada del dispositivo en Plaspy.
+- La reproducción de rutas históricas y el historial de geocercas permiten revisar retrospectivamente y confirmar asistencias dentro de Plaspy.
+- Alertas configurables por tiempo, distancia, kilometraje y batería baja ayudan a automatizar notificaciones y reducir verificaciones manuales.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | PT23 Kids Watch GPS Tracker |
-| --- | --- |
-| Fabricante | iStartek |
-| Conectividad | GSM 850 / 900 / 1800 / 1900 MHz \(plataforma celular MTK MT2503\) |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(quad-band GSM\) |
-| GNSS | Chip GNSS MTK de alta sensibilidad \(GPS/Beidou\); inicio en frío &lt;36 s, inicio en caliente &lt;2 s; precisión típica de 5–15 m \(GPS autónomo\) |
-| Modos de posicionamiento | GPS / Beidou, Wi‑Fi \(interiores 20–100 m\), LBS \(100–1000 m\) |
-| Potencia y batería | 450 mAh batería de respaldo; carga por succión magnética; consumo ~55 mA/h normal, &lt;2.5 mA/h en espera; duración varía según el intervalo de reporte \(aprox. 1 día a 1 min, 2–3 días a 10 min, 3–5 días a 60 min, 5–7 días en ahorro extremo de energía\) |
-| Interfaces | Antenas internas celulares y GNSS; micrófono y altavoz para voz bidireccional y monitoreo de voz; botón SOS dedicado; sin indicadores LED externos |
-| Transmisión de datos | TCP, UDP, SMS; informes configurables por tiempo, distancia, kilometraje; alarmas de geocerca y batería baja |
-| Gestión remota | Acceso al servidor provisto por iStartek sin tarifas mensuales \(costos locales de SIM 2G para llamadas/datos aplican\) |
-| Formato | 1.30" 240x240 pantalla; 45 x 39 x 15 mm; 40 g; IP67 a prueba de agua |
-| Bluetooth | No especificado / N/A |
-
-## Casos de uso
-
-- Seguridad infantil y monitoreo parental: ubicación en tiempo real, SOS y comunicación bidireccional para tranquilidad durante desplazamientos escolares y momentos de juego.
-- Rutas escolares y verificación de asistencia: alertas de geocerca para zonas de llegada/salida y reproducción de rutas históricas de hasta tres meses.
-- Respuesta ante emergencias y alertas para cuidadores: notificación instantánea y capacidad de llamada mediante el botón SOS y monitoreo de voz.
-- Seguimiento de activos a corto plazo cuando un formato ponible y compacto es adecuado: rastrea la ubicación y el estado a través de Plaspy para tareas de monitoreo ligeras.
+- Seguridad infantil y monitoreo parental para traslados diarios, áreas de juego y rutinas de recogida escolar.
+- Rutas escolares y verificación de asistencia con alertas de geocerca para zonas de llegada y salida.
+- Respuesta a emergencias y notificación a cuidadores usando el botón SOS y la monitorización por voz para evaluar la situación.
+- Seguimiento de activos vestibles a corto plazo cuando se requiere un equipo pequeño, resistente y fácil de monitorear.
+- Check-ins rutinarios e informes de ubicación para programas juveniles, campamentos y actividades supervisadas.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El PT23, junto con Plaspy, ofrece una solución centrada en el seguimiento infantil que equilibra precisión, durabilidad y costo-efectividad. Su posicionamiento multimodal y el chipset GNSS MTK proporcionan una precisión confiable en exterior, mientras que Wi‑Fi y LBS ofrecen respaldo en interiores para que Plaspy presente datos de ubicación exhaustivos. La voz bidireccional, SOS y las alertas configurables te proporcionan eventos accionables en lugar de coordenadas crudas, y el modelo de acceso al servidor de iStartek elimina las tarifas continuas de la plataforma: solo cubres los costos locales de la SIM 2G.
+El PT23 es un rastreador wearable práctico cuando la necesidad principal es un monitoreo fiable de ubicación y seguridad enfocado en niños. Su combinación de posicionamiento multimodal, capacidad de voz y diseño duradero lo hace ideal en entornos donde la visibilidad y la comunicación sencilla son esenciales. Integrar el PT23 con Plaspy centraliza esos eventos de dispositivo en una plataforma para mapeo, alertas y revisión histórica sin una configuración excesiva.
 
-Aunque el PT23 está diseñado específicamente como un rastreador GPS ponible para niños y no incluye funciones como monitoreo de combustible, control de ignición o inmovilizador, Plaspy admite una amplia gama de telemetría y funciones de control para otros dispositivos compatibles. Eso convierte al PT23 en una opción Plaspy compatible y directa para organizaciones y familias que requieren seguimiento en tiempo real confiable, protección por geocerca y una integración sencilla en los flujos de monitoreo existentes.
-
+Si usted desea explorar cómo el PT23 puede encajar en sus flujos de monitoreo, conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que por favor verifique las especificaciones y el soporte actual en el sitio oficial de iStartek https://istartek.com/.

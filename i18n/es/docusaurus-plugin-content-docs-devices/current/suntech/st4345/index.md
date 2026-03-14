@@ -2,59 +2,60 @@
 slug: /suntech/st4345
 id: st4345
 sidebar_label: ST4345
+title: Suntech - ST4345
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto IP67 Suntech ST4345 compatible con Plaspy para seguimiento en tiempo real geocercas y monitoreo de activos
+keywords:
+  - Suntech ST4345
+  - rastreador ST4345
+  - ST4345 Plaspy
+  - rastreador GPS Suntech
+  - rastreador IP67
+  - seguimiento de flotas
+  - seguimiento de activos
+  - rastreador LTE Cat M1
+  - rastreador NB IoT
+  - seguimiento de remolques
 ---
+
 # Suntech - ST4345
 
 ![ST4345](./tracker.jpg)
 
-La serie ST4345 es un rastreador GPS compacto, con clasificación IP67, diseñado para telemática robusta donde la ocultación, el bajo consumo y una conectividad celular fiable son esenciales. Compatible con Plaspy desde el primer momento, el ST4345 se conecta a redes LTE Cat M1, NB‑IoT y 2G para ofrecer seguimiento en tiempo real, telemetría e informes avanzados de eventos para flotas, remolques, motocicletas y activos de alto valor.
+La serie ST4345 es un rastreador GPS compacto con calificación IP67, diseñado para aplicaciones telemáticas exigentes donde la discreción, el bajo consumo y una conexión celular fiable son clave. Disponible en varias versiones, el ST4345 está pensado para la supervisión de vehículos, remolques, motocicletas y activos de alto valor, combinando un tamaño reducido con amplio rango de temperatura de operación, antena GNSS interna e I/O cableado flexible para detección de ignición e interfaces para alarmas o inmovilizadores externos.
 
-Disponible en varias variantes \(ST4345R, ST4345LB, ST4345LC\), este rastreador de vehículos robusto combina una huella pequeña con una amplia tolerancia a la temperatura, una antena GNSS interna y entradas/salidas flexibles para soportar detección de encendido, sensores externos e integración con inmovilizador o circuitos de alarma a través de interfaces cableadas. Los usuarios de Plaspy obtienen acceso inmediato a datos de posición precisos, geocercas configurables, informes en modo de conducción y diagnóstico remoto a través de protocolos estándar.
+Como dispositivo compatible con Plaspy desde fábrica, el ST4345 puede integrarse rápidamente en los flujos de trabajo de gestión de flotas y activos de Plaspy para ofrecer ubicación en tiempo real, reportes de eventos y telemetría. Usted podrá aprovechar los envíos de datos del dispositivo para habilitar mapas en vivo, geocercas configurables, informes de modo de conducción y diagnósticos remotos sin necesidad de integraciones personalizadas complejas.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para una integración fluida en sus flujos de trabajo de seguimiento en tiempo real y gestión de flotas.
-- Conectividad celular en múltiples modos: LTE Cat M1, NB‑IoT y EGPRS de reserva \(2G\) para una cobertura regional amplia y telemetría fiable.
-- Carcasa robusta IP67 y amplio rango de temperatura de operación \(-30°C a +80°C\) para instalaciones duraderas en vehículos, remolques y motocicletas.
-- Factor de forma compacto y ocultable \(74 × 45 × 19.5 mm, 102 g con cable de eventos\) que facilita una instalación discreta y mitiga el robo.
-- E/S cableadas flexibles \(5 u 8, según el modelo\) y RS232 opcional para interfazar con el encendido, alarma, sensores y circuitos externos de inmovilización.
-- Diseño de bajo consumo con batería de respaldo recargable \(3.7V Ni‑MH, 450 mAh\) y corrientes de reposo ultrabajas adecuadas para despliegues a largo plazo.
-- Funciones telemáticas avanzadas como Análisis de Patrones de Conducción \(DPA\), Reconstrucción de Incidentes \(CR\) y detección de interferencias — todo reportable a través de Plaspy para obtener insights accionables, gestión de flotas escalable y diagnósticos remotos eficientes mediante el soporte de servidor de mantenimiento.
-- Opción BLE en modelos selectos \(variantes LB/LC\) que permite la conexión con sensores y balizas Bluetooth para monitoreo de temperatura, proximidad o accesorios.
+- Compatibilidad nativa con Plaspy para integración sencilla en flujos de seguimiento y gestión de flotas.
+- Conectividad celular multimodo con LTE Cat M1, NB‑IoT y 2G como respaldo para amplia cobertura regional y reportes confiables.
+- Carcasa robusta con protección IP67 y amplio rango de temperatura de operación para uso duradero en vehículos, remolques y activos exteriores.
+- Factor de forma pequeño y fácilmente ocultable que facilita el montaje discreto y contribuye a reducir el riesgo de robo.
+- I/O cableado flexible y conectividad serial opcional para detección de ignición, interfaz de alarmas y conexión de sensores externos.
+- Diseño de bajo consumo con batería de respaldo interna para despliegues prolongados y reportes intermitentes.
+- Soporte opcional de Bluetooth en algunas variantes para añadir telemetría de sensores y balizas.
 
 ## Cómo funciona con Plaspy
 
-El ST4345 intercambia posiciones GNSS, telemetría y datos de eventos con Plaspy mediante informes TCP/UDP estándar. Plaspy utiliza esos mensajes para proporcionar mapas en vivo, reproducción histórica, alertas e informes detallados. La integración es sencilla: el dispositivo envía actualizaciones periódicas de ubicación, eventos de movimiento y banderas de estado que Plaspy procesa para seguimiento en tiempo real y flujos de trabajo automatizados.
+El ST4345 envía posiciones GNSS, telemetría y mensajes de eventos a Plaspy, permitiendo que la plataforma muestre ubicación en vivo, historial, alertas y diagnósticos. Plaspy procesa los datos del dispositivo para generar vistas de mapa, automatizaciones y reportes que ayudan a los equipos a monitorear y gestionar activos en tiempo real.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(posición GNSS, velocidad, rumbo y estado del sistema\).
-- Detección de ignición basada en el encendido y el movimiento \(entradas de voltaje y movimiento\) para un informe preciso de encendido/apagado del motor.
-- Alertas de geocerca configurables \(circulares y poligonales\) e informes basados en el modo de conducción disponibles a través de los paneles de Plaspy.
-- La telemetría de combustible y de otros parámetros del vehículo puede transmitirse cuando está conectado a sensores del vehículo a través de las E/S cableadas para monitoreo de combustible y análisis de eficiencia.
-- El soporte BLE opcional en modelos LB/LC permite la integración con sensores y balizas Bluetooth; el control de inmovilizador o alarma externa es posible mediante interfaces cableadas.
+- Ubicación en vivo y telemetría en los mapas de Plaspy para visibilidad operacional continua.
+- Alertas de geocerca configurables y notificaciones de eventos que activan flujos de trabajo o avisos a operadores.
+- Informes de modo de conducción y eventos que alimentan paneles de rendimiento de flota y reproducción histórica.
+- Diagnósticos remotos y monitoreo de estado para soportar mantenimiento y verificación del estado del equipo.
+- Integración de señales de ignición y sensores externos en Plaspy para estado del motor, condición del remolque o monitoreo de accesorios.
 
-## Panorama técnico
+## Casos de uso típicos
 
-| Conectividad | LTE Cat M1, NB‑IoT \(variantes NB2\) y EGPRS \(2G\) con transmisión TCP/UDP |
-| --- | --- |
-| Bandas | Cobertura regional NB2 y LTE Cat M1 \(ejemplos: B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B25/B26/B27/B28/B66/B71/B85 cuando aplique\) y EGPRS 850/900/1800/1900 MHz |
-| Alimentación & Batería | Entrada DC 8–33 V con protección contra inversión; batería de respaldo interna recargable Ni‑MH 3.7V, 450 mAh; consumo típico 70–80 mA @12 V activo, &lt;4 mA en reposo, &lt;2 mA en reposo profundo |
-| Interfaces | Hasta 8 conexiones E/S cableadas \(según modelo: 8 u 5\); RS232 opcional en ST4345R; dos LEDs \(Network, GPS\); sensor de movimiento Bosch SMA131; admite detección de ignición virtual e interfaz con inmovilizador/alarma externa a través de E/S |
-| GNSS | GPS y GLONASS con SBAS \(WAAS/EGNOS/MASA\), actualización a 1 Hz, precisión típica ±3 m CEP \(50%\); TTFF en frío \<35 s \(15 s con EASYTM\), en cálido \<30 s \(5 s con EASYTM\), en caliente \<1 s |
-| Bluetooth | BLE opcional disponible en variantes ST4345LB y ST4345LC para conectividad con sensores y balizas |
-| Gestión remota | Soporte de servidor de mantenimiento para diagnóstico y configuración remotos |
-| Formato y Durabilidad | Compacto 74 × 45 × 19.5 mm, 102 g con cable de eventos; IP67; amplio rango de temperatura -30°C a +80°C |
-| Certificaciones | FCC, IC y PTCRB certificados para numerosos despliegues regionales |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, informes de estilo de conducción y alertas de mantenimiento para flotas de vehículos ligeros y pesados.
-- Antirrobo e inmovilización: instalación oculta con E/S cableadas para interfazar con circuitos de alarma y habilitar control remoto del inmovilizador a través de flujos de trabajo de Plaspy.
-- Monitoreo de remolques y contenedores: conectividad LTE/NB‑IoT de bajo consumo y protección IP67 para visibilidad de activos a largo plazo.
-- Rastreo de motocicletas y vehículos todoterreno: formato compacto y amplia tolerancia a la temperatura para aplicaciones exigentes de dos ruedas.
-- Rastreo de activos con sensores: los modelos con BLE admiten sensores de temperatura, proximidad o carga para telemetría multimodal.
+- Gestión de flotas y supervisión de rutas para operaciones de vehículos ligeros y pesados.
+- Instalaciones ocultas contra robo con integración de inmovilizadores o alarmas cableadas y control remoto a través de Plaspy.
+- Monitoreo de remolques y contenedores donde se requiere conectividad de bajo consumo y resistencia a la intemperie.
+- Rastreo de motocicletas y vehículos todoterreno donde el tamaño compacto y la tolerancia a temperaturas extremas son importantes.
+- Seguimiento de activos con sensores, aprovechando variantes con Bluetooth para agregar telemetría de temperatura o proximidad.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Cuando se combina con Plaspy, la serie ST4345 ofrece una solución equilibrada para organizaciones que necesitan seguimiento GPS fiable y de bajo consumo, junto con telemetría rica, sin hardware voluminoso. Su pila celular multi-radio garantiza conectividad a través de LTE Cat M1, NB‑IoT y fallback 2G, manteniendo los dispositivos en línea en regiones diversas. El diseño compacto con clasificación IP67 facilita instalaciones discretas para aplicaciones anti‑robo, mientras que las E/S flexibles y el soporte opcional de BLE permiten agregar sensores de combustible, alarmas y interfaces de inmovilización. Funciones avanzadas como Análisis de Patrones de Conducción, Reconstrucción de Incidentes y detección de interferencias alimentan directamente a Plaspy para obtener insights accionables, gestión de flotas escalable y diagnósticos remotos eficientes a través del soporte de servidor de mantenimiento. Elija el ST4345 con Plaspy para obtener ubicación precisa, informes configurables y hardware duradero para despliegues telemáticos exigentes.
+La serie ST4345 ofrece un equilibrio práctico entre robustez, tamaño reducido y I/O flexible, adecuado para muchos despliegues telemáticos. Su conectividad celular multimodo y su diseño de bajo consumo lo convierten en una opción sólida para organizaciones que necesitan visibilidad persistente de activos en zonas con cobertura mixta, mientras que su formato oculto ayuda a mitigar el riesgo de sustracción.
 
+En conjunto con Plaspy, el ST4345 proporciona acceso inmediato a datos de posición, alertas configurables e informes operativos que ayudan a los equipos a vigilar activos, mejorar la eficiencia de la flota y simplificar el diagnóstico remoto. Para obtener más información sobre Plaspy y cómo el ST4345 puede integrarse en su estrategia de seguimiento visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden variar con el tiempo, por lo que verifique los detalles actuales en el sitio del fabricante http://www.suntechint.com/ antes de planificar despliegues.

@@ -1,18 +1,62 @@
 ---
 slug: /bce/fm_500_blue
 id: fm_500_blue
-sidebar_label: FM-500 Blue+
+sidebar_label: FM-500 Blue
+title: BCE - FM-500 Blue
 sidebar_class_name: menu_item_tracker
+description: Compact and configurable BCE FM-500 Blue GPS tracker compatible with Plaspy for vehicle and asset tracking
+keywords:
+  - BCE FM-500 Blue
+  - FM-500 Blue
+  - BCE GPS tracker
+  - FM-500 Plaspy compatible
+  - FM-500 fleet tracking
+  - vehicle tracking
+  - asset tracker
+  - GPS GLONASS tracker
+  - FMS CAN tracker
+  - OBDII compatible
 ---
-# BCE - FM-500 Blue+
 
-![FM-500 Blue+](./logo.jpg)
+# BCE - FM-500 Blue
 
-The BCE FM-500 Blue+ is a versatile GPS tracker designed for object tracking. With GPS/GLONASS and GSM connectivity, this device is capable of acquiring information on object location, speed, direction, and more, and transferring the data via the GSM network. It features digital and analog inputs that can be used to connect various external sensors and devices, as well as outputs that allow for remote control of external equipment. Additionally, the FM-500 Blue+ is able to read FMS CAN data \(protocol J1939\) from vehicles, making it a valuable tool for fleet management and monitoring.
+![FM-500 Blue](./logo.jpg)
 
-One of the standout features of the FM-500 Blue+ is its flexible configuration, which allows users and dealers to adjust the device to meet their specific requirements. It supports various interfaces, including FMS CAN \(protocol J1939\), Volvo/Renault CAN \(protocol J1708\), OBDII \(diagnostic protocol of light vehicles\), CAN protocols of light vehicles, 1-Wire \(iButton\), RS-232, and EIA-485. The device also offers multiple digital and analog inputs, as well as digital outputs for controlling external equipment.
+The BCE FM-500 Blue is a compact and versatile GPS tracker designed for object and vehicle tracking. It acquires location, speed, and direction information using GPS and GLONASS positioning and transfers data via the GSM network. The device includes digital and analog inputs and outputs for connecting external sensors and equipment, and it can read FMS CAN data using the J1939 protocol, making it suitable for a range of tracking scenarios.
 
-In terms of technical specifications, the FM-500 Blue+ operates on a power supply of 8-36V and is protected from impulses up to 120V. It has a low power consumption of less than 50mA in active mode and less than 8mA in sleep mode. The device features an internal battery with a capacity of 700mAh \(optional\) and has an internal memory of 4MB, capable of storing up to 150,000 entries. It is equipped with an accelerometer \(LIS3DH\), an internal odometer, and operates within a wide temperature range of -40 to +85°C.
+As a Plaspy compatible device, the FM-500 Blue can feed its positioning and vehicle data into the Plaspy platform for centralized monitoring and reporting. Its flexible configuration and multiple interfaces make it a practical choice for organizations that want to combine reliable tracking hardware with Plaspy’s visibility, alerting, and operational oversight tools.
 
-With its compact dimensions of 26x80x55mm and lightweight design \(64g for the tracker, 160g for the set\), the FM-500 Blue+ is easy to install and conceal. It comes with an internal GSM antenna and an external GPS/GLONASS antenna for optimal signal reception. The device supports GSM/GPRS class 10 \(up to 85.6 kbit\) and features detection of GSM jamming. It has excellent GPS/GLONASS sensitivity of -162dBm and quick acquisition times, with cold start taking less than 30 seconds and hot start only 1 second, thanks to A-GPS support.
+## Key Highlights
 
+- GPS and GLONASS positioning with GSM data transfer for reliable location reporting.
+- Digital and analog inputs plus outputs to monitor external sensors and trigger remote actions.
+- Capability to read FMS CAN data in J1939 format and support for vehicle interfaces such as OBDII and CAN.
+- Flexible configuration options for adapting the device to varied tracking needs and deployment scenarios.
+- Compact and lightweight form factor for discreet installation and minimal space impact.
+- Low power consumption with an internal backup battery to help preserve location reporting during power interruptions.
+- Broad operating voltage range and impulse protection for robustness in vehicle environments.
+
+## How It Works with Plaspy
+
+When connected to Plaspy, the FM-500 Blue streams positional and event data that Plaspy can present in dashboards, reports, and live monitoring screens. Plaspy can use the device data to improve fleet visibility and operational decision making while allowing users to configure alerts and derive historical insights.
+
+- Real-time location and movement tracking displayed on Plaspy maps and live views.
+- Integration of vehicle data from FMS CAN and OBDII interfaces for consolidated fleet monitoring.
+- Event and input detection from digital and analog inputs surfaced as alerts or status indicators in Plaspy.
+- Use of outputs to enable remote control actions initiated from Plaspy workflows where supported.
+- Historic trip and route reporting for operational analysis and performance review.
+- Customizable alerts and notifications based on speed, location, inputs, or other configured conditions.
+
+## Typical Use Cases
+
+- Fleet vehicle tracking and basic telematics for commercial fleets and service vehicles.
+- Asset monitoring for equipment and mobile objects that require position and status visibility.
+- Remote monitoring and control of attached devices or auxiliary equipment via outputs.
+- Vehicle data collection for maintenance planning and operational oversight when FMS CAN or OBDII integration is required.
+- Deployments that need a compact tracker with backup power and low idle consumption.
+
+## Why Choose This Tracker with Plaspy
+
+The FM-500 Blue combines a compact hardware profile with flexible inputs, outputs, and vehicle interface options, making it a practical option for organizations that need a configurable tracker. Its ability to report location and vehicle data aligns well with Plaspy’s focus on providing clear fleet visibility, alerting, and reporting tools. For teams managing mixed fleets or varied assets, the device’s support for standard vehicle interfaces and its low power footprint can simplify integration into a Plaspy-centered tracking solution.
+
+If you need a tracker that balances versatility and discreet deployment while delivering the data Plaspy requires for monitoring and operational workflows, the BCE FM-500 Blue is a relevant candidate. To learn more about using Plaspy with devices like the FM-500 Blue, visit the Plaspy website at https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current specifications on the manufacturer site http://www.bce.en/.

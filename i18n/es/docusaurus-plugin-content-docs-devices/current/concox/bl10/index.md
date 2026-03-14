@@ -2,59 +2,60 @@
 slug: /concox/bl10
 id: bl10
 sidebar_label: BL10
+title: Concox - BL10
 sidebar_class_name: menu_item_tracker
+description: Candado inteligente con GPS integrado y compatibilidad nativa con Plaspy para flotas de micromovilidad
+keywords:
+  - Concox BL10
+  - BL10 rastreador GPS
+  - Concox BL10 rastreador
+  - BL10 compatible con Plaspy
+  - rastreador para micromovilidad
+  - GPS para sistemas de bicicletas compartidas
+  - rastreador para bicicletas compartidas
+  - candado inteligente BL10
+  - seguimiento de flotas BL10
+  - rastreador BL10 con geocercas
 ---
+
 # Concox - BL10
 
 ![BL10](./tracker.png)
 
-El BL10 es un candado inteligente para bicicletas con GNSS compartido y un rastreador GPS oculto diseñado para flotas de bicicletas compartidas y operadores de micromovilidad. Compatible con Plaspy de serie, el BL10 combina un mecanismo de cierre robusto con reportes de ubicación en tiempo real para que los operadores activen el seguimiento en tiempo real, alertas de geocerca y notificaciones de manipulación en flotas urbanas de gran tamaño. Diseñado para despliegues prolongados al aire libre, el BL10 ofrece a los gestores de flota una herramienta integrada de antirrobo y gestión de flotas que reduce el tiempo de inactividad y simplifica los procesos de recuperación.
+El Concox BL10 es un candado inteligente para bicicletas con GNSS y rastreador GPS oculto, pensado para flotas de bicicletas compartidas y operadores de micromovilidad. Combina un mecanismo de cierre robusto con reporte continuo de ubicación para ofrecer a los operadores un dispositivo integrado de gestión de flotas y antirrobo, adecuado para despliegues exteriores prolongados y programas de uso público.
 
-    Con desbloqueo por Bluetooth y acceso mediante código QR para los riders, el BL10 admite flujos de usuario sin contacto al tiempo que entrega telemetría y posicionamiento de corto alcance vía iBeacon. Su diseño de bajo consumo, la carga solar opcional asistida y la carcasa con clasificación IPX5 lo convierten en un rastreador GPS práctico para programas de bicicletas compartidas que requieren datos de ubicación continuos y reportes de eventos a través de la plataforma y la app móvil de Plaspy.
+Como dispositivo compatible con Plaspy desde el primer momento, el BL10 transmite datos de ubicación y eventos directamente al entorno de gestión de Plaspy. Esa compatibilidad facilita que los operadores centralicen el seguimiento en vivo, las alertas de geocerca, las notificaciones de manipulación y la información básica de estado operativo junto con otros activos gestionados en Plaspy.
 
-## Key Highlights
+## Aspectos clave
 
-- Rastreador GPS y cerradura inteligente compatibles con Plaspy en un solo dispositivo: ubicación en tiempo real y estado de la cerradura disponibles en tu panel de Plaspy.
-- Seguimiento en tiempo real con GPS + LBS para un posicionamiento robusto en entornos urbanos y bajo cobertura de árboles.
-- Diseño robusto y resistente a las inclemencias del tiempo \(IPX5\), concebido para flotas de micromovilidad al aire libre y programas públicos de bicicletas compartidas.
-- Larga vida de despliegue gracias a una batería Li-Polymer de 10,000 mAh, con opción de carga solar asistida para reducir el mantenimiento.
-- Alertas de geocerca y de manipulación para notificaciones anti-robos inmediatas y acciones de recuperación más rápidas.
-- Bluetooth 4.0 e iBeacon para posicionamiento de corto alcance, desbloqueo por el usuario y flujos de proximidad.
-- Forma compacta y amigable para el operador con conectividad celular integrada \(Micro‑SIM\) para implementaciones de flota simples.
+- Dispositivo combinado de candado inteligente y rastreador diseñado para bicicletas compartidas y operaciones de micromovilidad.
+- Reportes de ubicación en tiempo real y notificaciones de eventos enviados a Plaspy para monitoreo centralizado.
+- Carcasa resistente al clima con clasificación IPX5, pensada para uso exterior en entornos urbanos.
+- Larga vida de despliegue gracias a una batería de alta capacidad y opción de carga asistida por panel solar para reducir visitas de mantenimiento.
+- Desbloqueo por Bluetooth y soporte iBeacon para acceso sin contacto por parte del usuario y posicionamiento de corto alcance.
+- Alertas por geocerca y manipulación para acelerar los flujos de trabajo de respuesta y recuperación ante robo.
+- Factor de forma compacto para facilitar su integración en despliegues a gran escala.
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el BL10 se convierte en un rastreador GPS compatible con Plaspy que transmite datos de ubicación y eventos a un entorno unificado de gestión de flotas. Los operadores reciben seguimiento en tiempo real y alertas a través de la plataforma en la nube y la app móvil de Plaspy, lo que facilita la monitorización centralizada, reglas de geocerca automatizadas y flujos de respuesta ante manipulaciones.
+Al utilizarlo con Plaspy, el BL10 entrega flujo continuo de ubicación y eventos a una única plataforma de gestión, lo que permite a los operadores supervisar el estado de la flota, responder a incidentes y analizar el uso desde un mismo lugar.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: las posiciones GPS + LBS se reportan a Plaspy para una visibilidad continua de la flota.
-- Alertas de geocerca: los límites predefinidos generan notificaciones cuando una bici sale de o entra en zonas.
-- Alertas de manipulación y vibración: eventos impulsados por el acelerómetro y alarmas sonoras o de vibración pueden notificar a los usuarios de Plaspy de inmediato.
-- Proximidad Bluetooth/iBeacon: posicionamiento de corto alcance y eventos de desbloqueo por parte del conductor/usuario se consolidan en Plaspy para analítica de uso.
-- Estado del dispositivo y datos de despliegue: los operadores pueden ver el estado de la cerradura, la conectividad del dispositivo y la salud del despliegue en Plaspy junto a otros activos de la flota.
+- Actualizaciones de ubicación en tiempo real dirigidas a Plaspy para visibilidad continua y mapeo de la flota.
+- Notificaciones de geocerca que se activan cuando las bicicletas entran o salen de zonas predefinidas.
+- Alertas de manipulación y vibración remitidas a Plaspy para apoyar la recuperación rápida y la intervención.
+- Eventos de proximidad Bluetooth e iBeacon registrados en Plaspy para control de desbloqueos y comprobaciones de ubicación a corto alcance.
+- Información de estado del dispositivo y conectividad visible en Plaspy para ayudar a planificar mantenimiento y redistribución.
 
-## Technical Overview
+## Casos de uso típicos
 
-| Positioning | GPS + LBS; precisión típica &lt; 2.5 m CEP; sensibilidad de seguimiento -165 dBm |
-| --- | --- |
-| Cellular Connectivity | GSM cuádri-banda \(850 / 900 / 1800 / 1900 MHz\); ranura Micro‑SIM |
-| Battery & Power | 10,000 mAh / 3.7 V Li‑Polymer; entrada solar opcional 6 V / 5 W; tiempo en espera hasta 40 días \(bloqueado, sin solar\) |
-| Interfaces & Sensors | Micro‑SIM, 64 Mb de almacenamiento de datos, 1 LED de estado azul, Bluetooth 4.0 \(BLE\), acelerómetro de 3 ejes, soporte iBeacon |
-| GNSS | GPS \(asistido con LBS para un posicionamiento robusto\) |
-| Bluetooth | Bluetooth 4.0 / BLE para desbloqueo por el rider, posicionamiento de corto alcance y soporte de beacons |
-| Remote Management | Plataforma en la nube integrada y app móvil para ubicación en vivo, geocercas y alertas del dispositivo |
-| Form Factor & Environment | 148 × 211 × 51 mm; 1117 g; rango de temperatura de operación -20°C a +60°C; resistencia al agua IPX5 |
+- Flotas de bicicletas compartidas y programas públicos que requieren hardware integrado de candado y rastreador.
+- Operadores de micromovilidad que aplican reglas de geocerca y monitorean la ubicación de activos en áreas urbanas densas.
+- Flujos de trabajo de disuasión y recuperación de robos que utilizan alertas de manipulación y localización en vivo para acelerar la recuperación.
+- Operaciones que buscan reducir visitas de mantenimiento en campo gracias a la larga duración de la batería y la opción solar.
+- Análisis de uso e informes básicos de viajes basados en eventos de desbloqueo e historiales de ubicación.
 
-## Use Cases
+## Por qué elegir este rastreador con Plaspy
 
-- Flotas de bicicletas compartidas y programas públicos de bicicletas que buscan un hardware integrado de cerradura y rastreador para antirrobo y eficiencia operativa.
-- Operadores de micromovilidad que requieren seguimiento en tiempo real, cumplimiento de geocercas y alertas de manipulación para proteger activos en ciudades de alta densidad.
-- Flujos de trabajo de disuasión de robo y recuperación donde alertas sonoras y de vibración y notificaciones de Plaspy aceleran la recuperación.
-- Analítica de uso de la flota y reportes: recopilar datos de viajes, eventos de desbloqueo por proximidad y métricas de disponibilidad para optimizar la redistribución y el mantenimiento.
-- Posicionamiento de corto alcance y verificación del usuario mediante Bluetooth/iBeacon para control de acceso basado en QR o en la app y comprobaciones de ubicación local.
+El BL10 está diseñado para operadores que desean un único dispositivo que combine cierre y rastreo para flotas de micromovilidad. Su carcasa resistente y su orientación a despliegues exteriores prolongados ayudan a reducir tiempos de inactividad, mientras que el desbloqueo por proximidad integrado y el posicionamiento de corto alcance soportan flujos de acceso sin contacto y registro de uso dentro de Plaspy.
 
-## Why Choose This Tracker with Plaspy
-
-El BL10 ofrece una vía fiable y rentable para hacer que las flotas de micromovilidad sean compatibles con Plaspy sin sacrificar la durabilidad del hardware ni la vida de la batería. Su combinación de posicionamiento GPS + LBS, carcasa robusta IPX5 y una batería grande de 10,000 mAh \(con soporte de energía solar opcional\) reduce el mantenimiento en campo y mantiene las bicicletas en servicio por más tiempo. Para los gestores de flota centrados en el rastreo en tiempo real, la protección antirrobo y la telemetría operativa, el BL10 proporciona los flujos de datos esenciales — ubicación, eventos de movimiento/manipulación y señales BLE de corto alcance — que Plaspy consolida en insights accionables y alertas automáticas.
-
-Cabe señalar que el BL10 está optimizado para bicicletas compartidas y micromovilidad, y no para telemetría específica de vehículos como el monitoreo de combustible o el control de encendido/inmovilización. Sin embargo, al ser compatible con Plaspy, los operadores que gestionan flotas mixtas pueden centralizar los datos de rastreadores GPS y las funciones de gestión de flotas en una única plataforma, lo que permite una monitorización, generación de informes y procesos de recuperación escalables a lo largo de diversos tipos de activos.
-
+Si usted administra bicicletas compartidas u otros activos similares y necesita una unidad compatible con Plaspy que equilibre durabilidad, datos operativos y funciones antirrobo, el BL10 es una opción práctica. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com y verifique las especificaciones, disponibilidad y detalles del fabricante en la web de Concox https://www.iconcox.com/ ya que las características y la documentación del producto pueden cambiar con el tiempo.

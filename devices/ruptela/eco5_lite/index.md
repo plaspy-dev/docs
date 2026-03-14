@@ -1,64 +1,61 @@
 ---
 slug: /ruptela/eco5_lite
 id: eco5_lite
-sidebar_label: Eco5 Lite+
+sidebar_label: Eco5 Lite
+title: Ruptela - Eco5 Lite
 sidebar_class_name: menu_item_tracker
+description: Compact Plaspy compatible tracker for fleets with accurate GNSS positioning low power use BLE sensor support and IP54 protection
+keywords:
+  - Ruptela Eco5 Lite
+  - Eco5 Lite
+  - Eco5 Lite Plaspy
+  - Ruptela GPS tracker
+  - fleet tracking
+  - vehicle tracker
+  - BLE GPS tracker
+  - low power tracker
+  - IP54 tracker
+  - 4G Cat M1 tracker
 ---
-# Ruptela - Eco5 Lite+
 
-![Eco5 Lite+](./tracker.jpg)
+# Ruptela - Eco5 Lite
 
-The Eco5 Lite+ from Ruptela is a compact, rugged GPS tracker designed for demanding vehicle tracking applications and built to work seamlessly as Plaspy compatible hardware. Engineered for electric vehicles \(EVs\), motorcycles and low-power fleets, the Eco5 Lite+ combines premium u‑blox GNSS accuracy, BLE 5.0 accessory support and industry-grade protection \(IP68\) to deliver dependable real-time tracking and telemetry in harsh environments.
+![Eco5 Lite](./tracker.jpg)
 
-Optimized for energy-efficient operation and straightforward integration, the Eco5 Lite+ supports multiple cellular options \(4G Cat‑1 and 4G Cat‑M1 variants with 2G fallback\), internal backup battery operation and digital I/O for simple ignition or immobilizer workflows. Fleet managers and integrators looking for a Plaspy compatible GPS tracker will find the Eco5 Lite+ well suited for fleet management, anti-theft recovery and telemetry-driven insights.
+The Ruptela Eco5 Lite is a compact GPS tracker designed for fleet and light telematics deployments that require dependable real time tracking without unnecessary complexity. It pairs a slim vehicle friendly form factor with energy efficient operation and an IP54 rated enclosure, making it well suited for installations where space and low power draw matter. The model description highlights accurate GNSS positioning, short range Bluetooth support, basic I O for vehicle signals, cellular connectivity options, jamming detection and a backup battery for resilience.
+
+As a Plaspy compatible device, Eco5 Lite can feed location and telemetry into Plaspy for monitoring, reporting and operational oversight. Its combination of GNSS accuracy, BLE based sensor and driver identification support, and basic digital and analog inputs makes the tracker practical for common fleet workflows in Plaspy, such as real time visibility, event alerts and simple sensor integration.
 
 ## Key Highlights
 
-- Plaspy compatible compact GPS tracker ideal for EVs, motorcycles and discreet installs.
-- Rugged IP68 enclosure and slim 21 mm profile for durable, low-visibility mounting.
-- Wide vehicle power acceptance \(9–97 V DC\) and internal backup battery for uninterrupted tracking.
-- Premium u‑blox GNSS for reliable positioning plus jamming detection for enhanced anti-theft security.
-- BLE 5.0 for Bluetooth sensors and wireless accessories to extend telemetry and sensor coverage.
-- Low power consumption \(deep-sleep current as low as 0.5 mA\) for long-term or battery-operated deployments.
-- Multiple cellular variants \(4G Cat‑1, 4G Cat‑M1 with 2G fallback\) for robust real-time tracking connectivity.
-- Simple I/O \(1 DOUT, 1 DIN, 1 analog/digital combo\) for ignition detection, immobilizer control and sensor integration.
+- Plaspy compatible tracker that integrates with Plaspy for real time tracking and fleet management workflows
+- Slim vehicle friendly form factor at approximately 14 mm thickness with an IP54 rated housing for everyday vehicle protection
+- Energy efficient design including deep sleep operation to minimize power draw for long term installations
+- High performance GNSS module for reliable positioning and BLE support for short range sensors and driver identification
+- Cellular connectivity options with modern 4G variants and 2G fallback to support broad regional coverage
+- Basic vehicle I O and a backup battery to capture simple telemetry and maintain operation during primary power interruptions
+- Built in jamming detection to enhance security and awareness of GNSS interference events
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the Eco5 Lite+ streams location and telemetry data securely to your Plaspy dashboard for real-time tracking, alerts and historical reporting. Plaspy-compatible integration uses the device’s GNSS and cellular connectivity to provide live position updates while BLE and onboard I/O enable extended telemetry and control features.
+Eco5 Lite sends positioning, input states and short range Bluetooth sensor information to Plaspy so you can visualize assets, receive alerts and run reports from a single platform. Plaspy ingests the core device data and exposes it through maps, notifications and historical logs for operational use.
 
-- Real-time location and telemetry updates sent over 4G Cat‑1 or Cat‑M1 \(with 2G fallback\) for continuous fleet visibility.
-- Ignition and driver events detected via the digital input \(DIN\) and combined analog/digital input for behavior monitoring and event logging.
-- Fuel monitoring and analog sensor integration using the combo analog/digital input for telemetry-rich reports.
-- Remote immobilizer or basic vehicle control achievable through the digital output \(DOUT\) when managed from Plaspy workflows.
-- Bluetooth sensors and beacons connected via BLE 5.0 extend Plaspy telemetry to temperature, proximity or accessory ID use cases.
-- Jamming detection alerts and internal backup battery preserve logs and trigger notifications during power interruptions, improving anti-theft response.
+- Real time location updates in Plaspy for continuous visibility of vehicles and assets
+- Digital input monitoring such as ignition or door status mapped to Plaspy events and triggers
+- Analog input telemetry captured for reporting purposes when paired with appropriate sensors
+- Digital output control available for implementations that require remote actions and are supported by the installation
+- BLE based driver identification and short range sensors feeding supplemental telemetry into Plaspy dashboards
 
-## Technical Overview
+## Typical Use Cases
 
-| Manufacturer | Ruptela |
-| --- | --- |
-| Connectivity | 4G Cat‑1 and 4G Cat‑M1 variants with 2G fallback |
-| Bands | Band support varies by cellular variant and market \(operator-dependent\) |
-| Power & Battery | High-voltage acceptance 9–97 V DC; internal backup battery; deep-sleep current as low as 0.5 mA |
-| Interfaces \(I/O\) | 1 digital output \(DOUT\), 1 digital input \(DIN\), 1 combo analog/digital input |
-| GNSS | Premium u‑blox GNSS module \(GPS/GNSS positioning\) |
-| Bluetooth | BLE 5.0 for Bluetooth sensors and beacons |
-| Security | Jamming detection and backup logging on power loss |
-| Remote Management | Supported by Ruptela Device Center \(local configuration\) and Device Management Platform for remote configuration and firmware updates |
-| Form Factor & Protection | Compact, slim profile \(21 mm thick\), rugged IP68 enclosure for vehicle and outdoor use |
-
-## Use Cases
-
-- Motorcycle and electric vehicle tracking for fleets requiring discreet, low-profile GPS trackers.
-- Real-time fleet management and telemetry for route monitoring, uptime and driver behavior analysis.
-- Anti-theft and stolen vehicle recovery with jamming detection, backup battery logging and remote immobilizer control via DOUT.
-- Integration with fuel monitoring solutions and analog sensors for fuel consumption reporting and optimization.
-- BLE sensor deployments for temperature-sensitive cargo, proximity detection or accessory identification.
+- Fleet tracking and route monitoring for daily operations and dispatch planning
+- Anti theft measures and stolen vehicle recovery with location reporting and jamming alerts
+- Driver identification and basic behavior or presence tracking using BLE driver tags
+- Simple cargo awareness using short range Bluetooth sensors and analog input telemetry
+- Event driven alerts and rapid response workflows based on digital input events reported to Plaspy
 
 ## Why Choose This Tracker with Plaspy
 
-The Eco5 Lite+ offers a balanced blend of durability, low power consumption and flexible connectivity that makes it an effective Plaspy compatible GPS tracker for modern fleets, especially in the e-mobility sector. Its broad voltage range \(9–97 V DC\) and slim IP68-rated design simplify installation across electric vehicles and motorcycles, while BLE 5.0 and a premium u‑blox GNSS module add precision and sensor extensibility for richer telemetry.
+Eco5 Lite is a practical choice for organizations that need a balance of compact size, energy efficiency and the essential telematics features used in fleet operations. Its straightforward feature set aligns with common Plaspy use cases, letting teams get reliable location data, basic vehicle signals and short range sensor inputs into their Plaspy workflows without excessive complexity.
 
-For fleet managers focused on real-time tracking, telemetry and anti-theft protection, the Eco5 Lite+ delivers actionable data to Plaspy with minimal maintenance. Onboard I/O supports ignition detection and immobilizer workflows, and the Device Management Platform enables scalable remote configuration and firmware updates — reducing field visits and improving uptime. Choose the Eco5 Lite+ when you need a compact, energy-efficient GPS tracker that integrates cleanly with Plaspy for reliable fleet management, fuel monitoring and security operations.
-
+If you are evaluating devices for Plaspy based fleet management, Eco5 Lite presents a low profile, resilient option for installations that prioritize space and power considerations while still requiring useful telemetry. To learn more about Plaspy and how this tracker can fit into your fleet management strategy visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details on the manufacturer site https://ruptela.com/ before finalizing purchases or deployments.

@@ -2,62 +2,59 @@
 slug: /topshine/ca02
 id: ca02
 sidebar_label: CA02
+title: TopShine - CA02
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS empotrado con sirena, sensor de impacto e inmovilizador compatible con Plaspy para monitoreo vehicular en tiempo real
+keywords:
+  - TopShine CA02
+  - rastreador CA02
+  - TopShine rastreador
+  - CA02 GPS
+  - CA02 Plaspy
+  - rastreador vehicular
+  - seguimiento de flotas
+  - sistema de alarma para autos
+  - rastreador empotrado
+  - rastreador con inmovilizador
 ---
+
 # TopShine - CA02
 
 ![CA02](./tracker.jpg)
 
-# CA02 GSM Siren Car Security Alarm System
+El CA02 es una unidad de seguridad y rastreo empotrada en el tablero que combina alarma audible con ubicación GPS en tiempo real y control de cierre central. Diseñado para instalaciones 1DIN o 2DIN, integra sirena y sensor de impacto junto con telemetría GSM y salidas por relé para corte de motor o de combustible, ofreciendo una solución consolidada para la protección antirrobo y el monitoreo continuo de automóviles y vehículos comerciales ligeros.
 
-El CA02 es un rastreador GPS compatible con Plaspy y una alarma de seguridad para automóvil diseñada para instalación en tablero \(1DIN o 2DIN\). Este sistema 3-en-1 combina una sirena sonora con un sensor de impacto, rastreador GPS en tiempo real y control de cerraduras central para ofrecer protección fiable contra el robo y un monitoreo continuo del vehículo. Con conectividad GSM 2G y seguimiento web/móvil gratuito, el CA02 facilita añadir un rastreo en tiempo real fiable y funcionalidad de inmovilizador remoto a automóviles de pasajeros y vehículos comerciales ligeros.
+Como dispositivo compatible con Plaspy, el CA02 puede enviar actualizaciones de posición, eventos de alarma y señales de estado a la plataforma Plaspy para que los gestores de flota y propietarios puedan supervisar los vehículos desde un panel central y aplicaciones móviles. Su combinación de rastreo en tiempo real, alertas de geocerca y exceso de velocidad, y funciones de inmovilizador accionadas por relé convierte al CA02 en una opción práctica cuando se requiere seguridad integrada y visibilidad operativa dentro de los flujos de trabajo de Plaspy.
 
-Diseñado para la gestión de flotas y la seguridad de vehículos individuales, el CA02 ofrece una respuesta de alarma inmediata, alertas por SMS, notificaciones de geocerca y sobrevelocidad, y corte de motor/aceite activado por relé para inmovilización cuando se detecta interferencia de GSM o robo. Sus módulos GSM/GPS de grado industrial, código IMEI legal y una garantía de dos años lo convierten en una opción práctica para instaladores y operadores que buscan telemetría y características de seguridad probadas integradas con la plataforma Plaspy.
+## Puntos clave
 
-## Puntos destacados
-
-- Rastreador GPS compatible con Plaspy: seguimiento en tiempo real y reproducción de rutas históricas a través de la web y las apps para iOS/Android.
-- Sirena integrada y sensor de impacto para alertas sonoras inmediatas ante impactos o manipulación.
-- Control de cerraduras centrales y órdenes de apertura del maletero desde remoto, SMS, app o plataforma — cómodo y seguro.
-- Detección de interferencia de GSM con corte de motor/aceite activado por relé para un inmovilizador antirrobo robusto.
-- Alertas de movimiento, geocerca, sobrevelocidad y apertura de puertas no autorizada para apoyar la seguridad de la flota y el cumplimiento.
-- Expansiones opcionales como monitoreo de combustible y micrófono externo para casos de telemetría y seguridad avanzados.
-- Formato compacto en tablero \(1DIN/2DIN\) con módulos de grado industrial y una garantía de 2 años para despliegues a largo plazo.
+- Formato empotrado 1DIN o 2DIN que integra sirena, sensor de impacto y rastreador GPS para seguridad vehicular integrada.
+- Reporte de posición en tiempo real y reproducción histórica de rutas mediante plataformas web y móviles.
+- Cortes remotos del motor o del suministro mediante salidas por relé para inmovilización ante indicios de robo.
+- Tipos de alarma: activación por sensor de impacto, apertura de puertas no autorizada, detección de movimiento, violación de geocerca y notificaciones por exceso de velocidad.
+- Telemetría GSM con IMEI registrado y módulos de grado industrial adecuados para despliegues en flotas.
+- Soporte opcional para expansión de telemetría, como monitoreo de combustible y micrófono en cabina, para necesidades de supervisión más amplias.
 
 ## Cómo funciona con Plaspy
 
-El CA02 comunica la posición y la telemetría de alarmas a través de 2G GSM a la infraestructura de rastreo de Plaspy, lo que permite el seguimiento en tiempo real, alertas y control remoto desde el panel de Plaspy o las apps móviles. Cuando la unidad reporta eventos \(activación del sensor de impacto, apertura de puerta, movimiento, sobrevelocidad o incumplimiento de geocerca\), Plaspy recibe esas actualizaciones de telemetría y puede presentar notificaciones instantáneas, historial de rutas y datos de estado a los gestores de flota o a los propietarios de los vehículos.
+Al instalarse y conectarse, el CA02 envía telemetría de ubicación y eventos a Plaspy a través de la red GSM, de modo que la plataforma puede mostrar posiciones en vivo, notificar a las partes interesadas sobre alarmas y almacenar el historial de rutas para informes y cumplimiento. Plaspy recibe e interpreta las señales de alarma del dispositivo y permite el control remoto de las salidas por relé cuando está habilitado, transformando datos brutos del equipo en información operativa y alertas accionables.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy mediante 2G GSM para el monitoreo en vivo del vehículo.
-- Informes de alarma y estado — alertas del sensor de impacto, apertura de puertas no autorizada y eventos de movimiento son reenviados a Plaspy.
-- Telemetría opcional, como monitoreo de combustible, puede integrarse cuando están presentes los módulos de expansión, permitiendo a Plaspy mostrar datos de combustible junto a las trazas GPS.
-- Comandos de inmovilizador remoto y corte de motor enviados desde Plaspy o mediante controles por SMS/plataforma a las salidas controladas por relé del CA02.
-- Plaspy puede complementar los datos de CA02 con sensores adicionales \(por ejemplo, sensores Bluetooth compatibles con Plaspy\) para ampliar la telemetría sin implicar soporte BLE nativo en el CA02.
+- Rastreo de ubicación en vivo y reproducción de rutas visibles en Plaspy para supervisión de flota y revisión histórica.
+- Reenvío de eventos de alarma, incluyendo sensor de impacto, apertura ilegal de puertas, movimiento, violación de geocerca y exceso de velocidad.
+- Control remoto del inmovilizador y comandos de corte de motor disponibles desde Plaspy cuando las salidas por relé están configuradas en el CA02.
+- Telemetrías opcionales, como datos de combustible, pueden integrarse y visualizarse junto con las trayectorias GPS cuando hay módulos de expansión instalados.
+- Plaspy puede combinar los datos del CA02 con entradas adicionales de sensores en la plataforma para ofrecer una mayor conciencia situacional sin implicar soporte nativo adicional en el dispositivo.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 2G GSM \(se requiere tarjeta SIM 2G\) |
-| --- | --- |
-| Bandas | 2G GSM — bandas de frecuencia específicas no especificadas por el fabricante |
-| Alimentación y Electrónica | Voltaje nominal: DC 12V ±10%; Corriente estática: 1.5A ±5%; Corriente de carga: 2.5A ±5%; Corriente de arranque: 4–5A |
-| Interfaces y Controles | Sirena integrada y sensor de impacto; control de cerraduras centrales; salidas de relé para corte de motor/aceite y control del maletero; soporte de comandos por SMS, app o plataforma; detección de interferencia de GSM; expansiones opcionales de SOS y micrófono |
-| GNSS | Seguimiento GPS en tiempo real \(precisión de GNSS no especificada\) |
-| Bluetooth | No especificado para el CA02 \(la plataforma Plaspy admite la integración de sensores BLE por separado\) |
-| Gestión Remota | Plataforma de rastreo basada en web gratuita y apps iOS/Android; el dispositivo admite comandos a través de la plataforma y por SMS |
-| Formato | Instalación en tablero: 1DIN o 2DIN; carcasa de ABS; peso aproximado ~1 kg; dimensiones ~12 × 8 × 3.5 cm |
-| Garantía | 2 años |
-
-## Casos de uso
-
-- Antirrobo y inmovilización de flotas — usar Plaspy para monitorear ubicaciones de vehículos y activar el corte remoto del motor ante robos confirmados.
-- Monitoreo en tiempo real de conductores y vehículos — alertas de sobrevelocidad, reproducción de rutas y notificaciones de movimiento para una mejor gestión de la flota.
-- Protección de vehículos estacionados — sensor de impacto y activación de la sirena combinados con geocerca y alertas de apertura de puertas para disuadir manipulación.
-- Acceso seguro y comodidad — control de cerraduras centrales y apertura de maletero desde Plaspy o una app para operaciones remotas.
-- Implementaciones avanzadas de telemetría — añadir monitoreo opcional de combustible o módulos de expansión de micrófono cuando se requiera datos de combustible o monitorización en cabina.
+- Monitoreo antirrobo de flotas con inmovilización remota para responder ante eventos de robo confirmados.
+- Supervisión en tiempo real de conductores y vehículos para gestión de rutas, alertas de exceso de velocidad e informes de cumplimiento.
+- Protección de vehículos estacionados mediante sensor de impacto y activación de sirena, complementada con geocercas y alertas por apertura de puertas.
+- Operaciones remotas de conveniencia y seguridad, como control de cierre central o acceso al maletero desde una plataforma centralizada.
+- Despliegues con telemetría ampliada donde se requiere monitoreo de combustible u opciones de audio para operaciones específicas.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el CA02 junto con Plaspy ofrece un equilibrio práctico entre seguridad antirrobo, seguimiento en tiempo real y telemetría orientada a flotas en una única unidad para tablero. Su sirena integrada y el sensor de impacto proporcionan una disuasión audible inmediata, mientras las alarmas telemétricas y los reportes de geocerca/sobrevelocidad alimentan directamente a Plaspy para una visibilidad centralizada. El inmovilizador basado en relés y la detección de interferencias de GSM añaden una capa importante de protección del vehículo para escenarios de alto riesgo.
+El CA02 integra seguridad y telemática en una sola unidad empotrada, lo que lo hace adecuado para organizaciones que necesitan tanto disuasión sonora contra robos como rastreo continuo. Emparejado con Plaspy, el dispositivo forma parte de un flujo de trabajo más amplio de monitoreo y gestión que visualiza alarmas, el historial de ubicaciones y el estado del vehículo para una respuesta operativa ágil. Su inmovilizador basado en relé y su conjunto de alarmas ofrecen herramientas prácticas para reducir pérdidas por robo y mejorar la supervisión de la flota.
 
-Para gestores de flotas y propietarios de vehículos, el CA02 soporta necesidades operativas comunes — corte remoto del motor, control de cerraduras centrales y monitoreo opcional de combustible — y se integra con las apps web y móviles de Plaspy para convertir los datos brutos de GPS y alarmas en información operativa. Respaldado por componentes de grado industrial y una garantía de dos años, el CA02 es una opción confiable cuando se necesita seguimiento en tiempo real compatible con Plaspy, protección antirrobo y una instalación compacta en el tablero.
-
+Para equipos que evalúan hardware compatible con Plaspy, el CA02 representa una opción equilibrada cuando la funcionalidad de alarma integrada y el control remoto son prioridades. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com y verifique las especificaciones actuales del producto y los detalles del fabricante en el sitio de TopShine https://www.gztopshine.com ya que las especificaciones y la disponibilidad pueden cambiar con el tiempo.

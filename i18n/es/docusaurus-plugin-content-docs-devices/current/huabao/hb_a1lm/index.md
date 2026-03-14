@@ -2,66 +2,63 @@
 slug: /huabao/hb_a1lm
 id: hb_a1lm
 sidebar_label: HB-A1Lm
+title: Huabao - HB-A1Lm
 sidebar_class_name: menu_item_tracker
+description: Cerradura rastreador GPS robusta para contenedores remolques y camiones compatible con Plaspy para seguimiento y alertas de flota
+keywords:
+  - Huabao HB-A1Lm
+  - HB-A1Lm rastreador GPS
+  - HB-A1Lm cerradura electrónica
+  - Huabao rastreador Plaspy
+  - cerradura GPS para contenedores
+  - cerradura electrónica para remolques
+  - rastreador para seguridad de flotas
+  - dispositivos compatibles con Plaspy
+  - HB-A1Lm 4G
+  - HB-A1Lm IP67
 ---
+
 # Huabao - HB-A1Lm
 
 ![HB-A1Lm](./tracker.jpg)
 
-El HB-A1Lm  4G GPS Tracker Electronic Lock es una cerradura electrónica de alta resistencia diseñada para asegurar contenedores, remolques, plataformas planas y camiones tipo caja. Totalmente compatible con Plaspy, esta cerradura electrónica inteligente combina rastreo en tiempo real, alarmas ante manipulación y corte de cadena, desbloqueo por RFID y Bluetooth para ofrecer una solución práctica de anti‑robo y seguridad de flotas para operadores logísticos, inspecciones aduaneras y transporte de mercancía de alto valor.
+El HB-A1Lm es un rastreador GPS 4G de alta resistencia integrado con una cerradura electrónica diseñada para contenedores, remolques, plataformas y camiones de caja. Combina el seguimiento de ubicación con funciones anti robo dedicadas, como alarmas por manipulación y corte de cadena, además de múltiples opciones de apertura, incluyendo RFID y Bluetooth. Diseñado para uso exterior, el equipo prioriza la durabilidad y una larga vida operativa para la protección de carga en logística.
 
-Diseñado para uso exterior en condiciones adversas con protección IP67 y una batería de larga duración de 15,200 mAh, el HB-A1Lm integra posicionamiento GPS/BDS, conectividad celular multired \(2G/3G/4G según variante\), Bluetooth 4.0PLUS y LoRa opcional para despliegues flexibles. Conéctelo con Plaspy para gestión centralizada de flotas, telemetría, alertas de geocerca y flujos de desbloqueo remotos coordinados en configuraciones de varias puertas.
+Como dispositivo totalmente compatible con Plaspy, el HB-A1Lm puede gestionarse como un nodo de seguridad y seguimiento dentro de las operaciones de flota en Plaspy. Su reporte de ubicación y eventos en tiempo real, junto con el reenvío de alarmas y el registro de aperturas, lo hacen apropiado para visibilidad centralizada de la flota, alertas por geocerca y flujos remotos de desbloqueo coordinados desde la plataforma Plaspy.
 
-## Destacados Clave
+## Características principales
 
-- Compatible con Plaspy para un seguimiento en tiempo real fluido e integración de gestión de flotas con ubicación, alarmas e historial de eventos.
-- Carcasa robusta, con clasificación IP67, de PC retardante a la llama y fibra de vidrio, diseñada para entornos de contenedores y remolques.
-- Varios métodos de desbloqueo — RFID, app Bluetooth, SMS y comandos de plataforma/GPRS — que respaldan un acceso remoto seguro y auditable.
-- Alarmas anticolo contra robo completas: desbloqueo ilegal/inesperado, alarma de corte de cadena, alarma de manipulación/desmontaje y alertas de batería baja.
-- Batería de 15,200 mAh que ofrece hasta 28 días en espera \(con intervalo de informe de 600 s\) y modo de reposo que conserva energía por debajo del 7%.
-- Soporte multi‑puerta expandible: se empareja con hasta siete cerraduras esclavas para monitorizar y controlar múltiples puertas o compartimentos.
-- Sensores Bluetooth compatibles \(temperatura/humedad\) listos para usar; LoRa disponible para telemetría de largo alcance en despliegues especiales.
+- Compatibilidad total con Plaspy para seguimiento en tiempo real, alarmas e historial de eventos integrado en los flujos de gestión de flota.
+- Caja robusta con grado de protección IP67 y carcasa retardante a la llama, adecuada para entornos de contenedores y remolques.
+- Múltiples métodos de apertura como RFID y Bluetooth, además de control remoto vía plataforma y comandos SMS para mayor flexibilidad operativa.
+- Alarmas anti robo dedicadas como detección de apertura ilegal, alarma por corte de cadena y alertas por manipulación o desmontaje para mayor seguridad.
+- Batería de gran capacidad de 15,200 mAh diseñada para larga autonomía en espera, soportando operaciones de larga distancia y reduciendo intervalos de mantenimiento.
+- Soporte ampliable para múltiples puertas con la posibilidad de emparejar cerraduras esclavas para monitoreo y control sincronizado entre compartimientos.
+- Soporte opcional de sensores y telemetría de largo alcance, como sensores Bluetooth para temperatura y humedad y radio de largo alcance para despliegues especializados.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el HB-A1Lm se convierte en un nodo de bloqueo rastreable y auditable dentro de su ecosistema de gestión de flotas. El dispositivo transmite datos de ubicación y estado a la plataforma y envía alertas inmediatas sobre eventos de seguridad para que las operaciones y los equipos de seguridad puedan responder rápidamente. Plaspy puede centralizar telemetría, registros de eventos y permisos de desbloqueo para simplificar flujos de trabajo entre camiones, contenedores y remolques de varias puertas.
+Cuando se conecta a Plaspy, el HB-A1Lm informa ubicación y estado de seguridad para que los equipos operativos y de seguridad puedan monitorear activos y responder a eventos desde una sola plataforma. Plaspy centraliza la telemetría del dispositivo, almacena historiales de apertura y muestra alertas para apoyar la respuesta a incidentes y los flujos de cumplimiento.
 
-- Actualizaciones de ubicación y telemetría en tiempo real hacia Plaspy para una visibilidad continua del rastreador GPS y monitoreo de rutas.
-- Eventos de seguridad inmediatos: desbloqueo ilegal, manipulación/desmontaje y alarmas de corte de cadena reenviadas como alertas de la plataforma.
-- Informes de batería y estado de energía, incluyendo notificaciones de batería baja y comportamiento del modo de reposo \(desbloqueo RFID solo cuando la batería está críticamente baja\).
-- Eventos de desbloqueo RFID y Bluetooth registrados centralmente; desbloqueos mediante plataforma/GPRS y SMS disponibles para control remoto por el operador.
-- Estado de sensores Bluetooth \(temperatura/humedad\) disponible en los paneles de Plaspy para monitoreo de carga refrigerada.
-- Estado de cerraduras esclavas y registro de eventos de múltiples puertas para un control antirrobo sincronizado en un único activo.
+- Actualizaciones de ubicación y telemetría en tiempo real en Plaspy para visibilidad continua del activo y monitoreo de rutas.
+- Reenvío inmediato de eventos de seguridad como apertura ilegal, manipulación y alarma por corte de cadena hacia las alertas de la plataforma.
+- Reporte del estado de batería y alimentación con notificaciones de batería baja capturadas en la plataforma para planificación proactiva de mantenimiento.
+- Registro de eventos de apertura por RFID y Bluetooth y comandos remotos de desbloqueo desde la plataforma para control de acceso auditado.
+- Telemetría de sensores como temperatura y humedad disponible en los paneles de Plaspy para el monitoreo de carga refrigerada o sensible.
+- Registro de eventos de cerraduras esclavas y múltiples puertas para coordinar el control anti robo en un mismo vehículo o contenedor.
 
-## Visión Técnica
+## Casos de uso típicos
 
-| Modelo | HB-A1Lm |
-| --- | --- |
-| Conectividad | 2G / 3G / 4G \(el módulo opcional varía según la región/proyecto\) |
-| Posicionamiento | GPS / BDS |
-| Sensibilidad GPS | Captura -149 dBm; Seguimiento -167 dBm; Arranque en frío ~35 s |
-| Bluetooth / LoRa | Bluetooth 4.0PLUS \(defecto\); LoRa opcional \(ISM 150–960 MHz\) |
-| RFID | ISO/IEC 14443 Tipo A y B; hasta 50 tarjetas; distancia de lectura de hasta 10 mm |
-| Batería | 15.200 mAh batería principal; entra en modo de reposo por debajo del 7% \(desbloqueo RFID solo\) |
-| Tiempo en Espera | Hasta 28 días \(ejemplo con intervalo de informe de 600 s\) |
-| Protección | IP67; variantes ATEX a prueba de explosiones disponibles según el proyecto |
-| Interfaces | 1 puerto serial, 1 puerto de carga, 1 ranura para SIM; indicadores: SYS / GPS / CHG |
-| Dimensiones y Peso | 174 × 140 × 49 mm; ≈1.300 g \(con cadena de 30 cm\) |
-| Cadena | Longitudes estándar 30 / 60 / 100 cm; personalizable; tracción hasta 1000 kg; alarma de corte de cadena soportada |
-| Temperatura de Funcionamiento | -30 °C a +70 °C \(almacenamiento -40 °C a +85 °C\) |
-| Indicadores | LEDs de estado SYS / GPS / CHG |
+- Monitoreo anti robo de contenedores y remolques con alarmas por corte de cadena y manipulación integradas en las alertas de Plaspy.
+- Gestión de camiones de caja con varias puertas y tanques emparejando la cerradura principal con cerraduras esclavas para control y registro sincronizados.
+- Envíos refrigerados que requieren telemetría de temperatura o humedad combinada con seguimiento de ubicación para garantizar la integridad de la cadena de suministro.
+- Inspecciones aduaneras y operaciones con carga de alto valor donde se requieren auditorías de apertura y registros de acceso.
+- Operaciones remotas de flota que consolidan datos de rutas, geocercas y eventos de seguridad en una única consola de gestión.
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Antirrobo para contenedores y remolques: sellos de seguridad con reporte en tiempo real del rastreador GPS y alarmas de corte de cadena/manipulación hacia Plaspy.
-- Gestión de camiones de caja y camiones cisterna con múltiples puertas: empareja la cerradura principal con cerraduras esclavas para bloqueo sincronizado y registro central de eventos.
-- Remesas refrigeradas: conecte sensores Bluetooth de temperatura/humedad para telemetría en Plaspy y proteger mercancías perecederas.
-- Aduanas y cargas de alto valor: audite el historial de desbloqueos mediante RFID y registros de desbloqueo en la plataforma para cumplir con las normativas y los requisitos de trazabilidad.
-- Operaciones de flota remotas: combine la telemetría del dispositivo con la gestión de flotas de Plaspy para monitorizar rutas, geocercas y eventos de seguridad desde una única consola.
+El HB-A1Lm ofrece una combinación orientada a propósito de construcción robusta, larga duración de batería y múltiples métodos de acceso que encajan bien en flotas gestionadas con Plaspy. Su diseño está enfocado en la seguridad de contenedores y remolques, por lo que resulta una opción práctica para operadores logísticos que necesitan funcionalidad de cerradura física y visibilidad continua en un solo dispositivo.
 
-## Por Qué Elegir Este Rastreador con Plaspy
+Emparejado con Plaspy, el HB-A1Lm ayuda a centralizar eventos de seguridad, auditorías de apertura y telemetría junto con otros datos de la flota para apoyar operaciones eficientes y la respuesta ante incidentes. Para organizaciones que requieren control escalable de múltiples puertas, monitoreo basado en sensores o hardware reforzado para uso exterior, este rastreador con cerradura compatible con Plaspy proporciona una base sólida para una logística segura y conectada.
 
-Elegir el HB-A1Lm como un rastreador GPS compatible con Plaspy ofrece a flotas y responsables de logística un dispositivo de seguridad hecho a medida que combina hardware robusto con telemetría moderna. Su larga vida de la batería, construcción IP67 y opciones de conectividad celular multired lo hacen fiable para largos recorridos y entornos desafiantes. Los múltiples métodos de desbloqueo — RFID, app Bluetooth, SMS y plataforma/GPRS — proporcionan flexibilidad operativa al tiempo que registran cada evento para auditoría en Plaspy.
-
-Cuando se integra en Plaspy, el HB-A1Lm contribuye a una gestión de flotas más eficiente, una respuesta ante el robo y una mayor protección de la carga. La telemetría del dispositivo puede alimentar paneles de control de flotas más amplios \(incluyendo monitoreo de combustible y datos de encendido e inmovilización cuando los sistemas del vehículo están integrados a nivel de plataforma\), lo que permite políticas de seguridad coordinadas, geocercas y flujos de trabajo de mantenimiento. Para operaciones que requieren soluciones multipuerta escalables o transporte refrigerado impulsado por sensores, el HB-A1Lm ofrece una base práctica, compatible con Plaspy, para una logística segura y conectada.
-
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time; verify current specifications and options on the official manufacturer site https://www.huabaotelematics.com/ before making procurement or deployment decisions.

@@ -2,64 +2,60 @@
 slug: /winrich/tk102b
 id: tk102b
 sidebar_label: TK102B
+title: Winrich - TK102B
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS TK102B compacto compatible con Plaspy para vehículos personas y activos con ubicación en tiempo real geocercas y respaldo de rutas
+keywords:
+  - Winrich TK102B
+  - Rastreador TK102B
+  - Rastreador GPS Winrich
+  - TK102B compatible con Plaspy
+  - Rastreador GPS personal
+  - Seguimiento de vehículos
+  - Seguimiento de activos
+  - Rastreador con geocercas
+  - Rastreador con alerta SOS
+  - Respaldo de rutas en tarjeta TF
 ---
+
 # Winrich - TK102B
 
 ![TK102B](./tracker.jpg)
 
-El TK102B es un rastreador GPS personal compacto diseñado para un seguimiento en tiempo real confiable compatible con Plaspy, aplicable a vehículos, personas y activos. Con posicionamiento dual GPS+GSM, configuración automática de APN y respaldo mediante tarjeta TF para el historial de rutas, el TK102B ofrece inteligencia de ubicación continua y funciones esenciales de antirrobo que se integran de forma fluida con Plaspy para la gestión de flotas, la seguridad del personal y soluciones de seguridad personal.
+El TK102B es un rastreador GPS personal compacto diseñado para el monitoreo confiable de ubicaciones en tiempo real en vehículos, personas y activos portátiles. Combina posicionamiento GPS y GSM con respaldo de rutas en tarjeta TF para mantener continuidad en la información de ubicación y ofrecer capacidades básicas antirrobo. El equipo está pensado para escenarios de seguimiento sencillos donde importan el tamaño, la portabilidad y las actualizaciones constantes.
 
-El dispositivo combina un potente motor GPS SIRF3 con conectividad GSM/GPRS cuád-banda para ofrecer seguimiento en tiempo real, geocercas, alertas SOS y informes automáticos a intervalos. Su compacto tamaño, larga autonomía de la batería y la opción de corte remoto de combustible/energía lo convierten en un rastreador GPS versátil para empresas y usuarios que necesitan telemetría confiable, precisión de ubicación y notificaciones inmediatas de eventos a través de Plaspy.
+Como dispositivo compatible con Plaspy, el TK102B puede enviar actualizaciones de ubicación, alertas y el historial de rutas almacenadas a Plaspy para una visibilidad y gestión centralizadas. La configuración automática del APN y la capacidad de conservar los registros de ruta cuando se interrumpe el servicio celular ayudan a reducir vacíos en los datos y a simplificar la integración en flujos de trabajo de monitoreo de flotas, seguridad del personal y protección personal basados en Plaspy.
 
-## Principales Características
+## Características principales
 
-- Compatible con Plaspy: integra actualizaciones de ubicación, alertas y registros de rutas para un monitoreo central y la gestión de la flota.
-- Posicionamiento dual GPS+GSM para cobertura continua y fijaciones de ubicación rápidas, incluso en zonas de recepción desafiantes.
-- Seguimiento en tiempo real con informes de seguimiento automáticos y alertas SOS de emergencia para la seguridad del personal y de los activos.
-- Geocercas, alertas de velocidad y notificaciones de desmontaje \(bloqueo electrónico\) para respaldar políticas de antirrobo y operativas.
-- Almacenamiento de rutas en tarjeta TF para conservar el historial de rutas cuando la señal GSM no esté disponible, asegurando telemetría ininterrumpida.
-- Corte remoto de combustible/energía \(antirrobo\) opcional cuando la unidad está cableada en configuraciones de vehículos compatibles.
-- Formato pequeño y ligero, apto para uso portátil—ideal para seguridad personal, localización de mascotas, equipos en alquiler y protección encubierta de activos.
+- Compatible con Plaspy para mapeo centralizado, alertas y registros de ruta.
+- Posicionamiento dual GPS y GSM para cobertura continua y fijaciones más rápidas.
+- Seguimiento en tiempo real con reportes periódicos y alertas SOS de emergencia.
+- Geocercas y alertas por exceso de velocidad para apoyar políticas de seguridad y cumplimiento.
+- Almacenamiento de rutas en tarjeta TF que preserva el historial cuando el servicio GSM no está disponible.
+- Corte remoto opcional de combustible o alimentación para mayor control antirrobo cuando se instala en vehículos compatibles.
+- Factor de forma pequeño y ligero, adecuado para colocaciones portátiles y discretas.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el TK102B alimenta datos consistentes de ubicación basados en GPS y GSM hacia el tablero de Plaspy para visualización en vivo, alertas y generación de informes. Plaspy recibe la ubicación del dispositivo, disparadores de eventos y actualizaciones de estado, lo que permite a los despachadores y gerentes actuar con telemetría en tiempo real y rutas históricas. El soporte automático de APN y el respaldo con tarjeta TF reducen tiempos de inactividad y lagunas de datos, mientras que las alarmas integradas generan notificaciones inmediatas en Plaspy para respuestas más rápidas.
+Al conectarse a Plaspy, el TK102B transmite actualizaciones de posición, eventos y datos de rutas almacenadas al panel de Plaspy para que los operadores puedan monitorear activos en tiempo real y revisar movimientos históricos. Plaspy consolida alertas y registros de ubicación del dispositivo, ofreciendo herramientas de mapeo, informes y notificaciones que mejoran la conciencia situacional y la respuesta operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para mapeo e informes.
-- Alertas de geocerca y de exceso de velocidad transmitidas a Plaspy para cumplimiento y monitoreo de seguridad.
-- Alertas SOS de emergencia y activación por voz en modo de monitoreo para respaldar flujos de seguridad personal.
-- Capacidad remota de inmovilización: corte remoto de combustible/energía \(opcional\) puede activarse desde Plaspy cuando el dispositivo está conectado en un vehículo compatible.
-- El historial de rutas en tarjeta TF está disponible para subir a Plaspy cuando se restablece el servicio GSM, preservando registros de seguimiento continuos.
+- Las actualizaciones de posición en vivo aparecen en los mapas de Plaspy para visibilidad inmediata.
+- Los eventos de geocerca y exceso de velocidad generan alertas dentro de Plaspy para el seguimiento de cumplimiento.
+- Las alertas SOS y los eventos de modo de monitoreo se reenvían a Plaspy para notificación y seguimiento rápidos.
+- Las rutas almacenadas en la tarjeta TF se cargan a Plaspy cuando se restablece la conectividad para mantener un historial continuo.
+- El corte remoto de combustible o alimentación opcional puede integrarse en los flujos de trabajo de Plaspy para la inmovilización controlada en instalaciones compatibles.
 
-## Resumen Técnico
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(cuád-banda\) |
-| Chipset GNSS | SIRF3 |
-| Canales | 20 |
-| Sensibilidad | -159 dBm |
-| Precisión de posicionamiento | ≤ 5 metros |
-| Tiempo de inicio | Arranque en caliente ~1 s, arranque en frío ~35 s \(promedio\) |
-| Alimentación y batería | Batería recargable de litio 3.7V 800 mAh |
-| Almacenamiento | Ranura para tarjeta TF para respaldo de datos de ubicación cuando GSM no está disponible |
-| Antirrobo opcional | Corte remoto de combustible/energía compatible cuando está conectado en configuraciones de vehículos compatibles |
-| Dimensiones y peso | 46 × 64 × 17 mm; ~40 g |
-| Funciones estándar | Seguimiento en tiempo real, auto-seguimiento \(informes por intervalos\), llamada SOS, geocerca, alerta de desmontaje, alerta de exceso de velocidad, aviso de batería baja |
-| Funciones adicionales | Sensor de choque integrado, modo de monitoreo \(voz\), respuesta de dirección física en múltiples idiomas, configuración automática de APN |
-
-## Casos de Uso
-
-- Gestión de flotas: monitorear la ubicación de los vehículos, hacer cumplir las políticas de velocidad y conservar el historial de rutas para cumplimiento y optimización.
-- Protección antirrobo: geocercas y alertas de desmontaje, además de corte remoto de combustible/energía opcional para asegurar vehículos y equipos en alquiler.
-- Seguridad personal: alertas SOS, modo de monitoreo y colocación discreta para niños, personas mayores o trabajadores solitarios.
-- Rastreo de activos y equipos: formato compacto y respaldo en tarjeta TF hacen del TK102B una opción adecuada para flotas de alquiler y activos portátiles donde la telemetría continua es crítica.
-- Rastreo encubierto o de investigación: tamaño reducido, monitoreo por voz y actualizaciones en tiempo real ofrecen opciones flexibles para implementaciones especializadas.
+- Gestión de flotas para vehículos ligeros y pequeñas flotas de alquiler que requieren rastreadores compactos.
+- Protección antirrobo para vehículos, equipos y activos de alquiler mediante geocercas y opciones de inmovilización.
+- Seguridad personal para trabajadores solitarios, niños o personas mayores que necesitan alertas SOS y colocación discreta.
+- Seguimiento de activos portátiles donde el respaldo en tarjeta TF asegura el historial de rutas durante conectividad intermitente.
+- Despliegues temporales o discretos que requieren un factor de forma pequeño con actualizaciones en tiempo real.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Emparejar el TK102B con Plaspy ofrece a las organizaciones e individuos un equilibrio práctico entre precisión, continuidad y capacidad antirrobo. El confiable GPS SIRF3 del dispositivo, la compatibilidad de respaldo GSM y el almacenamiento en tarjeta TF reducen las lagunas de datos, mientras que Plaspy centraliza el seguimiento en tiempo real y las alertas en un tablero operativo para la gestión de flotas, el análisis de telemetría y una respuesta rápida ante incidentes. El corte remoto de combustible/energía opcional proporciona una capa adicional de control para flujos de antirrobo e inmovilización cuando se configure en vehículos compatibles.
+El TK102B representa una opción práctica y compacta para organizaciones e individuos que desean actualizaciones de ubicación confiables y funciones antirrobo básicas integradas con Plaspy. Su combinación de precisión GPS, respaldo GSM y almacenamiento local de rutas ayuda a minimizar huecos en la telemetría mientras mantiene el hardware sencillo y portátil. Para equipos que requieren monitoreo centralizado, Plaspy consolida los datos del dispositivo en mapas, alertas e informes que apoyan la supervisión operativa y una respuesta más ágil ante incidentes.
 
-Para empresas enfocadas en eficiencia y seguridad, el TK102B ofrece un rastreador GPS compacto y rentable que es compatible con Plaspy desde la caja. Sus alarmas integradas, geocercas y el reporte por intervalos respaldan la monitorización operativa y el cumplimiento, mientras que la configuración automática de APN y las respuestas de direcciones habilitadas por idioma simplifican la implementación y la interacción con el usuario. Ya sea que necesite seguimiento en tiempo real, respuesta ante robo o historial de rutas preservado para auditorías, el TK102B integrado con Plaspy ofrece inteligencia de ubicación accionable y telemetría confiable.
-
+Obtenga más información sobre cómo funciona el TK102B con Plaspy en el sitio web de Plaspy https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica más reciente y la compatibilidad con el fabricante en http://www.winrichgroup.com/en/.

@@ -2,41 +2,61 @@
 slug: /careu/p2
 id: p2
 sidebar_label: P2
+title: CAREU - P2
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS personal compacto con comunicación bidireccional, SOS y geocercas, compatible con Plaspy para rastreo y alertas en tiempo real
+keywords:
+  - CAREU P2
+  - rastreador GPS CAREU P2
+  - rastreador P2
+  - compatibilidad P2 Plaspy
+  - rastreador GPS personal
+  - rastreador para cuidado de adultos mayores
+  - rastreador para seguridad infantil
+  - seguimiento de trabajadores en solitario
+  - rastreador con geocerca
+  - estación de carga para rastreadores
 ---
+
 # CAREU - P2
 
 ![P2](./logo..png)
 
-El rastreador GPS personal CAREU P2 es una solución de conectividad 3G / 2G que ofrece un tamaño compacto y una interfaz fácil de usar. Este rastreador es adecuado para personas mayores, niños, servicios de seguridad y trabajadores solitarios, entre otros. El CAREU P2 es capaz de recopilar datos de posición precisos cada segundo, lo que permite un seguimiento preciso. Este rastreador está diseñado tanto para empresas como para usuarios finales. Los datos de posición se envían a una aplicación específica en el caso de los usuarios finales, mientras que en el caso de las empresas, los datos se envían a un servidor para su seguimiento a través de una plataforma. El CAREU P2 cuenta con comunicación bidireccional y puede almacenar hasta 4 números de teléfono a los que llamar en caso de emergencia al presionar el botón de SOS. Además, la sensibilidad del rastreador se puede ajustar.
+El CAREU P2 es un rastreador GPS personal compacto diseñado para una supervisión sencilla de la ubicación y comunicación bidireccional. Ofrece actualizaciones frecuentes de posición y funciones básicas de seguridad como alerta SOS, llamadas de emergencia con números almacenados y sensibilidad configurable para detección de movimiento. El dispositivo está pensado tanto para usuarios particulares como para empresas que requieren seguimiento confiable sobre la persona y protección de pequeños activos.
 
-El rastreador cuenta con una estación de carga opcional que permite a los usuarios finales utilizarlo en casa y ahorrar energía de la batería. La estación de carga tiene Bluetooth 4.1 que permite conectar hasta 4 rastreadores a la estación. Cuando están conectados, la batería de los rastreadores se apaga y la conexión se realiza a través de Bluetooth, lo que ahorra vida útil de la batería. La estación de carga puede cargar hasta 3 rastreadores simultáneamente. Este dispositivo cuenta con una geovalla automática de 100 metros a su alrededor y enviará una alerta si alguno de los rastreadores emparejados sale de la geovalla. La estación de carga es útil para el cuidado de personas mayores en el hogar o en residencias de ancianos.
+Este modelo es compatible con Plaspy, por lo que resulta adecuado para organizaciones que deseen integrar dispositivos P2 en una plataforma de seguimiento centralizada. Al conectarse a Plaspy, el P2 puede aportar datos de ubicación en vivo, eventos de alerta y el estado relacionado con llamadas dentro de los flujos de trabajo de flotas y seguridad, ayudando a los operadores a mantener visibilidad y responder con rapidez ante incidentes.
 
-Características destacadas:
+## Características principales
 
-- Conectividad 3G y 2G
-- Alerta de emergencia SOS
-- Llamadas entrantes y salientes
-- Memoria para almacenar hasta 4 números de teléfono diferentes para llamar
-- Alerta de caída
-- Acelerómetro de 3 ejes para una alta sensibilidad
-- Cancelación manual de alertas y pre-alertas
-- Alerta de batería baja
-- Configurable para informes cada 1 segundo
-- Límite de geovalla predefinido \(círculo\)
-- Límite de geovalla dinámico \(círculo\)
-- GPS asistido
-- Posicionamiento inteligente de múltiples celdas GSM
-- Carga inalámbrica de la batería a través de la estación de carga
-- Sincronización de señal BLE
-- Zona segura inteligente: un área de sincronización BLE inteligente para detectar si el dispositivo está dentro o fuera de una zona segura específica
+- Rastreador personal compacto con reportes de posición frecuentes para actualizaciones precisas
+- Comunicación bidireccional y alerta de emergencia SOS con hasta cuatro contactos de emergencia almacenados
+- Sensibilidad ajustable y detección tipo «man down» para mayor seguridad personal
+- Estación de carga opcional para carga inalámbrica y comodidad en despliegues con varios dispositivos
+- Alertas por geocerca configurables para controlar entradas y salidas de zonas delimitadas
+- Diseñado para casos de uso tanto de consumo como empresariales, como cuidado de adultos mayores y trabajadores en solitario
 
-Características opcionales:
+## Cómo funciona con Plaspy
 
-- Estación de carga opcional con conectividad Bluetooth
-- Pegatina para carga inalámbrica
-- Bolsa de gelatina para uso en el cinturón
-- Cargador de CA
+Al usarse con Plaspy, el CAREU P2 envía su ubicación y señales de alerta a la plataforma Plaspy para que los operadores puedan supervisar los dispositivos en tiempo real y revisar movimientos históricos. Los usuarios de Plaspy pueden integrar los datos del P2 en paneles, notificaciones e informes junto con otros dispositivos para una supervisión operativa unificada.
 
-Tenga en cuenta que las especificaciones pueden estar sujetas a cambios sin previo aviso.
+- Visibilidad en tiempo real de la ubicación de unidades P2 en mapas y paneles de Plaspy
+- Reenvío de alertas por eventos SOS y violaciones de geocerca a las reglas de notificación de Plaspy
+- Informes periódicos de posición disponibles en Plaspy para seguimiento preciso y reproducción de recorridos
+- Supervisión centralizada de múltiples rastreadores P2 para control de flotas o personal
+- Informes y registros en Plaspy para apoyar revisiones de incidentes y análisis operativos
 
+## Casos de uso típicos
+
+- Monitorización de adultos mayores para asegurar asistencia oportuna y conocimiento de su ubicación
+- Seguimiento de seguridad infantil para padres y tutores que requieren actualizaciones regulares de posición
+- Seguridad de trabajadores en solitario, combinando alertas SOS con supervisión centralizada
+- Rastreo de personal de seguridad y patrullaje para control de turnos y rutas
+- Seguimiento de activos o equipos a pequeña escala donde dispositivos personales compactos son apropiados
+
+## Por qué elegir este rastreador con Plaspy
+
+El CAREU P2 combina funciones prácticas de seguridad personal con opciones que respaldan necesidades operativas diarias, como contactos de emergencia almacenados e informes configurables. Su estación de carga opcional y las capacidades de geocerca añaden conveniencia en despliegues que requieren logística de carga sencilla y supervisión automática de áreas.
+
+Para organizaciones que evalúan dispositivos para Plaspy, el P2 representa una opción sensata cuando la prioridad es el seguimiento centrado en la persona, llamadas de emergencia simples y una integración fluida con una plataforma de monitoreo más amplia. Su conjunto de funciones se alinea bien con los casos de uso de Plaspy orientados a visibilidad, alertas y coordinación de respuesta rápida.
+
+Para saber más sobre cómo Plaspy puede funcionar con dispositivos CAREU, visite https://www.plaspy.com. Las especificaciones y disponibilidad de productos pueden cambiar con el tiempo; por favor verifique los detalles técnicos y opciones actuales con el fabricante en https://www.systech-iot.com/ antes de tomar decisiones de compra.

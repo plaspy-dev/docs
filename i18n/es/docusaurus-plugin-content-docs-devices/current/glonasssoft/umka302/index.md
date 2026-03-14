@@ -2,65 +2,61 @@
 slug: /glonasssoft/umka302
 id: umka302
 sidebar_label: UMKa302
+title: GLONASSsoft - UMKa302
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS profesional compatible con Plaspy para monitoreo de flotas y captura de telemetría
+keywords:
+  - GLONASSsoft UMKa302
+  - UMKa302 rastreador GPS
+  - UMKa302 compatible con Plaspy
+  - rastreador GLONASSsoft UMKa302
+  - seguimiento de flotas UMKa302
+  - telemetría vehicular UMKa302
+  - soporte de sensores BLE UMKa302
+  - bus CAN UMKa302
+  - doble SIM UMKa302
+  - gestión de flotas UMKa302
 ---
+
 # GLONASSsoft - UMKa302
 
 ![UMKa302](./tracker.png)
 
-# UMKa302 GPS Tracker \(UMK-302\)
+El UMKa302 es un rastreador GPS de nivel profesional de GLONASSsoft, diseñado para el monitoreo de vehículos, la gestión de flotas y la protección antirrobo. Como modelo insignia de la línea UMKa, pone énfasis en la operación estable y en un mejor desempeño de procesamiento respecto a unidades anteriores. El equipo registra posición y telemetría del vehículo y está pensado para operación continua en entornos vehiculares, con un formato compacto y resistente apto para distintos escenarios de flotas y activos.
 
-El UMKa302 \(UMK-302\) es un rastreador GPS compatible con Plaspy, diseñado para el monitoreo profesional de vehículos, la gestión de flotas y la protección antirrobo. Como buque insignia de la gama UMKa, el UMKa302 eleva la estabilidad y el rendimiento de procesamiento respecto a su predecesor, lo que facilita un seguimiento en tiempo real fiable, una telemetría más rica y una integración flexible en sistemas basados en Plaspy. Su compatibilidad con CAN bus, sensores inalámbricos BLE, operación de doble SIM y una E/S robusta lo convierten en una opción práctica para operadores que requieren localización precisa, monitoreo de combustible y diagnósticos profundos del vehículo sin añadir múltiples sensores externos.
+Este modelo es compatible con Plaspy, lo que permite a los operadores utilizar el UMKa302 como fuente de datos para seguimiento en tiempo real, alertas e informes históricos. Al enviar posiciones GNSS, telemetría derivada del vehículo y lecturas de sensores inalámbricos a Plaspy, el UMKa302 aporta la visibilidad y los datos operativos que los gestores de flota necesitan para supervisión y toma de decisiones dentro de la plataforma Plaspy.
 
-El dispositivo está diseñado para integrarse directamente con Plaspy: la ubicación GNSS, la telemetría derivada del CAN, los datos de sensores BLE y los registros de eventos se envían a la plataforma para supervisión en tiempo real, alertas e informes históricos. De formato compacto, con protección IP54 y capaz de funcionar con una alimentación de +8…+40 V, el UMKa302 es un rastreador versátil para flotas mixtas, vehículos vocacionales y activos de alto valor donde la disponibilidad, la profundidad de datos y el control remoto seguro son esenciales.
+## Características principales
 
-## Puntos clave
-
-- Rastreador GPS compatible con Plaspy que transmite ubicación en tiempo real y telemetría para la gestión de flotas y flujos de trabajo antirrobo.
-- Soporte CAN bus \(J1939 + filtro personalizado\) que proporciona decenas de parámetros del vehículo sin sensores adicionales; opción de doble CAN para sistemas complejos.
-- Soporte BLE para hasta 8 sensores inalámbricos: nivel de combustible y temperatura de combustible precisos mediante sensores Bluetooth, comparables a los sistemas FLS cableados.
-- GSM de doble SIM \(850/900/1800/1900\) con gestión inteligente de la energía para una conectividad celular fiable y con conmutación ante fallos.
-- Amplias E/S: 2 entradas analógicas/digitales, 2 entradas de pulso/discretas y 2 salidas \(colector abierto\) para capturar eventos y realizar tareas de control remoto.
-- Memoria a bordo y registro tipo "caja negra" \(microSD y capacidad interna\) para hasta millones de entradas, ideal para retención de datos fuera de línea.
-- Formato compacto y apto para vehículos con protección IP54 y opciones de antena integrada o externa.
+- Diseñado para monitoreo profesional de vehículos y uso en flotas, con énfasis en la estabilidad y la disponibilidad.
+- Transmite ubicación y telemetría para seguimiento en tiempo real y análisis histórico.
+- Admite recolección de datos del vehículo e integración con sensores inalámbricos, reduciendo la necesidad de múltiples dispositivos externos.
+- Capacidad celular con doble SIM y registro interno que ofrecen resiliencia en la entrega de datos en condiciones de conectividad variable.
+- Carcasa compacta, preparada para instalación en vehículos y con protección ambiental adecuada para despliegues a bordo.
+- Entradas/salidas flexibles y opciones de salidas remotas para capturar eventos y soportar flujos básicos de control remoto.
 
 ## Cómo funciona con Plaspy
 
-UMKa302 se integra en Plaspy transmitiendo fijaciones de posición GNSS, telemetría derivada del CAN y lecturas de sensores BLE a través de GSM/GPRS. Plaspy recibe estas señales en tiempo real para seguimiento en vivo, geocercas, alertas e informes históricos. la capacidad de registro y el doble SIM del dispositivo aseguran una entrega continua de datos; cuando la conectividad es intermitente, los registros almacenados en microSD y la memoria de la caja negra interna se sincronizan con Plaspy tan pronto como se restablece la conexión.
+Al conectarse a Plaspy, el UMKa302 transmite actualizaciones de posición, telemetría del vehículo y lecturas de sensores para que esos datos estén disponibles en los tableros y herramientas de informes de Plaspy. Plaspy ingiere la información para monitoreo en vivo y análisis archivado, y el registro local del rastreador ayuda a mantener registros durante pérdidas temporales de conectividad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real para el monitoreo de rutas, ETA y visibilidad de activos.
-- Monitoreo del estado de encendido y alarmas a través de datos CAN del vehículo o entradas conectadas; útil para la detección de trayectos y generación de informes basados en eventos.
-- Monitoreo de combustible y temperatura de combustible mediante sensores BLE inalámbricos, proporcionando telemetría comparable a sistemas FLS cableados.
-- Registro de eventos y memoria de caja negra fuera de línea \(microSD e interna\) que se sincroniza con Plaspy tras la reconexión.
-- Control remoto y salidas: dos salidas de colector abierto pueden configurarse para acciones remotas cuando lo exijan los flujos de trabajo de la flota.
+- Actualizaciones de ubicación y telemetría en tiempo real visibles en Plaspy para monitoreo de rutas y visibilidad de activos.
+- Alertas basadas en eventos y notificaciones de estado según entradas del vehículo y lecturas de sensores.
+- Informes históricos y reproducción de viajes empleando datos almacenados y transmitidos para cumplimiento y análisis.
+- Integración de datos de combustible y sensores para respaldar informes de consumo y detección de anomalías en Plaspy.
+- Registro offline que se sincroniza con Plaspy cuando se restablece la conectividad para mantener la continuidad de los registros.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM \(GPRS\) — 850 / 900 / 1800 / 1900 MHz |
-| --- | --- |
-| Bandas | GSM 850/900/1800/1900 |
-| Alimentación y batería | Tensión de alimentación +8…+40 V; gestión inteligente de la energía; fuente de alimentación adicional opcional |
-| Entradas / Salidas | 2 entradas analógicas/digitales; 2 entradas de pulso/discretas; 2 salidas \(colector abierto\) |
-| Interfaces | RS-485, RS-232, 1-Wire, CAN, Bluetooth |
-| CAN | Soporte J1939 y filtro personalizado; operación opcional con dos buses CAN de forma simultánea |
-| GNSS | Canales de seguimiento: 33; Canales de captura: 99 \(GLONASS / GPS\) |
-| Bluetooth | Soporte BLE para sensores inalámbricos \(hasta 8 sensores\) |
-| Caja negra / Almacenamiento | Caja negra de hasta 120,000 entradas; compatibilidad con microSD de hasta 100 millones de entradas |
-| SIM y Control | Dual SIM; control vía USB, SMS, GPRS y Bluetooth |
-| Protocolos | Protocolo EGTS soportado |
-| Factor de forma | Rastreador compacto para vehículos — dimensiones 90 × 71 × 26 mm; peso ≤ 120 g; IP54 |
-| Antenas | Opciones de antena integrada o externa |
-| Adicional | Comunicación de voz opcional |
-
-## Casos de uso
-
-- Gestión de flotas: posicionamiento en vivo de los vehículos, telemetría de comportamiento del conductor y analítica de rutas a través de los paneles de Plaspy.
-- Seguridad y antirrobo: alertas de ubicación, registros de eventos y control remoto de salidas para limitar el uso no autorizado.
-- Monitoreo de combustible: sensores BLE de combustible y datos CAN de combustible combinados en Plaspy para mejorar la estimación del consumo y la detección de robos.
-- Diagnóstico de vehículos comerciales: acceso a decenas de parámetros CAN \(J1939 o personalizado\) sin sensores cableados adicionales para el mantenimiento preventivo.
-- Cadena de frío o carga sensible: integración de sensores Bluetooth para telemetría de temperatura junto con el seguimiento GNSS.
+- Operaciones de flota que requieren seguimiento continuo de posición y telemetría operativa para múltiples vehículos.
+- Flujos de trabajo de seguridad y antirrobo donde las alertas de ubicación y los registros de eventos facilitan la recuperación y la respuesta.
+- Monitoreo de combustible para flotas que combinan datos del vehículo y sensores inalámbricos para mejorar los informes de consumo.
+- Mantenimiento preventivo y diagnóstico mediante la recolección de parámetros del vehículo para supervisión y planificación.
+- Flotas mixtas o vehículos vocacionales donde se necesitan rastreadores compactos y resistentes para diversos tipos de activos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El UMKa302 ofrece telemetría de grado profesional y una conectividad flexible para los usuarios de Plaspy. Su combinación de diagnósticos CAN, soporte para sensores BLE y GSM de doble SIM garantiza un flujo de datos constante y rico para el seguimiento en tiempo real y el análisis histórico. Para los propietarios de flotas que requieren funciones de antirrobo fiables, monitoreo de combustible y telemetría operativa, el UMKa302 reduce la necesidad de hardware adicional al exponer parámetros del vehículo vía J1939 y un filtro CAN personalizado. Los clientes de Plaspy obtienen ubicaciones y señales de sensores de alta resolución, registro fuera de línea resistente y posibilidades prácticas de control remoto a través de las entradas y salidas del dispositivo — todo en una unidad compacta, con IP54 y diseñada para entornos vehiculares.
+El UMKa302 es una opción práctica para organizaciones que necesitan seguimiento confiable de vehículos junto con telemetría más completa que la simple posición GPS. Su soporte para recolección de datos vehiculares y sensores inalámbricos ayuda a consolidar lecturas que, de otro modo, requerirían múltiples equipos, mientras que el registro a bordo y la operación con doble SIM fomentan un flujo continuo de datos hacia Plaspy en condiciones reales de uso.
 
+Para los usuarios de Plaspy, el UMKa302 ofrece un equilibrio entre tamaño compacto, diseño duradero y profundidad de datos que facilita el monitoreo en vivo, las alertas y el análisis histórico sin necesidad de hardware adicional excesivo. Si sus prioridades son conectividad resiliente, telemetría integrada del vehículo e integración sencilla en una plataforma de seguimiento, el UMKa302 es un modelo a considerar.
+
+Para obtener más información sobre Plaspy y cómo se usan los rastreadores compatibles en la plataforma visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo; verifique los detalles técnicos y las opciones actuales con el fabricante en https://glonasssoft.ru/ antes de tomar decisiones de compra.

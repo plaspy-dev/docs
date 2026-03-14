@@ -2,59 +2,60 @@
 slug: /concox/vl103d
 id: vl103d
 sidebar_label: VL103D
+title: Concox - VL103D
 sidebar_class_name: menu_item_tracker
+description: Compact Concox VL103D LTE GNSS vehicle tracker for discreet motorcycle car and light commercial installation compatible with Plaspy
+keywords:
+  - Concox VL103D
+  - VL103D tracker
+  - VL103D Plaspy
+  - VL103D GPS tracker
+  - Concox tracker
+  - vehicle GPS tracker
+  - motorcycle GPS tracker
+  - fleet tracking
+  - anti theft tracker
+  - real time tracking
 ---
+
 # Concox - VL103D
 
 ![VL103D](./tracker.png)
 
-The VL103D is a compact LTE GNSS vehicle terminal designed for discreet installation in motorcycles, passenger cars and light commercial vehicles. Plaspy-compatible out of the box, the VL103D pairs rugged, road-ready hardware with reliable 4G LTE connectivity \(with 2G GSM fallback\) to deliver continuous real-time tracking, rapid position fixes, and the vehicle telemetry needed for recovery, anti-theft workflows and basic fleet management.
+The Concox VL103D is a compact LTE GNSS vehicle terminal designed for discreet installation in motorcycles, passenger cars and light commercial vehicles. It combines road ready hardware with cellular connectivity to provide continuous real time tracking, rapid position fixes and the vehicle telemetry commonly required for recovery, anti theft workflows and basic fleet oversight.
 
-The VL103D is engineered for demanding automotive environments: IP66 dust/water resistance, a wide 9–90 VDC input range, an industrial 270 mAh backup battery and integrated motion sensors make it a practical GPS tracker for stolen vehicle recovery, driver behavior monitoring and remote immobilization when integrated through the Plaspy platform.
+As a Plaspy compatible device out of the box, the VL103D can stream GNSS positions and vehicle telemetry directly into Plaspy for live maps, alerts and historic route playback. That native compatibility makes the device a practical choice for operators who want a compact, rugged tracker that integrates with Plaspy for monitoring and operational workflows.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker — integrates GNSS position and vehicle telemetry into Plaspy for real-time tracking and alerts.
-- Reliable cellular connectivity — LTE Cat 1 with GSM \(E-GSM900/DCS1800\) fallback for broad network coverage and continuity.
-- Rugged, vehicle-ready design — IP66-rated enclosure, compact form \(92 × 40 × 20 mm\) and a wide operating voltage \(9–90 VDC\).
-- High-sensitivity GNSS — GPS + BDS + LBS with sub-2.5 m CEP accuracy and fast TTFF for prompt location fixes.
-- Vehicle integration interfaces — ACC ignition input, relay/digital output for remote cut-off \(immobilizer\), configurable SOS input and 0–5 V ADC for analog sensors.
-- On-board motion intelligence — 3-axis accelerometer enables driving behaviour telemetry \(harsh acceleration, braking, cornering\) and collision/event detection.
-- Backup power and status indicators — built-in 270 mAh Li‑Polymer backup battery and LED indicators for GNSS, cellular and power status.
+- Plaspy compatible vehicle tracker that integrates GNSS positions and telemetry into the Plaspy platform for real time visibility and alerts.
+- Compact rugged design suitable for discreet mounting on motorcycles and small vehicles with IP66 dust and water resistance.
+- Reliable cellular connectivity with LTE and 2G fallback to maintain continuity of tracking across coverage conditions.
+- Wide operating voltage range and an onboard industrial backup battery for use across diverse vehicle electrical systems.
+- Integrated motion sensing for movement detection and driving behaviour telemetry useful for recovery and safety reporting.
+- Analog input and configurable digital inputs and outputs enable basic vehicle sensor integration and remote cut off workflows.
+- Fast position fixes and high sensitivity GNSS performance to support prompt location updates and route reconstruction.
 
 ## How It Works with Plaspy
 
-When connected to Plaspy, the VL103D streams GNSS fixes and vehicle telemetry to the platform over LTE \(with GSM fallback\), enabling live maps, alerts, and historic route playback. Plaspy ingests position, speed, alarm and sensor data from the device and correlates that information with configurable rules for fleet management, anti-theft response and telematics reporting.
+When connected to Plaspy, the VL103D transmits GNSS fixes and vehicle telemetry so Plaspy can display live locations, generate alerts, and store historical data for reporting. Plaspy ingests the device data and applies configurable rules and notifications to support fleet monitoring, anti theft response, and operational reporting.
 
-- Real-time location and telemetry updates — GNSS positions are transmitted via LTE/GSM to Plaspy for continuous tracking and situational awareness.
-- Ignition and immobilizer control — ACC \(ignition\) input and relay digital output support ignition status monitoring and remote cut-off/immobilizer actions through Plaspy.
-- Analog sensor support — the 0–5 V ADC input can carry fuel or other analog sensor data into Plaspy for telemetry and fuel monitoring workflows.
-- Event and alarm reporting — movement, speeding, geo-fence entry/exit and battery detection events are reported to Plaspy for immediate alerts and automated responses.
-- Driving behaviour telemetry — accelerometer-based harsh event notifications \(acceleration, braking, cornering, collision\) feed driver scorecards and safety reports in Plaspy.
+- Continuous location updates feed Plaspy live maps and situational dashboards for fleet oversight.
+- Event reporting such as movement, geo fence triggers and battery status become alerts inside Plaspy for timely action.
+- Ignition status and remote cut off outputs can be reflected in Plaspy workflows for immobilization and recovery coordination.
+- Analog sensor inputs are available to bring vehicle sensor readings into Plaspy reports and telemetry views.
+- Accelerometer based harsh event notifications can populate driver safety reports and incident logs within Plaspy.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat 1 \(4G\) with GSM \(2G\) fallback |
-| --- | --- |
-| Bands | GSM: E‑GSM900 / DCS1800; LTE-FDD: B1 / B3 / B7 / B8 / B20 / B28; LTE-TDD: B34 / B38 / B40 |
-| Power & Battery | Wide input 9–90 VDC; built-in 270 mAh industrial Li‑Polymer backup battery |
-| Interfaces | RS485; digital input \(ACC\); configurable SOS input; digital output \(relay/remote cut-off\); 0–5 V ADC for analog sensors |
-| GNSS | GPS + BDS + LBS; sub-2.5 m CEP positioning accuracy; TTFF: avg. hot start ≤1 s; avg. cold start ≤32 s |
-| Sensors | 3-axis accelerometer for harsh event detection and collision sensing |
-| LED Indicators | GNSS \(blue\), cellular \(green\), power \(red\) |
-| Bluetooth | Not specified / no built-in BLE reported |
-| Remote Management | Not specified in device details \(check Plaspy for OTA/FOTA or configuration workflows\) |
-| Form Factor | Compact terminal for vehicle installation — 92.0 × 40.0 × 20.0 mm; weight 55 g; IP66; operating −20 °C to +70 °C |
-
-## Use Cases
-
-- Stolen vehicle recovery — reliable LTE/GSM connectivity, compact installation and remote cut-off capability help accelerate recovery and immobilization workflows when managed through Plaspy.
-- Fleet management for light commercial vehicles — real-time tracking, driver behaviour telemetry and geo-fence alerts support dispatch, route compliance and safety programs.
-- Anti-theft and remote immobilizer — relay/remote cut-off output and movement/alarms provide actionable anti-theft controls when configured in Plaspy.
-- Analog sensor telemetry \(e.g., fuel monitoring\) — the 0–5 V ADC enables integration of vehicle sensors for fuel-level monitoring or other analog signals into Plaspy reports.
-- Motorcycle and discreet installations — compact size and IP66-rated enclosure make the VL103D suited for covert mounts on motorcycles and small vehicles.
+- Stolen vehicle recovery and immobilization workflows for cars and motorcycles when monitored through Plaspy.
+- Light commercial fleet tracking where compact hardware and robust connectivity are needed for continuous visibility.
+- Driver behaviour monitoring and safety reporting using motion event data to support coaching and compliance.
+- Remote monitoring of analog vehicle sensors such as fuel level integrated into telematics reporting.
+- Discreet installations on motorcycles and small vehicles requiring a low profile IP66 rated tracker.
 
 ## Why Choose This Tracker with Plaspy
 
-Pairing the VL103D with Plaspy delivers a pragmatic balance of connectivity, accuracy and vehicle integration for operators who need dependable, commercial-grade tracking. The device’s LTE Cat 1 communications with GSM fallback and high-sensitivity GNSS ensure continuous real-time tracking, while the wide voltage range and IP66 rating simplify installation across vehicle types. On-board accelerometer telemetry, ADC input for analog sensors and a relay output for remote cut-off give fleet managers and recovery teams actionable telemetry and control. Integrated into Plaspy, the VL103D becomes part of a scalable solution for fleet management, anti-theft response, telemetry reporting and operational alerts — delivering the real-time tracking and control modern operators expect.
+The VL103D offers a pragmatic balance of compact form factor, rugged build and continuous cellular connectivity that fits many light vehicle tracking deployments. Its native compatibility with Plaspy simplifies device onboarding and brings position, event and sensor data into a single platform for operational oversight and reporting.
 
+If you are evaluating devices for recovery, basic fleet management or discreet vehicle monitoring, the VL103D paired with Plaspy provides an integrated solution for live tracking and event driven workflows. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current specifications on the manufacturer website https://www.iconcox.com/.

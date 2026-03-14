@@ -2,32 +2,61 @@
 slug: /meitrack/mt_90
 id: mt_90
 sidebar_label: MT-90
+title: Meitrack - MT-90
 sidebar_class_name: menu_item_tracker
+description: Compact personal GPS tracker with long battery life man down alarm two way audio and water resistance compatible with Plaspy
+keywords:
+  - Meitrack MT-90
+  - MT-90 V4
+  - personal GPS tracker
+  - GPS personal tracker
+  - Plaspy compatible
+  - two way audio tracker
+  - man down alarm
+  - IP65 water resistant
+  - long battery life tracker
+  - personal safety tracking
 ---
+
 # Meitrack - MT-90
 
 ![MT-90](./logo.jpg)
 
-The Meitrack MT-90\(V4\) is a personal GPS tracker that combines small size and lightweight design with a range of advanced features. Building on the success of the original MT-90, this new version offers even more functionality and convenience. One standout feature of the MT-90\(V4\) is its long-lasting battery, which can extend standby or "sleep mode" for up to 10 days. This means you can rely on the tracker for extended periods without needing to recharge.
+The Meitrack MT-90 V4 is a compact personal GPS tracker designed for lightweight, everyday use. It combines a small physical footprint with features commonly needed for personal safety and monitoring, including extended standby battery life of up to 10 days, a built in man down alarm for emergency situations, two way audio with listen in capability, and an IP65 water resistant rating. The device uses a simple two button interface to keep operation straightforward for non technical users.
 
-In addition to its impressive battery life, the MT-90\(V4\) also includes a built-in "man-down" alarm. This feature automatically sends an alert in the event of an emergency, providing peace of mind and ensuring that help can be summoned quickly when needed. The tracker also boasts a built-in microphone and speaker, enabling two-way audio communication and a listen-in feature. With only two simple buttons and no dial pad, the MT-90\(V4\) is incredibly user-friendly and easy to operate.
+As a Plaspy compatible device, the MT-90 can be integrated into a fleet and asset monitoring workflow for improved visibility and safety oversight. The tracker’s long standby life and emergency alert features make it well suited for use cases where reliable location updates and quick incident notification are important. Plaspy users can add MT-90 devices to their account to monitor location, receive alerts, view history, and include the unit in broader operational reports.
 
-The MT-90\(V4\) is not only feature-packed but also highly versatile. Its IP65 rating makes it water-resistant, allowing it to withstand exposure to water and other elements. This makes it suitable for a wide range of applications, including personal tracking, monitoring children and elderly individuals, ensuring the safety of people with autism, tracking outdoor activities, monitoring patients, keeping tabs on large pets, and even tracking workers in various industries.
+## Key Highlights
 
-With its compact size and impressive range of features, it's no wonder that the MT-90\(V4\) remains one of the top 10 GPS personal trackers on the market today. Whether you need a reliable tracker for personal use or for monitoring the safety and well-being of others, the MT-90\(V4\) is a reliable and versatile choice.
+- Small and lightweight personal GPS tracker suitable for everyday carry
+- Long standby battery life that can reach up to 10 days between charges
+- Built in man down alarm to notify caregivers or managers in emergencies
+- Two way audio and listen in feature for direct voice checks and verification
+- IP65 water resistance for use in outdoor and exposed environments
+- Simple user interface with only two buttons for ease of use
 
-### Outstanding Features:
+## How It Works with Plaspy
 
-- Long-lasting battery for extended standby time
-- Built-in "man-down" alarm for emergency situations
-- Two-way audio communication and listen-in feature
-- Water-resistant with an IP65 rating
-- User-friendly design with only two buttons
-- Ideal for personal tracking, monitoring children and elderly individuals, people with autism, outdoor activities, patients, large pets, and workers
+When connected with Plaspy, the MT-90 provides location and event information that helps teams and caregivers keep track of people and assets. Plaspy can ingest the device’s updates and present them in maps, timelines, and alert streams to support monitoring and response.
 
-### Technical Specifications:
+- Real time location visibility and position history for operational oversight
+- Emergency event forwarding for man down alerts and other triggered alarms
+- Two way audio events and listen in status available for situational checks
+- Battery and device condition monitoring to manage device readiness
+- Alerts for GPS antenna cut and external power cut as device status events
+- History reporting and export for incident review and compliance records
 
-- Time and distance interval report
-- Mileage, alarm, history, speed, parking, sensor
-- GPS antenna cut and external power cut
+## Typical Use Cases
 
+- Personal safety monitoring for children, elderly people, or vulnerable adults
+- Workers who operate alone or in remote locations where emergency alerts are needed
+- Monitoring of patients or individuals with special needs for timely assistance
+- Outdoor activity tracking where water resistance and long battery life are valuable
+- Tracking larger pets or companion animals during outings or in rural areas
+- Short term deployments where simplicity and compact form factor are priorities
+
+## Why Choose This Tracker with Plaspy
+
+The MT-90 is a practical choice for organizations and individuals who need a discreet, easy to use personal tracker that integrates into a broader monitoring platform. Its combination of long standby life, incident alerting, and audio capability can reduce the operational overhead of check ins and improve response times when an event occurs. Plaspy adds value by aggregating MT-90 data into a single interface for visualization, alerting, and reporting.
+
+If you want to evaluate the MT-90 for your Plaspy deployment, consider how the device’s battery life, emergency alerts, and ruggedness match your monitoring needs. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications and availability can change over time, so verify current details and full technical documentation with the manufacturer at https://www.meitrack.com/

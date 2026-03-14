@@ -2,62 +2,62 @@
 slug: /topshine/mt210
 id: mt210
 sidebar_label: MT210
+title: TopShine - MT210
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto para vehículos compatible con Plaspy con SIM dual geocercas inmovilizador y batería de respaldo
+keywords:
+  - TopShine MT210
+  - rastreador MT210
+  - rastreador TopShine
+  - MT210 Plaspy
+  - rastreador GPS para vehículos
+  - seguimiento de flotas
+  - GPS con SIM dual
+  - inmovilizador GPS
+  - rastreador con geocerca
+  - rastreador con batería de respaldo
 ---
+
 # TopShine - MT210
 
 ![MT210](./tracker.jpg)
 
-El MT210 Multifunction Mini Remote 2-SIM GPS Tracker es un rastreador compacto de grado vehicular, diseñado para una conectividad fiable y continua y para un rastreo en tiempo real compatible con Plaspy. Pensado para instalación oculta en automóviles, motocicletas y flotas comerciales, el MT210 combina componentes de grado industrial y módulos GSM certificados quad-band con un receptor GNSS sensible para entregar datos de posición precisos, alertas de geocerca y telemetría de motor/encendido en la plataforma web y móvil de Plaspy.
+El MT210 es un rastreador GPS compacto de calidad vehicular diseñado para mantener conectividad continua y una instalación discreta en automóviles, motocicletas y flotas comerciales. Integra componentes industriales, conectividad GSM cuatribanda y un receptor GNSS sensible para ofrecer reportes de posición fiables, alertas por geocerca y telemetría de encendido. La unidad está pensada para máxima disponibilidad gracias a la conmutación entre SIMs, reportes por SMS y GPRS, batería de respaldo integrada y un amplio rango de entrada de corriente continua apto para despliegues en flotas mixtas.
 
-Con conmutación Dual-SIM, informes por SMS/GPRS, una batería de respaldo integrada de 650 mAh y un amplio rango de entrada DC de 9–36 V, el MT210 admite gestión de flotas, anti-robo y flujos de telemetría donde la disponibilidad y la resiliencia son importantes. Su formato compacto, diseño impermeable y el accesorio opcional de inmovilizador basado en relé y SOS lo convierten en un rastreador versátil, compatible con Plaspy, para despliegues mixtos de vehículos y seguridad de equipos.
+Como dispositivo compatible con Plaspy, el MT210 envía actualizaciones de ubicación en tiempo real y datos de eventos a la plataforma web y móvil de Plaspy para monitoreo en vivo y reproducción histórica. Su soporte para funciones como alertas por geocerca, estado de ignición y opciones de inmovilizador por relé o accesorios SOS lo convierte en una elección práctica para gestores de flota y flujos de trabajo de seguridad vehicular que usan Plaspy para visibilidad, alertas e informes.
 
-## Principales características
+## Características destacadas
 
-- Compatible con Plaspy: envía GPS y telemetría en tiempo real a través de GPRS o SMS directamente a Plaspy para monitorización en vivo y alertas.
-- Conmutación Dual-SIM fiable: conmutación automática o manual de la SIM garantiza conectividad continua entre operadores para un rastreo ininterrumpido.
-- Telemetría del vehículo: detección ACC \(encendido\), alarmas de exceso de velocidad, alertas de geocerca y alarmas de corte de energía externa para la gestión de flotas y protección anti-robo.
-- Inmovilizador y SOS opcionales: salida configurable por relé para corte remoto del motor \(inmovilizador\) y un botón SOS para alertas y llamadas de emergencia.
-- Construcción robusta, de grado vehicular: componentes industriales, módulos GSM certificados y un amplio rango de temperatura de funcionamiento \(-20°C a 75°C\) para entornos exigentes.
-- Instalación compacta y discreta: huella reducida \(80×58×22 mm\) y diseño impermeable que permiten un montaje discreto en coches y motocicletas.
-- Energía de respaldo y estado mediante LED: batería recargable de 650 mAh para operación ante pérdidas de energía temporales, además de indicadores LED de GPS/GSM para facilitar el diagnóstico.
+- Seguimiento y telemetría en tiempo real compatible con Plaspy vía SMS o GPRS para mapas en vivo y notificaciones.
+- Conmutación entre dos SIM para mejorar la disponibilidad celular y garantizar reportes continuos.
+- Telemetría vehicular que incluye estado de encendido, alertas por geocerca y notificaciones por pérdida de alimentación.
+- Soporte opcional de inmovilizador por relé y botón de pánico SOS para flujos de trabajo de antirrobo y emergencias.
+- Batería recargable de respaldo integrada y amplio rango de tensión de entrada para mantener la operación durante cortes de energía.
+- Carcasa compacta y resistente al agua adecuada para montaje oculto en autos y motocicletas.
+- Construcción robusta de grado vehicular diseñada para un amplio rango de temperatura y uso en flotas.
 
 ## Cómo funciona con Plaspy
 
-El MT210 se integra con Plaspy utilizando protocolos GPRS o SMS estándar para entregar fijaciones de posición, eventos de estado y mensajes de alarma. Plaspy ingiere el flujo de datos del dispositivo para proporcionar rastreo en tiempo real, reproducción histórica, alertas configurables de geocerca y overspeed, y notificaciones móviles por push/SMS. Cuando esté disponible, Plaspy también puede activar comandos remotos \(por ejemplo, activar el relé para inmovilizar un vehículo\) y agregar telemetría para informes de flotas.
+El MT210 entrega fijaciones de posición, eventos de estado y mensajes de alarma a Plaspy utilizando mecanismos estándar de reporte de dispositivos, de modo que Plaspy puede ingerir y mostrar los datos en tiempo real. Una vez conectado, Plaspy proporciona visualización en mapas, alertas configurables e informes que aprovechan la telemetría del MT210 para apoyar la supervisión operativa y la respuesta a incidentes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía GPRS o SMS para rastreo en vivo en los mapas de Plaspy.
-- Estado del motor/encendido \(ACC\) y alarmas de corte de energía reportadas a Plaspy para notificaciones inmediatas.
-- Alertas de geocerca y de exceso de velocidad reenviadas a Plaspy para notificaciones automáticas y registros de eventos.
-- Soporte de inmovilizador remoto \(relé\) cuando está configurado — Plaspy puede enviar comandos para inmovilizar/desbloquear donde esté habilitado.
-- Botón SOS opcional y micrófono a bordo para flujos de trabajo de llamadas/alertas de emergencia a través de Plaspy.
+- Ubicación y telemetría en tiempo real visibles en los mapas de Plaspy para monitoreo activo de la flota.
+- Eventos de encendido y pérdida de alimentación externa enviados a Plaspy para notificación y registro inmediato.
+- Alertas por geocerca y exceso de velocidad reportadas a Plaspy para alertas automáticas e historial de eventos.
+- Control remoto del inmovilizador cuando la salida por relé está configurada y permitido por la política local.
+- Eventos del botón de pánico SOS y alertas de emergencia encaminados a las notificaciones y flujos de incidentes de Plaspy.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | Informes por GPRS/SMS; Dual-SIM con conmutación automática/manual |
-| --- | --- |
-| Bandas | Quad-band GSM 850 / 900 / 1800 / 1900 MHz |
-| Energía y Batería | Entrada DC +9V ~ +36V; Batería de respaldo recargable integrada de 650 mAh |
-| Interfaces | 2 entradas digitales \(p. ej., ACC\), 1 salida configurable \(relé para corte remoto del motor opcional\), 1 puerto USB; incluye arnés de cables y un relé |
-| GNSS | Sensibilidad del receptor GPS -159 dB; posicionamiento bidireccional con respaldo en torres celulares cuando la señal GPS es débil |
-| Bluetooth | No se indica BLE integrado \(la integración de sensores BLE externos es posible a través de Plaspy con hardware compatible\) |
-| Gestión remota | Acceso gratuito de por vida a la plataforma de tracking basada en web y a la app Android \(configuración vía USB\) |
-| Factor de forma | 80 × 58 × 22 mm; aproximadamente 95 g; a prueba de agua para uso en vehículos |
-| Ambiental | Temperatura de operación -20°C ~ 75°C; humedad 5%–95% sin condensación; altitud de hasta 18,000 m |
-| Rendimiento | Arranque en frío ≈42 s; arranque en caliente ≈1 s; indicadores LED GPS/GSM |
-| Certificaciones y garantía | Certificado CE, FCC, RoHS; garantía de 2 años |
-
-## Casos de uso
-
-- Gestión de flotas: rastrea vehículos en tiempo real, monitoriza el estado de encendido, aplica políticas de velocidad y recibe incumplimientos de geocerca a través de los paneles de control de Plaspy.
-- Anti-robo e inmovilización: usa el relé opcional como inmovilizador y recibe alertas de corte de energía o SOS para reducir el riesgo de robo y acelerar la recuperación.
-- Rastreo de vehículos personales y motocicletas: instalación oculta y tamaño compacto permiten un monitoreo discreto para seguridad familiar o personal.
-- Seguridad de equipos y activos: monitorea equipos fuera de carretera o remolques para movimiento, pérdida de energía y ubicación con alertas y registros históricos de Plaspy.
-- Respuesta ante emergencias: botón SOS y micrófono opcional para alertas rápidas y conciencia situacional cuando se combina con las notificaciones de Plaspy.
+- Gestión de flotas de automóviles, furgonetas y flotas mixtas que requieren seguimiento continuo y alertas por eventos.
+- Flujos de trabajo de antirrobo y recuperación utilizando soporte de inmovilizador y detección de corte de alimentación.
+- Seguimiento de vehículos personales y motocicletas donde la instalación discreta y la batería de respaldo son importantes.
+- Monitoreo de seguridad de equipos y semirremolques para detectar movimiento, conservar historial de ubicaciones y enviar alertas.
+- Respuesta a emergencias y seguridad del conductor mediante alertas SOS y notificaciones rápidas a través de Plaspy.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El MT210 es una opción práctica para usuarios de Plaspy que requieren rastreo de vehículos y telemetría confiables y siempre activos, sin instalaciones complejas. La conmutación Dual-SIM reduce el tiempo de inactividad en las redes celulares, mientras que el amplio rango de voltaje y la batería de respaldo hacen que el dispositivo sea adecuado para flotas de motocicletas, automóviles y camiones pesados. Cuando se combina con Plaspy, el MT210 ofrece una pila completa de telemetría: GPS en tiempo real, estado de ACC/encendido, alertas de geocerca y de exceso de velocidad, y control remoto del inmovilizador; todo ello se entrega a una aplicación web y a un cliente Android para una supervisión de flota sencilla.
+El MT210 es una opción práctica para organizaciones que necesitan seguimiento vehicular fiable y permanente combinado con las capacidades de monitoreo e informes de Plaspy. Su confiabilidad con SIM dual, la batería de respaldo y la amplia tolerancia de voltaje lo hacen adaptable a distintos tipos de vehículos, mientras que las opciones de accesorios como inmovilizadores por relé y botones SOS amplían su utilidad para seguridad y emergencias.
 
-Más allá del seguimiento básico, el MT210 admite expansión de accesorios \(botón SOS, relé, sensores de choque y RFID\) y ofrece acceso gratuito de por vida a una plataforma probada para informes y alertas de flotas. Para empresas que requieren pedidos flexibles y muestras rápidas, el proveedor admite MOQ pequeños \(1 conjunto\), plazos de muestra rápidos \(1–3 días\) y cumplimiento a gran escala \(3–10 días\), ayudándole a probar y escalar despliegues compatibles con Plaspy de forma rápida y fiable.
+Emparejado con Plaspy, el MT210 ofrece una pila de telemetría simple para seguimiento en tiempo real, alertas basadas en eventos y análisis histórico sin complejidad innecesaria. El dispositivo es adecuado tanto para pilotos como para despliegues a escala, donde la resiliencia, la instalación discreta y la visibilidad operativa clara son prioridades.
 
+Para más detalles sobre Plaspy y las capacidades de la plataforma puede obtener más información en el sitio web de Plaspy https://www.plaspy.com. Es posible que las especificaciones del producto, la disponibilidad y los detalles del fabricante cambien con el tiempo, por lo que le recomendamos verificar las especificaciones actuales y las opciones de accesorios en el sitio del fabricante https://www.gztopshine.com/.

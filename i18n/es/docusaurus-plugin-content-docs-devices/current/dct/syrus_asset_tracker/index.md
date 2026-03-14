@@ -2,59 +2,62 @@
 slug: /dct/syrus_asset_tracker
 id: syrus_asset_tracker
 sidebar_label: Syrus Asset Tracker
+title: DCT - Syrus Asset Tracker
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS robusto e impermeable para monitoreo prolongado de activos sin energía, compatible con Plaspy para flotas y gestión de activos
+keywords:
+  - DCT Syrus Asset Tracker
+  - Syrus Asset Tracker
+  - rastreador DCT
+  - rastreador GPS para activos
+  - compatible con Plaspy
+  - rastreo de flotas
+  - monitoreo de activos
+  - rastreador para remolques
+  - rastreador para contenedores
+  - rastreador 4G para activos
 ---
+
 # DCT - Syrus Asset Tracker
 
 ![Syrus Asset Tracker](./tracker.png)
 
-El Syrus Asset Tracker es un rastreador GPS robusto e impermeable, diseñado para el monitoreo a largo plazo de activos sin alimentación y expuestos. Pensado para entornos exteriores adversos, este dispositivo compatible con Plaspy ofrece reportes de ubicación confiables y de bajo mantenimiento para contenedores, remolques, equipos de construcción y otros activos fuera de la red, donde la vida útil de la batería excepcionalmente larga y un reporte celular seguro son esenciales.
+El Syrus Asset Tracker es un rastreador GPS robusto e impermeable diseñado para el monitoreo prolongado de activos no alimentados y expuestos. Está concebido para entornos exteriores exigentes y ofrece reportes de ubicación fiables y de bajo mantenimiento para contenedores, remolques, equipos de construcción y otros activos fuera de la red donde la larga autonomía y la comunicación celular consistente son esenciales.
 
-Disponible en variantes 3G y 4G \(3G Item #1204-07 — descontinuado; 4G Item #S4GBW-3000; 4G Temp Tracker Item #S4GTEMP-3000\), el Syrus Asset Tracker se integra con Plaspy para proporcionar seguimiento en tiempo real, cadencia de telemetría configurable y alertas de Movimiento No Autorizado basadas en movimiento. Su carcasa compacta y a prueba de intemperie y sus opciones de montaje versátiles lo convierten en un rastreador GPS ideal para la gestión de flotas e implementaciones de IoT industrial que requieren intervención mínima y una autonomía confiable y prolongada.
+Como dispositivo compatible con Plaspy, el Syrus Asset Tracker se integra con la plataforma para ofrecer visibilidad de ubicación en tiempo real, cadencias de telemetría configurables y alertas por movimiento no autorizado. Su carcasa compacta y resistente a la intemperie, junto con opciones de montaje flexibles, lo convierten en una elección práctica para la gestión de flotas y despliegues industriales de IoT que requieren intervención mínima y reportes constantes durante largos periodos.
 
-## Key Highlights
+## Lo más destacado
 
-- Rastreador GPS compatible con Plaspy, optimizado para el monitoreo a largo plazo de activos y la integración de la gestión de flotas.
-- Carcasa robusta e impermeable y opciones de montaje versátiles para uso al aire libre expuesto.
-- Variantes celulares múltiples — 3G \(descontinuado\) y 4G — para adaptar a los requisitos de implementación.
-- Vida de batería extremadamente larga con conmutación de modos de reporte por aire para equilibrar la duración de la batería y la granularidad del seguimiento.
-- Sensor de movimiento incorporado \(acelerómetro\) para alertas inmediatas de Movimiento No Autorizado y reporte basado en eventos.
-- Configuración rápida Place ’n Trace para comenzar a reportar tan pronto como la unidad se instala en un activo.
-- Variant opcional con capacidad de temperatura \(4G Temp Tracker\) para el monitoreo del estado del activo durante el tránsito o almacenamiento.
+- Rastreador GPS compatible con Plaspy, optimizado para monitoreo prolongado de activos e integración con gestión de flotas
+- Carcasa resistente e impermeable y opciones de montaje versátiles para uso exterior expuesto
+- Variantes celulares múltiples, incluyendo opción 3G heredada y modelos 4G para adaptar a las necesidades de despliegue
+- Autonomía extremadamente prolongada gracias al cambio de modos de reporte que equilibra duración de batería y granularidad del seguimiento
+- Sensor de movimiento integrado para alertas por desplazamiento no autorizado y reportes basados en eventos
+- Aprovisionamiento rápido Place 'n Trace para incorporación veloz de activos en Plaspy
+- Variante opcional 4G Temp Tracker con capacidad de temperatura para monitoreo de condiciones del activo
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se combina con Plaspy, el Syrus Asset Tracker se convierte en una fuente sencilla y de bajo mantenimiento de telemetría de ubicación y movimiento. El dispositivo envía posiciones GPS y eventos de movimiento a través de redes celulares a Plaspy, donde los operadores pueden ver ubicaciones en tiempo real, configurar alertas y generar informes históricos. La gestión remota desde Plaspy permite conmutar entre intervalos de localización poco frecuentes e intervalos de seguimiento frecuentes para conservar la vida de la batería, manteniendo el acceso al seguimiento en tiempo real cuando sea necesario.
+Al integrarse con Plaspy, el Syrus Asset Tracker proporciona telemetría de ubicación y movimiento de bajo mantenimiento y persistente. El dispositivo envía posiciones y eventos de movimiento mediante enlaces celulares a Plaspy, donde los operadores pueden ver ubicaciones en vivo, configurar alertas y analizar movimientos históricos. La configuración remota permite al equipo priorizar la duración de la batería o la frecuencia de seguimiento según cambien las necesidades operativas.
 
-- Actualizaciones de telemetría de ubicación y movimiento en tiempo real enviadas a Plaspy para mapeo e informes.
-- Alertas de Movimiento No Autorizado \(basadas en el acelerómetro\) activan notificaciones inmediatas y capturas de ubicación.
-- El conmutado de modo por aire permite a los operadores alternar entre el modo de localización de bajo consumo y el modo de seguimiento de alta frecuencia vía Plaspy.
-- La configuración Place ’n Trace habilita una provisión rápida para que los activos aparezcan en Plaspy tan pronto como se instala la unidad.
-- La variante 4G Temp Tracker proporciona datos de temperatura para su inclusión en el monitoreo de condiciones del activo en Plaspy \(donde sea aplicable\).
+- Ubicación y telemetría de movimiento en tiempo real disponibles en los mapas y paneles de Plaspy
+- Alertas por movimiento no autorizado que generan notificaciones y ofrecen instantáneas de ubicación inmediata
+- Cambio de modo por aire desde localización de baja potencia a modos de seguimiento de mayor frecuencia mediante Plaspy
+- Aprovisionamiento rápido con Place 'n Trace para que los activos aparezcan en Plaspy poco después de la instalación
+- Lecturas de temperatura de la variante 4G Temp Tracker pueden integrarse en el monitoreo de condiciones en Plaspy
 
-## Visión Técnica
+## Casos de uso típicos
 
-| Connectivity | Celular — variante 3G \(Item #1204-07, descontinuada\); variantes 4G \(Item #S4GBW-3000, Item #S4GTEMP-3000\) |
-| --- | --- |
-| Bands | Módulos celulares 3G/4G específicos de la región \(las bandas específicas no se especifican en la descripción del producto\) |
-| Power & Battery | Diseñado para una vida de batería excepcionalmente larga y autonomía prolongada para activos no alimentados; modos de reporte optimizados reducen el consumo de energía |
-| Interfaces | Acelerómetro integrado \(detección de movimiento\); configuración rápida Place ’n Trace; montaje versátil para activos expuestos |
-| GNSS | Reportes de ubicación basados en GPS \(reportes asistidos por celular a Plaspy\) |
-| Bluetooth | No se especifican sensores Bluetooth en la descripción |
-| Remote Management | Configuración vía OTA para conmutar entre modos localizar y rastrear; aprovisionamiento remoto y ajustes de perfiles de reporte |
-| Form Factor | Carcasa compacta, robusta e impermeable para despliegues al aire libre adversos y a largo plazo; variante opcional con capacidad de temperatura disponible |
+- Seguimiento a largo plazo de remolques, contenedores y equipos móviles sin alimentación vehicular
+- Gestión de activos en obras y flotas de alquiler donde se requiere seguimiento de bajo mantenimiento
+- Operaciones intermodales y gestión de patios para carga exterior y contenedores de envío
+- Monitoreo de activos sensibles a la temperatura usando la variante 4G Temp Tracker
+- Despliegues de IoT industrial que necesitan telemetría confiable alimentada por batería y alarmas basadas en eventos
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Monitoreo a largo plazo de remolques, contenedores y equipos móviles cuando no hay suministro de energía del vehículo.
-- Gestión de activos de flotas de construcción y alquiler: localizar y recuperar rápidamente los activos con dispositivos de bajo mantenimiento.
-- Gestión intermodal y de patios para mercancías de alto valor y contenedores de transporte en entornos exteriores.
-- Monitoreo de activos sensibles a la temperatura con la variante 4G Temp Tracker para la cadena de frío en tránsito o almacenamiento.
-- Implementaciones de IoT industrial que requieren telemetría confiable alimentada por batería y alarmas basadas en eventos para movimientos no autorizados.
+El Syrus Asset Tracker es una opción diseñada específicamente para organizaciones que requieren monitoreo confiable y de larga duración de activos sin alimentación. Su diseño durable e impermeable y su montaje flexible lo hacen ideal para aplicaciones industriales y de flota en exteriores, donde las visitas de mantenimiento deben minimizarse y los reportes deben permanecer constantes.
 
-## Por qué Elegir Este Rastreador con Plaspy
+Integrar el Syrus Asset Tracker con Plaspy aporta visibilidad en tiempo real, cadencias de reporte configurables y alertas basadas en eventos dentro de un flujo de trabajo unificado de gestión de flotas o activos. Para necesidades de telemetría más amplias, este rastreador puede operar en despliegues Plaspy junto con rastreadores instalados en vehículos y gateways de sensores compatibles para ampliar el monitoreo donde se requiera.
 
-El Syrus Asset Tracker es un rastreador GPS compatible con Plaspy, diseñado a medida para organizaciones que necesitan un monitoreo confiable y de larga duración de activos sin alimentación. Su diseño impermeable, robusto y sus opciones de montaje flexibles lo hacen adecuado para la gestión de flotas al aire libre y entornos industriales donde las visitas de mantenimiento deben minimizarse. La integración con Plaspy proporciona seguimiento en tiempo real, cadencia de telemetría configurable y alertas basadas en eventos, de modo que los operadores puedan reaccionar con rapidez ante movimientos no autorizados, mientras se conserva la vida de la batería durante el monitoreo rutinario.
-
-Para operaciones que requieren telemetría integral de vehículos, como encendido, control de inmovilizador o monitorización de combustible, el Syrus Asset Tracker se integra bien dentro de una implementación más amplia de Plaspy junto con rastreadores instalados en los vehículos que exponen esas entradas. Asimismo, cuando se necesita sensado externo, este dispositivo puede emplearse junto con gateways BLE compatibles con Plaspy u otros dispositivos periféricos para ampliar las capacidades de telemetría. Elegir el Syrus Asset Tracker para Plaspy significa optar por un rastreador GPS de bajo mantenimiento y resistente que prioriza una larga autonomía, reportes confiables y una fácil integración en flujos de trabajo de gestión de flotas en tiempo real.
-
+Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, disponibilidad y datos del fabricante pueden cambiar con el tiempo; por favor verifique la información técnica y los detalles de compra actuales en el sitio oficial del fabricante https://www.digitalcomtech.com/

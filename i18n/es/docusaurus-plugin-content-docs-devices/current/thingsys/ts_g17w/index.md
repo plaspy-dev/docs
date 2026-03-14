@@ -2,59 +2,60 @@
 slug: /thingsys/ts_g17w
 id: ts_g17w
 sidebar_label: TS-G17W
+title: ThingSys - TS-G17W
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G IP67 compacto para vehículos compatible con Plaspy para seguimiento en tiempo real y alertas antirrobo
+keywords:
+  - ThingSys TS-G17W
+  - TS-G17W
+  - Rastreador ThingSys
+  - Compatible con Plaspy
+  - Rastreador GPS para vehículo
+  - Rastreador GPS IP67
+  - Rastreador GPS 4G
+  - Seguimiento de flotas
+  - Rastreador antirrobo
+  - Rastreo en tiempo real
 ---
+
 # ThingSys - TS-G17W
 
 ![TS-G17W](./tracker.jpg)
 
-El TS-G17W es un rastreador GPS para vehículos compacto, a prueba de agua IP67, diseñado para un seguimiento confiable en tiempo real en entornos exigentes. Pensado para despliegue mundial con 4G LTE‑FDD y respaldo 2G GSM \(dependiendo de la banda en el país\), el TS-G17W ofrece conectividad estable para la gestión de flotas, protección contra el robo y telemetría remota. Su pequeño factor de forma y su carcasa robusta lo hacen ideal para instalación discreta en automóviles, camiones, autobuses y otros activos donde la durabilidad y la protección contra el clima son esenciales.
+El TS-G17W es un rastreador GPS para vehículos, compacto y con protección IP67, diseñado para ofrecer seguimiento en tiempo real confiable en entornos exigentes. Preparado para despliegues globales con 4G LTE‑FDD y conmutación a 2G GSM cuando aplica, el equipo está orientado a la gestión de flotas, protección antirrobo y casos de telemetría remota. Su reducido tamaño y carcasa robusta lo hacen adecuado para instalaciones discretas en automóviles, camiones, autobuses y activos expuestos que requieren protección contra la intemperie y rendimiento duradero.
 
-El TS-G17W es compatible con Plaspy y se integra sin problemas en flujos de trabajo de monitoreo basados en Plaspy para seguimiento en vivo, alertas y comandos remotos. Con un chipset GNSS de alta sensibilidad 7670SA \(el chipset puede variar según la banda\), una precisión típica de posicionamiento de aproximadamente 5 metros y un excelente rendimiento en señales débiles, el dispositivo admite informes de ubicación precisos, tiempos de adquisición rápida \(TTFF\) y reporte continuo durante breves interrupciones de la energía gracias a una batería de respaldo Li‑ion de 3.7 V integrada.
+Como dispositivo compatible con Plaspy, el TS-G17W se integra en los flujos de monitoreo para proporcionar ubicación en vivo, notificación de alarmas y capacidad de comandos remotos. Gracias a un chipset GNSS de alta sensibilidad y una batería de respaldo integrada para breves interrupciones de energía, el rastreador aporta los datos continuos de ubicación y eventos que Plaspy utiliza en paneles, geocercas, alertas e informes históricos.
 
-## Puntos Clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real sin fisuras e integración con la gestión de flotas.
-- 4G LTE‑FDD con respaldo 2G GSM \(la compatibilidad de bandas depende de la región\) para conectividad mundial.
-- GNSS de alta sensibilidad \(7670SA, según la banda\) con precisión de ~5 m y sensibilidad de -159 dBm.
-- E/S orientadas al vehículo: detección de encendido ACC y relé externo opcional para corte remoto \(control tipo inmovilizador\).
-- Clasificación IP67 a prueba de agua y amplia tolerancia de voltaje \(9–80 V\): diseñada para entornos exigentes y diversos sistemas eléctricos de vehículos.
-- Bajo consumo de energía y TTFF rápido para tiempos de adquisición breves: arranque frío 35–80 s, arranque tibio ~35 s, arranque caliente ~1 s.
-- Varios tipos de alertas \(exceso de velocidad, vibración, reglas configurables\) además de sondeo por SMS y modos de traza GPRS para telemetría flexible.
+- Compatible con Plaspy para una integración sencilla en flujos de monitoreo en tiempo real y gestión de flotas.
+- 4G LTE con retroceso a 2G GSM para conectividad amplia según las bandas regionales.
+- GNSS de alta sensibilidad con precisión típica de posicionamiento alrededor de 5 metros y buen rendimiento en señales débiles.
+- Entradas orientadas a vehículo, incluida detección de ignición y relé externo opcional para control tipo inmovilizador.
+- Clasificación IP67 y amplia tolerancia de voltaje, adecuado para entornos duros y sistemas eléctricos diversos.
+- Batería de respaldo incorporada para permitir continuidad de reportes durante cortes cortos de energía y consumo generalmente bajo.
+- Soporte para alertas configurables como exceso de velocidad y vibración, alimentando reglas automatizadas en Plaspy.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se combina con Plaspy, el TS-G17W se convierte en una fuente de datos llave en mano para ubicación en tiempo real, alarmas y telemetría básica del vehículo. Plaspy ingiere los informes GPRS o SMS del dispositivo y los presenta como puntos de ubicación en vivo, notificaciones de alertas y trayectos históricos. La integración es sencilla: el protocolo de servidor del rastreador y los modos de traza se alinean con los métodos de ingestión comunes de Plaspy, lo que facilita la incorporación rápida de vehículos a paneles, geocercas y reportes automatizados.
+Cuando se integra con Plaspy, el TS-G17W actúa como una fuente de datos fiable para ubicación en vivo, alarmas y telemetría básica del vehículo. Plaspy procesa los reportes del dispositivo y los presenta como puntos en tiempo real, notificaciones de alerta y trayectorias históricas para que los operadores puedan supervisar flotas y responder rápidamente a eventos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy vía GPRS \(o consultadas mediante SMS cuando la cobertura de datos es limitada\).
-- Detección de encendido \(ACC\) y eventos de alarma \(exceso de velocidad, vibración\) reportados a Plaspy para reglas y alertas automatizadas.
-- Soporte de telemetría adecuado para paneles de gestión de flotas y flujos de trabajo como la reproducción de rutas y datos básicos de sensores.
-- Capacidad de inmovilizador remoto mediante un relé externo opcional \(comandos de corte enviados a través de Plaspy para recuperación ante robo\).
-- Plaspy puede correlacionar los datos del TS-G17W con fuentes de sensores adicionales \(sistemas de monitoreo de combustible, sensores/beacons Bluetooth gestionados por la plataforma\) para proporcionar una visión unificada de la salud del vehículo y las condiciones de la carga.
+- Actualizaciones de ubicación en tiempo real y telemetría que alimentan las vistas de mapa y el historial de posiciones en Plaspy.
+- Detección de ignición y eventos de alarma como exceso de velocidad o vibración reportados a Plaspy para alertas y flujos de trabajo automatizados.
+- Telemetría y estados usados en los paneles de Plaspy para reproducción de rutas, resúmenes de viajes y correlación básica de sensores.
+- Comandos remotos tipo inmovilizador enviados vía Plaspy cuando se instala un relé externo en el dispositivo.
+- Modos de reporte flexibles que permiten a Plaspy conciliar datos durante coberturas limitadas usando enfoques alternativos de trazado o sondeo.
 
-## Resumen Técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE‑FDD con respaldo 2G GSM \(el soporte depende de la banda en el país\) |
-| --- | --- |
-| Bandas | Bandas: dependientes del país/operador — LTE‑FDD como principal con respaldo 2G cuando aplica |
-| Alimentación y Batería | Entrada de voltaje 9–80 V; batería de respaldo Li‑ion de 3.7 V integrada para reportar durante breves pérdidas de energía |
-| Interfaces | Detección de encendido ACC; soporte para relé externo opcional para habilitar corte remoto \(capacidad de inmovilizador remoto\) |
-| GNSS | Chipset GPS 7670SA \(puede variar según la banda\); precisión típica ~5 m; sensibilidad hasta -159 dBm; TTFF: frío 35–80 s, tibio ~35 s, caliente ~1 s |
-| Bluetooth | No se reporta Bluetooth integrado; la correlación a nivel de plataforma con sensores/beacons Bluetooth es compatible con Plaspy si se utiliza una pasarela externa |
-| Gestión Remota | Modo de traza GPRS y sondeo por SMS soportados; comandos y alertas remotos compatibles con la gestión en el servidor \(FOTA no especificado\) |
-| Factor de Forma y Durabilidad | Dimensiones compactas 90 × 33 × 15 mm; peso 67 g; IP67 a prueba de agua; operación -20°C a +70°C; almacenamiento -40°C a +85°C; humedad 5%–95% sin condensación |
+- Gestión de flotas con seguimiento en vivo de vehículos, monitoreo de rutas y notificaciones de eventos de conductor a través de Plaspy.
+- Flujos de trabajo de protección antirrobo y recuperación de vehículos mediante reportes de alarma y corte remoto opcional gestionados por Plaspy.
+- Monitoreo de autos de alquiler para estado de ignición, historial de ubicaciones e instalación discreta y resistente.
+- Logística y rastreo de activos como remolques, unidades refrigeradas u otros equipos expuestos que requieren protección IP67.
+- Operaciones remotas o con baja cobertura donde modos de reporte flexibles y sondeos por SMS pueden complementar la telemetría GPRS.
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas: seguimiento en tiempo real de vehículos, monitorización de rutas y alertas de eventos de conductor desde los paneles de Plaspy.
-- Antirrobo y recuperación de vehículos: corte remoto mediante relé opcional y notificaciones de alarma para una respuesta rápida.
-- Monitoreo de autos de alquiler: estado de encendido, historial de ubicación e instalación a prueba de manipulación con protección impermeable.
-- Logística y rastreo de activos: rastreador robusto y compacto para remolques, unidades refrigeradas o activos expuestos que requieren protección IP67 y amplia tolerancia de voltaje.
-- Operaciones remotas donde podría ser necesario el sondeo por SMS: admite GPRS cuando está disponible y trazas/polling por SMS en zonas con cobertura limitada.
+El TS-G17W ofrece un equilibrio práctico entre robustez y funciones orientadas al vehículo que encajan en muchas implementaciones de Plaspy. Su soporte celular de alcance global con retroceso, GNSS de alta sensibilidad y tiempo rápido al primer fix ayudan a mantener reportes de posición confiables en condiciones variables. La carcasa compacta y resistente y la amplia tolerancia de voltaje lo hacen adecuado para diversas flotas y activos expuestos, mientras que la batería de respaldo integrada preserva la continuidad de reportes a corto plazo.
 
-## Por Qué Elegir Este Rastreador con Plaspy
-
-Elegir el TS-G17W para despliegues con Plaspy ofrece un equilibrio entre fiabilidad robusta y características centradas en el vehículo que importan para la gestión de flotas y casos de uso anti‑robo. Su conectividad 4G LTE con respaldo 2G, GNSS de alta sensibilidad y TTFF rápido aseguran un seguimiento en tiempo real consistente incluso en condiciones de señal desafiantes. La carcasa IP67 y la amplia entrada de voltaje lo hacen adecuado para flotas de vehículos diversas y activos expuestos, mientras la batería de respaldo integrada y el diseño de bajo consumo protegen la continuidad de los informes ante interrupciones breves de energía.
-
-Para los usuarios de Plaspy, el TS-G17W proporciona ubicaciones y eventos de alarma confiables \(encendido, exceso de velocidad, vibración\) que alimentan directamente el motor de reglas de Plaspy, la geocerca y la generación de reportes. La opción de relé externo para corte remoto ofrece una respuesta al estilo inmovilizador para la mitigación de robos, y los modos de sondeo por SMS y traza GPRS ofrecen opciones de telemetría flexibles donde la cobertura varía. En conjunto, el TS-G17W y Plaspy ofrecen una solución práctica y escalable para operadores que necesitan seguimiento en tiempo real confiable, integración de telemetría y gestión de flotas sencilla sin sacrificar robustez ni facilidad de instalación.
-
+Para los usuarios de Plaspy, el TS-G17W suministra puntos de ubicación y eventos de alarma consistentes que se integran en las reglas, geocercas e informes de Plaspy para apoyar la supervisión operativa y la mitigación del robo. Si desea saber más sobre cómo Plaspy puede trabajar con rastreadores compatibles como el TS-G17W, visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y datos del fabricante pueden cambiar con el tiempo, por lo que confirme las especificaciones actuales y la compatibilidad en el sitio del fabricante https://www.thingsys.com/.

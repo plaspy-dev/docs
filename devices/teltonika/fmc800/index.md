@@ -2,21 +2,61 @@
 slug: /teltonika/fmc800
 id: fmc800
 sidebar_label: FMC800
+title: Teltonika - FMC800
 sidebar_class_name: menu_item_tracker
+description: Compact plug and play vehicle tracker with LTE connectivity crash trace and Bluetooth LE sensor support compatible with Plaspy
+keywords:
+  - Teltonika FMC800
+  - FMC800 tracker
+  - FMC800 Plaspy compatible
+  - Teltonika vehicle tracker
+  - FMC800 fleet tracking
+  - FMC800 crash trace
+  - FMC800 Bluetooth LE
+  - FMC800 OBD II tracker
+  - FMC800 GNSS
+  - FMC800 LTE tracker
 ---
+
 # Teltonika - FMC800
 
 ![FMC800](./logo..png)
 
-The Teltonika FMC800 is a versatile GPS tracker designed for fleet management and vehicle tracking. With its 4G LTE Cat 1 connectivity, this plug-and-play tracker ensures reliable network coverage for your fleet, with fallback to 2G for guaranteed future-proof support. Installation is effortless - simply plug the device into the OBD-II port and start tracking.
+The Teltonika FMC800 is a compact plug and play GPS tracker designed for fleet management and vehicle tracking. Intended for easy installation into a vehicle OBD II port, the FMC800 provides continuous positioning via modern cellular connectivity and multi GNSS support. It is built to deliver accurate location data and detailed crash trace information, while remaining unobtrusive in size and operation.
 
-One of the standout features of the FMC800 is its accurate and detailed crash trace data. It is equipped with a 3-axis built-in accelerometer that detects crashes and provides precise crash trace data. The parameters of the crash detection functionality can be fully configured through the software, ensuring accurate and reliable data.
+As a device compatible with Plaspy, the FMC800 can be integrated into fleet monitoring workflows to provide real time visibility and event data alongside other assets. Its crash detection, internal backup power, and Bluetooth LE support for auxiliary sensors extend the kinds of operational insights available in Plaspy without requiring complex hardware integration.
 
-The FMC800 also offers extended product usage scenarios with its Bluetooth LE-based wireless connection. This allows for the connection of external devices such as Low Energy beacons and sensors to monitor temperature, humidity, magnet detection, and movement. This expands the capabilities of the tracker and provides additional insights into the condition and status of your vehicles.
+## Key Highlights
 
-In terms of specifications, the FMC800 features LTE CAT 1/GSM/GPRS/GNSS/BLUETOOTH technology and supports GPS, GLONASS, GALILEO, BEIDOU, QZSS, and AGPS for accurate positioning. It has a tracking sensitivity of -165 dBM and a position accuracy of less than 2.5 meters CEP. The tracker is powered by a 10-30 V DC input voltage range and has an internal backup battery for uninterrupted operation.
+- Plug and play installation using the vehicle diagnostic port for rapid deployment
+- 4G LTE Cat 1 connectivity with fallback for broader network coverage and future readiness
+- Built in 3 axis accelerometer providing configurable crash trace and impact detection
+- Bluetooth LE based expansion for external beacons and environmental sensors
+- Multi GNSS positioning for improved location accuracy and reliability
+- Compact form factor with internal backup battery for uninterrupted tracking
+- Built in event features such as geofence triggers towing detection and idle alerts
 
-With its compact dimensions of 67.2 x 49.6 x 25 mm and weight of 63 g, the FMC800 is designed to be unobtrusive and easy to install. It operates in a wide temperature range from -40 °C to +85 °C and has an IP41 ingress protection rating. The tracker also supports various features such as green driving, over speeding detection, jamming detection, GNSS fuel counter, excessive idling detection, unplug detection, towing detection, crash detection, auto geofence, manual geofence, and trip scenarios.
+## How It Works with Plaspy
 
-Overall, the Teltonika FMC800 is a reliable and feature-rich GPS tracker that provides accurate tracking and detailed data for fleet management and vehicle tracking applications. Its future-proof network support, effortless installation, and extended product usage scenarios make it a valuable tool for optimizing fleet operations and ensuring the safety and security of your vehicles.
+When connected to Plaspy, the FMC800 streams location and event information into the platform so you can monitor vehicles, respond to incidents, and analyze fleet performance. Plaspy collects and presents the tracker data alongside other fleet inputs to give operators unified visibility and historical reporting.
 
+- Real time location and status updates visualized on Plaspy maps and dashboards
+- Crash and impact traces forwarded to Plaspy for incident review and response workflows
+- Bluetooth LE sensor data available in Plaspy for monitoring temperature movement or other external inputs
+- Geofence and trip events generated by the device appear as alerts and timeline entries in Plaspy
+- Historical routes and activity logs used for reporting and operational analysis
+- Notifications and rules in Plaspy allow automated responses to key events reported by the tracker
+
+## Typical Use Cases
+
+- Commercial fleet vehicle tracking for route oversight and driver accountability
+- Incident detection and post event analysis using crash trace data for safety reviews
+- Asset condition monitoring with Bluetooth LE sensors for temperature or movement alerts
+- Rental or lease vehicle management where plug and play installation speeds deployment
+- Urban delivery and service vehicle monitoring requiring compact unobtrusive devices
+
+## Why Choose This Tracker with Plaspy
+
+The FMC800 is a practical choice for organizations that need a straightforward tracker with modern cellular connectivity and advanced event reporting. Its plug and play design reduces deployment time, while configurable crash detection and sensor expansion offer richer telematics data for safety and operational workflows. Using the FMC800 with Plaspy helps consolidate vehicle position, event history, and sensor inputs into a single operational view.
+
+If you are evaluating hardware for fleet tracking on Plaspy the FMC800 is a good fit when you want compact installation, crash trace capability, and the option to add external wireless sensors. For complete product specifications features and the latest firmware information please consult the manufacturer documentation. To learn more about how Plaspy integrates with devices like the FMC800 visit https://www.plaspy.com and verify current product details on the official Teltonika site https://www.teltonika-gps.com/ since specifications and availability can change over time.

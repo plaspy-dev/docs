@@ -2,61 +2,60 @@
 slug: /istartek/vt900_g
 id: vt900_g
 sidebar_label: VT900-G
+title: iStartek - VT900-G
 sidebar_class_name: menu_item_tracker
+description: Reliable vehicle GPS tracker VT900 G compatible with Plaspy for fleet tracking fuel monitoring and anti theft alerts
+keywords:
+  - iStartek VT900 G
+  - VT900-G
+  - VT900 G tracker
+  - Plaspy compatible
+  - vehicle GPS tracker
+  - fleet tracking
+  - fuel monitoring
+  - anti theft tracker
+  - OBD CANBUS support
+  - GNSS tracking
 ---
+
 # iStartek - VT900-G
 
 ![VT900-G](./tracker.jpg)
 
-The VT900-G 3G GPS tracker from VT \(model VT900-G\) is a professional-grade vehicle tracking device engineered for reliable Plaspy compatible deployment. Designed for fleet managers, rental operators, and vehicle security applications, the VT900-G combines high-sensitivity GNSS positioning with UMTS/HSDPA and GSM/GPRS cellular connectivity to deliver accurate real-time tracking, event alerts, and telemetry to Plaspy's platform, mobile apps, or SMS clients.
+The VT900-G is a professional vehicle tracker from iStartek designed for robust telematics deployments. It combines high sensitivity GNSS positioning with cellular connectivity and onboard data buffering to deliver continuous location and event data for vehicles. The device supports vehicle diagnostics inputs and multiple external sensors, making it suited to fleet monitoring, security, and operational telemetry.
 
-Built for robust vehicle telematics, the VT900-G supports OBD/CANBUS diagnostics, multiple external sensors, RFID readers via RS232, and optional ultrasonic or capacitive fuel sensors. Its internal flash memory stores coordinates during network outages so Plaspy receives continuous trip history once connectivity is restored—making this GPS tracker a practical choice for anti-theft protection, fuel monitoring, and fleet management at scale.
+As a Plaspy compatible model, the VT900-G can forward location fixes, diagnostics, and event alerts into Plaspy for real time visibility and historical reporting. Its ability to store data locally during connectivity interruptions and then upload queued records makes it a practical choice for operators who need reliable trip history and consistent reporting inside the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible for seamless integration into real-time tracking and fleet management workflows.
-- High-sensitivity GPS + Beidou positioning \(SiRF-Star IV chipset\) for typical 2.5 m position accuracy and 0.1 m/s velocity accuracy.
-- UMTS/HSDPA and GSM/GPRS cellular connectivity for broad 3G/2G coverage and reporting to server platforms, apps, or SMS.
-- Extensive I/O and peripherals: OBD/CANBUS, RS232 ports for RFID/MSR, 3 digital inputs / 2 digital outputs, and analog inputs for sensors.
-- Built-in 8MB flash memory buffers tracking data offline; 500mAh backup battery maintains operation during power interruption.
-- Supports fuel monitoring options \(capacitive and ultrasonic sensors\) and temperature sensors for cold-chain logistics.
-- More than 37 alarm/event types for driver behavior monitoring, anti-theft alerts, and safety protection.
+- Confirmed Plaspy compatibility for integration with fleet dashboards and reporting.
+- High sensitivity GNSS positioning for dependable location accuracy in vehicle use.
+- Cellular connectivity for continuous reporting and live tracking to Plaspy.
+- Onboard storage buffers location and event data when networks are unavailable.
+- Support for vehicle diagnostics and external sensors including OBD CANBUS and RS232 peripherals.
+- Multiple configurable inputs and outputs for alerting and remote control actions.
+- Designed for vehicle telematics use cases such as fuel monitoring and anti theft protection.
 
 ## How It Works with Plaspy
 
-When deployed with Plaspy, the VT900-G forwards location, telemetry, and event data to Plaspy’s servers using cellular networks. Plaspy ingests GNSS fixes, CANBUS diagnostics, and sensor readings to provide live tracking, geofencing, and standardized reports for fleet management and anti-theft monitoring. The device’s local flash memory ensures no tracking gaps: queued records are uploaded to Plaspy when the network is available again.
+When connected to cellular networks, the VT900-G transmits GNSS fixes, telemetry, and configured events to Plaspy so fleets gain live tracking and consolidated history. Plaspy ingests the device data to power maps, alerts, and reports while respecting the device buffered upload behavior when connectivity is lost.
 
-- Real-time location and telemetry updates to Plaspy via UMTS/HSDPA or GSM/GPRS.
-- Ignition, door, and alarm status through configurable digital inputs and event rules for driver behavior monitoring.
-- Fuel monitoring supported via OBD/CANBUS and optional ultrasonic or capacitive fuel sensors for accurate fuel consumption data.
-- Remote immobilizer / engine shut-off capability using digital outputs for anti-theft and fleet control actions.
-- Temperature sensor inputs for cold-chain cargo monitoring and alerts in Plaspy dashboards.
-- Buffered data upload: internal flash stores coordinates and events during network outages and syncs with Plaspy when online.
+- Live location and telemetry visible in Plaspy dashboards for operational oversight.
+- Event and alarm forwarding such as ignition, door, and security alerts for timely notifications.
+- Sensor and diagnostics data from OBD CANBUS and analog inputs available for fuel and condition monitoring.
+- Remote control capability via outputs that can be used with Plaspy event rules for fleet actions.
+- Buffered data synchronization ensures trip continuity in Plaspy after network restoration.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | UMTS / HSDPA and GSM / GPRS cellular communication \(3G/2G\) |
-| --- | --- |
-| Bands | UMTS/HSDPA and GSM/GPRS frequency bands for global cellular coverage \(specific band variants depend on model\) |
-| Power & Battery | Wide input 9V–36V \(1.5A\); internal 500mAh backup battery; typical consumption ~55 mA/h; ~30 hours power-saving mode \(≈7.5 hours normal\) |
-| Interfaces | 3 digital inputs, 2 digital outputs, 2 analog inputs, up to 3 RS232 ports \(supports RFID/MSR readers\), OBD/CANBUS |
-| GNSS | GPS + Beidou using SiRF-Star IV chipset; L1 1575.42 MHz; 20-channel all-in-view tracking; typical position accuracy ~2.5 m \(2D RMS\); velocity accuracy 0.1 m/s; sensitivity -159 dB |
-| Bluetooth | Not specified in product documentation \(device supports external wired sensors and RS232 peripherals; Bluetooth sensors are not listed\) |
-| Remote Management | Track via SMS, mobile app, or web platform; data buffered in internal flash. FOTA not specified. |
-| Memory | 8 MB internal flash for offline data storage |
-| Form Factor | Compact vehicle tracker: 65 × 61 × 26 mm; 90 g; operating -20° to 65°C; humidity 5%–95% non-condensing |
-
-## Use Cases
-
-- Fleet management and dispatch — real-time tracking, route history, and driver behavior alarms aggregated in Plaspy dashboards.
-- Anti-theft protection and remote immobilization — instant alerts plus engine shut-off via outputs for stolen vehicle response.
-- Fuel monitoring and telemetry — OBD/CANBUS and optional ultrasonic/capacitive sensor inputs to detect fuel theft and optimize consumption.
-- Cold-chain and temperature-sensitive cargo — external temperature sensors integrated through device inputs for continuous monitoring and alerts.
-- Access control and driver identification — RFID/MSR reader support via RS232 for logged access events and driver validation.
+- Fleet management and dispatch monitoring with route history and alerting.
+- Vehicle security and anti theft response with instant alerts and remote control options.
+- Fuel monitoring and theft detection using diagnostics and optional fuel sensors.
+- Cold chain or temperature sensitive transport monitoring via external sensor inputs.
+- Driver access logging and validation with RFID readers supported through RS232.
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the VT900-G as a Plaspy compatible GPS tracker delivers a balance of accuracy, durability, and integration readiness. Its SiRF-Star IV GNSS performance and support for GPS + Beidou provide dependable real-time tracking, while cellular connectivity and internal flash safeguard telemetry continuity. Built-in interfaces \(OBD/CANBUS, RS232, analog/digital I/O\) let fleets capture rich vehicle diagnostics and sensor data—fuel levels, temperature, and access events—so Plaspy can generate actionable reports and alerts.
+The VT900-G offers a practical combination of reliable GNSS performance, cellular reporting, and local buffering that aligns well with Plaspy use cases for fleet operations and vehicle security. Its support for vehicle diagnostics and multiple sensor inputs lets operators gather richer telemetry so Plaspy can deliver more actionable reporting and alerts without losing historical continuity during outages.
 
-For fleet operators and security teams focused on anti-theft measures, fuel monitoring, and scalable telemetry, the VT900-G offers a compact, vehicle-grade option that integrates cleanly with Plaspy’s real-time tracking platform. Its comprehensive event set, power resilience, and peripheral support make it well-suited to mixed-vehicle deployments that require reliable reporting and remote control features without sacrificing data integrity during network interruptions.
-
+If you want to learn more about using the VT900-G with Plaspy, visit the Plaspy website at https://www.plaspy.com to explore platform features and deployment options. Product specifications, availability, and manufacturer details can change over time, so please verify current technical information on the official manufacturer site https://istartek.com/ before purchasing or deploying hardware.

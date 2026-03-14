@@ -16,47 +16,29 @@ export default function BrandCatalog({ brand }) {
 
     return (
         <div className="brand-catalog">
-            {brandLogo && (
-                <img
-                    src={brandLogo}
-                    alt={name}
-                    className="brand-catalog-logo"
-                />
-            )}
-            <div className="brand-catalog-header">
-                <div>
-                    {brandWebsite && (
-                        <p>
-                            <strong>Website:</strong>{' '}
-                            <a href={brandWebsite} target="_blank" rel="noreferrer">
-                                {brandWebsite}
-                            </a>
-                        </p>
-                    )}
-                    <p>{brandDescription}</p>
-                </div>
-            </div>
-
-            <h2>Available Models</h2>
-
             <div className="brand-catalog-grid">
                 {trackers.map((model) => (
                     <div
                         key={model.slug}
                         className='device-card'
                     >
-                        <Link to={`./${model.slug}`}>
-                            {model.image && (
-                                <img
-                                    src={model.image}
-                                    alt={model.name}
-                                    className="device-card-image"
-                                />
-                            )}
-
-                            <h3>{model.name}</h3>
-                            {model.summary && <p>{model.summary}</p>}
-                        </Link>
+                        <div className="device-card-image-container">
+                            <Link to={`./${model.slug}`}>
+                                {model.image && (
+                                    <img
+                                        src={model.image}
+                                        alt={model.name}
+                                        className="device-card-image"
+                                    />
+                                )}
+                            </Link>
+                        </div>
+                        <div className='device-card-name'>
+                            <Link to={`./${model.slug}`}>
+                                <h3>{model.name}</h3>
+                                {model.summary && <p>{model.summary}</p>}
+                            </Link>
+                        </div>
                     </div>
                 ))}
             </div>

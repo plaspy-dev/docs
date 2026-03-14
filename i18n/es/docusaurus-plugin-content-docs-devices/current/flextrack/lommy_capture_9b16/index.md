@@ -2,65 +2,62 @@
 slug: /flextrack/lommy_capture_9b16
 id: lommy_capture_9b16
 sidebar_label: Lommy Capture 9B16
+title: Flextrack - Lommy Capture 9B16
 sidebar_class_name: menu_item_tracker
+description: Rastreador Lommy Capture 9B16 sin batería para remolques, compatible con Plaspy, seguimiento discreto en tiempo real y mínima mantención
+keywords:
+  - Flextrack Lommy Capture 9B16
+  - Rastreador Lommy Capture 9B16 GPS
+  - Rastreador Flextrack
+  - Rastreador compatible con Plaspy
+  - Rastreador para remolques
+  - Rastreador para caravanas
+  - Rastreador sin batería
+  - Rastreador con recuperación de energía
+  - Rastreador GPS discreto
+  - Seguimiento de flotas
 ---
+
 # Flextrack - Lommy Capture 9B16
 
 ![Lommy Capture 9B16](./tracker.jpg)
 
-Lommy Capture 9B16 es un rastreador GPS compacto y sin batería, diseñado para seguimiento en tiempo real discreto, compatible con Plaspy, de remolques, caravanas y otros activos remolcados. Diseñado para instalarse dentro de las carcasas de iluminación, Lommy Capture utiliza la energía extraída de los circuitos de iluminación del vehículo para proporcionar posiciones GNSS continuas y telemetría de movimiento sin una batería dedicada, lo que lo hace ideal para gestión de flotas a largo plazo y despliegues anti‑robo donde la baja necesidad de mantenimiento y la ocultación importan.
+Lommy Capture 9B16 es un rastreador GPS compacto y sin batería pensado para el seguimiento discreto y en tiempo real de remolques, caravanas y otros activos remolcados. Diseñado para alojarse dentro de equipos de iluminación, captura energía de los circuitos de luces del vehículo para mantener la transmisión de posición GNSS y telemetría de movimiento sin necesidad de una batería dedicada. Su pequeña carcasa IP65 y el embalaje resistente a manipulaciones lo hacen adecuado para despliegues de flota de largo plazo donde la ocultación y la mínima mantención son prioridades.
 
-Como rastreador compatible con Plaspy, Lommy Capture 9B16 envía datos de ubicación y actividad en formatos y a través de canales que se integran con plataformas de monitoreo y APIs. Su reporte adaptable, su robusta pila GNSS, la protección IP65 y su compacto formato permiten a los gestores de flotas e integradores añadir visibilidad fiable de remolques y rastreo a prueba de manipulación a sus soluciones impulsadas por Plaspy con un cableado e instalación mínimos.
+Como dispositivo compatible con Plaspy, Lommy Capture 9B16 transmite datos de ubicación y actividad en formatos y canales que se integran con plataformas de monitoreo y APIs utilizadas por Plaspy. Su comportamiento de reporte adaptativo, GNSS multiconstelación y el almacenamiento local permiten a los administradores de flota añadir visibilidad de remolques, alertas por movimiento y seguimiento histórico en flujos de trabajo gestionados por Plaspy, minimizando cableado y tareas de mantenimiento.
 
-## Aspectos Clave
+## Características principales
 
-- Obtención de energía sin batería a partir de los circuitos de luces traseras, freno e indicadores, para operación a largo plazo y reducción del mantenimiento.
-- Seguimiento en tiempo real y telemetría compatibles con Plaspy a través de uplink celular \(LTE Cat M1 + 2G\) utilizando UDP o SMS.
-- GNSS robusto de múltiples constelaciones \(GPS, GLONASS, GALILEO, BEIDOU, QZSS\) con soporte SBAS para un posicionamiento rápido y preciso.
-- Informes adaptativos: tan frecuentemente como cada 2 minutos cuando se carga desde las luces traseras; informes de menor frecuencia o periódicos cuando la energía es limitada.
-- Caja discreta, a prueba de manipulación IP65, diseñada para instalación dentro de alojamientos de iluminación \(54 x 44 x 19 mm, 42 g\).
-- Sensor de movimiento de 3 ejes integrado para detectar movimiento y optimizar los informes con el fin de conservar la carga almacenada.
-- Almacenamiento flash local \(2 MB\) para almacenamiento en búfer de posición/telemetría.
-- Diseñado para rangos amplios de voltaje de vehículo \(4 V a 40 V\) y temperaturas extremas \(-30 °C a +60 °C\).
+- Recuperación de energía desde los circuitos de luces traseras, freno e intermitentes para reducir la necesidad de mantenimiento.
+- Seguimiento y telemetría en tiempo real compatibles con Plaspy mediante enlace celular con conmutación a 2G y transporte por datos o SMS.
+- GNSS multiconstelación con soporte SBAS para mejorar el rendimiento de posicionamiento en entornos variados.
+- Reportes adaptativos que aumentan la frecuencia mientras se carga desde los circuitos de iluminación y conservan energía cuando la alimentación es limitada.
+- Carcasa compacta IP65, resistente a manipulaciones y dimensionada para instalación en luminarias, permitiendo una colocación discreta.
+- Sensor de movimiento de 3 ejes integrado para detectar desplazamientos y activar reportes de actividad ante intentos de robo.
+- Buffer local en memoria flash para retener informes de posición cuando no hay conectividad y reenviarlos más tarde.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Lommy Capture 9B16 se integra en entornos de monitoreo y gestión de flotas basados en Plaspy, transmitiendo fijaciones GNSS, señales de movimiento y telemetría almacenada a través de redes celulares. Los datos se envían mediante UDP o SMS y pueden consumirse por Plaspy a través de una integración estándar de API/sistemas o conectores de plataformas de marca blanca. El resultado es un seguimiento casi en tiempo real de activos remolcados, alarmas automáticas y registro histórico de rutas para análisis y generación de informes de utilización.
+Al integrarse con Plaspy, Lommy Capture 9B16 entrega posiciones GNSS, señales de actividad por movimiento y telemetría en buffer a los flujos de trabajo de Plaspy para ofrecer visibilidad en tiempo real y análisis post evento. Plaspy puede consumir los datos del dispositivo mediante métodos de integración comunes, de modo que pueda monitorear remolques junto con otros activos en una vista unificada de la flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a servidores compatibles con Plaspy \(UDP o SMS\).
-- Detección de movimiento \(sensor de acelerómetro de 3 ejes\) que activa informes adaptativos para conservar energía y mejorar la capacidad de respuesta ante robos.
-- Intervalos de reporte adaptativos: actualizaciones frecuentes mientras se está cargando desde las luces traseras, ráfagas activadas por la actividad cuando hay energía de las luces de freno/indicador, y reportes periódicos de bajo consumo cuando no hay energía externa.
-- Almacenamiento en búfer local de 2 MB garantiza que los informes de posición se retengan y envíen cuando la conectividad o las condiciones de energía lo permitan.
-- GNSS de múltiples constelaciones + SBAS y soporte de GNSS asistido para fijaciones más rápidas y posicionamiento fiable en entornos desafiantes.
+- Actualizaciones de ubicación y actividad en tiempo real se envían a endpoints compatibles con Plaspy usando transporte de datos o SMS.
+- Los eventos de detección de movimiento disparan reportes adaptativos para mejorar la capacidad de respuesta ante manipulaciones o desplazamientos.
+- Los intervalos de reporte se ajustan según la carga cosechada, de modo que Plaspy reciba actualizaciones frecuentes cuando hay energía y reportes periódicos en reposo.
+- El almacenamiento local garantiza que los datos de posición y eventos se conserven y se envíen a Plaspy cuando se restablece la conectividad.
+- Los datos del rastreador pueden utilizarse en Plaspy para alertas, historial de rutas, informes de utilización y paneles de estado de activos.
 
-## Resumen Técnico
+## Casos de uso típicos
 
-| Conectividad | LTE Cat M1 FDD y GSM cuád-band 2G \(modo de respaldo\). Transporte de datos vía UDP o SMS. |
-| --- | --- |
-| Bandas | LTE Cat M1: B3 / B8 / B20. GSM 2G: 850 / 900 / 1800 / 1900 MHz. |
-| Alimentación y Batería | Diseño sin batería que utiliza supercapacitores; energía obtenida de los circuitos de luces traseras, freno e indicadores \(opera en sistemas de 4 V a 40 V\). Informe adaptativo basado en la carga obtenida. |
-| Interfaces | Cableado recomendado: negro = masa de chasis, marrón = luces traseras, rojo = luces de freno, verde = luces de indicación. Sin batería a bordo dedicada; entrada de movimiento vía acelerómetro incorporado. |
-| GNSS | GPS, GLONASS, GALILEO, BEIDOU, QZSS; SBAS \(WAAS, EGNOS, MSAS, GAGAN\); soporte GNSS asistido; sensibilidad de rastreo de -166 dBm; 33 canales de rastreo. |
-| Bluetooth | No listado en la descripción del producto \(no se especifican sensores Bluetooth a bordo\). |
-| Almacenamiento Local | Memoria flash de 2 MB para almacenamiento en búfer de posición/telemetría. |
-| Ambiental y Cumplimiento | Recinto IP65; temperatura de operación -30 °C a +60 °C; cumple CE, RoHS y WEEE. |
-| Factor de Forma | Carcasa compacta para instalación en la lámpara — 54 x 44 x 19 mm, 42 g; antenas GNSS y LTE/GSM integradas. |
-| Notas de Instalación | Sellado recomendado de las conexiones de cables contra agua y humedad para mantener el funcionamiento a largo plazo y la garantía. |
-| Integración de Plataforma | Compatible con LommyFleet y TrackEye; admite soluciones de marca blanca y la integración API/sistemas para implementaciones habilitadas por Plaspy. |
-
-## Casos de uso
-
-- Gestión de flotas para remolques y caravanas: añade visibilidad de rastreador GPS compatible con Plaspy para monitorizar ubicación, utilización e historial de rutas sin necesidad de mantenimiento de batería.
-- Protección antirrobo para activos remolcados: instalación oculta dentro de las carcasas de las luces dificulta localizar y desinstalar el dispositivo.
-- Planificación de utilización y mantenimiento: los datos históricos de rastreo ayudan a programar servicios y optimizar el uso de activos en toda la flota.
-- Geocercas y alarmas personalizadas: activar alertas de Plaspy cuando los remolques ingresen o salgan de zonas definidas o cuando se detecte movimiento fuera de condiciones esperadas.
-- Despliegues de bajo mantenimiento donde el acceso físico frecuente para reemplazo de batería es poco práctico: la obtención de energía prolonga los intervalos de servicio.
+- Gestión de flotas para remolques y caravanas que buscan visibilidad GPS de bajo mantenimiento con instalación discreta.
+- Despliegues anti robo donde la colocación oculta dentro de luminarias reduce el riesgo de extracción.
+- Registro histórico de rutas y seguimiento de utilización para planificación de mantenimiento y optimización de activos.
+- Geocercas y alarmas por movimiento para notificar a los operadores sobre actividad inesperada en remolques.
+- Instalaciones de difícil acceso donde evitar reemplazos de batería reduce la sobrecarga operativa.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Lommy Capture 9B16 es una opción práctica cuando necesitas un rastreador GPS discreto, compatible con Plaspy, que minimiza el mantenimiento mientras ofrece un seguimiento y telemetría en tiempo real fiables. Su diseño de obtención de energía elimina la necesidad de reemplazo de baterías, reduciendo costos de ciclo de vida y tiempos de inactividad para grandes flotas de remolques o caravanas. El GNSS de múltiples constelaciones, el soporte SBAS y el GNSS asistido proporcionan posicionamiento preciso, mientras que LTE Cat M1 con respaldo 2G garantiza una amplia cobertura celular para la entrega de telemetría en paneles y alertas gestionados por Plaspy.
+Lommy Capture 9B16 es ideal para organizaciones que necesitan seguimiento confiable y de bajo perfil para remolques, sin el mantenimiento recurrente de cambios de batería. Su enfoque de recuperación de energía, combinado con reportes adaptativos y almacenamiento local, ofrece un equilibrio práctico entre visibilidad continua y operación a largo plazo, complementando las funciones de monitoreo y alerta gestionadas por Plaspy.
 
-Para integradores y gestores de flotas que requieren telemetría de vehículos más amplia, como monitorización de combustible, estado de ignición o control del inmovilizador, la posición y los datos de movimiento de Lommy Capture pueden combinarse dentro de Plaspy con otras entradas de sensores o interfaces de vehículo en su ecosistema. Aunque el dispositivo no enumera sensores Bluetooth a bordo, Plaspy puede correlacionar los datos de Lommy Capture con fuentes de telemetría externas BLE o CAN cuando estén disponibles, proporcionando una solución completa de gestión de flotas y anti‑robo.
+Para administradores de flota e integradores, Lommy Capture entrega datos discretos de posición y movimiento que pueden incorporarse en los paneles, informes y flujos de alarma de Plaspy. Aunque el dispositivo se centra en telemetría GNSS y de movimiento más que en un conjunto amplio de sensores a bordo, sus salidas son efectivas para la visibilidad de remolques y escenarios anti robo, y pueden combinarse en Plaspy con otras fuentes de datos del ecosistema de su flota.
 
-En resumen, Lommy Capture 9B16 ofrece una opción de perfil bajo y robusta para ampliar el rastreo de activos compatible con Plaspy en equipos remolcados: posicionamiento GNSS fiable, informes adaptativos basados en la energía obtenida, almacenamiento offline y una integración lista para la plataforma para el rastreo en tiempo real, la gestión de flotas y la monitorización anti‑robo.
-
+Para saber más sobre cómo Plaspy puede trabajar con rastreadores compatibles como el Lommy Capture 9B16 visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y las guías de instalación con el fabricante en https://flextrack.dk.

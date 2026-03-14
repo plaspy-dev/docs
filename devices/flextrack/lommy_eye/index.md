@@ -2,67 +2,60 @@
 slug: /flextrack/lommy_eye
 id: lommy_eye
 sidebar_label: Lommy Eye
+title: Flextrack - Lommy Eye
 sidebar_class_name: menu_item_tracker
+description: Compact battery driven GPS tracker for long term asset monitoring and discreet recovery compatible with Plaspy
+keywords:
+  - Flextrack Lommy Eye
+  - Lommy Eye GPS tracker
+  - Lommy Eye Plaspy compatible
+  - Flextrack tracker
+  - asset tracking
+  - fleet tracking
+  - battery GPS tracker
+  - RF assisted tracker
+  - trailer tracking
+  - long term monitoring
 ---
+
 # Flextrack - Lommy Eye
 
 ![Lommy Eye](./tracker.jpg)
 
-# Lommy Eye
+Lommy Eye is a compact, battery driven GPS tracker from Flextrack engineered for long term remote monitoring, discreet recovery and dependable position history. It is designed to deliver scheduled and event driven location reports and includes RF assisted recovery features to help locate assets when GNSS signals are weak. Multiple size variants and a no wiring installation approach make it suitable for a range of portable and off vehicle assets.
 
-Lommy Eye from Flextrack is a compact, battery-driven GPS tracker engineered for long-term remote monitoring, discreet recovery and dependable position history. Designed as a Plaspy compatible device, Lommy Eye pairs long battery life and multi-constellation GNSS positioning with intelligent cellular fallback and active RF recovery to give fleet managers and asset owners reliable tracking of trailers, containers, machinery and high-value portable assets.
-
-Out of the box Lommy Eye is easy to mount with no wiring required and multiple size variants to match different asset types. It sends scheduled location reports by default and can be remotely configured via UDP or SMS to increase reporting frequency or activate motion-triggered updates for near real-time tracking when movement is detected—making it a practical GPS tracker option for Plaspy users focused on fleet management, anti-theft recovery and long-term telemetry.
+As a Plaspy compatible device, Lommy Eye can transmit position and event data to the Plaspy platform for centralized visibility and operational oversight. Its combination of scheduled reporting, motion triggered updates and fallback positioning methods makes Lommy Eye a practical option for Plaspy users focused on fleet monitoring, anti theft recovery and long term telemetry of trailers, containers and high value portable equipment.
 
 ## Key Highlights
 
-- Plaspy compatible device that supports scheduled and event-driven reports for flexible real-time tracking when configured.
-- High-sensitivity multi-constellation GNSS \(GPS/GLONASS/GALILEO/BEIDOU/QZSS\) with SBAS support and -166 dBm tracking sensitivity for reliable fixes.
-- Intelligent 4G \(FDD LTE Cat M1 B3/B8/B20\) primary link with quad-band 2G fallback \(850/900/1800/1900 MHz\) to maintain connectivity across regions.
-- Active 868 MHz RF capability to assist indoor localization and physical recovery where GNSS is limited.
-- 3-axis accelerometer for motion-triggered reporting and configurable geofence and alarm settings for theft and movement alerts.
-- Simple no-wiring installation, multiple form factors \(M, L, XL\) to fit trailers, equipment and high-value items.
-- Secure data handling and compliance with ISAE3402, CE, RoHS and WEE standards for enterprise-grade deployments.
+- Designed for long term battery operation with scheduled reporting and configurable event driven updates.
+- Multi constellation GNSS positioning for improved fix reliability across environments.
+- Cellular primary link with fallback to maintain connectivity across coverage variations.
+- Active RF assistance to aid indoor localization and physical recovery when GNSS is limited.
+- Motion triggered reporting via onboard motion detection for movement alerts and increased tracking frequency.
+- Multiple compact form factors to suit trailers, equipment and other portable assets.
+- Local position storage to preserve history during temporary connectivity gaps.
 
 ## How It Works with Plaspy
 
-Lommy Eye integrates with Plaspy by transmitting location and event data over UDP or SMS to the Plaspy platform. By default it sends scheduled reports \(daily\), but administrators can remotely configure reporting intervals to increase frequency for near real-time tracking during movement or alerts. Plaspy processes GNSS, cellular triangulation and RF-assisted positions to present accurate maps, history and recovery tools in the dashboard.
+Lommy Eye communicates location and event data to the Plaspy platform using supported transmission methods, allowing Plaspy to present maps, history and alerting based on device reports. Administrators can adjust reporting behavior remotely to balance battery life and update cadence, and Plaspy consumes GNSS, cellular and RF assisted positions to maintain continuity of tracking and recovery workflows.
 
-- Real-time location and telemetry updates when reporting frequency is increased or motion-triggered reporting is enabled.
-- Motion and movement alerts via the built-in 3-axis accelerometer for immediate notifications in Plaspy.
-- Active 868 MHz RF signals used for indoor localization and recovery where GPS reception is poor.
-- Cellular triangulation fallback when GNSS is unavailable, improving positional continuity for Plaspy maps and geofence reports.
-- Local flash storage \(2 MB\) preserves position history during coverage gaps so Plaspy can sync missed data once connectivity is restored.
+- Scheduled and event driven reports appear in Plaspy for historical playback and operational review.
+- Motion and movement alerts generate notifications and trigger higher frequency reporting when enabled.
+- RF assisted signals improve indoor localization and support recovery procedures visible in Plaspy tools.
+- Cellular based fallback positions help preserve continuity on Plaspy maps when satellite fixes are unavailable.
+- Local device storage synchronizes missed positions to Plaspy once connectivity is restored.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G \(FDD LTE Cat M1\) primary; quad-band 2G GSM fallback |
-| --- | --- |
-| Bands | LTE Cat M1 B3 / B8 / B20; GSM 850 / 900 / 1800 / 1900 MHz |
-| Data Transmission | UDP or SMS to server endpoints |
-| GNSS | GPS, GLONASS, GALILEO, BEIDOU, QZSS; SBAS \(WAAS/EGNOS/MSAS/GAGAN\) |
-| GNSS Sensitivity | -166 dBm \(tracking sensitivity\) |
-| RF | Active 868 MHz antenna for indoor localization and recovery |
-| Sensors | 3-axis accelerometer \(motion-triggered reporting\) |
-| Storage | 2 MB internal flash memory for local position logging |
-| Antennas | Internal GNSS, LTE/GSM and RF antennas |
-| Remote Management | Remote configuration of reporting intervals and motion settings via UDP/SMS |
-| Security & Compliance | Server/data security compliant with ISAE3402; CE, RoHS, WEE |
-| Operating Temperature | -20 °C to +60 °C |
-| Models & Form Factor | Lommy Eye M \(9L2\): 55×52×12 mm, 56 g, user-replaceable batteries;  \<br>\<br>        Lommy Eye L \(9L8\): 83×80×25 mm, 106 g, user-replaceable batteries, IP67;  \<br>\<br>        Lommy Eye XL \(9L6\): 80×54×37 mm, 154 g, service-shop battery change, IP68 |
-| Report Capacity | Up to 1,200 positions \(M\), 2,400 \(L\), 6,000 \(XL\) |
-| Power | Battery driven; battery life optimized through LTE Cat M1 and efficient network handling \(actual life depends on operating conditions and network quality\) |
-
-## Use Cases
-
-- Fleet management: discreet long-term tracking of trailers and off-vehicle assets where low-maintenance, battery operation is essential.
-- Anti-theft and recovery: combined GNSS/GSM/RF positioning and motion alerts for faster recovery of stolen or moved assets.
-- Equipment and machinery tracking: scheduled reporting with remote configuration for maintenance planning and utilization history.
-- High-value item monitoring: compact form factor for discreet placement and reliable position history for insurance and loss prevention.
+- Long term fleet asset monitoring for trailers and unpowered equipment that need low maintenance tracking.
+- Anti theft and recovery workflows that combine movement alerts with RF assisted localization.
+- Equipment and machinery tracking for utilization history and maintenance planning.
+- Discreet monitoring of high value portable assets for insurance and loss prevention.
+- Container and cargo tracking where scheduled reporting and remote reconfiguration are useful.
 
 ## Why Choose This Tracker with Plaspy
 
-Lommy Eye offers a balanced feature set for Plaspy users who need robust, low-maintenance GPS trackers that work across rural and urban environments. Its multi-constellation GNSS, high tracking sensitivity and SBAS support improve fix reliability, while LTE Cat M1 with 2G fallback and cellular triangulation help maintain continuity when satellites or LTE coverage are reduced. The active 868 MHz RF channel and motion sensor provide additional anti-theft and recovery capabilities that complement Plaspy’s mapping, alerts and historical reporting.
+Lommy Eye offers a balanced set of capabilities for organizations that need reliable, low maintenance tracking integrated into a central platform. Its focus on scheduled reporting, motion triggered updates and RF assisted recovery complements Plaspy’s mapping, alerts and historical reporting features, helping teams maintain visibility over dispersed assets and respond to movement or theft events.
 
-While Lommy Eye focuses on GNSS, RF and motion-based telemetry, Plaspy’s platform also supports a wide range of telemetry fields—such as ignition, immobilizer status, fuel monitoring and Bluetooth sensors—when those interfaces are available on a device. Integrating Lommy Eye into Plaspy delivers scalable fleet management, practical anti-theft workflows and secure data handling \(ISAE3402\) for organizations that need discreet, reliable asset tracking with easy API or white-label integration options.
-
+To learn more about Plaspy visit https://www.plaspy.com. Please note that product specifications, availability and manufacturer details can change over time and should be verified on the official manufacturer site https://flextrack.dk.

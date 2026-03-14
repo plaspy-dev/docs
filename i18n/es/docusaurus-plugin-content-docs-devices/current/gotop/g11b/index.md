@@ -2,59 +2,58 @@
 slug: /gotop/g11b
 id: g11b
 sidebar_label: G11B
+title: GOTOP - G11B
 sidebar_class_name: menu_item_tracker
+description: GPS compacto impermeable para mascotas y ganado compatible con Plaspy para seguimiento en vivo y alertas
+keywords:
+  - GOTOP G11B
+  - rastreador G11B
+  - rastreador GOTOP para mascotas
+  - rastreador GPS para animales
+  - rastreador para collar
+  - rastreador GPS 4G
+  - rastreador impermeable IP65
+  - compatible con Plaspy
+  - seguimiento de ganado
+  - seguimiento en tiempo real
 ---
+
 # GOTOP - G11B
 
 ![G11B](./tracker.jpg)
 
-El GOTOP G11B, rastreador GPS impermeable para mascotas, es un dispositivo compacto montado en collar, diseñado para localización exterior confiable y protección de mascotas y animales de granja. Con conectividad 4G LTE, GPS y antenas 4G integradas, y un sellado impermeable de alto grado \(IP65\), el G11B ofrece seguimiento en tiempo real y alertas consistentes donde más se requieren. Ahora compatible con Plaspy, el G11B se integra con Plaspy para vigilancia en vivo centralizada, captura de telemetría y enrutamiento de alertas a lo largo de pequeñas flotas de animales o despliegues mixtos de activos.
+El GOTOP G11B es un rastreador GPS compacto diseñado para montarse en collares y proporcionar ubicación confiable y protección para mascotas y animales de granja. Construido para uso rudo, incorpora conectividad 4G LTE, antenas integradas de GPS y 4G, y protección IP65 para mantener el seguimiento y las alertas en tiempo real incluso en condiciones húmedas. El dispositivo está optimizado para una instalación inalámbrica en collares y arneses y ofrece envío de ubicaciones por SMS además de funcionar con la plataforma web y móvil de GOTOP.
 
-El G11B está optimizado para instalación inalámbrica en collares y arneses exteriores, sin necesidad de cableado complejo para iniciar su operación. Con soporte para las aplicaciones web y móviles de GOTOP, además de reportes de ubicación por SMS \(enlace de Google Maps\), el rastreador ofrece configuración flexible y consultas de ubicación inmediatas. Emparejado con Plaspy, obtienes telemetría mejorada, gestión de geocercas y reproducción del historial en un panel unificado adaptado a flujos de trabajo de rastreo de mascotas y protección de animales.
+Como dispositivo compatible con Plaspy, el G11B puede reenviar posiciones GPS, actualizaciones de estado y eventos de alarma a Plaspy para su monitoreo y gestión centralizada. Esta compatibilidad facilita incluir rastreadores de animales dentro de una supervisión más amplia de activos, habilitando mapas en vivo, captura de telemetría, gestión de geocercas y reproducción de historial para pequeñas manadas o despliegues mixtos gestionados desde la plataforma Plaspy.
 
-## Aspectos clave
+## Características principales
 
-- Dispositivo GPS compatible con Plaspy que lleva la ubicación de los animales a una plataforma de monitoreo unificada.
-- Seguimiento en tiempo real 4G LTE con ubicación por SMS \(enlace a Google Maps\) para compartir rápidamente la ubicación.
-- Diseño robusto montado en collar con protección impermeable IP65 para condiciones lluviosas y húmedas.
-- Batería de alta capacidad 30000 mAh y modo de reposo de ahorro de energía para una operación prolongada en campo.
-- Antenas GPS y 4G integradas para un posicionamiento y comunicación estables, sin necesidad de antenas externas.
-- Alarmas de geocerca y detección de movimiento, además de alertas de baja batería para reducir los tiempos de respuesta.
-- Instalación inalámbrica y sin herramientas para un despliegue rápido en mascotas o animales de granja.
+- Rastreador GPS compatible con Plaspy que integra la ubicación de animales en una plataforma de monitoreo unificada
+- Conectividad 4G LTE con enlaces de ubicación por SMS para compartir rápidamente y como respaldo
+- Diseño robusto para montaje en collar con protección IP65 para uso en exteriores
+- Batería de larga duración 30000 mAh y modos de ahorro de energía que prolongan la operación en campo
+- Antenas integradas de GPS y 4G para posicionamiento y comunicación estables sin antenas externas
+- Alarmas por geocerca y detección de movimiento, además de alertas de batería baja para agilizar la respuesta
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el GOTOP G11B envía sus lecturas GPS, actualizaciones de estado y eventos de alarma a la plataforma Plaspy, para que puedas gestionar el rastreo, las alertas y las rutas históricas en un solo lugar. Plaspy recopila la telemetría del dispositivo y presenta datos de ubicación, movimiento y batería en paneles, mapas e informes. La ubicación por SMS sigue estando disponible como una alternativa independiente para enlaces de ubicación rápidos sobre la marcha.
+Al integrarse con Plaspy, el GOTOP G11B envía sus fijaciones GPS y eventos de alarma a la plataforma Plaspy para que los operadores gestionen el seguimiento, las alertas y las rutas históricas desde un solo panel. Plaspy recopila y visualiza la telemetría del dispositivo, mostrando ubicación, movimiento y estado de batería en mapas, paneles y reportes para apoyar la supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento y mapeo en vivo.
-- Alarmas de geocerca y detección de movimiento reportadas a Plaspy para notificaciones instantáneas.
-- Alertas de batería baja enviadas a Plaspy para que puedas programar recargas antes de interrupciones en campo.
-- Ubicación por SMS con enlace de Google Maps para compartir de inmediato cuando la conectividad móvil o el acceso a la aplicación es limitado.
-- Reproducción de historial y revisión de rutas a partir de los registros del dispositivo, accesibles a través de las apps de Plaspy y GOTOP.
+- Las ubicaciones y la telemetría en tiempo real aparecen en Plaspy para seguimiento y mapeo en vivo
+- Las alarmas por geocerca y detección de movimiento reportadas a Plaspy permiten notificaciones instantáneas
+- Las alertas de batería baja reenviadas a Plaspy ayudan a programar recargas y reducir tiempos de inactividad
+- Los enlaces de ubicación por SMS permanecen disponibles como respaldo rápido para compartir posiciones de forma inmediata
+- Reproducción de historial y revisión de rutas desde los registros del dispositivo dentro de Plaspy
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo y fabricante | GOTOP G11B |
-| --- | --- |
-| Conectividad | 4G LTE para seguimiento en tiempo real y ubicación por SMS |
-| Bandas | 4G LTE \(no se especifican bandas de operador\) |
-| Energía y batería | Batería de alta capacidad 30000 mAh; modo de reposo para ahorro de energía; alerta de batería baja |
-| Interfaces | Diseño inalámbrico montado en collar; no se especifican I/O cableadas |
-| GNSS | Antena GPS integrada para posicionamiento |
-| Bluetooth | No especificado |
-| Gestión remota | Plataforma web GOTOP y apps móviles; ajustes de parámetros por SMS y comandos de consulta; compatible con la integración de Plaspy |
-| Clasificación ambiental / Formato | Impermeable IP65; diseño compacto montado en collar para mascotas y animales |
-
-## Casos de uso
-
-- Seguimiento y recuperación de mascotas: mantenga vigilados a perros, gatos y animales de compañía durante paseos o tiempo al aire libre.
-- Monitoreo de animales de granja: rastree los movimientos del ganado a través de potreros y reciba alertas de movimiento o de geocerca.
-- Protección de animales en exteriores: acople el dispositivo a animales de trabajo o collares de fauna para monitorear su comportamiento y ubicación en condiciones húmedas.
-- Informe de ubicación remoto: ubicación por SMS con enlace a Google Maps para verificaciones rápidas cuando no se puede acceder a la aplicación.
+- Rastreo y recuperación de mascotas durante paseos, salidas o tiempo libre
+- Monitoreo de animales de granja para observar el movimiento del ganado entre potreros
+- Protección al aire libre de animales de trabajo y despliegues en entornos húmedos
+- Reporte de ubicación remota cuando el acceso a la app es limitado utilizando enlaces de Google Maps por SMS
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el GOTOP G11B como rastreador GPS compatible con Plaspy le proporciona un dispositivo práctico, diseñado específicamente para el rastreo de animales, combinado con una capa de integración poderosa. La carcasa robusta IP65 del G11B, su batería de 30000 mAh y el seguimiento en tiempo real 4G reducen el tiempo de inactividad y los falsos negativos en entornos al aire libre. Cuando se integra con Plaspy, la telemetría del dispositivo pasa a formar parte de un flujo de trabajo más amplio de gestión de activos y flotas: permitiendo tableros centralizados, enrutamiento de alertas y reproducción de historial a lo largo de despliegues mixtos.
+El GOTOP G11B es un rastreador pensado para animales que equilibra resistencia y larga autonomía con una instalación inalámbrica sencilla. Su combinación de rastreo 4G, resistencia al agua y antenas integradas lo hace ideal para escenarios al aire libre donde la visibilidad continua de la ubicación es esencial. Enviar la telemetría del G11B a Plaspy coloca la ubicación y las alertas de los animales junto con otros activos gestionados, permitiendo a los equipos consolidar el monitoreo y responder con mayor eficiencia.
 
-Para organizaciones y propietarios de mascotas que requieren monitoreo enfocado de animales, en lugar de telemática vehicular completa, el G11B ofrece una instalación inalámbrica simple y una configuración fácil vía SMS o las apps GOTOP. Al mismo tiempo, la plataforma de Plaspy admite conceptos de gestión de flotas como recopilación de telemetría, geocercas y alertas centralizadas. Aunque características avanzadas de telemática, como monitoreo de combustible, estado de encendido o control del inmovilizador y sensores Bluetooth, son capacidades a nivel de plataforma mejor aplicadas a dispositivos compatibles, emparejar el G11B con Plaspy garantiza que la ubicación y el estado de los animales sean visibles dentro del mismo entorno de gestión cuando se necesite.
-
+Para saber más sobre Plaspy y cómo puede centralizar el monitoreo de dispositivos como el GOTOP G11B visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por favor verifique las especificaciones actuales y la compatibilidad en el sitio del fabricante https://www.gotop.cc/.

@@ -2,57 +2,59 @@
 slug: /topfly/solarguardx_110
 id: solarguardx_110
 sidebar_label: SolarGuardX 110
+title: TopFly - SolarGuardX 110
 sidebar_class_name: menu_item_tracker
+description: Candado GPS solar resistente para seguridad de activos al aire libre, monitoreo prolongado y seguimiento en tiempo real compatible con Plaspy
+keywords:
+  - TopFly SolarGuardX 110
+  - SolarGuardX 110 rastreador GPS
+  - rastreador TopFly
+  - rastreador GPS solar
+  - candado GPS
+  - rastreador para seguridad de activos
+  - rastreo de remolques
+  - monitoreo remoto de activos
+  - rastreador compatible con Plaspy
+  - GPS con batería de larga duración
 ---
+
 # TopFly - SolarGuardX 110
 
 ![SolarGuardX 110](./tracker.png)
 
-El SolarGuardX 110 es un rastreador GPS resistente, alimentado por energía solar, diseñado para la seguridad de activos al aire libre y la monitorización a largo plazo. Construido como un candado GPS de uso industrial, el SolarGuardX 110 ofrece seguimiento en tiempo real compatible con Plaspy, telemetría de ubicación fiable y características antifraude reforzadas para contenedores, remolques y otros activos móviles de alto valor desplegados en entornos remotos o adversos.
+El SolarGuardX 110 es un rastreador GPS robusto, alimentado por energía solar y diseñado en un formato de candado de alta resistencia para la seguridad de activos en exteriores y el monitoreo a largo plazo. Ideado para contenedores, remolques y otros activos móviles en entornos remotos o hostiles, combina un panel solar integrado con una batería recargable de gran capacidad y GNSS multiconstelación para maximizar el tiempo operativo, ofrecer telemetría de ubicación fiable y funciones endurecidas contra el robo.
 
-Con una batería recargable de ultra larga duración de 14.400 mAh, alimentada por un panel solar integrado, conectividad LTE Cat 1 y GNSS de múltiples constelaciones, el SolarGuardX 110 minimiza el mantenimiento y maximiza el tiempo de actividad. Los usuarios de Plaspy se benefician de determinaciones de posición rápidas \(\< 1,5 m CEP autónomo\), informes configurables \(tan frecuentes como cada 3 segundos\), registro en búfer para periodos sin conexión y comunicaciones seguras para integrar este rastreador GPS sin problemas en las flotas y los flujos de trabajo de protección de activos.
+Como dispositivo compatible con Plaspy, el SolarGuardX 110 puede transmitir posiciones y eventos en tiempo real a Plaspy para el monitoreo de flotas, la gestión de geocercas y la elaboración de informes operativos. Su registro en búfer y los intervalos de reporte configurables lo hacen apropiado para flujos de trabajo que requieren continuidad durante periodos sin conexión, mientras que las comunicaciones seguras y las funciones de gestión remota facilitan la integración de la unidad en despliegues empresariales de protección de activos y seguimiento de flotas mediante la plataforma Plaspy.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy que ofrece seguimiento en tiempo real y telemetría para la seguridad de activos al aire libre.
-- Batería Li‑Polímero de 14.400 mAh con energía solar para operación prolongada en campo y bajo mantenimiento.
-- GNSS de múltiples constelaciones \(GPS, GLONASS, BeiDou, Galileo, QZSS\) con precisión horizontal autónoma \< 1,5 m CEP.
-- Carcasa robusta con clasificación IP67, imán integrado, cuerda de 350 mm y amplio rango de temperatura de operación \(‑25°C a +80°C\) para entornos adversos.
-- Soporta desbloqueo y gestión remotos mediante BLE 5.1, RFID, SMS y comandos de red; además de FOTA para actualizaciones de firmware.
-- Informes de alta frecuencia \(hasta cada 3 segundos\) y un amplio búfer en el dispositivo \(hasta 49.000 puntos\) para mantener la continuidad cuando esté offline.
-- Comunicaciones seguras sobre TCP/UDP/MQTT/SMS con cifrado opcional MD5 o AES256 y certificaciones de operadores para las principales redes de EE. UU.
+- Seguimiento y telemetría en tiempo real compatibles con Plaspy, diseñados para la seguridad de activos en exteriores.
+- Batería recargable de 14,400 mAh con soporte solar para operación prolongada en campo y menor mantenimiento.
+- GNSS multiconstelación que proporciona fijaciones de posición muy precisas para una conciencia de ubicación exacta.
+- Carcasa tipo candado resistente con protección IP67 y características mecánicas pensadas para entornos exigentes.
+- Capacidad de reporte en alta frecuencia con intervalos cortos y gran buffer interno para continuidad durante desconexiones.
+- Gestión remota y opciones de mantenimiento por aire para simplificar actualizaciones y control a escala de flota.
 
 ## Cómo funciona con Plaspy
 
-SolarGuardX 110 se integra con Plaspy para proporcionar seguimiento continuo en tiempo real y alertas basadas en eventos. Los datos de posición y telemetría se transmiten por LTE Cat 1 a la plataforma de Plaspy mediante TCP/UDP o MQTT, donde los operadores pueden visualizar ubicaciones, configurar geocercas y activar flujos de trabajo. Cuando se interrumpe la cobertura de red, el dispositivo almacena en búfer miles de puntos y los carga automáticamente cuando la conectividad se restablece, asegurando que no haya lagunas en los registros de gestión de flotas.
+El SolarGuardX 110 envía datos de posición y eventos a Plaspy, donde los operadores pueden ver los activos en mapas, configurar alertas e incluir la telemetría del dispositivo en informes y paneles. Plaspy procesa esos datos para apoyar la conciencia situacional, la revisión histórica y los flujos de trabajo automatizados para la protección de activos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real para Plaspy, para una conciencia situacional precisa.
-- Alarmas y eventos del dispositivo: corte de cuerda, bloqueo/desbloqueo, alertas de movimiento y detención, además de soporte interno de geocercas \(hasta 64 regiones\).
-- Registro en búfer \(hasta 49.000 puntos\) para informes históricos fiables tras periodos sin conexión.
-- Acciones remotas: desbloqueo/gestión vía BLE 5.1, RFID, SMS o comandos de red; actualizaciones FOTA para mantenimiento.
-- Soporte para sensores y accesorios Bluetooth; Plaspy puede ingerir telemetría derivada de BLE para complementar los datos de ubicación.
+- Actualizaciones de ubicación y telemetría en tiempo real visibles en los mapas y vistas de monitoreo en vivo de Plaspy.
+- Entrega de eventos y alarmas por condiciones como movimiento, manipulación o cambios de acceso para activar notificaciones.
+- Carga de datos registrados en búfer tras periodos sin conexión para preservar la continuidad histórica de ubicaciones en los informes de Plaspy.
+- Reportes configurables y subidas programadas de posición para equilibrar vida de batería y granularidad del seguimiento.
+- Acciones remotas y gestión de firmware reflejadas en el estado del dispositivo en Plaspy para supervisión operacional.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE FDD Cat 1 \(soporte de bandas global\) con transporte TCP/UDP/MQTT/SMS; cifrado opcional MD5 o AES256 |
-| --- | --- |
-| Bandas y certificaciones | LTE Cat 1 en bandas globales; certificado FCC, CE, IC, PTCRB, RCM; aprobaciones de operadores incluyen AT&T, US Cellular, T-Mobile y Verizon |
-| Alimentación y batería | Panel solar integrado + batería recargable Li‑Polímer de 14.400 mAh; carga ~15 h con 5V/1A, ~7 h con 5V/2A; conector de carga de 2 pines y conexión de datos USB Type‑C |
-| Interfaces e Indicadores | Ranura Nano SIM, USB Type‑C, conector de carga de 2 pines, LEDs indicadoras para red/GNSS/RFID/batería; antenas GNSS y celulares integradas |
-| GNSS | GPS + GLONASS + BeiDou + Galileo + QZSS; precisión horizontal autónoma \< 1,5 m CEP |
-| Bluetooth | BLE 5.1 de largo alcance para accesorios BLE de TOPFLYtech \(p. ej., TSTH1‑B, T‑Sense, TSR1‑B\) |
-| Gestión remota | Actualizaciones OTA/FOTA de firmware, soporte para SMS y comandos de red, informes programados configurables \(hora/ángulo/distancia\) |
-| Forma y entorno | Carcasa robusta tipo candado, dimensiones 207.5 × 110.2 × 48.1 mm, peso 1060 g; IP67; rango de operación −25°C a +80°C; imán potente integrado y cuerda de 350 mm |
+- Seguridad de contenedores y remolques con monitoreo anti robo y controles remotos de acceso.
+- Seguimiento a largo plazo de activos estacionados como remolques, chasis y equipos intermodales.
+- Despliegues de equipos en lugares remotos donde la carga solar y la gran capacidad de batería reducen las visitas al sitio.
+- Gestión de activos compartidos o de alquiler usando geocercas y alertas de movimiento para controlar acceso y uso.
+- Combinación de monitoreo de ubicación y condiciones ambientales cuando se integra con sensores complementarios ingeridos en Plaspy.
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Seguridad de contenedores y remolques: monitoreo continuo anti‑robo con desbloqueo remoto y alarmas de corte de cuerda.
-- Seguimiento a largo plazo de activos de la flota: ideal para remolques estacionados o de uso intermitente, chasis y equipo intermodal.
-- Despliegues de equipos remotos: carga solar y un amplio búfer de batería permiten meses de operación en ubicaciones remotas.
-- Cadena de frío y carga sensible: combine sensores de temperatura BLE con Plaspy para fusionar ubicación y telemetría ambiental.
-- Alquileres a corto plazo y activos compartidos: geocercas, alertas de movimiento y control de acceso vía BLE/RFID simplifican la gestión.
+El SolarGuardX 110 es ideal para organizaciones que necesitan un rastreador duradero y de bajo mantenimiento para activos móviles de alto valor en campo. Su combinación de carga solar, gran capacidad de batería y carcasa reforzada reduce el tiempo de inactividad y las tareas de mantenimiento, al tiempo que ofrece la precisión de ubicación y la flexibilidad de reporte que los equipos esperan de un dispositivo compatible con Plaspy.
 
-## Por qué elegir este tracker con Plaspy
-
-El SolarGuardX 110 está diseñado para reducir las visitas de campo y el mantenimiento, al tiempo que ofrece un seguimiento en tiempo real fiable y telemetría compatible con Plaspy. Su batería con energía solar, su construcción robusta IP67 y su GNSS de múltiples constelaciones proporcionan ubicaciones precisas y una larga vida útil para la gestión de flotas al aire libre y la protección antifraude. Las comunicaciones seguras, las aprobaciones de operadores y la capacidad FOTA facilitan su despliegue a gran escala. Cuando se combina con Plaspy, SolarGuardX 110 permite a los equipos de operaciones consolidar el seguimiento GPS, los datos de sensores BLE y las alertas basadas en eventos, habilitando una toma de decisiones más inteligente y un control eficiente de activos sin sacrificar la fiabilidad en los entornos más exigentes.
-
+Si desea visibilidad consolidada en los flujos de trabajo de protección de activos y gestión de flota, integrar el SolarGuardX 110 con Plaspy ofrece una vía práctica hacia la supervisión centralizada, las alertas y los informes históricos. Obtenga más información sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y la disponibilidad actuales con la documentación oficial del fabricante en https://www.topflytech.com/.

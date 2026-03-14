@@ -2,62 +2,60 @@
 slug: /reachfar/rf_v34
 id: rf_v34
 sidebar_label: RF-V34
+title: Reachfar - RF-V34
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS solar y resistente para seguimiento ganadero de largo plazo compatible con Plaspy para monitoreo remoto y alertas
+keywords:
+  - Reachfar RF V34
+  - RF V34 rastreador
+  - Rastreador Reachfar
+  - rastreador GPS solar
+  - rastreador GPS para ganado
+  - compatible con Plaspy
+  - monitoreo remoto de pasturas
+  - rastreador robusto IP67
+  - rastreador para collar
+  - rastreador GPS de larga autonomía
 ---
+
 # Reachfar - RF-V34
 
 ![RF-V34](./tracker.jpg)
 
-El RF-V34 es un rastreador GPS robusto, alimentado por energía solar, diseñado para el seguimiento a largo plazo en exteriores de ganado, vacuno, ovino y otros animales de granja. Diseñado para la monitorización de pastos remotos, el RF-V34 aprovecha una mayor duración de batería gracias a una celda interna de 9000mAh con carga solar y protección IP67 contra agua/polvo para ofrecer un seguimiento fiable y de bajo mantenimiento en entornos adversos. Compatible con Plaspy desde fábrica, el RF-V34 aporta ubicación precisa y telemetría esencial a tu plataforma Plaspy para una gestión del hato más eficiente y monitoreo anti-robo.
+El RF-V34 es un rastreador GPS resistente y alimentado por energía solar, diseñado para el seguimiento prolongado en exteriores de ganado como bovinos y ovinos. Pensado para el monitoreo remoto de pasturas, combina una batería interna de alta capacidad con carga solar y una carcasa con clasificación IP67 para reducir las visitas de mantenimiento y ofrecer funcionamiento fiable en condiciones de campo exigentes. La unidad puede montarse en el collar y cuenta con conexión magnética USB para facilitar el servicio sin herramientas complejas.
 
-Optimizado para despliegues de varios días donde el acceso a la carga es limitado, el RF-V34 admite posicionamiento GPS, WiFi y LBS y transmite vía 2G GPRS \(TCP/IP\). Montable en collares con el soporte incluido y con carga USB magnética para un mantenimiento cómodo, el RF-V34 es un rastreador GPS práctico, compatible con Plaspy, para operaciones ganaderas, protección de activos remotos y gestión de pastos.
+Como dispositivo compatible con Plaspy desde el primer momento, el RF-V34 aporta ubicación y telemetría esencial al sistema Plaspy, facilitando la gestión del ganado y la vigilancia anti robo. Su posicionamiento multimodal y la transmisión de datos por celular lo hacen apropiado para despliegues de varios días donde el acceso a la red eléctrica es limitado, permitiendo a los usuarios de Plaspy supervisar animales y activos remotos desde una única interfaz de gestión de flotas.
 
-## Características clave
+## Características principales
 
-- Batería interna de 9000mAh alimentada por energía solar para un modo de espera extendido y operación de varias semanas en pastizales remotos.
-- Compatible con Plaspy: envía GPS y telemetría vía 2G GPRS \(TCP/IP\) para seguimiento en tiempo real e informes históricos en la plataforma Plaspy.
-- Posicionamiento multimodo \(GPS / WiFi / LBS\) para mantener la cobertura de ubicación en entornos diversos y zonas con satélite limitado.
-- Carcasa robusta con certificación IP67 y rango de operación de -20°C a +70°C para un seguimiento fiable al exterior.
-- Montaje sencillo en collar con soporte incluido y carga USB magnética para un mantenimiento rápido sin necesidad de retirar la unidad.
-- Diseño ligero y compacto \(97 × 69 × 31 mm, 255 g\) pensado para el confort del animal y la sujeción a largo plazo.
-- Soporta múltiples idiomas para la configuración y la visualización de la plataforma, simplificando el despliegue en diferentes regiones.
+- Batería interna de 9000 mAh con apoyo solar para mayor tiempo en espera y operación de varias semanas en pasturas remotas.
+- Dispositivo compatible con Plaspy que transmite ubicación y telemetría para mapeo, alertas e informes.
+- Posicionamiento multimodal mediante GPS, WiFi y LBS para mantener cobertura de ubicación en distintos entornos.
+- Carcasa robusta con grado de protección IP67 y amplio rango de temperatura de operación para un rastreo ganadero fiable en exteriores.
+- Montaje en collar con soporte incluido y carga magnética por USB para un mantenimiento de campo sencillo.
+- Diseño compacto y liviano para mantener la comodidad durante el uso prolongado por parte de los animales.
+- Estado de batería y carga solar reportados para que el personal pueda planificar visitas de mantenimiento de manera efectiva.
 
 ## Cómo funciona con Plaspy
 
-El RF-V34 transmite la ubicación y la telemetría del dispositivo a través de 2G GPRS mediante paquetes TCP/IP que la plataforma Plaspy ingiere y muestra como seguimiento en tiempo real, eventos de geocercas y registros de posición históricos. La integración compatible con Plaspy ofrece mapeo, alertas e informes sin necesidad de gateways adicionales: instale el RF-V34 en un collar, configure los intervalos de reporte del dispositivo y Plaspy procesará los datos GPS/WiFi/LBS para brindar a los operadores una conciencia situacional en tiempo real y análisis a largo plazo.
+El RF-V34 envía ubicación y telemetría del dispositivo mediante datos celulares a la plataforma Plaspy, donde esa información se procesa en mapas en vivo, alertas de eventos y registros históricos de posiciones. Una vez activo en la red y vinculado a una cuenta Plaspy, el dispositivo ofrece visibilidad persistente de los activos y habilita notificaciones configurables e informes para la supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy vía 2G GPRS \(TCP/IP\).
-- Posicionamiento multimodo: GPS para correcciones de nivel metro, WiFi para cobertura intermedia y LBS cuando la visibilidad de satélites es limitada.
-- La carga solar y el estado de la batería se reportan a Plaspy para que puedas supervisar el tiempo de funcionamiento restante y planificar el mantenimiento.
-- Alertas basadas en movimiento y ubicación \(notificaciones de geocerca\) visibles en paneles de Plaspy y apps móviles.
-- Diseño sencillo montado en collar para el rastreo de ganado y flujos de trabajo anti-robo gestionados en Plaspy.
+- Actualizaciones de ubicación en tiempo real y telemetría del dispositivo entregadas a Plaspy para seguimiento en vivo.
+- Alertas de geocerca y movimiento visibles en los paneles de Plaspy para apoyar flujos de trabajo anti robo.
+- Registros históricos de posiciones y reproducción para análisis de patrones de pastoreo y revisiones operativas.
+- Estado de batería y de carga solar reportado a Plaspy para ayudar a programar mantenimiento y reemplazos.
+- Despliegue sencillo montado en collar para una implementación rápida en hatos y activos remotos.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | RF-V34 |
-| --- | --- |
-| Conectividad | 2G GSM con GPRS Clase 12, transmisión de datos TCP/IP |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(2G\) |
-| Modos de posicionamiento y Precisión | GPS ~10–15 m; WiFi 15–100 m; LBS 100–1000 m |
-| Tiempos de inicio GNSS | Arranque en frío ~30 s; Arranque tibio ~29 s; Arranque en caliente ~5 s |
-| Alimentación y batería | Batería integrada de 9000mAh con carga solar; cable de carga USB magnético incluido |
-| Dimensiones y montaje | Dimensiones 97 × 69 × 31 mm; Peso 255 g; montado en collar con soporte incluido |
-| Ambiental | IP67 a prueba de agua y polvo; Rango de temperatura de funcionamiento -20°C a +70°C; Humedad 5%–95% RH |
-| Interfaces | Carga USB magnética; fijación para collar \(sin interfaces de encendido/inmovilizador de vehículos\) |
-| Opciones de color | Negro, Blanco |
-| Contenido de la caja | Rastreador RF-V34, Cable de carga USB magnético, Soporte para collar, Manual de usuario |
-| Soporte de idiomas | Múltiples idiomas disponibles para configuración y visualización de la plataforma |
-
-## Casos de uso
-
-- Ubicación del ganado y anti-robo: rastreo continuo de ganado \(bovino y ovino\) en grandes propiedades, con alertas de geocerca a través de Plaspy.
-- Pastoreo y gestión de pastos: monitorizar movimientos del ganado y patrones de pastoreo durante semanas o meses gracias a la larga duración de la batería y la carga solar.
-- Protección de activos remotos: seguimiento de equipos y activos temporales en entornos rurales sin suministro eléctrico.
-- Telemetría a largo plazo para sitios remotos: utiliza Plaspy para analizar movimientos históricos, rendimiento de batería/solar y accesibilidad del sitio.
+- Localización de ganado y vigilancia anti robo en grandes propiedades con infraestructura limitada.
+- Gestión de pastoreo y uso de la tierra para observar movimientos del rebaño y optimizar recursos a lo largo del tiempo.
+- Protección de activos remotos como remolques, equipos e instalaciones temporales en zonas rurales.
+- Recolección de telemetría a largo plazo para planificación estacional e informes operativos.
+- Despliegues distribuidos donde la baja necesidad de mantenimiento y la larga autonomía de la batería son requisitos clave.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El RF-V34 es un rastreador GPS compatible con Plaspy, diseñado para despliegues agrícolas y remotos. Su combinación de una batería de alta capacidad de 9000mAh, carga solar y una carcasa robusta con clasificación IP67 minimiza las visitas de mantenimiento y maximiza el tiempo de actividad para operaciones ganaderas dispersas. Al enviar ubicación y telemetría a través de 2G GPRS \(TCP/IP\), el RF-V34 se integra a Plaspy de forma fluida para seguimiento en tiempo real, alertas de geocerca e informes a largo plazo, lo que permite una gestión de hato más inteligente y flujos de trabajo anti-robo más simples.
+El RF-V34 está pensado para despliegues agrícolas y remotos donde la durabilidad, la larga duración y el bajo mantenimiento son prioridades. Su sistema de alimentación asistido por solar y la robustez IP67 reducen la frecuencia de visitas al sitio, mientras que la integración con Plaspy convierte datos de ubicación y telemetría en información accionable para la gestión del rebaño y la seguridad.
 
-Mientras que el RF-V34 se centra en un rastreo de animales duradero y de bajo consumo en lugar de interfaces de telemetría de vehículos \(encendido/inmovilizador\) o monitoreo de combustible a bordo, complementa el ecosistema de Plaspy. Despliegue junto a otros sensores compatibles con Plaspy o rastreadores orientados a vehículos si necesita telemetría integrada como monitoreo de combustible o control de inmovilizador. Para granjas, fincas y gestores de activos rurales que requieren un rastreo GPS confiable y de larga duración, el RF-V34 ofrece una solución de bajo mantenimiento, compatible con Plaspy, diseñada para uso al aire libre.
-
+Para organizaciones que usan Plaspy, el RF-V34 es una opción práctica cuando la necesidad principal es rastreo fiable en exteriores y autonomía extendida más que telemetría específica de vehículos. Para más información sobre Plaspy visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo; por favor verifique las especificaciones actuales y la documentación con el fabricante en https://www.reachfargps.com/ antes de la compra.

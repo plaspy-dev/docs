@@ -2,63 +2,63 @@
 slug: /huabao/hb_a1l
 id: hb_a1l
 sidebar_label: HB-A1L
+title: Huabao - HB-A1L
 sidebar_class_name: menu_item_tracker
+description: Cerradura esclava Bluetooth robusta para flotas multi puerta que envía eventos y alarmas a Plaspy para seguimiento centralizado en tiempo real
+keywords:
+  - Huabao HB-A1L
+  - HB-A1L
+  - rastreador Huabao
+  - cerradura electrónica esclava
+  - cerradura Bluetooth
+  - seguridad de flotas
+  - cerradura de acceso RFID
+  - cerradura ATEX IP67
+  - compatible con Plaspy
+  - cerradura para múltiples puertas
 ---
+
 # Huabao - HB-A1L
 
 ![HB-A1L](./tracker.jpg)
 
-La Cerradura Electrónica Esclava HB-A1L es un dispositivo de bloqueo esclavo robusto y conectado por Bluetooth, diseñado para ofrecer seguridad de puertas compatible con Plaspy y gestión centralizada para flotas logísticas. Diseñada para emparejarse con una cerradura maestra con GPS \(HB-A1Lm\), la HB-A1L extiende la protección anti-robos y el control de acceso a través de vehículos de múltiples puertas, como camiones cisterna de petróleo y camiones de caja de múltiples puertas, al tiempo que alimenta el estado de la cerradura y alertas en la plataforma Plaspy para un seguimiento en tiempo real y telemetría unificados.
+La cerradura electrónica esclava HB-A1L es un dispositivo de cierre resistente, conectado por Bluetooth, diseñado para ofrecer seguridad en puertas y gestión centralizada para flotas logísticas. Como unidad esclava pensada para emparejarse con una cerradura maestra con GPS, la HB-A1L extiende la protección antirrobo y el control de acceso en vehículos con múltiples puertas, como cisternas y camiones caja, al reportar el estado del cierre y los eventos de alarma para su monitoreo consolidado.
 
-Compacta, a prueba de explosiones y a prueba de agua, la HB-A1L combina acceso RFID, detección de manipulación y de corte de cadena, y una larga duración de la batería para asegurar cargas de alto riesgo en entornos adversos. Cuando se integra a través de la cerradura maestra GPS, Plaspy recibe eventos de bloqueo oportunos, alertas de batería baja y notificaciones de desbloqueo ilegal junto con la ubicación del vehículo y la telemetría de la flota, lo que permite a los operadores actuar con rapidez y reducir pérdidas.
+Al reenviar lecturas RFID, alarmas de manipulación y corte de cadena, y el estado de la batería al maestro GPS emparejado, la HB-A1L es una opción práctica para operadores que desean que los eventos de cierre y los registros de acceso sean visibles en una única plataforma de gestión de flotas. Cuando se integra con Plaspy a través del dispositivo maestro, la HB-A1L aporta telemetría de cerraduras en tiempo real a los paneles y alertas de Plaspy, lo que la hace relevante para flotas que buscan un control unificado de rastreo y seguridad.
 
-## Aspectos clave
+## Características principales
 
-- Plaspy compatible: integra el estado de la cerradura y las alarmas en Plaspy para seguimiento centralizado en tiempo real y gestión de flotas.
-- Emparejamiento Bluetooth 4.0PLUS: se conecta al HB-A1Lm GPS master mediante BLE; un master admite hasta siete cerraduras esclavas HB-A1L para control de múltiples puertas.
-- Robusta y segura: clasificación IP67 a prueba de agua más diseño ATEX a prueba de explosiones para uso seguro en petroleros y vehículos de carga peligrosos.
-- Acceso RFID integrado: soporta ISO/IEC 14443 Tipo A y B, distancia de lectura de hasta 10 cm y hasta 50 tarjetas para registros de acceso de operadores seguros.
-- Protección contra manipulación y alarmas: alarma de desbloqueo ilegal, alarma de corte de cadena y sensor magnético para detectar entradas no autorizadas o manipulación.
-- Larga duración de la batería: batería principal de 2,950 mAh; alarma de batería baja y hasta ~28 días de espera para operación anti-robos confiable entre cargas.
-- Mecánica de alta resistencia: carcasa de PC retardante de llama + fibra de vidrio y opciones de cadena de alto rendimiento \(30/60/100 cm\) con tracción de hasta 1,000 kg.
+- Integración compatible con Plaspy que reenvía el estado de la cerradura y las alarmas a una plataforma centralizada para seguimiento y gestión en tiempo real.
+- Emparejamiento esclavo Bluetooth 4.0PLUS con un maestro GPS, permitiendo que un maestro gestione múltiples unidades HB-A1L en vehículos con varias puertas.
+- Protección robusta con impermeabilidad IP67 y diseño a prueba de explosiones ATEX, adecuado para entornos con carga peligrosa.
+- Acceso RFID integrado compatible con ISO IEC 14443 Tipo A y B para lecturas de tarjetas de operador y registro de accesos.
+- Detección de manipulación y corte de cadena con alarmas de apertura ilegal para mejorar los tiempos de respuesta ante robos.
+- Gran capacidad de batería principal con alertas de batería baja para sostener operación prolongada entre intervenciones de mantenimiento.
+- Diseño mecánico de alta resistencia con carcasa retardante de llama y opciones de cadena resistente para protección segura de la carga.
 
 ## Cómo funciona con Plaspy
 
-La HB-A1L es una cerradura esclava Bluetooth que transmite eventos de puertas y seguridad a la HB-A1Lm GPS master. El dispositivo maestro agrega el estado de la cerradura, los registros de acceso RFID y eventos de alarma, adjunta la ubicación y la telemetría del vehículo, y luego envía esos datos combinados a Plaspy para monitoreo en tiempo real, alertas e informes. Esta arquitectura permite que Plaspy presente una vista unificada de la ubicación del vehículo, el estado de la cerradura y las alarmas de seguridad sin colocar hardware celular en cada cerradura esclava.
+La HB-A1L opera como una esclava Bluetooth que envía eventos de puertas y alarmas de seguridad a un maestro GPS HB-A1Lm emparejado. El maestro agrega los eventos de la cerradura, los registros RFID y el estado del dispositivo, asocia esos registros con la ubicación y la telemetría del vehículo, y luego envía los datos combinados a Plaspy para que los operadores dispongan de una vista unificada del estado de seguridad y la flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: los eventos de bloqueo se correlacionan con los datos GPS del maestro y se muestran en Plaspy.
-- Estado de puertas/bloqueo y alarmas: alarmas de desbloqueo ilegal y de corte de cadena reportadas de inmediato a la plataforma para respuesta anti-robos.
-- Eventos de acceso RFID: lecturas de tarjetas de operador \(ISO/IEC 14443 A & B\) quedan registradas y visibles en Plaspy para auditoría de acceso.
-- Telemetría de batería y salud: nivel de batería principal y alarmas de batería baja se envían para gestionar centralmente los planes de mantenimiento.
-- Desbloqueo remoto: se pueden emitir comandos de desbloqueo remoto autorizados desde la plataforma/aplicación/SMS a través del dispositivo maestro emparejado.
-- Sensores Bluetooth: la HB-A1L utiliza BLE para el emparejamiento y puede operar junto a sensores Bluetooth gestionados por el dispositivo maestro cuando sea necesario.
-- Telemetría de flota combinada: Plaspy puede combinar eventos de bloqueo con telemetría del vehículo, como monitoreo de combustible, estado de ignición o inmovilizador, cuando esos señales estén disponibles desde el maestro GPS emparejado o desde los sistemas del vehículo.
+- Correlación de ubicación en tiempo real — los eventos de la cerradura se muestran junto con la posición GPS del maestro para que las acciones se tomen con contexto geográfico.
+- Visibilidad inmediata de alarmas — las alarmas de apertura ilegal y corte de cadena se reenvían a Plaspy para notificaciones oportunas y seguimiento de incidentes.
+- Registro de accesos — las lecturas RFID y los eventos de acceso de operadores aparecen en Plaspy para auditorías y supervisión operativa.
+- Informes de batería y estado — el nivel de la batería principal y las alertas de batería baja son visibles en la plataforma para ayudar a planificar el mantenimiento.
+- Gestión de desbloqueo remoto — comandos autorizados de desbloqueo remoto pueden enviarse a través del maestro emparejado y gestionarse desde la plataforma o la aplicación.
+- Telemetría consolidada de la flota — los datos de la cerradura se combinan con la telemetría del vehículo proporcionada por el maestro para informes operativos más completos.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | Bluetooth 4.0PLUS \(dispositivo esclavo; se empareja con el HB-A1Lm GPS master\) |
-| --- | --- |
-| Bandas | N/A \(no hay radio celular en el esclavo; la conectividad a la red la proporciona el maestro GPS emparejado\) |
-| Alimentación y batería | Batería principal 2,950 mAh; tiempo de espera ≈ 28 días; voltaje de funcionamiento 3.3–4.6 V \(típico 4.0 V\); corriente de funcionamiento 35 mA; alarma de batería baja incluida. |
-| Interfaces | RFID \(ISO/IEC 14443 Tipo A & B, lectura hasta 10 cm, admite hasta 50 tarjetas\), sensor magnético, indicadores SYS/CHG, una interfaz serial, una toma de carga; longitudes de cadena opcionales 30/60/100 cm con alarma de corte. |
-| GNSS | No hay módulo GNSS en el esclavo — la ubicación y los datos GPS son proporcionados por el maestro GPS HB-A1Lm emparejado. |
-| Bluetooth | Bluetooth 4.0PLUS para comunicación dispositivo-maestro y emparejamiento BLE con el maestro GPS. |
-| Gestión remota | Desbloqueo remoto vía plataforma/aplicación/SMS a través del dispositivo maestro; gestión centralizada de hasta siete esclavos HB-A1L por maestro HB-A1Lm. |
-| Protección y seguridad | Clasificación IP67 a prueba de agua; diseño ATEX a prueba de explosiones para entornos peligrosos. |
-| Formato | Tamaño 115 × 115 × 45 mm; peso 625 g \(con cadena de 30 cm\); carcasa: PC retardante de llama + fibra de vidrio; tracción de la cadena hasta 1,000 kg. |
-| Ambiente | Temperatura de operación -30°C a +70°C; temperatura de almacenamiento -40°C a +85°C. |
+- Protección antirrobo de flotas para camiones cisterna y otros vehículos de carga peligrosa que requieren hardware con certificación ATEX.
+- Camiones caja y remolques refrigerados con múltiples puertas donde un único maestro GPS gestiona varias cerraduras esclavas.
+- Entregas con control de acceso donde tarjetas RFID autorizan a personal permitido y los eventos quedan registrados.
+- Protección de carga de alto valor mediante detección de corte de cadena y alarmas por manipulación para reducir riesgos de pérdida y desvío.
+- Planificación de mantenimiento y monitoreo de salud del dispositivo usando el nivel de batería y datos de alerta enviados a una plataforma central.
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Protección anti-robos de flotas para camiones cisterna de petróleo — cerradura con clasificación ATEX y alarmas de corte de cadena integradas con alertas de Plaspy para respuesta inmediata.
-- Camiones de caja multi-puerta y remolques refrigerados — un maestro GPS con múltiples esclavas HB-A1L asegura cada punto de acceso mientras Plaspy consolida el estado y los registros de acceso.
-- Entregas con control de acceso — tarjetas RFID permiten a conductores autorizados desbloquear las puertas; Plaspy registra las lecturas para cumplimiento y trazabilidad.
-- Monitoreo de carga de alto valor — la tracción de la cadena y los sensores de manipulación añaden seguridad mecánica y alertas tempranas para reducir robos y desvíos.
-- Programación de mantenimiento y telemetría — el nivel de batería y la salud del dispositivo se envían a Plaspy para planificar la recarga y reducir el tiempo de inactividad.
+Emparejar la HB-A1L con Plaspy ofrece a los operadores de flota una forma escalable de añadir seguridad a nivel de puerta al rastreo vehicular basado en GPS. La cerradura esclava mantiene el dispositivo compacto y rentable, mientras que el maestro GPS aporta ubicación y conectividad de red, permitiendo a Plaspy presentar eventos de seguridad integrados, registros de acceso y telemetría del vehículo en una sola interfaz.
 
-## Por qué elegir este tracker con Plaspy
+Para equipos centrados en la eficiencia operativa y la prevención de robos, la HB-A1L ofrece protección física robusta, control de acceso y alertas accionables. Integrada a través de Plaspy, esta combinación ayuda a reducir los tiempos de respuesta, simplificar las auditorías y centralizar la gestión de flotas con múltiples puertas sin añadir hardware celular a cada cerradura.
 
-La integración de la HB-A1L Slave Electronic Lock con Plaspy ofrece a los operadores de flotas una solución práctica y escalable de anti-robos que complementa el seguimiento y la telemetría de vehículos basada en GPS. El diseño robusto con certificación IP67 y ATEX de la HB-A1L garantiza una operación segura en entornos de carga peligrosos, mientras que el emparejamiento Bluetooth con un maestro GPS mantiene el esclavo compacto y rentable. Plaspy combina eventos de cerradura, registros de acceso RFID y alarmas con telemetría del vehículo, como ubicación, estado de combustible o estado de ignición \(cuando esté disponible desde el maestro o desde los sistemas del vehículo\), para proporcionar ideas accionables en tiempo real.
-
-Para los gestores de flotas centrados en la fiabilidad, la eficiencia operativa y la seguridad, la HB-A1L ofrece protección física probada \(resistencia de la cadena y detección de manipulación\), control de acceso flexible y larga duración de la batería. Integrada a través de Plaspy, esta configuración simplifica la gestión de la flota y acelera la respuesta ante incidentes sin añadir hardware celular a cada puerta — una enfoque eficiente para anti-robos, operaciones impulsadas por telemetría y seguridad de flota escalable.
-
+Conozca más sobre cómo Plaspy puede mostrar eventos de cerraduras, registros de acceso y telemetría de flota en el sitio principal de Plaspy https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos y certificaciones vigentes en el sitio del fabricante https://www.huabaotelematics.com/.

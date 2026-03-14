@@ -2,65 +2,61 @@
 slug: /coban/bn_408b
 id: bn_408b
 sidebar_label: BN-408B
+title: Coban - BN-408B
 sidebar_class_name: menu_item_tracker
+description: Rastreador portátil compatible con Plaspy para seguimiento discreto de activos con larga autonomía y protección antirrobo
+keywords:
+  - Coban BN-408B
+  - BN-408B
+  - rastreador Coban
+  - compatible Plaspy
+  - rastreador GPS
+  - rastreo de activos
+  - rastreo de flotas
+  - rastreador con imán
+  - rastreador de larga batería
+  - rastreador antirrobo
 ---
+
 # Coban - BN-408B
 
 ![BN-408B](./tracker.png)
 
-\<meta itemprop="name" content="BN-408B">
-  
-El BN-408B es un rastreador GPS inalámbrico portátil diseñado para una gestión discreta y de larga duración de activos móviles, así como para la protección antirrobo. Compatible con Plaspy desde el primer momento, el BN-408B ofrece seguimiento en tiempo real fiable y telemetría de alarmas completa a través de redes 2G/3G/4G, lo que lo hace ideal para la gestión de flotas, la seguridad de activos de alto valor y casos de uso logísticos donde la duración prolongada de la batería y un montaje encubierto son relevantes.
+El BN-408B es un rastreador GPS inalámbrico y portátil diseñado para la gestión discreta de activos móviles con larga autonomía y para la protección antirrobo. Pensado para despliegues de larga espera, combina una opción de montaje magnético de alta adherencia y una batería recargable de gran capacidad para permitir una fijación encubierta y de baja intervención en vehículos, equipos y otros bienes de alto valor. El equipo ofrece reportes de posición, detección de movimiento y un conjunto amplio de alarmas que facilitan los procesos de recuperación y monitoreo.
 
-Construido para despliegues a largo plazo, el BN-408B combina una adhesión magnética fuerte para un montaje rápido y discreto en el chasis de vehículos o en objetos de valor, con una batería recargable Li‑ion de 10,000 mAh para tiempos de espera prolongados. La unidad reporta la ubicación, el movimiento y un conjunto completo de alarmas a Plaspy utilizando TCP, UDP o SMS, y las variantes Model B añaden alarma SOS, alarma de desconexión de la alimentación externa y bloqueo remoto para un control antirrobo mejorado y una respuesta ante emergencias.
+Como dispositivo compatible con Plaspy desde fábrica, el BN-408B transmite datos de ubicación y alarmas a Plaspy para visibilidad en tiempo real, reproducción histórica y gestión de incidentes. Su flexibilidad de reporte y el conjunto de alarmas lo hacen ideal para organizaciones que desean incorporar rastreo encubierto y de bajo mantenimiento a su sistema de gestión de flotas y activos con Plaspy, sin integración hardware compleja.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y reproducción a través de redes 2G/3G/4G.
-- Batería Li‑ion recargable de 10,000 mAh \(3.7V\) potente para largas autonomías y operación de bajo mantenimiento.
-- La adhesión magnética fuerte facilita fijar el dispositivo de forma rápida y discreta sin instalación permanente.
-- Conjunto completo de alarmas: manipulación \(infrarrojo\), batería baja, movimiento, golpe, exceso de velocidad, área ciega y geocerca.
-- La variante Model B añade alarma SOS, alarma de desconexión de la alimentación externa y capacidades de inmovilización remota.
-- Monitoreo de voz remoto para escuchar emergencias y mejorar la conciencia situacional.
-- Informes flexibles vía TCP/UDP/SMS y configuración remota para implementaciones a gran escala de flotas e integración de telemetría.
+- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y reproducción histórica a través de redes 2G, 3G y 4G.
+- Gran batería recargable de 10,000 mAh para largos periodos en espera y menores intervalos de mantenimiento.
+- Fijación mediante potente magnetismo para montaje rápido y discreto en el chasis de vehículos o en objetos de valor.
+- Conjunto amplio de alarmas que incluye manipulación, batería baja, movimiento, choque, exceso de velocidad, zonas sin cobertura y geocercas.
+- La variante Modelo B añade alarma SOS, alarma por desconexión de alimentación externa e inmovilización remota para mayor control antirrobo.
+- Capacidad de monitoreo de voz remoto para apoyar la evaluación de emergencias y la verificación de incidentes.
+- Reportes flexibles vía TCP, UDP y SMS para integrarse con los flujos de monitoreo y alertas de Plaspy.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el BN-408B transmite datos de ubicación y alarmas a sus paneles de gestión de flotas y seguimiento de activos, para una visibilidad en tiempo real y reproducción histórica. Plaspy recibe actualizaciones de posición, alarmas y mensajes de estado mediante TCP, UDP o SMS y los transforma en alertas, informes y reglas de automatización adecuadas para flujos de trabajo anti‑robo, despacho y análisis.
+Al integrarse con Plaspy, el BN-408B envía actualizaciones de posición y mensajes de alarma a la plataforma Plaspy, lo que permite que los equipos monitoricen activos en tiempo real, revisen el historial y respondan a incidentes desde un panel central. Plaspy interpreta los informes y alarmas entrantes para mostrarlos en mapas, notificaciones y registros históricos que respaldan las respuestas operativas y de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento en vivo y visualización en mapa.
-- Reproducción de rutas e historial para reconstrucción de itinerarios y generación de informes de cumplimiento.
-- Alertas de geovalla y notificaciones de alarma de área ciega para detectar movimientos no autorizados o pérdida de ubicación.
-- Alarmas de baja batería, movimiento, impacto y manipulación para activar respuestas de mantenimiento o seguridad.
-- Funciones específicas de Model B: alarma SOS, alarma de desconexión de la alimentación externa y comandos de inmovilización remota \(cuando estén activados\) para intervención anti‑robo.
-- Monitoreo de voz remoto para evaluar emergencias; los datos y los incidentes de audio están disponibles en los registros de incidentes de Plaspy.
-- Se integra en flujos de telemetría más amplios: al combinarlo con sensores de vehículo o entradas de telemetría compatibles con Plaspy, datos como el encendido y la monitorización de combustible pueden correlacionarse con la posición y los eventos de alarma del BN-408B.
+- Ubicación y telemetría en tiempo real mostradas en los mapas de Plaspy para seguimiento en vivo.
+- Reproducción de trayectos e historial para reconstrucción de rutas y fines de auditoría.
+- Alertas de geocerca y zonas sin cobertura para detectar movimientos no autorizados o pérdida de señal.
+- Alarmas de batería baja, movimiento, choque y manipulación para activar flujos de mantenimiento o seguridad.
+- Funciones específicas de la Variante B, como SOS e inmovilizador remoto, que ayudan en la respuesta de emergencias y la recuperación.
+- Incidentes con monitoreo de voz remoto registrados junto con otros eventos en los registros de incidentes de Plaspy para mejorar la conciencia situacional.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Model | BN-408B \(product model 408\) |
-| --- | --- |
-| Connectivity | GSM/GPRS/WCDMA/LTE \(2G/3G/4G\) |
-| Bands | 4G: B1/B2/B3/B4/B5/B7/B8/B28A/B28B/B40; 3G: B1/B2/B3/B5/B8; 2G: 850/900/1800/1900 MHz |
-| Power & Battery | Rechargeable 10,000 mAh Li‑ion battery \(3.7V\); extended standby for long-term tracking |
-| Interfaces & Accessories | Standard harness with SOS button and relay; charging data cable included; manufacturer provides hardware interface images and installation harnesses; Model B supports remote immobilization and external power disconnect alarm |
-| GNSS Performance | GPS sensitivity -165 dBm; position accuracy approximately 5 m; TTFF ~45 s \(cold\), ~35 s \(warm\), ~1 s \(hot\) |
-| Reporting & Remote Management | TCP/UDP/SMS reporting and remote configuration; standard SMS setup commands plus remote configuration via network |
-| Dimensions & Weight | 106 mm x 63 mm x 37.5 mm; 343 g |
-| Environmental | Operating temperature -20°C to +45°C; storage -40°C to +85°C; humidity 5%–95% non‑condensing |
-| Form Factor | Portable, magnet-mountable enclosure for covert vehicle or asset attachment |
-
-## Casos de uso
-
-- Antirrobo y inmovilización de flotas — use el inmovilizador remoto de Model B y la alarma SOS para una respuesta rápida ante robo o uso no autorizado.
-- Seguimiento a largo plazo de logística y equipos — la vida útil de la batería y los modos de ahorro de energía reducen el mantenimiento de remolques, contenedores y equipos en arrendamiento.
-- Protección de activos de alto valor — montaje magnético y detección de manipulación permiten un monitoreo discreto de maquinaria de construcción, generadores y otros objetos de valor.
-- Respuesta ante emergencias y verificación de incidentes — la alarma SOS y el monitoreo de voz remoto permiten decisiones de despacho más rápidas y mejor informadas.
-- Monitoreo encubierto de activos para flotas de alquiler e inventario móvil — las alarmas de geovalla, movimiento y área ciega apoyan los procesos de prevención de pérdidas.
+- Protección antirrobo de flotas donde el montaje encubierto y la inmovilización remota aumentan las probabilidades de recuperación.
+- Rastreo logístico y de equipos a largo plazo para remolques, activos en leasing y maquinaria estacional.
+- Seguridad de activos de alto valor como maquinaria de construcción, generadores y otros bienes portátiles.
+- Monitoreo en respuesta a emergencias mediante alarmas SOS y evaluación remota por voz.
+- Supervisión encubierta de flotas de alquiler e inventario móvil para reducir pérdidas y facilitar verificaciones.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El BN-408B está diseñado para organizaciones que requieren seguimiento GPS confiable y compatible con Plaspy, con una instalación mínima y intervalos de servicio prolongados. Su batería de 10,000 mAh y su diseño con montaje magnético lo convierten en una opción práctica para activos móviles y equipos que se desplazan con poca frecuencia o que son difíciles de cablear. Combinado con Plaspy, el BN-408B alimenta datos de seguimiento en tiempo real, alarmas e historial a una plataforma escalable de gestión de flotas, permitiendo decisiones basadas en telemetría en áreas como monitorización de combustible, flujos de trabajo relacionados con el encendido y el despacho cuando existan sensores externos o arneses de vehículo.
+El BN-408B es una opción práctica para organizaciones que necesitan rastreo confiable con mínima instalación permanente y largos intervalos de servicio. Su combinación de autonomía extendida y montaje magnético lo hace especialmente apto para activos difíciles de cablear o que requieren una colocación discreta. En conjunto con Plaspy, el dispositivo aporta datos de posición, alarmas e historial a una plataforma escalable para monitoreo, reportes y gestión de incidentes.
 
-Opte por el BN-408B por un equilibrio entre larga vida de la batería, montaje encubierto y informes flexibles \(TCP/UDP/SMS\). Las variantes Model B aportan controles antirrobo adicionales—alarma SOS y inmovilización remota—para que pueda implementar procesos de recuperación proactiva y flujos de incidentes en Plaspy. Para empresas centradas en un seguimiento en tiempo real fiable, protección anti‑robo e integración telemática, el BN-408B representa una opción directa y compatible con Plaspy que minimiza el tiempo de instalación y maximiza la visibilidad operativa.
-
+Para obtener más información sobre Plaspy y cómo dispositivos compatibles como el BN-408B encajan en un flujo completo de gestión de flotas y activos, visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo; por favor verifique las especificaciones y los detalles técnicos actuales en el sitio del fabricante https://www.coban.net/.

@@ -2,60 +2,61 @@
 slug: /gotop/g02_4g
 id: g02_4g
 sidebar_label: G02-4G
+title: GOTOP - G02-4G
 sidebar_class_name: menu_item_tracker
+description: Compact IP67 4G GPS tracker for motorcycles e bikes and cars compatible with Plaspy for real time fleet tracking and alerts
+keywords:
+  - GOTOP G02-4G
+  - G02-4G tracker
+  - G02 4G GPS
+  - GOTOP GPS tracker
+  - G02-4G Plaspy
+  - motorcycle GPS
+  - e-bike tracker
+  - fleet tracking
+  - vehicle tracker
+  - IP67 GPS tracker
 ---
+
 # GOTOP - G02-4G
 
 ![G02-4G](./tracker.jpg)
 
-The G02-4G is a compact, rugged GPS tracker from a purpose-built hardware line designed for motorcycles, e-bikes and cars. Plaspy compatible out of the box, the G02-4G delivers reliable real-time tracking over 4G LTE \(with fallback to 3G/2G\) plus SMS reporting, an IP67-rated enclosure for outdoor use, and vehicle-grade electrical tolerance \(9–95V\) for seamless fleet installations.
+The GOTOP G02-4G is a compact, rugged GPS tracker from a purpose built hardware line designed for motorcycles, e-bikes and cars. It supports real time tracking over 4G LTE with fallback to 3G and 2G plus SMS reporting, and is housed in an IP67 rated enclosure for outdoor use. The device is engineered for vehicle environments with a wide input voltage range and positioning performance suitable for routine fleet and asset tracking.
 
-Engineered for precise positioning and persistent telemetry, the G02-4G pairs an AT6558D GNSS chipset and an EC21AUFA-512-STD 4G module to provide GPS accuracy within 5 meters. When integrated with Plaspy, the G02-4G becomes a turnkey GPS tracker for fleet management, anti-theft workflows, and continuous vehicle monitoring with event-driven alerts and position history.
+As a Plaspy compatible device out of the box, the G02-4G integrates into Plaspy for live mapping, event driven alerts and historical position data. When paired with Plaspy, the tracker provides turnkey location visibility and telemetry that can support fleet monitoring, anti theft workflows and continuous vehicle oversight without complex custom integration.
 
 ## Key Highlights
 
-- Plaspy compatible: real-time tracking via 4G or SMS and direct telemetry integration with Plaspy dashboards and alerts.
-- Robust outdoor design: IP67 waterproof protection and compact form factor for motorcycles, e-bikes and cars.
-- Wide vehicle voltage range: 9–95V input supports diverse vehicle installations without extra converters.
-- Accurate positioning: AT6558D GNSS chipset delivers GPS accuracy within 5 meters for dependable location data.
-- Comprehensive event alerts: ACC \(ignition\) detection, geo-fencing, vibration, movement, low battery and main power cut alarms.
-- Multi-network connectivity: 4G LTE with 3G/2G fallback for broad regional compatibility and improved real-time tracking.
-- Compact and lightweight: 90 x 57 x 20 mm, 68 g — easy to fit on small vehicles and discreet assets.
+- Plaspy compatible for real time tracking via 4G or SMS with direct telemetry integration to Plaspy dashboards and alerts
+- Rugged IP67 enclosure and compact form factor suited to motorcycles, e-bikes and cars
+- Wide vehicle voltage acceptance simplifies installations across diverse vehicle types
+- Accurate positioning with GNSS performance reported within about 5 meters for dependable location data
+- Built in event alarms including ignition detection, geo fencing triggers, vibration and movement alerts, low battery and main power cut notifications
+- Multi network connectivity that provides regional coverage resilience and improved real time tracking reliability
 
 ## How It Works with Plaspy
 
-The G02-4G sends location and event data to Plaspy using its 4G connection or optionally via SMS. Plaspy ingests these updates to provide live maps, telemetry dashboards, automated alerts and historical reporting. Integration is straightforward: once the device is connected to a mobile network and configured to point to Plaspy’s ingestion endpoint, GPS positions, ACC/ignition state and alarm events appear in real time for fleet management and anti-theft workflows.
+The G02-4G forwards location and event data to Plaspy using its cellular link or SMS as a redundant path. Plaspy ingests those updates to provide live maps, telemetry dashboards, automated alerts and historical reporting for operational oversight. Integration is designed to present positions and device events in context on Plaspy so teams can react and analyze with existing workflows.
 
-- Real-time location and telemetry updates over 4G \(with 3G/2G fallback\) or SMS for redundancy.
-- Ignition \(ACC\) detection for drive/idle reporting and event-driven rules within Plaspy.
-- Geo-fencing triggers and movement/vibration alarms to support anti-theft and recovery actions.
-- Low battery and main power cut alarms to notify operators of tampering or power loss.
-- Data compatibility with Plaspy’s alerting, reporting and API-driven automation — enabling fleet management, route replay and compliance reporting.
+- Real time location and telemetry updates over cellular or SMS for redundancy
+- Ignition detection for drive and idle reporting and for triggering rules inside Plaspy
+- Geo fencing, movement and vibration alarms to support anti theft responses and recovery actions
+- Low battery and main power cut alerts to surface tampering or power issues to operators
+- Data available for Plaspy alerting, reporting, route replay and API driven automation
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE \(primary\), 3G and 2G fallback; SMS reporting supported |
-| --- | --- |
-| Bands \(EU model\) | LTE-FDD B1/B3/B5/B7/B8/B20; LTE-TDD B38/B40/B41; WCDMA B1/B5/B8; GSM B3/B8 |
-| Power & Battery | Working voltage 9–95V; built-in backup battery 3.7V 140 mAh |
-| Inputs & Alarms | ACC \(ignition\) detection; geo-fencing; vibration alarm; movement alarm; low battery alarm; main power cut alarm |
-| GNSS | AT6558D GPS chip; positioning accuracy within 5 meters |
-| Antennas | Inbuilt GPS and GSM antennas |
-| Bluetooth | No Bluetooth specified / not included in supplied specification |
-| Remote Management | Remote configuration via network \(device points to Plaspy\); FOTA or web management not specified |
-| Form Factor & Durability | Compact: 90 x 57 x 20 mm; weight 68 g; IP67 waterproof |
-
-## Use Cases
-
-- Fleet management for mixed vehicle fleets — cars, motorcycles and e-bikes — requiring centralized GPS tracker telemetry and route history.
-- Anti-theft monitoring and recovery for motorcycles and e-bikes using geo-fencing, vibration and movement alarms paired with Plaspy alerts.
-- E-bike and micro-mobility tracking where compact size, IP67 protection and wide voltage acceptance simplify installation.
-- Theft recovery for cars and light assets, using continuous 4G tracking and main power cut detection to detect tampering.
-- General asset tracking where ruggedness and reliable 4G connectivity are priorities \(trailers, equipment, mobile generators\).
+- Centralized fleet management for mixed vehicle fleets including cars motorcycles and e-bikes
+- Anti theft monitoring and recovery workflows for motorcycles and e-bikes using geo fencing and movement alarms
+- Micro mobility and e-bike tracking where compact size and IP67 protection matter
+- Theft recovery and tamper detection for light vehicles using continuous cellular tracking
+- Rugged asset tracking for trailers equipment or mobile generators needing reliable outdoor performance
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the G02-4G for Plaspy integration delivers a practical balance of rugged hardware, network flexibility and vehicle-grade telemetry. Its wide 9–95V input and compact IP67 enclosure reduce installation complexity across vehicle types, while the AT6558D GPS chipset and EC21AUFA-512-STD 4G module provide accurate positioning and stable network connectivity for real-time tracking.
+The G02-4G offers a practical combination of rugged hardware and network flexibility that fits many Plaspy deployments. Its compact IP67 design and wide voltage acceptance make it a good candidate for organizations that need a single hardware option across different vehicle types. Paired with Plaspy, the device’s event signals and position updates can be turned into actionable alerts, fleet reports and historical analysis without extensive customization.
 
-For organizations deploying GPS trackers across motorcycles, e-bikes and cars, the G02-4G offers straightforward Plaspy compatibility for fleet management and anti-theft programs. Plaspy can leverage the device’s ACC/ignition information, geo-fence events, movement and vibration alarms, and power-loss alerts to deliver actionable telemetry. If additional telemetry such as fuel monitoring, immobilizer control or Bluetooth sensor integration is required, Plaspy can often combine device data with vehicle CAN interfaces or external sensor inputs where supported — enabling a broader telemetry and control strategy without overstepping the device’s documented capabilities.
+For teams focused on fleet visibility and anti theft workflows, the G02-4G delivers straightforward compatibility with Plaspy to support real time monitoring and operational reporting. If your deployment needs expand, Plaspy can incorporate the device data into broader workflows and reporting strategies while maintaining clarity about what the tracker provides.
 
+Learn more about using compatible trackers and Plaspy on the Plaspy main website https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details on the manufacturer site https://www.gotop.cc/ before purchasing or deploying devices.

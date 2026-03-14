@@ -2,56 +2,62 @@
 slug: /tk_star/tk970
 id: tk970
 sidebar_label: TK970
+title: TK-Star - TK970
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto TK-Star TK970 4G compatible con Plaspy para seguimiento en tiempo real, alertas y reportes históricos
+keywords:
+  - TK-Star TK970
+  - rastreador GPS TK970
+  - rastreador TK-Star
+  - TK970 Plaspy
+  - rastreador vehicular
+  - rastreador para motocicleta
+  - seguimiento de flotas
+  - seguimiento en tiempo real
+  - rastreador antirrobo
+  - dispositivo de telemetría
 ---
+
 # TK-Star - TK970
 
 ![TK970](./tracker.jpg)
 
-El TK970 4G es un rastreador GPS compacto para vehículos, diseñado para motocicletas, automóviles privados, flotas de alquiler y activos de vehículos mixtos. Compatible con Plaspy desde el primer uso, el TK970 4G ofrece posicionamiento y telemetría fiables en múltiples modos, de modo que operadores y propietarios pueden usar Plaspy para seguimiento en tiempo real, alertas de eventos e informes históricos en entornos urbanos y remotos.
+El TK970 4G de TK-Star es un rastreador GPS vehicular compacto pensado para motocicletas, autos particulares, flotas de alquiler y activos vehiculares mixtos. Diseñado para ofrecer posicionamiento y telemetría confiables en múltiples modos, el TK970 admite GNSS y mecanismos de respaldo por red para mantener el reporte de ubicación tanto en entornos urbanos como remotos. Su formato compacto y las funciones de seguridad integradas lo hacen adecuado para una amplia variedad de escenarios de seguimiento móvil.
 
-El TK970 4G combina GNSS preciso, conectividad celular \(4G/LTE, NB‑IoT, Cat M1 y variantes 2G\) y un conjunto de funciones de seguridad y control remoto — incluyendo SOS, corte remoto del motor/aceite mediante relé, micrófono incorporado y un sensor de vibración sensible — lo que lo convierte en un rastreador GPS práctico para anti‑robo, gestión de flotas y monitorización remota cuando se integra con la plataforma Plaspy.
+La compatibilidad con Plaspy está integrada, por lo que el TK970 puede transmitir datos de posición y eventos directamente a Plaspy para monitoreo en vivo, alertas y reportes históricos. Esta integración lista para usar permite a operadores y propietarios aprovechar los paneles y las reglas de notificación de Plaspy para convertir los datos de ubicación y eventos del TK970 en visibilidad operativa y capacidades de respuesta ante incidentes.
 
-## Aspectos clave
+## Características principales
 
-- Compatible con Plaspy: integración fluida para seguimiento en tiempo real, alertas y paneles de la flota.
-- Posicionamiento multivía: GPS, BeiDou \(BD\), GLONASS, además de LBS y Wi‑Fi como respaldo para una mejor cobertura tanto en interiores como exteriores.
-- Funciones de seguridad: botón de emergencia SOS, alarma de vibración y corte remoto del motor/aceite mediante relé para respuesta anti‑robo.
-- Compacto y robusto: factor de forma reducido \(98 × 54 × 16,5 mm\) y rangos de voltaje de operación amplios, aptos para motocicletas, automóviles y vehículos comerciales.
-- Soporte celular ampliado: variantes de bandas regionales 4G LTE más NB‑IoT, Cat M1 y 2G para una implementación global amplia.
-- Telemetría en el dispositivo: monitorización de voz remota \(micrófono integrado\), geocerca, alertas de sobre‑velocidad y movimiento con retención del historial de rutas en el servidor.
-- Suministro de reserva de bajo consumo: batería interna de 180 mAh ofrece aproximadamente dos horas en modo de espera cuando se interrumpe la alimentación externa.
+- Compatible con Plaspy para integración directa con seguimiento en tiempo real, alertas y paneles de gestión de flotas.
+- Posicionamiento multimodal con GNSS y respaldo por red para mejorar la cobertura en entornos mixtos.
+- Funciones orientadas a la seguridad, que incluyen botón SOS, alarma por vibración y relay para el corte remoto del motor o del suministro de combustible como respuesta antirobo.
+- Factor de forma compacto y robusto adecuado para motocicletas, autos y activos vehiculares mixtos.
+- Amplio soporte celular para variantes regionales 4G y opciones 2G heredadas, facilitando despliegues en distintas zonas.
+- Telemetría a bordo, como micrófono integrado, alertas de geocerca y de movimiento, con historial de rutas almacenado en servidor.
+- Batería de respaldo interna que proporciona autonomía temporal cuando se pierde la alimentación externa.
 
 ## Cómo funciona con Plaspy
 
-Una vez instalado el TK970 4G en un vehículo o activo, transmite datos de posicionamiento y eventos a través de redes celulares a Plaspy. Plaspy procesa coordenadas GNSS, posiciones de respaldo de red \(LBS/Wi‑Fi\) y eventos telemáticos para que los gestores de flota y los propietarios reciban actualizaciones de ubicación precisas, alertas automáticas e informes consolidados a través de las interfaces web y móvil de Plaspy.
+Al instalarse en un vehículo, el TK970 transmite datos de posición y eventos a través de redes celulares hacia Plaspy, donde la plataforma procesa coordenadas, posiciones de respaldo y eventos telemáticos. Plaspy consolida la información entrante para que administradores de flotas y propietarios puedan ver la ubicación en vivo, recibir alertas automatizadas y revisar rutas históricas desde una sola interfaz.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento en vivo y cartografía.
-- Notificaciones de emergencia SOS y alertas remotas enrutadas a través de Plaspy para una respuesta rápida.
-- Estado del relé y acciones del inmovilizador remoto \(corte y reanudación del motor/aceite\) registradas y controlables a través de Plaspy.
-- Alertas de eventos soportadas: incumplimientos de geocerca, alertas de movimiento, alarmas de vibración y notificaciones de sobrevelocidad.
-- Almacenamiento histórico de rutas en el servidor \(retención de datos de aproximadamente seis meses\) para reproducción y generación de informes de cumplimiento.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para mapeo y monitoreo de flotas.
+- Notificaciones SOS y de emergencia reenviadas a través de Plaspy para una respuesta oportuna.
+- Estados de relay y acciones de inmovilizador remoto registradas y controlables desde la plataforma Plaspy.
+- Alertas de eventos como violaciones de geocerca, alarmas por vibración, movimiento y exceso de velocidad dirigidas a las reglas y canales de notificación de Plaspy.
+- Almacenamiento de rutas históricas disponible para reproducción y generación de reportes que apoyen investigaciones y cumplimiento normativo.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE \(con variantes de bandas regionales\), NB‑IoT, Cat M1, 2G \(EGPRS 850/900/1800/1900 MHz\) |
-| --- | --- |
-| Bandas | Europa/MEA/Korea/Tailandia FDD: B1/B3/B7/B8/B20/B28A; WCDMA: B1/B8; GSM: B3/B8. Variantes disponibles para Sudamérica, Nueva Zelanda y Australia \(bandas FDD/TDD\). |
-| Alimentación y batería | Voltaje de operación DC 9 V–75 V; batería interna de respaldo de 180 mAh \(polímero de 3.7 V\) con ~2 horas en espera. |
-| Interfaces / E/S | Relé para corte remoto del motor/aceite y reanudación; botón de emergencia SOS; micrófono incorporado para monitorización de voz remota; sensor de vibración sensible para alarmas de manipulación/movimiento; admite notificaciones por SMS y APP/WEB y acciones de control remoto. |
-| GNSS | Chipset GPS MT6261D; soporte de múltiples constelaciones que incluye GPS, BeiDou \(BD\) y GLONASS; sensibilidad GPS −159 dBm; precisión típica ~5 m; TTFF frío 35–80 s, tibio 35 s, caliente 1 s. |
-| Gestión remota | Notificaciones por SMS y plataformas APP/WEB; funciones de control remoto como detener el vehículo \(control de relé\) y reporte de estado via Plaspy. |
-| Formato y entorno | Dimensiones 98 × 54 × 16.5 mm, peso 81 g. Temperatura de operación −20°C a +55°C; almacenamiento −40°C a +85°C; humedad 5%–95% sin condensación. |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real de coches, furgonetas y camiones con historial de rutas e informes de velocidad excesiva en Plaspy.
-- Protección anti‑robo: alarmas de vibración, SOS y corte remoto del motor/aceite para inmovilizar vehículos robados o evitar usos no autorizados.
-- Monitoreo de vehículos de alquiler y scooters: ubicación, alertas de movimiento y reproducción histórica para facturación e investigación de incidentes.
-- Protección remota de activos: instalación compacta en motocicletas y equipos al aire libre donde la posición interior/exterior y la reserva de LBS/Wi‑Fi son relevantes.
-- Telemetría operativa: integrar datos de posición y eventos del TK970 con los paneles de Plaspy para complementar telemetría de terceros \(por ejemplo, monitorización de combustible o sensores Bluetooth conectados a través de la plataforma\) para una visión consolidada de la flota.
+- Gestión de flotas de autos, camionetas y activos mixtos con monitoreo centralizado e historial de rutas.
+- Protección antirrobo mediante alertas por vibración, SOS y corte remoto de motor o combustible para disuadir o responder a robos.
+- Monitoreo de vehículos y scooters de alquiler para facturación basada en ubicación, investigación de incidentes y recuperación de activos.
+- Rastreo de motocicletas y activos compactos donde el tamaño reducido y las opciones de posicionamiento de respaldo son cruciales.
+- Supervisión operativa e informes donde la telemetría consolidada respalda despacho y flujos de trabajo de mantenimiento.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El TK970 4G ofrece una combinación equilibrada de hardware compacto, cobertura celular amplia y características de seguridad prácticas que se integran bien con las capacidades de seguimiento en tiempo real e informes de Plaspy. Para gestores de flota y propietarios individuales que necesitan datos de ubicación confiables, alertas basadas en eventos y acciones de control remoto, el TK970 ofrece telemetría consistente sin complejidad innecesaria. Emparejado con Plaspy, obtienes paneles centralizados, reglas de alertas y reproducción histórica que transforman los datos brutos de GPS y de eventos del TK970 en insights accionables para la gestión de la flota, la respuesta ante robo y la eficiencia operativa continua.
+El TK970 combina características prácticas de hardware con las capacidades de la plataforma Plaspy para ofrecer visibilidad vehicular sencilla y flujos de trabajo basados en eventos. Su diseño compacto, posicionamiento multimodal y controles básicos de seguridad lo convierten en una opción flexible para organizaciones que requieren datos de ubicación consistentes sin complejidad innecesaria.
 
+Al utilizarlo con Plaspy, las corrientes de posición y eventos del TK970 se integran en paneles centralizados, reglas de alerta y reproducciones históricas que apoyan las operaciones diarias de la flota, las medidas antirrobo y la revisión posterior a incidentes. La información disponible es amplia y funcional, por lo que evaluar el TK970 junto con Plaspy permite a los equipos determinar cómo encaja el dispositivo en sus procesos de seguimiento y reporte existentes.
+
+Para saber más sobre cómo Plaspy soporta dispositivos como el TK970 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y la compatibilidad actuales en el sitio oficial de TK Star https://www.tk-star.com/.

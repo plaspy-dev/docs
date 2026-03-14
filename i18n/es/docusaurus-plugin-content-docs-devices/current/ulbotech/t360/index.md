@@ -2,61 +2,60 @@
 slug: /ulbotech/t360
 id: t360
 sidebar_label: T360
+title: Ulbotech - T360
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD plug and play compacto con reporte de conducta de conducción y compatibilidad con Plaspy para flotas y vehículos
+keywords:
+  - Ulbotech T360
+  - Rastreador GPS T360
+  - Rastreador Ulbotech
+  - Compatible con Plaspy
+  - Rastreador GPS OBD
+  - telemática vehicular
+  - seguimiento de flotas
+  - reporte de comportamiento de conducción
+  - actualizaciones FOTA
+  - soporte de inmovilizador
 ---
+
 # Ulbotech - T360
 
 ![T360](./tracker.jpg)
 
-El rastreador GPS OBD T360 es un dispositivo telemático plug-and-play diseñado para una instalación rápida en automóviles y vehículos ligeros a través de la toma OBD-II del vehículo. Construido alrededor de un motor GNSS u-blox 6M y un módem GPRS/GSM cuádruple banda, el T360 ofrece un rendimiento fiable como rastreador GPS, seguimiento en tiempo real, reportes de eventos e información sobre la conducción. Sus antenas internas, detección automática de APN y de la zona horaria y las actualizaciones de firmware FOTA simplifican la implementación y el mantenimiento, haciendo del T360 una opción práctica para flotas y la monitorización de vehículos individuales que requieren hardware compatible con Plaspy.
+El Ulbotech T360 es un rastreador OBD plug and play pensado para despliegues rápidos en autos y vehículos comerciales ligeros. Construido alrededor del motor GNSS u blox 6M y un módem GPRS/GSM cuatribanda, el equipo ofrece posicionamiento en tiempo real, notificación de eventos y análisis del comportamiento de conducción. Sus antenas internas, detección automática de APN y zona horaria, y funciones de actualización de firmware facilitan la implementación y el mantenimiento tanto para flotas como para propietarios particulares.
 
-El T360 es compatible con Plaspy para una integración sencilla con el backend, ofreciendo envíos de posición de forma periódica e inmediata, alarmas, eventos de geocerca e informes de comportamiento del conductor. Con una salida de inmovilizador interna, soporte de monitor de voz y un acelerómetro de 3 ejes para detectar maniobras en curva, frenadas bruscas y exceso de velocidad, el T360 admite flujos de trabajo anti-robos, alimentación de telemetría y casos de uso de gestión de flotas mientras mantiene la instalación rápida y no invasiva.
+Como dispositivo compatible con Plaspy, el T360 se integra con plataformas backend para enviar cargas periódicas e inmediatas de posición, alarmas, eventos de geocerca y reportes de comportamiento del conductor. Su salida interna para inmovilizador, la capacidad de monitor de voz y el acelerómetro de 3 ejes hacen que la unidad sea útil en flujos antirrobo, alimentación de telemetría y monitoreo operativo que Plaspy puede procesar, mostrar y accionar desde sus paneles y reglas de alerta.
 
-## Aspectos clave
+## Características principales
 
-- Instalación OBD-II plug-and-play para despliegues rápidos en vehículos y flotas de alquiler.
-- Módulo GNSS u-blox 6M con A‑GPS para soluciones de posición robustas y seguimiento de alta sensibilidad.
-- Conectividad quad-band GPRS/GSM \(850/900/1800/1900 MHz\) con soporte para multi-slot class 12.
-- Acelerómetro de 3 ejes a bordo para detección de comportamiento de conducción \(curvas, frenadas bruscas y exceso de velocidad\).
-- Inmovilizador integrado \(salida digital para corte del motor\) y monitor de voz para apoyar flujos de trabajo de anti-robo y seguridad.
-- Antenas GSM/GPS internas, además de identificación automática de APN y de la zona horaria, reducen los pasos de configuración.
-- FOTA \(actualización de firmware por GPRS\) simplifica el mantenimiento remoto y la escalabilidad.
+- Diseño OBD II plug and play para instalaciones rápidas y no invasivas en flotas de vehículos.
+- Motor GNSS u blox 6M para fijaciones de posición confiables y rendimiento de seguimiento consistente.
+- Conectividad GPRS/GSM cuatribanda para cobertura celular amplia en regiones compatibles.
+- Acelerómetro onboard de 3 ejes que detecta virajes bruscos, frenadas fuertes y excesos de velocidad.
+- Salida interna para inmovilizador y soporte de monitor de voz para flujos de seguridad y recuperación.
+- Detección automática de APN y zona horaria, además de actualizaciones remotas de firmware para reducir la configuración manual.
+- Factor de forma compacto y antenas internas para una instalación ordenada y escalabilidad en flotas.
 
 ## Cómo funciona con Plaspy
 
-Cuando se utiliza junto con Plaspy, el T360 envía paquetes de posición y telemetría seguros a su backend de Plaspy mediante GPRS. Plaspy ingiere el flujo de ubicación del dispositivo, eventos de conducción basados en el acelerómetro, desencadenadores de geocerca y mensajes de alarma/estado para proporcionar paneles de control, alertas e informes que los gestores de flotas y los propietarios de vehículos pueden interpretar en tiempo real. La conexión OBD garantiza energía continua y acceso a valores de estado del vehículo que enriquecen la telemetría; Plaspy luego correlaciona esos datos brutos en salidas útiles para la gestión de flotas, flujos de trabajo anti-robo y puntuación de conductores.
+Al integrarse con Plaspy, el T360 envía datos de ubicación y eventos al backend de Plaspy, donde se procesan en paneles, alertas e informes útiles para la operación. Plaspy consume el flujo de posiciones y los mensajes de evento para ofrecer visibilidad en vivo, reproducción histórica y notificaciones configurables que apoyan la supervisión de flotas y los flujos de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a los servidores de Plaspy a través de GPRS.
-- Soporte de inmovilizador del motor \(corte del motor\) para flujos de trabajo de apagado remoto del vehículo.
-- Eventos de comportamiento de conducción \(curvas, frenadas bruscas, exceso de velocidad\) reportados como telemetría para la puntuación de seguridad.
-- Cruce de límites de geocerca y reportes de posición GPS programados para monitorizar rutas y generar alertas.
-- Voltaje de la batería del vehículo, estado de la batería de respaldo y telemetría de temperatura a bordo disponibles para chequeos de salud y diagnósticos.
+- Actualizaciones de ubicación en tiempo real y envíos periódicos de posición visibles en los paneles de Plaspy.
+- Eventos de comportamiento de conducción reportados a Plaspy para puntuación de seguridad y análisis de tendencias.
+- Disparos de geocerca y mensajes de alarma dirigidos a Plaspy para alertas inmediatas.
+- Alertas de inmovilizador y de estado disponibles en Plaspy para acciones antirrobo y flujos remotos.
+- Informes de telemetría y estado del vehículo presentados en Plaspy para planificación de mantenimiento y diagnóstico.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | módem quad-band GPRS/GSM \(850/900/1800/1900 MHz\), GPRS multi-slot class 12, MS class B |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(quad-band\) |
-| Alimentación y batería | Voltaje de operación 8–32 V DC; batería Li-Polymer 3.7 V, 180 mAh de respaldo; modos de bajo consumo para ampliar la vida de la batería de respaldo |
-| Interfaces | Toma OBD-II \(alimentación/datos\), ranura SIM normal, micro USB para configuración/actualización; una salida digital para corte de motor \(inmovilizador interno\) |
-| GNSS | Conjunto u-blox 6M con A-GPS; sensibilidad de seguimiento hasta -162 dBm y precisión de posición autónoma \< 3 m \(según fabricante\) |
-| Bluetooth | No incluido / N/A \(el dispositivo utiliza GSM/GPS y interfaces OBD internas\) |
-| Gestión remota | Actualización de firmware por GPRS \(FOTA\); identificación automática de APN y de la zona horaria |
-| Sensores e entradas | Acelerómetro de 3 ejes, monitorización del voltaje de la batería del vehículo, voltaje de la batería de respaldo, sensor de temperatura, capacidad de monitor de voz |
-| Formato | Diseño de enchufe OBD-II; dimensiones aprox. 62 × 50 × 23 mm \(sin conector J1962\); peso ~50 g; antenas GSM/GPS internas |
-| Ambiental | Rango de temperatura de operación –30°C a +80°C \(sin batería\) |
-
-## Casos de uso
-
-- Gestión de flotas — seguimiento en tiempo real, reproducción de rutas, puntuación del comportamiento del conductor y reportes de posición programados para la supervisión operativa.
-- Anti-robo e inmovilización — salida de corte del motor interna y alertas de geocerca ayudan a recuperar vehículos robados y a prevenir uso no autorizado.
-- Monitoreo de alquiler/seguros — instalación OBD no invasiva, monitor de voz e informes de conducción respaldan telemática de seguros y perfiles de alquiler.
-- Asistencia en carretera y salud del vehículo — telemetría de voltaje de la batería y de temperatura proporcionan alertas tempranas de averías o problemas de carga.
-- Seguimiento de adolescentes o familiares — ubicación en tiempo real, alertas de velocidad y frenadas bruscas para fomentar hábitos de conducción más seguros.
+- Gestión de flotas con seguimiento en vivo, reproducción de rutas y monitoreo del comportamiento del conductor.
+- Prevención y recuperación ante robos mediante la salida de inmovilizador y alertas por geocerca.
+- Telemática para rentadoras y aseguradoras donde se prefiere una instalación OBD no invasiva.
+- Monitoreo del estado del vehículo y asistencia en carretera utilizando estado y telemetría a bordo.
+- Supervisión de vehículos familiares o de empresa para fomentar una conducción más segura y una respuesta más rápida ante incidentes.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El T360 está diseñado para organizaciones y propietarios que necesitan un rastreador GPS compatible con Plaspy que minimice la complejidad de instalación al tiempo que ofrezca telemetría útil y funciones de seguridad. La instalación OBD plug-and-play elimina problemas de cableado y permite que las flotas equipen vehículos con rapidez. Su rendimiento GNSS de u-blox y la conectividad GPRS cuádruple banda aseguran un seguimiento en tiempo real consistente; FOTA y APN automático facilitan el mantenimiento remoto a escala. Los sensores integrados y el inmovilizador interno permiten acciones anti-robo, analítica del comportamiento del conductor y monitoreo de la salud del vehículo, que se integran directamente en los paneles de Plaspy y en las reglas de alerta.
+El T360 es una opción práctica para organizaciones que buscan un rastreador compacto montado en OBD que reduzca el tiempo de instalación y aporte telemetría relevante para operaciones de flota y seguridad. Su combinación de posicionamiento GNSS, conectividad celular y sensores integrados entrega la información esencial que Plaspy necesita para ofrecer visibilidad de ubicación, alertas de eventos e informes sin cableado complejo ni configuraciones manuales frecuentes.
 
-En la práctica, elegir el T360 con Plaspy ofrece un rastreador GPS OBD compacto que cubre las necesidades básicas de gestión de flotas y anti-robo: seguimiento en tiempo real, telemetría adecuada para flujos de trabajo de monitoreo de combustible cuando hay datos OBD disponibles, informes de estado de encendido/motor cuando los suministra el vehículo y un conjunto de reportes de eventos ricos para geocercas y comportamiento del conductor. El resultado es una solución fiable, mantenible y escalable para flotas, servicios de alquiler, aseguradoras y propietarios de vehículos particulares que confían en Plaspy para obtener insights y control operativo.
-
+Para clientes que usan Plaspy, el T360 facilita integrar la posición del vehículo, los datos de eventos del conductor y el estado básico del vehículo en una sola plataforma para la supervisión operativa. Si necesita más detalles sobre cómo encaja el T360 en su despliegue o consideraciones de compatibilidad con Plaspy, conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que se recomienda verificar las especificaciones actuales con la documentación oficial del fabricante en http://www.ulbotech.com/.

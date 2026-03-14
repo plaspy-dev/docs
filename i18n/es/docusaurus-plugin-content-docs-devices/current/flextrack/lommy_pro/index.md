@@ -2,60 +2,62 @@
 slug: /flextrack/lommy_pro
 id: lommy_pro
 sidebar_label: Lommy Pro
+title: Flextrack - Lommy Pro
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto y eficiente Flextrack Lommy Pro compatible con Plaspy para seguimiento de flotas y monitoreo antirrobo
+keywords:
+  - Flextrack Lommy Pro
+  - Lommy Pro
+  - rastreador GPS Flextrack
+  - Lommy Pro Plaspy
+  - Lommy Pro compatible
+  - seguimiento de flotas
+  - rastreo de activos
+  - seguimiento en tiempo real
+  - rastreador de vehículos
+  - rastreador antirrobo
 ---
+
 # Flextrack - Lommy Pro
 
 ![Lommy Pro](./tracker.jpg)
 
-Lommy Pro es un rastreador GPS compacto y de bajo consumo diseñado para un seguimiento en tiempo real fiable, compatible con Plaspy, de vehículos, maquinaria, embarcaciones y otros activos móviles. Diseñado para gestión de flotas y aplicaciones antirobo, Lommy Pro combina posicionamiento GNSS de múltiples constelaciones con conectividad LTE Cat M1 y GSM, de modo que tus paneles de control de Plaspy reciban actualizaciones continuas de ubicación, movimiento y telemetría.
+Lommy Pro es un rastreador GPS compacto y de bajo consumo diseñado para ofrecer seguimiento confiable en tiempo real de vehículos, maquinaria, embarcaciones y otros activos móviles. El equipo combina posicionamiento GNSS con múltiples constelaciones y conectividad celular para proporcionar actualizaciones continuas de ubicación, movimiento y telemetría, pensado para gestión de flotas y soluciones antirrobo donde la visibilidad persistente y una administración energética sensata son esenciales.
 
-Lommy Pro está optimizado para instalaciones mixtas: montajes en vehículo cableado o despliegues autónomos con respaldo de batería. Con detección de movimiento a bordo, modos de reposo configurables y una batería de respaldo Li‑Ion recargable, el equipo preserva la autonomía manteniendo un registro preciso de viajes y odómetros, detección de velocidad excesiva e inactividad, control del inmovilizador y monitorización de la temperatura — todo accesible a través de la API abierta de Plaspy y de los canales de alertas.
+Como dispositivo compatible con Plaspy, Lommy Pro puede enviar ubicación y telemetría a los paneles, alertas y reportes de Plaspy. Sus modos de reposo configurables, detección de movimiento integrada y batería de respaldo recargable lo hacen adecuado para instalaciones mixtas, desde montajes con alimentación fija en vehículos hasta despliegues autónomos con batería. Además, su API abierta y soporte para canales de alerta permiten integrarlo con Plaspy para supervisión operativa y respuestas automatizadas.
 
-## Key Highlights
+## Características principales
 
-- Rastreador GPS compatible con Plaspy, con GNSS de múltiples constelaciones para un posicionamiento fiable y seguimiento en tiempo real.
-- Conectividad dual: FDD LTE Cat M1 \(Cat M1\) y GSM cuád-band 2G para una cobertura amplia y telemetría.
-- Diseño compacto y de bajo consumo con batería Li‑Ion interna de respaldo de 1150 mAh para aproximadamente 8 horas de operación continua y mayor duración en modos de reposo.
-- Sensor de movimiento integrado y modos de reposo configurables \(GPS Sleep, Online Deep Sleep, Deep Sleep\) para ampliar instalaciones con respaldo de batería.
-- Amplia E/S e interfaces vehiculares: CAN J1939, RS232/RS485, 1-wire, entradas analógicas/digitales y salida digital para encendido, monitorización de combustible y sensores externos.
-- Funciones avanzadas de antirrobo, incluyendo soporte de inmovilizador, detección de inicio/parada y alertas de geocercas integradas con las reglas de alarma de Plaspy.
-- Expansible con fundas estancas, compatibilidad con baliza RF \(Lommy Tag\) y sensores externos de temperatura/combustible para remolques refrigerados y entornos adversos.
+- Rastreador compatible con Plaspy que ofrece posicionamiento fiable usando posicionamiento GNSS con múltiples constelaciones para fijaciones de ubicación consistentes.
+- Conectividad celular diseñada para amplia cobertura y reporte continuo de telemetría a Plaspy.
+- Diseño compacto y de bajo consumo con batería interna recargable de respaldo para soportar despliegues con respaldo por batería.
+- Detección de movimiento integrada y modos de reposo configurables para extender la vida útil en campo cuando se pierde la alimentación principal.
+- Soporta registro de viajes y odómetro, detección de exceso de velocidad y ralentí, y control de inmovilizador para operaciones de flota.
+- Monitoreo de temperatura y soporte para sensores externos para supervisión de condiciones en remolques refrigerados y activos similares.
+- Soporte para accesorios ampliables que facilitan etiquetado localizado e identificación mejorada de activos en entornos mixtos.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Lommy Pro envía fijaciones GNSS y telemetría del vehículo a Plaspy utilizando protocolos estándar \(UDP, TCP, FTP, SMS\). Plaspy procesa la posición, telemetría CAN y analógica, y posteriormente normaliza los datos para el seguimiento en tiempo real, rutas históricas y reportes automáticos. Las alertas y acciones configuradas en Plaspy —como comandos de inmovilizador, notificaciones de velocidad excesiva o alarmas de temperatura— se envían de vuelta a los dispositivos a través de comandos GPRS, SMS o llamadas API.
+Lommy Pro transmite fijaciones GNSS y telemetría a Plaspy, donde los datos se normalizan para seguimiento en vivo, análisis histórico y generación de alertas automatizadas. Plaspy ingiere posiciones y eventos, aplica reglas configuradas y presenta esa información en paneles y reportes para que los equipos puedan supervisar movimiento, condición y cumplimiento.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(GNSS + entradas CAN/análogas\) para mapeo en vivo y reproducción de trayectos.
-- Encendido, detección de arranque/parada y control del inmovilizador disponibles para protección anti robo y gestión remota del vehículo.
-- Monitoreo de combustible vía entradas analógicas, CAN/FMS o integración del tacógrafo para informes precisos de consumo.
-- Eventos de puertas, temperatura y sensores externos para remolques refrigerados y monitorización del estado de los activos.
-- Emparejamiento de balizas RF \(Lommy Tag\) y opción RFID de 868 MHz para etiquetado de activos a nivel local; se integra en los flujos de trabajo de Plaspy. Funciona junto a ecosistemas que pueden incluir sensores y balizas Bluetooth mediante la integración de la plataforma.
+- Actualizaciones de ubicación en tiempo real y reproducción de viajes para visibilidad de la flota y revisión de rutas.
+- Alertas y notificaciones automatizadas por eventos como exceso de velocidad, ralentí, activación del inmovilizador y violaciones de geocerca.
+- Informes históricos de odómetro y resúmenes de viajes para apoyar análisis operativo y programación.
+- Monitoreo de sensores y condiciones para temperatura, eventos de puertas y otras señales externas que apoyan flujos de trabajo de cadena de frío y salud de activos.
+- Gestión y configuración remotas del dispositivo a través de la plataforma para mantener el flujo de telemetría y aplicar cambios de políticas a escala.
 
-## Resumen Técnico
+## Casos de uso típicos
 
-| Conectividad | FDD LTE Cat M1 \(Cat M1\) y GSM cuád-band 2G \(850/900/1800/1900 MHz\); protocolos de datos UDP, TCP, FTP, SMS |
-| --- | --- |
-| Bandas | LTE B3 / B8 / B20; GSM cuád-band 850/900/1800/1900 MHz |
-| Alimentación & Batería | Alimentación 10–60 V DC; carga USB; batería Li‑Ion interna no extraíble de 1150 mAh \(~8 horas de operación continua; meses en modos de intervalo/movimiento según la configuración\) |
-| Interfaces | 2 × entradas analógicas/digitales, 1 × salida digital, RS232, RS485, CAN J1939, 1-wire, Mini‑USB 2.0, soporte de lector iButton; memoria interna 128 MB + soporte microSD \(hasta 4 GB utilizables\) |
-| GNSS | GPS, GLONASS, GALILEO, BEIDOU, QZSS con SBAS \(WAAS/EGNOS/MSAS/GAGAN\); sensibilidad de seguimiento −166 dBm, 33 canales de seguimiento |
-| RF / Etiquetas | Opción RFID integrada de 868 MHz; compatibilidad con baliza RF \(accesorio Lommy Tag\) |
-| Gestión Remota | Configuración remota y actualizaciones de firmware por aire \(FOTA\); integración de API abierta con Plaspy y sistemas de terceros |
-| Forma & Entorno | Peso 69 g; dimensiones 88 × 57 × 14 mm; rango de temperatura de funcionamiento −20°C a +60°C \(con batería\); protección IP33 |
-| Cumplimiento & Seguridad | CE, E5, RoHS, WEEE; seguridad de servidor/datos ISAE3402 certificada \(alineada con ISO 27002\) |
+- Gestión de flotas con seguimiento continuo de vehículos, registro de viajes e informes operativos.
+- Protección antirrobo y recuperación con control de inmovilizador, detección de arranques/paradas y alertas de geocerca.
+- Monitoreo de combustible y telemetría del motor para apoyar análisis de consumo y planificación de mantenimiento.
+- Vigilancia de temperatura para remolques refrigerados y supervisión de condiciones en la cadena de frío.
+- Rastreo de activos en entornos mixtos, incluidos remolques, equipos y aplicaciones marinas mediante emparejamiento de accesorios.
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas: seguimiento en vivo de vehículos, registro de viajes y odómetros, detección de velocidad excesiva e inactividad para la eficiencia operativa.
-- Anti-robo e inmovilización: detección de inicio/parada, alertas de geocercas y comandos de inmovilizador remoto a través de Plaspy.
-- Monitoreo de combustible: integración de nivel de combustible analógico o CAN/FMS para análisis de consumo y telemetría.
-- Vigilancia de la temperatura: sensores externos de temperatura y monitorización para remolques refrigerados y logística de cadena de frío.
-- Seguimiento de activos en condiciones adversas: carcasas a prueba de agua y emparejamiento de balizas RF para remolques, equipos y aplicaciones marinas.
+Lommy Pro es una opción práctica para organizaciones que requieren un equilibrio entre posicionamiento preciso, gestión energética adecuada y opciones de telemetría de nivel vehicular. Al integrarse con Plaspy, el dispositivo provee los elementos básicos para la supervisión en tiempo real de la flota, alertas basadas en eventos e informes históricos sin necesidad de personalizaciones complejas.
 
-## Por qué Elegir Este Rastreador con Plaspy
+La plataforma de Plaspy acepta posición y telemetría de Lommy Pro y las presenta en paneles e informes que los equipos de operaciones y seguridad utilizan para tomar decisiones. Para empresas que necesitan seguimiento escalable, funciones antirrobo y monitoreo ambiental, Lommy Pro combinado con Plaspy ofrece un camino directo hacia visibilidad consolidada y alertas automatizadas.
 
-Elegir Lommy Pro como rastreador GPS compatible con Plaspy ofrece un equilibrio práctico entre precisión, eficiencia de la batería e interfaces de nivel vehicular. Su GNSS de múltiples constelaciones y conectividad LTE/GPRS aseguran un seguimiento en tiempo real y telemetría remota confiables para la gestión de flotas. Las entradas CAN y analógicas integradas facilitan el monitoreo de combustible y la telemetría del motor sin necesidad de gateways adicionales, mientras que las funciones de inmovilizador y geocerca proporcionan una protección anti robo sencilla.
-
-La integración es simple: Lommy Pro utiliza protocolos estándar \(UDP/TCP/FTP/SMS\) y APIs abiertas para que Plaspy ingiera datos de posición, telemetría y eventos para paneles, informes y alertas automatizadas. Los modos de reposo configurables del dispositivo y su batería de respaldo interna prolongan la vida operativa cuando se interrumpe la alimentación principal, lo que lo hace ideal tanto para instalaciones de vehículos cableados como para el seguimiento de activos con respaldo de batería. Para empresas que buscan un seguimiento en tiempo real escalable, seguro y mantenible con telemetría, Lommy Pro emparejado con Plaspy ofrece una solución sólida para gestión de flotas, anti-robo y monitorización ambiental.
-
+Obtenga más información sobre Plaspy y cómo funciona con dispositivos compatibles en el sitio web de Plaspy https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones técnicas actuales y las opciones de accesorios en el sitio del fabricante https://flextrack.dk.

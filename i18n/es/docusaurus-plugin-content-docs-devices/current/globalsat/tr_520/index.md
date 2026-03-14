@@ -2,59 +2,59 @@
 slug: /globalsat/tr_520
 id: tr_520
 sidebar_label: TR-520
+title: GlobalSat - TR-520
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS GlobalSat TR-520 con batería, compatible con Plaspy para seguimiento prolongado de activos vehículos y ganado
+keywords:
+  - GlobalSat TR-520
+  - TR-520
+  - rastreador GlobalSat
+  - TR-520 compatible con Plaspy
+  - rastreador LTE-M NB-IoT
+  - rastreador con batería
+  - seguimiento de activos
+  - seguimiento de flotas
+  - rastreador para ganado
+  - rastreador IP69K
 ---
+
 # GlobalSat - TR-520
 
 ![TR-520](./tracker.jpg)
 
-El TR-520 es un rastreador GPS alimentado por batería, diseñado para despliegues a largo plazo y es totalmente compatible con Plaspy para una integración fluida en sus flujos de trabajo de seguimiento y telemática. Basado en conectividad de área amplia de bajo consumo LTE-M y NB-IoT, el TR-520 ofrece actualizaciones de ubicación confiables y inteligencia de movimiento para el seguimiento de activos, vehículos y animales, donde la larga duración de la batería y la fiabilidad robusta son importantes.
+El TR-520 es un rastreador GPS alimentado por batería diseñado para despliegues a largo plazo en los que la baja mantención y la fiabilidad robusta son prioritarias. Integra un receptor GNSS, un acelerómetro de 3 ejes, capacidad BLE para mejorar la localización en interiores y una batería no recargable de gran capacidad que proporciona actualizaciones de ubicación continuas y detección de movimiento para activos, vehículos y animales en campo.
 
-Ideal para la gestión de flotas, monitorización de activos remotos y seguimiento del ganado, el TR-520 integra un receptor GNSS incorporado, un acelerómetro de 3 ejes, capacidad BLE para mejorar la localización en interiores y una batería no recargable de 19Ah. Con certificación IP69K de impermeabilidad y actualizaciones de firmware OTA vía LTE-M/NB-IoT, el TR-520 está diseñado para permanecer en campo con un mantenimiento mínimo, mientras alimenta a Plaspy con los datos que requieren sus operaciones.
+Como dispositivo compatible con Plaspy, el TR-520 puede enviar información de ubicación, movimiento y estado del equipo a Plaspy para su visualización, elaboración de informes y flujos operativos. Su conectividad de área amplia y bajo consumo lo hace adecuado para despliegues que requieren una vida de batería prolongada mientras mantienen actualizaciones oportunas en los paneles y sistemas de alertas de Plaspy.
 
-## Aspectos destacados
+## Características principales
 
-- Rastreador GPS compatible con Plaspy que transmite la ubicación a través de LTE‑M y NB‑IoT para despliegues de largo alcance y bajo consumo.
-- Larga vida útil en campo gracias a una batería no recargable de 19Ah, ideal para escenarios de mantenimiento poco frecuente y activos remotos.
-- GNSS integrado y un acelerómetro de 3 ejes para una detección de movimiento fiable, informes de paradas/eventos y historial de rutas.
-- Soporte BLE para mejorar la localización en interiores y flujos de proximidad donde las señales GPS son débiles.
-- Certificación IP69K de resistencia al agua para entornos exteriores adversos, agrícolas e industriales.
-- Actualizaciones de firmware OTA vía LTE‑M/NB‑IoT y configuración desde la aplicación móvil para gestión remota y calibración.
-- Soporte magnético opcional para un montaje rápido y seguro en vehículos o activos metálicos.
+- Rastreador GPS compatible con Plaspy, diseñado para despliegues a largo plazo y de bajo mantenimiento.
+- Utiliza conectividad LTE-M y NB‑IoT para transmisión de datos de ubicación con bajo consumo y gran cobertura.
+- Gran batería de 19 Ah no recargable para una vida útil extendida en escenarios de monitoreo remoto.
+- Receptor GNSS integrado y acelerómetro de 3 ejes para detección de movimiento y registro de recorridos.
+- Soporte BLE para ayudar en la ubicación en interiores y flujos de trabajo basados en cercanía.
+- Carcasa resistente con clasificación IP69K para soportar entornos exteriores y agrícolas exigentes.
 
-## Cómo funciona con Plaspy
+## Integración con Plaspy
 
-Cuando se empareja con Plaspy, el TR-520 se convierte en una fuente de datos eficiente para el seguimiento en tiempo real, telemetría y alertas basadas en eventos. Su radio de bajo consumo LTE‑M/NB‑IoT envía correcciones GNSS periódicas y eventos de movimiento derivados del acelerómetro a Plaspy, donde puede visualizar el historial de ubicaciones, generar informes y activar reglas para antirrobo o flujos de trabajo operativos.
+Al integrarse con Plaspy, el TR-520 proporciona un flujo constante de datos de ubicación y eventos que se pueden visualizar y gestionar dentro de la plataforma. Plaspy ingiere las posiciones periódicas y los eventos de movimiento del dispositivo para que los equipos operativos puedan supervisar activos, analizar rutas y activar reglas para alertas y mantenimiento.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a través de LTE‑M / NB‑IoT hacia los paneles de Plaspy para seguimiento e generación de informes.
-- Detección de movimiento e informes de paradas/eventos mediante el acelerómetro de 3 ejes; útil para alertas de geocerca y monitorización de rutas.
-- Localización interior asistida por BLE para mejorar la precisión cuando la cobertura GNSS es limitada; Plaspy puede usar datos de proximidad BLE para refinar el contexto de ubicación.
-- Monitorización de batería y estado del dispositivo transmitida a Plaspy para programar reemplazos antes de que ocurran fallos.
-- Las actualizaciones de firmware OTA y la configuración desde la aplicación móvil facilitan mantener los dispositivos actualizados y alineados con la configuración de integración de Plaspy.
+- Actualizaciones de ubicación en tiempo real y periódicas que llegan a los paneles de Plaspy para seguimiento en vivo y reproducción histórica.
+- La detección de movimiento mediante el acelerómetro permite alertas de parada y arranque, monitoreo de rutas y eventos de geocerca.
+- La asistencia por BLE ayuda a Plaspy a refinar el contexto de la ubicación donde la señal GNSS es limitada, mejorando los flujos de trabajo en interiores y basados en proximidad.
+- Estado de batería y salud del dispositivo disponible en Plaspy para planificar mantenimiento y reemplazos antes de interrupciones del servicio.
+- Actualizaciones de firmware OTA y configuración remota para mantener los dispositivos alineados con los ajustes de integración y requisitos operativos de Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE‑M / NB‑IoT |
-| --- | --- |
-| Bandas | Bandas LTE‑M / NB‑IoT específicas de la región \(varían según la implementación\) |
-| Alimentación y batería | Batería no recargable de 19Ah para una vida útil extendida en campo |
-| Interfaces | Receptor GNSS integrado; acelerómetro de 3 ejes; BLE para posicionamiento en interiores; configuración desde la aplicación móvil; soporte magnético opcional para montaje |
-| GNSS | Receptor GNSS integrado para ubicación en exteriores \(precisión especificada por el fabricante\) |
-| Bluetooth | BLE \(Bluetooth Low Energy\) para posicionamiento en interiores y flujos de proximidad |
-| Gestión remota | Actualizaciones de firmware OTA vía LTE‑M / NB‑IoT; configuración vía aplicación móvil |
-| Factor de forma | Diseño resistente alimentado por batería con certificación IP69K para condiciones adversas |
-
-## Casos de uso
-
-- Gestión de flotas de vehículos y remolques de bajo consumo, donde una larga vida de la batería reduce las visitas de mantenimiento.
-- Monitorización de activos y equipos remotos en entornos industriales o agrícolas expuestos a agua y polvo \(con certificación IP69K\).
-- Seguimiento de ganado y otros animales: un recinto resistente y una larga vida de la batería permiten despliegues estacionales o de varios meses.
-- Escenarios híbridos exterior/interior donde GNSS ofrece una localización aproximada y BLE mejora la precisión en interiores.
-- Acumulación remota de telemetría para operaciones que requieren actualizaciones periódicas en lugar de conexiones continuas de alto ancho de banda.
+- Gestión de flotas para remolques o vehículos de bajo consumo que requieren largos intervalos entre servicios de batería.
+- Monitoreo remoto de activos en entornos industriales y agrícolas expuestos al agua y el polvo.
+- Seguimiento de ganado y animales para despliegues estacionales o de varios meses donde la durabilidad y la autonomía de la batería son clave.
+- Escenarios híbridos interior/exterior donde el GNSS ofrece fijaciones exteriores y el BLE mejora la precisión en interiores.
+- Recolección periódica de telemetría para operaciones que necesitan actualizaciones regulares en lugar de conexiones continuas de alto ancho de banda.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El TR-520 es una opción práctica cuando necesita un rastreador GPS compatible con Plaspy optimizado para despliegues a largo plazo con bajo mantenimiento. Sus comunicaciones LTE‑M/NB‑IoT equilibran cobertura y eficiencia de batería, mientras que el acelerómetro de 3 ejes y GNSS proporcionan datos robustos de movimiento y ubicación para la gestión de flotas y flujos de trabajo anti‑robo. Las actualizaciones OTA y la configuración desde la aplicación móvil simplifican la gestión del ciclo de vida, y la clasificación IP69K garantiza que el dispositivo pueda operar en entornos exteriores o agrícolas exigentes.
+El TR-520 es una opción práctica cuando las organizaciones requieren un rastreador duradero y de bajo mantenimiento que se integre con Plaspy para monitoreo e informes. Su combinación de larga vida de batería, detección de movimiento y posicionamiento asistido por BLE lo hace versátil para proyectos de activos, flotas y seguimiento animal. La carcasa robusta con clasificación IP69K y las funciones de gestión remota reducen las visitas de campo y simplifican la supervisión del ciclo de vida.
 
-Integrar el TR-520 con Plaspy le ofrece telemetría accionable y visibilidad del estado. Plaspy puede consolidar la ubicación y los datos de movimiento del TR‑520 con otros inputs, como el estado de encendido, controles del inmovilizador o el monitoreo de combustible, cuando esas señales provienen de interfaces del vehículo o de sensores externos. Esto hace del TR-520 un bloque modular para el rastreo de extremo a extremo, seguridad y optimización operativa en flotas, activos y despliegues de seguimiento de animales.
-
+Elegir el TR-520 con Plaspy brinda a los equipos visibilidad consolidada de ubicación, movimiento y estado del dispositivo junto con otros datos de flota y activos en una sola plataforma. Para saber más sobre cómo Plaspy puede trabajar con dispositivos como el TR-520 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones y la información de soporte actuales en el sitio del fabricante https://www.globalsat.com.tw/ antes de comprar o desplegar.

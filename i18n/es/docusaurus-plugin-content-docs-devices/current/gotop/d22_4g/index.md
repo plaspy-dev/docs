@@ -2,58 +2,62 @@
 slug: /gotop/d22_4g
 id: d22_4g
 sidebar_label: D22-4G
+title: GOTOP - D22-4G
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS vehicular GOTOP D22-4G resistente al agua compatible con Plaspy para monitoreo 4G fiable y telemetría antirrobo
+keywords:
+  - GOTOP D22-4G
+  - rastreador D22-4G
+  - rastreador GOTOP
+  - D22-4G compatible Plaspy
+  - rastreador GPS vehicular
+  - rastreador GPS resistente al agua
+  - seguimiento de flotas
+  - rastreador inmovilizador
+  - rastreador GPS 4G
+  - GPS BDS doble satélite
 ---
+
 # GOTOP - D22-4G
 
 ![D22-4G](./tracker.jpg)
 
-El rastreador GPS impermeable D22-4G es un terminal vehicular desarrollado a medida y compatible con Plaspy que aporta la fiabilidad de grado industrial al rastreo en tiempo real y la gestión de flotas. Diseñado para coches, vehículos comerciales y activos de flota, el D22-4G combina posicionamiento GPS/BDS de alta sensibilidad en doble satélite con comunicaciones 4G LTE robustas y hardware de antena integrado para entregar datos consistentes de ubicación, telemetría y estado en la plataforma Plaspy.
+El GOTOP D22-4G es un rastreador GPS vehicular resistente al agua diseñado para ofrecer seguimiento en tiempo real y gestión de flotas confiable. Pensado para autos, vehículos comerciales y activos de flota, combina posicionamiento por GPS y BDS de alta sensibilidad con comunicaciones 4G y antenas integradas para entregar datos consistentes de ubicación, estado y telemetría. Su formato industrial y funciones a bordo cubren necesidades operativas habituales como disuasión de robo, alarmas por eventos y control de kilometraje.
 
-Con funciones orientadas a la protección anti-robo, reporte de telemetría y control remoto del vehículo, el D22-4G soporta detección de ACC/encendido, entrada de sensor de puerta, alarmas de exceso de velocidad y vibración, estadísticas de kilometraje y corte remoto de combustible mediante un relé externo \(función inmovilizador\). Su formato industrial impermeable y sus modos de reposo de bajo consumo lo hacen idóneo para instalaciones de flota a largo plazo y flujos de recuperación ante robo gestionados a través de Plaspy.
+Como terminal compatible con Plaspy, el D22-4G envía datos de ubicación y eventos a Plaspy para facilitar visibilidad centralizada y supervisión operativa. Sus entradas de telemetría y salidas de alarma se integran fácilmente con los flujos de trabajo de Plaspy para monitorear encendido, accesos, alertas de exceso de velocidad o vibración, acciones de inmovilizador y garantizar continuidad de datos gracias al almacenamiento local. Esa compatibilidad lo hace adecuado para flotas que requieren seguimiento fiable, funciones de seguridad y un historial auditable dentro de la plataforma Plaspy.
 
-## Puntos clave
+## Características principales
 
-- Compatible con Plaspy para una integración fluida en sus paneles de seguimiento en tiempo real y gestión de flotas.
-- Comunicaciones 4G LTE con antena GSM integrada y diseño de antena totalmente integrada para una conectividad fiable.
-- Posicionamiento GPS/BDS de alta sensibilidad con doble satélite y antena cerámica anti-interferencias para ubicaciones precisas.
-- Telemetría integral: detección ACC/encendido, estadísticas de kilometraje, alarmas de exceso de velocidad y movimiento, y alertas de fallo de energía.
-- Capacidad anti-robo e inmovilización mediante corte remoto de combustible usando un relé externo; alarma SOS a números de monitorización y plataformas.
-- Sensor de aceleración de 3 ejes integrado y algoritmo de aceleración para detección precisa de eventos y detección de vibraciones.
-- Soporte de voz bidireccional con altavoz y micrófono integrados para escucha y comunicación en manos libres.
-- Almacenamiento local de gran capacidad y retransmisión de datos en áreas sin cobertura para garantizar la continuidad de los datos.
+- Diseñado específicamente para seguimiento vehicular y de flotas con carcasa industrial resistente al agua.
+- Posicionamiento por GPS y BDS de alta sensibilidad combinado con diseño de antena integrado.
+- Comunicaciones 4G para subida constante de ubicación y telemetría a plataformas en la nube.
+- Sensores y entradas integradas para detección de ignición (ACC), estado de puertas, alertas por exceso de velocidad y vibración.
+- Funciones antirrobo como alarma SOS y corte remoto de combustible mediante relay externo para flujos de trabajo de inmovilizador.
+- Gran capacidad de almacenamiento local y retransmisión en zonas sin cobertura para preservar la continuidad de la telemetría.
+- Soporte de voz bidireccional para escucha y comunicación manos libres cuando se requiera.
 
 ## Cómo funciona con Plaspy
 
-El D22-4G transmite la ubicación del vehículo y la telemetría a Plaspy mediante TCP/IP, habilitando el rastreo en tiempo real, alertas e informes históricos. Plaspy ingiere los mensajes de estado y las entradas de sensores del dispositivo para que los gestores de flota puedan supervisar la salud del vehículo, eventos y seguridad desde una única interfaz. El almacenamiento local y la retransmisión en áreas sin cobertura aseguran que Plaspy reciba un rastro completo de datos incluso cuando el vehículo atraviesa zonas con cobertura deficiente.
+Al integrarse con Plaspy, el D22-4G transmite la posición del vehículo y los eventos para que usted y su equipo de gestión de flotas puedan rastrear activos, recibir alertas y revisar registros históricos desde una única interfaz. Plaspy procesa mensajes de estado e entradas de sensores del dispositivo, habilitando alertas, informes y respuestas operativas basadas en la telemetría y las alarmas del rastreador.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: coordenadas GPS/BDS, movimiento y velocidad entregados a Plaspy a través de 4G TCP/IP.
-- Estado de encendido y de las puertas: detección ACC y reporte de entrada del sensor de puerta para iniciar/detener operaciones y eventos de acceso para flujos de trabajo sensibles al encendido.
-- Alarmas y reportes de eventos: alarmas de exceso de velocidad y de vibración/movimiento, alertas de fallo de energía, mensajes de batería baja y eventos SOS se envían a Plaspy para notificación inmediata.
-- Control de combustible / inmovilizador: corte remoto de combustible mediante relé externo que permite inmovilización o procedimientos de recuperación gestionados por Plaspy.
-- Continuidad de telemetría: el almacenamiento a bordo almacena datos sin conexión y los retransmite cuando la conectividad se restablece, manteniendo registros listos para auditoría en Plaspy.
+- Actualizaciones de ubicación y movimiento en tiempo real enviadas a Plaspy para monitorización en vivo y visualización en mapa.
+- Reporte de eventos de ignición y acceso para flujos de trabajo sensibles al encendido y seguimiento de actividad de conductores.
+- Reenvío de alarmas y eventos como exceso de velocidad, vibración o movimiento, alertas de alimentación y notificaciones SOS para atención inmediata.
+- Eventos de inmovilizador y control remoto, como corte de combustible mediante relay externo, visibles en Plaspy para acciones de recuperación o seguridad.
+- Almacenamiento offline y retransmisión en áreas sin cobertura garantizan que Plaspy conserve un historial continuo aun durante pérdidas temporales de señal.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Terminal 4G LTE con transmisión TCP/IP, conexiones a servidores por nombre de dominio/IP; antena GSM integrada y diseño de antena totalmente integrada |
-| --- | --- |
-| Bandas | 4G LTE \(el soporte de bandas regional varía según el modelo/país; consulte al proveedor para listas de bandas específicas\) |
-| Alimentación y batería | Bajo consumo con alarmas en modo de sueño, detección de arranque y apagado; diseñado para instalaciones alimentadas por el vehículo \(no se especifica una batería independiente\) |
-| Interfaces | DC y detección ACC/encendido, entrada de sensor de puerta, control de relé externo para corte remoto de combustible \(inmovilizador\), altavoz y micrófono integrados para voz bidireccional, salida SOS |
-| GNSS | GPS y BDS de alta sensibilidad con posicionamiento de doble satélite y algoritmo de aceleración integrado, y antena cerámica anti-interferencias |
-| Sensor de aceleración | Sensor de aceleración de 3 ejes integrado para movimiento, vibración y detección de eventos |
-| Manejo de datos y gestión remota | Conexiones TCP/IP, nombres de dominio/servidor IP; almacenamiento a bordo de gran capacidad para buffering sin conexión y retransmisión de datos en zonas de sombra |
-| Formato | Terminal de rastreo vehicular industrial impermeable para coches, vehículos comerciales y activos de flota |
-
-## Casos de uso
-
-- Gestión de flotas: rastreo en tiempo real, estadísticas de kilometraje y diagnóstico remoto para optimizar rutas, utilización y programación del mantenimiento.
-- Anti-robo y recuperación: alarma SOS, inmovilizador \(corte remoto de combustible\) y alertas de movimiento/puerta para asegurar los vehículos y facilitar una recuperación rápida.
-- Seguridad del conductor y del vehículo: alarmas de exceso de velocidad y vibración para fomentar una conducción segura y detectar incidentes para una respuesta inmediata.
-- Control remoto y monitoreo: detección ACC/encendido y voz bidireccional permiten a los despachadores verificar el estado del vehículo y comunicarse directamente con los conductores.
-- Continuidad telemática en áreas con poca cobertura: almacenamiento a bordo y retransmisión en áreas sin cobertura aseguran un historial de telemetría ininterrumpido para cumplimiento y análisis.
+- Gestión de flotas de autos y vehículos comerciales con seguimiento en tiempo real e informes de kilometraje.
+- Operaciones de prevención y recuperación por robo mediante alertas SOS, detección de movimiento e inmovilización remota.
+- Programas de seguridad vial para conductores que monitorean exceso de velocidad y eventos de vibración para identificar comportamientos de riesgo o incidentes.
+- Monitoreo remoto de estado y comunicaciones de despacho usando entradas de ignición y voz bidireccional.
+- Cumplimiento y generación de informes donde se requiere un historial de telemetría continuo a pesar de coberturas intermitentes.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El D22-4G ofrece un equilibrio entre hardware robusto y la conectividad necesaria para los flujos de telemetría y gestión de flotas modernos. Al ser un dispositivo compatible con Plaspy, alimenta datos de rastreo en tiempo real consistentes y alarmas basadas en eventos en los paneles e herramientas de informes de Plaspy, ayudando a las flotas a reducir el riesgo de robo, gestionar el control de combustible y los procesos de inmovilización, y mantener una alta integridad de datos gracias al buffering sin conexión. Su diseño industrial impermeable, sensores integrados y soporte de voz bidireccional lo convierten en una opción versátil para organizaciones que necesitan un rastreo de vehículos fiable, características anti-robo y telemetría operativa clara en un terminal compacto.
+El D22-4G combina hardware resistente y funciones prácticas para vehículos con la visibilidad centralizada que ofrece Plaspy. Su construcción impermeable, antenas integradas y almacenamiento a bordo lo hacen idóneo para instalaciones de flota a largo plazo donde la durabilidad y la continuidad de datos son esenciales. Para organizaciones que necesitan capacidades antirrobo, alertas por eventos y una telemetría que se integre de forma sencilla en una plataforma de gestión de flotas, el D22-4G representa una opción equilibrada.
 
+Al ser compatible con Plaspy, las flotas pueden confiar en un flujo constante de datos de ubicación y eventos hacia los paneles y reportes de Plaspy para apoyar procesos de recuperación, supervisión operativa y análisis histórico. Si necesita un terminal robusto y orientado a vehículos que se alinee con los flujos de trabajo de Plaspy, el D22-4G es una alternativa sólida.
+
+Para obtener más información sobre Plaspy y cómo dispositivos compatibles como el GOTOP D22-4G funcionan con la plataforma, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y la compatibilidad actual en el sitio del fabricante https://www.gotop.cc/.

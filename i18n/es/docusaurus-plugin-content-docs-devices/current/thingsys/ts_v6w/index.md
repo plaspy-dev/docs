@@ -2,62 +2,63 @@
 slug: /thingsys/ts_v6w
 id: ts_v6w
 sidebar_label: TS-V6W
+title: ThingSys - TS-V6W
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS vehicular 4G compacto compatible con Plaspy para seguimiento en tiempo real y alertas antirrobo
+keywords:
+  - ThingSys TS V6W
+  - Rastreador TS V6W
+  - TS V6W compatible con Plaspy
+  - Rastreador GPS ThingSys
+  - Rastreador GPS vehicular
+  - Rastreador 4G LTE
+  - Dispositivo de rastreo para flotas
+  - GPS antirrobo
+  - Seguimiento en tiempo real
+  - Inmovilizador remoto compatible
 ---
+
 # ThingSys - TS-V6W
 
 ![TS-V6W](./tracker.jpg)
 
-El TS-V6W 4G Vehicle GPS Tracker es un rastreador GPS compacto y de alta sensibilidad, diseñado para el monitorizado mundial de vehículos y la gestión de flotas. Compatible con Plaspy desde el primer momento, el TS-V6W ofrece seguimiento en tiempo real fiable sobre redes 4G LTE y 2G GSM y fijaciones de posición rápidas, incluso en entornos con señal débil, lo que lo convierte en una opción práctica para protección antirrobo, recopilación de telemetría y supervisión continua de vehículos.
+El TS-V6W es un rastreador GPS vehicular compacto de ThingSys diseñado para el monitoreo global de vehículos y la gestión de flotas. Combina un receptor GNSS de alta sensibilidad con conectividad celular para ofrecer actualizaciones continuas de ubicación y notificaciones de eventos en automóviles, camionetas y camiones ligeros. Su tamaño reducido y bajo consumo lo hacen idóneo para ubicaciones discretas, manteniendo las funciones básicas de telemetría y alarmas que requieren los equipos de flota y seguridad.
 
-El formato compacto y el bajo consumo de energía hacen que el TS-V6W sea adecuado para una instalación discreta en automóviles, furgonetas y camiones ligeros. Configurable vía SMS y GPRS y capaz de alimentar la ubicación, alarmas y telemetría básica a plataformas de seguimiento comunes, este rastreador compatible con Plaspy admite las funciones de flujo de trabajo en las que confían los gestores de flotas y los equipos de seguridad: detección de encendido, alertas de velocidad excesiva, alarmas por vibración, funcionamiento con batería de respaldo y periféricos opcionales para monitorización de combustible e inmovilización remota.
+Como dispositivo compatible con Plaspy desde el primer momento, el TS-V6W puede alimentar a Plaspy con ubicaciones, alertas y telemetría esencial para visualización, reproducción histórica e informes. Esa compatibilidad lo convierte en una opción práctica cuando usted necesita integrar seguimiento en tiempo real, alertas antirrobo y soporte de periféricos sencillos en flujos de trabajo gestionados por Plaspy sin desarrollos largos de integración.
 
-## Aspectos clave
+## Características principales
 
-- Compatible con Plaspy para una integración fluida con paneles de gestión de flotas y herramientas de informes.
-- Conectividad 4G LTE y 2G GSM para seguimiento en tiempo real a nivel mundial y respaldo mediante sondeo SMS.
-- Chipset GPS de alta sensibilidad SIRF3 \(–159 dBm\) con precisión típica de ~5 metros para datos de posición fiables.
-- Múltiples alarmas integradas: detección de encendido ACC, exceso de velocidad y vibración para apoyar flujos de trabajo de anti-robo y seguridad.
-- Formato compacto y de fácil ocultación con bajo consumo de energía y una batería de respaldo integrada para un monitoreo ininterrumpido.
-- Expansible con accesorios opcionales \(botón SOS, relé para corte de combustible/inmovilizador, micrófono externo, sensores de nivel de combustible y temperatura, cámara externa\) para telemetría avanzada y seguridad.
-- Configuración vía SMS y GPRS para una implementación flexible y configuración remota en flotas.
+- Compatible con Plaspy para una integración directa con paneles y reportes de flota
+- Conectividad 4G LTE con fallback a 2G para amplia cobertura y entrega fiable de datos
+- Receptor GNSS de alta sensibilidad y precisión de posición adecuada para seguimiento vehicular
+- Alarmas integradas para exceso de velocidad, vibración y detección de ignición ACC que apoyan flujos de trabajo de seguridad y protección
+- Diseño compacto y de bajo consumo con batería de respaldo interna para mantener el monitoreo durante cortes breves de energía
+- Configuración remota vía SMS y GPRS para un despliegue y actualización flexibles
+- Soporte para accesorios opcionales como botón SOS, relé para control de inmovilizador y sensores de nivel de combustible para ampliar la funcionalidad
 
 ## Cómo funciona con Plaspy
 
-Cuando se combina con Plaspy, el TS-V6W suministra datos continuos de ubicación y alarmas a su plataforma de monitorización para que pueda visualizar rutas, configurar geocercas y recibir alertas en tiempo real. Plaspy consume los mensajes de rastreo de trazas GPRS o de sondeo por SMS del rastreador y traduce los datos GPS y de eventos en mapas en vivo, reproducción histórica e informes automatizados para la gestión de flotas y operaciones de seguridad.
+Cuando usted lo conecta a Plaspy, el TS-V6W transmite posiciones e información de eventos a la plataforma para que los equipos puedan monitorear activos en tiempo real, investigar incidentes y automatizar informes. Plaspy procesa los mensajes del equipo y los presenta en mapas y líneas de tiempo de eventos para supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy a través de conectividad 4G LTE \(principal\) o 2G GSM \(respaldo\).
-- Estado de encendido ACC y alarmas de exceso de velocidad y vibración para la seguridad de la flota, el monitoreo del comportamiento del conductor y alertas anti-robo.
-- Monitorización de combustible mediante sensores de nivel de combustible compatibles; la telemetría se envía a Plaspy para consumo e informes de anomalías.
-- Capacidad remota de inmovilización / corte de combustible cuando se usa con un accesorio de relé, lo que permite desactivar el vehículo de forma remota mediante flujos de trabajo de Plaspy.
-- Accesorios externos como botones SOS, monitorización de voz \(micrófono externo\), sensores de temperatura y cámaras externas pueden integrarse y sus eventos se envían a Plaspy para una gestión consolidada de incidentes.
-- Plaspy también puede correlacionar la telemetría del rastreador con fuentes de sensores externos \(por ejemplo, sensores Bluetooth o beacons\) cuando estén disponibles a través de módulos de accesorios compatibles, lo que permite datos situacionales más completos sin cambiar el comportamiento principal del dispositivo.
+- Actualizaciones de ubicación en tiempo real y historial de posiciones disponibles en Plaspy para visualización de rutas y reproducción
+- Eventos de alarma como ignición, exceso de velocidad y vibración reenviados a Plaspy para notificaciones y escalamiento inmediato
+- Alertas de geocerca, informes enrutados y resúmenes programados configurables en Plaspy usando el feed del rastreador
+- Nivel de combustible y otra telemetría de periféricos enviados a Plaspy para uso en análisis y detección de anomalías cuando se conectan sensores
+- Acciones de inmovilizador remoto o corte de combustible disponibles mediante flujos de trabajo cuando se emplea un relé compatible
+- Consolidación de eventos de accesorios, como pulsaciones del SOS o entradas de sensores externos, en un único registro de incidente en Plaspy
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | TS-V6W |
-| --- | --- |
-| Conectividad | 4G LTE y 2G GSM \(modos de rastreo de trazas GPRS y sondeo por SMS\) |
-| GNSS | Chipset GPS SIRF3; sensibilidad –159 dBm; precisión típica ~5 metros |
-| Tiempo hasta la primera fijación \(TTFF\) | Frío 35–80 s; Templado ~35 s; Caliente ~1 s |
-| Alimentación y batería | Entrada de alimentación 9–95 V DC; batería interna de respaldo Li‑ion 3.7 V y 180 mAh |
-| Interfaces y E/S | Detección de encendido ACC, alarmas de exceso de velocidad y vibración; soporta periféricos opcionales \(botón SOS, relé para corte de combustible/inmovilizador, micrófono externo, sensores de nivel de combustible y temperatura, cámara externa\) |
-| Dimensiones y peso | 93 mm × 35 mm × 145 mm; aprox. 75 g |
-| Ambiental | Operación −20 °C a +55 °C; Almacenamiento −40 °C a +85 °C; Humedad 5%–95% sin condensación |
-| Configuración e integración | Configurable vía SMS y GPRS; se integra en plataformas de seguimiento comunes para monitorización, alertas y reproducción histórica de rutas |
-| Formato | Rastreador GPS compacto para vehículos diseñado para instalación discreta y aplicaciones de flota |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real continuo, reproducción de rutas y telemetría para optimizar la utilización de activos y la planificación.
-- Antirrobo e inmovilización remota: alarmas de exceso de velocidad y vibración combinadas con corte remoto de combustible \(se requiere un relé\) para evitar usos no autorizados.
-- Seguridad y cumplimiento del conductor: detección de encendido ACC y alertas de exceso de velocidad ayudan a hacer cumplir políticas de conducción seguras y a registrar eventos para su revisión.
-- Monitorización de combustible y diagnósticos: uso con sensores de nivel de combustible para rastrear el consumo, detectar pérdidas de combustible y mejorar la eficiencia operativa.
-- Monitorización con vídeo y voz: conecte una cámara externa opcional y un micrófono para la verificación de incidentes y una mayor conciencia situacional en Plaspy.
+- Gestión de flotas para seguimiento continuo de vehículos, análisis de rutas e informes de utilización
+- Monitoreo antirrobo con alarmas de vibración e ignición y opciones de inmovilización remota
+- Seguridad y cumplimiento de políticas de conducción mediante eventos de exceso de velocidad y estado de ignición
+- Monitoreo de combustible y seguimiento de consumo cuando se empareja con sensores de combustible compatibles
+- Verificación de incidentes usando periféricos opcionales como cámara externa o botón SOS para una mejor conciencia situacional
 
 ## Por qué elegir este rastreador con Plaspy
 
-El TS-V6W ofrece las capacidades básicas que requieren las operaciones de flota y seguridad: posicionamiento GPS preciso con un chip de alta sensibilidad SIRF3, conectividad de doble red para un transporte de datos fiable y funcionamiento de bajo consumo con batería de respaldo para mayor resiliencia. Como rastreador GPS compatible con Plaspy, se integra fácilmente en los flujos de trabajo existentes para proporcionar seguimiento en tiempo real, telemetría y reenvío de alarmas, ayudando a los equipos a responder más rápido ante robos, mejorar la monitorización de combustible y optimizar el diagnóstico de la flota.
+El TS-V6W ofrece un conjunto equilibrado de funciones que cubren necesidades comunes en el seguimiento vehicular y la operación de flotas. Su sensibilidad y conectividad en redes duales ayudan a mantener reportes de posición confiables, mientras que las alarmas integradas y la batería de respaldo aumentan la resiliencia en casos de seguridad. Al ser compatible con Plaspy desde el inicio, integrar el TS-V6W en paneles, alertas e informes es sencillo para equipos que ya usan Plaspy en la supervisión de flotas.
 
-Elija el TS-V6W cuando necesite un rastreador GPS para vehículos compacto y discreto que pueda escalar desde un único vehículo hasta flotas más grandes, que admita funciones de encendido y anti‑robo, y que se expanda con periféricos opcionales para monitorización de combustible, control de inmovilizador y monitorización de vídeo o voz. Su flexibilidad de configuración \(SMS/GPRS\) y la compatibilidad con Plaspy hacen que la implementación y la gestión continua sean sencillas, de modo que su operación se beneficie de una inteligencia de ubicación fiable y telemetría accionable sin largos ciclos de integración.
+Para organizaciones que necesitan un rastreador discreto y ampliable que crezca con sus operaciones, el TS-V6W es una opción práctica. Sus opciones de configuración remota y soporte de accesorios permiten a los gestores de flota añadir capacidades como monitoreo de combustible o inmovilización remota sin cambiar el flujo de trabajo central de rastreo, ayudando a Plaspy a ofrecer inteligencia de ubicación y control operacional consolidados.
 
+Para obtener más información sobre cómo el TS-V6W puede integrarse con su implementación de Plaspy, visite https://www.plaspy.com. Las especificaciones de producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos y las opciones de accesorios más actuales en el sitio del fabricante https://www.thingsys.com/.

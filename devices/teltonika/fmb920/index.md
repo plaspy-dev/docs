@@ -2,66 +2,62 @@
 slug: /teltonika/fmb920
 id: fmb920
 sidebar_label: FMB920
+title: Teltonika - FMB920
 sidebar_class_name: menu_item_tracker
+description: Compact Plaspy compatible GPS tracker for discreet vehicle and asset tracking with anti theft and sensor support
+keywords:
+  - Teltonika FMB920
+  - FMB920 tracker
+  - Teltonika tracker
+  - Plaspy compatible
+  - GPS tracker
+  - fleet tracking
+  - vehicle tracking
+  - anti theft tracker
+  - Bluetooth sensors
+  - backup battery tracker
 ---
+
 # Teltonika - FMB920
 
 ![FMB920](./tracker.png)
 
-# Teltonika FMB920
+The Teltonika FMB920 is a compact GPS tracker designed for reliable vehicle tracking and anti theft protection. With a slim 12 mm height housing and a form factor suited to discreet installation, the FMB920 targets small vehicles and assets that require a low profile telematics solution while delivering continuous position and event reporting.
 
-The Teltonika FMB920 is a compact, Plaspy compatible GPS tracker engineered for reliable vehicle tracking and anti-theft protection. Designed for discreet installation with a slim 12 mm-height housing, the FMB920 brings essential fleet management and real-time tracking capabilities to small vehicles and assets that require a low-profile, cost-effective telematics solution.
-
-With an internal backup battery, remote immobilizer support and Bluetooth® LE for external sensors and beacons, the FMB920 delivers continuous telemetry and security features that integrate smoothly with Plaspy. Installers and fleet operators will appreciate straightforward deployment and remote management through Teltonika’s tools, while Plaspy users benefit from consistent location, ignition and sensor data for actionable reports and alerts.
+As a Plaspy compatible device, the FMB920 provides the core telemetry and security inputs that fleet operators expect. Its internal backup battery, remote immobilizer support and Bluetooth LE connectivity for external sensors and beacons make it a practical choice for Plaspy users who need consistent location, ignition and sensor data for monitoring, alerts and basic reporting.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for reliable real-time tracking and fleet management.
-- Ultra-slim 12 mm form factor for discreet installation in tight vehicle spaces.
-- Internal backup battery ensures continued operation and anti-theft monitoring during power loss.
-- Remote immobilizer functionality to enhance vehicle security and support anti-theft workflows.
-- Standard telematics inputs for ignition, door and alarm status—useful for telemetry and event-driven alerts.
-- Basic fuel monitoring capability to assist fuel monitoring and theft detection in fleet use.
-- Bluetooth LE connectivity for pairing with external beacons and Bluetooth sensors \(temperature, humidity, magnetic events, movement\).
-- Supports remote management with Teltonika FOTA WEB and Teltonika Configurator for firmware and configuration updates.
+- Plaspy compatible GPS tracker for real time vehicle and asset tracking.
+- Ultra slim 12 mm form factor for discreet installation in tight spaces.
+- Internal backup battery to maintain reporting during temporary power loss.
+- Remote immobilizer support to assist anti theft workflows.
+- Standard inputs for ignition door and alarm status useful for event driven alerts.
+- Fuel monitoring capability to support basic fuel tracking and anomaly detection.
+- Bluetooth LE connectivity for pairing with external beacons and sensors.
 
 ## How It Works with Plaspy
 
-The FMB920 integrates with Plaspy to deliver continuous location and telemetry to your Plaspy dashboard. Once connected to Plaspy, the tracker provides position updates, event notifications and sensor readings so fleets and asset managers can monitor activity in real time and act quickly on security events.
+When connected to Plaspy the FMB920 forwards position updates, event notifications and sensor readings so fleet managers and operators can monitor assets in real time and review historical activity. Plaspy uses these streams of data to power live maps, alerts and operational reports that aid decision making and incident response.
 
-- Real-time location and telemetry updates forwarded to Plaspy for live tracking and historical playback.
-- Ignition, door and alarm status inputs visible in Plaspy for event-based monitoring and driver behavior analysis.
-- Fuel monitoring data available for fuel monitoring and basic consumption or theft alerts.
-- Remote immobilizer control supported through the tracker and exposed to Plaspy for anti-theft response.
-- Bluetooth sensors and beacons data \(temperature, humidity, magnetic events, movement\) routed to Plaspy for extended asset monitoring.
+- Real time location updates and historical playback available in Plaspy for tracking and route review.
+- Ignition door and alarm status shown in Plaspy for event based monitoring and driver activity insights.
+- Fuel monitoring data visible for basic consumption reports and theft detection alerts.
+- Remote immobilizer status exposed through Plaspy to support anti theft response workflows.
+- Bluetooth sensor and beacon data routed into Plaspy to extend monitoring to temperature humidity and movement scenarios.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | FMB920 |
-| --- | --- |
-| Manufacturer | Teltonika |
-| Connectivity | Quad-band 2G GSM \(2G GPS tracker\) |
-| Bands | B2 / B3 / B5 / B8 |
-| Power & Battery | Internal backup battery for continued operation during power loss |
-| Interfaces | Telematics inputs: ignition, door, alarm; remote immobilizer support; input/output power supply cable included |
-| GNSS | GPS position tracking |
-| Bluetooth | Bluetooth® LE for external beacons and Bluetooth sensors \(temperature, humidity, magnetic events, movement\) |
-| Remote Management | Teltonika FOTA WEB \(firmware updates\) and Teltonika Configurator \(device setup\) |
-| Form Factor | Compact, slim 12 mm-height housing for discreet installation |
-| Variants / Order Codes | Standard and custom order codes \(examples: FMB920AECO01, FMB920AE5M01, FMB920AEZH01\) |
-| Package Contents | Typically includes FMB920 tracker and 0.7 m input/output power supply cable; some packages may include a micro USB cable |
-
-## Use Cases
-
-- Fleet anti-theft and immobilization: monitor ignition and activate remote immobilizer through Plaspy for stolen-vehicle response.
-- Basic fleet management and track-and-trace: reliable real-time tracking and telemetry for small fleets and delivery vehicles.
-- Fuel monitoring and theft detection: use the tracker’s fuel monitoring inputs to detect unusual consumption or tampering.
-- Extended asset monitoring with Bluetooth sensors: temperature, humidity or movement monitoring for trailers, cargo or mobile assets.
-- Discrete asset protection: slim form factor fits hidden installations on scooters, light vehicles or high-value equipment.
+- Fleet anti theft and immobilization workflows with remote response options.
+- Basic fleet management and track and trace for small delivery vehicles and service fleets.
+- Fuel monitoring and detection of unusual consumption or tampering.
+- Extended asset monitoring using Bluetooth sensors for cargo or trailer conditions.
+- Discreet protection of small vehicles scooters or high value equipment.
 
 ## Why Choose This Tracker with Plaspy
 
-The FMB920 offers a practical balance of security, telemetry and connectivity for operators who need a Plaspy compatible GPS tracker without extra complexity. Its slim housing and internal battery make it easy to install and maintain, while standard inputs and remote immobilizer capability provide the anti-theft tools fleet managers rely on. Bluetooth LE expands the device’s role beyond location to include environmental and movement sensing, and Teltonika’s remote management tools simplify firmware and configuration updates.
+The FMB920 offers a balanced feature set for organizations that need dependable tracking and basic security features without unnecessary complexity. Its slim profile and internal backup battery make it well suited to discreet installations, while standard telemetry inputs and remote immobilizer support provide the practical controls fleet managers rely on for security and event monitoring.
 
-Paired with Plaspy, the FMB920 delivers actionable real-time tracking, ignition and telemetry insights that help reduce risk, improve operational visibility and support efficient fleet management. Whether you need a cost-effective tracker for basic telematics, enhanced anti-theft workflows, or BLE-enabled sensor monitoring, the FMB920 is a compact, dependable option for Plaspy users.
+Paired with Plaspy, the FMB920 supplies the location, status and sensor data needed for live oversight, alerts and operational reporting. For users seeking a compact, Plaspy compatible tracker for small vehicles or assets, the FMB920 is a sensible option to consider.
 
+Learn more about Plaspy on our main website https://www.plaspy.com. Product specifications availability and manufacturer details can change over time so please verify current specifications on the official Teltonika site https://www.teltonika-gps.com/.

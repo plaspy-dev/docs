@@ -2,63 +2,59 @@
 slug: /teltonika/tmt250
 id: tmt250
 sidebar_label: TMT250
+title: Teltonika - TMT250
 sidebar_class_name: menu_item_tracker
+description: Compact personal GPS tracker TMT250 compatible with Plaspy for safety alerts and sensor assisted monitoring
+keywords:
+  - Teltonika TMT250
+  - TMT250 tracker
+  - TMT250 Plaspy compatibility
+  - Teltonika personal tracker
+  - TMT250 Bluetooth LE
+  - TMT250 emergency button
+  - TMT250 IP67
+  - TMT250 man down
+  - TMT250 lone worker
+  - TMT250 environmental sensors
 ---
+
 # Teltonika - TMT250
 
 ![TMT250](./logo..png)
 
-The Teltonika TMT250 is an autonomous 2G mini GPS tracker designed for personal security. With its compact size and easy-to-reach emergency button, this tracker provides instant alert messages to make a call for help in case of any incidents. It is an ideal solution for individuals who prioritize their safety and want a reliable device to keep them protected.
+The Teltonika TMT250 is an autonomous 2G mini GPS tracker designed for personal security. It combines a compact form factor with an easy to reach emergency button and built in safety scenarios such as man down and no movement detection. The device also supports wireless connections to external BLE devices, enabling monitoring of environmental parameters and additional sensors while maintaining rugged protection for outdoor use.
 
-One of the standout features of the TMT250 is its Bluetooth® LE-based wireless connection, which allows for the integration of external devices such as Low Energy beacons and sensors. This enables users to monitor various parameters like temperature, humidity, magnet detection, and movement. Whether you need to keep track of environmental conditions or detect any unusual activity, this tracker offers versatility and flexibility.
+As a Plaspy compatible device, the TMT250 can feed location and event data into Plaspy for centralized visibility and alerting. Its focus on personal safety events, emergency alerts, and optional sensor inputs makes it a practical choice for organizations and individuals who want a discreet, durable tracker that integrates with a fleet and asset monitoring platform like Plaspy.
 
-In addition to its advanced connectivity options, the TMT250 also comes with built-in man-down, alarm, and no-movement scenarios. These pre-programmed scenarios ensure the personal safety of lone workers and vulnerable individuals. With the TMT250, you can have peace of mind knowing that you or your loved ones are protected in various situations.
+## Key Highlights
 
-Furthermore, the TMT250 is designed to withstand outdoor integrations with its IP67-rated casing, providing protection against water and dust. This makes it suitable for usage in harsh conditions, allowing you to take it anywhere without worrying about its durability.
+- Compact autonomous 2G mini GPS tracker tailored for personal safety
+- Easy to reach emergency button for immediate alert messages
+- Bluetooth LE based wireless connection for external beacons and sensors
+- Built in man down, alarm, and no movement scenarios for lone worker safety
+- IP67 rated casing for water and dust resistance in outdoor conditions
+- Support for on demand tracking and multiple event driven scenarios
 
-Overall, the Teltonika TMT250 is a reliable and feature-packed GPS tracker that prioritizes personal security. With its easy-to-use emergency button, Bluetooth® LE-based wireless connection, and built-in safety scenarios, it offers a comprehensive solution for individuals who value their safety and want a versatile tracking device.
+## How It Works with Plaspy
 
-### Outstanding Features:
+When connected with Plaspy, the TMT250 provides location and event information that Plaspy can present alongside other devices for unified monitoring and incident management. Plaspy can use the device feeds to create notifications, historical tracking, and operational reports to support response and oversight.
 
-- Compact and autonomous 2G mini GPS tracker
-- Easy-to-reach emergency button for instant alert messages
-- Bluetooth® LE-based wireless connection for external devices
-- Built-in man-down, alarm, and no-movement scenarios for personal safety
-- IP67-rated casing for water and dust resistance
+- Receive and display location updates and movement history in the Plaspy interface
+- Trigger alerts in Plaspy from the emergency button, man down, or no movement events
+- Monitor paired external sensor inputs such as temperature or movement through Plaspy dashboards
+- Use geofence and zone events to generate notifications and activity summaries in Plaspy
+- Include TMT250 devices in fleet level reporting and operational summaries for oversight
 
-### Technical Specifications:
+## Typical Use Cases
 
-- Module: Teltonika TM2500
-- Technology: GSM/GPRS/GNSS/BLUETOOTH
-- GNSS: GPS, GLONASS, GALILEO, BEIDOU
-- Receiver: 33 channel
-- Tracking sensitivity: -165 dBM
-- Position Accuracy: \< 2.5 m CEP
-- Velocity Accuracy: \< 0.1 m/s \(within +/- 15% error\)
-- Hot start: \< 1 s
-- Warm start: \< 25 s
-- Cold start: \< 35 s
-- Cellular Technology: GSM/GPRS
-- 2G bands: Quad-band 850 / 900 / 1800 / 1900 MHz
-- Data transfer: GPRS: Max 107Kbps \(DL\)/Max 85.6Kbps \(UL\)
-- Data support: SMS \(text/data\)
-- Internal Back-up battery: 800mAh rechargeable Li-Ion battery, 3,8V, 3.04Wh
-- Bluetooth Specification: 4.0 + LE
-- Dimensions: 44 x 43 x 20 mm \(L x W x H\)
-- Weight: 40 g
-- Interface: GNSS antenna, Cellular antenna, USB, LED indication, Buttons, SIM
-- Memory: 128MB internal flash memory
-- Ingress Protection Rating: IP67
-- Operating humidity: under 85% non-condensing
-- Battery charge temperature: 0 °C to +45 °C
-- Battery discharge temperature: -20 °C to +58 °C
-- Battery storage temperature: -20 °C to +45 °C for 3 months
-- Scenarios: Alarm button, Man-down detection, Inside tracking, Movement/No Movement Events, 50 Manual Geofence zones, Over Speeding, Action on call feature, on Demand Tracking, Smart algorithm of GPRS data sending for GPRS traffic saving, Asset tracking, Home Zone, Real Time tracking, Power On/Off event, Event on a Pressed Button, On Demand tracking via button press, Beacon On Demand tracking, Race Mode
-- Sensors: Accelerometer
-- Sleep modes: GPS Sleep, Online Deep Sleep, Deep Sleep, Ultra Deep Sleep
-- SMS: Configuration, Events, Debug
-- GPRS commands: Configuration, Debug
-- Time Synchronization: GNSS, NITZ, NTP
-- Configuration and firmware update: FOTA Web, Teltonika Configurator \(USB, Bluetooth®\)
-- Certification & approvals: CE/RED, EAC, Anatel, UKCA, RoHS, REACH
+- Personal safety for lone workers and field staff requiring instant alert capability
+- Protection and monitoring of vulnerable individuals who need emergency notification
+- Portable asset monitoring in outdoor environments where water and dust resistance matters
+- Environmental condition checks for mobile shipments or equipment when paired with external sensors
+- Situations requiring discreet, compact trackers that integrate into a broader monitoring platform
 
+## Why Choose This Tracker with Plaspy
+
+The TMT250 is a practical option for organizations that need a small, rugged personal tracker with focused safety features. Its emergency button and built in scenarios such as man down and no movement provide straightforward event triggers that map well into Plaspy workflows for alerting and response. Bluetooth LE connectivity adds flexibility by allowing optional external sensors to enhance monitoring when needed.
+
+If you are evaluating devices for personal safety or portable asset monitoring and want integration with a central tracking platform, the Teltonika TMT250 is a relevant candidate to consider with Plaspy. Learn more about Plaspy on the main website https://www.plaspy.com and verify current product specifications and availability with the manufacturer at https://www.teltonika-gps.com/. Product details and manufacturer information can change over time, so please consult official documentation for the latest specifications.

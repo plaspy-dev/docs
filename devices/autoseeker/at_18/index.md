@@ -2,59 +2,60 @@
 slug: /autoseeker/at_18
 id: at_18
 sidebar_label: AT-18
+title: Autoseeker - AT-18
 sidebar_class_name: menu_item_tracker
+description: Compact waterproof GPS tracker for vehicles and assets compatible with Plaspy for real time tracking and configurable alerts
+keywords:
+  - Autoseeker AT-18
+  - AT-18 tracker
+  - Autoseeker tracker
+  - AT-18 GPS tracker
+  - AT-18 Plaspy compatible
+  - vehicle GPS tracker
+  - waterproof GPS tracker
+  - covert vehicle tracker
+  - fleet tracking AT-18
+  - AT-18 real time tracking
 ---
+
 # Autoseeker - AT-18
 
 ![AT-18](./tracker.jpg)
 
-The AT-18 is a compact, waterproof GPS tracker engineered for discreet, permanent installations in vehicles and mobile assets. Plaspy compatible out of the box, the AT-18 brings dependable real-time tracking and basic telemetry to fleets, personal vehicles, motorcycles, trucks, and marine craft. Its small form factor and rugged housing make it ideal for covert placements under dashboards, beneath seats, or inside compartments where long-term exposure to the elements is a concern.
+The AT-18 is a compact, waterproof GPS tracker built for discreet, permanent installation in vehicles and mobile assets. Its small form factor and rugged housing make it suitable for placement under dashboards, beneath seats, or inside compartments where long term exposure to the elements is a concern. The device is designed to deliver dependable real time tracking and basic telemetry for fleets, personal vehicles, motorcycles, trucks, and marine craft.
 
-Designed for reliable fleet management and anti-theft protection, the AT-18 supports GPRS \(TCP\) real-time reporting with SMS fallback and offers configurable alarms for ACC/ignition events, overspeed, low battery, and geofence breaches. Combined with Plaspy’s platform, this GPS tracker provides timely location updates and alerting to improve operational visibility and enhance asset security.
+As a Plaspy compatible device out of the box, the AT-18 integrates easily with Plaspy to provide centralized visibility and alerting. With support for packet based reporting and SMS fallback plus configurable alarms for ignition events, overspeed, low battery, and geofence breaches, the AT-18 supplies the location and status signals Plaspy needs to support fleet monitoring, asset security, and historical reporting.
 
 ## Key Highlights
 
-- Plaspy compatible for centralized real-time tracking and fleet management dashboards.
-- GPRS \(TCP\) primary reporting with SMS fallback ensures continuous connectivity.
-- Compact, waterproof design enables covert, permanent installations on vehicles, motorcycles, and boats.
-- Wide power input range and low standby current for reliable operation across vehicle types.
-- ACC on/off detection to capture ignition events and support usage-based workflows.
-- Configurable geofence, overspeed, and low-battery alerts for anti-theft and compliance monitoring.
-- High-sensitivity ZKW GPS chipset \(−162 dB\) for fast fixes and consistent real-time tracking accuracy.
+- Plaspy compatible for centralized real time tracking and fleet management dashboards
+- Compact waterproof design enables covert, permanent installations on vehicles and marine craft
+- GPRS based primary reporting with SMS fallback to preserve alerting when packet data is limited
+- ACC on off detection to capture ignition events and support trip and usage workflows
+- Configurable geofence, overspeed, and low battery alerts for anti theft and compliance monitoring
+- Rugged housing and small form factor suitable for motorcycles, trucks, trailers, and boats
+- High sensitivity GNSS performance for consistent position fixes in mobile environments
 
 ## How It Works with Plaspy
 
-Integration with Plaspy leverages the AT-18’s GPRS \(TCP\) communication to deliver real-time location and basic telemetry into Plaspy’s platform. Devices send periodic position and status packets to a Plaspy-compatible server, and Plaspy handles map visualization, alerting, and historical reporting. SMS reporting provides a fallback when packet data is unavailable, helping preserve continuity for anti-theft and critical alerts.
+When used with Plaspy, the AT-18 sends periodic position and status packets that Plaspy consumes to display location, generate alerts, and store history for later analysis. Plaspy translates the tracker feed into map visualizations, notification rules, and operational reports so teams can monitor assets in near real time and respond to events efficiently.
 
-- Real-time location and telemetry updates via GPRS \(TCP\) to Plaspy servers.
-- ACC/ignition status reporting for trip detection, driver behavior, and duty cycles.
-- Geofence alerts and overspeed alarms forwarded instantly to Plaspy for notifications and logging.
-- Low-battery and other configurable alarms for proactive maintenance and anti-theft responses.
-- SMS report fallback for environments where packet data is intermittent.
+- Real time location and basic telemetry updates delivered into Plaspy for map visualization
+- ACC and ignition status reporting used by Plaspy for trip detection and utilization tracking
+- Geofence and overspeed alerts forwarded to Plaspy for immediate notifications and logging
+- Low battery and other configurable alarms surfaced in Plaspy for proactive maintenance actions
+- SMS report fallback helps preserve critical alerts when packet connectivity is intermittent
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | SMS, GSM, GPRS \(TCP\) |
-| --- | --- |
-| Bands / Module | MC25-series GSM module — GSM 850/900/1800/1900 |
-| Power & Battery | Wide work voltage support \(reported 9–90 V\); operating voltage range listed as 12–95 V; onboard backup battery 60 mAh; standby current &lt; 84 mA |
-| Interfaces & Alarms | Modular wiring system for quick installation; ACC \(ignition\) on/off detection; configurable overspeed, low-battery, and geofence alerts |
-| GNSS | ZKW GPS chipset \(high sensitivity −162 dB\). Typical cold/warm/hot start times ~35s / 30s / 1s |
-| Physical | Dimensions: 89 × 51 × 15 mm; waterproof enclosure suitable for permanent vehicle installations |
-| Environmental | Operating temperature −20°C to 65°C; humidity tolerance 5%–95% non-condensing |
-| Form Factor | Compact, covert tracker designed for vehicles, motorcycles, trucks, and marine assets |
-
-## Use Cases
-
-- Fleet management: continuous location tracking and ignition telemetry for routing and utilization reporting.
-- Anti-theft and immobilization workflows: covert placement and prompt geofence/overspeed alerts to reduce loss.
-- Motorcycle and small-vehicle protection: discreet mounting under seats or panels for theft prevention.
-- Marine asset tracking: waterproof enclosure enables mounting on boats for perimeter alerts and location history.
-- Permanent asset monitoring: long-term, hardwired installations for trailers, equipment, and mobile infrastructure.
+- Fleet management with continuous location tracking and ignition telemetry for routing and utilization
+- Anti theft deployment using covert mounting and prompt geofence or overspeed notifications
+- Motorcycle and small vehicle protection where compact hardware is required for discreet placement
+- Marine asset tracking where a waterproof enclosure supports perimeter alerts and history
+- Permanent asset monitoring for trailers, equipment, and mobile infrastructure with hardwired installations
 
 ## Why Choose This Tracker with Plaspy
 
-The AT-18 delivers a practical balance of discreet hardware and robust communications for organizations and individuals seeking Plaspy compatible GPS tracking. Its waterproof, compact design supports covert, permanent installation while the MC25-series GSM module and GPRS \(TCP\) reporting offer reliable real-time tracking. SMS fallback preserves alerting when data connectivity is limited, and ACC detection plus configurable alarms provide the telemetry necessary for fleet management and anti-theft use cases.
+The AT-18 provides a practical mix of discreet hardware and robust communications for organizations using Plaspy. Its waterproof enclosure and compact size make long term placement straightforward, while packet reporting with SMS fallback helps maintain alerting and visibility in varied connectivity conditions. ACC detection and configurable alarms give operations the basic telemetry needed for trip analysis, security workflows, and maintenance planning.
 
-When paired with Plaspy, the AT-18 becomes part of a scalable monitoring solution: Plaspy aggregates location feeds, triggers notifications for geofence breaches and overspeed events, and stores history for compliance and analysis. For customers who require additional telemetry—such as fuel monitoring, immobilizer control, or BLE sensor integration—Plaspy can accept and display those inputs when paired with compatible external sensors or gateway devices. The result is a dependable, Plaspy compatible GPS tracker that supports security, operational visibility, and straightforward deployment across mixed vehicle fleets.
-
+Paired with Plaspy, the AT-18 becomes part of a scalable monitoring solution: Plaspy aggregates location feeds, triggers notifications for geofence breaches and overspeed events, and retains history for reporting and analysis. To learn more about how Plaspy can use device feeds like the AT-18 to improve fleet visibility and asset security, visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current specifications on the manufacturer site https://autoseekergps.com/ before purchase or deployment.

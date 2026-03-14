@@ -2,62 +2,62 @@
 slug: /eelink/k30
 id: k30
 sidebar_label: K30
+title: EElink - K30
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS portátil para seguridad personal y monitoreo de personal compatible con Plaspy, con alertas SOS y geocercas
+keywords:
+  - Rastreador EElink K30
+  - EElink K30 compatible
+  - Rastreador portátil K30
+  - Rastreador SOS K30
+  - rastreador GPS portátil
+  - rastreador seguridad personal
+  - dispositivo seguimiento personal
+  - geocercas K30
+  - rastreador compatible Plaspy
+  - seguimiento de ubicación K30
 ---
+
 # EElink - K30
 
 ![K30](./tracker.jpg)
 
-# K30 Wearable GPS Tracker
+El K30 es un rastreador GPS portátil y compacto diseñado para la seguridad personal y el monitoreo de personal. Ligero y resistente al agua, el dispositivo combina posicionamiento por GPS, Wi‑Fi y LBS con seguimiento en tiempo real y funciones de emergencia como un botón SOS y voz bidireccional, lo que ayuda a cuidadores y equipos operativos a mantener visibilidad y responder con rapidez cuando se presentan incidentes.
 
-El K30 es un rastreador GPS compacto y compatible con Plaspy, diseñado para una monitorización fiable de la seguridad personal y del personal. Ligero y resistente al agua, el K30 combina posicionamiento triple GPS/Wi‑Fi/LBS con seguimiento en tiempo real y características de emergencia para que cuidadores, gerentes y equipos de operaciones puedan mantener la visibilidad y actuar con rapidez ante los eventos.
+Como dispositivo compatible con Plaspy, el K30 integra sus datos de ubicación y eventos en la plataforma Plaspy para mapeo, alertas e informes. La configuración remota mediante la plataforma, la aplicación o SMS facilita la incorporación y permite a las organizaciones centralizar geocercas, umbrales de alarma y supervisión operativa para el rastreo de personas y la protección ligera de activos.
 
-Diseñado para niños, usuarios mayores y personal en movimiento, el K30 ofrece telemetría esencial — actualizaciones de ubicación, llamadas de emergencia SOS, voz bidireccional y conteo de pasos — mientras minimiza el consumo de batería gracias a modos inteligentes de ahorro de energía. Su configuración remota a través de plataforma, app o SMS facilita la integración con Plaspy para alertas, geocercas y flujos de informes.
+## Aspectos destacados
 
-## Puntos clave
-
-- Rastreador GPS compatible con Plaspy que ofrece un seguimiento en tiempo real fiable para la seguridad de las personas y del personal.
-- Posicionamiento triple \(GPS/Wi‑Fi/LBS\) para mejorar la precisión de ubicación tanto en interiores como en exteriores.
-- Llamadas de emergencia SOS con botón de pulsación larga y voz bidireccional para una respuesta rápida ante incidentes.
-- Geocercas, alertas de velocidad y de batería baja para automatizar alertas y reducir la supervisión manual.
-- Modos inteligentes de ahorro de energía que ajustan la frecuencia de reporte según el movimiento para prolongar la vida de la batería.
-- Diseño compacto y ligero \(20 g\) con IP65 adecuado para uso diario y asignaciones de personal local o flota.
-- La configuración remota vía plataforma/app/SMS permite una instalación rápida y actualizaciones a través de Plaspy.
+- Rastreador portátil compatible con Plaspy, pensado para seguridad personal y monitoreo de personal.
+- Posicionamiento triple mediante GPS, Wi‑Fi y LBS para mejorar la precisión en diferentes entornos.
+- Alerta de emergencia SOS y voz bidireccional para apoyar una respuesta rápida ante incidentes.
+- Funciones de geocercas y alarmas para notificaciones de entrada/salida y alertas de batería baja.
+- Ahorro de energía inteligente para extender el tiempo de operación entre cargas.
+- Diseño compacto con clasificación IP65, apto para uso diario y tareas de servicio ligero.
+- Configuración remota desde la plataforma, la app o por SMS para agilizar actualizaciones a gran escala.
 
 ## Cómo funciona con Plaspy
 
-Cuando está conectado a Plaspy, el K30 transmite datos de ubicación y de eventos que la plataforma utiliza para mapas, alertas e informes históricos. Plaspy ingiere fijaciones de posición de GPS, Wi‑Fi y LBS, además de telemetría del dispositivo como estado de la batería, activaciones de SOS y estado de movimiento. Los administradores pueden configurar zonas de geocerca, establecer umbrales de alarmas y recibir notificaciones push o por SMS directamente desde Plaspy con base en los eventos del K30.
+Al integrarse con Plaspy, el K30 envía posiciones y telemetría de eventos que la plataforma utiliza para poblar mapas, activar notificaciones y generar reportes históricos. Plaspy recibe las actualizaciones de posición y eventos del dispositivo para que los administradores puedan monitorear personas en tiempo real, automatizar alertas y revisar actividades pasadas desde una sola interfaz.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a través de la red GSM, visibles en los mapas y paneles de Plaspy.
-- Alertas de emergencia SOS y eventos de voz bidireccional enviados a Plaspy para una notificación inmediata y flujos de respuesta.
-- Conteo de pasos y reportes basados en movimiento alimentan la telemetría de actividad en los informes y paneles de Plaspy.
-- Notificaciones de entrada/salida de geocerca y alarmas de velocidad activan alertas de Plaspy para una acción rápida.
-- Configuración remota mediante plataforma/app/SMS: cambiar intervalos de reporte, alarmas y umbrales desde Plaspy.
-- Nota: el K30 se centra en telemetría personal y de activos; no incluye monitoreo de combustible de grado vehicular, detección de ignición ni control de inmovilizador, características comúnmente presentes en rastreadores de vehículos.
+- Ubicación y estado en tiempo real mostrados en los mapas y paneles de Plaspy.
+- Activaciones de SOS y eventos de voz integrados en los flujos de alerta de Plaspy para atención inmediata.
+- Información de movimiento y conteo de pasos disponible para monitoreo de actividad y reportes básicos.
+- Notificaciones de entrada y salida de geocercas que disparan alertas en Plaspy para control perimetral y cumplimiento.
+- Configuración remota y ajuste de intervalos de reporte a través de Plaspy o canales soportados por el dispositivo.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Redes GSM |
-| --- | --- |
-| Bandas | GSM \(bandas específicas no especificadas\) |
-| Alimentación y batería | Batería interna de 420 mAh; cargada vía 5 V DC; tiempo de carga aproximado de 4,5 horas; varios días de operación dependiendo del intervalo de reporte |
-| Interfaces | Botón SOS \(pulsación prolongada\), voz bidireccional; configuración remota vía plataforma/app/SMS; no se especifican interfaces de ignición de vehículo o inmovilizador |
-| GNSS y posicionamiento | GPS con precisión de 5–15 m; posicionamiento por Wi‑Fi 15–50 m; LBS como respaldo ante cobertura limitada |
-| Bluetooth | No especificado |
-| Gestión remota | Configuración y gestión de ajustes mediante plataforma/app/SMS \(soporte de configuración remota\) |
-| Factor de forma | Portátil compacto: 55 × 40 × 14,3 mm; peso 20 g; resistente al agua IP65 |
-
-## Casos de uso
-
-- Seguridad de niños y monitoreo parental — seguimiento en tiempo real, SOS y voz bidireccional para una tranquilidad inmediata.
-- Cuidado de personas mayores y protección de trabajadores aislados — alertas automáticas, avisos de batería baja y geocercas para apoyar a los cuidadores.
-- Seguimiento del personal en flotas mixtas o campus — wearable ligero para localización del personal, monitoreo de actividad y respuesta ante incidentes.
-- Control de activos y prevención de robo personal — formato compacto adecuado para mochilas o objetos personales donde se requieren alertas rápidas.
-- Supervisión de eventos e instalaciones — monitorizar movimientos del personal, hacer cumplir perímetros con geocercas y auditar la actividad con telemetría.
+- Seguridad infantil y monitoreo parental con notificaciones SOS rápidas y visibilidad de ubicación.
+- Cuidado de personas mayores y protección de trabajadores aislados donde alertas rápidas e historial de ubicación respaldan a los cuidadores.
+- Seguimiento de personal en campus o en operaciones con sitios mixtos para supervisión de actividad y gestión de incidentes.
+- Control de pertenencias personales o mochilas donde el factor de forma compacto y las alarmas ayudan a prevenir pérdidas.
+- Supervisión de eventos e instalaciones para vigilar movimiento de personal y hacer cumplir zonas designadas.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El K30 ofrece una solución enfocada y fiable cuando los clientes de Plaspy requieren wearables compatibles con Plaspy para personas y activos ligeros. Su combinación de posicionamiento GPS/Wi‑Fi/LBS, llamadas de emergencia SOS y voz bidireccional soporta el rastreo en tiempo real y una gestión rápida de incidentes sin incluir características de grado vehículo innecesarias. La gestión inteligente de energía y la configuración remota vía plataforma, app o SMS reducen el mantenimiento y simplifican implementaciones a gran escala para seguridad del personal o programas de cuidado infantil.
+El K30 está enfocado en la telemetría de personas y activos ligeros, ofreciendo un equilibrio entre posicionamiento, comunicación de emergencia y autonomía de batería adecuada para uso diario. Para organizaciones que requieren wearables compatibles con Plaspy, el dispositivo brinda las funciones esenciales para flujos de trabajo de seguridad sin la complejidad de la telemática orientada a vehículos.
 
-Al integrar el K30 en Plaspy, las organizaciones obtienen acceso inmediato a telemetría accionable — ubicaciones, conteo de pasos, eventos SOS y alertas de geocerca — presentadas en los paneles de Plaspy y canalizadas hacia los flujos de notificación existentes. Para clientes que buscan un rastreador GPS portátil, IP65, que ponga énfasis en seguridad, accesibilidad y facilidad de integración, el K30 es una opción práctica. Nota: las características telemáticas vehiculares, como monitoreo de combustible, detección de ignición o control de inmovilizador, quedan fuera del alcance del K30; el dispositivo se enfoca en telemetría personal y comunicaciones de emergencia.
+Integrar el K30 con Plaspy proporciona una visibilidad centralizada de ubicaciones, eventos SOS y actividad de geocercas, mientras que las opciones de configuración remota reducen la carga de mantenimiento. Su diseño compacto, resistente al agua y su conjunto de funciones sencillo lo convierten en una opción práctica para programas centrados en la seguridad del personal, el cuidado y el rastreo de personas en movimiento.
 
+Para obtener más información sobre Plaspy y el soporte de dispositivos compatibles, visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que se recomienda confirmar los datos técnicos y la información de soporte con la documentación oficial del fabricante en https://www.eelink.com.cn/.

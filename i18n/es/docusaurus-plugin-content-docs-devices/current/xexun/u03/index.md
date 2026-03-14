@@ -2,62 +2,59 @@
 slug: /xexun/u03
 id: u03
 sidebar_label: U03
+title: Xexun - U03
 sidebar_class_name: menu_item_tracker
+description: Insignia UWB para posicionamiento interior con precisión centimétrica, compatible con Plaspy para seguimiento de personal y seguridad en instalaciones gestionadas
+keywords:
+  - Xexun U03
+  - insignia U03 UWB
+  - U03 compatible con Plaspy
+  - rastreador UWB interior
+  - insignia posicionamiento interior
+  - seguimiento de personal
+  - seguimiento en tiempo real
+  - rastreador insignia IP68
+  - seguimiento de seguridad U03
+  - rastreador RFID tipo insignia
 ---
+
 # Xexun - U03
 
 ![U03](./tracker.png)
 
-# U03 — Etiqueta de posicionamiento UWB de alta precisión \(Compatible con Plaspy\)
+El Xexun U03 es una insignia compacta diseñada para posicionamiento interior de alta precisión y seguimiento de personal en instalaciones gestionadas. Basado en la medición por ultra wideband (UWB) y con un módulo RFID integrado, el U03 ofrece ubicaciones con precisión centimétrica y datos de presencia en tiempo real para entornos donde el GPS no es fiable. Su formato tipo placa, resistencia al agua y funciones de seguridad lo hacen apto para uso continuo en fábricas, hospitales, escuelas y otros espacios supervisados.
 
-La U03 UWB High-Precision Positioning Badge es una etiqueta profesional de posicionamiento en interiores, diseñada para ubicaciones con precisión de centímetros y seguimiento del personal en tiempo real. Compatible con Plaspy, la U03 combina rango por banda ultraancha \(UWB\), un módulo RFID integrado y mensajería bidireccional para ofrecer datos fiables de ubicación, seguridad y telemetría para instalaciones gestionadas como fábricas, hospitales, escuelas y centros penitenciarios.
+Como dispositivo compatible con Plaspy, el U03 puede alimentar despliegues de Plaspy con localizaciones interiores y telemetría de estado precisas. Esta compatibilidad permite a las organizaciones integrar las insignias U03 en mapas, alertas y reportes de Plaspy para supervisión en vivo, reproducción histórica y gestión operativa, manteniendo además capacidades de control de acceso y respuesta ante emergencias.
 
-Diseñada como una insignia de perfil bajo con protección IP68 y una larga autonomía en reposo, la U03 está optimizada para monitorización continua, control de asistencia, control de accesos y respuesta ante emergencias. Su tecla táctil SOS integrada, alertas por vibración y el sensor de movimiento la convierten en un dispositivo de rastreo compacto y centrado en la seguridad que se integra en implementaciones de Plaspy para rastreo en tiempo real, reproducción histórica, geocercas y flujos de verificación de presencia.
+## Características principales
 
-## Aspectos destacados
-
-- Posicionamiento interior a nivel de centímetros mediante rango UWB — seguimiento en tiempo real preciso donde el GPS no llega.
-- Comunicación bidireccional mediante RFID integrado \(2.4 GHz\) y transmisiones UWB \(3.75–4.25 GHz\) para notificaciones push y actualizaciones de estado.
-- Larga vida en standby gracias a una batería interna recargable de 550 mAh; típico standby de hasta 90 días y carga rápida de aproximadamente 2 horas vía pads de contacto.
-- Funciones orientadas a la seguridad: tecla táctil SOS, alertas por vibración, sensor de movimiento para monitorización de la actividad y alarmas de batería baja por debajo del 20%.
-- Diseño robusto y wearable con protección IP68 y opciones de detección de manipulación/desenganche para despliegues seguros.
-- Soporte de actualización de firmware remoto para mantener los dispositivos al día en flotas de insignias gestionadas por Plaspy.
+- Posicionamiento interior con precisión centimétrica gracias a mediciones UWB para localización en tiempo real donde el GPS no llega.
+- Comunicación RFID integrada y mensajería bidireccional para notificaciones e intercambio de estado.
+- Diseño de insignia para portar en el cuerpo con protección IP68 para uso fiable en entornos exigentes.
+- Funciones de seguridad como botón SOS táctil, alertas por vibración y detección de actividad por movimiento para respuesta rápida ante incidentes.
+- Larga autonomía en reposo y batería recargable para minimizar intervenciones de mantenimiento y tiempos fuera de servicio.
+- Opciones de monitorización de manipulación y detección de desprendimiento para apoyar despliegues seguros y auditorías.
 
 ## Cómo funciona con Plaspy
 
-La U03 se integra con redes de anclaje UWB compatibles con Plaspy y motores de posicionamiento para proporcionar una ubicación interior continua y precisa, así como telemetría del dispositivo. Los anclajes reciben las emisiones UWB de la insignia y los intercambios RFID; Plaspy procesa esas señales para calcular soluciones de ubicación, generar eventos de geocerca y distribuir alertas. La mensajería bidireccional permite que Plaspy envíe notificaciones push a la insignia y reciba actualizaciones de estado \(batería, movimiento, manipulación\) en tiempo real.
+El U03 se integra en una solución de posicionamiento interior gestionada por Plaspy al reportar ubicación y estado del dispositivo en los sistemas de mapeo y alertas de Plaspy. Anclas y motores de posición calculan las localizaciones de las insignias, mientras que la mensajería bidireccional permite a Plaspy recibir actualizaciones de estado y enviar notificaciones a los usuarios. Juntos, Plaspy y el U03 ofrecen a los equipos del sitio visibilidad continua y contexto operativo para la gestión de personal y activos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para supervisión y mapeo en vivo.
-- Alertas de emergencia SOS/botón táctil enrutadas de inmediato a los paneles de Plaspy y a los canales de notificación.
-- Alertas de batería baja y de manipulación/desenganche para mantenimiento proactivo y seguridad.
-- Notificaciones por vibración y mensajes push del sistema para avisar a los usuarios de eventos o instrucciones.
-- Interacciones NFC y RFID opcionales para apoyar control de acceso, registro de presencia e flujos de inspección.
+- Las ubicaciones y la telemetría en vivo aparecen en los paneles de Plaspy para supervisión y mapeo en tiempo real.
+- Los eventos del botón SOS y las alertas por vibración se enrutan a los canales de notificación de Plaspy para una respuesta rápida.
+- Avisos de batería baja, manipulación y movimiento alimentan los flujos de trabajo de mantenimiento y seguridad dentro de Plaspy.
+- La reproducción histórica de posiciones y los registros de eventos facilitan la revisión de incidentes y la elaboración de informes de cumplimiento.
+- Las interacciones RFID y NFC pueden incorporarse a los flujos de Plaspy para control de asistencia, eventos de acceso e inspecciones.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | Transmisiones UWB \(3.75–4.25 GHz\) y RFID integrado a 2.4 GHz |
-| --- | --- |
-| Posicionamiento | Posicionamiento UWB a nivel de centímetros cuando se usa con una red de múltiples anclajes y un motor de posicionamiento \(hasta 10 cm de precisión reportada en despliegues compatibles\) |
-| Cobertura | Hasta 80 metros en entornos sin obstrucciones \(dependiente del anclaje\) |
-| Potencia y Batería | Batería interna recargable de 550 mAh; autonomía típica en standby de hasta 90 días; alarma de batería baja por debajo del 20% |
-| Carga | Pads de contacto para interfaz de datos/carga; tiempo típico de carga completa ≈ 2 horas |
-| Interfaces y sensores | Tecla táctil SOS, sensor de movimiento \(actividad\), motor de vibración para alertas, detección de manipulación/desenganche \(con opciones de lazo conductor\), NFC opcional |
-| Antenna | Antena interna omnidireccional |
-| Durabilidad | Protección IP68 resistente al agua |
-| Gestión remota | Soporte de actualización remota de firmware \(FOTA\) |
-| Forma | Etiqueta 108 × 60 × 8 mm; aprox. 80 g |
-
-## Casos de uso
-
-- Seguimiento en tiempo real del personal y monitorización de seguridad en plantas de producción y almacenes — alertas SOS inmediatas y ubicación para respuesta ante emergencias.
-- Automatización de asistencia y registro de presencia en escuelas, hospitales o instalaciones seguras mediante detección de insignias y registros de posición.
-- Control de acceso e inspecciones — Interacciones RFID/NFC para acceso a puertas, registro de entrada por zonas y verificación de inspecciones.
-- Seguridad de instalaciones gestionadas en prisiones o sitios sensibles — detección de manipulación, alertas de geocerca y reproducción histórica de trayectorias para investigaciones.
-- Monitoreo de personal sanitario y pacientes — telemetría de actividad basada en movimiento y localización rápida del personal durante eventos críticos.
+- Seguimiento de personal en tiempo real y coordinación de respuesta a emergencias en plantas de manufactura y almacenes.
+- Automatización de asistencia y control de presencia en escuelas, hospitales e instalaciones gestionadas.
+- Control de acceso y registro de entradas en zonas mediante interacciones de insignia con RFID o NFC.
+- Seguridad e investigación de incidentes en sitios sensibles con alertas por manipulación y reproducción histórica de trayectos.
+- Monitoreo de ubicación y actividad del personal para asignación rápida de recursos durante eventos críticos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Aunque el U03 no es un rastreador GPS, llena la brecha crítica del seguimiento en interiores con precisión UWB y compatibilidad con Plaspy. Para organizaciones que requieren un seguimiento fiable en tiempo real con precisión de centímetros, el U03 ofrece soluciones de ubicación precisas, telemetría robusta y características de seguridad orientadas al usuario que se integran de forma fluida en los flujos de mapeo, alertas e informes de Plaspy. La larga duración de la batería, la protección IP68 y la detección de manipulación reducen la carga de mantenimiento y mejoran la disponibilidad operativa.
+El U03 cubre la necesidad específica de posicionamiento interior con precisión centimétrica cuando las tecnologías exteriores no son suficientes. Al combinarse con Plaspy, la insignia pasa a formar parte de una plataforma operacional más amplia que convierte la localización precisa y el estado del dispositivo en monitorización accionable, alertas y reportes. Su diseño para portar y sus funciones de seguridad lo hacen especialmente valioso para organizaciones que priorizan la protección del personal, registros de acceso auditables y bajos costes de mantenimiento.
 
-Desplegar el U03 dentro de una red UWB gestionada por Plaspy proporciona a los equipos inteligencia de ubicación accionable, respuesta rápida a incidentes mediante SOS y alertas por vibración, y registros de acceso/llamadas de presencia seguros y auditable. Es una opción práctica para instalaciones que requieren seguimiento interior de alta precisión, gestión simplificada del ciclo de vida del dispositivo \(actualizaciones de firmware remotas\) y un dispositivo ponible centrado en la seguridad que complementa rastreadores GPS y sensores Bluetooth en soluciones de ubicación híbridas.
-
+Para obtener más información sobre Plaspy y cómo admite despliegues de seguimiento interior con dispositivos compatibles como el Xexun U03 visite https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time; verify current technical information with the manufacturer at https://www.xexun.com/.

@@ -2,63 +2,59 @@
 slug: /atrack/al100
 id: al100
 sidebar_label: AL100
+title: ATrack - AL100
 sidebar_class_name: menu_item_tracker
+description: Rastreador ATrack AL100 resistente para movilidad eléctrica, compatible con Plaspy para seguimiento y telemetría en tiempo real de bicicletas y flotas
+keywords:
+  - ATrack AL100
+  - Rastreador AL100
+  - Rastreador ATrack para bicicletas eléctricas
+  - AL100 Plaspy
+  - Rastreo de flotas de bicicletas eléctricas
+  - Rastreador compatible con Plaspy
+  - Telemetría AL100
+  - Rastreador para movilidad eléctrica
+  - Rastreador IP67
+  - Rastreador LTE Cat1
 ---
+
 # ATrack - AL100
 
 ![AL100](./tracker.jpg)
 
-El AL100 es un rastreador robusto de e‑movilidad compatible con Plaspy, diseñado para un seguimiento en tiempo real fiable de las bicicletas eléctricas en flotas de alquiler y propiedad personal. Con conectividad LTE Cat.1 y una carcasa con clasificación IP67, el AL100 está diseñado para ofrecer ubicación y telemetría de forma continua donde las bicicletas se usan al aire libre y en condiciones adversas. La integración con Plaspy permite a los operadores de flotas y a los propietarios monitorizar el kilometraje, la velocidad, la cadencia, el par y la salud de la batería a través de un único panel para una toma de decisiones rápida y una mayor disponibilidad.
+El AL100 es un rastreador para movilidad eléctrica de ATrack, diseñado para el seguimiento en tiempo real de bicicletas eléctricas tanto en flotas de alquiler como en uso privado. Con una carcasa resistente a la intemperie y conectividad celular, el dispositivo se orienta a la entrega continua de ubicación y telemetría del vehículo en condiciones exteriores y entornos exigentes. Está pensado para operadores de flotas que necesitan seguimiento persistente y visibilidad de datos en activos distribuidos.
 
-Construido para la gestión de flotas, recuperación ante robo y planificación de mantenimiento, el AL100 admite una integración opcional de CAN Bus para obtener datos detallados del motor y del vehículo a través de un protocolo personalizado. El Bluetooth opcional amplía el ecosistema de telemetría del dispositivo al emparejar sensores inalámbricos y aplicaciones móviles. Cuando se usa con Plaspy, el AL100 proporciona a los operadores los datos, alertas e informes necesarios para optimizar operaciones, mejorar la seguridad del ciclista y reducir el tiempo de inactividad.
+Como dispositivo compatible con Plaspy, el AL100 puede enviar la ubicación y la telemetría a Plaspy para la monitorización y generación de informes consolidados de la flota. Al integrarlo con Plaspy, usted podrá ver kilometraje, velocidad, cadencia, torque y estado de batería junto a mapas, alertas e informes históricos para apoyar el mantenimiento, la recuperación ante robos y la toma de decisiones operativas. Integraciones opcionales como CAN Bus y Bluetooth amplían la telemetría del dispositivo y pueden mostrarse en los paneles de Plaspy cuando estén habilitadas.
 
 ## Puntos clave
 
-- Compatible con Plaspy para una gestión de flotas consolidada y seguimiento en tiempo real en despliegues de bicicletas eléctricas.
-- Conectividad LTE Cat.1 para telemetría celular y actualizaciones de ubicación fiables, tanto en áreas urbanas como remotas.
-- Carcasa robusta con clasificación IP67 que protege contra polvo y agua para un uso fiable en exteriores.
-- Integración opcional de CAN Bus para capturar datos del motor y del vehículo \(protocolo personalizado\), incluyendo par y temperatura del motor.
-- Monitorea métricas críticas de la e‑bike: kilometraje, velocidad, cadencia, par, nivel de batería y temperaturas de la batería y del motor.
-- Bluetooth opcional permite emparejarse con sensores BLE y apps móviles para ampliar la telemetría y la cobertura de sensores.
-- Monitoreo del comportamiento de conducción para la seguridad del ciclista y mejorar el rendimiento de la flota mediante análisis de eventos.
+- Diseñado para despliegues de movilidad eléctrica y bicicletas eléctricas con una carcasa robusta y resistente a la intemperie para uso exterior.
+- Compatible con Plaspy para gestión consolidada de flotas y seguimiento en vivo de activos de bicicleta eléctrica.
+- Conectividad celular que proporciona ubicación y telemetría continuas, adecuada para cobertura urbana y zonas remotas.
+- Registra métricas clave de la bicicleta eléctrica, incluyendo kilometraje, velocidad, cadencia, torque y salud de la batería para obtener información operativa.
+- Integración opcional CAN Bus que permite acceso a datos más profundos del motor y del vehículo cuando se requiere para planificación de mantenimiento.
+- Soporte opcional de Bluetooth que facilita el emparejamiento con sensores adicionales y aplicaciones móviles para ampliar la telemetría.
 
 ## Cómo funciona con Plaspy
 
-La integración del AL100 con Plaspy está diseñada para convertir los datos brutos del dispositivo en inteligencia operativa para la flota. El dispositivo transmite ubicación y telemetría a Plaspy a través de LTE Cat.1; Plaspy procesa luego esas entradas para mapas en tiempo real, alertas, informes históricos y flujos de trabajo automatizados. Los gestores de flotas pueden usar Plaspy para activar alertas ante niveles de batería anómalos, condiciones de sobrecalentamiento, movimientos no autorizados y eventos de comportamiento de conducción.
+Integrar el AL100 con Plaspy convierte la telemetría del dispositivo en información operativa mediante mapas en vivo, alertas, informes históricos y disparadores de flujo de trabajo. Plaspy ingiere las señales del AL100 para que los equipos de flota puedan monitorear activos, responder a excepciones y analizar patrones de uso desde una sola plataforma.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía LTE Cat.1 para un seguimiento continuo en el mapa de Plaspy.
-- Estado del motor y del vehículo a partir de la integración opcional de CAN Bus — kilometraje, velocidad, cadencia y par reportados a través de Plaspy.
-- Telemetría de nivel y temperatura de la batería para apoyar la planificación de mantenimiento y estimaciones de autonomía.
-- Datos de sensores Bluetooth \(cuando se habilita\) para telemetría adicional como proximidad o sensores ambientales.
-- Los eventos de monitoreo del comportamiento de conducción están disponibles en Plaspy para puntuar la seguridad y obtener información operativa.
+- Actualizaciones de ubicación en vivo y visualización en mapas para rastrear flotas distribuidas de bicicletas eléctricas en tiempo real.
+- Paneles de telemetría para kilometraje, velocidad, cadencia y torque que apoyan decisiones de utilización y mantenimiento.
+- Monitoreo de nivel y temperatura de batería presentado como alertas e informes para reducir tiempos de inactividad inesperados.
+- Datos de comportamiento de conducción y eventos disponibles para puntuación de seguridad y revisión operativa dentro de Plaspy.
+- Soporte para fuentes opcionales Bluetooth y CAN Bus para añadir datos de sensores y telemetría del motor a las vistas de Plaspy.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Modelo | AL100 |
-| --- | --- |
-| Conectividad | LTE Cat.1 |
-| Bus CAN | Integración opcional de CAN Bus \(protocolo personalizado\) para datos del motor y del vehículo |
-| Carcasa | Carcasa robusta con clasificación IP67, resistente y a prueba de agua |
-| Telemetría | Kilometraje, velocidad, cadencia, par, nivel de batería y temperaturas de la batería y del motor |
-| Bluetooth | Bluetooth opcional para emparejar con sensores BLE y apps móviles |
-| Comportamiento de conducción | Monitoreo a bordo para la seguridad del ciclista y el rendimiento de la flota |
-| Forma | Rastreador para e‑bike robusto diseñado para uso al aire libre y en flotas |
-| Otras especificaciones | Bandas específicas, batería de respaldo y entradas/salidas adicionales no especificadas en la descripción proporcionada |
-
-## Casos de uso
-
-- Gestión de flotas para servicios de alquiler de bicicletas eléctricas: seguimiento en tiempo real, métricas de uso y mantenimiento programado basado en la telemetría de la batería y del motor.
-- Recuperación ante robo y monitoreo anti‑robo: seguimiento de ubicación y alertas de movimiento para facilitar una recuperación rápida.
-- Planificación de mantenimiento: datos de nivel de batería, temperatura del motor y kilometraje enviados a Plaspy para servicios predictivos.
-- Programas de comportamiento del ciclista y seguridad: análisis del comportamiento de conducción para mejorar la formación del ciclista y reducir el riesgo de incidentes.
-- Despliegues IoT ampliados: integración de sensores Bluetooth para telemetría adicional como estado de bloqueo, proximidad o sensores ambientales.
+- Gestión de flotas para servicios de alquiler y compartición de bicicletas con seguimiento en vivo y métricas de uso.
+- Recuperación ante robos y monitoreo anti robo mediante alertas de movimiento y el historial de ubicaciones.
+- Planificación y programación de mantenimiento basada en salud de la batería, temperatura del motor y kilometraje acumulado.
+- Programas de seguridad y comportamiento del conductor que usan datos de eventos para reducir incidentes y mejorar la capacitación.
+- Despliegues ampliados que integran datos de sensores vía Bluetooth para monitorear candados, proximidad o condiciones ambientales.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El AL100 ofrece telemetría centrada de e‑movilidad en una carcasa robusta e integra con Plaspy para proporcionar una única interfaz para operaciones. Su conexión LTE Cat.1 garantiza transmisiones de datos fiables para el seguimiento en tiempo real, mientras que el acceso CAN Bus opcional desbloquea información detallada del motor y de la batería que normalmente no está disponible en dispositivos de rastreo GPS genéricos. La carcasa IP67 reduce las fallas en campo y el mantenimiento relacionado con la exposición ambiental, ayudando a que las flotas permanezcan en movimiento.
+El AL100 es un rastreador focalizado en movilidad eléctrica que combina hardware resistente con una telemetría amplia, adecuada para escenarios de flotas y alquiler. Su conjunto de funciones lo hace práctico para organizaciones que necesitan visibilidad continua de la ubicación de las bicicletas eléctricas, el estado de la batería y el rendimiento del motor, mientras que las integraciones opcionales ofrecen un camino hacia insights más profundos cuando la flota lo requiere.
 
-Para organizaciones que gestionan telemetría agregada en flotas mixtas, el AL100 emparejado con Plaspy ofrece visibilidad escalable sobre uso, salud de la batería y comportamiento del ciclista. Aunque las características convencionales de vehículos como encendido e inmovilizador son menos comunes en bicicletas eléctricas, Plaspy puede mapear eventos de encendido/apagado del motor y alertas de movimiento de forma similar a los eventos de encendido para respaldar flujos de trabajo anti‑robo. Y aunque el AL100 se centra en telemetría de vehículos eléctricos \(monitoreo de batería en lugar de monitoreo de combustible\), los operadores se benefician de informes y alertas unificados que reducen verificaciones manuales y mejoran los tiempos de respuesta.
-
-  \<meta itemprop="model" content="AL100">
-  \<meta itemprop="brand" content="AL100 Manufacturer (unspecified)">
-
+Emparejar el AL100 con Plaspy ofrece a los operadores un único panel para monitoreo, alertas e informes en flotas mixtas, ayudando a reducir verificaciones manuales y mejorar los tiempos de respuesta. Para saber más sobre Plaspy y cómo soporta integraciones de dispositivos, visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y las opciones actuales con el fabricante en https://www.atrack.com.tw/.

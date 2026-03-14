@@ -2,44 +2,62 @@
 slug: /cantrack/g01_g02
 id: g01_g02
 sidebar_label: G01 / G02
+title: CanTrack - G01 / G02
 sidebar_class_name: menu_item_tracker
+description: Compact CanTrack G01 G02 GPS tracker for vehicle tracking with real time location geo fence and SOS alerts compatible with Plaspy
+keywords:
+  - CanTrack G01
+  - CanTrack G02
+  - G01 G02 tracker
+  - CanTrack GPS tracker
+  - G01 GPS tracking
+  - G02 GPS tracking
+  - Plaspy compatible tracker
+  - vehicle tracking
+  - real time tracking
+  - geo fence alarm
 ---
+
 # CanTrack - G01 / G02
 
 ![G01 / G02](./Logo.png)
 
-The CanTrack G01/G02 GPS tracker is a reliable and versatile device that allows you to track and monitor remote targets with ease. It utilizes the existing GSM/GPRS network and GPS satellites to provide accurate location information. With its compact design and built-in GPS and GSM modules, the G01/G02 is perfect for vehicle tracking. You can easily capture GPS data and send it to an authorized mobile number via SMS. The device also supports real-time tracking on a computer through GPRS transmission to an internet server.
+The CanTrack G01 / G02 is a compact GPS tracker designed for reliable location monitoring of vehicles and other mobile assets. It combines built in GPS and GSM modules to capture position data and deliver that information over the cellular network. The device supports real time tracking, history route replay, geo fence alerts, SOS notifications, and low battery warnings, and it is sized for convenient placement with a small rechargeable battery.
 
-One of the standout features of the CanTrack G01/G02 GPS tracker is its real-time tracking capability. You can monitor the location of your target in real-time, ensuring that you always have up-to-date information. Additionally, the device offers a history trace replay function, allowing you to review past routes and movements. The G01/G02 also includes a geo-fence alarm feature, which alerts you when the target moves outside of a predefined area. In case of emergencies, the SOS alarm can be activated to send an immediate alert. The device also provides low battery alarm notifications to ensure that you never lose track of your target due to a dead battery.
+As a device compatible with Plaspy, the G01 / G02 can feed location and alarm data into Plaspy for centralized monitoring and fleet oversight. Its ability to report location updates and send alerts makes it suitable for integration with Plaspy dashboards and reporting tools, allowing operators to maintain visibility, review past routes, and receive event notifications from the tracker alongside other devices.
 
-The CanTrack G01/G02 GPS tracker is compatible with Android and iOS devices, as well as PCs, thanks to its platform monitor support. This allows you to easily track and monitor your targets using your preferred device. The device operates on a global GSM quad-band frequency, ensuring reliable coverage in various locations. With its compact dimensions of 40.4mm \(L\) x 39.8mm \(W\) x 14.6mm \(H\) and a rechargeable 300mAh Li-ion battery, the G01/G02 is designed for convenience and portability. Whether you need to track vehicles, assets, or loved ones, the CanTrack G01/G02 GPS tracker is a reliable and versatile solution.
+## Key Highlights
 
-### Key Features:
-
-- Real-time tracking for up-to-date location information
-- History trace replay for reviewing past routes
-- Geo-fence alarm to alert you when the target moves outside a predefined area
+- Real time tracking capability for up to date location visibility
+- History trace replay to review past routes and movements
+- Geo fence alarm to notify when a target leaves a defined area
 - SOS alarm for immediate emergency notifications
-- Low battery alarm to ensure continuous tracking
-- Platform monitor support for Android, iOS, and PC
-- Global GSM quad-band frequency for reliable coverage
+- Low battery alerts to help maintain continuous tracking
+- Platform support for Android iOS and PC for monitoring flexibility
 
-### Technical Specifications:
+## How It Works with Plaspy
 
-- Dimensions: 40.4mm \(L\) x 39.8mm \(W\) x 14.6mm \(H\)
-- Network: GSM/GPRS/GPS, TCP/IP
-- Band: 850/900/1800/1900 MHz
-- GPS sensitivity: -159dBm
-- GPS accuracy: 5-10m
-- Time To First Fix:
-    - Cold status: 45-90s
-    - Warm status: 35s
-    - Hot status: 1s
-- GPS Chip: U-blox7020
-- GSM Chip: MT6261
-- Battery: 300mAh, chargeable 3.7V Li-ion battery
-- Wall charger: 110-220V input
-- Storage Temperature: -40°C to +85°C
-- Operation Temperature: -20°C to +45°C
-- Humidity: 15% to 95%
+When connected to Plaspy, the G01 / G02 provides position and alarm information that Plaspy displays and stores for operational use and reporting. Plaspy aggregates the device data so fleet managers and administrators can monitor status and respond to events from a single platform.
 
+- Map based real time location visualization in Plaspy dashboards
+- History and route replay using recorded position data
+- Geo fence events forwarded as alerts within Plaspy for operational response
+- SOS and low battery notifications routed to Plaspy alerting channels
+- Fleet level monitoring and grouping for operational oversight and dispatch
+- Periodic position updates available for reporting and audit in Plaspy
+
+## Typical Use Cases
+
+- Vehicle fleet tracking for small to medium sized operations
+- Rental vehicle monitoring and location history review
+- Asset tracking for portable equipment and trailers
+- Remote monitoring for personnel or high value items
+- Route verification and movement auditing for logistics
+
+## Why Choose This Tracker with Plaspy
+
+The CanTrack G01 / G02 is a practical choice when you need a small form factor tracker that covers the essentials of location monitoring and event notification. Its described feature set aligns with common fleet and asset tracking requirements, and when paired with Plaspy it can contribute real time visibility, event alerts, and historical movement data to a centralized management environment.
+
+Because the device reports location and alarms that Plaspy can consume, organizations looking for straightforward tracking and notification capabilities may find the G01 / G02 a useful component in their monitoring toolkit. Keep in mind that the available public description focuses on core tracking and alert features, so review your operational needs and confirm compatibility details as part of planning.
+
+To learn more about Plaspy and how it works with compatible trackers visit https://www.plaspy.com. Product specifications availability and manufacturer details can change over time so please verify current technical information on the official CanTrack site https://www.cantrackgps.com/ before purchase.

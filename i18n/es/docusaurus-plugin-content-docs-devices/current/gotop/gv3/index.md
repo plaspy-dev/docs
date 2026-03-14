@@ -2,63 +2,61 @@
 slug: /gotop/gv3
 id: gv3
 sidebar_label: GV3
+title: GOTOP - GV3
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G GOTOP GV3 compatible con Plaspy para monitoreo en tiempo real, geocercas, alertas SOS y bloqueo remoto
+keywords:
+  - GOTOP GV3
+  - GV3 rastreador GPS
+  - GV3 rastreador 4G
+  - GOTOP rastreador
+  - GV3 rastreo de flotas
+  - GV3 compatible con Plaspy
+  - rastreador GPS vehicular
+  - rastreador para gestión de flotas
+  - GV3 antirrobo
+  - GV3 IP67
 ---
+
 # GOTOP - GV3
 
 ![GV3](./tracker.png)
 
-El GV3 4G Car GPS Tracker es un compacto dispositivo de rastreo compatible con Plaspy, diseñado para un monitoreo fiable de vehículos y flotas. Pensado para uso automotriz, el GV3 ofrece seguimiento en tiempo real sobre redes 4G y 2G, geocercas, alertas de movimiento y notificaciones de emergencia — todo integrado de forma transparente con la plataforma Plaspy para la gestión centralizada de flotas y respuestas ante robo.
+El GV3 es un rastreador GPS compacto 4G para vehículos, diseñado para un monitoreo confiable de automóviles y flotas. Orientado al uso automotriz, el equipo ofrece seguimiento en tiempo real mediante 4G con respaldo 2G, geocercas, alertas de movimiento, notificaciones de emergencia SOS y soporte para inmovilizador remoto. Construido para entornos exigentes, el GV3 tiene certificación IP67 y un amplio rango de voltaje operativo, adecuado para autos, camiones, motocicletas y flotas mixtas.
 
-Con una clasificación IP67 robusta y un amplio rango de voltaje de operación de 9–95V, el GV3 es adecuado para coches, camiones, motocicletas y flotas mixtas. Combina una localización de alta precisión \(precisión típica de GPS dentro de 5 meters\) con entradas prácticas como detección ACC/ignición, SOS y corte remoto del motor \(inmovilizador\), lo que lo convierte en una opción sólida para operadores que requieren telemetría confiable, monitoreo de seguridad del conductor y opciones rápidas de inmovilización a través de Plaspy.
+Como dispositivo compatible con Plaspy, el GV3 integra su telemetría de ubicación y estado en la plataforma para una gestión centralizada de flotas y respuesta antirrobo. Al conectarse a Plaspy, el rastreador proporciona datos de posicionamiento, eventos de alarma y estados de entradas que pueden emplearse en mapas, alertas, reportes y supervisión operativa de la flota.
 
-## Aspectos destacados
+## Puntos clave
 
-- Compatible con Plaspy para una fácil integración en paneles de seguimiento en tiempo real y flujos de trabajo de gestión de flotas.
-- Conectividad en modo dual: 4G LTE para actualizaciones de alta frecuencia y respaldo a 2G cuando sea necesario.
-- Diseño compacto con clasificación IP67 que resiste entornos vehiculares severos y ofrece amplio soporte de voltaje \(9–95V\).
-- Antenas GPS/GSM integradas y posicionamiento GNSS preciso \(≈5 m\) para reproducción de rutas y recuperación precisas.
-- Alarmas y telemetría críticas: detección ACC/ignición, alarmas de vibración y movimiento, botón de emergencia SOS, alertas de batería baja y corte de alimentación principal.
-- Soporte de corte remoto del motor \(inmovilizador\) para intervenciones anti-robo cuando se autoriza a través de los controles de Plaspy.
-- Batería interna de respaldo \(3.7V 60 mAh\) para operación a corto plazo tras la pérdida de energía, a fin de preservar la ubicación de la última adquisición y las alertas.
+- Compatible con Plaspy para una integración directa en paneles de seguimiento en tiempo real y en sus flujos de trabajo
+- Conectividad dual 4G con respaldo 2G para mantener actualizaciones de ubicación en áreas con cobertura variable
+- Diseño robusto IP67 y amplio rango de operación 9–95V para uso en autos, camiones y motocicletas
+- Posicionamiento GNSS de alta precisión con precisión típica de aproximadamente 5 metros para reproducción de rutas y localización
+- Entradas orientadas a vehículos, incluyendo detección ACC de ignición, botón SOS, y alarmas por vibración y movimiento
+- Soporte para inmovilizador remoto para facilitar respuestas antirrobo cuando se gestiona desde Plaspy
+- Batería interna de respaldo que conserva la última ubicación conocida y alertas brevemente tras la pérdida de alimentación principal
 
 ## Cómo funciona con Plaspy
 
-El GV3 transmite la ubicación GPS y mensajes de estado a través de 4G \(con respaldo 2G\) a la plataforma Plaspy. Plaspy ingiere la telemetría del dispositivo en tiempo real para mapeo, alertas, informes históricos y analítica de flotas. La integración es sencilla: una vez que el GV3 está registrado en Plaspy, los puntos de ubicación, alarmas y estados de entrada fluyen a los paneles de Plaspy, habilitando alertas automatizadas, la aplicación de geocercas y la generación de informes operativos.
+El GV3 envía su posición GPS y el estado del dispositivo a Plaspy para que los responsables de la flota puedan ver ubicaciones en vivo, recibir alarmas y analizar movimientos históricos. Plaspy ingiere la telemetría y la hace disponible en mapas, reglas de alerta e informes para apoyar la toma de decisiones operativas y las respuestas de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía 4G LTE \(con respaldo 2G\) para un rastreo continuo.
-- Detección ACC/ignición reportada a Plaspy para eventos de encendido/apagado del motor y análisis del comportamiento del conductor.
-- Geocercas, alarmas de movimiento y vibración enviadas a Plaspy para notificaciones de incidentes en tiempo real.
-- Alertas de batería baja y corte de alimentación principal enviadas a Plaspy para activar procesos de recuperación o mantenimiento.
-- Inmovilizador remoto \(corte de motor\) compatible para intervenciones anti-robo cuando se autoriza a través de los controles de Plaspy.
-- Eventos del botón de emergencia SOS reenviados a Plaspy para respuesta rápida y despacho.
+- Actualizaciones de ubicación en tiempo real y telemetría visibles en los paneles de Plaspy para una visibilidad continua de la flota
+- Estado de ACC e ignición reportado a Plaspy para distinguir eventos de motor encendido y apagado
+- Geocercas, alarmas por movimiento y vibración enviadas a Plaspy para notificación inmediata y escalamiento
+- Alertas por batería baja y corte de alimentación principal que activan flujos de trabajo de mantenimiento o recuperación en Plaspy
+- Eventos del botón SOS reenviados a Plaspy para gestión rápida del incidente y notificación a despachadores
+- Acciones de inmovilización remota coordinadas desde Plaspy cuando están autorizadas para apoyar la recuperación del vehículo
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | GV3 \(4G Car GPS Tracker\) |
-| --- | --- |
-| Conectividad | 4G LTE y GSM/2G \(soporta SMS y reporte de datos\) |
-| Bandas | 4G: B1/B3/B5/B7/B8/B20 y variantes incluyendo B1/B2/B3/B4/B5/B7/B8/B28/B66; GSM: 850/900/1800/1900 MHz |
-| Modem | SIMCOM E7670SA \(4G modem\) |
-| GNSS | Chip GPS AT6558D — precisión típica de posicionamiento dentro de 5 meters |
-| Poder y Batería | Tensión de trabajo 9–95V; batería interna de respaldo 3.7V 60 mAh para operación a corto plazo |
-| Interfaces e I/O | Detección ACC \(ignición\), botón de emergencia SOS, corte remoto del motor \(inmovilizador\), entradas de alarma de vibración/movimiento, detección de corte de alimentación principal |
-| Protección de Ingreso | IP67 a prueba de agua |
-| Formato | Tamaño: 79 × 33 × 16 mm; Peso: 40 g; compacto para montaje en vehículo |
-| Bluetooth | No especificado en la descripción del producto |
-| Gestión Remota | Gestión FOTA/Web no especificada en la descripción del producto |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, reproducción de rutas y telemetría de comportamiento del conductor para operaciones de vehículos comerciales.
-- Protección anti-robo: alarmas de vibración, reporte de ubicación y control remoto del inmovilizador para asegurar vehículos robados.
-- Seguridad del conductor y respuesta ante emergencias: botón SOS y alertas inmediatas a los despachadores a través de Plaspy.
-- Rastreo de vehículos a largo plazo y cumplimiento: historial de posición preciso y aplicación de geocercas para la supervisión de activos.
-- Despliegues con flotas mixtas: el amplio rango de voltaje \(9–95V\) hace que el GV3 sea adecuado para coches, camiones y motocicletas en una única plataforma.
+- Rastreo de flotas comerciales para monitoreo de rutas, despacho y reporte de utilización
+- Protección antirrobo con alarmas por vibración, reportes de ubicación y control remoto del inmovilizador
+- Seguridad del conductor y respuesta a emergencias usando alertas SOS y notificaciones inmediatas al despacho
+- Despliegues en flotas mixtas donde la amplia tolerancia de voltaje permite un solo modelo para varias clases de vehículos
+- Historial de posiciones a largo plazo y aplicación de geocercas para supervisión de activos y cumplimiento
 
 ## Por qué elegir este rastreador con Plaspy
 
-Emparejar el GV3 con Plaspy ofrece una solución práctica y confiable para organizaciones y propietarios privados que necesitan un rastreo GPS robusto y telemetría accionable. La conectividad 4G del GV3, su posicionamiento GNSS preciso y sus entradas enfocadas a automoción \(ACC, SOS, inmovilizador remoto\) proporcionan los datos centrales que Plaspy necesita para monitoreo en tiempo real, flujos de trabajo de anti-robo y analítica de flotas. Su clasificación IP67 y su amplio rango de voltaje reducen las restricciones de instalación entre tipos de vehículos.
+El GV3 combina funciones prácticas de rastreo automotriz con durabilidad y soporte de alimentación flexible, lo que lo convierte en una opción sólida para organizaciones que requieren datos de posición confiables y alertas oportunas. Usado con Plaspy, la telemetría del rastreador forma parte de un flujo de trabajo centralizado de gestión de flotas que incluye mapas, notificaciones automatizadas, reportes históricos y opciones de intervención como la inmovilización.
 
-Para gestores de flotas y conductores comprometidos con la seguridad, la combinación GV3 + Plaspy ofrece operaciones simplificadas: actualizaciones de ubicación consistentes, alertas oportunas por batería baja o corte de energía, y la capacidad de inmovilizar un vehículo de forma remota cuando se produce un incidente. Mientras el GV3 entrega telemetría esencial a bordo, Plaspy extiende esa capacidad hacia informes centralizados, automatización de alertas e inteligencia operativa — apoyando flotas más seguras, recuperaciones más rápidas y una mejor utilización de los activos.
-
+Para obtener más información sobre cómo Plaspy funciona con rastreadores compatibles como el GV3, visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo; por favor verifique los detalles actuales en el sitio del fabricante https://www.gotop.cc/ para la información técnica más reciente.

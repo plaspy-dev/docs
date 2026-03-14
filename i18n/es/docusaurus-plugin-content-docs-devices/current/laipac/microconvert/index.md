@@ -2,39 +2,61 @@
 slug: /laipac/microconvert
 id: microconvert
 sidebar_label: MicroConvert
+title: Laipac - MicroConvert
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS oculto para activos sin energía con carcasa resistente e impermeable y larga autonomía compatible con Plaspy
+keywords:
+  - Laipac MicroConvert
+  - Rastreador GPS MicroConvert
+  - Rastreador GPS Laipac
+  - MicroConvert compatible con Plaspy
+  - rastreador oculto de activos
+  - rastreo de activos sin energía
+  - dispositivo de rastreo para flotas
+  - rastreador GPS de larga autonomía
+  - rastreador con montaje magnético
+  - rastreador para recuperación de activos
 ---
+
 # Laipac - MicroConvert
 
 ![MicroConvert](./logo.jpg)
 
-El MicroCovert de Laipac es un dispositivo de localización GPS diseñado especialmente para rastrear, localizar y recuperar activos sin motor en operaciones encubiertas. Este dispositivo cuenta con un estuche resistente, duradero, a prueba de agua, golpes y polvo, lo que lo hace ideal para su uso en condiciones adversas. Su instalación es sencilla, solo es necesario conectar el MicroCovert a cualquier superficie metálica y estará listo para su uso.
+El Laipac MicroConvert es un rastreador GPS compacto y discreto pensado para monitorear activos sin alimentación. Está alojado en una carcasa robusta, resistente al agua, a los golpes y al polvo, y se fija con discreción a superficies metálicas mediante potentes imanes de tierras raras. Laipac ofrece dos capacidades de batería: un modelo de 8Ah que puede ofrecer hasta aproximadamente un mes de seguimiento con una carga completa, y un modelo de 21Ah que puede ofrecer hasta aproximadamente seis meses con una carga completa.
 
-Laipac ofrece dos versiones del dispositivo de localización GPS MicroCovert: la Versión 8A y la Versión 21A. La Versión 8A cuenta con una batería de 8Ah que proporciona hasta un mes de seguimiento GPS con una carga completa de energía. Por otro lado, la Versión 21A cuenta con una batería de 21Ah que permite hasta seis meses de seguimiento GPS con una carga máxima de energía.
+Como dispositivo compatible con Plaspy, el MicroConvert permite llevar la visibilidad de ubicación a largo plazo a una plataforma centralizada de gestión de flotas. Su diseño y capacidades de reporte lo hacen idóneo para organizaciones que requieren actualizaciones de posición confiables, alertas de movimiento y registros históricos de ubicación para remolques, equipos y otros activos sin alimentación. Plaspy puede incorporar los datos del MicroConvert para mejorar la supervisión operativa y la responsabilidad sobre los activos en flotas distribuidas.
 
-El MicroCovert es una solución simple y asequible para empresas y usuarios que desean asegurarse de que sus activos no motorizados estén siempre seguros y en su lugar adecuado. Utilizando sistemas de seguimiento GPS, GSM y GPRS, el MicroCovert informa con precisión la posición de los activos no conectados a través del sitio web de LocationNow, donde se pueden monitorear y gestionar las 24 horas del día, los 7 días de la semana. Además, se enviará una notificación instantánea por correo electrónico, teléfono o información de contacto de la empresa si algún activo sin alimentación registrado se mueve de su posición designada. El MicroCovert también ofrece seguimiento GPS en tiempo real y registra continuamente la ubicación de los activos sin motor en línea día a día, brindando tranquilidad al prevenir robos y proteger los activos.
+## Características principales
 
-El MicroCovert se presenta en dos modelos, ambos fáciles de instalar. El primer modelo, la Versión 8A, cuenta con una batería recargable que proporciona hasta un mes de seguimiento GPS con una carga completa de energía. El segundo modelo, la Versión 21A, cuenta con una batería recargable que proporciona hasta seis meses de seguimiento GPS con una carga completa de energía. Ambos modelos se pueden conectar fácilmente a cualquier superficie metálica en el activo gracias a sus montajes magnéticos incorporados.
+- Diseñado para protección discreta de activos con una carcasa de bajo perfil y alta resistencia
+- Disponible en dos variantes de batería para intervalos de rastreo cortos o extendidos
+- Carcasa impermeable y a prueba de polvo para uso rudo en exteriores
+- Montaje magnético potente para una fijación sencilla en superficies metálicas
+- Capacidad de alertas por movimiento y geocercas para notificaciones oportunas
+- Actualizaciones de posición en tiempo real y registros diarios de ubicación para supervisión
 
-### Características destacadas:
+## Cómo funciona con Plaspy
 
-- GSM / GPRS para cobertura mundial.
-- Receptor GPS SiRF 4 con servicio AGPS de 48 canales.
-- Capacidad de Geo-Cerca con entrada/salida de alarma de la cerca.
-- Acelerómetro axial de 3 ejes para informar sobre movimiento e impacto.
-- Modo de suspensión para prolongar la duración de la batería.
-- Actualizaciones de posición en tiempo real basadas en intervalos de tiempo y distancia.
-- Informe de kilometraje y alerta de exceso de velocidad.
-- Batería de polímero de litio recargable de grado industrial de 8Ah y 21Ah.
-- Estanco al agua \(IP44\), resistente a golpes, a prueba de polvo y carcasa.
-- Imanes de tierras raras para permitir la fijación a cualquier superficie metálica \(80 lbf\).
+El MicroConvert puede enviar información de posición y movimiento a Plaspy para que usted monitoree activos sin alimentación junto con vehículos y otros dispositivos. Dentro de Plaspy, este rastreador mejora la conciencia situacional y permite notificaciones y reportes automatizados adaptados a la gestión de activos.
 
-### Especificaciones:
+- Visualice la ubicación en vivo y el historial de movimiento reciente de cada unidad MicroConvert
+- Configure alertas de geocerca y reciba notificaciones cuando los activos entren o salgan de zonas designadas
+- Monitoree inactividad o movimientos inesperados mediante alertas automáticas
+- Incluya los datos de ubicación del MicroConvert en informes consolidados para auditorías y revisiones operativas
+- Use los paneles de Plaspy para organizar los rastreadores por sitio, propietario o tipo de activo y facilitar la supervisión
 
-- Versión 8A: 100 × 145 × 60 mm.
-- Versión 21A: 95 × 190 × 65 mm.
-- Versión 8A: 1.15 lbs.
-- Versión 21A: 1.90 lbs.
-- Medidas de la caja de regalo: 197 \(ancho\) x 187 \(alto\) x 74 \(profundidad\) mm.
-- Solo disponible para montaje magnético.
+## Casos de uso típicos
 
+- Asegurar y rastrear remolques estacionados en sitios o ubicaciones remotas
+- Monitorear materiales de construcción y herramientas dejadas en obras
+- Rastrear generadores portátiles y equipos de soldadura entre trabajos
+- Recuperar activos no motorizados de alto valor tras un robo o pérdida
+- Monitoreo de ubicación a largo plazo de equipos estacionales o de uso esporádico
+
+## Por qué elegir este rastreador con Plaspy
+
+El MicroConvert es una opción práctica para organizaciones que necesitan rastreo discreto y de larga duración de activos sin alimentación. Su carcasa resistente y el montaje magnético facilitan el despliegue sin instalaciones complejas, y las opciones de batería permiten escoger un equilibrio entre frecuencia de reporte y duración operativa. Al integrarse con Plaspy, el MicroConvert extiende la visibilidad de la flota hacia activos que normalmente quedan fuera de la telemática vehicular tradicional.
+
+Elegir el MicroConvert con Plaspy puede reducir el esfuerzo manual en las verificaciones de activos, mejorar las tasas de recuperación y centralizar alertas e informes para equipos no motorizados. Si bien especificaciones como la duración de la batería y las clasificaciones de la carcasa influyen en la idoneidad, integrar este rastreador en Plaspy brinda una vista operativa consolidada que respalda los flujos de trabajo de gestión y seguridad de activos.
+
+Para más información sobre Plaspy y el soporte para dispositivos compatibles, consulte el sitio web de Plaspy en https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y las variantes de modelo actuales en el sitio web de Laipac en https://laipac.com/.

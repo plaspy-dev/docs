@@ -2,63 +2,60 @@
 slug: /autofon/45
 id: 45
 sidebar_label: Маяк 4.5
+title: AutoFon - Маяк 4.5
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto AutoFon Маяк 4.5 compatible con Plaspy para seguimiento discreto y baja mantención a largo plazo
+keywords:
+  - AutoFon Маяк 4.5
+  - AutoFon Mayak 4.5
+  - Rastreador GPS Mayak 4.5
+  - Rastreador AutoFon
+  - Compatible con Plaspy
+  - Rastreador GPS Plaspy
+  - Seguimiento de flotas Mayak 4.5
+  - Seguimiento de activos Mayak
+  - Rastreador GPS oculto
+  - Rastreador de larga duración de batería
 ---
+
 # AutoFon - Маяк 4.5
 
 ![Маяк 4.5](./tracker.png)
 
-El AutoFon Mayak 4.5 es un rastreador GPS compacto, compatible con Plaspy, diseñado para monitoreo de ubicación a largo plazo con bajo mantenimiento. Diseñado para instalación discreta en vehículos, remolques, embarcaciones, carga y sobre personas o animales, el Mayak 4.5 combina la precisión GPS \(LEADTEK 9101\) con conectividad GSM \(QUECTEL M10\) para reportar la posición por SMS y enviar paquetes GPRS de intervalo a un servidor de monitoreo seleccionado. Su larga duración de batería, detección de movimiento y monitoreo de audio remoto lo convierten en una opción práctica para aplicaciones anti-robo, rastreo encubierto y seguridad donde un mantenimiento mínimo y alertas confiables son esenciales.
+El AutoFon Маяк 4.5 es un rastreador GPS compacto pensado para el monitoreo de ubicaciones a largo plazo con baja necesidad de mantenimiento. Diseñado para colocación discreta en vehículos, remolques, embarcaciones, cargamentos y sobre personas o animales, el Mayak 4.5 integra un módulo GPS LEADTEK 9101 con conectividad GSM mediante un módem QUECTEL M10 para reportar la posición por SMS y enviar paquetes GPRS periódicos a un servidor de monitoreo configurado. Su combinación de larga autonomía de batería, detección de movimiento y capacidad de audio remoto lo hace adecuado para aplicaciones antirrobo, seguimiento encubierto y seguridad donde el mantenimiento mínimo es importante.
 
-La compatibilidad con Plaspy es sencilla: el Mayak 4.5 puede configurarse para enviar ubicación y telemetría a un servidor de monitoreo mediante GPRS \(modo intervalo\) o para proporcionar reportes inmediatos por SMS a números autorizados. Esto facilita añadir este rastreador GPS a paneles de seguimiento en tiempo real basados en Plaspy, alarmas y flujos de informes para pequeñas flotas, seguridad personal o recuperación de activos.
+Como dispositivo compatible con Plaspy, el Mayak 4.5 puede enviar datos de ubicación y estado a un servidor de monitoreo o proporcionar informes por SMS a números autorizados, lo que permite alimentar los paneles, alarmas e informes de Plaspy. Esa compatibilidad convierte al dispositivo en una opción práctica para incorporar activos de baja mantención al seguimiento en tiempo real, las alertas de eventos y los historiales de Plaspy en proyectos de pequeñas flotas, seguridad personal o recupero de activos.
 
-## Aspectos clave
+## Características principales
 
-- Compatible con Plaspy a través de paquetes de intervalo GPRS y SMS — se integra con el rastreo y las alertas basadas en servidor
-- Operación autónoma extremadamente prolongada — hasta 2 años con dos baterías CR123A en condiciones típicas
-- Formato discreto y compacto \(70 × 50 × 21 mm\) para instalación encubierta en vehículos, carga o activos personales
-- Micrófono integrado para monitoreo de audio remoto y conciencia situacional
-- Detección de movimiento con acelerómetro digital para alertas de movimiento inmediatas y modo de espera de ahorro de energía
-- Informa desconexiones de la alimentación externa y admite una entrada de alarma y una salida auxiliar para control remoto \(apagado del motor, sirena, etc.\)
-- Control por SMS sencillo con protección por PIN y gestión de números autorizados para comandos remotos seguros
+- Compatibilidad con Plaspy mediante paquetes GPRS periódicos y SMS para rastreo y alertas basadas en servidor  
+- Autonomía muy larga en funcionamiento típico con batería de bajo mantenimiento  
+- Factor de forma compacto y discreto, apto para ocultamiento en vehículos, cargamentos o pertenencias personales  
+- Micrófono incorporado para activación de audio remoto y verificación situacional  
+- Detección de movimiento con acelerómetro interno para alertas por desplazamiento y ahorro de energía en reposo  
+- Reporte de desconexión de alimentación externa y soporte para una entrada de alarma y una salida auxiliar  
+- Control sencillo por SMS con protección por PIN y gestión de números autorizados para comandos seguros
 
 ## Cómo funciona con Plaspy
 
-La integración del Mayak 4.5 con Plaspy se basa en la capacidad del dispositivo para enviar mensajes de coordenadas y estado ya sea por SMS o por modo de paquetes GPRS a un servidor de monitoreo configurado. Una vez configurado, Plaspy recibe actualizaciones de ubicación y telemetría del dispositivo y las convierte en marcadores de mapa en vivo, trayectorias históricas y alertas de eventos para el rastreo y reporte en tiempo real.
+La integración del Mayak 4.5 con Plaspy se basa en que el dispositivo envíe mensajes de coordenadas y estado ya sea por SMS o por paquetes GPRS a un servidor de monitoreo configurado. Cuando Plaspy recibe esas actualizaciones, la plataforma las traduce en marcadores en el mapa, alertas de eventos e historiales para supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — las coordenadas GPS del módulo LEADTEK 9101 se envían por SMS o GPRS a Plaspy.
-- Alertas de movimiento y manipulación — el acelerómetro incorporado activa notificaciones de movimiento que Plaspy puede presentar como alertas inmediatas.
-- Estado de la alimentación y desconexiones de la fuente externa — el dispositivo reporta la pérdida de suministro externo para que Plaspy pueda indicar manipulación potencial o funcionamiento con batería.
-- Monitoreo de audio — la activación remota del micrófono integrado está disponible por SMS para verificación situacional \(usar de acuerdo con la ley local\).
-- Comando y control simples — comandos por SMS y protección con PIN permiten a operadores autorizados consultar o configurar el dispositivo de forma remota cuando sea necesario.
+- Actualizaciones de ubicación en tiempo real entregadas a Plaspy vía SMS o paquetes GPRS periódicos  
+- Notificaciones de movimiento y manipulación que aparecen como alertas inmediatas dentro de Plaspy  
+- Reporte del estado de energía, incluyendo desconexiones de alimentación externa para detectar posibles manipulaciones  
+- Activación de audio remoto disponible para verificación situacional cuando la ley lo permita  
+- Trazas históricas y registros de eventos generados a partir de los paquetes del dispositivo para informes y revisiones
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM \(QUECTEL M10\); informes por SMS y envío de paquetes GPRS en modo intervalo \(el soporte de GPRS aparece listado de forma inconsistentes\) |
-| --- | --- |
-| Bandas | No especificado en la página del producto |
-| Alimentación y batería | 2 × baterías de litio CR123A \(3.0 V\); capacidad combinada listada de 3000 mAh; entrada de alimentación externa disponible; autonomía de hasta 2 años según la configuración |
-| Interfaces | 1 entrada de alarma; 1 canal auxiliar para control remoto de dispositivos externos \(p. ej., apagado del motor, sirena, precalentador\); informa desconexiones de la alimentación externa |
-| GNSS | Módulo de navegación GPS: chipset LEADTEK 9101 \(sin AGPS\) |
-| Bluetooth | No se admiten sensores Bluetooth / No incluido |
-| Gestión remota | Control por SMS con protección por PIN y números autorizados; latido \(señal de vida\) enviado por defecto cada diez días; no se mencionan actualizaciones de firmware por GPRS |
-| Factor de forma | Carcasa de tornillo compacta 70 × 50 × 21 mm; antena GPS 25 × 25 × 4 mm; diseñada para instalación encubierta en vehículos y activos |
-| Otras capacidades | Acelerómetro digital integrado para detección de movimiento; micrófono incorporado para monitoreo de audio remoto; posicionamiento de respaldo LBS; SIM prepagada incluida |
-| Limitaciones conocidas | Sin RTC \(reloj en tiempo real\); sin AGPS; varias funciones automáticas avanzadas y funciones extendidas de GPRS/SMS indicadas como no disponibles en la página del producto; listado como descontinuado por el fabricante |
-
-## Casos de uso
-
-- Seguimiento y recuperación encubiertos de vehículos — instalación discreta en automóviles, motocicletas o embarcaciones para monitoreo anti-robo y recuperación de la ubicación.
-- Monitoreo de activos y carga — larga duración de la batería y tamaño compacto lo hacen adecuado para contenedores, palés y envíos de alto valor donde la telemetría periódica es suficiente.
-- Seguridad y rastreo personal — uso portátil para localizar personas, niños o mascotas con alertas de movimiento y monitoreo de audio remoto.
-- Seguridad remota de dependencias y quioscos — detectar manipulación o pérdida de energía y recibir notificaciones inmediatas en un panel de Plaspy o por SMS.
-- Control de pánico o auxiliar — use la entrada de alarma como botón de pánico portátil o active dispositivos externos a través del canal auxiliar para inmovilización o alarma audible \(requiere cableado adecuado y hardware externo\).
+- Seguimiento encubierto y recuperación de vehículos como autos, motos y embarcaciones  
+- Monitoreo de activos y carga cuando la telemetría periódica y la larga duración de batería son prioritarias  
+- Seguimiento de seguridad personal para personas, niños o animales con alertas de movimiento y verificación por audio  
+- Vigilancia remota de dependencias, kioscos o sitios no atendidos para detectar manipulaciones  
+- Escenarios de pánico o control auxiliar utilizando la entrada de alarma y la salida auxiliar con hardware externo
 
 ## Por qué elegir este rastreador con Plaspy
 
-El AutoFon Mayak 4.5 ofrece una combinación específica de autonomía a largo plazo, formato compacto y sigiloso, y conectividad sencilla con el servidor, que encaja en muchas implementaciones de Plaspy donde se requiere un reporte de ubicación confiable y de bajo mantenimiento.
+El AutoFon Маяк 4.5 ofrece una combinación enfocada de larga autonomía, tamaño reducido y conectividad simple con servidor que encaja en despliegues Plaspy donde se requiere vigilancia discreta y de bajo mantenimiento. Para organizaciones que necesitan reportes periódicos confiables de posición, detección de movimiento y verificación remota básica en lugar de telemetría continua de alta frecuencia, el Mayak 4.5 reduce la carga de mantenimiento mientras sigue alimentando a Plaspy con los datos de ubicación y eventos necesarios para paneles, alertas e informes.
 
-Para escenarios de gestión de flotas centrados en telemetría ocasional y cobertura anti-robo en lugar de reportes continuos de alta frecuencia, el Mayak 4.5 reduce la atención necesaria para la instalación y los ciclos de reemplazo de baterías. Los usuarios de Plaspy se benefician de una integración simple: los paquetes de posición y alertas por SMS pueden asignarse al seguimiento en tiempo real, alarmas de eventos e informes históricos de Plaspy.
-
-Tenga en cuenta las limitaciones del dispositivo desde el principio: no hay AGPS, no hay RTC, no hay compatibilidad con sensores Bluetooth, y las funciones automatizadas avanzadas indicadas en algunas páginas están ausentes. La salida auxiliar permite el control remoto de inmovilizadores o sirenas de terceros, pero esas funciones requieren hardware externo y cableado adecuado. El Mayak 4.5 se recomienda cuando la prioridad es una operación autónoma prolongada, sigilo y telemetría básica \(ubicación, movimiento, estado de energía, audio remoto\) y se planea usar Plaspy para visualización, alertas y gestión de informes.
-
+Si su prioridad es la larga duración de batería, el ocultamiento compacto y la integración sencilla en sistemas de seguimiento basados en servidor, el Mayak 4.5 es una opción práctica para agregar a una configuración de monitoreo Plaspy. Obtenga más información sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales en el sitio del fabricante https://www.autofon.ru/.

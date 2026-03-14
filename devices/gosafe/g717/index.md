@@ -2,60 +2,62 @@
 slug: /gosafe/g717
 id: g717
 sidebar_label: G717
+title: Gosafe - G717
 sidebar_class_name: menu_item_tracker
+description: Mini cigarette lighter GPS tracker compatible with Plaspy for real time vehicle tracking geo fence alerts and event monitoring
+keywords:
+  - Gosafe G717
+  - G717 GPS tracker
+  - Gosafe tracker G717
+  - G717 Plaspy compatible
+  - G717 vehicle tracking
+  - cigarette lighter tracker
+  - plug and play GPS tracker
+  - G717 geo fence
+  - fleet tracking G717
+  - G717 AGPS
 ---
+
 # Gosafe - G717
 
-![G717](./tracker.png)
+![G717](./logo..png)
 
-The Gosafe G717 is a compact, plug-and-play cigarette lighter GPS tracker that’s Plaspy compatible for fast integration into your fleet management or personal-vehicle monitoring setup. Designed for easy installation with no permanent wiring, the G717 delivers real-time tracking, driver behaviour monitoring, and event reporting through TCP/UDP and SMS — making it an ideal GPS tracker for rental cars, leased vehicles, or any operation that needs removable, reliable telemetry.
+The Gosafe G717 is a compact cigarette lighter GPS tracker designed for use in vehicles with a cigar lighter charger. It is a plug and play device that connects directly to the vehicle power socket and offers location tracking, event monitoring, and basic vehicle safety features. The G717 includes assisted GPS positioning, a high sensitivity GNSS module, a 16G G force sensor for impact detection, geo fence management, and an internal backup battery to maintain tracking during power interruptions.
 
-The G717 combines multi-constellation GNSS positioning, an on-board 16G 3D accelerometer for accident and driving-event detection, and on-board logging to ensure continuous coverage even when cellular connectivity is intermittent. Plaspy users can ingest the G717’s location, speed, and accelerometer events to enable actionable fleet management, anti-theft alerts, and behaviour-based reporting without complex wiring or installation time.
+As a Plaspy compatible device, the G717 can report location and events into the Plaspy fleet management platform to provide real time visibility and operational oversight. Compatibility enables fleet managers and vehicle owners to view live position, receive event alerts such as impact or geo fence breaches, and include the device in Plaspy reporting and monitoring workflows. The combination of the G717 hardware and Plaspy software supports straightforward tracking for both business and private use.
 
 ## Key Highlights
 
-- Plug-and-play installation via vehicle cigarette lighter socket — no permanent wiring required for quick deployment and removal.
-- Plaspy compatible: real-time tracking and telemetry via TCP/UDP/SMS with IP/domain configuration for platform integration.
-- High-precision GNSS: 72-channel receiver with GPS/GLONASS/Galileo/BeiDou and AGPS assistance \(SBAS ~2.0 m CEP\).
-- Integrated 3D accelerometer \(16G\) for accident detection, harsh-braking and driving-event reconstruction.
-- On-board flash memory \(~4 Mbit, ~8,000 records\) for local logging during connectivity outages.
-- Wide voltage range \(8–32V DC\) to support both 12V and 24V vehicle systems and ultra-low power sleep modes for minimal drain.
-- Internal SIM access and internal antennas plus mini USB port for configuration and firmware updates.
+- Compact cigarette lighter form factor for quick plug and play installation
+- Supports multiple cellular generations for broad connectivity and coverage
+- AGPS 50 channel high sensitivity module for faster and more accurate positioning
+- 16G G force sensor for impact detection and event alerts
+- Geo fence management to define virtual boundaries and trigger notifications
+- Internal backup battery and intelligent power management for uninterrupted tracking
+- Configurable communication options including TCP and SMS for flexible reporting
 
 ## How It Works with Plaspy
 
-When connected to Plaspy, the G717 streams location and event data using TCP/UDP and can also send SMS-based updates where data networks are unavailable. Plaspy ingests the device’s telemetry to provide live maps, reports, alerts, and historical playback. IP/domain configuration and device-side settings make onboarding straightforward so you can scale from a single vehicle to a larger fleet quickly.
+When integrated with Plaspy, the G717 sends location updates and event messages to the Plaspy platform where data is visualized, logged, and acted upon. Plaspy interprets the device reports and makes tracking information available in dashboards, reports, and alerting rules to support fleet operations and vehicle monitoring.
 
-- Real-time location and telemetry: periodic position updates and event-driven reports delivered to Plaspy via TCP/UDP or SMS.
-- Accelerometer events: crash detection, harsh acceleration/braking, and behaviour flags captured by the 16G 3D accelerometer.
-- Geo-fence and over-speed alerts: configurable on the device and forwarded to Plaspy for immediate notification.
-- Local log replay: on-board flash memory stores up to ~8,000 records for upload to Plaspy after reconnection.
-- Simple provisioning: internal SIM access plus IP/domain settings allow centralized configuration for fleet management.
+- Real time location tracking visible on Plaspy maps and live dashboards
+- Event alerts such as impact detection and geo fence violations routed to Plaspy notification channels
+- Historical route playback and location history for incident review and reporting
+- Fleet level visibility including grouping, status overview, and asset assignment
+- Integration into Plaspy reporting for uptime, events, and movement summaries
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE/HSPA/GPRS capable communication; supports TCP/UDP/SMS for data transport |
-| --- | --- |
-| Bands | Quad-band GSM/GPRS 850/900/1800/1900 MHz; optional 3G dual-band variants \(US/EU\) with HSPA data rates when enabled |
-| Power & Battery | Operating voltage 8–32V DC \(12V/24V compatible\); internal Li‑Po 250 mAh backup battery; power modes: ~3 mA sleep, ~33 mA power-save, ~130 mA active tracking at 12V; battery charge range 0 to +45°C |
-| Interfaces | Plug-in cigarette lighter connection \(plug-and-play\), mini USB port for configuration/firmware updates, internal SIM access; no permanent wired I/O specified |
-| GNSS | Multi-constellation GNSS: GPS/GLONASS/Galileo/BeiDou with AGPS; 72-channel receiver; SBAS accuracy ~2.0 m CEP |
-| Bluetooth | Not specified / no Bluetooth sensors indicated |
-| Remote Management | IP/domain configuration for server integration; mini USB for firmware/configuration updates \(no FOTA explicitly specified\) |
-| Form Factor | Compact lighter-plug design, 108 × 32 × 32 mm, ~55 g \(with battery\), removable for temporary installations |
-| Durability & Compliance | Complies with vehicle shock and vibration standards \(SAE J1455\) and EMC/EMI requirements |
-
-## Use Cases
-
-- Fleet management for short-term or seasonal vehicles where non-permanent installation is preferred — fast roll-out, plug-and-play simplicity.
-- Rental and leased-vehicle monitoring: track location, mileage trends, and driving behaviour without altering vehicle wiring.
-- Vehicle security and anti-theft workflows: use real-time tracking and geo-fence alerts to detect unauthorized movement and support recovery.
-- Driver behaviour analysis and insurance telematics pilots: capture accelerometer-driven events and speed data for behaviour-based reporting.
-- Temporary deployments for event logistics or project-based vehicles where rapid installation and removal are required.
+- Monitoring company cars or small vehicle fleets for location and event status
+- Short term vehicle monitoring such as rentals or loaner cars with plug and play needs
+- Delivery and service vehicles requiring basic route history and geo fence alerts
+- Personal vehicle safety and recovery monitoring with simple installation
+- Temporary installations where quick relocation between vehicles is required
 
 ## Why Choose This Tracker with Plaspy
 
-The Gosafe G717 offers a practical balance of precision GNSS positioning, event-rich telemetry, and hassle-free installation that makes it an excellent Plaspy compatible GPS tracker for operations that value speed of deployment and complete positional insight. Its internal antennas and SIM access simplify device management, while on-board logging and a backup battery provide resilience during network gaps. For fleet managers seeking reliable real-time tracking, telemetry feeds, and behaviour monitoring without permanent vehicle modifications, the G717 integrates cleanly with Plaspy to deliver operational visibility, anti-theft readiness, and data you can act on.
+The G717 is a practical option when you need a no fuss, easily deployed tracker for vehicles that have a cigar lighter socket. Its plug and play design reduces installation time and makes it convenient for mixed fleets, temporary assignments, or users who prefer a non permanent fit. Combined with Plaspy, the device provides useful telemetry and event information that supports everyday fleet monitoring and safety workflows.
 
-Note: The G717 provides comprehensive location, accelerometer and event telemetry to Plaspy. If additional hardware such as immobilizers, ignition sensors, fuel monitoring modules, or Bluetooth sensors are required for your workflow, Plaspy can combine those data sources with the G717’s reporting where those external devices are present and supported by your installation.
+Because the G717 covers the core needs of location tracking, geo fencing, and event monitoring while offering backup power and configurable communication, it is a sensible fit for organizations looking to add devices quickly and manage them centrally in Plaspy. For teams that prioritize straightforward deployment and operational visibility, the G717 with Plaspy can deliver practical value without complex setup.
 
+To learn more about using the Gosafe G717 with Plaspy visit https://www.plaspy.com. Product specifications and availability can change over time, so verify current features and regional support on the manufacturer site https://gosafesystem.com/.

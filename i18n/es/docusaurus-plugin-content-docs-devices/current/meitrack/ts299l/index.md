@@ -2,51 +2,62 @@
 slug: /meitrack/ts299l
 id: ts299l
 sidebar_label: TS299L
+title: Meitrack - TS299L
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS Meitrack TS299L enchufable al encendedor, compatible con Plaspy para seguimiento en tiempo real y conectividad para pasajeros
+keywords:
+  - Meitrack TS299L
+  - rastreador TS299L
+  - GPS para encendedor
+  - rastreador enchufable
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - rastreador para transporte por app
+  - rastreador para car sharing
+  - Wi‑Fi a bordo
+  - sensores Bluetooth
 ---
+
 # Meitrack - TS299L
 
 ![TS299L](./tracker.png)
 
-El TS299L es un rastreador GPS plug-and-play para el encendedor de cigarrillos, perteneciente a una familia de dispositivos probada, diseñada para coches privados, servicios de ride-hailing, car-sharing y flotas ligeras. Construido para una instalación rápida y un posicionamiento GNSS fiable, el TS299L es compatible con Plaspy y permite el seguimiento en tiempo real y flujos de telemetría sin necesidad de cableado. Su radio celular de múltiples generaciones, junto con el hotspot Wi‑Fi a bordo opcional y el soporte para sensores Bluetooth, lo convierten en una opción práctica cuando la implementación fácil y la conectividad para pasajeros son importantes.
+El TS299L es un rastreador GPS enchufable al encendedor de Meitrack diseñado para autos particulares, servicios de transporte por app, car sharing y flotas livianas. Pensado para una instalación rápida sin cableado, ofrece posicionamiento GNSS fiable y seguimiento continuo mientras está conectado a la toma de corriente del vehículo. Opciones adicionales, como un punto de acceso Wi‑Fi a bordo y conectividad con sensores Bluetooth, amplían su utilidad cuando se requiere conectividad para pasajeros o monitoreo ambiental.
 
-Diseñado para integrarse de forma fluida con Plaspy, el TS299L aporta la ubicación del vehículo, alertas de desconexión y datos de sensores Bluetooth a una única plataforma en la nube para gestión de flotas, monitoreo anti-robos y servicios para pasajeros. Con soporte FOTA y variantes regionales de bandas de frecuencia celular, ofrece una solución de rastreo flexible y manejable para despliegues internacionales y flotas mixtas.
+Como dispositivo compatible con Plaspy, el TS299L transmite ubicación, alertas de desconexión y lecturas de sensores Bluetooth a la plataforma Plaspy para un monitoreo y reportes consolidados de la flota. Su combinación de despliegue sencillo, variantes celulares regionales y soporte de firmware remoto lo convierten en una opción práctica para operadores que buscan instalación rápida junto con visibilidad centralizada y alertas de eventos en Plaspy.
 
-## Características clave
+## Características principales
 
-- Factor de forma enchufe de encendedor plug-and-play para instalación rápida sin herramientas en la mayoría de los vehículos.
-- Posicionamiento GNSS robusto con antena interna y precisión reportada de aproximadamente 2.5 metros para reportes de ubicación del rastreador GPS.
-- Conectividad celular de múltiples generaciones \(4G LTE Cat 1/4, 3G, 2G\) con variantes regionales de bandas para compatibilidad global.
-- Hotspot Wi‑Fi opcional de 2.4 GHz que admite hasta ocho dispositivos para el acceso a Internet de los pasajeros y la transmisión de telemetría a bordo.
-- Soporte Bluetooth 4.2/5.0 para conectar sensores Bluetooth y balizas externas para monitoreo de temperatura, humedad o movimiento.
-- Alerta de desconexión instantánea que detecta la retirada del enchufe de encendedor y dispara notificaciones anti-robo a través de Plaspy.
-- Actualizaciones FOTA \(firmware over-the-air\) y certificaciones de la industria \(CE, ESD\) junto con protecciones ISO 7637 para entornos automotrices.
+- Factor de forma enchufable al encendedor para una instalación rápida y sin herramientas en la mayoría de los vehículos
+- Posicionamiento GNSS robusto con precisión reportada de aproximadamente 2.5 metros para informes de ubicación más precisos
+- Conectividad celular de varias generaciones con variantes de bandas regionales para soportar despliegues internacionales
+- Punto de acceso Wi‑Fi opcional en 2.4 GHz para acceso a internet de pasajeros y enlace de telemetría adicional
+- Soporte Bluetooth para conectar sensores y balizas externas que permitan monitorear temperatura, humedad o movimiento
+- Alerta instantánea de desconexión que notifica la extracción del encendedor, útil para monitoreo antirrobo
+- Soporte FOTA para actualizaciones de firmware remotas y gestión a largo plazo del dispositivo
 
-## Resumen técnico
+## Cómo funciona con Plaspy
 
-| Conectividad | 4G LTE Cat 1/4, 3G, 2G \(conectividad celular de múltiples generaciones\) |
-| --- | --- |
-| Bandas | Variantes regionales de bandas de frecuencia disponibles para coincidir con Europa/Oriente Medio/África, Américas, Australia, Japón, etc. |
-| Alimentación y batería | Entrada de vehículo DC 11.5–36 V / 1 A; batería de respaldo opcional de 200 mAh / 3.7 V; modo de espera ~100 mA; operación de respaldo: ahorro de energía ~20 horas, normal ~2 horas \(según fabricante\) |
-| Interfaces | Conector de encendedor \(plug-and-play\), detección de desconexión instantánea, búfer de memoria de 8 MB para almacenamiento de datos fuera de línea |
-| GNSS | Antena GNSS interna; precisión de posicionamiento GNSS de aproximadamente 2.5 metros \(informada\) |
-| Bluetooth | Bluetooth 4.2 / 5.0 para sensores y balizas externas |
-| Wi‑Fi | Hotspot opcional de 2.4 GHz que admite hasta 8 dispositivos conectados |
-| Gestión remota | Soporte FOTA \(firmware over-the-air\) |
-| Certificaciones y Protecciones | Certificaciones CE y ESD; protecciones automotrices ISO 7637 |
-| Físico | 105 mm × 51 mm × 23,5 mm; ~60 g; temperatura de operación -20 °C a 55 °C; humedad relativa 5%–95% |
+Al integrarse con Plaspy, el TS299L envía ubicación y telemetría a una plataforma en la nube única para que usted pueda supervisar el movimiento de los vehículos, recibir alertas de eventos y revisar la actividad histórica. Plaspy procesa el estado del dispositivo y las lecturas de sensores para ofrecer vistas operativas en tiempo real y retrospectivas en flotas mixtas.
 
-## Casos de uso
+- Actualizaciones de ubicación en tiempo real y telemetría GNSS disponibles para seguimiento en mapa en vivo y reproducción en Plaspy
+- Alertas de extracción y desconexión reenviadas a Plaspy para apoyar flujos de trabajo antirrobo y respuesta rápida
+- Datos de sensores Bluetooth, como temperatura, humedad o movimiento, entregados a Plaspy para monitoreo ambiental
+- Presencia del hotspot Wi‑Fi y estado básico visibles en Plaspy para correlacionar la conectividad de pasajeros con eventos del vehículo
+- Actualizaciones remotas de firmware vía FOTA gestionadas junto con otros dispositivos Plaspy para mantener compatibilidad
 
-- Gestión de flotas para vehículos comerciales ligeros y automóviles que requieren instalación rápida y rastreo en tiempo real compatible con Plaspy.
-- Servicios de ride-hailing y car-sharing que ofrecen Wi‑Fi para pasajeros mientras se rastrea la ubicación del vehículo y se miden métricas de uso.
-- Monitoreo anti-robo donde las alertas de desconexión instantánea notifican a los operadores sobre la retirada no autorizada del enchufe de encendedor.
-- Monitoreo de transporte con sensores habilitados por Bluetooth para temperatura y humedad durante la entrega de mercancía sensible.
-- Despliegues multi-región que se benefician de variantes regionales de bandas celulares para operaciones de flota internacional.
+## Casos de uso típicos
 
-## Por qué elegir este rastreador con Plaspy
+- Despliegue rápido de seguimiento de flotas para vehículos comerciales livianos y automóviles de pasajeros
+- Servicios de transporte por app y car sharing que requieren Wi‑Fi para pasajeros y monitoreo consolidado de vehículos
+- Monitoreo antirrobo donde las alertas de desconexión informan a los operadores sobre extracciones no autorizadas
+- Transporte de mercancías sensibles a la temperatura con sensores Bluetooth que transmiten datos ambientales
+- Operaciones de flotas en múltiples regiones que se benefician de variantes de bandas celulares regionales
 
-El TS299L combina la comodidad de un rastreador GPS de encendedor con las capacidades de gestión de nivel empresarial de Plaspy. Es ideal cuando se necesita instalación rápida, posicionamiento GNSS fiable y una forma de añadir conectividad para pasajeros sin cableado adicional de los vehículos. La compatibilidad con Plaspy aporta seguimiento en tiempo real, telemetría y alertas basadas en eventos en un único panel de control, de modo que los operadores pueden actuar ante incidentes antirobos, monitorizar sensores ambientales y mantener la visibilidad de la flota.
+## ¿Por qué elegir este rastreador con Plaspy?
 
-Para organizaciones que buscan una implementación y mantenimiento sencillos, el soporte FOTA del TS299L y las variantes regionales de conectividad celular reducen la fricción operativa. Aunque el dispositivo se centra en la ubicación y la integración de sensores y la conectividad a bordo, también complementa los sistemas de vehículo existentes, como el monitoreo de combustible, la ignición o configuraciones de inmovilizador, cuando esas interfaces están presentes en la arquitectura de la flota, aportando telemetría más rica a Plaspy sin reemplazar la electrónica probada del vehículo.
+El TS299L combina una instalación sencilla y no invasiva con la gestión de flotas basada en la nube de Plaspy. Si usted necesita un despliegue rápido en muchos vehículos, el factor de forma enchufable reduce el tiempo de instalación, mientras que Plaspy proporciona visibilidad centralizada, alertas e informes. Las funciones de conectividad opcionales, como el hotspot Wi‑Fi a bordo y el soporte para sensores Bluetooth, son útiles para servicios orientados a pasajeros y monitoreo con sensores sin requerir modificaciones importantes en el vehículo.
 
+La compatibilidad con Plaspy añade valor operativo al consolidar ubicación, alertas de eventos y flujos de sensores en una sola interfaz para despachadores y gestores de flota. La gestión remota de firmware y las variantes regionales ayudan a mantener la consistencia de los dispositivos en flotas mixtas y geografías diversas, simplificando la administración continua y reduciendo la carga de mantenimiento.
+
+Para más información sobre Plaspy y cómo se integran los rastreadores compatibles con la plataforma visite https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y las variantes regionales en el sitio del fabricante https://www.meitrack.com/ antes de la compra o el despliegue.

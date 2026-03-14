@@ -2,51 +2,59 @@
 slug: /tzone/tz_avl05
 id: tz_avl05
 sidebar_label: TZ-AVL05
+title: TZone - TZ-AVL05
 sidebar_class_name: menu_item_tracker
+description: Resumen del rastreador GPS TZone TZ-AVL05 y su integración con Plaspy para supervisión de vehículos y flotas
+keywords:
+  - TZone TZ-AVL05
+  - TZ-AVL05
+  - rastreador TZone
+  - rastreador GPS
+  - rastreador de vehículos
+  - seguimiento de flotas
+  - compatible con Plaspy
+  - seguimiento de activos
+  - software de rastreo GPS
+  - funciones TZ AVL05
 ---
+
 # TZone - TZ-AVL05
 
 ![TZ-AVL05](./logo.jpg)
 
-El rastreador GPS TZ-AVL05 de TZone es una solución de seguimiento versátil y confiable que se puede utilizar tanto a través de software como de teléfono celular. Con características como la alarma de exceso de velocidad, la alarma de energía baja y la alarma de la Geo-cerca, este rastreador proporciona una seguridad adicional para su vehículo. También cuenta con la función de roaming para ahorrar costos y el control o detección de las puertas del coche y el encendido/apagado del motor.
+El TZone TZ-AVL05 es un rastreador GPS compacto y versátil diseñado para el monitoreo en tiempo real de la ubicación y el estado de vehículos. Es una solución adecuada para vehículos particulares, activos de flota y necesidades generales de seguimiento de activos. El equipo ofrece funciones prácticas de monitoreo como alertas por exceso de velocidad, batería baja y geocercas, además de capacidad de roaming para reducir costos al operar entre distintas regiones.
 
-Una de las características destacadas del TZ-AVL05 es su capacidad para cortar la potencia del motor de forma gradual y segura en caso de emergencia. Además, este rastreador es compatible con GPRS \(TCP/UDP\) y SMS, lo que le permite enviar y recibir datos de manera eficiente. También cuenta con la función OTA, que le permite actualizar el firmware a través de GPRS.
+Como dispositivo compatible con Plaspy, el TZ-AVL05 puede enviar datos de ubicación y eventos a la plataforma Plaspy, lo que brinda a los operadores visibilidad continua y control operativo. Su soporte para comunicaciones por GPRS y SMS, almacenamiento de datos a bordo, batería de respaldo y entradas opcionales para sensores lo convierten en una opción flexible que puede integrarse en los flujos de trabajo de Plaspy para seguimiento, alertas y generación de informes.
 
-El TZ-AVL05 viene con una batería de reserva que puede enviar un informe cada minuto y tiene un tiempo de trabajo de hasta 12 horas. Algunas de las características especiales incluyen comandos de apoyo a través de GPRS, enlace de Google Map a través de SMS, envío de datos GPRS de IP o DNS, cálculo del kilometraje y detección de nivel de combustible/aceite. También puede optar por agregar sensores de temperatura y cuenta con un micrófono y función de escucha en tiempo real.
+## Características principales
 
-El rastreador GPS TZ-AVL05 tiene dimensiones de 96mm x 65mm x 25mm y un peso de 0.24kg. Funciona con una fuente de alimentación externa de DC9V-36V y tiene una batería de litio interna de DC 3.7V-4.2V. Cuenta con una antena exterior GSM para recibir la señal de GSM de manera óptima, así como una antena exterior GPS para recibir la señal GPS de manera precisa. El rango de temperatura de funcionamiento es de -20 °C a +60 °C y tiene una humedad de hasta el 75% sin condensación. La precisión de la posición es de 10-15 metros y es compatible con cuatribanda GSM \(850/900/1800/1900 Mhz\). También cuenta con LED indicadores de energía, GSM, señal GPS y estado de temblor, así como un micrófono incorporado.
+- Monitoreo de ubicación en tiempo real para visibilidad inmediata
+- Alertas por exceso de velocidad, batería baja y geocerca para notificaciones de eventos
+- Comunicaciones GPRS y SMS con soporte de roaming para conectividad flexible
+- Hasta 12 horas de funcionamiento con batería de respaldo para reportes durante cortes de energía
+- 32 MB de memoria flash para registro local de datos y cálculo de kilometraje
+- Soporte para detección de nivel de combustible o aceite, sensores de temperatura opcionales y micrófono integrado para audio bidireccional
 
-En resumen, el rastreador GPS TZ-AVL05 de TZone es una opción confiable y versátil para el seguimiento de vehículos. Con características como la alarma de exceso de velocidad, la función de corte de potencia del motor y la capacidad de actualización del firmware a través de GPRS, este rastreador ofrece una amplia gama de funciones para satisfacer sus necesidades de seguimiento.
+## Cómo funciona con Plaspy
 
-### Características destacadas:
+Cuando se integra con Plaspy, el TZ-AVL05 transmite actualizaciones de ubicación y estado que se muestran y gestionan desde la interfaz de Plaspy, permitiendo monitoreo centralizado y revisiones históricas. Plaspy procesa los datos del dispositivo y los convierte en información accionable, alertas e informes para operaciones rutinarias y la gestión de incidencias.
 
-- Seguimiento por software o teléfono celular
-- Alarma de exceso de velocidad, alarma de energía baja, alarma de la Geo-cerca
-- Función de roaming para ahorrar costos
-- Control o detección de las puertas del coche / del motor de encendido / apagado
-- Corte de la potencia del motor de forma gradual y segura en caso de emergencia
-- GPRS \(TCP/UDP\) y SMS
-- Actualización del firmware a través de GPRS
-- Batería de reserva con hasta 12 horas de tiempo de trabajo
+- Rastreo en vivo y visualización en mapa de vehículos individuales y de flotas completas
+- Alertas de geocerca y exceso de velocidad encaminadas a Plaspy para que los equipos puedan responder rápidamente
+- Reproducción de rutas históricas y reportes de kilometraje usando los datos almacenados en el dispositivo
+- Soporte de comandos remotos desde Plaspy al dispositivo a través de los canales de comunicación compatibles
+- Informes consolidados y registros de actividad exportables para análisis operativo
 
-### Especificaciones técnicas:
+## Casos de uso típicos
 
-- Dimensión: 96mm x 65mm x 25mm
-- Peso: 0.24kg
-- Fuente de alimentación exterior: DC9V-36V
-- Batería de litio interna: DC 3.7V-4.2V
-- Antena exterior GSM: Recibe la señal de GSM mejor
-- Antena exterior GPS: Recibir la señal GPS mejor
-- Consumo de energía: Modo activo &lt;100mA, Modo de reposo &lt;5mA
-- Rango de temperatura de funcionamiento: -20 °C a +60 °C
-- Humedad: Hasta el 75% sin condensación
-- Exactitud de la posición: 10-15 metros
-- Chips GSM: Soporte cuatribanda \(850/900/1800/1900 Mhz\)
-- Chip GPS: Sensibilidad estupenda y alta precisión
-- LED: 3 LEDs indican energía, GSM, señal GPS y estado de temblor
-- Micrófono: Sí
-- Arranque en caliente: 1 seg., Promedio
-- Arranque en frío: 38 seg., Promedio
-- Inicio en frío: 42 seg., Promedio
-- Puerto I/O: 4 entradas digitales, 2 salidas digitales, 2 entradas analógicas
+- Seguimiento y monitoreo de vehículos particulares para seguridad y localización
+- Gestión de flotas para supervisión de rutas, apoyo a despacho y control de disponibilidad
+- Rastreo de activos de alto valor o equipos móviles que requieren actualizaciones periódicas de ubicación
+- Control de exceso de velocidad y cumplimiento de geocercas para gestionar la conducta del conductor y la conformidad de rutas
+- Monitoreo de temperatura o nivel de combustible cuando se instalan sensores opcionales para proteger la carga o gestionar el consumo
 
+## Por qué elegir este rastreador con Plaspy
+
+El TZ-AVL05 combina un conjunto centrado de funciones de rastreo y alarmas con almacenamiento de datos y comunicaciones flexibles, lo que lo hace práctico para organizaciones que necesitan visibilidad confiable de sus vehículos. Su batería de respaldo y el soporte de roaming ayudan a mantener la cobertura en distintas regiones de operación, mientras que las entradas para sensores opcionales amplían su aplicabilidad más allá de la ubicación.
+
+En conjunto con Plaspy, este rastreador ofrece una vía directa hacia el monitoreo centralizado, las alertas y la generación de informes sin complejidad innecesaria. Para especificaciones técnicas detalladas, opciones de firmware o para confirmar capacidades actuales, revise la documentación del fabricante. Para obtener más información sobre cómo Plaspy puede trabajar con el TZ-AVL05 y otros dispositivos compatibles visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que verifique la información vigente en la documentación oficial del fabricante en http://www.tzonedigital.com/

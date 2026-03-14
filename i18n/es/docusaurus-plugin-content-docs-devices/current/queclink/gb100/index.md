@@ -2,62 +2,60 @@
 slug: /queclink/gb100
 id: gb100
 sidebar_label: GB100
+title: QuecLink - GB100
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto e impermeable para vehículos compatible con Plaspy ideal para gestión de flotas UBI y monitoreo de activos
+keywords:
+  - QuecLink GB100
+  - rastreador GB100
+  - QuecLink GB100 Plaspy
+  - rastreador GPS para vehículos
+  - seguimiento de flotas
+  - seguros basados en uso
+  - dispositivo telemático
+  - rastreador GPS IP65
+  - monitoreo de comportamiento del conductor
+  - buffer de mensajes
 ---
+
 # QuecLink - GB100
 
 ![GB100](./tracker.png)
 
-El rastreador GPS GB100 montado en vehículos de una familia de dispositivos telemáticos consolidada es compatible con Plaspy y está diseñado para reducir los costos de instalación en proyectos telemáticos a gran escala, como el seguro basado en uso \(UBI\), el financiamiento automotriz y la gestión de flotas. Con un conjunto de antenas GNSS/GSM internas dentro de una carcasa impermeable IP65 y un formato compacto, el GB100 ofrece seguimiento en tiempo real y datos de comportamiento de alta resolución, incluso cuando está instalado debajo del capó.
+El GB100 es un rastreador GPS para vehículos perteneciente a una familia de dispositivos telemáticos consolidada. Diseñado para despliegues a gran escala, ofrece ubicación en tiempo real y datos de comportamiento de alta resolución sin complicar las instalaciones. La unidad integra antenas GNSS y GSM internas en una carcasa impermeable IP65 y un formato compacto, lo que le permite reportar posición y eventos de forma fiable incluso cuando se instala bajo el cofre metálico.
 
-El GB100 combina telemetría robusta \(posición, velocidad, eventos del acelerómetro\) con una amplia capacidad de almacenamiento de mensajes y comunicaciones flexibles \(TCP/UDP/SMS\). Eso lo convierte en un rastreador GPS ideal para flotas y programas de seguros que requieren ubicación precisa, monitoreo del comportamiento del conductor y una entrega de datos confiable a Plaspy para paneles en vivo, alertas y analítica.
+Como dispositivo compatible con Plaspy, el GB100 envía posición, velocidad y eventos del acelerómetro a Plaspy para paneles en vivo, alertas y análisis. Sus opciones de comunicación flexibles y el almacenamiento en búfer a bordo ayudan a garantizar la entrega fiable de datos a Plaspy para la supervisión de flotas, programas de seguros basados en uso (UBI) y flujos de trabajo de financiamiento automotriz.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy diseñado para despliegues telemáticos, UBI y financiamiento automotriz.
-- Carcasa impermeable IP65 y tamaño compacto \(91.5 × 51.5 × 11 mm\) para instalaciones ocultas bajo el capó.
-- Receptor GNSS All‑in‑One de alta sensibilidad de u‑blox con precisión de posición \<2.5 m CEP y TTFF rápido \(~1 s en arranque en caliente\).
-- GSM cuádruple banda \(850/900/1800/1900 MHz\) con clase multi‑slot GPRS 10 y opciones de comunicación TCP/UDP/SMS para seguimiento en tiempo real hacia Plaspy.
-- Acelerómetro de 3 ejes integrado \(100 Hz\) con paquetes de datos de choque y trazas previas y posteriores al evento para el comportamiento del conductor y la reconstrucción de accidentes.
-- Batería de respaldo NiMH recargable interna \(200 mAh\) más un amplio rango de tensión de funcionamiento \(8–32 V DC\) para una amplia compatibilidad con vehículos.
-- Almacenamiento en búfer en el propio dispositivo de hasta 10,000 mensajes para proteger la integridad de los datos durante interrupciones temporales de la red.
+- Rastreador compatible con Plaspy optimizado para despliegues telemáticos, seguros basados en uso y financiamiento automotriz.
+- Carcasa impermeable IP65 y dimensiones compactas para instalaciones discretas bajo el cofre o en ubicaciones ocultas del vehículo.
+- Alta sensibilidad GNSS y posicionamiento preciso adecuado para monitoreo en tiempo real.
+- Acelerómetro integrado de 3 ejes con datos de impacto y trazas pre y post evento para análisis de comportamiento de conducción e incidentes.
+- Opciones de comunicación flexibles y un robusto almacenamiento en búfer de mensajes en el dispositivo para proteger los datos durante cortes de red.
+- Alimentación de respaldo interna y amplio rango de voltaje operativo para compatibilidad con distintos vehículos.
+- Diseñado para reducir costos de instalación y la carga de soporte continuo en proyectos de flotas a gran escala.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el GB100 transmite la posición y la telemetría en tiempo casi real y suministra los datos de eventos necesarios para paneles, alertas y analítica a largo plazo. Las comunicaciones pueden canalizarse por TCP o UDP para telemetría continua o mediante SMS para mensajes de respaldo, asegurando que Plaspy reciba actualizaciones críticas, ya sea que el dispositivo esté en la red o en una zona de cobertura débil.
+Al integrarse con Plaspy, el GB100 aporta telemetría continua de posición y eventos para que los operadores puedan supervisar los vehículos casi en tiempo real y ejecutar análisis sobre el comportamiento histórico. Plaspy ingiere los datos del dispositivo para poblar mapas en vivo, activar alertas y alimentar sistemas de reportes y scoring para flotas y programas de seguros.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(intervalos de reporte configurables hasta 1 segundo durante la conducción\).
-- Telemetría de comportamiento del conductor: frenadas bruscas, aceleración rápida y paquetes de datos de choque del acelerómetro de 3 ejes para analíticas de Plaspy y puntuación UBI.
-- Estado de la alimentación externa y de la batería interna, con alertas para detectar manipulación o pérdida de energía.
-- Alertas de geocerca y velocidad \(hasta 20 geocercas circulares configurables en el propio dispositivo\) para la gestión de flotas y monitorización anti‑robo mediante flujos de trabajo de Plaspy.
-- Almacenamiento en búfer offline robusto \(hasta 10,000 mensajes\) para que Plaspy reciba telemetría en cola cuando se restablece la conexión.
+- Actualizaciones de ubicación y telemetría en tiempo real con intervalos de reporte configurables durante la marcha.
+- Telemetría de conducta del conductor, incluyendo frenadas bruscas, aceleraciones rápidas y paquetes de impacto para análisis y scoring.
+- Informes de estado de alimentación y batería con alertas que ayudan a detectar manipulación o pérdidas de energía.
+- Alertas de geocerca y velocidad configurables en el dispositivo y accionables dentro de los flujos de trabajo de Plaspy.
+- Almacenamiento en búfer de mensajes offline para que la telemetría acumulada se entregue a Plaspy cuando se restablezca la conectividad.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM de cuádruple banda 850/900/1800/1900 MHz; clase multi‑slot GPRS 10; transporte de datos TCP, UDP o SMS |
-| --- | --- |
-| Bandas | GSM 850 / 900 / 1800 / 1900 MHz \(cuádruple banda\) |
-| Alimentación y Batería | Tensión de funcionamiento 8–32 V DC; batería interna NiMH de respaldo recargable, 200 mAh; monitoreo de alimentación externa y alertas de estado |
-| Interfaces / Funciones | Informes programables por tiempo/distancia/kilometraje; hasta 20 geocercas circulares; alertas de velocidad; monitorización del comportamiento del conductor \(frenadas bruscas/aceleración\); paquetes de datos de choque |
-| GNSS | Receptor GNSS All‑in‑One de u‑blox; alta sensibilidad \(seguimiento hasta −162 dBm\); precisión de posición \<2.5 m CEP \(modo independiente\); TTFF rápido \(promedio arranque en caliente ~1 s\); registro de 1 s durante la conducción |
-| Acelerómetro | Acelerómetro integrado de 3 ejes, muestreo a 100 Hz; trazas previas y posteriores al evento para reconstrucción de accidentes |
-| Rendimiento RF | Potencia máxima de transmisión hasta 33 dBm \(GSM850/900\); sensibilidad del receptor hasta −108 dBm en rango de entrada |
-| Almacenamiento / Búfer | Memoria/Almacenamiento en búfer interno de hasta 10,000 mensajes |
-| Ambiente | Carcasa IP65; rango de operación −20 °C a +70 °C; 0–95% de humedad no condensante |
-| Formato | Diseño compacto montado en vehículo, 91.5 × 51.5 × 11 mm; peso 75 g |
-| Gestión Remota | Comunicación vía TCP/UDP/SMS para la integración con plataformas back‑end; FOTA/gestión remota en el dispositivo no especificada |
-
-## Casos de uso
-
-- Despliegues a gran escala de UBI: datos GNSS y acelerómetro de alta frecuencia alimentan los algoritmos de puntuación de Plaspy para programas de seguro basado en uso.
-- Gestión de flotas y supervisión de rutas: seguimiento en tiempo real, alertas de velocidad y monitorización de geocercas para operaciones logísticas y de servicios.
-- Financiación de activos y reducción del riesgo de recuperación: telemetría continua más alertas de pérdida de energía ayudan a supervisar vehículos financiados.
-- Reconstrucción de accidentes y coaching de conductores: paquetes de datos de choque y trazas previas/post‑evento proporcionan evidencia para análisis de incidentes y formación de conductores.
-- Detección y alerta anti‑robo: seguimiento de ubicación y alertas de alimentación externa/batería proporcionan la telemetría que Plaspy necesita para iniciar flujos de recuperación.
+- Despliegues UBI a gran escala donde flujos de datos de GNSS y acelerómetro de alta frecuencia alimentan algoritmos de scoring.
+- Gestión de flotas y supervisión de rutas con seguimiento en vivo, control de velocidad y alertas de geocercas.
+- Financiamiento automotriz y monitoreo de activos para detectar pérdidas de alimentación y gestionar el riesgo de recuperación.
+- Reconstrucción de incidentes y coaching al conductor usando trazas pre y post evento derivadas de datos de impacto.
+- Flujos de trabajo de detección y recuperación ante robo mediante actualizaciones de ubicación oportunas y alertas de estado de energía.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GB100 fue diseñado específicamente para despliegues telemáticos con restricciones de costo que requieren datos confiables y de alta calidad. Su carcasa impermeable y compacta, junto con las antenas internas, simplifica instalaciones ocultas que reducen el tiempo de montaje y los costos de material. Con el rendimiento GNSS de u‑blox, un acelerómetro de alta frecuencia y un sólido almacenamiento de mensajes, el GB100 proporciona la ubicación y la telemetría de comportamiento consistentes que Plaspy necesita para el rastreo en tiempo real, analítica de gestión de flotas, puntuación UBI y flujos de trabajo anti‑robo.
+El GB100 es una opción práctica para organizaciones que requieren telemetría vehicular confiable a gran escala manteniendo bajos los costos de instalación y soporte. Su diseño compacto e impermeable, antenas internas y buffering de eventos se combinan para ofrecer datos consistentes de posición y comportamiento que Plaspy utiliza para monitoreo en vivo, alertas y análisis históricos. Para flotas y programas donde la entrega fiable de datos y la visión sobre el comportamiento del conductor son fundamentales, el GB100 ofrece un equilibrio eficiente entre funciones y facilidad de despliegue.
 
-Elegir un rastreador GPS compatible con Plaspy como el GB100 implica una integración más rápida, un flujo de datos fiable y una menor carga de soporte continuo para programas de gran escala. Sus comunicaciones flexibles \(TCP/UDP/SMS\), monitoreo de pérdidas de energía y capacidades de eventos integradas reducen la necesidad de personalización de hardware mientras entregan la telemetría y alertas que impulsan insights accionables en Plaspy —desde mapas en vivo hasta informes históricos y políticas basadas en comportamientos.
-
+Para saber más sobre Plaspy y cómo dispositivos compatibles como el GB100 encajan en los flujos de trabajo de rastreo de flotas y telemática visite https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en el sitio del fabricante https://www.queclink.com/.

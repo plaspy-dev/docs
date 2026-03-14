@@ -2,61 +2,61 @@
 slug: /navtelekom/signal_s_4651
 id: signal_s_4651
 sidebar_label: SIGNAL S-4651
+title: Navtelekom - SIGNAL S-4651
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS profesional para vehículos con LTE y funciones telemáticas avanzadas compatible con Plaspy
+keywords:
+  - Navtelekom SIGNAL S-4651
+  - SIGNAL S-4651
+  - rastreador Navtelekom
+  - rastreador compatible Plaspy
+  - rastreador GPS para flotas
+  - rastreador GPS LTE
+  - telemetría vehicular
+  - rastreador CAN bus
+  - registro en tarjeta SD
+  - rastreador con audio bidireccional
 ---
+
 # Navtelekom - SIGNAL S-4651
 
 ![SIGNAL S-4651](./tracker.webp)
 
-El SIGNAL S-4651 es un rastreador de vehículos de grado profesional LTE 4G GPS/GLONASS diseñado para la gestión de flotas y despliegues telemáticos exigentes. Construido con un módem LTE Cat-1 \(con respaldo 3G/2G\), compatibilidad con doble SIM, conexiones de antena externa GNSS/GSM y un conjunto completo de interfaces de vehículo, el S-4651 es compatible con Plaspy y está listo para ofrecer seguimiento en tiempo real confiable, telemetría rica y registro seguro para flotas comerciales.
+El SIGNAL S-4651 es un rastreador vehicular profesional LTE 4G diseñado para implementaciones exigentes de gestión de flotas y telemática. Combina conectividad celular de varias generaciones con soporte de SIM doble, conexiones externas para antenas GNSS y GSM, y un amplio conjunto de interfaces vehiculares para ofrecer rastreo en tiempo real fiable, captura de telemetría y registro local seguro para flotas comerciales.
 
-Diseñado para integración, el SIGNAL S-4651 admite conectividad CAN bus, múltiples puertos serie, Bluetooth 4.0 y registro en tarjeta SD para asegurar la captura continua de datos y diagnósticos remotos. Con una batería de respaldo Li-Po integrada de 800 mAh y una protección de entradas robusta, este rastreador es una opción sólida para la gestión de flotas, flujos de trabajo de antirrobo, telemetría remota y diagnósticos avanzados cuando se utiliza con la plataforma Plaspy.
+Como dispositivo compatible con Plaspy, el S-4651 es adecuado para organizaciones que requieren captura de datos robusta y visibilidad continua dentro de una consola telemática unificada. Su combinación de interfaces CAN y serie, conectividad Bluetooth, registro en tarjeta SD y batería de respaldo integrada lo convierten en una opción práctica para aportar posición del vehículo, eventos y datos diagnósticos a Plaspy para monitoreo, alertas e informes.
 
-## Principales características
+## Puntos clave
 
-- Compatible con Plaspy para un seguimiento en tiempo real fluido e integración con la gestión de flotas.
-- Módem LTE Cat-1 con respaldo 3G/2G y doble SIM para una conectividad móvil robusta.
-- Conjunto de E/S para vehículo completo: 6 entradas universales, 4 salidas, CAN, RS-232/RS-485 y 1‑Wire.
-- Batería de respaldo Li-Po integrada de 800 mAh y soporte para tarjetas SD \(hasta 32 GB\) para registro offline.
-- Bluetooth 4.0 para integraciones de corto alcance con sensores BLE y beacons.
-- E/S de audio \(micrófono y altavoz\) que habilita comunicación de voz bidireccional con conductores.
-- Protección contra sobretensión en entradas \(hasta 200 V\) para seguridad robusta a nivel de vehículo.
+- Compatible con Plaspy para integración en tiempo real y gestión de flotas
+- Módem celular LTE Cat 1 con fallback a 3G y 2G y dual SIM para conectividad resiliente
+- Completo conjunto de entradas y salidas vehiculares que incluye entradas universales, salidas de control, puertos CAN y serie
+- Registro local en tarjeta SD y batería de respaldo que preserva datos durante cortes de energía
+- Soporte Bluetooth 4.0 para integraciones de corto alcance con sensores y beacons
+- Entradas/salidas de audio bidireccional para comunicación con el conductor y flujos de trabajo por voz
+- Protección de entradas robusta diseñada para entornos automotrices
 
 ## Cómo funciona con Plaspy
 
-Conectar el SIGNAL S-4651 a Plaspy lleva los datos a nivel de vehículo a una consola telemática única para supervisión en tiempo real, alertas y reportes históricos. El dispositivo transmite la posición GNSS y la telemetría a bordo a Plaspy a través de redes celulares; Plaspy procesa a continuación la ubicación, los datos CAN y E/S para entregar mapas, geovallas, alertas y conocimientos operativos de la flota en tiempo real.
+Conectar el SIGNAL S-4651 a Plaspy incorpora la posición GNSS y la telemetría a bordo en una única plataforma telemática para monitoreo en vivo, alertas por eventos e informes históricos. El equipo transmite ubicación y datos del vehículo a través de redes celulares, y Plaspy procesa esa información para mostrar mapas, geocercas, alertas e información operativa para los equipos de flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a través de LTE Cat-1 \(con respaldo 3G/2G\) para un seguimiento continuo.
-- Monitoreo de encendido y estado — entradas de encendido y señales CAN pueden reenviarse a Plaspy para informar sobre movimiento y estado del motor.
-- Monitoreo de combustible — la telemetría del bus CAN puede suministrar datos de nivel de combustible y consumo a Plaspy cuando estén disponibles desde el vehículo.
-- Control/imovilización remota — salidas de control e integración CAN permiten flujos de trabajo de corte o inmovilización remota cuando se configure a través de Plaspy.
-- Sensores y beacons Bluetooth — dispositivos BLE de corto alcance pueden emparejarse con el rastreador y enviarse a Plaspy para telemetría de carga o del conductor mediante sensores.
+- Actualizaciones de ubicación y telemetría en tiempo real para seguimiento continuo de vehículos
+- Monitoreo de ignición y estado enviado a Plaspy mediante entradas y datos CAN cuando están disponibles
+- Telemetría de combustible y de motor desde el bus CAN que puede visualizarse en Plaspy para análisis de consumo
+- Salidas de control e integración CAN que permiten inmovilización remota y flujos de control de flota cuando se configuran en Plaspy
+- Sensores Bluetooth y beacons emparejados con el rastreador pueden reenviarse a Plaspy para telemetría de carga o condiciones del conductor
+- El registro local en tarjeta SD ofrece captura offline y posterior sincronización con Plaspy para mantener registros históricos continuos
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | Módem LTE Cat-1 con respaldo a 3G/2G; soporte para doble SIM; conectores de antena externa GNSS/GSM |
-| --- | --- |
-| Bandas | LTE Cat-1 con respaldo 3G/2G \(las variantes regionales de bandas dependen del SKU\) |
-| Potencia y batería | Alimentación principal del vehículo; batería de respaldo Li‑Po integrada de 800 mAh para mantener operación ante pérdida de energía |
-| Interfaces | Seis entradas universales \(configurables como discretas, analógicas, de frecuencia, contador de pulsos o tacómetro\); cuatro salidas de control; 1‑Wire; RS-232; RS-485; interfaz CAN; protección contra sobretensión en entradas de hasta 200 V |
-| GNSS | Soporte GPS/GLONASS con conexión a antena GNSS externa para una localización fiable |
-| Bluetooth | Bluetooth 4.0 para comunicaciones de corto alcance e integración de sensores y beacons |
-| Almacenamiento | Soporte para tarjetas MicroSD/SD de hasta 32 GB para registro de datos local y almacenamiento de eventos |
-| Audio | Entrada/salida de micrófono y altavoz para comunicación de voz bidireccional |
-| Protocolo y Gestión | Soporte MODBUS; utilidad Navtelecom NTC Configurator para configuración; actualizaciones de firmware disponibles para mantenimiento y seguridad |
-| Formato | Rastreador telemático montado en vehículo diseñado para aplicaciones profesionales de flota y transporte |
-
-## Casos de uso
-
-- Gestión de flotas — seguimiento en tiempo real, reproducción de rutas y telemetría del comportamiento del conductor para flotas de vehículos medianos y grandes.
-- Antirrobo e inmovilización — el rastreo GPS junto con salidas de control remoto y comandos CAN permiten respuestas ante robo y reinicios restringidos mediante Plaspy.
-- Monitoreo de combustible y diagnóstico — recopila telemetría del bus CAN \(nivel de combustible, consumo y datos del motor\) y la envía a Plaspy para el monitoreo de combustible y control de costos.
-- Monitoreo del entorno de carga y conductor — empareja sensores y beacons BLE para captar temperatura, eventos de apertura de puertas o proximidad, mientras se registra localmente en la tarjeta SD.
-- Comunicaciones bidireccionales con el conductor — el micrófono y el altavoz integrados permiten contacto por voz para la gestión de entregas y verificación de seguridad dentro del flujo telemático.
+- Gestión de flotas medianas y grandes que requieren rastreo en tiempo real e historial de rutas
+- Flujos de trabajo anti robo e inmovilización mediante salidas de control remotas y monitoreo de posición
+- Supervisión de combustible y diagnóstico recopilando telemetría del bus CAN y reportándola en Plaspy
+- Monitoreo de carga y condiciones del habitáculo del conductor mediante sensores Bluetooth y registro local
+- Comunicación bidireccional con conductores para despacho, verificaciones de seguridad y coordinación operativa
 
 ## Por qué elegir este rastreador con Plaspy
 
-El SIGNAL S-4651 ofrece la conectividad, la profundidad de E/S y la gestión de firmware necesarias para telemática profesional cuando se combina con Plaspy. Su módem celular LTE Cat-1 con respaldo multigeneracional y soporte para doble SIM mantiene los vehículos conectados en diversas condiciones de cobertura, mientras que CAN, puertos seriales y entradas universales proporcionan acceso directo a la telemetría del vehículo para informes avanzados como monitoreo de combustible y estado de ignición. El registro local en SD y una batería de respaldo integrada aumentan la resiliencia de los datos ante interrupciones de energía.
+El SIGNAL S-4651 ofrece la conectividad y la profundidad de interfaces que se espera en hardware telemático profesional, lo que lo convierte en una opción sólida para usuarios de Plaspy que necesitan telemetría vehicular detallada y seguimiento resiliente. Su combinación de conectividad celular multigeneracional, diseño de SIM doble, acceso CAN y serie, y almacenamiento local soporta informes avanzados, flujos de trabajo de diagnóstico y continuidad de datos durante cortes temporales.
 
-Para los gestores de flotas, usar el S-4651 con Plaspy equivale a combinar un hardware robusto con una plataforma diseñada para seguimiento en tiempo real, visualización de telemetría, flujos de trabajo de antirrobo y configuración remota. El soporte MODBUS del dispositivo, las integraciones Bluetooth 4.0 y el audio bidireccional amplían los casos de uso más allá del simple seguimiento GPS, hacia telemática integrada, seguridad del conductor y monitoreo de carga — todo ello a través de los paneles, alertas y herramientas de informes de Plaspy.
-
+Para gestores de flota que buscan emparejar hardware capaz con una plataforma de seguimiento integral, el S-4651 proporciona entradas prácticas y funciones de registro para alimentar a Plaspy con datos confiables para mapas, alertas y análisis operativos. Para saber más sobre cómo Plaspy puede trabajar con dispositivos como el SIGNAL S-4651, visite el sitio principal de Plaspy en https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo; por favor verifique la información técnica más reciente en el sitio oficial de Navtelekom en https://www.navtelecom.ru/.

@@ -2,59 +2,59 @@
 slug: /concox/jm_vl02
 id: jm_vl02
 sidebar_label: JM-VL02
+title: Concox - JM-VL02
 sidebar_class_name: menu_item_tracker
+description: Plaspy compatible Concox JM-VL02 GPS tracker for industrial and commercial fleets with resilient cellular connectivity and vehicle I O telemetry
+keywords:
+  - Concox JM-VL02
+  - JM-VL02 GPS tracker
+  - Concox tracker
+  - Plaspy compatible
+  - fleet tracking
+  - vehicle telematics
+  - industrial GPS tracker
+  - anti theft tracker
+  - rental fleet tracking
+  - public transport tracking
 ---
+
 # Concox - JM-VL02
 
 ![JM-VL02](./tracker.png)
 
-The JM-VL02 is a purpose-built, Plaspy compatible GPS tracker designed for industrial and commercial vehicle fleets. Built around an IoT-grade LTE Cat-M1 / NB2 radio with GSM 2G fallback, the JM-VL02 delivers resilient, real-time tracking and vehicle-state telemetry for rental agencies, public transport, construction machinery and broad fleet management deployments.
+The JM-VL02 is a purpose built GPS tracker from Concox designed for industrial and commercial vehicle fleets. It combines IoT grade cellular connectivity with GNSS positioning and vehicle focused inputs and outputs to provide continuous location and vehicle state telemetry for rental agencies, public transport, construction equipment and general fleet management deployments.
 
-The device integrates vehicle-focused I/O — ACC/ignition detection, an in-cabin SOS/panic button, relay-controlled remote cut-off and multiple digital inputs and outputs — so operators using Plaspy can combine position data with ignition state, alarms and immobilizer control for anti-theft measures, driver authentication and operational telematics.
+As a Plaspy compatible device, the JM-VL02 supplies the location data and event signals that fleet managers expect from a modern telematics solution. Its vehicle I O such as ignition detection, SOS button and relay output make it straightforward to surface immobilizer control, alarm events and driver related signals within Plaspy for centralized monitoring, alerting and reporting.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for real-time tracking and centralized fleet management.
-- LTE Cat-M1 / NB2 cellular with GSM 2G fallback to maximize coverage and connection continuity.
-- Accurate GNSS positioning \(GPS + LBS\) with better than 2.5 m CEP and fast TTFF for responsive location updates.
-- Vehicle inputs and outputs including ACC/ignition detection, SOS button and relay output to support immobilizer/remote cut-off.
-- Onboard accelerometer for driving behavior telemetry: harsh acceleration, braking, cornering and collision detection alerts.
-- Compact, rugged form factor with IP65 protection for industrial vehicle use \(construction, rental fleets, public transport\).
-- Expandable with optional peripherals: fuel level sensors, temperature probes and RFID readers for driver ID and fuel monitoring.
+- Plaspy compatible unit built for industrial and commercial fleet use.
+- Multi mode cellular design including LTE Cat M1 NB2 with 2G fallback for resilient connectivity.
+- GNSS positioning with high accuracy for responsive location updates.
+- Vehicle I O including ACC ignition detection, SOS panic button and relay output for remote immobilization.
+- Onboard movement sensing for driving behavior insights and collision or harsh driving alerts.
+- Rugged compact design suitable for worksite vehicles with optional peripheral support such as fuel sensors and RFID.
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, the JM-VL02 supplies continuous location and vehicle-state data so fleet managers get actionable, near real-time insights. Plaspy ingests GNSS position, cellular-derived LBS, telemetry and event data from the tracker, enabling live maps, event alerts and historical reports that support dispatch, safety monitoring and loss prevention.
+When integrated with Plaspy, the JM-VL02 feeds position, event and vehicle state information into the platform so operators can monitor assets, respond to incidents and generate operational reports. Plaspy processes the tracker data to present live maps, event alerts and historical insights that support dispatch, safety and loss prevention workflows.
 
-- Real-time location and telemetry updates — tracked via GPS + LBS and delivered over LTE Cat-M1 / NB2 or GSM fallback.
-- ACC/ignition status and door/auxiliary input events for accurate asset-on/asset-off reporting.
-- Fuel monitoring capability when connected to optional fuel sensors, enabling fuel consumption reporting and anomaly detection.
-- Remote immobilizer/relay control — operators can initiate a power cut-off via Plaspy to assist anti-theft and fleet control workflows.
-- SOS/panic button and accelerometer-based collision or harsh-driving alerts routed through Plaspy for emergency and safety response.
+- Real time location and telemetry updates visible on Plaspy live maps.
+- ACC and auxiliary input events for accurate asset on and off reporting.
+- Fuel monitoring and anomaly detection when optional fuel sensors are connected.
+- Remote relay control to initiate immobilizer actions from Plaspy for theft mitigation.
+- SOS button and accelerometer alerts routed through Plaspy for emergency handling.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat-M1 & NB2 IoT module with GSM 2G fallback |
-| --- | --- |
-| Bands / Carrier | Carrier-certified for major networks \(PTCRB, AT&T, T-Mobile, Verizon\). Specific band support varies by model/region. |
-| Power & Battery | 9–36 V DC input for vehicle installation; 300 mAh industrial Li-Polymer backup battery |
-| Interfaces | Digital inputs \(ACC/ignition, SOS, general input\), digital outputs \(relay/output\) to support immobilization and accessory control; multiple I/O for peripherals |
-| GNSS | GPS + LBS positioning; accuracy better than 2.5 m CEP; sensitivity -165 dBm; TTFF: hot ≤1 s, cold ≤32 s |
-| Storage & SIM | Standard SIM slot; 32 + 32 Mb onboard data storage; status LEDs for GNSS \(blue\), Cellular \(green\) and Power \(red\) |
-| Sensors & Alerts | Onboard accelerometer for harsh-driving and collision detection; supports geo-fence, over-speed, abnormal vibration and power-disconnect alerts |
-| Form Factor & Durability | Dimensions 105.5 × 57.0 × 21.8 mm; weight 104 g; IP65 dust/water resistance; CE, FCC and major carrier certifications |
-
-## Use Cases
-
-- Fleet anti-theft and immobilization — remote relay cut-off and real-time tracking for rapid recovery and theft mitigation.
-- Construction equipment and heavy machinery monitoring — rugged IP65 design and telematics for remote sites.
-- Public transport oversight — live vehicle positions, driver behavior monitoring and SOS event handling for safety and compliance.
-- Rental and leasing asset control — ignition and RFID integration for driver authentication, usage tracking and billing reconciliation.
-- Fuel monitoring and telemetry — connect optional fuel sensors to detect consumption trends and fuel-loss events.
+- Fleet anti theft and immobilization with remote relay cut off and tracking for recovery.
+- Construction machinery and heavy equipment monitoring at remote sites.
+- Public transport oversight including live position tracking and safety event handling.
+- Rental and leasing operations using ignition and driver ID integration for usage tracking and billing.
+- Fuel consumption monitoring and anomaly detection with optional sensors.
 
 ## Why Choose This Tracker with Plaspy
 
-The JM-VL02 pairs industrial-grade hardware with the Plaspy platform to deliver reliable, scalable fleet management. Its multi-mode cellular design \(LTE Cat-M1 / NB2 with 2G fallback\) and carrier certifications reduce connectivity risk across coverage zones, while robust GNSS performance and a fast TTFF keep location reporting accurate and timely. Integrated vehicle I/O and a relay output make the unit ideal for anti-theft workflows — the tracker supports remote immobilizer actions and ignition-aware reporting, enabling Plaspy users to combine location, telemetry and control in a single service.
+The JM-VL02 pairs vehicle focused hardware with the Plaspy platform to provide a practical telematics solution for organizations that need reliable location reporting, vehicle state awareness and basic control capabilities. Its multi mode cellular connectivity and rugged design help maintain service continuity across diverse operating environments while the integrated I O supports common fleet workflows such as immobilization and event driven alerts.
 
-For organizations that need resilient telematics, accurate GPS tracking, fuel monitoring capability and event-driven alerts, the JM-VL02 offers a compact, service-ready solution that integrates smoothly with Plaspy for centralized dispatch, reporting and over-the-air fleet operations.
-
+If you want to learn more about how Plaspy can use the Concox JM-VL02 for fleet monitoring, reporting and operational oversight please visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so verify current specifications and official documentation on the Concox website https://www.iconcox.com/.

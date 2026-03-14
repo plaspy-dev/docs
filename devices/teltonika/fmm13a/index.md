@@ -2,60 +2,60 @@
 slug: /teltonika/fmm13a
 id: fmm13a
 sidebar_label: FMM13A
+title: Teltonika - FMM13A
 sidebar_class_name: menu_item_tracker
+description: Teltonika FMM13A 4G LTE M1 tracker compatible with Plaspy for real time fleet tracking fuel monitoring and anti theft deployments
+keywords:
+  - Teltonika FMM13A
+  - FMM13A tracker
+  - Teltonika tracker
+  - 4G LTE Cat M1
+  - fleet tracking
+  - asset tracking
+  - fuel monitoring
+  - vehicle telematics
+  - Plaspy compatible
+  - real time tracking
 ---
+
 # Teltonika - FMM13A
 
 ![FMM13A](./tracker.png)
 
-The Teltonika FMM13A is a professional 4G LTE Cat M1 GPS tracker engineered for North American vehicle and asset deployments. Designed as a compact real-time tracking terminal, the FMM13A combines reliable LTE-FDD connectivity, a BG95-M1 communications module \(standard in orders\), and a built-in backup battery to keep telemetry and location reporting active during power interruptions. As a Plaspy compatible tracker, it integrates cleanly with Plaspy’s fleet management and monitoring platform for immediate operational visibility.
+The Teltonika FMM13A is a compact professional GPS tracker built for North American vehicle and asset deployments. It is designed as a real time tracking terminal that pairs LTE Cat M1 connectivity with a Quectel BG95 M1 module in standard orders and includes an internal backup battery to maintain telemetry and location reporting during power interruptions. The device is intended to deliver continuous location visibility and vital vehicle telemetry for fleet and asset management scenarios.
 
-The FMM13A is well suited for fleet management, logistics, and anti-theft applications where continuous tracking, fuel monitoring and remote control are required. With flexible input/output configuration, impulse input for fuel flow meters, and CAN-bus adapter support for vehicle data \(fuel level, odometer, RPM, engine temperature\), this tracker delivers the telemetry and control functions fleet operators expect — now available as a Plaspy compatible endpoint for streamlined deployment and management.
+As a Plaspy compatible tracker, the FMM13A integrates into Plaspy’s fleet management and monitoring platform to provide immediate operational visibility. Plaspy can ingest the FMM13A’s location, input/output events, fuel-related impulse input data, and CAN adapter readings to present unified dashboards, alerts, and historical reports that help teams monitor vehicles and respond to incidents.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for seamless integration with Plaspy’s real-time tracking and reporting tools.
-- 4G LTE Cat M1 connectivity via BG95-M1 module optimized for North American LTE-FDD bands.
-- Internal backup battery to continue reporting during main power loss — critical for anti-theft and incident logging.
-- Flexible inputs/outputs and impulse input support for accurate fuel monitoring and telemetry.
-- CAN adapter compatibility to read vehicle telematics: fuel level, odometer, RPM, and engine temperature.
-- Remote engine blocking / immobilizer capability for fleet control and theft mitigation.
-- Certifications for North America \(FCC, PTCRB, IC, AT&T approvals\) for straightforward regulatory compliance.
+- Plaspy compatible GPS tracker for integration with Plaspy real time tracking and reporting tools
+- 4G LTE Cat M1 connectivity via BG95 M1 module optimized for North American LTE FDD bands
+- Internal backup battery to continue reporting during main power loss for improved anti theft logging
+- Flexible input and output configuration with impulse input support for fuel flow meters
+- CAN adapter compatibility to read vehicle telematics such as fuel level odometer RPM and engine temperature
+- Remote engine blocking and immobilizer capability for fleet control and theft mitigation
+- North American certifications and approvals to support regulatory compliance and deployment
 
 ## How It Works with Plaspy
 
-Connecting the FMM13A to Plaspy provides a robust pipeline of location and vehicle telemetry for real-time tracking, alerts, and historical reporting. Data flows from the device’s LTE Cat M1 modem via the configured APN to Plaspy’s servers, where location, sensor readings and events are normalized and presented through Plaspy dashboards, maps and APIs. Plaspy can ingest the FMM13A’s telemetry to power route monitoring, remote commands, and scheduled reports.
+When connected to Plaspy the FMM13A delivers location and vehicle telemetry into Plaspy’s servers where data is normalized and surfaced through maps dashboards and reporting tools. That integration lets operators track vehicles in real time review historical movement patterns receive event alerts and issue supported remote commands from Plaspy for operational oversight.
 
-- Real-time location and telemetry updates delivered over LTE Cat M1 for continuous fleet visibility.
-- Ignition and engine-blocking/immobilizer status for anti-theft and remote fleet control.
-- Impulse input fuel monitoring to support accurate fuel consumption and theft detection workflows.
-- Remote immobilizer and remote control commands for secure fleet operations.
-- Bluetooth Low Energy \(BLE\) support for ID beacons and sensor pairing in trailer tracking or cold-chain workflows.
+- Real time location and telemetry updates for continuous fleet visibility in Plaspy
+- Ingest CAN and impulse input telemetry to power fuel monitoring and vehicle performance reports
+- Event and alerting for ignition status power loss immobilizer and other configured inputs
+- Remote immobilizer and control commands where supported to assist in theft response and fleet control
+- BLE support for ID beacons and sensor pairing to extend tracking to trailers and temperature sensor workflows
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE Cat M1 \(LTE-FDD\) |
-| --- | --- |
-| Module | Quectel BG95‑M1 module \(listed in standard orders\) |
-| Bands | B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B25/B26/B27/B28/B66/B85 \(LTE-FDD North America\) |
-| Power & Battery | Primary vehicle power with internal backup battery for continued operation during power interruptions |
-| Interfaces / I/O | Flexible input/output configuration; impulse input for fuel flow meter readings; digital I/O for ignition and events; engine blocking \(remote immobilizer\) support |
-| CAN Support | Compatible with CAN adapters to read vehicle data \(fuel level, odometer, RPM, engine temperature\) |
-| GNSS | Integrated GNSS positioning \(device description did not specify GNSS systems or accuracy\) |
-| Bluetooth | Bluetooth Low Energy \(BLE\) for ID beacons and sensor integration \(used in trailer and sensor workflows\) |
-| Remote Management | Supports Teltonika remote device management workflows \(e.g., FOTA WEB\) and common cable/CAN accessories |
-| Form Factor & Packaging | Compact vehicle terminal; packaging options include bulk boxes \(10 pcs. per box with power and I/O cables\) and single-unit packages depending on order code. Example order codes: FMM13A6ZXW01, FMM13A6ZU801, FMM13A6Z5R01 |
-| Certifications | North America: FCC, PTCRB, IC and AT&T approvals |
-
-## Use Cases
-
-- Fleet telematics and delivery services — real-time tracking, route compliance and driver monitoring for improved operations.
-- Trailer tracking with BLE ID beacons — attach beacons to trailers for quick identification and paired telemetry.
-- Cold chain monitoring for pharmaceuticals and perishables when paired with temperature sensors — integrates sensor readings into Plaspy reports.
-- Fuel monitoring and anti-theft — impulse input fuel-meter integration plus remote engine blocking to reduce fuel loss and unauthorized use.
-- General asset and workforce tracking — compact form factor for installation on a wide range of passenger cars, light commercial vehicles, trucks, buses and special machinery.
+- Fleet telematics and delivery services requiring real time location tracking and route oversight
+- Trailer and asset identification using BLE ID beacons paired with the tracker for combined visibility
+- Cold chain or temperature sensitive logistics when the tracker is used alongside external sensors
+- Fuel monitoring and anti theft workflows using impulse input and remote engine blocking features
+- General vehicle and asset tracking across passenger cars light commercial vehicles trucks and specialized equipment
 
 ## Why Choose This Tracker with Plaspy
 
-Integrating the Teltonika FMM13A with Plaspy gives fleets and asset managers a dependable, Plaspy compatible GPS tracker that balances connectivity, telemetry and remote-control features. The device’s LTE Cat M1 radio and North American band support ensure consistent real-time tracking, while the internal backup battery and flexible I/O address anti-theft and operational continuity needs. CAN compatibility and impulse input for fuel monitoring deliver richer telemetry for smarter fleet management and fuel optimization. Combined with Teltonika’s remote management tools \(such as FOTA WEB\) and Plaspy’s dashboards, the FMM13A becomes a scalable endpoint for secure, real-time fleet control — supporting ignition events, immobilizer actions, telemetry ingestion and Bluetooth sensor workflows for comprehensive vehicle and asset monitoring.
+The FMM13A is a practical option for organizations that need a compact vehicle terminal with reliable LTE Cat M1 connectivity and a built in backup battery to reduce gaps in reporting. Its flexible I O, impulse input and CAN adapter compatibility make it useful where fuel monitoring and richer vehicle telemetry are important to operations. As a Plaspy compatible endpoint, the FMM13A can feed location and sensor data into Plaspy dashboards and reporting, helping teams maintain visibility and respond to events.
 
+To learn more about how Plaspy can work with Teltonika devices visit https://www.plaspy.com. Product specifications availability and manufacturer details can change over time so it is recommended to verify current specifications on the manufacturer's website https://www.teltonika-gps.com/

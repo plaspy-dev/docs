@@ -2,60 +2,61 @@
 slug: /gotop/g02_4g
 id: g02_4g
 sidebar_label: G02-4G
+title: GOTOP - G02-4G
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G IP67 compacto para motos e-bikes y autos compatible con Plaspy para seguimiento y alertas en tiempo real
+keywords:
+  - GOTOP G02-4G
+  - rastreador G02-4G
+  - G02 GPS 4G
+  - rastreador GPS GOTOP
+  - G02-4G Plaspy
+  - GPS para motocicleta
+  - rastreador para e-bike
+  - seguimiento de flotas
+  - rastreador de vehículo
+  - rastreador GPS IP67
 ---
+
 # GOTOP - G02-4G
 
 ![G02-4G](./tracker.jpg)
 
-El G02-4G es un rastreador GPS compacto y robusto, perteneciente a una línea de hardware diseñada específicamente para motocicletas, e-bikes y automóviles. Compatible con Plaspy desde el primer uso, el G02-4G ofrece seguimiento en tiempo real fiable a través de 4G LTE \(con respaldo a 3G/2G\) además de informes por SMS, una carcasa con protección IP67 para uso en exteriores y tolerancia eléctrica de nivel vehicular \(9–95V\) para instalaciones en flotas sin complicaciones.
+El GOTOP G02-4G es un rastreador GPS compacto y resistente, diseñado para motos, e-bikes y automóviles. Ofrece seguimiento en tiempo real mediante 4G LTE con conmutación a 3G/2G y reporte por SMS como respaldo, y su carcasa con certificación IP67 lo hace apto para uso exterior. El equipo está concebido para entornos vehiculares, con un amplio rango de voltaje de entrada y rendimiento de posicionamiento adecuado para seguimiento rutinario de flotas y activos.
 
-Diseñado para un posicionamiento preciso y telemetría persistente, el G02-4G combina un chipset GNSS AT6558D y un módulo 4G EC21AUFA-512-STD para ofrecer una precisión GPS dentro de 5 meters. Cuando se integra con Plaspy, el G02-4G se convierte en un rastreador GPS llave en mano para gestión de flotas, procesos anti-robo y monitorización continua de vehículos con alertas por eventos y historial de posiciones.
+Como dispositivo compatible con Plaspy desde el primer momento, el G02-4G se integra con Plaspy para mapas en vivo, alertas basadas en eventos y datos históricos de posición. Al combinarlo con Plaspy, el rastreador entrega visibilidad de ubicación y telemetría lista para usar, lo que facilita la supervisión de la flota, procesos anti robo y la vigilancia continua del vehículo sin integraciones personalizadas complejas.
 
-## Aspectos destacados
+## Puntos clave
 
-- Compatible con Plaspy: seguimiento en tiempo real vía 4G o SMS y una integración telemétrica directa con los paneles e alertas de Plaspy.
-- Diseño exterior robusto: protección IP67 a prueba de agua y un formato compacto para motocicletas, e-bikes y coches.
-- Amplio rango de voltaje para vehículos: entrada de 9–95V, compatible con instalaciones en diversos vehículos sin necesidad de convertidores adicionales.
-- Posicionamiento preciso: el chipset GNSS AT6558D ofrece una precisión GPS dentro de 5 meters para datos de ubicación confiables.
-- Alertas completas de eventos: detección ACC \(encendido\); geocercas; alarmas de vibración, movimiento, batería baja y corte de alimentación principal.
-- Conectividad multired: 4G LTE con respaldo a 3G/2G para una mayor compatibilidad regional y mejor seguimiento en tiempo real.
-- Compacto y ligero: 90 x 57 x 20 mm, 68 g; fácil de montar en vehículos pequeños y en activos discretos.
+- Compatible con Plaspy para seguimiento en tiempo real vía 4G o SMS, con integración directa de telemetría a paneles y alertas de Plaspy
+- Carcasa resistente IP67 y formato compacto ideal para motocicletas, e-bikes y automóviles
+- Amplio rango de voltaje para simplificar instalaciones en distintos tipos de vehículos
+- Posicionamiento preciso con rendimiento GNSS que reporta ubicaciones con una precisión aproximada de 5 metros
+- Alarmas integradas para eventos como detección de encendido, geocercas, vibración y movimiento, batería baja y corte de alimentación principal
+- Conectividad multinetwork que ofrece resiliencia regional y mejora la confiabilidad del seguimiento en tiempo real
 
 ## Cómo funciona con Plaspy
 
-El G02-4G envía datos de ubicación y eventos a Plaspy mediante su conexión 4G o, opcionalmente, por SMS. Plaspy procesa estas actualizaciones para proporcionar mapas en tiempo real, paneles de telemetría, alertas automáticas e informes históricos. La integración es sencilla: una vez que el dispositivo está conectado a una red móvil y configurado para apuntar al endpoint de ingestión de Plaspy, las posiciones GPS, el estado ACC/encendido y los eventos de alarma aparecen en tiempo real para la gestión de flotas y los flujos de trabajo anti-robo.
+El G02-4G envía datos de ubicación y eventos a Plaspy mediante su enlace celular o por SMS como vía redundante. Plaspy recibe esas actualizaciones para mostrar mapas en vivo, paneles de telemetría, alertas automáticas y reportes históricos que facilitan la supervisión operativa. La integración está pensada para presentar posiciones y eventos del dispositivo en contexto dentro de Plaspy, de modo que su equipo pueda reaccionar y analizar con los flujos de trabajo existentes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a través de 4G \(con respaldo 3G/2G\) o SMS para redundancia.
-- Detección de encendido \(ACC\) para informes de conducción/espera y reglas basadas en eventos dentro de Plaspy.
-- Disparadores de geocerca y alarmas de movimiento/vibración para apoyar acciones de anti-robo y recuperación.
-- Alarmas de batería baja y corte de alimentación principal para notificar a los operadores sobre manipulación o pérdida de energía.
-- Compatibilidad de datos con las alertas, informes y automatización basada en API de Plaspy, lo que permite gestión de flotas, reproducción de rutas e informes de cumplimiento.
+- Actualizaciones de ubicación y telemetría en tiempo real por celular o SMS para redundancia
+- Detección de encendido para reportes de conducción e inactividad y para disparar reglas dentro de Plaspy
+- Alarmas por geocercas, movimiento y vibración para apoyar respuestas anti robo y acciones de recuperación
+- Alertas por batería baja y corte de alimentación principal para detectar manipulación o problemas de energía
+- Datos disponibles para alertas, reportes, reproducción de rutas y automatizaciones vía API en Plaspy
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | 4G LTE \(principal\), respaldo a 3G y 2G; informes por SMS soportados |
-| --- | --- |
-| Bandas \(modelo EU\) | LTE-FDD B1/B3/B5/B7/B8/B20; LTE-TDD B38/B40/B41; WCDMA B1/B5/B8; GSM B3/B8 |
-| Potencia y batería | Voltaje de funcionamiento 9–95V; batería de respaldo integrada de 3.7V 140 mAh |
-| Entradas y alarmas | Detección ACC \(encendido\); geocercas; alarma de vibración; alarma de movimiento; alarma de batería baja; alarma de corte de alimentación principal |
-| GNSS | Chip GPS AT6558D; precisión de posicionamiento dentro de 5 meters |
-| Antenas | Antenas GPS y GSM integradas |
-| Bluetooth | No especificado / no incluido en la especificación suministrada |
-| Gestión remota | Configuración remota a través de red \(el dispositivo apunta a Plaspy\); no se especifica FOTA o gestión web |
-| Formato y durabilidad | Compacto: 90 x 57 x 20 mm; peso 68 g; IP67 a prueba de agua |
-
-## Casos de uso
-
-- Gestión de flotas para una flota mixta de vehículos: coches, motocicletas y e-bikes, que requieren telemetría centralizada de rastreador GPS e historial de rutas.
-- Monitorización anti-robo y recuperación para motocicletas y e-bikes mediante geocercas, alarmas de vibración y movimiento, combinadas con alertas de Plaspy.
-- Seguimiento de e-bikes y micromovilidad donde el tamaño compacto, la protección IP67 y la amplia tolerancia de voltaje simplifican la instalación.
-- Recuperación ante robo para coches y activos ligeros, utilizando seguimiento continuo por 4G y detección de corte de alimentación principal para detectar manipulación.
-- Seguimiento general de activos donde la robustez y la conectividad 4G confiable son prioritarias \(remolques, equipos, generadores móviles\).
+- Gestión centralizada de flotas mixtas que incluya autos, motocicletas y e-bikes
+- Monitoreo anti robo y flujos de recuperación para motos y e-bikes usando geocercas y alarmas de movimiento
+- Seguimiento de micromovilidad y e-bikes donde el tamaño compacto y la protección IP67 son determinantes
+- Recuperación ante robos y detección de manipulación en vehículos ligeros mediante seguimiento celular continuo
+- Rastreo de activos robustos como remolques, equipos o generadores móviles que requieren rendimiento fiable en exterior
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el G02-4G para la integración con Plaspy ofrece un equilibrio práctico entre hardware robusto, flexibilidad de red y telemetría de nivel vehicular. Su rango de entrada de 9–95V y su compacto encapsulado IP67 reducen la complejidad de instalación entre tipos de vehículos, mientras que el chipset GPS AT6558D y el módulo 4G EC21AUFA-512-STD proporcionan posicionamiento preciso y una conectividad estable para el seguimiento en tiempo real.
+El G02-4G combina hardware resistente y flexibilidad de red, lo que lo hace adecuado para muchas implementaciones con Plaspy. Su diseño compacto IP67 y la amplia aceptación de voltaje lo convierten en una opción única para organizaciones que buscan un solo modelo de equipo para distintos tipos de vehículos. Al emparejarlo con Plaspy, las señales de eventos y las actualizaciones de posición del dispositivo se transforman en alertas accionables, reportes de flota y análisis históricos sin necesidad de personalizaciones extensas.
 
-Para organizaciones que despliegan rastreadores GPS en motocicletas, e-bikes y coches, el G02-4G ofrece una compatibilidad con Plaspy sencilla para la gestión de flotas y programas anti-robo. Plaspy puede aprovechar la información de ACC/encendido del dispositivo, eventos de geocerca, alarmas de movimiento y vibración, y alertas de pérdida de energía para entregar telemetría accionable. Si se requiere telemetría adicional, como monitorización de combustible, control del inmovilizador o integración de sensores Bluetooth, Plaspy a menudo puede combinar los datos del dispositivo con interfaces CAN del vehículo o entradas de sensores externas cuando sean compatibles, lo que permite una estrategia más amplia de telemetría y control sin exceder las capacidades documentadas del dispositivo.
+Para equipos enfocados en la visibilidad de la flota y procesos anti robo, el G02-4G ofrece compatibilidad directa con Plaspy para soportar la supervisión en tiempo real y la generación de informes operativos. Si sus necesidades de despliegue crecen, Plaspy puede incorporar los datos del dispositivo en flujos de trabajo y estrategias de reporte más amplias, manteniendo claridad sobre las funcionalidades que proporciona el rastreador.
 
+Aprenda más sobre el uso de rastreadores compatibles y Plaspy en el sitio principal de Plaspy https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden variar con el tiempo, por lo que por favor verifique los detalles técnicos actuales en el sitio del fabricante https://www.gotop.cc/ antes de comprar o desplegar dispositivos.

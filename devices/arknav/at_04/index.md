@@ -2,61 +2,60 @@
 slug: /arknav/at_04
 id: at_04
 sidebar_label: AT-04
+title: ArkNav - AT-04
 sidebar_class_name: menu_item_tracker
+description: Compact ArkNav AT-04 GPS tracker compatible with Plaspy for discreet asset and child protection with long battery life and assisted positioning
+keywords:
+  - ArkNav AT-04
+  - AT-04 GPS tracker
+  - ArkNav tracker Plaspy
+  - compact GPS tracker
+  - asset tracking
+  - child protection tracker
+  - AGPS tracker
+  - long battery GPS
+  - Plaspy compatible devices
+  - portable asset tracker
 ---
+
 # ArkNav - AT-04
 
 ![AT-04](./tracker.png)
 
-The AT-04 Compact GPS Tracker is a Plaspy compatible, ultra-small tracking device designed for discreet protection of children, high-value deliveries, and portable assets. Its compact, easy-to-hide form factor and single-button design reduce user error and false alarms, while built-in GPS, AGPS assistance and cell-location features help maintain reliable position reporting even where GPS alone struggles. With Plaspy integration, AT-04 is an ideal GPS tracker for deployments that need dependable location updates, low-power operation, and simple field management.
+The AT-04 Compact GPS Tracker is an ultra-small tracking device designed for discreet protection of children, high-value deliveries, and portable assets. Its compact, easy-to-hide form factor and single-button design help reduce user error and false alarms. The device combines GPS positioning with AGPS assistance and cell-based location features to maintain reliable position reporting even where GPS alone can be limited, and it is engineered for long battery life with configurable timer and movement-activated reporting modes.
 
-Engineered for long battery life and straightforward operation, the AT-04 supports timer and movement-activated reporting profiles and offers call/SMS location requests for rapid situational awareness. Plaspy-compatible setups can ingest the device’s location and motion data for real-time tracking, alerts, and historical reporting — making the AT-04 suitable for asset tracking, child protection, high-value package delivery, and light fleet or route-based monitoring where compactness and battery endurance are priorities.
+As a Plaspy compatible device, the AT-04 can feed location and motion information into Plaspy for centralized monitoring, alerts, and historical reporting. Plaspy can present the AT-04’s position updates according to the device’s configured reporting profile, making the model suitable for deployments that need dependable location updates, straightforward field management, and battery-conscious operation.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker: integrates compact, location-focused reporting into Plaspy dashboards and alerting workflows.
-- Ultra-small, easy-to-hide form factor tailored for covert tracking of assets, deliveries, and personal protection.
-- Long battery life with a 1000 mAh internal battery and configurable timer/movement reporting — up to 14–15 days in timer mode.
-- AGPS and cell-based location assistance to improve acquisition and indoor performance where pure GPS is limited.
-- Simple user interaction via single-button design and call/SMS location requests that return Google Maps links for fast viewing on phones.
-- On-device backup storage \(8 MB flash\) and motion detection from a 3-axis accelerometer for reliable event reporting.
-- Full-size SIM slot and Prolific USB-to-Serial programming port for easy provisioning and configuration in the field.
+- Plaspy compatible device for integration into dashboards and alert workflows.
+- Ultra-small, easy-to-hide form factor suited to personal protection, deliveries, and portable assets.
+- Built-in 1000 mAh battery with configurable timer and movement reporting for extended standby between charges.
+- AGPS assistance and cell-based location to improve position acquisition in weak GPS conditions.
+- Simple single-button user interface plus call and SMS location requests that return Google Maps links for quick viewing.
+- Motion detection with a 3-axis accelerometer and 8 MB of local backup storage to preserve recent fixes.
+- Full-size SIM slot and a USB-to-serial provisioning interface to support field configuration.
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, the AT-04 provides timely location and motion data that Plaspy can display, alert on, and use in telemetry workflows. The device’s flexible reporting modes allow installers to balance update frequency and battery life: Plaspy can present real-time position feeds when frequent reporting is enabled, or conserve power by ingesting less-frequent timer or movement-triggered updates. For deployments that rely on simple, robust connectivity, AT-04’s SMS and call-to-request features offer an alternative path to location data alongside any supported server upload methods documented by the manufacturer.
+When connected to Plaspy, the AT-04 supplies location and motion data that Plaspy can display in real time or archive for historical reporting. The device’s flexible reporting modes let operators trade update frequency for battery life; Plaspy adapts to those modes to deliver situational awareness suited to each deployment. For simple connectivity scenarios, the AT-04’s call and SMS location request features offer a practical alternative to server uploads when quick confirmation is needed.
 
-- Real-time location and telemetry updates \(subject to configured reporting interval and battery profile\).
-- Movement detection and tamper events via the onboard 3-axis accelerometer \(±16G default\).
-- Timer-activated and movement-activated reporting modes to extend battery life for long-term asset tracking.
-- Call/SMS location requests that return Google Maps hyperlinks for quick mobile viewing and verification.
-- Local backup storage \(8 MB flash\) to preserve recent fixes if connectivity is intermittent.
+- Real-time position updates visible in Plaspy when the tracker is configured for frequent reporting.
+- Movement detection and tamper-style events reported by the onboard accelerometer for alerting and activity logs.
+- Timer-activated and movement-triggered reporting to extend battery life for long-term asset deployments.
+- Call and SMS location requests that provide quick Google Maps links for mobile verification.
+- Local backup storage to retain recent location fixes when connectivity is intermittent.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GPS and GSM with AGPS assistance and cell-location support \(GSM-based reporting and SMS\). |
-| --- | --- |
-| Bands | Not specified in the supplied description — consult the manufacturer datasheet for supported GSM bands and regional variants. |
-| Power & Battery | Built-in 1000 mAh rechargeable battery; configurable reporting profiles and power management; up to ~14–15 days in timer-activation mode \(depending on settings\). |
-| Interfaces | Full-size SIM slot; Prolific USB-to-Serial programming port for configuration and provisioning. |
-| GNSS | GPS with AGPS assistance and cell-based location for improved performance in indoor or weak-signal environments. |
-| Sensors & Storage | 3-axis accelerometer \(±16G default\) for motion detection; 8 MB flash for backup storage of location/telemetry data. |
-| Antennas | Built-in GPS and GSM antennas \(internal designs for compact form factor\). |
-| Reporting Modes | Timer activation, movement activation, and manual call/SMS location requests; configurable reporting intervals. |
-| Remote Management | Local configuration via USB-to-serial programming port \(Prolific\); consult manufacturer documentation for supported server upload or remote provisioning options. |
-| Form Factor & Accessories | Ultra-compact, easy-to-hide tracker; standard travel charger and USB-to-serial programming cable included; optional lanyard available. |
-
-## Use Cases
-
-- High-value package and cash delivery — discreet tracking and location confirmation with long standby between charges.
-- Asset tracking and management for portable equipment, tool sets, or inventory items that require covert monitoring.
-- Child protection and personal safety — compact form, simple single-button operation, and quick-call location requests for caregivers.
-- Covert surveillance and short-term field operations where size, battery endurance, and indoor position assistance matter.
-- Small-route delivery or courier operations that need compact GPS trackers integrated into Plaspy for centralized monitoring.
+- Discreet tracking of high-value packages and cash deliveries that require long standby between charges.
+- Portable asset tracking for equipment, tool sets, or inventory items that benefit from a compact form factor.
+- Child protection and personal safety where simple operation and quick location requests are needed.
+- Small-route delivery and courier operations that need compact trackers integrated into a central platform.
+- Short-term field operations or covert monitoring where size and assisted positioning improve reliability.
 
 ## Why Choose This Tracker with Plaspy
 
-Pairing the AT-04 with Plaspy gives organizations and individuals a compact, low-maintenance GPS tracker they can trust for discreet asset protection and straightforward monitoring. The device’s long battery life, configurable reporting profiles, and AGPS/cell-location assistance reduce the need for frequent maintenance while improving indoor reliability — an important advantage for child protection, high-value deliveries, and asset security. Plaspy’s platform then takes those location and motion feeds and turns them into actionable insights, alerts, and history for operators and managers.
+The AT-04 is a practical choice for organizations and individuals who need a compact, low-maintenance tracker that integrates into Plaspy for centralized monitoring and alerting. Its small size, simplified user controls, and assisted positioning make it suitable for scenarios where discretion, battery endurance, and reliable reporting in challenging signal environments are priorities. Plaspy takes the AT-04’s location and motion feeds and turns them into actionable views, alerts, and historical records that help teams manage assets and respond to events.
 
-If your deployment requires expanded vehicle telemetry such as fuel monitoring, ignition status, or immobilizer control, the AT-04’s design focuses on compact asset and personal tracking rather than vehicle I/O. In those cases, you can integrate AT-04 location and motion data into Plaspy alongside other Plaspy-compatible devices that provide dedicated fuel, ignition, or immobilizer telemetry. For environments that require Bluetooth sensors or additional environmental monitoring, verify available accessories and integration approaches in the manufacturer datasheet or consider combining AT-04 with complementary Plaspy-compatible sensors.
-
+To learn more about how Plaspy can use AT-04 data in tracking workflows, visit https://www.plaspy.com. For the most current product specifications, availability, and manufacturer guidance consult ArkNav’s official documentation at https://www.arknavgps.com.tw/. Product details and manufacturer information can change over time, so verifying the latest specifications with the manufacturer is recommended.

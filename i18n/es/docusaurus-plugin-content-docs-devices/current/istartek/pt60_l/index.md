@@ -2,63 +2,60 @@
 slug: /istartek/pt60_l
 id: pt60_l
 sidebar_label: PT60-L
+title: iStartek - PT60-L
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G de larga autonomía con base magnética, compatible con Plaspy para seguimiento de flotas y activos
+keywords:
+  - iStartek PT60-L
+  - rastreador PT60-L
+  - PT60-L compatible con Plaspy
+  - rastreador GPS 4G
+  - rastreador GPS de larga autonomía
+  - rastreador con base magnética
+  - dispositivo de rastreo de activos
+  - rastreador para remolques
+  - monitoreo de activos sin supervisión
+  - dispositivo de rastreo para flotas
 ---
+
 # iStartek - PT60-L
 
 ![PT60-L](./tracker.jpg)
 
-El PT60-L 4G Wireless GPS Tracker es un localizador compatible con Plaspy, sin necesidad de instalación, diseñado para el seguimiento de activos y vehículos a largo plazo con bajo mantenimiento. Con un módulo GNSS de alta sensibilidad L76K, variantes regionales 4G/LTE, una batería recargable de 7.500 mAh y un soporte magnético robusto, el PT60-L está diseñado para ofrecer ubicación y telemetría confiables para flotas no supervisadas, remolques, contenedores y activos personales donde es crucial una larga vida en modo de espera.
+El PT60-L es un rastreador GPS inalámbrico 4G diseñado para el seguimiento a largo plazo y de bajo mantenimiento de vehículos y activos. Integra un módulo GNSS de alta sensibilidad, soporte celular 4G regional, una batería recargable de gran capacidad y un potente imán para montaje, ofreciendo ubicación y telemetría confiables en activos no atendidos como remolques, contenedores y equipos personales. Su diseño sin necesidad de instalación y su enfoque en una prolongada vida en espera lo hacen ideal cuando el acceso frecuente a la energía es limitado.
 
-Integrado con Plaspy, el PT60-L se convierte en un rastreador GPS flexible que admite intervalos de reporte configurables para seguimiento en tiempo real o actualizaciones periódicas de ultra-bajo consumo. Los usuarios de Plaspy obtienen acceso a alarmas de manipulación, telemetría de comportamiento de conducción, alertas de batería baja, actualizaciones FOTA y redundancia de servidor dual —todo sin instalación fija—, lo que hace de este dispositivo una opción práctica para la gestión de flotas, monitoreo antirobo y programas de activos pan-IoT.
+Como dispositivo compatible con Plaspy, el PT60-L se integra con la plataforma para entregar modos de reporte configurables y visibilidad centralizada sin requerir instalación fija. Al trabajar con Plaspy, el equipo puede ajustarse para actualizaciones casi en tiempo real o para reportes periódicos de muy bajo consumo, y transmite alarmas, estado de batería e historial de eventos a los tableros e informes de Plaspy. Esta compatibilidad convierte al PT60-L en una opción práctica para equipos que necesitan rastreo de larga autonomía junto con gestión centralizada de flotas y activos.
 
-## Características clave
+## Características principales
 
-- Localizador GPS compatible con Plaspy con informes configurables: admite informes frecuentes para seguimiento en tiempo real o modos de activación por temporizador para un standby multianual.
-- Batería Li‑ion recargable de 7.500 mAh con modo deep-sleep de 20 µA/h y múltiples modos de operación para optimizar la vida de la batería.
-- GNSS de alta sensibilidad \(L76K\) con posicionamiento GPS/BeiDou/QZSS y GLONASS opcional para una precisión de ubicación confiable en entornos mixtos.
-- Formato robusto, sin necesidad de instalación, con imanes integrados y antenas internas para una sujeción discreta a vehículos, remolques, contenedores o artículos personales.
-- Telemetría y seguridad integrales: alarma de manipulación \(sensor de luz\), eventos de comportamiento de conducción \(aceleración/brusca frenada/giro/impacto\), alarma de batería baja, registro local en flash y reporte a dos servidores.
-- Opciones de conectividad 4G/LTE regional \(familias Quectel EG915U y BG95\) incluyendo variantes LTE-FDD, CAT M1 y NB‑IoT cuando corresponda.
-- Actualizaciones de firmware remotas \(FOTA\) y rango ambiental duradero \(−25 °C a 75 °C, 5%–95% de humedad\) para despliegues a largo plazo.
+- Rastreador GPS 4G compatible con Plaspy, diseñado para larga vida en espera y despliegues no atendidos.
+- Batería recargable de gran capacidad de 7,500 mAh y modos de funcionamiento configurables para optimizar reportes frente a duración de la batería.
+- Posicionamiento GNSS de alta sensibilidad mediante el módulo L76K para ubicación fiable en entornos mixtos.
+- Diseño robusto y sin instalación con potente montaje magnético para fijación discreta en remolques, contenedores y equipos.
+- Telemetría y funciones de seguridad integradas, incluyendo detección de manipulación, eventos de comportamiento de manejo, alertas por batería baja y registro local.
+- Soporte para actualizaciones remotas de firmware e informes a doble servidor para mejorar la resiliencia operativa.
+- Durabilidad ambiental adecuada para despliegues prolongados al aire libre o en almacenamiento.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el PT60-L transmite la ubicación GNSS y la telemetría a bordo a la plataforma Plaspy usando TCP/UDP o SMS. Plaspy ingiere esos mensajes y presenta ubicación, estado de la batería, alarmas y historial de eventos en paneles, geocercas e informes. Puedes elegir una mayor frecuencia de reporte para seguimiento en tiempo real o usar modos de activación por temporizador y disparadores de alarmas para maximizar la vida de standby multianual o multi-mes del PT60-L.
+Una vez que el PT60-L esté conectado a Plaspy, la ubicación y la telemetría se entregan a la plataforma para que los equipos puedan monitorear activos desde una única interfaz. Plaspy procesa los mensajes del dispositivo y los convierte en trazas de ubicación, alertas e informes históricos que apoyan la supervisión operativa y la respuesta a incidentes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(intervalos de reporte configurables para equilibrar inmediatez y vida de la batería\).
-- Alarma de manipulación vía sensor de luz a bordo reportada a Plaspy para flujos de trabajo antirobo y anti-manipulación.
-- Eventos de comportamiento de conducción \(aceleración brusca, frenado brusco, giros bruscos y golpes\) proporcionados como telemetría para seguridad de la flota y mejoras de mantenimiento.
-- Alarma de batería baja y notificaciones de estado del dispositivo para mantener la disponibilidad en activos distribuidos.
-- Almacenamiento local \(16 Mb flash\) y reporte a dos servidores proporcionan redundancia para que Plaspy pueda recibir datos incluso cuando las conexiones principales están interrumpidas.
-- Soporte de FOTA indicado en el firmware del dispositivo para actualizaciones remotas seguras a través de procesos habilitados por Plaspy.
+- Intervalos de reporte configurables para seguimiento cercano al tiempo real o modos de activación por temporizador para maximizar la duración de la batería.
+- Alertas de manipulación y batería baja visibles en Plaspy para flujos de trabajo de prevención de robo y mantenimiento.
+- Telemetría de comportamiento de conducción y eventos disponible en Plaspy para revisiones de seguridad de la flota y planificación de servicio.
+- Almacenamiento local e informes a doble servidor que ayudan a garantizar que Plaspy reciba datos en búfer cuando los enlaces principales son intermitentes.
+- Paneles, geocercas e informes programados en Plaspy que presentan historial de ubicaciones y estado del dispositivo para activos distribuidos.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | 4G/LTE \(variantes regionales\), LTE-FDD, CAT M1 y NB‑IoT cuando esté disponible; transmisión de datos TCP/UDP/SMS |
-| --- | --- |
-| Bandas / Módulos | Familia Quectel EG915U y variantes BG95 \(conjuntos de bandas específicos por mercado para LA/EU/NA/MN\) |
-| Alimentación & Batería | Batería Li‑ion recargable de 7.500 mAh; modo deep-sleep de 20 µA/h; corriente activa ≈ 80 mA; múltiples modos de operación \(Normal, Sport, Ahorro de energía en modo deportivo, Despertar por temporizador, Alarma\) |
-| Interfaces | Antenas GNSS y celulares internas, puerto mini-USB para carga; interfaces externas mínimas para garantizar robustez |
-| GNSS | Módulo GNSS L76K; GPS/BeiDou/QZSS \(GLONASS opcional\); sensibilidad hasta −165 dB; precisión típica de ubicación ≈ 2.5–10 m dependiendo de condiciones |
-| Memoria | 16 Mb flash para registro local y buffering de datos |
-| Indicadores | Tres LEDs para estado de carga, GNSS y GSM |
-| Bluetooth | No se reportan sensores Bluetooth \(el diseño interno prioriza antenas internas y GNSS/celular de bajo consumo\) |
-| Gestión remota | Actualizaciones de firmware FOTA; reporte a dos servidores para redundancia |
-| Forma y peso | Aprox. 110 × 77 × 28 mm; ~290 g; soporte magnético robusto para una fijación fácil |
-| Ambiental | Temperatura de operación −25 °C a 75 °C; 5%–95% de humedad no condensante |
+- Rastreo de activos de flota a largo plazo para remolques, equipos sin alimentación y activos estacionales.
+- Monitoreo anti robo y de manipulación para vehículos y contenedores estacionados o almacenados.
+- Telemetría remota de activos y registro de eventos para apoyar programas de mantenimiento y revisiones de seguridad.
+- Despliegues IoT multisitio o a gran escala donde el bajo mantenimiento y la gestión remota son prioritarios.
+- Monitoreo discreto de activos personales o portátiles que se benefician de un dispositivo magnético y sin necesidad de instalación.
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Seguimiento de activos de la flota: se puede fijar a remolques, contenedores o activos sin suministro para una gestión de flotas a largo plazo, donde los informes periódicos optimizan la vida de la batería.
-- Antirrobo y monitorización de manipulación: soporte magnético y alarma de manipulación con sensor de luz proporcionan detección discreta y alertas de Plaspy ante movimientos sospechosos o interferencias.
-- Telemetría remota de activos: eventos de comportamiento de conducción y estado de la batería de vehículos distribuidos ayudan a optimizar programas de mantenimiento y seguridad.
-- Despliegues de larga duración: modos de despertar por temporizador y deep-sleep permiten meses a años de servicio para activos estacionales, equipos estacionados o contenedores de almacenamiento.
-- Programas Pan-IoT: reporte a dos servidores y FOTA permiten la gestión remota y la redundancia para despliegues a gran escala y sin supervisión.
+El PT60-L combina un diseño de hardware orientado a la resistencia con las funcionalidades de la plataforma Plaspy para crear una solución de rastreo de bajo mantenimiento. Su batería de gran capacidad y sus múltiples modos de potencia permiten a las organizaciones equilibrar la frecuencia de reporte con la autonomía, mientras que las alarmas y la telemetría de eventos alimentan a Plaspy para obtener información accionable. El reporte dual a servidores y la capacidad de actualización remota reducen la fricción operativa en despliegues grandes y distribuidos.
 
-## Por qué elegir este localizador con Plaspy
-
-El PT60-L combina un diseño de hardware práctico con la flexibilidad de la plataforma Plaspy para ofrecer un localizador GPS de bajo mantenimiento, compatible con Plaspy, para afrontar los desafíos reales de activos y flotas. Su gran batería y modos configurables permiten priorizar ya sea el seguimiento en tiempo real cercano o una vida de espera extrema, mientras que la telemetría a bordo \(alarmas de manipulación, eventos de conducción, batería baja\) alimenta insights accionables para la gestión y los informes de flotas de Plaspy. El reporte de dos servidores y FOTA reducen el riesgo operativo y facilitan la gestión de despliegues a gran escala.
-
-Para las organizaciones que también requieren monitoreo de combustible, integración de ignición/inmovilizador o datos de sensores BLE, Plaspy puede correlacionar la ubicación del PT60-L y la telemetría de eventos con dispositivos externos CAN, sensores de combustible o equipos con Bluetooth, ofreciendo una visión unificada de la gestión de la flota sin necesidad de modificar el diseño básico de instalación del PT60-L. Elija el PT60-L con Plaspy cuando necesite un localizador GPS robusto y de larga duración que equilibre el seguimiento en tiempo real, la telemetría y la simplicidad operativa para la gestión de flotas y aplicaciones antirobo.
-
+Si busca un rastreador robusto y sin instalación que pueda operar durante períodos prolongados mientras envía datos de ubicación y eventos a una plataforma centralizada de gestión de flotas, el PT60-L es una opción sensata para usuarios de Plaspy. Obtenga más información sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, variantes disponibles y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales y las opciones regionales en el sitio de iStartek https://istartek.com/ antes de realizar compras a gran escala.

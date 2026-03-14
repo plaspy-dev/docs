@@ -2,61 +2,62 @@
 slug: /sinotrack/st_901m
 id: st_901m
 sidebar_label: ST-901M
+title: SinoTrack - ST-901M
 sidebar_class_name: menu_item_tracker
+description: Wired SinoTrack ST-901M GPS tracker overview compatible with Plaspy for real time vehicle tracking ignition reporting and alarm events
+keywords:
+  - SinoTrack ST-901M
+  - ST-901M
+  - SinoTrack GPS tracker
+  - ST 901M Plaspy
+  - ST 901M compatible
+  - vehicle GPS tracker
+  - fleet tracking
+  - real time tracking
+  - GPRS SMS tracker
+  - immobilizer relay
 ---
+
 # SinoTrack - ST-901M
 
 ![ST-901M](./tracker.jpg)
 
-The SinoTrack ST-901M wired GPS tracker is a practical, cost-effective device for vehicle owners and fleet managers who want reliable Plaspy compatible real-time tracking. Designed for hardwired installation in cars, motorcycles, ATVs and similar vehicles, the ST-901M delivers location, ignition status and alarm reporting over GSM/GPRS or SMS so Plaspy can ingest live telemetry for fleet management, anti-theft monitoring and operational reporting.
+The SinoTrack ST-901M is a wired GPS tracker designed for vehicle owners and fleet managers who need a practical, cost effective solution for real time location and event reporting. Built for hardwired installation in cars, motorcycles, ATVs and similar vehicles, the ST-901M provides location information along with ignition state and alarm reporting over cellular data and SMS to a monitoring server.
 
-Installation and platform integration are straightforward: the ST-901M can be pointed at any monitoring server by configuring the APN and platform IP/port via SMS commands. That flexibility means you can use the SinoTrack with its free SinoTrack PRO platform or connect the unit to Plaspy by supplying the Plaspy server details — giving you real-time tracking, telemetry and remote immobilizer control when needed.
+As a Plaspy compatible device, the ST-901M can be configured to forward its telemetry directly to the Plaspy platform by setting the device APN and platform server address via SMS commands. This makes it straightforward to ingest live coordinates, ignition status and alarm events into Plaspy for fleet monitoring, anti theft workflows and operational reporting without complex middleware.
 
 ## Key Highlights
 
-- Plaspy compatible integration — configure APN and platform IP/port to forward GPRS/SMS data to Plaspy for live location and reports.
-- GSM quad-band communication with GPRS and SMS reporting for global cellular coverage and fallback messaging.
-- Ignition \(ACC\) detection to report vehicle on/off status and enable event-driven telemetry for fleet management.
-- Configurable overspeed alarm and authorized-number alerts for anti-theft and driver behavior monitoring.
-- Two configurable reporting intervals \(moving vs. stopped\) to conserve data and power while still providing accurate real-time tracking.
-- Optional external relay connection to support remote immobilizer or fuel/power cutoff for theft response and asset protection.
-- Lifetime free access to SinoTrack PRO monitoring software, plus the option to connect directly to Plaspy using the device’s IP/APN settings.
+- Direct Plaspy compatibility by configuring APN and platform server settings to forward GPRS or SMS data.
+- GSM GPRS and SMS reporting for reliable cellular telemetry and fallback messaging.
+- Ignition detection to report vehicle on and off status and support event driven reporting.
+- Configurable overspeed and authorized number alerts to support theft prevention and driver oversight.
+- Different reporting intervals for moving versus stopped states to balance data use and tracking resolution.
+- Optional external relay connection for remote immobilizer or fuel/power cutoff functionality.
+- Lifetime access to SinoTrack PRO monitoring software as an alternative platform for initial deployment.
 
 ## How It Works with Plaspy
 
-The ST-901M transfers GNSS position and key telemetry to a monitoring server using GPRS or SMS. To connect to Plaspy you set the Plaspy server IP and port and configure the device APN through SMS commands. Once configured, the tracker sends live coordinates and status messages that Plaspy displays in real time for fleet managers and owners.
+Once the ST-901M is configured to point at the Plaspy server, the device sends its GNSS position and status messages so Plaspy can display real time location and event data. Configuration is performed using SMS commands to set the APN and platform address, allowing remote linking of each device to your Plaspy account.
 
-- Real-time location and telemetry updates via GPRS \(primary\) and SMS \(fallback\).
-- Ignition \(ACC\) status reporting to distinguish driving vs. parked states and trigger different reporting intervals.
-- Overspeed alarms and authorized-number alerts forwarded as events to Plaspy.
-- Remote immobilizer control using an external relay: Plaspy can send immobilize commands through platform-to-device messaging if your deployment supports command forwarding.
-- IMEI and SMS configuration commands allow device registration and server linking without physical access to the tracker.
+- Real time location and telemetry updates delivered via cellular data with SMS as a fallback channel.
+- Ignition status reporting lets Plaspy distinguish driving and parked states and apply different reporting rules.
+- Overspeed and authorized number alarms are forwarded as events that Plaspy can surface to operators.
+- Remote immobilizer capability using an external relay can be managed through platform commands where command forwarding is available.
+- IMEI and SMS based configuration simplify device registration and server linking without needing physical access.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM quad-band; data reporting via GPRS and SMS |
-| --- | --- |
-| Bands | GSM quad-band \(documented\) |
-| Power & Battery | Hardwired vehicle installation; backup battery not specified in documentation |
-| Interfaces | ACC \(ignition\) detection input; connector for optional external relay to control fuel/power circuits |
-| GNSS | GPS receiver for vehicle location \(accuracy not specified in documentation\) |
-| Bluetooth | Bluetooth sensors not listed in product documentation |
-| Remote Management | Device configuration via SMS commands \(APN, platform IP/port, IMEI handling\); compatible with SinoTrack PRO platform or third-party servers such as Plaspy |
-| Form Factor | Wired tracker for vehicle installation \(cars, motorcycles, ATVs\); wiring diagrams included for common installations |
-
-## Use Cases
-
-- Fleet management — continuous location and ignition telemetry to optimize dispatch, routes and utilization with Plaspy dashboards.
-- Anti-theft protection — overspeed alerts, authorized-number controls and remote immobilizer capability via external relay to stop theft in progress.
-- Driver behavior monitoring — ignition and overspeed events help identify risky driving and support safe-driving programs.
-- Remote immobilization for recovered vehicles — connect an external relay to disable fuel or power circuits when authorized through the monitoring platform.
-- Basic asset tracking for motorcycles and ATVs — wired installation with configurable reporting yields accurate position and parked/moving state detection.
+- Fleet management for cars, vans and light commercial vehicles requiring continuous location and usage insight.
+- Anti theft monitoring with alarm events, authorized number controls and optional remote immobilization.
+- Driver behavior and safety programs using ignition and overspeed events to identify patterns.
+- Recovery and vehicle control scenarios where a relay based immobilizer can assist in theft response.
+- Asset tracking for motorcycles, ATVs and similar vehicles where a wired tracker provides reliable position and state reporting.
 
 ## Why Choose This Tracker with Plaspy
 
-The SinoTrack ST-901M is positioned as an affordable, dependable wired GPS tracker that easily integrates with Plaspy and other monitoring platforms. Its straightforward SMS-based configuration and GPRS/SMS reporting let you direct device data to your chosen server without complex middleware. For fleet management and anti-theft use cases, the ST-901M’s ignition detection, overspeed alarm and optional relay-based immobilizer provide the core telemetry and control functions most operations require.
+The ST-901M is a pragmatic choice for organizations that need a wired, ignition aware tracker that can be directed to a preferred monitoring server. Its SMS based configuration and GPRS/SMS reporting model make it flexible for deployments where you want to control the platform endpoint, including directing data to Plaspy for unified fleet visibility and reporting. The availability of alarm reporting and an optional relay for immobilization covers core requirements for fleet security and basic remote control.
 
-Operational buyers benefit from lifetime access to SinoTrack PRO for immediate deployment and troubleshooting, plus a 2-year warranty and 24-hour support for installation questions. The unit ships without a SIM, so you can select regional carriers and APN settings that match your data plan. If you plan to use Bluetooth sensors, note that the ST-901M documentation does not list BLE support; instead, rely on its robust GPRS/SMS telemetry for location, ignition and alarm reporting.
+Documentation for the ST-901M notes lifetime access to SinoTrack PRO and typical support offerings, and the unit ships without a SIM so you can choose regional carriers and APN settings that match your plans. If you require wireless sensor support beyond what is documented, review the product literature carefully as the ST-901M is focused on wired vehicle telemetry and cellular reporting.
 
-In short, the ST-901M offers a practical mix of live GPS tracking, ignition-aware telemetry and optional immobilization that integrates to Plaspy via configurable server settings — making it a sound option for vehicle owners and fleet managers seeking reliable real-time tracking and basic telemetry without recurring platform fees.
-
+To learn more about how Plaspy can use data from compatible devices like the SinoTrack ST-901M visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details and the latest documentation on the manufacturer site https://www.sinotrackgps.com/ before making procurement decisions.

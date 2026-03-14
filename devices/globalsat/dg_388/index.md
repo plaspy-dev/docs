@@ -2,60 +2,60 @@
 slug: /globalsat/dg_388
 id: dg_388
 sidebar_label: DG-388
+title: GlobalSat - DG-388
 sidebar_class_name: menu_item_tracker
+description: Compact rugged GPS data logger compatible with Plaspy for historical route import telemetry analysis and activity reporting
+keywords:
+  - GlobalSat DG-388
+  - DG-388
+  - GlobalSat tracker
+  - GPS data logger
+  - IPX7 GPS logger
+  - GNSS logger
+  - Plaspy compatible
+  - historical route import
+  - fleet tracking
+  - personal tracker
 ---
+
 # GlobalSat - DG-388
 
 ![DG-388](./tracker.jpg)
 
-The GlobalSat DG-388 is a compact, rugged GPS data logger that integrates smoothly into Plaspy workflows for historical route import, telemetry analysis, and activity reporting. Designed for personal tracking and outdoor use, the DG-388 captures precise location points along with time, date, speed and altitude using a modern high-performance GNSS chipset — making it an excellent source of accurate telemetry for Plaspy-compatible projects.
+The GlobalSat DG-388 is a compact, rugged GPS data logger designed for personal tracking and outdoor use. It records precise location points together with time, date, speed and altitude using a modern high performance GNSS chipset. With a waterproof IPX7 enclosure, smart power management, rechargeable battery and large onboard memory, the DG-388 is built to capture long duration journeys and detailed route history without a constant connection.
 
-Lightweight and IPX7 waterproof, the DG-388 is built to record long-duration journeys without a tethered connection. Its smart power management, rechargeable battery and large onboard memory let you capture up to 500,000 points and more than 50 hours of operation \(depending on logging settings\). Use the supplied PC tool to export recorded tracks for import into Plaspy, enabling route history, activity analysis and offline evidence for anti-theft or safety use cases.
+As a Plaspy compatible device, the DG-388 serves as a reliable source of historical telemetry for route import, activity reporting and offline analysis. Logged sessions can be exported with the included PC tool and brought into Plaspy for mapping, timeline review and reporting, making the device a practical complement to Plaspy workflows where verified historical tracks or offline evidence are required.
 
 ## Key Highlights
 
-- Plaspy compatible for historical route import — export logged tracks with the included PC tool for easy ingestion into Plaspy dashboards and reports.
-- High-performance GNSS chipset delivers faster satellite fixes and improved location accuracy for reliable telemetry and speed profiling.
-- Large onboard capacity: logs up to 500,000 location points to capture long trips and detailed route history without frequent downloads.
-- Rugged, waterproof design \(IPX7\) and compact form factor \(107.5 x 38.7 x 22.8 mm, 73 g\) for dependable use in outdoor sports and travel.
-- Smart power management and rechargeable battery provide more than 50 hours of operation \(varies by settings\), ideal for extended activity tracking.
-- Built-in motion sensor, vibrator and beeper support low-power automatic logging and immediate feedback — handy for personal safety monitoring and elder-care activity tracking.
-- Flexible logging modes \(time, distance or speed intervals\) let you tailor data collection for activity recording, route analysis, or telemetry export.
+- Compatible with Plaspy for historical route import and telemetry analysis via the supplied PC export tool.
+- High performance GNSS chipset for faster fixes and improved positional accuracy in logged tracks.
+- Large onboard capacity capable of storing up to 500,000 location points for extended journeys.
+- Rugged and waterproof IPX7 housing with a compact form factor suitable for outdoor use and travel.
+- Smart power management and rechargeable battery supporting more than 50 hours of operation depending on logging settings.
+- Built in motion sensor and simple feedback functions to support automatic logging and activity markers.
+- Flexible logging modes for time distance or speed intervals that let you tune data density for different reporting needs.
 
 ## How It Works with Plaspy
 
-The DG-388 is a dedicated GPS data logger rather than a live cellular tracker; it records detailed location and telemetry locally and then exports that data for analysis. With the provided PC tool you can download logged sessions, review tracks on mapping platforms and export standard track files that Plaspy can ingest for further processing. This makes the DG-388 an ideal source of high-quality historical telemetry to complement Plaspy's real-time and fleet management capabilities.
+The DG-388 operates as a standalone GPS logger that records high quality location and telemetry locally. After a trip you use the supplied PC tool to download recorded sessions and export standard track files that Plaspy can ingest for further processing. This workflow lets Plaspy users integrate accurate historical data alongside live tracking sources for richer analysis and reporting.
 
-- Recorded location and telemetry: time, date, speed, altitude and precise coordinates for accurate route reconstruction.
-- Batch upload of logged sessions via the PC tool for Plaspy import and archival — useful when live GSM/4G is not required.
-- Motion events and activity markers \(from the built-in motion sensor\) provide event-based filtering of tracks in Plaspy.
-- Flexible interval logging \(time, distance, speed\) enables optimized data density for Plaspy analytics and reporting.
-- Compact offline device suitable for personal tracking, travel logs, and evidence collection to support anti-theft or incident review workflows.
+- Exported track files provide time date speed altitude and coordinates for precise route reconstruction in Plaspy.
+- Batch upload of logged sessions enables archival import and retrospective review within Plaspy dashboards.
+- Motion sensor based events and activity markers can be used to filter and segment tracks during Plaspy analysis.
+- Interval based logging options allow you to balance battery life and data resolution for Plaspy reports.
+- Offline logging makes the DG-388 useful for deployments where cellular connectivity is limited but later import to Plaspy is required.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | GlobalSat DG-388 |
-| --- | --- |
-| Connectivity | Standalone GNSS data logger \(high-performance GNSS chipset\). No cellular connectivity. |
-| Bands | Not applicable \(device does not include cellular radio\) |
-| Power & Battery | Rechargeable battery; smart power management. More than 50 hours of operation depending on settings. |
-| Interfaces | Built-in motion sensor, vibrator, beeper, 1‑click record function; PC USB download tool for data transfer. |
-| GNSS | Modern high-performance GNSS chipset for faster fixes and improved accuracy; logs time, date, speed, altitude and coordinates. |
-| Bluetooth | Not specified / not included |
-| Remote Management | PC software for data download, review and export to mapping platforms \(no FOTA or web-based remote control\). |
-| Form Factor | Compact, rugged IPX7 waterproof housing. Dimensions: 107.5 x 38.7 x 22.8 mm. Weight: 73 ± 1 g. |
-
-## Use Cases
-
-- Outdoor sports and adventure: record hiking, cycling and running routes with interval-based logging for detailed performance review.
-- Travel route history: log long-distance trips and export tracks to Plaspy for mapping, timelines and trip analytics.
-- Personal safety and elder care: motion-triggered logging and audible/vibrate alerts provide passive monitoring and activity records.
-- Evidence and anti-theft support: use recorded tracks to reconstruct movements after an incident or to provide location evidence to authorities.
-- Offline asset or equipment tracking: capture location history for non-powered assets or equipment where real-time GSM tracking is not required.
+- Outdoor sports and adventure tracking for hiking cycling and running with detailed route history.
+- Travel route logging for long distance trips and timeline analysis inside Plaspy.
+- Personal safety and elder care monitoring using motion triggered logs and audible feedback.
+- Evidence collection and anti theft workflows that rely on verified historical tracks for incident review.
+- Offline asset or equipment location history when continuous live tracking is not necessary.
 
 ## Why Choose This Tracker with Plaspy
 
-The DG-388 pairs with Plaspy as a dependable source of accurate, high-resolution telemetry when on-device logging is preferred or cellular coverage is limited. It delivers reliable GNSS fixes, versatile logging modes and long record capacity, making it simple to gather route history and telemetry for later import into Plaspy. Use the DG-388 to enrich fleet management or personal-tracking records with verified historical data — without relying on live connectivity, immobilizer controls, or Bluetooth sensors.
+The DG-388 is a practical choice when you need dependable, high resolution historical telemetry to augment Plaspy records. Its long record capacity flexible logging modes and waterproof build make it well suited to outdoor activities travel and situations where offline capture of location history is preferred. By exporting verified track files into Plaspy you can combine these recorded sessions with other fleet or personal tracking data to build comprehensive reports and timelines.
 
-In short, choose the GlobalSat DG-388 for straightforward, rugged, Plaspy-compatible logging of GPS tracks and telemetry when you need precise offline records, flexible logging strategies, and a compact waterproof package.
-
+To learn more about Plaspy and how it can ingest historical tracks from devices like the GlobalSat DG-388 visit https://www.plaspy.com. Product specifications availability and manufacturer details can change over time so please verify current information on the official GlobalSat website https://www.globalsat.com.tw/.

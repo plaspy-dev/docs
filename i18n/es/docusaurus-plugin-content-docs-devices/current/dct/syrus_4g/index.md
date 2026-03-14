@@ -2,57 +2,60 @@
 slug: /dct/syrus_4g
 id: syrus_4g
 sidebar_label: Syrus 4G
+title: DCT - Syrus 4G
 sidebar_class_name: menu_item_tracker
+description: Pasarela telemática robusta DCT Syrus 4G compatible con Plaspy para seguimiento y telemetría de flotas en entornos exigentes
+keywords:
+  - DCT Syrus 4G
+  - Syrus 4G GPS
+  - rastreador DCT
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - pasarela telemática
+  - rastreador GNSS
+  - telemetría vehicular
+  - rastreador IoT industrial
+  - compatibilidad Syrus 4G
 ---
+
 # DCT - Syrus 4G
 
 ![Syrus 4G](./tracker.png)
 
-El Syrus 4G Telematics Gateway de DCT es un rastreador GPS robusto, de nivel empresarial, diseñado para gestión intensiva de flotas e implementaciones de IoT industrial. Como dispositivo compatible con Plaspy, Syrus 4G ofrece GNSS de múltiples constelaciones, módems celulares duales y extensas interfaces de vehículo para habilitar un seguimiento en tiempo real fiable, recopilación de telemetría y procesamiento en el borde — todo ello concebido para entornos de vehículos exigentes y flotas de gran escala.
+El Syrus 4G de DCT es una pasarela telemática de grado empresarial diseñada para despliegues exigentes de flotas e IoT industrial. Concebido como un gateway vehicular resistente, integra posicionamiento GNSS multiconstelación, conectividad celular redundante y múltiples interfaces para vehículos y sensores, ofreciendo seguimiento y telemetría en tiempo real fiables en entornos adversos y a gran escala.
 
-Diseñado para integradores y operadores de flotas que requieren conectividad segura y de alta disponibilidad, el Syrus 4G admite preprocesamiento de datos local, SDKs para desarrolladores y reenvío a la nube hacia plataformas como Plaspy. Con soporte integrado para sensores Bluetooth, telemetría por bus CAN y respaldo satelital opcional, esta pasarela facilita flujos de trabajo anti-robo, diagnóstico remoto, recopilación de telemetría de combustible y del motor, y una rápida integración en Plaspy para obtener una visibilidad consolidada de la flota.
+Como dispositivo compatible con Plaspy, el Syrus 4G puede reenviar ubicaciones y telemetría preprocesadas a Plaspy para lograr una visibilidad consolidada de la flota. Su capacidad de preprocesamiento local, la conectividad con sensores y las funciones de gestión remota lo convierten en una opción práctica para organizaciones que necesitan seguimiento consistente, envío de diagnósticos y monitoreo integrado dentro de la plataforma Plaspy.
 
-## Aspectos destacados
+## Características principales
 
-- Rastreador GPS de grado empresarial con GNSS de múltiples constelaciones \(GPS/GLONASS\) para un seguimiento en tiempo real preciso a lo largo de distintas regiones.
-- Módems celulares duales 2G/3G/4G MIMO, además de un accesorio satelital Iridium opcional y soporte eSIM/backup e-SIM para una cobertura global resiliente.
-- Interfaces de E/S del vehículo: dual CAN \(J1939/J1708\), RS232/RS485, Ethernet 10/100 y múltiples conectores Molex para telemetría avanzada e integración de sensores.
-- Plataforma de cómputo en el borde \(TI ARM Cortex-A8, 512MB RAM, 4GB de eMMC, microSD ampliable hasta 512GB\) para preprocesamiento local, reduciendo el ancho de banda hacia la nube.
-- Bluetooth BLE 4.2 para la integración con sensores Bluetooth, dispositivos del conductor y notificaciones de audio bidireccionales.
-- Elemento seguro y diseño resistente a la manipulación para autenticación criptográfica — adecuado para antirrobo y telemetría confiable.
-- Gestión remota y OTA vía Syrus Cloud con SDKs y APIs para un desarrollo rápido de aplicaciones e integración con Plaspy.
+- Pasarela telemática de nivel empresarial, diseñada para entornos vehiculares e industriales
+- GNSS multiconstelación para mejorar el posicionamiento en distintas regiones
+- Módems celulares duales con respaldo satelital opcional y soporte eSIM para conectividad resiliente
+- Amplias interfaces para vehículos y sensores, que permiten recolectar telemetría de buses y dispositivos externos
+- Procesamiento en el borde (edge) para preprocesar o agregar datos antes del reenvío
+- Soporte para sensores Bluetooth, como sensores de temperatura, dispositivos del conductor y sensores auxiliares
+- Gestión remota y herramientas OTA para mantener integraciones de la flota
 
 ## Cómo funciona con Plaspy
 
-La integración de Syrus 4G con Plaspy ofrece un flujo de procesamiento robusto para el seguimiento en tiempo real, la visualización de telemetría y alertas de eventos. La pasarela recoge correcciones de posición GNSS, datos del bus del vehículo y entradas de sensores en el borde, los preprocesa o agrega y envía telemetría estructurada a Plaspy mediante protocolos de API/forwarder. Esto reduce la latencia y conserva el ancho de banda de la red, al tiempo que habilita paneles en vivo de la flota, reproducción histórica de rutas y reportes de telemetría detallados en Plaspy.
+Al integrarse con Plaspy, el Syrus 4G actúa como colector local y reenviador de ubicación y telemetría, habilitando el seguimiento en vivo y el análisis histórico mientras reduce el uso innecesario de ancho de banda en la nube mediante el preprocesamiento en el borde. La integración con Plaspy permite centralizar la supervisión, las alertas y los informes de la flota utilizando los datos que envía la pasarela.
 
-- Actualizaciones en tiempo real de ubicación y telemetría: soluciones de posicionamiento GNSS y ubicaciones procesadas se transmiten a Plaspy para el seguimiento en vivo.
-- Datos del bus del vehículo a través de doble CAN \(J1939/J1708\): diagnósticos del motor, RPM, señales relacionadas con el combustible y códigos de estado pueden mapearse a telemetría en Plaspy.
-- Códigos de error del motor y eventos de mantenimiento: Syrus 4G detecta y envía los códigos de diagnóstico de fallos para alertas y flujos de trabajo de mantenimiento preventivo en Plaspy.
-- Sensores y dispositivos del conductor: conectividad BLE 4.2 permite que sensores de temperatura, sensores de activos o dispositivos del conductor alimenten a Plaspy a través de la pasarela.
-- Diagnósticos remotos y OTA: Syrus Cloud y las herramientas a bordo permiten configuración remota y actualizaciones de software que mantienen las integraciones con Plaspy actualizadas y seguras.
+- Actualizaciones de ubicación en tiempo real enviadas a Plaspy para seguimiento en vivo y visualización en mapas
+- Telemetría del bus vehicular mapeada en Plaspy para paneles de control e información operativa
+- Códigos de diagnóstico y eventos de mantenimiento reenviados a Plaspy para alertas y flujos de trabajo
+- Entradas de sensores Bluetooth y dispositivos del conductor registradas en Plaspy a través de la pasarela
+- Prácticas de gestión remota y OTA para mantener las integraciones con Plaspy actualizadas y seguras
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Módems celulares duales \(2G/3G/4G MIMO\), Wi‑Fi de doble banda \(2.4/5.8 GHz\) MIMO, Bluetooth BLE 4.2, accesorio Iridium Satcom opcional, soporte eSIM y e-SIM de respaldo |
-| --- | --- |
-| Bandas | Soporta generaciones celulares 2G/3G/4G; las bandas RF específicas dependen del módulo/variante y de la selección regional del modelo |
-| Alimentación y batería | Factor de forma de gateway robusto para vehículos/industrial; diseñado para sistemas de alimentación instalados en vehículo. \(No se especifica batería de respaldo interna en la descripción del producto.\) |
-| Interfaces | Dual CAN \(J1939/J1708\), RS232, RS485, Ethernet 10/100 \(DHCP\), múltiples conectores Molex, micro USB, LEDs de estado y microcontrolador para control de periféricos |
-| GNSS | GNSS multiconstelación: GPS y GLONASS para un posicionamiento fiable y seguimiento en tiempo real |
-| Bluetooth | BLE 4.2 \(SBC + A2DP\) para sensores, audio bidireccional y notificaciones al conductor |
-| Gestión remota | Gestión remota de dispositivos a través de Syrus Cloud, visualización de gemelo digital, interacciones OTA, configuración remota, diagnósticos y acceso a SDK/APIs |
-| Factor de forma | Pasarela telemática robusta de nivel empresarial paraimplementaciones en vehículos e industriales; almacenamiento local mediante 4GB de eMMC y microSD de hasta 512GB |
-
-## Casos de uso
-
-- Gestión de flotas y monitoreo de rutas: datos de rastreo GPS en tiempo real y telemetría derivada de CAN transmitidos a los tableros de Plaspy para una visibilidad operativa.
-- Monitoreo anti–robo y detección de manipulación: elemento seguro y hardware resistente a manipulación combinados con seguimiento en vivo para detectar movimientos no autorizados.
-- Diagnóstico remoto y mantenimiento: códigos de error del motor y eventos de mantenimiento se reenvían a Plaspy para alertas automatizadas y programación de talleres.
-- Telemetría de combustible y motor: recopila señales relacionadas con el combustible y parámetros del motor desde el CAN del vehículo y se alimenta a Plaspy para monitoreo de combustible y programas de eficiencia.
-- Activos dotados de sensores y comportamiento del conductor: sensores BLE y un acelerómetro de 3 ejes permiten alertas basadas en eventos, detección de frenadas bruscas y sensado del entorno para cumplimiento y seguridad.
+- Gestión de flotas y monitoreo de rutas con ubicación y telemetría consolidadas en Plaspy
+- Monitoreo antirrobo y detección de manipulación mediante hardware seguro y seguimiento en tiempo real
+- Diagnóstico remoto y flujos de trabajo de mantenimiento preventivo basados en códigos de error reenviados
+- Analítica de combustible y telemetría del motor para programas de eficiencia e informes
+- Monitoreo de activos sensorados y detección de comportamiento del conductor para seguridad y cumplimiento
 
 ## Por qué elegir este rastreador con Plaspy
 
-El Syrus 4G es una pasarela telemática integral para operadores que requieren más que un simple rastreador GPS. Sus capacidades de cómputo en el borde, la redundancia celular dual, el respaldo satelital opcional y sus ricas interfaces de vehículo la hacen ideal para implementaciones de flotas escalables y telemetría de misión crítica. Cuando se integra con Plaspy, Syrus 4G ofrece un seguimiento en tiempo real fiable, telemetría profunda para mantenimiento predictivo y comunicaciones seguras respaldadas por un elemento seguro resistente a manipulaciones. Para flotas que buscan una pasarela compatible con Plaspy que soporte toolchains de desarrolladores, gestión remota e integración avanzada de sensores, el Syrus 4G ofrece el rendimiento y la flexibilidad requeridos para la gestión moderna de flotas y la monitorización industrial.
+El Syrus 4G está pensado para organizaciones que necesitan una pasarela robusta más que un rastreador básico. Su combinación de opciones de conectividad resiliente, amplias interfaces de telemetría y capacidades de procesamiento en el borde lo hace apropiado para flotas grandes y aplicaciones industriales donde la disponibilidad y la calidad de los datos son críticas. Al integrarlo con Plaspy, el dispositivo proporciona visibilidad consistente de ubicación y telemetría accionable para equipos de operaciones, mantenimiento y seguridad.
 
+Si desea conocer más sobre cómo el Syrus 4G puede trabajar con Plaspy, visite Plaspy para explorar las capacidades de la plataforma y las opciones de contacto en https://www.plaspy.com. Las especificaciones y la disponibilidad de productos pueden cambiar con el tiempo, por favor verifique los detalles actuales con la documentación del fabricante en https://www.digitalcomtech.com/.

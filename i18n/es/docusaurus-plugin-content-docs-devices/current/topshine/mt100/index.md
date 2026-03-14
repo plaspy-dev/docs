@@ -2,64 +2,61 @@
 slug: /topshine/mt100
 id: mt100
 sidebar_label: MT100
+title: TopShine - MT100
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS vehicular 4G profesional con identificación de conductores y compatibilidad Plaspy para alertas y reportes
+keywords:
+  - TopShine MT100
+  - Rastreador MT100
+  - Rastreador TopShine
+  - rastreador GPS vehicular
+  - seguimiento de flotas
+  - identificación de conductores
+  - rastreador GPS 4G
+  - compatible con Plaspy
+  - gestión de flotas
+  - rastreo en tiempo real
 ---
+
 # TopShine - MT100
 
 ![MT100](./tracker.jpg)
 
-El 4G MT100 \(Model TSMB03\) es un rastreador GPS para vehículos de uso profesional, diseñado para la gestión de flotas y la rendición de cuentas del conductor. Diseñado para logística, flotas de taxis, operaciones de autobuses y servicios de alquiler, el MT100 ofrece seguimiento en tiempo real compatible con Plaspy a través de 4G/LTE con respaldo GSM, identificación de conductor integrada mediante lectores RFID, iButton o huellas dactilares, y registro de eventos que vincula el comportamiento de conducción con los conductores individuales.
+El TopShine MT100 es un rastreador GPS vehicular profesional diseñado para la gestión de flotas y la responsabilidad del conductor. Pensado para logística, taxis, autobuses y servicios de alquiler, el MT100 ofrece reportes de posición confiables, identificación de conductor mediante RFID iButton o lector de huellas, y registro de eventos que asocia sucesos de manejo con conductores específicos. Su diseño está orientado a casos de uso vehicular donde consolidar datos de ubicación y conductor mejora la supervisión operativa.
 
-Con una fuente de alimentación robusta de grado vehicular y amplia cobertura de bandas, el MT100 ofrece telemetría confiable, informes de kilometraje y tiempo de funcionamiento, y funciones antirobo que incluyen control del inmovilizador del motor a través de un relé. Al combinarlo con Plaspy, las flotas obtienen ubicación consolidada, identificación de conductor, alertas e informes para reducir el tiempo ocioso, disuadir usos no autorizados y mejorar la eficiencia operativa.
+Como dispositivo compatible con Plaspy, el MT100 puede enviar ubicación en tiempo real, eventos de identificación de conductor, alarmas y telemetría a la plataforma Plaspy para monitoreo y generación de informes centralizados. Esta compatibilidad convierte al MT100 en una opción práctica para flotas que desean combinar la asociación de conductor en vehículo con la visibilidad, alertas y análisis histórico de Plaspy sin necesidad de integraciones personalizadas.
 
-## Puntos clave
+## Aspectos destacados
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y gestión centralizada de la flota.
-- Identificación del conductor mediante RFID, iButton o huella dactilar para vincular eventos con conductores individuales, facilitando la rendición de cuentas e informes.
-- Comunicación principal 4G/LTE con respaldo GSM para una cobertura amplia y fiable y actualizaciones rápidas de telemetría.
-- Inmovilizador remoto \(relay\) y entrada SOS para respuesta ante robo y manejo de emergencias.
-- Alarmas de eventos extensas: corte de energía externo, estado de puertas, encendido/apagado del motor, alertas de inactividad y disparos de geocerca.
-- Funciones de telemetría de flota, incluyendo kilometraje, tiempo de funcionamiento, modos de subida de ACC \(encendido\) y detección de sensores de impulso.
-- Accesorios opcionales para monitoreo de combustible, monitoreo del conductor y comunicación de voz para ampliar capacidades antirobos y de operaciones.
+- Rastreador compatible con Plaspy para ubicación en tiempo real y gestión centralizada de flotas.
+- Identificación de conductor integrada mediante RFID iButton o huella digital para vincular viajes y eventos a conductores individuales.
+- Comunicación primaria 4G con respaldo GSM para amplia cobertura y actualizaciones oportunas.
+- Relé inmovilizador remoto y entrada SOS para respuesta ante robos y señalización de emergencias.
+- Amplio conjunto de alarmas de eventos, incluyendo corte de energía, estado de puertas, encendido y geocercas.
+- Soporte de telemetría de flota como kilometraje, tiempo de marcha y alertas de inactividad para análisis operativo.
+- Accesorios opcionales disponibles para monitoreo de combustible, control de conductor y comunicación por voz.
 
 ## Cómo funciona con Plaspy
 
-El MT100 se integra con Plaspy para ofrecer seguimiento en tiempo real continuo, compatible con Plaspy, registro de eventos vinculados al conductor, reenvío de alarmas y generación de informes descargables. Las actualizaciones de posición, telemetría y eventos de identificación del conductor se transmiten vía 4G/LTE \(o respaldo GSM\) a Plaspy, donde los gestores pueden ver la ubicación en tiempo real del vehículo, recibir alertas y generar informes centrados en el conductor para cumplimiento y revisión de desempeño.
+Al conectarse a Plaspy, el MT100 transmite actualizaciones de posición, eventos de identificación de conductor y alarmas configuradas para que usted, como gestor de flota, pueda monitorear la actividad y generar informes centrados en el conductor. Plaspy consolida esas entradas para ofrecer una vista única del historial de ubicación del vehículo, alertas y métricas operativas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real transmitidas a Plaspy para monitoreo en vivo y reproducción histórica.
-- Eventos de identificación del conductor \(RFID, iButton, huella dactilar\) registrados y asociados a viajes, paradas y alarmas en los informes de Plaspy.
-- Estado de encendido/apagado de la ignición \(ACC\) y telemetría de tiempo de funcionamiento del motor para análisis del comportamiento del conductor y del tiempo de inactividad.
-- Soporte de monitoreo de combustible mediante sensores capacitivos u ultrasonidos opcionales, con datos enviados a Plaspy cuando están instalados.
-- Control remoto del inmovilizador \(relay\), alertas SOS y capacidad de voz bidireccional disponibles a través de comandos habilitados por Plaspy o controles por SMS/TCP.
-- Alarmas de eventos \(corte de energía, apertura de puerta, geocerca, alertas de temperatura\) enviadas como notificaciones push o alertas en la plataforma.
+- Ubicación en tiempo real y reproducción histórica disponibles en Plaspy para revisar rutas y supervisión.
+- Los eventos de identificación de conductor se registran y asocian a viajes, paradas y eventos de alarma para informes de responsabilidad.
+- Datos de encendido y tiempo en marcha usados por Plaspy para analizar tiempo de inactividad y tendencias en el comportamiento del conductor.
+- Alarmas como corte de energía, apertura de puertas y violaciones de geocerca se reenvían como alertas en la plataforma.
+- Datos de combustible y accesorios opcionales se envían a Plaspy cuando se instalan los sensores correspondientes.
+- Eventos de inmovilizador remoto y SOS pueden visualizarse en Plaspy para una respuesta rápida y registro histórico.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Modelo | 4G MT100 \(TSMB03\) |
-| --- | --- |
-| Conectividad | Principal 4G/LTE con respaldo GSM |
-| Bandas | LTE-FDD B1/B3/B5/B8; LTE-TDD B34/B38/B39/B40/B41; GSM B2/B3/B5/B8 |
-| Alimentación & Batería | Entrada +9V a 90V DC; batería de respaldo integrada de 650 mAh |
-| Interfaces & E/S | Detección de ignición \(ACC\), entrada SOS, salida de relé para corte del motor, E/S digital para sensores; voz bidireccional \(micrófono/altavoz opcional\) |
-| Identificación del conductor | Lector RFID integrado, soporte para iButton, soporte para lector de huellas \(asociación de conductor y registro de eventos\) |
-| GNSS | GPS para seguimiento de ubicación en tiempo real |
-| Sensores y accesorios opcionales | Sensores de combustible capacitivos/ultrasonidos, sensores de temperatura y humedad, sensores de choque y alcohol, cámara de fatiga/conductor, micrófono/altavoz, conector OBD |
-| Gestión remota | Configuración remota vía plataforma, comandos SMS o TCP; llamada bidireccional para comunicación con el conductor |
-| Dimensiones y peso | 80 x 58 x 22 mm; 88 g |
-| Condiciones de operación | -20°C a 65°C; humedad 5%–95% sin condensación |
-| Contenido | Unidad, arnés de cableado, relé, botón SOS \(empaque neutro\) |
-
-## Casos de uso
-
-- Antirrobo y inmovilización de flota: corte remoto del motor y recepción de alarmas de corte de energía o apertura de puertas para evitar uso no autorizado.
-- Rendición de cuentas del conductor para flotas logísticas y de taxi: la identificación del conductor mediante huella dactilar o RFID vincula los eventos de conducción a las personas para evaluación y seguridad.
-- Monitoreo de combustible y telemetría operativa para camiones de larga distancia y flotas de entrega usando sensores capacitivos u ultrasonidos opcionales.
-- Operaciones de alquiler y car-sharing: identificación del conductor, botón SOS y voz bidireccional para soporte al cliente y respuesta a incidentes.
-- Transporte público y operaciones de autobuses: alertas de inactividad, informes de kilometraje y registros específicos por conductor para mejorar la programación y las métricas de seguridad.
+- Flotas mixtas comerciales que requieren identificación de conductor para atribuir viajes e incidentes.
+- Servicios de taxi y transporte que necesitan registros vinculados al conductor y manejo ágil de incidentes.
+- Operaciones de alquiler y carsharing que se benefician de la verificación de conductor y el control remoto del inmovilizador.
+- Flotas de logística y mensajería enfocadas en kilometraje, tiempo de marcha y reducción de inactividad.
+- Transporte público y operaciones de autobuses que usan los registros de conductor para mejorar la programación y la seguridad.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Cuando se combina con Plaspy, el MT100 ofrece una solución enfocada para organizaciones que requieren seguimiento GPS confiable además de identificación y control del conductor. Su amplio rango de voltaje de entrada \(+9V a 90V\), su robusto rango de temperatura de operación y sus completas alarmas de eventos lo hacen adecuado para flotas mixtas de automóviles, furgonetas y vehículos pesados. Las opciones integradas de identificación del conductor \(RFID, iButton, huella dactilar\) distinguen al MT100 para casos en que vincular eventos a una persona es importante para la rendición de cuentas, la seguridad y el cumplimiento.
+El MT100 combina seguimiento vehicular de grado profesional y múltiples métodos de identificación de conductor con Plaspy para ofrecer una solución consolidada a flotas que necesitan visibilidad de ubicación y responsabilidad del conductor. Su foco en el registro de eventos y funciones antirrobo lo hace adecuado para organizaciones que desean reducir el uso no autorizado y mejorar la eficiencia operativa mediante informes a nivel de plataforma.
 
-La compatibilidad con Plaspy significa que el seguimiento en tiempo real de la flota, la telemetría y los registros de conductores están disponibles en una única plataforma para alertas, informes históricos y análisis operativos. El control remoto del inmovilizador, la gestión de SOS y la voz bidireccional añaden capas de antirobos y capacidad de respuesta ante emergencias. Accesorios opcionales de monitoreo de combustible, temperatura y conducción permiten escalar la telemetría y las características de seguridad según sea necesario. Con soporte OEM/ODM y certificación CE disponible, el MT100 es una opción práctica y escalable para flotas que requieren identificación de conductor integrada y seguimiento compatible con Plaspy.
-
+Para obtener más información sobre cómo Plaspy puede trabajar con dispositivos TopShine visite https://www.plaspy.com. Las especificaciones y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique las especificaciones y la disponibilidad actuales en el sitio del fabricante https://www.gztopshine.com/ antes de tomar decisiones de compra.

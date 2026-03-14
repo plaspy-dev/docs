@@ -2,68 +2,63 @@
 slug: /gotop/q20
 id: q20
 sidebar_label: Q20
+title: GOTOP - Q20
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS SOS 4G compacto y resistente para seguridad personal y monitoreo de activos compatible con Plaspy
+keywords:
+  - GOTOP Q20
+  - Rastreador Q20
+  - GOTOP Q20 GPS
+  - Q20 Plaspy
+  - rastreador GPS personal
+  - rastreador GPS SOS
+  - rastreador con detección de caídas
+  - rastreador GPS resistente al agua
+  - rastreador con posicionamiento híbrido
+  - seguimiento de flotas Q20
 ---
+
 # GOTOP - Q20
 
 ![Q20](./tracker.jpg)
 
-# Q20 4G SOS GPS Tracker
+El GOTOP Q20 es un rastreador GPS SOS 4G compacto y resistente diseñado para la seguridad personal y el monitoreo de pequeños activos. Pensado para niños, adultos mayores, trabajadores solitarios, mascotas y objetos de valor, el Q20 combina seguimiento en tiempo real, alarmas configurables, comunicación bidireccional y posicionamiento híbrido para mantener visibilidad en entornos urbanos, interiores y zonas remotas. Su carcasa sellada con protección IP67 y un botón SOS sobredimensionado están pensados para vigilancia continua de seguridad y escenarios de anti robo.
 
-El Q20 4G SOS GPS Tracker es un rastreador personal compacto y robusto, diseñado para niños, personas mayores, trabajadores que realizan tareas en soledad, mascotas y activos de valor. Compatible con Plaspy desde el inicio, el Q20 ofrece un seguimiento en tiempo real fiable, alarmas configurables y voz bidireccional para mejorar la seguridad y los flujos de trabajo de gestión de flotas, sin añadir complejidad a su plataforma de monitoreo.
+Al ser compatible con Plaspy desde el primer uso, el Q20 puede enviar información de ubicación y estado directamente a las herramientas de supervisión de Plaspy. Esta compatibilidad permite a las organizaciones usar los paneles, alertas e informes de Plaspy para centralizar la supervisión, reducir el trabajo de integración y aplicar reglas de notificación o escalamiento existentes a señales de SOS, detección de caídas y actualizaciones de posición periódicas del Q20.
 
-El dispositivo equilibra una larga duración de la batería con conectividad multired \(4G LTE, 3G CDMA y 2G GSM\) y posicionamiento híbrido GPS+WiFi+LBS para acelerar la obtención de ubicaciones y aumentar la precisión en entornos urbanos, interiores y remotos. Con una carcasa con clasificación IP67, un botón de SOS de gran tamaño, detección de caída y de hombre caído, y almacenamiento en búfer de GPRS, el Q20 está diseñado para una monitorización continua de la seguridad personal y usos anti-robos donde la telemetría fiable y una respuesta rápida son esenciales.
+## Características principales
 
-## Key Highlights
-
-- Compatible con Plaspy para una integración fluida con paneles de seguimiento en tiempo real y alertas.
-- Conectividad multired \(4G/3G/2G\) que garantiza informes de ubicación continuos en regiones.
-- GPS+WiFi+LBS posicionamiento híbrido para ubicaciones más rápidas y mayor precisión en entornos desafiantes.
-- Botón de SOS de gran tamaño, voz bidireccional \(micrófono y altavoz integrados\) y botón de llamada para contacto inmediato y monitoreo de voz a distancia.
-- Sensores de seguridad avanzados: sensor de movimiento de 6 ejes con detección de caída, inclinación y estado de hombre caído, y motor de vibración para notificaciones al usuario.
-- Diseño compacto e impermeable con carga magnética y hasta aproximadamente cuatro días de funcionamiento con ajustes optimizados.
-- Almacenamiento en búfer \(GPRS/SMS\) para conservar los datos de ubicación cuando la conectividad no está disponible temporalmente.
+- Compatible con Plaspy para una integración rápida en paneles de seguimiento en tiempo real y sistemas de alertas.
+- Conectividad celular multinetwork para mantener cobertura de reporte en distintas regiones.
+- Posicionamiento híbrido GPS más WiFi y LBS para mejorar la rapidez y precisión de la localización en entornos difíciles.
+- Botón SOS grande y comunicación bidireccional para contacto directo y monitoreo remoto.
+- Detección de caídas y man down para alertas de seguridad automatizadas.
+- Diseño compacto con clasificación IP67 para resistencia al agua y portabilidad diaria.
+- Almacenamiento en búfer de datos para conservar registros de posición durante pérdidas temporales de conectividad.
 
 ## Cómo funciona con Plaspy
 
-Cuando se despliega con Plaspy, el Q20 se convierte en una fuente lista para la telemetría de ubicación y seguridad. El dispositivo informa la ubicación y el estado a través de la red celular utilizando intervalos de latido GPRS configurables y puede emitir cadenas de alarma por SMS. Plaspy procesa estos flujos para seguimiento en tiempo real, reproducción de rutas históricas y entrega de notificaciones de alarma a usuarios en la web y en dispositivos móviles.
+Al emparejarse con Plaspy, el Q20 se convierte en una fuente de telemetría de ubicación y seguridad que Plaspy ingiere para monitoreo en vivo, reproducción histórica y distribución de alertas. El dispositivo reporta posiciones y estados a través de enlaces celulares y puede enviar cadenas de alarma para que Plaspy presente notificaciones oportunas a operadores y responsables.
 
-- Actualizaciones de ubicación y telemetría en tiempo real mediante el reporte GPRS del rastreador \(en búfer cuando está fuera de línea\).
-- Alertas SOS y voz bidireccional: entrega de alarmas inmediata a Plaspy con monitoreo de audio y devolución de llamada para tutores u operadores.
-- Detección de movimiento y caída/estado de hombre caído: Plaspy recibe alarmas disparadas por sensores y puede automatizar reglas de escalamiento o notificaciones.
-- Las correcciones asistidas por WiFi y LBS mejoran la precisión de rastreo en interiores y urbanos cuando la recepción GNSS es limitada.
-- Alarmas configurables \(geocerca, batería baja, movimiento/caída, SOS\) y intervalos de reporte ajustables para optimizar telemetría y uso de datos.
+- Actualizaciones de posición en vivo y reportes periódicos que alimentan los mapas y vistas de estado en Plaspy.
+- Alertas SOS y notificaciones por voz bidireccional dirigidas a Plaspy para respuesta inmediata de operadores o tutores.
+- Eventos de movimiento y detección de caídas enviados a Plaspy para que las reglas de incidentes y los flujos de escalamiento se disparen automáticamente.
+- Fijaciones asistidas por WiFi y LBS que mejoran la visibilidad de la ubicación en interiores y zonas urbanas mostrada en el historial y el seguimiento en vivo de Plaspy.
+- Subida de registros almacenados en búfer a Plaspy cuando se restablece la conectividad para preservar la continuidad.
+- Tipos de alarmas e intervalos de reporte configurables para equilibrar capacidad de respuesta y consumo de datos dentro de Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | Q20 4G SOS GPS Tracker |
-| --- | --- |
-| Conectividad | 4G LTE \(Cat-1\), 3G CDMA, 2G GSM |
-| Bandas de frecuencia | Versión E: GSM 850/900/1800/1900; LTE B1/B3/B5/B7/B8/B20/B28. Versión LA: GSM 850/900/1800/1900; LTE B2/B3/B4/B5/B7/B8/B28/B66. Versión A: WCDMA B2/B5; LTE B2/B4/B12. |
-| GNSS | Módulo GNSS: ZKW AT6558R — sensibilidad -167 dBm; precisión ≈ 2.5 m; Arranque en frío ≈ 30 s, Arranque en caliente ≈ 1 s |
-| Posicionamiento | GPS + WiFi \(802.11n 2.4 GHz\) + posicionamiento híbrido LBS |
-| Batería | Batería interna de 1000 mAh / 3.7 V Li-ion; horas de trabajo típicas ≈ 3 días 11 h a 5 minutos de reporte \(hasta ≈ 4 días con ajustes optimizados\) |
-| Carga | Puerto de carga magnética, DC 5V / 1A; carga completa &lt; 2 horas 10 minutos |
-| Consumo de energía | Consumo medio en espera/actual ≈ 2.4 mA |
-| Memoria | Flash 4 MB \(almacenamiento en búfer ≈ 8,000 registros GPRS, 400 registros SMS\) |
-| Sensores y Entradas | Sensor de movimiento de 6 ejes \(detección de caída, inclinación y estado de hombre caído\), botón SOS, botón de llamada, botón de encendido, motor de vibración |
-| Audio | Micrófono y altavoz integrados para voz bidireccional y monitoreo de voz |
-| Indicadores | 2 LEDs indican estado de GPS / GSM / Alimentación |
-| Dimensiones y peso | 65 × 46 × 17 mm; 48 g |
-| Ambiental | Rango de temperatura de operación: -20°C a 70°C; humedad 5%–95% |
-| Protección IP | IP67 \(probado sumergido en 20 cm de agua durante 30 minutos\) |
-| Factor de forma y colores | Rastreador personal portátil; disponible en Negro, Azul, Rosa, Blanco, Verde |
-| Integración de plataforma | Rastreo en tiempo real y historial vía plataforma web y app móvil; latidos GPRS configurables y cadenas de alarma SMS para integración con Plaspy |
-
-## Casos de uso
-
-- Seguridad personal para niños y personas mayores: alertas SOS, voz bidireccional y detección de caídas conectadas a Plaspy para notificación y respuesta inmediatas.
-- Protección de trabajadores que trabajan solos: telemetría en tiempo real y alertas de hombre caído dirigidas a Plaspy para monitoreo centralizado y escalamiento de incidentes.
-- Rastreo de mascotas y activos pequeños: diseño compacto e impermeable y posicionamiento híbrido que ayudan a mantener la visibilidad de la ubicación en entornos urbanos o al aire libre.
-- Despliegues de fuerza laboral temporal o para eventos: carga magnética y formato compacto facilitan una implementación y recogida rápidas mientras Plaspy gestiona el seguimiento y la retención de datos.
-- Antirrobo y recuperación de activos: almacenamiento en búfer GPRS conserva el historial de ubicación si se pierde la cobertura, y luego se sube a Plaspy cuando la conectividad vuelve.
+- Monitoreo de seguridad personal para niños y adultos mayores con alertas SOS y de caída.
+- Protección de trabajadores solitarios donde las notificaciones de man down y la comunicación bidireccional facilitan la respuesta.
+- Seguimiento de mascotas y pequeños activos que necesitan un dispositivo compacto, resistente al agua y con posicionamiento híbrido.
+- Despliegues temporales para eventos o trabajadores por contrato donde la rápida implementación y la supervisión centralizada son claves.
+- Escenarios de anti robo y recuperación que se benefician del historial de posiciones en búfer y el seguimiento en tiempo real.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el Q20 con Plaspy ofrece un equilibrio práctico entre portabilidad, durabilidad y telemetría, presentado en un paquete compatible con Plaspy que reduce el tiempo de integración. El posicionamiento híbrido del Q20, el soporte multibanda y el manejo de datos en búfer minimizan los puntos ciegos y la pérdida de datos, mientras que SOS, voz bidireccional y detección de caídas proporcionan características de seguridad accionables para tutores y operadores. Junto con el panel de control y las herramientas de notificación de Plaspy, el Q20 admite una gestión de flotas escalable y flujos de antirrobo, seguimiento en tiempo real y telemetría configurable que ayudan a proteger a las personas y los activos sin comprometer la facilidad de uso.
+El Q20 ofrece una combinación práctica de portabilidad, durabilidad y funciones de seguridad que se integran de forma natural con las capacidades de monitoreo y notificación de Plaspy. Su posicionamiento híbrido y conectividad multinetwork reducen los puntos ciegos, mientras que el almacenamiento en búfer ayuda a preservar la continuidad del seguimiento. SOS, voz bidireccional y detección de caídas generan eventos accionables que Plaspy puede enrutar a operadores, listas de escalamiento o tutores sin necesidad de integraciones personalizadas extensas.
 
+Si su operación requiere un rastreador personal compacto que se integre en una plataforma más amplia de monitoreo de flotas o seguridad, el Q20 con Plaspy es una opción directa. La compatibilidad minimiza la carga de configuración y permite que los equipos se concentren en reglas, notificaciones y flujos operativos en vez de en la integración de dispositivos a bajo nivel.
+
+Para conocer más sobre cómo Plaspy puede soportar rastreadores Q20 y programas de flota o seguridad más amplios visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual en el sitio oficial de GOTOP https://www.gotop.cc/.

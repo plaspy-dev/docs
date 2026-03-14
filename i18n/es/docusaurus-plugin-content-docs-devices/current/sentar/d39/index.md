@@ -2,67 +2,61 @@
 slug: /sentar/d39
 id: d39
 sidebar_label: D39
+title: Sentar - D39
 sidebar_class_name: menu_item_tracker
+description: Reloj GPS infantil Sentar D39 compatible con Plaspy, con seguimiento en tiempo real y llamadas bidireccionales
+keywords:
+  - Sentar D39
+  - Sentar D39 rastreador GPS
+  - reloj inteligente Sentar
+  - reloj D39 para niños
+  - D39 compatible con Plaspy
+  - rastreador compatible con Plaspy
+  - reloj GPS 4G
+  - rastreador GPS infantil
+  - reloj IPX7
+  - seguimiento en tiempo real
 ---
+
 # Sentar - D39
 
 ![D39](./tracker.png)
 
-El D39 es un reloj inteligente GPS 4G Android compatible con Plaspy, diseñado para niños, que combina un seguimiento en tiempo real fiable con comunicación bidireccional y una aplicación acompañante fácil de usar. Con posicionamiento en múltiples modos \(GPS, AGPS, LBS y WiFi\), un botón de emergencia SOS y soporte en las bandas 4G comunes, el D39 ofrece a los padres datos de ubicación claros, indicaciones a nivel de piso en interiores y capacidad de realizar llamadas para respuestas rápidas y seguras ante eventos de seguridad.
+El Sentar D39 es un reloj inteligente GPS compacto con Android y conectividad 4G diseñado para niños. Integra reportes de ubicación continuos con comunicación de voz bidireccional, un botón de emergencia SOS y posicionamiento multimodal que combina GPS, AGPS, LBS y WiFi. Con una pantalla IPS de 1.85 pulgadas y una carcasa resistente al agua con certificación IPX7, el D39 está pensado para el uso diario y la actividad, manteniendo a los cuidadores informados a través de una aplicación complementaria.
 
-Construido alrededor de una pantalla táctil IPS de 1.85 pulgadas y una carcasa ligera, resistente al agua IPX7, el D39 está diseñado para uso diario y juego. Como rastreador GPS compatible con Plaspy, se integra en los paneles de Plaspy para seguimiento en tiempo real, alertas y controles parentales, al tiempo que complementa implementaciones de telemetría más amplias o gestión de flotas donde los dispositivos ponibles son útiles junto a rastreadores de grado vehicular.
+Como dispositivo compatible con Plaspy, el D39 transmite su información de posición y estado al entorno de seguimiento de Plaspy para que padres y administradores puedan monitorear ubicaciones, recibir alertas y revisar historiales junto con otros activos. Su formato portátil complementa a los rastreadores vehiculares y fijos en despliegues mixtos, y ofrece una opción enfocada en la seguridad infantil para organizaciones y familias que requieren visibilidad en tiempo real y comunicación directa.
 
-## Key Highlights
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para niños — ofrece seguimiento continuo en tiempo real a través de la plataforma Plaspy.
-- Posicionamiento en múltiples modos \(GPS + AGPS + LBS + WiFi\) para mejorar la precisión de ubicación tanto en exteriores como en interiores, incluyendo indicaciones a nivel de piso.
-- Conectividad de voz y datos 4G en las bandas LTE FDD/TDD, WCDMA y GSM más comunes, para llamadas fiables y una localización rápida.
-- Botón dedicado SOS/power para alertas de emergencia inmediatas y comunicación bidireccional con los padres o tutores.
-- Diseño duradero y resistente al agua IPX7 con una pantalla táctil IPS de 1.85" para uso diario y juego.
-- Forma ponible compacta con batería de 710mAh y carga magnética para recargas sencillas.
-- Funciones orientadas a niños y una aplicación móvil acompañante para monitoreo parental, historial de ubicaciones y gestión remota.
+- Reloj inteligente para niños compatible con Plaspy que ofrece seguimiento y reportes en tiempo real.
+- Posicionamiento multimodal con GPS, AGPS, LBS y WiFi para mejorar la precisión en exteriores e interiores.
+- Conectividad 4G para voz y datos que permite llamadas bidireccionales y actualizaciones rápidas de posición.
+- Botón de emergencia SOS dedicado para alertas inmediatas y respuesta rápida de los cuidadores.
+- Carcasa resistente al agua con certificación IPX7 y pantalla IPS de 1.85 pulgadas diseñada para el uso diario.
+- Diseño portátil y compacto con batería integrada y carga magnética para recargas cómodas.
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se usa con Plaspy, el D39 transmite sus datos de ubicación y de estado al entorno de seguimiento en tiempo real de Plaspy para que padres y administradores puedan monitorear la ubicación, recibir alertas y revisar el historial. Plaspy ingiere fijaciones de GPS, AGPS, LBS y WiFi y las normaliza para la visualización en mapas, alertas de geocerca y informes de actividad. El enlace celular del reloj garantiza que las actualizaciones se entreguen de forma continua, mientras que la aplicación acompañante ofrece configuración y gestión de permisos.
+Al integrarse con Plaspy, el D39 envía fijaciones de ubicación y estados de dispositivo a los paneles de Plaspy, ofreciendo visibilidad consolidada para cuidadores y administradores. Plaspy normaliza las entradas de posicionamiento asistido para la visualización en mapas y la generación de alertas, y presenta eventos y el historial del dispositivo junto con otros activos rastreados para una supervisión más sencilla.
 
-- Actualizaciones de ubicación y telemetría en tiempo real mediante 4G y métodos de posicionamiento asistido.
-- Informes de alertas SOS/pánico y comunicación bidireccional de voz para una respuesta rápida ante incidentes.
-- Asistencia a nivel de piso en interiores utilizando datos de WiFi y LBS cuando estén disponibles.
-- Informes de estado de batería y carga para que los cuidadores gestionen el tiempo de funcionamiento del dispositivo.
-- Controles parentales e historial de ubicación a través de la aplicación acompañante; integración en los paneles de Plaspy para un monitoreo consolidado.
+- Actualizaciones de ubicación en tiempo real mostradas en los mapas de Plaspy para monitoreo en vivo.
+- Informes de SOS y alertas de pánico que se enrutan a las notificaciones de Plaspy para una respuesta rápida.
+- Asistencia en interiores mediante indicios derivados de WiFi y LBS cuando están disponibles, para mejorar la conciencia situacional.
+- Reportes de estado de batería y carga para facilitar la gestión del tiempo de actividad y el mantenimiento del dispositivo.
+- Controles parentales, historial de ubicaciones y permisos visibles a través de la aplicación complementaria e integrados en la monitorización de Plaspy.
 
-## Technical Overview
+## Casos de uso típicos
 
-| Modelo | D39 smartwatch |
-| --- | --- |
-| Chipset principal | SL8521E |
-| Sistema operativo | RTOS |
-| Memoria | 1GB RAM + 8GB ROM |
-| Conectividad | 4G LTE \(FDD/TDD\), WCDMA, GSM |
-| Bandas | FDD-LTE B1/B3/B5/B8; TDD-LTE B38/B39/B40/B41; WCDMA B1/B8; GSM B3/B8 |
-| SIM | Ranura para tarjeta Nano SIM |
-| GNSS / Posicionamiento | GPS + AGPS + LBS + WiFi |
-| Display | 1.85-inch IPS touchscreen, 240 x 284 px |
-| Cámara | Cámara frontal de 0.3 MP |
-| Batería y Carga | Batería de 710mAh; cable de carga magnético de 4 pines |
-| Resistencia al agua | IPX7 |
-| Interfaces físicas | Botón Power / SOS; pantalla táctil; ranura Nano SIM; conector de carga magnético |
-| Bluetooth | No especificado |
-| Gestión remota | Aplicación móvil para padres; se integra con Plaspy para monitoreo en tiempo real |
-| Factor de forma | Reloj inteligente compacto para niños; disponible en Gris, Rosa, Negro |
-
-## Casos de uso
-
-- Seguridad infantil y monitorización parental — ubicación en tiempo real, alertas SOS y llamadas de voz para tranquilidad diaria.
-- Supervisión escolar y de guardería — posicionamiento en interiores a nivel de piso y comprobaciones programadas durante la entrega/recogida.
-- Juego y actividades al aire libre — protección IPX7 y un formato ponible robusto para deportes y recreación.
-- Cuidado residencial o comunitario — comprobaciones rápidas de estado y contacto de emergencia para tutores o cuidadores.
-- Telemetría suplementaria en despliegues mixtos — rastreo ponible que complementa la gestión de flotas o las recopilaciones de telemetría cuando se combina con rastreadores de grado vehicular \(nota: el D39 no es un rastreador de vehículos y no ofrece telemetría de encendido ni de combustible\).
+- Seguridad infantil y supervisión parental con comprobaciones de ubicación en vivo y alertas de emergencia.
+- Supervisión escolar y de guarderías, incluyendo registros programados y soporte de posicionamiento en interiores.
+- Monitoreo de actividades al aire libre y recreativas con un wearable resistente pensado para el uso diario.
+- Cuidado residencial y comunitario para comprobaciones rápidas de estado y comunicación entre tutores.
+- Telemetría complementaria en despliegues mixtos donde el seguimiento personal completa el monitoreo de vehículos o activos fijos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El D39 ofrece una solución específica y fiable para padres y programas que necesitan seguimiento en tiempo real compatible con Plaspy para niños. Su posicionamiento en múltiples modos y su conectividad 4G ayudan a entregar actualizaciones de ubicación oportunas, mientras que SOS y llamadas bidireccionales proporcionan comunicación inmediata ante una emergencia. La integración con Plaspy lleva los informes del dispositivo a un panel de control gestionado para alertas, historial de ubicación y controles parentales, lo que facilita una respuesta rápida y una supervisión sin complejidad.
+El D39 es una opción dirigida a familias, programas y organizaciones que requieren un wearable enfocado en niños y compatible con Plaspy. Su posicionamiento multimodal y la conectividad celular permiten actualizaciones oportunas, mientras que el SOS y las llamadas bidireccionales ofrecen canales de comunicación directa con los cuidadores. Integrar el D39 en Plaspy incorpora los eventos del dispositivo a un panel administrado para alertas, historial de ubicaciones y supervisión operativa sin añadir complejidad innecesaria.
 
-Para las organizaciones que evalúan dispositivos, el D39 destaca por su comodidad de uso como wearable, su resistencia a condiciones húmedas \(IPX7\) y su larga duración de la batería para uso diario. Sin embargo, está optimizado para la seguridad y la comunicación personal más que para telemetría de vehículos: no ofrece control de encendido, funciones de inmovilizador ni monitoreo de combustible, y tampoco se especifican sensores Bluetooth en los detalles técnicos. Si su despliegue requiere telemetría centrada en vehículos \(encendido, inmovilizador, monitoreo de combustible\) o redes externas de sensores Bluetooth, combine el D39 con rastreadores de vehículos específicamente diseñados o hubs de sensores BLE en Plaspy para lograr una solución completa.
+Dado que el D39 está optimizado para la seguridad personal y la comunicación, se complementa bien con rastreadores de grado vehicular u otros dispositivos de telemetría en Plaspy cuando se requieren capacidades de flota más amplias. Si su despliegue necesita telemetría orientada a vehículos o redes de sensores especializadas, combine el D39 con rastreadores diseñados para cubrir tanto casos de uso wearables como vehiculares.
 
+Para más información sobre cómo funciona el D39 con Plaspy y otros dispositivos compatibles visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones vigentes en el sitio oficial de Sentar http://www.sentarsmart.com/ antes de tomar decisiones de compra o despliegue.

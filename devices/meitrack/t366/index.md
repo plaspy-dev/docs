@@ -2,63 +2,60 @@
 slug: /meitrack/t366
 id: t366
 sidebar_label: T366
+title: Meitrack - T366
 sidebar_class_name: menu_item_tracker
+description: Rugged IP67 Meitrack T366 GNSS tracker compatible with Plaspy for real time fleet tracking and secure immobilizer control in harsh environments
+keywords:
+  - meitrack t366
+  - meitrack t366 gps tracker
+  - meitrack t366 plaspy compatible
+  - t366 fleet tracking
+  - ip67 gps tracker
+  - relay immobilizer tracker
+  - rs232 telemetry tracker
+  - marine vehicle tracker
+  - ota fota tracker
+  - offline buffer gps tracker
 ---
+
 # Meitrack - T366
 
 ![T366](./tracker.png)
 
-The T366 is a rugged IP67-rated GNSS tracker built for demanding vehicle and marine environments. Engineered for reliable Plaspy compatible deployments, the T366 brings water-resistant protection, a robust relay immobilizer, and wide input voltage tolerance to fleet management and asset-tracking projects that require continuous real-time tracking and secure immobilization in harsh conditions.
+The Meitrack T366 is a rugged IP67 rated GNSS tracker designed for demanding vehicle and marine environments. Built to withstand water and dust ingress, the device emphasizes continuous real time location tracking and secure immobilization in harsh conditions. Its hardware includes relay immobilizer outputs, support for an external GNSS antenna, and a local data buffer to retain location history when connectivity is intermittent.
 
-Designed to integrate with Plaspy for telemetry, anti-theft workflows, and fleet analytics, the T366 supports external GNSS antennas, RS232 peripherals and an 8 MB offline buffer for uninterrupted location history. Its combination of telemetry inputs, relay/buzzer outputs, OTA/FOTA support, and certified ruggedness makes the T366 a practical choice for marine vessels, off-road fleets, and industrial vehicle monitoring where dependable tracking, fuel monitoring, and remote immobilizer control are required.
+As a Plaspy compatible device, the T366 integrates with Plaspy to deliver telemetry, anti theft workflows, and fleet analytics. Plaspy can ingest the T366's GNSS fixes, sensor telemetry and event data to power dashboards, alerts, and historical reporting. The combination of rugged design, peripheral support and remote management features makes the T366 a practical option for operators who want dependable tracking and remote control through the Plaspy platform.
 
 ## Key Highlights
 
-- IP67 water- and dust-resistant enclosure for marine, off-road, and industrial vehicle tracking.
-- Relay-based immobilizer \(IP67-rated\) and buzzer outputs for anti-theft control and alarm integration.
-- Wide DC input range \(11.4–90 V\) with a 400 mAh backup battery and low standby current for reliable uptime.
-- 2.5 m GNSS positioning accuracy using an external antenna input for precise real-time tracking.
-- RS232 port for telemetry and peripherals: fuel sensors, temperature sensors, cameras, RFID and iButton readers.
-- Driving behavior analysis \(idling, harsh acceleration/braking/cornering, collisions\) for improved fleet safety and coaching.
-- 8 MB data buffer for offline storage and OTA/FOTA remote updates to simplify field maintenance.
+- IP67 water and dust resistant enclosure suitable for marine and off road environments
+- Relay based immobilizer and buzzer outputs for anti theft control and alarm integration
+- Wide DC input range with backup battery and low standby current for reliable uptime
+- External GNSS antenna support and precise positioning for accurate real time tracking
+- RS232 interface for telemetry and third party peripherals such as fuel sensors and readers
+- 8 MB offline buffer to store location history during connectivity loss and OTA FOTA support for remote updates
+- Driving behavior event detection to support fleet safety and coaching programs
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the T366 feeds accurate GNSS fixes and vehicle telemetry into the platform for real-time tracking, alerts, and historical reporting. Plaspy ingests the T366's location, sensor telemetry and event data to power fleet dashboards, anti-theft workflows, and scheduled reports. Because the T366 supports OTA/FOTA updates and an offline data buffer, Plaspy can maintain continuity of records and remotely manage device firmware across a distributed fleet.
+When connected to Plaspy, the T366 streams location and event data into the platform so fleet managers can monitor assets in real time and review historical journeys. Plaspy uses the device telemetry to generate alerts, feed dashboards, and produce scheduled reports that help with operational oversight and anti theft responses.
 
-- Real-time location and telemetry updates via GSM connectivity \(2G\) where network coverage permits, enabling live tracking in Plaspy.
-- Relay immobilizer and buzzer outputs report status and allow remote immobilization and alarm triggering from Plaspy.
-- Fuel monitoring and external sensor telemetry through the RS232 interface \(supports ultrasonic and A53 fuel sensors and other third‑party sensors\).
-- Driving behavior and collision events are transmitted to Plaspy for driver scoring, alerts and incident analysis.
-- Plaspy can correlate T366 telemetry with wider ecosystems \(for example, Bluetooth sensors handled at the platform layer or via gateways\) to enrich monitoring where present.
+- Live location updates and historical tracks visible in Plaspy for fleet monitoring and dispatch
+- Immobilizer and alarm outputs reported to Plaspy to enable remote immobilization and incident workflows
+- External sensor telemetry such as fuel level or temperature routed to Plaspy for monitoring and alerting
+- Driving events forwarded to Plaspy for driver scoring, safety alerts and incident review
+- Offline buffer and remote update support help Plaspy maintain continuity of records and simplify device maintenance
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | T366 |
-| --- | --- |
-| Connectivity | 2G GSM communication; external GNSS antenna input |
-| Variants / Bands | Multiple regional variants covering Africa/Europe/Middle East, Americas, and Australia with region-specific LTE/WCDMA/GSM band configurations |
-| GNSS | External GNSS antenna input; positioning accuracy ~2.5 m |
-| Power & Battery | Wide DC input 11.4–90 V; 400 mAh backup battery; low standby current |
-| Operating Temperature | -35°C to 80°C \(device-only\) |
-| Inputs & Interfaces | RS232 port for peripherals \(cameras, fuel sensors, temperature sensors, TPMS, LED displays, RFID, iButton readers\); relay and buzzer outputs for immobilizer/alarm |
-| Storage & Buffer | 8 MB data buffer for offline storage |
-| Firmware & Management | OTA / FOTA support for remote updates and maintenance |
-| Certifications | CE, RoHS |
-| Form Factor | Rugged, IP67-rated enclosure suitable for vehicle and marine installations |
-| Supported Accessories | 12 V/24 V relays, buzzers, digital temperature sensors, iButton readers, ultrasonic and A53 fuel level sensors, remote controls/receivers, high-temp batteries, external GPS antennas |
-
-## Use Cases
-
-- Fleet management and real-time tracking of light- and heavy-duty vehicles operating across varied terrains and marine environments.
-- Anti-theft and remote immobilization for high-value vehicles using the IP67-rated relay immobilizer and alarm outputs.
-- Fuel monitoring and telemetry integration for fuel theft prevention and consumption analysis using ultrasonic/A53 and other fuel sensors via RS232.
-- Driver behavior monitoring and safety programs using built-in event detection for harsh acceleration, braking, cornering and collisions.
-- Asset tracking on watercraft and off-road equipment where ingress protection and wide temperature ranges are required.
+- Fleet management for vehicles operating in marine, off road, and industrial settings
+- Anti theft protection and remote immobilization of high value assets
+- Fuel monitoring and telemetry integration for consumption analysis and theft prevention
+- Driver behavior monitoring and safety programs using event detection
+- Asset tracking on watercraft and remote equipment where ingress protection is required
 
 ## Why Choose This Tracker with Plaspy
 
-The T366 delivers a balance of rugged hardware and flexible telemetry that complements Plaspy’s real-time tracking and fleet analytics. Its IP67-rated design, wide input voltage range, and backup battery minimize downtime in harsh installations, while the RS232 interface and supported peripherals allow rich telemetry, including fuel monitoring and temperature sensing. With OTA/FOTA support and an 8 MB offline buffer, the device reduces field maintenance and preserves data continuity when connections are intermittent.
+The T366 combines rugged hardware with practical telemetry features that complement Plaspy's tracking and analytics capabilities. Its IP67 rated enclosure and broad input tolerance reduce downtime in challenging installations, while peripheral support and local buffering help preserve data when connectivity is unreliable. Remote update support also streamlines field maintenance for distributed fleets.
 
-Choosing the T366 for Plaspy-compatible deployments means you get a proven GNSS tracker for fleet management, anti-theft immobilization, and telemetry-driven decision making. The device’s certifications and accessory ecosystem simplify integration into existing telematics architectures, enabling fleet operators to combine real-time tracking, ignition/immobilizer control, telemetry and driver behavior insights in a single, reliable solution.
-
+For organizations using Plaspy, the T366 offers a balance of durability and telemetry flexibility useful for marine, off road, and industrial vehicle monitoring. To learn more about Plaspy and how the platform can work with compatible devices like the Meitrack T366 visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details and accessory compatibility on the manufacturer site https://www.meitrack.com/

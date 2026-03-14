@@ -124,6 +124,7 @@ const config = {
             sidebarId: 'devicesSidebar',
             position: 'left',
             label: 'Devices',
+            className: 'show-only-plaspy'
           },
           {
             type: 'localeDropdown',

@@ -2,56 +2,59 @@
 slug: /concox/ll303_pro
 id: ll303_pro
 sidebar_label: LL303 Pro
+title: Concox - LL303 Pro
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS solar y resistente para maquinaria y embarcaciones, compatible con Plaspy para seguimiento prolongado de activos fuera de la red
+keywords:
+  - Concox LL303 Pro
+  - LL303 Pro
+  - rastreador Concox
+  - rastreador GPS solar
+  - rastreador GPS de activos
+  - rastreador 4G LTE
+  - rastreador IP67
+  - gestión de flotas
+  - compatible con Plaspy
+  - seguimiento fuera de la red
 ---
+
 # Concox - LL303 Pro
 
 ![LL303 Pro](./tracker.png)
 
-El LL303 Pro es un rastreador GPS compatible con Plaspy, alimentado por energía solar y diseñado para un despliegue a largo plazo en maquinaria de construcción, equipos pesados y embarcaciones. Construido para entornos exteriores exigentes, el LL303 Pro combina carga solar integrada, una batería Li‑Polymer de 10,000 mAh y un recinto robusto con clasificación IP67 para ofrecer seguimiento en tiempo real y telemetría para activos fuera de la red. Su reporte multomodo y alertas disparadas por eventos lo convierten en una opción ideal para clientes que requieren dispositivos compatibles con Plaspy que reduzcan las visitas al sitio y mejoren la visibilidad de equipos de alto valor.
+El LL303 Pro es un rastreador GPS GNSS con alimentación solar y conectividad 4G LTE, diseñado para despliegues prolongados en maquinaria de construcción, equipo pesado y embarcaciones. Construido para soportar condiciones exteriores exigentes, integra carga solar, una batería Li-Polímero de 10 000 mAh y una carcasa resistente IP67 para ofrecer una larga autonomía en espera y seguimiento en tiempo real de activos fuera de la red. Sus modos de reporte múltiples y alertas por eventos ayudan a reducir visitas de mantenimiento y a mejorar la visibilidad de equipos de alto valor.
 
-El LL303 Pro integra posicionamiento GPS, BDS y LBS con alta sensibilidad GNSS y TTFF rápido para actualizaciones de ubicación precisas \(típico \<2.5 m CEP\). La conectividad celular abarca LTE \(con variantes Cat 1, Cat M1 y NB2\) con respaldo GSM \(2G\) para maximizar la cobertura, mientras BLE 5.0 habilita sensores Bluetooth para monitoreo de combustible, sensores de puertas y otra telemetría de accesorios. Cuando se empareja con Plaspy, el LL303 Pro se convierte en un bloque de construcción poderoso para la gestión de flotas, flujos de trabajo anti‑robo y telemetría remota de activos.
+Como dispositivo compatible con Plaspy, el LL303 Pro puede agregarse a flotas y proyectos de activos en la plataforma para suministrar datos continuos de ubicación y telemetría. Al integrarse con Plaspy, el equipo transmite posiciones GNSS y eventos del dispositivo a la plataforma, permitiendo que los equipos supervisen activos en mapas en vivo, configuren geocercas y reglas, y generen informes para la supervisión operativa y flujos de trabajo antirobo.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy optimizado para despliegues prolongados en exteriores y activos fuera de la red.
-- Carga solar más batería Li‑Polymer de 10,000 mAh ofrece standby extendido \(hasta un año en modo de ahorro de energía\) y menos visitas de mantenimiento.
-- Protección exterior robusta: recinto resistente con clasificación IP67 para operación resistente al polvo y al agua en entornos adversos.
-- Informes multomodo \(programación, inteligente, ahorro de energía\) equilibran el seguimiento en tiempo real con la duración de la batería para la gestión de flotas y la monitorización de activos.
-- Posicionamiento de alta precisión: GPS + BDS + LBS con precisión típica \<2.5 m CEP y sensibilidad GNSS de –165 dBm.
-- Conectividad celular flexible: LTE \(variante Cat 1 / Cat M1 / NB2\) con respaldo GSM \(2G\) y soporte nano‑SIM para amplia cobertura.
-- Sensores a bordo y soporte BLE 5.0 para expansión de telemetría — sensor de manipulación \(efecto Hall\), acelerómetro, alertas de vibración y sensores Bluetooth externos \(combustible, puertas\).
+- Alimentación asistida por energía solar con una batería de gran capacidad para mayor autonomía y menos visitas al sitio.  
+- Carcasa robusta con clasificación IP67, adecuada para exposición al polvo y al agua en instalaciones exteriores.  
+- Modos de reporte múltiples para equilibrar la frecuencia de seguimiento con la conservación de batería en monitorizaciones a largo plazo.  
+- Posicionamiento de alta precisión y mayor sensibilidad GNSS para actualizaciones de ubicación confiables.  
+- Opciones de conectividad celular y mecanismos de respaldo para cobertura amplia en áreas remotas.  
+- Soporte BLE y sensores integrados para ampliar la telemetría de accesorios y generar alertas.
 
 ## Cómo funciona con Plaspy
 
-La integración compatible con Plaspy facilita el despliegue del LL303 Pro en flotas existentes de Plaspy o proyectos de rastreo de activos. El rastreador transmite la posición GNSS y la telemetría del dispositivo a la plataforma de Plaspy a través de la conexión celular; Plaspy se encarga de la visualización, geocercas, reglas de eventos e informes. Alertas en tiempo real e informes históricos en Plaspy permiten a los equipos de operaciones actuar rápidamente ante eventos de robo, disparadores de mantenimiento y movimientos inusuales.
+Plaspy recibe la ubicación y la telemetría del LL303 Pro a través de su conexión celular y presenta esos datos en paneles, mapas y flujos de trabajo automatizados. La plataforma puede aprovechar los modos de reporte y los disparadores de eventos del dispositivo para optimizar la visibilidad mientras limita el consumo de energía en despliegues prolongados.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para seguimiento en mapa en vivo y reproducción histórica.
-- Alertas disparadas por eventos \(manipulación, vibración, batería baja\) reenviadas a Plaspy para notificaciones inmediatas y flujos de trabajo automatizados.
-- Monitoreo de combustible y telemetría de accesorios a través de sensores Bluetooth \(BLE 5.0\) integrados en los paneles y informes de Plaspy.
-- Modos de reporte configurables \(programación, inteligente, ahorro de energía\) mapeados a reglas de Plaspy para equilibrar la frecuencia y el consumo de energía.
-- Plaspy puede coordinar flujos de trabajo de inmovilizador o arranque donde periféricos del vehículo o integraciones de terceros proporcionen esa capacidad, habilitando respuestas anti‑robo cuando la instalación lo soporte.
+- Actualizaciones de ubicación en vivo y reproducción histórica en mapas de Plaspy para seguimiento de activos y revisión de rutas.  
+- Alertas basadas en eventos como manipulación, vibración o batería baja, enviadas a Plaspy para notificaciones y acciones.  
+- Telemetría de accesorios y sensores integrada en los paneles de Plaspy para monitorear combustible, puertas y otros datos conectados por BLE.  
+- Reportes configurables vinculados a reglas de Plaspy para equilibrar la visibilidad en tiempo real con estrategias de ahorro de energía.  
+- Informes centralizados y registros exportables en Plaspy para apoyar la programación de mantenimiento y auditorías operativas.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | LL303 Pro |
-| --- | --- |
-| Conectividad | 4G LTE \(variantes: LTE Cat 1, Cat M1, NB2\) con respaldo GSM \(2G\) ; nano‑SIM |
-| GNSS y posicionamiento | GPS + BDS + LBS; precisión típica \<2.5 m CEP; sensibilidad de seguimiento –165 dBm; TTFF en caliente ≤1 s, en frío ≤32 s |
-| Energía y batería | Panel solar integrado \(≈5 V / 400 mA bajo STC\); batería Li‑Polymer a bordo de 10,000 mAh; cargador magnético de 5 V / 2 A soportado; standby prolongado hasta un año en modo de ahorro de energía |
-| Sensores y interfaces a bordo | Sensor de manipulación por efecto Hall, acelerómetro, detección de vibración; BLE 5.0 para conectividad de accesorios \(sensores de combustible, sensores de puertas, etc.\); soporte opcional de lector RFID de 2.4 GHz |
-| Físico y ambiental | Dimensiones 200 × 115 × 25 mm; peso ≈423 g; protección IP67 contra polvo y agua; rango de temperatura de operación −20°C a +70°C; humedad 5–95% sin condensación |
-| Formato | Rastreador de activos robusto con asistencia solar para equipos de construcción, maquinaria pesada y embarcaciones |
-
-## Casos de uso
-
-- Gestión de flotas de equipos de construcción remotos: supervisar ubicación, utilización y movimiento sin visitas frecuentes al sitio.
-- Protección anti‑robo para activos pesados: alertas de manipulación y vibración enviadas a Plaspy para una respuesta rápida y flujos de recuperación.
-- Monitoreo de combustible y telemetría: conectar sensores de combustible BLE para rastrear consumo y detectar fugas o reabastecimiento no autorizado.
-- Seguimiento de embarcaciones y activos marítimos: la carga solar y la protección IP67 permiten su uso en boyas, pequeñas embarcaciones de trabajo y equipos marítimos no supervisados.
-- Seguimiento de activos y logística a largo plazo: modos de espera extendidos y recarga solar permiten meses de operación sin supervisión en activos fuera de la red.
+- Gestión remota de flotas de maquinaria de construcción y equipo pesado para reducir inspecciones en sitio.  
+- Monitorización antirobo y flujos de respuesta rápida para activos de alto valor.  
+- Telemetría de combustible y auxiliares para control de consumo y detección de anomalías.  
+- Seguimiento de embarcaciones y activos marítimos donde la carga solar y la protección IP67 permiten operación sin supervisión.  
+- Logística a largo plazo y almacenamiento de equipos donde la energía fuera de la red y la larga autonomía son esenciales.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Cuando se necesita un rastreador GPS compatible con Plaspy diseñado para entornos duros y fuera de la red, el LL303 Pro ofrece una combinación equilibrada de durabilidad, larga vida de la batería y opciones de telemetría flexibles. Su sistema de energía asistido por energía solar y sus modos de reporte configurables reducen el mantenimiento y prolongan las ventanas de despliegue, mientras que LTE con respaldo GSM y la redundancia GNSS brindan un seguimiento en tiempo real confiable. BLE 5.0 amplía la telemetría con monitoreo de combustible y sensores de accesorios, habilitando gestión de flotas más rica y capacidades anti‑robo en Plaspy. Para operadores enfocados en reducir el downtime, mejorar la visibilidad de los activos e integrar telemetría en flujos de trabajo centralizados, el LL303 Pro es una opción robusta y probada en campo.
+El LL303 Pro es una opción práctica para organizaciones que requieren un rastreador resistente con asistencia solar que se integre con Plaspy para una visibilidad centralizada. Su combinación de carcasa robusta, mayor duración de batería y modos de reporte flexibles ayuda a minimizar el mantenimiento mientras mantiene los activos de alto valor visibles para los equipos operativos y de seguridad.
 
+Si desea saber más sobre cómo el LL303 Pro puede integrarse en su despliegue con Plaspy, visite el sitio web de Plaspy para explorar las capacidades de la plataforma y las opciones de gestión de flotas en https://www.plaspy.com. Las especificaciones y la disponibilidad pueden cambiar con el tiempo; verifique los detalles técnicos actuales y la documentación con el fabricante en https://www.iconcox.com/.

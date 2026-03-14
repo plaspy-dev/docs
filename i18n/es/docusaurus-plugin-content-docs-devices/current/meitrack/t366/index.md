@@ -2,63 +2,60 @@
 slug: /meitrack/t366
 id: t366
 sidebar_label: T366
+title: Meitrack - T366
 sidebar_class_name: menu_item_tracker
+description: Rastreador GNSS robusto IP67 Meitrack T366 compatible con Plaspy para seguimiento en tiempo real y control remoto de inmovilizador
+keywords:
+  - meitrack t366
+  - meitrack t366 rastreador gps
+  - meitrack t366 compatible con plaspy
+  - t366 seguimiento de flotas
+  - rastreador ip67 gps
+  - rastreador inmovilizador por relé
+  - rastreador telemetría rs232
+  - rastreador para embarcaciones
+  - rastreador ota fota
+  - rastreador gps con buffer offline
 ---
+
 # Meitrack - T366
 
 ![T366](./tracker.png)
 
-El T366 es un rastreador GNSS robusto con clasificación IP67, diseñado para entornos exigentes en vehículos y entornos marinos. Diseñado para implementaciones confiables compatibles con Plaspy, el T366 ofrece protección a prueba de agua, un inmovilizador por relé robusto y una amplia tolerancia de voltaje de entrada para proyectos de gestión de flotas y rastreo de activos que requieren seguimiento en tiempo real continuo e inmovilización segura en condiciones adversas.
+El Meitrack T366 es un rastreador GNSS resistente con clasificación IP67, diseñado para entornos exigentes de vehículos y embarcaciones. Construido para soportar la entrada de agua y polvo, el dispositivo se enfoca en el seguimiento continuo en tiempo real y en el control seguro del inmovilizador en condiciones adversas. Su hardware incluye salidas de inmovilizador por relé, soporte para antena GNSS externa y un buffer local de datos que conserva el historial de ubicación cuando la conectividad es intermitente.
 
-Diseñado para integrarse con Plaspy para telemetría, flujos de trabajo anti-robo y analítica de la flota, el T366 admite antenas GNSS externas, periféricos RS232 y un búfer offline de 8 MB para un historial de ubicaciones ininterrumpido. Su combinación de entradas de telemetría, salidas de relé/zumbador, soporte OTA/FOTA y su robustez certificada hacen del T366 una opción práctica para embarcaciones, flotas todoterreno y monitoreo de vehículos industriales donde se requieren seguimiento confiable, monitoreo de combustible y control remoto del inmovilizador.
+Como dispositivo compatible con Plaspy, el T366 se integra con la plataforma para entregar telemetría, flujos de trabajo anti robo y analítica de flota. Plaspy puede ingerir las posiciones GNSS, la telemetría de sensores y los eventos del T366 para alimentar paneles, alertas y reportes históricos. La combinación de diseño resistente, soporte de periféricos y capacidades de gestión remota hace del T366 una opción práctica para operadores que requieren rastreo confiable y control remoto a través de la plataforma Plaspy.
 
-## Aspectos Clave
+## Características principales
 
-- Caja resistente al agua y al polvo con clasificación IP67 para el rastreo de embarcaciones, vehículos todoterreno e industriales.
-- Inmovilizador basado en relé \(con clasificación IP67\) y salidas de zumbador para control antirrobo e integración de alarmas.
-- Amplio rango de entrada DC \(11.4–90 V\) con batería de respaldo de 400 mAh y bajo consumo en modo de espera para garantizar un tiempo de actividad confiable.
-- Precisión de posicionamiento GNSS de 2.5 m utilizando una entrada de antena externa para un rastreo en tiempo real preciso.
-- Puerto RS232 para telemetría y periféricos: sensores de combustible, sensores de temperatura, cámaras, lectores RFID e iButton.
-- Análisis del comportamiento de conducción \(aceleración/brusca, frenado brusco, toma de curvas y colisiones\) para mejorar la seguridad de la flota y el entrenamiento de los conductores.
-- búfer de 8 MB para almacenamiento fuera de línea y actualizaciones remotas OTA/FOTA para simplificar el mantenimiento en campo.
+- Carcasa resistente IP67 adecuada para ambientes marinos y todoterreno
+- Salidas de inmovilizador por relé y salidas para zumbador para control antirrobo e integración de alarmas
+- Amplio rango de entrada DC con batería de respaldo y bajo consumo en reposo para mayor disponibilidad
+- Soporte para antena GNSS externa y posicionamiento preciso para seguimiento en tiempo real
+- Interfaz RS232 para telemetría y periféricos de terceros como sensores de combustible y lectores
+- Buffer offline de 8 MB para almacenar historial de ubicación durante pérdida de conectividad y soporte OTA FOTA para actualizaciones remotas
+- Detección de eventos de comportamiento de conducción para programas de seguridad y entrenamiento de conductores
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el T366 aporta correcciones GNSS precisas y telemetría del vehículo a la plataforma para seguimiento en tiempo real, alertas e informes históricos. Plaspy ingiere la ubicación del T366, la telemetría de sensores y los datos de eventos para impulsar paneles de control de la flota, flujos de trabajo anti-robo y informes programados. Debido a que el T366 soporta actualizaciones OTA/FOTA y un búfer de datos fuera de línea, Plaspy puede mantener la continuidad de los registros y gestionar de forma remota el firmware de los dispositivos en una flota distribuida.
+Cuando se conecta a Plaspy, el T366 transmite datos de ubicación y eventos a la plataforma para que los administradores de flota puedan monitorear activos en tiempo real y revisar recorridos históricos. Plaspy utiliza la telemetría del dispositivo para generar alertas, alimentar paneles y producir reportes programados que apoyan la supervisión operativa y las respuestas ante incidentes de robo.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a través de la conectividad GSM \(2G\) donde la cobertura de red lo permita, habilitando el seguimiento en vivo en Plaspy.
-- Las salidas de inmovilizador por relé y zumbador reportan estado y permiten la inmovilización remota y la activación de alarmas desde Plaspy.
-- Monitoreo de combustible y telemetría de sensores externos a través de la interfaz RS232 \(soporta sensores de combustible ultrasónicos y A53 y otros sensores de terceros\).
-- Los eventos de comportamiento de conducción y colisiones se transmiten a Plaspy para puntuación del conductor, alertas y análisis de incidentes.
-- Plaspy puede correlacionar la telemetría del T366 con ecosistemas más amplios \(por ejemplo, sensores Bluetooth gestionados a nivel de plataforma o a través de gateways\) para enriquecer la monitorización cuando esté disponible.
+- Actualizaciones de ubicación en vivo y recorridos históricos visibles en Plaspy para monitoreo de flota y despacho
+- Salidas de inmovilizador y alarmas reportadas a Plaspy para habilitar inmovilización remota y flujos de trabajo de incidentes
+- Telemetría de sensores externos como nivel de combustible o temperatura dirigida a Plaspy para monitoreo y alertas
+- Eventos de conducción enviados a Plaspy para evaluación de conductores, alertas de seguridad y revisión de incidentes
+- El buffer offline y el soporte para actualizaciones remotas ayudan a Plaspy a mantener la continuidad de los registros y simplifican el mantenimiento de los dispositivos
 
-## Visión general Técnica
+## Casos de uso típicos
 
-| Modelo | T366 |
-| --- | --- |
-| Conectividad | Comunicación GSM 2G; entrada para antena GNSS externa |
-| Variantes / Bandas | Variantes regionales múltiples que cubren África/Europa/Oriente Medio, Américas y Australia, con configuraciones de bandas LTE/WCDMA/GSM específicas por región |
-| GNSS | Entrada para antena GNSS externa; precisión de posicionamiento ~2.5 m |
-| Fuente de alimentación y batería | Entrada DC amplia 11.4–90 V; batería de respaldo de 400 mAh; bajo consumo en modo de espera |
-| Temperatura de operación | -35°C a 80°C \(solo dispositivo\) |
-| Entradas e Interfaces | Puerto RS232 para periféricos \(cámaras, sensores de combustible, sensores de temperatura, TPMS, pantallas LED, RFID, lectores iButton\); salidas de relé y zumbador para inmovilizador/alarma |
-| Almacenamiento y búfer | búfer de datos de 8 MB para almacenamiento fuera de línea |
-| Firmware y Gestión | Soporte OTA / FOTA para actualizaciones y mantenimiento remotos |
-| Certificaciones | CE, RoHS |
-| Forma y dimensiones | Carcasa robusta, con clasificación IP67, adecuada para instalaciones en vehículos y entornos marinos |
-| Accesorios compatibles | Relés de 12 V/24 V, zumbadores, sensores de temperatura digitales, lectores iButton, sensores de nivel de combustible ultrasónicos y A53, mandos a distancia/receptores, baterías de alta temperatura, antenas GPS externas |
+- Gestión de flotas para vehículos que operan en entornos marinos, todoterreno e industriales
+- Protección antirrobo e inmovilización remota de activos de alto valor
+- Monitoreo de combustible e integración de telemetría para análisis de consumo y prevención de robos
+- Monitoreo del comportamiento del conductor y programas de seguridad mediante detección de eventos
+- Rastreo de activos en embarcaciones y equipos remotos donde se requiera protección contra la entrada de agua y polvo
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas y seguimiento en tiempo real de vehículos ligeros y pesados que operan en diferentes terrenos y entornos marinos.
-- Antirrobo e inmovilización remota para vehículos de alto valor usando el inmovilizador por relé con clasificación IP67 y salidas de alarma.
-- Monitoreo de combustible e integración de telemetría para prevenir el robo de combustible y analizar el consumo mediante sensores ultrasónicos y A53 y otros sensores de combustible a través de RS232.
-- Monitoreo del comportamiento del conductor y programas de seguridad utilizando la detección de eventos integrada para aceleración brusca, frenado, toma de curvas y colisiones.
-- Rastreo de activos en embarcaciones y equipos todoterreno donde se requiere protección IP y amplios rangos de temperatura.
+El T366 combina hardware resistente con funcionalidades de telemetría prácticas que complementan las capacidades de seguimiento y análisis de Plaspy. Su carcasa con clasificación IP67 y su amplia tolerancia de entrada reducen el tiempo fuera de servicio en instalaciones exigentes, mientras que el soporte de periféricos y el buffer local ayudan a preservar datos cuando la conectividad es poco fiable. El soporte para actualizaciones remotas también facilita el mantenimiento en campo para flotas distribuidas.
 
-## Por qué elegir este rastreador compatible con Plaspy
-
-El T366 ofrece un equilibrio entre hardware robusto y telemetría flexible que complementa el seguimiento en tiempo real y el análisis de flotas de Plaspy. Su diseño con IP67, su amplio rango de voltaje de entrada y la batería de respaldo minimizan el tiempo de inactividad en instalaciones exigentes, mientras que la interfaz RS232 y los periféricos compatibles permiten una telemetría rica, incluyendo monitoreo de combustible y detección de temperatura. Con soporte OTA/FOTA y un búfer offline de 8 MB, el dispositivo reduce el mantenimiento en campo y mantiene la continuidad de datos cuando las conexiones son intermitentes.
-
-Elegir el T366 para implementaciones compatibles con Plaspy significa disponer de un rastreador GNSS probado para gestión de flotas, inmovilización antirrobo y toma de decisiones basada en telemetría. Las certificaciones y el ecosistema de accesorios simplifican la integración en arquitecturas telemáticas existentes, permitiendo a los operadores de flotas combinar seguimiento en tiempo real, control de ignición/inmovilizador, telemetría e ideas sobre el comportamiento del conductor en una solución única y fiable.
-
+Para organizaciones que usan Plaspy, el T366 ofrece un equilibrio entre durabilidad y flexibilidad telemétrica útil para el monitoreo de vehículos marinos, todoterreno e industriales. Para obtener más información sobre Plaspy y cómo la plataforma puede trabajar con dispositivos compatibles como el Meitrack T366 visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y la compatibilidad de accesorios en el sitio del fabricante https://www.meitrack.com/

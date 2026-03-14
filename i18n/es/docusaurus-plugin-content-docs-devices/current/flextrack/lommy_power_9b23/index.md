@@ -2,63 +2,59 @@
 slug: /flextrack/lommy_power_9b23
 id: lommy_power_9b23
 sidebar_label: Lommy Power 9B23
+title: Flextrack - Lommy Power 9B23
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto y fijo para monitoreo continuo de maquinaria pesada compatible con Plaspy
+keywords:
+  - Flextrack Lommy Power 9B23
+  - Lommy Power 9B23
+  - Rastreador Lommy Power
+  - Rastreador compatible con Plaspy
+  - GPS para maquinaria pesada
+  - Monitoreo de maquinaria
+  - Rastreo de flotas
+  - Seguimiento de horas de operación
+  - Rastreador para equipos de construcción
+  - Telemetría para flotas de alquiler
 ---
+
 # Flextrack - Lommy Power 9B23
 
 ![Lommy Power 9B23](./tracker.jpg)
 
-Lommy Power 9B23 es un rastreador GPS compacto y cableado que es compatible con Plaspy y está diseñado para el monitoreo continuo de equipos y maquinaria pesada. Diseñado para vehículos de construcción, agrícola y forestal, Lommy Power 9B23 extrae la alimentación de la batería de la máquina \(5–40 V\) para mantenerse online y proporcionar un seguimiento en tiempo real, telemetría e informes de utilización sin depender de una batería interna.
+Lommy Power 9B23 es un rastreador GPS compacto de instalación fija diseñado para el monitoreo continuo de maquinaria y equipos pesados. Se alimenta directamente de la batería del equipo y está pensado para uso en vehículos de construcción, agrícolas y forestales donde se requiere conectividad persistente y posicionamiento robusto. El dispositivo permanece en línea mientras el equipo tenga energía, permitiendo seguimiento en tiempo real, telemetría y reportes de uso sin depender de una batería interna.
 
-Con GNSS de múltiples constelaciones, conectividad celular LTE Cat M1 y respaldo GSM, y una lógica de informes inteligente basada en la ignición y el movimiento, Lommy Power 9B23 ofrece los datos a nivel de vehículo que los gerentes de flota y operadores de alquiler necesitan para la recuperación ante robo, la programación de mantenimiento preventivo y la facturación precisa de las horas de funcionamiento. Su compacto recinto IP65 y su instalación discreta lo convierten en un rastreador GPS compatible con Plaspy ideal para entornos exteriores exigentes.
+Como dispositivo compatible con Plaspy, Lommy Power 9B23 transmite posiciones y datos operativos a Plaspy para la visibilidad y gestión de la flota. Su reporte por eventos de encendido y movimiento, posicionamiento GNSS multiconstelación y conectividad celular con mecanismos de respaldo proporcionan las entradas a nivel vehículo que Plaspy usa para geocercas, alertas, informes de utilización y flujos de trabajo de mantenimiento para operadores de flotas y alquileres.
 
-## Aspectos clave
+## Aspectos destacados
 
-- Rastreador GPS compatible con Plaspy optimizado para el monitoreo continuo de maquinaria y flujos de trabajo de gestión de flotas.
-- Diseño cableado \(5–40 V\) sin batería interna: funcionamiento continuo mientras esté presente la batería de la máquina.
-- GNSS de múltiples constelaciones \(GPS, GLONASS, GALILEO, BEIDOU, QZSS\) con GNSS asistido y receptor de 33 canales para una localización precisa.
-- Conectividad celular: LTE Cat M1 \(B3/B8/B20\) con respaldo 2G cuád-banda y transmisión de datos vía UDP o SMS para una cobertura amplia.
-- Informes inteligentes: actualizaciones cada 2 minutos durante la operación o movimiento, señal de estado cada 24 horas cuando está estacionado e inmóvil; equilibra disponibilidad y bajo consumo de datos.
-- Telemetría a bordo: medición de corriente de la batería, detección de ignición/arranque y conteo de horas de funcionamiento para mantenimiento y facturación.
-- Hardware robusto: carcasa con clasificación IP65, formato compacto de 54 × 44 × 19 mm y amplio rango de temperatura de operación para uso exterior.
+- Rastreador GPS compatible con Plaspy, optimizado para monitoreo continuo de maquinaria y flujos de trabajo de gestión de flotas
+- Diseño de instalación fija que se alimenta del equipo para garantizar disponibilidad en línea mientras la batería del equipo esté presente
+- GNSS multiconstelación para posicionamiento confiable en entornos exteriores exigentes
+- Conectividad celular con backbone de baja potencia y respaldo para amplia cobertura y entrega consistente de datos
+- Lógica de reportes inteligente basada en encendido y movimiento para ofrecer actualizaciones oportunas durante la operación y conservar datos cuando está inactivo
+- Carcasa resistente y compacta con certificación IP65, adecuada para equipos expuestos y sitios de trabajo al aire libre
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, Lommy Power 9B23 transmite datos de posición y telemetría a los paneles y APIs de Plaspy para que puedas aprovechar el rastreo en tiempo real, alertas de geocerca, informes de utilización y disparadores de mantenimiento. La lógica de eventos del dispositivo \(ignición, movimiento, entradas auxiliares\) se asigna directamente a alertas y flujos de trabajo de Plaspy para notificaciones anti-robo, acumulación de horas de funcionamiento y supervisión operativa.
+Al conectarse a Plaspy, Lommy Power 9B23 envía posición y telemetría a los paneles y APIs de Plaspy para que usted pueda monitorear activos, configurar alertas y generar reportes de uso. El rastreador mapea su lógica de eventos interna a los flujos de trabajo de Plaspy, habilitando notificaciones automatizadas y decisiones basadas en datos en mantenimiento, seguridad y supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía LTE Cat M1 y respaldo 2G; configurado para entrega por UDP o SMS a los endpoints de Plaspy.
-- Eventos de ignición y movimiento: detección precisa de inicio/detención del motor y desplazamiento usando la medición de la corriente de la batería y un acelerómetro de 3 ejes.
-- Telemetría de horas de funcionamiento y utilización para la gestión de flotas, facturación y programación de mantenimiento preventivo.
-- Informes de entrada auxiliar \(opcional, cable verde\) para detectar implementos o actividad de equipos auxiliares y para facturación o conocimientos operativos.
-- Almacenamiento local \(2 MB de memoria flash interna\) almacena datos recientes si se interrumpe la conectividad celular, asegurando la continuidad para la ingestión en Plaspy cuando se restablece la conexión.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para visibilidad en vivo y mapeo de la flota
+- Reportes de eventos de encendido y movimiento usados para activar alertas de Plaspy ante desplazamientos no autorizados y monitoreo de arranques/paradas
+- Telemetría de horas de operación y utilización disponible en Plaspy para planificación de mantenimiento y facturación precisa
+- Entrada auxiliar y reportes de actividad de implementos mapeados a Plaspy para el monitoreo de accesorios y mayor visibilidad operacional
+- Buffer local de datos que mantiene registros recientes cuando la cobertura celular se interrumpe, de modo que Plaspy recibe continuidad de datos cuando se restablece la conectividad
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | FDD LTE Cat M1 \(Bandas B3/B8/B20\); GSM cuád-banda 2G \(850/900/1800/1900 MHz\); datos vía UDP o SMS |
-| --- | --- |
-| Bandas | LTE B3 / B8 / B20; GSM 850/900/1800/1900 |
-| Alimentación & Batería | Cableado a la batería de la máquina; rango operativo 5–40 V; sin batería recargable interna |
-| Interfaces | Cables rojo/negro de alimentación a +/–; entrada auxiliar opcional \(tercer cable\) para detección de equipo/actividad; medición de corriente de la batería para detección de eventos del motor |
-| GNSS | GPS, GLONASS, GALILEO, BEIDOU, QZSS con soporte SBAS; 33 canales de seguimiento; sensibilidad –166 dBm |
-| Bluetooth | No incluido \(el dispositivo utiliza antenas internas GNSS y LTE/GSM\) |
-| Almacenamiento Interno | 2 MB de memoria flash interna para almacenamiento local de datos |
-| Antenas | Antenas internas GNSS y LTE/GSM |
-| Formato & Peso | 54 × 44 × 19 mm; 42 g; carcasa con clasificación IP65 |
-| Especificaciones Ambientales | Rango de temperatura de operación –30 °C a +60 °C; CE, RoHS, WEEE certificados; manejo de servidor/datos alineado con ISAE3402 \(ref. ISO 27002\) |
-
-## Casos de uso
-
-- Gestión de flotas para equipos de construcción y agrícola: rastrea ubicación, horas de funcionamiento y utilización para optimizar la asignación de activos y reducir el tiempo ocioso.
-- Alquiler y contratación a corto plazo: informes precisos de horas de funcionamiento y alertas de geocerca respaldan la facturación, la aplicación de contratos y la prevención de pérdidas.
-- Planificación de mantenimiento preventivo: combina telemetría de horas de funcionamiento con alertas de Plaspy para programar el servicio antes de que ocurran fallos.
-- Antirrobo y recuperación: informes de movimiento, ignición y ubicación activan notificaciones de Plaspy y respaldan esfuerzos de recuperación coordinados.
-- Monitoreo de accesorios y auxiliar: utiliza la entrada auxiliar para detectar implementos o actividad de equipos secundarios para facturación o información operativa.
+- Monitoreo de maquinaria de construcción y agrícola para rastrear ubicación y horas de operación y así mejorar la asignación de activos
+- Flotas de alquiler y renta a corto plazo que requieren facturación basada en uso precisa y alertas basadas en geocercas
+- Programas de mantenimiento preventivo que se apoyan en las horas de operación para programar servicios antes de fallas
+- Flujos de trabajo de detección y recuperación por robo que utilizan movimiento, encendido y reportes de ubicación para alertar a los equipos
+- Monitoreo de implementos y auxiliares para registrar actividad de implementos con fines de facturación o análisis operativo
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir Lommy Power 9B23 como rastreador GPS compatible con Plaspy ofrece una combinación pragmática de alimentación continua, precisión de GNSS de múltiples constelaciones y hardware robusto para maquinaria al aire libre. Su backbone LTE Cat M1 con respaldo GSM ofrece una cobertura amplia y conectividad rentable, mientras que las reglas de informes inteligentes aseguran actualizaciones rápidas durante la operación y la conservación de datos cuando los activos están ociosos. Para los gestores de flotas y operadores de alquiler, la medición de horas de funcionamiento integrada y la detección de encendido basada en la corriente de la batería proporcionan telemetría confiable para mantenimiento, facturación y analítica de utilización.
+Lommy Power 9B23 es una opción práctica para organizaciones que usan Plaspy y necesitan monitoreo continuo alimentado por la máquina. Su carcasa compacta y resistente a la intemperie y su posicionamiento confiable lo hacen ideal para equipos exteriores, mientras que sus reportes por eventos y la telemetría de horas de operación se integran directamente en Plaspy para análisis de flota accionables. Para gerentes de flota y operadores de alquiler, esta combinación facilita la recuperación ante robos, la optimización de la utilización y la programación de mantenimientos sin depender de baterías internas del dispositivo.
 
-Integrado con Plaspy, Lommy Power 9B23 alimenta datos de rastreo en tiempo real, telemetría y eventos en paneles, alertas de geocerca y APIs para que los equipos puedan actuar rápidamente ante notificaciones de robo, programar servicios preventivos y generar informes de uso precisos. Aunque Lommy Power no incluye sensores Bluetooth, las plataformas de Plaspy pueden combinar su telemetría con otros flujos de sensores \(por ejemplo, sensores BLE de temperatura o monitoreo de combustible\) para crear una visión completa de telemática. Para flujos de trabajo que requieren control de inmovilizador o intervención remota del vehículo, Plaspy admite dichas capacidades donde la interfaz del vehículo y el hardware elegido lo permiten; Lommy Power proporciona los eventos esenciales de encendido y movimiento para respaldar una lógica de inmovilizador segura y acciones coordinadas.
-
-La instalación es sencilla: conecte la unidad de forma cableada a la batería de la máquina \(rojo a +, negro a −\) y use la entrada auxiliar opcional para los accesorios. Para una mejor recepción GNSS y celular, ubique la cara con la etiqueta y el borde delgado hacia el exterior y proteja las conexiones de cables contra el agua para preservar la garantía y la confiabilidad a largo plazo. Lommy Power 9B23 ofrece a los operadores un rastreador GPS resistente, compatible con Plaspy, diseñado para un monitoreo continuo y crítico de maquinaria en entornos extremadamente exigentes.
-
+To learn more about how Plaspy works with Lommy Power 9B23 and other compatible devices, visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details and compatibility with the manufacturer documentation at https://flextrack.dk.

@@ -2,60 +2,59 @@
 slug: /coban/bn_407
 id: bn_407
 sidebar_label: BN-407
+title: Coban - BN-407
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G compacto para bicicletas compatible con Plaspy que ofrece seguimiento discreto historial de viajes y gestión de flotas
+keywords:
+  - Coban BN-407
+  - rastreador BN-407
+  - rastreador para bicicleta Coban
+  - rastreador 4G para bicicleta
+  - compatible con Plaspy
+  - rastreador GPS BN-407
+  - seguimiento de flotas de bicicletas
+  - rastreador antirrobo para bicicleta
+  - rastreador integrado en cuadro
+  - seguimiento de bicicleta en tiempo real
 ---
+
 # Coban - BN-407
 
 ![BN-407](./tracker.png)
 
-El BN-407, rastreador GPS, es un compacto terminal de gestión para bicicletas con 4G, diseñado para instalación oculta dentro del cuadro. Como rastreador GPS compatible con Plaspy, el BN-407 ofrece seguimiento en tiempo real fiable, telemetría de movimiento y alertas configurables de geocerca para bicicletas de montaña, flotas compartidas y bicicletas personales, proporcionando una protección antirrobo discreta y un historial de conducción claro sin modificar la apariencia de la bicicleta.
+El BN-407 es un terminal de gestión para bicicletas 4G, compacto y diseñado para una instalación oculta dentro del cuadro. Pensado para protección antirrobo discreta y uso en flotas, ofrece actualizaciones de ubicación en vivo, telemetría de movimiento, alertas configurables por geocerca y reproducción de recorridos sin alterar la estética de la bicicleta. Su formato cilíndrico de pequeño tamaño y bajo peso lo hace ideal para bicicletas de montaña, flotas compartidas y bicicletas personales donde la resistencia a la manipulación y un montaje poco visible son prioritarios.
 
-Diseñado para operación de bajo consumo y uso práctico en campo, el BN-407 admite actualizaciones de ubicación en tiempo real, reproducción de trayectos y reporte de alarmas a través de LTE/GPRS. Su llave magnética inductiva y las estrategias de posicionamiento inteligente lo convierten en una opción ideal para la gestión de flotas, supervisión de trayectos de niños y casos de uso anti‑robo donde la larga duración de la batería, el posicionamiento preciso y la fácil integración con Plaspy son importantes.
+Como rastreador GPS compatible con Plaspy, el BN-407 entrega los datos de ubicación y eventos básicos que Plaspy necesita para monitoreo en tiempo real y revisión histórica. Al integrarlo con Plaspy, los reportes de seguimiento, las alarmas de movimiento y las notificaciones de geocerca forman parte de un flujo unificado de gestión de flota o activos, ayudando a operadores y usuarios a mantener visibilidad sobre recorridos, eventos y estado de batería sin sacrificar una instalación discreta.
 
-## Aspectos clave
+## Características principales
 
-- Dispositivo compatible con Plaspy para seguimiento en tiempo real y telemetría adaptados a bicicletas y activos pequeños.
-- Soporte de red 4G/LTE y GPRS con variantes de banda regional para despliegue global y conectividad fiable.
-- Varias alarmas de movimiento y seguridad: choques, movimiento, exceso de velocidad, batería baja y notificaciones de geocerca.
-- Formato oculto, incrustado en el cuadro \(Ø35×160 mm, 50 g\) para instalación antirrobo discreta.
-- Batería recargable de 3.7V 700 mAh con carga USB 5V y modos de bajo consumo para ampliar la autonomía.
-- Estrategia de posicionamiento inteligente: funciona offline cuando está estacionario y reporta de inmediato ante llamadas, SMS o alarmas para conservar la batería.
-- Soporta transporte TCP/UDP/SMS para una integración flexible en Plaspy y otras plataformas de back-end.
+- Diseñado específicamente para bicicletas con un formato integrado en el cuadro que minimiza el impacto estético y el riesgo de manipulación.
+- Rastreo en tiempo real y reproducción de recorridos para historial de viajes y revisión de rutas.
+- Alarmas de movimiento y seguridad, incluyendo detección de choque, movimiento, exceso de velocidad, batería baja y notificaciones por geocerca, para apoyar flujos de trabajo de antirrobo y seguridad.
+- Funcionamiento de bajo consumo con estrategias inteligentes de posicionamiento para extender la autonomía entre cargas.
+- Batería recargable y carga por USB para uso práctico en campo y mantenimiento sencillo.
+- Soporte multipropósito de modos de transporte y compatibilidad de red para operaciones regionales e integración con plataformas de seguimiento como Plaspy.
 
 ## Cómo funciona con Plaspy
 
-El BN-407 se integra con Plaspy para entregar inteligencia de ubicación continua y alertas basadas en eventos. La ubicación y la telemetría se envían a través de LTE/GPRS usando TCP, UDP o SMS; Plaspy procesa esos datos para proporcionar seguimiento en tiempo real, reproducción de historial y notificaciones basadas en reglas. Las salidas de alarma y la detección de movimiento del dispositivo permiten a Plaspy activar flujos de trabajo de anti‑robo e informes de gestión de flotas de forma instantánea.
+El BN-407 envía datos de posición y eventos a Plaspy, donde se procesan para monitoreo en vivo, alertas basadas en reglas y reproducción histórica. Plaspy traduce la telemetría del dispositivo en mapas, reportes y notificaciones para que los administradores de flota y los usuarios puedan supervisar la actividad a distancia y reaccionar ante incidentes de forma rápida.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para seguimiento en vivo y reproducción histórica.
-- Reporte de alarmas — batería baja, choque, movimiento, exceso de velocidad y geocerca — mapeado a alertas y flujos de trabajo de Plaspy.
-- Comportamiento inteligente offline/online: conserva la batería cuando está estacionario y se activa para llamadas, SMS o alarmas, asegurando reportes a tiempo.
-- Activación/desactivación por llave inductiva \(magnética\) reconocida por el dispositivo e reportada a través de Plaspy para un control seguro de encendido/apagado.
-- La compatibilidad de transporte TCP/UDP/SMS permite a Plaspy gestionar dispositivos en diferentes entornos de red y regiones.
+- Las actualizaciones de ubicación en tiempo real y la telemetría aparecen en Plaspy para seguimiento en vivo y visualización en mapas.
+- Eventos de alarma como choque, movimiento, exceso de velocidad, geocerca y batería baja se mapean a alertas y flujos automatizados en Plaspy.
+- La reproducción de recorridos en Plaspy utiliza el historial del dispositivo para revisión de incidentes, análisis de rutas e informes de utilización.
+- Un comportamiento inteligente fuera de línea conserva batería cuando el dispositivo está estacionario y asegura reportes oportunos ante alarmas o movimiento, proporcionando supervisión confiable.
+- Los cambios de estado del equipo, como activación y desactivación mediante llave inductiva, se reportan y pueden reflejarse en los indicadores de estado dentro de Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Nombre del producto | Rastreador GPS \(BN-407, Modelo 407\) |
-| --- | --- |
-| Conectividad | GPRS / LTE \(4G\) |
-| Bandas | América Latina: B2/B3/B4/B5/B7/B8/B28A/B28B; América del Norte: B2/B4/B5/B7/B12/B13/B66/B28A; Eurasia/África: B1/B3/B5/B7/B8/B20/B28A/B40 |
-| Protocolos de transporte | TCP, UDP, SMS |
-| Alimentación & Batería | Carga USB 5V; batería recargable de litio 3.7V 700 mAh |
-| Interfaces | Llave de armado/desarme inductiva \(magnética\); incluido cable de carga/datos |
-| GNSS | Receptor GNSS de alta precisión; sensibilidad GPS -165 dBm; precisión ~5 metros; TTFF — Cold ~45 s, Warm ~35 s, Hot ~1 s |
-| Condiciones de operación | Temperatura de operación -20°C a +45°C; Almacenamiento -40°C a +85°C; Humedad 5%–95% sin condensación |
-| Factor de forma | Diseño cilíndrico compacto Ø35×160 mm, 50 g — instalación oculta en el cuadro de la bicicleta |
-| Gestión remota | Firmware, guías de instalación y manuales disponibles en la página de descargas del fabricante; comandos de configuración por SMS soportados |
-
-## Casos de uso
-
-- Protección y recuperación antirrobo: rastreo GNSS discretamente incrustado y alertas instantáneas de geocerca/choque para ayudar a localizar bicicletas robadas.
-- Gestión de flotas para operadores de bicicletas compartidas o de alquiler: informes compatibles con Plaspy y reproducción de rutas para monitoreo de utilización y análisis de rutas.
-- Supervisión de paseos de niños y seguridad: los padres reciben ubicación y alertas de movimiento en tiempo real para paseos supervisados.
-- Historial de recorridos y revisión de incidentes: trazas GPS precisas \(~5 m\) para reproducción tras eventos o para revisión de desempeño.
+- Protección antirrobo discreta y recuperación de bicicletas privadas y bicicletas de alto valor.
+- Gestión de flotas de bicicletas compartidas o de alquiler, con seguimiento de utilización, historial de rutas y alertas.
+- Supervisión de paseos de menores, ofreciendo a padres o tutores visibilidad de ubicación y alertas de movimiento.
+- Historial de recorridos y revisión de incidentes para análisis de rendimiento o conciliación de eventos.
+- Rastreo de pequeños activos donde la instalación oculta y larga autonomía sean prioritarias.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El BN-407 combina un hardware compacto con la plataforma de Plaspy para ofrecer una solución centrada para el rastreo y la gestión de bicicletas. Su instalación oculta, su bajo peso y sus estrategias inteligentes de consumo reducen la manipulación y maximizan la disponibilidad—beneficios clave para escenarios de anti‑robo y gestión de flotas. Con soporte 4G multi‑band y un rendimiento GNSS robusto, el BN-407 ofrece un rastreo en tiempo real y telemetría confiables hacia Plaspy para alertas inmediatas, reproducción histórica y reportes operativos.
+El BN-407 combina un diseño de hardware pensado para bicicletas con la plataforma de seguimiento de Plaspy para ofrecer una solución práctica de rastreo discreto y supervisión de flotas. Su pequeño factor de forma, comportamiento de bajo consumo y alarmas configurables lo convierten en una opción adecuada cuando la discreción, la disponibilidad y historiales de viaje claros son importantes. Con Plaspy, organizaciones e individuos pueden consolidar los datos de ubicación y eventos del BN-407 en mapas, reportes y alertas que apoyen decisiones operativas y respuestas ante robos.
 
-Aunque el BN-407 está optimizado para telemetría de bicicletas en lugar de monitoreo de combustible de vehículos o datos de sensores BLE, es un rastreador GPS compatible con Plaspy eficaz para organizaciones e individuos que necesitan ubicación precisa, reglas de alarma configurables e una integración sencilla. Para implementaciones que requieren telemetría consolidada, incluido monitoreo de combustible o sensores Bluetooth \(BLE\), Plaspy puede ingerir y correlacionar datos de dispositivos complementarios junto a las unidades BN-407 para crear una solución completa de gestión de flotas o activos.
-
+Para más información sobre el funcionamiento de las unidades BN-407 con Plaspy visite https://www.plaspy.com para detalles de la plataforma y sus capacidades. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por favor verifique las especificaciones técnicas actuales y descargue la documentación oficial en el sitio del fabricante https://www.coban.net/ para obtener la información más reciente.

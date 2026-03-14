@@ -2,63 +2,61 @@
 slug: /reachfar/rf_v23
 id: rf_v23
 sidebar_label: RF-V23
+title: Reachfar - RF-V23
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS resistente RF V23 de larga autonomía compatible con Plaspy para gestión de flotas y monitoreo de activos exteriores
+keywords:
+  - Reachfar RF V23
+  - rastreador RF V23
+  - rastreador Reachfar
+  - RF V23 compatible con Plaspy
+  - rastreador GPS RF V23
+  - seguimiento de flotas RF V23
+  - rastreador de activos exteriores
+  - rastreador GPS solar
+  - rastreador GPS IP66
+  - rastreador GPS de larga duración
 ---
+
 # Reachfar - RF-V23
 
 ![RF-V23](./tracker.jpg)
 
-# RF-V23 / RF-V22 4G Multifunctional GPS Tracker
+El RF-V23 es un rastreador GPS robusto y de larga autonomía diseñado para la protección de activos en exteriores y el monitoreo remoto continuo. Se ofrece en configuraciones que incluyen una batería de gran capacidad y carga solar opcional, y su carcasa cumple con la protección IP66 para entornos exigentes. El equipo soporta posicionamiento GNSS y múltiples modos de localización para mantener un seguimiento confiable de vehículos y maquinaria de campo, minimizando las visitas de mantenimiento.
 
-El RF-V23 \(y su hermano RF-V22\) es un rastreador GPS robusto y de larga duración, diseñado para la protección de activos al aire libre y el monitoreo continuo. Con opciones de carga solar, protección IP66 y una batería de alta capacidad de 9000 mAh, este rastreador GPS compatible con Plaspy ofrece un seguimiento en tiempo real confiable y una operación prolongada en campo sin mantenimientos frecuentes.
-
-Construido sobre una plataforma RTOS ASR3603S con un núcleo único ARM Cortex‑R5, el RF-V23 admite conectividad multinaional \(GSM, WCDMA y FDD‑LTE Cat‑1\), posicionamiento GNSS, posicionamiento WiFi y gestión avanzada de energía. Cuando se integra con Plaspy, la unidad se convierte en una solución llave en mano para la gestión de flotas, protección antirrobo y reporte de telemetría para vehículos remotos y equipos al aire libre.
+Como dispositivo compatible con Plaspy, el RF-V23 puede transmitir la ubicación y el estado del equipo a Plaspy para proporcionar visibilidad centralizada y control operativo. Sus características de larga duración, detección de manipulación y alertas por voz lo hacen adecuado para gestores de flotas y responsables de activos que requieren datos de localización persistentes, notificaciones oportunas y reproducción histórica en los paneles y reportes de Plaspy.
 
 ## Aspectos destacados
 
-- Compatible con Plaspy para un seguimiento en tiempo real sin interrupciones y gestión de flotas a través de aplicaciones web y móviles.
-- Gran autonomía: batería integrada de 9000 mAh y modelo opcional de carga solar para uso extendido fuera de la red.
-- Diseño robusto para exteriores: clasificación IP66 y una carcasa compacta y resistente \(97×69×31 mm, 255 g\).
-- Posicionamiento preciso: receptor GNSS de 72 canales con AGPS \(precisión típica de 5–15 m, arranque en frío en ~28 s\).
-- Localización en múltiples modos: GPS, LBS \(de 100 a 1000 m\) y posicionamiento WiFi \(de 5 a 50 m\) para obtener soluciones fiables en entornos difíciles.
-- Funciones de seguridad prácticas: voz bidireccional SOS, monitoreo de voz a distancia, alertas sonoras y detección de manipulación por infrarrojos.
-- Operación de bajo consumo: consumo en espera ultrabajo y intervalos de subida configurables para maximizar la vida de la batería.
+- Compatible con Plaspy para seguimiento en tiempo real y gestión centralizada de flotas.
+- Diseño de larga autonomía con batería de alta capacidad y opción de carga solar para operación prolongada fuera de red.
+- Construcción resistente para exteriores con protección IP66 y formato compacto apropiado para montaje en equipos y activos.
+- Posicionamiento multimodal que combina GNSS, detección WiFi y LBS para mejorar la fiabilidad del fix en entornos variados.
+- Funciones de seguridad prácticas como SOS con voz bidireccional, monitoreo de voz remoto, alertas sonoras y detección de manipulación.
+- Bajo consumo y tiempos de reporte configurables para equilibrar visibilidad y duración de batería.
+- Diseñado para soportar casos de uso de monitoreo continuo como seguimiento de vehículos y equipos.
 
 ## Cómo funciona con Plaspy
 
-Al combinarse con Plaspy, el RF-V23 transmite la ubicación y la telemetría del dispositivo a la plataforma Plaspy prácticamente en tiempo real. Plaspy procesa datos de posición GNSS, WiFi y LBS junto con el estado del dispositivo, habilitando vistas de mapas, geocercas, alertas y reproducción histórica. La integración es sencilla para flotas y gestores de activos que requieren visibilidad continua y notificaciones accionables.
+Al integrarse con Plaspy, el RF-V23 envía datos de ubicación e indicadores de salud del dispositivo a la plataforma Plaspy para mapeo, alertas y generación de informes. Plaspy agrega entradas de posición GNSS, WiFi y basadas en red junto con el estado del equipo, de modo que los equipos pueden monitorear activos en tiempo real y revisar movimientos históricos.
 
-- Actualizaciones en tiempo real de ubicación y telemetría a Plaspy para monitoreo en vivo y paneles de control.
-- Reproducción de rutas históricas \(hasta 90 días\) para auditoría de viajes y revisión de incidentes.
-- Soporte de geocercas \(geocerca GPS y WiFi\) con alertas instantáneas de entrada/salida.
-- Alertas remotas y detección de manipulación mediante sensor de distancia infrarrojo, zumbador sonoro y voz bidireccional SOS.
-- Cargas de respaldo en puntos ciegos y procesamiento de deriva de posición para mejorar la precisión en áreas con cobertura intermitente.
-- Configuración y comandos del dispositivo vía app, plataforma y SMS \(números de monitor principal, alertas de arranque, encendido/apagado programado y timbrado remoto\).
+- Actualizaciones de ubicación en vivo y telemetría del dispositivo alimentan los paneles de Plaspy para la supervisión operativa.
+- Creación de geocercas y alertas instantáneas por entradas y salidas para proteger activos y gestionar zonas.
+- Reproducción histórica de rutas para revisar viajes y auditar operaciones en periodos retenidos.
+- Alertas por manipulación y SOS reenviadas a Plaspy para activar notificaciones y flujos de respuesta.
+- Informes de batería y estado del dispositivo para ayudar a programar mantenimiento y reducir tiempos de inactividad.
+- Intervalos de subida configurables y subidas suplementarias en puntos ciegos para mejorar la continuidad de datos en áreas con cobertura intermitente.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Connectivity | GSM, WCDMA y FDD‑LTE \(4G Cat‑1\) |
-| --- | --- |
-| Bands | Multi-network support; specific RF bands depend on product variant and region |
-| Power & Battery | Built-in 9000mAh battery; solar charge model available; magnetic USB charging; battery charge protection and lithium charging circuit; ultra-low power modes \(standby ~5 mA/h, typical working ~8 mA/h with 10‑minute uploads\) |
-| Interfaces & I/O | SOS two-way voice, remote voice monitoring, audio buzzer alerts, infrared distance sensing \(tamper detection\), multiple indicator LEDs, SMS command support, remote ringing and configurable monitor numbers |
-| GNSS | L1 1575.42 MHz C/A, 72‑channel receiver, AGPS support; typical accuracy 5–15 m; cold start ~28 s |
-| WiFi | Internal WiFi module 802.11b/g/n for hotspot detection and WiFi positioning \(approx. 5–50 m\) |
-| Bluetooth | Not specified |
-| Remote Management | Configuration via mobile app and web platform; SMS configuration commands supported \(no FOTA explicitly specified\) |
-| Form Factor & Durability | 97 × 69 × 31 mm; 255 g; IP66 waterproof rating; options for collar, magnetic or screw holders; solar-charge capable variant |
-
-## Casos de uso
-
-- Gestión de flotas y monitorización de rutas para vehículos ligeros, remolques y flotas de servicio que requieren una alta autonomía entre cargas.
-- Protección antirrobo para activos y equipos al aire libre con SOS, timbrado remoto y alertas de manipulación enviadas a Plaspy.
-- Monitoreo remoto de equipos en sitios de trabajo donde la carga solar y la protección IP66 reducen las visitas de mantenimiento.
-- Reproducción histórica de rutas y generación de informes de cumplimiento para operaciones que requieren hasta 90 días de datos de rutas.
-- Seguimiento de ubicación híbrido en el que GNSS se complementa con WiFi y LBS para mantener cobertura en cañones urbanos o interiores.
+- Gestión de flotas y monitoreo de rutas para vehículos livianos, remolques y flotas de servicio que requieren larga autonomía.
+- Protección antirrobo para equipos y activos exteriores mediante SOS, timbrado remoto y alertas por manipulación.
+- Monitoreo de equipos en sitios remotos donde la carga solar y la protección IP66 reducen visitas y mantenimiento.
+- Reproducción histórica de viajes y revisión de cumplimiento para operaciones que necesitan registros de ruta.
+- Seguimiento híbrido que combina GNSS con WiFi y posicionamiento por red en entornos urbanos o parcialmente cubiertos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El RF-V23 es un rastreador GPS compatible con Plaspy diseñado para clientes que requieren un seguimiento robusto y de larga duración con modos de posicionamiento flexibles. Su batería de gran tamaño, la carga solar opcional y un diseño de bajo consumo reducen los costos operativos al disminuir los ciclos de recarga y las visitas a sitios. Ayudado por Plaspy, obtienes un seguimiento en tiempo real fiable, geocercas, alertas y analítica histórica—ideal para la gestión de flotas, programas anti‑robo y operaciones impulsadas por telemetría.
+El RF-V23 es ideal para organizaciones que necesitan un dispositivo de seguimiento durable y de larga autonomía combinado con una plataforma completa de gestión de flotas y activos. Su mezcla de larga vida de batería, carga solar opcional y múltiples métodos de posicionamiento ayuda a mantener la visibilidad en despliegues remotos y exteriores mientras reduce la frecuencia de visitas al sitio. Integrado con Plaspy, la unidad forma parte de una solución completa para monitoreo en tiempo real, alertas y análisis históricos.
 
-Para despliegues que requieren telemetría vehicular ampliada, como monitoreo de combustible, estado de encendido o control del inmovilizador, Plaspy puede combinar la ubicación y la salud del dispositivo RF-V23 con fuentes de datos del vehículo o interfaces externas para crear una solución completa de gestión de flotas. El soporte del RF-V23 para monitoreo por voz, alertas de manipulación y cargas en puntos ciegos lo hace especialmente útil cuando la seguridad y la conciencia situacional continua son críticas.
-
+Si desea explorar cómo el RF-V23 puede integrarse en su programa de gestión de flotas o activos, Plaspy ofrece las herramientas para visualizar ubicaciones, configurar alertas y analizar datos de dispositivos en contexto. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com y verifique las especificaciones y disponibilidad actuales en el sitio del fabricante https://www.reachfargps.com/ . Las especificaciones y la disponibilidad de los productos pueden cambiar con el tiempo, por lo que le recomendamos consultar la documentación oficial del fabricante para obtener los detalles más recientes.

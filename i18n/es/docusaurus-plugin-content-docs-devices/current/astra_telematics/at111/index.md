@@ -2,57 +2,60 @@
 slug: /astra_telematics/at111
 id: at111
 sidebar_label: AT111
+title: Astra Telematics - AT111
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto Astra Telematics AT111 compatible con Plaspy para seguimiento de flotas, telemetría y protección de activos
+keywords:
+  - Astra Telematics AT111
+  - AT111 rastreador GPS
+  - AT111 compatible con Plaspy
+  - AT111 seguimiento de flotas
+  - AT111 telemetría
+  - rastreador Astra Telematics
+  - rastreador compatible con Plaspy
+  - AT111 seguimiento de activos
+  - AT111 antena externa
+  - AT111 LTE M
 ---
+
 # Astra Telematics - AT111
 
 ![AT111](./tracker.jpg)
 
-El Astra Telematics AT111 es un rastreador GPS compacto, compatible con Plaspy, diseñado para instalaciones telemáticas profesionales que requieren antenas externas. Construido sobre la plataforma AT241, el AT111 ofrece conectividad 4G-LTE-M y 2G, posicionamiento GNSS multi-constelación, I/O amplio y un resistente formato de aluminio — todo ello concebido para un tracking y telemetría en tiempo real fiables en gestión de flotas, monitorización de plantas y aplicaciones anti‑robo.
+El Astra Telematics AT111 es un rastreador GPS compacto pensado para instalaciones telemáticas profesionales que requieren colocar antenas externas. Basado en la plataforma probada AT241, el AT111 ofrece conectividad celular multinetwork y posicionamiento GNSS multiconstelación en una resistente carcasa de aleación de aluminio. Su conjunto de funciones y su factor de forma lo hacen adecuado para seguimiento en tiempo real, telemetría y protección de activos en vehículos y maquinaria pesada.
 
-El AT111 se integra a la perfección con Plaspy para soluciones de gestión de flotas y protección de activos. Con opciones de antena GNSS y GSM externas, acceso sencillo a Micro SIM, una batería de respaldo de 950mAh y ricas interfaces que incluyen CANBus, RS232 y 1-Wire, el AT111 es ideal cuando se requiere una vista satelital sin obstrucciones o una colocación flexible de la antena. Astra Telematics respalda el dispositivo con una garantía de 5 años y actualizaciones del sistema de por vida para mantener las integraciones con Plaspy actualizadas y seguras.
+Como dispositivo compatible con Plaspy, el AT111 se integra en los flujos de trabajo de gestión de flotas y monitoreo de activos para aportar datos de ubicación, telemetría y eventos a los paneles e informes de Plaspy. Las opciones de antena GNSS y GSM externas, el acceso sencillo a la SIM y una batería de respaldo hacen que la unidad sea práctica en instalaciones donde la ubicación de la antena o el montaje oculto son importantes, mientras que las actualizaciones continuas del sistema y la garantía de varios años ayudan a mantener las integraciones actualizadas.
 
 ## Aspectos destacados
 
-- Rastreador GPS compatible con Plaspy: integración de seguimiento en tiempo real y telemetría para paneles de control, alertas e informes.
-- Comunicaciones móviles multinetwork: GSM/GPRS \(2G\), LTE‑M \(4G\) con capacidad NB‑IoT para amplia cobertura y conectividad a prueba de futuro.
-- Flexibilidad de antena externa: opciones de montaje en techo, en parabrisas, magnético o adhesivo para mantener el rendimiento GNSS/GSM en instalaciones limitadas.
-- I/O y interfaces de vehículo completas: 6 entradas digitales, 5 salidas, 2 ADC, 2 puertos RS232, CANBus y 1-Wire para integraciones robustas de sensores y encendido/inmovilizador.
-- Batería de respaldo integrada \(950mAh\): mantiene activos el reporte y la monitorización anti‑robo ante una pérdida de energía \(aprox. 7 días en modo de bajo consumo con informe diario\).
-- Construcción compacta y resistente: carcasa tipo sándwich de aleación de aluminio con LEDs externos y acceso sencillo a Micro SIM para instalaciones profesionales.
-- Personalización y soporte: personalización de hardware e informes disponible a través de Astra Telematics y guías de integración descargables y referencias de comandos.
+- Rastreador GPS compatible con Plaspy para integración de ubicación en vivo, telemetría y alertas.
+- Conectividad celular multinetwork con LTE M y soporte 2G para amplia cobertura.
+- Posicionamiento GNSS multiconstelación con opciones de antena externa para mejor recepción.
+- Amplias entradas y salidas y conexiones vehiculares, incluyendo CANBus, RS232 y 1 Wire para captura de telemetría.
+- Batería de respaldo integrada para mantener reportes durante la pérdida de alimentación primaria.
+- Carcasa compacta y resistente de aleación de aluminio, adecuada para instalaciones telemáticas profesionales.
+- Garantía del fabricante y actualizaciones del sistema para respaldar despliegues a largo plazo.
 
 ## Cómo funciona con Plaspy
 
-El AT111 envía la posición, los sensores y la telemetría del vehículo a Plaspy a través de redes celulares. Plaspy procesa soluciones GNSS, marcos CANBus, entradas digitales y analógicas, y otros datos de telemetría para proporcionar ubicación en tiempo real, historial de rutas, alertas e informes de cumplimiento. Los instaladores pueden usar los conectores de antena externa del AT111 para colocar antenas que optimicen el rendimiento RF mientras se monta el rastreador en ubicaciones ocultas o protegidas.
+El AT111 transmite posiciones, sensores y telemetría del vehículo a través de redes celulares hacia Plaspy, donde esos datos se incorporan a mapas, registros históricos, alertas e informes. Plaspy usa las corrientes de telemetría y eventos del dispositivo para proporcionar conciencia situacional, supervisión operativa y notificaciones configurables para equipos de flotas y gestión de activos. Las conexiones para antenas externas permiten a los integradores ubicar las antenas en los puntos de mejor recepción mientras colocan el rastreador en lugares discretos o protegidos.
 
-- Actualización de ubicación y telemetría en tiempo real: datos GNSS multi‑constelación \(GPS, Galileo, GLONASS, Beidou\) transmitidos a Plaspy para un mapeo preciso y geocercas.
-- Encendido, estado de puertas y alarma: detecta y transmite eventos de encendido del vehículo y de puertas/alarma mediante entradas digitales y señales CANBus.
-- Monitoreo de combustible y telemetría del vehículo: aprovecha las entradas CANBus y ADC para alimentar el nivel de combustible y la telemetría del motor en los informes y paneles de Plaspy.
-- Control remoto del inmovilizador: implementar flujos de inmovilización remota y desactivación del motor mediante salidas digitales controladas a través de los canales de comandos de Plaspy.
-- Sensores y balizas Bluetooth: aunque el AT111 no incluye BLE integrado, Plaspy admite datos de sensores BLE correlacionados cuando se utilizan junto con gateways BLE o hardware complementario, de modo que se puede combinar sensores ambientales con la ubicación y telemetría del AT111.
+- Actualizaciones en tiempo real de ubicación y telemetría transmitidas a Plaspy para mapeo e historial de rutas.
+- Reporte de eventos y estados como encendido, puertas y señales de alarma capturadas mediante entradas digitales y CANBus.
+- Telemetría del vehículo y datos relacionados con combustible integrados en los informes de Plaspy a partir de CANBus y entradas analógicas.
+- Flujos de trabajo de control remoto, como comandos de inmovilizador, ejecutados mediante salidas digitales y los canales de comando de Plaspy.
+- Soporte para combinar datos de sensores externos o gateways para que flujos BLE u otros sensores se correlacionen con la ubicación y telemetría del AT111 en Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS \(2G\) + LTE‑M \(4G\), capaz NB‑IoT |
-| --- | --- |
-| Bandas | Soporte multired \(las bandas específicas dependen del modelo regional y del operador móvil\) |
-| Alimentación y batería | Voltaje de operación: mínimo 6.0 V a máximo 50.0 V; Batería de respaldo interna: 950 mAh \(aprox. 7 días en modo de bajo consumo con informe diario\) |
-| Interfaces | 6 entradas digitales, 5 salidas digitales, 2 entradas ADC, 2 puertos RS232, CANBus, 1-Wire/Dallas, salida AUX 3.3V, acceso a Micro SIM |
-| GNSS | GPS, Galileo, GLONASS y Beidou \(antena GNSS externa, tipo patch de 25 mm\) |
-| Bluetooth | No incluido \(utilice gateways BLE para correlacionar sensores BLE con Plaspy si es necesario\) |
-| Gestión remota | Actualizaciones de sistema de por vida de Astra Telematics; configuración y referencia de comandos disponible para la integración \(FOTA no especificado\) |
-| Forma y tamaño | Construcción compacta tipo sándwich de aleación de aluminio, conectores de antena GNSS/GSM externos, LEDs externos, ranura Micro SIM |
-
-## Casos de uso
-
-- Gestión de flotas y optimización de rutas: datos de ubicación en tiempo real y telemetría CANBus alimentan Plaspy para despacho eficiente e informes de rendimiento.
-- Antirrobo de flotas e inmovilización: instalación discreta con antenas externas y salidas digitales permiten flujos de inmovilización remota y respuesta ante robos.
-- Monitorización de plantas, maquinaria y activos: ideal cuando se necesita una antena GNSS remota para una localización precisa de equipos de alto valor.
-- Monitoreo de combustible y diagnóstico del motor: combine tramas CANBus y entradas ADC para registrar consumo de combustible, horas de motor y telemetría de diagnóstico en Plaspy.
-- Evaluación e implementación rápida: el kit de evaluación EK111 agrupa AT111 con cableado y opciones de antena para pruebas rápidas e integración de prueba de concepto con Plaspy.
+- Gestión de flotas y monitoreo de rutas para operaciones de logística, servicio y transporte.
+- Antirrobo e inmovilización remota para vehículos y activos de alto valor.
+- Rastreo de maquinaria y equipos en planta cuando se requiere colocar antenas externas para visibilidad GNSS.
+- Monitoreo de combustible y telemetría del motor para mantenimiento y control de costos.
+- Evaluaciones rápidas y despliegues piloto usando cableado y opciones de antena incluidos en kits.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El AT111 es una opción práctica cuando se necesita un rastreador GPS compatible con Plaspy que combine un embalaje compacto con características telemáticas profesionales. Su flexibilidad de antena externa resuelve los desafíos de instalación comunes donde son necesarias antenas en techo o en parabrisas para una recepción GNSS consistente. Amplias I/O, CANBus y puertos seriales permiten a los integradores capturar encendido, estado de puertas, métricas de combustible y otra telemetría del vehículo sin gateways adicionales. Combinado con los paneles, alertas e informes de Plaspy, el AT111 ofrece seguimiento en tiempo real fiable, telemetría y capacidades anti‑robo para flotas y activos. Respaldado por la garantía de 5 años de Astra Telematics, actualizaciones de por vida y soporte de personalización, el AT111 está diseñado para escalar desde pilotos de un solo vehículo hasta implementaciones de grandes flotas con rutas de integración predecibles.
+El AT111 es una opción práctica cuando necesita un rastreador compacto y compatible con Plaspy que ofrezca capacidades telemáticas profesionales. La flexibilidad para antenas externas resuelve desafíos comunes de instalación y ayuda a garantizar recepción GNSS constante incluso desde ubicaciones de montaje ocultas. La combinación de múltiples interfaces vehiculares, batería de respaldo y construcción robusta lo hace idóneo para flotas y monitoreo de activos donde la telemetría confiable y el reporte ininterrumpido son críticos.
 
+Elegir el AT111 con Plaspy ofrece a las organizaciones una ruta de integración clara desde la telemetría del dispositivo hasta paneles, alertas e informes operativos. Para más detalles sobre Plaspy y cómo funciona con dispositivos como el AT111, aprenda más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y el soporte del fabricante pueden cambiar con el tiempo, así que por favor verifique los detalles técnicos actuales y la información de garantía con el fabricante en https://astratelematics.com/.

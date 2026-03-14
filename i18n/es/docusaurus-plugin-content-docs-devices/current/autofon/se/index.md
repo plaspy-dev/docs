@@ -2,65 +2,60 @@
 slug: /autofon/se
 id: se
 sidebar_label: SE-Маяк
+title: AutoFon - SE-Маяк
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto AutoFon SE-Маяк GPS y GLONASS compatible con Plaspy para seguimiento encubierto de vehículos y personas con GPRS y SMS
+keywords:
+  - AutoFon SE-Маяк
+  - rastreador SE-Маяк
+  - rastreador AutoFon
+  - rastreador compatible con Plaspy
+  - rastreador GPS GLONASS
+  - rastreador encubierto
+  - rastreador de larga batería
+  - informes GPRS SMS
+  - baliza de seguridad vehicular
+  - monitoreo de audio SOS
 ---
+
 # AutoFon - SE-Маяк
 
 ![SE-Маяк](./tracker.jpg)
 
-# АвтоФон SE-Маяк — Compact Plaspy-compatible GPS/GLONASS Tracker
+El AutoFon SE-Маяк es una baliza compacta y autónoma con GPS y GLONASS, diseñada para el monitoreo discreto y prolongado de vehículos, bienes y personas. Está concebida para un consumo muy bajo y funcionamiento sellado sin necesidad de mantenimiento, y proporciona reportes de ubicación y mensajes de eventos a través de canales GSM. El equipo integra detección de movimiento, detección de impactos, un micrófono incorporado para monitoreo de audio remoto, un micro botón SOS y un amplio almacenamiento interno de paquetes para su posterior subida.
 
-El АвтоФон SE-Маяк es un rastreador GPS/GLONASS compacto y autónomo, diseñado para el monitoreo encubierto a largo plazo de vehículos, activos y personas. Construido sobre la plataforma v.6.x y utilizando un módem GSM QUECTEL M12 con el chipset GPS SIM68R, esta baliza compatible con Plaspy ofrece informes de ubicación confiables a través de GPRS o SMS, manteniendo dimensiones muy reducidas y una autonomía de batería excepcional.
+Como rastreador compatible con Plaspy, el SE-Маяк puede enviar sus datos de ubicación y eventos a Plaspy para obtener visibilidad en tiempo real y reproducción histórica. Su reporte por GPRS con respaldo por SMS y la configuración flexible de latidos y alarmas lo hacen apropiado para despliegues donde la autonomía prolongada, la colocación encubierta y la entrega fiable de alertas son prioritarias. Plaspy puede aprovechar la información del dispositivo para generar alertas, reportes y vistas operativas que respalden procesos de antirobo y monitoreo remoto.
 
-Ideal para instalación encubierta en automóviles, motocicletas, embarcaciones, contenedores o para la seguridad personal, el SE-Маяк combina posicionamiento GLONASS+GPS, un extenso respaldo LBS basado en GSM, detección de movimiento e impactos impulsada por acelerómetro, un micrófono integrado para monitoreo de audio remoto y un micro-botón SOS. Su larga autonomía y la carcasa sellada lo convierten en una opción sólida para despliegues que requieren rastreo en tiempo real discreto y telemetría sin mantenimiento.
+## Características principales
 
-## Puntos destacados
-
-- Rastreador GPS compatible con Plaspy que informa coordenadas vía GPRS a un servidor de monitoreo o por SMS a números autorizados.
-- GNSS dual \(GLONASS + GPS\) para una mejor cobertura satelital y posicionamiento más preciso.
-- Diseño de extremely low-power: dos baterías de litio CR123A de 3.0V \(1.500 mAh cada una\); autonomía de hasta 2 años.
-- Inteligencia de movimiento avanzada a partir de un acelerómetro digital incorporado — inicio de movimiento, impacto \(>8G\) y detección de vuelco.
-- Micrófono integrado y micro-botón SOS para monitoreo de audio remoto y alertas inmediatas — admite flujos de trabajo anti-robo y de seguridad personal.
-- Almacenamiento offline robusto \("black box"\) para hasta 98,000 paquetes GPRS para su posterior carga y lógica fiable de reintentos para alarmas no enviadas.
-- Carcasa sellada sin cableado externo para instalación encubierta y menor riesgo de manipulación.
+- Carcasa compacta y sellada diseñada para colocación discreta y menor exposición a manipulaciones.
+- Posicionamiento GNSS dual mediante GLONASS y GPS para mayor cobertura satelital.
+- Autonomía prolongada ideal para despliegues extendidos sin mantenimiento frecuente.
+- Detección de movimiento e impactos, botón SOS y micrófono integrado para alertas de seguridad y protección.
+- Reportes por GPRS con respaldo por SMS y gran búfer interno de paquetes para preservar el historial de eventos.
+- Comportamiento configurable de latido y alarmas para un reporte fiable de señal de vida y eventos.
 
 ## Cómo funciona con Plaspy
 
-El SE-Маяк se integra con Plaspy transmitiendo datos de posición y de eventos al servidor de monitoreo elegido a través de GPRS o enviando alertas por SMS a números configurados de los propietarios. Plaspy ingiere estos paquetes para proporcionar rastreo en tiempo real, reproducción de historial, alertas y paneles de telemetría. El latido de vida y los comportamientos de alarma configurables del dispositivo aseguran que Plaspy reciba señales de vida y eventos de alarma a tiempo, incluso con cobertura intermitente.
+Plaspy recibe los paquetes de ubicación y eventos del SE-Маяк enviados por GPRS o SMS y los integra en líneas de tiempo de rastreo, alertas y paneles de telemetría. El almacenamiento en búfer del dispositivo y los intervalos de reporte configurables ayudan a asegurar que Plaspy capture tanto eventos en tiempo real como cargas diferidas cuando se recupera la conectividad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía GPRS; respaldo por SMS a números de propiedad para alertas inmediatas.
-- Eventos de movimiento e impacto \(inicio de movimiento, accidente/impacto, vuelco\) reportados a Plaspy para una respuesta rápida ante robo.
-- Micrófono integrado y botón SOS que activan monitoreo de audio y alertas de emergencia a través de notificaciones de Plaspy.
-- Detección de temperatura y monitoreo de descarga de batería reportados como elementos de telemetría; Plaspy puede mostrar y alertar sobre estos valores.
-- Almacenamiento en búfer tipo "black box" \(≈98,000 paquetes\) asegura que las posiciones y alarmas almacenadas se suban a Plaspy cuando se restablezca la conectividad.
+- Actualizaciones de posición en tiempo real y reproducción histórica en Plaspy cuando se reciben paquetes GPRS.
+- Respaldo por SMS y notificaciones al propietario enroutadas a los flujos de trabajo de Plaspy para alertas inmediatas cuando sea necesario.
+- Eventos por movimiento, impacto y SOS reenviados a Plaspy para que los equipos puedan activar procedimientos antirobo o de emergencia.
+- Activadores de monitoreo de audio y mensajes de señal de vida del dispositivo integrados en alertas y líneas de tiempo de Plaspy.
+- Subida de paquetes en búfer que preserva el historial de movimiento para Plaspy cuando el dispositivo recupera conectividad.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Fabricante / Modelo | АвтоФон SE‑Маяк |
-| --- | --- |
-| Conectividad | GSM \(módem QUECTEL M12\) — datos de paquetes GPRS y SMS |
-| GNSS | GLONASS + GPS \(chipset SIM68R\) |
-| Antena GPS | 25 × 25 × 4 mm |
-| Energía y batería | Dos baterías de litio CR123A de 3.0V \(1.500 mAh cada una\); autonomía hasta 2 años |
-| Interfaces e entradas | Botón SOS integrado, micrófono integrado, acelerómetro digital; sin entrada de energía externa ni conectores externos |
-| Sensors de movimiento y seguridad | Acelerómetro digital: detección de inicio de movimiento, impacto \(>8G\), vuelco \(>90°\); sensibilidad configurable e intervalos de reactivación |
-| Memoria y almacenamiento | Almacenamiento interno para hasta ~98,000 paquetes GPRS no enviados \(“black box”\) |
-| Firmware y gestión | Actualizaciones de firmware por GPRS; mensajes de vida \(heartbeat\) configurables; números de control y protección PIN configurables |
-| Carcasa y formato | Carcasa sellada; dimensiones compactas 69 × 51 × 22 mm; sin cableado externo para instalaciones encubiertas |
-| Otros | SIM preinstalada con tarifa favorable incluida; AGPS no disponible |
-
-## Casos de uso
-
-- Rastreo encubierto de vehículos y motos donde la ocultación y una larga duración de la batería son críticas para la monitorización antirobo.
-- Vigilancia de carga y contenedores para capturar historial de ubicación y enviar alertas inmediatas ante movimiento, impacto o acceso no autorizado.
-- Seguridad remota de objetos para garajes, quioscos, cabañas o embarcaciones que necesitan telemetría a largo plazo sin cableado permanente.
-- Seguimiento personal de niños, personas mayores o mascotas cuando se requiere monitorización discreta y alimentada por batería con capacidad SOS.
+- Rastreo encubierto de vehículos o motocicletas donde la ocultación y la larga autonomía de batería son esenciales.
+- Monitoreo de carga y contenedores para capturar historial de ubicación y alarmas inmediatas por movimiento o impacto.
+- Protección remota de objetos como cabañas, embarcaciones, kioscos y otros bienes sin atención frecuente.
+- Seguridad personal y monitoreo discreto para trabajadores solitarios, familiares o bienes valiosos con capacidad SOS.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El АвтоФон SE‑Маяк es un rastreador GPS compatible con Plaspy atractivo cuando la prioridad es una instalación encubierta, longevidad de la batería y telemetría resiliente. Su posicionamiento GLONASS+GPS, opciones extensas de reporte por GPRS/SMS y un amplio búfer de paquetes a bordo reducen la pérdida de datos y lo hacen confiable para despliegues a largo plazo. La detección de movimiento e impacto junto con el SOS y la monitorización de audio ofrecen un conjunto sólido de funciones anti-robo y de seguridad sin necesidad de cableado externo.
+El SE-Маяк se integra bien con Plaspy cuando su prioridad es la colocación discreta, la autonomía prolongada y la entrega resiliente de eventos. Su combinación de posicionamiento GNSS, reportes sobre red GSM, eventos basados en acelerómetro y almacenamiento en búfer reduce la pérdida de datos y permite un rastreo continuo sin servicios frecuentes. Dentro de Plaspy, esos datos se vuelven accionables mediante alertas, mapas y reportes que apoyan la seguridad y la supervisión de flotas.
 
-Aunque el SE‑Маяк se centra en un rastreo autónomo y de bajo mantenimiento, más que en entradas CAN/arranque del vehículo o sensores de combustible, Plaspy puede combinar su ubicación precisa, eventos del acelerómetro y telemetría de batería/temperatura con otras fuentes de datos en sus flujos de trabajo de gestión de flotas. Eso le permite construir soluciones integrales de rastreo y telemetría en tiempo real que incluyan alertas antirobo, flujos de trabajo de inmovilización desencadenados por movimientos o monitoreo de combustible agregado a partir de sensores de combustible dedicados.
+Dado que el SE-Маяк está orientado a la operación autónoma y sellada más que a integraciones externas extensas, resulta especialmente adecuado para protección de activos, despliegues antirobo encubiertos y proyectos de seguridad personal que requieren baja mantención y telemetría en tiempo real. Plaspy puede incorporar las fuentes de ubicación y eventos del dispositivo en flujos de monitoreo más amplios junto con otros datos de flota o sensores.
 
-Para la gestión de flotas, protección de activos y proyectos de seguridad personal que exigen colocación discreta, autonomía a largo plazo y una compatibilidad probada con Plaspy, el АвтоФон SE‑Маяк es una opción práctica que ofrece informes de ubicación fiables y telemetría de eventos detallada sin necesidad de mantenimiento frecuente.
-
+Para saber más sobre cómo Plaspy puede utilizar datos de dispositivos compatibles como el AutoFon SE-Маяк visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo; por favor verifique la información técnica actualizada en el sitio del fabricante https://www.autofon.ru/.

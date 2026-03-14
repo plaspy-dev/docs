@@ -2,62 +2,62 @@
 slug: /carscop/cctr_804
 id: cctr_804
 sidebar_label: CCTR-804
+title: Carscop - CCTR-804
 sidebar_class_name: menu_item_tracker
+description: Tracker vehicular compacto Carscop CCTR-804 compatible con Plaspy para rastreo en tiempo real y control remoto de inmovilizador
+keywords:
+  - Carscop CCTR-804
+  - rastreador CCTR-804
+  - rastreador GPS Carscop
+  - compatible con Plaspy
+  - rastreo vehicular
+  - gestión de flotas
+  - inmovilizador remoto
+  - telemetría en tiempo real
+  - registro sin conexión
+  - actualizaciones OTA
 ---
+
 # Carscop - CCTR-804
 
 ![CCTR-804](./tracker.JPG)
 
-# CCTR-804 Vehicle GPS Tracker
+El CCTR-804 es un rastreador vehicular GPS compacto de Carscop, diseñado para ofrecer seguimiento de ubicación confiable y supervisión operativa. Pensado para la gestión de flotas, autos de alquiler, taxis, autobuses y vehículos de logística, el equipo integra GPS y conectividad celular, asistencia A-GPS para fijar posiciones, comportamiento de carga configurable y una batería de respaldo recargable que mantiene el rastreo cuando se pierde la alimentación externa. La unidad está diseñada para ofrecer las funciones esenciales de telemetría y control remoto que necesitan las flotas, sin complejidad innecesaria.
 
-El CCTR-804 es un rastreador GPS compacto, compatible con Plaspy, diseñado para un seguimiento fiable de vehículos a través de redes globales 2G/3G/4G. Específicamente pensado para la gestión de flotas, vehículos de alquiler, taxis, autobuses y vehículos logísticos, el CCTR-804 combina instalación discreta, telemetría robusta y control remoto del inmovilizador para satisfacer las necesidades comerciales de antirrobo y monitoreo operacional.
+Como dispositivo compatible con Plaspy, el CCTR-804 puede enviar posiciones y eventos a la plataforma Plaspy para mapeo en vivo, alertas e informes históricos. Su protocolo GPRS abierto y la configuración automática del APN simplifican la integración con Plaspy, mientras que funciones como cargas activadas por impacto, registro offline y control remoto del inmovilizador lo hacen útil para monitoreo antirrobo y supervisión operativa cuando se combina con las herramientas de flotas de Plaspy.
 
-Con módulos GPS y celulares integrados y A-GPS para fijaciones de posición rápidas, el CCTR-804 ofrece seguimiento en tiempo real y telemetría esencial para Plaspy y otras plataformas. Su batería de respaldo de litio recargable, la transmisión controlada por sensor de choque y los intervalos de envío configurables \(predeterminado 30 s\) lo convierten en una opción económica para un seguimiento continuo, incluso cuando se pierde la alimentación externa.
+## Aspectos clave
 
-## Características clave
-
-- Compatible con Plaspy: se integra con Plaspy para seguimiento en tiempo real, alertas e informes utilizando el protocolo GPRS abierto del dispositivo.
-- Conectividad multinetwork: soporte global 2G/3G/4G que reduce las brechas de cobertura para la gestión de flotas y operaciones de larga distancia.
-- Instalación oculta y de perfil bajo: antena integrada y tamaño compacto \(87 × 47 × 20 mm, ≈70 g\) requieren solo 2–4 cables para la instalación.
-- Inmovilizador remoto para antirrobo: detén vehículos a distancia desde la plataforma o por SMS para reducir robos y usos no autorizados.
-- Telemetría inteligente y ahorro de energía: envíos activados por sensor de choque, intervalos de envío configurables \(predeterminado 30 s\) y detención de envíos tras inactividad conservan datos y batería.
-- Grabación offline y reporte de última posición para un seguimiento robusto cuando GSM/GPS no está disponible.
-- Actualizaciones de firmware OTA y configuración automática de APN/GPRS para un despliegue y mantenimiento simplificados.
-- Soporte para distribuidores y programas de marca blanca: opciones escalables para revendedores, apps personalizadas y páginas de inicio/login con dominio propio.
+- Compatible con Plaspy para rastreo en tiempo real, alertas e informes de flota
+- Conectividad multinetwork global para reducir las zonas sin cobertura en flotas móviles
+- Diseño compacto y de perfil bajo, adecuado para instalaciones ocultas en vehículos
+- Control remoto del inmovilizador para flujos de trabajo de protección de activos y antirrobo
+- Telemetría inteligente con cargas activadas por choque e intervalos de subida configurables
+- Registro sin conexión y reporte de última posición conocida para cubrir brechas de cobertura
+- Actualizaciones OTA y configuración automática del APN para facilitar el despliegue
 
 ## Cómo funciona con Plaspy
 
-Conectar el CCTR-804 a Plaspy es sencillo: el rastreador envía paquetes de posición y telemetría a través de la red celular a un punto final del servidor. Dado que la unidad utiliza un protocolo GPRS abierto y admite configuración automática de APN, los integradores pueden dirigir los datos del dispositivo a Plaspy para mapas en tiempo real, alertas e informes históricos. La integración compatible con Plaspy permite a los operadores de flota gestionar los vehículos de forma central y activar acciones remotas desde la plataforma.
+Conectar un CCTR-804 a Plaspy enruta los paquetes de posición y telemetría del dispositivo hacia el servidor de Plaspy, de modo que los operadores de flota obtienen visibilidad centralizada. Como el rastreador soporta un estilo de subida de datos GPRS abierto y puede configurar automáticamente los parámetros de red, los integradores pueden apuntar los dispositivos a un endpoint de Plaspy y comenzar a recibir datos de ubicación en vivo, alertas de eventos y recorridos históricos para análisis y acción.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento en vivo y reproducción de rutas.
-- Control remoto del inmovilizador: iniciar comandos de detención del vehículo desde Plaspy o por SMS como medida de seguridad/antirrobo.
-- Alertas disparadas por golpes y movimiento a Plaspy para detección de colisiones o manipulación.
-- Intervalos de envío configurables y detener envíos tras inactividad aseguran un uso eficiente de datos para el monitoreo de flotas.
-- Almacenamiento sin conexión e informes de la última posición mantienen los historiales de activos completos durante las interrupciones de cobertura; los datos se cargan a Plaspy cuando la conectividad se restablece.
+- Actualizaciones de ubicación y telemetría en tiempo real disponibles en Plaspy para rastreo y reproducción de rutas
+- Comandos de inmovilizador remoto iniciados desde Plaspy para respuesta ante robos y control vehicular
+- Alertas por choque y movimiento enviadas a Plaspy para detección de manipulación o colisión
+- Intervalos de subida configurables y opción de detener subidas tras inactividad para optimizar el uso de datos en los paneles de Plaspy
+- Almacenamiento offline y subida diferida que garantizan que recorridos y eventos se preserven y se envíen a Plaspy cuando se restablece la conectividad
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 2G GSM / 3G WCDMA / 4G LTE \(redes globales\) |
-| --- | --- |
-| Bandas | Soporte global 2G/3G/4G \(según modelo\) |
-| Potencia y Batería | Conexión de alimentación externa \(2–4 cables\); batería de respaldo de litio recargable integrada; alarma de apagado por pérdida de alimentación externa |
-| Interfaces | Salida de inmovilizador remoto del motor; sensor de choque; micrófono integrado \(opcional micrófono externo\); instalación simple de 2–4 cables |
-| GNSS | GPS integrado con soporte A-GPS para fijaciones más rápidas; se informa la última posición conocida cuando GPS no está disponible |
-| Memoria y Sin Conexión | Memoria a bordo para grabación de rutas sin conexión cuando la cobertura GSM no está disponible |
-| Firmware y Gestión | Actualizaciones de firmware OTA; descarga automática y configuración de APN y ajustes de GPRS; protocolo GPRS abierto para integración de terceros |
-| Factor de Forma | Unidad de vehículo compacta, 87 mm × 47 mm × 20 mm, ≈70 g; se suministra con cableado y manual |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real y telemetría para despacho, optimización de rutas y supervisión del conductor.
-- Vehículos de alquiler y taxis: instalación oculta más inmovilizador remoto y controles por SMS para prevención y recuperación ante el robo.
-- Autobuses escolares y transporte de pasajeros: visibilidad de la ubicación y alertas de eventos para seguridad y monitoreo de cumplimiento.
-- Logística y camiones: grabación de rutas sin conexión y soporte de múltiples redes para operaciones de larga distancia y trayectos interurbanos.
-- Despliegues para distribuidores: servicios de rastreo de marca blanca, apps personalizadas y roles de concesionarios para reventa o implementaciones SaaS.
+- Gestión de flotas para despacho, monitoreo de rutas y supervisión de conductores
+- Operaciones de alquiler de vehículos y taxis donde la instalación oculta y el inmovilizador remoto ayudan a proteger activos
+- Autobuses escolares y transporte de pasajeros que requieren visibilidad de ubicación y notificaciones de eventos
+- Flotas de logística y transporte de larga distancia que se benefician del registro offline y la cobertura multinetwork
+- Despliegues por distribuidores y concesionarios, incluidas soluciones de marca blanca y servicios para resellers
 
 ## Por qué elegir este rastreador con Plaspy
 
-El CCTR-804 es una opción práctica para operadores que buscan un rastreador GPS compatible con Plaspy que combine asequibilidad, funcionalidad y flexibilidad de integración. Su conectividad multinetwork y la memoria a bordo aseguran la continuidad de los informes de ubicación incluso en condiciones de cobertura variables, mientras que las actualizaciones OTA y la configuración automática de APN/GPRS reducen el esfuerzo de instalación y mantenimiento. El inmovilizador remoto y las alertas disparadas por golpes abordan los requisitos de antirrobo y seguridad, y el protocolo abierto facilita la integración con Plaspy o backends de gestión de flotas personalizados.
+El Carscop CCTR-804 es una opción práctica para organizaciones que buscan un rastreador compatible con Plaspy, sencillo pero funcional y con buena relación costo-beneficio. Su conectividad multinetwork y el registro a bordo ayudan a mantener el reporte continuo de ubicación ante variaciones de cobertura, mientras que las actualizaciones OTA y la configuración automática de la red reducen la carga de instalación y mantenimiento. La inclusión de alertas por choque y el inmovilizador remoto aporta valor operativo y de seguridad para flotas y operaciones de alquiler.
 
-Para gestores de flota, revendedores y distribuidores, el CCTR-804 ofrece telemetría y control esenciales sin complejidad innecesaria. Ya sea que necesite seguimiento en tiempo real, inmovilización remota o servicios de marca blanca escalables, este rastreador proporciona una base confiable para la gestión de flotas, defensa contra el robo y operaciones impulsadas por telemetría cuando se usa junto con Plaspy.
+Al integrarlo con Plaspy, el CCTR-804 entrega los puntos básicos de telemetría y control que la mayoría de los gestores de flota necesitan para obtener visibilidad, alertas y análisis históricos sin añadir complejidad innecesaria. Para equipos que evalúan rastreadores para integrar, el CCTR-804 representa una opción fiable que encaja con los flujos de trabajo de Plaspy para monitoreo, reportes y acciones remotas.
 
+Aprenda más sobre cómo Plaspy puede trabajar con dispositivos compatibles en https://www.plaspy.com. Las especificaciones del producto, disponibilidad y datos del fabricante pueden cambiar con el tiempo; verifique la información técnica actual con la documentación oficial de Carscop en http://www.carscop.com/ antes del despliegue final.

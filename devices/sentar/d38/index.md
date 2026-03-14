@@ -2,64 +2,58 @@
 slug: /sentar/d38
 id: d38
 sidebar_label: D38
+title: Sentar - D38
 sidebar_class_name: menu_item_tracker
+description: Compact Android kids smartwatch for child safety with multi mode positioning camera SOS button and out of the box compatibility with Plaspy
+keywords:
+  - Sentar D38
+  - D38 GPS tracker
+  - Sentar smartwatch
+  - kids GPS tracker
+  - child safety tracker
+  - Plaspy compatible
+  - real time tracking
+  - GPS AGPS LBS WiFi
+  - IPX7 waterproof
+  - Android 4.4
 ---
+
 # Sentar - D38
 
 ![D38](./tracker.png)
 
-The D38 is a compact, Android-based kids GPS tracker crafted as a smartwatch for reliable child safety and family peace of mind. Plaspy compatible out of the box, the D38 delivers real-time tracking via GPS, AGPS, LBS and WiFi positioning and pairs these location services with a 30W camera, two-way communication capability and an easy-to-reach SOS button. Designed for parents and caregivers who want accurate indoor and outdoor location visibility, the D38 leverages 4G/3G/2G cellular connectivity plus Android 4.4 to enable responsive alerts and secure monitoring within the Plaspy platform.
+The D38 is a compact, Android based kids GPS tracker designed as a smartwatch to support child safety and caregiver oversight. It combines multi mode positioning with a 30W camera, two way communication and a reachable SOS button in a wearable form factor that supports everyday durability. The device is intended to provide reliable indoor and outdoor location visibility for parents and caregivers through simple, continuous monitoring.
 
-Built around the SL8521E chipset, the D38 balances low-power operation and continuous connectivity with a 710mAh battery and IPX7 waterproof rating for everyday durability. When integrated with Plaspy, this smartwatch becomes a practical GPS tracker that supports real-time tracking, emergency notifications, location history and status reporting — ideal for child safety programs and family use. Its compact 1.69-inch IPS touch display \(240x280\) and Nano SIM support make setup simple and monitoring immediate through Plaspy’s interface.
+As an out of the box Plaspy compatible device, the D38 integrates its location and status data into the Plaspy platform for centralized monitoring and alerts. Plaspy can collect the D38 location updates, SOS events, connectivity and battery information to present live maps, notifications and historical playback, making the watch a practical endpoint for family safety workflows and supervised device fleets.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker optimized for child safety and parental monitoring.
-- Accurate real-time tracking with GPS, AGPS, LBS and WiFi positioning for indoor and outdoor coverage.
-- 4G/3G/2G cellular connectivity \(multiple frequency bands\) for robust network availability.
-- Dedicated SOS/power button for instant emergency alerts and rapid response.
-- 710mAh battery with magnetic 4PIN charging for extended standby and convenient charging.
-- IPX7 waterproof rating to withstand splashes and short immersions during everyday use.
-- On-device camera and touch display for visual confirmation and simple local interaction.
+- Plaspy compatible kids smartwatch optimized for child safety and parental monitoring
+- Multi mode positioning using GPS AGPS LBS and WiFi for improved indoor and outdoor visibility
+- 30W on device camera and two way communication for visual confirmation and caregiver contact
+- Dedicated SOS button for immediate alerting and location sharing with Plaspy users
+- IPX7 waterproof rating for everyday durability around water and a compact 1.69 inch touch display
+- 710mAh battery and Android based platform for sustained daily use and responsive alerts
 
 ## How It Works with Plaspy
 
-Integrating the D38 with Plaspy centralizes location and status data so parents and administrators can monitor devices in real time. The watch transmits GNSS fixes and complementary location signals \(AGPS, LBS, WiFi\) to Plaspy, which normalizes those inputs into maps, alerts and reports. Plaspy receives position updates, battery and connectivity status, and SOS events to trigger notifications, geofence alerts or historical playback.
+When paired with Plaspy, the D38 transmits position and status updates so caregivers and administrators can monitor devices from a single platform. Plaspy normalizes the incoming signals and presents them as live positions, alerts and history to support situational awareness and response.
 
-- Real-time location and telemetry updates: GPS/AGPS/LBS/WiFi positions sent to Plaspy for live tracking and history.
-- SOS/emergency alerts: physical SOS button sends immediate alerts and location to Plaspy users.
-- Connectivity and battery status: power level and cellular link indicators reported for device health monitoring.
-- Camera snapshots and call indicators: visual verification and simple communication events can be logged in Plaspy.
-- Indoor positioning: WiFi and LBS complement GPS to improve accuracy in buildings and urban canyons.
+- Real time location updates and historical playback for tracking movement and checking past routes
+- SOS and emergency notifications routed to Plaspy users for quick awareness and response
+- Device health reporting including battery and connectivity status to help manage uptime
+- Camera snapshots and communication events logged for visual verification and context
+- Geofence alerts and arrival departure monitoring to support check ins at school or other points of interest
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | D38 |
-| --- | --- |
-| Platform / Chipset | Android 4.4, SL8521E chipset |
-| Connectivity | 4G / 3G / 2G cellular; Nano SIM slot |
-| Bands | FDD: B1/B2/B3/B5/B7/B8/B20/B28A; WCDMA: B1/B2/B5/B8; GSM: B2/B3/B5/B8 |
-| GNSS & Positioning | GPS, AGPS, LBS, WiFi positioning |
-| Display | 1.69" IPS color touch, 240 x 280 resolution |
-| Camera | 30W camera \(on-device\) |
-| Memory & Storage | 512MB RAM + 4GB ROM |
-| Power & Battery | 710mAh battery; 4PIN magnetic charging cable; extended standby |
-| Physical Interfaces | Nano SIM slot, physical power / SOS button, magnetic charging port |
-| Waterproof Rating | IPX7 \(resistant to splashes and short immersion\) |
-| Bluetooth | Not specified |
-| Remote Management | Android-based device; specific FOTA/remote management capabilities not specified |
-| Form Factor | Kids smartwatch / wearable |
-
-## Use Cases
-
-- Child safety monitoring: accurate location, SOS alerts and two-way communication for caregivers.
-- School and daycare check-ins: geofencing and arrival/departure events logged in Plaspy.
-- Outdoor activity tracking: confident supervision during walks, sports and short trips with waterproof protection.
-- Family travel oversight: quick location lookups and emergency response capability while away from home.
+- Child safety and caregiver monitoring with live location and emergency alerts
+- School and daycare arrival departure logging and geofence monitoring
+- Supervised outdoor activities where waterproof protection and visual confirmation are helpful
+- Family travel oversight and quick location lookups while away from home
 
 ## Why Choose This Tracker with Plaspy
 
-The D38 combines wearable convenience with Plaspy’s platform strengths to create a trustworthy GPS tracker solution for families and caregivers. Its multi-mode positioning \(GPS/AGPS/LBS/WiFi\) improves location reliability in mixed environments, and the dedicated SOS button and camera add practical safety features that matter during an emergency. The Android-based architecture and broad cellular band support provide connectivity across regions, while IPX7 durability and a 710mAh battery deliver everyday resilience.
+The D38 pairs wearable convenience with Plaspy platform capabilities to provide a focused solution for families and caregivers. Its combination of multiple positioning methods, an SOS button and on device camera make it suited to situations where both indoor and outdoor visibility and quick communication matter. Being Android based and Plaspy compatible allows organizations to include the D38 as part of a broader monitoring strategy without requiring specialized hardware management.
 
-For organizations using Plaspy to centralize telemetry and location feeds, adding the D38 provides a kid-focused endpoint that integrates into a larger monitoring ecosystem. While the D38 is purpose-built for child safety rather than vehicle fleet roles, Plaspy can combine data from D38 devices with other GPS tracker data streams used for fleet management, anti-theft monitoring, telemetry dashboards and systems that include fuel monitoring, ignition/immobilizer controls or Bluetooth sensors — giving you a single pane of glass for diverse tracking needs.
-
+If you want to evaluate the D38 for use with Plaspy, the device is a practical choice for child focused deployments and small supervised device fleets where real time tracking, alerts and status reporting are priorities. To learn more about Plaspy and how compatible trackers are supported, visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details on the manufacturer site at http://www.sentarsmart.com/ before procurement.

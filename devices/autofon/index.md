@@ -1,60 +1,103 @@
 ---
-sidebar_label: Термо
-sidebar_class_name: menu_item_tracker
+id: autofon
+title: AutoFon
+sidebar_label: AutoFon
+sidebar_class_name: menu_item_brand
+description: Learn how AutoFon GPS trackers integrate with Plaspy for vehicle and fleet monitoring
+keywords:
+  - autofon
+  - autofon gps
+  - autofon devices
+  - autofon trackers
+  - gps trackers
+  - fleet tracking
+  - vehicle tracking
+  - plaspy compatible
+  - telemetry devices
+  - tracking software
 ---
-# AutoFon - Термо
 
-![Термо](./tracker.jpg)
+import BrandCatalog from '@site/src/components/Devices/BrandCatalog';
+import { brand } from './index.js';
 
-AutoFon-Thermo is a GSM-controlled heater module designed for reliable remote control of aftermarket auxiliary parking heaters such as WEBASTO and EBERSPÄCHER. Built for fleets and private vehicles that rely on pre-heating in cold climates, AutoFon-Thermo offers SMS and voice-menu control, local cabin-button operation, and a built‑in real-time clock with two programmable timers. This device is positioned as Plaspy compatible for telemetry and fleet workflows when combined with Plaspy’s platform or alongside a Plaspy-compatible GPS tracker.
+<img src={brand.image} alt="AutoFon" className="brand-catalog-logo" />
 
-Note: AutoFon-Thermo is intended for use with additionally installed \(non-factory\) auxiliary heaters. The manufacturer indicates the unit is discontinued and currently out of stock; this page explains capabilities and how it can integrate into Plaspy-enabled telematics and fleet management solutions.
+# AutoFon
 
-## Key Highlights
+AutoFon is a manufacturer of vehicle tracking and telemetry hardware commonly used in fleet management and asset monitoring. Plaspy can receive location and telemetry data from AutoFon devices, allowing organizations to monitor vehicles, manage routes, and analyze operational metrics within the Plaspy platform.
 
-- GSM-based remote control: Start or stop an auxiliary heater via SMS commands or by calling the unit and using its integrated voice-menu.
-- Scheduled pre-heating: Built-in real-time clock with two programmable timers enables regular warm-up schedules on selected days.
-- Local manual control: Cabin-mounted push-button input for local on/off control alongside remote commands.
-- Aftermarket heater compatibility: Designed specifically for WEBASTO, EBERSPÄCHER and similar auxiliary parking heaters when installed as non-factory units.
-- Fleet-friendly operation: Supports centralized management workflows when paired with Plaspy for coordinated pre-heating and operational readiness across vehicles.
-- Simple integration: Installers wire the module into the heater control circuit; no GPS hardware required on the module itself.
-- Voice-menu convenience: Call the device to control the heater without sending SMS — useful for drivers who prefer voice interaction.
+<BrandCatalog brand={brand} />
 
-## How It Works with Plaspy
+## How AutoFon devices work with Plaspy
 
-AutoFon-Thermo is a specialist GSM controller for auxiliary heaters rather than a standalone GPS tracker. When integrated into a Plaspy-managed fleet, it augments vehicle telematics by providing remote heater control and heater-related telemetry that complements Plaspy’s real-time tracking and fleet management capabilities. Use AutoFon-Thermo to ensure vehicles are warmed and ready while Plaspy handles GPS-based location, route, and broader telemetry such as fuel monitoring or ignition state when a Plaspy-compatible GPS unit is present.
+AutoFon tracking devices typically send GPS coordinates and status messages over cellular networks. Plaspy ingests those data streams and translates them into live location, history, and alerts inside the Plaspy interface. Integration focuses on receiving standard telemetry such as position, speed, and event notifications and mapping those data points to features in Plaspy for visualization, reporting, and rules based automation.
 
-- Remote heater commands: Send SMS or place a call to trigger start/stop actions; Plaspy can relay or log those actions within fleet workflows.
-- Scheduled events: Two programmable timers create predictable warm-up schedules; Plaspy can display timer status or historical start events in reports.
-- Local override: Cabin push-button state and remote commands coexist — Plaspy can record events originating from either source if event logging is enabled.
-- Voice-menu operation: Drivers may call the unit to operate the heater directly; Plaspy can keep an event log of confirmation messages when available.
-- Complementary telematics: Combined with a Plaspy-compatible GPS tracker, you get real-time tracking, telemetry, and coordinated anti-theft or immobilizer actions where supported by the vehicle’s telematics suite.
+Integration highlights:
+- Plaspy accepts location updates and device events from AutoFon devices for real time tracking.
+- Data received is displayed in Plaspy maps, timelines, and telemetry widgets.
+- Alerts and geofence events generated by devices can be processed by Plaspy for notifications and workflow actions.
 
-## Technical Overview
+For device specific configuration steps and server settings refer to the device documentation linked from each model page in the catalog.
 
-| Model | AutoFon-Thermo |
-| --- | --- |
-| Connectivity | GSM — SMS commands and incoming-call voice-menu control |
-| Bands | Not specified by manufacturer |
-| Power & Battery | Power via vehicle/heater wiring; backup battery not specified |
-| Interfaces | Integration with auxiliary heater control wiring; cabin-mounted push-button input |
-| GNSS | Not included \(device is a heater controller, not a GPS tracker\) |
-| Bluetooth | Not specified / not applicable |
-| Remote Management | SMS commands, voice-menu via phone call; user manual available \(Russian\) |
-| Form Factor | Compact GSM module for in‑vehicle installation with heater wiring |
-| Status | Discontinued — currently out of stock |
+## Common features found in AutoFon devices
 
-## Use Cases
+AutoFon devices commonly include a set of capabilities that are helpful for fleet and asset management. Typical features you can expect are:
+- GPS based location reporting for live tracking and route history
+- Cellular connectivity for remote data transmission
+- Motion or ignition detection to distinguish moving and parked states
+- Digital and analog inputs for sensor integration
+- Configurable reporting intervals and event driven messages
+These general capabilities make AutoFon hardware suitable for integration with platforms like Plaspy, which provide the server side visualization and management.
 
-- Cold-climate fleet readiness: Schedule pre-heating so operator cabins and engines are warm at start time for morning shifts.
-- Private vehicle comfort: Remote start or scheduled heating for passenger comfort and engine pre-warm before daily use.
-- Remote extension/cancellation: Adjust heater runtime remotely via SMS or call when plans change or trips are cancelled.
-- Mixed telematics deployments: Use AutoFon-Thermo alongside Plaspy-compatible GPS trackers to combine heater control with real-time tracking and telemetry.
-- Service and maintenance fleets: Ensure equipment is warm for predictable service starts and reduce cold-start wear on engines.
+## Typical use cases for AutoFon GPS trackers
 
-## Why Choose This Tracker with Plaspy
+AutoFon hardware is used across a range of vehicle and asset scenarios. Common applications include:
+- Fleet vehicle tracking for route optimization and driver monitoring
+- Delivery and courier tracking to provide estimated arrival and proof of route
+- Service vehicle coordination to improve dispatch and job completion visibility
+- Long term asset monitoring where periodic location and sensor telemetry is required
 
-AutoFon-Thermo is not a GPS tracker but a focused GSM controller that fills a practical niche: remote and scheduled control of aftermarket auxiliary heaters. When used in a Plaspy-managed environment or paired with a Plaspy-compatible GPS tracker, it adds heater-level telemetry and control to your broader fleet management toolkit. This combination provides operational benefits such as improved vehicle readiness, reduced idling for warm-up, and centralized scheduling across a fleet.
+Plaspy is commonly used as the software layer to aggregate device data, produce reports, and trigger alerts that support these operational needs.
 
-For fleets and operators seeking integration between heater control and telematics, AutoFon-Thermo delivers dependable GSM command methods \(SMS and voice\) and timer-based automation. Combined with Plaspy’s real-time tracking and telemetry capabilities — including fleet management dashboards, ignition and immobilizer workflows, and fuel monitoring when supported by the vehicle’s GPS unit — you get a more complete operational picture without overcomplicating installation. Because the AutoFon-Thermo is discontinued and out of stock, consider consulting your installer or Plaspy support for alternative Plaspy-compatible heater-control modules or for recommended integration approaches with current GPS trackers.
+## Why choose Plaspy for AutoFon device monitoring
 
+Plaspy is designed to work with a wide range of GPS tracking hardware and provides the server side tools needed to turn device data into actionable insights:
+- Centralized map view and timeline for reviewing vehicle movements
+- Configurable alerts and rules to notify teams about events and exceptions
+- Reporting and export capabilities for operational analysis
+- Role based access to share tracking data securely with stakeholders
+
+Using Plaspy with AutoFon devices lets teams focus on operations rather than building and maintaining custom ingestion and visualization tools.
+
+## Help finding the right AutoFon device
+
+The catalog above lists AutoFon models that are known to interoperate with Plaspy. To choose the right device:
+- Review the catalog images and model summaries above to identify form factor and input options
+- Consider the connectivity and sensor requirements for your use case
+- Check the device page for any recommended server settings or protocol notes that are needed to connect the device to Plaspy
+
+If you need assistance selecting a device for a particular fleet profile or sensor setup, Plaspy documentation and support resources can help guide the choice. You can also review the manufacturer site at https://www.autofon.ru/ for additional product details.
+
+## Frequently Asked Questions
+
+Q: What AutoFon devices are compatible with Plaspy?
+A: Compatible AutoFon devices are shown in the catalog above. The BrandCatalog component lists models that can send telemetry to Plaspy. For model specific notes, open the device page from the catalog.
+
+Q: Can I use AutoFon GPS trackers with Plaspy?
+A: Yes. AutoFon devices that communicate over common GPS tracking protocols can transmit location and events to Plaspy. Use the device page to confirm any protocol or server settings required.
+
+Q: Does Plaspy support fleet monitoring with AutoFon devices?
+A: Plaspy supports fleet monitoring workflows using data from AutoFon hardware. That includes live tracking, history, alerts, and reporting driven by data the devices send.
+
+Q: Where can I find AutoFon device documentation in Plaspy?
+A: Device specific documentation and connection notes are accessible from each device page in the catalog above. Those pages provide the configuration tips needed to connect a device to Plaspy.
+
+Q: Will I need to change firmware or device settings to connect AutoFon hardware?
+A: Some devices may require minimal configuration such as server address or protocol selection. Refer to the device page and the manufacturer documentation for exact instructions. Plaspy does not require firmware changes on devices just to receive standard telemetry.
+
+Q: Can I use AutoFon devices for both vehicle tracking and sensor telemetry?
+A: Many AutoFon units support inputs and sensors alongside GPS data. Check the device specifications in the catalog to ensure the needed inputs and sensor types are supported.
+
+## Explore AutoFon models with Plaspy
+
+Browse the catalog above to view AutoFon models that work with Plaspy and open individual device pages for configuration details. When you are ready to deploy or learn more about Plaspy capabilities visit https://www.plaspy.com for platform information and contact options.

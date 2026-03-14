@@ -2,73 +2,59 @@
 slug: /sinotrack/st_907
 id: st_907
 sidebar_label: ST-907
+title: SinoTrack - ST-907
 sidebar_class_name: menu_item_tracker
+description: Compact wired GPS tracker for vehicles compatible with Plaspy for real time tracking geofence and immobilizer features
+keywords:
+  - SinoTrack ST-907
+  - ST-907 tracker
+  - SinoTrack tracker
+  - ST 907 GPS
+  - ST-907 Plaspy
+  - ST-907 compatible
+  - vehicle GPS tracker
+  - covert vehicle tracker
+  - fleet tracking device
+  - immobilizer tracker
 ---
+
 # SinoTrack - ST-907
 
 ![ST-907](./tracker.jpg)
 
-# SinoTrack ST-907
+The SinoTrack ST-907 is a compact wired GPS tracker designed for discreet vehicle installation and continuous position reporting. It combines a mini form factor with built in high sensitivity GPS and GSM antennas and quad band GSM support, allowing the device to send location and alarm data through SMS and GPRS. The ST-907 includes relay based remote control for fuel or power cut, overspeed and geofence alarm options, and SMS based diagnostic and administrative commands for onsite control.
 
-The SinoTrack ST-907 is a compact, wired GPS tracker designed for covert vehicle installation and reliable Plaspy compatible monitoring. Its mini-sized form factor, built-in high-sensitivity GPS and GSM antennas, and quad-band GSM support make the ST-907 a practical choice for real-time tracking, anti-theft response and fleet management across a wide range of vehicles.
-
-The ST-907 reports position and alarms using SMS and GPRS and supports configurable server IP/port settings, allowing it to be connected to third-party platforms such as Plaspy. With relay-based remote control to cut fuel or power circuits, overspeed and geofence alarms, and SMS diagnostic controls, the ST-907 delivers essential telemetry and immobilizer capability for cars, taxis, motorcycles and logistics vehicles.
+This model is relevant for Plaspy users because it supports configurable server IP and port settings and can be pointed to third party platforms for real time monitoring. By configuring APN and the device server parameters, the ST-907 can report position updates and alarm events to Plaspy so fleets and administrators receive live tracking, alerts, and consolidated reporting inside the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible via configurable GPRS server IP/port — report real-time tracking and alarms to Plaspy using the device's SMS/GPRS commands.
-- Quad-band GSM \(850/900/1800/1900 MHz\) for wide regional coverage and flexible SIM selection \(SIM not included\).
-- Built-in high-sensitivity GPS and GSM antennas for reliable position fixes in typical vehicle installations.
-- Relay-based remote control to cut fuel or power circuits — practical anti-theft/immobilizer function for vehicles.
-- Real-time location updates by SMS and GPRS, overspeed alarms and configurable geofencing for fleet management and safety.
-- Authorized-number management and SMS-based diagnostics for quick, on-the-ground control and troubleshooting.
-- Mini form factor for easy concealment during installation in cars, motorcycles and light commercial vehicles.
+- Compact wired tracker suitable for concealed installation in cars, motorcycles and light commercial vehicles.
+- Reports position and alarms over SMS and GPRS for real time tracking and SMS fallback.
+- Configurable server IP and port to forward data to third party platforms such as Plaspy.
+- Relay based remote control to cut fuel or power circuits for immobilizer type functions.
+- Built in high sensitivity GPS and GSM antennas for reliable position fixes in typical vehicle environments.
+- Supports overspeed and geofence alarms plus SMS diagnostics and authorized number control.
 
 ## How It Works with Plaspy
 
-The ST-907 sends location and alarm data over GPRS or SMS. Because the device allows the server IP and port to be set via SMS, it can be configured to report directly to Plaspy's server endpoint. Installers and administrators can initialize the device by setting APN and server parameters, then point the device to Plaspy to enable real-time tracking, alerts, and reporting within your Plaspy account.
+When configured for Plaspy, the ST-907 delivers location updates and alarm events to the platform so operators can monitor vehicle movement and respond to incidents. The device uses its GPRS connection for continuous reporting and can fall back to SMS if needed; installers set APN and server settings so messages are sent to Plaspy’s ingestion endpoint.
 
-- Real-time location and telemetry updates by GPRS \(position, speed, overspeed alarms\) and SMS as fallback.
-- Alarm and status events: overspeed alarm and configurable geofence alerts are supported and can be forwarded to Plaspy as alarm events.
-- Remote immobilizer: relay-based fuel/power cut can be used as an immobilizer feature controlled via SMS or platform command \(subject to Plaspy support for remote relay commands\).
-- Authorized-number management and SMS control for local, secure admin access when network access is unavailable.
-- Configuration via SMS: set APN, server IP and port using the device's SMS initialization commands to connect the tracker to Plaspy’s ingestion endpoint.
+- Real time location reporting via GPRS and SMS fallback to maintain visibility.
+- Forwarded alarm events such as overspeed and geofence breaches appear in Plaspy as actionable alerts.
+- Relay based immobilizer actions can be integrated as remote control events where Plaspy supports device commands.
+- SMS based configuration and authorized number management provide local control and quick troubleshooting when network access is limited.
+- Data sent from the device enables Plaspy to populate maps, event logs, and historical reports for operational oversight.
 
-## Configuration Notes
+## Typical Use Cases
 
-To connect the ST-907 to a third-party platform, use the device's SMS configuration commands. The device documentation provides recommended initialization steps \(replace the example server IP and port with Plaspy’s server values\):
-
-- SMS1: 7100000 — device initialization command.
-- SMS2: 8040000 &lt;server\_IP&gt; &lt;port&gt; — set the GPRS server IP and port \(replace with Plaspy values\).
-- SMS3: 8030000 &lt;APN&gt; &lt;APNuser&gt; &lt;APNpassword&gt; — set carrier APN only if required by the SIM.
-
-Note: the ST-907 does not include a SIM card—choose a local SIM with the desired data plan and roaming options. The device can also be used with the manufacturer’s free SinoTrack PRO platform \(default server IP examples provided by SinoTrack\), but for Plaspy compatibility set the server IP/port to Plaspy’s values and confirm any authentication requirements with Plaspy documentation.
-
-## Technical Overview
-
-| Connectivity | GPRS and SMS reporting over quad-band GSM \(850/900/1800/1900 MHz\) |
-| --- | --- |
-| Bands | Quad-band GSM 850 / 900 / 1800 / 1900 MHz |
-| Power & Battery | Wired vehicle installation. Internal backup battery not specified in product description. |
-| Interfaces | Relay output for remote fuel/power cut; SMS-based diagnostic and control commands. Specific digital I/O or ignition inputs not detailed in description. |
-| GNSS | Built-in high-sensitivity GPS antenna for reliable fixes \(accuracy not specified in supplied description\) |
-| Bluetooth | No Bluetooth sensors or BLE interfaces are listed in the product description \(verify if BLE required\). |
-| Remote Management | Configure APN and server IP/port via SMS. Supports IMEI query/change via SMS commands; compatible with SinoTrack PRO web/app \(free platform\). |
-| Form Factor | Mini-sized wired tracker for concealed installation in cars, taxis, motorcycles and light commercial vehicles. |
-
-## Use Cases
-
-- Fleet management for small fleets — real-time tracking and geofence/overspeed alerts help improve routing and safety.
-- Anti-theft and immobilization — relay-based fuel/power cut allows remote immobilizer actions to deter theft.
-- Taxi and ride-hailing vehicles — discreet installation combined with real-time tracking and authorized-number control.
-- Motorcycle and private car tracking — mini form factor for hidden mounting and reliable SMS/GPRS updates.
-- Logistics and delivery vehicles — track assets in real time and receive geofence and overspeed notifications.
+- Small fleet tracking for delivery and service vehicles requiring geofence and overspeed alerts.
+- Anti theft and vehicle recovery scenarios using remote immobilizer and alarm reporting.
+- Taxi and ride hailing operations needing discreet installation and authorized number management.
+- Motorcycle and private vehicle tracking where a mini form factor and SMS/GPRS reporting are preferred.
+- Logistics and light commercial vehicles that benefit from basic telemetry and event notifications.
 
 ## Why Choose This Tracker with Plaspy
 
-The SinoTrack ST-907 is a practical Plaspy compatible option when you need a compact, wired GPS tracker with flexible reporting and basic immobilizer capability. Its quad-band GSM and SMS/GPRS reporting give you the choice of using the free SinoTrack PRO platform or pointing the device to Plaspy by updating the server IP/port and APN. For operators focused on fleet management, anti-theft protection and straightforward telemetry, the ST-907 provides a reliable building block that integrates with Plaspy’s real-time tracking, alerts and reporting workflows.
+The ST-907 is a practical choice for organizations that need a compact wired tracker with flexible reporting options and basic immobilizer capability. Its ability to be configured to report to a third party server makes it straightforward to integrate with Plaspy for map based monitoring, alerting, and routine reporting without requiring alternative vendor platforms.
 
-Before deployment, confirm Plaspy’s required server IP/port and any authentication methods so you can apply the device’s SMS initialization commands. Also verify local IMEI registration requirements where applicable and select a SIM plan that matches your data and roaming needs. If you require Bluetooth sensors or extended telemetry \(fuel-level sensors, CAN-bus data, etc.\), review alternative models or check with the provider for additional accessories and integration notes.
-
-Support & Warranty: SinoTrack supplies wiring diagrams, installation images, and a user manual for activation and setup. The manufacturer offers 24-hour support, shipping options including expedited couriers, and a two-year warranty for goods with defect reporting procedures as documented by SinoTrack.
-
+If you are considering the ST-907 for use with Plaspy, confirm Plaspy’s recommended server settings and any platform authentication requirements before deployment so the device can be initialized correctly. Learn more about Plaspy and how compatible devices are used for fleet management and monitoring at https://www.plaspy.com and verify current product specifications and manufacturer details on SinoTrack’s official site https://www.sinotrackgps.com/ as specifications and availability can change over time.

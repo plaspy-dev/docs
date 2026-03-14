@@ -2,61 +2,59 @@
 slug: /navtelekom/s_2115
 id: s_2115
 sidebar_label: СИГНАЛ S-2115
+title: Navtelekom - СИГНАЛ S-2115
 sidebar_class_name: menu_item_tracker
+description: Compatibilidad e integración del rastreador Navtelekom СИГНАЛ S-2115 con Plaspy
+keywords:
+  - Navtelekom S-2115
+  - SIGNAL S-2115
+  - СИГНАЛ S-2115
+  - rastreador Navtelekom
+  - compatible con Plaspy
+  - rastreador de vehículos
+  - rastreador GLONASS GPS
+  - seguimiento de flotas
+  - rastreador antirrobo
+  - rastreador legado
 ---
+
 # Navtelekom - СИГНАЛ S-2115
 
 ![СИГНАЛ S-2115](./tracker.jpeg)
 
-# SIGNAL S-2115
+El Navtelekom СИГНАЛ S-2115 es un rastreador GPS para vehículos pensado en flotas y unidades individuales con exigencias de seguridad. Combina posicionamiento GLONASS y GPS con comunicaciones GSM para enviar localizaciones y alarmas. Según el fabricante, sus funciones integradas incluyen un acelerómetro interno para detección de impactos e inclinaciones, envío de alarmas por SMS y voz, configuración remota vía SMS/DTMF/voz y un interfaz USB para configuración local y actualizaciones de firmware. El S-2115 figura como descontinuado y suele emplearse en despliegues heredados o archivados donde se requiere un seguimiento básico y fiable.
 
-El SIGNAL S-2115 es un rastreador GPS de monitoreo de vehículos \(GLONASS/GPS\) diseñado para flotas orientadas a la seguridad y para vehículos individuales. Pensado para integrarse con plataformas centralizadas como Plaspy, el S-2115 combina posicionamiento por satélite con comunicaciones GSM para ofrecer un seguimiento en tiempo real fiable, alarmas por impacto y movimiento, y opciones de control remoto para diagnósticos de rutina y respuesta ante incidentes.
+Como dispositivo compatible con Plaspy, el S-2115 puede enviar posiciones y notificaciones de eventos a Plaspy para su monitoreo centralizado y supervisión operativa. Plaspy puede procesar los reportes del equipo para mostrar ubicaciones en tiempo real e históricas, exponer alarmas basadas en el acelerómetro e incluir unidades S-2115 en informes y flujos de trabajo de alerta. Para organizaciones con flotas mixtas o hardware archivado, el S-2115 ofrece una fuente de datos sencilla que Plaspy puede integrar en paneles y registros.
 
-El S-2115 es adecuado para la gestión de flotas y la monitorización anti-robos cuando se requieren telemetría y reporte de alarmas de forma sencilla. Con una interfaz de configuración USB, un acelerómetro interno para detección de golpes e inclinación, y compatibilidad con entrega de alarmas por SMS y por llamadas de voz, este dispositivo puede integrarse en flujos de trabajo gestionados por Plaspy para mejorar la consciencia situacional y acelerar la respuesta ante eventos del vehículo. Nota: este modelo figura como descontinuado \(archivado\); el firmware y las herramientas de configuración siguen disponibles para implementaciones heredadas.
+## Puntos clave
 
-## Puntos destacados
-
-- Posicionamiento compatible con Plaspy: localización por satélite GLONASS y GPS combinada con comunicaciones GSM para seguimiento en tiempo real.
-- Detección de impactos y movimientos mediante el acelerómetro interno para activar alarmas ante golpes, inclinaciones o desplazamientos no autorizados.
-- Entrega de alarmas flexible: las notificaciones pueden enviarse por SMS o mediante llamadas de voz para alertas inmediatas a operadores y conductores.
-- Control remoto y diagnósticos mediante menú de voz, tonos DTMF y secuencias de comandos por SMS para configuración y consultas de estado sin necesidad de acceso físico.
-- Interfaz USB para configuración local y actualizaciones de firmware utilizando el Configurador NTC y archivos de firmware suministrados.
-- Diseñado para casos de uso de gestión de flotas y anti-robo de vehículos, compatible con la integración en sistemas de monitoreo centralizados.
-- Documentación y herramientas para instaladores proporcionadas: guía de usuario, utilidad NTC Configurator y firmware archivado para modelos SIGNAL relacionados.
+- Posicionamiento por satélite GLONASS y GPS combinado con comunicaciones GSM para reporte de ubicación.
+- Acelerómetro interno que detecta impactos, inclinaciones y movimientos para generar alarmas.
+- Múltiples métodos de notificación de alarma, incluidos SMS y avisos por voz para alertar a operadores rápidamente.
+- Control remoto y diagnóstico mediante SMS, DTMF y menús de voz para ajustar parámetros en campo.
+- Interfaz USB para configuración local y mantenimiento de firmware mediante el configurador del proveedor.
+- Diseñado para gestión de flotas y monitoreo antirrobo de vehículos; documentado como equipo archivado.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el SIGNAL S-2115 proporciona datos de posición y de eventos que Plaspy puede utilizar para seguimiento en tiempo real, alertas e informes. El dispositivo envía correcciones GNSS de posición y notificaciones de alarma por GSM; Plaspy ingiere esos datos para poblar las visualizaciones de ubicación de los vehículos, activar flujos de alarma configurables y generar registros de telemetría para la gestión de la flota y el análisis forense.
+Al integrarse con Plaspy, el SIGNAL S-2115 proporciona datos de posición y eventos que Plaspy utiliza para mantener la conciencia situacional y los registros operativos. Plaspy mapea las actualizaciones de ubicación entrantes, registra los eventos del acelerómetro con su sello temporal e incorpora las alertas del dispositivo en canales configurables de notificación e informes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: posiciones GLONASS/GPS transmitidas por GSM para seguimiento en vivo en Plaspy.
-- Alarmas de impacto, inclinación y movimiento procedentes del acelerómetro interno se entregan para una notificación inmediata de incidentes.
-- Las alarmas se entregan por SMS y llamadas de voz: Plaspy puede utilizar estos canales como parte de la escalada de alertas o aceptar los informes del dispositivo a través de métodos de ingestión configurados.
-- Comandos y diagnósticos remotos mediante menú de voz, DTMF y SMS permiten a los operadores consultar el estado, modificar parámetros o realizar acciones remotas simples desde Plaspy o flujos de trabajo de operadores conectados.
-- Soporte de configuración USB local y actualización de firmware \(NTC Configurator y firmware archivado\) para la instalación y el mantenimiento en sitio antes de la incorporación a Plaspy.
+- Seguimiento de ubicación en vivo mostrado en los mapas de Plaspy usando los reportes GNSS del rastreador.
+- Notificaciones inmediatas de incidentes por choques, inclinaciones o movimientos no autorizados dirigidas a los flujos de alerta de Plaspy.
+- Mensajes de alarma por SMS o voz que Plaspy puede ingerir o que pueden usarse en paralelo para la escalación a operadores.
+- Consultas remotas y cambios de parámetros por SMS o DTMF que pueden incluirse en los procedimientos operativos coordinados desde Plaspy.
+- Configuración local por USB y preparación de firmware antes del alta simplifican la incorporación de unidades archivadas a Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Comunicaciones GSM \(celulares\) para datos y voz; los protocolos IP/paquetes específicos no se especifican en las notas del archivo. |
-| --- | --- |
-| Bandas | GSM \(2G\): las bandas de frecuencia exactas no se especifican en la documentación proporcionada. |
-| Alimentación y batería | Rastreador alimentado por el vehículo. No se especifica batería de respaldo ni duraciones en espera en los materiales disponibles. |
-| Interfaces | Interfaz USB para configuración y actualizaciones de firmware; control remoto mediante menú de voz, tonos DTMF y secuencias de comandos por SMS. No se especifica I/O digital adicional. |
-| GNSS | Módulos GLONASS y GPS para posicionamiento. Precisión de la posición no especificada en la descripción suministrada. |
-| Bluetooth | No se mencionan sensores o beacons Bluetooth para este modelo. |
-| Gestión remota | Configuración local con la utilidad NTC Configurator \(NTC Configurator 2.2.7\) vía USB; archivo de firmware disponible para la familia S-2114/S-2115/S-2117/S-2550. Se admiten cambios de parámetros de forma remota vía SMS, DTMF y menú de voz. |
-| Factor de forma | Rastreador montado en vehículo, destinado a aplicaciones de flotas y seguridad; listado como descontinuado/archivado en la documentación del proveedor. |
-
-## Casos de uso
-
-- Gestión de flotas: rastrear la ubicación de los vehículos en tiempo real para planificación de rutas, despacho y visibilidad operativa con los paneles de Plaspy.
-- Antirrobo de vehículos: detectar movimientos no autorizados o impactos mediante el acelerómetro y activar alertas inmediatas por SMS o llamadas de voz.
-- Registro de incidentes y diagnóstico: registrar golpes o eventos accidentales para revisión posterior y planificación de mantenimiento.
-- Consultas de estado remotas y controles simples: usar SMS/DTMF/menús de voz para verificar el estado del dispositivo o ajustar configuraciones de forma remota durante las operaciones.
-- Integración de sistemas heredados: incorporar unidades archivadas S-2115 en Plaspy para registro centralizado donde el hardware antiguo continúa en servicio.
+- Gestión de flotas para ruteo, visibilidad de despacho y reportes históricos de ubicaciones.
+- Monitoreo antirrobo de vehículos con alertas por acelerómetro y notificaciones inmediatas.
+- Registro de incidentes y análisis forense de golpes o colisiones para planificación de mantenimiento.
+- Consultas de estado remotas y control sencillo del equipo durante operaciones sin acceso físico.
+- Integración de rastreadores heredados o archivados en un entorno centralizado de monitoreo con Plaspy.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El SIGNAL S-2115 ofrece un enfoque directo y probado para el rastreo de vehículos que integra los elementos clave que requieren los operadores de flotas: posicionamiento GNSS, comunicaciones GSM y detección de impactos a bordo. Al conectarse a Plaspy, el S-2115 proporciona datos de ubicación y eventos en tiempo real que mejoran la gestión de flotas, la monitorización anti-robos y las operaciones basadas en telemetría. El configurador USB del dispositivo y el archivo de firmware disponible simplifican la instalación y las actualizaciones para integradores que gestionan flotas mixtas o hardware heredado.
+El SIGNAL S-2115 ofrece un enfoque probado y sin complicaciones para el reporte de ubicación y la gestión básica de alarmas, ideal cuando se necesitan telemetría y alertas sencillas. En Plaspy, el S-2115 puede servir como una fuente de datos confiable para mapeo, escalado de alertas y registros históricos en flotas que no requieren telemetría avanzada o conjuntos de sensores modernos.
 
-Aunque el S-2115 figura como descontinuado \(archivado\), sigue siendo viable para implementaciones que requieren capacidades básicas de rastreo GPS y reporte de alarmas. Para las organizaciones que usan Plaspy, el S-2115 puede ser una fuente confiable de posición y alarmas basadas en el acelerómetro, mientras Plaspy ofrece paneles avanzados, informes históricos y alertas centralizadas. Si planea desplegar hardware archivado, consulte la guía del operador SIGNAL S-2115 y la documentación de NTC Configurator para confirmar los pasos de configuración y la compatibilidad con su instancia de Plaspy.
-
+Para obtener más información sobre cómo Plaspy soporta rastreadores como el SIGNAL S-2115 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que es recomendable verificar las capacidades actuales y la documentación archivada en el sitio oficial de Navtelekom https://www.navtelecom.ru/.

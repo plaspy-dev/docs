@@ -2,61 +2,60 @@
 slug: /queclink/gv57mg
 id: gv57mg
 sidebar_label: GV57MG
+title: QuecLink - GV57MG
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto IP67 resistente al agua para motos y vehículos ligeros compatible con Plaspy
+keywords:
+  - queclink gv57mg
+  - gv57mg
+  - rastreador queclink
+  - gv57mg plaspy
+  - rastreador gps queclink gv57mg
+  - gv57mg seguimiento de flotas
+  - gv57mg rastreador para motocicleta
+  - dispositivos compatibles con plaspy
+  - gv57mg rastreador impermeable
+  - gv57mg rastreador BLE
 ---
+
 # QuecLink - GV57MG
 
 ![GV57MG](./tracker.png)
 
-# Queclink GV57MG
+El QuecLink GV57MG es un rastreador GPS compacto con certificación IP67, pensado para vehículos ligeros y motocicletas. Diseñado para uso exterior, combina un posicionamiento GNSS de alta sensibilidad, funcionamiento de bajo consumo y soporte Bluetooth Low Energy para ofrecer localización y telemetría confiables aún en entornos exigentes. El GV57MG incorpora funciones como transmisión en búfer de mensajes y configuración por aire (OTA) para garantizar reportes fiables y facilitar la gestión del ciclo de vida en despliegues móviles.
 
-El Queclink GV57MG es un rastreador GPS compacto, impermeable con certificación IP67, diseñado para el rastreo de vehículos ligeros y motocicletas. Construido para condiciones exteriores adversas, el GV57MG combina un rendimiento GNSS robusto, un diseño de bajo consumo y soporte BLE 5.1 para ofrecer seguimiento en tiempo real y telemetría confiables compatibles con Plaspy para gestión de flotas, anti‑robos y aplicaciones de recuperación.
+Como dispositivo compatible con Plaspy, el GV57MG alimenta a la plataforma con ubicación en tiempo real, alertas y telemetría histórica para los flujos de trabajo de monitoreo y seguridad. Su formato compacto y resistente, junto con las capacidades de ahorro de energía, lo convierten en una opción práctica para gestores que necesitan visibilidad continua, detección de encendido y opciones de control remoto dentro de Plaspy.
 
-Diseñado para una instalación y gestión del ciclo de vida sencillas, el GV57MG admite LTE Cat M1 y NB2 con respaldo GSM, transmisión de mensajes en búfer y configuración por aire \(OTA\). Integrar el GV57MG con Plaspy proporciona a los despachadores y gestores de flota ubicación en tiempo real, enrutamiento de alarmas e informes históricos — ideal cuando se necesita una localización fiable, detección de ignición y capacidad de control remoto en un paquete compacto.
+## Aspectos destacados
 
-## Aspectos clave
+- Dispositivo compatible con Plaspy con conectividad celular de amplio alcance y mecanismos de conmutación para una cobertura resiliente.
+- Carcasa robusta con certificación IP67, adecuada para motocicletas, vehículos ligeros y equipos expuestos.
+- Alto rendimiento GNSS con precisión de posición para un rastreo fiable.
+- Diseño de bajo consumo y modos de consumo cero para minimizar la descarga de batería durante estacionamientos prolongados.
+- Soporte BLE 5.1 para interoperabilidad con sensores y balizas de corto alcance.
+- Telemetría en búfer y enlace de uplink multi canal para mantener continuidad de datos tras pérdidas de conectividad.
+- Huella física simple y funciones de gestión remota para facilitar las operaciones de ciclo de vida del dispositivo.
 
-- Rastreador GPS compatible con Plaspy con conectividad celular LTE Cat M1 / NB2 y respaldo GSM para amplia cobertura y menor consumo de energía.
-- Carcasa impermeable IP67 y robusta, diseñada para motocicletas, vehículos ligeros y equipos expuestos.
-- Receptor GNSS MTK de alta sensibilidad \(autónomo -148 dBm; inicio en frío -163 dBm; seguimiento -165 dBm\) y precisión de posición menor a 2.5 m CEP.
-- Operación de bajo consumo con la tecnología de consumo cero de Queclink para evitar el drenaje de la batería del vehículo durante estacionamientos prolongados.
-- Bluetooth Low Energy \(BLE 5.1\) para la integración de sensores locales, balizas y telemetría de corto alcance.
-- Telemetría en búfer \(hasta 10,000 mensajes\) y enlace ascendente multi‑protocolo \(TCP, UDP, SMS\) para reportes resilientes.
-- Instalación simple de cinco cables, detección de ignición, alarma SOS y una salida digital open-drain para control remoto o integración con inmovilizador.
+## Integración con Plaspy
 
-## Cómo funciona con Plaspy
+Al integrarse con Plaspy, el GV57MG transmite posiciones, estados y eventos de alarma para que despachadores y gestores de flota puedan supervisar activos en tiempo real y actuar ante incidentes de seguridad u operativos. Plaspy recibe los mensajes en búfer cuando se restaura la conectividad y presenta datos de ubicación y estado para mapeo, alertas e informes.
 
-Cuando se empareja con Plaspy, el GV57MG transmite en tiempo real la ubicación GNSS, telemetría y eventos de alarma para que los gestores de flota puedan monitorizar rutas, detectar intentos de robo y activar flujos de trabajo automatizados. Plaspy ingiere datos de posición, estado y sensores del dispositivo utilizando los protocolos TCP/UDP/SMS y almacena los mensajes en búfer enviados tras la restauración de la conectividad. La combinación ofrece geocercas operativas, alertas y reproducción histórica para usos operativos y de seguridad.
+- Ubicación y telemetría en tiempo real mostradas en los mapas de Plaspy para monitoreo de rutas y visibilidad de activos.
+- Enrutamiento de alarmas para SOS, estacionamiento y violaciones de geocercas, facilitando respuestas rápidas.
+- Informes de encendido y eventos de estado a Plaspy para soportar flujos de trabajo de combustible, despacho y control de tiempo en ralentí.
+- Control remoto de salidas y acciones basadas en eventos coordinadas desde Plaspy para inmovilización y otros escenarios de control.
+- Datos de sensores BLE y balizas reenviados a Plaspy cuando están dentro de alcance para telemetría local y monitoreo de corto alcance.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para visualización en mapa y generación de informes.
-- Detección de ignición \(disparo positivo\) y detección de ignición virtual \(voltaje o acelerómetro\) reportadas como eventos de estado.
-- Eventos de alarma: SOS/pánico, velocidad/remolque, estacionamiento y violaciones de geocerca \(hasta 20 regiones internas\) enviados a Plaspy para notificación inmediata.
-- Inmovilizador/Control remoto: la salida digital open-drain puede ser controlada mediante los comandos de salida de Plaspy para integrarse con el inmovilizador o con circuitos de control remoto.
-- Sensores/balizas Bluetooth: BLE 5.1 habilita la telemetría de sensores locales \(p. ej., temperatura o balizas de proximidad\) para enviarla a Plaspy cuando está dentro del alcance.
+## Casos de uso típicos
 
-## Resumen técnico
-
-| Conectividad | LTE Cat M1, NB2 con respaldo GSM \(operación multiformato\) |
-| --- | --- |
-| Bandas | Amplia gama de bandas LTE Cat M1 / NB2 soportadas; bandas de respaldo GSM \(los conjuntos de bandas específicos varían por variante y región\) |
-| Alimentación y batería | Entrada 8V–32V DC; batería interna Li-Polymer de respaldo de 190 mAh; ejemplos de modo de espera: ~40 horas sin reporte, ~30–36 horas con reporte periódico \(varía según el intervalo\) |
-| Interfaces | Conector de cinco hilos en línea; una entrada de disparo positiva \(detección de ignición\), una entrada de disparo negativa, una salida digital open-drain \(hasta 150 mA\); micro USB para firmware y depuración |
-| GNSS | Receptor GNSS MTK integrado — sensibilidad: autónomo -148 dBm, inicio en frío -163 dBm, seguimiento -165 dBm; precisión de posición menor a 2.5 m CEP; TTFF en frío ~24 s, en caliente ~1 s |
-| Bluetooth | BLE 5.1 para interacciones locales con el dispositivo e integración de sensores |
-| Gestión remota | Configuración remota y actualizaciones de firmware \(control OTA de salidas digitales, protección contra manipulación de configuración cifrada\); puerto micro USB para actualizaciones/depuración |
-| Formato | Carcasa compacta y robusta IP67 para instalación en vehículos y motocicletas |
-
-## Casos de uso
-
-- Recuperación y anti‑robo de vehículos — instalación encubierta, detección de interferencias y control remoto de salidas para flujos de inmovilización a través de Plaspy.
-- Monitoreo de motocicletas — factor de forma impermeable, emparejamiento de sensores BLE y modo de consumo cero para estacionamiento prolongado sin supervisión.
-- Rastreo de flotas ligeras — rastreador GPS en tiempo real para furgonetas de reparto y vehículos de servicio con informes sensibles a la ignición y alertas de conducción brusca para entrenamiento de seguridad.
-- Estacionamiento y almacenamiento sin supervisión — tiempos de espera extendidos y diseño de ahorro de energía para minimizar el drenaje de la batería en vehículos estacionados a largo plazo.
-- Telemetría local y monitorización de sensores — sensores BLE emparejados para reportar temperatura, proximidad u otra telemetría de corto alcance a través de Plaspy cuando están dentro del alcance.
+- Recuperación de vehículos robados y operaciones anti‑hurto que requieren rastreo encubierto y coordinación de control remoto.
+- Monitoreo de motocicletas donde la impermeabilidad y el tamaño compacto son esenciales.
+- Seguimiento de flotas ligeras para camionetas de reparto y vehículos de servicio con reportes conscientes de encendido y visibilidad de rutas.
+- Monitoreo de estacionamiento y almacenamiento no atendido con rendimiento en espera extendido para minimizar el consumo de batería.
+- Agregación local de telemetría desde sensores BLE para reportes de temperatura o proximidad cuando los vehículos están cerca.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GV57MG ofrece una mezcla equilibrada de robustez, gestión eficiente de la energía y conectividad moderna que se adapta a implementaciones impulsadas por Plaspy. Su carcasa IP67 y su tamaño compacto facilitan la instalación en motos y vehículos ligeros, mientras que el motor GNSS MTK mantiene una alta precisión de posición para rutas confiables y recuperación. La tecnología de consumo cero de Queclink reduce el riesgo de drenaje de la batería, lo cual es crítico para estacionamientos prolongados y usos anti‑robos. El envío de mensajes en búfer, el soporte multi‑protocolo y la gestión OTA simplifican las operaciones del ciclo de vida y ayudan a garantizar la continuidad de datos para la gestión de flotas, telemetría y flujos de seguridad.
+El GV57MG es una opción equilibrada para organizaciones que usan Plaspy y requieren un rastreador robusto y de bajo consumo para motocicletas y vehículos ligeros. Su carcasa compacta y el rendimiento GNSS ofrecen posicionamiento fiable, mientras que el envío en búfer y la configuración remota ayudan a mantener la continuidad de los datos y simplifican la administración de dispositivos en un despliegue con Plaspy. El soporte BLE y la capacidad de salidas remotas añaden flexibilidad para integrar sensores locales y habilitar flujos de control.
 
-Certificado para múltiples operadores y regiones \(incluyendo FCC, PTCRB, AT&T, T-Mobile, CE, Anatel\), el GV57MG es un rastreador GPS compatible con Plaspy diseñado para integrarse rápidamente en pilas telemáticas existentes. Úselo donde la posición GNSS precisa, el soporte de sensores BLE, la detección de ignición y un diseño compacto e impermeable sean prioridades, desde la recuperación de vehículos robados hasta la optimización diaria de la flota.
-
+Si desea obtener más información sobre cómo se integra el GV57MG con Plaspy y si es adecuado para su despliegue, visite https://www.plaspy.com para información general de la plataforma. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo; verifique las especificaciones y certificaciones actuales en el sitio del fabricante https://www.queclink.com/.

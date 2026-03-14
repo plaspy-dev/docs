@@ -2,62 +2,60 @@
 slug: /xirgo/xt25
 id: xt25
 sidebar_label: XT25
+title: Xirgo - XT25
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular Xirgo XT25 compacto conectar y usar, compatible con Plaspy para seguimiento de flotas y telemetría
+keywords:
+  - Xirgo XT25
+  - rastreador GPS XT25
+  - rastreador Xirgo
+  - rastreador GPS compatible con Plaspy
+  - unidad de rastreo vehicular
+  - seguimiento de flotas
+  - dispositivo plug and play
+  - rastreador con soporte OBD
+  - rastreador con acelerómetro
+  - rastreador Bluetooth
 ---
+
 # Xirgo - XT25
 
 ![XT25](./tracker.webp)
 
-El XT25 es una unidad de rastreo de vehículos \(VTU\) plug-and-play diseñada para vehículos ligeros y de pasajeros y fácilmente adaptable a instalaciones en camiones de servicio pesado. Construida para integradores y operadores de flotas que requieren un rastreador GPS compatible con Plaspy, el XT25 ofrece datos de ubicación y movimiento confiables con un factor de forma compacto, radios GPS y celulares integrados, y Bluetooth opcional para ELD y emparejamiento de sensores. Su combinación de compatibilidad con el protocolo OBD, acelerómetro integrado y batería interna opcional lo convierten en una opción práctica para la gestión de flotas, monitoreo antirrobo y telemetría a bordo.
+El Xirgo XT25 es una unidad de rastreo vehicular de tipo conectar y usar, diseñada principalmente para vehículos de servicio ligero y de pasajeros, con opciones de instalación adaptables para camiones más pesados. Combina un formato compacto con radios GNSS y celulares integrados, Bluetooth opcional para emparejar accesorios, soporte de protocolos OBD y un acelerómetro a bordo. Estas capacidades hacen del XT25 una opción adecuada para integradores y operadores de flota que requieren datos de ubicación y movimiento confiables en un dispositivo pequeño y configurable.
 
-El XT25 se conecta directamente a los puertos OBD del vehículo o se instala mediante cableado para instalaciones permanentes y puede ampliarse con una caja I/O externa cuando se requieren interfaces adicionales. Disponible para redes celulares de Norteamérica \(AT&T, Verizon, TMO\) y diseñado para conectividad 4G LTE Cat M1 y LTE Cat NB2, el XT25 está construido para transmitir datos de rastreo y telemetría en tiempo real a Plaspy para alertas, geocercas y reportes en flotas de vehículos mixtas.
+Como rastreador compatible con Plaspy, el XT25 puede transmitir posiciones y telemetría del vehículo a la plataforma Plaspy para monitoreo en vivo, alertas e informes históricos. Su soporte para señales derivadas del OBD, eventos de movimiento y emparejamiento opcional de accesorios permite que Plaspy muestre estado de ignición, alertas de movimiento y datos de sensores junto con vistas de mapa e informes de flota, lo que convierte al XT25 en una opción práctica para despliegues de flota mixtos que dependen de visibilidad centralizada y flujos de trabajo basados en eventos.
 
-## Aspectos clave
+## Características principales
 
-- Instalación plug-and-play para un despliegue rápido en vehículos ligeros y de pasajeros, con opciones adaptables para camiones de servicio pesado.
-- Rastreador GPS compatible con Plaspy que admite seguimiento en tiempo real y flujos de gestión de flotas.
-- Conectividad celular en 4G LTE Cat M1 y LTE Cat NB2 para telemetría de bajo consumo y confiable sobre las redes de AT&T, Verizon y TMO en Norteamérica.
-- Interfaz Bluetooth opcional para aplicaciones ELD y conexión de sensores o balizas Bluetooth.
-- Soporte de protocolo OBD y compatibilidad de voltaje del vehículo para acceder al encendido y al diagnóstico cuando esté disponible.
-- Acelerómetro integrado para detección de movimiento, informes de eventos bruscos y alertas anti‑robo.
-- Batería interna opcional y zumbador interno para admitir alertas de comportamiento del conductor y escenarios de pérdida de energía.
-- Expansible mediante una caja I/O externa para añadir entradas/salidas digitales e integrar un inmovilizador o control de alarma según sea necesario.
+- Diseño conectar y usar para despliegues rápidos en vehículos de servicio ligero y de pasajeros, con opciones de cableado para camiones más pesados.
+- Compatible con Plaspy para seguimiento en tiempo real, alertas, geocercas e informes de flota.
+- Radios GNSS y celulares integrados con opciones regionales para conectividad fiable en las redes comunes de Norteamérica.
+- Interfaz Bluetooth opcional para soportar flujos de trabajo ELD y emparejamiento con sensores o accesorios externos.
+- Soporte de protocolos OBD y compatibilidad con voltaje vehicular para mostrar ignición y señales diagnósticas básicas cuando estén disponibles.
+- Acelerómetro integrado para detección de movimiento y notificación de eventos bruscos, útil para anti robo y monitoreo de comportamiento del conductor.
+- Expansible mediante caja I/O externa para añadir entradas y salidas digitales y habilitar inmovilizadores o integración de alarmas cuando sea necesario.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el XT25 transmite lecturas de GPS, telemetría del vehículo y eventos de movimiento a la plataforma Plaspy para seguimiento en tiempo real, alertas automatizadas y reportes históricos. La integración compatible con Plaspy permite a las flotas visualizar ubicaciones en un mapa, activar notificaciones de geocerca y analizar telemetría para el rendimiento del conductor y la salud del vehículo. La integración de datos aprovecha los sensores a bordo del XT25 y las señales derivadas del OBD para que Plaspy pueda presentar el estado de encendido, códigos de fallo e informes basados en eventos junto con el rastreo de ubicación.
+Cuando se integra con Plaspy, el XT25 envía ubicación, eventos de movimiento y la telemetría vehicular disponible a la plataforma Plaspy para que los gestores de flota mantengan visibilidad y reaccionen ante eventos en tiempo real. Plaspy procesa los datos del dispositivo para alimentar vistas de mapa, alertas automatizadas e informes operativos que ayudan a los equipos a supervisar activos, aplicar políticas y analizar el desempeño de la flota.
 
-- Actualizaciones en tiempo real de ubicación y telemetría enviadas a Plaspy para seguimiento en mapa en vivo y reproducción de rutas históricas.
-- Estado de encendido y diagnósticos básicos vía protocolos OBD cuando el vehículo lo admite, habilitando reglas basadas en el encendido e informes de motor encendido/apagado.
-- Monitoreo de combustible y telemetría relacionada disponibles a través de canales OBD cuando el ECU del vehículo lo soporta; Plaspy puede mostrar tendencias de combustible y excepciones.
-- Control de inmovilizador o alarma ampliable mediante la caja I/O externa para acciones antirrobo donde sea necesario.
-- Sensores Bluetooth y emparejamiento ELD \(opcional\) para la integración de registros del conductor, telemetría de sensores BLE y conectividad de accesorios.
-- Alertas de movimiento y eventos bruscos impulsados por el acelerómetro integrado para respaldar flujos de trabajo anti‑robo y comportamiento del conductor en Plaspy.
+- Actualizaciones de ubicación en tiempo real y reproducción histórica de rutas para seguimiento en mapa y auditorías.
+- Señales de ignición y diagnósticos básicos desde OBD cuando están disponibles, permitiendo reglas dependientes de ignición e informes de motor encendido/apagado.
+- Alertas de movimiento y eventos bruscos basadas en el acelerómetro para flujos de trabajo de anti robo y comportamiento del conductor.
+- Emparejamiento de sensores y ELD vía Bluetooth opcional para mostrar registros de conductor y telemetría externa dentro de Plaspy.
+- Control I/O expandible para acciones remotas de inmovilizador o alarmas coordinadas mediante alertas y flujos de trabajo en Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | XT25 |
-| --- | --- |
-| Conectividad | Celular \(4G LTE Cat M1, LTE Cat NB2\), GPS; Bluetooth opcional |
-| Redes / Regiones | Norteamérica: AT&T, Verizon, TMO |
-| Energía y batería | Compatibilidad de voltaje para vehículos ligeros y pesados; batería interna de respaldo opcional |
-| Interfaces | Soporte de protocolo OBD; posibilidad de conectar a una caja I/O externa \(entradas/salidas adicionales\); zumbador interno opcional |
-| GNSS | GPS \(antena integrada\) |
-| Sensores | Acelerómetro integrado para detección de movimiento y eventos bruscos |
-| Bluetooth | Interfaz Bluetooth opcional con antena interna \(para ELD y sensores Bluetooth\) |
-| Gestión remota | Gestión de dispositivo/plataforma no especificada; integra datos con Plaspy para monitoreo e informes |
-| Formato | VTU plug-and-play para vehículos de pasajeros y ligeros; adaptable para uso en camiones pesados con cableado y caja I/O |
-| Certificaciones | FCC, PTCRB, IC |
-
-## Casos de uso
-
-- Gestión de flotas: datos de rastreador GPS en tiempo real y telemetría para monitoreo de rutas, informes de utilización y paneles de cumplimiento en Plaspy.
-- Protección antirrobo: alertas de movimiento y violaciones de geocerca usando el acelerómetro y GPS, con integración opcional de inmovilizador mediante la caja I/O externa.
-- Comportamiento y seguridad del conductor: zumbador interno y detección de eventos bruscos impulsados por el acelerómetro para resaltar conducción de riesgo y apoyar programas de capacitación.
-- Flujos de trabajo ELD y sensores Bluetooth: interfaz Bluetooth opcional para registro electrónico y emparejamiento con sensores de temperatura o de carga para flotas con activos sensibles.
-- Despliegues de flotas mixtas: soporte OBD y compatibilidad de voltaje permiten una implementación sencilla en automóviles, furgonetas y configuraciones para camiones pesados.
+- Seguimiento de flotas de vehículos de pasajeros y unidades ligeras que requieren instalación rápida y monitoreo centralizado.
+- Monitoreo anti robo con alertas de movimiento, notificaciones por geocerca y control opcional de inmovilizador.
+- Análisis del comportamiento del conductor mediante detección de eventos bruscos con el acelerómetro y reportes asociados.
+- Integración de ELD y sensores accesorios para flujos regulatorios y operaciones sensibles a la carga.
+- Despliegues de flota mixta donde el soporte OBD y las opciones de instalación adaptables simplifican la implementación en distintos tipos de vehículos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El XT25 ofrece un equilibrio entre simplicidad y capacidad de expansión para operaciones que requieren un rastreador GPS confiable compatible con Plaspy. Su diseño plug-and-play reduce el tiempo de instalación en vehículos ligeros y de pasajeros, mientras que el hardware opcional \(batería interna, zumbador, Bluetooth\) y una caja I/O externa permiten adaptar el dispositivo a la gestión de flotas, defensas anti‑robo y flujos de telemetría impulsados por datos. Con un amplio soporte celular en Norteamérica para LTE Cat M1 y NB2 y compatibilidad con el protocolo OBD, el XT25 proporciona los datos clave de seguimiento y telemetría en tiempo real que Plaspy requiere para alimentar alertas, reglas basadas en el encendido, monitoreo de combustible cuando esté disponible y reportes escalables para flotas mixtas. Elige el XT25 cuando necesites un rastreador práctico y certificado que se integre de forma limpia con Plaspy para convertir las señales del vehículo en información accionable.
+El XT25 ofrece un equilibrio entre simplicidad y capacidad de expansión que encaja en muchos escenarios de gestión de flotas. Su factor de forma conectar y usar reduce el tiempo de despliegue en vehículos de pasajeros y unidades ligeras, mientras que el hardware opcional y la caja I/O externa permiten añadir controles anti robo, sensores auxiliares e interfaces para accesorios conforme evolucionen las necesidades operativas. Para organizaciones que usan Plaspy, el XT25 suministra las señales básicas de ubicación y eventos necesarias para alimentar alertas, geocercas e informes de flota sin introducir complejidad innecesaria.
 
+Si desea obtener más información sobre cómo los dispositivos XT25 pueden funcionar con Plaspy y apoyar sus objetivos de visibilidad de flota visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones técnicas actuales y la disponibilidad regional en el sitio oficial del fabricante https://xirgo.com/.

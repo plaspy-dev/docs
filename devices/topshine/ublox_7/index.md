@@ -2,67 +2,61 @@
 slug: /topshine/ublox_7
 id: ublox_7
 sidebar_label: Ublox 7
+title: TopShine - Ublox 7
 sidebar_class_name: menu_item_tracker
+description: Compact industrial GPS tracker for motorcycles small vehicles and light equipment compatible with Plaspy for reliable real time tracking and anti theft monitoring
+keywords:
+  - TopShine Ublox 7
+  - Ublox 7 GPS tracker
+  - TopShine GPS tracker
+  - Plaspy compatible tracker
+  - motorcycle GPS tracker
+  - mini GPS tracker
+  - fleet tracking device
+  - anti theft tracker
+  - waterproof GPS tracker
+  - uBlox 7 chipset
 ---
+
 # TopShine - Ublox 7
 
 ![Ublox 7](./tracker.jpg)
 
-The Ublox 7 Mini \(Model MT06\) is a compact, industrial-grade GPS tracker engineered for motorcycles, small vehicles and light equipment. Plaspy compatible out of the box, this waterproof unit combines a high-sensitivity uBlox 7 GNSS chipset with a certified M35 GSM/GPRS module to deliver reliable real-time tracking, configurable auto-tracking and core telemetry needed for fleet management, anti-theft protection and remote monitoring.
+The Ublox 7 Mini (Model MT06) is a compact industrial grade GPS tracker designed for motorcycles, small vehicles and light equipment. It combines a high sensitivity uBlox 7 GNSS chipset with a certified M35 GSM GPRS module in a waterproof enclosure to provide dependable real time tracking, configurable auto tracking and core telemetry for fleet management, anti theft protection and remote monitoring.
 
-The unit supports SMS/GPRS uplink, TCP/UDP connections and an open protocol for easy integration with Plaspy and other third‑party platforms. Lightweight and rugged, the Ublox 7 Mini offers fast satellite acquisition, configurable alarms \(including overspeed\) and engine ON/OFF detection with an optional relay for remote engine cut-off — giving fleet managers and vehicle owners a practical Plaspy-compatible option for security and operational visibility.
+This model is Plaspy compatible out of the box, using an open protocol and standard SMS GPRS or TCP UDP connections to transmit position, status and alarms. That compatibility makes the Ublox 7 a practical option for organizations that want straightforward integration with Plaspy for live maps, history, alerts and reporting without needing extensive custom configuration.
 
 ## Key Highlights
 
-- Plaspy compatible: open protocol and TCP/UDP support for smooth platform integration and real-time tracking.
-- High GPS sensitivity \(-159 dBm\) and uBlox 7 chipset for fast hot/warm/cold starts and reliable position fixes.
-- Designed for harsh environments: waterproof housing, industrial design and wide operating temperature range.
-- Engine ON/OFF detection plus optional relay for remote engine cut-off \(immobilizer capability\) for anti‑theft control.
-- Lightweight and compact \(48 x 48 x 12 mm, ~28–30 g\) — ideal for motorcycles, cars and small assets.
-- Real-time tracking via SMS/GPRS with online reports, overspeed alarms and configurable auto-tracking by time or distance.
-- Open protocol and certified GSM module \(M35\) with legal IMEI for dependable GSM/GPRS communication.
+- Plaspy compatible with open protocol support for straightforward platform integration.
+- Compact and lightweight industrial design suitable for motorcycles and small vehicles.
+- Waterproof housing and rugged construction for reliable operation in challenging conditions.
+- Fast satellite acquisition and high sensitivity GNSS performance for consistent position fixes.
+- Configurable alarms including overspeed and engine ON OFF detection for security and operational alerts.
+- Supports SMS and GPRS communications for flexible connectivity options.
 
 ## How It Works with Plaspy
 
-Integration with Plaspy is straightforward: the Ublox 7 Mini sends GNSS position data and telemetry over TCP/UDP or GPRS to Plaspy’s ingestion endpoints, or via SMS for basic setups. Because the device supports an open protocol and standard network connections, Plaspy can parse location, status events and alarms to provide live maps, history, reports and configurable alerts.
+Integration with Plaspy uses the device ability to send GNSS position, status events and alarms over standard network channels so Plaspy can ingest and present that data in dashboards, maps and reports. Because the Ublox 7 supports an open protocol, Plaspy can parse location and event messages for live monitoring and automated workflows.
 
-- Real-time location and telemetry updates delivered via GPRS \(TCP/UDP\) or SMS for lightweight installations.
-- Engine ON/OFF status detection reported to Plaspy for ignition-based events, start/stop logs and fuel‑related workflows.
-- Overspeed alarms and configurable auto-tracking \(by time or distance\) transmitted to Plaspy for automated alerts and reporting.
-- Optional remote immobilizer \(relay\) control — Plaspy can trigger immobilization workflows where supported and configured.
-- Voice monitoring \(optional microphone\) and other accessory inputs can be forwarded to Plaspy as part of telemetry where required.
+- Real time location updates and telemetry sent to Plaspy for live mapping and fleet visibility.
+- Engine ON OFF status and ignition related events forwarded to Plaspy for trip logs and operational analysis.
+- Overspeed and other configurable alarms delivered to Plaspy for automated alerts and notifications.
+- Configurable auto tracking by time or distance preserved in Plaspy history for efficient reporting.
+- Optional relay control and accessory inputs can be incorporated into Plaspy workflows where enabled.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | MT06 \(Ublox 7 Mini\) |
-| --- | --- |
-| GNSS | uBlox 7 chipset |
-| GPS Accuracy | Approximately 10 meters \(2D RMS\) |
-| GPS Sensitivity | -159 dBm |
-| Start Times | Hot ~1 s; Warm ~38 s; Cold ~42 s \(average\) |
-| Connectivity | GSM / GPRS \(certified M35 module\) |
-| Bands | GSM850 / GSM900 / DCS1800 / PCS1900 \(850/900/1800/1900 MHz\) |
-| Power & Battery | Working voltage: 9VDC–24VDC \(specs also list up to 9V–36V\); optional auxiliary battery available |
-| I/O | 1 digital input, 1 output \(relay interface optional\), 12V power wire, GND, 1 USB port |
-| Protocols | SMS, GPRS \(TCP/UDP\), open protocol for third-party integration |
-| LEDs | 2 LEDs indicating GPS and GSM status |
-| Waterproof | Yes \(rugged waterproof housing\) |
-| Dimensions | 48 x 48 x 12 mm \(4.5 x 4.5 x 1 cm\) |
-| Weight | Approximately 28–30 g |
-| Operating Temperature | -20°C to 65°C |
-| Certifications & Accessories | CE, FCC, RoHS. Standard package includes main unit and 4‑pin wire; optional relay and auxiliary battery available. |
-
-## Use Cases
-
-- Fleet management for small vehicles and motorcycles — continuous position, overspeed alerts and trip history via Plaspy dashboards.
-- Anti-theft protection — engine ON/OFF detection and optional remote engine cut-off \(relay\) to immobilize stolen vehicles.
-- Motorcycle and scooter monitoring — compact waterproof form factor for discreet installation and reliable GNSS performance.
-- Equipment and asset tracking — light vehicles and portable equipment where space and ruggedness matter.
-- Voice and event monitoring — optional microphone and digital inputs provide additional telemetry when connected and authorized.
+- Fleet management for small vehicle fleets and motorcycle couriers requiring continuous tracking and trip history.
+- Anti theft protection with engine status detection and optional remote immobilization capabilities.
+- Motorcycle and scooter monitoring where compact size and waterproof construction matter.
+- Light equipment tracking for portable assets that need rugged, discreet location reporting.
+- Remote monitoring and operational oversight for small fleets that use Plaspy dashboards and alerts.
 
 ## Why Choose This Tracker with Plaspy
 
-The Ublox 7 Mini is a pragmatic choice for businesses and individuals who need a Plaspy compatible GPS tracker that balances size, durability and proven GNSS performance. Its industrial uBlox 7 chipset and high sensitivity support quick fixes in urban and semi-open environments, while the certified M35 GSM modem and open protocol make integration and reliable data delivery to Plaspy straightforward. For fleet management and anti‑theft workflows, the unit’s engine status detection, overspeed alarms and optional relay for engine cut-off provide core controls without adding unnecessary complexity.
+The Ublox 7 Mini balances size, durability and proven GNSS performance, making it a practical choice for teams that need reliable tracking from a compact device. Its open protocol and certified GSM modem simplify integration with Plaspy so organizations can quickly start receiving live position data, alarms and engine status without complex adaptation.
 
-Operational teams benefit from a low‑weight, waterproof device that installs easily on motorcycles and small vehicles and sends consistent location and telemetry to Plaspy for mapping, reports and alerts. With support for SMS/GPRS, TCP/UDP and an open protocol, the Ublox 7 Mini offers flexibility for simple SMS-based tracking or full-featured Plaspy deployments that require scalable, real-time tracking and telemetry.
+For operators focused on motorcycles, small vehicles or portable equipment, the Ublox 7 offers a rugged waterproof option that pairs well with Plaspy for mapping, alerts and reporting. Its configurable alarms and support for SMS and GPRS provide flexibility for both simple and more comprehensive tracking deployments.
 
+Learn more about Plaspy and how compatible trackers can support your fleet and security workflows at https://www.plaspy.com. Product specifications availability and manufacturer details can change over time so verify current specifications and options with the official manufacturer documentation at https://www.gztopshine.com/.

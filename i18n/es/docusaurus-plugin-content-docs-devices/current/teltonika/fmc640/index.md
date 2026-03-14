@@ -2,44 +2,62 @@
 slug: /teltonika/fmc640
 id: fmc640
 sidebar_label: FMC640
+title: Teltonika - FMC640
 sidebar_class_name: menu_item_tracker
+description: Compatibilidad del rastreador Teltonika FMC640 con Plaspy para monitoreo y gestión de flotas
+keywords:
+  - Teltonika FMC640
+  - FMC640 Plaspy
+  - rastreador GPS
+  - rastreo de flotas
+  - rastreo de vehículos
+  - rastreador GNSS
+  - rastreador 4G LTE
+  - gestión de flotas
+  - datos de tacógrafo
+  - rastreador doble SIM
 ---
+
 # Teltonika - FMC640
 
 ![FMC640](./Logo.png)
 
-El rastreador GPS Teltonika FMC640 es un dispositivo de la serie PROFESIONAL que ofrece una cobertura de red 4G \(LTE Cat 1\) con compatibilidad de respaldo 3G \(UMTS\) y 2G \(GSM\). Este dispositivo está equipado con módulos GNSS/LTE y Bluetooth, lo que lo hace altamente versátil y funcional.
+El Teltonika FMC640 es un rastreador GPS de calidad profesional diseñado para maximizar la eficiencia de la flota y ofrecer capacidades de seguimiento completas. Integra conectividad celular, módulos de posicionamiento y soporte para datos del vehículo y periféricos externos, entregando información continua de ubicación y estado para una amplia variedad de vehículos y equipos. El FMC640 está pensado para aplicaciones exigentes como logística internacional, transporte refrigerado, agricultura, construcción y servicios de seguridad.
 
-El FMC640 está diseñado para maximizar la eficiencia de su flota, ofreciendo características como datos CAN FMS \(J1939\), datos CAN de combustible \(J1708\), datos en vivo del tacógrafo \(K-Line\), descarga remota de archivos de tacógrafo y compatibilidad con varios dispositivos RS232 o RS485 de terceros. Además, cuenta con la funcionalidad Dual-SIM, lo que garantiza una conectividad estable y confiable en todo momento.
+Como dispositivo compatible con Plaspy, el FMC640 puede enviar ubicación, eventos de movimiento y datos del vehículo a una plataforma centralizada de gestión de flotas. Esta compatibilidad lo convierte en una opción práctica para organizaciones que desean consolidar la telemetría y la supervisión operativa en Plaspy, usando la plataforma para visualizar rutas, monitorear alertas y generar reportes a partir de los datos del rastreador.
 
-Este rastreador GPS es adecuado para una amplia gama de aplicaciones, incluyendo logística internacional, transporte refrigerado, agricultura, construcción y minería, seguridad y servicios de emergencia, entre otros. Su diseño robusto y resistente garantiza un rendimiento óptimo incluso en las condiciones más exigentes.
+## Aspectos clave
 
-### Características destacadas:
+- Cobertura celular multinivel con mecanismos de respaldo para mantener la conectividad en distintas regiones
+- Posicionamiento GNSS y módulos de comunicación integrados para reportes de ubicación confiables
+- Soporte para interfaces de bus del vehículo y tacógrafo para capturar datos relacionados con el vehículo y el conductor
+- Compatibilidad con periféricos, incluyendo sensores comunes y dispositivos de identificación para despliegues flexibles
+- Detección de movimiento y eventos basados en acelerómetro para monitoreo de desplazamientos y comportamiento del conductor
+- Funciones integradas de geocercas y detección de viajes para generar eventos automáticos
+- Capacidades de gestión remota del dispositivo como configuración y actualizaciones de firmware respaldadas por el fabricante
 
-- Detección de movimiento
-- Acelerómetro
-- Conducción ecológica / ecológica
-- Detección de exceso de velocidad
-- Detección de interferencias
-- Detección de ralentí excesivo
-- Detección de remolque
-- Detección de colisiones
-- Inmovilizador
-- Notificación de lectura de iButton
-- Geofencing automático
-- Geofencing manual
-- Detección de viaje
-- Odómetro
-- Contador de combustible
-- Detección de desconexión GNSS
-- Descarga de DDD y datos en línea de Tacho
-- Seguimiento fuera de línea
-- Compatibilidad con periféricos como Garmin, RFID RS232, RFID de 1 cable, iButton de 1 cable, temperatura de 1 cable, LV-CAN200, ALL-CAN300, CAN-CONTROL, CAN FMS \(J1939, J1708\), datos de línea K, sensor de medición de presión de neumáticos Continental, Iridium SBD \(TSM232\), congelador portador, modo de registro, NMEA, TCP ASCII / binario, sensor de temperatura y humedad, y sensores BLE universales
-- Modos de reposo como Sueño GPS, Sueño profundo en línea y Sueño profundo
-- Actualización de configuración y firmware a través de FOTA Web y Configurador Teltonika
-- Funcionalidad de SMS para configuración, eventos, control DOUT y depuración
-- Comandos GPRS para configuración, control DOUT y depuración
-- Sincronización de tiempo a través de GPS, NITZ y NTP
-- Monitoreo de combustible con LLS \(analógico\), LLS digital \(RS232, RS485\), LV-CAN200, ALL-CAN300, CAN-CONTROL, CAN FMS y sensor de nivel ultrasónico
-- Detección de ignición a través de entrada digital, acelerómetro y voltaje de alimentación externa
+## Cómo funciona con Plaspy
 
+Al integrarse con Plaspy, el FMC640 suministra mensajes de ubicación y estado que Plaspy procesa para ofrecer visibilidad en tiempo real y reportes históricos. Los datos y eventos del rastreador se convierten en elementos accionables dentro de la plataforma, de modo que usted puede supervisar activos, responder a alertas y analizar el desempeño.
+
+- Actualizaciones de ubicación y movimiento en tiempo real mostradas en los mapas y paneles de Plaspy
+- Eventos de geocerca, viajes y exceso de velocidad enviados a Plaspy para alertas y desencadenar flujos de trabajo
+- Datos del vehículo y del tacógrafo disponibles para reportes y análisis operativo cuando el dispositivo provee esas fuentes
+- Cambios en los estados de sensores periféricos y entradas visibles en Plaspy para monitoreo de temperatura, control de acceso y casos de uso similares
+- Estado de conectividad del dispositivo y funciones de redundancia que ayudan a mantener la continuidad de los datos en Plaspy
+
+## Casos de uso habituales
+
+- Flotas de logística internacional y transporte de larga distancia que requieren amplia cobertura celular y redundancia
+- Transporte refrigerado donde se monitorean datos ambientales y de perímetro junto con la posición
+- Flotas de construcción y agrícolas que necesitan seguimiento de activos en sitios dispersos
+- Vehículos de seguridad y emergencia que se benefician de actualizaciones rápidas de ubicación y alertas por manipulación
+- Programas de eficiencia de flota que usan detección de viajes, escenarios de conducción ecológica y datos de odómetro para reportes
+
+## Por qué elegir este rastreador con Plaspy
+
+El FMC640 se presenta como un rastreador robusto y con muchas funciones, adecuado para organizaciones que requieren conectividad confiable y acceso ampliado a datos del vehículo. Su soporte para interfaces vehiculares, dispositivos periféricos y detección de eventos lo hace versátil para flotas mixtas y diversas necesidades operativas. En combinación con Plaspy, el dispositivo puede convertirse en una fuente de datos central para supervisión, alertas y análisis de la flota.
+
+Dado que el FMC640 aporta información tanto de posición como del vehículo, puede ayudar a los clientes de Plaspy a unificar métricas de rastreo y operativas en una sola plataforma. Si necesita un rastreador capaz para entornos de flota complejos, el FMC640 es una opción razonable para considerar su integración con Plaspy, teniendo en cuenta que la disponibilidad de funciones específicas depende de la configuración del dispositivo elegida.
+
+Para obtener más información sobre cómo funciona Plaspy con rastreadores compatibles, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual y la documentación más reciente en el sitio del fabricante https://www.teltonika-gps.com/.

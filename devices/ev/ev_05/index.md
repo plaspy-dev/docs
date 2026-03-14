@@ -2,63 +2,63 @@
 slug: /ev/ev_05
 id: ev_05
 sidebar_label: EV-05
+title: EV - EV-05
 sidebar_class_name: menu_item_tracker
+description: Wearable personal safety GPS watch EV-05 compatible with Plaspy for live tracking SOS fall detection and health alerts
+keywords:
+  - EV-05
+  - EV EV-05 GPS tracker
+  - EV-05 Plaspy compatible
+  - wearable GPS watch
+  - personal safety tracker
+  - fall detection watch
+  - elderly tracking
+  - health telemetry tracker
+  - two way voice GPS
+  - IP67 wearable tracker
 ---
+
 # EV - EV-05
 
 ![EV-05](./tracker.png)
 
-# EV-05 Mobile Safety Watch
+The EV-05 Mobile Safety Watch is a wearable GPS tracker designed for continuous personal protection. Packaged as a wristwatch for seniors, patients, and lone workers, it combines position tracking with safety and health monitoring features such as SOS, fall detection, heart rate alerts, and two-way voice so caregivers and monitoring teams can maintain situational awareness of the wearer.
 
-The EV-05 Mobile Safety Watch is a Plaspy compatible wearable GPS tracker designed for continuous personal protection. Built as a wristwatch for seniors, patients, and lone workers, the EV-05 combines GPS positioning, multi-network cellular connectivity \(4G with fallback\), Wi‑Fi and beacon location methods, and frequent live updates to deliver reliable real-time tracking and fast incident response.
-
-Plaspy-compatible out of the box, the EV-05 feeds position and health telemetry into Plaspy’s platform so caregivers and monitoring centers see SOS events, fall detection, and heart-rate alerts alongside traditional GPS tracker data. The watch’s wearable design, lockable strap, and IP67 waterproof rating make it ideal for 24/7 use where dependable location, two-way voice and medical-alert telemetry matter most.
+As a Plaspy compatible device out of the box, the EV-05 forwards location points, safety events, and health telemetry into Plaspy’s platform. That compatibility lets monitoring centers and caregivers see SOS events, fall alerts, and vital signs alongside other GPS devices on Plaspy, making the watch a practical choice for organizations that need wearable personal safety integrated into a single tracking platform.
 
 ## Key Highlights
 
-- Wearable 4G-enabled GPS tracker: continuous location via 4G \(with 3G/2G fallback\), Wi‑Fi, beacon and LBS for robust coverage.
-- Fast live updates during emergencies: automatic location updates every 10 seconds during an SOS to speed response.
-- Personal safety features: one-button SOS dialing to up to 10 preset contacts, clear two-way voice calling and voice prompts.
-- Health and activity telemetry: heart rate monitoring with caregiver notifications, step counter and medication reminders.
-- Advanced fall and motion alerts: highly sensitive fall detection \(~70% accuracy reported\) plus no-motion alerts for unattended events.
-- Durable wearable form factor: IP67 waterproof, AMOLED display, replaceable 22mm strap and a special locking mechanism to prevent removal.
-- Flexible deployment: usable as a self-monitoring no-monthly-fee alarm or integrated with managed monitoring services and medical alert centers.
+- Wearable form factor purpose built for continuous personal safety and everyday wear.
+- Multi modal location methods including 4G with fallback plus Wi‑Fi and beacon assistance for wider coverage.
+- Dedicated SOS and emergency features with fast live updates during incidents to speed response times.
+- Health and activity monitoring including heart rate alerts and activity counts for caregiver notifications.
+- Fall detection and no motion alerts to highlight unattended events and potential incidents.
+- IP67 waterproof rating and a lockable strap to support reliable 24/7 use in varied conditions.
+- Flexible deployment options: can be used for self monitoring or integrated with managed monitoring services.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the EV-05 forwards location points, safety events and health telemetry so Plaspy dashboards, alerts and reporting tools reflect a complete picture of the wearer’s status. Plaspy-compatible integration enables operators and caregivers to receive immediate notifications, view live tracks, and act on geofence or SOS triggers.
+When the EV-05 is used with Plaspy it transmits location, safety events, and monitored health data so those signals appear on Plaspy dashboards, alerts, and reports. Plaspy users can track live movement, receive high priority notifications for SOS or fall events, and include wearable telemetry in fleet or personal safety workflows.
 
-- Real-time location and telemetry updates — GPS/Wi‑Fi/Beacon/LBS position reports with accelerated polling during SOS.
-- SOS and fall alerts — one-button SOS plus fall detection and no-motion alerts are delivered to Plaspy as high-priority events.
-- Health telemetry — heart rate readings and caregiver notifications for abnormal values are transmitted as monitored data.
-- Bluetooth sensor integration — pairs with Bluetooth medical devices for remote patient monitoring \(RPM\) and relays those readings to Plaspy without requiring extra app downloads.
-- Geofence events and presence-based alerts — entry/exit alerts and Wi‑Fi presence triggers are available for caregiver rules and automated workflows.
-- Two-way voice and call events — emergency and dedicated call button events can be logged in Plaspy so operators can see when voice communication occurs.
+- Live location and telemetry are visible on Plaspy maps and history views so operators can follow movements in near real time.
+- SOS and fall events are delivered as high priority alerts into Plaspy for immediate notification and workflow triggers.
+- Health telemetry such as heart rate readings are forwarded to Plaspy for monitoring and caregiver notifications.
+- Bluetooth sensor readings and presence events can be relayed through the watch into Plaspy for consolidated patient monitoring.
+- Geofence entry and exit events plus presence based triggers can feed automated rules and notifications in Plaspy.
+- Two way voice and emergency call events can be logged so operators have context about communication during an incident.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G cellular with fallback to 3G/2G, Wi‑Fi, beacon, and LBS location methods |
-| --- | --- |
-| Bands | 4G with fallback to 3G/2G; region-specific band support \(varies by model/market\) |
-| Power & Battery | Rechargeable internal battery — charging base and USB charging cable included |
-| Interfaces | One-button SOS, dedicated call button, voice prompts, two-way speaker & microphone |
-| GNSS | GPS positioning supported \(live tracking and frequent position updates\) |
-| Bluetooth | BLE pairing for Bluetooth medical devices and beacons |
-| Remote Management | Platform integration for monitored medical alert centers; MTK/Android platform enables app development and integration |
-| Form Factor | Wristwatch with AMOLED display, IP67 waterproof, replaceable 22mm strap, locking mechanism |
-
-## Use Cases
-
-- Elderly care and independent living — SOS, fall detection, heart-rate alerts and geofencing help caregivers intervene quickly.
-- Patient monitoring and RPM — Bluetooth medical device pairing and heart-rate telemetry support remote clinical oversight.
-- Lone worker safety — wearable GPS tracker with two-way voice and no-motion alerts for workers in remote or hazardous environments.
-- Managed monitoring services — integrates with monitored medical alert centers for 24/7 response workflows or can be used as a self-monitoring device without monthly fees.
+- Elderly care and independent living monitoring to provide quick intervention on SOS or fall alerts.
+- Remote patient monitoring and caregiver oversight where heart rate and presence information matters.
+- Lone worker protection for personnel who need wearable safety with voice communication and no motion alerts.
+- Managed monitoring services and alarm centers that consolidate wearable alerts with other monitored devices.
+- Home care agencies and community support programs that track wellbeing and location for higher risk clients.
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the EV-05 for Plaspy provides a purpose-built wearable GPS tracker that balances personal safety features with platform-grade telemetry. Its frequent live updates during SOS, multi-modal location methods and healthcare-focused sensors make it easier for Plaspy users to maintain situational awareness and faster incident handling. The watch’s rugged, comfortable design and locking strap encourage consistent wear, increasing the reliability of telemetry and alarm coverage.
+The EV-05 pairs wearable personal safety features with platform level visibility, making it a sensible option for organizations that want to include people tracking and health alerts alongside traditional GPS devices. Its design emphasizes continuous wearability and dependable incident reporting, which helps ensure telemetry quality for monitoring teams using Plaspy.
 
-Plaspy’s compatibility means the EV-05’s telemetry — from position tracks to heart-rate alerts and Bluetooth sensor data — is available alongside other GPS tracker types on the platform. That makes it simple to manage mixed deployments, whether you run vehicle fleet management with ignition/immobilizer and fuel monitoring devices or handle personal safety wearables. For organizations seeking scalable, real-time tracking and medical-alert integration, the EV-05 with Plaspy offers a practical, trustworthy solution.
+Because the EV-05 sends location points, SOS signals, fall detections, and health telemetry into Plaspy, teams can manage mixed deployments from a single platform and apply consistent alerting, reporting, and response procedures. For groups that need scalable, real time wearable monitoring integrated into their operational workflows, the EV-05 with Plaspy offers a practical, easy to incorporate solution.
 
-**In the box:** EV-05 fall detection watch, USB charging cable, charging base and quick start guide.
-
+To learn more about Plaspy and how compatible devices are managed on the platform visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so verify current technical details and regional model variations on the manufacturer site http://www.eviewltd.com/.

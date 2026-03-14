@@ -2,31 +2,61 @@
 slug: /castel/mpip_618w_yb
 id: mpip_618w_yb
 sidebar_label: MPIP-618W-YB
+title: Castel - MPIP-618W-YB
 sidebar_class_name: menu_item_tracker
+description: Registrador de datos vehicular compacto Castel MPIP-618W-YB con GPS en tiempo real, alertas y registro de recorridos compatible con Plaspy
+keywords:
+  - Castel MPIP-618W-YB
+  - Rastreador MPIP-618W-YB
+  - rastreador GPS Castel
+  - registrador de datos vehicular
+  - seguimiento en tiempo real
+  - seguimiento de flotas
+  - gestión de flotas
+  - compatible con Plaspy
+  - alertas vehiculares
+  - registro de recorridos
 ---
+
 # Castel - MPIP-618W-YB
 
 ![MPIP-618W-YB](./logo.jpg)
 
-El rastreador GPS Castel MPIP-618W-YB es un dispositivo de registro de datos de viaje para vehículos que permite un seguimiento eficaz en tiempo real de la ubicación del vehículo, la velocidad y varios estados. Utiliza la red de telecomunicaciones inalámbricas para enviar la información de localización del vehículo, la velocidad de carrera y las alertas \(como exceso de velocidad, fatiga y alerta de emergencia\) al centro de monitoreo en tiempo real.
+El Castel MPIP-618W-YB es un registrador de datos de viaje para vehículos diseñado para seguimiento y monitoreo en tiempo real. Proporciona posición y velocidad continuas, además de un registro de recorridos que archiva rutas y destinos pasados. El equipo envía información de ubicación, velocidad en movimiento y alertas a un centro de monitoreo mediante telecomunicaciones inalámbricas, y soporta transmisión de datos por GPRS y SMS.
 
-Este rastreador GPS ofrece una serie de características destacadas, como seguimiento en tiempo real, comunicación a través de GPRS/SMS, función de grabación de viaje, análisis del comportamiento de conducción, alerta de baja tensión de la fuente de alimentación principal, alerta por consumo de combustible anormal, alerta de encendido ilegal del vehículo y alerta de apertura ilegal de puertas, corte remoto de energía o aceite, alerta SOS, almacenamiento ciego/área de reenvío, estadísticas de kilometraje, funciones de mantenimiento local, alerta de exceso de velocidad, alerta por fatiga de conducción, captura de información multimedia, monitoreo de voz y TTS.
+Como dispositivo compatible con Plaspy, el MPIP-618W-YB puede integrarse en los flujos de monitoreo de flotas para mostrar la ubicación en vivo, eventos de alerta y el historial de viajes dentro de la plataforma Plaspy. Sus capacidades de alerta para eventos como exceso de velocidad, conducción por fatiga, alarmas de emergencia, baja tensión principal, consumo anormal de combustible, arranque no autorizado y apertura de puertas no autorizada lo hacen útil para operadores que requieren notificaciones oportunas y visibilidad operativa a través de Plaspy.
 
-Este rastreador GPS es ideal para su uso en logística, vehículos de ingeniería, productos peligrosos, taxis y transporte público.
+## Aspectos principales
 
-Especificaciones técnicas:
+- Seguimiento GPS en tiempo real y registro de recorridos para revisar rutas y detalles de viajes.
+- Envía ubicación, velocidad y alertas a un centro de monitoreo por canales inalámbricos usando GPRS y SMS.
+- Conjunto de alertas integrado que incluye exceso de velocidad, conducción por fatiga, SOS, baja tensión principal, consumo anormal de combustible, arranque no autorizado y apertura de puertas no autorizada.
+- Funciones de control remoto como corte remoto de alimentación o de combustible y grabación remota cuando la configuración del dispositivo lo permite.
+- Diseño compacto y ligero con protección de aleación de aluminio resistente para instalaciones ocultas y uso rudo.
+- Amplio rango de operación que soporta voltajes típicos de vehículos y tolerancias de temperatura para distintos entornos.
 
-- Dimensión: 188mm \* 100mm \* 60mm
-- Peso: 620g
-- Apalancamiento de protección: Aleación de aluminio
-- Voltaje de operación: 9-36 VDC
-- Temperatura de trabajo: -30 ℃ a 70 ℃
-- Corriente de trabajo: &lt;10013.8V
-- Precisión de localización GPS: &lt;15m
-- Precisión de velocidad GPS: 0,1 m / s
-- Frecuencia GPS: 1575.42MHz
-- Temperatura de almacenamiento: -40 ℃ ~ +85 ℃
-- Humedad relativa: 5% ~ 95% \(No Frost\)
-- Batería de reserva: batería de 3,7 V / 500 Li-ion
-- Tiempo de adquisición GPS: Arranque en frío &lt;38s, inicio en caliente &lt;25s, Hot Start &lt;1s
+## Cómo funciona con Plaspy
 
+El MPIP-618W-YB envía actualizaciones de ubicación y mensajes de alerta a un backend de monitoreo en tiempo real, y Plaspy puede consumir esa información para ofrecer visualización en mapas y supervisión operativa. Al conectarse a Plaspy, los datos del dispositivo pasan a formar parte de los paneles de flota, permitiendo seguimiento centralizado y gestión de eventos.
+
+- Visualización de ubicación y velocidad en tiempo real sobre los mapas de Plaspy para conciencia operativa inmediata.
+- Reenvío de alertas a Plaspy para que eventos como SOS, exceso de velocidad o arranque no autorizado aparezcan en los flujos de notificaciones.
+- Registros de viajes y recorridos accesibles desde los informes de Plaspy para análisis de rutas y revisión histórica.
+- Monitoreo centralizado de la flota que consolida el estado del dispositivo y las alertas para los equipos de supervisión.
+- El uso de SMS y GPRS como métodos de entrega permite que Plaspy reciba actualizaciones según la configuración soportada por el rastreador.
+
+## Casos de uso típicos
+
+- Flotas de logística y reparto que requieren visibilidad en tiempo real e historial de rutas.
+- Vehículos de ingeniería y servicios públicos que operan en entornos mixtos y remotos.
+- Transporte de mercancías peligrosas donde las alertas y el monitoreo de estado mejoran la supervisión.
+- Flotas de taxis y alquileres que necesitan monitoreo por ubicación y notificaciones de incidentes.
+- Operaciones de transporte público que se benefician de registros de viajes y supervisión de flota.
+
+## Por qué elegir este rastreador con Plaspy
+
+El MPIP-618W-YB combina funciones prácticas de rastreo vehicular con un diseño compacto y robusto, apto para múltiples aplicaciones de flota. Su mezcla de seguimiento en tiempo real, registro de recorridos y un amplio conjunto de alertas lo convierte en una opción adecuada para organizaciones que necesitan monitoreo operativo y capacidades básicas de control remoto integradas en una plataforma de gestión de flotas.
+
+Al usarse con Plaspy, el dispositivo contribuye a centralizar la ubicación y los datos de eventos de los vehículos para que los administradores de flota puedan monitorear el desempeño, responder a incidentes y revisar viajes históricos. La combinación busca mejorar la visibilidad y la toma de decisiones sin requerir configuraciones altamente especializadas.
+
+Para obtener más información sobre Plaspy y cómo puede utilizarse este rastreador dentro de la plataforma de flotas Plaspy visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información vigente en el sitio oficial de Castel http://www.castelecom.com/ antes de finalizar la adquisición o el despliegue.

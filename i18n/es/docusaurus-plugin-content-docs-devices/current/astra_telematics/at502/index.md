@@ -2,65 +2,60 @@
 slug: /astra_telematics/at502
 id: at502
 sidebar_label: AT502
+title: Astra Telematics - AT502
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto AT502 de larga duración compatible con Plaspy para seguimiento discreto de activos y visibilidad de flota sin mantenimiento frecuente
+keywords:
+  - Astra Telematics AT502
+  - rastreador AT502
+  - compatible con Plaspy AT502
+  - rastreador GPS para activos
+  - rastreador con batería de larga duración
+  - rastreador compacto para activos
+  - rastreador IP68 para activos
+  - rastreador configurable por BLE
+  - rastreador LTE M NB IoT
+  - seguimiento de flotas AT502
 ---
+
 # Astra Telematics - AT502
 
 ![AT502](./tracker.png)
 
-# Astra Telematics AT502
+El AT502 de Astra Telematics es un rastreador GPS compacto y alimentado por batería, diseñado para el monitoreo discreto y prolongado de pequeños activos sin fuente de energía. Combina posicionamiento GNSS multiconstelación, conectividad celular de bajo consumo con modos modernos de baja ancho de banda y un diseño de energía orientado al usuario para ofrecer una vida operativa extendida en condiciones exigentes. El dispositivo es robusto y sencillo de montar, lo que lo hace ideal para contenedores, herramientas y equipos portátiles.
 
-El AT502 de Astra Telematics es un rastreador GPS compacto alimentado por batería, diseñado para un monitoreo discreto y a largo plazo de los activos sin suministro de energía más pequeños. Construido para la resistencia, el AT502 combina posicionamiento GNSS de constelación múltiple, comunicaciones celulares de bajo consumo \(LTE‑M y NB‑IoT con respaldo GSM\) y configuración Bluetooth LE para ofrecer una solución compatible con Plaspy que simplifica el seguimiento en tiempo real y la telemetría remota de activos.
+Como dispositivo compatible con Plaspy, el AT502 puede enviar posiciones y telemetría básica a la plataforma para ofrecer visibilidad en tiempo real, reproducción histórica y reportes periódicos. Su enfoque en la duración de la batería, la protección ambiental y la configuración sencilla in situ encaja con los flujos de trabajo habituales de Plaspy para visibilidad de activos, alertas anti robo y monitoreo de flotas de bajo mantenimiento, permitiendo añadir seguimiento persistente sin servicios frecuentes.
 
-El AT502 es ideal cuando el tamaño, la duración de la batería y la resistencia ambiental son cruciales: batería LTC interna de 7.8Ah \(7800 mAh\), química de batería LTC reemplazable por el usuario \(3 x AA tamaño LTC\) celdas, protección de entrada IP68 y múltiples opciones de montaje seguras permiten una instalación fácil en contenedores, herramientas, equipos y otros objetos portátiles. Como rastreador GPS compatible con Plaspy, se integra con la gestión de flotas, flujos de trabajo anti‑robos y paneles de informes, manteniendo bajos los costos de instalación y mantenimiento.
+## Aspectos destacados
 
-## Key Highlights
+- Diseñado para despliegues prolongados gracias a una batería interna de gran capacidad y opción de célula reemplazable por el usuario para minimizar el mantenimiento.
+- Factor de forma compacto y discreto para una fijación poco invasiva en activos pequeños y equipos portátiles.
+- Soporte GNSS multiconstelación para obtener fijaciones de posición consistentes en distintas regiones.
+- Conectividad celular de bajo consumo con modos modernos de baja ancho de banda y retrocompatibilidad con redes heredadas para amplia cobertura.
+- Configuración mediante Bluetooth LE para ajustes y diagnósticos locales usando un teléfono inteligente.
+- Protección IP68 y varias opciones de montaje para uso en entornos exigentes.
+- Diseñado para simplificar los flujos de trabajo de seguimiento de activos reduciendo la carga de instalación y mantenimiento.
 
-- Autonomía de batería excepcional — hasta 5 años en modos típicos de reporte de bajo consumo \(24‑hour reporting\), reduciendo las visitas de mantenimiento.
-- Factor de forma compacto y discreto con antenas GNSS y GSM internas, y un tamaño de antena GNSS de aproximadamente 15 mm para un posicionamiento fiable en las distintas regiones.
-- Conectividad celular a prueba de futuro: LTE‑M y NB‑IoT con respaldo GSM/GPRS \(2G\) para una amplia cobertura de red.
-- Soporte GNSS de múltiples constelaciones \(GPS, Galileo, GLONASS, BeiDou\) para datos de ubicación precisos y consistentes.
-- BLE \(Bluetooth Low Energy\) para configuración y diagnósticos simples en sitio mediante aplicaciones para smartphones.
-- Protección IP68 ambiental robusta y montaje flexible: soporte magnético integrado y fijaciones M4 para una fijación segura.
-- Diseño de batería de servicio para el usuario \(3 x celdas LTC de tamaño AA\) y una batería interna de 7800 mAh para facilitar el mantenimiento en campo.
-- Garantía del fabricante de 5 años y actualizaciones del sistema de por vida; opciones de hardware e informes se pueden personalizar sin costo adicional.
+## Cómo funciona con Plaspy
 
-## How It Works with Plaspy
+Al integrarse con Plaspy, el AT502 transmite la ubicación y el estado del dispositivo a la plataforma, permitiendo que los equipos supervisen activos casi en tiempo real y revisen el historial de movimientos. Plaspy procesa los datos del dispositivo para generar alertas, reportes y paneles operativos que ayudan a gestionar inventarios, apoyar flujos de recuperación y reducir tiempos de inactividad.
 
-Cuando se empareja con Plaspy, el AT502 envía posiciones GNSS y telemetría del dispositivo a través de redes celulares a la plataforma Plaspy para seguimiento en tiempo real, reproducción histórica, alertas y exportaciones. Plaspy procesa correcciones de ubicación, eventos de movimiento y datos de salud de la batería/conectividad, para que los operadores gestionen activos, activen alertas anti‑robos y generen informes de gestión de flota. BLE permite configuración y diagnósticos en sitio mediante un teléfono inteligente antes o después de la instalación.
+- Proporciona actualizaciones de ubicación en tiempo real y telemetría periódica a Plaspy para seguimiento en mapas y reproducción.
+- Muestra el estado de batería y conectividad en Plaspy para planificar mantenimientos y ciclos de reemplazo.
+- Genera alertas de movimiento y actividad para activar flujos anti robo o notificaciones operativas.
+- Usa BLE para configuración y diagnóstico local seguro antes o después del despliegue.
+- Combine los datos del AT502 con las herramientas de reporte y exportación de Plaspy para elaborar resúmenes operativos y auditorías.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy mediante LTE‑M, NB‑IoT o GSM.
-- Detección de movimiento mediante acelerómetro MEMS integrado para alertas de movimiento e informes de actividad.
-- BLE para configuración local segura y diagnósticos mediante herramientas para smartphone.
-- Estado de la batería y salud de la señal reportados para ayudar a planificar el mantenimiento y reemplazos.
-- La compatibilidad con Plaspy permite la gestión de flotas y flujos de trabajo anti‑robos; tenga en cuenta que el encendido, el inmovilizador o la monitorización de combustible requieren un dispositivo con entradas/salidas dedicadas \(el AT502 tiene I/O externo mínimo\).
+## Casos de uso típicos
 
-## Technical Overview
+- Seguimiento a largo plazo de pequeños activos sin alimentación como herramientas, estuches de instrumentos y equipos portátiles.
+- Monitoreo de contenedores y pallets donde las comprobaciones periódicas de ubicación y la gran duración de batería son prioritarias.
+- Gestión de inventario y equipos en alquiler para mantener visibilidad sin visitas frecuentes al sitio.
+- Operaciones anti robo y recuperación que dependen de alertas de movimiento y reportes basados en la nube.
+- Activos distribuidos en exteriores o entornos agresivos que requieren protección con clasificación IP y montaje flexible.
 
-| Connectivity | LTE‑M, NB‑IoT, GSM/GPRS \(2G\) fallback |
-| --- | --- |
-| Bands | Tecnologías celulares: LTE‑M / NB‑IoT / GSM \(las bandas específicas dependen de la región / variante\) |
-| Power & Battery | Interna 7.8Ah \(7800 mAh\) LTC batería; diseño de batería reemplazable por el usuario \(3 x AA tamaño LTC\). Duración de la batería de hasta 5 años en modos típicos de reporte de bajo consumo de 24‑hour |
-| Interfaces | I/O externas mínimas; no CANBus, RS232, ADC ni salidas digitales. No hay indicadores LED ni sensor de manipulación. |
-| GNSS | GPS, Galileo, GLONASS, BeiDou. Antena GNSS interna \(aprox. 15 mm\). |
-| Bluetooth | BLE para configuración y diagnósticos mediante aplicaciones para smartphones. |
-| SIM | e‑SIM compatible para provisionamiento simplificado. |
-| Ingress Protection | IP68 para entornos adversos. |
-| Mounting & Form Factor | Rastreador compacto para activos con soporte magnético integrado y fijaciones roscadas M4 para una fijación segura. |
-| Warranty & Updates | 5 años de garantía; actualizaciones del sistema de por vida. Opciones de hardware e informes personalizables. |
+## Por qué elegir este rastreador con Plaspy
 
-## Use Cases
+El AT502 es una opción práctica para organizaciones que necesitan visibilidad persistente de activos pequeños con mantenimiento mínimo. Su énfasis en la duración de la batería, el formato compacto y la resistencia ambiental lo hacen adecuado para programas donde la instalación discreta y los largos intervalos de servicio son importantes. Al enviar ubicación y telemetría básica a Plaspy, usted obtiene una vista centralizada para monitoreo, alertas y reportes sin añadir complejidad hardware innecesaria.
 
-- Seguimiento a largo plazo de activos pequeños sin energía, como herramientas, estuches de instrumentos y equipos portátiles, donde la instalación discreta es importante.
-- Monitoreo de contenedores y pallets en operaciones logísticas que se basan en verificaciones periódicas de ubicación y larga vida de la batería, en lugar de telemetría continua.
-- Gestión de inventario y equipos en alquiler para gestores de flotas que requieren visibilidad fiable de los activos sin visitas de mantenimiento frecuentes.
-- Flujos anti‑robo y recuperación donde la detección de movimiento y las alertas en la nube a través de Plaspy ayudan a localizar rápidamente los activos movidos.
-
-## Why Choose This Tracker with Plaspy
-
-Como rastreador GPS compatible con Plaspy, el AT502 está optimizado para clientes que priorizan una larga vida de la batería, instalación discreta y bajo mantenimiento. Su GNSS de múltiples constelaciones y su pila de conectividad celular en múltiples modos proporcionan informes de ubicación consistentes en distintas regiones, y BLE simplifica la configuración y diagnósticos en campo. Para programas de gestión de flotas y visibilidad de activos, el AT502 reduce los costos operativos al ampliar los intervalos de servicio y proporcionar telemetría fiable a Plaspy para informes, geocerca y alertas anti‑robos.
-
-Tenga en cuenta que, si bien Plaspy admite una amplia gama de telemetría, monitorización de combustible, eventos de encendido y control de inmovilizador para dispositivos con entradas dedicadas, el AT502 está diseñado para un seguimiento pasivo y de larga duración de activos y no proporciona CAN, ADC, RS232, salidas digitales dedicadas ni interfaces de inmovilizador. Si su implementación requiere monitorización de combustible, detección de encendido o inmovilización remota, Plaspy puede combinar los datos del AT502 con otros dispositivos de grado vehicular dentro de la misma consola de gestión.
-
-Para organizaciones que despliegan muchos activos pequeños, el AT502 ofrece una solución rentable, escalable y fácil de mantener para añadir visibilidad persistente a las flotas e inventarios gestionados por Plaspy. Los packs de baterías de repuesto y accesorios están disponibles de Astra Telematics, y los planes de servicio preconfigurados y las cotizaciones en línea simplifican la adquisición y la implementación.
-
+Si sus prioridades de despliegue se centran en el seguimiento pasivo de larga duración, el AT502 puede reducir el esfuerzo operativo mientras aporta datos fiables de posición y estado a Plaspy. Para saber más sobre cómo Plaspy puede integrarse con sus activos y estrategia de rastreo visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y características del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales del dispositivo y las opciones en el sitio de Astra Telematics https://astratelematics.com/ antes de la adquisición.

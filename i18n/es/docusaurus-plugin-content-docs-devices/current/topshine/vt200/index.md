@@ -2,66 +2,60 @@
 slug: /topshine/vt200
 id: vt200
 sidebar_label: VT200
+title: TopShine - VT200
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS TopShine VT200 compatible con Plaspy para gestión de flotas, monitoreo de combustible, antirrobo y registro de datos con batería de respaldo
+keywords:
+  - TopShine VT200
+  - rastreador VT200
+  - rastreador TopShine
+  - VT200 GPS
+  - VT200 compatible con Plaspy
+  - rastreador vehicular
+  - seguimiento de flotas
+  - rastreador de combustible
+  - registrador de datos GPS
+  - inmovilizador de vehículo
 ---
+
 # TopShine - VT200
 
 ![VT200](./tracker.jpg)
 
-# M35 GSM GPS Vehicle Tracker \(Model VT200\)
+El TopShine VT200 es un rastreador GPS profesional para vehículos, diseñado para la gestión de flotas y activos empresariales. Basado en conectividad 2G GSM, el VT200 incorpora una batería interna de respaldo y un registrador de datos de 2 MB para conservar los registros de posición cuando la cobertura es intermitente. El equipo ofrece múltiples entradas y salidas, capacidad de corte remoto del motor, botón SOS y soporte opcional para sensor ultrasónico de combustible, por lo que es adecuado para casos que requieren protección antirrobo y monitoreo de combustible.
 
-El VT200 \(M35 GSM\) es un rastreador GPS profesional diseñado para empresas que requieren seguimiento confiable compatible con Plaspy para la gestión de flotas, seguridad de activos y monitoreo de combustible. Diseñado para instalaciones en vehículos, el VT200 ofrece conectividad 2G GSM, una batería interna de respaldo y un registrador de datos de 2MB para garantizar telemetría continua en áreas con cobertura intermitente. Su combinación de control remoto del motor, múltiples entradas/salidas y un sensor ultrasónico de combustible opcional hacen de la unidad una opción sólida para operadores que necesitan protección antirrobo y monitoreo de combustible preciso integrado con Plaspy.
-
-El VT200 se integra fácilmente en plataformas de monitoreo que aceptan informes de posición estándar GPRS/TCP/UDP o SMS; al conectarse a Plaspy, habilita seguimiento en tiempo real, alertas e informes históricos para flotas, vehículos de alquiler y activos de alto valor. Proporciona antenas GPS y GSM, un botón SOS y arnés de cableado; el VT200 está listo para instalaciones profesionales que requieren una implementación compatible con Plaspy de inmediato.
+Como dispositivo compatible con Plaspy, el VT200 puede enviar ubicación, estados de entradas/salidas y telemetría registrada a Plaspy para seguimiento en tiempo real, alertas e informes históricos. Las antenas, arnés de cableado y relé incluidos facilitan instalaciones profesionales e permiten integrar el VT200 en flujos de trabajo gestionados por Plaspy para visibilidad de la flota, supervisión operativa y seguridad de activos.
 
 ## Características principales
 
-- Seguimiento en tiempo real compatible con Plaspy vía GPRS \(TCP/UDP\) o SMS para datos de ubicación fiables.
-- Registrador de datos integrado de 2MB y batería interna de respaldo de 650mAh para mantener la telemetría durante pérdidas de energía o zonas con GSM sin señal.
-- Soporte opcional de sensor ultrasónico de combustible sin perforar para un monitoreo preciso del combustible sin modificar el tanque.
-- Múltiples E/S para telemetría del vehículo y anti-robo: 2 entradas digitales, 1 entrada analógica y 2 puertos de salida para corte remoto del motor \(inmovilizador\) o control de relé.
-- Funciones estándar del vehículo: geocerca, alerta de sobrevelocidad, alarma de corte de energía externa, botón SOS y detección de movimiento para ahorro de energía.
-- Incluye antenas GPS y GSM, botón SOS, arnés de cableado y relé; acceso de por vida gratuito a las plataformas web y Android del fabricante.
-- Certificado CE, FCC y RoHS; garantía de 2 años; OEM/ODM disponible para despliegues a escala de flotas.
+- Seguimiento en tiempo real compatible con Plaspy mediante GPRS 2G o SMS para alimentación continua de ubicación.
+- Registrador de datos de 2 MB y batería interna de respaldo que preservan la información ante pérdida de alimentación o cortes de cobertura.
+- Soporte opcional para sensor ultrasónico sin perforación que permite monitoreo de combustible sin modificar el tanque.
+- Múltiples puertos de entrada y salida en el vehículo, incluyendo entradas digitales y analógicas y salidas de relé para control remoto del motor.
+- Funciones estándar para vehículos como geocercas, alerta por exceso de velocidad, alarma por corte de alimentación externa y entrada de pánico SOS.
+- Accesorios incluidos para instalación profesional, como antenas GPS y GSM, botón SOS, arnés de cableado y relé.
+- Certificaciones y soporte de garantía para despliegues empresariales, con marcado CE, FCC, RoHS y garantía de dos años.
 
 ## Cómo funciona con Plaspy
 
-El VT200 transmite la posición y telemetría a Plaspy utilizando paquetes GPRS 2G \(TCP/UDP\) estándar o mensajes SMS. Plaspy ingiere coordenadas GPS, estados de entradas/salidas y telemetría de sensores para proporcionar mapas en tiempo real, alertas e informes históricos. El registrador de datos del VT200 almacena registros cuando no hay cobertura GSM y los sube automáticamente cuando la conectividad se restablece, asegurando que no existan huecos en los datos de gestión de la flota.
+El VT200 transmite posición y telemetría a Plaspy usando paquetes GPRS estándar o mensajes SMS, mientras que su registrador local guarda los registros durante los cortes y los sube cuando vuelve la conectividad. Plaspy recibe coordenadas además del estado de entradas y sensores, de modo que las flotas obtienen visibilidad continua, alertas y contexto histórico para la toma de decisiones operativas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía GPRS \(TCP/UDP\) o SMS a Plaspy.
-- Informes de estado de ignición y entradas digitales para alertas basadas en eventos \(p. ej., arranque no autorizado del motor\).
-- Soporte de monitoreo de combustible con sensor ultrasónico opcional para su integración en los informes y alertas de combustible de Plaspy.
-- Desactivación remota del motor a través de las salidas de relé del dispositivo, controlable desde Plaspy cuando sea compatible.
-- Opcional lector Bluetooth para smartphone y accesorios \(RFID, sensor de impacto, temperatura\) son reconocidos por el dispositivo para ampliar la telemetría.
+- Actualizaciones de ubicación y telemetría en vivo visibles en los mapas y paneles de Plaspy.
+- Alertas basadas en eventos como encendido y estados de entradas digitales para movimientos no autorizados o cortes de energía.
+- Informes de nivel de combustible y notificaciones cuando se instala y configura el sensor ultrasónico opcional en Plaspy.
+- Control remoto de inmovilizador mediante salidas de relé cuando Plaspy emite comandos al dispositivo.
+- Informes históricos de viajes y rutas reconstruidos a partir de las transmisiones en vivo y los datos almacenados por el registrador para cumplimiento y análisis.
 
-## Resumen técnico
+## Casos de uso comunes
 
-| Conectividad | Módulo M35 GSM; soporte de SIM 2G para SMS y GPRS \(TCP/UDP\) |
-| --- | --- |
-| Rendimiento GPRS | GPRS Clase de ranuras múltiples 8 \(descarga máxima 85.6 kbps, subida 21.4 kbps\) |
-| Bandas y RF | Poder de transmisión GSM y sensibilidad compatibles con niveles de potencia GSM Class 4/1; sensibilidad del receptor aprox. −104 a −102 dBm |
-| Alimentación y batería | Voltaje de entrada: 9–36V \(la ficha técnica también lista carga 9–24V\); batería de respaldo interna de 650mAh para seguimiento ante pérdida de energía |
-| Registrador de datos | Registrador de datos integrado de 2MB para almacenamiento temporal en zonas sin GSM |
-| Entradas / Salidas | 2 entradas digitales \(1 de disparo positivo, 1 de disparo negativo\), 1 entrada analógica, 2 puertos de salida para relé/corte de motor \(inmovilizador remoto\) |
-| GNSS | Reporte de posición GPS; compatibilidad con enlaces de Google Maps para visualización en mapa |
-| Bluetooth | Accesorio opcional lector Bluetooth para smartphone \(soporta identificación/interacción basada en Bluetooth\) |
-| Audio y sensores | Micrófono interno \(predeterminado\) con escucha de voz opcional; admite sensor ultrasónico de combustible opcional, sensores de temperatura y de impactos, RFID |
-| SIM y Antena | Ranura SIM de 3V; conexiones externas de antena GSM y GPS vía coaxial de 50Ω |
-| Gestión remota | Acceso de por vida gratuito a las plataformas de seguimiento en web y Android del fabricante \(https://www.track-car.com\) |
-| Factor de forma | Dimensiones 75×54×25 mm; peso indicado ≈123 g y ≈197 g en diferentes entradas de especificaciones; peso del dispositivo en empaque ≈0.42 kg |
-| Certificaciones y garantía | Certificado CE / FCC / RoHS; garantía de 2 años; OEM/ODM disponible |
-
-## Casos de uso
-
-- Gestión de flotas — seguimiento en tiempo real, historial de rutas y alertas de sobrevelocidad para mejorar operaciones y reducir desperdicio de combustible.
-- Antirrobo e inmovilización — corte remoto del motor y alertas de corte de energía para asegurar vehículos y recuperar activos.
-- Monitoreo de combustible — integración de sensor ultrasónico sin perforar para telemetría de consumo de combustible y detección de robo.
-- Salud del vehículo y monitorización de eventos — sensor de impacto, detección de temperatura e identificación del conductor/RFID para seguridad y cumplimiento.
-- Rastreado de equipos y activos — formato compacto y energía de respaldo hacen que el VT200 sea adecuado para remolques, maquinaria y otros activos móviles.
+- Gestión de flotas de automóviles, vans y camionetas ligeras que requieren seguimiento en tiempo real y historial de rutas.
+- Monitoreo de vehículos de alquiler con alertas por exceso de velocidad y cortes de alimentación para proteger los activos.
+- Operaciones anti robo que utilizan corte remoto del motor, alertas y reporte de pánico SOS.
+- Programas de control de combustible que requieren sensores ultrasónicos sin perforación integrados en los informes.
+- Seguimiento de equipos y remolques donde la batería de respaldo y el registro de datos reducen huecos en la visibilidad.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El VT200 ofrece las capacidades centrales que esperan los operadores de flotas en un rastreador GPS compatible con Plaspy: seguimiento en tiempo real fiable, telemetría robusta y controles prácticos anti-robo. Su registrador de datos incorporado y la batería de respaldo de 650mAh reducen las lagunas de datos y mejoran la fiabilidad en áreas con cobertura GSM intermitente, mientras que el sensor ultrasónico de combustible opcional y múltiples E/S amplían la telemetría para monitoreo de combustible y control de encendido \(inmovilizador remoto\). Los accesorios suministrados y el acceso gratuito a las plataformas de seguimiento en web y Android del fabricante agilizan las implementaciones, y las certificaciones CE/FCC/RoHS junto con la garantía de dos años brindan la tranquilidad necesaria para una gestión de flotas escalable.
+El VT200 ofrece el conjunto de funciones práctico que muchas organizaciones necesitan al integrar rastreo vehicular en Plaspy. Su combinación de opciones de reporte en vivo, registro local de datos y alimentación de respaldo disminuye los puntos ciegos de cobertura, mientras que las múltiples entradas y salidas permiten control básico del vehículo y detección de eventos que alimentan los flujos operativos en Plaspy. Los accesorios de instalación incluidos y la garantía del fabricante lo convierten en una opción pragmática para operadores de flota que requieren una unidad compatible listo para desplegar.
 
-Para organizaciones que buscan un rastreador GPS de nivel profesional que se integre con Plaspy para mapas en vivo, alertas e informes históricos, el VT200 ofrece un equilibrio práctico entre conectividad, soporte de sensores y E/S orientada al vehículo. Su tamaño compacto, rango de entrada de alimentación flexible y conjunto completo de accesorios lo convierten en una opción eficaz para operadores de flotas, servicios de alquiler y empresas que requieren monitoreo preciso de combustible y medidas antirrobo vinculadas a su plataforma Plaspy.
-
+Si desea explorar cómo el VT200 podría integrarse en su despliegue de Plaspy o compararlo con otros dispositivos compatibles, conozca más sobre Plaspy en nuestro sitio principal https://www.plaspy.com. Las especificaciones del producto, disponibilidad y datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales en el sitio oficial de TopShine https://www.gztopshine.com/ antes de la compra.

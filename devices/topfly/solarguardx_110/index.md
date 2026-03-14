@@ -2,57 +2,59 @@
 slug: /topfly/solarguardx_110
 id: solarguardx_110
 sidebar_label: SolarGuardX 110
+title: TopFly - SolarGuardX 110
 sidebar_class_name: menu_item_tracker
+description: Rugged solar powered GPS padlock for outdoor asset security with long term monitoring and Plaspy compatible real time tracking
+keywords:
+  - TopFly SolarGuardX 110
+  - SolarGuardX 110 GPS tracker
+  - TopFly tracker
+  - Solar GPS tracker
+  - GPS padlock
+  - asset security tracker
+  - trailer tracking
+  - remote asset monitoring
+  - Plaspy compatible tracker
+  - long life battery GPS
 ---
+
 # TopFly - SolarGuardX 110
 
 ![SolarGuardX 110](./tracker.png)
 
-The SolarGuardX 110 is a rugged, solar-powered GPS tracker designed for outdoor asset security and long-term monitoring. Built as a heavy-duty GPS padlock, the SolarGuardX 110 delivers Plaspy compatible real-time tracking, reliable location telemetry and hardened anti-theft features for containers, trailers and other high-value mobile assets deployed in remote or harsh environments.
+The SolarGuardX 110 is a rugged, solar powered GPS tracker built in a heavy duty padlock form factor for outdoor asset security and long term monitoring. Designed for containers, trailers and other mobile assets in remote or harsh environments, it pairs an integrated solar panel with a high capacity rechargeable battery and multi constellation GNSS to maximize uptime and deliver reliable location telemetry and hardened anti theft features.
 
-With an ultra-long-life 14,400 mAh rechargeable battery supported by an integrated solar panel, LTE Cat 1 connectivity and multi-constellation GNSS, the SolarGuardX 110 minimizes maintenance and maximizes uptime. Plaspy users benefit from fast position fixes \(\< 1.5 m CEP autonomous\), configurable reporting \(as frequent as every 3 seconds\), buffered logging for offline periods and secure communications to integrate this GPS tracker seamlessly into fleet management and asset‑protection workflows.
+As a Plaspy compatible device, SolarGuardX 110 can stream real time positions and events into Plaspy for fleet monitoring, geofence management and operational reporting. Its buffered logging and configurable reporting intervals make it suitable for workflows that require continuity during offline periods, while secure communications and remote management features help integrate the unit into enterprise asset protection and fleet tracking deployments using the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker offering real-time tracking and telemetry for outdoor asset security.
-- Solar-augmented 14,400 mAh Li‑Polymer battery for extended field operation and low maintenance.
-- Multi-constellation GNSS \(GPS, GLONASS, BeiDou, Galileo, QZSS\) with autonomous horizontal accuracy &lt; 1.5 m CEP.
-- Rugged IP67-rated enclosure with built-in magnet, 350 mm rope and wide operating temperature range \(‑25°C to +80°C\) for harsh environments.
-- Supports remote unlocking and management via BLE 5.1, RFID, SMS and network commands—plus FOTA for firmware updates.
-- High-frequency reporting \(down to 3 seconds\) and large on-device buffer \(up to 49,000 points\) for continuity when offline.
-- Secure communications over TCP/UDP/MQTT/SMS with optional MD5 or AES256 encryption and carrier certifications for major US networks.
+- Plaspy compatible real time tracking and telemetry tailored for outdoor asset security.
+- Solar augmented 14,400 mAh rechargeable battery for extended field operation and reduced maintenance.
+- Multi constellation GNSS with very accurate position fixes reported for precise location awareness.
+- Rugged padlock style enclosure with IP67 level protection and mechanical features suited to harsh environments.
+- High frequency reporting capability down to short intervals and large on device buffer for offline continuity.
+- Remote management and over the air maintenance options to simplify fleet scale updates and control.
 
 ## How It Works with Plaspy
 
-SolarGuardX 110 integrates with Plaspy to provide continuous real-time tracking and event-driven alerts. Position and telemetry data are transmitted over LTE Cat 1 to Plaspy’s platform using TCP/UDP or MQTT, where operators can visualize locations, configure geofences, and trigger workflows. When network coverage is lost, the device buffers thousands of points and uploads them automatically once connectivity returns, ensuring no gaps in fleet management records.
+SolarGuardX 110 sends position and event data to Plaspy where operators can view assets on maps, configure alerts and include device telemetry in reports and dashboards. Plaspy ingests the tracker data to support situational awareness, historical review and automated workflows for asset protection.
 
-- Real-time location and telemetry updates to Plaspy for accurate situational awareness.
-- Device alarms and events: rope-cut, lock/unlock, movement and stop alerts, plus internal geofence support \(up to 64 regions\).
-- Buffered logging \(up to 49,000 points\) for reliable historical reporting after offline periods.
-- Remote actions: unlocking/management via BLE 5.1, RFID, SMS or network commands; FOTA updates for maintenance.
-- Support for Bluetooth sensors and accessories—Plaspy can ingest BLE‑derived telemetry to complement location data.
+- Real time location updates and telemetry visible in Plaspy maps and live monitoring views.
+- Event and alarm delivery for conditions like movement, tamper or access changes to trigger notifications.
+- Buffered data upload after offline periods to preserve historical location continuity in Plaspy reports.
+- Configurable reporting and scheduled position uploads to balance battery life and tracking granularity.
+- Remote actions and firmware management reflected in Plaspy device status for operational oversight.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE FDD Cat 1 \(global band support\) with TCP/UDP/MQTT/SMS transport; optional MD5 or AES256 encryption |
-| --- | --- |
-| Bands & Certifications | LTE Cat 1 across global bands; certified FCC, CE, IC, PTCRB, RCM; carrier approvals include AT&T, US Cellular, T‑Mobile and Verizon |
-| Power & Battery | Integrated solar panel + rechargeable 14,400 mAh Li‑Polymer battery; charging ~15 h with 5V/1A, ~7 h with 5V/2A; 2‑pin charging port and USB Type‑C data connection |
-| Interfaces & Indicators | Nano SIM slot, USB Type‑C, 2‑pin charging port, indicator LEDs for network/GNSS/RFID/battery; built-in GNSS and cellular antennas |
-| GNSS | GPS + GLONASS + BeiDou + Galileo + QZSS; autonomous horizontal accuracy &lt; 1.5 m CEP |
-| Bluetooth | BLE 5.1 long-range compatibility for TOPFLYtech BLE accessories \(e.g., TSTH1‑B, T‑Sense, TSR1‑B\) |
-| Remote Management | OTA/FOTA firmware upgrades, SMS and network command support, configurable scheduled reporting \(time/angle/distance\) |
-| Form Factor & Environment | Padlock-style rugged enclosure, dimensions 207.5 × 110.2 × 48.1 mm, weight 1060 g; IP67 waterproof; operating −25°C to +80°C; built-in strong magnet and 350 mm rope |
-
-## Use Cases
-
-- Container and trailer security — continuous anti‑theft monitoring with remote unlock and rope‑cut alarms.
-- Long-term fleet asset tracking — ideal for parked or intermittently used trailers, chassis and intermodal equipment.
-- Remote equipment deployments — solar charging and large battery buffer enable months of operation in remote locations.
-- Cold chain and sensitive cargo augmentation — pair BLE temperature sensors with Plaspy to combine location and environmental telemetry.
-- Short-term rentals and shared assets — geofence, movement alerts and access control via BLE/RFID simplify management.
+- Container and trailer security with anti theft monitoring and remote access controls.
+- Long term parked asset tracking for trailers, chassis and intermodal equipment.
+- Remote equipment deployments where solar charging and large battery capacity reduce site visits.
+- Shared or rental asset management using geofences and movement alerts to control access and usage.
+- Combined location and environmental monitoring when paired with complementary sensors ingested into Plaspy.
 
 ## Why Choose This Tracker with Plaspy
 
-SolarGuardX 110 is purpose-built to reduce field visits and maintenance while delivering dependable, Plaspy compatible real-time tracking and telemetry. Its solar-augmented battery, rugged IP67 build and multi-constellation GNSS provide accurate positions and long service life for outdoor fleet management and anti-theft protection. Secure communications, carrier approvals and FOTA capability make it straightforward to deploy at scale. When combined with Plaspy, SolarGuardX 110 lets operations teams consolidate GPS tracking, BLE sensor data and event-driven alerts—enabling smarter decision-making and efficient asset control without sacrificing reliability in the toughest environments.
+SolarGuardX 110 is well suited to organizations that need a durable, low maintenance tracker for high value mobile assets in the field. Its combination of solar charging, large battery capacity and hardened enclosure reduces downtime and maintenance overhead while delivering the location accuracy and reporting flexibility teams expect from a Plaspy compatible device.
 
+If you want consolidated visibility across fleet and asset protection workflows, integrating SolarGuardX 110 with Plaspy provides a practical path to centralized monitoring, alerting and historical reporting. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications and manufacturer details can change over time, so please verify current technical information and availability with the official manufacturer documentation at https://www.topflytech.com/.

@@ -2,60 +2,62 @@
 slug: /concox/eg02_intelligent_motorbike_tracker
 id: eg02_intelligent_motorbike_tracker
 sidebar_label: EG02 Intelligent Motorbike Tracker
+title: Concox - EG02 Intelligent Motorbike Tracker
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto compatible con Plaspy para scooters, e-bikes y VE ligeros con funciones antirrobo y montaje plug and play
+keywords:
+  - Concox EG02
+  - EG02 Rastreador Inteligente para Motocicletas
+  - Rastreador GPS Concox
+  - rastreador para motocicletas
+  - rastreador para patinetas eléctricas
+  - rastreador para bicicletas eléctricas
+  - rastreador micromovilidad
+  - compatible con Plaspy
+  - rastreador antirrobo
+  - seguimiento de flotas
 ---
-# Concox - EG02 Intelligent Motorbike Tracker
+
+# Concox - EG02 Rastreador inteligente para motocicletas
 
 ![EG02 Intelligent Motorbike Tracker](./tracker.png)
 
-El Rastreador Inteligente EG02 para Motocicletas es un rastreador GPS compacto, compatible con Plaspy, diseñado específicamente para scooters eléctricos, bicicletas eléctricas y otros vehículos ligeros eléctricos. Con un formato tipo encendedor de cigarrillos y una instalación plug-and-play, el EG02 ofrece rastreo en tiempo real confiable y telemetría de eventos, minimizando el tiempo de instalación para operadores de micromovilidad y gestores de flotas.
+El Concox EG02 Intelligent Motorbike Tracker es un rastreador GPS compacto, compatible con Plaspy, diseñado específicamente para scooters eléctricos, e-bikes y otros vehículos eléctricos ligeros. Con un formato tipo encendedor y una instalación plug and play, el EG02 ofrece seguimiento en tiempo real y telemetría de eventos confiable, manteniendo los tiempos y la complejidad de instalación bajos para operadores de micromovilidad y gestores de flotas.
 
-Diseñado para protección antirrobo y gestión eficiente de flotas, el EG02 combina posicionamiento GPS + LBS, bloqueo/desbloqueo remoto \(a través de la app móvil o SMS\) y alarmas sonoras inmediatas ante movimiento no autorizado. Su amplio rango de tensión de funcionamiento de 9–90 V, su bajo consumo en modo de espera y su robusta precisión de posicionamiento lo convierten en un rastreador GPS ideal para flotas de última milla, scooters de alquiler, vehículos eléctricos de tres ruedas y vehículos ligeros industriales cuando se integra con Plaspy para monitoreo y control centralizados.
+Como dispositivo compatible con Plaspy, el EG02 integra la ubicación del vehículo y los datos de eventos en una plataforma centralizada de gestión de flotas para supervisión, alertas e informes históricos. Sus funciones antirrobo y opciones de control remoto lo convierten en una opción práctica para organizaciones que buscan visibilidad y control unificado de flotas de vehículos eléctricos pequeños mediante Plaspy.
 
-## Aspectos Clave
+## Aspectos clave
 
-- Rastreador GPS compatible con Plaspy para micro-movilidad: integra la ubicación GPS/LBS y datos de alertas en Plaspy para seguimiento en tiempo real y generación de informes.
-- Formato compacto plug-and-play \(77 × 29 × 13 mm\) para instalación rápida de retrofit o de fábrica sin cortar el cableado del vehículo.
-- Anti-robo inteligente e inmovilizador remoto: corte automático de energía para entrar en estado de armado, y bloqueo/desbloqueo remoto mediante app o SMS.
-- Alarma audible inmediata y compatibilidad con zumbador externo para localizar scooters y disuadir robos en el acto.
-- Bajo consumo de energía y amplia tolerancia de voltaje \(9–90 V\) apto para e-scooters, e-bikes, carritos de golf y pequeños vehículos eléctricos.
-- Seguimiento GNSS preciso \(CEP por debajo de 2,5 m\) con TTFF rápido para actualizaciones de ubicación en tiempo real confiables.
-- Alertas de eventos por exceso de velocidad, entrada/salida de geocerca, apagado de energía y vibración anormal: útiles para telemetría y monitoreo de seguridad.
+- Rastreador GPS compatible con Plaspy para micromovilidad que aporta posiciones GNSS y LBS a la supervisión y los informes centralizados.
+- Formato compacto plug and play, ideal para retrofit rápido o instalación de fábrica sin cortar el cableado del vehículo.
+- Funciones antirrobo integradas y bloqueo remoto con capacidad de bloqueo y desbloqueo vía app móvil o SMS.
+- Alarma audible inmediata y soporte para buzzer externo para disuadir el robo y facilitar la localización rápida de vehículos.
+- Amplio rango de operación de 9 a 90 V y bajo consumo en espera, apto para una variedad de scooters, e-bikes y plataformas EV ligeras.
+- Posicionamiento GNSS preciso para actualizaciones de ubicación en tiempo real y reproducción de historial confiable.
+- Alertas de eventos como exceso de velocidad, entrada y salida de geocercas, corte de alimentación y detección por vibración para apoyar flujos de trabajo de seguridad y mantenimiento.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el EG02 transmite datos de ubicación y eventos a través de GPRS \(TCP/IP\) a su cuenta de Plaspy, y también admite comandos por SMS cuando las condiciones de red lo requieren. Plaspy recibe posiciones GNSS/LBS, telemetría de alarmas y estado y pone esos datos a disposición para monitoreo en el panel, alertas automáticas e informes históricos. El inmovilizado remoto, las alarmas sonoras y las reglas de geocerca configuradas en Plaspy permiten a los operadores actuar de inmediato ante robos o incidentes de seguridad.
+Al conectarse a Plaspy, el EG02 envía telemetría de ubicación, alarmas y estado para que los operadores puedan supervisar flotas en tiempo real y actuar ante eventos. Plaspy procesa estas señales para paneles, reglas de alerta e informes históricos, y permite controlar inmovilización remota y alarmas audibles cuando sea necesario.
 
-- Actualizaciones en tiempo real de ubicación y telemetría mediante GPS + LBS entregadas a Plaspy para rastreo en vivo y reproducción de historial.
-- Arranque sin llave / estado de encendido y control de bloqueo/desbloqueo remoto mostrados en Plaspy como eventos de estado.
-- Alertas enviadas a Plaspy para apagado de energía, vibración/movimiento no autorizado, exceso de velocidad y entradas/salidas de geocerca.
-- Soyporte de inmovilizador remoto: inmovilizar vehículos desde Plaspy \(o por SMS/app\) para detener el robo en curso.
-- Control de zumbador externo y comandos de locate-beep accesibles a través de los paneles de Plaspy o alertas móviles.
+- Entrega de ubicación y telemetría en tiempo real a Plaspy para seguimiento en vivo y historial de rutas.
+- Eventos de estado como bloqueo/desbloqueo y estado de encendido se representan en Plaspy para la supervisión operativa.
+- Alertas por corte de energía, vibración o movimiento no autorizado, exceso de velocidad y disparos de geocerca se reenvían a Plaspy para notificación inmediata.
+- Control de inmovilizador remoto y sirena accesible desde los paneles de Plaspy para apoyar la respuesta ante robos.
+- Informes históricos y reproducción en Plaspy ayudan a analizar patrones de uso e investigar incidentes.
 
-## Resumen Técnico
+## Casos de uso típicos
 
-| Conectividad | Cuatro bandas GSM 850/900/1800/1900 MHz; GPRS Clase 12 con soporte TCP/IP |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(cuatro bandas\) |
-| Potencia & Batería | Voltaje de entrada 9–90 VDC; batería de respaldo Li‑Po integrada de 270 mAh / 3,7 V; corriente típica en modo de espera ≤5 mA en batería |
-| Interfaces | Ranura Micro‑SIM; compatibilidad con zumbador/external siren; salidas de alerta configurables; antenas GPS y GSM integradas |
-| GNSS | Posicionamiento GPS + LBS; frecuencia L1, 66 canales GPS; precisión de posicionamiento \< 2,5 m CEP; sensibilidad de seguimiento –165 dBm; sensibilidad de adquisición –148 dBm; TTFF caliente ≤2 s, frío ≤32 s |
-| Bluetooth | No especificado |
-| Gestión Remota | Bloqueo/desbloqueo remoto y control vía app móvil o SMS; dispositivo configurable para alertas y salidas |
-| Formato & Ambiente | Dimensiones 77.0 × 29.0 × 13.0 mm; peso 43 g; rango de temperatura de funcionamiento –20 °C a +70 °C; resistencia al agua IPX5 |
-| Almacenamiento | Almacenamiento de datos de 64 Mb |
+- Gestión de flotas para operadores de micromovilidad que monitorean la ubicación y utilización de scooters y e-bikes.
+- Protección antirrobo para scooters compartidos y de alquiler mediante armado automático, alarmas audibles e inmovilización remota.
+- Retrofits posventa e instalaciones de fábrica donde un rastreador compacto plug and play reduce el tiempo de instalación.
+- Monitoreo de seguridad y respuesta a incidentes con alertas por vibración y velocidad que apoyan la verificación de mantenimiento y la seguridad del operador.
+- Seguimiento de vehículos industriales ligeros y de servicio, como carritos de golf y EVs de tres ruedas usados en campus o instalaciones.
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas para operadores de micromovilidad: supervisar ubicaciones de scooters/bicicletas eléctricas, gestionar geocercas y automatizar alertas a través de los paneles de Plaspy.
-- Protección antirrobo para scooters compartidos y de alquiler: armado automático, alarmas audibles y inmovilizador remoto reducen pérdidas y aceleran la recuperación.
-- Fabricante y retrofit posventa: instalación plug-and-play para montaje de fábrica o actualizaciones en centros de servicio sin cortar el cableado del vehículo.
-- Monitoreo de seguridad y respuesta a incidentes: alertas de vibración y velocidad proporcionan telemetría para mantenimiento proactivo y verificaciones de seguridad del operador.
-- Vehículos ligeros industriales y de utilidad: rastrear vehículos eléctricos pequeños, carritos de golf y vehículos de tres ruedas usados en campus o instalaciones con telemetría gestionada por Plaspy.
+El EG02 combina un formato compacto con controles antirrobo enfocados y posicionamiento confiable, lo que lo hace una opción sensata para organizaciones que necesitan despliegue rápido y supervisión centralizada. Su amplia tolerancia de voltaje y bajo consumo en espera reducen problemas de compatibilidad entre distintos EVs pequeños, y el cableado plug and play facilita el despliegue y el mantenimiento en flotas grandes.
 
-## Por Qué Elegir Este Rastreador con Plaspy
+Integrar el EG02 con Plaspy ofrece a los operadores una combinación práctica de visibilidad de ubicación, alertas de eventos y capacidades de control remoto que favorecen la disuasión de robos y la supervisión operativa. Para operadores de micromovilidad, gestores de flotas y prestadores de servicios que requieren un rastreador compacto y diseñado para scooters y EVs ligeros, el EG02 representa una solución equilibrada cuando se usa con Plaspy.
 
-El EG02 ofrece una combinación enfocada de diseño compacto, precisión probada de GPS y controles antirrobo especialmente diseñados que se alinean con las capacidades de seguimiento en tiempo real y gestión de flotas de Plaspy. Su amplio rango de voltaje y su bajo consumo en modo de espera reducen las limitaciones de instalación entre diversos tipos de vehículos, mientras que el cableado plug-and-play facilita una implementación rápida y rentable para grandes flotas.
-
-Al integrar el EG02 con Plaspy obtienes un rastreador GPS que no solo proporciona seguimiento en tiempo real y telemetría de eventos confiables, sino también herramientas antirrobo prácticas—inmovilizador remoto, control de sirena audible y armado automático—entregadas a través de los flujos de alerta y control de Plaspy. Para operadores de micromovilidad, fabricantes y gestores de flotas que buscan un rastreador GPS compacto y robusto para scooters y vehículos eléctricos ligeros, el EG02 ofrece una solución equilibrada para anti-robo, telemetría y gestión de flotas escalable.
-
+Para obtener más información sobre cómo EG02 puede integrarse con Plaspy visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo; verifique la información técnica actual en el sitio oficial de Concox https://www.iconcox.com/.

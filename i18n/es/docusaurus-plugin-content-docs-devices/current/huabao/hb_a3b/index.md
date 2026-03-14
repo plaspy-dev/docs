@@ -2,62 +2,63 @@
 slug: /huabao/hb_a3b
 id: hb_a3b
 sidebar_label: HB-A3B
+title: Huabao - HB-A3B
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS para vehículos con limitador de velocidad y funciones de cumplimiento compatible con Plaspy para seguimiento en tiempo real y reportes auditables
+keywords:
+  - Huabao HB A3B
+  - Rastreador HB A3B
+  - Rastreador GPS Huabao
+  - limitador de velocidad
+  - dispositivo de seguimiento de flotas
+  - compatible con Plaspy
+  - telemática vehicular
+  - reportes de exceso de velocidad
+  - registro de viajes
+  - alarmas antirrobo
 ---
+
 # Huabao - HB-A3B
 
 ![HB-A3B](./tracker.jpg)
 
-El HB-A3B 00 Speed Limiter and Governor es un rastreador GPS de grado automotriz y una unidad de control diseñada para despliegues compatibles con Plaspy, donde la aplicación forzada de control de velocidad, el registro de cumplimiento y el rastreo en tiempo real son clave. Al combinar la posición GPS/BDS con las comunicaciones GSM y salidas de control locales, el HB-A3B 00 permite a los gestores de flota y a los reguladores monitorizar la ubicación, detectar eventos de sobrevelocidad y aplicar acciones de corte de combustible o limitación de velocidad a través de interfaces de relé o drive-by-wire \(DBW\).
+El HB-A3B es un rastreador y unidad de control de grado vehicular diseñado para implementaciones que requieren control de velocidad forzado, registro de cumplimiento y seguimiento en tiempo real confiable. El equipo combina posicionamiento GNSS con comunicaciones celulares y salidas de control locales dedicadas para detectar eventos de exceso de velocidad, generar alarmas, registrar recorridos y accionar intervenciones activas como relés o limitación por control electrónico. Está pensado para flotas comerciales, transporte de pasajeros e instalaciones reguladas donde la auditabilidad y el control operacional son prioritarios.
 
-Diseñado para flotas comerciales, transporte de pasajeros e instalaciones gubernamentales obligatorias, el HB-A3B 00 combina telemetría y alarmas anti-robo con un registro de viajes robusto para auditoría. Cuando se integra con Plaspy, el dispositivo suministra a la plataforma rastreo en tiempo real, alertas de eventos y datos almacenados temporalmente provenientes de zonas con cobertura de comunicaciones limitada, respaldando operaciones más seguras y una generación de informes de cumplimiento más clara sin modificar la arquitectura existente del vehículo.
+Como dispositivo compatible con Plaspy, el HB-A3B envía a la plataforma actualizaciones continuas de ubicación, alertas de eventos y registros almacenados desde zonas sin cobertura. Al integrarse con Plaspy, la telemetría y las capacidades de control del equipo pueden mostrarse en paneles centralizados, flujos de trabajo de alertas automatizadas e informes de cumplimiento, permitiendo a los gestores de flota y a los reguladores supervisar el comportamiento y coordinar acciones sin modificar la arquitectura del vehículo.
 
-## Principales características
+## Características principales
 
-- Rastreo en tiempo real y telemetría compatibles con Plaspy: actualizaciones de posición GPS/BDS e informes de eventos para una gestión continua de la flota.
-- Modos de limitación de velocidad y regulador integrados: admite velocidad GPS o velocidad por pulso del vehículo, con umbrales configurables y una advertencia audible antes de restringir.
-- Salidas de control activas para funcionalidades tipo inmovilizador: control de relés o de válvulas mecánicas para cortar combustible o energía o limitar la velocidad cuando sea necesario.
-- Detección de eventos completa: estado ACC \(encendido\), sobrevelocidad, corte de energía, corte de antena GPS y entradas de alarma SOS para flujos de trabajo contra robo y seguridad.
-- Registro de viajes en el dispositivo y almacenamiento fuera de línea: la NAND flash almacena hasta 72 horas de registros de conducción a intervalos de 5 segundos y hasta 10,000 registros para zonas ciegas de comunicación.
-- Monitoreo de combustible opcional y impresión de viajes: compatibilidad con sensor de combustible opcional y impresora para monitoreo de combustible y registros de viaje impresos.
-- Hardware de grado vehicular: rango de tensión de entrada amplio \(9–36V\), amplia tolerancia de temperatura, factor de forma compacto y protección IP43.
+- Diseño de grado vehicular con soporte para limitación de velocidad y funciones de gobernador en despliegues enfocados en cumplimiento.
+- Posicionamiento GNSS combinado con comunicaciones celulares para reporte de ubicación y eventos en tiempo real.
+- Salidas de control activas para acciones por relé o actuación electrónica (drive-by-wire) para implementar cortes de combustible o limitación de velocidad.
+- Detección de eventos integral: estado de ignición, exceso de velocidad, entrada SOS, corte de antena y alarmas por manipulación de alimentación.
+- Registro de viajes a bordo y almacenamiento en búfer offline para conservar registros de conducción durante interrupciones de cobertura y subirlos posteriormente.
+- Soporte opcional para monitoreo de combustible y impresora para flotas que requieren control de consumo e impresiones físicas de viajes.
+- Tolerancias de hardware robustas aptas para entornos de vehículos comerciales y amplios rangos de temperatura de operación.
 
 ## Cómo funciona con Plaspy
 
-Al instalarse en un vehículo, el HB-A3B 00 recopila fijaciones de posición GNSS, velocidad por pulso del vehículo o GPS, estado de encendido \(ACC\) y entradas de alarma. Transmite datos de ubicación y de eventos a través de redes celulares y almacena localmente los registros durante interrupciones de la señal. Plaspy ingiere esa telemetría para ofrecer seguimiento en tiempo real, paneles de control, alertas automatizadas e informes de cumplimiento.
+Cuando se integra con Plaspy, el HB-A3B entrega fijaciones de ubicación, cambios de estado y eventos de alarma a la plataforma para que los equipos puedan supervisar vehículos en tiempo real, reproducir históricos y generar evidencia de cumplimiento. Plaspy procesa la telemetría del dispositivo para disparar notificaciones, llenar paneles de control y mantener registros de auditoría incluso cuando los vehículos atraviesan áreas sin cobertura.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento basado en mapa y reproducción histórica.
-- Monitoreo del estado ACC/encendido para correlacionar tiempo de conducción, eventos de encendido/apagado y comportamiento del conductor.
-- Alarmas de sobrevelocidad, SOS, corte de antena GPS y corte de energía aparecen como alertas inmediatas en Plaspy para una respuesta rápida.
-- Los datos de monitoreo de combustible \(cuando se instala un sensor de combustible opcional\) pueden reportarse a Plaspy para análisis de consumo y detección de robo.
-- Las acciones de limitación de velocidad y corte de combustible son implementadas por el HB-A3B 00 mediante control de relés o válvula mecánica; al combinarse con las herramientas de comandos y flujo de trabajo de Plaspy, las flotas pueden coordinar la aplicación remota y procedimientos de recuperación.
-- El almacenamiento en búfer \(NAND flash\) garantiza que Plaspy reciba datos de viaje consistentes una vez que los vehículos vuelven a cobertura, respaldando registros de auditoría completos.
+- Las actualizaciones de ubicación y telemetría en tiempo real se muestran en los mapas de Plaspy y se usan para reproducción histórica y análisis de rutas.
+- El monitoreo de ignición y del estado de conducción ayuda a correlacionar el uso del vehículo, los ciclos de trabajo y el comportamiento del conductor en los informes de Plaspy.
+- Las alarmas por exceso de velocidad, SOS, corte de antena y manipulación de alimentación generan alertas inmediatas para la respuesta operativa y el registro de incidentes.
+- El almacenamiento en búfer del dispositivo garantiza que Plaspy reciba los datos completos del viaje una vez que los vehículos regresen a cobertura, preservando la continuidad de auditoría.
+- Los datos de monitoreo de combustible de un sensor opcional pueden redirigirse a Plaspy para análisis de consumo y flujos de trabajo de detección de hurto.
+- Las acciones de limitación de velocidad implementadas por el equipo pueden coordinarse con los flujos de trabajo de Plaspy para apoyar procesos remotos de cumplimiento y recuperación.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Modelo | HB-A3B 00 |
-| --- | --- |
-| Conectividad | 2G \(opcional, GSM/GPRS\) |
-| Bandas | 850 / 900 / 1800 / 1900 MHz |
-| Almacenamiento | NAND Flash 8 Mbit; almacena hasta 72 horas de registros de conducción a intervalos de 5s; hasta 10,000 registros para zonas ciegas de comunicación |
-| Alimentación & Batería | Voltaje de funcionamiento 9V–36V; corriente de funcionamiento ~100 mA; batería interna 400 mAh \(standby ~2 horas\) |
-| Interfaces | Detección ACC \(1\); entrada SOS \(1\); entrada AD \(1 canal 0–33V\); entrada de velocidad por pulso \(1\); salidas de relé / control de válvula mecánica para limitación de velocidad / corte de combustible; 2 × puertos RS232; ranura para tarjeta SIM; antena de comunicación externa y antena GPS externa; 2 × puertos USB \(uno para U-disk, otro para impresora\) |
-| GNSS | Posicionamiento GPS/BDS; sensibilidad: adquisición -148 dBm, seguimiento -162 dBm; arranque en frío típico ~36 s |
-| Bluetooth | No especificado en la descripción del dispositivo \(no reporta BLE\) |
-| Gestión Remota | USB 2.0 para recopilación de datos y actualizaciones de firmware locales; no se especifica FOTA explícitamente |
-| Hardware & Ambiental | Tamaño 130 × 82 × 31 mm; peso 210 g; temperatura de funcionamiento -30°C a +70°C; almacenamiento -40°C a +85°C; grado de protección IP43 |
+- Gestión de flotas y gobernanza de velocidad para autobuses, ómnibus y camiones comerciales que requieren control de velocidad auditable.
+- Instalaciones vehiculares reguladas por gobierno donde es obligatorio imponer y registrar el uso de limitadores de velocidad.
+- Operaciones de renta, logística y transporte de largo recorrido que necesitan mitigación de exceso de velocidad, registros de viaje para facturación y retención de datos en zonas remotas.
+- Flujos de trabajo de antirrobo y recuperación que dependen de entradas SOS y alarmas por manipulación para activar acciones coordinadas de inmovilización.
+- Programas de monitoreo de combustible y control de costos operativos que usan sensores opcionales para alimentar telemetría de consumo y análisis.
 
-## Casos de uso
+## Por qué elegir este rastreador junto a Plaspy
 
-- Gestión de flotas y gobernanza de velocidad: Aplicar las políticas de velocidad de la empresa y generar registros de incidentes auditorables para autobuses, autocares y camiones comerciales.
-- Instalaciones de vehículos reguladas por el gobierno: Cumplir con los requisitos obligatorios de limitación de velocidad para flotas de servicios públicos donde se requiere la aplicación de control de velocidad.
-- Alquiler, logística y operaciones de larga distancia: Reducir el riesgo de sobrevelocidad, registrar viajes para facturación/auditoría y conservar datos de áreas remotas mediante almacenamiento a bordo.
-- Flujos de trabajo de anti-robo y recuperación: La entrada SOS y alarmas de corte de energía/corte de antena facilitan alertas rápidas y acciones coordinadas de inmovilizador para limitar movimientos no autorizados.
-- Monitoreo de combustible y control de costos operativos: Añadir el sensor de combustible opcional para alimentar la telemetría de consumo a Plaspy para detección de robo y programas de eficiencia.
+El HB-A3B es una opción práctica para organizaciones que necesitan tanto gobernanza activa de velocidad como telemática completa en una sola unidad vehicular. Su combinación de seguimiento en tiempo real, detección de eventos, salidas de control activas y almacenamiento interno se alinea con las capacidades de Plaspy en monitoreo centralizado, alertas e informes de cumplimiento, proporcionando a los operadores un medio para aplicar políticas y conservar registros listos para auditoría.
 
-## Por qué elegir este rastreador con Plaspy
+Para flotas y operadores regulados, emparejar el HB-A3B con Plaspy ayuda a consolidar telemetría, alarmas e historiales de viaje en una única plataforma para supervisión y generación de informes. El diseño del dispositivo enfatiza la captura confiable de datos y las acciones de control, mientras que Plaspy ofrece los paneles y los flujos de trabajo para actuar sobre esa información.
 
-Elegir el HB-A3B 00 para una implementación compatible con Plaspy ofrece una combinación probada de rastreo en tiempo real, interfaces de vehículo duraderas y capacidad activa de limitación de velocidad. El dispositivo está diseñado para capturar telemática y eventos de seguridad que importan — estado ACC/encendido, incidentes de sobrevelocidad, SOS y manipulación de antena o energía — y para almacenar registros de forma fiable en zonas sin cobertura de comunicaciones. Para los gestores de flotas centrados en el cumplimiento, la seguridad y la visibilidad operativa, emparejar el HB-A3B 00 con Plaspy ofrece paneles centralizados, alertas automáticas y una trayectoria de auditoría clara para la aplicación.
-
-El HB-A3B 00 soporta las necesidades centrales de gestión de flotas — rastreo en tiempo real, telemetría, monitoreo de combustible \(con el sensor opcional\) y control tipo inmovilizador/encendido mediante actuadores de relé o válvula mecánica. Los instaladores pueden recolectar datos de viajes localmente mediante USB o integrar la unidad con Plaspy para escalar la monitorización a lo largo de una flota de vehículos mixtos. Si requiere sensores Bluetooth específicamente, Plaspy también es compatible con accesorios BLE en soluciones más amplias, aunque BLE no está especificado para el HB-A3B 00 en sí.
-
+Para saber más sobre Plaspy y cómo se gestionan los dispositivos compatibles en la plataforma, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual en el sitio oficial de Huabao https://www.huabaotelematics.com/.

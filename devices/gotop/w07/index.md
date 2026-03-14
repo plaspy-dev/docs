@@ -2,61 +2,60 @@
 slug: /gotop/w07
 id: w07
 sidebar_label: W07
+title: GOTOP - W07
 sidebar_class_name: menu_item_tracker
+description: Compact waterproof GPS tracker W07 compatible with Plaspy for real time tracking and alerts
+keywords:
+  - GOTOP W07
+  - GOTOP W07 GPS tracker
+  - W07 tracker
+  - GOTOP tracker
+  - W07 Plaspy
+  - Plaspy compatible tracker
+  - W07 GPS tracking
+  - W07 fleet tracking
+  - W07 waterproof tracker
+  - mini GPS tracker W07
 ---
+
 # GOTOP - W07
 
 ![W07](./tracker.jpg)
 
-The Mini GPS Tracker W07 \(W07SA series\) is a compact, waterproof GPS tracker designed for seamless Plaspy compatible deployments. Small and lightweight at 47 x 35 x 19 mm and 41 g, the W07 combines global cellular coverage with reliable satellite positioning to deliver real-time tracking, route playback and essential safety alerts for people, pets, luggage and discreet assets. With SMS, web platform and mobile app reporting plus Google Map link support, the W07 is ready for fast integration into Plaspy-powered monitoring and fleet management workflows.
+The GOTOP W07 is a mini GPS tracker designed for compact, waterproof tracking needs. At 47 x 35 x 19 mm and weighing 41 g, the W07 is built for discreet placement on people, pets, luggage and small assets. It offers global cellular connectivity and satellite positioning to provide real time location, route playback and essential safety alerts in a small, portable package.
 
-Built around the SIMCOM A7670SA LTE module and an MT2503D GNSS chipset, the W07 supports quad-band GSM and multiple LTE-FDD bands for worldwide connectivity. The device emphasizes practical telemetry — motion/vibration alerts, geofence, overspeed and power-off alarms — while its rechargeable 1200mAh battery and waterproof housing make it a dependable choice for portable anti-theft protection and continuous real-time tracking on Plaspy.
+As a Plaspy compatible device, the W07 can deliver its location updates and alarm notifications into Plaspy for monitoring and reporting. Its support for SMS, web platform and mobile app reporting plus Google Map link support makes it suitable for fast integration into Plaspy workflows, enabling operators to view live positions, receive alerts and review historical tracks without complex setup.
 
 ## Key Highlights
 
-- Plaspy compatible: delivers GPS/LBS positioning and telemetry to Plaspy via SMS and GPRS for real-time tracking and historical route playback.
-- Global connectivity: SIMCOM A7670SA module with quad-band GSM and LTE-FDD bands for broad network coverage.
-- Compact & waterproof: discreet form factor \(47 x 35 x 19 mm\) and sealed housing for luggage, pet collars and covert asset installation.
-- Essential alerts: motion/vibration alert, geofence alarm, overspeed alarm, power-off alarm and low-battery notifications.
-- Long runtime & rechargeable: optimized power management with a built-in rechargeable 1200mAh Li-ion battery.
-- Reliable positioning: 50-channel MT2503D GNSS with A-GPS support and typical position accuracy ≥5 m.
-- Easy viewing: supports SMS, web platform and mobile app reporting plus Google Map links for one-tap location display and playback.
+- Plaspy compatible for real time position updates and historical route playback
+- Compact and waterproof form factor suitable for discreet deployments
+- Global cellular connectivity and satellite positioning for wide area coverage
+- Practical alerts including motion and vibration, geofence, overspeed and power off
+- Rechargeable battery designed for sustained portable use
+- Easy viewing via SMS notifications, web platform and mobile app with map links
+- Designed for personal safety, pet tracking and small asset protection
 
 ## How It Works with Plaspy
 
-The W07 transmits location and event data using GSM/GPRS and SMS, which Plaspy ingests and displays as live positions, alerts and historical tracks. Integration is straightforward for most Plaspy setups: the tracker’s periodic location pings, alarm notifications and status messages appear in Plaspy’s dashboard and mobile app so operators get actionable telemetry and geofence events in near real-time.
+The W07 sends periodic location pings and event messages that Plaspy displays as live positions, alerts and breadcrumb trails. When the device reports motion events, geofence breaches, low battery or power changes, Plaspy registers those events so operators can act and generate reports.
 
-- Real-time location and telemetry updates sent over GPRS or SMS for immediate display in Plaspy.
-- Track playback and historical routes available via Plaspy using the device’s stored timestamps and coordinates.
-- Motion/vibration, power-off and low-battery alarms routed into Plaspy for anti-theft and safety workflows.
-- Geofence and overspeed alerts presented in Plaspy as configurable triggers for notifications and reporting.
-- Google Map links included in messages for quick map viewing; Plaspy displays full breadcrumb trails and location history.
+- Real time location and telemetry appear in Plaspy for continuous visibility
+- Track playback and historical routes are available in Plaspy for post event review
+- Motion, power off and low battery alarms route into Plaspy for anti theft and safety workflows
+- Geofence and overspeed alerts are presented as configurable triggers and notifications
+- Messages with Google Map links provide quick one tap viewing while Plaspy shows full location history
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | SIMCOM A7670SA LTE module, GPRS \(Class 12\), SMS |
-| --- | --- |
-| Bands | Quad-band GSM 850/900/1800/1900 MHz; LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28/B66 |
-| Battery | Rechargeable 1200mAh Li-ion |
-| GNSS Chipset | MT2503D \(50 channels\) with A-GPS \(AssistNow online/offline\) |
-| Position Accuracy | Typical ≥5 m |
-| Start Times | Cold start &lt;27 s, Warm start &lt;5 s, Hot start ~1 s |
-| Sensitivity | Tracking: \(R\)C161 dB; Cold start: \(R\)C148 dB; Hot start: \(R\)C156 dB |
-| Size & Weight | 47 x 35 x 19 mm; 41 g |
-| Sensors & Antenna | Built-in GPS/GSM antenna; internal vibration/motion sensor; built-in watchdog CPU |
-| Reporting | SMS, web platform and mobile app with Google Map link support |
-
-## Use Cases
-
-- Personal safety and lone-person tracking — reliable real-time tracking and alerts for family members or field staff.
-- Pet and luggage tracking — compact, waterproof design ideal for collars or travel bags with route playback on Plaspy.
-- Discreet asset monitoring — covertly monitor small equipment or high-value portable items with motion and geofence alerts.
-- Small vehicle and micro-fleet management — suitable for scooters, mopeds or small delivery vehicles where a compact GPS tracker is required.
-- Anti-theft monitoring for portable assets — instant power-off, movement and low-battery alerts help protect items in transit.
+- Personal safety and lone worker monitoring with live location and alerting
+- Pet or luggage tracking during travel with route playback on Plaspy
+- Discreet asset monitoring for small equipment and portable valuables
+- Small vehicle and micro fleet oversight for scooters, mopeds or deliveries
+- Anti theft monitoring using motion and power state alerts
 
 ## Why Choose This Tracker with Plaspy
 
-The W07 offers a pragmatic balance of compactness, global cellular compatibility and the essential telemetry needed for everyday tracking. As a Plaspy compatible GPS tracker, it delivers real-time tracking, geofence and alarm events into Plaspy’s dashboard so operators gain immediate situational awareness. Its small, waterproof form factor and rechargeable battery make the W07 ideal for discreet deployment where size and reliability matter more than a long list of optional interfaces.
+The W07 combines a small waterproof design with the core telemetry features needed for day to day tracking. For organizations using Plaspy, the device provides a straightforward way to add real time positions, geofence events and basic alarms into monitoring dashboards and reporting workflows. Its compact size and standard reporting methods make it a practical option where discreet installation and reliable location reporting are priorities.
 
-Plaspy users that require expanded telemetry — such as fuel monitoring, ignition state, immobilizer control or Bluetooth sensor integration — can continue to rely on Plaspy’s broader device ecosystem. The W07 focuses on accurate GPS/LBS positioning, motion-based alerts and consistent SMS/GPRS reporting, making it a cost-effective solution for personal, pet, luggage and small-vehicle tracking within a Plaspy-managed fleet or safety program.
-
+To learn more about Plaspy and how the W07 can fit into your monitoring or fleet management setup visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details with the manufacturer at https://www.gotop.cc/.

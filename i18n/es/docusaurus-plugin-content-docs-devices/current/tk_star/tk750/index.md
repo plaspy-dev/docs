@@ -2,60 +2,60 @@
 slug: /tk_star/tk750
 id: tk750
 sidebar_label: TK750
+title: TK-Star - TK750
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G compacto TK-Star TK750 para motos autos y camionetas ligeras con posicionamiento multiconstelación y compatibilidad con Plaspy
+keywords:
+  - TK Star TK750
+  - rastreador GPS TK750
+  - TK750 compatible con Plaspy
+  - seguimiento de flotas TK750
+  - rastreador GPS para motocicletas TK750
+  - seguimiento de vehículos de alquiler TK750
+  - rastreador antirrobo TK750
+  - rastreador compatible con Plaspy
+  - seguimiento en vivo TK750
+  - rastreador TK Star
 ---
+
 # TK-Star - TK750
 
 ![TK750](./tracker.png)
 
-El TK750 4G de un fabricante de telemática establecido es un rastreador GPS compacto compatible con Plaspy, diseñado para motocicletas, automóviles privados, vehículos eléctricos, flotas de alquiler y vehículos ligeros. Combinando posicionamiento de múltiples constelaciones \(GPS, GLONASS, BeiDou\) con asistencia LBS y Wi‑Fi y un amplio soporte celular, el TK750 ofrece una localización fiable al aire libre, una cobertura interior mejorada y una integración rápida en Plaspy para gestión de flotas y flujos de trabajo antirrobo.
+El TK-Star TK750 es un rastreador GPS 4G compacto de un fabricante de telemática consolidado, pensado para motocicletas, autos particulares, vehículos eléctricos, flotas de alquiler y camionetas ligeras. Combina posicionamiento con múltiples constelaciones, asistencia por LBS y Wi‑Fi, y un amplio soporte celular para ofrecer posicionamiento confiable en exteriores, mejor cobertura en interiores y opciones prácticas tanto para instalaciones ocultas como empotradas.
 
-Construido para seguimiento en tiempo real, instalación cableada sencilla y montaje encubierto, el TK750 admite 4G FDD/TDD, WCDMA y GSM, además de NB‑IoT y Cat‑M1 cuando estén disponibles. Su tamaño compacto, el sensor de vibración, la geocerca y el corte remoto del motor lo convierten en una opción práctica para operadores que requieren seguimiento en tiempo real, telemetría y mitigación de robos en un dispositivo compatible con Plaspy.
+Como dispositivo compatible con Plaspy, el TK750 se integra rápidamente en la plataforma para seguimiento en vivo, paneles de control de flota y flujos de trabajo antirrobo. Sus reportes de eventos y funciones de inmovilización lo convierten en una opción relevante para operadores que necesitan supervisar el movimiento del vehículo, recibir alertas y revisar rutas históricas dentro de Plaspy.
 
-## Características clave
+## Aspectos destacados
 
-- Compatible con Plaspy para seguimiento en tiempo real y paneles de gestión de flotas.
-- GNSS de múltiples constelaciones \(GPS/GLONASS/BeiDou\) con LBS y Wi‑Fi para mejorar la cobertura en interiores y urbanos.
-- Amplio soporte celular: 4G FDD/TDD, WCDMA, GSM y NB‑IoT / Cat‑M1 para despliegues globales.
-- Funciones antirrobo: sensor de vibración sensible, alertas de geocerca, alertas de movimiento y de sobrevelocidad.
-- Control remoto de corte/reanudación del motor para inmovilización y recuperación ante robo.
-- Diseño compacto y encubierto, ideal para motocicletas y vehículos de alquiler.
-- Integración con servidor y aplicación móvil con almacenamiento de historial de rutas \(hasta seis meses\) para cumplimiento y análisis.
+- Compatible con Plaspy para seguimiento en tiempo real y paneles de gestión de flotas
+- Posicionamiento con múltiples constelaciones (GPS, GLONASS y BeiDou) más asistencia por LBS y Wi‑Fi
+- Amplio soporte celular, incluyendo 4G, WCDMA y GSM, con NB‑IoT y Cat M1 donde estén disponibles
+- Funciones antirrobo como sensor de vibración sensible, alertas por geocerca y alarmas de movimiento
+- Controles remotos de corte y restablecimiento de motor para inmovilización y apoyo en recuperación
+- Diseño compacto y discreto, adecuado para motocicletas, vehículos de alquiler y lugares de instalación reducida
+- Integración con servidor y almacenamiento del historial de rutas, útil para cumplimiento y revisión de incidentes
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando está instalado y conectado a Plaspy, el TK750 transmite datos de ubicación y eventos a su cuenta de Plaspy para visualización en tiempo real, alertas e informes. Plaspy lee la telemetría y los eventos de alarma del dispositivo para que pueda supervisar el estado del vehículo, configurar geocercas, activar comandos de inmovilización y revisar rutas históricas de hasta seis meses.
+Cuando el TK750 está conectado a Plaspy, transmite datos de ubicación y eventos a su cuenta para que usted pueda visualizar posiciones en vivo, recibir alertas y analizar viajes históricos. Plaspy utiliza la telemetría del dispositivo y los eventos de alarma para proporcionar visibilidad operativa y control en flotas mixtas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para seguimiento en vivo y visualización en mapa.
-- Alertas de vibración y movimiento para notificaciones antirrobo y respuesta inmediata.
-- Alertas de geocerca y sobrevelocidad reenviadas a Plaspy para el manejo automático de alarmas.
-- Control remoto de corte/reanudación del motor disponible a través de Plaspy cuando se configure con el cableado del vehículo y permisos.
-- Reproducción de rutas históricas \(almacenadas en el servidor hasta seis meses\) para revisión de incidentes y análisis de la flota.
+- Actualizaciones de ubicación en tiempo real y visualización en mapa en Plaspy para supervisión en vivo
+- Alertas por vibración y movimiento enviadas a Plaspy para notificaciones antirrobo
+- Alertas de geocerca y de exceso de velocidad gestionadas en Plaspy para manejo automatizado de alarmas
+- Comandos de inmovilización remota disponibles vía Plaspy cuando estén autorizados y configurados
+- Reproducción y reportes del historial de rutas en Plaspy para revisión de incidentes y análisis de flota
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G FDD/TDD, WCDMA, GSM; NB‑IoT y Cat‑M1 soportados cuando estén disponibles |
-| --- | --- |
-| Bandas | Múltiples bandas LTE FDD y TDD y bandas WCDMA/GSM \(consulte la lista de bandas del fabricante\); EGPRS 850/900/1800/1900 MHz |
-| Alimentación y batería | Tensión de funcionamiento DC 9 V–95 V; batería interna recargable de polímero de 3.7 V, 180 mAh \(modo de espera aprox. 2 horas\) |
-| Interfaces | Instalación cableada en el vehículo; control remoto de corte/ reanudación del motor \(control por relé\) |
-| GNSS | Conjunto GPS MT6261D, 66 canales; sensibilidad −165 dBm; precisión típica alrededor de 10 m; TTFF: Cold 35–80 s, Warm ~35 s, Hot ~1 s; también admite GLONASS, BeiDou, LBS y Wi‑Fi |
-| Bluetooth | No especificado |
-| Gestión remota | Integración con servidor y aplicación móvil para seguimiento en vivo, alertas y historial de rutas \(FOTA no especificado\) |
-| Formato | Dimensiones 99 × 54 × 16.5 mm; peso 81 g; compacto para montaje en vehículo y encubierto |
-| Ambiental | Almacenamiento −40 °C a +85 °C; operación −20 °C a +55 °C; humedad 5%–95% sin condensación; protección electrostática contacto ±7 kV, no contacto ±14 kV |
+- Antirrobo e inmovilización en flotas donde se requiere respuesta rápida y corte remoto del motor
+- Protección y seguimiento discreto de motocicletas para recuperación y tranquilidad del propietario
+- Supervisión de vehículos de alquiler con alertas por geocerca, notificaciones de exceso de velocidad e historial de rutas para devoluciones
+- Rastreo de camionetas ligeras y equipos en regiones con cobertura de red variable
+- Gestión de flotas urbanas y regionales para operaciones pequeñas y medianas mediante paneles de Plaspy
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Antirrobo de flotas e inmovilización — corte remoto de la potencia del motor y recepción de alarmas por vibración al detectar manipulación.
-- Protección para motocicletas — dimensiones compactas y sensor de vibración que proporcionan seguridad discreta y seguimiento en tiempo real compatible con Plaspy.
-- Seguimiento y devoluciones de vehículos de alquiler — salidas de geocerca, alertas de sobrevelocidad y historial de rutas para operaciones de alquiler y revisión de incidentes.
-- Seguimiento de camiones ligeros y equipos — telemetría continua y alertas de movimiento para activos que operan en distintas regiones con cobertura de red variable.
-- Gestión de flotas urbanas y regionales — conectividad multibanda e integración con Plaspy permiten despliegues en Europa, MENA, África, Asia, Oceanía y América del Sur.
+El TK750 combina dimensiones reducidas con posicionamiento por múltiples constelaciones y varios métodos de asistencia de ubicación para mejorar la fiabilidad en entornos urbanos y adyacentes a interiores. Para organizaciones que usan Plaspy, el dispositivo ofrece reportes de eventos y opciones de inmovilización que se integran en los flujos de trabajo estándar de flota.
 
-## Por Qué Elegir Este Rastreador con Plaspy
-
-Integrar el TK750 4G con Plaspy ofrece seguimiento en tiempo real fiable, telemetría accionable y controles antirrobo probados en un formato compacto. El dispositivo, con GNSS de múltiples constelaciones, asistencia LBS y Wi‑Fi, mejora la fiabilidad de la posición en entornos urbanos densos o cercanos a interiores, mientras que el amplio soporte celular \(incluyendo NB‑IoT y Cat‑M1 cuando esté disponible\) ofrece opciones de conectividad flexibles en distintas regiones.
-
-Para gestores de flotas y operadores que requieren hardware compatible con Plaspy, el TK750 equilibra instalación encubierta, alimentación eléctrica fija por cable, detección de vibraciones y corte remoto del motor para reducir el riesgo de robo y acelerar la recuperación. Combinado con las herramientas de gestión de flotas de Plaspy, obtienes ubicación en tiempo real, aplicación de geocercas, monitorización de sobrevelocidad y hasta seis meses de historial de rutas para cumplimiento y análisis. El ecosistema de Plaspy también admite flujos de telemetría más amplios —como la integración de monitoreo de combustible mediante sensores compatibles e integraciones de plataforma—, lo que permite una solución escalable para operaciones que requieren insights más profundos sobre los vehículos.
-
+Si usted necesita un rastreador de factor de forma pequeño que soporte seguimiento en vivo, alertas por geocerca e inmovilización remota dentro de la plataforma Plaspy, el TK750 es una opción capaz a considerar. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, su disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que verifique la información actual en el sitio oficial de TK Star https://www.tk-star.com/

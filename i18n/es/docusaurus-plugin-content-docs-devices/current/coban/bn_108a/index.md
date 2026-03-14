@@ -2,60 +2,58 @@
 slug: /coban/bn_108a
 id: bn_108a
 sidebar_label: BN-108A
+title: Coban - BN-108A
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto Coban BN-108A con batería de larga duración y compatibilidad con Plaspy para seguimiento encubierto y protección de activos
+keywords:
+  - Coban BN-108A
+  - rastreador GPS Coban BN-108A
+  - BN-108A compatible con Plaspy
+  - rastreador compatible con Plaspy
+  - rastreador GPS para activos
+  - rastreador con montaje magnético
+  - rastreador GPS de batería larga
+  - seguimiento vehicular encubierto
+  - rastreador GPS antirrobo
+  - dispositivo de rastreo para flotas
 ---
+
 # Coban - BN-108A
 
 ![BN-108A](./tracker.png)
 
-El BN-108A es un rastreador GPS compacto, compatible con Plaspy, diseñado para la gestión móvil de activos, seguimiento encubierto de vehículos y protección antirrobo. Su combinación de atracción magnética fuerte para montaje sin herramientas, inducción automática Bluetooth para armado/desarmado y una batería recargable de 10,000 mAh de gran capacidad ofrece largos tiempos de espera y un seguimiento en tiempo real confiable cuando se integra con la plataforma Plaspy.
+El BN-108A es un rastreador GPS compacto de Coban pensado para la gestión de activos móviles, el seguimiento encubierto de vehículos y la protección antirrobo. Combina una fuerte sujeción magnética para montaje sin herramientas, inducción automática por Bluetooth para facilitar el armado y desarmado, y una batería recargable de gran capacidad de 10,000 mAh que proporciona largos periodos de espera y actualizaciones de ubicación en tiempo real confiables.
 
-Diseñado para conectarse a Plaspy para la gestión de flotas y flujos de telemetría, el BN-108A ofrece actualizaciones de ubicación continuas, alarmas de múltiples tipos y monitoreo de voz remoto a través de una aplicación móvil o enlaces TCP/UDP/SMS. Estas características hacen del BN-108A una opción efectiva para empresas que requieren supervisión confiable de activos, respuesta ante robo y una integración de plataforma sencilla.
+Como dispositivo compatible con Plaspy, el BN-108A puede integrarse en flujos de trabajo de monitoreo de flotas y telemetría para ofrecer actualizaciones continuas de posición, múltiples tipos de alarmas y monitoreo de voz remoto. Al usarse con Plaspy, la unidad ayuda a centralizar los datos de rastreo, las alertas y la reproducción histórica para supervisión operativa y respuesta frente a robos.
 
-## Puntos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y reproducción a través de la app o del servidor.
-- Batería Li‑ion recargable de 10,000 mAh de gran capacidad para mayor tiempo en espera y ciclos de mantenimiento reducidos.
-- Fuerte atracción magnética para montaje rápido y sin herramientas en vehículos, remolques o activos de alto valor.
-- Inducción automática Bluetooth para armado/desarmado simplificado y soporte para sensores Bluetooth.
-- Alarmas múltiples que incluyen batería baja, movimiento, impacto, exceso de velocidad y geocerca para alertas antirrobo.
-- Estrategias de posicionamiento flexibles \(en tiempo real, modo inteligente, ahorro de energía\) para equilibrar consumo y cadencia de reportes.
-- Monitoreo de voz remoto y control por SMS para conocimiento situacional y configuración bajo demanda.
+- Dispositivo compatible con Plaspy para seguimiento en tiempo real y reproducción histórica desde los paneles de la plataforma.
+- Batería recargable de gran capacidad de 10,000 mAh que reduce la frecuencia de mantenimiento y permite largas operaciones en modo espera.
+- Fuerte sujeción magnética que facilita el montaje sin herramientas en vehículos, remolques u otros activos.
+- Inducción automática por Bluetooth para un armado y desarmado sencillos y soporte de flujos de trabajo basados en proximidad.
+- Múltiples tipos de alarma, incluyendo batería baja, movimiento, impacto, exceso de velocidad y geocerca para alertas antirrobo.
+- Monitoreo de voz remoto y control por SMS para obtener conciencia situacional bajo demanda y gestión remota ligera.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el BN-108A transmite datos de ubicación y eventos a través de GSM/GPRS \(TCP, UDP o SMS\) para proporcionar conciencia situacional continua. Plaspy ingiere posiciones GNSS, alarmas y telemetría para mostrar la ubicación en tiempo real, activar alertas y poblar rutas históricas para reproducción e generación de informes. La inducción Bluetooth y las alarmas a bordo alimentan las actualizaciones de estado a Plaspy para soportar flujos de trabajo antirrobo y paneles de gestión de flotas.
+Al conectarse a Plaspy, el BN-108A envía información de posición y eventos a la plataforma, donde se puede visualizar, filtrar y utilizar para disparar alertas operativas. Plaspy procesa los datos del dispositivo para mostrar ubicación en vivo, notificaciones de alarma y pistas históricas que apoyan la gestión de flotas y la revisión de incidentes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(posición, marca de tiempo, estado de movimiento\) vía TCP/UDP/SMS.
-- Informes de alarmas: batería baja, movimiento, impacto, exceso de velocidad y eventos de geocerca enviados a Plaspy para alertas instantáneas.
-- Monitoreo de voz remoto: captar sonido ambiental bajo demanda y grabar eventos para revisión de incidentes.
-- Sensores Bluetooth y activación automática: utilice accesorios BLE o la proximidad de un teléfono inteligente para activar/desactivar los modos de rastreo.
-- Modos de reporte flexibles \(online, smart, ahorro de energía\) ajustados a través de Plaspy para optimizar la duración de la batería y la frecuencia de actualizaciones.
+- Ubicación en tiempo real y telemetría visibles en los paneles de Plaspy para mantener conciencia situacional continua.
+- Reenvío de alarmas a Plaspy para notificaciones instantáneas por batería baja, movimiento, impacto, exceso de velocidad y violaciones de geocerca.
+- Reproducción de trayectos históricos e informes para analizar rutas, eventos y desplazamientos de activos a lo largo del tiempo.
+- Eventos de monitoreo de voz remoto capturados y registrados para su revisión dentro de los registros de Plaspy.
+- Estado de armado y desarmado basado en Bluetooth reflejado en Plaspy para apoyar flujos de trabajo antirrobo y por proximidad.
 
-## Descripción técnica
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS \(2G\) |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz |
-| Protocolos | TCP, UDP, SMS |
-| Potencia y Batería | 3.7 V, 10,000 mAh rechargeable Li‑ion |
-| Interfaces | Interfaz de hardware con comandos de configuración por SMS; montaje magnético; monitoreo de voz remoto |
-| GNSS | Receptor GPS; sensibilidad -165 dBm; precisión aprox. 5 m; TTFF Cold 45 s / Warm 35 s / Hot 1 s |
-| Bluetooth | Inducción automática Bluetooth para armado/desarmado y detección de proximidad \(para sensores/señales\) |
-| Gestión remota | Monitoreo remoto vía app móvil; configuración vía SMS; manuales descargables y videos de instalación |
-| Factor de forma | Carcasa portátil y compacta — 106 × 63 × 37.5 mm; peso ~343 g |
-| Ambientales | Operativo: -20°C a +45°C; Almacenamiento: -40°C a +85°C; Humedad 5%–95% sin condensación |
-
-## Casos de uso
-
-- Seguimiento encubierto de vehículos y protección antirrobo para coches de alto valor, furgonetas de servicio o vehículos de alquiler.
-- Seguimiento de remolques y contenedores donde se requiere montaje magnético y larga vida de la batería.
-- Seguridad y supervisión de la flota: integrar con Plaspy para reproducción de rutas, alertas por exceso de velocidad y telemetría operativa.
-- Protección de equipos portátiles y activos durante tránsito o almacenamiento: alertas instantáneas por movimiento o golpes.
+- Seguimiento encubierto de vehículos y protección antirrobo para autos de alto valor, vehículos de renta y flotas de servicio.
+- Supervisión de remolques y contenedores donde el montaje magnético y la autonomía prolongada son prioritarios.
+- Seguridad de flotas y monitoreo operativo, incluyendo reproducción de rutas y alertas basadas en eventos.
+- Protección de equipos portátiles y activos en tránsito o almacenaje con alertas por movimiento e impacto.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El BN-108A combina una alta autonomía de batería, modos de reporte flexibles y montaje sencillo para ofrecer un rastreador GPS de bajo mantenimiento que se integra de forma limpia con Plaspy para el rastreo en tiempo real y la gestión de flotas. Su amplio soporte de bandas GSM y los protocolos TCP/UDP/SMS facilitan la conectividad al servidor, mientras que la inducción automática Bluetooth y las alarmas de múltiples tipos añaden capacidades prácticas de antirrobo y telemetría. Para flotas y propietarios de activos que necesitan datos de posición fiables, manejo de geocerca y alarmas, y monitoreo de voz remoto, el BN-108A ofrece una solución práctica y compatible con Plaspy que escala desde despliegues de un solo activo hasta programas de telemetría de mayor envergadura.
+El BN-108A combina características de hardware prácticas con las capacidades de la plataforma Plaspy para ofrecer una solución de rastreo de bajo mantenimiento. Su gran batería y comportamiento de reporte flexible lo hacen adecuado para despliegues que requieren larga espera y actualizaciones de ubicación fiables, mientras que el montaje magnético y la inducción por Bluetooth simplifican el uso en campo. En conjunto con Plaspy, el dispositivo permite monitoreo centralizado, alertas y análisis histórico que escalan desde el rastreo de un solo activo hasta programas de flota más amplios.
 
-Nota: el BN-108A está optimizado para el rastreo y la telemetría de alarmas; el monitoreo de combustible, la interfaz de ignición o del inmovilizador se suelen proporcionar a través de sensores de vehículo adicionales o integraciones de la plataforma. Consulte el manual del dispositivo y la documentación de Plaspy para confirmar las interfaces de hardware específicas y los comandos de configuración para su instalación.
-
+Para obtener más información sobre cómo el BN-108A puede integrarse en su estrategia de rastreo visite Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales y la documentación oficial del fabricante en https://www.coban.net/.

@@ -2,62 +2,61 @@
 slug: /concox/vl110c
 id: vl110c
 sidebar_label: VL110C
+title: Concox - VL110C
 sidebar_class_name: menu_item_tracker
+description: Terminal GNSS compacto Concox VL110C compatible con Plaspy para rastreo de flotas en tiempo real y recuperación de vehículos robados
+keywords:
+  - Concox VL110C
+  - Rastreador VL110C
+  - VL110C compatible con Plaspy
+  - Rastreador GPS Concox
+  - Terminal GNSS para vehículos
+  - Dispositivo de rastreo para flotas
+  - Rastreador GPS en tiempo real
+  - Recuperación de vehículos robados
+  - Rastreador GPS para motocicleta
+  - Hardware para gestión de flotas
 ---
+
 # Concox - VL110C
 
 ![VL110C](./tracker.png)
 
-# VL110C Vehicle GNSS Terminal
+El Concox VL110C es un terminal GNSS compacto diseñado para la gestión fiable de vehículos como motocicletas, automóviles particulares, vehículos comerciales ligeros y equipos industriales. Combina protección ambiental robusta, un amplio rango de tensión de entrada y una batería interna de respaldo que mantiene la telemetría cuando se corta la alimentación del vehículo, lo que lo hace apto para seguimiento continuo y flujos básicos de seguridad vehicular.
 
-El VL110C es un rastreador GPS compacto 4G LTE diseñado para una gestión de vehículos fiable y una implementación compatible con Plaspy en motocicletas, automóviles de pasajeros, vehículos comerciales ligeros y equipos industriales. Con conectividad LTE Cat 1 y respaldo GSM \(2G\), el VL110C ofrece seguimiento en tiempo real y telemetría incluso en áreas con cobertura marginal, lo que lo convierte en una opción ideal para la gestión de flotas, recuperación de vehículos robados y rastreo a nivel de concesionario para vehículos pequeños.
+Como dispositivo compatible con Plaspy, el VL110C transmite ubicaciones, alarmas y eventos de conducción a Plaspy para vigilancia, generación de alertas e informes. Su diseño y conjunto de funciones responden a necesidades comunes de flotas y seguridad, de modo que las organizaciones que usan Plaspy pueden integrar los datos del VL110C para mejorar la visibilidad operacional, apoyar la recuperación de vehículos robados e incorporar los activos rastreados en flujos de trabajo centralizados.
 
-Construido para entornos difíciles, el VL110C combina resistencia IP65 al polvo y al agua, una entrada DC amplia de 9–90V y una batería de respaldo de 270 mAh Li‑Polymer industrial que permite su operación continua cuando se interrumpe la alimentación del vehículo. La compatibilidad con Plaspy garantiza que puedas incorporar datos de ubicación, alarmas y comportamiento de conducción directamente en tus flujos de trabajo de monitoreo y flotas para alertas, informes y acciones remotas como el control del inmovilizador.
+## Aspectos destacados
 
-## Aspectos clave
-
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y gestión de flotas en diversos tipos de vehículos.
-- Conectividad 4G LTE Cat 1 con respaldo GSM \(2G\) para mantener la conectividad en áreas con baja cobertura LTE.
-- Caja resistente con protección IP65 y entrada DC de 9–90V para motocicletas, automóviles, vehículos comerciales ligeros y equipos industriales.
-- Antena GNSS interna con posicionamiento GPS/BDS/GLONASS de precisión CEP &lt; 2.5 m para datos de ubicación precisos.
-- Protección de la batería del vehículo y batería de respaldo de 270 mAh para mantener la telemetría durante pérdidas de energía o incidentes de robo.
-- Corte remoto mediante relé para acciones anti-robo y soporte de telemetría de encendido \(ACC\) para monitorización del conductor y de eventos.
-- Detección de interferencias GNSS/LTE y alertas enviadas a Plaspy para una investigación y respuesta inmediatas.
-- Formato compacto y ligero y ruta de integración sencilla con Tracksolid Pro y plataformas habilitadas para Plaspy.
+- Terminal GNSS compacto diseñado para vehículos pequeños y equipos con resistencia al polvo y al agua IP65.
+- Conectividad 4G LTE con retroceso a GSM 2G para mantener los reportes en condiciones de cobertura variables.
+- Amplio rango de entrada de 9–90 V CC y batería interna de respaldo para preservar la telemetría durante interrupciones de energía.
+- Soporta reporte de entrada de encendido y salida de relé para corte remoto que ayuda en acciones anti robo.
+- Posicionamiento GNSS multimodo con precisión de ubicación CEP inferior a 2,5 m.
+- Detección integrada de interferencias (jamming) y alarmas configurables para mejorar los procesos de recuperación y seguridad.
+- Factor de forma ligero y compacto, adecuado para despliegues en concesionarios, flotas de alquiler y flotas de motocicletas.
 
 ## Cómo funciona con Plaspy
 
-Integrar el VL110C con Plaspy lleva sus datos de rastreo GPS en tiempo real a un entorno unificado de gestión y monitoreo de flotas. Los datos de ubicación, telemetría y eventos se transmiten por LTE \(con respaldo 2G\) y pueden ser consumidos por Plaspy para mapas en vivo, geocercas, alertas e informes históricos. La integración compatible con Plaspy habilita comandos remotos desde la nube, flujos de trabajo automatizados y telemetría consolidada entre flotas con dispositivos mixtos.
+Integrado con Plaspy, los dispositivos VL110C transmiten datos de posición y eventos a un entorno único de monitoreo de flotas, permitiendo que los equipos visualicen activos en mapas en vivo, creen alertas y generen informes históricos. Plaspy consume la telemetría y los eventos entrantes del rastreador para alimentar paneles, notificaciones y flujos operativos que ayudan a reducir tiempos de respuesta y mejorar la supervisión de la flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real para una conciencia situacional continua y monitorización de rutas.
-- Registro de entrada de encendido \(ACC\) para el estado de conducción básico y etiquetado de eventos en los paneles de Plaspy.
-- Control remoto del inmovilizador / relé a través de Plaspy para apoyar casos de uso de anti-robo y recuperación de vehículos robados.
-- Alertas de detección de interferencia GNSS/LTE reenviadas a Plaspy para una investigación y respuesta inmediatas.
-- Eventos de comportamiento de conducción \(aceleración brusca, frenado, toma de curvas y colisiones\) disponibles para informes de seguridad de la flota y entrenamiento.
+- Actualizaciones de ubicación en tiempo real para seguimiento en vivo y monitoreo de rutas en los mapas de Plaspy.
+- Reportes de eventos y encendido para etiquetar el estado de conducción y correlacionar viajes en los informes.
+- Control remoto de inmovilizador o relé activado desde Plaspy para apoyar acciones de recuperación.
+- Notificaciones de interferencias y alarmas enviadas a Plaspy para investigación inmediata.
+- Reproducción histórica de viajes y registros básicos de eventos de conducción para apoyar revisiones de seguridad.
+- Consolidación de la telemetría VL110C junto con flotas de dispositivos mixtos para informes unificados.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Terminal 4G LTE Cat 1 con respaldo GSM \(2G\); ranura nano‑SIM |
-| --- | --- |
-| Bandas | Varias bandas LTE-FDD/TDD y GSM soportadas; variantes por región disponibles |
-| Alimentación y batería | Entrada 9–90V DC; batería de respaldo Li‑Polymer industrial de 270 mAh; protección de la batería del vehículo con desconexión automática y operación en modo respaldo |
-| Interfaces | 1 × entrada ACC \(encendido\); 1 × salida de relé para corte remoto \(combustible/energía\); LEDs de estado \(GNSS, celular, alimentación\); USB Type‑C para actualizaciones de firmware; configuración por SMS y herramienta de PC |
-| GNSS | GPS / BDS / GLONASS; precisión de posicionamiento CEP &lt; 2.5 m; sensibilidad: seguimiento -165 dBm, adquisición -148 dBm; arranque caliente ≤2 s, arranque en frío ≤38 s; almacena 3000+ registros GNSS |
-| Bluetooth | No especificado en la descripción del producto |
-| Gestión remota | Configuración vía SMS, herramientas de PC y plataforma en la nube Tracksolid Pro opcional; actualización de firmware por USB Type‑C |
-| Factor de forma | Terminal compacto, 94 × 34 × 15 mm; aprox. 44 g; IP65; rango de temperatura de operación –20°C a +70°C; humedad 5–95% sin condensación |
-| Certificaciones y documentación | CE, FCC, RoHS; incluido manual de usuario y folleto del producto |
-
-## Casos de uso
-
-- Gestión de flotas para vehículos y motos de pequeño tamaño — seguimiento en tiempo real, reproducción de rutas y telemetría de comportamiento de conducción.
-- Protección anti-robo y recuperación de vehículos robados — detección de interferencias, corte remoto basado en relé y alertas de ubicación integradas en los flujos de trabajo de Plaspy.
-- Rastreo a nivel de concesionario y de vehículos de alquiler — instalación compacta, batería de respaldo y LEDs de estado facilitan el diagnóstico y la entrega.
-- Telemetría operativa para equipos mixtos — monitoreo del estado de encendido, registros de eventos y eventos básicos de choques/conducción brusca para análisis de seguridad y seguros.
+- Gestión de flotas de vehículos pequeños y motocicletas con visibilidad continua de ubicación e historial de rutas.
+- Anti robo y recuperación de vehículos combinando alertas por interferencias y control remoto de relé.
+- Rastreo de flotas de concesionarios y alquiler para control de entrega, diagnóstico y auditorías de ubicación.
+- Monitoreo de equipos ligeros donde se requiere un factor de forma compacto y operación con respaldo de energía.
+- Supervisión operativa de flotas mixtas que necesitan registro del estado de encendido y eventos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El VL110C ofrece un equilibrio práctico entre hardware robusto, posicionamiento GNSS preciso y conectividad LTE fiable que se integra de forma limpia con Plaspy para una gestión de flotas escalable. Su amplio rango de entrada de voltaje, protección IP65 y batería de respaldo interna hacen que el dispositivo sea adecuado para motocicletas y vehículos comerciales ligeros que requieren una instalación compacta y operación continua durante pérdidas de energía. Para la protección anti-robo y la recuperación de vehículos robados, la detección de interferencias integrada y el corte remoto mediante relé proporcionan telemetría rápida y accionable que Plaspy puede usar para activar alertas y respuestas remotas.
+El VL110C ofrece una combinación práctica de hardware resistente y posicionamiento confiable que encaja en muchos despliegues de vehículos pequeños y flotas comerciales ligeras. Su tamaño compacto, amplio rango de entrada y alimentación de respaldo ayudan a garantizar la continuidad de los reportes en situaciones donde la energía del vehículo puede ser retirada, mientras que la detección de interferencias y el control de relé proporcionan capacidades de seguridad que Plaspy puede aprovechar.
 
-Elegir el VL110C para despliegues compatibles con Plaspy le ofrece un rastreador GPS compacto que admite seguimiento en tiempo real, telemetría de encendido, control del inmovilizador y análisis del comportamiento de conducción, a la vez que ofrece rutas de configuración simples \(SMS, herramientas de PC, Tracksolid Pro\) y mantenimiento de firmware vía USB Type‑C. El resultado es una solución fiable y de bajo impacto que mejora la visibilidad de la flota, acelera la respuesta ante incidentes y reduce el tiempo de inactividad en flotas de vehículos diversos.
-
+Si está evaluando dispositivos compatibles con Plaspy y necesita un terminal GNSS de bajo perfil para motocicletas, automóviles o activos comerciales ligeros, el VL110C es una opción sensata a considerar. Para obtener más información sobre Plaspy y cómo funciona con rastreadores compatibles visite https://www.plaspy.com. Las especificaciones y la disponibilidad de producto pueden cambiar con el tiempo, por favor verifique los detalles actuales en el sitio del fabricante https://www.iconcox.com/.

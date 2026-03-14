@@ -2,62 +2,60 @@
 slug: /condor/cs_146
 id: cs_146
 sidebar_label: CS-146
+title: Condor - CS-146
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS Condor CS-146 compatible con Plaspy para control de acceso y ubicación en tiempo real y mayor seguridad de carga en rutas intermodales
+keywords:
+  - Condor CS-146
+  - Rastreador GPS CS-146
+  - Rastreador Condor
+  - Rastreador de contenedores
+  - Rastreador para seguridad de carga
+  - Rastreo de flotas
+  - Compatible con Plaspy
+  - Rastreo en tiempo real
+  - Rastreo de contenedores intermodal
+  - Rastreador satelital para contenedores
 ---
+
 # Condor - CS-146
 
 ![CS-146](./tracker.png)
 
-# CS-146 GPS Tracker — rastreador de contenedores compatible con Plaspy
+El CS-146 es un rastreador GPS diseñado específicamente para el control de contenedores y la seguridad de la carga. Pensado para monitorear la posición y el estado del contenedor, el CS-146 transmite ubicación y mensajes operativos vía redes celulares o satelitales para asegurar seguimiento fiable incluso en tramos de transporte mixtos. Su formato y conjunto de funciones están orientados a proteger la carga y facilitar los flujos de trabajo de acceso a contenedores.
 
-El CS-146 es un rastreador GPS diseñado específicamente para el control de contenedores y la seguridad de la carga, pensado para integrarse de forma fluida con Plaspy. Como dispositivo compatible con Plaspy, el CS-146 transmite la posición de los contenedores a través de redes celulares o satelitales, proporcionando informes de ubicación confiables y el estado operativo a su sala de control.
+Como dispositivo compatible con Plaspy, el CS-146 puede enviar su posición e información de eventos a la plataforma para ofrecer visibilidad centralizada y supervisión operativa. Al conectarlo a Plaspy, las actualizaciones del rastreador aparecen en mapas en vivo, sistemas de alerta y herramientas de informes, de modo que los equipos logísticos puedan monitorear contenedores, responder a eventos de acceso y mantener un registro de auditoría de los envíos.
 
-Construido para logísticas exigentes y transporte intermodal, el CS-146 permite apertura remota y control centralizado para reducir el riesgo de robo y garantizar que los envíos lleguen a su destino en buen estado. Úselo como parte de una estrategia de seguimiento en tiempo real y gestión de flotas para aumentar la visibilidad a lo largo de cada tramo de la ruta.
+## Aspectos destacados
 
-## Aspectos clave
-
-- Rastreador GPS compatible con Plaspy diseñado específicamente para el monitoreo de contenedores y la seguridad de la carga.
-- Transmisión de la posición mediante redes celulares o satelitales para cobertura amplia y seguimiento continuo.
-- Capacidad de apertura remota desde la sala de control para gestionar el acceso y facilitar las operaciones de carga y descarga autorizadas.
-- Refuerza la seguridad frente a robos mediante control centralizado y actualizaciones de estado a distancia.
-- Se integra con Plaspy para seguimiento en tiempo real, telemetría y alertas en toda su flota y activos.
-- Apto para flotas intermodales donde la cobertura celular es intermitente; la conectividad por satélite amplía su alcance.
-- Factor de forma compacto para una instalación sencilla en puertas o marcos de contenedores.
+- Diseñado para monitoreo de contenedores y seguridad de carga, con un formato compacto para instalación en contenedores
+- Transmite posición y estado mediante rutas celulares o satelitales para cubrir grandes áreas
+- Capacidad de apertura remota para permitir accesos controlados desde una sala de control central
+- Reduce el riesgo de robo al centralizar el control de accesos y entregar actualizaciones de estado oportunas
+- Se integra con Plaspy para ofrecer rastreo en vivo, alertas y reproducción histórica de ubicaciones
+- Adecuado para operaciones intermodales donde varían los modos de transporte y la cobertura
+- Soporta auditoría operativa informando eventos de apertura y cierre para la cadena de custodia
 
 ## Cómo funciona con Plaspy
 
-Cuando está conectado a Plaspy, el CS-146 envía actualizaciones de posición y estado, tanto periódicas como basadas en eventos, a la plataforma, lo que habilita mapas en tiempo real, geocercas y flujos de alertas. Plaspy procesa esos mensajes en paneles de control y reportes accionables para que los equipos de operaciones puedan monitorizar contenedores, responder a eventos de acceso y gestionar la logística en tiempo real.
+Al emparejar el CS-146 con Plaspy, el dispositivo envía actualizaciones periódicas y basadas en eventos sobre posición y estado a la plataforma. Plaspy procesa esos mensajes para poblar mapas en vivo, activar alertas y flujos de trabajo, y generar reportes que los equipos de operaciones utilizan para gestionar contenedores en tiempo real.
 
-- Seguimiento en tiempo real: los informes de ubicación se envían a Plaspy para mostrar en mapas en vivo y reproducir el historial.
-- Eventos de apertura/cierre remotos: el CS-146 admite la apertura remota desde la sala de control y reporta el estado de apertura/cierre a Plaspy para auditoría y alertas.
-- Telemetría y estado: los mensajes del dispositivo pueden utilizarse como entradas de telemetría en Plaspy para activar notificaciones y reglas.
-- Alertas y antirrobo: eventos de acceso no autorizados o inesperados pueden generar alertas inmediatas para los operadores a través de Plaspy.
-- Amigable con integraciones: Plaspy puede combinar los datos del CS-146 con otras fuentes de telemetría \(monitoreo de combustible, estado de encendido, sensores Bluetooth\) cuando se use en flotas mixtas para informes unificados.
+- Rastreo en tiempo real y reproducción histórica para que los equipos vean la ubicación actual y el movimiento a lo largo del tiempo
+- Eventos de apertura y cierre remotos reportados en Plaspy para registros de auditoría y alertas configurables
+- Mensajes de estado utilizados como telemetría para disparar notificaciones y reglas operativas
+- Alertas antifurto por accesos inesperados encaminadas a operadores mediante los flujos de trabajo de Plaspy
+- Diseño amigable para integración, de modo que los datos del CS-146 puedan combinarse con otras fuentes de telemetría en los paneles de Plaspy
 
-## Visión técnica
+## Casos de uso típicos
 
-| Modelo | CS-146 |
-| --- | --- |
-| Conectividad | Transmisión a través de redes celulares o satelitales \(según se describe\) |
-| Bandas | No especificado en la descripción |
-| Alimentación y batería | No especificado en la descripción |
-| Interfaces | Apertura remota desde la sala de control \(actuación remota de apertura/acceso\) |
-| GNSS / Posicionamiento | El dispositivo transmite la posición del contenedor; no se especifican detalles del receptor GNSS |
-| Bluetooth | No especificado en la descripción |
-| Gestión remota | Apertura remota mediante comandos de la sala de control reportados; no se especifican capacidades adicionales de gestión remota |
-| Forma | Diseñado para instalación y control en contenedores |
-
-## Casos de uso
-
-- Gestión de flota para operaciones intermodales: rastree la ubicación del contenedor a lo largo de tramos de camión, tren y barco y visualice un historial consolidado en Plaspy.
-- Antirrobo y control de acceso: abra o verifique de forma remota el estado de la puerta del contenedor desde la sala de control para reducir el acceso no autorizado.
-- Visibilidad de la cadena de suministro: asegure que envíos de alto valor o sensibles al tiempo sean monitoreados y auditados desde el origen hasta el destino.
-- Escenarios de cobertura extendida: use transmisión habilitada por satélite cuando la cobertura celular sea poco fiable para mantener un seguimiento continuo.
-- Auditorías operativas: integre los registros de apertura/cierre en los informes de Plaspy para cumplimiento y verificación de la cadena de custodia.
+- Gestión de flotas intermodales para visibilidad consolidada a través de tramos por camión, ferrocarril y marítimo
+- Prevención de robo y control de acceso para verificar y administrar la actividad de puertas de contenedores desde una sala de control
+- Visibilidad de la cadena de suministro para envíos de alto valor o sensibles al tiempo que requieren supervisión continua
+- Escenarios de cobertura extendida usando respaldo satelital cuando el servicio celular es intermitente
+- Auditorías operativas e informes de cadena de custodia mediante registros de eventos e historial de estados
 
 ## Por qué elegir este rastreador con Plaspy
 
-El CS-146 ofrece una solución enfocada para la seguridad de contenedores que se integra al ecosistema de seguimiento y telemetría en tiempo real de Plaspy. Al combinar un rastreador GPS de grado contenedor con Plaspy, los operadores obtienen visibilidad centralizada, alertas automatizadas y la capacidad de controlar el acceso de forma remota; todo ello esencial para la gestión moderna de flotas y programas antifraude. Incluso cuando se requieren señales avanzadas de vehículos, como encendido o monitorización de combustible, Plaspy puede combinar los datos del CS-146 con otros rastreadores de activos y sensores Bluetooth para crear una imagen completa de telemetría en sus operaciones.
+El CS-146 se alinea con programas de seguridad de flotas y carga que requieren visibilidad a nivel de contenedor. Emparejado con Plaspy, ofrece una forma directa de integrar la posición del contenedor y los eventos de acceso en paneles centralizados, alertas e informes que utilizan los equipos operativos. Esa combinación ayuda a optimizar la supervisión y la respuesta sin añadir complejidad innecesaria de integración.
 
-Elegir un dispositivo compatible con Plaspy como el CS-146 reduce la complejidad de integración, acelera el despliegue y garantiza que los datos de rastreo de contenedores alimenten directamente informes y flujos de trabajo ya establecidos. Eso se traduce en una respuesta ante incidentes más rápida, trazas de auditoría más claras para las transferencias de carga y una mayor confianza de que las mercancías llegarán a su destino de forma segura.
-
+Si desea saber más sobre cómo Plaspy puede gestionar dispositivos Condor CS-146 y otros rastreadores compatibles, visite https://www.plaspy.com. Las especificaciones y la disponibilidad de productos pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en el sitio del fabricante https://condorskyseeker.com/ antes de comprar o desplegar el hardware.

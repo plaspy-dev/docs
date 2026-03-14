@@ -2,60 +2,63 @@
 slug: /eelink/tk115
 id: tk115
 sidebar_label: TK115
+title: EElink - TK115
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto para motos y scooters eléctricos compatible con Plaspy para rastreo de flotas y flujos antirobo
+keywords:
+  - EElink TK115
+  - rastreador GPS TK115
+  - rastreador EElink
+  - TK115 Plaspy
+  - rastreador compatible con Plaspy
+  - rastreador GPS para scooter
+  - rastreador para moto eléctrica
+  - rastreo de flotas
+  - inmovilizador vehicular
+  - rastreo GPS en tiempo real
 ---
+
 # EElink - TK115
 
 ![TK115](./tracker.jpg)
 
-## TK115 GPS Tracker — Plaspy compatible
+El TK115 es un rastreador GPS compacto pensado para motos y scooters eléctricos. Ofrece funciones básicas de localización y reporte de eventos, como posicionamiento GPS asistido y LBS, detección de encendido ACC, un relé opcional para inmovilización remota y una batería de respaldo integrada que notifica la pérdida de alimentación y el bajo nivel de batería. El equipo tiene un diseño de pequeño tamaño y tolerancias de operación adecuadas para entornos vehiculares, por lo que es ideal para aplicaciones de movilidad en dos ruedas y usos comerciales ligeros.
 
-El TK115 es un rastreador GPS compacto diseñado para motocicletas y scooters eléctricos y es totalmente compatible con Plaspy para una integración sencilla en tus flujos de gestión de flota y seguridad contra robo. Con un amplio rango de voltaje de entrada, posicionamiento GPS/LBS con AGPS y seguimiento en tiempo real, el TK115 ofrece las capacidades centrales que las flotas y operadores de movilidad necesitan para monitorizar vehículos, responder ante incidentes y automatizar acciones de seguridad a través de Plaspy.
+Como dispositivo compatible con Plaspy, el TK115 puede enviar posiciones en tiempo real, estados y eventos de alarma a Plaspy para su monitoreo centralizado y orquestación de flujos operativos. Esa compatibilidad hace que el TK115 sea una opción práctica para operadores que desean combinar telemetría y eventos de seguridad orientados al vehículo con los tableros, alertas e informes de Plaspy sin depender de integraciones a medida.
 
-La unidad soporta detección ACC \(encendido\) y ofrece un relé opcional para inmovilizador remoto o corte de energía/combustible, lo que lo convierte en una opción práctica para anti-robo, detección de desplazamiento \(remolque\), geocercas y controles de velocidad. Diseñado para soportar entornos vehiculares, el TK115 combina un factor de forma compacto y una batería de respaldo para mantener la conectividad y enviar alertas de baja batería o pérdida de energía a Plaspy para telemetría continua y visibilidad operativa.
+## Características principales
 
-## Puntos destacados
-
-- Rastreador GPS compatible con Plaspy, diseñado para motocicletas y scooters eléctricos — integración sencilla en paneles de seguimiento en tiempo real.
-- Entrada DC amplia \(9–60 V\) compatible con sistemas de 12/24/36/48 V comunes en dos ruedas eléctricos y vehículos comerciales ligeros.
-- Posicionamiento GPS/LBS en tiempo real con AGPS para tiempos de fijación más rápidos y datos de ubicación fiables \(precisión de 5–15 m\).
-- Detección ACC \(encendido\) más un relé opcional para inmovilizador remoto o corte de energía para apoyar flujos de trabajo anti-robo.
-- Varios sistemas de alarma de seguridad: desplazamiento \(remolque\), vibración, velocidad y violaciones de geocerca, con alertas inmediatas hacia Plaspy.
-- Diseño compacto y ligero con batería de respaldo para mantener la continuidad durante pérdidas de energía y notificaciones de baja batería.
-- Rango de operación robusto \(−20 °C a 70 °C\) adecuado para instalaciones exteriores y montadas en vehículos.
+- Rastreador GPS compatible con Plaspy, diseñado para motos eléctricas y scooters para una integración sencilla en paneles de seguimiento en tiempo real
+- Amplio rango de entrada DC 9–60 V para adaptarse a sistemas eléctricos comunes en vehículos de dos ruedas y livianos
+- Posicionamiento GPS y LBS con asistencia AGPS para fijaciones más rápidas y precisión en el rango de 5–15 m
+- Detección de encendido ACC y relé opcional que puede utilizarse para soportar flujos de inmovilización remota o corte de alimentación
+- Varios tipos de alarma incluidos detección de desplazamiento/remolque, vibración, alertas de velocidad y violaciones de geocerca
+- Diseño compacto y liviano con batería de respaldo a bordo para mantener la conectividad y enviar alertas de pérdida de alimentación o batería baja
+- Rango de operación robusto, adecuado para uso exterior y montaje en vehículos
 
 ## Cómo funciona con Plaspy
 
-Cuando se combina con Plaspy, el TK115 envía telemetría continua y datos de eventos a una plataforma central donde el seguimiento en tiempo real, alertas e informes están disponibles para operadores de flotas y equipos de seguridad. Plaspy procesa coordenadas GPS/LBS, señales de estado \(como ACC/encendido\) y eventos de alarma, permitiendo activar flujos de trabajo como inmovilización, escalado de geocercas, alertas al conductor o programación de mantenimiento.
+Cuando se integra con Plaspy, el TK115 transmite actualizaciones de ubicación, estado del dispositivo y eventos de alarma a una plataforma central donde los operadores pueden monitorear la flota, recibir notificaciones y generar reportes. Plaspy procesa los datos del rastreador y los pone a disposición para visibilidad en tiempo real y respuestas automatizadas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(GPS/LBS con asistencia AGPS\) para una visibilidad en vivo del vehículo.
-- Estado de ACC \(encendido\) reportado para inicios y paradas de viaje precisos y alertas basadas en el encendido.
-- Control opcional del relé para inmovilizar un vehículo a distancia o cortar energía/combustible mediante comandos de Plaspy.
-- Alarmas de desplazamiento, vibración, velocidad y geocerca enviadas como eventos instantáneos a Plaspy para notificaciones automáticas y gestión de incidentes.
-- Alertas de pérdida de energía y baja batería de la batería de respaldo a bordo para garantizar monitoreo ininterrumpido y respuesta rápida.
-- Se integra en flujos de telemetría de flota — incluyendo monitoreo de combustible y datos de sensores adicionales — cuando se combina con las capacidades de sensor y reporte de Plaspy.
+- Actualizaciones de ubicación y telemetría en tiempo real usando GPS y LBS con asistencia AGPS para mejorar los tiempos de fijación
+- Reporte del estado de encendido ACC para detectar con claridad el inicio y fin de viajes y generar alertas basadas en el encendido
+- Control opcional del relé para soportar inmovilización remota y comandos de corte de energía coordinados a través de Plaspy
+- Alarmas por desplazamiento, vibración, velocidad y geocercas enviadas a Plaspy como eventos instantáneos para notificaciones y escalamiento
+- Alertas de pérdida de energía y batería baja desde la batería de respaldo integrada para apoyar la vigilancia continua y la respuesta rápida
+- Integración con flujos de telemetría y reportes de flota en Plaspy para apoyar el mantenimiento programado y la supervisión operativa
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM 2G \(850 / 900 / 1800 / 1900 MHz\) |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(quad-band GSM\) |
-| Alimentación y batería | Entrada DC amplia de 9–60 V \(compatible con sistemas de 12/24/36/48 V\); batería de respaldo a bordo para alertas de pérdida de energía y baja batería |
-| Interfaces | Detección ACC \(encendido\); relé opcional para inmovilizador remoto / corte de potencia o combustible |
-| GNSS | GPS con soporte AGPS; precisión de posicionamiento aprox. 5–15 m |
-| Bluetooth | No especificado |
-| Gestión remota | Configuración remota de parámetros compatible \(cambios de configuración gestionados de forma remota\) |
-| Dimensiones y Entorno | Dimensiones: 71.8 × 38.5 × 10.5 mm; Peso: 42 g \(rastreador\) + 42 g batería de respaldo; Rango de temperatura de operación: −20 °C a 70 °C; diseñado para instalación en motocicletas/scooters |
-
-## Casos de uso
-
-- Antirrobo de flota e inmovilización: cortar la energía o el combustible a distancia mediante el relé opcional cuando se detecta actividad sospechosa.
-- Flotas de scooters y motocicletas eléctricas — seguimiento en tiempo real, geocercas y límites de velocidad para garantizar un uso seguro y zonas operativas.
-- Reparto de última milla y mensajeros en vehículos de dos ruedas — detección de ACC e informes de viaje para un enrutamiento preciso y medición del tiempo de uso.
-- Detección de remolque/desplazamiento y alertas de vibración — notificación inmediata cuando un vehículo es movido o manipulado para una respuesta rápida ante incidentes.
-- Flujos de telemetría de flota y mantenimiento — combinar los datos del TK115 con las analíticas de Plaspy para mantenimiento proactivo y rutinas de monitoreo de combustible mediante sensores externos.
+- Flujos antirobo para flotas que utilizan inmovilización remota y alarmas inmediatas ante movimientos no autorizados
+- Operaciones de scooter y motos compartidas que requieren geocercas, control de velocidad y localización en tiempo real
+- Servicios de última milla y mensajería en vehículos de dos ruedas que emplean detección ACC y reportes de viaje para seguimiento operativo
+- Detección de remolque o desplazamiento y alertas de manipulación para permitir una respuesta rápida ante incidentes
+- Programas de telemetría y mantenimiento de flota que combinan eventos de ubicación y estado con análisis en Plaspy
 
 ## Por qué elegir este rastreador con Plaspy
 
-El TK115 combina características prácticas centradas en el vehículo con la plataforma de Plaspy para ofrecer una solución fiable y segura para gestionar flotas de dos ruedas eléctricas y activos individuales, como scooters y motocicletas. Su amplia tolerancia de voltaje y su factor de forma compacto facilitan la instalación en una variedad de tipos de vehículo, mientras que la detección ACC y un relé de inmovilización opcional proporcionan controles anti-robo tangibles. Al alimentar datos GPS/LBS, alarmas y eventos de estado de energía en Plaspy, los operadores obtienen seguimiento en tiempo real, telemetría accionable y respuestas automatizadas a incidentes — mejorando la seguridad, reduciendo el tiempo de inactividad y apoyando objetivos operativos como el monitoreo de combustible, el cumplimiento de rutas y la recuperación de activos.
+El TK115 combina características prácticas orientadas al vehículo con la plataforma Plaspy para ofrecer una solución eficiente en la gestión de flotas de dos ruedas y activos individuales como scooters o motocicletas. Su amplio rango de voltaje y diseño compacto lo hacen adaptable a distintos tipos de vehículos, mientras que la detección ACC y el relé opcional para inmovilizador proporcionan controles antirrobo que alimentan directamente los flujos de trabajo en Plaspy.
 
+Elegir el TK115 para usar con Plaspy ayuda a los operadores a obtener visibilidad de ubicación consistente, eventos de alarma oportunos y telemetría accionable para la respuesta ante incidentes, informes operativos y planificación de mantenimiento. El dispositivo es adecuado cuando necesita un rastreador de pequeño tamaño que se integre a una plataforma centralizada de gestión de flotas.
+
+Para saber más sobre cómo Plaspy soporta dispositivos como el TK115 visite https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y la documentación del fabricante en https://www.eelink.com.cn/.

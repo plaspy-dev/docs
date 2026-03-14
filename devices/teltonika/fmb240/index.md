@@ -2,60 +2,60 @@
 slug: /teltonika/fmb240
 id: fmb240
 sidebar_label: FMB240
+title: Teltonika - FMB240
 sidebar_class_name: menu_item_tracker
+description: Compact IP67 Teltonika FMB240 GPS tracker compatible with Plaspy for vehicle CAN telemetry and Bluetooth sensor monitoring
+keywords:
+  - Teltonika FMB240
+  - FMB240 Plaspy compatible
+  - FMB240 GPS tracker
+  - Teltonika tracker
+  - fleet tracking
+  - vehicle telemetry
+  - CAN bus tracker
+  - Bluetooth LE tracker
+  - IP67 GPS tracker
+  - 2G GSM tracker
 ---
+
 # Teltonika - FMB240
 
 ![FMB240](./tracker.png)
 
-The FMB240 is a compact, Plaspy compatible GPS tracker designed for demanding vehicle and asset installations. Housed in a water-resistant IP67-rated casing, the FMB240 brings reliable CAN bus telemetry and environmental sensing to fleet management and asset monitoring workflows. Its built-in CAN chip and Bluetooth® LE support make it a versatile choice for integrators who want Plaspy-compatible hardware that reads vehicle diagnostics and pairs with wireless sensors.
+The Teltonika FMB240 is a compact GPS tracker designed for demanding vehicle and asset installations. It is supplied in a rugged IP67 rated enclosure and includes capabilities for reading vehicle CAN bus data as well as pairing with Bluetooth® LE sensors. The device is intended for fleet and e-mobility deployments and is offered in several package variants to match different installation and monitoring needs.
 
-Engineered for fleet and e-mobility use, the FMB240 reads CAN data from light and electric cars, trucks, buses and special machinery using LV-CAN200 or ALL-CAN300 options. The device supports global 2G GSM connectivity \(B2/B3/B5/B8\) and is available in multiple package and order-code variants. Note: the manufacturer indicates an End of Life \(EOL\) status on the product page — verify current availability and support before purchasing.
+As a Plaspy compatible device, the FMB240 can feed location, CAN-derived telemetry, and Bluetooth sensor data into Plaspy’s fleet management environment. That compatibility makes the FMB240 a practical option for organizations that want to combine location tracking with vehicle diagnostics and environmental sensing within Plaspy’s reporting, alerting, and monitoring tools.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker profile for real-time tracking and fleet management integration.
-- Robust IP67-rated housing with click-type two-phase closing for dust and water protection in harsh field deployments.
-- Direct CAN bus data reading via built-in CAN chip \(LV-CAN200 or ALL-CAN300\) to capture vehicle diagnostics and telemetry.
-- Global 2G GSM coverage on B2/B3/B5/B8 bands for broad cellular connectivity options.
-- Bluetooth® LE for pairing external beacons and sensors \(temperature, humidity, movement, magnet detection\) to extend telemetry.
-- Multiple standard and custom order codes and packaging options for deployment flexibility \(standard packages include multiple units and power cables\).
-- Compact form factor suitable for vehicles, e-mobility platforms, utility machinery and other mobile assets.
+- Plaspy compatible GPS tracker profile for integrated real-time tracking and fleet oversight
+- IP67 rated housing for protection in harsh field and mobile environments
+- Built-in CAN chip options for reading vehicle diagnostics and telemetry
+- Global 2G GSM coverage on common bands for broad cellular reach
+- Bluetooth® LE support for pairing external sensors and beacons to extend telemetry
+- Multiple package and order code options to suit different deployment requirements
+- Compact form factor suited to vehicles, e mobility platforms, and utility machinery
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, the FMB240 feeds vehicle location and CAN-derived telemetry into Plaspy’s real-time tracking dashboard and reporting engine. Plaspy normalizes CAN messages and sensor data so fleet managers can see vehicle diagnostics, generate alerts, and analyze operational metrics alongside GPS location. This creates a single-pane view for telemetry-driven decisions and anti-theft workflows.
+When connected to Plaspy, the FMB240 supplies live location plus vehicle and sensor telemetry to Plaspy’s dashboard and reporting systems. Plaspy consumes and normalizes the incoming data so fleet managers can monitor vehicles, generate alerts, and review historical activity alongside diagnostic signals.
 
-- Real-time location and telemetry updates sent to Plaspy for live tracking and history playback.
-- CAN-sourced ignition and status signals \(where available on the vehicle CAN network\) can be interpreted by Plaspy for trip detection and engine-state reporting.
-- Fuel monitoring and other vehicle parameters available via CAN when supported by the vehicle’s network and mapped in Plaspy.
-- Remote immobilizer or anti-theft workflows can be implemented via CAN-derived control channels where supported by the installation and vehicle — consult installer and Plaspy integration guides.
-- Bluetooth sensors and beacons pair with the FMB240 to provide environmental telemetry \(temperature, humidity, movement, magnet detection\) that Plaspy can visualize and alert on.
+- Live location updates and history playback visible within Plaspy for operational monitoring
+- CAN derived signals interpreted by Plaspy to support trip detection and status reporting
+- Sensor data from paired Bluetooth devices available for visualization and alerting in Plaspy
+- CAN based vehicle parameters viewable in reports when mapped in Plaspy
+- Alerts and notifications configurable around location, sensor thresholds, and vehicle states
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G GSM \(global\) — supported bands B2, B3, B5, B8 |
-| --- | --- |
-| Bands | B2 / B3 / B5 / B8 \(2G GSM\) |
-| Power & Battery | Vehicle-powered; standard package contents include power supply cable \(0.9 m\). Verify backup battery options with the manufacturer. |
-| Interfaces | Built-in CAN data reading chip \(LV-CAN200 or ALL-CAN300 options\). Inputs/outputs and additional I/O depend on package and installer wiring. |
-| GNSS | Vehicle tracking capability \(GPS tracking per product class\). See manufacturer documentation for full GNSS details. |
-| Bluetooth | Bluetooth® LE for external sensors and beacons \(temperature, humidity, movement, magnet detection\) |
-| Remote Management | Firmware, downloads and support resources available via the manufacturer product support and knowledge base; confirm current support status due to EOL notice. |
-| Form Factor | Compact, IP67-rated enclosure with click-type two-phase closing — designed for vehicle and rugged asset installations |
-| Variants & Packaging | Multiple standard and custom order codes \(examples: FMB240BT2X01, FMB240YN2X01, FMB240BT2F01, FMB240YN2F01\). Standard box contents described by the manufacturer include 5 pcs per box, power cable and CAN module. |
-
-## Use Cases
-
-- Fleet management and route optimization — combine real-time tracking with CAN telemetry for efficient operations and downtime reduction.
-- Anti-theft monitoring and recovery — Plaspy’s live tracking and CAN-based status can support alerting and immobilization workflows where supported.
-- E-mobility and utility vehicle telemetry — read battery and vehicle-specific CAN data for electric cars and utility machinery via LV-CAN200 / ALL-CAN300 modules.
-- Environmental monitoring with Bluetooth sensors — monitor temperature, humidity or vibration inside assets and visualize readings in Plaspy.
-- Special machinery and asset tracking — rugged IP67 housing makes the device suitable for harsh environments and outdoor equipment.
+- Fleet management and route oversight combining GPS and vehicle telemetry
+- E mobility and electric vehicle monitoring where CAN data provides operational context
+- Anti theft and recovery workflows using live tracking and vehicle status indicators
+- Environmental monitoring of cargo or asset interiors using Bluetooth sensors
+- Tracking of special machinery and outdoor equipment in rugged conditions
 
 ## Why Choose This Tracker with Plaspy
 
-The FMB240 is a practical choice when you need Plaspy compatible hardware that brings CAN-level telemetry, environmental sensing and rugged protection to your fleet or asset program. Its compact IP67 enclosure and Bluetooth LE support make it flexible for mixed deployments while the built-in CAN chip enables rich vehicle diagnostics without additional gateways. Paired with Plaspy, the FMB240 delivers consolidated real-time tracking, telemetry and alerting so operations teams can act on accurate vehicle and sensor data.
+The FMB240 is a solid choice for teams that need a compact, rugged tracker capable of bringing CAN level telemetry and wireless sensor data into a single fleet platform. Its combination of enclosure protection, CAN reading capability, and Bluetooth® LE support makes it suitable for mixed fleets and assets where both location and vehicle diagnostics matter. Paired with Plaspy, the FMB240 helps create consolidated operational views that support decision making and faster response to vehicle or asset events.
 
-Before purchase, confirm current availability and long-term support: the product page lists the FMB240 as End of Life \(EOL\). If you need a Plaspy compatible solution today, consult Plaspy integration guides and the manufacturer's knowledge base for firmware, exact wiring diagrams, and recommended package variants.
-
+If you want to explore compatibility and deployment options further, learn more about Plaspy on the main website https://www.plaspy.com. Please note that product specifications and availability can change over time; verify the latest details and any End of Life notices on the manufacturer site https://www.teltonika-gps.com/ before making purchasing or rollout decisions.

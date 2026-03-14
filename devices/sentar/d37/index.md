@@ -2,66 +2,61 @@
 slug: /sentar/d37
 id: d37
 sidebar_label: D37
+title: Sentar - D37
 sidebar_class_name: menu_item_tracker
+description: Sentar D37 kids 4G GPS watch compatible with Plaspy for real time tracking SOS alerts and geofencing
+keywords:
+  - Sentar D37
+  - D37 GPS tracker
+  - Sentar kids watch
+  - D37 Plaspy compatible
+  - D37 tracking software
+  - Sentar D37 tracking
+  - D37 SOS alert
+  - D37 geofencing
+  - Sentar 4G watch
+  - D37 waterproof
 ---
+
 # Sentar - D37
 
 ![D37](./tracker.png)
 
-The D37 is a 4G kids smart watch designed for secure, Plaspy compatible real-time tracking and two-way communication. Built on an RTOS-based version of Android 8.1 and powered by the ASR3603S chipset, the D37 combines GPS, AGPS, LBS and WiFi positioning to deliver accurate location updates on the Plaspy platform. Its compact watch form factor, 1.47-inch touchscreen, and SOS power button make it a practical GPS tracker for parents who need reliable location, status and emergency alerts.
+The D37 is a compact 4G kids smart watch designed for secure real time tracking and two way communication. Built on an RTOS based version of Android 8.1 and using multi mode positioning with GPS AGPS LBS and WiFi, the D37 delivers location updates and status information in a wearable form factor. The device includes a 1.47 inch touchscreen and a dedicated SOS power button to support immediate emergency reporting and simple on device interactions.
 
-Plaspy compatible out of the box, the D37 integrates into monitoring dashboards for location history, geofencing and alerting. The watch supports multiple global 4G \(FDD/TDD\) and WCDMA bands via a Nano‑SIM, enabling consistent connectivity and telemetry reporting in many regions. Lightweight, IPX7 waterproof and available in Blue, Pink and Black, the D37 is purpose-built for child safety, daily assistance and supervised outdoor activity tracking.
+As a Plaspy compatible tracker out of the box, the D37 integrates into monitoring dashboards to provide location history geofencing and alerting for parents and caregivers. Its cellular connectivity via a Nano SIM and support for multiple 4G and WCDMA bands help maintain telemetry and two way voice and data communication across many regions, making it a practical choice for supervised child safety and everyday oversight through the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for real-time tracking and parental monitoring.
-- Multi-mode positioning: GPS + AGPS + LBS + WiFi for improved location accuracy.
-- 4G & WCDMA network support with Nano‑SIM for global connectivity and voice/data communication.
-- Dedicated SOS/power button for immediate emergency alerts to Plaspy dashboards and contacts.
-- Compact 1.47" 2.5D touchscreen for simple on-device controls and status checks.
-- Integrated 30W camera for basic photo/video capture and situational confirmation.
-- IPX7 waterproof rating and 470mAh rechargeable battery for everyday reliability.
+- Plaspy compatible kids smart watch for real time tracking and parental monitoring
+- Multi mode positioning combining GPS AGPS LBS and WiFi for improved location reporting
+- 4G and WCDMA network support with Nano SIM for broad regional connectivity and voice data use
+- Dedicated SOS power button for immediate emergency alerts and quick notifications
+- Compact 1.47 inch touchscreen for easy status checks and simple controls
+- IPX7 waterproof design and lightweight form factor suitable for daily use and outdoor activities
+- Built in camera and rechargeable battery to provide situational confirmation and everyday reliability
 
 ## How It Works with Plaspy
 
-The D37 transmits location coordinates and device status to Plaspy in real time over cellular data. Plaspy ingests GPS/AGPS/LBS/WiFi position fixes and maps them to provide live tracking, historical routes and geofence alerts. The watch’s connectivity and telemetry—battery level, signal strength and SOS events—are available to Plaspy for alerting and reporting, enabling parents to react quickly to emergent situations.
+When used with Plaspy the D37 transmits location coordinates and device status to the platform so operators can view live position updates and historical routes. Plaspy ingests the watch telemetry and presents it on dashboards that support geofencing alerts reporting and operational oversight for caregivers and administrators.
 
-- Real-time location and telemetry updates \(GPS/AGPS/LBS/WiFi\).
-- SOS emergency alerts via the dedicated power/SOS button for instant notifications.
-- Two-way voice/data communication reporting for direct parent-child contact and status.
-- Battery and network health telemetry for device uptime monitoring on Plaspy.
-- Location-tagged events \(e.g., check-ins\) and basic on-device media capture for situational verification.
+- Real time location updates and periodic position fixes displayed on Plaspy maps
+- SOS emergency alerts delivered to Plaspy dashboards and configured contacts for fast response
+- Two way voice and data communication status available for supervised contact and confirmation
+- Battery level and network health telemetry shown for device uptime monitoring and alerting
+- Location history and geofence alerts for attendance and route supervision
+- Basic on device media capture available for situational verification in the Plaspy event timeline
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | D37 kids smart watch |
-| --- | --- |
-| Operating System | Android 8.1 \(RTOS-based\) |
-| Main Chipset | ASR3603S |
-| Memory | 128MB RAM + 128MB ROM |
-| SIM Slot | Nano SIM |
-| Connectivity | 4G \(FDD/TDD\) and WCDMA; data & voice |
-| Bands | FDD: B1, B2, B3, B5, B7, B8, B20; TDD: B38, B39, B40, B41; WCDMA: B1, B2, B5, B8 |
-| Location Modes \(GNSS\) | GPS + AGPS + LBS + WiFi |
-| Display | 1.47" 2.5D touchscreen, 172 × 320 pixels |
-| Camera | 30W built-in camera \(basic photo/video\) |
-| Battery | 470mAh rechargeable |
-| Charging | 4-pin magnetic charging cable |
-| Buttons / Interfaces | Power button with SOS emergency function |
-| Protection | IPX7 waterproof |
-| Color Options | Blue, Pink, Black |
-
-## Use Cases
-
-- Child safety and parental monitoring: live location sharing and SOS alerts during school, travel or play.
-- School attendance & supervised routes: geofencing and route history for authorized pick-up/drop-off monitoring.
-- Outdoor activities and day trips: waterproof design and reliable cellular positioning for monitored excursions.
-- Restricted calling or supervised communications: controlled two-way voice and messaging for parent-child contact.
-- Situational confirmation: basic photo/video capture to verify the child’s immediate surroundings when needed.
+- Child safety and parental monitoring with live location tracking and SOS alerts
+- School and daycare supervised routes using geofencing and route history for pickups and drop offs
+- Monitored outdoor activities and day trips where waterproofing and cellular positioning are valuable
+- Controlled two way communications for parent child contact and status checks
+- Situational confirmation using basic photo capture to verify surroundings when needed
 
 ## Why Choose This Tracker with Plaspy
 
-The D37 is a purpose-built Plaspy compatible GPS tracker for family and child-focused deployments. Its multi-mode positioning \(GPS/AGPS/LBS/WiFi\), broad 4G/WCDMA band support and RTOS-based Android stack enable dependable real-time tracking and straightforward integration into Plaspy dashboards. Parents benefit from instant SOS alerts, live location, battery and connectivity telemetry, plus the convenience of a touchscreen interface and basic media capture for added context.
+The D37 is well suited for family and child focused deployments that require a wearable device with reliable location reporting and emergency alerting. Its multi mode positioning and broad cellular band support make it a practical match for Plaspy users who need continuous visibility, geofence management and simple on device controls. The watch format, SOS button and basic media capture add context that can help parents and supervisors act quickly when alerts occur.
 
-While the D37 excels as a wearable GPS tracker for children, households and supervised activities, note that it is tailored for personal safety rather than vehicle telemetry. For fleet management, anti-theft, fuel monitoring, ignition sensing or immobilizer control, Plaspy supports other compatible hardware designed with those dedicated interfaces and Bluetooth sensors. Choose the D37 with Plaspy when you need a compact, reliable wearable tracker that focuses on real-time tracking, emergency alerts and everyday communication for children.
-
+If your primary requirement is personal safety and supervised communications rather than vehicle or industrial telemetry, the D37 paired with Plaspy offers a compact and purpose built option. To learn more about Plaspy and platform capabilities visit https://www.plaspy.com. Product specifications availability and manufacturer documentation can change over time, so please verify current details on the official Sentar site http://www.sentarsmart.com/ before making purchase or deployment decisions.

@@ -2,61 +2,60 @@
 slug: /teltonika/ftc921
 id: ftc921
 sidebar_label: FTC921
+title: Teltonika - FTC921
 sidebar_class_name: menu_item_tracker
+description: Teltonika FTC921 is a high voltage GPS tracker for e mobility and anti theft use cases compatible with Plaspy for reliable fleet tracking
+keywords:
+  - Teltonika FTC921
+  - FTC921 Plaspy
+  - FTC921 GPS tracker
+  - Teltonika tracker
+  - e mobility tracker
+  - anti theft tracker
+  - fleet tracking
+  - 4G LTE tracker
+  - GNSS tracker
+  - fleet telematics
 ---
+
 # Teltonika - FTC921
 
 ![FTC921](./tracker.png)
 
-The Teltonika FTC921 is a next‑generation, high‑voltage 4G LTE Cat 1 GPS tracker built for e‑mobility and anti‑theft use cases. Designed on the Fleet Telematics \(FT\) platform, the FTC921 delivers precise GNSS positioning and robust cellular connectivity with fallback to 2G, making it an ideal Plaspy compatible device for fleets that require reliable real‑time tracking and telemetry in urban and low‑speed environments.
+The Teltonika FTC921 is a next generation GPS tracker designed for e mobility and anti theft applications. Built on the Fleet Telematics platform, the FTC921 offers precise GNSS positioning and reliable cellular connectivity with LTE Cat 1 and fallback to 2G. Its focus on high voltage vehicle power inputs and optimized power management makes it a practical choice for electric motorcycles, mopeds and rickshaws operating in urban and low speed environments.
 
-Plaspy compatible out of the box, the FTC921 integrates with remote management tools \(FOTA WEB, TCT\) and supports high‑voltage power inputs commonly found in e‑motorcycles, e‑mopeds and e‑rickshaws. Its optimized sleep modes and power management extend operation while minimizing vehicle battery drain, enabling continuous fleet management, anti‑theft protection and basic track & trace workflows with minimal maintenance.
+As a Plaspy compatible device, the FTC921 can be integrated into Plaspy to deliver near real time location, basic telemetry and device health information to fleet and security teams. Remote management support through standard Fleet Telematics tools helps maintain devices at scale, while the tracker s power handling and sleep modes aid continuous monitoring and anti theft workflows with minimal intervention.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for seamless real‑time tracking and fleet management integration.
-- LTE Cat 1 connectivity with 2G GSM fallback for wide cellular coverage and stable telemetry.
-- High‑voltage power input designed for e‑mobility vehicles — e‑motorcycles, e‑mopeds and e‑rickshaws.
-- Enhanced GNSS reception \(up to 41 visible satellites\) for improved low‑speed and urban positioning accuracy.
-- Optimized sleep modes to reduce vehicle battery drain and extend device uptime.
-- Built on the FT \(Fleet Telematics\) platform with remote device management via FOTA WEB and TCT.
-- Packaged options for standard and custom orders to suit fleet deployments and single‑unit testing.
+- Plaspy compatible tracker for seamless integration into fleet monitoring workflows.
+- LTE Cat 1 connectivity with 2G fallback for broad cellular coverage and stable telemetry.
+- High voltage power input suited to e mobility vehicles such as e motorcycles and e mopeds.
+- Enhanced GNSS reception with support for up to 41 visible satellites for improved low speed positioning.
+- Optimized sleep modes to reduce vehicle battery impact and extend device uptime.
+- Built on the Fleet Telematics platform with remote management via FOTA WEB and TCT.
+- Available in standard and single unit kit options to suit fleet deployments and testing.
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, the FTC921 streams location and telemetry over LTE Cat 1 \(with 2G fallback\) so fleet managers and security teams receive near real‑time updates. Plaspy ingests GNSS coordinates, power status and device health information to provide mapping, alerts and historical reports. Remote configuration and firmware updates are handled through the FT platform tools, allowing centralized device management across your Plaspy deployment.
+When connected to Plaspy, the FTC921 streams GNSS coordinates and device status so operators can monitor vehicle locations, power state and basic telemetry in near real time. Plaspy ingests that data to provide mapping, alerts and historical reporting while remote management tools simplify configuration and firmware maintenance across a fleet.
 
-- Real‑time location and telemetry updates sent to Plaspy for tracking and reporting.
-- Power and battery status reporting — useful for anti‑theft alerts and power loss notifications.
-- High‑accuracy GNSS data \(up to 41 visible satellites\) for precise positioning in urban/e‑mobility environments.
-- Remote device management: FOTA WEB and TCT support for configuration and firmware updates compatible with Plaspy workflows.
-- Works within Plaspy to support anti‑theft scenarios and fleet telematics; can complement ignition or immobilizer workflows when connected to vehicle systems.
+- Real time location updates and basic telemetry delivered to Plaspy for live tracking.
+- Power and vehicle power status reporting to support anti theft alerts and power loss notifications.
+- High accuracy GNSS data for improved positioning in urban and low speed scenarios.
+- Remote device management support using FOTA WEB and TCT that complements Plaspy device workflows.
+- Integration with Plaspy alerting and reporting to enable geofence notifications and operational oversight.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | FTC921 |
-| --- | --- |
-| Manufacturer | Teltonika |
-| Connectivity | 4G LTE Cat 1 with 2G GSM fallback |
-| Bands | LTE‑FDD: B1, B3, B7, B8, B20, B28; GSM: B2, B3, B5, B8 |
-| Power & Battery | High‑voltage vehicle power input support; optimized sleep modes to minimize vehicle battery drain \(no internal battery specification provided\) |
-| GNSS | Enhanced GNSS reception with support for up to 41 visible satellites for improved low‑speed and urban accuracy |
-| Interfaces | Includes input/output power supply cable \(0.7 m\) in standard and custom packaging; specific I/O pinout not detailed in this description |
-| Bluetooth | Not specified in provided information |
-| Remote Management | Compatible with Teltonika FOTA WEB and TCT for firmware updates and remote configuration |
-| Form Factor | Vehicle GPS tracker designed for high‑voltage e‑mobility applications \(compact vehicle/asset use\) |
-| Ordering | Standard: FTC921RCXW01 \(10 pcs kit, EU/MEA/APAC\); Custom: FTC921RCU801 \(1 pc kit, EU/MEA/APAC\) |
-
-## Use Cases
-
-- Fleet management and logistics — real‑time tracking for urban delivery and shared micromobility fleets.
-- E‑mobility management — reliable telemetry and power support for e‑motorcycles, e‑mopeds and e‑rickshaws.
-- Anti‑theft protection — continuous monitoring, power‑loss alerts and integration with Plaspy alerting workflows for quick response.
-- Basic track & trace deployments — low‑speed positioning accuracy for asset recovery and route analytics.
+- Urban fleet management and light logistics where low speed positioning matters.
+- E mobility fleet oversight for vehicles such as electric motorcycles, mopeds and rickshaws.
+- Anti theft protection with continuous monitoring and power loss alerts.
+- Basic track and trace deployments for asset recovery and route analysis.
+- Pilot programs and small scale rollouts using single unit kits before wider deployment.
 
 ## Why Choose This Tracker with Plaspy
 
-The FTC921 offers a practical balance of connectivity, power robustness and GNSS accuracy tailored for e‑mobility and anti‑theft scenarios. As a Plaspy compatible GPS tracker, it delivers reliable real‑time tracking and telemetry that Plaspy can convert into actionable fleet management dashboards, geofence alerts and historical reports. Its high‑voltage power support and optimized sleep modes reduce installation complexity and vehicle battery impact for electric vehicle fleets, while FOTA WEB and TCT support simplify remote device maintenance and scaling.
+The FTC921 offers a balanced mix of connectivity, power handling and GNSS performance tailored to e mobility and anti theft scenarios. Its compatibility with Plaspy makes it straightforward to bring real time tracking and basic telemetry into a centralized fleet management view while remote management tools help maintain device fleets with less hands on effort.
 
-Choose the FTC921 with Plaspy when you need a trustworthy GPS tracker engineered for e‑mobility and urban fleet telematics — offering steady LTE coverage with 2G fallback, enhanced GNSS performance for low‑speed accuracy, and straightforward integration into your remote management and anti‑theft processes.
-
+If your operational needs include electric vehicle fleets or urban low speed tracking, pairing the FTC921 with Plaspy provides a practical path to continuous monitoring, alerts and historical reporting. To learn more about Plaspy visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current specifications with the official manufacturer documentation at https://www.teltonika-gps.com/.

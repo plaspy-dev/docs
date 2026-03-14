@@ -2,58 +2,60 @@
 slug: /reachfar/rf_v13
 id: rf_v13
 sidebar_label: RF-V13
+title: Reachfar - RF-V13
 sidebar_class_name: menu_item_tracker
+description: Alarma GSM compacta para puertas y ventanas con LBS/GPS y reportes por SMS o GPRS compatible con Plaspy
+keywords:
+  - Reachfar RF V13
+  - rastreador RF V13
+  - RF V13 GPS
+  - RF V13 compatible con Plaspy
+  - alarma Reachfar para puertas
+  - alarma GSM RF V13
+  - posicionamiento LBS RF V13
+  - seguridad perimetral Reachfar
+  - sensor magnético RF V13
+  - sistema de alarma Reachfar
 ---
+
 # Reachfar - RF-V13
 
 ![RF-V13](./tracker.jpg)
 
-El Reachfar RF-V13 es un sistema de alarma inalámbrico compacto para puertas/ventanas y una alarma GSM, de Reachfar, diseñado para una seguridad perimetral discreta. Compatible con Plaspy cuando se configura para aceptar sus informes de alarma por GPRS/TCP-IP o SMS, el RF-V13 combina detección de intrusiones mediante sensor magnético, conocimiento de ubicación LBS/GPS y verificación de alarma por voz bidireccional en un formato compacto, ideal para hogares, comercios y pequeñas oficinas.
+El Reachfar RF-V13 es un sistema compacto e inalámbrico de alarma para puertas y ventanas pensado para seguridad perimetral discreta. Integra un sensor magnético para detección de intrusiones, comunicación GSM y capacidades básicas de localización para enviar notificaciones remotas en hogares, comercios pequeños y oficinas. Su tamaño reducido y fuente de energía recargable lo hacen adecuado para montaje discreto en puertas, ventanas u otros puntos de acceso donde se requiere protección ligera y de baja visibilidad.
 
-Construido para una instalación sencilla y notificación remota, el RF-V13 transmite alarmas vía GSM cuádri-banda \(850/900/1800/1900 MHz\) y admite TCP/IP GPRS Class 12, así como alertas por SMS y la app móvil de Reachfar. Dado que proporciona posicionamiento LBS y datos de tiempo de posicionamiento GPS, puede alimentar a Plaspy con datos de ubicación y de eventos para seguimiento en tiempo real y monitorización anti-robo, mientras que su host compacto de 40 × 34 × 14 mm y la batería recargable permiten una instalación discreta en puertas o ventanas.
+Este modelo es compatible con Plaspy cuando está configurado para enviar sus reportes de alarma y ubicación por GPRS TCP IP o como mensajes SMS formateados. Esa compatibilidad permite que el RF-V13 envíe eventos y datos de posicionamiento a Plaspy para centralizar alertas, mapas y registros históricos, lo que lo hace una opción válida para quienes necesitan detección perimetral integrada en una plataforma de monitoreo más amplia.
 
-## Puntos clave
+## Aspectos más importantes
 
-- Compatible con Plaspy: se integra con Plaspy mediante reportes GPRS/TCP-IP o mensajes SMS formateados para alarmas y actualizaciones de ubicación.
-- Compacto y discreto: unidad pequeña \(40 × 34 × 14 mm, 27 g\) que se monta fácilmente con el Velcro suministrado para una instalación de seguridad de baja visibilidad.
-- Informes de alarma GSM fiables: GSM cuádri-banda y GPRS Class 12 permiten notificaciones remotas por SMS, push y en la plataforma.
-- Detección de intrusiones en puertas/ventanas: caja de sensor magnético dedicada detecta eventos de apertura e informa de inmediato.
-- Conocimiento básico de ubicación: posicionamiento LBS \(200–800 m\) y características de tiempo de adquisición del posicionamiento GPS para obtener información de ubicación contextual cuando GPS está disponible.
-- Batería recargable: batería integrada de 520 mAh con un tiempo de espera GSM típico de 4–5 días, adecuada para uso de alarma intermitente.
-- Verificación bidireccional: admite llamadas de voz bidireccionales para confirmar al instante los eventos y mejorar la respuesta ante emergencias.
+- Compatible con Plaspy mediante reportes GPRS TCP IP o mensajes SMS formateados para el reenvío de eventos y ubicación
+- Carcasa compacta y discreta apta para montaje de baja visibilidad en puertas o ventanas
+- GSM cuatribanda para enviar notificaciones SMS y paquetes TCP IP de alarma
+- Sensor magnético dedicado que reporta inmediatamente aperturas y cierres en puntos perimetrales
+- Posicionamiento LBS más GPS para información contextual de ubicación cuando el GPS está disponible
+- Batería recargable y gabinete ligero diseñados para despliegues simples y discretos
+- Capacidad de llamada de voz bidireccional para verificación inmediata de eventos y coordinación de respuesta
 
 ## Cómo funciona con Plaspy
 
-Cuando se configura para Plaspy, el RF-V13 puede entregar eventos de alarma, telemetría básica y lecturas de ubicación a la plataforma de Plaspy ya sea enviando paquetes GPRS/TCP-IP a un endpoint de Plaspy o reenviando mensajes SMS formateados que Plaspy ingiere. Plaspy luego marca la hora de los eventos, mapea ubicaciones aproximadas y envía alertas a los usuarios mediante notificación en la app, SMS o correo electrónico según las reglas de la cuenta. Debido a que el RF-V13 se centra en la intrusión de puertas/ventanas y en el reporte GSM, proporciona una funcionalidad de anti-robo y alerta perimetral confiable, más que telemetría de flota de alta frecuencia.
+Al configurarlo para trabajar con Plaspy, el RF-V13 envía alarmas y contexto de ubicación a la plataforma para que Plaspy pueda registrar la hora de los eventos, mapear posiciones y dirigir notificaciones según las reglas de usuario. El dispositivo está pensado para reportes puntuales de alarmas perimetrales más que para telemetría continua de flotas, y Plaspy trata sus entradas como eventos de alarma discretos y actualizaciones de ubicación ocasionales para respaldar flujos de trabajo de anti robo y control de accesos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — a través de GPRS/TCP-IP o SMS; la precisión de LBS es aproximadamente de 200–800 metros \(posición aproximada\).
-- Estado de alarma de puerta/ventana — eventos de apertura/cierre del sensor magnético y disparos de alarma enviados a Plaspy para alertas y registro.
-- Estado de batería y del dispositivo — estado de batería recargable de 520 mAh y reportes de conectividad del dispositivo disponibles vía SMS/app.
-- Verificación por llamada de voz bidireccional — llamadas de voz inmediatas a números predefinidos para confirmar eventos y coordinar la respuesta.
-- Sensores/beacons Bluetooth — RF-V13 no incluye soporte de sensores BLE; Plaspy puede combinar datos del RF-V13 con otros dispositivos BLE compatibles con Plaspy cuando sea necesario.
+- Entrega en tiempo real de ubicación y telemetría a Plaspy mediante paquetes GPRS TCP IP o mensajes SMS formateados
+- Eventos de alarma de puertas y ventanas (apertura y cierre del sensor magnético) reenviados a Plaspy para alertas inmediatas y registros de auditoría
+- Estado de batería y conectividad del equipo reportado para que Plaspy muestre salud del dispositivo y condiciones de baja energía
+- Las llamadas de voz bidireccionales complementan las notificaciones de la plataforma para una verificación rápida de eventos críticos
+- Combine los datos de eventos del RF-V13 con otros dispositivos en su cuenta Plaspy para crear reglas de monitoreo y respuesta más completas
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM cuádri-banda \(850/900/1800/1900 MHz\); GPRS Class 12, TCP/IP |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz |
-| Alimentación y batería | Batería integrada recargable de 520 mAh; tiempo de espera GSM típico 4–5 días \(según uso\) |
-| Interfaces | 1 × caja de sensor magnético para puerta/ventana; configuración de comandos por SMS; funcionalidad de llamadas de voz bidireccionales |
-| GNSS | Antena GSM/GPS integrada; precisión de posicionamiento LBS ≈ 200–800 m; tiempo de posicionamiento \(cielo despejado\) — Arranque en frío ~30 s, Arranque en tibio ~29 s, Arranque en caliente ~5 s |
-| Bluetooth | No soportado / No especificado |
-| Gestión remota | Configurable mediante comandos SMS y la app/plataforma móvil de Reachfar; reporte TCP/IP a servicios en línea \(integración con Plaspy vía TCP-IP o SMS\) |
-| Formato | Host compacto 40 × 34 × 14 mm; peso del host ≈ 27 g; Velcro suministrado para montaje |
+- Monitoreo perimetral de casas y departamentos con alertas instantáneas y verificación por voz
+- Seguridad en pequeños comercios o puestos donde se requiere detección discreta de puertas o ventanas
+- Vigilancia de cabañas remotas o activos pequeños cuando es suficiente un contexto de ubicación ocasional
+- Seguridad en puntos de venta móviles o temporales que se benefician del posicionamiento LBS y reportes por SMS
+- Control de accesos sensibles donde la verificación por llamada reduce respuestas a falsas alarmas
 
-## Casos de uso
+## Por qué elegir este dispositivo con Plaspy
 
-- Hogar y apartamentos: monitorización discreta de puertas/ventanas con alertas inmediatas por SMS y notificaciones push, y verificación de llamadas bidireccionales a través de Plaspy.
-- Protección perimetral de tiendas pequeñas o quioscos: notificación de alarma remota a propietarios y personal, con conocimiento de ubicación aproximada para ubicaciones móviles o temporales.
-- Monitorización remota de propiedades y activos: ubicación básica y alertas de intrusión para cabañas, cajas de almacenamiento o activos pequeños desatendidos donde no se requiere telemetría GPS precisa.
-- Alarmas verificadas para entradas sensibles: las llamadas de voz bidireccionales permiten confirmar rápidamente los eventos y reducir los costos de respuesta ante falsas alarmas.
+El RF-V13 es una opción práctica para organizaciones e individuos que necesitan una alarma para puertas o ventanas económica y fácil de desplegar que pueda enviar eventos a una plataforma centralizada. Su reporte GSM y su posicionamiento LBS/GPS resultan adecuados para escenarios de anti robo y alertas perimetrales, y la integración con Plaspy añade notificaciones centralizadas, mapeo y un historial de eventos para facilitar la supervisión operativa.
 
-## Por qué elegir este rastreador con Plaspy
-
-El RF-V13 ofrece una solución de alarma para puertas/ventanas asequible y de fácil instalación que se integra con Plaspy para alertas centralizadas y registro de eventos. Su soporte GSM cuádri-banda y GPRS TCP/IP facilita enrutar alarmas y datos de ubicación hacia Plaspy, mientras que el sensor magnético, la voz bidireccional y la batería recargable proporcionan la funcionalidad esencial para anti-robo y monitorización perimetral. Aunque el RF-V13 está optimizado para detección de intrusiones y ubicación LBS de alcance, no para telemetría de flota de alta frecuencia; al combinarlo con Plaspy obtienes alertas centralizadas, registros históricos de eventos y notificaciones en la app para una respuesta rápida.
-
-Nota: La página del producto RF-V13 indica que este modelo figura como "fuera de producción". Las especificaciones anteriores reflejan los datos originales del fabricante. Antes de la implementación, confirme la compatibilidad de software actual, los endpoints del servidor y el soporte de la plataforma con Reachfar o con el soporte de Plaspy para asegurar una integración fluida y un servicio continuo.
-
+Si desea saber más sobre cómo Plaspy puede usar los reportes de alarma y ubicación del RF-V13 para mejorar el monitoreo y la respuesta, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y el software del fabricante pueden cambiar con el tiempo, así que verifique las especificaciones y la compatibilidad actuales en el sitio del fabricante https://www.reachfargps.com/.

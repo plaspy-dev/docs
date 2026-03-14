@@ -2,63 +2,59 @@
 slug: /xexun/x07
 id: x07
 sidebar_label: X07
+title: Xexun - X07
 sidebar_class_name: menu_item_tracker
+description: Reloj wearable GPS y de signos vitales compatible con Plaspy para cuidado de adultos mayores y vigilancia personal
+keywords:
+  - Xexun X07
+  - rastreador X07
+  - wearable Xexun
+  - compatible Plaspy
+  - reloj GPS BeiDou
+  - rastreador cuidado adultos mayores
+  - rastreador seguridad personal
+  - reloj con voz bidireccional
+  - reloj telemetría salud
+  - seguimiento de personal
 ---
+
 # Xexun - X07
 
 ![X07](./tracker.png)
 
-El X07 GPS/BeiDou Health Positioning Watch es un wearable compatible con Plaspy diseñado para una seguridad personal fiable y monitoreo de cuidado de personas mayores. Al combinar posicionamiento de múltiples modos \(GPS + BeiDou + WiFi + fusión LBS\) con sensores fisiológicos a bordo, el X07 ofrece ubicación continua y telemetría de signos vitales hacia servicios en la nube y aplicaciones móviles. Cuando se integra con Plaspy, los cuidadores y los equipos de operaciones pueden utilizar el panel de control y las alertas de Plaspy para obtener seguimiento en tiempo real, rutas históricas y notificaciones de geocerca para cada usuario.
+El X07 es un reloj wearable de posicionamiento GPS y BeiDou con monitorización de signos vitales, diseñado para ofrecer seguridad personal y supervisión confiable en el cuidado de adultos mayores. Combina posicionamiento multimodal con sensores fisiológicos integrados para proporcionar telemetría continua de ubicación y parámetros de salud. El equipo está pensado para uso diario, con enfoque en posicionamientos rápidos, gestión simple del dispositivo y resúmenes claros de la salud, ideales para supervisar a personas en movimiento.
 
-Diseñado para un uso práctico diario, el X07 pone énfasis en un posicionamiento rápido, una gestión sencilla del dispositivo y percepciones de salud concisas. El reloj admite redes domésticas 2G/3G/4G, voz bidireccional, rastreo programado y actualizaciones de firmware remotas — convirtiéndolo en una solución de rastreador GPS de grado comercial que extiende las capacidades de Plaspy desde el monitoreo de vehículos y activos hacia escenarios de salud y seguridad personal.
+Como dispositivo compatible con Plaspy, el X07 puede reenviar fijaciones de ubicación y telemetría de salud al entorno de monitoreo de Plaspy, de modo que cuidadores y equipos operativos puedan ver la ubicación en vivo, el historial de rutas y recibir alertas por geocercas y eventos de salud. La integración con Plaspy incorpora los datos del wearable en el mismo panel operativo usado para monitorear activos y flotas, ayudando a las organizaciones a centralizar la supervisión de personas y equipos.
 
-## Aspectos clave
+## Características principales
 
-- Compatible con Plaspy: integra ubicación, alertas y estado del dispositivo en los paneles e notificaciones de Plaspy para una monitorización centralizada.
-- Posicionamiento multimodal: GPS + BeiDou + WiFi + fusión LBS para fijaciones más rápidas y mayor fiabilidad de ubicación en entornos mixtos.
-- Telemetría de salud continua: sensores de movimiento, ritmo cardíaco y presión arterial a bordo proporcionan monitoreo en tiempo real de signos vitales junto con los datos de ubicación.
-- Voz bidireccional y alertas: llamadas desde el reloj y alarmas configurables de geocerca/fuera de perímetro mantienen a los cuidadores conectados e informados.
-- Gran autonomía y carga rápida: batería recargable de 800 mAh; tiempo de carga de aproximadamente 2 horas y unos 5 días en espera \(1 informe/hora\).
-- Gestión remota: integración con plataforma en la nube y soporte de actualizaciones remotas de firmware simplifican el mantenimiento a nivel de flota o de múltiples dispositivos.
-- Forma compacta y wearable: diseño ligero y robusto para el cuidado diario de personas mayores, seguridad de trabajadores solitarios y rastreo personal.
+- Integración compatible con Plaspy para monitoreo centralizado de ubicación, alertas y estado del dispositivo.
+- Posicionamiento multimodal mediante GPS, BeiDou, WiFi y fusión LBS para mejorar la disponibilidad de la ubicación.
+- Telemetría continua de salud a partir de sensores de movimiento, frecuencia cardiaca y presión arterial integrados.
+- Voz bidireccional y alarmas configurables por geocerca para mantener a los cuidadores conectados e informados.
+- Seguimiento programado, gestión remota de firmware e integración en la nube para administración escalable de dispositivos.
+- Factor de forma compacto y batería recargable adecuado para el cuidado diario de adultos mayores y la seguridad personal.
 
 ## Cómo funciona con Plaspy
 
-Cuando el X07 se configura como compatible con Plaspy, el dispositivo reenvía las posiciones GPS/BeiDou y la telemetría fisiológica a los endpoints de ingestión de Plaspy o a través de un puente en la nube. Plaspy normaliza los datos recibidos para la visualización de ubicación en tiempo real, reglas de alertas y reportes históricos. La integración se centra en un rastreo en tiempo real fiable y notificaciones a cuidadores, manteniendo la gestión del dispositivo centralizada en Plaspy.
+Una vez configurado para ser compatible con Plaspy, el X07 reenvía la posición y la telemetría fisiológica a Plaspy, donde los datos entrantes se normalizan y se presentan para monitoreo en tiempo real, alertas e informes históricos. Plaspy ofrece una vista unificada del estado de los dispositivos y las notificaciones para que los equipos puedan actuar ante señales de ubicación y salud sin gestionar sistemas separados.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: informes de posición frecuentes visibles en los mapas de Plaspy y vistas en vivo.
-- Datos de signos vitales \(ritmo cardíaco, presión arterial\) y estado de movimiento: disponibles como telemetría para monitoreo de salud y condiciones de alerta.
-- Alarmas de geocerca y fuera de perímetro: configure zonas en Plaspy para activar alertas inmediatas para cuidadores u personal de operaciones.
-- Voz bidireccional y estado del dispositivo: capacidad de llamada entrante y estado de batería/conexión visible en la lista de dispositivos de Plaspy.
-- Rastreo programado y reporte automático a intervalos: reduzca el uso de datos o aumente la resolución según sea necesario para los perfiles de monitoreo.
+- Ubicación y telemetría en tiempo real visibles en los mapas de Plaspy y en las vistas en vivo de dispositivos.
+- Señales de signos vitales y movimiento disponibles como puntos de datos para reglas de monitoreo y alertas.
+- Alarmas de geocerca y salidas de área que generan notificaciones para cuidadores o personal operativo.
+- Disponibilidad de voz bidireccional y estado de batería o conexión del dispositivo mostrados en los listados de Plaspy.
+- Seguimiento programado e informes automáticos temporizados que permiten ajustar la frecuencia de actualización según las necesidades de monitoreo.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Modelo | X07 |
-| --- | --- |
-| Posicionamiento | GPS / BeiDou / WiFi / fusión LBS |
-| Precisión de posicionamiento | &lt;10 m \(referencia; la precisión real depende del entorno\) |
-| Red | Admite redes domésticas 2G / 3G / 4G |
-| Pantalla | Pantalla a color de 1.3 pulgadas \(señal, batería, fecha, día de la semana, hora, ID, mensajes\) |
-| Batería | Batería de polímero de litio recargable de 800 mAh; tiempo de carga ~2 horas; autonomía ~5 días \(1 informe/hora\) |
-| Alimentación | Voltaje de operación DC 5V |
-| Botones / Controles | Soportados \(botones físicos para operación\) |
-| Material | Plástico ecológico |
-| Dimensiones y peso | 53 × 42 × 16 mm; aprox. 60 g |
-| Entorno operativo | -30°C a +60°C; humedad 10%–90% RH \(sin condensación\) |
-| Gestión remota | Se integra con la plataforma en la nube del proveedor y la app móvil; admite actualizaciones remotas de firmware |
-| Bluetooth / Sensores | Sensores de movimiento, ritmo cardíaco y presión arterial a bordo. No se especifica soporte Bluetooth. |
-
-## Casos de uso
-
-- Cuidado de personas mayores y vida asistida: rastreo en tiempo real más telemetría de ritmo cardíaco y presión arterial para cuidadores y familiares.
-- Seguridad personal para trabajadores solitarios: reporte de posición, detección de movimiento y voz bidireccional para comprobaciones de emergencia y respuesta rápida.
-- Servicios de ubicación personal: geocercas y reporte programado para rutinas diarias y recordatorios de medicación.
-- Monitoreo de actividad con visión de salud: movimiento continuo y registro de signos vitales para clínicos o servicios de monitoreo remoto.
+- Monitoreo de cuidado de adultos mayores y residencias asistidas con ubicación en vivo y alertas sobre signos vitales.
+- Seguridad para trabajadores que operan solos, donde el reporte de posición y la voz bidireccional apoyan la respuesta ante emergencias.
+- Servicios de localización personal para familias y cuidadores con geocercas y seguimiento de rutinas.
+- Monitorización remota de actividad y salud para programas de atención clínica o telemedicina.
+- Extensión de la gestión de flotas y activos para incluir la supervisión de la seguridad de personas junto con vehículos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El X07 lleva telemetría de grado wearable al entorno de monitoreo de Plaspy, brindando a las organizaciones la capacidad de centralizar la seguridad personal junto con despliegues tradicionales de rastreadores GPS. Su posicionamiento multimodal mejora la disponibilidad de ubicación en entornos urbanos y en el borde interior, mientras que los sensores de salud integrados añaden una capa importante de telemetría contextual que los rastreadores GPS basados solo en ubicación no pueden proporcionar. Para operaciones que usan Plaspy para gestión de flotas o rastreo de activos, agregar wearables X07 amplía la cobertura a escenarios centrados en las personas sin crear sistemas separados.
+El X07 incorpora telemetría de nivel wearable en la vista operativa de Plaspy, permitiendo que las organizaciones centralicen la seguridad personal junto con el rastreo GPS tradicional. Su combinación de posicionamiento multimodal y sensores de salud integrados proporciona información contextual que ayuda a cuidadores y equipos operativos a priorizar respuestas y mantener la conciencia situacional.
 
-Nota: el X07 está optimizado para monitoreo de salud y seguridad personales. No incluye I/O específico de vehículos como entradas de encendido, control de inmovilizador o interfaces de monitoreo de combustible comunes a rastreadores de vehículos. Si se requiere telemetría de flota que involucre encendido, inmovilizador o monitoreo de combustible, combine dispositivos de vehículos gestionados por Plaspy con wearables X07 para lograr una visión unificada de activos y personal.
-
+Si desea saber más sobre cómo Plaspy puede integrar wearables como el X07 en sus flujos de monitoreo, visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y características del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos y la información de soporte actual en el sitio del fabricante https://www.xexun.com/.

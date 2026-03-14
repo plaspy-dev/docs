@@ -2,60 +2,61 @@
 slug: /istartek/vt200_l
 id: vt200_l
 sidebar_label: VT200-L
+title: iStartek - VT200-L
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G compacto para vehículos compatible con Plaspy para rastreo de flotas en tiempo real y monitoreo antirrobo
+keywords:
+  - iStartek VT200-L
+  - VT200-L
+  - VT200-L compatible con Plaspy
+  - VT200-L rastreador GPS
+  - iStartek rastreador
+  - rastreador GPS para vehículos
+  - rastreador compatible con Plaspy
+  - telemática de flotas
+  - dispositivo de rastreo para flotas
+  - rastreo de vehículos
 ---
+
 # iStartek - VT200-L
 
 ![VT200-L](./tracker.jpg)
 
-El VT200-L es un rastreador GPS para vehículos de 4G compatible con Plaspy, diseñado para un seguimiento en tiempo real fiable y telemática de flota integral. Construido para entornos vehiculares exigentes, el VT200-L combina posicionamiento GNSS de alta precisión con respaldo celular tri-band y E/S robusta para ofrecer ubicación continua, telemetría y capacidades anti-robos a paneles de control impulsados por Plaspy y flujos de alerta.
+El VT200-L es un rastreador GPS 4G para vehículos diseñado para ofrecer un seguimiento confiable en tiempo real y telemática completa de flotas. Construido para entornos vehiculares exigentes, combina posicionamiento GNSS de alta precisión con conmutación celular y E/S robustas para proporcionar ubicación continua, telemetría y funciones antirrobo. Incluye memoria flash a bordo para el almacenamiento en búfer cuando no hay conexión y está pensado para mantener la continuidad de los reportes en escenarios de cobertura complicada.
 
-La unidad está optimizada para la gestión de flotas, transporte público, taxis, autobuses escolares y uso anti-robos en vehículos privados. Con memoria flash integrada para almacenamiento en búfer fuera de línea, amplio rango de tensión de vehículo y protección IP66 contra la entrada, el VT200-L garantiza la integridad de los datos y reportes ininterrumpidos a Plaspy para rastreo en tiempo real, monitoreo del comportamiento del conductor y acciones de control remoto.
+Como dispositivo compatible con Plaspy, el VT200-L está capacitado para enviar actualizaciones de posición en vivo, alertas de eventos y datos históricos almacenados hacia los paneles y flujos de trabajo de Plaspy. Sus opciones de configuración y transporte permiten una integración fluida con Plaspy para visibilidad de la flota, monitoreo de comportamiento del conductor, control remoto de acciones y generación de informes operativos sin requerir cambios de hardware personalizados.
 
-## Puntos clave
+## Características principales
 
-- Seguimiento en tiempo real compatible con Plaspy a través de 4G LTE con respaldo 3G/2G para una amplia cobertura y actualizaciones rápidas de posición.
-- Soporte multi-GNSS \(GPS, BDS, GLONASS, QZSS\) para mejorar la precisión de la posición y la resiliencia en entornos urbanos y desafiantes.
-- Memoria flash integrada de 128 Mb para almacenar en búfer los datos de posicionamiento históricos durante interrupciones de la red y reenviarlos automáticamente cuando se restablece la conectividad.
-- Amplias E/S: RS232, 1-Wire, entradas y salidas digitales/analógicas, micrófono/altavoz externos y alimentación auxiliar de 5V para telemetría y periféricos.
-- Funciones telemáticas avanzadas: detección de comportamiento de conducción, alarmas de geocerca y estacionamiento, alarmas de remolque y ralentí para apoyar la gestión de flotas y programas de seguridad.
-- Integración de monitorización de combustible \(sensores ultrasónicos o capacitivos\) y alarma de robo de combustible para un seguimiento preciso del combustible y control de costos.
-- Diseño robusto \(IP66\) y rango de voltaje amplio \(9–100V\) para compatibilidad con vehículos ligeros, camiones pesados y flotas especializadas.
-- Actualizaciones de firmware remotas \(FOTA\), carga en doble servidor y transporte TCP/UDP/SMS estándar para una gestión flexible del dispositivo y escalabilidad.
+- Rastreo vehicular 4G compatible con Plaspy y conmutación celular para amplia cobertura y actualizaciones oportunas
+- Soporte multi GNSS para mejorar la precisión de posicionamiento y la resiliencia en áreas urbanas
+- Memoria flash integrada para almacenar datos durante interrupciones de red y reenviarlos al reconectarse
+- E/S robustas y soporte para periféricos para telemetría, entradas de estado y salidas remotas
+- Diseño resistente y amplio rango de voltaje para uso en distintos tipos de vehículos
+- Soporte para actualizaciones remotas de firmware y carga doble a servidores para facilitar la gestión a escala
 
 ## Cómo funciona con Plaspy
 
-El VT200-L transmite la ubicación y la telemetría del vehículo a Plaspy utilizando métodos de transporte estándar \(TCP/UDP/SMS\) y un protocolo compatible con la plataforma. Una vez aprovisionado en Plaspy, el rastreador proporciona actualizaciones de posición en tiempo real, alertas de eventos y datos históricos almacenados en búfer tras la restauración de la señal. La integración admite tanto informes periódicos programados como mensajes basados en eventos para impulsar el monitoreo en tiempo real y flujos de trabajo automatizados.
+El VT200-L transmite la ubicación y la telemetría del vehículo usando métodos de transporte compatibles con plataformas y un protocolo estándar de dispositivo soportado por Plaspy. Una vez aprovisionado, envía actualizaciones periódicas y por eventos, además de registros almacenados cuando se restablece la conectividad, lo que permite un seguimiento continuo y flujos de trabajo automatizados en la plataforma.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: coordenadas GNSS, velocidad, rumbo y kilometraje derivado del odómetro para la gestión de flotas y despacho.
-- Estado de ignición, puertas y alarmas: entradas digitales configurables reportan cambios en el estado del vehículo a Plaspy para alertas y reglas inmediatas.
-- Monitoreo de combustible: se integra con sensores de combustible ultrasónicos o capacitivos para reportar el nivel de combustible y activar alarmas de robo de combustible en Plaspy.
-- Control remoto de salidas: use las salidas digitales para comandar inmovilizadores, relés de alarma u otros actuadores a través de las acciones remotas de Plaspy.
-- Datos multimedia y de eventos: audio bidireccional y subida de fotos disparada por eventos de la cámara \(si la cámara está conectada\) proporcionan un contexto de incidente más completo a los registros de Plaspy.
+- Alimenta en tiempo real los paneles de Plaspy con ubicación y telemetría para visibilidad y despacho instantáneo
+- Alertas por eventos como encendido, apertura de puertas o disparo de alarmas para activar reglas y notificaciones
+- Reportes de nivel de combustible y alarmas de combustible integrados en Plaspy para control de costos
+- Control remoto de salidas digitales a través de Plaspy para inmovilización y acciones de alarma
+- Cargas multimedia y por eventos cuando se conectan cámaras o micrófonos externos para proporcionar contexto de incidentes
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE con respaldo 3G/2G; transporte de datos vía TCP/UDP/SMS; módulos celulares Quectel EC200 de la serie; tasas de datos LTE FDD de hasta 10 Mbps de descarga / 5 Mbps de subida |
-| --- | --- |
-| Bandas | Respaldo celular tri-banda \(4G/3G/2G\). Bandas LTE regionales compatibles con los módulos de la serie Quectel EC200 \(variantes de modelo por región\). |
-| Alimentación y batería | Voltaje de operación 9–100 V; batería de respaldo 500 mAh; consumo de energía normal ~110 mA/h; reporta eventos de batería baja y de encendido. |
-| Interfaces | RS232 \(para lectores RFID/OBD II\), 1-Wire \(sensores de temperatura/iButton\), 2 entradas digitales de disparo positivo, 1 entrada de disparo negativo \(configurable\), 1 entrada analógica, 2 salidas digitales de drenaje abierto \(500 mA\), micrófono y altavoz externos, salida de alimentación auxiliar de 5V. |
-| GNSS | Soporta GPS, BDS, GLONASS, QZSS; precisión de posición autónoma &lt;2.5 m CEP; sensibilidad de seguimiento -167 dBm; cold start &lt;26 s, warm start &lt;15 s, hot start &lt;1 s. |
-| Memoria y almacenamiento | Memoria flash de 128 Mb para almacenamiento en búfer de datos de posicionamiento y de eventos durante puntos ciegos de la red. |
-| Gestión remota | Actualizaciones de firmware OTA \(FOTA\), soporte de carga en doble servidor y protocolo iStartek para la integración con la plataforma. |
-| Ambiental y factor de forma | Resistencia IP66; dimensiones 99 x 54 x 19.5 mm; peso 106 g; temperatura de funcionamiento -20° a 75° C; humedad 5%–95% sin condensación. |
-
-## Casos de uso
-
-- Gestión de flotas y despacho: datos de rastreo GPS en tiempo real y telemetría de comportamiento del conductor para optimizar rutas y mejorar la seguridad.
-- Protección antirrobo e inmovilización: control remoto de salidas y alarmas de geocerca/estacionamiento para disuadir robos y recuperar vehículos rápidamente.
-- Autobuses escolares y transporte público: cumplimiento de rutas, monitoreo de paradas y audio bidireccional para la seguridad de los pasajeros y verificación de incidentes.
-- Operaciones de taxi y ridesharing: monitoreo de viajes, alertas de comportamiento del conductor y subida de eventos de la cámara para evidencia de incidentes.
-- Flotas de seguros y leasing: seguimiento continuo del kilometraje, comportamiento de conducción y monitoreo de combustible para apoyar seguros basados en uso y programas de gestión de activos.
+- Gestión de flotas y despacho para optimizar rutas y supervisión operativa
+- Protección antirrobo e inmovilización remota para vehículos privados y comerciales
+- Monitoreo de rutas, paradas y reportes de incidentes en autobuses escolares y transporte público
+- Operaciones de taxi y plataformas de transporte para seguimiento de viajes y alertas de comportamiento del conductor
+- Flotas de aseguradoras y arrendamiento donde el registro continuo de kilometraje y uso alimenta programas y análisis
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el VT200-L para la integración con Plaspy ofrece una combinación equilibrada de hardware robusto, interfaces flexibles y comunicaciones preparadas para la plataforma. Su receptor multi-GNSS y la conectividad LTE proporcionan un seguimiento en tiempo real fiable y una posición precisa tanto en entornos urbanos como rurales. La memoria flash integrada y el respaldo tri-band aseguran la continuidad de los datos, mientras que unas extensas E/S digitales y analógicas, además de RS232 y 1-Wire, permiten una telemetría integral como estado de ignición, monitorización de combustible y entradas de sensores.
+El VT200-L combina hardware robusto orientado a vehículos con comunicaciones listas para plataforma, convirtiéndolo en una opción práctica para organizaciones que utilizan Plaspy para seguimiento en tiempo real y telemática. Su conjunto de posicionamiento multi GNSS, conmutación celular y almacenamiento a bordo ayuda a mantener la continuidad de los datos, mientras que sus amplias capacidades de E/S permiten múltiples escenarios de telemetría y control que Plaspy puede mostrar en paneles y alertas.
 
-Para operadores centrados en la confiabilidad y la escalabilidad, el VT200-L admite FOTA para un mantenimiento simplificado del dispositivo y carga en doble servidor para una ruta de datos resiliente. El transporte compatible con Plaspy \(TCP/UDP/SMS\) y la integración con la plataforma mediante el protocolo iStartek facilitan la incorporación. Ya sea que su prioridad sea la gestión de flotas, la protección antirrobo, el monitoreo de combustible o el análisis del comportamiento del conductor, el VT200-L proporciona el hardware y la conectividad necesarios para ofrecer insights accionables a través del entorno de seguimiento e informes en tiempo real de Plaspy.
+Para flotas y operadores que requieren reportes confiables y gestión de dispositivos escalable, el VT200-L soporta mantenimiento remoto y opciones de subida resilientes que se alinean con los patrones de despliegue de Plaspy. Elegir este rastreador puede simplificar la integración de hardware y ofrecer la telemetría necesaria para programas de seguridad, eficiencia y prevención de robo gestionados a través de Plaspy.
 
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical information on the official iStartek site https://istartek.com/.

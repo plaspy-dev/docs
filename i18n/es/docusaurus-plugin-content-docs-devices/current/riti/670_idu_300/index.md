@@ -2,61 +2,63 @@
 slug: /riti/670_idu_300
 id: 670_idu_300
 sidebar_label: 670 (IDU-300)
+title: Riti - 670 (IDU-300)
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS vehicular compatible con Plaspy para seguimiento de flotas, telemetría, antirrobo y cadena de frío
+keywords:
+  - Riti 670
+  - Riti IDU 300
+  - Localizador 670
+  - Rastreador IDU 300
+  - Rastreador compatible con Plaspy
+  - Rastreador GPS Plaspy
+  - dispositivo de seguimiento de flotas
+  - telemática de cadena de frío
+  - telemetría vehicular
+  - rastreador 3G descontinuado
 ---
+
 # Riti - 670 (IDU-300)
 
 ![670 (IDU-300)](./tracker.jpg)
 
-El Locator 670 \(IDU-300\) de RITI Technology es un rastreador GPS para vehículos compatible con Plaspy, diseñado para una gestión inteligente de flotas y un seguimiento en tiempo real fiable. Aunque este modelo IDU 3G ha sido descontinuado, su GNSS de alta sensibilidad, la frecuente generación de reportes de posición y su amplio soporte de periféricos lo convierten en una opción sólida para implementaciones de Plaspy que requieren telemetría, monitoreo anti‑robo e integración de sensores extendida.
+El Riti Locator 670 (IDU-300) es un rastreador GPS para instalación en vehículo diseñado para la gestión inteligente de flotas y el monitoreo continuo de posiciones. Como modelo 3G tipo IDU, ofrece actualizaciones frecuentes de ubicación y recepción GNSS de alta sensibilidad, además de soportar una variedad de periféricos habituales en telemática vehicular comercial. Aunque este modelo está descatalogado, su diseño está orientado a reportes de ubicación fiables, seguimiento de kilometraje, monitorización de voltaje y la integración con sensores externos.
 
-Diseñado para gestores de flotas que necesitan datos precisos de kilometraje, monitorización de la tensión de la batería y telemetría multisensor, el Locator 670 transmite datos GNSS y sensores a Plaspy para visibilidad en tiempo real del vehículo, alertas por excepciones e informes históricos. Su soporte para sensores de temperatura, entradas de nivel de combustible, DVR y paneles de despacho habilita flujos de trabajo compatibles con Plaspy para cadena de frío, logística y operaciones de vehículos críticos para la seguridad.
+Esta unidad es compatible con Plaspy y puede enviar posiciones GNSS y telemetría de periféricos a la plataforma para visualización en mapa en tiempo real, alertas e informes históricos. Sus múltiples entradas de sensores y capacidad de almacenamiento en búfer la hacen adecuada para despliegues que requieren monitoreo antirrobo, supervisión de cadena de frío o integración extendida de sensores dentro de Plaspy, especialmente en flotas mixtas o con equipos legacy donde el 670 sigue en servicio.
 
-## Aspectos destacados
+## Aspectos clave
 
-- Seguimiento en tiempo real compatible con Plaspy con actualizaciones de posición cada 15 segundos para una visibilidad de la flota rápida.
-- GNSS de alta sensibilidad \(MediaTek MT3339\) para una mayor fijación satelital y un rendimiento superior en cañones urbanos.
-- Cálculo de kilometraje por segundo para obtener datos de odómetro y analítica de rutas más precisos en los informes de Plaspy.
-- Monitorización de la tensión de la batería para detectar condiciones de bajo voltaje y reducir fallos de arranque del vehículo.
-- Amplio soporte de periféricos \(sensores de temperatura, sensores de nivel de combustible, DVR, SOS, RFID, TPMS y más\) para ampliar la telemetría y el monitoreo de la cadena de frío.
-- Almacenamiento local de datos \(4 MB de memoria, ~30,000 registros\) con subida automática cuando la conectividad celular se restablece — ideal para conectividad intermitente.
-- Diagnóstico remoto y soporte de actualizaciones de firmware para simplificar el mantenimiento y mantener las unidades listas para Plaspy.
+- Seguimiento en tiempo real compatible con Plaspy y actualizaciones de posición frecuentes para visibilidad operativa
+- Recepción GNSS de alta sensibilidad para mejorar el bloqueo satelital en entornos difíciles
+- Reporte de kilometraje por segundo para soportar odómetro preciso y análisis de rutas en Plaspy
+- Monitorización de voltaje de batería para detectar condiciones de baja tensión y generar alertas preventivas
+- Amplio soporte de periféricos, incluyendo entradas de temperatura y nivel de combustible, además de integración con DVR y botones SOS
+- Almacenamiento local en búfer para retener registros durante cortes de conectividad y enviarlos cuando se restablece la red celular
+- Diagnóstico remoto y soporte de actualización de firmware para simplificar el mantenimiento y mantener los despliegues listos para Plaspy
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el Locator 670 ofrece posicionamiento GNSS continuo y telemetría multisensorial a la plataforma Plaspy para mapas en tiempo real, alertas e informes telemáticos. Los datos del GNSS interno de la unidad, la monitorización de voltaje y los periféricos conectados se empaquetan y cargan por redes celulares a Plaspy, donde se convierten en información accionable para despacho, gestión de excepciones y análisis.
+Al integrarse con Plaspy, el Locator 670 envía posiciones GNSS y datos de sensores conectados a la plataforma, donde se muestran en mapas en vivo, activan alertas y alimentan informes y análisis. Plaspy procesa la telemetría del dispositivo para ofrecer supervisión operativa, gestión de eventos y registros históricos útiles para despacho y cumplimiento.
 
-- Ubicación y telemetría en tiempo real \(actualización de posición cada 15 segundos\).
-- Kilometraje y datos de odómetro por segundo para informes precisos de viaje y utilización en Plaspy.
-- Monitorización de la tensión de la batería para generar avisos de bajo voltaje y prevenir fallos de arranque.
-- Entradas de sensores de temperatura y soporte de sensores de nivel de combustible para flujos de trabajo de cadena de frío y monitorización de combustible.
-- Eventos SOS y periféricos externos \(DVR, RFID, i-Button, TPMS, lectores de código de barras\) enviados a Plaspy para alarmas, registros de eventos y archivos de cumplimiento.
-- Almacenamiento local de datos garantiza que no se pierdan registros: se almacenan localmente y se suben automáticamente cuando haya conectividad.
+- Ubicación y telemetría en tiempo real con intervalos de reporte adecuados para un seguimiento ágil
+- Datos de kilometraje y odómetro por segundo utilizados en informes de viaje y paneles de utilización de Plaspy
+- Entradas de voltaje de batería que generan advertencias y pueden convertirlas en alertas de mantenimiento dentro de Plaspy
+- Entradas para sensores de temperatura y nivel de combustible que soportan flujos de trabajo y alertas para cadena de frío y monitoreo de combustible
+- Eventos SOS y señales de periféricos externos como DVR o RFID se reenvían a Plaspy como alarmas y eventos registrados
+- El búfer local garantiza que los registros almacenados se carguen a Plaspy una vez que se restablece la conectividad
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM 850/900/1800/1900 MHz; UMTS; HSDPA; EDGE; GPRS; Voz; SMS |
-| --- | --- |
-| Bandas | GSM cuádruple banda \(850/900/1800/1900\) con soporte UMTS/HSDPA |
-| Alimentación y batería | Tensión de operación 9 VDC – 35 VDC; Corriente pico \< 500 mA a 24 VDC; En espera \< 80 mA a 24 VDC; incluye batería de respaldo |
-| Interfaces | Entradas digitales x4; Entradas analógicas x2; Entradas de sensor de temperatura x2; SOS x1; Salidas digitales x4; RS-232 x2 |
-| GNSS | Receptor GNSS de alta sensibilidad MediaTek MT3339 |
-| Memoria | 4 MB \(almacenamiento local, aproximadamente hasta 30,000 registros\) |
-| Gestión remota | Soporte integrado para diagnóstico remoto y actualizaciones de firmware |
-| Dimensiones y entorno | 71 mm x 85 mm x 26 mm; Rango de temperatura de funcionamiento -20 °C a 60 °C |
-| Accesorios y cumplimiento | Incluye antena GPS, antena GSM, juego de cables de alimentación, batería de respaldo; Certificaciones: NCC, CE, FCC, Taiwan EPA; Nº de patente 1307324; Hecho en Taiwán \(MIT\) |
+- Gestión de flotas y despacho que requieren auditoría precisa de kilometraje y rutas
+- Entregas en cadena de frío y controladas por temperatura, donde los sensores y alertas protegen la mercancía perecedera
+- Flotas de seguridad vehicular y pública que utilizan reportes SOS y eventos integrados de DVR
+- Monitoreo de combustible y activos con soporte para sensores externos y RFID para reducir pérdidas
+- Integraciones MDVR y telemáticas que sincronizan datos de eventos para cumplimiento y revisión de incidentes
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas y despacho — seguimiento en tiempo real, kilometraje por segundo y auditoría de rutas para camiones y vehículos de servicio.
-- Cadena de frío y entregas con control de temperatura — utilice las entradas de sensor de temperatura y las alertas de Plaspy para proteger la carga perecedera.
-- Seguridad de vehículos y flotas de seguridad pública — informes de eventos SOS, integración de DVR y telemetría para vehículos policiales, de bomberos y de emergencia.
-- Monitoreo de combustible y activos — integre sensores de nivel de combustible y lectores RFID/i-Button para reducir pérdidas y rastrear activos de alto valor.
-- Integraciones MDVR y telemática — puertos RS-232 y múltiples E/S permiten que DVRs y módulos de voz alimenten datos de eventos sincronizados a Plaspy.
+El Locator 670 (IDU-300) puede ser una opción práctica para organizaciones que usan Plaspy cuando existen dispositivos legacy en operación o cuando las flotas ya emplean este modelo. Sus actualizaciones de posición frecuentes, reporte de kilometraje por segundo y monitorización de voltaje aportan análisis más limpios y alertas oportunas en Plaspy, mientras que la amplia compatibilidad con periféricos permite ampliar flujos telemáticos sin integraciones personalizadas complejas.
 
-## Por qué elegir este Localizador con Plaspy
+Dado que el 670 es un modelo 3G descontinuado, las organizaciones que planifiquen despliegues nuevos a gran escala o de larga duración deberían considerar también opciones actuales que cumplan con los estándares celulares modernos. Para entornos mixtos o legacy donde el IDU-300 siga operando, continúa entregando feeds GNSS y de sensores fiables, almacenamiento en búfer local y transmisiones de datos compatibles con Plaspy que respaldan operaciones de flota eficaces.
 
-El Locator 670 \(IDU-300\) ofrece a los operadores de flotas una plataforma telemática 3G probada que se integra a Plaspy para seguimiento en tiempo real, telemetría y monitorización anti‑robo. Su GNSS de alta sensibilidad y las frecuentes actualizaciones de posición mejoran la precisión en el mapa de Plaspy, mientras que el kilometraje por segundo y la monitorización de la tensión de la batería proporcionan análisis más limpios y alertas preventivas. El amplio soporte de periféricos permite extender los flujos de Plaspy hacia la monitorización de temperatura, el seguimiento de combustible, eventos de DVR y datos de panel de despacho sin integraciones personalizadas complejas.
-
-Nota: el Locator 670 \(IDU-300\) está descontinuado. Para despliegues nuevos a gran escala o a largo plazo de Plaspy, evalúe los modelos actuales de la serie IDU con estándares celulares modernos. Sin embargo, para flotas heredadas o entornos de despliegue mixto donde el IDU-300 siga en servicio, continúa proporcionando telemetría fiable, almacenamiento local y flujos de datos compatibles con Plaspy que permiten una gestión de flota eficaz, seguridad y operaciones de cadena de frío.
-
+Para conocer más sobre Plaspy y el uso de dispositivos compatibles dentro de la plataforma visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que es recomendable verificar la información y soporte actual en el sitio oficial de RITI en https://www.riti.com.tw/.

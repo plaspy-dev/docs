@@ -1,62 +1,62 @@
 ---
 slug: /autofon/d
 id: d
-sidebar_label: D-Маяк МОТО
+sidebar_label: D-Маяк
+title: AutoFon - D-Маяк
 sidebar_class_name: menu_item_tracker
+description: Compact covert GPS beacon AutoFon D-Маяк compatible with Plaspy for long life tracking alerts and reliable recovery
+keywords:
+  - AutoFon D-Маяк GPS tracker
+  - AutoFon D-Маяк compatible with Plaspy
+  - D-Маяк tracking software
+  - D-Маяк fleet tracking
+  - covert GPS beacon
+  - anti theft tracker
+  - long life GPS tracker
+  - black box buffer
+  - SOS GPS beacon
+  - discreet vehicle tracker
 ---
-# AutoFon - D-Маяк МОТО
 
-![D-Маяк МОТО](./tracker.jpg)
+# AutoFon - D-Маяк
 
-# AvtoFon D‑Mayak MOTO
+![D-Маяк](./tracker.jpg)
 
-The AvtoFon D‑Mayak MOTO is a compact, Plaspy compatible GPS tracker built for motorcycles and exposed vehicles that need reliable, long‑term monitoring. With GLONASS+GPS positioning and GSM/GPRS communications, the D‑Mayak MOTO delivers precise location, configurable motion and impact detection, and autonomous operation in a sealed waterproof housing — making it an ideal GPS tracker for covert installs, anti‑theft protection and remote telemetry.
+The AutoFon D‑Маяк is a compact autonomous GSM GLONASS GPS beacon designed for covert deployments and anti theft recovery. Built as a low profile tracker with long endurance and configurable reporting, the D‑Маяк is intended for discreet installations where persistent location visibility and dependable event detection are required. Its design emphasizes long autonomous operation and resilient telemetry delivery even when connections are intermittent.
 
-The device supports both SMS control and full GPRS monitoring, so Plaspy users can receive real‑time tracking, alerts and diagnostic telemetry directly on their monitoring server. The D‑Mayak MOTO pairs a high‑sensitivity SIM68R GNSS receiver with a QUECTEL M12 GSM modem, an internal “black box” packet store, and a robust sensor suite — providing dependable data for fleet management, security, and long‑term asset tracking applications.
+As a Plaspy compatible device, the D‑Маяк integrates with the Plaspy monitoring platform to provide real time tracking, alarm notifications and historical telemetry. When paired with Plaspy, the unit’s configurable SMS and GPRS reporting, event detection and onboard data buffering translate into immediate map updates, alert forwarding and continuity of recorded tracks for recovery and fleet oversight scenarios.
 
 ## Key Highlights
 
-- Plaspy compatible: sends coordinates and diagnostics over GPRS or SMS for easy integration with Plaspy monitoring.
-- Long autonomous operation: two CR123A lithium cells \(3.0V, 1500 mAh each\) with up to ~2 years typical life depending on configuration and reporting intervals.
-- Compact, sealed housing: waterproof case and connector module designed for motorcycles and exposed outdoor installations.
-- Robust motion and safety sensors: digital accelerometer for start/motion detection, impact/crash events, tilt/roll and fall detection with configurable sensitivity.
-- Local control and security: internal SOS button, one alarm input, auxiliary channel for remote control of external devices \(engine immobilizer, siren, preheater, etc.\).
-- Reliable data delivery: internal black box stores up to 98,000 GPRS packets and retries transmission when connectivity restores.
-- Remote maintenance: firmware updates over GPRS \(FOTA\) and configurable reporting \(heartbeat, life‑sign messages, device name changes, PIN protection\).
+- Long autonomous operation suitable for covert tracking and long term asset protection, reducing maintenance cycles and battery interventions.
+- Combined GLONASS and GPS positioning for improved location performance compared with single constellation devices.
+- Configurable GPRS monitoring with SMS reporting as a fallback to maintain connectivity and deliver alerts to Plaspy.
+- Digital accelerometer driven event detection for movement start, impacts and other motion events to trigger timely notifications.
+- Large black box buffer that preserves unsent telemetry during network outages and uploads stored packets when connectivity is restored.
+- Built in SOS microbutton, external alarm input and auxiliary control channels to support remote actions and emergency alerts.
+- Compact dimensions and a small form factor that make the unit easy to conceal in vehicles or discreet asset locations.
 
 ## How It Works with Plaspy
 
-Integration with Plaspy is straightforward: the D‑Mayak MOTO transmits location and diagnostic packets via GPRS to your chosen monitoring server or falls back to SMS when required. Plaspy ingests these GPRS packets to provide real‑time tracking, history, and event alerts. The device’s internal buffering and resend logic ensure minimal data loss during temporary connection outages.
+When connected to Plaspy, the D‑Маяк becomes a continuous source of location and event data visible on the platform’s maps and timelines. The device transmits telemetry over GPRS with SMS fallback if configured, and Plaspy ingests those messages to present position history, generate alerts, and populate reports. The tracker’s onboard buffering helps prevent gaps in recorded telemetry by sending stored packets to Plaspy once the connection is reestablished.
 
-- Real‑time location and telemetry updates sent over GPRS to Plaspy \(with SMS fallback\).
-- Accelerometer events \(motion start, impact/crash, tilt/roll, fall\) forwarded as alerts for immediate notification and automated rules.
-- Alarm input and auxiliary channel status for remote control \(e.g., immobilizer activation\) visible in Plaspy dashboards and event streams.
-- Battery, external power status and configurable life‑sign \(heartbeat\) reports for proactive maintenance and uptime monitoring.
-- On‑demand remote audio via integrated microphone and SOS button events for safety and verification scenarios.
+- Real time location updates and position history displayed on Plaspy maps for operational visibility.
+- Forwarding of alarms and SOS events to Plaspy so operators receive immediate notifications and can act quickly.
+- Preservation and later delivery of buffered telemetry to maintain continuous historical tracks inside Plaspy.
+- Remote control actions via auxiliary channels reflected in Plaspy as control events where configured.
+- Audio monitoring and owner presence tag status available as supplementary telemetry for situational awareness.
+- Flexible reporting modes that support intervaled updates and movement driven continuous reporting to match operational needs.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM/GPRS \(QUECTEL M12 module\); SMS control and GPRS packets to monitoring servers |
-| --- | --- |
-| Bands | Not specified in the manufacturer description \(module dependent\) |
-| Power & Battery | Two CR123A 3.0V lithium batteries \(1500 mAh each\); external power input supported; typical autonomous operation up to ~2 years depending on settings; battery discharge monitoring |
-| Interfaces | 1 alarm input; 1 auxiliary channel for remote control \(engine immobilizer, siren, preheater, etc.\); external power connector; sealed connector module for extensions |
-| GNSS | SIM68R GPS chipset with GLONASS+GPS positioning; logical position correction and parking‑point star correction \(AGPS not present\) |
-| Sensors | Digital accelerometer \(multi‑function: motion start, impact/crash, tilt/roll &gt;90°, fall detection\); internal SOS micro‑button; integrated microphone |
-| Storage & Reliability | Internal “black box” capable of storing up to 98,000 GPRS packets; automatic resend when connection is restored |
-| Remote Management | Firmware updates over GPRS \(FOTA\); configurable life‑sign reports; multiple owner numbers and a secondary emergency number; PIN protection; changeable device name |
-| Form Factor | Compact, sealed waterproof housing with connector module for external power and extensions — designed for motorcycles and exposed vehicle installations |
-
-## Use Cases
-
-- Motorcycle anti‑theft and recovery: discreet installation in a sealed case with SOS, motion/impact alerts and remote immobilizer control.
-- Long‑term covert asset monitoring: battery‑efficient tracking for trailers, containers and stationary assets in harsh outdoor conditions.
-- Small fleet management and telemetry: real‑time position, motion events and diagnostic telemetry for motorcycles, scooters or other compact vehicles.
-- Personal or pet tracking where a compact, sealed device is required for occasional long deployments and reliable event notifications.
+- Covert vehicle anti theft and rapid recovery where a discreet tracker helps locate stolen assets.
+- Valuable cargo and container tracking during transit, benefiting from long battery life and telemetry buffering.
+- Remote asset protection for sites without reliable external power such as kiosks, cabins, or equipment storage.
+- Personal or animal tracking scenarios needing a small, long life beacon for safety monitoring.
+- Supplementary unit level monitoring in fleet operations where discreet installation and event alerts add security coverage.
 
 ## Why Choose This Tracker with Plaspy
 
-The AvtoFon D‑Mayak MOTO offers a balance of endurance, ruggedness and sensor intelligence that makes it a strong choice for Plaspy users who need dependable real‑time tracking and event telemetry. Its long battery life and sealed housing reduce maintenance and enable covert placement, while the internal black box and resend logic improve data reliability for critical anti‑theft and fleet management workflows. Remote firmware updates and flexible reporting let administrators keep devices up to date and tuned to their Plaspy workflows.
+The AutoFon D‑Маяк pairs endurance and dependable data handling with Plaspy’s monitoring capabilities to deliver a practical solution for anti theft protection and discreet tracking. Its focus on long autonomous operation, combined positioning and robust event detection, makes it a good match for organizations that need reliable location visibility without frequent servicing. Plaspy leverages the device’s buffered telemetry and alert signals to provide uninterrupted historical records, operator notifications and consolidated reporting.
 
-For organizations and individuals seeking a compact Plaspy compatible GPS tracker with proven telemetry, accelerometer‑based safeguards, and practical remote control options \(immobilizer, siren, preheater\), the D‑Mayak MOTO is engineered to deliver steady, secure tracking without frequent intervention. When integrated with Plaspy, operators gain real‑time visibility, configurable alerts, and historical reporting to support anti‑theft protection, operational monitoring and asset oversight across diverse use cases.
-
+If your use case prioritizes concealment, long battery life and consistent delivery of location and event data to a central monitoring system, the D‑Маяк is a pragmatic option to consider for use with Plaspy. To learn more about Plaspy, visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current specifications on the manufacturer’s official website https://www.autofon.ru/.

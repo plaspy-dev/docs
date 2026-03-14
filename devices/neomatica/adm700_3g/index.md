@@ -2,60 +2,59 @@
 slug: /neomatica/adm700_3g
 id: adm700_3g
 sidebar_label: ADM700 3G
+title: Neomatica - ADM700 3G
 sidebar_class_name: menu_item_tracker
+description: Rugged 3G GNSS tracker from Neomatica compatible with Plaspy for vehicle and machinery telematics
+keywords:
+  - Neomatica ADM700 3G
+  - ADM700 3G tracker
+  - ADM700 3G Plaspy
+  - ADM700 3G GPS tracker
+  - ADM700 3G fleet tracking
+  - Neomatica tracker
+  - industrial GPS tracker
+  - vehicle telematics
+  - fleet management tracker
+  - ADM700 compatibility Plaspy
 ---
+
 # Neomatica - ADM700 3G
 
 ![ADM700 3G](./tracker.png)
 
-The ADM700 3G from a reliable industrial telematics manufacturer is a Plaspy compatible GPS tracker engineered for demanding vehicle and special machinery deployments. With combined GPS/GLONASS positioning, 3G UMTS cellular connectivity, robust environmental protection \(IP65, IK07\) and wide voltage tolerance, the ADM700 3G delivers continuous real-time tracking and rich telemetry for fleet management, logistics and heavy equipment operations when integrated with Plaspy.
+The ADM700 3G from Neomatica is a rugged industrial telematics tracker designed for demanding vehicle and special machinery deployments. It combines GNSS positioning with 3G cellular connectivity and is built to withstand harsh conditions with IP65 dust and water resistance and IK07 impact protection. The device offers wide voltage tolerance and substantial onboard logging, making it suitable for continuous real-time tracking and buffered data collection in environments where connectivity may be intermittent.
 
-Designed for turnkey integration, the ADM700 3G supports EGTS and an open protocol, dual-SIM operation, voice channels and remote firmware updates over GPRS — features that simplify connection to Plaspy for live location, event-driven alerts and telematics reporting. Its high-sensitivity 132-channel GNSS receiver and extensive I/O make the ADM700 3G a durable choice for tracking, anti-theft monitoring and detailed telemetry collection in industrial environments.
+As a Plaspy compatible device, the ADM700 3G supports open protocol options and EGTS to simplify server integration and data delivery. Its feature set, which includes dual SIM operation, voice channels, remote firmware updates over cellular, and extensive I O, aligns with typical Plaspy workflows for live location, event driven alerts, historical playback, and operational reporting. This combination makes the ADM700 3G a practical choice for organizations that want rugged hardware paired with the visibility and management tools provided by Plaspy.
 
 ## Key Highlights
 
-- Plaspy compatible: open protocol and EGTS support allow straightforward integration for real-time tracking and fleet management.
-- Robust positioning: GPS + GLONASS support with –165 dBm sensitivity and 132 channels for fast satellite acquisition and stable location fixes.
-- Industrial durability: IP65 dust/water resistance, IK07 impact protection and surge protection up to +600 V for harsh vehicle and machinery environments.
-- Comprehensive vehicle I/O: multiple analog/discrete inputs, pulse inputs, open-collector outputs and CAN \(FMS/J1939\) for telemetry and event capture.
-- Reliable connectivity: GSM/UMTS 850/900/1800/1900/2100 bands with GPRS/EDGE/HSDPA data transmission and dual SIM for network redundancy.
-- Power resilience: wide operating voltage \(+8.5…+48 V\) with short-term tolerance to +75 V and a 1000 mAh Li‑ion backup battery \(~6 hours\).
-- High-capacity logging: up to 150,000 internal records and expandable storage via microSD \(up to ~8,000,000 records on 1 GB\) for offline logging.
+- Plaspy compatible through open protocol and EGTS support for straightforward integration with fleet platforms.
+- Robust positioning with GNSS support and a high sensitivity receiver for reliable satellite acquisition and stable fixes.
+- Industrial durability built for harsh vehicle and machinery environments with dust water resistance and impact protection.
+- Comprehensive vehicle I O and logging capabilities to capture status, events and extended offline records.
+- Reliable cellular connectivity options and dual SIM support to improve network redundancy and uptime.
+- Large internal memory plus microSD support for extensive offline logging and historical data retention.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the ADM700 3G sends secure telemetry and location data to the Plaspy platform over cellular networks \(GPRS/EDGE/HSDPA\). Plaspy ingests GNSS fixes, CAN bus telemetry \(FMS/J1939\), analog and discrete inputs, accelerometer events and time-stamped records from internal memory or microSD to provide live tracking, historical playback, alerts and reports tailored to fleet management and anti-theft workflows.
+When connected to Plaspy, the ADM700 3G transmits location and telemetry to the platform over cellular networks where Plaspy consolidates device data for live monitoring and historical analysis. Plaspy ingests GNSS fixes and the device s recorded event data so fleet managers can use standard Plaspy tools for mapping, alerts, and reporting.
 
-- Real-time location and telemetry updates sent to Plaspy via GPRS/EDGE/HSDPA; domain name addressing is supported for flexible server routing.
-- Vehicle status and sensor readings captured from analog/discrete inputs and CAN \(FMS/J1939\) are available to Plaspy for diagnostics and reporting.
-- Event logging and offline records: recorded data stored internally \(up to 150,000 records\) or on microSD is uploaded to Plaspy when connectivity resumes.
-- Accelerometer and built-in temperature sensor data provide motion and environment context for Plaspy alerts \(impact, harsh braking, temperature thresholds\).
-- Remote firmware updates over GPRS enable fleet-wide maintenance and configuration management through manufacturer procedures, simplifying Plaspy deployments.
+- Live location updates and continuous telemetry feed into Plaspy dashboards for real time fleet visibility.
+- Vehicle status and sensor inputs are made available to Plaspy for diagnostics, maintenance triggers, and operational alerts.
+- Offline records stored on internal memory or microSD are uploaded to Plaspy when connectivity is restored for accurate historical playback.
+- Event driven alerts such as impact, motion or other sensor thresholds can be translated into Plaspy notifications and workflows.
+- Remote firmware update support helps keep device fleets manageable while maintaining Plaspy connectivity across deployments.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM/UMTS with GPRS/EDGE/HSDPA data transmission |
-| --- | --- |
-| Bands | GSM/UMTS 850 / 900 / 1800 / 1900 / 2100 \(3G UMTS support for ADM700 3G\) |
-| Power & Battery | Operating voltage +8.5…+48 V \(short-term up to +75 V\); surge protection up to +600 V; Li‑ion backup battery 1000 mAh \(~6 hours\) |
-| Interfaces | 6 analog/discrete inputs; 2 pulse/discrete inputs; 4 open-collector outputs; RS-485; RS-232; CAN \(FMS, J1939\); 1-Wire bus for up to 8 temperature sensors |
-| GNSS | GPS + GLONASS support; high-sensitivity receiver –165 dBm; 132 channels |
-| Bluetooth | Not included in ADM700 3G \(use Plaspy-compatible BLE gateways if Bluetooth sensor integration is required\) |
-| Remote Management | Remote firmware updates over GPRS; manufacturer documentation and firmware available via support |
-| Memory & Logging | Internal non-volatile logging up to 150,000 records; microSD support \(1 GB example holds up to ~8,000,000 records\) |
-| Form Factor & Protection | Rugged vehicle/industrial enclosure; IP65 dust/water resistance; IK07 impact protection; integrated GPS/GLONASS and GSM antennas |
-
-## Use Cases
-
-- Fleet management: continuous real-time tracking, route playback, CAN-derived vehicle telemetry and driver behavior analysis via Plaspy dashboards.
-- Logistics and asset tracking: reliable position and event logging for trailers, containers and mixed fleets with offline record buffering.
-- Heavy equipment monitoring: rugged IP65/IK07 design and wide voltage range allow the ADM700 3G to capture telemetry on construction and agricultural machinery.
-- Anti-theft & security workflows: geofence alerts, accelerometer events and remote control integration through outputs combined with Plaspy alerting.
-- Temperature and sensor monitoring: 1-Wire bus support for up to eight temperature sensors for refrigerated loads or environment-sensitive cargo.
+- Fleet management for real time tracking, route playback and operational reporting across mixed vehicle fleets.
+- Logistics and trailer monitoring with robust offline logging and reliable position reporting for long hauls.
+- Heavy equipment tracking on construction or agricultural sites where a rugged enclosure and wide voltage range are needed.
+- Anti theft and security workflows using geofences, motion events and remote control outputs integrated into Plaspy alerts.
+- Temperature sensitive cargo monitoring when paired with supported external sensors for environment awareness.
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the ADM700 3G for Plaspy integration delivers a balance of rugged hardware, comprehensive I/O and proven connectivity to support scalable fleet management and telemetry. Its support for EGTS and open protocol simplifies server-side integration, while dual SIM and voice channels improve uptime and operational flexibility. Remote firmware updates and manufacturer support help keep devices current across large deployments.
+The ADM700 3G pairs rugged hardware and flexible connectivity with the visibility and management capabilities of Plaspy, making it a good fit for organizations that operate in industrial or mixed fleet environments. Its open protocol and EGTS support help reduce integration effort, while dual SIM and voice features increase operational resilience. The device s extensive I O and logging options allow Plaspy to surface meaningful telemetry for maintenance, security, and operational oversight.
 
-For operations that require anti-theft measures, immobilizer workflows can be implemented within Plaspy using the device’s configurable outputs and event logic when integrated with appropriate control hardware. For customers needing Bluetooth sensor integration, Plaspy can extend telemetry by pairing ADM700 3G units with compatible BLE gateways. Overall, the ADM700 3G is a rugged, telematics-ready tracker designed to provide reliable real-time tracking, telemetry, fuel/engine data via CAN, and resilient logging — all essential elements for modern fleet management on the Plaspy platform.
-
+Learn more about how Plaspy can work with devices like the ADM700 3G by visiting the Plaspy website at https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical information on the manufacturer site https://neomatica.com/.

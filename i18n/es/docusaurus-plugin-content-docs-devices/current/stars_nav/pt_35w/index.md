@@ -2,59 +2,59 @@
 slug: /stars_nav/pt_35w
 id: pt_35w
 sidebar_label: PT-35W
+title: Stars Nav - PT-35W
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto IP66 para motos, embarcaciones y caravanas compatible con Plaspy para alertas de ubicación y larga duración en espera
+keywords:
+  - Stars Nav PT-35W
+  - Rastreador GPS PT-35W
+  - Rastreador impermeable PT-35W
+  - PT-35W compatible con Plaspy
+  - rastreador GPS marino
+  - rastreador GPS para motocicleta
+  - seguimiento de activos
+  - seguimiento de flotas
+  - GPS de larga autonomía
+  - rastreador GPS IP66
 ---
+
 # Stars Nav - PT-35W
 
 ![PT-35W](./tracker.jpg)
 
-El rastreador GPS impermeable PT-35W de PT \(modelo PT-35W\) es un rastreador GPS compacto y robusto diseñado para aplicaciones al aire libre y en entornos marinos, y es compatible con Plaspy para una gestión de flotas y monitorización de activos sin fisuras. Al estar alojado en una carcasa con clasificación IP66 y diseñado para un funcionamiento de bajo consumo, el PT-35W es ideal para motocicletas, barcos a motor, caravanas y otros equipos que requieren largos tiempos en modo de espera o energía externa intermitente.
+El PT-35W es un rastreador GPS compacto y resistente, diseñado para entornos exteriores y marinos. Con una carcasa clasificada IP66 y un diseño orientado al bajo consumo, el equipo es ideal para su instalación en motocicletas, embarcaciones, caravanas y otros activos que requieren resistencia a la intemperie y una larga autonomía en modo espera. El dispositivo combina reportes de ubicación por GPS con funciones de control remoto vía SMS y una batería interna de respaldo para soportar seguimientos desatendidos y flujos de trabajo anti robo.
 
-El PT-35W combina un reporte de ubicación confiable basado en GPS con funciones de control remoto por SMS y una batería interna de respaldo, permitiendo respuestas antifurto a distancia, rastreo sin supervisión a largo plazo y una integración sencilla en Plaspy para ubicación en tiempo real, alertas y telemetría. Su diseño robusto y la entrada de alimentación flexible lo convierten en una opción práctica cuando la resistencia a las condiciones climáticas y la autonomía de la batería son importantes.
+Como dispositivo compatible con Plaspy, el PT-35W puede enviar su ubicación e información de estado a Plaspy para la gestión centralizada de flotas y la supervisión de activos. Su comportamiento de larga espera, su retorno automático al estado en línea cuando se restablece la alimentación externa y sus entradas de alarma lo hacen práctico para organizaciones que necesitan visibilidad confiable, controles remotos sencillos y notificaciones de eventos dentro de la plataforma Plaspy.
 
-## Aspectos clave
+## Aspectos destacados
 
-- Carcasa a prueba de agua IP66 y formato compacto para montaje discreto en motocicletas, barcos y caravanas.
-- Amplio rango de entrada de alimentación \(6–37 V\) para una instalación sencilla en diversos tipos de vehículos y equipos.
-- Batería interna de respaldo con modo de sueño de bajo consumo configurable — el funcionamiento en modo espera puede extenderse de meses hasta 2–3 años según la configuración.
-- Control remoto por SMS que incluye comandos de encendido/apagado del motor para anti-robo e inmovilización remota.
-- Entrada de pánico para alertas de emergencia y flujos de respuesta rápida.
-- Reconexión automática a la red y recarga de la batería cuando se restablece la energía externa — reduce el mantenimiento y las revisiones manuales.
-- Diseñado para el rastreo de activos a largo plazo sin supervisión, recuperación ante robo y reporte básico de telemetría.
+- Carcasa impermeable IP66 y formato compacto apto para montaje en exteriores y entornos marinos expuestos.
+- Amplio rango de entrada de alimentación para compatibilidad con diversos sistemas eléctricos de vehículos y equipos.
+- Batería interna de respaldo y modo de suspensión configurable de bajo consumo para extender la vida en espera en seguimientos desatendidos a largo plazo.
+- Control remoto vía SMS, incluyendo comandos de encendido y apagado del motor, para soportar inmovilización remota básica y acciones de recuperación.
+- Entrada de pánico para alertas de emergencia y flujos de notificación rápida.
+- Retorno automático a línea y comportamiento de carga de batería cuando se restablece la alimentación externa para reducir la intervención manual.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el PT-35W proporciona información de ubicación y estado confiable que Plaspy puede usar para el seguimiento en tiempo real, alertas de geocerca y paneles de gestión de flotas. El control remoto por SMS y los informes de estado del rastreador facilitan la combinación de datos GPS y entradas de alarma en los flujos de trabajo de Plaspy. Los métodos de integración dependen de su operador y de la variante de conectividad específica en uso; Plaspy admite la ingestión de ubicación y telemetría a través de protocolos estándar de dispositivos o puertas de enlace SMS cuando sea aplicable.
+Al integrarse con Plaspy, el PT-35W aporta actualizaciones de ubicación y estado que alimentan los paneles, alertas y reportes de Plaspy. Según la variante de conectividad del equipo y el operador, Plaspy puede recibir datos de ubicación y eventos directamente o a través de gateways SMS donde aplique, permitiendo a los equipos centralizar la vigilancia y responder a alarmas de forma eficiente.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(informes de ubicación basados en GPS enviados a Plaspy — el método de entrega depende de la variante del dispositivo y de la configuración de la red\).
-- Comandos de encendido/apagado del motor vía SMS para inmovilización remota o acciones de reinicio desde Plaspy cuando el control por SMS está habilitado.
-- Estado de la entrada de pánico y alertas de emergencia retransmitidas a Plaspy para una gestión rápida de incidentes.
-- Modo de sueño de bajo consumo para maximizar el tiempo de espera; Plaspy puede recibir actualizaciones de activación cuando el dispositivo vuelva a estar en línea.
-- La monitorización de combustible y la telemetría avanzada no están integradas en el PT-35W; Plaspy puede incorporar esos flujos de datos si se instalan sensores externos u hardware complementario.
+- Actualizaciones de ubicación en tiempo real y reportes de estado enviados a Plaspy para seguimiento en mapas y vista general.
+- Geocercas y alertas personalizadas basadas en la ubicación o en eventos de la entrada de pánico capturados por el dispositivo.
+- Acciones remotas de encendido y apagado del motor vía SMS que pueden integrarse en flujos de trabajo de Plaspy cuando esté habilitado el control por SMS.
+- El modo de suspensión y las notificaciones de activación permiten que Plaspy refleje el estado en línea fuera de línea del dispositivo y reduzca el volumen de reportes en despliegues de larga espera.
+- Los datos de eventos e incidentes del rastreador se pueden combinar con los reportes de Plaspy para obtener supervisión operativa y seguimiento de cumplimiento.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Celular con capacidad de control remoto por SMS \(las tecnologías de datos específicas no se especifican en la descripción\) |
-| --- | --- |
-| Bandas | No se especifican en la descripción proporcionada |
-| Potencia & Batería | Amplio rango de entrada de alimentación 6–37 V; batería interna de respaldo; recarga automática de la batería cuando se restablece la energía externa; modo de sueño configurable con standby desde meses hasta 2–3 años según uso y configuración |
-| Interfaces | Control remoto por SMS de encendido/apagado del motor; entrada de pánico para emergencia/antirrobo; comportamiento de sueño/despertar de bajo consumo \(no se detallan E/S adicionales en la descripción\) |
-| GNSS | Informe de ubicación basado en GPS \(se confirma el soporte GPS\) |
-| Bluetooth | No se mencionan sensores o balizas Bluetooth en la descripción |
-| Gestión remota | Características de control remoto por SMS para comandos y estado; no se especifica explícitamente FOTA o gestión web en la descripción |
-| Formato | Montaje compacto y discreto; carcasa impermeable con clasificación IP66 adecuada para uso al aire libre expuesto y en entornos marinos |
-
-## Casos de uso
-
-- Monitoreo de activos de la flota — rastree motocicletas, caravanas arrastradas o remolques pequeños como parte de un programa de gestión de flotas más amplio en Plaspy.
-- Seguimiento de equipos marinos y al aire libre — instale en barcos a motor o equipos expuestos donde se requiera protección IP66 y largos periodos de espera.
-- Antirrobo y recuperación — utilice el control de motor por SMS y la entrada de pánico para una inmovilización rápida y alertas vía Plaspy.
-- Activos a largo plazo sin supervisión — ideal para equipos estacionales, contenedores o vehículos almacenados que requieren una larga vida de batería y activación automática al restablecer la energía para verificaciones periódicas.
-- Telemetría básica y monitoreo de incidentes — combine ubicación GPS, entrada de pánico y estado en línea/offline en informes y alertas de Plaspy.
+- Monitoreo de activos de flota para motocicletas, caravanas remolcadas y vehículos pequeños dentro de una flota más amplia.
+- Rastreo de equipos marinos y de exteriores donde se requiere protección IP66 y resistencia a la intemperie.
+- Flujos de trabajo anti robo y recuperación que utilizan inmovilización remota y alertas por entrada de pánico.
+- Activos desatendidos a largo plazo, como equipos de temporada o vehículos almacenados, donde la larga vida de batería y el encendido automático al recibir energía son relevantes.
+- Telemetría básica y monitoreo de incidentes que combinan ubicación, entrada de pánico y estado en línea para generar alertas e informes en Plaspy.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El PT-35W ofrece una opción duradera y de bajo mantenimiento para quien necesite rastreo GPS compatible con Plaspy en entornos hostiles o con suministro eléctrico intermitente. Su diseño con clasificación IP66 y su amplio rango de tensión significan menos restricciones de instalación en motocicletas, barcos y caravanas, mientras que la batería interna de respaldo y el modo de sueño configurable prolongan la vida operativa cuando la energía externa no está disponible. Combinado con Plaspy, el PT-35W ofrece un seguimiento en tiempo real práctico, controles anti-robo y notificaciones de eventos sin necesidad de intervenciones manuales frecuentes.
+El PT-35W es una opción práctica para organizaciones que buscan un rastreador resistente a la intemperie y de bajo mantenimiento que se integre con Plaspy para una visibilidad centralizada. Su carcasa robusta, rango de alimentación flexible y batería de respaldo soportan despliegues con alimentación externa intermitente y exposición a los elementos, mientras que los controles por SMS y las entradas de alarma facilitan el manejo de emergencias y la protección contra robo.
 
-Elige el PT-35W con Plaspy cuando necesites un rastreador GPS confiable y a prueba de intemperie para la gestión de flotas, protección anti-robo y monitoreo de activos a largo plazo. Su control remoto por SMS y la entrada de pánico crean flujos de trabajo simples para la inmovilización y alertas de emergencia, mientras Plaspy centraliza la ubicación, la telemetría y las alertas en una única interfaz de gestión de flotas, simplificando las operaciones y mejorando los tiempos de respuesta para los equipos de campo.
-
+Si desea conocer más sobre cómo Plaspy puede utilizar los datos del PT-35W para seguimiento de flotas, alertas y reportes visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y la información del fabricante en el sitio oficial de Stars Nav http://www.starsnav.com/.

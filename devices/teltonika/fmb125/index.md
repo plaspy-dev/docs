@@ -2,62 +2,61 @@
 slug: /teltonika/fmb125
 id: fmb125
 sidebar_label: FMB125
+title: Teltonika - FMB125
 sidebar_class_name: menu_item_tracker
+description: Compact Teltonika FMB125 GPS tracker compatible with Plaspy for real time fleet tracking, telemetry and RFID driver identification
+keywords:
+  - Teltonika FMB125
+  - FMB125 tracker
+  - FMB125 Plaspy
+  - Teltonika tracker
+  - GPS fleet tracking
+  - vehicle telemetry
+  - RFID driver identification
+  - fuel monitoring
+  - RS232 RS485 tracker
+  - Iridium satellite fallback
 ---
+
 # Teltonika - FMB125
 
 ![FMB125](./tracker.png)
 
-# FMB125
+The FMB125 is a compact, professional GPS tracker from Teltonika designed for fleet management and advanced telemetry. It provides reliable real time location reporting alongside a range of integration options such as onboard RFID, 1‑wire support, impulse input for fuel meters, and serial interfaces for third party devices. The unit also supports dual SIM 2G cellular connectivity and can interface with an Iridium Edge satellite modem for coverage beyond terrestrial networks.
 
-The FMB125 is a compact, professional GPS tracker from Teltonika designed for fleet management and advanced telemetry. Plaspy compatible out of the box, the FMB125 delivers reliable real-time tracking and flexible integration options — from RFID-based driver identification to serial sensor telemetry — making it well suited for logistics, service fleets, and asset management where consistent location and usage data are essential.
-
-The device combines dual‑SIM 2G cellular connectivity with RS232/RS485 serial interfaces, impulse input for fuel meters, onboard RFID and 1‑wire support. For operations that require global reach beyond cellular networks, the FMB125 can work with an Iridium Edge® satellite modem via the RS232 port. Please note the FMB125 is listed as End of Life \(EOL\); newer 4G/LTE-M replacements \(FMC125, FMM125\) are recommended for new long-term deployments.
+As a device listed as Plaspy compatible out of the box, the FMB125 can feed GNSS position data and operational telemetry directly into the Plaspy platform for monitoring, alerting, and reporting. That compatibility makes the FMB125 a practical choice for existing deployments that require vehicle tracking, driver identification workflows, and basic telemetry integration, while noting the model is End of Life and newer 4G or LTE alternatives are recommended for new long term projects.
 
 ## Key Highlights
 
-- Plaspy compatible: seamless ingestion of GNSS location and telemetry for real-time tracking and reporting.
-- Dual‑SIM 2G cellular for resilient connectivity and reduced roaming costs in supported regions.
-- RS232 and RS485 serial interfaces enable third‑party device integration and advanced telemetry collection.
-- Impulse input support for accurate fuel monitoring from flow meters and pulse sensors.
-- Onboard RFID and 1‑wire support for quick driver or asset identification workflows.
-- Satellite fallback option via Iridium Edge® through RS232 for coverage beyond terrestrial networks.
-- Compact, vehicle‑oriented form factor with packaged GNSS antenna and power cable options for easy installation.
+- Plaspy compatible for direct ingestion of GNSS location and telemetry into fleet dashboards and reports.
+- Compact vehicle tracker form factor suitable for cars, vans, and trucks.
+- Dual SIM 2G cellular connectivity for resilient coverage in supported regions.
+- RS232 and RS485 serial interfaces to integrate third party sensors and devices.
+- Impulse input support that enables pulse based fuel flow meter reporting.
+- Onboard RFID and 1‑wire support for driver or asset identification workflows.
+- Option to use an Iridium Edge satellite modem via serial connection to extend coverage beyond cellular.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the FMB125 streams GNSS position data and telemetry over cellular or satellite links into Plaspy’s platform for real-time tracking, alerts, and historical reporting. Plaspy can consume serial sensor data and pulse inputs delivered by the FMB125, enabling fleet managers to combine location with operational metrics such as fuel usage and driver identification events.
+When connected to Plaspy, the FMB125 streams position and telemetry over available links so fleet managers can view live locations, receive alerts, and run historical reports. Plaspy consumes the device inputs and presents combined location and operational data to support oversight and decision making across a fleet.
 
-- Real-time location and telemetry updates to Plaspy for live mapping and geofencing alerts.
-- Impulse input data \(fuel flow meters\) transmitted as telemetry for fuel monitoring and reporting.
-- RS232/RS485 serial sensor integration: temperature, CAN gateways, and other third‑party devices \(data forwarded to Plaspy\).
-- RFID and 1‑wire events for driver/asset identification and access logging in Plaspy workflows.
-- Satellite fallback via Iridium Edge® \(connected over RS232\) to extend tracking coverage where cellular is unavailable.
-- Remote configuration and firmware management using Teltonika FOTA WEB and Configurator, with settings and updates coordinated with Plaspy integration procedures.
+- Real time location updates appear on Plaspy maps for live fleet visibility and route monitoring.
+- Telemetry from impulse inputs is surfaced in Plaspy for fuel monitoring and consumption reporting.
+- Serial data from RS232 or RS485 connected devices can be forwarded to Plaspy for combined analytics and logging.
+- RFID and 1‑wire events are used in Plaspy workflows to link trips to drivers or assets for accountability.
+- Satellite fallback via an Iridium Edge modem provides Plaspy with extended coverage where cellular is not available.
+- Remote configuration and firmware management can be coordinated through Teltonika tools alongside Plaspy integration procedures.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G cellular \(dual‑SIM\). Optional satellite connectivity via Iridium Edge® modem through RS232. |
-| --- | --- |
-| Bands | 2G \(GSM\) — specific frequency bands depend on product variant/region. |
-| Power & Battery | Vehicle‑powered. Ships with power cable in typical packages; no internal backup battery specified in product documentation. |
-| Interfaces | RS232, RS485 serial ports; impulse input for fuel meters; 1‑wire; onboard RFID reader. |
-| GNSS | GNSS receiver \(GPS\); external GNSS antenna supplied with some packages. |
-| Bluetooth | Not specified for this model. |
-| Remote Management | Teltonika FOTA WEB and Teltonika Configurator for firmware updates and configuration. Support resources available on Teltonika's wiki. |
-| Form Factor | Compact vehicle tracker designed for installation in cars, vans, and trucks. |
-
-## Use Cases
-
-- Fleet management: real‑time vehicle tracking, route optimization, and operational telemetry reporting through Plaspy.
-- Fuel monitoring: connect pulse fuel flow meters to the impulse input to report consumption and detect anomalies.
-- Driver identification and access control: RFID and 1‑wire support for logging driver events and linking trips to personnel records.
-- Advanced telemetry: RS232/RS485 enables integration with CAN adapters, temperature sensors, or other third‑party telemetry devices for comprehensive vehicle data.
-- Remote asset tracking beyond cellular networks using Iridium Edge® satellite modem integration where continuous coverage is required.
+- Fleet management for logistics and service vehicles requiring real time tracking and route history.
+- Fuel monitoring using pulse flow meters to report consumption trends and detect anomalies.
+- Driver identification and access logging using onboard RFID and 1‑wire support to associate trips with personnel.
+- Integration of vehicle telemetry via serial interfaces for broader operational monitoring.
+- Remote asset tracking in areas with limited cellular coverage when paired with a satellite modem.
 
 ## Why Choose This Tracker with Plaspy
 
-The FMB125 provides a compact, integration‑friendly option for fleets that need dependable real‑time tracking, telemetry and fuel monitoring combined with the flexibility of serial connectivity. Its dual‑SIM design helps maintain cellular uptime, while RS232/RS485 and RFID support let you bring a wide range of vehicle and sensor data into Plaspy for richer analytics and operational control. For operations requiring truly global reach, the FMB125’s ability to interface with an Iridium Edge® satellite modem delivers a practical path to expanding coverage.
+The FMB125 is a solid integration friendly option for organizations that need dependable vehicle tracking combined with flexible telemetry inputs. Its compact form factor and support for RFID, pulse inputs, and serial connections make it useful for fleets that want to combine location data with operational metrics inside Plaspy for enhanced reporting and oversight. Because the model supports satellite connectivity through an external modem, it also offers a path to extended coverage when required.
 
-Although the FMB125 is now EOL, its proven feature set and compatibility with Plaspy make it a solid choice for existing deployments. For new projects or where 4G/LTE-M connectivity is preferred, consider Teltonika’s FMC125 \(4G\) or FMM125 \(LTE Cat M1/NB‑IoT\) family as updated alternatives that simplify long‑term network support and future scalability. In either case, integration and lifecycle management are streamlined through Teltonika’s FOTA WEB and Configurator tools, and Plaspy’s platform support for GPS tracker telemetry ensures a smooth deployment and ongoing operation.
-
+Note that the FMB125 is listed as End of Life; for new deployments you may prefer Teltonika models with newer cellular technologies for longer term network support. To learn more about how Plaspy works with devices like the FMB125, visit https://www.plaspy.com. Product specifications and availability can change over time, so verify current details on the manufacturer site https://www.teltonika-gps.com/ before making purchasing or deployment decisions.

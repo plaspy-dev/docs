@@ -2,21 +2,59 @@
 slug: /bofan/pt_100
 id: pt_100
 sidebar_label: PT-100
+title: Bofan - PT-100
 sidebar_class_name: menu_item_tracker
+description: Compact low cost GPS car tracker compatible with Plaspy for real time and historical vehicle tracking and alerting
+keywords:
+  - Bofan PT-100
+  - PT-100 GPS tracker
+  - Bofan tracker
+  - vehicle tracking
+  - fleet management
+  - Plaspy compatible
+  - GPRS tracking
+  - SMS tracking
+  - SOS alert
+  - geofence alert
 ---
+
 # Bofan - PT-100
 
 ![PT-100](./logo.jpg)
 
-The Bofan PT-100 is a low-cost GPS car tracker that offers reliable tracking capabilities for vehicles. With its compact design and advanced features, it is an ideal choice for individuals and businesses looking to enhance the security and management of their vehicles.
+The Bofan PT-100 is a low cost GPS car tracker designed for reliable vehicle tracking and basic fleet oversight. Its compact form factor and feature set make it suitable for individuals and businesses that need continuous location visibility, position logging, and configurable alerts. The device supports SMS and live tracking via GPRS, offers position logging for thousands of waypoints, and includes practical safety features such as an SOS button and geo fence alerts.
 
-One of the standout features of the PT-100 is its ability to track vehicles either via SMS or live tracking through GPRS. This allows users to monitor the location of their vehicles in real-time, ensuring that they are always aware of their whereabouts. Additionally, the tracker supports tracking by time interval, allowing users to set specific time intervals at which the tracker will provide updates on the vehicle's location.
+As a Plaspy compatible device, the PT-100 can feed vehicle location and alert data into the Plaspy platform so fleets and vehicle owners can view live positions, review historical routes, and receive notifications through a single interface. Its support for time interval reporting and multiple alert types makes it a useful option for organizations that want an affordable tracker that integrates with Plaspy for ongoing monitoring and operational oversight.
 
-The PT-100 also boasts a position logging capacity of up to 3,000+ waypoints, ensuring that users have access to detailed historical data about their vehicle's movements. This can be particularly useful for fleet management purposes or for keeping track of personal vehicles. The tracker also includes an SOS button, which can be used in emergency situations to send an alert to designated contacts.
+## Key Highlights
 
-Other notable features of the PT-100 include geo-fence alerts, low power alerts, cut power alerts, and over speed alerts. These features help users to set up customized notifications and alerts based on specific parameters, ensuring that they are promptly notified of any unusual or unauthorized activities involving their vehicles. The tracker also offers the option for engine cut functionality, allowing users to remotely disable the vehicle's engine if necessary.
+- Cost effective GPS car tracker with a compact design suitable for many vehicle types
+- Supports SMS reporting and live tracking through GPRS for flexible connectivity
+- Time interval reporting and 3,000 plus waypoint position logging for historical playback
+- Built in SOS button and multiple alert types including geofence, overspeed, low power, and cut power
+- Engine cut functionality for remote immobilization where supported and required
+- Includes digital inputs and an output for basic integrations and external triggers
 
-In terms of connectivity, the PT-100 supports both SMS and GPRS communication, providing users with multiple options for accessing the tracker's data. It also includes an internal GSM antenna for improved signal reception. The tracker is equipped with 2 digital inputs, 1 negative and 1 positive triggering, as well as 1 output, allowing for additional customization and integration with other devices or systems.
+## How It Works with Plaspy
 
-Overall, the Bofan PT-100 is a cost-effective GPS car tracker that offers a range of features to enhance vehicle tracking and management. Whether you need to monitor a single vehicle or an entire fleet, the PT-100 provides the necessary tools to ensure the safety and security of your vehicles.
+When connected to Plaspy, the PT-100 streams position updates and alert messages so they can be displayed on maps, included in reports, and tied into operational workflows. Plaspy organizes incoming location data and alerts to provide consolidated visibility across vehicles and assets.
 
+- Live map visibility for real time vehicle tracking inside the Plaspy interface
+- Historical route playback using stored waypoints to review past movements
+- Configurable alert mapping so geofence, SOS, overspeed, and power alerts appear as platform notifications
+- Scheduled reporting and time interval data feeding into Plaspy for periodic status updates
+- Use of digital inputs and the output to reflect external triggers and actions within Plaspy dashboards
+
+## Typical Use Cases
+
+- Personal vehicle security and location monitoring
+- Small fleet tracking for delivery or service vehicles
+- Rental and shared vehicle oversight with historical route review
+- Remote alerting for emergency situations using the SOS button
+- Asset supervision where ongoing location logs are needed for audits or records
+
+## Why Choose This Tracker with Plaspy
+
+The PT-100 is a practical choice for organizations seeking a budget friendly tracker that covers essential tracking, alerting, and historical logging needs. Its combination of SMS and GPRS reporting, waypoint history, and configurable alerts makes it well suited to basic fleet management and vehicle security scenarios. For teams using Plaspy, the PT-100 provides the data points needed to maintain visibility and respond to incidents without requiring a complex hardware footprint.
+
+If you want to learn more about how Plaspy can integrate with Bofan trackers like the PT-100 and support your vehicle monitoring needs, visit https://www.plaspy.com. Product specifications, availability, and manufacturer features can change over time, so please verify current device details and documentation with the manufacturer at https://www.bofancloud.com/.

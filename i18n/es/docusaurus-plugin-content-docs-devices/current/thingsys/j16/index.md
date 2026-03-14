@@ -2,61 +2,60 @@
 slug: /thingsys/j16
 id: j16
 sidebar_label: J16
+title: ThingSys - J16
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto compatible con Plaspy, 4G LTE con respaldo 2G para localización de flotas en tiempo real
+keywords:
+  - ThingSys J16
+  - ThingSys J16 rastreador GPS
+  - rastreador J16
+  - J16 compatible Plaspy
+  - Tracker ThingSys
+  - rastreador GPS vehicular
+  - rastreo de flotas
+  - seguimiento en tiempo real
+  - telemetría vehicular
+  - J16A J16B
 ---
+
 # ThingSys - J16
 
 ![J16](./tracker.jpg)
 
-El J16 es un rastreador GPS para vehículos compacto, compatible con Plaspy, basado en el módulo SIMCOM 7670SA. Con conectividad 4G LTE \(CAT1\) y respaldo 2G, el J16 ofrece seguimiento en tiempo real fiable y telemetría del vehículo para la gestión de flotas, monitoreo antirrobo y telemática general de vehículos. Dos variantes—J16A \(detección ACC y relé\) y J16B \(relé, micrófono y SOS\)—le permiten elegir el conjunto de funciones que se ajuste a su implementación.
+El J16 es un rastreador GPS vehicular compacto de ThingSys, diseñado para la gestión de flotas, monitoreo antirrobo y telemetría general de vehículos. Basado en el módulo SIMCOM 7670SA, el dispositivo ofrece conectividad 4G LTE CAT1 con conmutación a 2G y cuenta con batería interna de respaldo, sensor de movimiento G, almacenamiento de mensajes en zonas sin cobertura y dos variantes que añaden detección de ACC, control de relé, micrófono y función SOS.
 
-El dispositivo está optimizado para una fácil integración con Plaspy: se comunica por TCP/IP y admite modos de seguimiento comunes \(seguimiento GPRS y sondeo por SMS\), por defecto utilizando los protocolos GT06/CRX3, con perfiles opcionales JT808, Tianqin y Tianhe vía SMS. Su tamaño compacto, batería interna de respaldo, sensor de movimiento/G y almacenamiento de mensajes en zonas sin cobertura hacen del J16 una opción práctica para flotas mixtas que operan en automóviles, autobuses, camiones y motocicletas.
+Como dispositivo compatible con Plaspy, el J16 puede reportar posición y telemetría a Plaspy para seguimiento en vivo, alertas e informes históricos. Su compatibilidad con modos de mensajería comunes y comunicaciones TCP/IP facilita la integración, permitiendo a los operadores de flotas usar el J16 dentro de los paneles de Plaspy para obtener visibilidad, gestión de eventos y supervisión operativa en flotas mixtas.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy 4G LTE \(CAT1\) con respaldo 2G para una amplia cobertura celular y seguimiento en tiempo real fiable.
-- Dos variantes: J16A con detección ACC y control de relé; J16B añade relé, micrófono incorporado y SOS para monitoreo avanzado y señalización de emergencia.
-- Bandas celulares a nivel mundial \(LTE-FDD y GSM\) y comunicaciones TCP/IP para gestión de flotas y telemetría.
-- Formato compacto y ligero \(80 × 39 × 17 mm, 51 g\) con batería interna de respaldo \(140–150 mAh\) para soportar fallos de energía de corta duración y usos antirrobo.
-- Chip GPS de alta sensibilidad con inicio en caliente rápido \(≤2 s\) y rendimiento sólido de arranque en frío \(promedio ≤32 s\), precisión de ubicación ≤30 m.
-- Sensor de movimiento/G, modo de reposo para ahorro de energía y cobertura en zonas sin cobertura con almacenamiento de hasta 8,000 mensajes.
-- Amplio rango de tensión de operación \(DC 9V–90V\) adecuado para coches, autobuses, camiones y motocicletas; accesorios de relé opcionales permiten funciones de corte/restablecimiento remotas \(inmovilizador\).
+- Rastreador 4G LTE CAT1 compatible con Plaspy y con respaldo 2G para amplia cobertura celular y seguimiento continuo.
+- Dos variantes disponibles: J16A con detección de ACC y control de relé; J16B que añade relé, micrófono y SOS para señalización de emergencia.
+- Diseño compacto y liviano con batería interna de respaldo y sensor G de movimiento para escenarios antirrobo y cortes breves de energía.
+- Almacenamiento de mensajes en zonas sin cobertura capaz de retener miles de mensajes mientras no hay señal y reenviarlos al restablecer la conectividad.
+- Amplio rango de voltaje de operación adecuado para autos, autobuses, camiones y motocicletas, lo que lo convierte en una opción flexible para flotas mixtas.
+- Soporta perfiles de protocolo predeterminados con perfiles opcionales configurables según los requisitos del servidor.
 
 ## Cómo funciona con Plaspy
 
-Integrar el J16 con Plaspy le ofrece datos de vehículo continuos y accionables en su panel de Plaspy. El rastreador envía paquetes de posición y telemetría mediante TCP/IP o GPRS a los servidores de Plaspy usando protocolos estándar, lo que permite a Plaspy mostrar la ubicación en vivo, generar alertas y almacenar el historial para informes. Plaspy admite los mensajes por defecto GT06/CRX3 y puede configurarse para aceptar perfiles de protocolo opcionales cuando sea necesario.
+Al conectarse a Plaspy, el J16 envía paquetes continuos de posición y telemetría para que la plataforma muestre datos de ubicación en tiempo real, genere alertas y mantenga el historial de eventos para informes. Plaspy está configurado para aceptar los formatos de mensaje del J16 y procesar los datos entrantes para uso operativo.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas por TCP/IP \(GPRS\) para seguimiento y mapeo fluidos en Plaspy.
-- Detección ACC \(ignición\): se admiten entradas ACC virtuales y físicas, por lo que Plaspy puede reportar eventos de encendido/apagado y ejecutar lógica de negocio \(p. ej., horas de conductor\).
-- Cobertura de áreas sin cobertura: el J16 almacena hasta 8,000 mensajes cuando está fuera de cobertura y los envía a Plaspy cuando se restablece la conectividad.
-- Capacidad de inmovilización remota: el control de relé permite a Plaspy activar acciones de corte/restablecimiento de energía cuando se instala un accesorio de relé \(se requiere un relé adicional\).
-- Micrófono y SOS \(J16B\): eventos opcionales de audio y señalización de emergencia se reportan a Plaspy para la gestión de incidentes cuando estén disponibles.
-- Integración de telemetría para monitoreo de combustible y otros sensores cuando se empareja con CAN del vehículo o sensores externos: Plaspy puede combinar estas entradas con los datos de ubicación del J16 para obtener una visión más rica de la flota.
-- Plaspy puede correlacionar los datos del J16 con otras fuentes \(por ejemplo, feeds de sensores Bluetooth gestionados por separado\) para ofrecer una visión telemática integral en sus despliegues.
+- Actualizaciones de ubicación y telemetría en tiempo real mostradas en los mapas de Plaspy para visibilidad inmediata de la flota.
+- Eventos de encendido y ACC reportados a Plaspy, habilitando reglas de funcionamiento como horas de conductor y alertas basadas en encendido.
+- Registros de zonas sin cobertura reenviados a Plaspy tras la reconexión para mantener completos los historiales.
+- Desde Plaspy se pueden enviar comandos de relé para acciones remotas de inmovilización cuando se instala un accesorio de relé.
+- Los eventos SOS y de micrófono de la variante J16B se registran en Plaspy para respuesta ante incidentes e investigación de eventos.
+- Plaspy puede combinar las señales de ubicación del J16 con datos de sensores externos, por ejemplo entradas de sensores Bluetooth, para ofrecer información telemática más completa.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE \(CAT1\) mediante el módulo SIMCOM 7670SA; respaldo a 2G GSM; seguimiento TCP/IP, GPRS y sondeo por SMS soportados |
-| --- | --- |
-| Bandas | GSM850/900/1800/1900; LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28/B66 |
-| Potencia y Batería | Amplio rango de tensión de operación DC 9V–90V; batería interna de respaldo 140–150 mAh \(3.7V\) para operación durante fallos de energía a corto plazo |
-| Interfaces | Detección ACC \(ignición\) virtual y física; control de relé \(corte/restablecimiento requiere un relé adicional\); micrófono y SOS opcionales en J16B; control de relé disponible en ambas variantes |
-| GNSS | Chip GPS de alta sensibilidad; inicio en caliente ≤2 s, inicio en frío promedio ≤32 s; precisión de ubicación ≤30 m |
-| Protocolos y Gestión Remota | Protocolos por defecto GT06/CRX3; JT808, Tianqin, Tianhe disponibles vía SMS; comunicaciones TCP/IP para informes en la nube |
-| Almacenamiento y sensores | Almacenamiento de mensajes en áreas ciegas de hasta 8,000; sensor de movimiento/G; modo de reposo para ahorro de energía |
-| Rango de operación y durabilidad | Temperatura de operación -20°C a +55°C; formato compacto 80 × 39 × 17 mm; peso 51 g |
-
-## Casos de uso
-
-- Gestión de flotas y monitoreo de rutas: seguimiento en tiempo real, eventos de ignición y historial de mensajes para optimizar rutas y cumplir con informes.
-- Antirrobo e inmovilización remota: comandos de relé controlados por Plaspy pueden cortar o restablecer la energía \(con relé opcional\) para inmovilizar vehículos robados.
-- Autobuses, camiones y motocicletas: el rango de entrada de 9V–90V admite implementaciones mixtas de vehículos en grandes flotas.
-- Telemetría de conductor y vehículo: el sensor de movimiento/G y los datos de ignición alimentan a Plaspy para análisis de comportamiento del conductor y alertas basadas en eventos.
-- Registro de áreas sin cobertura: almacena hasta 8,000 mensajes cuando está fuera de línea y los reenvía a Plaspy para mantener historiales ininterrumpidos.
+- Gestión de flotas y monitoreo de rutas para autos, autobuses y camiones que requieren seguimiento en vivo e historial de eventos.
+- Monitoreo antirrobo con batería de respaldo, detección de movimiento y soporte para inmovilizador remoto.
+- Respuesta a emergencias y gestión de incidentes usando las funciones SOS y audio disponibles en la variante J16B.
+- Despliegues en vehículos mixtos donde se necesita un rango de voltaje amplio y un dispositivo de tamaño compacto.
+- Registro fuera de línea y posterior reenvío de datos para preservar la continuidad de los historiales de seguimiento.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El J16 es un rastreador GPS práctico, compatible con Plaspy, para organizaciones que requieren un dispositivo compacto y capaz, con soporte celular global y tolerancia de voltaje de vehículo robusta. Su rendimiento LTE CAT1 con respaldo 2G, posicionamiento rápido y buffering de mensajes en zonas sin cobertura aseguran un seguimiento en tiempo real continuo y una entrega de telemetría confiable. Las variantes \(J16A/J16B\) permiten elegir detección ACC, control de relé, micrófono y funciones SOS; los accesorios de relé opcionales habilitan funciones de inmovilización remota, clave para despliegues anti‑robo.
+El ThingSys J16 es una opción práctica para organizaciones que requieren un rastreador compacto con cobertura celular fiable y opciones de hardware para detección de encendido y señalización de emergencia. Su buffer de mensajes en zonas sin cobertura y la batería interna de respaldo ayudan a mantener la continuidad en despliegues reales, donde la cobertura o la energía pueden ser intermitentes.
 
-Cuando se integra con Plaspy, el J16 pasa a ser parte de una solución escalable de gestión de flotas: Plaspy ingiere datos de GPS y telemetría, genera alarmas por eventos de ignición o SOS, admite flujos de monitoreo de combustible cuando se conectan sensores externos y presenta informes a largo plazo para la toma de decisiones operativas. Si necesita sensores Bluetooth o datos BLE adicionales, Plaspy puede incorporar esas fuentes junto con los datos de seguimiento del J16 para ofrecer una visión telemática completa en vehículos y activos.
-
+En combinación con Plaspy, el J16 forma parte de una solución escalable de gestión de flotas en la que los datos de ubicación, eventos de encendido, alertas y mensajes almacenados alimentan paneles e informes que apoyan la toma de decisiones operativas. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com y verifique especificaciones y disponibilidad actuales con el fabricante en https://www.thingsys.com/ ya que los detalles y las opciones del producto pueden cambiar con el tiempo.

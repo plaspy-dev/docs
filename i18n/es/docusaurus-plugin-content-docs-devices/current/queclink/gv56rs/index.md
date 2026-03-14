@@ -2,58 +2,59 @@
 slug: /queclink/gv56rs
 id: gv56rs
 sidebar_label: GV56RS
+title: QuecLink - GV56RS
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto QuecLink GV56RS compatible con Plaspy para gestión de flotas, alquiler, seguro por uso y recuperación de vehículos
+keywords:
+  - queclink gv56rs
+  - queclink gv56rs rastreador gps
+  - gv56rs compatible con plaspy
+  - gv56rs rastreo de flotas
+  - queclink rs485 rastreador
+  - gv56rs bluetooth
+  - gv56rs recuperación de vehículos robados
+  - dispositivo telemático para flotas
+  - rastreador para seguro por uso
+  - compatible con inmovilizador remoto
 ---
+
 # QuecLink - GV56RS
 
 ![GV56RS](./tracker.png)
 
-El rastreador GV56RS es un dispositivo compacto compatible con Plaspy, diseñado para gestión de flotas, alquiler de vehículos, seguros basados en el uso \(UBI\) y recuperación de vehículos robados. Al combinar comunicación GSM/GPRS de cuádruple banda, un receptor MTK GNSS de alta sensibilidad y Bluetooth Low Energy integrado, el GV56RS ofrece seguimiento en tiempo real fiable, telemetría y control antirrobo desde una carcasa de perfil bajo que se adapta a vehículos ligeros y flotas de alquiler.
+El GV56RS es un rastreador GPS compacto de QuecLink diseñado para la gestión de flotas, alquiler de vehículos, soluciones de seguro basadas en uso (UBI) y recuperación de vehículos robados. Combina comunicación GSM/GPRS cuatribanda con un receptor GNSS de alta sensibilidad y Bluetooth Low Energy integrado en una carcasa de perfil bajo que encaja en vehículos ligeros y flotas de alquiler. El equipo amplía la plataforma GV56 con un puerto serie RS485 para múltiples sensores cableados y admite opciones de identificación de conductor y sonda de temperatura.
 
-El GV56RS amplía la plataforma GV56 con un puerto serie RS485 para una integración extensa de sensores — hasta diez sensores RS485 cableados — además de temperatura 1-wire, identificador de conductor iButton y periféricos BLE. La integración con Plaspy desbloquea datos útiles del vehículo \(ubicación, encendido, niveles de combustible, identificación del conductor y eventos de choque\) para alimentar acciones de inmovilización remota, analítica de flotas y alertas automatizadas, para una gestión eficiente de la flota y flujos de SVR.
+Como dispositivo compatible con Plaspy, el GV56RS transmite ubicación y telemetría del vehículo a Plaspy para habilitar rastreo en tiempo real, informes históricos y flujos de trabajo basados en eventos. Plaspy puede leer las fijaciones GNSS, los valores de sensores y los estados de entradas/salidas del GV56RS para alimentar alertas, análisis y acciones de control remoto como la inmovilización, lo que convierte al rastreador en una opción práctica para operadores que requieren visibilidad integrada y supervisión operativa.
 
-## Principales características
+## Aspectos clave
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y gestión de flotas con informes vía TCP/UDP/SMS.
-- GSM/GPRS de cuádruple banda \(850/900/1800/1900 MHz\) para una amplia cobertura celular y un enlace de datos fiable.
-- Puerto RS485 compatible con hasta diez sensores externos para monitorización de combustible, medición de carga y configuraciones multi-tanque.
-- BLE integrado \(BLE 3.0 bidireccional para voz y BLE 4.0 para sensores periféricos\) para sensores Bluetooth, llaveros y lectores CAN BLE.
-- Detección de encendido, salida digital de colector abierto \(corte de combustible/inmovilizador\) y identificación de conductor vía iButton para flujos de alquiler y UBI.
-- GNSS de alta sensibilidad con precisión típica de posición \< 2,5 m CEP y TTFF rápido para un posicionamiento en tiempo real preciso.
-- Formato compacto y antenas internas hacen que el GV56RS sea fácil de instalar y discreto para aplicaciones de antirrobo y SVR.
+- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y gestión de flotas
+- Conectividad GSM GPRS cuatribanda para amplia cobertura celular
+- Receptor GNSS de alta sensibilidad para reportes de posición precisos y fijaciones fiables
+- Puerto de expansión RS485 para múltiples sensores externos para monitorización de combustible y carga
+- Bluetooth Low Energy integrado para periféricos como llaveros y sensores ambientales
+- Detección de encendido, soporte de identificación de conductor y salida en colector abierto para control de inmovilizadores remotos
 
 ## Cómo funciona con Plaspy
 
-Al combinarse con Plaspy, el GV56RS transmite la ubicación y la telemetría del vehículo a su servidor Plaspy mediante TCP, UDP o SMS. Plaspy lee lecturas GNSS, valores de sensores y estados de entrada/salida para ofrecer mapeo en tiempo real, rutas históricas, identificación del conductor y gestión de alarmas. Informes programables y desencadenadores de eventos en el dispositivo alimentan el motor de reglas de Plaspy para alertas oportunas y acciones automatizadas.
+Cuando está conectado a Plaspy, el GV56RS informa de forma continua ubicación y telemetría para que los operadores puedan monitorear flotas en tiempo real y reproducir recorridos históricos. Los desencadenantes de eventos del dispositivo y los informes programables alimentan el motor de reglas y alertas de Plaspy para que los equipos reciban notificaciones oportunas y puedan ejecutar respuestas automatizadas. Plaspy muestra la identificación del conductor, lecturas de sensores y estados de E/S del GV56RS en paneles y reportes para apoyar la toma de decisiones operativas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a Plaspy para seguimiento en vivo y reproducción de trayectorias.
-- Informe del estado de encendido e identificación del conductor \(iButton\) para registrar viajes, tiempos de uso y facturación basada en eventos.
-- Monitorización de combustible mediante hasta diez sensores RS485 y entrada analógica para telemetría precisa de los niveles de combustible.
-- Capacidad de inmovilización remota mediante la salida digital de colector abierto \(corte de combustible\) controlada a través de comandos de Plaspy.
-- Sensores y balizas Bluetooth \(temperatura, humedad, llaveros y lectores CAN BLE\) integrados en los paneles y alarmas de Plaspy.
+- Actualizaciones en vivo de ubicación y telemetría para mapeo y reproducción de rutas
+- Registro de viajes y asociación de identificación de conductor para facturación y responsabilidad
+- Telemetría de combustible y sensores desde RS485 o entradas analógicas integrada en los paneles de Plaspy
+- Acciones de inmovilizador remoto controladas por comandos de Plaspy usando la salida del dispositivo
+- Periféricos BLE y sondas de temperatura visibles en Plaspy para alertas ambientales
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS de cuádruple banda \(850/900/1800/1900 MHz\); clase multi-slot GPRS 10; clase de estación móvil B |
-| --- | --- |
-| Bandas / RF | 850/900/1800/1900 MHz; salida RF 33±2 dBm \(GSM850/900\), 30±2 dBm \(GSM1800/1900\) |
-| Alimentación y batería | Voltaje de funcionamiento 8–32 V DC; batería interna de respaldo Li‑polímero de 170 mAh para informes ante fallos de alimentación |
-| Interfaces | Puerto RS485 \(hasta 10 sensores\), temperatura 1‑wire, iButton identificador de conductor, 1 entrada analógica configurable \(0–30 V\), 1 entrada digital \(encendido\), 1 salida digital de colector abierto \(máx 150 mA\) |
-| GNSS | Receptor MTK GNSS; sensibilidad de seguimiento/navegación –165 dBm, autónomo –148 dBm; precisión típica \< 2,5 m CEP; TTFF: arranque en frío ~32 s, arranque en cálido ~30 s, arranque en caliente ~1 s |
-| Bluetooth | BLE 3.0 \(soporte bidireccional de voz\) y BLE 4.0 para sensores periféricos y llaveros |
-| Remoto y Generación de informes | Protocolos: TCP, UDP, SMS; informes programables \(tiempo, distancia, kilometraje, combinaciones\), alertas geocerca y informes activados por eventos |
-| Sensores y Seguridad | Acelerómetro de 3 ejes, monitorización del comportamiento del conductor \(frenadas/aceleraciones bruscas\), detección de interferencias, recopilación de datos de incidentes |
-| Formato y Entorno | Dimensiones 79,5 × 44,3 × 11,9 mm; peso 62 g; temperatura de funcionamiento −30 °C a +80 °C; almacenamiento −40 °C a +80 °C; antenas internas GSM, GNSS y Bluetooth; LEDs GSM y GNSS |
-
-## Casos de uso
-
-- Antirrobo de flotas e inmovilización — comandos de Plaspy pueden activar la salida de colector abierto para un corte de combustible controlado y flujos de recuperación de vehículos.
-- Alquiler de vehículos e identificación del conductor — identificación del conductor vía iButton, junto con el registro de encendido para facturación segura por uso y responsabilidad del conductor.
-- UBI y telemática — fijaciones GNSS precisas y telemetría del comportamiento del conductor \(frenadas/aceleraciones bruscas\) alimentan la puntuación de seguros y los informes de uso.
-- Logística y vehículos con múltiples tanques — sensores de combustible y carga conectados vía RS485 proporcionan telemetría continua para camiones con múltiples tanques o carga especializada.
-- Cargas sensibles a la temperatura — sensores BLE de temperatura/humedad y sondas 1-wire se integran a Plaspy para monitorización de condiciones ambientales.
+- Prevención de robo de flotas y inmovilización controlada para procesos de recuperación
+- Seguimiento de vehículos de alquiler con identificación de conductor e informes de encendido
+- Seguros basados en uso y telemática con datos de viajes y comportamiento de conducción
+- Logística y vehículos multi-tanque que usan sensores RS485 para telemetría de combustible y carga
+- Envíos sensibles a temperatura monitorizados mediante BLE y sondas 1-wire integradas en alertas de flota
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GV56RS ofrece una combinación equilibrada de diseño compacto, rendimiento robusto de GNSS/GSM y una amplia conectividad de sensores, que lo convierten en un rastreador GPS eficiente para implementaciones basadas en Plaspy. Su expansión RS485, soporte para accesorios BLE e integración con iButton proporcionan a integradores y proveedores de servicios opciones de telemetría flexibles sin aumentar significativamente el tamaño del hardware. Para gestión de flotas, UBI y recuperación de vehículos robados, el GV56RS ofrece un seguimiento en tiempo real confiable, monitorización de combustible y controles de inmovilización remota mientras alimenta a Plaspy con los datos necesarios para analítica, alertas y automatización operativa.
+El GV56RS ofrece una combinación equilibrada de tamaño compacto, buen desempeño GNSS y conectividad ampliada de sensores que encaja en muchos despliegues con Plaspy. Su expansión RS485 y soporte para accesorios BLE brindan a los integradores opciones para monitorización de combustible, sensado ambiental e identificación de conductores sin aumentar la huella del dispositivo. Para operadores de flotas, empresas de alquiler y proveedores de telemática, el GV56RS suministra los datos de ubicación y eventos que Plaspy necesita para mapas, alertas, reportes y automatización operativa.
 
+Más información sobre Plaspy y cómo dispositivos compatibles como el GV56RS pueden integrarse en su flota en https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar, por lo que por favor verifique los detalles técnicos actuales y la documentación del fabricante en https://www.queclink.com/.

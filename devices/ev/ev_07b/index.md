@@ -2,59 +2,62 @@
 slug: /ev/ev_07b
 id: ev_07b
 sidebar_label: EV-07B
+title: EV - EV-07B
 sidebar_class_name: menu_item_tracker
+description: Compact wearable SOS GPS pendant EV-07B compatible with Plaspy for personal safety tracking and near real time alerts
+keywords:
+  - EV-07B
+  - EV EV-07B
+  - Eview EV-07B
+  - wearable GPS tracker
+  - SOS pendant
+  - personal safety tracker
+  - Plaspy compatible
+  - GPS tracking device
+  - lone worker safety
+  - remote patient monitoring
 ---
+
 # EV - EV-07B
 
 ![EV-07B](./tracker.png)
 
-The Eview EV-07B is a compact, wearable GPS tracker and one-button mPERS \(mobile Personal Emergency Response System\) pendant designed for simple, reliable personal safety. Plaspy compatible out of the box, the EV-07B brings discreet SOS functionality, continuous location reporting and basic telemetry into the Plaspy platform so caregivers, security teams and monitoring services get near-real-time situational awareness when it matters most.
+The EV-07B from Eview is a compact, wearable GPS tracker and one-button mPERS pendant designed for straightforward personal safety. As a mini SOS device it combines continuous location reporting with basic telemetry and two-way voice alerting to give wearers a simple way to call for help. The form factor and feature set make it suitable for everyday carry by seniors, lone workers, patients and mobile users who need a discreet emergency button and location visibility.
 
-The mini-sized EV-07B \(≈40 g\) is available in both 2G and 4G LTE versions; the EV-07BX-4G is AT&T 4G LTE certified for use across the United States where cellular coverage exists. Because it pairs GPS, Wi‑Fi, BLE Beacon and LBS location sources with BLE 5.0 for sensor integration, the EV-07B is well suited for personal safety, remote patient monitoring \(RPM\) and lone-worker oversight when combined with Plaspy’s alerting and reporting capabilities.
+This model is Plaspy compatible out of the box, so SOS events, location updates and telemetry from the EV-07B can flow into Plaspy for mapping, notification and reporting. When integrated with Plaspy, the EV-07B extends the platform’s situational awareness for caregivers, security teams and monitoring services, allowing responders to see near real time position and event history when an alarm occurs.
 
 ## Key Highlights
 
-- Plaspy compatible personal GPS tracker and SOS pendant — integrates location and alarm data into Plaspy dashboards and alerts.
-- Real-time tracking during emergencies — automatic location updates as frequent as every 10 seconds during an active SOS.
-- One-button SOS with two-way voice calling and voice prompts for direct communication between wearer and responder.
-- Built-in intelligent alerts: fall detection \(~70% claimed accuracy\), no-motion/no-activity, low-battery warnings and geo-fence notifications.
-- BLE 5.0 support for external Bluetooth sensors and Eview Home Beacons to improve indoor location and add telemetry \(e.g., medical peripherals\).
-- Compact, wearable design \(≈40 g\) with multiple wearing options and IP67 waterproof rating for comfortable everyday use.
-- Charging base option with an 800 mAh backup battery and three preset-call buttons for at-home convenience.
+- Designed as a compact wearable SOS pendant with a single emergency button for rapid alarm activation.
+- Continuous location reporting and high frequency updates during active SOS events for improved situational awareness.
+- Two-way voice calling and voice prompts to enable direct communication between the wearer and a responder.
+- Built in alerting features including fall detection, no motion alerts and low battery notifications to support monitoring workflows.
+- BLE 5.0 support for pairing with external sensors and beacon devices to enhance indoor location and telemetry options.
+- Available in 2G and 4G LTE variants, with an AT&T certified 4G model for broad U.S. coverage where LTE is available.
+- Small, lightweight form factor with multiple wearing options and an IP67 waterproof rating for daily use.
 
 ## How It Works with Plaspy
 
-When connected to Plaspy, the EV-07B delivers location and alarm events into Plaspy’s mapping, notification and reporting layers. Plaspy receives GPS, Wi‑Fi, BLE Beacon and LBS location data, plus SOS and telemetry messages, so monitoring teams and authorized contacts can act immediately. During an SOS event, Plaspy can display high-frequency location updates and trigger preconfigured notifications to emergency contacts, operators or monitoring centers.
+When connected to Plaspy, the EV-07B forwards location, SOS alarms and basic telemetry so monitoring teams can act quickly. Plaspy ingests events from the device and surfaces them in maps, event logs and notification channels to reduce response time and improve oversight.
 
-- Real-time location and telemetry updates \(GPS/Wi‑Fi/BLE Beacon/LBS\) forwarded to Plaspy.
-- SOS alarm activation with automatic notifications via TCP, SMS and voice prompts recorded in Plaspy logs.
-- Fall detection and no-motion alerts appear as event types in Plaspy for fast triage.
-- Bluetooth sensors and paired medical devices \(BLE\) can forward telemetry to Plaspy for RPM workflows.
-- Charging base and device battery status, plus low-battery alerts, are available to Plaspy for proactive maintenance.
+- Real time location updates and combined location sources forwarded into Plaspy mapping for live tracking.
+- SOS alarm activation appears as a high priority event and can trigger configurable notifications and escalation rules.
+- Device alerts such as fall detection, no motion and low battery are recorded in Plaspy as event types for review and reporting.
+- Bluetooth sensor telemetry and beacon information can be presented in Plaspy to support remote patient monitoring or expanded context.
+- Battery and charging base status are visible in Plaspy to help with proactive device maintenance and uptime.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G and 4G LTE versions. EV-07BX-4G is AT&T 4G LTE certified for the United States. |
-| --- | --- |
-| Bands | Manufacturer-specified; EV-07BX-4G certified on AT&T LTE networks \(see vendor documentation for full band list\). |
-| Power & Battery | Device battery runtime about one week under normal use \(depends on reporting intervals\). Optional charging base includes an 800 mAh backup battery. |
-| Interfaces | Single central SOS button; two-way voice calling and voice prompts; pairs with BLE sensors and Eview Home Beacons; charging base with three preset-call buttons. Can call up to 10 programmed emergency contacts. |
-| GNSS | GPS location augmented with Wi‑Fi, BLE Beacon and LBS; automatic location updates as frequent as every 10 seconds during active SOS. |
-| Bluetooth | BLE 5.0 for sensor pairing, beacon support and enhanced indoor location. |
-| Remote Management | Integrates with Eview Smart Locator platform and web/iOS/Android apps \(rebrandable\) for tracking, alarm management and battery monitoring. Can be deployed as self-monitor \(direct dialing\) or integrated with monitoring centers. |
-| Form Factor | Mini-sized wearable pendant \(~40 g\). Multiple wearing options: lanyard, keyring, belt clip, pouch, wristband. Waterproof to IP67. |
-
-## Use Cases
-
-- Elderly care and assisted living — one-button SOS, fall detection and geo-fence alerts integrated into Plaspy for caregiver notifications.
-- Lone-worker safety — wearable emergency alarm and near-real-time tracking for workers in the field, with Plaspy alert routing to supervisors or response teams.
-- Remote patient monitoring \(RPM\) — pair BLE medical devices to collect health telemetry and relay events via Plaspy for clinical or caregiver review.
-- Travelers, children and outdoor activities — lightweight, waterproof pendant offering immediate location and voice contact during incidents.
-- Home companion systems — charging base with backup battery and preset-call buttons for seamless at-home support and rapid escalation through Plaspy.
+- Assisted living and elderly care where one-button SOS and fall alerts are routed to caregivers and monitoring centers.
+- Lone worker safety for staff who need a wearable emergency alarm and near real time location visibility.
+- Remote patient monitoring scenarios that pair BLE medical peripherals and forward events to caregivers or clinical teams.
+- Everyday protection for travelers, children and outdoor users needing a lightweight emergency contact device.
+- Home companion setups using a charging base for at-home convenience and rapid escalation through monitoring workflows.
 
 ## Why Choose This Tracker with Plaspy
 
-The EV-07B is a purpose-built personal GPS tracker that brings dependable SOS capability and flexible connectivity to Plaspy’s monitoring ecosystem. Its combination of GPS, Wi‑Fi, BLE Beacon and LBS location sources, plus BLE 5.0 sensor support and two-way voice, make it a strong choice for organizations that need compact, easy-to-wear devices for safety, RPM and lone-worker oversight. The AT&T-certified 4G model offers broad U.S. coverage where LTE is available, and the device’s configurable alerting \(text, TCP, voice\) fits neatly into Plaspy’s notification, logging and escalation workflows.
+The EV-07B is a focused personal safety tracker that fits into Plaspy’s monitoring and reporting ecosystem without unnecessary complexity. Its wearable design, combined with multi source location support and BLE sensor compatibility, makes it practical for organizations that need to provide rapid alarm handling and location awareness for people rather than vehicles or equipment.
 
-Note: The EV-07B focuses on personal safety telemetry and Bluetooth sensor integrations. It does not provide vehicle-specific telemetry features such as fuel monitoring, ignition sensing or immobilizer control. For personal GPS tracking, anti-theft alerts for small items, real-time tracking and telemetry for people, or integration with BLE medical peripherals, pairing the EV-07B with Plaspy provides a scalable, easy-to-manage solution that supports both self-monitoring and professional monitoring center deployments.
+Paired with Plaspy, the EV-07B supports both self monitoring and professional monitoring center deployments by delivering relevant events, location updates and device status into a unified platform. This makes it easier to include SOS workflows, caregiver notifications and basic telemetry reporting in existing operational processes.
 
+To learn more about Plaspy and how compatible devices like the EV-07B can be used in your monitoring setup visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details and certification information on the manufacturer website http://www.eviewltd.com/.

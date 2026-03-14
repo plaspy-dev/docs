@@ -2,59 +2,60 @@
 slug: /concox/bl10
 id: bl10
 sidebar_label: BL10
+title: Concox - BL10
 sidebar_class_name: menu_item_tracker
+description: Smart bike lock with integrated GPS tracking and native Plaspy compatibility for micromobility fleets
+keywords:
+  - Concox BL10
+  - BL10 GPS tracker
+  - Concox BL10 tracker
+  - BL10 Plaspy compatible
+  - micromobility tracker
+  - bike share GPS
+  - shared bicycle tracker
+  - BL10 smart lock
+  - fleet tracking BL10
+  - BL10 geofence tracker
 ---
+
 # Concox - BL10
 
 ![BL10](./tracker.png)
 
-The BL10 is a GNSS-sharing smart bike lock and hidden GPS tracker built for shared bicycle fleets and micromobility operators. Plaspy compatible out of the box, the BL10 combines a rugged locking mechanism with live location reporting so operators can enable real-time tracking, geofence alerts, and tamper notifications across large urban fleets. Designed for long outdoor deployments, the BL10 gives fleet managers an integrated anti-theft and fleet management tool that reduces downtime and simplifies recovery workflows.
+The Concox BL10 is a GNSS sharing smart bike lock and hidden GPS tracker designed for shared bicycle fleets and micromobility operators. It pairs a rugged locking mechanism with continuous location reporting to provide operators with an integrated anti theft and fleet management device suitable for long outdoor deployments and public bike share programs.
 
-    With Bluetooth unlocking and QR code access for riders, the BL10 supports contactless user flows while delivering telemetry and short-range positioning via iBeacon. Its low-power design, optional solar-assisted charging, and IPX5-rated housing make it a practical GPS tracker for bike-share programs that need continuous, dependable location data and event reporting through Plaspy’s platform and mobile app.
+As a Plaspy compatible device out of the box, the BL10 streams location and event data directly into Plaspy’s fleet management environment. That compatibility makes it straightforward for operators to centralize live tracking, geofence alerts, tamper notifications, and basic deployment health information alongside other assets managed in Plaspy.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker and smart lock in one — live location and lock status delivered to your Plaspy dashboard.
-- Real-time tracking with GPS + LBS for resilient positioning in urban environments and under tree cover.
-- Rugged, weather-resistant design \(IPX5\) built for outdoor micromobility fleets and public bike-share programs.
-- Long deployment life from a 10,000 mAh Li-Polymer battery plus optional solar-assisted charging to reduce maintenance.
-- Geofence and tamper alerts for immediate anti-theft notifications and faster recovery actions.
-- Bluetooth 4.0 and iBeacon support for short-range positioning, user unlocking, and proximity workflows.
-- Compact, operator-friendly form factor with integrated cellular connectivity \(Micro‑SIM\) for straightforward fleet rollouts.
+- Combined smart lock and tracker designed for shared bicycles and micromobility operations.
+- Live location reporting and event notifications delivered to Plaspy for centralized monitoring.
+- Weather resistant housing rated IPX5 for reliable outdoor use in urban environments.
+- Long deployment life with a high capacity battery and optional solar assisted charging to reduce maintenance visits.
+- Bluetooth unlocking and iBeacon support for contactless rider access and short range positioning.
+- Geofence and tamper alerts to speed up theft response and recovery workflows.
+- Compact form factor intended for easy integration on large scale fleet rollouts.
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, the BL10 becomes a Plaspy compatible GPS tracker that streams location and event data to a unified fleet management environment. Operators receive real-time tracking and alerts through Plaspy’s cloud platform and mobile app, enabling centralized monitoring, automated geofence rules, and tamper response workflows.
+When used with Plaspy, the BL10 provides continuous location and event streams to a single management platform so operators can monitor fleet health, respond to incidents, and analyze usage from one place.
 
-- Real-time location and telemetry updates: GPS + LBS positions are reported to Plaspy for continuous fleet visibility.
-- Geofence alerts: predefined boundaries trigger notifications when a bike leaves or enters zones.
-- Tamper & vibration alerts: accelerometer-driven events and audible/vibration alarms can notify Plaspy users immediately.
-- Bluetooth/iBeacon proximity: short-range positioning and rider unlock events are reconciled in Plaspy for usage analytics.
-- Device state & deployment data: operators can view lock status, device connectivity, and deployment health in Plaspy alongside other fleet assets.
+- Real time location updates routed to Plaspy for continuous fleet visibility and mapping.
+- Geofence notifications that trigger when bikes enter or leave predefined zones.
+- Tamper and vibration alerts forwarded to Plaspy to support rapid recovery and intervention.
+- Bluetooth and iBeacon proximity events reconciled in Plaspy for unlocking records and short range location checks.
+- Device status and connectivity information visible in Plaspy to help plan maintenance and redeployment.
 
-## Technical Overview
+## Typical Use Cases
 
-| Positioning | GPS + LBS; typical accuracy &lt; 2.5 m CEP; tracking sensitivity -165 dBm |
-| --- | --- |
-| Cellular Connectivity | GSM quad-band \(850 / 900 / 1800 / 1900 MHz\); Micro‑SIM slot |
-| Battery & Power | 10,000 mAh / 3.7 V Li‑Polymer; optional solar input 6 V / 5 W; standby time up to 40 days \(locked, without solar\) |
-| Interfaces & Sensors | Micro‑SIM, 64 Mb data storage, 1 blue status LED, Bluetooth 4.0 \(BLE\), 3‑axis accelerometer, iBeacon support |
-| GNSS | GPS \(assisted with LBS for resilient positioning\) |
-| Bluetooth | Bluetooth 4.0 / BLE for rider unlocking, short-range positioning, and beacon support |
-| Remote Management | Integrated cloud platform and mobile app for live location, geofencing, and device alerts |
-| Form Factor & Environment | 148 × 211 × 51 mm; 1117 g; operating temperature -20°C to +60°C; IPX5 water resistance |
-
-## Use Cases
-
-- Shared bike fleets and public bike-share programs seeking integrated lock-plus-tracker hardware for anti-theft and operational efficiency.
-- Micromobility operators who need real-time tracking, geofence enforcement, and tamper alerts to protect assets in high-density cities.
-- Theft-deterrence and recovery workflows where audible/vibration alerts and Plaspy notifications accelerate retrieval.
-- Fleet usage analytics and reporting — collect trip data, proximity unlock events, and uptime metrics to optimize rebalancing and maintenance.
-- Short-range positioning and rider verification via Bluetooth/iBeacon for QR or app-based access control and local location checks.
+- Shared bike fleets and public bike share programs requiring integrated lock plus tracker hardware.
+- Micromobility operators enforcing geofence rules and monitoring asset locations in dense urban areas.
+- Theft deterrence and recovery workflows using tamper alerts and live location to accelerate retrieval.
+- Operations seeking to reduce on site maintenance through long battery life and optional solar assist.
+- Usage analytics and basic trip reporting based on unlock events and location histories.
 
 ## Why Choose This Tracker with Plaspy
 
-The BL10 delivers a reliable, cost-effective path to make micromobility fleets Plaspy compatible without sacrificing hardware durability or battery life. Its combination of GPS + LBS positioning, rugged IPX5 housing, and a large 10,000 mAh battery \(with optional solar support\) reduces field maintenance and keeps bikes in service longer. For fleet managers focused on real-time tracking, anti-theft protection, and operational telemetry, the BL10 provides the essential data streams — location, motion/tamper events, and short-range BLE signals — that Plaspy consolidates into actionable insights and automated alerts.
+The BL10 is a purpose built option for operators who want a single device that combines locking and tracking for micromobility fleets. Its rugged enclosure and focus on long outdoor deployments help reduce downtime, while integrated proximity unlocking and short range positioning support contactless rider flows and usage logging within Plaspy.
 
-Note that the BL10 is optimized for shared bicycles and micromobility rather than vehicle-specific telemetry like fuel monitoring or ignition/immobilizer control. However, because it is Plaspy compatible, operators who run mixed fleets can centralize GPS tracker data and fleet management functions in a single platform, enabling scalable monitoring, reporting, and recovery processes across diverse asset types.
-
+If you manage shared bicycles or similar assets and need a Plaspy compatible unit that balances durability, operational data, and anti theft features, the BL10 is a practical choice. Learn more about Plaspy on the main website https://www.plaspy.com and verify the latest product specifications, availability, and manufacturer details on the Concox site https://www.iconcox.com/ as product features and documentation can change over time.

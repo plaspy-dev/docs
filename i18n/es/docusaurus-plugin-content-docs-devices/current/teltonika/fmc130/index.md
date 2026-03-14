@@ -2,59 +2,62 @@
 slug: /teltonika/fmc130
 id: fmc130
 sidebar_label: FMC130
+title: Teltonika - FMC130
 sidebar_class_name: menu_item_tracker
+description: Rastreador Teltonika FMC130 compatible con Plaspy para gestión de flotas telemetría de combustible inmovilizador remoto y administración centralizada
+keywords:
+  - Teltonika FMC130
+  - Rastreador FMC130
+  - FMC130 Plaspy
+  - Rastreador Teltonika
+  - seguimiento de flotas
+  - monitoreo de combustible
+  - telemetría vehicular
+  - rastreador 4G LTE
+  - soporte sensores Bluetooth
+  - inmovilizador remoto
 ---
+
 # Teltonika - FMC130
 
 ![FMC130](./tracker.png)
 
-El FMC130 es un rastreador GPS compatible con Plaspy, diseñado para la gestión moderna de flotas. Formulado para operación fiable y lista para el campo, el FMC130 combina conectividad 4G LTE Cat 1 \(con conmutación automática a redes 2G\) y una batería interna de respaldo para mantener visibles vehículos y activos incluso durante pérdidas de energía temporales. Su diseño centrado en telemetría y su ecosistema de accesorios lo convierten en una opción sólida para operadores que necesitan ubicación precisa, monitoreo de combustible y capacidades de control remoto a través de la plataforma Plaspy.
+El Teltonika FMC130 es un rastreador GPS compatible con Plaspy diseñado para la gestión moderna de flotas. Integra conectividad celular con batería interna de respaldo y un diseño orientado a la telemetría para mantener la visibilidad de vehículos y activos durante el funcionamiento habitual y en interrupciones temporales de energía. Está pensado para operadores de flotas que requieren ubicación precisa más telemetría avanzada como monitoreo de combustible y sensores ambientales.
 
-El FMC130 integra entradas y salidas cableadas flexibles, una entrada de impulso dedicada para la lectura precisa de medidores de caudal de combustible, compatibilidad con adaptadores CAN para datos del bus del vehículo y soporte para Bluetooth® Low Energy \(BLE\) para sensores y balizas externas. Emparejado con Plaspy, este rastreador habilita el seguimiento en tiempo real, telemetría de combustible y temperatura, acciones de inmovilización antirrobo y la gestión centralizada de firmware y configuración para flotas de cualquier tamaño.
+Como dispositivo compatible con Plaspy, el FMC130 envía posiciones y telemetría a Plaspy para monitoreo en vivo, generación de informes y control operativo. Sus entradas cableadas, entrada de pulso dedicada para combustible, compatibilidad con adaptadores CAN y soporte para sensores externos Bluetooth lo convierten en una opción práctica para flotas que buscan visibilidad centralizada, acciones remotas y gestión de dispositivos a través de la plataforma Plaspy.
 
-## Puntos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy con conectividad 4G LTE Cat 1 y con conmutación automática a 2G para una cobertura regional amplia.
-- Monitoreo preciso de combustible mediante una entrada de impulso para lectura directa de caudal de combustible — ideal para flotas sensibles al consumo.
-- Integración de adaptador CAN para leer parámetros del vehículo como nivel de combustible, odómetro, RPM y temperatura del motor.
-- Soporte Bluetooth LE para sensores y balizas externas para monitorizar temperatura, humedad, estado del imán y movimiento.
-- Funciones de bloqueo remoto del motor y inmovilización para una respuesta rápida ante robos y un control seguro de la flota.
-- Batería interna de respaldo para mantener el seguimiento y las alertas durante interrupciones de energía.
-- Gestión remota de firmware y configuración mediante Teltonika FOTA WEB para actualizaciones de flota simplificadas.
+- Rastreador compatible con Plaspy con conectividad 4G LTE Cat 1 y conmutación a 2G para amplia cobertura
+- Batería interna de respaldo para mantener el rastreo y las alertas durante cortes de energía
+- Entrada de pulso dedicada para lectura precisa de medidores de flujo de combustible y apoyo al monitoreo de combustible
+- Compatibilidad con adaptadores CAN para leer parámetros del bus del vehículo y enriquecer la telemetría
+- Soporte Bluetooth Low Energy para sensores y balizas externas que permiten monitorear condiciones de carga
+- Inmovilizador remoto y bloqueo de motor para respuesta rápida ante intentos de robo
+- Gestión remota de firmware y configuración para simplificar las actualizaciones de la flota
 
 ## Cómo funciona con Plaspy
 
-Cuando se instala en un vehículo o activo, el FMC130 transmite datos de posición y telemetría a Plaspy a través de su enlace celular. Plaspy recopila y normaliza los datos entrantes para que los gestores de la flota puedan supervisar la ubicación en tiempo real, generar informes y configurar alertas automatizadas. La combinación del hardware FMC130 y el software Plaspy ofrece un flujo completo de telemática: sensado en el dispositivo → transmisión celular segura → procesamiento en Plaspy → panel de control, alertas y análisis.
+Al instalarse en un vehículo o activo, el FMC130 transmite ubicación y telemetría a Plaspy, donde los datos se normalizan y presentan para monitoreo, alertas e informes. Plaspy ofrece una interfaz centralizada para ver posiciones en tiempo real, reproducir historial y ejecutar acciones remotas basadas en eventos del rastreador.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento en vivo y reproducción histórica.
-- Señales del vehículo y E/S digital \(incluido el encendido y otras entradas cableadas\) reportadas a Plaspy para alertas basadas en eventos y filtrado.
-- Monitoreo de combustible mediante la entrada de impulso—Plaspy recibe datos de caudal de combustible basados en pulsos para respaldar el análisis de consumo y de robo.
-- Control remoto de inmovilizador/bloqueo del motor disponible desde Plaspy para respaldar respuestas ante robos y bloqueos de vehículos fuera de horario.
-- Sensores y balizas Bluetooth reportan datos de temperatura, humedad y movimiento a Plaspy para el monitoreo de cadena de frío y condiciones de carga.
+- Actualizaciones de posición y telemetría en vivo disponibles en Plaspy para seguimiento en tiempo real y reproducción histórica
+- Señales del vehículo e entradas cableadas reportadas a Plaspy para que los responsables puedan crear alertas y filtros basados en eventos
+- Datos de combustible por pulso desde la entrada de impulso enviados a Plaspy para análisis de consumo y detección de pérdidas
+- Control remoto del inmovilizador y otras salidas que se pueden activar desde la consola Plaspy para respuesta ante robos
+- Lecturas de sensores Bluetooth reenviadas a Plaspy para monitorear temperatura, humedad y estado de la carga
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | 4G LTE Cat 1 con conmutación automática a redes GSM 2G |
-| --- | --- |
-| Bandas / Variantes regionales | Variantes regionales disponibles — opciones de bandas para EU/MEA y APAC/LATAM |
-| Alimentación & Batería | Alimentación del vehículo con batería interna de respaldo para mantener operación durante pérdidas de energía |
-| Interfaces | Entradas y salidas cableadas flexibles, entrada de impulso para medidores de caudal de combustible, compatibilidad con adaptadores CAN y capacidad de bloqueo remoto del motor/inmovilizador |
-| Telemetría | Datos del bus CAN mediante adaptador \(nivel de combustible, odómetro, RPM, temperatura del motor\) y entradas de sensores cableadas para telemetría personalizada |
-| Bluetooth | Bluetooth® Low Energy \(BLE\) para balizas y sensores externos \(temperatura, humedad, magnet, movimiento\) |
-| Gestión remota | Gestión de firmware y configuración mediante Teltonika FOTA WEB |
-| Factor de forma | Rastreador montado en vehículo; el paquete estándar incluye el rastreador y cables de alimentación/entrada-salida \(códigos de pedido personalizados disponibles\) |
-
-## Casos de uso
-
-- Gestión de flotas y despacho: el seguimiento en tiempo real y la telemetría obtenida del CAN ayudan a optimizar la planificación de rutas y el mantenimiento.
-- Monitoreo de combustible y prevención de pérdidas: la entrada de impulso permite lecturas precisas de caudal de combustible para análisis de consumo y detección de robo de combustible.
-- Antirrobo e inmovilización: el bloqueo remoto del motor y el control del inmovilizador a través de Plaspy permiten una respuesta rápida ante movimientos no autorizados.
-- Monitoreo de cadena de frío y carga refrigerada: sensores Bluetooth para temperatura y humedad aseguran el cumplimiento y la integridad del producto durante el tránsito.
-- Maquinaria especial y vehículos pesados: la integración de adaptadores CAN permite la recopilación de telemetría de camiones, autobuses y equipos especializados.
+- Gestión de flotas y despacho con seguimiento en tiempo real y supervisión operativa
+- Monitoreo de combustible y prevención de pérdidas usando datos de flujo por pulso
+- Respuesta ante robos con inmovilizador remoto y alertas por movimiento no autorizado
+- Cadena de frío y monitoreo de carga refrigerada mediante sensores Bluetooth de temperatura y humedad
+- Telemetría de vehículos pesados y maquinaria especial mediante integración con adaptador CAN
 
 ## Por qué elegir este rastreador con Plaspy
 
-El FMC130 ofrece la fiabilidad y el detalle de telemetría que requieren las flotas, manteniéndose compatible con Plaspy para una integración fluida. Su enlace celular 4G LTE Cat 1 con conmutación a 2G mantiene las unidades conectadas en áreas de cobertura mixtas, y la batería interna de respaldo ayuda a mantener la visibilidad durante interrupciones de energía. Para operaciones que priorizan el monitoreo de combustible, la entrada de impulso proporciona un método directo y preciso para capturar pulsos de caudal de combustible; combinado con los datos del adaptador CAN, los gestores obtienen una visión clara del rendimiento del vehículo y del consumo de combustible.
+El FMC130 ofrece un equilibrio entre conectividad, entradas de telemetría y soporte de accesorios que se integra bien con los flujos de trabajo de Plaspy para operadores de flotas. Su diseño permite visibilidad continua incluso durante interrupciones de energía y proporciona canales de datos que ayudan a evaluar el consumo de combustible, el estado del vehículo y el entorno de la carga. Estas capacidades lo hacen apto para organizaciones que necesitan tanto rastreo de ubicación como telemetría avanzada sin complejidad excesiva.
 
-La compatibilidad con Bluetooth LE amplía las capacidades del FMC130 para la monitorización de carga y sensorización ambiental, clave para cargas refrigeradas y mercancía sensible, y la función de inmovilizador remoto admite estrategias antifurto directamente desde la consola de Plaspy. Por último, el soporte Teltonika FOTA WEB facilita las implementaciones de firmware y configuración en toda la flota, reduciendo tiempos de inactividad y la carga administrativa. Junto con Plaspy, este rastreador es una opción práctica y escalable para flotas que buscan un rastreo GPS confiable, telemetría completa y control centralizado.
+Emparejado con Plaspy, el FMC130 forma parte de una solución telemática centralizada donde los responsables pueden monitorear flotas, recibir alertas basadas en eventos y aplicar controles remotos cuando sea necesario. Para especificaciones detalladas y el conjunto de funciones más reciente consulte la documentación del fabricante y considere Plaspy como la plataforma para recolectar, visualizar y actuar sobre la telemetría que proporciona el FMC130.
 
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications and availability can change over time, so verify current details on the manufacturer website https://www.teltonika-gps.com/.

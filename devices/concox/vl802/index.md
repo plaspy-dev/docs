@@ -2,60 +2,63 @@
 slug: /concox/vl802
 id: vl802
 sidebar_label: VL802
+title: Concox - VL802
 sidebar_class_name: menu_item_tracker
+description: Compact LTE vehicle tracker VL802 compatible with Plaspy for reliable fleet tracking and anti theft workflows
+keywords:
+  - Concox VL802
+  - VL802 tracker
+  - Concox tracker
+  - VL802 Plaspy compatible
+  - VL802 fleet tracking
+  - VL802 GPS tracker
+  - vehicle telematics VL802
+  - VL802 anti theft
+  - VL802 sensor telemetry
+  - Plaspy compatible trackers
 ---
+
 # Concox - VL802
 
 ![VL802](./tracker.png)
 
-The VL802 is a compact LTE vehicle terminal engineered for industrial and commercial fleet management. Plaspy compatible out of the box, the VL802 brings rugged, network-resilient GPS tracker performance to passenger cars, trucks and buses — delivering reliable real-time tracking, rich telemetry and two-way control functions that fleet operators and integrators depend on.
+The VL802 is a compact LTE vehicle terminal engineered for industrial and commercial fleet management. It is designed to provide rugged, network resilient performance for passenger cars, trucks and buses, delivering reliable real time tracking, rich telemetry and two way control functions that fleet operators and integrators rely on. The device combines multi constellation GNSS positioning with wideband cellular connectivity and a set of vehicle oriented inputs and outputs for practical telematics deployments.
 
-Designed for continuous operation in demanding environments, the VL802 combines LTE Cat 1 with 2G GSM fallback, multi-constellation GNSS positioning and extensive I/O for ignition detection, immobilizer control and analog sensor integration. When paired with Plaspy, the VL802 becomes a central telematics node for anti-theft workflows, driver behavior monitoring and fuel or sensor telemetry via its analog and digital interfaces.
+Because the VL802 is Plaspy compatible out of the box, it can act as a central telematics node within a Plaspy deployment. When paired with Plaspy the VL802 streams location, telemetry and event notifications so operators gain visibility, automated alerts and historical reporting for fleet oversight, anti theft workflows and sensor based monitoring. This compatibility helps reduce integration time and lets teams use Plaspy features for monitoring and operational control.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker with LTE + 2G fallback for reliable real-time tracking and continuous data delivery.
-- High-sensitivity GNSS \(GPS + BDS + LBS\) with positioning accuracy \<2.5 m CEP and fast TTFF for quick location fixes.
-- Industrial 9–36 VDC power range plus a 1,000 mAh Li-Polymer backup battery for resilient operation across vehicle types.
-- Comprehensive I/O: ACC and SOS inputs, configurable I/Os, RS485, analog 0–5 V detection and a relay output for remote immobilizer/cut-off.
-- Onboard accelerometer and event-triggered alerts \(geo-fence, speeding, vibration, fatigue driving, impound\) to enable proactive fleet management.
-- Two-way hands-free communication, remote listen-in support and panic button capability for enhanced safety and incident response.
-- Bluetooth for fast local configuration and accessory pairing, reducing installation time and easing field setup.
+- Plaspy compatible terminal offering LTE connectivity with 2G fallback for continuous tracking in mixed coverage areas.
+- Multi constellation GNSS positioning for dependable location accuracy in vehicle applications.
+- Built for continuous operation across vehicle types with an industrial power range and onboard backup battery for resilience.
+- Extensive I O set including ignition detection, relay output for immobilizer control and analog inputs for sensor telemetry.
+- Onboard motion sensing and event reporting to support alerts for speeding, vibration, SOS and other incidents.
+- Two way audio and remote listen in capabilities to assist incident verification and passenger or driver safety.
+- Bluetooth support for quick local configuration and accessory pairing to simplify field setup.
 
 ## How It Works with Plaspy
 
-Integrated with Plaspy, the VL802 streams position and telemetry data over its cellular link so fleet managers see live locations and vehicle status in the Plaspy dashboard. Plaspy ingests GNSS coordinates, telemetry, and event notifications and converts them to actionable alerts, historical reports and automated workflows for fleet management, anti-theft response and driver coaching.
+When integrated with Plaspy the VL802 streams position and telemetry over its cellular link so fleet managers see live locations and vehicle status in the Plaspy dashboard. Plaspy ingests GNSS coordinates, telemetry and event notifications and converts them into alerts, historical reports and workflow actions that support fleet operations and security processes.
 
-- Real-time location and telemetry updates via LTE with 2G fallback ensure continuous tracking in mixed coverage areas.
-- Ignition \(ACC\) detection and digital input events \(SOS, door or alarm\) flow into Plaspy for ignition-based reports and alerting.
-- Analog 0–5 V detection can be used for fuel monitoring or other sensor integrations and is available to Plaspy as telemetry values.
-- Remote immobilizer/relay control and remote cut-off commands are supported for anti-theft workflows when executed through Plaspy’s command channel.
-- Bluetooth configuration enables quick on-site setup and accessory pairing; two-way communication and remote listen-in provide incident verification and driver safety features.
+- Real time location and telemetry updates feed Plaspy for live tracking and map based visibility.
+- Ignition and digital input events such as SOS and door status are delivered to Plaspy for alerting and ignition based reporting.
+- Analog input telemetry can be used to present fuel or sensor values within Plaspy dashboards and reports.
+- Remote relay control and cut off commands are available through Plaspy to support anti theft and immobilization workflows.
+- Two way audio and remote listen in provide additional context for incidents and can be linked to Plaspy alerts for verification.
+- Bluetooth based local configuration simplifies on site setup before or after device activation in Plaspy.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat 1 with 2G GSM fallback |
-| --- | --- |
-| Bands | VL802-E: LTE-FDD B1/B3/B7/B8/B20/B28; LTE-TDD B34/B38/B39/B40/B41; GSM 850/900/1800/1900 MHz  \<br>VL802-L: LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28; GSM 850/900/1800/1900 MHz |
-| Power & Battery | Input voltage 9–36 VDC; 1,000 mAh / 3.7 V industrial Li-Polymer backup battery |
-| Interfaces & Storage | Micro-SIM slot; RS485; two configurable I/Os \(digital in/out\); digital inputs for ACC and SOS; digital relay output \(remote immobilization/cut-off\); analog detect 0–5 V; LED indicators \(GNSS green, Cellular blue, Power red\); data storage 16+16 MB |
-| GNSS | GPS + BDS + LBS; Positioning accuracy &lt;2.5 m CEP; Tracking sensitivity -162 dBm; Acquisition sensitivity -160 dBm; TTFF \(open sky\): hot start ≤1 s, cold start ≤32 s |
-| Bluetooth | Bluetooth for local configuration and accessory pairing \(BLE supported for setup\) |
-| Remote Management | Two-way cellular communication for remote commands and audio monitoring; Bluetooth for on-site configuration and pairing |
-| Mechanical & Environmental | Dimensions 105 × 56 × 22 mm; Weight 120 g; Operating temperature -20 °C to +70 °C; IP65 ingress protection |
-| Sensors & Features | Onboard accelerometer; supports SOS alert, speeding alert, abnormal vibration alert and fatigue driving alert; two-way hands-free communication and remote listen-in |
-
-## Use Cases
-
-- Fleet management: Continuous GPS tracker data and driver behavior events fed to Plaspy for routing, scheduling and performance reports.
-- Anti-theft and immobilization: Remote relay control and cut-off commands executed through Plaspy to secure high-value vehicles or recover assets.
-- Public transport & passenger services: Real-time locations, remote audio monitoring and SOS alerts for passenger safety and operational oversight.
-- Telematics for insurance and driver scoring: Speeding, fatigue driving and vibration events captured for telematics-based policies and coaching.
-- Sensor telemetry & fuel monitoring: Analog 0–5 V inputs and RS485 allow integration of fuel sensors or other vehicle sensors for telemetry dashboards in Plaspy.
+- Commercial fleet management for routing, scheduling and driver performance monitoring.
+- Anti theft and recovery workflows using remote immobilization and event driven alerts.
+- Public transport and passenger services for real time locations, SOS handling and operational oversight.
+- Telematics for insurance and driver scoring using event and behavior data captured by the device.
+- Sensor telemetry and fuel monitoring using analog inputs and external sensor integration for operational dashboards.
 
 ## Why Choose This Tracker with Plaspy
 
-The VL802 delivers a balance of robust hardware and flexible interfaces that make it an ideal Plaspy compatible GPS tracker for commercial fleets. Its LTE-first connectivity with GSM fallback, high-sensitivity GNSS and industrial power range mean fewer blind spots and more dependable real-time tracking. Extensive I/O and a relay output enable practical anti-theft and immobilizer workflows, while analog detection and RS485 support fuel monitoring and third-party sensors. Built-in audio, SOS and accelerometer-based alerts enrich telemetry and incident response capabilities.
+The VL802 offers a practical combination of rugged hardware and flexible interfaces that make it a strong fit for organizations using Plaspy. Its focus on continuous operation, multi constellation positioning and extensive vehicle I O supports common fleet needs such as location tracking, immobilizer control and sensor telemetry without requiring bespoke hardware changes. For integrators and fleet operators, the device provides the telemetry primitives Plaspy needs to deliver alerts, reports and automated responses.
 
-For fleet operators and system integrators seeking a dependable terminal that integrates cleanly with Plaspy, the VL802 provides the telemetry, ignition awareness, immobilizer control and Bluetooth configuration tools needed to deploy scalable fleet management, anti-theft and telematics solutions with confidence.
+Because the VL802 is designed for industrial and commercial deployments, it pairs naturally with Plaspy to scale from single vehicle installations to larger fleets while supporting anti theft, safety and operational reporting use cases. If you are evaluating Plaspy compatible devices, the VL802 is a practical option to consider for fleets that need resilient connectivity and a broad set of I O capabilities.
 
+Learn more about Plaspy and how compatible devices like the VL802 can support your fleet on the Plaspy website https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details with the manufacturer at https://www.iconcox.com/.

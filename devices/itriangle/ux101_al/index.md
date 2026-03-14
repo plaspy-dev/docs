@@ -2,67 +2,61 @@
 slug: /itriangle/ux101_al
 id: ux101_al
 sidebar_label: UX101-AL++
+title: iTriangle - UX101-AL++
 sidebar_class_name: menu_item_tracker
+description: AIS 140 certified UX101 AL++ rugged GPS tracker compatible with Plaspy for real time fleet tracking telemetry VFOTA and industrial deployments
+keywords:
+  - iTriangle UX101-AL++
+  - UX101-AL++ Plaspy compatible
+  - AIS 140 GPS tracker
+  - fleet tracking device
+  - vehicle telematics
+  - rugged GPS tracker
+  - VFOTA tracker
+  - industrial telematics
+  - dual CAN tracker
+  - 4G telematics logger
 ---
+
 # iTriangle - UX101-AL++
 
 ![UX101-AL++](./tracker.png)
 
-The UX101-AL++ is a rugged, AIS 140 certified GPS tracker and 4G telematics data logger engineered for demanding vehicle and industrial applications. Built for harsh environments, this Plaspy compatible device delivers reliable real-time tracking and robust telemetry through LTE Cat 1, 3G and 2G fallback, Dual CAN interfaces for ECU-level diagnostics, and internal BLE and Wi‑Fi for local connectivity.
+The UX101-AL++ is a rugged, AIS 140 certified GPS tracker and 4G telematics data logger designed for demanding vehicle and industrial environments. Engineered for harsh conditions, the device delivers real-time tracking and persistent telemetry with multi generation cellular connectivity, dual CAN interfaces, and local wireless options for accessory and sensor integration. Its durability credentials and compact form factor make it suitable for heavy commercial vehicles, mining equipment, and other mobility applications that need reliable location and event data.
 
-Designed to integrate with Plaspy, the UX101-AL++ combines vehicle-grade durability \(IP67, ISO 16750, CISPR25\) with advanced event logging, tamper and battery removal alerts, and Vehicle FOTA to keep ECU firmware updated remotely. Its compact form factor, internal eSIM support, and extensive I/O make it an ideal GPS tracker for fleet management, OEM deployments, mining, logistics, and other smart mobility projects.
+As a Plaspy compatible device, the UX101-AL++ is built to integrate with fleet and asset management workflows that require continuous visibility, event alerts, and remote device management. Plaspy can ingest the tracker’s location updates, captured vehicle diagnostics, and event logs to power dashboards, geofencing, alerts, and reporting. The combination of rugged hardware and Plaspy’s platform capabilities makes the UX101-AL++ a practical choice for organizations looking to add resilient telematics endpoints to their fleet oversight strategy.
 
 ## Key Highlights
 
-- Plaspy compatible real-time tracking and telemetry over LTE Cat 1 with 3G/2G fallback for broad network coverage.
-- Dual CAN interfaces for advanced diagnostics, ECU communication, and integration with vehicle sensors for fuel or engine data.
-- Integrated BLE 5 and single-band Wi‑Fi for Bluetooth sensors, local data offload, and accessory connectivity.
-- Rugged IP67 enclosure with ISO 16750 thermal and shock endurance — built for off‑road, mining, and heavy commercial vehicles.
-- Vehicle Firmware Over-The-Air \(VFOTA\) to remotely update ECU firmware and reduce maintenance downtime.
-- Internal 1000mAh backup battery, local data storage \(512 MB\), and advanced event logging for uninterrupted data capture.
-- Comprehensive inputs and outputs \(analog + digital\) plus digital outputs usable for remote control functions such as immobilizer integration when configured.
+- AIS 140 certified rugged tracker designed for vehicle and industrial deployments.
+- Multi generation cellular connectivity with fallback for broad network coverage.
+- Dual CAN interfaces to capture vehicle diagnostics and integrate with vehicle sensors.
+- Internal wireless for local accessory connectivity and quick data offload.
+- Tamper and battery removal alerts plus advanced event logging for security workflows.
+- Vehicle Firmware Over The Air support to manage ECU updates and reduce maintenance visits.
+- Compact form factor with internal eSIM support and extensive inputs and outputs for integrations.
 
 ## How It Works with Plaspy
 
-The UX101-AL++ connects to Plaspy using industry-standard TCP/IP and secure HTTPS/HTTP protocols to deliver continuous position updates, telemetry, and event alerts. Plaspy ingests the device’s GNSS fixes, CAN-based vehicle diagnostics, accelerometer-based events, and BLE sensor data to present actionable dashboards, geofences, and automated alerts for fleet managers and OEM service teams.
+The UX101-AL++ transmits position, telemetry, and event data to Plaspy so fleet managers can monitor assets, respond to incidents, and analyze operational trends. Plaspy presents incoming data from the tracker through live maps, alert rules, and historical reporting to support daily operations and long term planning.
 
-- Real-time location and telemetry updates \(GPS/Galileo/NavIC/BeiDou\) streamed to Plaspy for live monitoring.
-- Ignition and wake-up event support; triggers from ignition, panic button, or accelerometer are reported to Plaspy for immediate action.
-- Tamper and battery removal alerts plus advanced event logging for anti-theft and security workflows.
-- Dual CAN interfaces provide ECU data to Plaspy for vehicle health, diagnostic codes, and fuel monitoring workflows when connected to vehicle sensors.
-- BLE 5 support lets Plaspy consume data from Bluetooth sensors and beacons, and Wi‑Fi enables local connectivity or fast data sync.
-- VFOTA \(Vehicle FOTA\) enables remote ECU firmware upgrades coordinated through Plaspy’s device management functions.
+- Real-time location updates and telemetry streamed to Plaspy for live monitoring and route replay.
+- Event and alarm reporting such as tamper alerts, battery removal, and accelerometer triggers for immediate notifications.
+- CAN-derived vehicle data delivered to Plaspy for diagnostics, health monitoring, and fuel or engine related workflows.
+- Local wireless data capture from nearby sensors and accessories that Plaspy can surface in device dashboards.
+- Remote device management features coordinated with Plaspy for firmware updates and configuration oversight.
+- Data buffering and local storage to ensure continuity of records that Plaspy can ingest when connectivity resumes.
 
-## Technical Overview
+## Typical Use Cases
 
-| Certification | AIS 140 certified |
-| --- | --- |
-| Cellular Connectivity | 2G \(900/1800 MHz\), 3G \(B1, B8\), LTE Cat 1 \(B1, B3, B5, B40, B41\) |
-| Communication Protocols | TCP/IP, HTTPS, HTTP |
-| Short Range | BLE 5, Single-band Wi‑Fi |
-| GNSS | GPS, Galileo, NavIC, BeiDou |
-| Inputs / Outputs | 3 Analog Inputs, 7 Digital Inputs, 4 Digital Outputs |
-| Interfaces | Dual CAN, RS232, Optional USB \(debug\) |
-| Wake-up Triggers | Ignition, Panic Button, Accelerometer |
-| Sensors | 3-axis Accelerometer and Gyroscope |
-| Power | 8–36V DC input; \<3 mA sleep mode consumption |
-| Internal Battery | 1000 mAh backup battery |
-| Data Capacity | 512 MB memory \(~41,000 records\) |
-| Antenna | Internal GSM / GNSS / BLE antennas |
-| Protection & Durability | IP67 enclosure; ISO 16750 thermal & shock endurance; CISPR25 EMI/EMC compliance |
-| Dimensions & Weight | 151 mm x 80 mm x 38 mm; &lt;200 g |
-| Remote Management | Vehicle FOTA \(VFOTA\) for ECU firmware updates; eSIM support |
-| Accessories | Supports camera and multiple external accessories |
-
-## Use Cases
-
-- Fleet management: live vehicle tracking, route replay, driver behavior monitoring, and telemetry aggregation for operational efficiency.
-- Anti-theft and security: tamper detection, battery removal alerts, and event-based notifications to reduce vehicle loss and unauthorized use.
-- OEM and smart mobility: integrated Dual CAN diagnostics and VFOTA for remote ECU updates and long-term vehicle lifecycle management.
-- Industrial and mining operations: rugged IP67 design and shock/thermal endurance for off‑road vehicles and harsh environments.
-- Logistics and commercial vehicles: local data storage, BLE sensor integration, and detailed event logs for compliance and asset tracking.
+- Fleet management for live tracking, route compliance, and operational reporting across commercial vehicles.
+- Anti-theft and security operations using tamper alerts and event logging to protect assets.
+- OEM and mobility programs requiring integrated diagnostics and remote firmware management.
+- Industrial and mining fleets operating in harsh environments where rugged hardware is essential.
+- Logistics and distribution use cases that benefit from local data capture, accessory integration, and persistent telemetry.
 
 ## Why Choose This Tracker with Plaspy
 
-When paired with Plaspy, the UX101-AL++ becomes a full-featured telematics endpoint that delivers dependable real-time tracking, deep vehicle telemetry, and secure remote management. Its Dual CAN and extensive I/O let you capture engine and sensor data needed for fuel monitoring, diagnostics, and preventive maintenance. The VFOTA capability minimizes downtime by enabling remote ECU updates, while internal eSIM, robust cellular bands and fallback, and internal antennas ensure consistent connectivity. Choose the UX101-AL++ with Plaspy for a scalable, secure, and rugged solution that supports fleet management, anti-theft workflows, telemetry-driven insights, and Bluetooth sensor integrations across demanding vehicle applications.
+The UX101-AL++ pairs vehicle grade hardware with the Plaspy platform to deliver a resilient telematics solution that targets demanding use cases. Its rugged construction and diagnostic interfaces support deep visibility into vehicle status while its event logging and alerting capabilities help teams respond faster to security incidents and operational faults. For organizations that need a durable endpoint and scalable cloud tools, this tracker provides an effective balance between field durability and cloud based oversight.
 
+To learn more about how Plaspy can work with devices like the UX101-AL++, visit https://www.plaspy.com. Product specifications, availability, and manufacturer documentation can change over time, so please verify current technical details on the manufacturer site https://www.itriangle.net/.

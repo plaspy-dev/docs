@@ -2,60 +2,59 @@
 slug: /teltonika/fmm00a
 id: fmm00a
 sidebar_label: FMM00A
+title: Teltonika - FMM00A
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD-II Teltonika FMM00A listo para usar, compatible con Plaspy para flotas, alquileres y despliegues rápidos
+keywords:
+  - Teltonika FMM00A
+  - FMM00A Plaspy
+  - rastreador Teltonika
+  - rastreador OBD II
+  - seguimiento de flotas
+  - seguimiento de vehículos de alquiler
+  - rastreador GNSS
+  - rastreador LTE Cat M1
+  - rastreador Bluetooth
+  - telemetría vehicular
 ---
+
 # Teltonika - FMM00A
 
 ![FMM00A](./tracker.png)
 
-El Teltonika FMM00A es un rastreador GPS OBD-II plug-and-play diseñado para flotas de Norteamérica, servicios de alquiler y uso compartido, y despliegues mixtos de vehículos. Compatible con Plaspy de serie, el FMM00A combina conectividad LTE Cat M1 \(con capacidad NB‑IoT cuando esté disponible\), posicionamiento GNSS y Bluetooth para ofrecer seguimiento en tiempo real fiable, telemetría del vehículo y datos de diagnóstico a nivel OEM sin cableado complejo.
+El Teltonika FMM00A es un rastreador OBD-II plug-and-play diseñado para flotas en Norteamérica, servicios de alquiler y uso compartido, y despliegues con vehículos mixtos. Integra posicionamiento GNSS, conectividad celular y Bluetooth para ofrecer ubicación continua y telemetría vehicular sin instalaciones eléctricas complejas. El equipo se instala rápidamente conectándolo al puerto OBD-II del vehículo, permitiendo la transmisión inmediata de posición, odómetro y parámetros relacionados con combustible cuando el vehículo lo soporta.
 
-Diseñado para una instalación rápida y provisionamiento masivo, el FMM00A se conecta al puerto OBD-II de un vehículo y comienza a transmitir de inmediato la ubicación, el odómetro, el nivel de combustible y los parámetros de diagnóstico. Para los gestores de flotas que usan Plaspy, esto significa implementación rápida, telemática más rica \(monitoreo real del combustible, lecturas precisas del odómetro\) y una integración fluida con los paneles de Plaspy, alertas e informes.
+Como dispositivo compatible con Plaspy desde el primer momento, el FMM00A envía telemetría y parámetros de diagnóstico directamente a Plaspy para seguimiento en tiempo real, alertas e informes. Esta compatibilidad lo convierte en una opción práctica para administradores de flota y operadores de alquiler que requieren despliegues rápidos, telemetría más completa y una integración fluida con los paneles y flujos operativos existentes en Plaspy.
 
-## Puntos clave
+## Características principales
 
-- Factor de forma OBD-II plug-and-play para una instalación rápida y mínimo tiempo de inactividad.
-- Compatible con Plaspy: transmite telemetría GNSS y OBD a Plaspy para seguimiento en tiempo real y análisis.
-- Conectividad LTE Cat M1 con soporte NB‑IoT cuando esté disponible para amplia cobertura y uso eficiente de datos.
-- Lee PIDs OBD-II estándar y parámetros OEM del fabricante para un monitoreo preciso del odómetro y del nivel de combustible.
-- Acelerómetro integrado para obtener datos de movimiento, comportamiento de conducción y detección decolisiones.
-- Conectividad Bluetooth® para configuración local e integración con sensores y balizas Bluetooth.
-- Compatible con la gestión remota de Teltonika \(FOTA WEB\) y herramientas de configuración para actualizaciones de firmware y provisioning masivo.
+- Factor de forma OBD-II plug-and-play para instalación rápida y mínima indisponibilidad del vehículo.
+- Compatible con Plaspy por defecto para integración inmediata con paneles de seguimiento e informes.
+- Conectividad celular pensada para amplia cobertura y uso eficiente de datos en despliegues telemáticos.
+- Acceso a parámetros OBD II y OEM para monitoreo de odómetro y nivel de combustible cuando el vehículo lo permite.
+- Sensor de movimiento integrado y soporte Bluetooth para ampliar las opciones de monitoreo y configuración local.
+- Diseñado para aprovisionamiento masivo y gestión remota para simplificar despliegues a escala de flota.
 
 ## Cómo funciona con Plaspy
 
-Cuando está conectado a un vehículo, el FMM00A recoge datos de posición GNSS y parámetros de diagnóstico OBD-II, y transmite esos paquetes de telemetría a través de LTE Cat M1/NB‑IoT a su instancia de Plaspy. Plaspy recibe la carga útil del dispositivo, normaliza los parámetros y proporciona ubicación en tiempo real, eventos e informes históricos a los gestores y operadores de flotas.
+Cuando usted lo instala, el FMM00A recopila posición GNSS e información diagnóstica del vehículo a través de la interfaz OBD-II y envía la telemetría a Plaspy, donde la plataforma normaliza los datos y los presenta como ubicación en vivo, eventos e informes históricos. Plaspy convierte las corrientes entrantes en información accionable para operaciones, planificación de mantenimiento y supervisión de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real para el rastreo en vivo de vehículos y geocercas.
-- Transmisión de diagnóstico del vehículo y parámetros OEM \(odómetro, nivel de combustible y PIDs relacionados\) para un monitoreo preciso del combustible y la programación del servicio.
-- Estado de encendido y operación mediante datos OBD-II para detectar recorridos y eventos de encendido/apagado del motor.
-- Eventos de movimiento basados en el accelerómetro y datos de comportamiento de conducción para seguridad y análisis de rutas.
-- Soporte para sensores y balizas Bluetooth para monitoreo de temperatura, movimiento o activos auxiliares a través de los paneles de Plaspy.
+- Actualizaciones de ubicación en vivo y reproducción del historial para visibilidad continua de la flota.
+- Informes de parámetros vehiculares como odómetro y nivel de combustible que ayudan a programar mantenimiento y controlar costos.
+- Generación de eventos a partir de datos de ignición y movimiento para alimentar viajes, geocercas y alertas por excepciones.
+- Indicadores de movimiento y comportamiento de conducción que apoyan revisiones de seguridad y optimización de rutas.
+- Sensores y balizas vinculados por Bluetooth pueden mostrarse en Plaspy para monitoreo auxiliar de activos y datos ambientales.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | FMM00A \(Teltonika\) |
-| --- | --- |
-| Conectividad | LTE Cat M1; NB‑IoT compatible cuando esté disponible |
-| Bandas | Soporte de frecuencias LTE Cat M1 de Norteamérica \(consulte la documentación del producto para listas detalladas de bandas y variantes regionales\) |
-| Potencia y batería | Alimentado a través del puerto OBD-II; bajo consumo de energía. Los paquetes personalizados pueden incluir cable micro USB \(0.8 m\) y cable de alimentación corto \(0.25 m\). |
-| Interfaces | Conector OBD-II para PIDs estándar y parámetros OEM del fabricante; compatible con cables de extensión OBD y cables adaptadores, divisores en Y y adaptadores de 9 pines para instalaciones ocultas o reubicadas. |
-| GNSS | Posicionamiento GNSS integrado \(receptor GNSS para ubicación y enrutamiento del vehículo\) |
-| Bluetooth | Bluetooth® para configuración local e integración con sensores/balizas Bluetooth |
-| Gestión remota | Soporte de gestión remota de dispositivos Teltonika \(FOTA WEB\) y herramientas de configuración para actualizaciones de firmware y provisioning masivo |
-| Factor de forma | Rastreador OBD-II plug-and-play para instalación en vehículos; embalaje a granel estándar de 20 piezas por caja, kits personalizados disponibles \(FMM00A1KNJ01, FMM00A1KBP01\) |
-
-## Casos de uso
-
-- Gestión de flotas y optimización de rutas — aproveche la telemetría precisa del odómetro y del combustible para reducir el gasto en combustible y programar el mantenimiento preventivo mediante Plaspy.
-- Alquiler y uso compartido de vehículos — despliegue rápido y monitorización anti-robo con informe en tiempo real del nivel de combustible para detectar usos indebidos y agilizar las devoluciones.
-- Logística y entrega de última milla — rastreo en tiempo real y datos de comportamiento de conducción para mejorar la precisión de la ETA y reducir el riesgo operacional.
-- Monitoreo de vehículos eléctricos y de alta gama — acceso a parámetros OBD OEM para monitorización de batería y gestión de energía cuando el vehículo lo soporte.
-- Monitoreo adicional de activos — utilice balizas y sensores Bluetooth para seguir remolques, unidades refrigeradas u otros equipos auxiliares a través de Plaspy.
+- Gestión de flotas y optimización de rutas donde lecturas precisas de odómetro y combustible mejoran la eficiencia.
+- Servicios de alquiler y carsharing que necesitan despliegue rápido de dispositivos y datos verificados de uso del vehículo.
+- Operaciones de entrega y logística que requieren rastreo en tiempo real e información del comportamiento de conducción para mejorar la precisión de ETA.
+- Flotas con vehículos mixtos que se benefician de una solución OBD II para consolidar telemetría entre distintos tipos de unidades.
+- Monitoreo complementario de remolques o equipos auxiliares mediante sensores Bluetooth integrados en la plataforma.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El FMM00A ofrece una combinación práctica de despliegue sencillo, datos de vehículo a nivel OEM y conectividad celular eficiente que se ajusta a las flotas impulsadas por Plaspy. Su diseño OBD-II plug-and-play reduce el tiempo de instalación y facilita la expansión, mientras que el soporte LTE Cat M1/NB‑IoT garantiza una transmisión de datos resistente y de bajo ancho de banda para cargas de telemática.
+El FMM00A ofrece una ruta sencilla hacia una telemetría vehicular más completa sin instalaciones complejas, lo que lo hace ideal para organizaciones que deben escalar el rastreo con rapidez. Su integración OBD II permite que Plaspy reciba parámetros a nivel OEM que enriquecen los informes y la supervisión operativa en comparación con dispositivos que solo ofrecen ubicación.
 
-Al combinar FMM00A con Plaspy, los gestores de flotas obtienen un monitoreo preciso del combustible, lecturas reales del odómetro, información de encendido y movimiento, y la capacidad de conectar sensores Bluetooth para ampliar la visibilidad. Combinado con la gestión remota FOTA WEB de Teltonika, la solución admite provisionamiento masivo y gestión del ciclo de vida del firmware, reduciendo el costo total de propiedad y acelerando el tiempo para obtener valor en los despliegues de flotas.
-
+Si desea conocer más sobre cómo Plaspy maneja dispositivos como el FMM00A y cómo puede integrarse en sus flujos de trabajo de flota, visite el sitio principal de Plaspy https://www.plaspy.com. Las especificaciones de producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y las variantes regionales en el sitio oficial del fabricante https://www.teltonika-gps.com/ antes de comprar.

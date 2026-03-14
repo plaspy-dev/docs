@@ -2,27 +2,61 @@
 slug: /teltonika/fmb202
 id: fmb202
 sidebar_label: FMB202
+title: Teltonika - FMB202
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS Teltonika FMB202 IP67, batería interna de larga duración y funciones de monitoreo compatibles con Plaspy
+keywords:
+  - Teltonika FMB202
+  - rastreador FMB202
+  - FMB202 Plaspy
+  - rastreador GPS Teltonika FMB202
+  - FMB202 impermeable
+  - rastreo de flotas FMB202
+  - FMB202 batería de respaldo
+  - FMB202 seguimiento agrícola
+  - FMB202 transporte refrigerado
+  - rastreo de remolques FMB202
 ---
+
 # Teltonika - FMB202
 
 ![FMB202](./Logo.png)
 
-El rastreador GPS Teltonika FMB202 es un dispositivo especializado y resistente al agua \(IP67\) con conectividad Bluetooth, antenas internas GNSS y GSM de alta ganancia, y una batería de respaldo integrada de alta capacidad. Diseñado para funcionar sin una fuente de alimentación durante períodos prolongados, el FMB202 con batería NiMH puede funcionar hasta 2 días en modo de ahorro de energía.
+El Teltonika FMB202 es un rastreador GPS compacto e impermeable con certificación IP67, pensado para el seguimiento de activos y vehículos cuando la resistencia y la autonomía prolongada son clave. Integra antenas GNSS y GSM de alta ganancia internas, conectividad Bluetooth, una batería interna de alta capacidad capaz de mantener el dispositivo hasta dos días en modo de ahorro de energía, y soporte para una amplia gama de funciones de monitoreo y reporte. Acepta un rango de voltaje de entrada flexible, por lo que resulta adecuado para distintos tipos de vehículos, incluidas motocicletas y embarcaciones.
 
-El FMB202 es perfectamente adecuado para una variedad de aplicaciones, incluyendo agricultura, entrega, transporte refrigerado, rastreo de remolques, servicios de seguridad y emergencia, y mucho más. Su fuente de alimentación de 6-30 V lo hace adecuado para su uso en motocicletas y transporte acuático.
+Como dispositivo compatible con Plaspy, el FMB202 puede transmitir la ubicación, el estado y los eventos necesarios para los flujos de trabajo de gestión de flotas y activos en la plataforma Plaspy. Plaspy procesa la telemetría del rastreador para ofrecer ubicación en tiempo real, rutas históricas, alertas y supervisión operativa, lo que permite a las organizaciones integrar el FMB202 en un entorno de monitoreo ya establecido sin alterar sus procesos de gestión.
 
-El rastreador GPS Teltonika FMB202 viene con una amplia gama de características destacadas, que incluyen:
+## Características principales
 
-- Sensores de acelerómetro
-- Escenarios de conducción ecológica, detección de exceso de velocidad, detección de interferencias, control de DOUT mediante llamada, contador de combustible GNSS, inmovilizador, detección de ralentí excesivo, detección de desconexión, detección de remolque, detección de colisiones, geovalla automática, geovalla manual y viaje
-- Modos de reposo como sueño GPS, sueño profundo en línea, sueño profundo y sueño ultraprofundo
-- Actualización de configuración y firmware a través de FOTA Web, FOTA, Configurador Teltonika \(USB, Bluetooth\) y la aplicación móvil FMBT \(Configuración\)
-- Funcionalidad de SMS para configuración, eventos, control DOUT y depuración
-- Comandos GPRS para configuración, control DOUT y depuración
-- Sincronización de tiempo a través de GPS, NITZ y NTP
-- Monitoreo de combustible a través de LLS \(analógico\) y dongle OBDII
-- Detección de ignición a través de entrada digital 1, acelerómetro, voltaje de alimentación externa y RPM del motor \(dongle OBDII\)
+- Carcasa impermeable con clasificación IP67 para uso fiable en exteriores y entornos exigentes.
+- Antenas GNSS y GSM internas de alta ganancia y conectividad Bluetooth para despliegues flexibles y configuración local.
+- Batería interna de alta capacidad con hasta dos días de funcionamiento en modo ahorro de energía ante la falta de alimentación externa.
+- Amplia compatibilidad de voltaje de entrada, apto para una variedad de vehículos incluyendo motocicletas y transporte por agua.
+- Acelerómetro integrado y múltiples entradas para detección de movimiento y monitoreo del comportamiento de conducción.
+- Varios modos de ahorro de energía y de suspensión para extender la autonomía cuando no hay alimentación externa.
+- Soporte para configuración remota y actualizaciones de firmware mediante las herramientas y servicios de Teltonika indicados en la documentación del dispositivo.
 
-Con todas estas características y su resistencia al agua, el rastreador GPS Teltonika FMB202 es una opción confiable y versátil para una amplia gama de aplicaciones.
+## Cómo funciona con Plaspy
 
+Al conectarse a Plaspy, el FMB202 aporta datos de ubicación y eventos que Plaspy mapea, agrega y presenta mediante paneles, alertas e informes. Plaspy ingiere la telemetría del dispositivo para ofrecer a los gestores de flota visibilidad y control operativo sin exigir configuraciones complejas a nivel de dispositivo dentro de la plataforma.
+
+- Posición GPS en vivo y historial de rutas para los vehículos y activos rastreados con el FMB202.
+- Alertas basadas en eventos como movimiento, exceso de velocidad u otros sucesos reportados por el dispositivo, encaminadas a Plaspy para notificaciones.
+- Monitoreo de estado y de la batería de respaldo para que los operadores puedan identificar cuándo el dispositivo está funcionando con alimentación interna.
+- Informes y análisis para evaluar eficiencia de rutas, utilización y resúmenes del comportamiento de conducción basados en eventos del acelerómetro.
+- Herramientas de geocercas y monitoreo operativo en Plaspy que utilizan las actualizaciones de posición del FMB202 para el seguimiento de entradas y salidas de sitios.
+- Lista centralizada de dispositivos y vista general del estado para que los administradores supervisen la conectividad y la actividad reciente.
+
+## Casos de uso comunes
+
+- Seguimiento de maquinaria agrícola donde la impermeabilidad y la autonomía de batería son importantes entre usos.
+- Monitoreo de flotas de reparto y logística para mantener historial de rutas y cumplimiento de tiempos.
+- Supervisión de transporte refrigerado junto con rastreo general de activos para remolques.
+- Seguimiento de remolques y equipos remolcados que requieren alimentación independiente y una carcasa resistente.
+- Rastreo de activos para seguridad y servicios de emergencia cuando se necesita operación fiable en exteriores.
+
+## Por qué elegir este rastreador con Plaspy
+
+El FMB202 es una opción práctica cuando usted necesita un rastreador robusto y autónomo que se adapte a diversos tipos de vehículos y activos exteriores. Su protección IP67, antenas internas y batería interna de larga duración le permiten seguir operativo en situaciones donde una instalación con alimentación permanente no es posible. Sumado a sus entradas configurables y detección de movimiento, el dispositivo aporta datos de eventos útiles que Plaspy transforma en información accionable.
+
+Combinar el FMB202 con Plaspy proporciona a los equipos un camino directo desde la telemetría del dispositivo hasta los conocimientos de flota. Plaspy presenta ubicación, alertas e informes en una interfaz unificada para que las organizaciones aprovechen los datos del FMB202 en tareas de monitoreo, cumplimiento y toma de decisiones operativas. Para más detalles sobre Plaspy y cómo funciona la plataforma con este dispositivo visite https://www.plaspy.com. Las especificaciones y funciones de los productos pueden variar con el tiempo, por lo que se recomienda verificar las especificaciones actuales y la información más reciente del fabricante en el sitio oficial de Teltonika https://www.teltonika-gps.com/ antes de finalizar la selección del equipo.

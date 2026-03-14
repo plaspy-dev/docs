@@ -2,30 +2,61 @@
 slug: /maxtrack/mtc_700
 id: mtc_700
 sidebar_label: MTC-700
+title: Maxtrack - MTC-700
 sidebar_class_name: menu_item_tracker
+description: Guía de compatibilidad del rastreador Maxtrack MTC-700 con Plaspy, incluyendo personalización, modos de telemetría, comunicaciones alternativas y casos de uso para flotas
+keywords:
+  - Maxtrack MTC-700
+  - MTC 700
+  - rastreador Maxtrack
+  - MTC-700 Plaspy
+  - rastreador GPS
+  - seguimiento de flotas
+  - telemetría de vehículos
+  - rastreador personalizable
+  - rastreador compatible satélite
+  - rastreador WiFi
 ---
+
 # Maxtrack - MTC-700
 
 ![MTC-700](./logo.jpg)
 
-La familia de rastreadores MTC-700 de Maxtrack está diseñada para satisfacer las necesidades más exigentes de seguimiento y telemetría en el mercado. Sus características ofrecen las mejores soluciones para operaciones de logística, gestión de riesgos, inteligencia integrada, sistemas de transporte público y otros tipos de operaciones personalizadas. Con acciones y Lua incrustados, este equipo es altamente personalizable y puede adaptarse a diferentes reglas de negocio y operaciones.
+La familia Maxtrack MTC-700 es una línea de rastreadores GPS profesionales pensada para aplicaciones avanzadas de seguimiento y telemetría. Sus modelos atienden a logística, gestión de riesgos, transporte colectivo y necesidades operativas personalizadas, combinando reportes de posición con modos de telemetría flexibles, lógica embebida y almacenamiento extendido de datos. La plataforma MTC-700 enfatiza la personalización y la resiliencia operativa, ofreciendo funciones como scripting embebido, soporte para múltiples SIM, almacenamiento de historial a largo plazo, detección de interferencias (jamming) y opciones para conectividad inalámbrica con periféricos.
 
-Una vez que las reglas de negocio están definidas y se incrustan en el equipo, este puede realizar todas las verificaciones sin necesidad de comunicación con el centro de control. Con el MTC-700, tienes un control total en tus manos. Las acciones del módulo incrustado, la Luna y las macros secuenciadas del ERM-700 lo convierten en el rastreador más inteligente del mercado. Además, el equipo se puede configurar según las exigencias de la operación.
+Como dispositivo compatible con Plaspy, el MTC-700 se puede integrar en los flujos de trabajo de monitoreo de flotas y activos para aportar visibilidad en tiempo real y datos históricos dentro de los paneles y reportes de Plaspy. Su comportamiento programable y sus opciones de comunicaciones de respaldo lo hacen adecuado para despliegues que requieren reglas de negocio a medida y conectividad robusta, permitiendo que las organizaciones que usan Plaspy adapten la lógica de seguimiento a políticas operativas específicas y preserven la continuidad de datos cuando los canales principales están indisponibles.
 
-La plataforma también está diseñada para operaciones críticas que requieren comunicación en cualquier lugar o situación, utilizando comunicaciones por satélite en zonas sin cobertura GPRS cuando se conecta a un módem de satélite externo. Además, al utilizar el modelo MTC-700 ADV WI-FI, también se puede establecer una comunicación inalámbrica entre el equipo y los periféricos a través de la red Wi-Fi, lo que permite la conexión con teléfonos inteligentes y tabletas, entre otros dispositivos.
+## Puntos clave
 
-### Características destacadas:
+- Familia de dispositivos altamente personalizable con scripting embebido para implementar reglas de negocio y acciones a medida.
+- Múltiples modos de telemetría para soporte general, reportes avanzados de acelerómetro y telemetría CAN cuando aplica.
+- Resiliencia en comunicaciones con soporte para doble SIM y opciones de mensajería de respaldo para mantener el flujo de datos.
+- Historial tipo caja negra que registra datos del vehículo y de telemetría para retención prolongada.
+- Modelo opcional con Wi Fi para comunicación inalámbrica local con periféricos y dispositivos móviles.
+- Diseñado para operaciones críticas, con posibilidad de uso de comunicación satelital cuando se conecta a un módem satelital externo.
 
-- Utiliza la señal GPS para calcular información importante sobre el vehículo supervisado, como posicionamiento, fecha/hora, odómetro y velocidad.
-- Tiene tres modos de telemetría incorporados: telemetría a través de las patillas del equipo, telemetría acelerómetro avanzada y telemetría a través de la red CAN.
-- Cuenta con doble tarjeta SIM y la posibilidad de SIM Chip.
-- Permite la autonomía de programación, con la posibilidad de parametrizar el equipo mediante acciones o el uso del lenguaje interpretado LUA.
-- Integración con dispositivos externos a través de interfaces físicas con puertos RS232 y RS485, entradas y salidas.
-- Comunicación con el centro a través de un módem de satélite externo en caso de fallo en la red GPRS.
-- Genera paquetes de posición y los envía al servidor a través de SMS en ausencia de conexión GPRS y fallo de alimentación externa.
-- Permite la escucha confidencial utilizando la tarjeta SIM permitida para voz.
-- Detección de atascos, que crea una marca en la posición para indicar la interferencia en la comunicación GPRS.
-- Función de Black Box, que graba la variación de información del vehículo, como velocidad, RPM, ubicación y datos de telemetría.
-- Tiene dos modos de bajo consumo para ahorrar la batería del vehículo cuando está apagado: modo de bajo consumo y modo de suspensión.
-- Permite la preparación y envío de bibliotecas en el módulo para realizar diversas funciones, como bibliotecas de referencia geográfica, conductores, macros y mensajes de texto predefinidos.
+## Cómo funciona con Plaspy
 
+Al integrarse con Plaspy, el MTC-700 proporciona datos de ubicación y telemetría que pueden visualizarse, analizarse y accionarse a través de las interfaces de Plaspy. Plaspy puede recibir los reportes del rastreador y exponerlos a gerentes de flota, equipos de operaciones y procesos de reportes para mejorar la consciencia situacional y el control operacional.
+
+- Seguimiento de ubicación en tiempo real y visualización de activos en el mapa dentro de Plaspy.
+- Generación de eventos y alertas basada en mensajes del dispositivo y reglas de negocio embebidas.
+- Datos históricos y registros tipo caja negra disponibles para reconstrucción de rutas y análisis posterior a incidentes.
+- Reportes de telemetría y estado utilizados en paneles de Plaspy y reportes programados para supervisión operativa.
+- Uso de las funciones programables del dispositivo para disparar notificaciones contextuales o cambios de estado visibles en Plaspy.
+
+## Casos de uso típicos
+
+- Seguimiento de flotas logísticas y monitoreo de rutas para operaciones de reparto y distribución.
+- Gestión de riesgo y seguridad para cargas o vehículos de alto valor que requieren telemetría y detección de interferencias.
+- Monitoreo de transporte público o colectivo con necesidades de historial y reportes a largo plazo.
+- Operaciones remotas o rurales que puedan requerir comunicaciones de respaldo o conectividad satelital.
+- Proyectos a medida que demandan scripting embebido para implementar reglas de negocio o flujos de trabajo específicos.
+
+## Por qué elegir este rastreador con Plaspy
+
+La familia MTC-700 es una opción sólida para organizaciones que necesitan un rastreador flexible y programable, adaptable a requisitos operativos diversos. Su combinación de scripting embebido, múltiples modos de telemetría y registro histórico extendido encaja bien con los casos de uso de Plaspy donde el comportamiento configurable y la captura fiable de datos son importantes.
+
+Integrar dispositivos MTC-700 con Plaspy permite a los equipos centralizar visibilidad y reportes, aprovechando las capacidades de personalización del rastreador para aplicar lógica operativa a nivel de dispositivo. Esto puede reducir la intervención manual, mejorar la continuidad de datos durante fallas de comunicación y proporcionar contexto más rico para la gestión de flotas y el análisis de incidentes.
+
+Para conocer más sobre Plaspy y cómo dispositivos compatibles como el Maxtrack MTC-700 pueden incorporarse a su estrategia de flota visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual en el sitio del fabricante https://maxtrack.com.br antes de tomar decisiones finales.

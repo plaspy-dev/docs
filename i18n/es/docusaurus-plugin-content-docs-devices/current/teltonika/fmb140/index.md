@@ -2,61 +2,59 @@
 slug: /teltonika/fmb140
 id: fmb140
 sidebar_label: FMB140
+title: Teltonika - FMB140
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto Teltonika FMB140 con telemetría CAN y compatibilidad con Plaspy para monitoreo de flotas y activos
+keywords:
+  - Teltonika FMB140
+  - FMB140 Plaspy
+  - rastreador GPS Teltonika
+  - telemetría CAN
+  - Bluetooth de baja energía
+  - seguimiento de flotas
+  - seguimiento de vehículos
+  - métricas de conducción ecológica
+  - monitoreo de activos
+  - gestión de flotas
 ---
+
 # Teltonika - FMB140
 
 ![FMB140](./tracker.png)
 
-El Teltonika FMB140 es un rastreador GPS compacto de 2G diseñado para implementaciones compatibles con Plaspy donde los datos del vehículo a nivel CAN y la telemetría extendida son relevantes. Construido alrededor de un procesador CAN integrado y conectividad Bluetooth® Low Energy, el FMB140 lee parámetros del bus CAN para vehículos ligeros y eléctricos, camiones, autobuses y maquinaria especial, y transmite esos datos a Plaspy para el seguimiento en tiempo real, análisis del comportamiento del conductor e informes a nivel de flota.
+El Teltonika FMB140 es un rastreador GPS compacto diseñado para capturar la ubicación del vehículo y telemetría derivada del bus CAN. Integra un procesador CAN y conectividad Bluetooth Low Energy para leer parámetros del vehículo en autos ligeros, camiones, autobuses y maquinaria especial, y puede enviar esa información a una plataforma telemática para monitoreo y generación de informes en tiempo real. El dispositivo se utiliza comúnmente cuando se requieren telemetría vehicular más detallada e integraciones con accesorios, además del rastreo de posición estándar.
 
-Ideal para la gestión de flotas, alquiler de coches, logística y monitorización de maquinaria pesada, el FMB140 incorpora métricas de eco-conducción basadas en CAN a tus flujos de telemática de Plaspy, al tiempo que admite una gama de accesorios de Teltonika \(EYE Beacon, EYE Sensor, ECAN02, lectores RFID e iButton\). Nota: esta página de producto indica un estado de End of Life \(EOL\) — verifica la disponibilidad y el soporte antes de realizar el pedido.
+Como dispositivo compatible con Plaspy, el FMB140 puede alimentar señales a nivel CAN, eventos de accesorios y datos de sensores Bluetooth en los paneles y flujos de trabajo de Plaspy. Esta compatibilidad permite a los operadores de flota combinar el seguimiento de ubicación con métricas de conducción ecológica, análisis del comportamiento del conductor y telemetría ambiental dentro de Plaspy. Tenga en cuenta que el FMB140 figura como End of Life, por lo que debe confirmar disponibilidad y detalles de SKU antes de la compra.
 
-## Puntos destacados
+## Aspectos destacados
 
-- Rastreador GPS compatible con Plaspy que ofrece seguimiento en tiempo real y telemetría a nivel CAN para obtener una visión más completa de la gestión de la flota.
-- Lector CAN integrado \(LV-CAN200 o ALL-CAN300 según el SKU\) que extrae parámetros del vehículo para análisis de eco-conducción e informes de comportamiento del conductor.
-- Soporte Bluetooth® Low Energy para emparejarse con balizas y sensores externos \(temperatura, humedad, movimiento y detección de imanes\) para posibilitar el monitoreo de activos y telemetría ambiental.
-- Conectividad 2G GSM en las bandas B2/B3/B5/B8 \(2G\) para amplio soporte de redes heredadas en muchos mercados.
-- Factor de forma compacto e instalación sencilla — el paquete estándar incluye la unidad y un cable de alimentación IO de 0.9 m; los SKUs seleccionados pueden incluir un cable micro USB \(0.8 m\) o códigos de activación.
-- Funciona con herramientas de gestión de Teltonika \(FOTA WEB y Teltonika Configurator\) para gestión remota del dispositivo y del firmware.
-- Compatible con accesorios de Teltonika \(ECAN02 adaptadores CAN, EYE Beacon, EYE Sensor, lectores 1-WIRE RFID e iButton\) para telemetría ampliada y flujos de anti-robo.
+- Rastreador compatible con Plaspy que combina el reporte de posición con telemetría vehicular basada en CAN para obtener información más profunda de la flota.
+- Procesador CAN integrado (según SKU) para extraer parámetros útiles en análisis de conducción ecológica y comportamiento del conductor.
+- Soporte Bluetooth Low Energy para emparejar balizas y sensores externos y ampliar el monitoreo ambiental y de activos.
+- Conectividad GSM 2G para cobertura en redes heredadas en una amplia variedad de mercados.
+- Factor de forma compacto con cable de alimentación IO estándar incluido para conexión al sistema eléctrico del vehículo.
+- Soporta herramientas de gestión remota para actualizaciones de firmware y configuración a escala.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el FMB140 transmite la posición del vehículo y la telemetría derivada de CAN a la plataforma de Plaspy para que puedas monitorizar los vehículos en tiempo real, activar alertas, generar informes y actuar ante los eventos. Los marcos de bus CAN capturados por el procesador CAN integrado se decodifican en parámetros accionables \(velocidad, indicadores de RPM, códigos de error y métricas de eco-conducción\) y se asignan a los paneles de gestión de flotas de Plaspy. Los sensores Bluetooth emparejados al FMB140 amplían la telemetría con eventos de temperatura, humedad, movimiento y detección de imanes, útiles para el monitoreo del estado de activos.
+Al integrarse con Plaspy, el FMB140 transmite ubicación y telemetría derivada del CAN a las vistas de flota, alertas e informes, de modo que usted puede monitorear activos, investigar eventos y medir el rendimiento a lo largo del tiempo. Plaspy puede mapear datos CAN y eventos de accesorios a paneles y flujos de trabajo que facilitan la supervisión operativa y el cumplimiento.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para seguimiento en vivo y reproducción histórica.
-- Datos CAN y métricas de eco-conducción \(provenientes de la funcionalidad LV-CAN200 o ALL-CAN300\) decodificados y canalizados a Plaspy para informes de comportamiento del conductor y estado del vehículo.
-- Telemetría de sensores Bluetooth \(temperatura, humedad, movimiento, detección de imanes\) enviada a Plaspy para apoyar casos de uso de mercancías refrigeradas o monitoreo de activos.
-- Eventos de accesorios \(RFID, iButton, balizas BLE\) integrados en los flujos de eventos de Plaspy para check-in/check-out, control de acceso y rastreo de inventario.
-- Gestión remota mediante FOTA WEB y Teltonika Configurator para actualizaciones de firmware y cambios de parámetros sin necesidad de acceso físico al vehículo.
+- Actualizaciones de ubicación en tiempo real y reproducción histórica disponibles en Plaspy para análisis de rutas y revisión de incidentes.
+- Parámetros del bus CAN y métricas de conducción ecológica rumbo a Plaspy para scoring de conductores, proxies de eficiencia de combustible e informes del estado del vehículo.
+- Lecturas de sensores Bluetooth y eventos de accesorios enviados a Plaspy para soportar monitoreo de temperatura, detección de movimiento y alertas de condición de activos.
+- Integraciones de accesorios como eventos RFID e iButton incorporados en los flujos de eventos de Plaspy para control de accesos y flujos de trabajo de check-in automatizados.
+- Configuración remota y gestión de firmware mediante las herramientas de gestión de Teltonika soportadas, minimizando el mantenimiento en sitio para flotas gestionadas con Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 2G GSM |
-| --- | --- |
-| Bandas | B2, B3, B5, B8 \(2G\) |
-| Funcionalidad CAN | Procesador CAN integrado — LV-CAN200 o ALL-CAN300 según SKU |
-| Bluetooth | Bluetooth® Low Energy para balizas y sensores externos |
-| Contenido del paquete | Rastreador FMB140, cable de alimentación IO \(0.9 m\). Los SKUs seleccionados pueden incluir cable micro USB \(0.8 m\) o códigos de activación. |
-| Interfaces | Lectura de datos del bus CAN mediante el chip CAN incorporado; cable de alimentación IO para la alimentación del vehículo; micro USB en algunos SKUs; compatible con ECAN02, EYE Beacon, EYE Sensor, 1-WIRE RFID y iButton. |
-| Gestión remota | Teltonika FOTA WEB y Teltonika Configurator soportados para gestión del dispositivo y del firmware |
-| Factor de forma | Rastreador compacto para vehículos ligeros, camiones, autobuses y maquinaria especial |
-| GNSS | La capacidad de posicionamiento no se especifica explícitamente en la descripción del producto proporcionada |
-| Alimentación y batería | Alimentación suministrada vía cable de alimentación IO; no se especifican detalles de batería interna en la descripción proporcionada |
-| Notas | Varios SKUs disponibles \(p. ej., FMB140BTXW01 con LV-CAN200; FMB140YNXW01 con ALL-CAN300\). Producto indicado como EOL — confirme stock y soporte. |
-
-## Casos de uso
-
-- Telemática de flotas y programas de eco-conducción: recolecta parámetros a nivel CAN para medir indicadores de eficiencia de combustible, eventos severos y comportamiento del conductor para coaching y reducción de costos.
-- Alquiler y leasing de vehículos: combina posicionamiento, datos CAN y eventos RFID/iButton para check-in/check-out automatizado y monitoreo de uso.
-- Logística y transporte refrigerado: utiliza sensores Bluetooth para telemetría de temperatura y humedad para proteger la carga perecedera mientras se rastrean los vehículos en tiempo real a través de Plaspy.
-- Maquinaria pesada y servicios públicos: monitoriza horas de operación, diagnósticos y movimiento de maquinaria especial donde las señales a nivel CAN proporcionan disparadores de mantenimiento y métricas de utilización.
+- Programas de telemática de flotas y conducción ecológica que requieren parámetros a nivel CAN para medir eficiencia y entrenar a los conductores.
+- Operaciones de renta y leasing de autos que usan ubicación, datos CAN y eventos RFID o iButton para check-in automático y seguimiento de uso.
+- Logística y transporte refrigerado donde sensores Bluetooth ofrecen telemetría ambiental junto al rastreo vehicular.
+- Monitoreo de equipos pesados y servicios públicos donde señales CAN y datos de movimiento informan reportes de mantenimiento y utilización.
+- Monitoreo de activos y flujos de trabajo antirobo que combinan posicionamiento con eventos de accesorios y telemetría.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Emparejar el Teltonika FMB140 con Plaspy ofrece a los gestores de flotas un rastreador GPS compacto con capacidad CAN que eleva el rastreo de ubicación estándar a telemetría rica y a análisis de eco-conducción. El FMB140 está diseñado para integraciones: su procesador CAN a bordo decodifica parámetros a nivel de vehículo, los sensores Bluetooth amplían la monitorización ambiental y el ecosistema de accesorios de Teltonika habilita soluciones a medida para gestión de inventario, control de temperatura y detección de presencia. Gestionado de forma remota a través de FOTA WEB y Teltonika Configurator, el dispositivo reduce el mantenimiento en sitio y simplifica despliegues a gran escala.
+El FMB140 es una opción práctica para flotas que desean ir más allá del simple rastreo GPS e incorporar telemetría a nivel vehículo y eventos impulsados por accesorios en sus flujos telemáticos. Su combinación de procesamiento CAN a bordo y la extensibilidad mediante Bluetooth Low Energy lo hace ideal para flotas mixtas e instalaciones donde importan las métricas de conducción ecológica, sensores ambientales e integraciones de accesorios. En conjunto con Plaspy, esos flujos de datos se integran en paneles, alertas e informes unificados para la toma de decisiones operativas.
 
-Para flotas centradas en el rastreo en tiempo real, telemetría y conocimientos accionables —ya sea para mejorar la eficiencia del combustible, monitorizar el comportamiento del conductor o habilitar flujos de trabajo anti-robo e inmovilizador mediante integraciones CAN y accesorios— el FMB140 es una opción compatible con Plaspy que vale la pena considerar. Tenga en cuenta que el producto figura como EOL; confirme la disponibilidad, la compatibilidad de SKU \(LV-CAN200 vs ALL-CAN300\) y los requisitos de accesorios antes de la compra para asegurar que la solución satisfaga sus casos de uso de control de ignición, monitorización de combustible o inmovilización.
-
+Para obtener más información sobre Plaspy y cómo funciona con dispositivos compatibles como el Teltonika FMB140 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y el soporte del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales y la compatibilidad de SKU en el sitio oficial de Teltonika https://www.teltonika-gps.com/.

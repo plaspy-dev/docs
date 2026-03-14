@@ -2,61 +2,59 @@
 slug: /noran/nr008
 id: nr008
 sidebar_label: NR008
+title: Noran - NR008
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS Noran NR008 confiable, compatible con Plaspy para seguimiento en tiempo real y bloqueo remoto de vehículos
+keywords:
+  - Noran NR008
+  - Rastreador GPS NR008
+  - Rastreador Noran
+  - Compatible con Plaspy
+  - Rastreador de vehículos
+  - Seguimiento de flotas
+  - Seguimiento GPS
+  - Inmovilizador remoto
+  - Alerta SOS
+  - Geocercas
 ---
+
 # Noran - NR008
 
 ![NR008](./tracker.jpg)
 
-El NR008 es un rastreador GPS automotriz robusto, diseñado para implementaciones compatibles con Plaspy que requieren seguimiento en tiempo real fiable y control del vehículo. Basado en un chipset GNSS SiRFstar y comunicaciones GSM/GPRS SIMCOM, el NR008 proporciona actualizaciones de posición continuas, alertas en tiempo real y funciones de control remoto que se integran de forma fluida en flujos de trabajo de gestión de flotas y telemática basados en Plaspy.
+El NR008 es un rastreador GPS para automóviles robusto, pensado para implementaciones que requieren actualizaciones de ubicación en tiempo real y control del vehículo. Basado en el chipset GNSS SiRFstar y con comunicaciones GSM y GPRS de SIMCOM, el NR008 ofrece reportes continuos de posición, alertas SOS, geocercas, alarmas por exceso de velocidad, detección de movimiento y capacidades de inmovilización remota, todo orientado a la seguridad vehicular y la supervisión de flotas.
 
-El NR008 es ideal para empresas y particulares que requieren protección anti robo, inmovilización remota y monitoreo de voz en el interior del vehículo. Con alertas SOS, geocercas, alarmas de exceso de velocidad y detección de movimiento, este rastreador GPS ofrece las funciones de telemetría y control que esperan los gestores de flotas, manteniendo a la vez una integración sencilla con Plaspy a través de SMS o GPRS.
+Como dispositivo compatible con Plaspy, el NR008 puede enviar datos de posición y eventos a la plataforma Plaspy mediante SMS o GPRS, proporcionando a los administradores de flota visibilidad centralizada y gestión de alertas. Su combinación de telemetría y funciones de control remoto lo hace práctico para usuarios de Plaspy que necesitan una integración sencilla para seguimiento, enrutamiento de notificaciones y comandos básicos para vehículos.
 
-## Puntos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real fiable y gestión de flotas.
-- Inmovilizador remoto y control del motor \(apagado de combustible vía SMS/GPRS\) para respuesta anti robo.
-- Alertas SOS de emergencia y monitoreo de voz—números autorizados pueden llamar al dispositivo para escuchar el interior del vehículo.
-- Geocercas y alertas de movimiento para detectar rutas no autorizadas o manipulación, incluida alarma anti-desmontaje ante la pérdida de energía.
-- Alarmas de exceso de velocidad enviadas al servidor y a números móviles autorizados para garantizar la seguridad y el cumplimiento.
-- Incluido con accesorios prácticos \(botón SOS, micrófono, antena GPS, cable de conexión\) para una instalación en vehículo rápida.
-- La combinación de GPS SiRFstar y módulo GSM SIMCOM ofrece fijaciones GNSS fiables y conectividad celular para la entrega de telemetría.
+- Compatible con Plaspy para seguimiento en tiempo real y visibilidad centralizada de flotas.
+- Capacidad de inmovilización remota y control del motor para respuesta antirrobo.
+- Alertas de emergencia SOS y monitoreo de voz para atención de incidentes a bordo.
+- Geocercas, alarmas por exceso de velocidad y detección de movimiento para alertas proactivas.
+- Diseñado para instalación en vehículo y suministrado con accesorios prácticos para despliegues.
+- Componentes SiRFstar GNSS y SIMCOM para posicionamiento y conectividad confiables.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el NR008 transmite datos de ubicación y eventos a la plataforma Plaspy a través de GSM/GPRS o mediante SMS. Plaspy ingiere esos datos para proporcionar seguimiento en tiempo real basado en mapas, alertas e informes históricos. Los gestores de flotas pueden emitir comandos remotos \(por ejemplo, para inmovilizar un vehículo\) a través de Plaspy usando los canales de comando SMS o GPRS soportados por el NR008.
+Al integrarse con Plaspy, el NR008 transmite fijaciones de ubicación y mensajes de evento por GSM GPRS o SMS a la plataforma Plaspy. Plaspy procesa estos datos para ofrecer seguimiento sobre mapas, gestión de alertas e informes históricos, de modo que los operadores puedan monitorear activos y actuar sobre eventos desde una única interfaz.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy vía GPRS o SMS.
-- Alertas de límite de geocerca y detección de movimiento activan notificaciones inmediatas en Plaspy.
-- Alertas SOS de emergencia reenviadas a Plaspy y contactos autorizados para una respuesta rápida.
-- Inmovilizador remoto y control del motor mediante comandos SMS/GPRS emitidos por Plaspy para realizar el corte de combustible cuando esté soportado por el cableado del vehículo.
-- Monitoreo de voz \(escucha por llamada\) y notificaciones de alarma anti-desmontaje se trasladan a canales de alerta habilitados por Plaspy.
-- Plaspy también puede coordinar telemetría y flujos de informes junto con otros periféricos; si su implementación utiliza sensores Bluetooth, Plaspy puede agregar esas lecturas junto con los datos del NR008 cuando esté emparejado con hardware compatible.
+- Actualizaciones de ubicación en tiempo real entregadas a Plaspy para seguimiento en mapa y supervisión en vivo.
+- Alertas de geocerca y movimiento reenviadas a Plaspy para activar notificaciones y flujos de trabajo.
+- Alertas SOS y eventos de monitoreo de voz escalados a contactos autorizados mediante los canales de alerta de Plaspy.
+- Comandos de inmovilizador remoto y control del motor enviados desde Plaspy vía SMS o GPRS cuando el cableado del vehículo lo soporta.
+- Datos históricos de posición y eventos almacenados para reportes, revisión de rutas y análisis operacional.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS \(módulo SIMCOM\); canales de datos SMS y GPRS para telemetría y control remoto |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz y 2100 MHz \(3G\) |
-| Alimentación y batería | Funciona con la alimentación del vehículo; la alarma anti-desmontaje se activa ante la pérdida de energía del vehículo \(batería de respaldo no especificada\) |
-| Interfaces | Entrada de botón externo SOS; micrófono para monitoreo de voz; cable de conexión para el cableado del vehículo; control remoto del motor \(apagado de combustible vía SMS/GPRS\); compatible con la alarma original anti-robo del vehículo |
-| GNSS | Conjunto SiRFstar, 20 canales; tiempo de captura GPS \(promedio\) 0.1 s; Arranque en caliente ≈ 2 s; Arranque tibio ≈ 38 s; Arranque en frío ≈ 44 s; Altitud máxima 18,000 m; Velocidad máxima 515 m/s |
-| Bluetooth | No especificado en los datos del fabricante |
-| Gestión remota | Comandos y configuración remotos vía SMS/GPRS; recopilación de telemetría basada en servidor compatible con plataformas de gestión de flotas como Plaspy |
-| Factor de forma | Rastreador para vehículo—se entrega con botón SOS, micrófono, antena GPS, cable de conexión y manual de usuario en inglés; opciones disponibles como regalo o kit compacto |
-| Rendimiento RF | Potencia de salida RF máxima 33.0 dBm ±2 dBm; rango de entrada dinámico -15 a -102 dBm; Estabilidad de frecuencia >2.5 ppm |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, alertas de exceso de velocidad y monitorización de rutas para mejorar la utilización y la seguridad del conductor.
-- Anti-robo e inmovilización remota: detectar eventos de robo, recibir alarmas anti-desmontaje y realizar el corte remoto de combustible cuando sea necesario.
-- Alquiler de vehículos y movilidad compartida: alertas SOS, geocercas y detección de movimiento mantienen los activos alquilados seguros y rastreables.
-- Seguridad del conductor y respuesta a incidentes: monitoreo de voz y botón SOS proporcionan comunicaciones de emergencia y asistencia más rápida.
-- Telemática y reporting general: recopilar telemetría basada en ubicación para la programación de mantenimiento, informes de cumplimiento y optimización operativa.
+- Gestión de flotas para seguimiento en tiempo real, supervisión de rutas e informes de cumplimiento.
+- Protección antirrobo con alertas por manipulación, inmovilización remota y soporte para recuperación.
+- Programas de alquiler de vehículos y movilidad compartida que requieren geocercas y capacidades SOS.
+- Seguridad del conductor y respuesta ante incidentes mediante alertas SOS y monitoreo de voz en el vehículo.
+- Telemática general para planificación de mantenimientos, control de utilización y optimización operativa.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El NR008 combina la precisión GNSS probada de un chipset SiRFstar con las maduras comunicaciones celulares SIMCOM para ofrecer un rendimiento fiable del rastreador GPS en implementaciones compatibles con Plaspy. Su combinación de capacidad de inmovilización remota, SOS y monitoreo de voz, geocercas y alarmas de velocidad excedida proporciona a los operadores de flotas el control y la conciencia situacional requeridos para la gestión de flotas moderna y estrategias anti robo.
+El NR008 combina posicionamiento GNSS probado con telemetría celular para ofrecer un rastreador práctico a organizaciones que requieren monitoreo vehicular confiable y control remoto sencillo. Su conjunto de funciones se ajusta a las necesidades habituales de flotas y seguridad, por lo que es una buena opción para despliegues Plaspy centrados en visibilidad, alertas y flujos de comando más que en funciones experimentales.
 
-Desplegar el NR008 con Plaspy permite una integración rápida vía SMS/GPRS, un enrutamiento de alertas directo y un reporte de telemetría centralizado. Para organizaciones centradas en la fiabilidad y el control práctico de vehículos—en lugar de funciones experimentales—el NR008 es una opción diseñada para uso corporativo que admite gestión de flotas escalable, flujos de telemetría y monitoreo centrado en la seguridad, y se entrega con los accesorios necesarios para una instalación rápida.
-
+Si está evaluando dispositivos para la gestión de flotas con Plaspy, el NR008 ofrece una combinación equilibrada de seguimiento, alertas e inmovilización que apoya las operaciones diarias. Para saber más sobre Plaspy y cómo se utilizan los dispositivos compatibles dentro de la plataforma visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales con el fabricante en http://www.norantracker.com/.

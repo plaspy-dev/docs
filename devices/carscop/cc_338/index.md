@@ -2,62 +2,59 @@
 slug: /carscop/cc_338
 id: cc_338
 sidebar_label: CC-338
+title: Carscop - CC-338
 sidebar_class_name: menu_item_tracker
+description: Compact 4G T Box vehicle telematics tracker compatible with Plaspy for car rental car sharing and fleet management
+keywords:
+  - Carscop CC 338
+  - CC 338 tracker
+  - Carscop tracker
+  - Plaspy compatible tracker
+  - vehicle telematics
+  - car sharing tracker
+  - fleet management GPS
+  - OBD II CANBUS tracker
+  - remote immobilizer
+  - A GPS LBS fallback
 ---
+
 # Carscop - CC-338
 
 ![CC-338](./tracker.JPG)
 
-The CC-338 4G T-Box is a Plaspy compatible vehicle telematics GPS tracker designed for car rental, car sharing, and fleet management. Built as a compact T-Box with integrated GSM/GPS antennas and OBD II CANBUS connectivity, the CC-338 converts ordinary vehicles into mobile-phone controllable cars for unattended rental and self-service sharing. Its multi-network cellular support \(4G/3G/2G\), A-GPS with LBS fallback, and onboard logging make it a reliable choice for real-time tracking and secure remote control.
+The CC-338 is a compact 4G T Box vehicle telematics GPS tracker from Carscop intended for car rental, car sharing, and fleet management. It combines an integrated cellular and GNSS radio with OBD II CANBUS connectivity to convert ordinary vehicles into remotely controllable and monitorable assets for unattended rental and self service sharing. The unit is designed to capture location, vehicle state, and basic event data while providing channels for remote control and local access management.
 
-The CC-338 couples deep vehicle telemetry with multiple control channels: internet \(app/API\), Bluetooth LE for offline control, and wired outputs for central locking, siren, lights, horn and engine cut. Purpose-built for integrators and fleet operators, the unit supports telemetry, ignition and door alarms, anti-theft workflows, and remote immobilizer commands while exposing an open API and TCP/IP connectivity for Plaspy integration and private-server deployments.
+This model is compatible with Plaspy and can act as a direct data and command gateway to the Plaspy platform. Through the CC-338's open connectivity options and onboard logging, operators can stream location and vehicle telemetry into Plaspy for live monitoring, alerting, and operational workflows. Its combination of telemetry and multiple control paths makes it a practical option for organizations evaluating Plaspy compatible hardware for rental, sharing, or fleet oversight.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for real-time tracking and fleet management with open API and TCP/IP connectivity for seamless integration.
-- Multi-band 4G/3G/2G global cellular support ensures broad network coverage for telemetry and remote control.
-- OBD II CANBUS interface provides deep vehicle telemetry and control capability, enabling diagnostics and fuel-related data where vehicle CAN supports it.
-- Multiple control methods: internet/app/API, Bluetooth LE for local offline control, and wired outputs for central locking, lights, siren and engine-cut immobilizer.
-- Built-in A-GPS and LBS fallback with onboard logging and last-known-position retention for no-GPS or no-GSM conditions.
-- Safety sensors including shock sensor, G-sensor for driving behavior, door and ACC alarms, plus a rechargeable backup Li-battery for power-down alerts.
-- Wide operating voltage \(9–40 V\) supports both 12V and 24V vehicles including gasoline, diesel and electric fleets.
+- Plaspy compatible vehicle telematics unit suitable for car rental car sharing and fleet management.
+- Integrated cellular and GNSS radios with A GPS and cell tower fallback for broader coverage.
+- OBD II CANBUS connectivity for access to vehicle telemetry and control channels where vehicle systems expose data.
+- Multiple control methods including internet API access local wireless control and wired outputs for locking and immobilization.
+- Onboard logging and last known position retention to preserve events when connectivity is interrupted.
+- Designed for integrators with an open API and TCP IP connectivity for private server or platform integration.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the CC-338 acts as a data and command gateway between the vehicle and your management platform. It streams location and vehicle telemetry to Plaspy for live monitoring, triggers alarms, and accepts remote commands for immobilization or access control. Integration uses the device's TCP/IP channel or the open API so fleet managers can implement workflows for car sharing, anti-theft, and maintenance scheduling.
+When connected to Plaspy the CC-338 forwards location and vehicle event data to the platform for live visibility and historical reporting while accepting remote commands that support sharing and security workflows. Plaspy can use the unit's data stream and control channels to automate alerts and operational responses across fleets and rental deployments.
 
-- Real-time location and telemetry updates streamed to Plaspy for monitoring and reporting.
-- Ignition/ACC state, door and alarm events reported to Plaspy for safety and usage tracking.
-- CANBUS vehicle data \(speed, engine status, diagnostic and fuel-related parameters where available through vehicle CAN\) forwarded as telemetry.
-- Remote immobilizer / engine-cut control via internet command or SMS for anti-theft and rental enforcement.
-- Bluetooth LE local control and Bluetooth sensors for offline access management and proximity-based workflows.
-- Onboard logging and last-known-position retention when GSM or GPS are unavailable; logs forward to Plaspy once connectivity returns.
+- Real time location updates and history available in Plaspy dashboards and reports.
+- Vehicle state and event reporting such as ignition door and alarm events surfaced for safety and usage tracking.
+- Telemetry forwarded into Plaspy for operational monitoring and scheduling of maintenance actions.
+- Remote immobilizer and access control commands issued from Plaspy to support anti theft and rental enforcement.
+- Local wireless control options used for proximity based access and offline workflows with logging forwarded when connectivity resumes.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE / 3G WCDMA / 2G GSM \(multi-network cellular\) |
-| --- | --- |
-| Bands | Multi-band 4G/3G/2G support for global operation \(manufacturer-provided global variants\) |
-| Power & Battery | Operating voltage 9–40 V \(12V & 24V vehicles\); rechargeable backup Li-battery for power-down alarms and backup logging |
-| Interfaces | OBD II CANBUS interface for reading vehicle data and issuing control commands; CANBUS and wired dual-control outputs for central locking, siren, lights, horn and engine cut; ACC/ignition and door alarm inputs |
-| GNSS | GPS module with A-GPS for fast acquisition; LBS \(cell-tower\) locating when GPS is unavailable; configurable GPS upload intervals and last-known-position memory |
-| Bluetooth | Bluetooth Low Energy \(BLE\) for local offline control and BLE sensor/beacon support |
-| Remote Management | OTA firmware upgrade \(GPRS\), TCP/IP connectivity for private servers, open API and app/API control for integration |
-| Form Factor | Vehicle telematics T-Box with built-in GSM and GPS antennas; compact, hidden-install profile; package includes main unit, wiring harness and user manual |
-
-## Use Cases
-
-- Unattended car rental and self-service car sharing: enable remote door control, user authentication via app/Bluetooth, and automatic billing tied to ignition/usage data.
-- Fleet management and telemetry: track vehicle location, driving behavior \(G-sensor\), OBD CANBUS diagnostics, and maintenance triggers through Plaspy dashboards.
-- Anti-theft and immobilization: remote engine-cut via internet or SMS plus alarm notifications for doors, shock sensor triggers and power-down events.
-- Fuel monitoring and operational analytics: forward CANBUS fuel-related parameters to Plaspy \(when exposed on vehicle CAN\) to support fuel monitoring and trip-level reporting.
-- Local/offline control and proximity workflows: BLE-based local unlocking or access for short-term rentals and keyless entry scenarios without relying solely on cellular coverage.
+- Unattended car rental and self service car sharing with remote access control and billing tied to usage.
+- Fleet tracking and operational oversight where location and vehicle state inform dispatch and maintenance.
+- Anti theft workflows that combine alarm events remote engine cut and alerting to operators.
+- Fuel and diagnostic monitoring forwarded to Plaspy where vehicle data is exposed on the vehicle bus.
+- Proximity based unlocking and short term access using local wireless control for guest or driver access.
 
 ## Why Choose This Tracker with Plaspy
 
-The CC-338 is a practical choice for operators who need a Plaspy compatible GPS tracker that balances rich vehicle telemetry with flexible control channels. Its integrated OBD II CANBUS access gives you granular vehicle data for diagnostics, fuel monitoring where available, and usage-based workflows. Multiple control paths—app/API, BLE, wired outputs and SMS—mean you can design robust anti-theft and car-sharing experiences that work in real-time and offline modes.
+The CC-338 pairs rich vehicle telemetry with flexible control channels that suit rental and fleet operators who need both remote management and local access options. Its OBD II CANBUS connectivity and multiple control methods allow integrators to design workflows that combine real time tracking, usage based policies, and anti theft measures while maintaining a degree of offline capability through onboard logging.
 
-For fleet managers and integrators, the CC-338’s wide voltage range, onboard logging, OTA updates, and open API reduce deployment friction and lower long-term maintenance overhead. Whether you run a rental fleet, a sharing platform, or need anti-theft immobilization, pairing the CC-338 with Plaspy delivers scalable real-time tracking, actionable telemetry, and secure remote control to keep vehicles under efficient operational oversight.
-
-Manufacturer demo platforms are available \(cloud control demo at https://www.999gps.com — account: test / password: 123456; car rent demo at http://rent.999gps.com — account: carsharing / password: 123456\) for integrators evaluating Plaspy compatible GPS tracker integration and API workflows.
-
+If you want to learn more about how Plaspy can work with compatible hardware like the CC-338 visit https://www.plaspy.com. Product specifications availability and manufacturer details can change over time so verify current technical information on the official Carscop site http://www.carscop.com/ before making deployment decisions.

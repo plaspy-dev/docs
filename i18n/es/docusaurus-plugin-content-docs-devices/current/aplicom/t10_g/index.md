@@ -2,59 +2,59 @@
 slug: /aplicom/t10_g
 id: t10_g
 sidebar_label: T10 G
+title: Aplicom - T10 G
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS Aplicom T10 G robusto, compatible con Plaspy para telemetría vehicular y seguimiento confiable de flotas
+keywords:
+  - aplicom t10 g
+  - aplicom t10g
+  - rastreador gps aplicom
+  - rastreador t10 g
+  - seguimiento de flotas aplicom
+  - aplicom t10 g plaspy
+  - dispositivos compatibles con plaspy
+  - rastreador telemetría vehicular
+  - rastreador gps ip67
+  - aplicom silver cloud
 ---
+
 # Aplicom - T10 G
 
 ![T10 G](./logo.png)
 
-El Aplicom T10 G es un rastreador GPS de clase CAN, robusto y compatible con Plaspy, diseñado para la gestión moderna de flotas y telemetría de vehículos. Producido por Aplicom, el T10 G combina una carcasa resistente con grado IP67, instalación plug-and-play y acceso integrado al bus CAN para entregar datos fiables del vehículo para seguimiento en tiempo real, diagnósticos y flujos de trabajo de telemática de flotas integrados con Plaspy.
+El Aplicom T10 G es un rastreador GPS resistente diseñado específicamente para telemetría vehicular y gestión de flotas. Fabricado por Aplicom, el T10 G combina una robusta carcasa con clasificación IP67 y una instalación plug and play con acceso directo al bus del vehículo para capturar ubicación y señales a nivel vehicular, permitiendo seguimiento y diagnóstico en tiempo real. Está pensado para entornos demandantes y flotas que requieren informes de ubicación contínuos y telemetría fiable.
 
-Diseñado para flotas en roaming y entornos exigentes, el T10 G utiliza conectividad celular a prueba de futuro \(LTE Cat M1 con roaming global 4G y respaldo 2G\) junto con la gestión de dispositivos Aplicom Silver Cloud para provisión remota y entrega de datos. Úselo con Plaspy para añadir telemetría a nivel de vehículo, señales derivadas del CAN y reporte continuo de ubicación a sus operaciones de flota, flujos de trabajo antirrobo y paneles de telemetría.
+Como dispositivo compatible con Plaspy, el T10 G puede integrar datos de ubicación y telemetría vehicular en los paneles y flujos de trabajo de Plaspy. Con conectividad celular, gestión remota de dispositivos a través de Aplicom Silver Cloud y captura de datos del bus del vehículo, el T10 G entrega las señales que los operadores de flota suelen incorporar en Plaspy para monitoreo, alertas e informes.
 
-## Key Highlights
+## Puntos clave
 
-- Compatible con Plaspy: integra telemetría del vehículo y reporte de ubicación en los paneles y flujos de trabajo de Plaspy para seguimiento en tiempo real.
-- Carcasa robusta, con clasificación IP67, para operación fiable en entornos exigentes de flotas e industriales.
-- Interfaz CAN integrada que recoge datos del bus del vehículo, como estado de encendido, diagnóstico del motor y telemetría relacionada con el combustible cuando estén disponibles en el bus.
-- Conectividad celular a prueba de futuro: soporte LTE Cat M1 con roaming 4G global y respaldo 2G para mantener la conectividad entre regiones.
-- Instalación plug-and-play minimiza el tiempo de inactividad y acelera el despliegue en una flota mixta.
-- Gestión remota del dispositivo a través de Aplicom Silver Cloud permite provisión, configuración y flujos de trabajo de firmware a escala.
-- Kit de inicio y variante 2G disponibles para pruebas y despliegues en áreas con redes heredadas.
+- Dispositivo compatible con Plaspy que integra telemetría vehicular y reportes de ubicación en los flujos de trabajo de flota.
+- Carcasa resistente con certificación IP67 para funcionamiento fiable en entornos vehiculares e industriales exigentes.
+- Acceso al bus CAN del vehículo para recoger señales como estado de ignición e información diagnóstica cuando estén disponibles.
+- Conectividad celular pensada para operaciones en roaming con opciones de fallback para mantener cobertura entre distintas regiones.
+- Instalación plug and play que reduce el tiempo de despliegue en flotas mixtas.
+- Aprovisionamiento remoto y gestión del ciclo de vida mediante Aplicom Silver Cloud para administración a escala.
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-El Aplicom T10 G transmite telemetría del vehículo y datos del bus CAN a la capa de gestión de dispositivos de Aplicom y puede conectarse a Plaspy para seguimiento en tiempo real, alertas e informes. Plaspy puede consumir las cargas telemétricas proporcionadas por el T10 G \(ubicación y señales derivadas del CAN\) para ofrecer insights de gestión de flotas, alertas antirrobo e informes operativos.
+El Aplicom T10 G transmite ubicación y telemetría vehicular a la capa de gestión de dispositivos de Aplicom y puede conectarse a Plaspy para que los equipos de flota reciban en tiempo real posición, estado e información diagnóstica en sus flujos de trabajo preferidos. Plaspy consume esas señales de telemetría para ofrecer monitoreo en vivo, alertas e informes operativos para flotas y activos vehiculares.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(el reporte de ubicación está disponible donde GNSS esté habilitado en el dispositivo/variante\).
-- Datos del bus CAN del vehículo, como estado de encendido, códigos de diagnóstico de averías y telemetría de nivel de combustible cuando estas señales estén presentes en el bus del vehículo.
-- La provisión y configuración remotas a través de Aplicom Silver Cloud le permiten empezar a transmitir telemática crítica para la misión a Plaspy de forma rápida.
-- La resiliencia de la red mediante LTE Cat M1 y respaldo 2G mantiene el flujo de telemetría en áreas con cobertura variable, importante para flotas en roaming.
-- Soporte de kit de inicio para despliegues piloto y pruebas antes de una implementación a gran escala en flotas gestionadas por Plaspy.
+- Actualizaciones de ubicación en tiempo real y reportes continuos de posición para visibilidad de la flota.
+- Datos del bus del vehículo, como estado de ignición, mensajes diagnósticos y telemetría relacionada con combustible cuando esos datos estén presentes en el bus.
+- Aprovisionamiento y configuración remota mediante Aplicom Silver Cloud para acelerar la incorporación a Plaspy.
+- Resiliencia de red mediante roaming celular y opciones de fallback que mantienen el flujo de telemetría en áreas con cobertura variable.
+- Soporte con kits de inicio para despliegues piloto y rollouts por fases antes de una integración a gran escala.
 
-## Technical Overview
+## Casos de uso típicos
 
-| Connectivity | LTE Cat M1 \(LTE-M\) with global 4G roaming capability; 2G fallback supported |
-| --- | --- |
-| Bands | Specific LTE/2G bands vary by variant and region — consult the Aplicom product datasheet for band details |
-| Power & Battery | Powering details not specified in provided description; consult the datasheet for vehicle power and any backup battery options |
-| Interfaces | Built-in CAN interface for vehicle-bus data capture; plug-and-play installation simplifies wiring and setup |
-| GNSS | Location reporting is part of typical telematics workflows; check product datasheet for GNSS module availability per variant |
-| Bluetooth | Bluetooth sensor support not specified in the description — review the datasheet for BLE sensor options |
-| Remote Management | Aplicom Silver Cloud device management for remote provisioning, configuration and data delivery |
-| Form Factor | Compact, rugged IP67 enclosure suited for vehicle/asset mounting; starter kit available for pilots |
+- Gestión centralizada de flotas con seguimiento en vivo y monitoreo de rutas desde Plaspy.
+- Flujos de trabajo de seguridad y antirobo que usan ubicación y estado de ignición para detectar movimientos no autorizados.
+- Telemetría remota para vehículos industriales que apoye mantenimiento preventivo y supervisión operativa.
+- Rastreo de remolques y activos en regiones donde se requiere una carcasa resistente y conectividad en roaming.
+- Pruebas piloto y despliegues por fases usando kits de inicio o variantes regionales.
 
-## Use Cases
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas: seguimiento centralizado de vehículos, monitorización de rutas y telemetría integrada en Plaspy para visibilidad operativa.
-- Antirrobo y seguridad: utilice el estado de encendido y las señales de ubicación para detectar movimientos no autorizados y apoyar flujos de inmovilización a través de los sistemas del vehículo.
-- Telemetría remota para vehículos industriales: recopilar diagnósticos del bus CAN y datos del motor para mantenimiento preventivo y monitoreo de la disponibilidad.
-- Seguimiento de remolques y activos: diseño robusto y roaming celular hacen que la unidad sea adecuada para remolques y activos que operan en distintas regiones.
-- Despliegues piloto y pruebas: utilice el T10 G Starter Kit y la variante 2G de T10 para implementaciones por fases y comprobaciones de compatibilidad antes de la integración a gran escala con Plaspy.
+El Aplicom T10 G ofrece un equilibrio práctico entre hardware robusto y visibilidad a nivel vehicular que se alinea con los flujos de trabajo habituales de Plaspy para flotas. Su acceso al bus del vehículo y la reportabilidad continua de la ubicación permiten a los operadores incorporar telemetría más completa en Plaspy para informes, alertas y toma de decisiones operativas. La gestión remota de dispositivos mediante Aplicom Silver Cloud y la instalación plug and play ayudan a reducir la carga de despliegue en flotas mixtas o en roaming.
 
-## Why Choose This Tracker with Plaspy
-
-El Aplicom T10 G aporta hardware duradero y visibilidad a nivel de vehículo para flotas impulsadas por Plaspy. Su interfaz CAN facilita extraer el estado de encendido, mensajes de diagnóstico y telemetría relacionada con el combustible desde el bus del vehículo y alimentar esos datos en Plaspy para telemetría, informes y flujos de trabajo antirrobo. LTE Cat M1 más respaldo 2G y roaming 4G global reducen el riesgo de conectividad en operaciones internacionales o remotas, mientras que Aplicom Silver Cloud simplifica la provisión y gestión del ciclo de vida de forma remota, para que dediques menos tiempo a la configuración del dispositivo y más a la analítica y operaciones.
-
-Para operaciones que requieren un dispositivo telemático robusto y de fácil despliegue que se integre en Plaspy para seguimiento en tiempo real y gestión de flotas, el Aplicom T10 G ofrece una combinación práctica de visibilidad del bus CAN, resiliencia celular y gestión de dispositivos habilitada en la nube. Consulte la documentación del producto de Aplicom y la página del producto T10 G para obtener detalles sobre el soporte de bandas, especificaciones GNSS y opciones de pedido, incluyendo la variante T10 2G y el kit de inicio.
-
+Si su operación necesita un dispositivo telemático duradero que pueda enviar telemetría vehicular a Plaspy para seguimiento, diagnóstico e informes de flota, el T10 G es un candidato recomendable para evaluar. Learn more about Plaspy on the main website https://www.plaspy.com and verify current product specifications, availability and regional details on the manufacturer site https://www.aplicom.com/ as product details and options can change over time.

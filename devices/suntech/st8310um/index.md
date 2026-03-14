@@ -2,64 +2,63 @@
 slug: /suntech/st8310um
 id: st8310um
 sidebar_label: ST8310UM
+title: Suntech - ST8310UM
 sidebar_class_name: menu_item_tracker
+description: Ultra compact Suntech ST8310UM GPS tracker compatible with Plaspy for real time fleet and asset tracking with IP67 durability
+keywords:
+  - Suntech ST8310UM
+  - ST8310UM
+  - Suntech tracker
+  - Plaspy compatible
+  - GPS tracker
+  - LTE Cat 1
+  - IP67 tracker
+  - fleet tracking
+  - asset tracking
+  - GNSS tracking
 ---
+
 # Suntech - ST8310UM
 
 ![ST8310UM](./tracker.jpg)
 
-The ST8310UM is an ultra-compact LTE Cat 1 GPS tracker engineered for vehicle and asset tracking in exposed or harsh environments. Designed for integrations, the ST8310UM is Plaspy compatible out of the box, delivering reliable real-time tracking, essential telemetry and low-power behavior tailored to fleet management and anti-theft deployments.
+The ST8310UM is an ultra compact LTE Cat 1 GPS tracker engineered for vehicle and asset tracking in exposed and harsh environments. It combines cellular connectivity with robust GNSS positioning and an IP67 rated enclosure to support deployments where space is limited and environmental protection is required. The unit is designed for integrations and focused on continuous location reporting, event driven alerts and low power behavior suitable for fleet and anti theft use.
 
-The small-form-factor ST8310UM combines LTE Cat.1 connectivity with 2G fallback, robust GNSS positioning and IP67 environmental protection. Plaspy users benefit from fast location updates, configurable geofences and event-driven reporting that enable recovery workflows, operational telematics and actionable alerts across mixed fleets.
+This device is Plaspy compatible out of the box, so telemetry and location data from the ST8310UM can be ingested into Plaspy for centralized monitoring and management. Plaspy users can leverage the tracker for real time visibility, configurable geofences and alerting rules, making the ST8310UM a practical option for mixed fleet operations and asset recovery workflows.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for real-time tracking and centralized fleet management.
-- LTE Cat.1 with 2G fallback for broad cellular coverage and TCP/UDP telemetry transmission.
-- IP67-rated, compact form factor \(61.2 × 53.2 × 20.8 mm\) for exposed installations and harsh environments.
-- Virtual ignition detection \(voltage/motion\) and built-in 3-axis accelerometer for event and harsh-driving detection.
-- Rechargeable backup battery \(3.7 V, 220 mAh\) and wide DC input \(8–33 V\) for robust vehicle power management.
-- Configurable geofencing \(circular and polygonal\) and tamper / optional jamming detection for anti-theft workflows.
-- Low sleep and deep-sleep current draw to preserve vehicle battery when parked—ideal for long-term asset monitoring.
+- Plaspy compatible GPS tracker for real time tracking and centralized fleet management.
+- LTE Cat 1 with 2G fallback to maintain cellular coverage across different regions.
+- Compact IP67 rated form factor for exposed installations and harsh environments.
+- Built in 3 axis accelerometer and virtual ignition detection for event and harsh driving awareness.
+- Rechargeable backup battery and wide DC input range to support vehicle power variations and parked monitoring.
+- Configurable geofencing and tamper or optional jamming detection to support anti theft workflows.
+- Low sleep and deep sleep current behavior to preserve vehicle battery during long term parking.
 
 ## How It Works with Plaspy
 
-When connected to Plaspy, the ST8310UM streams GNSS and status telemetry to the Plaspy platform using TCP/UDP, enabling real-time tracking, alerting and historical reporting. Plaspy ingests location fixes, accelerometer events, power-state changes and configured alarm triggers, then converts them into dashboards, notifications and actionable workflows for dispatch and recovery.
+When paired with Plaspy, the ST8310UM streams GNSS fixes and device status to the platform to enable live tracking, alerts and historical reporting. Plaspy converts incoming events into map displays, notifications and operational dashboards that support dispatch, recovery and routine fleet oversight.
 
-- Real-time location and telemetry updates \(GNSS → Plaspy dashboards and maps\).
-- Virtual ignition status via voltage and motion detection for ignition-based reporting and trip summaries.
-- Tamper and optional jamming detection forwarded to Plaspy for immediate anti-theft alerts.
-- Accelerometer-based harsh event reporting \(sudden acceleration, braking or impact\) integrated into driver performance and incident logs.
-- Geofence enter/exit events \(circular and polygon\) for automated alerts, route compliance and perimeter security.
-- Power-loss and backup battery status reports to monitor vehicle power health and support recovery operations.
-- Plaspy can correlate ST8310UM telemetry with external systems \(fuel monitoring, immobilizers or Bluetooth sensors\) where those additional inputs are available in the vehicle and on the platform.
+- Real time location updates visible on Plaspy maps and dashboards.
+- Virtual ignition reporting using voltage and motion detection to generate trip summaries and ignition based alerts.
+- Tamper and jamming alerts forwarded into Plaspy for immediate notification and recovery workflows.
+- Accelerometer driven harsh event reporting integrated into driver performance and incident logs.
+- Geofence enter and exit events for automated alerts, route compliance checks and perimeter security.
+- Power loss and backup battery status available in Plaspy for monitoring vehicle power health.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | ST8310UM |
-| --- | --- |
-| Connectivity | LTE Cat.1 with 2G fallback; TCP/UDP transmission |
-| Bands | LTE FDD B1, B3, B5, B7, B8, B20, B28; GSM 850 / EGSM900 / DCS1800 / PCS1900 |
-| Power & Battery | DC 8–33 V input; main power inversion protection; 3.7 V, 220 mAh rechargeable Li-ion backup battery |
-| Power Consumption | Typical 30–50 mA @12 V \(regular reporting, 3 min\); Sleep &lt;5 mA @12 V; Deep sleep &lt;3 mA @12 V |
-| Interfaces & I/O | 5-wire connection harness \(variable I/O options available\); two status LEDs \(network, GPS\) |
-| GNSS | GPS + GLONASS \(L1\); SBAS support \(WAAS/EGNOS/MSAS\); accuracy ≈ ±3 m CEP \(50%\); sensitivity down to -167 dBm |
-| Position Fix Performance | Cold start &lt;35 s \(15 s with EASYTM\); Warm &lt;30 s \(5 s with EASYTM\); Hot &lt;1 s |
-| Sensors | Built-in 3-axis accelerometer for motion and harsh-event detection; tamper detection; optional jamming detection |
-| Form Factor | Compact vehicle/asset tracker; 61.2 × 53.2 × 20.8 mm; 76 g \(with event cable\) |
-| Environmental & Certification | IP67 dust/water resistant; Operating temperature -30°C to +85°C; ANATEL certification listed |
-
-## Use Cases
-
-- Fleet management: continuous real-time tracking, trip reports and geofence-based workflows to optimize routing and utilization.
-- Anti-theft and recovery: tamper and jamming alerts plus persistent GNSS tracking for quick recovery actions.
-- Asset and equipment monitoring: compact IP67 enclosure for small assets and exposed installations, enabling long-term deployment.
-- Driver and safety telemetry: accelerometer-driven harsh-event detection and trip summaries for incident review and coaching.
-- Low-power parked vehicles: deep-sleep capability and backup battery allow discreet monitoring without draining the main battery.
+- Fleet management with continuous real time tracking and trip reporting to improve utilization.
+- Anti theft and recovery operations using tamper alerts and persistent GNSS tracking.
+- Asset and equipment monitoring where compact IP67 hardware is needed for exposed installations.
+- Driver safety and incident review using accelerometer based harsh event reporting.
+- Parked vehicle monitoring with low power modes and backup battery support for long term oversight.
 
 ## Why Choose This Tracker with Plaspy
 
-The ST8310UM delivers a balanced mix of rugged design, compact form and telematics essentials that make it a practical choice for Plaspy-compatible deployments. Its LTE Cat.1 connectivity and 2G fallback ensure broad cellular reach, while accurate GPS/GLONASS fixes and fast TTFF enable reliable real-time tracking across urban and rural scenarios. Low power draw, backup battery support and IP67 protection reduce maintenance and improve uptime for fleet and asset operators.
+The ST8310UM offers a balanced combination of ruggedness, compact size and essential telematics that fit many Plaspy deployments. Its cellular connectivity with fallback, reliable GNSS positioning and event capabilities give operators the core data they need to manage vehicles and assets without excessive complexity. Low power behavior and backup battery support help reduce maintenance and improve uptime for dispersed fleets.
 
-Paired with Plaspy, the ST8310UM becomes part of a scalable telemetry solution: location, ignition events, tamper alerts and harsh-driving data feed into Plaspy dashboards, reports and alerting rules. This makes it straightforward to add anti-theft workflows, integrate external fuel monitoring or immobilizer systems where available, and run centralized fleet management without sacrificing reliability or installation flexibility.
+Paired with Plaspy, the ST8310UM feeds location, event and power state information into a unified platform for alerting, reporting and operational workflows. This makes it straightforward to add geofence based rules, anti theft procedures and driver event monitoring to an existing Plaspy deployment while keeping device management and telemetry centralized.
 
+Learn more about Plaspy and how compatible devices are supported on the main website https://www.plaspy.com. Product specifications, availability and manufacturer documentation can change over time, so verify current details on the official Suntech site http://www.suntechint.com/ before making deployment decisions.

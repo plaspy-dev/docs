@@ -2,64 +2,59 @@
 slug: /thingsys/ts_p4b
 id: ts_p4b
 sidebar_label: TS-P4B
+title: ThingSys - TS-P4B
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS magnético TS-P4B de larga duración compatible con Plaspy para seguimiento discreto de vehículos y activos
+keywords:
+  - ThingSys TS-P4B
+  - Rastreador GPS TS-P4B
+  - Rastreador ThingSys
+  - Rastreador compatible con Plaspy
+  - Rastreador GPS magnético
+  - Rastreador GPS de larga duración
+  - seguimiento de activos
+  - seguimiento de vehículos
+  - seguimiento de contenedores
+  - monitoreo remoto
 ---
+
 # ThingSys - TS-P4B
 
 ![TS-P4B](./tracker.jpg)
 
-# TS-P4B Localizador GPS Magnético — Compatible con Plaspy
+El TS-P4B es un rastreador GPS magnético con batería de alta capacidad, diseñado para el seguimiento discreto y de larga duración de vehículos y activos. Combina una batería recargable de gran autonomía con un chipset de posicionamiento robusto y modos de ahorro de energía para prolongar el tiempo en espera y reducir el mantenimiento. Diseñado para sujetarse con seguridad a superficies metálicas, el equipo es ideal en aplicaciones donde la duración de la batería, el anclaje seguro y la visibilidad fiable de la ubicación son requisitos prioritarios.
 
-El TS-P4B es un localizador GPS magnético con batería de gran capacidad, diseñado para seguimiento prolongado y discreto de vehículos y activos, donde la duración de la batería y una sujeción segura son clave. Con una batería recargable de alta capacidad de 3.7V y 10000mAh \(también disponible en opción de 5000mAh\), posicionamiento por satélite u-blox y modos de sueño de ahorro de energía, el TS-P4B es una opción robusta para implementaciones compatibles con Plaspy que requieren ubicación fiable, detección de movimiento y monitoreo remoto.
+Como dispositivo compatible con Plaspy, el TS-P4B puede alimentar con datos continuos de ubicación y telemetría la plataforma de gestión de flotas y activos de Plaspy. Esa compatibilidad lo hace una opción práctica para operaciones que requieren seguimiento persistente, alertas por eventos y datos históricos de rutas sin intervención diaria, permitiendo que los usuarios de Plaspy supervisen activos, programen mantenimiento y respondan a movimientos o alertas de batería baja desde un tablero centralizado.
 
-Diseñado para instalaciones encubiertas o a largo plazo en automóviles, autobuses, camiones, contenedores y equipos pesados, este localizador GPS compatible con Plaspy ofrece seguimiento en tiempo real y telemetría confiables a través de redes 2G quad-band, junto con detección de movimiento basada en acelerómetro, alertas de batería baja y monitoreo de voz remoto para una mayor conciencia situacional.
+## Características principales
 
-## Puntos clave
-
-- Opciones de batería de larga duración: 10000mAh estándar \(variante de 5000mAh\) para una espera prolongada y reducciones en las intervenciones de mantenimiento.
-- Compatible con Plaspy: se integra con Plaspy para seguimiento en tiempo real, alertas e informes a través de flotas y activos.
-- GPS preciso del chipset u-blox con asistencia A‑GPS — precisión típica de hasta ~10 m y tiempos de primera fijación rápidos.
-- Montaje magnético y clasificación IP de impermeabilización para una instalación segura y discreta en vehículos y contenedores.
-- Acelerómetro 3D y sensor de luz permiten actualizaciones ante movimiento, modos de sueño de ahorro de energía y detección de manipulación.
-- Monitoreo remoto vía SMS y plataforma en línea, además de capacidad de monitoreo de voz remoto para verificaciones situacionales inmediatas.
-- Bajo consumo en modo de espera \(\<30mA\) y amplio rango de temperatura de funcionamiento respaldan entornos exigentes de gestión de flotas y seguimiento de activos.
+- Opciones de batería de alta capacidad para extender el tiempo en espera y reducir la frecuencia de mantenimiento
+- Montaje magnético y resistencia al agua para sujeción discreta y segura en vehículos y contenedores
+- Posicionamiento GNSS basado en u-blox con asistencias para informes de ubicación confiables
+- Acelerómetro 3D y sensor de luz para actualizaciones desencadenadas por movimiento y detección de manipulación
+- Monitoreo de voz remoto e informes por SMS para aportar contexto situacional durante eventos
+- Bajo consumo en modo espera y amplio rango de temperatura operativa para uso exigente en campo
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el TS-P4B proporciona flujos continuos de ubicación y telemetría que alimentan el motor de seguimiento y alertas en tiempo real de Plaspy. El localizador reporta fijaciones GNSS, estado de batería y movimiento mediante la conectividad 2G, de modo que los gestores de flota y operadores puedan ver la posición en vivo, las rutas históricas y recibir notificaciones automáticas para eventos predefinidos.
+Al integrarse con Plaspy, el TS-P4B entrega datos periódicos y por eventos de ubicación y estado que Plaspy utiliza para rastreo en tiempo real, reproducción histórica y generación de alertas. Plaspy ingiere la telemetría del dispositivo y la pone a disposición en vistas de mapa, reportes y flujos de notificaciones para que los operadores mantengan visibilidad y reaccionen a condiciones predefinidas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(posición GNSS, nivel de batería, estado de movimiento\) hacia Plaspy para seguimiento en vivo y reproducción de rutas.
-- Detección de movimiento y manipulación mediante el acelerómetro 3D; Plaspy puede utilizar eventos de movimiento para alertas de movimiento o arranque virtual.
-- Monitoreo de la batería y alarmas de batería baja se integran directamente en los flujos de trabajo de Plaspy, de modo que el mantenimiento pueda programarse antes de interrupciones del servicio.
-- El sensor de luz y el monitoreo de voz remoto aportan contexto adicional para verificaciones antirrobo y verificación de seguridad dentro de los paneles de Plaspy.
-- Las alertas por SMS y en la plataforma en línea complementan las notificaciones de Plaspy; el monitoreo de combustible, el control de ignición o del inmovilizador pueden integrarse en Plaspy cuando existan telemetría externa o interfaces del vehículo.
+- Actualizaciones de posición en vivo y reproducción de rutas históricas dentro de Plaspy para supervisión operacional
+- Eventos de movimiento y manipulación del acelerómetro que se enrutan como alertas o que activan reglas virtuales de ignición o movimiento
+- Nivel de batería y notificaciones de batería baja que alimentan los flujos de trabajo de Plaspy para apoyar el mantenimiento proactivo
+- Sensor de luz y monitoreo de voz remoto usados como contexto adicional para comprobaciones de seguridad o recuperación
+- Alertas por SMS o desde el dispositivo que complementan las notificaciones de Plaspy para asegurar una rápida toma de conciencia
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | TS-P4B |
-| --- | --- |
-| Conectividad | 2G quad-band GSM \(soporte mundial de redes 2G\) |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(estándar 2G quad-band\) |
-| Alimentación y batería | Recargable 3.7V 10000mAh \(también disponible: 5000mAh\); voltaje de funcionamiento DC 3.7–4.5V; corriente en espera \< 30mA |
-| GNSS | Chipset GPS de u-blox con asistencia A‑GPS; sensibilidad aprox. -159 dBm; precisión de posicionamiento de hasta ~10 m |
-| Tiempo hasta la Primera Fijación \(típico\) | Caliente ~1s; Templado ~35s; Frío ~45s; Reacquisición ~0.1s |
-| Sensores y Características | Acelerómetro 3D \(detección de movimiento\), sensor de luz, alarma de batería baja, monitoreo de voz remoto |
-| Ambiental | Operación: -20°C a +70°C; Almacenamiento: -40°C a +85°C; Humedad: 5%–95% sin condensación; IP clasificación para impermeabilización |
-| Físico | Aprox. 73.8 × 69 × 35.5 mm; peso ~0.35 kg; imanes internos fuertes para sujeción segura |
-| Gestión remota | Monitoreo remoto y alertas vía SMS y plataforma en línea; monitoreo de voz remoto compatible |
-| Interfaces | Sujeción magnética y sensores internos; no se especifican entradas/salidas externas ni sensores Bluetooth en la descripción del producto |
+- Gestión de flotas de autos de alquiler, autobuses y camiones donde el seguimiento discreto y de larga duración reduce tiempos de inactividad
+- Seguimiento de activos y contenedores en logística donde el anclaje seguro y la resistencia al agua son importantes
+- Monitoreo antirrobo y recuperación con alertas de movimiento, avisos de batería baja y comprobaciones de voz remotas
+- Vigilancia o monitoreo a largo plazo en lugares que requieren mantenimiento poco frecuente
+- Supervisión remota de equipos en sitios sin alimentación eléctrica confiable mediante operación con batería
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas para coches de alquiler, autobuses y camiones, donde un seguimiento discreto y de larga duración reduce el tiempo de inactividad y mejora la utilización de activos.
-- Seguimiento de activos y contenedores en logística — imanes potentes y impermeabilización lo hacen adecuado para entornos exteriores y exigentes.
-- Monitoreo y recuperación anti-robo: detección de movimiento, alertas de batería baja y monitoreo de voz remoto ofrecen múltiples puntos de seguridad.
-- Seguimiento encubierto a largo plazo y vigilancia cuando se requieren mantenimientos poco frecuentes y larga autonomía.
-- Monitoreo remoto de equipos en sitios sin suministro eléctrico: operativa con batería y modos de ahorro de energía prolongan la vida de despliegue.
+Para equipos que priorizan la autonomía, el anclaje seguro y un posicionamiento confiable, el TS-P4B ofrece una opción equilibrada para despliegues con Plaspy. Sus capacidades de batería de gran tamaño y comportamientos de ahorro energético disminuyen la frecuencia de intervenciones de servicio, mientras que la detección y reporte de movimiento generan eventos útiles que Plaspy puede convertir en alertas e información operativa.
 
-## Por qué elegir este localizador con Plaspy
-
-Para operaciones que requieren un localizador GPS compatible con Plaspy enfocado en una larga autonomía de batería, sujeción segura y rendimiento GNSS confiable, el TS-P4B ofrece una combinación equilibrada de resistencia y telemetría práctica. Sus opciones de batería de gran capacidad y su bajo consumo en modo de espera reducen las visitas de servicio y el costo total de propiedad, mientras que la posición de u-blox y A‑GPS aseguran fijaciones rápidas y consistentes para el seguimiento en tiempo real y la generación de informes históricos. La detección de movimiento integrada, alarmas de batería baja y el monitoreo de voz remoto proporcionan una seguridad en capas y una mayor toma de decisiones situacional que Plaspy puede traducir en alertas accionables e insights de gestión de flotas.
-
-Opte por el TS-P4B con Plaspy para un seguimiento confiable a largo plazo, mantenimiento simplificado y telemetría escalable que admite la gestión de flotas, flujos de trabajo anti‑robo y monitoreo de activos. Donde se requiera monitoreo de combustible, control de ignición o inmovilizador o integración de sensores Bluetooth, Plaspy puede ampliar la solución mediante interfaces de vehículos adicionales o sensores externos para crear una plataforma integral de telemetría y control.
-
+Si usted busca un rastreador discreto y de larga duración que se integre con Plaspy para monitoreo centralizado, el TS-P4B es una elección práctica para muchos escenarios de seguimiento de flotas y activos. Para obtener más información sobre cómo Plaspy puede trabajar con este dispositivo y otros rastreadores compatibles, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, así que por favor verifique la información técnica actual en el sitio del fabricante https://www.thingsys.com/.

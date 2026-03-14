@@ -1,60 +1,60 @@
 ---
 slug: /reachfar/rf_v26
 id: rf_v26
-sidebar_label: RF-V26
+sidebar_label: RF-V26+
+title: Reachfar - RF-V26+
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto con asistencia solar para ganado, carcasa impermeable y compatibilidad con Plaspy para seguimiento en tiempo real
+keywords:
+  - Reachfar RF-V26+
+  - RF-V26+
+  - rastreador GPS para animales Reachfar
+  - rastreador GPS para animales
+  - rastreador GPS para ganado
+  - rastreador GPS para collar
+  - rastreador GPS solar
+  - rastreador compatible con Plaspy
+  - dispositivo de rastreo para granja
+  - monitoreo de ganado
 ---
-# Reachfar - RF-V26
 
-![RF-V26](./tracker.jpg)
+# Reachfar - RF-V26+
 
-El RF-V26 es un rastreador GPS compacto, con asistencia solar, diseñado específicamente para el monitoreo exterior a largo plazo de ganado y animales de gran tamaño. Compatible con Plaspy por diseño, el RF-V26 combina posicionamiento multimodal \(GPS, A-GPS, LBS y WiFi\) con reporte TCP/IP de GPRS en quad-band para ofrecer actualizaciones de ubicación fiables, alertas SOS y voz bidireccional para monitoreo de emergencias en entornos pastorales y agrícolas.
+![RF-V26+](./tracker.jpg)
 
-La resistencia a la intemperie IP66, el panel solar integrado y la batería interna de 1500 mAh hacen que el RF-V26 sea particularmente adecuado para despliegues remotos donde se requieren larga autonomía y poco mantenimiento. Aunque la página del producto indica que el RF-V26 está fuera de producción, sus detalles técnicos y casos de uso previstos siguen siendo útiles para despliegues heredados de flotas y activos gestionados a través de Plaspy.
+El RF-V26+ es un rastreador GPS compacto diseñado específicamente para ganado y animales grandes como ovejas, caballos y vacas. Combina una carcasa robusta e impermeable con carga asistida por energía solar para ofrecer una operación prolongada en campo. El dispositivo es pequeño y liviano (6.5 x 5.5 x 1.7 cm y aproximadamente 73 g) y se entrega con un soporte, un cable USB magnético para carga y un manual de usuario, lo que lo hace adecuado para montaje en collar o en soporte en entornos de pastoreo.
 
-## Aspectos clave
+Como dispositivo compatible con Plaspy por diseño, el RF-V26+ puede enviar datos estándar de ubicación y estado a Plaspy para seguimiento en tiempo real y telemetría básica de la finca. Esto lo hace útil en operaciones que necesitan posicionamiento directo en el animal para la gestión del pastoreo, monitorización anti-pérdida y supervisión remota de activos agrícolas, usando Plaspy para mapas, alertas e informes.
 
-- Rastreador GPS compatible con Plaspy que ofrece localización multimodal \(GPS / A-GPS / LBS / WiFi\) para un posicionamiento flexible en áreas rurales y semiurbanas.
-- Alimentación asistida por energía solar con un panel integrado \(carga de 0–125 mA según la luz solar\) más una batería interna de 1500 mAh para una autonomía extendida en uso al aire libre.
-- GSM de quad-band \(850/900/1800/1900 MHz\) con GPRS Class 12 TCP/IP para rastreo en tiempo real y una subida de datos fiable a Plaspy.
-- Alarma SOS y capacidad de voz bidireccional para habilitar alertas de emergencia y monitoreo de voz remoto directamente a través del dispositivo.
-- Carcasa con clasificación IP66 para protección contra polvo y resistencia a condiciones meteorológicas adversas en campo.
-- Factor de forma compacto y ligero \(65 x 55 x 17 mm, 64 g\) que facilita su montaje en animales de gran tamaño y su instalación en activos de la granja.
-- Modos de reporte múltiples \(informes en intervalos de tiempo o continuos por TCP/IP\) para equilibrar el consumo de energía con las necesidades de rastreo en tiempo real.
+## Características principales
+
+- Factor de forma compacto y ligero pensado para un montaje cómodo en collares de ovejas, caballos, vacas y otros animales de granja
+- Carga asistida por energía solar para extender la vida operativa y reducir los intervalos de mantenimiento en campo
+- Carcasa robusta e impermeable diseñada para pastoreo al aire libre y condiciones ambientales adversas
+- Incluye soporte y cable de carga USB magnético para una instalación y carga sencillas en el sitio
+- Proporciona posición y estado básico del dispositivo, apto para integración y mapeo en Plaspy
+- Opciones prácticas de embalaje y documentación que facilitan despliegues por flota y la gestión de inventario
 
 ## Cómo funciona con Plaspy
 
-Integrado con Plaspy, el RF-V26 transmite datos de ubicación y eventos a través de GPRS/TCP-IP para que los responsables de flotas y los agricultores puedan acceder a rastreo en tiempo real, alertas e historial desde una plataforma única. Plaspy ingiere las fijaciones de posición del dispositivo, eventos de alarma e informes de estado y los presenta como marcadores en vivo, alertas de notificación y widgets de telemetría útiles para el monitoreo de ganado y activos.
+Al integrarse con Plaspy, los puntos de ubicación y el estado del dispositivo se muestran en los mapas y paneles de Plaspy para que usted pueda monitorear animales en tiempo real y revisar movimientos históricos. Plaspy transforma la información entrante en trayectos visuales, alertas e informes que apoyan la supervisión operativa del ganado y de los equipos montados.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía GPRS TCP/IP para rastreo continuo o por intervalos.
-- Los eventos de alarma SOS se envían a Plaspy para activar alertas inmediatas y la entrega de la ubicación.
-- La capacidad de voz bidireccional permite monitoreo de voz remoto o comunicación directa en emergencias cuando se coordina a través de los flujos de trabajo de la plataforma.
-- El estado de la batería y de carga \(operación con energía solar\) puede reportarse a Plaspy para vigilar la salud del dispositivo en campo, dependiendo de la configuración del firmware.
-- Las fijaciones de posición multimodo \(GPS, A-GPS, LBS, WiFi\) aumentan la fiabilidad de las fijaciones de posición en entornos variados y alimentan los servicios de ubicación de Plaspy para una mayor precisión y mapeo.
+- Posiciones en vivo y trayectorias de movimiento mostradas en los mapas de Plaspy para tener visibilidad situacional
+- Historial de ubicaciones para analizar patrones de pastoreo y planificar por temporadas
+- Indicadores de estado, como carga o condición de la batería, reportados a Plaspy cuando el dispositivo los proporciona
+- Alertas por geocerca y notificaciones de perímetro para monitorización anti-pérdida y gestión de límites
+- Informes y registros exportables para respaldar la contabilidad y la integración con otros flujos de trabajo agrícolas
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Quad-band GSM 850 / 900 / 1800 / 1900 MHz; comunicación GPRS Class 12 TCP/IP |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(quad-band\) |
-| Alimentación y batería | Batería interna de 1500 mAh; panel solar integrado que proporciona carga de 0–125 mA según la luz solar; diseñado para operación de bajo consumo y larga espera |
-| Interfaces | Botón de alarma SOS; capacidad de voz bidireccional para monitoreo de emergencias \(no se especifican interfaces de encendido o inmovilizador\) |
-| GNSS | GPS con soporte A-GPS; TTFF típico ~30 s en frío, ~29 s en tibio, ~5 s en caliente \(cielo despejado\); precisión GPS ~10–15 m \(cielo despejado\); posicionamiento WiFi de 5–30 m \(dependiente de la base de datos\) |
-| Bluetooth | No se especifican sensores Bluetooth o interfaces BLE |
-| Gestión remota | Informes TCP/IP \(en intervalos de tiempo y en modo continuo\); método de actualización de firmware no especificado |
-| Formato | Dispositivo compacto: 65 x 55 x 17 mm; peso 64 g; clasificado IP66; disponible en negro o blanco |
-
-## Casos de uso
-
-- Seguimiento de ganado: monitorizar patrones de pastoreo, historial de ubicación y protección anti-pérdida para vacas, ovejas y caballos con operación de larga duración en modo de espera.
-- Monitoreo de activos de granja: colocar en remolques, tanques de agua portátiles o equipo estacional para mantener la visibilidad de la ubicación en campos remotos.
-- Protección antirrobo para animales de gran tamaño: alertas SOS y voz bidireccional permiten una respuesta rápida cuando los animales están en riesgo o perdidos.
-- Despliegues remotos en campo: la carga solar y la resistencia a la intemperie IP66 lo hacen adecuado para despliegues temporales o prolongados sin mantenimiento frecuente.
-- Rastreo general de activos al aire libre: seguimiento de cercas, puertas u otra infraestructura donde el posicionamiento multimodal ayuda a localizar los dispositivos en áreas de cobertura variables.
+- Gestión del pastoreo para mapear el uso de potreros y optimizar la rotación entre campos
+- Monitoreo anti-pérdida con alertas por geocerca para notificar cuando los animales se alejan de los límites establecidos
+- Supervisión remota del rebaño para reducir la necesidad de revisiones físicas rutinarias en grandes extensiones
+- Collares de rastreo y soportes usados en animales de trabajo o herramientas montadas en operaciones pastoriles
+- Revisión de movimientos históricos para decisiones de cría, monitoreo de salud o planificación de recursos
 
 ## Por qué elegir este rastreador con Plaspy
 
-El RF-V26 ofrece una combinación práctica de autonomía asistida por energía solar, posicionamiento multimodal y capacidades de comunicación de emergencia que lo hacen adecuado para la gestión del ganado y el monitoreo de activos al aire libre. Cuando se integra con Plaspy, sus reportes TCP/IP y las capacidades SOS/voz bidireccional se traducen en alertas accionables, historial de ubicación y estado del dispositivo en una plataforma unificada. Su diseño compacto, con clasificación IP66 y modos de reporte de bajo consumo, mantiene bajas las demandas de mantenimiento en granjas y despliegues remotos.
+El RF-V26+ es una solución focalizada para granjas y explotaciones de pastoreo que requieren posicionamiento fiable en el animal, con una carcasa durable y operación extendida gracias al aporte solar. Su tamaño compacto y los accesorios de montaje incluidos facilitan su despliegue en rebaños, mientras que su diseño permite alimentar datos de manera sencilla a Plaspy para mapeo, alertas e informes.
 
-Nota sobre el conjunto de funciones: la especificación del RF-V26 no enumera entradas de ignición, control de inmovilizador, monitoreo de combustible o sensores Bluetooth. Si su despliegue requiere telemetría como monitoreo de combustible, control de ignición o inmovilizador, o integración de sensores BLE, Plaspy admite esas características y puede integrar dispositivos compatibles alternativos que las incluyan. Asimismo, tenga en cuenta que el RF-V26 figura como fuera de producción en la página del producto; sus especificaciones y aplicaciones previstas siguen siendo útiles para unidades heredadas y para planificar reemplazos comparables dentro del ecosistema Plaspy.
-
+Si sus objetivos son visibilidad de ubicación en tiempo real, monitorización básica del estado del dispositivo e informes históricos sencillos dentro de Plaspy, el RF-V26+ es una opción sensata a considerar. Más información sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique las especificaciones actuales y la información de soporte con el fabricante en https://www.reachfargps.com/

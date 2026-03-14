@@ -2,63 +2,60 @@
 slug: /autoseeker/at_17c
 id: at_17c
 sidebar_label: AT-17C
+title: Autoseeker - AT-17C
 sidebar_class_name: menu_item_tracker
+description: Long life magnetic waterproof asset tracker compatible with Plaspy for covert trailer container and equipment monitoring
+keywords:
+  - Autoseeker AT-17C
+  - AT-17C tracker
+  - Autoseeker tracker
+  - Plaspy compatible
+  - asset tracker
+  - magnetic GPS tracker
+  - waterproof tracker
+  - fleet tracking
+  - anti theft GPS
+  - long standby tracker
 ---
+
 # Autoseeker - AT-17C
 
 ![AT-17C](./tracker.jpg)
 
-The 4G Wireless Magnetic Asset GPS Tracker AT-17C is a Plaspy compatible, long-life asset tracker designed for covert, low-maintenance monitoring of trailers, containers, construction equipment, marine assets and other movable property. With multi-year standby, powerful magnetic mounting and waterproof protection, the AT-17C delivers reliable location data via 4G/LTE and legacy GSM networks so you can deploy long-term tracking solutions without frequent battery swaps.
+The Autoseeker AT-17C is a 4G wireless magnetic asset GPS tracker designed for covert and low maintenance monitoring of trailers, containers, construction equipment, marine assets and other movable property. It emphasizes long standby life, a compact waterproof enclosure and a powerful magnetic mounting option to support extended deployments without frequent servicing. The unit reports location via cellular channels and includes tamper and removal alarms to help protect high value assets.
 
-Optimized for fleet management, anti-theft recovery and telemetry workflows, the AT-17C supports configurable tracking modes \(time-interval, day/week scheduling or continuous tracking\) and reports position over SMS or GPRS \(TCP\). Its tamper removal alarm and anti-disassembly sensor provide security for high-value assets, and native compatibility with Plaspy enables easy integration of real-time tracking, alerts and historical reports into your existing monitoring platform.
+As a Plaspy compatible device, the AT-17C can feed location and alert data into the Plaspy platform for unified monitoring and reporting. Its configurable tracking modes and dual reporting options make it suitable for a range of fleet and asset workflows in Plaspy, from scheduled interval updates to continuous tracking and alarm handling. This compatibility lets fleet managers and security teams centralize telemetry, alerts and history inside Plaspy for operational oversight.
 
 ## Key Highlights
 
-- Plaspy compatible for smooth integration into real-time tracking and fleet management dashboards.
-- Long-life internal batteries with multi-year standby—ideal for low-maintenance asset deployments.
-- 4G/LTE \(with legacy GSM\) connectivity and dual SMS/GPRS \(TCP\) reporting for flexible worldwide coverage.
-- Strong built-in magnet \(300 lb pull\) and compact waterproof enclosure for covert, tool-free mounting.
-- Tamper and removal alarms with anti-disassembly sensing for anti-theft and asset protection.
-- Configurable tracking modes: interval, scheduled \(day/week\) or continuous for real-time tracking needs.
-- Extremely low standby power consumption to maximize battery life in long-haul monitoring.
+- Compatible with Plaspy for straightforward integration into fleet and asset monitoring dashboards
+- Long life internal battery with multi year standby for low maintenance deployments
+- 4G LTE and legacy GSM connectivity with SMS and GPRS reporting options for flexible coverage
+- Strong magnetic base and waterproof enclosure for covert, tool free mounting on metal assets
+- Tamper removal alarm and anti disassembly sensor to support anti theft and recovery workflows
+- Configurable tracking modes including interval scheduling day week and continuous updates
+- Extremely low standby power consumption to maximize time between service visits
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the AT-17C sends location and status data over GPRS \(TCP\) or via SMS to Plaspy’s ingestion endpoints. Plaspy ingests that telemetry and presents it as live positions, route history and alarm events in the Plaspy interface. Configure tracking intervals and alarm thresholds on the device and Plaspy will surface real-time tracking, removal/tamper alerts, and scheduled reports to fleet managers and security teams.
+When paired with Plaspy, the AT-17C transmits position and status updates over cellular reporting channels so Plaspy can present live locations, route history and alarm events to operators. Plaspy ingests those updates and makes them available for real time monitoring, notification routing and historical analysis alongside other fleet data.
 
-- Real-time location and telemetry updates via GPRS \(TCP\) when in continuous or frequent reporting modes.
-- Remote position query and status via SMS for low-bandwidth or out-of-network scenarios.
-- Tamper/removal alarm reporting—instant alerts to Plaspy when anti-disassembly or removal is detected.
-- Configurable tracking intervals and scheduled \(day/week\) tracking for balanced battery life vs. update frequency.
-- Multi-year standby capability that reduces maintenance calls and supports long-term fleet and asset monitoring.
+- Live location updates and route history visible in Plaspy when device is in continuous or frequent reporting modes
+- Remote position query via SMS for low bandwidth or spot checks when needed
+- Instant tamper and removal alarm notifications delivered to Plaspy for rapid response
+- Configurable tracking intervals and scheduled day week modes to balance battery life and update frequency
+- Multi year standby capability that reduces maintenance and supports long term asset programs
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | AT-17C \(4G Wireless Magnetic Asset GPS Tracker\) |
-| --- | --- |
-| Connectivity | LTE-FDD and GSM/GPRS; supports SMS and GPRS \(TCP\) reporting |
-| Bands | LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B28/B66; GSM: B2/B3/B5/B8 |
-| GNSS | ZKW GPS chipset with dual-mode GPS/BeiDou ceramic antenna \(18 × 18 × 2 mm\) |
-| Startup Times | Typical cold/warm/hot start ~35 s / ~30 s / ~1 s |
-| Power & Battery | Internal non-rechargeable 3.7V 2800 mAh cell plus a referenced internal 4200 mAh battery for extended standby |
-| Power Consumption | Ultra-low standby &lt;3.2 µA; up to 2 A when actively transmitting |
-| Dimensions & Weight | 76 × 41 × 22 mm; approx. 90 g |
-| Mounting & Enclosure | Strong built-in magnet \(300 lb pull\); waterproof enclosure for outdoor/industrial use |
-| Alarms & Sensors | Removal/tamper alarm and anti-disassembly sensor |
-| Reporting Protocols | SMS reporting and GPRS \(TCP\) for telemetry uploads |
-| Form Factor | Compact magnetic asset tracker for covert attachment to metal surfaces |
-
-## Use Cases
-
-- Long-haul transport monitoring for trailers and containers—multi-year standby reduces maintenance and battery swaps.
-- Fleet equipment protection and anti-theft—covert magnetic mounting with removal alarm for asset recovery.
-- Construction and heavy machinery tracking—waterproof, tool-free installation and scheduled tracking for idle asset visibility.
-- Marine and port asset monitoring—durable enclosure and flexible reporting via GPRS/SMS where cellular signals permit.
-- Standalone covert recovery deployments where SMS-query and tamper alerts speed retrieval of stolen assets.
+- Long haul transport monitoring for trailers and containers where maintenance visits are limited
+- Fleet equipment protection and anti theft deployments using covert magnetic mounting and removal alerts
+- Construction and heavy machinery visibility with scheduled reporting for idle asset management
+- Marine and port asset tracking where durable enclosures and flexible reporting are important
+- Recovery focused deployments that rely on tamper alerts and SMS query for rapid retrieval
 
 ## Why Choose This Tracker with Plaspy
 
-The AT-17C is purpose-built for reliable, low-maintenance asset tracking and integrates directly into Plaspy for fast deployment of real-time tracking and telemetry. Its combination of long standby life, robust waterproof housing and a strong magnetic base makes it ideal for fleet management and anti-theft use without the overhead of frequent servicing. Reporting over both SMS and GPRS \(TCP\) gives deployment flexibility in areas with mixed cellular coverage, and tamper/removal alerts provide an additional security layer for valuable assets.
+The AT-17C is well suited to organizations that need dependable, low maintenance tracking of movable assets and want to centralize that data in Plaspy. Its focus on long standby life, robust mounting and basic security alerts makes it a practical choice for fleets, rental operators and asset managers who prioritize long term deployments and minimal servicing overhead.
 
-Using the AT-17C with Plaspy means you can centralize location data, alarms and historical reports in one platform — supporting telemetry-driven decisions, route analytics and recovery workflows. While the AT-17C focuses on long-term GPS tracking and tamper protection, Plaspy can consolidate data from other devices and sensors \(for example, units that report ignition status, immobilizer events or Bluetooth sensor readings\) to provide a complete picture of vehicle and asset health and fuel monitoring when those inputs are available from integrated hardware.
-
+Integrating the AT-17C with Plaspy lets teams consolidate live tracking, alarm notifications and historical reports in one platform to support operational decisions and recovery workflows. To learn more about how Plaspy can work with compatible devices visit https://www.plaspy.com. Product specifications and availability can change over time so please verify the most current details on the manufacturer site https://autoseekergps.com/.

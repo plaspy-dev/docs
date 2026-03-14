@@ -2,60 +2,59 @@
 slug: /teltonika/fmc225
 id: fmc225
 sidebar_label: FMC225
+title: Teltonika - FMC225
 sidebar_class_name: menu_item_tracker
+description: Rastreador Teltonika FMC225 resistente, compatible con Plaspy para seguimiento de flotas en tiempo real, monitoreo de combustible y gestión remota
+keywords:
+  - teltonika fmc225
+  - teltonika fmc225 rastreador gps
+  - rastreador fmc225
+  - fmc225 compatible con plaspy
+  - fmc225 seguimiento de flotas
+  - rastreador gps resistente
+  - rastreador vehicular ip67
+  - rastreador monitoreo de combustible
+  - rastreador dual sim
+  - rastreador 4g lte
 ---
+
 # Teltonika - FMC225
 
 ![FMC225](./tracker.png)
 
-El FMC225 es un rastreador GPS robusto, compatible con Plaspy, diseñado para la gestión profesional de flotas en las condiciones más exigentes. Diseñado para montaje externo y uso intensivo, el FMC225 combina conectividad celular 4G LTE Cat 1 con respaldo 2G y soporte Dual SIM para mantener los vehículos conectados y ofrecer seguimiento y telemetría en tiempo real de forma fiable en sectores como la agricultura, la construcción, la minería y otras industrias exigentes.
+El FMC225 es un rastreador GPS robusto de Teltonika diseñado para la gestión profesional de flotas en entornos exigentes. Pensado para montaje externo y uso pesado, ofrece conectividad celular con opciones de respaldo y capacidad Dual SIM para mantener los vehículos conectados y reportando posición y telemetría en tiempo real. Está orientado a aplicaciones en agricultura, construcción, minería y otras industrias que requieren hardware duradero y visibilidad continua de activos.
 
-Con una carcasa con clasificación IP67, interfaces seriales para telemetría extendida y entradas de impulso de combustible para un monitoreo preciso del combustible, el FMC225 se integra a la perfección con Plaspy para ofrecer ubicación continua, diagnósticos y datos de eventos. Es una opción práctica para flotas que requieren medidas robustas anti‑robo, gestión remota del dispositivo y una integración más profunda de sensores sin sacrificar la durabilidad probada en campo.
+Como dispositivo compatible con Plaspy, el FMC225 se integra con la plataforma para llevar ubicación, telemetría y eventos a los paneles y flujos de trabajo de informes. Su carcasa con grado IP67, la telemetría serial y las entradas por impulso para combustible lo convierten en una opción práctica para flotas que necesitan seguimiento fiable, monitoreo de combustible y controles antirobo, mientras se mantiene la gestión remota de dispositivos en despliegues a gran escala.
 
-## Puntos clave
+## Aspectos principales
 
-- Rastreador GPS compatible con Plaspy que ofrece seguimiento y telemetría en tiempo real para la gestión profesional de flotas.
-- Carcasa robusta con protección IP67 para polvo y resistencia al agua—apta para montaje externo en entornos hostiles.
-- Conectividad 4G LTE Cat 1 con respaldo a 2G y soporte Dual SIM para maximizar el tiempo de actividad y minimizar costos de roaming.
-- Interfaces seriales avanzadas \(RS485, RS232\) más entrada de impulso para un monitoreo preciso de combustible e integración de sensores de terceros.
-- Entradas/salidas digitales y analógicas para periféricos del vehículo, control remoto y flujos de trabajo anti‑robo como la activación del inmovilizador cuando esté configurado.
-- Variantes regionales y opciones de kit \(EU/MEA, APAC, LATAM\) para cumplir con los requisitos de frecuencia locales y las necesidades de implementación.
-- Recursos de soporte del fabricante y herramientas remotas de firmware/gestión para simplificar implementaciones a gran escala y el mantenimiento.
+- Rastreador compatible con Plaspy que proporciona seguimiento en tiempo real y telemetría para operaciones profesionales.
+- Carcasa resistente IP67 adecuada para montaje exterior y protección frente a polvo y humedad.
+- Conectividad celular con opciones de respaldo y soporte Dual SIM para maximizar la disponibilidad y mantener la conexión entre regiones.
+- Interfaces seriales y entrada por impulso para combustible que permiten telemetría extendida e integración precisa del monitoreo de combustible.
+- Entradas y salidas digitales y analógicas para control de periféricos y reporte de eventos en flujos de trabajo antirobo.
+- Variantes regionales y opciones de kits para ajustarse a requisitos de despliegue y frecuencias locales.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el FMC225 transmite posiciones GNSS y telemetría del vehículo a través de LTE/2G para proporcionar ubicación, uso y datos de sensores en los paneles y APIs de Plaspy. Plaspy ingiere telemetría serial, datos de impulso de combustible y eventos de E/S digitales para generar alertas, informes y flujos de trabajo automatizados para los operadores de flota.
+Cuando usted integra el FMC225 con Plaspy, el dispositivo envía posiciones GNSS y telemetría vehicular a través de redes celulares para que los operadores puedan ver ubicación en vivo, eventos y datos de sensores desde los paneles de Plaspy. Plaspy procesa telemetría serial, lecturas por impulso de combustible y eventos de E/S digitales para activar alertas, generar informes y automatizar flujos operativos.
 
-- Actualizaciones en tiempo real de ubicación y telemetría para monitoreo en vivo y reproducción de rutas.
-- Monitoreo de combustible mediante entrada de impulso y medidores de caudal de combustible conectados en serie para alimentar informes de consumo de combustible a Plaspy.
-- Integración de telemetría serie RS232/RS485 para sensores externos, adaptadores CAN y medidores de terceros que proporcionan diagnósticos extendidos a Plaspy.
-- Las entradas y salidas digitales/analógicas permiten reportar eventos de puertas, alarmas e ignición y controlar periféricos de forma remota, apoyando escenarios anti‑robo y flujos de trabajo de inmovilizador cuando se configure.
-- Gestión remota del dispositivo y manejo de firmware a través de herramientas del fabricante; Plaspy puede coordinar implementaciones y actualizaciones junto con esos recursos.
-- Plaspy también admite integraciones adicionales como sensores Bluetooth en su ecosistema, habilitando implementaciones con sensores mixtos incluso cuando los rastreadores de vehículos no incluyen BLE de forma nativa.
+- Actualizaciones de ubicación en tiempo real y reproducción de rutas para monitoreo en vivo y revisión histórica.
+- Monitoreo de combustible mediante entrada por impulsos y medidores seriales para alimentar informes de consumo y costos en Plaspy.
+- Integración de telemetría serial para sensores externos y adaptadores de terceros que amplían el diagnóstico visible en Plaspy.
+- Entradas y salidas digitales y analógicas que permiten reportar eventos de puertas, alarmas e ignición y facilitan el control remoto de periféricos.
+- Coordinación de la gestión remota de dispositivos y actualizaciones de firmware junto con las herramientas del fabricante para simplificar los despliegues.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | 4G LTE Cat 1 con respaldo a 2G; soporte Dual SIM para redundancia y optimización de roaming |
-| --- | --- |
-| Bandas / Variantes regionales | Ofrecidas en variantes regionales y opciones de paquete para cumplir con EU/MEA, APAC y LATAM requisitos de frecuencia |
-| Potencia & Batería | Unidad alimentada por el vehículo; algunas variantes de kit incluyen cables de alimentación y cable micro USB en la caja |
-| Interfaces | Puertos serial RS485 y RS232; entrada de impulso para medidores de caudal de combustible; entradas y salidas digitales y analógicas para periféricos |
-| GNSS | Seguimiento de posición GPS \(dispositivo comercializado como rastreador GPS\) |
-| Bluetooth | No especificado para este modelo |
-| Gestión remota | Soportado a través de herramientas de gestión remota y firmware del fabricante; base de conocimiento y descargas disponibles |
-| Factor de forma | Carcasa robusta, resistente al agua IP67 para montaje externo en entornos hostiles |
-
-## Casos de uso
-
-- Flotas anti‑robo y flujos de trabajo de inmovilización: detectar movimientos no autorizados y usar salidas digitales para controlar periféricos del vehículo cuando esté configurado.
-- Seguimiento de equipamiento agrícola y de construcción: carcasa duradera IP67 y conectividad LTE mantienen activos visibles en sitios remotos.
-- Monitoreo preciso de combustible y control de costos: la entrada de impulso y el soporte de medidores de combustible conectados en serie alimentan datos de consumo a Plaspy.
-- Operaciones de flota con telemetría avanzada: telemetría RS232/RS485 e integración de adaptadores CAN permiten diagnósticos ampliados y planificación de mantenimiento.
-- Despliegues regionales de flota: opciones de variantes y capacidad Dual SIM aseguran conectividad continua en múltiples mercados.
+- Flujos de trabajo antirobo e inmovilización para vehículos de flota y equipos de alto valor.
+- Seguimiento de maquinaria agrícola y de obra en sitios remotos o condiciones severas.
+- Monitoreo preciso de combustible y generación de informes de consumo para control de costos y auditorías.
+- Operaciones telemáticas avanzadas que requieren diagnósticos extendidos e integración con sensores de terceros.
+- Despliegues regionales de flotas que se benefician de la redundancia Dual SIM y las variantes locales.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Emparejar el FMC225 con Plaspy ofrece una solución robusta y escalable para operadores que requieren seguimiento en tiempo real confiable, telemetría avanzada y controles prácticos anti‑robo. La combinación de conectividad LTE Cat 1 con respaldo 2G y Dual SIM minimiza el tiempo de inactividad y los costos de roaming, mientras que la carcasa IP67 protege el hardware en instalaciones expuestas a polvo, humedad o montaje externo. Las interfaces seriales integradas y las capacidades de entrada de impulso hacen que el FMC225 sea especialmente valioso cuando se requieren monitoreo de combustible preciso, integración de sensores de terceros y diagnósticos extendidos.
+El FMC225 es una opción práctica para organizaciones que necesitan un rastreador resistente y probado en campo junto con una plataforma de gestión de flotas como Plaspy. Su combinación de carcasa robusta, redundancia de conectividad y soporte para telemetría externa e entradas de combustible lo hace especialmente adecuado para flotas que operan en entornos desafiantes donde la visibilidad continua y las decisiones basadas en datos son esenciales.
 
-Para los gestores de flota, el FMC225 junto con Plaspy implica flujos de datos simplificados para ubicación, monitoreo de combustible y control de periféricos, apoyados por firmware del fabricante y recursos de la base de conocimiento para facilitar la implementación y el mantenimiento. Ya sea que necesite protección sólida de activos, telemetría para la planificación de mantenimiento o la flexibilidad para integrar medidores de combustible y adaptadores CAN, este rastreador GPS compatible con Plaspy está diseñado para mantener los vehículos conectados y sus operaciones orientadas a los datos.
-
+Los usuarios de Plaspy se benefician al incorporar los datos del FMC225 en paneles centralizados, alertas y herramientas de informe para proteger activos, planificar mantenimiento y optimizar la eficiencia operativa. Para obtener más información sobre cómo Plaspy puede integrarse con dispositivos como el FMC225 visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones y opciones regionales actuales en el sitio del fabricante https://www.teltonika-gps.com/.

@@ -2,61 +2,59 @@
 slug: /totemtech/at08
 id: at08
 sidebar_label: AT08
+title: Totemtech - AT08
 sidebar_class_name: menu_item_tracker
+description: Durable magnetic GPS tracker for long duration asset monitoring compatible with Plaspy for real time fleet tracking and alerts
+keywords:
+  - Totemtech AT08
+  - AT08 GPS tracker
+  - Totemtech tracker
+  - AT08 Plaspy compatible
+  - magnetic GPS tracker
+  - asset tracking
+  - fleet tracking
+  - container tracker
+  - long battery GPS tracker
+  - uBlox M8 tracker
 ---
+
 # Totemtech - AT08
 
 ![AT08](./tracker.jpg)
 
-The AT08 magnetic GPS tracker is a rugged, Plaspy compatible tracking device designed for long-duration asset monitoring. Built around a low-power STM32 MCU and a uBlox M8 GNSS engine, the AT08 delivers GPS/GLONASS/BeiDou positioning, multi-band 3G/4G cellular connectivity \(Quectel EG91 on the 4G LTE Cat 1 variant\), and a 4000 mAh Li‑polymer battery for extended operation. Its strong neodymium magnets and compact form make it ideal for discreet attachment to metal assets while feeding real-time tracking and telemetry into Plaspy for fleet management and logistics workflows.
+The Totemtech AT08 is a rugged magnetic GPS tracker designed for long duration asset monitoring. It combines a high sensitivity uBlox M8 GNSS engine with a low power STM32 controller, multi band cellular connectivity, and a 4000 mAh Li‑polymer battery in a compact housing with strong neodymium magnets. The device is intended for discreet attachment to metal assets and provides continuous position data and device telemetry suitable for fleet and logistics operations.
 
-Engineered for harsh environments, the AT08 combines long battery life, smart power management, and OTA firmware updates so fleets and asset owners can deploy and maintain trackers at scale. Whether you need a GPS tracker for containers, trailers, equipment, or seasonal assets, the AT08 provides reliable position data and device telemetry that integrates seamlessly with Plaspy’s platform for alerts, reports, and automated anti-theft workflows.
+As a Plaspy compatible device, the AT08 can stream GNSS coordinates and device status into Plaspy for real time tracking, alerts, and reporting. Its long battery life, remote maintenance features, and magnetic mounting make it a practical choice for asset owners who want persistent visibility and integration with Plaspy workflows such as geofencing, historical reporting, and anti theft monitoring.
 
 ## Key Highlights
 
-- Plaspy compatible: streams GNSS coordinates and device telemetry to industry platforms for real-time tracking and reporting.
-- Long battery life: 4000 mAh Li‑polymer battery with typical operation up to 30 days at a 60‑minute reporting interval.
-- Rugged magnetic mounting: two strong neodymium magnets for secure adhesion to metal surfaces in field deployments.
-- Multi‑constellation GNSS: uBlox M8 supports GPS, GLONASS and BeiDou with CEP accuracy around 2.5 m.
-- Broad cellular coverage: 3G and 4G LTE support \(EG91 for 4G LTE Cat 1\) with European and North American band sets.
-- Low‑power operation: smart power management with idle \(~70 mA\), sleep \(~39 mA\) and deep sleep \(~1 mA\) modes.
-- Remote maintenance: OTA firmware updates simplify large-scale fleet rollouts and firmware customization on request.
+- Plaspy compatible device that streams GNSS coordinates and device telemetry for real time tracking and reporting
+- Long runtime from a 4000 mAh Li‑polymer battery suitable for extended deployments
+- Rugged magnetic mounting with strong neodymium magnets for secure attachment to metal assets
+- Multi constellation GNSS via uBlox M8 for reliable position fixes in varied environments
+- 3G and 4G cellular connectivity options for broad coverage and remote communication
+- Remote maintenance capability including over the air firmware updates to support fleet scale management
 
 ## How It Works with Plaspy
 
-The AT08 delivers continuous GNSS position and device telemetry over cellular networks into Plaspy for real-time tracking, geofencing, alerts, and historical reporting. Plaspy ingests the device’s location packets, battery and signal status, and motion events to provide live maps and automated workflows for fleet management, anti-theft monitoring and operational analytics.
+When connected, the AT08 transmits location updates and device telemetry over cellular networks into Plaspy so operations teams can monitor assets in real time and act on automated alerts. Plaspy ingests the device data and presents it through maps, reports, and configurable workflows to support fleet oversight and recovery operations.
 
-- Real-time location and telemetry updates: GNSS coordinates, fix quality and device battery status are sent via GPRS/3G/4G to Plaspy.
-- Motion-based alerts: the on-board 3D tremble sensor reports movement and tamper/motion events for anti-theft notifications.
-- Power and charging telemetry: battery level and charging status \(micro USB charging\) feed into platform dashboards for maintenance planning.
-- OTA firmware management: firmware updates can be delivered remotely so devices in the field stay compatible with Plaspy integrations.
-- Flexible configuration: configure the AT08 by SMS, over the air via data connection, or via micro USB for quick commissioning.
+- Real time location and telemetry updates displayed on Plaspy maps and dashboards
+- Motion and tamper events feed into alerting rules for anti theft and security workflows
+- Battery level and device status are available for maintenance planning and threshold alerts
+- OTA firmware updates help ensure devices remain interoperable and up to date within Plaspy deployments
+- Historical position data and reports enable post event analysis and operational insights
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 3G and 4G LTE \(Quectel EG91 on AT08 4G, LTE Cat 1\). GPRS/3G data and SMS configuration supported. |
-| --- | --- |
-| Bands | European LTE-FDD: B1/B3/B7/B8/B20/B28A; WCDMA: B1/B8; GSM: 900/1800 MHz. North American LTE-FDD: B2/B4/B5/B12/B13; corresponding WCDMA bands. |
-| Power & Battery | 4000 mAh Li‑polymer battery; typical full charge ~3–4 hours with a 5V charger. Reported battery life up to 30 days at 60‑minute reporting interval. Smart power management with idle ~70 mA, sleep ~39 mA, deep sleep ~1 mA. |
-| Interfaces | Micro USB for charging and data/configuration, standard SIM card slot, configuration via SMS/GPRS/3G or PC connection. |
-| GNSS | uBlox M8 engine \(GPS / GLONASS / BeiDou\). Acquisition sensitivity down to -148 dBm, tracking -162 dBm, reacquisition -160 dBm, CEP ≈ 2.5 m. |
-| Sensors | 3D tremble sensor for motion detection and tamper/movement alerts. |
-| Remote Management | OTA firmware updates supported; firmware and hardware customization available on request. |
-| Environmental | Operating temperature -20°C to 60°C; battery charge 0°C to 45°C \(discharge -20°C to 60°C\); non‑condensing humidity 5%–95%. |
-| Form Factor | Dimensions 114 × 72.5 × 26.2 mm; weight ~0.25 kg; two neodymium magnets \(BHmax 287–310 KJ/m³\) for metal mounting. |
-| Accessories | Includes one micro USB charging/data cable. Packaging and carton specs available for bulk orders. |
-
-## Use Cases
-
-- Fleet management: attach to trailers, containers or support vehicles to provide long-duration position data for routing and utilization reports.
-- Asset anti-theft and recovery: motion detection and continuous telemetry enable anti-theft alerts and rapid locating through Plaspy dashboards.
-- Logistics and container tracking: magnetic attachment to metal surfaces makes the AT08 ideal for cargo, intermodal containers and portable equipment.
-- Mobile equipment and seasonal assets: long battery runtime and weather-tolerant design suit assets that are stored or deployed intermittently.
-- Backpacks, luggage and non-powered assets: discreet mounting to metal frames or cases for long-term monitoring during transit.
+- Trailers and containers where magnetic mounting enables temporary or semi permanent installation
+- Heavy equipment and construction assets that require long duration tracking without frequent servicing
+- Logistics and intermodal cargo monitoring for route visibility and loss prevention
+- Seasonal or stored assets that need periodic location checks and tamper alerts
+- Distributed fleets where remote device maintenance and OTA updates reduce field service effort
 
 ## Why Choose This Tracker with Plaspy
 
-The AT08 offers a practical balance of durability, battery life and connectivity for Plaspy users who need dependable GPS tracker data in challenging environments. Its multi-constellation GNSS and high-sensitivity receiver deliver accurate location fixes for real-time tracking and telemetry, while the low-power STM32 platform and configurable sleep modes extend field deployment intervals. Strong magnetic mounting simplifies installation on metal assets, reducing labor and downtime for fleet and logistics teams.
+The AT08 pairs practical hardware attributes with Plaspy platform capabilities to deliver reliable, long term visibility for asset centric workflows. Its combination of multi constellation GNSS, durable magnetic mounting, and extended battery life makes it suitable for organizations that need straightforward location tracking and consistent telemetry without complex installations. In Plaspy, operators can use the device feed to build geofences, configure alerts, and run historical reports that support routing, asset utilization, and theft response.
 
-Paired with Plaspy, the AT08 becomes part of a scalable solution for fleet management, anti-theft response, and telemetry-driven operations. Plaspy consumes the device’s location, battery and motion data to support geofencing, alerts and historical reports; it can also integrate with fuel monitoring, ignition/immobilizer workflows or external Bluetooth sensors at the platform level to provide richer telematics when paired with complementary hardware. With OTA firmware, customization options, and multi-band cellular support, the AT08 is a robust GPS tracker for businesses that require reliable real-time tracking and long-term asset visibility.
-
+Plaspy provides the visibility and operational tools that leverage the AT08 data for fleet management and logistics. To learn more about Plaspy visit the main website https://www.plaspy.com. Product specifications and manufacturer details can change over time, so please verify current technical information and availability on the official Totemtech site http://www.totemtek.com/ before purchase or deployment.

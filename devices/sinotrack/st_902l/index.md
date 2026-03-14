@@ -2,63 +2,60 @@
 slug: /sinotrack/st_902l
 id: st_902l
 sidebar_label: ST-902L
+title: SinoTrack - ST-902L
 sidebar_class_name: menu_item_tracker
+description: Compact OBD II 4G GPS tracker for cars and light vehicles compatible with Plaspy for real time tracking
+keywords:
+  - sinotrack st902l
+  - sinotrack st 902l
+  - ST 902L gps tracker
+  - ST-902L plaspy compatible
+  - OBD II gps tracker
+  - 4G LTE vehicle tracker
+  - UBLOX7020 tracker
+  - vehicle telematics
+  - fleet tracking device
+  - anti theft vehicle tracker
 ---
+
 # SinoTrack - ST-902L
 
 ![ST-902L](./tracker.jpg)
 
-The SinoTrack ST-902L is a compact OBD II 4G GPS tracker designed for cars and light vehicles. Plug-and-play via any standard 16-pin OBD port, the ST-902L delivers reliable, real-time tracking and vehicle telemetry with a UBLOX7020 GNSS chip, built-in backup battery, and support for 4G LTE and GSM/GPRS networks. For fleet managers and private owners who use Plaspy, the ST-902L can be configured to forward live location and alarm data to Plaspy's platform by setting the device’s server IP and port — enabling immediate Plaspy-compatible deployment without rewiring.
+The SinoTrack ST-902L is a compact plug and play OBD II GPS tracker designed for cars and light vehicles. Built to install into a standard 16 pin OBD port, the ST-902L provides continuous position updates and vehicle telemetry over 4G LTE and GSM networks. The device includes a UBLOX7020 GNSS receiver for reliable location fixes, a built in backup battery for limited operation and tamper detection, and supports SMS based configuration for APN and server settings.
 
-Ideal for fleet management, anti-theft monitoring, and driver oversight, the ST-902L combines simple installation with advanced alarm and reporting features. Use a local data SIM \(not included\) and configure APN and server parameters via SMS or the manufacturer’s setup instructions to integrate with Plaspy for continuous real-time tracking, geo-fence alerts, and event-driven telemetry.
+As a confirmed Plaspy compatible model, the ST-902L can be configured to forward live location and alarm data to Plaspy by setting the device server IP and port and providing a local data SIM. That combination of straightforward installation and configurable reporting makes the ST-902L a practical option for Plaspy users who want rapid deployment of real time tracking, geo fence alerts, and event driven notifications without rewiring vehicles.
 
 ## Key Highlights
 
-- Plug-and-play OBD II installation — no wiring required for quick vehicle onboarding.
-- Plaspy compatible — configurable server IP/port and SMS setup allow forwarding of tracking data to Plaspy for real-time tracking and fleet management.
-- Accurate GNSS performance with UBLOX7020 chip and typical ~10 meter location accuracy for reliable position fixes.
-- 4G LTE and GSM/GPRS connectivity for continuous tracking, with SMS as a fallback for configuration and alerts.
-- Built-in 150mAh backup battery provides limited operation and tamper detection when OBD power is removed.
-- Event and alarm support: geo-fence, over-speed, shock, and low battery notifications for proactive vehicle monitoring.
-- Lifetime free access to SinoTrack’s PRO app and web portal; supports multi-device account management and straightforward activation.
+- Plug and play OBD II form factor for fast vehicle onboarding and minimal installation time.
+- Plaspy compatible via configurable server IP and port and SMS based setup for APN and reporting.
+- UBLOX7020 GNSS receiver for accurate position fixes and consistent tracking performance.
+- 4G LTE and GSM GPRS connectivity to maintain continuous tracking across cellular networks.
+- Built in backup battery for limited operation and tamper detection when OBD power is removed.
+- Event and alarm support including geo fence, over speed, shock, and low battery notifications.
+- Manufacturer portal access and multi device account management for centralized device control.
 
 ## How It Works with Plaspy
 
-The ST-902L sends location and event packets over cellular networks to a configurable server IP and port. To integrate with Plaspy, you set the device’s server address to your Plaspy ingestion endpoint \(the ST-902L supports server IP and port configuration via SMS\). Once pointed at Plaspy, the device streams position updates and alarms for real-time tracking, historical replay, and fleet reporting.
+Integrating the ST-902L with Plaspy is achieved by pointing the device to Plaspy's ingestion endpoint using the device server address settings and ensuring a local data SIM and APN are configured. Once directed at Plaspy, the ST-902L forwards position updates and event packets so vehicles appear in real time on Plaspy dashboards and reports.
 
-- Real-time location and telemetry updates over 4G LTE / GPRS to Plaspy.
-- Geo-fence alerts and over-speed/shock alarms delivered as immediate events to Plaspy dashboards and notifications.
-- Tamper detection and low-battery alerts trigger Plaspy alarms when OBD power is removed or backup battery levels drop.
-- SMS-based configuration for APN, server IP and port — useful for initial provisioning and country-specific settings before Plaspy registration.
-- Works with Plaspy’s fleet management features for dispatch, route history, and multi-vehicle monitoring once the device points to the Plaspy server.
+- Real time location updates delivered over cellular networks to Plaspy for live monitoring.
+- Immediate delivery of geo fence, over speed, shock, and tamper alarms into Plaspy notifications.
+- Historical location replay and trip archives in Plaspy for route analysis and reporting.
+- SMS based provisioning for APN and server IP configuration during initial setup before Plaspy registration.
+- Use Plaspy fleet features to group devices, monitor multiple vehicles, and maintain operational oversight.
 
-## Technical Overview
+## Typical Use Cases
 
-| Manufacturer & Model | SinoTrack ST-902L |
-| --- | --- |
-| Connectivity | 4G LTE and GSM/GPRS \(supports TCP/UDP reporting and SMS commands\) |
-| Bands | Not explicitly specified in product brief; supports common 4G and GSM networks—consult manufacturer for regional band variants |
-| Power & Battery | Powered via vehicle OBD II port; built-in backup battery 150 mAh / 3.7 V for limited operation and tamper detection |
-| Interfaces | Standard 16-pin OBD II plug; SMS configuration for APN, server IP/port, and activation commands; no separate wired I/O listed |
-| GNSS | UBLOX7020 GPS chip; sensitivity -159 dB; typical location accuracy ~10 meters \(2D RMS\); time sync accuracy ~1 microsecond |
-| Bluetooth | No Bluetooth sensors or BLE support reported for this model |
-| Remote Management | Compatible with SinoTrack PRO mobile app and web portal \(server VIP.SINOTRACK, port 8090\); SMS-based remote configuration. FOTA not specified. |
-| Environmental | Operating temperature -20° to 55°C; humidity 5% to 95% non-condensing |
-| Form Factor | Compact OBD II plug-in device for cars and light vehicles |
-| Warranty | 2-year manufacturer warranty |
-| SIM & Compliance | SIM card not included — customer must provide local data SIM with proper APN; some countries require IMEI registration \(manufacturer documents IMEI check/change via SMS where supported\) |
-
-## Use Cases
-
-- Fleet management for light vehicles and taxis — fast OBD II installation for uniform fleet rollout and centralized Plaspy monitoring.
-- Anti-theft and tamper alerts — tamper detection and backup battery events notify managers via Plaspy in real time.
-- Driver behavior and safety — over-speed and shock alarms help detect risky driving and support driver coaching workflows.
-- Rental and lease vehicle tracking — plug-and-play OBD II setup enables rapid activation and return inspections with location history.
-- Simple compliance and location logging — use Plaspy to archive trips, monitor routes, and generate reports from device telemetry.
+- Fleet management for light vehicles and taxis where fast OBD II installation speeds rollout.
+- Anti theft monitoring with tamper detection and backup battery alerts routed to Plaspy.
+- Driver oversight and safety programs using over speed and shock events to inform coaching.
+- Rental and lease vehicle tracking for quick activation and location history during service periods.
+- Compliance and trip logging where centralized Plaspy reporting archives vehicle movement.
 
 ## Why Choose This Tracker with Plaspy
 
-The SinoTrack ST-902L delivers a practical balance of accuracy, simplicity, and compatibility for Plaspy users. Its OBD II plug-and-play design minimizes installation time and fleet deployment costs while UBLOX7020 GNSS performance ensures dependable position fixes for real-time tracking. Because the device supports configurable server IP and port plus SMS-based APN setup, you can route device data to Plaspy quickly and securely without additional hardware.
+The ST-902L offers a balance of simplicity and dependable tracking suited for organizations that need rapid OBD II deployment. Its plug and play design reduces installation overhead while the UBLOX7020 GNSS and cellular connectivity provide the fundamentals needed for continuous fleet visibility. For Plaspy users, the ability to configure server parameters and APN by SMS or manufacturer instructions makes integration straightforward and operationally efficient.
 
-Choose the ST-902L with Plaspy when you need a trusted, compact GPS tracker for cars and light vehicles that supports telemetry, geo-fence and alarm events, and tamper detection — all backed by a two-year warranty and manufacturer-supplied platform access for streamlined fleet management and anti-theft monitoring. For activation and Plaspy integration, follow the provided SMS configuration commands and the user manual to set APN and server details before registering devices in your Plaspy account.
-
+If you need a compact vehicle tracker that can be quickly pointed at Plaspy for live monitoring, the SinoTrack ST-902L is a practical option for cars and light vehicles. Learn more about Plaspy and how compatible devices are used within the platform at https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details and regional compatibility on the manufacturer site https://www.sinotrackgps.com/ before purchasing or deployment.

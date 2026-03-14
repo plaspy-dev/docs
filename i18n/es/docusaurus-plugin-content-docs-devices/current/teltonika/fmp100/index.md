@@ -2,60 +2,59 @@
 slug: /teltonika/fmp100
 id: fmp100
 sidebar_label: FMP100
+title: Teltonika - FMP100
 sidebar_class_name: menu_item_tracker
+description: Rastreador Teltonika compacto plug and play compatible con Plaspy para despliegue rápido en vehículos y telemetría desde sensores BLE
+keywords:
+  - Teltonika FMP100
+  - rastreador FMP100
+  - rastreador GPS Teltonika
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - rastreador de vehículos
+  - rastreador plug and play
+  - seguimiento de sensores BLE
+  - rastreo de autos de alquiler
+  - seguimiento temporal de flotas
 ---
+
 # Teltonika - FMP100
 
 ![FMP100](./tracker.png)
 
-El Teltonika FMP100 es un rastreador GPS compacto, Plug & Play, diseñado para un despliegue rápido e integración compatible con Plaspy. Diseñado para funcionar directamente desde la toma de encendedor de cigarrillos del vehículo, el FMP100 ofrece seguimiento GPS instantáneo y confiable a gestores de flotas, operadores de car sharing y servicios de alquiler sin necesidad de cableado. Su instalación ligera lo convierte en ideal para despliegues temporales, alquileres de corta duración o cualquier caso de uso que requiera provisionamiento rápido de seguimiento en tiempo real y telemetría.
+El Teltonika FMP100 es un rastreador GPS compacto plug and play diseñado para un despliegue rápido en vehículos. Funciona conectado a la toma del encendedor del vehículo, por lo que ofrece seguimiento de ubicación inmediato y funciones de interacción con el conductor sin necesidad de instalación fija. Su tamaño ligero y la instalación sencilla lo hacen ideal para instalaciones temporales, alquileres de corta duración y despliegues piloto donde la rapidez y la flexibilidad son prioridades.
 
-Como dispositivo compatible con Plaspy, el FMP100 combina posicionamiento GPS nativo con soporte para sensores Bluetooth Low Energy \(BLE\) y señalización de eventos \(botón integrado, LED RGB y zumbador\) para entregar un paquete telemático práctico. El dispositivo admite configuración remota y flujos de trabajo de firmware a través de la base de conocimiento de Teltonika y herramientas FOTA/Web, posibilitando la gestión centralizada y una rápida integración en paneles de Plaspy impulsados para seguimiento en tiempo real, alertas e informes.
+Como dispositivo compatible con Plaspy, el FMP100 combina posicionamiento GPS nativo con soporte para sensores Bluetooth Low Energy (BLE) y señalización de eventos mediante botón incorporado, LED RGB y buzzer. Esta combinación aporta telemetría práctica a Plaspy para mapeo, alertas e informes. Los flujos de trabajo de configuración remota y actualización de firmware proporcionados por el fabricante facilitan la gestión de los dispositivos cuando se integran en operaciones de flota administradas con Plaspy.
 
-## Puntos clave
+## Características principales
 
-- Instalación Plug & Play a través de la toma de encendedor del vehículo — no se requiere cableado para un despliegue rápido de la flota.
-- Compatible con Plaspy para seguimiento en tiempo real, alertas y flujos de trabajo centralizados de gestión de flotas.
-- Conectividad 2G GSM \(Bandas B2/B3/B5/B8\) además de Bluetooth Low Energy \(BLE\) para telemetría de sensores externos.
-- Botón de usuario integrado con retroalimentación audible \(zumbador\) y visual \(LED RGB\) para interacción del conductor y eventos de pánico.
-- Salida de cargador integrada de 1 A para alimentar o cargar smartphones y pequeños accesorios durante el seguimiento.
-- Soporte BLE para temperatura, humedad, detección magnética y movimiento cuando se empareja con EYE Beacons/EYE Sensors.
-- Gestión remota y configuración a través de herramientas FOTA/Web de Teltonika y del wiki del producto para mantener los dispositivos sincronizados.
+- Instalación plug and play mediante la toma del encendedor para aprovisionamiento rápido en múltiples vehículos.
+- Compatible con Plaspy para seguimiento en vivo, alertas y gestión centralizada de la flota.
+- Soporte Bluetooth Low Energy (BLE) para telemetría de sensores emparejados, como temperatura y movimiento.
+- Botón de usuario integrado con buzzer audible y LED RGB para retroalimentación local al conductor y señalización de eventos.
+- Salida de carga integrada para alimentar o cargar accesorios pequeños mientras se realiza el seguimiento.
+- Soporta flujos de configuración remota y actualización de firmware mediante las herramientas y documentación de Teltonika.
 
 ## Cómo funciona con Plaspy
 
-El Teltonika FMP100 envía datos telemáticos estándar que Plaspy puede consumir para la ubicación en tiempo real, alertas de eventos y telemetría de sensores. Tras la instalación física en el vehículo y el emparejamiento de accesorios BLE cuando sea necesario, el rastreador proporciona posiciones GPS continuas y entradas de sensores a Plaspy para mapeo, geocercas y generación de informes. La gestión remota y las actualizaciones de firmware utilizan los flujos de trabajo documentados por el proveedor para mantener los dispositivos sincronizados y seguros.
+El FMP100 transmite datos de posicionamiento y eventos que Plaspy consume para monitoreo en tiempo real e informes históricos. Una vez instalado el dispositivo y emparejados los accesorios BLE compatibles, Plaspy muestra la ubicación de los vehículos, registra eventos del botón e ingiere la telemetría de los sensores para que los operadores puedan responder a alertas y analizar tendencias de uso.
 
-- Actualizaciones de ubicación y telemetría en tiempo real para un seguimiento preciso de vehículos en los mapas de Plaspy.
-- Eventos de alarma activados por el botón \(pánico o cambio de modo de viaje\) transmitidos como alertas a Plaspy.
-- Telemetría de sensores BLE — temperatura, humedad, detección magnética y movimiento — disponible en Plaspy cuando se empareja con accesorios BLE compatibles.
-- Estado del dispositivo y retroalimentación al conductor a través de LED RGB y zumbador reportados en registros y flujos de eventos.
-- Gestión remota y configuración de firmware mediante las herramientas Teltonika FOTA/Web integradas en los flujos de trabajo de Plaspy \(consulte la documentación de Teltonika para detalles de configuración\).
+- Actualizaciones de ubicación en tiempo real mostradas en los mapas de Plaspy para visibilidad de la flota.
+- Eventos disparados por el botón que se transmiten a Plaspy como alertas para asistencia al conductor o monitoreo de seguridad.
+- Datos de sensores BLE como temperatura, humedad o movimiento entregados a Plaspy cuando se emparejan accesorios compatibles.
+- Estado del dispositivo y retroalimentación local del LED y buzzer registrados en los logs de eventos para contexto operativo.
+- Flujos de configuración remota y firmware coordinados con las herramientas del proveedor y reflejados en los registros de gestión de dispositivos en Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | FMP100 \(Teltonika\) |
-| --- | --- |
-| Conectividad | 2G GSM y Bluetooth Low Energy \(BLE\) |
-| Bandas | GSM B2 / B3 / B5 / B8 |
-| Alimentación y batería | Alimentado desde la toma de encendedor del vehículo; incluye salida de cargador de 1 A para dispositivos externos. No se especifica batería interna en la descripción del producto. |
-| Interfaces | Botón de usuario integrado \(alarma/pánico\), LED RGB, zumbador, opción de cable micro USB \(código de producto FMP100UEWB01\), aguja para bandeja SIM incluida en el paquete multiunidad. |
-| GNSS | Posicionamiento GPS \(el dispositivo se comercializa como rastreador GPS; la precisión específica no se especifica\) |
-| Bluetooth | BLE para emparejar EYE Beacons y EYE Sensors \(temperatura, humedad, magnet, movimiento\) |
-| Gestión remota | Gestión remota vía FOTA/Web soportada; documentación y flujos de configuración disponibles a través de la base de conocimiento de Teltonika y del wiki del producto |
-| Formato y Embalaje | Unidad compacta Plug & Play para la toma de encendedor; códigos de producto incluyen FMP100UEC301 \(paquete estándar\), FMP100UEHQ01 y FMP100UEWB01 \(variantes personalizadas\). Los ejemplos de empaque del producto estándar muestran cajas para múltiples unidades \(p. ej., 5 unidades + agujas para bandeja SIM\). |
-
-## Casos de uso
-
-- Gestión de flotas: despliegue rápido de vehículos hacia Plaspy para monitorización de rutas y telemetría operativa sin necesidad de cableado en taller.
-- Servicios de car sharing y alquiler: instalaciones temporales o de corta duración para rastrear ubicación, eventos de uso y proporcionar alertas de pánico.
-- Despliegues temporales y flotas estacionales: seguimiento puntual para programas piloto, eventos o flotas estacionales de vehículos.
-- Cargas y mercancías sensibles a la temperatura: sensores BLE de temperatura/humedad emparejados con el FMP100 reportan telemetría ambiental a Plaspy para visibilidad de la cadena de frío.
-- Seguridad de activos y monitoreo de eventos: alarmas disparadas por el botón y sensores BLE de magnetismo/movimiento ayudan a detectar movimientos no autorizados o manipulación.
+- Despliegue rápido de flotas donde los vehículos necesitan seguimiento inmediato sin pasar por un taller.
+- Operaciones de car sharing y alquiler que requieren rastreadores temporales y aprovisionamiento sencillo.
+- Flotas de corta duración o estacionales para eventos, pilotos o expansiones temporales del servicio.
+- Monitoreo de carga sensible a la temperatura cuando se empareja con sensores ambientales BLE compatibles.
+- Seguridad de activos y detección de manipulación usando eventos de botón y sensores de movimiento o magnéticos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El Teltonika FMP100 es una opción atractiva para organizaciones que priorizan la rapidez de implementación, la simplicidad y el seguimiento en tiempo real compatible con Plaspy. Su formato Plug & Play minimiza el tiempo y la complejidad de instalación en comparación con los rastreadores cableados, mientras el soporte BLE para sensores amplía la telemetría más allá de la ubicación básica para incluir temperatura, humedad y detección de movimiento. La retroalimentación al conductor integrada \(LED RGB y zumbador\) y un botón de usuario para alarmas permiten un manejo de eventos inmediato y visible localmente, que se integra en los sistemas de alertas e informes de Plaspy.
+El FMP100 es una opción práctica cuando la rapidez de despliegue y la flexibilidad son prioritarias. Su diseño plug and play reduce la carga de instalación y permite aprovisionar el seguimiento en muchos vehículos de forma ágil. El soporte para accesorios BLE amplía la telemetría más allá de la ubicación, habilitando monitoreo ambiental y casos simples de seguridad que se integran en los paneles y flujos de alertas de Plaspy.
 
-Para operaciones que requieren entradas de encendido, control de inmovilizador o monitorización avanzada de combustible, considere modelos compatibles con Plaspy cableados específicamente diseñados para esas integraciones. El FMP100 se centra en la portabilidad, el provisioning rápido y la telemetría habilitada por BLE; para detalles de firmware, certificaciones, descargas y asistencia de pedidos, consulte el soporte de Teltonika o el wiki del producto. La integración con Plaspy es directa: combine la GPS en vivo y la telemetría BLE del FMP100 con los paneles de Plaspy para obtener visibilidad en tiempo real, mejorar la utilización de la flota y responder más rápidamente a eventos de antirrobo y seguridad.
-
+Para conocer más sobre Plaspy y cómo rastreadores compatibles como el FMP100 pueden encajar en sus operaciones visite https://www.plaspy.com. Las especificaciones y la disponibilidad de productos pueden cambiar con el tiempo, por lo que conviene verificar los detalles técnicos actuales y la documentación en el sitio del fabricante https://www.teltonika-gps.com/ antes de realizar compras o despliegues a gran escala.

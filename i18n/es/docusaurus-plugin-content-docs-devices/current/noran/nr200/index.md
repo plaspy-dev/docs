@@ -2,63 +2,60 @@
 slug: /noran/nr200
 id: nr200
 sidebar_label: NR200
+title: Noran - NR200
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS magnético y a batería, compacto, para seguimiento encubierto de vehículos y activos, compatible con Plaspy para rastreo en tiempo real y alertas
+keywords:
+  - Noran NR200
+  - Rastreador GPS NR200
+  - Rastreador Noran
+  - NR200 compatible Plaspy
+  - Rastreador GPS magnético
+  - Rastreador a batería
+  - Seguimiento encubierto de vehículos
+  - Seguimiento de activos
+  - Seguimiento de remolques
+  - Gestión de flotas
 ---
+
 # Noran - NR200
 
 ![NR200](./tracker.jpg)
 
-El NR200 Magnetic Wireless GPS Tracker es un rastreador GPS compacto alimentado por batería, diseñado para el rastreo encubierto a largo plazo de vehículos y activos, y es compatible con Plaspy para una integración fluida en los flujos de trabajo modernos de gestión de flotas y activos. Su robusto soporte magnético y la instalación inalámbrica hacen del NR200 la opción ideal cuando se necesita seguimiento en tiempo real sin manipular el cableado del vehículo, perfecto para instalaciones temporales, operaciones de recuperación y activos de difícil acceso.
+El NR200 Magnetic Wireless GPS Tracker es un dispositivo compacto y a batería diseñado para el rastreo encubierto y prolongado de vehículos y activos. Su montaje magnético y la instalación inalámbrica lo hacen ideal para instalaciones temporales, operaciones de recuperación y para vigilar activos de difícil acceso sin necesidad de realizar un tendido eléctrico permanente.
 
-El dispositivo se empareja con Plaspy para ofrecer rastreo en tiempo real fiable, historial de rutas y telemetría de alarmas a través de SMS, plataforma web y interfaces de la app Android. Con una batería de 5000 mAh y modos de suspensión configurables que proporcionan hasta 30 días de autonomía en modo de espera, el NR200 equilibra una larga duración de la batería y un formato compacto para un monitoreo antirrobo discreto, supervisión de equipos y rastreo de remolques/contenedores.
+Como dispositivo compatible con Plaspy, el NR200 se integra con la plataforma para ofrecer rastreo en tiempo real, historial de rutas y telemetría de alarmas a través de SMS, web y la app Android. Esa compatibilidad convierte al NR200 en una opción práctica para organizaciones que buscan hardware discreto y de bajo mantenimiento que alimente directamente los flujos de trabajo modernos de gestión de flotas y activos en Plaspy.
 
-## Puntos destacados
+## Características principales
 
-- Compatible con Plaspy para una rápida integración en paneles de gestión de flotas web y móviles y en servidores de terceros mediante los protocolos TCP/UDP/HTTP estándar.
-- Instalación magnética y completamente inalámbrica: fíjela a superficies metálicas para un despliegue encubierto sin cableado o herramientas.
-- Hasta 30 días en modo de espera con una batería de 5000 mAh y un modo de sueño configurable para despliegues prolongados y monitoreo de bajo mantenimiento.
-- Seguimiento en tiempo real y doble posicionamiento \(GPS + A-GPS/LBS\) para mejorar la fiabilidad de la ubicación en entornos con señal débil.
-- Alertas y telemetría integrales: alarmas de geocerca, alertas de velocidad, estadísticas de kilometraje y reproducción del historial de rutas \(hasta 90 días\).
-- Monitoreo de audio mediante llamada remota para escucha a demanda: útil para la conciencia situacional durante la recuperación o la investigación.
-- Formato compacto y ligero \(95 x 60 x 25 mm; 125 g\) que se integra discretamente en remolques, contenedores, equipos y muchos tipos de vehículos.
+- Compatible con Plaspy para su integración en paneles web y móviles de gestión de flotas y para reenviar datos a servidores de terceros.
+- Montaje magnético e instalación inalámbrica que permiten una fijación rápida y discreta a superficies metálicas sin cableado permanente.
+- Amplia autonomía de batería con hasta 30 días en reposo según los modos de sueño configurados, ideal para despliegues prolongados.
+- Rastreo en tiempo real con doble posicionamiento (GPS más ubicación asistida) para mejorar la fiabilidad en entornos complicados.
+- Alertas y telemetría completas, incluyendo alarmas de geocerca, notificaciones por exceso de velocidad, estadísticas de kilometraje y reproducción del historial de rutas.
+- Función de monitorización de audio remota para escucha a demanda en situaciones de recuperación o investigación.
+- Factor de forma compacto y ligero, apto para remolques, contenedores, equipos y colocaciones discretas en vehículos.
 
 ## Cómo funciona con Plaspy
 
-La integración con Plaspy es directa: el NR200 transmite la ubicación y la telemetría sobre redes celulares utilizando los protocolos TCP/UDP/HTTP estándar, y también puede proporcionar actualizaciones por SMS cuando sea necesario. Plaspy ingiere los datos del dispositivo para ofrecer rastreo en tiempo real, alertas e informes históricos en el mismo tablero utilizado para otros activos de la flota. Dado que el NR200 admite doble posicionamiento \(GPS + A-GPS/LBS\), Plaspy puede presentar ubicaciones consistentes incluso en zonas urbanas o con señal satelital débil.
+El NR200 transmite posición y telemetría mediante redes celulares y SMS compatibles con el dispositivo, y Plaspy procesa esos datos para mostrar ubicación en vivo, alertas e informes históricos dentro de la misma plataforma utilizada para otros activos de la flota. La integración permite a los operadores consolidar las fuentes NR200 junto con otros dispositivos y obtener visibilidad uniforme en un parque de hardware mixto.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a través de TCP/UDP/HTTP y SMS a Plaspy y a servidores de terceros.
-- Alarmas de geocerca y alertas de velocidad excesiva enviadas a Plaspy para notificación instantánea al operador.
-- Reproducción de rutas históricas \(hasta 90 días\) y vistas de estadísticas de kilometraje dentro de la plataforma Plaspy.
-- Monitoreo de audio accesible a través de la función de llamada remota del dispositivo para escucha bajo demanda vinculada a los flujos de eventos de Plaspy.
-- Plaspy puede correlacionar la posición y la telemetría del NR200 con otras telemáticas de la flota—como monitoreo de combustible, estado de encendido o controles del inmovilizador—cuando esas señales están disponibles en una pila de telemática unificada.
+- Actualizaciones de ubicación y telemetría en tiempo real transmitidas a Plaspy para supervisión en vivo y paneles operativos.
+- Alarmas de geocerca y notificaciones por exceso de velocidad reenviadas a Plaspy para que los equipos reciban avisos inmediatos y puedan actuar con rapidez.
+- Reproducción del historial de rutas y estadísticas de kilometraje disponibles dentro de Plaspy para revisión operativa y análisis.
+- Monitorización de audio remota accesible mediante la función del equipo e integrada en los flujos de eventos de Plaspy para conciencia situacional.
+- Plaspy puede correlacionar la posición y telemetría del NR200 con otras señales de la flota cuando esos inputs forman parte de una solución telemática unificada.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | NR200 Magnetic Wireless GPS Tracker |
-| --- | --- |
-| Conectividad | GSM/GPRS \(celular\) y soporte 3G |
-| Bandas | GSM/GPRS 850 / 900 / 1800 / 1900 MHz; 2100 MHz \(3G\) |
-| GNSS | Módulo GPS: SiRFstar IV; sensibilidad hasta -159 dBm; precisión típica de posicionamiento GPS ~10 m; precisión GSM/LBS 50–200 m |
-| Batería | Batería recargable de 5000 mAh; hasta 30 días en espera \(modos de sueño configurables\) |
-| Alimentación / Voltaje | Voltaje de operación 9–36 V |
-| Rendimiento | Arranque en frío \< 38 s; Arranque en caliente \< 32 s; Arranque en caliente rápido \< 2 s; Límite de altitud 18,000 m; Límite de velocidad 515 m/s |
-| Consumo | Consumo típico ~60 mA \(12 V DC\) o ~35 mA \(24 V DC\); en espera \< 50 mA |
-| Ambiente | Rango de temperatura de operación -20°C a 70°C; Humedad 20%–80% HR |
-| Protocolos de comunicaciones | TCP, UDP, HTTP; soporte de SMS para alertas e informes |
-| Formato | 95 x 60 x 25 mm; peso 125 g; tapa trasera magnética para su fijación |
-| Accesorios incluidos | Batería de 5000 mAh, tapa magnética, adaptador, cable de carga, manual de usuario |
-
-## Casos de uso
-
-- Recuperación encubierta de vehículos y monitoreo antirrobo donde una instalación magnética y no invasiva reduce el riesgo de detección.
-- Rastreo de remolques y contenedores de envío durante el tránsito o en almacenamiento, con gran autonomía para viajes prolongados.
-- Gestión de equipos y activos en obras donde no hay suministro eléctrico disponible: monitoree la ubicación y los patrones de uso de forma remota.
-- Supervisión de flota para despliegues temporales o de corta duración que requieren instalación rápida y rastreo en tiempo real compatible con Plaspy.
-- Monitoreo situacional que se beneficia del monitoreo de audio y la reproducción de rutas históricas durante investigaciones o revisiones de incidentes.
+- Recuperación encubierta de vehículos y vigilancia antirobo donde el montaje magnético no invasivo reduce el riesgo de detección.
+- Rastreo de remolques y contenedores durante el tránsito o en almacenamiento, aprovechando la larga vida de la batería.
+- Monitoreo de equipos y activos en obras y sitios sin alimentación permanente para supervisión remota.
+- Despliegues temporales o a corto plazo de flotas que requieren instalación rápida y rastreo en tiempo real compatible con Plaspy.
+- Investigaciones situacionales y revisión de incidentes mediante reproducción de rutas y escucha remota a demanda.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Combinar el NR200 con Plaspy ofrece una solución de rastreo práctica y de baja intervención que destaca por su fiabilidad, discreción y larga autonomía. Esta combinación resulta adecuada para flotas y flujos de trabajo de gestión de activos donde la instalación no invasiva, la standby prolongada y el rastreo en tiempo real compatible con Plaspy son prioridades. Debido a que el NR200 utiliza protocolos TCP/UDP/HTTP estándar y SMS, la integración es flexible: puede utilizar la app web y Android del fabricante o ingerir los datos del dispositivo directamente en Plaspy u otras plataformas de terceros para una telemetría consolidada.
+Para equipos que necesitan hardware discreto y de bajo mantenimiento, el NR200 ofrece una combinación práctica de larga autonomía y diseño magnético e inalámbrico. Al asociarlo con Plaspy, el dispositivo se integra en un flujo de trabajo más amplio de gestión de flotas y activos que prioriza visibilidad, alertas e informes históricos sin instalaciones complejas.
 
-Los operadores obtienen beneficios de la precisión de ubicación del rastreador GPS, doble posicionamiento \(GPS + A-GPS/LBS\) para una mejor cobertura, historial de rutas para análisis operativos y alertas instantáneas para eventos de geocerca y exceso de velocidad. Aunque el NR200 se centra en una implementación discreta alimentada por batería, la plataforma de Plaspy puede ampliar su ubicación y telemetría con señales de flota más amplias, como monitoreo de combustible o datos de encendido o del inmovilizador, cuando esas señales estén disponibles en una pila de telemática unificada. Esto convierte al NR200 en un componente confiable en despliegues de tecnología mixta donde el rastreo en tiempo real, la respuesta ante robo y la monitorización a largo plazo son esenciales.
-
+Los usuarios de Plaspy se benefician de disponer de los datos de ubicación y eventos del NR200 junto con la telemetría de otros equipos en una misma plataforma, lo que facilita la supervisión consolidada y una respuesta operativa más rápida. Si usted desea saber más sobre cómo Plaspy soporta dispositivos como el NR200 y si encaja en su despliegue, visite https://www.plaspy.com. Las especificaciones de producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que confirme las especificaciones actuales en el sitio oficial de Noran en http://www.norantracker.com/.

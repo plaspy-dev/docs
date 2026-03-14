@@ -2,59 +2,59 @@
 slug: /autoseeker/at_20
 id: at_20
 sidebar_label: AT-20
+title: Autoseeker - AT-20
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular profesional 4G Autoseeker AT-20 compatible con Plaspy para seguimiento y alertas en tiempo real
+keywords:
+  - Autoseeker AT-20
+  - rastreador AT-20
+  - Autoseeker GPS
+  - compatible con Plaspy
+  - rastreador vehicular 4G
+  - seguimiento de flotas
+  - telemetría vehicular
+  - seguimiento en tiempo real
+  - rastreador con geocercas
+  - alertas de exceso de velocidad
 ---
+
 # Autoseeker - AT-20
 
 ![AT-20](./tracker.jpeg)
 
-El rastreador GPS AT-20 es un rastreador vehicular profesional de 4G diseñado para un seguimiento en tiempo real fiable y compatible con Plaspy, así como para la gestión de flotas. Optimizado para aplicaciones en vehículos, el AT-20 ofrece actualizaciones de ubicación instantáneas, reproducción de rutas históricas, geocercas, alertas de velocidad, detección ACC \(encendido\), informes de emergencia SOS y gestión avanzada de movimiento y energía —todo un conjunto de telemetría esencial para operaciones modernas de flota y flujos anti-robo.
+El Autoseeker AT-20 es un rastreador GPS vehicular profesional 4G diseñado para ofrecer seguimiento confiable en tiempo real y gestión de flotas. Optimizado para aplicaciones sobre vehículos, el AT-20 proporciona actualizaciones de ubicación instantáneas, reproducción de rutas históricas, geocercas, alertas por exceso de velocidad, detección de ACC (encendido), reportes de emergencia SOS y gestión avanzada de movimiento y energía. Con batería interna de respaldo y soporte para accesorios externos como botón SOS, cámara o sensor de combustible, el AT-20 está pensado para cubrir las necesidades operativas habituales en monitoreo de flotas y seguridad vehicular.
 
-Con un diseño flexible para instalaciones en vehículos con diferentes rangos de tensión, el AT-20 soporta comunicaciones globales 4G LTE y cuadribanda GSM/GPRS a través de TCP/GPRS y SMS para integrarse de forma transparente con Plaspy. Con batería interna de respaldo y opciones para accesorios externos, como un botón SOS, una cámara o un sensor de combustible, el AT-20 ofrece las fuentes de datos fiables que los responsables de la flota requieren para el monitoreo de combustible, la seguridad del vehículo y la telemetría de extremo a extremo.
+Como dispositivo compatible con Plaspy, el AT-20 puede entregar datos de posición, eventos de alarma y telemetría del vehículo a Plaspy para su visualización, alertas e informes. Su conectividad 4G LTE con conmutación entre bandas y soporte para transportes TCP/GPRS y SMS lo hace adecuado para integrarse en los paneles de Plaspy. Para los gestores y operadores que usan Plaspy, el AT-20 aporta los flujos de datos y reportes de eventos que facilitan la supervisión en tiempo real y el análisis histórico.
 
 ## Aspectos clave
 
-- Rastreador GPS 4G compatible con Plaspy para seguimiento en tiempo real preciso y reproducción histórica.
-- Conectividad global: LTE FDD y cuadribanda GSM/GPRS para una comunicación fiable y cobertura de respaldo.
-- I/O orientado al vehículo: detección de ACC \(encendido\) y apagado, entrada SOS, soporte para corte remoto de combustible e interfaces para accesorios.
-- Alertas listas para la flota: entrada/salida de geocerca, avisos de velocidad, detección de movimiento e informes SOS de emergencia.
-- Diseño de bajo consumo con modo de espera de bajo consumo, batería interna de respaldo de 180 mAh y entrada amplia de 9–95 V para coches, camiones y autobuses.
-- Monitoreo de voz remoto mediante micrófono integrado para la conciencia situacional y verificaciones de seguridad.
-- Firmware personalizable y soporte OEM/ODM para la integración de protocolos o accesorios a medida.
+- Rastreador GPS 4G compatible con Plaspy para seguimiento preciso en tiempo real y reproducción de rutas históricas
+- Geocercas y alertas de flota, incluyendo notificaciones por exceso de velocidad y emergencias SOS
+- Entradas vehiculares como detección de ACC (encendido) y soporte para corte remoto de combustible e interfaces para accesorios
+- Batería interna de respaldo y amplio rango de voltaje para instalaciones flexibles en vehículos
+- Soporte opcional de accesorios como botón SOS externo, cámara y sensor de combustible para ampliar la telemetría
+- Diseñado para flotas y flujos de trabajo antirobo con gestión de movimiento y eficiencia energética
 
 ## Cómo funciona con Plaspy
 
-El AT-20 transmite la ubicación y la telemetría del vehículo a Plaspy mediante sus enlaces LTE y GSM/GPRS, a través de TCP/GPRS y SMS. Plaspy procesa esas señales para el seguimiento en tiempo real, alertas y reproducción de rutas históricas. La integración es sencilla: las posiciones GPS, telemetría con marcas de tiempo, eventos de alarma y estados de entrada llegan en formatos telemáticos estándar y se muestran en los tableros, mapas e informes de Plaspy.
+El AT-20 envía posiciones GPS, marcas de tiempo y eventos de alarma a Plaspy usando sus enlaces celulares y los métodos de transporte soportados. Plaspy recibe esas transmisiones y las muestra en mapas, líneas de tiempo e informes para que los equipos puedan monitorear los vehículos en tiempo real y revisar trayectos históricos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy mediante 4G/LTE o cuadribanda GPRS.
-- Estado del vehículo: detección de ACC \(encendido\) y eventos de movimiento reportados para flujos de trabajo de la flota.
-- Alertas de eventos: entrada/salida de geocerca, velocidad, mensajes SOS de emergencia y alarmas de movimiento aparecen como notificaciones de Plaspy.
-- Monitoreo de combustible: corte remoto de combustible soportado e integración opcional de sensor de combustible reportan telemetría de combustible a Plaspy.
-- Reproducción de rutas históricas disponible para Plaspy para análisis de trayectos y generación de informes de cumplimiento.
+- Actualizaciones de ubicación en tiempo real y telemetría vehicular entregadas a Plaspy para visibilidad instantánea de la flota
+- Reportes de estado del vehículo como ACC (encendido/apagado) y eventos de movimiento para respaldar procesos operativos
+- Alertas por eventos como entrada/salida de geocercas, advertencias por exceso de velocidad y mensajes de emergencia SOS que aparecen como notificaciones en Plaspy
+- Datos opcionales de sensores y accesorios, por ejemplo lecturas de sensor de combustible o entradas de accesorios, pueden mostrarse en los informes de Plaspy
+- Reproducción de rutas históricas y registros de eventos disponibles en Plaspy para análisis de viajes, cumplimiento y auditoría
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE FDD y cuadribanda GSM/GPRS con transporte TCP/GPRS y SMS |
-| --- | --- |
-| Bandas | LTE FDD: B1/B2/B3/B4/B5/B7/B8/B28/B66; 2G: 850/900/1800/1900 MHz |
-| Módulo de Comunicación | SIMCOM 7670SA |
-| GNSS | Conjunto de chips ZKW; sensibilidad hasta −162 dB; inicio en frío/templado/caliente ≈ 35 s / 30 s / 1 s |
-| Entrada de voltaje | Rango amplio 9–95 VDC, apto para coches, camiones y autobuses |
-| Energía y batería | Batería interna de respaldo 180 mAh; corriente de espera típica \< 50 mA; gestión avanzada de energía |
-| Interfaces | Detección de ACC \(encendido\), entrada SOS, soporte para corte remoto de combustible, accesorios externos \(cámara opcional, sensor de combustible\) |
-| Ambiental | Temperatura de operación −20°C a 65°C; humedad del 5% al 95% sin condensación; altitud de operación hasta 18,000 m |
-| Dimensiones | 87 × 50 × 12 mm \(form factor compacto para vehículo\) |
-| Firmware y Personalización | Firmware personalizable; desarrollo OEM/ODM y personalización de protocolos soportados |
+- Gestión de flotas de autos, vans, camiones y autobuses que requieren seguimiento en vivo y historial de rutas
+- Seguridad vehicular y operaciones antirobo mediante geocercas, alertas SOS y soporte para corte remoto
+- Servicios de logística y entrega que necesitan reportes de posición y detección de movimiento para mejorar tiempos estimados de llegada
+- Monitoreo de combustible y prevención de pérdidas usando integración opcional de sensores de combustible y reportes
+- Despliegues en flotas mixtas y de media y alta carga donde el amplio rango de entrada de voltaje y la energía de respaldo son ventajosos
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas: seguimiento en tiempo real, historial de rutas y telemetría para optimizar la asignación de trabajos, reducir tiempos de inactividad y monitorear el comportamiento del conductor.
-- Seguridad de vehículos y anti-robos: alertas de geocerca, informes SOS de emergencia y corte remoto de combustible reducen el riesgo de robo y facilitan una respuesta rápida.
-- Logística y monitorización de carga: informes de posición precisos y detección de movimiento ayudan a proteger las mercancías y a mejorar la precisión del ETA.
-- Monitoreo y optimización de combustible: integración opcional de sensor de combustible y soporte para corte remoto de combustible facilitan los flujos de gestión de combustible y reducen pérdidas.
-- Flotas pesadas y mixtas: entrada amplia 9–95 V y rango operativo robusto para coches, camiones, autobuses y vehículos especializados.
+El AT-20 combina entradas orientadas al vehículo, conectividad celular robusta y gestión de energía para entregar datos de ubicación y eventos confiables a Plaspy. Su conjunto de funciones se alinea con los requisitos comunes de flotas y antirobo, proporcionando los tipos de eventos y la telemetría que Plaspy utiliza para alertas, mapeo y análisis histórico. Para organizaciones que necesitan soporte de accesorios o comportamientos personalizados, las opciones del AT-20 para sensores externos y firmware configurable permiten adaptar las capacidades del equipo a las necesidades operativas, mientras alimentan a Plaspy con telemetría consistente.
 
-## Por qué elegir el AT-20 con Plaspy
-
-El AT-20 combina conectividad robusta, entradas enfocadas al vehículo y operación de bajo consumo para brindar rastreo GPS y telemetría confiables para los usuarios de Plaspy. Sus comunicaciones LTE con respaldo cuád-banda aseguran continuidad en las zonas de cobertura, mientras que la detección de ACC, SOS y el corte remoto de combustible abordan los casos de uso clave de anti-robos y seguridad de la flota. Los flujos de datos compatibles con Plaspy desde el AT-20 permiten rastreo en tiempo real, alertas e informes históricos, de modo que los operadores obtienen información accionable para la gestión de la flota, el monitoreo de combustible y el cumplimiento. Si el proyecto requiere un comportamiento a medida o soporte adicional de sensores, la personalización del firmware y las opciones OEM/ODM del AT-20 facilitan la integración con Plaspy y herramientas telemáticas de terceros.
-
+Si desea conocer más sobre cómo el AT-20 puede integrarse en su despliegue con Plaspy, visite https://www.plaspy.com para explorar las características de la plataforma y la compatibilidad. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual y el soporte de accesorios con el fabricante en https://autoseekergps.com/.

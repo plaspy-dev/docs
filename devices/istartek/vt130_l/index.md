@@ -2,60 +2,60 @@
 slug: /istartek/vt130_l
 id: vt130_l
 sidebar_label: VT130-L
+title: iStartek - VT130-L
 sidebar_class_name: menu_item_tracker
+description: Compact 4G GNSS tracker VT130 L compatible with Plaspy for real time fleet tracking alerts and vehicle telemetry
+keywords:
+  - iStartek VT130-L
+  - VT130-L
+  - VT130-L Plaspy
+  - VT130-L GPS tracker
+  - iStartek tracker
+  - 4G GPS tracker
+  - fleet tracking
+  - vehicle telemetry
+  - anti theft tracker
+  - GNSS tracker
 ---
+
 # iStartek - VT130-L
 
 ![VT130-L](./tracker.png)
 
-The VT130-L is a compact 4G GPS tracker designed for dependable real-time tracking and vehicle telemetry. Plaspy compatible out of the box, the VT130-L streams high-precision GNSS positioning \(BDS/GPS/GLONASS/QZSS\) and vehicle status data to Plaspy for live monitoring, fleet management, anti-theft protection and dispatch workflows. Its small form factor, IP66 rating and wide input voltage range make it easy to deploy across mixed fleets and passenger vehicles.
+The VT130-L is a compact 4G GPS tracker designed for dependable real time tracking and vehicle telemetry. It provides multi constellation GNSS positioning and streams location and vehicle status data for live monitoring and operational oversight. The device is built for mixed fleet deployments with a rugged IP66 enclosure and a small form factor that supports covert or flexible installation in passenger vehicles and light commercial assets.
 
-The unit supports GPS+GSM dual-mode positioning, dual-server redundancy and a broad alarm set—external power loss, speeding, GPS signal loss, door and engine events, harsh motion and more—so operators using Plaspy receive timely, actionable alerts. With FOTA support, 16M-bit flash storage and a built-in 3D acceleration sensor, the VT130-L delivers robust telemetry for mileage, idling, ignition and optional immobilizer functions.
+As a Plaspy compatible device out of the box, the VT130-L sends high precision GNSS coordinates and a broad set of status alarms into Plaspy for visualization, alerts and reporting. Its telemetry and event forwarding integrate with Plaspy dashboards and workflows to support fleet management, anti theft response and dispatch operations without custom middleware.
 
 ## Key Highlights
 
-- Plaspy compatible 4G GPS tracker for real-time tracking and fleet management across mixed vehicle types.
-- High-precision multi-constellation GNSS \(BDS/GPS/GLONASS/QZSS\) plus GPS+GSM dual-mode positioning for improved coverage.
-- Comprehensive alarm suite: geo-fence, speeding, GPS signal loss, external power disconnect, low battery, door/engine status and impact/vibration detection.
-- Remote control capabilities including remote fuel/electricity cutoff for immobilizer-style interventions and optional buzzer output.
-- Rugged, compact design \(90 x 33.8 x 16.6 mm, ~54 g\) with IP66 waterproofing and a 120 mAh backup battery for up to ~30 minutes of power loss operation.
-- Firmware over-the-air \(FOTA\) updates and dual-server support for redundant connectivity and easier device lifecycle management.
-- Built-in 3D accelerometer and 16M-bit flash memory for event detection and temporary onboard logging when connectivity is limited.
+- Plaspy compatible 4G GPS tracker for real time location and fleet management across mixed vehicle types
+- High precision multi constellation GNSS positioning for improved coverage and accuracy
+- Broad alarm set including geo fence, speeding, GPS signal loss, external power loss, door and engine events, and impact detection
+- Remote control features for immobilizer style interventions and optional buzzer output to support recovery workflows
+- Rugged compact design with IP66 rating and a small footprint suitable for passenger and light commercial vehicles
+- FOTA firmware updates and dual server redundancy to support device lifecycle management and reduce data gaps
+- Onboard storage and 3D acceleration based event detection for temporary logging when connectivity is limited
 
 ## How It Works with Plaspy
 
-When connected to Plaspy, the VT130-L delivers continuous location and telemetry feeds to the platform so you can manage vehicles in real time. Plaspy ingests GNSS coordinates, sensor inputs and alarms from the device and maps them into live tracking views, geofencing rules, alerting pipelines and telemetry dashboards that support fleet optimization and anti-theft response.
+When used with Plaspy, the VT130-L delivers continuous location and telemetry streams that feed Plaspy mapping, alerting and reporting features. Plaspy ingests GNSS fixes, event alarms and status inputs from the device and presents them in live tracking views and operational dashboards for fleet teams.
 
-- Real-time location and telemetry updates: frequent GNSS fixes and status reports feed directly into Plaspy for mapping and live tracking.
-- Ignition and door status: the configurable ACC input and digital inputs report engine on/off and door events for driver behavior and access monitoring.
-- Alarm and event forwarding: geo-fence breaches, speeding, GPS signal loss, impact/vibration \(towing\) and low-battery alarms trigger Plaspy alerts.
-- Fuel control and immobilization: remote fuel/electricity cutoff commands are supported to stop vehicles when required and are reflected in Plaspy workflows.
-- Telemetry and logging: mileage reporting, idling/fatigue driving reports and heading-change events are uploaded for analytics and compliance reporting.
+- Real time location and telemetry updates feed Plaspy maps and live tracking screens for dispatch and oversight
+- Alarm forwarding into Plaspy for geo fence breaches, speeding, power loss and impact events to trigger notifications and workflows
+- Engine and door status reporting supports driver behavior monitoring and passenger safety views in Plaspy
+- Remote immobilizer style commands and outputs are visible in Plaspy workflows to support recovery and intervention
+- Telemetry aggregation for mileage, idling and event based logging that Plaspy uses for reporting and analytics
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | Built-in 4G cellular with GPS+GSM dual-mode positioning |
-| --- | --- |
-| Bands | LTE frequency bands vary by region \(EU and SA versions available\) |
-| Power & Battery | Input DC 9–90V/1.5A; built-in 120 mAh backup battery \(~30 minutes\) |
-| Interfaces | Nano SIM slot; one configurable digital input \(ACC detection\), one output, Type-C USB; optional buzzer |
-| GNSS | High-precision GNSS module: BDS / GPS / GLONASS / QZSS |
-| Sensors | Built-in 3D acceleration sensor for impact, harsh motion and towing/vibration detection |
-| Memory & Remote Management | 16M-bit flash memory; FOTA firmware upgrade; dual-server support for redundancy |
-| Form Factor & Protection | Size 90 x 33.8 x 16.6 mm; weight ~54 g; IP66 waterproof rating; ceramic GPS antenna and built-in FPC GSM antenna |
-| Indicators & Extras | Blue and green LED status indicators; optional accessories include load sensors, RFID/iButton readers, WiFi modem and camera-equipped variants |
-
-## Use Cases
-
-- Fleet management: live dispatch, route compliance, mileage reporting and driver event monitoring for commercial fleets.
-- Public transport & school bus monitoring: real-time location, door/engine status and geofence alerts for passenger safety and schedule adherence.
-- Taxi and ride-hailing operations: in-cab telemetry, ignition reports and incident alerts to improve operations and security.
-- Insurance telematics and lease fleet control: mileage, idling, harsh driving and remote immobilizer capabilities support risk management and recovery.
-- Private vehicle anti-theft: compact covert installation, remote fuel/electricity cutoff and vibration/impact alarms for rapid response.
+- Commercial fleet management for route tracking, dispatch and mileage reporting
+- Public transport and school bus monitoring with door and engine status alerts for passenger safety
+- Taxi and ride hailing operations for in cab telemetry, incident alerts and operational visibility
+- Insurance and lease fleet management where mileage, idling and harsh driving data are required for risk oversight
+- Private vehicle anti theft protection using compact installation, vibration alarms and remote cutoff features
 
 ## Why Choose This Tracker with Plaspy
 
-The VT130-L is a practical choice for organizations that need a Plaspy compatible GPS tracker combining reliable real-time tracking, broad telemetry and anti-theft controls in a compact, rugged package. Plaspy users benefit from the device’s multi-constellation GNSS, dual-mode positioning and redundant server support to reduce data gaps and strengthen uptime. Telemetry from the VT130-L—mileage, ignition/ACC status, harsh driving events and impact detection—feeds Plaspy dashboards and reports to improve fleet management, safety and operational efficiency.
+The VT130-L is a practical option for organizations that need a compact, rugged GPS tracker that integrates directly with Plaspy for real time tracking, alerts and telemetry reporting. Its multi constellation GNSS positioning, onboard event detection and redundant connectivity options help maintain visibility across mixed fleets and reduce gaps in operational data.
 
-For fleets that require fuel monitoring and remote immobilizer-style interventions, the VT130-L supports remote fuel/electricity cutoff and integrates cleanly with Plaspy workflows. If your deployment uses Bluetooth sensors or other external telemetry sources, Plaspy can consolidate those inputs alongside VT130-L data to deliver a unified view of vehicle health and behavior. Together, the VT130-L and Plaspy provide a scalable, maintainable solution for real-time tracking, telemetry-driven insights and anti-theft response across mixed-vehicle fleets.
-
+If you are evaluating devices for Plaspy, the VT130-L offers a balanced set of telemetry and anti theft features that align with common fleet and passenger vehicle needs. To learn more about how Plaspy can use VT130-L data for monitoring, alerts and reporting visit https://www.plaspy.com. Product specifications and availability can change over time so please verify current technical details and compatibility on the manufacturer website https://istartek.com/.

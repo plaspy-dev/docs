@@ -2,60 +2,59 @@
 slug: /concox/wetrack_lite
 id: wetrack_lite
 sidebar_label: Wetrack Lite
+title: Concox - Wetrack Lite
 sidebar_class_name: menu_item_tracker
+description: Compact Plaspy compatible GPS tracker for discreet vehicle monitoring in fleets rentals and light logistics
+keywords:
+  - Concox Wetrack Lite
+  - Wetrack Lite
+  - Concox GPS tracker
+  - Wetrack Lite Plaspy
+  - vehicle tracker
+  - fleet tracking
+  - rental car tracking
+  - anti theft GPS
+  - mini GPS tracker
+  - real time tracking
 ---
+
 # Concox - Wetrack Lite
 
 ![Wetrack Lite](./tracker.png)
 
-The Wetrack Lite is a compact, Plaspy compatible GPS tracker designed for discreet vehicle monitoring across car rental, fleet management and light logistics applications. Its mini form, hidden LED and broad voltage tolerance make it ideal where a low-profile tracker is required—providing reliable real-time tracking and event alerts while minimizing driver awareness of the device.
+The Wetrack Lite is a compact Concox GPS tracker designed for discreet vehicle monitoring across car rental, fleet management, and light logistics applications. Its mini form factor, hidden LED, and broad voltage tolerance make it suitable where a low profile is required while still providing reliable real time tracking and event alerts. The device is intended to deliver location and status information with minimal driver awareness of the unit.
 
-The device combines GPS + BDS + LBS positioning with vehicle-focused telemetry such as ACC \(ignition\) detection, accelerometer-based movement and vibration alerts, and battery protection. When integrated with Plaspy, Wetrack Lite delivers actionable location and status data for fleet management, anti-theft workflows and operational reporting.
+As a Plaspy compatible tracker, Wetrack Lite can feed location and vehicle status data into Plaspy for unified map visualization, alerting, and reporting. Integrating this model with Plaspy provides fleet managers and rental operators with actionable position data and event notifications to support anti theft workflows, utilization analysis, and operational oversight.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker built for discreet installation and uninterrupted monitoring.
-- Multi-constellation positioning \(GPS + BDS + LBS\) with high accuracy \(\<2.5 m CEP\) for precise routing and geofencing.
-- Wide operating voltage \(9–90 VDC\) and built-in vehicle battery protection supports cars, scooters and industrial equipment.
-- Lightweight, compact form factor \(73.8 × 25.9 × 12.2 mm, 26.6 g\) suited to concealed mounting in rental and fleet vehicles.
-- Event-driven alerts: overspeed, geo-fence entry/exit, movement, abnormal vibration, battery detection and power disconnection.
-- Onboard storage buffering \(32+32 Mb\) helps preserve location and event history during temporary connectivity loss.
-- IPX5 water resistance and extended operating temperature range for reliable field performance.
+- Plaspy compatible compact GPS tracker designed for discreet vehicle monitoring and continuous oversight.
+- Multi constellation positioning with GPS BDS and LBS to support accurate location reporting.
+- Wide operating voltage and built in vehicle battery protection for flexible deployment across vehicle types.
+- Lightweight mini form factor suited to concealed mounting in rental cars scooters and light equipment.
+- Event driven alerts including overspeed geo fence movement vibration battery detection and power disconnection.
+- On device storage buffering to preserve location and event history during temporary connectivity interruptions.
 
 ## How It Works with Plaspy
 
-Wetrack Lite sends GNSS-derived locations and event packets over the cellular network to Plaspy, where the platform normalizes telemetry into live maps, alerts and historical reports. Plaspy ingests the tracker’s location, ACC/ignition status and event alerts to provide continuous real-time tracking and rule-based notifications for fleet managers and rental operators.
+When paired with Plaspy the Wetrack Lite streams location updates and event packets to the platform where data is normalized into live maps alerts and historical reports. Plaspy leverages the tracker’s position and vehicle signals to deliver continuous visibility and rule based notifications for operations teams and fleet administrators.
 
-- Real-time location and telemetry updates \(GPS + BDS + LBS\) for accurate vehicle tracking and routing.
-- Ignition \(ACC\) status reporting to detect vehicle on/off state for better utilization and idle reporting.
-- Movement, overspeed, geo-fence entry/exit and abnormal vibration alerts for anti-theft and safety workflows.
-- Vehicle battery detection and power disconnection alerts to flag tampering or drained batteries.
-- On-device storage buffering \(32+32 Mb\) to queue data during temporary GSM outages so Plaspy receives complete trip history when connectivity resumes.
+- Real time location updates for accurate vehicle tracking and route visibility on Plaspy maps.
+- Ignition and vehicle on off status reporting to support utilization and idle analysis.
+- Event alerts for movement overspeed geo fence entry and exit and abnormal vibration tied to Plaspy notification rules.
+- Battery detection and power disconnection alerts to highlight possible tampering or power issues.
+- Buffered on device storage to ensure complete trip history is available in Plaspy after temporary network outages.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM quad-band |
-| --- | --- |
-| Bands | 850 / 900 / 1800 / 1900 MHz |
-| Power & Battery | 9–90 VDC input; built-in 100 mAh / 3.7 V industrial-grade Li‑Polymer backup battery; vehicle battery protection |
-| Interfaces & Storage | Micro-SIM slot; LED indicators \(GPS blue, GSM green\); 32+32 Mb on-board data storage |
-| GNSS | GPS + BDS + LBS; positioning accuracy &lt;2.5 m CEP |
-| Sensitivity & TTFF | Tracking sensitivity −165 dBm; acquisition sensitivity −148 dBm; TTFF \(open sky\) hot start ≤1 s, cold start ≤32 s |
-| Sensors & Features | Accelerometer, ACC \(ignition\) detection, supports remote cut-off scenarios and multiple instant alerts \(movement, overspeed, vibration, power events\) |
-| Physical | Dimensions 73.8 × 25.9 × 12.2 mm; weight 26.6 g; compact mini tracker for concealed installation |
-| Environment & Protection | Operating temperature −20 °C to 70 °C; IPX5 water resistance |
-
-## Use Cases
-
-- Fleet management: live vehicle location, route optimization and ACC-based vehicle usage reporting for cars and light commercial vehicles.
-- Car rental and shared mobility: discreet installation for rental units to monitor returns, unauthorized movement and geo-fence breaches.
-- Anti-theft and recovery: immediate movement, vibration and power-disconnection alerts to speed recovery and support immobilization workflows.
-- Two-wheel and light vehicle tracking: wide voltage range and compact design for scooters, motorcycles and small industrial equipment.
-- Logistics visibility: real-time tracking and buffered telemetry for short-haul deliveries and shuttle services where continuous coverage matters.
+- Fleet management for live location tracking route oversight and ACC based usage reporting.
+- Car rental and shared mobility to monitor returns detect unauthorized movement and manage geofence breaches.
+- Anti theft and recovery workflows using movement vibration and power event alerts to speed response.
+- Two wheel and light vehicle tracking where compact size and wide voltage tolerance are needed.
+- Short haul logistics and shuttle services requiring real time visibility and buffered telemetry continuity.
 
 ## Why Choose This Tracker with Plaspy
 
-Wetrack Lite delivers a well-balanced mix of precision GNSS positioning, vehicle-focused telemetry and a near-invisible form factor—making it a practical choice for operators who need Plaspy compatible hardware that doesn’t compromise concealment. The device’s wide voltage tolerance and battery protection reduce installation constraints across diverse vehicle types, while ACC detection and accelerometer alerts feed Plaspy with the telemetry required for anti-theft protection, fleet utilization analytics and real-time operational alerts.
+Wetrack Lite combines a near invisible form factor with vehicle focused telemetry that maps well to common Plaspy workflows. Its compact design and wide voltage tolerance make it adaptable across cars scooters and light equipment while event driven alerts feed Plaspy with the signals fleet teams use for security and operational decisions.
 
-Integrating Wetrack Lite into your Plaspy deployment provides dependable real-time tracking, buffered data continuity during GSM outages, and the event-driven alerts fleet managers depend on to reduce downtime and improve security. For organizations needing a compact, rugged GPS tracker that supports core fleet telemetry and anti-theft scenarios, Wetrack Lite is a focused solution that integrates smoothly with Plaspy’s mapping, reporting and alerting workflows.
-
+To learn more about Plaspy and how compatible devices like Wetrack Lite integrate with our mapping reporting and alerting features visit https://www.plaspy.com. Product specifications availability and manufacturer details can change over time so please verify current specifications on the official Concox site https://www.iconcox.com/ before purchasing or deploying hardware.

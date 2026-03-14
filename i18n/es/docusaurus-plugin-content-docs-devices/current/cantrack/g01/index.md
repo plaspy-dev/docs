@@ -2,66 +2,61 @@
 slug: /cantrack/g01
 id: g01
 sidebar_label: G01
+title: CanTrack - G01
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto CanTrack G01 compatible con Plaspy, ubicación en tiempo real, respaldo por SMS, monitoreo de voz y alertas básicas
+keywords:
+  - CanTrack G01
+  - Rastreador GPS G01
+  - GPS CanTrack
+  - G01 compatible con Plaspy
+  - Rastreador compatible con Plaspy
+  - Rastreador GPS compacto
+  - Rastreador para seguridad personal
+  - Seguimiento de activos
+  - Seguimiento en tiempo real
+  - GPS híbrido LBS
 ---
+
 # CanTrack - G01
 
 ![G01](./tracker.jpg)
 
-# G01 Compact GPS Tracker \(Shenzhen CanTrack\)
+El G01 es un rastreador GPS compacto de Shenzhen CanTrack diseñado para la seguridad personal y la monitorización discreta de activos. Combina la localización por GPS con reporting por GSM para ofrecer actualizaciones de posición en tiempo real a servidores, además de respuestas rápidas por SMS con enlaces a Google Maps. Su formato reducido, batería de respaldo integrada y flujo de reporte sencillo lo hacen adecuado para rastrear objetos pequeños, bicicletas o personas cuando la prioridad es la simplicidad y la fiabilidad de la ubicación.
 
-El G01 es un rastreador GPS compacto, compatible con Plaspy, diseñado para la seguridad personal y el monitoreo discreto de activos. Basado en un módulo GPS + GSM/GPRS, el G01 ofrece un seguimiento en tiempo real confiable hacia servidores de Internet mediante GPRS o localización por SMS con enlaces de Google Maps. Su pequeño tamaño, la batería de respaldo y un flujo de trabajo sencillo por SMS/GPRS hacen del G01 una opción ideal para usuarios de Plaspy que requieren una localización, velocidad y telemetría de alertas directas sin complicaciones innecesarias.
+Como dispositivo compatible con Plaspy, el G01 se integra en los flujos de trabajo de Plaspy para proporcionar ubicación, velocidad y alertas de eventos sin una sobrecarga de configuración. Plaspy puede aprovechar el reporte GPRS del dispositivo para monitoreo en vivo e historial, mientras que las respuestas por SMS funcionan como un respaldo simple para la visualización inmediata de la posición. Para organizaciones que necesitan un rastreador sin complicaciones que alimente una plataforma de flotas o seguridad, el G01 es una opción práctica para evaluar junto con Plaspy.
 
-Fabricado por Shenzhen CanTrack, el G01 admite GSM cuád-band para cobertura global y ofrece características prácticas como supervisión de voz en tiempo real, alarma de exceso de velocidad y posicionamiento híbrido GPS+LBS para interiores o entornos con señal débil. Cuando se integra con Plaspy, el G01 proporciona un seguimiento en tiempo real confiable, alertas e historial para la seguridad personal, gestión básica de flotas y aplicaciones antirrobo.
+## Puntos clave
 
-## Principales características
-
-- Compatible con Plaspy: seguimiento en tiempo real vía GPRS a servidores en Internet y respuestas de ubicación por SMS para una rápida integración en paneles y alertas de Plaspy.
-- Formato compacto y ligero \(40 × 40 × 15 mm, 40 g\) para montaje discreto en personas, bicicletas y pequeños activos.
-- GSM/GPRS cuád-band \(850/900/1800/1900 MHz\) o variante de 900/1800 MHz: conectividad global para roaming y una amplia implantación.
-- Monitoreo de voz en tiempo real para escucha remota y rápida comprensión de la situación en escenarios de seguridad personal.
-- Batería de respaldo integrada para operar durante la pérdida de energía externa; admite informes de ubicación ininterrumpidos.
-- Modo híbrido GPS + LBS mejora la disponibilidad de ubicación en interiores o en entornos GNSS con señal débil.
-- Alertas de eventos y telemetría básica: alarma de sobrevelocidad, gestión de números autorizados, recuperación de contraseña y reinicio remoto.
+- Diseño compacto y ligero, apropiado para colocación discreta y uso personal
+- Seguimiento en tiempo real vía GPRS con respaldo por SMS para visualizaciones rápidas
+- Versiones GSM cuatribanda para amplia cobertura geográfica y despliegue flexible
+- Batería de respaldo incorporada para mantener reportes cuando se pierde la alimentación externa
+- Posicionamiento híbrido GPS más LBS para mejorar la disponibilidad en zonas con señal débil
+- Alertas de eventos, incluyendo alarma por exceso de velocidad y monitoreo de voz remoto para mayor conocimiento situacional
 
 ## Cómo funciona con Plaspy
 
-La integración con Plaspy es simple. El G01 puede reportar ubicación y telemetría ya sea enviando mensajes SMS que contengan enlaces de Google Maps o mediante GPRS para enviar paquetes de ubicación periódicos o por eventos a un servidor compatible con Plaspy. Plaspy puede mostrar la posición en vivo, reproducir rutas y activar alertas basadas en la alarma de sobrevelocidad del dispositivo y otras señales de eventos.
+La integración con Plaspy es sencilla: el G01 puede enviar ubicación y datos de eventos a los servidores de Plaspy mediante conexiones de datos o proporcionar respuestas por SMS con enlaces para acceso inmediato. Plaspy procesa los mensajes del dispositivo para mostrar la posición en vivo, almacenar historial y activar reglas y alertas según las señales de evento del rastreador. Esto permite a los operadores combinar la telemetría básica del G01 con las capacidades de mapeo, reportes y notificaciones de Plaspy.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía GPRS a los servidores de Plaspy, o respuestas por SMS con enlaces de Google Maps para una visualización inmediata.
-- Los payloads de posición incluyen latitud/longitud, marca temporal, velocidad e IMEI del dispositivo—fácilmente consumidos por Plaspy para mapeo e informes.
-- Las alertas soportadas por el dispositivo \(p. ej., alarma de sobrevelocidad\) se envían como notificaciones que puedes mapear a eventos y reglas de Plaspy.
-- El monitoreo de voz en tiempo real permite a usuarios autorizados de Plaspy escuchar de forma remota para verificación de seguridad \(proceso de llamada y monitoreo\).
-- El modo híbrido GPS + LBS mejora la disponibilidad en edificios o cañones urbanos; Plaspy utilizará cualquiera de las fuentes de posición que proporcione el dispositivo.
+- Actualizaciones de ubicación en vivo e informes periódicos de posición enviados a Plaspy para mapeo y monitoreo
+- Respuestas de ubicación por SMS con enlaces a Google Maps para comprobaciones manuales rápidas cuando no hay datos
+- Alertas basadas en eventos, como notificaciones por exceso de velocidad, integradas en las reglas y notificaciones de Plaspy
+- Reproducción de rutas e historial almacenado en Plaspy para revisión y generación de reportes posteriores a un evento
+- Soporte para monitoreo de voz remoto como parte de los flujos de trabajo de seguridad en Plaspy
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | G01 |
-| --- | --- |
-| Fabricante / Marca | Shenzhen CanTrack |
-| Conectividad | GSM / GPRS / GPS |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(quad-band\) o variante de 900 / 1800 MHz |
-| Módulo GPS | 2503 |
-| Sensibilidad GPS | -159 dBm |
-| Precisión GPS | Aproximadamente 5 m |
-| TTFF | Frío 45 s · Templado 35 s · Caliente 1 s |
-| Dimensiones y peso | 40 × 40 × 15 mm · 40 g |
-| Alimentación y batería | Batería de respaldo integrada para operar durante la pérdida de energía externa |
-| Temperatura de funcionamiento | -20°C a +55°C |
-| Temperatura de almacenamiento | -40°C a +85°C |
-| Humedad | 5%–95% |
-| Empaque y entrega | Unidades individuales; el paquete ~15 × 15 × 10 cm; peso bruto ~0.2 kg; plazo de entrega típico 3–5 días para pequeñas cantidades |
-
-## Casos de uso
-
-- Monitoreo de niños y personas mayores: rastreador GPS personal discreto para actualizaciones de ubicación, alertas de exceso de velocidad \(en tránsito\) y monitoreo de voz remoto para verificar el bienestar.
-- Antirrobo para motocicletas, scooters y bicicletas: perfil reducido para montaje oculto, seguimiento en tiempo real a Plaspy para recuperación rápida y reproducción de rutas.
-- Seguimiento de flotas ligeras o activos de alquiler: capacidades básicas de gestión de flotas—historial de posiciones, telemetría simple y alertas para ayudar a gestionar alquileres de pequeña escala o vehículos compartidos.
-- Gestión de personal para equipos en campo: rastreador compacto para comprobación de seguridad de trabajadores aislados, historial de ubicación y escucha de emergencia mediante monitoreo de voz.
+- Monitoreo de ubicación de niños y personas mayores y comprobaciones básicas de seguridad con capacidad de escucha remota
+- Rastreo antirrobo para motocicletas, scooters y bicicletas con colocación discreta y apoyo en recuperación
+- Monitoreo de flotas ligeras o activos en alquiler donde el historial de posición y las alertas sencillas son suficientes
+- Seguimiento de trabajadores solitarios o personal en campo para comprobaciones básicas de bienestar y escucha en emergencias
+- Rastrear equipos pequeños y activos portátiles durante transporte o almacenamiento para mayor visibilidad
 
 ## Por qué elegir este rastreador con Plaspy
 
-El G01 combina capacidad práctica con una integración simple en Plaspy para un seguimiento rentable y confiable. Su combinación de informes en tiempo real por GPRS y respaldo por SMS ofrece conectividad flexible: Plaspy puede recibir telemetría continua para monitoreo en vivo o confiar en respuestas por enlace SMS cuando las redes de datos no están disponibles. El tamaño reducido del dispositivo, la batería de respaldo y el modo híbrido GPS+LBS lo hacen especialmente adecuado donde la ocultación, la resistencia y la localización en interiores son importantes.
+El G01 es una buena alternativa cuando necesita un rastreo fiable y sin complicaciones que se integre con una plataforma moderna de monitoreo como Plaspy. Su combinación de reporte por GPRS y respaldo por SMS ofrece flexibilidad operativa: telemetría continua para supervisión en vivo y enlaces SMS simples para verificaciones inmediatas. La batería de respaldo incorporada y el posicionamiento híbrido lo hacen práctico para aplicaciones donde la discreción y la disponibilidad son más importantes que la telemetría avanzada.
 
-Shenzhen CanTrack admite personalización OEM y despliegue de plataformas privadas; por lo tanto, si su implementación de Plaspy requiere telemetría adicional \(por ejemplo, detección de encendido, control de inmovilizador o monitoreo de combustible\), puede discutir opciones de hardware o firmware a medida. El G01 ofrece por sí mismo las funciones básicas que la mayoría de los clientes de Plaspy necesitan: seguimiento GPS confiable, alertas de eventos y monitoreo de voz, todo en un paquete compacto certificado CE, con disponibilidad rápida de muestras y opciones de envío flexibles.
+Para equipos y operadores pequeños que desean un dispositivo compacto que se conecte a Plaspy para mapeo, alertas e historial, el G01 brinda las capacidades básicas que requieren la mayoría de los proyectos sin añadir complejidad. Si necesita funciones adicionales o personalizaciones a gran escala, revise las opciones de hardware o despliegue disponibles y discútalas con su equipo de implementación.
 
+Para saber más sobre Plaspy y cómo puede usarse el G01 en sus flujos de trabajo de seguimiento visite https://www.plaspy.com. Las especificaciones y la disponibilidad de producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en el sitio del fabricante https://www.cantrackgps.com/ antes de tomar decisiones finales de compra.

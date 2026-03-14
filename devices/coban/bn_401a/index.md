@@ -2,63 +2,62 @@
 slug: /coban/bn_401a
 id: bn_401a
 sidebar_label: BN-401A
+title: Coban - BN-401A
 sidebar_class_name: menu_item_tracker
+description: Compact Plaspy compatible motorcycle GPS tracker with LTE connectivity anti theft alarms remote immobilizer and smart reporting
+keywords:
+  - Coban BN-401A
+  - BN-401A
+  - BN 401A tracker
+  - motorcycle GPS tracker
+  - motorcycle tracker
+  - Plaspy compatible
+  - fleet tracking
+  - GPS tracking device
+  - anti theft tracker
+  - remote immobilizer
 ---
+
 # Coban - BN-401A
 
 ![BN-401A](./tracker.png)
 
-BN-401A
+The BN-401A is a compact motorcycle management terminal designed for reliable real time tracking and basic fleet control on scooters, motorcycles and other small vehicles with a 12–24V electrical system. Its low profile form factor and focused feature set provide positioning, movement and shock alarms, SOS signaling and ignition status reporting, making it a practical choice for two wheel vehicle operations. Built for LTE 4G connectivity with GSM fallback and multiple transport methods, the BN-401A is engineered to deliver continuous tracker functionality in a small package.
 
-The BN-401A is a compact LTE \(4G\) motorcycle management terminal engineered for simple installation and reliable Plaspy compatible real-time tracking. Designed for scooters, motorcycles and other small vehicles with a 12–24V electrical system, the BN-401A provides continuous GPS tracker functionality, anti-theft alarms and fleet management basics in a low-profile package. Its 4G connectivity with GSM/GPRS fallback and TCP/UDP/SMS transport options make it straightforward to integrate with Plaspy for live location, alerts and basic telemetry.
-
-Plaspy compatible out of the box, the BN-401A delivers the signals and event data fleet operators expect: positioning, ACC/ignition status, movement and shock alarms, SOS, geo-fence events and remote immobilization \(power/fuel cut-off\). Bluetooth is included for fast on-site configuration, and the device supports configurable reporting strategies to minimize data use when stationary while keeping alarms and critical events available for immediate transmission to Plaspy.
+As a Plaspy compatible device out of the box, the BN-401A can feed location and event data directly into Plaspy for live mapping, alerts and fleet oversight. Its configurable reporting modes and anti theft features such as remote immobilization make it suitable for fleet operators who need to balance frequent updates while minimizing data use when vehicles are stationary. Local configuration via Bluetooth and support for standard setup commands simplify onboarding and deployment within a Plaspy managed fleet.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker optimized for motorcycles and small vehicles — easy to install and conceal.
-- Real-time tracking over LTE \(4G\) with GSM/GPRS fallback and TCP/UDP/SMS transport for resilient connectivity.
-- Anti-theft and fleet management alarms: SOS, movement/shock detection, overspeed, ACC ignition and low-battery alerts.
-- Remote immobilizer capability with fuel and power cut-off to support secure vehicle immobilization policies.
-- Smart reporting modes to conserve bandwidth: frequent updates in motion, reduced reporting when stationary, with alarms forcing online reporting.
-- Bluetooth for local configuration and fast deployment without complex wiring or external programming tools.
-- Compact, lightweight form factor designed for discreet mounting on two-wheel vehicles.
+- Plaspy compatible GPS tracker optimized for motorcycles and small vehicles with a compact discreet form factor.
+- LTE 4G connectivity with GSM fallback and support for TCP UDP and SMS transport for resilient data delivery.
+- Anti theft and fleet alarms including SOS movement and shock detection overspeed and ACC ignition status.
+- Remote immobilizer capability for fuel or power cut off to support secure vehicle immobilization policies.
+- Smart reporting modes that increase update frequency in motion and reduce reporting when stationary while keeping alarms immediate.
+- Bluetooth support for on site configuration and straightforward deployment without extensive tools.
 
 ## How It Works with Plaspy
 
-The BN-401A transmits GNSS position and event telemetry to Plaspy using standard transport methods \(TCP, UDP or SMS\). Once added to a Plaspy fleet, the device sends real-time location updates, status changes and alarm events that Plaspy uses for live maps, alerts, reporting and history playback. Configurable reporting intervals and an intelligent offline mode allow you to balance update frequency and data usage while keeping safety and anti-theft alerts immediate.
+The BN-401A transmits GNSS position and event telemetry to Plaspy using standard transport methods so Plaspy can present live locations, alerts and historical playback. Once the device is added to a Plaspy fleet, its status updates and alarm messages are available for dashboard monitoring, automated notifications and operational reporting. Configurable reporting strategies let you tune the balance between update cadence and data use while keeping safety related events prioritized.
 
-- Real-time location and telemetry updates delivered to Plaspy for live tracking and track playback.
-- ACC/ignition status, ACC working notification and ignition alarms for fleet operation insight.
-- Low-battery alarm and external power disconnection alarm to detect tampering or power issues early.
-- Remote immobilizer support \(remote fuel and power cut-off\) to disable a vehicle when required.
-- Emergency/SOS alarm, movement alarm, overspeed alarm and shock detection forwarded as Plaspy alerts.
-- Bluetooth available for local configuration; device supports SMS setup commands and protocol integration for Plaspy onboarding.
+- Real time location and track playback in Plaspy for vehicle visibility and route review.
+- Alarm forwarding for SOS movement shock overspeed and low power events to trigger Plaspy alerts and notifications.
+- ACC and ignition status reporting to reflect vehicle activity and support operational rules within Plaspy.
+- Remote immobilizer commands and status tracked through Plaspy for coordinated response to theft or misuse.
+- Configurable reporting that reduces idle data use while ensuring critical events are sent immediately.
+- Bluetooth and SMS based configuration options assist with on site setup and Plaspy onboarding.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE \(4G\) with GSM/GPRS fallback; supports TCP, UDP and SMS transport protocols |
-| --- | --- |
-| Bands | Regional LTE band sets: Latin America B2/B3/B4/B5/B7/B8/B28A/B28B; North America B2/B4/B5/B7/B12/B13/B66/B28A; Eurasia/Africa B1/B3/B5/B7/B8/B20/B28A/B40 |
-| Power & Battery | Vehicle supply 12–24V; internal rechargeable backup battery 3.7V 90 mAh |
-| Operating Conditions | Operating -20°C to +45°C; storage -40°C to +85°C; humidity 5%–95% non-condensing |
-| Interfaces | ACC status sensing input; external harness for relay control and accessories \(siren, SOS button, extension harness\); supports remote fuel/power cut-off |
-| GNSS | High-precision GNSS receiver; GPS sensitivity -165 dBm; positioning accuracy ≈5 m; cold start ~45 s, warm ~35 s, hot ~1 s |
-| Bluetooth | Integrated Bluetooth for local configuration \(not listed as a general BLE sensor hub\) |
-| Remote Management | SMS setup commands supported; full protocol and configuration documented in downloadable manuals and installation videos |
-| Form Factor | Compact unit 6.78 x 4.1 x 2.15 cm; weight 58 g — designed for motorcycle/scooter mounting |
-
-## Use Cases
-
-- Fleet management for motorcycle couriers and delivery scooters — real-time tracking, route playback and overspeed monitoring.
-- Anti-theft protection for personal and commercial two-wheel vehicles — movement/shock detection, SOS alarm and remote immobilizer.
-- Operational telemetry for small vehicle fleets — ignition \(ACC\) notifications, low-battery and power-cut alerts to reduce downtime.
-- Quick-deploy installations where low profile and easy configuration matter — Bluetooth-assisted setup and simple harness connections for relays and SOS buttons.
-- Use in mixed-regional deployments — multiple LTE band variants to support regional network compatibility.
+- Fleet management for motorcycle couriers and delivery scooters requiring live tracking and route playback.
+- Anti theft protection for personal and commercial two wheel vehicles with movement detection and remote immobilization.
+- Operational oversight for small vehicle fleets with ignition notifications and power or battery alerts.
+- Quick deployment scenarios where compact size and Bluetooth configuration speed up installations.
+- Mixed regional deployments that benefit from regional LTE band variants and fallback connectivity.
 
 ## Why Choose This Tracker with Plaspy
 
-When you need a Plaspy compatible GPS tracker tailored to motorcycles and small vehicles, the BN-401A offers a pragmatic balance of reliability, size and key anti-theft/fleet features. Its LTE connectivity with GSM fallback and support for TCP/UDP/SMS ensures robust data delivery to Plaspy for real-time tracking, alerts and telemetry. The built-in backup battery and configurable reporting modes help maintain continuity and optimize data usage, while inputs for ACC and external relay control enable ignition-aware monitoring and remote immobilizer actions such as fuel or power cut-off.
+The BN-401A is a pragmatic choice when you need a compact, Plaspy compatible tracker tailored to motorcycles and small vehicles. Its combination of real time connectivity, alarm features and configurable reporting make it useful for operators who want reliable visibility and basic remote control without a large or complex device footprint. The inclusion of local configuration options helps reduce installation time and ongoing maintenance for field crews.
 
-For fleet managers and service providers, the BN-401A simplifies on-the-ground setup via Bluetooth configuration and documented SMS/command protocols, reducing installation time and support overhead. Use it with Plaspy to centralize GPS tracker data, build live dashboards, automate anti-theft responses and manage small-vehicle fleets with dependable, cost-conscious telemetry and control.
+For fleet managers and service providers using Plaspy, the BN-401A brings the core signals needed for real time monitoring, anti theft workflows and routine operational reporting. Its design focuses on continuity, discreet mounting and the event types that matter for two wheel fleets, making it a sensible addition to a Plaspy managed tracking deployment.
 
+Learn more about Plaspy and how compatible devices like the BN-401A work with the platform at https://www.plaspy.com. Product specifications and manufacturer details can change over time, so please verify the current specifications and regional variants on the official Coban site https://www.coban.net/.

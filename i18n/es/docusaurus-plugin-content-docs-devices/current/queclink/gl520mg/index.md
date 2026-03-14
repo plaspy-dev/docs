@@ -2,62 +2,62 @@
 slug: /queclink/gl520mg
 id: gl520mg
 sidebar_label: GL520MG
+title: QuecLink - GL520MG
 sidebar_class_name: menu_item_tracker
+description: Rastreador QuecLink GL520MG resistente e impermeable con batería de larga duración y compatibilidad con Plaspy para monitoreo fiable
+keywords:
+  - QuecLink GL520MG
+  - rastreador GL520MG
+  - GL520MG Plaspy
+  - rastreador de activos QuecLink
+  - GL520MG GPS
+  - GL520MG impermeable
+  - GL520MG batería de larga duración
+  - GL520MG sensor de temperatura
+  - GL520MG acelerómetro
+  - seguimiento de flotas GL520MG
 ---
+
 # QuecLink - GL520MG
 
 ![GL520MG](./tracker.png)
 
-El Queclink GL520MG es un rastreador GPS impermeable y de larga duración, diseñado para el monitoreo de activos con bajo mantenimiento y detección ambiental. Compatible con Plaspy desde fábrica, el GL520MG combina una batería de varios años y una protección robusta IP67 con conectividad LTE Cat M1 / NB2 y respaldo a 2G, ofreciendo seguimiento en tiempo real y telemetría confiables para activos estáticos y móviles.
+El QuecLink GL520MG es un rastreador GPS robusto e impermeable, pensado para el monitoreo de activos con bajo mantenimiento y la detección ambiental. Diseñado para operar durante largos periodos, el GL520MG combina una batería de alta autonomía y protección IP67 con conectividad celular y sensores integrados para ofrecer reportes de posición confiables, lecturas de temperatura y luz, y detección de movimiento en activos tanto estáticos como móviles.
 
-Diseñado para despliegues a gran escala donde las ventanas de mantenimiento son limitadas, el GL520MG ofrece posicionamiento GNSS preciso, sensores a bordo de temperatura y luminosidad para detección de manipulación y un acelerómetro de 3 ejes para alertas de movimiento. Cuando se integra con Plaspy, este rastreador se convierte en una solución llave en mano para la gestión de flotas, logística de cadena de frío, visibilidad de activos en almacenes y monitoreo seguro de activos de alto valor.
+Como dispositivo compatible con Plaspy desde su configuración inicial, el GL520MG puede enviar ubicación y telemetría a la plataforma de gestión de flotas y activos de Plaspy con una configuración mínima. Sus características de larga espera, detección de manipulación y posicionamiento confiable lo convierten en una opción práctica para despliegues a gran escala donde reducir el mantenimiento de campo y mantener visibilidad constante son prioridades.
 
-## Aspectos destacados
+## Características principales
 
-- Rastreador GPS compatible con Plaspy con conectividad LTE Cat M1 y NB2, y respaldo EGPRS \(2G\) para una cobertura amplia.
-- Extrema duración de la batería — operación en modo de espera multi‑año \(hasta siete años bajo perfiles de reporte conservadores\).
-- Caja impermeable con clasificación IP67 y protección resistente, con carcasa magnética opcional para montaje flexible en superficies metálicas.
-- Módulo GNSS interno u‑blox para posicionamiento de alta precisión \(CEP autónomo \< 2.5 m\) y TTFF rápido.
-- Sensores integrados: temperatura y luz para monitoreo ambiental y detección de manipulación, además de un acelerómetro de 3 ejes para detección de movimiento.
-- Gran búfer de mensajes \(hasta 10,000 mensajes\), LEDs visibles de GNSS/estado y confirmación por vibración para operaciones de campo simples.
-- Soporte de protocolo Queclink \(@Track\), transporte TCP/UDP/SMS, compatibilidad con geocerca y generación de informes inteligentes para optimizar el consumo de energía.
+- Rastreador compatible con Plaspy que ofrece amplia cobertura celular mediante LTE Cat M1 y NB2, con 2G como respaldo para mayor alcance.
+- Batería de varios años adecuada para despliegues de bajo mantenimiento y reportes con intervalos largos.
+- Carcasa impermeable con certificación IP67 y opción de carcasa magnética para fijación a superficies metálicas.
+- Sensores ambientales y de seguridad a bordo, incluyendo sensor de temperatura y de luz, además de un acelerómetro de 3 ejes para alertas de movimiento.
+- Posicionamiento GNSS de alta precisión y amplio buffer interno de mensajes para preservar datos cuando la conectividad es intermitente.
+- Indicadores visuales de estado y confirmación por vibración para simplificar las verificaciones en campo y la manipulación del equipo.
+- Soporte del protocolo Queclink y opciones flexibles de transporte de datos para integrarse con flujos de trabajo telemétricos existentes.
 
 ## Cómo funciona con Plaspy
 
-Cuando está conectado a Plaspy, el GL520MG transmite determinaciones de posición, telemetría de sensores y eventos de estado a la plataforma a través de canales TCP/UDP y SMS. Plaspy ingiere los mensajes formateados por Queclink del GL520MG, normaliza la telemetría y expone ubicación, temperatura, movimiento y estado del dispositivo en paneles, alertas e informes para los equipos operativos.
+Al conectarse a Plaspy, el GL520MG envía posiciones, lecturas de sensores y estado del dispositivo a la plataforma, donde los datos se normalizan, visualizan y hacen accionables. Plaspy procesa la telemetría entrante para ofrecer visibilidad en tiempo real, reportes históricos y alertas que los equipos operativos pueden usar para supervisar activos y responder a eventos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy vía TCP/UDP o SMS.
-- Alertas de movimiento y manipulación procedentes del acelerómetro de 3 ejes y del sensor de luz activan notificaciones y flujos de trabajo en Plaspy.
-- Telemetría de temperatura para la cadena de frío y monitoreo ambiental se envía a Plaspy para alertas por umbral y tendencias históricas.
-- Salud del dispositivo y estado de la energía \(alertas de batería baja, informes de activación\) aparecen en el inventario de dispositivos de Plaspy y en las colas de mantenimiento.
-- Eventos de geocerca \(hasta 20 regiones admitidas en el dispositivo\) crean disparadores automáticos en Plaspy para gestión de rutas, anti‑robo y flujos de cumplimiento.
+- Actualizaciones de ubicación y telemetría en tiempo real aparecen en los paneles de Plaspy para una conciencia operativa inmediata.
+- Las alertas de movimiento y manipulación detectadas por el acelerómetro y el sensor de luz disparan notificaciones y flujos de trabajo automatizados en Plaspy.
+- La telemetría de temperatura se reenvía a Plaspy para alertas por umbral, gráficos de tendencia y monitoreo de cadena de frío.
+- Indicadores de salud del dispositivo como estado de batería y conectividad se muestran en las vistas de inventario y mantenimiento de Plaspy.
+- Los eventos de geocerca generados en el dispositivo pueden activar reglas en Plaspy para ruteo, acciones anti robo y registro de cumplimiento.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE Cat M1 \(eMTC\) y Cat NB2 \(NB-IoT\) con respaldo EGPRS \(2G\) |
-| --- | --- |
-| Bands | Múltiples bandas LTE-FDD y cobertura regional NB2; EGPRS 850/900/1800/1900 MHz |
-| Powers & Battery | Tres baterías de litio CR123A \(total 1,400 mAh\); corriente en espera \< 8 µA; duración estimada en espera: ~5 años con GNSS habilitado \(1 informe/día\), hasta 7 años usando únicamente ID de celda \(1 informe/día\) dependiendo de la red y las condiciones |
-| Interfaces | Antenas LTE y GNSS internas; transporte de datos TCP/UDP/SMS; comandos de protocolo Queclink \(@Track\); informes programados; informes de activación y batería baja; soporte de geocerca \(hasta 20 regiones\) |
-| GNSS | Módulo GNSS interno u‑blox; precisión autónoma \< 2.5 m CEP; sensibilidad: autónoma −147 dBm, seguimiento −162 dBm; TTFF rápido |
-| Bluetooth | No soportado \(no se reporta BLE\) |
-| Gestión remota | Configuración y comandos remotos vía protocolo Queclink; informes programados y ajustes inteligentes de frecuencia de informes para conservar la batería |
-| Form factor | Rastreador compacto para activos: 87 × 51 × 30 mm \(87 × 51 × 33,5 mm con carcasa magnética\); peso 140 g \(160 g con carcasa magnética\); clasificación IP67 |
-| Memoria | Búfer interno de hasta 10,000 mensajes |
-| Rango de operación | Temperatura de operación −20°C a +60°C |
-| Certificaciones | FCC, Verizon, PTCRB, AT&T, T‑Mobile, CE |
-
-## Casos de uso
-
-- Logística de cadena de frío: monitoreo de temperatura y seguimiento de posición para envíos y pallets refrigerados.
-- Protección de activos de alto valor estáticos: larga vida en espera y detección de manipulación para equipos al aire libre, contenedores y activos en sitio.
-- Seguimiento de pallets y contenedores: carcasa robusta y carcasa magnética opcional para fijación fácil a activos metálicos.
-- Visibilidad de almacén e inventario: informes programados y detección de movimiento para rastrear movimientos de stock sin cambios frecuentes de batería.
-- Flotas de activos: rastreo de remolques, equipo y activos no alimentados que requieren operación de batería multi‑anual y telemetría confiable.
+- Logística de cadena de frío donde se requiere monitoreo de temperatura y seguimiento de posición para envíos y pallets.
+- Protección de activos estáticos de alto valor en exteriores, como equipos, contenedores e infraestructura de sitio, con necesidad de larga autonomía.
+- Rastreo de pallets y contenedores empleando embalaje resistente y montaje magnético opcional para facilitar la sujeción.
+- Visibilidad en almacenes e inventarios mediante reportes programados y detección de movimiento para reducir revisiones manuales.
+- Seguimiento de activos de flota como remolques, equipos y elementos no motorizados que se benefician de operación con batería de varios años.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GL520MG es un rastreador GPS altamente eficiente que escala para despliegues a gran escala donde la duración de la batería, la robustez y la conectividad celular confiable son importantes. Como rastreador compatible con Plaspy, se integra sin problemas a los flujos de trabajo de seguimiento y telemetría en tiempo real de Plaspy, proporcionando fijaciones GNSS precisas, datos de temperatura y movimiento, al tiempo que minimiza la carga de mantenimiento. Esta combinación respalda la gestión de flotas y la visibilidad de activos, al mismo tiempo que habilita alertas anti‑robo e informes operativos sin necesidad de frecuentes visitas de campo.
+El GL520MG es una opción práctica para organizaciones que necesitan rastreadores duraderos y de bajo mantenimiento en despliegues a gran escala. Su combinación de carcasa impermeable, batería de larga duración y sensores integrados de temperatura y movimiento lo hace ideal para programas de visibilidad de activos donde el servicio frecuente en campo es costoso o poco práctico. En conjunto con Plaspy, el GL520MG forma parte de una vista operativa más amplia, aportando posiciones y telemetría confiables que soportan reportes, alertas y automatización de flujos de trabajo.
 
-Si bien el GL520MG se centra en telemetría de larga duración como temperatura, movimiento y detección de manipulación, Plaspy puede agregar sus datos junto con otros dispositivos que ofrecen capacidades adicionales — por ejemplo, eventos de encendido o inmovilizador, monitoreo de combustible o sensores Bluetooth — proporcionando a los equipos de operaciones una única vista para un control integral de activos. Elija el GL520MG con Plaspy cuando necesite posicionamiento preciso, clasificaciones de carcasa robustas, certificaciones celulares probadas y reportes optimizados para consumo de energía en despliegues multianuales.
+Como el GL520MG está enfocado en telemetría de larga duración —posición, temperatura y movimiento— es especialmente apto para equipos que requieren visibilidad persistente con un mínimo de mantenimiento. Plaspy puede agregar datos del GL520MG junto con otros tipos de dispositivos, ofreciendo a los equipos una única plataforma para gestionar flotas mixtas y diversas clases de activos mientras se mantiene baja la carga de mantenimiento.
 
+Para obtener más información sobre Plaspy y cómo integrar dispositivos GL520MG en sus flujos de trabajo de rastreo visite https://www.plaspy.com. Las especificaciones y la disponibilidad de productos pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales del dispositivo y la documentación oficial en el sitio del fabricante https://www.queclink.com/.

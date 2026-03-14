@@ -2,24 +2,60 @@
 slug: /concox/gt350
 id: gt350
 sidebar_label: GT350
+title: Concox - GT350
 sidebar_class_name: menu_item_tracker
+description: Compact Concox GT350 personal GPS tracker with long standby, SOS, geofence and voice monitoring compatible with Plaspy for reliable location oversight
+keywords:
+  - Concox GT350
+  - GT350 GPS tracker
+  - Concox personal tracker
+  - GT350 Plaspy compatibility
+  - personal GPS tracking
+  - lone worker safety
+  - GPS geofence alert
+  - SOS GPS device
+  - travel safety tracker
+  - Concox location device
 ---
+
 # Concox - GT350
 
 ![GT350](./logo.jpg)
 
-The GT350 Personal GPS Tracker from Concox is a compact and reliable device designed for individuals who require constant tracking and monitoring. Whether you are an inspector, traveler, or outworker, this GPS tracker is the perfect companion to ensure your safety and peace of mind. One of the standout features of the GT350 is its long stand-by time, allowing you to use it for extended periods without the need for frequent recharging.
+The Concox GT350 is a compact personal GPS tracker designed for people who need continuous location monitoring. It targets users such as inspectors, travelers, and outworkers, delivering a balance of portability and durability. Key features highlighted by the manufacturer include long stand-by time for extended use, emergency tracking for quick response, geofencing with instant notifications, voice monitoring for situational awareness, and an SOS alarm for critical situations.
 
-This Personal GPS Tracking Device offers a wide range of functions to cater to your specific needs. In case of emergencies, you can rely on the GT350 to provide accurate and real-time tracking information, ensuring that help can reach you quickly. The geo-fence feature allows you to set virtual boundaries, and you will receive instant notifications whenever the tracker crosses these boundaries. Additionally, the voice monitoring feature enables you to listen in on the surroundings of the tracker, providing an extra layer of security.
+As a Plaspy compatible device, the GT350 can be integrated into a centralized monitoring workflow to provide visibility and alerts where personal safety and situational awareness matter. Plaspy can receive the GT350 location and event data to present live positions, forward geofence and SOS notifications, and keep historical records for review. This makes the GT350 a practical option when you want compact personal tracking combined with Plaspy's operational oversight and reporting capabilities.
 
-The GT350 also comes equipped with an SOS alarm, which can be activated in critical situations to alert your designated contacts. This feature can be a lifesaver in times of distress or danger. With its compact size and durable construction, the GT350 is designed to withstand the rigors of everyday use, making it an ideal choice for individuals who are always on the move.
+## Key Highlights
 
-Key Features:
+- Compact form factor suitable for personal carry and mobile staff
+- Long stand by time supports extended field use without frequent recharging
+- Emergency tracking capability to help responders locate a user quickly
+- Geo-fence functionality with notifications when boundaries are crossed
+- Voice monitoring option for added situational awareness
+- Built in SOS alarm to alert designated contacts in critical scenarios
+- Durable construction intended for everyday use in mobile environments
 
-- Long stand-by time for extended use
-- Emergency tracking for quick response
-- Geo-fence boundary crossings with instant notifications
-- Voice monitoring for added security
-- SOS alarm for critical situations
-- Compact and durable design
+## How It Works with Plaspy
 
+When used with Plaspy, the GT350 becomes part of a unified monitoring and alerting environment that helps organizations track personnel and respond to incidents more effectively. Plaspy can aggregate location updates and events from GT350 units and surface them in dashboards, maps, and alert feeds.
+
+- Live location display for monitored devices within the Plaspy platform
+- Geofence alerts forwarded to Plaspy so teams can be notified of boundary crossings
+- SOS event forwarding to escalate critical alerts to designated operators
+- Event history and position logs available for review in Plaspy reporting
+- Centralized visibility for dispersed personnel to support operational oversight
+
+## Typical Use Cases
+
+- Safety monitoring for inspectors and field auditors working alone
+- Travel security for staff and contractors in transit or remote locations
+- Lone worker protection where quick emergency response is required
+- Temporary tracking for short term assignments or site visits
+- Personal security for travelers and vulnerable individuals in the field
+
+## Why Choose This Tracker with Plaspy
+
+The GT350 is a sensible choice for organizations that need a straightforward personal tracker with safety focused features. Its compact and durable design, combined with long stand by time and dedicated emergency functions, matches common requirements for lone worker safety and mobile staff monitoring. Using the GT350 with Plaspy lets teams centralize alerts and location information so they can maintain situational awareness across personnel without managing multiple point solutions.
+
+If you want broader operational visibility and consolidated reporting, pairing the GT350 with Plaspy provides a practical path to consistent monitoring and alerting. Learn more about how Plaspy can support personal and fleet tracking on the main website https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current technical information on the official Concox website https://www.iconcox.com/.

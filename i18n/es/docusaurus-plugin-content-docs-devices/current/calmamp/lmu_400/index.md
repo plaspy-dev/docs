@@ -2,19 +2,63 @@
 slug: /calmamp/lmu_400
 id: lmu_400
 sidebar_label: LMU-400
+title: CalmAmp - LMU-400
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto con batería de respaldo, reglas de evento avanzadas y gestión remota compatible con Plaspy
+keywords:
+  - CalmAmp LMU-400
+  - rastreador LMU-400
+  - rastreador GPS CalmAmp
+  - LMU-400 compatible Plaspy
+  - dispositivo de rastreo vehicular
+  - rastreo de flotas
+  - recuperación de vehículos robados
+  - gestión PULS
+  - motor de eventos PEG
+  - seguimiento automotriz
 ---
+
 # CalmAmp - LMU-400
 
 ![LMU-400](./logo.jpg)
 
-El rastreador GPS CalmAmp LMU-400 es un dispositivo completo de seguimiento de vehículos diseñado para una instalación fácil y confiable en automóviles. Es una solución ideal para aplicaciones de seguimiento de vehículos robados, financiamiento de vehículos, alquiler de automóviles y otras aplicaciones automotrices que requieren una batería de reserva interna.
+El CalmAmp LMU-400 es un dispositivo de rastreo vehicular compacto y rentable, diseñado para automóviles. Combina un rendimiento GPS sólido con un factor de forma reducido y una batería interna de respaldo para ofrecer localización confiable y funcionamiento continuo durante interrupciones de energía. El LMU-400 admite reglas de evento configurables e incluye características como detección de movimiento opcional, un zumbador integrado y un relé de corte de arranque para cubrir diversas necesidades de seguimiento automotriz.
 
-El LMU-400 cuenta con un tamaño compacto y ofrece un rendimiento superior de GPS. Además, cuenta con una batería de reserva interna de 200 mAh, modos de suspensión de energía ultra baja, un acelerómetro de 3 ejes opcional para detectar el movimiento, un zumbador integrado y un relé de interrupción de arranque. Este dispositivo utiliza la tecnología GPS de alta sensibilidad en redes celulares GSM/GPRS/CDMA 1xRTT y HSPA, lo que permite su instalación en vehículos móviles de 12 o 24 voltios. Las antenas internas de calidad para celulares y GPS eliminan la necesidad de antenas con cable, lo que facilita y abarata la instalación en cualquier parte del vehículo.
+Como dispositivo compatible con Plaspy, el LMU-400 se puede integrar en los flujos de monitoreo y rastreo de Plaspy para ofrecer visibilidad en tiempo real y supervisión operativa. Sus capacidades de gestión remota y el soporte para configuración por aire lo convierten en una opción práctica para flotas y proveedores de servicio que requieren administrar y actualizar equipos sin acceso físico constante.
 
-La comunicación entre el dispositivo y los servidores de aplicaciones se realiza a través de la red celular utilizando mensajes SMS o mensajes UDP, lo que garantiza un enlace de comunicación confiable. El LMU-400 está diseñado para reducir el costo de propiedad, el consumo de energía y el tamaño, al tiempo que ofrece una excelente confiabilidad en el campo.
+## Características principales
 
-La flexibilidad es una característica destacada de la LMU-400, ya que emplea el avanzado motor de alertas de CalAmp, PEG \(Programmable Event Generator\), que permite supervisar las condiciones externas y establecer reglas basadas en excepciones definidas por el cliente. PEG monitorea el entorno del vehículo y responde instantáneamente a las condiciones predefinidas relacionadas con el tiempo, la fecha, el movimiento, la ubicación, la zona geográfica, las entradas y otras combinaciones de eventos. Este comportamiento puede ser programado antes del envío, en las instalaciones del cliente o a través de actualizaciones por aire una vez que el dispositivo esté en funcionamiento.
+- Factor de forma compacto, apto para instalaciones flexibles en vehículos de 12 o 24 voltios
+- Batería interna de respaldo de 200 mAh para mantener la operación ante cortes de energía
+- Rendimiento GPS robusto con antenas internas integradas para una instalación simplificada
+- Acelerómetro de 3 ejes opcional para detección de movimiento y actividad
+- Zumbador incorporado y relé de corte de arranque para mayor control y opciones de recuperación
+- Motor de eventos PEG a bordo para reglas de alerta programables y monitoreo por excepciones
+- Soporte para programación remota y gestión de firmware vía CalAmp PULS
 
-El LMU-400 también se beneficia del sistema de mantenimiento y gestión de CalAmp, Puls \(Programming, Updates, and Logistics System\), que permite la configuración de parámetros, reglas de PEG y actualizaciones de firmware a través del aire. Esta funcionalidad de configuración y actualización automática posterior a la instalación permite monitorear el estado de salud de las flotas de los clientes y detectar problemas antes de que se conviertan en costosos.
+## Cómo funciona con Plaspy
 
+Al conectarse a Plaspy, el LMU-400 entrega información de ubicación y estado que la plataforma utiliza para mostrar mapas en vivo, rutas históricas y alertas basadas en eventos. Plaspy puede ingerir la telemetría del dispositivo y aplicar reglas a nivel de plataforma, reportes y paneles de control para que los operadores monitoreen la salud y el comportamiento de los vehículos de una flota. Las funciones de configuración remota y el motor de eventos programable del LMU-400 complementan a Plaspy al reducir la necesidad de visitas físicas al dispositivo y permitir ajustes consistentes en toda la flota.
+
+- Visibilidad centralizada de ubicaciones en los paneles y vistas de mapa de Plaspy
+- Rastreo en tiempo real e histórico para apoyar análisis de rutas y revisiones de incidentes
+- Alertas basadas en eventos en Plaspy según movimiento, geocercas o entradas del dispositivo
+- Informes de estado y salud de la flota basados en reportes y monitoreo remoto del dispositivo
+- Gestión simplificada del equipo mediante configuración y actualizaciones por aire
+- Integración con los reportes de Plaspy para respaldar cumplimiento y KPIs operativos
+
+## Casos de uso típicos
+
+- Recuperación de vehículos robados y flujos de trabajo de localización y recuperación
+- Monitoreo de financiación vehicular y colaterales que requieren visibilidad continua
+- Flotas de alquiler de autos que necesitan rastreo confiable y gestión de dispositivos sencilla
+- Operaciones de flota que requieren dispositivos compactos con capacidad de actualización remota
+- Despliegues de seguimiento automotriz diversificados con necesidades de alerta personalizadas
+
+## Por qué elegir este rastreador con Plaspy
+
+El LMU-400 es una opción práctica para organizaciones que usan Plaspy y requieren un rastreador pequeño y con funciones avanzadas y gestión remota. Su batería de respaldo interna y modos de bajo consumo ayudan a mantener los reportes durante cortes de energía, mientras que el motor de eventos PEG permite reglas en el dispositivo que reducen transmisiones innecesarias y respaldan flujos de trabajo basados en excepciones. La detección de movimiento opcional y las funciones de control integradas lo hacen adaptable a escenarios de recuperación y control operativo.
+
+Combinar el LMU-400 con Plaspy proporciona a los operadores una solución conjunta para visibilidad, alertas y mantenimiento continuo de dispositivos sin intervenciones frecuentes en sitio. Si usted requiere hardware compacto, reglas programables y capacidad de actualización remota, este modelo es un candidato adecuado para evaluar e integrar con Plaspy.
+
+Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en el sitio del fabricante http://www.calamp.com/ antes de tomar decisiones de adquisición o despliegue.

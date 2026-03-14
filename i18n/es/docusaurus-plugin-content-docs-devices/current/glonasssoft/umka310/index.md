@@ -2,67 +2,62 @@
 slug: /glonasssoft/umka310
 id: umka310
 sidebar_label: UMKa310
+title: GLONASSsoft - UMKa310
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto UMKa310 compatible con Plaspy para flotas y activos. Telemetría GNSS, bajo consumo de datos y reenvío a varios servidores
+keywords:
+  - GLONASSsoft UMKa310
+  - Rastreador GPS UMKa310
+  - UMKa310 compatible con Plaspy
+  - Seguimiento de flotas UMKa310
+  - Telemetría UMKa310
+  - Monitoreo de combustible UMKa310
+  - Bajo consumo de datos UMKa310
+  - Wialon Combine UMKa310
+  - EGTS UMKa310
+  - Caja negra UMKa310
 ---
+
 # GLONASSsoft - UMKa310
 
 ![UMKa310](./tracker.png)
 
-El rastreador GPS UMKa310 es un dispositivo de seguimiento compacto, compatible con Plaspy, diseñado para flotas y activos móviles que requieren un seguimiento en tiempo real confiable con bajo tráfico de datos y telemetría. Pensado para transmitir coordenadas GNSS y datos de navegación a la nube GLONASSsoft o a cualquier host con protocolo abierto \(incluido EGTS utilizado por ERA‑GLONASS\), el UMKa310 ofrece actualizaciones continuas de ubicación, velocidad y rumbo mientras minimiza el consumo de datos gracias a un método de transferencia por lotes basado en el protocolo binario abierto Wialon Combine.
+El UMKa310 es un rastreador GNSS compacto de GLONASSsoft diseñado para flotas y activos móviles que requieren seguimiento en tiempo real y telemetría con bajo consumo de datos. Envía coordenadas GNSS y datos de navegación a la nube de GLONASSsoft o a cualquier servidor que acepte protocolos abiertos, incluido EGTS, y emplea una transferencia por lotes basada en el protocolo binario abierto Wialon Combine para minimizar el tráfico manteniendo actualizaciones frecuentes.
 
-El UMKa310 está diseñado para integrarse con plataformas modernas de gestión de flotas, como Plaspy. Admite el reenvío simultáneo de datos a hasta tres servidores, configuración flexible vía SMS, GPRS o Bluetooth 4.0, y compatibilidad opcional con RS‑485 para sensores de combustible. Ya sea que necesites seguimiento en tiempo real, telemetría, monitoreo de combustible o flujos de antirrobo, el UMKa310 es una opción práctica y compatible con Plaspy para operaciones profesionales de flotas y monitoreo de activos.
+Como dispositivo compatible con Plaspy, el UMKa310 facilita la integración en sus flujos de trabajo de gestión de flotas. Soporta reenvío a múltiples servidores, configuración remota flexible, conexión opcional de sensores de combustible vía RS‑485 y funciones de telemetría integradas como acelerómetro y almacenamiento tipo caja negra, lo que lo convierte en una opción práctica para usuarios de Plaspy que necesitan visibilidad continua de ubicación, movimiento y operación con uso eficiente de la red.
 
-## Puntos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy: envía datos de navegación GNSS y telemetría a Plaspy o a cualquier host con protocolo abierto \(incluido soporte EGTS\).
-- Bajo consumo de datos: transferencia por lotes usando el protocolo Wialon Combine permite actualizaciones de alta frecuencia con tráfico reducido.
-- Transmisión simultánea a múltiples servidores: puede reenviar datos a hasta tres servidores a la vez para redundancia o servicios paralelos.
-- Monitoreo de combustible listo: interfaz RS‑485 opcional admite la conexión de 1–3 sensores FLS para telemetría de consumo de combustible.
-- Configuración flexible: configura y controla el dispositivo de forma remota vía SMS, GPRS o Bluetooth 4.0.
-- Diseño compacto y robusto: dimensiones reducidas, peso de 40 g y protección IP54 para instalaciones en vehículos y activos.
-- Telemetría y memoria a bordo: acelerómetro, gestión inteligente de energía y almacenamiento en caja negra de hasta 10,000 registros.
+- Rastreador GNSS compatible con Plaspy que puede reenviar datos de navegación y telemetría a Plaspy u otros hosts que usen protocolos abiertos
+- Bajo consumo de datos mediante transferencia por lotes usando el protocolo binario abierto Wialon Combine
+- Reenvío simultáneo a hasta tres servidores para redundancia o servicios paralelos
+- Soporte opcional RS‑485 para conectar sensores de nivel de combustible y telemetría asociada
+- Configuración remota flexible vía SMS, GPRS o Bluetooth 4.0 para facilitar ajustes en campo
+- Funciones de telemetría a bordo incluyendo acelerómetro, gestión inteligente de energía y almacenamiento tipo caja negra para registros offline
+- Factor de forma compacto y protección adecuada para instalación en vehículos y activos
 
 ## Cómo funciona con Plaspy
 
-La integración con Plaspy es straightforward: el UMKa310 transmite datos GNSS y telemetría utilizando protocolos abiertos y estandarizados, de modo que Plaspy pueda ingerir información de ubicación, movimiento y estado en tiempo casi real. El enfoque de transferencia por lotes del dispositivo mantiene bajo el uso de la red al tiempo que permite actualizaciones frecuentes. Configure el dispositivo para reenviar los datos directamente al endpoint de su servidor Plaspy o a endpoints GLONASSsoft/EGTS como parte de su arquitectura de gestión de flotas.
+La integración con Plaspy se basa en que el UMKa310 envíe flujos de GNSS y telemetría mediante enfoques abiertos y estandarizados, de modo que Plaspy pueda procesar datos de ubicación, movimiento y estado de forma eficiente. La estrategia de transferencia por lotes del equipo reduce el tráfico sin sacrificar la frecuencia de actualizaciones, y su capacidad para reenviar a múltiples puntos finales facilita usar Plaspy junto a otros servicios dentro de una arquitectura telemática más amplia.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: las coordenadas GNSS, la velocidad y la dirección se envían a Plaspy para seguimiento en vivo y reproducción de historial.
-- Reenvío simultáneo a servidores: envía la misma secuencia a Plaspy y a servidores de respaldo en la nube para redundancia.
-- Monitoreo de combustible: admite conexión RS‑485 de 1–3 sensores FLS para que Plaspy muestre niveles de combustible y tendencias de consumo.
-- Detección de eventos y movimiento: el acelerómetro a bordo transmite eventos de movimiento y puede activar alertas en Plaspy para posibles incidentes o acciones antirrobo.
-- Configuración y diagnóstico local: la configuración del dispositivo se administra vía SMS, GPRS o Bluetooth 4.0 para técnicos en campo y administradores.
+- Actualizaciones de ubicación y telemetría en vivo para seguimiento en tiempo real y reproducción de historial en Plaspy
+- Reenvío del mismo flujo de datos a Plaspy y a servidores de respaldo o en la nube para garantizar redundancia
+- Datos de nivel y consumo de combustible desde sensores conectados por RS‑485 que pueden visualizarse y analizarse en Plaspy
+- Detección de movimiento y eventos mediante el acelerómetro integrado que puede activar alertas y flujos de trabajo en Plaspy
+- Configuración y diagnóstico local por SMS, GPRS o Bluetooth 4.0 pensados para técnicos en campo y administradores
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | UMKa310 |
-| --- | --- |
-| Conectividad | GSM/GPRS \(Multi‑slot Class 12\) |
-| Bandas | GSM 900 / 1800 |
-| GNSS | Receptor GLONASS/GPS, 32 canales |
-| Interfaces | 1 entrada analógica/discreta, 1 entrada de pulso/discreta, salida de colector abierto; RS‑485 opcional; Bluetooth v4.0 |
-| Protocolos de Comunicación | Protocolo binario abierto Wialon Combine \(transferencia por lotes\), soporte de protocolo EGTS |
-| Almacenamiento de Datos | Capacidad de caja negra: hasta 10,000 registros — MicroSD: No |
-| SIM | Una tarjeta SIM |
-| Configuración | SMS, GPRS, Bluetooth |
-| Antena | Interna |
-| Energía y Gestión | Gestión de energía inteligente; fuente de alimentación suplementaria: No |
-| Sensores Adicionales | Acelerómetro |
-| Factor de Forma | Dimensiones 33 × 64 × 13 mm \(soporte incluido\); Peso máximo 40 g |
-| Protección IP | IP54 |
-| Bluetooth | Bluetooth v4.0 — útil para configuración local y conectividad de sensores BLE |
-| Otros | Puedes transmitir a 3 servidores simultáneamente; bajo tráfico mediante transferencia por lotes |
-
-## Casos de uso
-
-- Gestión de flotas y seguimiento en tiempo real: monitoriza ubicaciones de vehículos, rutas y velocidad en Plaspy para mejorar la asignación de tareas y la eficiencia de las rutas.
-- Flujos de antirrobo y inmovilización de flotas: usa entradas discretas y salida de colector abierto para integrarte con los circuitos del vehículo para monitoreo de estado y control remoto del inmovilizador cuando esté conectado a los sistemas del vehículo.
-- Monitoreo de combustible y telemetría: conecta sensores de nivel de combustible RS‑485 \(1–3 FLS\) para recoger datos de combustible y alimentarlos a Plaspy para informes de consumo y detección de anomalías.
-- Monitoreo de puertas, alarmas y eventos: las entradas discretas capturan eventos de apertura de puertas, alarmas u otras señales digitales y los reportan a Plaspy para alertas basadas en eventos.
-- Integración de sensores Bluetooth: aproveche Bluetooth 4.0 para configuración local y emparejamiento de sensores BLE para temperatura, monitoreo de carga o detección de presencia cuando sea compatible.
+- Gestión de flotas y monitoreo de rutas para mejorar la visibilidad de despacho y la eficiencia operativa
+- Monitoreo antirrobo y respuesta a incidentes, donde eventos de movimiento y entradas discretas generan alertas y acciones
+- Monitoreo de combustible y análisis de consumo usando sensores de nivel conectados por RS‑485
+- Alarmas de puertas y reporte de eventos donde entradas discretas generan notificaciones hacia Plaspy
+- Integración y configuración de sensores locales mediante Bluetooth para ajustes y emparejamiento en sitio
 
 ## Por qué elegir este rastreador con Plaspy
 
-El UMKa310 ofrece una combinación enfocada de hardware compacto, flexibilidad de protocolos y bajo consumo de datos, lo que lo convierte en un rastreador GPS eficiente para implementaciones con Plaspy. Su soporte de protocolos abiertos \(Wialon Combine y EGTS\), el reenvío simultáneo a múltiples servidores y la conectividad RS‑485 opcional para sensores de combustible ofrecen a los operadores de flotas ventajas claras: seguimiento en tiempo real confiable, telemetría accionable y una integración más sencilla en pilas telemáticas existentes. La gestión de energía inteligente, un acelerómetro para eventos de movimiento y un almacenamiento en caja negra de 10,000 registros aumentan la resiliencia en entornos móviles, mientras que su tamaño reducido y la clasificación IP54 facilitan la instalación.
+El UMKa310 combina flexibilidad de protocolos con operación de bajo tráfico, lo que lo hace adecuado para organizaciones que usan Plaspy. Su soporte de protocolos abiertos y reenvío a múltiples servidores brinda opciones de despliegue que facilitan la continuidad y la integración con infraestructuras telemáticas existentes. La inclusión de soporte para sensor de combustible, detección de eventos basada en acelerómetro y almacenamiento local de registros mejora la resiliencia operativa de sus activos móviles.
 
-Para las organizaciones que utilizan Plaspy para la gestión de flotas, respuestas de antirrobo, telemetría y monitoreo de combustible, el UMKa310 es un rastreador GPS práctico y compatible con Plaspy que equilibra rendimiento y eficiencia. Su enfoque de bajo tráfico mantiene bajos los costos operativos sin sacrificar actualizaciones de alta frecuencia, y sus interfaces flexibles permiten adaptar la implementación a sus vehículos y sensores sin necesidad de una personalización extensa.
+Para equipos que buscan un rastreador compacto que equilibre actualizaciones frecuentes con eficiencia de red, el UMKa310 es una opción compatible con Plaspy confiable. Sus métodos de configuración flexibles y el soporte para reenvío paralelo a servidores permiten adaptar los despliegues a diversos escenarios de monitoreo de flotas y activos.
 
+Para obtener más información sobre Plaspy visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por favor verifique la información técnica actual en el sitio del fabricante https://glonasssoft.ru/.

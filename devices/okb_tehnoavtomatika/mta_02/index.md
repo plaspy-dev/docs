@@ -2,33 +2,59 @@
 slug: /okb_tehnoavtomatika/mta_02
 id: mta_02
 sidebar_label: MTA-02
+title: OKB Tehnoavtomatika - MTA-02
 sidebar_class_name: menu_item_tracker
+description: Versatile MTA 02 GPS tracker for vehicles equipment and assets compatible with Plaspy fleet management platform
+keywords:
+  - OKB Tehnoavtomatika MTA 02
+  - MTA 02 GPS tracker
+  - MTA-02 tracker
+  - GPS tracker
+  - vehicle tracking
+  - asset tracking
+  - fleet management
+  - Plaspy compatible
+  - GPRS tracker
+  - fuel monitoring
 ---
+
 # OKB Tehnoavtomatika - MTA-02
 
 ![MTA-02](./logo.jpg)
 
-The GPS System MTA-02 by OKB Tehnoavtomatika is a versatile and comprehensive device designed to meet various tracking and monitoring needs. With its flexible system configuration, this GPS tracker can be customized to address specific problems and requirements. Whether you need to track vehicles, specialized equipment, or even remote stationary objects, the MTA-02 has the capabilities to provide accurate and reliable information.
+The GPS System MTA-02 from OKB Tehnoavtomatika is a versatile tracking and monitoring device designed for a broad range of applications. It offers a flexible system configuration that can be adapted to track vehicles, specialized equipment, or remote stationary assets. The model supports a variety of peripherals and accessories to extend its capabilities, and provides multiple notification options to keep users informed about device status and location.
 
-One of the standout features of the MTA-02 is its ability to support additional peripherals and accessories. You can connect a headset for hands-free voice communication, a sensor for fuel level control, a Bluetooth device for wireless connectivity, or even a video camera for real-time monitoring. This makes the MTA-02 a versatile solution for a wide range of applications, including fleet management, security, and asset tracking.
+As a Plaspy compatible device, the MTA-02 can integrate into Plaspy fleet and asset management workflows to provide consolidated visibility and operational oversight. Its support for internet based updates, SMS alerts, and service center monitoring makes it a practical choice for organizations that want reliable reporting and the option to add peripherals such as fuel sensors or cameras for richer operational context within Plaspy.
 
-The MTA-02 offers multiple ways to receive notifications and monitor the device. You can receive alerts and updates via the internet using GPRS, through SMS messages to a specified number, or by monitoring through a service control center. This ensures that you stay informed about the status and location of your assets at all times.
+## Key Highlights
 
-### Key Features:
+- Flexible system configuration to address specific tracking and monitoring needs
+- Support for peripherals including headset, fuel sensor, Bluetooth device, and video camera
+- Multiple notification options including internet updates via GPRS, SMS messages, and service control center monitoring
+- Built in function for fuel consumption control that supports fleet oversight
+- Wide input power range with built in rechargeable battery for backup operation
+- Compact enclosure and dimensions suitable for a variety of mounting environments
 
-- Flexible system configuration for specific needs
-- Supports peripherals like headset, sensor, Bluetooth, and video camera
-- Multiple notification options: internet \(GPRS\), SMS, service control center
+## How It Works with Plaspy
 
-### Technical Specifications:
+The MTA-02 can send location and status information to Plaspy using its supported communication methods so that device data is available alongside other fleet and asset information. Plaspy can ingest location updates and device reports to provide unified dashboards, alerts, and historical reporting.
 
-- Functions: Fuel consumption control
-- Channel tie with DC: GSM 900/1800
-- Power supply: DC 9V to 68V, built-in rechargeable battery
-- Current consumption: Active mode - up to 180mA, standby mode - up to 65mA, sleep mode - up to 20mA
-- Built-in rechargeable battery capacity: Up to 600mAh
-- Time of technical readiness: Up to 3 minutes
-- Enclosure: IP30
-- Dimensions: 140 × 80 × 35 mm
-- Weight: 330g
+- Real time location tracking and historical route playback in Plaspy
+- Configurable alerts and notifications in Plaspy based on device reports and peripheral signals
+- Centralized fleet monitoring to view multiple MTA-02 units alongside other assets
+- Reporting and export capabilities for operational analysis such as fuel usage and uptime
+- Visibility of peripheral inputs and attached accessories within Plaspy dashboards for operational context
 
+## Typical Use Cases
+
+- Vehicle fleet tracking for logistics and transport operations
+- Monitoring specialized equipment and construction machinery on site
+- Remote stationary asset surveillance and status reporting
+- Security and situational monitoring augmented by camera or voice accessories
+- Fuel monitoring and consumption control for fleet efficiency programs
+
+## Why Choose This Tracker with Plaspy
+
+The MTA-02 is a practical option for organizations that need a configurable tracker with support for multiple peripherals and notification channels. Its adaptability and built in features for fuel monitoring make it useful for fleets and asset managers who want consolidated oversight. When paired with Plaspy, the device can contribute telemetry and status information into a single management platform that supports alerts, reporting, and operational workflows.
+
+If you want to learn more about how Plaspy can work with the MTA-02 and other compatible devices, visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details and accessory support on the manufacturer site http://www.okb-ta.ru/ before making procurement or deployment decisions.

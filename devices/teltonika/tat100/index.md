@@ -2,59 +2,62 @@
 slug: /teltonika/tat100
 id: tat100
 sidebar_label: TAT100
+title: Teltonika - TAT100
 sidebar_class_name: menu_item_tracker
+description: Compact IP68 battery GPS tracker TAT100 compatible with Plaspy for long term asset monitoring and fleet oversight
+keywords:
+  - Teltonika TAT100
+  - TAT100 GPS tracker
+  - Teltonika TAT100 Plaspy
+  - TAT100 asset tracker
+  - IP68 GPS tracker
+  - battery powered tracker
+  - container tracking
+  - fleet tracking
+  - rental equipment tracker
+  - long term asset monitoring
 ---
+
 # Teltonika - TAT100
 
 ![TAT100](./tracker.png)
 
-The TAT100 is a compact, battery-powered GPS tracker designed for long-term asset monitoring and is fully Plaspy compatible for easy integration into your existing tracking workflows. Built for durability with an IP68-rated housing and quad-band 2G \(GSM\) connectivity, the TAT100 delivers a low-maintenance solution for fleet management, logistics and rental operations that need reliable location reporting and simple, wire-free installation.
+The TAT100 is a compact, battery powered GPS tracker built for long term asset monitoring. With a rugged IP68 rated enclosure and quad band 2G GSM connectivity, the device is designed to deliver reliable location reporting for non powered assets. Multiple battery configurations and optional micro USB support on select SKUs make the TAT100 suitable for a range of deployments where low maintenance and wire free installation are priorities.
 
-The device balances extended battery life \(available in 2-cell and 3-cell versions\) with configurable reporting scenarios so you can tune update frequency to match use cases — from periodic telemetry for remote containers to more frequent position updates for high-value assets. With straightforward mounting options and optional micro USB support for charging or configuration on certain SKUs, the TAT100 is an efficient backup or primary asset tracker that works smoothly with Plaspy for mapping, alerts and reporting.
+As a Plaspy compatible device, the TAT100 integrates into existing tracking workflows to provide mapping, alerts and historical reporting without complex setup. Its configurable reporting scenarios allow operators to balance update frequency and battery life, making the TAT100 a practical primary or backup tracker for fleet management, logistics, rental operations and other asset monitoring needs when used with Plaspy.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for seamless integration into Plaspy dashboards and reporting workflows.
-- Rugged IP68-rated enclosure for reliable operation in harsh environments and outdoor use.
-- Quad-band 2G \(GSM\) connectivity for broad cellular coverage in legacy GSM networks.
-- Long-life battery options \(2-cell and 3-cell\) and configurable reporting logic to maximize autonomy.
-- Wire-free, fast installation with multiple mounting options for containers, equipment and discreet backup tracking.
-- Practical packaging and SKU choices, including standard SKUs TAT100TSBAB0 \(2-cell\) and TAT1003CXW01 \(3-cell\), and bulk/custom order options.
-- Can serve as a backup tracker when paired with Teltonika vehicle trackers to increase transport safety and redundancy.
+- Fully compatible with Plaspy for straightforward integration into dashboards and reporting workflows
+- Rugged IP68 enclosure suited to outdoor assets and harsh environments
+- Quad band 2G GSM connectivity for broad coverage on legacy cellular networks
+- Multiple battery configurations with configurable reporting to extend deployment life
+- Wire free installation with simple mounting options and optional micro USB on some SKUs
+- Standard SKUs available for easier procurement and bulk order options for large deployments
+- Useful as a backup tracker alongside vehicle trackers to increase redundancy and visibility
 
 ## How It Works with Plaspy
 
-Connecting the TAT100 to Plaspy is designed to be straightforward: the device sends periodic location and telemetry reports over cellular networks which Plaspy ingests for mapping, geofencing, alerting and historical route playback. Plaspy users can configure reporting frequency and alert thresholds so asset owners receive the right information without wasting battery life.
+The TAT100 sends periodic location and device status reports over cellular networks which Plaspy ingests for live maps, geofence processing, alerts and historical route playback. Plaspy users can set reporting intervals and event thresholds so assets report only the data needed for each use case, helping preserve battery life while maintaining operational visibility.
 
-- Real-time tracking: Supports configurable periodic location reports; set reporting intervals for near-real-time tracking when required by the use case.
-- Telemetry: Sends basic telemetry related to position and device status; Plaspy displays received telemetry and builds event-driven reports.
-- Ignition / immobilizer: The TAT100 is a stand-alone, wire-free asset tracker; wired ignition/immobilizer inputs are not specified. It can, however, act as a backup tracker alongside Teltonika vehicle trackers for added redundancy.
-- Fuel monitoring: Fuel-level telemetry is not an included feature of this battery-powered asset tracker; Plaspy can correlate location events with external fuel data if available from other devices.
-- Bluetooth sensors: Bluetooth sensor support is not specified for the TAT100; Plaspy can still combine data from BLE-enabled devices in the same account if you deploy additional sensor-capable trackers.
+- Real time tracking through configurable periodic location reports to match tracking needs
+- Telemetry and device status displayed in Plaspy for monitoring asset health and presence
+- Geofencing and alerting to notify teams when assets move outside predefined areas
+- Historical route playback and reporting for audits and operational analysis
+- Battery aware reporting configuration to balance update frequency with autonomy
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | Quad-band 2G \(GSM\) cellular connectivity |
-| --- | --- |
-| Bands | Quad-band 2G \(GSM\) — model supports GSM networks \(explicit band numbers not specified\) |
-| Power & Battery | Battery-powered with multiple options: 2-cell and 3-cell versions. Extended battery life with configurable reporting to balance updates and power consumption. Micro USB available on some SKUs for charging/configuration. |
-| Interfaces | Wire-free installation; no external wired inputs/ignition outputs are specified. Designed for secure mounting to non-powered assets. |
-| GNSS | Periodic GNSS location reporting \(device provides location updates\); specific GNSS chipset and accuracy not specified. |
-| Bluetooth | Bluetooth sensor support not specified in product description. |
-| Remote Management | Configurable reporting scenarios and device settings; remote provisioning or FOTA not specified. |
-| Form Factor | Compact, rugged IP68-rated enclosure suitable for outdoor assets, containers, construction equipment and discreet vehicle backup tracking. |
-
-## Use Cases
-
-- Fleet management backup tracking — keep a discreet, battery-powered tracker on trailers or leased vehicles to provide redundancy and continuity when integrated with Plaspy.
-- Container and cargo monitoring — IP68 protection and long battery life make the TAT100 a strong choice for containerized shipments and yard management.
-- Construction and rental equipment tracking — monitor location and movement of non-powered assets across sites to reduce loss and improve utilization.
-- Logistics and goods tracking — periodic telemetry and configurable reporting let operators track shipments and storage assets without frequent maintenance.
-- Discreet asset security and anti-theft awareness — deploy the TAT100 on high-value or rented equipment to add an extra layer of anti-theft visibility within Plaspy.
+- Backup fleet tracking for trailers or leased vehicles to provide redundancy and continuity
+- Container and cargo monitoring across yards and transit with weather resistant housing
+- Construction and rental equipment tracking to reduce loss and improve utilization
+- Logistics and goods tracking where periodic telemetry reduces maintenance needs
+- Discreet asset security and anti theft awareness for high value or rented equipment
 
 ## Why Choose This Tracker with Plaspy
 
-The TAT100 is built for operators who need a rugged, low-power GPS tracker that integrates cleanly with Plaspy for mapping, alerts and historical reporting. Its IP68-rated housing and multiple battery configurations reduce maintenance cycles and enable long deployments on remote assets. Because reporting logic is configurable, fleet managers and logistics teams can optimize telemetry and update frequency to match operational priorities — balancing the need for real-time insight against battery life.
+The TAT100 is a practical choice for organizations that need a durable, low maintenance asset tracker that works cleanly with Plaspy. Its IP68 protection and battery options allow for long deployments on remote or exposed assets, while configurable reporting helps operations teams choose the right balance between update frequency and battery life.
 
-Choosing the TAT100 with Plaspy gives you a practical asset-tracking combination: durable hardware designed for harsh environments, simple wire-free installation, and Plaspy’s telemetry, geofencing and fleet-management tools to turn location data into actionable decisions. Standard SKUs such as TAT100TSBAB0 \(2-cell\) and TAT1003CXW01 \(3-cell\) help simplify procurement, and bulk or custom order options support larger deployments with accessory choices like a Micro USB cable for charging or configuration. For companies focused on fleet management, anti-theft monitoring and efficient telemetry for non-powered assets, the TAT100 presents a dependable, Plaspy-compatible option that emphasizes autonomy and durability.
+Paired with Plaspy, the TAT100 turns periodic location reports into actionable insights through mapping, alerts and historical reporting. Procurement is simplified by standard SKUs and bulk options, and the device can serve either as a primary asset tracker or as a backup to vehicle trackers to enhance transport safety and oversight.
 
+Learn more about Plaspy and how compatible devices like the TAT100 can fit your fleet and asset monitoring needs at https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so verify current technical information and configuration options on the manufacturer site https://www.teltonika-gps.com/.

@@ -2,61 +2,59 @@
 slug: /teltonika/fmb910
 id: fmb910
 sidebar_label: FMB910
+title: Teltonika - FMB910
 sidebar_class_name: menu_item_tracker
+description: Rastreador Teltonika 2G compacto y económico para gestión de flotas y telemetría básica compatible con Plaspy
+keywords:
+  - Teltonika FMB910
+  - Rastreador FMB910
+  - FMB910 compatible con Plaspy
+  - Rastreador GPS Teltonika
+  - Seguimiento de flotas FMB910
+  - Rastreador GPS 2G
+  - Rastreador de vehículos FMB910
+  - Telemetría FMB910
+  - FMB910 antirrobo
+  - Sensores BLE FMB910
 ---
+
 # Teltonika - FMB910
 
 ![FMB910](./tracker.png)
 
-El Teltonika FMB910 es un rastreador GPS 2G compacto, diseñado para la gestión de flotas orientada a costos y la protección de vehículos, compatible con Plaspy. Diseñado para una implementación sencilla, el FMB910 ofrece seguimiento en tiempo real fiable y datos telemétricos básicos para ayudar a flotas pequeñas y medianas a mejorar la visibilidad de las rutas, apoyar flujos anti-robo y acelerar la recuperación de vehículos robados donde las redes 2G aún están disponibles.
+El Teltonika FMB910 es un rastreador GPS 2G compacto, diseñado para gestión de flotas con restricciones de presupuesto y protección básica del vehículo. Ofrece seguimiento en tiempo real y registros históricos de ubicación, incluye un acelerómetro para detección de impactos y admite sensores y balizas mediante Bluetooth Low Energy. Está pensado para despliegues sencillos donde la prioridad es un seguimiento económico y flujos de trabajo antirrobo básicos.
 
-La unidad incluye un acelerómetro configurable de 3 ejes para la detección de impactos, Bluetooth Low Energy \(BLE\) para sensores y balizas externos, y opciones de control remoto basadas en E/S como monitoreo del bloqueo del motor e ignición. Cuando se combina con Plaspy, el FMB910 proporciona las corrientes de ubicación, eventos y sensores necesarias para impulsar alertas, informes y flujos de inmovilización remota, al tiempo que ofrece propiedad de bajo costo y fácil integración.
+Como dispositivo compatible con Plaspy, el FMB910 puede enviar flujos de ubicación, eventos y datos de sensores a la plataforma Plaspy para alimentar mapas en vivo, alertas, reportes y automatizaciones de control remoto. Esta compatibilidad lo hace una opción práctica para flotas pequeñas y medianas que desean combinar hardware accesible con la supervisión, el reporte y la gestión operativa de Plaspy.
 
-## Aspectos destacados
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para un seguimiento en tiempo real fiable y historial de ubicación.
-- Diseño 2G compacto \(B2/B3/B5/B8\) optimizado para implementaciones de flota de bajo costo donde 2G está disponible.
-- Acelerómetro de 3 ejes integrado con detección de impactos configurable para alertas de incidentes e investigaciones.
-- Control remoto basado en I/O \(bloqueo del motor, entradas de ignición\) para apoyar flujos de anti-robo e inmovilización.
-- Soporte Bluetooth Low Energy \(BLE\) para sensores y balizas externos — escenarios de temperatura, humedad, movimiento y detección magnética.
-- Soporta telemetría de conducción ecológica para fomentar la eficiencia de combustible y una conducción más segura.
-- Gestión remota de firmware y configuración vía Teltonika FOTA WEB \(verifique el estado del ciclo de vida del producto antes de desplegar\).
+- Rastreador 2G compacto y económico, apropiado para despliegues de flota de bajo costo donde esté disponible 2G
+- Informes de posición en tiempo real y historial de ubicaciones para visibilidad de rutas y recuperación
+- Acelerómetro de 3 ejes integrado con detección de choques configurable para alertas e investigación de incidentes
+- Opciones de control remoto basadas en entradas/salidas (I/O) para monitoreo de ignición y corte de motor, que facilitan flujos antirrobo
+- Soporte para Bluetooth Low Energy para emparejar sensores y balizas externas y ampliar capacidades de monitoreo
+- Admite telemetría de conducción eficiente para ayudar a las flotas a vigilar el comportamiento al volante y mejorar la eficiencia
 
 ## Cómo funciona con Plaspy
 
-El FMB910 envía la posición GPS, eventos del acelerómetro, cambios de estado de I/O y datos de sensores BLE a Plaspy en tiempo real. Plaspy asimila esos mensajes para proporcionar vistas de mapa en vivo, alertas, paneles de telemetría e informes históricos. Los integradores pueden usar reglas y flujos de trabajo de Plaspy para traducir eventos del FMB910 en acciones comerciales — por ejemplo, notificar a operaciones ante detecciones de impactos, registrar ciclos de ignición o activar procedimientos de inmovilización cuando el control remoto esté configurado y permitido.
+Al conectarse a Plaspy, el FMB910 envía actualizaciones de posición, eventos del acelerómetro, cambios en el estado de entradas/salidas y datos de sensores Bluetooth que Plaspy procesa en paneles, alertas e informes. Plaspy convierte esos flujos entrantes en vistas operativas accionables y reglas automatizadas para que los equipos puedan supervisar la flota, responder a incidentes y gestionar procedimientos antirrobo desde una única plataforma.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para supervisión e informes.
-- Detección de impactos y eventos del acelerómetro para alertas de incidentes e reconstrucción.
-- Estado de ignición y bloqueo del motor vía I/O del dispositivo para flujos de anti-robo e inmovilización.
-- Telemetría de conducción ecológica para ayudar a las flotas a reducir el consumo de combustible y mejorar las métricas de seguridad.
-- Sensores y balizas Bluetooth para monitoreo extendido de activos y entornos enviados a Plaspy.
+- Las ubicaciones en vivo y las rutas históricas aparecen en los mapas de Plaspy para ofrecer visibilidad de flota y análisis de trayectos
+- La detección de choques y los eventos del acelerómetro generan alertas en Plaspy para notificar al equipo operativo y facilitar la revisión de incidentes
+- El estado de ignición y del bloqueo de motor informado por las entradas del dispositivo permite activar inmovilización y flujos antirrobo cuando está configurado
+- Los datos de sensores y balizas Bluetooth se reenvían para el monitoreo de carga y condiciones ambientales dentro de los paneles de Plaspy
+- Los flujos de telemetría pueden incluirse en reportes y reglas de Plaspy para supervisión de conducción eficiente y obtener insights operativos
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | 2G GSM \(datos celulares montados en el vehículo\) |
-| --- | --- |
-| Bandas | B2 / B3 / B5 / B8 \(2G GSM\) |
-| Alimentación y batería | Alimentado por el vehículo; la batería de respaldo no se especifica en la descripción del producto |
-| Interfaces | Entradas/salidas digitales, entrada de ignición; admite bloqueo de motor y otras medidas de control remoto basadas en I/O |
-| GNSS | GPS — proporciona datos de ubicación precisos e informes de posición \(la precisión no está especificada\) |
-| Bluetooth | Bluetooth Low Energy \(BLE\) para emparejarse con sensores y balizas externos |
-| Gestión remota | Teltonika FOTA WEB para actualizaciones de firmware y configuración \(gestión remota del dispositivo\) |
-| Formato | Rastreador compacto para vehículos destinado al monitoreo básico de flotas y uso anti-robo |
-| Pedido / Embalaje | Códigos de pedido estándar y personalizados: FMB91093IN01 \(paquete estándar, Worldwide\) y FMB91093KN01 \(paquete personalizado, Worldwide\). El paquete mayorista estándar se referencia como 20 unidades FMB910 con 20 cables de alimentación I/O \(0,7 m\) y embalaje con la marca Teltonika; el contenido de una unidad puede diferir—consulte al proveedor. |
-| Nota de ciclo de vida | Producto listado con marcadores de Fin de Vida \(EOL\) en la página del fabricante—verifique soporte a largo plazo y modelos sucesores recomendados antes de una implementación a gran escala. |
-
-## Casos de uso
-
-- Gestión de flotas para pequeñas y medianas flotas que requieren hardware de rastreador GPS rentable y reporte de ubicación en tiempo real.
-- Flujos de anti-robo y recuperación de vehículos robados mediante inmovilización disparada por I/O y seguimiento de ubicación.
-- Informes de incidentes y choques con detección basada en acelerómetro para apoyar investigaciones y programas de seguridad del conductor.
-- Monitoreo de activos y entorno con sensores Bluetooth — carga sensible a la temperatura, detección de movimiento o alertas de manipulación magnética.
-- Telemática y programas de conducción ecológica para monitorizar el comportamiento del conductor y reducir el consumo de combustible mediante telemetría accionable.
+- Gestión de flotas económica para flotas de vehículos pequeñas y medianas que requieren seguimiento en tiempo real
+- Antirrobo y recuperación de vehículos robados donde el control remoto por entradas/salidas y el rastreo mejoran las probabilidades de recuperación
+- Detección de incidentes e informes de choques usando eventos del acelerómetro para apoyar programas de seguridad
+- Monitoreo de carga y condiciones ambientales mediante sensores Bluetooth para envíos sensibles a temperatura o con detección de manipulación
+- Telemática sencilla e iniciativas de conducción eficiente para registrar comportamiento al volante e identificar mejoras en la eficiencia
 
 ## Por qué elegir este rastreador con Plaspy
 
-When paired with Plaspy, the Teltonika FMB910 delivers an economical path to real-time tracking, telemetry and basic remote-control features for fleets operating where 2G remains available. Its compact design, crash detection and BLE sensor support make it a practical choice for anti-theft, stolen vehicle recovery and simple asset-monitoring projects. Plaspy adds value by aggregating FMB910 location and sensor streams into dashboards, alerts and automated workflows so teams can respond faster and run safer, more efficient operations.
+El Teltonika FMB910 ofrece un punto de entrada económico para organizaciones que necesitan reportes de ubicación confiables, telemetría básica y opciones simples de control remoto en zonas donde aún opera 2G. Integrado con Plaspy, el dispositivo transmite eventos relevantes y datos de sensores a una plataforma unificada para monitoreo, alertas y reportes, permitiendo que los equipos operativos actúen ante incidentes y mejoren la supervisión de la flota sin una gran inversión en hardware.
 
-Antes de la compra, verifique la disponibilidad regional de la red 2G y el estado del ciclo de vida del FMB910 \(EOL\). Para despliegues que requieran soporte a largo plazo o cobertura 3G/4G, consulte al proveedor o a Teltonika sobre modelos sucesores recomendados y asegúrese de que los planes de integración con Plaspy se alineen con la vida útil del dispositivo y la estrategia de gestión.
-
+To learn more about Plaspy and how it integrates with devices like the FMB910 visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so verify current technical details and lifecycle status on the manufacturer site https://www.teltonika-gps.com/ before large scale deployment.

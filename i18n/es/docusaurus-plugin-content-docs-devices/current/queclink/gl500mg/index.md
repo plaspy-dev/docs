@@ -2,41 +2,60 @@
 slug: /queclink/gl500mg
 id: gl500mg
 sidebar_label: GL500MG
+title: QuecLink - GL500MG
 sidebar_class_name: menu_item_tracker
+description: Rastreador de activos QuecLink GL500MG compatible con Plaspy, larga autonomía, IP67, telemetría de movimiento y temperatura y amplia cobertura celular
+keywords:
+  - queclink gl500mg
+  - gl500mg
+  - rastreador queclink
+  - rastreador gps
+  - rastreo de activos
+  - compatible con plaspy
+  - rastreo de flotas
+  - rastreador ip67
+  - rastreador de larga autonomía
+  - rastreador lte-m
 ---
+
 # QuecLink - GL500MG
 
 ![GL500MG](./tracker.png)
 
-# Queclink GL500MG — Rastreador GPS de activos compatible con Plaspy
+El QuecLink GL500MG es un rastreador GPS para activos, robusto y pensado para despliegues de larga duración y monitoreo en áreas extensas. Con una carcasa IP67 y electrónica de bajo consumo, el GL500MG integra posicionamiento GNSS, conectividad celular y sensores integrados de temperatura, luz y movimiento para soportar rastreo seguro de activos, gestión de patios y flujos de trabajo antirobo. El equipo está diseñado para implementaciones donde el bajo mantenimiento y la larga vida en espera son esenciales.
 
-El Queclink GL500MG es un rastreador GPS compatible con Plaspy, diseñado para monitoreo de activos a largo plazo y gestión de lotes en áreas amplias. Robusto e impermeable con una carcasa IP67 y una plataforma de bajo consumo de Queclink, el GL500MG ofrece una vida en espera de varios años, telemetría a bordo \(temperatura, luz, movimiento\) y enlaces celulares confiables mediante LTE Cat M1 / NB1 con retroceso EGPRS. Es adecuado para seguimiento seguro de activos, detección de robo y logística cuando se integra con la plataforma Plaspy.
-
-Diseñado para implementaciones que exigen longevidad y bajo mantenimiento, el GL500MG combina un receptor GNSS u‑blox con antenas LTE y GNSS internas, un acelerómetro interno de 3 ejes para detección de movimiento y modos de reporte inteligente para conservar la vida de la batería. Nota: Queclink ha emitido un aviso de Fin de Vida \(EOL\) para el GL500MG; a los clientes se les indica GL530MG como alternativa. Los clientes existentes de GL500MG mantienen una garantía de un año y soporte técnico de por vida por parte de Queclink.
+Como modelo compatible con Plaspy, el GL500MG puede enviar su ubicación y telemetría de sensores a Plaspy para su uso en mapas, alertas e informes históricos. Plaspy procesa los mensajes del dispositivo para proporcionar visibilidad de flotas y activos, utilizar lecturas de movimiento y ambientales como disparadores de eventos y mostrar telemetría de larga duración en paneles e informes que ayudan a reducir las visitas a activos en campo.
 
 ## Aspectos clave
 
-- Rastreador GPS compatible con Plaspy: se integra con Plaspy para seguimiento en tiempo real y paneles de gestión de flotas.
-- Duración excepcional de la batería: hasta 7 años con informes solo de ID de celda o hasta 5 años con un informe GNSS por día usando tres baterías CR123A de 1,400 mAh.
-- Diseño robusto e impermeable \(IP67\) con un estuche de montaje magnético opcional para instalaciones sensibles a manipulaciones y activos al aire libre.
-- GNSS de alta sensibilidad: receptor u‑blox con sensibilidad de rastreo de hasta −162 dBm y precisión de posición inferior a 2.5 m CEP para telemetría de ubicación precisa.
-- Conectividad flexible: LTE Cat M1 / NB1 \(LTE-FDD\) con retroceso EGPRS \(2G\) garantiza cobertura de amplio alcance y soporte de redes legadas.
-- Sensores a bordo integrales: sensores internos de temperatura y luz, además de un acelerómetro de 3 ejes para movimiento y reportes de activación.
-- Carcasa y montaje: carcasa robusta con clasificación IP67; antenas LTE y GNSS internas; opción de estuche magnético para sujeción segura.
-- Certificaciones y aprobaciones de operadores: FCC, Verizon, PTCRB, AT&T, USCC, CE, Anatel; asociaciones comerciales incluyen Orange.
-- Ciclo de vida: aviso de EOL de Queclink — GL530MG recomendado como alternativa; garantía de un año y soporte técnico de por vida para clientes existentes de GL500MG.
+- Autonomía probada para despliegues de varios años, disminuyendo visitas de mantenimiento y costos operativos.
+- Carcasa resistente IP67 adecuada para activos exteriores y entornos exigentes.
+- Sensores integrados de movimiento, temperatura y luz que permiten detección antirrobo y monitoreo ambiental.
+- Conectividad celular de amplia cobertura con mecanismos de respaldo para mayor alcance entre regiones.
+- Posicionamiento GNSS de alta sensibilidad para reportes de ubicación confiables en escenarios típicos de activos.
+- Gran buffer de mensajes en dispositivo y modos de reporte configurables para preservar la continuidad de datos.
+- Nota sobre ciclo de vida del fabricante con un sucesor recomendado para nuevas adquisiciones.
 
-## Casos de uso
+## Cómo funciona con Plaspy
 
-- Monitoreo de la cadena de frío y del entorno — telemetría de temperatura interna combinada con alertas de Plaspy garantiza la integridad del producto durante el transporte o el almacenamiento.
-- Gestión de almacenes y lotes — batería de larga duración y protección IP67 hacen que el GL500MG sea ideal para inventario y rastreo en patios, donde el acceso de mantenimiento es limitado.
-- Transporte de carga y monitoreo de contenedores — cobertura LTE-M / NB-IoT con retroceso 2G mantiene las posiciones de los activos visibles a lo largo de rutas de gran alcance.
-- Monitoreo de activos de alto valor o robados — detección de movimiento basada en acelerómetro, geocercas y mensajes en búfer respaldan flujos de respuesta antirobo en Plaspy.
-- Monitoreo remoto ambiental o de infraestructura — diseño robusto y larga vida en espera se adaptan a implementaciones de larga duración en condiciones adversas.
+El GL500MG transmite posiciones GNSS y eventos de sensores internos a Plaspy, donde esos datos forman parte de mapas en tiempo real, alertas y conjuntos históricos. Plaspy procesa los mensajes entrantes para generar conocimientos operativos, notificar a los usuarios sobre eventos importantes y mantener un registro persistente del movimiento de activos y los estados de los sensores.
+
+- Actualizaciones de ubicación en tiempo real y periódicas mostradas en los mapas de Plaspy y en el historial de rutas.
+- Despertar por movimiento y alertas por manipulación que se enrutan a flujos de trabajo en Plaspy para respuestas antirobo.
+- Lecturas de temperatura y luz disponibles en Plaspy para alertas ambientales e informes temporales.
+- Mensajes en buffer e informes programados que aseguran que Plaspy reciba datos tras pérdidas temporales de cobertura.
+- Geocercas y disparadores de eventos en Plaspy que pueden activarse por ubicaciones y eventos de sensor del GL500MG.
+
+## Casos de uso típicos
+
+- Cadena de frío y monitoreo ambiental donde la telemetría de temperatura interna respalda verificaciones de integridad.
+- Gestión de almacenes y patios para seguimiento de inventario y lotes con mínimo mantenimiento.
+- Rastreo de carga y contenedores en rutas de larga distancia aprovechando la cobertura celular con respaldo.
+- Protección de activos de alto valor mediante detección de movimiento basada en acelerómetro y alertas.
+- Monitoreo de infraestructura remota donde el diseño resistente y la larga vida en espera son prioritarios.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GL500MG es un rastreador GPS diseñado para implementaciones donde la duración de la batería, la durabilidad y una telemetría confiable son claves. Cuando se usa con Plaspy, las posiciones GNSS precisas del dispositivo, las lecturas de sensores y los eventos de movimiento se convierten en datos accionables — permitiendo seguimiento en tiempo real, paneles de gestión de flotas y alertas basadas en eventos. La ingestión de Plaspy de mensajes del protocolo @Track a través de TCP/UDP o SMS garantiza que la telemetría de larga vida del GL500MG se presente en una interfaz escalable y preparada para empresas.
+El GL500MG es ideal para organizaciones que requieren un rastreador duradero y de bajo mantenimiento que entregue telemetría consistente a una plataforma de gestión de flotas y activos. Al integrarlo con Plaspy, sus lecturas de sensores y eventos de movimiento se vuelven accionables, facilitando alertas, análisis históricos y supervisión operativa sin cambios frecuentes de batería ni visitas al campo. Las funciones de gestión de dispositivos y mapeo de Plaspy simplifican la inclusión de unidades GL500MG en flotas mixtas e informes empresariales.
 
-Aunque Queclink ha anunciado el fin de vida para el GL500MG, los clientes actuales se benefician de aprobaciones de operadores certificadas, almacenamiento en búfer robusto y sensores integrados que reducen las visitas al campo y bajan el costo total de propiedad. Para proyectos que requieran soporte para monitoreo de combustible, control de encendido o acciones de inmovilizador y sensores Bluetooth como parte de una solución de telemática más amplia, Plaspy puede integrar la telemetría del GL500MG con los sistemas del vehículo o periféricos externos para habilitar esos flujos de trabajo manteniendo las ventajas de bajo consumo del GL500MG.
-
+Si desea saber más sobre cómo Plaspy funciona con dispositivos compatibles y evaluar su adecuación para su implementación, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y el estado del ciclo de vida pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales y la documentación oficial en el sitio del fabricante https://www.queclink.com/.

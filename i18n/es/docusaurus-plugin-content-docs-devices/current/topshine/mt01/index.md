@@ -2,65 +2,61 @@
 slug: /topshine/mt01
 id: mt01
 sidebar_label: MT01
+title: TopShine - MT01
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto e impermeable TopShine MT01 compatible con Plaspy para seguimiento de flotas en tiempo real, reportes y protección antirrobo
+keywords:
+  - TopShine MT01
+  - rastreador MT01
+  - rastreador TopShine
+  - MT01 compatible con Plaspy
+  - rastreador GPS para vehículos
+  - seguimiento de flotas
+  - seguimiento en tiempo real
+  - rastreador GPS 4G
+  - inmovilizador antirrobo
+  - monitoreo de combustible
 ---
+
 # TopShine - MT01
 
 ![MT01](./tracker.jpg)
 
-# 4G MT01 GPS Vehicle Tracker
+El TopShine MT01 es un rastreador GPS vehicular 4G compacto pensado para un seguimiento confiable en motocicletas, autos, camiones y bicicletas eléctricas. Combina un formato mini (80 × 58 × 22 mm) con una carcasa resistente a la intemperie, antena integrada y amplio rango de voltaje para facilitar la instalación en entornos exigentes sin perder discreción. El equipo incluye registro de datos integrado, batería de respaldo y entradas inteligentes, además de soporte opcional para sensores como monitoreo de combustible y alertas de seguridad para el conductor.
 
-El 4G MT01 GPS Vehicle Tracker es un rastreador compacto y resistente a la intemperie, diseñado para flotas y vehículos individuales que requieren un seguimiento en tiempo real fiable y compatible con Plaspy. Construido para uso intensivo en motocicletas, automóviles, camiones y bicicletas eléctricas, el MT01 combina un rango amplio de voltaje, conectividad celular en múltiples bandas y un formato compacto \(80 × 58 × 22 mm\) para facilitar la instalación y su ocultación en entornos exigentes.
+Como dispositivo compatible con Plaspy, el MT01 entrega ubicación en tiempo real, telemetría y eventos a la plataforma Plaspy para monitoreo y generación de reportes unificados. Plaspy procesa los informes del rastreador y pone a disposición de gestores de flota y operadores posiciones en vivo, alertas por geocerca, eventos del conductor y trazas históricas, permitiendo supervisión centralizada y alertas accionables desde vehículos equipados con MT01.
 
-Certificado conforme a CE, FCC y RoHS y respaldado por una garantía de dos años, el MT01 está diseñado para telemetría a largo plazo y tareas de gestión de flotas. Incluye una batería de respaldo de 650 mAh, antena integrada, registro de datos sin conexión y un conjunto de entradas inteligentes y sensores opcionales para monitorización de combustible, alertas de seguridad del conductor y control de inmovilizador antirobo; todo ello puede integrarse en la plataforma Plaspy para monitorización, alertas e informes unificados.
+## Características principales
 
-## Puntos destacados
-
-- Compatible con Plaspy para un seguimiento y telemetría en tiempo real sin fisuras entre vehículos y activos.
-- Amplio rango de voltaje de entrada \(9–90 V DC\) que admite diversos sistemas eléctricos de los vehículos, incluidas flotas de servicio pesado de 90 V.
-- Conectividad celular multibanda 2G/3G/4G con antena integrada para una cobertura internacional robusta.
-- Registrador de datos de 4 MB integrado que conserva datos de ubicación y eventos en zonas sin cobertura GSM/GPRS.
-- Funciones avanzadas de seguridad y anti‑robo: botón de pánico SOS, corte remoto del motor \(inmovilizador\), alarma de corte de alimentación externa.
-- Sensores e integraciones opcionales: compatibilidad con sensor de combustible, sensores de alcohol y de choque, identificación RFID/iButton, opción de cámara de fatiga del conductor.
-- Carcasa compacta y resistente a la intemperie con rango de operación de -20°C a 65°C para entornos exigentes.
+- Compatible con Plaspy para seguimiento en tiempo real y telemetría de flotas sin interrupciones.
+- Amplio rango de voltaje para adaptarse a distintos sistemas eléctricos vehiculares.
+- Conectividad celular multibanda 2G/3G/4G con antena integrada para cobertura amplia.
+- Registrador de datos interno de 4 MB que preserva ubicaciones y eventos ante pérdidas temporales de conectividad.
+- Funciones avanzadas de seguridad y antirobo, incluyendo SOS y control remoto de inmovilizador.
+- Integración opcional con sensores para monitoreo de combustible, alcohol y detección de choque, además de identificación de conductor.
+- Carcasa compacta y resistente a la intemperie con amplio rango de temperatura operativa para condiciones exigentes.
 
 ## Cómo funciona con Plaspy
 
-Cuando está instalado y conectado, el MT01 transmite la ubicación, la telemetría del vehículo y los datos de eventos a la plataforma Plaspy mediante SMS/GPRS o datos móviles. Plaspy procesa los informes del rastreador y presenta las posiciones de los vehículos en tiempo real, alertas de geocerca, eventos del conductor y trazas históricas en las aplicaciones web y móviles. Comandos remotos y cambios de configuración pueden enviarse a través de Plaspy para ajustar intervalos de informe, alarmas y modos de ahorro de energía.
+Cuando está conectado, el MT01 envía datos de ubicación y eventos por la red celular a Plaspy, donde esa información se consolida en mapas, alertas y reportes. Plaspy presenta estos datos en interfaces web y móviles y soporta comandos remotos y cambios de configuración para ajustar el comportamiento de rastreo y los umbrales de alarmas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para mapeo y reproducción de rutas.
-- Eventos del conductor y del vehículo: pánico SOS, exceso de velocidad, violación de geocerca, aceleración/frenada brusca, corte de alimentación externa.
-- Monitoreo de combustible cuando se conecta un sensor de combustible compatible, lo que permite métricas de consumo y reportes en Plaspy.
-- Control remoto del inmovilizador / corte del motor y confirmaciones mediante comunicación bidireccional.
-- Soporte para integraciones opcionales de seguridad del conductor \(sensor de alcohol, sensor de choque, cámara de fatiga\) con informes de eventos en la plataforma.
-- Manejo de datos sin conexión: el registrador flash de 4 MB almacena datos GPS y de eventos durante pérdidas temporales de conectividad para su posterior carga a Plaspy.
+- Actualizaciones de ubicación y telemetría en tiempo real disponibles en Plaspy para mapeo y reproducción de rutas.
+- Reporte de eventos por incidentes del conductor y del vehículo, como SOS, salidas/entradas de geocercas y alertas por corte de alimentación externa.
+- Soporte para monitoreo de combustible cuando se conecta un sensor compatible, permitiendo reportes y visibilidad del consumo en Plaspy.
+- Control remoto de inmovilizador y mensajes de confirmación para respaldar flujos de trabajo antirobo.
+- Entradas opcionales de seguridad del conductor, como sensores de alcohol y choque, que pueden generar alertas y registros en la plataforma.
+- Carga de datos offline desde el registrador del MT01 que conserva trazas históricas para su importación a Plaspy cuando se restablece la conectividad.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | 4G MT01 |
-| --- | --- |
-| Conectividad | LTE-FDD multibanda / LTE-TDD / GSM \(2G/3G/4G\); admite las bandas internacionales comunes indicadas por el fabricante |
-| Alimentación y batería | Entrada +9V a 90V DC; batería de respaldo recargable de 650 mAh integrada |
-| Registrador | Registrador de datos de 4 MB para grabación offline |
-| Interfases | Puerto de bus de cable para RFID/iButton; relé incluido; botón SOS; micrófono y altavoz para voz bidireccional; capacidad de corte remoto del motor; múltiples entradas inteligentes para sensores |
-| GNSS | GPS L1 1575.42 MHz, 20 canales, todos en vista; sensibilidad -158 dB; precisión de posición ~10 m \(2D RMS\); precisión de velocidad 0.1 m/s |
-| Condiciones de funcionamiento | -20°C a 65°C; 5%–95% de humedad no condensante; carcasa resistente a la intemperie |
-| Indicadores | Dos LEDs para estado de GPS y GSM |
-| Formato | Formato compacto, dimensiones 80 × 58 × 22 mm; peso aprox. 85–88 g |
-| Conformidad y garantía | Certificaciones CE, FCC, RoHS; garantía de 2 años |
-| Plataforma y gestión remota | Plataforma basada en web y apps para Android/iOS; configuración remota vía SMS/GPRS y datos; modos de ahorro de energía para reducir el uso de datos |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento centralizado, reproducción de rutas, monitorización del comportamiento del conductor e informes de telemetría para flotas heterogéneas.
-- Antirrobo e inmovilización: corte remoto del motor, alarma de corte de alimentación externa y soporte de pánico SOS para una respuesta rápida.
-- Monitoreo de combustible y prevención de robo de combustible: conecte un sensor de combustible compatible para obtener métricas de consumo y alertas.
-- Seguridad y cumplimiento del conductor: sensor de alcohol, sensor de choque y opción de integración de cámara de fatiga para alertas de somnolencia y comportamiento.
-- Logística de cadena de frío o con sensibilidad de temperatura: combine con un sensor de temperatura opcional para monitorizar condiciones ambientales junto a la posición GPS.
+- Seguimiento de flotas mixtas para autos, camiones, motocicletas y vehículos eléctricos ligeros con monitoreo unificado.
+- Flujos de trabajo antirobo y recuperación utilizando corte remoto del motor y alertas por corte de alimentación externa.
+- Prevención de robo de combustible y reportes de consumo cuando se conecta un sensor de combustible compatible.
+- Monitoreo de seguridad y cumplimiento del conductor con sensores opcionales de alcohol, choque y fatiga.
+- Logística y verificación de rutas con reproducción de trazas históricas para análisis operativo.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El MT01 ofrece un equilibrio práctico entre hardware robusto y características de grado de flota que lo convierten en una opción sólida para empresas que implementan tracking GPS compatible con Plaspy a través de diversos tipos de vehículos. Su tolerancia a un rango amplio de voltaje, su diseño compacto y resistente a la intemperie y su soporte multibanda reducen la fricción de instalación y mejoran la disponibilidad para telemetría y seguimiento en tiempo real. El registro de datos integrado conserva trazas ante posibles lagunas de cobertura, mientras que las entradas inteligentes y los sensores opcionales permiten a los gestores de flotas añadir monitorización de combustible, alarmas de seguridad del conductor y control del inmovilizador antirobo sin retrofits complejos.
+El MT01 ofrece una combinación equilibrada de hardware robusto y funciones orientadas a flotas, ideal para organizaciones que buscan un rastreo confiable compatible con Plaspy. Su tolerancia a voltajes variados y diseño compacto resistente a la intemperie reducen la complejidad de instalación en distintos tipos de vehículo, mientras que el registrador de datos integrado ayuda a mantener continuidad en los registros durante brechas de cobertura. La flexibilidad de entradas y sensores opcionales permite a las flotas ampliar sus capacidades de monitoreo con el tiempo sin necesidad de reemplazar el dispositivo.
 
-Combinado con Plaspy, el MT01 ofrece seguimiento en tiempo real fiable, alertas basadas en eventos e informes históricos para apoyar una gestión eficiente de la flota, flujos de anti-robo y telemetría operativa. Plaspy también admite sensores Bluetooth y otras integraciones periféricas a nivel de plataforma; si se requiere conectividad de sensores Bluetooth para una instalación particular, consulte a su integrador de Plaspy o al proveedor del MT01 para la compatibilidad de accesorios y opciones de configuración.
-
+Si está evaluando rastreadores para la gestión de flotas con Plaspy, el MT01 es una opción práctica cuando necesita un equipo discreto con alertas basadas en eventos y retención de datos offline. Para conocer más sobre Plaspy y cómo integrar dispositivos MT01 en un flujo de trabajo de gestión de flotas unificado visite https://www.plaspy.com. Las especificaciones, disponibilidad y detalles del fabricante pueden cambiar con el tiempo; verifique la información técnica y las opciones de accesorios actuales en el sitio oficial de TopShine https://www.gztopshine.com/.

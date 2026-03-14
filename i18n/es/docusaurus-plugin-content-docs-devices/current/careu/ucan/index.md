@@ -2,59 +2,59 @@
 slug: /careu/ucan
 id: ucan
 sidebar_label: UCAN
+title: CAREU - UCAN
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD-II CAREU UCAN plug and play compatible con Plaspy para seguimiento de flotas y telemetría vehicular en tiempo real
+keywords:
+  - CAREU UCAN
+  - Rastreador UCAN
+  - Rastreador CAREU
+  - UCAN Plaspy
+  - Compatible con Plaspy
+  - Rastreador OBD II
+  - Seguimiento de flotas
+  - Telemetría vehicular
+  - Rastreador GPS
+  - Comportamiento del conductor
 ---
+
 # CAREU - UCAN
 
 ![UCAN](./tracker.png)
 
-El CAREU UCAN GPS Tracker es un rastreador OBD-II compatible con Plaspy, plug-and-play, diseñado para un despliegue rápido en flotas de vehículos. Diseñado para proporcionar un seguimiento en tiempo real y telemetría del vehículo fiables, el UCAN se conecta directamente a cualquier puerto OBD-II estándar para comenzar a suministrar ubicación, estado del motor/encendido y diagnósticos OBD a Plaspy para una visibilidad inmediata de las operaciones y la seguridad de la flota.
+El CAREU UCAN es un rastreador GPS OBD-II plug and play pensado para despliegues rápidos en flotas de vehículos. Se conecta directamente al puerto OBD-II estándar y ofrece reporte continuo de ubicación y telemetría vehicular, entregando posición, estado del motor y del encendido, además de diagnósticos OBD a una plataforma central de seguimiento. El UCAN está diseñado para operaciones de flota, combinando registro a bordo, detección de eventos por acelerómetro y conectividad celular para mantener los vehículos visibles y monitorizados.
 
-Con conectividad 4G LTE \(Cat.1 / Cat.M\) y retroceso a 3G/2G donde sea necesario, soporte opcional de eSIM, una antena GPS/GSM integrada y un acelerómetro de 6 ejes, el UCAN está diseñado para gestión de flotas, monitorización anti-robos, análisis del comportamiento del conductor y monitorización de combustible, todo accesible a través de tu panel de Plaspy para informes y alertas consolidados.
+Como dispositivo compatible con Plaspy, el UCAN envía sus flujos de ubicación y telemetría a Plaspy para una supervisión consolidada de la flota. Su integración OBD-II lista para usar y sus sensores incorporados lo hacen adecuado para organizaciones que necesitan un despliegue rápido y visibilidad inmediata en los paneles de Plaspy para seguimiento, alertas e informes sin cambios complejos de hardware.
 
-## Key Highlights
+## Puntos clave
 
-- Instalación OBD-II plug-and-play compatible con Plaspy para un despliegue rápido de la flota y un tiempo de inactividad mínimo.
-- Conectividad 4G LTE Cat.1 / Cat.M con respaldo a 3G/2G \(según variante\) y soporte opcional de eSIM para roaming y aprovisionamiento flexibles.
-- Lee datos OBD-II del vehículo — kilometraje/odómetro, RPM, velocidad del vehículo, nivel de combustible, horas de funcionamiento y códigos de error DTC — permitiendo telemetría robusta y visión de mantenimiento.
-- Acelerómetro de 6 ejes integrado que detecta aceleración brusca, frenadas duras, eventos de impacto, virajes bruscos y vuelcos para el monitoreo de conducta y seguridad del conductor.
-- Amplia memoria de registro a bordo: hasta 200,000 registros de posición \(versión 4G\) y 150,000 registros \(versión 3G/2G\) para conservar el historial durante interrupciones de red.
-- Bluetooth 4.0 \(versión 4G\) para integrarse con sensores y accesorios Bluetooth cuando se requiera telemetría de sensores.
-- Soporta configuración remota y actualizaciones FOTA \(firmware over-the-air\) vía FTP para gestión centralizada y reducción de viajes de mantenimiento.
+- Instalación OBD-II plug and play para despliegues rápidos y mínimo tiempo de inactividad, compatible con Plaspy.
+- Conectividad celular con variantes 4G LTE modernas, opciones de respaldo y soporte para aprovisionamiento opcional de eSIM.
+- Acceso a datos OBD-II del vehículo como kilometraje, RPM, velocidad, nivel de combustible, horas de trabajo y códigos de diagnóstico DTC para soporte de mantenimiento.
+- Acelerómetro integrado de 6 ejes para detectar aceleraciones bruscas, frenadas fuertes, impactos y curvas agresivas enfocado en la seguridad.
+- Amplia memoria de registro a bordo para preservar el historial de posiciones durante interrupciones de red, garantizando continuidad de registros.
+- Bluetooth 4.0 opcional (variante 4G) y gestión remota FOTA para integración de sensores y actualizaciones centralizadas de dispositivos.
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-El UCAN se integra directamente con Plaspy para proporcionar flujos de datos continuos del rastreador GPS compatibles con Plaspy. Una vez conectado al puerto OBD-II del vehículo, el dispositivo recopila posición GNSS y telemetría OBD, y transmite paquetes seguros a Plaspy a través de redes celulares. Los responsables de flotas pueden ver el seguimiento en tiempo real, configurar alertas y generar informes desde Plaspy sin cambios de hardware adicionales.
+Al instalarse en un vehículo, el UCAN recopila posición GNSS y telemetría OBD y transmite esos datos por redes celulares a Plaspy. Los responsables de flota y los equipos de operaciones podrán acceder a esa información en la plataforma Plaspy para supervisión en tiempo real, análisis histórico y alertas configuradas. La integración se enfoca en ofrecer visibilidad continua y eventos accionables sin requerir hardware adicional ni integraciones complejas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento en vivo de la flota y monitorización de rutas.
-- Detección de estado del motor/encendido y diagnósticos OBD-II \(códigos DTC, RPM, velocidad\) para flujos de mantenimiento y cumplimiento.
-- Monitoreo de combustible mediante nivel de combustible OBD y lecturas de odómetro para apoyar la gestión de combustible y análisis de costos.
-- Eventos de conducción brusca e impactos capturados por el acelerómetro de 6 ejes y reportados a Plaspy para informes de desempeño del conductor y alertas de seguridad.
-- Soporte Bluetooth 4.0 \(versión 4G\) para conectar sensores o balizas Bluetooth y exponer datos de sensores dentro de los paneles de Plaspy.
+- Ubicación y telemetría en tiempo real enviados a Plaspy para seguimiento en vivo de la flota y monitoreo de rutas.
+- Estado del motor y del encendido, además de diagnósticos OBD disponibles en Plaspy para flujos de trabajo de mantenimiento y detección de fallas.
+- Lecturas de combustible y odómetro que alimentan informes de control de consumo y análisis de costos dentro de Plaspy.
+- Eventos del acelerómetro reportados a Plaspy para calificaciones de conductor, alertas de seguridad y revisión de incidentes.
+- Datos de sensores Bluetooth (cuando están disponibles) presentados en los paneles de Plaspy para enriquecer la telemetría con entradas de accesorios.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE \(Cat.1 / Cat.M\) con respaldo a 3G/2G según variante; soporte opcional de eSIM |
-| --- | --- |
-| Respaldo de red | Respaldo 3G / 2G donde esté soportado por la variante |
-| Datos OBD-II | Kilometraje/odómetro, RPM, nivel de combustible, velocidad del vehículo, horas de funcionamiento, códigos de error DTC OBD-II |
-| Sensores | Acelerómetro de 6 ejes integrado; batería interna de respaldo para registro limitado sin energía |
-| Antenas | Antenas GPS y GSM integradas |
-| Memoria | Hasta 200,000 registros de posición \(4G\); 150,000 registros de posición \(3G/2G\) |
-| Interfaces | Puerto OBD-II; accesorio opcional RS-232 y E/S digital \(solo 4G\); accesorio opcional de relé inalámbrico \(solo 4G\) |
-| Bluetooth | Bluetooth 4.0 disponible en la variante 4G para sensores y balizas Bluetooth |
-| Firmware y gestión | FOTA \(firmware over-the-air\) vía FTP; configuración remota de intervalos de reporte, geocercas y umbrales de alerta |
-| Forma | Unidad OBD-II compacta plug-and-play para montaje en vehículo/activo |
-
-## Casos de uso
-
-- Gestión de flotas y monitorización de rutas para logística, mensajería y servicios de entrega mediante seguimiento y telemetría en tiempo real.
-- Distribución de vacunas y productos sensibles a la temperatura, donde el historial de ubicación y el tiempo de entrega son críticos \(combínalo con alertas de Plaspy\).
-- Programas de comportamiento y seguridad del conductor que utilizan la detección de eventos mediante el acelerómetro para frenadas bruscas, aceleraciones y maniobras en curvas.
-- Monitoreo de combustible y programación de mantenimiento aprovechando el nivel de combustible OBD-II, el odómetro y datos DTC para mantenimiento predictivo.
-- Antirrobo y monitoreo de seguridad: alarmas de pérdida de energía/batería baja y accesorios de relé/digital I/O opcionales para integrarse con controles tipo inmovilizador cuando se configure.
+- Gestión de flotas y monitoreo de rutas para logística, paquetería y entregas que requieren seguimiento en vivo y telemetría.
+- Programas de seguridad y comportamiento del conductor que aprovechan eventos del acelerómetro para entrenamiento y análisis de incidentes.
+- Monitoreo de combustible y programación de mantenimiento usando nivel de combustible, odómetro y códigos de diagnóstico extraídos por OBD.
+- Prevención de robos y monitoreo de seguridad con visibilidad remota, registro de eventos y control opcional de accesorios para flujos de inmovilización.
+- Entregas de cadena de frío o sensibles al tiempo donde el historial de ubicación y las alertas oportunas aumentan la confiabilidad operativa cuando se combinan con notificaciones de Plaspy.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El CAREU UCAN ofrece una mezcla equilibrada entre comodidad plug-and-play y profundidad telemática, lo que lo convierte en una opción sólida para flotas que requieren instalación rápida, seguimiento en tiempo real confiable y telemetría detallada del vehículo. Como rastreador GPS compatible con Plaspy, UCAN alimenta la ubicación, diagnósticos OBD y datos de eventos directamente a Plaspy, habilitando una gestión unificada de la flota, análisis del desempeño del conductor y monitorización de combustible desde una única plataforma. La configuración remota y el soporte FOTA reducen las visitas de mantenimiento en el sitio, mientras que el eSIM opcional y Bluetooth amplían las opciones de conectividad e integración de sensores. Para operadores de flotas que buscan rastreadores de vehículos escalables y de fácil despliegue que soporten telemetría, flujos de anti-robo y reporting integral, UCAN ofrece valor práctico sin cableado complejo ni procesos de instalación prolongados.
+El CAREU UCAN combina una instalación sencilla con profundidad de telemetría a nivel vehicular, lo que lo convierte en una opción práctica para flotas que necesitan datos inmediatos en Plaspy sin cableado complejo ni configuraciones prolongadas. Su capacidad para reportar ubicación, diagnósticos OBD y eventos de acelerómetro brinda a los operadores los insumos esenciales para seguimiento, planificación de mantenimiento y programas de seguridad vial.
 
+To learn more about Plaspy and how compatible trackers like the UCAN can fit into your fleet management strategy visit https://www.plaspy.com. Please note that product specifications and availability can change over time; verify current details and official specifications on the manufacturer site https://www.systech-iot.com/.

@@ -2,56 +2,59 @@
 slug: /sentar/d38_x2
 id: d38_x2
 sidebar_label: D38-X2
+title: Sentar - D38-X2
 sidebar_class_name: menu_item_tracker
+description: Reloj GPS infantil Sentar D38-X2 compatible con Plaspy para ubicación en tiempo real y supervisión parental
+keywords:
+  - Sentar D38-X2
+  - rastreador GPS D38-X2
+  - reloj GPS Sentar
+  - rastreador GPS para niños
+  - compatible con Plaspy
+  - reloj GPS infantil
+  - rastreo en tiempo real
+  - supervisión parental
+  - reloj inteligente GPS
+  - seguimiento de ubicación
 ---
+
 # Sentar - D38-X2
 
 ![D38-X2](./tracker.jpg)
 
-El D38-X2 es un rastreador GPS para niños compatible con Plaspy, en formato de reloj inteligente diseñado para la seguridad, la comunicación y la comodidad diaria. Con Android 8.1, 1 GB de RAM y 8 GB de almacenamiento interno, el D38-X2 soporta aplicaciones de mensajería como WhatsApp, llamadas de voz bidireccionales y operación de apps de forma independiente —todo ello mientras ofrece una ubicación precisa mediante GPS, A-GPS, LBS y posicionamiento Wi‑Fi. Su carcasa de reloj extraíble y un diseño apto para niños lo convierten en un compañero cómodo y personalizable para la escuela, la vida familiar y el juego al aire libre.
+El D38-X2 es un rastreador GPS orientado a niños en forma de reloj inteligente, diseñado con énfasis en la seguridad, la comunicación y la comodidad diaria. Funciona sobre Android 8.1 con memoria y almacenamiento modestos, admite aplicaciones de mensajería populares como WhatsApp, permite llamadas de voz bidireccionales y ofrece posicionamiento mediante GPS, A-GPS, LBS y Wi‑Fi. Su carcasa removible y diseño pensado para niños lo hacen cómodo y adaptable para la escuela, la vida familiar y el juego al aire libre.
 
-Integrado con Plaspy, el D38-X2 se convierte en un punto final fiable para el seguimiento en tiempo real y la supervisión parental. La integración compatible con Plaspy permite a los cuidadores ver ubicaciones en vivo, recibir actualizaciones de estado del dispositivo y gestionar alertas a través de un panel único. El resultado es una experiencia de rastreador GPS diseñada para la seguridad infantil que encaja dentro de una plataforma telemática más amplia sin sacrificar la simplicidad ni la privacidad.
+Como dispositivo compatible con Plaspy, el D38-X2 actúa como un endpoint sencillo para la ubicación en tiempo real y el estado del dispositivo dentro de una plataforma centralizada de monitoreo. Al integrarlo con Plaspy, los cuidadores y administradores pueden ver ubicaciones en vivo, supervisar la conectividad y el estado básico del dispositivo, y recibir alertas configurables para que el reloj encaje en flujos de supervisión más amplios sin añadir complejidad.
 
-## Características Clave
+## Aspectos clave
 
-- Compatible con Plaspy: integra datos de ubicación y estado en Plaspy para un monitoreo centralizado y alertas.
-- Seguimiento en tiempo real: GPS y A-GPS con LBS y posicionamiento Wi‑Fi proporcionan actualizaciones de ubicación oportunas para la seguridad infantil.
-- Comunicación bidireccional: llamadas de voz y apps de mensajería \(con soporte para WhatsApp\) para un contacto directo con los cuidadores.
-- Dispositivo inteligente independiente: plataforma Android 8.1 con 1GB de RAM y 8GB de almacenamiento interno que admite apps y almacenamiento de datos locales.
-- Controles parentales: funciones integradas de monitoreo y gestión diseñadas para simplificar la supervisión y la configuración del dispositivo.
-- Personalizable y cómodo: carcasa de reloj extraíble y caras intercambiables hacen que el dispositivo sea apto para niños y personalizable.
-- Apto para las rutinas diarias: útil para registros escolares, monitoreo familiar y actividades al aire libre donde la ubicación confiable y la comunicación son lo más importante.
+- Compatible con Plaspy para monitoreo centralizado y generación de alertas entre dispositivos
+- Ubicación en tiempo real mediante GPS y A-GPS con asistencia por LBS y Wi‑Fi
+- Llamadas de voz bidireccionales y soporte para aplicaciones de mensajería como WhatsApp
+- Reloj inteligente independiente con Android 8.1 y almacenamiento local para apps y datos
+- Diseño físico amigable para niños con carcasa removible y carátulas intercambiables
+- Funciones integradas de supervisión parental para simplificar la configuración y el control
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el D38-X2 transmite datos del dispositivo e información de ubicación a la interfaz de Plaspy para que puedas monitorear la actividad, establecer geocercas y recibir alertas en tiempo real. La integración se centra en las salidas principales del dispositivo — ubicaciones, estado de conectividad y estado de la comunicación —, permitiendo a padres y administradores actuar rápidamente si un niño necesita ayuda.
+Cuando se conecta a Plaspy, el D38-X2 transmite sus datos principales al panel de Plaspy para que los cuidadores puedan monitorear movimiento, revisar el estado del dispositivo y configurar alertas desde una única interfaz. La integración prioriza las señales de ubicación y comunicación del dispositivo para ofrecer información oportuna orientada a la seguridad y la coordinación.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: coordenadas GPS/A-GPS, además de la asistencia de LBS y Wi‑Fi, alimentan Plaspy para un seguimiento casi en tiempo real.
-- Estado de llamadas y mensajería: los eventos de comunicación bidireccional y la disponibilidad de mensajería se pueden rastrear a través de la plataforma.
-- Posicionamiento asistido por Wi‑Fi y LBS: ubicaciones complementarias mejoran la precisión en entornos urbanos o interiores.
-- Eventos de control parental y salud del dispositivo: estado de conexión del dispositivo, disponibilidad de la app y notificaciones básicas de estado son visibles en Plaspy.
-- Alertas e informes centralizados: configure notificaciones para registros de presencia, inactividad prolongada o eventos fuera de zona a través del panel de Plaspy.
+- Actualizaciones de ubicación en vivo y historial de posiciones visibles dentro de Plaspy
+- Conectividad del dispositivo e indicadores básicos de estado disponibles para supervisión
+- Notificaciones y alertas por registros, eventos fuera de zona o inactividad prolongada
+- Visibilidad de eventos de comunicación, como llamadas entrantes o salientes y disponibilidad de mensajería
+- Informes centralizados para registros rutinarios y resúmenes de actividad
 
-## Resumen técnico
+## Casos de uso habituales
 
-| Modelo | D38-X2 |
-| --- | --- |
-| Sistema operativo | Android 8.1 |
-| Memoria | 1GB RAM |
-| Almacenamiento | 8GB de almacenamiento interno |
-| Posicionamiento \(GNSS\) | GPS, A-GPS, LBS, posicionamiento Wi‑Fi |
-| Comunicación | Llamadas de voz bidireccionales y apps de mensajería \(soporta WhatsApp y otras apps de Android\); funciona como un dispositivo inteligente independiente |
-| Factor de forma | Reloj inteligente de tamaño infantil con carcasa de reloj removible y caras intercambiables |
-| Controles & Gestión Parental | Funciones integradas de monitoreo y control parental para configuración y supervisión |
-
-## Casos de uso
-
-- Monitoreo familiar: rastreador GPS en tiempo real para que los padres verifiquen la ubicación del niño, coordinen recogidas y mantengan abiertas las vías de comunicación.
-- Rutinas seguras en la escuela: uso durante las horas escolares para registros y mensajería, manteniendo los controles de privacidad establecidos por los cuidadores.
-- Actividades al aire libre y viajes: posicionamiento confiable y llamadas bidireccionales durante caminatas, quedadas y viajes cortos.
-- Comunicación diaria: acceso rápido a llamadas y apps de mensajería para contacto y coordinación rutinarios entre cuidadores y niños.
+- Monitoreo familiar para comprobaciones de ubicación diarias y coordinación entre cuidadores
+- Registros escolares y rutinas supervisadas donde son útiles las actualizaciones rápidas de estado
+- Juego al aire libre y desplazamientos locales donde la localización en tiempo real y la comunicación son prioritarias
+- Salidas breves y diligencias para mantener la comunicación y la visibilidad de la ubicación
+- Entornos de cuidado donde un wearable sencillo ofrece seguridad y opciones de mensajería
 
 ## Por qué elegir este rastreador con Plaspy
 
-El D38-X2 está diseñado específicamente para la seguridad infantil y una supervisión parental directa, y al combinarlo con Plaspy se convierte en parte de una solución de monitoreo escalable. Los padres obtienen seguimiento en tiempo real, visibilidad de mensajes y una gestión simple del dispositivo sin complejidad innecesaria. Aunque el D38-X2 se centra en la seguridad personal en lugar de necesidades de telemetría de vehículos o telemetría industrial, la plataforma de Plaspy admite una amplia gama de dispositivos —desde relojes rastreadores GPS individuales hasta dispositivos de gestión de flotas con funciones de encendido o inmovilizador, monitoreo de combustible y sensores Bluetooth. Esto significa que puedes confiar en Plaspy para obtener una vista unificada entre tipos de dispositivos mientras utilizas el D38-X2 para un rastreo y comunicación centrados en el niño.
+El D38-X2 está diseñado pensando en la seguridad infantil y la supervisión sencilla, lo que lo hace una opción práctica para padres, tutores y organizaciones que requieren seguimiento portátil sin complicaciones. Su compatibilidad con mensajería y llamadas de voz, junto con múltiples métodos de posicionamiento, lo vuelve útil cuando se necesitan tanto conocimiento de ubicación como contacto directo.
 
+Integrado con Plaspy, el D38-X2 forma parte de un entorno de monitoreo más amplio que unifica la visibilidad del dispositivo, las alertas y los informes entre distintos tipos de equipos. Para obtener más información sobre Plaspy y cómo se gestionan los dispositivos compatibles, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica más reciente en el sitio del fabricante http://www.sentarsmart.com/.

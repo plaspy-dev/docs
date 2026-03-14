@@ -2,61 +2,62 @@
 slug: /okb_tehnoavtomatika/mta_glonass_ver12m_can_fms
 id: mta_glonass_ver12m_can_fms
 sidebar_label: MTA-Glonass (ver.12M-CAN FMS)
+title: OKB Tehnoavtomatika - MTA-Glonass (ver.12M-CAN FMS)
 sidebar_class_name: menu_item_tracker
+description: Terminal vehicular GLONASS compacto compatible con Plaspy para seguimiento en tiempo real telemetría CAN FMS y monitoreo de combustible
+keywords:
+  - MTA-Glonass
+  - OKB Tehnoavtomatika
+  - compatible con Plaspy
+  - rastreador GLONASS GPS
+  - rastreador CAN FMS
+  - seguimiento de flotas
+  - telemetría vehicular
+  - monitoreo de combustible
+  - seguimiento en tiempo real
+  - rastreador para vehículos comerciales
 ---
+
 # OKB Tehnoavtomatika - MTA-Glonass (ver.12M-CAN FMS)
 
 ![MTA-Glonass (ver.12M-CAN FMS)](./tracker.jpg)
 
-El MTA-Glonass \(ver.12M-CAN FMS\) es un terminal compacto de monitorización de vehículos diseñado para el rastreo de flotas y telemática por satélite. Diseñado para vehículos comerciales, este rastreador GPS compatible con Plaspy aprovecha un receptor GNSS de 50 canales \(GLONASS/GPS\) y comunicaciones GSM para ofrecer un seguimiento en tiempo real y telemetría de gestión de flotas a los paneles y sistemas de alertas de Plaspy.
+El MTA-Glonass (ver.12M-CAN FMS) es un terminal compacto de monitoreo vehicular diseñado para el rastreo y la telemática basados en satélites. Pensado para vehículos comerciales, este rastreador compatible con Plaspy integra un receptor GNSS multicanal con comunicaciones celulares para ofrecer reportes de posición continuos y telemetría del vehículo, adecuados para supervisión operativa y generación de informes.
 
-Con conectividad CAN FMS nativa para camiones pesados, múltiples entradas de combustible, almacenamiento de eventos no volátil y un amplio rango de alimentación DC, el MTA-Glonass \(ver.12M-CAN FMS\) está optimizado para la operación continua del vehículo. Su bajo consumo, batería interna de respaldo y conjunto de interfaces robustas lo convierten en una opción práctica para la integración con Plaspy en flujos de trabajo de antirrobo, monitorización de combustible y diagnósticos remotos.
+Al exponer parámetros del bus del vehículo y opciones de detección de combustible, además de almacenar registros de eventos, el MTA-Glonass se integra de forma natural con Plaspy para la supervisión de flotas. Su conjunto de funciones responde a necesidades comunes como seguimiento en tiempo real, monitoreo de combustible, historial de eventos e ingestión de telemetría vehicular, lo que lo convierte en una opción práctica para usar con los paneles y flujos de alertas de Plaspy.
 
-## Aspectos destacados
+## Aspectos clave
 
-- Rastreador GPS compatible con Plaspy: integra la posición GNSS y la telemetría del vehículo para seguimiento en tiempo real e informes.
-- Conexión CAN FMS: soporte nativo para CAN FMS de camiones pesados \(DAF, Scania, MAN, etc.\) permite la ingestión de telemetría del motor y del vehículo.
-- Detección de combustible integral: entradas de contacto seco y ADC analógico para sensores de frecuencia/pulsos y medición directa del nivel de combustible en el tanque.
-- Rendimiento GNSS fiable: receptor de alta sensibilidad de 50 canales GPS/GLONASS; tiempo de puesta en marcha ≤ 1 minuto para un acoplamiento rápido.
-- Amplio soporte de alimentación para vehículos y batería de respaldo: funcionamiento de 9–68 V DC con una batería interna recargable \(~600 mAh\) para ≥6 horas en espera.
-- Memoria rica en eventos y bajo consumo: almacena miles de registros de eventos no volátiles y funciona de forma eficiente en modos activo/espera/dormido.
-- Diseño compacto centrado en el vehículo: huella reducida y masa ligera para una instalación discreta en flotas comerciales.
+- Compatible con Plaspy para reportes de ubicación y telemetría en tiempo real hacia una plataforma centralizada de gestión de flotas.
+- Soporte dual GNSS que proporciona posicionamiento satelital robusto para operaciones de vehículos comerciales.
+- Conectividad CAN FMS nativa para acceder a parámetros del bus del vehículo utilizados habitualmente en camiones pesados.
+- Múltiples entradas para sensores de combustible y opciones analógicas para soportar monitoreo de nivel de combustible y detección de sustracción.
+- Almacenamiento de eventos en memoria no volátil que conserva registros para su posterior carga y auditoría.
+- Amplio rango de entrada de CC y batería interna de respaldo diseñados para soportar la operación continua del vehículo.
+- Factor de forma compacto y orientado a vehículos, adecuado para integraciones discretas en flotas comerciales.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el MTA-Glonass \(ver.12M-CAN FMS\) envía coordenadas GNSS y telemetría del vehículo a través de GSM \(GPRS, canal de datos, SMS\) a la plataforma Plaspy. Plaspy utiliza estos flujos para proporcionar seguimiento en tiempo real, alertas personalizables e informes históricos para gestores de flotas. La integración se centra en mapear parámetros CAN FMS a campos de telemetría de Plaspy, traducir entradas de sensores de combustible en eventos de consumo y entregar registros de eventos para cumplimiento y auditoría.
+Una vez conectado a Plaspy, el MTA-Glonass transmite coordenadas GNSS y telemetría del vehículo a la plataforma, donde los datos se normalizan en mapas, alertas e informes. Plaspy consume actualizaciones de posición, valores CAN FMS y eventos de sensores de combustible para que los gestores de flota puedan supervisar vehículos, investigar incidentes y generar análisis históricos desde una única interfaz.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a través del canal GPRS/DATA y respaldo por SMS.
-- Ingesta de telemetría CAN FMS: horas de motor, RPM, velocidad, consumo de combustible y otros datos del bus cuando estén disponibles.
-- Monitoreo de combustible: entradas de pulso y contacto seco, y entradas ADC analógicas alimentan el nivel de combustible y el análisis de consumo en Plaspy.
-- Monitoreo de temperatura mediante entrada opcional de sensor 1-Wire \(integrado en los informes de Plaspy cuando se use\).
-- Control remoto y flujos de anti-robo: la salida de colector abierto opcional puede usarse para controlar actuadores externos \(por ejemplo, relés de inmovilización\) cuando se coordina mediante las herramientas de comandos de Plaspy.
+- Actualizaciones de ubicación en tiempo real e historial de posiciones para visibilidad de rutas y reproducción en Plaspy.
+- Ingestión de telemetría CAN FMS para mostrar parámetros del motor y del vehículo en paneles e informes de Plaspy.
+- Entradas de monitoreo de combustible transformadas en eventos de consumo y alertas por anomalías para conciliación en Plaspy.
+- Reenvío de eventos y alarmas para que Plaspy notifique a los operadores según condiciones predefinidas como movimiento o umbrales de sensores.
+- Exportación y reporte de eventos históricos para apoyar cumplimiento normativo, auditorías y planificación de mantenimiento.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | GSM \(GPRS, canal de datos dedicado, SMS\); GNSS \(GLONASS/GPS\) |
-| --- | --- |
-| Bandas | GSM 900 / 1800 |
-| Alimentación y Batería | Entrada DC 9–68 V; batería interna recargable ≈ 600 mAh que proporciona ≥ 6 horas en espera |
-| Interfaces | CAN bus \(CAN FMS\), 1 entrada de contacto seco \(activada a tierra\), 1 entrada ADC analógica \(hasta 12 V\), entrada opcional 1-Wire, salida opcional de colector abierto \(≤50 V, ≤1.5 A\) |
-| GNSS | Receptor de alta sensibilidad de 50 canales GPS/GLONASS; tiempo de puesta en marcha ≤ 1 minuto |
-| Bluetooth | No incluido / No especificado |
-| Consumo de energía | Activo ≤ 110 mA @ 12 V; En espera ≤ 35 mA @ 12 V; Dormido ≤ 20 mA @ 12 V |
-| Eventos y memoria | Hasta 64 eventos configurables; almacenamiento no volátil \(capacidad típica ~16,000 a 125,000 registros dependiendo de la configuración\) |
-| Protección y formato | Carcasa IP30; dimensiones ≤ 90 × 65 × 30 mm; masa ≤ 200 g |
-| Gestión remota | No especificado |
-
-## Casos de uso
-
-- Gestión de flotas para camiones pesados: ingestión de telemetría CAN FMS en Plaspy para la optimización de rutas, puntuación de conductores y planificación de mantenimiento.
-- Monitoreo y control del nivel de combustible: combinar entradas analógicas y de pulso para detectar robo de combustible, medir el consumo y reconciliar eventos de abastecimiento.
-- Flujos de antirrobo y desactivación remota: usar disparadores de eventos y la salida de colector abierto opcional a través de Plaspy para deshabilitar o alertar ante movimientos no autorizados.
-- Cadenas de frío o cargas sensibles a la temperatura: conectar un sensor de temperatura 1-Wire y enviar datos ambientales a Plaspy para cumplimiento y alertas.
-- Diagnósticos remotos y telemetría: capturar datos del motor y del bus del vehículo para apoyar el mantenimiento preventivo y reducir el tiempo de inactividad.
+- Gestión de flota de camiones pesados que requiere datos del bus del vehículo para planificación de mantenimiento y análisis del rendimiento del conductor.
+- Monitoreo del nivel de combustible y detección de robo mediante entradas por pulso y analógicas con conciliación en Plaspy.
+- Flujos de trabajo contra robo e inmovilización remota coordinados mediante alertas y rutinas de control en Plaspy.
+- Monitoreo de carga sensible a la temperatura combinando entradas de sensores ambientales con registros posicionales en Plaspy.
+- Diagnóstico remoto y captura de telemetría para reducir paradas no planificadas y apoyar el mantenimiento preventivo.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El MTA-Glonass \(ver.12M-CAN FMS\) ofrece un conjunto de funciones centrado en flotas que requieren posicionamiento fiable GLONASS/GPS, telemetría detallada del vehículo a través de CAN FMS y opciones robustas de detección de combustible. Su amplio rango de voltaje de entrada y la batería de respaldo interna lo hacen adecuado para vehículos comerciales pesados, mientras que su consumo optimizado reduce el impacto en los sistemas eléctricos del vehículo. Cuando se utiliza con Plaspy, este rastreador GPS permite seguimiento en tiempo real, paneles de telemetría avanzados, analítica de monitoreo de combustible y flujos de anti-robo — todo entregado a través de canales GPRS/DATA y SMS estándar para comunicaciones confiables en el campo.
+El MTA-Glonass (ver.12M-CAN FMS) está orientado a la telemetría centrada en el vehículo y a la fiabilidad operativa, lo cual se alinea con las necesidades de las flotas comerciales. Su capacidad para exponer posicionamiento GNSS, parámetros CAN FMS y múltiples opciones de detección de combustible lo convierte en una opción práctica para organizaciones que desean visibilidad consolidada en Plaspy sin añadir complejidad innecesaria.
 
-Elija el MTA-Glonass \(ver.12M-CAN FMS\) como una solución compatible con Plaspy que se centra en la fiabilidad operativa, telemetría centrada en el vehículo y E/S práctica para la integración de combustible y sensores. Para flotas que requieren posicionamiento preciso, integración CAN FMS y recopilación de datos rica en eventos para análisis y cumplimiento, este terminal ofrece una plataforma compacta y orientada a la industria para una gestión inteligente de la flota.
+Combinado con Plaspy, este terminal ayuda a convertir las señales del vehículo en información accionable para enrutamiento, análisis de combustible, respuesta a incidentes y supervisión de mantenimiento. Para flotas que priorizan seguimiento constante, datos ricos en eventos e integración con el bus del vehículo, el MTA-Glonass ofrece un terminal compacto y orientado a flotas que se integra en flujos de trabajo impulsados por Plaspy.
 
+Para obtener más información sobre Plaspy y cómo dispositivos compatibles como el MTA-Glonass pueden encajar en su estrategia de gestión de flotas, visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que por favor verifique los detalles técnicos y la información de compatibilidad actuales con el fabricante en http://www.okb-ta.ru/.

@@ -2,61 +2,60 @@
 slug: /jointech/jt802
 id: jt802
 sidebar_label: JT802
+title: Jointech - JT802
 sidebar_class_name: menu_item_tracker
+description: Cerradura esclava de válvula Jointech JT802 compatible con Plaspy para control seguro de válvulas, reportes de alarma y operaciones de cisterna más seguras
+keywords:
+  - Jointech JT802
+  - JT802 cerradura de válvula
+  - esclavo de válvula para camión cisterna
+  - compatible con Plaspy
+  - cerradura de válvula con seguridad intrínseca
+  - desbloqueo offline por Bluetooth
+  - control remoto de válvulas
+  - integración de telemetría de flotas
+  - seguridad para cisternas
+  - registro de eventos de válvula
 ---
+
 # Jointech - JT802
 
 ![JT802](./tracker.jpg)
 
-El JT802 de Jointech es un bloqueo esclavo de válvula para camión cisterna inteligente, diseñado para un control seguro y de bajo consumo en instalaciones de múltiples válvulas. Diseñado para operar junto a cerraduras maestras de Jointech \(como JT701D y JT701L\), el JT802 añade control de válvula seguro y gestión remota de eventos a flotas compatibles con Plaspy y pilas de telemetría. Su certificación de seguridad intrínseca y su compatibilidad con terminales portátiles intrínsecamente seguros lo hacen adecuado para entornos peligrosos como el transporte de combustibles y petróleo.
+El Jointech JT802 es una cerradura inteligente esclava para válvulas de camión cisterna diseñada para ofrecer un control seguro y de bajo consumo en instalaciones con múltiples válvulas. Pensada para operar junto con cerraduras maestras Jointech como la JT701D y la JT701L, la JT802 añade capacidades de control remoto y registro de eventos, cumpliendo además con los requisitos de seguridad intrínseca para entornos con combustible y petróleo peligrosos.
 
-Al ser un dispositivo compatible con Plaspy, el JT802 complementa las soluciones de rastreo con GPS y plataformas de seguimiento en tiempo real al proporcionar el estado de bloqueo de la válvula, eventos de alarma y datos de reproducción de rutas que se integran con la gestión de flotas, flujos de trabajo anti-robo y procesos de monitorización de combustible. Soporta tanto el desbloqueo remoto en línea a través del master lock como el desbloqueo fuera de línea por Bluetooth para equipos de campo, ofreciendo a los operadores de los camiones cisterna un control de acceso flexible y auditable para las operaciones diarias y la respuesta ante emergencias.
+Como dispositivo compatible con Plaspy, la JT802 complementa a los rastreadores GPS y a las plataformas de flota mostrando el estado de las cerraduras de válvula, eventos de alarma y datos temporales junto con la información de posición. Esto permite controlar el acceso de forma coordinada, contar con flujos de desbloqueo auditables y obtener reproducciones de rutas más claras para operadores de cisternas que usan Plaspy para la supervisión y gestión operativa.
 
-## Puntos destacados
+## Aspectos clave
 
-- Bloqueo esclavo de válvula compatible con Plaspy que funciona con cerraduras maestras de Jointech \(JT701D / JT701L\) para ampliar implementaciones de camiones cisterna con múltiples válvulas.
-- Desbloqueo remoto en línea y desbloqueo fuera de línea por Bluetooth en sitio, para un control de acceso flexible entre operaciones de campo y centrales.
-- Operación de bajo consumo y a largo plazo con una batería desechable de litio manganeso para una vida de servicio fiable en flotas remotas.
-- Certificación de seguridad intrínseca \(a prueba de explosiones\) y compatibilidad con terminales portátiles intrínsecamente seguros para uso seguro en entornos peligrosos de combustible y petróleo.
-- Monitoreo en tiempo real y reproducción de rutas históricas en plataformas compatibles para una respuesta ante incidentes más rápida y una trazabilidad de auditoría clara.
-- Configuración remota de parámetros del producto para simplificar las implementaciones de la flota y reducir las visitas de servicio en campo.
-- Combina datos de las cerraduras maestras y la posición de teléfonos móviles para proporcionar una temporización y contexto de ubicación precisos de los activos, sin asumir una unidad GNSS integrada a bordo.
+- Cerradura esclava de válvula compatible con Plaspy que se integra con cerraduras maestras Jointech para escalar instalaciones de múltiples válvulas
+- Soporta desbloqueo remoto en línea a través de la cerradura maestra y desbloqueo offline por Bluetooth para el personal en sitio
+- Diseño de bajo consumo con batería desechable de litio-manganeso para una larga vida útil en flotas remotas
+- Certificación de seguridad intrínseca y compatibilidad con terminales portátiles intrínsecamente seguros para entornos peligrosos
+- Estado en tiempo real y reproducción histórica de eventos para ayudar en la respuesta a incidentes y en auditorías
+- Configuración remota de parámetros para simplificar despliegues y reducir las intervenciones de servicio en campo
 
 ## Cómo funciona con Plaspy
 
-El JT802 se integra en flujos de trabajo compatibles con Plaspy reportando el estado de la válvula, alarmas y datos de temporización recopilados en cooperación con una cerradura maestra de Jointech y dispositivos portátiles. Cuando se empareja con una flota habilitada para Plaspy, los eventos y actualizaciones de estado del JT802 se muestran junto con los datos de posición de los rastreadores GPS y otra telemetría para crear una visión operativa unificada.
+La JT802 envía eventos de válvula y estados a flotas habilitadas con Plaspy coordinándose con una cerradura maestra Jointech y terminales portátiles compatibles. En Plaspy, estos eventos se muestran junto a los datos del rastreador GPS para generar una visión operacional unificada que vincula el control de acceso con la ubicación y el tiempo.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: los eventos de válvula y la temporización se vinculan con la posición de la cerradura maestra y del teléfono móvil para una conciencia situacional en los paneles de Plaspy.
-- Desbloqueo remoto en línea: los operadores centrales pueden desbloquear válvulas de forma remota a través de la ruta de la cerradura maestra cuando esté permitido.
-- Desbloqueo fuera de línea por Bluetooth: los equipos de campo pueden realizar el desbloqueo in situ utilizando un terminal portátil intrínsecamente seguro con Bluetooth, incluso cuando no hay conectividad de red.
-- Informes de alarmas y estado: el estado de bloqueo de la válvula y los eventos de alarma se transmiten para permitir respuestas oportunas y notificaciones automáticas en Plaspy.
-- Control simultáneo: la plataforma en la nube y el terminal portátil pueden gestionar ambos JT802, habilitando flujos de trabajo coordinados y registro de auditoría.
+- Vincule marcas de tiempo de eventos de válvula con las posiciones del rastreador para aportar contexto en la reproducción de rutas e investigaciones
+- Permita que los operadores centrales realicen desbloqueos remotos autorizados a través de la vía de la cerradura maestra y visualicen el resultado en Plaspy
+- Habilite a las cuadrillas en campo a desbloquear en sitio usando terminales portátiles intrínsecamente seguros con Bluetooth cuando la conectividad sea limitada
+- Muestre reportes de alarma y estado en Plaspy para apoyar notificaciones oportunas y la respuesta operativa
+- Mantenga el control coordinado y el registro de auditoría cuando tanto la nube como los terminales portátiles interactúan con la JT802
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Model | JT802 |
-| --- | --- |
-| Fabricante | Jointech \(diseñado para funcionar con cerraduras maestras JT701D / JT701L\) |
-| Conectividad | Comunicación esclava con cerraduras maestras de Jointech; desbloqueo en línea remoto a través de la cerradura maestra; Bluetooth para desbloqueo fuera de línea en el sitio y emparejamiento con terminales portátiles |
-| Bands | No especificado \(la comunicación depende de la cerradura maestra y de la conectividad de la plataforma\) |
-| Alimentación & Batería | Batería desechable de litio manganeso para operación de bajo consumo y a largo plazo |
-| Interfaces | Interfaz de bloqueo maestro-esclavo; control remoto de desbloqueo; informes de alarmas hacia el maestro/nube; interfaz Bluetooth para terminales portátiles |
-| GNSS / Posicionamiento | Posicionamiento derivado de la combinación de datos de la cerradura maestra y de la posición del teléfono móvil; no se especifica un módulo GNSS independiente para JT802 |
-| Bluetooth | Soporte Bluetooth para desbloqueo fuera de línea y emparejamiento con terminales portátiles intrínsecamente seguros |
-| Gestión remota | Configuración remota de parámetros del producto; la nube y el terminal portátil pueden controlar el dispositivo simultáneamente |
-| Seguridad & Certificación | Certificación de seguridad intrínseca \(a prueba de explosiones\); compatible con terminales portátiles intrínsecamente seguros |
-| Formato | Bloqueo esclavo de válvula para camiones cisterna y sistemas de camión-tanque con múltiples válvulas |
+- Gestión de distribución de combustible coordinando acceso a válvulas, tiempos de entrega y registros de auditoría en rutas con múltiples paradas
+- Monitoreo antirrobo para detectar y reportar actividad no autorizada en válvulas y facilitar la intervención rápida
+- Supervisión del transporte de cisternas vinculando eventos de válvulas con la reproducción de rutas para cumplimiento y revisión de incidentes
+- Logística segura de petróleo en ubicaciones peligrosas donde se requiere certificación de seguridad intrínseca e interoperabilidad con terminales portátiles
 
-## Casos de uso
+## Por qué elegir este dispositivo con Plaspy
 
-- Gestión de distribución de combustible: coordinar el acceso a válvulas, la temporización de entregas y las trazas de auditoría en rutas con múltiples paradas cuando se utiliza con Plaspy y rastreadores GPS.
-- Protección contra robos: detectar y reportar actividad no autorizada de válvulas o eventos de alarma en tiempo real para reducir pérdidas de combustible y facilitar intervenciones rápidas.
-- Monitoreo del transporte de tanques: vincular eventos de válvula y reproducción de rutas para cumplir con normativas, gestionar despachos y esclarecer incidentes.
-- Operaciones logísticas seguras de petróleo: desplegar en entornos peligrosos con certificación de seguridad intrínseca y control portátil interoperable para flujos de trabajo en campo seguros.
+Aunque la JT802 funciona como una cerradura esclava de válvula y no como un rastreador GPS independiente, amplía la visibilidad de la flota cuando se usa con Plaspy al incorporar el control de acceso y los eventos de alarma al mismo flujo telemétrico que los datos de posición. Esta vista combinada ayuda a los operadores a optimizar los procesos antirrobo, mejorar la supervisión del combustible y conservar registros de auditoría más claros en las operaciones con cisternas.
 
-## Por qué elegir este rastreador con Plaspy
+El equipo está diseñado para intervalos de servicio prolongados y para un despliegue seguro en entornos peligrosos. Su soporte tanto para desbloqueo remoto en línea como para desbloqueo offline por Bluetooth ofrece opciones de control flexibles y auditables. Para organizaciones que usan Plaspy para centralizar la supervisión de flotas y la gestión operativa, la JT802 aporta un componente interoperable que complementa a los rastreadores GPS y a los flujos de trabajo con terminales portátiles.
 
-Aunque el JT802 es un bloqueo de válvula y no un rastreador GPS independiente, está diseñado para integrarse de forma estrecha con flotas y sistemas de telemetría compatibles con Plaspy. Al combinar el estado de válvula y los eventos de alarma con los flujos de ubicación de los rastreadores GPS y los datos de gestión de flotas, el JT802 extiende el seguimiento en tiempo real y la telemetría hasta la capa de control de accesos de las operaciones de camiones cisterna. Esta visibilidad combinada ayuda a los operadores a reducir riesgos, optimizar la monitorización del combustible y los procesos anti-robo, y mantener el cumplimiento normativo y de seguridad.
-
-El diseño de bajo consumo del JT802 y su batería desechable de litio manganeso reducen los costos de mantenimiento, mientras que la configuración remota y el control simultáneo en la nube y en el terminal aceleran las implementaciones y reducen el costo total de propiedad. La certificación de seguridad intrínseca y el desbloqueo fuera de línea por Bluetooth mediante terminales portátiles seguros permiten desplegar el dispositivo en rutas y instalaciones de alto riesgo con confianza. Para operadores de camiones-tanque que buscan mejorar la gestión de la flota, la telemetría y los flujos de seguridad en Plaspy, el JT802 es un componente práctico e interoperable que complementa rastreadores GPS, conjuntos de datos de encendido/inmovilización, sistemas de monitorización de combustible y sensores Bluetooth ya en uso.
-
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current specifications on the manufacturer's official website https://www.jointcontrols.com/.

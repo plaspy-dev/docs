@@ -2,64 +2,59 @@
 slug: /itriangle/ts101_advance
 id: ts101_advance
 sidebar_label: TS101 Advance
+title: iTriangle - TS101 Advance
 sidebar_class_name: menu_item_tracker
+description: Rugged iTriangle TS101 Advance GPS tracker compatible with Plaspy for reliable vehicle monitoring fleet tracking and anti theft workflows
+keywords:
+  - iTriangle TS101 Advance
+  - TS101 Advance Plaspy
+  - TS101 Advance GPS tracker
+  - iTriangle tracker Plaspy
+  - fleet management tracker
+  - vehicle tracking device
+  - anti theft GPS
+  - real time tracking
+  - multi constellation GNSS
+  - rugged GPS tracker
 ---
+
 # iTriangle - TS101 Advance
 
 ![TS101 Advance](./tracker.png)
 
-The TS101 Advance GPS tracker is a rugged, Plaspy compatible telematics device built for reliable vehicle monitoring, security, and fleet management. Designed for demanding outdoor environments, the TS101 Advance combines multi-constellation GNSS positioning, 2G cellular connectivity, on-board motion sensors, and robust I/O for accessory integration to deliver continuous real-time tracking and actionable telemetry to the Plaspy platform.
+The TS101 Advance is a rugged telematics tracker from iTriangle designed for reliable vehicle monitoring, security, and fleet management. Built for demanding outdoor use, the device provides continuous real-time positioning together with on board motion sensing and robust inputs and outputs for accessory integration, enabling sustained tracking and event reporting in commercial and public transport environments.
 
-Ideal for fleets, commercial transport, and anti-theft deployments, the TS101 Advance supports remote diagnostics and configuration via SMS, USB, TCP/IP, or Bluetooth and receives OTA/FOTA firmware updates. With tamper alerts, ignition detection, and an internal backup battery, this GPS tracker provides resilient, business-grade tracking that integrates smoothly into Plaspy for reporting, alerts, and operational workflows.
+As a Plaspy compatible device, the TS101 Advance can stream positioning, motion events, and discrete I O state changes into the Plaspy platform for visualization, alerting, and reporting. Its combination of resilient hardware and remote management capabilities makes it a practical choice where durable tracking and actionable telemetry are required within Plaspy driven workflows.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for reliable real-time tracking and fleet management integration.
-- Multi-constellation GNSS \(GPS, GLONASS, Galileo, BeiDou\) for improved position accuracy in challenging environments.
-- Built-in accelerometer and gyroscope for driving behavior analytics, motion detection, and harsh event logging.
-- Rugged IP65 enclosure with wide operating temperature range for outdoor and heavy-duty vehicle use.
-- Internal 850mAh backup battery providing up to ~6 hours autonomous operation after power loss.
-- Comprehensive I/O: analog and digital inputs, digital outputs and RS232 for sensors, immobilizer relay, and fuel monitoring integration.
-- Remote management via BLE, TCP/IP, SMS, USB and OTA/FOTA for easy configuration and firmware updates.
+- Plaspy compatible tracker designed for continuous real time vehicle monitoring and security.
+- Multi constellation GNSS positioning to improve location reliability in challenging environments.
+- Built in motion sensing for event detection, driving behavior context, and incident logging.
+- Rugged enclosure and extended operating range for heavy duty outdoor and transport deployments.
+- Robust I O options to integrate with external accessories and vehicle control features.
+- Internal backup battery and tamper detection to support resilience and anti theft scenarios.
 
 ## How It Works with Plaspy
 
-Integrating the TS101 Advance with Plaspy enables consistent real-time tracking, telemetry collection, and automated alerts. The device streams GNSS positions, accelerometer/gyroscope events, and I/O state changes over TCP/IP or cellular links to Plaspy, where you can visualize live location, run fleet management reports, and trigger anti-theft workflows.
+When integrated with Plaspy the TS101 Advance sends location updates, motion events, and I O changes to the platform where fleet operators can view live location, review historical routes, and create event driven rules or alerts. Plaspy ingests the device streams and logged records so teams can combine real time visibility with reporting and operational oversight.
 
-- Real-time location and telemetry updates transmitted to Plaspy for live mapping and historical route analysis.
-- Ignition detection and digital input status feed into Plaspy for ignition-based reports and event rules.
-- Fuel monitoring via analog inputs \(supports integration with external fuel sensors\) and telemetry logging.
-- Remote immobilizer/relay control using digital outputs to support anti-theft and immobilization workflows from Plaspy.
-- Bluetooth sensors and BLE beacons supported for local telemetry \(temperature, cargo sensors, or proximity\) and asset context inside Plaspy.
+- Live location updates and historical route playback for fleet tracking and route analysis.
+- Motion and event notifications feeding into Plaspy alerts for tamper, harsh events, or immobilization triggers.
+- Digital and analog input status available to Plaspy for ignition based reports, fuel monitoring, and external sensor context.
+- Remote control actions such as relay or immobilizer commands managed from platform workflows where supported.
+- Logged records uploaded to Plaspy for offline recovery and compliance reporting.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | TS101 Advance |
-| --- | --- |
-| Connectivity | 2G \(GSM\) with TCP/IP, SMS; BLE 4.x \(Bluetooth Low Energy\) |
-| Bands | 2G: 900 / 1800 MHz |
-| Power & Battery | Input 9–32V DC; Sleep mode current ~5mA; Backup battery 850mAh Li-ion \(~6 hours operation\) |
-| Inputs / Outputs | 2 analog inputs, 4 digital inputs, 2 digital outputs, 1 RS232 interface |
-| GNSS | GPS, GLONASS, Galileo, BeiDou |
-| Sensors | Built-in accelerometer and gyroscope \(driving behavior and motion detection\) |
-| Bluetooth | BLE 4.x for sensor and configuration connectivity |
-| Remote Management | Configuration and diagnostics via SMS, USB, TCP/IP, Bluetooth; OTA/FOTA firmware updates |
-| Data Logging | 128 Mbit internal memory \(up to ~40,000 records\) |
-| Protection & Durability | IP65 enclosure; compliant with vibration, thermal shock, mechanical shock, and electrical transient standards \(ISO 16750, ISO 7637\) |
-| Operating Temperature | -25°C to +85°C |
-| Form Factor | Dimensions 120 × 68 × 34 mm; Weight 206 g; internal GSM, GNSS and BLE antennas |
-
-## Use Cases
-
-- Fleet tracking and telematics for dispatch, route compliance, and driver behavior monitoring.
-- Anti-theft and immobilization: remote relay control and tamper/panic alerts to secure vehicles in critical events.
-- Fuel monitoring systems using analog inputs to help detect consumption patterns and unauthorized refueling.
-- Driver behavior analytics with accelerometer/gyroscope data for coaching, safety programs, and insurance telematics.
-- Remote vehicle diagnostics and public/commercial transport security with durable, weather-resistant installation.
+- Fleet dispatch and route compliance monitoring for commercial transport operations.
+- Anti theft deployments with tamper alerts and remote immobilization workflows.
+- Fuel and asset monitoring using analog inputs to detect consumption patterns or unauthorized access.
+- Driver behavior and safety programs using motion event data for coaching and incident review.
+- Durable tracking for public transport, construction vehicles, and other harsh environment assets.
 
 ## Why Choose This Tracker with Plaspy
 
-When you deploy the TS101 Advance with Plaspy, you get a hardened, field-proven GPS tracker that balances durability with rich telemetry and easy integration. The multi-constellation GNSS stack ensures dependable positioning, while built-in motion sensors and comprehensive I/O let you capture meaningful telemetry for fleet management, fuel monitoring, and anti-theft actions. Plaspy leverages the device’s real-time streams, logged records, and event alerts to provide actionable dashboards, automated immobilizer control, and compliance reporting.
+The TS101 Advance pairs rugged hardware with a breadth of telemetry and integration points that make it well suited for organizations using Plaspy for fleet and security operations. Its focus on reliable positioning, motion awareness, and flexible I O lets fleet managers gather the contextual data needed for reporting, alerts, and operational controls without sacrificing durability in the field.
 
-Choose the TS101 Advance with Plaspy for a solution that prioritizes uptime \(IP65 protection, extended temperature range, and backup battery\), operational simplicity \(remote configuration and OTA/FOTA\), and extensibility \(RS232, analog/digital I/O, BLE sensors\). The combined platform and device deliver scalable fleet management, precise real-time tracking, and trusted anti-theft capabilities for commercial and public transport fleets.
-
+If you want to learn more about how the TS101 Advance works with Plaspy and whether it fits your fleet needs visit Plaspy to explore platform capabilities and integration options https://www.plaspy.com. Product specifications and availability can change over time so please verify current technical details with the manufacturer documentation at https://www.itriangle.net/.

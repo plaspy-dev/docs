@@ -2,57 +2,59 @@
 slug: /teltonika/fmc880
 id: fmc880
 sidebar_label: FMC880
+title: Teltonika - FMC880
 sidebar_class_name: menu_item_tracker
+description: Rastreador Teltonika FMC880 resistente con montaje en batería, GNSS de doble banda y soporte BLE, compatible con Plaspy para flotas y activos
+keywords:
+  - Teltonika FMC880
+  - Rastreador FMC880
+  - FMC880 Plaspy
+  - Rastreador Teltonika
+  - Rastreador GPS para flotas
+  - Rastreador de activos
+  - GNSS de doble banda
+  - Rastreador con BLE
+  - Rastreador GPS resistente
+  - Rastreador 4G LTE
 ---
+
 # Teltonika - FMC880
 
 ![FMC880](./tracker.png)
 
-El FMC880 es un rastreador GPS resistente, montado en la batería, diseñado para aplicaciones exigentes de gestión de flotas y seguimiento de activos, y es compatible con Plaspy listo para usar. Con conectividad 4G LTE Cat 1 y respaldo a 2G, receptor GNSS de doble banda \(L1/L5\) para mayor precisión de posicionamiento y soporte Bluetooth Low Energy \(BLE\) para sensores y balizas externas, el FMC880 ofrece seguimiento en tiempo real y telemetría robustos para logística, car sharing, flotas de alquiler y monitoreo remoto de activos.
+El Teltonika FMC880 es un rastreador GPS robusto de montaje en batería, diseñado para la gestión de flotas exigente y el seguimiento remoto de activos. Incorpora GNSS de doble banda para mejorar la precisión de posicionamiento, conectividad celular con respaldo regional y soporte para Bluetooth Low Energy para sensores externos. El FMC880 está pensado para logística, flotas de alquiler y carsharing, y para el monitoreo de activos desplegados donde la durabilidad y la telemetría confiable son esenciales.
 
-Con una carcasa clasificada IP65 y una instalación rápida de la batería mediante conector de cable tipo U, la instalación es rápida y resistente a la intemperie, reduciendo el tiempo de inactividad para el montaje en vehículos o su reubicación. Variantes regionales múltiples y configuraciones opcionales \(incluyendo variantes con giroscopio y kits de cables extendidos\) permiten a integradores y operadores de flotas elegir la configuración FMC880 que mejor se adapte a la cobertura, las necesidades de sensores y los requisitos de monitoreo ambiental, aprovechando la plataforma de Plaspy para alertas, informes y visibilidad a nivel de la flota.
+Como dispositivo compatible con Plaspy desde el primer momento, el FMC880 puede enviar posiciones y telemetría de sensores directamente a Plaspy para visualización en tiempo real, reproducción de historial, alertas y generación de reportes. Su carcasa resistente a la intemperie y su montaje rápido en batería facilitan el redeployment, mientras que las variantes regionales y las configuraciones de hardware opcionales permiten a los operadores adaptar las capacidades del equipo a sus necesidades operativas y a los flujos de trabajo en Plaspy.
 
-## Aspectos clave
+## Aspectos principales
 
-- Rastreador GPS compatible con Plaspy optimizado para gestión de flotas y seguimiento en tiempo real en entornos de red mixtos.
-- Conectividad 4G LTE Cat 1 con respaldo automático a 2G para una amplia cobertura regional y entrega de telemetría confiable.
-- Receptor GNSS de doble banda independiente \(L1 + L5\) para mayor precisión y tiempos de adquisición inicial más rápidos \(TTFF\) en comparación con módulos de banda única.
-- Carcasa con clasificación IP65, resistente al agua; instalación rápida de la batería montada mediante conector de cable tipo U: instálelo en cinco minutos o menos.
-- Bluetooth Low Energy \(BLE\) para conexión a balizas y sensores externos \(temperatura, humedad, magnetismo y movimiento\) para ampliar el monitoreo de activos y ambiental.
-- Variantes regionales y códigos de pedido para EU/MEA/APAC y LATAM con las bandas 2G/4G correspondientes; opciones de empaque y accesorios personalizables.
-- Versión opcional con giroscopio disponible para detección mejorada de movimiento e inclinación/impacto para apoyar alertas antirobo y de manipulación.
+- Rastreador GPS compatible con Plaspy optimizado para gestión de flotas y activos en entornos variables.
+- Conectividad celular 4G con respaldo 2G para amplia cobertura regional y mayor resiliencia.
+- Receptor GNSS de doble banda que mejora la precisión y acelera la obtención de la ubicación.
+- Carcasa con certificación IP65, formato de montaje en batería y conector de cable tipo U para instalación ágil.
+- Soporte BLE para conectar sensores y balizas externas que amplían las capacidades de monitoreo.
+- Variantes regionales y kits opcionales con giroscopio o accesorios para ajustar detección de movimiento y cobertura.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el FMC880 proporciona ubicación continua y telemetría de sensores a la plataforma a través de su conexión celular. Las soluciones de posicionamiento GNSS L1/L5 y los datos de movimiento a bordo se transmiten a Plaspy para visualización de ubicación en tiempo real, reproducción de historial, alarmas de geocerca y reglas basadas en telemetría. Las lecturas de sensores BLE \(temperatura, humedad, magnetismo y movimiento\) se envían a Plaspy para que pueda monitorear las condiciones de la carga y activar alertas cuando se superen los umbrales.
+Al integrarse con Plaspy, el FMC880 transmite datos de ubicación y sensores a la plataforma, de modo que usted puede supervisar activos, revisar recorridos y ejecutar acciones basadas en eventos de telemetría. Plaspy utiliza esa información entrante para alimentar alertas por geocerca, reportes y visibilidad a nivel de flota sin necesidad de integraciones personalizadas complejas para los flujos de telemetría estándar.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a través de 4G \(Cat 1\) con respaldo a 2G para una conectividad resiliente.
-- Datos GNSS de doble banda \(L1/L5\) utilizados por Plaspy para una ruta más precisa, detección de paradas y reproducción de rutas.
-- Sensores/beacons Bluetooth: detección de temperatura, humedad, magnetismo y movimiento, enviados a Plaspy para monitoreo ambiental y eventos de proximidad.
-- Eventos de movimiento basados en giroscopio opcionales para flujos de trabajo anti-robo de Plaspy y detección de manipulación \(disponible en variantes con giroscopio\).
-- Las variantes regionales aseguran que el FMC880 ofrezca informes fiables en los mercados de EU/MEA/APAC y LATAM con las bandas celulares adecuadas.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy a través de la conexión celular del dispositivo con respaldo regional.
+- Datos GNSS de doble banda usados en Plaspy para mejorar el enrutamiento, la detección de paradas y la reproducción en mapas.
+- Lecturas de sensores y balizas BLE reenviadas a Plaspy para monitorear condiciones de carga y eventos de proximidad.
+- Eventos basados en movimiento y giroscopio (cuando el equipo lo incorpora) disponibles en Plaspy para flujos de trabajo de manipulación indebida y anti robo.
+- Las variantes regionales del dispositivo aseguran una presentación de datos consistente en mercados EU MEA APAC y LATAM cuando se usan con Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE Cat 1 con respaldo a 2G GSM |
-| --- | --- |
-| Bandas | 2G: B2/B3/B5/B8; 4G LTE-FDD: B1/B3/B7/B8/B20/B28 |
-| Alimentación y batería | Diseño montado en batería con conector de cable tipo U para montaje directo en la batería del vehículo; operación prolongada, enfocada en vehículos \(capacidad no especificada\) |
-| Interfaces | Conector de batería tipo U; variantes disponibles con cables adicionales y opciones de accesorios |
-| GNSS | Receptor GNSS de doble banda independiente \(L1 y L5\) para mayor precisión y TTFF más rápidos |
-| Bluetooth | Bluetooth Low Energy \(BLE\) para balizas y sensores externos \(temperatura, humedad, magnetismo, movimiento\) |
-| Gestión remota | No especificado \(dispositivo diseñado para integrarse con plataformas de flotas como Plaspy\) |
-| Factor de forma | Carcasa con clasificación IP65, resistente al agua; rastreador compacto montado en batería para instalación en vehículos y activos |
-
-## Casos de uso
-
-- Telemática de flotas: seguimiento continuo de vehículos, reproducción de rutas y telemetría operativa para flotas de transporte y servicios de entrega.
-- Logística y entrega: monitoreo de condiciones de la carga habilitado por BLE \(temperatura/humedad\) y posicionamiento GNSS preciso para visibilidad en la última milla.
-- Car sharing y alquiler: instalación rápida montada en la batería, opción de giroscopio para alertas de manipulación y movimiento, y reportes de geocerca y uso basados en Plaspy.
-- Anti-robo y monitoreo de activos: la ubicación y los eventos de movimiento en tiempo real alimentan las alarmas y flujos de trabajo de respuesta de Plaspy para reducir robos y movimientos no autorizados.
-- Monitoreo ambiental de los bienes transportados: empareje FMC880 con sensores BLE de temperatura o humedad para rastrear condiciones durante el tránsito y activar alertas en Plaspy.
+- Telemática de flotas para seguimiento continuo de vehículos, reproducción de rutas y supervisión operativa.
+- Logística y entrega de última milla con monitoreo de condiciones de la carga mediante sensores BLE.
+- Flotas de carsharing y alquiler que requieren instalación rápida e informes de uso.
+- Monitoreo remoto de activos para equipos que necesitan rastreo resistente a la intemperie y redeployment periódico.
+- Flujos de trabajo anti robo que combinan eventos de movimiento y actualizaciones de ubicación en tiempo real para respuesta rápida.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El FMC880 está diseñado para operadores que requieren un rastreador GPS resistente y de fácil instalación, que se integre sin problemas con Plaspy para seguimiento y telemetría en tiempo real. Su GNSS de doble banda mejora la precisión de la ubicación para obtener visibilidad a nivel de ruta; 4G Cat 1 con respaldo a 2G garantiza la continuidad de datos en distintas regiones; y el soporte de sensores BLE facilita el monitoreo ambiental y de proximidad sin cableado complejo. Junto con las alertas de Plaspy, las opciones de integración de inmovilizador/encendido a través de flujos de trabajo de la plataforma y las herramientas de gestión de flotas, el FMC880 ofrece una solución de alta precisión y escalable para la visibilidad de vehículos y activos, respuesta ante robo y mejora operativa basada en telemetría.
+El FMC880 es una opción práctica para organizaciones que necesitan un rastreador resistente y fácil de montar que se integre de forma fluida con una plataforma de gestión de flotas como Plaspy. Su combinación de GNSS de doble banda, conectividad celular con respaldo y soporte para sensores BLE permite obtener mayor precisión posicional y ampliar la telemetría sin cableado extenso ni redes de sensores complejas.
 
+Si usted requiere un rastreo resiliente para vehículos o activos portátiles y desea centralizar esos datos en Plaspy para alertas, reportes e inteligencia operativa, el FMC880 es un candidato sólido. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales y las variantes regionales en el sitio oficial del fabricante https://www.teltonika-gps.com/.

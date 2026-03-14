@@ -2,63 +2,61 @@
 slug: /gotop/g01
 id: g01
 sidebar_label: G01
+title: GOTOP - G01
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto GOTOP G01 compatible con Plaspy para gestión de flotas, antirrobo y corte remoto
+keywords:
+  - GOTOP G01
+  - GOTOP G01 rastreador GPS
+  - GOTOP G01 compatible con Plaspy
+  - rastreador G01
+  - rastreador GOTOP
+  - seguimiento de flotas
+  - rastreador de vehículos
+  - rastreador antirrobo
+  - rastreo en tiempo real
+  - rastreador GPS BDS
 ---
+
 # GOTOP - G01
 
 ![G01](./tracker.jpg)
 
-# Car GPS Tracker G01
+El GOTOP G01 es un rastreador GPS compacto para automóviles, diseñado para ofrecer un seguimiento fiable de vehículos, gestión de flotas y protección antirrobo. Combina posicionamiento GNSS y entradas y salidas vehiculares probadas para entregar datos de ubicación y eventos adecuados para flotas comerciales, vehículos de alquiler, taxis y autos particulares. El equipo opera en un amplio rango de voltaje vehicular e incluye funciones que ayudan a detectar manipulaciones y permiten intervenciones remotas.
 
-El Car GPS Tracker G01 es un rastreador GPS compacto, compatible con Plaspy, diseñado para un seguimiento fiable de vehículos, gestión de flotas y protección antirrobo. Diseñado para flotas comerciales, coches de alquiler, taxis y vehículos privados, el G01 combina posicionamiento GPS y BDS con un amplio rango de voltaje del vehículo y un conjunto de entradas/salidas probadas para entregar seguimiento en tiempo real y telemetría accionable a la plataforma de Plaspy.
+Como dispositivo compatible con Plaspy, el G01 transmite ubicaciones y el estado del vehículo a Plaspy, de modo que usted pueda monitorear los vehículos en tiempo real, recibir alarmas y consultar reportes históricos. Sus controles orientados al vehículo, como detección de ACC, alarma SOS y corte remoto, hacen del G01 una opción práctica cuando se usan los paneles, alertas y flujos de trabajo de Plaspy para gestionar operaciones y responder a incidentes.
 
-Con un énfasis en conectividad segura y controles prácticos del vehículo, el G01 admite monitorización de audio remota, alarma SOS, detección ACC y corte remoto de energía/combustible para habilitar intervenciones al estilo inmovilizador. Las especificaciones eléctricas y ambientales robustas del dispositivo lo hacen adecuado para despliegues diversos donde se utilizan los paneles, alertas e informes de Plaspy para optimizar operaciones y responder rápidamente a incidentes.
+## Características principales
 
-## Aspectos clave
-
-- Rastreador GPS compatible con Plaspy para seguimiento fiable en tiempo real e integración de gestión de flotas.
-- Posicionamiento GNSS dual \(GPS + BDS\) con hasta 5 m de precisión para reportes de ubicación precisos.
-- Amplio rango de voltaje para vehículos \(DC 9V–75V\) — apto para coches, taxis, camiones y otros vehículos comerciales.
-- Controles del vehículo y funciones anti‑robo: corte remoto de energía/combustible \(capacidad de inmovilizador\), detección ACC y alarma SOS.
-- Batería de respaldo de 180 mAh garantiza la continuidad de reportes ante pérdidas de energía y ayuda a detectar manipulación o eventos de apagado.
-- Entradas/salidas telemáticas prácticas: entrada externa de micrófono; H-IN para detección ACC; L-IN para SOS; y un canal de salida de bajo nivel para corte remoto.
-- Caja de ABS ligera y compacta \(98 × 53 × 13 mm; ~59 g\) para instalación discreta.
+- Rastreador compatible con Plaspy para seguimiento en vivo e integración con gestión de flotas.
+- Posicionamiento GNSS dual con GPS y BDS para reportes de localización más precisos.
+- Amplio soporte de voltaje vehicular, adecuado para autos, taxis y muchos vehículos comerciales.
+- Funciones de control vehicular y antirrobo, incluyendo detección de ACC, alarma SOS y corte remoto de alimentación o combustible.
+- Batería de respaldo que mantiene los reportes durante la pérdida de energía y ayuda a detectar manipulaciones.
+- Micrófono externo y capacidad de monitoreo de audio remoto para apoyar eventos de seguridad.
+- Carcasa compacta de ABS para una instalación discreta en distintos tipos de vehículos.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el G01 transmite fijaciones de posición y telemetría del vehículo a través de GSM para proporcionar seguimiento en tiempo real, alertas e informes históricos. Plaspy ingiere la ubicación del dispositivo, entradas de estado y eventos de alarma para que los gestores de flota y los propietarios reciban información instantánea y puedan actuar desde la interfaz web o móvil de Plaspy.
+Al integrarse con Plaspy, el G01 suministra actualizaciones de ubicación y datos de eventos vehiculares que alimentan los mapas, alertas y reportes de Plaspy, permitiendo a los gestores de flotas mantener supervisión operativa y responder a incidentes desde la interfaz de Plaspy.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas vía GSM 2G a Plaspy para supervisión y mapeo en vivo.
-- Detección de ignición \(ACC\) para eventos de inicio/parada de viaje, cálculos de odómetro/tiempo de conducción y monitorización del comportamiento del conductor.
-- Corte remoto de energía/combustible \(capacidad de inmovilizador\) controlable a través de flujos de trabajo de Plaspy para respaldar respuestas antirrobo.
-- Alarma SOS, alarma de apagado y alarmas de vibración/desplazamiento alimentan las alertas de Plaspy para activar notificaciones y flujos de incidentes.
-- Monitorización de audio remota y entrada de micrófono externo pueden ayudar a la recuperación y verificación durante robos o incidentes de seguridad.
+- Actualizaciones de ubicación en tiempo real y mapeo para visibilidad inmediata de la flota.
+- Detección de encendido y estado de viaje para generar registros de desplazamientos, eventos de inicio/paro y apoyar la supervisión básica del conductor.
+- Corte remoto de alimentación o combustible controlado mediante flujos de trabajo de Plaspy para soportar respuestas antirrobo.
+- Alarmas SOS, apagado de energía y movimiento dirigidas a las alertas de Plaspy para activar notificaciones y la gestión de incidentes.
+- Monitoreo de audio remoto y entrada de micrófono externo utilizados como parte de flujos de verificación o recuperación.
+- Reproducción histórica y reportes para análisis de rutas, utilización e investigación de incidentes.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Modelo / Fabricante | Car GPS Tracker G01 |
-| --- | --- |
-| Conectividad | GSM \(2G\) vía SIM estándar; módulo GSM MT6261D; antena interna |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(GSM 2G\) |
-| Alimentación y batería | Tensión de funcionamiento DC 9V–75V; batería de respaldo de 180 mAh, 3.7V polímero; corriente de funcionamiento típica 30–60 mA @12V; corriente en modo de reposo 5–15 mA @12V |
-| Interfaces | Entrada externa de micrófono; 1 canal de salida de baja tensión para corte de energía/combustible; H-IN para detección ACC; L-IN para SOS; puerto serie UART-TTL de 3,3V para configuración/integración |
-| GNSS | GPS + BDS \(BeiDou\) usando el módulo ZKMicro AT6558D; precisión de posición hasta 5 m; arranque en frío ~32 s; arranque en caliente ~1 s; sensibilidad de seguimiento -162 dBm |
-| Bluetooth | No especificado \(no se reporta Bluetooth a bordo\) |
-| Gestión remota | Configuración vía UART-TTL; FOTA / gestión web no especificadas |
-| Formato y materiales | Carcasa de plástico ABS, 98 × 53 × 13 mm; peso aprox. 59 g |
-| Ambiental | Temperatura de operación -20°C a 70°C; almacenamiento -30°C a 80°C; tolerancia de humedad 5%–95% |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real de vehículos, registros de viajes y monitorización del comportamiento del conductor para mejorar la utilización y reducir costos.
-- Protección antirrobo e inmovilización remota para coches de alquiler, taxis y vehículos de alto valor mediante el corte de energía y combustible.
-- Seguridad y respuesta ante emergencias: alarma SOS, alarma de apagado y monitorización de audio remota para acelerar la gestión de incidentes.
-- Despliegue en camiones comerciales: amplio rango de tensión de funcionamiento y certificaciones ambientales robustas que satisfacen las necesidades de telemática para vehículos pesados.
-- Alquiler y movilidad compartida: detección ACC y batería de respaldo a prueba de manipulación aseguran facturación precisa, seguimiento de uso y respuesta ante robos.
+- Gestión de flotas para seguimiento en vivo, registro de viajes y mejora de la eficiencia operativa.
+- Vehículos de alquiler y movilidad compartida donde la detección de manipulaciones, la batería de respaldo y las acciones de inmovilización ayudan a proteger los activos.
+- Taxis y servicios de transporte que requieren reportes de posición fiables y conocimiento del estado del viaje.
+- Despliegues en vehículos comerciales que se benefician de la amplia tolerancia de voltaje y operación robusta.
+- Flujos de trabajo de seguridad y respuesta a emergencias que usan alarmas SOS y monitoreo remoto para una gestión más rápida de incidentes.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El G01 es un rastreador GPS práctico y orientado a la relación calidad-precio para organizaciones que necesitan dispositivos compatibles con Plaspy con interfaces de vehículo probadas. Su posicionamiento GNSS dual y las comunicaciones GSM fiables proporcionan el seguimiento en tiempo real y la telemetría necesarios para una gestión moderna de flotas. Controles de vehículo integrados —detección ACC, SOS, alarmas por vibración y corte remoto de energía/combustible— permiten flujos de trabajo antirrobo y acciones de inmovilizador directamente desde Plaspy.
+El G01 es una elección práctica para organizaciones que necesitan un rastreador sencillo y orientado al vehículo compatible con Plaspy. Ofrece las entradas y salidas esenciales en las que confían los operadores de flotas para integrar eventos vehiculares en las alertas y reportes de Plaspy sin complejidad innecesaria. La combinación de posicionamiento GNSS dual, controles vehiculares y batería de respaldo favorece el seguimiento constante y ayuda a detectar manipulaciones o pérdida de energía.
 
-Para flotas y propietarios de vehículos que buscan una integración simple, el G01 ofrece las entradas y salidas esenciales para vincular eventos del vehículo con alertas e informes de Plaspy sin complicaciones. La batería de respaldo, el amplio rango de tensión de entrada y la tolerancia ambiental robusta facilitan el despliegue en flotas mixtas. Si necesita sensores Bluetooth o una gestión avanzada de FOTA, Plaspy puede integrar dispositivos que aporten esas capacidades junto a las unidades G01 para construir una solución integral de telemetría.
-
+Para flotas mixtas o despliegues que requieran capacidades adicionales, Plaspy puede complementarse con otros dispositivos compatibles para crear una solución telemática completa. Para obtener más información sobre Plaspy y cómo puede utilizarse el G01 dentro de la plataforma visite https://www.plaspy.com. Las especificaciones del producto, características y disponibilidad pueden cambiar con el tiempo, por lo que verifique los detalles técnicos actuales y la documentación oficial en el sitio del fabricante https://www.gotop.cc/.

@@ -2,61 +2,61 @@
 slug: /autoseeker/at_1
 id: at_1
 sidebar_label: AT-1
+title: Autoseeker - AT-1
 sidebar_class_name: menu_item_tracker
+description: Mini waterproof 4G GPS tracker compatible with Plaspy for real time tracking geofence alerts and efficient long battery life
+keywords:
+  - Autoseeker AT-1
+  - AT-1 GPS tracker
+  - Autoseeker tracker
+  - AT-1 waterproof tracker
+  - CAT M1 tracker
+  - NB IoT tracker
+  - GPS tracker for kids
+  - pet tracking device
+  - Plaspy compatible tracker
+  - compact location tracker
 ---
+
 # Autoseeker - AT-1
 
-![AT-1](./tracker.jpg)
+![AT-1](./logo..jpg)
 
-The AT-1 4G Mini Micro GPS Tracker is a compact, Plaspy compatible personal GPS tracker designed for reliable, long-duration monitoring of children, elderly people, pets, and valuable portable assets. With LTE Cat M1 \(LTE-M\), NB‑IoT \(Cat NB1\) and fallback GSM support, the AT-1 delivers low-power cellular connectivity and precise positioning so caregivers and service providers can rely on real-time tracking, emergency alerts, and long standby times.
+The Autoseeker AT-1 is a compact, waterproof 4G GPS tracker designed for personal and light asset tracking. It combines a small form factor and an IP68 rating with a professional GNSS positioning module to provide precise location information. The AT-1 is battery powered and offers multiple work modes, including real time tracking, history tracking, and geofence alerts, making it suitable for monitoring children, elderly family members, pets, and other small mobile assets.
 
-Its IP68 waterproof enclosure, small footprint \(46 × 41 × 16 mm\) and lightweight design \(36 g\) make the AT-1 ideal for discreet everyday wear or attachment to belongings. Plaspy-compatible integration brings the device’s telemetry, SOS alerts, geofence events and history playback into a unified dashboard for fast situational awareness and safe, efficient response.
+As a device compatible with Plaspy, the AT-1 can feed location and status data into the Plaspy fleet and tracking platform for live visibility and historical review. Its low power design and support for wide area cellular technologies make it a practical choice for deployments where battery life and reliable outdoors performance matter. When used with Plaspy, the AT-1 extends Plaspy capabilities into compact personal tracking and light asset monitoring scenarios.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker optimized for personal safety and discreet asset monitoring.
-- Low‑power LTE‑M and NB‑IoT connectivity with GSM fallback for broad network coverage and efficient telemetry.
-- Precision GNSS using a Qualcomm Gen 8C receiver with very fast hot start and reliable satellite acquisition.
-- Long battery life: up to one year standby under optimized reporting settings, plus a 650 mAh backup cell for extended use.
-- Rugged IP68 waterproof housing and magnetic charging for convenient daily use and durability in wet environments.
-- Integrated SOS button and multiple work modes \(8 modes\) to balance reporting frequency and battery endurance.
-- Real-time tracking, geofence alerts and history playback for continuous situational awareness and incident review.
+- Small and lightweight design with dimensions around 46 x 41 x 16 mm and a weight near 36 g for discreet placement
+- IP68 rated housing for reliable outdoor and wet weather use
+- Rechargeable battery with usage scenarios that can range from hours of frequent reporting to extended standby for periodic updates
+- Multiple operating modes including real time tracking and history playback to support different monitoring needs
+- Built on Qualcomm GNSS positioning for accurate location fixes
+- Supports wide area cellular connectivity technologies to provide broad network reach
+- Geofence function for entry and exit alerts around predefined areas
 
 ## How It Works with Plaspy
 
-The AT-1 connects to Plaspy over LTE‑M, NB‑IoT or GSM networks and streams compact telemetry packets that Plaspy ingests for real-time tracking, alerts and historical playback. Once registered in Plaspy, the device’s location fixes, battery status, SOS events and geofence triggers appear in the platform with configurable alerting and reporting intervals. Plaspy’s dashboard and APIs allow caregivers and administrators to visualize movement, run reports, and set up automated notifications.
+When connected to Plaspy, the Autoseeker AT-1 streams its location and status updates into the Plaspy platform where teams can monitor movement, review history, and receive alerts. Plaspy ingests the device data and presents it in dashboards and reports that help with operational oversight and safety monitoring.
 
-- Real-time location and telemetry updates routed to Plaspy for continuous monitoring.
-- SOS button events delivered as immediate alerts in Plaspy for fast response.
-- Geofence creation and breach notifications for boundary-based safety management.
-- History playback and trip review to analyze movement and verify events.
-- Battery and low‑power alerts so caregivers can schedule charging or replacement before downtime.
+- Real time location display in Plaspy for continuous visibility of the tracked unit
+- Geofence alerting within Plaspy to notify users when the tracker enters or leaves configured zones
+- History tracking and route playback in Plaspy for incident review and movement analysis
+- Device status reporting to help assess battery condition and online presence
+- Notifications and configurable alerts to keep teams informed of important events
+- Aggregated reporting for operational insights when multiple AT-1 units are deployed
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | AT-1 4G Mini Micro GPS Tracker |
-| --- | --- |
-| Connectivity | LTE Cat M1 \(LTE‑M\), NB‑IoT \(Cat NB1\), GSM fallback |
-| Bands | LTE‑M bands: B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B26/B28/B39; NB‑IoT bands: B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B26/B28; GSM 850/900/1800/1900 MHz |
-| GNSS | Qualcomm Gen 8C receiver — hot start ~1 s, warm start ~30 s, cold start ~35 s \(average\) |
-| Battery | Built‑in backup battery 650 mAh, 3.7 V polymer cell; magnetic charging |
-| Power Consumption | Average working current ~37 mA \(4 V\), standby current ~4.5 µA, sleep \<2.2 µA |
-| Dimensions & Weight | 46 × 41 × 16 mm; 36 g |
-| Durability | IP68 water resistant |
-| User Controls & Modes | SOS button; 8 working modes to balance reporting interval and battery life |
-| Battery Endurance \(Typical\) | Up to 1 year with 1 report per day; ~39 hours at 1‑minute intervals; ~28 hours at 10‑second intervals |
-
-## Use Cases
-
-- Child safety — real-time tracking and SOS alerts for parents and guardians.
-- Elder care and medical monitoring — discreet monitoring for people with dementia, Alzheimer’s, Parkinson’s or other conditions that require location awareness.
-- Pet and personal belongings tracking — attach to collars or carry in a bag for theft deterrence and recovery.
-- Service providers and caregivers — centralized visibility via Plaspy for coordinated response and history playback.
-- Portable asset monitoring — ideal for small, high‑value portable items where compact size and long battery life are critical.
+- Monitoring the whereabouts of children during outings or transit
+- Tracking elderly family members or individuals with medical needs for enhanced safety
+- Locating and checking on pets while away from home
+- Discreet tracking of small assets or personal items that require periodic location checks
+- Short term rental or shared equipment tracking where compact waterproof devices are preferred
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the AT-1 as a Plaspy compatible GPS tracker gives you a balance of precision, endurance and durability in a very small package. Its LTE‑M and NB‑IoT cellular links provide efficient telemetry for real‑time tracking without frequent charging, and the Qualcomm GNSS ensures fast fixes and reliable positioning. The IP68 rating and magnetic charging make everyday use simple and robust, while multiple work modes let administrators tune reporting for the desired mix of battery life and update frequency.
+The Autoseeker AT-1 is a practical option for organizations and families that need a small, weather resistant tracker with flexible reporting modes. Its combination of compact size, long standby potential, and standard positioning accuracy makes it well suited to personal safety and light asset scenarios. When paired with Plaspy, the AT-1 becomes part of a broader monitoring and reporting workflow, enabling teams to receive alerts, review location history, and manage units at scale.
 
-For organizations and caregivers, Plaspy compatibility means the AT-1’s location, SOS and geofence telemetry flow directly into the platform used for operations, notifications and reporting. Although the AT-1 is optimized for personal safety and asset tracking rather than vehicle telematics, Plaspy’s platform can integrate telemetry with broader workflows — including fleet management dashboards, anti-theft responses and systems that incorporate additional sensors \(for example, fuel monitoring, ignition state, immobilizer controls or Bluetooth sensors\) where those external systems are present. This makes the AT-1 a reliable, scalable choice for teams that need compact GPS trackers with strong battery life, robust connectivity and seamless Plaspy integration.
-
+While the AT-1 provides many useful attributes for personal and light commercial tracking, deployment requirements vary by use case. Learn more about how Plaspy can integrate devices like the Autoseeker AT-1 and support your tracking needs by visiting https://www.plaspy.com. For the latest product specifications availability and manufacturer documentation please verify details on the official Autoseeker site https://autoseekergps.com/

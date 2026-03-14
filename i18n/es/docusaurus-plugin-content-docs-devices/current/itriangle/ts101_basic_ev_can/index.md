@@ -2,61 +2,60 @@
 slug: /itriangle/ts101_basic_ev_can
 id: ts101_basic_ev_can
 sidebar_label: TS101 Basic EV CAN
+title: iTriangle - TS101 Basic EV CAN
 sidebar_class_name: menu_item_tracker
+description: Dispositivo telemático compacto y resistente para vehículos eléctricos y flotas mixtas, compatible con Plaspy para seguimiento y registro offline
+keywords:
+  - iTriangle TS101 Basic EV CAN
+  - TS101 Basic EV CAN
+  - rastreador iTriangle
+  - compatible con Plaspy
+  - rastreador para flotas VE
+  - telemática vehicular
+  - registro offline
+  - GNSS multiconstelación
+  - rastreador IP65
+  - software de gestión de flotas
 ---
+
 # iTriangle - TS101 Basic EV CAN
 
 ![TS101 Basic EV CAN](./tracker.png)
 
-El TS101 Basic EV CAN es un dispositivo telemático compacto y resistente, diseñado para un seguimiento fiable de vehículos y registro de datos. Diseñado para vehículos eléctricos y flotas convencionales, el TS101 Basic EV CAN es compatible con Plaspy y ofrece seguimiento en tiempo real, telemetría fiable y registro sin conexión para mantener la operación en movimiento incluso en entornos con cobertura débil.
+El TS101 Basic EV CAN es un dispositivo telemático compacto y resistente, diseñado para ofrecer seguimiento vehicular y registro de datos fiables. Pensado para atender tanto a vehículos eléctricos como a flotas convencionales, el TS101 Basic EV CAN proporciona seguimiento en tiempo real, posicionamiento GNSS multiconstelación y almacenamiento local offline para conservar registros cuando la cobertura de red es limitada. Su caja robusta con protección IP65 y su amplio rango de voltaje lo hacen apto para diversos entornos de vehículos comerciales.
 
-Con una interfaz CAN de un solo canal, múltiples puertos de I/O, BLE 3.0 y GNSS interno que soporta GPS, GLONASS, Galileo y BeiDou, esta unidad está optimizada para gestión de flotas, protección anti-robo y telemetría específica para EV. Su carcasa con grado IP65, su rango amplio de entrada DC de 9–90V y su diseño de bajo consumo hacen del TS101 Basic EV CAN una opción práctica para flotas mixtas que requieren rastreadores duraderos y fáciles de integrar compatibles con Plaspy.
+Como dispositivo compatible con Plaspy, el TS101 Basic EV CAN puede enviar información de ubicación, eventos y telemetría a la plataforma Plaspy para monitorización y generación de informes centralizados. Los usuarios de Plaspy se benefician del enfoque en flotas mixtas del equipo, del almacenamiento en búfer offline y de la detección de eventos para mantener visibilidad operativa continua, facilitar procesos anti-robo e integrar telemetría relacionada con vehículos eléctricos en los paneles de la flota.
 
-## Aspectos clave
+## Aspectos principales
 
-- Seguimiento en tiempo real compatible con Plaspy y GNSS de múltiples constelaciones \(GPS, GLONASS, Galileo, BeiDou\) para una localización precisa.
-- Interfaz CAN de un solo canal para telemetría de vehículos eléctricos \(EV\) y de vehículos de combustión interna \(ICE\), habilitando la gestión de flotas y la recopilación de datos de diagnóstico.
-- Carcasa compacta con grado IP65 y rango de entrada 9–90V DC para un funcionamiento fiable tanto en EV como en vehículos convencionales.
-- BLE 3.0 y antenas internas para conectividad de sensores de corto alcance y una instalación simplificada.
-- Capacidad offline robusta con hasta 6,000 registros de datos almacenados localmente para evitar pérdidas de datos en áreas de cobertura limitada.
-- Consumo en modo de espera de bajo consumo \(\<15 mA\) y una batería auxiliar interna de 500 mAh para preservar el seguimiento ante interrupciones de energía.
-- Múltiples E/S \(1 entrada analógica, 2 entradas digitales, 1 salida digital\) y detección de movimiento basada en acelerómetro para anti-robo y monitoreo de eventos.
+- Seguimiento en tiempo real compatible con Plaspy y posicionamiento GNSS multiconstelación para mayor consistencia.
+- Interfaz CAN de un canal para capturar telemetría tanto de vehículos convencionales como de vehículos eléctricos.
+- Carcasa compacta con certificación IP65 y amplio rango de voltaje para despliegues resistentes en flotas mixtas.
+- Soporte BLE 3.0 para conectividad con sensores y accesorios de corto alcance.
+- Almacenamiento offline robusto capaz de almacenar miles de registros para evitar huecos en los datos.
+- Diseño de bajo consumo con capacidad de respaldo interno para preservar el seguimiento durante interrupciones.
+- Múltiples entradas/salidas y acelerómetro para detección de movimiento y monitoreo de eventos y alertas anti-robo.
 
 ## Cómo funciona con Plaspy
 
-El TS101 Basic EV CAN se integra a la perfección con Plaspy para entregar actualizaciones de ubicación continuas, telemetría del vehículo y alertas basadas en eventos. Los datos recopilados por el dispositivo —incluida la ubicación GNSS, telemetría del bus CAN, eventos de E/S y movimiento detectado por el acelerómetro— se transmiten a Plaspy a través de la conexión celular. Cuando la cobertura de red es limitada, el dispositivo acumula hasta 6,000 registros y los carga automáticamente cuando se restablece la conectividad, asegurando que no haya huecos en la gestión de flotas o en los registros anti-robo.
+Cuando se integra con Plaspy, el TS101 Basic EV CAN transmite ubicación y eventos a la plataforma y almacena registros localmente cuando la conectividad es limitada. Plaspy procesa estos datos para ofrecer seguimiento en vivo, reproducción histórica de rutas y alertas basadas en eventos, ayudando a los administradores de flota a mantener conciencia situacional y registros operativos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real hacia Plaspy para seguimiento en vivo y reproducción de rutas.
-- Estado del vehículo y detección de eventos mediante CAN y entradas digitales \(estados de encendido/arranque, puertas y alarma pueden reportarse cuando esté configurado\).
-- Registro de telemetría para métricas de EV y diagnósticos de ICE a través de la integración de datos CAN.
-- El inmovilizador remoto o acciones de control pueden implementarse mediante la salida digital cuando la integración lo permita.
-- Sensores y balizas Bluetooth \(BLE 3.0\) para telemetría de corto alcance, como identificación del conductor, sensores de temperatura o sensores auxiliares.
+- Actualizaciones continuas de ubicación y historial de rutas para visibilidad y análisis de la flota.
+- Informes de estado del vehículo y de eventos basados en datos CAN y entradas digitales configuradas.
+- Carga de los registros almacenados offline a Plaspy una vez que se restaura la conectividad para evitar huecos en los registros.
+- Datos de sensores y accesorios vía BLE vinculados a los registros del vehículo para mayor contexto.
+- Alertas basadas en eventos, como detección de movimiento o manipulación, integradas en los flujos de trabajo de Plaspy.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Modelo | TS101 Basic EV CAN |
-| --- | --- |
-| Conectividad | Celular \(GSM indicado por antena GSM interna\), BLE 3.0, USB, SMS, TCP/IP |
-| GNSS | GPS, GLONASS, Galileo, BeiDou \(antena GNSS interna\) |
-| Interfaz CAN | Interfaz CAN de un solo canal |
-| Interfaces | 1 entrada analógica, 2 entradas digitales, 1 salida digital, 1 RS232 para depuración |
-| Alimentación y batería | Entrada DC amplia de 9–90V; batería auxiliar interna de 500 mAh; modo de sueño \<15 mA |
-| Almacenamiento | Hasta 6,000 registros de datos para registro offline |
-| Carcasa y durabilidad | Carcasa con clasificación IP65, temperatura de funcionamiento -25°C a +85°C |
-| Alertas y sensores | Alertas de manipulación, detección de movimiento basada en acelerómetro |
-| Firmware y Configuración | Configuración y actualizaciones vía USB, SMS, TCP/IP, Bluetooth; OTA/FOTA soportados |
-| Dimensiones y peso | 96 mm × 84 mm × 31 mm; aproximadamente 145 g |
-| Antenas | Antenas internas para GSM, GNSS y BLE |
-
-## Casos de uso
-
-- Gestión de flotas para flotas mixtas de vehículos eléctricos \(EV\) y de combustión interna \(ICE\) — monitorea la ubicación, las rutas y la telemetría obtenida del CAN para obtener información operativa.
-- Flujos de anti-robo e inmovilización — alertas de movimiento por acelerómetro, detección de manipulación y soporte de control remoto mediante salida digital para una respuesta rápida.
-- Registro de telemetría de EV — captura de métricas del bus CAN y reenvío de datos específicos de EV hacia Plaspy para monitoreo de batería y rendimiento.
-- Centros de sensores de corto alcance — la conectividad BLE permite la identificación del conductor, monitoreo de temperatura o datos de sensores auxiliares para asociarlos a los registros del vehículo.
-- Operaciones de campo resistentes — la clasificación IP65 y el amplio rango de voltaje hacen que el dispositivo sea adecuado para vehículos comerciales que operan en entornos difíciles.
+- Seguimiento de flotas mixtas (VE y convencionales) donde se necesita ubicación y telemetría del vehículo.
+- Monitoreo anti-robo y respuesta rápida mediante detección de movimiento, alertas por manipulación y salidas de control digital.
+- Registro de telemetría de vehículos eléctricos para supervisión operativa y análisis de tendencias de rendimiento dentro de Plaspy.
+- Hubs de sensores de corto alcance para identificación de conductor o control de temperatura asociados a los registros del vehículo.
+- Despliegues en vehículos comerciales robustos que requieren funcionamiento fiable en condiciones de alimentación variables.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el TS101 Basic EV CAN para la integración con Plaspy ofrece a las flotas un equilibrio entre hardware robusto y conectividad flexible. Su interfaz CAN proporciona una ruta directa para la telemetría de EV y de vehículos hacia Plaspy, mientras que BLE y E/S amplían las opciones de sensores y control, como la identificación del conductor o flujos de inmovilización remota. El almacenamiento offline del dispositivo, la detección de manipulación y su diseño de bajo consumo reducen la pérdida de datos y aumentan la fiabilidad para la gestión de flotas y aplicaciones anti-robo. Con soporte OTA/FOTA y múltiples canales de configuración \(USB, SMS, TCP/IP, Bluetooth\), el TS101 Basic EV CAN es sencillo de desplegar a escala y mantenerse actualizado a través de las herramientas de gestión de Plaspy.
+El TS101 Basic EV CAN ofrece un equilibrio práctico entre hardware resistente y capacidades de telemetría para organizaciones que confían en Plaspy para la gestión de flotas. Su enfoque en compatibilidad con flotas mixtas, almacenamiento en búfer offline y detección de eventos ayuda a mantener insight operativo continuo independientemente del tipo de vehículo o de cortes temporales de red. Integrar esta unidad con Plaspy permite consolidar en una sola plataforma la ubicación, los eventos y los datos del vehículo para supervisión e informes.
 
+Para obtener más información sobre cómo Plaspy funciona con dispositivos como el TS101 Basic EV CAN, visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y la guía del fabricante en el sitio oficial de iTriangle https://www.itriangle.net/.

@@ -2,64 +2,59 @@
 slug: /queclink/gb130mg
 id: gb130mg
 sidebar_label: GB130MG
+title: QuecLink - GB130MG
 sidebar_class_name: menu_item_tracker
+description: Compact waterproof vehicle tracker GB130MG for UBI and fleet telematics compatible with Plaspy platform
+keywords:
+  - QuecLink GB130MG
+  - GB130MG tracker
+  - QuecLink tracker
+  - GB130MG Plaspy compatible
+  - vehicle GPS tracker
+  - fleet telematics
+  - usage based insurance
+  - IP67 GPS tracker
+  - accelerometer crash detection
+  - BLE sensor integration
 ---
+
 # QuecLink - GB130MG
 
 ![GB130MG](./tracker.png)
 
-The GB130MG is a compact, waterproof LTE vehicle GPS tracker designed for large-scale usage-based insurance \(UBI\) and fleet telematics deployments. As a Plaspy compatible tracker, it delivers high-fidelity location and motion data, rugged durability, and quick installation to help fleets and insurers deploy real-time tracking and telemetry at scale.
+The GB130MG is a compact, waterproof vehicle GPS tracker designed for large scale usage based insurance and fleet telematics deployments. Built for harsh environments, it combines rugged IP67 protection with high fidelity positioning and motion sensing to support continuous tracking, incident analytics and anti theft workflows. Its form factor and internal backup power make it suitable for exposed mounting locations where reliability is required.
 
-Built for harsh environments, the GB130MG combines global LTE Cat M1 / NB2 connectivity with 2G fallback, multi-constellation GNSS positioning and BLE 5.2 for accessory integration. Its IP67 enclosure, internal high-temperature NiMH backup battery and 6-axis accelerometer make this GPS tracker a reliable choice for crash analytics, anti-theft alerts and continuous fleet management when integrated with the Plaspy platform.
+As a Plaspy compatible device, the GB130MG can feed location, motion and accessory telemetry into Plaspy to support real time visibility, alerts and historical reporting. Plaspy can ingest the GB130MG data to power fleet monitoring, usage based insurance workflows and recovery operations, helping operators deploy scalable telematics with rich event data and durable hardware.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker optimized for real-time tracking and large-scale telematics deployments.
-- Global LTE Cat M1 / NB2 connectivity with 2G fallback for wide roaming and reliable cellular communication.
-- u‑blox All‑in‑One GNSS \(GPS, GLONASS, Galileo, BeiDou\) with autonomous accuracy better than 2 m.
-- Rugged IP67-rated enclosure and internal high-temp NiMH backup battery \(200 mAh\) for under-hood or exposed mounting.
-- 6-axis accelerometer sampling up to 400 Hz for precise crash detection and accident reconstruction \(pre/post-event capture\).
-- BLE 5.2 for Bluetooth sensors and accessory integrations, enabling expanded telemetry and environmental monitoring.
-- Compact, lightweight form factor for fast, low-cost installation \(installable in under five minutes\).
-- Carrier certifications \(CE, FCC, PTCRB, T‑Mobile, Verizon, AT&T, USCC and others\) for straightforward carrier-certified rollouts.
+- Compact, waterproof vehicle tracker tailored for UBI programs and fleet telematics.
+- High fidelity GNSS positioning and motion sensing for accurate location and event capture.
+- Rugged IP67 enclosure and internal high temperature backup battery for harsh environments.
+- High rate accelerometer for crash detection and pre post event data useful in incident analysis.
+- BLE 5.2 support for accessory and sensor integration to extend telemetry capabilities.
+- Carrier certifications and global cellular connectivity options to simplify large rollouts.
 
 ## How It Works with Plaspy
 
-The GB130MG integrates with Plaspy to stream location and telemetry in near real time and feed platform workflows for fleet management, UBI and anti-theft operations. Plaspy ingests the device’s GNSS positions, high-frequency accelerometer events and BLE-sensor data to power live maps, alerts and historical reports.
+When paired with Plaspy, the GB130MG streams location and telemetry to the platform so operators can monitor vehicles, respond to events and generate reports. Plaspy uses the tracker’s position, movement and accessory data to create live maps, trigger alerts and populate historical records for operational oversight.
 
-- Real-time location and telemetry updates: GNSS positions and device telemetry transmitted over LTE Cat M1 / NB2 \(with 2G fallback\) to Plaspy.
-- Crash and accident events: high-rate 6-axis accelerometer captures pre- and post-event data for accident reconstruction and automated incident alerts.
-- Ignition and virtual ignition: Plaspy can use voltage and accelerometer-derived virtual ignition signals to determine vehicle state for trip reporting and idle detection.
-- Tow and immobilization workflows: tow alarm in ignition-off state and platform-driven immobilizer workflows can be implemented through Plaspy when paired with vehicle control systems.
-- Bluetooth sensors: BLE 5.2 enables integration of external sensors \(temperature, door, cargo\) so Plaspy can correlate sensor telemetry with location and driving behavior.
-- Scheduled and rule-based reporting: supports time/distance/mileage reporting and geo-fence alerts that Plaspy can surface to operators and policy holders.
-- Multiple communications channels: data and alerts delivered over TCP, UDP or SMS depending on network availability and platform configuration.
+- Live location tracking and map visualization for fleet dispatch and oversight.
+- Event based alerts such as crash, tow or immobilization surfaced to operators and workflows.
+- Correlation of BLE sensor telemetry with location to enhance cargo, door or environmental monitoring.
+- Trip and usage reporting for fleet utilization and usage based insurance analytics.
+- Historical playback and exportable reports to support claims review and operational audits.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat M1 / NB2 \(global\), 2G fallback |
-| --- | --- |
-| Bands | Common LTE and GSM bands for global deployments \(carrier-certified\) |
-| Power & Battery | Operating voltage 8–32 V DC; internal high-temperature NiMH backup battery \(200 mAh\) |
-| Interfaces | Internal cellular, GNSS and Bluetooth antennas; LED indicators for CEL, GNSS and PWR; tow alarm and virtual ignition detection capabilities \(voltage & accelerometer\) |
-| GNSS | u‑blox All‑in‑One receiver supporting GPS, GLONASS, Galileo, BeiDou; autonomous accuracy &lt; 2 m; cold start ~29 s, warm start ~21 s, hot start ~1 s; tracking sensitivity to -167 dBm |
-| Sensors | 6‑axis accelerometer sampling up to 400 Hz; captures up to 15 seconds pre- and post-event for accident reconstruction |
-| Bluetooth | BLE 5.2 for wireless accessory connectivity and IoT integrations |
-| Communications & Protocols | TCP, UDP, SMS transport supported for telemetry and alerts |
-| Certifications & Compliance | CE, FCC, PTCRB, T‑Mobile, Verizon, AT&T, USCC, E‑Mark, IC |
-| Form Factor & Environmental | Dimensions 134.6 × 67.5 × 14.8 mm; weight 130 g; IP67 water resistance; operating temp -30 °C to +70 °C \(storage -40 °C to +70 °C\) |
-
-## Use Cases
-
-- Usage‑Based Insurance \(UBI\): capture high-fidelity GNSS and driving behavior to calculate risk scores and enable usage‑based premiums.
-- Fleet management and routing: real-time tracking, scheduled reporting and geo-fence alerts for route compliance, dispatching and utilization tracking.
-- Anti-theft and recovery workflows: tow alarms in ignition‑off state and platform-driven immobilizer workflows help secure parked assets.
-- Accident analytics and claims support: 400 Hz accelerometer data with pre/post-event capture for incident reconstruction and telematics-backed claims processing.
-- Sensorized cargo and asset monitoring: BLE 5.2 allows temperature, door or motion sensors to augment location telemetry for logistics and asset protection.
+- Usage based insurance programs capturing driving behavior and trip data for risk assessment.
+- Fleet management for routing, dispatching and utilization monitoring across large deployments.
+- Anti theft and recovery workflows using tow alarms and immobilization alerts when paired with platform controls.
+- Accident analytics and claims support using high rate accelerometer data with pre and post event capture.
+- Sensorized cargo monitoring where BLE accessories add temperature, door or condition telemetry to location feeds.
 
 ## Why Choose This Tracker with Plaspy
 
-When you need a Plaspy compatible GPS tracker that balances rugged durability, accurate positioning and rich telemetry, the GB130MG stands out. Its waterproof IP67 housing and internal high‑temperature backup battery support harsh mounting locations, while the u‑blox GNSS and sub-2 m position accuracy deliver reliable real-time tracking. High-rate accelerometer capture adds forensic detail for crash detection and claims validation, and BLE 5.2 expands telemetry via Bluetooth sensors.
+The GB130MG is a practical choice for organizations that need a durable tracker with high fidelity motion and positioning data. Its rugged design, internal backup power and sensor support make it suitable for exposed vehicle installations, while the device’s event capture capabilities add valuable context for incident investigation and telematics driven insurance products. Integrated with Plaspy, the tracker helps deliver operational visibility and scalable data collection across fleets and insurance portfolios.
 
-Certified for major carriers and supporting global LTE Cat M1 / NB2 with 2G fallback, the GB130MG simplifies large rollouts and roaming deployments. Integrated with Plaspy, it helps operators implement fleet management, telemetry-driven fuel and usage workflows, anti-theft responses and insurance telematics with lower installation cost and high data fidelity. For businesses that require accurate GPS tracking, robust crash analytics and flexible sensor support, the GB130MG provides a practical, carrier-ready option that scales with Plaspy’s platform capabilities.
-
+If you want to explore how the GB130MG can fit into your telematics strategy, learn more about Plaspy on our main website https://www.plaspy.com. Please note that product specifications, availability and manufacturer details can change over time; verify current technical information and certifications on the manufacturer site https://www.queclink.com/.

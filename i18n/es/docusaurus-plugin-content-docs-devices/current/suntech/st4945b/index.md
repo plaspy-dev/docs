@@ -2,59 +2,59 @@
 slug: /suntech/st4945b
 id: st4945b
 sidebar_label: ST4945B
+title: Suntech - ST4945B
 sidebar_class_name: menu_item_tracker
+description: Rastreador robusto Suntech ST4945B compatible con Plaspy para seguimiento prolongado de activos. IP67, LTE Cat M1, NB IoT y batería de larga duración
+keywords:
+  - Suntech ST4945B
+  - rastreador ST4945B
+  - rastreador GPS Suntech
+  - compatible con Plaspy
+  - rastreador LTE Cat M1
+  - rastreador NB IoT
+  - seguimiento de activos
+  - seguimiento de flotas
+  - seguimiento de contenedores
+  - rastreador IP67
 ---
+
 # Suntech - ST4945B
 
 ![ST4945B](./tracker.jpg)
 
-El ST4945B es un rastreador GPS de activos robusto para LTE Cat M1 / NB‑IoT, diseñado para monitoreo de bajo consumo a largo plazo e integración fluida con Plaspy. Construido para instalaciones exteriores exigentes, el ST4945B ofrece seguimiento en tiempo real fiable, alternativas de conectividad sólidas y autonomía de batería extendida para gestión de flotas, monitorización de contenedores y remolques, y proyectos de recuperación remota de activos.
+El ST4945B es un rastreador GPS robusto de Suntech pensado para monitorización de baja potencia y larga duración en entornos exteriores exigentes. Con opciones de conectividad IoT celular y una autonomía de batería ampliada, el ST4945B está orientado a aplicaciones como monitoreo de contenedores y remolques, supervisión de flotas y recuperación remota de activos, donde la resistencia del equipo y la continuidad operativa son prioritarias.
 
-Listo para usar con Plaspy; el ST4945B proporciona ubicación en tiempo real, telemetría basada en movimiento y alertas de eventos a la plataforma Plaspy mediante flujos de datos TCP/UDP. Con protección IP67, detección de interferencias, actualizaciones de firmware OTA y una interfaz opcional BLE 4.2, este rastreador está diseñado para respaldar flujos de trabajo anti‑robo, casos de uso de telemetría y despliegues escalables de gestión de flotas.
+Como dispositivo compatible con Plaspy listo para usar, el ST4945B transmite ubicaciones en tiempo real, telemetría basada en movimiento y alertas de eventos directamente a la plataforma Plaspy. Esta compatibilidad facilita la inclusión del ST4945B en despliegues Plaspy para mantener visibilidad continua, notificaciones automáticas e informes consolidados en flotas y activos remotos.
 
 ## Características principales
 
-- Rastreador GPS compatible con Plaspy que proporciona seguimiento en tiempo real y telemetría sobre LTE Cat M1 / NB‑IoT con retroceso a 2G.
-- Gran batería de respaldo recargable de Li‑ion de 3.7 V y 18,200 mAh para una autonomía extendida en modos de reposo y reposo profundo.
-- Carcasa robusta con certificación IP67 para polvo y agua—ideal para contenedores, remolques y activos exteriores.
-- GPS/GLONASS integrado con soporte SBAS y precisión típica de aproximadamente ±3 m CEP en condiciones de buena señal.
-- Gestión avanzada de energía con corriente de reposo profundo ultrabaja \(\<10 μA\) para maximizar los intervalos de servicio.
-- Detección de interferencias, alertas de batería baja y actualizaciones de firmware OTA para implementaciones seguras gestionadas de forma remota.
-- Soporte opcional BLE 4.2 para emparejamiento de sensores locales y mantenimiento, además de un Servidor de Mantenimiento opcional para la gestión de dispositivos.
+- Dispositivo compatible con Plaspy que ofrece seguimiento y telemetría en tiempo real a través de LTE Cat M1 y NB IoT, con retroceso a EGPRS.
+- Gran batería recargable de respaldo para intervalos de servicio extendidos y menos visitas de mantenimiento.
+- Carcasa con certificación IP67 para resistencia al polvo y al agua, adecuada para contenedores, remolques y activos exteriores.
+- Informes de ubicación y movimiento basados en GNSS que admiten seguimiento, reproducción histórica y alertas activadas por eventos.
+- Detección de interferencias (jamming), notificaciones de batería baja y actualizaciones de firmware por aire para gestión remota del dispositivo.
+- Soporte opcional BLE para emparejamiento de sensores locales y telemetría in situ cuando sea necesario.
 
 ## Cómo funciona con Plaspy
 
-El ST4945B transmite posiciones GNSS y telemetría a Plaspy mediante TCP/UDP sobre LTE Cat M1, NB‑IoT o EGPRS \(2G\) cuando es necesario. Plaspy ingiere ubicaciones, eventos de movimiento y mensajes de estado del dispositivo para proporcionar una conciencia situacional continua, geocercas, reproducción histórica y alertas automatizadas. La integración es sencilla: el dispositivo transmite paquetes de telemetría estándar que Plaspy puede analizar para paneles en tiempo real, informes y notificaciones basadas en reglas.
+El ST4945B envía posiciones GNSS, eventos de movimiento y mensajes de estado del dispositivo a Plaspy mediante flujos de datos TCP o UDP estándar sobre enlaces celulares. Plaspy procesa esos mensajes para mostrar la ubicación en vivo, reproducción histórica y alertas basadas en reglas en un panel centralizado, haciendo que el dispositivo sea útil para la supervisión operativa y flujos de trabajo automatizados.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento en vivo y reproducción histórica.
-- Detección de movimiento y acelerómetro utilizada para alertas de manipulación, remolque o desplazamiento de carga.
-- Notificaciones de batería baja y detección de interferencias remitidas a Plaspy para una respuesta rápida del operador.
-- Las I/O digitales e interfaces varían según el modelo; cuando están disponibles pueden reportar ignición, eventos de puerta/alarma o activar controles de inmovilizador externos \(según el modelo\).
-- Soporte opcional BLE 4.2 para la integración de sensores locales y balizas Bluetooth utilizadas por Plaspy para telemetría mejorada en sitio.
+- Actualizaciones de ubicación en tiempo real y reproducción histórica presentadas en los paneles de Plaspy.
+- Eventos basados en movimiento enviados a Plaspy para notificaciones de manipulación, remolque o desplazamiento de carga.
+- Alertas de batería baja y jamming entregadas a Plaspy para activar la respuesta del operador o tareas de mantenimiento.
+- Geocercas, reglas basadas en horarios y notificaciones automáticas configuradas y gestionadas desde Plaspy.
+- Datos de sensores BLE opcionales pueden asociarse con la telemetría del dispositivo en Plaspy para un monitoreo local mejorado.
 
-## Resumen técnico
+## Casos de uso habituales
 
-| Modelo | ST4945B |
-| --- | --- |
-| Conectividad | LTE Cat M1 / NB‑IoT \(NB2\), EGPRS \(2G\) fallback — TCP/UDP |
-| Bandas | LTE Cat M1: B1, B2, B3, B4, B5, B8, B12, B13, B18, B19, B20, B25, B26, B27, B28, B66, B85; NB2: cobertura similar más B71; EGPRS: 850/900/1800/1900 MHz |
-| Energía y batería | 3.7V, 18,200 mAh batería de respaldo recargable Li‑ion; carga vía 12 VDC; corriente activa ~40–60 mA; sleep \<3.5 mA; deep sleep \<10 μA |
-| Interfaces | Opciones de E/S flexibles \(variable por modelo\); tres LEDs de estado \(red, GPS, carga\); no Wi‑Fi; BLE 4.2 opcional |
-| GNSS | GPS + GLONASS con SBAS \(WAAS, EGNOS, MSAS\); ~±3 m CEP \(típico, buenas condiciones\); actualización 1 Hz; cold start \<35 s, warm \<30 s, hot \<1 s; sensibilidad hasta -167 dBm |
-| Seguridad y Gestión | Detección de interferencias, alertas de batería baja, actualización de firmware OTA \(FOTA\); servidor de mantenimiento opcional para gestión remota |
-| Factor de forma | 125 × 90 × 50 mm; peso 523 g \(700 g con soporte\); carcasa certificada IP67 |
-
-## Casos de uso
-
-- Monitorización de contenedores y remolques: ubicación continua, alertas de movimiento y detección de manipulación e interferencia para activos de larga distancia.
-- Gestión de flotas: seguimiento en tiempo real y telemetría para flotas mixtas usando LTE Cat M1/NB‑IoT con retroceso a 2G.
-- Recuperación de activos y anti‑robo: alarmas basadas en movimiento, notificaciones de incumplimiento de geocerca y alertas de batería baja para acelerar la recuperación.
-- Seguimiento remoto de equipos: larga vida de la batería y protección IP67 para infraestructura exterior y equipos estacionales.
-- Telemetría local con sensores Bluetooth: BLE opcional permite sensores de temperatura, apertura de puertas o proximidad para el monitoreo a nivel de sitio al emparejar con Plaspy.
+- Monitoreo de contenedores y remolques con alertas de movimiento y detección de manipulación para activos de larga distancia.
+- Seguimiento de flotas mixtas donde la larga duración de la batería y la carcasa resistente reducen el tiempo de inactividad.
+- Recuperación de activos y flujos de trabajo antirobo utilizando alertas de movimiento, notificaciones de violación de geocerca y monitoreo de estado.
+- Seguimiento de equipos remotos para infraestructura exterior y activos estacionales que requieren gran autonomía.
+- Telemetría a nivel de sitio mediante sensores BLE opcionales emparejados localmente e informados a través de Plaspy.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Emparejar el ST4945B con Plaspy proporciona una solución práctica y escalable para organizaciones que requieren un rendimiento robusto de rastreo GPS en entornos difíciles. La combinación de cobertura LTE Cat M1 / NB‑IoT, retroceso a EGPRS y una batería de respaldo muy grande minimiza las visitas de mantenimiento y mantiene los activos visibles durante períodos prolongados. La protección IP67 y la detección de interferencias aumentan la confianza en escenarios de anti‑robo y recuperación, mientras que las actualizaciones OTA y un Servidor de Mantenimiento opcional simplifican la gestión del ciclo de vida.
+Combinar el ST4945B con Plaspy ofrece una solución práctica que une hardware resistente con una plataforma de seguimiento flexible. El enfoque del dispositivo en la larga duración de la batería, la protección ambiental y las funciones de gestión remota ayuda a minimizar las visitas al campo mientras mantiene la visibilidad de los activos a través de los paneles en tiempo real y el motor de alertas de Plaspy. Para organizaciones que administran contenedores, remolques o equipos remotos, esta combinación favorece la supervisión operativa, una respuesta más rápida ante incidentes y un mantenimiento del ciclo de vida más simple.
 
-Para despliegues de gestión de flotas y telemetría, el ST4945B ofrece posicionamiento GNSS preciso, informes basados en movimiento y soporte opcional de sensores BLE, todo lo cual alimenta los paneles en tiempo real, alertas e informes de Plaspy. Ya sea que necesite seguimiento en tiempo real, monitorización de combustible o integración de ignición / inmovilizador \(a través de las opciones de I/O disponibles\), este rastreador GPS compatible con Plaspy está diseñado para reducir el tiempo de inactividad, disminuir los costos operativos y mejorar la seguridad de los activos.
-
+Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo; por favor verifique las especificaciones actuales en el sitio oficial de Suntech http://www.suntechint.com/.

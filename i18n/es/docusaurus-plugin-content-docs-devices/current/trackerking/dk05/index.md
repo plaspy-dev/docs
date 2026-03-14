@@ -2,52 +2,61 @@
 slug: /trackerking/dk05
 id: dk05
 sidebar_label: DK05
+title: TrackerKing - DK05
 sidebar_class_name: menu_item_tracker
+description: Localizador GPS compacto TrackerKing DK05 para mascotas compatible con Plaspy, seguimiento en tiempo real geocercas IP67 y monitoreo de voz
+keywords:
+  - TrackerKing DK05
+  - DK05 rastreador GPS
+  - TrackerKing rastreador mascotas
+  - DK05 compatible Plaspy
+  - rastreador GPS para mascotas
+  - rastreador GPS para collar
+  - seguimiento mascotas en tiempo real
+  - rastreador IP67 para mascotas
+  - rastreador 4G para mascotas
+  - plataforma de rastreo de mascotas
 ---
-# TrackerKing - DK05
+
+# TrackerKing - DK05: Localizador GPS compacto para mascotas
 
 ![DK05](./tracker.jpg)
 
-El DK05 es un rastreador GPS compacto para mascotas inteligente, diseñado para seguimiento fiable en tiempo real por collar y ahora completamente compatible con Plaspy. Diseñado para perros y gatos, el DK05 combina amplia cobertura celular \(4G + 2G Cat‑1, quad‑band GSM\) con una carcasa IP67 a prueba de agua y una batería recargable de 1000 mAh, de modo que los dueños obtienen actualizaciones de ubicación continuas, alertas de movimiento y monitoreo de voz remoto a través de la plataforma Plaspy.
+El DK05 es un localizador GPS compacto especialmente diseñado para montarse en collares y arneses. Desarrollado para ofrecer actualizaciones de ubicación confiables en tiempo real, está pensado para el seguimiento de perros y gatos y prioriza la visibilidad continua de la posición de la mascota. Sus características incluyen amplia cobertura celular, carcasa impermeable adecuada para uso exterior y una batería recargable que soporta sesiones de rastreo prolongadas y alertas oportunas.
 
-Fácil de montar en un collar o arnés, el DK05 ofrece telemetría práctica para la seguridad de la mascota sin añadir volumen. Cuando se integra con Plaspy, obtienes seguimiento centralizado en tiempo real, alarmas de geocerca configurables, avisos de batería baja y datos de ubicación históricos, todo gestionado desde el panel de Plaspy y las apps móviles.
+Como dispositivo compatible con Plaspy, el DK05 integra su telemetría en la plataforma Plaspy para que usted, como propietario o gestor, pueda supervisar mascotas desde un panel centralizado y desde las aplicaciones móviles. Plaspy recibe actualizaciones de ubicación, eventos de movimiento y notificaciones de estado del DK05 y transforma esos datos en vistas de mapa en vivo, alertas configurables por geocerca, avisos de batería baja y reproducción histórica para recuperación y análisis.
 
 ## Puntos clave
 
-- Rastreador GPS compatible con Plaspy: se integra con Plaspy para seguimiento en tiempo real, alertas y historial.
-- Diseño compacto y ligero \(≈7,5 × 2,9 × 1,7 cm; ≈39,5 g\) diseñado específicamente para collares y arneses.
-- Amplia cobertura celular con 4G + 2G Cat‑1 y GSM de cuádruple banda para una amplia disponibilidad de red.
-- Clasificación IP67 a prueba de agua para soportar condiciones húmedas al aire libre y mascotas activas.
-- Batería recargable de 1000 mAh con modo de ahorro de energía ajustable desde la app para un funcionamiento extendido.
-- Alertas de seguridad integrales: violaciones de geocerca, alarmas de movimiento y vibración, y avisos de batería baja.
-- Monitoreo de voz remoto para comprobaciones de audio en tiempo real a través de la app de Plaspy.
-- Nota: DK05 está optimizado para telemetría de mascotas y no incluye funciones de telemetría vehicular, como detección de ignición, control de inmovilizador o monitoreo de combustible.
+- Localizador GPS compatible con Plaspy para actualizaciones de ubicación en tiempo real y alertas.
+- Diseño compacto y liviano pensado para colocarse en collares y arneses.
+- Opciones de conectividad celular que garantizan disponibilidad en amplia cobertura de red.
+- Carcasa impermeable con certificación IP67 adecuada para exteriores y condiciones húmedas.
+- Batería recargable de 1000 mAh con ahorro de energía controlable desde la app para prolongar la autonomía.
+- Alertas de seguridad como violación de geocercas, alarmas por movimiento y vibración, y avisos de batería baja.
+- Monitoreo de voz remoto para comprobaciones de audio rápidas a través de la plataforma Plaspy.
 
-## Resumen técnico
+## Cómo funciona con Plaspy
 
-| Modelo | DK05 |
-| --- | --- |
-| Conectividad | 4G + 2G Cat‑1, GSM de cuádruple banda |
-| Bandas | GSM de cuádruple banda \(amplia compatibilidad GSM\) |
-| Alimentación y batería | Batería recargable de 1000 mAh; modo de ahorro de energía ajustable desde la app |
-| Interfaces | No hay pantalla integrada; diseñado para montaje en collar/arnés; micrófono integrado para monitoreo de voz. No hay entrada de ignición externa ni interfaz de inmovilizador. |
-| GNSS | Posicionamiento en tiempo real basado en GPS \(funcionalidad de rastreador GPS\) |
-| Bluetooth | No especificado / no se anuncian sensores BLE integrados |
-| Gestión remota | Control mediante la app companion para ajustes de ahorro de energía y notificaciones; configurado para integrarse con Plaspy |
-| Protección y forma | IP67 a prueba de agua; dimensiones ≈7,5 × 2,9 × 1,7 cm; peso ≈39,5 g; montaje en collar/arnés |
-| Garantía | Garantía de 18 meses |
+Cuando añade el DK05 a su cuenta de Plaspy, el dispositivo transmite datos de posición y eventos a Plaspy, donde esa información se presenta como seguimiento en vivo, notificaciones y registros históricos. Plaspy consolida las actualizaciones de varias unidades DK05 para ofrecer a propietarios o equipos una vista única para supervisión, alertas e informes básicos.
 
-## Casos de uso
+- Actualizaciones de ubicación en vivo y reproducción histórica disponibles en el mapa y la línea de tiempo de Plaspy.
+- Los eventos de movimiento y vibración generan notificaciones inmediatas en Plaspy ante actividad inusual.
+- Las geocercas configuradas en Plaspy producen alertas de entrada y salida para supervisar zonas seguras.
+- Las notificaciones de batería baja se reenvían a Plaspy para que usted reciba recordatorios proactivos de recarga.
+- El monitoreo de voz remoto está accesible desde Plaspy para verificar el entorno de la mascota bajo demanda.
+- Tenga en cuenta que el DK05 está optimizado para telemetría de mascotas y no incluye funciones específicas para vehículos, como detección de encendido o control de inmovilizador.
 
-- Seguimiento diario de perros o gatos para propietarios que buscan ubicación en tiempo real fiable y alertas de actividad mediante Plaspy.
-- Monitoreo al aire libre y resistente al agua para mascotas que nadan, caminan bajo la lluvia o deambulan por terrenos mojados \(clasificación IP67\).
-- Protección de geocerca: recibe alertas inmediatas de Plaspy cuando la mascota sale de una zona segura definida.
-- Recuperación de mascotas perdidas mediante reproducción de rutas históricas y seguimiento en vivo en Plaspy para localizar la última posición conocida.
-- Comprobaciones de comportamiento y seguridad con alarmas de movimiento/vibración y monitoreo de voz remoto para evaluar la situación de la mascota desde la distancia.
+## Casos de uso típicos
+
+- Monitoreo diario de la ubicación de perros y gatos para garantizar la seguridad de la mascota y la tranquilidad del propietario.
+- Rastreo resistente al agua para mascotas que nadan o son activas bajo lluvia.
+- Protección mediante geocercas para notificar al propietario cuando la mascota salga de un área segura definida.
+- Recuperación de mascotas perdidas usando el rastreo en vivo combinado con la reproducción histórica de rutas en Plaspy.
+- Comprobaciones remotas del bienestar mediante alertas de movimiento y monitoreo de voz para obtener conciencia situacional rápida.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El DK05 ofrece seguimiento GPS centrado en mascotas que se alinea con las fortalezas de Plaspy en monitoreo centralizado y gestión de alertas. Su combinación de conectividad 4G + 2G Cat‑1 y soporte GSM de cuádruple banda garantiza una amplia cobertura para el seguimiento en tiempo real, mientras que la protección IP67 y un diseño compacto y ligero lo hacen cómodo para el uso diario en el collar. La compatibilidad con Plaspy añade valor al convertir la telemetría del DK05 en alertas accionables, historial de ubicación y notificaciones móviles, proporcionando una visión unificada para monitorizar a varias mascotas.
+El DK05 combina un diseño enfocado en mascotas con la supervisión centralizada de Plaspy, lo que lo convierte en una opción práctica para propietarios y pequeños equipos que requieren un rastreo sencillo y confiable. Su tamaño compacto y construcción impermeable minimizan la interferencia con la actividad normal de la mascota, mientras provee la telemetría y las alertas de seguridad que Plaspy puede presentar y gestionar.
 
-Para propietarios de mascotas que buscan una conciencia fiable anti‑robo y telemetría continua sin la complejidad de sistemas de grado vehicular, el DK05 ofrece una solución eficiente: funciones enfocadas \(geocerca, alarmas de movimiento y vibración, avisos de batería baja, monitoreo de voz\) e integración simple con Plaspy para obtener información en tiempo real de forma segura. Nota: DK05 está diseñado específicamente para animales y no incluye características de telemetría vehicular como detección de ignición, control de inmovilizador, monitoreo de combustible o gestión de sensores BLE comúnmente utilizadas en configuraciones de gestión de flotas.
-
+Si desea explorar cómo se desempeña el DK05 dentro de Plaspy o comparar este equipo con otras opciones de rastreo para mascotas, conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, así que verifique los detalles técnicos actuales y la información de garantía en el sitio del fabricante https://trackerking.cn/.

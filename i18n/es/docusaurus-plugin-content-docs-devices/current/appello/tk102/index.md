@@ -2,44 +2,59 @@
 slug: /appello/tk102
 id: tk102
 sidebar_label: TK102
+title: Appello - TK102
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto Appello TK102 con alta sensibilidad y larga autonomía, compatible con Plaspy para seguimiento confiable de vehículos y activos
+keywords:
+  - Appello TK102
+  - Rastreador GPS TK102
+  - Rastreador Appello Plaspy
+  - Dispositivo de rastreo GPS
+  - Rastreo de flotas
+  - Rastreo de activos
+  - Chip GPS NS 1315
+  - Rastreador con CPU STC
+  - Rastreador GPS compacto
+  - Rastreador de larga autonomía
 ---
+
 # Appello - TK102
 
 ![TK102](./logo.jpg)
 
-El rastreador GPS Appello TK102 es un dispositivo compacto y versátil que utiliza la red GSM / GPRS para proporcionar un seguimiento preciso de la ubicación en tiempo real. Con una banda de frecuencia de 900/1800 / 1900Mhz, este rastreador es compatible con la mayoría de las redes de telefonía móvil en todo el mundo.
+El Appello TK102 es un rastreador GPS compacto y versátil diseñado para ofrecer localización fiable en una variedad de aplicaciones. Construido en torno a una CPU STC y el chip GPS New Star NS-1315, el TK102 proporciona alta sensibilidad GPS y buena precisión de posicionamiento. Su formato reducido y diseño liviano facilitan su instalación en lugares donde se requiere seguimiento discreto. El dispositivo admite comunicaciones GSM GPRS en frecuencias comunes y cuenta con una batería recargable que ofrece un tiempo de espera prolongado para operaciones extendidas.
 
-Equipado con un potente chip GPS Star NS-1315, el TK102 ofrece una sensibilidad de GPS excepcional de -159dBm y una precisión de ubicación de hasta 5 metros. Esto garantiza que obtenga información precisa sobre la ubicación de su vehículo, mascota o cualquier otro objeto que desee rastrear.
+Como dispositivo compatible con Plaspy, el TK102 puede enviar datos de posición a la plataforma de Plaspy para apoyar la supervisión, generación de informes y control operativo. Su combinación de posicionamiento preciso, tamaño compacto y larga autonomía lo convierte en una opción práctica para organizaciones que desean integrar un rastreador sencillo en Plaspy para el seguimiento de vehículos, activos o personal sin demandas complejas de hardware.
 
-El rastreador TK102 cuenta con un módulo GSM / GPRS SIM 300s, lo que le permite enviar y recibir datos de ubicación a través de mensajes de texto o a través de una plataforma de seguimiento en línea. Además, este dispositivo tiene una batería de Li-ion de 3.7V 850mAh que proporciona hasta 48 horas de tiempo de espera.
+## Características principales
 
-Con un tamaño compacto de 64 x 46 x 17 mm y un peso neto de solo 50 g, el TK102 es fácil de transportar y ocultar. También viene con un cargador de pared 110-220V para una carga conveniente.
+- Alta sensibilidad GPS y precisión típica alrededor de 5 metros para fijaciones de posición fiables
+- Compatible con bandas GSM GPRS comunes en muchas regiones para conectividad celular
+- Dimensiones compactas y peso reducido para colocación discreta y fácil portabilidad
+- Batería recargable de 3.7V 850mAh que ofrece hasta 48 horas de espera para uso prolongado
+- Buenas tolerancias ambientales, incluyendo rangos amplios de temperatura de operación y almacenamiento
+- Cargador de pared incluido para recarga conveniente en tensiones de red habituales
 
-En resumen, el rastreador GPS Appello TK102 es una opción confiable y eficiente para aquellos que desean mantener un seguimiento preciso de la ubicación de sus activos. Ya sea que necesite rastrear su vehículo, mascota o cualquier otro objeto de valor, este dispositivo le brindará la tranquilidad de saber dónde se encuentra en todo momento.
+## Cómo funciona con Plaspy
 
-### Características destacadas:
+El TK102 puede proporcionar actualizaciones continuas de ubicación que Plaspy ingiere para mostrar datos de seguimiento en vivo e históricos en una única plataforma. Plaspy utiliza estas señales de posición para ofrecer visibilidad sobre los desplazamientos de activos y vehículos y para soportar flujos de trabajo de informes y alertas.
 
-- Red GSM / GPRS para seguimiento en tiempo real
-- Chip GPS Star NS-1315 para una sensibilidad excepcional
-- Precisión de ubicación de hasta 5 metros
-- Batería de Li-ion de 3.7V 850mAh para hasta 48 horas de tiempo de espera
-- Tamaño compacto y peso ligero para facilitar el transporte y ocultación
+- Visualización de posición en tiempo real y rastro de migas para historial de movimiento
+- Alarmas por geocerca y basadas en ubicación configurables en Plaspy para notificar a los operadores
+- Informes agregados para análisis de rutas y revisión operativa
+- Vistas centralizadas de gestión de dispositivos para supervisar estado del rastreador y nivel de batería
+- Integración de los datos de ubicación del TK102 en paneles de flota para supervisión
 
-### Especificaciones técnicas:
+## Casos de uso típicos
 
-- Red: GSM / GPRS
-- Banda: 900/1800 / 1900Mhz
-- CPU: STC
-- Chip GPS: Nuevo chip GPS Star NS-1315
-- Módulo GSM / GPRS: SIM 300s
-- Sensibilidad del GPS: -159dBm
-- Precisión del GPS: 5 m
-- Tiempo hasta la primera reparación: estado frío 45s estado caliente 1s
-- Cargador de pared 110-220V entrada 5V de salida
-- Batería: batería de Li-ion de 3.7V 850mAh
-- En espera: 48 horas
-- Temperatura de almacenamiento: -40 ° C a +85 ° C
-- Temperatura de funcionamiento: -20 ° C a + 55 ° C
-- Humedad: 5% - 95% sin condensación
+- Seguimiento básico de vehículos para flotas pequeñas o monitoreo de un solo activo
+- Seguimiento de activos portátiles cuando el tamaño compacto y la posibilidad de ocultamiento son ventajosos
+- Despliegues de corto a mediano plazo que requieren reportes GPS simples
+- Monitoreo de personal cuando se necesitan rastreadores recargables y discretos
+- Situaciones que demandan tolerancia a un amplio rango de temperaturas
 
+## Por qué elegir este rastreador con Plaspy
+
+El Appello TK102 ofrece un equilibrio práctico entre diseño compacto, rendimiento GPS sólido y larga autonomía, adecuado para muchas necesidades de seguimiento rutinarias. Para organizaciones que utilizan Plaspy, el TK102 constituye una fuente de datos sencilla que se puede incorporar a mapas en vivo, alertas e informes sin trabajos de integración complejos. Su simplicidad lo hace apropiado para despliegues donde la fiabilidad del posicionamiento y el mantenimiento fácil son prioridades.
+
+Dado que los detalles del producto y la disponibilidad pueden variar con el tiempo, verifique las especificaciones técnicas más recientes y la información de accesorios en el sitio del fabricante. Para obtener más información sobre el uso de Plaspy con dispositivos compatibles visite https://www.plaspy.com. Para las especificaciones más actuales consulte al fabricante en http://www.cnjeo.com/.

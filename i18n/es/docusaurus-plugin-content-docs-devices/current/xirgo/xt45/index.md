@@ -2,60 +2,59 @@
 slug: /xirgo/xt45
 id: xt45
 sidebar_label: XT45
+title: Xirgo - XT45
 sidebar_class_name: menu_item_tracker
+description: Rastreador Xirgo XT45 para entornos con energía intermitente, resistente y compatible con Plaspy para seguimiento y monitoreo remoto fiable
+keywords:
+  - Xirgo XT45
+  - Rastreador GPS XT45
+  - Rastreador Xirgo
+  - XT45 compatible con Plaspy
+  - Rastreo de flotas XT45
+  - rastreador GPS resistente
+  - rastreador para energía intermitente
+  - rastreador para protección de activos
+  - seguimiento de equipos remotos
+  - seguimiento de remolques
 ---
+
 # Xirgo - XT45
 
 ![XT45](./tracker.webp)
 
-El XT45 es un rastreador GPS robusto diseñado para la protección fiable de activos y la monitorización remota cuando la alimentación es intermitente. Construido con conectividad celular y GPS integrada, tolerancia a temperaturas extendidas y entradas/salidas de supervisión para control y monitorización, el XT45 está diseñado para mantener el flujo de telemetría de ubicación y estado incluso en condiciones extremas donde muchos dispositivos competidores fracasan. Como rastreador compatible con Plaspy, el XT45 ofrece los datos consistentes y accionables que esperan los usuarios de Plaspy para el seguimiento en tiempo real y la supervisión operativa.
+El XT45 es un rastreador GPS robusto diseñado para la protección confiable de activos y el monitoreo remoto en entornos donde la alimentación eléctrica es intermitente. Con conectividad celular y GPS integradas, amplia tolerancia a temperaturas extremas y entradas y salidas de supervisión para control y telemetría, el XT45 mantiene el flujo de ubicación y estado en condiciones donde muchos dispositivos fallan. Su diseño prioriza la durabilidad y la consistencia en los reportes para activos expuestos a ambientes severos.
 
-Implementado en remolques, maquinaria de construcción, equipos remotos o cualquier activo de alto valor con disponibilidad de energía intermitente, el XT45 ofrece una plataforma duradera para la gestión de flotas, flujos de trabajo antirobo y telemetría remota. Su carcasa robusta y sus interfaces de supervisión facilitan la integración de la detección de encendido, el control del inmovilizador y otros inputs del vehículo en Plaspy para habilitar alertas, geocercas e informes históricos.
+Como dispositivo compatible con Plaspy, el XT45 proporciona los datos constantes y accionables que esperan los usuarios de Plaspy para el seguimiento en tiempo real y la supervisión operativa. La integración con Plaspy facilita ver posiciones en vivo, recibir alertas por eventos e incluir la telemetría del XT45 en informes de flota y reproducción histórica, ayudando a los equipos a mantener visibilidad sobre remolques, maquinaria de construcción y otros activos remotos con alimentación intermitente.
 
-## Key Highlights
+## Aspectos principales
 
-- Plaspy compatible — proporciona datos fiables del rastreador GPS para el seguimiento en tiempo real e informes.
-- Resiliente a condiciones extremas — diseñado para mantener el seguimiento GPS cuando otros fallan.
-- Conectividad celular y GPS integrada — facilita la instalación y la integración en la nube.
-- Entradas/salidas de supervisión — permiten casos de uso de control y monitorización, como la detección de encendido y el control remoto del inmovilizador.
-- Carcasa robusta y rango de temperatura extendido — adecuada para construcción, remolques y activos remotos expuestos.
-- Diseñado para alimentación intermitente — funciona de forma fiable cuando está instalado en activos con disponibilidad de energía parcial.
-- Optimizado para telemetría — admite telemetría de estado del activo e informes de ubicación que mejoran la gestión de flotas y las estrategias antirobo.
+- Compatible con Plaspy para la entrega directa de ubicación y telemetría en paneles e informes
+- Carcasa robusta y amplia tolerancia térmica adecuada para activos expuestos y ambientes hostiles
+- Conectividad celular y GPS integradas que simplifican el reporte en la nube y reducen dependencias externas
+- Entradas y salidas de supervisión que permiten detección de ignición, control de inmovilizador y flujos de trabajo basados en eventos
+- Diseñado para operar de forma fiable con alimentación intermitente o parcial en equipos remotos
+- Útil para anti robo en flotas, protección de activos y monitoreo remoto continuo
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-El XT45 transmite actualizaciones de posición GPS y telemetría de supervisión a Plaspy mediante su enlace celular integrado. Plaspy procesa esos datos para mapas en vivo, reproducción histórica, alertas e informes. Dado que el XT45 está diseñado para operar con alimentación intermitente, Plaspy puede seguir recibiendo actualizaciones oportunas de ubicación y estado incluso durante breves intervalos de energía o condiciones ambientales adversas.
+El XT45 transmite posiciones GPS y telemetría de supervisión a Plaspy mediante su conectividad integrada, de modo que los operadores puedan monitorizar ubicaciones en tiempo real, recibir notificaciones de eventos y analizar datos históricos. Plaspy procesa esos datos y los presenta en mapas, alertas e informes para apoyar la toma de decisiones operativas y la respuesta a incidentes, incluso cuando los activos sólo disponen de ventanas cortas de alimentación.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — Plaspy muestra posiciones y estados en paneles de control y aplicaciones móviles.
-- Estado de encendido, puertas y alarmas — las entradas de supervisión pueden aportar datos de eventos discretos \(p. ej., encendido/apagado\) a Plaspy para alertas y análisis.
-- Monitoreo de combustible y telemetría preparados — las entradas/salidas de supervisión y la telemetría pueden admitir integraciones que registran eventos de combustible cuando se combina con sensores adecuados.
-- Inmovilizador remoto y control — utilice las salidas del XT45 para activar acciones de inmovilización o secuencias de apagado remoto a través de flujos de trabajo de Plaspy.
-- Sensores Bluetooth — cuando se emplean periféricos Bluetooth, Plaspy puede correlacionar los datos de sensores Bluetooth externos con la ubicación y telemetría del XT45 para obtener un contexto completo.
+- Ubicación y telemetría en tiempo real mostradas en mapas y paneles de Plaspy para visibilidad de la flota
+- Alertas de eventos y estado basadas en entradas de supervisión como cambios de ignición o alarmas
+- Geocercas y reproducción histórica para apoyar investigaciones y revisión de rutas
+- Uso de salidas para acciones remotas de inmovilizador u otros controles iniciados desde Plaspy
+- Correlación de datos de sensores externos, incluidos periféricos compatibles, con la ubicación y estado del XT45 para un contexto más completo
 
-## Technical Overview
+## Casos de uso típicos
 
-| Modelo | XT45 |
-| --- | --- |
-| Conectividad | Celular y GPS integrados |
-| Bandas | No especificado |
-| Alimentación y batería | Diseñado para operar con alimentación intermitente; construido para continuar el rastreo GPS bajo condiciones extremas |
-| Interfaces | Entradas/salidas de supervisión para control y monitorización \(detección de encendido, salidas de control\) |
-| GNSS | GPS integrado |
-| Bluetooth | No especificado |
-| Gestión remota | No especificado |
-| Forma | Carcasa robusta; adecuada para equipos remotos, remolques y maquinaria de construcción; rango de temperatura extendido |
+- Seguimiento y protección de remolques y activos remolcados expuestos a la intemperie y a largos periodos de inactividad
+- Monitoreo de maquinaria de obra donde la energía en sitio es intermitente y las condiciones son severas
+- Visibilidad de equipos remotos y generadores para confirmar ubicación y estado operativo
+- Flujos de trabajo anti robo en flotas mediante geocercas, alertas y acciones remotas de inmovilizador
+- Protección de activos de alto valor que requiere hardware duradero y telemetría constante
 
-## Use Cases
+## Por qué elegir este rastreador con Plaspy
 
-- Antirobo de flotas e inmovilización — detecta movimientos no autorizados, activa alertas y ejecuta acciones de inmovilización remota a través de las salidas de supervisión.
-- Monitoreo de equipos remotos y maquinaria de construcción — ubicación y telemetría de estado continuas incluso con energía intermitente en el sitio.
-- Seguimiento de remolques y activos — su carcasa robusta y el rango extendido de temperatura hacen al XT45 ideal para remolques expuestos y activos remolcados.
-- Telemetría y correlación de eventos de combustible — las entradas de supervisión permiten telemetría relacionada con combustible y registro de eventos cuando se combina con sensores de combustible.
-- Protección general de activos de alto valor — mantener alertas de geocerca, reproducción histórica y programación de mantenimiento para activos remotos.
+El XT45 es una opción práctica para organizaciones que necesitan un rastreador resistente capaz de reportar con fiabilidad en despliegues exigentes. Su combinación de construcción robusta, entradas y salidas de supervisión y tolerancia a la alimentación intermitente se alinea con los requisitos comunes de flotas y protección de activos, convirtiéndolo en una solución natural para usuarios de Plaspy que requieren conciencia situacional continua y control por eventos sencillo.
 
-## Why Choose This Tracker with Plaspy
-
-Elegir el XT45 junto con Plaspy ofrece un rastreador GPS fiable, diseñado para entornos exigentes y condiciones de alimentación intermitente. Su diseño con conectividad celular/GPS integrada y entradas/salidas de supervisión facilita la captura de la telemetría necesaria para la gestión de flotas, flujos de antirobo y acciones de control remoto. La plataforma de Plaspy convierte entonces esa telemetría en seguimiento en tiempo real, alertas e informes, proporcionando a los operadores una visibilidad situacional inmediata y la capacidad de actuar, ya sea a través de comandos de inmovilización, monitoreo de encendido o notificaciones basadas en eventos.
-
-Para organizaciones que gestionan equipos remotos, remolques o flotas de construcción, el XT45 representa una opción práctica centrada en la resiliencia. Su construcción robusta y la compatibilidad con Plaspy reducen la complejidad de instalación y aumentan la disponibilidad para programas de rastreo y protección de activos de misión crítica. Integre el XT45 con Plaspy para obtener una inteligencia de ubicación fiable, telemetría robusta y una gestión remota simplificada, incluso en los despliegues más desafiantes.
-
+Si sus operaciones incluyen remolques, maquinaria remota u otros activos expuestos, combinar el XT45 con Plaspy puede reducir puntos ciegos y optimizar los flujos de monitoreo y alertas. Para más información sobre Plaspy visite el sitio principal https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual en el sitio oficial del fabricante https://xirgo.com/.

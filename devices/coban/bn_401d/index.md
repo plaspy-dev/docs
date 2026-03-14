@@ -2,63 +2,62 @@
 slug: /coban/bn_401d
 id: bn_401d
 sidebar_label: BN-401D
+title: Coban - BN-401D
 sidebar_class_name: menu_item_tracker
+description: Compact Coban BN 401D motorcycle tracker compatible with Plaspy for real time tracking anti theft alerts and remote immobilizer control
+keywords:
+  - Coban BN 401D
+  - BN 401D Plaspy
+  - Coban BN 401D GPS tracker
+  - BN 401D fleet tracking
+  - BN 401D motorcycle tracker
+  - BN 401D anti theft
+  - Plaspy compatible trackers
+  - motorcycle GPS tracker
+  - compact vehicle tracker
+  - BN 401D immobilizer
 ---
+
 # Coban - BN-401D
 
 ![BN-401D](./tracker.png)
 
-# BN-401D LTE Motorcycle Management Terminal
+The BN-401D is a compact motorcycle and small vehicle GPS management terminal from Coban designed for reliable real time tracking and anti theft protection. Suited to concealed installations, the unit pairs core telemetry with a rechargeable backup battery and remote controls on the D variant to deliver ignition aware tracking, SOS and shock alarms, geo fencing and remote fuel or power cutoff for straightforward vehicle security and monitoring.
 
-The BN-401D is a compact, Plaspy compatible GPS tracker designed for reliable real-time tracking and anti-theft protection of motorcycles and small vehicles. Built for concealed installations and continuous fleet management, this LTE-capable unit provides the core telemetry and remote-control features needed for effective vehicle security and simple vehicle management.
-
-The BN-401D supports both 4G LTE and 2G fallback \(GSM/GPRS/LTE\) and connects directly to a vehicle’s 12V–24V power supply. With a rechargeable backup battery and a dedicated remote control on the D variant, it delivers ignition-aware tracking, SOS and shock alarms, geo-fencing, and remote fuel/power cutoff — all of which integrate cleanly into Plaspy for centralized monitoring, alerts and playback.
+As a Plaspy compatible device, the BN-401D supplies the location updates, event alerts and device state needed for centralized fleet oversight and individual vehicle monitoring. Its LTE first design with 2G fallback and immobilizer style controls make it a practical option for Plaspy users who need compact hardware that integrates into dashboards, alerting rules and track playback workflows.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for real-time tracking and secure anti-theft management of motorcycles and small cars.
-- Dual-network connectivity \(4G LTE + 2G fallback\) for wider coverage and reliable telemetry reporting.
-- Compact, concealed installation with direct 12V–24V vehicle power and a 3.7V 90mAh rechargeable backup battery.
-- Remote control features on the D variant: arm/disarm and remote fuel/power cutoff \(acts as an immobilizer function\).
-- Comprehensive alarm suite: SOS, shock/movement, overspeed, low battery and external power disconnection alerts.
-- Smart power behavior: stays offline while stationary to save power, wakes on motion or triggers for immediate reporting.
-- Standard accessories included: relay, wiring harness and remote control for fast deployment and immobilizer installation.
+- Purpose built for motorcycle and small car tracking with a compact form factor for concealed installation.
+- LTE capable with 2G fallback for broader coverage and continuous telemetry reporting.
+- Rechargeable backup battery plus direct 12V–24V vehicle power connection to maintain tracking during power loss.
+- D model includes remote arm/disarm and remote fuel or power cutoff for immobilizer style control.
+- Built in alarm suite including SOS, shock or movement alerts, overspeed and external power disconnection warnings.
+- Smart power behavior that reduces reporting while stationary and wakes quickly on motion or events.
+- Standard kit typically includes a relay, wiring harness and remote control for faster deployment.
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, the BN-401D delivers continuous GPS tracker data and actionable telemetry into the Plaspy platform for centralized fleet management and individual vehicle monitoring. Plaspy ingests location updates, alarm events and device state over the device’s supported communication channels so you can view live positions, replay tracks, and configure alerts for anti-theft and operational workflows.
+When connected to Plaspy, the BN-401D forwards location and event information into the Plaspy platform so operators can view live positions, replay historical tracks and receive timely alerts for security and operational events. Plaspy consolidates the tracker data with other fleet information to provide a single view of device status and incident history.
 
-- Real-time location and telemetry updates \(live position, track playback\) via LTE/2G reporting.
-- ACC ignition status and ignition-related alarms for event-based tracking and driver behaviour monitoring.
-- Remote fuel and power cutoff — usable as an immobilizer function through Plaspy controls when the D model is deployed.
-- Critical event alerts: SOS emergency alarm, movement/shock alarm, overspeed and geo-fence breach notifications.
-- Power and battery telemetry: external power disconnection alarm and low battery warnings to prevent device downtime.
+- Live position updates and track playback for visibility into vehicle movements.
+- Alarm and event notifications such as SOS, movement/shock, overspeed and geo fence breaches routed into Plaspy alerts.
+- Ignition and device state reporting to support event based tracking and operational reporting.
+- Remote immobilizer style actions from the D model integrated into Plaspy controls where permitted by local regulations.
+- Battery and external power alerts to help prevent device downtime and support proactive maintenance.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE with 2G \(GSM/GPRS\) fallback |
-| --- | --- |
-| Bands | 4G bands: B1/B2/B3/B4/B5/B7/B8/B28A/B28B/B40; 2G: 850/900/1800/1900 MHz |
-| Power & Battery | Vehicle power 12V–24V; rechargeable backup battery: 3.7V, 90 mAh |
-| Interfaces & Controls | Wiring harness and relay included; D model supports remote arm/disarm via dedicated remote control; remote fuel/power cutoff supported |
-| GNSS | High-precision receiver; sensitivity down to -165 dBm; positioning accuracy approximately 5 m; cold start ~45 s, warm start ~35 s, hot start ~1 s |
-| Positioning Behavior | Real-time online reporting; smart offline mode when stationary; wakes on motion or on incoming calls/SMS/alarms |
-| Protocols & Remote Configuration | Supports TCP/UDP/SMS transport; SMS setup commands for direct configuration |
-| Accessories | Standard kit includes relay, wiring harness and remote control \(D-model\) |
-| Dimensions & Weight | 6.78 × 4.1 × 1.84 cm; 58 g |
-| Environmental | Operating temperature: -20°C to +45°C; Storage: -40°C to +85°C; Humidity 5%–95% non-condensing |
-| Form Factor & Use | Compact vehicle-installed tracker for motorcycles and small cars; designed for concealed installation |
-
-## Use Cases
-
-- Motorcycle anti-theft: concealed installation, shock and movement alarms, SOS and remote cutoff to immobilize a stolen vehicle.
-- Small fleet management: real-time tracking, track playback and geo-fence alerts for simple fleet oversight and routing visibility.
-- Individual vehicle monitoring: ignition/ACC notifications and low battery/external power alerts for owner peace of mind.
-- Remote immobilization scenarios: use the D-model’s remote arm/disarm and remote fuel/power cutoff to secure vehicles on demand.
+- Motorcycle anti theft and recovery with concealed installation, shock alarms and remote cutoff capability.
+- Small fleet tracking for real time visibility, route review and simple geofence based alerts.
+- Owner monitoring for individual vehicles with ignition notifications and low battery warnings.
+- Remote immobilization workflows for recovery or secure vehicle management using the D variant controls.
+- Short term rental or shared vehicle programs that require lightweight tracking and basic remote control features.
 
 ## Why Choose This Tracker with Plaspy
 
-Pairing the BN-401D with Plaspy gives you a purpose-built GPS tracker optimized for anti-theft and straightforward vehicle telemetry. Its LTE-first design with 2G fallback ensures consistent connectivity for real-time tracking and telemetry, while the smart offline mode preserves battery life when vehicles are parked. The D-model’s remote arm/disarm and fuel/power cutoff provide practical immobilizer-style control that integrates into Plaspy workflows for remote action and automated alerts.
+The BN-401D pairs a low footprint hardware design with a practical set of alarms and remote control features that match common needs for motorcycle security and small vehicle fleet oversight. Its LTE first approach with fallback ensures that location and event data reach Plaspy reliably, while smart power behavior and a backup battery help maintain coverage when vehicles are stationary or external power is interrupted.
 
-For organizations and private owners who need a low-footprint GPS tracker for fleet management or individual anti-theft protection, the BN-401D delivers reliable positioning, essential alarms, and the remote-control features required for responsive vehicle security. As a Plaspy compatible device, it plugs into existing Plaspy dashboards and alert systems so you can manage devices, review tracks and respond to incidents from a single pane of glass.
+Choosing the BN-401D for use with Plaspy is a sensible option when you need a compact tracker that provides core telemetry, alarm reporting and immobilizer style control without unnecessary complexity. Plaspy can ingest the device data and expose it through dashboards, alerts and playback so teams can monitor assets and respond to incidents from a centralized platform.
 
+To learn more about how Plaspy can manage compatible devices like the BN-401D, visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details and official documentation with the manufacturer at https://www.coban.net/ before making critical procurement or deployment decisions.

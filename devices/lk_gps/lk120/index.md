@@ -2,58 +2,59 @@
 slug: /lk_gps/lk120
 id: lk120
 sidebar_label: LK120
+title: LK-GPS - LK120
 sidebar_class_name: menu_item_tracker
+description: Compact wearable GPS tracker for pets and people compatible with Plaspy providing real time location geofence alerts and SOS notifications
+keywords:
+  - LK GPS LK120
+  - LK120 tracker
+  - LK GPS tracker
+  - wearable GPS tracker
+  - pet GPS tracker
+  - personal GPS tracker
+  - Plaspy compatible
+  - geofence alerts
+  - SOS tracker
+  - portable asset tracking
 ---
+
 # LK-GPS - LK120
 
 ![LK120](./tracker.jpg)
 
-The LKGPS LK120-2G/4G is a compact, wearable GPS tracker engineered for reliable real-time tracking of pets and people. Plaspy compatible out of the box, the LK120 delivers responsive location updates, geofence alerts, and SOS notifications via 2G/4G cellular networks so owners, shelters, and small-scale asset managers can monitor movements and react quickly when it matters most.
+The LK-GPS LK120 is a compact wearable GPS tracker designed for reliable real-time location monitoring of pets and people. It is built with a rugged, waterproof housing and a lightweight form factor that can clip to a collar or be carried in a pocket. The device provides responsive location updates, configurable geofence alerts, and an SOS notification feature that helps owners and caretakers react quickly when time is critical.
 
-Designed for everyday use and outdoor adventures, the LK120 combines a rugged, waterproof housing with a discreet, lightweight form factor that clips to a collar or tucks into a pocket. With up to 72 hours of runtime on a single charge and configurable alerts for movement and low battery, this GPS tracker brings practical telemetry to pet safety and portable-asset monitoring while integrating seamlessly into Plaspy’s platform for centralized tracking, reporting, and notification management.
+As a Plaspy compatible device out of the box, the LK120 can integrate into Plaspy’s centralized tracking platform to deliver live visibility, event-driven alerts, and historical route data. This compatibility makes the LK120 suitable for pet owners, shelters, boarding facilities, and small-scale asset managers who want straightforward telemetry and notification workflows inside Plaspy without custom integration work.
 
 ## Key Highlights
 
-- Plaspy compatible for smooth integration into dashboards, alerts, and reporting — get immediate location visibility on your existing platform.
-- Real-time tracking over 2G/4G networks provides fast location updates for rapid recoveries and continuous monitoring.
-- Wearable, compact, and waterproof design suited for collars, pockets, and clothing — rugged enough for hiking and everyday urban use.
-- Rechargeable battery with up to ~72 hours of typical operation offers extended runtime between charges.
-- Customizable geofencing and movement alerts deliver telemetry-driven notifications when a device leaves or enters set zones.
-- Dedicated SOS button sends immediate alerts and the current location to pre-set contacts for quick assistance.
-- Lightweight and affordable solution for pet owners, shelters, pet boarding facilities, and portable-asset tracking.
+- Plaspy compatible for direct integration into dashboards, alerts, and reporting for immediate visibility.
+- Real-time tracking over 2G and 4G networks for fast location updates and continuous monitoring.
+- Wearable, compact, and waterproof design suitable for collars, pockets, and everyday outdoor use.
+- Rechargeable battery with up to approximately 72 hours of runtime on a single charge for extended operation.
+- Configurable geofence and movement alerts to notify when a device enters or leaves defined zones.
+- Dedicated SOS button to send immediate alerts and location information to preconfigured contacts.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the LK120 becomes part of a centralized telemetry and tracking ecosystem. Plaspy ingests the device’s GPS coordinates, timestamps, and status messages to provide live maps, event-driven alerts, historical routes, and automated notifications. Integration is focused on secure, low-latency delivery of location and status data so end users can act on anti-theft events, SOS calls, or geofence breaches in real time.
+When connected to Plaspy, the LK120 forwards location and status information so Plaspy can present live maps, send event notifications, and store historical movement data. Plaspy centralizes those feeds to help teams and individual users monitor devices, respond to alerts, and generate simple reports from a single platform.
 
-- Real-time location and telemetry updates — GPS coordinates and timestamps feed directly into Plaspy for live map tracking.
-- SOS button events — Plaspy receives SOS notifications and the current position to notify pre-set contacts immediately.
-- Geofence entry/exit alerts — virtual boundaries configured in Plaspy trigger instant notifications for unauthorized movement.
-- Battery level and low-battery warnings — telemetry updates allow Plaspy to notify owners before power is lost.
-- Movement notifications — motion-based alerts help detect roaming, escapes, or unusual behavior.
-- Bluetooth sensors — the LK120 description does not list BLE sensor support; where BLE-capable trackers are available, Plaspy can ingest sensor data for temperature, proximity, or other readings.
+- Live location updates appear on Plaspy maps for situational awareness and rapid recovery.
+- SOS events and alerts are received by Plaspy and can trigger notifications to designated contacts.
+- Geofence entry and exit events configured in Plaspy generate immediate alerts when boundaries are crossed.
+- Battery and low battery notifications are sent to Plaspy so owners can be warned before power runs out.
+- Movement alerts help detect roaming or unexpected behavior and feed into Plaspy event lists and notifications.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G / 4G cellular communication \(model dependent\) |
-| --- | --- |
-| Bands | Not specified; band availability may vary by model and market |
-| Power & Battery | Rechargeable battery, up to ~72 hours typical runtime on a single charge |
-| Interfaces | Dedicated SOS button; wearable mounting \(collar clip/pocket\); no vehicle ignition or immobilizer ports specified |
-| GNSS | GPS positioning for location tracking \(accuracy varies with environment and signal conditions\) |
-| Bluetooth | Not specified in supplied description |
-| Remote Management | Compatible with Plaspy for cloud-based tracking and alerting; remote firmware management not specified |
-| Form Factor | Compact, lightweight wearable designed for pets and personal carry; waterproof and rugged housing |
-
-## Use Cases
-
-- Pet recovery and anti-theft: real-time tracking and geofence alerts help owners find cats and dogs that wander or are taken.
-- Outdoor activities and travel: waterproof, rugged housing and extended battery life support hiking, camping, and transport scenarios.
-- Shelters and boarding facilities: monitor multiple animals, ensure they remain within designated zones, and receive movement alerts.
-- Personal safety: wear as a compact personal tracker with SOS functionality for quick assistance in emergencies.
-- Portable asset monitoring: track small, movable assets or temporary equipment with Plaspy’s telemetry and notification features.
+- Pet recovery and anti theft monitoring for dogs and cats that wander or go missing.
+- Shelters and boarding facilities tracking multiple animals to ensure they remain within assigned areas.
+- Personal safety use where a compact wearable can send an SOS and location if help is needed.
+- Outdoor activities and travel monitoring for pets and people during hiking or transport.
+- Portable asset monitoring of small movable items that benefit from location visibility and alerts.
 
 ## Why Choose This Tracker with Plaspy
 
-The LK120 pairs practical hardware with Plaspy’s proven platform to deliver straightforward, reliable GPS tracking for pets and portable assets. Its combination of Plaspy compatibility, rugged waterproof construction, and up to ~72 hours of battery life provides consistent real-time tracking and telemetry without adding complexity. Owners and operators benefit from immediate SOS alerts, configurable geofences, and low-battery notifications so they can act decisively on anti-theft events or unexpected movement. While tailored for pets and personal safety, the LK120’s lightweight, wearable design also suits small-scale fleet management of portable devices and other telemetry-led monitoring tasks when integrated through Plaspy.
+The LK120 pairs a durable, lightweight wearable design with core tracking features that matter for pet safety and portable asset monitoring. Its out of the box compatibility with Plaspy simplifies deployment so organizations and individual users can consolidate location visibility, alerts, and basic reporting without complex configuration.
 
+To learn more about Plaspy and how compatible trackers like the LK120 integrate into our platform visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current specifications and support information on the official LK GPS website https://www.lk-gps.com.

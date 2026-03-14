@@ -2,62 +2,61 @@
 slug: /navtelekom/smart_s_2423_mid
 id: smart_s_2423_mid
 sidebar_label: SMART S-2423 MID+
+title: Navtelekom - SMART S-2423 MID+
 sidebar_class_name: menu_item_tracker
+description: Navtelekom SMART S-2423 MID+ compact GPS GLONASS tracker compatible with Plaspy for fleet tracking telemetry and driver behavior insights
+keywords:
+  - Navtelekom SMART S-2423 MID+
+  - SMART S-2423 MID+ GPS tracker
+  - Navtelekom tracker Plaspy compatible
+  - Plaspy GPS tracker
+  - fleet tracking device
+  - vehicle telemetry tracker
+  - GPS GLONASS tracker
+  - 2G vehicle tracker
+  - Bluetooth sensor tracker
+  - RS485 1Wire tracker
 ---
+
 # Navtelekom - SMART S-2423 MID+
 
 ![SMART S-2423 MID+](./tracker.jpeg)
 
-# SMART S-2423 MID+
+The SMART S-2423 MID+ is a compact GPS and GLONASS tracker intended for fleet management and vehicle monitoring. Designed to be Plaspy compatible out of the box, it combines a 2G GSM modem with internal GNSS and GSM antennas and a range of input and output options to deliver continuous location and telemetry for vehicle operators and integrators.
 
-The SMART S-2423 MID+ is a compact GPS/GLONASS tracker tailored for fleet management and vehicle monitoring applications and designed to be Plaspy compatible out of the box. Its multi-interface architecture and internal GNSS and GSM antennas deliver dependable real-time tracking and rich telemetry for operators who need continuous visibility and data-driven insights. Plaspy integration enables fleet operators and integrators to collect location, sensor, and driver-behavior data centrally for routing, reporting, and proactive vehicle control.
-
-Built around a 2G GSM modem with single-SIM support, the S-2423 MID+ includes Bluetooth 4.0 for short-range Bluetooth sensors, a built-in accelerometer for eco-driving scoring, and an internal backup battery \(minimum 110 mA·h\) to maintain operation during power interruptions. With overvoltage protection on the main input and input lines \(protection up to 200 V\) and versatile I/O – including RS-485 and 1-Wire – it is well suited for telemetry, fuel monitoring, tachograph and pulse-sensor integration, and remote switching use cases when paired with Plaspy.
+As a Plaspy compatible device, the S-2423 MID+ can forward position reports, sensor readings, and driver behavior metrics into Plaspy for centralized monitoring, routing, reporting, and alerting. Its multi-interface architecture and onboard features like Bluetooth, an accelerometer, 1-Wire and RS-485 support make it relevant for operators who want consolidated visibility and data driven insights within the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for reliable real-time tracking and fleet monitoring.
-- Integrated GPS/GLONASS and 2G GSM modem with internal antennas for compact installation.
-- Built-in accelerometer supports eco-driving and driver behavior telemetry.
-- Bluetooth 4.0 \(BLE\) for short-range Bluetooth sensors and beacons.
-- Three universal inputs and two control outputs for fuel monitoring, pulse and tachometer sensors, and remote switching.
-- 1-Wire interface for temperature sensors and identification keys plus RS-485 for third-party telemetry devices.
-- Internal backup battery \(min. 110 mA·h\) and overvoltage protection up to 200 V to increase uptime and reliability.
+- Plaspy compatible GPS GLONASS tracker for real time fleet monitoring and telemetry collection
+- Integrated 2G GSM modem with internal GNSS and GSM antennas for compact vehicle installation
+- Built in accelerometer to support eco driving scoring and driver behavior telemetry
+- Bluetooth 4.0 support for short range sensors and local beacons
+- Multi I O support including universal inputs and control outputs for fuel pulses and remote switching
+- 1-Wire and RS-485 interfaces for temperature probes and third party telemetry devices
+- Internal backup battery and overvoltage protection to improve uptime in vehicle electrical environments
 
 ## How It Works with Plaspy
 
-When configured for Plaspy, the SMART S-2423 MID+ forwards position reports and telemetry to Plaspy’s platform so you can monitor assets in real time, analyze driver behavior, and trigger alerts or actions. Configuration and firmware management are handled via the NTC Configurator utility, enabling integrators to prepare devices for Plaspy provisioning and to keep firmware current.
+When configured for Plaspy, the SMART S-2423 MID+ sends location updates and telemetry to the Plaspy platform so fleet managers can view assets in real time, generate reports, and set alerts. Integrators typically provision and update devices prior to enrollment using the manufacturer configuration tools, after which Plaspy collects and normalizes the incoming data for operational use.
 
-- Real-time location and telemetry updates \(GPS/GLONASS positions, timestamps, and movement data\).
-- Accelerometer-based eco-driving and harsh event reporting for driver behavior scoring and alerts.
-- Fuel monitoring and mileage/pulse-sensor inputs via universal inputs and pulse/frequency support.
-- Remote control and anti-theft capabilities — control outputs can be used to implement ignition cut or immobilizer functions \(implementation dependent\).
-- Bluetooth sensors and 1-Wire temperature probes for cargo condition monitoring and short-range telemetry.
-- RS-485 integration for connecting tachographs or third-party telemetry equipment to forward data into Plaspy.
+- Real time location and movement visibility in Plaspy dashboards and maps
+- Accelerometer based events and eco driving metrics for driver scoring and alerts
+- Fuel and pulse sensor telemetry using universal inputs for mileage and consumption reporting
+- Remote control actions and anti theft alerts using control outputs combined with Plaspy workflows
+- Short range sensor data via Bluetooth and temperature monitoring via 1 Wire for cargo condition tracking
+- Forwarding third party telemetry from RS 485 peripherals into Plaspy for unified reporting
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G GSM modem \(single SIM\), internal GNSS and GSM antennas |
-| --- | --- |
-| Bands | 2G \(GSM\) — specific frequency bands not specified in the product passport |
-| Power & Battery | Internal backup battery, minimum capacity 110 mA·h; overvoltage protection on main power and inputs \(up to 200 V\) |
-| Interfaces | 3 universal inputs \(configurable: discrete, analog, frequency, pulse meter, tachometer\), 2 control outputs, 1-Wire, RS-485 |
-| GNSS | GPS and GLONASS reception via internal GNSS antenna |
-| Bluetooth | Bluetooth 4.0 \(BLE\) for short-range sensors and beacons |
-| Remote Management | Firmware updates and device configuration via NTC Configurator \(installer includes current firmware\) |
-| Form Factor | Compact vehicle-mounted tracker, designed for telematics integrators and fleet use |
-
-## Use Cases
-
-- Fleet management and route optimization with Plaspy-powered dashboards and reports.
-- Fuel monitoring and mileage tracking using pulse/frequency inputs and telemetry integration.
-- Anti-theft workflows and remote immobilization via control outputs combined with Plaspy alerts.
-- Tachograph and pulse-sensor integration for compliance and driver hours monitoring using RS-485 and universal inputs.
-- Temperature-sensitive cargo monitoring using 1-Wire probes and Bluetooth sensors for refrigerated transport.
+- Fleet management with centralized tracking, routing, and utilization reporting in Plaspy
+- Fuel monitoring and mileage tracking using pulse inputs and telemetry integration
+- Anti theft and remote immobilization workflows combined with Plaspy alerting
+- Tachograph and third party telemetry integration for compliance and driver hours oversight
+- Temperature sensitive cargo monitoring using 1 Wire probes and Bluetooth sensors for refrigerated transport
 
 ## Why Choose This Tracker with Plaspy
 
-The SMART S-2423 MID+ is an economical, reliable GPS tracker choice for Plaspy users who need broad sensor support, resilient power behavior, and short-range Bluetooth connectivity. Its multiple input types, RS-485 and 1-Wire interfaces, and accelerometer-based eco-driving features deliver actionable telemetry for fleet optimization, fuel monitoring, and driver coaching. Overvoltage protection and an internal backup battery reduce downtime in challenging vehicle electrical environments, while the NTC Configurator simplifies device provisioning and firmware updates before devices are enrolled in Plaspy.
+The SMART S-2423 MID+ is a practical choice for organizations using Plaspy that need a compact tracker with broad sensor and peripheral support. Its combination of universal inputs, control outputs, RS 485 and 1 Wire interfaces, plus short range Bluetooth and an accelerometer, provides the kinds of telemetry that improve fleet visibility, enable fuel and driver behavior analysis, and support anti theft measures.
 
-Choosing the S-2423 MID+ for Plaspy integration gives fleet operators and telematics integrators a compact GPS tracker that balances robust physical protection, flexible I/O for telemetry and peripheral devices, and the Bluetooth sensor support needed for temperature and short-range monitoring — enabling scalable real-time tracking, anti-theft workflows, and richer vehicle telemetry across your fleet.
-
+For telematics integrators and fleet operators, the S-2423 MID+ pairs well with Plaspy when you want a device that is ready for provisioning and capable of feeding diverse vehicle data into a single platform. To learn more about how Plaspy can use data from devices like the SMART S-2423 MID+ visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current technical documentation and compatibility information with the manufacturer at https://www.navtelecom.ru/.

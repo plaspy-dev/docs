@@ -2,58 +2,59 @@
 slug: /teltonika/fmt100
 id: fmt100
 sidebar_label: FMT100
+title: Teltonika - FMT100
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto y resistente montado en batería, compatible con Plaspy para despliegues rápidos, detección de choques y monitoreo por sensores BLE
+keywords:
+  - Teltonika FMT100
+  - Rastreador GPS FMT100
+  - Rastreador Teltonika
+  - Compatible con Plaspy
+  - seguimiento de flotas
+  - seguimiento de activos
+  - sensores BLE
+  - detección de choques
+  - rastreador montado en batería
+  - carcasa IP65
 ---
+
 # Teltonika - FMT100
 
 ![FMT100](./tracker.png)
 
-El FMT100 es un rastreador GPS compacto, compatible con Plaspy, diseñado para una instalación rápida y confiable montada en la batería de vehículos y activos móviles. Con una carcasa resistente al agua con clasificación IP65 y un diseño robusto, el FMT100 está optimizado para implementaciones de flotas, uso estacional de vehículos y despliegues rápidos donde la instalación simple y la confiable recopilación de ubicación y eventos son prioritarias.
+El FMT100 es un rastreador GPS compacto y compatible con Plaspy, diseñado para instalaciones rápidas y fiables montadas en baterías en vehículos y activos móviles. Alberga su electrónica en una carcasa robusta con certificación IP65, pensado para rollouts de flotas, uso estacional y despliegues ágiles donde la facilidad de montaje y la telemetría confiable son prioritarias. El equipo incluye un acelerómetro integrado de 3 ejes y soporte para Bluetooth LE, lo que le permite captar eventos de movimiento y enlazarse con sensores externos para una mayor visibilidad del activo.
 
-El dispositivo combina soporte de sensores Bluetooth® LE y un acelerómetro integrado de 3‑axes con conectividad quad-band 2G \(GSM\), proporcionando detalles de trazas de accidentes, alertas disparadas por eventos y monitoreo ambiental basado en BLE. Teltonika ofrece múltiples opciones de conjuntos y códigos de pedido para diferentes kits de instalación; tenga en cuenta que la página del producto incluye información de End of Life \(EOL\), así que consulte las páginas de soporte de Teltonika para la disponibilidad actual o reemplazos recomendados.
+Como dispositivo integrado con Plaspy, el FMT100 entrega actualizaciones de ubicación, eventos del acelerómetro y lecturas de sensores Bluetooth al entorno de monitoreo e informes de Plaspy. Esta compatibilidad lo hace idóneo para operaciones que requieren instalación veloz, visibilidad centralizada y alertas basadas en eventos en flotas mixtas. El uso con Plaspy permite convertir los mensajes del FMT100 en seguimiento en tiempo real, trazas de incidentes y notificaciones automáticas sin necesidad de configuraciones complejas.
 
-## Aspectos Destacados
+## Características principales
 
-- Compatible con Plaspy: se integra a Plaspy para seguimiento en tiempo real centralizado, alertas e informes a través de flotas mixtas.
-- Instalación rápida montada en batería: diseñada para montarse directamente en la batería del vehículo con conjuntos de cables con abrazadera opcionales para instalaciones de cinco minutos.
-- Robusto y resistente al agua: carcasa IP65 protege la electrónica para un funcionamiento fiable en campo ante diversas condiciones climáticas.
-- Telemetría con detección de choques: acelerómetro de 3‑axes integrado con parámetros de detección de choques configurables para la captura y análisis de eventos.
-- Bluetooth LE para sensores: se empareja con beacons de baja energía y sensores externos \(temperatura, humedad, movimiento, detección magnética\) para ampliar la telemetría y la monitorización de activos.
-- Conectividad 2G de bajo costo: quad-band GSM \(B2/B3/B5/B8\) brinda soporte de red heredada amplio para seguimiento básico e informes de eventos.
-- Flexibilidad de paquetes: disponible en múltiples conjuntos de código de pedido Teltonika con opciones de accesorios como cables de alimentación, abrazaderas y micro-USB cuando sea aplicable.
+- Factor de forma compacto montado en batería, pensado para despliegues rápidos en vehículos y activos.
+- Carcasa resistente con clasificación IP65 para operación fiable en campo y condiciones climáticas variadas.
+- Acelerómetro de 3 ejes integrado para captura de eventos conscientes de choques y detección de movimiento.
+- Emparejamiento Bluetooth LE para extender la telemetría con sensores externos de temperatura, humedad, movimiento o magnéticos.
+- Conectividad 2G cuatribanda para amplio alcance en redes heredadas, adecuada para reportes básicos de posición y eventos.
+- Opciones de paquetes múltiples por parte del fabricante con accesorios para mayor flexibilidad de instalación.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el FMT100 alimenta actualizaciones de ubicación, eventos del acelerómetro y datos de sensores Bluetooth en el panel de seguimiento en tiempo real y las herramientas de informes de Plaspy. Plaspy puede consumir los mensajes basados en eventos del dispositivo para activar alertas, generar trazas de choques y alimentar la telemetría en los flujos de trabajo de gestión de flotas. Los instaladores pueden desplegar rápidamente el FMT100 en terminales de batería y registrar el dispositivo en Plaspy para comenzar la monitorización en vivo e informes históricos.
+Al integrarse con Plaspy, el FMT100 transmite actualizaciones de posición, eventos del acelerómetro y datos de sensores Bluetooth emparejados a los paneles y herramientas de informes de Plaspy para supervisión operativa y revisión histórica. Plaspy puede ingerir los mensajes orientados a eventos del dispositivo para generar alertas, construir trazas de incidentes y alimentar flujos de trabajo de la flota.
 
-- Actualización en tiempo real de ubicación y telemetría: los datos de posición y movimiento se envían a Plaspy para seguimiento en vivo y reproducción de rutas históricas.
-- Detección de choques e informes de trazas: los eventos impulsados por el acelerómetro se transmiten a Plaspy para revisión de incidentes y alertas automatizadas.
-- Integración de sensores Bluetooth LE: sensores externos de temperatura, humedad, movimiento o magnet pueden emparejarse y sus lecturas enviarse a Plaspy para monitorización basada en activos o en el entorno.
-- Flujos de trabajo basados en eventos: Plaspy puede usar los mensajes de evento del dispositivo para activar notificaciones, alertas de geocerca o tareas para el operador.
-- Control remoto y funciones dependientes de E/S: características como inmovilizador remoto o monitoreo de encendido dependen del arnés del vehículo y de cualquier E/S incluida en configuraciones de conjunto específicas; verifique la compatibilidad antes de la implementación.
+- Actualizaciones en tiempo real de ubicación y movimiento mostradas en los mapas de Plaspy con reproducción histórica de rutas.
+- Eventos por acelerómetro relacionados con choques enviados a Plaspy para revisión de incidentes y emisión de alertas.
+- Lecturas de sensores Bluetooth LE transmitidas a Plaspy para monitorear condiciones ambientales o el estado del activo.
+- Flujos de trabajo y notificaciones basados en eventos configurables en Plaspy según los mensajes del dispositivo y geocercas.
+- Funciones opcionales dependientes de I/O, como control remoto o monitoreo de ignición, dependen del paquete seleccionado y del cableado del vehículo; verifique las capacidades necesarias antes del despliegue.
 
-## Visión General Técnica
+## Casos de uso típicos
 
-| Conectividad | Quad-band 2G \(GSM\) |
-| --- | --- |
-| Bandas | B2, B3, B5, B8 |
-| Alimentación y Batería | Diseñado para montaje directo a la batería del vehículo; cables de alimentación opcionales con conectores de abrazadera incluidos en algunos conjuntos |
-| Interfaces | Entrada montada en batería; cables de alimentación para accesorios y conectores de abrazadera disponibles en paquetes \(no se detallan E/S específicas\) |
-| GNSS / Posicionamiento | Proporciona informes de ubicación del vehículo, adecuados para el seguimiento de flotas y la monitorización de activos \(consulte la documentación del fabricante para detalles exactos del módulo GNSS\) |
-| Acelerómetro | Acelerómetro de 3‑axes integrado con parámetros de detección de choques configurables |
-| Bluetooth | Bluetooth® Low Energy \(BLE\) para emparejarse con beacons y sensores externos \(temperatura, humedad, movimiento, detección magnética\) |
-| Gestión Remota | Soporte estándar de Teltonika y opciones de conjuntos disponibles; consulte las páginas del fabricante para herramientas remotas, actualizaciones de firmware y orientación sobre EOL |
-| Formato | Carcasa compacta con clasificación IP65, robusta, diseñada para uso en vehículos y activos |
+- Despliegues a gran escala en flotas de alquiler y estacionales que requieren instalación rápida montada en batería y seguimiento centralizado.
+- Flotas de logística y entrega que necesitan unidades económicas para reporte básico de ubicación y alertas por eventos.
+- Detección de choques y análisis de incidentes mediante trazas basadas en acelerómetro y notificaciones automáticas.
+- Monitoreo ambiental de activos emparejando sensores BLE de temperatura o humedad para carga sensible.
+- Despliegues a corto plazo y programas piloto donde la instalación simple y el reporte predecible reducen el tiempo de puesta en marcha.
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Telemática de flotas: despliegue rápido y de bajo costo en flotas de alquiler, logística y estacionales que requieren una ubicación confiable y la generación de informes de eventos.
-- Antirrobo y recuperación: instalación montada en batería y reporte de ubicación ofrecen soporte a flujos de trabajo básicos de antirrobo y esfuerzos de recuperación; el control del inmovilizador depende del cableado del vehículo y de la configuración del conjunto.
-- Detección de choques y análisis de incidentes: trazas de choque basadas en el acelerómetro y umbrales configurables ayudan en la revisión post-incidente y la generación de alertas automáticas en Plaspy.
-- Monitoreo de activos y entorno: emparejar sensores BLE de temperatura, humedad, movimiento o magnet para supervisar condiciones de carga sensible o activos auxiliares.
-- Programas de despliegue rápido: su huella compacta y montaje sencillo hacen que el FMT100 sea adecuado para despliegues a gran escala o uso estacional de corta duración, donde la velocidad y la repetibilidad son clave.
+El FMT100 ofrece una combinación práctica de robustez, rapidez de instalación y flexibilidad de sensores que encaja con muchos casos de uso de Plaspy. Su diseño montado en batería y las opciones de paquetes y accesorios reducen tiempos logísticos e instalación, ayudando a que los dispositivos empiecen a reportar en Plaspy con rapidez. El soporte para sensores Bluetooth LE y el acelerómetro integrado proporcionan telemetría más rica que la de un rastreador básico, manteniendo costos de hardware y despliegue moderados.
 
-## Por qué Elegir Este Rastreador con Plaspy
-
-El FMT100 ofrece un equilibrio pragmático entre simplicidad, robustez y flexibilidad de sensores, adecuado para numerosos proyectos de telemática de flotas y seguimiento de activos. Su diseño montado en la batería y su instalación rápida reducen la mano de obra de despliegue y aceleran el tiempo de valor para soluciones de rastreo integradas en Plaspy. El soporte de sensores Bluetooth LE y la detección de choques impulsada por el acelerómetro proporcionan telemetría más rica que un rastreador básico, manteniendo bajos los costos de hardware. Para flotas que requieren una supervisión confiable de ubicación, detección de eventos configurable y sensorización ambiental basada en BLE, el FMT100 es una opción práctica; sin embargo, verifique la disponibilidad actual y el estado de EOL con Teltonika, y valide cualquier E/S necesaria \(encendido, control de inmovilizador\) según sus necesidades de integración antes de la compra.
-
+Para conocer más sobre cómo Plaspy puede integrar el FMT100 en su programa de rastreo visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y las recomendaciones del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en las páginas del fabricante en https://www.teltonika-gps.com/ antes de finalizar la compra o el despliegue.

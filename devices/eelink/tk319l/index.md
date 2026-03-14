@@ -2,58 +2,62 @@
 slug: /eelink/tk319l
 id: tk319l
 sidebar_label: TK319‑L
+title: EElink - TK319‑L
 sidebar_class_name: menu_item_tracker
+description: Compact EElink TK319‑L GPS tracker compatible with Plaspy for fleet tracking, alarms, ignition sensing and expandable telemetry
+keywords:
+  - EElink TK319‑L
+  - TK319L
+  - EElink tracker
+  - Plaspy compatible
+  - GPS tracker
+  - NB IoT tracker
+  - LTE Cat M1 tracker
+  - vehicle tracker
+  - fleet tracker
+  - asset tracker
 ---
+
 # EElink - TK319‑L
 
 ![TK319‑L](./tracker.jpg)
 
-The TK319‑L is a compact, Plaspy compatible GPS tracker engineered for modern fleet management and vehicle security on NB‑IoT and LTE Cat M1 networks with GSM fallback. Designed for reliable real‑time tracking and rich telemetry, the TK319‑L combines GPS/LBS dual‑mode positioning with vehicle-centric inputs such as ACC detection and optional relay-based engine cut‑off. Its small footprint and broad voltage range make it a practical choice for commercial vehicles, service fleets, and high-value asset protection.
+The TK319‑L is a compact GPS tracker from EElink designed for fleet management and vehicle security. It supports modern cellular IoT connectivity with NB‑IoT and LTE Cat M1 as primary networks and GSM fallback for broader coverage. The device combines GPS and LBS positioning with vehicle oriented inputs such as ignition detection and an optional relay for engine cut‑off, and is presented with a small footprint and a wide operating voltage range suitable for a variety of vehicles and assets.
 
-Integrating seamlessly with Plaspy via the EELINK protocol 2.0, the TK319‑L delivers actionable location data, safety alarms, and I/O telemetry to dashboard and reporting tools used in fleet management, anti‑theft workflows, and operational monitoring. The unit’s expansion ports and configurable alarms enable tailored solutions for telemetry and fuel monitoring use cases while keeping installation straightforward and scalable.
+As a Plaspy compatible device, the TK319‑L integrates using the EELINK protocol 2.0 to deliver location, alarm, and I/O telemetry into the Plaspy platform. That compatibility makes it a practical option for teams who want centralized visibility, configurable alerts, and reporting in Plaspy while retaining the ability to attach peripherals for expanded telemetry and monitoring workflows.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker with NB‑IoT and LTE Cat M1 primary connectivity and GSM fallback for broad coverage and resilient real‑time tracking.
-- GPS/LBS dual‑mode positioning provides dependable location data indoors and outdoors for continuous fleet visibility.
-- Vehicle inputs and safety alarms: ACC \(ignition\) detection, crash/fall and vibration alarms, overspeed alerts, low‑power and power‑off notifications.
-- Optional hardware features: relay for remote engine cut‑off \(immobilizer capability\) and SOS button for emergency signaling.
-- Expandable via RS232 and GPIO ports to support peripherals such as temperature sensors and third‑party telemetry or fuel monitoring devices.
-- Compact form factor and wide voltage range \(7–72 V DC\) make it suitable for light vehicles up to heavy equipment installations.
-- EELINK protocol 2.0 ensures straightforward integration with Plaspy and other tracking platforms for standardized data exchange and remote management.
+- Plaspy compatible GPS tracker with NB‑IoT and LTE Cat M1 primary connectivity and GSM fallback for resilient coverage.
+- GPS and LBS dual mode positioning to maintain location visibility across outdoor and assisted indoor environments.
+- Vehicle inputs and safety alarms including ignition detection, crash or vibration alerts, overspeed notifications, and power change warnings.
+- Optional relay for remote engine cut‑off and an SOS input for emergency signaling when required by the use case.
+- Expansion ports for peripherals and sensors to extend telemetry for fuel or temperature monitoring and other measurements.
+- Compact physical size and wide voltage tolerance for installation in cars, service vehicles, trucks, and other commercial equipment.
+- Integration via EELINK protocol 2.0 for streamlined data exchange and predictable event mapping into platforms like Plaspy.
 
 ## How It Works with Plaspy
 
-When deployed with Plaspy, the TK319‑L feeds continuous location and event data to Plaspy’s platform using the EELINK protocol 2.0. Plaspy ingests GNSS/LBS coordinates, vehicle I/O events, and alarm conditions to provide real‑time tracking, geofencing, and alerting for fleet managers and security teams. The tracker’s telemetry and peripheral inputs are mapped to Plaspy fields so you can build dashboards, reports, and automated workflows for operational control and anti‑theft response.
+When connected to Plaspy, the TK319‑L forwards its positioning, input events, and alarm conditions so fleet managers and security teams can view live status, set alerting rules, and analyze historical activity. Plaspy maps the tracker’s telemetry and I/O into dashboards and reports, enabling operational oversight and automated responses based on configured triggers.
 
-- Real‑time location and telemetry updates delivered to Plaspy for live tracking and historical route playback.
-- Ignition \(ACC\) detection and status available in Plaspy for engine‑on/off events and trip segmentation.
-- Safety alarms \(crash/fall, vibration, overspeed, low power, power‑off\) trigger Plaspy alerts and notification rules for rapid response.
-- Remote immobilizer support via the optional relay—Plaspy can send commands to cut engine power when configured and authorized.
-- Expansion ports \(RS232/GPIO\) allow connection of telemetry and fuel monitoring sensors; Plaspy receives sensor data when peripherals are attached and configured.
+- Real time location and route history available in Plaspy for monitoring and post trip analysis.
+- Ignition status and trip segmentation reflected in Plaspy for mileage and usage reporting.
+- Safety alarms and event notifications generate Plaspy alerts to drive rapid operational responses.
+- Remote immobilizer control via the optional relay can be coordinated from Plaspy when configured and authorized.
+- Sensor data from expansion ports is received by Plaspy to support telemetry reporting and custom dashboards.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | TK319‑L |
-| --- | --- |
-| Connectivity | NB‑IoT, LTE Cat M1, GSM fallback |
-| Bands | LTE FDD B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B26/B28; LTE TDD B39 |
-| GNSS / Positioning | GPS / LBS dual‑mode positioning for outdoor and assisted location |
-| Power & Battery | Operating voltage 7–72 V DC; internal backup battery 140 mAh |
-| Inputs / Outputs | ACC detection \(ignition\), optional relay for remote engine cut‑off, optional SOS button, RS232 and GPIO expansion ports |
-| Safety & Alarms | Crash/fall alarm, vibration alarm, overspeed alarm \(with optional cut‑off\), low‑power and power‑off alarms |
-| Protocol & Integration | EELINK protocol 2.0 for integration with Plaspy and other tracking platforms |
-| Form Factor | Compact: 89 × 37 × 12 mm; vehicle/asset installation |
-
-## Use Cases
-
-- Fleet management — continuous real‑time tracking, trip logging, and ACC/ignition monitoring for route optimization and driver behavior analysis.
-- Anti‑theft and remote immobilization — optional relay enables authorized engine cut‑off through Plaspy workflows for stolen vehicle recovery.
-- Safety monitoring — crash/fall and vibration alarms provide immediate alerts to operations teams and emergency contacts.
-- Telemetry and fuel monitoring — connect fuel sensors, temperature probes, or other peripherals via RS232/GPIO to feed sensor data into Plaspy reports.
-- Asset tracking for mixed fleets — compact size and 7–72 V range make the tracker suitable for cars, trucks, and equipment with diverse electrical systems.
+- Commercial fleet tracking for route oversight, trip logging, and basic driver activity monitoring.
+- Anti theft workflows that combine location visibility with remote immobilization for recovery operations.
+- Safety monitoring where crash, fall, or vibration alerts notify operations teams and trigger escalation.
+- Telemetry and fuel monitoring by connecting external sensors for consolidated reporting in Plaspy.
+- Asset protection for high value equipment and mixed fleets that require a compact tracker with wide voltage support.
 
 ## Why Choose This Tracker with Plaspy
 
-The TK319‑L offers a balanced combination of low‑power NB‑IoT/LTE Cat M1 connectivity and practical vehicle features that integrate smoothly with Plaspy. For organizations focused on operational visibility, anti‑theft protection, and reliable telemetry, this Plaspy compatible GPS tracker provides consistent location accuracy, configurable safety alarms, and expansion options for custom sensor needs. Using the EELINK protocol 2.0, integrators and fleet managers benefit from predictable data formats and straightforward platform onboarding, enabling faster deployment and centralized management. Choose the TK319‑L with Plaspy when you need a compact, rugged tracker that supports real‑time tracking, ignition detection, immobilizer control, and extendable telemetry for long‑term fleet performance and security.
+The TK319‑L is a sensible choice for organizations that need a compact, vehicle focused tracker that integrates cleanly with Plaspy. Its support for cellular IoT networks, dual mode positioning, and configurable I/O make it adaptable for baseline fleet visibility, security workflows, and expanded telemetry scenarios without adding unnecessary complexity.
 
+Because the TK319‑L uses EELINK protocol 2.0 for data exchange, integrators and fleet teams can expect consistent event formats and straightforward onboarding into Plaspy. If your priorities include real time tracking, ignition detection, alarm handling, and the option to extend sensor coverage, combining the TK319‑L hardware with Plaspy gives a balanced platform for operational monitoring and reporting.
+
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current technical documentation and options on the official EElink site https://www.eelink.com.cn/ before purchase or deployment.

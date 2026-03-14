@@ -2,59 +2,59 @@
 slug: /autoseeker/at_9
 id: at_9
 sidebar_label: AT-9
+title: Autoseeker - AT-9
 sidebar_class_name: menu_item_tracker
+description: Rugged magnetic IP68 Autoseeker AT-9 GPS tracker compatible with Plaspy for long life covert asset tracking and anti theft monitoring
+keywords:
+  - Autoseeker AT-9
+  - AT-9 GPS tracker
+  - Autoseeker tracker
+  - AT-9 magnetic tracker
+  - IP68 GPS tracker
+  - 4G LTE tracker
+  - asset tracker
+  - fleet tracking
+  - Plaspy compatible
+  - vehicle GPS tracker
 ---
+
 # Autoseeker - AT-9
 
 ![AT-9](./tracker.jpg)
 
-The AT-9 4G Wireless Magnetic GPS Tracking Device is a Plaspy compatible, rugged asset tracker engineered for long-life covert and heavy-duty installations. With an IP68 waterproof enclosure, an integrated ~300 lb pull magnet for tool-free mounting, magnetic charging and a 3.7V 5000mAh rechargeable battery, the AT-9 is designed to deliver reliable real-time tracking and robust anti-theft monitoring for vehicles, containers, construction machinery and other high-value mobile assets.
+The Autoseeker AT-9 is a rugged 4G wireless magnetic GPS tracking device designed for long-life covert and heavy duty asset monitoring. Built with an IP68 waterproof enclosure and a strong built-in magnet, the AT-9 is intended for tool free mounting on metal assets. It incorporates multi mode positioning, cellular connectivity, a rechargeable high capacity battery and a set of alarm and communication features to support real-time tracking and anti theft monitoring for vehicles, containers, construction machinery and other high value mobile assets.
 
-Built for field durability and low power consumption, this GPS tracker combines multi-mode positioning \(GPS + BeiDou + Wi‑Fi + LBS\) with 4G LTE and GSM connectivity to provide precise location, telemetry and alarm reporting to Plaspy. Two-way voice, an SOS button and a suite of motion, vibration and tamper sensors make the AT-9 a practical choice for fleet management, asset security and long-term remote deployments.
+As a Plaspy compatible device, the AT-9 can feed location and telemetry into Plaspy for unified fleet oversight and security workflows. Its combination of positioning fallbacks, motion and tamper alerts, SOS capability and long standby performance make it a practical option for organizations that want to consolidate asset visibility, incident alerting and historical reporting on the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible for seamless real-time tracking and telemetry reporting to your management platform.
-- Rugged IP68 enclosure and strong built-in magnet \(~300 lb pull\) for covert, tool-free mounting on metal assets.
-- Multi-mode positioning \(GPS + BeiDou + Wi‑Fi + LBS\) for accurate location \(manufacturer indicates ~5 m under normal conditions\).
-- 4G LTE + GSM network support with broad LTE-FDD bands for global deployments where frequencies overlap.
-- Long standby capability with a 3.7V 5000mAh rechargeable battery and optional solar/backup charging reported by the manufacturer.
-- Comprehensive alarm set: motion, vibration, tamper/demolition, overspeed and displacement alerts, plus low-battery warnings.
-- SOS button and two-way voice capability for emergency response and direct communication with the asset.
+- Plaspy compatible for real time tracking and telemetry reporting into a centralized management platform
+- Rugged IP68 housing and a powerful integrated magnet for discreet, tool free mounting on metal surfaces
+- Multi mode positioning with GNSS plus Wi Fi and LBS fallbacks to improve location reliability in varied environments
+- Cellular connectivity (4G LTE and GSM) to deliver continuous updates where networks are available
+- Long life rechargeable battery designed for extended standby and remote deployments
+- Built in alarm suite including motion, vibration and tamper alerts plus SOS and two way voice for emergency response
 
 ## How It Works with Plaspy
 
-The AT-9 sends location and telemetry to Plaspy over cellular networks using 4G LTE or GSM as available. Plaspy ingests GPS + BeiDou coordinates with Wi‑Fi and LBS fallbacks when GNSS conditions are weak, then presents real-time tracking, historical routes, alerts and reports through the Plaspy dashboard or APIs.
+When deployed, the AT-9 transmits location coordinates and telemetry over cellular networks to Plaspy, where data is normalized and presented for monitoring, alerting and reporting. Plaspy consolidates GNSS positions and fallback sources to maintain situational awareness, then exposes that information through dashboards, reports and integrations to support operational decisions.
 
-- Real-time location and telemetry updates \(GPS + BeiDou + Wi‑Fi + LBS\) for continuous situational awareness.
-- Motion, vibration and tamper/demolition alarms delivered instantly to Plaspy for anti-theft and security workflows.
-- Overspeed and displacement alerts for fleet management and geofence enforcement.
-- SOS button events and two-way voice session notifications routed into incident workflows.
-- Battery state, low-battery alerts and optional solar/backup-charge status for long-term deployments.
+- Continuous position updates and fallback location sources for reliable tracking in mixed signal conditions
+- Motion, vibration and tamper alerts routed into Plaspy for rapid notification and anti theft response
+- Overspeed and displacement alerts used in fleet control and geofence rule enforcement
+- SOS button events and two way voice indicators surfaced in incident workflows for on site response
+- Battery state and low battery warnings visible in Plaspy to support maintenance and long term deployments
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE \(LTE-FDD\) and GSM \(Micro SIM required\) |
-| --- | --- |
-| Bands | LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28/B66 and GSM bands |
-| Power & Battery | Rechargeable 3.7V 5000mAh Li battery; manufacturer references rechargeable backup and optional solar recharge; standby performance reported up to 500 days in some configurations |
-| Interfaces | Micro SIM slot, magnetic charging connector, SOS button, two-way voice support, vibration indicator for incoming calls |
-| GNSS | GPS + BeiDou + Wi‑Fi + LBS positioning; ZKW GPS chipset; hot/warm/cold start ≈ 1s/30s/35s; typical accuracy ~5 m \(manufacturer indicated\) |
-| Sensors & Alarms | Motion, vibration, tamper/demolition alarms, overspeed, displacement alert, low battery warning |
-| Power Consumption | Typical working current ~35 mA @ 4V; sleep current &lt;5 mA for extended battery life in low-power modes |
-| Form Factor | Compact magnetic housing 100 × 60 × 26 mm; lightweight approx. 40 g; IP68 waterproof |
-
-## Use Cases
-
-- Fleet anti-theft and covert tracking of trucks, trailers and service vehicles where long battery life and discreet mounting are essential.
-- Container and cargo monitoring on land or sea, using IP68 protection and magnetic mounting for fast installation.
-- Construction machinery and heavy equipment tracking with tamper/demolition alerts and displacement monitoring.
-- Marine auxiliary asset tracking \(rigid assets, tenders or equipment\) where waterproofing and two-way voice are beneficial.
-- Long-duration asset deployments needing solar/backup charging and low-power telemetry for periodic check-ins.
+- Covert anti theft tracking of trucks, trailers and service vehicles where discreet attachment is required
+- Monitoring of containers and cargo in transit with waterproof protection and quick magnetic mounting
+- Tracking construction machinery and heavy equipment with tamper and displacement alerts
+- Marine auxiliary asset monitoring for waterproofed equipment and portable units
+- Long duration remote asset deployments that benefit from long battery standby and optional backup charging
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the AT-9 as a Plaspy compatible GPS tracker gives operations a compact, durable device that combines long standby performance and multi-mode positioning for dependable real-time tracking and telemetry. For fleet management and anti-theft programs, the AT-9’s motion, vibration and tamper alarms pair with Plaspy’s alerting and reporting to accelerate response and reduce asset loss. Two-way voice and an SOS button add an extra layer of security when personnel interaction is required.
+The AT-9 pairs practical durability with reporting features that suit fleet and asset security programs. Its rugged enclosure, magnetic mounting and alarm set are aligned with common operational needs for discreet, resilient tracking. When connected to Plaspy, those device capabilities translate into centralized visibility, automated alerts and historical route analysis that help teams reduce loss and improve response times.
 
-Plaspy can also ingest additional telemetry channels such as ignition state, immobilizer control, fuel monitoring or Bluetooth sensors when those interfaces are available on a tracker. While the AT-9’s specification set emphasizes robust GNSS, cellular connectivity, alarm reporting and power management, integrating it with Plaspy enables scalable monitoring, historical route analysis, geofencing and automated workflows across large fleets and dispersed assets.
-
+If you want to evaluate the AT-9 for use with Plaspy, the device is a sensible option for organizations needing long standby tracking, anti theft monitoring and integrated incident workflows. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current specifications and official documentation on the Autoseeker site https://autoseekergps.com/.

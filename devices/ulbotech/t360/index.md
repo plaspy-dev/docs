@@ -2,61 +2,60 @@
 slug: /ulbotech/t360
 id: t360
 sidebar_label: T360
+title: Ulbotech - T360
 sidebar_class_name: menu_item_tracker
+description: Compact plug and play OBD GPS tracker with driving behavior reporting and Plaspy compatibility for fleet and vehicle monitoring
+keywords:
+  - Ulbotech T360
+  - T360 GPS tracker
+  - Ulbotech tracker
+  - Plaspy compatible
+  - OBD GPS tracker
+  - vehicle telematics
+  - fleet tracking
+  - driving behavior reporting
+  - FOTA updates
+  - immobilizer support
 ---
+
 # Ulbotech - T360
 
 ![T360](./tracker.jpg)
 
-The T360 OBD GPS tracker is a plug-and-play telematics device designed for quick installation in cars and light commercial vehicles via the vehicle OBD-II port. Built around a u-blox 6M GNSS engine and a quad-band GPRS/GSM modem, the T360 delivers reliable GPS tracker performance, real-time tracking, event reporting and driving behavior insights. Its internal antennas, auto APN/time zone detection and FOTA firmware updates simplify rollout and maintenance, making the T360 a practical choice for fleets and individual vehicle monitoring that need Plaspy compatible hardware.
+The Ulbotech T360 is a plug and play OBD GPS tracker designed for quick deployment in cars and light commercial vehicles. Built around a u blox 6M GNSS engine and a quad band GPRS GSM modem, the device provides real time position tracking, event reporting and driving behavior insights. Internal antennas, auto APN and time zone detection, plus firmware update features simplify rollout and ongoing maintenance for fleets and individual owners.
 
-The T360 is Plaspy compatible for straightforward backend integration, offering periodic and immediate position uploads, alarms, geo-fence events and driver behavior reports. With an internal immobilizer output, voice monitor support and a 3-axis accelerometer to detect cornering, hard braking and speeding, the T360 supports anti-theft workflows, telemetry feeds and fleet management use cases while keeping installation fast and non-invasive.
+As a Plaspy compatible device, the T360 integrates with backend platforms to deliver periodic and immediate position uploads, alarms, geo fence events and driver behavior reports. Its internal immobilizer output, voice monitor capability and 3 axis accelerometer make the unit useful for anti theft workflows, telemetry feeds and operational monitoring that Plaspy can ingest, display and act upon within fleet dashboards and alerting rules.
 
 ## Key Highlights
 
-- Plug-and-play OBD-II installation for fast deployment across vehicles and rental fleets.
-- u-blox 6M GNSS module with A‑GPS for robust position fixes and high sensitivity tracking.
-- Quad-band GPRS/GSM connectivity \(850/900/1800/1900 MHz\) with multi-slot class 12 support.
-- Onboard 3-axis accelerometer for driving behavior detection \(cornering, hard braking, speeding\).
-- Built-in immobilizer \(engine cut digital output\) and voice monitor to support anti-theft and safety workflows.
-- Internal GSM/GPS antennas plus auto APN/time zone identification reduce configuration steps.
-- FOTA \(firmware update over GPRS\) simplifies remote maintenance and scalability.
+- Plug and play OBD II design for fast non invasive installation across vehicle fleets.
+- u blox 6M GNSS engine for reliable position fixes and consistent tracking performance.
+- Quad band GPRS GSM connectivity for broad cellular coverage in supported regions.
+- Onboard 3 axis accelerometer to detect cornering, hard braking and speeding events.
+- Internal immobilizer output and voice monitor support for security and recovery workflows.
+- Auto APN and time zone detection plus remote firmware updates to reduce manual configuration.
+- Compact form factor and internal antennas for tidy installation and fleet scalability.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the T360 sends secure position and telemetry packets to your Plaspy backend using GPRS. Plaspy ingests the device’s location stream, accelerometer-based driving events, geo-fence triggers and alarm/status messages to provide dashboards, alerts and reports that fleet managers and vehicle owners can act on in real time. The OBD connection ensures continuous power and access to vehicle status values that enrich telemetry; Plaspy then correlates that raw data into usable outputs for fleet management, anti-theft workflows and driver scoring.
+When connected with Plaspy, the T360 sends location and event data to the Plaspy backend where it is processed into dashboards, alerts and reports for operational use. Plaspy consumes the device position stream and event messages to provide live visibility, historic playback and configurable notifications that support fleet oversight and security workflows.
 
-- Real-time location and telemetry updates sent to Plaspy servers via GPRS.
-- Engine immobilizer \(engine cut\) support for remote vehicle shutdown workflows.
-- Driving behavior events \(cornering, hard braking, speeding\) reported as telemetry for safety scoring.
-- Geo-fence boundary crossing and scheduled GPS position reports for route monitoring and alerts.
-- Vehicle battery voltage, backup battery status and onboard temperature telemetry available for health checks and diagnostics.
+- Real time location updates and periodic position uploads visible in Plaspy dashboards.
+- Driving behavior events reported to Plaspy for safety scoring and trend analysis.
+- Geo fence triggers and alarm messages routed to Plaspy for immediate alerting.
+- Immobilizer and status alerts available to Plaspy for anti theft actions and remote workflows.
+- Telemetry and vehicle status reports presented in Plaspy for maintenance planning and diagnostics.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | Quad-band GPRS/GSM modem \(850/900/1800/1900 MHz\), GPRS multi-slot class 12, MS class B |
-| --- | --- |
-| Bands | 850 / 900 / 1800 / 1900 MHz \(quad-band\) |
-| Power & Battery | Operating voltage 8–32 V DC; Li-Polymer 3.7 V, 180 mAh backup battery; low-power modes for extended backup life |
-| Interfaces | OBD-II port \(power/data\), normal SIM card slot, micro USB for configuration/upgrading; one digital output for engine cut \(internal immobilizer\) |
-| GNSS | u-blox 6M chipset with A-GPS; tracking sensitivity down to -162 dBm and autonomous position accuracy &lt; 3 m \(manufacturer stated\) |
-| Bluetooth | Not included / N/A \(device uses internal GSM/GPS and OBD interfaces\) |
-| Remote Management | Firmware Update Over GPRS \(FOTA\); auto APN and time zone identification |
-| Sensors & Inputs | 3-axis accelerometer, vehicle battery voltage monitoring, backup battery voltage, temperature sensor, voice monitor capability |
-| Form Factor | OBD-II plug design; dimensions approx. 62 × 50 × 23 mm \(excluding J1962 connector\); weight ~50 g; internal GSM/GPS antennas |
-| Environmental | Operating temperature range –30°C to +80°C \(without battery\) |
-
-## Use Cases
-
-- Fleet management — live tracking, route replay, driver behavior scoring and scheduled position reports for operational oversight.
-- Anti-theft and immobilization — internal engine cut output and geo-fence alerts help recover stolen vehicles and prevent unauthorized use.
-- Rental / insurance monitoring — non-invasive OBD installation, voice monitor and driving reports support telematics insurance and rental profiling.
-- Roadside assistance and vehicle health — battery voltage and temperature telemetry provide early warning for breakdowns or charging issues.
-- Teen or family vehicle tracking — real-time location, speeding and hard-braking alerts to promote safer driving habits.
+- Fleet management with live tracking, route replay and driver behavior monitoring.
+- Anti theft and recovery using immobilizer output plus geo fence alerting.
+- Rental and insurance telematics where non invasive OBD installation is preferred.
+- Vehicle health and roadside assistance monitoring using onboard status and telemetry.
+- Family or business vehicle oversight to encourage safer driving and faster incident response.
 
 ## Why Choose This Tracker with Plaspy
 
-The T360 is designed for organizations and owners who need a Plaspy compatible GPS tracker that minimizes installation complexity while delivering useful telemetry and security features. Plug-and-play OBD installation removes wiring hassles and lets fleets equip vehicles quickly. Its u-blox GNSS performance and quad-band GPRS connectivity ensure consistent real-time tracking; FOTA and auto APN make remote maintenance straightforward at scale. Built-in sensors and the internal immobilizer enable anti-theft actions, driver behavior analytics and vehicle health monitoring that integrate directly into Plaspy dashboards and alerting rules.
+The T360 is a practical choice for organizations that want a compact, OBD mounted tracker which reduces installation time and provides meaningful telemetry for fleet and security operations. Its combination of GNSS based tracking, cellular connectivity and onboard sensors delivers the core information Plaspy needs to offer location visibility, event alerts and reporting without complex wiring or frequent manual configuration.
 
-In practice, choosing the T360 with Plaspy gives you a compact OBD GPS tracker that supports core fleet management and anti-theft needs — real-time tracking, telemetry suitable for fuel monitoring workflows when OBD data is available, ignition/engine status reporting when supplied by the vehicle, and rich event reporting for geo-fences and driver behavior. The result is a reliable, maintainable and scalable solution for fleets, rental services, insurers and personal vehicle owners who rely on Plaspy for insights and operational control.
-
+For customers using Plaspy, the T360 offers an easy path to integrate vehicle position, driver event data and basic vehicle status into a single platform for operational oversight. If you need more details about how the T360 fits into your deployment or compatibility considerations with Plaspy, learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current specifications with the official manufacturer documentation at http://www.ulbotech.com/.

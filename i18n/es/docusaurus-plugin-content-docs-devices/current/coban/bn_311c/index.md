@@ -2,58 +2,59 @@
 slug: /coban/bn_311c
 id: bn_311c
 sidebar_label: BN-311C
+title: Coban - BN-311C
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 2G compacto para motocicletas compatible con Plaspy para seguimiento discreto en tiempo real y monitoreo básico de flotas
+keywords:
+  - coban bn-311c
+  - bn-311c
+  - rastreador coban
+  - rastreador gps para motocicleta
+  - rastreador gps 2g
+  - compatible con plaspy
+  - seguimiento de flotas
+  - inmovilizador de vehículo
+  - rastreador gps oculto
+  - rastreo de vehículos pequeños
 ---
+
 # Coban - BN-311C
 
 ![BN-311C](./tracker.png)
 
-El BN-311C es un rastreador GPS compacto de 2G diseñado para el rastreo de motocicletas y vehículos ligeros. Con instalación cableada oculta y funcionamiento continuo en sistemas de 12–24 V, el BN-311C se sincroniza con plataformas compatibles con Plaspy para ofrecer monitoreo en tiempo real, alertas de eventos y funciones básicas de gestión de flota. Su pequeño formato y capacidades antirrobo enfocadas lo convierten en una opción práctica para propietarios y operadores que requieren monitorización discreta y opciones de inmovilización remota.
+El BN-311C es un rastreador GPS 2G compacto diseñado para el seguimiento de motocicletas y vehículos pequeños. Está pensado para una instalación oculta y cableada, con conexión continua a un sistema eléctrico de 12–24 V y reporte de respaldo cuando se pierde la alimentación externa. El equipo se centra en funciones discretas anti‑robo y opciones de inmovilización remota apropiadas para conductores, propietarios y operadores de vehículos ligeros.
 
-Diseñado como un terminal de gestión de motocicletas sencillo, el BN-311C combina posicionamiento GNSS con comunicaciones GSM/GPRS para enviar datos de ubicación, telemetría y alarmas a Plaspy para monitoreo en vivo, reproducción de rutas, geocercas y notificaciones push. El modelo tipo C incluye funciones de control remoto como activación/desactivación remota y corte remoto de combustible/energía \(inmovilizador\), que se integran con los flujos de trabajo de Plaspy para seguridad y control operacional.
+Como dispositivo compatible con Plaspy, el BN-311C puede enviar posiciones GNSS, alarmas y telemetría a las plataformas Plaspy para monitoreo en vivo y gestión básica de flotas. Su conjunto de funciones enfocado —ubicación en tiempo real, alertas de eventos y capacidades de control remoto— lo convierte en una opción práctica para integrar en flujos de trabajo de Plaspy orientados a seguridad, supervisión operativa y revisión simple del historial de rutas.
 
-## Aspectos clave
+## Características principales
 
-- Compatible con Plaspy: envía posición, alarmas y telemetría a Plaspy para seguimiento en tiempo real e informes.
-- Diseño compacto y oculto \(6.0 × 3.5 × 1.8 cm; 50 g\) ideal para motocicletas y vehículos ligeros.
-- Varias alarmas antirrobo: movimiento, geocerca, impacto, arranque ilegal, exceso de velocidad y desconexión de la alimentación externa.
-- Inmovilizador y control remoto \(modelo C\): corte remoto de combustible/energía y activación/desactivación remota vía plataforma o accesorio de control remoto.
-- Rendimiento confiable de GNSS: receptor de alta sensibilidad con precisión típica de alrededor de 5 metros y arranque en caliente rápido.
-- Alimentación cableada con batería de respaldo: conexión directa de 12–24 V para vehículo; batería Li‑ion interna recargable de 3.7 V y 180 mAh para seguir reportando ante pérdida de alimentación externa.
-- Opciones de configuración simples: comandos de configuración por SMS más informes TCP/UDP para facilitar la integración con Plaspy.
+- Dispositivo compatible con Plaspy que envía posición, alarmas y telemetría para seguimiento y generación de informes en tiempo real.
+- Factor de forma compacto y discreto ideal para motocicletas y vehículos pequeños, con mínima visibilidad.
+- Alarmas anti‑robo que incluyen detección de movimiento, salida de geocerca, choque, encendido no autorizado y desconexión de alimentación externa.
+- Funciones de control remoto tipo C, como armado/desarmado remoto y corte remoto de combustible o alimentación para inmovilización.
+- Posicionamiento GNSS con precisión típica a nivel de metros, adecuado para necesidades rutinarias de rastreo.
+- Alimentación vehicular por cable con batería interna de respaldo que mantiene el reporte durante la pérdida de energía externa.
+- Opciones sencillas de configuración e informes que facilitan la integración con la monitorización y alertas de Plaspy.
 
 ## Cómo funciona con Plaspy
 
-Cuando está instalado y configurado, el BN-311C reporta de forma continua o intermitente coordenadas GNSS y mensajes de estado a Plaspy usando GSM/GPRS. Plaspy consume los mensajes TCP/UDP o SMS del dispositivo para proporcionar mapas de ubicación en vivo, paneles de telemetría, alertas basadas en eventos y reproducción histórica de rutas. Las funciones de alarma y control remoto del equipo se muestran en Plaspy como eventos accionables que pueden monitorizarse y responderse en tiempo real.
+Una vez instalado y configurado, el BN-311C envía fijaciones de posición y mensajes de estado a Plaspy para que la plataforma muestre mapas en vivo, notificaciones de eventos e historiales de rutas. Plaspy procesa los mensajes del dispositivo y expone alarmas y acciones de control a través de las interfaces de la plataforma, permitiendo a los operadores vigilar los activos y responder ante incidentes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento en vivo y reproducción de rutas.
-- Estado de encendido \(ACC\) y notificaciones de funcionamiento del ACC para monitorizar el uso del vehículo y eventos de inicio/parada.
-- Informes de alarmas por exceso de velocidad, violación de geocerca, movimiento, impacto y desconexión de la alimentación externa—mostrados como alertas de Plaspy y notificaciones push.
-- Control remoto del inmovilizador \(corte remoto de combustible/energía\) soportado en el modelo de tipo C y accesible a través de flujos de trabajo de Plaspy o el accesorio de control remoto incluido.
-- Alarma de emergencia SOS y eventos de despertar remoto transmitidos a Plaspy para atención y respuesta inmediatas.
+- Actualizaciones de ubicación en tiempo real y reproducción de rutas visibles en los paneles y mapas de Plaspy.
+- Informes de eventos y alarmas por movimiento, salida de geocerca, choque, anomalías de encendido y pérdida de alimentación que aparecen como alertas en Plaspy.
+- Acciones de inmovilizador remoto y armado/desarmado disponibles dentro de los flujos de trabajo de Plaspy cuando la configuración del dispositivo lo soporta.
+- Mensajes de telemetría y estado utilizados para monitoreo de flota, reportes de utilización y análisis de arranques/paradas.
+- Eventos SOS y alarmas de emergencia transmitidos a Plaspy para atención rápida y respuesta del operador.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS \(TCP / UDP / SMS\) |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(quad-band\) |
-| Alimentación y batería | Alimentación de vehículo con cableado directo 12 V–24 V; batería Li‑ion interna recargable de 3.7 V, 180 mAh |
-| Interfaz | Arnés cableado con entrada de encendido ACC; accesorio de relé para corte remoto de combustible/energía; accesorio de control remoto compatible; comandos de configuración por SMS |
-| GNSS | Receptor GNSS de alta precisión; sensibilidad −165 dBm; precisión típica ~5 m; arranque en frío ~45 s, arranque en caliente ~1 s |
-| Gestión remota | Compatibilidad con app móvil y plataforma web vía Plaspy; admite informes TCP/UDP y comandos de configuración por SMS |
-| Ambiental | Operación −20°C a +65°C; almacenamiento −40°C a +85°C; humedad 5%–95% no condensante |
-| Formato | Terminal compacto cableado oculto para motocicletas y vehículos ligeros \(6.0 × 3.5 × 1.8 cm; 50 g\) |
-
-## Casos de uso
-
-- Protección antirrobo de motocicletas y inmovilización remota para conductores y propietarios individuales.
-- Gestión de flotas de dos ruedas pequeñas para servicios de entrega: rastreo en tiempo real, reproducción de rutas y monitorización del uso.
-- Operaciones de alquiler o scooters/motocicletas compartidas que requieren instalación discreta, monitorización de arranque y alertas rápidas.
-- Instalaciones de seguridad de bajo costo donde se requiere activación/desactivación remota e inmovilización por corte de energía sin hardware voluminoso.
+- Protección anti‑robo para motocicletas con instalación discreta y opciones de inmovilización remota.
+- Rastreo de flotas de vehículos ligeros de dos ruedas para servicios de entrega que requieren visibilidad en tiempo real e historial de rutas.
+- Operaciones de alquiler o uso compartido de scooters y motocicletas que necesitan monitoreo oculto y alertas rápidas.
+- Protección de activos para conductores individuales donde el hardware compacto y el control remoto sencillo son prioritarios.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El BN-311C está diseñado para conductores y operadores de vehículos ligeros que necesitan un rastreador GPS discreto, compatible con Plaspy, con seguimiento en tiempo real fiable y telemetría básica. Su diseño con cableado directo y batería de respaldo garantiza la continuación de los informes incluso cuando se pierde la alimentación externa; y las funciones de control remoto de tipo C proporcionan capacidades prácticas antirrobo como corte remoto de combustible/energía y activación remota. Combinado con las características de la plataforma de Plaspy—mapas en vivo, geocercas, notificaciones push y historial de rutas—el BN-311C ofrece una forma rentable de añadir protección antirrobo, monitorización de encendido y gestión simple de flotas a motocicletas y activos similares.
+El BN-311C es adecuado para organizaciones e individuos que buscan un rastreador compacto y específico que se integre con Plaspy para flujos básicos de seguridad y seguimiento. Su tamaño reducido y sus funciones anti‑robo enfocadas lo hacen práctico cuando se requiere instalación discreta e inmovilización básica, mientras que Plaspy ofrece la capa de plataforma para monitoreo en tiempo real, alertas y supervisión simple de flotas.
 
-Aunque el BN-311C se centra en un rastreo confiable GNSS/GSM y en la inmovilización, el ecosistema de Plaspy también admite integraciones extendidas \(por ejemplo, sensores Bluetooth cuando estén disponibles a través de la plataforma\) para ampliar la telemetría—como temperatura u otros datos de sensores—si sus necesidades operativas crecen. Para instaladores y gestores de flotas, el tamaño reducido, la sencilla caja de empalmes y las opciones de accesorio \(relé, arnés, control remoto, bocina opcional\) hacen del BN-311C una elección fácil de desplegar y compatible con Plaspy para la monitorización de motocicletas y vehículos ligeros.
-
+Si desea explorar cómo encaja el BN-311C en su solución de rastreo, obtenga más información sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual en el sitio del fabricante https://www.coban.net/.

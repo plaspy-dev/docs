@@ -2,60 +2,59 @@
 slug: /ev/ev_04
 id: ev_04
 sidebar_label: EV-04
+title: EV - EV-04
 sidebar_class_name: menu_item_tracker
+description: Colgante rastreador GPS 4G compacto para uso personal compatible con Plaspy para alertas SOS detección de caídas y monitoreo remoto
+keywords:
+  - EV EV-04
+  - EV-04
+  - rastreador EV
+  - rastreador GPS EV
+  - rastreador GPS personal
+  - rastreador de colgante
+  - compatible con Plaspy
+  - rastreador con detección de caídas
+  - colgante SOS
+  - monitoreo remoto de pacientes
 ---
+
 # EV - EV-04
 
 ![EV-04](./tracker.png)
 
-# EV-04 Personal 4G GPS Tracker Pendant
+El EV-04 es un colgante rastreador GPS 4G compacto diseñado para ofrecer protección personal confiable y soporte en monitoreo remoto de pacientes. Como dispositivo ligero para uso continuo, integra un botón SOS, detección de caídas altamente sensible, comunicación de voz bidireccional y múltiples métodos de posicionamiento para entregar a cuidadores y servicios de monitoreo alertas y ubicación precisas y oportunas. Cuenta con protección IP67 y un diseño pensado para uso diario, con carcasa de tacto suave y una base de carga dedicada.
 
-El EV-04 es un colgante rastreador GPS compacto, compatible con Plaspy, diseñado para una protección personal fiable y un monitoreo remoto de pacientes. Desarrollado sobre una plataforma MTK y compatible con 4G multi-banda con retroceso a 3G/2G, este dispositivo vestible ligero combina SOS de un botón, detección de caídas de alta sensibilidad, llamadas bidireccionales y múltiples tecnologías de posicionamiento para que cuidadores y servicios de monitoreo reciban alertas puntuales y datos de ubicación precisos.
+Este modelo es compatible con Plaspy y se integra en los flujos de trabajo de la plataforma para seguimiento en tiempo real, alertas audibles y telemetría centralizada. Al emparejarlo con Plaspy, el EV-04 puede reportar eventos SOS, episodios de caída y actualizaciones de ubicación en un único panel de monitoreo, de modo que cuidadores, centros de monitoreo y equipos operativos mantengan la conciencia situacional y respondan con rapidez.
 
-El EV-04 se integra perfectamente con la plataforma Plaspy para seguimiento en tiempo real, alertas audibles y telemetría centralizada. Su resistencia al agua IP67, carcasa de tacto suave \(≈53 g\) y los beacons Bluetooth opcionales para mejorar la precisión en interiores lo convierten en una solución práctica para personas mayores, pacientes y trabajadores solitarios que necesitan un dispositivo SOS siempre activo acompañado de las herramientas de monitoreo e informes de Plaspy.
+## Aspectos destacados
 
-## Puntos destacados
-
-- Colgante rastreador GPS compatible con Plaspy para reportes SOS instantáneos y monitoreo centralizado.
-- SOS de un botón con llamadas bidireccionales \(altavoz y micrófono integrados\) para comunicación de voz directa durante emergencias.
-- Detección de caídas de alta sensibilidad \(con precisión reportada superior al 70%\) y activación automática de SOS con indicaciones de voz/TTS para orientar a los usuarios.
-- Posicionamiento multitecnología: GPS, Wi‑Fi, BLE Beacon y LBS con actualizaciones automáticas tan frecuentes como cada 10 segundos durante SOS.
-- Diseño compacto y ligero con IP67, indicadores LED, base de carga dedicada \(Bluetooth 5.0\) y comodidad de carga por inserción.
-- Soporta emparejamiento Bluetooth con dispositivos médicos para monitoreo remoto de pacientes \(RPM\) sin necesidad de una app adicional en el teléfono del usuario.
-- FOTA \(actualización remota de firmware\); recordatorios de medicación, plataforma Web + iOS/Android y soporte de rebranding para despliegues comerciales.
+- Formato de colgante compacto, ideal para seguridad personal y uso continuo
+- Botón SOS con altavoz y micrófono integrados para comunicación de voz bidireccional
+- Detección de caídas muy sensible diseñada para activar alertas SOS automáticas
+- Posicionamiento multi tecnología mediante GPS, Wi‑Fi, balizas BLE y localización por celular para mejor cobertura
+- Carcasa resistente al agua con clasificación IP67 y diseño ligero de aproximadamente 53 g para uso diario cómodo
+- Soporte Bluetooth para balizas y emparejamiento opcional con dispositivos médicos que facilitan el monitoreo remoto de pacientes
+- Actualizaciones remotas de firmware y gestión de dispositivos a nivel de plataforma para simplificar el mantenimiento
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el EV-04 se convierte en un rastreador GPS personal diseñado para alimentar la ubicación y la telemetría de eventos en el panel en tiempo real y en el motor de alertas de Plaspy. Ya sea utilizado en un servicio monitorizado o en modo autogestionado, Plaspy muestra la posición en vivo, el historial de eventos y el estado del dispositivo, al tiempo que reenvía las llamadas SOS y las notificaciones a contactos predefinidos o centros de monitoreo.
+Integrado con Plaspy, el EV-04 se convierte en un activo de seguimiento personal gestionado que transmite posición y eventos de telemetría a los tableros y sistemas de alertas de Plaspy. Plaspy recibe los eventos del dispositivo y las actualizaciones de ubicación, los presenta a los operadores y puede reenviar alarmas críticas a contactos predefinidos o equipos de monitoreo para una respuesta rápida.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy, incluida la monitorización en vivo durante eventos SOS \(actualizándose cada 10 segundos\).
-- Detección de caídas automática y eventos SOS de un botón enviados a Plaspy para una acción inmediata por cuidadores o centros de monitoreo.
-- Llamadas de voz bidireccionales iniciadas desde el dispositivo, con Plaspy registrando los eventos de llamadas y cambios de estado para auditoría y seguimiento.
-- Sensores Bluetooth y beacon BLE para mejorar el posicionamiento en interiores y emparejamiento opcional con dispositivos médicos para transmitir datos RPM a Plaspy sin aplicaciones adicionales para el usuario.
-- Gestión del dispositivo y actualizaciones de firmware \(FOTA\) coordinadas a través de flujos de trabajo compatibles con Plaspy para mantenimiento remoto.
+- Ubicación y telemetría en tiempo real visibles en Plaspy, con actualizaciones aceleradas durante eventos SOS
+- Botón SOS y detección automática de caídas remitidos a Plaspy para notificación y registro inmediato
+- Eventos de llamadas bidireccionales registrados y disponibles para auditoría y seguimiento a través de Plaspy
+- Datos de balizas BLE y sensores Bluetooth utilizados para mejorar la precisión en interiores e incorporar telemetría RPM opcional a Plaspy
+- Estado centralizado de salud del dispositivo y FOTA mostrado en Plaspy para apoyar el mantenimiento remoto y la supervisión de la flota
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Multi-banda 4G \(primaria\) con salto a 3G/2G; plataforma MTK |
-| --- | --- |
-| Bandas | Soporta múltiples bandas 4G \(los modelos varían\); conmutación automática a 3G/2G cuando esté disponible |
-| Alimentación y batería | Batería interna recargable; base de carga por inserción dedicada incluida; funciones de optimización de batería para ampliar el modo de espera y los modos SOS |
-| Interfaces | SOS de un botón, llamadas bidireccionales con altavoz y micrófono integrados, indicadores LED de estado, TTS/indicaciones de voz, emparejamiento para dispositivos médicos por Bluetooth |
-| GNSS y posicionamiento | GPS junto con Wi‑Fi, BLE Beacon y LBS \(torres de celular\) posicionamiento híbrido; actualizaciones automáticas de alta frecuencia durante eventos de alarma |
-| Bluetooth | Soporte BLE para beacons y emparejamiento de dispositivos médicos; la base de carga utiliza Bluetooth 5.0 |
-| Gestión remota | FOTA \(actualización remota de firmware\); plataforma Web + iOS/Android para rastreo, alertas y monitoreo de batería; se admite rebranding |
-| Forma y durabilidad | Dispositivo tipo colgante, diseño cuadrado de tacto suave, approx. 53 g, IP67 para uso diario |
-
-## Casos de uso
-
-- Protección personal para personas mayores y miembros de la familia de edad avanzada — botón SOS, detección de caídas y rastreo GPS en vivo para una respuesta rápida.
-- Monitoreo remoto de pacientes \(RPM\) — emparejamiento BLE con dispositivos médicos y recordatorios de medicación, con datos telemétricos disponibles a través de Plaspy.
-- Seguridad de trabajadores aislados — colgante SOS ligero que ofrece comunicación de voz y ubicación a Plaspy para una rápida gestión de incidentes.
-- Cuidado en el hogar y vida asistida — beacons BLE opcionales mejoran la precisión en interiores y la base de carga con soporte SOS adicional simplifica el uso diario.
+- Protección personal para adultos mayores y familiares que requieren monitoreo con SOS y detección de caídas
+- Monitoreo remoto de pacientes donde dispositivos BLE emparejados y recordatorios de medicación apoyan los flujos de trabajo de los cuidadores
+- Seguridad para trabajadores aislados que necesitan un SOS portátil y comunicación de voz vinculada a una plataforma de monitoreo
+- Programas de asistencia domiciliaria y residencias que buscan un wearable ligero que reporte ubicación y eventos a un sistema central
 
 ## Por qué elegir este rastreador con Plaspy
 
-El EV-04 ofrece una propuesta de valor clara cuando se combina con Plaspy: rastreo en tiempo real rápido y fiable y telemetría de eventos en un colgante compacto y fácil de usar. La integración con Plaspy permite una gestión centralizada de incidentes, auditoría de SOS y registros de llamadas, y gestión remota del dispositivo mediante FOTA. Su compatibilidad con sensores Bluetooth y las opciones de beacons BLE amplían las capacidades para mejorar la precisión en interiores y RPM sin exigir a cuidadores o usuarios gestionar aplicaciones separadas.
+El EV-04 es una opción práctica para organizaciones y servicios que requieren un dispositivo de seguridad personal dedicado integrado en una plataforma de monitoreo central. Su diseño en forma de colgante, la funcionalidad SOS, la detección de caídas y las opciones de posicionamiento en interiores lo hacen adecuado para proveedores de salud, redes de cuidado y programas de trabajadores solitarios que dependen de alertas oportunas y registros claros de incidentes.
 
-Si bien el EV-04 está optimizado para la seguridad personal, la atención sanitaria y la protección de trabajadores solitarios, y no para la gestión de flotas o la telemetría de vehículos, su compatibilidad con Plaspy permite a las organizaciones incorporar el EV-04 en carteras de monitoreo más amplias. Tenga en cuenta que funciones específicas de vehículos, como monitoreo de combustible, detección de arranque/ignición o control de inmovilizador, no forman parte de las características de este dispositivo; elija EV-04 con Plaspy cuando la prioridad sea el seguimiento personal por GPS, voz de emergencia bidireccional, detección de caídas y telemetría médica.
-
+Si su prioridad es el rastreo GPS personal, la voz de emergencia bidireccional y el emparejamiento con dispositivos médicos más que la telemática vehicular, el EV-04 combinado con Plaspy ofrece un camino directo hacia el monitoreo centralizado y la supervisión operativa. Para obtener más información sobre cómo Plaspy puede apoyar despliegues con este rastreador visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique las especificaciones actuales en el sitio del fabricante http://www.eviewltd.com/ antes de tomar decisiones de compra.

@@ -2,59 +2,62 @@
 slug: /neomatica/adm007_ble
 id: adm007_ble
 sidebar_label: ADM007 BLE
+title: Neomatica - ADM007 BLE
 sidebar_class_name: menu_item_tracker
+description: Compact plug and play Neomatica ADM007 BLE GPS tracker compatible with Plaspy for fast deployment, BLE sensor telemetry, low data use and reliable fleet monitoring
+keywords:
+  - Neomatica ADM007 BLE
+  - ADM007 BLE tracker
+  - ADM007 GPS tracker
+  - ADM007 Plaspy
+  - Neomatica GPS tracker
+  - BLE sensor tracker
+  - fleet tracking
+  - vehicle tracker
+  - cigarette lighter tracker
+  - telemetry tracker
 ---
+
 # Neomatica - ADM007 BLE
 
 ![ADM007 BLE](./tracker.png)
 
-The ADM007 BLE from Neomatica is a compact, plug-and-play GNSS GPS tracker designed for fast installation via a vehicle cigarette lighter socket. Plaspy compatible out of the box, the ADM007 BLE delivers precise location tracking with minimal mobile data and low power draw, making it ideal for fleet management, anti-theft monitoring and telemetry-driven workflows.
+The Neomatica ADM007 BLE is a compact, plug and play GNSS GPS tracker designed for quick deployment using a vehicle cigarette lighter socket. It is intended for operators who need a fast, removable tracking solution and includes GNSS positioning, Bluetooth Low Energy sensor support for up to eight wireless sensors, anti jamming detection and onboard route logging. The device emphasizes ease of installation and practical telemetry for vehicle applications.
 
-Built for operators who need quick deployment and reliable telematics, the ADM007 BLE combines GPS/GLONASS positioning, Bluetooth Low Energy \(BLE\) sensor support for up to eight wireless sensors, and anti-jamming detection. When paired with Plaspy, this tracker provides real-time tracking, historical route analytics and flexible remote configuration through Bluetooth, SMS or GPRS.
+As a device that ships Plaspy compatible out of the box, the ADM007 BLE can be integrated into Plaspy to provide live location visibility, historical route analytics and sensor telemetry without additional gateway work. Its low mobile data use and modest power draw make it a suitable option for fleet managers and operators who need reliable tracking with minimal operational overhead on the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible plug-and-play installation via cigarette lighter — install in minutes without hardwiring.
-- Low mobile data consumption \(typically 8–10 MB/month\) and efficient power use \(~30 mA average at 12 V\) for low operational cost.
-- Supports up to eight BLE sensors \(temperature, humidity, light, tilt and more\) at ranges up to 100 m for expanded telemetry.
-- GNSS sensitivity of −167 dBm with GPS/GLONASS positioning for fast and accurate fixes in difficult conditions.
-- Anti-jamming detection to improve reliability in challenging RF environments and help detect tampering or interference.
-- Onboard memory for up to 63,000 route records — robust local logging when connectivity is intermittent.
-- Remote management via FOTA, ADM Configurator app over Bluetooth, and control over GPRS or SMS for flexible maintenance.
+- Plug and play installation via cigarette lighter for fast deployment and easy removal.
+- Plaspy compatible out of the box for immediate integration with fleet monitoring workflows.
+- Low mobile data consumption and efficient power use to reduce recurring operational cost.
+- Supports up to eight Bluetooth Low Energy sensors for expanded telemetry such as temperature and humidity.
+- GNSS positioning with high sensitivity and anti jamming detection to improve location reliability.
+- Large onboard route log capacity to preserve trip history when cellular connectivity is intermittent.
+- Remote management options including over the air firmware updates and local configuration via mobile app.
 
 ## How It Works with Plaspy
 
-Integrating the ADM007 BLE with Plaspy gives you real-time tracking, sensor telemetry and historical reports in one platform. The device transmits GNSS position and BLE sensor readings over GPRS to Plaspy, and Plaspy can display live location, trigger alerts and store long-term route data. Local configuration is possible via Bluetooth using the ADM Configurator app, while firmware updates can be delivered with FOTA.
+When paired with Plaspy the ADM007 BLE transmits position and sensor data to the platform so teams can monitor vehicles and telemetry in real time and review historical activity. Plaspy aggregates the incoming data, triggers alerts based on configured rules, and stores trip history for reporting and analysis.
 
-- Real-time location and telemetry updates delivered to Plaspy over GPRS \(GSM 850/900/1800/1900\).
-- BLE sensor integration: up to eight Bluetooth sensors \(temperature, humidity, light, tilt, etc.\) reported alongside GPS/GLONASS positions.
-- Anti-jamming detection alerts to flag potential interference or tampering to Plaspy dashboards and alerts.
-- Local route logging \(up to 63,000 records\) synchronized with Plaspy when connectivity is available for full trip history.
-- Remote control and configuration via Bluetooth \(ADM Configurator\), SMS or GPRS for quick updates and management.
+- Real time location updates and vehicle status visible in Plaspy dashboards for operational oversight.
+- BLE sensor readings reported alongside GNSS positions to support environmental and cargo monitoring.
+- Anti jamming or interference indications surfaced to Plaspy so administrators can investigate potential tampering.
+- Local route logging synchronized with Plaspy when connectivity is restored to preserve full trip records.
+- Remote device configuration and management through Bluetooth, SMS or cellular data to adjust behavior without physical access.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM GPRS \(GPRS Multi-slot Class 12\) |
-| --- | --- |
-| Bands | 850 / 900 / 1800 / 1900 MHz |
-| Power & Battery | Operates from +8.5…+45 V via cigarette lighter socket; average ~30 mA at 12 V, max 200 mA. No internal rechargeable battery specified \(cigarette lighter power version\). |
-| Interfaces | Cigarette lighter power connector; single NanoSIM slot \(external SIM slot noted\); Bluetooth 4.0 for sensor/configuration; NanoSIM card required for GPRS. |
-| GNSS | GPS/GLONASS receiver, sensitivity −167 dBm, 33 tracking channels and 99 acquisition channels; fast positioning in difficult conditions. |
-| Bluetooth | Bluetooth 4.0 \(BLE\) — supports up to 8 wireless BLE sensors at ranges up to 100 m. |
-| Remote Management | FOTA firmware updates available; local configuration via ADM Configurator mobile app \(Bluetooth\); device control via Bluetooth, SMS or GPRS. |
-| Form Factor | Compact cigarette lighter version: 105 × 33 × 20 mm, 31 g — non-invasive, easily removable housing for vehicle use. |
-
-## Use Cases
-
-- Fleet management: quick deployment across vehicles for route tracking, utilization monitoring and basic telemetry reporting in Plaspy.
-- Anti-theft monitoring: covert, removable cigarette lighter installation with real-time position reporting and anti-jamming alerts for theft protection.
-- Cold-chain and cargo monitoring: attach BLE temperature/humidity sensors to trailers or cargo and report sensor data alongside location for refrigerated transport.
-- Short-term rentals or subcontractor vehicles: low-maintenance tracking without hardwiring, ideal where permanent installation is not desired.
-- Remote telemetry for small commercial vehicles: combine GPS/GLONASS and BLE sensor telemetry to view environmental and movement data in Plaspy dashboards.
+- Fleet management for quick rollout across light vehicle fleets needing position tracking and basic telemetry.
+- Anti theft monitoring where removable cigarette lighter installation provides discreet tracking with tamper indicators.
+- Cold chain and cargo monitoring by combining BLE temperature or humidity sensors with location reporting.
+- Short term rentals and subcontractor vehicles that require tracking without permanent hardwiring.
+- Remote telemetry for small commercial vehicles that need environmental or movement data alongside location.
 
 ## Why Choose This Tracker with Plaspy
 
-The ADM007 BLE is an attractive option when you need a Plaspy compatible GPS tracker that emphasizes fast installation, low data usage and extendable telemetry. Its cigarette lighter form factor enables deployment without workshops or installers, while BLE support lets you add temperature, humidity, tilt or light sensors without extra wiring. Anti-jamming detection and a sensitive GNSS receiver improve tracking reliability, and the large local log \(63,000 records\) ensures continuity when cellular coverage is limited.
+The ADM007 BLE is a practical choice for organisations using Plaspy who value rapid deployment, removable installation and the ability to extend telemetry with wireless sensors. Its combination of GNSS positioning, BLE sensor support and local logging provides a balance between immediate visibility and resilience when coverage is intermittent.
 
-Paired with Plaspy, the ADM007 BLE delivers practical real-time tracking, telemetry and historical route analysis for fleet management and anti-theft workflows. Administrators benefit from remote configuration options \(Bluetooth, SMS, GPRS\) and FOTA updates to keep devices current. For operators needing compact, non-invasive GPS tracking with Bluetooth sensors and reliable telemetry, the ADM007 BLE offers a cost-effective, Plaspy compatible solution.
+Paired with Plaspy, this tracker enables a straightforward workflow for real time tracking, alerting and historical analysis without complex installation. For teams that need a compact, non invasive device to add vehicles to a Plaspy managed fleet quickly, the ADM007 BLE is a sensible option to consider.
 
+To learn more about Plaspy and platform capabilities visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical information and support details on the official Neomatica site https://neomatica.com/ before purchase or deployment.

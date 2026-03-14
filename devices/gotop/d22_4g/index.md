@@ -2,58 +2,62 @@
 slug: /gotop/d22_4g
 id: d22_4g
 sidebar_label: D22-4G
+title: GOTOP - D22-4G
 sidebar_class_name: menu_item_tracker
+description: Waterproof GOTOP D22-4G vehicle GPS tracker compatible with Plaspy for reliable 4G tracking and anti theft telemetry
+keywords:
+  - GOTOP D22-4G
+  - D22-4G tracker
+  - GOTOP tracker
+  - D22-4G Plaspy compatible
+  - vehicle GPS tracker
+  - waterproof GPS tracker
+  - fleet tracking
+  - immobilizer tracker
+  - 4G GPS tracker
+  - GPS BDS dual satellite
 ---
+
 # GOTOP - D22-4G
 
 ![D22-4G](./tracker.jpg)
 
-The D22-4G Waterproof GPS Tracker is a purpose-built, Plaspy compatible vehicle terminal that brings industrial-grade reliability to real-time tracking and fleet management. Designed for cars, commercial vehicles, and fleet assets, the D22-4G pairs high-sensitivity GPS/BDS dual-satellite positioning with robust 4G LTE communications and built-in antenna hardware to deliver consistent location, telemetry, and status data into the Plaspy platform.
+The GOTOP D22-4G is a waterproof vehicle GPS tracker built for reliable real-time tracking and fleet management. Designed for cars, commercial vehicles, and fleet assets, the device combines high-sensitivity GPS and BDS dual satellite positioning with 4G communications and integrated antenna hardware to provide consistent location, status, and telemetry reporting. Its industrial form factor and onboard features address common operational needs such as theft deterrence, event alarms, and mileage monitoring.
 
-With features tailored for anti-theft protection, telemetry reporting, and remote vehicle control, the D22-4G supports ACC/ignition detection, door sensor input, overspeed and vibration alarms, mileage statistics, and remote fuel cut-off via an external relay \(immobilizer function\). Its waterproof, industrial form factor and low-power sleep modes make it suited for long-term fleet installations and theft recovery workflows managed through Plaspy.
+As a Plaspy compatible terminal, the D22-4G feeds location and event data into Plaspy to support centralized visibility and operational oversight. Its telemetry inputs and alarm outputs map naturally to Plaspy workflows for monitoring ignition and door events, overspeed or vibration alerts, immobilizer actions, and continuity of data through onboard buffering. That compatibility makes it suitable for fleets that need dependable tracking, security features, and audit-ready history within the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible for seamless integration into your real-time tracking and fleet management dashboards.
-- 4G LTE communications with built-in GSM antenna and full built-in antenna design for reliable connectivity.
-- High-sensitivity GPS/BDS dual-satellite positioning and anti-jamming ceramic antenna for accurate location fixes.
-- Comprehensive telemetry: ACC/ignition detection, mileage statistics, overspeed and movement alarms, and power-failure alerts.
-- Anti-theft and immobilizer capability via remote fuel cut-off using an external relay; SOS alarm to monitoring numbers and platforms.
-- Built-in 3-axis acceleration sensor and integrated acceleration algorithm for precise event detection and vibration sensing.
-- Two-way voice support with built-in speaker and microphone for listen-in and hands-free communication.
-- Large-capacity offline storage and blind-area data retransmission to ensure data continuity in poor coverage.
+- Purpose built for vehicle and fleet tracking with a waterproof industrial enclosure.
+- High sensitivity GPS and BDS dual satellite positioning combined with an integrated antenna design.
+- 4G communications for consistent uplink of location and telemetry to cloud platforms.
+- Built-in sensors and inputs for ACC ignition detection, door status, overspeed, and vibration alarms.
+- Anti theft features including SOS alarm and remote fuel cut off via external relay for immobilizer workflows.
+- Large capacity local storage and blind area retransmission to preserve telemetry continuity during coverage gaps.
+- Two way voice support for listen in and hands free communication where that is required.
 
 ## How It Works with Plaspy
 
-The D22-4G streams vehicle location and telemetry into Plaspy over TCP/IP, enabling real-time tracking, alerting, and historical reporting. Plaspy ingests the device's status messages and sensor inputs so fleet managers can monitor vehicle health, events, and security from a single interface. Offline buffering and blind-area retransmission ensure Plaspy receives a complete data trail even when the vehicle moves through coverage gaps.
+When paired with Plaspy the D22-4G transmits vehicle position and event data so fleet managers can track assets, receive alerts, and review historical records in a single interface. Plaspy ingests status messages and sensor inputs from the device, enabling alerting, reporting, and operational responses based on the tracker’s telemetry and alarms.
 
-- Real-time location and telemetry updates: GPS/BDS coordinates, movement, and speed delivered to Plaspy via 4G TCP/IP.
-- Ignition and door status: ACC detection and door sensor input report start/stop and access events for ignition-aware workflows.
-- Alarm and event reporting: overspeed, vibration/movement alarms, power-failure alerts, low-battery messages, and SOS events are pushed to Plaspy for immediate notification.
-- Fuel control / immobilizer: remote fuel cut-off via external relay allows Plaspy-driven immobilization or recovery procedures.
-- Telemetry continuity: local storage buffers data offline and retransmits when connectivity is restored, maintaining audit-ready records in Plaspy.
+- Real time location and movement updates delivered to Plaspy for live monitoring and map visualization.
+- Ignition and access events reported for ignition aware workflows and driver activity tracking.
+- Alarm and event forwarding including overspeed, vibration or movement alarms, power alerts, and SOS notifications for immediate attention.
+- Immobilizer and remote control events such as external relay fuel cut off surfaced in Plaspy for recovery or security actions.
+- Offline buffering and blind area retransmission ensure Plaspy retains a continuous historical trail even through temporary coverage loss.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE terminal with TCP/IP transmission, domain name/IP server connections; built-in GSM antenna and full built-in antenna design |
-| --- | --- |
-| Bands | 4G LTE \(regional band support varies by model/region; consult supplier for specific band lists\) |
-| Power & Battery | Low power consumption with sleep-mode alarms, startup and flame-out detection; designed for vehicle power installations \(no standalone battery specified\) |
-| Interfaces | DC and ACC/ignition detection, door sensor input, external relay control for remote fuel cut-off \(immobilizer\), built-in speaker & microphone for two-way voice, SOS output |
-| GNSS | High-sensitivity GPS and BDS dual-satellite positioning with integrated acceleration algorithm and anti-jamming ceramic antenna |
-| Acceleration Sensor | Built-in 3-axis acceleration sensor for movement, vibration, and event detection |
-| Data Handling & Remote Management | TCP/IP, domain name/IP server connections; large-capacity onboard storage for offline buffering and blind-area data retransmission |
-| Form Factor | Waterproof industrial-grade vehicle tracking terminal for cars, commercial vehicles, and fleet assets |
-
-## Use Cases
-
-- Fleet management: real-time tracking, mileage statistics, and remote diagnostics to optimize routes, utilization, and maintenance scheduling.
-- Anti-theft and recovery: SOS alarm, immobilizer \(remote fuel cut-off\), and movement/door alerts to secure vehicles and enable rapid recovery.
-- Driver and vehicle safety: overspeed and vibration alarms help enforce safe driving behavior and detect incidents for immediate response.
-- Remote control and monitoring: ACC/ignition detection and two-way voice allow dispatchers to verify vehicle status and communicate directly with drivers.
-- Telematics continuity in poor coverage: onboard storage and blind-area retransmission ensure uninterrupted telemetry history for compliance and analysis.
+- Fleet management for cars and commercial vehicles with real time tracking and mileage reporting.
+- Anti theft and recovery operations using SOS alerts, movement detection, and remote immobilization.
+- Driver safety programs that monitor overspeed and vibration events to detect risky behavior or incidents.
+- Remote status monitoring and dispatch communications using ignition inputs and two way voice.
+- Compliance and reporting where uninterrupted telemetry history is required despite intermittent coverage.
 
 ## Why Choose This Tracker with Plaspy
 
-The D22-4G delivers a balance of rugged hardware and the connectivity required for modern telemetry and fleet management workflows. As a Plaspy compatible device, it feeds consistent real-time tracking data and event-based alarms into Plaspy’s dashboards and reporting tools—helping fleets reduce theft risk, manage fuel control and immobilization processes, and maintain high data integrity through offline buffering. Its industrial waterproof design, integrated sensors, and two-way voice support make it a versatile choice for organizations that need reliable vehicle tracking, anti-theft features, and clear operational telemetry in one compact terminal.
+The D22-4G pairs rugged hardware and practical vehicle features with the centralized visibility Plaspy provides. Its waterproof construction, integrated antennas, and onboard storage support long term fleet installations where durability and data continuity are important. For organizations that need anti theft capabilities, event driven alerts, and straightforward telemetry feeding into a fleet management platform, the D22-4G presents a balanced option.
 
+Because the device is Plaspy compatible, fleets can rely on a consistent stream of location and event data into Plaspy dashboards and reports to support recovery workflows, operational oversight, and historical analysis. If you need a resilient, vehicle focused terminal that aligns with Plaspy workflows, the D22-4G is a strong candidate.
+
+To learn more about Plaspy and how compatible devices like the GOTOP D22-4G work with the platform, visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current technical information and compatibility at the manufacturer site https://www.gotop.cc/.

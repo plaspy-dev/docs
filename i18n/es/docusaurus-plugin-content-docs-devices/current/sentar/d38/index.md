@@ -2,64 +2,58 @@
 slug: /sentar/d38
 id: d38
 sidebar_label: D38
+title: Sentar - D38
 sidebar_class_name: menu_item_tracker
+description: Smartwatch infantil compacto con Android, posicionamiento multimodal, cámara, SOS y compatibilidad inmediata con Plaspy
+keywords:
+  - Sentar D38
+  - Rastreador GPS D38
+  - Smartwatch Sentar
+  - Rastreador GPS para niños
+  - Rastreador de seguridad infantil
+  - Compatible con Plaspy
+  - Seguimiento en tiempo real
+  - GPS AGPS LBS WiFi
+  - Resistente al agua IPX7
+  - Android 4.4
 ---
+
 # Sentar - D38
 
 ![D38](./tracker.png)
 
-El D38 es un rastreador GPS para niños compacto, basado en Android, diseñado como un smartwatch para una seguridad infantil fiable y tranquilidad familiar. Compatible con Plaspy desde la caja, el D38 ofrece seguimiento en tiempo real mediante posicionamiento GPS, AGPS, LBS y WiFi, y combina estos servicios de ubicación con una cámara de 30W, capacidad de comunicación bidireccional y un botón SOS de fácil acceso. Diseñado para padres y cuidadores que buscan visibilidad de ubicación precisa tanto en interiores como en exteriores, el D38 aprovecha la conectividad celular 4G/3G/2G además de Android 4.4 para activar alertas rápidas y un monitoreo seguro dentro de la plataforma Plaspy.
+El D38 es un rastreador GPS compacto con Android diseñado como smartwatch infantil para apoyar la seguridad del menor y la supervisión del cuidador. Combina posicionamiento multimodal con una cámara de 30W, comunicación bidireccional y un botón SOS accesible en un formato wearable pensado para la resistencia del día a día. El dispositivo ofrece visibilidad de la ubicación tanto en interiores como en exteriores para padres y cuidadores mediante monitorización continua y sencilla.
 
-Construido alrededor del chipset SL8521E, el D38 equilibra la operación de bajo consumo y la conectividad continua con una batería de 710mAh y una clasificación IPX7 a prueba de agua para una durabilidad diaria. Cuando se integra con Plaspy, este smartwatch se convierte en un rastreador GPS práctico que admite seguimiento en tiempo real, notificaciones de emergencia, historial de ubicación e informes de estado — ideal para programas de seguridad infantil y uso familiar. Su pantalla táctil IPS de 1,69 pulgadas \(240x280\) y el soporte para Nano SIM facilitan la configuración y permiten un monitoreo inmediato a través de la interfaz de Plaspy.
+Como dispositivo compatible con Plaspy listo para usarse, el D38 integra sus datos de ubicación y estado en la plataforma Plaspy para monitoreo y alertas centralizadas. Plaspy puede recibir las actualizaciones de posición del D38, eventos SOS, conectividad y estado de batería para mostrar mapas en vivo, notificaciones y reproducción histórica, convirtiendo el reloj en un endpoint útil para flujos de trabajo de seguridad familiar y flotas de dispositivos supervisados.
 
-## Puntos clave
+## Aspectos clave
 
-- Rastreador GPS compatible con Plaspy optimizado para la seguridad infantil y la monitorización parental.
-- Seguimiento en tiempo real preciso con GPS, AGPS, LBS y posicionamiento WiFi para cobertura en interiores y exteriores.
-- Conectividad celular 4G/3G/2G \(múltiples bandas\) para una mayor disponibilidad de red.
-- Botón dedicado SOS/encendido para alertas de emergencia inmediatas y una respuesta rápida.
-- Batería de 710mAh con cable de carga magnético de 4PIN para mayor autonomía en espera y carga conveniente.
-- Clasificación IPX7 \(resistente a salpicaduras y a inmersiones breves\) durante el uso diario.
-- Cámara integrada y pantalla táctil para verificación visual y una interacción local sencilla.
+- Smartwatch infantil compatible con Plaspy, optimizado para seguridad del niño y monitoreo parental
+- Posicionamiento multimodal que utiliza GPS, AGPS, LBS y WiFi para mejor visibilidad en interiores y exteriores
+- Cámara integrada de 30W y comunicación bidireccional para confirmación visual y contacto con el cuidador
+- Botón SOS dedicado para alertas inmediatas y compartir ubicación con usuarios de Plaspy
+- Clasificación IPX7 para resistencia al agua en el uso diario y pantalla táctil compacta de 1.69 pulgadas
+- Batería de 710 mAh y plataforma basada en Android para uso diario prolongado y alertas rápidas
 
 ## Cómo funciona con Plaspy
 
-Integrar el D38 con Plaspy centraliza los datos de ubicación y estado para que padres y administradores puedan supervisar los dispositivos en tiempo real. El reloj transmite posiciones GNSS y señales de ubicación complementarias \(AGPS, LBS, WiFi\) a Plaspy, que normaliza esas entradas en mapas, alertas e informes. Plaspy recibe actualizaciones de ubicación, estado de la batería y de conectividad, y eventos SOS para activar notificaciones, alertas de geocerca o reproducción histórica.
+Al emparejarse con Plaspy, el D38 transmite actualizaciones de posición y estado para que cuidadores y administradores puedan monitorear los dispositivos desde una única plataforma. Plaspy normaliza las señales entrantes y las presenta como posiciones en vivo, alertas e historial para apoyar la conciencia situacional y la respuesta.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: posiciones GPS/AGPS/LBS/WiFi enviadas a Plaspy para rastreo en vivo y registro histórico.
-- Alertas SOS/ emergencia: el botón SOS físico envía alertas y ubicación inmediatas a los usuarios de Plaspy.
-- Estado de conectividad y batería: se reporta el nivel de energía e indicadores de enlace celular para el monitoreo de la salud del dispositivo.
-- Capturas de cámara e indicadores de llamada: verificación visual y eventos de comunicación simples pueden registrarse en Plaspy.
-- Posicionamiento en interiores: WiFi y LBS complementan GPS para mejorar la precisión en interiores y en cañones urbanos.
+- Actualizaciones de ubicación en tiempo real y reproducción histórica para rastrear movimiento y revisar rutas pasadas
+- Notificaciones SOS y de emergencia dirigidas a usuarios de Plaspy para respuesta rápida
+- Informes de salud del dispositivo, incluido estado de batería y conectividad, para gestionar el tiempo de actividad
+- Capturas de cámara y registros de comunicación para verificación visual y contexto
+- Alertas de geocerca y monitoreo de llegada/salida para control de entradas y salidas en la escuela u otros puntos de interés
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | D38 |
-| --- | --- |
-| Plataforma / chipset | Android 4.4, chipset SL8521E |
-| Conectividad | 4G / 3G / 2G celular; ranura Nano SIM |
-| Bandas | FDD: B1/B2/B3/B5/B7/B8/B20/B28A; WCDMA: B1/B2/B5/B8; GSM: B2/B3/B5/B8 |
-| GNSS y posicionamiento | GPS, AGPS, LBS, posicionamiento WiFi |
-| Pantalla | 1,69 pulgadas; pantalla táctil a color IPS; resolución 240 x 280 |
-| Cámara | Cámara de 30W \(integrada\) |
-| Memoria y Almacenamiento | 512MB RAM + 4GB ROM |
-| Alimentación y Batería | Batería de 710mAh; cable de carga magnético de 4PIN; mayor autonomía en espera |
-| Interfaces físicas | Ranura Nano SIM, botón físico de encendido / SOS, puerto de carga magnético |
-| Clasificación IP de impermeabilidad | IPX7 \(resistente a salpicaduras y a inmersiones breves\) |
-| Bluetooth | No especificado |
-| Gestión remota | Dispositivo basado en Android; capacidades específicas de FOTA/gestión remota no especificadas |
-| Factor de forma | Reloj inteligente para niños / wearable |
-
-## Casos de uso
-
-- Monitoreo de seguridad infantil: ubicación precisa, alertas SOS y comunicación bidireccional para cuidadores.
-- Control de presencia en escuela y guardería: geocercas y eventos de llegada/salida registrados en Plaspy.
-- Seguimiento de actividades al aire libre: supervisión segura durante paseos, deportes y salidas cortas con protección impermeable.
-- Supervisión de viajes en familia: búsquedas rápidas de ubicación y capacidad de respuesta ante emergencias cuando están fuera de casa.
+- Seguridad infantil y supervisión de cuidadores con ubicación en vivo y alertas de emergencia
+- Registro de llegadas y salidas en escuelas y guarderías, y monitoreo por geocercas
+- Actividades al aire libre supervisadas donde la protección contra agua y la confirmación visual son útiles
+- Supervisión de viajes familiares y consultas rápidas de ubicación fuera de casa
 
 ## Por qué elegir este rastreador con Plaspy
 
-El D38 combina la comodidad de un dispositivo ponible con las fortalezas de la plataforma Plaspy para crear una solución de rastreador GPS fiable para familias y cuidadores. Su posicionamiento en múltiples modos \(GPS/AGPS/LBS/WiFi\) mejora la fiabilidad de la ubicación en entornos mixtos, y el botón SOS dedicado y la cámara añaden funciones de seguridad prácticas que importan durante una emergencia. La arquitectura basada en Android y el amplio soporte de bandas celulares proporcionan conectividad en distintas regiones, mientras que la durabilidad IPX7 y una batería de 710mAh ofrecen resistencia diaria.
+El D38 combina la comodidad de un wearable con las capacidades de la plataforma Plaspy para ofrecer una solución enfocada a familias y cuidadores. Su combinación de métodos de posicionamiento, botón SOS y cámara integrada lo hace adecuado en situaciones donde importan la visibilidad tanto en interiores como en exteriores y la comunicación rápida. Al ser una plataforma Android y compatible con Plaspy, facilita que las organizaciones incluyan el D38 en una estrategia de monitoreo más amplia sin necesidad de gestión de hardware especializada.
 
-Para las organizaciones que usan Plaspy para centralizar telemetría y flujos de ubicación, agregar el D38 proporciona un punto final enfocado en niños que se integra en un ecosistema de monitoreo más amplio. Aunque el D38 está diseñado para la seguridad infantil y no para roles de flota de vehículos, Plaspy puede combinar datos de dispositivos D38 con otros flujos de datos de rastreadores GPS utilizados para la gestión de flotas, monitoreo antirrobo, tableros de telemetría y sistemas que incluyan monitoreo de combustible, controles de ignición/inmovilizador o sensores Bluetooth, proporcionándole una única vista para cubrir diversas necesidades de seguimiento.
-
+Si desea evaluar el D38 para su uso con Plaspy, el dispositivo es una opción práctica para despliegues enfocados en niños y pequeñas flotas de dispositivos supervisados donde el seguimiento en tiempo real, las alertas y los informes de estado son prioritarios. Para obtener más información sobre Plaspy y cómo se soportan los rastreadores compatibles, visite https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por favor verifique los detalles actuales en el sitio del fabricante en http://www.sentarsmart.com/ antes de la compra.

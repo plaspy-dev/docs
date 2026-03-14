@@ -1,0 +1,47 @@
+.doc-sidebar-filter-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0px 10px 0px 0px;
+}
+
+.doc-sidebar-filter {
+    width: 100%;
+    padding: 8px 12px;
+    padding-right: 30px;
+    border: 1px solid var(--ifm-color-emphasis-300);
+    border-radius: 8px;
+    background: var(--ifm-background-color);
+    color: var(--ifm-font-color-base);
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+}
+
+.doc-sidebar-filter:focus {
+    border-color: var(--ifm-color-primary);
+    box-shadow: 0 0 0 2px rgba(var(--ifm-color-primary-rgb), 0.2);
+}
+
+.doc-sidebar-filter-clear {
+    position: absolute;
+    right: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: var(--ifm-color-emphasis-600);
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+}
+
+.doc-sidebar-filter-clear:hover {
+    color: var(--ifm-color-danger);
+}

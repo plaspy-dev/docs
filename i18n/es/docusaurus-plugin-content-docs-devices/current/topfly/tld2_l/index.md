@@ -2,57 +2,62 @@
 slug: /topfly/tld2_l
 id: tld2_l
 sidebar_label: TLD2-L
+title: TopFly - TLD2-L
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBDII compacto TopFly TLD2-L 4G LTE plug and play compatible con Plaspy para rastreo de flotas y sensores BLE
+keywords:
+  - TopFly TLD2-L
+  - rastreador TLD2-L
+  - rastreador TopFly
+  - compatible con Plaspy
+  - rastreador OBDII GPS
+  - rastreador 4G LTE
+  - rastreo de flotas
+  - monitoreo de comportamiento del conductor
+  - integración de sensores BLE
+  - seguimiento en tiempo real
 ---
+
 # TopFly - TLD2-L
 
 ![TLD2-L](./tracker.png)
 
-El TLD2-L 4G LTE es un rastreador GPS OBDII compacto y de instalación plug-and-play, diseñado para un seguimiento de vehículos sencillo, sin mantenimiento y con una rápida integración en Plaspy. Pensado para insertarse directamente en el puerto OBDII del vehículo, el TLD2-L ofrece actualizaciones frecuentes de ubicación en tiempo real, detección de colisiones y conducción agresiva, y compatibilidad con accesorios Bluetooth Low Energy \(BLE\); lo que lo hace ideal para flotas, vehículos ligeros comerciales y programas de activos conectados que requieren telemetría fiable y visibilidad del comportamiento del conductor.
+El TopFly TLD2-L es un rastreador GPS OBDII compacto, plug and play, diseñado para ofrecer seguimiento vehicular sencillo y sin mantenimiento. Se conecta directamente al puerto OBDII del vehículo y está pensado como una solución de despliegue rápido para flotas y vehículos comerciales ligeros. Sus principales características se orientan a actualizaciones frecuentes en tiempo real, detección de eventos como colisiones y maniobras agresivas, y soporte para accesorios Bluetooth Low Energy que amplían la telemetría con sensores y funciones de control.
 
-Como rastreador GPS compatible con Plaspy, el TLD2-L ofrece un rendimiento GNSS fiable, conectividad celular LTE-M/NB-IoT con respaldo GSM y almacenamiento en el dispositivo para una operación offline extendida. Su acelerómetro integrado, alertas de encendido/apagado, detección de desconexión con soporte de batería de respaldo y la capacidad FOTA permiten a los gestores de flotas desplegar a gran escala manteniendo el control remoto y la gestión del firmware a través de la plataforma de Plaspy.
+Como dispositivo compatible con Plaspy, el TLD2-L se integra con la plataforma para volcar datos de ubicación y comportamiento que usted puede monitorear y reportar. El rastreador ofrece posicionamiento GNSS, conectividad celular con opciones de respaldo, almacenamiento local para periodos sin conexión y detección de eventos a bordo, como alertas de encendido y notificaciones de desconexión. Estas capacidades hacen del TLD2-L una opción práctica para quienes buscan instalación rápida, gestión remota continua e información sobre el comportamiento del conductor dentro de Plaspy.
 
-## Puntos clave
+## Aspectos destacados
 
-- Instalación OBDII plug-and-play: sin herramientas ni cableado; instálelo en segundos para un despliegue rápido en campo.
-- Seguimiento en tiempo real cada 3 segundos como máximo con amplio almacenamiento offline \(hasta 60,000 puntos\) para telemetría fiable cuando la cobertura se interrumpe.
-- Conectividad 4G LTE Cat M1 y Cat NB2 con respaldo GSM/EDGE para una amplia compatibilidad de red.
-- Acelerómetro de 6 ejes integrado para aceleración brusca, frenada brusca, giros pronunciados y detección de colisiones.
-- BLE \(compatible con 4.0/5.0\) para sensores de temperatura/humedad, sensores de puerta/contacto y relés inalámbricos para habilitar funciones de inmovilizador remoto o control.
-- Alertas de encendido/apagado, alarmas de desconexión, avisos de batería baja y un zumbador interno para alertas al conductor o notificaciones de conducción temeraria.
-- Soporte FOTA y protocolos de transporte TCP/UDP/MQTT/SMS para gestión remota y entrega robusta de datos a Plaspy.
+- Factor de forma OBDII plug and play para despliegues rápidos y mínima instalación.
+- Actualizaciones frecuentes de seguimiento en tiempo real con gran almacenamiento interno para buffering en modo offline.
+- Conectividad celular compatible con variantes LTE de bajo consumo y retrocompatibilidad para amplia cobertura.
+- Detección basada en acelerómetro para maniobras bruscas y eventos de colisión, útil en programas de seguridad.
+- Soporte Bluetooth Low Energy para emparejar sensores externos como temperatura y contactos de puerta.
+- Alertas de encendido y desconexión, además de funciones de respaldo de energía para detección de robo y manipulación.
+- Capacidad de actualización de firmware OTA para gestión remota y mantenimiento continuo del dispositivo.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el TLD2-L proporciona ubicación y telemetría continuas a la plataforma utilizando protocolos de transporte seguros. Plaspy procesa lecturas GNSS, eventos del acelerómetro y datos de sensores BLE para presentar mapas en tiempo real, análisis de comportamiento y alertas accionables para la gestión de flotas, respuesta ante robos y monitoreo de condiciones. El almacenamiento intermedio y la generación de informes programados del dispositivo aseguran la integridad de los datos incluso ante interrupciones de la red.
+Al conectarse a Plaspy, el TLD2-L transmite fijaciones de ubicación y eventos del dispositivo, donde los datos se normalizan, visualizan y convierten en información operativa. Plaspy consume posiciones GNSS, eventos del acelerómetro y datos de sensores emparejados para mostrar mapas en vivo, analíticas de comportamiento y alertas configurables. El buffering integrado y el reporte programado ayudan a preservar la continuidad de los datos durante interrupciones de red, de modo que los responsables de flota puedan confiar en historiales consistentes dentro de Plaspy.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(intervalos de informe configurables, hasta cada 3 segundos\).
-- Eventos de comportamiento de conducción derivados del acelerómetro de 6 ejes: aceleración brusca, frenada brusca, giros pronunciados y colisiones para el análisis de seguridad de la flota.
-- Alertas de encendido/apagado e alarmas de desconexión con soporte de batería de respaldo para anti-robo y detección de manipulación.
-- Integración de sensores BLE para temperatura, humedad y estado de puerta/contacto; los relés inalámbricos pueden activarse para acciones de inmovilización remota o control.
-- Informes programados por tiempo, ángulo o distancia y transmisión sobre TCP/UDP/MQTT/SMS para una integración flexible y entrega de telemetría a Plaspy.
+- Actualizaciones continuas de ubicación y telemetría con intervalos de reporte configurables para vistas de mapa en vivo.
+- Eventos de comportamiento de conducción detectados por sensores de movimiento a bordo para analíticas de seguridad e revisión de incidentes.
+- Estado de encendido y alertas de desconexión para monitoreo antirrobo y flujos de trabajo de detección de manipulación.
+- Integración de datos de sensores BLE para temperatura, humedad y estado de puertas junto con la ubicación en Plaspy.
+- Opciones de reportes programados que equilibran la frecuencia de actualización y el uso de datos, preservando los eventos críticos.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE FDD Cat M1 y Cat NB2; respaldo GSM/EDGE |
-| --- | --- |
-| Bandas | Soporta bandas LTE-M y NB‑IoT con respaldo GSM/EDGE heredado \(las listas de bandas varían según la variante regional\) |
-| Potencia y batería | Amplio rango de tensión de operación 7–32 V DC; batería interna de respaldo Li‑Polímero de 200 mAh para desconexión y eventos de bajo consumo |
-| Interfaces | Conector OBDII, ranura nano SIM, antenas internas LTE/GNSS/Bluetooth, indicadores LED \(red de red/GNSS\), USB para depuración, zumbador interno de eventos |
-| GNSS | Receptor de alta ganancia MediaTek que admite GPS+GLONASS o GPS+BeiDou; TTFF rápido y precisión de posición autónoma típicamente &lt;2.5 m CEP |
-| Bluetooth | BLE 4.0 / 5.0 compatible para sensores, balizas y relés inalámbricos |
-| Gestión remota y protocolos | FOTA \(firmware over the air\); TCP/UDP/MQTT y SMS; control de roaming de datos |
-| Formato | Dongle OBDII compacto, 63 × 47 × 20 mm, peso 45 g; rango de temperatura de funcionamiento de −30 °C a +80 °C |
-
-## Casos de uso
-
-- Gestión de flotas y visibilidad en tiempo real del rastreador GPS para optimizar rutas y la planificación de despachos mediante los paneles de Plaspy.
-- Monitoreo del comportamiento del conductor y programas de seguridad mediante eventos del acelerómetro y analítica integrada para reducir la conducción arriesgada.
-- Monitoreo de cadena de frío o condiciones de la carga mediante sensores BLE de temperatura y humedad; Plaspy registra telemetría junto a la ubicación.
-- Alertas anti-robo y detección de manipulación con estado de encendido, detección de desconexión y inmovilización remota vía relés inalámbricos cuando se requiere acción inmediata.
-- Seguimiento sencillo de activos para vehículos de alquiler o compartidos donde la instalación plug-and-play OBDII minimiza el tiempo de inactividad y el costo de despliegue.
+- Rastreo de flotas y monitoreo de despacho donde la instalación rápida y las actualizaciones frecuentes ayudan en la planificación de rutas.
+- Programas de comportamiento del conductor que usan eventos del acelerómetro para identificar aceleraciones bruscas, frenadas o giros agresivos.
+- Monitoreo de condiciones de carga emparejando sensores BLE de temperatura y humedad y registrando telemetría con ubicación.
+- Respuesta a robo y manipulación mediante alertas de encendido y detección de desconexión con soporte de alimentación de respaldo.
+- Programas de alquiler y vehículos compartidos que se benefician de un rastreador plug and play sin necesidad de mantenimiento.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El TLD2-L equilibra simplicidad y capacidad para empresas que buscan un rastreador GPS compatible con Plaspy que se instala en segundos y requiere un mantenimiento mínimo. Su seguimiento en tiempo real frecuente, su amplio búfer offline y su receptor GNSS robusto proporcionan ubicación y telemetría fiables incluso en entornos desafiantes. Los operadores de flotas obtienen telemetría de comportamiento del conductor, eventos basados en el encendido y soporte de sensores BLE para ampliar la telemetría a flujos de trabajo de monitoreo de combustible o de condiciones de la carga cuando estén disponibles los PIDs OBD-II del vehículo o sensores compatibles. Con FOTA, transporte multiprotocolo y soporte para control de inmovilizador remoto, el TLD2-L escala a través de programas de gestión de flotas mientras mantiene centralizados en Plaspy la anti-robo, telemetría e información operativa.
+El TLD2-L ofrece un equilibrio entre simplicidad y capacidades prácticas para organizaciones que necesitan rastreo vehicular fiable con mínima configuración. Su factor plug and play y la detección de eventos a bordo permiten desplegar equipos con rapidez y empezar a recopilar telemetría operativa sin cableado complejo ni largas configuraciones. En combinación con Plaspy, el buffering del dispositivo, la integración de sensores y el soporte para actualizaciones remotas mantienen la visibilidad y el control sobre flotas distribuidas.
 
+Para equipos que evalúan hardware GPS para usar con Plaspy, el TLD2-L resulta una opción atractiva cuando la prioridad es el despliegue rápido, la información sobre comportamiento del conductor y telemetría extendida vía sensores BLE. Plaspy centraliza estas fuentes de datos en una sola plataforma para mapeo, alertas y reportes, permitiendo que los operadores actúen sobre la información de ubicación y estado con supervisión centralizada.
+
+Para saber más sobre cómo Plaspy funciona con rastreadores compatibles como el TopFly TLD2-L visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual en el sitio del fabricante https://www.topflytech.com/.

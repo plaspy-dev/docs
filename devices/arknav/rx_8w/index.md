@@ -2,64 +2,62 @@
 slug: /arknav/rx_8w
 id: rx_8w
 sidebar_label: RX-8W
+title: ArkNav - RX-8W
 sidebar_class_name: menu_item_tracker
+description: Rugged IP67 waterproof ArkNav RX-8W GPS tracker compatible with Plaspy for reliable fleet and temperature controlled logistics monitoring
+keywords:
+  - ArkNav RX-8W
+  - RX-8W Plaspy
+  - waterproof vehicle tracker
+  - IP67 tracker
+  - fleet tracking
+  - asset monitoring
+  - temperature sensor tracker
+  - vehicle recovery tracker
+  - OTA updates tracker
+  - rugged GPS tracker
 ---
+
 # ArkNav - RX-8W
 
-![RX-8W](https://app.plaspy.com/r/Trackers/arknav/rx8w/tracker.png)
+![RX-8W](./)
 
-# RX-8W Waterproof Vehicle Tracker
+The RX-8W is a waterproof vehicle tracker from ArkNav built for demanding environments. It combines GNSS positioning and cellular connectivity with built‑in antennas inside an IP67 rated, heatproof enclosure. Designed for vehicle and asset monitoring, the RX-8W offers wide input voltage tolerance, surge protection, optional backup battery capacity, large local location storage, and configurable tracking modes that suit fleet, construction, agricultural, caravan, and refrigerated transport use.
 
-The RX-8W Waterproof Vehicle Tracker is a rugged, Plaspy compatible GPS tracker engineered for reliable vehicle and asset monitoring in harsh environments. Housed in an IP67-rated, heatproof enclosure \(tested up to 85 °C\), the RX-8W combines u‑blox GNSS and GSM modules with built-in antennas and intelligent power management to deliver accurate, low-cost real-time tracking for fleet management, vehicle recovery, construction and agricultural machinery, caravans, and temperature‑controlled logistics.
-
-The RX-8W is designed for simple installation and long-term field use. With wide input voltage tolerance \(6–36 Vdc\), surge protection to 65 V, an optional up to 3450 mAh backup battery, and storage for up to 50,000 location records, this GPS tracker gives fleet operators and asset managers dependable telemetry, configurable tracking modes, and anti‑theft capabilities that integrate directly with Plaspy for immediate situational awareness and easy operational scaling.
+As a Plaspy compatible device, the RX-8W can deliver location fixes and on‑vehicle telemetry into Plaspy for live tracking, history playback, alerts, and reporting. Its onboard storage and remote update capability make it practical for long term deployments and remote management, while temperature sensing and anti‑theft features extend its usefulness across logistics and security workflows when paired with the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker with u‑blox GNSS and GSM modules for fast, accurate position fixes and cell‑based fallback.
-- IP67 waterproof, heatproof housing \(up to 85 °C\) and compact form factor for discreet mounting and tamper resistance.
-- Efficient power design: wide input \(6–36 Vdc\), 65 V surge protection, motion/ignition activation, and optional backup battery \(up to 3450 mAh\).
-- Built-in digital temperature sensor and support for external temperature probes—ideal for temperature‑controlled logistics.
-- Advanced telemetry: configurable intelligent tracking \(time, distance, angle\), 3‑axis G‑force sensor, driver ID via I‑Button, and immobilizer output.
-- Large local storage \(up to 50,000 records\) and OTA firmware/configuration updates for remote management and minimal downtime.
-- Purpose‑built for fleet management, anti‑theft recovery, PAYD insurance monitoring, and heavy machinery tracking.
+- Rugged IP67 waterproof housing with heatproof design for harsh operating conditions
+- Integrated GNSS and cellular modules with built in antennas for simplified mounting
+- Wide input voltage range and surge protection for use on diverse vehicle fleets
+- Optional backup battery and large local storage for offline resilience
+- Built in temperature sensing and support for external temperature probes for cold chain monitoring
+- Configurable intelligent tracking modes and anti theft features such as immobilizer output and driver ID
+- OTA firmware and configuration updates to maintain device compatibility and reduce maintenance visits
 
 ## How It Works with Plaspy
 
-The RX-8W streams essential location and telemetry data to Plaspy in real time, enabling live map views, historical playback, alerts, and reports. Plaspy ingests GNSS fixes, cell‑based positions when GPS is weak, and on‑vehicle telemetry to provide actionable insights for fleet managers and security teams. Configuration options let you tailor reporting intervals and alert thresholds to match operational needs and data budgets.
+The RX-8W streams position and telemetry data to Plaspy where fleet managers and operators can monitor assets in real time, review historical movements, and set alerts. Plaspy ingests device reports and presents them through maps, notifications, and reports so teams can react to incidents and optimize operations without needing to manage raw device feeds.
 
-- Real-time location and telemetry updates delivered to Plaspy for live tracking and historical route playback.
-- Ignition and motion detection for automatic trip start/stop and idle tracking policies.
-- Immobilizer output and I‑Button driver ID support for anti‑theft workflows and driver attribution.
-- Built‑in temperature sensing plus support for external digital temperature probes for refrigerated transport monitoring.
-- OTA firmware and configuration updates to keep devices secure and compatible with Plaspy features over time.
+- Live location reporting and historical route playback for operational oversight
+- Motion and ignition detection to automate trip start stop and idle monitoring
+- Temperature telemetry support for refrigerated transport visibility and alerts
+- Immobilizer and driver ID inputs to support security and driver attribution workflows
+- Remote firmware and configuration management from Plaspy to keep devices up to date
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM cellular modem with u‑blox GNSS and GSM modules; built‑in GPS and GSM antennas |
-| --- | --- |
-| Bands | Manufacturer‑specified GSM bands \(refer to the device datasheet for available regional variants\) |
-| Power & Battery | Wide input range 6–36 Vdc; surge protection up to 65 V; optional backup battery up to 3450 mAh for extended offline operation |
-| Interfaces | Ignition/motion activation, immobilizer output, driver ID via I‑Button, digital I/O for accessories |
-| GNSS | u‑blox GPS module with AGPS support and cell‑based location fallback for improved fixes in weak signal areas |
-| Sensors | Built‑in digital temperature sensor; 3‑axis G‑force sensor for impact and driving behavior detection |
-| Bluetooth | Not specified; device supports wired accessories such as I‑Button and external temperature probes |
-| Remote Management | OTA firmware/configuration updates; configurable server acknowledgements and reporting intervals |
-| Storage | Local log storage up to 50,000 location records |
-| Environmental Rating | IP67 waterproof enclosure; heatproof up to 85 °C |
-| Form Factor | Compact, rugged housing for vehicle and asset mounting; built‑in antennas to simplify installation |
-
-## Use Cases
-
-- Fleet management and delivery dispatch — real‑time tracking, route history, driver ID, and speeding alerts to improve efficiency.
-- Anti‑theft and vehicle recovery — discreet mounting, immobilizer output, and remote disable workflows for rapid response.
-- Construction, agricultural, and heavy machinery tracking — rugged IP67 housing and wide voltage tolerance for harsh sites.
-- Temperature‑controlled logistics and refrigerated trailers — built‑in temperature sensor plus support for external probes to protect sensitive cargo.
-- PAYD insurance and usage‑based monitoring — configurable idle and trip reporting to enable accurate mileage and behavior records.
+- Commercial fleet tracking and delivery dispatch coordination
+- Anti theft and vehicle recovery with discreet mounting and immobilizer control
+- Tracking of construction, agricultural, and off road machinery in rugged sites
+- Temperature controlled logistics and refrigerated trailer monitoring
+- Usage based reporting for insurance or operational analytics
 
 ## Why Choose This Tracker with Plaspy
 
-Pairing the RX-8W with Plaspy delivers a practical, cost‑effective solution for organizations that need robust real‑time tracking, telemetry, and anti‑theft capabilities without complex installations. The device’s durable IP67 enclosure, built‑in antennas, and compact profile reduce installation time and tampering risk, while wide voltage tolerance and surge protection make it suitable for commercial vehicles and off‑road machinery.
+The RX-8W is a practical choice for organizations that need a durable tracker with temperature sensing and anti‑theft capabilities. Its rugged enclosure, integrated antennas, and flexible power handling reduce the need for frequent hardware service, while large onboard storage and OTA updates support long term deployments across mixed fleets.
 
-On the Plaspy platform, the RX-8W’s configurable intelligent tracking, large onboard storage, OTA updates, and accessory ecosystem \(I‑Button, external temperature probes, immobilizer relays, ISO‑7637 protection boxes\) translate into lower total cost of ownership and reliable operational visibility. Whether your priority is fleet management efficiency, anti‑theft recovery, telemetry-driven maintenance, or temperature monitoring, the RX-8W gives you the core features to integrate smoothly into Plaspy workflows and scale across mixed vehicle estates.
+When combined with Plaspy, the RX-8W provides searchable history, configurable alerts, and consolidated fleet reporting that help teams improve routing, security, and cargo protection. For companies seeking a balance of rugged hardware and scalable tracking software, this pairing offers a straightforward path to operational visibility.
 
+To learn more about Plaspy and how compatible devices integrate with our platform visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time; please verify current technical information and regional variants on the ArkNav official website https://www.arknavgps.com.tw/.

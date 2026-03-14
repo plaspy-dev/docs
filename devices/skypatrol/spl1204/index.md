@@ -2,61 +2,59 @@
 slug: /skypatrol/spl1204
 id: spl1204
 sidebar_label: SPL1204
+title: SkyPatrol - SPL1204
 sidebar_class_name: menu_item_tracker
+description: Rugged lock style GPS tracker for cargo and container security compatible with Plaspy fleet tracking and anti theft workflows
+keywords:
+  - SkyPatrol SPL1204
+  - SPL1204
+  - SkyOne Lock Tracker
+  - Plaspy compatible tracker
+  - cargo lock tracker
+  - asset protection GPS
+  - container tracking
+  - fleet tracking device
+  - tamper alert tracker
+  - RFID lock tracker
 ---
+
 # SkyPatrol - SPL1204
 
 ![SPL1204](./tracker.png)
 
-# SPL1204 — SkyOne Lock Tracker
+The SPL1204, sold as the SkyOne Lock Tracker, is a rugged GPS tracker built into a security lock intended for logistics and high value cargo protection. It combines onboard positioning with an integrated locking form factor designed for outdoor and transport environments, and includes features such as 4G GPS tracking, RFID unlocking, tampering alerts, a rechargeable battery, and weatherproof construction to reduce fraud and improve asset security.
 
-The SPL1204, marketed as the SkyOne Lock Tracker, is a rugged GPS tracker built into a security lock for logistics and high-value cargo protection. Designed for demanding outdoor and transport environments, this Plaspy compatible GPS tracker combines 4G GPS tracking, RFID unlocking, and tampering alerts with a rechargeable lithium battery and weatherproof construction to reduce fraud and improve asset security.
-
-As a Plaspy compatible device, the SPL1204 brings secure location awareness and event telemetry into fleet management workflows. It is optimized for anti-theft workflows and real-time tracking of sealed containers, trailers, and high-value shipments where a physical locking device and persistent positioning are required.
+As a Plaspy compatible device, the SPL1204 brings location awareness and event telemetry into fleet and asset management workflows. When paired with Plaspy, the lock tracker can feed position, access events, and tamper notifications into centralized dashboards and reporting, helping operations teams monitor sealed containers, trailers, and high value shipments where both a physical lock and persistent positioning are required.
 
 ## Key Highlights
 
-- Integrated GPS tracker with 4G connectivity for reliable, Plaspy compatible real-time tracking of assets and cargo.
-- RFID unlocking capability to record authorized access events and simplify secure handoffs during logistics operations.
-- Tampering alerts that notify operators of unauthorized attempts, supporting anti-theft and chain-of-custody monitoring.
-- Rechargeable lithium battery for extended operation and repeatable deployments without single-use power supplies.
-- Rugged, weatherproof design suited to outdoor use on trailers, containers, and exposed cargo environments.
-- Compact lock form factor that doubles as a physical security device and telemetry source for Plaspy-powered systems.
-- Optimized for fraud prevention and asset protection in supply chain and high-value cargo scenarios.
+- Integrated GPS tracking with cellular connectivity for continuous asset visibility.
+- Built into a physical security lock to combine deterrence and telemetry in one device.
+- RFID unlocking to register authorized access events and simplify handoffs.
+- Tampering alerts to notify operators of unauthorized interference with the lock.
+- Rechargeable battery for repeated deployments without single use power supplies.
+- Rugged, weatherproof build suitable for trailers, containers, and exposed cargo.
 
 ## How It Works with Plaspy
 
-The SPL1204 integrates with Plaspy to deliver location and event data into your fleet management and security dashboards. GPS position, tampering events, RFID unlock records, and battery status are reported to Plaspy so operators can monitor assets in real time and receive actionable alerts. Plaspy consolidates this lock-originated telemetry alongside vehicle and fleet data to create a unified operational view.
+The SPL1204 feeds location and event data into Plaspy so operators can monitor assets and receive alerts from a single management plane. Plaspy consolidates the lock produced telemetry alongside other fleet signals to provide a unified operational view and support response and reporting workflows.
 
-- Real-time location and telemetry updates: the device sends GPS coordinates and status updates over 4G to Plaspy for continuous visibility.
-- Tamper and access event reporting: tampering alerts and RFID unlock events are logged in Plaspy for audit and alarm workflows.
-- Battery and power state: rechargeable lithium battery level and charge status are communicated so maintenance can be scheduled before power loss.
-- Chain-of-custody support: recorded unlock events help verify authorized access during handoffs and deliveries.
-- Integrated with broader telemetry: Plaspy can correlate lock events with other telemetry sources — including vehicle ignition or immobilizer data, fuel monitoring, or Bluetooth sensors — when those signals are available from Plaspy-compatible devices in the same deployment.
+- Real time location updates and status reporting to maintain continuous visibility of locked assets.
+- Tamper and access event logging so suspicious activity and unlocks are recorded for audit and alerting workflows.
+- Battery status reporting to help schedule recharge cycles and avoid unexpected power loss.
+- Chain of custody tracking where recorded RFID unlock events support verification during handoffs and deliveries.
+- Correlation with other telemetry in Plaspy deployments so lock events can be viewed in context with broader fleet data when available.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE for GPS tracking and event reporting \(device communicates location and alerts over cellular networks\) |
-| --- | --- |
-| Bands | Not specified in product description |
-| Power & Battery | Rechargeable lithium battery \(provides portable operation and repeatable deployments\) |
-| Interfaces | RFID unlocking interface; tampering alert sensors \(records access and unauthorized events\) |
-| GNSS | GPS-enabled positioning \(specific GNSS constellations and accuracy not specified\) |
-| Bluetooth | Not specified in product description |
-| Remote Management | Not specified in product description \(Plaspy integration enables remote visibility and alerting\) |
-| Form Factor | Security lock form factor; rugged, weatherproof design for trailers, containers and high-value cargo |
-
-## Use Cases
-
-- Fleet anti-theft and cargo protection: mounted on trailers or containers to prevent tampering and detect unauthorized access during transit.
-- Sealed shipment monitoring: record RFID unlock events and track location through handoffs for chain-of-custody verification.
-- High-value cargo logistics: provide continuous positional awareness and tamper alerts for expensive consignments and sensitive freight.
-- Yard and depot security: monitor locks on parked trailers and containers to detect tampering or unauthorized entry while assets are stationary.
-- Complementary telemetry deployments: pair with other Plaspy-compatible devices so lock events are correlated with vehicle telemetry, fuel monitoring, ignition or immobilizer signals when available.
+- Anti theft protection for trailers and containers in transit.
+- Sealed shipment monitoring with recorded unlock events for chain of custody.
+- Continuous tracking of high value cargo to support security and logistics teams.
+- Yard and depot monitoring to detect tampering on parked assets.
+- Complementary deployments that correlate lock events with other Plaspy compatible telemetry sources.
 
 ## Why Choose This Tracker with Plaspy
 
-The SPL1204 is purpose-built for organizations that need a physical security device capable of delivering reliable GPS tracker data into a centralized fleet management and security platform. As a Plaspy compatible lock tracker, it extends anti-theft controls with tamper alerts and RFID access records while providing real-time tracking for logistics teams. Its rechargeable battery and rugged weatherproof housing make it a practical choice for repeatable deployments across trailers, containers, and high-value shipments.
+The SPL1204 is suitable for organizations that need a physical security device which also provides persistent GPS tracking and event telemetry. Its lock form factor and tampering detection make it a practical option where both deterrence and traceable access records are important, while the rechargeable battery and weatherproof design support repeatable field use.
 
-Choosing the SPL1204 with Plaspy gives operations teams a practical blend of physical deterrence and telemetry-driven oversight. Plaspy consolidates lock events with broader telemetry — enabling faster incident response, richer reporting, and improved operational control across fleet management, anti-theft programs, and asset protection initiatives. Where additional signals such as fuel monitoring, ignition or immobilizer events, or Bluetooth sensors are used in the same Plaspy ecosystem, those data streams can be correlated with SPL1204 lock activity for a fuller security and operational picture.
-
+If your operation requires combined physical locking and remote monitoring, the SPL1204 can extend Plaspy powered workflows with location, access, and tamper information from sealed containers and high value shipments. To learn more about Plaspy and how compatible trackers like the SPL1204 can fit into your fleet and asset management strategy visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details on the manufacturer site https://www.skypatrol.com/.

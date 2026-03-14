@@ -2,58 +2,61 @@
 slug: /okb_tehnoavtomatika/mta_glonass_ver12m_can_pro
 id: mta_glonass_ver12m_can_pro
 sidebar_label: MTA-Glonass (ver.12M-CAN-PRO)
+title: OKB Tehnoavtomatika - MTA-Glonass (ver.12M-CAN-PRO)
 sidebar_class_name: menu_item_tracker
+description: Rastreador profesional MTA-Glonass ver12M CAN PRO compatible con Plaspy para gestión de flotas y telemetría CAN
+keywords:
+  - OKB Tehnoavtomatika
+  - MTA Glonass ver12M CAN PRO
+  - rastreador GPS MTA Glonass
+  - rastreador compatible Plaspy
+  - seguimiento de flotas
+  - telemetría vehicular
+  - monitorización bus CAN
+  - control de combustible
+  - seguimiento GNSS
+  - seguimiento en tiempo real
 ---
+
 # OKB Tehnoavtomatika - MTA-Glonass (ver.12M-CAN-PRO)
 
 ![MTA-Glonass (ver.12M-CAN-PRO)](./tracker.jpg)
 
-El MTA-Glonass \(ver.12M-CAN-PRO\) es un terminal profesional de monitoreo de vehículos diseñado para un seguimiento satelital y telemática confiables. Construido para la gestión de flotas y telemetría de vehículos, este dispositivo tipo rastreador GPS compatible con Plaspy ofrece posicionamiento GNSS de alta sensibilidad y comunicaciones multicanal \(GPRS, SMS y canal dedicado de DATA\) para que centros de despacho y usuarios de Plaspy mantengan seguimiento en tiempo real, registro de eventos y diagnósticos remotos con un mínimo esfuerzo de integración.
+El MTA-Glonass (ver.12M-CAN-PRO) es un terminal profesional de monitoreo vehicular diseñado para ofrecer posicionamiento por satélite y telemetría confiable en operaciones de flota. Pensado específicamente para telemetría vehicular, integra un receptor GNSS de alta sensibilidad con comunicaciones multicanal para ofrecer actualizaciones de ubicación continuas, registro de eventos y diagnóstico remoto para centros de despacho y equipos operativos.
 
-Compacto y robusto para instalación en vehículos, el MTA-Glonass \(ver.12M-CAN-PRO\) combina integración con bus CAN, entradas de pulso y analógicas, y una interfaz de salida y temperatura opcional para soportar el monitoreo de combustible, telemetría de sensores y flujos de trabajo anti-robo. Cuando se empareja con Plaspy, el terminal ofrece una solución llave en mano para operadores de flotas que requieren posicionamiento preciso, datos de vehículos derivados del CAN y comunicaciones fiables a través de redes celulares habituales.
+Como dispositivo compatible con Plaspy, el MTA-Glonass ver12M CAN PRO puede enviar posiciones y datos de telemetría vehicular a la plataforma Plaspy, permitiendo que los equipos visualicen el seguimiento en vivo, reciban alertas configurables y analicen reportes históricos. Sus opciones de integración con el bus vehicular, entradas para sensores de pulso y analógicos, además de salidas y entradas de temperatura opcionales, lo convierten en una opción práctica para operadores que necesitan información derivada del CAN y telemetría de sensores visible dentro de los paneles de Plaspy.
 
-## Aspectos Destacados
+## Principales características
 
-- Rastreador de vehículos compatible con Plaspy con receptor GNSS de alta sensibilidad de 50 canales para posicionamiento satelital preciso y seguimiento en tiempo real ágil.
-- Comunicaciones multicanal: conectividad GSM 900/1800 con GPRS, SMS y un canal DATA dedicado para asegurar una telemetría fiable de subida y bajada.
-- Integración directa con bus CAN para telemetría del motor, del encendido y de la red del vehículo — ideal para la gestión de flotas y diagnósticos remotos.
-- Monitoreo de combustible y soporte para sensor de pulso mediante entrada de contacto seco \(activación negativa\) y un ADC de propósito general para telemetría de sensores analógicos.
-- Batería de respaldo recargable integrada \(hasta 600 mAh\) con al menos 6 horas de autonomía en modo de espera para mantener el seguimiento y el almacenamiento de eventos durante una pérdida de energía.
-- Modos de bajo consumo \(activo / en espera / reposo\) para reducir la carga sobre los sistemas del vehículo y prolongar la operación con batería.
-- Registro de eventos rico \(16.000–125.000 registros, dependiendo de la memoria\); hasta 64 eventos internos/externos configurables para trazabilidad, alertas y flujos de trabajo anti-robo.
+- Receptor GNSS de 50 canales y alta sensibilidad para un posicionamiento satelital ágil y un rendimiento de seguimiento consistente.  
+- Comunicaciones multicanal con soporte GPRS, SMS y un canal de DATOS dedicado para uplink y downlink de telemetría confiables.  
+- Integración directa con el bus CAN para obtener parámetros de la red vehicular como estado del motor e ignición, útiles para el monitoreo de flotas.  
+- Entradas para sensores de pulso y analógicos que permiten el monitoreo de combustible y otros casos de telemetría por sensor.  
+- Batería de respaldo recargable integrada con capacidad en espera documentada para preservar el registro y el seguimiento básico durante interrupciones de energía.  
+- Amplio almacenamiento interno de eventos y registro configurable para soportar auditorías, alertas y flujos de trabajo antirobo.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-El MTA-Glonass \(ver.12M-CAN-PRO\) transmite la posición GNSS y la telemetría del vehículo a Plaspy a través de GPRS, canal DATA o SMS. Una vez conectado, Plaspy recibe actualizaciones de ubicación, parámetros derivados del CAN y eventos desencadenados por entradas para ofrecer seguimiento en tiempo real, alertas personalizables e informes históricos. El almacenamiento interno de eventos de la unidad garantiza que no se pierdan datos si la conectividad celular no está disponible temporalmente; los registros almacenados se envían a Plaspy cuando se restablece la conexión.
+Cuando el equipo está conectado a servicios de red, el MTA-Glonass transmite posiciones GNSS y telemetría vehicular a Plaspy, donde la plataforma ingiere esas actualizaciones para monitoreo en vivo y reportes históricos. Plaspy puede aprovechar los datos del dispositivo para generar alertas, visualizar recorridos e incluir entradas de sensores en paneles operativos, beneficiándose además del búfer local del equipo para evitar pérdida de datos durante breves cortes de conectividad.
 
-- Actualizaciones en tiempo real de ubicación y telemetría enviadas a Plaspy a través del canal GPRS/DATA para paneles de seguimiento en vivo.
-- El estado de encendido y del motor está disponible mediante la integración con el bus CAN para una detección precisa del inicio/detención del viaje y del ralentí.
-- Monitoreo de combustible es compatible con entradas de pulso/frecuencia y ADC analógico para sensores de nivel y medidores de caudal; Plaspy puede calcular el consumo y detectar anomalías.
-- El inmovilizador remoto o acciones de control pueden implementarse mediante la salida opcional de colector abierto \(sujeto a instalación y configuración\), habilitando flujos de trabajo anti-robo a través de Plaspy.
-- Telemetría de temperatura mediante la entrada 1-Wire opcional, que puede capturarse y reportarse en Plaspy para carga refrigerada o monitoreo ambiental.
+- Las actualizaciones de ubicación y el estado en tiempo real aparecen en los paneles de seguimiento de Plaspy para una visibilidad operativa inmediata.  
+- Los parámetros obtenidos desde el CAN permiten a Plaspy identificar inicios y paradas de viaje y ofrecer reportes básicos de estado del motor o de ignición.  
+- Las entradas de sensores de pulso y analógicos posibilitan el monitoreo de nivel y flujo de combustible, que Plaspy puede integrar en reportes de consumo y detección de anomalías.  
+- El almacenamiento interno de eventos garantiza que los registros se reenvíen a Plaspy cuando se restaura la conectividad, preservando la continuidad de los datos históricos.  
+- Las salidas de control opcionales y las entradas de temperatura pueden usarse para activar alertas o acciones gestionadas desde Plaspy cuando estén configuradas.
 
-## Visión General Técnica
+## Casos de uso típicos
 
-| Conectividad | GSM 900 / 1800; GPRS, SMS, canal DATA dedicado |
-| --- | --- |
-| Bandas | GSM 900 / 1800 |
-| Alimentación y Batería | Entrada DC 9–68 V; batería recargable integrada de hasta 600 mAh \(mín. 6 horas de espera promedio\); consumo ≤110 mA en activo, ≤35 mA en espera, ≤20 mA en reposo \(a 12 V\) |
-| Interfaces | Bus CAN; 1 entrada de contacto seco \(activación negativa\) para sensores de pulso/frecuencia; 1 entrada analógica \(ADC\) de hasta 12 V; entrada de temperatura 1-Wire opcional; salida de colector abierto opcional hasta 50 V / 1,5 A |
-| GNSS | Receptor GNSS de alta sensibilidad de 50 canales \(capaz de Glonass\); disponibilidad operativa en menos de 1 minuto |
-| Bluetooth | No especificado / no incluido |
-| Gestión Remota | Configuración y almacenamiento en búfer de eventos soportados; FOTA/gestión remota vía web no especificadas |
-| Almacenamiento y Eventos | Almacenamiento de registros de eventos no volátil \(capacidad típica de 16,000–125,000 registros\); hasta 64 eventos internos/externos configurables |
-| Formato | Carcasa IP30; dimensiones 90 × 65 × 30 mm; masa ≤200 g |
+- Gestión de flotas y monitoreo de rutas para autobuses, camiones y vehículos de servicio donde se requiere ubicación y datos vehiculares.  
+- Monitoreo de combustible y análisis de consumo utilizando entradas de pulso y sensores analógicos integrados en los reportes de Plaspy.  
+- Flujos de trabajo antirobo que combinan registro de eventos con salidas de control remoto y alertas configurables.  
+- Telemetría y diagnóstico remoto mediante la recolección de parámetros derivados del CAN para la planificación de mantenimiento.  
+- Monitoreo de carga sensible a la temperatura cuando se utiliza una entrada de temperatura opcional junto con las alertas de Plaspy.
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas: seguimiento en tiempo real, monitorización de rutas y diagnósticos derivados del CAN para autobuses, camiones y flotas de servicio.
-- Monitoreo de combustible y control de consumo: entradas de pulso/frecuencia y analógicas capturan niveles de combustible y datos de sensores de caudal para su integración en los informes de Plaspy.
-- Antirrobo e inmovilización: registro de eventos, salida de colector abierto opcional y estado basado en CAN permiten alertas rápidas y acciones remotas a través de Plaspy.
-- Telemetría y diagnósticos remotos: reúne parámetros del motor y de la red del vehículo vía CAN para programar mantenimiento y solucionar problemas de forma remota.
-- Cargas sensibles a la temperatura: entrada de temperatura 1-Wire opcional ofrece monitoreo ambiental para transporte refrigerado cuando se combina con alertas de Plaspy.
+El MTA-Glonass ver12M CAN PRO ofrece una combinación de posicionamiento GNSS robusto, telemetría desde el bus vehicular y múltiples canales de comunicación que responden a las necesidades comunes de gestión de flotas. Para organizaciones que ya usan o evalúan Plaspy, este terminal proporciona puntos de datos y registro de eventos prácticos que pueden visualizarse, generar alertas y analizarse dentro del entorno Plaspy sin requerir personalizaciones extensas.
 
-## Por Qué Elegir Este Rastreador con Plaspy
+Su conjunto de entradas de sensores, integración CAN y almacenamiento local de eventos lo hace adecuado para implementaciones donde son importantes tanto la visibilidad continua de la ubicación como el monitoreo de parámetros vehiculares. Si bien los detalles de integración y la configuración dependen de su despliegue y de la configuración de Plaspy, este rastreador ofrece una base sólida para seguimiento de flotas, control de combustible y flujos operativos basados en telemetría.
 
-Elegir el MTA-Glonass \(ver.12M-CAN-PRO\) para la integración con Plaspy ofrece un equilibrio enfocado entre posicionamiento GNSS fiable, telemetría robusta del bus del vehículo y canales de comunicación flexibles. Su amplio rango de entrada DC, la batería de respaldo integrada y los modos de bajo consumo aportan resiliencia en instalaciones telemáticas profesionales, mientras que el soporte CAN y las múltiples opciones de E/S permiten a los gestores de flotas recoger datos de encendido/motor, lecturas de combustible y disparadores de eventos sin necesidad de una personalización extensa. Al integrarse con Plaspy, los operadores obtienen seguimiento en tiempo real, alertas configurables e informes históricos completos, lo que convierte a este terminal en una opción práctica para la gestión de flotas, despliegues intensivos en telemetría y estrategias anti-robo donde la fiabilidad y la precisión de los datos son fundamentales.
-
+Para saber más sobre Plaspy y cómo funciona con rastreadores compatibles como el MTA-Glonass, visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por favor verifique los detalles técnicos y opciones actuales en el sitio oficial del fabricante http://www.okb-ta.ru/.

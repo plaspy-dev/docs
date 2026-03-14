@@ -2,59 +2,59 @@
 slug: /concox/jm_vl02
 id: jm_vl02
 sidebar_label: JM-VL02
+title: Concox - JM-VL02
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS Concox JM-VL02 compatible con Plaspy para flotas industriales y comerciales, con conectividad celular resistente y telemetría vehicular
+keywords:
+  - Concox JM-VL02
+  - Rastreador GPS JM-VL02
+  - Rastreador Concox
+  - Compatible con Plaspy
+  - Seguimiento de flotas
+  - Telemática vehicular
+  - Rastreador GPS industrial
+  - Rastreador antirrobo
+  - Seguimiento de flotas de alquiler
+  - Seguimiento de transporte público
 ---
+
 # Concox - JM-VL02
 
 ![JM-VL02](./tracker.png)
 
-El JM-VL02 es un rastreador GPS de uso específico, compatible con Plaspy, diseñado para flotas de vehículos industriales y comerciales. Construido alrededor de una radio IoT de clase LTE Cat-M1 / NB2 con respaldo GSM 2G, el JM-VL02 ofrece seguimiento en tiempo real y telemetría del estado del vehículo de forma resistente para agencias de alquiler, transporte público, maquinaria de construcción y amplias implementaciones de gestión de flotas.
+El JM-VL02 es un rastreador GPS diseñado por Concox específicamente para flotas de vehículos industriales y comerciales. Combina conectividad celular de nivel IoT con posicionamiento GNSS y entradas/salidas orientadas al vehículo para ofrecer telemetría continua de ubicación y estado vehicular en agencias de alquiler, transporte público, maquinaria de construcción y otras implementaciones de gestión de flotas.
 
-El dispositivo integra I/O orientado al vehículo — detección de ACC/ignición, un botón de SOS/pánico en la cabina, corte remoto controlado por relé y múltiples entradas y salidas digitales — de modo que los operadores que utilizan Plaspy pueden combinar datos de posición con el estado de la ignición, alarmas y control del inmovilizador para medidas antirobo, autenticación del conductor y telemática operativa.
+Como dispositivo compatible con Plaspy, el JM-VL02 entrega los datos de ubicación y las señales de evento que los administradores de flotas esperan de una solución telemática moderna. Sus entradas y salidas para vehículo, como detección de encendido (ACC), botón SOS y salida de relé, facilitan controlar el inmovilizador, gestionar eventos de alarma y capturar señales relacionadas con el conductor dentro de Plaspy para monitoreo centralizado, alertas e informes.
 
-## Puntos destacados
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y gestión centralizada de la flota.
-- Celular LTE Cat-M1 / NB2 con respaldo GSM 2G para maximizar la cobertura y la continuidad de la conexión.
-- Posicionamiento GNSS preciso \(GPS + LBS\) con CEP superior a 2,5 m y TTFF rápido para actualizaciones de ubicación reactivas.
-- Entradas y salidas del vehículo, incluyendo detección de ACC/ignición, botón SOS y salida de relé para apoyar inmovilización y control de accesorios.
-- Acelerómetro a bordo para telemetría del comportamiento de conducción: alertas de aceleración brusca, frenado, deterioro en la toma de curvas y detección de colisiones.
-- Factor de forma compacto y robusto con protección IP65 para uso en vehículos industriales \(construcción, flotas de alquiler, transporte público\).
-- Ampliable con periféricos opcionales: sensores de nivel de combustible, sondas de temperatura y lectores de RFID para identificación del conductor y monitoreo de combustible.
+- Unidad compatible con Plaspy diseñada para uso en flotas industriales y comerciales.
+- Diseño celular multimodo que incluye LTE Cat M1 NB2 con respaldo 2G para conectividad resistente.
+- Posicionamiento GNSS de alta precisión para actualizaciones de ubicación rápidas y confiables.
+- Entradas y salidas vehiculares como detección de encendido ACC, botón SOS y salida de relé para inmovilización remota.
+- Monitor de movimiento integrado para análisis de comportamiento de conducción y alertas por colisiones o conducción brusca.
+- Diseño robusto y compacto, apto para vehículos de trabajo, con soporte opcional de periféricos como sensores de combustible y RFID.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el JM-VL02 proporciona datos continuos de ubicación y del estado del vehículo, de modo que los responsables de la flota obtienen información accionable casi en tiempo real. Plaspy consume la posición GNSS, LBS derivado de la red celular, telemetría y datos de eventos del rastreador, habilitando mapas en tiempo real, alertas de eventos e informes históricos que respaldan la gestión de despacho, la supervisión de seguridad y la prevención de pérdidas.
+Al integrarse con Plaspy, el JM-VL02 envía información de posición, eventos y estado del vehículo a la plataforma para que los operadores puedan supervisar activos, responder a incidentes y generar reportes operativos. Plaspy procesa los datos del rastreador para mostrar mapas en tiempo real, alertas de eventos e informes históricos que respaldan despachos, seguridad y prevención de pérdidas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — rastreadas vía GPS + LBS y entregadas por LTE Cat-M1 / NB2 o mediante respaldo GSM.
-- Estado de ACC/ignición y eventos de entrada de puerta/auxiliar para reportes precisos de activo encendido/apagado.
-- Capacidad de monitoreo de combustible cuando se conectan sensores de combustible opcionales, habilitando informes de consumo y detección de anomalías.
-- Control remoto del inmovilizador/relé — los operadores pueden iniciar un corte de energía vía Plaspy para facilitar los flujos de trabajo de antirobo y control de la flota.
-- Botón SOS/pánico y alertas basadas en el acelerómetro de colisiones o conducción brusca canalizadas a través de Plaspy para respuesta de emergencia y seguridad.
+- Actualizaciones en tiempo real de ubicación y telemetría visibles en los mapas en vivo de Plaspy.
+- Eventos de ACC y entradas auxiliares para reportes precisos de encendido y apagado de activos.
+- Monitoreo de combustible y detección de anomalías cuando se conectan sensores de combustible opcionales.
+- Control remoto de relé para ejecutar acciones de inmovilización desde Plaspy y mitigar robos.
+- Botón SOS y alertas del acelerómetro direccionados a través de Plaspy para la atención de emergencias.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Módulo IoT LTE Cat-M1 / NB2 con respaldo GSM 2G |
-| --- | --- |
-| Bandas / Operador | Certificado para las principales redes \(PTCRB, AT&T, T-Mobile, Verizon\). El soporte de bandas específico varía según modelo/región. |
-| Alimentación y batería | Entrada de 9–36 V DC para instalación en vehículo; batería de respaldo Li-Polímero industrial de 300 mAh |
-| Interfaces | Entradas digitales \(ACC/ignición, SOS, entrada general\); salidas digitales \(relé/salida\) para soportar inmovilización y control de accesorios; múltiples E/S para periféricos |
-| GNSS | Posicionamiento GPS + LBS; precisión mejor que 2,5 m CEP; sensibilidad -165 dBm; TTFF: en caliente ≤1 s, en frío ≤32 s |
-| Almacenamiento y SIM | Ranura SIM estándar; 32 + 32 Mb de almacenamiento de datos a bordo; LEDs de estado para GNSS \(azul\), Celular \(verde\) y Energía \(rojo\) |
-| Sensores y Alertas | Acelerómetro a bordo para conducción brusca y detección de colisiones; admite geocercas, exceso de velocidad, vibración anómala y alertas de desconexión de energía |
-| Factor de forma y Durabilidad | Dimensiones 105.5 × 57.0 × 21.8 mm; peso 104 g; IP65 polvo/agua; CE, FCC y certificaciones de las principales operadoras |
-
-## Casos de uso
-
-- Antirrobo de flota e inmovilización — corte remoto por relé y seguimiento en tiempo real para una recuperación rápida y mitigación del robo.
-- Monitoreo de equipos de construcción y maquinaria pesada — diseño robusto IP65 y telemática para sitios remotos.
-- Supervisión del transporte público — posiciones de vehículo en tiempo real, monitoreo del comportamiento del conductor y manejo de eventos SOS para seguridad y cumplimiento.
-- Control de activos de alquiler y leasing — integración de ignición y RFID para autenticación del conductor, seguimiento de uso y conciliación de facturación.
-- Monitoreo de combustible y telemetría — conectar sensores de combustible opcionales para detectar tendencias de consumo y eventos de pérdida de combustible.
+- Antirrobo e inmovilización de flotas con corte remoto de relé y rastreo para recuperación.
+- Monitoreo de maquinaria de construcción y equipos pesados en sitios remotos.
+- Supervisión de transporte público con seguimiento de posición en vivo y manejo de eventos de seguridad.
+- Operaciones de alquiler y leasing que integran detección de encendido e identificación del conductor para control de uso y facturación.
+- Monitoreo de consumo de combustible y detección de anomalías con sensores opcionales.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El JM-VL02 combina hardware de grado industrial con la plataforma Plaspy para ofrecer una gestión de flotas fiable y escalable. Su diseño celular multi-modo \(LTE Cat-M1 / NB2 con respaldo 2G\) y las certificaciones de las operadoras reducen el riesgo de conectividad en las zonas de cobertura, mientras que un rendimiento GNSS robusto y un TTFF rápido mantienen los informes de ubicación precisos y oportunos. Las E/S integradas del vehículo y una salida de relé hacen de este dispositivo una opción ideal para flujos de trabajo antirobo: el rastreador admite acciones de inmovilizador remoto y reportes con ignición, lo que permite a los usuarios de Plaspy combinar ubicación, telemetría y control en un único servicio.
+El JM-VL02 combina hardware enfocado en vehículos con la plataforma Plaspy para ofrecer una solución telemática práctica a organizaciones que requieren reportes de ubicación confiables, visibilidad del estado del vehículo y capacidades básicas de control. Su conectividad celular multimodo y su diseño resistente ayudan a mantener la continuidad del servicio en entornos variados, mientras que las entradas/salidas integradas soportan flujos de trabajo comunes de flotas como la inmovilización y las alertas basadas en eventos.
 
-Para las organizaciones que requieren telemática resiliente, seguimiento GPS preciso, capacidad de monitoreo de combustible y alertas basadas en eventos, el JM-VL02 ofrece una solución compacta y preparada para servicios que se integra de forma fluida con Plaspy para despacho centralizado, informes y operaciones de flota OTA.
-
+Si desea obtener más información sobre cómo Plaspy puede usar el Concox JM-VL02 para el monitoreo de flotas, la generación de informes y la supervisión operativa, por favor visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo; verifique las especificaciones actuales y la documentación oficial en el sitio web de Concox https://www.iconcox.com/.

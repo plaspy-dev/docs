@@ -2,61 +2,59 @@
 slug: /globalsat/nw_360hr
 id: nw_360hr
 sidebar_label: NW-360HR
+title: GlobalSat - NW-360HR
 sidebar_class_name: menu_item_tracker
+description: Reloj GPS wearable de seguridad con detección de caídas y frecuencia cardíaca, compatible con Plaspy para seguimiento y alertas en tiempo real
+keywords:
+  - GlobalSat NW-360HR
+  - NW-360HR reloj wearable
+  - NW 360HR rastreador GPS
+  - rastreador de seguridad wearable
+  - rastreador compatible con Plaspy
+  - rastreador LTE M1 NB IoT
+  - rastreador GPS con baliza BLE
+  - reloj con detección de caídas
+  - rastreador telemetría fisiológica
+  - dispositivo de seguridad para trabajador solitario
 ---
+
 # GlobalSat - NW-360HR
 
 ![NW-360HR](./tracker.jpg)
 
-El NW-360HR es un reloj rastreador con GPS diseñado para la seguridad personal, la vigilancia de trabajadores en aislamiento y la telemetría fisiológica continua. Compatible con Plaspy desde el primer momento, este dispositivo compacto y resistente combina conectividad LTE‑M1 y NB‑IoT con soporte GPS y balizas BLE para que cuidadores y operadores obtengan un seguimiento en tiempo real y posicionamiento tanto interior como exterior junto con métricas de salud.
+El NW-360HR es un reloj rastreador GPS wearable pensado para la seguridad personal, la supervisión de trabajadores solitarios y la telemetría fisiológica continua. Integra posicionamiento GPS con funcionalidad de baliza BLE y conectividad celular de baja potencia para ofrecer ubicación y posicionamiento básico en interiores, junto con sensores de salud como frecuencia cardíaca por óptica y temperatura cutánea. El equipo incorpora además un botón SOS y lógica de detección de caídas para que el usuario pueda reportar emergencias o generar eventos automáticos.
 
-Diseñado para cuidado de personas mayores, protección de trabajadores solitarios y despliegues IoT de uso múltiple, el NW-360HR fusiona informes de emergencia \(Help/SOS\) y avisos de caída con sensor óptico de frecuencia cardíaca, temperatura de la piel y un acelerómetro de 3 ejes \(G‑sensor\). Ofrece alertas oportunas e informes periódicos o disparados por movimiento hacia plataformas backend, facilitando así la integración con Plaspy para seguimiento en tiempo real, telemetría y notificaciones impulsadas por eventos.
+Este modelo es compatible con Plaspy de forma nativa, lo que lo hace práctico para equipos que requieren ubicación integrada, contexto de salud y notificaciones de eventos dentro de una plataforma centralizada de monitoreo. Los datos del dispositivo pueden ser ingeridos por Plaspy para seguimiento en tiempo real, alertas y flujos de reporte, ayudando a cuidadores, equipos de seguridad y operadores a mantener visibilidad sobre personas y activos portátiles sin protocolos de hardware personalizados.
 
-## Key Highlights
+## Aspectos principales
 
-- Rastreador GPS tipo wearable compatible con Plaspy: combina ubicación y signos vitales en un único dispositivo para una monitorización centralizada.
-- Conectividad de área amplia de bajo consumo mediante LTE‑M1 y NB‑IoT para una transmisión de datos fiable y rentable.
-- Seguimiento en tiempo real y localización interior usando GPS junto con soporte de balizas BLE para un posicionamiento más preciso.
-- Botón SOS \(Help\) integrado y aviso de caída para notificaciones de emergencia rápidas y detección automatizada de incidentes.
-- Telemetría fisiológica continua: sensores ópticos de frecuencia cardíaca y temperatura de la piel para monitoreo de salud y actividad.
-- Detección de movimiento y seguimiento de la actividad mediante un acelerómetro de 3 ejes \(G‑sensor\) con informes activados por movimiento.
-- Autonomía práctica \(~48 horas con un intervalo de informe de 1 hora\) y cable de carga incluido para uso diario rutinario.
+- Reloj rastreador GPS que combina ubicación y telemetría fisiológica para monitoreo centralizado en Plaspy
+- Conectividad celular de baja potencia mediante LTE M1 y NB IoT para uplinks confiables en áreas de amplia cobertura
+- Soporte GPS y baliza BLE para mejorar la precisión de posicionamiento en entornos exteriores e interiores
+- Botón SOS integrado y asesor de detección de caídas para alertas de emergencia y detección automática de incidentes
+- Telemetría continua de frecuencia cardíaca y temperatura cutánea junto a un acelerómetro de 3 ejes para reportes de actividad y movimiento
+- Autonomía práctica de alrededor de 48 horas en intervalos típicos de reporte con cable de carga incluido para uso rutinario
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-El NW-360HR transmite ubicación GPS, datos de balizas BLE, telemetría de sensores y notificaciones de eventos a través de LTE‑M1 o NB‑IoT hacia un backend IoT. Plaspy ingiere ese flujo de datos para seguimiento en tiempo real, alertas e informes. La integración utiliza interfaces estándar de backend IoT, de modo que los mensajes de SOS de emergencia, avisos de caída y métricas fisiológicas aparecen en los paneles y flujos de trabajo de Plaspy sin protocolos de hardware personalizados.
+El NW-360HR transmite ubicación, datos de baliza BLE, telemetría de sensores y notificaciones de eventos a través de redes celulares hacia los servicios backend. Plaspy ingiere ese flujo de datos entrante para que la ubicación, los signos vitales y las alertas aparezcan en tableros, mapas y flujos de notificación para equipos operativos y cuidadores.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy vía LTE‑M1 / NB‑IoT
-- Botón SOS \(Help\) activa alertas inmediatas y comparte la ubicación para una respuesta rápida
-- Aviso de caída y reports disparados por movimiento generan eventos de incidente automatizados
-- Telemetría fisiológica \(frecuencia cardíaca, temperatura de la piel\) mostrada junto a la ubicación para un monitoreo contextual
-- Sensores Bluetooth / soporte de balizas BLE para mejorar el posicionamiento en interiores y eventos de proximidad
+- Actualizaciones de ubicación y telemetría de sensores en tiempo real entregadas a Plaspy para monitoreo en vivo
+- El botón SOS envía alertas inmediatas y posición compartida a los flujos de respuesta
+- La detección de caídas y los reportes disparados por movimiento generan eventos automáticos de incidentes en Plaspy
+- Métricas fisiológicas como la frecuencia cardíaca y la temperatura cutánea se muestran junto con la ubicación para monitoreo contextual
+- Los datos de baliza BLE ayudan a mejorar el posicionamiento en interiores y a activar eventos de proximidad dentro de las vistas de Plaspy
 
-## Technical Overview
+## Casos de uso típicos
 
-| Model | NW-360HR |
-| --- | --- |
-| Connectivity | LTE‑M1 y NB‑IoT \(red de área amplia de bajo consumo\) |
-| GNSS | GPS para posicionamiento en exteriores \(GPS utilizado para ubicación al aire libre; precisión no especificada\) |
-| Bluetooth | Soporte de balizas BLE para localización en interiores y detección de proximidad |
-| Sensors | Sensor óptico de frecuencia cardíaca, sensor de temperatura de la piel, acelerómetro de 3 ejes \(G‑sensor\) |
-| Reporting modes | Informes periódicos, informes disparados por movimiento, reporte de SOS/emergencia y aviso de caída |
-| Battery & Power | Duración de la batería aproximadamente 48 horas \(basada en un intervalo de informe de 1 hora\); cable de carga incluido |
-| Interfaces & Controls | Botón Help \(SOS\) para notificaciones de emergencia; interfaz de carga estándar \(cable incluido\) |
-| Form Factor | Reloj ponible — diseño compacto y robusto para seguridad personal y monitorización continua |
-| Backend Integration | Soporta informes de emergencia y de estado a plataformas backend; se integra mediante servicios de backend IoT estándar \( compatible con Plaspy\) |
+- Monitoreo de adultos mayores y residencias asistidas donde la ubicación y los signos vitales ayudan a los cuidadores a gestionar el riesgo
+- Protección de trabajadores solitarios en campo con alertas SOS y detección de caídas dirigidas a equipos de respuesta
+- Seguridad personal y escenarios de respuesta rápida que requieren SOS wearable y contexto de ubicación para primeros respondedores
+- Programas de monitoreo de salud y actividad que combinan ubicación y telemetría para supervisión de poblaciones o pacientes
+- Protección de activos portátiles o equipos que se benefician de la combinación de GPS y conciencia de proximidad BLE
 
-## Use Cases
+## Por qué elegir este rastreador con Plaspy
 
-- Cuidado de personas mayores y residencias asistidas: localización continua y telemetría de signos vitales para cuidadores y servicios de monitoreo.
-- Seguridad de trabajadores aislados en entornos industriales o remotos: alertas SOS, detección de caídas y reportes de movimiento para proteger al personal de campo.
-- Seguridad personal y respuesta rápida: botón SOS incorporado con coordenadas GPS y contexto de salud para los servicios de emergencia.
-- Protección de activos y antirrobo para equipos portátiles de valor mediante la combinación de proximidad BLE y rastreo GPS.
-- Programas de monitoreo de salud y actividad que requieren telemetría integrada \(frecuencia cardíaca y temperatura de la piel\) vinculada a datos de ubicación.
+El NW-360HR es idóneo para organizaciones que necesitan un wearable compacto y resistente para extender el seguimiento en tiempo real y la telemetría de salud dentro de Plaspy. Su combinación de SOS, detección de caídas, reportes de movimiento y sensores fisiológicos aporta contexto accionable cuando ocurren incidentes, mientras que la compatibilidad con backends IoT estándar facilita la integración. Para equipos centrados en la seguridad personal y la supervisión de personal remoto, el reloj ofrece las funciones esenciales para monitoreo continuo y alertas oportunas.
 
-## Why Choose This Tracker with Plaspy
-
-El NW-360HR ofrece una combinación focalizada de características de seguridad personal y telemetría fisiológica en un reloj ponible compatible con Plaspy. Para organizaciones que requieren un seguimiento en tiempo real fiable, alertas de incidentes automatizadas y contexto de salud—como proveedores de cuidado, equipos de seguridad y operadores de servicios—este reloj facilita la monitorización sin complejas integraciones de hardware. LTE‑M1 y NB‑IoT reducen los costes de comunicaciones y el consumo de energía, mientras que el soporte de balizas BLE mejora la localización en interiores cuando GPS por sí solo no es suficiente. El dispositivo complementa programas más amplios de gestión de flotas o rastreo de activos al extender la telemetría a personal y activos portátiles, pero su conjunto de funciones está optimizado para la seguridad personal, y no para funciones específicas de vehículos como control de ignición, inmovilizador o monitoreo de combustible.
-
-Elija el NW-360HR con Plaspy para un seguimiento en tiempo real fiable, alertas impulsadas por eventos y monitorización fisiológica integrada. La combinación de notificaciones SOS, aviso de caída, posicionamiento GPS más BLE y la integración con backends IoT estándar facilita un despliegue rápido y escalable, ayudando a equipos a proteger a las personas y los activos al tiempo que se mantiene una telemetría y reporte de ubicación concisos en un único dispositivo ponible.
-
+Si desea saber más sobre cómo Plaspy soporta dispositivos como el NW-360HR, visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y la información del fabricante en el sitio oficial de GlobalSat https://www.globalsat.com.tw/.

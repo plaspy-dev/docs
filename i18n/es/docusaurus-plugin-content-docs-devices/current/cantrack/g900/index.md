@@ -2,37 +2,59 @@
 slug: /cantrack/g900
 id: g900
 sidebar_label: G900
+title: CanTrack - G900
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS CanTrack G900 resistente con seguimiento en tiempo real, alertas de exceso de velocidad y corte de energía, protección IP65 y compatibilidad con Plaspy
+keywords:
+  - CanTrack G900
+  - rastreador G900
+  - rastreador GPS G900
+  - CanTrack G900 Plaspy
+  - seguimiento de flotas G900
+  - seguimiento en tiempo real
+  - alarma de exceso de velocidad
+  - alarma de corte de energía
+  - rastreador IP65
+  - gestión de flotas
 ---
+
 # CanTrack - G900
 
 ![G900](./Logo.png)
 
-El rastreador GPS CanTrack G900 es una solución confiable para el seguimiento en tiempo real de vehículos y activos. Con su función de seguimiento en tiempo real, podrás conocer la ubicación exacta de tu vehículo en todo momento, lo que te brinda tranquilidad y seguridad.
+El CanTrack G900 es un rastreador GPS compacto pensado para la supervisión de vehículos y equipos de valor. Ofrece seguimiento en tiempo real para conocer la ubicación de forma continua e incluye funciones de seguridad como alerta por exceso de velocidad y alarma por corte de alimentación. Con una carcasa con certificación IP65, el G900 está diseñado para entornos donde el polvo y las salpicaduras son una preocupación, por lo que resulta adecuado para aplicaciones al aire libre e industriales.
 
-Una de las características destacadas del CanTrack G900 es su alarma de exceso de velocidad, que te alertará cuando el vehículo supere los límites de velocidad establecidos. Esto es especialmente útil para garantizar la seguridad en la conducción y evitar multas por exceso de velocidad.
+Como dispositivo compatible con Plaspy, el G900 puede integrarse en flujos de trabajo de gestión de flotas y activos para aportar visibilidad y conocimiento operativo. Plaspy puede procesar la información de ubicación y las alarmas del G900 para mostrar posiciones en vivo, generar alertas por exceso de velocidad o pérdida de energía, e incluir el dispositivo en informes y paneles de control usados por gerentes de flota y equipos de operaciones.
 
-Otra característica importante es la alarma de corte de energía, que te notificará si alguien intenta desconectar o manipular el rastreador. Esto es especialmente útil para proteger tus activos y vehículos contra robos o vandalismo.
+## Características principales
 
-El CanTrack G900 cuenta con una carcasa impermeable IP65, lo que significa que es resistente al agua y puede soportar condiciones climáticas adversas. Esto lo hace ideal para su uso en vehículos expuestos a la intemperie o en entornos húmedos.
+- Seguimiento de ubicación en tiempo real para visibilidad continua de vehículos y activos
+- Alarma por exceso de velocidad para notificar cuando se supera un umbral predefinido
+- Alarma por corte de energía que indica cuando el dispositivo pierde alimentación
+- Carcasa con clasificación IP65 para protección contra polvo y salpicaduras de agua
+- Soporte de tecnologías de red y GNSS estándar para posicionamiento y comunicaciones
+- Precisión declarada por el fabricante de alrededor de 5 metros para reportes de ubicación típicos
 
-El rastreador CanTrack G900 utiliza la red GSM / GPRS / GPS para transmitir datos de ubicación y se puede utilizar en bandas de frecuencia de 850/900/1800/1900 Mhz. Además, cuenta con un chip de GPS Ublox 7020 y un módulo GSM MT6261, lo que garantiza una precisión de ubicación de hasta 5 metros.
+## Cómo funciona con Plaspy
 
-En resumen, el rastreador GPS CanTrack G900 es una opción confiable y versátil para el seguimiento en tiempo real de vehículos y activos. Con su conjunto de características avanzadas y su resistencia a condiciones adversas, te brinda la tranquilidad de saber dónde se encuentran tus activos en todo momento.
+Al integrarse con Plaspy, el CanTrack G900 proporciona datos de ubicación y eventos que la plataforma muestra en paneles de flota y herramientas de reporte. Plaspy permite que las alarmas y los datos de movimiento del G900 ayuden a los equipos de operaciones a supervisar activos y reaccionar ante incidentes.
 
-### Características destacadas:
+- Visualización de posiciones en tiempo real y mapas para dispositivos individuales y flotas completas
+- Gestión de alarmas por exceso de velocidad y corte de energía con notificaciones configurables
+- Reproducción histórica de rutas e informes de viaje simples para revisión y cumplimiento
+- Informes y resumenes a nivel de flota para seguir la actividad de vehículos o activos
+- Agrupamiento y etiquetado de dispositivos para organización operativa y monitoreo
 
-- Seguimiento en tiempo real
-- Alarma de exceso de velocidad
-- Alarma de corte de energía
-- Carcasa impermeable IP65
+## Casos de uso típicos
 
-### Especificaciones técnicas:
+- Seguimiento de vehículos de flotas comerciales pequeñas y medianas
+- Monitoreo de maquinaria de obra o equipos de alquiler en sitios al aire libre
+- Vigilancia de activos móviles de alto valor
+- Conciencia sobre comportamiento del conductor mediante notificaciones de exceso de velocidad
+- Visibilidad operativa en entornos que requieren protección robusta
 
-- Red: GSM / GPRS / GPS
-- Banda: 850/900/1800/1900 Mhz
-- Chip de GPS: Ublox 7020
-- Módulo GSM: MT6261
-- Precisión: 5m
-- Tensión de trabajo: DC9V-36V
+## Por qué elegir este rastreador con Plaspy
 
+El CanTrack G900 ofrece un conjunto equilibrado de funciones que responde a necesidades habituales en la supervisión de flotas y activos: ubicación continua, alarmas prácticas y una carcasa resistente para uso exterior. Combinado con Plaspy, las capacidades básicas del dispositivo se transforman en información accionable mediante mapas, alertas e informes que apoyan las operaciones diarias de la flota.
+
+Si usted está evaluando rastreadores para integrar en Plaspy, el G900 es una opción a considerar para casos que requieren telemática básica, alertas y mayor resistencia. Para más detalles sobre Plaspy y cómo la plataforma puede mostrar y gestionar dispositivos como el CanTrack G900, visite la página de Plaspy https://www.plaspy.com. Las especificaciones y la disponibilidad de producto pueden cambiar con el tiempo, por lo que verifique la información técnica y de soporte más reciente en el sitio del fabricante https://www.cantrackgps.com/.

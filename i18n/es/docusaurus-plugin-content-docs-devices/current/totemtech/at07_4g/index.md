@@ -2,65 +2,61 @@
 slug: /totemtech/at07_4g
 id: at07_4g
 sidebar_label: AT07-4G
+title: Totemtech - AT07-4G
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto y robusto Totemtech AT07-4G compatible con Plaspy para seguimiento de flotas antirrobo y telemetría
+keywords:
+  - Totemtech AT07-4G
+  - Rastreador AT07-4G
+  - Compatibilidad AT07-4G Plaspy
+  - Rastreador GPS Plaspy
+  - Seguimiento de flotas
+  - Seguimiento de activos
+  - Telemetría vehicular
+  - Monitoreo de combustible
+  - Rastreador antirrobo
+  - Rastreador GNSS
 ---
+
 # Totemtech - AT07-4G
 
 ![AT07-4G](./tracker.jpg)
 
-El AT07-4G \(también referenciado como AT07-3G/4G\) es un rastreador GPS compacto y robusto, diseñado para despliegues exigentes de vehículos y activos. Pensado para una gestión fiable de flotas y protección antirrobo, el AT07-4G ofrece rastreo en tiempo real compatible con Plaspy, telemetría robusta e integración periférica flexible para el monitoreo de combustible, estado de puerta/encendido y alertas de emergencia.
+El Totemtech AT07-4G es un rastreador GPS compacto y resistente, pensado para despliegues exigentes en vehículos y activos. Está diseñado para ofrecer gestión de flotas y protección antirrobo confiables mediante reportes de ubicación continuos, alertas basadas en eventos y compatibilidad con telemetría y periféricos externos como medidores de combustible, sensores de puerta e ignición y entradas de emergencia SOS.
 
-Construido para operar en variantes celulares y constelaciones GNSS múltiples, el AT07-4G combina conectividad persistente, almacenamiento a bordo y actualizaciones de firmware OTA para mantener visibles vehículos y activos incluso ante pérdidas de red o condiciones adversas. Su formato compacto y su amplio rango de entrada de energía lo hacen ideal para flotas mixtas que requieren posición precisa, diagnósticos e informes basados en eventos hacia Plaspy.
+Como dispositivo compatible con Plaspy, el AT07-4G proporciona la telemetría y los datos de localización que Plaspy necesita para mostrar mapas en tiempo real, alertas y recorridos históricos. Su soporte para GNSS multiconstelación, variantes celulares, registro local y múltiples interfaces para periféricos lo convierten en una opción práctica para operadores de flotas y gestores de activos que requieren visibilidad persistente e informes operativos dentro de la plataforma Plaspy.
 
-## Puntos clave
+## Aspectos clave
 
-- Rastreador GPS compatible con Plaspy con seguimiento en tiempo real y registro histórico para gestión de flotas y visibilidad de activos.
-- GNSS de múltiples constelaciones \(GPS/GLONASS/BeiDou\) utilizando un chip AT6558R de 50 canales para reacquisición rápida y alta precisión de posición.
-- Variante celular 3G/4G y GSM cuádrupla banda con reporte GPRS configurable por tiempo, distancia o cambio de ruta.
-- Amplias I/O para telemetría y periféricos: puerto RS232 para sensores externos \(medidores de combustible Omnicomm, RFID\), entrada de temperatura 1-wire, I/O digitales/analógicos y puertos de voz.
-- Memoria flash a bordo de 16 MB almacena ~4,000 registros cuando no hay red; actualizaciones de firmware OTA y configuración por SMS/GPRS soportadas.
-- Conjunto completo de alarmas: geocercas, exceso de velocidad, SOS, estado de la puerta, pérdida de alimentación externa, arrastre, inactividad y detección de vibración \(temblor\).
-- Amplio rango de tolerancia de potencia y protección con opciones de entrada DC, protección integrada contra sobretensión y una batería de respaldo Li-Polímero de 800 mAh diseñada para altas temperaturas.
+- Dispositivo compatible con Plaspy que ofrece seguimiento en tiempo real y registro de trazas históricas para visibilidad de flotas y activos.
+- Soporte GNSS multiconstelación para fijaciones de posición más confiables y reacquisición más rápida en entornos mixtos.
+- Versiones 3G y 4G con reportes configurables por tiempo, distancia o cambio de rumbo para equilibrar la necesidad de información y el uso de datos.
+- Amplias entradas/salidas para telemetría y periféricos, incluyendo interfaces serial y 1-wire, además de entradas digitales y analógicas para sensores.
+- Memoria flash a bordo para registro offline cuando se pierde conectividad y soporte para actualizaciones remotas de firmware.
+- Conjunto completo de alarmas que cubre geocercas, exceso de velocidad, SOS, puertas y pérdida de alimentación para respaldar flujos de trabajo de seguridad.
+- Amplio rango de tolerancia de alimentación y batería de respaldo tolerante a variaciones térmicas para mantener continuidad en condiciones vehiculares adversas.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el AT07-4G suministra ubicación y telemetría continuas a su plataforma de seguimiento. El dispositivo admite modos de reporte configurables y puede transmitir datos de posición y eventos a hasta dos servidores simultáneamente. Plaspy ingiere fijaciones GPS/GLONASS/BeiDou, eventos de E/S y telemetría de sensores para proporcionar mapas en tiempo real, alertas y análisis para gestores de flotas.
+Al integrarse con Plaspy, el AT07-4G transmite fijaciones de ubicación, estados de eventos y telemetría de sensores a la plataforma, de modo que usted pueda monitorear vehículos y activos en tiempo real y revisar la actividad histórica. Plaspy procesa la posición y los eventos I/O del rastreador para generar alertas, reportes y paneles operativos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(soluciones GNSS, velocidad y rumbo\).
-- Estado de puerta, SOS, pérdida de alimentación externa y otros estados de eventos digitales para alertas de seguridad y antirrobo.
-- Monitoreo de combustible vía sensores de combustible conectados por RS232 \(compatibilidad Omnicomm\) y entradas analógicas para telemetría relacionada con combustible.
-- Control remoto del inmovilizador mediante relé externo \(periférico opcional\) y salidas digitales donde se implementen flujos de inmovilización.
-- Datos de temperatura y sensores auxiliares vía puerto 1-wire e interfaces serie/analógicas, permitiendo monitorización ambiental y seguimiento del estado de activos.
+- Actualizaciones de ubicación en tiempo real y telemetría de movimiento para visualización en mapa en vivo e historial de rutas.
+- Reportes de eventos digitales como estado de puertas, SOS y pérdida de alimentación externa para activar alertas de seguridad y antirrobo.
+- Monitoreo de combustible y consumo mediante medidores de combustible conectados por serial y entradas analógicas para telemetría relacionada con combustible.
+- Datos de temperatura y sensores auxiliares a través de interfaces 1-wire y serial para apoyar el monitoreo ambiental.
+- Buffer local que preserva registros durante cortes de red y sube los logs almacenados a Plaspy cuando vuelve la conectividad.
+- Perfiles de reporte configurables que permiten ajustar la frecuencia por tiempo, distancia o cambio de rumbo para un uso eficiente de datos.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | AT07-4G \(también referenciado como AT07-3G/4G\) |
-| --- | --- |
-| Conectividad | Celular 3G/4G; soporte GSM cuádrupla banda y múltiples opciones de bandas LTE |
-| Bandas / Variantes | EG91-EX: FDD-LTE B1/B3/B8/B20/B28; WCDMA B1/B8; GSM B3/B8. EG91-NAX: FDD-LTE B2/B4/B5/B12/B13/B25/B26; WCDMA B2/B4/B5. |
-| GNSS | GPS/GLONASS/BeiDou con chip AT6558R, 50 canales; sensibilidad -162 dBm; precisión horizontal típica de 2.5 m \(SBAS 2.0 m; SBAS+PPP \<1–2 m dependiendo del modo\). |
-| Rendimiento GNSS | Reacquisición ≈0.1 s; Arranque en caliente/tibio ≈1 s; Arranque en frío ≈27 s. |
-| Alimentación & Batería | Entrada DC 9–50 V \(la ficha técnica también lista soporte de +12–60 V / 1.5 A\); protección integrada contra sobretensión; batería de respaldo Li-Polímero de 800 mAh diseñada para altas temperaturas. |
-| Interfaces | 1 × puerto serie RS232; 1 entrada de conmutador; 4 entradas digitales; 3 salidas digitales; 1 entrada analógica; 1 × puerto de sensor de temperatura 1-wire; puerto de antena GPS; 1 botón SOS; 4 puertos de voz bidireccionales \(micrófono y altavoz\). |
-| Almacenamiento | Memoria flash de 16 MB \(aprox. 4,000 registros almacenados\) para registro offline. |
-| Indicadores | LEDs para estado de GPS, GSM y alimentación. |
-| Dimensiones & Peso | 89 × 55 × 25 mm; ~100 g. |
-| Condiciones de operación | -20 °C a 60 °C; humedad 5%–95% sin condensación. |
-| Consumo | Típico 2 W en modo normal, hasta 12.5 W en pico. |
-| Paquete & Opciones | El paquete estándar incluye antena GPS y juego de cables I/O. Periféricos opcionales: relé, sensor de puerta, sensor de combustible, cámara, sensor de temperatura, micrófono, altavoz, zumbador, lectores y etiquetas iButton/RFID, lámpara LED, sensor de peso, medidor de consumo de combustible, compatibilidad Omnicomm. |
-| Gestión & Integración | Actualizaciones de firmware OTA, configurables vía SMS/GPRS/software del proveedor; admite conexión a servidores y plataformas de rastreo comunes. |
-
-## Casos de uso
-
-- Gestión de flotas — ubicación continua, telemetría e historial de rutas para camiones, furgonetas y flotas mixtas integradas en paneles de Plaspy.
-- Antirrobo e inmovilización — alarmas de puerta/apertura, alertas de pérdida de alimentación externa y flujos de inmovilización basados en relé para asegurar los vehículos.
-- Monitoreo de combustible y análisis de consumo — soporte RS232 para sensores de combustible Omnicomm y otros, más entradas analógicas para telemetría detallada de combustible.
-- Protección perimetral y de activos — geocercas, remolque y detección de vibración \(temblor\) para detectar movimientos no autorizados.
-- Cadena de frío / monitorización de temperatura — entrada de sensor de temperatura 1-wire y soporte de sensores seriales para telemetría ambiental en los informes de Plaspy.
+- Gestión continua de flotas para camiones, furgonetas y flotas mixtas que requieren seguimiento en vivo e historial de rutas.
+- Flujos de trabajo antirrobo e inmovilización usando eventos de puerta, alimentación y SOS combinados con control remoto de relés donde esté implementado.
+- Monitoreo y análisis de combustible con integración de medidores seriales y entradas analógicas para niveles de combustible.
+- Protección perimetral y detección de movimientos no autorizados mediante geocercas, alertas por remolque y vibración.
+- Cadena de frío y monitoreo ambiental cuando se utilizan entradas de sensores de temperatura para rastrear condiciones de los activos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El AT07-4G está diseñado para ofrecer seguimiento GPS fiable y telemetría rica donde la disponibilidad y la flexibilidad de periféricos son importantes. Como rastreador GPS compatible con Plaspy, proporciona fijaciones GNSS rápidas, reporting configurable y almacenamiento local de datos para mantener la continuidad de los registros durante pérdidas transitorias de red. Su amplio rango de potencia, batería de respaldo tolerante a altas temperaturas y su formato robusto lo hacen adecuado para entornos exigentes en vehículos.
+El AT07-4G es una opción práctica para organizaciones que necesitan un rastreador durable con soporte flexible de periféricos y registro offline confiable. Su combinación de posicionamiento multiconstelación, reportes configurables y amplias opciones de entrada lo hace especialmente adecuado para flotas que requieren telemetría integrada, alertas de seguridad y registro ininterrumpido dentro de Plaspy.
 
-Para flotas centradas en monitoreo de combustible, medidas antirrobo y telemetría de sensores integrada, el AT07-4G ofrece un equilibrio práctico de entradas, conectividad serie y periféricos opcionales. Plaspy puede agregar la ubicación del rastreador, eventos de encendido/puerta, datos de combustible y alarmas en paneles, alertas e informes unificados, y puede correlacionar flujos de sensores externos \(incluidos sensores Bluetooth cuando exista un gateway del ecosistema\) con la telemetría del vehículo para obtener una visión operativa más completa. El resultado es una inteligencia de flota escalable y accionable, con controles anti-robo seguros y gestión remota a través de Plaspy.
-
+Si desea explorar cómo el Totemtech AT07-4G puede integrarse en su despliegue Plaspy visite https://www.plaspy.com para obtener más información sobre la plataforma y las opciones de integración. Las especificaciones del producto, su disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales y las opciones de accesorios en el sitio del fabricante http://www.totemtek.com/ antes de comprar o desplegar.

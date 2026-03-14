@@ -2,60 +2,59 @@
 slug: /globalsat/kt_520
 id: kt_520
 sidebar_label: KT-520
+title: GlobalSat - KT-520
 sidebar_class_name: menu_item_tracker
+description: Rastreador satelital compacto y robusto GlobalSat KT-520 compatible con Plaspy para seguimiento remoto de flotas y activos fuera de cobertura celular
+keywords:
+  - GlobalSat KT-520
+  - Rastreador KT-520
+  - Rastreador satelital Kineis
+  - Rastreador GPS satelital
+  - Compatible con Plaspy
+  - Seguimiento de flotas
+  - Seguimiento remoto de activos
+  - Rastreador de batería de larga duración
+  - Rastreador resistente IP69K
+  - Rastreador GNSS
 ---
+
 # GlobalSat - KT-520
 
 ![KT-520](./tracker.jpg)
 
-# KT-520 Kineis Satellite Tracker
+El GlobalSat KT-520 es un rastreador satelital compacto y resistente diseñado para la supervisión prolongada de activos y vehículos en lugares sin servicio celular. Basado en la conectividad satelital Kineis, el KT-520 integra un receptor GNSS, un acelerómetro triaxial para detección de movimiento, una batería SAFT de larga duración y configuración local por BLE, ofreciendo reportes de posición y telemetría confiables en ubicaciones remotas.
 
-El KT-520 Kineis Satellite Tracker es un rastreador GPS compacto y resistente, diseñado para el monitoreo de activos y vehículos durante largos periodos cuando no hay cobertura celular. Diseñado para funcionar con Plaspy, el KT-520 amplía las capacidades de seguimiento en tiempo real y gestión de flotas de Plaspy hacia áreas remotas y no celulares, reportando la posición y la telemetría a través de la red satelital de Kineis.
+Como dispositivo compatible con Plaspy, el KT-520 lleva el seguimiento y la gestión de flotas de Plaspy a zonas sin cobertura terrestre, entregando reportes periódicos de posición vía satélite, eventos de movimiento y diagnósticos del equipo. Esto lo hace adecuado para equipos que requieren visibilidad continua en amplias zonas y permite a Plaspy mostrar ubicación, nivel de batería y estado de movimiento junto a otros datos de la flota para supervisión operativa.
 
-El dispositivo combina un receptor GNSS integrado, un acelerómetro de 3 ejes para detección de movimiento, una batería SAFT de larga duración y configuración por aire vía Bluetooth de baja energía \(BLE\). Compatible con Plaspy desde el primer uso, el KT-520 ofrece reportes de ubicación fiables, activación por movimiento y diagnósticos del dispositivo para que los responsables de flotas y los equipos logísticos mantengan una visión situacional continua a lo largo de la mayor cobertura posible.
+## Características principales
 
-## Key Highlights
+- Conectividad satelital Kineis para reportes fiables fuera de la cobertura celular, permitiendo visibilidad en áreas extensas.
+- Receptor GNSS integrado que proporciona ubicaciones periódicas para mapas e historial en Plaspy.
+- Acelerómetro triaxial que soporta detección de movimiento y lógica de activación para conservar batería mientras captura eventos de desplazamiento.
+- Batería SAFT de 17 Ah de larga duración diseñada para despliegues de varios años con reporte de nivel de batería integrado.
+- Soporte BLE para configuración remota y actualizaciones de firmware, reduciendo la necesidad de mantenimiento en campo.
+- Carcasa robusta con certificación IP69K y amplio rango de temperatura de funcionamiento para entornos industriales y exteriores exigentes.
+- Diagnósticos y telemetría del dispositivo visibles en plataformas de backend como Plaspy para una gestión proactiva.
 
-- Conectividad satelital Kineis para reportes de rastreador GPS confiables más allá de la cobertura celular — ideal para gestión remota de flotas y seguimiento de activos.
-- Receptor GNSS integrado que ofrece fijaciones de posición consistentes para que Plaspy las muestre en paneles de seguimiento en tiempo real.
-- Acelerómetro de 3 ejes permite detección de movimiento y activación automática para conservar la batería, asegurando alertas oportunas cuando los activos se desplazan.
-- Batería SAFT de 17Ah no recargable diseñada para despliegues prolongados — aproximadamente cinco años con un perfil típico de 20 mensajes por día.
-- Soporte BLE para configuración del dispositivo y actualizaciones de firmware por aire \(OTA\), reduciendo las visitas de mantenimiento y simplificando el servicio en campo.
-- Resistencia ambiental robusta: protección IP69K contra penetración y rango operativo de -20°C a +55°C para uso en exteriores e industriales exigentes.
-- Telemetría orientada al mantenimiento: reporte del nivel de batería y diagnósticos remotos visibles en Plaspy para una gestión proactiva del dispositivo.
+## Cómo funciona con Plaspy
 
-## How It Works with Plaspy
+El KT-520 transmite mensajes satelitales que contienen posiciones GNSS y telemetría; Plaspy los ingiere y muestra en mapas, paneles e informes. Plaspy utiliza los mensajes del dispositivo y los eventos de movimiento para generar alertas, monitorear la salud del equipo e integrar activos rastreados por satélite en los flujos de trabajo existentes de la flota.
 
-Como rastreador GPS compatible con Plaspy, el KT-520 transmite la posición GNSS y telemetría a través del sistema satelital de Kineis a servicios de backend donde Plaspy los ingiere, visualiza y notifica. Plaspy utiliza los mensajes satelitales periódicos y los eventos de movimiento del dispositivo para proporcionar un seguimiento casi en tiempo real, alertas de geocercas e informes operativos para flotas y activos dispersos que operan fuera del alcance celular.
+- La ubicación y la telemetría en tiempo casi real del KT-520 se envían a Plaspy para mapeo, historial de rutas y monitoreo de estado.
+- Los eventos de movimiento y las señales del acelerómetro pueden activar alertas de desplazamiento y notificaciones de manipulación o movimiento no autorizado.
+- El reporte del nivel de batería permite a Plaspy rastrear la energía restante y ayudar a programar mantenimiento antes de interrupciones del servicio.
+- Las configuraciones y actualizaciones por BLE se realizan localmente mientras Plaspy muestra el estado del dispositivo y las necesidades de mantenimiento al personal de campo.
+- La telemetría del KT-520 puede correlacionarse en Plaspy con otras fuentes de datos de la flota para ofrecer informes operativos y alertas más completos.
 
-- Las actualizaciones de ubicación y telemetría en tiempo real del KT-520 se envían a través de Kineis a Plaspy para mapeo y historial de rutas.
-- Los eventos de movimiento y los datos del acelerómetro activan alertas de movimiento y pueden usarse para implementar notificaciones de manipulación o robo.
-- El reporte del nivel de batería permite a Plaspy monitorizar la energía restante y programar mantenimiento antes de que se interrumpa el servicio.
-- La configuración OTA y las actualizaciones de firmware se realizan localmente vía BLE; Plaspy puede mostrar el estado del dispositivo e indicar a los ingenieros de campo cuándo es necesario el acceso BLE en persona.
-- La telemetría expuesta por el dispositivo puede combinarse en Plaspy con otras integraciones \(por ejemplo monitoreo de combustible o controles de encendido/inmovilizador\) donde dichos sensores o interfaces estén disponibles en la solución global.
+## Casos de uso habituales
 
-## Technical Overview
-
-| Conectividad | Red satelital Kineis para ubicación y transmisión de mensajes |
-| --- | --- |
-| GNSS | Receptor GNSS integrado para fijaciones de posición |
-| Power & Battery | Batería SAFT de 17Ah no recargable; vida útil ~5 años con 20 mensajes/día; reporte del nivel de batería |
-| Sensors & Interfaces | Acelerómetro de 3 ejes para detección de movimiento; BLE para configuración por aire y actualizaciones de firmware |
-| Bluetooth | BLE utilizado para configuración del dispositivo y actualizaciones de firmware \(OTA local\) |
-| Environmental | Temperatura de operación -20°C a +55°C; protección IP69K contra penetración |
-| Physical | Peso ~280 g; dimensiones 84.5 x 130.8 x 44 mm; formato compacto y robusto para montaje en vehículo, contenedor y activos |
-| Remote Management | Configuración OTA y actualizaciones de firmware vía BLE; diagnóstico y telemetría de batería disponibles para plataformas de backend como Plaspy |
-
-## Casos de uso
-
-- Gestión de flotas para vehículos que operan en territorios remotos donde las redes terrestres son intermitentes o no están disponibles.
-- Seguimiento de logística y contenedores en rutas de larga distancia, proporcionando visibilidad de extremo a extremo mediante reportes satelitales integrados en Plaspy.
-- Vigilancia remota de activos para equipos e instalaciones en ubicaciones fuera de la red, ofreciendo alertas de movimiento y historial de ubicación.
-- Implementaciones industriales y al aire libre que requieren un dispositivo robusto, con IP69K, capaz de soportar temperaturas extremas y condiciones de lavado.
+- Gestión de flotas para vehículos que operan en territorios remotos con cobertura terrestre intermitente o inexistente.
+- Logística de larga distancia y rastreo de contenedores donde la visibilidad de extremo a extremo requiere reportes por satélite.
+- Vigilancia de equipos y activos remotos en sitios distribuidos y en instalaciones fuera de la red eléctrica.
+- Despliegues industriales y exteriores que requieren un rastreador resistente y apto para lavado con larga vida útil.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el KT-520 como rastreador GPS compatible con Plaspy ofrece a los equipos de operaciones una opción fiable respaldada por satélite para ampliar el seguimiento en tiempo real, la telemetría y la conciencia anti‑robo más allá de la cobertura celular. Su batería SAFT de larga duración y la lógica de activación por movimiento reducen el mantenimiento y prolongan la vida útil para despliegues de varios años. La protección IP69K y la amplia tolerancia de temperatura hacen que el KT‑520 sea adecuado para escenarios exigentes de gestión de flotas y vigilancia de activos en entornos robustos.
+El KT-520 es una opción práctica cuando las operaciones necesitan seguimiento respaldado por satélite junto con larga autonomía y un diseño robusto. Su ingeniería prioriza bajo mantenimiento y reportes confiables, lo que reduce las visitas de campo y mantiene activos dispersos visibles en Plaspy durante despliegues prolongados.
 
-Cuando se integra con Plaspy, el KT-520 ofrece datos de ubicación operativos, métricas de estado de la batería y del dispositivo, y eventos de movimiento que simplifican la toma de decisiones en logística, vigilancia remota y protección de activos. Para flotas que combinen seguimiento por satélite con telemetría adicional, como monitoreo de combustible o control de encendido/inmovilizador, Plaspy proporciona la plataforma para correlacionar los informes satelitales del KT-520 con otras fuentes de datos y alertas, lo que facilita una gestión cohesiva y escalable de activos y vehículos dispersos.
-
+Si sus operaciones cubren áreas sin cobertura celular confiable o necesita un rastreador compacto y resistente que reporte posición, movimiento y estado de batería a una plataforma centralizada, el KT-520 junto con Plaspy ofrecen una solución integrada. Conozca más sobre cómo Plaspy soporta dispositivos con capacidad satelital visitando https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por favor verifique los detalles actuales en el sitio del fabricante https://www.globalsat.com.tw/.

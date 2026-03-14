@@ -2,25 +2,63 @@
 slug: /aquila/ux101
 id: ux101
 sidebar_label: UX101
+title: Aquila - UX101
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular robusto y compacto Aquila UX101 compatible con la plataforma de gestión de flotas Plaspy
+keywords:
+  - Aquila UX101
+  - Rastreador UX101
+  - Rastreador GPS Aquila
+  - UX101 compatible con Plaspy
+  - seguimiento de flotas
+  - rastreo vehicular
+  - seguimiento de activos
+  - rastreador GPS IP67
+  - rastreador con acelerómetro
+  - rastreadores compatibles con Plaspy
 ---
+
 # Aquila - UX101
 
 ![UX101](./logo.jpg)
 
-El dispositivo de seguimiento avanzado Aquila UX101 es una solución compacta y resistente para la gestión de flotas y el seguimiento de vehículos. Con su carcasa resistente IP67, este dispositivo puede soportar condiciones adversas y garantizar un rendimiento confiable en todo momento.
+El Aquila UX101 es un dispositivo de rastreo vehicular avanzado diseñado para la gestión de flotas y el monitoreo de activos. Combina una carcasa compacta y resistente con clasificación IP67, un conector tipo ECU automotriz y antenas internas GPS y GSM para facilitar instalaciones ocultas y conexiones estables en entornos vehiculares. El UX101 registra parámetros clave como ubicación, hora, velocidad, distancia y estado de encendido; además incluye sensor de movimiento, alerta por desconexión de la batería principal, capacidad de voz y almacenamiento local con arquitectura de reenvío de datos.
 
-El UX101 cuenta con un conector tipo ECU para automóviles, lo que garantiza una mayor estabilidad y una conexión segura. Además, ofrece una amplia gama de características y funcionalidades, incluyendo la capacidad de rastrear la ubicación, el tiempo, la velocidad, la distancia y el estado de encendido del vehículo.
+Como dispositivo compatible con Plaspy, el UX101 puede integrarse a la plataforma de monitoreo de flotas de Plaspy para ofrecer visibilidad en tiempo real y supervisión operativa. Sus entradas y salidas flexibles, intervalo de rastreo configurable y batería de respaldo incorporada lo hacen apropiado para escenarios donde es importante el rastreo persistente, las alertas y el reenvío de datos durante períodos sin conectividad. Plaspy puede utilizar la telemetría que proporciona el UX101 para alimentar mapas, alertas e informes que ayudan a gestionar vehículos y activos de forma más eficiente.
 
-Este dispositivo también cuenta con múltiples puertos de comunicación, incluyendo 1 RS232 y 1 CAN o 2 puertos RS232 y 1 puerto USB. Además, ofrece 2 entradas analógicas, 5 entradas digitales y 3 salidas digitales, lo que permite una mayor flexibilidad en la configuración y personalización del dispositivo.
+## Puntos clave
 
-El UX101 es fácil de instalar y configurar, y es adecuado para instalaciones ocultas o invisibles gracias a sus antenas internas de GPS y GSM. También ofrece comunicación de voz habilitada, lo que permite una mayor interacción y control del dispositivo.
+- Carcasa resistente con clasificación IP67 para protección en entornos vehiculares y exteriores exigentes
+- Conector tipo ECU automotriz para montaje estable y conexión eléctrica confiable
+- Antenas GPS y GSM internas, ideales para instalaciones ocultas o discretas
+- Opciones flexibles de E/S que incluyen RS232, alternativas CAN, puerto USB, entradas y salidas analógicas y digitales
+- Batería integrada de 700 mAh con hasta 8 horas de seguimiento en respaldo
+- Sensor de movimiento y alerta por desconexión de la batería principal para mayor seguridad y detección de manipulación
+- Almacenamiento de datos en el dispositivo con arquitectura de reenvío y soporte para integración vía SDK
 
-Además, este dispositivo tiene un bajo consumo de energía y está optimizado para ahorrar la batería del vehículo. Cuenta con una batería de respaldo de larga duración de hasta 8 horas de rastreo con una batería incorporada de 700 mAHLion. También cuenta con un sensor de movimiento-acelerómetro y una alerta de eliminación de la batería de red.
+## Cómo funciona con Plaspy
 
-El UX101 ofrece una fácil integración de software con SDK y permite la configuración de todos los parámetros a través de SMS y USB. También ofrece control de salud remoto y diagnóstico a través de SMS, lo que facilita el monitoreo y mantenimiento del dispositivo.
+Al emparejarse con Plaspy, el UX101 envía datos de ubicación y estado a la plataforma, donde pueden visualizarse, analizarse y utilizarse para la toma de decisiones. Plaspy procesa la información del dispositivo para ofrecer vistas a nivel de flota, alertas configurables e informes históricos que apoyan las operaciones diarias y el análisis a largo plazo.
 
-Con su capacidad de almacenamiento de datos de 16 MB, el UX101 puede almacenar aproximadamente 10000 registros de seguimiento. También ofrece soporte de personalización y una amplia gama de opciones de configuración, incluyendo intervalos de seguimiento configurables y soporte DNS para la configuración del nombre de dominio.
+- Visibilidad en tiempo real de ubicaciones y movimientos en los mapas de Plaspy para el monitoreo de la flota
+- Reportes de eventos y estados como encendido, movimiento y alertas por extracción de batería
+- Rutas históricas, reportes de velocidad y distancia para cumplimiento y revisión de desempeño
+- Almacenamiento local y comportamiento de reenvío que preserva registros durante brechas de conectividad
+- Intervalos de rastreo configurables para equilibrar frecuencia de actualización y consumo energético
+- SDK y opciones de integración que facilitan el aprovisionamiento de dispositivos y el mapeo de datos personalizado con Plaspy
 
-En resumen, el dispositivo de seguimiento avanzado Aquila UX101 es una solución confiable y versátil para la gestión de flotas y el seguimiento de vehículos. Con su diseño compacto, características avanzadas y facilidad de uso, este dispositivo es ideal para una amplia gama de aplicaciones, desde logística y operaciones de taxi hasta rastreo de seguridad y seguimiento de activos.
+## Casos de uso típicos
 
+- Rastreo de flotas comerciales para vehículos de entrega, servicio y transporte
+- Monitoreo logístico y de rutas para mejorar la planificación y la puntualidad
+- Seguimiento de seguridad para vehículos y activos valiosos que requieren alertas de manipulación
+- Instalaciones ocultas o discretas donde se prefieren antenas internas y una carcasa compacta
+- Flotas mixtas que necesitan E/S flexibles para conexión con sistemas del vehículo y dispositivos externos
+
+## Por qué elegir este rastreador con Plaspy
+
+El UX101 es una opción práctica para organizaciones que requieren un rastreador robusto y versátil que pueda integrarse en una plataforma centralizada de gestión de flotas como Plaspy. Su combinación de protección ambiental, conector seguro para vehículos, diversas opciones de E/S y almacenamiento local lo hace adaptable a múltiples escenarios de rastreo vehicular y de activos. Con Plaspy, los datos del dispositivo se vuelven accionables mediante mapas, alertas e informes que respaldan la toma de decisiones operativas.
+
+Dado que el UX101 incluye características para instalación oculta, alimentación de respaldo y alertas de manipulación, es especialmente adecuado para despliegues donde la visibilidad continua y la resiliencia son críticas. Las capacidades de monitoreo e informes de Plaspy pueden aprovechar esas funciones para mejorar la disponibilidad, la seguridad y la eficiencia de la flota, ofreciendo una vista centralizada para la gestión diaria.
+
+Para saber más sobre cómo el UX101 puede funcionar con Plaspy, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo; por favor verifique las especificaciones técnicas actuales y la información de soporte en el sitio oficial del fabricante https://www.itriangle.in/.

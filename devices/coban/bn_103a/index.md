@@ -2,62 +2,61 @@
 slug: /coban/bn_103a
 id: bn_103a
 sidebar_label: BN-103A
+title: Coban - BN-103A
 sidebar_class_name: menu_item_tracker
+description: A compact vehicle GPS tracker for reliable real time fleet tracking telemetry and anti theft protection compatible with Plaspy
+keywords:
+  - Coban BN-103A
+  - BN-103A tracker
+  - Coban tracker
+  - vehicle GPS tracker
+  - fleet tracking
+  - Plaspy compatible
+  - real time tracking
+  - anti theft tracker
+  - GNSS tracker
+  - vehicle telematics
 ---
+
 # Coban - BN-103A
 
 ![BN-103A](./tracker.png)
 
-The BN-103A vehicle-mounted intelligent GPS tracker is Plaspy compatible and built for reliable real-time tracking, fleet management, and anti-theft protection. Engineered for direct 12–24V vehicle installation, the BN-103A combines high-sensitivity GNSS positioning, multi-band GSM/GPRS connectivity and configurable alarm inputs to deliver the telemetry and event data modern fleet operators expect in Plaspy-integrated solutions.
+The BN-103A is a vehicle mounted intelligent GPS tracker designed for reliable real time tracking, fleet management, and anti theft protection. Built for direct 12–24V vehicle installation, it combines a high sensitivity GNSS receiver, multi band GSM GPRS connectivity and configurable alarm inputs to provide the telemetry and event data expected by modern fleet operators.
 
-Designed for private cars, logistics fleets, engineering vehicles and rental supervision, the BN-103A provides timely location updates, ignition and door status, and a full suite of alarms. When paired with the Plaspy platform, this tracker enables live tracking, playback, geo-fencing and remote control workflows that improve vehicle security, operational efficiency and risk control.
+As a Plaspy compatible device, the BN-103A can be integrated with Plaspy to provide live location updates, event driven alerts and historical playback alongside other fleet telemetry. When paired with the Plaspy platform the tracker enables dashboards, reporting and remote control workflows that help improve vehicle security and operational oversight.
 
 ## Key Highlights
 
-- Plaspy compatible: native support for integration with tracking platforms and mobile apps for real-time tracking and reporting.
-- High-precision GNSS: sensitive receiver \(-165 dBm\) and typical GPS accuracy around 5 meters for dependable location data.
-- Wide network support: 2G GSM/GPRS 850/900/1800/1900 MHz \(4-band full-network\) with TCP/UDP/SMS transport.
-- Comprehensive alarms and telemetry: SOS, overspeed, movement, door open, ACC ignition, shock, low battery and geofence alerts.
-- Remote control features: remote voice monitor \(listen-in\), remote fuel/power cut-off for immobilization and emergency intervention.
-- Smart reporting and power management: motion/stationary reporting modes plus smart sleep to conserve vehicle power while maintaining alerting.
-- Robust vehicle fit: compact enclosure, built-in backup battery and external antenna support for stable in-vehicle installation.
+- Plaspy compatible for direct integration with tracking platforms and mobile access for real time monitoring.
+- High sensitivity GNSS receiver for dependable position fixes that support live tracking and playback.
+- Multi band GSM GPRS connectivity for broad cellular coverage and continuous data delivery.
+- Configurable alarms and inputs including SOS overspeed movement door and ignition events for event driven alerts.
+- Remote control and immobilization support to assist anti theft response and vehicle security workflows.
+- Smart reporting and power management modes to balance frequent updates with vehicle power considerations.
+- Compact vehicle fit with optional external antenna support and built in backup battery for continued operation during interruptions.
 
 ## How It Works with Plaspy
 
-When connected to Plaspy, the BN-103A streams GNSS fixes and telemetry over TCP/UDP/SMS so dispatchers and managers see live locations and event-driven alerts. Plaspy ingests the device’s position, alarm statuses and configurable inputs to generate dashboards, reports and automated notifications. This creates a single view for fleet management, anti-theft response and operational analytics.
+When connected to Plaspy the BN-103A streams location and event telemetry so dispatchers and managers can view live positions, receive alerts and analyze historical tracks. Plaspy ingests the device data to populate maps, trigger notifications and produce reports that support fleet operations and security.
 
-- Real-time location and telemetry updates sent via TCP/UDP/SMS for immediate display in Plaspy.
-- Ignition \(ACC\), door and alarm status reported to Plaspy for event playback and rule-based notifications.
-- Optional fuel monitoring: fuel level queries and fuel-detection alarms available when an external fuel sensor is connected.
-- Remote immobilizer capability through remote fuel or power cut-off commands issued via Plaspy.
-- Integration of Bluetooth sensors: Plaspy can combine BN-103A telemetry with Bluetooth sensor data if your installation includes a BLE gateway or compatible accessory.
+- Live location and telemetry shown on Plaspy maps for real time fleet visibility.
+- Alarm and input events such as ignition door SOS and overspeed available in Plaspy for rule based notifications and incident tracking.
+- Geo fencing and playback features let teams review routes and automate alerts for area entry or exit.
+- Remote immobilization and control actions callable from Plaspy to support anti theft and intervention procedures.
+- Reporting and exportable history for compliance, analysis and operational optimization.
+- Aggregation of external sensor data and accessory inputs so Plaspy can present consolidated vehicle status alongside GNSS positions.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G GSM/GPRS 850/900/1800/1900 MHz \(4-band full-network\) |
-| --- | --- |
-| Bands | 850/900/1800/1900 MHz |
-| Power & Battery | Direct 12–24V vehicle power; built-in rechargeable 3.7V 300 mAh Li-ion backup battery |
-| Interfaces | External GPS & GSM antenna support; ACC ignition input; alarm inputs; optional accessories \(siren, fuel sensor, shock sensor\) |
-| GNSS | High-sensitivity GNSS receiver \(-165 dBm\); typical accuracy ~5 m; TTFF ~45 s cold, 35 s warm, 1 s hot |
-| Bluetooth | Not built-in — Plaspy can aggregate BLE sensor data if a BLE gateway or accessory supplies it to the platform |
-| Remote Management | Supports platform integration and mobile app use for live tracking, track playback, geo-fencing and remote control |
-| Transport Protocols | TCP, UDP, SMS |
-| Environmental | Operating -20°C to +45°C; storage -40°C to +85°C; humidity 5%–95% non-condensing |
-| Form Factor | Compact vehicle-mounted enclosure, 83 × 54 × 26 mm; weight ≈ 120 g |
-| Special Features | Remote voice monitoring \(listen-in\); smart sleep reporting; configurable alarms and geo-fence support |
-
-## Use Cases
-
-- Fleet anti-theft and immobilization: live tracking plus remote fuel/power cut-off to prevent unauthorized use.
-- Logistics and transportation fleet management: real-time tracking, overspeed alerts and track playback to improve route efficiency.
-- Rental and mortgage vehicle supervision: ACC event notifications and geo-fence alarms to enforce rental conditions and recover vehicles.
-- Equipment and public vehicle monitoring: integrate telemetry and alarm events into Plaspy for proactive maintenance and incident response.
-- Fuel management optimization: query external fuel sensors and receive fuel-detection alarms to control losses and monitor consumption.
+- Private car security and anti theft protection using live tracking and remote immobilization.
+- Logistics and transportation fleets needing route visibility, overspeed alerts and playback for performance review.
+- Engineering and service vehicles requiring location based oversight and event driven notifications.
+- Rental fleet supervision and recovery with ignition and geo fence monitoring to enforce rental terms.
+- Equipment and public vehicle monitoring where timely alerts and historical tracking improve response and maintenance planning.
 
 ## Why Choose This Tracker with Plaspy
 
-The BN-103A offers a practical balance of reliable positioning, essential vehicle telemetry and broad platform compatibility that makes it a strong choice for Plaspy deployments. Its high-sensitivity GNSS, multi-band GSM connectivity and configurable alarms deliver the real-time tracking and anti-theft capabilities fleet managers need. Because it supports common transport protocols \(TCP/UDP/SMS\) and integrates with mobile apps and tracking platforms, the BN-103A plugs into Plaspy workflows for alerts, reports and remote control without complex customization.
+The BN-103A offers a practical combination of accurate positioning, vehicle telemetry and alarm features that align well with Plaspy workflows. Its design focuses on the core needs of fleet operators and security teams: dependable location data, configurable event reporting and the ability to act remotely when incidents occur. Those capabilities map directly into Plaspy dashboards, notification rules and reporting tools without extensive customization.
 
-For organizations focused on fleet management, automotive risk control and rental supervision, the BN-103A provides dependable telemetry \(ignition, door, overspeed, shock\), optional fuel monitoring and remote immobilization—features that directly map to Plaspy’s real-time dashboards, telemetry reports and notification rules. Combined with Plaspy, this tracker helps reduce response times, tighten anti-theft controls and deliver clearer operational insights across vehicle fleets.
-
+For organizations evaluating compatible hardware, the BN-103A is a solid option when you need straightforward integration, timely alerts and standard telemetry for vehicles across mixed fleets. Learn more about how Plaspy can use BN-103A data and view platform features on the Plaspy website https://www.plaspy.com. Product specifications and availability can change over time so please verify current details on the manufacturer site https://www.coban.net/.

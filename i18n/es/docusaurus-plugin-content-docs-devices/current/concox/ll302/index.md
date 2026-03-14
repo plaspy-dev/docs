@@ -2,60 +2,59 @@
 slug: /concox/ll302
 id: ll302
 sidebar_label: LL302
+title: Concox - LL302
 sidebar_class_name: menu_item_tracker
+description: Rastreador GNSS Concox LL302 4G compatible con Plaspy para monitorización prolongada de vehículos y activos
+keywords:
+  - Concox LL302
+  - Rastreador LL302
+  - Rastreador Concox
+  - LL302 Plaspy
+  - Rastreador 4G para activos
+  - Rastreo de vehículos
+  - Seguimiento de flotas
+  - Monitoreo de activos
+  - Rastreador GNSS
+  - Rastreador con batería de larga duración
 ---
+
 # Concox - LL302
 
 ![LL302](./tracker.png)
 
-El LL302 de Concox \(variantes del modelo LL302‑E / LL302‑L\) es un rastreador GNSS para activos compatible con Plaspy, que utiliza 4G LTE Cat 1 y está diseñado para el seguimiento a largo plazo de vehículos y activos.
-    Diseñado para flotas de alquiler, logística, transporte y monitoreo de activos de alto valor, el LL302 combina posicionamiento de múltiples fuentes \(GPS, BDS, LBS y ubicación asistida por Wi‑Fi\), sensores robustos y una batería industrial Li‑Polymer de 6,000mAh para ofrecer seguimiento en tiempo real confiable y una vida de despliegue extendida.
+El Concox LL302 es un rastreador GNSS para activos diseñado para la monitorización prolongada de vehículos y bienes. Disponible en las variantes regionales LL302‑E y LL302‑L, el equipo emplea comunicaciones 4G LTE Cat 1 con conmutación a 2G y posicionamiento multisensor que incluye GPS, BDS, LBS y asistencia por Wi‑Fi. Con una batería industrial de 6,000mAh, sensores robustos y un soporte magnético de montaje discreto, el LL302 está orientado a flotas de alquiler, operaciones logísticas, servicios de transporte y protección de activos de alto valor.
 
-Al integrarse con Plaspy, el LL302 ofrece telemetría accionable y alertas para la gestión de flotas, detección antirrobo y monitoreo ambiental. Su montaje magnético discreto, la resistencia al agua IPX5 y los modos de reporte configurables lo hacen ideal para aplicaciones que requieren bajo mantenimiento, montaje seguro e inteligencia de ubicación precisa.
+Como dispositivo compatible con Plaspy, el LL302 transmite posiciones GNSS y telemetría de sensores a la plataforma Plaspy, de modo que los equipos pueden supervisar activos en tiempo real, recibir alertas y generar informes. La combinación de larga autonomía, modos de reporte configurables y detección de manipulación hace del LL302 una opción práctica para integrar en Plaspy en tareas de supervisión de flotas, flujos de trabajo antirobo y monitoreo ambiental cuando se requieren sensores opcionales de temperatura y humedad.
 
-## Key Highlights
+## Características principales
 
-- Rastreador GPS compatible con Plaspy que ofrece seguimiento en tiempo real preciso para la gestión de flotas y el monitoreo de activos.
-- Posicionamiento de múltiples fuentes: GPS + BDS + LBS, con asistencia de Wi‑Fi para una mayor precisión de ubicación \(precisión indicada &lt;2.5 m CEP\).
-- Gran autonomía: batería industrial Li‑Polymer de 6,000mAh / 3.7V con modos de operación configurables \(GPS regular, rastreo y ahorro de energía\) y hasta un año en modo de espera con ahorro de energía.
-- Sensores industriales: acelerómetro \(vibración\), sensor de luz \(manipulación\), efecto Hall \(puerta/estado\); sensores opcionales de temperatura y humedad \(periféricos\).
-- Conectividad celular fiable: LTE Cat 1 con retroceso a 2G GSM; dos variantes de hardware regionales \(LL302‑E y LL302‑L\).
-- Diseño robusto y discreto: base magnética fuerte para una instalación prácticamente nula en superficies metálicas y protección IPX5 frente a chorros de agua.
-- Rendimiento GNSS rápido: gran sensibilidad \(seguimiento −165 dBm, adquisición −148 dBm\) y TTFF muy rápido \(arranque en caliente ≤1 s en promedio, arranque en frío ≤32 s en promedio\).
+- Rastreador compatible con Plaspy que ofrece ubicación en tiempo real y telemetría continua para monitorización de flotas y activos.
+- Posicionamiento multisensor con GPS, BDS, LBS y asistencia por Wi‑Fi para mayor fiabilidad en la obtención de la posición y precisión declarada por debajo de 2.5 m CEP.
+- Batería industrial de larga duración de 6,000mAh con modos de reporte configurables para extender la vida útil en despliegues.
+- Sensores integrados que incluyen acelerómetro para detección de vibración, sensor de luz para alertas de manipulación y efecto Hall para monitoreo de puertas o estados; opción de sensores de temperatura y humedad.
+- Conectividad principal LTE Cat 1 con conmutación a 2G y dos variantes de hardware regionales para cobertura de distintas bandas.
+- Montaje magnético robusto de perfil bajo e IPX5 resistente al agua, adecuado para montaje discreto sobre superficies metálicas.
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-El LL302 transmite las posiciones GNSS y telemetría de sensores a Plaspy, donde el dispositivo aparece como un activo compatible con Plaspy. Plaspy ingiere actualizaciones de ubicación, eventos de sensores y alertas para que puedas monitorizar vehículos y activos en tiempo real, configurar reglas de geocerca, recibir notificaciones de manipulación y batería baja, y generar informes para las operaciones de la flota.
+Al conectarse, el LL302 envía posiciones GNSS y eventos de sensores a Plaspy, donde el dispositivo aparece como un activo gestionado. Plaspy procesa las actualizaciones de ubicación y la telemetría para que los operadores puedan visualizar movimientos, configurar alertas y generar informes operativos que apoyen las tareas diarias de la flota y los procedimientos de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a través de LTE Cat 1 \(con respaldo a 2G\) para una conectividad constante.
-- Alertas de manipulación y seguridad: el sensor de luz detecta intentos de manipulación o extracción y el acelerómetro genera alertas por vibraciones o movimientos anómalos.
-- Monitoreo de puertas/estado: soporte de efecto Hall y periféricos opcionales que habilitan notificaciones de apertura/cierre de puertas.
-- Telemetría ambiental: sensores opcionales de temperatura \(−20°C a +70°C, ±0.2°C\) y humedad relativa \(5%–95%\), que alimentan Plaspy para el monitoreo de cadena de frío y contenedores.
-- Alertas de geocerca, batería baja y movimiento se entregan a través de Plaspy para una respuesta operativa inmediata y flujos de trabajo antirrobo.
+- Actualizaciones de ubicación y telemetría en tiempo real hacia Plaspy usando LTE Cat 1 con fallback para mantener conectividad consistente.
+- Alertas de manipulación y seguridad basadas en eventos del sensor de luz y acelerómetro para una respuesta rápida.
+- Monitoreo de puertas y estados mediante entradas de efecto Hall y periféricos opcionales para visibilidad del estado del activo.
+- Telemetría ambiental desde sensores opcionales de temperatura y humedad para soportar vistas de cadena de frío y monitoreo de contenedores.
+- Geocercas, alertas de batería baja y notificaciones de movimiento configurables en Plaspy para notificaciones automáticas y seguimiento operativo.
 
-## Technical Overview
+## Casos de uso típicos
 
-| Conectividad | LTE Cat 1 como principal, con retroceso a 2G GSM |
-| --- | --- |
-| Bandas / Variantes | Dos variantes de hardware regionales \(LL302‑E y LL302‑L\) cubren diferentes bandas LTE regionales \(bandas específicas por variante\) |
-| Energía y batería | Batería Li‑Polymer industrial de 6,000mAh / 3.7V; modos de funcionamiento configurables \(GPS regular, rastreo, ahorro de energía\); hasta un año en modo de espera en modo de ahorro de energía |
-| Interfaces y sensores | Acelerómetro \(vibración\), sensor de luz \(manipulación\), efecto Hall \(puerta/estado\); sensores opcionales de temperatura y humedad \(periféricos\) |
-| GNSS | Multinave GNSS: GPS y BDS más posicionamiento asistido por LBS y Wi‑Fi; precisión indicada &lt;2.5 m CEP; sensibilidad: seguimiento −165 dBm, adquisición −148 dBm |
-| Bluetooth | No especificado en la descripción del dispositivo |
-| Gestión remota | Funciona con plataformas en la nube de Concox y aplicaciones móviles para monitorizar el dispositivo y alertas; FOTA no especificado |
-| Formato y entorno | Diseño compacto con base magnética \(95.0 × 59.0 × 29.2 mm con imán, 233 g con imán\); protección IPX5 frente a chorros de agua; ranura Micro‑SIM; indicadores LED para GNSS \(azul\), celular \(verde\) y alimentación \(blanco\) |
-
-## Casos de uso
-
-- Flotas de alquiler de vehículos: montaje discreto, larga vida de la batería y alertas de manipulación/vibración para proteger los activos y reducir pérdidas por hurto.
-- Logística y transporte: seguimiento en tiempo real y sensores ambientales opcionales permiten un monitoreo eficiente de rutas y el reporte de condiciones.
-- Monitoreo de activos de alto valor: montaje magnético robusto y GNSS preciso proporcionan una ubicación fiable para equipos y remolques.
-- Monitoreo de cadena de frío y contenedores: integra sensores opcionales de temperatura y humedad para alimentar a Plaspy con telemetría ambiental.
-- Gestión general de activos: modos de reporte configurables permiten equilibrar la frecuencia de reporte y la vida de la batería para despliegues prolongados.
+- Flotas de alquiler que requieren montaje discreto, gran autonomía y alertas de manipulación para reducir pérdidas y hurtos.
+- Proveedores de logística y transporte que necesitan seguimiento en tiempo real y datos ambientales opcionales para envíos.
+- Monitoreo de activos y equipos de alto valor donde el montaje magnético seguro y el GNSS preciso facilitan la localización rápida.
+- Cadena de frío y control de contenedores usando sensores opcionales de temperatura y humedad combinados con rastreo de ubicación.
+- Programas generales de gestión de activos que requieren intervalos de reporte configurables para equilibrar visibilidad y duración de la batería.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El LL302 ofrece una combinación equilibrada de precisión, autonomía y opciones de instalación robustas, lo que lo convierte en una opción práctica para usuarios de Plaspy que requieren un seguimiento GPS y telemetría confiables. Su batería de 6,000mAh y los modos de ahorro de energía reducen las intervenciones de mantenimiento, mientras que la alta sensibilidad GNSS y el posicionamiento de múltiples fuentes mejoran la fiabilidad de la fijación en entornos urbanos y rurales. La detección de manipulación integrada y las alertas de vibración fortalecen los flujos de trabajo antirrobo, y los sensores ambientales opcionales amplían el papel del dispositivo en la monitorización de cadena de frío y contenedores.
+El LL302 combina una autonomía práctica con posicionamiento multisensor y un diseño compacto y resistente, lo que lo convierte en una opción sólida para organizaciones que demandan rastreo confiable y telemetría periódica. Su conjunto de sensores admite detección básica de manipulación y monitoreo de estado, mientras que la opción de sensores ambientales amplía su utilidad a transportes sensibles a la temperatura y a supervisión de contenedores. Para los usuarios de Plaspy, esto significa que un único dispositivo puede cubrir tanto necesidades de inteligencia de ubicación como de monitoreo de condiciones, minimizando el mantenimiento frecuente.
 
-Emparejado con Plaspy, el LL302 convierte los datos brutos de ubicación y sensores en información operativa para la gestión de la flota, alertas automatizadas e informes. Si necesita interfaces adicionales, como control de ignición/inmovilizador o sensores Bluetooth para su instalación específica, consulte las opciones de integración con su equipo de implementación de Plaspy: Plaspy puede combinar la telemetría del LL302 con sistemas externos para soportar el monitoreo de combustible, flujos de trabajo de ignición/inmovilización y usos más amplios de telemetría de flota.
-
+Para obtener más información sobre cómo Plaspy puede integrarse con dispositivos Concox y evaluar su adecuación para su flota o activos, visite el sitio principal de Plaspy en https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar los datos técnicos y la información de variantes más recientes en el sitio del fabricante https://www.iconcox.com/ antes de tomar decisiones de compra o despliegue.

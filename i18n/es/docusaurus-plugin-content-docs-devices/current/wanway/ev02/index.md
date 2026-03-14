@@ -2,60 +2,64 @@
 slug: /wanway/ev02
 id: ev02
 sidebar_label: EV02
+title: WanWay - EV02
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 2G WanWay EV02 compacto para protección antirrobo y gestión de flotas compatible con Plaspy
+keywords:
+  - WanWay EV02
+  - rastreador GPS EV02
+  - tracker WanWay
+  - EV02 compatible Plaspy
+  - rastreador vehicular EV02
+  - seguimiento de flotas EV02
+  - rastreador antirrobo
+  - rastreador para motocicleta
+  - rastreador para vehículo eléctrico
+  - rastreador GPS oculto
 ---
+
 # WanWay - EV02
 
 ![EV02](./tracker.webp)
 
-El EV02, perteneciente a una familia de rastreadores ya establecida, es un rastreador GPS 2G compacto diseñado para protección antirrobo de vehículos y gestión eficiente de flotas. Compatible con Plaspy desde el primer momento, el EV02 combina su posicionamiento GPS de alta sensibilidad con una gestión de energía robusta y un formato discreto para ofrecer un seguimiento en tiempo real fiable para motocicletas, coches, vehículos comerciales ligeros y vehículos eléctricos.
+El EV02 es un rastreador GPS 2G compacto de WanWay diseñado para ofrecer protección antirrobo y facilitar la gestión eficiente de flotas. Su tamaño reducido y la alta sensibilidad en posicionamiento lo hacen ideal para motocicletas, automóviles, vehículos comerciales ligeros y vehículos eléctricos, entregando datos de ubicación en tiempo real y reportes de eventos confiables para la seguridad del activo y la supervisión operativa.
 
-Construido para una instalación rápida y montaje oculto, el EV02 admite controles de seguridad activos como corte remoto \(combustible o eléctrico\), detección de corte de cable y ACC, y alarmas por vibración. Cuando se integra con la plataforma Plaspy, el EV02 se convierte en una herramienta práctica para telemetría, monitorización del encendido, acciones del inmovilizador y alertas rápidas en flotas mixtas — permitiendo a los operadores detectar robos, intervenir a distancia y mantener una mejor supervisión operativa.
+La compatibilidad con Plaspy viene integrada, por lo que el EV02 puede enviar ubicación, estado y eventos de seguridad directamente a la plataforma Plaspy para monitoreo, alertas e historial. Esta integración resulta útil para gestores de flotas y operadores de seguridad que requieren posiciones rastreadas, notificaciones de manipulación y controles remotos de inmovilización disponibles en un entorno centralizado de gestión.
 
-## Aspectos clave
+## Puntos clave
 
-- Rastreador GPS 2G compatible con Plaspy que ofrece seguimiento en tiempo real consistente y alertas para vehículos en áreas con cobertura 2G.
-- Diseño compacto con una pequeña batería de respaldo de 55 mAh para instalación oculta en motocicletas, coches, vehículos eléctricos y activos comerciales ligeros.
-- Amplio rango de tensión de operación \(9–90 V\) que admite una amplia gama de sistemas de alimentación de vehículos, simplificando el despliegue de flotas entre tipos de vehículos mixtos.
-- Funciones anti‑robos activas que incluyen corte remoto de combustible o electricidad y control tipo inmovilizador para detener un vehículo cuando sea necesario.
-- Detección de corte de cable/ACC y alarma de vibración para alertas rápidas de manipulación y movimiento hacia Plaspy, mejorando los tiempos de respuesta ante robos o uso no autorizado.
-- Chip GPS de alta sensibilidad para posicionamiento en línea rápido y datos de geolocalización fiables, adecuados para telemetría de flota y supervisión de rutas.
-- Interfaz simple de 4 pines que facilita el cableado e instalación, reduciendo el tiempo en sitio para técnicos e instaladores.
+- Rastreador GPS 2G compatible con Plaspy que ofrece rastreo y alertas en tiempo real en áreas con cobertura 2G.
+- Diseño compacto y montaje discreto, apropiado para motocicletas, automóviles, vehículos comerciales ligeros y vehículos eléctricos.
+- Pequeña batería interna de respaldo para mantener informes de posición durante cortes de energía a corto plazo.
+- Amplio rango de voltaje de operación para facilitar la instalación en flotas mixtas con diferentes sistemas eléctricos.
+- Capacidades activas antirrobo, que incluyen corte remoto de alimentación de gasolina o eléctrica y funciones tipo inmovilizador.
+- Detección de corte de cable y de ACC, además de alarma por vibración para alertas rápidas ante manipulación o movimiento no autorizado.
+- Posicionamiento GPS de alta sensibilidad para actualizaciones de ubicación rápidas y datos de geolocalización confiables.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el EV02 envía a la plataforma datos de ubicación, eventos y estado casi en tiempo real, de modo que los gestores de flota y los operadores de seguridad pueden monitorizar activos, recibir alertas y ejecutar controles remotos. La integración compatible con Plaspy garantiza que la telemetría y los eventos de seguridad del EV02 se muestren en paneles, se incluyan en reglas de geocerca y estén disponibles para informes históricos.
+Al integrarse con Plaspy, el EV02 transmite datos de ubicación y eventos a la plataforma, permitiendo que usted monitoree sus activos casi en tiempo real, reciba alarmas y ejecute controles remotos cuando la instalación lo permite. Plaspy presenta la telemetría y los eventos de seguridad del rastreador en paneles y reportes para ayudar a los equipos a responder y analizar el comportamiento de la flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — coordenadas GPS y estado de movimiento transmitidos a Plaspy para seguimiento en vivo y reproducción histórica.
-- Estado de encendido y de ACC — la detección ACC informa del estado de encendido a Plaspy para el registro de viajes y alertas de uso no autorizado.
-- Alarmas de vibración y manipulación — notificaciones inmediatas a través de Plaspy cuando se detecta manipulación física o movimiento inesperado.
-- Inmovilizador remoto / corte — ejecutar comandos de corte remoto de combustible o electricidad a través de Plaspy para detener un vehículo cuando la instalación lo permita.
-- Monitoreo de combustible y telemetría adicional — EV02 aporta la telemetría central del vehículo a Plaspy; el monitoreo de combustible está disponible en Plaspy cuando existen sensores de combustible del vehículo o integraciones disponibles.
+- Actualizaciones de ubicación en vivo y estado de movimiento para seguimiento en mapa y reproducción histórica.
+- Estado de encendido e indicación de corte de cable reportados a Plaspy para apoyar el registro de viajes y la detección de uso no autorizado.
+- Alarmas por vibración y manipulación enviadas como notificaciones inmediatas para mejorar los tiempos de respuesta de los equipos de seguridad.
+- Acciones remotas de inmovilización o corte disponibles desde Plaspy cuando el cableado y la instalación lo permiten.
+- Inclusión en reglas de geovallas y flujos de alertas para monitoreo perimetral automatizado y notificación de incidentes.
+- Historial consolidado de eventos y reportes para revisión operativa y análisis de recuperación.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | EV02 |
-| --- | --- |
-| Conectividad | 2G \(GSM\) |
-| Bandas | No especificadas |
-| Alimentación y batería | Voltaje de operación 9–90 V; batería de respaldo interna 55 mAh |
-| Interfaces | Interfaz de 4 pines; detección ACC/corte de cable; control de corte remoto/inmovilizador |
-| GNSS | Chip GPS de alta sensibilidad para posicionamiento en línea rápido |
-| Bluetooth | No especificado / no reportado Bluetooth integrado |
-| Gestión remota | Comandos de control remoto compatibles \(corte\); FOTA/gestión web no especificados |
-| Formato | Compacto, diseñado para instalación oculta en vehículos \(motocicletas, coches, vehículos comerciales ligeros\) |
-
-## Casos de uso
-
-- Antirrobo de flota e inmovilización — monitorizar vehículos y ejecutar cortes remotos en activos robados o mal utilizados, minimizando pérdidas y acelerando la recuperación.
-- Gestión de flotas mixtas — desplegar en motocicletas, coches y vehículos comerciales ligeros que operan en diferentes sistemas de tensión gracias al rango de 9–90 V.
-- Monitoreo y seguridad de vehículos eléctricos — asegurar los VE con alarmas de vibración, control de corte y opciones de instalación discretas.
-- Seguimiento de rutas y telemetría de comportamiento del conductor — usar la posición GPS y el estado ACC para registrar viajes, analizar la utilización y optimizar los despachos.
-- Instalaciones ocultas para operaciones de recuperación — su tamaño compacto facilita el montaje oculto para aumentar las probabilidades de recuperación del vehículo tras robo o manipulación.
+- Protección antirrobo de flotas y inmovilización remota para acelerar recuperaciones y reducir pérdidas.
+- Despliegues en flotas mixtas donde un único modelo de rastreador funciona en motocicletas, automóviles y vehículos comerciales ligeros.
+- Seguridad para vehículos eléctricos mediante montaje discreto y reportes de alarma sensibles.
+- Seguimiento de rutas y registro de viajes usando actualizaciones de posición y estado de encendido para análisis de utilización.
+- Instalaciones ocultas para apoyar operaciones de recuperación tras robo o manipulación.
+- Monitoreo de vehículos y activos pequeños donde el espacio y la instalación discreta son prioridad.
 
 ## Por qué elegir este rastreador con Plaspy
 
-EL EV02 es una opción pragmática para operadores que requieren un rastreador GPS compacto, resistente y que se integra a la perfección con la plataforma Plaspy para ofrecer seguimiento en tiempo real, alertas y controles de inmovilizador remoto. Su amplio rango de voltaje y su formato compacto lo hacen versátil en distintos tipos de vehículos, mientras que la detección ACC y de corte de cable añaden una capa práctica de detección de robos. Al combinar la fiabilidad del hardware EV02 con la telemetría, generación de informes y flujos de alertas de Plaspy, los gestores de flotas obtienen una solución rentable para mejorar la seguridad, reducir tiempos de inactividad y consolidar los datos de los vehículos para la toma de decisiones operativas.
+El EV02 es una opción práctica para organizaciones que requieren un rastreador pequeño y confiable, compatible con Plaspy para visibilidad centralizada y alertas. Su huella compacta y su tolerancia a una amplia gama de sistemas eléctricos vehiculares lo hacen adaptable en flotas mixtas, mientras que las funciones antirrobo integradas —corte remoto, detección de corte de cable y alarmas de vibración— ofrecen funcionalidades de seguridad esenciales sin complejidad adicional.
 
-Elija EV02 con integración compatible con Plaspy cuando necesite medidas antirrobo fiables, seguimiento en tiempo real para flotas mixtas y un formato compacto que facilite la instalación oculta. El conjunto de funciones enfocado del EV02 — alarmas de vibración, detección ACC, corte remoto y GPS de alta sensibilidad — soporta casos de uso esenciales de gestión de flotas y seguridad anti‑robo sin complejidad innecesaria, convirtiéndolo en una adición sólida a cualquier estrategia de telemetría e inmovilizador habilitada por Plaspy.
+Emparejado con Plaspy, el EV02 facilita la consolidación de telemetría, alarmas oportunas y acciones remotas básicas para que usted mantenga supervisión, mejore la respuesta y genere reportes útiles para la gestión de flotas. Si necesita rastreo confiable y funciones de seguridad vehicular integradas en un flujo de trabajo con Plaspy, el EV02 es una opción a considerar para entornos con flotas mixtas.
 
+Para saber más sobre cómo funciona Plaspy con rastreadores compatibles y las características de gestión de flotas visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales y la documentación oficial en el sitio del fabricante https://www.wanwaytech.net/.

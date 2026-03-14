@@ -2,60 +2,62 @@
 slug: /astra_telematics/at501
 id: at501
 sidebar_label: AT501
+title: Astra Telematics - AT501
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto y de larga duración AT501 compatible con Plaspy para ubicación fiable y alertas de movimiento
+keywords:
+  - Astra Telematics
+  - AT501
+  - Rastreador GPS AT501
+  - AT501 compatible con Plaspy
+  - rastreador de activos
+  - rastreador GPS de larga duración
+  - rastreador IP68 para activos
+  - mini rastreador de activos
+  - dispositivo de rastreo para flotas
+  - rastreador para remolques
 ---
+
 # Astra Telematics - AT501
 
 ![AT501](./tracker.png)
 
-El AT501 Mini Asset Tracker es un rastreador GPS compacto y alimentado por batería, diseñado para el monitoreo a largo plazo de activos pequeños y sin suministro de energía. Compatible con Plaspy de serie, el AT501 combina conectividad celular multired \(e-SIM con LTE‑M, NB‑IoT y conmutación a 2G como respaldo\), GNSS de múltiples constelaciones y operación de ultra bajo consumo para ofrecer una solución de seguimiento de activos confiable para flotas de herramientas, remolques, contenedores y otros equipos remotos.
+El AT501 Mini Asset Tracker es un rastreador GPS compacto alimentado por batería, diseñado para el monitoreo prolongado de activos pequeños y sin fuente de energía. Está pensado para despliegues extendidos en herramientas, remolques, contenedores y otros equipos remotos, combinando conectividad celular multi red, GNSS multi constelación y operación de muy bajo consumo para ofrecer reportes de posición confiables durante meses o incluso años.
 
-Diseñado para una instalación sencilla y uso resistente en campo, el AT501 ofrece protección contra las inclemencias del tiempo IP68, un soporte magnético con la opción de montaje con tornillo M4, y un paquete de batería LTC reemplazable que puede lograr hasta ocho años de vida operativa en modos de reporte de bajo consumo. Su compatibilidad BLE y su acelerómetro permiten configuración local y telemetría basada en eventos que se integra sin problemas con Plaspy para la gestión de flotas, alertas anti-robos y reportes telemétricos a largo plazo.
+Al ser compatible con Plaspy desde su activación, el AT501 envía ubicación y telemetría de eventos directamente a Plaspy para una visibilidad centralizada de sus activos. Su batería reemplazable de larga duración, carcasa robusta con clasificación IP68, opción de montaje magnético y configuración local vía Bluetooth lo convierten en una alternativa práctica para organizaciones que buscan rastreo de activos con bajo mantenimiento integrado a los flujos de trabajo de informes y alertas de Plaspy.
 
-## Aspectos Clave
+## Aspectos destacados
 
-- Autonomía extendida — Paquete de batería LTC reemplazable de 13,000 mAh \(5 x ER14505\) con hasta 8 años en modo de bajo consumo a intervalos de reporte de 24 horas.
-- Compatible con Plaspy — integra la posición y telemetría en Plaspy para la gestión de flotas, informes y alertas.
-- Diseño robusto preparado para el campo — carcasa IP68, antenas GSM/GNSS internas, montaje magnético y opción de tornillo M4 para instalaciones seguras.
-- Conectividad a prueba de futuro — e-SIM con soporte multired: LTE‑M y NB‑IoT, plus retomo GSM/GPRS \(2G\) para una amplia cobertura celular.
-- GNSS de múltiples constelaciones — GPS, Galileo, GLONASS y BeiDou con antena GNSS interna de 15 mm para una localización fiable.
-- Telemetría basada en eventos — acelerómetro MEMS integrado activa informes de movimiento para maximizar la vida de la batería y mejorar la precisión de la ubicación entre estados de movimiento y reposo.
-- Bluetooth Low Energy — configuración local, diagnósticos y puesta en marcha con un teléfono inteligente mediante BLE.
-- Batería de repuesto y personalización — disponible un pack BT501 de repuesto; personalización de hardware e informes ofrecida sin costo adicional para la integración con Plaspy.
+- Operación de larga duración con paquete de batería LTC reemplazable de 13,000 mAh, hasta ocho años en modos de reporte de bajo consumo.
+- Compatible con Plaspy para integración directa de posiciones y telemetría en gestión de flotas, informes y alertas.
+- Conectividad celular multi red mediante eSIM con LTE M y NB IoT más retroceso 2G para amplia cobertura.
+- Soporte GNSS multi constelación para mejorar la fiabilidad del posicionamiento en distintos entornos.
+- Carcasa resistente IP68 con montaje magnético y opción de fijación con perno M4 para instalaciones seguras en campo.
+- Acelerómetro integrado para reportes basados en movimiento y Bluetooth Low Energy para configuración y diagnóstico locales.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-El AT501 transmite la posición y la telemetría a Plaspy mediante enlaces celulares gestionados por su e‑SIM y su módem multired. Para activos que requieren informes poco frecuentes, el dispositivo aprovecha transmisiones programadas de bajo consumo y informes de eventos activados por el acelerómetro; para activos que necesitan actualizaciones más frecuentes, Plaspy puede configurarse para aceptar intervalos de reporte más cortos, equilibrando el consumo de batería. BLE ofrece un canal local conveniente para la provisión y diagnósticos antes de que el dispositivo quede registrado en Plaspy.
+El AT501 transmite posición y telemetría seleccionada a Plaspy usando su enlace ascendente celular multi red. Está optimizado para reportes programados de bajo consumo y envíos basados en eventos activados por la detección de movimiento, mientras que el Bluetooth ofrece un canal local para la puesta en marcha y el diagnóstico antes o durante el registro en Plaspy.
 
-- Actualizaciones de ubicación y telemetría en tiempo real cuando los intervalos de reporte están configurados para actualizaciones frecuentes; de lo contrario, los informes programados/basados en eventos permiten conservar la batería.
-- Detección de movimiento y alertas basadas en eventos utilizando el acelerómetro MEMS interno para reducir uplinks innecesarios y mejorar la relevancia de la ubicación.
-- Enlace de múltiples redes \(LTE‑M, NB‑IoT y retomo 2G\) garantiza que la telemetría llegue a Plaspy en diversas zonas de cobertura.
-- Bluetooth Low Energy \(BLE\) para configuración in situ, diagnósticos y puesta en marcha con los perfiles de dispositivo de Plaspy.
-- Nota: el AT501 no incluye CANBus, RS232, ADC ni entradas I/O digitales dedicadas; las entradas de ignición, inmovilizador o monitoreo directo de combustible no son compatibles con este modelo.
+- Ubicación y telemetría en tiempo real cuando los intervalos de reporte se configuran para actualizaciones frecuentes, permitiendo a Plaspy mostrar la posición actual del activo.
+- Los reportes programados y los basados en eventos preservan la vida útil de la batería al reducir los envíos sin dejar de aportar el historial útil en Plaspy.
+- La detección de movimiento y las alertas de evento desde el acelerómetro interno se integran en Plaspy para notificaciones de antirrobo y reubicación.
+- El enlace ascendente multi red ayuda a asegurar que la telemetría llegue a Plaspy en áreas con diferentes tecnologías celulares disponibles.
+- Bluetooth Low Energy permite la configuración y diagnóstico in situ, alineando el comportamiento del dispositivo con los perfiles de dispositivo en Plaspy.
+- La personalización de reportes ofrecida por el fabricante puede utilizarse para adaptar la telemetría del AT501 a los flujos de trabajo y necesidades de informes en Plaspy.
 
-## Visión Técnica
+## Casos de uso típicos
 
-| Conectividad | e‑SIM con soporte multired: LTE‑M \(4G\), NB‑IoT y conmutación a GSM/GPRS \(2G\) como respaldo |
-| --- | --- |
-| Bands | Soporte multired dependiente del operador \(LTE‑M / NB‑IoT / 2G\) |
-| Alimentación y Batería | Capacidad de batería interna 13,000 mAh; paquete LTC reemplazable \(5 x ER14505 / equivalentes de tamaño AA\); hasta 8 años en modo de bajo consumo a intervalos de reporte de 24‑horas |
-| Interfaces | No CANBus, RS232, ADC ni I/O digital; sin sensor de manipulación; montaje mediante soporte magnético integrado o tornillo M4 |
-| GNSS | GNSS de múltiples constelaciones: GPS, Galileo, GLONASS y BeiDou; antena GNSS interna \(15 mm\) |
-| Bluetooth | Bluetooth Low Energy \(BLE\) para configuración y diagnósticos locales |
-| Gestión Remota | Personalización de hardware e informes disponible sin costo; consulte al proveedor para provisión e integración con Plaspy |
-| Formato | Carcasa compacta y robusta IP68 con antena GSM interna; sin LEDs externos |
+- Monitoreo a largo plazo de activos sin alimentación, como remolques, contenedores y implementos en grandes flotas.
+- Vigilancia de herramientas portátiles de alto valor y equipos exteriores con fuerte protección ambiental.
+- Activos estacionales o movidos con poca frecuencia, donde la larga duración de la batería reduce los ciclos de mantenimiento.
+- Telemetría de activos remotos o estacionarios con reportes activados por movimiento para detectar reubicaciones o robos.
+- Despliegues rápidos que aprovechan el montaje magnético o la sujeción con un solo perno para una instalación sencilla y segura.
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas para activos no alimentados — rastrear remolques, contenedores y accesorios a lo largo de largos intervalos de servicio con mantenimiento mínimo.
-- Seguimiento de herramientas y equipos — monitorizar herramientas portátiles de alto valor y pequeñas máquinas almacenadas al aire libre o en el sitio con sólida protección contra agua y polvo.
-- Monitoreo de contenedores y carga — seguimiento duradero y de larga vida para activos estacionales o movidos con poca frecuencia, donde la vida útil de la batería es esencial.
-- Telemetría remota para activos estacionarios — informes activados por movimiento reducen los costos de uplink, manteniendo la capacidad de detectar robo o reubicación.
-- Instalaciones simples donde se prefiere montaje magnético o con un solo tornillo — implementación rápida en numerosos activos de una flota.
+El AT501 es una opción sólida para organizaciones que requieren visibilidad fiable y de bajo mantenimiento de activos sin alimentación. Su combinación de batería de larga duración, carcasa robusta y reportes basados en movimiento reduce el servicio en campo y ayuda a mantener la telemetría fluyendo hacia Plaspy para su consolidación y análisis. Para gerentes de flota centrados en la ubicación de activos, alertas antirrobo e historial a largo plazo, el AT501 responde bien a esos objetivos operativos.
 
-## Por Qué Elegir Este Rastreador con Plaspy
+Este modelo está orientado al monitoreo a nivel de activos y no ofrece interfaces de bus vehicular ni entradas analógicas dedicadas para diagnósticos de motor o vehículo. La integración con Plaspy se centra en llevar posición, eventos de movimiento y estado del dispositivo a su vista de flota, y la personalización por parte del proveedor puede ayudar a asegurar que los formatos y los intervalos de reporte se ajusten a sus requerimientos operativos.
 
-Como rastreador GPS compatible con Plaspy, el AT501 está optimizado para organizaciones que necesitan una visibilidad de activos confiable y de larga duración sin mantenimientos frecuentes. Su batería reemplazable de 13,000 mAh y los modos de reporte de bajo consumo lo hacen ideal para grandes flotas de activos sin energía, donde se deben minimizar los ciclos de reemplazo de batería y las intervenciones en campo. Una robusta protección contra intrusiones y antenas internas reducen los puntos de fallo, mientras que el soporte multired celular ayuda a mantener la telemetría fluyendo hacia Plaspy incluso en áreas de cobertura marginal.
-
-La integración con Plaspy facilita la consolidación de seguimiento en tiempo real, telemetría y alertas de eventos en una única vista de gestión de flotas. Aunque el AT501 no está diseñado para telemetría de motores de vehículos \(no ofrece CANBus, ADC ni entradas de ignición\), destaca en detección anti-robos, alertas basadas en movimiento y historial de ubicación a largo plazo para activos. Sensores Bluetooth y la configuración BLE en sitio agilizan la puesta en marcha, y las personalizaciones proporcionadas por el fabricante aseguran que los formatos de reporte y las programaciones se alineen con sus flujos de trabajo y necesidades operativas de Plaspy.
-
+Para obtener más información sobre cómo Plaspy puede gestionar dispositivos de Astra Telematics como el AT501 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique la información técnica y los términos de garantía actuales con la documentación oficial del fabricante en https://astratelematics.com/.

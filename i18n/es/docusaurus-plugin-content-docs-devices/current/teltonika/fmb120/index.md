@@ -2,59 +2,61 @@
 slug: /teltonika/fmb120
 id: fmb120
 sidebar_label: FMB120
+title: Teltonika - FMB120
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto Teltonika FMB120 compatible con Plaspy para telemetría vehicular económica y control básico de flotas
+keywords:
+  - Teltonika FMB120
+  - Rastreador GPS FMB120
+  - Compatible con Plaspy
+  - Rastreador Teltonika
+  - Telemetría vehicular
+  - Seguimiento de flotas
+  - Rastreador GPS 2G
+  - Inmovilizador remoto
+  - Monitoreo de temperatura
+  - RFID iButton
 ---
+
 # Teltonika - FMB120
 
 ![FMB120](./tracker.png)
 
-El FMB120 es un rastreador GPS compacto, compatible con Plaspy, diseñado para telemática de vehículos de bajo costo y monitoreo remoto de flotas. Enfocado principalmente en redes 2G GSM, el FMB120 ofrece seguimiento continuo de ubicación, supervisión de estado esencial y admite medidas de control remoto de la flota, como la inmovilización del motor. Su reducido tamaño y las opciones de empaquetado flexibles lo convierten en una opción práctica para coches de alquiler, taxis, vehículos logísticos, transporte público y vehículos particulares que requieren un rastreo confiable y de bajo costo, así como telemetría básica.
+El Teltonika FMB120 es un rastreador GPS compacto y orientado al costo, diseñado para telemetría vehicular básica y monitoreo remoto de flotas. Pensado principalmente para despliegues donde la conectividad celular económica es suficiente, el dispositivo ofrece seguimiento continuo de ubicación, monitoreo de estados esenciales y la capacidad de inmovilización remota. Su formato reducido y las diversas opciones de presentación lo hacen ideal para autos de alquiler, taxis, vehículos de logística, transporte público y vehículos particulares que requieren seguimiento confiable y de bajo costo junto con telemetría sencilla.
 
-Cuando se integra con Plaspy, el FMB120 se convierte en un bloque de construcción sencillo para el seguimiento en tiempo real, flujos antifurto y telemetría impulsada por sensores. El dispositivo admite Bluetooth LE para balizas y sensores externos, un puerto 1-Wire para sondas de temperatura y compatibilidad con lectores RFID/iButton para identificación de conductor/activo, lo que facilita un monitoreo extendido como mercancía con control de temperatura, detección de imanes y alertas de movimiento. La integración compatible con Plaspy habilita actualizaciones de ubicación en vivo, alertas de eventos y control remoto del inmovilizador para una gestión eficiente de la flota.
+Como dispositivo compatible con Plaspy, el FMB120 funciona como un componente directo para seguimiento en tiempo real, flujos de trabajo antirobo y monitoreo basado en sensores dentro de la plataforma Plaspy. Cuando lo integre en Plaspy, el rastreador transmite datos de posición y eventos a los paneles y mapas de la plataforma, y puede ampliar el monitoreo con periféricos Bluetooth LE, sondas de temperatura 1-Wire y lectura por RFID o iButton. Esta combinación permite visibilidad de ubicación en vivo, alertas y control remoto básico desde Plaspy para las operaciones diarias de su flota.
 
-## Aspectos destacados
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para seguimiento de ubicación continuo y mapeo en tiempo real.
-- Conectividad 2G GSM \(bandas B2, B3, B5 y B8\) para una implementación económica en regiones donde 2G siga disponible.
-- Soporte de inmovilizador remoto para habilitar flujos antifurto y desactivación remota del motor.
-- Soporte de Bluetooth LE para sensores externos y balizas de identificación — monitoreo de temperatura, humedad, imanes y movimiento.
-- Puerto 1-Wire a bordo para integración directa de sensores de temperatura y compatibilidad con lectores RFID/iButton para identificación de conductor/activo.
-- E/S digital estándar para monitorización de encendido y eventos del vehículo e integración con flujos de telemática.
-- Múltiples SKU y opciones de empaque \(opciones de batería interna y accesorios Micro-USB\) para una adquisición e implementación flexibles.
+- Diseño compacto orientado a implementaciones de telemetría vehicular y monitoreo de flotas con sensibilidad al costo.
+- Seguimiento continuo por GPS para mapas en vivo y historial de rutas.
+- Conectividad celular 2G para telemetría económica en regiones donde 2G está disponible.
+- Soporte de inmovilizador remoto para flujos de trabajo antirobo y control remoto del vehículo.
+- Compatibilidad con Bluetooth LE para balizas y sensores externos, además de puerto 1-Wire para sondas de temperatura y conectividad de lector RFID iButton.
+- Entradas y salidas digitales estándar para monitoreo de ignición y eventos del vehículo, con opciones de empaquetado flexibles según necesidades de adquisición.
 
 ## Cómo funciona con Plaspy
 
-El FMB120 se conecta a Plaspy a través de la conexión celular del dispositivo para enviar datos de ubicación y eventos a la plataforma Plaspy. Una vez dado de alta, el rastreador transmite actualizaciones de posición y telemetría de estado a Plaspy, donde aparecen en paneles, mapas en vivo e informes automatizados. Plaspy procesa los eventos de E/S y los datos de sensores Bluetooth del dispositivo, de modo que puedes definir geocercas, recibir comandos de inmovilización y activar alertas ante desviaciones de temperatura o movimientos no autorizados.
+El FMB120 se conecta a través de su enlace celular para transmitir datos de ubicación, eventos y sensores a Plaspy. Una vez que incorpore el dispositivo, Plaspy procesa la telemetría entrante y la presenta mediante mapas en vivo, reglas de alerta e informes para que los equipos de operaciones puedan supervisar los vehículos y responder a incidentes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para rastreo en vivo y reproducción histórica.
-- Encendido y estado de eventos del vehículo reportados a través de la E/S digital del dispositivo para el registro de viajes y reglas de comportamiento del conductor.
-- Los flujos de monitoreo de combustible son compatibles cuando se empareja con sensores externos o integraciones \(se requieren sensores o interfaces de vehículo adecuados\).
-- Control remoto del inmovilizador — Plaspy puede enviar comandos de inmovilización para respuesta antirrobo y control remoto de la flota.
-- Sensores y balizas Bluetooth \(BLE\) compatibles para monitoreo de temperatura, humedad, imanes y movimiento mediante periféricos compatibles.
+- Actualizaciones de posición en tiempo real y reproducción histórica disponibles en los mapas y líneas de tiempo de Plaspy.
+- Los eventos de entradas digitales, como ignición o señales de puertas, aparecen en Plaspy para el registro de viajes y la aplicación de reglas operativas.
+- Desde Plaspy se pueden emitir comandos al inmovilizador remoto para soportar respuestas antirobo y flujos de control de la flota.
+- Datos de sensores y balizas Bluetooth LE, así como lecturas de sondas de temperatura 1-Wire, pueden activar alertas y reglas de monitoreo dentro de Plaspy.
+- Alertas de geocercas, notificaciones de movimiento e informes automatizados facilitan la supervisión y el cumplimiento.
 
-## Resumen técnico
+## Casos de uso habituales
 
-| Conectividad | 2G GSM \(datos celulares para telemetría y comandos\) |
-| --- | --- |
-| Bandas | B2 / B3 / B5 / B8 \(soporte de frecuencias 2G GSM\) |
-| Alimentación y batería | Disponible con o sin batería interna, según el SKU; opciones de cable Micro-USB disponibles en algunos packs |
-| Interfaces | Puerto 1-Wire para sensores de temperatura, compatibilidad con lector RFID/iButton, E/S digital estándar para eventos del vehículo y control del inmovilizador |
-| GNSS | Seguimiento de ubicación basado en satélite para actualizaciones de posición continuas y historial de rutas |
-| Bluetooth | Bluetooth Low Energy \(BLE\) para balizas y periféricos de sensores externos \(temperatura, humedad, imán, movimiento\) |
-| Gestión remota | Documentación, descargas de firmware y drivers disponibles; base de conocimientos y recursos de soporte para instalación y configuración |
-| Formato | Rastreador compacto para vehículo — diseñado para instalación en vehículos; múltiples configuraciones comerciales de empaque \(opciones en lote disponibles\) |
-
-## Casos de uso
-
-- Antirrobo de flotas y inmovilización — desactiva los vehículos de forma remota y recibe alertas de robo a través de Plaspy cuando se detecta movimiento no autorizado.
-- Transporte de carga monitoreado por temperatura — empareja sensores de temperatura BLE o 1-Wire para envíos refrigerados o sensibles y monitoriza condiciones a través de Plaspy.
-- Monitoreo de tracking de alquiler, taxi y carsharing — identificación del conductor mediante RFID/iButton, registro de viajes y ubicación en tiempo real para supervisión operativa.
-- Gestión básica de flotas para pequeñas y medianas flotas — rastreo GPS, eventos de telemática y asignación de activos sin planes celulares de alto costo.
-- Monitoreo de activos y de puertas/alarma — activar alertas desde entradas I/O estándar o sensores magnéticos para detectar aperturas de puertas o intentos de manipulación.
+- Flotas de alquiler, taxis y carsharing que requieren rastreo económico, identificación de conductor y registro de viajes.
+- Flotas logísticas pequeñas y medianas que buscan visibilidad básica de rutas y protección contra robo.
+- Carga con monitoreo de temperatura usando 1-Wire o sensores BLE externos para alertas de condición.
+- Transporte público y vehículos de servicio donde rastreadores compactos y de bajo costo brindan conciencia de flota.
+- Monitoreo de activos y seguridad donde se requieren alertas por apertura de puertas, movimiento o manipulación.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Emparejar el FMB120 con Plaspy ofrece una solución pragmática y rentable de telemática para operadores que necesitan un seguimiento en tiempo real fiable y control esencial de la flota sin requerimientos de hardware complejos. La conectividad 2G del dispositivo mantiene bajos los costos operativos en regiones donde 2G está disponible, mientras que el soporte de Bluetooth LE y 1-Wire permiten ampliar la telemetría a sensores de temperatura, humedad y presencia. Con capacidad de inmovilización remota y E/S estándar para el encendido y eventos del vehículo, el FMB120 admite flujos antifurto y monitoreo básico del vehículo de serie.
+Combinar el FMB120 con Plaspy ofrece a las organizaciones una opción de telemetría pragmática cuando las prioridades son eficacia de costos, despliegue sencillo y control esencial de la flota. Su tamaño reducido y las SKUs flexibles facilitan la adquisición y el despliegue en distintos tipos de vehículos, mientras que el soporte de Bluetooth LE y 1‑Wire permite ampliar la telemetría para monitoreo de temperatura o presencia sin necesidades de hardware complejas. La capacidad de inmovilización remota y las entradas E/S estándar permiten a Plaspy implementar reglas prácticas antirobo y operativas.
 
-Los equipos operativos se benefician de múltiples SKU y opciones de empaque, descargas de firmware y controladores accesibles, y una base de conocimientos que simplifica la implementación y el mantenimiento. Cuando se integra con Plaspy, el FMB120 habilita seguimiento en vivo, alertas y una gestión remota simple, proporcionando la fiabilidad y telemetría necesarias para flotas de alquiler, logística, servicios de taxi y operaciones de carga sensibles a la temperatura.
+Para equipos que requieren seguimiento en vivo confiable, integración básica de sensores y control remoto sencillo, el FMB120 y Plaspy ofrecen una solución equilibrada. Plaspy proporciona la visibilidad, las alertas y los informes necesarios para gestionar las operaciones diarias de la flota sin complejidad innecesaria.
 
+Para obtener más información sobre cómo funciona Plaspy con dispositivos compatibles y las funciones de gestión de flotas, visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en el sitio del fabricante https://www.teltonika-gps.com/.

@@ -2,59 +2,62 @@
 slug: /queclink/gv310lau
 id: gv310lau
 sidebar_label: GV310LAU
+title: QuecLink - GV310LAU
 sidebar_class_name: menu_item_tracker
+description: Rastreador robusto QuecLink GV310LAU LTE para camiones y autos compatible con Plaspy para seguimiento de flotas y telemetría antirrobo
+keywords:
+  - queclink gv310lau
+  - queclink gv310
+  - gv310lau rastreador
+  - GV310 LAU GPS
+  - rastreador LTE para vehículos
+  - dispositivo seguimiento de flotas
+  - rastreador compatible con Plaspy
+  - telemetría vehicular
+  - rastreador antirrobo
+  - seguimiento sensores BLE
 ---
+
 # QuecLink - GV310LAU
 
 ![GV310LAU](./tracker.png)
 
-El GV310LAU es un rastreador GPS LTE Cat 4 robusto, diseñado para aplicaciones vehiculares exigentes y es compatible con Plaspy desde el primer momento. Diseñado para camiones pesados y automóviles, combina conectividad LTE de alta velocidad con posicionamiento GNSS de múltiples constelaciones para ofrecer seguimiento en tiempo real fiable y telemetría rica para la gestión de flotas y flujos de trabajo de antirrobo.
+El GV310LAU es un rastreador GPS resistente con LTE Cat 4, diseñado para aplicaciones vehiculares exigentes, incluidos camiones pesados y automóviles. Combina posicionamiento GNSS multiconstelación con conectividad celular de alta velocidad para ofrecer ubicación y telemetría confiables en tiempo real. El equipo es compacto y está pensado para uso continuo en vehículos, con entradas configurables, captura CAN y funciones integradas orientadas a la gestión de flotas y a flujos de trabajo antirobo.
 
-Compacto y duradero, el GV310LAU integra captura CAN, entradas/salidas configurables, BLE 5.2 para sensores Bluetooth y alarmas avanzadas que Plaspy puede ingerir para alertas automatizadas, acciones con geocercas y intervenciones remotas como el control del inmovilizador. Su amplio rango de voltaje y la batería de respaldo aseguran un flujo de datos ininterrumpido hacia Plaspy para monitorización y diagnóstico continuos.
+Este modelo es compatible con Plaspy desde el primer momento, por lo que los datos del GV310LAU pueden integrarse en Plaspy para paneles, alertas e informes. Sus avanzadas capacidades de alarma y las opciones de control remoto se acoplan de forma natural a los flujos de trabajo de Plaspy, permitiendo a los operadores supervisar el estado del vehículo, responder a eventos e incorporar datos de sensores a las operaciones de la flota sin necesidad de una configuración adicional extensa.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy con conectividad LTE Cat 4 y respaldo a 3G/2G para cobertura global y seguimiento en tiempo real robusto.
-- Receptor GNSS All-in-One de u-blox de alta precisión \(GPS/GLONASS/Galileo/Beidou\) que proporciona precisión de posición autónoma por debajo de 2 m y TTFF rápido.
-- I/O del vehículo de amplio alcance: puerto RS232 \(Molex de 16 pines\); entradas digitales y analógicas configurables \(incluyendo encendido y analógica de 0–16 V\); salida digital con retención; interfaces de micrófono y altavoz; captura CAN; expansión de accesorios a través de módulos Queclink y de socios.
-- Radio BLE 5.2 interno para soportar sensores y balizas Bluetooth para telemetría adicional \(temperatura, proximidad\) y monitoreo de accesorios.
-- Captura de datos CAN y soporte de accesorios de socios para ampliar telemetría, monitoreo de combustible e integración de diagnósticos con Plaspy.
-- Alarmas y características de seguridad avanzadas: detección de impactos, detección de interferencias \(jamming\), alarmas de remolque y de encendido, monitoreo de conducción agresiva y geocercas \(hasta 20 regiones\).
-- Formato compacto y robusto con rango de voltaje operativo amplio \(8–32V DC\) y batería de respaldo Li-Polymer de 250 mAh para protección ante pérdida de energía.
+- Rastreador compatible con Plaspy con conectividad LTE Cat 4 y mecanismos de conmutación para seguimiento en tiempo real y resiliente
+- GNSS u‑blox multiconstelación para posiciones de alta precisión y rápido tiempo al primer fix
+- Amplio soporte de E/S vehicular, incluyendo captura CAN y entradas digitales y analógicas configurables para telemetría diversa
+- Soporte interno BLE 5.2 para sensores y beacons Bluetooth, ampliando la monitorización a temperatura y proximidad
+- Alarmas avanzadas como choque, interferencia por jamming, remolque y geocercas que pueden activar acciones en Plaspy
+- Tolerancia amplia de voltaje de funcionamiento y batería de respaldo para mantener el flujo de datos durante cortes de energía
+- Factor de forma compacto y robusto, adecuado para vehículos pesados y despliegues de flotas mixtas
 
 ## Cómo funciona con Plaspy
 
-El GV310LAU envía ubicación, CAN y telemetría de sensores a Plaspy utilizando protocolos telemáticos estándar \(TCP/UDP/SMS\). Plaspy asimila estos datos en tiempo real para visualización en el panel, reproducción de rutas, informes programados y alertas automáticas. Las entradas y alarmas configurables en GV310LAU se mapean directamente a eventos de Plaspy para que los operadores de flota puedan activar notificaciones, secuencias de inmovilización o flujos de trabajo de servicio.
+Al conectarse a Plaspy, el GV310LAU transmite ubicación, señales del vehículo y telemetría de sensores para que Plaspy muestre posiciones en vivo, reproduzca rutas y dispare notificaciones basadas en reglas. Las entradas configurables y los estados de alarma del rastreador aparecen como eventos en Plaspy, lo que le permite a usted —como gestor de la flota— crear respuestas automatizadas, informes programados y alertas operativas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas por LTE \(con respaldo a 3G/2G\) para un seguimiento continuo en Plaspy.
-- Estado del vehículo: detección de encendido y otras entradas digitales/analógicas reportan eventos de inicio/parada y el estado del vehículo a Plaspy para informes precisos de kilometraje y ciclo de trabajo.
-- Monitoreo de combustible y telemetría de sensores vía la entrada analógica 0–16V y captura CAN—ideal para datos de nivel de combustible, motor y diagnósticos en los tableros de Plaspy.
-- Inmovilizador remoto e intervenciones: control OTA de salidas digitales permite inmovilización remota iniciada por Plaspy y acciones a distancia donde el flujo de trabajo y la normativa lo admitan.
-- Sensores/balizas Bluetooth: la conectividad BLE 5.2 permite a Plaspy recibir datos de temperatura, proximidad o balizas para monitorización de carga refrigerada o presencia de activos.
+- Actualizaciones de ubicación y telemetría en tiempo real a través de la red celular para visibilidad continua en Plaspy
+- Informes de estado del vehículo desde encendido y otras entradas para un seguimiento preciso de ciclos de trabajo y kilometraje
+- Telemetría por CAN y entradas analógicas para monitorizar combustible, datos del motor y diagnóstico mostrados en los paneles de Plaspy
+- Salidas remotas y mapeo de alarmas que permiten intervenciones iniciadas por Plaspy, como control de inmovilizador cuando los flujos de trabajo y la normativa lo permiten
+- Integración de datos de sensores BLE y beacons en Plaspy para monitorización de temperatura o presencia de carga y activos
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE Cat 4 con respaldo a 3G y 2G \(protocolos telemáticos TCP/UDP/SMS\) |
-| --- | --- |
-| Bandas | Amplia gama de bandas LTE-FDD y LTE-TDD para cobertura regional amplia \(variantes compatibles globalmente\) |
-| Alimentación y batería | Voltaje operativo 8–32V DC; batería de respaldo Li-Polymer interna de 250 mAh para continuidad ante pérdidas de energía |
-| Interfaces | Un puerto RS232 serial \(Molex de 16 pines\); entradas digitales y analógicas configurables \(incluyendo encendido y 0–16V analógico\); salida digital con retención; interfaces de micrófono y altavoz; captura CAN; expansión de accesorios vía Queclink y módulos de socios |
-| GNSS | Receptor GNSS All-in-One de u-blox que soporta GPS, GLONASS, Galileo y Beidou; precisión autónoma \< 2 m; TTFF: frío ~24 s, caliente ~1 s; antena GNSS interna con soporte opcional para antena externa |
-| Bluetooth | BLE 5.2 interno para conectar sensores y balizas Bluetooth \(sensores de temperatura, proximidad\) |
-| Gestión remota | Soporta protocolos TCP/UDP/SMS; control OTA remoto de salidas digitales y alarmas configurables; certificado \(incluido FCC\) |
-| Formato | Diseño compacto y robusto de 80 × 48 × 25 mm, 74 g — optimizado para instalaciones en vehículos |
-
-## Casos de uso
-
-- Gestión de flotas para camiones pesados y flotas mixtas — seguimiento en tiempo real, reproducción de rutas, comportamiento del conductor e informes programados para una visibilidad operativa.
-- Anti‑robo e inmovilización — alarmas disparadas por Plaspy y control remoto de salidas para inmovilizar o recuperar vehículos robados.
-- Telemática de seguros y monitoreo de riesgos — detección de impactos, informes de conducción agresiva y telemática para programas de seguros basados en el uso.
-- Carga y activos sensibles a la temperatura — sensores BLE transmiten datos de temperatura y presencia a Plaspy para cargas refrigeradas o envíos de alto valor.
-- Diagnóstico de vehículos y monitoreo de combustible — captura CAN y entradas analógicas permiten registrar y analizar datos de nivel de combustible, motor y sensores en Plaspy.
+- Gestión de flotas en tiempo real para camiones pesados y flotas mixtas que requieren seguimiento y reportes continuos
+- Flujos de trabajo antirobo y recuperación que emplean alarmas y capacidades de intervención remota coordinadas desde Plaspy
+- Programas de aseguramiento y monitoreo de riesgo que aprovechan eventos de choque y conducción agresiva para telemática
+- Monitorización de carga sensible a la temperatura mediante sensores BLE que alimentan alertas y registros en Plaspy
+- Diagnóstico vehicular y control de niveles de combustible vía CAN y entradas analógicas para mejorar la eficiencia operativa
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GV310LAU ofrece un equilibrio entre GNSS de precisión, conectividad celular robusta e I/O versátil, lo que lo hace una opción práctica para operadores que requieren hardware compatible con Plaspy. Su receptor u-blox de múltiples constelaciones y el módem LTE Cat 4 aseguran fijaciones de posición precisas y rápidas y una entrega de datos de baja latencia para el seguimiento en tiempo real. Las entradas configurables, la captura CAN y el soporte BLE amplían el alcance de telemetría de Plaspy hacia monitoreo de combustible, diagnósticos y flujos de trabajo impulsados por sensores.
+El GV310LAU combina conectividad robusta, posicionamiento GNSS preciso y E/S flexible para funcionar como hardware práctico para organizaciones que usan Plaspy. Su conjunto de funciones permite recopilar una amplia gama de datos vehiculares y de sensores y encaminar esa información a Plaspy para supervisión, informes y respuestas automatizadas. El dispositivo es apropiado para flotas mixtas donde la durabilidad, el flujo de datos ininterrumpido y la telemetría ampliada son prioridades.
 
-Para flotas y programas de seguros que requieren antirrobo fiable, capacidad de inmovilización remota y reportes de eventos integrales, el GV310LAU ofrece las señales necesarias y vías de control remoto que Plaspy puede orquestar. Diseñado para vehículos con una amplia tolerancia de voltaje, batería de respaldo interna y una huella robusta, este rastreador proporciona a los gestores de flotas e integradores un hardware fiable que se integra de forma limpia en la plataforma de Plaspy para una gestión de flotas escalable, telemetría y aplicaciones de seguridad.
+Al ser compatible con Plaspy desde el primer momento, el esfuerzo de integración se reduce y los equipos de flota pueden centrarse en configurar alertas y flujos de trabajo dentro de Plaspy en vez de resolver detalles de conectividad o protocolo. Su soporte BLE, captura CAN y opciones de alarma hacen del GV310LAU una elección útil cuando se extiende Plaspy a monitorización de combustible, cargas refrigeradas y programas antirobo.
 
+Para saber más sobre cómo Plaspy puede usar el GV310LAU para seguimiento de flotas y telemetría visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por favor verifique los detalles actuales en el sitio del fabricante https://www.queclink.com/.

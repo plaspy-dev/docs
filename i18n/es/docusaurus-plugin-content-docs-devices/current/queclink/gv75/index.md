@@ -2,63 +2,59 @@
 slug: /queclink/gv75
 id: gv75
 sidebar_label: GV75
+title: QuecLink - GV75
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS resistente IP67 compatible con Plaspy para vehículos embarcaciones y maquinaria pesada
+keywords:
+  - QuecLink GV75
+  - Rastreador GV75
+  - GV75 compatible con Plaspy
+  - Rastreador GPS GV75
+  - Rastreador GPS impermeable
+  - Rastreador para vehículos
+  - Seguimiento de flotas
+  - Seguimiento en tiempo real
+  - Rastreador GNSS
+  - Rastreador antirrobo
 ---
+
 # QuecLink - GV75
 
 ![GV75](./tracker.png)
 
-# GV75 Waterproof Vehicle Tracker — Plaspy Compatible
+El GV75 es un rastreador GPS resistente con certificación IP67 diseñado para entornos exteriores exigentes y aplicaciones vehiculares. Construido alrededor de un receptor u‑blox GNSS y comunicaciones celulares cuatribanda, el GV75 ofrece seguimiento de ubicación en tiempo real fiable, telemetría extendida y una serie de alarmas antirrobo. Su carcasa robusta y su amplio rango de temperatura operativa lo hacen adecuado para motocicletas, embarcaciones, maquinaria agrícola y equipos pesados donde la durabilidad y el seguimiento continuo son esenciales.
 
-El GV75 es un rastreador GPS robusto, con clasificación IP67, diseñado para entornos exteriores exigentes y vehículos. Basado en un receptor GNSS All‑in‑One de u‑blox y comunicaciones GSM/GPRS de cuatro bandas, el GV75 ofrece seguimiento en tiempo real confiable, telemetría extendida y alertas antirrobo robustas para motocicletas, embarcaciones, maquinaria agrícola y equipos pesados. Como rastreador compatible con Plaspy, el GV75 se integra en la plataforma de Plaspy para proporcionar actualizaciones de posición en vivo, alertas de geocercas y informes de gestión de flotas configurables.
+Como dispositivo compatible con Plaspy, el GV75 se integra con la plataforma de seguimiento de Plaspy para ofrecer actualizaciones de posición en vivo, alertas configurables por geocerca e informes de gestión de flota. Cuando está conectado a Plaspy, el almacenamiento con búfer de mensajes del rastreador y el registro de eventos ayudan a garantizar la continuidad de los datos de ubicación y alarmas para la supervisión operativa, los flujos de trabajo de seguridad y el análisis histórico.
 
-Diseñado para la fiabilidad en temperaturas extremas y condiciones ásperas, el GV75 combina posicionamiento GNSS de alta precisión \(CEP inferior a 2,5 m\) con una batería de respaldo Li‑Polímero de 1100 mAh y hasta 10,000 mensajes en búfer para retención persistente de datos cuando los activos quedan fuera de la cobertura celular. Con múltiples entradas/salidas y un puerto serie RS232 \(soporte del protocolo GARMIN\), el GV75 admite telemetría extendida como monitoreo de temperatura e identificación del conductor, y puede configurarse a través de Plaspy para eventos de ignición, alarmas de remolque y control remoto de salidas.
+## Aspectos destacados
 
-## Aspectos Clave
+- Carcasa resistente e impermeable IP67, apta para uso en exteriores, embarcaciones y vehículos industriales.  
+- Posicionamiento GNSS preciso mediante un receptor u‑blox para informes de ubicación fiables.  
+- Amplio búfer de mensajes para mejorar la retención de datos cuando los activos se salen de cobertura celular.  
+- Batería de respaldo integrada para mantener el reporte durante pérdidas temporales de energía.  
+- Múltiples entradas y una interfaz serial para admitir telemetría extendida e integración de sensores externos.  
+- Alarmas configurables incluyendo arrastre (towing), batería baja y encendido para soportar alertas de seguridad y operación.
 
-- Rastreador GPS compatible con Plaspy para una integración fluida en paneles de seguimiento en tiempo real y flujos de gestión de flotas.
-- Caja impermeable IP67, robusta, diseñada para uso en motocicletas, embarcaciones, maquinaria agrícola y maquinaria pesada.
-- GNSS de alta precisión de u‑blox — precisión de posición autónoma inferior a 2,5 m CEP para informes de ubicación fiables.
-- GSM/GPRS de cuatro bandas \(850/900/1800/1900 MHz\) con transporte TCP/UDP/SMS para conectividad flexible.
-- Batería de respaldo Li‑Polímero de 1100 mAh y hasta 10,000 mensajes en búfer aseguran la retención de datos fuera de cobertura.
-- Múltiples entradas/salidas digitales, una salida digital con enclavamiento y puerto RS232 para telemetría externa e integración de dispositivos.
-- Alarmas configurables \(ignición, batería baja, encendido\), hasta 20 geocercas internas, detección de colisiones y comportamiento de conducción.
+## Cómo funciona con Plaspy
 
-## Cómo Funciona con Plaspy
+Al funcionar con Plaspy, el GV75 envía fijaciones de ubicación y eventos del dispositivo a la plataforma para que los gestores de flota puedan monitorear activos en tiempo real, revisar recorridos históricos y recibir notificaciones automáticas de eventos configurados. Plaspy procesa la telemetría y los datos de alarma del equipo, mostrándolos en mapas en vivo, en reportes y como parte de las alertas operativas.
 
-Cuando se empareja con Plaspy, el GV75 transmite de forma segura la ubicación y la telemetría a la plataforma utilizando transporte TCP, UDP o SMS. Plaspy ingiere fijaciones GNSS y eventos del dispositivo para que los gestores de flotas puedan monitorizar activos en tiempo real, revisar rutas históricas y recibir alertas automáticas por motivos de seguridad u operativos. El almacenamiento de mensajes en búfer del GV75 y su comportamiento ante fallos de la red celular mejoran la fiabilidad de activos que frecuentemente se desplazan fuera y dentro de la cobertura.
+- Actualizaciones de ubicación y telemetría en tiempo real a Plaspy para seguimiento en mapas en vivo y visibilidad de rutas.  
+- Entradas digitales y eventos de encendido informados a Plaspy para registrar actividades de arranque y paro y eventos del conductor.  
+- Alarmas de arrastre, batería baja y encendido entregadas a Plaspy para notificación y reporte inmediato.  
+- Integración serial para incorporar telemetría extendida como sensores externos o datos de identificación de conductor en Plaspy.  
+- Mensajes en búfer y comportamiento ante fallas celulares que mejoran la continuidad de datos para activos que entran y salen de cobertura.
 
-- Actualizaciones en tiempo real de ubicación y telemetría mediante TCP/UDP/SMS a Plaspy para el seguimiento en mapa en vivo y la planificación de rutas.
-- Eventos de ignición y entradas digitales reportados a Plaspy para la actividad del conductor, registros de inicio/parada y disparo de alarmas.
-- Alarmas de remolque, batería baja y encendido entregadas como notificaciones push o informes a los usuarios de Plaspy.
-- Integración RS232 \(protocolo GARMIN\) para telemetría extendida, como sensores de temperatura y datos de ID del conductor que alimentan a Plaspy.
-- Control OTA de salidas digitales a través de Plaspy para acciones remotas \(p. ej., activación de relés\), útil para flujos de trabajo de inmovilización o control remoto cuando están configurados.
+## Casos de uso típicos
 
-## Resumen Técnico
+- Gestión de flotas para seguimiento continuo de ubicación, informes basados en geocercas y supervisión operativa.  
+- Antirrobo y recuperación de vehículos robados utilizando alarmas de arrastre y encendido combinadas con mensajería en búfer.  
+- Monitoreo de motocicletas y embarcaciones donde se requiere un diseño compacto e impermeable y fijaciones GNSS fiables.  
+- Supervisión de equipos pesados y maquinaria agrícola con carcasa robusta y amplia compatibilidad de voltaje.  
+- Recolección de telemetría extendida cuando se conectan sensores externos o sistemas de identificación de conductor a través de la interfaz serial.
 
-| Conectividad | GSM/GPRS de cuatro bandas \(GPRS multi-slot class 12\); transporte TCP/UDP/SMS |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz |
-| Alimentación & Batería | Operación 8–32 V DC; batería de respaldo Li‑Polímero de 1100 mAh; duraciones en modo de espera varían según el intervalo de reporte \(ejemplos proporcionados por el fabricante\) |
-| Interfaces | Puerto serie RS232 \(soporte del protocolo GARMIN\); 1 entrada digital positiva y 1 negativa; 1 salida digital + 1 salida digital enclavada \(open drain, 150 mA máx\) |
-| GNSS | Receptor GNSS All‑in‑One de u‑blox; precisión autónoma \< 2.5 m CEP; sensibilidad de seguimiento hasta −162 dBm; TTFF rápido \(hot start ~1 s\) |
-| Bluetooth | No se especifica Bluetooth incorporado; sensores externos pueden integrarse vía RS232 o entradas digitales donde sea compatible |
-| Gestión Remota | Control OTA de salidas digitales; mensajes en búfer \(hasta 10,000\); geocercas y alarmas configurables |
-| Forma & Durabilidad | Carcasa impermeable IP67 y robusta; antenas internas celular y GNSS; LEDs indicadores para CEL, GPS y PWR |
-| Certificaciones | FCC, CE, E‑Mark, Anatel |
-| Ambiental | Temperatura de operación −30°C a +80°C |
+## Por qué elegir este rastreador con Plaspy
 
-## Casos de Uso
+El GV75 combina hardware resistente con posicionamiento GNSS fiable y conectividad flexible para cubrir diversas necesidades de seguimiento de vehículos y activos. Su carcasa impermeable, amplio búfer de mensajes y conjunto de alarmas configurables lo convierten en una opción práctica para organizaciones que requieren seguimiento resiliente en entornos adversos. Plaspy integra los datos del GV75 en un panel unificado para visibilidad en vivo, alertas e informes, ayudando a los equipos a actuar de forma más eficiente ante eventos de ubicación y seguridad.
 
-- Gestión de flotas — seguimiento continuo de ubicación, telemetría de comportamiento de conducción e informes basados en geocercas para la supervisión operativa.
-- Antirrobo y recuperación de vehículos robados — alarmas de remolque y encendido combinadas con mensajes en búfer reducen la pérdida de datos y aceleran las operaciones de recuperación.
-- Monitoreo de motocicletas y embarcaciones — diseño compacto y resistente al agua para fijaciones GNSS fiables en aplicaciones marinas y de dos ruedas.
-- Maquinaria pesada y maquinaria agrícola — carcasa robusta y amplio rango de voltaje \(8–32 V\) para instalaciones en vehículos industriales.
-- Integración extendida de telemetría — soporte RS232/GARMIN permite monitoreo de temperatura, ID del conductor y otros datos de sensores externos para alimentar informes de Plaspy.
-
-## Por Qué Elegir Este Rastreador con Plaspy
-
-El GV75 combina hardware robusto y posicionamiento GNSS de precisión con conectividad flexible para ofrecer un seguimiento en tiempo real y gestión de flotas confiables cuando se integra con Plaspy. Su carcasa impermeable IP67 y su amplio rango de temperatura operativa lo hacen ideal para aplicaciones al aire libre, marinas e industriales donde la durabilidad es clave. Los usuarios de Plaspy se benefician del amplio búfer de mensajes del GV75, de múltiples tipos de alarmas y de la integración serial, que permiten ingerir telemetría y datos de ID del conductor para obtener análisis más ricos y un mayor control operativo.
-
-Para flotas que requieren protección antirrobo, telemetría precisa y la posibilidad de ampliar sensores mediante RS232, el GV75 ofrece una solución compacta y certificada. Al estar conectado a Plaspy, los gerentes obtienen mapas en vivo, alertas configurables, historial de comportamiento de conducción y control remoto de salidas — habilitando casos de uso desde flujos de inmovilización hasta telemetría de combustible y temperatura cuando se empareja con sensores externos compatibles. El resultado es una solución de rastreador GPS escalable y confiable que mejora la visibilidad en tiempo real, la seguridad y la eficiencia de la flota.
-
+Para obtener más información sobre el uso del GV75 con Plaspy visite https://www.plaspy.com y consulte la documentación del fabricante en https://www.queclink.com/ para conocer las especificaciones técnicas y la disponibilidad más recientes. Las especificaciones y la disponibilidad de los productos pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales con la documentación oficial del fabricante.

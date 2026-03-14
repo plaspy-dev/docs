@@ -2,17 +2,62 @@
 slug: /calmamp/ttu_700
 id: ttu_700
 sidebar_label: TTU-700
+title: CalmAmp - TTU-700
 sidebar_class_name: menu_item_tracker
+description: Rastreador de remolques a batería para despliegues prolongados con batería interna antenas internas gestión OTA y compatibilidad con Plaspy
+keywords:
+  - CalmAmp TTU-700
+  - TTU-700 rastreador
+  - rastreo de remolques
+  - rastreo de activos
+  - rastreador a batería
+  - rastreador para despliegues prolongados
+  - compatible con Plaspy
+  - rastreo de flotas
+  - CalmAmp PEG
+  - CalmAmp PULS
 ---
+
 # CalmAmp - TTU-700
 
 ![TTU-700](./logo.jpg)
 
-El TTU-700 de CalmAmp es un rastreador GPS de remolques no recargable diseñado para despliegues fiables a largo plazo. Es una solución ideal para la gestión de activos que se desplegarán durante largos períodos sin necesidad de mantenimiento.
+El CalmAmp TTU-700 es un rastreador de remolques alimentado por batería no recargable, diseñado para despliegues prolongados donde la baja necesidad de mantenimiento y la larga duración son prioritarias. Combina un formato compacto con una batería interna de 57 Ah y antenas integradas de celular y GPS, lo que permite montajes flexibles en remolques y otros activos sin requerir antenas cableadas adicionales.
 
-El TTU-700 cuenta con un tamaño compacto, un rendimiento superior de GPS y una batería interna de 57 Ah. Es un dispositivo completo de seguimiento de remolques y activos que utiliza tecnología GPS de alta sensibilidad en redes celulares GSM/GPRS, CDMA 1xRTT y HSPA. Con antenas internas de alta calidad para las comunicaciones celulares y GPS, el TTU-700 se puede montar prácticamente en cualquier lugar del remolque, lo que facilita su instalación y reduce los costos. Los mensajes se transmiten a través de la red celular utilizando SMS o mensajes UDP, lo que garantiza una comunicación confiable entre el dispositivo y los servidores de aplicaciones. El TTU-700 está diseñado para reducir el costo de propiedad, el consumo de energía y el tamaño, al tiempo que mejora la confiabilidad en el campo.
+Como dispositivo compatible con Plaspy, el TTU-700 puede enviar información de ubicación y eventos a Plaspy para proporcionar visibilidad a nivel de flota y supervisión operativa. Su soporte para mensajería celular estándar y reglas de eventos a bordo, junto con la gestión por aire de CalmAmp, lo convierten en una opción práctica cuando necesita seguimiento persistente de activos desplegados por periodos prolongados.
 
-El TTU-700 ofrece flexibilidad gracias a su motor de alertas PEG \(Programmable Event Generator\) de CalAmp. Este motor avanzado monitorea las condiciones externas y permite definir reglas basadas en excepciones para satisfacer las necesidades específicas de la aplicación. PEG supervisa continuamente el entorno del vehículo y responde instantáneamente a las condiciones predefinidas relacionadas con el tiempo, la fecha, el movimiento, la ubicación, la zona geográfica, las entradas y otras combinaciones de eventos. Con PEG, su aplicación cumplirá con los requisitos de los clientes más exigentes. Estas configuraciones pueden ser programadas por CalAmp antes del envío, en las instalaciones del cliente o de forma remota una vez que la unidad ha sido enviada.
+## Aspectos destacados
 
-El TTU-700 también aprovecha el sistema de gestión de dispositivos y mantenimiento over-the-air de CalAmp, llamado PULS \(Programming, Updates, and Logistics System\). Los parámetros de configuración, las reglas de PEG y el firmware completo se pueden actualizar de forma inalámbrica. PULS ofrece actualizaciones automáticas de configuración y mantenimiento posteriores a la instalación, lo que permite supervisar el estado de salud de las flotas de sus clientes y detectar rápidamente problemas antes de que se conviertan en costosos.
+- Diseño alimentado por batería y no recargable pensado para despliegues prolongados con menor necesidad de mantenimiento.
+- Batería interna de 57 Ah y tamaño compacto para montajes discretos y mayor vida útil en campo.
+- Antenas integradas de celular y GPS que eliminan la necesidad de antenas externas cableadas y simplifican la instalación.
+- Soporta múltiples familias de redes celulares y utiliza SMS o mensajería UDP para comunicaciones confiables.
+- Motor de eventos programable a bordo PEG para generar alertas configurables basadas en tiempo, movimiento, ubicación y entradas.
+- Gestión por aire con PULS para actualizaciones remotas de configuración, supervisión y mantenimiento de firmware.
+- Diseñado para reducir el costo total de propiedad mejorando la fiabilidad en campo y la eficiencia energética.
 
+## Cómo funciona con Plaspy
+
+Al integrarse con Plaspy, el TTU-700 entrega datos de ubicación y eventos a la plataforma, donde pueden mostrarse, analizarse y accionarse dentro de los flujos de trabajo de gestión de flotas o activos. Plaspy ingiere los mensajes del dispositivo y expone el estado y los eventos para supervisión e informes.
+
+- Visibilidad de ubicación en tiempo real y periódica en los paneles de Plaspy para remolques y activos de larga duración.
+- Monitoreo de flota y alertas operativas basadas en reglas PEG, presentadas en Plaspy para manejo de excepciones.
+- Notificaciones por geocerca y movimiento para detectar cambios de ubicación o desplazamientos no autorizados.
+- Indicadores remotos del estado y salud del dispositivo en Plaspy para apoyar la planificación de mantenimiento.
+- Uso de PULS para actualizaciones por aire y cambios de parámetros coordinados con los listados y reportes de Plaspy.
+
+## Casos de uso típicos
+
+- Rastreo a largo plazo de remolques para flotas que dejan activos estacionados o almacenados por largos periodos.
+- Monitoreo de contenedores y equipos estáticos que requieren comprobaciones de ubicación ocasionales sin servicio frecuente.
+- Activos en alquiler o leasing donde el bajo mantenimiento y el rastreo confiable aumentan la visibilidad operativa.
+- Gestión de inventario en patios y depósitos donde los dispositivos montados de forma discreta reducen manipulaciones y cableado.
+- Activos estacionales o intermitentes que necesitan mucha autonomía de batería entre intervenciones de servicio.
+
+## Por qué elegir este rastreador con Plaspy
+
+El TTU-700 es ideal para organizaciones que buscan una solución de rastreo de bajo mantenimiento para remolques y otros activos que permanecerán desplegados por largos periodos. Su batería interna y antenas integradas permiten opciones de instalación flexibles, mientras que PEG y PULS aportan la inteligencia a bordo y las capacidades de gestión remota que complementan naturalmente a una plataforma de flota como Plaspy.
+
+Elegir el TTU-700 con Plaspy proporciona a los equipos operativos una combinación confiable de hardware de larga vida y una plataforma capaz de consolidar ubicaciones, alertas y estado de dispositivos en flujos de trabajo a nivel de flota. Para usuarios que priorizan un bajo costo de propiedad y despliegues sencillos en campo, este rastreador ofrece un equilibrio entre durabilidad y gestionabilidad remota.
+
+Para obtener más información sobre Plaspy visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique la información actual en el sitio oficial de CalmAmp http://www.calamp.com/.

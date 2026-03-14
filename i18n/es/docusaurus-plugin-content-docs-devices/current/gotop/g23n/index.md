@@ -2,59 +2,62 @@
 slug: /gotop/g23n
 id: g23n
 sidebar_label: G23N
+title: GOTOP - G23N
 sidebar_class_name: menu_item_tracker
+description: Rastreador NB‑IoT compacto para vehículos G23N compatible con Plaspy, seguimiento en tiempo real, alertas antirrobo e inmovilización remota
+keywords:
+  - GOTOP G23N
+  - rastreador G23N
+  - NB‑IoT GPS
+  - rastreador GPS para vehículos
+  - seguimiento de flotas
+  - compatible con Plaspy
+  - inmovilizador remoto
+  - seguimiento en tiempo real
+  - GNSS multiconstelación
+  - batería de respaldo
 ---
+
 # GOTOP - G23N
 
 ![G23N](./tracker.jpg)
 
-El rastreador G23N NB‑IoT GPS es un rastreador GPS compacto de grado vehicular diseñado para una integración Plaspy compatible de forma fluida. Construido alrededor del módulo Quectel BC26 LTE Cat NB1 y un motor GNSS ZKMicro, el G23N combina posicionamiento GPS + BDS + LBS para entregar seguimiento en tiempo real y telemetría fiables para coches, motocicletas, bicicletas eléctricas y desplegues más amplios de gestión de flotas.
+El GOTOP G23N es un rastreador NB‑IoT de grado vehicular, compacto, diseñado para el monitoreo continuo de ubicación y el control práctico del vehículo. Construido alrededor del módulo Quectel BC26 NB‑IoT y un motor GNSS ZKMicro, el G23N ofrece posicionamiento multiconstelación (GPS + BDS + LBS) y entradas/salidas para vehículo, como detección de ACC y una salida de baja potencia para corte remoto de alimentación o combustible. Su tamaño reducido y amplio rango de entrada DC lo hacen adecuado para automóviles, motocicletas, bicicletas eléctricas y vehículos comerciales ligeros.
 
-Diseñado para un bajo consumo de energía y una instalación sencilla, el G23N admite una entrada DC amplia \(9V–95V\), detección ACC, salida remota de corte de energía y combustible y múltiples condiciones de alarma útiles para flujos de trabajo anti‑robo. Su factor de forma compacto y las antenas internas simplifican la instalación, mientras que la integración con Plaspy desbloquea ubicación, estado, alarmas y control remoto a través de una única plataforma.
+Como dispositivo compatible con Plaspy, el G23N transmite información de ubicación, estado y alarmas a Plaspy para soportar mapas en vivo, notificaciones y reportes de flota. Los usuarios de Plaspy pueden visualizar los eventos y las entradas del rastreador en paneles y flujos de trabajo para respuesta antirrobo, monitoreo de encendido y supervisión operativa, convirtiendo al dispositivo en una opción práctica para flotas y operaciones de renta que requieren telemetría de bajo consumo y amplia cobertura con una integración directa a la plataforma.
 
-## Aspectos clave
+## Características principales
 
 - Compatible con Plaspy para seguimiento en tiempo real y paneles de gestión de flotas.
-- Conectividad NB‑IoT \(Quectel BC26\) para telemetría de bajo consumo y amplia cobertura, con mayor vida útil de despliegue.
-- Posicionamiento multiconstelación \(GPS + BDS + LBS\) con precisión de ~5 m para informes de ubicación precisos.
-- Entradas y salidas de grado vehicular: detección ACC, detección de tensión/DC y una salida de corte remoto de energía y combustible \(control tipo inmovilizador\).
-- Carcasa compacta y tolerante a la intemperie \(77 × 28 × 15 mm, ABS\) adecuada para instalaciones discretas en coches, motocicletas y vehículos comerciales ligeros.
-- Batería de respaldo opcional \(80 mAh, 3.7V\) y alarmas por pérdida de energía para anti‑robo y operación offline de corta duración.
-- Reacceso rápido de GNSS \(arranque en caliente ~1 s\) y alta sensibilidad de seguimiento \(−162 dBm\) para mantener señales en entornos desafiantes.
+- Conectividad NB‑IoT mediante el módulo Quectel BC26 para telemetría de bajo consumo y amplia cobertura.
+- Posicionamiento multiconstelación (GPS + BDS + LBS) para reportes de ubicación fiables.
+- Entradas/salidas de grado vehicular, incluyendo detección de ACC y salida para corte remoto de alimentación o combustible.
+- Carcasa compacta y resistente a la intemperie, diseñada para una instalación discreta en autos y motocicletas.
+- Batería de respaldo opcional y alarmas por pérdida de energía para soportar operación corta sin conexión y flujos de trabajo antirrobo.
+- Rápida reacquisición GNSS y alta sensibilidad para mantener el bloqueo de posición en entornos urbanos.
 
 ## Cómo funciona con Plaspy
 
-Cuando se conecta a Plaspy, el G23N transmite datos de posicionamiento y eventos del vehículo a través de NB‑IoT para proporcionar visibilidad operativa continua. Plaspy ingiere mensajes de ubicación, telemetría y alarmas y los presenta como marcadores en vivo, rutas e informes para los gestores de flotas. Las entradas y salidas del dispositivo se asignan directamente a las funciones habituales de Plaspy para acciones anti‑robo, monitorización de ignición y control remoto de corte.
+Al integrarse con Plaspy, el G23N entrega actualizaciones continuas de posición, cambios en el estado de entradas y mensajes de alarma que Plaspy transforma en marcadores en el mapa en tiempo real, notificaciones de eventos y reportes de flota. Plaspy ingiere la telemetría del rastreador y la presenta junto con otros activos, de modo que los responsables puedan monitorear ubicación, tiempo de operación y alarmas críticas desde una sola plataforma.
 
-- Actualización de ubicación y telemetría en tiempo real mediante NB‑IoT \(Quectel BC26\) — compatible con los feeds de seguimiento de Plaspy.
-- Estado ACC/ignición vía H‑IN para monitorización de encendido y tiempo de funcionamiento y reglas de eventos.
-- Detección de energía/pérdida de energía y alarma de apagado para protección de vehículos sin supervisión y alertas automáticas.
-- Salida remota de corte de energía/combustible para activar intervenciones al estilo inmovilizador desde Plaspy cuando se autorice.
-- Soporte de batería de respaldo para operación de corta duración y alarmas fuera de línea cuando se retira la energía externa — Plaspy marca estos eventos para la respuesta anti‑robo.
+- Ubicación en vivo e historial de movimiento mostrados en los mapas de Plaspy y reproducción de rutas.
+- Gestión de eventos y alarmas por pérdida de energía, disparos antirrobo y reglas personalizadas en Plaspy.
+- Monitoreo de encendido y tiempo de uso mediante el estado de ACC para soportar reportes de conductores y análisis de uso.
+- Inmovilización remota y señales de control representadas como eventos accionables dentro de los flujos de trabajo de Plaspy.
+- Batería de respaldo y alertas por modo fuera de línea visibles en Plaspy para que los equipos reaccionen ante cortes de energía temporales.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | NB‑IoT \(Quectel BC26, LTE Cat NB1\) |
-| --- | --- |
-| Bandas | B1/B2/B3/B4/B5/B8/B12/B13/B17/B18/B19/B20/B25/B26/B28/B66 |
-| Alimentación y batería | Entrada DC 9V–95V; Corriente de operación a 12V: 30–60 mA; Corriente en reposo a 12V: 5–15 mA; Batería de respaldo opcional 80 mAh, 3.7V |
-| Interfaces | 1 × salida de bajo nivel \(corte de energía/combustible\), 1 × H‑IN \(detección ACC\), 1 × UART‑TTL \(5V\) para configuración e integración |
-| GNSS | GPS + BDS + LBS; Módulo GNSS ZKMicro AT6558D; Precisión de posicionamiento ≈ 5 m; Arranque en frío ≈ 32 s; Arranque en caliente ≈ 1 s; Sensibilidad de seguimiento −162 dBm |
-| Ambiental | Rango de temperatura de operación −30°C a 75°C; Almacenamiento −30°C a 80°C; Humedad 5%–95% |
-| Factor de forma | 77 × 28 × 15 mm; Carcasa de plástico ABS; Peso 32 g |
-| Gestión remota | Configuración e integración vía UART‑TTL \(5V\). No se especifica un método de FOTA o gestión en la nube en la descripción del dispositivo. |
-
-## Casos de uso
-
-- Gestión de flotas para parques de vehículos pequeños a medianos — ubicación continua, telemetría y datos de runtime en los paneles de Plaspy.
-- Monitoreo de vehículos de alquiler o a crédito — alarmas anti‑robo, notificaciones de corte de energía y capacidad de inmovilización remota a través de la salida de bajo nivel.
-- Taxis, coches de pasajeros y motocicletas — instalación compacta, detección ACC y rápida reacquisición de GNSS para operación urbana.
-- Camiones ligeros y vehículos de reparto — amplio rango de entrada DC \(9V–95V\) que admite diversos sistemas eléctricos y reduce visitas de mantenimiento.
-- Seguridad de activos donde la conectividad NB‑IoT de bajo consumo y el mantenimiento mínimo son prioritarios — ideal para despliegues largos con reportes periódicos.
+- Seguimiento de flotas pequeñas y medianas para visibilidad continua e informes operativos.
+- Monitoreo de vehículos de renta y vehículos con crédito, con alertas antirrobo e inmovilización remota.
+- Automóviles particulares, taxis y motocicletas que requieren instalación compacta y rápida reacquisición GNSS.
+- Vehículos de reparto ligero que se benefician de un amplio rango de entrada DC y telemetría de bajo mantenimiento.
+- Despliegues prolongados donde la eficiencia energética de NB‑IoT y el mantenimiento mínimo son prioridad.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El G23N ofrece una mezcla optimizada de telemetría NB‑IoT de bajo consumo, posicionamiento multiconstelación y E/S vehiculares prácticas que se integran de forma natural con las funciones de seguimiento en tiempo real y gestión de flotas de Plaspy. Para operadores que buscan controles anti‑robo, la salida de corte de energía/petróleo y las alarmas por pérdida de energía permiten acciones remotas decisivas, mientras que la detección ACC proporciona señales claras de encendido y tiempo de funcionamiento para telemetría e informes de comportamiento del conductor.
+El G23N combina la eficiencia del NB‑IoT, posicionamiento GNSS multiconstelación y entradas vehiculares prácticas que se integran de forma natural en las funciones de monitoreo y reporte de Plaspy. Su diseño prioriza una larga vida de despliegue y un mapeo sencillo de los eventos del dispositivo hacia los flujos de trabajo de la plataforma, lo que ayuda a las operaciones a implementar procedimientos antirrobo, monitoreo de encendido y lógica de control remoto sin grandes modificaciones a sus sistemas de flota.
 
-Elige el G23N con Plaspy cuando necesites un rastreador GPS compacto que enfatice la fiabilidad, una larga vida de despliegue y una integración sencilla. La conectividad NB‑IoT del dispositivo reduce el consumo de energía celular y el costo operativo en muchos despliegues, el rendimiento GNSS ofrece una ubicación precisa para planificación de rutas y flujos de recuperación, y las entradas/salidas físicas soportan controles esenciales del vehículo como monitoreo de encendido y corte al estilo inmovilizador. Tenga en cuenta que el G23N se centra en telemetría NB‑IoT y no incluye sensores Bluetooth; la integración a través del puerto UART‑TTL permite configuración y emparejamiento del sistema cuando sea necesario.
+Para organizaciones que buscan un rastreador compacto con bajo consumo y una integración clara en una única plataforma de flotas, el G23N ofrece una opción equilibrada que se alinea con las capacidades de seguimiento y alertas en tiempo real de Plaspy. Aunque el dispositivo está orientado a telemetría NB‑IoT y entradas vehiculares, la plataforma de Plaspy contextualiza esas señales para necesidades de despacho, recuperación y generación de reportes.
 
+Para obtener más información sobre Plaspy y cómo puede funcionar con rastreadores compatibles como el GOTOP G23N visite https://www.plaspy.com. Las especificaciones de producto y su disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y la documentación más reciente del fabricante en el sitio oficial de GOTOP https://www.gotop.cc/.

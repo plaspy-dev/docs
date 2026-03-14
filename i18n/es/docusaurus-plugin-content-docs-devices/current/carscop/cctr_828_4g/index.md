@@ -2,62 +2,60 @@
 slug: /carscop/cctr_828_4g
 id: cctr_828_4g
 sidebar_label: CCTR-828-4G
+title: Carscop - CCTR-828-4G
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto Carscop CCTR-828-4G compatible con Plaspy para seguimiento vehicular en tiempo real, alertas antirrobo y monitoreo de flotas
+keywords:
+  - Carscop CCTR-828-4G
+  - CCTR-828-4G compatible con Plaspy
+  - rastreador Carscop
+  - rastreador GPS vehicular
+  - dispositivo de seguimiento de flotas
+  - rastreador GPS 4G
+  - rastreador GPRS
+  - GPS antirrobo
+  - rastreador con batería de respaldo
+  - rastreador GPS oculto
 ---
+
 # Carscop - CCTR-828-4G
 
 ![CCTR-828-4G](./tracker.JPG)
 
-# CCTR-828-4G
+El CCTR-828-4G es un rastreador GPS vehicular compacto de Carscop diseñado para el seguimiento de ubicación en tiempo real y telemetría básica anti robo. Combina conectividad celular y un receptor GNSS de alta sensibilidad con batería interna recargable de respaldo, amplia tolerancia de voltaje de entrada y un diseño discreto pensado para instalaciones ocultas en automóviles, vehículos comerciales ligeros, motocicletas y vehículos similares.
 
-El CCTR-828-4G es un rastreador GPS compacto para vehículos, diseñado para una implementación fluida y compatible con Plaspy en la gestión de flotas, alquiler y monitoreo de vehículos personales. Con conectividad celular 2G/4G \(Cat1\), antenas GPS y celulares integradas de alta sensibilidad, y una batería de respaldo recargable, el CCTR-828-4G ofrece seguimiento en tiempo real confiable y telemetría antirrobo esencial para coches, camiones, motocicletas y vehículos comerciales ligeros.
+Este modelo es relevante como dispositivo compatible con Plaspy porque admite reportes GPRS abiertos y ajustes de red configurables, lo que permite que el rastreador envíe datos de ubicación y eventos a los servidores de Plaspy para monitoreo y generación de reportes en vivo. Al apuntarlo a Plaspy, la unidad puede integrarse en la supervisión de flotas, reproducción de historial y flujos de alertas gestionados desde las interfaces y aplicaciones móviles de Plaspy.
 
-Diseñado para instalación oculta y amplia compatibilidad con vehículos, este rastreador GPS admite un rango de voltaje de entrada amplio \(9–90 V\), un comportamiento de envío de datos configurable, envíos activados por movimiento y capacidad de apagado remoto del motor \(se requiere un relé de corte adicional\). Se integra con apps móviles \(iPhone y Android\), admite protocolo abierto GPRS para integración con plataformas de terceros, y puede dirigirse a los servidores de Plaspy para supervisión y reportes en tiempo real de la flota.
+## Características principales
 
-## Aspectos destacados
-
-- Compatible con Plaspy: protocolo GPRS abierto y servidor/APN configurables facilitan la integración con Plaspy para seguimiento en tiempo real y gestión de flotas.
-- Conectividad de red dual: admite 2G GSM y 4G \(Cat1\) para amplia cobertura celular y transmisiones de telemetría estables.
-- Antenas GNSS y celulares integradas de alta sensibilidad para instalación discreta y posicionamiento fiable tanto en interiores como al aire libre.
-- Batería de respaldo recargable con alarma de corte de energía y detección de manipulación para una mayor protección antirrobo.
-- Entrada amplia de 9–90 V para soportar coches, camiones, autobuses, motocicletas y otras clases de vehículos sin módulos de alimentación adicionales.
-- Sensor de movimiento con subida inmediata cuando se detecta movimiento y subida configurable en reposo para ahorrar batería.
-- Apagado remoto del motor soportado \(control de inmovilizador\) para control similar a un inmovilizador cuando se integra en flujos de seguridad de la flota \(requiere el relé de corte externo\).
-- Incluye cableado y manual de usuario; su formato compacto facilita el montaje oculto.
+- Compatibilidad con Plaspy mediante protocolo GPRS abierto y ajustes de servidor configurables para una integración sencilla.
+- Soporte celular dual que cubre 2G y 4G Cat1 para ofrecer opciones amplias de conectividad para cargas telemétricas.
+- Antenas GNSS y celulares de alta sensibilidad integradas para mejorar el posicionamiento en distintos entornos.
+- Batería de respaldo recargable con alarma por corte de energía y detección de extracción para mayor capacidad antirrobo.
+- Amplio rango de entrada de 9 a 90 V, adecuado para uso en diversas clases de vehículos sin módulos de alimentación adicionales.
+- Sensor de movimiento y comportamiento de carga configurable para optimizar la frecuencia de reporte y conservar recursos del equipo.
+- Factor de forma compacto y discreto que facilita el montaje oculto para instalaciones seguras.
 
 ## Cómo funciona con Plaspy
 
-El CCTR-828-4G envía ubicación y telemetría a un servidor de Internet mediante GPRS sobre 2G o 4G Cat1. Para hacer que el dispositivo sea compatible con Plaspy, dirija la IP del servidor y el APN del rastreador a su instancia de Plaspy \(el servidor/APN puede configurarse por SMS\). Una vez dirigido a Plaspy, la unidad proporciona un seguimiento en tiempo real continuo, subidas basadas en eventos y reproducción de historial a través de la interfaz y las apps móviles de Plaspy.
+Cuando se configura para Plaspy, el CCTR-828-4G informa ubicación y eventos a la plataforma mediante su enlace celular y los ajustes de servidor configurables del dispositivo. Plaspy recibe esas cargas y las pone a disposición para seguimiento en vivo, gestión de eventos y revisión histórica en las interfaces web y móviles.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy vía GPRS \(2G/4G Cat1\).
-- Alarma de corte de energía y detección de retirada notifican a Plaspy de inmediato ante manipulación o cortes de energía.
-- El sensor de movimiento activa una subida instantánea cuando se detecta movimiento para una respuesta rápida ante el robo.
-- El apagado remoto del motor \(control del inmovilizador\) es compatible cuando se instala y configura el relé de corte requerido a través de los controles de Plaspy.
-- Comportamiento de subida configurable \(p. ej., detener las subidas cuando el vehículo esté inmóvil durante 2 minutos\) para conservar la batería del dispositivo y el uso de la red, manteniendo al mismo tiempo telemetría crítica para el análisis de Plaspy.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para visibilidad operativa de la flota.
+- Notificaciones inmediatas de manipulación y corte de energía enviadas a Plaspy cuando el rastreador detecta extracción o pérdida de alimentación principal.
+- Cargas activadas por movimiento que permiten a Plaspy detectar y alertar rápidamente sobre movimientos no esperados del vehículo.
+- Soporte para inmovilización remota disponible cuando se instala un relé de corte externo e integra en los flujos de trabajo de Plaspy.
+- Reglas de carga configurables que reducen reportes innecesarios preservando los datos que Plaspy necesita para análisis de rutas e informes operativos.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | Conectividad celular 2G GSM y 4G \(Cat1\); envíos vía GPRS al servidor especificado |
-| --- | --- |
-| Bandas | Bandas especificadas por el fabricante no proporcionadas en la descripción |
-| Alimentación y batería | Rango de voltaje de entrada 9–90 V; batería de respaldo recargable integrada para alarma de corte de energía y detección de retirada |
-| Interfaces | Juego de arneses de cableado incluido; admite apagado remoto del motor mediante relé de corte externo; red/servidor/APN configurable vía SMS |
-| GNSS | Antena GPS integrada de alta sensibilidad \(integrada para instalaciones compactas y ocultas\) |
-| Bluetooth | No especificado \(no documentado BLE integrado\) |
-| Gestión remota | Se integra con apps móviles \(iPhone y Android\); protocolo abierto GPRS para plataformas de terceros; compatible con la plataforma de seguimiento Carscop \(www.999gps.net\); admite cuentas de usuario jerarquizadas y páginas opcionales de dominio/inicio de sesión de marca blanca |
-| Factor de forma | Compacto: 84 × 44 × 15 mm; peso de la unidad aprox. 55 g \(conjunto completo ~150 g\); unidad principal + cableado incluido |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real y telemetría para flotas mixtas \(coches, camiones y autobuses\) utilizando paneles e informes de Plaspy.
-- Operaciones de alquiler y taxi: reproducción del historial de ubicación, geocerca y alarmas de exceso de velocidad para proteger activos y hacer cumplir políticas.
-- Antirrobo e inmovilización: alarmas de corte de energía, detección de retirada y apagado remoto del motor \(con relé externo\) proporcionan seguridad en capas.
-- Vehículos de ingeniería y servicio: el amplio rango de voltaje de entrada y su tamaño compacto permiten la instalación en diversos tipos de vehículos, incluyendo barcos y equipos todoterreno.
-- Integración con plataformas de terceros: protocolo abierto GPRS permite conexiones a Plaspy u otros sistemas de telemetría basados en servidor para informes personalizados.
+- Gestión de flotas mixtas que requieren visibilidad continua de posición y registro histórico de eventos.
+- Operaciones de renta y taxis que necesitan reproducción de historial, alertas por geocercas y reportes de incidentes.
+- Monitoreo antirrobo donde las alarmas por corte de energía, la detección de extracción y la inmovilización remota forman parte de los procedimientos de seguridad.
+- Vehículos de servicio e ingeniería que se benefician de la amplia tolerancia de voltaje de entrada y del diseño compacto del rastreador.
+- Proyectos de integración con plataformas de terceros donde el reporte GPRS abierto permite enrutar datos hacia Plaspy u otros sistemas basados en servidor.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Para operadores que buscan un rastreador GPS compatible con Plaspy que equilibre un diseño compacto con características de nivel de flota, el CCTR-828-4G ofrece una opción práctica y confiable. Su conectividad dual 2G/4G garantiza un flujo continuo de datos, mientras que las antenas de alta sensibilidad y la batería de respaldo recargable mejoran la fiabilidad del posicionamiento y la resiliencia ante el robo. La lógica de envío configurable y los reportes activados por movimiento reducen el tráfico de datos innecesario, manteniendo el seguimiento en tiempo real cuando más importa.
+El CCTR-828-4G es una opción práctica para organizaciones que buscan un rastreador compacto con funciones orientadas a flotas e integración simple en Plaspy. Su combinación de soporte de voltaje amplio, alertas de batería de respaldo, reportes activados por movimiento y opciones de reporte abiertas lo hace adecuado para flujos de trabajo comunes de flotas y protección de activos sin exigir configuraciones complejas.
 
-La integración es sencilla: utilice el protocolo abierto GPRS y la configuración de red basada en SMS para dirigir los dispositivos a un servidor de Plaspy, y despliegue acceso de usuario multinivel para agentes, distribuidores y usuarios finales. Ya sea que necesite telemetría para visibilidad operativa, control de encendido/inmovilizador para seguridad, o simple reproducción de historial y notificaciones de geocerca, el CCTR-828-4G está diseñado para adaptarse a flujos de trabajo impulsados por Plaspy con una configuración mínima y gestión escalable.
-
+Si está evaluando rastreadores para usar con Plaspy, el CCTR-828-4G ofrece un equilibrio entre instalación discreta, lógica de carga configurable y señales de evento que Plaspy usa para alertas e informes operativos. Conozca más sobre cómo Plaspy puede utilizar dispositivos como el CCTR-828-4G para supervisión de flotas en el sitio web de Plaspy https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos y la compatibilidad actuales con el fabricante en http://www.carscop.com/ antes de finalizar cualquier despliegue.

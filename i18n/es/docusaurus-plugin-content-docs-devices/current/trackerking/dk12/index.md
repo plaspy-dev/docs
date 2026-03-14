@@ -2,59 +2,60 @@
 slug: /trackerking/dk12
 id: dk12
 sidebar_label: DK12
+title: TrackerKing - DK12
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto y resistente DK12, compatible con Plaspy para seguimiento de flotas en tiempo real y protección antirrobo
+keywords:
+  - TrackerKing DK12
+  - rastreador DK12
+  - rastreador TrackerKing
+  - DK12 GPS
+  - DK12 compatible con Plaspy
+  - seguimiento de flotas
+  - rastreador vehicular
+  - rastreo de activos
+  - rastreador antirrobo
+  - rastreador GPS 4G
 ---
+
 # TrackerKing - DK12
 
 ![DK12](./tracker.jpg)
 
-El DK12 es un rastreador GPS robusto y multifunción diseñado para despliegues compatibles con Plaspy donde se requieren seguimiento en tiempo real fiable y medidas anti-robo robustas. Construido alrededor del módulo SIMCOM7670SA, el DK12 admite 4G Cat1 con conmutación automática a 2G y variantes opcionales Cat-M / NB‑IoT, lo que lo convierte en una opción práctica para gestión de flotas, monitoreo de vehículos de alquiler, logística y seguridad general de activos en entornos con cobertura mixta.
+El DK12 es un rastreador robusto y multifunción diseñado para instalaciones en vehículos y activos que requieren seguimiento confiable en tiempo real y medidas antirrobo efectivas. Basado en el módulo SIMCOM7670SA, el DK12 ofrece conectividad 4G Cat1 con conmutación automática a 2G y variantes opcionales Cat M y NB IoT, además de una carcasa impermeable y un amplio rango de entrada de 9–90V para uso flexible en automóviles, camiones y equipos móviles.
 
-La construcción impermeable del dispositivo y su amplio rango de entrada de 9–90V lo hacen apto para una amplia gama de instalaciones en vehículos y activos. Con funciones orientadas al vehículo, como detección de encendido ACC, soporte de encendido virtual, corte remoto del motor y del combustible, y un informe completo de alarmas, el DK12 se integra en sistemas basados en Plaspy para ofrecer telemetría fiable, historial de rutas y mitigación de robos sin necesidad de trabajos de personalización complejos.
+Como dispositivo compatible con Plaspy, el DK12 puede transmitir datos de ubicación, alarmas y telemetría a la plataforma Plaspy, permitiendo monitoreo en vivo, reproducción histórica de rutas y acciones antirrobo coordinadas. Sus funciones orientadas a vehículos, como detección de encendido ACC, soporte de encendido virtual y corte remoto de motor o combustible, lo convierten en una opción práctica para gerentes de flota y operadores de renta que desean combinar hardware resistente con la visibilidad y reglas de alerta del sistema Plaspy.
 
-## Aspectos destacados
+## Características principales
 
-- Rastreador GPS compatible con Plaspy con conectividad 4G Cat1 y con conmutación automática a 2G para un seguimiento en tiempo real ininterrumpido.
-- Funciones anti-robo orientadas a vehículos, incluido el corte remoto del motor y del combustible \(inmovilizador\) y soporte de encendido virtual.
-- Amplio rango operativo \(9–90V\) y construcción impermeable para una instalación flexible en automóviles, camiones y activos móviles.
-- Alarmas integrales: alarma de vibración, geocerca, avisos por exceso de velocidad y retransmisión en zonas ciegas para mejorar la fiabilidad de la cobertura.
-- Reproducción de rutas históricas y estadísticas de kilometraje/cálculo del odómetro para la gestión de flotas y la generación de informes de cumplimiento.
-- Compatible con protocolos de rastreador comunes \(GT06, JT808, Tianqin\) para simplificar la integración con servidores Plaspy y plataformas de terceros.
-- Detección de voltaje de batería externa y telemetría para monitoreo remoto del estado eléctrico del vehículo.
+- Rastreador compatible con Plaspy que ofrece conectividad 4G Cat1 con conmutación automática a 2G y variantes opcionales Cat M o NB IoT para entornos con cobertura mixta.
+- Controles antirrobo orientados a vehículo, incluyendo corte remoto de motor y de suministro de combustible, y soporte de encendido virtual para facilitar una respuesta rápida ante incidentes.
+- Construcción impermeable y amplio rango de entrada de 9–90V para operación confiable en automóviles, camiones y equipos móviles.
+- Informes completos de alarmas, que incluyen alarma por vibración, geocerca y exceso de velocidad, para respaldar el monitoreo y las alertas en Plaspy.
+- Reproducción de rutas históricas y estadísticas de kilometraje para supervisión de flota y reportes operativos.
+- Compatibilidad con protocolos comunes de rastreadores como GT06, JT808 y Tianqin para simplificar la integración con los servidores de Plaspy y los flujos de trabajo estándar de la plataforma.
+- Detección de voltaje de batería externa y reporte de telemetría para monitoreo remoto del estado eléctrico del vehículo.
 
 ## Cómo funciona con Plaspy
 
-Cuando está conectado a Plaspy, el DK12 envía continuamente datos de ubicación y telemetría usando protocolos de rastreador estándar, lo que permite el seguimiento en tiempo real, alertas y reproducción de rutas históricas dentro del panel de Plaspy. La ingestión flexible de Plaspy admite mensajes GT06, JT808 y Tianqin, de modo que el DK12 puede transmitir fijaciones de posición, eventos de alarma y kilometraje directamente en sus flujos de trabajo de Plaspy con una configuración mínima.
+Al integrarse con Plaspy, el DK12 envía posiciones, eventos de alarma y mensajes de telemetría a la plataforma Plaspy, donde la ubicación, las alertas y el historial se presentan junto con los datos del resto de la flota. Plaspy procesa mensajes estándar de rastreadores, por lo que los dispositivos DK12 pueden incorporarse con mínimo trabajo de protocolo y mapearse en paneles y reglas de alerta existentes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real para el monitoreo en vivo de la flota y la gestión de despachos.
-- Informe del estado de encendido \(detección ACC y encendido virtual\) para activar alertas de Plaspy y registros de sesiones del conductor.
-- Capacidad de inmovilización remota \(corte del motor y del combustible\) para respuestas anti-robo coordinadas desde Plaspy.
-- Eventos de alarma \(vibración, geocerca, exceso de velocidad\) enviados a Plaspy para notificaciones inmediatas y acciones basadas en reglas.
-- Telemetría de kilometraje/odómetro y voltaje de batería externa para mantenimiento preventivo y análisis de monitoreo de combustible.
+- Actualizaciones de ubicación y telemetría en tiempo real para monitoreo activo de la flota y coordinación de despachos.
+- Reporte del estado de encendido, incluida la detección ACC y el encendido virtual, para alimentar registros de sesiones de conductor y reglas operativas.
+- Acciones remotas de inmovilizador, como corte de motor o combustible, coordinadas desde Plaspy para mitigar robos.
+- Eventos de alarma, incluyendo vibración, geocerca y exceso de velocidad, enviados a Plaspy para notificaciones inmediatas y respuestas automatizadas.
+- Reporte de kilometraje y odómetro, además de telemetría de voltaje de batería externa para planificación de mantenimiento y acciones preventivas.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Connectivity | 4G Cat1 con conmutación automática a 2G; Cat‑M y NB‑IoT disponibles como variantes opcionales |
-| --- | --- |
-| Bands | Bandas/regiones no especificadas; el dispositivo recurre a 2G cuando 4G no está disponible |
-| Power & Battery | Rango de voltaje de entrada amplio 9–90V; detección de voltaje de batería externa \(no especificada batería de respaldo\) |
-| Interfaces | Entrada de encendido ACC, soporte de encendido virtual, corte remoto de motor y combustible \(inmovilizador\), entradas de alarma digitales |
-| GNSS | Posicionamiento GPS con ubicación en tiempo real precisa, reproducción de rutas históricas y retransmisión en zonas ciegas |
-| Bluetooth | Los sensores Bluetooth no se describen para este modelo \(el uso de sensores Bluetooth depende de la configuración del sistema\) |
-| Remote Management | Compatible con protocolos de rastreador comunes \(GT06, JT808, Tianqin\) para la integración de plataformas; FOTA/actualización remota no especificada |
-| Form Factor | Imprimable, montaje en vehículo/activo adecuado para aplicaciones de flota y logística |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, reproducción de rutas, informes de kilometraje y alertas por exceso de velocidad para optimizar operaciones y el comportamiento del conductor.
-- Anti-robo de vehículos: inmovilización mediante corte remoto del motor y del combustible, combinado con alarmas de vibración y geocerca para una respuesta rápida ante incidentes.
-- Monitoreo de coches de alquiler y logística: informe de encendido, reproducción de historial y retransmisión de zonas ciegas mantienen la visibilidad en áreas con cobertura variable.
-- Seguridad de activos: diseño impermeable y tolerancia de voltaje amplia permiten la instalación en remolques, equipos móviles y activos no alimentados con monitoreo de energía externo.
-- Cumplimiento y mantenimiento: estadísticas de odómetro/kilometraje y telemetría de voltaje de batería soportan el mantenimiento programado y reducen el tiempo de inactividad.
+- Gestión de flotas con seguimiento en vivo, reproducción de rutas y reportes de kilometraje para optimizar operaciones y rutas.
+- Soluciones antirrobo para vehículos que combinan inmovilización, alarmas y notificaciones de plataforma para una respuesta rápida.
+- Monitoreo de autos de renta y logística para mantener visibilidad en áreas de cobertura variable y apoyar auditorías de retorno.
+- Seguridad de activos como remolques y equipos móviles, aprovechando el diseño impermeable y la amplia tolerancia de voltaje.
+- Flujos de trabajo de cumplimiento y mantenimiento que utilizan estadísticas de odómetro y telemetría de voltaje para programar el mantenimiento.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El DK12 es un rastreador GPS compatible con Plaspy eficaz para organizaciones que necesitan telemetría fiable y consciente del vehículo, así como controles anti-robo. Su conectividad 4G + 2G basada en SIMCOM7670SA garantiza amplia cobertura de red y comportamiento de retroceso automático, minimizando lagunas de datos para el seguimiento en tiempo real. La detección de encendido integrada, el soporte de encendido virtual y las capacidades de inmovilizador remoto proporcionan a los equipos de operaciones un control directo para la mitigación de robos y la gestión de sesiones del conductor. La compatibilidad de protocolos con GT06, JT808 y Tianqin reduce el tiempo de integración, permitiendo incorporar dispositivos a Plaspy rápidamente sin parsers de protocolo personalizados.
+El DK12 es una opción práctica para organizaciones que necesitan telemetría orientada a vehículos junto con funciones antirrobo robustas y desean usar Plaspy como la plataforma central de monitoreo. Sus opciones de conectividad y compatibilidad de protocolos reducen el esfuerzo de integración, y el hardware del dispositivo está diseñado para afrontar las limitaciones comunes en instalaciones vehiculares gracias al amplio rango de voltaje de entrada y la carcasa impermeable.
 
-Para flotas y gestores de activos centrados en la resiliencia operativa, el amplio rango de voltaje y la construcción impermeable del DK12 reducen las restricciones de instalación. Cuando se combina con las herramientas de alerta, mapeo e informes de Plaspy, el DK12 ofrece un equilibrio práctico entre telemetría, funcionalidades anti-robo y facilidad de integración. Si su despliegue requiere sensores Bluetooth, Plaspy también puede aceptar datos de sensores complementarios dentro de la arquitectura general de su solución.
-
+Combine el DK12 con Plaspy para obtener mapeo, alertas y reportes consolidados sin conectores personalizados complejos. Para saber más sobre Plaspy y cómo puede gestionar dispositivos como el DK12 visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo; verifique las especificaciones actuales y las opciones de variantes en el sitio de TrackerKing https://trackerking.cn/.

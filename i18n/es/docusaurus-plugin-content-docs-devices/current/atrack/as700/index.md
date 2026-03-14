@@ -2,65 +2,63 @@
 slug: /atrack/as700
 id: as700
 sidebar_label: AS700
+title: ATrack - AS700
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS solar y resistente para activos exteriores de larga duración compatible con Plaspy para seguimiento y telemetría en tiempo real
+keywords:
+  - ATrack AS700
+  - rastreador AS700
+  - AS700 compatible con Plaspy
+  - rastreador GPS solar
+  - rastreador GPS resistente
+  - seguimiento de flotas
+  - seguimiento de activos
+  - rastreador de contenedores
+  - rastreador de generadores
+  - rastreador para exteriores de larga duración
 ---
+
 # ATrack - AS700
 
 ![AS700](./tracker.jpg)
 
-El AS700 es un rastreador GPS alimentado por energía solar, diseñado para despliegues exteriores a largo plazo y es compatible con Plaspy para una visibilidad unificada de activos. Construido para contenedores, generadores, remolques y maquinaria pesada, el AS700 combina un hardware robusto certificado IP68/IP69K y MIL-STD-810H con posicionamiento GNSS, conectividad LTE Cat.1 y soporte para sensores Bluetooth para brindar un seguimiento en tiempo real confiable y una vida útil ampliada en campo con mantenimiento mínimo.
+El AS700 es un rastreador GPS alimentado por energía solar, diseñado para despliegues exteriores a largo plazo y para el monitoreo industrial de activos. Pensado para contenedores, generadores, remolques y maquinaria pesada, combina una carcasa robusta certificada IP68/IP69K y MIL STD 810H con posicionamiento GNSS, conectividad celular y soporte para sensores Bluetooth, ofreciendo telemetría de ubicación y estado confiable con mantenimiento mínimo.
 
-Los usuarios de Plaspy obtienen acceso inmediato a telemetría, posicionamiento híbrido interior/exterior y estado de batería/energía solar desde el AS700. Ya sea que gestione flujos de trabajo de gestión de flotas, monitorización anti-robos o telemetría de activos en zonas amplias, este rastreador ofrece la durabilidad y las entradas de señales mixtas necesarias para despliegues industriales en entornos severos.
+Como dispositivo compatible con Plaspy, el AS700 ofrece visibilidad unificada de activos dentro de la plataforma Plaspy. Los usuarios de Plaspy pueden acceder a las posiciones, ayudas de posicionamiento híbrido interior/exterior y al estado de batería y carga solar para apoyar flujos de trabajo de flota, monitoreo antirrobo y telemetría de activos en áreas amplias. Esto hace al AS700 adecuado para operaciones que requieren hardware de rastreo duradero y de larga vida integrado en la gestión centralizada de flotas.
 
-## Aspectos clave
+## Puntos clave
 
-- Operación al aire libre a largo plazo: célula solar de 1.7W y batería interna de 8,000 mAh para mayor tiempo de funcionamiento y ciclos de mantenimiento reducidos.
-- Compatible con Plaspy para seguimiento en tiempo real y paneles de gestión de flotas, alertas e informes históricos.
-- Carcasa robusta y certificada: IP68 / IP69K y MIL-STD-810H para resistencia a vibraciones, impactos, niebla salina y caídas.
-- Posicionamiento híbrido: receptor GNSS de 99 canales \(GPS y GLONASS\) con escaneo Wi‑Fi y balizas Bluetooth para mejorar la precisión interior/exterior.
-- Diseño de bajo consumo: corriente de sueño profundo \<22 µA para maximizar la duración de la batería cuando los intervalos de reporte son infrecuentes.
-- Bluetooth Low Energy 5.0 \(Long Range\) para conectar sensores externos BL1 para monitorización de apertura de puertas, temperatura, humedad y ángulo.
-- Conectividad celular global a través del modelo LTE FDD Cat.1 \(AS700-LG\) y transporte de datos flexible sobre UDP/IP o TCP/IP.
-- Detección de movimiento y manipulación a bordo con un acelerómetro de 3 ejes de ±16 g para antirrobo y generación de informes basados en eventos.
+- Alimentación asistida por energía solar y gran capacidad interna para prolongar la autonomía en sitios remotos y reducir ciclos de mantenimiento.
+- Carcasa certificada y resistente con protección IP68 e IP69K además de resistencia mecánica MIL STD para entornos exigentes.
+- Compatibilidad con Plaspy para seguimiento en tiempo real, alertas e informes históricos dentro de los paneles de control de flota.
+- Posicionamiento híbrido que combina GNSS con escaneo de Wi Fi y soporte de balizas Bluetooth para mejorar la precisión en entornos mixtos.
+- Diseño de bajo consumo que maximiza la vida útil en campo entre ciclos de carga.
+- Soporte para sensores Bluetooth que permiten registrar estado de puertas, temperatura, humedad y ángulo para monitoreo de condiciones del activo.
+- Conectividad celular global disponible en variantes LTE Cat.1 para cobertura en áreas extensas.
 
 ## Cómo funciona con Plaspy
 
-El AS700 proporciona a Plaspy datos de posición y sensores a través de LTE. Plaspy ingiere fijaciones GNSS, datos de escaneo/testigo Wi‑Fi y telemetría de sensores Bluetooth para ofrecer seguimiento en tiempo real, alertas de geocercas y paneles de telemetría. El comportamiento de bajo consumo del dispositivo y los informes de carga solar permiten el monitorizado a largo plazo de activos remotos con actualizaciones automáticas de estado a Plaspy.
+El AS700 transmite datos de posición y sensores a Plaspy, donde se procesan para visualización, reglas y reportes. Plaspy ingiere las correcciones GNSS junto con datos testigo de Wi Fi y Bluetooth, y mapea la telemetría de batería y carga solar para ayudar a los equipos a mantener despliegues de largo plazo.
 
-- Ubicación y telemetría en tiempo real enviadas sobre LTE Cat.1 mediante UDP/IP o TCP/IP.
-- Estado de la batería y carga solar para la planificación de mantenimiento y comprobaciones de estado a distancia.
-- Eventos de movimiento y manipulación mediante el acelerómetro de 3 ejes para alertas inmediatas de antirrobo.
-- Datos de sensores Bluetooth \(serie BL1\): apertura de puerta, temperatura, humedad y reporte de ángulo para monitorización del estado del activo.
-- Escaneo Wi‑Fi y balizas Bluetooth para ayudar a Plaspy con posicionamiento híbrido interior/exterior cuando GNSS no está disponible.
-- Configuración local y gestión de firmware a través de ATrack Device Management \(ADM\) vía Bluetooth o USB Type-C.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas por conectividad celular para visibilidad activa de la flota.
+- Informes de batería y carga solar visibles en Plaspy para facilitar la programación de mantenimiento y revisiones remotas de estado.
+- Reporte de eventos de movimiento y manipulación que Plaspy puede usar para activar alertas antirrobo y flujos de trabajo automáticos.
+- Telemetría de sensores Bluetooth para puertas, temperatura, humedad y ángulo enviada a Plaspy para paneles de monitoreo de condiciones.
+- Escaneo de Wi Fi y datos de balizas Bluetooth utilizados por Plaspy para mejorar el posicionamiento híbrido interior/exterior cuando las señales GNSS son limitadas.
+- Configuración de dispositivos y gestión de firmware integradas en procesos operativos mediante las herramientas de gestión del fabricante y rutas de soporte.
 
-## Vista técnica
+## Casos de uso típicos
 
-| Modelo | AS700 \(AS700-LG LTE FDD Cat.1 variant\) |
-| --- | --- |
-| Conectividad | LTE FDD Cat.1 \(AS700-LG\), transporte de datos UDP/IP o TCP/IP |
-| Bandas | Cobertura global amplia de LTE FDD \(AS700-LG\) |
-| Alimentación y batería | 1.7W célula solar; batería interna de 8,000 mAh. Ejemplos de tiempo de funcionamiento: hasta ~8 años con informes diarios; ~6 meses con informes cada hora; ~1 mes con informes cada 10 minutos \(sin recarga externa\). Corriente de sueño profundo \<22 µA. USB Type-C para recarga/configuración. |
-| SIM | SIM mini \(2FF\) y soporte eSIM; opción de antena celular integrada |
-| GNSS | Receptor de 99 canales que soporta GPS y GLONASS |
-| Bluetooth | Bluetooth Low Energy 5.0 con soporte Long Range; compatible con la serie de sensores BL1 |
-| Sensores y E/S | Acelerómetro de 3 ejes a bordo \(±16 g\) para detección de movimiento y manipulación; LED de nivel de batería interno y indicador operativo externo |
-| Gestión | ATrack Device Management \(ADM\) para configuración y actualizaciones de firmware vía Bluetooth o USB Type-C |
-| Carcasa y certificaciones | Policarbonato resistente a los rayos UV, IP68 / IP69K, MIL-STD-810H; certificados FCC, IC, CE, RoHS, TELEC |
-| Factor de forma | 216 × 89 × 30 mm; peso aprox. 500 g \(AS700-LGCSB-AT02\) o 540 g \(AS700-LGCSE-AT02\) |
-| Montaje | Varias opciones de montaje, incluida la fijación con tornillos y la instalación mediante pernos |
-
-## Casos de uso
-
-- Seguimiento de contenedores a través de puertos y patios de almacenamiento donde la protección IP68/IP69K y la carga solar reducen las visitas de mantenimiento.
-- Monitoreo de remolques y generadores para mantener la disponibilidad operativa y brindar inteligencia de gestión de flotas con geocercas.
-- Logística de maquinaria pesada donde se requieren resistencia a vibraciones, impactos y niebla salina para telemetría precisa.
-- Monitoreo remoto del estado de activos mediante sensores Bluetooth para temperatura, humedad y estado de apertura de puertas/ángulo.
-- Despliegues de activos a largo plazo que exigen posicionamiento híbrido interior/exterior y autonomía de batería de varios años.
+- Rastreo de contenedores en puertos y patios de almacenamiento donde la protección robusta y la carga solar reducen las visitas de servicio.
+- Monitoreo de remolques y generadores para preservar el tiempo de actividad y habilitar gestión de flota con geocercas.
+- Logística de maquinaria pesada en entornos que requieren resistencia a vibración, impactos y neblina salina.
+- Monitoreo remoto de condiciones de activos usando sensores Bluetooth para temperatura, humedad y estado de puertas o ángulos.
+- Despliegues a largo plazo que necesitan posicionamiento híbrido interior/exterior y menor carga operativa de mantenimiento.
 
 ## Por qué elegir este rastreador con Plaspy
 
-La combinación del AS700 con Plaspy ofrece una solución de rastreo GPS de bajo mantenimiento y alta fiabilidad para la gestión industrial de flotas y la protección de activos. El sistema de alimentación asistido por energía solar del AS700 y su consumo extremadamente bajo en modo de suspensión prolongan los intervalos de despliegue sin supervisión y reducen los costos de ciclo de vida. Su diseño mecánico robusto y su amplia certificación garantizan un funcionamiento fiable en entornos adversos típicos de flotas de contenedores, remolques y equipos.
+Seleccionar el AS700 para usar con Plaspy ofrece un equilibrio entre resistencia ambiental y autonomía de largo plazo para flotas industriales y activos remotos. Su diseño asistido por energía solar y su bajo consumo reducen la necesidad de servicio frecuente, mientras que la carcasa robusta y las certificaciones lo hacen apto para aplicaciones exteriores exigentes.
 
-La integración compatible con Plaspy lleva esas capacidades del dispositivo a sus flujos de trabajo operativos: seguimiento en tiempo real, alertas anti-robos basadas en eventos y paneles de telemetría para monitoreo de condiciones. Mientras el AS700 se centra en la resiliencia ambiental, el posicionamiento híbrido y la agregación de sensores, Plaspy proporciona la visualización, el motor de reglas y las alertas necesarias para la gestión de flotas, procedimientos anti-robos y generación de telemetría. Para el monitoreo de combustible, el encendido o el inmovilizador, Plaspy puede integrar interfaces o sensores de vehículo adicionales junto al AS700 para construir soluciones integrales de telemática de flotas.
+Integrado en Plaspy, la telemetría y los eventos del AS700 se convierten en información accionable mediante paneles, geocercas y alertas. Para organizaciones que gestionan activos dispersos como contenedores, remolques, generadores o maquinaria pesada, esta combinación ayuda a centralizar la visibilidad y simplificar la supervisión operativa sin sacrificar la durabilidad del equipo.
 
+Para obtener más información sobre el uso de Plaspy con el AS700 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden variar con el tiempo; verifique la información técnica actual en el sitio del fabricante https://www.atrack.com.tw/ antes de la adquisición final.

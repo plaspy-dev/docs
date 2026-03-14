@@ -2,63 +2,61 @@
 slug: /riti/690s_idu_403
 id: 690s_idu_403
 sidebar_label: 690s (IDU-403)
+title: Riti - 690s (IDU-403)
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto Riti 690s IDU 403 compatible con Plaspy para seguimiento de flotas con registro por segundo y reportes de eventos
+keywords:
+  - Riti 690s
+  - 690s IDU 403
+  - Rastreador GPS Riti 690s
+  - 690s compatible con Plaspy
+  - Rastreador de flotas Riti
+  - Registrador de datos GNSS
+  - Localizador 690s
+  - Rastreador vehicular 690s
+  - Dispositivo de seguimiento de flotas
+  - Alertas de sensor G
 ---
+
 # Riti - 690s (IDU-403)
 
 ![690s (IDU-403)](./tracker.jpg)
 
-El Locator 690s \(IDU-403\) es un rastreador GPS profesional y un registrador de datos GNSS compacto, diseñado para una gestión de flotas confiable y despliegues de IoT. Compatible con Plaspy desde el primer uso, el Locator 690s combina posicionamiento GPS/GLONASS, A‑GPS/Cell Locate y comunicaciones celulares robustas para que los operadores de flotas obtengan seguimiento en tiempo real, telemetría e informes de eventos que se integran de forma fluida con los paneles y las aplicaciones móviles de Plaspy.
+El Riti Locator 690s (IDU-403) es un rastreador GPS compacto y profesional y registrador de datos GNSS diseñado para una gestión de flotas e implementaciones IoT confiables. Diseñado para capturar ubicaciones y telemetría vehicular a alta frecuencia, el dispositivo combina posicionamiento GPS y GLONASS con opciones de localización asistida y comunicaciones celulares robustas para ofrecer seguimiento continuo, reportes de eventos y registro por segundo adecuado para uso en vehículos.
 
-Diseñado como un mini recolector de datos GNSS para vehículos, el Locator 690s ofrece el cálculo del odómetro por segundo, un sensor G‑ integrado para la detección de eventos de conducción, monitoreo de la tensión de la batería y reportes de fallos del vehículo. Su diseño compacto y su rango operativo resistente lo hacen ideal para logística, transporte y flujos de trabajo de carga con temperatura controlada cuando se combina con las herramientas de reporte y alerta de Plaspy.
+Como dispositivo compatible con Plaspy desde el primer momento, el 690s integra sus fijaciones de posición, datos de odómetro y registros de eventos directamente con los paneles y las aplicaciones móviles de Plaspy. Esa compatibilidad hace que el 690s sea una opción práctica cuando usted necesita mapas en vivo confiables, alertas y reproducción histórica junto con señales de salud del vehículo como voltaje de batería e informes de fallas.
 
 ## Aspectos destacados
 
-- Rastreador GPS compatible con Plaspy para un seguimiento en tiempo real fiable y una integración de la gestión de flotas.
-- Recepción GNSS dual \(GPS + GLONASS\) con A‑GPS/Cell Locate para fijaciones más rápidas y precisas.
-- Conectividad celular 3G/4G con protocolos TCP/UDP/HTTP/FTP/SMS para una entrega de telemetría flexible.
-- Inteligencia a bordo: odómetro por segundo, sensor G para aceleración/frenado/virajes/impactos y detección de fallos del vehículo.
-- Almacenamiento local \(~30,000 registros / 4 MB\) garantiza que no se pierdan datos durante condiciones de red deficientes; carga automática cuando la conectividad vuelve.
-- Operación de vehículo de bajo consumo entre 8–33 V DC con un consumo en modo de espera conservador para un monitoreo continuo de la flota.
-- Diseño compacto y ligero \(44 × 62 × 15 mm, 37 g\) para una instalación discreta en vehículos y para el rastreo de activos.
+- Rastreador compatible con Plaspy que ofrece seguimiento en tiempo real e integración con la gestión de flotas.
+- Recepción dual GNSS con localización asistida para mejorar la velocidad y la fiabilidad de la fijación de posición.
+- Soporte de telemetría celular para entrega continua de datos y redundancia de backend.
+- Inteligencia a bordo que incluye odómetro por segundo y un sensor G integrado para detección de eventos de conducción.
+- Almacenamiento local de datos que preserva registros durante condiciones de red deficientes y los carga automáticamente cuando vuelve la conectividad.
+- Funciones de monitoreo del vehículo como seguimiento de voltaje de batería e informes de fallas para supervisión proactiva.
+- Factor de forma pequeño y ligero, adecuado para despliegues discretos en vehículos y activos.
 
 ## Cómo funciona con Plaspy
 
-El Locator 690s transmite la posición y telemetría a Plaspy utilizando protocolos de transporte estándar. Plaspy ingiere fijaciones GPS/GLONASS, telemetría del vehículo y registros de eventos para entregar mapas en vivo, reproducción de rutas, alertas e informes que apoyan la seguridad y la eficiencia operativa. Las opciones de transporte flexibles del dispositivo y el almacenamiento local mantienen estable el flujo de datos incluso ante condiciones variables de red.
+El 690s envía fijaciones de ubicación, telemetría y datos de eventos a Plaspy mediante las opciones de transporte del dispositivo. Plaspy ingiere y presenta esa información en mapas en vivo, en informes y como alertas operativas. Plaspy normaliza la telemetría entrante para que usted pueda combinar las señales del 690s con otros activos y usar las herramientas de Plaspy para supervisión, generación de informes y respuesta a incidentes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(GPS + GLONASS, A‑GPS/Cell Locate\) para seguimiento en vivo y reproducción de rutas.
-- Alertas de eventos de conducción desde el G‑sensor: notificaciones de aceleración, frenado, virajes e impactos remitidas a Plaspy.
-- Informe de odómetro y kilometraje por segundo para un uso de la flota preciso y la planificación de mantenimiento.
-- Monitoreo de la tensión de la batería y alertas de batería baja entregadas a Plaspy para chequeos proactivos de salud del vehículo.
-- Eventos de entrada SOS e informes de fallos del vehículo transmitidos a Plaspy para respuesta ante incidentes y diagnóstico.
-- Almacenamiento de búfer local \(≈30,000 registros\) que se sube automáticamente cuando la calidad de la red mejora para preservar la continuidad de la telemetría.
-- Múltiples opciones de transporte en el backend \(TCP/UDP/HTTP/FTP/SMS\) para una integración simple con Plaspy y redundancia.
+- Actualizaciones de ubicación en vivo y reproducción de rutas para visibilidad en tiempo real y revisiones históricas.
+- Alertas de eventos de conducción captadas por el sensor G integrado y enviadas a Plaspy para monitoreo de seguridad.
+- Informes de odómetro y kilometraje para apoyar programas de mantenimiento y análisis de uso.
+- Datos de voltaje de batería e informes de fallas del vehículo entregados a Plaspy para paneles de salud de la flota y alertas de batería baja.
+- Comportamiento de carga desde el buffer local que preserva la continuidad de los datos durante conectividad intermitente.
+- Flexibilidad de transporte que ayuda a mantener la entrega de telemetría a Plaspy en condiciones de red variables.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Celular 3G y 4G; admite protocolos de transporte TCP, UDP, FTP, HTTP y SMS |
-| --- | --- |
-| Bandas | 3G B1; 4G B3, B8, B28 |
-| Alimentación y batería | Tensión de operación 8–33 V DC; corriente pico &lt; 500 mA a 24 V; standby &lt; 80 mA a 24 V |
-| Interfaces | Una entrada SOS; cable de alimentación estándar incluido |
-| GNSS | Receptor GPS + GLONASS \(con chipset MTK\), compatible con A‑GPS/Cell Locate; sensibilidad −167 dBm |
-| Almacenamiento y memoria | Almacenamiento local ~30,000 registros \(≈4 MB\) para retención de datos sin conexión |
-| Sensores y monitorización | Sensor G integrado \(aceleración/frenado/virajes/impactos\), monitoreo de la tensión de la batería, detección de fallos del vehículo |
-| Gestión remota | Capacidad de actualización de firmware remota \(actualización remota soportada\) |
-| Forma y dimensiones | Compacto: 44 mm \(W\) × 62 mm \(L\) × 15 mm \(H\); peso 37 g; temperatura de operación −20 °C a 80 °C |
-| Certificaciones e IP | NCC certificada; patente de Taiwán 1307324 |
-
-## Casos de uso
-
-- Gestión de flotas y despacho: seguimiento en tiempo real, historial de rutas e informes de kilometraje para operaciones eficientes.
-- Flujos de trabajo de antirrobo y seguridad: eventos SOS y telemetría de ubicación permiten respuestas rápidas y recuperación cuando se combinan con alertas de Plaspy.
-- Soporte para logística y cadena de frío: combine el Locator 690s con sensores de temperatura externos y alertas de Plaspy para monitorizar carga sensible a la temperatura.
-- Seguridad del vehículo y comportamiento del conductor: la detección de eventos por el sensor G y el odómetro por segundo alimentan la puntuación y el coaching del conductor en Plaspy.
-- Integración con MDVR y telemática: protocolos de backend directos y reportes de fallos lo hacen adecuado para sistemas de video y diagnóstico.
+- Gestión de flotas y despacho con seguimiento en tiempo real, historial de rutas e informes de kilometraje.
+- Programas de seguridad vehicular que emplean detección de eventos de conducción para apoyar entrenamiento y cumplimiento.
+- Flujos de trabajo contra robo y respuesta rápida usando SOS y telemetría de ubicación junto con alertas de Plaspy.
+- Logística y manejo de carga sensible a temperatura cuando se combina con sensores externos y alertas de Plaspy.
+- Integración telemática y MDVR donde se requieren transporte sencillo de backend e informes de fallas.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el Locator 690s para una implementación compatible con Plaspy ofrece un equilibrio entre hardware compacto y telemetría robusta, adecuada para la gestión profesional de flotas. Su soporte multinorma de bandas celulares y sus protocolos de transporte flexibles facilitan la integración en el backend, mientras que el almacenamiento local y las actualizaciones de firmware remotas reducen el tiempo de inactividad y el costo de mantenimiento. Cuando se combina con Plaspy, el dispositivo proporciona datos de seguimiento en tiempo real, telemetría y eventos que mejoran la eficiencia de las rutas, aumentan la seguridad y reducen el riesgo operativo.
+El Riti 690s (IDU-403) es una opción sólida para organizaciones que requieren un registrador de datos GNSS compacto que se conecte directamente con Plaspy para visibilidad de flota e informes operativos. Su combinación de registro frecuente de ubicación, detección de eventos y buffering local contribuye a mantener telemetría fiable en despliegues vehiculares reales, mientras que Plaspy proporciona los paneles, las alertas y los informes que convierten esa telemetría en información accionable.
 
-Ya sea que necesite un rastreador GPS confiable para la gestión de flotas, una fuente de telemetría para el análisis del comportamiento del conductor o un registrador de datos para la logística y el monitoreo de la cadena de frío, el Locator 690s se integra con Plaspy para proporcionar una base fiable de telemática escalable y monitoreo anti‑robo. Para despliegues que requieren monitoreo de combustible, flujos de trabajo de inmovilizador, sensores Bluetooth o E/S adicional, la plataforma de Plaspy puede combinar la telemetría del Locator 690s con sensores externos compatibles o interfaces de vehículo para ofrecer funciones ampliadas manteniendo centralizados el GNSS y la generación de informes de eventos.
-
+Si desea saber más sobre cómo Plaspy puede usar el Riti 690s para rastreo de flotas y supervisión operativa, visite el sitio web de Plaspy en https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y la compatibilidad actual en la documentación del fabricante en https://www.riti.com.tw/.

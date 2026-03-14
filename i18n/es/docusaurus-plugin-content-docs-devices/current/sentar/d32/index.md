@@ -2,66 +2,61 @@
 slug: /sentar/d32
 id: d32
 sidebar_label: D32
+title: Sentar - D32
 sidebar_class_name: menu_item_tracker
+description: Reloj GPS wearable 4G Android con SOS, cámara y compatibilidad con Plaspy para seguimiento y seguridad de personal en tiempo real
+keywords:
+  - Sentar D32
+  - Reloj inteligente D32
+  - Reloj inteligente Sentar
+  - Rastreador GPS D32
+  - Sentar D32 Plaspy
+  - Compatible con Plaspy
+  - Rastreador GPS portátil
+  - Seguimiento de personal
+  - Reloj SOS
+  - Reloj GPS 4G
 ---
+
 # Sentar - D32
 
 ![D32](./tracker.png)
 
-El D32 es un reloj inteligente con GPS Android 4G compatible con Plaspy, diseñado para un seguimiento fiable en tiempo real, comunicación bidireccional y monitoreo de seguridad personal. Como un dispositivo portátil compacto, el D32 combina posicionamiento multimodal \(GPS, AGPS, LBS, Wi‑Fi\) con voz y datos celulares para entregar actualizaciones de ubicación continuas y alertas de emergencia que se integran directamente en Plaspy para una conciencia situacional en tiempo real.
+El Sentar D32 es un reloj inteligente GPS 4G con Android para llevar en la muñeca, diseñado para el monitoreo continuo de ubicación, comunicación bidireccional y seguridad personal. Como dispositivo wearable compacto, integra posicionamiento multimodal con voz y datos celulares, un botón de encendido configurable como SOS, una pantalla táctil IPS de 1.4 pulgadas y una cámara que facilitan la conciencia situacional en tiempo real y la captura básica de imágenes.
 
-El reloj inteligente D32 equilibra usabilidad diaria y características de seguridad: una pantalla táctil IPS de 1.4 pulgadas, una cámara de 30W para videollamadas y captura de imágenes, un botón de encendido configurado para SOS y resistencia al agua IPX7. Con conectividad 4G y una ranura para Nano SIM, el D32 funciona con Plaspy para ofrecer ubicación en tiempo real, telemetría y alertas basadas en eventos para el rastreo de personal, protección de trabajadores que trabajan solos, monitorización de cuidado infantil o de personas mayores, y gestión de personal de la flota que trabaja a pie.
+Al transmitir ubicación y eventos en vivo a través de redes celulares y admitir alertas de emergencia y contacto por voz o video, el D32 resulta una opción práctica y compatible con Plaspy para organizaciones que requieren visibilidad sobre su personal. Plaspy puede procesar las señales de ubicación y eventos del D32 para mostrar posiciones en directo, alertas y contexto de incidentes junto con otros activos en una vista unificada de gestión.
 
-## Aspectos clave
+## Características principales
 
-- Localizador GPS compatible con Plaspy en un formato vestible — seguimiento continuo en tiempo real desde un dispositivo que se lleva en la muñeca.
-- Posicionamiento multimodal \(GPS + AGPS + LBS + Wi‑Fi\) para una mayor fidelidad de la ubicación en entornos urbanos y en interiores.
-- Conectividad celular 4G/3G/2G \(Nano SIM\) que permite voz en HD, videollamadas y transmisión de datos a los paneles de control de Plaspy.
-- Botón de emergencia SOS configurable para alertas inmediatas y contacto de voz bidireccional a través de los flujos de trabajo de Plaspy.
-- Cámara de 30W para captura básica de imágenes y video en vivo que mejora la verificación de incidentes y la asistencia remota.
-- Batería de 700mAh con carga magnética de 4‑pin para un uso diario sencillo y una fiabilidad constante para telemetría y alertas.
-- Protección contra salpicaduras e inmersión corta IPX7 — adecuada para uso diario y condiciones exteriores.
+- Reloj GPS wearable 4G con Android apto para el seguimiento continuo de personal desde la muñeca.
+- Posicionamiento multimodal que incluye GPS, ubicación asistida, localización por celular y Wi Fi para mejorar la cobertura en entornos urbanos o interiores.
+- Cámara integrada y capacidad de voz para aportar contexto visual y auditivo en incidentes y asistencia remota.
+- Botón SOS configurable para alertas inmediatas y comunicación bidireccional vinculada a flujos de trabajo en Plaspy.
+- Resistencia al agua IPX7 y una pantalla táctil compacta pensadas para uso diario y comprobaciones rápidas de estado.
+- Batería y diseño de carga orientados a la operación diaria habitual y a mantener continuidad en la telemetría.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el D32 se convierte en un rastreador GPS conectado a la nube que transmite ubicación, estado y datos de eventos a través de redes celulares. Plaspy ingiere entradas de GNSS y ubicación asistida, mapea las posiciones en tiempo real y activa alertas o informes basados en eventos SOS, cruces de geocerca o programas predefinidos. Las capturas de vídeo/imágenes y las llamadas de voz generadas por el D32 pueden consultarse en las líneas de tiempo de incidentes de Plaspy para acelerar la verificación y la respuesta.
+Cuando usted lo utiliza con Plaspy, el D32 se convierte en un wearable conectado a la nube que ofrece ubicación en vivo, actualizaciones de estado y alertas por eventos a los operadores. Plaspy recopila datos de posición y eventos del dispositivo, traza movimientos y enlaza alertas y medios a las líneas de tiempo de incidentes para agilizar la respuesta y los informes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real mediante GPS + AGPS + LBS + Wi‑Fi
-- Alertas de emergencia SOS configurables a través del botón físico de encendido/SOS
-- Voz bidireccional y videollamadas en HD mediante 4G para una comunicación directa vinculada a los registros de incidentes de Plaspy
-- Telemetría de estado de batería y dispositivo retransmitida a Plaspy para el monitoreo de tiempo activo y salud
-- Imágenes de cámara y clips de video cortos asociados con eventos de ubicación dentro de los informes de Plaspy
+- Ubicación y actualizaciones de posicionamiento en tiempo real mostradas en los mapas de Plaspy para visibilidad inmediata
+- Alertas SOS enviadas a los flujos de incidentes de Plaspy para notificación rápida
+- Interacciones bidireccionales de voz y video asociadas a eventos del dispositivo para verificación y asistencia remota
+- Estado de batería y del dispositivo compartido con Plaspy para monitorización de salud del equipo y conocimiento de disponibilidad
+- Imágenes de la cámara y referencias de video corto adjuntas a eventos de ubicación dentro de los informes de Plaspy
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | D32 \(4G Android GPS smartwatch\) |
-| --- | --- |
-| Sistema operativo | Android 4.4 |
-| Chipset principal | SL8521E |
-| Pantalla | 1.4‑inch IPS touchscreen, 240 × 240 pixels |
-| Memoria | 512MB RAM, 4GB ROM |
-| Tecnologías de localización | GPS + AGPS + LBS + Wi‑Fi |
-| Conectividad | 4G FDD / 3G WCDMA / 2G GSM con Nano SIM |
-| Bandas | 4G FDD: 1/2/3/5/7/8/20; 3G WCDMA: 1/2/5/8; 2G GSM: 2/3/5/8 |
-| Cámara | 30W cámara \(captura de imágenes y videollamadas\) |
-| Batería y carga | 700mAh batería; cable de carga magnética de 4‑pin |
-| Resistencia al agua | IPX7 |
-| Entradas / Interfaces | Ranura Nano SIM; botón físico de encendido configurable para SOS |
-| Bluetooth | No especificado |
-| Gestión remota | No especificado |
-| Forma | Reloj inteligente para la muñeca; disponible en Azul, Rosa, Negro |
-
-## Casos de uso
-
-- Seguridad de niños y desplazamientos escolares: padres y administradores usan Plaspy para supervisar rutas y recibir notificaciones SOS.
-- Monitoreo de personas mayores o vulnerables: ubicación, situaciones de riesgo de caídas y solicitudes de ayuda inmediatas enroutadas a través de Plaspy.
-- Rastreo de trabajadores solitarios y personal de campo: el personal a pie se rastrea en tiempo real; video/voz mejora el soporte remoto y la documentación de incidentes.
-- Gestión de personal de la flota que camina — complementa los rastreadores GPS de vehículos al monitorear a conductores, repartidores o inspectores cuando están fuera de los vehículos.
-- Vigilancia de eventos y excursiones: los organizadores mantienen la conciencia de posición y una respuesta rápida ante incidentes para grupos en entornos al aire libre o urbanos.
+- Supervisión de niños y programas de transporte escolar donde tutores y administradores necesitan ubicación y alertas de emergencia
+- Cuidado de personas mayores y atención a vulnerables con opciones de alerta rápida y comunicación bidireccional
+- Monitoreo de trabajadores solitarios o personal de campo que se desplaza a pie y requiere visibilidad continua y verificación de incidentes
+- Gestión de personal a pie para complementar los rastreadores vehiculares, controlando mensajeros, inspectores y conductores cuando están fuera del vehículo
+- Supervisión de eventos y grupos para mantener conciencia de posiciones y coordinar respuestas en actividades al aire libre o urbanas
 
 ## Por qué elegir este rastreador con Plaspy
 
-El D32 ofrece una opción de rastreador GPS vestible compatible con Plaspy para organizaciones y familias que requieren seguimiento personal continuo y comunicación directa. Su posicionamiento multimodal y la conectividad celular 4G proporcionan un seguimiento en tiempo real confiable y capacidades de voz/vídeo que enriquecen los flujos de trabajo de incidentes de Plaspy. El botón SOS y la cámara añaden opciones de verificación y respuesta rápidas, mientras que la protección IPX7 y la batería de 700 mAh mantienen el dispositivo práctico para el uso diario.
+El D32 es una opción lógica para equipos y familias que necesitan un formato wearable con comunicación integrada y funciones de emergencia. Su posicionamiento multimodal y conectividad celular proporcionan a Plaspy flujos de ubicación y señales de evento consistentes que mejoran la conciencia operativa en el seguimiento de personal y la supervisión de seguridad.
 
-Para escenarios de gestión de flotas que requieren telemetría específica de vehículos, como estado de encendido, control de inmovilizador o monitoreo de combustible, los rastreadores montados en vehículos con entradas/salidas dedicadas y sensores siguen siendo la opción adecuada. El D32, sin embargo, cumple un papel distinto pero complementario: proporciona telemetría y características de seguridad para personas en movimiento, y se integra en Plaspy para ofrecer a los operadores una visión situacional unificada de personal y activos.
+Si bien la telemetría específica de vehículos se gestiona mejor con rastreadores dedicados, el D32 cumple un papel complementario al extender la monitorización y la comunicación rápida a las personas en movimiento. Combinado con Plaspy, el dispositivo ayuda a unificar la conciencia situacional entre personal y activos en una sola vista operativa.
 
+Para obtener más información sobre Plaspy y cómo la plataforma puede incorporar rastreadores wearables como el Sentar D32 visite https://www.plaspy.com. Product specifications and availability can change over time, so please verify the latest details with the manufacturer at http://www.sentarsmart.com/ .

@@ -2,65 +2,63 @@
 slug: /noran/nr028
 id: nr028
 sidebar_label: NR028
+title: Noran - NR028
 sidebar_class_name: menu_item_tracker
+description: Localizador GPS vehicular con pantalla táctil y cámara compatible con Plaspy para rastreo de flotas y seguridad de vehículos
+keywords:
+  - Noran NR028
+  - NR028 rastreador
+  - rastreador Noran
+  - GPS NR028
+  - NR028 Plaspy
+  - rastreo de flotas
+  - rastreador vehicular
+  - rastreador de navegación
+  - navegación en cabina
+  - rastreo antirrobo
 ---
+
 # Noran - NR028
 
 ![NR028](./tracker.jpg)
 
-# NR028 Navigation GPS Tracker
+El NR028 es una unidad de navegación y telemática para vehículo de Noran que combina posicionamiento GPS con una pantalla táctil integrada y una cámara digital incorporada. Diseñado para la gestión de flotas, la seguridad vehicular y la navegación en cabina, el NR028 ofrece ubicación en tiempo real, comunicación con el conductor y navegación multimedia en un solo dispositivo, adecuado para operaciones de despacho y documentación de incidentes.
 
-El NR028 Navigation GPS Tracker es un dispositivo telemático montado en el vehículo, diseñado para la gestión de flotas, la seguridad del vehículo y la navegación a bordo. Compatible con Plaspy desde el primer momento, el NR028 combina el posicionamiento GPS por satélite con una cámara digital integrada y una pantalla de navegación táctil para ofrecer rastreo en tiempo real fiable, comunicación con el conductor y navegación multimedia para operadores que requieren una solución integrada y única.
+Al ser compatible con Plaspy desde su configuración inicial, el NR028 puede enviar ubicaciones en tiempo real, alarmas y eventos de sensores a Plaspy para monitoreo y generación de informes centralizados. Su combinación de seguimiento en vivo, voz y mensajería bidireccional, funciones de inmovilizador remoto y almacenamiento a bordo lo convierte en una opción práctica para operadores que necesitan un rastreador integrado que alimente los paneles, alertas y reproducciones históricas de Plaspy.
 
-La unidad es compatible con seguimiento en tiempo real vía SMS e Internet con respaldo LBS, llamadas de voz bidireccionales, mensajes de texto y funciones de comando remoto, como corte de motor y configuración de parámetros \(GPRS, IP, APN\). Su plataforma Windows CE 6.0, el procesador Sirf Atlas de 600 MHz y sus 4 GB de almacenamiento la hacen adecuada para operaciones de despacho, generación de informes basados en telemetría y flujos de trabajo anti-robos cuando se combina con Plaspy para la monitorización centralizada y alertas.
+## Características principales
 
-## Puntos clave
-
-- Rastreador GPS compatible con Plaspy que proporciona ubicación en vivo y telemetría para la gestión de flotas y protección anti-robos.
-- Pantalla táctil TFT integrada de 4.3" o 7" y cámara digital integrada para la navegación del conductor, captura de incidentes y comunicación de despacho.
-- Seguimiento en tiempo real vía GPRS/Internet y SMS con respaldo LBS para mantener actualizaciones de ubicación en coberturas variables.
-- Soporte de inmovilizador remoto \(corte de motor\) y escucha/monitorización de voz para una mayor seguridad del vehículo y la respuesta ante incidentes.
-- Alertas avanzadas: sobrevelocidad, geocerca, alarma SOS y corte de energía con batería interna de respaldo.
-- Monitoreo de combustible y compatibilidad con hasta dos sensores externos de combustible, además de protección anti-robos de combustible opcional y alarmas de temperatura.
-- Paquetes de telemetría compactos \(34 bytes\) y registro en flash interno \(opcional hasta 5 días\) para reducir el uso de datos y conservar los eventos clave.
+- Rastreador montado en vehículo compatible con Plaspy que soporta ubicación en vivo y telemetría para supervisión de flotas y flujos de trabajo antirrobo
+- Pantalla táctil integrada de 4.3 o 7 pulgadas y cámara digital incorporada para navegación, captura de incidentes y comunicación con el conductor
+- Seguimiento en tiempo real vía Internet y SMS con opciones de respaldo de ubicación para mantener actualizaciones en zonas de cobertura variable
+- Soporte para inmovilizador remoto, incluyendo corte de motor y monitoreo de voz, para ayudar en la seguridad vehicular y la respuesta a incidentes
+- Alarmas avanzadas como exceso de velocidad, violación de geocerca, SOS y corte de alimentación con respaldo interno
+- Soporte para monitoreo de combustible con hasta dos sensores externos y registro para análisis de consumo y detección de robo
+- Telemetría compacta y registro en memoria flash a bordo para reducir el uso de datos conservando eventos clave para revisión posterior
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el NR028 envía telemetría compacta y frecuente que Plaspy procesa para paneles en vivo, reproducción histórica y alertas. Plaspy recibe coordenadas GPS, estados de alarma y datos de sensores configurados \(combustible, temperatura, SOS\) y los transforma en eventos accionables, informes programados y notificaciones automatizadas para los equipos de operaciones. El soporte del dispositivo para SMS y GPRS/IP garantiza que la ubicación y el estado lleguen a Plaspy incluso cuando las redes varían, mientras que el respaldo LBS mantiene la ubicación básica.
+Cuando se conecta a Plaspy, el NR028 envía actualizaciones de posición, estados de alarma y datos de sensores configurados a la plataforma, donde esos inputs se convierten en eventos accionables, notificaciones e informes. Plaspy recibe la telemetría entrante y la muestra en paneles, reproducciones históricas y mediante alertas automatizadas para que los equipos operativos puedan supervisar vehículos a gran escala.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy vía GPRS/IP o SMS.
-- Eventos de alarma y estado: sobrepaso de velocidad, incumplimientos de geocerca, emergencia SOS, corte de energía y señales de escucha/monitorización de voz.
-- Monitoreo de combustible y hasta dos sensores externos de combustible reportados a Plaspy para consumo y alertas anti-robos.
-- Los comandos remotos de inmovilizador \(corte de motor\) pueden emitirse desde Plaspy al NR028 para una respuesta anti‑robo.
-- La comunicación con el conductor y el despacho mediante voz y mensajes de texto bidireccionales aparecen en Plaspy como eventos telemáticos; Plaspy también puede aceptar metadatos de navegación y eventos de cámara para registros de incidentes.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy vía Internet o SMS
+- Eventos de alarma y estado como exceso de velocidad, violación de geocerca, SOS y corte de alimentación visibles en Plaspy para alertas
+- Lecturas de sensores de combustible y telemetría relacionada reportadas a Plaspy para soportar informes de consumo y alertas antirrobo
+- Comandos de inmovilizador remoto y corte de motor pueden emitirse desde Plaspy al NR028 para ayudar en flujos de recuperación
+- Comunicación con el conductor y eventos de voz o mensajería bidireccional registrados como actividad telemática y asociados a incidentes
+- Metadatos de cámara y eventos del equipo pueden vincularse a registros de incidentes para revisión posterior en Plaspy
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Modelo | NR028 Navigation GPS Tracker |
-| --- | --- |
-| Plataforma y CPU | Windows CE 6.0 con CPU Sirf Atlas de 600 MHz |
-| Pantalla y Cámara | Opciones de pantalla táctil TFT de 4.3" o 7"; cámara digital integrada |
-| Almacenamiento | Almacenamiento interno de 4 GB; registro en flash interno \(opcional hasta 5 días\) |
-| Conectividad | GPRS/Internet, SMS; admite configuración IP/APN y configuración remota de parámetros |
-| Ubicación | Posicionamiento por satélite GPS con respaldo LBS |
-| Alimentación y Batería | Alimentación por el vehículo con batería de respaldo integrada; alarma de corte de energía soportada |
-| Interfaces y E/S | Incluye botón SOS, micrófono, relé para corte de motor \(inmovilizador remoto\), cable de conexión, antenas GPS y GSM; admite hasta dos sensores externos de combustible y entradas de sensores de temperatura |
-| Telefonía y Audio | Llamadas de voz bidireccionales, escucha/monitorización de voz, mensajes de texto |
-| Eficiencia de Datos | Formato de paquete de posición compacto \(34 bytes\) para reducir el uso de GPRS |
-| Compatibilidad de Navegación | Funciona con plataformas de mapas comúnmente utilizadas como iGO8, Route66 y TomTom |
-| Formato | Unidad de navegación y rastreo montada en vehículo, adecuada para flotas y vehículos de pasajeros |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, asignación de rutas, comunicación con el conductor y generación de telemetría para mejorar la utilización y los niveles de servicio.
-- Seguridad de vehículos y anti-robos: corte remoto del motor, alarma SOS, geocerca y monitorización por escucha para responder rápidamente ante robos o movimientos no autorizados.
-- Monitoreo de combustible y diagnósticos: sensores externos de combustible y telemetría para detectar robos, medir el consumo y optimizar los intervalos de reabastecimiento.
-- Despacho y navegación para el conductor: navegación en pantalla táctil integrada a bordo y comunicaciones de voz y texto bidireccionales para operaciones en campo coordinadas y una ruta más segura.
-- Documentación de incidentes: cámara integrada y registro de eventos para la reconstrucción de accidentes y entrenamiento de la conducta del conductor.
+- Gestión de flotas y despacho donde la navegación en cabina, la comunicación con el conductor y el seguimiento en vivo mejoran el enrutamiento y el nivel de servicio
+- Seguridad vehicular y operaciones antirrobo que utilizan inmovilizador remoto, alarmas SOS y monitoreo de voz para responder a incidentes
+- Programas de monitoreo de combustible y telemetría que detectan consumos irregulares y apoyan la optimización del reabastecimiento
+- Documentación de incidentes y capacitación de conductores mediante capturas de la cámara integrada y el historial de eventos registrados
+- Monitoreo remoto de activos de alto valor o sensibles que se benefician de la combinación de navegación, cámara y capacidades de alarma
 
 ## Por qué elegir este rastreador con Plaspy
 
-El NR028 está diseñado para operadores que requieren una solución integrada en el vehículo que combine navegación, multimedia y telemetría robusta. Cuando se combina con Plaspy, el NR028 se convierte en un recurso valioso para el rastreo en tiempo real, la toma de decisiones basada en telemetría y la respuesta ante robos. Plaspy gestiona los datos entrantes del rastreador GPS—posición, alarmas, niveles de combustible y eventos de voz/texto—y los presenta en paneles centralizados, alertas automatizadas e informes históricos que escalan desde vehículos individuales hasta grandes flotas.
+El NR028 está pensado para organizaciones que prefieren una solución integrada en el vehículo que combine navegación, cámara y telemetría robusta. Emparejado con Plaspy, el equipo forma parte de un flujo de trabajo centralizado de monitoreo e informes que transforma eventos del dispositivo en información operativa y alertas oportunas. Plaspy organiza los datos GPS, de alarma y de sensores entrantes en paneles e informes adecuados tanto para flotas pequeñas como para operaciones de mayor escala.
 
-Elige el NR028 con la integración de Plaspy cuando necesites un rastreo en tiempo real fiable, control flexible del inmovilizador remoto y telemetría detallada para el monitoreo de combustible y el comportamiento del conductor. En entornos donde se usan sensores Bluetooth, Plaspy también puede integrar esas fuentes de sensores a nivel de plataforma para complementar la telemetría del vehículo. En conjunto, el NR028 y Plaspy ofrecen un enfoque seguro y de coste reducido de datos para la optimización de la flota, la protección anti-robos y la visibilidad operativa.
+Dado que el NR028 ya incluye funciones para despacho, seguridad y monitoreo de combustible, puede reducir la cantidad de dispositivos necesarios en un vehículo y simplificar la agregación de datos dentro de Plaspy. Si necesita visibilidad consolidada, alertas automáticas y reproducción histórica de eventos de conductor e incidentes, el NR028 junto con Plaspy ofrece un enfoque práctico y de bajo fricción.
 
+Obtenga más información sobre Plaspy y cómo se soportan los rastreadores compatibles en https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual en el sitio oficial de Noran http://www.norantracker.com/ antes de tomar decisiones de compra.

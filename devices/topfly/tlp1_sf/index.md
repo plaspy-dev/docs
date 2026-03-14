@@ -2,21 +2,62 @@
 slug: /topfly/tlp1_sf
 id: tlp1_sf
 sidebar_label: TLP1-SF
+title: TopFly - TLP1-SF
 sidebar_class_name: menu_item_tracker
+description: Solar powered TopFly TLP1-SF GPS tracker for assets trailers and trucks with long buffer memory rugged IP67 design and Plaspy compatibility
+keywords:
+  - TopFly TLP1-SF
+  - TopFly tracker
+  - TLP1-SF solar tracker
+  - 4G LTE asset tracker
+  - solar GPS tracker
+  - trailer tracking
+  - fleet tracking
+  - Plaspy compatible
+  - IP67 GPS tracker
+  - real time tracking
 ---
+
 # TopFly - TLP1-SF
 
 ![TLP1-SF](./logo..png)
 
-The TopFly TLP1-SF \(4G LTE\) is a solar-powered GPS tracker designed to track the location of assets, trailers, and trucks. With its big internal battery and solar power capabilities, this tracker can obtain power from a solar panel, eliminating the need for frequent maintenance and ensuring long-lasting performance. 
+The TopFly TLP1-SF is a solar powered 4G LTE GPS tracker built for tracking assets, trailers, and trucks. It combines a large internal rechargeable battery with solar charging capability to reduce maintenance intervals, and offers both real time location reporting and buffered storage for continued tracking when coverage is limited. The device is designed with rugged, weather resistant construction and multiple mounting options suitable for outdoor use.
 
-One of the standout features of the TLP1-SF is its real-time and buffer location capabilities. It can provide real-time location updates as frequent as every 3 seconds, ensuring accurate and up-to-date tracking information. Additionally, it can save up to 60,000 location points in its buffer memory, allowing it to continue tracking even when out of network coverage.
+As a Plaspy compatible device, the TLP1-SF can feed live and historical position data into Plaspy for centralized fleet and asset management. Its real time updates and large buffer memory help Plaspy maintain continuity of location history, while movement alerts and status indicators contribute to operational visibility and basic device health monitoring within the Plaspy platform.
 
-The TLP1-SF also offers movement alerts, notifying users when an asset is in motion or parked. This feature is particularly useful for monitoring the movement of valuable assets and ensuring their security. Furthermore, the tracker is equipped with a rugged construction, featuring a thick and solid casing that can withstand outdoor conditions. It is also IP67 waterproof, tested in a 5-meter water pressure environment for 15 hours, making it suitable for use in various weather conditions.
+## Key Highlights
 
-With a rechargeable Li-Polymer 4800 mAh/3.7V battery, the TLP1-SF has a long battery life that can last for months without solar charging. This ensures reliable and continuous tracking without the need for frequent recharging. The tracker is also easy to install, offering multiple mounting options such as magnets, screws, polyurethane, or heavy-duty tape, allowing users to choose the most convenient method for their specific needs.
+- Solar assisted power and a large internal rechargeable battery to reduce maintenance and extend deployment life
+- Real time location reporting with frequent update capability for improved tracking resolution
+- Large buffer memory able to store up to 60,000 location points for continuity during coverage gaps
+- Movement alerts and removal alarms to support basic security and motion monitoring
+- Rugged IP67 rated casing tested for extended water exposure, suitable for outdoor deployments
+- Support for multiple global satellite systems for reliable positioning and broad coverage
+- Multiple mounting options including magnets and screws to suit different asset types
 
-In terms of technical specifications, the TLP1-SF operates on FDD and TDD bands, providing wide coverage for reliable tracking. It utilizes a Qualcomm Gen 8C GNSS receiver and supports GPS, Glonass, Galileo, and Beidou satellite systems for accurate positioning. The tracker also features a 4-pin port with a magnet for charging and data transmission, internal antennas for network and GNSS reception, and indicator LEDs for network, GNSS, and battery level status. It supports various protocols for data transmission, including TCP, UDP, MQTT, and SMS. Additionally, it offers features such as geo-fencing, low power alarm, motion detection, and removal alarm for enhanced tracking capabilities.
+## How It Works with Plaspy
 
-The TopFly TLP1-SF \(4G LTE\) is compliant with FCC, PTCRB, CE, RCM, AT&T, and US Cellular standards, ensuring its compatibility and reliability. It is also pending certification for Verizon, T-Mobile, and Sprint networks, further expanding its compatibility options. With its advanced features, rugged construction, and solar-powered capabilities, the TLP1-SF is an excellent choice for tracking assets, trailers, and trucks in various industries.
+When used with Plaspy, the TLP1-SF delivers location and status data that Plaspy ingests for monitoring, alerting, and reporting. Plaspy can present the device data in a single fleet view and apply rules or notifications based on movement and geofencing events.
 
+- Visualize live positions and recent history for individual devices and entire fleets in Plaspy dashboards
+- Receive movement alerts and geofence events generated by the device as Plaspy notifications
+- Use historical buffer data to replay routes and examine location history when network coverage was unavailable
+- Consolidate device status indicators such as network and battery condition into operational reports
+- Include TLP1-SF devices in Plaspy fleet groups for combined tracking, scheduling, and oversight
+
+## Typical Use Cases
+
+- Long duration asset tracking where solar charging reduces the need for manual battery servicing
+- Trailer and container monitoring for location visibility during transport and storage
+- Truck fleet tracking that requires continuous position updates and movement alerts
+- Remote equipment deployments that benefit from rugged, waterproof enclosures and buffered history
+- Operations needing reliable historical playback to investigate routes or events
+
+## Why Choose This Tracker with Plaspy
+
+The TLP1-SF is a practical fit for organizations looking to reduce maintenance on remote assets while keeping continuous visibility in Plaspy. Its combination of solar assist, substantial internal storage for locations, and rugged construction makes it well suited to outdoor asset tracking where long deployments and intermittent coverage are common.
+
+Plaspy users can leverage the device's movement alerts, buffered location history, and status indicators to maintain operational oversight without heavy on site servicing. For teams evaluating tracker selection, the TLP1-SF offers a balance of low maintenance and reliable data feeding into Plaspy for fleet monitoring and reporting.
+
+To learn more about how Plaspy can work with TopFly devices visit https://www.plaspy.com. Product specifications, certification status, and availability can change over time, so verify current technical details and certifications on the manufacturer website https://www.topflytech.com/.

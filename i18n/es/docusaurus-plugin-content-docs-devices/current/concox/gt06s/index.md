@@ -2,57 +2,62 @@
 slug: /concox/gt06s
 id: gt06s
 sidebar_label: GT06S
+title: Concox - GT06S
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto Concox GT06S compatible con Plaspy para seguimiento discreto de flotas y protección antirrobo
+keywords:
+  - Concox GT06S
+  - rastreador GT06S
+  - rastreador Concox
+  - GT06S Plaspy
+  - rastreador GPS GT06S
+  - rastreador vehicular
+  - seguimiento de flotas
+  - rastreador antirrobo
+  - rastreador para motocicleta
+  - seguimiento de activos
 ---
+
 # Concox - GT06S
 
 ![GT06S](./tracker.png)
 
-El GT06S es un mini localizador GNSS para vehículos diseñado para el seguimiento discreto de flotas y activos de vehículos y es plenamente compatible con Plaspy para una fácil integración en plataformas modernas de gestión de flotas. Su perfil compacto y su rango de entrada de 9–90V DC lo hacen adecuado para motocicletas, automóviles y camiones pesados, mientras que características a bordo como corte remoto \(combustible/power\), detección de encendido y un micrófono integrado ofrecen capacidades prácticas de antirrobo y de conciencia situacional para operadores comerciales.
+El GT06S es un rastreador GNSS mini diseñado para el seguimiento discreto de vehículos y activos de flota. Su tamaño compacto y su amplio rango de entrada de 9–90V CC lo hacen apto para motocicletas, automóviles y camiones pesados. Además, incorpora funciones prácticas como corte remoto de combustible o alimentación mediante relé, detección de encendido y un micrófono, lo que aporta soporte útil para labores antirrobo y mayor conciencia situacional en operaciones comerciales.
 
-Diseñado para operadores que requieren un seguimiento en tiempo real confiable y telemetría rica sin hardware voluminoso, el GT06S combina posicionamiento GPS, BDS y LBS con alta sensibilidad y TTFF rápido para actualizaciones de ubicación precisas. La integración con Plaspy permite a los gestores de flotas usar los datos del GT06S en paneles, alertas e informes, lo que facilita una mejor gestión de la flota, respuestas ante el robo y telemetría operativa en grandes parques de vehículos.
+Como dispositivo compatible con Plaspy, el GT06S puede enviar datos de ubicación y eventos a los flujos de trabajo modernos de gestión de flotas. Plaspy puede procesar la telemetría del equipo para ofrecer mapeo en vivo, alertas e informes, permitiendo que usted combine la información del GT06S con otras señales de la flota para obtener una visibilidad operativa más completa y una respuesta más rápida ante incidentes de seguridad y seguridad vial.
 
-## Aspectos clave
+## Puntos clave
 
-- Localizador GPS compacto y de perfil bajo, ideal para instalación encubierta y protección de activos en motocicletas o vehículos.
-- Compatible con Plaspy para un seguimiento en tiempo real sin fisuras, integración de telemetría y alertas en flujos de trabajo de gestión de flotas.
-- Entrada DC amplia de 9–90V admite una amplia gama de vehículos, desde motocicletas hasta camiones pesados.
-- Kit de antirrobo: corte remoto \(combustible/energía\) a través de un relé, alertas de manipulación y monitorización basada en el encendido.
-- GNSS de alta precisión \(GPS + BDS + LBS\) con posicionamiento CEP \< 2.5 m para informes de ubicación precisos.
-- Micrófono incorporado y acelerómetro para escucha remota, análisis de comportamiento de conducción y alertas de colisiones o movimientos.
-- Bajo consumo de energía con batería de respaldo de grado industrial y registro de datos sin conexión \(3000+ entradas\).
+- Diseño compacto y discreto para instalaciones encubiertas y protección de activos vehiculares
+- Compatible con Plaspy para seguimiento en tiempo real, creación de alertas e informes históricos en paneles de control de flota
+- Amplio rango de entrada 9–90V CC que soporta desde motocicletas hasta camiones de servicio pesado
+- Funciones antirrobo como corte remoto mediante relé y monitoreo según estado de encendido
+- Posicionamiento GNSS que combina GPS, BDS y LBS para reportes de ubicación confiables
+- Micrófono incorporado y detección de movimiento para conciencia situacional y detección de eventos del conductor
+- Almacenamiento de registros a bordo y bajo consumo energético para preservar el historial durante cortes temporales
 
 ## Cómo funciona con Plaspy
 
-Cuando está conectado a Plaspy, el GT06S transmite ubicación y datos de eventos a través de GSM a la nube, donde Plaspy los modela, visualiza y analiza en tiempo real. La telemetría del dispositivo —incluido el estado de encendido, eventos del acelerómetro y comandos de corte remoto— se traduce en alertas accionables e informes históricos dentro de Plaspy. El almacenamiento de logs sin conexión garantiza que no haya lagunas en el historial: tras la reconexión, el GT06S sube los puntos almacenados para que Plaspy mantenga un registro continuo para cumplimiento, seguridad y optimización de la flota.
+Al integrarse con Plaspy, el GT06S transmite su ubicación e información de eventos a la nube, donde Plaspy mapea e interpreta los datos en tiempo real. Plaspy convierte telemetría como estado de encendido, eventos de movimiento y el estado del inmovilizador remoto en notificaciones, vistas en vivo y registros históricos que apoyan la supervisión de la flota y los flujos de trabajo de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento en vivo y monitorización de rutas.
-- Detección de encendido e inmovilizador controlado por relé \(corte remoto\) visible y controlable desde los paneles de Plaspy.
-- Alertas de manipulación, batería baja y movimiento enviadas a Plaspy para notificación inmediata y escalamiento.
-- Eventos de comportamiento de conducción basados en acelerómetro \(aceleración brusca, frenadas bruscas y tomas de curva\) disponibles para análisis de seguridad.
-- Estado de escucha a bordo y subida de registros sin conexión \(3000+ entradas\) para revisión pos-evento y continuidad.
+- Actualizaciones de ubicación en tiempo real y visibilidad de rutas dentro de los paneles de Plaspy
+- Estado de encendido e inmovilizador controlado por relé visibles y gestionables desde Plaspy
+- Alertas por manipulación, batería baja y movimiento entregadas a Plaspy para atención inmediata
+- Eventos generados por el acelerómetro para análisis de seguridad y revisión de comportamiento del conductor
+- Subida de registros a bordo tras la reconexión para mantener un historial continuo en Plaspy
 
-## Resumen técnico
+## Casos de uso comunes
 
-| Conectividad | GSM \(Nano-SIM\). Variante GT06S\_GO01: cuád-banda 850 / 900 / 1800 / 1900 MHz |
-| --- | --- |
-| Bandas | GSM cuád-banda \(850/900/1800/1900 MHz\) para la variante especificada |
-| Alimentación y batería | Entrada amplia 9–90V DC; batería de respaldo Li-Polymer de grado industrial 60 mAh / 3.7 V; corriente en modo de espera \<5 mA |
-| Interfaces | 1 entrada digital ACC, 1 salida de relé para control de inmovilización, indicadores LED \(GNSS azul, Cellular verde\), 2 conexiones I/O para micrófono |
-| GNSS | GPS + BDS + LBS posicionamiento; precisión CEP \< 2.5 m; sensibilidad de seguimiento -162 dBm; sensibilidad de adquisición -148 dBm; TTFF en caliente ≤ 2 s; inicio en frío ≤ 32 s; antena GNSS integrada |
-| Bluetooth | No incluido / N/A \(el dispositivo utiliza sensores a bordo y GSM para conectividad\) |
-| Gestión remota | Configuración vía SMS y plataforma Tracksolid Pro \(compatible para ajustes y control remoto\) |
-| Formato y entorno | Dimensiones 38.0 × 79.0 × 5.1 mm; peso 29 g; IPX4 contra salpicaduras; temperatura de operación -20 °C a 70 °C; humedad 5%–95% sin condensación |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real continuo, monitorización de encendido, telemetría de comportamiento del conductor y análisis histórico de rutas en Plaspy.
-- Antirrobo y financiación de vehículos: inmovilizador remoto \(corte de combustible/energía\), alertas de manipulación y localización GPS para recuperación del vehículo y prevención de pérdidas.
-- Seguimiento de motocicletas e inventario de concesionarios: instalación compacta y discreta para concesionarios y flotas de motocicletas que requieren protección de activos de bajo perfil.
-- Programas de comportamiento y seguridad en la conducción: detección de conducción brusca basada en acelerómetro y alertas de colisiones para entrenamiento y soporte de reclamaciones.
-- Monitoreo encubierto de activos y continuidad: almacenamiento de registros a bordo \(más de 3000 entradas\) y consumo en modo espera reducido, preservan datos históricos durante fallas.
+- Gestión de flotas para seguimiento continuo, análisis de rutas y monitoreo operativo
+- Flujos de trabajo antirrobo y recuperación usando corte remoto y alertas de manipulación para respuesta rápida
+- Protección de flotas de motocicletas e inventario de concesionarios con una instalación de bajo perfil
+- Programas de seguridad y capacitación de conductores utilizando detección de eventos por movimiento y revisión de incidentes
+- Continuidad de activos y cumplimiento donde el registro fuera de línea preserva el historial de ubicaciones durante cortes
 
 ## Por qué elegir este rastreador con Plaspy
 
-Combinar el GT06S con Plaspy ofrece a los operadores de flotas un rastreador GPS pequeño y confiable que proporciona telemetría práctica y funciones anti-robo sin la huella de instalación de unidades más grandes. El amplio rango de voltaje del dispositivo, su antena GNSS interna y su TTFF rápido aseguran un seguimiento en tiempo real consistente entre distintos tipos de vehículos, mientras que su bajo consumo y una batería de respaldo protegen la continuidad. La integración compatible con Plaspy permite integrar la ubicación del GT06S, eventos de encendido, eventos del acelerómetro y comandos del inmovilizador remoto junto con flujos de trabajo de monitoreo de combustible y sensores de terceros para una visibilidad total de la flota. Para empresas que priorizan una instalación discreta, informes confiables y un despliegue rápido, el GT06S ofrece un bloque de construcción rentable para una gestión de flotas escalable y programas de seguridad de vehículos.
+El GT06S es una opción práctica para organizaciones que requieren un rastreador pequeño y confiable que aporte telemetría útil sin una instalación invasiva. Su amplia tolerancia de voltaje y su posicionamiento GNSS integrado ayudan a garantizar reportes de ubicación consistentes en distintos tipos de vehículos, y las funciones antirrobo ofrecen un valor tangible para flotas preocupadas por la seguridad.
 
+Al combinarse con Plaspy, el GT06S puede incorporarse a flujos centralizados de monitoreo, alertas e informes para que los equipos obtengan visibilidad en tiempo real y registros históricos buscables. Para flotas y administradores de activos que priorizan despliegues discretos, seguimiento confiable y alertas integradas, el GT06S ofrece un equilibrio sensato de funciones que complementan la gestión de flotas impulsada por Plaspy.
+
+Para obtener más información sobre Plaspy y cómo se utilizan los dispositivos compatibles en nuestra plataforma visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, así que por favor verifique los detalles actuales y la documentación oficial con el fabricante en https://www.iconcox.com/.

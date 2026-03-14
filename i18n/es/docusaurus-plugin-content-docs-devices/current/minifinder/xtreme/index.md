@@ -2,60 +2,59 @@
 slug: /minifinder/xtreme
 id: xtreme
 sidebar_label: Xtreme
+title: MiniFinder - Xtreme
 sidebar_class_name: menu_item_tracker
+description: Localizador GPS robusto y discreto para vehículos y equipos compatible con Plaspy para seguimiento en tiempo real y reproducción histórica
+keywords:
+  - MiniFinder Xtreme
+  - MiniFinder Xtreme rastreador GPS
+  - Xtreme GPS
+  - rastreador MiniFinder
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - seguimiento de activos
+  - rastreador GPS discreto
+  - rastreador GPS impermeable
+  - rastreador GPS magnético
 ---
+
 # MiniFinder - Xtreme
 
 ![Xtreme](./tracker.png)
 
-El MiniFinder Xtreme es un rastreador GPS robusto y magnético, diseñado para un seguimiento a largo plazo y encubierto de vehículos y equipos de alto valor. Desarrollado por MiniFinder y ahora compatible como dispositivo Plaspy, el Xtreme ofrece un seguimiento en tiempo real fiable y telemetría robusta para la gestión de flotas, protección antirrobo y monitorización remota de activos. Su carcasa impermeable IP68, su montaje magnético fuerte y su gran batería recargable lo hacen ideal para entornos exigentes donde importa la resistencia y la discreción.
+El MiniFinder Xtreme es un rastreador GPS robusto y magnético, diseñado para el seguimiento encubierto y de larga duración de vehículos y equipos de alto valor. Con una carcasa impermeable IP68 y un potente sistema de montaje magnético, el Xtreme está pensado para despliegues donde la resistencia y la discreción importan. Ofrece seguimiento en tiempo real y telemetría de eventos confiable, ideal para la gestión de flotas, protección antirrobo y monitoreo remoto de activos.
 
-Ya sea que esté protegiendo remolques, fuerabordas de barcos, ATVs, motos de nieve o equipos de obra, el Xtreme se integra con Plaspy para ofrecer actualizaciones de posición continuas, alertas configurables y reproducción histórica. La batería recargable de 7800 mAh de larga duración, el receptor GNSS Qualcomm Gen 8C y los sensores de movimiento y manipulación proporcionan los datos que Plaspy necesita para geocercas, gestión de alarmas y generación de informes operativos, ayudando a los equipos a reducir el riesgo de robo y a mejorar la utilización de la flota.
+Como dispositivo compatible con Plaspy, el Xtreme envía actualizaciones de posición y datos de eventos a Plaspy para una visibilidad centralizada y supervisión operativa. Su batería de larga duración, posicionamiento GNSS y sensores de movimiento y manipulación proporcionan las entradas que Plaspy utiliza para geocercas, alertas, reproducción histórica e informes, de modo que su equipo pueda monitorear activos, responder ante incidentes y optimizar la utilización.
 
-## Aspectos Clave
+## Características principales
 
-- Carcasa robusta y a prueba de agua \(IP68\) con montaje magnético potente para una fijación rápida y sin necesidad de instalación a superficies metálicas.
-- Batería recargable de larga duración de 7800 mAh \(3.7V\); optimizada para años de operación en campo según los intervalos de reporte y la configuración.
-- Posicionamiento GNSS rápido y preciso \(receptor Qualcomm Gen 8C\) con una precisión típica al aire libre de 0–5 m.
-- Cobertura celular global: LTE y GSM cuádruple banda para operar en 190+ países.
-- Detección de movimiento integrada y alarmas de manipulación/sabotaje para alertas antirrobo fiables e informes basados en eventos.
-- Formato encubierto \(88 × 62 × 34 mm, 290 g\) adecuado para embarcaciones, remolques, motores y activos portátiles.
-- LEDs integrados y memoria interna \(4 Mb\) para registro local e indicación de estado durante el despliegue.
+- Carcasa resistente con clasificación IP68 y montaje magnético fuerte para una sujeción rápida sin necesidad de instalación en superficies metálicas
+- Batería recargable de larga duración de 7800 mAh diseñada para operaciones prolongadas en campo según la frecuencia de reporte
+- Receptor GNSS Qualcomm Gen 8C para fijaciones de posición rápidas y precisas en entornos exteriores
+- Detección de movimiento y alarmas por manipulación integradas para soportar flujos de trabajo antirrobo y reportes basados en eventos
+- Factor de forma compacto y discreto, adecuado para remolques, motores fueraborda, vehículos todoterreno, motos de nieve y equipos portátiles
+- Capacidad de registro interno e indicadores visibles para mostrar el estado del dispositivo y facilitar la resolución básica de problemas
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el MiniFinder Xtreme alimenta la ubicación y la telemetría de eventos en una plataforma centralizada para seguimiento en tiempo real, alertas e informes. Plaspy recibe las posiciones y eventos de sensores del Xtreme y los convierte en mapas en vivo, acciones de geocerca y notificaciones automáticas para usuarios y equipos de despacho. El diseño orientado a eventos del rastreador reduce el consumo de datos al enviar actualizaciones sobre movimiento, manipulación, cruce de geocerca y batería baja, mientras que los intervalos de reporte configurables permiten equilibrar la duración de la batería con la frecuencia de actualizaciones.
+Al integrarse con Plaspy, el MiniFinder Xtreme entrega datos de ubicación y telemetría de eventos en una única plataforma para seguimiento en vivo, alertas y análisis posterior a incidentes. Plaspy convierte las entradas del rastreador en vistas de mapa, notificaciones configurables e historial almacenado que su equipo puede usar para decisiones operativas y respuesta ante incidencias.
 
-- Actualizaciones en tiempo real de ubicación y telemetría entregadas a Plaspy para seguimiento en vivo y visualización en mapa.
-- Alertas de geocerca enviadas a Plaspy para notificaciones instantáneas de entrada/salida de áreas definidas.
-- Notificaciones de manipulación y batería baja canalizadas a los flujos de alarma de Plaspy para una respuesta rápida.
-- Advertencias de pérdida y recuperación de la señal GPS reportadas a Plaspy para resolución de incidencias y conocimiento del estado del activo.
-- Registro histórico de posiciones y reproducción \(memoria interna + almacenamiento en la plataforma\) para la reproducción de rutas y la investigación de incidentes.
+- Ubicación y telemetría en tiempo real mostradas en los mapas de Plaspy para visibilidad inmediata de los activos
+- Alertas de entrada y salida de geocercas encaminadas a Plaspy para notificaciones instantáneas y disparadores de flujo de trabajo
+- Notificaciones por manipulación y batería baja canalizadas a los canales de alarma de Plaspy para una respuesta oportuna
+- Registro histórico de posiciones y reproducción disponible para revisar rutas y realizar investigaciones
+- Informes basados en eventos que equilibran la frecuencia de actualización con la vida de la batería según reglas configuradas
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Célular LTE y GSM \(ver bandas\) |
-| --- | --- |
-| Bandas | LTE: B1–B5, B8, B12, B18–B20, B26, B28; GSM: 850 / 900 / 1800 / 1900 MHz |
-| GNSS | Receptor GNSS Qualcomm Gen 8C — fijaciones rápidas \(Active 1s, Warm ~35s, Cold ~45s\) |
-| Alimentación y batería | Batería recargable de 7800 mAh \(3.7V\); optimizada para una larga vida operativa según la configuración |
-| Memoria | 4 Mb memoria interna para registro local |
-| Sensores | Acelerómetro de 3 ejes, sensor de luz ambiental; detección de movimiento y detección de manipulación soportadas |
-| Indicadores | Tres LEDs de estado para carga, sistema y GPS |
-| Precisión GPS y Tiempos de Fijación | Precisión típica 0–5 m en exteriores; fijación activa 1s, Warm ~35s, Cold ~45s |
-| Dimensiones / Formato | 88 × 62 × 34 mm; peso 290 g; montaje magnético potente para colocación encubierta en vehículos/activos |
-| Ambiente | Rango de temperatura de operación −20°C a +60°C; IP68 impermeable |
-| Integración con la plataforma | Se integra con MiniFinder Live; compatible con Plaspy para seguimiento en tiempo real, alertas e informes cuando está conectado a ese backend |
-
-## Casos de uso
-
-- Gestión de flotas y seguimiento en tiempo real de activos como remolques, vehículos de servicio y equipos móviles donde se requiere una instalación encubierta.
-- Protección de barcos y motores fueraborda — montaje seguro e impermeable para prevenir robos y permitir la localización remota.
-- Seguridad de ATV, motos de nieve y vehículos todo-terreno con alertas de movimiento/manipulación y una larga duración de batería para almacenamiento estacional.
-- Monitorización de contenedores, carga y remolques con geocercas y reproducción histórica para apoyar la logística y la investigación de incidentes.
-- Seguimiento general de equipos en los sitios de trabajo para vigilar utilización, ubicación y movimientos no autorizados.
+- Seguimiento encubierto de remolques y carga para prevenir robos y facilitar la recuperación
+- Protección y monitoreo remoto de motores fueraborda y activos marinos en entornos exigentes
+- Seguridad y seguimiento estacional de vehículos todoterreno, motos de nieve y equipo deportivo motorizado
+- Monitoreo de maquinaria de obra y equipos portátiles para medir utilización y detectar movimientos no autorizados
+- Gestión de flotas con activos mixtos que requieren seguimiento discreto y de larga autonomía
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el MiniFinder Xtreme como rastreador GPS compatible con Plaspy ofrece un equilibrio entre durabilidad, instalación encubierta y operación a largo plazo que muchos propietarios de activos requieren. Su carcasa con clasificación IP68 y su montaje magnético facilitan su despliegue en activos metálicos sin necesidad de cableado, mientras que la gran batería recargable y GNSS de bajo consumo minimizan los intervalos de mantenimiento. Al combinarlo con Plaspy, el Xtreme ofrece telemetría accionable para la gestión de flotas, alertas antirrobo e informes operativos. Las organizaciones que también requieren integración con monitorización de combustible, controles de encendido/inmovilizador o sensores Bluetooth pueden combinar los datos de posición y eventos del Xtreme en Plaspy con otras fuentes de telemetría para crear una solución completa de inteligencia de flotas.
+El MiniFinder Xtreme es una opción práctica para organizaciones que necesitan seguimiento duradero y discreto, combinado con una plataforma de monitoreo centralizado. Su carcasa resistente, montaje magnético y gran autonomía lo hacen apropiado para activos expuestos a la intemperie y al trato rudo, mientras que Plaspy ofrece las herramientas para convertir datos de ubicación y eventos en información accionable para prevención de robos y eficiencia de flota.
 
+Para obtener más información sobre cómo funciona Plaspy con dispositivos compatibles como el MiniFinder Xtreme, visite https://www.plaspy.com. Las especificaciones de producto y la disponibilidad pueden cambiar con el tiempo, por lo que verifique los detalles técnicos actuales y las opciones de accesorios en el sitio del fabricante https://minifinder.se/.

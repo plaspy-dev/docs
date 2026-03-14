@@ -2,61 +2,61 @@
 slug: /ulbotech/t361
 id: t361
 sidebar_label: T361
+title: Ulbotech - T361
 sidebar_class_name: menu_item_tracker
+description: Compact OBD II GPS tracker compatible with Plaspy for fleet telematics engine diagnostics immobilizer control and real time monitoring
+keywords:
+  - Ulbotech T361
+  - Ulbotech T361 GPS tracker
+  - T361 tracker
+  - T361 Plaspy
+  - Plaspy compatible tracker
+  - OBD II GPS tracker
+  - vehicle tracker
+  - fleet tracking
+  - GPS telematics
+  - immobilizer tracker
 ---
+
 # Ulbotech - T361
 
 ![T361](./tracker.jpg)
 
-# Ulbotech T361 OBD-II GPS Tracker
+The Ulbotech T361 is a compact OBD II GPS tracker designed for rapid plug and play deployment in vehicles. It combines GNSS positioning with cellular connectivity and exposes vehicle engine data and diagnostics, as well as an immobilizer output and motion sensing. The device is positioned for fleet management, security, and driver behavior monitoring where quick installation and ECU sourced telemetry are priorities.
 
-The Ulbotech T361 is a Plaspy compatible GPS tracker engineered for fast, reliable plug-and-play deployment via a vehicle’s OBD-II port. Designed for fleet management, security and driver behavior monitoring, the T361 exposes engine data, CAN/J1939 diagnostics and real-time telemetry so you can add vehicle-level insight to your Plaspy platform quickly and without wiring changes.
-
-Compact and robust, the T361 combines a quad-band GSM/GPRS modem with a u-blox 6M GNSS module, an internal immobilizer \(engine cut output\), and a 3-axis accelerometer to support real-time tracking, anti-theft functions and detailed driving-event analysis. Its integration with Plaspy enables configurable alerts, reports and remote firmware updates for scalable vehicle and fleet telematics.
+As a Plaspy compatible device, the T361 feeds vehicle location and telemetry into the Plaspy platform so fleets and service providers can monitor assets, configure alerts and run reports without custom integration work. Its support for remote device management and on device buffering helps maintain continuity of data and simplifies large scale rollouts when used with Plaspy.
 
 ## Key Highlights
 
-- Plug-and-play OBD-II installation for fast deployment across fleets and rental vehicles.
-- Quad-band GSM/GPRS connectivity \(850/900/1800/1900 MHz\) for wide network compatibility and real-time tracking.
-- High-sensitivity positioning with u-blox 6M GNSS and A-GPS for quick TTFF and autonomous position accuracy under 3 m.
-- Direct access to engine data and diagnostics \(OBD protocols plus SAE J1939 CANBUS\) to deliver rich telemetry and ECU-sourced events.
-- Built-in immobilizer/engine cut digital output for anti-theft and remote immobilization workflows.
-- On-device accelerometer for driver behavior detection \(harsh braking, rapid acceleration, harsh cornering\) and collision/motion alerts.
-- Remote firmware updates \(FOTA\) and auto APN/time zone detection to simplify large-scale rollouts and maintenance.
+- Plug and play OBD II installation for fast deployment across vehicle fleets and rental fleets.
+- Cellular connectivity combined with a u blox GNSS module for continuous real time tracking and history.
+- Access to engine data and diagnostics to enrich vehicle telemetry and enable ECU driven insights.
+- Built in immobilizer output for remote engine cut workflows and anti theft response.
+- On device motion sensing to detect driving events and support driver behavior analysis.
+- Remote firmware update capability to streamline maintenance and centralized provisioning.
+- Local buffering of records to preserve data during temporary connectivity loss.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the T361 delivers continuous location and vehicle telemetry into your platform so you can run real-time tracking, event-driven alerts and scheduled reports. Plaspy ingests the device’s OBD and sensor streams, normalizes diagnostic PIDs and combines them with GPS fixes to enable fleet management, safety monitoring and anti-theft response.
+When integrated with Plaspy, the T361 supplies continuous location fixes together with vehicle diagnostic streams so Plaspy can present unified telemetry to operators and automate operational rules. Plaspy normalizes incoming data, applies configurable alerts and stores historical records for playback and reporting.
 
-- Real-time location and telemetry updates sent over GPRS for live tracking dashboards and history playback.
-- Vehicle diagnostic data \(OBD-II PIDs and SAE J1939\) available to Plaspy for engine status, fault codes and telemetry-driven rules.
-- Ignition status and a single digital output for remote engine cut/immobilizer control to support anti-theft workflows.
-- Configurable alerts in Plaspy for geo-fence crossings, unplug/disconnect events, low battery and driver behavior events \(rapid acceleration, harsh braking, high RPM, long idling\).
-- Remote firmware updates \(FOTA\) via GPRS from an FTP server for centralized device management through Plaspy’s provisioning tools.
-- Engine/ECU data exposed by the T361 can be used by Plaspy to enable fuel monitoring and consumption analysis where the vehicle ECU provides the necessary PIDs.
+- Live location and history playback in Plaspy for fleet visibility and route analysis.
+- Vehicle diagnostic and engine data available in the platform for status monitoring and rule based alerts.
+- Use of ignition state and digital immobilizer output to support anti theft workflows coordinated from Plaspy.
+- Configurable alerts for geofence events, unplug or disconnect, driving events and other operational triggers.
+- Centralized firmware updates and provisioning to keep device fleets on a managed release schedule.
+- Aggregated reports combining GPS traces and ECU data to support utilization and maintenance planning.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | Quad-band GSM/GPRS \(850 / 900 / 1800 / 1900 MHz\), GPRS multi-slot class 12 \(MS Class B\) |
-| --- | --- |
-| Bands / RF | GSM850/900/1800/1900; typical RF output ~33 dBm \(GSM850/900\) and ~30 dBm \(DCS/PCS\) |
-| Power & Battery | Operating voltage 8–32 V DC; internal Li-Polymer backup 3.7 V, 180 mAh; typical active current ~70 mA, sleep ~10 mA |
-| Interfaces | OBD-II \(J1850 PWM/VPW, ISO 9141-2, ISO 14230 KWP2000, ISO15765-4 CAN\), SAE J1939; micro USB port for configuration; LED indicators; single digital output \(engine cut\) |
-| GNSS | u-blox 6M with A-GPS; autonomous accuracy &lt; 3 m; TTFF hot &lt;1 s, cold ~25 s |
-| Bluetooth | Not reported / not included in device spec |
-| Remote Management | FOTA \(firmware updates\) via GPRS from FTP server; auto APN and time zone identification |
-| Memory | On-board storage for roughly 15,000 records \(local buffering during connectivity loss\) |
-| Form Factor & Weight | Two reported form factors depending on connector clearance: approx. 62×50×23 mm or 45×50×23 mm \(excluding J1962 connector\); ~50 g |
-| Environmental | Operating range: -30°C to +80°C \(without battery\); extended storage range reported |
-
-## Use Cases
-
-- Fleet management — centralized real-time tracking, ECU telemetry and scheduled reports to optimize routes and utilization.
-- Anti-theft & immobilization — quick removal detection, remote engine cut and recovery workflows with Plaspy alerts.
-- Insurance telematics and driver scoring — capture harsh events, idling, high RPM and driving patterns for scoring and premiums.
-- Rental, roadside assistance and vehicle remarketing — plug-and-play OBD-II install allows rapid onboarding and diagnostics tracking.
+- Fleet management with centralized tracking, utilization reports and ECU based monitoring.
+- Anti theft and recovery workflows using unplug detection and remote immobilizer control.
+- Insurance telematics and driver scoring based on detected driving events and patterns.
+- Rental and remarketing operations that need rapid onboarding and basic vehicle diagnostics.
+- Roadside assistance and service fleets that need quick location and vehicle condition visibility.
 
 ## Why Choose This Tracker with Plaspy
 
-The Ulbotech T361 combines the simplicity of OBD-II plug-and-play installation with the telemetry depth fleets and service providers need. As a Plaspy compatible GPS tracker, it delivers ECU-level data, reliable real-time location and built-in immobilizer control so you can deploy anti-theft, fleet management and insurance telematics solutions without complex installs. Remote FOTA, auto APN/time zone setup and on-device memory reduce maintenance overhead and downtime, while the u-blox GNSS and GSM/GPRS radio ensure consistent connectivity and accurate tracking. If your deployment requires compact OBD-II hardware that feeds rich telemetry into Plaspy for alerts, reports and remote management, the T361 is a practical, proven option.
+The T361 is a practical choice for organizations that want ECU level telemetry without a complex install process. Its combination of vehicle diagnostic access, motion detection and immobilizer output delivers the kinds of signals operators typically use in Plaspy to run alerts, scoring and recovery procedures. Remote update support and local buffering reduce maintenance overhead and help maintain service continuity across a fleet.
 
+If you are evaluating OBD II based hardware to feed vehicle telemetry into Plaspy, the Ulbotech T361 is a functional option that balances deployment speed with diagnostic depth. Learn more about Plaspy and how compatible devices integrate with the platform at https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current specifications and installation guidance with the official Ulbotech documentation at http://www.ulbotech.com/

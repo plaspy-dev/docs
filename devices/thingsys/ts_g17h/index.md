@@ -2,64 +2,61 @@
 slug: /thingsys/ts_g17h
 id: ts_g17h
 sidebar_label: TS-G17H
+title: ThingSys - TS-G17H
 sidebar_class_name: menu_item_tracker
+description: Compact vehicle GPS tracker compatible with Plaspy for real time tracking and basic anti theft features worldwide
+keywords:
+  - ThingSys TS-G17H
+  - TS-G17H GPS tracker
+  - TS G17H Plaspy compatible
+  - GT06 tracker
+  - quad band GPS tracker
+  - vehicle tracker
+  - motorcycle locator
+  - relay immobilizer
+  - GPRS tracker
+  - hidden car tracker
 ---
+
 # ThingSys - TS-G17H
 
 ![TS-G17H](./tracker.jpg)
 
-The TS-G17H is a compact, Plaspy compatible vehicle GPS tracker built for reliable, discreet real-time tracking. Designed for worldwide use, the TS-G17H combines quad-band GSM connectivity with GPRS TCP/IP reporting and the GT06 protocol to provide fleet management teams and individual owners with accurate location, telemetry and basic anti-theft tools. Its small size and wide input voltage range make it ideal as a hidden car GPS tracker or motorcycle locator.
+The TS-G17H is a compact vehicle GPS tracker designed for reliable, discreet real time tracking. Built for worldwide deployment, it combines quad band GSM connectivity with GPRS TCP IP reporting and implements the GT06 message format to deliver location, basic telemetry and anti theft capabilities. Its small form factor, built in GPS antenna and backup battery make it suitable for hidden car tracker and motorcycle locator uses where space and continuity of reporting matter.
 
-The unit is purpose-built for practical deployments: ACC/ignition detection, a built-in GPS antenna and backup battery, and relay control for remote immobilization provide the core features fleet operators and security-conscious drivers expect. When integrated with Plaspy, the TS-G17H delivers dependable real-time tracking, overspeed and geo-fence alerts, and remote control options that simplify vehicle monitoring and theft recovery workflows.
+As a Plaspy compatible device, the TS-G17H can be integrated into Plaspy workflows to provide continuous visibility and practical remote control features. When pointed to Plaspy for reporting, the tracker supplies position updates, ignition status and alarm events that Plaspy ingests for live mapping, alerting and historical playback. This makes the TS-G17H a straightforward option for operators who need dependable tracking and simple remote immobilization controls within the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible via GT06 protocol and GPRS \(TCP/IP\) for seamless real-time tracking and server reporting.
-- Quad-band GSM \(850/900/1800/1900\) ensures global cellular coverage for fleet management and remote vehicles.
-- Relay control for remote immobilizer functionality — useful for anti-theft response and remote vehicle shutdown.
-- Wide input voltage range \(9–100V DC\) and low quiescent current make it suitable for cars, trucks and motorcycles.
-- Built-in GPS antenna and backup battery provide continued position reporting during power interruptions.
-- Supports geo-fence and overspeed alarms for automated incident alerts and compliance monitoring.
-- Compact form factor for discreet installation and hidden car GPS tracker applications.
+- Compatible with Plaspy using GT06 protocol and GPRS TCP IP reporting for live server updates.
+- Quad band GSM support for broad cellular coverage in many regions.
+- Relay control for remote immobilizer actions to support anti theft and recovery workflows.
+- Wide input voltage tolerance and compact size suitable for cars, trucks and motorcycles.
+- Built in GPS antenna and backup battery to maintain position reporting during power interruptions.
+- Supports geo fence and overspeed alarms for automated incident notifications.
 
 ## How It Works with Plaspy
 
-Integration with Plaspy is straightforward: the TS-G17H uses GPRS TCP/IP to report position and telemetry to a Plaspy server and implements the widely used GT06 protocol for message formatting. Once configured to point at Plaspy’s server and port, the tracker sends regular position updates, alarm events and status reports that Plaspy ingests for real-time tracking, historical playback and alerting.
+Integration is based on the device reporting position and event messages to a Plaspy server using GPRS TCP IP and the GT06 format. Once configured to send messages to Plaspy, the TS-G17H provides the platform with location and state information that Plaspy uses for visualization, alerts and reports.
 
-- Real-time location and telemetry updates via GPRS \(TCP/IP\) and GT06 protocol for live mapping on Plaspy dashboards.
-- Ignition/ACC status reporting to reflect vehicle on/off state—useful for fleet utilization and route audits.
-- Geo-fence and overspeed alarms transmit immediately to Plaspy to trigger notifications and workflows.
-- Remote immobilizer capability via relay control — commands can be issued from Plaspy or via SMS/command as configured.
-- Standard SMS/command and server configuration commands for remote provisioning, troubleshooting and IMEI/server checks.
-- Telemetry data from the device can be combined with external sensors \(when available\) to support fuel monitoring workflows in Plaspy.
+- Real time location and telemetry updates for live mapping on Plaspy dashboards.
+- Ignition and ACC status reporting to reflect vehicle on off state for fleet utilization and audits.
+- Geo fence and overspeed alarms transmit to Plaspy to trigger notifications and incident workflows.
+- Remote immobilizer commands via the device relay can be initiated from Plaspy or through configured command methods.
+- Standard SMS and command based configuration options support remote provisioning and troubleshooting when needed.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | TS-G17H |
-| --- | --- |
-| Connectivity | Quad-band GSM 850/900/1800/1900; GPRS Class 12 \(TCP/IP\) |
-| Protocol | GT06 \(standard tracking message formats\) |
-| Bands | 850 / 900 / 1800 / 1900 MHz |
-| Power & Battery | Input voltage 9–100V DC; built-in backup battery; typical current ≈22mA @12V, ≈12mA @24V |
-| Interfaces | ACC/ignition detection input; relay control for remote cut-off / immobilizer; power cable \(red/black\), ACC cable \(orange\), relay cable \(yellow\) |
-| GNSS | Built-in GPS antenna; 2D positioning accuracy ~10 m \(RM\); cold start ≈38 s, warm ≈32 s, hot ≈2 s \(open sky\) |
-| Indicators | Red LED: DC power; Blue LED: GSM signal \(solid=no GSM, flashing=normal, fast=TX\); Yellow LED: GPS status \(solid=no fix, flashing=valid fix\) |
-| Alarms & Alerts | Geo-fence, overspeed, real-time tracking alarms; remote relay immobilization |
-| Environmental | Operating temperature -20°C to +70°C; recommended humidity 20%–80% RH |
-| Form Factor | Compact: approx. 76 × 26 × 19 mm — designed for vehicle/motorcycle installation |
-| Configuration | SMS/command controls for IMEI, server/APN/GMT settings, factory reset and location queries \(e.g., WHERE#\) |
-
-## Use Cases
-
-- Fleet management: monitor vehicle location, ignition status and overspeed events for route optimization and compliance.
-- Anti-theft and recovery: hidden car GPS tracker placement with relay immobilization for remote shutdown and recovery workflows.
-- Motorcycle tracking: compact size and wide voltage compatibility makes it suitable for discreet motorcycle locators.
-- Basic telemetry reporting: use position, speed and ignition data in Plaspy dashboards for operational visibility.
-- Rental and asset control: geo-fence alerts and remote immobilizer help enforce rental agreements and recover assets.
+- Fleet management for location monitoring, ignition tracking and overspeed detection.
+- Anti theft and recovery workflows using hidden installation and relay immobilization.
+- Motorcycle tracking where compact size and voltage flexibility are important.
+- Rental and asset control using geo fences and remote immobilizer features.
+- Basic telemetry reporting combined with Plaspy dashboards for operational visibility.
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the TS-G17H for Plaspy integration gives you a cost-effective, reliable GPS tracker that supports the core features fleets and owners need: real-time tracking, telemetry reporting, ignition detection and relay-based immobilization. Its GT06 protocol support and GPRS TCP/IP connectivity enable fast onboarding to Plaspy’s server infrastructure, and the device’s wide voltage tolerance and compact form factor simplify installation across cars, trucks and motorcycles.
+The TS-G17H offers a practical balance of core tracking features and straightforward integration for organizations using Plaspy. Its implementation of the GT06 protocol and GPRS reporting makes onboarding to Plaspy predictable, and the hardware focus on ignition detection, relay control and backup power addresses common fleet and security requirements without unnecessary complexity.
 
-For operators focused on dependable tracking and straightforward remote control, the TS-G17H pairs well with Plaspy’s maps, alerting and reporting tools, delivering actionable vehicle intelligence without unnecessary complexity. Whether your priority is fleet management, anti-theft protection or basic fuel/telemetry workflows when combined with external sensors, the TS-G17H provides a stable foundation for Plaspy-enabled deployments.
+For teams that need dependable real time tracking, event alerts and simple remote control, the TS-G17H is a pragmatic choice to pair with Plaspy maps, reporting and alerting tools. Its compact footprint and voltage flexibility also make it a flexible option across vehicle types and deployments.
 
+Learn more about how Plaspy supports devices like the TS-G17H on the main Plaspy website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical data and feature lists with the manufacturer at https://www.thingsys.com/.

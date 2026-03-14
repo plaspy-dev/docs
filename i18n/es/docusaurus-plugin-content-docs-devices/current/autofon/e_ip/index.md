@@ -2,60 +2,60 @@
 slug: /autofon/e_ip
 id: e_ip
 sidebar_label: E-Маяк IP
+title: AutoFon - E-Маяк IP
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto AutoFon E-Маяк IP compatible con Plaspy para seguimiento discreto de larga duración, alarmas, SOS y monitoreo de audio remoto
+keywords:
+  - AutoFon E-Маяк IP
+  - E-Mayak IP
+  - rastreador AutoFon
+  - E-Маяк IP Plaspy
+  - rastreador GPS
+  - rastreador SMS
+  - rastreo de activos
+  - rastreo de vehículos
+  - rastreador de larga duración
+  - rastreador antirrobo
 ---
+
 # AutoFon - E-Маяк IP
 
 ![E-Маяк IP](./tracker.jpg)
 
-El AvtoFon E‑Mayak IP \(АвтоФон E‑Маяк IP\) es un localizador GSM/GPS autónomo y compacto, diseñado para un monitoreo discreto de la ubicación a largo plazo y la generación de alertas. Compatible con Plaspy desde el primer momento para actualizaciones de posición por SMS y para la integración de protocolos, el E‑Mayak IP ofrece rastreo en tiempo real confiable y monitoreo de audio a demanda para vehículos, carga valiosa y objetos remotos que requieren protección anti‑robo y una supervisión simple de la flota.
+El AutoFon E-Маяк IP es un rastreador GSM GPS compacto y autónomo diseñado para un seguimiento discreto y prolongado de ubicaciones y para el reporte de alarmas. Está pensado para aplicaciones que requieren actualizaciones de posición fiables y notificaciones de eventos durante largos periodos sin mantenimiento frecuente. Incluye funciones como monitorización de audio bajo demanda, botón SOS y detección de movimiento, pensadas para escenarios de seguridad y antirrobo.
 
-El dispositivo combina una pequeña carcasa hermética con electrónica de bajo consumo y una batería de gran capacidad, lo que permite hasta dos años de operación autónoma, dependiendo de la configuración. Las características de seguridad clave incluyen un micrófono integrado, un botón SOS incorporado, un acelerómetro digital con modos avanzados de detección de movimiento y de accidentes, y un canal de control universal adecuado para inmovilizador/corte de motor u otras acciones remotas, lo que lo convierte en una opción práctica para telemetría, anti‑robo y rastreo de activos a largo alcance cuando se usa con Plaspy.
+Como dispositivo compatible con Plaspy desde el primer momento, el E-Маяк IP puede enviar actualizaciones de posición por SMS y mensajes de protocolo que Plaspy procesa y muestra en mapas y paneles. Esto lo convierte en una opción práctica para clientes que desean incorporar activos de larga duración y bajo mantenimiento a Plaspy para seguimiento en tiempo real, ruteo de alertas y telemetría básica sin depender de un servidor de monitoreo alojado por el fabricante.
 
-## Puntos clave
+## Características principales
 
-- Compatible con Plaspy mediante SMS y mensajes de protocolo para rastreo en tiempo real y alertas.
-- Carcasa compacta y hermética para instalación encubierta en vehículos, embarcaciones, contenedores y otros activos.
-- Operación autónoma prolongada con 2 × CR123A celdas de litio — hasta 2 años dependiendo de la configuración.
-- Micrófono integrado y botón SOS para monitoreo de audio remoto y señalización de alarmas inmediata.
-- Acelerómetro digital avanzado con seis modos: inicio de movimiento, inclinación \(>90°\), golpes y detección de accidentes \(alto g\).
-- Una entrada externa de alarma y un canal adicional universal para control remoto de dispositivos externos \(corte de motor/inmovilizador, control de arranque, sirena, precalentador, etc.\); botón SOS; control remoto por SMS desde números autorizados con protección PIN.
-- Formato de SMS enriquecido con enlaces a mapas, memoria de reintentos/cola de mensajes y mensajes de latido configurables.
+- Compatibilidad directa con Plaspy mediante SMS y mensajes de protocolo para seguimiento y alertas en tiempo real
+- Carcasa hermética y compacta, adecuada para instalaciones discretas en vehículos, embarcaciones, contenedores y activos remotos
+- Larga autonomía con celdas de batería internas; vida útil reportada de hasta dos años según configuración
+- Micrófono integrado y botón SOS para monitorización de audio remota y señalización inmediata de alarmas
+- Acelerómetro digital con múltiples modos de detección para avisos de inicio de movimiento, vuelco y golpes o accidentes
+- Canal de control universal y entrada de alarma externa para acciones remotas como inmovilizador o control de alarmas
+- Formateo robusto de SMS con soporte de enlaces a mapas, reintentos y cola de mensajes para entrega fiable
 
 ## Cómo funciona con Plaspy
 
-Plaspy procesa los mensajes de ubicación y alarma del E‑Mayak IP ya sea usando el reenvío por SMS o configurando mensajes de protocolo hacia un endpoint de servidor. Como el E‑Mayak transmite coordenadas GPS precisas por SMS y admite mensajería de protocolo sobre GPRS \(el firmware soporta actualizaciones vía GPRS aunque el fabricante no proporciona un servidor de monitoreo alojado\), Plaspy puede presentar rastreo en tiempo real, alarmas y telemetría en mapas y paneles una vez configurado para recibir la salida del dispositivo.
+Plaspy recibe los mensajes de ubicación y eventos del E-Маяк IP tanto si el dispositivo reenvía SMS como si envía mensajes de protocolo a un endpoint de servidor. Una vez que Plaspy está configurado para aceptar esos mensajes, la información de ubicación, alarma y estado del rastreador aparece en los mapas, notificaciones y herramientas de reporte de Plaspy, facilitando la supervisión y la respuesta a incidentes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas por SMS \(y mensajes de protocolo cuando el GPRS está habilitado\).
-- Alertas de movimiento, inclinación e impacto \(accidente\) del acelerómetro incorporado, reenviadas a Plaspy para notificación inmediata.
-- Estado de la entrada externa de alarma y del canal de control universal disponible como telemetría digital \(útil para eventos de puerta/alarma o controles del inmovilizador\).
-- Pulsaciones del botón SOS y eventos de monitoreo de audio remoto transmitidos a números autorizados y procesados por Plaspy para la respuesta ante incidentes.
-- Señal de vida \(latido\) del dispositivo y telemetría de batería/temperatura enviadas a Plaspy para apoyar la gestión de flotas y el mantenimiento preventivo.
+- Actualizaciones de ubicación en tiempo real entregadas via SMS y mensajes de protocolo donde esté configurado
+- Alertas de movimiento, vuelco y golpes reenviadas a Plaspy para notificación y registro inmediatos
+- Estado de la entrada de alarma externa y del canal de control universal disponibles como eventos digitales para uso operativo
+- Pulsaciones del botón SOS y eventos de monitorización de audio remoto dirigidos a contactos autorizados y procesados por Plaspy
+- Latidos del dispositivo e informes de batería o temperatura utilizados por Plaspy para monitorización de vida y mantenimiento preventivo
 
-## Resumen técnico
+## Casos de uso habituales
 
-| Conectividad | GSM celular \(módulo QUECTEL M12\) para SMS y mensajes de protocolo; GPRS utilizado para actualizaciones de firmware y protocolo cuando está configurado |
-| --- | --- |
-| Bandas | Módulo: QUECTEL M12 \(consulte la documentación del fabricante para las bandas GSM soportadas\) |
-| Alimentación y batería | 2 × CR123A celdas de litio \(3.0 V\), capacidad total indicada como 1500 mAh; autonomía de hasta 2 años dependiendo de la configuración y los intervalos de reporte; alimentación externa soportada; modo beacon ante pérdida de alimentación externa |
-| Interfaces | Una entrada externa de alarma; un canal adicional universal para control remoto de dispositivos externos \(corte de motor/inmovilizador, control de arranque, sirena, precalentador, etc.\); botón SOS; control remoto por SMS desde números autorizados con protección PIN |
-| GNSS | Chipset GPS Quectel L10; posicionamiento LBS extendido soportado; AGPS no soportado |
-| Bluetooth | Sin conectividad Bluetooth \(no se incluyen sensores BLE\) |
-| Gestión remota | Capacidad de actualización de firmware vía GPRS; el dispositivo admite comandos SMS configurables, mensajes de latido y ajuste remoto de parámetros |
-| Otras características | Micrófono integrado para monitoreo de audio remoto, botón SOS, acelerómetro con detección en múltiples modos, memoria para alarmas/mensajes no enviados con reintento, reloj en tiempo real, medición de temperatura y monitoreo de descarga de la batería |
-| Formato | Carcasa principal compacta 70 × 50 × 21 mm; carcasa hermética suministrada: 79 × 55 × 27 mm; antena GPS 25 × 25 × 4 mm |
+- Seguimiento encubierto de vehículos o motocicletas para respuesta antirrobo y vigilancia discreta
+- Acompañamiento de contenedores y carga con notificaciones de movimiento e impacto durante el tránsito
+- Protección de activos remotos como cocheras, propiedades vacacionales y equipos independientes donde importa la larga duración de batería
+- Rastreo de embarcaciones y remolques donde una carcasa sellada y el reporte por SMS ofrecen ventajas
+- Escenarios ocasionales de seguimiento de personal o mascotas que requieren un botón SOS y monitorización de audio puntual
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Rastreo encubierto de vehículos o motocicletas para respuesta ante robo y monitoreo discreto.
-- Protección de contenedores y carga con notificaciones de movimiento e impacto durante el tránsito.
-- Protección de objetos remotos: garajes, casas de verano y equipos independientes donde la larga duración de la batería y la carcasa hermética resultan ventajosas.
-- Rastreo de activos para embarcaciones o remolques donde se requieren una carcasa sellada y reportes por SMS.
-- Rastreo de personal o mascotas en escenarios que requieren un botón SOS y monitoreo de audio ocasional.
+El AutoFon E-Маяк IP es adecuado para organizaciones que necesitan seguimiento a largo plazo y de bajo mantenimiento, combinado con una instalación discreta y capacidades claras de alarma. Su enfoque centrado en SMS y las opciones de protocolo permiten que Plaspy ingiera directamente datos de ubicación y eventos, habilitando mapeo, alertas y reportes sin depender de un portal del fabricante. La combinación de larga autonomía, carcasa hermética y funciones de alarma integradas convierte al dispositivo en una opción práctica para flujos de trabajo de antirrobo y monitoreo remoto dentro de Plaspy.
 
-## Por qué elegir este localizador con Plaspy
-
-El AvtoFon E‑Mayak IP es un localizador compatible con Plaspy diseñado para escenarios de monitoreo a largo plazo y bajo mantenimiento, con instalación discreta y características de alarma robustas. Su reporte centrado en SMS y las opciones de protocolo permiten a Plaspy ingerir datos de ubicación y eventos sin depender de un servidor alojado por el fabricante, mientras que el acelerómetro, el botón SOS y el canal de control remoto ofrecen una funcionalidad tangible de anti‑robo e inmovilizador. Para la gestión de flotas, telemetría y rastreo en tiempo real, el E‑Mayak IP aporta una vida útil de la batería confiable y protección hermética a los paneles y alertas de Plaspy.
-
-Nota sobre conectividad e integraciones: la unidad no incluye sensores Bluetooth, y AGPS no está soportado. Plaspy puede integrar aún así los mensajes SMS de coordenadas y salidas de protocolo del E‑Mayak IP para mapeo, enrutamiento de alarmas e informes. Para monitoreo de combustible o telemetría adicional de sensores BLE, combine Plaspy con módulos sensores dedicados o con un modelo de localizador diferente que soporte explícitamente esas interfaces.
-
+Si desea saber más sobre cómo Plaspy puede trabajar con dispositivos AutoFon y otros rastreadores, visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones técnicas actuales y la información de soporte en el sitio oficial del fabricante https://www.autofon.ru/.

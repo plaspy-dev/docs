@@ -2,62 +2,60 @@
 slug: /sentar/mini
 id: mini
 sidebar_label: Mini
+title: Sentar - Mini
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G compacto compatible con Plaspy para seguimiento personal y de pequeños activos, resistente al agua y con telemetría confiable
+keywords:
+  - Sentar Mini
+  - Rastreador GPS Sentar Mini
+  - Mini rastreador GPS
+  - Sentar compatible con Plaspy
+  - Rastreador compatible con Plaspy
+  - rastreador GPS personal
+  - rastreador de pequeños activos
+  - rastreador GPS resistente al agua
+  - rastreador GPS 4G
+  - historial de ubicaciones
 ---
+
 # Sentar - Mini
 
 ![Mini](./tracker.png)
 
-El Mini 4G GPS Tracker es un rastreador GPS compacto, compatible con Plaspy, diseñado para un seguimiento fiable de personas y de activos pequeños. Con posicionamiento multimodo \(GPS, AGPS, LBS y WiFi\) y soporte celular mundial en 4G/3G/2G, el Mini ofrece un seguimiento en tiempo real preciso y telemetría de estado a Plaspy para la conciencia situacional y el historial de ubicación. Su clasificación IPX7 a prueba de agua y su batería recargable de 700 mAh lo convierten en una opción práctica para el uso diario con niños, mascotas, equipaje o adultos vulnerables.
+El Sentar Mini es un rastreador GPS 4G compacto diseñado para el seguimiento personal y de pequeños activos. Combina posicionamiento multimodal con soporte celular global para ofrecer actualizaciones continuas de ubicación y telemetría del dispositivo. Su tamaño reducido y portátil, junto con una clasificación IPX7 de resistencia al agua y una batería recargable, lo hacen ideal para uso diario en personas, mascotas, equipaje y objetos similares de pequeño tamaño.
 
-Diseñado para integrarse de forma fluida con el proceso de incorporación de dispositivos de Plaspy y su panel de seguimiento, el Mini ofrece actualizaciones continuas de la ubicación y datos de estado del dispositivo a través de redes celulares. Su formato compacto y colores disponibles \(Azul, Rosa y Negro\) permiten que organizaciones y familias desplieguen rastreadores GPS discretos que resultan menos intrusivos, mientras suministran telemetría esencial a Plaspy para alertas, geocercas e informes.
+Como dispositivo compatible con Plaspy, el Mini se integra con el proceso de incorporación y el panel de seguimiento de Plaspy para entregar ubicación en tiempo real, estado del equipo e historial de ubicaciones. Su posicionamiento multimodal ayuda a Plaspy a obtener fijaciones adecuadas en distintos entornos, mientras que su formato compacto y colores seleccionables facilitan despliegues menos intrusivos para familias y organizaciones.
 
-## Aspectos clave
+## Aspectos destacados
 
-- Compatible con Plaspy para seguimiento en tiempo real y historial de ubicaciones a través de la conexión celular y posicionamiento multimodo.
-- Posicionamiento multimodo \(GPS + AGPS + LBS + WiFi\) mejora la precisión tanto en interiores como en exteriores para determinaciones de ubicación fiables.
-- Cobertura celular global con soporte 4G/3G/2G y amplias bandas LTE FDD para roaming y uso internacional.
-- Resistencia al agua IPX7 \(apta para condiciones húmedas e inmersiones accidentales\) — ideal para estilos de vida activos y uso al aire libre.
-- Batería recargable de 700 mAh para una operación portátil extendida y rutinas de recarga simples.
-- Diseño compacto y fácil de usar disponible en Azul, Rosa y Negro para adaptarse a casos de uso personales y familiares.
-- Impulsado por el chipset ASR3603S con 128 MB de RAM y 128 MB de ROM para un funcionamiento ágil y telemetría confiable.
+- Compatible con Plaspy para seguimiento en tiempo real e historial de ubicaciones mediante uplink celular y posicionamiento multimodal.
+- Posicionamiento multimodal que incluye GPS, AGPS, LBS y WiFi para mejorar las fijaciones de ubicación en ambientes variados.
+- Soporte celular global en 4G, 3G y 2G para amplia cobertura y uso internacional.
+- Clasificación IPX7 que soporta condiciones húmedas y la inmersión accidental.
+- Batería recargable de 700 mAh para operación portátil prolongada y recargas rutinarias.
+- Diseño compacto y fácil de usar disponible en azul, rosa y negro para un uso personal discreto.
+- Basado en la plataforma ASR3603S con 128 MB de RAM y 128 MB de ROM para operación ágil del dispositivo y reporte de telemetría confiable.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el Mini 4G GPS Tracker transmite datos de ubicación y telemetría a través de la red celular a los endpoints de ingesta de Plaspy, habilitando seguimiento en tiempo real, alertas configurables y reproducción de rutas históricas. El posicionamiento multimodo del dispositivo garantiza que Plaspy reciba la mejor determinación disponible: GPS en exteriores y una combinación de AGPS, WiFi y LBS para mejorar la precisión en interiores. Plaspy utiliza estos datos para alimentar paneles de control, geocercas y reglas de notificación para una conciencia situacional oportuna.
+Cuando se utiliza con Plaspy, el Mini transmite ubicación y telemetría a través de redes celulares para que Plaspy muestre seguimiento en vivo, alertas y rutas históricas en sus paneles. Plaspy consume las fijaciones de ubicación y el estado del dispositivo para habilitar reglas de geocercas, notificaciones e informes para administradores o cuidadores.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(GPS + AGPS + LBS + WiFi\) entregadas a Plaspy para seguimiento en vivo.
-- Informe del nivel de batería y del estado del dispositivo a Plaspy para que administradores y cuidadores puedan monitorear el tiempo de actividad y el estado de carga.
-- Información de la red celular y de las bandas disponible para Plaspy para ayudar a diagnosticar la conectividad y el comportamiento de roaming.
-- Historial de ubicación y reproducción de rutas en los paneles de Plaspy para revisión posterior al evento y auditoría.
-- Alertas configurables en Plaspy basadas en geocercas, movimiento o condiciones de batería baja generadas por la telemetría del dispositivo.
+- Actualizaciones de ubicación y posición en vivo entregadas a Plaspy para conciencia situacional y seguimiento.
+- Reporte de nivel de batería y estado del dispositivo para que los equipos monitoreen tiempo de actividad y nivel de carga en Plaspy.
+- Historial de ubicaciones y reproducción de rutas en los paneles de Plaspy para revisión posterior y auditoría.
+- Alertas configurables en Plaspy basadas en violaciones de geocercas, movimiento o condiciones de batería baja.
+- Visibilidad de telemetría que soporta supervisión operativa y respuesta oportuna para monitoreo personal y de pequeños activos.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | Celular \(4G/3G/2G\) multimodo |
-| --- | --- |
-| Bandas | 4G FDD: B1/B2/B3/B4/B5/B7/B8/B17/B20; 3G WCDMA: B1/B2/B4/B5/B8; 2G GSM: B2/B3/B5/B8 |
-| Chipset principal | ASR3603S |
-| Memoria del sistema | 128MB RAM, 128MB ROM |
-| Ranura SIM | Nano SIM |
-| Alimentación y batería | 700mAh batería recargable |
-| Modos de posicionamiento \(GNSS\) | GPS + AGPS; posicionamiento WiFi; LBS \(celular\) |
-| Bluetooth | No especificado |
-| Gestión remota | No especificado \(confirmar soporte FOTA o configuración remota con el proveedor\) |
-| Resistencia al agua | IPX7 \(apta para condiciones húmedas y inmersiones accidentales\) |
-| Factor de forma y colores | Rastreador personal compacto — colores: Azul, Rosa y Negro |
-
-## Casos de uso
-
-- Seguridad infantil: rastreo discreto con dispositivo wearable que informa la ubicación a Plaspy para alertas de los padres y notificaciones de geocercas.
-- Monitoreo de personas mayores: ubicación en tiempo real y estado del dispositivo para cuidadores que requieren actualizaciones rápidas de posición y alertas de batería baja.
-- Rastreo de mascotas: diseño compacto y a prueba de agua que facilita el seguimiento de mascotas durante actividades al aire libre y exposiciones accidentales al agua.
-- Equipaje y objetos personales: rastreo GPS ligero y compacto para activos de viaje que requieren conectividad celular internacional fiable.
-- Seguridad personal: rastreo en tiempo real y historial de ubicaciones en Plaspy para una respuesta rápida ante incidentes y esfuerzos de recuperación.
+- Seguimiento de seguridad infantil con colocación discreta y alertas a los padres a través de Plaspy.
+- Monitoreo de personas mayores o adultos vulnerables para cuidadores que requieren actualizaciones oportunas de posición y estado.
+- Rastreo de mascotas para actividades al aire libre con resistencia al agua que tolera inmersiones accidentales.
+- Seguimiento de equipaje y activos de viaje donde el formato compacto y la cobertura celular internacional son importantes.
+- Monitoreo de seguridad personal y apoyo en recuperación usando seguimiento en tiempo real e historial de ubicaciones.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El Mini 4G GPS Tracker combina hardware práctico con la plataforma de rastreo de Plaspy para entregar una ubicación y telemetría en tiempo real, rentable, para despliegues personales y de activos pequeños. Su posicionamiento multimodo y el soporte de bandas celulares amplias aseguran conectividad robusta y mayor precisión en entornos mixtos, mientras la protección IPX7 y la batería de 700 mAh lo hacen resistente para el uso diario. Para organizaciones o familias que buscan soluciones compatibles con Plaspy sin I/O específico para vehículos, el Mini es una opción compacta centrada en actualizaciones de ubicación precisas, telemetría de estado del dispositivo y una integración sencilla.
+El Mini es una opción práctica para organizaciones y familias que necesitan un rastreador pequeño y confiable que alimente datos continuos de ubicación y estado del dispositivo en Plaspy. Su combinación de posicionamiento multimodal y amplio soporte celular ayuda a mantener la conectividad en entornos mixtos, mientras que la protección IPX7 y la batería recargable lo hacen apropiado para el uso móvil diario. Para despliegues enfocados en visibilidad personal o de pequeños activos en lugar de telemática vehicular, el Mini ofrece un emparejamiento sencillo con las funciones de seguimiento y alertas de Plaspy.
 
-Nota sobre funciones avanzadas para vehículos: si sus necesidades de gestión de flotas incluyen detección de ignición, control del inmovilizador, monitoreo de combustible o integración de sensores Bluetooth, verifique el soporte específico de E/S e sensores para su despliegue. Las especificaciones del Mini destacan la confiabilidad del posicionamiento GPS/WiFi/LBS y la telemetría celular; consulte al proveedor si requiere capacidades telemáticas vehiculares adicionales \(ignición, inmovilizador, monitoreo de combustible\) o compatibilidad con sensores Bluetooth para temperatura u otra telemetría.
-
+Si necesita una confirmación técnica más detallada para un despliegue específico, consulte al fabricante y verifique las especificaciones actuales. Para conocer más sobre cómo Plaspy puede gestionar dispositivos Sentar Mini y otros rastreadores compatibles visite https://www.plaspy.com. Product specifications and availability can change over time so please verify the latest details with the manufacturer at http://www.sentarsmart.com/.

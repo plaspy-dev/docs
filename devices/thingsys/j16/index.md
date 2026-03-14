@@ -2,61 +2,60 @@
 slug: /thingsys/j16
 id: j16
 sidebar_label: J16
+title: ThingSys - J16
 sidebar_class_name: menu_item_tracker
+description: Compact Plaspy compatible vehicle tracker with 4G LTE and 2G fallback for reliable real time fleet tracking
+keywords:
+  - ThingSys J16
+  - ThingSys J16 GPS tracker
+  - J16 tracker
+  - J16 Plaspy compatible
+  - ThingSys tracker
+  - vehicle GPS tracker
+  - fleet tracking
+  - real time tracking
+  - vehicle telematics
+  - J16A J16B
 ---
+
 # ThingSys - J16
 
 ![J16](./tracker.jpg)
 
-The J16 is a compact, Plaspy compatible vehicle GPS tracker built around the SIMCOM 7670SA module. With 4G LTE \(CAT1\) connectivity and 2G fallback, the J16 delivers reliable real-time tracking and vehicle telemetry for fleet management, anti-theft monitoring, and general vehicle telematics. Two variants—J16A \(ACC detection and relay\) and J16B \(relay, microphone and SOS\)—let you choose the feature set that fits your deployment.
+The J16 is a compact vehicle GPS tracker from ThingSys designed for fleet management, anti theft monitoring, and general vehicle telematics. Built around a SIMCOM 7670SA module, the device provides 4G LTE CAT1 connectivity with 2G fallback and includes features such as internal backup battery, motion G sensor, blind area message storage and two variant options that add ACC detection, relay control, microphone and SOS functionality.
 
-The device is optimized for easy integration with Plaspy: it communicates over TCP/IP and supports common tracking modes \(GPRS tracking and SMS polling\), defaulting to GT06/CRX3 protocols while offering optional JT808, Tianqin and Tianhe profiles via SMS. Its compact size, internal backup battery, motion/G-sensor and blind-area message storage make the J16 a practical choice for mixed fleets operating across cars, buses, trucks and motorcycles.
+As a Plaspy compatible device, the J16 can report position and telemetry into Plaspy for live tracking, alerts and historical reporting. Its support for common messaging modes and TCP IP communications makes integration straightforward, allowing fleet operators to use the J16 within Plaspy dashboards for visibility, event handling and operational oversight across mixed vehicle fleets.
 
 ## Key Highlights
 
-- Plaspy compatible 4G LTE \(CAT1\) GPS tracker with 2G fallback for broad cellular coverage and reliable real-time tracking.
-- Two variants: J16A with ACC detection and relay control; J16B adds relay, built-in microphone and SOS for advanced monitoring and emergency signaling.
-- Worldwide cellular bands \(LTE-FDD and GSM\) and TCP/IP communications for fleet management and telemetry reporting.
-- Compact, low-weight form factor \(80 × 39 × 17 mm, 51 g\) with internal backup battery \(140–150 mAh\) to support short power-loss scenarios and anti-theft use cases.
-- High-sensitivity GPS chip with fast hot-start \(≤2 s\) and robust cold-start performance \(avg ≤32 s\), location accuracy ≤30 m.
-- Motion/G-sensor, sleep power mode for low energy consumption, and blind-area coverage with storage for up to 8,000 messages.
-- Wide operating voltage \(DC 9V–90V\) suitable for cars, buses, trucks and motorcycles; optional relay accessories enable remote cut/restore \(immobilizer\) functions.
+- Plaspy compatible 4G LTE CAT1 tracker with 2G fallback for broad cellular reach and continuous tracking.
+- Two variants available J16A with ACC detection and relay control and J16B adding relay, microphone and SOS for emergency signaling.
+- Compact and lightweight design with an internal backup battery and motion G sensor for anti theft and short power loss scenarios.
+- Blind area message storage capable of holding thousands of messages while out of coverage and forwarding them when connectivity resumes.
+- Wide operating voltage range suitable for cars buses trucks and motorcycles making it a flexible choice for mixed fleets.
+- Default protocol profiles supported with optional protocol profiles configurable where needed to match server requirements.
 
 ## How It Works with Plaspy
 
-Integrating the J16 with Plaspy gives you continuous, actionable vehicle data in your Plaspy dashboard. The tracker sends positional and telemetry packets via TCP/IP or GPRS to Plaspy servers using standard protocols, allowing Plaspy to display live location, generate alerts, and store history for reporting. Plaspy supports the default GT06/CRX3 messages and can be configured to accept optional protocol profiles where needed.
+When connected to Plaspy the J16 delivers continuous positional and telemetry packets so the platform can display live location data, generate alerts and maintain event history for reporting. Plaspy is configured to accept the J16 message formats and process incoming data for operational use.
 
-- Real-time location and telemetry updates sent over TCP/IP \(GPRS\) for smooth tracking and mapping in Plaspy.
-- ACC \(ignition\) detection—virtual and physical ACC inputs are supported—so Plaspy can report ignition on/off events and run business logic \(e.g., driver hours\).
-- Blind-area coverage: the J16 stores up to 8,000 messages when out of coverage and forwards them to Plaspy once connectivity is restored.
-- Remote immobilizer capability: relay control allows Plaspy to trigger cut/restore power actions when a relay accessory is fitted \(extra relay required\).
-- Microphone and SOS \(J16B\): optional audio and emergency signaling events are reported to Plaspy for incident handling where available.
-- Telemetry integration for fuel monitoring and other sensors when paired with vehicle CAN or external sensors—Plaspy can combine these inputs with J16 location data for richer fleet insights.
-- Plaspy can correlate J16 data with other sources \(for example, Bluetooth sensor feeds managed separately\) to provide a comprehensive telematics view across your deployments.
+- Live location updates and telemetry shown on Plaspy maps for real time fleet visibility.
+- Ignition and ACC events reported to Plaspy enabling run time rules such as driver hours and ignition based alerts.
+- Blind area logging forwarded to Plaspy after reconnection so historical records remain complete.
+- Relay commands can be issued from Plaspy to perform remote immobilizer actions when a relay accessory is installed.
+- SOS and microphone events from J16B variant are surfaced in Plaspy for incident response and event investigation.
+- Plaspy can combine J16 location feeds with external sensor data such as Bluetooth sensor inputs to provide richer telematics insights.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE \(CAT1\) via SIMCOM 7670SA module; fallback to 2G GSM; TCP/IP, GPRS tracking and SMS polling supported |
-| --- | --- |
-| Bands | GSM850/900/1800/1900; LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28/B66 |
-| Power & Battery | Wide operating voltage DC 9V–90V; internal backup battery 140–150 mAh \(3.7V\) for short-term power-loss operation |
-| Interfaces | Virtual and physical ACC \(ignition\) detection; relay control \(cut/restore requires extra relay\); optional microphone and SOS on J16B; relay control available on both variants |
-| GNSS | High-sensitivity GPS chip; hot start ≤2 s, avg cold start ≤32 s; location accuracy ≤30 m |
-| Protocols & Remote Management | Default GT06/CRX3 protocols; optional JT808, Tianqin, Tianhe via SMS; TCP/IP communications for cloud reporting |
-| Storage & Sensors | Blind-area message storage up to 8,000 messages; built-in motion/G-sensor; sleep power mode for energy savings |
-| Operating Range & Durability | Operating temperature -20°C to +55°C; compact form factor 80 × 39 × 17 mm; weight 51 g |
-
-## Use Cases
-
-- Fleet management and route monitoring: live tracking, ignition events and message history for route optimization and compliance reporting.
-- Anti-theft and remote immobilization: Plaspy-controlled relay commands can cut or restore power \(with optional relay\) to immobilize stolen vehicles.
-- Buses, trucks and motorcycles: the 9V–90V input range supports mixed-vehicle deployments across large fleets.
-- Driver and vehicle telemetry: motion/G-sensor and ignition data feed into Plaspy for driver behavior analysis and event-based alerts.
-- Blind-area logging: stores up to 8,000 messages when offline and forwards them to Plaspy for uninterrupted historical records.
+- Fleet management and route monitoring for cars buses and trucks requiring live tracking and event history.
+- Anti theft monitoring with backup battery motion detection and remote immobilizer support.
+- Emergency response and incident handling using SOS and audio features on the J16B variant.
+- Mixed vehicle deployments where a wide input voltage range and compact device size are required.
+- Offline logging and later data forwarding to preserve continuity of historical tracking records.
 
 ## Why Choose This Tracker with Plaspy
 
-The J16 is a practical, Plaspy compatible GPS tracker for organizations that need a compact, capable device with global cellular support and rugged vehicle voltage tolerance. Its CAT1 LTE performance with 2G fallback, quick positioning and blind-area message buffering ensure continuous real-time tracking and reliable telemetry delivery. Variant options \(J16A/J16B\) let you choose ACC detection, relay control, microphone and SOS features, while optional relay accessories enable remote immobilizer functions—key for anti-theft deployments.
+The ThingSys J16 is a practical choice for organizations that need a compact tracker with reliable cellular coverage and hardware options for ignition sensing and emergency signaling. Its blind area buffering and internal backup battery help maintain continuity in real world deployments where coverage or power can be intermittent.
 
-When paired with Plaspy, the J16 becomes part of a scalable fleet management solution: Plaspy ingests GPS and telemetry data, triggers alarms for ignition or SOS events, supports fuel monitoring workflows when external sensors are integrated, and presents long-term reports for operational decisions. If you require Bluetooth sensors or additional BLE data, Plaspy can incorporate those feeds alongside J16 tracking data to deliver a complete telematics picture across vehicles and assets.
-
+Paired with Plaspy the J16 becomes part of a scalable fleet management solution where location data, ignition events, alerts and stored messages feed into dashboards and reports that support operational decisions. Learn more about Plaspy on the main website https://www.plaspy.com and verify current specifications and availability with the manufacturer at https://www.thingsys.com/ since product details and options can change over time.

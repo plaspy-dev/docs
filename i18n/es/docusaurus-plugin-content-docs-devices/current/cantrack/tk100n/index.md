@@ -2,58 +2,59 @@
 slug: /cantrack/tk100n
 id: tk100n
 sidebar_label: TK100N
+title: CanTrack - TK100N
 sidebar_class_name: menu_item_tracker
+description: Rastreador 2G profesional cableado para vehículos compatible con Plaspy. Seguimiento en tiempo real, ACC, SOS y control de relé
+keywords:
+  - CanTrack TK100N
+  - TK100N compatible con Plaspy
+  - rastreador GPS TK100N
+  - rastreador CanTrack
+  - compatible GT06N
+  - rastreador GPS para vehículo
+  - seguimiento de flotas
+  - rastreador antirrobo
+  - rastreador GPS para motocicleta
+  - rastreador para bicicleta eléctrica
 ---
+
 # CanTrack - TK100N
 
 ![TK100N](./tracker.png)
 
-El TK100N, desarrollado por un fabricante OEM probado, es un rastreador GPS para vehículos de 2G, con conexión cableada y multifuncional, diseñado para despliegues profesionales. Compatible con Plaspy desde el primer momento, admite el protocolo GT06N y ofrece seguimiento en tiempo real fiable, detección de ACC, botón SOS de pánico y control remoto de relé — convirtiéndolo en una opción práctica para la gestión de flotas, la protección antirrobo y operaciones basadas en telemetría.
+El TK100N es un rastreador GPS 2G cableado y multifuncional de un fabricante OEM consolidado, pensado para despliegues profesionales. Ofrece seguimiento en tiempo real junto con funciones clave de estado del vehículo, como detección de ACC, entrada de pánico SOS y control remoto de relés. Está diseñado para automóviles, motocicletas y bicicletas eléctricas y soporta un amplio rango de tensión para un funcionamiento fiable en servicio.
 
-Diseñado para coches, motocicletas y bicicletas eléctricas, el TK100N se instala directamente en el arnés del vehículo y funciona dentro de un amplio rango de voltaje \(9–90V DC\). Con GNSS MTK de alta sensibilidad \(-159 dBm\) y una precisión típica de posición de alrededor de 10 metros, se integra con Plaspy para entregar ubicación en vivo, alertas de estado y capacidades de control remoto que operadores de flotas y equipos de seguridad esperan.
+Como dispositivo compatible con Plaspy desde el primer momento, el TK100N se integra con la plataforma usando el formato de mensajes GT06N para entregar ubicación en vivo, alertas de estado y acciones de control remoto. Esto lo convierte en una opción práctica para flotas y equipos de seguridad que buscan una incorporación sencilla a Plaspy y telemetría confiable para sus procesos de monitoreo y respuesta.
 
-## Destacados clave
+## Puntos clave
 
-- Compatible con Plaspy vía protocolo GT06N para una rápida integración en la plataforma y una ingesta telemétrica estandarizada.
-- Seguimiento en tiempo real vía GPRS/TCP-IP con respaldo por SMS para informes de ubicación resilientes.
-- Herramientas anti-robos robustas: detección de ACC, botón de pánico SOS, alarmas de vibración y de apagado, además de control remoto del inmovilizador por relé.
-- Chipset MTK GNSS de alta sensibilidad \(-159 dBm\) con una precisión típica de GPS de alrededor de 10 metros para un posicionamiento fiable.
-- Amplio rango de voltaje de funcionamiento \(9–90V DC\) y baja corriente de consumo \(5–50 mA\) apto para distintos sistemas eléctricos de vehículos.
-- Formato compacto y ligero \(~79 × 34 × 18 mm; ~50 g\) para instalación discreta en coches, motos y bicicletas eléctricas.
-- Conjunto de comandos SMS completo para configuración remota, verificación de estado y operaciones de emergencia cuando la conectividad de datos es limitada.
+- Compatible con Plaspy mediante el protocolo GT06N para una integración rápida y una ingestión de telemetría estandarizada
+- Seguimiento en tiempo real con respaldo por SMS para mantener los reportes de ubicación cuando las condiciones de datos varían
+- Funciones de estado del vehículo como detección de ACC y entrada de pánico SOS para notificación de incidentes
+- Control remoto de relé para soportar inmovilización y otras intervenciones remotas según configuración
+- Alta sensibilidad GNSS MTK con precisión típica alrededor de 10 metros para posicionamiento confiable
+- Amplio rango de tensión de operación, adecuado para autos, motocicletas y bicicletas eléctricas, soportando distintos sistemas eléctricos vehiculares
 
 ## Cómo funciona con Plaspy
 
-Conectado a Plaspy, el TK100N transmite datos de ubicación y eventos vía GPRS usando el formato de mensaje compatible con GT06N. Plaspy analiza los paquetes TCP/IP entrantes o acepta respaldos por SMS/GPRS para mostrar la posición en vivo, telemetría del vehículo y estados de alarma en el panel. Los comandos emitidos desde Plaspy \(o a través de un servidor configurado\) pueden activar acciones de relé y solicitar actualizaciones de estado, habilitando un control central de la flota y flujos de trabajo de antirrobo.
+Cuando usted lo conecta a Plaspy, el TK100N envía mensajes de ubicación y eventos que Plaspy interpreta para mostrar posición en vivo, estados de alarma y el estado del vehículo en la plataforma. Plaspy centraliza la telemetría entrante, aplica las alertas configuradas y permite acciones de comando remoto para que los operadores puedan monitorear flotas, responder a incidentes y mantener supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía GPRS/TCP-IP al servidor de Plaspy usando el protocolo GT06N.
-- Detección de ACC \(estado de ignition\) reportada a Plaspy para segmentación de viajes, informes de ralentí e información sobre el comportamiento del conductor.
-- Alarmas SOS de pánico, vibración y apagado enviadas a Plaspy para alertas inmediatas y seguimiento de incidentes.
-- Inmovilizador remoto \(control de relé\) — Plaspy puede emitir comandos para cortar o reanudar suministro de combustible y energía cuando lo permita la ley local y la instalación.
-- Respaldo de comandos vía SMS y monitoreo de voz disponibles cuando los datos están limitados, ofreciendo rutas redundantes de control y verificación.
+- Transmisión de ubicación y telemetría en vivo a Plaspy usando mensajes formateados GT06N para una ingestión consistente
+- Detección de ACC reportada a Plaspy para marcar inicio y fin de trayectos, útil en informes y análisis operativos
+- Alarmas de SOS, vibración y corte de energía reenviadas a Plaspy para alertas inmediatas y seguimiento de incidentes
+- Comandos remotos de relé emitidos desde Plaspy para habilitar inmovilizadores u otras acciones remotas autorizadas
+- Respaldo por comandos SMS disponible para configuración y consultas de estado cuando la conectividad de datos es limitada
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | 2G \(GSM/GPRS\) para control GPRS/TCP-IP y SMS; reporte TCP/IP a los servidores de Plaspy. |
-| --- | --- |
-| Bandas | Las bandas celulares varían según la variante de fabricación; consulte la hoja de datos del dispositivo o el proveedor para soporte regional de bandas. |
-| Alimentación y Batería | Voltaje de operación 9–90V DC; bajo consumo 5–50 mA \(no se especifica una batería interna de respaldo a largo plazo en la descripción suministrada\). |
-| Interfaces | Detección de encendido ACC, entrada de pánico SOS, control de relé para inmovilizador \(corte remoto\), reporte de alarmas de vibración y apagado, capacidad de escucha de voz. |
-| GNSS | Chipset MTK de alta sensibilidad, sensibilidad de hasta -159 dBm, precisión típica alrededor de 10 metros. |
-| Bluetooth | No especificado para sensores Bluetooth; no se observa BLE integrado en la descripción. |
-| Gestión remota | Compatibilidad con protocolo GT06N; configuración y control vía comandos SMS y TCP/IP \(configurar IP de servidor/APN, intervalos de reporte, control de relé, configuración de alarmas, restablecimiento de fábrica\). |
-| Ambiental | Operación: -20 °C a +55 °C; Almacenamiento: -40 °C a +85 °C; Tolerancia de humedad 15%–95% RH. |
-| Formato | Módulo compacto cableado ~79 × 34 × 18 mm, peso ~50 g — destinado para instalación discreta en vehículos. |
-
-## Casos de uso
-
-- Gestión de flotas — ubicación en vivo, inicio/detención de viaje vía detección de ACC y reportes programados para visibilidad operativa.
-- Recuperación antirrobo — alarmas SOS, alertas de vibración y de apagado, e inmovilización remota por relé para facilitar la recuperación.
-- Monitoreo del comportamiento del conductor — eventos de encendido/ACC e historial de movimientos para apoyar la seguridad y el cumplimiento.
-- Protección de activos para motocicletas y bicicletas eléctricas — formato compacto y bajo consumo permiten protección continua en vehículos de dos ruedas.
-- Telemetría y control de inventario — combine datos de posición del TK100N con la analítica de Plaspy para optimización de rutas y prevención de pérdidas.
+- Gestión de flotas para autos y vehículos comerciales ligeros que requieren ubicación en vivo y segmentación de trayectos
+- Protección antirrobo con alertas SOS, notificaciones por vibración y corte de alimentación para facilitar la recuperación
+- Protección y seguimiento de motocicletas y bicicletas eléctricas, donde importa el tamaño compacto y bajo consumo
+- Monitoreo de conductor y vehículo usando eventos de encendido y el historial de movimiento para apoyar programas de seguridad
+- Operaciones basadas en telemetría donde los datos de posición se combinan con reportes de la plataforma para supervisión de rutas y activos
 
 ## Por qué elegir este rastreador con Plaspy
 
-El TK100N es un rastreador práctico y compatible con Plaspy para organizaciones que necesitan seguimiento en tiempo real fiable, integración de plataforma sencilla y controles anti-robo robustos. Su compatibilidad con el protocolo GT06N facilita la incorporación a Plaspy, mientras que GPRS/TCP-IP con respaldo por SMS garantiza una entrega telemétrica resiliente. Para operadores de flotas, la combinación de detección de ACC, intervalos de reporte configurables y control remoto de relé ofrece telemetría accionable y capacidades de intervención directa. El formato compacto del dispositivo, su amplia tolerancia de voltaje y su robusta gama de temperaturas operativas lo hacen apto para diversos tipos de vehículos y climas, proporcionando un componente confiable para la gestión de flotas escalable, flujos de trabajo basados en telemetría y estrategias anti-robo.
+El TK100N es una opción práctica para organizaciones que necesitan un rastreador cableado y compacto con compatibilidad directa con Plaspy. Su soporte del protocolo GT06N simplifica la incorporación al servidor y reduce la carga de configuración, mientras que el respaldo por SMS y las entradas de alarma robustas ofrecen múltiples vías para mantener visibilidad y control. Para operadores que requieren reportes de posición fiables, datos de trayecto basados en encendido y capacidad de relé remoto, el TK100N entrega el conjunto de funciones centrales útil para la gestión de flotas y los flujos de trabajo de seguridad.
 
+To learn more about Plaspy and how this tracker can be used within the Plaspy platform visit https://www.plaspy.com. Product specifications and availability can change over time; please verify current technical details and regional variants on the manufacturer site https://www.cantrackgps.com/ before purchase or deployment.

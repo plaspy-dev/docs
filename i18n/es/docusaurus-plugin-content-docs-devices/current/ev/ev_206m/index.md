@@ -2,63 +2,60 @@
 slug: /ev/ev_206m
 id: ev_206m
 sidebar_label: EV-206M
+title: EV - EV-206M
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS ultraligero EV-206M para mascotas compatible con Plaspy, con ubicación casi en tiempo real, monitoreo de actividad y alertas de geocerca
+keywords:
+  - EV EV-206M
+  - rastreador GPS EV-206M
+  - rastreador EV para mascotas
+  - EV-206M Plaspy
+  - rastreador GPS para mascotas
+  - rastreador GPS para gatos
+  - rastreador 4G para mascotas
+  - monitoreo de actividad de mascotas
+  - rastreador IP67 para mascotas
+  - historial de ubicaciones de mascotas
 ---
+
 # EV - EV-206M
 
 ![EV-206M](./tracker.png)
 
-# EV-206M Rastreador GPS para mascotas — compatible con Plaspy
+El EV-206M es un rastreador GPS ultraligero pensado para gatos y mascotas pequeñas. Con apenas 19 gramos y clasificación de resistencia al agua IP67, ofrece un diseño compacto y cómodo para el collar, junto con posicionamiento multimodal y enlace celular para proporcionar una localización fiable tanto en exteriores como en interiores. El fabricante lo presenta como una solución de uso diario para la seguridad de la mascota, incluyendo monitoreo de actividad, detección de presencia en el hogar y una base de carga a juego.
 
-El EV-206M es un rastreador GPS para mascotas ultraligero compatible con 4G, diseñado para gatos y mascotas pequeñas, pensado para ofrecer posicionamiento casi en tiempo real y telemetría de actividad sin cargar a tu animal. Con un peso de aproximadamente 19 g y una clasificación IP67 a prueba de agua, el EV-206M combina un factor de forma apto para gatos con posicionamiento multitecnológico \(GPS, Wi‑Fi, Beacon y Cellular 4G LTE‑M/NB‑IoT\) para que los dueños cuenten con una ubicación confiable tanto en exteriores como en interiores.
+Este modelo es compatible con Plaspy, lo que lo convierte en una opción práctica para quienes desean centralizar el monitoreo de la ubicación y la actividad de sus mascotas. Plaspy puede procesar los datos del EV-206M para mostrar la ubicación en vivo en mapas, generar alertas de geocerca, registrar el historial en la línea de tiempo y notificar sobre actividad, de modo que propietarios y operadores puedan usar los flujos de trabajo de Plaspy que ya conocen para gestionar el rastreo y las alertas.
 
-El dispositivo es compatible con Plaspy y se integra de forma fluida en los flujos de monitoreo potenciado por Plaspy para proporcionar rastreo en tiempo real, alertas de geocerca, historial de líneas de tiempo y notificaciones de actividad. Su arquitectura IoT de bajo consumo, la base de carga incluida \(con un beacon Bluetooth integrado\) y el soporte para detección en el hogar permiten que el EV-206M esté optimizado para la seguridad diaria de la mascota y un monitoreo sin preocupaciones durante el sueño.
+## Características clave
 
-## Puntos clave
-
-- Diseño ultraligero de 19 g diseñado para gatos y mascotas pequeñas — carga mínima en el collar para un uso cómodo.
-- Posicionamiento multimodo: GPS para precisión en exteriores, además de cobertura interior asistida por Wi‑Fi y Beacon.
-- Conectividad celular vía 4G LTE‑M / NB‑IoT para una subida de datos fiable y rastreo en tiempo real hacia Plaspy.
-- Rastreo en vivo con actualizaciones de ubicación exteriores cada 10 segundos cuando está habilitado.
-- Resistencia al agua IP67 para uso diario y protección contra el clima.
-- Monitorización de actividad, historial de ubicación y alertas de inactividad para ayudar a detectar comportamientos inusuales.
-- Incluye base de carga compatible con un beacon Bluetooth integrado, cable USB y accesorios para una instalación sencilla.
-- Funciones de detección para el hogar utilizando Wi‑Fi y detección de beacon Bluetooth para reconocer llegadas y salidas.
+- Diseño ultraligero de 19 g pensado para gatos y mascotas pequeñas para minimizar la carga del collar y maximizar la comodidad
+- Posicionamiento multimodal que combina GPS, Wi Fi y asistencia por beacon para mejorar la cobertura en interiores y exteriores
+- Conectividad celular para envío fiable de datos y reporte de ubicación casi en tiempo real a plataformas de monitoreo como Plaspy
+- Clasificación de resistencia al agua IP67 para uso diario y exposición a los elementos
+- Monitoreo de actividad y alertas por ausencia de movimiento para detectar comportamientos inusuales o inactividad prolongada
+- Incluye una base de carga a juego con un beacon Bluetooth integrado para soportar la detección de presencia en el hogar
+- Diseño eficiente en consumo de energía pensado para equilibrar actualizaciones frecuentes con un uso prolongado entre cargas
 
 ## Cómo funciona con Plaspy
 
-El EV-206M transmite ubicaciones, telemetría de actividad y eventos de detección en el hogar a Plaspy para que puedas monitorear a las mascotas casi en tiempo real, recibir notificaciones de geocerca y revisar el historial de rutas. Plaspy procesa los datos del dispositivo para mostrar la ubicación en tiempo real en el mapa, enviar alertas a paneles móviles o web y archivar el historial de líneas de tiempo para su revisión posterior.
+Al emparejarse con Plaspy, el EV-206M envía posiciones, telemetría de actividad y eventos de presencia en el hogar para que los operadores puedan monitorear a las mascotas casi en tiempo real y automatizar alertas. Plaspy muestra la posición del dispositivo en el mapa, archiva el historial de movimiento para reproducción y emite notificaciones basadas en geocercas y reglas de movimiento.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — actualizaciones en exteriores cada 10 segundos cuando el rastreo en vivo está activado.
-- Alertas de actividad y de inactividad — Plaspy expone tendencias de movimiento y notificaciones de inactividad procedentes de los sensores del EV-206M.
-- Eventos de geocerca y detección en el hogar — las detecciones de Wi‑Fi y beacon Bluetooth activan alertas de llegada y salida en Plaspy.
-- Historial de ubicación y línea de tiempo — rutas de todo el día y territorio de roaming disponibles para reproducción en los tableros de Plaspy.
-- Sensores/beacons Bluetooth — el beacon de la base de carga incluida y el escaneo BLE ayudan a mejorar la posicionamiento en interiores y la detección en el hogar.
+- Visibilidad de la ubicación en vivo en los mapas de Plaspy con actualizaciones regulares en exteriores y asistencias en interiores mediante detecciones Wi Fi y beacon
+- Alertas de geocerca configurables en Plaspy para entradas y salidas o cuando la mascota se mueve fuera de un área definida
+- Notificaciones de actividad y ausencia de movimiento mostradas por Plaspy para señalar cambios en los patrones de desplazamiento
+- Historial en la línea de tiempo y reproducción de rutas en los paneles de Plaspy para revisar el rango diario y el comportamiento de deambulación
+- Eventos de presencia en el hogar generados por el beacon de la base de carga incluida y la detección Wi Fi para activar notificaciones de llegada o salida
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GPS, Wi‑Fi, Beacon y Celular \(4G LTE‑M / NB‑IoT\) |
-| --- | --- |
-| Bandas | 4G LTE‑M / NB‑IoT \(bandas celulares dependientes de la región\) |
-| Alimentación y batería | Recargable; se entrega con una base de carga a juego y cable de carga USB; arquitectura IoT de bajo consumo optimizada para uso prolongado. Peso del dispositivo: ~19 g. |
-| Interfaces | Bluetooth \(BLE\) para detección de beacon y emparejamiento; incluye conector de silicona y base de carga. \(Este modelo para mascotas no incluye I/O de vehículo como encendido o inmovilizador.\) |
-| GNSS | Posicionamiento GPS para rastreo al aire libre; actualizaciones de rastreo en vivo cada 10 segundos al aire libre cuando está habilitado. |
-| Bluetooth | BLE para detección en el hogar e interacción con el beacon de la base de carga incluida. |
-| Gestión remota | Se integra con la app móvil KatchU para configuración, alertas en tiempo real, notificaciones de geocerca y historial de líneas de tiempo; compatible con Plaspy para monitoreo centralizado. No se especifica un mecanismo de actualización de firmware. |
-| Forma | Diseño ultraligero y compacto compatible con collar para gatos y cachorros; resistente al agua IP67. |
-| Telemetría y funciones | Monitorización de actividad, alertas de inactividad, historial de ubicación, detección en el hogar basada en Wi‑Fi y Bluetooth; rastreo en vivo y alertas. |
-
-## Casos de uso
-
-- Ubicación y seguridad de la mascota — rastreador GPS en tiempo real para gatos y perros pequeños que requieren un monitoreo discreto y cómodo.
-- Análisis del territorio de roaming — revisa el historial de rutas y las líneas de tiempo de actividad para entender el alcance diario y los hábitos de la mascota.
-- Llegadas y salidas detectadas en el hogar — recibe alertas de geocerca y activadas por beacon cada vez que la mascota sale o regresa a casa.
-- Alertas de inactividad y bienestar — detecta inactividad inesperada y recibe notificaciones a través de las alertas gestionadas por Plaspy.
-- Mejora de cobertura en interiores — el soporte de Wi‑Fi y BLE beacon mejora la localización en entornos donde GPS por sí solo puede ser débil.
+- Monitoreo en tiempo real de ubicación y seguridad para gatos y perros pequeños que requieren rastreadores de bajo peso
+- Análisis del territorio de deambulación para revisar el historial de rutas y comprender los patrones de movimiento diarios
+- Alertas de presencia en el hogar que notifican al propietario cuando la mascota sale o regresa mediante detección por beacon o Wi Fi
+- Monitoreo del bienestar usando alertas por ausencia de movimiento para indicar posible inactividad o comportamiento anormal
+- Mejora de la cobertura en interiores en entornos construidos donde el GPS por sí solo puede ser limitado
 
 ## Por qué elegir este rastreador con Plaspy
 
-El EV-206M combina un diseño mecánico orientado a las mascotas con conectividad IoT moderna para brindar a los dueños una supervisión práctica y casi en tiempo real. Al combinarlo con Plaspy, los datos de GPS, Wi‑Fi y beacon del rastreador se vuelven accionables — mapas en tiempo real, geocercas configurables, reproducción de historial y telemetría de movimiento están disponibles a través de los tableros de Plaspy y de sus canales de alerta. Aunque está optimizado para mascotas de compañía, los dispositivos compatibles con Plaspy, como el EV-206M, comparten los principios de telemetría y manejo de ubicaciones empleados en diversas aplicaciones de rastreo, desde monitoreo de mascotas hasta sistemas de gestión de flotas más amplios. A diferencia de dispositivos orientados a vehículos que incluyen entradas de encendido, inmovilizadores o sensores de combustible, el EV-206M se centra en ser ligero, cómodo de llevar y en proporcionar datos fiables de ubicación y actividad para mascotas.
+El EV-206M es un rastreador centrado en mascotas que prioriza la comodidad, el posicionamiento en interiores y exteriores y funciones prácticas de monitoreo. Para organizaciones o propietarios que usan Plaspy, el dispositivo entrega tipos de datos que se integran de forma natural con capacidades de Plaspy como mapas en vivo, geocercas, historial en la línea de tiempo y alertas de actividad. La base de carga incluida y las funciones de detección de presencia facilitan la incorporación de eventos de ubicación y presencia en los flujos de trabajo de Plaspy.
 
-Elija el EV-206M cuando busque un rastreador GPS compatible con Plaspy que dé prioridad a la comodidad del animal, la cobertura interior/exterior y actualizaciones fiables y frecuentes. Su base de carga incluida con un beacon Bluetooth, la clasificación IP67 y un diseño de bajo consumo convierten esta opción en una solución fácil y de baja fricción para los propietarios que requieren una conciencia de ubicación constante y tranquilidad.
-
+Si está evaluando rastreadores ligeros para integrar en una configuración de monitoreo con Plaspy, el EV-206M es una opción relevante gracias a su diseño compacto y posicionamiento multimodal. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, su disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique la información vigente y el soporte en el sitio del fabricante http://www.eviewltd.com/ antes de tomar decisiones de compra o despliegue.

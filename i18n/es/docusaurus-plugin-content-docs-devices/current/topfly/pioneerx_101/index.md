@@ -2,65 +2,60 @@
 slug: /topfly/pioneerx_101
 id: pioneerx_101
 sidebar_label: PioneerX 101
+title: TopFly - PioneerX 101
 sidebar_class_name: menu_item_tracker
+description: GPS compacto compatible con Plaspy para flotas y activos, actualizaciones frecuentes, IP67 y gran búfer offline
+keywords:
+  - TopFly PioneerX 101
+  - PioneerX 101
+  - TopFly rastreador
+  - compatible con Plaspy
+  - rastreo de flotas
+  - rastreo de activos
+  - rastreo en tiempo real
+  - sensores BLE
+  - rastreador LTE
+  - telemática vehicular
 ---
+
 # TopFly - PioneerX 101
 
 ![PioneerX 101](./tracker.png)
 
-El PioneerX 101 es un rastreador GPS compatible con Plaspy, diseñado para un seguimiento en tiempo real fiable, gestión de flotas y proyectos telemáticos robustos. Como dispositivo cableado de nivel de entrada a intermedio, ofrece actualizaciones de posición frecuentes \(tan a menudo como cada 3 segundos\), un amplio búfer offline y un formato compacto con clasificación IP67, lo que lo hace ideal para vehículos, remolques y activos fijos que requieren localización continua, telemetría y capacidades antirrobo.
+El PioneerX 101 es un rastreador GPS compatible con Plaspy, diseñado para ofrecer seguimiento en tiempo real confiable, gestión de flotas y soluciones telemáticas robustas. Como un dispositivo cableado de nivel de entrada a intermedio, ofrece actualizaciones frecuentes de posición (hasta cada 3 segundos), un amplio búfer offline para funcionamiento fuera de cobertura y una carcasa compacta con certificación IP67, ideal para vehículos, remolques y activos fijos que requieren localización continua, telemetría y capacidades antirrobo.
 
-Diseñado para integradores y operadores de flotas, el PioneerX 101 combina soporte de sensores BLE 5.0, comunicaciones celulares multiprotocolo y entradas/salidas flexibles para habilitar el monitoreo del comportamiento del conductor, control del inmovilizador y telemetría ampliada como datos de combustible o EV/BMS a través de CAN opcional. Su combinación de precisión, reportes seguros y capacidades de gestión remota lo convierten en una opción práctica, compatible con Plaspy, para soluciones escalables de seguimiento de flotas y activos.
+Este modelo es relevante para usuarios de Plaspy porque combina funciones telemáticas prácticas con opciones flexibles de reporte que se integran en los flujos de trabajo de Plaspy. El PioneerX 101 admite sensores externos y canales de telemetría ampliados para registrar eventos del conductor, estado de alimentación y condiciones del activo dentro de Plaspy, mientras que su búfer offline y reportes seguros ayudan a mantener la visibilidad de la flota cuando la conectividad fluctúa.
 
-## Puntos destacados
+## Aspectos clave
 
-- Rastreador GPS compatible con Plaspy que ofrece seguimiento en tiempo real y actualizaciones de posición tan frecuentes como cada 3 segundos.
-- Gran búfer interno para resiliencia offline: almacena hasta 40.000 puntos de ubicación cuando no hay cobertura de red.
-- Conectividad LTE Cat-1 global con respaldo 2G y reportes TCP/UDP/MQTT/SMS para una integración flexible con los servidores de Plaspy.
-- BLE 5.0 para sensores y accesorios Bluetooth \(temperatura, humedad, estado de la puerta, botones de pánico\) para ampliar la telemetría y el monitoreo de la cadena de frío.
-- Múltiples I/Os digitales, detección de ignición y control remoto de salidas para apoyar inmovilizador, relés o zumbadores para respuestas antirrobo.
-- Detección avanzada de seguridad y comportamiento: acelerómetro de 6 ejes para captura de choques, detección de conducción agresiva, exceso de velocidad y remolque.
-- Diseño robusto y compacto \(IP67\) con amplio rango de entrada de potencia \(7–100 V DC\) y batería interna de respaldo para reportar eventos de pérdida de energía.
+- Reporte de posición en tiempo real con frecuencia de actualización configurable, con intervalos de hasta cada 3 segundos.
+- Gran búfer interno para resiliencia offline, que permite una rápida resincronización de puntos almacenados cuando vuelve la conectividad.
+- Diseño resistente y compacto con certificación IP67, adecuado para instalaciones en vehículos y activos.
+- Soporte BLE 5.0 para extender la telemetría mediante sensores Bluetooth de temperatura, estado de puertas y eventos de pánico.
+- Conectividad celular multiprotocolo con opciones de conmutación y múltiples modos de reporte para integración flexible con Plaspy.
+- Múltiples entradas digitales y control remoto de salidas para detección de ignición, acciones de inmovilizador y respuestas antirrobo.
+- Detección integrada de movimiento y comportamiento para reportar colisiones, conducción agresiva, exceso de velocidad o remolque a la plataforma de monitoreo.
 
 ## Cómo funciona con Plaspy
 
-El PioneerX 101 se integra con Plaspy utilizando protocolos telemáticos comunes y métodos de transporte seguros, para que puedas recibir ubicación en tiempo real, telemetría y alertas en tu panel de Plaspy o en tu backend. Los datos se transmiten a través de LTE Cat-1 con respaldo 2G utilizando TCP, UDP o MQTT, y SMS como canal alternativo. Las opciones de cifrado integradas \(MD5, AES-256\) y las comprobaciones de protocolo mejoran la integridad y la seguridad de los datos durante el reporte a los endpoints de Plaspy.
+El PioneerX 101 transmite ubicación, telemetría y datos de eventos en un formato que Plaspy puede procesar, de modo que gerentes de flota e integradores obtengan visibilidad continua en su panel de Plaspy. El dispositivo almacena datos cuando se pierde la cobertura y los sincroniza una vez que la conexión se restablece, garantizando continuidad histórica y alertas confiables para la supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: fijaciones GPS frecuentes y transmisión en búfer cuando se restablece la conectividad.
-- El estado de ignición, eventos de puerta y pánico, y las alertas de alimentación externa se envían a Plaspy para monitoreo en tiempo real y registros históricos.
-- La telemetría de combustible y EV/BMS puede mostrarse en Plaspy cuando se utiliza la interfaz CAN opcional para lectura del bus del vehículo.
-- Inmovilizador remoto y control de salidas: activar relés o zumbadores desde Plaspy para inmovilizar un vehículo en casos de robo.
-- Sensores Bluetooth: eventos de temperatura, humedad, estado de la puerta y botón de pánico de accesorios BLE se envían a Plaspy para monitoreo integrado de activos o de cadena de frío.
+- Transmisión en tiempo real de ubicación y telemetría hacia Plaspy con envío en búfer y transmisión al reconectar para conservar el historial completo de rutas y eventos.
+- Eventos de vehículos y activos como estado de ignición, activaciones de puertas o botón de pánico y alertas por pérdida de energía, enviados a Plaspy para monitoreo en vivo y registros.
+- Telemetría de sensores BLE transmitida a Plaspy para soportar controles de temperatura, monitoreo de estado de puertas y otros datos auxiliares.
+- Acciones de control remoto disponibles desde Plaspy, como conmutación de salidas para inmovilizador o control de zumbador dentro de flujos antirrobo.
+- Datos vehiculares ampliados, como telemetría de combustible o batería de vehículos eléctricos, pueden integrarse en Plaspy cuando se usan interfaces opcionales al bus del vehículo.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | PioneerX 101 |
-| --- | --- |
-| Conectividad | LTE Cat-1 \(global\) con respaldo 2G; TCP, UDP, MQTT, SMS |
-| Seguridad y Protocolos | Verificaciones de protocolo; cifrado MD5 y AES‑256; FOTA para actualizaciones remotas de firmware |
-| GNSS | GPS + BeiDou + Galileo + QZSS; 24 canales de seguimiento / 66 de adquisición; precisión de posición \< 1.5 m \(CEP\) |
-| TTFF | Arranque en frío \< 20 s; Arranque tibio \< 2 s; Arranque en caliente \< 2 s |
-| Alimentación y Batería | Entrada externa 7–100 V DC; batería interna de respaldo para alertas de desconexión |
-| Entradas / Salidas | Múltiples I/Os digitales; detección de ignición; control remoto de salidas para relés/zumbadores \(inmovilizador\) |
-| Sensores | Acelerómetro interno de 6 ejes \(captura de choques, detección de conducción agresiva, remolque, detección de velocidad\) |
-| Bluetooth | BLE 5.0 para accesorios TOPFLYtech \(temperatura y humedad, sensor de puerta, relé, botón de pánico\) |
-| Expansibilidad | Interfaces RS232 y 1‑wire opcionales; lectura CAN opcional / CAN manual para EV/BMS y sistemas CAN no estándar |
-| Wi‑Fi y Configuración | Recepción Wi‑Fi de 2.4 GHz; conector USB Type‑C para configuración |
-| Certificaciones y Protección | Protección IP67 |
-| Factor de Forma | 102.6 x 42.6 x 13.0 mm; 50 g |
-| Buffer de Datos | Buffer interno de hasta 40.000 puntos de ubicación |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento continuo en tiempo real, telemetría del comportamiento del conductor y reproducción de rutas para la optimización operativa.
-- Antirrobo e inmovilización: detección de ignición, control remoto de salidas y alertas de desconexión para proteger vehículos de alto valor.
-- Monitoreo de cadena de frío y activos: sensores BLE de temperatura y humedad integrados en Plaspy para rastrear las condiciones por envío.
-- Proyectos de diagnóstico de EV y vehículos: lectura CAN opcional para EV/BMS o telemetría de vehículos integrada en los tableros de Plaspy.
-- Remolques y activos fuera de la red: gran búfer offline y re-sincronización rápida con Plaspy cuando se restablece la red.
+- Gestión y enrutamiento de flotas donde actualizaciones frecuentes de ubicación y monitoreo de comportamiento apoyan decisiones operativas y capacitación de conductores.
+- Flujos de trabajo antirrobo y recuperación usando detección de ignición, alertas por desconexión y control remoto de salidas.
+- Cadena de frío y monitoreo de condiciones de activos vinculando sensores BLE de temperatura y humedad a los reportes en Plaspy.
+- Proyectos de telemetría avanzada para vehículos eléctricos y otros que requieren integración de datos opcionales del bus vehicular en los tableros de la flota.
+- Remolques y activos fuera de red que se benefician de un gran búfer interno y una rápida resincronización con Plaspy cuando vuelve la cobertura.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el PioneerX 101 para tu implementación en Plaspy ofrece un equilibrio entre características prácticas, comunicaciones seguras e integración flexible. La conectividad LTE Cat-1 del dispositivo con respaldo 2G, opciones de reporte seguras y soporte MQTT/TCP facilitan canalizar ubicaciones y telemetría de alta frecuencia hacia Plaspy. BLE 5.0 amplía la cobertura de sensores para temperatura, apertura de puertas o eventos de pánico sin necesidad de cableado adicional, mientras que múltiples I/Os digitales y control remoto de salidas permiten implementar flujos de trabajo de inmovilización y medidas anti‑robo directamente desde Plaspy.
+El PioneerX 101 ofrece un equilibrio entre funciones prácticas e integración flexible que lo convierten en una opción valiosa para organizaciones que implementan Plaspy para visibilidad de flotas y activos. Su combinación de actualizaciones frecuentes de posición, almacenamiento offline y modos de reporte seguros ayuda a mantener registros de rastreo consistentes, mientras que el soporte para sensores BLE y las múltiples opciones de E/S amplían los tipos de telemetría que pueden mostrarse dentro de Plaspy.
 
-Operativamente, el acelerómetro integrado, la detección de conducción agresiva y las alarmas configurables ayudan a las flotas a reducir riesgos y mejorar los programas de entrenamiento de conductores. El recinto robusto IP67, el amplio rango de entrada de potencia y la batería interna de respaldo mejoran la fiabilidad en instalaciones de vehículos. Para proyectos que requieren telemetría extendida, como datos de combustible o batería de EV, las interfaces CAN opcionales ofrecen una vía hacia conjuntos de datos más ricos. En resumen, el PioneerX 101 ofrece un rastreador GPS compacto, compatible con Plaspy, que admite seguimiento en tiempo real, integración de telemetría y control remoto para una gestión fiable de flotas y activos.
-
+Para operadores enfocados en seguridad, antirrobo y supervisión operativa, la detección de movimiento y comportamiento del dispositivo, junto con sus capacidades de control remoto, permiten a los usuarios de Plaspy implementar flujos de monitoreo y respuesta sin necesidad de hardware adicional extenso. Para saber más sobre cómo Plaspy puede integrarse con dispositivos como el PioneerX 101 visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que verifique los detalles técnicos actuales y la documentación del fabricante en https://www.topflytech.com/ antes de tomar decisiones de despliegue.

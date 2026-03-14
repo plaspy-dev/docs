@@ -2,66 +2,63 @@
 slug: /gotop/c790_y
 id: c790_y
 sidebar_label: C790-Y
+title: GOTOP - C790-Y
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto GOTOP C790-Y compatible con Plaspy para seguimiento en tiempo real geocercas y funciones antirrobo
+keywords:
+  - GOTOP C790-Y
+  - C790-Y
+  - rastreador GOTOP
+  - rastreador GPS para vehículos
+  - seguimiento de flotas
+  - compatible con Plaspy
+  - rastreador con geocercas
+  - rastreador antirrobo
+  - historial de rutas
+  - rastreo en tiempo real
 ---
+
 # GOTOP - C790-Y
 
 ![C790-Y](./tracker.jpg)
 
-# C790-Y
+El C790-Y es un rastreador GPS vehicular compacto y multifuncional diseñado para la gestión confiable de flotas, la protección antirrobo y el monitoreo continuo de la ubicación. Sus funcionalidades se basan en posicionamiento por satélite y telemetría celular para ofrecer actualizaciones de posición, alertas de geocerca e historial de rutas extendido, todo en un formato discreto apto para distintos tipos de vehículos.
 
-El C790-Y es un rastreador GPS para vehículos compacto y multifunción, diseñado para una gestión de flotas fiable, protección anti-robos y seguimiento en tiempo real. Pensado para una instalación discreta en una amplia gama de modelos de vehículos, el C790-Y combina posicionamiento por satélite GPS/BeiDou con comunicación GPRS para ofrecer actualizaciones de ubicación continuas, alertas de geocerca y un historial de rutas a largo plazo—lo que lo convierte en una excelente opción para implementaciones compatibles con Plaspy.
+Como dispositivo compatible con Plaspy, el C790-Y puede enviar datos de ubicación y eventos del vehículo a la plataforma Plaspy para monitoreo centralizado e informes. Esa compatibilidad permite a los operadores ver posiciones en tiempo real, recibir notificaciones de alarma y revisar rutas históricas dentro de Plaspy, facilitando la supervisión de la flota y los flujos de trabajo de seguridad sin suponer hardware o servicios adicionales no soportados.
 
-Totalmente compatible con la plataforma de seguimiento del proveedor sin coste adicional de plataforma, el C790-Y aporta telemetría práctica y funciones de seguridad a entornos basados en Plaspy. Desde la detección ACC para el monitoreo de la ignición hasta el corte remoto de combustible y la emergencia SOS, el dispositivo está diseñado para integrar el estado del vehículo, el comportamiento del conductor y los eventos de alarma en Plaspy para una monitorización centralizada y visibilidad a nivel de flota.
+## Características principales
 
-## Aspectos clave
-
-- Compatible con Plaspy: se integra de forma fluida con la plataforma del proveedor para un seguimiento y generación de informes en tiempo real consolidados.
-- Posicionamiento GPS/BeiDou y conectividad GPRS para actualizaciones de ubicación y telemetría continuas.
-- Funciones anti-robos robustas, incluyendo corte remoto de combustible \(control de aceite y electricidad\) y alarma de manipulación ante fallo de energía.
-- Alertas de conductor y seguridad: exceso de velocidad, vibración, entrada/salida de geocerca y botón de emergencia SOS para respuesta rápida.
-- Reproducción de rutas históricas de hasta 180 días para apoyar la revisión de incidentes, cumplimiento y análisis operativo.
-- Escucha remota y armado/desarmado inteligentes para una verificación de seguridad del vehículo y automatización mejoradas.
-- Diseño compacto y discreto para una instalación sencilla en vehículos particulares y activos de la flota.
+- Rastreador vehicular compacto y discreto, adaptable a muchos puntos de instalación.
+- Posicionamiento por GPS y BeiDou combinado con comunicación GPRS para actualizaciones continuas.
+- Funciones antirrobo como corte remoto de combustible y alarma por manipulación ante fallo de energía para respuesta de seguridad.
+- Alertas para conductor y seguridad: exceso de velocidad, vibración, entrada y salida de geocerca, además de entrada SOS para emergencias.
+- Detección del estado de encendido para monitorizar encendido/apagado del vehículo y soportar reglas basadas en uso.
+- Reproducción histórica de rutas hasta 180 días para apoyar investigaciones y revisiones operativas.
+- Escucha remota y funciones inteligentes de armado/desarmado para ayudar en la verificación y procedimientos de seguridad.
 
 ## Cómo funciona con Plaspy
 
-El C790-Y transmite la posición GNSS y telemetría del vehículo a través de GPRS a la plataforma de seguimiento, donde Plaspy ingiere y visualiza los datos en tiempo real. Los usuarios de Plaspy pueden ver la ubicación en vivo, reproducir rutas históricas, recibir notificaciones de alarmas y utilizar disparadores basados en geocercas o comportamiento para la gestión de flotas y procesos anti-robos. Los informes basados en eventos y las opciones de subida continua permiten a los operadores ajustar el nivel de detalle que se transmite a Plaspy para equilibrar la granularidad y el uso de datos.
+Al integrarse con Plaspy, el C790-Y entrega datos de posición y eventos del vehículo a la plataforma para que los equipos puedan supervisar activos y responder a alarmas desde una única interfaz. Plaspy incorpora los reportes del dispositivo y los presenta en mapas, paneles y herramientas de reporte para apoyar decisiones operativas y respuestas de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para el seguimiento en el mapa y las métricas del tablero.
-- Detección de ignición/ACC para reportar el estado de encendido/apagado del vehículo y soportar reglas basadas en la ignición en Plaspy.
-- Monitoreo de combustible y corte remoto de combustible \(control remoto de aceite y electricidad\) para respaldar flujos de inmovilización y respuesta anti-robos.
-- Capacidades de inmovilización remota mediante corte controlado de aceite/electricidad cuando se integra en los procedimientos de alerta de Plaspy.
-- Alertas de geocerca, alarmas de exceso de velocidad y vibración reenviadas a Plaspy para notificación inmediata del operador.
-- Eventos de emergencia SOS y escucha remota para verificación de seguridad y coordinación de una respuesta rápida.
-- Reproducción de rutas históricas \(hasta 180 días\) disponible dentro de Plaspy para investigaciones e informes.
-- Aunque el C790-Y se centra en telemetría GNSS y GPRS, Plaspy puede agregar entradas IoT adicionales \(por ejemplo, sensores Bluetooth gestionados por la plataforma\) para crear una vista unificada de la salud del vehículo y de los activos.
+- Actualizaciones de ubicación y telemetría en tiempo real disponibles en Plaspy para seguimiento activo y conciencia situacional.
+- Reenvío de eventos y alarmas como geocerca, exceso de velocidad, vibración y SOS para activar notificaciones y flujos de trabajo.
+- Detección de encendido reportada en Plaspy para soportar monitoreo basado en reglas y reportes de uso.
+- Flujos de trabajo de inmovilización remota soportados mediante corte de combustible integrado con procedimientos de alerta en Plaspy.
+- Reproducción histórica de rutas visible en Plaspy por hasta 180 días para facilitar la revisión de incidentes y el cumplimiento.
+- Eventos de escucha remota y armado/desarmado enviados a Plaspy para verificación y auditorías de seguridad.
 
-## Descripción técnica
+## Casos de uso típicos
 
-| Conectividad | Comunicación GPRS; posicionamiento por satélite GPS y BeiDou |
-| --- | --- |
-| Bandas | No especificadas en la descripción proporcionada |
-| Alimentación y batería | Diseñado para la alimentación del vehículo. La alarma por fallo de energía notifica extracción forzada o manipulación \(no se especifican detalles de batería interna\) |
-| Interfaces | Detección ACC \(monitoreo de ignición\), corte remoto de combustible \(control de aceite y electricidad\), entrada de emergencia SOS, alarmas de vibración y de exceso de velocidad, escucha remota; armado/desarmado inteligentes y modos de protección automática de paro/arranque |
-| GNSS | GPS / BeiDou posicionamiento \(precisión no especificada\) |
-| Bluetooth | No especificado para el dispositivo; Plaspy puede integrar datos de sensores Bluetooth dentro de la plataforma si se utilizan |
-| Gestión remota | Funciona con la plataforma de seguimiento del proveedor sin coste adicional de plataforma \(no se especifica FOTA ni herramientas web\) |
-| Formato | Rastreador compacto y discreto apto para instalación en una variedad de modelos de vehículo |
-| Chipset | Chip MT2503D de velocidad \(según lo especificado\) |
-| Datos históricos | La reproducción de rutas está disponible por hasta 180 días |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real continuo, reproducción de rutas y alertas de exceso de velocidad para mejorar la planificación de rutas, cumplimiento y análisis del comportamiento del conductor.
-- Antirrobo y recuperación de vehículos: corte remoto de combustible, alarma de manipulación por fallo de energía y alertas de geocerca para ayudar a prevenir robos y acelerar la recuperación.
-- Respuesta ante emergencias y seguridad del conductor: botón SOS, escucha remota y flujos de alarma para una asistencia rápida y verificación.
-- Telemetría operativa para pequeñas empresas: seguimiento de ignición basado en ACC y registros de eventos para reconciliar uso, reducir el uso no autorizado del vehículo y apoyar la facturación.
-- Seguridad de vehículos personales: instalación discreta y modos de armado/desarmado inteligentes para una mayor tranquilidad.
+- Gestión de flotas con seguimiento continuo, reproducción de rutas y alertas de comportamiento para mejorar operaciones.
+- Protección antirrobo y recuperación de vehículos mediante alarmas por manipulación, notificaciones de geocerca y funciones de inmovilización.
+- Respuesta a emergencias y seguridad del conductor aprovechando entradas SOS y escucha remota para coordinación rápida.
+- Telemetría operativa para pequeñas empresas que necesitan conciliar el uso de vehículos y reducir usos no autorizados.
+- Seguridad de vehículos particulares donde la instalación discreta y el armado automático ayudan a proteger los activos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el C790-Y para despliegues compatibles con Plaspy ofrece un equilibrio práctico entre seguridad y visibilidad operativa. La combinación de posicionamiento GPS/BeiDou y telemetría GPRS proporciona un seguimiento en tiempo real fiable, mientras que funciones como el corte remoto de combustible y la alarma por fallo de energía lo convierten en una herramienta anti-robos sólida. La detección de ignición integrada y las alarmas basadas en eventos alimentan a Plaspy con la telemetría necesaria para una gestión eficaz de la flota y una respuesta ante incidentes.
+El C790-Y ofrece un equilibrio práctico entre rastreo, seguridad y reporte del estado del vehículo que se ajusta bien a los flujos de trabajo de Plaspy. Su combinación de posicionamiento satelital, telemetría celular y reporte de eventos proporciona las entradas fundamentales que Plaspy necesita para monitoreo en mapas, reglas de notificación y análisis histórico sin añadir complejidad innecesaria.
 
-Para organizaciones e individuos que buscan centralizar los datos de los vehículos, el C790-Y simplifica la integración: está diseñado para trabajar con la plataforma de seguimiento del proveedor sin cargos adicionales de plataforma, admite reproducciones históricas prolongadas para investigaciones y ofrece funciones de seguridad que se integran directamente con las alertas y flujos de trabajo de Plaspy. El resultado es un rastreador GPS compacto y confiable que aporta datos de ubicación y estado del vehículo de forma accionable a su entorno Plaspy, para tomar decisiones mejor informadas, respuestas más rápidas y operaciones de flota más seguras.
+Para organizaciones que evalúan rastreadores para una implementación con Plaspy, el C790-Y es una opción sólida cuando se requiere hardware compacto con soporte para medidas antirrobo, reporte del estado de encendido e historial de rutas extendido. El diseño orientado a eventos del dispositivo permite a los operadores seleccionar qué datos ingresan a Plaspy, de modo que los equipos puedan priorizar alertas críticas y conservar la información necesaria para revisiones posteriores.
 
+Para obtener más información sobre Plaspy y cómo rastreadores compatibles como el GOTOP C790-Y pueden usarse en operaciones de flota y seguridad visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y de soporte vigente en el sitio del fabricante https://www.gotop.cc/.

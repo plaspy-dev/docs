@@ -2,61 +2,60 @@
 slug: /cantrack/g07l
 id: g07l
 sidebar_label: G07L
+title: CanTrack - G07L
 sidebar_class_name: menu_item_tracker
+description: Rastreador 4G compacto y cableado para vehículos compatible con Plaspy, seguimiento en tiempo real, alertas antirrobo y almacenamiento offline
+keywords:
+  - CanTrack G07L
+  - Rastreador G07L
+  - CanTrack G07L Plaspy
+  - Rastreador 4G G07L
+  - rastreador GPS para vehículos
+  - dispositivo de seguimiento de flotas
+  - seguimiento en tiempo real
+  - alertas antirrobo
+  - almacenamiento de datos offline
+  - detección de encendido
 ---
+
 # CanTrack - G07L
 
 ![G07L](./tracker.jpg)
 
-El G07L 4G GPS Tracker es un rastreador de vehículos compacto, con cableado, diseñado para una amplia gama de vehículos de 9–90 V y optimizado para integrarse con Plaspy. Construido alrededor de un módulo SIMCom LTE Cat 1 \(serie A7670\) y un chipset AT6558R, el G07L ofrece seguimiento y telemetría en tiempo real confiables a través de redes 4G/LTE y GSM de respaldo. Su combinación de alarmas de movimiento/vibración, detección del estado de ignición, alertas de corte de energía y almacenamiento de datos a bordo lo convierte en un dispositivo práctico compatible con Plaspy para gestión de flotas y aplicaciones antirrobo.
+El CanTrack G07L es un rastreador GPS 4G compacto y de instalación cableada, diseñado para una amplia variedad de vehículos con rango de tensión de 9–90 V. Construido sobre un moderno módulo LTE y chipset actual, el G07L ofrece actualizaciones de posición continuas, alarmas por movimiento y vibración, detección del estado de encendido, alertas por corte de energía y buffering de datos a bordo. Su diseño está orientado a flotas y a la seguridad vehicular, en escenarios donde se requiere seguimiento fiable y reporte de eventos de forma constante.
 
-Compatible con Plaspy por diseño, el G07L transmite actualizaciones de ubicación y estado a aplicaciones móviles y plataformas web para seguimiento en tiempo real, geocercas y alertas basadas en eventos. Ya sea que gestione motocicletas, automóviles, furgonetas o camiones, este rastreador admite los flujos de telemetría e informes en los que confían las flotas: posición precisa con CEP inferior a 5 m, modos de reposo y estacionamiento configurables para evitar la deriva del GPS, y almacenamiento de registros sin conexión para carga automática cuando la conectividad se restablece. Consulte la guía de instalación aquí: [video de instalación](https://youtu.be/RGzWifrJ1mY).
+Como dispositivo compatible con Plaspy, el G07L está optimizado para transmitir ubicaciones y estados a Plaspy para seguimiento en vivo, geocercas y alertas basadas en eventos. El rastreador incluye funciones que importan a operadores de flota y proveedores de servicio, como alta precisión posicional, estabilización en estacionamiento para reducir la deriva del GPS, modos de reporte configurables y almacenamiento local que se sincroniza automáticamente cuando la conectividad se restablece, lo que lo hace práctico para integrar en los flujos de trabajo de Plaspy.
 
-## Aspectos clave
+## Características principales
 
-- Seguimiento en tiempo real compatible con Plaspy sobre 4G/LTE con respaldo GSM para cobertura continua y gestión de flotas segura.
-- Amplio rango de funcionamiento de 9–90 V admite motocicletas, bicicletas eléctricas, automóviles, furgonetas y vehículos pesados; ideal para flotas mixtas.
-- Alarma de movimiento/vibración y sensor G a bordo para detección anti‑robo y alertas de manipulación.
-- La detección del estado de ignición permite monitorear el encendido/apagado del motor y su integración con inmovilizador o sistemas de corte externo.
-- Alarma de corte de energía con batería de respaldo interna opcional de 80 mAh mantiene la última posición conocida y el estado de la alarma durante la pérdida de energía principal.
-- El buffer de memoria almacena hasta 2,000 registros cuando se pierde la conectividad GSM/GPS, sincronizándose automáticamente con Plaspy al restablecerse la conexión.
-- La lógica de cambio de ángulo y estabilización al estacionar reduce la deriva del GPS tras el estacionamiento, para trazas e informes históricos más limpios.
+- Seguimiento 4G en tiempo real con mecanismos de conmutación para mantener cobertura continua en operaciones de flota.
+- Amplio rango de funcionamiento de 9–90 V, adecuado para motocicletas, autos, camionetas y vehículos pesados en flotas mixtas.
+- Lógica de alarma por movimiento y vibración para detección de robo y notificación de manipulación.
+- Monitoreo del estado de encendido para soportar reportes de tiempo de motor y supervisión operativa.
+- Alarma por corte de energía con opción de respaldo interno para preservar la última posición conocida y el estado de alarma.
+- Memoria local capaz de almacenar varios miles de registros para subirlos cuando se recupere la conectividad.
+- Estabilización en estacionamiento y detección de cambio de ángulo para reducir la deriva del GPS y mejorar la calidad del historial de rutas.
 
 ## Cómo funciona con Plaspy
 
-El G07L envía correcciones GNSS, eventos de estado y alarmas a Plaspy mediante TCP/IP \(GPRS\) o a través de LTE. Plaspy ingiere esos flujos de telemetría para mostrar la posición en tiempo real, generar alertas y gestionar informes de energía y flujos de geocercas. La configuración y gestión del dispositivo pueden realizarse a través de comandos de la plataforma Plaspy o localmente mediante USB, SMS y comandos GPRS, lo que permite una implementación y mantenimiento flexibles.
+Cuando está conectado, el G07L transmite posiciones GNSS, eventos de estado y alarmas a través de enlaces celulares para que Plaspy pueda ingerir esas señales y mostrar posiciones en vivo, alertas e informes. Plaspy utiliza esa telemetría para ofrecer visibilidad, monitoreo operativo y flujos de trabajo basados en eventos en interfaces web y móviles.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — correcciones GPS frecuentes y informes basados en cambios de ángulo proporcionan trazados de vehículos precisos.
-- Alarmas de estado de ignición y movimiento/vibración — Plaspy puede usar estas señales para informes de tiempo de motor y notificaciones anti‑robo.
-- Alarma de corte de energía y batería interna de respaldo opcional — la posición más reciente y los eventos de alarma se preservan y reportan a Plaspy durante fallos de suministro.
-- Almacenamiento fuera de línea de hasta 2,000 puntos de datos — carga automática a Plaspy cuando el dispositivo recupera conectividad GSM/GPS.
-- Configuración remota y gestión de firmware — actualizaciones OTA y comandos basados en la plataforma simplifican el mantenimiento en campo con la integración de Plaspy.
+- Transmisión en vivo de ubicación y telemetría para trazados precisos del vehículo e historial de rutas en Plaspy.
+- Las señales de movimiento y encendido se traducen en alarmas y métricas de tiempo de motor para reportes y notificaciones.
+- Las alertas por corte de energía y el respaldo interno preservan eventos críticos y la última posición conocida para los flujos de incidentes en Plaspy.
+- El almacenamiento offline de puntos registrados se carga automáticamente a Plaspy cuando el dispositivo recupera conectividad, manteniendo la continuidad del historial.
+- La configuración remota y los comandos gestionados desde la plataforma reducen el mantenimiento en campo y facilitan la administración centralizada de dispositivos en Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | G07L 4G GPS Tracker |
-| --- | --- |
-| Módulo celular y chipset | SIMCom LTE Cat 1 \(serie A7670\) emparejado con chipset AT6558R |
-| Conectividad | LTE-FDD \(bandas según versión\) y GSM compatible hacia atrás \(850/900/1800/1900 MHz\); GPRS Clase 12, TCP/IP |
-| Bandas LTE \(ejemplos\) | B1 / B2 / B3 / B4 / B5 / B7 / B8 / B28 / B66 \(el soporte de bandas depende de la versión de hardware\) |
-| GNSS | 66 canales GNSS, sensibilidad -165 dBm, precisión de posición &lt; 5 m CEP; TTFF &lt; 35 s \(frío\), &lt; 1 s \(caliente\) en cielo despejado |
-| Alimentación y batería | Tensión de operación 9–90 VDC; batería de respaldo Li-Polímero interna opcional de 80 mAh / 3.7 V; consumo en modo de espera/funcionamiento ~5 mA a 50 mA dependiendo del modo |
-| Memoria y almacenamiento | Almacenamiento local de hasta 2,000 registros para operación fuera de línea y subida diferida |
-| Interfaces | Interfaz de alimentación de 3 pines \(estándar\), micro-USB para flasheo/ajuste de firmware, entrada de ignición, E/S digital |
-| Sensores | Sensor G a bordo \(detección de movimiento y vibración\) |
-| Gestión remota | Configuración vía GPRS/SMS/PC \(USB\); actualizaciones de firmware OTA soportadas |
-| Formato | Compacto: 90 × 52 × 21 mm; rastreador de vehículos con cableado para instalación permanente |
-
-## Casos de uso
-
-- Gestión de flotas — seguimiento en tiempo real continuo, informes de tiempo de motor basados en el encendido y historial de rutas para flotas mixtas.
-- Protección antirrobo — alarmas de movimiento/vibración y alertas de corte de energía alimentan los flujos de alarma de Plaspy para una respuesta rápida.
-- Monitorización de vehículos a largo plazo — estabilización de estacionamiento y almacenamiento offline aseguran la integridad de los datos ante interrupciones de cobertura.
-- Telemática e informes — precisión GNSS &lt; 5 m y informes frecuentes soportan kilometraje, utilización y analítica operativa.
+- Seguimiento de flotas mixtas de autos, camionetas, camiones y motocicletas donde un único dispositivo debe cubrir distintos tipos de vehículos.
+- Detección de robo y manipulación mediante alarmas de movimiento y notificaciones por pérdida de energía integradas en un sistema centralizado de alertas.
+- Monitoreo de estacionamiento y activos a largo plazo, donde la estabilización de estacionamiento y el buffering offline mantienen un historial preciso.
+- Telemática y reportes operativos que incluyen historial de rutas, utilización y reportes de tiempo de motor.
+- Flotas de servicio y alquiler donde la localización en vivo y el reporte de eventos confiables mejoran la asignación y la recuperación de unidades.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El G07L combina conectividad 4G fiable, un diseño compacto con cableado y características telemétricas esenciales para ofrecer una solución compatible con Plaspy que escala desde un único vehículo hasta grandes flotas. Su amplio rango de voltaje de entrada y la batería de respaldo opcional lo hacen adecuado para diversos tipos de vehículos, mientras que la memoria a bordo y los modos de reposo configurables reducen la pérdida de datos y falsas alarmas. Con actualizaciones de firmware OTA y múltiples rutas de configuración \(USB, SMS, GPRS\), el G07L minimiza el tiempo de servicio en campo y admite una integración continua con la plataforma.
+El G07L ofrece un conjunto equilibrado de funciones para organizaciones que necesitan conectividad celular fiable, una instalación cableada y telemetría práctica para supervisión de flotas. Su amplio rango de voltaje de entrada, el buffering a bordo y los modos de reporte configurables lo hacen adaptable a flotas mixtas y perfiles operativos variados, mientras que las señales de movimiento y encendido proporcionan los datos de evento que Plaspy utiliza para alertas y análisis.
 
-Para operadores de flotas y proveedores de servicios que utilizan Plaspy, el G07L ofrece un equilibrio práctico entre rendimiento y configurabilidad: seguimiento en tiempo real, telemetría fiable, alertas anti‑robo y detección de ignición que alimentan directamente los paneles de control y herramientas de informes de Plaspy. Antes de la instalación, verifique la variante correcta de la banda LTE para su región y siga prácticas profesionales de cableado. Para la guía de instalación, vea el video oficial: Instalación de G07L.
-
+Si está evaluando hardware para integrar con Plaspy, el G07L es una opción práctica cuando necesita seguimiento continuo, alertas antirrobo y manejo robusto de datos offline junto con gestión de dispositivos desde la plataforma. Para obtener más información sobre Plaspy visite el sitio principal https://www.plaspy.com. Las especificaciones del producto, disponibilidad y datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales en el sitio oficial del fabricante https://www.cantrackgps.com/.

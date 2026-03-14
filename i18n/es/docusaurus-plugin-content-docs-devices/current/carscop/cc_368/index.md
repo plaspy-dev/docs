@@ -2,57 +2,61 @@
 slug: /carscop/cc_368
 id: cc_368
 sidebar_label: CC-368
+title: Carscop - CC-368
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS Carscop CC-368 4G para alquiler y carsharing, compatible con Plaspy para seguimiento y control remoto en tiempo real
+keywords:
+  - Carscop CC-368
+  - CC-368
+  - Rastreador GPS Carscop
+  - CC-368 compatible con Plaspy
+  - seguimiento de flotas
+  - rastreador para carsharing
+  - telemetría vehicular
+  - OBD II CANBUS
+  - rastreador GPS 4G
+  - inmovilizador remoto
 ---
+
 # Carscop - CC-368
 
 ![CC-368](./tracker.JPG)
 
-La CC-368 4G T-Box es una rastreador GPS de uso específico y una unidad de telemática/control de vehículos diseñada para alquiler de coches, car sharing y gestión remota de vehículos. Compatible con Plaspy de serie, la CC-368 combina conectividad celular global \(2G/3G/4G LTE\), un módulo GPS U‑Blox con A‑GPS y antenas externas para entregar seguimiento en tiempo real confiable y telemetría robusta para flotas mixtas. Su interfaz integrada OBD II CANBUS, Bluetooth \(BLE\) incorporado y múltiples E/S lo hacen práctico para alquiler sin llaves llave en mano, gestión de flotas y flujos de anti‑robo.
+El CC-368 es una T Box 4G diseñada específicamente para telemática vehicular en entornos de alquiler de autos, carsharing y gestión remota de flotas. Integra conectividad celular 2G, 3G y 4G LTE con un módulo GNSS U‑Blox con A‑GPS y antenas externas para ofrecer posicionamiento continuo. Sus interfaces vehiculares integradas —como OBD II CANBUS—, el acceso por Bluetooth y sus múltiples entradas y salidas hacen que la unidad sea idónea para la recolección de telemetría y para realizar interacciones controladas sobre vehículos en flotas gestionadas.
 
-La unidad está diseñada para simplificar la integración con Plaspy para ubicación en tiempo real, diagnósticos y control remoto. Los operadores obtienen capacidades de inmovilización remota y arranque remoto del motor, alertas basadas en eventos \(choque, puerta, ACC\), registro de ruta interno cuando GSM no está disponible y interfaces API/TCP para flujos de trabajo del servidor a medida. Cargada de características de seguridad—batería de respaldo, alarma de apagado y entradas/salidas configurables—el CC-368 está orientado a servicios de car sharing escalables, flotas de alquiler y gestión profesional de flotas donde se requieren telemáticas seguras compatibles con Plaspy.
+Como dispositivo compatible con Plaspy desde fábrica, el CC-368 es una opción práctica para operadores que desean centralizar localización, diagnóstico y control de acceso en una sola plataforma. Al integrarlo con Plaspy, la unidad puede transmitir ubicación y parámetros del vehículo, enviar alertas basadas en eventos y soportar flujos de trabajo de inmovilizador remoto y arranque de motor, manteniendo simultáneamente registro de rastreo offline y batería de respaldo para asegurar continuidad durante interrupciones de red.
 
-## Aspectos Clave
+## Puntos clave
 
-- Rastreador GPS compatible con Plaspy con seguimiento en tiempo real a través de redes globales 2G/3G/4G LTE.
-- Lectura y control de OBD II CANBUS para diagnósticos del vehículo, códigos DTC y telemetría.
-- Acceso sin llave vía NFC, módulo de panel táctil con contraseña integrado y Bluetooth \(BLE\) para un acceso de usuario flexible.
-- Soporte de inmovilizador remoto y arranque remoto del motor para un flujo de alquiler seguro y anti‑robo sin supervisión.
-- Antenas externas 4G y GPS, memoria interna para grabación de ruta sin conexión y posicionamiento de respaldo LBS.
-- Amplio rango de tensión de operación \(9–40V\) y soporte para vehículos de gasolina, diésel y eléctricos.
-- Actualizaciones de firmware FOTA, acceso TCP/IP y API para integradores y sistemas de gestión de flotas a medida.
+- Rastreador GPS en tiempo real compatible con Plaspy, pensado para alquiler de autos, carsharing y operaciones de flota
+- Conectividad celular global 2G, 3G y 4G LTE con antenas externas 4G y GPS para cobertura fiable
+- Integración OBD II CANBUS para diagnósticos del vehículo, lecturas DTC y reenvío de telemetría cuando el vehículo lo soporta
+- Múltiples opciones de acceso, incluyendo Bluetooth BLE, NFC o teclado táctil para flujos de trabajo sin llave y basados en proximidad
+- Soporte para inmovilizador remoto y arranque de motor a distancia, útil en escenarios de prevención de hurto y alquileres sin supervisión
+- Registro interno de trazas y batería de respaldo con alarma de corte de energía para mantener la continuidad de datos durante cortes
+- Actualizaciones FOTA y acceso vía API TCP/IP para facilitar integraciones y flujos personalizados en servidor
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando está conectado a Plaspy, la CC-368 transmite ubicación y telemetría para que los operadores puedan monitorear activos y gestionar el acceso remoto a los vehículos en tiempo real. El dispositivo transmite coordenadas GNSS, parámetros del vehículo obtenidos vía OBD, eventos de alarma y estado de E/S discretas a Plaspy a través de TCP/IP seguro o como respaldo por SMS. La integración compatible con Plaspy habilita informes programados y basados en eventos, alertas de geocercas y la ejecución de comandos remotos para inmovilizador y arranque del motor cuando esté autorizado.
+Al conectarse a Plaspy, el CC-368 transmite ubicación GNSS y telemetría del vehículo a la plataforma para que usted pueda monitorear activos, responder a eventos y gestionar acceso remoto desde paneles centrales. Los datos y comandos circulan entre el dispositivo y Plaspy a través de enlaces de red con opciones de registro y entrega de mensajes en fallback para mantener visibilidad ante problemas de conectividad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a Plaspy para paneles de seguimiento en vivo y rutas históricas.
-- Estado de ignición, puerta, choque y alarma enviados como eventos para activar alertas y automatizaciones en Plaspy.
-- Monitoreo de combustible y parámetros del motor a través de OBD-II/CANBUS cuando los datos del vehículo exponen esos PIDs.
-- Inmovilizador remoto/arranque remoto del motor mediante comandos vía Internet o SMS cuando está configurado a través de Plaspy.
-- Sensores Bluetooth y control de acceso BLE compatibles para desbloqueo por proximidad y reenvío de datos de sensores.
+- Actualizaciones de ubicación en tiempo real y registro histórico de rutas visibles en los paneles de Plaspy
+- Reenvío de eventos a Plaspy por encendido, apertura de puertas, impactos y otras condiciones de alarma para activar notificaciones y automatizaciones
+- Parámetros OBD II CANBUS e información DTC enviados a Plaspy para soportar diagnósticos y flujos de mantenimiento cuando el vehículo lo permita
+- Comandos de inmovilizador remoto y arranque de motor ejecutados desde Plaspy cuando estén configurados y autorizados
+- Almacenamiento offline de trazas en el dispositivo con subida automática a Plaspy al restablecerse la conectividad
+- Interfaces API y TCP que permiten informes personalizados, exportes programados e integración con sistemas administrativos
 
-## Resumen Técnico
+## Casos de uso típicos
 
-| Conectividad | Celular global: 2G GSM / 3G WCDMA / 4G LTE \(variantes para mercados específicos\) |
-| --- | --- |
-| Bandas | Soporte global multiplataforma; las bandas de radio específicas varían según SKU y región |
-| Alimentación y batería | Tensión de funcionamiento 9–40V \(compatibilidad 12V/24V\); batería de respaldo recargable integrada; alarma de apagado |
-| Interfaces | Lectura/control OBD II CANBUS \(parámetros del vehículo, códigos DTC\); múltiples entradas digitales \(puerta, ACC, ON, freno de mano\); relés de salida cableados para sirena/cerraduras/luces; NFC y módulo de panel táctil; control remoto del inmovilizador |
-| GNSS | Módulo GPS U‑Blox con A‑GPS; antena GPS externa incluida; posicionamiento de respaldo LBS cuando GPS no está disponible |
-| Bluetooth | BLE compatible para control de acceso y sensores/beacons Bluetooth |
-| Gestión Remota | Actualizaciones de firmware FOTA; interfaces TCP/IP y API para integración con servidor; soporte de comandos SMS |
-| Forma | Unidad T‑Box integrada; provista con arnés de cableado, antena 4G externa, antena GPS y módulo de panel táctil |
+- Alquiler de autos y carsharing sin atención presencial que requieren entrada sin llave y control centralizado de accesos
+- Gestión centralizada de flotas con seguimiento en vivo, diagnósticos y reportes de telemetría programados
+- Flujos de prevención de robo y recuperación mediante inmovilizador remoto y reportes de alarma
+- Diagnóstico remoto y planificación de mantenimiento a partir de parámetros vehiculares y códigos DTC reenviados
+- Despliegues de flotas mixtas donde el amplio soporte vehicular y el rango de voltaje de trabajo facilitan la instalación
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Alquiler de coches sin supervisión y car sharing — acceso sin llave seguro vía NFC, panel táctil o BLE y control de acceso gestionado por Plaspy.
-- Gestión de flotas — seguimiento centralizado en tiempo real, diagnósticos OBD, registro del comportamiento del conductor \(G‑sensor\) y cargas de telemetría programadas.
-- Protección antirrobo — inmovilizador remoto, comandos de corte del motor y generación de informes de alarmas para recuperación rápida y prevención de pérdidas.
-- Diagnóstico remoto y mantenimiento predictivo — lecturas DTC y reenvío de parámetros del vehículo a Plaspy para flujos de trabajo de mantenimiento.
-- Despliegues de flotas mixtas — compatible con vehículos de gasolina, diésel y eléctricos, con amplio rango de voltaje y modos de ahorro de energía configurables.
+El CC-368 combina interfaces prácticas para vehículos y funciones de control de acceso con las capacidades de Plaspy para ofrecer visibilidad operativa y permitir interacciones remotas controladas. Su mezcla de telemetría vía OBD II CANBUS, opciones de acceso por proximidad y mecanismos de respaldo incorporados reduce fricciones operativas en programas de carsharing y alquiler, a la vez que asegura la continuidad de los datos de rastreo necesarios para la supervisión de flotas.
 
-## Por qué Elegir Este Rastreador con Plaspy
-
-El CC-368 ofrece una combinación equilibrada de control de vehículo, telemetría y acceso seguro adaptada a despliegues compatibles con Plaspy. Para operadores centrados en reducir la fricción operativa en car sharing o mejorar la visibilidad de la flota, la integración OBD II CANBUS y las opciones de acceso vía BLE/NFC/panel táctil ofrecen un valor práctico: el monitoreo de combustible y los parámetros del motor se pueden leer cuando estén disponibles, el control de ignición e inmovilizador permiten una respuesta rápida ante robos, y la batería interna más el registro offline mantienen la continuidad de datos incluso ante la pérdida de red. Los integradores se benefician de FOTA, interfaces TCP/IP y API para conectar Plaspy con sistemas back-office existentes y apps móviles personalizadas, mientras que las plataformas de demostración y el hardware listo para instalar aceleran el time-to-market.
-
+Si usted desea conocer más sobre cómo el CC-368 puede integrarse en una implantación con Plaspy visite https://www.plaspy.com para explorar las capacidades y compatibilidades de la plataforma. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual con el fabricante en http://www.carscop.com/ antes de tomar decisiones de compra o integración.

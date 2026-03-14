@@ -2,61 +2,60 @@
 slug: /eelink/gpt46
 id: gpt46
 sidebar_label: GPT46
+title: EElink - GPT46
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto EElink GPT46 compatible con Plaspy para seguimiento de activos en espera prolongada y telemetría de bajo consumo
+keywords:
+  - EElink GPT46
+  - Rastreador GPT46
+  - Rastreador GPS EElink
+  - Rastreador compatible con Plaspy
+  - Rastreador LTE Cat M1
+  - Rastreador NB1
+  - Rastreador con host BLE
+  - Dispositivo de seguimiento de activos
+  - Seguimiento de flotas
+  - Rastreador logístico de activos
 ---
+
 # EElink - GPT46
 
 ![GPT46](./tracker.jpg)
 
-El GPT46 de Shenzhen Eelink Communication Technology Co., Ltd. es un rastreador GPS de IoT, robusto y de LTE Cat M1, diseñado para el seguimiento de activos industriales y la logística. Construido para ser compatible con Plaspy, el GPT46 ofrece seguimiento en tiempo real fiable y telemetría de bajo consumo para reducir la frecuencia de mantenimiento, al tiempo que proporciona la conectividad que exigen la gestión moderna de flotas y de activos móviles.
+El GPT46 de Shenzhen Eelink es un rastreador GPS compacto y resistente, pensado para el seguimiento industrial de activos y la logística. Diseñado como un dispositivo IoT LTE Cat M1 con larga autonomía en espera, el GPT46 prioriza la entrega fiable de posiciones en tiempo real y la telemetría de bajo consumo para reducir las intervenciones de mantenimiento en activos remotos o móviles. Su factor de forma y construcción robusta lo hacen ideal para flotas de transporte, remolques, contenedores y otros activos movibles que requieren visibilidad continua.
 
-El compacto GPT46 está optimizado para la monitorización de activos a largo plazo en transporte, logística y gestión de activos móviles. Con conectividad celular LTE Cat M1/NB1 y funcionalidad de host BLE, este rastreador GPS se empareja fácilmente con sensores Bluetooth y se integra con Plaspy para tableros centrales, alertas e informes operativos que respaldan flujos de trabajo de antirrobo y gestión del ciclo de vida.
+Como dispositivo compatible con Plaspy, el GPT46 integra sus posiciones y telemetría en la plataforma para ofrecer paneles centralizados, alertas e informes operativos. La funcionalidad de host BLE permite emparejar el rastreador con sensores y balizas Bluetooth para aportar contexto adicional del activo, mientras que sus características de larga espera mantienen a Plaspy informado con menos visitas de campo. Esta combinación hace del GPT46 una opción práctica para organizaciones que buscan escalabilidad en el seguimiento de activos y flotas dentro de Plaspy.
 
-## Puntos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy, diseñado para la monitorización de activos de larga duración y ciclos de mantenimiento reducidos.
-- Conectividad celular LTE Cat M1 / NB1 para seguimiento en tiempo real fiable y de bajo consumo con telemetría.
-- Funcionalidad de host BLE integrada para emparejarse con sensores y balizas Bluetooth, enriqueciendo el contexto de los activos.
-- Diseño compacto y discreto, apto para entornos industriales y flotas de transporte.
-- Optimizado para logística y gestión de activos móviles con informes consistentes y precisión de ubicación.
-- Diseño de grado industrial para aplicaciones de seguimiento exigentes que requieren un rendimiento fiable en campo.
-- Soporta despliegues escalables para programas de gestión de flotas y monitoreo anti‑robo en activos.
+- Rastreador GPS compatible con Plaspy, diseñado para monitoreo de activos con larga autonomía y ciclos de mantenimiento reducidos
+- Conectividad LTE Cat M1 y NB1 para seguimiento en tiempo real de bajo consumo y telemetría periódica
+- Función de host BLE integrada para emparejar sensores y balizas Bluetooth y enriquecer el contexto del activo
+- Factor de forma compacto y fácilmente ocultable, apto para entornos industriales y flotas de transporte
+- Optimizado para logística y gestión de activos movibles, con reportes consistentes y posiciones fiables
+- Diseño de grado industrial pensado para aplicaciones de seguimiento exigentes en campo
+- Escalable para programas de flotas y monitoreo antirrobo en activos distribuidos
 
 ## Cómo funciona con Plaspy
 
-El GPT46 transmite ubicación y telemetría a través de redes LTE Cat M1/NB1 a Plaspy, habilitando la visualización de ubicación en tiempo real, reproducción de historial y alertas configurables. Plaspy recibe los fijaciones de posición y los paquetes de telemetría del dispositivo y los mapea a tus flujos de trabajo de gestión de flotas para que los equipos de operaciones puedan actuar ante desviaciones, movimientos no autorizados o disparadores de mantenimiento programado.
+El GPT46 envía localizaciones y telemetría a través de redes celulares IoT a Plaspy, donde los datos del dispositivo se muestran en mapas, vistas de historial y flujos de alertas. Plaspy procesa las posiciones y paquetes de telemetría del rastreador y los transforma en vistas operativas para que los equipos puedan monitorear desplazamientos, responder incidentes y analizar la utilización de activos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas vía LTE Cat M1/NB1 a Plaspy para una conciencia situacional inmediata.
-- Soporte de host BLE para sensores y balizas Bluetooth para enriquecer los datos GPS con información de temperatura, proximidad o presencia.
-- Operación de larga duración minimiza las visitas de mantenimiento y mantiene a Plaspy actualizado con comprobaciones periódicas de estado e informes de ubicación.
-- Telemetría adecuada para paneles de gestión de flotas: estado, hora de la última comunicación e historial de movimientos en Plaspy.
-- Cuando se empareja con interfaces de vehículo o sensores externos, el GPT46 puede aportar datos que soportan monitoreo de combustible, eventos basados en la ignición o flujos de trabajo de inmovilización dentro de Plaspy \(depende del hardware o la integración adicional\).
+- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para conciencia situacional inmediata y mapeo
+- El soporte de host BLE complementa los datos GPS con entradas de sensores, como temperatura o proximidad, cuando están emparejados
+- La operación en larga espera preserva la batería y garantiza registros periódicos en Plaspy sin visitas de mantenimiento frecuentes
+- Estado del dispositivo, última comunicación y historial de movimiento disponibles en los paneles e informes de Plaspy
+- Combinado con interfaces vehiculares o sensores externos adecuados, el GPT46 puede alimentar flujos de trabajo extendidos en Plaspy, como análisis de eventos de encendido o consumo según el hardware adicional e integraciones
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | LTE Cat M1 / NB1 \(IoT celular\) |
-| --- | --- |
-| Bandas | Soporta bandas de red LTE Cat M1 y NB1 \(las bandas regionales específicas varían según el modelo o el operador\) |
-| Alimentación y batería | Diseño de larga duración optimizado para prolongar la vida de la batería y reducir el mantenimiento; la capacidad de la batería y las opciones de respaldo no se especifican |
-| Interfaces | Funcionalidad de host BLE para sensores y balizas Bluetooth; otros E/S no especificados |
-| GNSS | Funcionalidad de rastreador GPS para fijaciones de posición \(GPS reportado\) |
-| Bluetooth | Host BLE para integración con sensores y balizas Bluetooth |
-| Gestión remota | Informes en la nube a plataformas como Plaspy vía LTE Cat M1/NB1; FOTA o gestión remota de firmware no especificados |
-| Formato | Formato compacto y discreto, diseñado para instalación en activos industriales y de transporte |
-
-## Casos de uso
-
-- Gestión de flotas: visibilidad continua de activos y seguimiento de rutas para remolques, equipos y activos no motorizados.
-- Logística y transporte: seguimiento en tiempo real de envíos de alto valor y de inventario móvil a lo largo de largas rutas.
-- Monitoreo anti‑robo: detección de movimientos no autorizados y generación de alertas a través de tableros y notificaciones de Plaspy.
-- Integración de sensores Bluetooth: monitorizar temperatura, proximidad o estado de puertas mediante sensores BLE emparejados con el rastreador para monitorización de la cadena de frío o contenedores.
-- Seguimiento general de activos: instalación compacta y de larga duración para herramientas de construcción, equipos de alquiler y otros activos móviles que requieren mantenimiento mínimo.
+- Gestión de flotas para remolques, maquinaria y activos sin propulsión que requieren visibilidad continua
+- Seguimiento logístico y de transporte para envíos de alto valor e inventario movible a lo largo de rutas extensas
+- Monitoreo antirrobo para detectar movimientos no autorizados y activar alertas en los paneles de Plaspy
+- Integración con sensores BLE para control de contenedores o cadenas de frío mediante sensores Bluetooth emparejados
+- Seguimiento general de activos como herramientas de construcción, equipos de alquiler y activos instalados a largo plazo que requieren mantenimiento de bajo contacto
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el GPT46 para la integración con Plaspy ofrece un equilibrio fiable entre conectividad de bajo consumo, extensibilidad BLE y un formato industrial compacto. Su soporte LTE Cat M1/NB1 proporciona telemetría sólida y rentable, adecuada para la gestión de flotas y programas de activos a gran escala, mientras que las características de larga duración reducen las visitas de servicio en campo. Combinado con Plaspy, el GPT46 convierte fijaciones de GPS y entradas de sensores BLE en información accionable, ayudando a los equipos a responder más rápido ante eventos de robo, optimizar la utilización y mantener la continuidad operativa.
+El GPT46 es una opción sensata para organizaciones que necesitan un equilibrio entre conectividad de bajo consumo, extensibilidad mediante BLE y un formato industrial compacto. Su soporte LTE Cat M1 y NB1 ofrece telemetría rentable y adecuada para programas escalables de flotas y activos, y sus características de larga espera reducen la carga de servicio en campo. Usado con Plaspy, el GPT46 convierte las posiciones GPS y las entradas de sensores emparejados en información procesable para los equipos operativos.
 
-Para organizaciones centradas en el seguimiento en tiempo real escalable, telemetría y preparación ante robos—sin cambios frecuentes de batería—, el GPT46 es un rastreador GPS compatible con Plaspy que simplifica las implementaciones e integra datos de sensores para respaldar flujos de trabajo más amplios, como monitoreo de combustible, gestión de eventos de ignición o estrategias de inmovilización cuando se utiliza con interfaces de vehículo e integraciones adecuadas.
-
-**Fabricante:** Shenzhen Eelink Communication Technology Co., Ltd.
-
+Para saber más sobre Plaspy y cómo los dispositivos compatibles se integran con sus paneles e informes visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo; verifique la información técnica y los modelos regionales actuales en el sitio oficial del fabricante https://www.eelink.com.cn/.

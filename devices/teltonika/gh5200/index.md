@@ -2,60 +2,62 @@
 slug: /teltonika/gh5200
 id: gh5200
 sidebar_label: GH5200
+title: Teltonika - GH5200
 sidebar_class_name: menu_item_tracker
+description: Compact wearable Teltonika GH5200 personal 2G GPS tracker compatible with Plaspy for lone worker safety and real time monitoring
+keywords:
+  - Teltonika GH5200
+  - GH5200 tracker
+  - GH5200 Plaspy compatible
+  - personal GPS tracker
+  - wearable GPS tracker
+  - lone worker safety
+  - two way voice tracker
+  - man down alarm
+  - Bluetooth sensors tracker
+  - workforce tracking
 ---
+
 # Teltonika - GH5200
 
 ![GH5200](./tracker.png)
 
-The GH5200 is a compact, autonomous 2G personal GPS tracker designed for workforce management and personal security. Plaspy compatible out of the box, the GH5200 brings wearable safety and real-time tracking to lone workers, field technicians, and vulnerable people operating in industrial, agricultural, and service environments. Its small form factor fits on a lanyard, belt or ID holder while offering essential incident detection and two-way voice to support rapid response workflows.
+The GH5200 is a compact, autonomous 2G personal GPS tracker designed for workforce management and personal security. Built for continuous on-person use, the device is intended to be worn on a lanyard, belt or ID holder and provides core safety features such as two-way voice, programmable controls, automatic incident detection and support for Bluetooth sensors and beacons. Its form factor and feature set make it suitable for lone workers, field technicians and vulnerable people operating in industrial, agricultural and service environments.
 
-Engineered for continuous on-person use, the GH5200 combines programmable controls with automatic safety scenarios — including man-down and no-movement alarms — and supports multiple Bluetooth® sensors and beacons for proximity and environmental telemetry. When integrated with Plaspy, these capabilities feed real-time location, event and status data into your monitoring dashboard so teams can respond faster and keep personnel safer without complex setup.
+As a Plaspy compatible device out of the box, the GH5200 can feed location, event and status data directly into your Plaspy monitoring environment. That integration enables real time tracking, incident timestamps and alert routing so operations teams and responders see a complete safety picture without complex configuration. Plaspy receives button events, man down and no movement alerts, and Bluetooth sensor telemetry to support rapid response and ongoing operational oversight.
 
 ## Key Highlights
 
-- Wearable 2G GPS tracker purpose-built for workforce safety and personal security.
-- Two-way voice plus emergency call and SMS alerts to up to five preconfigured recipients for immediate contact.
-- Five configurable keys for on-demand tracking, amber alerts, action-on-call and other custom scenarios.
-- Automatic incident detection with built-in man-down and no-movement alarms to trigger alerts even when the wearer cannot call for help.
-- Supports multiple Bluetooth® sensors and beacons for proximity and environmental monitoring and expanded telemetry.
-- Long autonomous operation on internal rechargeable battery; charged via included micro USB cable with optional regional chargers available.
-- Documentation, knowledge base articles and downloads provided to simplify first start and ongoing support with Plaspy integration.
+- Wearable 2G GPS tracker purpose built for workforce safety and personal security.
+- Two way voice plus emergency call and SMS alerting to configured recipients for immediate contact.
+- Five configurable buttons for on demand tracking, amber alerts and custom scenarios.
+- Automatic incident detection including man down and no movement alarms for unattended incidents.
+- Support for multiple Bluetooth sensors and beacons to extend proximity and environmental telemetry.
+- Rechargeable internal battery for extended autonomous operation with included charging cable.
+- Documentation and knowledge base resources to simplify Plaspy integration and ongoing support.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the GH5200 delivers continuous position and event data to a centralized platform for real-time tracking, alerting and historical reporting. The device transmits GPS positions and safety events over 2G networks; Plaspy ingests those messages, displays live location on maps, timestamps incidents and routes notifications to dispatchers or emergency contacts. Integration is straightforward — Plaspy logs button presses, man-down/no-movement events, battery status and Bluetooth sensor telemetry so teams see a complete, actionable picture of personnel safety.
+When integrated with Plaspy, the GH5200 supplies continuous position and event data to a centralized platform for live monitoring, alerting and historical reporting. Plaspy ingests the device messages, presents live location on maps, records safety events with timestamps and routes notifications to dispatchers or emergency contacts so teams can act quickly.
 
-- Real-time location and telemetry updates sent to Plaspy for mapping and tracking.
-- Emergency calls and SMS alerts: event records and notifications are captured in Plaspy for rapid response.
-- Man-down and no-movement detections automatically generate incident events inside Plaspy dashboards and reports.
-- Programmable button events \(five configurable keys\) are parsed and presented as custom alerts or triggers.
-- Bluetooth sensors and beacons: proximity and environmental telemetry appear in Plaspy as additional telemetry fields.
+- Real time location and telemetry updates appear on Plaspy maps and live tracking views.
+- Emergency call and SMS events are recorded and surfaced in Plaspy incident logs for response coordination.
+- Man down and no movement detections automatically generate incident events and alerts inside Plaspy dashboards.
+- Programmable button presses are captured as custom alerts or triggers for workflows and operator actions.
+- Bluetooth sensor and beacon data are presented as additional telemetry fields to enrich situational context.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 2G cellular network \(device communicates location and events over 2G\) |
-| --- | --- |
-| Bands | Specific radio bands not specified in product description \(region-dependent\) |
-| Power & Battery | Rechargeable internal battery designed for extended autonomous operation; charged via included micro USB cable; optional regional chargers available \(product codes GH5200TSTAA0, GH5200TSTAC0, GH5200TSTAD0\) |
-| Interfaces & Controls | Five configurable buttons for on-demand tracking and alerts; two-way voice capability; emergency call and SMS support to up to five recipients |
-| GNSS | GPS personal positioning \(referred to as a GPS tracker in product description\) |
-| Bluetooth | Supports multiple Bluetooth® sensors and beacons for proximity and environmental monitoring |
-| Remote Management & Support | Documentation, knowledge base articles and downloadable resources provided; remote management capabilities not specified in the description |
-| Form Factor | Compact wearable: designed to be worn on a neck lanyard or clipped to a belt or ID holder |
-| Package Contents | GH5200 tracker and micro USB cable \(optional regional chargers available\) |
-
-## Use Cases
-
-- Lone-worker monitoring and rapid incident response in utilities, maintenance and field services.
-- PPE usage and safety compliance where personnel location and incident logs are required for audits.
-- Agricultural workforce supervision across dispersed sites to ensure worker safety and timely assistance.
-- Service environments and remote operations where two-way voice and man-down detection reduce response times.
-- Vulnerable-person tracking for organizations that need continuous location and event telemetry for duty-of-care.
+- Lone worker monitoring and rapid incident response in utilities, maintenance and field services.
+- Field technician safety where two way voice and immediate alerts reduce response time.
+- Agricultural workforce supervision across dispersed sites to ensure worker safety and accountability.
+- Service and remote operations where wearable personal protection and incident logs are required.
+- Tracking and support for vulnerable people within managed care or duty of care programs.
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the GH5200 for Plaspy-compatible deployments gives organizations a focused personal-safety solution that integrates easily into real-time tracking workflows. The device’s programmable buttons, automatic incident detection and support for Bluetooth sensors provide rich telemetry that Plaspy translates into actionable alerts, maps and reports. Because the GH5200 is designed as a wearable personal GPS tracker rather than a vehicle telematics unit, it excels at protecting lone workers and vulnerable people — delivering clear safety benefits without unnecessary vehicle-specific features.
+The GH5200 is a focused personal safety device that maps naturally to Plaspy deployments concerned with human protection rather than vehicle telematics. Its wearable design, programmable buttons and automatic incident detection convert on person events into actionable alerts and records within Plaspy, helping organizations maintain situational awareness and deliver faster assistance.
 
-Note on scope: the GH5200 emphasizes personal security and workforce telemetry rather than vehicle-specific capabilities such as ignition monitoring, immobilizer controls or fuel monitoring. For teams that require fleet telematics alongside personnel tracking, the GH5200 complements broader Plaspy deployments by covering the human safety layer with direct voice, emergency alerting and Bluetooth sensor support.
+For teams that need a straightforward personnel safety layer, the GH5200 provides relevant telemetry and voice capability that Plaspy translates into monitoring, reporting and notification workflows. If fleet vehicle telematics are also required, the GH5200 complements broader tracking strategies by covering the human safety dimension alongside other device types.
 
+To learn more about Plaspy and how compatible devices like the GH5200 integrate with our platform visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical information and official documentation with the manufacturer at https://www.teltonika-gps.com/ before purchase.

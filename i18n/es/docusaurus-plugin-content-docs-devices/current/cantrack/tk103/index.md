@@ -2,27 +2,61 @@
 slug: /cantrack/tk103
 id: tk103
 sidebar_label: TK103
+title: CanTrack - TK103
 sidebar_class_name: menu_item_tracker
+description: Resumen del rastreador CanTrack TK103 y guía de compatibilidad con Plaspy para monitoreo, alertas y visibilidad de flotas
+keywords:
+  - CanTrack TK103
+  - rastreador TK103
+  - rastreador CanTrack
+  - TK103 compatible con Plaspy
+  - rastreo de vehículos
+  - seguimiento de flotas
+  - rastreo en tiempo real
+  - monitoreo de activos
+  - rastreador GSM GPRS
+  - alarma de geocerca
 ---
-# CanTrack - TK103
+
+# CanTrack - TK103: rastreador GPS compacto
 
 ![TK103](./logo.jpg)
 
-El rastreador GPS CanTrack TK103 es un dispositivo de seguimiento de vehículos que utiliza satélites GSM/GPRS y GPS para localizar y monitorear de forma remota cualquier objetivo a través de SMS o GPRS. Con este producto, puede obtener la ubicación y el estado de trabajo de su vehículo a través de una plataforma de posicionamiento en línea o mediante un teléfono celular.
+El CanTrack TK103 es un rastreador GPS compacto que combina posicionamiento por satélite con conectividad GSM GPRS para ofrecer reportes de ubicación, monitoreo remoto y funciones básicas antirrobo. Soporta rastreo en tiempo real, comunicación por SMS y GPRS, monitoreo por audio, alertas de geocerca, avisos por exceso de velocidad y vibración, además de control remoto de encendido y apagado, lo que lo convierte en una opción versátil para el seguimiento de vehículos y activos.
 
-El TK103 ofrece una serie de características destacadas que lo hacen ideal para el seguimiento de vehículos. Estas incluyen:
+Al ser compatible con Plaspy, el TK103 puede enviar datos de ubicación y alertas a la plataforma para un monitoreo y reportes centralizados. Las organizaciones que usan Plaspy pueden agregar dispositivos TK103 a sus flotas o listados de activos para centralizar la visibilidad, recibir notificaciones de movimiento y geocercas, y conservar el historial de seguimiento dentro de la plataforma.
 
-- Colocación y seguimiento: Puede localizar su vehículo de forma ocasional a través de la plataforma de posicionamiento en línea o mediante un teléfono celular.
-- Alarma de emergencia: En caso de una emergencia, puede activar el botón de alarma y el dispositivo enviará una alerta a los números autorizados.
-- Control remoto de aceite y circuito: Puede controlar el suministro de aceite y el circuito del vehículo en cualquier momento y desde cualquier lugar a través de SMS.
-- Monitoreo remoto de voz: Llamando al número de teléfono del dispositivo, puede escuchar el sonido en un radio de 5 metros alrededor del vehículo.
-- Alerta de movimiento: Puede enviar un SMS al dispositivo para activar la función de alerta de movimiento. Si el vehículo se está moviendo, el dispositivo enviará una alerta a los números autorizados.
-- Alerta de exceso de velocidad: Puede configurar una velocidad límite y recibir una alerta si el vehículo excede esa velocidad.
-- Geo-cerca: Puede establecer una geo-cerca para restringir los movimientos del vehículo dentro de un área específica. Si se viola la geo-cerca, el dispositivo enviará un mensaje a los números autorizados.
-- Pista automática: Puede configurar la función de pista automática a través de SMS o la plataforma de posicionamiento en línea.
-- Estadísticas de kilometraje: Puede verificar el kilometraje recorrido por el vehículo, así como verificar el estado del ACC y recibir una alerta en caso de corte de energía.
-- Compatibilidad con la alarma antirrobo original: El dispositivo enviará una alerta SMS después de la advertencia original de la alarma antirrobo.
-- Modificación de IP y puerto de protocolo de comunicación: Puede modificar la configuración de comunicación del dispositivo para adaptarse a diferentes plataformas de posicionamiento en línea.
+## Características principales
 
-El rastreador GPS CanTrack TK103 es una solución confiable y eficiente para el seguimiento y monitoreo de vehículos. Con sus numerosas características y funcionalidades, este dispositivo proporciona una forma segura y conveniente de mantenerse informado sobre la ubicación y el estado de su vehículo en todo momento.
+- Combina posicionamiento GPS con comunicación GSM GPRS para reportes remotos de ubicación.
+- Soporta modos SMS y GPRS para entrega flexible de datos y envío de comandos.
+- Funciones antirrobo integradas como alarma de geocerca, avisos por exceso de velocidad y detección de vibración.
+- Capacidad de encendido y apagado remoto para gestionar el funcionamiento del dispositivo a distancia.
+- Llamada de retorno activada por sonido y alarma por movimiento para mayor conciencia situacional.
+- Almacenamiento local de datos y opciones de seguimiento individual para registro y revisión.
 
+## Cómo funciona con Plaspy
+
+El TK103 transmite actualizaciones de ubicación y alertas de eventos usando GSM GPRS o SMS, que Plaspy puede recibir y procesar para monitoreo en vivo y generación de historiales. Una vez configurado para reportar a Plaspy, el dispositivo pasa a formar parte de la vista consolidada de la flota para administradores y despachadores.
+
+- Visualización de ubicación en vivo en los mapas de Plaspy para visibilidad en tiempo real de los objetivos rastreados.
+- Ingesta de eventos y alarmas como violaciones de geocerca, exceso de velocidad o alertas por vibración.
+- Historial de seguimiento almacenado en Plaspy disponible para reproducción y análisis de rutas.
+- Notificaciones centralizadas y reglas de alerta gestionadas desde Plaspy para supervisión operativa.
+- Paneles de control y reportes a nivel de flota que resumen la actividad y los eventos de los dispositivos.
+
+## Casos de uso típicos
+
+- Rastreo de vehículos para pequeñas flotas y autos particulares.
+- Protección de activos y monitoreo antirrobo de equipos móviles.
+- Monitoreo remoto donde exista cobertura SMS o GPRS.
+- Revisión de rutas e historial de movimientos para auditorías operativas.
+- Escenarios que requieren control remoto sencillo y verificación de estado de los objetivos rastreados.
+
+## Por qué elegir este rastreador con Plaspy
+
+El TK103 es una opción práctica para organizaciones que necesitan un dispositivo de seguimiento sencillo combinado con una plataforma de gestión de flotas capaz. Su conjunto de alarmas y funciones de control remoto responde a requisitos comunes de monitoreo de flotas y activos, mientras que Plaspy aporta la visibilidad centralizada, la gestión de alertas y los reportes necesarios para convertir las señales del dispositivo en información operativa.
+
+Para equipos que evalúan rastreadores para usar con Plaspy, el TK103 ofrece un equilibrio entre funcionalidad de seguimiento y controles adecuados para despliegues de monitoreo básicos o de complejidad moderada. Si usted requiere telemática más avanzada o datos adicionales de sensores, revise las especificaciones del dispositivo y cómo se alinean con sus necesidades de reporte antes de decidir.
+
+Para más información sobre cómo Plaspy soporta dispositivos como el CanTrack TK103 visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en el sitio del fabricante https://www.cantrackgps.com/ antes de realizar la compra.

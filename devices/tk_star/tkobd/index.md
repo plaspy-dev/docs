@@ -2,58 +2,59 @@
 slug: /tk_star/tkobd
 id: tkobd
 sidebar_label: TKOBD
+title: TK-Star - TKOBD
 sidebar_class_name: menu_item_tracker
+description: Compact TK-Star TKOBD OBD plug in GPS tracker compatible with Plaspy for real time fleet tracking and server based route history
+keywords:
+  - TK-Star TKOBD
+  - TKOBD tracker
+  - TKOBD Plaspy compatible
+  - TKOBD GPS tracker
+  - OBD plug in tracker
+  - fleet tracking TKOBD
+  - vehicle tracking TKOBD
+  - Plaspy compatible trackers
+  - real time GPS tracker
+  - TK-Star trackers
 ---
+
 # TK-Star - TKOBD
 
 ![TKOBD](./tracker.jpg)
 
-The TKOBD 2G by TKSTAR is a compact OBD plug‑in GPS tracker engineered for reliable vehicle tracking and fleet management. Designed to be Plaspy compatible, it delivers continuous real‑time tracking and server‑based route history so fleet operators and vehicle owners can monitor location, movement alerts, and performance from web and mobile apps.
+The TKOBD 2G from TK-Star is a compact OBD plug in GPS tracker built for vehicle tracking and fleet management. It combines multi source positioning with a rugged IP65 enclosure and a plug in form factor to provide continuous location updates, movement alerts, and server based route history suitable for cars, light commercial vehicles, and rental fleets.
 
-The TKOBD 2G combines multi‑source positioning \(GPS, GLONASS, BDS/BD, LBS and Wi‑Fi\) with an IP65 ruggedized enclosure for everyday automotive use. Its plug‑in form factor simplifies installation and helps businesses scale telemetry and anti‑theft monitoring across cars, light commercial vehicles, and rental fleets while integrating smoothly with Plaspy’s tracking dashboard.
+As a device designed to be compatible with Plaspy, the TKOBD integrates its location and alarm data into Plaspy’s tracking dashboard and mobile views. That compatibility gives fleet operators and vehicle owners centralized visibility, real time alerts, and stored route history so they can monitor operations, respond to incidents, and analyze trips from Plaspy’s web and mobile interfaces.
 
 ## Key Highlights
 
-- Plaspy compatible OBD plug‑in GPS tracker for quick, no‑tools installation into the vehicle’s OBD port.
-- Multi‑source positioning \(GPS/GLONASS/BDS plus LBS and Wi‑Fi\) for accurate outdoor and improved indoor location reporting.
-- Real‑time tracking and alerts via web and mobile apps — ideal for fleet management and anti‑theft monitoring.
-- Configurable safety and security alarms: vibration alarm, move alert, geo‑fence breach and overspeed alarm for driver behavior and theft detection.
-- Server‑side route history stored up to six months for compliance, analysis, and incident review.
-- Rugged IP65 rating and wide operating voltage range \(10–40 V\) to withstand automotive environmental conditions.
-- Small, lightweight design supports discrete installation and broad vehicle compatibility.
+- Plaspy compatible OBD plug in GPS tracker for quick vehicle deployment and power from the vehicle port.
+- Multi source positioning for improved outdoor accuracy and better location performance in mixed environments.
+- Real time tracking and push alerts accessible through web and mobile apps for fleet monitoring and security.
+- Configurable safety and security alarms including vibration alert, move alert, geo fence breach, and overspeed notifications.
+- Server side route history retained up to six months for compliance, audit, and incident review.
+- Rugged IP65 rated enclosure and compact design for everyday automotive use and discreet placement.
 
 ## How It Works with Plaspy
 
-The TKOBD 2G communicates location and status data over GSM/GPRS to backend servers where Plaspy ingests and displays it in real time. Once connected, Plaspy shows live positions, configurable alerts, and historic routes from the device so fleet managers and owners can act on telemetry and safety events immediately.
+When connected, the TKOBD sends location and status data over the vehicle cellular connection to backend servers where Plaspy ingests it and displays live positions, alerts, and historical routes. Plaspy centralizes the device telemetry so managers can monitor fleets, create alerts, and run reports without separate systems.
 
-- Real‑time location and telemetry updates streamed to Plaspy for live tracking and dispatch.
-- Instant alerts for vibration, movement, geo‑fence breaches and overspeed events routed into Plaspy notifications.
-- Server storage of historical routes for up to six months, allowing retrospective trip review and compliance reporting.
-- OBD plug‑in design provides convenient vehicle power and simplifies rollout across fleets without hardwiring.
-- Works with Plaspy’s web and mobile apps to centralize tracking, reporting, and fleet management workflows.
+- Real time location and telemetry streamed into Plaspy for live tracking and dispatching.
+- Immediate alerts for vibration, movement, geo fence breaches, and overspeed events forwarded to Plaspy notifications.
+- Server storage of historical routes for up to six months allowing retrospective trip review and reporting.
+- Plug in form factor draws vehicle power and simplifies rolling devices out across many vehicles.
+- Data displayed in Plaspy web and mobile views to unify tracking, reporting, and operational oversight.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM / GPRS \(2G\) |
-| --- | --- |
-| Bands | 850 / 900 / 1800 / 1900 MHz |
-| Power & Battery | Working voltage 10–40 V; internal rechargeable backup battery 3.7 V, 80 mAh Li‑ion |
-| Interfaces | OBD plug‑in form factor for vehicle power and connection \(no hardwire required\) |
-| GNSS | UBLOX GNSS chip; multi‑source positioning including GPS, GLONASS and BDS/BD; sensitivity –159 dBm; typical accuracy ~5 m; TTFF ~35–80 s cold, ~35 s warm, ~1 s hot |
-| Sensors & Alerts | Vibration alarm, move alert, geo‑fence breach, overspeed alarm |
-| Server & History | Real‑time tracking via web/mobile APP; historical routes stored on server up to six months |
-| Form Factor & Environmental | Dimensions ~42 × 53.7 × 22 mm, weight ~28 g; IP65 rated; storage –40°C to +85°C; operating –20°C to +55°C; humidity 5%–95% non‑condensing |
-
-## Use Cases
-
-- Fleet management — monitor vehicle positions, route history and overspeed events to improve routing and driver safety.
-- Anti‑theft and recovery — vibration and move alerts notify Plaspy users immediately when unauthorized movement occurs.
-- Rental and shared vehicles — quick OBD installation and six‑month route history help operators audit usage and protect assets.
-- Driver behavior and compliance — use geofence and overspeed alerts to enforce policies and document incidents for review.
+- Fleet management to monitor positions, route history, and speed events for operational efficiency.
+- Anti theft and recovery workflows where vibration and movement alerts provide early notice of unauthorized activity.
+- Rental and shared vehicle programs that need quick device deployment and server side history for audits.
+- Driver behavior and compliance monitoring using geo fence and overspeed alerts to document incidents.
+- Small to medium vehicle fleets looking for a compact, rugged tracker that pairs with a central tracking platform.
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the TKOBD 2G for a Plaspy deployment delivers a practical balance of accuracy, durability, and simplicity. Its multi‑source positioning and UBLOX GNSS chipset provide reliable real‑time tracking for fleet management and anti‑theft workflows, while the OBD plug‑in form factor makes installation fast and scalable. Plaspy aggregates the TKOBD 2G’s telemetry and alerts into a single dashboard, enabling centralized reports, live dispatching, and efficient incident response.
+The TKOBD is a practical option for organizations that want reliable vehicle location, straightforward deployment, and close integration with a fleet platform. Its multi source positioning and robust enclosure make it suited to routine automotive environments, while the plug in form factor reduces installation time and helps scale deployments across many vehicles. Plaspy collects the TKOBD’s location and alarm data into a unified dashboard so teams can act on live information and run historical analysis without managing separate backend systems.
 
-For fleets that also use fuel monitoring, ignition or immobilizer events, or Bluetooth sensors in an extended telematics stack, Plaspy can correlate TKOBD 2G location and alarm data with those additional inputs when available from other hardware. That flexibility helps operators build a comprehensive solution without compromising the TKOBD 2G’s compact, robust design.
-
+If you want to learn more about how Plaspy can use TKOBD devices for fleet tracking and monitoring, visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details on the manufacturer website https://www.tk-star.com/.

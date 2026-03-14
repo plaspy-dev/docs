@@ -2,65 +2,60 @@
 slug: /minifinder/atto_pro
 id: atto_pro
 sidebar_label: Atto Pro
+title: MiniFinder - Atto Pro
 sidebar_class_name: menu_item_tracker
+description: Compact rugged GPS tracker for pets and livestock compatible with Plaspy for real time tracking geofencing and motion alerts
+keywords:
+  - MiniFinder Atto Pro
+  - Atto Pro GPS tracker
+  - Atto Pro Plaspy compatible
+  - MiniFinder tracker
+  - pet GPS tracker
+  - livestock tracker
+  - GPS tracker IP67
+  - BLE 5.0 tracker
+  - LTE M1 tracker
+  - geofence tracker
 ---
+
 # MiniFinder - Atto Pro
 
 ![Atto Pro](./tracker.jpg)
 
-The MiniFinder Atto Pro is a compact, rugged GPS tracker designed for pets and livestock and now available as a Plaspy compatible device for seamless real-time tracking. Built for outdoor use with an IP67 rating and robust wireless connectivity \(LTE M1 / NB2 and GSM\), the Atto Pro delivers continuous position updates, motion-aware alerts and local logging — making it a practical choice for pet owners, hunters and farms that need reliable location data in Plaspy's platform.
+The MiniFinder Atto Pro is a compact, rugged GPS tracker designed primarily for pets and livestock. Built for outdoor use with an IP67 environmental rating and a small wearable collar form factor, the device offers continuous position updates, motion aware alerts and local logging. These characteristics make the Atto Pro suitable for scenarios that require reliable location data in challenging field conditions.
 
-With a small, wearable collar form factor and a 3‑axis accelerometer, the Atto Pro combines real-time tracking, geofencing and multi-user access. When integrated with Plaspy, it enables live monitoring, alerting and history review through smartphones, tablets and browsers — giving teams and families fast situational awareness for lost pet recovery, anti-theft response and remote animal supervision.
+As a Plaspy compatible device, the Atto Pro brings its tracking data and alerts into Plaspy's centralized monitoring environment. When integrated with Plaspy, teams and families can view live locations, configure geofences and receive motion or low battery alerts across phones, tablets and browsers, giving coordinated situational awareness for lost pet recovery, theft response and remote animal supervision.
 
 ## Key Highlights
 
-- Plaspy compatible for real-time tracking and centralized monitoring across devices.
-- Rugged IP67 design and lightweight form factor \(65 × 35 × 16 mm; 39 g\) for collars and livestock use.
-- Global cellular connectivity: LTE \(M1, NB2\) plus GSM/GPRS for operation in more than 190 countries.
-- Continuous positioning with 0–5 m outdoor accuracy and fast GNSS fix times for rapid location updates.
-- Safety features: geofencing, motion and speed alarms, low GPS-signal and low-battery notifications sent to preset contacts.
-- Local flash memory \(1 MB\) stores positions during GSM outages and uploads when connectivity returns.
-- Bluetooth BLE 5.0 for nearby sensor support and future integrations with Plaspy sensor workflows.
+- Plaspy compatible for real time tracking and centralized monitoring across devices
+- Rugged IP67 design and lightweight collar form factor sized for pets and livestock
+- Global cellular connectivity with LTE M1 NB2 and GSM to support operation across many countries
+- Continuous GNSS positioning with typical outdoor accuracy reported in the 0 to 5 meter range
+- Motion aware alerts, geofencing and low signal or low battery notifications for proactive monitoring
+- Local flash memory for position buffering during cellular outages and automatic upload on reconnection
+- BLE 5.0 support for nearby sensor integration and short range workflows
 
 ## How It Works with Plaspy
 
-The Atto Pro sends GNSS positions and sensor telemetry to Plaspy over LTE/GSM networks for real-time tracking, alerts and historical reports. When connectivity is lost, the device stores position records in internal flash and automatically synchronizes those records to Plaspy once a network is available. Plaspy users can configure geofences, set motion or speed alarms, and receive low-battery or low-GPS-signal notifications from the Atto Pro — all visible in the Plaspy web interface and mobile apps.
+The Atto Pro transmits GNSS positions and device telemetry to Plaspy over cellular networks, and Plaspy surfaces that information in unified maps, alerts and history reports. When the unit experiences temporary network loss, built in logging holds position records and synchronizes them to Plaspy once connectivity is restored. Within Plaspy, administrators and users can create rules, review tracks and share access for collaborative monitoring.
 
-- Real-time location and telemetry updates via LTE-M/NB-IoT and GSM.
-- Geofence breach, motion and speed alerts forwarded to Plaspy for immediate notifications.
-- Position buffering in device flash when GSM is unavailable, with automatic upload on reconnection.
-- BLE 5.0 available for nearby sensor/beacon integration and short-range telemetry.
-- Multi-user access through Plaspy for collaborative monitoring and shared alerting.
+- Real time location updates and telemetry visible in Plaspy dashboards and mobile views
+- Geofence breach, motion and low battery alerts forwarded into Plaspy for immediate notification
+- Local position buffering in device flash with automatic upload when the network returns
+- BLE sensor or beacon integrations available for short range telemetry workflows
+- Multi user access and shared alerting to support families or operations monitoring animals
 
-## Technical Overview
+## Typical Use Cases
 
-| Model / Manufacturer | MiniFinder Atto Pro |
-| --- | --- |
-| Connectivity | LTE: M1, NB2; GSM/GPRS |
-| Bands | GSM: 850 / 900 / 1800 / 1900 MHz |
-| Power & Battery | Rechargeable battery 850 mAh; typical ~35 hours at 5‑minute update interval; Power input 5V DC; magnetic charger |
-| Memory & Logging | 1 MB flash — positions stored locally during GSM loss and uploaded when restored |
-| GNSS | GPS chip AT6558R-5N32 \(5300\); fix time: Active 1 s, Warm 2 s, Cold 26 s; positioning accuracy 0–5 m outdoors |
-| Sensors | 3-axis accelerometer \(motion and speed detection\) |
-| Bluetooth | BLE 5.0 for sensors and beacons |
-| LED Indicators | Three status LEDs for GPS, LTE and power/voltage |
-| Operating Range | -20°C to +60°C; humidity 5–95% non-condensing |
-| Environmental Rating | IP67 \(dust-tight and water-resistant to 1 m temporary immersion\) |
-| Dimensions & Weight | 65 × 35 × 16 mm; 39 g |
-| Remote Management | Integrates with MiniFinder Live and companion iOS/Android apps; multi-user access. \(FOTA not specified\) |
-| Notes | No vehicle ignition/fuel monitoring or immobilizer interfaces are specified for this device; it is optimized for animal and portable asset tracking. |
-
-## Use Cases
-
-- Lost pet recovery — attach to collars for fast location updates and geofence alerts via Plaspy.
-- Theft protection for horses and larger animals — motion alerts and historical tracks help locate animals quickly.
-- Monitoring free‑roaming livestock on farms and pastures with local logging for remote areas.
-- Hunting dog safety — keep hunters informed with real-time positions, motion alerts and return-to-zone notifications.
-- Portable asset tracking where a compact, weatherproof BLE-enabled device with flash logging is required.
+- Lost pet recovery using collar mounted tracking and geofence notifications
+- Theft protection and recovery for horses and larger animals with motion alerts and historical tracks
+- Monitoring free roaming livestock on farms and pastures where local logging reduces data gaps
+- Hunting dog safety and situational awareness for handlers via live positions and alerts
+- Portable asset tracking for weather exposed wearable devices that need short range sensor support
 
 ## Why Choose This Tracker with Plaspy
 
-The MiniFinder Atto Pro offers a focused, reliable solution when you need discreet, weatherproof GPS tracking in a compact wearable. As a Plaspy compatible device, it brings continuous real-time tracking, geofencing and motion-based alerts into a unified monitoring environment accessible on phones and browsers. Its global LTE-M/NB2 and GSM connectivity plus local flash logging reduce data gaps in remote conditions, while BLE 5.0 opens the door to short-range sensor integrations. If your priority is dependable animal tracking, quick recovery or collaborative monitoring across users, the Atto Pro delivers the core telemetry and alerting features needed for effective, Plaspy-powered oversight.
+The Atto Pro is a focused option for organizations and individuals who need a discreet, weatherproof tracker for animals and portable assets. Its compact wearable design, reliable outdoor positioning and built in logging make it a practical match for Plaspy users who require continuous monitoring, geofence management and shared alerting across teams and family members. BLE support also allows short range sensor use cases that can extend monitoring workflows within the Plaspy platform.
 
-Note: The Atto Pro is tailored for animal and portable asset tracking and does not include vehicle-specific inputs such as ignition sensing, fuel monitoring or immobilizer control. For pet and livestock scenarios where ruggedness, precise GNSS performance and integrated Plaspy workflows matter, the Atto Pro is a practical, easy-to-deploy option.
-
+To learn more about how Plaspy can work with compatible devices such as the MiniFinder Atto Pro, visit the Plaspy main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical information and regional options on the MiniFinder official site https://minifinder.se/.

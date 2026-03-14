@@ -2,65 +2,62 @@
 slug: /topshine/pt50
 id: pt50
 sidebar_label: PT50
+title: TopShine - PT50
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS solar 4G PT50 compatible con Plaspy para monitoreo prolongado de activos y flotas con integración MQTT y diseño IP67
+keywords:
+  - TopShine PT50
+  - Rastreador GPS PT50
+  - Rastreador TopShine
+  - PT50 compatible con Plaspy
+  - rastreador GPS solar
+  - rastreador GPS 4G
+  - rastreador IP67
+  - rastreador para contenedores
+  - rastreo de flotas
+  - rastreador MQTT
 ---
+
 # TopShine - PT50
 
 ![PT50](./tracker.jpg)
 
-El rastreador solar 4G PT50 es compatible con Plaspy y está diseñado para monitoreo a largo plazo y sin intervención de contenedores, remolques, embarcaciones, vehículos y activos remotos. Con posicionamiento en múltiples modos \(GPS, AGPS, LBS y WiFi\) y comunicaciones 4G/GSM, el PT50 ofrece rastreo en tiempo real y alertas de eventos confiables a través de interfaces Web, aplicación móvil y SMS — e integra con Plaspy vía MQTT personalizable para telemetría fluida y flujos de trabajo a nivel de sistema.
+El TopShine PT50 es un rastreador GPS 4G con panel solar diseñado para el monitoreo prolongado y sin supervisión de contenedores, remolques, embarcaciones, vehículos y otros activos remotos. Pensado para ofrecer durabilidad, el PT50 combina carga solar, una carcasa sellada con certificación IP67 y montaje por adsorción magnética para facilitar despliegues en lugares sin alimentación eléctrica y con mantenimiento esporádico.
 
-La carcasa robusta con clasificación IP67, el montaje por adsorción magnética y la carga solar integrada permiten desplegar sin suministro eléctrico ni mantenimiento frecuente. Cuando se utiliza junto con Plaspy, el PT50 se convierte en un bloque de construcción fiable para la gestión de flotas, monitoreo anti-robos y telemetría de activos de larga duración que requieren un mantenimiento mínimo y una entrega de datos robusta.
+Como dispositivo compatible con Plaspy, el PT50 puede transmitir datos de ubicación y eventos a la plataforma para ofrecer visibilidad en tiempo real, alertas y reproducción histórica. Su posicionamiento multimodal y la integración MQTT personalizable permiten a las organizaciones incorporar el PT50 en los flujos de trabajo de Plaspy para supervisión de flotas, protección de activos y telemetría de larga duración sin necesidad de desarrollos personalizados complejos.
 
-## Key Highlights
+## Características principales
 
-- Plaspy compatible: integra datos de ubicación y eventos vía Web, APP, SMS y un protocolo MQTT personalizable para flujos de trabajo de plataforma e IoT.
-- Autonomía alimentada por energía solar: carga solar integrada más una batería de 2500mAh reducen el mantenimiento y permiten despliegues prolongados sin supervisión.
-- Posicionamiento de múltiples modos: GPS + AGPS + LBS + WiFi para precisión al aire libre de alrededor de 5 m y mejora del posicionamiento en interiores \(aprox. 30 m mediante WiFi\).
-- Diseño robusto: clasificación IP67 a prueba de agua y un amplio rango de temperatura de operación para entornos exteriores adversos y marítimos.
-- Instalación sencilla: montaje por adsorción magnética permite fijarlo rápidamente a superficies metálicas, como contenedores, remolques y embarcaciones, sin perforación.
-- Seguridad y alertas: alarma SOS, geocerca \(GPS y WiFi\), alarma de batería baja y detección de movimiento/antirrobo para protección en tiempo real.
-- Forma compacta y ligera: dimensiones reducidas y peso moderado lo hacen adecuado para muchos tipos de activos e instalaciones discretas.
+- Integración compatible con Plaspy vía web, aplicación móvil, SMS y MQTT personalizable para flujos de trabajo de plataforma e IoT
+- Autonomía con energía solar y batería interna para despliegues prolongados sin supervisión
+- Posicionamiento multimodal mediante GPS, A-GPS, LBS y WiFi para mejorar la fiabilidad en ubicaciones exteriores e interiores
+- Carcasa robusta con certificación IP67 para resistencia al agua y al polvo en entornos marinos y exteriores exigentes
+- Montaje por adsorción magnética para fijación rápida en contenedores, remolques y embarcaciones metálicas
+- Alertas integradas, incluyendo SOS, geocercas, batería baja y detección de movimiento para vigilancia de seguridad
+- Diseño compacto y ligero, apto para instalaciones discretas en una variedad de activos
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el PT50 transmite en tiempo real datos de ubicación y eventos y permite la reproducción de rutas históricas, alertas e integraciones de sistema. Plaspy ingiere los datos del dispositivo a través de la red celular \(GPRS/SMS/4G\) o MQTT, normaliza la telemetría y la expone a través de paneles, informes y endpoints API para flujos de trabajo de gestión de flotas o monitoreo de activos.
+Al emparejarse con Plaspy, el PT50 envía actualizaciones de ubicación y notificaciones de eventos a la plataforma para que los equipos puedan rastrear activos, responder a incidentes y revisar rutas históricas. Plaspy ingiere los mensajes del dispositivo, normaliza la telemetría y presenta la información mediante paneles, reportes e integraciones que apoyan la toma de decisiones operativas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía celular \(GPRS/4G\) y MQTT para visualización de baja latencia en los paneles de Plaspy.
-- Eventos de geocerca \(geocerca GPS y WiFi\) entregados como alertas inmediatas a Plaspy para el rastreo de intrusiones perimetrales.
-- Detección de SOS y movimiento/antirrobo enviada a Plaspy para notificaciones prioritarias y flujos de respuesta.
-- Alarmas de batería baja e indicadores de salud del dispositivo visibles en Plaspy para programar mantenimiento proactivo.
-- Soporte de protocolo MQTT personalizable para integrar mensajes del dispositivo en Plaspy, sistemas de terceros o plataformas IoT centralizadas.
+- Actualizaciones de ubicación en tiempo real y transmisión de eventos a los paneles de Plaspy para visibilidad inmediata
+- Alertas de geocerca y SOS enviadas a Plaspy para monitoreo perimetral y notificaciones prioritarias
+- Notificaciones de movimiento y batería baja visibles en Plaspy para apoyar la respuesta antirobo y la planificación de mantenimiento
+- Reproducción y reporte de rutas históricas para analizar el movimiento y la utilización de activos a lo largo del tiempo
+- Soporte MQTT para enrutar la telemetría del dispositivo hacia Plaspy u otros sistemas centralizados y habilitar flujos de trabajo personalizados
 
-## Technical Overview
+## Casos de uso típicos
 
-| Model | 4G PT50 |
-| --- | --- |
-| Connectivity | 4G \(celular\) con respaldo GSM \(GPRS o SMS\). Se admite protocolo MQTT personalizable. |
-| Bands | No especificadas por el fabricante |
-| Positioning / GNSS | GPS + AGPS + LBS + WiFi; precisión al aire libre alrededor de 5 m; interior vía WiFi hasta ~30 m. |
-| Battery & Power | Batería interna de 2500mAh con carga solar; rango de entrada DC +9V ~ +36V / 1.5A; alarma de batería baja soportada. |
-| Physical | Dimensiones: 14.5 × 7 × 2.3 cm; Peso: 0.16 kg; IP67 a prueba de agua. |
-| Operating conditions | Temperatura: -40°C ~ 75°C; Humedad: 5% ~ 95%. |
-| Indicators | Dos LEDs para indicar el estado de GPS y GSM. |
-| Velocity reporting | Capacidad especificada por el fabricante de hasta 515 m/s. |
-| Installation | Montaje por adsorción magnética para fijación a superficies metálicas. |
-| Interfaces / I/O | No especificado por el fabricante |
-| Bluetooth | No especificado por el fabricante |
-| Remote management | Plataforma Web, APP móvil, interfaces SMS; MQTT para integración del sistema. FOTA no especificado. |
-| Package contents | 1 × unidad 4G PT50; 1 × cable USB |
+- Rastreo prolongado de contenedores y remolques en patios y entornos marítimos donde no hay suministro eléctrico
+- Gestión de activos remotos o auxiliares en flotas que requieren monitoreo intermitente y gran autonomía de batería
+- Seguimiento de embarcaciones y activos marinos que se benefician de la impermeabilidad y amplios rangos de operación
+- Monitoreo antirobo y SOS para equipos distribuidos y activos de alto valor
+- Telemetría distribuida para logística y operaciones centralizadas mediante MQTT e integraciones de plataforma
 
-## Use Cases
+## Por qué elegir este rastreador con Plaspy
 
-- Seguimiento de contenedores y remolques — la autonomía solar a largo plazo hace del PT50 una opción ideal para el transporte marítimo y el almacenamiento en patio cuando no hay suministro eléctrico.
-- Gestión de flotas para activos remotos o auxiliares — rastrea historial de ubicación, eventos de movimiento y tiempo deactividad de equipos con alimentación irregular.
-- Monitoreo de embarcaciones y activos marinos — la impermeabilidad IP67 y la amplia tolerancia de temperatura permiten despliegues en embarcaciones costeras e interiores.
-- Monitoreo remoto de activos contra robo y SOS — geocerca, detección de movimiento y alarmas SOS ofrecen alertas de seguridad a través de Plaspy.
-- Telemetría distribuida para logística — el soporte MQTT y Web/App/SMS facilitan la integración en plataformas logísticas centralizadas y flujos de trabajo personalizados.
+El PT50 es una opción práctica para organizaciones que necesitan rastreadores duraderos y de bajo mantenimiento que puedan integrarse en una plataforma de gestión central. Su carga solar y carcasa sellada reducen la necesidad de visitas de servicio frecuentes, mientras que el montaje magnético simplifica el despliegue en activos metálicos. Al combinarse con Plaspy, el PT50 forma parte de un conjunto de herramientas de seguimiento y operación que soporta alertas, reportes y automatizaciones a nivel de sistema.
 
-## Why Choose This Tracker with Plaspy
+Dado que el PT50 admite mensajes MQTT personalizables y reportes celulares estándar, es sencillo mapear eventos del dispositivo a los flujos de trabajo de Plaspy y combinar la telemetría de ubicación con otras fuentes operativas. Cuando los detalles técnicos concretos sean importantes para una integración, confirme las especificaciones vigentes con el fabricante y use Plaspy para centralizar telemetría, alertas e información histórica que mejore la supervisión de los activos.
 
-El PT50 4G está diseñado para minimizar el mantenimiento mientras maximiza el tiempo de actividad — una combinación sólida para usuarios de Plaspy que requieren rastreo en tiempo real y telemetría escalables y confiables. La carga solar, junto con la batería de 2500mAh, reduce las visitas para reemplazo de batería; el montaje magnético facilita la instalación en activos metálicos; y una clasificación IP67 con amplios rangos de temperatura y humedad garantiza durabilidad en entornos difíciles. Plaspy aprovecha las actualizaciones en tiempo real del PT50, geocercas y eventos de alarma para brindar gestión centralizada de la flota, alertas anti-robos y reproducción de rutas históricas.
-
-Arquitectónicamente, el soporte del PT50 para un protocolo MQTT personalizable facilita incorporar datos del dispositivo a los flujos de trabajo de Plaspy o a plataformas IoT más amplias. Aunque el dispositivo se centra en la ubicación, la autonomía de energía y el reporte de eventos, Plaspy puede combinar la telemetría de ubicación del PT50 con sistemas adicionales — por ejemplo, monitoreo de combustible, controles de encendido o inmovilizador o datos de sensores Bluetooth — a nivel de plataforma para ofrecer una visión más completa de la flota. Elige el PT50 con Plaspy cuando necesites un rastreo GPS de bajo mantenimiento y duradero para la protección de activos a largo plazo y la visibilidad operativa.
-
+Para saber más sobre cómo el PT50 puede funcionar con Plaspy, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información actual en el sitio oficial de TopShine https://www.gztopshine.com/.

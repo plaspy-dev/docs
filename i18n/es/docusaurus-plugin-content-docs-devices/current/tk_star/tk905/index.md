@@ -2,64 +2,61 @@
 slug: /tk_star/tk905
 id: tk905
 sidebar_label: TK905
+title: TK-Star - TK905
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G robusto para vehículos y activos con batería de larga duración protección IP65 y seguimiento en tiempo real compatible con Plaspy
+keywords:
+  - TK-Star TK905
+  - Rastreador GPS TK905
+  - TK905 compatible con Plaspy
+  - Rastreador de vehículos
+  - Seguimiento de activos
+  - Seguimiento de flotas
+  - GPS en tiempo real
+  - Rastreador GPS 4G
+  - Rastreador con batería de larga duración
+  - Rastreador IP65
 ---
+
 # TK-Star - TK905
 
 ![TK905](./tracker.jpg)
 
-# TK905 4G GPS Tracker \(TKSTAR\)
+El TK905 de TK-Star es un rastreador GPS 4G resistente, diseñado para ofrecer seguimiento fiable de vehículos y activos. Pensado para automóviles, flotas de alquiler, contenedores de carga y equipos exteriores, este equipo destaca por su gran autonomía, opciones de posicionamiento multimodo y alertas por movimiento que mantienen la visibilidad en despliegues de campo.
 
-El TK905 es un rastreador 4G GPS robusto y de larga autonomía, diseñado para un seguimiento fiable de vehículos y monitoreo de activos. Construido para automóviles, flotas de alquiler, contenedores de carga y equipos al aire libre, el TK905 combina posicionamiento multinodo \(GPS + LBS + WiFi + BeiDou + GLONASS\) con una batería de 5000 mAh y resistencia al agua IP65 para ofrecer seguimiento continuo en tiempo real compatible con Plaspy y alertas anti-robo fiables.
+Como dispositivo compatible con Plaspy, el TK905 suministra las posiciones y eventos esenciales que necesitan los gestores y operadores de flota. Su posicionamiento con múltiples constelaciones, larga vida en espera y notificaciones activadas por vibración lo convierten en una opción práctica para alimentar Plaspy con datos para monitoreo en tiempo real, geocercas, historial de rutas y flujos de trabajo antirrobo.
 
-Como dispositivo que se integra fácilmente en plataformas en línea, el TK905 proporciona la telemetría central y los datos de ubicación que Plaspy necesita para la gestión de flotas, historial de rutas, geocercas y alertas de movimiento. Con una larga vida en modo de espera, notificaciones por vibración y rendimiento GNSS de múltiples constelaciones, es una opción práctica para gerentes que requieren ubicación precisa, informes robustos y monitoreo remoto seguro.
+## Características principales
 
-## Aspectos Clave
+- Rastreador compatible con Plaspy que proporciona actualizaciones de ubicación en tiempo real para vehículos y activos móviles
+- Posicionamiento multimodo con soporte de múltiples constelaciones GNSS para mejorar la cobertura en entornos mixtos
+- Gran batería de 5000 mAh pensada para larga duración en espera y despliegues prolongados
+- Carcasa con clasificación IP65 y sensor de vibración sensible para alertas por movimiento y antirrobo
+- Conjunto integral de alertas que incluye geocercas, exceso de velocidad y notificaciones de movimiento
+- Almacenamiento histórico de rutas en el servidor para revisión retrospectiva e informes
 
-- Rastreador GPS compatible con Plaspy con seguimiento en tiempo real para vehículos, flotas y activos.
-- Posicionamiento en múltiples modos: GPS + LBS + WiFi + BeiDou + GLONASS para una cobertura mejorada tanto en interiores como en exteriores.
-- Batería Li-ion recargable de 3.7 V y 5000 mAh; autonomía de espera de hasta 30 días para despliegues a largo plazo.
-- Caja con clasificación IP65 y sensor de vibración sensible incorporado para alertas de movimiento anti-robos.
-- Alertas completas: geocercas, exceso de velocidad, alertas de movimiento/vibración y almacenamiento de rutas históricas \(el servidor almacena hasta seis meses\).
-- Amplio soporte celular: bandas 4G/LTE, WCDMA y GSM para conectividad global y uplink de telemetría confiable.
-- Formato compacto y ligero, diseñado para montaje en vehículos y contenedores.
+## Cómo funciona con Plaspy
 
-## Cómo Funciona con Plaspy
+Al conectarse a Plaspy, el TK905 transmite su ubicación y los datos de eventos a la plataforma para que los equipos puedan monitorear activos en mapas, recibir alertas y generar reportes operativos. Plaspy ingiere las posiciones y las banderas de eventos del rastreador, haciendo esa información accesible en paneles y flujos automáticos.
 
-Cuando se integra con Plaspy, el TK905 transmite datos de ubicación y eventos a la plataforma para que puedas monitorear activos en tiempo real, recibir alertas instantáneas y generar informes operativos. Plaspy procesa los posicionamientos GNSS del rastreador, las posiciones basadas en red \(LBS/WiFi\), movimientos y señales de alerta, y los presenta en mapas, paneles y informes automatizados usados en la gestión de flotas y flujos de trabajo de anti-robos.
+- Actualizaciones de ubicación en vivo y mapeo para conciencia situacional inmediata
+- Alertas de geocercas y exceso de velocidad enviadas a Plaspy para notificación rápida al operador
+- Eventos de movimiento y vibración que aparecen como alertas discretas para apoyar la respuesta antirrobo
+- Datos históricos de rutas almacenados en el servidor y accesibles vía Plaspy para análisis
+- Información utilizada por Plaspy para generar informes operativos y apoyar la vigilancia de la flota
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para monitoreo y mapeo en vivo.
-- Alertas de geocerca y notificaciones de exceso de velocidad enviadas a Plaspy para alertas al operador de inmediato.
-- Almacenamiento de rutas históricas \(el servidor retiene datos de rutas hasta seis meses\) accesible a través de Plaspy web/app.
-- Las alertas de movimiento y vibración aparecen como eventos en Plaspy para que las respuestas anti-robos se activen rápidamente.
-- Plaspy admite telemetría extendida como estado de encendido e inmovilizador, monitoreo de combustible y sensores Bluetooth cuando la instalación proporciona esas entradas o cuando se utiliza hardware emparejado; el TK905 suministra los datos centrales de ubicación y movimiento que Plaspy necesita para flujos de trabajo completos de gestión de flotas.
+## Casos de uso típicos
 
-## Resumen Técnico
-
-| Conectividad | FDD-LTE, TDD-LTE, WCDMA, GSM \(4G/3G/2G\) |
-| --- | --- |
-| Bandas | FDD-LTE: B1, B2, B3, B4, B5, B7, B8, B12\(17\), B20, B28; TDD-LTE: B38, B39, B40, B41; WCDMA: B1, B2, B5, B8; GSM: 850/900/1800/1900 |
-| GNSS | Multi-constellation: GPS + BeiDou + GLONASS; rendimiento multicanal para una ubicación precisa \(precisión típica ~10 m\) |
-| Chipset GPS | SC9820E, 66 canales; sensibilidad -165 dBm; TTFF Frío 35–80 s, Tibio ~35 s, Caliente ~1 s |
-| Alimentación y batería | Batería Li‑ion recargable de 3.7 V y 5000 mAh; autonomía de espera de hasta 30 días. Carga: entrada del cargador de coche 12–24 V \(salida 5 V\), cargador de pared 110–220 V \(salida 5 V\) |
-| Dimensiones y peso | 90 × 72 × 22 mm; 168 g |
-| Sensores y alertas | Sensor de vibración sensible incorporado; alertas de movimiento, alertas de exceso de velocidad y geocercas |
-| Ambiente | Operación -20°C a +55°C; Almacenamiento -40°C a +85°C; Humedad 5%–95% sin condensación; Resistencia al agua IP65 |
-| Protección electrostática | Contacto ±7 kV; No contacto ±14 kV |
-| Plataformas en línea | Compatible con plataformas web/app de TKSTAR para seguimiento en línea; compatible con Plaspy para gestión de flotas integrada y flujos de telemetría |
-| Formato | Rastreador compacto para vehículos/activos para montaje permanente o portátil |
-
-## Casos de uso
-
-- Gestión de flotas — supervisar rutas, velocidad y ubicaciones de vehículos en tiempo real para optimizar la asignación y la utilización.
-- Alquiler de vehículos — proteger autos de alquiler con geocercas, alertas de exceso de velocidad y notificaciones de movimiento para un mejor control de activos.
-- Protección antirrobo — detección de vibración y alertas instantáneas para una rápida detección de movimientos no autorizados.
-- Monitoreo de contenedores y carga — larga duración de la batería y posicionamiento multiconstelación ofrecen rastreo persistente para contenedores y equipos en exteriores.
-- Seguimiento de equipos remotos — desplegar en activos fuera de red para capturar telemetría y movimientos para visibilidad operativa.
+- Gestión de flotas para supervisión de rutas, control de utilización y apoyo a despacho
+- Protección de vehículos de alquiler mediante geocercas y notificaciones de movimiento para control de activos
+- Monitoreo antirrobo con detección por vibración y alertas instantáneas ante movimiento no autorizado
+- Seguimiento de contenedores y carga donde se requiere larga duración de batería y fiabilidad en exteriores
+- Monitoreo de equipos remotos para mantener visibilidad de activos e instalaciones fuera de sitio
 
 ## Por qué elegir este rastreador con Plaspy
 
-El TK905 combina una fortaleza de hardware práctica con las capacidades de la plataforma Plaspy para ofrecer una solución de rastreo GPS eficaz para empresas y operadores. Su posicionamiento multi-constelación y el soporte LBS/WiFi aumentan la fiabilidad de la ubicación en entornos desafiantes; la batería de 5000 mAh y la clasificación IP65 lo hacen adecuado para uso prolongado en campo. Al alimentar el seguimiento en tiempo real, el historial de rutas y los eventos de alerta en Plaspy, obtienes una vista única para la gestión de flotas, la respuesta ante robos y la generación de telemetría. Donde se requiera telemetría adicional \(monitoreo de encendido, control del inmovilizador, monitoreo de combustible o datos de sensores Bluetooth\), Plaspy puede incorporar esas señales cuando la instalación o el hardware compatible las proporcione, habilitando una solución escalable e integrada que crece con tus operaciones.
+El TK905 combina durabilidad en campo con la telemetría que Plaspy necesita para ofrecer una gestión unificada de flota y activos. Su batería de larga autonomía y la protección IP65 favorecen despliegues prolongados, mientras que el posicionamiento por múltiples constelaciones y los modos de ubicación basados en red ayudan a mantener cobertura en condiciones variadas. Alimentar esos datos en Plaspy brinda a los operadores una interfaz única para seguimiento en vivo, alertas y revisión histórica.
 
-Para detalles de instalación, cableado y pasos de configuración, consulta el manual descargable del fabricante en la página del producto. El TK905 se posiciona como un rastreador GPS fiable y compatible con Plaspy para organizaciones que requieren un seguimiento en tiempo real robusto, larga autonomía y una visión operativa clara.
+Para organizaciones que buscan datos de ubicación confiables y visión operativa clara, el TK905 puede ser un componente útil dentro de una solución gestionada por Plaspy. Plaspy puede ingerir la ubicación y los eventos básicos del rastreador e integrarlos en flujos de trabajo, reportes y estrategias de alerta más amplias para apoyar las operaciones diarias y las necesidades de seguridad.
 
+Para saber más sobre Plaspy y cómo se usan los rastreadores compatibles en la plataforma visite https://www.plaspy.com. Product specifications and availability can change over time so please verify current technical details and documentation on the manufacturer site https://www.tk-star.com/.

@@ -2,66 +2,59 @@
 slug: /topshine/ogt02
 id: ogt02
 sidebar_label: OGT02
+title: TopShine - OGT02
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD compacto plug and play 4G para seguimiento de flotas en tiempo real compatible con Plaspy
+keywords:
+  - TopShine OGT02
+  - Rastreador GPS OGT02
+  - Rastreador TopShine
+  - Rastreador OBD2
+  - Rastreador GPS 4G
+  - rastreo de vehículos
+  - seguimiento de flotas
+  - compatible con Plaspy
+  - seguimiento en tiempo real
+  - telemetría
 ---
+
 # TopShine - OGT02
 
 ![OGT02](./tracker.jpg)
 
-El Rastreador GPS OBD2 OGT02 4G es un dispositivo plug-and-play diseñado para un despliegue rápido y un seguimiento en tiempo real confiable compatible con Plaspy. Diseñado para gestores de flotas, empresas de alquiler y propietarios individuales de vehículos, el OGT02 se instala directamente en la toma OBD‑II del vehículo, por lo que no se requiere cableado ni instalación profesional. Integra comunicación GSM/GPRS, un receptor GPS de alta precisión y un acelerómetro incorporado para ofrecer ubicaciones continuas, alertas de eventos y telemetría OBD a los paneles y alertas de Plaspy.
+El TopShine OGT02 es un rastreador GPS OBD2 4G diseñado para una implementación rápida plug and play en vehículos. Se conecta al puerto OBD II del vehículo, por lo que no requiere cableado ni instalación profesional. El equipo integra comunicación celular, receptor GPS de alta precisión y un acelerómetro incorporado para entregar ubicación continua, alertas por eventos y telemetría del vehículo a plataformas compatibles.
 
-Como rastreador GPS compatible con Plaspy, el OGT02 proporciona telemática esencial —ubicación, detección de movimiento, reporte del odómetro y reproducción histórica de rutas— mientras admite modos de funcionamiento GPRS y SMS para conectividad global. Su formato compacto OBD y la certificación CE lo convierten en una solución eficiente para el monitoreo de salud del vehículo, alertas anti‑robo y flujos de trabajo de gestión de flotas con despliegue rápido y escalable en múltiples vehículos.
+Como dispositivo compatible con Plaspy, el OGT02 aporta las telemáticas esenciales que Plaspy utiliza para la visibilidad de flotas y el control operativo. Actualizaciones de posición, detección de movimiento, reporte de odómetro y reproducción histórica de recorridos están disponibles en los paneles y flujos de alertas de Plaspy, lo que convierte al OGT02 en una opción práctica para gestores de flota, operadores de renta y propietarios que buscan seguimiento y reportes centralizados.
 
-## Aspectos clave
+## Características principales
 
-- Instalación OBD‑II plug-and-play — se instala en segundos sin cableado ni tiempo en taller, ideal para un despliegue rápido de la flota.
-- Compatible con Plaspy para seguimiento en tiempo real y gestión centralizada de la flota mediante los paneles y alertas de Plaspy.
-- 4G \(con soporte 2G/3G\) comunicación GSM/GPRS para conectividad mundial y subida de datos fiable.
-- Posicionamiento GPS de alta precisión \(frecuencia GPS 1575.42 MHz\) más un acelerómetro integrado para detección de desplazamiento e impactos.
-- Telemetría del vehículo vía OBD: reporte de odómetro y PIDs de diagnóstico y otros datos OBD disponibles para Plaspy donde el vehículo lo soporte.
-- Funciones de seguridad incluyendo geocerca \(cerca electrónica\), alarma de desplazamiento y reproducción histórica de rutas de hasta 180 días.
-- Formato compacto y robusto con amplio rango de temperatura y humedad de operación para entornos reales de vehículos.
+- Instalación OBD II plug and play para despliegues rápidos y mínima inactividad del vehículo
+- Compatibilidad con Plaspy para seguimiento en tiempo real, paneles centralizados y alertas
+- Conectividad 4G con compatibilidad de respaldo 3G y 2G, y modos de funcionamiento GPRS o SMS
+- Posicionamiento GPS de alta precisión junto con acelerómetro integrado para detección de movimiento e impactos
+- Telemetría del vehículo vía OBD, incluyendo reporte de odómetro y PIDs de diagnóstico cuando el vehículo los soporte
+- Factor de forma compacto y certificado CE, adecuado para entornos vehiculares y despliegues escalables
 
 ## Cómo funciona con Plaspy
 
-OGT02 envía la ubicación y la telemetría OBD a Plaspy utilizando GPRS o SMS, habilitando seguimiento en tiempo real, alertas e informes históricos. Plaspy ingiere las coordenadas GPS del dispositivo, los eventos del acelerómetro y los datos OBD disponibles para presentar posiciones en tiempo real en Google Maps, activar notificaciones de geocerca y poblar informes de viaje y salud del vehículo.
+El OGT02 transmite ubicación y la telemetría OBD disponible a Plaspy a través de enlaces celulares, habilitando el seguimiento en vivo, alertas automáticas y reportes históricos. Plaspy procesa los datos del dispositivo para mostrar posiciones de los vehículos, generar notificaciones a partir de eventos del acelerómetro y completar informes de viajes y estado del vehículo.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para el seguimiento en vivo del vehículo y la monitorización de rutas.
-- Alertas de movimiento y eventos súbitos del acelerómetro integrado para antirrobo y monitoreo de seguridad.
-- Telemetría basada en OBD \(PIDs del motor, odómetro y datos relacionados con combustible donde esté disponible del vehículo\) visible en los informes de Plaspy.
-- Aplicación de geocerca y alarmas de desplazamiento procesadas por Plaspy para notificar a los responsables de movimientos no autorizados.
-- Reproducción histórica de rutas \(hasta 180 días\) disponible en Plaspy para reconstrucción de viajes y verificaciones de cumplimiento.
+- Actualizaciones de ubicación en tiempo real en los mapas de Plaspy para monitoreo de flotas y supervisión de rutas
+- Alertas de movimiento y eventos bruscos desde el acelerómetro integrado para detección de robos y monitoreo de seguridad
+- Telemetría basada en OBD como odómetro y PIDs de diagnóstico soportados, visibles en los reportes de Plaspy
+- Alarmas de geocerca y desplazamiento procesadas por Plaspy para notificar a los gestores sobre movimientos no autorizados
+- Reproducción histórica de recorridos accesible dentro de Plaspy para reconstrucción de viajes y revisión de cumplimiento
 
-## Visión técnica
+## Casos de uso típicos
 
-| Modelo | OGT02 \(4G OBD2 GPS tracker\) |
-| --- | --- |
-| Fabricante | No especificado |
-| Conectividad | Módulo de comunicación GSM/GPRS; admite redes 2G/3G/4G |
-| Modos de comunicación | Modos de funcionamiento GPRS y SMS |
-| Bandas | No especificado |
-| Alimentación y consumo | Opera con DC +9V a +36V; consumo de hasta 1.5A |
-| GNSS | Módulo GPS de alta precisión; frecuencia GPS 1575.42 MHz |
-| Sensores | Sensor de aceleración integrado \(acelerómetro\) para detección de movimiento y eventos bruscos |
-| Interfaces | Conector OBD‑II de 16 pines; instalación plug-and-play |
-| Soporte de velocidad | Hasta 515 m/s \(1000 nudos\) |
-| Dimensiones y peso | Aprox. 70 × 45 × 25 mm \(dimensión de instalación 80 × 58 × 22 mm\); ~40 g |
-| Ambiente | Temperatura de operación −20°C a 75°C; humedad 5%–95% sin condensación |
-| Certificaciones y embalaje | Certificado CE; el paquete incluye una unidad 4G OGT02 |
-| Gestión remota | Consultas de ubicación vía Google Maps; reproducción histórica de hasta 180 días. Actualizaciones de firmware por OTA no especificadas. |
-| Notas adicionales | Soporte OEM/ODM disponible; los datos de diagnóstico y telemetría del vehículo dependen del soporte OBD del vehículo. |
-
-## Casos de uso
-
-- Gestión de flotas — supervisar ubicación en tiempo real, historial de viajes y datos de odómetro en una flota distribuida con Plaspy.
-- Anti‑robo y recuperación — alarmas de desplazamiento y eventos del acelerómetro activan notificaciones inmediatas en Plaspy para una respuesta rápida.
-- Operaciones de alquiler y car‑sharing — instalación plug‑and‑play OBD acelera la incorporación y reduce el tiempo de inactividad de los vehículos.
-- Diagnóstico remoto y monitoreo de la salud del vehículo — telemetría OBD y PIDs de diagnóstico \(donde admitidos\) alimentan los informes de Plaspy para planificación proactiva del mantenimiento.
-- Cumplimiento y verificación de rutas — reproducción histórica de rutas de hasta 180 días para auditorías, revisión del comportamiento del conductor y reconstrucción de incidentes.
+- Gestión de flotas distribuidas con visibilidad centralizada para equipos de despacho y operaciones
+- Flotas de alquiler y car sharing donde la instalación plug and play reduce el tiempo fuera de servicio de los vehículos
+- Monitoreo antirrobo y respuesta rápida mediante alertas de movimiento y notificaciones de geocerca
+- Diagnóstico remoto y flujos de mantenimiento preventivo usando telemetría OBD cuando esté disponible
+- Cumplimiento, verificación de rutas y reconstrucción de incidentes mediante reproducción histórica de recorridos
 
 ## Por qué elegir este rastreador con Plaspy
 
-El OGT02 ofrece un equilibrio práctico entre facilidad de uso y capacidad telemática para organizaciones que necesitan un rastreo GPS compatible con Plaspy sin instalaciones complejas. Su formato OBD‑II reduce el tiempo de despliegue y costos laborales, mientras que el GPS integrado y el acelerómetro proporcionan las entradas principales que Plaspy necesita para el seguimiento en tiempo real, alertas anti‑robo y paneles de telemetría. Cuando el OBD del vehículo admite PID adicionales, Plaspy expone monitoreo de combustible, estado de ignición y datos del motor para que los gestores de flotas puedan correlacionar el comportamiento de conducción con diagnósticos y el uso de combustible.
+El OGT02 ofrece una combinación práctica de simplicidad y capacidades telemáticas para organizaciones que usan Plaspy. Su formato OBD II permite un despliegue rápido y económico, mientras que las señales integradas de GPS y acelerómetro proporcionan a Plaspy la información necesaria para el seguimiento en vivo, alertas de eventos y reportes de viajes. Cuando un vehículo expone PIDs OBD adicionales, Plaspy puede mostrar esos campos para ayudar a correlacionar el comportamiento de conducción con los diagnósticos del vehículo.
 
-Elegir el OGT02 con Plaspy ofrece una base de telemetría fiable y escalable: instalación rápida, conectividad robusta \(2G/3G/4G\) y reproducción histórica prolongada, convirtiéndolo en una opción sólida para flotas, flotas de alquiler y propietarios que buscan conocimientos inmediatos y gestión centralizada. Si necesita control externo de inmovilizador, sensores Bluetooth u otras integraciones, Plaspy puede integrar esas capacidades cuando el vehículo o el hardware adicional las soporte, permitiéndole ampliar la funcionalidad con el tiempo sin reemplazar sus unidades de rastreo principales.
-
+Para obtener más información sobre Plaspy y cómo funciona con rastreadores compatibles como el TopShine OGT02 visite https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current specifications on the TopShine website https://www.gztopshine.com/ before making purchasing or deployment decisions.

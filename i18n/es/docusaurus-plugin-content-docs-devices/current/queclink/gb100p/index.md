@@ -2,60 +2,59 @@
 slug: /queclink/gb100p
 id: gb100p
 sidebar_label: GB100P
+title: QuecLink - GB100P
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto QuecLink GB100P compatible con Plaspy para UBI y telemática de flotas con captura de choques y almacenamiento robusto
+keywords:
+  - QuecLink GB100P
+  - rastreador GB100P
+  - compatible con Plaspy
+  - telemática GB100P
+  - detección de choques GB100P
+  - rastreador vehicular GB100P
+  - rastreador montado en batería
+  - seguimiento de flotas GB100P
+  - rastreador para seguros basados en uso UBI
+  - soporte BLE GB100P
 ---
+
 # QuecLink - GB100P
 
 ![GB100P](./tracker.png)
 
-El Queclink GB100P es un localizador GPS compacto montado en la batería, diseñado para telemática de bajo costo y fiabilidad, y compatible con Plaspy para una integración fluida en programas de seguro basado en el uso \(UBI\) y financiación de automóviles. Con un receptor GNSS All‑in‑One de u‑blox integrado, conectividad GSM/GPRS cuádruple banda y soporte BLE 4.2, el GB100P ofrece telemetría de alta frecuencia, captura de eventos de choque y una instalación compacta que facilita su montaje en el compartimento del motor en implementaciones a gran escala.
+El QuecLink GB100P es un rastreador GPS compacto, montado en batería, diseñado para ofrecer telemática confiable y costo eficiente en programas vehiculares. Pensado para operar en entornos exigentes, integra un receptor GNSS de alto rendimiento, conectividad GSM GPRS cuatribanda y soporte BLE 4.2, junto con un conjunto de sensores inerciales de alta frecuencia para captar eventos de choque y movimientos detallados del vehículo. Su tamaño reducido y carcasa con protección IP65 lo hacen adecuado para instalaciones discretas donde se requiere telemetría robusta y retención de mensajes.
 
-Construido para operar en entornos vehiculares adversos, el GB100P combina protección IP65, una batería de respaldo NiMH interna de alta temperatura y un conjunto de sensores inerciales de 6 ejes \(acelerómetro de 3 ejes de muestreo de hasta 1600 Hz y giroscopio MEMS\) para proporcionar datos precisos de impactos y una monitorización avanzada del comportamiento de conducción. Aunque Queclink ha emitido un aviso de fin de vida \(EOL\) para el GB100P \(pedidos cesaron el 15 de noviembre de 2024\), el dispositivo sigue siendo una opción probada para aseguradoras existentes y gestores de flotas que requieren un robusto almacenamiento en búfer de mensajes y telemetría precisa con Plaspy; las sustituciones recomendadas son GB130MG y GB100CG para nuevos proyectos.
+Como dispositivo listado como compatible con Plaspy, el GB100P puede enviar ubicación, datos inerciales de alta resolución y telemetría de accesorios a los servicios en la nube de Plaspy para monitoreo en tiempo real y análisis histórico. Esa compatibilidad hace al GB100P relevante para programas de seguros basados en uso (UBI), seguimiento en financiamiento de vehículos y operaciones de flota que dependen de captura continua de datos, entrega con almacenamiento intermedio y reconstrucción de eventos de choque a través de los paneles y reportes de Plaspy.
 
-## Aspectos destacados
+## Puntos clave
 
-- Localizador GPS compatible con Plaspy: integra datos GPS y de sensores para un seguimiento y telemetría confiables en plataformas de telemática.
-- Detección inercial de alta frecuencia: conjunto de 6 ejes con accelerómetro muestreado hasta 1600 Hz y giroscopio MEMS permite capturar con precisión eventos de choque y detección de conducción agresiva.
-- Conectividad GSM/GPRS de cuádruple banda \(850/900/1800/1900 MHz\) con reportes TCP/UDP/SMS para informes globales de posición y escenarios de ancho de banda reducido.
-- Soporte BLE 4.2 para sensores y balizas Bluetooth, extendiendo la telemetría a identificación del conductor, sensores accesorios o monitorización de cabina mediante la integración con Plaspy.
-- Retención de datos robusta: almacenamiento en búfer en el propio dispositivo de hasta 10,000 mensajes y paquetes GPS comprimidos de 1 segundo para preservar los datos ante conectividad intermitente.
-- Diseño robusto: carcasa estanca IP65, batería de respaldo NiMH interna de alta temperatura \(200 mAh\) y rendimiento estable en instalaciones dentro del compartimento del motor.
+- Rastreador GPS compacto compatible con Plaspy, adecuado para telemática vehicular y despliegues de seguros basados en uso
+- Sensado inercial de alta frecuencia con suite de 6 ejes para captura de choques y monitoreo de comportamiento de conducción
+- Soporte BLE 4.2 para ampliar telemetría con sensores y flujos de trabajo basados en balizas
+- Retención de datos y buffering robusto para preservar telemetría durante coberturas celulares intermitentes
+- Diseño resistente con protección IP65 y batería interna de respaldo para instalaciones en compartimentos del motor
+- Opción probada para instalaciones existentes, con modelos más nuevos recomendados para proyectos nuevos
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el GB100P transmite la ubicación y telemetría de alta resolución a la nube de Plaspy para seguimiento en tiempo real, alertas de eventos y informes históricos. Plaspy ingiere paquetes GPS comprimidos, paquetes inerciales de choque y datos de accesorios BLE para generar información procesable para la gestión de flotas, puntuación de UBI y análisis post-incidente. El almacenamiento en búfer y la compresión de mensajes aseguran la continuidad de los datos en áreas con cobertura GSM intermitente: los mensajes almacenados en el GB100P se transmiten a Plaspy cuando se restablece la conexión.
+Cuando se utiliza con Plaspy, el GB100P envía ubicación, paquetes GPS comprimidos y eventos inerciales de alta resolución a los servicios en la nube de Plaspy, donde los datos se procesan para seguimiento en vivo, alertas y generación de informes. Plaspy ingiere mensajes almacenados en buffer y telemetría de accesorios para que los operadores mantengan continuidad en el historial de vehículos y ejecuten análisis de seguridad, riesgo y operaciones.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a Plaspy mediante TCP, UDP o SMS
-- Datos de colisiones y comportamiento de conducción de alta frecuencia \(paquetes previos y posteriores al evento para análisis de incidentes\)
-- Geocerca, alarmas de estacionamiento \(hasta 20 regiones\), alertas de velocidad y de conducción agresiva
-- Entrega de mensajes en búfer \(hasta 10,000 mensajes\) para telemetría confiable en redes intermitentes
-- Soporte para sensores Bluetooth — integración BLE 4.2 para telemetría de accesorios y flujos de trabajo basados en balizas
+- Entrega en tiempo real de ubicación y telemetría a Plaspy para visibilidad en vivo de la flota
+- Paquetes de alta frecuencia sobre choques y comportamiento de conducción para reconstrucción de eventos y puntuación
+- Geocercas, alertas de estacionamiento y de velocidad para activar notificaciones y flujos de trabajo
+- Entrega de mensajes en buffer para que los datos almacenados se suban a Plaspy cuando se restablece la conectividad
+- Datos de accesorios BLE enviados a Plaspy para identificación de conductor, telemetría de sensores y casos de uso por proximidad
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS de cuádruple banda \(TCP, UDP, SMS\) |
-| --- | --- |
-| Bandas | 850 / 900 / 1800 / 1900 MHz \(GPRS de clase multi-slot 10\) |
-| Alimentación y batería | Voltaje de operación 8–32 V DC; batería de respaldo NiMH interna de alta temperatura, 200 mAh |
-| Interfaces | Antenas internas GSM, GNSS y BLE; indicadores LED para estado de GSM, GPS y alimentación \(salidas externas I/O, como inmovilizador, no especificadas\) |
-| GNSS | u‑blox All‑in‑One GNSS; sensibilidad de seguimiento hasta −162 dBm; precisión de posición CEP \< 2.5 m; TTFF ≈ 27 s \(frío/caliente promedio\), ≈ 1 s \(caliente\) |
-| Bluetooth | BLE 4.2 para sensores y balizas |
-| Sensores inerciales | Conjunto de 6 ejes: acelerómetro de 3 ejes \(muestreo hasta 1600 Hz\) y giroscopio MEMS; paquetes de choque capturan hasta 15 s antes y después de un evento |
-| Manejo de datos | Paquetes GPS comprimidos de 1 segundo mientras está en movimiento; capacidad de búfer de mensajes de hasta 10,000; alarmas de geocerca y estacionamiento \(hasta 20 regiones\) |
-| Ambiental | Dimensiones 91.5 × 51.5 × 11 mm; peso 75 g; rango de operación −20 °C a +70 °C; humedad 0–95% sin condensación; carcasa IP65 |
-| Estado del producto | Aviso de fin de vida \(EOL\) de Queclink: los pedidos cesaron el 15 de noviembre de 2024. Queclink proporcionó fechas de producción, corrección de errores y soporte; las sustituciones recomendadas son GB130MG y GB100CG. |
-
-## Casos de uso
-
-- Seguro basado en el uso \(UBI\): acelerómetro de alta tasa y paquetes de choque soportan la reconstrucción de eventos y la puntuación de riesgo para programas de telemática de seguros.
-- Financiación de automóviles y recuperación de activos: formato montado en batería y reportes en búfer ayudan a localizar vehículos financiados y gestionar recuperaciones.
-- Gestión de flotas en áreas con cobertura intermitente: gran búfer de mensajes y reportes comprimidos mantienen la telemetría del vehículo intacta hasta que Plaspy recibe los datos.
-- Programas de comportamiento del conductor y seguridad: detección de conducción agresiva, alarmas de velocidad y telemetría inercial de alta frecuencia alimentan los paneles de Plaspy para coaching y cumplimiento.
-- Flujos de trabajo con sensores Bluetooth: balizas BLE y accesorios para identificación del conductor, estado de accesorios o automatización basada en proximidad cuando se integra a través de Plaspy.
+- Programas de seguros basados en uso que requieren captura de choques y análisis de comportamiento de conducción
+- Seguimiento de vehículos en financiamiento y flujos de recuperación de activos financiados
+- Operaciones de flota que necesitan telemetría confiable en áreas con cobertura celular intermitente
+- Programas de seguridad y coaching de conductores que usan datos inerciales de alta frecuencia para monitoreo de conductas
+- Flujos de trabajo con BLE para identificación del conductor y seguimiento del estado de accesorios
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GB100P ofrece una combinación equilibrada de GPS preciso, detección inercial de alta frecuencia y extensibilidad BLE que lo convierten en una opción sólida para despliegues de telemetría basados en Plaspy con énfasis en la detección de colisiones, análisis de UBI y una retención de datos robusta. Su diseño compacto, a prueba de agua y su batería interna de alta temperatura permiten una instalación discreta en el compartimento del motor y un rendimiento estable bajo condiciones desafiantes. Para flotas y aseguradoras que requieren telemetría continua y un almacenamiento confiable de mensajes en redes con cobertura intermitente, emparejar el GB100P con Plaspy proporciona seguimiento en tiempo real, telemetría y análisis posterior al incidente.
+El GB100P combina posicionamiento GNSS preciso con sensado inercial de alta frecuencia y capacidad de expansión vía BLE, lo que lo convierte en una opción sólida para organizaciones que usan Plaspy para UBI, seguridad y telemática financiera. Sus capacidades de buffering y su embalaje resistente soportan despliegues donde la conectividad es variable y la integridad de los datos posteriores a un evento es crítica para el análisis y cumplimiento.
 
-Nota sobre capacidades: el GB100P está optimizado para GPS/telemetría, datos de choques y accesorios BLE. Si necesita monitoreo de combustible integrado, salidas dedicadas de ignición o inmovilizador, revise las opciones de integración de Plaspy y los modelos de reemplazo recomendados \(GB130MG, GB100CG\) que Queclink sugiere para compras futuras y conjuntos ampliados de E/S.
-
+QuecLink emitió un aviso de fin de vida para el GB100P y dejó de aceptar pedidos el 15 de noviembre de 2024, por lo que, aunque el dispositivo sigue siendo una opción probada para instalaciones existentes, los equipos que planifiquen proyectos nuevos deberían considerar los modelos de reemplazo recomendados por el fabricante. Para obtener más información sobre Plaspy, visite el sitio principal https://www.plaspy.com. Para especificaciones de producto, disponibilidad y documentación del fabricante más recientes, por favor verifique los detalles en el sitio de QuecLink https://www.queclink.com ya que la información del producto puede cambiar con el tiempo.

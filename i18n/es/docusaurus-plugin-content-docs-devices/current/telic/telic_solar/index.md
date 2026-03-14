@@ -2,59 +2,60 @@
 slug: /telic/telic_solar
 id: telic_solar
 sidebar_label: Telic Solar
+title: Telic - Telic Solar
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS solar compacto IP69 para visibilidad prolongada de contenedores y vagones compatible con Plaspy
+keywords:
+  - Telic Solar
+  - Telic
+  - rastreador GPS
+  - rastreador solar
+  - rastreador IP69
+  - seguimiento de contenedores
+  - seguimiento de flotas
+  - compatible con Plaspy
+  - seguimiento de activos
+  - seguimiento intermodal
 ---
+
 # Telic - Telic Solar
 
 ![Telic Solar](./tracker.png)
 
-Telic Solar es un dispositivo compacto de clase rastreador GPS, con certificación IP69, diseñado para la localización fiable a largo plazo de bienes móviles de capital, como contenedores, swap bodies y vagones de carga. Diseñado para ser excepcionalmente pequeño y plano, Telic Solar cabe en contenedores estándar sin aumentar el volumen. Su carcasa robusta y su potente panel solar proporcionan una operación autónoma prolongada, lo que lo convierte en una opción ideal compatible con Plaspy para clientes que requieren visibilidad persistente de activos con un mantenimiento mínimo.
+Telic Solar es un dispositivo compacto de la categoría de rastreadores GPS con clasificación IP69, diseñado para ofrecer localización confiable a largo plazo de bienes móviles de alto valor como contenedores, cajas swap y vagones de carga. Su carcasa muy pequeña y plana está pensada para ubicarse en las gomas o rebordes habituales de los contenedores, mientras que el panel solar integrado y la gestión energética permiten un funcionamiento autónomo prolongado, ideal para despliegues que requieren visibilidad persistente con mínima intervención en sitio.
 
-Construido para un rendimiento optimizado en costos, Telic Solar incluye el software de seguimiento de Telic y puede personalizarse para adecuarse a las necesidades operativas. Una antena Bluetooth direccional transmite los datos de sensores interiores desde el interior del contenedor al rastreador, lo que permite que Plaspy muestre telemetría, lecturas de sensores ambientales y ubicación de forma unificada—apoyando la gestión de flotas, flujos de trabajo de protección contra robo y campañas de rastreo de larga duración.
+Como dispositivo compatible con Plaspy, Telic Solar transmite ubicación y telemetría interior hacia Plaspy a través de la aplicación de seguimiento de Telic y mediante ajustes de back end configurables. Esta compatibilidad permite a los equipos de flota y logística consolidar ubicación, lecturas ambientales interiores y estado de energía del dispositivo dentro de los paneles y reportes de Plaspy, favoreciendo el monitoreo, los procesos anti robo y campañas de seguimiento de larga duración.
 
-## Puntos clave
+## Aspectos clave
 
-- Dispositivo compatible con Plaspy para seguimiento en tiempo real y visibilidad de activos integrada.
-- Carcasa IP69 y extremadamente pequeña y plana diseñada para caber en contenedores estándar.
-- Panel solar potente integrado y gestión de energía probada para largos periodos de oscuridad.
-- Antena Bluetooth direccional para recibir telemetría de sensores interiores dentro de los contenedores.
-- Incluye el software de seguimiento de Telic; configurable y personalizable para reenviar datos a Plaspy.
-- Diseño optimizado en costos que equilibra durabilidad y costos operativos a largo plazo.
-- Construcción de alto rendimiento adecuada para entornos de logística y transporte intermodal.
+- Dispositivo compatible con Plaspy para visibilidad integrada de rastreo y activos
+- Clasificación IP69 y carcasa muy pequeña y plana diseñada para encajar en los rebordes estándar de contenedores
+- Panel solar integrado y gestión energética para operación autónoma prolongada
+- Antena Bluetooth direccional para recibir telemetría de sensores interiores desde el interior de contenedores
+- Incluye la aplicación de seguimiento de Telic con opciones de configuración y reenvío de datos
+- Diseño optimizado en costo que equilibra durabilidad y costos operativos a largo plazo
+- Construcción robusta adecuada para logística intermodal y entornos con manejo rudo
 
 ## Cómo funciona con Plaspy
 
-Telic Solar envía la ubicación de activos y telemetría de sensores a la plataforma de Plaspy a través del software de seguimiento de Telic y de la configuración de back-end configurable, lo que habilita paneles unificados, alertas e informes históricos. Plaspy ingiere los datos transmitidos por el dispositivo para proporcionar a los gestores de flotas y a los equipos logísticos información accionable, combinando ubicación, lecturas de sensores interiores y estado de energía en una única vista para una gestión eficiente de la flota y la monitorización contra robo.
+Telic Solar transmite ubicación y telemetría de sensores interiores mediante la aplicación de seguimiento de Telic para que Plaspy pueda ingerir y presentar la información combinada de posición, sensores y energía. Una vez que los datos del dispositivo llegan a Plaspy, los responsables de flota pueden ver la posición del activo junto con el estado ambiental y los indicadores de energía para apoyar decisiones operativas y la gestión de excepciones.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(la cadencia de ubicación e informe depende de la configuración y la conectividad\).
-- Telemetría ambiental interior recibida a través de la antena Bluetooth direccional del rastreador y transmitida a Plaspy.
-- Telemetría del estado de energía y del panel solar para ayudar a Plaspy a predecir la disponibilidad de informes y programar comprobaciones.
-- Campos de datos personalizables mediante el software de seguimiento de Telic para que Plaspy pueda mapear la telemetría del dispositivo a la gestión de la flota, a los informes y a las reglas de alerta.
-- Seguimiento a largo plazo de bienes móviles de capital—optimizado para despliegues extendidos con mantenimiento mínimo.
+- Actualizaciones de ubicación en tiempo real e informes históricos de posición para visibilidad de activos
+- Telemetría ambiental interna retransmitida por el rastreador y presentada dentro de Plaspy
+- Información sobre energía y estado del panel solar para ayudar a programar verificaciones y anticipar la disponibilidad de reportes
+- Campos de datos configurables desde la aplicación de Telic mapeados a paneles, alertas y reportes en Plaspy
+- Seguimiento a largo plazo y operación de bajo mantenimiento para despliegues de bienes móviles
 
-## Visión técnica
+## Casos de uso típicos
 
-| Protección IP | Carcasa con clasificación IP69 \(alta protección frente a polvo y agua a alta presión y temperatura\) |
-| --- | --- |
-| Formato | Formato muy compacto y plano compatible con contenedores estándar y espacios reducidos |
-| Alimentación y energía | Panel solar potente integrado con la probada gestión de energía de Telic para cubrir largos periodos de oscuridad |
-| Bluetooth | Antena Bluetooth direccional para recibir telemetría de sensores interiores desde los contenedores |
-| Software | Incluye el software de seguimiento de Telic; configurable y personalizable para reenviar datos a Plaspy |
-| Uso principal | Seguimiento a largo plazo de bienes móviles de capital: contenedores, swap bodies y vagones de carga |
-| Durabilidad | Construcción robusta y resistente para entornos de transporte de mercancías e intermodales |
-| Otros detalles técnicos | Folleto técnico disponible del fabricante; el tipo de conectividad, bandas, especificaciones GNSS y opciones de E/S no se especifican en la descripción proporcionada y pueden variar según la configuración |
+- Gestión continua de flotas de contenedores y swap bodies para visibilidad del ciclo de vida
+- Monitoreo anti robo y flujos de recuperación de activos con seguimiento persistente y reportes de estado
+- Telemetría ambiental dentro de contenedores mostrada junto con la ubicación en Plaspy
+- Rastreo en puertos, terminales y vagones de ferrocarril donde se requiere un equipo pequeño y resistente
+- Despliegues de larga duración y bajo mantenimiento que se benefician de la energía solar y la gestión inteligente de energía
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas de contenedores intermodales y swap bodies: visibilidad continua de la ubicación y monitorización del ciclo de vida.
-- Flujos de trabajo de protección contra robo y recuperación de activos: seguimiento persistente y reportes de estado a Plaspy para detectar movimientos inesperados.
-- Telemetría ambiental dentro de contenedores: recibir datos de temperatura, humedad o estado de la puerta mediante sensores Bluetooth y mostrarlos en Plaspy.
-- Seguimiento de puertos y vagones de ferrocarril: formato compacto y alta protección IP adecuadas para manejo duro y exposición.
-- Despliegues de larga duración y bajo mantenimiento: energía solar y gestión inteligente de la energía reducen el reemplazo de baterías y las revisiones manuales.
+Telic Solar es una opción práctica para organizaciones que usan Plaspy y necesitan rastreo discreto, duradero y de bajo mantenimiento para activos móviles de alto valor. Su factor de forma compacto y su elevada protección contra ingreso permiten instalarlo en espacios reducidos de contenedores y vagones, mientras que la capacidad solar integrada reduce la necesidad de servicios frecuentes de batería. El soporte de antena direccional para sensores interiores permite combinar telemetría más completa con la ubicación en Plaspy, ofreciendo mejor visibilidad operativa.
 
-## Por qué elegir este tracker con Plaspy
-
-Telic Solar es una solución práctica y compatible con Plaspy para organizaciones que necesitan localización fiable y telemetría de activos móviles de alto valor a largo plazo. Su diseño compacto y plano, junto con la clasificación IP69, lo hacen discreto y resistente para la logística intermodal, mientras que el panel solar integrado y una gestión de energía refinada reducen el tiempo de inactividad y los costos de mantenimiento. La capacidad Bluetooth direccional facilita la integración de sensores interiores, fusionando telemetría con la ubicación en Plaspy para obtener insights más ricos.
-
-Para los gestores de flotas centrados en el seguimiento en tiempo real, la protección contra robo y las decisiones basadas en telemetría, Telic Solar ofrece una opción de alto rendimiento y optimización de costos que se integra con Plaspy a través del software configurable de Telic. Cuando se requieren interfaces específicas como entradas de ignición, controles de inmovilizador, monitoreo de combustible o bandas celulares, se puede consultar a Telic y Plaspy para adaptar las variantes de dispositivo y las configuraciones de backend a sus necesidades operativas. Consulte la ficha técnica de Telic Solar para obtener las especificaciones técnicas completas y las opciones de configuración disponibles antes de la implementación.
-
+To learn more about Plaspy and how it can integrate with devices like Telic Solar visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so verify current specifications and supported configurations on the manufacturer's website https://www.telic.de.

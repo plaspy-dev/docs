@@ -2,61 +2,59 @@
 slug: /globalsat/lt_501h
 id: lt_501h
 sidebar_label: LT-501H
+title: GlobalSat - LT-501H
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS LoRa compacto para seguimiento de personas y pequeños activos con larga autonomía compatible con Plaspy
+keywords:
+  - GlobalSat LT-501H
+  - LT-501H
+  - rastreador GlobalSat
+  - rastreador LoRaWAN
+  - compatible con Helium
+  - rastreador con baliza BLE
+  - rastreador GPS
+  - seguimiento de activos
+  - seguimiento de flotas
+  - compatible con Plaspy
 ---
+
 # GlobalSat - LT-501H
 
 ![LT-501H](./tracker.jpg)
 
-La serie LT-501H / LT-501E es un rastreador compacto LoRa GPS diseñado para una larga vida útil y el seguimiento de personas y pequeños activos en áreas extensas. Compatible con Plaspy de forma nativa mediante LoRaWAN™, la familia LT-501 ofrece localización en interiores y exteriores, soporte para balizas BLE y modos de informe configurables para aplicaciones que requieren telemetría fiable y operación de bajo consumo.
+El LT-501H es un rastreador GPS LoRa compacto de GlobalSat diseñado para ofrecer larga autonomía y cobertura en el seguimiento de personas y pequeños activos. Esta familia de dispositivos combina recepción GNSS con capacidades de baliza Bluetooth integradas, detección de movimiento y modos de reporte configurables para ofrecer ubicación y telemetría básica tanto en entornos interiores como exteriores. Su tamaño reducido, batería recargable interna y funciones de notificación lo hacen apropiado para uso como wearable o fijado a activos, cuando la baja potencia y el largo alcance son prioridades.
 
-Construido alrededor de un radio LoRa Semtech SX-1276 y un microcontrolador STM32, el LT-501 es compatible con Helium y otras redes LoRaWAN en operación de Clase A y Clase C. Su formato compacto, fuente de alimentación interna recargable con batería opcional reemplazable de 19A, alertas sonoras y detección de movimiento lo hacen ideal para la seguridad de trabajadores solitarios, monitoreo antirrobo y flujos de trabajo de gestión de flotas cuando se integra en Plaspy para rastreo en tiempo real y generación de informes centralizados.
+Como dispositivo compatible con Plaspy, el LT-501H puede enviar posiciones periódicas, detecciones de balizas y uplinks de estado a Plaspy a través de LoRaWAN. Esa compatibilidad lo convierte en una opción práctica para organizaciones que desean centralizar la visibilidad de ubicación, las alertas y los informes históricos en Plaspy, aprovechando al mismo tiempo la conectividad de área amplia y bajo consumo para despliegues prolongados en campo.
 
-## Puntos clave
+## Características principales
 
-- Rastreador LoRaWAN compatible con Plaspy — soporta Helium y redes LoRaWAN estándar para una ingestión en la nube sencilla.
-- Posicionamiento interior/exterior — antena GPS tipo patch y BLE integrado para posicionamiento interior basado en balizas y rastreo de ubicación híbrido.
-- Larga duración de la batería — optimizado para transmisiones de bajo consumo con una autonomía estimada de hasta 130 días \(intervalo GPS de 5 minutos, solo de referencia\).
-- Diseño compacto y robusto — protección IPX7, tapa sellada de goma y carcasa ligera de 35 g para uso en wearables y en pequeños activos.
-- Alertas audibles y visuales — zumbador integrado y múltiples LEDs que respaldan informes de ayuda y flujos de notificación locales.
-- Telemetría con detección de movimiento — acelerómetro de 3 ejes integrado para detección de movimiento, manipulación y actividad.
-- Variantes de conectividad flexibles — opciones de frecuencia para mercados US/AS y EU \(LT-501RH / LT-501RE\) con antena interna y opción de antena externa MMCX.
+- Compatibilidad LoRaWAN lista para usar para una ingesta sencilla en plataformas en la nube como Plaspy
+- Soporte combinado de GNSS y balizas BLE para habilitar flujos de trabajo híbridos interior/exterior
+- Diseño orientado a operación de larga duración con modos de reporte configurables para reducir consumo energético
+- Factor de forma compacto y robusto, apto para despliegues en wearables y en activos pequeños
+- Alarmas audibles integradas y detección de movimiento para soportar reportes de ayuda y monitoreo de actividad
+- Variantes y accesorios disponibles para ajustarse a bandas regionales y necesidades de antena externa
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el LT-501 ofrece posiciones GPS periódicas, detecciones de balizas BLE y telemetría de movimiento vía LoRaWAN hacia su espacio de trabajo en Plaspy. Plaspy procesa las transmisiones del dispositivo, decodifica las cargas útiles y ofrece rastreo en tiempo real, alertas, visualización de mapas e informes históricos. La configuración remota desde Plaspy puede cambiar entre modos de informe: actualizaciones programadas regulares y transmisiones casi en tiempo real, siempre que lo permitan la red y la configuración del dispositivo.
+Al integrarse con Plaspy, el LT-501H envía uplinks de ubicación y estado vía LoRaWAN que Plaspy recibe, decodifica y presenta en un espacio de trabajo unificado para monitoreo e informes. Plaspy puede usar esas señales para construir mapas en vivo, notificar a los equipos ante eventos definidos y conservar trazas históricas para análisis. El comportamiento de reporte del dispositivo puede gestionarse mediante configuración, seleccionando actualizaciones periódicas o mensajes más frecuentes cuando la red y los ajustes del equipo lo permitan.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas por LoRaWAN a Plaspy para el rastreo en mapas y el historial.
-- Datos de balizas BLE para mejorar el posicionamiento interior y eventos de proximidad que utiliza Plaspy.
-- Informes de movimiento y ayuda \(acelerómetro de 3 ejes + botón de función\) generan alertas y flujos de incidentes en Plaspy.
-- Soporte de geo-fencing en el servidor — Plaspy puede evaluar los datos de ubicación para generar alertas de entrada/salida de geocerca.
-- Mensajes de estado como batería baja, apagado y otros son enviados a Plaspy para el monitoreo de la salud del dispositivo.
+- Visualización en tiempo real e histórica de ubicaciones en mapas de Plaspy para visibilidad de flotas y activos
+- Detecciones de balizas BLE consumidas por Plaspy para mejorar la proximidad en interiores y el seguimiento híbrido
+- Eventos de movimiento y de ayuda dirigidos a los flujos de alertas de Plaspy para la respuesta a incidentes
+- Evaluación de geocercas en Plaspy para activar notificaciones de entrada y salida según la ubicación
+- Actualizaciones de salud del dispositivo y estado de batería disponibles en Plaspy para supervisión operativa
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | LoRaWAN™ \(Clase A / Clase C\), chipset LoRa Semtech SX-1276; compatible con Helium |
-| --- | --- |
-| Bandas | LT-501RH: variantes para US 915 MHz / AS 923 MHz; LT-501RE: EU 868 MHz |
-| Alimentación y Batería | Sistema de energía interna recargable, batería opcional reemplazable de 19A; puerto Micro USB para carga/datos; tensión de operación DC 3.3–4.3 V, USB 4.5–5.5 V; autonomía estimada de hasta 130 días \(intervalo GPS de 5 minutos, referencia\) |
-| Interfaces | Botón de alimentación/reinicio, botón de función/ayuda, zumbador para alertas sonoras, múltiples LEDs \(Alimentación, GPS, LoRa TX, BLE TX\), watchdog integrado |
-| GNSS | Recepción GPS mediante antena patch \(18 × 18 × 2 mm\) con opción MMCX para antena GPS externa |
-| Bluetooth | BLE Nordic \(modo esclavo\) para posicionamiento interior basado en balizas; alcance BLE ≈ 35 m \(entorno abierto\) |
-| Rendimiento de radio | Sensibilidad de recepción LoRa ≈ -128 dBm a 980 bps; distancia típica de transmisión LoRa ≈ 1–10 km a 980 bps \(dependiente del entorno\) |
-| Ambiental y durabilidad | IPX7 con tapa sellada de goma; temperatura operativa con batería: -20 a 60°C; almacenamiento -20 a 80°C; 5–95% de humedad no condensante |
-| Dimensiones y peso | 63.3 × 43.0 × 15.5 ±0.15 mm; peso ≈ 35 ±2 g |
-| Certificaciones y accesorios | CE, FCC, Telec, Certificación LoRaWAN, Certificación ThingPark; incluye cable Micro USB; batería opcional de 19A, antena GPS externa, placa de montaje de acero de 3 mm |
-
-## Casos de uso
-
-- Seguridad de trabajadores solitarios — seguimiento wearable con botón de ayuda y alertas sonoras para vigilancia remota mediante Plaspy.
-- Seguridad personal y anti-robo — rastreador GPS compacto para equipaje, equipos o pertenencias con reportes de largo alcance y bajo consumo.
-- Monitoreo de activos en áreas extensas — la cobertura LoRaWAN y la compatibilidad con Helium permiten rastreo a largas distancias sin necesidad de recargas frecuentes.
-- Tracking híbrido interior/exterior — soporte para balizas BLE para eventos de proximidad en interiores, combinado con GNSS en exteriores para un contexto de ubicación continuo.
-- Telemetría y monitorización de estado — eventos de movimiento, alarmas de energía y telemetría de salud del dispositivo, adecuada para integrarse en paneles de gestión de flotas en Plaspy.
+- Monitoreo de seguridad para trabajadores aislados con botón de ayuda e integración de notificaciones audibles
+- Seguridad personal y protección contra robo para equipaje, herramientas o activos portátiles
+- Monitoreo de activos en amplia cobertura donde la cobertura LoRaWAN y la larga vida de batería son prioritarias
+- Seguimiento híbrido interior/exterior usando balizas BLE en interiores y GNSS en exteriores
+- Dashboards operativos y de flota que combinan ubicación con feeds básicos de estado
 
 ## Por qué elegir este rastreador con Plaspy
 
-La serie LT-501 ofrece una combinación equilibrada de conectividad LoRaWAN de largo alcance, posicionamiento interior asistido por BLE y un hardware compacto y robusto que se integra de forma limpia con Plaspy. Para organizaciones que requieren rastreadores GPS de bajo consumo para personas y pequeños activos, el LT-501 proporciona la telemetría que Plaspy necesita para entregar rastreo en tiempo real, alertas de incidentes e informes históricos. Sus certificaciones regulatorias y accesorios opcionales lo hacen adecuado para despliegues escalados donde la conformidad y la flexibilidad de implementación son importantes.
+El LT-501H ofrece una combinación práctica de conectividad LoRaWAN de largo alcance, posicionamiento interior asistido por balizas y hardware compacto y resistente que se integra de forma limpia en los flujos de trabajo de Plaspy. Para equipos que necesitan rastreadores confiables y de bajo consumo para personas y activos pequeños, el LT-501H suministra las señales de ubicación y eventos que Plaspy requiere para ofrecer mapas, alertas e informes históricos sin añadir complejidad innecesaria.
 
-Nota sobre características complementarias: los usuarios de Plaspy suelen combinar las ubicaciones y feeds de movimiento del LT-501 con sensores adicionales de vehículos o activos para soportar flujos de trabajo como monitorización de ignición, control de inmovilizador o monitoreo de combustible. El LT-501 se centra en GNSS, balizas BLE y telemetría de movimiento y energía; las interfaces de ignición, inmovilizador y sensores de combustible directos requerirían hardware adicional o pasos de integración.
-
+Learn more about using Plaspy with compatible devices on the Plaspy website https://www.plaspy.com. Product specifications, availability and manufacturer documentation can change over time, so please verify the latest details on the GlobalSat site https://www.globalsat.com.tw/ before making deployment decisions.

@@ -2,65 +2,60 @@
 slug: /thingsys/ts_g17hs
 id: ts_g17hs
 sidebar_label: TS-G17Hs
+title: ThingSys - TS-G17Hs
 sidebar_class_name: menu_item_tracker
+description: Compact ThingSys vehicle GPS tracker TS-G17Hs compatible with Plaspy for real time tracking ignition telemetry SOS alerts and blind area buffering
+keywords:
+  - ThingSys TS-G17Hs
+  - TS-G17Hs tracker
+  - ThingSys tracker
+  - Plaspy compatible
+  - vehicle GPS tracker
+  - 4G LTE Cat1 tracker
+  - GNSS positioning
+  - fleet tracking
+  - immobilizer support
+  - blind area buffering
 ---
+
 # ThingSys - TS-G17Hs
 
 ![TS-G17Hs](./tracker.jpg)
 
-The TS-G17Hs \(J16 Pro\) is a compact 4G LTE CAT1 vehicle GPS tracker engineered for reliable global vehicle tracking and telemetry. Designed to integrate smoothly with Plaspy, this Plaspy compatible GPS tracker delivers real-time tracking, ignition status, and configurable I/O for immobilization and SOS alerts — all in a small, hard-to-detect package suitable for cars, trucks, buses and motorcycles.
+The TS-G17Hs (J16 Pro) is a compact 4G LTE Cat1 vehicle GPS tracker designed for reliable vehicle tracking and continuous telemetry. It combines high sensitivity GNSS positioning with vehicle oriented inputs such as ignition status, SOS support and configurable I/O for remote immobilization, all packaged in a small form factor suitable for cars, trucks, buses and motorcycles.
 
-Built around the SIMCOM 7670SA module and supporting both 4G and fallback 2G networks, the TS-G17Hs offers high-sensitivity positioning even in constrained or weak-signal environments. With a wide input voltage range and a built-in backup battery, it is optimized for fleet management and anti-theft applications where continuous telemetry and dependable blind-area buffering matter.
+As a Plaspy compatible device, the TS-G17Hs can stream location and vehicle telemetry into the Plaspy platform for live visibility, alerting and historical reporting. Its fallback reporting modes and blind area buffering help preserve event history through coverage gaps, making it a practical option for fleet managers and anti theft deployments that rely on Plaspy for monitoring and operational oversight.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for seamless real-time tracking and telemetry display on the Plaspy platform.
-- 4G LTE Cat-1 with 2G GSM fallback for worldwide cellular coverage and stable GPRS reporting.
-- Vehicle I/O: ignition \(ACC\) detection, SOS button support, relay control for remote cut/restore \(extra relay required\) and optional built-in microphone.
-- Built-in backup battery \(140–150mAh\) and wide operating voltage \(9V–90V\) for robust vehicle installations across cars, trucks, buses and motorcycles.
-- High-sensitivity GNSS with up to 30 m positioning accuracy and fast start times \(hot ≤2s; average cold ≤32s outdoors\).
-- Blind-area data storage \(up to 8,000 messages\) to ensure event buffering in coverage gaps and later upload to Plaspy.
-- Supports common tracking protocols \(GT06/CRX3\) and SMS-based switching to JT808, Tianqin or Tianhe where required.
+- Plaspy compatible tracker for real time tracking and telemetry display on the Plaspy platform.
+- 4G LTE Cat1 connectivity with 2G fallback for broad cellular coverage and reliable reporting.
+- Vehicle I O including ignition detection, SOS button support and relay control for remote cut and restore.
+- Built in backup battery and wide operating voltage range for mixed vehicle deployments.
+- High sensitivity GNSS positioning with competitive accuracy and fast reacquisition for trip segmentation.
+- Blind area data buffering up to several thousand messages to preserve events during coverage loss.
+- Protocol flexibility and SMS configuration options to simplify integration in different regions.
 
 ## How It Works with Plaspy
 
-When connected to Plaspy, the TS-G17Hs streams location and vehicle telemetry for instant visualization, alerts and historical reporting. Plaspy ingests the device’s GPRS and SMS reports, interprets protocol messages, and exposes ignition events, SOS alarms and buffered blind-area records through a single fleet management interface.
+When connected to Plaspy the TS-G17Hs delivers location and vehicle telemetry to be visualized, alerted on and reported from a single fleet management interface. Plaspy ingests the device reports, maps ignition and alarm events, and preserves buffered records so teams retain a continuous activity history.
 
-- Real-time location and telemetry updates via GPRS \(with SMS polling available for low-data or fallback scenarios\).
-- Ignition \(ACC\) status and motion/G-sensor events delivered to Plaspy for operational tracking and tamper detection.
-- Buffered blind-area data \(up to 8,000 messages\) automatically uploaded to Plaspy after coverage is restored, preserving event history.
-- Relay-based immobilizer support — remote cut/restore of fuel or circuit is possible with an external relay; Plaspy can surface relay state and, where configured, send allowed control commands.
-- SOS alerts and optional microphone-based voice monitoring can be relayed to Plaspy for immediate incident response and logging.
+- Real time location updates and telemetry feed Plaspy dashboards for live tracking and route visibility.
+- Ignition status and motion events appear in Plaspy for trip logging, utilization tracking and tamper indication.
+- Buffered blind area records are uploaded after coverage returns and integrated into historical reports.
+- Relay based immobilizer state can be surfaced in Plaspy and used with configured control workflows where allowed.
+- SOS alarms and optional on device voice monitoring are presented to operations teams for incident response.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | TS-G17Hs \(J16 Pro\) |
-| --- | --- |
-| Connectivity | 4G LTE Cat-1 with 2G GSM fallback \(GPRS\); SIMCOM 7670SA module |
-| Bands | LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B28/B66; GSM: 850/900/1800/1900 MHz |
-| Power & Battery | Operating voltage 9V–90V; built-in backup battery 140–150 mAh \(3.7V\) |
-| Interfaces | Ignition \(ACC\) detection, relay control for cut/restore \(requires extra relay\), SOS, optional microphone, virtual ACC, sleep mode |
-| GNSS | High sensitivity positioning; accuracy up to 30 m; hot start ≤2 s outdoors; average cold start ≤32 s outdoors |
-| Vibration / Motion | Built-in motion/G-sensor \(vibration detection\) |
-| Data Storage | Blind-area message buffer up to 8,000 messages |
-| Protocols & Configuration | Default: GT06 / CRX3; can switch to JT808, Tianqin or Tianhe via SMS; supports text message polling and GPRS tracking modes |
-| Environmental | Operating temperature -20°C to +55°C |
-| Dimensions & Weight | Approx. 80 × 39 × 17 mm; ~51 g |
-| Bluetooth | No built-in Bluetooth specified |
-| Remote Management | SMS configuration and GPRS protocol integration \(no FOTA specified\) |
-| Form Factor | Compact vehicle tracker for discreet installation |
-
-## Use Cases
-
-- Fleet management: continuous location, ignition telemetry and trip history for cars, vans and heavy vehicles.
-- Anti-theft and immobilization: SOS alerts, motion detection and relay-enabled cut-off to reduce theft risk when combined with Plaspy controls.
-- Delivery and route monitoring: real-time tracking and buffered reporting to ensure route compliance and proof of movement even through coverage gaps.
-- Mixed-vehicle deployments: wide voltage range \(9–90V\) supports motorcycles, cars, trucks and buses with one device family.
-- Event-driven telemetry: vibration/G-sensor alerts and blind-area storage help capture incidents that occur in low-coverage areas.
+- Fleet management for cars vans trucks and buses needing continuous location and ignition aware telemetry.
+- Anti theft and immobilization workflows using SOS alerts motion detection and relay based cut off.
+- Delivery and route monitoring where buffered reporting maintains proof of movement through coverage gaps.
+- Mixed vehicle installations benefiting from wide voltage support across motorcycles cars and heavy vehicles.
+- Event driven monitoring where vibration or alarm events must be captured and later reconciled in reports.
 
 ## Why Choose This Tracker with Plaspy
 
-The TS-G17Hs provides a balanced mix of connectivity, vehicle-focused I/O and robust buffering that make it a practical choice for businesses deploying Plaspy for fleet management and anti-theft monitoring. Its Plaspy compatible reporting ensures that real-time tracking and telemetry feed directly into your dashboards, while SMS/GPRS modes and protocol flexibility simplify integration across regions.
+The TS-G17Hs offers a balanced set of vehicle focused features that align with common fleet and security requirements. Its compact form factor, robust buffering and ignition aware I O make it a sensible match for organizations that need dependable position reporting and straightforward integration into Plaspy dashboards and workflows.
 
-Operational benefits include reliable position reporting in constrained spaces, fast GNSS reacquisition for accurate trip segmentation, and a small form factor for discreet installation. Although the device itself does not list Bluetooth, Plaspy’s ecosystem can combine TS-G17Hs telemetry with external Bluetooth sensors or third-party fuel-monitoring sensors where customers need expanded telemetry like temperature, load or fuel monitoring. For teams prioritizing dependable vehicle tracking, ignition-aware telemetry and relay-based immobilizer capability, the TS-G17Hs offers a pragmatic, Plaspy compatible solution.
-
+If your operations require consistent telemetry, blind area preservation and actionable alarms delivered into a centralized platform, the TS-G17Hs provides practical capabilities that integrate with Plaspy. To learn more about Plaspy and how the platform can use TS-G17Hs telemetry visit https://www.plaspy.com. Product specifications and availability can change over time so please verify current details with the manufacturer documentation at https://www.thingsys.com/ before final procurement.

@@ -2,61 +2,60 @@
 slug: /teltonika/fmb965
 id: fmb965
 sidebar_label: FMB965
+title: Teltonika - FMB965
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto Teltonika FMB965 compatible con Plaspy para uso exterior y amplia autonomía de batería
+keywords:
+  - Teltonika FMB965
+  - FMB965 Plaspy
+  - Rastreador GPS FMB965
+  - Rastreador Teltonika
+  - Dispositivos compatibles con Plaspy
+  - Rastreador GPS para activos
+  - Rastreador para motocicleta
+  - Seguimiento de remolques
+  - Rastreador para embarcaciones de recreo
+  - Rastreador con sensores BLE
 ---
+
 # Teltonika - FMB965
 
 ![FMB965](./tracker.png)
 
-# Teltonika FMB965
+El Teltonika FMB965 es un rastreador GPS 2G compacto y compatible con Plaspy, diseñado para operación autónoma prolongada y uso fiable en exteriores. Pensado para motocicletas, remolques pequeños, embarcaciones de recreo y activos expuestos similares, el FMB965 combina una caja con certificación IP67, una batería interna de respaldo de 1.200 mAh y consumo ultra bajo de energía para ofrecer localización en tiempo real confiable y mayor autonomía en periodos sin conexión.
 
-El Teltonika FMB965 es un rastreador GPS 2G compacto, compatible con Plaspy, diseñado para operación autónoma prolongada y uso fiable en exteriores. Destinado a motocicletas, remolques pequeños, vehículos de ocio marinos y otros activos expuestos, el FMB965 combina protección IP67, una batería interna de respaldo Li‑ion de 1,200 mAh y un consumo de energía ultrabajo para ofrecer un seguimiento en tiempo real fiable donde la durabilidad y la autonomía de la batería son cruciales.
+Al figurar como dispositivo compatible con Plaspy, el FMB965 se integra en flujos de trabajo de monitoreo de flotas y antirrobo soportados por la plataforma. Puede transmitir posiciones GNSS y datos de sensores a Plaspy para mapas en vivo, alertas y reproducción histórica, mientras que el soporte de Bluetooth Low Energy permite emparejar balizas y sensores externos para ampliar la telemetría y el seguimiento del estado del activo.
 
-El FMB965 se integra de forma fluida con Plaspy para la gestión de flotas y flujos de trabajo antirrobo. Soporta Bluetooth Low Energy \(BLE\) para emparejarse con balizas BLE y sensores externos, habilitando telemetría ampliada como temperatura, humedad y detección de movimiento. Para integradores y gestores de flotas que buscan un dispositivo robusto, compatible con Plaspy y con gestión remota sencilla, el FMB965 es una opción práctica.
+## Características principales
 
-## Destacados
-
-- Dispositivo GPS 2G compatible con Plaspy, optimizado para el seguimiento en tiempo real y la gestión de flotas de vehículos pequeños y activos.
-- Carcasa resistente al agua con clasificación IP67 para uso fiable en exteriores y en vehículos de ocio marinos.
-- Gran batería interna de respaldo Li‑ion de 1,200 mAh para operación autónoma prolongada y mayor tiempo de funcionamiento offline.
-- Consumo ultrabajo de energía con modo de suspensión Power Off \(~1 mA\) para maximizar la vida de la batería durante largos periodos de inactividad.
-- Soporte Bluetooth® Low Energy para conectar sensores externos y balizas para telemetría \(temperatura, humedad, detección de campo magnético y movimiento\).
-- Funciones telemáticas estándar: seguimiento de ubicación, geocercas y generación de informes de eventos listos para tableros y alertas de Plaspy.
-- Compatible con soluciones de gestión remota de Teltonika \(FOTA WEB\) y configurable mediante herramientas de Teltonika para actualizaciones de firmware y despliegue.
+- Rastreador GPS 2G compatible con Plaspy, ideal para seguimiento en tiempo real de vehículos pequeños y activos expuestos.
+- Carcasa resistente con clasificación IP67 para uso fiable en exteriores y en embarcaciones de recreo.
+- Batería interna de respaldo de 1.200 mAh para sostener operación autónoma prolongada.
+- Consumo de energía ultra bajo y modos de sueño extendidos para maximizar la vida útil de la batería durante inactividad.
+- Soporte de Bluetooth Low Energy para balizas y sensores externos que amplían las capacidades de telemetría.
+- Preparado para funciones telemáticas estándar como rastreo de ubicación, geocercas y reporte de eventos en los paneles de Plaspy.
+- Gestión remota de dispositivos mediante herramientas Teltonika y FOTA WEB para simplificar mantenimiento y despliegues masivos.
 
 ## Cómo funciona con Plaspy
 
-El FMB965 transmite ubicaciones GNSS y telemetría a través de redes 2G y envía los datos de sensores obtenidos vía Bluetooth LE a Plaspy. Una vez conectado, Plaspy ingiere actualizaciones de posición, informes de eventos y lecturas de sensores para proporcionar seguimiento en tiempo real, rutas históricas, alertas e insights a nivel de flota. Los integradores pueden usar las herramientas de configuración de Teltonika y FOTA WEB para preparar dispositivos para despliegues a gran escala y gestionar el firmware de forma remota.
+Cuando está conectado, el FMB965 envía actualizaciones de posición y lecturas de sensores a Plaspy, de modo que los responsables de flota e integradores pueden monitorear activos en tiempo real y revisar la actividad histórica. Plaspy procesa la ubicación, los reportes de eventos y la telemetría suplementaria para alimentar alertas, reportes y supervisión operativa de una flota o conjunto de elementos rastreados.
 
-- Actualizaciones en tiempo real de ubicación y telemetría entregadas a Plaspy para mapas en vivo y reproducción histórica.
-- Alertas por infracción de geocerca e informes de eventos \(movimiento, conectividad y eventos configurados\) visibles en los tableros de Plaspy.
-- Sensores BLE: sensores de temperatura, humedad, detección de campo magnético y movimiento pueden alimentar telemetría suplementaria en Plaspy para el monitoreo de activos.
-- Gestión remota del dispositivo mediante Teltonika FOTA WEB, lo que permite actualizaciones de firmware coordinadas y configuración masiva antes de la integración con Plaspy.
-- Los integradores pueden combinar la telemetría del rastreador con sistemas externos para señales adicionales como estado de encendido o inmovilizador, cuando esté instalado y compatible con el diseño de cableado e integración del vehículo.
+- Actualizaciones de ubicación y telemetría en tiempo real para mapas en vivo y reproducción de rutas en Plaspy.
+- Alertas por entrada o salida de geocercas y reporte de eventos como movimiento o pérdida de conectividad visibles en los paneles de Plaspy.
+- Sensores Bluetooth para temperatura, humedad, magnetismo y movimiento que pueden aportar telemetría adicional a Plaspy para el monitoreo de condiciones.
+- Gestión remota de dispositivos vía Teltonika FOTA WEB para coordinar actualizaciones de firmware y configuración masiva antes o durante la integración con Plaspy.
+- Los integradores pueden combinar la telemetría del rastreador con señales del vehículo o activo para indicadores de estado adicionales cuando la instalación lo soporte.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | 2G \(GSM\) |
-| --- | --- |
-| Bandas | B2 / B3 / B5 / B8 |
-| Potencia y Batería | Batería interna Li‑ion de respaldo de 1,200 mAh para uso autónomo prolongado; consumo ultrabajo \(~1 mA en modo Power Off\) |
-| Interfaces | Cable de alimentación \(0.7 m\) incluido; el dispositivo expone entradas/salidas Teltonika estándar—consulte la documentación del producto para detalles de cableado e integración |
-| GNSS | Seguimiento de ubicación basado en GPS |
-| Bluetooth | Bluetooth® Low Energy \(BLE\) para balizas y sensores externos \(temperatura, humedad, detección de campo magnético y movimiento\) |
-| Gestión remota | Compatible con soluciones de gestión remota de Teltonika como FOTA WEB; configurable mediante herramientas y base de conocimiento de Teltonika |
-| Formato | Unidad compacta y resistente con carcasa IP67 para motocicletas, remolques, vehículos de ocio marinos y activos de tamaño reducido |
+- Antirrobo y recuperación para motocicletas con montaje discreto y reportes alimentados por batería interna.
+- Seguimiento de remolques y activos pequeños donde la protección IP67 y la larga autonomía de batería son prioritarias.
+- Monitoreo de embarcaciones de recreo pequeñas como motos de agua y lanchas.
+- Monitoreo de carga sensible mediante emparejamiento de balizas BLE de temperatura o humedad para rastrear pequeños envíos.
+- Gestión de pequeñas flotas para mensajería independiente, alquiler de motocicletas y vehículos de servicios especializados.
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Antirrobo y recuperación de motocicletas: montaje discreto, batería interna de respaldo y reportes GPS continuos para localizar y recuperar rápidamente.
-- Seguimiento de remolques y pequeños activos: protección IP67 y una larga autonomía de la batería hacen que el FMB965 sea adecuado para remolques y equipos dejados al aire libre.
-- Vehículos de ocio marino: diseño resistente al agua y formato compacto para motos acuáticas, botes pequeños y vehículos acuáticos personales.
-- Monitoreo de carga con sensores: emparejar sensores BLE de temperatura o humedad para monitorizar las condiciones de cargas pequeñas o equipos especializados.
-- Gestión de flotas pequeñas: seguimiento en tiempo real y telemetría para mensajeros independientes, scooters/motocicletas de alquiler y vehículos de servicio especializados.
+El FMB965 es una opción práctica para organizaciones que usan Plaspy cuando la robustez, la larga duración de batería y la posibilidad de ampliar la telemetría con sensores Bluetooth son prioridades. Su factor de forma compacto y diseño resistente al agua lo hacen adecuado para instalaciones expuestas, mientras que la batería interna y el comportamiento de bajo consumo permiten operación autónoma entre cargas o eventos de alimentación externa. Integradores y gestores de flota se benefician de las opciones de gestión remota para agilizar el despliegue y el mantenimiento de firmware en múltiples dispositivos.
 
-## Por qué elegir este localizador con Plaspy
-
-El FMB965 ofrece un valor concreto cuando se combina con Plaspy: combina capacidad para uso en exteriores, un diseño probado de bajo consumo y compatibilidad con sensores BLE para cubrir tanto el seguimiento de ubicación como las necesidades de telemetría ampliada. Para las organizaciones que requieren una protección fiable contra el robo, un formato compacto para instalaciones discretas y autonomía respaldada por batería, el FMB965 es una opción compatible con Plaspy eficaz. La gestión remota a través de las herramientas de Teltonika y FOTA WEB reduce la carga de mantenimiento y simplifica las actualizaciones de firmware a nivel de flota, mientras que la integración de sensores BLE facilita la monitorización de temperatura, humedad y movimiento sin necesidad de cableado extenso.
-
-Elija el FMB965 cuando necesite un rastreador GPS compatible con Plaspy que equilibre durabilidad, larga vida de batería y telemetría extensible mediante sensores Bluetooth—ideal para flotas de vehículos pequeños, equipamiento de ocio marino y flujos de recuperación de activos.
-
+Para saber más sobre cómo el FMB965 puede integrarse con Plaspy y explorar las funciones de la plataforma, visite la web principal de Plaspy https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique las especificaciones vigentes y la documentación oficial en la web del fabricante https://www.teltonika-gps.com/.

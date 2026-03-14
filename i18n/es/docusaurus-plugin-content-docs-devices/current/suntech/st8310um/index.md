@@ -2,64 +2,63 @@
 slug: /suntech/st8310um
 id: st8310um
 sidebar_label: ST8310UM
+title: Suntech - ST8310UM
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS Suntech ST8310UM ultracompacto compatible con Plaspy para seguimiento en tiempo real de flotas y activos con carcasa IP67
+keywords:
+  - Suntech ST8310UM
+  - ST8310UM
+  - rastreador Suntech
+  - compatible Plaspy
+  - rastreador GPS
+  - LTE Cat 1
+  - rastreador IP67
+  - seguimiento de flotas
+  - seguimiento de activos
+  - seguimiento GNSS
 ---
+
 # Suntech - ST8310UM
 
 ![ST8310UM](./tracker.jpg)
 
-El ST8310UM es un rastreador GPS LTE Cat 1 ultra compacto diseñado para el seguimiento de vehículos y activos en entornos expuestos o hostiles. Diseñado para integraciones, el ST8310UM es compatible con Plaspy de serie, ofreciendo seguimiento en tiempo real fiable, telemetría esencial y un comportamiento de bajo consumo adaptado a la gestión de flotas y despliegues anti-robo.
+El ST8310UM es un rastreador GPS LTE Cat 1 ultracompacto diseñado para el seguimiento de vehículos y activos en entornos expuestos y exigentes. Combina conectividad celular con posicionamiento GNSS robusto y una carcasa con certificación IP67, pensado para instalaciones donde el espacio es limitado y se requiere protección ambiental. La unidad está orientada a integraciones y optimizada para reportes de ubicación continuos, alertas por eventos y comportamiento de bajo consumo, ideal para gestión de flotas y prevención de robos.
 
-El ST8310UM de formato compacto combina conectividad LTE Cat.1 con respaldo 2G, posicionamiento GNSS robusto y protección ambiental IP67. Los usuarios de Plaspy se benefician de actualizaciones de ubicación rápidas, geocercas configurables y reportes basados en eventos que permiten flujos de recuperación, telemática operativa y alertas accionables en flotas mixtas.
+Este dispositivo es compatible con Plaspy desde el primer momento, por lo que la telemetría y los datos de ubicación del ST8310UM pueden ser ingeridos por Plaspy para su monitoreo y administración centralizada. Los usuarios de Plaspy pueden aprovechar el rastreador para obtener visibilidad en tiempo real, geocercas configurables y reglas de alerta, lo que convierte al ST8310UM en una opción práctica para operaciones con flotas mixtas y procesos de recuperación de activos.
 
-## Key Highlights
+## Aspectos principales
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y gestión centralizada de la flota.
-- LTE Cat.1 con respaldo 2G para amplia cobertura celular y transmisión de telemetría TCP/UDP.
-- Formato compacto con clasificación IP67 \(61.2 × 53.2 × 20.8 mm\) para instalaciones expuestas y entornos hostiles.
-- Detección de encendido virtual \(voltaje/movimiento\) y acelerómetro integrado de 3 ejes para detección de eventos y conducción brusca.
-- Batería de respaldo recargable \(3.7 V, 220 mAh\) y entrada DC amplia \(8–33 V\) para una gestión de energía del vehículo robusta.
-- Geocercas configurables \(circulares y poligonales\) y detección de manipulación, con interferencia opcional para flujos anti-robo.
-- Consumo en reposo y modo de sueño profundo reducido para conservar la batería del vehículo cuando está estacionado—ideal para monitoreo de activos a largo plazo.
+- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y gestión centralizada de flotas.
+- LTE Cat 1 con retroceso a 2G para mantener cobertura celular en distintas regiones.
+- Factor de forma compacto con clasificación IP67 para instalaciones expuestas y entornos adversos.
+- Acelerómetro tridimensional integrado y detección de ignición virtual para alerta de eventos y conducción brusca.
+- Batería de respaldo recargable y amplio rango de entrada DC para soportar variaciones de alimentación del vehículo y monitoreo en estacionamiento.
+- Geocercas configurables y detección de manipulación o, opcionalmente, de jamming para apoyar flujos de trabajo antirobo.
+- Modos de bajo consumo y deep sleep para preservar la batería del vehículo durante estacionamientos prolongados.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando está conectado a Plaspy, el ST8310UM transmite GNSS y telemetría de estado a la plataforma de Plaspy mediante TCP/UDP, lo que permite seguimiento en tiempo real, alertas e informes históricos. Plaspy ingiere datos de ubicación, eventos del acelerómetro, cambios en el estado de la alimentación y disparadores de alarmas configurados, para luego convertirlos en paneles, notificaciones y flujos de trabajo accionables para despacho y recuperación.
+Al integrarse con Plaspy, el ST8310UM transmite posiciones GNSS y el estado del dispositivo a la plataforma para habilitar seguimiento en vivo, alertas e informes históricos. Plaspy convierte los eventos entrantes en visualizaciones en el mapa, notificaciones y paneles operativos que apoyan despacho, recuperación y supervisión rutinaria de la flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(GNSS → paneles y mapas de Plaspy\).
-- Estado de encendido virtual mediante detección de voltaje y movimiento para informes basados en el encendido y resúmenes de viaje.
-- Detección de manipulación e interferencia \(opcional\) enviada a Plaspy para alertas anti-robo inmediatas.
-- Informes de eventos bruscos basados en acelerómetro \(aceleración repentina, frenado o impacto\) integrados en el rendimiento del conductor y los registros de incidentes.
-- Eventos de entrada/salida de geocerca \(circulares y poligonales\) para alertas automatizadas, cumplimiento de rutas y seguridad perimetral.
-- Informes de pérdida de energía y estado de la batería de respaldo para monitorear la salud eléctrica del vehículo y apoyar operaciones de recuperación.
-- Plaspy puede correlacionar la telemetría del ST8310UM con sistemas externos \(monitoreo de combustible, inmovilizadores o sensores Bluetooth\) cuando esas entradas adicionales estén disponibles en el vehículo y en la plataforma.
+- Actualizaciones de ubicación en tiempo real visibles en los mapas y paneles de Plaspy.
+- Informe de ignición virtual usando detección de voltaje y movimiento para generar resúmenes de viajes y alertas basadas en ignición.
+- Alertas por manipulación y jamming enviadas a Plaspy para notificación inmediata y procesos de recuperación.
+- Reportes de eventos de conducción brusca basados en el acelerómetro integrados en registros de desempeño del conductor e incidentes.
+- Eventos de entrada y salida de geocercas para alertas automáticas, verificación de cumplimiento de rutas y seguridad perimetral.
+- Estado de pérdida de alimentación y batería de respaldo disponible en Plaspy para monitorear la salud eléctrica del vehículo.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | ST8310UM |
-| --- | --- |
-| Conectividad | LTE Cat.1 con respaldo 2G; transmisión TCP/UDP |
-| Bandas | LTE FDD B1, B3, B5, B7, B8, B20, B28; GSM 850 / EGSM900 / DCS1800 / PCS1900 |
-| Alimentación y batería | Entrada DC 8–33 V; protección contra inversión de energía; batería de respaldo Li-ion recargable de 3.7 V, 220 mAh |
-| Consumo de energía | Tipo 30–50 mA @12 V \(informe regular, 3 min\); Reposo \<5 mA @12 V; Sueño profundo \<3 mA @12 V |
-| Interfaces y E/S | Juego de cables de conexión de 5 hilos \(opciones de E/S variables disponibles\); dos LEDs de estado \(red, GPS\) |
-| GNSS | GPS + GLONASS \(L1\); soporte SBAS \(WAAS/EGNOS/MSAS\); precisión ≈ ±3 m CEP \(50%\); sensibilidad hasta -167 dBm |
-| Rendimiento de obtención de posición | Arranque en frío \<35 s \(15 s con EASYTM\); Calentamiento \<30 s \(5 s con EASYTM\); Caliente \<1 s |
-| Sensores | Acelerómetro integrado de 3 ejes para detección de movimiento y eventos bruscos; detección de manipulación; detección de interferencia opcional |
-| Formato | Rastreador compacto para vehículos y activos; 61.2 × 53.2 × 20.8 mm; 76 g \(con cable de evento\) |
-| Ambiental y certificación | Resistente a polvo/agua IP67; rango de temperatura operativa de -30 °C a +85 °C; certificación ANATEL disponible |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento continuo en tiempo real, informes de viaje y flujos de trabajo basados en geocercas para optimizar rutas y la utilización.
-- Antirrobo y recuperación: alertas de manipulación/interferencia y seguimiento GNSS persistente para acciones de recuperación rápidas.
-- Monitoreo de activos y equipos: carcasa IP67 compacta para activos pequeños e instalaciones expuestas, que permite despliegues a largo plazo.
-- Telemetría del conductor y seguridad: detección de eventos bruscos basada en acelerómetro y resúmenes de viaje para revisión de incidentes y coaching.
-- Vehículos estacionados de bajo consumo: capacidad de sueño profundo y batería de respaldo permiten monitoreo discreto sin agotar la batería principal.
+- Gestión de flotas con seguimiento continuo en tiempo real y reportes de viajes para mejorar la utilización.
+- Operaciones antirobo y recuperación mediante alertas de manipulación y seguimiento GNSS persistente.
+- Monitoreo de activos y equipos donde se requiere hardware compacto con protección IP67 para instalaciones expuestas.
+- Seguridad del conductor y revisión de incidentes mediante reportes de eventos bruscos basados en acelerómetro.
+- Monitoreo de vehículos estacionados con modos de bajo consumo y soporte de batería de respaldo para supervisión prolongada.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El ST8310UM ofrece una combinación equilibrada de diseño robusto, formato compacto y elementos telemáticos esenciales que lo convierten en una opción práctica para despliegues compatibles con Plaspy. Su conectividad LTE Cat.1 con respaldo 2G garantiza una amplia cobertura celular, mientras que fijaciones GPS/GLONASS precisas y TTFF rápido permiten un seguimiento en tiempo real fiable tanto en entornos urbanos como rurales. Un bajo consumo de energía, soporte de batería de respaldo y protección IP67 reducen el mantenimiento y mejoran la disponibilidad para operadores de flotas y activos.
+El ST8310UM ofrece un equilibrio entre robustez, tamaño compacto y telemetría esencial que encaja en muchas implementaciones de Plaspy. Su conectividad celular con retroceso, posicionamiento GNSS confiable y capacidades de eventos entregan a los operadores los datos fundamentales para gestionar vehículos y activos sin complejidad excesiva. El bajo consumo y el soporte de batería de respaldo ayudan a reducir mantenimiento y mejorar la disponibilidad para flotas dispersas.
 
-Emparejado con Plaspy, el ST8310UM se convierte en parte de una solución de telemetría escalable: la ubicación, eventos de encendido, alertas de manipulación y datos de conducción brusca alimentan los paneles, informes y reglas de alerta de Plaspy. Esto facilita añadir flujos de trabajo anti-robo, integrar monitoreo externo de combustible o sistemas de inmovilización cuando estén disponibles, y gestionar la flota de forma centralizada sin sacrificar fiabilidad ni flexibilidad de instalación.
+Al combinarse con Plaspy, el ST8310UM envía información de ubicación, eventos y estado de alimentación a una plataforma unificada para alertas, reportes y flujos operativos. Esto facilita añadir reglas basadas en geocercas, procedimientos antirobo y monitoreo de eventos de conductor a una implementación Plaspy existente, manteniendo la gestión de dispositivos y la telemetría centralizada.
 
+Learn more about Plaspy and how compatible devices are supported on the main website https://www.plaspy.com. Product specifications, availability and manufacturer documentation can change over time, so verify current details on the official Suntech site http://www.suntechint.com/ before making deployment decisions.

@@ -2,66 +2,61 @@
 slug: /cantrack/g05n
 id: g05n
 sidebar_label: G05N
+title: CanTrack - G05N
 sidebar_class_name: menu_item_tracker
+description: Hard wired vehicle GPS tracker compatible with Plaspy for real time tracking alerts and remote immobilization
+keywords:
+  - CanTrack G05N
+  - G05N tracker
+  - G05N Plaspy
+  - vehicle tracker
+  - GPS tracker
+  - fleet tracking
+  - anti theft tracker
+  - insurance telematics
+  - real time tracking
+  - GPRS SMS tracker
 ---
+
 # CanTrack - G05N
 
 ![G05N](./tracker.png)
 
-# G05N Vehicle Tracker
+The G05N Vehicle Tracker is a hard-wired GPS device designed for permanent installation in cars, motorcycles and light commercial vehicles. It uses GSM/GPRS networks and GPS satellites to deliver continuous position reporting and event notifications. Common features include ignition detection, geo-fence and overspeed alerts, vibration and angle-change alarms, a dedicated SOS button, local data buffering and remote immobilization capability, making it suitable for fleet oversight and anti-theft applications.
 
-The G05N Vehicle Tracker is a hard-wired GPS tracker built for permanent vehicle installation and Plaspy compatible integration. Using GSM/GPRS networks and GPS satellites, the G05N delivers reliable, real-time tracking and telemetry to Plaspy-enabled platforms via SMS or GPRS \(TCP/IP\). It is designed for fleet management, insurance telematics and anti-theft applications where remote control, continuous power and robust alerting are required.
-
-The G05N combines precise position reporting with vehicle status monitoring—ignition \(ACC\) detection, overspeed and geo-fence alerts, vibration and angle-change alarms, plus a dedicated SOS button. Plaspy compatibility means fleet managers and service providers can ingest position updates, alarms and remote commands into a single platform for centralized monitoring, reporting and rapid response.
+As a Plaspy compatible device, the G05N can feed location updates, alarms and control commands directly into the Plaspy platform for centralized visibility and management. Plaspy users can use those data streams to visualize live location, track route history, receive immediate alerts and initiate remote responses such as immobilization or targeted notifications, consolidating vehicle telemetry and operational workflows in one platform.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker providing real-time tracking via GPRS \(TCP/IP\) and SMS for rapid integration.
-- Remote immobilizer capability \(cut-off oil/circuit\) for effective anti-theft response and vehicle recovery.
-- On-board data buffering — stores up to 1,400 GPS points when GSM signal is lost and auto-uploads when reconnected.
-- Comprehensive alerting: geo-fence, overspeed, vibration, angle-change, power-cut and SOS emergency alerts.
-- Permanent hard-wired installation with wide input range \(9–36V DC\) and low-power sleep mode plus heartbeat signaling to conserve battery.
-- Accurate GNSS performance with MT6261 + RDA6625e chipset, typical accuracy under 10 meters and fast TTFF times.
-- Compact, lightweight form factor \(90 × 49.3 × 16.7 mm; 50 g\) suited to cars, motorcycles and small commercial vehicles.
+- Real time tracking and reporting via GPRS and SMS for reliable position updates.
+- Remote immobilizer support to aid anti theft response and vehicle recovery.
+- On-board log buffer storing up to 1,400 GPS points to preserve route history during signal loss.
+- Comprehensive alerting including geo fence overspeed vibration angle change power cut and SOS.
+- Permanent hard wired design with wide input voltage range and low power modes for always on operation.
+- Compact form factor suitable for cars motorcycles and small commercial vehicles.
 
 ## How It Works with Plaspy
 
-When installed and powered, the G05N continuously monitors GNSS position and vehicle telemetry, sending location and event data to Plaspy via GPRS \(TCP/IP\) or SMS. Plaspy-compatible integration lets you visualize live locations, set geo-fences, trigger notifications, and execute remote commands such as immobilization. The device’s local logging ensures no data loss during network interruptions, with automatic upload of stored points once connectivity is restored.
+When connected and powered, the G05N continuously monitors GNSS position and vehicle status, transmitting location and event data to Plaspy via GPRS or SMS. Plaspy ingests those updates to provide mapping, notifications and reporting so fleet managers and service providers can maintain operational awareness and act on incidents quickly.
 
-- Real-time location and telemetry updates \(via GPRS TCP/IP or SMS\) to Plaspy for mapping and reporting.
-- Ignition \(ACC\) status monitoring and event reporting for driver behavior and route reconstruction.
-- Alarms and alerts: geo-fencing, overspeed, vibration, angle-change, power-cut and SOS emergency reports.
-- Stored GPS points \(up to 1,400\) upload automatically after GSM reconnection to preserve route history.
-- Remote immobilizer commands supported for anti-theft action through the Plaspy platform or SMS.
-- Note: the G05N provides rich telemetry and remote control features but does not include dedicated fuel monitoring or Bluetooth sensors.
+- Live location and telemetry visible on Plaspy maps and dashboards for real time monitoring.
+- Ignition status and event logs available for driver behavior analysis and route reconstruction.
+- Automated alerts for geo fence breaches overspeed and emergency SOS routed through Plaspy notification channels.
+- Buffered GPS points upload automatically after reconnection to preserve complete trip histories in Plaspy reports.
+- Remote immobilizer commands and alert acknowledgements can be executed from Plaspy or via supported messaging methods.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM/GPRS \(TCP/IP\), SMS |
-| --- | --- |
-| Bands | Quad-band GSM 850 / 900 / 1800 / 1900 MHz \(GPRS Class 12\) |
-| Memory | 32 + 32 Mb \(on-board storage for GPS points; up to 1,400 points buffer\) |
-| Power & Battery | Working voltage 9–36V DC; built-in 200 mAh \(3.7 V\) lithium manganese backup battery \(standby ~1 hour\); operating current 5–50 mA |
-| Interfaces & I/O | Ignition \(ACC\) detection, SOS button input, vibration/angle-change sensor, power-cut detection, remote immobilizer control \(oil/circuit cut\) |
-| GNSS | GPS L1 \(1575.42 MHz C/A\) chipset MT6261 + RDA6625e, 66 channels, typical accuracy under 10 m |
-| Sensitivity & TTFF | Tracking sensitivity -165 dBm; acquisition -148 dBm; TTFF hot start ≤1 s, cold start ≤32 s |
-| GSM Output Power | ~33 ±3 dBm \(850/900 MHz\); ~30 ±3 dBm \(1800/1900 MHz\) |
-| Antennas & Indicators | Built-in GSM and ceramic GPS antennas; LED indicators for power/GSM/GPS |
-| Bluetooth | Not supported \(no Bluetooth sensors integrated\) |
-| Remote Management | SMS commands and online platform/APP control for alerts, settings and remote immobilization |
-| Operating Conditions | Operating temperature -20 °C to +70 °C; weight 50 g; dimensions 90 × 49.3 × 16.7 mm |
-
-## Use Cases
-
-- Fleet management: real-time tracking, route history and overspeed alerts for small and medium vehicle fleets.
-- Anti-theft protection: remote immobilizer and power-cut alerts reduce theft risk and improve vehicle recovery.
-- Insurance telematics: ACC and telemetry data support driving behavior analysis and claims processing.
-- Service shops and rental fleets: continuous telemetry, geo-fencing and SOS alerts improve asset control.
-- Motorcycle and electric bike tracking: compact hard-wired installation with vibration and angle-change alarms.
+- Fleet management for small and medium vehicle fleets requiring continuous tracking and reporting.
+- Anti theft protection with remote immobilization and immediate power cut alerts to aid recovery.
+- Insurance telematics where ignition and event data support behavior analysis and claims handling.
+- Rental and service fleets that need geo fencing SOS alerts and centralized oversight.
+- Motorcycle and light vehicle monitoring using compact hard wired installation and motion alarms.
 
 ## Why Choose This Tracker with Plaspy
 
-The G05N is a practical, Plaspy compatible GPS tracker for organizations that need dependable real-time tracking, robust telemetry and actionable anti-theft features. Its quad-band GPRS connectivity and SMS fallbacks make it suitable for wide-area deployments, while the 1,400-point buffer and automatic upload ensure route continuity even through signal gaps. Remote immobilization and immediate power-cut alarms give fleet managers and vehicle owners direct control to prevent theft and limit losses.
+The G05N offers a dependable combination of continuous tracking, robust alerting and remote control features that integrate naturally into Plaspy for centralized fleet oversight. Its data buffering and dual reporting paths help maintain route continuity through intermittent connectivity, while the immobilizer and power cut alerts provide actionable security options for operators and vehicle owners.
 
-Integrating the G05N with Plaspy provides a centralized platform for vehicle monitoring, alerting and remote commands. The device’s hard-wired design, low-power modes and heartbeat reporting support always-on fleet management without frequent maintenance. If you need a compact, reliable GPS tracker that supports ignition \(ACC\) detection, immobilizer control and rich alerting—while integrating seamlessly into Plaspy for reporting and operations—the G05N is engineered to deliver consistent telemetry and security for vehicles in commercial and consumer environments.
+For organizations seeking a compact, hard wired tracker that delivers consistent telemetry and integrates into a single fleet management platform, the G05N is a practical choice to pair with Plaspy. Together they provide a streamlined way to monitor location and events, receive timely notifications and coordinate responses across operations.
 
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications availability and manufacturer details can change over time; please verify current information on the official CanTrack website https://www.cantrackgps.com/ before purchase or deployment.

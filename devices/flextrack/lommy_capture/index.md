@@ -2,59 +2,61 @@
 slug: /flextrack/lommy_capture
 id: lommy_capture
 sidebar_label: Lommy Capture
+title: Flextrack - Lommy Capture
 sidebar_class_name: menu_item_tracker
+description: Compact energy harvesting GPS tracker for trailers and towed assets compatible with Plaspy for discreet real time tracking and historical route retrieval
+keywords:
+  - Flextrack Lommy Capture
+  - Lommy Capture
+  - Lommy Capture tracker
+  - Flextrack tracker
+  - trailer GPS tracker
+  - towed asset tracking
+  - energy harvesting tracker
+  - Plaspy compatible tracker
+  - fleet tracking device
+  - trailer anti theft tracker
 ---
+
 # Flextrack - Lommy Capture
 
 ![Lommy Capture](./tracker.jpg)
 
-Lommy Capture is a compact, installation-friendly GPS tracker purpose-built for persistent, low-maintenance monitoring of trailers, caravans and other towed assets. As a Plaspy compatible device, Lommy Capture delivers reliable real-time tracking and historical route retrieval while fitting discreetly inside a light housing — a design that helps fleet managers and logistics operators maintain continuous oversight without frequent service visits.
+Lommy Capture is a compact, installation friendly GPS tracker designed for persistent, low maintenance monitoring of trailers, caravans and other towed assets. Its discreet light housing and internal power approach make it suited to applications where long intervals between service visits are preferred, while still supporting both real time tracking and historical route retrieval for asset oversight.
 
-Designed for fleet management and anti-theft use cases, Lommy Capture uses energy harvesting from vehicle lighting circuits rather than a fixed battery. That unique power approach, combined with multi-constellation GNSS, cellular fallback and onboard sensors, makes Lommy Capture a practical choice for operators who need telemetry and location intelligence that integrates with Plaspy for alerts, geofencing and reporting.
+As a Plaspy compatible device, Lommy Capture can feed position, motion and alarm data into Plaspy to provide centralized visibility across fleets of trailers and towed equipment. The device’s combination of energy harvesting from vehicle lighting circuits, assisted GNSS positioning and cellular fallback aligns with Plaspy workflows for alerts, geofencing and reporting that help operations maintain continuous oversight with minimal on site maintenance.
 
 ## Key Highlights
 
-- Plaspy compatible: integrates with Plaspy via open APIs and industry-standard data protocols for seamless real-time tracking.
-- Energy harvesting operation: charges super-capacitors from tail, brake and indicator circuits — no dedicated battery required.
-- Persistent reporting: when charged by tail lights, transmits as frequently as every 2 minutes; limited fallback reports when disconnected.
-- Multi-constellation GNSS with SBAS and assisted positioning for fast, accurate fixes even in challenging environments.
-- Robust cellular connectivity: intelligent 4G LTE Cat M1 with 2G quad-band fallback and advanced cellular triangulation if GNSS is unavailable.
-- Compact, rugged form factor \(54 × 44 × 19 mm, 42 g\) rated IP65 for reliable field operation across -30 to +60 °C.
-- Built-in 3-axis G-sensor and 2 MB internal flash for local logging of position and motion events.
+- Plaspy compatible device designed to deliver real time location and historical routes for towed assets.
+- Energy harvesting from vehicle lighting circuits reduces the need for dedicated battery swaps and lowers maintenance.
+- Persistent reporting when powered by tail lights with limited fallback reports if external power is removed.
+- Multi constellation GNSS with assisted positioning for fast fixes and improved location accuracy in varied environments.
+- Cellular fallback designed to keep connectivity when GNSS is poor, helping maintain telemetry continuity.
+- Compact, rugged IP65 housing for discreet installation inside light fixtures and reliable field operation.
 
 ## How It Works with Plaspy
 
-Lommy Capture sends position, motion and alarm messages over UDP or SMS and can be integrated into Plaspy through open APIs or gateway ingestion. Once registered in Plaspy, fleets gain live position updates, configurable alarms and historical route playback for each trailer or towed asset. Plaspy can also combine Lommy Capture telemetry with other vehicle data to support broader fleet management workflows.
+Lommy Capture transmits position, motion and alarm messages using standard ingestion formats and can be registered in Plaspy to provide continuous telemetry and event flows. Once integrated, fleet managers can view live positions, receive alerts and review stored routes for each trailer or towed asset inside Plaspy.
 
-- Real-time location and telemetry updates: device transmits frequent fixes \(down to 2-minute intervals when tail lights supply power\).
-- Disconnection and power alerts: device continues limited timed reports if a trailer is unplugged, enabling Plaspy to flag potential tampering or theft.
-- Historical route retrieval: onboard flash memory supports storage and later upload of route data for compliance and analysis.
-- Event-based messages: motion \(G-sensor\) and configurable alarms can trigger immediate notifications in Plaspy.
-- Integration-ready data formats: UDP and SMS protocols allow Plaspy to parse position, alarm and telemetry payloads without proprietary gateways.
+- Real time location updates and telemetry feeds for live monitoring of trailers and caravans.
+- Power and disconnection alerts that let Plaspy flag potential tampering or unplugged assets.
+- Historical route retrieval from onboard memory for compliance, analysis and playback in Plaspy.
+- Event based notifications from motion sensing to trigger immediate alarms and workflow actions.
+- Integration friendly messaging formats that allow Plaspy to ingest position and alarm payloads without specialized gateways.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G \(FDD LTE Cat M1\) with intelligent operation; 2G quad-band fallback |
-| --- | --- |
-| Bands | LTE Cat M1: B3 / B8 / B20. 2G: 850 / 900 / 1800 / 1900 MHz. |
-| Power & Battery | Energy harvesting from lighting circuits; super-capacitors store charge. Operates on 4 V to 40 V systems. When powered by tail lights, reporting intervals can be as low as every 2 minutes. If disconnected from power, can send up to five position reports at 12-hour intervals until energy is depleted. |
-| Interfaces | Four-wire installation: black = ground, brown = tail lights, red = brake lights, green = indicators. Install inside light housing; connections should be protected against water and moisture. |
-| GNSS | Multi-constellation GNSS: GPS, GLONASS, GALILEO, BEIDOU, QZSS. SBAS support \(WAAS, EGNOS, MSAS, GAGAN\). Assisted GNSS for faster fixes. Tracking sensitivity down to -166 dBm. |
-| Bluetooth | Not described for this model \(no BLE sensors specified\). |
-| Remote Management | Integrates with Flextrack platforms \(TrackEye, LommyFleet, white-label solutions\) or customer systems via open APIs. Supports UDP and SMS data protocols for cloud ingestion. |
-| Form Factor | Compact housing 54 × 44 × 19 mm; weight 42 g. IP65 rated. Operating temperature -30 to +60 °C. Internal GNSS and LTE/GSM antennas. 3-axis G-sensor and 2 MB internal flash. |
-
-## Use Cases
-
-- Fleet anti-theft and recovery: discreet internal installation inside light housings reduces visibility and makes removal difficult, while Plaspy-compatible alerts enable quick intervention.
-- Trailer utilization & route monitoring: real-time tracking and historical routes help optimize trailer allocation and reduce empty miles in fleet management.
-- Maintenance scheduling based on usage: motion and route telemetry feed into Plaspy reports to trigger service intervals based on real use rather than time alone.
-- Geofencing & stop monitoring: set geofence alerts and monitor stops in Plaspy for improved logistics and on-time deliveries.
-- Operational continuity for intermittent power assets: energy-harvesting design keeps assets visible even when there is no fixed power source.
+- Fleet anti theft and recovery for trailers and detachable equipment with discreet internal installation.
+- Trailer utilization and route monitoring to optimize allocation and reduce empty runs.
+- Maintenance planning based on actual usage and motion data rather than fixed schedules.
+- Geofencing and stop monitoring to support delivery workflows and on time performance.
+- Visibility for intermittently powered assets where energy harvesting helps extend remote reporting.
 
 ## Why Choose This Tracker with Plaspy
 
-Lommy Capture offers a pragmatic balance of low maintenance, discreet installation and robust positioning that aligns well with Plaspy’s real-time tracking and fleet management capabilities. Its energy-harvesting architecture eliminates battery swaps, reducing downtime and running costs for large trailer fleets. Because the device transmits over LTE Cat M1 with 2G fallback and supports UDP/SMS, integrating into Plaspy is straightforward — enabling consistent telemetry and alarm flows into your dashboards, geofencing rules and reporting pipelines.
+Lommy Capture is a practical choice for operators who need low maintenance tracking of towed assets and want to consolidate telemetry into a single fleet management platform. Its discreet form factor and energy harvesting design reduce service overhead while still delivering the core location and motion data fleet teams rely on in Plaspy for alerts, geofencing and reporting.
 
-For operations that require extended visibility without extensive retrofitting, Lommy Capture is a strong Plaspy compatible option. While the unit focuses on accurate location, motion sensing and resilient connectivity, Plaspy can augment those feeds with additional vehicle data — such as fuel monitoring, ignition state, immobilizer control or Bluetooth sensors managed by other onboard systems — to deliver a comprehensive telematics solution tailored to your fleet.
+For organizations running mixed fleets, Lommy Capture can provide reliable trailer level visibility that complements other vehicle data sources managed in Plaspy. The device is particularly relevant where reducing onsite maintenance visits and keeping trackers hidden inside light housings are operational priorities.
 
+To learn more about how Plaspy can work with Lommy Capture and other compatible devices visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current technical details and installation guidance on the manufacturer website https://flextrack.dk.

@@ -2,62 +2,60 @@
 slug: /xirgo/xt25
 id: xt25
 sidebar_label: XT25
+title: Xirgo - XT25
 sidebar_class_name: menu_item_tracker
+description: Compact plug and play Xirgo XT25 vehicle tracker compatible with Plaspy for fleet tracking and telemetry
+keywords:
+  - Xirgo XT25
+  - XT25 GPS tracker
+  - Xirgo tracker
+  - GPS tracker Plaspy compatible
+  - vehicle tracking unit
+  - fleet tracking
+  - plug and play tracker
+  - OBD support tracker
+  - accelerometer tracker
+  - Bluetooth tracker
 ---
+
 # Xirgo - XT25
 
 ![XT25](./tracker.webp)
 
-The XT25 is a plug-and-play vehicle tracking unit \(VTU\) designed for light-duty and passenger vehicles and easily adaptable to heavy-duty truck installations. Built for integrators and fleet operators who require a Plaspy compatible GPS tracker, the XT25 delivers dependable location and motion data with a compact form factor, internal GPS and cellular radios, and optional Bluetooth for ELD and sensor pairing. Its combination of OBD protocol support, integrated accelerometer and optional internal battery makes it a practical choice for fleet management, anti-theft monitoring, and on‑vehicle telemetry.
+The Xirgo XT25 is a plug and play vehicle tracking unit designed primarily for light duty and passenger vehicles, with adaptable options for heavier truck installations. It combines a compact form factor with integrated GNSS and cellular radios, optional Bluetooth for accessory pairing, OBD protocol support, and an onboard accelerometer. These capabilities make the XT25 suitable for integrators and fleet operators who need dependable location and motion data in a small, configurable device.
 
-The XT25 connects directly to vehicle OBD ports or hardwires for permanent installations and can be extended with an external I/O box when additional interfaces are required. Available for North American cellular networks \(AT&T, Verizon, TMO\) and designed for 4G LTE Cat M1 and LTE Cat NB2 connectivity, the XT25 is built to stream real-time tracking and telemetry to Plaspy for alerts, geofencing, and reporting across mixed vehicle fleets.
+As a Plaspy compatible tracker, the XT25 can stream location fixes and vehicle telemetry into the Plaspy platform for live monitoring, alerts, and historical reporting. Its support for OBD derived signals, motion events and optional accessory pairing enables Plaspy to present ignition status, motion alerts, and sensor data alongside map views and fleet reports, making the XT25 a practical option for mixed fleet deployments that rely on centralized visibility and event driven workflows.
 
 ## Key Highlights
 
-- Plug-and-play installation for quick deployment in light-duty/passenger vehicles with adaptable options for heavy-duty trucks.
-- Plaspy compatible GPS tracker that supports real-time tracking and fleet management workflows.
-- Cellular connectivity on 4G LTE Cat M1 and LTE Cat NB2 for low-power, reliable telemetry over AT&T, Verizon, and TMO networks in North America.
-- Optional Bluetooth interface for ELD applications and connecting Bluetooth sensors or beacons.
-- OBD protocol support and vehicle voltage compatibility to access ignition and diagnostics where available.
-- Integrated accelerometer for motion detection, harsh event reporting and anti-theft alerts.
-- Optional internal battery and internal buzzer to support driver behavior alerts and power-loss scenarios.
-- Expandable via an external I/O box to add digital inputs/outputs and integrate immobilizer or alarm control as needed.
+- Plug and play design for quick deployment in light duty and passenger vehicles, with wiring options for heavier trucks.
+- Compatible with Plaspy for real time tracking, alerts, geofencing and reporting across fleets.
+- Built in GNSS and cellular radios with regional cellular options for reliable telemetry across common North American networks.
+- Optional Bluetooth interface to support ELD workflows and pairing with external sensors or accessories.
+- OBD protocol support and vehicle voltage compatibility to surface ignition and basic diagnostic signals where available.
+- Integrated accelerometer for motion detection and harsh event notification to support anti theft and driver behavior monitoring.
+- Expandable via external I O box to add digital inputs and outputs for immobilizer or alarm integration when needed.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the XT25 streams GPS fixes, vehicle telemetry and motion events to the Plaspy platform for real-time tracking, automated alerts and historical reporting. Plaspy-compatible integration allows fleets to visualize locations on a map, trigger geofence notifications, and analyze telemetry for driver performance and vehicle health. Data integration leverages the XT25’s onboard sensors and OBD-derived signals so Plaspy can present ignition status, fault codes and event-driven reports alongside location tracking.
+When paired with Plaspy, the XT25 sends location, motion events and available vehicle telemetry to the Plaspy platform so fleet managers can maintain visibility and react to events in real time. Plaspy ingests the device data to power map views, automated alerts and operational reports that help teams monitor assets, enforce policies and analyze fleet performance.
 
-- Real-time location and telemetry updates sent to Plaspy for live map tracking and historical route playback.
-- Ignition and basic diagnostic status via OBD protocols where vehicle support exists, enabling ignition-based rules and engine-on/off reports.
-- Fuel monitoring and related telemetry available through OBD channels when supported by the vehicle’s ECU—Plaspy can surface fuel trends and exceptions.
-- Expandable immobilizer or alarm control using the external I/O box for anti-theft actions where required by the installation.
-- Bluetooth sensors and ELD pairing \(optional\) for driver log integration, BLE sensor telemetry, and accessory connectivity.
-- Motion and harsh-event alerts driven by the integrated accelerometer to support anti-theft and driver behavior workflows in Plaspy.
+- Real time location updates and historical route playback for live map tracking and audit trails.
+- Ignition and basic diagnostic signals from OBD where supported, enabling ignition aware rules and engine on off reports.
+- Motion and harsh event alerts driven by the accelerometer for anti theft and driver behavior workflows.
+- Sensor and ELD pairing via optional Bluetooth to surface driver logs and external telemetry inside Plaspy.
+- Expandable I O control for remote immobilizer or alarm actions coordinated through Plaspy alerts and workflows.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | XT25 |
-| --- | --- |
-| Connectivity | Cellular \(4G LTE Cat M1, LTE Cat NB2\), GPS; optional Bluetooth |
-| Networks / Regions | North America: AT&T, Verizon, TMO |
-| Power & Battery | Voltage compatibility for light- and heavy-duty vehicles; optional internal backup battery |
-| Interfaces | OBD protocol support; ability to connect to external I/O box \(additional inputs/outputs\); optional internal buzzer |
-| GNSS | GPS \(integrated antenna\) |
-| Sensors | Integrated accelerometer for motion and harsh-event detection |
-| Bluetooth | Optional Bluetooth interface with internal antenna \(for ELD and Bluetooth sensors\) |
-| Remote Management | Device/platform management not specified; integrates data with Plaspy for monitoring and reporting |
-| Form Factor | Plug-and-play VTU for passenger/light-duty vehicles; adaptable for heavy‑duty with wiring/I/O box |
-| Certifications | FCC, PTCRB, IC |
-
-## Use Cases
-
-- Fleet management: real-time GPS tracker data and telemetry for route monitoring, utilization reporting and compliance dashboards in Plaspy.
-- Anti-theft protection: movement alerts and geofence breaches using the accelerometer and GPS, with optional immobilizer integration via external I/O.
-- Driver behavior and safety: internal buzzer and accelerometer-driven harsh-event detection to highlight risky driving and support coaching programs.
-- ELD and Bluetooth sensor workflows: optional Bluetooth interface for electronic logging and pairing to temperature or cargo sensors for asset-sensitive fleets.
-- Mixed-fleet deployments: OBD support and voltage compatibility enable easy deployment across passenger cars, vans and configurable heavy-duty installations.
+- Fleet tracking for passenger vehicles and light duty fleets requiring quick installation and centralized monitoring.
+- Anti theft monitoring with motion alerts, geofence notifications and optional immobilizer control.
+- Driver behavior analysis using accelerometer driven harsh event detection and reporting.
+- ELD and accessory sensor integration for regulatory workflows and cargo sensitive operations.
+- Mixed fleet deployments where OBD support and adaptable installation options simplify rollouts across vehicle types.
 
 ## Why Choose This Tracker with Plaspy
 
-The XT25 delivers a balance of simplicity and expandability for operations that need a reliable Plaspy compatible GPS tracker. Its plug-and-play design reduces installation time for light-duty and passenger vehicles while optional hardware \(internal battery, buzzer, Bluetooth\) and an external I/O box let you tailor the device for fleet management, anti-theft defenses and telematics-driven workflows. With broad North American cellular support on LTE Cat M1 and NB2 and OBD protocol compatibility, the XT25 provides the essential real-time tracking and telemetry data Plaspy requires to power alerts, ignition-aware rules, fuel monitoring where supported, and scalable reporting for mixed fleets. Choose the XT25 when you need a practical, certified tracker that integrates cleanly with Plaspy to turn vehicle signals into actionable insights.
+The XT25 offers a balance of simplicity and expandability that fits many fleet management scenarios. Its plug and play form factor shortens deployment time for passenger and light duty vehicles, while optional hardware and an external I O box provide paths to add anti theft controls, auxiliary sensors and accessory interfaces as operational needs evolve. For organizations using Plaspy, the XT25 supplies the core location and event signals needed to power alerts, geofences and fleet reports without introducing unnecessary complexity.
 
+If you want to learn more about how XT25 devices can work with Plaspy and support your fleet visibility goals visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical specifications and regional availability on the official manufacturer site https://xirgo.com/.

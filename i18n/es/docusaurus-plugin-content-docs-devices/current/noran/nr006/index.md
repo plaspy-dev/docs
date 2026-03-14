@@ -2,63 +2,60 @@
 slug: /noran/nr006
 id: nr006
 sidebar_label: NR006
+title: Noran - NR006
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS Noran NR006 ultracompacto para motocicletas y vehículos pequeños compatible con Plaspy para seguimiento en tiempo real y bajo consumo de datos
+keywords:
+  - Noran NR006
+  - Rastreador GPS NR006
+  - Rastreador Noran
+  - NR006 Plaspy
+  - Rastreador GPS para motocicleta
+  - Rastreador GPS compacto
+  - Rastreo de flotas
+  - Rastreador de vehículos
+  - Rastreador antirrobo
+  - Rastreador de bajo consumo de datos
 ---
+
 # Noran - NR006
 
 ![NR006](./tracker.jpg)
 
-El NR006 Mini GPS Tracker es un rastreador GPS ultracompacto optimizado para motocicletas y vehículos pequeños. Diseñado para instalaciones discretas y reportes de ubicación fiables, el NR006 es compatible con Plaspy desde el primer uso, entregando datos de seguimiento en tiempo real a su cuenta de Plaspy vía SMS o Internet. Su pequeño tamaño y su bajo consumo de datos lo convierten en una opción práctica para la gestión de flotas y la protección antirrobo en entornos con restricciones de espacio y ancho de banda.
+El NR006 Mini GPS Tracker es un dispositivo de localización ultracompacto pensado para motocicletas y vehículos pequeños. Ofrece una instalación discreta y reportes de posición constantes mediante antenas GPS y GSM integradas, con LBS como respaldo en zonas de señal débil. El equipo es ligero, alrededor de 100 g, y está optimizado para entornos donde el tamaño y la ocultación son importantes.
 
-Con antenas GPS y GSM integradas y con un peso de aproximadamente 100 g, el NR006 admite posicionamiento por satélite GPS con respaldo LBS para entornos con señal débil. El dispositivo transmite paquetes de posición concisos de 34 bytes para minimizar el uso de datos GPRS y soporta acceso 24/7 a través de software de seguimiento del cliente, lo que permite telemetría continua y control remoto del inmovilizador cuando se integra con Plaspy.
+De fábrica, el NR006 es compatible con Plaspy y puede enviar datos de ubicación en tiempo real a una cuenta Plaspy vía SMS o Internet. Su diseño de bajo consumo de datos y los paquetes de posición concisos lo convierten en una opción práctica para usuarios de Plaspy que requieren visibilidad continua sin un alto uso de ancho de banda. Además, soporta flujos de trabajo habituales de flotas y seguridad como historial de rutas, alertas y inmovilización remota cuando se integra con Plaspy.
 
-## Aspectos destacados
+## Características principales
 
-- Factor de forma compacto y apto para motocicletas: pequeño, ligero y fácil de ocultar para una protección antirrobo discreta.
-- Compatible con Plaspy para seguimiento en tiempo real vía SMS o Internet: vea la ubicación en vivo y las rutas históricas en su panel de Plaspy.
-- Operación de bajo consumo de datos con paquetes de posición de 34 bytes para reducir el uso de GPRS y disminuir los costos operativos para la gestión de flotas.
-- Alarmas de seguridad y protección — alarma de exceso de velocidad, alarma de geocerca y modo de reposo \(ahorro de energía\) para prolongar la vida del dispositivo y reducir alertas falsas.
-- Capacidad de corte remoto del motor \(inmovilizador\) mediante el relé suministrado para inmovilizar el vehículo de inmediato cuando sea necesario.
-- Batería de respaldo opcional y memoria flash interna para alarma de corte de energía y registro de datos sin conexión durante pérdidas de conectividad.
-- Instalación simple de 3 hilos y el relé/cable de conexión incluido para un despliegue rápido en motocicletas y vehículos pequeños.
+- Factor de forma ultracompacto, ideal para motocicletas, que permite montaje discreto y disuasión de robos
+- Compatibilidad con Plaspy para ubicación en tiempo real, rutas históricas y notificaciones vía SMS o Internet
+- Operación de bajo consumo de datos usando paquetes de posición concisos de 34 bytes para reducir el uso de GPRS y los costos operativos
+- GPS integrado con LBS como respaldo para mejorar los reportes en entornos urbanos o con señal deficiente
+- Alarmas de seguridad y protección como notificaciones de exceso de velocidad y geocercas, además de modo de ahorro de energía
+- Capacidad de corte remoto del motor usando el relé suministrado para control del inmovilizador
+- Batería de respaldo opcional y memoria flash interna para alertas por corte de alimentación y registro offline
 
 ## Cómo funciona con Plaspy
 
-El NR006 se integra con Plaspy enviando paquetes concisos de posición GPS/LBS y eventos de alarma a través de SMS o GPRS a los endpoints de ingestión de Plaspy. Plaspy procesa dichos paquetes para ofrecer seguimiento en tiempo real, reproducción de rutas y alertas configurables. Dado que el NR006 está optimizado para reportes de ancho de banda bajo, es ideal para implementaciones que requieren telemetría continua sin un alto consumo de datos.
+El NR006 envía paquetes de posición compactos y mensajes de evento por SMS o Internet que Plaspy recibe y procesa. Una vez que los datos llegan a Plaspy, quedan disponibles para seguimiento en vivo, reproducción de rutas, notificaciones y generación de reportes, permitiendo supervisión operativa para pequeñas flotas y equipos de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy vía Internet \(GPRS\) o SMS.
-- Posicionamiento GPS con respaldo LBS garantiza la ubicación incluso en cañones urbanos y zonas de baja señal.
-- Las notificaciones de alarma y eventos \(exceso de velocidad, incumplimiento de geocerca, alarmas de reposo/ahorro de energía\) aparecen en Plaspy como alertas inmediatas.
-- Inmovilizador remoto/corte de motor: comandos de control de relé desde Plaspy pueden activar el relé suministrado para tomar acciones antirrobo.
-- Registro offline opcional: la memoria flash interna \(si está instalada\) almacena datos que Plaspy puede ingerir una vez que se restaure la conectividad; la batería de respaldo opcional admite alarma por corte de energía y operación a corto plazo.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy vía Internet o SMS para visibilidad continua
+- Posicionamiento GPS con respaldo LBS que ayuda a mantener los reportes de ubicación en zonas con cobertura deficiente
+- Notificaciones de alarmas y eventos, como exceso de velocidad y violaciones de geocerca, que aparecen en Plaspy como alertas configurables
+- Soporte para inmovilizador remoto: Plaspy puede enviar comandos para accionar el relé suministrado y cortar el vehículo cuando esté configurado
+- Registro offline y batería de respaldo opcional permiten retener datos y generar alertas por corte de energía hasta que Plaspy reciba los registros almacenados
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | NR006 Mini GPS Tracker |
-| --- | --- |
-| Conectividad | GSM/GPRS \(informes de posición por SMS o Internet\) |
-| Bandas | No especificadas en la descripción |
-| Tamaño del paquete de datos | Paquetes de posición concisos de 34 bytes \(minimizan el uso de datos GPRS\) |
-| GNSS | Antena GPS integrada; se admite respaldo LBS \(Location Based Service\) |
-| Alimentación y batería | Aprox. 100 g; batería de respaldo integrada opcional para alarma de corte de energía \(opcional\) |
-| Interfaces | Conexión de 3 hilos simple; relé suministrado para corte remoto del motor / control del inmovilizador |
-| Registro de datos | Memoria flash interna opcional para almacenamiento sin conexión cuando la comunicación no está disponible |
-| Gestión remota | Acceso 24/7 a través de software de seguimiento del cliente; compatible con Plaspy para comandos remotos y alertas |
-| Formato | Ultra-compacto, montaje en vehículos/motocicletas; instalación discreta |
-
-## Casos de uso
-
-- Gestión de flotas para pequeñas flotas de vehículos y mensajeros en motocicleta: seguimiento en tiempo real y historial de rutas se alimentan a Plaspy para la supervisión operativa.
-- Antirrobo y recuperación: inmovilizar un vehículo de forma remota mediante comandos de Plaspy cuando se detecta movimiento no autorizado o incumplimiento de geocerca.
-- Monitoreo del comportamiento del conductor: alarmas de exceso de velocidad y reproducción de rutas ayudan a los responsables a orientar a los conductores y a mejorar la seguridad.
-- Programación de mantenimiento e informes de utilización del vehículo: la telemetría compacta admite flujos de trabajo de mantenimiento preventivo mediante los informes de Plaspy.
-- Despliegues de bajo ancho de banda: paquetes de 34 bytes y respaldo LBS mantienen la conectividad y reducen los costos de datos en redes limitadas.
+- Rastreo de flotas de mensajería en motocicleta y vehículos pequeños donde el espacio y el peso son limitados
+- Monitorización antirrobo y procesos de recuperación con inmovilización remota y alertas inmediatas a través de Plaspy
+- Supervisión del comportamiento del conductor mediante alertas de exceso de velocidad y reproducción de rutas para capacitación y mejora de la seguridad
+- Planificación de mantenimiento e informes de utilización donde la telemetría compacta apoya la programación preventiva
+- Despliegues de bajo ancho de banda que se benefician del tamaño reducido de los paquetes y la disminución de costos de datos
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el NR006 con Plaspy ofrece una solución equilibrada para las organizaciones que requieren seguimiento GPS discreto y de bajo costo, con características esenciales de gestión de flotas y protección antirrobo. El tamaño reducido del NR006 y su instalación de tres hilos lo hacen ideal para motocicletas e instalaciones en espacios limitados, mientras que el relé suministrado permite un control fiable del inmovilizador desde Plaspy. Su formato de reporte de datos reducido y el respaldo LBS mantienen la telemetría en áreas de cobertura difíciles, ayudándole a mantener una visibilidad continua sin grandes facturas de GPRS.
+El NR006 es una opción acertada cuando necesita un rastreador compacto y discreto que se integre en una plataforma de gestión de flotas ya establecida. Su pequeño tamaño y reportes de bajo consumo lo hacen ideal para instalaciones en motocicletas y otros lugares de difícil montaje, mientras que el respaldo integrado y el registro offline opcional ayudan a mantener el flujo de datos hacia Plaspy incluso cuando la conectividad es intermitente.
 
-La integración de datos NR006 en Plaspy añade valor operativo: telemetría consolidada, alertas configurables para eventos de ignición o exceso de velocidad, e informes históricos que respaldan el monitoreo de combustible y la planificación del mantenimiento cuando se combinan con sensores externos o dispositivos complementarios.
-
-Para equipos centrados en mejorar la seguridad y la eficiencia de la flota mediante un dispositivo compatible con Plaspy, el NR006 ofrece una base fiable y compacta para un rastreo de vehículos escalable y la inmovilización remota.
-
+Si sus operaciones requieren hardware discreto, funciones básicas de alarma e inmovilización remota manteniendo bajos los costos de datos, el NR006 junto con Plaspy ofrece una base práctica para seguimiento, alertas e informes históricos. Conozca más sobre Plaspy en https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información actual en el sitio del fabricante http://www.norantracker.com/ antes de comprar o desplegar.

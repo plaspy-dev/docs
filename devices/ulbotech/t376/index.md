@@ -2,66 +2,59 @@
 slug: /ulbotech/t376
 id: t376
 sidebar_label: T376
+title: Ulbotech - T376
 sidebar_class_name: menu_item_tracker
+description: OBDII plug and play GPS tracker with real time vehicle telemetry and Plaspy compatibility for fleet tracking and anti theft control
+keywords:
+  - Ulbotech T376
+  - T376 GPS tracker
+  - Ulbotech tracker
+  - T376 Plaspy compatible
+  - OBDII GPS
+  - vehicle telemetry
+  - fleet tracking
+  - immobilizer tracker
+  - GNSS tracker
+  - FOTA tracker
 ---
+
 # Ulbotech - T376
 
 ![T376](./tracker.jpg)
 
-The Ulbotech T376 is a plug-and-play OBDII GPS tracker engineered for reliable vehicle telemetry and fleet management. Designed around a Telit xE910 family cellular module with GSM/WCDMA \(and 2G/3G/4G-ready variants\) plus built-in Wi‑Fi, the T376 delivers flexible, cost‑aware communications. As a Plaspy compatible GPS tracker, it brings instant access to real-time tracking, OBDII vehicle parameters and an integrated immobilizer that work together to improve uptime, safety and anti‑theft response.
+The Ulbotech T376 is a plug‑and‑play OBDII GPS tracker built for vehicle telemetry and fleet management. Designed to provide location reporting, engine and vehicle parameter access, and anti‑theft control from the OBDII port, the T376 combines GNSS positioning, cellular and Wi‑Fi communications, on‑board accelerometer event detection, and remote firmware update capability for practical in‑vehicle deployments.
 
-The T376 pairs u‑blox MAX‑7 GNSS positioning \(GPS + GLONASS with AssistNow AGPS\) and a high‑gain active antenna to provide fast time‑to‑first‑fix and accurate location reporting even when the unit is hidden. With on‑board OBDII and SAE J1939 support, a 3‑axis accelerometer for driver behavior events, fuel and engine telemetry, and FOTA updates over cellular or Wi‑Fi, the T376 is optimized to integrate with Plaspy for comprehensive, real‑time fleet intelligence and remote device management.
+As a Plaspy compatible device, the T376 delivers real‑time tracking and engine telemetry into Plaspy’s fleet tools. Its OBDII data, driver behavior events and immobilizer output integrate into Plaspy for live mapping, alerts, reporting and remote device management, making the unit a suitable option for organizations that want faster deployment and consolidated fleet visibility inside the Plaspy platform.
 
 ## Key Highlights
 
-- Plug‑and‑play OBDII installation for rapid fleet deployment and immediate telemetry from engine and vehicle sensors.
-- Plaspy compatible for real‑time tracking, alerts, geo‑fencing and fleet management dashboards.
-- Dual‑mode communications \(cellular + Wi‑Fi\) with automatic link selection to balance reporting speed and operational cost.
-- Integrated immobilizer \(engine cut\) and a dedicated digital output for anti‑theft control and rapid vehicle disablement.
-- Comprehensive OBDII & SAE J1939 support: RPM, speed, engine coolant temperature, fuel level/consumption and DTCs for deep telemetry.
-- u‑blox MAX‑7 GNSS with GPS/GLONASS and a high‑gain active antenna for fast TTFF and ~2.5 m typical horizontal accuracy.
-- On‑device driver behavior detection using a 3‑axis accelerometer to support fuel monitoring and safety programs.
+- Plug‑and‑play OBDII form factor for fast installation and immediate access to engine and vehicle sensor data.
+- Plaspy compatible for real‑time location, alerts, geo‑fencing and centralized fleet dashboards.
+- Dual communication paths via cellular and Wi‑Fi to balance connectivity reliability and operational cost.
+- Integrated immobilizer output for remote engine cut control and faster anti‑theft response.
+- GNSS positioning with assisted AGPS and a high gain antenna to support rapid fixes and accurate reporting.
+- Onboard accelerometer for driver event detection that feeds safety and fuel use analysis in Plaspy.
 
 ## How It Works with Plaspy
 
-The T376 sends vehicle location, OBDII telemetry and sensor events to Plaspy over cellular or Wi‑Fi. Plaspy ingests these data streams for live mapping, historical playback, alerts and automated reports. The device’s automatic selection between Wi‑Fi and cellular helps ensure continuous real‑time tracking while minimizing data costs. FOTA support allows firmware updates to be applied remotely so devices stay secure and feature‑aligned with Plaspy platform enhancements.
+The T376 streams location, OBDII telemetry and event data to Plaspy over its active data channel. Plaspy ingests these feeds to present real‑time maps, event alerts and historical reports, and to allow remote device management workflows such as firmware updates. Automatic selection between Wi‑Fi and cellular keeps tracking active while helping manage data use.
 
-- Real‑time location and telemetry updates \(GPS/GLONASS positions plus OBDII parameters\).
-- Ignition and engine output monitoring with a built‑in immobilizer \(engine cut\) for anti‑theft actions.
-- Fuel monitoring and consumption data via OBDII and related vehicle sensors to support cost control reports.
-- Driver behavior and event detection \(hard braking, rapid acceleration, cornering\) from the 3‑axis accelerometer.
-- Wi‑Fi and cellular redundancy for robust connectivity; FOTA over GPRS/WCDMA or Wi‑Fi enables remote firmware management.
+- Live location tracking and historical playback for fleet visibility and route analysis.
+- Engine and ignition monitoring combined with the immobilizer output for coordinated anti‑theft actions configured inside Plaspy.
+- OBDII telemetry such as engine parameters and diagnostic data available to Plaspy reports for maintenance and cost control.
+- Driver behavior events from the accelerometer used to trigger alerts and support safety scoring.
+- Remote firmware management and device status visibility to keep deployed units updated and operational.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | Ulbotech T376 \(OBDII plug‑in tracker\) |
-| --- | --- |
-| Connectivity | Telit xE910 family cellular module \(GSM/WCDMA; 2G/3G/4G‑ready variants\) with EDGE/GPRS fallbacks; built‑in Wi‑Fi \(802.11 b/g/n\) |
-| Bands | GSM 850/900/1800/1900 MHz; WCDMA bands including 800/850/900/1700/1900/2100 MHz; HSPA up to 21 Mbps downlink |
-| Power & Battery | Operating voltage 8–32 V DC; internal Li‑Polymer backup battery 3.7 V, 180 mAh; power consumption ~70 mA active, ~10 mA sleep \(max &lt;250 mA\) |
-| Interfaces | OBDII \(J1962\) supporting J1850 PWM/VPW, ISO 9141‑2, ISO14230 KWP2000, ISO15765‑4 CAN, SAE J1939; micro USIM slot; micro USB port; digital output for engine cut/immobilizer |
-| GNSS | u‑blox MAX‑7 \(56 channels\) with GPS + GLONASS, AssistNow AGPS; typical horizontal accuracy ~2.5 m \(autonomous\); TTFF: cold ~30 s, hot ~1 s |
-| Wi‑Fi | 802.11 b/g/n, WPA/WPA2, WPS; used as alternate data channel and for FOTA |
-| Antennas | Internal GSM/WCDMA, Wi‑Fi and GPS antennas; high‑gain 25×25 mm active ceramic GPS antenna integrated |
-| Sensors | 3‑axis accelerometer \(multiple selectable ranges\); vehicle and backup battery voltage sensing; temperature monitoring |
-| Memory | Built‑in memory ~16 MB \(approx. 40,000 records\) |
-| Geo‑features | Geo‑fence support \(circle, rectangle, polygon up to 32 points\); tracking by time/distance/status; auto APN and time zone identification |
-| Dimensions & Weight | 50 × 50 × 23 mm \(excluding J1962 connector\); ~50 g |
-| Operating Conditions | Operating temperature −30°C to +80°C \(without battery\) |
-| Remote Management | FOTA \(firmware over‑the‑air\) via GPRS/WCDMA or Wi‑Fi |
-| Indicators & Accessories | Internal LEDs \(GSM/GPS/OBD/Bluetooth\); standard micro USB cable; optional OBD cables and immobilizer modules |
-
-## Use Cases
-
-- Fleet management — live vehicle tracking, route replay, maintenance alerts and fuel consumption analysis.
-- Anti‑theft & immobilization — rapid engine cut via the built‑in immobilizer output plus geofence alerts for unauthorized movement.
-- Driver behavior programs — monitor harsh events, score drivers and reduce fuel costs with telemetry-driven coaching.
-- Rental, insurance and compliance — remote diagnostics, DTC capture and usage records to support claims and billing.
-- Roadside assistance and safety — quick location sharing and vehicle state telemetry to speed response.
+- Fleet management for deliveries, service vehicles and mixed fleets requiring live tracking and engine telemetry.
+- Anti‑theft and vehicle recovery programs that use immobilizer control and geofence alerts to reduce theft risk.
+- Driver safety and coaching programs that rely on harsh event detection to improve behavior and lower fuel use.
+- Rental and insurance monitoring where OBDII data and location history support billing, claims and compliance.
+- Roadside assistance and rapid response services that benefit from immediate vehicle state and location data.
 
 ## Why Choose This Tracker with Plaspy
 
-When you pair the Ulbotech T376 with Plaspy, you get a Plaspy compatible GPS tracker built for practical fleet needs: rich OBDII telemetry, robust GNSS positioning, and flexible connectivity that can switch between Wi‑Fi and cellular to preserve data costs while maintaining real‑time tracking. The integrated immobilizer and digital engine‑cut output provide a direct anti‑theft control channel, while the 3‑axis accelerometer and driver behavior events feed Plaspy’s reporting and alerting tools for improved safety and fuel monitoring.
+The Ulbotech T376 is a practical choice for organizations that need a compact, OBDII plug‑in tracker which brings engine telemetry and immobilizer control into a single device. When paired with Plaspy, the combination provides consolidated visibility of location, vehicle health signals and driver events, enabling operational decisions, alerts and reporting from one platform.
 
-The T376’s plug‑and‑play form factor, compact dimensions and FOTA support make deployment, remote maintenance and scaling straightforward. For companies that require dependable telemetry, ignition and immobilizer control, and consistent real‑time tracking across mixed mobile networks, the T376 offers a practical, Plaspy‑ready solution that emphasizes reliability, cost control and actionable vehicle intelligence.
-
+For more information about Plaspy and how compatible devices like the Ulbotech T376 can be used in your fleet, learn more on the Plaspy website https://www.plaspy.com. Product specifications, features and availability can change over time, so please verify current details with the manufacturer at http://www.ulbotech.com/ before making a procurement or deployment decision.

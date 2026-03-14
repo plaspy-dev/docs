@@ -2,64 +2,60 @@
 slug: /topshine/mt08
 id: mt08
 sidebar_label: MT08
+title: TopShine - MT08
 sidebar_class_name: menu_item_tracker
+description: Compact waterproof motorcycle GPS tracker MT08 compatible with Plaspy for real time tracking alerts and fleet monitoring
+keywords:
+  - TopShine MT08
+  - MT08 GPS tracker
+  - TopShine tracker
+  - motorcycle GPS tracker
+  - 4G GPS tracker
+  - Plaspy compatible
+  - fleet tracking
+  - anti theft tracker
+  - real time tracking
+  - vehicle tracker
 ---
+
 # TopShine - MT08
 
 ![MT08](./tracker.jpg)
 
-# MT08 Mini Motorcycle 4G GPS Tracker
+The MT08 Mini Motorcycle 4G GPS Tracker is a compact, waterproof tracking unit designed for motorcycles, scooters and small vehicles. It combines cellular connectivity and a built in Bluetooth module with a small form factor optimized for concealed under seat placement, delivering location, status and alarm reporting suitable for fleet managers and individual riders.
 
-The MT08 Mini Motorcycle 4G GPS Tracker is a compact, waterproof tracking unit designed for motorcycles, scooters and small vehicles. Plaspy compatible out of the box, the MT08 pairs its 4G/2G connectivity and built-in Bluetooth with Plaspy’s platform to deliver real-time tracking, telemetry and alarm reporting for fleet management and anti-theft protection.
-
-The MT08 is optimized for concealed installation \(under-seat placement\) and supports a wide vehicle input voltage range \(9V–36V\), making it suitable for most two-wheelers and small fleet vehicles. With real-time web and mobile access plus SMS/GPRS \(TCP/UDP\) and call/SMS location retrieval, the MT08 gives fleet managers and riders fast, actionable location and status data via Plaspy.
+As a Plaspy compatible device out of the box, the MT08 can deliver real time position updates, alerts and basic telemetry into Plaspy’s dashboard and reporting tools. Its combination of wide input voltage tolerance, multiple reporting channels, and optional accessories makes it a practical option when integrating two wheel assets into Plaspy for tracking, security and operational oversight.
 
 ## Key Highlights
 
-- Plaspy compatible for seamless integration with your real-time tracking dashboard and reporting tools.
-- Compact, waterproof design for concealed under‑seat installation on motorcycles and small vehicles.
-- 4G/2G SIM connectivity with SMS/GPRS \(TCP/UDP\) fallback for consistent data delivery.
-- Built-in Bluetooth module enables smart alarm functions and optional driver ID identification.
-- Wide input voltage \(9V–36V\) supports motorcycles, scooters and a broad range of vehicles.
-- Motion-sensor sleep mode, over-speed, geo-fence, movement and power-failure alerts to protect assets.
-- Optional fuel sensing, SOS panic button and remote listening accessories for expanded telemetry and security.
+- Ready for Plaspy integration for live tracking and event reporting.
+- Compact waterproof housing suited to concealed under seat installation on motorcycles and scooters.
+- 4G and 2G cellular connectivity with SMS and GPRS fallback for consistent data delivery.
+- Built in Bluetooth for smart alarm functions and optional driver identification.
+- Wide operating input voltage range to support a broad set of two wheel and small vehicle electrical systems.
+- Movement, geo fence, SOS and power failure alerts help protect vehicles and trigger notifications.
+- Support for optional fuel sensing and remote listening accessories to expand telemetry capabilities.
 
 ## How It Works with Plaspy
 
-When installed and connected, the MT08 continuously collects GPS position and vehicle telemetry and sends that data to Plaspy using its cellular link or SMS/GPRS channels. Plaspy ingests location, status and alert messages to provide live maps, event notifications and historical reports. The device’s Bluetooth and I/O signals are also passed through to Plaspy where supported, enabling richer fleet management and alarm workflows.
+Once connected, the MT08 sends position, status and alert messages to Plaspy using its cellular or SMS/GPRS channels. Plaspy ingests those messages to display live map views, generate notifications, and store historical events for reporting and analysis. The device’s onboard inputs and Bluetooth events are forwarded where supported, enabling a richer set of fleet workflows within Plaspy.
 
-- Real-time location and telemetry updates to Plaspy via 4G/2G or SMS/GPRS \(TCP/UDP\).
-- Ignition/engine on-off detection \(optional\) reported to Plaspy for runtime and mileage tracking.
-- Optional fuel monitoring sensors relay consumption and level data for fuel monitoring in Plaspy.
-- Bluetooth-enabled smart alarms and driver ID events are passed to Plaspy for user-level alerts.
-- SOS panic, movement, geo-fence and power-failure alerts trigger instant Plaspy notifications and history logging.
+- Live location updates and vehicle status streaming into Plaspy for operational visibility.
+- Event alerts such as SOS, movement, geo fence and power failure trigger Plaspy notifications and history entries.
+- Device inputs and Bluetooth based events can be surfaced in Plaspy for driver ID and alarm workflows.
+- Historical route and event reporting in Plaspy supports post trip review and performance analysis.
+- Optional fuel level messages and auxiliary telemetry are available in Plaspy for consumption reporting when accessories are fitted.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | MT08-4G |
-| --- | --- |
-| Connectivity | 2G/4G SIM connection; SMS/GPRS \(TCP/UDP\) and call/SMS location retrieval |
-| Bands | Not specified \(region-dependent\) |
-| Power & Battery | Operating input +9V to +36V \(1.5A\); built-in backup battery ~350mAh \(3.7V\) |
-| Interfaces | 2 digital inputs, 1 output, 1 analog input; SOS button, optional microphone/remote listening |
-| GNSS | GPS L1 1575.42 MHz; 20-channel all-in-view; sensitivity down to -158 dBm; position accuracy ~10 m \(2D RMS\) |
-| Bluetooth | Built-in Bluetooth module for smart alarm functions and optional driver ID |
-| Remote Management | Free online tracking platform \(www.track-car.com\) and mobile version; configuration via SMS/GPRS; optional USB configuration cable accessory |
-| Form Factor & Environmental | Dimensions 60 × 50 × 22 mm; weight 65 g; waterproof; operating temp -20°C to 75°C; humidity 5%–95% non-condensing |
-| Standard Accessories | Main unit, wiring harness, built-in battery |
-| Optional Accessories | Ultrasonic or cuttable fuel sensors, microphone, SOS button, configuration USB cable |
-
-## Use Cases
-
-- Fleet management for motorcycle couriers and delivery services — real-time tracking, mileage and over-speed alerts to improve routing and safety.
-- Anti-theft protection for personal motorcycles — concealed installation, movement and power-failure alerts plus SOS support to help recover stolen vehicles.
-- Rental and rental-by-hour scooters — driver ID via Bluetooth and mileage reporting for usage accounting and accountability.
-- Fuel monitoring for fuel-sensitive operations — optional ultrasonic or cuttable fuel sensors provide fuel-level telemetry to Plaspy for consumption analysis.
-- Security and remote diagnostics — optional microphone/remote listening and wired I/O enable remote status checks and alarm verification.
+- Real time fleet tracking for motorcycle courier and delivery services to improve routing and oversight.
+- Anti theft monitoring for personal motorcycles and scooters using concealed installation and alerting.
+- Rental and shared scooter operations that need driver identification and usage accounting.
+- Fuel monitoring for small fleets using optional sensors to track consumption and losses.
+- Remote security and status checks using optional listening and wired I O features for verification.
 
 ## Why Choose This Tracker with Plaspy
 
-The MT08 Mini Motorcycle 4G GPS Tracker is a practical choice for operators who need compact hardware that fits discreetly on two-wheel vehicles while delivering full telemetry to Plaspy. Its broad voltage tolerance and waterproof housing make it durable across a range of vehicle electrical systems and environments. Because the MT08 supports multiple reporting channels \(4G/2G and SMS/GPRS\), Plaspy users benefit from reliable, low-latency position updates and fallbacks for areas with variable coverage.
+The MT08 is a practical choice for organizations that need a discreet, weather resistant tracker for two wheel vehicles while keeping integration straightforward. Its broad voltage support and compact design make it compatible with many motorcycle and small vehicle installations, and Plaspy can leverage the device’s reporting channels and alert signals to provide continuous visibility and event handling.
 
-Combined with optional fuel sensors, SOS, and Bluetooth-based driver ID, the MT08 expands a Plaspy deployment from basic real-time tracking to a richer telematics solution that supports fleet efficiency, anti-theft workflows, and behavioral monitoring. The free online platform and mobile access make it simple to start tracking quickly, while the MT08’s compact yet feature-rich design keeps installations discreet and maintenance minimal.
-
+Because the MT08 supports multiple reporting paths and optional accessories, it can scale from simple real time tracking to richer telematics use cases within Plaspy, including alerts, driver events and fuel monitoring. To learn more about how Plaspy can use devices like the MT08 for fleet and asset management visit https://www.plaspy.com. Please note that product specifications and availability can change over time and you should verify current technical details and accessories with the manufacturer at https://www.gztopshine.com/

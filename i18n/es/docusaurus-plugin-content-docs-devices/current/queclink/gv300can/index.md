@@ -2,61 +2,60 @@
 slug: /queclink/gv300can
 id: gv300can
 sidebar_label: GV300CAN
+title: QuecLink - GV300CAN
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS vehicular para gestión de flotas y monitoreo de cadena de frío compatible con Plaspy
+keywords:
+  - QuecLink GV300CAN
+  - rastreador GV300CAN
+  - Queclink GV300CAN
+  - GV300CAN compatible con Plaspy
+  - rastreador GPS vehicular
+  - rastreador para gestión de flotas
+  - rastreador cadena de frío
+  - rastreador vehicular CANBus
+  - rastreo de flotas en tiempo real
+  - rastreador compatible con Plaspy
 ---
+
 # QuecLink - GV300CAN
 
 ![GV300CAN](./tracker.png)
 
-El GV300CAN de Queclink es un rastreador GPS para vehículos de tercera generación, diseñado para una gestión de flotas robusta, logística de cadena de frío y monitoreo del transporte. Listo para Plaspy desde el primer uso, el GV300CAN combina una posición GNSS fiable de un receptor u‑blox All‑in‑One con comunicación GSM/GPRS para ofrecer seguimiento en tiempo real, telemetría programada e informes basados en eventos para flotas y vehículos de alto valor.
+El QuecLink GV300CAN es un rastreador GPS de tercera generación diseñado para aplicaciones vehiculares, gestión de flotas y monitoreo de la cadena de frío. Combina un receptor GNSS fiable con comunicación celular para ofrecer localización en tiempo real, telemetría programada e informes por eventos para flotas y vehículos de alto valor. Este hardware está pensado para aplicaciones de nivel vehicular donde la visibilidad continua de la ubicación y la captura de eventos son críticas.
 
-Diseñado para integrarse, el GV300CAN soporta transporte TCP/UDP y SMS y el protocolo propietario @Track de Queclink, lo que permite a Plaspy ingerir ubicación, datos CANBus del vehículo, alarmas y telemetría de sensores. El conjunto de E/S ampliable, el soporte CAN/J1708 y el acelerómetro a bordo lo hacen práctico para flujos de trabajo anti‑robo, monitorización de combustible, detección de impactos y control remoto del inmovilizador cuando se gestiona a través de Plaspy.
+Como dispositivo compatible con Plaspy desde el primer momento, el GV300CAN puede enviar posiciones, datos del bus del vehículo, alarmas y telemetría de sensores a Plaspy para su monitoreo y reporte centralizados. Esa compatibilidad facilita la inclusión de unidades GV300CAN en flotas mixtas gestionadas desde Plaspy, habilitando mapas en vivo, alertas y flujos de trabajo basados en datos sin necesidad de integraciones personalizadas.
 
-## Aspectos destacados
+## Características principales
 
-- Dispositivo de seguimiento GPS compatible con Plaspy para un seguimiento preciso en tiempo real de vehículos y activos.
-- Rendimiento GNSS de un receptor u‑blox All‑in‑One con precisión de posición \< 2,5 m CEP y sensibilidad de −162 dBm.
-- GSM/GPRS cuádruple banda \(850/900/1800/1900 MHz\) con transporte TCP/UDP/SMS para telemetría continua y reportes programados.
-- Soporte CANBus y J1708 para telemetría directa del vehículo — integre datos del motor, velocidad y diagnóstico en Plaspy.
-- Amplio conjunto de alarmas que incluye geocerca, estacionamiento, remolque, detección de impactos y alertas de batería de respaldo baja para una respuesta oportuna ante incidentes.
-- Detección del nivel de combustible y monitoreo de temperatura configurables vía sensores 1‑wire para apoyar la monitorización de la cadena de frío y la gestión del combustible.
-- Control remoto de salidas digitales para flujos de inmovilizador y respuesta anti‑robo cuando se combina con el sistema de mando y control de Plaspy.
-- Formato compacto y robusto con amplio rango de voltaje de operación \(8–32 V DC\) para instalaciones versátiles en vehículos.
+- Rastreador compatible con Plaspy para un seguimiento vehicular y de activos preciso en tiempo real.
+- Posicionamiento GNSS a través de un receptor All in One de u blox con alta sensibilidad y rendimiento de posición de nivel submetro en muchas condiciones.
+- Comunicación celular con múltiples opciones de transporte para actualizaciones programadas e informes por eventos.
+- Captura de datos del bus del vehículo y diagnóstico que permite correlacionar estado del motor y telemetría de velocidad con posiciones GNSS.
+- Alarmas configurables, incluida geocerca, estacionamiento, remolque y detección de choque para una respuesta más rápida ante incidentes.
+- Entradas para medición de nivel de combustible y temperatura que soportan casos de uso de monitoreo de cadena de frío y gestión de combustible.
+- Control remoto de salidas digitales para flujos de trabajo de inmovilización y antirrobo cuando se administra a través de Plaspy.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el GV300CAN transmite posiciones GNSS, marcos CANBus y eventos de entradas digitales/analógicas a la plataforma de seguimiento e informes en tiempo real de Plaspy. Plaspy utiliza el transporte TCP/UDP o SMS del dispositivo para recibir actualizaciones programadas por tiempo, distancia o kilometraje, y para activar alertas y flujos de trabajo automatizados basados en la telemetría entrante.
+Al conectarse a Plaspy, el GV300CAN transmite posiciones GNSS, tramas del bus del vehículo y eventos de entrada a la plataforma de seguimiento y reporte de Plaspy, de modo que los administradores de flota obtienen visibilidad unificada y alertas automáticas. Plaspy procesa telemetría programada y mensajes por eventos, luego aplica reglas, notificaciones e informes para apoyar la supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy mediante TCP/UDP o SMS para seguimiento en tiempo real en el mapa.
-- Captura de datos del vehículo CANBus/J1708 enviados a Plaspy para estado del motor, velocidad y telemetría diagnóstica.
-- Monitoreo de combustible y telemetría de temperatura disponibles para Plaspy a través de entradas analógicas y sensores 1‑wire para la cadena de frío y la optimización del combustible.
-- Control remoto del inmovilizador y salidas digitales: Plaspy puede emitir comandos para bloquear o desactivar vehículos cuando sea necesario.
-- Soporte de antena Bluetooth \(BLE\) facilita la integración con sensores BLE y beacons cuando se use junto con la monitorización de Plaspy.
+- Actualizaciones de ubicación en vivo y recorridos históricos aparecen en los mapas de Plaspy para monitoreo de rutas y reproducción.
+- La telemetría del bus del vehículo y las tramas de diagnóstico se reenvían a Plaspy para análisis de estado del motor, tendencias de velocidad y evaluación operativa.
+- Las entradas de sensores como temperatura y nivel de combustible alimentan los informes de Plaspy para garantizar la integridad de la cadena de frío y el control del consumo de combustible.
+- Las alarmas y disparadores de eventos en el dispositivo generan notificaciones en Plaspy por incumplimientos de geocerca, remolques o alertas de choque.
+- El control remoto de salidas permite a Plaspy enviar comandos de inmovilización u otras acciones sobre el dispositivo cuando sea necesario.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS \(cuádruple banda\), transporte TCP/UDP/SMS; protocolo @Track de Queclink |
-| --- | --- |
-| Bandas | GSM cuádruple banda: 850/900/1800/1900 MHz \(GPRS, clase de ranuras múltiples 10\) |
-| Alimentación & Batería | Voltaje de operación 8–32 V DC; batería interna de respaldo Li‑Polymer de 250 mAh; alarma de batería de respaldo baja |
-| Interfaces | RS232 \(Molex de 16 pines\), 1 entrada digital positiva + 2 entradas digitales negativas, 1 entrada analógica \(0–12 V o 0–30 V seleccionable\), 1 salida digital + 1 salida digital en retención \(open drain, máx. 150 mA\), mini USB |
-| GNSS | Receptor u‑blox All‑in‑One; sensibilidad de −162 dBm; precisión de posición \< 2,5 m CEP; soporte para antena GNSS interna/externa |
-| Bluetooth | Soporte de antena GSM/BLE interna \(habilita integración de sensores BLE/beacons cuando se use\) |
-| Gestión remota | Control remoto OTA de salidas digitales; mini USB para depuración y actualizaciones de firmware; soporte de protocolo para informes y comandos remotos |
-| Formato | 80 × 48 × 25 mm; 72 g; temperatura de operación −30 °C a +80 °C \(almacenamiento −40 °C a +80 °C\) |
-| Certificaciones y garantía | FCC, CE, E‑Mark, Anatel; garantía de un año para clientes afectados y soporte técnico de por vida de Queclink |
-
-## Casos de uso
-
-- Gestión de flotas: ubicación continua, eventos del conductor y telemetría CAN alimentan los paneles de Plaspy para el cumplimiento de rutas y análisis de utilización.
-- Logística de cadena de frío: monitorización de temperatura mediante sensores 1‑wire y reportes programados permiten mantener visibles los envíos perecederos en Plaspy.
-- Antirrobo e inmovilización: geocerca, remolque y alarmas de batería baja, además del control remoto de salidas digitales, permiten intervenciones rápidas a través de Plaspy.
-- Monitoreo de combustible y telemetría: detección analógica del nivel de combustible y datos CAN ayudan a reducir pérdidas de combustible y a soportar el seguimiento de costos en los informes de Plaspy.
-- Captura y reconstrucción de incidentes: acelerómetro de 3 ejes integrado y detección de impactos proporcionan datos de eventos para el análisis posterior al incidente.
+- Gestión de flotas para ubicación continua, captura de eventos del conductor y análisis de utilización.
+- Logística de cadena de frío donde la medición de temperatura y el reporte programado mantienen la visibilidad de envíos perecederos.
+- Flujos de trabajo antirrobo e inmovilización que combinan geocerca y control remoto de salidas para una respuesta rápida.
+- Monitoreo y telemetría de combustible para detección de pérdidas y control de costos en los informes de Plaspy.
+- Registro y reconstrucción de incidentes usando datos de eventos basados en acelerómetro correlacionados con la telemetría del vehículo.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GV300CAN ofrece una mezcla equilibrada de hardware de grado automotriz y interfaces flexibles que lo convierten en una opción práctica para los clientes de Plaspy centrados en el seguimiento en tiempo real, telemetría y flujos de trabajo anti‑robo. Su soporte CAN/J1708 permite a Plaspy ingerir datos detallados del vehículo junto a las posiciones GNSS, mientras que alarmas y entradas configurables respaldan casos de uso desde monitoreo de temperatura de la cadena de frío hasta gestión de combustible e inmovilización. El formato compacto, el amplio rango de voltaje y un entorno operativo robusto facilitan la instalación en flotas mixtas.
+El GV300CAN es ideal para organizaciones que requieren un rastreador vehicular capaz de entregar tanto posición GNSS como telemetría del bus del vehículo a una plataforma de flotas única. Su combinación de reportes programados y por eventos lo hace práctico para necesidades operativas mixtas, desde optimización de rutas hasta flujos de seguridad. Para clientes de Plaspy, el dispositivo ofrece un conjunto de datos familiar que puede alimentar mapas en vivo, alertas e informes analíticos sin integraciones personalizadas complejas.
 
-Nota sobre el ciclo de vida: Queclink anunció una retirada de la red 2G \(End‑of‑Life\) para el GV300CAN; el cese de 2G se produjo en junio de 2022. Queclink ofrece una garantía de un año para clientes afectados y soporte técnico de por vida; el fabricante recomienda el GV350CEU como alternativa para escenarios de retirada de 2G. Los usuarios de Plaspy deben evaluar la compatibilidad de red y planes de migración como parte de los despliegues a largo plazo de la flota.
-
+Para conocer más sobre cómo Plaspy puede trabajar con dispositivos como el QuecLink GV300CAN visite https://www.plaspy.com. Las especificaciones de producto y la disponibilidad pueden cambiar con el tiempo, por lo que verifique los detalles técnicos actuales y la orientación del fabricante en el sitio de Queclink en https://www.queclink.com/.

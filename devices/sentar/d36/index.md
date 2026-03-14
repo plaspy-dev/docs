@@ -2,64 +2,59 @@
 slug: /sentar/d36
 id: d36
 sidebar_label: D36
+title: Sentar - D36
 sidebar_class_name: menu_item_tracker
+description: Compact Sentar D36 kids smart watch offering Plaspy compatible real time tracking and two way communication
+keywords:
+  - Sentar D36
+  - D36 GPS tracker
+  - Sentar D36 Plaspy
+  - kids smart watch
+  - child tracker
+  - real time tracking
+  - two way voice
+  - GPS LBS WiFi
+  - 4G kids watch
+  - Plaspy compatible
 ---
+
 # Sentar - D36
 
 ![D36](./tracker.png)
 
-# D36 Kids Smart Watch
+The Sentar D36 is a purpose built 4G kids smart watch designed for parents who need dependable location awareness and simple two way communication. The device combines GPS, LBS and WiFi positioning with multi band cellular connectivity and a Nano SIM slot to deliver frequent location updates and voice connectivity in a compact smartwatch form factor. Its 1.28 inch IPS touch display, ABS plus PC housing and soft silicone strap make it comfortable for daily wear by children while the RTOS based architecture aims for stable operation.
 
-The D36 is a purpose-built 4G kids smart watch designed for parents who want dependable, Plaspy compatible real-time tracking and simple two-way communication. With GPS, LBS and WiFi positioning, the D36 delivers accurate location updates over global cellular networks and pairs seamlessly with Plaspy to provide continuous location awareness, activity monitoring and easy-to-access status information on the Plaspy platform.
-
-Built from ABS + PC with a soft silicone strap and a 1.28-inch IPS touch display, the D36 combines comfort, durability and an RTOS-based architecture for stable operation. Its Nano SIM slot and multi-band cellular support make it suitable for use across regions, while its integrated GPS chipset and mixed positioning modes ensure robust performance for everyday child safety monitoring and communication.
+As a Plaspy compatible device, the D36 can forward its location and status data into the Plaspy platform so caregivers and administrators gain continuous visibility and convenient controls. Plaspy ingests GPS, LBS and WiFi assisted fixes from the D36 to present live maps, historical tracks, configurable alerts and device status information, enabling straightforward monitoring and communication without complex setup.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for child safety — GPS, LBS and WiFi positioning for reliable location fixes.
-- Real-time tracking and two-way voice communication over 4G/WCDMA/GSM cellular networks using a Nano SIM.
-- Durable, comfortable form factor with ABS + PC housing and soft silicone strap for daily wear by children.
-- 1.28-inch IPS color touchscreen \(240×240\) for intuitive interaction and quick status checks.
-- Built-in 500mAh polymer battery designed for typical day use and stable power management on RTOS.
-- Multi-band cellular compatibility \(FDD, WCDMA, GSM\) for broad regional support and roaming possibilities.
-- Compact memory footprint \(128 MB RAM, 196 MB ROM\) and ASR3603S main chipset for efficient operation.
+- Plaspy compatible GPS tracker with GPS LBS and WiFi assisted positioning for improved location fixes.
+- Real time tracking and two way voice communication over cellular networks using a Nano SIM.
+- Comfortable and durable smartwatch design with ABS plus PC housing and soft silicone strap for daily wear.
+- 1.28 inch IPS touchscreen for quick status checks and simple interaction.
+- Built in 500mAh polymer battery and RTOS based firmware design for stable day to day operation.
+- Multi band cellular compatibility for broader regional use where listed bands are available.
 
 ## How It Works with Plaspy
 
-When used with Plaspy, the D36 reports location and device status through cellular data to the Plaspy platform. Plaspy ingests the D36’s GPS, LBS and WiFi-assisted location data to provide live map views, historical tracks and configurable alerts. Parents and administrators can monitor children’s positions in real time, receive battery and connectivity status updates, and use voice communication routed via the watch’s cellular link.
+When connected over cellular data, the D36 reports location and device status to Plaspy where that information is presented on live maps and in history views. Plaspy consolidates the D36’s mixed positioning data and status updates to support monitoring, alerts and simple communication workflows for caregivers and administrators.
 
-- Real-time location and telemetry updates delivered to Plaspy for live tracking and history playback.
-- Two-way voice communication over the device’s cellular connection for direct parent-child calls.
-- WiFi and LBS assisted positioning to improve fixes indoors and in urban canyons.
-- Device status and battery level updates visible in Plaspy so caregivers can act on low-battery warnings.
-- Geofencing and location alerts managed in Plaspy for automated notifications when a child enters or leaves predefined areas.
+- Live location updates and historical tracks available in Plaspy for continuous visibility.
+- Two way voice capability routed via the device cellular link to enable parent child calls recorded as device activity.
+- WiFi and LBS assisted positioning used to improve indoor and urban canyon fixes within Plaspy views.
+- Device status and battery level shown in Plaspy so low battery or connectivity issues can trigger notifications.
+- Geofence management and configurable alerts in Plaspy to notify when a device enters or leaves predefined areas.
 
-## Technical Overview
+## Typical Use Cases
 
-| Main Chipset | ASR3603S |
-| --- | --- |
-| GNSS / Location | Built-in GPS chipset; supports GPS + LBS + WiFi positioning |
-| Operating System | RTOS |
-| Memory | RAM 128 MB / ROM 196 MB |
-| SIM Card | Nano SIM card slot \(cellular data & voice\) |
-| Connectivity | 4G FDD / WCDMA / GSM cellular \(see bands\) |
-| Bands | FDD: B1, B2, B3, B5, B7, B8, B20; WCDMA: B1, B2, B5, B8; GSM: B2, B3, B5, B8 |
-| Battery | Built-in 500mAh polymer battery |
-| Display | 1.28-inch IPS color touch screen, 240×240 resolution |
-| Materials / Form Factor | ABS + PC housing with soft silicone strap; compact smartwatch design for children |
-| Bluetooth | Not specified |
-| Remote Management | RTOS-based device; remote management / FOTA not specified |
-
-## Use Cases
-
-- Child safety and location awareness: keep parents informed of a child’s real-time whereabouts during school runs, playtime and commutes.
-- Direct communication: two-way voice calls let parents reach children without a separate smartphone.
-- Travel and regional use: multi-band cellular support enables broader use across regions where listed bands are available.
-- Everyday activity monitoring: quick checks of device status and location history for routine reassurance.
+- Child safety and daily location awareness during school runs, playtime and commutes.
+- Direct parent child communication without the need for a separate phone.
+- Travel and regional use where multi band cellular support is required.
+- Routine device status checks and simple activity history for caregiver reassurance.
+- Use by childcare providers or small groups that require basic monitoring and alerting.
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the D36 as a Plaspy compatible GPS tracker gives parents a straightforward, child-focused solution that emphasizes reliable positioning and simple voice communication. Plaspy’s platform transforms the D36’s GPS/LBS/WiFi data into actionable insights — live maps, geofence alerts, and history — so families get continuous visibility and peace of mind without complex setup.
+The D36 is a focused, child centric device that pairs practical positioning and voice features with a wearable form factor. Integrated positioning options and cellular voice let families keep a compact, single device on a child while Plaspy turns those data streams into live maps, alerts and history that are easy to manage.
 
-For organizations or users who require broader IoT telemetry or fleet-grade features, Plaspy also supports a wide range of compatible devices and integrations for fleet management, anti-theft and telemetry use cases \(including fuel monitoring, ignition and immobilizer control, and Bluetooth sensors\) across the same management portal. The D36 fills the child-safety and family-communication niche within that ecosystem, while Plaspy lets you scale to additional device types as needs evolve.
-
+If you are evaluating trackers for family or caregiver use, the D36 offers a straightforward fit for basic tracking and communication needs inside the Plaspy ecosystem. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current specifications and compatibility with the official Sentar documentation at http://www.sentarsmart.com/.

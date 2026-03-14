@@ -2,64 +2,61 @@
 slug: /wanway/gs10g
 id: gs10g
 sidebar_label: GS10G
+title: WanWay - GS10G
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G WanWay GS10G para vehículos compatible con Plaspy, seguimiento en tiempo real, identificación de conductor y funciones antirrobo
+keywords:
+  - WanWay GS10G
+  - rastreador GS10G
+  - WanWay GS10G Plaspy
+  - rastreador GPS GS10G
+  - rastreador vehicular 4G
+  - GPS BDS
+  - dispositivo de seguimiento de flotas
+  - identificación de conductor 1 Wire
+  - rastreador inmovilizador vehicular
+  - seguimiento renta y taxis
 ---
+
 # WanWay - GS10G
 
 ![GS10G](./tracker.webp)
 
-# GS10G GPS Tracker
+El WanWay GS10G es un rastreador GPS vehicular profesional con conectividad 4G, diseñado para ofrecer monitoreo confiable y en tiempo real. Orientado a la gestión de flotas, telemática para aseguradoras, operaciones de renta y transporte de pasajeros, el GS10G combina comunicación Netcom 4G con navegación satelital GPS y BDS para proporcionar datos de ubicación continuos y telemetría esencial del vehículo. Entre sus funciones se incluyen detección de encendido ACC, alarma por desarme, alertas de exceso de velocidad, estadísticas de kilometraje y corte remoto de combustible o alimentación, lo que lo convierte en una opción práctica para quienes necesitan control de seguridad y respuestas rápidas.
 
-El GS10G es un rastreador GPS para vehículos 4G profesional, diseñado para despliegues compatibles con Plaspy de forma fiable. Construido para la gestión de flotas, aplicaciones de seguros, vehículos de alquiler y transporte de pasajeros, el GS10G combina una comunicación inalámbrica 4G Netcom completa con navegación satelital GPS/BDS para ofrecer un seguimiento preciso en tiempo real y telemetría del vehículo. Su conjunto de características — que incluye detección de ACC/ignición, alarma de desarme, alertas de sobrevelocidad, estadísticas de kilometraje y corte remoto de combustible y energía — lo convierte en una opción fiable para operadores que requieren datos de ubicación seguros y una respuesta rápida ante incidentes.
+Como dispositivo compatible con Plaspy, el GS10G se integra con la plataforma para mostrar actualizaciones de ubicación en vivo, alertas basadas en eventos e informes completos. La autenticación del conductor mediante identificación 1 Wire permite informes basados en conductor y flujos de trabajo de control de acceso, mientras que las funciones antirrobo e inmovilizador pueden activarse desde Plaspy para una respuesta centralizada ante incidentes. Esta compatibilidad hace del GS10G una alternativa útil para equipos que desean combinar hardware vehicular probado con las herramientas operativas y de monitoreo de Plaspy.
 
-Como dispositivo compatible con Plaspy, el GS10G se integra fácilmente en la plataforma de Plaspy para habilitar actualizaciones de ubicación en tiempo real, alertas basadas en eventos y reporting detallado. La identificación del conductor mediante 1-Wire permite una verificación de conductores segura para cumplimiento y despacho eficiente. Ya sea que necesite protección antirrobo, control del inmovilizador o telemetría a nivel de flota, el GS10G ofrece las capacidades básicas para respaldar los flujos de trabajo modernos de seguimiento de vehículos.
+## Aspectos clave
 
-## Puntos clave
-
-- Rastreador GPS 4G compatible con Plaspy para un seguimiento fiable en tiempo real y gestión de flotas.
-- Soporte dual de GNSS \(GPS/BDS\) para una mayor precisión de posicionamiento y cobertura.
-- Autenticación del conductor mediante identificación 1-Wire para reducir el uso no autorizado y habilitar informes basados en el conductor.
-- Protecciones antirrobo integradas: alarma de desarme, corte remoto de combustible y energía y alertas de sobrevelocidad.
-- Telemetría del vehículo y estadísticas de viajes, que incluyen detección de ACC/ignición y seguimiento del kilometraje.
-- Adecuado para seguros, flotas empresariales, taxis, alquileres y vehículos eléctricos de nueva energía.
-- Diseñado para integrarse fácilmente con el panel de Plaspy, alertas y flujos de generación de informes.
+- Rastreador vehicular 4G compatible con Plaspy para visibilidad y seguridad de flotas en tiempo real.
+- Soporte GNSS dual con GPS y BDS para mejor posicionamiento y cobertura.
+- Autenticación de conductor mediante 1 Wire para respaldar informes por conductor.
+- Funciones antirrobo integradas, incluyendo alarma por desarme y corte remoto de combustible o alimentación.
+- Detección de encendido ACC y estadísticas de kilometraje para registro de viajes y planificación de mantenimiento.
+- Alertas de exceso de velocidad y señales de evento para respaldar procesos de seguridad y cumplimiento.
+- Adecuado para telemática de aseguradoras, flotas de renta, taxis y despliegues empresariales de vehículos.
 
 ## Cómo funciona con Plaspy
 
-El GS10G envía datos de ubicación y eventos a través de 4G a la plataforma de Plaspy, donde dicha información se procesa para monitoreo en tiempo real, reproducción histórica y alertas automatizadas. Plaspy recibe coordenadas GNSS, indicadores de estado y telemetría del rastreador y las convierte en datos accionables para centros de operaciones, despachadores y propietarios de vehículos. La integración se enfoca en entregar notificaciones oportunas y reportes consistentes sin cambios adicionales de hardware.
+Cuando se conecta a Plaspy, el GS10G transmite datos de ubicación y eventos a través de enlaces móviles para que Plaspy los procese, muestre y actúe sobre la información. Plaspy convierte las coordenadas y estados entrantes en posiciones en el mapa, alertas e informes históricos que los equipos operativos y los propietarios de vehículos pueden usar para monitoreo, despacho y análisis postevento.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para seguimiento en vivo y visualización en mapa.
-- Informes de estado de ACC/ignición para activar reglas relacionadas con el motor y flujos de trabajo automatizados.
-- Alarmas de desarme y de sobrevelocidad enviadas a Plaspy para alertas inmediatas y manejo de incidentes.
-- Estadísticas de kilometraje y registros de viajes disponibles en Plaspy para la programación de mantenimiento y conciliación de facturas.
-- Control remoto de corte de combustible y energía \(inmovilizador\) integrado en Plaspy para inmovilización remota segura cuando esté autorizado.
-- Datos de identificación de conductor 1-Wire enviados a Plaspy para verificar conductores autorizados y generar informes basados en el conductor.
-- Funciona con feeds de telemetría de vehículos, y puede combinarse con el soporte de Plaspy para sensores adicionales y datos de activos cuando sea aplicable.
+- Actualizaciones de ubicación en tiempo real y visualización en mapa en Plaspy para seguimiento activo de la flota.
+- Reenvío de eventos como alarmas por desarme, notificaciones de exceso de velocidad y cambios de encendido para activar alertas.
+- Registros de viajes y kilometraje disponibles en Plaspy para programar mantenimiento y generar reportes operativos.
+- Datos de identificación de conductor enviados a Plaspy para bitácoras por conductor y verificaciones de autorización.
+- Acciones remotas de inmovilizador y controles seguros visibles en Plaspy cuando estén autorizadas.
+- Reproducción histórica y líneas de tiempo de incidentes para apoyar investigaciones y auditorías.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | 4G Netcom comunicación inalámbrica |
-| --- | --- |
-| Bandas | No especificado en la descripción del producto |
-| Alimentación & Batería | No especificado en la descripción del producto \(alimentado por el vehículo con función de corte remoto de energía\) |
-| Interfaces | Detección de ACC/ignición, alarma de desarme, corte remoto de combustible y energía \(control de inmovilizador\), estadísticas de kilometraje |
-| GNSS | Navegación satelital GPS y BDS |
-| Bluetooth | No especificado en la descripción del producto \(puede integrarse con sensores Bluetooth gestionados por Plaspy cuando la plataforma lo soporte\) |
-| Identificación de conductor | Identificación de conductor 1-Wire para verificación de conductores autorizados |
-| Gestión remota | Corte remoto de combustible y energía \(inmovilizador\) soportado; no se especifican detalles adicionales de gestión remota |
-| Forma | Rastreador montado en vehículo para automóviles de pasajeros, vehículos de flota y aplicaciones especializadas |
-
-## Casos de uso
-
-- Gestión de flotas — supervisar ubicación, comportamiento del conductor, kilometraje y recibir alertas de sobrevelocidad o desarme para mejorar la seguridad y la eficiencia.
-- Telemática de seguros — utilizar telemetría en tiempo real y registros de viajes para seguros basados en el uso y verificación de reclamaciones.
-- Operaciones de alquiler y taxi — verificar la identidad del conductor con 1-Wire, aplicar políticas del inmovilizador y proteger los activos contra el robo.
-- Concesionarios y tiendas 4S — gestionar vehículos de demostración, realizar seguimientos de pruebas de manejo y asegurar los vehículos en el lote con alarmas antirobo.
-- Vehículos eléctricos y de nueva energía — integrar telemetría del vehículo y funciones de control remoto de energía para la gestión de la energía y la seguridad.
+- Gestión de flotas de camionetas, camiones y vehículos mixtos que requieren supervisión de ubicación y conductores.
+- Telemática para aseguradoras en pólizas basadas en uso, soporte de siniestros y verificación de eventos.
+- Operaciones de renta y taxis para verificar conductores, disuadir robos y asegurar vehículos de forma remota.
+- Concesionarios y flotas de demostración para rastrear pruebas de manejo y proteger el inventario en lotes.
+- Implementaciones de vehículos eléctricos y de nueva energía que necesitan telemetría confiable y funciones de control remoto.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Conectar el GS10G a Plaspy ofrece a las flotas y operadores una combinación práctica de posicionamiento fiable, telemetría basada en eventos y verificación de conductor segura. La conectividad 4G del dispositivo y el posicionamiento GPS/BDS proporcionan un rendimiento de rastreo en tiempo real, mientras que características clave como detección de ACC/ignición, alarma de desarme, alertas de sobrevelocidad y corte remoto de combustible/energía ofrecen las capacidades antirobos e inmovilizador necesarias en aplicaciones exigentes. La plataforma de Plaspy añade valor al convertir datos brutos del dispositivo en informes, alertas y reglas operativas para una mejor toma de decisiones y una respuesta ante incidentes más rápida.
+El GS10G combina funciones prácticas enfocadas en vehículos con las capacidades de la plataforma Plaspy para ofrecer una solución equilibrada a operadores que requieren seguridad, responsabilidad del conductor y seguimiento continuo. Su mezcla de conectividad 4G, posicionamiento GNSS dual e identificación de conductor lo hace ideal para organizaciones que necesitan datos de ubicación confiables y controles basados en eventos sin cambios complejos de hardware.
 
-Ya sea que esté actualizando una flota mixta o desplegando un nuevo programa de seguimiento de vehículos, el GS10G ofrece una solución compacta y centrada en el vehículo que admite protección antirrobo, mantenimiento impulsado por telemetría y responsabilidad del conductor. Para organizaciones que priorizan la fiabilidad y las características prácticas de gestión de flotas, combinar el hardware GS10G con las herramientas de software de Plaspy ofrece una solución de rastreo segura y escalable.
-
+Si desea explorar cómo integrar el GS10G en su programa de seguimiento, Plaspy puede convertir los datos del dispositivo en alertas accionables, informes y reglas operativas. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com y verifique especificaciones y detalles del fabricante en el sitio de WanWay https://www.wanwaytech.net/. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos consultar la documentación oficial de WanWay para obtener la información más reciente.

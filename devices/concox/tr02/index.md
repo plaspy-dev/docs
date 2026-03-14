@@ -2,21 +2,62 @@
 slug: /concox/tr02
 id: tr02
 sidebar_label: TR02
+title: Concox - TR02
 sidebar_class_name: menu_item_tracker
+description: Affordable Concox TR02 GPS car tracker with built in antenna group management geo fence alerts and Plaspy compatibility
+keywords:
+  - Concox TR02
+  - Concox TR02 GPS tracker
+  - TR02 tracker
+  - TR02 Plaspy
+  - Concox tracker Plaspy
+  - vehicle tracker
+  - fleet tracking
+  - GPS car tracker
+  - geo fence tracker
+  - group management tracker
 ---
+
 # Concox - TR02
 
 ![TR02](./logo.jpg)
 
-The Concox TR02 is a GPS car tracking device with a built-in antenna. It is the first GPS vehicle tracker from Concox that offers a simple locating and tracking system. The simplicity of the TR02 makes it appealing to a wide range of users, and its affordable price makes it accessible to many. This GPS tracker is perfect for individuals or businesses looking for a cost-effective solution to track their vehicles.
+The Concox TR02 is a compact GPS car tracking device with a built in antenna designed for straightforward vehicle locating and tracking. Positioned as an entry level solution from Concox, the TR02 emphasizes simplicity and affordability while offering practical features such as group management, geo fence notification, multiple account support, and basic status indicators for GPS, GSM, and power.
 
-One of the standout features of the Concox TR02 is its group management capability. Users can easily manage their vehicles by setting up different groups, allowing for efficient organization and tracking. Additionally, the TR02 offers geo-fence notification, which enables users to set up a zone and receive notifications when the vehicle enters or exits that zone. This feature is particularly useful for monitoring vehicle movement and ensuring security.
+As a Plaspy compatible device, the TR02 fits naturally into vehicle monitoring and fleet workflows that prioritize ease of use and cost effectiveness. Its group and account features make it well suited to integrate with Plaspy for organized fleet views, geo fence alerts, and shared access among company users, enabling both individuals and businesses to add reliable tracked vehicles into the Plaspy platform.
 
-Another great feature of the Concox TR02 is its support for multiple accounts. This means that users can set up separate accounts for company users, allowing them to manage multiple vehicles under one platform. This feature is especially beneficial for businesses with a fleet of vehicles that need to be tracked and monitored.
+## Key Highlights
 
-The Concox TR02 is a lightweight and compact GPS tracker, weighing only 53g and measuring 86.7mm \(L\) x 44.0mm \(W\) x 13.7mm \(H\). It operates on a wide voltage input range of 9-36VDC and has a low power consumption of 25mA. The TR02 is designed to withstand various weather conditions, with an operating temperature range of -25℃ to 60℃ and an operation humidity range of 5% to 95% RH.
+- Built in antenna for a compact form factor and simple installation
+- Designed for straightforward locating and tracking with an emphasis on ease of use
+- Group management capability to organize multiple vehicles into logical sets
+- Geo fence notifications to alert when a vehicle enters or exits a defined zone
+- Support for multiple accounts to allow company user separation and shared access
+- Lightweight and compact dimensions suitable for vehicle deployment
+- Status LEDs for quick visual indication of GPS GSM and power state
 
-In terms of connectivity, the Concox TR02 supports GSM frequencies of 850/900/1800/1900 MHz and features a built-in high gain ceramic patch antenna for GPS tracking. It utilizes the MT3326 GPS chipset and has 20 GPS channels for accurate and reliable tracking. The TR02 also has three LED indicators for GPS, GSM, and power status, allowing users to easily check the device's status at a glance.
+## How It Works with Plaspy
 
-In summary, the Concox TR02 is a reliable and cost-effective GPS car tracking device with a built-in antenna. Its simplicity, group management capability, geo-fence notification, and support for multiple accounts make it an ideal choice for individuals and businesses looking to track and monitor their vehicles.
+When used with Plaspy, the Concox TR02 provides location updates and device status that Plaspy displays on its mapping and monitoring interfaces. Plaspy can consume the TR02 data to present vehicle movement, manage groups, and trigger notifications so teams can act on events in near real time.
 
+- Live location and position history visible on Plaspy maps for tracking and review
+- Group based organization inside Plaspy to mirror TR02 vehicle grouping and simplify fleet oversight
+- Geo fence events forwarded to Plaspy so administrators receive entry and exit notifications
+- Multi account handling to map TR02 users into company roles and controlled access in Plaspy
+- Dashboard indicators and device status shown within Plaspy to monitor connectivity and power at a glance
+
+## Typical Use Cases
+
+- Small business fleet monitoring with basic grouping and alerting requirements
+- Individual vehicle tracking for personal car security and location sharing
+- Delivery or service vehicles where simple location updates and geo fence alerts are sufficient
+- Rental or shared vehicle operations that need multi account access and oversight
+- Organizations looking for a cost effective way to add vehicle assets to Plaspy
+
+## Why Choose This Tracker with Plaspy
+
+The Concox TR02 is a practical option for organizations and individuals who need a straightforward, budget conscious GPS tracking device that pairs well with a fleet platform like Plaspy. Its built in antenna, compact size, and simple management features reduce complexity while providing the core capabilities most users require for vehicle visibility.
+
+Because the TR02 emphasizes group management, geo fence notification, and multi account support, it aligns with Plaspy workflows for organizing vehicles, delivering alerts, and sharing access among team members. For deployments where basic, reliable tracking and clear operational oversight are the primary goals, the TR02 offers a sensible balance between capability and cost within the Plaspy ecosystem.
+
+To learn more about Plaspy and how compatible trackers like the Concox TR02 can be used for vehicle tracking and fleet monitoring visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so verify current technical specifications and support information on the manufacturer site https://www.iconcox.com/.

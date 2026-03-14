@@ -2,63 +2,61 @@
 slug: /gotop/g36
 id: g36
 sidebar_label: G36
+title: GOTOP - G36
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS tipo cargador para auto compatible con Plaspy, seguimiento en tiempo real y doble carga USB
+keywords:
+  - GOTOP G36
+  - rastreador G36
+  - rastreador GPS GOTOP
+  - rastreador GPS G36
+  - G36 compatible con Plaspy
+  - cargador de auto con GPS
+  - seguimiento de vehículos
+  - seguimiento de flotas
+  - seguimiento en tiempo real
+  - rastreador con cargador USB
 ---
+
 # GOTOP - G36
 
 ![G36](./tracker.png)
 
-# G36 Car Charger GPS Tracker
+El G36 es un rastreador GPS compacto en formato de cargador para auto, diseñado para uso dentro del vehículo. Integra reportes continuos de ubicación con un cargador rápido USB dual, lo que permite enchufarlo a la toma de corriente del vehículo y ofrecer tanto funciones de carga como de rastreo. El posicionamiento se obtiene mediante GPS y BeiDou, y en entornos urbanos se complementa con WiFi y LBS; la conectividad celular incorporada transmite datos de ubicación y eventos a plataformas externas.
 
-G36 es un rastreador GPS para coche compacto que combina un fiable seguimiento en tiempo real compatible con Plaspy con la comodidad de un cargador rápido USB dual. Diseñado para uso en vehículo, el G36 se conecta al suministro de energía del vehículo y ofrece reportes de ubicación continuos mediante GPS y BeiDou, complementados por posicionamiento WiFi y LBS en entornos urbanos. Sus dos puertos USB de 2.1A mantienen cargados los dispositivos del conductor mientras la unidad registra movimientos y activa alarmas configurables para seguridad y supervisión de la flota.
+Como dispositivo compatible con Plaspy, el G36 suministra posiciones en tiempo real, eventos de alarma y el estado del equipo a la plataforma Plaspy para su representación en mapas, alertas, historial de rutas e informes. Esa combinación de carga a bordo y rastreo persistente hace del G36 una opción práctica para flotas, concesionarios y propietarios individuales que desean monitoreo básico antirobo y supervisión operativa integrada con los servicios de Plaspy.
 
-G36 es ideal donde el espacio y la simplicidad importan: un único accesorio ofrece tanto carga como seguimiento para coches, motos y otros vehículos de 12–24V. Como rastreador GPS compatible con Plaspy, el G36 proporciona datos de ubicación y eventos en tiempo real a la plataforma Plaspy para mapeo, alertas, historial de rutas e informes, ayudando a flotas, concesionarios y propietarios de vehículos a mejorar la protección anti robo y las operaciones basadas en telemetría.
+## Características principales
 
-## Key Highlights
+- Dos puertos USB de carga rápida para mantener los dispositivos del conductor con energía mientras se realiza el seguimiento continuo del vehículo.
+- Posicionamiento multimodal con GPS y BeiDou, complementado por WiFi y LBS para mejorar las fijaciones en áreas urbanas.
+- Conjunto de alarmas configurable que incluye geocercas, corte de energía, batería baja, vibración y notificaciones por desconexión.
+- Conectividad celular mediante Micro SIM para reporte en áreas amplias e integración con Plaspy.
+- Pequeña batería de respaldo y antena integrada para cubrir cortes breves de la alimentación del vehículo.
+- Factor de forma compacto tipo enchufe que combina la conveniencia de carga con capacidad telemétrica.
 
-- Rastreador GPS compatible con Plaspy que ofrece seguimiento en tiempo real y visualización de mapas para la gestión de flotas y vehículos individuales.
-- Dos puertos USB de carga rápida \(2.1A cada uno\) integran la carga de dispositivos con el seguimiento continuo en el vehículo — una unidad compacta para alimentación y seguridad.
-- Posicionamiento multimodo: GPS, BeiDou \(BD\), WiFi y LBS para fijaciones fiables tanto en cielo abierto como en entornos urbanos con edificios altos.
-- Conjunto completo de alarmas: geocerca electrónica, fallo de alimentación, batería baja, vibración y alarmas fuera de línea para respaldar flujos de trabajo contra robo.
-- Amplia compatibilidad celular: LTE-FDD y GSM con soporte en múltiples bandas globales para una cobertura de red amplia utilizando una Micro SIM.
-- Batería interna de respaldo pequeña \(50 mAh, 3.7V\) y antena integrada permiten continuar reportando durante breves interrupciones de energía.
-- Caja de ABS compacta y ligera \(85 × 49.2 × 26 mm, 41 g\) que se enchufa directamente a la toma de alimentación del vehículo para una instalación sencilla.
+## Cómo funciona con Plaspy
 
-## How It Works with Plaspy
+Cuando se conecta en un vehículo, el G36 captura datos GNSS y los complementa con WiFi y LBS en zonas donde las señales GNSS son menos fiables. El dispositivo envía actualizaciones de ubicación y notificaciones de eventos a través de la red celular hacia Plaspy, que presenta ubicación en vivo, alertas, reproducción de trayectos e informes mediante su interfaz de monitoreo.
 
-Al desplegarse en un vehículo, el G36 adquiere continuamente datos de posición GNSS y los complementa con WiFi y LBS cuando la calidad de GNSS puede verse reducida. La ubicación, eventos de alarma y estado del dispositivo se transmiten a través de la red celular a la plataforma Plaspy en tiempo casi real. Plaspy procesa los datos del G36 para presentar la ubicación en vivo, la reproducción de la ruta, alertas de geocerca y notificaciones configurables a través de interfaces web y móviles.
+- Actualizaciones de ubicación en tiempo real y reproducción histórica de rutas disponibles en Plaspy para visibilidad y análisis.
+- Eventos de geocerca enviados a Plaspy para activar alertas y acciones en flujos de trabajo para los operadores.
+- Notificaciones de pérdida de energía y batería baja encaminadas a Plaspy para señalar posibles manipulaciones o necesidades de mantenimiento.
+- Alarmas de vibración y desconexión reportadas a Plaspy para ayudar a detectar movimientos no autorizados o pérdida de conectividad.
+- El estado del dispositivo y los flujos de eventos son utilizados por Plaspy para soportar monitoreo de flota, notificaciones e informes básicos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento en vivo y reproducción histórica de rutas.
-- Eventos de geocerca \(geofence\) entregados a Plaspy para alertas inmediatas y flujos de trabajo operables.
-- Alarmas de fallo de alimentación y batería baja reportadas a Plaspy para señalar posibles manipulaciones o problemas de energía.
-- Alarmas por vibración y fuera de línea ayudan a detectar movimientos no autorizados y la pérdida de conectividad.
-- Las comunicaciones celulares basadas en Micro SIM permiten una cobertura de amplia área e integración con el sistema de alertas e informes de Plaspy.
+## Casos de uso típicos
 
-Nota sobre telemetría extendida: Plaspy admite telemetría adicional del vehículo \(monitoreo de combustible, estado de ignición, control del inmovilizador y sensores Bluetooth\) cuando estas fuentes de datos están disponibles. El G36 proporciona datos de ubicación y alarmas sólidos directamente; cuando se requieren entradas CAN-bus o sensores más ricos, Plaspy puede combinar las corrientes de ubicación del G36 con otros inputs telemáticos integrados para ofrecer telemetría completa de la flota y funciones de control del vehículo.
-
-## Resumen técnico
-
-| Conectividad | LTE-FDD y GSM celular via Micro SIM; antena integrada |
-| --- | --- |
-| Bandas | LTE-FDD listado: B1, B3, B5, B7, B8, B20 y variantes extendidas B1, B2, B3, B4, B5, B7, B8, B28, B66; GSM: B2, B3, B5, B8 |
-| Alimentación y batería | Voltaje de operación DC 9V–24V; corriente de funcionamiento 12V/73.6mA; corriente en modo reposo 12V/38.2mA; batería de respaldo de polímero de 50 mAh \(3.7V\) integrada |
-| Interfaces | Dos puertos de salida USB \(2.1A cada uno\) para carga de dispositivos; zócalo Micro SIM; enchufe de alimentación del vehículo \(conexión en-vehículo\) |
-| GNSS | GPS y BeiDou \(BD\) con posicionamiento que complementa WiFi y LBS |
-| Bluetooth | No especificado en la descripción del producto |
-| Gestión remota | No especificado en la descripción del producto \(la generación de informes se maneja mediante la conexión celular a Plaspy\) |
-| Chipset | AT6558D \(modelo de chip reportado\) |
-| Factor de forma | Carcasa de plástico ABS compacta y ligera, 85 mm × 49.2 mm × 26 mm; peso del módulo 41 g |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real continuo y historial de rutas para flotas de vehículos pequeñas y medianas, con carga de dispositivos del conductor a bordo.
-- Monitoreo anti-robos: alarmas de geocerca y vibración alertan a operadores y propietarios ante movimientos no autorizados para una respuesta rápida.
-- Vehículos de servicio y entregas: cargador a bordo y rastreo compatible con Plaspy mantienen a los conductores conectados y a los responsables informados.
-- Cobertura para vehículos 12–24V: adecuado para automóviles, motocicletas y vehículos comerciales ligeros que requieren un rastreo compacto con instalación mínima.
+- Seguimiento de pequeñas y medianas flotas donde la implementación simple y la carga de dispositivos del conductor son prioridades.
+- Monitoreo antirobo para autos de pasajeros y vehículos comerciales ligeros con alertas por geocerca y vibración.
+- Vehículos de servicio y reparto que se benefician de la carga a bordo más la visibilidad continua de ubicación.
+- Propietarios y concesionarios que buscan un accesorio de rastreo discreto que combine energía y telemetría.
+- Cobertura de vehículos en plataformas comunes de 12 a 24 voltios donde se prefiere un rastreador compacto tipo enchufe.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Optar por el G36 como rastreador GPS compatible con Plaspy ofrece un valor práctico: obtienes posicionamiento fiable GPS/BD y ubicación multimaodo \(WiFi/LBS\) encapsulado en un formato compacto de cargador de coche que reduce el tiempo de instalación y mantiene cargados los dispositivos del conductor. Para gestores de flotas centrados en el seguimiento en tiempo real, la protección anti robo y un despliegue sencillo, el G36 proporciona los datos centrales de ubicación y alarmas que Plaspy necesita para impulsar notificaciones, análisis de rutas y reportes de cumplimiento.
+El G36 es una opción práctica para organizaciones que requieren reportes de posición y eventos de alarma fiables sin instalaciones complejas. Su formato tipo cargador reduce el tiempo de instalación mientras mantiene los dispositivos del conductor con energía, y el equipo proporciona los datos de ubicación y eventos que Plaspy utiliza para mapas, alertas e historial de rutas.
 
-Mientras el G36 se centra en un reporte de posición robusto, alarmas y la conveniencia de carga, Plaspy puede ampliar sus capacidades mediante integraciones, combinando los datos de ubicación del G36 con telemetría adicional como monitoreo de combustible, estado de ignición, control del inmovilizador y sensores Bluetooth cuando esas fuentes de datos están presentes en un vehículo. Este enfoque flexible permite escalar las operaciones: use el G36 para despliegues enfocados en la ubicación y vaya agregando telemetría de vehículo más rica a lo largo de su flota según sea necesario.
+Plaspy complementa al G36 recopilando los flujos del dispositivo e integrándolos en paneles de flota, reglas de alerta e informes. Para operaciones que comienzan con la ubicación y luego agregan telemetría más avanzada, emparejar unidades G36 con Plaspy ofrece una vía sencilla para escalar el monitoreo y la supervisión operativa.
 
+Para saber más sobre Plaspy y cómo se soportan los dispositivos compatibles, visite https://www.plaspy.com. Las especificaciones y la disponibilidad de producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y la documentación del fabricante en el sitio oficial de GOTOP https://www.gotop.cc/.

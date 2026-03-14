@@ -2,59 +2,59 @@
 slug: /concox/ll302
 id: ll302
 sidebar_label: LL302
+title: Concox - LL302
 sidebar_class_name: menu_item_tracker
+description: Plaspy compatible Concox LL302 4G asset GNSS tracker for long term vehicle and asset monitoring
+keywords:
+  - Concox LL302
+  - LL302 tracker
+  - Concox tracker
+  - LL302 Plaspy
+  - 4G asset tracker
+  - vehicle tracking
+  - fleet tracking
+  - asset monitoring
+  - GNSS tracker
+  - long battery tracker
 ---
+
 # Concox - LL302
 
 ![LL302](./tracker.png)
 
-The LL302 from Concox \(model LL302‑E / LL302‑L variants\) is a Plaspy compatible 4G LTE Cat 1 asset GNSS tracker engineered for long‑term vehicle and asset tracking. Designed for rental fleets, logistics, transportation and high‑value asset monitoring, the LL302 combines multi‑source positioning \(GPS, BDS, LBS and Wi‑Fi assisted location\), robust sensors and a 6,000mAh industrial Li‑Polymer battery to deliver reliable real‑time tracking and extended deployment life.
+The Concox LL302 is an asset GNSS tracker built for long term vehicle and asset monitoring. Offered in regional variants LL302‑E and LL302‑L, the device uses 4G LTE Cat 1 communications with 2G fallback and multi source positioning including GPS, BDS, LBS and Wi‑Fi assist. With a 6,000mAh industrial battery, robust sensors and a magnetic stealth mount, the LL302 is aimed at rental fleets, logistics operations, transportation services and high value asset protection.
 
-When integrated with Plaspy, the LL302 provides actionable telemetry and alerting for fleet management, anti‑theft detection and environmental monitoring. Its stealthy magnetic mount, IPX5 water resistance and configurable reporting modes make it ideal for applications that require low maintenance, secure mounting and precise location intelligence.
+As a Plaspy compatible tracker, the LL302 streams location and sensor telemetry into the Plaspy platform so teams can monitor assets in real time, receive alerts, and run reports. The combination of long battery life, configurable reporting modes and tamper detection makes the LL302 a practical device to integrate into Plaspy for fleet oversight, anti theft workflows and environmental monitoring where optional temperature and humidity sensing is required.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker delivering precise real‑time tracking for fleet management and asset monitoring.
-- Multi‑source positioning: GPS + BDS + LBS plus Wi‑Fi assistance for improved location accuracy \(stated accuracy &lt;2.5 m CEP\).
-- Long endurance: 6,000mAh / 3.7V industrial Li‑Polymer battery with configurable modes \(regular GPS, tracking, power‑saving\) and up to one year standby in power‑saving mode.
-- Industrial sensors: accelerometer for vibration detection, light sensor for tamper alerts, hall effect for door/status detection and optional temperature & humidity sensors.
-- Reliable cellular: LTE Cat 1 communications with 2G GSM fallback; two regional hardware variants \(LL302‑E and LL302‑L\).
-- Rugged, stealthy design: strong magnetic base for near‑zero installation on metal surfaces and IPX5 protection against water jets.
-- Fast GNSS performance: excellent sensitivity \(tracking −165 dBm, acquisition −148 dBm\) with very fast TTFF \(hot start ≤1 s average, cold start ≤32 s average\).
+- Plaspy compatible tracker providing continuous real time location for fleet and asset monitoring.
+- Multi source positioning with GPS, BDS, LBS and Wi Fi assistance for improved fix reliability and stated accuracy under 2.5 m CEP.
+- Long endurance 6,000mAh industrial battery with configurable reporting modes to extend deployment life.
+- Built in sensors including accelerometer for vibration, light sensor for tamper detection and hall effect for door or status monitoring; optional temperature and humidity sensing available.
+- LTE Cat 1 primary connectivity with 2G fallback and two regional hardware variants for broader band coverage.
+- Rugged, low profile magnetic mount and IPX5 water resistance suited to discreet mounting on metal assets.
 
 ## How It Works with Plaspy
 
-The LL302 streams GNSS positions and sensor telemetry into Plaspy where the device appears as a Plaspy compatible asset. Plaspy ingests location updates, sensor events and alerts so you can monitor vehicles and assets in real time, configure geo‑fence rules, receive tamper and low battery notifications, and generate reports for fleet operations.
+When connected, the LL302 transmits GNSS positions and sensor events into Plaspy where the device appears as a managed asset. Plaspy ingests location updates and telemetry so operators can visualize movement, configure alerts and generate operational reports that support daily fleet workflows and security procedures.
 
-- Real‑time location and telemetry updates via LTE Cat 1 \(with 2G fallback\) for consistent connectivity.
-- Tamper and security alerts: light sensor detects exposure/removal attempts and accelerometer triggers vibrating/abnormal movement alerts.
-- Door/status monitoring: hall effect support and optional peripherals enable door open/close notifications.
-- Environmental telemetry: optional temperature \(−20℃ to +70℃, ±0.2℃\) and humidity \(5%–95% RH, ±1% RH\) sensors feed Plaspy for cold‑chain and container monitoring.
-- Geo‑fence, low battery and movement alerts are delivered through Plaspy for immediate operational response and anti‑theft workflows.
+- Real time location and telemetry updates to Plaspy using LTE Cat 1 with fallback for consistent connectivity.
+- Tamper and security alerts delivered from light sensor and accelerometer events for rapid response.
+- Door and status monitoring via hall effect inputs and optional peripherals for asset state visibility.
+- Environmental telemetry from optional temperature and humidity sensors feeds cold chain and container monitoring views.
+- Geo fence, low battery and movement alerts configured in Plaspy for automated notifications and operational follow up.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat 1 primary with 2G GSM fallback |
-| --- | --- |
-| Bands / Variants | Two hardware variants \(LL302‑E and LL302‑L\) cover different regional LTE bands \(specific bands per variant\) |
-| Power & Battery | 6,000mAh / 3.7V industrial Li‑Polymer battery; configurable working modes \(regular GPS, tracking, power‑saving\); up to one year standby in power‑saving mode |
-| Interfaces & Sensors | Accelerometer \(vibration\), light sensor \(tamper\), hall effect \(door/status\); optional temperature & humidity sensors \(peripheral\) |
-| GNSS | Multi‑GNSS: GPS and BDS plus LBS and Wi‑Fi assisted positioning; stated accuracy &lt;2.5 m CEP; sensitivity: tracking −165 dBm, acquisition −148 dBm |
-| Bluetooth | Not specified in device description |
-| Remote Management | Works with Concox cloud platforms and mobile apps for device monitoring and alerts; FOTA not specified |
-| Form Factor & Environmental | Compact magnetic base design \(95.0 × 59.0 × 29.2 mm with magnet, 233 g with magnet\); IPX5 water jet protection; Micro‑SIM slot; LED indicators for GNSS \(blue\), cellular \(green\) and power \(white\) |
-
-## Use Cases
-
-- Vehicle rental fleets — stealthy mounting, long battery life and tamper/vibration alerts protect assets and reduce shrinkage.
-- Logistics & transportation — real‑time tracking and optional environmental sensors enable efficient route monitoring and condition reporting.
-- High‑value asset monitoring — strong magnetic mounting and precise GNSS deliver reliable location for equipment and trailers.
-- Cold‑chain and container monitoring — integrate optional temperature and humidity sensors to feed Plaspy with environmental telemetry.
-- General asset management — configurable reporting modes let you balance reporting frequency and battery life for long deployments.
+- Rental fleets seeking discreet mounting, long battery life and tamper alerts to reduce shrinkage and loss.
+- Logistics and transportation providers that need real time tracking and optional environmental data for shipments.
+- Monitoring of high value assets and equipment where strong magnetic mounting and precise GNSS help locate assets quickly.
+- Cold chain and container monitoring using optional temperature and humidity sensors combined with location tracking.
+- General asset management programs that require configurable reporting intervals to balance visibility and battery life.
 
 ## Why Choose This Tracker with Plaspy
 
-The LL302 delivers a balanced combination of accuracy, endurance and rugged installation options, making it a practical choice for Plaspy users who need dependable GPS tracking and telemetry. Its 6,000mAh battery and power‑saving modes reduce maintenance cycles, while fast GNSS sensitivity and multi‑source positioning improve fix reliability in urban and rural environments. Built‑in tamper detection and vibration alerts strengthen anti‑theft workflows, and optional environmental sensors expand the device’s role into cold‑chain and container monitoring.
+The LL302 pairs practical endurance with multi source positioning and a compact, rugged design, making it a solid choice for organizations that require dependable tracking and periodic telemetry. Its sensor set supports basic tamper detection and status monitoring, while optional environmental sensing expands its usefulness into temperature sensitive transport and container use cases. For Plaspy users, that means a single device can serve both location intelligence and selected condition monitoring needs without frequent maintenance.
 
-Paired with Plaspy, the LL302 turns raw location and sensor data into operational insights for fleet management, automated alerts and reporting. If you require additional interfaces such as ignition/immobilizer control or Bluetooth sensors for your specific installation, discuss integration options with your Plaspy implementation team—Plaspy can often combine LL302 telemetry with external systems to support fuel monitoring, ignition/immobilizer workflows and broader fleet telemetry use cases.
-
+To learn more about how Plaspy can work with Concox devices and to evaluate fit for your fleet or assets, visit the Plaspy main website at https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify the current technical data and variant information on the manufacturer site https://www.iconcox.com/ before making purchasing or deployment decisions.

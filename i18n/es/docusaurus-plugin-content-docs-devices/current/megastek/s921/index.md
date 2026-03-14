@@ -2,60 +2,62 @@
 slug: /megastek/s921
 id: s921
 sidebar_label: S921
+title: Megastek - S921
 sidebar_class_name: menu_item_tracker
+description: Estación base fija compacta para detección de presencia y monitoreo supervisado compatible con Plaspy
+keywords:
+  - Megastek S921
+  - S921 rastreador GPS
+  - S921 estación base
+  - detección de zona domiciliaria
+  - compatible con Plaspy
+  - monitoreo residencial
+  - monitoreo supervisado
+  - detección de presencia
+  - reportes de alarma
+  - emparejamiento con tobilleras
 ---
+
 # Megastek - S921
 
 ![S921](./tracker.jpg)
 
-# S921 Estación base fija para el hogar
+El Megastek S921 es una estación base fija y compacta diseñada para ampliar sistemas de monitoreo supervisado en entornos residenciales y de instalaciones. Se empareja con tobilleras Megastek y ofrece detección local de presencia, múltiples señales de alarma y una opción de instalación permanente en interiores para apoyar una supervisión continua y auditada.
 
-El S921 es una estación base fija y compacta diseñada para ampliar y reforzar los sistemas de monitorización supervisados. Diseñada para emparejarse con rastreadores de tobillo Megastek \(por ejemplo MT200X y MT65\) y para integrarse con plataformas de monitoreo como Plaspy, el S921 ofrece detección fiable de presencia en el hogar, conectividad local y múltiples señales de alarma para garantizar una supervisión continua y auditable en despliegues residenciales o en instalaciones.
-
-Como opción de estación base compatible con Plaspy, el S921 mejora el seguimiento en tiempo real y la telemetría al reportar la presencia "en casa" cuando un rastreador de tobillo emparejado se encuentra dentro de su rango de detección de 15–20 metros. Instalado en una posición permanente dentro de una residencia o instalación, proporciona comunicaciones de respaldo, alarmas de manipulación y SOS y reportes automatizados de la zona de casa para que los equipos de monitoreo reciban actualizaciones de estado oportunas y operables.
+Como estación compatible con Plaspy, el S921 reporta automáticamente el estado "en casa" a la plataforma cuando la tobillera emparejada se encuentra dentro de su rango de detección. Sumado a su capacidad de reporte de alarmas y operación con respaldo, el S921 mejora la fiabilidad de la detección de presencia y del registro de eventos dentro de una residencia o centro monitoreado cuando se utiliza con Plaspy.
 
 ## Aspectos clave
 
-- Detección de zona de casa compatible con Plaspy: informe automático del estado 'en casa' cuando el rastreador de tobillo emparejado está dentro del rango.
-- Conectividad celular en múltiples modos \(2G/3G/4G\) y enlace Wi‑Fi al rastreador de tobillo para una comunicación sólida con el servidor.
-- Suite de alarmas integral: apagado, SOS de emergencia, manipulación/remoción y alarmas de golpe/impacto y envíos periódicos de latido para el monitoreo de integridad.
-- Batería de respaldo interna para mantener la operación ante interrupciones de la red eléctrica, reduciendo falsos avisos de desconexión.
-- Formato compacto y fijo para instalación permanente discreta en residencias o instalaciones supervisadas.
-- Diseñado para integrarse con plataformas de telemática y monitoreo para seguimiento en tiempo real, telemetría e informes centralizados.
+- Estación base dedicada que reporta automáticamente la presencia "en casa" para tobilleras emparejadas.
+- Alcance típico en interiores de aproximadamente 15–20 metros para indicar presencia en la residencia.
+- Conectividad celular multimodo más enlace Wi‑Fi para comunicación fiable con el servidor y detección local.
+- Conjunto completo de alarmas que incluye corte de energía, SOS, manipulación/retirada, impacto/golpe y reportes periódicos de latido.
+- Batería interna de respaldo para mantener la operación durante interrupciones de la red eléctrica y reducir falsos eventos fuera de línea.
+- Factor de forma compacto y fijo para una instalación permanente y discreta en residencias o instalaciones monitoreadas.
+- Diseñada para integrarse con plataformas de monitoreo para rastreo en tiempo real, telemetría centralizada y generación de informes.
 
 ## Cómo funciona con Plaspy
 
-El S921 actúa como una pasarela local de presencia entre el rastreador de tobillo y el backend de monitoreo. Cuando está emparejado y dentro de aproximadamente 15–20 metros, el S921 detecta la unidad del tobillo a través de un enlace inalámbrico local y reporta a Plaspy un estado de 'en casa'. Si el rastreador de tobillo sale del alcance, la base deja de detectarlo y Plaspy recibe la ubicación al aire libre directamente desde el rastreador de tobillo, habilitando un seguimiento continuo en tiempo real.
+El S921 actúa como una pasarela local de presencia entre la tobillera emparejada y Plaspy. Cuando la tobillera se detecta dentro del rango interior de la estación, ésta envía a Plaspy un estado "en casa"; cuando la tobillera sale del rango, la plataforma recibe la ubicación y la telemetría directamente de la unidad de tobillo, permitiendo una supervisión continua.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a Plaspy: presencia en la zona de casa frente al GPS al aire libre proporcionado por el rastreador de tobillo.
-- El estado de las alarmas: apagado, SOS, manipulación/remoción y alarmas de golpe/impacto se envían al servidor para alertas y flujos de trabajo.
-- Paquetes de latido \(heartbeat\): paquetes de estado periódicos aseguran que Plaspy reciba comprobaciones de estado del dispositivo de forma regular.
-- Funciones a nivel de plataforma: cuando se usa con unidades de tobillo compatibles y Plaspy, el sistema combinado admite paneles de telemetría, informes de eventos y alertas basadas en reglas para entornos supervisados.
-- Soporte de sensores complementarios: el S921 utiliza un enlace Wi‑Fi para la detección local; sensores Bluetooth o telemetría adicional \(monitoreo de combustible, ignición, funciones de inmovilizador\) son gestionados por el rastreador emparejado o la plataforma de monitoreo si esos dispositivos los soportan.
+- Actualizaciones de estado en tiempo real a Plaspy que diferencian la presencia en la zona domiciliaria frente a la posición exterior del rastreador.
+- Reenvío de alarmas por corte de energía, SOS, manipulación/retirada y golpes/impactos para alertar a los equipos de monitoreo.
+- Informes periódicos de latido que ayudan a Plaspy a mantener visibilidad sobre la salud del dispositivo y su conectividad.
+- Integración con funciones de la plataforma como paneles, informes de eventos y alertas basadas en reglas para programas supervisados.
+- Soporte complementario de detección y telemetría donde la detección local por Wi‑Fi se combina con la ubicación y los datos de sensores proporcionados por el rastreador.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM/GPRS/EDGE/UMTS/HSDPA/LTE‑TDD/LTE‑FDD \(2G/3G/4G\) y enlace Wi‑Fi al rastreador de tobillo emparejado |
-| --- | --- |
-| Bandas | Tecnologías celulares en bandas 2G/3G/4G \(variantes GSM/UMTS/HSDPA/LTE\) |
-| Alimentación y batería | Con alimentación de red para instalación permanente y batería interna de respaldo para resiliencia ante cortes de energía |
-| Interfaces | Enlace Wi‑Fi al rastreador de tobillo; entradas de alarma reportadas al servidor \(apagado, SOS, manipulación/remoción, golpe/impacto, latido\) |
-| GNSS | Módulo GPS opcional disponible; la posición principal al aire libre la proporciona el rastreador de tobillo emparejado |
-| Bluetooth | No incluido como interfaz principal — la detección local usa Wi‑Fi; el soporte de sensores BLE depende del rastreador de tobillo emparejado o de la integración de la plataforma |
-| Gestión remota | Diseñado para integrarse con servidores y plataformas de monitoreo de terceros \(el fabricante lista TeraTrack, Navixy, iTrack, Gurtam, Traccar, Geotrucks\); gestión e informes del lado del servidor a través de Plaspy cuando se configure |
-| Formato | Estación base fija para instalación interior; Dimensiones: 83 × 59 × 35 mm; Peso: 142 g |
-| Rango de detección | Aproximadamente 15–20 metros hacia el rastreador de tobillo emparejado \(entorno interior típico\) |
+- Programas de libertad condicional y arresto domiciliario que requieren verificación automática de la zona domiciliaria y reportes de alarma.
+- Centros de atención y residencias asistidas donde las comprobaciones de presencia y las alertas por caídas o impactos mejoran la respuesta del personal.
+- Despliegues de detención residencial para reducir reportes exteriores falsos y apoyar reglas de cumplimiento.
+- Instalaciones que complementan el rastreo GPS exterior con un anclaje local para mejorar la precisión en la distinción interior/exterior.
+- Programas de monitoreo supervisado que necesitan informes centralizados en tiempo real y registros de eventos auditables.
 
-## Casos de uso
+## Por qué elegir este dispositivo con Plaspy
 
-- Vigilancia de libertad condicional o confinamiento en el hogar: informes automáticos de 'en casa' a Plaspy combinados con alarmas de manipulación y SOS para programas de supervisión supervisada.
-- Viviendas asistidas y centros de cuidados — verificar presencia en la residencia, recibir alertas de caídas o golpes y agilizar la respuesta de cuidadores mediante telemetría central.
-- Detención residencial o arresto domiciliario — detección local fiable para reducir informes falsos de posición externa y hacer cumplir las reglas de la zona de casa.
-- Monitoreo perimetral de instalaciones — desplegar el S921 como anclajes fijos para complementar el GPS exterior del rastreador de tobillo, mejorando la precisión del estado interior/exterior.
+La estación base S921 aporta valor práctico a las implementaciones con Plaspy al reforzar la precisión de la zona domiciliaria y ofrecer múltiples canales de alarma que se integran directamente en los flujos de trabajo de la plataforma. Su instalación permanente y la batería de respaldo ayudan a mantener la consistencia en los reportes de estado, reduciendo condiciones falsas de desconexión y mejorando la integridad de los registros de monitoreo supervisado.
 
-## Por qué elegir esta estación base con Plaspy
+Cuando se utiliza con Plaspy, el S921 facilita a los operadores la consolidación de la detección de presencia, los eventos de alarma y la salud del dispositivo en una sola vista de monitoreo. Esa combinación soporta una respuesta más rápida, trazas de auditoría más claras y reportes de cumplimiento más confiables para programas de supervisión en entornos residenciales y de instalaciones.
 
-La estación base S921 aporta valor práctico a las implementaciones de Plaspy al mejorar la precisión de la zona de casa, proporcionar múltiples tipos de alarmas y mantener la continuidad de la conexión con respaldo de batería interna. Su instalación fija y el emparejamiento sencillo con rastreadores de tobillo compatibles la convierten en un componente de bajo mantenimiento que reduce alertas falsas y simplifica los flujos de trabajo de monitorización supervisada. Cuando está conectada a Plaspy, los operadores obtienen seguimiento en tiempo real centralizado, telemetría y alertas, lo que permite respuestas rápidas, trazas de auditoría claras y una mayor facilidad de cumplimiento de las políticas de supervisión.
-
-Elige la S921 con Plaspy cuando necesites una estación base para el hogar fiable e integrada profesionalmente, que se enfoque en la detección de presencia, la integridad de las alarmas y la generación de informes al servidor para la monitorización residencial supervisada. En instalaciones, sigue las pautas del fabricante sobre la colocación fija, el emparejamiento y las pruebas de conectividad y batería de respaldo de forma rutinaria para asegurar un rendimiento continuo de la monitorización.
-
+Para obtener más información sobre Plaspy y las funciones de la plataforma visite https://www.plaspy.com. Las especificaciones del producto, su disponibilidad y los detalles del fabricante pueden cambiar con el tiempo; verifique la información técnica y de soporte actual en el sitio web de Megastek https://www.megastek.com/.

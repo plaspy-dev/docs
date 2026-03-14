@@ -2,64 +2,59 @@
 slug: /reachfar/rf_v11
 id: rf_v11
 sidebar_label: RF-V11
+title: Reachfar - RF-V11
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS Reachfar RF V11 compacto con alarma inalámbrica antirrobo compatible con Plaspy para seguimiento de pequeños activos y alertas centralizadas
+keywords:
+  - Reachfar RF V11
+  - RF V11 rastreador
+  - RF V11 GPS
+  - Reachfar rastreador GPS
+  - Compatible con Plaspy
+  - Rastreador GPS Plaspy
+  - Alarma antirrobo
+  - Seguimiento de pequeños activos
+  - Alarma puerta ventana
+  - Rastreador portátil de activos
 ---
+
 # Reachfar - RF-V11
 
 ![RF-V11](./tracker.jpg)
 
-**ReachFar RF-V11**
+El Reachfar RF-V11 es un rastreador GPS compacto alimentado por batería que incorpora una alarma antirrobo inalámbrica pensada para pequeños activos, puertas, ventanas y cajas fuertes. No requiere cableado y combina posicionamiento GPS con detección multimodal, incluyendo contacto magnético, detección de vibración y reconocimiento por sonido, para ofrecer protección discreta y reporte de ubicación. El RF-V11 está dirigido a instaladores y usuarios finales que necesitan una solución de alarma y localización fácil de desplegar en entornos donde tender cables de alimentación o datos resulta impráctico.
 
-ReachFar
+Como dispositivo compatible con Plaspy, el RF-V11 puede enviar reportes de ubicación y eventos de alarma a un entorno de monitoreo centralizado para visibilidad y respuesta consolidada. Sus funciones de alertas por SMS y llamadas, capacidad de recibir comandos remotos y su formato compacto lo hacen una opción práctica cuando usted desea gestión centralizada de seguimiento y alarmas en Plaspy sin instalaciones complejas.
 
-RF-V11
+## Características principales
 
-El ReachFar RF-V11 es un rastreador GPS compacto compatible con Plaspy y una alarma anti-robo inalámbrica diseñada para proteger activos pequeños, puertas, ventanas y cajas fuertes sin cableado. Combinando conectividad GSM cuád-band con posicionamiento GPS integrado y detección multi-modo \(magnética, vibración y sonido\), el RF-V11 ofrece protección discreta alimentada por batería que reporta la ubicación y los eventos de alarma a los propietarios y a sistemas de monitoreo central como Plaspy.
-
-Diseñado para instaladores y usuarios finales que necesitan una solución sin cableado, el RF-V11 envía alertas por SMS inmediatas y llamadas automáticas cuando se activa una alarma, admite comandos SMS remotos para configuración y consultas de batería, e incluye una función de escucha remota para monitoreo en silencio del entorno del dispositivo. Al ser una unidad compatible con Plaspy, es ideal cuando se requieren rastreo en tiempo real y gestión centralizada de alarmas sin instalación compleja.
-
-## Principales características
-
-- Rastreador GPS compatible con Plaspy para monitoreo centralizado y rastreo en tiempo real de activos pequeños.
-- GSM cuád-band \(850/900/1800/1900 MHz\) para amplia cobertura de red y alertas por SMS/llamada confiables.
-- Protección anti-robo con múltiples sensores: contacto magnético, detección de vibración/shock y sensor de sonido/voz.
-- Batería integrada y recargable con carga USB; tiempo de espera aproximadamente 12 días \(según uso\).
-- SMS de alarma automático y marcación automática a números preconfigurados para notificación inmediata.
-- Escucha remota \(monitoreo en silencio\) y conjunto de comandos por SMS para una gestión remota flexible por parte de instaladores y propietarios.
-- Formato muy compacto \(45 × 34 × 14 mm; 29 g\) para instalación discreta en cajas fuertes, puertas, persianas y activos portátiles.
+- Rastreador compatible con Plaspy para monitoreo centralizado y seguimiento en tiempo real de pequeños activos
+- Conectividad GSM cuatribanda para amplio alcance de red y alertas fiables por SMS y voz
+- Protección antirrobo con múltiples sensores: contacto magnético, detección de impacto por vibración y detección por sonido
+- Batería recargable integrada con carga USB y aproximadamente 12 días de espera según el uso
+- Notificaciones automáticas por SMS y marcación automática a números preconfigurados para alertas inmediatas
+- Función de escucha remota y conjunto de comandos por SMS para gestión remota y verificación situacional
+- Factor de forma muy pequeño para colocación discreta en cajas fuertes, puertas, persianas y objetos portátiles
 
 ## Cómo funciona con Plaspy
 
-La integración con Plaspy permite centralizar los informes de ubicación y los eventos de alarma del RF-V11 en un único panel para seguimiento en tiempo real y alertas. El RF-V11 utiliza GSM para transmitir alertas por SMS y puede suministrar coordenadas GPS cuando se activa una alarma o se realiza una consulta de ubicación. Plaspy puede procesar estos informes y presentar ubicación, historial de eventos y telemetría básica a operadores y administradores.
+Al integrarse con Plaspy, los eventos y reportes de ubicación del RF-V11 se consolidan en un mismo panel para que operadores y administradores vean las alarmas y la información de posición junto con otros activos rastreados. Plaspy procesa los reportes del dispositivo y los presenta como posiciones mapeadas, historial de eventos y alertas centralizadas para facilitar la supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — los informes de posición GPS pueden enviarse a Plaspy para mapeo e historial.
-- Reenvío de eventos de alarma — alarmas del sensor magnético \(apertura/cierre de puerta\), vibración/shock y sensor de sonido/voz se convierten en alertas utilizables en Plaspy.
-- Escucha remota y confirmación de alerta — el dispositivo soporta llamadas remotas para monitoreo en silencio y puede usarse junto con las notificaciones de Plaspy.
-- Monitoreo de batería y alertas de batería baja — consultas de batería por SMS y alertas automáticas de batería baja ayudan a mantener el tiempo de actividad y se reflejan en el monitoreo central.
-- Gestión remota basada en comandos SMS — comandos SMS estándar permiten activar/desactivar sensores y verificar batería de forma remota; los usuarios de Plaspy pueden coordinar comandos cuando sea compatible.
+- Actualizaciones de ubicación en tiempo real e historial para mapear los elementos rastreados en Plaspy
+- Reenvío de eventos de alarma para que los disparadores magnéticos, por vibración y por sonido aparezcan como alertas accionables
+- La escucha remota y la confirmación de alertas pueden coordinarse con las notificaciones de Plaspy para mejorar la conciencia situacional
+- Monitorización de batería y alertas por batería baja reflejadas en el monitoreo central para ayudar a mantener la disponibilidad del dispositivo
+- Coordinación de gestión remota basada en SMS cuando los operadores necesiten consultar o configurar el dispositivo
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | GSM cuád-band \(850 / 900 / 1800 / 1900 MHz\); posicionamiento GPS integrado |
-| --- | --- |
-| Bandas | 850/900/1800/1900 MHz \(cuád-band\) |
-| Alimentación y batería | Batería recargable integrada con carga USB; tiempo de espera aproximadamente 12 días \(según uso\) |
-| Interfaces | Sensor magnético \(base magnética incluida\), sensor de vibración/shock, sensor de sonido/voz; interfaz de comandos SMS para control remoto y consultas de batería |
-| GNSS | Posicionamiento GPS \(informa la ubicación GPS; precisión no especificada\) |
-| Bluetooth | No especificado \(no se listan sensores BLE ni beacons en la especificación del producto\) |
-| Gestión remota | Códigos de comandos SMS para activar/desactivar sensores y verificar batería; admite SMS de alarma automáticos y notificaciones de marcación automática |
-| Formato | Formato compacto de 45 × 34 × 14 mm; peso del equipo 29 g; incluye base magnética, cargador, cable USB y manual de usuario |
-
-## Casos de uso
-
-- Cajas fuertes y cajas de seguridad — rastreador GPS discreto y alarmas de vibración/magnéticas para protección anti-robo y apoyo en la recuperación si se mueven.
-- Vitrinas, persianas y puertas — protección perimetral con alertas inmediatas por SMS/llamada ante intrusión forzada o intentos de corte.
-- Protección de activos portátiles — formato compacto alimentado por batería ideal para objetos de valor que requieren monitoreo temporal o encubierto.
-- Seguridad de propiedades o almacenamiento remoto — cabañas, quioscos y dependencias donde el cableado es impráctico.
+- Cajas fuertes y arcones donde se requiere detección antirrobo discreta y reporte de ubicación
+- Fachadas de tiendas, persianas y puertas que necesitan protección perimetral y notificación inmediata ante aperturas forzadas
+- Protección de activos portátiles y objetos de valor que requieren monitoreo temporal o encubierto
+- Propiedades remotas, kioscos y dependencias donde el tendido de cables es impráctico y se necesita protección autónoma
 
 ## Por qué elegir este rastreador con Plaspy
 
-El RF-V11 combina la simplicidad de un rastreador GPS anti-robo sin cableado con la visibilidad centralizada de Plaspy. Su tamaño compacto, su conjunto de alarmas multi-sensor y su batería autónoma lo hacen de bajo mantenimiento y fácil de desplegar, mientras que la GSM cuád-band garantiza un amplio alcance de red para SMS de alarmas y llamadas. Al conectarlo a Plaspy, obtienes una única vista para rastreo en tiempo real, consolidación de alarmas y telemetría básica para gestionar la seguridad de objetos pequeños junto a programas de flota o de activos de mayor tamaño.
+El RF-V11 es una opción sensata para organizaciones que buscan un dispositivo compacto, sin necesidad de cableado, que combine alarma y localización y que pueda enviar eventos a una plataforma central como Plaspy. Su combinación de detección multimodal y reporte de ubicación GPS ofrece notificación inmediata de alarmas y la posibilidad de recuperar o seguir un activo cuando se detecta movimiento. Para seguridad de objetos pequeños, protección perimetral y activos portátiles, el RF-V11 permite un despliegue de bajo mantenimiento e integración operativa sencilla.
 
-Nota sobre la funcionalidad: el RF-V11 está optimizado para la detección anti-robo basada en vibración, magnética y sonido y para el reporte de ubicación GPS. Las especificaciones no enumeran interfaces dedicadas de encendido o inmovilizador, monitoreo de combustible o soporte para sensores Bluetooth; las organizaciones que requieran telemetría avanzada de vehículos, control de encendido o integración de sensores BLE para gestión de flotas deberían combinar Plaspy con dispositivos que proporcionen explícitamente esas interfaces. Para usuarios centrados en una anti-robo discreta, protección perimetral y recuperación de ubicación, el RF-V11 es una opción fiable y compatible con Plaspy.
-
+Para obtener más información sobre cómo Plaspy centraliza el seguimiento y las alarmas, visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en el sitio del fabricante Reachfar https://www.reachfargps.com/ antes de finalizar cualquier despliegue.

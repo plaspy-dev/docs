@@ -2,73 +2,59 @@
 slug: /sinotrack/st_907
 id: st_907
 sidebar_label: ST-907
+title: SinoTrack - ST-907
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS cableado y compacto para vehículos compatible con Plaspy para seguimiento en tiempo real geocercas e inmovilizador
+keywords:
+  - SinoTrack ST-907
+  - Rastreador ST-907
+  - Rastreador SinoTrack
+  - ST 907 GPS
+  - ST-907 Plaspy
+  - ST-907 compatible
+  - Rastreador GPS para vehículos
+  - Rastreador encubierto para vehículo
+  - Dispositivo de rastreo para flotas
+  - Rastreador con inmovilizador
 ---
+
 # SinoTrack - ST-907
 
 ![ST-907](./tracker.jpg)
 
-# SinoTrack ST-907
+El SinoTrack ST-907 es un rastreador GPS cableado y compacto pensado para una instalación discreta en vehículos y para el reporte continuo de posición. Combina un tamaño reducido con antenas GPS y GSM de alta sensibilidad integradas y soporte quad band GSM, lo que le permite enviar datos de ubicación y alarmas mediante SMS y GPRS. El ST-907 incluye control remoto por relé para corte de combustible o alimentación, opciones de alarma por exceso de velocidad y geocerca, y comandos administrativos y de diagnóstico vía SMS para manejo local.
 
-El SinoTrack ST-907 es un rastreador GPS compacto y cableado, diseñado para instalación encubierta en vehículos y para un monitoreo fiable compatible con Plaspy. Su factor de forma miniatura, las antenas GPS y GSM de alta sensibilidad integradas y el soporte GSM de cuatro bandas hacen del ST-907 una opción práctica para el seguimiento en tiempo real, la respuesta ante robos y la gestión de flotas en una amplia variedad de vehículos.
+Este modelo es relevante para usuarios de Plaspy porque admite configuración de servidor IP y puerto, y puede apuntarse a plataformas de terceros para monitoreo en tiempo real. Configurando el APN y los parámetros del servidor del dispositivo, el ST-907 puede enviar actualizaciones de posición y eventos de alarma a Plaspy, de modo que flotas y administradores reciban seguimiento en vivo, alertas y reportes consolidados dentro de la plataforma de Plaspy.
 
-El ST-907 reporta la posición y alertas mediante SMS y GPRS, y admite configuraciones configurables de servidor IP/puerto, lo que permite conectarlo a plataformas de terceros como Plaspy. Con control remoto por relé para cortar circuitos de combustible o energía, alarmas por exceso de velocidad y geocercas, y diagnósticos por SMS, el ST-907 ofrece telemetría esencial y capacidad de inmovilización para automóviles, taxis, motocicletas y vehículos logísticos.
+## Puntos clave
 
-## Puntos Clave
+- Rastreador cableado y compacto, adecuado para instalación oculta en autos, motocicletas y vehículos comerciales ligeros.
+- Envía posición y alarmas por SMS y GPRS, ofreciendo seguimiento en tiempo real y respaldo por SMS.
+- Permite configurar IP y puerto de servidor para reenviar datos a plataformas de terceros como Plaspy.
+- Control remoto mediante relé para cortar circuitos de combustible o energía, habilitando funciones tipo inmovilizador.
+- Antenas GPS y GSM de alta sensibilidad integradas para fijaciones de posición confiables en entornos vehiculares habituales.
+- Soporta alarmas por exceso de velocidad y geocercas, además de diagnóstico por SMS y control de números autorizados.
 
-- Compatible con Plaspy vía IP/puerto de servidor GPRS configurable — reporta seguimiento en tiempo real y alarmas a Plaspy usando los comandos SMS/GPRS del dispositivo.
-- GSM de cuatro bandas \(850/900/1800/1900 MHz\) para amplia cobertura regional y selección flexible de SIM \(SIM no incluida\).
-- Antenas GPS y GSM de alta sensibilidad integradas para fijaciones de posición fiables en instalaciones típicas de vehículos.
-- Control remoto por relé para cortar combustible o circuitos de energía — función práctica de antirrobo/inmovilizador para vehículos.
-- Actualizaciones de ubicación en tiempo real por SMS y GPRS, alarmas de exceso de velocidad y geocercas configurables para gestión de flotas y seguridad.
-- Gestión de números autorizados y diagnósticos por SMS para un control y solución de problemas rápido en terreno.
-- Factor de forma mini para facilitar su ocultamiento durante la instalación en coches, motocicletas y vehículos ligeros comerciales.
+## Cómo funciona con Plaspy
 
-## Cómo Funciona con Plaspy
+Cuando se configura para Plaspy, el ST-907 envía actualizaciones de ubicación y eventos de alarma a la plataforma para que los operadores puedan monitorear el movimiento de los vehículos y responder a incidentes. El dispositivo usa su conexión GPRS para reportes continuos y puede recurrir al SMS como respaldo; los instaladores deben ajustar el APN y los parámetros de servidor para que los mensajes se envíen al endpoint de ingestión de Plaspy.
 
-El ST-907 envía datos de ubicación y alarmas por GPRS o SMS. Como el dispositivo permite configurar IP y puerto del servidor vía SMS, puede configurarse para reportar directamente al endpoint del servidor de Plaspy. Los instaladores y administradores pueden inicializar el dispositivo configurando APN y parámetros del servidor, luego dirigir el dispositivo a Plaspy para habilitar el seguimiento en tiempo real, alertas e informes dentro de su cuenta de Plaspy.
+- Reporte de ubicación en tiempo real mediante GPRS con respaldo por SMS para mantener visibilidad.
+- Eventos de alarma reenviados, como exceder la velocidad o violaciones de geocerca, aparecen en Plaspy como alertas accionables.
+- Las acciones de inmovilizador por relé pueden integrarse como eventos de control remoto cuando Plaspy soporta comandos al dispositivo.
+- La configuración por SMS y la gestión de números autorizados permiten control local y solución rápida de problemas cuando la conectividad de red es limitada.
+- Los datos enviados por el dispositivo permiten a Plaspy poblar mapas, registros de eventos e informes históricos para supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real por GPRS \(posición, velocidad, alarmas de exceso de velocidad\) y SMS como respaldo.
-- Alarmas y eventos de estado: la alarma de exceso de velocidad y alertas de geocerca configurables son compatibles y pueden ser reenviadas a Plaspy como eventos de alarma.
-- Inmovilizador remoto: el corte de combustible/energía mediante relé puede utilizarse como una característica de inmovilización controlada por SMS o por comando de la plataforma \(sujeto al soporte de Plaspy para comandos de relé remotos\).
-- Gestión de números autorizados y control por SMS para acceso administrativo local y seguro cuando no haya acceso a la red.
-- Configuración vía SMS: configurar APN, IP y puerto del servidor usando comandos de inicialización por SMS del dispositivo para conectar el rastreador al endpoint de ingestión de Plaspy.
+## Casos de uso típicos
 
-## Notas de Configuración
+- Seguimiento de pequeñas flotas para vehículos de reparto y servicio que requieren geocercas y alertas por exceso de velocidad.
+- Escenarios de antirrobo y recuperación vehicular empleando inmovilizador remoto e informes de alarma.
+- Operaciones de taxi y transporte por aplicación que necesitan instalación discreta y gestión de números autorizados.
+- Rastreo de motocicletas y vehículos particulares donde se prefiera un factor de forma mini y reporte por SMS/GPRS.
+- Vehículos logísticos y comerciales ligeros que se benefician de telemetría básica y notificaciones de eventos.
 
-Para conectar el ST-907 a una plataforma de terceros, use los comandos de configuración por SMS del dispositivo. La documentación del dispositivo proporciona los pasos de inicialización recomendados \(reemplazar la IP y el puerto del servidor de ejemplo por los valores del servidor de Plaspy\):
+## Por qué elegir este rastreador con Plaspy
 
-- SMS1: 7100000 — comando de inicialización del dispositivo.
-- SMS2: 8040000 &lt;server\_IP&gt; &lt;port&gt; — configurar la IP y el puerto del servidor GPRS \(reemplazar por valores de Plaspy\).
-- SMS3: 8030000 &lt;APN&gt; &lt;APNuser&gt; &lt;APNpassword&gt; — configurar APN del operador solo si es requerido por la SIM.
+El ST-907 es una opción práctica para organizaciones que necesitan un rastreador cableado y compacto con opciones de reporte flexibles y capacidad básica de inmovilizador. Su posibilidad de configurarse para reportar a un servidor de terceros facilita la integración con Plaspy para monitoreo en mapas, alertas y reportes rutinarios sin depender de plataformas de otros proveedores.
 
-Nota: el ST-907 no incluye tarjeta SIM; elija una SIM local con el plan de datos y opciones de roaming deseados. El dispositivo también puede usarse con la plataforma SinoTrack PRO del fabricante \(ejemplos de IP de servidor por defecto proporcionados por SinoTrack\), pero para la compatibilidad con Plaspy configure la IP/puerto del servidor a los valores de Plaspy y confirme cualquier requisito de autenticación con la documentación de Plaspy.
-
-## Visión Técnica
-
-| Conectividad | Informes por GPRS y SMS sobre GSM de cuatro bandas \(850/900/1800/1900 MHz\) |
-| --- | --- |
-| Bandas | GSM de cuatro bandas 850 / 900 / 1800 / 1900 MHz |
-| Potencia y Batería | Instalación por cable en vehículo. Batería interna de respaldo no especificada en la descripción del producto. |
-| Interfaz | Salida por relé para corte remoto de combustible/energía; comandos de diagnóstico y control por SMS. No se detallan I/O digitales específicos ni entradas de ignición en la descripción. |
-| GNSS | Antenas GPS de alta sensibilidad integradas para fijaciones fiables \(la precisión no especificada en la descripción suministrada\) |
-| Bluetooth | No se listan sensores Bluetooth ni interfaces BLE en la descripción del producto \(verificar si se requiere BLE\). |
-| Gestión Remota | Configurar APN y IP/puerto del servidor vía SMS. Soporta consulta/cambio de IMEI vía comandos SMS; compatible con SinoTrack PRO web/app \(plataforma gratuita\). |
-| Formato | Rastreador por cable de tamaño mini para instalación oculta en coches, taxis, motocicletas y vehículos ligeros comerciales. |
-
-## Casos de Uso
-
-- Gestión de flotas para pequeñas empresas — seguimiento en tiempo real y alertas de geocerca y exceso de velocidad para mejorar rutas y seguridad.
-- Antirrobo e inmovilización — corte remoto de combustible/energía mediante relé para desincentivar el hurto.
-- Vehículos de taxi y ride-hailing — instalación discreta combinada con seguimiento en tiempo real y control de números autorizados.
-- Seguimiento de motocicletas y coches particulares — factor de forma mini para montaje oculto y actualizaciones fiables por SMS/GPRS.
-- Logística y vehículos de reparto — rastrear activos en tiempo real y recibir notificaciones de geocerca y exceso de velocidad.
-
-## Por Qué Elegir Este Rastreador con Plaspy
-
-El SinoTrack ST-907 es una opción práctica compatible con Plaspy cuando se necesita un rastreador GPS compacto y con cable, con informes flexibles y capacidad básica de inmovilización. Su GSM de cuatro bandas y los informes por SMS/GPRS le ofrecen la posibilidad de usar la plataforma gratuita SinoTrack PRO o dirigir el dispositivo a Plaspy actualizando la IP/puerto del servidor y el APN. Para operadores enfocados en la gestión de flotas, protección antirrobo y telemetría sencilla, el ST-907 proporciona un bloque de construcción confiable que se integra a los flujos de trabajo de seguimiento en tiempo real, alertas y reportes de Plaspy.
-
-Antes del despliegue, confirme los valores requeridos de IP/puerto del servidor de Plaspy y cualquier método de autenticación para que pueda aplicar los comandos de inicialización por SMS del dispositivo. También verifique los requisitos locales de registro de IMEI cuando corresponda y seleccione un plan SIM que se ajuste a sus necesidades de datos y roaming. Si requiere sensores Bluetooth o telemetría extendida \(sensores de nivel de combustible, datos CAN-bus, etc.\), revise modelos alternativos o consulte con el proveedor sobre accesorios y notas de integración.
-
-Soporte y Garantía: SinoTrack suministra diagramas de cableado, imágenes de instalación y un manual de usuario para activación y configuración. El fabricante ofrece soporte 24 horas, opciones de envío, incluyendo mensajería exprés, y una garantía de dos años para productos con procedimientos de reporte de defectos tal como lo documenta SinoTrack.
-
+Si usted considera el ST-907 para usar con Plaspy, confirme los ajustes de servidor recomendados por Plaspy y cualquier requisito de autenticación de la plataforma antes del despliegue para que el dispositivo pueda inicializarse correctamente. Conozca más sobre Plaspy y cómo se usan los dispositivos compatibles para la gestión y monitoreo de flotas en https://www.plaspy.com y verifique las especificaciones actuales del producto y detalles del fabricante en el sitio oficial de SinoTrack https://www.sinotrackgps.com/ ya que las especificaciones y la disponibilidad pueden cambiar con el tiempo.

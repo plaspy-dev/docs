@@ -2,65 +2,61 @@
 slug: /glonasssoft/umka302
 id: umka302
 sidebar_label: UMKa302
+title: GLONASSsoft - UMKa302
 sidebar_class_name: menu_item_tracker
+description: Professional vehicle GPS tracker compatible with Plaspy for fleet monitoring and telemetry capture
+keywords:
+  - GLONASSsoft UMKa302
+  - UMKa302 GPS tracker
+  - UMKa302 Plaspy compatible
+  - GLONASSsoft tracker
+  - fleet tracking UMKa302
+  - vehicle telemetry UMKa302
+  - BLE sensor support UMKa302
+  - CAN bus UMKa302
+  - dual SIM UMKa302
+  - UMKa302 fleet management
 ---
+
 # GLONASSsoft - UMKa302
 
 ![UMKa302](./tracker.png)
 
-# UMKa302 GPS Tracker \(UMK-302\)
+The UMKa302 is a professional grade GPS tracker from GLONASSsoft designed for vehicle monitoring, fleet management, and anti-theft protection. As a flagship model in the UMKa line, it focuses on stable operation and improved processing performance compared with earlier units. The device captures location and vehicle telemetry and is built for continuous operation in vehicle environments, offering a compact, rugged form factor suitable for a variety of fleet and asset scenarios.
 
-The UMKa302 \(UMK-302\) is a Plaspy compatible GPS tracker designed for professional vehicle monitoring, fleet management, and anti-theft protection. As the flagship of the UMKa line, UMKa302 raises stability and processing performance over its predecessor, enabling reliable real-time tracking, rich telemetry capture, and flexible integration into Plaspy-based systems. Its support for CAN bus, BLE wireless sensors, dual-SIM operation and robust I/O make it a practical choice for operators who need accurate location, fuel monitoring and deep vehicle diagnostics without adding multiple external sensors.
-
-The device is engineered for direct integration with Plaspy: GNSS location, CAN-derived telemetry, BLE sensor data and event logs are forwarded to the platform for live monitoring, alerts and historical reporting. Compact, IP54-rated and able to run from +8…+40 V vehicle power, the UMKa302 is a versatile tracker for mixed fleets, vocational vehicles and high-value assets where uptime, data depth and secure remote control are essential.
+This model is compatible with Plaspy, which enables operators to use the UMKa302 as a data source for live tracking, alerts, and historical reporting. By forwarding GNSS position, vehicle-derived telemetry and wireless sensor readings into Plaspy, the UMKa302 can provide the visibility and operational data that fleet managers rely on for oversight and decision making within the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker that streams real-time tracking and telemetry for fleet management and anti-theft workflows.
-- CAN bus support \(J1939 + Custom filter\) provides dozens of vehicle parameters without extra sensors — optional dual-CAN for complex systems.
-- BLE support for up to 8 wireless sensors: accurate fuel level and fuel temperature via Bluetooth sensors comparable to wired FLS.
-- Dual-SIM GSM \(850/900/1800/1900\) with intelligent power management for reliable cellular connectivity and failover.
-- Rich I/O: 2 analog/digital inputs, 2 pulse/discrete inputs and 2 open-collector outputs for event capture and remote control tasks.
-- Onboard memory and black-box logging \(microSD and internal capacity\) for up to millions of entries, ideal for offline data retention.
-- Compact, vehicle-ready form factor with IP54 protection and options for embedded or external antennas.
+- Designed for professional vehicle monitoring and fleet use with emphasis on stability and uptime.
+- Streams location and telemetry for real time tracking and historical analysis.
+- Supports vehicle data collection and wireless sensor integration to reduce need for multiple external devices.
+- Dual SIM cellular capability and onboard logging provide resilient data delivery in variable connectivity conditions.
+- Compact, vehicle ready enclosure with environmental protection suitable for in vehicle deployment.
+- Flexible I/O and remote output options to support event capture and basic remote control workflows.
 
 ## How It Works with Plaspy
 
-UMKa302 integrates into Plaspy by transmitting GNSS position fixes, CAN-derived telemetry and BLE sensor readings over GSM/GPRS. Plaspy receives these feeds in real time for live tracking, geofencing, alerts and historical reports. The device’s logging and dual-SIM capability ensure continuous data delivery; when connectivity is intermittent, stored records on microSD and internal black-box memory synchronize to Plaspy once the link is restored.
+When connected to Plaspy, the UMKa302 transmits position updates, vehicle telemetry and sensor readings so those feeds become available inside Plaspy dashboards and reporting tools. Plaspy ingests the device data for live monitoring and archival analysis, and the tracker’s local logging helps preserve records during temporary connectivity loss.
 
-- Real-time location and telemetry updates for route monitoring, ETA and asset visibility.
-- Ignition and alarm status monitoring via vehicle CAN data or connected inputs — usable for trip detection and event-driven reporting.
-- Fuel monitoring and fuel temperature via BLE wireless sensors, providing telemetry comparable to wired FLS systems.
-- Event logging and offline black-box memory \(microSD and internal\) that syncs to Plaspy after reconnection.
-- Remote control and outputs: two open-collector outputs can be configured for remote actions when required by fleet workflows.
+- Real time location updates and telemetry visible in Plaspy for route monitoring and asset visibility.
+- Event driven alerts and status notifications based on vehicle inputs and sensor readings.
+- Historical reporting and trip playback using stored and streamed data for compliance and analysis.
+- Fuel and sensor data integration to support consumption reporting and anomaly detection in Plaspy.
+- Offline logging that synchronizes with Plaspy after connectivity is restored to maintain continuity of records.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM \(GPRS\) — 850 / 900 / 1800 / 1900 MHz |
-| --- | --- |
-| Bands | GSM 850/900/1800/1900 |
-| Power & Battery | Supply voltage +8…+40 V; intelligent power management; additional power supply optional |
-| Inputs / Outputs | 2 analog/digital inputs; 2 pulse/discrete inputs; 2 outputs \(open collector\) |
-| Interfaces | RS-485, RS-232, 1-Wire, CAN, Bluetooth |
-| CAN | J1939 support and Custom filter; optional operation with two CAN buses simultaneously |
-| GNSS | Tracking channels: 33; Capture channels: 99 \(GLONASS / GPS\) |
-| Bluetooth | BLE support for wireless sensors \(up to 8 sensors\) |
-| Black Box / Storage | Black box up to 120,000 entries; microSD support up to 100,000,000 entries |
-| SIM & Control | Dual SIM; control via USB, SMS, GPRS and Bluetooth |
-| Protocols | EGTS protocol supported |
-| Form Factor | Compact vehicle tracker — dimensions 90 × 71 × 26 mm; weight ≤ 120 g; IP54 |
-| Antennas | Embedded or external antenna options |
-| Additional | Voice communication optional |
-
-## Use Cases
-
-- Fleet management: live vehicle positioning, driver behavior telemetry and route analytics through Plaspy dashboards.
-- Anti-theft and security: location alerts, event logs and remote output control to limit unauthorized use.
-- Fuel monitoring: BLE fuel sensors and CAN fuel data combined in Plaspy for improved fuel consumption reporting and theft detection.
-- Commercial vehicle diagnostics: access dozens of CAN parameters \(J1939 or custom\) without extra wired sensors for preventive maintenance.
-- Cold chain or sensitive cargo: Bluetooth sensor integration for temperature telemetry alongside GNSS tracking.
+- Fleet operations that require continuous position tracking and operational telemetry for many vehicles.
+- Anti theft and security workflows where location alerts and event logs assist recovery and response.
+- Fuel monitoring for fleets using combined vehicle data and wireless sensors to improve consumption reporting.
+- Preventive maintenance and diagnostics by collecting vehicle parameters for oversight and planning.
+- Mixed fleet or vocational vehicles where compact, resilient trackers are needed for a range of asset types.
 
 ## Why Choose This Tracker with Plaspy
 
-The UMKa302 brings professional-grade telemetry and flexible connectivity to Plaspy users. Its combination of CAN bus diagnostics, BLE sensor support and dual-SIM GSM ensures consistent, rich data flow for real-time tracking and historical analysis. For fleet owners who require reliable anti-theft functions, fuel monitoring and operational telemetry, UMKa302 reduces the need for additional hardware by exposing vehicle parameters via J1939 and a custom CAN filter. Plaspy customers gain high-resolution location and sensor feeds, resilient offline logging and practical remote control possibilities through the device’s I/O and outputs — all in a compact, IP54-rated unit designed for vehicle environments.
+The UMKa302 is a practical choice for organizations that need reliable vehicle tracking combined with richer telemetry than simple GPS position alone. Its support for vehicle data collection and wireless sensors helps consolidate readings that would otherwise require multiple devices, while onboard logging and dual SIM operation promote continuous data flow to Plaspy in real world conditions.
 
+For Plaspy users, UMKa302 offers a balance of compact form, durable design, and data depth that helps enable live monitoring, alerts, and historical analysis without excessive additional hardware. If your priorities are resilient connectivity, integrated vehicle telemetry, and straightforward integration into a tracking platform, the UMKa302 is a model to consider.
+
+To learn more about Plaspy and how compatible trackers are used on the platform visit https://www.plaspy.com. Product specifications and availability can change over time; please verify current technical details and options with the manufacturer at https://glonasssoft.ru/ before making procurement decisions.

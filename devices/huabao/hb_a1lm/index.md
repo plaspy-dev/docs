@@ -2,66 +2,63 @@
 slug: /huabao/hb_a1lm
 id: hb_a1lm
 sidebar_label: HB-A1Lm
+title: Huabao - HB-A1Lm
 sidebar_class_name: menu_item_tracker
+description: Heavy duty GPS tracker lock for containers trailers and trucks compatible with Plaspy for secure fleet tracking and alerts
+keywords:
+  - Huabao HB-A1Lm
+  - HB-A1Lm GPS tracker
+  - HB A1Lm lock
+  - Huabao tracker Plaspy
+  - container GPS lock
+  - trailer electronic lock
+  - fleet security tracker
+  - Plaspy compatible devices
+  - HB-A1Lm 4G
+  - HB-A1Lm IP67
 ---
+
 # Huabao - HB-A1Lm
 
 ![HB-A1Lm](./tracker.jpg)
 
-The HB-A1Lm 4G GPS Tracker Electronic Lock is a heavy-duty GPS tracker designed for securing containers, trailers, flatbeds and box trucks. Fully Plaspy compatible, this intelligent electronic lock combines real-time tracking, tamper and chain-cut alarms, RFID and Bluetooth unlocking to deliver a practical anti-theft and fleet security solution for logistics operators, customs inspections and high-value freight transport.
+The HB-A1Lm is a heavy duty 4G GPS tracker integrated with an electronic lock designed for containers, trailers, flatbeds and box trucks. It combines location tracking with dedicated anti theft features such as tamper and chain cut alarms, plus multiple unlock options including RFID and Bluetooth. Built for outdoor use, the unit emphasizes durability and long operational life for logistics and high value cargo protection.
 
-Engineered for harsh outdoor use with IP67 protection and a long-life 15,200 mAh battery, the HB-A1Lm integrates GPS/BDS positioning, multi-network cellular connectivity \(2G/3G/4G variants\), Bluetooth 4.0PLUS and optional LoRa for flexible deployments. Pair it with Plaspy for centralized fleet management, telemetry reporting, geofencing alerts and coordinated remote unlock workflows across multi-door configurations.
+As a fully Plaspy compatible device, the HB-A1Lm can be treated as a managed security and tracking node within Plaspy fleet operations. Its real time location and event reporting, combined with alarm forwarding and unlock logging, make it suitable for centralized fleet visibility, geofencing alerts and coordinated remote unlock workflows managed from the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible for seamless real-time tracking and fleet management integration with location, alarms and event history.
-- Rugged, IP67-rated enclosure and flame-retardant PC + fiberglass housing built for container and trailer environments.
-- Multiple unlock methods—RFID, Bluetooth app, SMS and platform/GPRS commands—support secure and auditable remote access.
-- Comprehensive anti-theft alarms: illegal/unexpected unlock, chain cut alarm, tamper/dismantle alarm and low battery alerts.
-- Large 15,200 mAh battery delivering up to 28 days standby \(at 600 s reporting\) with power-preserving sleep mode below 7%.
-- Expandable multi-door support: pairs with up to seven slave locks to monitor and control multiple doors or compartments.
-- Bluetooth sensors support \(temperature/humidity\) out of the box; LoRa available for long‑range telemetry in special deployments.
+- Full Plaspy compatibility for integrated real time tracking, alarms and event history within fleet management workflows.
+- Rugged IP67 rated enclosure with flame retardant housing for container and trailer environments.
+- Multiple unlock methods including RFID and Bluetooth plus platform and SMS based remote control for operational flexibility.
+- Dedicated anti theft alarms such as illegal unlock detection, chain cut alarm and tamper or dismantle alerts for improved security.
+- Large 15,200 mAh battery designed for extended standby to support long haul operations and reduced maintenance intervals.
+- Expandable multi door support with the ability to pair slave locks for synchronized monitoring and control across compartments.
+- Optional sensor and long range telemetry support like Bluetooth sensors for temperature and humidity and optional long range radio for specialized deployments.
 
 ## How It Works with Plaspy
 
-When integrated with Plaspy, the HB-A1Lm becomes a tracked, auditable lock node within your fleet management ecosystem. The device streams location and status data to the platform and sends immediate alerts on security events so operations and security teams can respond quickly. Plaspy can centralize telemetry, event logs and unlock permissions to simplify workflows across trucks, containers and multi-door trailers.
+When connected to Plaspy the HB-A1Lm reports location and security status so operations and security teams can monitor assets and react to events from a single platform. Plaspy centralizes the device telemetry, stores unlock histories and surfaces alerts to support incident response and compliance workflows.
 
-- Real-time location and telemetry updates to Plaspy for continuous GPS tracker visibility and route monitoring.
-- Immediate security events: illegal unlock, tamper/dismantle and chain-cut alarms forwarded as platform alerts.
-- Battery and power state reporting, including low‑battery notifications and sleep-state behavior \(RFID unlock only when critically low\).
-- RFID and Bluetooth unlock events recorded centrally; platform/GPRS and SMS unlocks available for remote operator control.
-- Bluetooth sensors \(temperature/humidity\) status available in Plaspy dashboards for refrigerated cargo monitoring.
-- Slave-lock status and multi-door event logging for synchronized anti-theft control across a single asset.
+- Real time location and telemetry updates in Plaspy for continuous asset visibility and route monitoring.
+- Immediate forwarding of security events such as illegal unlock, tamper and chain cut alarms to platform alerts.
+- Battery and power state reporting with low battery notifications captured in the platform for proactive maintenance planning.
+- Recorded RFID and Bluetooth unlock events and remote platform unlock commands for audited access control.
+- Sensor telemetry such as temperature and humidity exposed in Plaspy dashboards for refrigerated or sensitive cargo monitoring.
+- Slave lock and multi door event logging to coordinate anti theft control across a single vehicle or container.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | HB-A1Lm |
-| --- | --- |
-| Connectivity | 2G / 3G / 4G \(optional module varies by region/project\) |
-| Positioning | GPS / BDS positioning |
-| GPS Sensitivity | Capture -149 dBm; Track -167 dBm; Cold start ~35 s |
-| Bluetooth / LoRa | Bluetooth 4.0PLUS \(default\); LoRa optional \(ISM 150–960 MHz\) |
-| RFID | ISO/IEC 14443 Type A & B; up to 50 cards; reading distance up to 10 mm |
-| Battery | 15,200 mAh main battery; sleeps below 7% battery \(RFID unlock only\) |
-| Standby Time | Up to 28 days \(example at 600 s report interval\) |
-| Protection | IP67; optional ATEX/explosion-proof variants available depending on project |
-| Interfaces | 1 serial port, 1 charging port, 1 SIM card slot; indicators: SYS / GPS / CHG |
-| Dimensions & Weight | 174 × 140 × 49 mm; ~1300 g \(with 30 cm chain\) |
-| Chain | Standard lengths 30 / 60 / 100 cm; customizable; traction up to 1000 kg; chain cut alarm supported |
-| Operating Temperature | -30 °C to +70 °C \(storage -40 °C to +85 °C\) |
-| Indicators | SYS / GPS / CHG status LEDs |
-
-## Use Cases
-
-- Container and trailer anti-theft: secure seals with real-time GPS tracker reporting and chain-cut/tamper alarms to Plaspy.
-- Multi-door box truck and tanker management: pair the main lock with slave locks for synchronized locking and centralized event logging.
-- Refrigerated shipments: attach Bluetooth temperature/humidity sensors for telemetry in Plaspy to protect perishable goods.
-- Customs and high-value cargo: audit unlock history via RFID and platform unlock records to meet compliance and chain-of-custody requirements.
-- Remote fleet operations: combine device telemetry with Plaspy fleet management to monitor routes, geofences and security events from a single console.
+- Container and trailer anti theft monitoring with chain cut and tamper alarms tied into Plaspy alerts.
+- Multi door box truck and tanker management by pairing the main lock with slave locks for synchronized control and logging.
+- Refrigerated shipments that need temperature or humidity telemetry combined with location tracking for supply chain integrity.
+- Customs inspections and high value cargo workflows where unlock audit trails and access records are required.
+- Remote fleet operations that consolidate route, geofence and security event data in a single management console.
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the HB-A1Lm as a Plaspy compatible GPS tracker lock gives fleets and logistics managers a purpose-built security device that blends rugged hardware with modern telemetry. Its long battery life, IP67 construction and multi-network cellular options make it reliable for long hauls and challenging environments. The multiple unlock methods—RFID, Bluetooth app, SMS and platform/GPRS—provide operational flexibility while recording every event for auditability in Plaspy.
+The HB-A1Lm offers a purpose built blend of rugged construction, extended battery life and multiple access methods that fit well into Plaspy managed fleets. Its design is focused on container and trailer security, making it a practical option for logistics operators who need both physical lock functionality and continuous visibility in one device.
 
-When integrated into Plaspy, the HB-A1Lm contributes to more effective fleet management, anti-theft response and cargo protection. Telemetry from the device can feed broader fleet dashboards \(including fuel monitoring and ignition/immobilizer data where vehicle systems are integrated at the platform level\), enabling coordinated security policies, geofencing and maintenance workflows. For operations that need scalable multi-door solutions or sensor-driven refrigerated transport, the HB-A1Lm delivers a practical, Plaspy-compatible foundation for secure, connected logistics.
+Paired with Plaspy, the HB-A1Lm helps teams centralize security events, unlock audits and telemetry alongside other fleet data to support efficient operations and incident response. For organizations that require scalable multi door control, sensor driven monitoring or hardened hardware for outdoor use, this Plaspy compatible lock tracker provides a solid foundation for secure, connected logistics.
 
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time; verify current specifications and options on the official manufacturer site https://www.huabaotelematics.com/ before making procurement or deployment decisions.

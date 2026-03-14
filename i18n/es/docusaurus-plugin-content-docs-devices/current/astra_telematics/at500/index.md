@@ -2,59 +2,62 @@
 slug: /astra_telematics/at500
 id: at500
 sidebar_label: AT500
+title: Astra Telematics - AT500
 sidebar_class_name: menu_item_tracker
+description: Rastreador recargable compacto AT500 compatible con Plaspy para seguimiento GNSS discreto y de larga duración de activos
+keywords:
+  - Astra Telematics AT500
+  - Rastreador AT500
+  - AT500 compatible con Plaspy
+  - mini rastreador de activos
+  - rastreo GPS de activos
+  - rastreador con carga inalámbrica
+  - rastreador LTE M NB IoT
+  - rastreador IP68 para activos
+  - configuración BLE
+  - rastreador compacto para flotas
 ---
+
 # Astra Telematics - AT500
 
 ![AT500](./tracker.png)
 
-El AT500 Mini Asset Tracker es un rastreador GPS compacto y recargable, diseñado específicamente para implementaciones compatibles con Plaspy que requieren un seguimiento discreto y de larga duración de activos pequeños y de difícil acceso. Con GNSS de múltiples constelaciones robusto, configuración BLE, carga inalámbrica Qi y conectividad celular de múltiples redes \(LTE‑M, NB‑IoT y respaldo 2G\), el AT500 ofrece seguimiento e telemetría en tiempo real confiables para flotas de activos de alta densidad y soluciones de equipos compartidos.
+El AT500 Mini Asset Tracker de Astra Telematics es un rastreador GPS recargable y compacto diseñado para el seguimiento discreto y de larga duración de activos pequeños y de difícil acceso. Integra posicionamiento GNSS multiconstelación, conectividad celular multinetwork con opciones modernas de baja potencia de área amplia y carga inalámbrica Qi en una carcasa compacta con clasificación IP68. La gestión de energía con detección de movimiento y componentes internos como una eSIM y antenas internas hacen que la unidad sea adecuada para despliegues densos y para mantenimiento de baja intervención.
 
-Diseñado para una instalación fácil y una telemetría escalable a través de Plaspy, el AT500 combina un formato compacto, protección IP68 y gestión de energía sensible al movimiento para prolongar la vida de la batería mientras mantiene la ubicación, el movimiento y el estado del dispositivo visibles en su consola de gestión de flotas. Su e‑SIM interna y sus antenas internas simplifican la provisión para flujos de gestión de flotas compatibles con Plaspy.
+Como dispositivo compatible con Plaspy, el AT500 se integra en los flujos de trabajo de gestión de flotas y activos de Plaspy para ofrecer visibilidad continua de la ubicación, el movimiento y el estado del dispositivo. Sus funciones de configuración por BLE y la provisión simplificada facilitan implementaciones a escala, mientras que la telemetría del dispositivo se refleja de forma natural en los paneles, reglas de alertas e informes de Plaspy para la supervisión operativa de flotas de activos de alta densidad.
 
-## Principales características
+## Aspectos clave
 
-- Rastreador GPS compacto y discreto, ideal para la protección de activos pequeños y despliegues densos — opciones de montaje magnético o adhesivo.
-- Larga autonomía con batería interna de 2200 mAh y carga inalámbrica Qi; el modo típico de informe de bajo consumo de 24 horas ofrece alrededor de 6 meses, con perfiles extendidos referenciados hasta 12 meses según la configuración.
-- Conectividad celular preparada para el futuro: LTE‑M y NB‑IoT para conectividad de área amplia de bajo consumo, con respaldo 2G \(GPRS\) para cobertura heredada.
-- GNSS de múltiples constelaciones \(GPS, Galileo, GLONASS, BeiDou\) y una antena GNSS interna de 15 mm para obtener ubicaciones fiables en entornos variados.
-- BLE \(Bluetooth Low Energy\) para configuración en sitio, diagnósticos y puesta en servicio rápida con un teléfono inteligente.
-- Informes con detección de movimiento mediante un acelerómetro MEMS para minimizar el consumo de energía, al tiempo que se emiten alertas de movimiento oportunas para anti‑robo y utilización de activos.
-- Carcasa con clasificación IP68 y batería de respaldo interna para uso resistente en exteriores e industriales.
+- Factor de forma compacto ideal para colocación discreta en activos y equipos pequeños en despliegues densos.
+- Diseño recargable con carga inalámbrica Qi y perfiles de batería de larga duración adecuados para reportes de baja frecuencia.
+- Conectividad celular multinetwork que incluye opciones de baja potencia de área amplia y compatibilidad con redes legacy para mayor cobertura.
+- GNSS multiconstelación para fijaciones de posición confiables en entornos variados.
+- Bluetooth Low Energy para configuración, puesta en marcha y diagnóstico in situ mediante smartphone.
+- Gestión de energía basada en movimiento que usa un acelerómetro para reducir reportes cuando los activos están estacionarios.
+- Carcasa con clasificación IP68 y batería interna de respaldo para uso exterior e industrial duradero.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el AT500 ofrece ubicación y telemetría del dispositivo compatibles con Plaspy que se integran en paneles de seguimiento en tiempo real, reglas de alerta y motores de informes. El dispositivo reporta la posición GNSS, eventos de movimiento y el estado de la batería/salud a través de LTE‑M, NB‑IoT o 2G a los endpoints de Plaspy. Los diagnósticos por Bluetooth aceleran la provisión en campo, mientras que la e‑SIM interna y las antenas internas simplifican implementaciones a gran escala.
+Cuando usted lo utiliza con Plaspy, el AT500 envía datos de ubicación, eventos de movimiento y salud del dispositivo al entorno de monitoreo y reportes de Plaspy, de modo que los equipos pueden rastrear activos, configurar alertas y analizar la utilización. Plaspy consume la telemetría del dispositivo para ofrecer visibilidad en tiempo real y reportes históricos a través de flotas y tipos de activos mixtos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(posición GNSS, batería y estado del dispositivo\)
-- Lógica de movimiento y activación/reporte mediante acelerómetro MEMS para alertas de movimiento y notificaciones anti‑robo
-- Bluetooth Low Energy para configuración local, diagnósticos y visibilidad del firmware a través de herramientas para smartphones
-- Conectividad celular de área amplia y bajo consumo garantiza informes persistentes para la gestión de flotas y el seguimiento de activos de alta densidad
-- La provisión e informes compatibles con Plaspy facilitan incluir activos compactos en programas más amplios de monitoreo de vehículos y activos
+- Actualizaciones de ubicación en tiempo real e indicadores de salud del dispositivo visibles en los paneles de Plaspy
+- Comportamiento de activación y reporte basado en movimiento que permite alertas por desplazamiento y notificaciones anti robo
+- Configuración y diagnóstico en campo vía BLE para acelerar la provisión y solución de problemas
+- Reportes celulares de baja potencia de área amplia que mantienen conectividad persistente para el monitoreo de la flota
+- Provisión y integración pensadas para Plaspy, facilitando la inclusión en flujos de trabajo de seguimiento y reporte más amplios
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE‑M \(4G\), NB‑IoT, GSM \(2G GPRS de respaldo\) |
-| --- | --- |
-| Bandas | Soporte multi-red \(LTE‑M / NB‑IoT / 2G\) — las bandas de las operadoras regionales dependen de la variante del dispositivo y del mercado |
-| Energía y batería | Batería interna de 2200 mAh; carga inalámbrica Qi; batería de respaldo interna; hasta ~6 meses en modo de informe de bajo consumo de 24 horas \(la documentación comercial hace referencia a hasta 12 meses según la configuración\) |
-| Interfaces | No salida AUX 3.3V, no CANBus, no Driver ID, no entrada de manipulación, no RS232 \(AUX/CAN/DriverID/Tamper/RS232: No presentes\) |
-| GNSS | Soporte para GPS, Galileo, GLONASS y BeiDou; antena GNSS interna \(15 mm\) |
-| Bluetooth | Bluetooth Low Energy \(BLE\) para configuración y diagnósticos mediante smartphone |
-| Gestión remota | Configuración para hardware y reportes personalizados; ficha técnica descargable y guía rápida disponibles del fabricante para su integración |
-| Formato y protección | Rastreador compacto recargable; opciones de montaje magnético \(BM500\) o base adhesiva \(BA500\); resistencia IP68 al agua y al polvo; LEDs no visibles para una instalación discreta |
-
-## Casos de uso
-
-- Seguimiento de activos pequeños sin fuente de energía — herramientas, equipos y dispositivos compartidos donde el tamaño compacto y la larga duración de la batería son esenciales.
-- Programas de compartición de equipos y flotas de alquiler que requieren una colocación densa de rastreadores GPS discretos para monitorizar la utilización y prevenir pérdidas.
-- Protección de herramientas e instrumentos portátiles — alertas de movimiento e historial de ubicación para respaldar flujos de recuperación anti‑robo a través de Plaspy.
-- Flotas de activos de alta densidad en almacenes o en sitios donde el aprovisionamiento BLE y las antenas internas simplifican el mantenimiento y la configuración.
-- Implementaciones ambientales o remotas que requieren protección IP68 contra infiltración y carga inalámbrica para un mantenimiento de bajo contacto.
+- Rastreo de activos pequeños sin fuente de alimentación como herramientas, maletines y equipos compartidos donde el tamaño compacto es crítico
+- Programas de préstamo y alquiler de equipo que requieren rastreadores discretos para control de uso y prevención de pérdidas
+- Protección de herramientas portátiles y flujos anti robo con alertas por movimiento e historial para recuperación
+- Flotas de activos de alta densidad en almacenes o instalaciones donde la puesta en marcha simple y las antenas internas reducen el mantenimiento
+- Despliegues remotos o en entornos exigentes que requieren protección contra ingreso y carga inalámbrica para mantener un mantenimiento mínimo
 
 ## Por qué elegir este rastreador con Plaspy
 
-El AT500 Mini Asset Tracker es una opción práctica cuando se necesita un rastreador GPS compatible con Plaspy que priorice la compacidad, la longevidad de la batería y el mantenimiento de bajo contacto. Su radio celular multi‑red y la e‑SIM simplifican la gestión de la conectividad en despliegues, mientras que el soporte BLE y la documentación descargable aceleran la provisión en campo. Para la gestión de flotas y flujos de telemetría, el AT500 ofrece datos consistentes de ubicación y movimiento sin la complejidad de las entradas/salidas de nivel vehículo.
+El AT500 es una opción práctica para organizaciones que necesitan seguimiento compatible con Plaspy para activos pequeños sin entradas y salidas a nivel vehicular. Su enfoque en la compacidad, la operación recargable y la conectividad multinetwork ayuda a reducir la carga de mantenimiento mientras mantiene disponibles los datos de ubicación y movimiento en Plaspy. La puesta en marcha por BLE y la eSIM interna facilitan la provisión, lo cual es especialmente útil en despliegues a gran escala o de alta densidad.
 
-Nota sobre integraciones específicas de vehículos: el AT500 está optimizado para el rastreo de activos y equipos pequeños y no incluye entradas CANBus ni interfaces Driver ID, por lo que funciones como el monitoreo directo de combustible, la detección de encendido o el control del inmovilizador no están disponibles con esta unidad. Plaspy admite esas funciones cuando sea necesario usando otros rastreadores compatibles con interfaces de vehículo; el AT500 se integra en el mismo ecosistema de Plaspy para ofrecer visibilidad cohesiva entre flotas de dispositivos mixtos.
+Para equipos que usan Plaspy para gestionar flotas mixtas, el AT500 aporta visibilidad consistente a nivel de activo junto a rastreadores vehiculares y otros sensores soportados por la plataforma. Si usted necesita un rastreador discreto y recargable para extender la cobertura de Plaspy a equipos pequeños y activos compartidos, el AT500 representa un equilibrio entre tamaño, autonomía y simplicidad operativa.
 
+Para obtener más información sobre Plaspy y cómo dispositivos compatibles como el AT500 se integran en la plataforma visite https://www.plaspy.com. Las especificaciones del producto y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y la disponibilidad actuales en el sitio de Astra Telematics https://astratelematics.com/.

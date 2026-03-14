@@ -2,30 +2,61 @@
 slug: /coban/gps306
 id: gps306
 sidebar_label: GPS306
+title: Coban - GPS306
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto Coban GPS306 compatible con Plaspy para actualizaciones de ubicación en tiempo real geocercas y alertas para flotas y activos
+keywords:
+  - Coban GPS306
+  - rastreador Coban GPS306
+  - rastreador GPS306
+  - GPS306 Plaspy
+  - rastreador GPS Coban
+  - GPS306 seguimiento de flotas
+  - GPS306 seguimiento en tiempo real
+  - compatibilidad Coban GPS306
+  - software de seguimiento GPS306
+  - Coban GPS306 GPS
 ---
+
 # Coban - GPS306
 
 ![GPS306](./logo.jpg)
 
-El rastreador GPS Coban GPS306 es un dispositivo de seguimiento de vehículos de diseño compacto y fácil de usar. Este rastreador se conecta al puerto OBD-II de su vehículo y puede leer los parámetros OBD de la ECU del automóvil, así como realizar un seguimiento GPS en tiempo real para localizar su vehículo. Todos los datos recopilados se transmiten al servidor backend para diagnóstico remoto y seguimiento.
+El Coban GPS306 es un rastreador GPS compacto diseñado para localizar y monitorear personas, vehículos y otros activos mediante satélites GPS y la red móvil GSM GPRS. Soporta múltiples bandas de frecuencia para una cobertura regional amplia y ofrece actualizaciones de ubicación en tiempo real vía SMS o por internet. Entre sus funciones habituales se destacan las geocercas, alertas por exceso de velocidad, detección de movimiento y notificaciones pensadas tanto para uso personal como comercial.
 
-El Coban GPS306 es compatible con vehículos de 12-24V y es ideal para la gestión de flotas y seguimiento de vehículos. Cuenta con una variedad de características destacadas, que incluyen:
+Como dispositivo compatible con Plaspy, el GPS306 puede enviar datos de ubicación y eventos a una plataforma centralizada de gestión de flotas para supervisión en vivo e informes históricos. Plaspy recibe las actualizaciones del GPS306 y las traduce en vistas de mapa, alertas configurables e informes operativos, lo que lo convierte en una opción práctica para organizaciones que desean integrar hardware Coban con monitoreo y analítica en Plaspy.
 
-- Rastreador de vehículos OBD-II \(9-40V\)
-- Servicio de ubicación basado en LBS y GPS para un seguimiento en tiempo real
-- Botón de pánico SOS para situaciones de emergencia
-- Alarmas de geovalla, movimiento, batería baja, sobrevelocidad y alimentación externa
-- Alarmas de choque/ACC para protección adicional
-- Obtención de datos OBD por SMS, incluyendo estado del motor, consumo de combustible, velocidad, kilometraje y diagnóstico de problemas
-- Notificaciones de problemas y mantenimiento
-- Modo de ahorro de energía con opciones de sueño profundo y despertar por sensor de choque
-- Modo de ahorro de tráfico GPRS
-- Memoria interna para almacenar hasta 16,000 posiciones
-- Batería de polímero de litio de 200 mAh incorporada
-- Seguimiento por SMS con enlace al mapa de Google
-- Dirección absoluta de la calle por SMS
-- Compatibilidad con servidor web, software de seguimiento gratuito para PC y aplicación móvil
+## Aspectos destacados
 
-Con el rastreador GPS Coban GPS306, puede tener la tranquilidad de saber la ubicación de su vehículo en todo momento y acceder a información importante sobre su rendimiento y estado. Ya sea para uso personal o para la gestión de flotas, este rastreador GPS ofrece una solución confiable y fácil de usar.
+- Actualizaciones de ubicación en tiempo real disponibles por SMS o reporte vía internet para visibilidad inmediata.
+- Soporte multibanda para amplia cobertura geográfica en las frecuencias GSM más comunes.
+- Geocercas integradas y alertas por exceso de velocidad para controlar zonas y comportamiento.
+- Alarmas de movimiento y batería baja que ayudan a mantener la supervisión del estado del activo.
+- Diseño compacto adecuado para rastreo discreto de vehículos y activos portátiles.
+- Útil tanto para monitoreo personal como para aplicaciones en flotas pequeñas y medianas.
 
+## Cómo funciona con Plaspy
+
+El GPS306 envía mensajes periódicos de ubicación y eventos que Plaspy puede procesar para ofrecer seguimiento consolidado, alertas e informes de flota y activos. Una vez configurado para enviar actualizaciones, la posición del dispositivo y sus eventos de alarma aparecen en Plaspy para monitoreo en tiempo real y supervisión operativa.
+
+- Visualización en mapa en vivo de los dispositivos GPS306 dentro de Plaspy para conocer ubicaciones en tiempo real.
+- Alertas configurables en Plaspy basadas en entrada o salida de geocercas, exceso de velocidad o activaciones por movimiento.
+- Rutas históricas y reportes básicos para analizar recorridos y uso a lo largo del tiempo.
+- Gestión centralizada de dispositivos para agrupar rastreadores y asignarlos a vehículos o usuarios.
+- Integración con los canales de notificación de Plaspy para enviar alertas a responsables y despacho.
+
+## Casos de uso típicos
+
+- Rastreo de flotas para operaciones de reparto o servicios con vehículos pequeños.
+- Seguimiento personal para trabajadores aislados o control de seguridad familiar.
+- Protección de activos portátiles o artículos de alto valor en tránsito.
+- Monitoreo de rutas y supervisión básica de cumplimiento operativo.
+- Implementaciones temporales de rastreo donde se prefieren dispositivos compactos y de fácil despliegue.
+
+## Por qué elegir este rastreador con Plaspy
+
+El Coban GPS306 es un dispositivo sencillo que combina bien con Plaspy cuando necesita reportes de ubicación fiables y notificaciones de eventos sin telemetría compleja. Sus opciones de actualización en tiempo real y sus alertas comunes lo hacen adecuado para organizaciones que requieren visibilidad clara de ubicaciones y reglas de alerta simples dentro de una plataforma centralizada.
+
+Para equipos que evalúan hardware para usar con Plaspy, el GPS306 ofrece un equilibrio práctico entre funciones y facilidad de uso. Si su enfoque está en monitoreo de ubicación, geocercas y alertas básicas por movimiento o velocidad, combinar el GPS306 con Plaspy le proporciona una solución coherente para seguimiento en vivo y revisión retrospectiva.
+
+Para conocer más sobre Plaspy y cómo se usan los rastreadores compatibles en nuestra plataforma visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que para obtener los detalles técnicos más actuales y la documentación oficial verifique con el fabricante en https://www.coban.net/.

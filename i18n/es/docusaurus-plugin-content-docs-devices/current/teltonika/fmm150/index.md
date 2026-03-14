@@ -2,57 +2,59 @@
 slug: /teltonika/fmm150
 id: fmm150
 sidebar_label: FMM150
+title: Teltonika - FMM150
 sidebar_class_name: menu_item_tracker
+description: Rastreador Teltonika compatible con Plaspy para telemetría de flotas, datos CAN, métricas EV y conectividad celular de área amplia
+keywords:
+  - Teltonika FMM150
+  - Compatibilidad FMM150 Plaspy
+  - Tracker Teltonika
+  - Rastreador GPS FMM150
+  - rastreo de flotas FMM150
+  - telemetría de vehículos
+  - telemetría CAN
+  - telemetría EV
+  - rastreador LTE Cat M1
+  - rastreador NB IoT GPS
 ---
+
 # Teltonika - FMM150
 
 ![FMM150](./tracker.png)
 
-El Teltonika FMM150 es un rastreador GPS compatible con Plaspy, diseñado para la gestión moderna de flotas y telemetría avanzada de vehículos. Construido sobre LTE Cat M1 con soporte NB‑IoT y con respaldo 2G, el FMM150 ofrece conectividad fiable y una visibilidad profunda del bus CAN para usuarios de Plaspy que requieren seguimiento en tiempo real, diagnósticos precisos de vehículos y datos de flota útiles en vehículos ligeros, vehículos eléctricos, camiones, autobuses y maquinaria especial.
+El Teltonika FMM150 es un rastreador vehicular compacto diseñado para la gestión moderna de flotas y telemetría avanzada. Combina conectividad celular de área amplia con procesamiento de datos del bus CAN para ofrecer seguimiento continuo de ubicación y señales detalladas del vehículo. El FMM150 puede leer un amplio conjunto de parámetros CAN, incluidos odómetro, nivel y consumo de combustible, y métricas de baterías de vehículos eléctricos, lo que lo hace adecuado para vehículos livianos, eléctricos, camiones, autobuses y maquinaria especializada.
 
-El procesador de datos CAN integrado lee más de 100 parámetros CAN, entre ellos el odómetro, el nivel y consumo de combustible, y el estado de la batería de vehículos eléctricos, lo que convierte al FMM150 en una opción atractiva para operadores que buscan telemetría compatible con Plaspy, monitoreo de combustible, informes de mantenimiento preventivo y análisis del comportamiento del conductor sin integraciones complejas.
+Como dispositivo compatible con Plaspy, el FMM150 transmite ubicación y telemetría vehicular a la plataforma Plaspy para que los gestores de flota y los equipos de mantenimiento visualicen posición en tiempo real, recorridos históricos y diagnósticos contextuales. Su procesamiento CAN integrado y soporte para accesorios permiten a los usuarios de Plaspy consolidar señales del vehículo y datos de ubicación en una sola interfaz para informes, alertas y supervisión operativa.
 
 ## Aspectos clave
 
-- Rastreador GPS compatible con Plaspy con conectividad LTE Cat M1 y NB‑IoT para telemetría celular de área amplia y bajo consumo de energía.
-- Procesamiento integrado de bus CAN — extrae más de 100 parámetros del vehículo para telemática y diagnósticos de flotas a fondo.
-- Listo para implementación global: múltiples bandas celulares y variantes de producto \(códigos de pedido\) cubren conjuntos de frecuencias a nivel mundial con respaldo 2G cuando corresponda.
-- Diseñado para la gestión de flotas, monitoreo de combustible, telemetría de vehículos eléctricos y flujos de trabajo de mantenimiento preventivo.
-- Preparado para accesorios: funciona con adaptadores CAN de Teltonika, lectores RFID y balizas BLE para ampliar las capacidades de identificación y sensores.
-- Compatible con las herramientas de gestión remota de Teltonika \(FOTA WEB y Teltonika Configurator\) para configuración y actualizaciones simplificadas.
-- El empaquetado comercial y las variantes de kits incluyen cables de alimentación y paquetes opcionales de parámetros CAN micro USB o ampliados, dependiendo del código de pedido.
+- Rastreador GPS compatible con Plaspy con conectividad celular de área amplia, incluyendo LTE Cat M1 y NB IoT, además de fallback 2G para mayor cobertura.
+- Procesador de datos de bus CAN integrado que extrae más de 100 parámetros del vehículo para una telemetría de flota más completa.
+- Útil para flotas mixtas, incluidos vehículos de combustión interna y eléctricos, gracias a señales relacionadas con la batería y el suministro de energía.
+- Diseñado para soportar flujos de trabajo de flota como control de combustible, mantenimiento preventivo y análisis de comportamiento del conductor.
+- Compatible con accesorios: adaptadores CAN, lectores RFID y balizas BLE para ampliar la identificación y el alcance de sensores.
+- Soportado por herramientas de gestión remota de Teltonika para simplificar la configuración y las actualizaciones de firmware.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el FMM150 transmite la ubicación y la telemetría del vehículo, de modo que los despachadores, gestores de flotas y equipos de mantenimiento obtienen seguimiento en tiempo real y diagnósticos contextuales. Plaspy ingiere las señales derivadas del CAN del FMM150 junto con la ubicación GPS para habilitar geocercas, alertas e informes detallados para la optimización operativa y los flujos de trabajo antirrobo.
+Cuando se conecta a Plaspy, el FMM150 entrega datos combinados de GPS y derivados del CAN, de modo que los equipos obtienen visibilidad tanto de la ubicación como del estado del vehículo. Plaspy ingiere la información del rastreador para habilitar monitorización en tiempo real, alertas por eventos e informes operativos que ayudan a reducir tiempos de inactividad y mejorar la eficiencia de rutas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a través de LTE Cat M1 / NB‑IoT \(con respaldo 2G\), que permiten un seguimiento continuo y reproducción del historial en Plaspy.
-- Estado de ignición y del motor disponibles mediante parámetros CAN cuando las ECUs del vehículo exponen esas señales; útil para el comportamiento del conductor y la generación de informes de uso.
-- Monitoreo de combustible y lecturas del odómetro extraídas directamente del CAN para un análisis preciso del consumo de combustible y la optimización del combustible de la flota en Plaspy.
-- Métricas de batería y alimentación para vehículos eléctricos, permitiendo a Plaspy monitorizar las tendencias de estado de carga y las necesidades de mantenimiento.
-- Sensores Bluetooth y balizas BLE compatibles mediante la integración de accesorios, que permiten etiquetado de activos, flujos de trabajo basados en proximidad y una identificación mejorada dentro de Plaspy.
+- Localización en tiempo real y reproducción histórica dentro de Plaspy para rastrear viajes y cumplimiento de rutas.
+- Lecturas de odómetro y combustible basadas en CAN para informes de consumo y gestión de combustible más precisos.
+- Señales relacionadas con el motor y tiempos de funcionamiento cuando el ECU del vehículo las expone, apoyando análisis de comportamiento del conductor y uso de la flota.
+- Métricas de batería de vehículos eléctricos integradas en paneles de flota para monitorear tendencias de carga y activar mantenimientos.
+- Entradas de accesorios como balizas BLE y lectores RFID que mejoran flujos de trabajo de identificación y proximidad dentro de Plaspy.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE Cat M1 \(con capacidades NB‑IoT\), respaldo 2G GSM |
-| --- | --- |
-| Bandas | Múltiples bandas celulares para implementación global; variantes de producto \(p. ej., FMM150XYXW01, FMM150XYJ101, FMM150XYU801, FMM150XYJ201, FMM150XYB101, FMM150XYJ301\) cubren conjuntos de frecuencias a nivel mundial |
-| Alimentación y batería | Rastreador alimentado por el vehículo; el paquete estándar incluye un cable de alimentación 0.9 m de entrada/salida. No se especifica batería de respaldo en la descripción. |
-| Interfaces | Procesador de datos del bus CAN integrado \(lee 100+ parámetros\); compatibilidad de accesorios con adaptadores CAN de Teltonika y lectores RFID. Otras interfaces digitales I/O o inmovilizador no se especifican explícitamente. |
-| GNSS | Posicionamiento GPS para seguimiento de vehículos \(precisión no especificada\) |
-| Bluetooth | Compatibilidad con balizas/sensores BLE mediante accesorios para flujos de trabajo de proximidad e identificación |
-| Gestión remota | Compatible con Teltonika FOTA WEB y Teltonika Configurator para actualizaciones de firmware y configuración |
-| Formato | Rastreador compacto para montaje en vehículo; los kits se envían en packaging de marca Teltonika y pueden incluir cable micro USB o paquetes de parámetros CAN ampliados, dependiendo del código de pedido |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, análisis del comportamiento del conductor y mantenimiento preventivo mediante telemetría CAN y paneles de Plaspy.
-- Monitoreo de combustible y control de costos: usar los parámetros de nivel y consumo de combustible del CAN para detectar fugas, conducción ineficiente y optimizar los horarios de reabastecimiento.
-- Alquiler de coches y movilidad compartida: combinar con balizas BLE y lectores RFID para un registro de entrada/salida ágil, monitorización antirrobo y controles de acceso autorizados.
-- Planificación de mantenimiento de vehículos pesados y maquinaria: monitorear parámetros del motor y señales de componentes para programar servicios y reducir el tiempo de inactividad.
-- Logística y seguimiento de activos: combinar la ubicación GPS con telemetría para rastrear envíos, cumplimiento de rutas y estado de los vehículos a lo largo de grandes distancias.
+- Gestión de flotas mixtas que requieren unificar ubicación y telemetría en Plaspy.
+- Monitorización de combustible y análisis de consumo usando parámetros de nivel y uso extraídos por CAN.
+- Supervisión de flotas de vehículos eléctricos con seguimiento de batería y visibilidad de tendencias de carga.
+- Alquiler de autos, car sharing y control de acceso a flota combinando RFID o accesorios BLE.
+- Planificación de mantenimiento para maquinaria pesada y vehículos comerciales mediante señales del motor y componentes.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El FMM150 de Teltonika ofrece una combinación equilibrada de telemetría profunda del vehículo y conectividad móvil moderna que complementa las capacidades de seguimiento en tiempo real y gestión de flotas de Plaspy. Su procesador CAN integrado da a los usuarios de Plaspy acceso a señales granulares del vehículo—monitoreo de combustible, odómetro, estadísticas de batería de vehículos eléctricos y datos del motor—sin necesidad de gateways telemáticos por separado. Las variantes de bandas globales y el respaldo 2G permiten una implementación amplia, mientras que las herramientas FOTA WEB y Configurator de Teltonika facilitan actualizaciones y configuraciones remotas. Para las organizaciones que buscan telemetría robusta, diagnósticos accionables y una vía sencilla hacia estrategias de anti‑robo, inmovilización y optimización de combustible dentro de Plaspy, el FMM150 es una opción práctica y escalable.
+El FMM150 es una opción práctica para organizaciones que necesitan un equilibrio entre conectividad celular fiable y telemetría vehicular extensa. Su capacidad para integrar parámetros CAN en Plaspy reduce la necesidad de hardware telemático adicional mientras permite análisis más profundos, flujos de trabajo de mantenimiento preventivo y optimización del combustible. Las variantes de banda global y las opciones de fallback lo hacen apropiado para despliegues amplios, y las herramientas de gestión remota de Teltonika facilitan la configuración y las actualizaciones de los dispositivos.
 
+Si desea ver cómo encaja el FMM150 en su implementación de Plaspy, conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique las especificaciones y códigos de pedido actuales con el fabricante en https://www.teltonika-gps.com/ antes de comprar.

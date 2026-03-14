@@ -2,63 +2,63 @@
 slug: /ev/ev_05
 id: ev_05
 sidebar_label: EV-05
+title: EV - EV-05
 sidebar_class_name: menu_item_tracker
+description: Reloj GPS portátil EV-05 para seguridad personal compatible con Plaspy, con localización en vivo SOS detección de caídas y alertas de salud
+keywords:
+  - EV-05
+  - rastreador GPS EV EV-05
+  - EV-05 compatible con Plaspy
+  - reloj GPS portátil
+  - rastreador de seguridad personal
+  - reloj con detección de caídas
+  - seguimiento de personas mayores
+  - rastreador de telemetría de salud
+  - GPS con voz bidireccional
+  - rastreador portátil IP67
 ---
+
 # EV - EV-05
 
 ![EV-05](./tracker.png)
 
-# EV-05 Mobile Safety Watch
+El EV-05 Mobile Safety Watch es un rastreador GPS portátil diseñado para la protección personal continua. Presentado en formato de reloj de pulsera para personas mayores, pacientes y trabajadores en solitario, combina el seguimiento de ubicación con funciones de seguridad y monitoreo de salud como SOS, detección de caídas, alertas de frecuencia cardíaca y voz bidireccional, para que los cuidadores y equipos de monitoreo mantengan la visibilidad sobre la persona que lo porta.
 
-El EV-05 Mobile Safety Watch es un rastreador GPS ponible compatible con Plaspy, diseñado para protección personal continua. Construido como un reloj de pulsera para personas mayores, pacientes y trabajadores solitarios, el EV-05 combina posicionamiento GPS, conectividad celular multibanda \(4G con respaldo a 3G/2G\), Wi‑Fi y métodos de localización por beacons, junto con actualizaciones en tiempo real frecuentes para ofrecer un seguimiento fiable y una respuesta rápida ante incidentes.
-
-Listo para Plaspy desde la caja, el EV-05 alimenta la posición y telemetría de salud en la plataforma de Plaspy para que cuidadores y centros de monitoreo vean eventos SOS, detección de caídas y alertas de frecuencia cardíaca junto con los datos tradicionales del rastreador GPS. El diseño ponible del reloj, la correa con cierre y la clasificación IP67 a prueba de agua lo hacen ideal para uso 24/7 donde la ubicación fiable, la voz bidireccional y la telemetría de alertas médicas son lo más importante.
+Como dispositivo compatible con Plaspy desde su activación, el EV-05 envía puntos de ubicación, eventos de seguridad y telemetría de salud a la plataforma de Plaspy. Esta compatibilidad permite que centros de monitoreo y cuidadores visualicen eventos SOS, alertas por caídas y signos vitales junto con otros dispositivos GPS en Plaspy, lo que convierte al reloj en una solución práctica para organizaciones que requieren seguridad personal portátil integrada en una sola plataforma de seguimiento.
 
 ## Aspectos destacados
 
-- Rastreador GPS ponible con 4G: ubicación continua vía 4G \(con respaldo a 3G/2G\), Wi‑Fi, beacons y LBS para una cobertura robusta.
-- Actualizaciones en tiempo real rápidas durante emergencias: actualizaciones automáticas de ubicación cada 10 segundos durante un SOS para acelerar la respuesta.
-- Funciones de seguridad personal: marcación SOS con un solo botón hacia hasta 10 contactos preconfigurados, llamadas de voz bidireccionales claras y avisos de voz.
-- Telemetría de salud y actividad: monitorización de la frecuencia cardíaca con notificaciones para el cuidador, contador de pasos y recordatorios de medicación.
-- Alertas avanzadas de caída y movimiento: detección de caídas de alta sensibilidad \(~70% de precisión reportada\) más alertas de inactividad para eventos no supervisados.
-- Formato ponible duradero: IP67 a prueba de agua, pantalla AMOLED, correa reemplazable de 22 mm y un mecanismo de bloqueo especial para evitar retirada.
-- Despliegue flexible: puede usarse como alarma de auto-monitoreo sin cuota mensual o integrarse con servicios de monitoreo gestionados y centros de alertas médicas.
+- Diseño portátil pensado para uso continuo y comodidad diaria.
+- Métodos de localización multimodales que incluyen 4G con fallback, asistencia por Wi‑Fi y beacons para mayor cobertura.
+- Funciones dedicadas de SOS y emergencias con actualizaciones en vivo rápidas durante incidentes para agilizar la respuesta.
+- Monitoreo de salud y actividad, incluyendo alertas de frecuencia cardíaca y conteo de actividad para notificaciones a cuidadores.
+- Detección de caídas y alertas por falta de movimiento para señalar eventos desatendidos o incidentes potenciales.
+- Clasificación IP67 y correa bloqueable para un uso confiable 24/7 en diversas condiciones.
+- Opciones de despliegue flexibles: puede usarse para autoevaluación o integrarse con servicios de monitoreo gestionado.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el EV-05 envía puntos de ubicación, eventos de seguridad y telemetría de salud para que los paneles de Plaspy, alertas y herramientas de informes reflejen una imagen completa del estado del usuario. La integración compatible con Plaspy permite a los operadores y cuidadores recibir notificaciones inmediatas, ver rastros en vivo y actuar ante disparadores de geocerca o SOS.
+Cuando el EV-05 se emplea con Plaspy transmite ubicación, eventos de seguridad y datos de salud monitoreados para que esas señales aparezcan en los paneles, alertas e informes de Plaspy. Los usuarios de Plaspy pueden seguir movimientos en vivo, recibir notificaciones de alta prioridad por SOS o caídas e incluir la telemetría del wearable en flujos de trabajo de seguridad personal o de flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — informes de posición por GPS/Wi‑Fi/Beacon/LBS con sondeo acelerado durante un SOS.
-- Alertas SOS y de caídas — la marcación SOS con un solo botón más detección de caídas y alertas de inactividad se envían a Plaspy como eventos de alta prioridad.
-- Telemetría de salud — lecturas de la frecuencia cardíaca y notificaciones al cuidador ante valores anómalos se transmiten como datos monitorizados.
-- Integración de sensores Bluetooth — se empareja con dispositivos médicos Bluetooth para monitorización remota de pacientes \(RPM\) y transmite esas lecturas a Plaspy sin necesidad de descargas de apps adicionales.
-- Eventos de geocerca y alertas basadas en presencia — alertas de entrada/salida y disparadores de presencia Wi‑Fi están disponibles para reglas de cuidadores y flujos de trabajo automatizados.
-- Voz bidireccional y eventos de llamada — los eventos de emergencia y del botón de llamada dedicado pueden registrarse en Plaspy para que los operadores vean cuándo se produce la comunicación de voz.
+- La ubicación en vivo y la telemetría se muestran en los mapas y vistas de historial de Plaspy para que los operadores sigan los desplazamientos casi en tiempo real.
+- Los eventos SOS y de caída se entregan como alertas de alta prioridad en Plaspy para notificaciones inmediatas y disparo de flujos de trabajo.
+- La telemetría de salud, como lecturas de frecuencia cardíaca, se reenvía a Plaspy para su monitoreo y notificaciones a cuidadores.
+- Lecturas de sensores Bluetooth y eventos de presencia pueden retransmitirse desde el reloj hacia Plaspy para un monitoreo consolidado del paciente.
+- Eventos de entrada y salida de geocercas, además de disparadores basados en presencia, pueden alimentar reglas y notificaciones automáticas en Plaspy.
+- Las comunicaciones bidireccionales y los eventos de llamadas de emergencia pueden registrarse para que los operadores tengan contexto sobre la comunicación durante un incidente.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Conectividad celular 4G con respaldo a 3G/2G, Wi‑Fi, beacon y métodos de ubicación LBS |
-| --- | --- |
-| Bandas | 4G con respaldo a 3G/2G; compatibilidad de bandas según región \(varía según modelo/mercado\) |
-| Alimentación y batería | Batería interna recargable — base de carga y cable USB incluidos |
-| Interfaces | SOS de un solo botón, botón de llamada dedicado, avisos de voz, altavoz y micrófono bidireccionales |
-| GNSS | Posicionamiento GPS soportado \(seguimiento en tiempo real y actualizaciones de posición frecuentes\) |
-| Bluetooth | Emparejamiento BLE para dispositivos médicos Bluetooth y beacons |
-| Gestión remota | Integración de plataforma para centros de alerta médica monitorizados; plataforma MTK/Android permite desarrollo e integración de apps |
-| Factor de forma | Reloj de pulsera con pantalla AMOLED, IP67 a prueba de agua, correa reemplazable de 22 mm, mecanismo de bloqueo |
-
-## Casos de uso
-
-- Cuidado de personas mayores y vida independiente — SOS, detección de caídas, alertas de frecuencia cardíaca y geocercas que ayudan a que los cuidadores intervengan con rapidez.
-- Monitoreo de pacientes y RPM — emparejamiento de dispositivos médicos Bluetooth y telemetría de la frecuencia cardíaca para supervisión clínica remota.
-- Seguridad de trabajadores aislados — rastreador GPS ponible con voz bidireccional y alertas de inactividad para trabajadores en entornos remotos o peligrosos.
-- Servicios de monitoreo gestionados — se integra con centros de alerta médica vigilados para flujos de respuesta 24/7 o puede usarse como dispositivo de auto-monitoreo sin cuotas mensuales.
+- Cuidado de personas mayores y monitoreo de vida independiente para ofrecer intervenciones rápidas ante SOS o alertas por caídas.
+- Monitoreo remoto de pacientes y supervisión de cuidadores donde la frecuencia cardíaca y la presencia son información relevante.
+- Protección de trabajadores en solitario que requieren seguridad portátil con comunicación por voz y alertas por falta de movimiento.
+- Servicios de monitoreo gestionado y centrales de alarmas que consolidan alertas de wearables con otros dispositivos monitorizados.
+- Agencias de cuidados domiciliarios y programas comunitarios que rastrean bienestar y ubicación de clientes con mayor riesgo.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Seleccionar el EV-05 para Plaspy ofrece un rastreador GPS ponible diseñado para equilibrar características de seguridad personal con telemetría de nivel plataforma. Sus actualizaciones frecuentes en tiempo real durante SOS, métodos de ubicación multicanales y sensores centrados en la salud facilitan a los usuarios de Plaspy mantener la conciencia situacional y una gestión de incidentes más rápida. El diseño robusto y cómodo del reloj, junto con su correa de cierre, incentiva un uso constante, aumentando la fiabilidad de la telemetría y la cobertura de alarmas.
+El EV-05 combina funciones de seguridad personal portátil con visibilidad a nivel de plataforma, lo que lo convierte en una opción sensata para organizaciones que desean integrar el seguimiento de personas y las alertas de salud junto con dispositivos GPS tradicionales. Su diseño prioriza el uso continuo y la fiabilidad en la notificación de incidentes, lo que ayuda a garantizar la calidad de la telemetría para los equipos de monitoreo que usan Plaspy.
 
-La compatibilidad de Plaspy significa que la telemetría del EV-05 —desde trazas de posición hasta alertas de frecuencia cardíaca y datos de sensores Bluetooth— está disponible junto a otros tipos de rastreadores GPS en la plataforma. Eso facilita gestionar despliegues mixtos, ya sea que gestione una flota de vehículos con dispositivos de encendido/imovilizador y monitorización de combustible, o maneje wearables de seguridad personal. Para organizaciones que buscan rastreo en tiempo real escalable e integración de alertas médicas, el EV-05 con Plaspy ofrece una solución práctica y confiable.
+Porque el EV-05 envía puntos de ubicación, señales SOS, detecciones de caídas y telemetría de salud a Plaspy, los equipos pueden gestionar despliegues mixtos desde una sola plataforma y aplicar procedimientos uniformes de alerta, reporte y respuesta. Para organizaciones que necesitan monitoreo portátil en tiempo real y escalable, integrado en sus flujos operativos, el EV-05 con Plaspy ofrece una solución práctica y fácil de incorporar.
 
-**En la caja:** EV-05 reloj con detección de caídas, cable de carga USB, base de carga y guía de inicio rápido.
-
+Para obtener más información sobre Plaspy y cómo se gestionan los dispositivos compatibles en la plataforma visite https://www.plaspy.com. Las especificaciones del producto, su disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y las variaciones regionales del modelo en el sitio del fabricante http://www.eviewltd.com/.

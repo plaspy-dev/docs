@@ -2,64 +2,61 @@
 slug: /topfly/torchx_100
 id: torchx_100
 sidebar_label: TorchX 100
+title: TopFly - TorchX 100
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBDII compacto plug and play con telemetría CAN ELD y conectividad celular global compatible con Plaspy
+keywords:
+  - TopFly TorchX 100
+  - Rastreador GPS TorchX 100
+  - TorchX 100 Plaspy
+  - Compatibilidad TopFly con Plaspy
+  - Rastreador vehicular OBDII
+  - Telemetría CAN BUS
+  - Seguimiento ELD para flotas
+  - Punto de acceso WiFi en vehículo
+  - Rastreador para gestión de flotas
+  - Rastreador de diagnóstico vehicular
 ---
+
 # TopFly - TorchX 100
 
 ![TorchX 100](./tracker.png)
 
-El TorchX 100 de TorchX es un rastreador GPS OBDII de instalación plug-and-play, compatible con Plaspy, diseñado para un seguimiento en tiempo real fiable y telemetría profunda del vehículo. Diseñado para vehículos pesados y ligeros, el TorchX 100 ofrece actualizaciones de ubicación frecuentes, lectura completa de datos CAN BUS \(incluyendo estado de ignición, VIN, odómetro real, nivel de combustible y códigos de diagnóstico\), y soporte ELD para cumplimiento de horas de servicio — todo plenamente reportable dentro de Plaspy para la gestión de flotas y operaciones de transporte de pasajeros.
+El TorchX 100 de TopFly es un rastreador OBDII plug and play pensado para seguimiento en tiempo real y telemetría vehicular avanzada. Diseñado tanto para vehículos ligeros como pesados, el TorchX 100 entrega actualizaciones de ubicación frecuentes, lectura completa del bus CAN para VIN, odómetro real, nivel de combustible, estado de ignición y códigos de diagnóstico, además de soporte integrado para ELD y cumplimiento de horas de servicio. Su formato compacto OBDII y conectividad de nivel fleet lo hacen adecuado para una amplia variedad de despliegues en vehículos.
 
-Construido sobre una plataforma global 4G Cat-4 con respaldo automático a 3G/2G, el TorchX 100 está optimizado para la gestión de flotas, monitoreo antirrobo y servicios de valor añadido como WiFi a bordo y sensores Bluetooth. Su compacto formato OBDII facilita la instalación, mientras que sus características de telemetría y seguridad robustas \(detección de comportamiento de conducción, alertas de interferencia de red y un gran almacenamiento local de datos\) aseguran un seguimiento continuo y cumplimiento cuando se utiliza con los paneles de Plaspy y los flujos de trabajo de alertas.
+Como dispositivo compatible con Plaspy, el TorchX 100 envía puntos de ubicación, telemetría CAN y registros ELD a Plaspy para informes, alertas y paneles operativos. Al integrarlo con Plaspy, usted y su equipo de despacho podrán aprovechar los datos del dispositivo para tener visibilidad de rutas, reportes de cumplimiento, monitoreo antirrobo y flujos de trabajo de transporte de pasajeros, todo con la supervisión centralizada y las capacidades de alerta de Plaspy.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS OBDII plug-and-play con lectura completa de CAN BUS para VIN, odómetro real, nivel de combustible, estado de ignición y DTCs — ideal para telemetría y diagnóstico precisos.
-- Compatible con Plaspy para seguimiento en tiempo real, informes programados y flujos de trabajo de gestión de flotas; admite actualizaciones de ubicación de hasta cada 3 segundos.
-- Conectividad global 4G LTE Cat-4 con respaldo automático a 3G/2G y búfer de hasta 49,000 puntos de ubicación cuando está fuera de la red.
-- Hotspot WiFi de doble banda integrado \(5 GHz + 2,4 GHz\) para proporcionar acceso a Internet a los pasajeros y servicios a bordo adicionales.
-- Funcionalidad ELD para el cumplimiento RODS/HOS — registro automático de las horas de conducción que se integra en los informes de Plaspy para flujos de cumplimiento normativo.
-- GNSS Qualcomm Gen 8C de alta precisión \(GPS/GLONASS/Beidou\) con precisión de posición autónoma inferior a 2 m \(CEP-50\) y rendimiento TTFF rápido.
-- Soporte BLE 4.2 para sensores externos Bluetooth y amplias características de seguridad, incluyendo detección de comportamiento de conducción y detección de interferencia de red.
+- Formato OBDII plug and play con lectura completa del CAN BUS para VIN odómetro real nivel de combustible estado de ignición y códigos DTC
+- Compatible con Plaspy para seguimiento en tiempo real informes programados y gestión centralizada de flotas
+- Conectividad global 4G LTE Cat 4 con conmutación automática y almacenamiento local de hasta 49 000 puntos de ubicación
+- Punto de acceso WiFi de doble banda integrado para soporte de internet a pasajeros y servicios a bordo adicionales
+- Funcionalidad ELD para registros de horas de servicio e integración en reportes de cumplimiento
+- Funciones avanzadas de telemetría incluyendo detección de comportamiento de conducción alertas por interferencia de red y robusto almacenamiento local de datos
 
 ## Cómo funciona con Plaspy
 
-El TorchX 100 transmite la ubicación del vehículo y la telemetría CAN BUS a Plaspy utilizando protocolos estándar \(TCP/UDP/MQTT/SMS\), lo que permite el seguimiento en tiempo real, alertas e informes históricos. Plaspy ingiere puntos de ubicación, registros ELD y datos diagnósticos para presentar paneles de control útiles para gerentes de flota, despachadores y responsables de cumplimiento.
+El TorchX 100 transmite ubicación del vehículo registros ELD y telemetría CAN BUS a Plaspy, donde los datos se incorporan en paneles informes y flujos de alertas. Plaspy consolida actualizaciones en tiempo real, trazas históricas y eventos de diagnóstico para que los operadores de flota puedan monitorear los vehículos de forma continua y generar informes de mantenimiento o cumplimiento.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(configurables, hasta cada 3 segundos\) con almacenamiento en búfer automático de hasta 49,000 puntos cuando no hay cobertura de red.
-- Alertas de encendido/apagado, reporte del odómetro real y VIN para una identificación precisa del activo y flujos de trabajo basados en la ignición.
-- Monitoreo de combustible y reporte de códigos de diagnóstico \(DTC\) vía CAN BUS para casos de telemetría y mantenimiento basados en consumo de combustible.
-- Registros ELD \(dispositivo de registro electrónico\) para cumplimiento RODS/HOS visibles en los informes de Plaspy y el seguimiento de las horas de conductor.
-- Integración BLE 4.2 para sensores y beacons Bluetooth; el estado de salud del dispositivo y del hotspot WiFi también se reporta para visibilidad operacional.
+- Actualizaciones de ubicación y telemetría en tiempo real, configurables y capaces de reportar con alta frecuencia, con almacenamiento automático cuando se pierde cobertura
+- Alertas de encendido y apagado, reporte de VIN y odómetro real para identificación precisa de activos y flujos de trabajo basados en ignición
+- Monitoreo del nivel de combustible y reporte de códigos DTC vía CAN BUS para apoyar la planificación de mantenimiento y el control de combustible
+- Registros ELD de horas de servicio visibles en los informes y flujos de cumplimiento de Plaspy
+- Estado de salud del dispositivo y del punto de acceso WiFi reportados para visibilidad operativa y diagnóstico remoto
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE Cat-4 con respaldo automático a 3G/2G \(plataforma Cat-4 global\) |
-| --- | --- |
-| Bandas | Extensas bandas LTE FDD/TDD, además de compatibilidad heredada con WCDMA/GSM \(soporte global de bandas\) |
-| GNSS | Receptor Qualcomm Gen 8C; GPS, GLONASS, Beidou |
-| Precisión & TTFF | Precisión de posición autónoma &lt; 2 m \(CEP-50\); TTFF frío &lt;29s, tibio &lt;27s, caliente &lt;1s |
-| OBDII / CAN BUS | Conector OBDII con lectura completa de CAN; admite ISO 15765, SAE J1939, ISO 14230 KWP2000, ISO 9142-2, SAE J1708 |
-| Interfaces | Antenas LTE/GNSS/BLE/WiFi internas; ranura Nano SIM; USB para depuración/configuración/FOTA; LEDs indicativos; zumbador interno |
-| Bluetooth | BLE 4.2 para sensores/beacons externos |
-| WiFi | Hotspot integrado 5 GHz + 2,4 GHz para acceso a Internet de pasajeros |
-| Potencia & Batería | Rango de voltaje de operación 7–32 V DC; batería de respaldo Li-Polymer 100 mAh \(soporta operación limitada y reportes de último recurso\) |
-| Protocolos y Seguridad | TCP, UDP, MQTT, SMS; seguridad opcional: MD5/AES128 |
-| Almacenamiento & Buffering | Buffer local de hasta 49,000 puntos de ubicación cuando no hay cobertura de red |
-| Ambiental & Físico | Dimensiones 52.8 x 47.8 x 24.8 mm; peso 73 g; rango de temperatura de operación -30°C a +80°C |
-| Características | Soporte ELD para RODS/HOS, detección de comportamiento de conducción \(aceleración/ frenado/ giro bruscos, detección de colisiones\), lectura/borro de DTC, informes programados, detección de interferencia de red, control de roaming de datos |
-
-## Casos de uso
-
-- Gestión de flotas: rastreador GPS en tiempo real y telemetría CAN para monitorizar rutas, consumo de combustible, odómetro y comportamiento del conductor en los paneles de Plaspy.
-- Transporte de pasajeros y servicios de traslado: hotspot WiFi a bordo y actualizaciones de ubicación frecuentes mejoran la experiencia del pasajero y la visibilidad operativa.
-- Alquiler de coches y movilidad compartida: VIN, odómetro real y encendido reportados facilitan flujos de check-in/check-out y monitoreo antirrobo.
-- Cumplimiento regulatorio: funcionalidad ELD proporciona registros RODS/HOS para conductores comerciales e integra con los informes de Plaspy para auditorías.
-- Diagnóstico y mantenimiento del vehículo: informes de DTC y monitoreo de combustible ayudan a priorizar reparaciones y controlar costos operativos.
+- Gestión de flotas para visibilidad de rutas, control de combustible, seguimiento del odómetro y análisis de comportamiento del conductor
+- Transporte de pasajeros y servicios de shuttle que se benefician de actualizaciones frecuentes de ubicación y WiFi a bordo
+- Alquiler de autos y movilidad compartida para verificación de VIN y odómetro además de monitoreo antirrobo
+- Cumplimiento regulatorio donde los registros ELD y las horas de servicio son necesarios para auditorías y reportes
+- Diagnóstico vehicular y mantenimiento preventivo usando reporte de DTC y alertas basadas en telemetría
 
 ## Por qué elegir este rastreador con Plaspy
 
-El TorchX 100 ofrece un equilibrio atractivo entre seguimiento GPS preciso, telemetría CAN BUS profunda y conectividad de nivel empresarial que se integra de forma fluida con Plaspy para telemática empresarial. Su formato OBDII plug-and-play reduce el tiempo de instalación, mientras que la precisión GNSS de Qualcomm y el rápido TTFF proporcionan un seguimiento en tiempo real fiable para la optimización de rutas y el monitoreo anti-robo. La funcionalidad ELD integrada, el hotspot WiFi y el soporte para sensores BLE amplían el valor del dispositivo más allá de la ubicación básica, permitiendo monitoreo de combustible, cumplimiento de horas de conductor, conectividad para pasajeros y mantenimiento impulsado por telemetría.
+El TorchX 100 combina la conveniencia compacta del OBDII con telemetría de nivel fleet y funciones ELD, lo que lo convierte en una opción práctica para organizaciones que usan Plaspy. Sus lecturas completas del CAN BUS y las actualizaciones de ubicación frecuentes aportan los datos que Plaspy necesita para ofrecer informes de seguimiento precisos y registros de cumplimiento sin añadir hardware complejo a cada vehículo.
 
-Cuando se combina con Plaspy, los gerentes obtienen telemetría escalable y segura \(TCP/UDP/MQTT/SMS con MD5/AES128 opcional\), datos almacenados en búfer fuera de línea para mantener la continuidad, y alertas configurables para encendido, DTCs, batería baja y eventos de interferencia. El resultado es un rastreador GPS confiable que mejora la gestión de flotas, eleva la seguridad y facilita el cumplimiento, al tiempo que ofrece la posibilidad de ampliar con sensores BLE y servicios para pasajeros sin gateways adicionales en el vehículo.
+Integrado con Plaspy, el TorchX 100 facilita la supervisión operativa mediante alertas configurables, reportes con almacenamiento offline y paneles consolidados para conductores, gerentes y equipos de mantenimiento. Para flotas que buscan un dispositivo plug and play que vaya más allá del seguimiento básico de ubicación e incluya diagnóstico, servicios para pasajeros y registro de horas de servicio, este modelo es una opción a considerar.
 
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications availability and manufacturer details can change over time so please verify current specifications on the official TopFly site https://www.topflytech.com/ before making procurement or deployment decisions.

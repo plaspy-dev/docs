@@ -2,53 +2,59 @@
 slug: /teltonika/tmt250
 id: tmt250
 sidebar_label: TMT250
+title: Teltonika - TMT250
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS personal compacto TMT250 compatible con Plaspy para alertas de seguridad y monitoreo con sensores
+keywords:
+  - Teltonika TMT250
+  - TMT250 rastreador
+  - TMT250 compatibilidad con Plaspy
+  - Rastreador personal Teltonika
+  - TMT250 Bluetooth LE
+  - TMT250 botón de emergencia
+  - TMT250 IP67
+  - TMT250 detección de caída
+  - TMT250 trabajador en solitario
+  - TMT250 sensores ambientales
 ---
+
 # Teltonika - TMT250
 
 ![TMT250](./logo..png)
 
-El rastreador GPS Teltonika TMT250 es un dispositivo autónomo mini 2G diseñado para la seguridad personal. Cuenta con un botón de emergencia de fácil acceso que permite enviar alertas instantáneas para solicitar ayuda en caso de incidentes. Esta característica es especialmente útil para garantizar la seguridad de las personas en situaciones de riesgo.
+El Teltonika TMT250 es un mini rastreador GPS 2G autónomo diseñado para la seguridad personal. Ofrece un formato compacto, un botón de emergencia de fácil acceso y escenarios de seguridad integrados como detección de caídas y ausencia de movimiento. Además, soporta conexiones inalámbricas con dispositivos BLE externos, lo que permite supervisar parámetros ambientales y sensores adicionales sin sacrificar su carcasa resistente para uso exterior.
 
-Además de su función principal de rastreo GPS, el TMT250 ofrece una amplia gama de escenarios de uso extendidos. Gracias a su conexión inalámbrica Bluetooth® LE, es posible conectar dispositivos externos, como sensores de baja energía y balizas, para monitorear la temperatura, humedad, detección de imanes y movimiento. Esto lo convierte en una herramienta versátil para aplicaciones de monitoreo y seguridad.
+Como dispositivo compatible con Plaspy, el TMT250 puede enviar datos de ubicación y eventos a Plaspy para obtener visibilidad centralizada y generar alertas. Su enfoque en eventos de seguridad personal, alertas de emergencia y entradas opcionales de sensores lo convierte en una opción práctica para organizaciones e individuos que necesitan un rastreador discreto y durable que se integre con una plataforma de monitoreo de flotas y activos como Plaspy.
 
-El TMT250 también cuenta con escenarios preprogramados de alarma, detección de caídas y falta de movimiento, lo que garantiza la seguridad de los trabajadores solitarios y personas vulnerables. Estos escenarios especiales están diseñados para proporcionar una respuesta rápida y eficiente en caso de emergencia.
+## Características principales
 
-Este rastreador GPS está diseñado para su uso en exteriores, ya que cuenta con una clasificación IP67 que lo protege contra el agua y el polvo. Esto significa que puede utilizarse en condiciones adversas sin comprometer su rendimiento. Su tamaño compacto y peso ligero lo hacen fácil de transportar y colocar en diferentes ubicaciones.
+- Mini rastreador GPS 2G autónomo y compacto, pensado para seguridad personal
+- Botón de emergencia de acceso rápido para enviar alertas inmediatas
+- Conectividad Bluetooth LE para beacons y sensores externos
+- Escenarios integrados de detección de caída, alarma y ausencia de movimiento para proteger a trabajadores en solitario
+- Carcasa con certificación IP67 que ofrece resistencia al agua y al polvo en entornos exteriores
+- Soporte para rastreo bajo demanda y múltiples situaciones basadas en eventos
 
-El Teltonika TMT250 cuenta con una amplia gama de características destacadas, como botón de alarma, detección de caídas, seguimiento en interiores, eventos de movimiento/falta de movimiento, zonas de geovalla manual, exceso de velocidad, seguimiento bajo demanda, algoritmo inteligente de envío de datos GPRS para ahorrar tráfico GPRS, seguimiento de activos, zona de inicio, seguimiento en tiempo real, eventos de encendido/apagado, eventos de botón presionado y seguimiento bajo demanda a través de botón, entre otros.
+## Cómo funciona con Plaspy
 
-El Teltonika TMT250 cumple con las regulaciones y estándares de calidad, como CE/RED, EAC, Anatel, UKCA, RoHS y REACH, lo que garantiza su fiabilidad y seguridad.
+Al integrarse con Plaspy, el TMT250 proporciona información de ubicación y eventos que Plaspy muestra junto con otros dispositivos para un monitoreo unificado y la gestión de incidentes. Plaspy puede aprovechar estas señales para crear notificaciones, históricos de seguimiento e informes operativos que apoyen la respuesta y supervisión.
 
-### Especificaciones técnicas:
+- Recibir y mostrar actualizaciones de ubicación e historial de movimiento en la interfaz de Plaspy
+- Generar alertas en Plaspy a partir del botón de emergencia, detección de caída o eventos de ausencia de movimiento
+- Monitorear entradas de sensores emparejados, como temperatura o movimiento, a través de los paneles de Plaspy
+- Usar geocercas y eventos de zonas para producir notificaciones y resúmenes de actividad en Plaspy
+- Incluir dispositivos TMT250 en informes a nivel de flota y resúmenes operativos para supervisión
 
-- Tecnología: GSM/GPRS/GNSS/BLUETOOTH
-- GNSS: GPS, GLONASS, GALILEO, BEIDOU
-- Receptor: 33 canales
-- Sensibilidad de seguimiento: -165 dBM
-- Precisión de posición: \< 2.5 m CEP
-- Precisión de velocidad: \< 0.1 m/s \(con un error de +/- 15%\)
-- Inicio rápido: \< 1 s
-- Inicio en caliente: \< 25 s
-- Inicio en frío: \< 35 s
-- Tecnología celular: GSM/GPRS
-- Bandas 2G: Cuatribanda 850 / 900 / 1800 / 1900 MHz
-- Transferencia de datos: GPRS: Máx. 107 Kbps \(DL\) / Máx. 85.6 Kbps \(UL\)
-- Soporte de datos: SMS \(texto/datos\)
-- Batería de respaldo interna: Batería de iones de litio recargable de 800 mAh, 3,8 V, 3.04 Wh
-- Bluetooth: Especificación 4.0 + LE
-- Dimensiones: 44 x 43 x 20 mm \(L x W x H\)
-- Peso: 40 g
-- Antena GNSS: Interna de alta ganancia
-- Antena celular: Interna de alta ganancia GSM
-- Interfaz: Cable USB magnético de 4 pines
-- Indicación LED: 1 LED RGB
-- Botones: 2 botones configurables
-- Tarjeta SIM: Micro-SIM
-- Memoria: Memoria flash interna de 128 MB
-- Clasificación de protección: IP67
-- Humedad de funcionamiento: Hasta 85% sin condensación
-- Temperatura de carga de la batería: 0 °C a +45 °C
-- Temperatura de descarga de la batería: -20 °C a +58 °C
-- Temperatura de almacenamiento de la batería: -20 °C a +45 °C durante 3 meses
+## Casos de uso típicos
 
+- Seguridad personal para trabajadores en solitario y personal de campo que requieren capacidad de alerta inmediata
+- Protección y monitoreo de personas vulnerables que necesitan notificaciones de emergencia
+- Supervisión de activos portátiles en ambientes exteriores donde la resistencia al agua y al polvo es importante
+- Control de condiciones ambientales en envíos móviles o equipos cuando se empareja con sensores externos
+- Situaciones que demandan rastreadores discretos y compactos que se integren en una plataforma de monitoreo más amplia
+
+## Por qué elegir este rastreador con Plaspy
+
+El TMT250 es una opción práctica para organizaciones que requieren un rastreador personal pequeño y resistente con funciones de seguridad enfocadas. Su botón de emergencia y los escenarios integrados como detección de caída y ausencia de movimiento ofrecen disparadores de evento sencillos que encajan bien en los flujos de trabajo de Plaspy para alertas y respuesta. La conectividad Bluetooth LE añade flexibilidad al permitir sensores externos opcionales que amplían la capacidad de monitoreo cuando se necesitan.
+
+Si usted está evaluando dispositivos para seguridad personal o monitoreo de activos portátiles y busca integración con una plataforma centralizada de seguimiento, el Teltonika TMT250 es un candidato relevante para considerar junto con Plaspy. Learn more about Plaspy on the main website https://www.plaspy.com and verify current product specifications and availability with the manufacturer at https://www.teltonika-gps.com/. Product details and manufacturer information can change over time, so please consult official documentation for the latest specifications.

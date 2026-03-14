@@ -2,27 +2,59 @@
 slug: /okb_tehnoavtomatika/mta_03
 id: mta_03
 sidebar_label: MTA-03
+title: OKB Tehnoavtomatika - MTA-03
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto MTA-03 de OKB Tehnoavtomatika compatible con Plaspy para monitoreo de vehículos y activos
+keywords:
+  - OKB Tehnoavtomatika MTA-03
+  - Rastreador GPS MTA-03
+  - MTA-03 compatible con Plaspy
+  - seguimiento de flotas MTA-03
+  - monitoreo de activos MTA-03
+  - sistema de control de transporte
+  - notificaciones GPRS y SMS
+  - GPS de alta sensibilidad
+  - monitoreo de vehículos y objetos estacionarios
+  - rastreador GPS compacto
 ---
+
 # OKB Tehnoavtomatika - MTA-03
 
 ![MTA-03](./logo.jpg)
 
-El sistema de control de transporte MTA-03 de OKB Tehnoavtomatika es un producto completo que ofrece una solución flexible para el monitoreo y control de vehículos y objetos estacionarios. Este dispositivo cuenta con opciones de configuración tanto en la batería como en la corriente continua \(DC\), lo que permite supervisar no solo vehículos y maquinaria técnica, como camiones y cosechadoras, sino también la condición de objetos estacionarios para funciones de seguridad.
+El Sistema de Control de Transporte MTA-03 de OKB Tehnoavtomatika es un rastreador GPS compacto y versátil diseñado para diversas tareas de monitoreo y control. Su ficha técnica destaca la capacidad de configuración flexible para tareas específicas, el soporte tanto para vehículos en movimiento como para objetos estacionarios y múltiples canales de notificación, incluyendo GPRS por Internet, alertas por SMS y reporte a un centro de control de servicio. El dispositivo emplea un receptor GPS de alta sensibilidad con 50 canales y ofrece un amplio rango de entrada de corriente continua además de una batería recargable integrada, lo que lo hace apto para distintos escenarios de despliegue.
 
-El MTA-03 es un dispositivo de vigilancia por satélite y alarma GSM que ofrece rastreo GPS. Cuenta con un canal de lazo con DC-GSM 900/1800 para el envío y recepción de datos a través de GPRS o SMS. Además, permite recibir mensajes SMS del abonado y enviar mensajes SMS. La determinación de coordenadas se realiza mediante un receptor GPS de alta sensibilidad que funciona con una fuente de alimentación de 9V a 33V de corriente continua y una batería recargable incorporada.
+Como dispositivo compatible con Plaspy, el MTA-03 puede enviar información de posición y alarmas a una plataforma centralizada de gestión de flotas para mejorar la visibilidad y el control operativo. Al integrarlo con Plaspy, las actualizaciones de ubicación y notificaciones entrantes del MTA-03 pueden mostrarse junto con otros datos de la flota para soportar los flujos de trabajo de monitoreo, alerta e informes sin que usted tenga que cambiar la forma en que gestiona sus activos.
 
-El consumo de corriente del dispositivo es de aproximadamente 180 mA en modo activo, no más de 65 mA en modo de espera y no más de 20 mA en modo de reposo. El dispositivo también cuenta con una batería recargable con una capacidad de hasta 600 mA/h, lo que proporciona un tiempo promedio de espera de al menos 6 horas. El tiempo de preparación técnica del dispositivo para comenzar a funcionar es de menos de 3 minutos. El MTA-03 tiene un grado de protección IP30 y unas dimensiones de aproximadamente 110 × 80 × 32 mm, con un peso de 300 g.
+## Aspectos destacados
 
-### Características destacadas:
+- Opciones de configuración flexibles para ajustar el comportamiento de seguimiento y monitoreo según la tarea
+- Soporte para monitoreo de vehículos en movimiento y de objetos estacionarios para seguridad y supervisión de activos
+- Múltiples canales de notificación: GPRS por Internet, alertas SMS y reporte a un centro de control
+- Receptor GPS de alta sensibilidad y 50 canales para adquisición de posición fiable
+- Amplio rango de entrada de alimentación DC y batería recargable integrada para mayor resiliencia
+- Diseño compacto y liviano para instalación discreta y despliegue sencillo
 
-- Sistema de control de transporte completo
-- Opciones de configuración flexibles
-- Rastreo GPS
-- Envío y recepción de datos a través de GPRS y SMS
-- Recepción de mensajes SMS del abonado
-- Batería recargable incorporada
-- Tiempo de espera de al menos 6 horas
-- Tiempo de preparación técnica de menos de 3 minutos
-- Grado de protección IP30
+## Cómo funciona con Plaspy
 
+El MTA-03 envía mensajes de posición y alarma que Plaspy procesa para ofrecer seguimiento centralizado y visibilidad operativa. Plaspy integra los datos del dispositivo y los presenta en una interfaz unificada para que los equipos puedan monitorear activos, responder a alarmas y revisar la actividad histórica.
+
+- Visualización centralizada de ubicación en tiempo real para vehículos y activos estacionarios
+- Alertas y notificaciones consolidadas que se enrutan a Plaspy para mantener informados a los operadores
+- Registro histórico de rutas y eventos para respaldar informes y revisiones operativas
+- Visibilidad unificada sobre flotas mixtas y distintos tipos de activos para facilitar la supervisión
+- Notificaciones y manejo de eventos configurables dentro de Plaspy según los mensajes entrantes del dispositivo
+
+## Casos de uso típicos
+
+- Seguimiento de flotas de camiones y vehículos comerciales
+- Monitoreo de maquinaria agrícola, como cosechadoras
+- Seguridad y supervisión de activos y equipos estacionarios
+- Monitoreo remoto de equipos para planificación de operaciones y mantenimiento
+- Gestión logística y operativa de transporte donde se requiere seguimiento consolidado
+
+## Por qué elegir este rastreador con Plaspy
+
+El MTA-03 es una opción práctica para organizaciones que necesitan un rastreador flexible capaz de soportar tanto activos móviles como fijos, ofreciendo múltiples vías de notificación. Su tamaño compacto, el amplio rango de alimentación y su comportamiento configurable lo hacen adecuado para entornos de flotas mixtas donde las actualizaciones de ubicación y las alarmas confiables son críticas.
+
+Plaspy transforma los mensajes del MTA-03 en valor operativo al mostrar ubicación, alertas y registros históricos en una sola plataforma para monitoreo, informes y toma de decisiones. Para obtener más información sobre cómo Plaspy puede trabajar con dispositivos como el MTA-03 visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales del dispositivo y la documentación técnica en el sitio del fabricante http://www.okb-ta.ru/ antes de comprar o desplegar.

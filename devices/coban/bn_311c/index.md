@@ -2,58 +2,59 @@
 slug: /coban/bn_311c
 id: bn_311c
 sidebar_label: BN-311C
+title: Coban - BN-311C
 sidebar_class_name: menu_item_tracker
+description: Compact Coban BN-311C motorcycle 2G GPS tracker compatible with Plaspy for discreet real time tracking and basic fleet monitoring
+keywords:
+  - coban bn-311c
+  - bn-311c
+  - coban tracker
+  - motorcycle gps tracker
+  - 2g gps tracker
+  - plaspy compatible
+  - fleet tracking
+  - vehicle immobilizer
+  - concealed gps tracker
+  - small vehicle tracking
 ---
+
 # Coban - BN-311C
 
 ![BN-311C](./tracker.png)
 
-The BN-311C is a compact 2G GPS tracker engineered for motorcycle and small-vehicle tracking. Built for concealed hardwired installation and continuous operation on 12–24 V systems, the BN-311C pairs with Plaspy-compatible platforms to deliver reliable real-time tracking, event alerts, and basic fleet management features. Its small form factor and focused anti-theft capabilities make it a practical choice for owners and operators who need discreet monitoring and remote immobilization options.
+The BN-311C is a compact 2G GPS tracker designed for motorcycle and small vehicle tracking. It is intended for concealed, hardwired installation and continuous connection to a 12–24 V electrical system while providing backup reporting when external power is lost. The device focuses on discreet anti-theft features and remote immobilization options appropriate for riders, owners, and light vehicle operators.
 
-Designed as a simple motorcycle management terminal, the BN-311C combines GNSS positioning with GSM/GPRS communications to feed location, telemetry and alarm data into Plaspy for live monitoring, route playback, geo-fencing and push notifications. The C-type model includes remote-control functions such as remote arming/disarming and remote fuel/power cut-off \(immobilizer\), which integrate with Plaspy workflows for security and operational control.
+As a Plaspy compatible device, the BN-311C can feed GNSS position, alarm and telemetry data into Plaspy platforms for live monitoring and basic fleet management. Its focused feature set—real-time location, event alerts, and remote control capabilities—makes it a practical option to integrate into Plaspy workflows for security, operational oversight and simple route history review.
 
 ## Key Highlights
 
-- Plaspy compatible: Sends position, alarms and telemetry to Plaspy for real-time tracking and reporting.
-- Compact, concealed design \(6.0 × 3.5 × 1.8 cm; 50 g\) ideal for motorcycles and small vehicles.
-- Multiple anti-theft alarms: movement, geo-fence, shock, illegal ignition, overspeed and external power disconnection.
-- Remote immobilizer and control \(C-type\): remote fuel/power cut-off and remote arm/disarm via platform or remote control accessory.
-- Reliable GNSS performance: high-sensitivity receiver with typical accuracy around 5 meters and fast hot start.
-- Hardwired power with backup battery: 12–24 V direct connection plus internal 3.7 V 180 mAh rechargeable backup battery for continued reporting on external power loss.
-- Simple configuration options: SMS setup commands plus TCP/UDP reporting for easy Plaspy integration.
+- Plaspy compatible device that sends position, alarms and telemetry for live tracking and reporting.
+- Compact concealed form factor ideal for motorcycles and small vehicles, minimal visual footprint.
+- Anti-theft alarms including movement, geo-fence breach, shock, illegal ignition and external power disconnection.
+- C-type remote-control features such as remote arming/disarming and remote fuel or power cut-off for immobilization.
+- GNSS positioning with typical meter-level accuracy and performance suited to routine tracking needs.
+- Hardwired vehicle power with internal backup battery to maintain reporting during external power loss.
+- Simple configuration and reporting options that facilitate integration with Plaspy monitoring and alerts.
 
 ## How It Works with Plaspy
 
-When installed and configured, the BN-311C continuously or intermittently reports GNSS coordinates and status messages to Plaspy using GSM/GPRS. Plaspy consumes the device’s TCP/UDP or SMS messages to provide live location maps, telemetry dashboards, event-driven alerts and historical route playback. The unit’s alarm and remote-control features are surfaced in Plaspy as actionable events you can monitor and respond to in real time.
+Once installed and configured, the BN-311C delivers position fixes and status messages to Plaspy so the platform can present live maps, event notifications and historical routes. Plaspy ingests the device messages and exposes alarms and control actions through platform interfaces, allowing operators to monitor assets and respond to incidents.
 
-- Real-time location and telemetry updates delivered to Plaspy for live tracking and route playback.
-- Ignition \(ACC\) status and ACC working notifications for monitoring vehicle usage and start/stop events.
-- Alarm reporting for overspeed, geo-fence breach, movement, shock and external power disconnection—displayed as Plaspy alerts and push notifications.
-- Remote immobilizer control \(remote fuel/power cut-off\) supported on the C-type model and accessible via Plaspy workflows or the supplied remote control accessory.
-- SOS emergency alarm and remote wake-up events transmitted to Plaspy for immediate attention and response.
+- Real-time location updates and route playback visible within Plaspy dashboards and maps.
+- Event and alarm reporting for movement, geo-fence breaches, shock, ignition anomalies and power loss surfaced as Plaspy alerts.
+- Remote immobilizer and arm/disarm actions available through Plaspy workflows where supported by the device configuration.
+- Telemetry and status messages used for fleet monitoring, utilization reporting and start/stop analysis.
+- SOS and emergency alarm events transmitted to Plaspy for rapid attention and operator response.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM/GPRS \(TCP / UDP / SMS\) |
-| --- | --- |
-| Bands | 850 / 900 / 1800 / 1900 MHz \(quad-band\) |
-| Power & Battery | Hardwired 12 V–24 V vehicle power; internal rechargeable 3.7 V, 180 mAh Li‑ion backup battery |
-| Interfaces | Hardwired harness with ACC ignition input; relay accessory for remote fuel/power cut-off; remote control accessory supported; SMS configuration commands |
-| GNSS | High-precision GNSS receiver; sensitivity −165 dBm; typical accuracy ~5 m; cold start ~45 s, warm start ~35 s, hot start ~1 s |
-| Remote Management | Mobile app and web platform compatibility via Plaspy; supports TCP/UDP reporting and SMS setup commands for configuration |
-| Environmental | Operating −20°C to +65°C; storage −40°C to +85°C; humidity 5%–95% non-condensing |
-| Form Factor | Compact, concealed hardwired terminal for motorcycles and small vehicles \(6.0 × 3.5 × 1.8 cm; 50 g\) |
-
-## Use Cases
-
-- Motorcycle anti-theft protection and remote immobilization for individual riders and owners.
-- Small two-wheeler fleet management for delivery services—real-time tracking, route playback and usage monitoring.
-- Rental or shared scooter/motorcycle operations that require concealed installation, ignition monitoring and quick alerts.
-- Low-cost security installations where remote arm/disarm and power-cut immobilization are required without bulky hardware.
+- Motorcycle anti-theft protection with discreet installation and remote immobilization options.
+- Small two-wheeler fleet tracking for delivery services requiring real-time visibility and route history.
+- Rental or shared scooter and motorcycle operations that need concealed monitoring and quick alerting.
+- Individual rider asset protection where compact hardware and straightforward remote control are priorities.
 
 ## Why Choose This Tracker with Plaspy
 
-The BN-311C is purpose-built for riders and small-vehicle operators who need a discreet, Plaspy compatible GPS tracker with dependable real-time tracking and basic telemetry. Its hardwired design with a backup battery ensures continued reporting even when external power is lost, and the C-type remote-control features provide practical anti-theft capabilities such as remote fuel/power cut-off and remote arming. Combined with Plaspy’s platform features—live maps, geo-fences, push notifications and route history—the BN-311C offers a cost-effective way to add anti-theft protection, ignition monitoring and simple fleet management to motorcycles and similar assets.
+The BN-311C is suited to organizations and individuals looking for a compact, purpose-built tracker that pairs with Plaspy for core tracking and security workflows. Its small size and focused anti-theft functions make it a convenient choice when discreet installation and basic immobilization are required, and Plaspy provides the platform layer for live monitoring, alerting and simple fleet oversight.
 
-While the BN-311C focuses on reliable GNSS/GSM tracking and immobilization, Plaspy’s ecosystem also supports extended integrations \(for example, Bluetooth sensors when available through the platform\) so you can expand telemetry—such as temperature or additional sensor data—if your operational needs grow. For installers and fleet managers, the small size, simple wiring harness and accessory options \(relay, harness, remote control, optional siren\) make the BN-311C an easy-to-deploy, Plaspy-compatible choice for motorcycle and light-vehicle monitoring.
-
+If you want to explore how the BN-311C can fit into your tracking setup, learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical information on the manufacturer site https://www.coban.net/.

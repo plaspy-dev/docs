@@ -2,23 +2,61 @@
 slug: /istartek/vt800
 id: vt800
 sidebar_label: VT800
+title: iStartek - VT800
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G para camiones con posicionamiento multi GNSS y redundancia de datos
+keywords:
+  - iStartek VT800
+  - Rastreador GPS VT800
+  - Compatibilidad VT800 Plaspy
+  - Rastreador VT800 para flotas
+  - VT800 4G
+  - Rastreador VT800 para camiones
+  - Características VT800
+  - Rastreador iStartek
+  - Dispositivos compatibles Plaspy
+  - Monitoreo de combustible VT800
 ---
+
 # iStartek - VT800
 
 ![VT800](./logo..jpg)
 
-El rastreador GPS para camiones VT800-L 4G es un dispositivo de seguimiento basado en GPS/WCDMA diseñado específicamente para el seguimiento en tiempo real y la gestión de flotas de vehículos. Cuenta con un módulo GPS incorporado que proporciona datos de posición precisos, los cuales se envían a un teléfono móvil o a un servidor especificado para el seguimiento y la gestión de flotas a través de su capacidad GSM/WCDMA.
+La serie VT800 de iStartek es un rastreador GPS para camiones diseñado para el seguimiento de vehículos en tiempo real y la gestión de flotas. Combina posicionamiento multi‑GNSS con transmisión de datos por red celular y almacenamiento local para ofrecer información de ubicación continua. El equipo está pensado para capturar y almacenar coordenadas cuando no hay conexión en vivo, y dispone de múltiples entradas para periféricos externos usados habitualmente en operaciones de flota.
 
-Una de las características destacadas del VT800-L es su capacidad para almacenar coordenadas GPS en su memoria interna cuando no hay conexión GPRS/WCDMA o a intervalos especificados por el usuario. Esto garantiza que los datos de seguimiento no se pierdan incluso en áreas con poca cobertura de red.
+Como dispositivo compatible con Plaspy, el VT800 puede enviar su posición y eventos operativos a la plataforma Plaspy para mejorar la visibilidad y el control operativo. Su combinación de compatibilidad de red, buffer a bordo, entradas para periféricos y funciones de monitoreo lo hace adecuado para organizaciones que desean centralizar rastreo, monitoreo de combustible, registro de temperatura y alertas básicas dentro de Plaspy para informes y control de flota.
 
-Además, el VT800-L ofrece la opción de conectar equipos externos como lectores de tarjetas RFID y lectores de tarjetas magnéticas a través de su puerto RS232. Esto permite una funcionalidad mejorada y personalización basada en requisitos de seguimiento específicos.
+## Puntos clave
 
-El VT800-L es compatible con redes 4G CAT4/CAT1/CATM, lo que garantiza una compatibilidad total con la red. También utiliza múltiples sistemas de posicionamiento, incluyendo GPS, BDS y QZSS, para una posición en tiempo real de alta precisión.
+- Rastreo de ubicación en tiempo real con soporte para múltiples sistemas globales de navegación
+- Compatibilidad con redes 4G y opciones de subida dual a servidores para mejorar la redundancia de datos
+- Memoria buffer local para almacenar posiciones cuando no hay conectividad
+- Soporte para periféricos externos como RFID o lectores de tarjetas mediante entrada serial
+- Funciones integradas de monitoreo de combustible para seguir consumo y estado de tanques
+- Alarma por manipulación, monitoreo de temperatura y detección de comportamiento de conducción para supervisión operativa
 
-Otras características destacadas del VT800-L incluyen monitoreo de combustible con soporte para sensores de combustible capacitivos/ultrasónicos, una batería de litio polímero de 500mAh incorporada, soporte de doble IP de servidor para cargar datos de ubicación en dos servidores simultáneamente, funcionalidad de alarma de manipulación, 8MB de memoria flash para almacenar datos de búfer, monitoreo de temperatura para el transporte de cadena de frío y monitoreo del comportamiento de conducción con varias alarmas para aceleración brusca, frenado, giro, exceso de velocidad y conducción bajo los efectos del alcohol.
+## Cómo funciona con Plaspy
 
-El VT800-L también ofrece múltiples opciones de E/S, incluyendo 2 puertos RS232, 2 puertos AD, 3 puertos IN, 2 puertos de salida y soporte de 1 cable. Además, permite la funcionalidad de escucha, lo que permite al llamante escuchar lo que está sucediendo alrededor del rastreador, y comunicación de audio bidireccional con un micrófono y altavoz incorporados.
+Al conectarse a Plaspy, el VT800 transmite datos de ubicación y eventos que Plaspy procesa para mapeo, monitoreo e informes. Plaspy utiliza la información entrante del dispositivo para construir historiales de vehículos, generar alertas y mostrar paneles operativos que ayudan a que las flotas funcionen con mayor eficiencia.
 
-En resumen, el rastreador GPS para camiones VT800-L 4G es un dispositivo confiable y rico en funciones que proporciona capacidades de seguimiento en tiempo real y gestión de flotas precisas para vehículos.
+- Seguimiento centralizado en vivo y reproducción histórica dentro de los paneles de Plaspy
+- Alertas automáticas por eventos de manipulación, umbrales de temperatura y otras alarmas del dispositivo
+- Datos de monitoreo de combustible disponibles para informes de consumo y detección de anomalías
+- Carga de datos con buffer que garantiza que los intervalos perdidos se reconcilien una vez restablecida la conectividad
+- Entradas de lectores externos y eventos de I/O registrados para control de acceso o validación de rutas
 
+## Casos de uso típicos
+
+- Seguimiento de ubicaciones y visibilidad de rutas para flotas de camiones en operadores logísticos
+- Transporte de cadena de frío o cargas sensibles a temperatura con monitoreo térmico en el dispositivo
+- Control de consumo de combustible y detección de robo de combustible en flotas comerciales
+- Supervisión de seguridad y manipulación de carga de alto valor y remolques
+- Monitoreo del comportamiento del conductor e informes operativos para cumplimiento y capacitación
+
+## Por qué elegir este rastreador con Plaspy
+
+El VT800 es una opción práctica para operadores de flota que necesitan una solución combinada de ubicación, monitoreo de combustible y sensado ambiental básico. Su capacidad para almacenar datos en buffer y enviar información a dos servidores ayuda a reducir huecos en los datos, lo que mejora la fiabilidad de los análisis e informes dentro de Plaspy. La presencia de entradas para periféricos y funciones de audio/escucha ofrece flexibilidad para integrar hardware adicional empleado en las operaciones diarias.
+
+Emparejado con Plaspy, el VT800 permite una visibilidad centralizada de vehículos y activos, facilitando la transformación de datos crudos del dispositivo en información accionable para la gestión de la flota. Las organizaciones que buscan un rastreador con funciones de redundancia y versatilidad en casos de uso encontrarán en el VT800 una buena alineación con los flujos de trabajo estándar de monitoreo de flotas que soporta Plaspy.
+
+Para obtener más información sobre cómo Plaspy puede trabajar con el VT800 y otros dispositivos compatibles, visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales del VT800 y la documentación con el fabricante en https://istartek.com/ antes de la compra.

@@ -2,61 +2,61 @@
 slug: /eelink/got10
 id: got10
 sidebar_label: GOT10
+title: EElink - GOT10
 sidebar_class_name: menu_item_tracker
+description: GOT10 OBD de EElink, diagnóstico y rastreo GPS plug and play compatible con Plaspy para seguimiento y mantenimiento de flotas
+keywords:
+  - EElink GOT10
+  - rastreador GOT10
+  - rastreador EElink
+  - rastreador OBD GPS
+  - rastreador OBD II
+  - telemetría CAN BUS
+  - rastreo de flotas
+  - diagnóstico vehicular
+  - compatible con Plaspy
+  - GOT10 rastreo de flotas
 ---
+
 # EElink - GOT10
 
 ![GOT10](./tracker.jpg)
 
-El GOT10 de Shenzhen EELINK Communication Technology Co. Ltd es un Rastreador de Diagnóstico OBD diseñado para operadores de flotas profesionales y propietarios de vehículos privados que necesitan una funcionalidad de rastreo GPS fiable, compatible con Plaspy, combinada con diagnósticos a bordo. Con instalación plug-and-play a través del puerto OBD-II, el GOT10 captura telemetría CAN BUS en tiempo real para que los usuarios de Plaspy puedan ver la ubicación, datos del motor y códigos de diagnóstico junto con sus paneles de gestión de flotas existentes.
+El GOT10 de Shenzhen EELINK Communication Technology Co. Ltd es un rastreador OBD orientado tanto a operadores profesionales de flotas como a propietarios de vehículos particulares que requieren seguimiento de ubicación confiable y visibilidad de diagnósticos dentro del vehículo. Diseñado para conectarse al puerto OBD-II del vehículo, el GOT10 lee mensajes CAN BUS y datos OBD para reportar ubicación, parámetros del motor y códigos de diagnóstico cuando el vehículo los expone.
 
-La conectividad OBD del GOT10 simplifica la instalación y elimina cableado adicional, proporcionando seguimiento en tiempo real e información diagnóstica para la gestión de flotas, la planificación de mantenimiento y la monitorización anti-robo. Como dispositivo compatible con Plaspy, está optimizado para transmitir telemetría del vehículo a Plaspy para el monitoreo de rutas, alertas e informes — ayudando a las flotas a reducir el tiempo de inactividad, responder más rápido a fallos y mejorar la utilización general del vehículo.
+Como dispositivo compatible con Plaspy, el GOT10 es una opción útil si usted desea combinar rastreo GPS y diagnóstico en una sola plataforma de gestión de flotas. Al integrarse con Plaspy, la unidad transmite telemetría y mensajes de diagnóstico estandarizados para que los gestores de flota vean ubicación, códigos de falla y parámetros operativos junto con datos de ruta y uso en el mismo panel.
 
-## Puntos clave
+## Aspectos clave
 
-- Solución OBD compatible con Plaspy para un rastreador GPS y diagnósticos integrados en un único dispositivo.
-- Monitoreo de datos CAN BUS en tiempo real para telemetría accionable: velocidad, RPM y diagnósticos del motor cuando estén disponibles.
-- Instalación OBD-II plug-and-play: no se requiere cableado en la mayoría de vehículos.
-- Diseñado para la gestión de flotas: ayuda a reducir los costos de mantenimiento con datos de diagnóstico remotos.
-- Soporta funciones de rastreador GPS cuando la ubicación está disponible a través del vehículo o del bus CAN.
-- Formato compacto y adaptable al vehículo, apto para uso en vehículos profesionales y particulares.
-- Permite monitorización y alertas remotas a través de Plaspy para una respuesta más rápida ante incidentes.
+- Solución OBD compatible con Plaspy que unifica rastreo GPS y diagnóstico vehicular.
+- Captura telemetría CAN BUS y parámetros comunes del motor como velocidad y RPM cuando están disponibles.
+- Conexión OBD-II plug and play que elimina la mayoría del cableado adicional para una implementación rápida.
+- Reduce costos de mantenimiento al entregar datos de diagnóstico remotos para planificar reparaciones.
+- Soporta seguimiento de ubicación y reproducción histórica cuando hay datos GPS o del vehículo disponibles.
+- Factor de forma compacto OBD-II, apto para vehículos de flota profesional y autos particulares.
 
 ## Cómo funciona con Plaspy
 
-El GOT10 se conecta al puerto OBD-II del vehículo y lee de forma continua fotogramas CAN BUS y diagnósticos OBD. Al integrarse con Plaspy, este dispositivo envía telemetría y mensajes de diagnóstico estandarizados para que Plaspy pueda mostrar posiciones de vehículos en tiempo real, códigos de avería y parámetros operativos. Los gestores de flotas obtienen una visión consolidada de la ubicación y el estado del vehículo, lo que permite una mejor planificación de rutas, mantenimiento predictivo y una respuesta más rápida ante incidentes.
+El GOT10 se conecta a la interfaz OBD-II del vehículo y reenvía tramas CAN BUS y diagnósticos OBD a Plaspy para que la ubicación y el estado del vehículo aparezcan juntos en la plataforma. Plaspy puede correlacionar posiciones con eventos de diagnóstico, generar alertas e incluir la telemetría en informes para supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real transmitidas a Plaspy para seguimiento en vivo y reproducción de historial.
-- Datos de diagnóstico CAN BUS y OBD-II, incluidos códigos de fallo del motor y valores de sensores \(según lo proporcionen el vehículo\).
-- Parámetros operativos del vehículo, como velocidad y RPM, disponibles en los informes de Plaspy cuando los datos CAN los proporcionan.
-- Monitoreo de combustible y estado de encendido condicional: el GOT10 expone estas métricas cuando están presentes en el bus CAN del vehículo.
-- Alertas e informes en Plaspy basados en códigos de diagnóstico y umbrales de telemetría para una gestión proactiva de la flota.
+- Ubicación y telemetría en tiempo real transmitidas a Plaspy para seguimiento en vivo y reproducción histórica.
+- Códigos de falla y mensajes OBD reenviados a Plaspy para alertas y resolución de problemas.
+- Parámetros operativos del vehículo como velocidad y RPM disponibles en los informes de Plaspy cuando el vehículo los proporciona.
+- Alertas y reportes programados en Plaspy basados en códigos de diagnóstico y umbrales de telemetría configurados.
+- Visibilidad del encendido y patrones de movimiento para monitoreo antirrobo y respuesta ante incidentes.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Fabricante | Shenzhen EELINK Communication Technology Co. Ltd |
-| --- | --- |
-| Modelo | GOT10 |
-| Conectividad | Interfaz OBD-II con soporte CAN BUS |
-| Bandas | No especificado |
-| Alimentación y batería | Alimentado vía puerto OBD-II del vehículo; batería de reserva no especificada |
-| Interfaces | Conector OBD-II, acceso a datos CAN BUS para diagnósticos |
-| GNSS | Soporta rastreo GPS vía datos OBD/CAN \(según lo proporcione el vehículo\) |
-| Bluetooth | No especificado |
-| Gestión remota | Transmisión de telemetría compatible con Plaspy; detalles adicionales de gestión remota no especificados |
-| Formato | Dispositivo compacto enchufable OBD-II para uso en vehículos |
-
-## Casos de uso
-
-- Gestión de flotas: combinar la ubicación del rastreador GPS con diagnósticos del motor para optimizar la asignación de tareas y las ventanas de mantenimiento.
-- Mantenimiento preventivo: monitorizar códigos de fallo CAN BUS y telemetría de sensores para planificar reparaciones antes de que ocurran averías.
-- Monitorización y recuperación anti-robos: usar el seguimiento en tiempo real de Plaspy para localizar vehículos con rapidez y detectar movimientos inesperados.
-- Monitoreo de combustible y eficiencia: analizar el nivel de combustible y los datos del motor proporcionados por CAN cuando estén disponibles para reducir el consumo y los costos operativos.
-- Comportamiento y seguridad del conductor: revisar la velocidad y la telemetría del motor para orientar una conducción más segura y reducir riesgos.
+- Gestión de flotas que requiere ubicación GPS consolidada y diagnósticos de motor para despacho y disponibilidad.
+- Programas de mantenimiento preventivo que usan códigos remotos para agendar servicio antes de fallas mayores.
+- Monitoreo antirrobo y recuperación con actualizaciones de ubicación en vivo y alertas por movimiento.
+- Análisis de consumo y eficiencia cuando los datos de combustible desde CAN están disponibles para el dispositivo.
+- Revisión del comportamiento del conductor y coaching usando telemetría agregada de velocidad y motor cuando se soporta.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el GOT10 como rastreador GPS compatible con Plaspy integra diagnósticos y seguimiento en un flujo de trabajo simplificado. Su integración OBD-II reduce el tiempo y el riesgo de instalación al mismo tiempo que desbloquea telemetría CAN BUS a la que los rastreadores convencionales no tienen acceso. Con los datos enviados directamente a Plaspy, los gestores de flotas obtienen información oportuna y accionable — desde el seguimiento en tiempo real hasta alertas de fallos del motor — que mejoran la disponibilidad, refuerzan la seguridad y respaldan la planificación de mantenimiento basada en datos.
+El GOT10 es una opción práctica para organizaciones que buscan profundidad de diagnóstico sin añadir hardware de rastreo por separado. Su integración OBD-II reduce el esfuerzo de instalación y proporciona acceso a telemetría del vehículo que mejora la planificación del mantenimiento y la respuesta a fallas. Para equipos que ya usan Plaspy, el GOT10 entrega datos combinados de ubicación y diagnóstico en una sola transmisión, ayudando a optimizar flujos de trabajo y acortar los tiempos de resolución de incidencias.
 
-El GOT10 es especialmente adecuado para organizaciones que requieren telemetría consolidada sin cableado adicional. Al apoyarse en canales estándar OBD-II y CAN BUS, funciona en una amplia variedad de vehículos y se escala fácilmente en flotas mixtas. Para equipos que usan Plaspy, el GOT10 suministra la telemetría crítica y la fuente de diagnóstico necesarias para gestionar programas de flota eficientes, habilitar la monitorización anti-robos y respaldar el monitoreo de combustible y el estado de encendido cuando esos datos están disponibles por el vehículo.
+Al funcionar sobre canales estándar OBD y CAN, el GOT10 puede desplegarse en flotas mixtas para escalar la recolección de telemetría. Emparejar el dispositivo con Plaspy convierte las señales del vehículo en alertas accionables, informes y registros históricos que apoyan la eficiencia y la seguridad de la flota.
 
+Para saber más sobre Plaspy y cómo dispositivos compatibles como el GOT10 se integran con la plataforma visite https://www.plaspy.com. Las especificaciones y la disponibilidad pueden cambiar con el tiempo, por favor verifique los detalles y la compatibilidad actuales en el sitio del fabricante https://www.eelink.com.cn/.

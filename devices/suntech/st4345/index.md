@@ -2,59 +2,60 @@
 slug: /suntech/st4345
 id: st4345
 sidebar_label: ST4345
+title: Suntech - ST4345
 sidebar_class_name: menu_item_tracker
+description: Compact IP67 Suntech ST4345 GPS tracker compatible with Plaspy for real time fleet tracking geofencing and asset monitoring
+keywords:
+  - Suntech ST4345
+  - ST4345 tracker
+  - ST4345 Plaspy
+  - Suntech GPS tracker
+  - IP67 tracker
+  - fleet tracking
+  - asset tracking
+  - LTE Cat M1 tracker
+  - NB IoT tracker
+  - trailer tracking
 ---
+
 # Suntech - ST4345
 
 ![ST4345](./tracker.jpg)
 
-The ST4345 series is a compact, IP67-rated GPS tracker designed for robust telematics where concealment, low power and reliable cellular connectivity matter. Plaspy compatible out of the box, the ST4345 connects LTE Cat M1, NB‑IoT and 2G networks to deliver real-time tracking, telemetry and advanced event reporting for fleets, trailers, motorcycles and high-value assets.
+The ST4345 series is a compact, IP67 rated GPS tracker built for robust telematics where concealment, low power consumption and reliable cellular connectivity are important. Available in multiple variants, the ST4345 is designed for vehicle, trailer, motorcycle and high value asset monitoring and combines a small footprint with wide temperature tolerance, an internal GNSS antenna and flexible wired I/O to support ignition detection and external alarm or immobilizer interfaces.
 
-Available in multiple variants \(ST4345R, ST4345LB, ST4345LC\), this rugged vehicle tracker combines a small footprint with wide temperature tolerance, an internal GNSS antenna and flexible I/O to support ignition detection, external sensors and integration with immobilizer or alarm circuits via wired interfaces. Plaspy users gain immediate access to precise position data, configurable geofencing, driving‑mode reports and remote diagnostics through standard protocols.
+As a Plaspy compatible device out of the box, the ST4345 can be integrated quickly into Plaspy fleet and asset management workflows to provide real time location, event reporting and telemetry. Plaspy users can leverage the device's reporting to enable live maps, configurable geofencing, driving mode reports and remote diagnostics without complex custom integration.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker for seamless integration into your real-time tracking and fleet management workflows.
-- Multi-mode cellular connectivity: LTE Cat M1, NB‑IoT and fallback EGPRS \(2G\) for broad regional coverage and reliable telemetry.
-- Rugged IP67 enclosure and wide operating range \(‑30°C to +80°C\) for durable vehicle, trailer and motorcycle installations.
-- Small, concealable form factor \(74 × 45 × 19.5 mm, 102 g with event cable\) that simplifies discreet mounting and theft mitigation.
-- Flexible wired I/O \(5 or 8 depending on model\) and optional RS232 to interface with ignition, alarm, sensors and external immobilizer circuits.
-- Low-power design with rechargeable backup battery \(3.7V Ni‑MH, 450 mAh\) and ultra-low sleep currents suitable for long-term deployments.
-- Advanced telematics features such as Driving Pattern Analysis \(DPA\), Crash Reconstruction \(CR\), jamming detection and configurable geofencing — all reportable through Plaspy.
-- BLE option on select models \(LB/LC variants\) enabling connection to Bluetooth sensors and beacons for temperature, proximity or accessory monitoring.
+- Native compatibility with Plaspy for straightforward integration into tracking and fleet workflows.
+- Multi mode cellular connectivity with LTE Cat M1, NB‑IoT and 2G fallback for broad regional reach and reliable reporting.
+- Rugged IP67 enclosure and wide operating temperature range for durable use on vehicles, trailers and outdoor assets.
+- Small, concealable form factor that simplifies discreet mounting and helps reduce theft risk.
+- Flexible wired I/O and optional serial connectivity for ignition detection, alarm interfacing and external sensor connections.
+- Low power design with internal backup battery for long term deployments and intermittent reporting.
+- Optional Bluetooth support on select variants for adding sensor and beacon based telemetry.
 
 ## How It Works with Plaspy
 
-The ST4345 exchanges GNSS positions, telemetry and event data with Plaspy using standard TCP/UDP reporting. Plaspy uses those messages to provide live maps, historical playback, alerts and rich reports. Integration is straightforward: the device sends periodic location updates, movement events and status flags which Plaspy ingests for real-time tracking and automated workflows.
+The ST4345 delivers GNSS positions, telemetry and event messages to Plaspy so the platform can present live location, history, alerts and diagnostics. Plaspy ingests the device data to create map views, automated workflows and reports that help teams monitor and manage assets in real time.
 
-- Real-time location and telemetry updates \(GNSS position, speed, heading, and system status\).
-- Ignition and motion-based virtual ignition detection \(voltage and motion inputs\) for accurate engine-on/engine-off reporting.
-- Configurable geofence alerts \(circular and polygonal\) and driving‑mode based reports available through Plaspy dashboards.
-- Fuel and other vehicle telemetry can be relayed when connected to vehicle sensors via the wired I/O for fuel monitoring and efficiency analysis.
-- Optional BLE support on LB/LC models enables integration with Bluetooth sensors and beacons; external immobilizer or alarm control possible via wired interfaces.
+- Live location and telemetry on Plaspy maps for continuous operational visibility.
+- Configurable geofence alerts and event notifications to trigger workflows or operator alerts.
+- Driving mode and event reports that feed into fleet performance dashboards and historical playback.
+- Remote diagnostics and status monitoring to support maintenance and device health checks.
+- Integration of ignition and external sensor signals into Plaspy for engine state, trailer status or accessory monitoring.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat M1, NB‑IoT \(NB2 variants\) and EGPRS \(2G\) with TCP/UDP transmission |
-| --- | --- |
-| Bands | NB2 and LTE Cat M1 regional band coverage \(examples include B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B25/B26/B27/B28/B66/B71/B85 where applicable\) and EGPRS 850/900/1800/1900 MHz |
-| Power & Battery | Primary input DC 8–33 V with inversion protection; internal rechargeable 3.7V Ni‑MH 450 mAh backup battery; typical consumption 70–80 mA @12 V active, &lt;4 mA sleep, &lt;2 mA deep sleep |
-| Interfaces | Up to 8 wired I/O connections \(model-dependent: 8 or 5\); optional RS232 on ST4345R; two LEDs \(Network, GPS\); SMA131 Bosch motion sensor; supports virtual ignition detection and external immobilizer/alarm interfacing via I/O |
-| GNSS | GPS & GLONASS with SBAS \(WAAS/EGNOS/MASA\), 1 Hz update, typical accuracy ±3 m CEP \(50%\); cold TTFF &lt;35 s \(15 s with EASYTM\), warm &lt;30 s \(5 s with EASYTM\), hot &lt;1 s |
-| Bluetooth | Optional BLE available on ST4345LB and ST4345LC variants for sensor and beacon connectivity |
-| Remote Management | Maintenance server support for remote diagnostics and configuration |
-| Form Factor & Durability | Compact 74 × 45 × 19.5 mm, 102 g with event cable; IP67 rated; wide temperature range -30°C to +80°C |
-| Certifications | FCC, IC and PTCRB certified for many regional deployments |
-
-## Use Cases
-
-- Fleet management: real-time tracking, driving-style reports and maintenance alerts for light and heavy vehicle fleets.
-- Anti‑theft and immobilization: concealed installation with wired I/O to interface alarm circuits and enable remote immobilizer control through Plaspy workflows.
-- Trailer and container monitoring: low-power LTE/NB‑IoT connectivity and IP67 protection for long-term asset visibility.
-- Motorcycle and off‑road vehicle tracking: compact form factor and wide temperature tolerance for rugged two‑wheeler applications.
-- Sensorized asset tracking: BLE-capable models support temperature, proximity or cargo sensors for multimodal telemetry.
+- Fleet management and route oversight for light and heavy vehicle operations.
+- Concealed anti theft installations with wired immobilizer or alarm integration and remote control through Plaspy.
+- Trailer and container monitoring where low power connectivity and weather resistance are required.
+- Motorcycle and off road vehicle tracking where compact size and temperature tolerance matter.
+- Sensorized asset tracking using BLE capable variants to add temperature or proximity telemetry.
 
 ## Why Choose This Tracker with Plaspy
 
-When paired with Plaspy, the ST4345 series delivers a balanced solution for organizations that need reliable, low-power GPS tracking and rich telemetry without bulky hardware. Its multi-radio cellular stack ensures connectivity across LTE Cat M1, NB‑IoT and 2G fallback, keeping devices online in diverse regions. The compact, IP67 design simplifies concealed installs for anti-theft applications while flexible I/O and optional BLE support let you add fuel sensors, alarms and immobilizer interfaces. Advanced features such as Driving Pattern Analysis, Crash Reconstruction and jamming detection feed directly into Plaspy for actionable insights, scalable fleet management and efficient remote diagnostics via maintenance server support. Choose the ST4345 with Plaspy to get precise location, configurable reporting and durable hardware for demanding telematics deployments.
+The ST4345 series offers a practical balance of ruggedness, small form factor and flexible I/O that suits many telematics deployments. Its multi mode cellular connectivity and low power design make it a strong candidate for organizations that need persistent asset visibility across mixed coverage areas, while the concealed footprint supports theft mitigation strategies.
 
+Paired with Plaspy, the ST4345 provides immediate access to position data, configurable alerts and operational reporting that help teams monitor assets, improve fleet efficiency and simplify remote diagnostics. To learn more about Plaspy and how the ST4345 can fit into your tracking strategy visit https://www.plaspy.com. Product specifications and availability can change over time so verify current details on the manufacturer site http://www.suntechint.com/ before planning deployments.

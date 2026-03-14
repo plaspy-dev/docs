@@ -2,58 +2,60 @@
 slug: /teltonika/fmm230
 id: fmm230
 sidebar_label: FMM230
+title: Teltonika - FMM230
 sidebar_class_name: menu_item_tracker
+description: Compact IP67 GPS tracker for fleet and asset monitoring compatible with Plaspy and built for harsh environments
+keywords:
+  - Teltonika FMM230
+  - FMM230
+  - FMM230 tracker
+  - Teltonika tracker
+  - GPS tracker
+  - fleet tracking
+  - asset tracking
+  - Plaspy compatible
+  - LTE Cat M1
+  - NB IoT
 ---
+
 # Teltonika - FMM230
 
 ![FMM230](./tracker.png)
 
-The Teltonika FMM230 is a compact, IP67-rated GPS tracker engineered for reliable asset and fleet monitoring in harsh environments and is Plaspy compatible for straightforward integration. With LTE Cat M1 and NB‑IoT \(M1/NB2\) connectivity, 2G fallback and a BG95‑M3 module at its core, the FMM230 delivers robust cellular coverage for real-time tracking, telemetry and condition monitoring across diverse deployments.
+The Teltonika FMM230 is a compact, rugged GPS tracker designed for reliable asset and fleet monitoring in demanding environments. Housed in an IP67 enclosure, the unit is intended to withstand dust and water exposure while providing continuous location and telemetry reporting. Its cellular design supports modern low power wide area connectivity alongside legacy fallback for broad coverage, and it pairs with on‑vehicle and accessory sensors to extend monitoring capabilities.
 
-Designed for easy installation and long-term remote management, the FMM230 supports Bluetooth Low Energy \(BLE\) for Teltonika EYE beacons and sensors, backup battery operation during power interruptions, and flexible input/output options for vehicle sensors and external systems. These features make it a strong choice for fleet management, logistics, refrigerated transport monitoring and equipment tracking where Plaspy-based dashboards and alerts are required.
+As a Plaspy compatible device, the FMM230 can stream location and condition data directly into Plaspy for real time visibility, alerts, and historical reporting. Its support for BLE sensors, flexible input and output options, and backup battery operation make it a practical choice for deployments that require condition monitoring, power loss detection, and centralized fleet oversight within the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible — integrates with Plaspy for real-time tracking, alerts and reporting.
-- Multi-network connectivity — LTE Cat M1 and NB‑IoT \(M1/NB2\) with 2G fallback for extended coverage.
-- Rugged IP67 enclosure — dust- and water-resistant for outdoor and industrial installations.
-- BLE support — pairs with Teltonika EYE beacons and sensors for temperature, humidity, movement and magnet detection.
-- Backup battery — continues operation during vehicle power loss to preserve location and telemetry data.
-- Flexible I/O and accessory support — connects to vehicle sensors, CAN adapters and external systems for telemetry and event monitoring.
-- Tool-free mounting — click-type two-phase closing and cable options simplify installation.
+- Plaspy compatible for straightforward integration into Plaspy dashboards and alerting workflows
+- Multi network cellular connectivity including LTE Cat M1 and NB IoT with 2G fallback for extended coverage
+- Rugged IP67 enclosure suited for outdoor and industrial installations
+- BLE support for pairing with Teltonika EYE beacons and sensors to monitor temperature, humidity and movement
+- Backup battery operation to preserve tracking during power interruptions
+- Flexible input and output options and accessory compatibility for vehicle and asset telemetry
+- Tool free mounting options to simplify installation and reduce field work
 
 ## How It Works with Plaspy
 
-When used with Plaspy, the FMM230 streams location and telemetry data to your Plaspy instance for real-time visibility and historical reporting. Its cellular connections \(M1/NB2/2G\) ensure persistent uplinks, while BLE-connected sensors extend monitoring to cargo conditions and nearby assets. Plaspy can receive and interpret the device’s inputs and accessory data to trigger alerts, geofences and telematics reports.
+When connected to Plaspy, the FMM230 transmits location and sensor data so fleet managers and operators can monitor assets in real time and review historical activity. Plaspy ingests the device inputs and presents them in dashboards, geofences, and reports that support operational decision making and exception handling.
 
-- Real-time location and telemetry updates relayed over LTE Cat M1, NB‑IoT and 2G networks.
-- BLE sensor data integrated into Plaspy dashboards using Teltonika EYE beacons for temperature, humidity, movement and magnet events.
-- Integration with vehicle inputs/outputs and CAN adapters allows Plaspy to show ignition or sensor status where configured.
-- Backup battery events and power-loss alerts forwarded to Plaspy for anti-theft and operational monitoring.
-- Remote firmware and configuration management support \(FOTA WEB and Teltonika tools\) facilitates centralized updates when deployed at scale.
+- Real time location updates and telemetry available in Plaspy for live tracking
+- BLE sensor readings integrated into Plaspy dashboards for cargo condition visibility
+- Vehicle input and output status presented in Plaspy to reflect ignition or sensor events where configured
+- Power loss and backup battery events forwarded to Plaspy for alerting and anti theft workflows
+- Remote device management and firmware update capability supports centralized maintenance and fleet scale operations
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat M1 and NB‑IoT \(M1/NB2\) with 2G GSM fallback \(via BG95‑M3 module\) |
-| --- | --- |
-| Bands | Multi-band LTE Cat M1 / NB2 \(worldwide combinations available\); 2G GSM 850/900/1800/1900 |
-| Power & Battery | Primary vehicle power with backup battery for continued operation during power interruptions |
-| Interfaces | Flexible input/output options for integration with vehicle sensors and external systems; compatible with CAN adapters \(ALL-CAN300, LV-CAN200, ECAN02\) |
-| Bluetooth | Bluetooth Low Energy \(BLE\) for Teltonika EYE beacons and sensors \(temperature, humidity, movement, magnet detection\) |
-| Remote Management | FOTA WEB support and Teltonika configuration tools, downloadable drivers and firmware via Teltonika wiki/support |
-| Form Factor | Compact, IP67-rated enclosure with click-type two-phase closing; standard and U-type cable options; packaged variants \(e.g., FMM230LN2X01, FMM230LN2F01\) |
-
-## Use Cases
-
-- Fleet management and real-time tracking — continuous vehicle location and telemetry for route optimization and compliance.
-- Refrigerated transport — BLE temperature sensors and Teltonika EYE beacons monitor cargo conditions and notify Plaspy on threshold breaches.
-- Logistics and last‑mile delivery — compact, tool-free installation and reliable cellular connectivity support high-density delivery fleets.
-- Construction and equipment tracking — rugged IP67 housing and backup battery protect tracking of assets and tools in harsh environments.
-- Utility and off-road vehicles — robust connectivity and flexible I/O enable telemetry, status monitoring and power-loss alerts in extreme conditions.
+- Fleet management and route monitoring for buses, vans, and commercial vehicles
+- Refrigerated transport where BLE sensors monitor cargo conditions and feed alerts into Plaspy
+- Logistics and last mile delivery operations requiring compact trackers and reliable cellular coverage
+- Construction site and equipment tracking in harsh environments using IP67 protection and backup power
+- Utility and off road vehicle monitoring where flexible I O and resilient connectivity are important
 
 ## Why Choose This Tracker with Plaspy
 
-The FMM230 delivers a balanced mix of rugged design, cellular resilience and sensor extensibility that suits Plaspy-driven deployments. Its LTE Cat M1 and NB‑IoT connectivity ensures economical, wide-area uplinks for real-time tracking and telemetry, while 2G fallback preserves coverage in legacy areas. BLE integration with Teltonika EYE sensors enables condition-based monitoring \(temperature, humidity, movement\), adding actionable data to Plaspy alerts and reports.
+The FMM230 offers a balanced combination of rugged design, extended cellular reach, and peripheral sensor support that aligns with Plaspy driven telematics deployments. Its form factor and mounting options reduce installation time, while BLE sensor integration and flexible I O make it suitable for condition based monitoring scenarios that feed directly into Plaspy alerts and reports.
 
-For fleet managers and telematics integrators, the FMM230 supports centralized device lifecycle management through Teltonika’s FOTA WEB and configuration utilities, reducing on-site maintenance and simplifying firmware updates. The IP67 enclosure and tool-free mounting reduce installation time and lower maintenance costs in harsh, outdoor or industrial settings. Because the product is listed EOL on some channels, Teltonika also provides comprehensive support materials, order codes and accessory options, making migration planning and large-scale rollouts easier to manage within Plaspy ecosystems.
-
+If you are evaluating trackers for a Plaspy deployment, the FMM230 is worth considering where environmental protection, sensor extensibility, and persistent communications are priorities. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details and accessory options on the manufacturer site https://www.teltonika-gps.com/ before making procurement decisions.

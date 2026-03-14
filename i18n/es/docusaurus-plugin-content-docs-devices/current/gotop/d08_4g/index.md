@@ -2,61 +2,59 @@
 slug: /gotop/d08_4g
 id: d08_4g
 sidebar_label: D08-4G
+title: GOTOP - D08-4G
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G con conector OBD, compatible con Plaspy para monitoreo de flotas, alertas por geocerca y reproducción de rutas históricas
+keywords:
+  - GOTOP D08-4G
+  - Rastreador D08-4G
+  - Rastreador GOTOP
+  - Compatible con Plaspy
+  - Rastreador GPS 4G
+  - Rastreador con conector OBD
+  - Rastreo de vehículos
+  - Seguimiento de flotas
+  - Alertas por geocerca
+  - Reproducción de rutas históricas
 ---
+
 # GOTOP - D08-4G
 
 ![D08-4G](./tracker.jpg)
 
-El D08-4G es un rastreador GPS montado en OBD diseñado para un monitoreo de vehículos confiable y compatible con Plaspy. Diseñado para gestión de flotas y seguimiento de automóviles individuales, el D08-4G combina 4G LTE con respaldo 2G, posicionamiento multi‑modo \(GPS, Beidou/BD, Wi‑Fi y LBS\), y un formato compacto de OBD para que puedas desplegar seguimiento en tiempo real y monitoreo de seguridad de manera rápida a lo largo de una flota de vehículos.
+El D08-4G es un rastreador GPS 4G diseñado para montarse en el puerto OBD, pensado tanto para la supervisión de flotas como para vehículos particulares. Combina conectividad celular con modos de posicionamiento multibanda, incluyendo GPS, Beidou BD, Wi‑Fi y LBS, ofreciendo actualizaciones de ubicación continuas en un formato compacto. Sus funciones estándar de alarma vehicular —geocercas, corte de energía, batería baja, detección de vibración por manipulación y alertas por desconexión— lo hacen apto para seguridad y monitoreo operativo.
 
-Con funciones estándar de alarma de vehículo: geocerca, alarma por fallo de energía, alarma de batería baja, vibración \(intrusión\) y alerta sin conexión, el D08-4G suministra a Plaspy los datos de ubicación y eventos necesarios para flujos de trabajo anti‑robo, reproducción histórica de rutas y paneles de telemetría operativa. Su amplio rango de voltaje de entrada y su batería interna de respaldo lo hacen adecuado para diversos tipos de vehículos, manteniendo la instalación simple a través del puerto OBD.
+Como dispositivo compatible con Plaspy, el D08-4G transmite posiciones y eventos a la plataforma Plaspy para que los equipos operativos obtengan visibilidad en tiempo real, reciban alertas y puedan reproducir trayectos históricos. Su montaje en OBD y la amplia tolerancia de alimentación facilitan el despliegue en flotas mixtas, mientras que las alarmas integradas alimentan los flujos de trabajo de eventos que Plaspy utiliza para respuesta ante robos y supervisión de flota.
 
-## Aspectos clave
+## Aspectos destacados
 
-- Compatible con Plaspy: transmite la ubicación y los eventos de alarma para rastreo en tiempo real y paneles de gestión de flotas.
-- 4G LTE con respaldo 2G: módulo de la serie SIMCom 7670 para amplia cobertura celular y transmisión de datos estable.
-- Posicionamiento multi‑modo: GPS, Beidou \(BD\), Wi‑Fi y LBS mejoran la fijación en entornos urbanos e interiores.
-- Conjunto de alarmas del vehículo: geocerca, fallo de energía, batería baja, vibración \(intrusión\) y alertas sin conexión para usos antirrobo.
-- Diseño compacto montado en OBD: instalación rápida en el puerto OBD; carcasa de ABS compacta \(51 × 47 × 23 mm, 54 g\).
-- Soporte de energía robusto: rango de operación DC 9V–35V; batería interna de respaldo 3.7V, 100 mAh \(polímero\); consumo típico ~73.6 mA @ 12V \(operación\), ~38.2 mA \(sleep\).
-- Bajo consumo típico de energía: valores de consumo de corriente típicos ayudan a estimar los presupuestos de energía de la flota \(73.6 mA @ 12V en operación, 38.2 mA en reposo\).
+- Compatible con Plaspy para transmisión en tiempo real de posiciones y eventos de alarma hacia los paneles de control de la flota
+- Conectividad 4G LTE con retroceso a 2G para amplia cobertura celular y enlace ascendente estable
+- Posicionamiento multimodal con GPS, Beidou BD, Wi‑Fi y LBS para mejorar la precisión en entornos difíciles
+- Alarmas vehiculares como geocercas, corte de energía, batería baja, detección de manipulación por vibración y alertas offline
+- Diseño compacto para montaje en OBD que permite despliegues rápidos en vehículos con puerto OBD
+- Amplio rango de entrada de voltaje y batería de respaldo interna para mantener operación corta ante pérdidas de energía
 
 ## Cómo funciona con Plaspy
 
-El D08-4G se integra con Plaspy para entregar actualizaciones de posición continuas, eventos de alarma y datos históricos tanto para vehículos individuales como para grandes flotas. Una vez que el rastreador se instala en el puerto OBD del vehículo y la SIM queda activada, el dispositivo transmite paquetes de ubicación y estado a través de LTE/4G \(con respaldo 2G\) a la plataforma de Plaspy para visualización en tiempo real, informes y alertas.
+Cuando el D08-4G está activo y conectado, transmite actualizaciones de ubicación y notificaciones de eventos a Plaspy, de modo que los equipos pueden supervisar vehículos en tiempo real y reaccionar ante incidentes. Plaspy recibe paquetes de posición y eventos de alarma, registra el historial para reproducción y muestra alertas a los usuarios mediante reglas configurables.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para seguimiento en mapa en vivo.
-- Eventos de alarma de geocerca y notificaciones de valla electrónica configurables que se muestran y quedan registradas en Plaspy.
-- Alertas de fallo de energía, batería baja y vibración \(intrusión\) enviadas a Plaspy para monitoreo y respuesta antirrobo.
-- Reproducción histórica de rutas: el historial de posiciones se almacena y es accesible en Plaspy para cumplimiento y análisis.
-- Las correcciones asistidas por Wi‑Fi y LBS mejoran la precisión del seguimiento en entornos urbanos e interiores donde las señales de satélite son débiles.
+- Actualizaciones de ubicación en tiempo real mostradas en los mapas en vivo de Plaspy para seguimiento y despacho
+- Eventos de geocerca y notificaciones configurables registrados y entregados por Plaspy
+- Alertas por corte de energía, batería baja y manipulación por vibración integradas en los flujos de trabajo de seguridad de Plaspy
+- Reproducción de rutas históricas e historial de posiciones disponibles para cumplimiento y análisis
+- Asistencia de Wi‑Fi y LBS en la fijación de posiciones para mejorar la visibilidad en zonas urbanas o interiores
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Model | D08-4G |
-| --- | --- |
-| Conectividad | 4G LTE \(serie SIMCom 7670: SIMcom7670E / SIMcom7670SA\) con respaldo 2G \(GSM/EDGE\) |
-| Bandas | LTE B1/B2/B3/B4/B5/B7/B8/B28/B66; GSM/EDGE 850/900/1800/1900 MHz |
-| SIM & Antena | Micro SIM; antena integrada |
-| Alimentación y Batería | Voltaje de operación DC 9V–35V; batería interna de respaldo 3.7V, 100 mAh \(polímero\); consumo típico ~73.6 mA @ 12V \(operación\), ~38.2 mA \(sleep\) |
-| Interfaces | Montado en OBD \(se conecta a través del puerto OBD del vehículo\). Otras I/O externas no especificadas. |
-| GNSS / Posicionamiento | GPS y Beidou \(BD\) más Wi‑Fi y LBS para posicionamiento multi‑modo. Precisión no especificada. |
-| Bluetooth | No especificado |
-| Gestión Remota | No especificado \(actualización de firmware/FOTA o gestión web no listada\) |
-| Carcasa y Factor de Forma | Plástico ABS; 51 mm × 47 mm × 23 mm; peso 54 g; diseño montado en OBD para uso en vehículos |
-| Alarmas y Eventos | Geocerca, fallo de energía, batería baja, vibración \(intrusión/movimiento\), alerta sin conexión |
-
-## Casos de uso
-
-- Gestión de flotas: implementación en vehículos comerciales ligeros para seguimiento en tiempo real, reproducción de rutas y supervisión operativa en Plaspy.
-- Antirrobo y recuperación: alertas de geocerca, vibración y fallo de energía ayudan a detectar manipulaciones y respaldar flujos de recuperación.
-- Urban last‑mile y entregas: posicionamiento por Wi‑Fi y LBS ayuda en áreas urbanas densas para detección precisa de paradas y prueba de servicio.
-- Monitoreo basado en uso: rutas históricas y registros de eventos brindan información para aprovechamiento, análisis del comportamiento del conductor e informes telemétricos simples a través de Plaspy.
+- Gestión de flotas para vehículos comerciales ligeros que requieren seguimiento centralizado y registro de rutas
+- Monitoreo antirrobo y procesos de recuperación impulsados por geocercas y alertas de manipulación
+- Última milla y reparto urbano donde Wi‑Fi y LBS ayudan a mejorar la precisión en áreas densas
+- Monitoreo por uso e informes de utilización basados en rutas y eventos almacenados
+- Rastreo de vehículos de alquiler o compartidos para supervisar ubicaciones y generar historial de actividad
 
 ## Por qué elegir este rastreador con Plaspy
 
-El D08-4G ofrece un equilibrio práctico entre conectividad, posicionamiento de múltiples modos y un formato de grado vehicular para equipos que necesitan un rastreador GPS compatible con Plaspy sin instalaciones complejas. Su conectividad 4G LTE con respaldo 2G y el módulo de la serie SIMCom 7670 proporcionan un uplink fiable en áreas de cobertura amplia, mientras que las alarmas integradas ofrecen las señales básicas de anti‑robo y operativas requeridas por las operaciones de flota. Debido a que se monta en el puerto OBD y admite un amplio rango de tensión de entrada, su instalación es rápida en flotas mixtas y reduce el tiempo de inactividad.
+El D08-4G ofrece una combinación práctica de conectividad, posicionamiento multimodal y factor de forma adecuado para vehículos, ideal para organizaciones que buscan un rastreador compatible con Plaspy sin instalaciones complejas. Las funciones de alarma integradas proporcionan las señales de evento que Plaspy requiere para activar alertas y automatizar respuestas, mientras que el diseño y soporte de alimentación del dispositivo facilitan despliegues uniformes en flotas mixtas.
 
-Combinado con Plaspy, el D08-4G se convierte en parte de una solución completa: seguimiento en tiempo real, alertas basadas en eventos y reproducción histórica centralizados en la plataforma Plaspy para que los equipos de operaciones actúen rápidamente sobre la telemetría y los datos de ubicación. Para implementaciones que también requieren monitoreo de combustible, estado de encendido, control de inmovilizador o integración de sensores Bluetooth, Plaspy puede combinar las señales de posición del D08-4G con datos del vehículo o sensores cuando esas entradas estén disponibles en el vehículo o en otros dispositivos compatibles dentro de su ecosistema de flota.
-
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer information can change over time; please verify current technical details and compatibility on the official manufacturer site https://www.gotop.cc/.

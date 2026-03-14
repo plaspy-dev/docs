@@ -2,58 +2,59 @@
 slug: /coban/bn_401b
 id: bn_401b
 sidebar_label: BN-401B
+title: Coban - BN-401B
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G compacto para motocicletas BN-401B compatible con Plaspy, ubicación en tiempo real, alertas e inmovilización remota
+keywords:
+  - Coban BN-401B
+  - BN-401B
+  - rastreador BN-401B
+  - rastreador GPS 4G
+  - rastreador para motocicletas
+  - rastreador de vehículos
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - rastreador antirrobo
+  - dispositivo de rastreo GPS
 ---
+
 # Coban - BN-401B
 
 ![BN-401B](./tracker.png)
 
-El BN-401B es un rastreador GPS 4G compacto y un terminal de gestión de motocicletas diseñado para una protección antirrobo sencilla y un seguimiento en tiempo real. Diseñado para vehículos ligeros y coches privados, el BN-401B ofrece posicionamiento GPS fiable, lógica de alarmas configurable y telemetría esencial para que los gestores de flota y los propietarios puedan supervisar sus activos desde Plaspy con un mínimo esfuerzo de instalación. Su conectividad 4G y su formato ligero lo convierten en un dispositivo compatible con Plaspy ideal para aplicaciones que priorizan actualizaciones rápidas de ubicación, inmovilización simple y verificaciones de estado bajo demanda.
+El BN-401B es un rastreador GPS 4G compacto y terminal de gestión para motocicletas diseñado para ofrecer protección antirrobo sencilla y seguimiento en tiempo real. Orientado a vehículos pequeños y automóviles particulares, proporciona posicionamiento GPS fiable, lógica de alarmas configurable y telemetría esencial para que propietarios y gestores de flota puedan monitorear activos con un esfuerzo mínimo de instalación. Su diseño liviano y la capacidad de batería de respaldo permiten un monitoreo continuo en condiciones habituales de uso.
 
-Construido para operar sobre TCP/UDP/SMS y con configuración por Bluetooth para la instalación local, el BN-401B admite los flujos de trabajo estándar de Plaspy, como ubicación en vivo, reproducción de rastreo, alertas de geocerca y SOS de emergencia. La batería de respaldo, la estrategia de sueño inteligente y el rango de voltaje de funcionamiento \(12–24 V\) proporcionan un rendimiento fiable antirrobo y telemetría persistente en entornos reales de vehículos.
+Como dispositivo compatible con Plaspy, el BN-401B se integra en flujos de trabajo comunes de gestión de flotas para entregar ubicación en vivo, reproducción de rutas, alertas de geocercas y notificaciones SOS de emergencia. La unidad soporta transporte TCP, UDP y SMS para reportes al servidor y ofrece configuración por Bluetooth para ajustes locales, lo que lo hace ideal para operadores que requieren actualizaciones de posición rápidas, opciones de inmovilización simples y comprobaciones de estado bajo demanda a través de la plataforma Plaspy.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS 4G compatible con Plaspy para seguimiento en tiempo real y actualizaciones de posición a través de TCP/UDP/SMS.
-- Formato compacto para motocicletas/vehículos \(6.78 × 4.1 × 1.84 cm; ~58 g\) para una instalación discreta.
-- Suite de alarmas integral: SOS, movimiento, sobrevelocidad, impacto, batería baja, corte de energía externa y geocerca.
-- Activación/desactivación remota y inmovilizador de corte remoto de combustible/energía para apoyar la respuesta ante el robo.
-- Configuración por Bluetooth para ajustar parámetros localmente y una puesta en marcha sencilla sin interfaz con cable.
-- Modo de sueño inteligente y intervalos de reporte configurables para equilibrar la energía de la batería/la alimentación de respaldo y las necesidades de telemetría en tiempo real.
-- Batería de litio de respaldo de 3.7 V y 90 mAh para mantener la generación de reportes durante la pérdida de suministro externo.
+- Conectividad 4G con reportes por TCP, UDP y SMS para actualizaciones de posición y alertas oportunas.
+- Factor de forma compacto para motocicletas y vehículos pequeños, que facilita un despliegue discreto.
+- Suite completa de alarmas que incluye SOS, detección de movimiento, exceso de velocidad, choque, batería baja, corte de alimentación externa y alertas de geocerca.
+- Soporte para inmovilización remota mediante corte de combustible o alimentación para asistir en la respuesta antirrobo.
+- Configuración por Bluetooth para ajuste de parámetros local y puesta en servicio sencilla.
+- Batería de respaldo y estrategia inteligente de suspensión para mantener reportes durante la pérdida de alimentación externa.
 
 ## Cómo funciona con Plaspy
 
-La integración con Plaspy es simple: el BN-401B envía datos de ubicación y alarmas a los servidores de Plaspy mediante transporte TCP, UDP o SMS. Plaspy consume esos mensajes para proporcionar seguimiento en tiempo real, alertas e informes históricos. Puede confiar en su telemetría reportada—posición GPS, estado de encendido ACC y eventos de alarma—para activar flujos de trabajo de Plaspy como comandos de inmovilización, notificaciones de geocerca y reproducción de rastreo.
+La integración con Plaspy es directa: el BN-401B envía ubicación y eventos de alarma a los servidores de Plaspy mediante los métodos de transporte soportados, y Plaspy procesa esos mensajes para ofrecer seguimiento en tiempo real, alertas e informes históricos. La configuración local por Bluetooth puede usarse para la puesta en marcha inicial, mientras Plaspy proporciona monitoreo remoto y supervisión operativa.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy a través de redes 4G.
-- Alarma de encendido ACC y notificaciones de funcionamiento del ACC a números autorizados para eventos de encendido.
-- Alarmas de batería baja y desconexión de la alimentación externa para notificar a Plaspy y a los usuarios sobre problemas de energía.
-- Inmovilizador remoto mediante la capacidad de corte remoto de combustible/energía para activar acciones anti-robo coordinadas a través de Plaspy.
-- Configuración por Bluetooth para la instalación local; monitorización basada en la app y reproducción de rastreo mediante flujos de trabajo habilitados por Plaspy.
+- Ubicación en tiempo real y actualizaciones de telemetría mostradas en Plaspy para visibilidad inmediata de la flota.
+- Alertas de geocerca y SOS reenviadas a Plaspy para que los equipos reciban notificaciones inmediatas.
+- Reproducción de rutas y datos históricos de posición disponibles en Plaspy para revisión de incidentes e informes.
+- Alarmas por pérdida de energía y batería baja dirigidas a Plaspy para destacar posibles problemas del dispositivo.
+- Comandos de inmovilización remota coordinados mediante los flujos de trabajo de Plaspy para apoyar acciones antirrobo.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | 4G LTE con transporte TCP / UDP / SMS |
-| --- | --- |
-| Bandas \(variantes regionales\) | Latinoamérica: B2/B3/B4/B5/B7/B8/B28A/B28B; América del Norte: B2/B4/B5/B7/B12/B13/B66/B28A; Eurasia/África: B1/B3/B5/B7/B8/B20/B28A/B40 |
-| Alimentación y batería | Alimentación del vehículo 12–24V; batería de respaldo recargable de 3.7V 90 mAh; alarma de batería baja |
-| Interfaces | Detección de encendido ACC; corte remoto de combustible/energía \(capacidad de inmovilizador\); entradas/salidas de alarma configuradas mediante manual/SMS |
-| GNSS | Receptor GNSS de alta precisión; precisión típica ~5 m; sensibilidad -165 dBm; arranque en frío ~45 s, arranque tibio ~35 s, arranque en caliente ~1 s |
-| Bluetooth | Módulo Bluetooth a bordo para configuración local |
-| Gestión remota | Configuración por Bluetooth, comandos de configuración por SMS, monitorización remota basada en app y manual del usuario incluido |
-| Ambiental | Funcionamiento -20°C a +45°C; almacenamiento -40°C a +85°C; humedad 5%–95% sin condensación |
-| Factor de forma | Terminal compacto para motocicleta/vehículo pequeño, 6.78 × 4.1 × 1.84 cm; ~58 g |
-
-## Casos de uso
-
-- Antirrobo y inmovilización para pequeñas flotas de motocicletas o vehículos ligeros; el corte remoto de combustible/energía facilita una respuesta rápida a través de Plaspy.
-- Seguridad personal de motocicletas o coches privados con SOS, geocerca y alarmas de movimiento/choque para alertas inmediatas.
-- Gestión ligera de flotas para scooters de reparto y mensajeros urbanos que requieren seguimiento en tiempo real, alertas de exceso de velocidad y reproducción de rastreo.
-- Monitoreo de vehículos de alquiler donde una instalación compacta, el estado de encendido y alertas de batería baja ayudan a reducir pérdidas y tiempos de inactividad.
-- Telemetría y registro de eventos para programar el mantenimiento e investigar incidentes mediante los informes y la reproducción de Plaspy.
+- Protección antirrobo y rápida inmovilización para flotas de motocicletas y vehículos ligeros.
+- Seguridad de motocicletas particulares o autos privados con alertas SOS y detección de movimiento o golpes.
+- Operaciones urbanas de reparto y mensajería que requieren actualizaciones frecuentes de posición y alertas por exceso de velocidad.
+- Monitoreo de vehículos de alquiler para rastrear estado de encendido y reducir pérdidas o usos indebidos.
+- Registro de telemetría y eventos para planificación de mantenimiento e investigación de incidentes mediante los informes de Plaspy.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el BN-401B como dispositivo compatible con Plaspy ofrece una opción rentable y fiable para organizaciones que necesitan una funcionalidad enfocada de anti-robo y seguimiento sin hardware complejo. Su conectividad 4G y el soporte para TCP/UDP/SMS facilitan una integración simple y robusta, mientras que la configuración por Bluetooth y los comandos de configuración por SMS agilizan la instalación y los cambios de parámetros. La combinación de detección de encendido ACC, reportes de alarmas integrales y capacidad de inmovilización remota ofrece salvaguardas prácticas para motocicletas, coches privados y flotas pequeñas. Combinado con Plaspy, el BN-401B proporciona a los operadores una visión clara en tiempo real de la ubicación y el estado del vehículo, ayudando a reducir el riesgo de robo, a mejorar la visibilidad operativa y a simplificar la gestión diaria de la flota.
+El BN-401B es una opción práctica para organizaciones que necesitan funciones focalizadas de antirrobo y seguimiento sin hardware complejo. Su tamaño compacto y las opciones de alarma configurables lo hacen adecuado para motocicletas y vehículos pequeños, mientras que el reporte 4G y la puesta a punto por Bluetooth reducen el tiempo requerido para poner en servicio los dispositivos. En conjunto con Plaspy, el BN-401B proporciona visibilidad operativa clara mediante seguimiento en vivo, alertas y reproducción de rutas que ayudan a mejorar la seguridad y la supervisión diaria de la flota.
 
+Para obtener más información sobre el uso del BN-401B con Plaspy visite https://www.plaspy.com. Las especificaciones del producto, su disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones y la documentación actual en el sitio oficial del fabricante https://www.coban.net/.

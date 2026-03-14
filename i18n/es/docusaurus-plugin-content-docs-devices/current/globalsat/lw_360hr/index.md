@@ -2,65 +2,63 @@
 slug: /globalsat/lw_360hr
 id: lw_360hr
 sidebar_label: LW-360HR
+title: GlobalSat - LW-360HR
 sidebar_class_name: menu_item_tracker
+description: Reloj rastreador GPS wearable LoRa GlobalSat LW-360HR para localización y monitoreo de salud de largo alcance compatible con Plaspy
+keywords:
+  - GlobalSat LW-360HR
+  - GlobalSat
+  - LW-360HR
+  - rastreador GPS wearable
+  - rastreador LoRaWAN
+  - compatible con Helium
+  - compatible con Plaspy
+  - reloj GPS
+  - rastreador monitoreo de salud
+  - rastreador SOS geocerca
 ---
+
 # GlobalSat - LW-360HR
 
 ![LW-360HR](./tracker.jpg)
 
-El LW-360HR es un reloj rastreador GPS con tecnología LoRa, diseñado para una monitorización fiable de la ubicación y la salud, con bajo consumo de energía. Listo para usar con Plaspy, el LW-360HR combina conectividad LoRaWAN™ de largo alcance \(compatibilidad con Helium\) con posicionamiento GPS y BLE 4.0 para ofrecer seguimiento seguro en tiempo real y monitorización remota para personas mayores, equipos y grupos al aire libre.
+El GlobalSat LW-360HR es un reloj rastreador GPS wearable pensado para localización de largo alcance y monitoreo de salud con bajo consumo. Combina conectividad LoRaWAN de área amplia con posicionamiento GPS y BLE 4.0 para ofrecer reportes de ubicación, alertas SOS y telemetría continua de actividad y salud, como frecuencia cardíaca óptica y temperatura de piel. Su diseño compacto, resistencia al agua y autonomía de varios días lo hacen adecuado para adultos mayores, equipos al aire libre y aplicaciones de seguridad grupal.
 
-Diseñado para el cuidado de personas mayores, la seguridad de grupos y la gestión de equipos al aire libre, este compacto rastreador GPS combina telemetría de actividad y salud —incluyendo ritmo cardíaco óptico y temperatura de la piel— con alertas SOS y geocerca. El LW-360HR es adecuado para implementaciones que requieren cobertura en áreas extensas sin necesidad de servicio celular continuo, manteniendo al mismo tiempo acceso móvil local y actualizaciones de firmware OTA a través de Bluetooth.
+Como dispositivo compatible con Plaspy desde el primer momento, el LW-360HR puede enviar datos de ubicación y sensores a Plaspy para mapeo, alertas e informes históricos. Plaspy ingiere las transmisiones GPS y de telemetría para proporcionar visibilidad en tiempo real, notificaciones por geocerca y paneles operativos, mientras que BLE facilita la provisión local y las actualizaciones de firmware cuando sea necesario. Esto convierte al LW-360HR en una opción práctica para organizaciones que necesitan integrar monitoreo de ubicación y salud en una sola plataforma.
 
-## Key Highlights
+## Aspectos destacados
 
-- Rastreador GPS portátil compatible con Plaspy: se integra con flujos de trabajo en la nube LoRaWAN para seguimiento y alertas en tiempo real.
-- Conectividad LoRaWAN de largo alcance \(Clase A\) con compatibilidad con la red Helium, para hasta ~10 km en espacios abiertos.
-- Posicionamiento GPS integrado para reportes de ubicación exterior precisos y notificaciones activadas por geocerca.
-- Telemetría continua de salud y actividad — ritmo cardíaco óptico \(±3 bpm en reposo / ±10 bpm en movimiento\), temperatura de la piel, pasos y calorías.
-- BLE 4.0 para emparejamiento móvil local, soporte para sensores Bluetooth y actualizaciones de firmware OTA mediante conexión móvil.
-- Diseño práctico tipo wearable: pantalla redonda 0.96" FSTN \(128×128\), tamaño 45×45×13 mm, peso total ≈45 g y resistencia al agua de 5 ATM.
-- Autonomía de varios días gracias a la célula integrada de 250 mAh — uso típico de unas 4 días en condiciones normales.
+- Rastreador GPS wearable compatible con Plaspy diseñado para seguimiento y monitoreo centrado en la persona.
+- Conectividad LoRaWAN de largo alcance con funcionamiento amigable para Helium que ofrece cobertura amplia.
+- Posicionamiento GPS integrado y capacidad de geocerca para reportes de ubicación en exteriores.
+- Telemetría continua de salud y actividad incluyendo frecuencia cardíaca óptica y temperatura de piel.
+- BLE 4.0 para emparejamiento con smartphone y actualizaciones de firmware OTA.
+- Factor de forma práctico, resistente al agua y con autonomía de varios días.
+- Botón SOS y funciones de alerta pensadas para cuidado de adultos mayores y trabajadores en solitario.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-El LW-360HR envía posiciones GPS y telemetría de salud y actividad a través de LoRaWAN™ a plataformas en la nube. Cuando se despliega como compatible con Plaspy, la ubicación y los datos de sensores se envían a Plaspy para seguimiento en tiempo real, escalamiento de SOS y reportes de geocercas. BLE proporciona conectividad de corto alcance a smartphones para el aprovisionamiento, alertas locales y actualizaciones de firmware OTA.
+Cuando se emplea con Plaspy, el LW-360HR envía posiciones GPS y telemetría de salud/actividad por LoRaWAN a plataformas en la nube, donde Plaspy recibe y procesa los datos para seguimiento en tiempo real, alertas e informes. BLE ofrece conectividad de corto alcance para provisión, notificaciones locales y actualizaciones de firmware desde un dispositivo móvil.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: fijaciones GPS transmitidas por LoRaWAN a Plaspy para mapas en vivo e historial.
-- Métricas de salud y actividad: ritmo cardíaco óptico, temperatura de la piel y datos de podómetro transmitidos como telemetría para tableros de monitoreo.
-- Alertas SOS y geocerca: eventos disparados por botón o por geocerca generan notificaciones inmediatas a través de los canales de Plaspy.
-- Sensores Bluetooth y emparejamiento BLE: BLE 4.0 admite interacción móvil local y sensores accesorios cuando corresponda.
-- Ignición / inmovilizador / monitorización de combustible: el LW-360HR es un dispositivo ponible y no ofrece entradas de encendido de vehículos, control de inmovilizador ni detección directa de combustible; sin embargo, Plaspy puede incorporar telemetría de dispositivos de grado vehicular para escenarios completos de gestión de flotas junto con el rastreo de wearables.
+- Ubicación en tiempo real e historial en los mapas de Plaspy para monitoreo en vivo y reproducción.
+- Métricas de salud y actividad disponibles en paneles para revisiones de bienestar y estado.
+- Alertas SOS y de geocerca canalizadas a través de los medios de notificación de Plaspy para una rápida escalada.
+- Emparejamiento BLE que facilita la provisión local, interacción con accesorios y actualizaciones OTA de firmware.
+- Se integra en despliegues mixtos para que la telemetría wearable pueda verse junto con datos de vehículos y activos en Plaspy.
+- Tenga en cuenta que el LW-360HR es un dispositivo wearable y no proporciona entradas de ignición de vehículo, inmovilizador ni sensores directos de combustible.
 
-## Visión General Técnica
+## Casos de uso típicos
 
-| Modelo | LW-360HR |
-| --- | --- |
-| Conectividad | LoRaWAN™ \(Clase A\), GPS, BLE 4.0 |
-| Alcance de LoRa | ~1 km \(urbano típico\), hasta 10+ km \(espacios abiertos\) |
-| Distancia de Enlace Bluetooth | Aproximadamente 10 m |
-| GNSS | Posicionamiento GPS \(exterior\) |
-| Sensores | Monitor óptico de ritmo cardíaco, sensor de temperatura de la piel, sensor G \(acelerómetro\) |
-| Precisión de Frecuencia Cardíaca | ±3 bpm en reposo; ±10 bpm durante movimiento \(\<10 km/h\) |
-| Batería | 250 mAh Li‑ion; típico ~4 días en uso normal |
-| Pantalla | 0.96" round FSTN \(128×128\) |
-| Tamaño / Peso | 45 × 45 × 13 mm; unidad ≈30 g \(total ≈45 g con accesorios\) |
-| Resistencia al Agua | 5 ATM |
-| Temperatura de Funcionamiento | -10 °C a 60 °C |
-| Carga y Firmware | Cable de carga con clip de 4 pines; actualizaciones de firmware vía BLE OTA o modo USB almacenamiento masivo |
-| Accesorios Incluidos | Guía de Inicio Rápido, cable de carga con clip |
+- Seguridad de adultos mayores y monitoreo remoto de bienestar con ubicación, frecuencia cardíaca y seguimiento SOS.
+- Seguridad en exteriores y coordinación de equipos para grupos que operan en parques, senderos o sitios remotos.
+- Seguimiento de grupos escolares y cuidado infantil con alertas de geocerca para excursiones y salidas.
+- Gestión de eventos y voluntarios en áreas abiertas donde la cobertura celular puede ser limitada.
+- Recuperación personal y escenarios antirrobo para dispositivos wearables y bienes.
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Seguridad de personas mayores y monitorización remota del bienestar — el reloj rastreador GPS proporciona ubicación, ritmo cardíaco y SOS para adultos mayores que viven de forma independiente.
-- Seguridad al aire libre y coordinación de equipos — seguimiento de actividad grupal y protección de trabajadores solitarios en parques, senderos y sitios de trabajo remotos.
-- Rastreo de grupos escolares y de cuidado infantil — monitoreo fácil de niños en excursiones o actividades en campus con alertas de geocerca.
-- Gestión de eventos y grupos — coordinar equipos o voluntarios en grandes espacios abiertos con cobertura celular limitada.
-- Antirrobo y recuperación de activos wearables — la localización y alertas ayudan a recuperar dispositivos perdidos o extraviados.
+El LW-360HR combina la conveniencia de un dispositivo wearable con conectividad LoRaWAN de largo alcance y telemetría de salud, lo que lo convierte en una opción sensata para organizaciones enfocadas en monitoreo centrado en personas. La integración con Plaspy lleva esos datos wearables a una plataforma unificada para mapeo, alertas e informes sin requerir servicio celular continuo, lo que puede reducir costos operativos y simplificar despliegues en áreas extensas.
 
-## Por qué Elegir Este Rastreador con Plaspy
+En entornos operativos mixtos, Plaspy puede mostrar la telemetría del LW-360HR junto con rastreadores de vehículos y activos para ofrecer flujos de trabajo consolidados de monitoreo y respuesta. Si su necesidad principal es el seguimiento de personas, la escalada SOS y la visibilidad de salud o actividad, el LW-360HR con Plaspy ofrece una solución compacta y práctica.
 
-Elegir el LW-360HR como rastreador GPS compatible con Plaspy te ofrece un wearable compacto que combina la conectividad LoRaWAN de largo alcance con una telemetría rica de sensores de salud y movimiento. Para organizaciones y cuidadores, la integración con Plaspy posibilita rastreo en tiempo real, escalamiento de SOS y alertas de geocerca sin depender de costosos planes celulares. BLE 4.0 simplifica el aprovisionamiento y las actualizaciones de firmware OTA en el propio dispositivo, mientras que la resistencia al agua de 5 ATM y varios días de autonomía hacen que el dispositivo sea práctico para uso diario.
-
-Aunque el LW-360HR no es un dispositivo telemático para vehículos y no incluye interfaces de encendido, inmovilizador o detección de combustible integradas, sus fortalezas se centran en la telemetría orientada a la persona y la coordinación de grupos. En despliegues mixtos, Plaspy puede unificar la telemetría de wearables del LW-360HR con datos de vehículos o activos de otros rastreadores para ofrecer vistas integrales de gestión de flotas, flujos de anti‑robo y paneles de monitoreo consolidados.
-
+Learn more about Plaspy and how compatible devices are supported on the Plaspy website https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current technical information on the manufacturer site https://www.globalsat.com.tw/.

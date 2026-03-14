@@ -2,58 +2,61 @@
 slug: /astra_telematics/at405
 id: at405
 sidebar_label: AT405
+title: Astra Telematics - AT405
 sidebar_class_name: menu_item_tracker
+description: Compact IP65 GPS tracker for moto sharing and light vehicle fleets compatible with Plaspy for real time tracking and remote monitoring
+keywords:
+  - Astra Telematics AT405
+  - AT405 tracker
+  - AT405 Plaspy
+  - Astra AT405 compatibility
+  - GPS tracker for scooters
+  - moto sharing tracker
+  - fleet tracking device
+  - vehicle telemetry tracker
+  - BLE enabled tracker
+  - IP65 GPS tracker
 ---
+
 # Astra Telematics - AT405
 
 ![AT405](./tracker.jpg)
 
-The AT405 is a compact, IP65-rated GPS tracker and IoT telematics unit designed for moto-sharing and connected vehicle projects. Plaspy compatible out of the box, the AT405 combines LTE Cat 1 cellular communications, multi-constellation GNSS and onboard BLE to deliver reliable real-time tracking, vehicle telemetry and short-range Bluetooth sensor integration for fleet management and anti-theft workflows.
+The AT405 is a compact, IP65 rated GPS tracker and IoT telematics unit designed for moto sharing and connected vehicle projects. Built to provide reliable real time tracking and short range sensor integration, the device pairs multi constellation GNSS positioning with cellular communications and onboard Bluetooth to support location reporting, vehicle telemetry and anti theft workflows in small vehicle fleets.
 
-The AT405 was engineered for straightforward vehicle integration and low-power operation. With automotive connector options, CANBus access, digital inputs/outputs and a 510mAh backup battery, the AT405 provides a practical balance of capability and efficiency—making it a strong choice for operators that need Plaspy compatible hardware that supports remote monitoring, immobilization control and customizable reporting.
+As a Plaspy compatible device out of the box, the AT405 streams location, status and vehicle data into Plaspy for visualization, alerts and historical reporting. Its combination of vehicle integration options, low power design and backup battery make it relevant for operators who want a ready to use tracker that can be managed and monitored through Plaspy without custom platform work.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker with LTE Cat 1 cellular connectivity for reliable real-time tracking across supported networks.
-- Multi-constellation GNSS \(GPS, Galileo, GLONASS and BeiDou\) with an internal 15mm antenna for improved positioning accuracy.
-- Vehicle-grade integration via CANBus plus two digital inputs and two digital outputs for ignition monitoring and remote control functions \(e.g., immobilizer control\).
-- Bluetooth Low Energy \(BLE\) for short-range connectivity to Bluetooth sensors and beacons—useful for proximity, access control or additional telemetry.
-- Robust low-power design using an STM32L4 microcontroller and a 510mAh internal backup battery—around six days in low-power mode with 24-hour reporting on a 24V system.
-- IP65 enclosure and a wide operating voltage range \(6.0V to 60.0V\) for flexible deployment across motorcycles, scooters and light vehicle fleets.
-- Automotive connector options and downloadable datasheets, user guides and installation instructions to simplify fleet rollout and aftermarket installs.
+- Plaspy compatible GPS tracker with LTE Cat 1 cellular connectivity for reliable real time tracking across supported networks
+- Multi constellation GNSS for improved positioning accuracy in urban and mixed environments
+- Vehicle grade integration with CANBus access and digital inputs and outputs for ignition monitoring and remote control functions
+- Bluetooth Low Energy for short range connectivity to sensors and beacons to extend telemetry and proximity workflows
+- Robust low power design with an internal backup battery to support extended monitoring in low power scenarios
+- IP65 enclosure and a wide operating voltage range for deployments on motorcycles, scooters and light vehicles
+- Automotive connector options and available documentation to simplify fleet rollout and aftermarket installs
 
 ## How It Works with Plaspy
 
-The AT405 integrates with Plaspy to stream location, status and telemetry for real-time monitoring, alerts and historical reporting. Data from the onboard GNSS and vehicle interfaces is transmitted over LTE Cat 1 to Plaspy servers where it can be visualized, analyzed and acted upon. Plaspy-compatible reporting options and customizable payloads let you include the exact telemetry you need without custom firmware development.
+The AT405 integrates with Plaspy to deliver live location and vehicle status to a centralized fleet management platform. Device telemetry and events are transmitted over the cellular link to Plaspy where they can be displayed on maps, routed into alerting rules and used for reporting and analytics.
 
-- Real-time location and telemetry updates delivered over LTE Cat 1 for live map tracking and geofencing in Plaspy.
-- Ignition and vehicle status monitoring via digital inputs and CANBus messages—supporting event-driven alerts and driver behavior analytics.
-- Vehicle telemetry \(engine parameters, fuel level, diagnostic data\) accessible through CANBus where those messages are exposed by the vehicle.
-- Remote immobilizer control and other actuator functions using the device's digital outputs for anti-theft workflows.
-- Bluetooth sensors integration for proximity checks, temperature or accessory sensors through BLE—visible alongside GPS and CAN data in Plaspy dashboards.
+- Real time location and telemetry updates for live map tracking and geofencing in Plaspy
+- Ignition and vehicle status monitoring via digital inputs and CANBus messages to trigger alerts and events
+- Vehicle telemetry exposed through CANBus can be surfaced in Plaspy dashboards and historical reports where those messages are available
+- Remote immobilizer control and actuator functions using device outputs to support anti theft workflows
+- BLE sensor and beacon data visible alongside GPS and vehicle telemetry for proximity checks and short range sensor integration
+- Customizable payloads and reporting options to include the telemetry fields you need without developing custom firmware
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat 1 \(4G\) with Micro SIM; internal GSM cellular antenna |
-| --- | --- |
-| Bands | Region-dependent LTE Cat 1 bands \(refer to product datasheet for supported regional band plans\) |
-| Power & Battery | Operating voltage 6.0V–60.0V; internal 510mAh backup battery; ~6 days in low-power mode with 24‑hour reporting \(24V system\) |
-| Interfaces | 2 × digital inputs, 2 × digital outputs, 1-Wire / Dallas interface, RS232 port, CANBus |
-| GNSS | Multi-constellation GNSS: GPS, Galileo, GLONASS, BeiDou; internal GNSS antenna \(15mm\) |
-| Bluetooth | Bluetooth Low Energy \(BLE\) for short-range sensors and beacons |
-| Remote Management | Five-year warranty; ongoing system updates; hardware and reporting customization available; downloadable datasheets and installation guides |
-| Processor & Efficiency | Low-power STM32L4 microcontroller for balanced performance and battery life |
-| Form Factor & Durability | Compact IP65-rated enclosure with automotive connector options for fleet and OEM installations |
-
-## Use Cases
-
-- Fleet management for scooters and motorcycles: real-time tracking, route history and driver behavior monitoring via CANBus and accelerometer inputs.
-- Anti-theft and immobilization: detect unauthorized movement with the MEMS accelerometer and remotely disable vehicles using digital outputs.
-- Telemetry and fuel monitoring: collect engine and fuel-related CAN messages where available and surface them in Plaspy dashboards for efficiency programs.
-- Last-mile and shared-mobility operations: BLE-enabled check-in/check-out, proximity sensing and short-range sensor integration for dockless or station-based services.
-- Aftermarket retrofit: compact IP65 design and broad voltage range simplify installations into existing wiring looms using automotive connectors.
+- Moto sharing and shared mobility fleets that need compact reliable trackers for scooters and small vehicles
+- Anti theft and immobilization workflows that require remote disabling and movement detection
+- Fleet management for motorcycles and light vehicles including route history and operational monitoring
+- Last mile and shared mobility operations using BLE for check in and access control alongside location services
+- Aftermarket retrofit projects where compact IP65 hardware and broad voltage range ease installation
 
 ## Why Choose This Tracker with Plaspy
 
-Choosing the AT405 for your Plaspy integration delivers a reliable, Plaspy compatible GPS tracker that balances real-time tracking, vehicle telemetry and practical installation features. The combination of LTE Cat 1 connectivity, multi-constellation GNSS, CANBus access and BLE provides the core building blocks for fleet management, anti-theft and connected vehicle services. With automotive connector options, a robust warranty, available documentation and no-cost reporting customization, the AT405 lowers integration friction and scales from small pilots to larger rollouts.
+The AT405 provides a practical balance of capability and efficiency for operators seeking Plaspy compatible hardware. Its support for multi constellation GNSS, cellular communications, vehicle interfaces and short range Bluetooth gives fleet managers the core building blocks needed for tracking, telemetry and anti theft functions while keeping integration effort low.
 
+Learn more about Plaspy and how the AT405 can fit into your fleet monitoring strategy at https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current specifications and documentation on the Astra Telematics website at https://astratelematics.com/.

@@ -2,65 +2,63 @@
 slug: /careu/uw1
 id: uw1
 sidebar_label: UW1
+title: CAREU - UW1
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS industrial impermeable UW1 compatible con Plaspy para flotas y activos con registro extendido sin conexión
+keywords:
+  - CAREU UW1
+  - rastreador UW1
+  - compatible con Plaspy
+  - rastreador CAREU
+  - seguimiento de flotas
+  - rastreo de activos
+  - rastreador GPS
+  - GPS industrial
+  - rastreador impermeable
+  - seguimiento de vehículos
 ---
+
 # CAREU - UW1
 
 ![UW1](./tracker.png)
 
-El CAREU UW1 es un rastreador GPS de grado industrial diseñado para aplicaciones exigentes de rastreo de vehículos y activos, y plenamente posicionado como un dispositivo compatible con Plaspy para operadores de flotas, integradores y equipos de seguridad. Con una carcasa impermeable IP67 y una construcción resistente a vibraciones \(versión LTE\), el UW1 ofrece fiabilidad robusta para el seguimiento en tiempo real de camiones, motocicletas, maquinaria de construcción y activos remotos de alto valor, integrándose directamente en la telemetría y en los flujos de trabajo de gestión de flotas de Plaspy.
+El CAREU UW1 es un rastreador GPS industrial pensado para aplicaciones exigentes de seguimiento de vehículos y activos. Con una carcasa impermeable IP67 y una construcción resistente a las vibraciones en su versión LTE, el UW1 está diseñado para usarse en camiones, motocicletas, maquinaria de construcción y activos de alto valor en ubicaciones remotas. Su combinación de hardware robusto y un amplio registro a bordo mantiene los historiales de ubicación y los datos de eventos disponibles aun en entornos difíciles.
 
-El UW1 combina conectividad Cat‑1 LTE con respaldo a redes 3G y 2G, posicionamiento multi‑GNSS \(GPS/GLONASS/QZSS\), capacidad de registro offline prolongada y E/S flexible para sensores y datos del vehículo. Cuando se empareja con Plaspy, el CAREU UW1 permite seguimiento en tiempo real, controles avanzados de geocerca y antirrobo, reporte de telemetría y registro a largo plazo para operaciones que requieren monitoreo de activos resiliente y seguro.
+Como dispositivo compatible con Plaspy, el UW1 se integra en los flujos de trabajo de gestión de flotas de Plaspy para ofrecer ubicación en tiempo real, telemetría e informes de alarmas. Emparejado con Plaspy, el UW1 permite mapeo en vivo, gestión de geocercas, controles antirrobo y registro a largo plazo, de modo que los operadores de flota, integradores y equipos de seguridad puedan monitorear las operaciones y responder a eventos desde una plataforma centralizada.
 
-## Key Highlights
+## Características principales
 
-- Diseño industrial, a prueba de agua \(IP67\) y construcción resistente a vibraciones para entornos exigentes.
-- LTE Cat‑1 con respaldo a 3G/2G y múltiples opciones de transporte \(SMS, FTP, USSD\) para conectividad confiable.
-- Soporte multi‑GNSS \(GPS/GLONASS/QZSS\) para una precisión de posición sólida en distintas regiones.
-- Hasta 200,000 registros de posición para operación offline extendida cuando la cobertura de red es limitada.
-- Acelerómetro de 3 ejes integrado \(opcional de 6 ejes disponible\) para detección de conducción agresiva, impactos y vuelcos.
-- Soporte de sensores 1‑Wire para monitoreo de temperatura e identificación de conductor mediante i‑Button \(listo para cadena de frío\).
-- Interfaces flexibles: RS‑232 para periféricos y CAN bus opcional para integrar telemetría del vehículo.
-- Inmovilización remota \(bloqueo del motor\), informes de geocerca y múltiples tipos de alarmas para protección antirrobo.
+- Diseño industrial robusto con clasificación IP67 y carcasa resistente a vibraciones para entornos hostiles
+- Conectividad Cat 1 LTE con retroceso a redes anteriores para comunicaciones más resilientes en zonas de cobertura variable
+- Soporte multi GNSS para mejorar la fiabilidad de la ubicación en distintas regiones
+- Gran capacidad de registro sin conexión para conservar hasta 200,000 entradas de posición cuando el acceso a la red es limitado
+- Acelerómetro integrado para detección de conducción brusca y eventos de impacto
+- Soporte para sensores 1 Wire para monitoreo de temperatura e identificación de conductor mediante iButton
+- Interfaces periféricas flexibles como RS 232 y CAN bus opcional para ampliar la integración de telemetría
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-Configurable como rastreador GPS compatible con Plaspy, el CAREU UW1 transmite ubicación y datos de sensores a la plataforma en la nube de Plaspy usando protocolos estándar de la industria sobre LTE/UMTS/HSPA/GPRS/EDGE. Plaspy ingiere la posición, telemetría y eventos de alarma para proporcionar mapas en vivo, informes históricos, alertas y flujos de trabajo automatizados. Cuando se interrumpe la conectividad, el registro a bordo de UW1 conserva hasta 200,000 entradas de posición y las sube cuando el dispositivo recupera el acceso a la red.
+Configurado como rastreador compatible con Plaspy, el CAREU UW1 envía datos de posición, sensores y alarmas a la plataforma en la nube de Plaspy, donde se procesan para visualización e informes. Plaspy recibe los datos del equipo para ofrecer mapas en tiempo real, recorridos históricos, alertas y flujos operativos, mientras que el almacenamiento a bordo del UW1 asegura que no se pierda el historial crítico de ubicaciones cuando la conectividad se interrumpe.
 
-- Actualizaciones de ubicación y telemetría en tiempo real hacia Plaspy mediante LTE Cat‑1 con respaldo a 3G/2G.
-- Eventos de conducción agresiva e impactos detectados por el acelerómetro integrado \(aceleración brusca, frenado, tomar curvas y vuelco\).
-- Temperatura e identificación del conductor mediante sensores 1‑Wire \(i‑Button\) para visibilidad de la cadena de frío y verificación del conductor.
-- Integración de accesorios RS‑232 \(sensores de fatiga, lectores RFID y otros periféricos\) transmitidos a Plaspy para informes combinados.
-- Telemetría del vehículo, incluyendo datos de combustible o del motor cuando se integra a través de la interfaz CAN bus opcional.
-- Controles antirrobo: alertas de geocerca \(circulares y poligonales\) y gestión de inmovilizador remoto \(bloqueo del motor\) vía Plaspy.
+- Actualizaciones de ubicación y telemetría en tiempo real mostradas en los paneles y mapas en vivo de Plaspy
+- Eventos de conducción brusca y de impacto capturados por el acelerómetro y presentados como alertas en Plaspy
+- Lecturas de temperatura e identificación de conductor desde sensores 1 Wire disponibles para reportes de cadena fría y cumplimiento
+- Datos periféricos desde accesorios RS 232 transmitidos a Plaspy para reportes consolidados
+- Telemetría del vehículo disponible cuando se usan las interfaces vehiculares opcionales, permitiendo análisis integrados de la flota
+- Alertas por geocerca e inmovilización remota configuradas y gestionadas desde Plaspy
 
-## Technical Overview
+## Casos de uso típicos
 
-| Fabricante y Modelo | CAREU UW1 |
-| --- | --- |
-| Conectividad | Cat‑1 LTE con respaldo a 3G y 2G; datos sobre LTE/UMTS/HSPA/GPRS/EDGE; SMS, FTP, USSD soportados |
-| Bandas | No especificadas en la descripción proporcionada |
-| Alimentación y Batería | Rango de entrada de tensión 6–48 V; modo de reposo profundo; alarmas de bajo voltaje y pérdida de alimentación |
-| Interfaces | RS‑232; sensores 1‑Wire para temperatura e i‑Button; CAN bus opcional; inmovilización remota \(bloqueo del motor\) |
-| GNSS | GPS, GLONASS, QZSS |
-| Acelerómetro | Acelerómetro de 3 ejes integrado \(opcional de 6 ejes disponible\) para detección de conducción agresiva e impactos |
-| Almacenamiento / Registro | Hasta 200,000 registros de posición para operación offline |
-| Seguridad y Detección | Detección de interferencia GSM; múltiples tipos de informes y alarmas |
-| Gestión Remota | Configuración remota vía aire o mediante USB; actualizaciones FOTA \(firmware over the air\) vía FTP |
-| Formato | Carcasa impermeable IP67; resistencia a vibraciones \(versión LTE\); formato industrial para vehículos/activos |
-| Bluetooth | No se especifica Bluetooth interno en la descripción |
+- Gestión de flotas para camiones pesados y vehículos de servicio que requieren seguimiento en tiempo real e informes históricos
+- Rastreo y recuperación de motocicletas donde se necesita hardware resistente a vibraciones
+- Monitoreo de equipos de construcción y maquinaria pesada en sitios con condiciones adversas
+- Seguridad y logística de valores con alertas por impacto e inmovilización remota para protección e investigación
+- Transporte en cadena fría con monitoreo de temperatura e identificación de conductor para cumplimiento normativo
 
-## Use Cases
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas para camiones pesados y vehículos de servicio: ubicación en tiempo real, análisis de conducción agresiva y registro offline prolongado para rutas remotas.
-- Seguimiento y recuperación de motocicletas: diseño compacto y resistente a vibraciones con opciones de geocerca e inmovilizador para protección antirrobo.
-- Monitoreo de maquinaria de construcción y equipos pesados: carcasa rugged IP67 y detección de impactos para proteger máquinas de alto valor en sitio.
-- Seguridad de cajeros automáticos y cajas fuertes: alertas de manipulación/impacto, más inmovilización remota y registros históricos para revisión forense.
-- Logística de cadena de frío: sensores de temperatura 1‑Wire y identificación de conductor por i‑Button para mantener la conformidad y la visibilidad de la temperatura.
+El CAREU UW1 combina hardware industrial resistente con una integración flexible en la plataforma para respaldar programas exigentes de monitoreo de flotas y activos. Su capacidad de registro extendida y las opciones de conectividad resilientes lo convierten en una opción práctica para operaciones que transitan por zonas con cobertura de red mixta, mientras que el soporte de sensores y periféricos amplía la variedad de telemetría que usted puede recopilar y analizar en Plaspy.
 
-## Why Choose This Tracker with Plaspy
+Usado con Plaspy, los datos del UW1 se vuelven accionables mediante paneles centralizados, cumplimiento configurable de geocercas, alertas y reportes históricos. Las capacidades de gestión remota de dispositivos simplifican el mantenimiento y las actualizaciones continuas, ayudando a las organizaciones a mantener un monitoreo confiable sin intervención manual constante.
 
-Emparejar el CAREU UW1 con Plaspy ofrece a las organizaciones una solución compatible con Plaspy que equilibra hardware robusto con una integración de plataforma flexible. La conectividad LTE Cat‑1 y el posicionamiento multi‑GNSS del UW1 aseguran un seguimiento en tiempo real confiable en áreas con cobertura variable, mientras que hasta 200,000 posiciones registradas y modos de reposo extremadamente profundos conservan datos y energía durante periodos prolongados sin conexión. La detección avanzada \(acelerómetro, temperatura 1‑Wire, periféricos RS‑232 y CAN bus opcional\) posibilita una amplia telemetría y recopilación de datos del vehículo; el monitoreo de combustible y parámetros de encendido/motor pueden mostrarse en Plaspy cuando se conectan las interfaces del vehículo.
-
-Para gestores de flotas e integradores enfocados en anti‑robo, conocimiento operativo y telemetría escalable, el UW1 ofrece hardware endurecido y gestión remota \(configuración OTA y FOTA\) que simplifica el despliegue y el mantenimiento. En Plaspy, obtendrás paneles de control centralizados, aplicación de geocercas, alertas e informes históricos que convierten los datos brutos del UW1 en inteligencia accionable para la gestión de flotas.
-
+Para conocer más sobre cómo Plaspy funciona con rastreadores compatibles como el CAREU UW1 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales con el fabricante en https://www.systech-iot.com/.

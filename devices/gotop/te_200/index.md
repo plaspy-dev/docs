@@ -2,60 +2,60 @@
 slug: /gotop/te_200
 id: te_200
 sidebar_label: TE-200
+title: GOTOP - TE-200
 sidebar_class_name: menu_item_tracker
+description: Compact pet and small asset GPS tracker compatible with Plaspy for real time location updates and practical alerting
+keywords:
+  - GOTOP TE-200
+  - TE-200 tracker
+  - TE-200 Plaspy
+  - pet tracker
+  - mini GPS tracker
+  - small asset tracking
+  - U blox 7
+  - GPRS SMS tracker
+  - IP67 tracker
+  - two way voice
 ---
+
 # GOTOP - TE-200
 
 ![TE-200](./tracker.jpg)
 
-The Mini Pet Tracker TE-200 by TE provides a compact, Plaspy compatible GPS tracker built for reliable pet monitoring and small-asset tracking. At 55 x 35 x 15 mm and weighing approximately 35 g, the TE-200 pairs a U‑blox 7 GNSS engine and quad‑band GSM/GPRS connectivity to deliver accurate positioning, real-time tracking, and rich telemetry suited for owners who want continuous location awareness and simple Plaspy platform integration.
+The TE-200 Mini Pet Tracker by GOTOP is a compact GPS tracker designed for pet monitoring and small asset tracking. At roughly 55 x 35 x 15 mm and about 35 g, the device combines a U‑blox 7 GNSS module with quad band GSM GPRS and SMS reporting to provide continuous position updates, alerting and a modest onboard log buffer for coverage gaps. Its small form factor and weatherproof enclosure make it suitable for collars, backpacks or discreet attachment to portable items.
 
-The TE-200 is optimized for easy deployment on collars, backpacks or discreet assets. It supports real-time tracking via GPRS or SMS, two-way voice monitoring for situational awareness, and configurable alarms — including geo-fence, movement, low battery and speeding alerts. These features, plus an internal log buffer and IP67 weatherproofing, make the TE-200 a practical addition to any Plaspy-compatible device roster.
+As a Plaspy compatible device, the TE-200 can feed real time positions, motion events and configurable alarms into Plaspy dashboards and reporting. Plaspy users can view location history, receive geofence and low battery alerts, and rely on automatic re‑upload of stored points after coverage interruptions, making the TE-200 a practical option for owners and small asset managers who want straightforward location awareness integrated into the Plaspy platform.
 
 ## Key Highlights
 
-- Plaspy compatible: Sends location and status updates over GPRS/SMS for display and alerting on Plaspy dashboards.
-- Compact, lightweight form factor \(55 x 35 x 15 mm; ~35 g\) with pet collar holder — ideal for dogs, cats and small assets.
-- High-precision GNSS: U‑blox 7 module with accuracy &lt;2.5 m and fast hot/warm/cold start times.
-- Two-way voice and voice monitoring to check a pet’s environment or communicate remotely.
-- Robust data continuity: 8 MB internal memory for up to 60,000 points and GPRS blind-area re-upload to prevent data loss.
-- IP67 waterproof rating and wide operating temperature range for outdoor use.
-- Long standby life from a rechargeable 3.7 V, 900 mAh Li‑ion battery with low standby current \(≤2 mA\).
+- Plaspy compatible reporting via GPRS and SMS for live display and alerting on Plaspy dashboards
+- Compact and lightweight design (55 x 35 x 15 mm; ~35 g) suitable for pet collars and small assets
+- U‑blox 7 GNSS provides precise location for reliable tracking and history
+- Two way voice monitoring for situational checks and basic remote communication
+- Internal log buffer with blind area re upload to preserve location history during coverage gaps
+- IP67 weatherproof rating for outdoor and wet environment use
+- Configurable alarms including geo fence, movement and low battery notifications
 
 ## How It Works with Plaspy
 
-The TE-200 integrates with Plaspy using its standard GPRS and SMS reporting capabilities. Positions, motion events and battery telemetry are transmitted to Plaspy where they appear on maps, timelines and alert feeds. If the device loses cellular coverage, stored points are re-uploaded automatically when a connection is restored, keeping Plaspy records complete.
+The TE-200 transmits location updates and status messages over GPRS or SMS, which Plaspy ingests and displays on maps, timelines and alert feeds. When the device stores points offline, those points are reuploaded once a cellular connection returns so Plaspy maintains a continuous record. Integration focuses on visibility, alerts and history rather than device configuration through the platform.
 
-- Real-time location and telemetry updates sent to Plaspy via GPRS or SMS.
-- Geo-fence, movement, low battery and speeding alerts are reported to Plaspy for instant notification and history logging.
-- Two-way voice/voice monitoring can be used alongside Plaspy for situational checks and verification.
-- GPRS blind-area data re-upload ensures no tracking gaps on Plaspy dashboards after coverage interruptions.
-- Google Maps links and standard coordinate formats make location viewing and routing simple within Plaspy.
+- Real time location and telemetry appear on Plaspy maps and timeline views
+- Geo fence, movement and low battery alerts are forwarded to Plaspy for instant notification and logging
+- Voice monitoring can be used alongside Plaspy tracking to verify a pet or asset situation
+- Stored data re upload after blind area periods helps keep Plaspy history complete
+- Standard coordinate reporting allows Plaspy to link locations to mapping services for routing and location context
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM/GPRS quad‑band \(GPRS for data; SMS support\) |
-| --- | --- |
-| Bands | 850 / 900 / 1800 / 1900 MHz \(quad‑band\) |
-| Power & Battery | Rechargeable 3.7 V, 900 mAh Li‑ion; standby current ≤2 mA; charging via Micro USB \(5 V DC\) |
-| Interfaces | Micro SIM slot, Micro USB charging port; two‑way voice monitoring; remote shutdown function |
-| GNSS | U‑blox 7 \(A‑GPS supported\); accuracy &lt;2.5 m; cold start ~32 s, warm start ~11 s, hot start ~1 s; sensitivity Cold -148 dBm, Hot -162 dBm |
-| Memory | 8 MB internal memory, up to 60,000 logged data points; GPRS blind‑area data re‑upload |
-| Bluetooth | Not supported / no Bluetooth sensors described |
-| Remote Management | Remote control via SMS/GPRS \(remote shutdown, alarm configuration\); no FOTA specified |
-| Form Factor & Durability | 55 x 35 x 15 mm; ~35 g; IP67 waterproof; operating temp -20°C to +80°C; storage -40°C to +85°C; humidity 5%–95% non‑condensing |
-
-## Use Cases
-
-- Pet tracking and safety — attach to collars for live location, voice checks and geofence alerts through Plaspy.
-- Small‑asset monitoring — secure backpacks, equipment or packages for recovery and movement alerts.
-- Outdoor and adventure gear — waterproof design and long standby make it suitable for hiking, camping or fieldwork tracking.
-- Short‑term rental items and shared assets — log location history and receive motion/shock alarms to reduce loss and misuse.
-- Last‑mile or courier visibility for small parcels — provide location updates and history without complex installation.
+- Pet tracking and safety with live location, geofence alerts and situational voice checks
+- Small asset monitoring for backpacks, equipment or portable goods
+- Outdoor and adventure gear tracking where waterproofing and compact size matter
+- Short term rental items and shared assets that need simple location history and motion alerts
+- Last mile visibility for small parcels or courier items without complex installation
 
 ## Why Choose This Tracker with Plaspy
 
-As a Plaspy compatible GPS tracker, the TE-200 balances compact design with practical telemetry and continuity features. Its U‑blox GNSS accuracy and quad‑band GSM support deliver dependable real‑time tracking and location history, while the internal log buffer and blind‑area re‑upload protect data integrity for intermittent coverage environments. Two‑way voice and remote shutdown offer fast situational control, which complements Plaspy’s alerting and map views for easy monitoring.
+The TE-200 pairs a compact build with practical continuity features that suit pet owners and small asset managers who need dependable position updates and simple alerting. Its internal log buffer and automatic reupload behavior reduce the risk of data gaps in intermittent coverage, while voice monitoring and configurable alarms add operational flexibility when used alongside Plaspy.
 
-Note on additional features: the TE‑200 is focused on compact, battery‑powered tracking and does not include dedicated fuel monitoring, ignition input or a vehicle immobilizer interface. Bluetooth sensor support is not specified. For deployments that require telemetry such as fuel monitoring or ignition sensing, consider pairing Plaspy with a dedicated telematics device suited to those inputs. For pet owners and small‑asset managers, however, the TE‑200 delivers a straightforward, reliable GPS tracker experience with Plaspy compatibility for real‑time tracking, anti‑theft alerts, and clear historical logging.
-
+If you are evaluating compact trackers for use with Plaspy, the TE-200 is a straightforward option that balances size, outdoor durability and basic telematics functionality. To learn more about Plaspy and how compatible devices work across dashboards and reporting visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so verify current technical information and official documentation at the manufacturer site https://www.gotop.cc/.

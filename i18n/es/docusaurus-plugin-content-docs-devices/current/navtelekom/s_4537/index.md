@@ -2,60 +2,60 @@
 slug: /navtelekom/s_4537
 id: s_4537
 sidebar_label: СМАРТ S-4537
+title: Navtelekom - СМАРТ S-4537
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto Navtelekom СМАРТ S-4537 compatible con Plaspy para seguimiento de flotas y telemetría CAN dual
+keywords:
+  - Navtelekom
+  - СМАРТ S-4537
+  - SMART S-4537
+  - rastreador S-4537
+  - rastreador Navtelekom
+  - compatible con Plaspy
+  - rastreador GPS
+  - rastreador GLONASS
+  - rastreador vehicular
+  - seguimiento de flotas
 ---
+
 # Navtelekom - СМАРТ S-4537
 
 ![СМАРТ S-4537](./tracker.jpeg)
 
-El SMART S-4537 de SMART es un compacto localizador de vehículos GLONASS/GPS diseñado para el monitoreo automotriz profesional y despliegues compatibles con Plaspy. Con un módem 4G integrado, soporte para doble SIM, antenas GNSS y GSM de alta sensibilidad integradas, y dos interfaces CAN, el S-4537 está optimizado para la gestión de flotas, rastreo en tiempo real y recopilación de telemetría avanzada sin necesidad de hardware gateway adicional.
+El СМАРТ S-4537 es un rastreador vehicular compacto con soporte GLONASS y GPS, diseñado para monitoreo automotriz profesional. Integra un módem 4G con doble SIM, antenas GNSS y GSM internas, y conexión directa a los buses CAN del vehículo para recopilar posición y telemetría de manera continua en un único equipo pensado para entornos de flota.
 
-Diseñado para instaladores e integradores de sistemas, el SMART S-4537 se conecta directamente a los buses CAN Engine y Comfort para capturar una telemetría vehicular rica. Su robusto conjunto de E/S, interfaces RS-485/1-Wire y Bluetooth 4.0 lo convierten en una opción flexible para medidas antirrobo, integración de sensores y tareas de control remoto, manteniendo al mismo tiempo una conectividad celular fiable para el monitoreo compatible con Plaspy.
+Como dispositivo compatible con Plaspy, el S-4537 está pensado para enviar ubicación en tiempo real, telemetría del bus del vehículo y datos de sensores periféricos a Plaspy para monitoreo, alertas e informes. Su combinación de conectividad celular, acceso al bus del vehículo e interfaces periféricas lo hace una opción práctica para operadores de flota e integradores que desean mostrar datos vehiculares más completos dentro de Plaspy sin añadir hardware de gateway adicional.
 
-## Aspectos clave
+## Características principales
 
-- Rastreo en tiempo real compatible con Plaspy con módem 4G integrado y doble SIM para una conectividad celular fiable.
-- Integración directa dual-CAN a los buses Engine y Comfort, lo que permite telemetría del vehículo de forma integral sin necesidad de adaptadores externos.
-- Antenas integradas de alta sensibilidad GLONASS/GPS y GSM para una instalación compacta y una localización consistente.
-- Conjunto de E/S robusto e interfaces industriales: 3 entradas digitales/analógicas universales, 2 salidas configurables, RS-485 y 1-Wire para expansión de sensores.
-- Batería de respaldo interna de 800 mAh y protección de alimentación y protección de la línea de entrada de hasta 200 V.
-- Bluetooth 4.0 para emparejamiento de sensores inalámbricos locales e interacción con accesorios, soportando flujos de trabajo de sensores BLE comunes en soluciones para flotas.
-- Soporta MODBUS sobre RS-485; Lógica de Eventos Complejos personalizable para manejo de eventos a bordo.
+- Módem 4G integrado con soporte de doble SIM para una conectividad celular resistente hacia plataformas backend como Plaspy.
+- Dos interfaces CAN para conexión directa a los buses Engine y Comfort, permitiendo captura más completa de telemetría.
+- Posicionamiento GLONASS y GPS de alta sensibilidad integrado, junto con antenas GSM a bordo para instalaciones compactas.
+- Conjunto robusto de periféricos que incluye múltiples entradas digitales y analógicas, salidas configurables, interfaces RS-485 y 1-Wire para expansión de sensores.
+- Batería de respaldo interna y protección de alimentación de grado automotriz para ayudar a preservar la continuidad de datos durante eventos de energía.
+- Soporte Bluetooth 4.0 para emparejamiento inalámbrico local de sensores y accesorios.
+- Soporte en el dispositivo para MODBUS sobre RS-485 y lógica de eventos configurable para reducir falsas alarmas y habilitar automatización local.
 
 ## Cómo funciona con Plaspy
 
-El SMART S-4537 se integra con plataformas compatibles con Plaspy enviando telemetría celular segura y datos de ubicación a través de su enlace 4G. Una vez conectado, el dispositivo transmite la posición GNSS, telemetría del bus CAN, estados de entradas digitales y datos de sensores a Plaspy para rastreo en tiempo real, alertas e informes históricos. Los instaladores pueden configurar intervalos de reporte y la lógica de eventos localmente o de forma remota, habilitando una gestión eficiente de la flota y flujos de trabajo antirrobo.
+Al integrarse con Plaspy, el СМАРТ S-4537 transmite telemetría celular y posición GNSS a la plataforma para seguimiento en tiempo real, detección de eventos e informes históricos. Plaspy puede usar la alimentación de datos del dispositivo para mostrar ubicaciones en vivo, estado del vehículo y lecturas de sensores a los administradores y gestores de flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real mediante el módem 4G integrado y la conmutación por doble SIM.
-- Captura de datos CAN-bus directa desde los buses Engine y Comfort para telemetría como velocidad, parámetros del motor y estado del vehículo cuando estén disponibles en el bus.
-- Las entradas digitales/ analógicas y las salidas configurables alimentan el estado, disparadores de alarmas y comandos de control remoto en los paneles de Plaspy y reglas de alerta.
-- El soporte RS-485 y MODBUS permite que sensores industriales y telemetría de nivel de combustible sean reportados a Plaspy donde estén instalados.
-- Bluetooth 4.0 habilita lecturas de sensores BLE locales e interacciones con accesorios que Plaspy puede presentar como telemetría o eventos.
+- Actualizaciones de ubicación en tiempo real y telemetría mediante el módem 4G integrado con conmutación automática entre SIM.
+- Captura directa del bus CAN de las líneas Engine y Comfort para exponer parámetros del vehículo cuando están disponibles en el bus.
+- Entradas digitales y analógicas más salidas configurables que se traducen en indicadores de estado, disparadores de alarma y acciones de control remoto visibles en Plaspy.
+- RS-485 con soporte MODBUS permite que sensores industriales y de combustible alimenten telemetría a los paneles de Plaspy.
+- Bluetooth 4.0 ofrece una vía para incorporar datos de accesorios inalámbricos locales en Plaspy como telemetría o eventos.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Conectividad | Módem 4G integrado; conectividad GSM con antenas GSM integradas; Soporte dual-SIM |
-| --- | --- |
-| Bandas | No especificado en la descripción proporcionada |
-| Alimentación y batería | Batería de respaldo interna de 800 mAh; protección de alimentación y protección de la línea de entrada de hasta 200 V |
-| Interfaces | 2x interfaces CAN \(Engine + Comfort\), 3 entradas digitales/analógicas universales, 2 salidas configurables, RS-485, 1-Wire |
-| GNSS | GLONASS/GPS de alta sensibilidad con antena integrada |
-| Bluetooth | Bluetooth 4.0 para sensores inalámbricos locales e integración de accesorios |
-| Protocolos y características | Soporte MODBUS en RS-485; Lógica de Eventos Complejos personalizable |
-| Gestión remota | Configuración con NTC Configurator; actualizaciones de firmware y gestión remota a través del sistema DRC |
-| Tamaño | Localizador compacto para flotas e instalaciones de vehículos especializadas |
+- Gestión de flotas y supervisión de rutas con seguimiento continuo y telemetría derivada del CAN para mayor visibilidad operativa.
+- Monitoreo antirrobo y flujos de trabajo de control remoto utilizando entradas, salidas y reglas de alerta integradas con Plaspy.
+- Diagnóstico vehicular y planificación de mantenimiento mediante la captura de parámetros de los buses Engine y Comfort para su análisis.
+- Monitoreo de activos sensorados, como nivel de combustible, registro de temperatura u otros sensores externos vía RS-485 o 1-Wire.
+- Escenarios inalámbricos de corto alcance usando accesorios Bluetooth para identificación de conductor, sensores de carga o enriquecimiento local de telemetría.
 
-## Casos de uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flota: seguimiento en tiempo real continuo, telemetría derivada del CAN e informes de eventos para la optimización de rutas y cumplimiento.
-- Antirrobo y control remoto: salidas configurables y entradas digitales permiten monitoreo de alarmas y corte remoto estilo inmovilizador cuando es integrado por el instalador.
-- Telemetría de vehículos especializada: captura de parámetros de los buses Engine y Comfort para la planificación de mantenimiento, diagnóstico y análisis del comportamiento del conductor.
-- Activos sensorados: integrar sensores RS-485 MODBUS o periféricos 1-Wire para monitoreo de combustible, registro de temperatura o telemetría industrial que alimenta a Plaspy.
-- Casos de uso de corto alcance inalámbrico: Bluetooth 4.0 habilita el emparejamiento local de accesorios, como balizas de identificación de conductor o sensores de carga, para enriquecer los datos de Plaspy.
+El СМАРТ S-4537 combina conectividad de grado vehicular y acceso directo al CAN con un conjunto flexible de interfaces periféricas, lo que lo hace ideal para organizaciones que desean recopilar tanto ubicación como telemetría detallada y presentarla dentro de Plaspy. Su lógica de eventos a bordo y las funciones de gestión remota ayudan a reducir falsos positivos y simplificar el mantenimiento en despliegues a gran escala.
 
-## Por qué elegir este localizador con Plaspy
-
-El SMART S-4537 ofrece una combinación equilibrada de conectividad de grado automotriz, profundidad CAN y soporte periférico flexible que lo hace ideal para despliegues compatibles con Plaspy. Su acceso directo dual-CAN reduce la complejidad de instalación al capturar datos de los buses Engine y Comfort, y el módem 4G integrado con doble SIM minimiza el tiempo de inactividad para el rastreo en tiempo real y la telemetría. La presencia de interfaces RS-485/MODBUS y 1-Wire, junto con Bluetooth 4.0, lo hacen adaptable para monitoreo de combustible, sensores de temperatura y otra telemetría que los operadores de flotas necesitan mostrar en los paneles de Plaspy.
-
-Para integradores de sistemas y operadores de flotas, el S-4537 ofrece herramientas prácticas para telemática confiable: NTC Configurator para la configuración local, DRC para actualizaciones de firmware remotas y Complex Events para lógica a bordo que reduce alertas falsas y descarga de la plataforma. Cuando se combina con Plaspy, el SMART S-4537 ayuda a entregar información accionable — seguimiento en tiempo real, flujos de telemetría y control remoto — para mejorar la seguridad del vehículo, la eficiencia operativa y el costo total de propiedad.
-
+Para integradores y operadores de flota que buscan un rastreador compacto todo en uno, el S-4537 ofrece un equilibrio entre conectividad, profundidad de telemetría y capacidad de expansión de sensores que funciona de forma natural con Plaspy para monitoreo e informes en tiempo real. Para saber más sobre Plaspy y cómo se usan los dispositivos compatibles con la plataforma visite el sitio principal de Plaspy https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por lo que por favor verifique los detalles técnicos y la documentación actual con el fabricante en https://www.navtelecom.ru/.

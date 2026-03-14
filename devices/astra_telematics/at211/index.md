@@ -2,62 +2,60 @@
 slug: /astra_telematics/at211
 id: at211
 sidebar_label: AT211
+title: Astra Telematics - AT211
 sidebar_class_name: menu_item_tracker
+description: Rugged IP67 Astra AT211 GPS tracker for plant and machinery with multi network connectivity and Plaspy compatibility for reliable fleet and asset monitoring
+keywords:
+  - Astra Telematics AT211
+  - AT211 GPS tracker
+  - AT211 Plaspy compatible
+  - Astra AT211 tracking
+  - plant machinery tracker
+  - IP67 GPS tracker
+  - fleet tracking AT211
+  - AT211 telemetry
+  - AT211 BLE immobiliser
+  - AT211 NB IoT
 ---
+
 # Astra Telematics - AT211
 
 ![AT211](./tracker.jpg)
 
-The Astra AT211 is a rugged, IP67-rated GPS tracker designed for heavy plant and machinery and is fully Plaspy compatible for seamless integration into your monitoring stack. Built on Astra Telematics’ proven AT200 platform, the AT211 delivers reliable real-time tracking and telemetry over GSM/GPRS and low-power wide-area networks \(LTE Cat‑M1 and NB‑IoT\), giving fleet managers and equipment owners robust location and status reporting in the harshest outdoor environments.
+The Astra AT211 is a rugged GPS tracker purpose built for heavy plant, machinery, and other outdoor assets. Designed on Astra Telematics' AT200 platform, the AT211 combines a compact, weatherproof enclosure with multi network connectivity and practical input output options to provide dependable location and status reporting in demanding environments.
 
-The compact AT211 combines durable construction, flexible connectivity, and practical I/O for vehicle and asset use. With internal GNSS and cellular antennas plus an option for an external GNSS patch, a 510 mAh backup battery, optional Bluetooth Low Energy \(BLE\) for immobiliser and driver identification, and wide operating voltage \(6–65 V\), the AT211 is ideal for Plaspy users who need dependable anti-theft capability, accurate telemetry, and simple installation on plant, construction machinery, agricultural equipment, caravans, and motorcycles.
+As a device that is fully compatible with Plaspy, the AT211 can be integrated into Plaspy fleets and asset monitoring workflows for real time visibility and event driven alerts. Its combination of durable construction, broad connectivity, and optional mobile features makes it a relevant choice for organisations that use Plaspy to centralise tracking, security, and operational reporting for plant and vehicles.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker built for plant and machinery with IP67 ingress protection for wet, dusty, and vibration-prone installations.
-- Multi-network connectivity: GSM/GPRS plus LTE Cat‑M1 and NB‑IoT for broad coverage and future-proof real-time tracking.
-- Rugged compact enclosure with DB9 connector and internal antennas; optional external GNSS patch antenna \(25 mm\) for metal-bodied machines.
-- 510 mAh internal backup battery providing up to ~6 days in low-power mode \(24‑hour reporting\) for off-power or tamper scenarios.
-- Integrated MEMS accelerometer and internal LED indicators to support movement detection and installation diagnostics.
-- Flexible I/O and interfaces: 2 digital inputs, 2 digital outputs, RS232 DB9 port, and a 1‑Wire \(Dallas\) interface for peripheral sensors.
-- Optional BLE for Astra mobile apps enabling immobiliser, remote control features, and driver identification with Bluetooth sensors.
-- Wide operating voltage range \(6.0 V to 65.0 V\) to suit a broad range of vehicles and plant equipment.
+- IP67 rated enclosure for resistance to dust, water, and vibration in outdoor and industrial settings.
+- Multi network connectivity including GSM GPRS plus LTE Cat M1 and NB IoT for broad coverage and low power operation.
+- Compact design with internal antennas and an optional external GNSS patch to improve fixes on metal bodied machines.
+- Built in MEMS accelerometer and LED indicators to support movement detection and installation diagnostics.
+- Practical I O set including digital inputs and outputs, RS232 DB9 interface, and a 1 Wire port for peripheral sensors.
+- 510 mAh internal backup battery to keep reporting during power loss or tamper scenarios, and a wide operating voltage range to suit varied equipment.
+- Optional Bluetooth Low Energy support for immobiliser and driver identification features through Astra mobile functionality.
 
 ## How It Works with Plaspy
 
-Pairing the AT211 with Plaspy provides turnkey real-time tracking, telemetry reporting, and event-driven alerts. The device streams location and sensor data via GSM/GPRS or LTE Cat‑M1/NB‑IoT to Plaspy, where you can monitor fleet activity, configure geofence and movement alerts, and generate reports for maintenance, utilisation, and security.
+When connected to Plaspy, the AT211 transmits location and status data to the platform so fleet managers and equipment owners can monitor assets, configure alerts, and run reports from a single interface. Plaspy receives the device streams and surfaces movement events, input status, and positional updates for operational oversight and security workflows.
 
-- Real-time location and telemetry updates sent to Plaspy over GSM/GPRS or LTE Cat‑M1/NB‑IoT for low-power, reliable connectivity.
-- Movement and impact detection via the built-in MEMS accelerometer for tow and movement alerts and theft detection workflows.
-- Digital inputs and outputs \(2 DI / 2 DO\) for monitoring door/ignition/alarm signals and for simple remote control actions.
-- Optional BLE support for immobiliser and remote control features through Astra’s mobile apps, enabling managed anti-theft responses within Plaspy.
-- Telemetry integration for fuel monitoring and other vehicle sensors when paired with compatible external sensors or third-party telemetry sources.
+- Real time location updates and telemetry appear in Plaspy for live tracking and historical playback.
+- Movement and impact events derived from the internal accelerometer can trigger notifications and theft response actions.
+- Digital input and output status is available in Plaspy to monitor ignition, door, alarm circuits, or to perform simple remote actions.
+- BLE enabled features such as immobiliser control and driver identification can be incorporated into Plaspy workflows when used alongside Astra mobile tools.
+- Telemetry and usage data can feed Plaspy reports for utilisation, maintenance planning, and security auditing.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | GSM/GPRS; LTE Cat‑M1; NB‑IoT \(Micro SIM\) |
-| --- | --- |
-| Bands | GSM/GPRS and LTE Cat‑M1 / NB‑IoT support \(operator-specific bands depend on module variant\) |
-| Power & Battery | Operating voltage 6.0 V – 65.0 V; internal backup battery 510 mAh \(≈6 days in low-power mode with 24‑hour reporting\) |
-| Interfaces | 2 digital inputs, 2 digital outputs; RS232 \(DB9\); 1‑Wire \(Dallas\) |
-| GNSS | GPS / Galileo / GLONASS / BeiDou via internal GNSS antenna; optional external GNSS patch antenna \(25 mm\) |
-| Bluetooth | Optional BLE for Astra mobile apps \(immobiliser, remote control, driver identification\) |
-| Diagnostics & Indicators | Internal LED indicators; MEMS accelerometer for motion detection |
-| Ingress Protection | IP67 \(waterproof and dustproof for outdoor plant use\) |
-| Additional Notes | Compact rugged enclosure with DB9 connector; ADC: 0; CANBus: No; Tamper sensor: No |
-| Support & Warranty | Supplied with data sheets, guides, evaluation kits; Astra offers hardware/custom reporting options, five-year warranty and lifetime system updates |
-
-## Use Cases
-
-- Plant and machinery security and recovery — secure assets on remote sites with movement alerts and BLE-based immobiliser control through Plaspy.
-- Tow and movement alerts — detect unauthorized movement and trigger real-time notifications to operators and security teams.
-- Fleet and equipment management for construction and agricultural machinery — monitor utilisation, location, and basic telemetry for maintenance planning.
-- Caravans and motorcycles — weather-resistant GPS tracker for route logging and anti-theft protection.
-- Remote asset tracking in signal-challenged installations — optional external GNSS antenna and low-power wide-area network support for extended coverage.
+- Securing plant and construction machinery on remote sites with movement alerts and managed immobiliser workflows.
+- Monitoring tow and unauthorised movement of trailers, caravans, and equipment with immediate notification in Plaspy.
+- Fleet and equipment management for construction and agriculture where rugged tracking and basic telemetry are required.
+- Weather resistant tracking for motorcycles and caravans where compact, durable hardware is needed.
+- Remote asset tracking in challenging environments where an external GNSS antenna and low power wide area network support improve reliability.
 
 ## Why Choose This Tracker with Plaspy
 
-The AT211 delivers a strong balance of rugged hardware and flexible connectivity that makes it an excellent GPS tracker for Plaspy users focused on reliability, durability, and practical telemetry. Its IP67-rated enclosure and wide voltage range reduce installation constraints across a diverse vehicle and plant fleet. Multi-network support \(GSM + LTE Cat‑M1 + NB‑IoT\) and the internal backup battery keep devices reporting during network or power disruptions, which is critical for real-time tracking, anti-theft response, and remote diagnostics.
+The AT211 is a practical choice for organisations that need a robust, deployable tracker that integrates with Plaspy. Its rugged IP67 enclosure, wide voltage tolerance, and backup battery reduce downtime and installation constraints across mixed fleets and plant equipment. Multi network connectivity and optional BLE extend deployment flexibility while keeping the solution compact.
 
-Integration with Plaspy is straightforward: the AT211 sends precise GNSS fixes, accelerometer-derived movement events, and input/output status to the platform, enabling scalable fleet management, anti-theft workflows, and telemetry-driven decision making. Optional BLE adds mobile-controlled immobiliser and driver identification capabilities without adding bulk. Combined with Astra’s documentation, evaluation kits, and reporting customisation, the AT211 is a trusted, deployable solution for organisations that require rugged GPS tracking and telemetry on Plaspy for plant, fleet, and asset protection.
-
+Because the AT211 is fully Plaspy compatible, it can be added to Plaspy monitoring stacks to deliver location visibility, event driven alerts, and asset level reporting without complex custom development. To learn more about how Plaspy supports devices like the AT211 visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details and official documentation on the manufacturer site https://astratelematics.com/.

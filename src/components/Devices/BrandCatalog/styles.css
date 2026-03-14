@@ -7,16 +7,22 @@
 
 .brand-catalog-logo {
     max-width: 120px;
-    border-radius: 12px;
     max-height: 100px;
     float: right;
-    margin-top: -5em;
+    margin-top: 1em;
 }
 
 .brand-catalog-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 16px;
+}
+
+.device-card-image-container {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .device-card {
@@ -35,6 +41,7 @@
 
 .device-card a {
     text-decoration: none !important;
+    width: 100%;
 }
 
 .device-card h3 {
@@ -42,10 +49,9 @@
 }
 
 .device-card-image {
-    width: 100%;
+    max-width: 100%;
     max-height: 140px;
-    object-fit: contain;
-    margin-bottom: 12px;
+    border-radius: 12px;
 }
 
 .device-card h3 {

@@ -2,60 +2,60 @@
 slug: /eelink/tk1193g
 id: tk1193g
 sidebar_label: TK119‑3G
+title: EElink - TK119‑3G
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto compatible con Plaspy para seguimiento en tiempo real, alarmas de seguridad, opción de inmovilizador por relé y expansión RS232
+keywords:
+  - EElink TK119-3G
+  - rastreador TK119-3G
+  - rastreador compatible con Plaspy
+  - rastreador GPS para vehículo
+  - dispositivo de seguimiento de flotas
+  - GPS LBS AGPS
+  - detección de encendido
+  - inmovilizador por relé
+  - expansión RS232
+  - antirobo GPS
 ---
+
 # EElink - TK119‑3G
 
 ![TK119‑3G](./tracker.jpg)
 
-El TK119‑3G es un rastreador GPS para vehículos compacto, diseñado para una implementación fiable compatible con Plaspy en flotas y vehículos individuales. Compatible con redes WCDMA y GSM, con posicionamiento GPS/LBS y asistencia AGPS, el TK119‑3G ofrece seguimiento en tiempo real y telemetría esenciales para la gestión moderna de flotas, flujos de trabajo anti‑robo y programas de seguridad del conductor.
+El TK119‑3G es un rastreador GPS vehicular compacto diseñado para despliegues fiables tanto en flotas como en vehículos individuales. Ofrece posicionamiento por GPS y estaciones base con asistencia AGPS, y es compatible con redes WCDMA y GSM para entregar rastreo y telemetría en tiempo real. El equipo incluye detección de encendido, un puerto de expansión RS232 para periféricos, relé opcional para inmovilización remota y un conjunto de alarmas de seguridad para choque, vibración y exceso de velocidad.
 
-Pequeño y robusto, el TK119‑3G combina detección ACC \(encendido\), expansión RS232 para periféricos y un relé opcional para inmovilización remota o corte de combustible/energía. Su conjunto de alarmas de seguridad —incluidas alertas de choque/caída, vibración y sobrevelocidad con funcionalidad de corte de energía automático— lo convierten en una opción práctica para operadores que necesitan datos de ubicación, eventos y estado fiables alimentados directamente a Plaspy para monitorización, alertas e informes.
+Como dispositivo compatible con Plaspy, el TK119‑3G puede enviar información de ubicación, eventos y estado a la plataforma de gestión de flotas de Plaspy para monitoreo, alertas e informes. Su combinación de continuidad de posición, reporte de encendido y alarmas, y opciones de expansión lo convierte en una opción práctica para quienes desean integrar telemetría vehicular, flujos de trabajo anti robo y monitoreo de seguridad de conductores en Plaspy.
 
-## Principales características
+## Puntos clave
 
-- Rastreador GPS compatible con Plaspy para seguimiento en tiempo real y visibilidad de la gestión de flotas.
-- Soporte de doble red \(WCDMA y GSM\) con posicionamiento GPS/LBS y asistencia AGPS para fijaciones más rápidas.
-- Detección ACC \(encendido\) e telemetría para capturar eventos de encendido/apagado del vehículo y comportamiento del conductor.
-- Relé opcional para inmovilización remota o corte remoto de combustible/energía para apoyar intervenciones anti‑robo y de seguridad.
-- Alarmas de choque/caída, vibración y sobrevelocidad con corte de energía automático ante la sobrevelocidad para una protección mejorada.
-- Puerto de expansión RS232 para integrar periféricos y dispositivos de telemetría, útil para monitorización de combustible y sensores externos.
-- Batería de respaldo de 70 mAh que ofrece alertas de pérdidas de energía y de bajo consumo para mantener la visibilidad durante manipulaciones o apagados.
-- Formato compacto \(87 × 41.6 × 12 mm, 50 g\) para instalación discreta en vehículos o activos.
+- Compatible con Plaspy para rastreo de flotas en tiempo real y visibilidad operativa.
+- Soporte celular dual con posicionamiento GPS y LBS más asistencia AGPS para obtener fijaciones más rápidas.
+- Detección de encendido ACC para registrar eventos de motor encendido y apagado y mantener registros precisos.
+- Relé opcional para inmovilización remota o corte de combustible y alimentación.
+- Alarmas de seguridad para choque, caída, vibración y exceso de velocidad con opciones de corte automático de energía.
+- Puerto de expansión RS232 para añadir telemetría externa como monitoreo de combustible u otros periféricos.
+- Diseño compacto y ligero con batería de respaldo para pérdida de alimentación y alertas por batería baja.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el TK119‑3G envía datos de ubicación y de eventos a través de redes celulares a la plataforma de Plaspy, donde se procesan para seguimiento en tiempo real, alertas e informes históricos. Plaspy aprovecha la AGPS y el respaldo de estación base \(LBS\) para mantener la continuidad de la posición en condiciones de señal desafiantes y transforma la telemetría del dispositivo en información accionable para despacho, cumplimiento y respuesta ante robos.
+Cuando se conecta a Plaspy, el TK119‑3G transmite actualizaciones periódicas de ubicación y notificaciones de eventos a través de redes celulares; Plaspy procesa esos datos para ofrecer seguimiento en vivo, alertas e informes históricos. Plaspy utiliza las señales de posicionamiento y las alarmas del equipo para brindar supervisión operativa y activar flujos de trabajo para despacho, respuesta ante robos y monitoreo de seguridad.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(GPS/LBS + aceleración AGPS\).
-- Informe de eventos de encendido/ACC para registros precisos de encendido y apagado del motor.
-- Alarmas de choque/caída, vibración y sobrevelocidad con notificación y registro inmediatos.
-- Capacidad de inmovilizador remoto o corte de combustible vía rele opcional para intervención anti‑robo.
-- Datos periféricos RS232 \(p. ej., sensores de combustible o dispositivos de telemetría de terceros\) retransmitidos a Plaspy para monitorización de combustible y diagnósticos.
+- Actualizaciones de ubicación en vivo e historial de posiciones disponibles en los paneles de Plaspy.
+- Reporte de estado de encendido y motor para análisis de tiempo de uso e informes de conductor.
+- Alertas inmediatas por choque, vibración y exceso de velocidad dirigidas a operadores y equipos de respuesta.
+- Comandos de inmovilización remota mediante el relé opcional coordinados a través de Plaspy para acciones anti robo.
+- Telemetría de periféricos conectados por RS232 enviada a Plaspy para obtener datos de combustible y diagnósticos.
 
-## Visión técnica
+## Casos típicos de uso
 
-| Modelo | TK119‑3G |
-| --- | --- |
-| Conectividad | Redes WCDMA y GSM |
-| Posicionamiento | GPS + LBS \(asistencia AGPS\) |
-| Alimentación y Batería | Voltaje operativo 6–28 V; batería de respaldo de 70 mAh para alertas de pérdida de energía y de bajo consumo |
-| Interfaces | Detección ACC \(encendido\); rele opcional para corte remoto de combustible/energía; expansión RS232 para periféricos |
-| Funciones de seguridad | Alarma de choque/caída, alarma de vibración, alarma de sobrevelocidad; puede cortar la energía ante sobrevelocidad |
-| Precisión GNSS y Inicio | Precisión GPS: 5–15 m; precisión de la estación base \(LBS\): ~200 m. Tiempos de inicio: \<3 s \(en caliente\), \<15 s \(templado\), \<60 s \(frío\). |
-| Dimensiones y Peso | 87 × 41.6 × 12 mm; 50 g |
-
-## Casos de uso
-
-- Antirrobo y inmovilización de la flota — control remoto del relé y corte de energía por sobrevelocidad reducen el riesgo de robo y facilitan la recuperación.
-- Comportamiento y seguridad del conductor — alertas de choque/caída y vibración, junto con detección de sobrevelocidad, permiten una respuesta rápida ante incidentes.
-- Monitoreo de combustible y telemetría — la expansión RS232 permite la integración con sensores de combustible y dispositivos de telemetría de terceros para el análisis de consumo.
-- Despacho y gestión de rutas en tiempo real — instalación compacta y posicionamiento GPS/LBS preciso facilitan el seguimiento eficiente de rutas y la asignación de conductores.
-- Disponibilidad de activos y detección de manipulación — alertas de pérdida de energía y de bajo consumo mantienen la visibilidad si el dispositivo se desconecta o es manipulado.
+- Anti robo y inmovilización de flotas usando control remoto por relé y cortes por exceso de velocidad.
+- Seguridad del conductor y respuesta ante incidentes aprovechando alarmas por choque, caída y vibración.
+- Monitoreo de combustible y telemetría extendida mediante integración de periféricos RS232.
+- Despacho en tiempo real, supervisión de rutas y asignación de conductores con flujo continuo de ubicaciones.
+- Detección de manipulación y pérdida de alimentación para mantener visibilidad ante extracciones no autorizadas o apagados.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el TK119‑3G como rastreador GPS compatible con Plaspy ofrece a los operadores una combinación equilibrada de hardware compacto, posicionamiento probado y entradas/salidas prácticas para la gestión real de flotas y flujos de trabajo anti‑robo. La plataforma de Plaspy ingiere eventos ACC, de choque/vibración y de sobrevelocidad desde la unidad para generar alertas automáticas, informes históricos y acciones de control como la inmovilización remota. Con la expansión RS232, las flotas pueden ampliar la telemetría para incluir monitoreo de combustible y otros diagnósticos, mientras la detección de pérdida de energía y la batería de respaldo mantienen el flujo de alertas críticos hacia Plaspy durante manipulaciones o apagados.
+El TK119‑3G combina hardware compacto con entradas y alarmas prácticas que se ajustan bien a los flujos de trabajo comunes de flotas y seguridad. Para los operadores que usan Plaspy, la detección de encendido del equipo, el reporte de eventos y el relé opcional proporcionan señales y puntos de control esenciales para crear alertas, informes y acciones de intervención sin añadir complejidad innecesaria.
 
-Para las organizaciones que requieren un seguimiento GPS fiable, informes de eventos rápidos e integración sencilla en una pila de telemática establecida, el TK119‑3G ofrece una opción rentable para incorporar seguimiento en tiempo real, monitoreo de encendido y controles anti‑robo dentro del ecosistema Plaspy. Plaspy también admite ecosistemas de sensores más amplios —incluidos sensores Bluetooth a través de gateways compatibles— para que puedas combinar la telemetría del TK119‑3G con sensores ambientales o de activos para una solución completa de visibilidad de la flota.
-
+Si desea saber más sobre Plaspy y cómo rastreadores compatibles como el TK119‑3G pueden integrarse en sus operaciones de flota visite https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, así que por favor verifique los detalles técnicos actuales y las opciones de accesorios en el sitio del fabricante https://www.eelink.com.cn/.

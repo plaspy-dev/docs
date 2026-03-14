@@ -2,34 +2,62 @@
 slug: /globalsat/lt_10
 id: lt_10
 sidebar_label: LT-10
+title: GlobalSat - LT-10
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS tipo arete solar para ganado con conectividad LoRaWAN y larga autonomía compatible con Plaspy
+keywords:
+  - GlobalSat LT-10
+  - Rastreador GPS LT-10
+  - Rastreador GlobalSat
+  - LT-10 LoRaWAN
+  - Arete auricular LT-10
+  - GPS para ganado
+  - Rastreador para ganado
+  - Rastreador solar
+  - Rastreador GNSS
+  - Rastreador IPX7
 ---
+
 # GlobalSat - LT-10
 
 ![LT-10](./logo..jpg)
 
-El GlobalSat LT-10 es un rastreador GPS de etiqueta auricular alimentado por energía solar, diseñado específicamente para su uso en animales de pastoreo, como el ganado. Este innovador dispositivo cuenta con una célula solar de alto rendimiento que puede proporcionar años de uso regular, lo que lo convierte en una solución rentable para el seguimiento y manejo de animales a largas distancias. Su diseño compacto y duradero garantiza que el rastreador pueda resistir las rigurosidades del uso al aire libre.
+El GlobalSat LT-10 es un rastreador GPS tipo arete alimentado por energía solar, diseñado específicamente para ganado y animales en pastoreo. Combina una celda solar de alto rendimiento con un receptor GNSS de alta sensibilidad y conectividad LoRaWAN para ofrecer seguimiento de ubicación de larga duración en entornos de pastizales remotos. Pensado para condiciones de campo, el LT-10 es compacto y resistente, cuenta con resistencia al agua IPX7, detección de movimiento, indicadores visuales y configuración sencilla mediante aplicaciones para iOS y Android.
 
-El LT-10 es compatible con la tecnología LoRaWAN y es compatible con varias frecuencias, incluyendo US 915 MHz, AS 923 MHz y EU 868 MHz. Esto permite una comunicación confiable y eficiente entre el rastreador y el usuario. El dispositivo también cuenta con un GNSS \(Sistema Global de Navegación por Satélite\) de alta sensibilidad para una posición y seguimiento precisos.
+Como dispositivo compatible con Plaspy, el LT-10 puede enviar datos de ubicación y actividad a Plaspy para brindar visibilidad operativa e informes. Su autonomía solar y su modelo de reportes periódicos lo hacen una opción práctica para monitoreo animal a largo plazo, mientras que funciones como alertas de batería baja y eventos de movimiento ayudan a que usted mantenga el control sin revisiones manuales frecuentes. Los intervalos de reporte pueden variar según la incidencia de luz solar, por lo que los paneles y alertas de Plaspy pueden ajustarse en consecuencia.
 
-Configurar el LT-10 es fácil y conveniente, gracias a su compatibilidad con aplicaciones iOS y Android. Los usuarios pueden personalizar configuraciones y parámetros según sus necesidades específicas. El rastreador también incluye un acelerómetro de 3 ejes incorporado para la detección de movimiento, lo que garantiza que cualquier movimiento o actividad se registre con precisión.
+## Características principales
 
-El LT-10 cuenta con una variedad de características útiles, como un indicador LED rojo para notificaciones visuales, un interruptor de hall para funcionalidad adicional, informes periódicos para actualizaciones regulares y una alerta de batería baja para garantizar un funcionamiento continuo. El dispositivo también es resistente al agua IPX7, lo que proporciona protección contra la inmersión en agua de hasta 1 metro durante un máximo de 30 minutos.
+- Factor de forma tipo arete auricular optimizado para ganado y animales de pastoreo
+- Conectividad basada en LoRaWAN para cobertura de largo alcance en zonas rurales
+- GNSS de alta sensibilidad para mejorar la precisión de ubicación en campo
+- Acelerómetro de 3 ejes integrado para detección de movimiento y reporte de actividad
+- Resistencia al agua certificada IPX7 para protección ante inmersión durante uso en campo
+- Configurable desde aplicaciones para iOS y Android con reportes periódicos y alertas de batería baja
+- Diseño compacto y ligero, apto para su fijación en animales
 
-Con dimensiones de 60\*50\*14 mm y un peso de 35 g, el LT-10 es compacto y liviano, lo que lo hace adecuado para su uso con animales de diferentes tamaños. Ya sea que necesite rastrear animales individuales o administrar un gran rebaño, el GlobalSat LT-10 ofrece una solución confiable y eficiente.
+## Cómo funciona con Plaspy
 
-### Características destacadas:
+Plaspy puede recibir la transmisión de datos del LT-10 y mostrarlos junto con otra información de flotas y activos, permitiendo un monitoreo consolidado de los movimientos del ganado y el estado de los dispositivos. La integración se centra en la visibilidad de ubicación, reporte de actividad y generación de alertas para que usted gestione animales y dispositivos desde la plataforma Plaspy.
 
-- Frecuencias LoRa® compatibles: US 915 MHz / AS 923 MHz / EU 868 MHz
-- Célula solar de alto rendimiento
-- GNSS de alta sensibilidad
-- Configurable mediante aplicaciones iOS y Android
-- Acelerómetro de 3 ejes incorporado para detección de movimiento
-- Indicador LED rojo
-- Interruptor de hall
-- Informe periódico
-- Alerta de batería baja
-- Resistente al agua IPX7
-- Dimensiones: 60\*50\*14 mm
-- Peso: 35 g
+- Seguimiento en mapa de ubicaciones animales e historial de movimiento en Plaspy
+- Indicadores de eventos de movimiento y actividad derivados del acelerómetro del LT-10
+- Notificaciones de reportes periódicos y batería baja integradas en los flujos de alerta de Plaspy
+- Vistas agregadas de estado y tiempo de actividad de dispositivos para apoyar la planificación de mantenimiento
+- Informes históricos y registros de ubicación exportables para análisis operativos
 
+## Casos de uso típicos
+
+- Monitoreo de patrones de pastoreo y ubicación general del ganado en grandes extensiones
+- Rastreo a largo plazo donde la energía solar reduce las visitas de mantenimiento
+- Detección de movimiento o inactividad prolongada mediante eventos de movimiento para conocimiento operativo
+- Gestión de inventario de dispositivos y salud de baterías en grandes hatos desde paneles centrales
+- Monitoreo remoto en áreas estacionales o fuera de la red donde se requiere conectividad de largo alcance
+
+## Por qué elegir este rastreador con Plaspy
+
+El LT-10 combina hardware orientado a la autonomía con un diseño tipo arete compacto que se adapta a las operaciones ganaderas donde minimizar el mantenimiento es prioritario. Su capacidad de carga solar y su construcción robusta disminuyen la necesidad de cambios frecuentes de batería y ayudan a asegurar la recopilación continua de datos durante despliegues prolongados. Al integrarlo con Plaspy, el LT-10 forma parte de un flujo unificado de monitoreo e informes que apoya la toma de decisiones operativas para la gestión de pasturas y hatos.
+
+Elegir el LT-10 para usar con Plaspy tiene sentido para organizaciones que necesitan rastreadores duraderos y de bajo mantenimiento para ganado distribuido y que desean consolidar datos de ubicación y actividad animal en una sola plataforma de gestión. Las características del dispositivo y las funcionalidades de Plaspy ofrecen visibilidad, alertas y análisis histórico sin una carga operativa excesiva.
+
+Para saber más sobre Plaspy y cómo dispositivos compatibles como el LT-10 pueden integrarse en sus flujos de monitoreo visite https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por favor verifique los detalles técnicos actuales y las opciones regionales en el sitio del fabricante https://www.globalsat.com.tw/.

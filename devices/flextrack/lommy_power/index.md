@@ -2,64 +2,60 @@
 slug: /flextrack/lommy_power
 id: lommy_power
 sidebar_label: Lommy Power
+title: Flextrack - Lommy Power
 sidebar_class_name: menu_item_tracker
+description: Compact wired GPS tracker for heavy machinery with continuous power, rugged durability and Plaspy compatibility for fleet tracking and anti theft monitoring
+keywords:
+  - Flextrack Lommy Power
+  - Lommy Power GPS
+  - Lommy Power Plaspy
+  - heavy equipment tracker
+  - fleet tracking
+  - asset tracking
+  - telemetry
+  - real time tracking
+  - operating hours monitoring
+  - anti theft tracking
 ---
+
 # Flextrack - Lommy Power
 
 ![Lommy Power](./tracker.jpg)
 
-Lommy Power is a compact wired GPS tracker designed for continuous, real-time tracking of heavy machinery and equipment. Plaspy compatible out of the box, Lommy Power pairs rugged, IP65-rated hardware with multi-constellation GNSS and intelligent 4G + 2G communications so fleets and contractors can rely on uninterrupted telemetry and accurate position data for fleet management, anti-theft protection, and operational reporting.
+Lommy Power is a compact wired GPS tracker designed for continuous real time tracking of heavy machinery and equipment. Built with a rugged IP65 housing and multi constellation GNSS positioning, it is intended for long term asset monitoring in harsh environments such as construction, agriculture and forestry. The device draws power from the host vehicle or machine to provide persistent telemetry without the need for an internal primary battery.
 
-Built for harsh environments in construction, agriculture, forestry and other heavy-duty applications, Lommy Power draws its power directly from the vehicle or machine battery \(5–40 V\) to ensure persistent monitoring without maintenance of an internal battery. When integrated with Plaspy, the device delivers location, motion, ignition and operating-hour data into a centralized platform for alerts, geofencing, utilization analysis, and compliance-ready reporting.
+As a Plaspy compatible device out of the box, Lommy Power can deliver location, motion, ignition and operating hour data directly into Plaspy for centralized visualization and reporting. That compatibility enables fleets and contractors to use Plaspy tools for geofencing, alerts, utilization analysis and anti theft workflows while relying on Lommy Power for continuous field data feed.
 
 ## Key Highlights
 
-- Continuous wired power \(5–40 V\) eliminates downtime from depleted internal batteries — ideal for long-term asset tracking and fleet management.
-- Compact, easy-to-hide form factor \(54 × 44 × 19 mm, 42 g\) with IP65 housing and wide temperature range for reliable field operation.
-- Accurate multi-constellation GNSS \(GPS, GLONASS, GALILEO, BEIDOU, QZSS\) with SBAS support for position accuracy down to a few metres.
-- Intelligent 4G LTE Cat M1 \(B3/B8/B20\) with quad-band 2G fallback and UDP/SMS protocols for robust connectivity in mixed-coverage areas.
-- Power-aware reporting logic \(frequent updates when ignition/aux active; extended low-rate reporting when idle\) to balance real-time tracking and data efficiency.
-- Built-in 3-axis accelerometer and motion detection for movement-triggered alerts, geofence breach detection and anti-theft workflows.
-- Simple installation and integration with Flextrack platforms \(TrackEye, LommyFleet\) or third-party systems via APIs and white-label solutions.
+- Continuous wired power for uninterrupted tracking of vehicles and heavy equipment
+- Compact and discreet form factor with IP65 rated housing for reliable field operation
+- Multi constellation GNSS for accurate position data suitable for fleet management
+- Intelligent cellular connectivity with fallback to maintain telemetry in mixed coverage areas
+- Motion detection via a built in accelerometer to support movement alerts and theft detection
+- Operating hour and ignition reporting to support utilization tracking and maintenance planning
+- Simple integration path with Plaspy and other third party platforms through open interfaces
 
 ## How It Works with Plaspy
 
-When connected to Plaspy, Lommy Power streams GNSS and telemetry over LTE/2G to Plaspy’s ingestion endpoints using UDP or SMS. Plaspy normalizes the device data, applies configurable rules and geofences, and provides real-time visualization, alerts, and historical reports for fleet operations and anti-theft monitoring. The device’s smart reporting modes reduce unnecessary transmissions while ensuring timely updates during movement or ignition events.
+When connected to Plaspy, Lommy Power streams GNSS and telemetry to Plaspy’s ingestion endpoints where the platform normalizes the data, applies configurable rules and presents it on live maps and reports. Plaspy uses the device data to drive alerts, geofence events and historical playback while reducing unnecessary transmissions through device reporting logic.
 
-- Real-time location and telemetry updates delivered to Plaspy for live maps and history playback.
-- Ignition and auxiliary input detection — Plaspy receives start/stop events for utilization and maintenance scheduling.
-- Operating-hours telemetry based on battery-current measurement for accurate equipment usage and invoicing reports.
-- Movement-triggered reporting and geofence alerts to support anti-theft and misuse notifications.
-- Plaspy can aggregate additional inputs \(fuel monitoring sensors, Bluetooth sensors from compatible devices, immobilizer workflows\) so operators get a full telemetry picture even if those sensors are provided by other hardware.
+- Real time location and history playback visible in Plaspy maps and dashboards
+- Ignition and start stop events forwarded to Plaspy for utilization and maintenance workflows
+- Operating hour telemetry fed into Plaspy for invoicing, usage reporting and scheduling
+- Movement triggered reporting and geofence alerts sent to Plaspy for anti theft and misuse notifications
+- Aggregation of additional inputs in Plaspy so operators can combine Lommy Power data with external sensors for fuller telemetry
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | 4G LTE Cat M1 \(FDD\) with quad-band 2G fallback |
-| --- | --- |
-| Bands | LTE Cat M1 B3 / B8 / B20; fallback to quad-band 2G \(GSM\) |
-| Protocols | UDP, SMS |
-| Power & Battery | Wired device powered from machine battery, operating range 5–40 V; no internal primary battery |
-| Interfaces | Ignition/start-stop detection; optional auxiliary input \(third wire\); battery-current measurement for operating hours |
-| GNSS | Multi-constellation: GPS, GLONASS, GALILEO, BEIDOU, QZSS; SBAS \(WAAS, EGNOS, MSAS, GAGAN\); position accuracy down to a few metres |
-| Antennas | Internal GNSS and LTE/GSM antenna \(best reception when label-side and thin edge oriented outward\) |
-| Memory & Sensors | 2 MB internal flash memory; 3-axis accelerometer for motion detection |
-| Sensitivity & Channels | Tracking sensitivity down to -166 dBm; 33 tracking channels, 99 acquisition channels, 210 PRN channels |
-| Reporting Logic | Reports every 2 minutes when ignition/aux active; reports once every 24 hours when engine off and no movement; movement while off reverts to 2-minute reporting |
-| Environmental | IP65 rated; operating temperature -30 to +60 °C |
-| Dimensions & Weight | 54 × 44 × 19 mm; 42 g |
-| Certifications & Security | CE, \(E pending\), RoHS, WEE; server and data handling follows ISAE3402 references \(ISO 27002\) |
-| Integrations | Native support for Flextrack platforms \(TrackEye, LommyFleet\); open APIs and white-label options for third-party platforms such as Plaspy |
-| Bluetooth | No Bluetooth reported for this unit; Plaspy can combine Bluetooth sensor data from compatible peripheral devices when present |
-
-## Use Cases
-
-- Fleet and heavy-equipment management — continuous telemetry for utilization, scheduling, and invoicing based on operating hours.
-- Anti-theft and misuse detection — movement alarms, geofence breaches and ignition events routed to Plaspy for rapid response.
-- Construction, agriculture and forestry machinery monitoring — ruggedized design and wide temperature range for harsh sites.
-- Maintenance planning and uptime optimization — accurate start/stop and operating-hour data to plan service intervals and reduce downtime.
-- Complementary telemetry solutions — combine Lommy Power data with fuel monitoring sensors or Bluetooth sensors in Plaspy for fuller asset visibility.
+- Continuous monitoring of construction machinery and site equipment for utilization and deployment
+- Fleet level tracking for contractors who need centralized visibility and reporting
+- Anti theft monitoring with movement alarms and geofence breach notifications
+- Maintenance planning based on accurate operating hours and start stop events
+- Remote equipment oversight in agriculture and forestry where rugged hardware is required
 
 ## Why Choose This Tracker with Plaspy
 
-Lommy Power offers a practical balance of rugged hardware, continuous wired operation and multi-constellation positioning that matches the demands of fleet management and heavy-equipment monitoring. When integrated with Plaspy, operators gain reliable real-time tracking, telemetry-driven insights and configurable anti-theft workflows without frequent battery service. The device’s intelligent reporting minimizes data use while ensuring critical events are reported promptly, and open APIs plus native Flextrack integrations make deployment and scaling straightforward. Choose Lommy Power with Plaspy for dependable GPS tracking, clear operating-hour reporting, and a secure, standards-aligned data handling approach that supports fleet efficiency and theft protection.
+Lommy Power provides a practical solution for organizations that require persistent, rugged tracking of heavy equipment. Its continuous wired operation and robust positioning make it well suited to environments where battery maintenance is impractical and reliable telemetry is essential. Paired with Plaspy, the device becomes part of a centralized fleet management workflow that supports real time visibility, configurable alerts and long term reporting.
 
+If you want to explore how Lommy Power can fit into your fleet or asset monitoring strategy, learn more about Plaspy on the main website https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details and technical documentation with the manufacturer at https://flextrack.dk.

@@ -2,42 +2,62 @@
 slug: /wp/vt_360
 id: vt_360
 sidebar_label: VT-360
+title: WP - VT-360
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto con GPS y GLONASS y conectividad 2G 3G para seguimiento en tiempo real y reportes flexibles compatible con Plaspy
+keywords:
+  - WP VT-360
+  - VT-360
+  - rastreador WP
+  - VT360
+  - rastreador GPS para vehículos
+  - rastreador GPS GLONASS
+  - rastreador 2G y 3G
+  - registro de viajes
+  - rastreo de flotas
+  - compatible con Plaspy
 ---
-# WP - VT-360
+
+# WP - VT-360 — Rastreador vehicular compacto
 
 ![VT-360](./logo..png)
 
-El rastreador GPS VT-360 de la marca WP es un dispositivo de seguimiento de vehículos de alto rendimiento que utiliza tecnología GPS y GLONASS. Con un diseño compacto y dimensiones de 115 mm x 75 mm x 32 mm, este rastreador es fácil de instalar y ocultar en cualquier vehículo. Con un peso de solo 130 g, no afectará el rendimiento ni la eficiencia del vehículo.
+El WP VT-360 es un dispositivo de seguimiento vehicular compacto que combina posicionamiento GPS y GLONASS con conectividad celular 2G y 3G para ofrecer seguimiento y monitoreo en tiempo real de forma continua. Diseñado para instalación en vehículos, el VT-360 incluye registro de viajes con capacidad para almacenar una gran cantidad de puntos de ruta, detección de encendido y diversas alertas orientadas a mejorar la visibilidad operativa.
 
-El VT-360 ofrece seguimiento en tiempo real, lo que le permite conocer la ubicación exacta de su vehículo en cualquier momento. También cuenta con un registro de viaje que puede almacenar más de 100,000 puntos de referencia, lo que le permite realizar un seguimiento detallado de los movimientos de su vehículo a lo largo del tiempo.
+Como dispositivo compatible con Plaspy, el VT-360 puede enviar datos de ubicación y estado a Plaspy para gestión de flotas, generación de reportes y flujos de alertas. Su flexibilidad de reporte y el soporte para configuración remota por aire (OTA) lo convierten en una opción práctica para organizaciones que requieren comportamiento de rastreo configurable junto con la supervisión y el análisis centralizados que ofrece Plaspy.
 
-Este rastreador también cuenta con detección de encendido, lo que significa que puede recibir una notificación cuando su vehículo se encienda o se apague. Esto puede ser útil para monitorear el uso no autorizado del vehículo o para realizar un seguimiento de los horarios de trabajo de los conductores.
+## Características principales
 
-El VT-360 también ofrece informes personalizados, lo que le permite configurar informes específicos según sus necesidades. Puede recibir informes sobre la velocidad, la distancia recorrida, los cambios en el estado de entrada y muchas otras métricas importantes.
+- Posicionamiento dual GPS y GLONASS para datos de ubicación fiables.
+- Conectividad celular 2G y 3G para reportes continuos en tiempo real.
+- Gran capacidad de registro de viajes con soporte para más de 100,000 puntos de ruta.
+- Detección de encendido y alertas configurables por exceso de velocidad, remolque y cambios en entradas digitales.
+- Geocercas y alertas de bloqueo/interferencia GSM para apoyar la seguridad operativa.
+- Soporte para monitoreo de voz remoto, comunicación bidireccional por voz y configuración OTA del dispositivo.
+- Factor de forma compacto y liviano que permite instalación flexible en distintos tipos de vehículos.
 
-Con una amplia gama de características y especificaciones técnicas, el rastreador GPS VT-360 de WP es una opción confiable para el seguimiento de vehículos. Ya sea que necesite monitorear su flota de vehículos comerciales o simplemente desee tener un mayor control sobre su propio vehículo, este rastreador puede proporcionarle la información que necesita de manera precisa y confiable.
+## Cómo funciona con Plaspy
 
-### Características destacadas:
+El VT-360 transmite información de ubicación y eventos que Plaspy puede ingerir para ofrecer mapas en vivo, rutas históricas y alertas basadas en eventos. Una vez conectado a Plaspy, el dispositivo envía el estado del vehículo y los datos de los viajes a un panel central donde los operadores pueden supervisar activos, generar reportes y configurar alertas.
 
-- Seguimiento en tiempo real
-- Registro de viaje de más de 100,000 puntos de referencia
-- Detección de encendido
-- Informes personalizados
+- Ubicación en vivo y reproducción de rutas mostradas en los mapas de Plaspy para visibilidad en tiempo real.
+- Historial de viajes y datos de puntos de ruta utilizados en los reportes de Plaspy para análisis de kilometraje y trayectos.
+- Alertas de eventos como encendido/apagado, exceso de velocidad, remolque y violaciones de geocercas dirigidas a los canales de notificación de Plaspy.
+- Configuración del dispositivo y frecuencia de reporte ajustadas en el VT-360 y reflejadas en los reportes de Plaspy para un flujo de datos consistente.
+- Alertas y resúmenes agrupados en Plaspy para supervisión operativa y cumplimiento normativo.
 
-### Especificaciones técnicas:
+## Casos de uso típicos
 
-- Dimensiones \(L x W x H\): 115 mm x 75 mm x 32 mm
-- Peso: 130 g
-- GPS: GPS + GLONASS
-- Bandas de comunicación GSM: 850, 900, 1800 y 1900 MHz \(2G\)
-- Cinco bandas UMTS/HSDPA: 850, 800, 900, 1900 y 2100 MHz \(3G\)
-- Fuente de alimentación: DC 8 - 35V
-- Consumo de energía: 50mA en modo normal, \<4mA en modo de suspensión
-- Capacidad de memoria: 8MB de memoria flash interna
-- Puertos del dispositivo: 4 puertos de entrada, 4 puertos de salida, 3 puertos serie RS-232, 1 puerto mini USB
-- Interfaz de radio: transceptor RF de 2.4GHz, amplificador de audio interno, conector de micrófono
-- Sensores: acelerómetro triaxial
-- Batería de respaldo: 1150mAh de capacidad
-- Temperatura de funcionamiento: -20°C - 80°C \(sin batería de respaldo\)
+- Seguimiento de vehículos de flota para operaciones logísticas y de entrega que requieren visibilidad continua de la ubicación.
+- Monitoreo de vehículos de alquiler y compartidos donde el registro de viajes y los eventos de encendido son importantes.
+- Supervisión de vehículos de servicio de campo para optimizar rutas y verificar el historial de visitas.
+- Seguridad y recuperación de activos aprovechando geocercas y alertas antiinterferencia.
+- Reportes de millaje y actividad empresarial usando datos almacenados de puntos de ruta y viajes.
 
+## Por qué elegir este rastreador con Plaspy
+
+El VT-360 combina funciones de rastreo prácticas con opciones flexibles de reporte y alerta que encajan bien con los casos de uso de Plaspy. Su soporte para registros de viaje extensos y actualizaciones en tiempo real ayuda a los equipos a mantener una visión operativa clara, mientras que las alertas configurables ofrecen notificaciones oportunas sobre eventos comunes en la flota. Dado que el dispositivo admite configuración por aire y funciones de voz, puede adaptarse a requisitos operativos cambiantes sin intervención manual frecuente.
+
+Si usted necesita un rastreador compacto que pueda alimentar datos confiables de ubicación y eventos a una plataforma de gestión de flotas, el VT-360 es una opción adecuada para considerar junto a Plaspy. Para confirmar especificaciones técnicas detalladas y revisar opciones de accesorios, consulte al fabricante del dispositivo y tenga en cuenta las capacidades del VT-360 al planificar su implementación con Plaspy.
+
+Para obtener más información sobre cómo Plaspy puede integrarse con rastreadores compatibles visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique las especificaciones actuales y las opciones de accesorios con la documentación oficial del fabricante en http://www.wondeproud.com/.

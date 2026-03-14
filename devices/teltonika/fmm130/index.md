@@ -2,62 +2,61 @@
 slug: /teltonika/fmm130
 id: fmm130
 sidebar_label: FMM130
+title: Teltonika - FMM130
 sidebar_class_name: menu_item_tracker
+description: Compact vehicle and asset GPS tracker compatible with Plaspy offering cellular connectivity and sensor integration
+keywords:
+  - Teltonika FMM130
+  - FMM130 tracker
+  - Teltonika tracker
+  - FMM130 Plaspy
+  - GPS tracker
+  - fleet tracking
+  - vehicle telematics
+  - fuel monitoring
+  - BLE sensors
+  - CAN bus data
 ---
+
 # Teltonika - FMM130
 
 ![FMM130](./tracker.png)
 
-# Teltonika FMM130
+The Teltonika FMM130 is a compact GPS tracker designed for professional fleet management and asset security. It combines modern low power cellular connectivity with support for Bluetooth sensors, CAN bus integration, multiple inputs and outputs, and a built in backup battery to provide dependable position and telemetry reporting for vehicles and sensitive cargo. The device is presented in a vehicle friendly form factor suitable for a range of light and heavy duty applications.
 
-The Teltonika FMM130 is a compact GPS tracker engineered for professional fleet management and asset security. As a Plaspy compatible GPS tracker, FMM130 brings LTE Cat M1 and NB‑IoT \(NB2\) connectivity together with BLE sensor support, CAN bus integration and remote firmware/configuration tools to deliver dependable real‑time tracking and comprehensive telemetry for vehicles and sensitive cargo.
-
-Designed for global deployments, the FMM130 supports fallback 2G where required and includes a backup battery plus flexible inputs and outputs. When integrated with Plaspy, this tracker becomes a robust telematics endpoint that simplifies fuel monitoring, anti‑theft immobilization and environmental monitoring through Bluetooth sensors — all accessible from Plaspy’s dashboard and reporting tools.
+As a Plaspy compatible device, the FMM130 streams location and telemetry into the Plaspy platform so operators can monitor vehicles, review historical routes, and combine CAN and sensor data with Plaspy reporting and alerts. Its support for fuel monitoring, remote actions and Bluetooth environmental sensors makes the FMM130 a practical telematics endpoint for organizations using Plaspy for centralized fleet oversight.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker with LTE Cat M1 and NB‑IoT \(NB2\) for efficient low‑power cellular telemetry and wide area coverage.
-- Real‑time tracking and telemetry for fleet management: position, CAN bus data, odometer and engine parameters.
-- Fuel monitoring and impulse input support for accurate fuel flow meter integration and consumption analysis.
-- Bluetooth Low Energy \(BLE\) support for external sensors and beacons to monitor temperature, humidity, magnet status and movement — ideal for cold‑chain logistics.
-- Multiple digital/analog inputs and outputs and CAN adapter compatibility for remote actions including engine immobilization.
-- Backup battery ensures continued reporting during power interruptions; remote device management via Teltonika FOTA WEB and configuration tools.
-- Compact vehicle/asset form factor with global-ready connectivity options and manufacturer product variants for different network regions.
+- Compact vehicle and asset tracker built for professional telematics and fleet use.
+- Cellular connectivity optimized for low power wide area coverage with fallback for wider deployments.
+- Support for CAN bus derived vehicle parameters for enriched fleet diagnostics and reporting.
+- Bluetooth sensor compatibility for environmental monitoring such as temperature and movement.
+- Multiple inputs and outputs plus backup battery to maintain telemetry during power interruptions.
+- Remote device management features for firmware updates and configuration changes.
+- Practical for fleet operations, fuel monitoring, and cargo security workflows.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the FMM130 streams position and telemetry data into your Plaspy account for live visualization, geofencing, alerts and historical reports. Plaspy ingests the device’s GNSS fixes, CAN-derived parameters and BLE sensor readings to create unified vehicle and cargo dashboards that support operational decision making and compliance.
+When connected to Plaspy, the FMM130 sends GNSS location fixes and telemetry so Plaspy can visualize live vehicle positions, trigger alerts, and build historical reports. Plaspy ingests telemetry from the tracker and presents it alongside route history and event data to support operational decision making and compliance workflows.
 
-- Real‑time location and telemetry updates delivered to Plaspy for live tracking and route playback.
-- Engine and vehicle status via CAN bus: odometer, RPM and engine temperature appear in Plaspy reports and diagnostics.
-- Fuel monitoring using impulse input and CAN data for accurate fuel consumption and theft detection analytics.
-- Remote immobilizer capability through I/O outputs for anti‑theft actions triggered from Plaspy when required.
-- Bluetooth sensors feed environmental telemetry \(temperature, humidity, movement, magnet status\) into Plaspy for cold‑chain and sensitive cargo monitoring.
+- Real time location updates and route playback available in Plaspy dashboards for live monitoring.
+- CAN bus parameters and vehicle status appear in Plaspy reports and diagnostics for maintenance insight.
+- Fuel monitoring and impulse input data feed Plaspy analytics for consumption tracking and anomaly detection.
+- Environmental telemetry from Bluetooth sensors is shown in Plaspy for cold chain and cargo condition monitoring.
+- Remote actions such as immobilization commands can be coordinated from Plaspy using the tracker outputs.
+- Alerts, geofences and scheduled reports use tracker data to notify teams and keep historical records.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat M1 and NB‑IoT \(NB2\) with optional 2G \(GSM\) compatibility |
-| --- | --- |
-| Bands | Wide set of LTE bands for Cat M1/NB2 \(manufacturer variants\); quad‑band 2G \(850/900/1800/1900\) support where required |
-| Power & Battery | External power with backup battery for reporting during power loss |
-| Interfaces | Impulse input, multiple digital/analog inputs and outputs, CAN adapter integration, remote engine immobilisation support |
-| GNSS | GPS positioning suitable for vehicle tracking and fleet telematics |
-| Bluetooth | Bluetooth® Low Energy \(BLE\) for sensors and beacons \(temperature, humidity, magnet/movement\) |
-| Remote Management | Teltonika FOTA WEB and configuration tools for firmware updates and remote configuration |
-| Module | Quectel BG95‑M3 module used in standard product options |
-| Form Factor | Compact vehicle tracker for light vehicles, trucks, buses and special machinery |
-
-## Use Cases
-
-- Fleet management: continuous real‑time tracking, route history and vehicle telemetry for cars, vans, trucks and buses.
-- Fuel management and anti‑theft: impulse input plus CAN fuel readings and remote immobilizer reduce fuel loss and deter theft.
-- Cold‑chain and sensitive cargo monitoring: BLE temperature and humidity sensors report environmental conditions into Plaspy.
-- Special machinery telemetry: CAN bus integration for remote monitoring of engine hours, RPM and critical engine parameters.
-- Asset security: movement and magnet status via BLE beacons plus backup battery reporting if main power is cut.
+- Fleet management for cars, vans, trucks and buses with live tracking and route analysis.
+- Fuel usage monitoring and anti theft workflows combining impulse data and remote immobilization.
+- Cold chain and sensitive cargo monitoring using Bluetooth sensors for temperature and humidity visibility.
+- Remote telemetry for special machinery and equipment using CAN integration for engine and service data.
+- Asset security where backup reporting and sensor alerts maintain situational awareness if main power is cut.
 
 ## Why Choose This Tracker with Plaspy
 
-The FMM130 pairs reliability and flexibility to meet professional telematics needs. Its LTE Cat M1 and NB2 radio profiles make it future‑focused for IoT‑grade cellular coverage while maintaining 2G fallback where necessary. When integrated with Plaspy, FMM130 becomes more than a GPS tracker — it’s a telemetry gateway that feeds real‑time location, fuel monitoring, CAN diagnostics and BLE sensor data into centralized fleet management workflows.
+The FMM130 is a versatile option for organizations that need a compact, vehicle focused tracker that feeds rich telemetry into a centralized platform. Its combination of cellular connectivity, CAN compatibility, sensor inputs, and backup power makes it well suited to mixed fleets and operations that require both location tracking and environmental or fuel monitoring.
 
-Choose FMM130 with Plaspy to gain dependable real‑time tracking, simplified remote management via FOTA WEB, and a compact, scalable solution for both fleet management and asset security. The combination supports anti‑theft workflows with remote immobilizer control, detailed fuel monitoring for operational savings, and environmental telemetry for regulated cargo — all manageable from Plaspy’s platform for easier operations and faster response.
-
+Paired with Plaspy, the FMM130 becomes part of a managed telematics workflow where live visualization, alerts, and historical reports help teams improve operations and respond faster to incidents. To learn more about Plaspy visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time so please verify current technical information on the official Teltonika site https://www.teltonika-gps.com/.

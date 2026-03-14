@@ -2,65 +2,60 @@
 slug: /teltonika/fmm800
 id: fmm800
 sidebar_label: FMM800
+title: Teltonika - FMM800
 sidebar_class_name: menu_item_tracker
+description: Teltonika FMM800 OBD II GPS tracker compatible with Plaspy for real time fleet tracking and telemetry
+keywords:
+  - Teltonika FMM800
+  - FMM800 tracker
+  - FMM800 Plaspy compatible
+  - Teltonika OBD II tracker
+  - OBD II GPS tracker
+  - vehicle tracking
+  - fleet tracking
+  - fleet management
+  - telemetry
+  - BLE sensors
 ---
+
 # Teltonika - FMM800
 
 ![FMM800](./tracker.png)
 
-# Teltonika FMM800 GPS Tracker — Plaspy Compatible
+The Teltonika FMM800 is a plug and play OBD II GPS tracker designed for rapid installation and reliable vehicle monitoring. Intended for fleet management, car sharing and rental services, and logistics operations, the device reports location and vehicle data through the vehicle OBD II port so teams can start tracking and collecting telemetry without complex wiring.
 
-The Teltonika FMM800 is a plug-and-play OBD-II GPS tracker engineered for rapid installation and dependable vehicle monitoring. Designed for fleet management, car sharing and rental services, and logistics operations, the FMM800 is Plaspy compatible and delivers real-time tracking and telemetry without complex wiring—simply plug into the vehicle OBD-II port and begin reporting location and vehicle data.
-
-Built around LTE Cat M1 and NB-IoT connectivity with quad-band 2G fallback, the FMM800 balances low-power wide-area network efficiency with uninterrupted coverage. Its onboard 3-axis accelerometer, Bluetooth Low Energy \(BLE\) for external sensors, and integration with Teltonika remote management tools \(FOTA WEB, Teltonika Configurator\) make it a strong choice for scalable telematics deployments using Plaspy for centralized monitoring, alerts and analytics.
+As a Plaspy compatible tracker, the FMM800 can stream location, accelerometer events, OBD derived vehicle data and Bluetooth sensor readings into Plaspy for centralized dashboards, alerts and historical reporting. That compatibility makes the FMM800 a practical option for organizations that want fast deployment and integrated visibility using Plaspy for monitoring, rules, and analytics.
 
 ## Key Highlights
 
-- Plug-and-play OBD-II installation for instant deployment—no professional fitting required.
-- Plaspy compatible for seamless integration into dashboards, reports and fleet workflows.
-- Multi‑mode cellular: LTE Cat M1 + NB‑IoT \(NB2\) with quad-band 2G fallback for resilient connectivity.
-- Built-in 3-axis accelerometer for crash detection, harsh braking and trace data.
-- Bluetooth Low Energy \(BLE\) to pair external sensors and beacons \(temperature, humidity, magnet, movement\).
-- Optimized telemetry for fuel monitoring, eco‑driving and driver behavior analysis via OBD-II data.
-- Remote firmware and configuration management via Teltonika FOTA WEB and Configurator.
+- Plug and play OBD II installation for fast deployment in vehicle fleets.
+- Compatible with Plaspy for centralized tracking, alerts and reporting.
+- Multi mode cellular connectivity including LTE Cat M1 and NB IoT with quad band 2G fallback for broad coverage.
+- Built in 3 axis accelerometer for impact detection and harsh driving events.
+- Bluetooth Low Energy support for pairing external sensors and beacons.
+- Remote firmware and configuration management via Teltonika management tools.
 
 ## How It Works with Plaspy
 
-The FMM800 streams vehicle telemetry and location to Plaspy in real time, enabling live maps, alerts and historical reports. Plaspy ingests GPS and OBD-derived data to power fleet management functions such as route replay, driver scoring, and fuel monitoring. Configuration and OTA updates are handled through Teltonika’s tools while Plaspy focuses on visualization, rules, and integrations.
+When connected and configured, the FMM800 sends location and vehicle telemetry into Plaspy so fleet managers gain live visibility and historical context. Plaspy ingests position updates, event triggers and sensor data to power monitoring, alerts and reporting while Teltonika tools handle device provisioning and firmware updates.
 
-- Real-time location and telemetry updates delivered to Plaspy for live tracking and reporting.
-- Accelerometer events \(crash, harsh braking, harsh acceleration\) available as alert triggers.
-- OBD-II vehicle data for fuel monitoring, engine and ignition state—useful for telemetry and driver behavior.
-- Bluetooth sensors integration: temperature, humidity, magnet and movement data can be forwarded into Plaspy via the device.
-- Remote management and firmware updates \(FOTA WEB\) ensure devices remain secure and interoperable with Plaspy.
-- Support for anti-theft workflows—positioning and telemetry help detect unauthorized movement; ignition events via OBD-II can be used in immobilizer processes where supported by vehicle or additional control modules.
+- Real time location updates in Plaspy for live map tracking and route replay.
+- Accelerometer events such as impacts or harsh driving are available as alert triggers.
+- OBD II derived vehicle data supports fuel monitoring, ignition state awareness and driver behavior analysis inside Plaspy.
+- Bluetooth sensor readings for temperature, humidity, magnet or movement can be forwarded into Plaspy through the device.
+- Remote management with Teltonika provisioning helps keep hardware up to date and interoperable with Plaspy.
+- Telemetry and alerts can be used to support anti theft and unauthorized movement workflows.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE Cat M1 and NB-IoT \(NB2\) with quad-band 2G fallback \(GSM\) |
-| --- | --- |
-| Cellular Module | Quectel BG95-M3 \(as specified in product details\) |
-| Bands | 4G \(LTE Cat M1\) B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B25/B26/B27/B28/B66/B85; 4G \(LTE Cat NB2\) B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B25/B28/B66/B71/B85; 2G \(GSM\) 850/900/1800/1900 |
-| Power & Battery | Powered via OBD-II port; single-unit package options include Micro USB cable \(0.8 m\) and power supply cable \(0.25 m\). No internal backup battery specified in the product brief—refer to manufacturer for battery options. |
-| Interfaces | OBD‑II plug & play interface; Bluetooth Low Energy for external sensors; built-in 3-axis accelerometer. Accessories include EYE Beacon and EYE Sensor BLE, OBD-II extension and splitter cables. |
-| GNSS | Onboard vehicle positioning for GPS tracking and route telemetry \(see Teltonika documentation for GNSS specifics and accuracy\). |
-| Bluetooth | BLE \(Bluetooth Low Energy\) for pairing external sensors and beacons \(temperature, humidity, magnet detection, movement\). |
-| Remote Management | Teltonika FOTA WEB and Teltonika Configurator supported for firmware updates and device provisioning. |
-| Form Factor | OBD-II plug-and-play unit, compact design for vehicle use. Packaging options: bulk boxes \(20 pcs.\) or single-unit packages \(product codes available\). |
-
-## Use Cases
-
-- Fleet management: real-time GPS tracking, driver behavior monitoring and telemetry-driven route optimization.
-- Car sharing & rental services: quick deployment, usage logs, ignition and OBD-II data for billing and security.
-- Logistics and delivery: continuous location updates and crash detection to protect cargo and improve ETA accuracy.
-- Seasonal or luxury vehicle tracking: discreet OBD‑II installation with BLE sensor options for cabin/environment monitoring.
-- Asset security and anti-theft: unattended vehicle movement alerts, position history and OBD-derived ignition status to support immobilizer workflows when integrated with third-party control systems.
+- Fleet management with live tracking, driver behavior monitoring and route analysis.
+- Car sharing and rental operations requiring quick installation and usage logs for billing and security.
+- Logistics and delivery services that need continuous location updates and event driven alerts.
+- Vehicle environment monitoring for seasonal or luxury vehicles using external BLE sensors.
+- Asset security and anti theft monitoring combined with ignition and movement detection.
 
 ## Why Choose This Tracker with Plaspy
 
-The FMM800 combined with Plaspy provides a practical, low-friction path to advanced fleet telematics. Its plug-and-play OBD-II design dramatically reduces installation time, while LTE Cat M1 and NB-IoT support lower network costs and extended coverage for LPWAN telemetry. For businesses that need real-time tracking, fuel monitoring, and driver behavior analytics, the FMM800 supplies robust telemetry streams and sensor integrations \(BLE\) that Plaspy can use to deliver actionable insights.
+The FMM800 offers a low friction route to vehicle telematics for organizations that want fast deployment and integrated data streams. Its OBD II plug and play form factor reduces installation time, while onboard motion detection and sensor support extend the kinds of alerts and telemetry Plaspy can process for operational insights.
 
-Operational benefits include simplified provisioning via Teltonika tools \(FOTA WEB and Configurator\), integrated BLE sensor workflows for temperature or magnet events, and fallback 2G coverage for legacy regions. Whether you’re scaling fleet management, deploying car-sharing assets, or adding anti‑theft monitoring, the Plaspy compatible FMM800 gives reliable vehicle tracking, telemetry and sensor flexibility without complex hardware changes—verify current availability and ordering codes with Teltonika sales or support before a new deployment.
-
-**Ordering notes:** Product codes include FMM800IK8V01 \(standard worldwide kit\), FMM800IKH801 \(custom order\) and FMM800IK9401 \(single-unit package with Micro USB and power cables\). The product page lists End of Life references—confirm stock and part numbers with Teltonika prior to purchase.
-
+If you are evaluating trackers for a Plaspy deployment, the FMM800 is a practical fit when you need OBD II vehicle data, BLE sensor support and remote device management in a compact unit. For more details about Plaspy and how this model can be included in your tracking workflow visit https://www.plaspy.com. Product specifications and availability can change over time so please verify current technical details and ordering information on the manufacturer site https://www.teltonika-gps.com/.

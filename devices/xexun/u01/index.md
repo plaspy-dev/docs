@@ -2,59 +2,60 @@
 slug: /xexun/u01
 id: u01
 sidebar_label: U01
+title: Xexun - U01
 sidebar_class_name: menu_item_tracker
+description: U01 UWB wristwatch for enterprise indoor positioning and vital telemetry compatible with Plaspy for real time location and safety monitoring
+keywords:
+  - Xexun U01
+  - U01 UWB watch
+  - Xexun UWB tracker
+  - U01 Plaspy compatible
+  - indoor positioning watch
+  - high precision UWB tracker
+  - personnel tracking U01
+  - vital telemetry watch
+  - Plaspy compatible tracker
+  - enterprise positioning U01
 ---
+
 # Xexun - U01
 
 ![U01](./tracker.png)
 
-The U01 UWB High-Precision Positioning Watch is a professional-grade positioning tag in a wristwatch form factor designed for enterprise and institutional deployments. Plaspy compatible by design, the U01 delivers centimeter-level indoor positioning when used with UWB anchors and a positioning engine, while streaming vital telemetry — heart rate, blood pressure, SpO2, and activity — to a central management system for real-time tracking and safety monitoring.
+The Xexun U01 is a UWB high precision positioning watch designed as a professional wristwatch style positioning tag for enterprise and institutional deployments. Built to provide centimeter level indoor positioning when used with a network of UWB anchors and a positioning engine, the U01 also streams continuous physiological telemetry such as heart rate, blood pressure and SpO2 along with motion and activity metrics for centralized monitoring.
 
-Built for personnel tracking, attendance, safety and asset management, the U01 combines rugged, IP68-rated protection with low-power hardware and magnetic charging. Its configurable broadcast interval, SOS button, vibration alerts and OTA firmware upgrades make it an effective Plaspy compatible endpoint for sites that need precise location, physiological monitoring and robust event reporting in controlled environments such as factories, hospitals and schools.
+As a Plaspy compatible device by design, the U01 can be incorporated into Plaspy deployments to extend precise indoor location and real time safety data into a single management platform. Its watch form factor, rugged IP68 protection, configurable broadcasts, SOS button and OTA lifecycle management make it suitable as a Plaspy endpoint for personnel tracking, safety workflows and attendance or asset related applications in controlled indoor environments.
 
 ## Key Highlights
 
-- Plaspy compatible UWB wristwatch delivering up to 10 cm positioning accuracy when used with UWB anchors and a positioning server.
-- Real-time telemetry: continuous heart rate, blood pressure and SpO2 monitoring combined with motion/activity and sleep sensing.
-- Enterprise-ready durability: IP68-rated enclosure, operating range −30°C to +60°C, and environmental-grade materials.
-- Practical safety features: SOS emergency alarm via long touch-button press, vibration notifications and low-battery alarms below 20%.
-- Low-power design with a 200 mAh battery, up to 14 days standby and ~2 hours fast charging via magnetic port.
-- Optional NFC and a built-in RFID module enabling bidirectional terminal/system messaging and anchor interactions.
-- Easy lifecycle management with remote OTA firmware upgrades and configurable UWB broadcast intervals \(default 1 s\).
+- Centimeter level indoor positioning with UWB anchors and a positioning server for high precision location tracking.
+- Continuous vital telemetry including heart rate, blood pressure and SpO2 plus basic activity and sleep sensing for safety monitoring.
+- Enterprise grade durability with IP68 protection and environmental tolerance for industrial and institutional settings.
+- Built in safety features such as an SOS button, vibration alerts and configurable broadcast intervals for timely event reporting.
+- Long standby expectations and fast recharge with magnetic charging for convenient field operation and maintenance.
+- Remote device management with OTA firmware updates to simplify lifecycle and configuration management.
 
 ## How It Works with Plaspy
 
-The U01 is intended to operate as part of a UWB positioning system integrated into Plaspy. In a typical deployment, UWB anchors receive U01 broadcasts and send range or time-difference measurements to a positioning engine. Plaspy ingests that positional data plus the U01’s telemetry to provide real-time tracking, historical trajectories, geofencing, alerts and reporting.
+The U01 integrates into Plaspy by supplying high precision positional data from UWB infrastructure alongside continuous telemetry and event reports. Plaspy ingests location and sensor streams from the U01 to present live maps, timelines and alerts that support operational oversight, safety response and historical analysis.
 
-- Real-time location and telemetry updates: Plaspy receives high-precision coordinates \(up to 10 cm\) and physiological data for live dashboards and maps.
-- SOS and event alerts: the touch-button SOS triggers immediate notifications and integrates with Plaspy alarm workflows.
-- Vital signs and activity telemetry: heart rate, blood pressure, SpO2, motion and sleep metrics upload to Plaspy for health and safety monitoring.
-- Device state and battery: low-battery alarms and vibration notification events sent to Plaspy for maintenance and response planning.
-- RFID/NFC messaging: bidirectional terminal/system communication enables secure ID workflows and proximity events inside Plaspy.
+- Real time location and telemetry on Plaspy dashboards for live situational awareness and map visualization.
+- SOS and event alerts routed into Plaspy alarm workflows to notify dispatchers and trigger response procedures.
+- Vital signs and activity data uploaded to Plaspy for health monitoring, trend reporting and incident review.
+- Device status and battery events reported to Plaspy to support maintenance planning and minimize downtime.
+- RFID and NFC proximity events available to Plaspy for access control, check in/out and audit trail workflows.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | UWB positioning broadcasts; built-in RFID module \(2.4 GHz\); optional NFC; magnetic charging/data port |
-| --- | --- |
-| Bands | UWB 3.75–4.25 GHz; RFID 2.4 GHz |
-| Power & Battery | Built-in 200 mAh rechargeable battery; standby up to 14 days; charging time ~2 hours; low-battery alarm \(\<20%\) |
-| Interfaces | Touch button \(SOS\), magnetic charging/data port, vibration motor; omnidirectional antenna |
-| Positioning | UWB-based positioning up to 10 cm accuracy with anchors and positioning server; max unobstructed coverage ~80 m |
-| Bluetooth | N/A \(not specified\) |
-| Remote Management | OTA firmware upgrades supported |
-| Form Factor & Protection | Wristwatch; dimensions 40 × 30 × 10 mm; weight ~40 g; IP68-rated; display: 1-inch low-power OLED |
-| Environmental | Operating: −30°C to +60°C, 10%–90% RH \(non-condensing\) |
-
-## Use Cases
-
-- Personnel tracking and attendance in factories, hospitals, schools and prisons — accurate indoor positioning for compliance and timeliness.
-- Safety monitoring and emergency response — SOS alarms, physiological telemetry and location enable fast incident handling.
-- Patrol and access control — RFID/NFC messaging and geofencing provide audit trails and proximity-based workflows.
-- Asset and workflow optimization — historical trajectories and activity data help optimize routes, reduce dwell times and improve operational efficiency.
+- Personnel tracking and attendance in factories, hospitals, schools and similar institutional environments.
+- Safety monitoring and emergency response where location plus physiological telemetry accelerate incident handling.
+- Patrol, access control and proximity based workflows using built in RFID or NFC interactions.
+- Asset movement and workflow optimization through historical trajectories and activity analysis.
 
 ## Why Choose This Tracker with Plaspy
 
-The U01 delivers a focused solution for organizations that need precise indoor positioning and human telemetry rather than a traditional GPS tracker. As a Plaspy compatible device, it complements GPS-based devices used in fleet management by filling indoor coverage gaps where GNSS cannot deliver reliable results. Its UWB positioning, combined with vital-sign sensors and bidirectional RFID communication, provides a single endpoint for safety, attendance and asset workflows.
+The U01 is well suited to organizations that require precise indoor positioning combined with human telemetry rather than a traditional GNSS based tracker. When paired with Plaspy, the watch delivers a focused solution for staff safety, attendance and proximity workflows inside buildings where GPS is ineffective. Its rugged design, configurable broadcast behavior and OTA support help keep deployments manageable at scale.
 
-Choose the U01 with Plaspy when you require dependable real-time tracking, high-precision location data and integrated physiological telemetry in an easy-to-manage package. While features common to vehicle GPS trackers — like ignition monitoring, immobilizer control or fuel monitoring — are not part of the U01’s design, the watch integrates cleanly into Plaspy deployments alongside vehicle telematics to provide a complete operational picture. With IP68 protection, long standby, OTA updates and configurable broadcast intervals, the U01 is a practical, reliable building block for modern indoor positioning and staff-safety systems.
+While the U01 fills indoor positioning and personnel monitoring roles, it is not positioned as a vehicle GPS tracker and does not replace vehicle telematics for fleet use. Instead, use the U01 with Plaspy to complement GPS based devices and provide a more complete operational picture across indoor and outdoor environments.
 
+To learn more about how Plaspy can use the Xexun U01 in your deployments visit https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current specifications and documentation with the manufacturer at https://www.xexun.com/ before finalizing procurement.

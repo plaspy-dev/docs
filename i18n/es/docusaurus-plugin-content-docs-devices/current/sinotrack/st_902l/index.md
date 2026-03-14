@@ -2,63 +2,60 @@
 slug: /sinotrack/st_902l
 id: st_902l
 sidebar_label: ST-902L
+title: SinoTrack - ST-902L
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS OBD II 4G compacto para autos y vehículos livianos compatible con Plaspy
+keywords:
+  - sinotrack st902l
+  - sinotrack st 902l
+  - rastreador gps ST 902L
+  - ST-902L compatible con Plaspy
+  - rastreador gps OBD II
+  - rastreador vehicular 4G LTE
+  - rastreador UBLOX7020
+  - telemática vehicular
+  - dispositivo de rastreo para flotas
+  - rastreador antirrobo para vehículos
 ---
+
 # SinoTrack - ST-902L
 
 ![ST-902L](./tracker.jpg)
 
-El SinoTrack ST-902L es un compacto rastreador GPS 4G para OBD II diseñado para automóviles y vehículos ligeros. Instalación plug-and-play a través de cualquier puerto OBD de 16 pines estándar, el ST-902L ofrece seguimiento en tiempo real y telemetría del vehículo de forma confiable, equipado con un chip GNSS UBLOX7020, batería de respaldo integrada y soporte para redes 4G LTE y GSM/GPRS. Para gestores de flotas y propietarios que utilizan Plaspy, el ST-902L puede configurarse para reenviar datos de ubicación en tiempo real y alarmas a la plataforma de Plaspy mediante la configuración de la IP y el puerto del servidor del dispositivo, lo que permite una implementación compatible con Plaspy de inmediato sin necesidad de cableado.
+El SinoTrack ST-902L es un rastreador GPS OBD II compacto, plug and play, pensado para autos y vehículos livianos. Diseñado para conectarse en un puerto OBD estándar de 16 pines, el ST-902L ofrece actualizaciones continuas de posición y telemetría del vehículo a través de redes 4G LTE y GSM. El equipo integra un receptor GNSS UBLOX7020 para obtener localizaciones confiables, cuenta con una batería de respaldo interna para operación limitada y detección de manipulación, y permite la configuración por SMS para parámetros de APN y servidor.
 
-Ideal para la gestión de flotas, monitoreo anti-robo y supervisión del conductor, el ST-902L combina una instalación sencilla con funciones avanzadas de alarmas e informes. Utilice una SIM de datos local \(no incluida\) y configure APN y parámetros del servidor mediante SMS o las instrucciones de configuración del fabricante para integrarlo con Plaspy, logrando seguimiento continuo en tiempo real, alertas por geocerca y telemetría basada en eventos.
+Como modelo confirmado compatible con Plaspy, el ST-902L puede configurarse para enviar datos de ubicación en vivo y alarmas a Plaspy estableciendo la IP y el puerto del servidor del dispositivo y suministrando una SIM de datos local. Esa combinación de instalación sencilla y reporte configurable hace que el ST-902L sea una opción práctica para usuarios de Plaspy que buscan despliegue rápido de seguimiento en tiempo real, alertas de geocerca y notificaciones por eventos sin necesidad de modificar el cableado del vehículo.
 
-## Características clave
+## Aspectos principales
 
-- Instalación OBD II plug-and-play — no se requieren cables para incorporar rápidamente el vehículo.
-- Compatible con Plaspy — la configuración del IP/puerto del servidor y la configuración por SMS permiten reenviar datos de seguimiento a Plaspy para seguimiento en tiempo real y gestión de flotas.
-- Rendimiento GNSS preciso con el chip UBLOX7020 y una precisión típica de ubicación de ~10 metros para fijaciones de posición confiables.
-- Conectividad 4G LTE y GSM/GPRS para seguimiento continuo, con SMS como respaldo para configuración y alertas.
-- Batería de respaldo integrada de 150 mAh para operación limitada y detección de manipulación cuando se desconecta la alimentación OBD.
-- Soporte de eventos y alarmas: geocerca, sobrevelocidad y golpes, y notificaciones de batería baja para un monitoreo proactivo del vehículo.
-- Acceso gratuito de por vida a la app SinoTrack PRO y al portal web; admite gestión de cuentas multi-dispositivo y activación sencilla.
+- Factor de forma OBD II plug and play para incorporación rápida de vehículos y tiempo mínimo de instalación.
+- Compatible con Plaspy mediante configuración de IP y puerto del servidor y ajuste por SMS para APN y reportes.
+- Receptor GNSS UBLOX7020 para fijaciones de posición precisas y rendimiento de seguimiento consistente.
+- Conectividad 4G LTE y GSM GPRS para mantener seguimiento continuo a través de redes móviles.
+- Batería de respaldo integrada para operación limitada y detección de manipulación cuando se corta la alimentación OBD.
+- Soporte de eventos y alarmas incluyendo geocerca, exceso de velocidad, impacto y notificaciones de batería baja.
+- Acceso al portal del fabricante y gestión de cuentas multi dispositivo para control centralizado de unidades.
 
 ## Cómo funciona con Plaspy
 
-El ST-902L envía paquetes de ubicación y eventos a través de redes celulares a una IP y puerto de servidor configurables. Para integrarlo con Plaspy, configure la dirección del servidor del dispositivo a su endpoint de ingesta de Plaspy \(el ST-902L admite configuración de IP y puerto del servidor vía SMS\). Una vez apuntado a Plaspy, el dispositivo transmite actualizaciones de posición y alarmas para seguimiento en tiempo real, reproducción histórica e informes de flota.
+La integración del ST-902L con Plaspy se realiza apuntando el dispositivo al endpoint de ingestión de Plaspy mediante la configuración de la dirección del servidor y asegurando que la SIM de datos local y el APN estén correctamente configurados. Una vez dirigido a Plaspy, el ST-902L reenvía actualizaciones de posición y paquetes de eventos para que los vehículos aparezcan en tiempo real en los paneles y reportes de Plaspy.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a través de 4G LTE / GPRS hacia Plaspy.
-- Alertas de geocerca y alarmas por sobrevelocidad y golpes entregadas como eventos inmediatos a los paneles de control y notificaciones de Plaspy.
-- Detección de manipulación y alertas de batería baja activan alarmas en Plaspy cuando se retira la alimentación OBD o cuando caen los niveles de la batería de respaldo.
-- Configuración por SMS para APN, IP y puerto del servidor — útil para el aprovisionamiento inicial y ajustes específicos por país antes de registrarse en Plaspy.
-- Funciona con las funciones de gestión de flotas de Plaspy para despacho, historial de rutas y monitorización de múltiples vehículos una vez que el dispositivo se apunte al servidor de Plaspy.
+- Actualizaciones de ubicación en tiempo real enviadas por redes celulares a Plaspy para monitoreo en vivo.
+- Entrega inmediata de alarmas de geocerca, exceso de velocidad, impacto y manipulación a las notificaciones de Plaspy.
+- Reproducción histórica de ubicaciones y archivos de viajes en Plaspy para análisis de rutas e informes.
+- Provisionamiento por SMS para la configuración de APN e IP del servidor durante la puesta en marcha antes del registro en Plaspy.
+- Aproveche las funciones de flota de Plaspy para agrupar dispositivos, supervisar múltiples vehículos y mantener supervisión operativa.
 
-## Visión general técnica
+## Casos de uso típicos
 
-| Fabricante y modelo | SinoTrack ST-902L |
-| --- | --- |
-| Conectividad | 4G LTE y GSM/GPRS \(soporta informes TCP/UDP y comandos por SMS\) |
-| Bandas | No se especifican explícitamente en el resumen del producto; admite redes 4G y GSM comunes — consulte al fabricante para variantes regionales de bandas |
-| Alimentación y batería | Alimentado a través del puerto OBD II del vehículo; batería de respaldo integrada de 150 mAh / 3.7 V para operación limitada y detección de manipulación |
-| Interfaces | Conector OBD II estándar de 16 pines; configuración por SMS para APN, IP/PUERTO del servidor y comandos de activación; no se listan I/O cableados separados |
-| GNSS | Chip UBLOX7020; sensibilidad -159 dB; precisión típica de ubicación ~10 metros \(2D RMS\); precisión de sincronización de tiempo ~1 microsegundo |
-| Bluetooth | No se reporta soporte de sensores Bluetooth ni BLE para este modelo |
-| Gestión remota | Compatible con la app móvil SinoTrack PRO y el portal web \(servidor VIP.SINOTRACK, puerto 8090\); configuración remota por SMS. FOTA no especificado. |
-| Ambiental | Temperatura de funcionamiento -20° a 55°C; humedad 5% a 95% sin condensación |
-| Factor de forma | Dispositivo compacto enchufable OBD II para coches y vehículos ligeros |
-| Garantía | Garantía del fabricante de 2 años |
-| SIM y cumplimiento | Tarjeta SIM no incluida — el cliente debe proporcionar una SIM de datos local con APN correcto; algunos países requieren registro de IMEI \(documentos del fabricante indican verificación/cambio de IMEI vía SMS cuando es compatible\) |
-
-## Casos de uso
-
-- Gestión de flotas para vehículos ligeros y taxis — instalación rápida de OBD II para un despliegue homogéneo de la flota y monitorización centralizada con Plaspy.
-- Alertas anti-robo y de manipulación — detección de manipulación y eventos de batería de respaldo notefican a los responsables a través de Plaspy en tiempo real.
-- Comportamiento y seguridad del conductor — alertas de sobrevelocidad y golpes ayudan a detectar conducción riesgosa y respaldar procesos de coaching del conductor.
-- Seguimiento de vehículos de alquiler y leasing — la instalación plug-and-play OBD II permite activación rápida y verificaciones de devolución con historial de ubicación.
-- Cumplimiento simple y registro de ubicaciones — use Plaspy para archivar viajes, vigilar rutas y generar informes a partir de la telemetría del dispositivo.
+- Gestión de flotas de vehículos livianos y taxis donde la instalación rápida en OBD II acelera el despliegue.
+- Monitoreo antirrobo con detección de manipulación y alertas de batería de respaldo derivadas a Plaspy.
+- Programas de supervisión y seguridad de conductores que usan eventos de exceso de velocidad e impacto para retroalimentación y coaching.
+- Rastreo de vehículos de renta y leasing para activación rápida y registro de historial de ubicaciones durante el periodo de servicio.
+- Cumplimiento y registro de trayectos donde los reportes centralizados de Plaspy archivan el movimiento de vehículos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El SinoTrack ST-902L ofrece un equilibrio práctico entre precisión, sencillez y compatibilidad para usuarios de Plaspy. Su diseño OBD II plug-and-play minimiza el tiempo de instalación y los costos de despliegue de la flota, mientras que el rendimiento GNSS UBLOX7020 garantiza fijaciones de posición fiables para el seguimiento en tiempo real. Dado que el dispositivo admite configuración configurable de IP y puerto del servidor, además de la puesta en marcha APN por SMS, puedes dirigir los datos del dispositivo a Plaspy de forma rápida y segura sin hardware adicional.
+El ST-902L ofrece un equilibrio entre simplicidad y seguimiento confiable, ideal para organizaciones que requieren despliegues rápidos por OBD II. Su diseño plug and play reduce la carga de instalación, mientras que el GNSS UBLOX7020 y la conectividad celular brindan lo esencial para mantener la visibilidad continua de la flota. Para usuarios de Plaspy, la capacidad de configurar parámetros de servidor y APN por SMS o según las indicaciones del fabricante facilita la integración y optimiza la operación.
 
-Elija el ST-902L con Plaspy cuando necesite un rastreador GPS compacto y confiable para automóviles y vehículos ligeros que admita telemetría, geocercas y eventos de alarma, y detección de manipulación, todo respaldado por una garantía de dos años y acceso a la plataforma proporcionada por el fabricante para una gestión de flotas y monitoreo anti-robo simplificados. Para la activación e integración con Plaspy, siga los comandos de configuración por SMS y el manual de usuario para establecer APN y los detalles del servidor antes de registrar los dispositivos en su cuenta de Plaspy.
-
+Si necesita un rastreador vehicular compacto que pueda apuntarse rápidamente a Plaspy para monitoreo en vivo, el SinoTrack ST-902L es una opción práctica para autos y vehículos livianos. Obtenga más información sobre Plaspy y cómo se usan los dispositivos compatibles en la plataforma en https://www.plaspy.com. Las especificaciones del producto y la disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales y la compatibilidad regional en el sitio del fabricante https://www.sinotrackgps.com/ antes de la compra o el despliegue.

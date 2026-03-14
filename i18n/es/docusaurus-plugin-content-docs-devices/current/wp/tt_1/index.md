@@ -2,29 +2,60 @@
 slug: /wp/tt_1
 id: tt_1
 sidebar_label: TT-1
+title: WP - TT-1
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS GSM compacto y sensible para remolques con modos de seguimiento variados y carcasa IP65 compatible con Plaspy
+keywords:
+  - WP TT-1
+  - Rastreador GPS WP TT-1
+  - TT-1 Plaspy
+  - rastreador para remolques
+  - rastreo de activos
+  - rastreo de flotas
+  - rastreador GPS GSM
+  - GPS de alta sensibilidad
+  - rastreador con geovallas
+  - rastreador de larga autonomía
 ---
+
 # WP - TT-1
 
 ![TT-1](./logo..jpg)
 
-El TT-1 de WP es un dispositivo de seguimiento de remolques GPS/GSM/GPRS de alto rendimiento y confiable diseñado para la gestión de activos y flotas. Basándose en las características de los modelos VT10/VT200, el TT-1 ofrece servicios de localización diversificados con su GPS de alta sensibilidad, larga duración de la batería y consideración para entornos de operación al aire libre.
+El TT-1 de WP es un rastreador GPS GSM GPRS de alto rendimiento pensado para el seguimiento de remolques y la gestión de activos y flotas. Combina una carcasa compacta y fácil de ocultar con un receptor GPS de alta sensibilidad y un chasis robusto con clasificación IP65 para operar en entornos exteriores. Este equipo continúa la línea de modelos WP como el VT10 y el VT200, ofreciendo servicios variados de localización y un largo tiempo de operación, adecuado para remolques y otros activos en transporte.
 
-Con dimensiones de 190 mm x 115 mm x 50 mm, el TT-1 cuenta con un GPS de 66 canales con una alta sensibilidad de -165 dBm y compatibilidad GSM en frecuencias de 850/900/1800/1900 MHz. Se alimenta con una fuente de CC de 8-35V e incluye una batería de litio recargable de 10.4Ah y 3.7V como fuente de alimentación de respaldo. El dispositivo consume 60 mA a 12V CC en modo activo de GPS y GSM, 20 mA a 12V CC en modo de ahorro de energía y 1 mA a 3.7V CC cuando tanto el GPS como el GSM están apagados.
+Como dispositivo compatible con Plaspy, el TT-1 integra esas capacidades de rastreo dentro de una plataforma de gestión de flotas que prioriza la visibilidad y el control operativo. Sus múltiples modos de seguimiento, control de geovallas, manejo de roaming y reportes de kilometraje, nivel de batería, tiempo en ralentí y alarmas de emergencia lo convierten en una opción práctica para usuarios de Plaspy que requieren seguimiento configurable, alertas y reportes históricos para remolques y activos móviles.
 
-El TT-1 viene con una variedad de características de seguimiento, que incluyen modo de intervalo de tiempo, modo de intervalo de distancia, modo inteligente \(que combina condiciones de tiempo, distancia e ignición\), modo de seguimiento en reposo y modo de nivel bajo de batería. También ofrece registro de viajes para más de 100,000 puntos de referencia, control de geovallado, control de roaming, informes de kilometraje, informes de nivel de batería, informes de ralentí, alarmas de emergencia, alarmas de exceso de velocidad, alarmas de remolque, alarmas de bajo nivel de energía o pérdida de energía e indicadores de nivel de batería en cada informe de posición.
+## Características principales
 
-Una de las características destacadas del TT-1 es su excelente gestión de energía. Con una vida útil de la batería de respaldo de más de 60 días en el modelo VT200 y 90 días en el modelo VT10, el dispositivo puede funcionar con cuatro informes de posición al día sin ningún cargo adicional. También admite comunicación GSM/GPRS simultánea, ofrece firmware personalizado y permite la configuración y actualización de firmware a través del aire.
+- Receptor GPS de alta sensibilidad diseñado para mejorar la adquisición de posición en entornos variados
+- Soporte GSM cuatribanda para amplia cobertura celular en muchas regiones
+- Múltiples modos de seguimiento: intervalo por tiempo, intervalo por distancia, modo inteligente combinado y seguimiento de inactividad
+- Control de geovallas y control de roaming para monitoreo de perímetros y movimientos
+- Reportes de kilometraje, nivel de batería, tiempo en ralentí y alarmas de emergencia para apoyar la visibilidad operativa
+- Carcasa robusta IP65 y rango de temperatura de operación adecuado para uso exterior
+- Formato compacto de 190 mm x 115 mm x 50 mm para facilitar su ocultamiento en remolques y activos
 
-### Características destacadas:
+## Cómo funciona con Plaspy
 
-- GPS de alta sensibilidad de 66 canales
-- Compatibilidad GSM en frecuencias de 850/900/1800/1900 MHz
-- Dimensiones de 190 mm x 115 mm x 50 mm
-- Batería de litio recargable de 10.4Ah y 3.7V como fuente de alimentación de respaldo
-- Consumo de energía bajo en diferentes modos de operación
-- Varios modos de seguimiento y alarmas
-- Registro de viajes para más de 100,000 puntos de referencia
-- Control de geovallado y roaming
-- Actualizaciones de firmware y configuración a través del aire
+Al conectarse a Plaspy, el TT-1 envía actualizaciones de posición y estado que la plataforma presenta como ubicaciones en vivo, alertas y reportes. Plaspy puede aprovechar los modos y reportes configurables del equipo para reducir ruido de datos, activar notificaciones y generar resúmenes operativos para los responsables de flota.
 
+- Mostrar la posición en tiempo real y el historial de recorrido reciente de cada activo equipado con TT-1 dentro de Plaspy
+- Ajustar los modos de seguimiento del dispositivo a los intervalos de reporte de Plaspy para equilibrar visibilidad y volumen de datos
+- Activar alertas de geovalla y notificaciones de roaming según la configuración de perímetros del TT-1
+- Recibir reportes de kilometraje, tiempo en ralentí, nivel de batería y alarmas de emergencia en los tableros de Plaspy
+- Utilizar la reproducción histórica y los reportes exportables para analizar viajes y utilización a lo largo del tiempo
+
+## Casos de uso típicos
+
+- Visibilidad de remolques para operadores logísticos y de transporte que requieren rastreadores ocultos y resistentes
+- Gestión de activos de alto valor que operan en entornos exteriores
+- Flotas de larga distancia y regionales que se benefician de intervalos de seguimiento configurables y control de roaming
+- Flotas de alquiler y renta de equipos donde los reportes de kilometraje y tiempo en ralentí apoyan la facturación y el mantenimiento
+- Alertas de emergencia y supervisión de activos dispersos en condiciones operativas mixtas
+
+## Por qué elegir este rastreador con Plaspy
+
+El TT-1 ofrece un conjunto práctico de funciones para organizaciones que necesitan seguimiento fiable de remolques y activos, combinando reportes configurables con hardware resistente. Sus múltiples modos de seguimiento y opciones de reporte facilitan ajustar el comportamiento del equipo a las necesidades del negocio, mientras que la carcasa compacta e IP65 permite su instalación en exteriores sobre remolques y otros activos móviles.
+
+Usado junto con Plaspy, el TT-1 puede proporcionar la visibilidad, las alertas y los datos históricos que los equipos operativos necesitan para gestionar flotas y activos de forma eficiente. Para obtener más información sobre Plaspy y su compatibilidad con dispositivos como el TT-1 visite https://www.plaspy.com. Las especificaciones del producto, su disponibilidad y los datos del fabricante pueden cambiar con el tiempo; verifique la información técnica y la compatibilidad actual con WP en http://www.wondeproud.com/.

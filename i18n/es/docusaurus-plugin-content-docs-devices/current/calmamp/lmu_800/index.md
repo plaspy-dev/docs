@@ -2,32 +2,60 @@
 slug: /calmamp/lmu_800
 id: lmu_800
 sidebar_label: LMU-800
+title: CalmAmp - LMU-800
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular compacto con batería de respaldo y alertas programables compatible con Plaspy para visibilidad de flotas y eventos por movimiento
+keywords:
+  - CalmAmp LMU-800
+  - LMU 800
+  - rastreador LMU-800
+  - rastreador vehicular
+  - seguimiento de flotas
+  - recuperación de vehículos robados
+  - seguimiento de vehículos de renta
+  - rastreador con batería de respaldo
+  - rastreador con sensor de movimiento
+  - compatible con Plaspy
 ---
+
 # CalmAmp - LMU-800
 
 ![LMU-800](./logo.jpg)
 
-La CalmAmp LMU-800 es un rastreador GPS de vehículos que ofrece una solución económica y confiable para diversas aplicaciones, como seguimiento de vehículos robados, gestión de flotas, financiamiento de vehículos y alquiler de automóviles. Este dispositivo cuenta con una batería de reserva interna de 200 mAh, lo que lo convierte en una opción ideal cuando se requiere una fuente de energía adicional.
+El CalmAmp LMU-800 es un dispositivo de rastreo vehicular compacto y económico, pensado para una instalación sencilla en automóviles. Diseñado para sistemas eléctricos móviles de 12 y 24 voltios, está orientado a aplicaciones como recuperación de vehículos robados, financiamiento vehicular y flotas de renta, donde la localización confiable y una fuente de energía de respaldo son fundamentales. El LMU-800 combina un tamaño reducido con buen desempeño GPS y funciones que buscan mantener la continuidad del rastreo incluso cuando se interrumpe la energía del vehículo.
 
-La LMU-800 de CalmAmp destaca por su tamaño compacto y su rendimiento superior en términos de GPS. Además, cuenta con modos de bajo consumo de energía ultra sueño y un acelerómetro de 3 ejes para detectar el movimiento del vehículo. También ofrece tres entradas y tres salidas \(I/O\), lo que permite una mayor flexibilidad en la configuración del dispositivo.
+Como modelo compatible con Plaspy, el LMU-800 puede enviar actualizaciones de ubicación e información de eventos a Plaspy para la supervisión de flotas y la gestión operativa. Su batería interna de respaldo, la capacidad de detección de movimiento y el generador de eventos programable lo convierten en una opción práctica para organizaciones que requieren visibilidad persistente y alertas basadas en reglas. Integrar el LMU-800 con Plaspy permite a los equipos aprovechar los eventos del dispositivo y los datos de posición en paneles, alertas y flujos de trabajo de informes.
 
-Este rastreador de vehículos utiliza tecnología GPS de alta sensibilidad y se puede instalar en vehículos de 12 o 24 voltios. Gracias a sus antenas internas de alta calidad, no es necesario utilizar antenas externas con cable, lo que facilita su instalación en cualquier parte del vehículo de manera rápida y económica. Los mensajes se transmiten a través de redes celulares GSM/GPRS/CDMA 1xRTT/HSPA utilizando SMS o mensajes UDP, lo que garantiza una comunicación confiable entre el dispositivo y los servidores de aplicaciones.
+## Aspectos clave
 
-La LMU-800 de CalmAmp ofrece una gran flexibilidad gracias a su motor de alertas programable \(PEG\), que permite supervisar las condiciones externas y establecer reglas basadas en excepciones definidas por el cliente. Esto significa que el dispositivo puede responder instantáneamente a condiciones predefinidas relacionadas con el tiempo, la fecha, el movimiento, la ubicación, las zonas geográficas, las entradas y otros eventos.
+- Factor de forma compacto, ideal para instalación discreta y despliegues con espacio limitado
+- Batería de respaldo interna de 200 mAh para mantener el reporte de ubicación durante cortes de energía del vehículo
+- Compatible con sistemas eléctricos automotrices de 12 V y 24 V
+- Acelerómetro de 3 ejes para detección de movimiento y activación de seguimiento por evento
+- PEG generador de eventos programable para alertas y excepciones según condiciones configurables
+- Capacidades PULS para gestión remota, incluida la configuración y actualización de firmware por aire
+- Opción rentable dirigida a casos de uso en flotas y seguimiento de activos
 
-Además, la LMU-800 utiliza el sistema de mantenimiento y gestión de CalmAmp, Puls, que permite la configuración de parámetros y reglas de PEG a través de actualizaciones over-the-air. Esto facilita la configuración y las actualizaciones automáticas posteriores a la instalación, lo que permite monitorear el estado de salud de la unidad de flotas de los clientes y detectar problemas antes de que se conviertan en costosos.
+## Cómo funciona con Plaspy
 
-### Características destacadas:
+Al integrarse con Plaspy, el LMU-800 aporta datos de posición y eventos que Plaspy puede mostrar, analizar y utilizar en sus flujos operativos. Plaspy puede incorporar los eventos generados por el dispositivo y el historial de ubicaciones para mejorar la visibilidad de la flota y la toma de decisiones operativas.
 
-- Batería de reserva interna de 200 mAh
-- Rendimiento superior en GPS
-- Modos de bajo consumo de energía ultra sueño
-- Acelerómetro de 3 ejes para detectar el movimiento
-- Tres entradas y tres salidas \(I/O\)
-- Tecnología GPS de alta sensibilidad
-- Antenas internas de alta calidad
-- Comunicación a través de redes celulares GSM/GPRS/CDMA 1xRTT/HSPA
-- Motor de alertas programable \(PEG\)
-- Sistema de mantenimiento y gestión \(Puls\) para configuración y actualizaciones over-the-air
+- Visibilidad en tiempo real y historial de ubicaciones en mapas y vistas de línea de tiempo de Plaspy
+- Alertas basadas en eventos en Plaspy activadas por condiciones del dispositivo como movimiento o pérdida de energía
+- Informes consolidados y datos exportables para análisis de rendimiento y actividad de la flota
+- Uso de reglas de excepción generadas por el dispositivo para reducir falsos positivos y focalizar la atención
+- Menor carga de mantenimiento cuando la configuración remota y las actualizaciones de firmware están disponibles junto con la monitorización de la flota
 
+## Casos de uso típicos
+
+- Recuperación de vehículos robados donde el seguimiento de respaldo durante la pérdida de energía es crítico
+- Monitoreo para financiamiento y recuperación de vehículos para mantener visibilidad continua de la ubicación
+- Flotas de renta que requieren rastreadores compactos con reportes basados en movimiento
+- Supervisión de vehículos de empresa para seguimiento operativo y reportes de utilización
+- Cualquier programa de flotas o activos móviles que se beneficie de alertas programables y gestión remota de dispositivos
+
+## Por qué elegir este rastreador con Plaspy
+
+El LMU-800 combina un diseño de hardware práctico con funciones que responden a preocupaciones comunes de las flotas: batería de respaldo para continuidad, detección de movimiento para identificar actividad y un motor de alertas programable para reglas a medida. Estas capacidades se alinean bien con los flujos de trabajo de Plaspy, que priorizan alertas oportunas, precisión en la ubicación y supervisión eficiente de la flota.
+
+Optar por el LMU-800 junto con Plaspy puede ayudar a reducir el mantenimiento en sitio gracias a las opciones de gestión remota y permitir una supervisión más precisa y basada en eventos para escenarios de recuperación, renta y financiamiento. Dado que las características del producto y la disponibilidad pueden cambiar, verifique las especificaciones y la compatibilidad más recientes en la documentación del fabricante antes de la compra. Para obtener más información sobre Plaspy y cómo puede funcionar con rastreadores compatibles como el LMU-800 visite https://www.plaspy.com y confirme los detalles técnicos actuales en el sitio del fabricante http://www.calamp.com/.

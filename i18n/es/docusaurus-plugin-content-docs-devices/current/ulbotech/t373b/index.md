@@ -2,67 +2,61 @@
 slug: /ulbotech/t373b
 id: t373b
 sidebar_label: T373B
+title: Ulbotech - T373B
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD II Ulbotech T373B plug and play compatible con Plaspy para gestión de flotas telemetría vehicular y antirrobo
+keywords:
+  - Ulbotech T373B
+  - rastreador GPS Ulbotech T373B
+  - T373B compatible con Plaspy
+  - rastreador Ulbotech
+  - rastreador OBD II
+  - rastreador compatible con Plaspy
+  - telemetría vehicular
+  - dispositivo de seguimiento de flotas
+  - antirrobo GPS
+  - telemática de comportamiento del conductor
 ---
+
 # Ulbotech - T373B
 
 ![T373B](./tracker.jpg)
 
-El T373B es un rastreador GPS OBD II compatible con Plaspy diseñado para monitorización de vehículos plug-and-play. Construido alrededor de un módem celular Telit xE910 y un módulo GNSS u-blox MAX-7, el T373B ofrece seguimiento en tiempo real, telemetría y datos de comportamiento del conductor fiables a través de redes GSM/WCDMA, además de Bluetooth 4.0 LE para extensión y configuración local del dispositivo.
+El Ulbotech T373B es un rastreador GPS OBD II plug and play diseñado para la monitorización de vehículos y la gestión de flotas. Basado en un módem celular Telit xE910 y un módulo GNSS u blox MAX 7, el T373B ofrece ubicación en tiempo real y telemetría vehicular mediante una unidad compacta que se conecta al puerto OBD II del vehículo. Entre las funciones descritas para este modelo se incluyen el reporte de diagnóstico a bordo, detección de eventos de comportamiento del conductor, una salida para inmovilizador y Bluetooth 4.0 LE para extensiones locales y configuración.
 
-El compacto T373B se conecta directamente al puerto OBD II del vehículo para ofrecer gestión de flotas, antirrobo y monitorización de combustible sin instalaciones complejas. Con diagnósticos integrados \(OBDII, SAE J1939, J1708/J1587\), alertas DTC, una salida digital de inmovilizador y soporte para actualizaciones de firmware por aire, este rastreador compatible con Plaspy está preparado para despliegues que requieren posicionamiento preciso, tiempo de adquisición rápida y telemetría vehicular enriquecida.
+Como dispositivo compatible con Plaspy, el T373B puede transmitir posiciones GPS, datos de diagnóstico y eventos a la plataforma Plaspy para facilitar la visibilidad de la flota, alertas e informes. Plaspy puede utilizar la ubicación del rastreador, los perfiles de viaje, las alertas DTC y el control del inmovilizador para brindarle supervisión operativa y gestión remota desde un único panel, lo que hace del T373B una opción práctica para despliegues que requieren tiempo rápido hasta la primera fijación y telemetría vehicular completa.
 
-## Aspectos Clave
+## Características principales
 
-- Rastreador GPS OBD II plug-and-play compatible con Plaspy para un despliegue rápido de la gestión de flotas.
-- Seguimiento en tiempo real mediante u-blox MAX-7 \(GPS + GLONASS\) con AssistNow A-GPS para un TTFF rápido incluso en instalaciones ocultas.
-- Módem celular Telit xE910 que soporta amplias bandas GSM/WCDMA/4G compatibles para una conectividad fiable.
-- Telemetría integral del vehículo: RPM, velocidad, ECT, nivel de combustible y consumo de combustible mediante OBDII y CANBUS.
-- Acelerómetro interno de 3 ejes y ocho eventos de comportamiento de la conducción para análisis del comportamiento del conductor y monitorización del combustible.
-- Inmovilizador antirrobo \(corte de motor\) con salida digital, más monitorización DTC en tiempo real y alarmas.
-- Bluetooth 4.0 LE para emparejamiento de dispositivos móviles, extensión de funciones y configuración local sencilla.
-- Soporte FOTA vía GPRS/WCDMA y micro USB para gestión remota y segura del firmware.
+- Factor de forma OBD II plug and play para conexión rápida al vehículo y despliegue ágil.
+- Seguimiento en tiempo real con un módulo GNSS u blox MAX 7 para actualizaciones de posición confiables.
+- Módem celular integrado Telit xE910 para conectividad de datos en áreas extensas.
+- Diagnóstico a bordo e informes DTC para visibilizar el estado del motor y del vehículo.
+- Detección de comportamiento del conductor y reportes de eventos basados en acelerómetro para análisis de seguridad y coaching.
+- Salida digital para inmovilizador que permite corte remoto del motor y respuesta antirrobo.
+- Bluetooth 4.0 LE para configuración local, emparejamiento móvil y extensión con accesorios.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el T373B transmite la ubicación del vehículo, los diagnósticos a bordo y alertas basadas en eventos, de modo que los gestores de flotas y operadores reciben telemetría usable y seguimiento en tiempo real. Plaspy aprovecha las posiciones GPS/GLONASS del rastreador, los perfiles de viaje, el estado de DTC y el control del inmovilizador para ofrecer una experiencia completa de gestión de flotas: visibilidad, seguridad y control remoto desde un único tablero.
+Al integrarse con Plaspy, el T373B reenvía ubicación, diagnósticos y alertas basadas en eventos para que los equipos operativos reciban telemetría accionable junto con seguimiento en mapa e informes. Plaspy ingiere los flujos del equipo y los alinea con los flujos de trabajo de la flota para proporcionar conciencia situacional, disparadores de mantenimiento e información sobre el desempeño del conductor.
 
-- Actualizaciones en tiempo real de ubicación y telemetría \(posición GPS/GLONASS, velocidad, rumbo\) para un seguimiento continuo del vehículo.
-- Diagnóstico a bordo e informes DTC \(RPM, ECT, nivel de combustible, consumo\) para respaldar el monitoreo de combustible y alertas de mantenimiento.
-- Corte de encendido y motor \(inmovilizador\) mediante salida digital para acciones anti-robo y inmovilización remota.
-- Eventos de comportamiento del conductor \(frenadas bruscas, aceleración, toma de curvas, etc.\) transmitidos a Plaspy para puntuación y coaching del conductor.
-- Conexiones Bluetooth 4.0 LE para configuración desde móvil, emparejamiento de sensores y extensiones de funciones locales.
+- Actualizaciones continuas de posición y movimiento para soportar seguimiento en vivo y reproducción de recorridos.
+- Entrega de datos OBD y DTC para habilitar alertas de mantenimiento y reportes relacionados con combustible.
+- Control y reporte de estado del inmovilizador para flujos antirrobo y acciones remotas.
+- Eventos de comportamiento del conductor, como frenadas bruscas y aceleraciones rápidas, para paneles de seguridad y evaluación de desempeño.
+- Conexiones locales via Bluetooth para configuración in situ y emparejamiento de accesorios.
+- Soporte para actualizaciones de firmware remotas que mantienen los dispositivos al día y reducen el trabajo de mantenimiento en campo.
 
-## Vista Técnica
+## Casos de uso típicos
 
-| Modelo | T373B \(rastreador GPS OBD II\) |
-| --- | --- |
-| Conectividad Celular | Módem de la familia Telit xE910 — GSM/WCDMA \(bandas 2G/3G/4G amplias compatibles según el módulo\) |
-| Bandas | GSM 850/900/1800/1900; WCDMA 800/850/900/1700/1900/2100 MHz \(HSPA/WCDMA velocidades de datos soportadas por el módulo\) |
-| GNSS | u-blox MAX-7 \(GPS + GLONASS\), 56 canales; precisión horizontal ~2.0–2.5 m; TTFF Frío ~30 s, Tibio ~28 s, Caliente ~1 s, Asistido ~5 s |
-| Antenas | Antena GPS cerámica de alta ganancia interna 25 mm x 25 mm; antena GSM/WCDMA interna; módulo BLE interno |
-| Bluetooth | Bluetooth 4.0 Low Energy \(BLE\) para conectividad con dispositivos móviles y soporte de sensores |
-| Interfaces | Conector OBD II J1962; ranura micro USIM; puerto Micro USB para configuración/actualización/debug; LEDs indicadores \(GSM/GPS/OBD/Bluetooth\) |
-| Entradas / Salidas | Una salida digital para corte de motor \(inmovilizador\); admite reporte de encendido/estado vía OBD II |
-| Protocolos de Vehículo | Todos los protocolos OBDII, SAE J1939 CANBUS, SAE J1708/J1587 |
-| Alimentación y Batería | Rango de tensión de funcionamiento 8–32V DC; batería de respaldo Li-Polymer interna 3.7V 180mAh; consumo ~70 mA en activo, ~10 mA en reposo, máximo \<250 mA |
-| Memoria | 8M a bordo \(~15,000 registros\) |
-| Ambiental | Temperatura de operación -30°C a +80°C \(sin batería\); almacenamiento -40°C a +85°C |
-| Firmware y Gestión | Actualizaciones FOTA vía GPRS/WCDMA desde servidor FTP; identificación automática de APN y zona horaria |
-| Forma y Peso | 50 × 50 × 23 mm \(excluido el conector J1962\); peso ~50 g |
-| Accesorios | Estándar: cable Micro USB. Opcional: cable OBD T, cable OBD 1/2, cable OBD Y, módulo externo de inmovilizador |
+- Gestión de flotas de vehículos de reparto y comerciales que requieren seguimiento en vivo y telemetría vehicular.
+- Flujos de trabajo de antirrobo y recuperación que combinan control de inmovilizador con alertas en tiempo real.
+- Telemática para alquileres y seguros, con captura de kilometraje, reportes DTC y perfilado de conductores.
+- Asistencia en carretera y recuperación de activos donde la ubicación rápida y el estado del vehículo aceleran la respuesta.
+- Programas de coaching y cumplimiento para conductores que dependen de la detección automática de eventos y resúmenes de viaje.
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flota: rastreo GPS continuo, telemetría de conducta del conductor y monitorización de combustible para una mayor eficiencia operativa.
-- Antirrobo e inmovilización: corte remoto del motor mediante la salida digital, combinado con alertas en tiempo real para respuesta ante vehículos robados.
-- Telemática de alquiler y seguros: monitoreo de DTC, kilometraje y perfil del conductor para respaldar seguros basados en el riesgo y verificaciones de devolución de alquiler.
-- Asistencia en carretera y recuperación de activos: ubicación rápida e informe del estado del vehículo para coordinar ayuda y reducir el tiempo de inactividad.
-- Coaching y cumplimiento del conductor: detección automática de eventos bruscos y resúmenes de viaje para mejorar la seguridad y reducir el consumo de combustible.
+El T373B ofrece un conjunto equilibrado de funciones para organizaciones que desean una solución OBD II plug and play integrada en una plataforma de flota en la nube. Su combinación de posicionamiento GNSS, conectividad celular, diagnósticos vehiculares y salida para inmovilizador lo hace adecuado para operadores que priorizan visibilidad en tiempo real, detección de mantenimiento y controles antirrobo. El acceso local por Bluetooth y el soporte para actualizaciones de firmware remotas aportan opciones prácticas para la configuración y la gestión del ciclo de vida del dispositivo.
 
-## Por qué Elegir Este Rastreador con Plaspy
-
-El T373B ofrece un equilibrio sólido entre posicionamiento preciso, telemetría del vehículo y controles de anti-robo integrados en un formato OBD II simple que se integra sin problemas con Plaspy. Su GNSS u-blox MAX-7 y AssistNow A-GPS proporcionan un tiempo de adquisición de posición rápido incluso cuando la unidad está instalada en ubicaciones poco visibles, mientras que el módem Telit xE910 admite una amplia cobertura de bandas celulares para uplinks de datos fiables. Para gestores de flotas y proveedores de servicios centrados en el seguimiento en tiempo real, monitorización de combustible, alertas DTC y análisis del comportamiento del conductor, el T373B ofrece la telemetría y las interfaces de control remoto \(salida de inmovilizador, configuración BLE, FOTA\) necesarias para escalar soluciones de forma segura y eficiente.
-
-Elegir el T373B como rastreador compatible con Plaspy significa despliegues más rápidos con instalación plug-and-play vía OBD II, datos vehiculares enriquecidos a partir de los protocolos CAN/OBD y mantenimiento remoto mediante FOTA. La combinación de precisión GNSS, sensores Bluetooth integrados y diagnósticos a bordo lo convierten en una opción práctica para gestión de flotas, telemática de seguros, operaciones de alquiler y protección anti-robo donde el seguimiento en tiempo real fiable y la telemetría accionable son esenciales.
-
+Para equipos que evalúan hardware compatible con Plaspy, el T373B representa una alternativa pragmática cuando la rapidez de despliegue, la telemetría robusta y la capacidad antirrobo son prioridades. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time so please verify current specifications on the manufacturer's official website http://www.ulbotech.com/.

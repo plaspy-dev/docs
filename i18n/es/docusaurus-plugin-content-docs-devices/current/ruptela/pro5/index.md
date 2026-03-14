@@ -2,63 +2,61 @@
 slug: /ruptela/pro5
 id: pro5
 sidebar_label: Pro5
+title: Ruptela - Pro5
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS resistente para vehículos pesados compatible con Plaspy para localización en tiempo real y telemática de flotas
+keywords:
+  - Ruptela Pro5
+  - rastreador GPS Pro5
+  - Ruptela Pro5 Plaspy
+  - seguimiento de flotas Pro5
+  - rastreador para vehículos pesados
+  - rastreador LTE M
+  - telemática vehicular
+  - rastreador datos CAN
+  - rastreador BLE 5.1
+  - rastreador Ruptela
 ---
+
 # Ruptela - Pro5
 
 ![Pro5](./tracker.png)
 
-El Pro5 de Ruptela es un rastreador GPS de grado profesional diseñado específicamente para vehículos pesados — camiones, autobuses y maquinaria especializada — y es totalmente compatible con Plaspy para telemática de flotas sin fisuras. Combinando LTE‑M con retroceso a 2G, un módulo GNSS premium de U‑blox y BLE 5.1, el Pro5 ofrece seguimiento en tiempo real fiable, telemetría detallada del vehículo y gestión remota segura necesaria para la gestión de flotas moderna y flujos de anti‑robo.
+El Pro5 de Ruptela es un rastreador GPS de nivel profesional diseñado para vehículos pesados como camiones, autobuses y maquinaria especializada. Desarrollado para entornos de flota exigentes, combina conectividad celular moderna con un receptor GNSS de alta gama y soporte para accesorios inalámbricos, entregando actualizaciones continuas de posición, telemetría del vehículo y registro de eventos en el dispositivo necesarios para operaciones de flota y workflows antirrobo.
 
-Diseñado para instalaciones exigentes, el Pro5 integra dos interfaces CAN, múltiples E/S analógicas/digitales, puertos seriales y una batería interna de respaldo en una carcasa compacta sin tornillos. Cuando se empareja con Plaspy, el Pro5 se convierte en una solución llave en mano para la ubicación en vivo del vehículo, monitoreo de combustible, identificación del conductor y detección avanzada de eventos — todo gestionable a escala mediante aprovisionamiento remoto y actualizaciones de firmware.
+Como dispositivo totalmente compatible con Plaspy, el Pro5 puede integrarse en Plaspy para supervisión y gestión unificada de flotas. Sus interfaces orientadas al vehículo y sus capacidades de telemetría lo convierten en una opción adecuada cuando los operadores requieren seguimiento en vivo fiable, generación de reportes y gestión remota de dispositivos a escala a través de la plataforma Plaspy.
 
-## Aspectos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy para un seguimiento en tiempo real preciso y gestión de flota en vehículos pesados.
-- Conectividad LTE‑M con retroceso a 2G para una amplia cobertura celular y entrega fiable de telemetría.
-- Dos puertos CAN e interfaces serial para leer datos CAN HCV \(combustible, EBS, tacógrafo y diagnósticos\).
-- BLE 5.1 y soporte para accesorios de sensores, identificación del conductor y periféricos inalámbricos.
-- Detección de manipulación e interferencia; batería de respaldo de 1050 mAh para mayor resiliencia ante el robo.
-- Múltiples E/S \(4 DIN, 4 AIN, 4 DOUT, 1‑wire\) para integrar entradas de puertas, alarmas y sensores, y salidas de control \(integración de inmovilizador cuando el interfaz del vehículo lo permita\).
-- Almacenamiento interno \(8 MB\) con ranura para tarjeta SD y comunicaciones seguras \(TLS v1.2\) para telemetría y registro.
-- Opciones de firmware/configuración FOTA, SMS y USB; aprovisionamiento centralizado de dispositivos a través de Ruptela Device Center.
+- Diseñado específicamente para vehículos pesados, con carcasa robusta y dimensiones compactas.
+- Conectividad celular moderna (incluye LTE‑M) con retrocompatibilidad 2G para una cobertura amplia.
+- Módulo GNSS de alta precisión para posicionamiento en tiempo real fiable y registro local de eventos.
+- Amplias interfaces y entradas/salidas (E/S) para capturar ignición, entradas y salidas de control y habilitar telemetría de flota.
+- Soporte BLE 5.1 para sensores inalámbricos y periféricos de identificación de conductor.
+- Batería de respaldo integrada y detección de manipulación para soportar workflows antirrobo.
+- Opciones de gestión remota, incluidas actualizaciones OTA y aprovisionamiento centralizado.
 
 ## Cómo funciona con Plaspy
 
-Cuando se instala y empareja con Plaspy, el Pro5 transmite la posición GNSS, eventos del acelerómetro y telemetría del vehículo a la plataforma Plaspy para supervisión en tiempo real, geovallas, alertas e informes históricos. Plaspy ingiere datos del Pro5 obtenidos por CAN, diagnósticos por puerto serie y entradas de sensores BLE para proporcionar paneles unificados para los operadores de flota, permitiendo una toma de decisiones rápida y alertas automáticas basadas en reglas.
+Al integrarlo con Plaspy, el Pro5 envía posición y telemetría del vehículo a los paneles de Plaspy, permitiendo a los operadores monitorear la flota en tiempo real, revisar rutas históricas y configurar alertas. Plaspy procesa los datos del Pro5 y presenta vistas unificadas de ubicación, detección de eventos e informes operativos, facilitando respuestas más rápidas y mejor supervisión.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas por LTE‑M \(con retroceso a 2G\) para un seguimiento consistente.
-- Ingesta de datos CAN: monitoreo de combustible, datos de EBS/remolque y parámetros de tacógrafo/diagnóstico transmitidos a Plaspy.
-- Eventos del acelerómetro para conducción brusca, detección de accidentes y reconstrucción disponibles en los informes de Plaspy.
-- Soporte BLE 5.1 para sensores Bluetooth e identificación del conductor; Plaspy puede mapear los datos de sensores BLE a activos y conductores.
-- Alertas de manipulación/interferencia y registro en el dispositivo permiten notificaciones inmediatas de anti‑robo y análisis post‑evento.
-- Configuración remota y actualizaciones de firmware mediante Ruptela Device Management Platform y FOTA, integradas en los flujos de aprovisionamiento de Plaspy.
+- Ubicación y telemetría en tiempo real entregadas a Plaspy para seguimiento en vivo y visibilidad en el mapa.
+- Ingesta de datos vehiculares en Plaspy para monitoreo de combustible, diagnóstico y parámetros relacionados con remolques o EBS cuando estén disponibles.
+- Reportes de eventos y datos del acelerómetro en Plaspy para detección de conducción brusca, manipulación e incidentes.
+- Datos de sensores BLE e identificación de conductor mapeados a activos y conductores dentro de Plaspy.
+- Notificaciones de manipulación e intentos de interferencia (jamming), además de registros almacenados en el dispositivo disponibles para análisis posterior en Plaspy.
+- Flujos de configuración remota y actualización de firmware integrados en los procesos de aprovisionamiento de la flota.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE‑M con retroceso a 2G |
-| --- | --- |
-| Bandas | Bandas LTE‑M y 2G dependientes del operador \(variante dependiente\) |
-| Alimentación y batería | Voltaje de operación 9–32 V DC; batería interna de respaldo de 1050 mAh |
-| Interfaces | 2x CAN \(datos HCV\), 4x DIN, 4x AIN, 4x DOUT, 1‑wire, 2x RS232, 1x RS485 |
-| GNSS | Módulo GNSS U‑blox; antena interna con soporte opcional para antena GNSS externa |
-| Bluetooth | BLE 5.1 para sensores y identificación del conductor |
-| Memoria | Memoria interna de 8 MB + ranura para tarjeta SD para registros ampliados |
-| Seguridad | Detección de manipulación e interferencia; TLS v1.2 para comunicaciones seguras |
-| Firmware y Gestión remota | FOTA \(GPRS\), SMS, USB; aprovisionamiento vía Ruptela Device Center y Device Management Platform |
-| Factor de forma y Entorno | Caja compacta de 101 x 74 x 23 mm; rango de temperatura de operación -20 °C a +60 °C |
-
-## Casos de uso
-
-- Antirrobo de flota y recuperación de vehículos robados — detección de manipulación/interferencia, batería de respaldo y alertas remotas a Plaspy.
-- Monitoreo de combustible y eficiencia de la flota — datos de combustible y diagnósticos derivados de CAN enviados a Plaspy para análisis de consumo.
-- Monitoreo y coaching del comportamiento del conductor — datos del acelerómetro y CAN para eventos bruscos, integrados en informes de coaching.
-- Monitoreo de remolques y carga — lectura de datos EBS/remolque y asociación de activos para flotas con múltiples unidades.
-- Telemetría de transporte público y maquinaria pesada — tacógrafo, diagnósticos y configuración remota para la planificación de mantenimiento.
+- Prevención y recuperación ante robo para camiones y equipos pesados mediante alertas de manipulación y alimentación de respaldo.
+- Monitoreo de combustible y eficiencia usando parámetros derivados del bus del vehículo.
+- Supervisión y capacitación de conductores mediante datos del acelerómetro y telemetría vehicular.
+- Seguimiento de remolques y flotas de múltiples unidades, incluida la monitorización de EBS y la asociación de activos.
+- Telemetría para transporte público y maquinaria pesada para planificación de mantenimiento y visibilidad operativa.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El Pro5 ofrece una combinación equilibrada de hardware robusto, interfaces de grado vehicular y comunicaciones seguras que lo hacen ideal para operadores que necesitan un rastreo GPS confiable, telemetría y medidas antirrobo integradas con Plaspy. Sus dos puertos CAN y su conjunto de E/S enriquecido permiten acceso directo al estado de ignición, parámetros de combustible y datos de remolque/EBS donde el vehículo lo soporta, habilitando un monitoreo detallado de combustible y diagnósticos sin gateways adicionales. BLE 5.1 y interfaces seriales agregan flexibilidad para sensores Bluetooth, identificación del conductor e integración de accesorios.
+El Pro5 ofrece una combinación equilibrada de interfaces de grado vehicular, posicionamiento fiable y comunicaciones seguras que lo convierten en una buena opción para flotas que usan Plaspy. Su conjunto de E/S y acceso al bus del vehículo permiten obtener telemetría y diagnóstico más profundos cuando los sistemas del vehículo lo permiten, mientras que las opciones BLE y serial añaden flexibilidad para accesorios e identificación de conductores.
 
-Para implementaciones a gran escala, la inclusión de Ruptela Device Center y Device Management Platform simplifica el aprovisionamiento, la configuración remota y las actualizaciones FOTA, reduciendo el tiempo de instalación y los costos de mantenimiento. Combinado con los paneles de Plaspy y sus alertas, el Pro5 ayuda a las flotas a mejorar la disponibilidad, reducir costos de combustible, fortalecer la protección antirrobo y obtener telemetría accionable — todo bajo una capa de comunicaciones TLS v1.2 segura. Si necesita un rastreador GPS compatible con Plaspy diseñado específicamente para vehículos pesados y datos detallados del vehículo, el Pro5 está construido para cumplir esos requisitos de forma fiable y a gran escala.
-
+Si sus operaciones requieren un rastreador compatible con Plaspy, diseñado para vehículos pesados y con capacidades avanzadas de captura de datos, el Pro5 está pensado para ofrecer la telemetría, las funciones antirrobo y los workflows de gestión remota que soportan implementaciones de flota escalables. Para más información sobre Plaspy visite el sitio principal https://www.plaspy.com y verifique las especificaciones y disponibilidad actuales con la documentación del fabricante en https://ruptela.com/. Las especificaciones y la disponibilidad de producto pueden cambiar con el tiempo, por lo que le recomendamos confirmar los detalles en el sitio del fabricante para obtener la información más reciente.

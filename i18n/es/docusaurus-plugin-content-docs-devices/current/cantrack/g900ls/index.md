@@ -2,58 +2,62 @@
 slug: /cantrack/g900ls
 id: g900ls
 sidebar_label: G900LS
+title: CanTrack - G900LS
 sidebar_class_name: menu_item_tracker
+description: Rastreador profesional CanTrack G900LS 4G para monitoreo de flotas en tiempo real, alertas y control remoto de inmovilizador
+keywords:
+  - CanTrack G900LS
+  - rastreador GPS G900LS
+  - rastreador CanTrack
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - rastreador vehicular
+  - rastreador GPS 4G
+  - G900LS Plaspy
+  - inmovilizador remoto
+  - rastreo en tiempo real
 ---
+
 # CanTrack - G900LS
 
 ![G900LS](./tracker.jpg)
 
-El G900LS es un rastreador GPS de instalación cableada 4G, diseñado para propietarios de vehículos y operadores de flota que requieren una ubicación precisa y confiable, así como control remoto. Listo para usar con Plaspy, el G900LS ofrece rastreo en tiempo real, telemetría detallada y alarmas configurables para que los equipos de operaciones y despachadores vean la ubicación del vehículo, el estado de la ignición y eventos críticos en la plataforma web o en la aplicación móvil de Plaspy.
+El G900LS es un rastreador GPS 4G profesional de instalación fija (hard‑wiring) de CanTrack, diseñado para propietarios de vehículos y operadores de flota que requieren posicionamiento preciso y control remoto confiable. Pensado para el monitoreo continuo del vehículo, el equipo ofrece seguimiento en tiempo real, telemetría detallada y alarmas configurables, de modo que los equipos operativos y los despachadores puedan conocer la ubicación, el estado de encendido y los eventos críticos. Sus variantes de cableado y su formato compacto facilitan una instalación discreta en una amplia variedad de vehículos.
 
-Construido como un dispositivo global LTE/GSM, con opciones de instalación de 4 pines y 8 pines, el G900LS admite GPS de alta precisión y un conjunto robusto de entradas del vehículo y comandos remotos. Ya sea que su prioridad sea la gestión de flotas, protección antirrobo o supervisión de alquiler y leasing, este rastreador se integra con Plaspy para proporcionarle alertas automatizadas, informes históricos y control remoto del inmovilizador cuando esté disponible.
+Como dispositivo compatible con Plaspy desde el primer momento, el G900LS se integra en Plaspy para proporcionar mapas en vivo, alertas de eventos, informes históricos y la capacidad de enviar comandos remotos cuando está soportado. Esa compatibilidad permite a los responsables de flota consolidar la visibilidad de los vehículos y la supervisión operativa dentro de los paneles y el acceso móvil de Plaspy, habilitando notificaciones automáticas e informes accionables para las operaciones diarias.
 
-## Aspectos clave
+## Aspectos destacados
 
-- Compatible con Plaspy para una integración sencilla en los flujos de gestión de flotas existentes y en los paneles de rastreo en tiempo real.
-- Cobertura global 4G LTE con respaldo a GSM/GPRS para una conectividad constante en todas las regiones.
-- GNSS de alta precisión: receptor de 66 canales con una precisión de ubicación CEP inferior a 5 m para un monitoreo preciso de rutas y activos.
-- Varios alarmas del vehículo y telemetría: movimiento, encendido/apagado de la ignición \(ACC\), alertas de velocidad, detección de corte de energía y actualizaciones de cambios de ángulo.
-- Batería de respaldo integrada de 150 mAh para alertas por corte de energía y operación autónoma limitada tras la pérdida de suministro.
-- Control de relé opcional que permite desconectar combustible o energía de forma remota para inmovilizar el vehículo y responder ante robos.
-- Cableado flexible: disponible en versiones de 4 pines y 8 pines para adaptar a diferentes arneses de vehículos y escenarios de instalación.
+- Listo para integrarse con Plaspy y facilitar la incorporación a flujos de trabajo y paneles existentes.
+- Cobertura global 4G LTE con conmutación a GSM para mantener la conectividad en distintas regiones.
+- Posicionamiento GNSS de alta precisión para un monitoreo confiable de rutas y activos.
+- Múltiples alarmas y telemetría vehicular: detección de movimiento, encendido/apagado, alertas de velocidad y detección de corte de alimentación.
+- Batería de respaldo integrada para soportar alertas por pérdida de alimentación y operación autónoma breve tras la desconexión de la alimentación principal.
+- Control por relé opcional para inmovilización remota y respuesta ante robo cuando la plataforma y la instalación lo permiten.
+- Versiones de cableado de 4 y 8 pines disponibles para adaptarse a los arneses de vehículo más comunes.
 
 ## Cómo funciona con Plaspy
 
-Conectado a Plaspy, el G900LS transmite la ubicación y la telemetría a través de LTE/GPRS mediante TCP/IP. El soporte de protocolo del rastreador y los intervalos de carga configurables permiten a Plaspy recibir actualizaciones de posición frecuentes y precisas, así como alarmas basadas en eventos. Plaspy correlaciona esos datos con geocercas, reglas de velocidad e informes programados para proporcionar información útil y accionable a los gestores de flota y a los equipos de seguridad.
+Al emparejarse con Plaspy, el G900LS transmite datos de ubicación y eventos para que Plaspy muestre posiciones en vivo, active reglas y genere informes. Los intervalos de subida configurables y los reportes por eventos permiten a Plaspy equilibrar la frecuencia de actualización y el uso de datos, a la vez que suministran la visibilidad necesaria a los equipos operativos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real vía LTE/GPRS para seguimiento en vivo en los mapas de Plaspy.
-- El estado de ignición \(ACC\), la detección de velocidad y las alarmas de movimiento alimentan las reglas y alertas de Plaspy.
-- Las alarmas por corte de energía y los eventos de la batería de reserva se reportan para que el despacho pueda responder ante manipulaciones o pérdidas de energía.
-- El control remoto del inmovilizador/relé puede emitirse desde Plaspy \(comandos soportados por la plataforma\) para deshabilitar el combustible o la energía si es necesario.
-- Intervalos de carga configurables y comandos para activar/desactivar alarmas permiten a Plaspy equilibrar la frecuencia de informes y el uso de datos por dispositivo.
+- Ubicación en vivo y telemetría que se reflejan en los mapas de Plaspy para seguimiento y despacho en tiempo real.
+- Estado de encendido, movimiento y eventos de velocidad que alimentan las alertas y reglas de Plaspy para notificaciones automáticas.
+- Alertas por corte de alimentación y eventos de batería de respaldo reportados a Plaspy para detectar manipulación o pérdida de energía.
+- Comandos remotos de relé o inmovilizador disponibles a través de Plaspy cuando el dispositivo y la implementación lo soportan.
+- Registros históricos de viajes y eventos accesibles en Plaspy para informes, análisis y cumplimiento normativo.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE / GSM / GPRS \(versión global 4G\) |
-| --- | --- |
-| Bandas | LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B28/B66; LTE-TDD: B34/B38/B39/B40/B41; GSM: 850/900/1800/1900 MHz |
-| Potencia y batería | Voltaje de operación 9–90 VDC; batería de respaldo integrada de 150 mAh \(3.7 V Li-Polymer\) para alertas por corte de energía y operación autónoma limitada |
-| Protocolos | GPRS Class 12 TCP/IP; protocolo de la serie GT06 para integración con backend |
-| Interfaces | Versiones de arnés de cableado de 4 pines y 8 pines; detección de ACC/ignición; detección de corte de energía; relé opcional para control remoto de combustible o corte de energía |
-| GNSS | Receptor GPS de 66 canales; sensibilidad de seguimiento -165 dBm; precisión de ubicación &lt; 5 m CEP; TTFF: &lt;35 s en frío, &lt;1 s en caliente \(cielo despejado\) |
-| Gestión remota | SMS y comandos de la plataforma: configuración de APN/servidor, consultas GPS, comprobaciones de estado/versión, intervalos de carga configurables, habilitar/deshabilitar alarmas, control remoto de relé |
-| Condiciones de operación | Temperatura de operación: -20 °C a +70 °C; consumo en modo de espera y en funcionamiento entre 5 mA y 50 mA |
-| Formato | Rastreador GPS para instalación cableada en automóvil, compacto para una instalación discreta en el vehículo |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento continuo en tiempo real y telemetría para optimización de rutas, supervisión del conductor y generación de informes de cumplimiento.
-- Antirrobo e inmovilización: alarmas de movimiento y corte de energía combinadas con control remoto del relé para asegurar vehículos robados o manipulados.
-- Logística y entregas: posicionamiento preciso por debajo de 5 metros y registros de eventos para validar entregas y gestionar transferencias tardías.
-- Supervisión de alquiler y leasing: monitorización de ignición y uso, intervalos de carga configurables y opciones de desactivación remota para el cumplimiento del contrato.
-- Monitoreo y recuperación de vehículos: alertas de velocidad, ACC y cambio de ángulo permiten una respuesta rápida y una recuperación mejorada tras incidentes.
+- Gestión de flotas para supervisar rutas, monitorear conductores y mejorar la eficiencia operativa.
+- Protección antirrobo mediante alertas de movimiento y corte de alimentación combinadas con inmovilización remota.
+- Monitoreo logístico y de entregas para validar paradas y mejorar el cumplimiento de tiempos.
+- Supervisión en alquiler y leasing para controlar encendido, uso y opciones de desactivación remota.
+- Recuperación de vehículos y respuesta ante incidentes utilizando alertas de velocidad, cambios de ángulo y detección de movimiento.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El G900LS en conjunto con Plaspy ofrece una solución confiable y escalable para organizaciones que requieren una ubicación 4G precisa, telemetría robusta y capacidades de control remoto. Su amplio soporte de bandas LTE/GSM garantiza una cobertura geográfica amplia, mientras que el protocolo GT06 compatible y el transporte GPRS/TCP/IP facilitan la integración de backend en Plaspy. Para gestores de flota y equipos de seguridad, la combinación ofrece alarmas oportunas \(ignición, movimiento, corte de energía\), intervalos de informe configurables para gestionar el uso de datos y, si se desea, inmovilización remota basada en relé para respuesta ante robos — todo accesible a través de los mapas, alertas e informes de Plaspy. Elija este rastreador compatible con Plaspy cuando necesite monitoreo profesional de vehículos, datos de ubicación de alta precisión y gestión remota práctica en un paquete integrado.
+El G900LS es una opción práctica para organizaciones que requieren monitoreo vehicular de nivel profesional junto con una plataforma de flota como Plaspy. Su combinación de posicionamiento GNSS preciso, amplia cobertura celular y alarmas configurables proporciona los datos fundamentales en los que confían la mayoría de los equipos de flota y seguridad. Plaspy aprovecha esa información para ofrecer mapas, alertas, informes programados y flujos de trabajo de comandos remotos que apoyan las operaciones diarias y la respuesta ante incidentes.
 
+Debido a que el G900LS es compatible con Plaspy desde el primer momento, puede añadirse a una cuenta Plaspy existente con configuración mínima, permitiendo a los equipos escalar el monitoreo entre vehículos y beneficiarse de una visibilidad y reportes consolidados dentro de la plataforma.
+
+Para obtener más información sobre cómo funciona Plaspy con rastreadores compatibles como el CanTrack G900LS, visite el sitio principal de Plaspy https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales y las guías de instalación en el sitio del fabricante https://www.cantrackgps.com/.

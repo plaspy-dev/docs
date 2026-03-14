@@ -2,64 +2,60 @@
 slug: /autoseeker/at_23
 id: at_23
 sidebar_label: AT-23
+title: Autoseeker - AT-23
 sidebar_class_name: menu_item_tracker
+description: Compact Autoseeker AT-23 2G relay GPS tracker compatible with Plaspy for real time vehicle tracking and relay immobilizer functionality
+keywords:
+  - Autoseeker AT-23
+  - AT-23 tracker Plaspy
+  - Autoseeker GPS tracker
+  - AT-23 relay tracker
+  - Plaspy compatible tracker
+  - vehicle GPS tracker
+  - immobilizer relay tracker
+  - fleet tracking device
+  - GNSS tracker
+  - 2G GPS tracker
 ---
+
 # Autoseeker - AT-23
 
 ![AT-23](./tracker.jpg)
 
-The AT-23 2G Relay GPS Tracker from a compact vehicle terminal family delivers reliable Plaspy compatible real-time tracking and a built-in relay for remote fuel or power cutoff. Designed for permanent installation inside cars, trucks, motorcycles, boats and other mobile assets, the AT-23 combines precise GNSS positioning \(GPS + Beidou\) with vehicle-grade power management to support anti-theft immobilizer workflows and fleet management telemetry.
+The Autoseeker AT-23 is a compact 2G relay GPS tracker designed as a vehicle terminal for permanent installation in cars, trucks, motorcycles, boats and other mobile assets. It combines dual GNSS positioning with a built in relay for remote fuel or power cutoff, and it is aimed at operators who need reliable position updates, event reporting and an immobilizer option for theft response and asset protection.
 
-As a Plaspy compatible device, the AT-23 feeds live location, telemetry and event data into Plaspy dashboards for geofencing, history playback and automated alerts. Its small form factor and modular wiring make installation straightforward, while the relay-based cutoff and resume function delivers a practical immobilizer option for fleet operators, vehicle owners and asset managers who require fast, enforceable anti-theft measures.
+As a Plaspy compatible device, the AT-23 can feed live location, telemetry and event data directly into Plaspy dashboards for geofencing, history playback and automated alerts. Its small form factor and modular wiring make it well suited to fleet deployments where discreet installation and relay based immobilization are required, allowing Plaspy users to centralize monitoring and incident workflows.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker providing real-time tracking and route history for fleet management and asset monitoring.
-- Integrated relay for remote fuel or power cutoff and resume—effective anti-theft and immobilizer capability.
-- Dual-mode GNSS positioning \(GPS + Beidou\) with typical position accuracy &lt;10 m \(1σ\).
-- Low-power operation: DC 9–35V input, average ~40 mA at 12V, and sleep current &lt;10 mA; optional 80 mAh backup battery for short-term power loss operation.
-- Event alerts including geofence entry/exit, overspeed warnings, vibration detection, low battery and main power cut-off notifications.
-- Small, discreet ABS housing \(32.5 × 32.5 × 31 mm\) for concealed vehicle installation.
-- Supports standard SIM card on 2G \(850/900/1800/1900 MHz\) networks and internal antennas for cellular and GNSS reception.
+- Real time tracking and route history compatibility with Plaspy for fleet visibility and post trip review.
+- Integrated relay for remote fuel or power cutoff and resume to support immobilizer and anti theft workflows.
+- Dual mode GNSS positioning using GPS and Beidou with typical position accuracy under 10 meters.
+- Low power operation and optional backup battery to help maintain short term reporting during power interruptions.
+- Event alerts for geofence entry and exit, overspeed, vibration detection, low backup battery and main power cut off.
+- Small discreet ABS housing designed for concealed vehicle installation and broad mounting use cases.
 
 ## How It Works with Plaspy
 
-The AT-23 transmits location, status and event messages over 2G to Plaspy-compatible servers so operators get real-time visibility and historical telemetry inside Plaspy dashboards. Integration is straightforward for platforms that accept standard 2G trackers: the device reports position and a rich set of alerts that Plaspy can use to trigger notifications, create reports and automate fleet workflows.
+The AT-23 sends position, status and event messages over cellular networks to Plaspy compatible servers so operators see live location and historical telemetry inside Plaspy. Integration focuses on turning the device streams into actionable monitoring, alerts and reports without additional gateway hardware.
 
-- Real-time location and telemetry updates sent to Plaspy for live mapping and route playback.
-- Geofence entry/exit alerts and overspeed warnings appear in Plaspy alongside location history for fast investigation.
-- Relay status and remote immobilizer control: Plaspy can display relay state and record cut/resume events \(remote action performed via authorized backend workflows\).
-- Power and battery events: main power cut-off alerts and low backup battery notifications help operators detect tampering or power loss.
-- Vibration and movement detection for tamper/parking alarms—events are logged and shown in Plaspy incident timelines.
-- Coexistence with Bluetooth sensors and other peripherals in the same Plaspy deployment—while the AT-23 itself uses internal antennas and 2G, Plaspy can correlate its telemetry with BLE sensor feeds from other gateways if used in the same system.
+- Real time location and telemetry updates appear in Plaspy for live mapping and route playback.
+- Geofence entry and exit events and overspeed alerts are surfaced in Plaspy for immediate attention and review.
+- Relay state and immobilizer events are recorded in Plaspy so cut and resume incidents are logged alongside location history.
+- Power and battery events such as main power loss and low backup battery are shown in Plaspy to help detect tampering or outages.
+- Vibration and movement alerts are logged and presented in incident timelines for faster investigation and response.
+- Recorded telemetry can be used in Plaspy reports and dashboards to support operational oversight and trend analysis.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | AT-23 2G Relay GPS Tracker |
-| --- | --- |
-| Connectivity | 2G GSM \(850 / 900 / 1800 / 1900 MHz\); standard SIM card |
-| Chipsets | MT2503 communication chipset; MC25 GNSS chipset |
-| GNSS / Positioning | GPS + Beidou dual-mode; &lt;10 m \(1σ\) accuracy; cold start ~32 s; hot start ~1 s; tracking sensitivity -162 dBm; capture sensitivity -148 dBm |
-| Power & Battery | DC 9V–35V operating range; average working current ~40 mA @ 12V; sleep &lt;10 mA; optional 80 mAh \(3.7V\) polymer backup battery |
-| Interfaces | Integrated relay module for remote fuel or power cutoff and resume; standard SIM slot; internal cellular and GNSS antennas |
-| Alerts & Events | Geofence entry/exit, overspeed, vibration detection, low battery, main power cut-off alerts, history route playback |
-| Physical | 32.5 × 32.5 × 31 mm; weight 68 g; ABS plastic housing |
-| Environmental | Operating temp -20°C to 75°C; storage -30°C to 80°C; humidity 10%–85% RH |
-| Performance Limits | Maximum acceleration up to 4 g; maximum speed up to 515 m/s; maximum altitude up to 18,000 m |
-| Remote Management | Designed for use with standard 2G-compatible tracking platforms \(including Plaspy\) for remote monitoring and telemetry collection |
-| Form Factor | Compact vehicle-mounted terminal for concealed installation in cars, trucks, motorcycles, boats and other mobile assets |
-
-## Use Cases
-
-- Fleet anti-theft and immobilization: remote fuel/power cutoff to stop unauthorized vehicle movement and log immobilization events in Plaspy.
-- Fleet management and telemetry: real-time tracking, overspeed alerts and route history to improve dispatching and driver compliance.
-- Motorcycle and small-vehicle tracking: compact size and discreet installation for vulnerable asset protection.
-- Asset protection for boats and mobile equipment: GNSS tracking plus tamper/power loss alerts for rapid response.
-- Modular vehicle installations that require a relay-based immobilizer combined with Plaspy dashboards for centralized monitoring.
+- Fleet anti theft and immobilization where remote relay cutoff is used to stop unauthorized vehicle movement and log events in Plaspy.
+- Fleet monitoring and driver compliance with live tracking, overspeed alerts and route history for dispatch optimization.
+- Motorcycle and small vehicle protection using a compact tracker for discreet installation and centralized monitoring in Plaspy.
+- Asset protection for boats and mobile equipment with GNSS tracking and power loss alerts for rapid response.
+- Vehicle installations that need a relay based immobilizer combined with Plaspy dashboards for unified operations.
 
 ## Why Choose This Tracker with Plaspy
 
-The AT-23 is a practical choice when you need a Plaspy compatible GPS tracker that balances compact form, low power consumption and relay-based immobilizer capability. Its dual-mode GNSS positioning, reliable 2G cellular connectivity and built-in relay make it well suited to fleet management, anti-theft protection and routine telemetry tasks. Operators benefit from fast integration into Plaspy for geofencing, history playback and automated alerts—delivering the situational awareness fleet managers require without complex installation overhead.
+The AT-23 is a practical option for organizations that want a compact, vehicle grade tracker with a built in relay and proven telemetry features. Its combination of GNSS positioning, relay based immobilization and event reporting fits common fleet and asset protection workflows and integrates into Plaspy to provide a single operational view for monitoring and response.
 
-Choose the AT-23 if you need a proven, discreet GPS tracker that supports real-time tracking, relay immobilization and robust event reporting for Plaspy-based monitoring and operations. Its optional backup battery and wide operating voltage range help maintain continuity across vehicle types, while Plaspy integration brings those tracking and telemetry data points into a single operational view for safer, more efficient fleet control.
-
+If you are evaluating Plaspy compatible trackers for fleet or asset security, the AT-23 is worth considering for deployments that require discreet installation and relay immobilizer capability. Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current specifications on the official Autoseeker website https://autoseekergps.com/.

@@ -2,66 +2,61 @@
 slug: /sentar/d37
 id: d37
 sidebar_label: D37
+title: Sentar - D37
 sidebar_class_name: menu_item_tracker
+description: Reloj GPS 4G Sentar D37 para niños compatible con Plaspy, seguimiento en tiempo real, alertas SOS y geocercas
+keywords:
+  - Sentar D37
+  - Rastreador GPS D37
+  - Reloj infantil Sentar
+  - D37 compatible con Plaspy
+  - Software de seguimiento D37
+  - Seguimiento Sentar D37
+  - Alerta SOS D37
+  - Geocercas D37
+  - Reloj 4G Sentar
+  - D37 resistente al agua
 ---
+
 # Sentar - D37
 
 ![D37](./tracker.png)
 
-El D37 es un reloj inteligente 4G para niños diseñado para rastreo en tiempo real seguro y compatible con Plaspy, con comunicación bidireccional. Construido sobre una versión de Android 8.1 basada en RTOS y alimentado por el chipset ASR3603S, el D37 combina posicionamiento GPS, AGPS, LBS y WiFi para entregar actualizaciones de ubicación precisas en la plataforma Plaspy. Su compacto formato de reloj, la pantalla táctil de 1.47 pulgadas y el botón de encendido SOS lo convierten en un rastreador GPS práctico para padres que requieren ubicación, estado y alertas de emergencia confiables.
+El D37 es un reloj inteligente compacto 4G para niños, diseñado para ofrecer seguimiento seguro en tiempo real y comunicación bidireccional. Basado en una versión de Android 8.1 con RTOS y con posicionamiento multimodal que combina GPS, AGPS, LBS y WiFi, el D37 proporciona actualizaciones de ubicación y estado en un formato portátil. El dispositivo incluye una pantalla táctil de 1.47 pulgadas y un botón SOS dedicado para reportes inmediatos de emergencia y operaciones sencillas desde el propio equipo.
 
-Listo para Plaspy fuera de la caja, el D37 se integra en tableros de monitoreo para historial de ubicaciones, geofencing y alertas. El reloj admite múltiples bandas 4G globales \(FDD/TDD\) y WCDMA a través de una Nano-SIM, lo que posibilita conectividad constante y telemetría en muchas regiones. Ligero, con clasificación IPX7 a prueba de agua y disponible en Azul, Rosa y Negro, el D37 está diseñado específicamente para la seguridad infantil, la asistencia diaria y el seguimiento supervisado de actividades al aire libre.
+Como rastreador compatible con Plaspy desde el primer uso, el D37 se integra en los paneles de monitoreo para ofrecer historial de ubicaciones, geocercas y alertas dirigidas a padres y cuidadores. Su conectividad celular mediante Nano SIM y el soporte para múltiples bandas 4G y WCDMA ayudan a mantener la telemetría y la comunicación de voz y datos en muchas regiones, lo que lo convierte en una opción práctica para la seguridad supervisada de niños y la supervisión diaria a través de la plataforma Plaspy.
 
-## Aspectos clave
+## Aspectos principales
 
-- Rastreador GPS compatible con Plaspy para rastreo en tiempo real y monitoreo parental.
-- Posicionamiento multimodal: GPS + AGPS + LBS + WiFi para mejorar la precisión de la ubicación.
-- Soporte de red 4G y WCDMA con Nano-SIM para conectividad global y comunicaciones de voz/datos.
-- Botón dedicado de SOS/encendido para alertas de emergencia instantáneas en los paneles de Plaspy y contactos.
-- Pantalla táctil compacta de 1.47" 2.5D para controles simples en el dispositivo y verificación de estado.
-- Cámara integrada de 30W para capturar fotos y videos básicos y verificación situacional.
-- Clasificación IPX7 a prueba de agua y batería recargable de 470mAh para fiabilidad diaria.
+- Reloj inteligente para niños compatible con Plaspy para seguimiento en tiempo real y monitoreo parental
+- Posicionamiento multimodal que combina GPS, AGPS, LBS y WiFi para mejorar la precisión de ubicación
+- Soporte de redes 4G y WCDMA con Nano SIM para conectividad regional amplia y uso de voz y datos
+- Botón SOS dedicado para alertas de emergencia inmediatas y notificaciones rápidas
+- Pantalla táctil compacta de 1.47 pulgadas para consultas de estado y controles sencillos
+- Diseño resistente al agua IPX7 y factor de forma ligero, apto para uso diario y actividades al aire libre
+- Cámara integrada y batería recargable para verificación situacional y fiabilidad diaria
 
 ## Cómo funciona con Plaspy
 
-El D37 transmite coordenadas de ubicación y estado del dispositivo a Plaspy en tiempo real a través de datos móviles. Plaspy procesa las fijaciones de posición GPS/AGPS/LBS/WiFi y las mapea para proporcionar seguimiento en vivo, rutas históricas y alertas de geovalla. La conectividad y la telemetría del reloj —nivel de batería, intensidad de señal y eventos SOS— están disponibles para Plaspy con fines de alertas e informes, permitiendo a los padres responder rápidamente a situaciones de emergencia.
+Cuando se usa con Plaspy, el D37 transmite coordenadas de ubicación y el estado del dispositivo a la plataforma, de modo que los operadores pueden visualizar posiciones en vivo y rutas históricas. Plaspy ingiere la telemetría del reloj y la presenta en paneles que admiten alertas por geocerca, reportes y supervisión operativa para cuidadores y administradores.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(GPS/AGPS/LBS/WiFi\).
-- Alertas de emergencia SOS a través del botón dedicado de encendido/SOS para notificaciones instantáneas.
-- Comunicación bidireccional de voz y datos para un contacto directo entre padres e hijos y su estado.
-- Telemetría de batería y estado de la red para el monitoreo de la disponibilidad del dispositivo en Plaspy.
-- Eventos con marca de ubicación \(p. ej., comprobaciones\) y captura básica de medios en el dispositivo para la verificación de la situación.
+- Actualizaciones de ubicación en tiempo real y fijaciones periódicas de posición mostradas en los mapas de Plaspy
+- Alertas de emergencia SOS entregadas a los paneles de Plaspy y a los contactos configurados para una respuesta rápida
+- Estado de comunicación bidireccional de voz y datos disponible para contacto supervisado y confirmaciones
+- Telemetría de nivel de batería y salud de red visible para monitoreo del tiempo de actividad y alerta
+- Historial de ubicaciones y alertas por geocerca para control de asistencia y supervisión de rutas
+- Captura básica de medios en el dispositivo para verificación situacional en la línea de tiempo de eventos de Plaspy
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | D37 kids smart watch |
-| --- | --- |
-| Sistema Operativo | Android 8.1 \(basado en RTOS\) |
-| Chipset principal | ASR3603S |
-| Memoria | 128MB RAM + 128MB ROM |
-| Ranura SIM | Nano SIM |
-| Conectividad | 4G \(FDD/TDD\) y WCDMA; datos y voz |
-| Bandas | FDD: B1, B2, B3, B5, B7, B8, B20; TDD: B38, B39, B40, B41; WCDMA: B1, B2, B5, B8 |
-| Modos de Localización \(GNSS\) | GPS + AGPS + LBS + WiFi |
-| Pantalla | Pantalla táctil de 1.47" 2.5D, resolución 172 × 320 píxeles |
-| Cámara | Cámara integrada de 30W \(fotos/vídeos básicos\) |
-| Batería | 470mAh recargable |
-| Carga | Cable de carga magnético de 4 pines |
-| Botones / Interfaces | Botón de encendido con función SOS de emergencia |
-| Protección | A prueba de agua IPX7 |
-| Opciones de color | Azul, Rosa, Negro |
-
-## Casos de uso
-
-- Seguridad infantil y monitoreo parental: compartir ubicación en tiempo real y alertas SOS durante la escuela, viajes o juego.
-- Asistencia escolar y rutas supervisadas: geocercas y historial de rutas para el monitoreo de recogida y entrega autorizadas.
-- Actividades al aire libre y excursiones: diseño a prueba de agua y posicionamiento celular confiable para salidas monitorizadas.
-- Llamadas restringidas o comunicaciones supervisadas: voz y mensajería bidireccional controladas para el contacto entre padres e hijos.
-- Verificación situacional: captura básica de fotos y videos para verificar el entorno inmediato del niño cuando sea necesario.
+- Seguridad infantil y monitoreo parental con seguimiento en vivo y alertas SOS
+- Rutas supervisadas en escuelas y guarderías utilizando geocercas e historial de rutas para entradas y salidas
+- Actividades al aire libre y excursiones monitoreadas donde la resistencia al agua y el posicionamiento celular son valiosos
+- Comunicaciones controladas de dos vías para contacto entre padre e hijo y comprobaciones de estado
+- Verificación situacional mediante captura de fotos básicas para confirmar el entorno cuando sea necesario
 
 ## Por qué elegir este rastreador con Plaspy
 
-El D37 es un rastreador GPS creado específicamente para despliegues familiares y orientados a la seguridad de los niños, compatible con Plaspy. Su posicionamiento multimodal \(GPS/AGPS/LBS/WiFi\), el amplio soporte de bandas 4G/WCDMA y la pila Android basada en RTOS permiten un rastreo en tiempo real fiable e una integración sencilla en los paneles de Plaspy. Los padres se benefician de alertas SOS instantáneas, ubicación en vivo, telemetría de batería y conectividad, además de la comodidad de una interfaz táctil y la captura básica de medios para un contexto adicional.
+El D37 es especialmente apto para despliegues familiares y orientados a niños que requieren un dispositivo portátil con reporte de ubicación confiable y alertas de emergencia. Su posicionamiento multimodal y el amplio soporte de bandas celulares lo hacen una combinación práctica para usuarios de Plaspy que necesitan visibilidad continua, gestión de geocercas y controles sencillos en el dispositivo. El formato de reloj, el botón SOS y la captura básica de medios aportan contexto que puede ayudar a padres y supervisores a actuar con rapidez ante una alerta.
 
-Aunque el D37 destaca como rastreador ponible para niños, hogares y actividades supervisadas, tenga en cuenta que está diseñado para la seguridad personal y no para telemetría de vehículos. Para gestión de flotas, anti‑robo, monitorización de combustible, detección de ignición o control de inmovilizador, Plaspy admite otros hardware compatibles diseñados con esas interfaces dedicadas y sensores Bluetooth. Elija el D37 con Plaspy cuando necesite un rastreador ponible compacto y fiable que se enfoque en el rastreo en tiempo real, alertas de emergencia y comunicación diaria para los niños.
-
+Si su requisito principal es la seguridad personal y las comunicaciones supervisadas más que la telemetría vehicular o industrial, el D37 junto con Plaspy ofrece una opción compacta y diseñada para ese propósito. Para conocer más sobre Plaspy y las capacidades de la plataforma visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y la documentación del fabricante pueden cambiar con el tiempo, por lo que por favor verifique los detalles actuales en el sitio oficial de Sentar http://www.sentarsmart.com/ antes de tomar decisiones de compra o despliegue.

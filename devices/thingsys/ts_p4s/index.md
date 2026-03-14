@@ -2,64 +2,59 @@
 slug: /thingsys/ts_p4s
 id: ts_p4s
 sidebar_label: TS-P4s
+title: ThingSys - TS-P4s
 sidebar_class_name: menu_item_tracker
+description: Heavy duty magnetic GPS tracker compatible with Plaspy for long term asset and fleet tracking
+keywords:
+  - ThingSys TS-P4s
+  - TS-P4s
+  - ThingSys tracker
+  - magnetic GPS tracker
+  - long term GPS tracker
+  - Plaspy compatible
+  - fleet tracking
+  - container tracking
+  - waterproof GPS tracker
+  - asset tracker
 ---
+
 # ThingSys - TS-P4s
 
 ![TS-P4s](./tracker.jpg)
 
-The TS-P4s is a heavy-duty magnetic GPS tracker designed for long-term, maintenance-free tracking of vehicles, containers and a wide range of mobile assets. Plaspy compatible out of the box, the TS-P4s combines multi-constellation GNSS \(GPS/Beidou/GLONASS\) with cellular connectivity \(2G, 4G or dual-mode 2G+4G variants\) and high-capacity rechargeable batteries to deliver reliable real-time tracking and extended field deployment without frequent servicing.
+The TS-P4s is a heavy duty magnetic GPS tracker designed for long term, maintenance free tracking of vehicles, containers and a wide range of mobile assets. It combines multi constellation GNSS positioning with cellular connectivity in 2G, 4G or dual mode variants and high capacity rechargeable batteries to deliver reliable real time location updates and extended field deployment without frequent servicing. The device is built in a rugged waterproof enclosure with strong built in magnets for quick attachment to metal surfaces.
 
-Built for fleet management, asset protection and covert installations, the TS-P4s uses a rugged waterproof enclosure and strong built-in magnets for quick, non-invasive mounting to metal surfaces. Its configurable reporting, mainstream telematics protocols and alarm features make deployment with Plaspy straightforward for fleets, rental operations, container logistics and other telemetry-driven workflows.
+As a Plaspy compatible tracker out of the box, the TS-P4s is suited to deployments that require persistent visibility and minimal onsite maintenance. Its configurable reporting and support for mainstream telematics protocols, along with alarm and voice monitoring features, make integration into Plaspy straightforward for fleet managers, rental operators, container logistics teams and security workflows that depend on ongoing telemetry and event alerts.
 
 ## Key Highlights
 
-- Plaspy compatible GPS tracker optimized for long-term, maintenance-free deployments and real-time tracking.
-- High-capacity battery options \(6,000 / 10,000 / 20,000 mAh\) that enable very long working and standby times for unattended assets.
-- Rugged magnetic mounting and IP-rated waterproof enclosure for quick, covert attachment to vehicles, containers and heavy equipment.
-- Multi-constellation positioning \(GPS/Beidou/GLONASS\) with MT2503 chipset for reliable telemetry and approximately 5 m position accuracy.
-- Flexible cellular connectivity with TS-P4s variants for 2G, 4G or combined 2G+4G networks to match regional coverage needs.
-- Configurable reporting and support for standard telematics protocols \(JT808, TQ, GT06, etc.\) for seamless Plaspy platform integration.
-- Multiple alarm types \(movement/displacement, low-battery, tamper/removal\) plus voice monitoring for enhanced anti-theft and security workflows.
+- Plaspy compatible GPS tracker optimized for long term, maintenance free deployments and real time tracking
+- Multi constellation GNSS positioning for consistent location accuracy in diverse environments
+- Flexible cellular connectivity with 2G, 4G or combined 2G plus 4G variants to suit regional coverage
+- High capacity rechargeable battery options to support extended unattended operation
+- Rugged waterproof enclosure and strong magnetic mounting for quick attachment to vehicles and metal assets
+- Configurable reporting, mainstream telematics protocol support and multiple alarm types for operational monitoring
 
 ## How It Works with Plaspy
 
-When connected to Plaspy, the TS-P4s sends regular location and telemetry updates using its configurable reporting intervals and supported telematics protocols. Plaspy ingests that data to provide dashboards, live maps, alerts and historical reports for fleet management, remote security and operational analytics.
+When connected to Plaspy, the TS-P4s transmits periodic location and device status using its configurable reporting intervals and supported telematics protocols. Plaspy ingests those updates and makes them available through live maps, dashboards, alerts and historical reporting so teams can monitor distributed assets and respond to events.
 
-- Real-time location and telemetry updates: GNSS position, timestamp, and movement data feed directly into Plaspy for live tracking and replay.
-- Alarms and status events: Movement/displacement, tamper/removal and low-battery alarms are forwarded to Plaspy so operations teams receive immediate alerts.
-- Battery and power telemetry: Plaspy receives battery level and device state to schedule maintenance and reduce downtime in long-term asset deployments.
-- Voice monitoring and event-triggered recordings: Where enabled, voice monitoring events can be referenced in Plaspy for incident review and security verification.
-- Protocol-based integration: The TS-P4s supports JT808, TQ, GT06 and other mainstream protocols, simplifying server-side parsing and ensuring reliable data exchange with Plaspy.
+- Real time location and historical replay to track movements and review past routes
+- Forwarding of alarm events such as movement, tamper or low battery so operations teams receive timely notifications
+- Battery and device state telemetry in Plaspy to help plan maintenance for long term deployments
+- Voice monitoring events and recordings referenced in Plaspy for incident review where enabled
+- Protocol based integration that simplifies server side parsing and reduces integration overhead
 
-## Technical Overview
+## Typical Use Cases
 
-| Model Variants | TS-P4s A / B / C \(2G / 4G / 2G+4G options\) |
-| --- | --- |
-| Connectivity | Cellular: GSM/WCDMA/LTE \(2G/4G support depending on variant\) |
-| Network Bands | LTE-FDD B1/B2/B3/B4/B5/B7/B8/B28; LTE-TDD B40; WCDMA B1/B2/B5/B8; GSM 850/900/1800/1900 MHz |
-| Power & Battery | Rechargeable, replaceable batteries: 6,000 mAh / 10,000 mAh / 20,000 mAh. Charger input 110–220V, output 5V. Operating voltage: DC 3.4V–4.5V. |
-| Typical Battery Life | Working time ~30 / 50 / 100 days and standby time ~210 / 350 / 700 days \(depending on battery choice and reporting configuration\) |
-| Weight | Approximately 215 g / 400 g / 450 g \(depending on battery\) |
-| GNSS | GPS / Beidou / GLONASS; GPS chip MT2503; sensitivity -159 dBm; typical accuracy ~5 m; TTFF Cold 35–80 s, Warm ~35 s, Hot ~1 s |
-| Power Consumption | Typical active 65 mA @ 4V; standby 8 mA @ 4V; sleep 3 mA @ 4V |
-| Interfaces & Features | Voice monitoring; movement/displacement, low-battery and tamper/removal alarms; strong built-in magnets for non-wired mounting; IP-rated waterproof enclosure |
-| Operating Environment | Operating temperature -20°C to +55°C; Storage -40°C to +85°C; Humidity 5%–95% non‑condensing |
-| Protocols | Configurable reporting and standard telematics protocols \(JT808, TQ, GT06, etc.\) for server/platform integration |
-
-## Use Cases
-
-- Fleet management and real-time vehicle tracking — maintain visibility across cars, vans and trucks using Plaspy dashboards and alerts.
-- Container and cargo security — long battery life and waterproof housing make the TS-P4s ideal for extended container monitoring.
-- Rental vehicle tracking and anti-theft protection — movement and tamper alarms plus discreet magnetic mounting support theft response and recovery.
-- Field staff oversight and equipment monitoring — remote telemetry and voice monitoring support safety and operational coordination.
-- Covert surveillance and sensitive asset protection — compact, non-wired installation enables discreet deployments for law enforcement and security teams.
+- Fleet management and real time vehicle tracking across cars, vans and trucks
+- Container and cargo security for extended shipments and storage
+- Rental vehicle tracking and anti theft monitoring for recovery and compliance
+- Field equipment oversight and remote staff coordination in dispersed operations
+- Covert or discreet installations where non wired magnetic mounting is preferred
 
 ## Why Choose This Tracker with Plaspy
 
-The TS-P4s is purpose-built for customers who need a durable, Plaspy compatible GPS tracker that minimizes onsite maintenance while delivering dependable telemetry. Its long-run battery options and strong magnetic mounting reduce installation time and service visits, and the device’s support for mainstream telematics protocols ensures straightforward integration with Plaspy for real-time tracking, fleet management and anti-theft workflows.
+The TS-P4s is a practical option for organizations that need durable, low maintenance tracking hardware paired with a fleet and asset platform like Plaspy. Its combination of long run battery options, rugged enclosure and configurable reporting reduces onsite servicing and helps keep assets visible for longer periods. Using mainstream telematics protocols and standard alarm types also makes it easier to bring the device online in Plaspy and begin monitoring without extensive server side work.
 
-For operations that combine position data with additional telemetry — such as fuel monitoring, ignition status or immobilizer signals provided by other sensors or vehicle interfaces — Plaspy can correlate those inputs with TS-P4s location and alarm data to produce richer reports and automated responses. The TS-P4s is therefore a practical choice for organizations seeking scalable, maintenance-light tracking across distributed assets.
-
-Note: Purchase and exact configuration \(battery size, regional network compatibility and required certifications\) are available by contacting the vendor. Confirm the appropriate TS-P4s variant for your coverage needs and discuss any additional sensor integrations needed for fuel monitoring, ignition or immobilizer interfaces.
-
+To learn more about using the TS-P4s with Plaspy, visit https://www.plaspy.com. Product specifications, regional variants and availability can change over time, so verify current specifications and certification details on the manufacturer site https://www.thingsys.com/.

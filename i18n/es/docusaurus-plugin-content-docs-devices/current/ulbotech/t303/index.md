@@ -2,65 +2,61 @@
 slug: /ulbotech/t303
 id: t303
 sidebar_label: T303
+title: Ulbotech - T303
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS profesional para vehículos compatible con Plaspy para gestión de flotas y protección antirrobo
+keywords:
+  - Ulbotech T303
+  - rastreador GPS T303
+  - rastreador Ulbotech
+  - T303 compatible con Plaspy
+  - seguimiento de flotas T303
+  - telemática vehicular
+  - geocercas T303
+  - inmovilizador remoto
+  - monitoreo de conducta del conductor
+  - actualizaciones FOTA
 ---
+
 # Ulbotech - T303
 
 ![T303](./tracker.jpg)
 
-El rastreador GPS para vehículos T303 es un dispositivo telemático de grado profesional diseñado para la gestión de flotas, protección antirrobo y supervisión del comportamiento del conductor. Compatible con Plaspy desde el primer momento, el T303 ofrece rastreo en tiempo real fiable, geocercas configurables y opciones de inmovilización remota para organizaciones que necesitan ubicación precisa, alertas de seguridad y telemetría actualizada para vehículos de cualquier tamaño.
+El T303 es un rastreador GPS profesional diseñado para la gestión de flotas, la protección antirrobo y el monitoreo del comportamiento del conductor. Basado en una plataforma robusta y equipado con un módulo GNSS de alta sensibilidad, conectividad celular cuatribanda y un conjunto completo de entradas y salidas, el T303 ofrece ubicación y telemetría en tiempo real confiables para vehículos de distintos tamaños. Sus geocercas configurables, manejo de alertas de emergencia y soporte para inmovilización remota cubren los flujos de trabajo telemáticos más comunes.
 
-El T303 se apoya en la consolidada plataforma T301 y añade un módulo GNSS u-blox 6M, GSM/GPRS cuádri-banda, soporte FOTA y un conjunto completo de entradas y salidas para detección de encendido, control del motor y telemetría de sensores. Cuando se combina con Plaspy, el T303 ofrece informes accionables, rastreo en tiempo real y alertas de emergencia que simplifican las operaciones de la flota, los flujos de antirrobo y el perfilado del conductor.
+Como dispositivo compatible con Plaspy desde su configuración inicial, el T303 puede enviar posiciones en vivo, alertas y datos de sensores directamente a los paneles y reportes de Plaspy. Esa compatibilidad lo hace apropiado para organizaciones que desean visibilidad centralizada, notificaciones automáticas e informes operativos sin necesidad de integraciones personalizadas. En conjunto con Plaspy, el dispositivo facilita la supervisión de flotas, la respuesta ante robos y la creación de perfiles de conducción.
 
-## Aspectos destacados
+## Puntos clave
 
-- Compatible con Plaspy para una integración fluida en paneles de seguimiento en tiempo real y gestión de flotas.
-- GSM cuádri-banda con GPRS class 12 garantiza una amplia cobertura celular para datos telemáticos consistentes.
-- Conjunto GNSS u-blox 6M con A-GPS ofrece posicionamiento de alta sensibilidad y precisión inferior a 3 m \(en condiciones típicas\).
-- Inmovilizador interno y una salida digital de control del motor permiten inmovilización remota y flujos de antirrobo.
-- Múltiples modos de rastreo \(tiempo, distancia, rumbo, estado\) y geocercas configurables \(círculo, rectángulo, polígono\).
-- Acelerómetro de 3 ejes integrado y siete tipos de detección de comportamiento del conductor para seguridad y perfilado del conductor.
-- Entrada analógica para sensores de combustible/temperatura, además de monitoreo de la batería del vehículo para casos de telemetría y monitoreo de combustible.
-- FOTA \(actualización de firmware por GPRS\), configuración automática de APN e identificación de la zona horaria para reducir la carga de mantenimiento.
+- Compatible con Plaspy para una integración sencilla en paneles de seguimiento y gestión de flotas en tiempo real.
+- Posicionamiento GNSS de alta sensibilidad con precisión típica inferior a 3 metros en cielo abierto.
+- Conectividad celular cuatribanda con GPRS para telemetría de amplio alcance y entrega de datos constante.
+- Inmovilizador interno y salida de control del motor para soportar inmovilización remota y procesos antirrobo.
+- Acelerómetro integrado y detecciones múltiples de comportamiento del conductor para monitoreo de seguridad y puntuación de conductores.
+- Entrada analógica y monitoreo de batería del vehículo para integrar mediciones de combustible o telemetría básica.
+- Soporte para actualización de firmware por aire (FOTA) que reduce el mantenimiento en sitio y mantiene los dispositivos al día.
 
 ## Cómo funciona con Plaspy
 
-Conectar el T303 a Plaspy está diseñado para ser sencillo: el dispositivo transmite correcciones GNSS y telemetría a través de GPRS, mientras Plaspy ingiere la secuencia de datos, aplica reglas y presenta la ubicación en tiempo real, alarmas e informes. La plataforma de Plaspy interpreta los eventos del T303 \(ACC, SOS, inmovilizador, infracciones de geocerca y alertas de comportamiento del conductor\) para que los responsables de la flota reciban notificaciones oportunas y puedan actuar de inmediato.
+El T303 envía continuamente posiciones GNSS y telemetría del vehículo a Plaspy, donde la plataforma ingiere los datos, aplica reglas y muestra ubicación en vivo, alertas e informes históricos. Plaspy interpreta los eventos estándar del T303 para que los gestores de flota puedan ver viajes, responder ante emergencias y generar informes operativos sin configuraciones complejas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — posiciones GNSS y telemetría del vehículo transmitidas por GPRS para mapas en vivo y reproducción del historial.
-- Detección de encendido \(ACC\) y estado del motor — la entrada ACC permite la segmentación de viajes y los informes basados en el encendido.
-- Alertas de emergencia mediante botón SOS — notificación inmediata en Plaspy cuando se acciona SOS.
-- Inmovilización remota / corte del motor — utilice la salida digital del dispositivo bajo control de Plaspy para flujos de inmovilización ante robo.
-- Monitoreo de combustible y sensores analógicos — la entrada analógica admite sensores de combustible o temperatura para telemetría y paneles de monitoreo de combustible.
-- Eventos de comportamiento y seguridad del conductor — siete detecciones de comportamiento integradas y lecturas del acelerómetro alimentan el puntaje y alertas de conductor de Plaspy.
+- Ubicación en tiempo real y reproducción de historial para mapas en vivo y auditorías en Plaspy
+- Detección de encendido y segmentación de viajes para generar reportes de uso y kilometraje
+- Alertas SOS y emergencias encaminadas a Plaspy para notificaciones y respuesta rápida
+- Control remoto del inmovilizador mediante la salida del dispositivo gestionada a través de los flujos de trabajo de Plaspy
+- Telemetría de sensores analógicos para dashboards de combustible y temperatura dentro de Plaspy
+- Eventos de comportamiento del conductor y lecturas del acelerómetro alimentando informes de seguridad y cumplimiento
 
-## Resumen técnico
+## Casos de uso habituales
 
-| Conectividad | GSM cuádri-banda 850 / 900 / 1800 / 1900 MHz con GPRS multi-slot class 12 |
-| --- | --- |
-| Bandas / Sensibilidad del receptor | Sensibilidad del receptor GSM Clase II RBER 2% \(-107 dBm\) |
-| GNSS | Conjunto u-blox 6M con A-GPS; sensibilidad autónoma -147 dBm, arranque en frío -160 dBm, seguimiento -162 dBm; precisión de posición &lt;3 m \(autónomo\), ~2.0 m \(SBAS\) |
-| TTFF | Arranque en frío ~25 s \(cielo despejado con A-GPS\), cálido &lt;25 s, caliente &lt;1 s |
-| Alimentación y batería | Voltaje de operación 8 V–32 V DC; batería de respaldo interna Li-Pol 3.7 V 250 mAh; consumo ~70 mA \(activo\), ~5 mA \(modo reposo\), máximo &lt;250 mA |
-| Interfaces | Micro USB \(configuración/depuración\), RS232 UART, 1 salida digital \(control del motor\), 2 entradas digitales \(ACC y SOS\), 1 entrada analógica para sensores de combustible/temperatura; conectores externos de antena GPS/GSM compatibles |
-| Sensores | Acelerómetro de 3 ejes integrado \(±2g/±4g/±8g/±16g\), monitorización de la tensión de la batería del vehículo, tensión de la batería de respaldo, sensor de temperatura |
-| Memoria | Memoria a bordo ~8 Mb \(aprox. 15,000 registros\) |
-| FOTA y Gestión Remota | Actualización de firmware por GPRS \(FOTA\), configuración automática de APN e identificación de la zona horaria |
-| Formato y Entorno | Dimensiones 85 × 58 × 22 mm, peso ~90 g; temperatura de funcionamiento -30 °C a +80 °C \(sin batería\), temperatura de almacenamiento -40 °C a +85 °C |
-| Geocercas | Soporta hasta 5 geocercas: círculos, rectángulos y polígonos \(hasta 32 puntos\) |
-| Bluetooth | Sin Bluetooth incorporado especificado; tenga en cuenta que Plaspy puede integrar entradas de sensores inalámbricos si es necesario a través de gateways compatibles |
-
-## Casos de uso
-
-- Antirrobo de flotas e inmovilización remota — seguimiento inmediato y corte del motor mediante la salida digital y el inmovilizador interno.
-- Monitoreo del comportamiento del conductor y seguridad — siete detecciones de comportamiento y datos del acelerómetro para análisis de velocidad, frenadas bruscas y toma de curvas.
-- Monitoreo de combustible y telemetría — entrada analógica para sensores de combustible y monitoreo de la batería del vehículo para detectar pérdidas de combustible o anomalías.
-- Asistencia en carretera y respuesta ante emergencias — botón SOS y transmisión de ubicación en tiempo real a los equipos de despacho a través de Plaspy.
-- Perfilado de vehículos y cumplimiento — modos de rastreo configurables y soporte de geocercas para verificación de rutas, informes de cumplimiento y estudios de utilización de vehículos.
+- Monitoreo antirrobo de flotas e inmovilización remota para respuesta a vehículos robados
+- Análisis del comportamiento del conductor para reducir riesgos y mejorar programas de capacitación
+- Monitoreo de combustible y telemetría para control de costos operativos y diagnóstico
+- Respuesta a emergencias y asistencia en carretera mediante alertas SOS y ubicación en vivo
+- Verificación de rutas, informes de cumplimiento y estudios de utilización de vehículos
 
 ## Por qué elegir este rastreador con Plaspy
 
-El T303 está diseñado para organizaciones que requieren telemática fiable y profesional. Su combinación de un módulo GNSS u-blox de alta sensibilidad, comunicaciones GSM/GPRS cuádri-banda y E/S robustas lo convierte en una pareja excelente para la plataforma de Plaspy. Obtenga seguimiento en tiempo real preciso, geocercas configurables, analítica de comportamiento del conductor e inmovilización remota — todo gestionable desde Plaspy para un control centralizado de la flota.
+El T303 es ideal para organizaciones que requieren un dispositivo telemático profesional y fiable combinado con una plataforma de gestión de flotas potente. Su combinación de posicionamiento GNSS sensible, amplio soporte celular, entradas flexibles y funciones de seguridad integradas lo convierten en una opción práctica para flotas que necesitan visibilidad en tiempo real, alarmas configurables y capacidades de control remoto. Plaspy integra esos datos en una vista centralizada para monitoreo, alertas e informes.
 
-Las ventajas operativas incluyen reducción de mantenimiento gracias a FOTA, entradas de sensores flexibles para telemetría y monitoreo de combustible, y características de seguridad integradas como SOS y detección ACC. Combinado con los paneles, alertas e informes de Plaspy, el T303 ofrece una solución integral para la gestión de flotas, protección antirrobo y mejoras operativas impulsadas por telemetría.
-
+Si busca un rastreador confiable que se integre con una plataforma moderna de gestión de flotas, el T303 y Plaspy ofrecen una solución complementaria para seguimiento, procesos antirrobo y operaciones impulsadas por telemetría. Learn more about Plaspy on the main website https://www.plaspy.com and note that product specifications, features and availability can change over time so please verify current specifications and manufacturer details on the official Ulbotech site http://www.ulbotech.com/ before purchase.

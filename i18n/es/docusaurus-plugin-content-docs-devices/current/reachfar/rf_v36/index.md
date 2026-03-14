@@ -2,59 +2,62 @@
 slug: /reachfar/rf_v36
 id: rf_v36
 sidebar_label: RF-V36
+title: Reachfar - RF-V36
 sidebar_class_name: menu_item_tracker
+description: Reloj GPS wearable para cuidado de adultos mayores con medición de pulso y presión arterial. Compatible con Plaspy para rastreo en tiempo real y alertas SOS
+keywords:
+  - Reachfar RF-V36
+  - RF-V36
+  - rastreador wearable Reachfar
+  - reloj GPS para adultos mayores
+  - monitor de ritmo cardiaco
+  - monitor de presion arterial
+  - GPS portable
+  - compatible con Plaspy
+  - alertas para cuidadores
+  - reloj SOS
 ---
+
 # Reachfar - RF-V36
 
 ![RF-V36](./tracker.jpg)
 
-El RF-V36 es un rastreador GPS ponible en forma de reloj diseñado para el cuidado de personas mayores, que combina servicios de ubicación fiables con monitoreo de salud y funciones de emergencia. Como dispositivo compatible con Plaspy, aporta seguimiento en tiempo real y alertas de cuidadores a los flujos de seguridad familiar: posicionamiento exterior por GPS, posicionamiento interior por Wi‑Fi y LBS asistido, y un sensor G con corrección de deriva inercial para reducir saltos de ubicación falsos, de modo que los cuidadores puedan confiar en la posición reportada por el reloj. El RF-V36 también integra monitoreo de frecuencia cardíaca y presión arterial, SOS de emergencia, audio bidireccional y cercas configurables para una supervisión continua y accionable.
+El RF-V36 es un rastreador GPS portátil en formato de reloj de pulsera diseñado para el cuidado de personas mayores. Combina posicionamiento por GPS en exteriores con posicionamiento interior por Wi‑Fi y LBS asistido, un sensor de movimiento (G‑sensor), monitoreo de ritmo cardíaco y presión arterial, señalización de emergencias SOS, audio bidireccional y recordatorios configurables. El reloj está pensado para monitoreo personal continuo y cuenta con resistencia al agua y al polvo IP67 para el uso diario.
 
-El RF-V36 está dirigido a la seguridad familiar y la concienciación sanitaria remota al combinar telemetría \(frecuencia cardíaca y presión arterial\), recordatorios de medicación y de inactividad, y comunicación por voz en un único wearable con clasificación IP67. Nota: esta página de producto indica que el RF-V36 figura como fuera de producción; sin embargo, los dispositivos ya desplegados siguen siendo útiles cuando se emparejan con la plataforma de Plaspy para seguimiento en tiempo real, alertas e informes continuos.
+Como dispositivo compatible con Plaspy, el RF-V36 envía ubicación, telemetría de salud y alertas de eventos a la plataforma de Plaspy para que cuidadores y equipos de monitoreo puedan ver el estado en tiempo real, recibir notificaciones y mantener registros históricos. Esta compatibilidad hace del RF-V36 una opción práctica para flujos de trabajo familiares donde la información de ubicación accionable y los datos de salud personal se integran en un solo wearable.
 
-## Aspectos clave
+## Aspectos destacados
 
-- Rastreador GPS compatible con Plaspy en formato ponible — integración sencilla para el seguimiento en tiempo real y notificaciones para cuidadores.
-- Posicionamiento multihíbrido: GPS exterior, Wi‑Fi interior, LBS asistido y sensor G con corrección de deriva inercial para datos de ubicación más precisos.
-- Telemetría de salud integrada: detección de frecuencia cardíaca y presión arterial 2 en 1 disponible localmente en el reloj y de forma remota a través de la app companion.
-- Funciones listas para emergencias, incluyendo un botón SOS y llamadas de audio bidireccional de alta calidad para contacto inmediato con el cuidador.
-- Recordatorios de cuidado y telemetría diaria de actividad — recordatorios de medicación, recordatorios de inactividad y conteo de pasos visibles para los cuidadores.
-- Resistencia al agua y polvo IP67 — wearable durante el uso diario, incluido el duchado, manteniendo la funcionalidad SOS.
-- Controles de plataforma flexibles: seguimiento en plataforma web, apps Android/iOS, integración con cuenta pública de WeChat y control por SMS, además de protección de doble cercado configurable \(geocerca exterior y cerca interior basada en Wi‑Fi\).
+- Diseño wearable pensado para el cuidado de adultos mayores con GPS integrado y opciones de posicionamiento interior.
+- Posicionamiento multimodal con GPS para exteriores, Wi‑Fi para interiores, LBS asistido y lecturas corregidas por movimiento desde el sensor G.
+- Telemetría de salud incorporada para ritmo cardíaco y presión arterial, visible para los responsables a través de plataformas emparejadas.
+- Funciones de emergencia, incluido un botón SOS y audio bidireccional para contacto inmediato con el cuidador.
+- Recordatorios de cuidado y actividad como medicación, alertas por sedentarismo y control de pasos para apoyar rutinas diarias.
+- Clasificación IP67 para protección contra polvo y agua durante el uso cotidiano.
+- Métodos flexibles de control y notificación, incluyendo acceso web y móvil, soporte para cuentas públicas de WeChat y controles por SMS.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el RF-V36 proporciona datos continuos y accionables a cuidadores y equipos de monitoreo. Las actualizaciones de ubicación, la telemetría de salud y las alertas de eventos desde el reloj se transmiten a través de los canales de posicionamiento y comunicación compatibles hacia el panel de control y las apps móviles de Plaspy para seguimiento en tiempo real, informes y notificaciones automáticas.
+Al conectarse a Plaspy, el RF-V36 entrega de forma continua ubicación y telemetría personal a un panel centralizado para que usted y su equipo de cuidado puedan supervisar el estado, recibir alertas y generar informes. Plaspy recopila las actualizaciones del dispositivo y las pone a disposición en interfaces web y móviles, facilitando notificaciones configurables y revisión histórica.
 
-- Actualizaciones de ubicación y telemetría en tiempo real — posición GPS exterior; Wi‑Fi y LBS asistido cuando está en interiores; lecturas corregidas por movimiento del sensor G.
-- Telemetría de salud: valores de frecuencia cardíaca y presión arterial reportados a Plaspy para monitoreo remoto y análisis de tendencias históricas.
-- Botón SOS y audio bidireccional — alerta instantánea a cuidadores con capacidad de contacto por voz desde el reloj a través de los flujos de notificación de Plaspy.
-- Dobles cercas geográficas — geocerca exterior configurable y cerca interior basada en Wi‑Fi generan alertas de movimiento dentro y fuera de zonas seguras.
-- Interfaces de plataforma y control — seguimiento en plataforma web, apps Android/iOS, posicionamiento desde cuenta pública de WeChat y control por SMS para una gestión y alertas flexibles.
+- Actualizaciones de ubicación en tiempo real para contextos exteriores e interiores, con lecturas de posición corregidas por movimiento.
+- Reporte de telemetría de salud para ritmo cardíaco y presión arterial que permite el monitoreo remoto y el análisis de tendencias.
+- Alertas SOS y voz bidireccional gestionadas a través de los flujos de trabajo de Plaspy para asegurar la notificación oportuna a los guardianes.
+- Geocercas dobles configurables que incluyen límites geográficos exteriores y cercas interiores basadas en Wi‑Fi para alertas inteligentes.
+- Visibilidad centralizada en aplicaciones web y móviles para administrar dispositivos, alertas y datos históricos de ubicación y telemetría.
 
-## Resumen técnico
+## Casos de uso habituales
 
-| Conectividad | Posicionamiento GPS exterior; posicionamiento por Wi‑Fi interior; LBS asistido; plataforma web, apps Android e iOS, posicionamiento desde la cuenta pública de WeChat; control por SMS |
-| --- | --- |
-| Bandas | No especificadas en la página del producto |
-| Energía y batería | No especificado en la página del producto |
-| Interfaces | Botón SOS; audio bidireccional de alta calidad \(micrófono y altavoz\); libreta de contactos/llamadas directas/chat de voz; recordatorios de medicamentos y de inactividad |
-| GNSS | Posicionamiento GPS exterior \(alta precisión\); LBS asistido; posicionamiento interior por Wi‑Fi; sensor G con corrección de deriva inercial |
-| Bluetooth | No especificado en la página del producto |
-| Gestión remota | Seguimiento en plataforma web, apps Android e iOS, cuenta pública de WeChat, control por SMS; protección de doble cerca configurable \(geocerca + cerca basada en Wi‑Fi\) |
-| Formato | Reloj GPS ponible; resistente al agua y al polvo IP67 |
-
-## Casos de uso
-
-- Seguridad de personas mayores y monitoreo remoto de la salud — los cuidadores reciben actualizaciones de frecuencia cardíaca, presión arterial y ubicación y pueden responder de inmediato a alertas de SOS.
-- Automatización del cuidado diario — recordatorios de medicación y avisos de inactividad ayudan a mantener rutinas y reducir dosis olvidadas o inactividad prolongada.
-- Seguridad de ubicación interior/exterior — protección de doble geocerca y posicionamiento por Wi‑Fi proporcionan mejor cobertura en hogares, residencias asistidas y salidas al aire libre.
-- Asistencia para objetos perdidos o antirrobo de wearables personales — el RF-V36 ayuda a localizar un reloj/pulsera extraviado o detectar retirada o movimiento no autorizado.
-- Tranquilidad familiar — audio bidireccional y marcación desde la libreta de contactos permiten que los cuidadores mantengan contacto directo e intervengan rápidamente cuando sea necesario.
+- Seguridad de personas mayores y monitoreo remoto de salud cuando los cuidadores requieren ubicación y seguimiento de signos vitales.
+- Gestión del cuidado diario con recordatorios de medicación y alertas por inactividad para apoyar rutinas y reducir tareas de cuidado no atendidas.
+- Aseguramiento de localización en interiores y exteriores en hogares, residencias asistidas y salidas comunitarias.
+- Localización de wearables extraviados y detección de retiro inesperado o movimientos inusuales.
+- Tranquilidad familiar mediante contacto de voz inmediato y notificaciones SOS rápidas.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el RF-V36 como rastreador GPS compatible con Plaspy combina telemetría de salud a nivel de dispositivo con las fortalezas de la plataforma de Plaspy: seguimiento en tiempo real centralizado, alertas configurables y herramientas móviles y web accesibles para cuidadores. El RF-V36 está optimizado para la seguridad personal en lugar de la telemetría de vehículos — se centra en el monitoreo de frecuencia cardíaca y presión arterial, SOS, voz bidireccional y posicionamiento interior/exterior, más que en funciones específicas de vehículos como monitoreo de combustible, detección de encendido o controles de inmovilizador. Sin embargo, Plaspy admite un amplio ecosistema de rastreadores compatibles y puede correlacionar la telemetría y la ubicación personal del RF-V36 con otros datos de activos o flotas cuando sea necesario.
+El RF-V36 está enfocado en la seguridad personal y la telemetría de salud más que en el monitoreo de vehículos o activos pesados. Para organizaciones y familias que usan Plaspy, este reloj ofrece una forma compacta de combinar conciencia de ubicación con monitoreo básico de signos vitales y alertas inmediatas. La plataforma de Plaspy puede centralizar los datos del RF-V36 junto con otros dispositivos compatibles, permitiendo que los cuidadores vean ubicación y telemetría en un mismo lugar y configuren las reglas de notificación que mejor se adapten a sus flujos de trabajo.
 
-En la práctica, el RF-V36 con Plaspy ofrece telemetría fiable y fácil de interpretar, flujos de SOS rápidos y un contexto de ubicación detallado para familiares y cuidadores. Debido a que la página del producto indica que el RF-V36 está fuera de producción, verifique la disponibilidad del dispositivo y el estado del firmware/soporte antes de la compra. Para instalaciones que requieren telemetría enfocada a vehículos \(monitoreo de combustible, control de encendido o inmovilizador\) o ecosistemas de sensores Bluetooth, Plaspy también admite otros rastreadores compatibles que ofrecen esas funciones específicas junto con las capacidades de cuidado personal del RF-V36.
+Dado que el RF-V36 se centra en escenarios de atención individual, es una buena opción para guardianes, pequeños equipos de cuidado y servicios de monitoreo que necesitan seguimiento wearable sencillo y respuesta ante emergencias. Para despliegues que requieran otros tipos de telemetría o funciones orientadas a vehículos, Plaspy soporta otros rastreadores compatibles que amplían las capacidades más allá del cuidado personal que ofrece el RF-V36.
 
+Para más información sobre Plaspy y cómo se gestionan los dispositivos compatibles en la plataforma visite https://www.plaspy.com. Tenga en cuenta que las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo y deben verificarse en el sitio del fabricante https://www.reachfargps.com/ para obtener la información más actual.

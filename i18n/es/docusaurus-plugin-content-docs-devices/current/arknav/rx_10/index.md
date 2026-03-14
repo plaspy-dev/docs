@@ -2,62 +2,62 @@
 slug: /arknav/rx_10
 id: rx_10
 sidebar_label: RX-10
+title: ArkNav - RX-10
 sidebar_class_name: menu_item_tracker
+description: Rastreador vehicular robusto IP67 compatible con Plaspy para flotas remolques y maquinaria pesada
+keywords:
+  - ArkNav RX-10
+  - Rastreador RX-10
+  - ArkNav GPS
+  - Compatible con Plaspy
+  - Rastreador para flotas
+  - Rastreador vehicular
+  - Seguimiento de remolques
+  - Rastreador para maquinaria pesada
+  - Rastreador con monitoreo de temperatura
+  - Rastreador anti robo
 ---
-# ArkNav - RX-10
 
-![RX-10](https://app.plaspy.com/r/Trackers/arknav/rx10/tracker.png)
+# ArkNav - RX-10: Rastreador robusto para vehículos
 
-El rastreador GPS RX-10 es un dispositivo de rastreo vehicular robusto, con clasificación IP67, diseñado para flotas, remolques y maquinaria pesada. Compatible con Plaspy de serie, el RX-10 combina antenas GPS y UMTS integradas con conectividad 4G LTE \(con respaldo 2G/3G\) para ofrecer seguimiento en tiempo real fiable, telemetría robusta e instalación rápida y discreta para despliegues exigentes en campo.
+![RX-10](./)
 
-El RX-10 está diseñado para la gestión de flotas a largo plazo y aplicaciones anti-robos: procesadores duales, una arquitectura multihilo y múltiples watchdogs de hardware aseguran un rendimiento estable, mientras accesorios modulares \(ID de conductor, relé inmovilizador, termómetros 1-Wire y más\) amplían la capacidad para telemetría, análisis de comportamiento del conductor y monitoreo de cargas sensibles a la temperatura.
+El RX-10 es un rastreador vehicular resistente con certificación IP67 de ArkNav, diseñado para flotas, remolques y maquinaria pesada. Integra antenas GNSS y UMTS internas junto con conectividad 4G LTE y retroceso a generaciones celulares anteriores para asegurar un rastreo en tiempo real continuo, telemetría sólida y un perfil compacto que facilita la instalación oculta en condiciones exigentes de campo.
 
-## Aspectos clave
+Como dispositivo compatible con Plaspy desde su activación, el RX-10 puede transmitir datos de ubicación, eventos y telemetría directamente a Plaspy para monitoreo centralizado, alertas e informes. Sus opciones modulares de accesorios, como identificación de conductor, relé inmovilizador y varios termómetros 1-Wire, lo hacen apto para distintos flujos de trabajo de flota que Plaspy soporta, desde seguridad antirrobo y gestión de conductores hasta supervisión de carga sensible a la temperatura.
 
-- Rastreador GPS compatible con Plaspy diseñado para entornos hostiles con clasificación IP67 y carcasa resistente al calor.
-- Conectividad celular 4G LTE con respaldo 2G/3G y antena UMTS integrada para amplia cobertura y seguimiento en tiempo real fiable.
-- Resiliencia de la alimentación del vehículo: diseñado con protección contra sobretensiones de hasta +65V para tolerar sistemas eléctricos de maquinaria pesada.
-- Conjunto de características para flotas — activación de movimiento/ignición, comportamiento del conductor y detección de colisiones, geocercas \(hasta 100 áreas con límites de velocidad\) y alertas en tiempo real.
-- Soporte de inmovilizador y ID de conductor para anti-robos, recuperación de vehículo y flujos de trabajo de seguro PAYD.
-- Telemetría escalable: entrada analógica de 12 bits, entradas altas/bajas activas y soporte para hasta ocho termómetros digitales 1-Wire para monitoreo de temperatura.
-- Arquitectura modular, accesorios opcionales y actualizaciones por aire reducen el tiempo de instalación y el mantenimiento posventa para grandes flotas.
+## Características principales
+
+- Diseñado para entornos hostiles con protección IP67 y carcasa resistente al calor para instalaciones ocultas en vehículos.
+- Conectividad celular 4G LTE con respaldo 2G/3G y antena UMTS integrada para amplia cobertura y rastreo en tiempo real confiable.
+- Compatible con sistemas eléctricos vehiculares y con resistencia documentada a picos de tensión para tolerar condiciones de maquinaria pesada.
+- Accesorios modulares, incluidos identificación de conductor, relé inmovilizador y soporte para múltiples termómetros 1-Wire, amplían la telemetría y la seguridad.
+- Construido para la fiabilidad con procesadores duales, arquitectura multihilo y watchdogs de hardware para reducir interrupciones del servicio.
+- Actualizaciones de firmware y configuración por aire (OTA) que facilitan despliegues masivos y mantenimiento continuo.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el RX-10 se convierte en una fuente de datos de alta disponibilidad para paneles de gestión de flotas, alertas e informes. El dispositivo transmite datos de ubicación y eventos a Plaspy para seguimiento en tiempo real, agregación de telemetría y flujos de trabajo automatizados. La integración compatible con Plaspy admite alertas y acciones como notificaciones de violación de geocerca, eventos de ignición/puerta, coincidencia de ID de conductor y control del inmovilizador.
+Al conectarse a Plaspy, el RX-10 actúa como una fuente continua de datos para paneles de control de flota, alertas e informes operativos. Plaspy ingiere la ubicación y los eventos del dispositivo para ofrecer visibilidad, notificaciones automatizadas y registros históricos que respaldan las operaciones y los procesos de seguridad de la flota.
 
-- Actualizaciones de ubicación y telemetría en tiempo real transmitidas sobre 4G LTE con respaldo para seguimiento continuo.
-- Eventos de ignición y movimiento para un inicio/parada de viaje preciso y análisis del comportamiento del conductor.
-- Telemetría de temperatura mediante hasta ocho termómetros digitales 1-Wire \(útil para logística de cadena de frío y carga regulada en temperatura\).
-- Soporte de ID de conductor e inmovilizador para flujos de trabajo anti-robos y inmovilización remota cuando sea necesario.
-- Eventos de colisión/aceleración procedentes del acelerómetro de 3 ejes ±16G y subida opcional de imágenes de vigilancia \(donde sea compatible\) como prueba de incidentes.
-- Actualizaciones de firmware y configuración por aire \(FOTA\) para gestionar despliegues grandes de forma remota a través de Plaspy.
+- Actualizaciones de ubicación y telemetría en tiempo real hacia Plaspy para seguimiento en mapa y visibilidad de la flota.
+- Eventos de ignición y movimiento para segmentación de viajes, informes de utilización y análisis del comportamiento del conductor.
+- Telemetría de temperatura desde sensores 1-Wire para monitoreo de la cadena de frío y alertas de carga sensible a la temperatura.
+- Eventos de identificación de conductor e inmovilizador para habilitar flujos de trabajo antirrobo y control administrativo vía Plaspy.
+- Eventos de colisión y aceleración para activar alertas de incidentes y apoyar la revisión posterior en Plaspy.
+- Gestión remota de firmware y configuración para mantener los dispositivos desplegados actualizados desde Plaspy.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Conectividad | 4G LTE con respaldo 2G/3G; soporte UMTS con antena UMTS integrada. Antena GPS integrada y soporte AGPS. |
-| --- | --- |
-| Bandas | Dependiente del modelo/región \(las bandas no se especifican en la descripción\). |
-| Alimentación y Protección | Diseñado para sistemas de energía de vehículos con protección contra sobretensiones de hasta +65V; carcasa resistente al calor para entornos adversos. Batería de respaldo no especificada. |
-| Interfaz | Ranura SIM de tamaño completo, interfaz USB 2.0 de alta velocidad, RS-232 de 3 hilos, entrada analógica de 12 bits \(0–30 Vdc\), soporte para entradas activas altas/bajas, salida en placa de 3.3V 100 mA para dispositivos 1-Wire. |
-| GNSS | Antena GPS integrada con soporte AGPS; receptor GNSS a bordo \(precisión no especificada\). |
-| Sensores | Acelerómetro de 3 ejes ±16G \(predeterminado\) para detección de movimiento y de colisiones; soporte para hasta ocho termómetros digitales 1-Wire. |
-| Almacenamiento | 31 MB de memoria flash para copias de seguridad de datos y registro offline. |
-| Indicadores y Fiabilidad | Indicadores LED para red \(LTE/UMTS/GPRS\), estado de energía y GPS; arquitectura de doble procesador, multihilo y múltiples watchdogs para operación estable. |
-| Accesorios | Relé inmovilizador opcional, sondas/etiquetas iButton/llaveros para ID de conductor, caja de protección contra sobretensiones ISO-7637, cable de configuración USB, sellos de garantía, zumbador y termómetros 1-Wire. |
-| Gestión remota | Actualizaciones de firmware y configuración por aire \(FOTA\) para aprovisionamiento y mantenimiento remotos. |
-| Formato | Rastreador de vehículos/activos robusto y compacto con clasificación IP67 y instalación oculta habilitada por antenas integradas. |
-| Bluetooth | No especificado en la descripción del dispositivo. |
-
-## Casos de uso
-
-- Gestión de flotas y despacho: seguimiento en tiempo real, monitoreo del comportamiento del conductor y geocercas para flotas urbanas y de larga distancia.
-- Seguimiento de remolques y maquinaria pesada: robustez IP67 y protección contra sobretensiones de alto voltaje para remolques, maquinaria de construcción y agrícola.
-- Logística de temperatura controlada: múltiples termómetros 1-Wire para monitoreo de cadena de frío y cumplimiento normativo.
-- Anti-robos y recuperación de vehículos: soporte de inmovilizador, ID de conductor y alertas en tiempo real para reducir el riesgo de robo y acelerar la recuperación.
-- Seguro PAYD y prueba de entrega: telemetría, eventos de ignición y cargas opcionales de imágenes de vigilancia para seguro basado en uso y verificación de entrega.
+- Gestión de flotas y despacho para operaciones urbanas y de larga distancia que requieren rastreo continuo y supervisión de conductores.
+- Seguimiento de remolques y equipos pesados donde la robustez y la resistencia a picos de tensión son clave.
+- Logística con control de temperatura utilizando múltiples termómetros 1-Wire para visibilidad de la cadena de frío.
+- Flujos de trabajo antirrobo y recuperación de vehículos mediante identificación de conductor, soporte de inmovilizador y alertas en tiempo real.
+- Flujos basados en uso como soporte para seguros PAYD y verificación de entregas mediante datos de eventos y viajes.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El RX-10 es un rastreador GPS compatible con Plaspy que equilibra hardware robusto con telemetría flexible y gestión remota. Sus antenas integradas simplifican la instalación y el ocultamiento, mientras que el procesamiento multihilo y múltiples watchdogs reducen las interrupciones del servicio. Para los operadores de flotas, el RX-10 ofrece seguimiento en tiempo real, soporte de ignición e ID de conductor, y opciones de monitoreo de temperatura, todo gestionable a través de Plaspy para alertas centralizadas, informes y actualizaciones por aire. Elija el RX-10 con Plaspy cuando necesite una solución de rastreo duradera y escalable que soporte flujos de trabajo anti-robos, telemetría de gestión de flotas y despliegue simplificado a gran escala.
+El RX-10 es una opción práctica para organizaciones que requieren un rastreador resistente y flexible que se integre con una plataforma de gestión de flotas como Plaspy. Su diseño de hardware se centra en la durabilidad y el funcionamiento estable en entornos vehiculares y de equipos pesados, mientras que las entradas modulares y accesorios permiten a las flotas adaptar la telemetría y las funciones de seguridad a necesidades operativas específicas.
 
+En conjunto con Plaspy, el RX-10 forma parte de un flujo de trabajo centralizado para alertas, generación de informes y mantenimiento remoto de dispositivos. Esta combinación es especialmente útil para operadores que necesitan hardware confiable en campo y una plataforma escalable para supervisar flotas grandes o heterogéneas.
+
+Para obtener más información sobre la gestión de rastreadores y flujos de trabajo de flota con Plaspy visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica actual en el sitio del fabricante https://www.arknavgps.com.tw/.

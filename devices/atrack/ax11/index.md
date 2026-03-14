@@ -2,62 +2,62 @@
 slug: /atrack/ax11
 id: ax11
 sidebar_label: AX11
+title: ATrack - AX11
 sidebar_class_name: menu_item_tracker
+description: OBDII plug and play AX11 GPS tracker compatible with Plaspy for fleet tracking driver scoring rental and telematics
+keywords:
+  - ATrack AX11
+  - AX11 GPS tracker
+  - AX11 tracker
+  - ATrack OBDII
+  - OBDII GPS tracker
+  - fleet tracking
+  - Plaspy compatible
+  - vehicle telematics
+  - GNSS tracker
+  - LTE tracker
 ---
+
 # ATrack - AX11
 
 ![AX11](./tracker.jpg)
 
-# AX11 OBDII Vehicle Tracker
+The AX11 is an OBDII plug and play GPS tracker designed for rapid vehicle deployment and telematics integration. Built around the SAE J1962 Type B OBDII connector, the AX11 targets fleet management, usage based insurance, car rental operations and parental or teen driver monitoring. It combines cellular connectivity, integrated GNSS positioning and vehicle bus telemetry to provide continuous location and vehicle data without complex wiring.
 
-The AX11 is a plug-and-play OBDII GPS tracker designed for fast integration with telematics platforms like Plaspy. Built for fleet management, usage-based insurance, car rental operations and teenage driver monitoring, the AX11 combines LTE cellular connectivity, integrated GNSS positioning and rich vehicle-bus telemetry to deliver reliable, Plaspy compatible real-time tracking and reporting.
-
-Engineered for quick installation via the SAE J1962 Type B OBDII port, the AX11 provides robust data capture from passenger cars to heavy-duty trucks. Its carrier-ready LTE hardware, internal GNSS and optional Bluetooth Low Energy support make it an ideal GPS tracker for scalable fleet deployments and vehicle-centric IoT use cases on Plaspy.
+As a Plaspy compatible device, the AX11 can stream location fixes, vehicle-bus telemetry and driving events into the Plaspy platform for live monitoring, alerts and historical reporting. Its quick installation, local logging and remote management features make it a practical option for organizations that need scalable tracking and operational oversight through Plaspy.
 
 ## Key Highlights
 
-- Plug-and-play OBDII installation \(SAE J1962 Type B\) for rapid deployment across vehicle fleets.
-- LTE connectivity with Cat.1 and Cat.M1 module variants plus TCP/UDP and SMS transport for reliable real-time tracking.
-- Integrated GPS/GLONASS 99-channel GNSS engine with −167 dBm tracking sensitivity and typical 2.5 m CEP \(50%\) location accuracy.
-- Wide vehicle-bus protocol support \(OBDII, SAE J1939, J1708/J1587, ISO 15765-4 CAN, ISO 14230-4, ISO 9141-2, SAE J1850\) to unlock telemetry such as fuel and engine status where available.
-- Internal 64 Mbit flash for local log storage \(~120,000 logs\) and very low deep-sleep current \(around 1.7 mA @12V on some variants\) for minimal draw on vehicle batteries.
-- Built-in 3-axis ±16 g accelerometer and 3-axis gyroscope \(±2000 dps\) for driving-behavior events, harsh-braking and collision detection analytics.
-- Rugged design meeting MIL-STD-810G/SAE J1455 with operating range −40 to +70°C and flame-retardant ABS+PC enclosure.
-- Device management features: internal NanoSIM, ADM/SMS/USB configuration and firmware updates via ADM, FOTA or USB.
+- Plug and play OBDII installation via SAE J1962 Type B for fast fleet rollout and minimal installation time.
+- Cellular connectivity with variants suited to wide area coverage to support reliable real time data uploads.
+- Integrated GNSS positioning with multi channel reception and industry typical location accuracy for dependable tracking.
+- Broad vehicle bus and OBD support to capture engine and vehicle parameters where available on the host vehicle.
+- Internal local log storage to preserve data during connectivity gaps and enable batch uploads when a connection is restored.
+- Built in motion sensors for detecting driving events such as harsh braking and collisions to support safety analytics.
+- Rugged design and remote device management capabilities to support fleet scale deployments and lifecycle updates.
 
 ## How It Works with Plaspy
 
-When paired with Plaspy, the AX11 streams vehicle location and telematics to the platform using its cellular data link \(TCP/UDP\) or falls back to SMS where needed. Plaspy ingests GNSS fixes, OBD/CAN telemetry and sensor events to provide live maps, alerts and historical reports for fleet managers and insurers.
+When paired with Plaspy, the AX11 delivers vehicle location and telematics to the platform using its cellular data link or fallback messaging options. Plaspy receives GNSS positions, vehicle bus parameters and sensor events, then surfaces that information on live maps, alert channels and historical reports for fleet and operations teams.
 
-- Real-time location and telemetry updates over LTE \(Cat.1 / Cat.M1\) to Plaspy for live tracking and geofencing alerts.
-- Vehicle-bus data capture \(OBDII / CAN / J1939 / J1708\) enabling fuel monitoring, engine diagnostic parameters and ignition status where available on the vehicle.
-- Local log storage \(internal 64 Mbit flash\) with batch upload to Plaspy for reconnect scenarios or intermittent coverage.
-- Driving behavior events \(accelerometer/gyroscope\) transmitted to Plaspy for harsh event scoring, driver coaching and safety reports.
-- Optional Bluetooth Low Energy support for BLE sensors \(TPMS and other peripherals\) to extend Plaspy telemetry with wireless sensor data.
+- Real time location updates and geofencing alerts in Plaspy for live fleet visibility and operational response.
+- Vehicle bus data capture to feed fuel, engine status and ignition information into Plaspy dashboards and reports where such data is available from the vehicle.
+- Local log storage with batch upload to Plaspy to recover data after periods of poor connectivity or when devices rejoin the network.
+- Driving behavior and harsh event transmission to Plaspy for scoring, safety reporting and coaching workflows.
+- Optional wireless peripheral support to extend Plaspy telemetry with additional sensor inputs where deployed.
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | LTE cellular \(variants: LTE Cat.1 and Cat.M1\); data transport via UDP/IP, TCP/IP and SMS |
-| --- | --- |
-| Bands / Carrier Readiness | Carrier-certified variants for AT&T, Verizon, Sprint, TELUS and module-certified carriers \(NTT Docomo, KDDI, Telstra\); frequency band variants available for different markets |
-| Power & Battery | Vehicle 12V/24V power; deep sleep ~1.7 mA @12V on some variants; internal backup battery 3.7V 90 mAh for brief power-loss scenarios |
-| Interfaces | SAE J1962 Type B OBDII connector \(plug-and-play\); mini USB PC/accessory interface; optional adapters and accessory interfaces \(J1939/J1708 adapters, RS232, 1-Wire, OBD extension cables\) |
-| GNSS | Integrated GPS/GLONASS, 99-channel engine, −167 dBm tracking sensitivity, typical 2.5 m CEP \(50%\) |
-| Bluetooth | Optional Bluetooth Low Energy v4.2 for IoT peripherals and TPMS sensors |
-| Remote Management | ADM/SMS/USB configuration and firmware updates via ADM, FOTA or USB cable |
-| Form Factor & Durability | OBDII dongle style: 84 × 52 × 25 mm, 80 g; flame-retardant ABS+PC enclosure; rated to MIL-STD-810G/SAE J1455; operating −40 to +70°C \(without battery\) |
-
-## Use Cases
-
-- Fleet management: live vehicle tracking, route replay, scheduling and telemetry for commercial fleets.
-- Usage-based insurance and driver scoring: collect OBD/CAN data plus accelerometer/gyroscope events to feed safe-driving models.
-- Car rental and shared mobility: plug-and-play installation for mileage, tamper alerts and location reporting without complex wiring.
-- Teenage driver monitoring and parental alerts: speed, harsh events and location reporting to help improve driving behavior.
-- Heavy-duty truck telemetry: use optional J1939/J1708 adapters and OEM CAN reads to collect engine and fuel parameters for trucks and vocational fleets.
+- Commercial fleet management for route monitoring, asset utilization and maintenance planning.
+- Usage based insurance and driver scoring programs that rely on vehicle telemetry and event data.
+- Car rental and shared mobility services requiring quick installation, tamper awareness and location reporting.
+- Parental and teen driver monitoring to track speed events, location and safety related incidents.
+- Heavy duty and vocational fleets using adapters or vehicle bus reads to collect engine and fuel parameters for operations.
 
 ## Why Choose This Tracker with Plaspy
 
-The AX11 is a Plaspy compatible GPS tracker that balances fast deployment with rich telemetry. Its OBDII form factor eliminates complex installation, while industry-grade GNSS and LTE connectivity ensure accurate real-time tracking and reliable data uploads. Built-in sensors and broad vehicle-bus protocol support make it a strong fit for fleet management, telemetry-driven insurance programs and rental operations.
+The AX11 is a practical choice for organizations that prioritize rapid installation and vehicle centric telemetry. Its OBDII form factor simplifies deployment across mixed fleets, while integrated GNSS and cellular connectivity support continuous tracking and platform integration. Built in sensors, local logging and remote management features help maintain data continuity and reduce manual intervention during large scale rollouts.
 
-Choose the AX11 with Plaspy to gain scalable, remote-managed tracking that supports Bluetooth sensors, comprehensive OBD/CAN data capture \(fuel and ignition parameters where available\), local logging for intermittent coverage and FOTA-driven lifecycle updates. The combination delivers trusted location awareness, anti-theft recovery capabilities, driving-behavior analytics and the telemetry foundation you need to optimize operations.
+Paired with Plaspy, the AX11 provides a foundation for location based workflows, safety programs and telemetry driven operations without heavy installation work. For organizations evaluating tracking options, the AX11 is worth considering when you need a balance of convenience, vehicle data access and compatibility with cloud based fleet management.
 
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time; please verify current technical information and regional variants on the official ATrack site https://www.atrack.com.tw/.

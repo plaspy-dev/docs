@@ -2,60 +2,60 @@
 slug: /suntech/st4955
 id: st4955
 sidebar_label: ST4955
+title: Suntech - ST4955
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS solar robusto ST4955 para seguimiento prolongado de activos al aire libre, con localización en tiempo real y telemetría de bajo consumo compatible con Plaspy
+keywords:
+  - Suntech ST4955
+  - Rastreador ST4955
+  - Rastreador Suntech
+  - ST4955 Plaspy
+  - Rastreador GPS ST4955
+  - Rastreador GPS solar
+  - Rastreador de activos
+  - Rastreador para exteriores
+  - Seguimiento de flotas
+  - Monitoreo remoto
 ---
+
 # Suntech - ST4955
 
 ![ST4955](./tracker.jpg)
 
-La serie ST4955 es un rastreador GPS robusto alimentado por energía solar, diseñado para el monitoreo al aire libre a largo plazo y despliegues compatibles con Plaspy. Diseñado para operar en redes LTE Cat M1 y NB‑IoT con fallback EGPRS \(2G\), la ST4955 ofrece un seguimiento en tiempo real fiable y telemetría de bajo consumo para vehículos, activos no energizados y equipos de alto valor en entornos difíciles.
+El ST4955 es un rastreador GPS robusto, alimentado por energía solar, diseñado para el monitoreo prolongado en exteriores de vehículos, equipos sin fuente de alimentación propia y activos de alto valor. Pensado para despliegues de campo extensos, el dispositivo combina un receptor GNSS de alta sensibilidad con sistemas de aprovechamiento de energía y opciones de baterías de gran capacidad para soportar meses de funcionamiento autónomo en entornos exigentes.
 
-Con operación autónoma de varios meses, un receptor GNSS de 56 canales de alta sensibilidad de u‑blox, sensores Bluetooth opcionales y una serie de entradas ambientales, la serie ST4955 es ideal cuando la vida útil en campo prolongada, la ubicación precisa y la gestión remota importan. La integración con Plaspy aporta la ubicación del dispositivo, eventos del acelerómetro y flujos de sensores a una única interfaz de gestión de flotas y monitorización anti‑robo para una visión operativa inmediata.
+Como dispositivo compatible con Plaspy, el ST4955 aporta posiciones, eventos del acelerómetro y flujos de sensores ambientales a Plaspy para una supervisión consolidada de flotas y activos. Su diseño de bajo consumo y las funciones de gestión remota lo hacen una opción práctica cuando se requiere seguimiento persistente, monitoreo de condiciones y visibilidad remota en activos distribuidos o de difícil acceso.
 
-## Aspectos clave
+## Puntos clave
 
-- Diseño alimentado por energía solar con opciones de batería Li‑ion interna \(5.200 / 7.800 / 10.050 mAh\) para una operación autónoma extendida en exteriores.
-- Conectividad celular en LTE Cat M1 y NB‑IoT con fallback a EGPRS \(2G\) para telemetría fiable y seguimiento en tiempo real ante condiciones de red variables.
-- Receptor GNSS de 56 canales de u‑blox \(GPS/GLONASS\) con soporte SBAS y precisión típica de aproximadamente ±2.5 m CEP para un posicionamiento preciso.
-- Modos de ultra baja potencia \(activo 30–60 mA; sleep 3.5 mA; deep sleep \<10 µA\) para soportar despliegues de varios meses o años, dependiendo de los intervalos de reporte.
-- Posicionamiento opcional por BLE y Wi‑Fi, además de sensores ambientales \(temperatura, humedad, luz, presión barométrica\) y soporte para sondas de temperatura 1‑wire para telemetría más allá de la ubicación.
-- Carcasa robusta IP67 \(IP65 con opción de sensor de humedad\); amplio rango de temperatura de operación y certificaciones industriales \(CE, FCC, IC, PTCRB\).
-- Actualizaciones de firmware remotas \(OTA/FOTA\) y transporte TCP/UDP estándar para ciclos de vida del dispositivo seguros y gestionables.
+- Diseño con alimentación solar y varias opciones de batería interna para prolongar la autonomía en campo en despliegues de larga duración.
+- Conectividad celular multinetwork con conmutación de respaldo para mantener la telemetría desde sitios remotos y activos en movimiento.
+- Receptor GNSS de alta sensibilidad de 56 canales para posicionamiento preciso y obtención fiable de fijaciones en condiciones difíciles.
+- Modos de operación de ultra bajo consumo que permiten intervalos de reporte de varios meses y reducen las visitas de mantenimiento.
+- Acelerómetro integrado y soporte para entradas ambientales para capturar eventos de movimiento y telemetría de condición además de la ubicación.
+- Caja resistente y amplio rango de temperatura de operación para aplicaciones industriales y al aire libre.
+- Actualizaciones de firmware remotas e informes de salud del dispositivo para simplificar el mantenimiento de la flota y la gestión del ciclo de vida.
 
 ## Cómo funciona con Plaspy
 
-La serie ST4955 transmite ubicaciones GNSS y telemetría de sensores a través de redes celulares \(LTE Cat M1 / NB‑IoT con fallback a 2G\) usando TCP/UDP. Plaspy ingiere estos paquetes de telemetría, decodifica la ubicación, eventos del acelerómetro y datos de sensores ambientales, y los presenta mediante seguimiento en tiempo real, alertas e informes históricos. Esta integración estrecha permite a los equipos de gestión de flotas y a los propietarios de activos actuar de inmediato sobre los datos de ubicación y estado.
+Cuando lo despliega con Plaspy, el ST4955 transmite la ubicación y la telemetría a la plataforma, donde Plaspy decodifica y presenta los datos para uso operativo. Plaspy consolida las fijaciones GNSS, los eventos de movimiento y los flujos de sensores en mapas, alertas e informes históricos para que los equipos puedan supervisar activos, reaccionar ante incidentes y analizar el rendimiento a lo largo del tiempo.
 
-- Actualizaciones en tiempo real de ubicación y telemetría entregadas a Plaspy para mapeo y alertas de geocerca.
-- Detección de movimiento e impactos a partir del acelerómetro de 3 ejes integrado para flujos de anti‑robo y recuperación.
-- Flujos de sensores ambientales \(temperatura, humedad, luz, presión barométrica\) y datos de sonda de temperatura 1‑wire para monitoreo de condiciones de activos sensibles.
-- Sensores Bluetooth opcionales para recopilación de telemetría local y soporte de balizas BLE.
-- Actualizaciones de firmware remotas \(OTA\) e informes de salud del dispositivo vía Plaspy para mantenimiento de flota escalable.
+- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para mapeo, seguimiento en vivo y alertas de geovallas.
+- Detección de movimiento e impactos mediante el acelerómetro integrado para apoyar flujos de trabajo anti robo y acciones de recuperación.
+- Flujos de sensores ambientales y datos de sondas disponibles dentro de Plaspy para el monitoreo de condiciones en activos sensibles a la temperatura o expuestos al clima.
+- Datos opcionales de sensores Bluetooth agregados en Plaspy para ampliar la cobertura de telemetría local cuando sea necesario.
+- Gestión remota de firmware y métricas de estado del dispositivo visibles en Plaspy para apoyar el mantenimiento escalable de la flota y las actualizaciones.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | LTE Cat. M1 y NB‑IoT \(primaria\) con fallback EGPRS \(2G\); transporte TCP/UDP |
-| --- | --- |
-| Bandas | Amplio conjunto de bandas LTE Cat M1 / NB‑IoT \(ver hoja de datos del fabricante\); EGPRS 850 / 900 / 1800 / 1900 MHz para fallback |
-| Potencia y Batería | Opciones de batería Li‑ion internas \(3,6 V: 5.200 mAh, 7.800 mAh, 10.050 mAh\); entrada de panel solar \(5,5 V DC\) y carga rápida por 12 V DC soportadas; consumo típico: activo 30–60 mA, sleep 3.5 mA, deep sleep \<10 µA \(sin sensores\) |
-| Interfaces | Alimentación/masa externa, interfaz 1‑wire opcional para sondas de temperatura, indicadores LED para estado de red y GNSS |
-| GNSS | Receptor u‑blox de 56 canales \(GPS/GLONASS\) con SBAS \(WAAS, EGNOS, MSAS\); precisión típica ≈ ±2.5 m CEP \(50%, 2D RMS, -130 dBm, >6 satélites\); TTFF en frío \<35 s, en caliente \<1 s; sensibilidad −167 dBm \(tracking\) |
-| Bluetooth | BLE opcional para sensores y balizas \(según modelo\) |
-| Gestión remota | Actualizaciones de firmware por aire \(OTA/FOTA\) y configuración remota a través de canales de telemetría estándar |
-| Certificaciones y Entorno | Carcasa IP67 \(IP65 con opción de sensor de humedad\); rango de operación −20°C a +60°C; certificados CE, FCC, IC, PTCRB |
-| Formato | 97.4 mm × 130 mm × 37.5 mm; peso ≈ 300 g \(con 5.200 mAh\), 350 g \(con 7.800 mAh\), 370 g \(con 10.050 mAh\) |
-
-## Casos de uso
-
-- Seguimiento de activos a largo plazo para equipos no energizados: la carga solar y un bajo consumo en modo espera permiten desplegar en campo durante meses o años.
-- Gestión de flotas y seguimiento en tiempo real de remolques, equipos en alquiler y vehículos fuera de carretera donde se requiere telemetría celular.
-- Operaciones anti‑robo y recuperación: eventos del acelerómetro y seguimiento GNSS persistente ayudan a localizar activos movidos o robados.
-- Monitoreo de construcción, minería y equipos en sitios remotos donde una encapsulación robusta IP67 y una amplia tolerancia a temperaturas son esenciales.
-- Monitoreo ambiental y de condiciones: sensores integrados y opcionales, además de soporte para sondas 1‑wire, proporcionan telemetría de temperatura y humedad para activos sensibles.
+- Seguimiento a largo plazo de activos sin alimentación propia donde la carga solar y el bajo consumo en espera reducen las necesidades de mantenimiento.
+- Monitoreo de flotas de remolques, equipos de renta y maquinaria fuera de carretera que requieren telemetría celular persistente.
+- Operaciones anti robo y recuperación usando detección de movimiento y reporte continuo de ubicación.
+- Monitoreo de sitios remotos en construcción, minería y otros despliegues exteriores que necesitan hardware resistente y amplia tolerancia térmica.
+- Monitoreo de condiciones ambientales de activos sensibles mediante entradas de sensores integrados y opcionales.
 
 ## Por qué elegir este rastreador con Plaspy
 
-La serie ST4955 combina rendimiento al aire libre a largo plazo con la plataforma Plaspy para ofrecer seguimiento y telemetría en tiempo real accionables. Su carga solar y los modos de ultra bajo consumo minimizan el mantenimiento, mientras la conectividad celular multired \(LTE Cat M1 / NB‑IoT con fallback a 2G\) mantiene el flujo de datos desde sitios remotos. Plaspy presenta la ubicación GNSS, eventos del acelerómetro y datos de sensores ambientales en vistas de mapa, alertas e informes para una gestión de flotas y flujos anti‑robo más eficientes.
+El ST4955 es una opción práctica para organizaciones que necesitan hardware de rastreo duradero y de bajo mantenimiento combinado con una plataforma de gestión que consolida datos de ubicación y condición. Su capacidad de carga solar, opciones de baterías extendidas y diseño eficiente reducen el servicio en sitio, mientras que Plaspy proporciona los paneles operativos, alertas e informes necesarios para actuar sobre esos datos.
 
-Para escenarios mixtos de telemetría —incluida la integración con sistemas de vehículos que proporcionan encendido, monitoreo de combustible o estado del inmovilizador—, Plaspy puede correlacionar fuentes externas con la ubicación y los flujos de sensores del ST4955 para proporcionar una visión consolidada. Las actualizaciones de firmware por aire \(OTA\) y el soporte opcional para sensores BLE, junto con hardware robusto y certificado, hacen de la familia ST4955 una opción escalable, compatible con Plaspy, para el seguimiento de activos al aire libre a largo plazo y la monitorización remota. Consulte el folleto del fabricante y las descargas técnicas para obtener una guía detallada de configuración e instalación.
-
+La integración con Plaspy permite a los equipos correlacionar ubicación, eventos del acelerómetro y telemetría ambiental en una sola interfaz para apoyar la prevención de robos, la utilización de activos y el monitoreo basado en condiciones. Para más información sobre compatibilidad, escenarios de despliegue y cómo el ST4955 puede integrarse en sus flujos de trabajo, consulte Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales en el sitio del fabricante http://www.suntechint.com/.

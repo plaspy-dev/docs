@@ -2,63 +2,61 @@
 slug: /careu/ugo
 id: ugo
 sidebar_label: Ugo
+title: CAREU - Ugo
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS OBD II CAREU Ugo plug and play compatible con Plaspy para seguimiento en tiempo real telemetría y monitoreo de conductores
+keywords:
+  - CAREU Ugo
+  - Rastreador GPS Ugo
+  - CAREU Ugo Plaspy
+  - Rastreador compatible con Plaspy
+  - Rastreador OBD II
+  - Rastreo de vehículos
+  - Gestión de flotas
+  - Seguimiento en tiempo real
+  - Comportamiento del conductor
+  - Telemetría vehicular
 ---
+
 # CAREU - Ugo
 
 ![Ugo](./tracker.png)
 
-El CAREU Ugo GPS Tracker es un rastreador OBD-II plug-and-play diseñado para un despliegue rápido y telemetría de vehículos confiable. Compatible desde el primer momento con Plaspy, Ugo aporta rastreo en tiempo real y datos de gestión de flotas a tu panel de Plaspy a través de 4G LTE \(Cat.1 / Cat.M\) con respaldo a 3G/2G. Con un conjunto de antenas GPS/GSM integradas, batería interna y un acelerómetro de 6 ejes, Ugo ofrece ubicación continua, detección de comportamiento de conducción y datos detallados de OBD-II del vehículo sin instalación compleja.
+El CAREU Ugo es un rastreador GPS OBD II plug and play diseñado para despliegues rápidos y telemetría vehicular continua. Conectado directamente al puerto OBD II del vehículo, Ugo entrega actualizaciones de ubicación y datos del vehículo manteniendo la instalación simple. Cuenta con antenas integradas, batería interna de respaldo y un acelerómetro de 6 ejes para registrar eventos de conducción junto con la información OBD II como el odómetro cuando el vehículo lo expone.
 
-Diseñado para flotas comerciales y vehículos de usuario final por igual, CAREU Ugo simplifica la monitorización antirrobo, el estado de encendido y del motor, y la analítica del comportamiento del conductor. Su formato OBD-II plug-and-play y el soporte para una SIM estándar o eSIM integrada lo convierten en un rastreador GPS compatible con Plaspy ideal para organizaciones que requieren seguimiento en tiempo real escalable y rentable, con registro de datos robusto y gestión remota.
+Ugo es compatible con Plaspy desde el primer momento, lo que lo convierte en una opción práctica para flotas y organizaciones que desean integrar telemática en una instancia de Plaspy de forma rápida. Con conectividad celular multigeneracional y opciones de SIM estándar o eSIM integrada, el dispositivo está pensado para despliegues escalables y gestión remota, permitiendo a los usuarios de Plaspy recibir posiciones en vivo, eventos de comportamiento y telemetría vehicular sin procesos complejos de incorporación de dispositivos.
 
-## Aspectos destacados
+## Características principales
 
-- Instalación OBD-II plug-and-play para un seguimiento en tiempo real inmediato con Plaspy.
-- Conectividad 4G LTE \(Cat.1 / Cat.M\) con respaldo automático a 3G/2G para una cobertura más amplia.
-- Antenas GPS y GSM integradas, más una batería de respaldo para reportes continuos y alertas por pérdida de alimentación.
-- Acelerómetro de 6 ejes para detectar aceleración brusca, frenazo, toma de curvas, impacto y vuelco.
-- Lectura de datos OBD-II a bordo \(incluido odómetro\) para enriquecer la telemetría y el monitoreo de combustible cuando el vehículo proporcione datos de combustible.
-- Gran capacidad de registro local: hasta 200,000 registros de posición en variantes 4G \(150,000 en variantes 3/2G\).
-- Configuración remota y actualizaciones de firmware FOTA vía FTP para una gestión simplificada del dispositivo.
+- Factor de forma OBD II plug and play para despliegues rápidos y tiempo de instalación mínimo.
+- Conectividad celular multigeneracional para amplia cobertura y entrega de datos confiable.
+- Antenas GPS y GSM integradas con batería interna de respaldo para reportes continuos.
+- Acelerómetro de 6 ejes para detectar conducción agresiva, impactos y volcadas.
+- Lectura de datos OBD II a bordo, incluyendo odómetro cuando está disponible, para enriquecer la telemetría de la flota.
+- Gran capacidad de registro local para conservar historial de posiciones durante cortes de conectividad.
+- Soporte para configuración remota y actualizaciones de firmware que simplifican la gestión de dispositivos.
 
 ## Cómo funciona con Plaspy
 
-Cuando se empareja con Plaspy, el CAREU Ugo reenvía posiciones GNSS y telemática del vehículo a tu instancia de Plaspy para vistas en vivo, alertas e informes históricos. Los datos OBD-II y los eventos del acelerómetro de Ugo alimentan los flujos de trabajo de gestión de flota de Plaspy para habilitar puntuación de conductor, alertas de geocercas y notificaciones anti-robo. La configuración remota y el soporte FOTA permiten mantener el firmware y los informes alineados con las políticas de Plaspy sin devolver las unidades a un taller.
+Al integrarse con Plaspy, Ugo envía puntos de ubicación y telemetría vehicular a Plaspy para monitoreo en vivo, alertas e informes históricos. Las lecturas OBD II y los eventos del acelerómetro forman parte de los flujos de trabajo de la flota para entrenamiento de conductores, análisis de viajes y monitoreo de seguridad. La configuración remota y las actualizaciones de firmware ayudan a mantener los dispositivos alineados con las necesidades de reporte de Plaspy en toda la flota desplegada.
 
-- Actualizaciones de ubicación y telemetría en tiempo real transmitidas a Plaspy para mapeo y despacho.
-- Informe del estado del motor/encendido para el estado on/off y la segmentación de viajes.
-- Lectura de datos OBD-II a bordo \(incluido odómetro\); el monitoreo de combustible es compatible cuando el vehículo expone datos de combustible vía OBD-II.
-- Eventos de conducción agresiva e impactos \(aceleración brusca, frenazo, toma de curvas, impacto y vuelco\) enviados como alertas para entrenamiento del conductor.
-- Imovilizador opcional o control remoto mediante el accesorio relé inalámbrico \(configurable dentro de los flujos de trabajo de Plaspy\).
-- Soporte Bluetooth 4.0 \(variante 4G\) para conectar sensores Bluetooth y balizas para ampliar la telemetría y el contexto de activos.
+- Actualizaciones de ubicación en tiempo real transmitidas a Plaspy para visibilidad en mapas y despacho.
+- Reporte de estado del motor e ignición para segmentar viajes y medir uso del vehículo.
+- Telemetría OBD II, incluyendo datos de odómetro cuando están disponibles, para respaldar los informes.
+- Eventos de conducción agresiva e impactos enviados como alertas para apoyar flujos de trabajo de comportamiento del conductor.
+- Accesorios opcionales como inmovilizadores o relés pueden gestionarse desde flujos de trabajo de Plaspy donde estén configurados.
+- Variantes con Bluetooth permiten integrar sensores y balizas para ampliar la visibilidad de activos.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Model / Manufacturer | CAREU Ugo \(CAREU\) |
-| --- | --- |
-| Connectivity | 4G LTE \(Cat.1 / Cat.M\) with fallback to 3G and 2G; supports standard SIM or built-in eSIM |
-| Bands | Multi-generation cellular support \(4G/3G/2G\) — specific bands depend on variant and regional SKU |
-| Power & Battery | Built-in backup battery; power-low and power-lost alarms supported |
-| Interfaces | OBD-II plug; optional RS-232 port and digital I/O module \(4G only\); optional wireless relay accessory |
-| GNSS | Built-in GPS antenna \(GNSS positioning for real-time tracking\) |
-| Accelerometer | 6-axis accelerometer for harsh driving, impact and flip-over detection |
-| Memory / Logging | Up to 200,000 position logs \(4G variant\); up to 150,000 position logs \(3/2G variant\) |
-| Bluetooth | Bluetooth 4.0 available on 4G variant for sensors and beacons |
-| Remote Management | Remote configuration and FOTA firmware updates via FTP |
-| Form Factor | Compact OBD-II plug-and-use tracker for vehicle installations |
-
-## Casos de uso
-
-- Flotas de reparto y mensajería que requieren seguimiento en tiempo real, alertas de geocercas y analítica de comportamiento del conductor.
-- Vehículos comerciales ligeros y utilitarios que requieren telemetría OBD-II, informes de odómetro y diagnóstico remoto.
-- Flotas de seguridad, patrullaje y del sector público donde la monitorización antirrobo y el despliegue rápido son prioritarios.
-- Vehículos de usuario final que se benefician de alertas anti‑robo al enchufar el dispositivo, informes de encendido y retroalimentación sobre el estilo de conducción.
-- Flotas mixtas que utilizan sensores Bluetooth para monitorización de temperatura, carga o proximidad \(variante 4G con BLE\).
+- Flotas de reparto y mensajería que requieren seguimiento en vivo, alertas por geocerca y análisis de comportamiento.
+- Vehículos comerciales ligeros y de servicios que necesitan telemetría OBD II y reporte de odómetro.
+- Flotas de seguridad y patrulla que priorizan monitoreo anti robo y despliegue rápido.
+- Vehículos de consumidores o usuarios finales para alertas anti robo plug in, reporte de ignición y retroalimentación de conducción.
+- Flotas mixtas que usan sensores Bluetooth para temperatura de carga o contexto de proximidad con variantes compatibles.
 
 ## Por qué elegir este rastreador con Plaspy
 
-CAREU Ugo es una opción atractiva cuando necesitas un rastreador GPS compatible con Plaspy que equilibre simplicidad, profundidad de telemetría y eficiencia de costos. Su diseño OBD-II plug-and-play minimiza el tiempo de instalación y las interrupciones del servicio, mientras que el soporte para múltiples generaciones de conectividad y las opciones de eSIM simplifican despliegues a gran escala. La detección de eventos de conducción impulsada por el acelerómetro y los datos OBD-II enriquecen las funciones de gestión de flota de Plaspy, ayudando a reducir el desperdicio de combustible, mejorar la seguridad del conductor y responder más rápido a incidentes de anti-robo.
+CAREU Ugo es idóneo para organizaciones que buscan un equilibrio entre una instalación sencilla y telemetría vehicular significativa en un entorno habilitado por Plaspy. Su diseño OBD II plug and play reduce la complejidad del despliegue, mientras que el soporte celular multigeneracional y las opciones de eSIM facilitan la expansión entre regiones. La combinación de detección de eventos por acelerómetro y datos OBD II proporciona los insumos que Plaspy utiliza para puntuación de conductores, informes de combustible y kilometraje, y alertas de seguridad.
 
-Para los responsables de flotas que buscan seguimiento en tiempo real confiable, integración de telemetría y gestión remota escalable, Ugo ofrece una ruta clara hacia una monitorización robusta de vehículos en la plataforma Plaspy. Con soporte para configuración remota, actualizaciones FOTA y accesorios opcionales para inmovilización y E/S digital, CAREU Ugo ofrece las herramientas esenciales para la gestión moderna de flotas sin cableado complejo ni altos costos de instalación.
-
+Si está evaluando un rastreador OBD II compacto para la gestión de flotas con Plaspy, Ugo ofrece una vía eficiente para seguimiento en vivo y gestión remota de dispositivos. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com y verifique especificaciones disponibilidad y detalles del fabricante en el sitio oficial de CAREU https://www.systech-iot.com/ ya que las características del producto pueden cambiar con el tiempo.

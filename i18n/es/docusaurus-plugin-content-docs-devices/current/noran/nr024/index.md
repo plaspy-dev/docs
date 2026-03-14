@@ -2,35 +2,61 @@
 slug: /noran/nr024
 id: nr024
 sidebar_label: NR024
+title: Noran - NR024
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS vehicular Noran NR024 con carga de imágenes monitoreo de combustible y compatibilidad con Plaspy
+keywords:
+  - noran nr024
+  - rastreador gps nr024
+  - noran nr024 plaspy
+  - rastreo de flotas nr024
+  - rastreador noran
+  - rastreador gps para flotas
+  - rastreador con camara para vehiculo
+  - gps con monitoreo de combustible
+  - seguimiento de vehiculos en tiempo real
+  - rastreador con control remoto de motor
 ---
+
 # Noran - NR024
 
 ![NR024](./logo.jpg)
 
-El rastreador GPS Noran NR024 es una solución avanzada de seguimiento de flotas para vehículos. Este dispositivo ofrece una amplia gama de características y funcionalidades que lo convierten en una herramienta poderosa para el monitoreo y control de vehículos en tiempo real.
+El Noran NR024 es un rastreador GPS vehicular avanzado pensado para uso en flotas. Combina posicionamiento por satélite con comunicación GSM y una cámara digital integrada para ofrecer reportes de ubicación continuos junto con captura de imágenes. El equipo también incorpora funciones como monitoreo de combustible, monitoreo de audio, geocercas, alertas de exceso de velocidad, SOS y control remoto del motor, cubriendo una amplia gama de necesidades de gestión de flotas.
 
-Una de las características destacadas del NR024 es su capacidad para cargar imágenes y curvas de gasolina en el sistema de seguimiento de vehículos. Esto permite a los usuarios tener una visión más completa y detallada de la actividad de sus vehículos. Además, el rastreador cuenta con un puerto RS232 adicional que permite la comunicación con accesorios como pantallas de publicidad LED o sistemas RFID.
+Como dispositivo compatible con Plaspy, el NR024 puede enviar ubicación, estado y contenido multimedia a una plataforma centralizada de seguimiento para supervisión en tiempo real. Su capacidad para subir imágenes y curvas de combustible a un sistema de seguimiento tipo GIS resulta especialmente útil para operadores que requieren contexto adicional además de los datos de posición. Al integrarlo con Plaspy, el NR024 forma parte de una solución más amplia de visibilidad, generación de informes y control operacional.
 
-El NR024 ofrece funciones de rastreo GPS y navegación GPS, lo que permite a los usuarios conocer la ubicación exacta de sus vehículos en todo momento. Además, el dispositivo utiliza comunicación inalámbrica GSM \(GPRS\) para transmitir datos de manera eficiente y confiable.
+## Aspectos destacados
 
-Otra característica interesante del NR024 es su capacidad para tomar fotos a través de una cámara digital incorporada. Esto puede ser útil para verificar la ubicación de un vehículo o para obtener pruebas visuales en caso de incidentes o robos.
+- Rastreador GPS orientado a vehículos con cámara digital integrada para captura de fotos y recopilación de evidencia
+- Soporta carga de datos inalámbrica para que la ubicación y el estado se reporten a una plataforma remota
+- Monitoreo de combustible para ayudar a controlar consumo y costos operativos
+- Control remoto del motor para inmovilización o gestión remota cuando las políticas del sistema lo permitan
+- Alertas estándar de flota, incluyendo activación de geocercas, advertencias por exceso de velocidad y señalización SOS
+- Monitoreo de audio e informes de estado del vehículo para aportar contexto operativo más allá de la ubicación
 
-El rastreador también ofrece monitoreo y control de combustible, lo que permite a los usuarios supervisar el consumo de combustible de sus vehículos y tomar medidas para optimizar su eficiencia. Además, el NR024 cuenta con la capacidad de controlar remotamente el motor del vehículo, lo que puede ser útil en situaciones de emergencia o para evitar el uso no autorizado del vehículo.
+## Cómo funciona con Plaspy
 
-Otras características destacadas del NR024 incluyen la capacidad de ubicación a través de GPS y A-GPS \(LBS - Location Based Service\), información en tiempo real de la ubicación a través de intervalo de tiempo / distancia, geo-cerca, alerta de exceso de velocidad y SOS. Además, el rastreador permite el monitoreo del estado del vehículo, incluyendo la posición, el ACC y la velocidad.
+Al conectarse a Plaspy, el NR024 transmite datos de ubicación y eventos a los paneles e informes de Plaspy para que los responsables de flota monitoreen los vehículos desde una sola interfaz. Plaspy recibe la información del dispositivo y la presenta junto a mapas, alertas y registros históricos.
 
-Especificaciones técnicas:
+- Posicionamiento en tiempo real visible en los mapas de Plaspy para monitoreo activo de la flota
+- Las fotos subidas aparecen en Plaspy para ayudar a verificar incidentes, entregas o el contexto de una ubicación
+- Los datos de monitoreo de combustible se integran en los informes de Plaspy para apoyar análisis de costos y seguimiento de eficiencia
+- Alertas del NR024 como violaciones de geocerca, eventos de exceso de velocidad y SOS se enrutan a los flujos de notificación de Plaspy
+- Eventos de control de motor y actualizaciones de estado quedan registradas en Plaspy para supervision operativa y respuesta ante incidentes
 
-- Módulo GPS: SiRF Star3
-- Módulo GSM: 850/900/1800/1900MHz y 2100MHz \(3G\)
-- Voltaje de funcionamiento: DC 6.3V-40V
-- Corriente de trabajo: 60 mA-150 mA
-- Temperatura de trabajo: -40 ℃ -85 ℃
-- Humedad: 10% -90%
-- Cámara digital: píxeles infrarrojos 150w
-- Batería de reserva: 400 mA
-- Puerto A / D: 1
-- Puerto general de E / S: 3
-- RS232 extendido: 2
+## Casos de uso típicos
 
+- Gerentes de flota que necesitan combinar ubicación y evidencia fotográfica para revisiones de entregas o incidentes
+- Operadores que realizan seguimiento del consumo de combustible entre vehículos para detectar ineficiencias o consumos inesperados
+- Organizaciones que requieren cumplimiento de rutas y aplicación de geocercas
+- Situaciones en las que el control remoto del motor es útil para responder a robos o prevenir usos no autorizados
+- Servicios que requieren monitoreo de audio o estado integrado junto al seguimiento GPS estándar
+
+## Por qué elegir este rastreador con Plaspy
+
+El NR024 es una opción práctica para flotas que desean algo más que reportes de posición simples. Su capacidad de carga de imágenes y el monitoreo de combustible aportan contexto adicional a los eventos del vehículo, y estos tipos de datos se integran bien con las funciones de Plaspy para mapeo, alertas e informes. Usar el NR024 con Plaspy ayuda a transformar las señales crudas del dispositivo en información accionable para despacho, seguridad y equipos operativos.
+
+Dado que las especificaciones y funciones pueden variar según la región y el firmware, el NR024 se presenta aquí en términos generales basados en la información disponible. Si su operación requiere capacidades o integraciones específicas, Plaspy puede ayudar a evaluar si el NR024 satisface esas necesidades y cómo configurarlo dentro de un flujo de trabajo de flota.
+
+Para obtener más información sobre Plaspy y cómo funciona con dispositivos como el Noran NR024 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica y la documentación actual con el fabricante en http://www.norantracker.com/ antes de tomar decisiones de compra o implementación.

@@ -2,66 +2,61 @@
 slug: /topshine/mt02_4g
 id: mt02_4g
 sidebar_label: MT02-4G
+title: TopShine - MT02-4G
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS 4G compacto para vehículos compatible con Plaspy para seguimiento en tiempo real y gestión de flotas
+keywords:
+  - TopShine MT02-4G
+  - MT02 4G rastreador
+  - compatible con Plaspy
+  - rastreador GPS 4G
+  - rastreador GPS para vehículos
+  - seguimiento de flotas
+  - registrador de datos GPS
+  - actualizaciones de firmware por OTA
+  - rastreador con batería de respaldo
+  - seguimiento antirrobo
 ---
+
 # TopShine - MT02-4G
 
 ![MT02-4G](./tracker.jpg)
 
-# MT02-4G GPS Tracker — Plaspy Compatible
+El MT02-4G es un rastreador GPS 4G compacto pensado para la gestión de flotas, protección antirrobo y telemetría vehicular general. Ofrece reporte continuo de ubicación, registro de datos a bordo y soporte para funciones mediante accesorios como monitoreo de combustible y inmovilización remota. Está diseñado para su uso en automóviles, camiones y motocicletas donde se requiere seguimiento fiable y captura de eventos.
 
-El MT02-4G es un rastreador GPS para vehículos 4G compacto, diseñado específicamente para la gestión de flotas, protección antirrobo y telemetría avanzada de vehículos. Compatible con Plaspy desde el inicio, el MT02-4G se empareja con las interfaces web y móviles de Plaspy para ofrecer seguimiento en tiempo real, reproducción de rutas históricas y alertas configurables para flotas comerciales, automóviles y motocicletas.
+Este modelo es compatible con Plaspy de fábrica, lo que permite su integración con los paneles y las interfaces móviles de Plaspy para seguimiento en tiempo real, reproducción histórica de rutas y alertas configurables. El registro local de datos y la gestión remota de firmware facilitan que los equipos operativos mantengan visibilidad y reduzcan la intervención de servicio, manteniendo los datos accesibles dentro de Plaspy para reportes y supervisión operativa.
 
-Diseñado para la fiabilidad en entornos de vehículos comerciales, el MT02-4G combina un microcontrolador ARM9 de alto rendimiento con una gestión de energía robusta, una batería de respaldo de 500mAh y registro de datos en el dispositivo. Su capacidad de actualizaciones de firmware OTA y las apps de rastreo gratuitas facilitan el despliegue y el mantenimiento para equipos de operaciones que requieren datos precisos del localizador GPS integrados en Plaspy para informes y operaciones.
+## Características destacadas
 
-## Aspectos clave
-
-- Compatible con Plaspy: integración fluida con las aplicaciones web y móviles de Plaspy para ubicación en tiempo real y gestión.
-- Conectividad 4G para una cobertura celular a futuro y seguimiento en tiempo real fiable.
-- Registrador de datos incorporado de 2MB \(ampliable a 64MB\) que almacena ~26,000 puntos fuera de línea para telemetría ininterrumpida.
-- Rango de tensión de entrada amplio \(DC 9V–90V\) y procesamiento de energía a nivel EV para un funcionamiento estable en coches, camiones y motocicletas.
-- Batería de respaldo de 500mAh para posicionamiento fuera de línea y generación de informes de emergencia cuando se pierde la alimentación principal.
-- Actualizaciones de firmware OTA \(over-the-air\) vía SMS o plataforma — reducen las visitas de servicio y mantienen los dispositivos actualizados.
-- Soporte para monitoreo de combustible, identificación de conductor y control remoto del inmovilizador mediante accesorios opcionales.
+- Compatibilidad nativa con Plaspy para ubicación en vivo y gestión de flotas
+- Conectividad celular 4G para seguimiento en tiempo real confiable
+- Registrador de datos integrado de 2MB que almacena aproximadamente 26,000 puntos y opciones de memoria ampliable
+- Amplio rango de voltaje de entrada para uso en automóviles, camiones y motocicletas
+- Batería de respaldo de 500 mAh para capturar ubicación cuando se interrumpe la alimentación principal
+- Capacidad de actualización de firmware por OTA para simplificar mantenimiento y actualizaciones
+- Soporte de accesorios para monitoreo de combustible, identificación del conductor y control remoto de inmovilizador
 
 ## Cómo funciona con Plaspy
 
-Cuando el MT02-4G está conectado a Plaspy, la ubicación y la telemetría del vehículo fluyen en tiempo real hacia el panel de control y las aplicaciones móviles de Plaspy. El dispositivo envía coordenadas GPS, movimiento y estado de I/O a través de 4G; Plaspy muestra la posición en tiempo real, el historial de rutas y alertas basadas en eventos. Las actualizaciones de firmware OTA pueden iniciarse desde la plataforma o por comando SMS, de modo que su flota permanezca actualizada sin intervención física.
+Cuando se conecta a Plaspy, el MT02-4G envía ubicación y estado del vehículo a la plataforma para que los gestores de flota puedan ver posiciones en vivo e historial de eventos. Plaspy procesa los datos del dispositivo y los presenta mediante vistas de mapa, líneas de tiempo y herramientas de alertas que apoyan la toma de decisiones operativas.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy a través de 4G.
-- Alertas de eventos soportadas: exceso de velocidad, geocerca, SOS/pánico, frenado o aceleración brusca y fallo de alimentación/batería baja.
-- Monitoreo de combustible y alarmas por fugas o repostaje cuando se instalan e integran sensores de combustible ultrasónicos o cortables.
-- Capacidad de inmovilización remota cuando se utiliza con un accesorio de relé \(control de corte del motor\) para respuesta anti-robo.
-- Registro fuera de línea y carga automática: hasta ~26,000 puntos almacenados en el registrador de 2MB para análisis post-evento.
+- Actualizaciones de ubicación en tiempo real y seguimiento dentro de Plaspy
+- Reproducción histórica de rutas y revisión de puntos almacenados desde el registrador a bordo
+- Alertas configurables para eventos como activación de geocerca, SOS y pérdida de energía
+- Registro offline con carga automática de puntos almacenados cuando la red se restablece
+- Actualizaciones de firmware remotas y acciones de ciclo de vida del dispositivo coordinadas con la gestión de dispositivos de Plaspy
+- Integración de eventos de accesorios como lecturas de sensor de combustible, identificación del conductor y acciones del inmovilizador en alertas e informes de la plataforma
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Nombre del producto | Dispositivo de rastreo GPS para vehículos 4G MT02 \(MT02-4G\) |
-| --- | --- |
-| Conectividad | Módulo GSM 4G \(celular 4G\) |
-| Bandas | No especificado |
-| Alimentación y batería | Entrada DC 9V–90V / 1.5A; batería de respaldo integrada 500mAh / 3.7V; consumo en espera 65mA |
-| CPU | Microcontrolador ARM9 de alto rendimiento |
-| Memoria / Registrador | Registrador integrado de 2MB \(~26,000 puntos\); personalizable hasta 64MB |
-| Interfaces I/O | 2 entradas digitales, 1 salida digital, 1 entrada analógica; relé y RS232 compatibles vía módulos externos |
-| GNSS | Sensibilidad GPS -160 dBm; precisión de posicionamiento ~5 metros \(CEP\) |
-| Bluetooth | No incluido / N/A |
-| Gestión remota | Actualización de firmware OTA vía SMS o plataforma; plataforma de rastreo web y móvil incluida |
-| Dimensiones y peso | 80 × 58 × 22 mm; 90 g |
-| Ambiente | Temperatura de funcionamiento -40°C a 75°C; humedad 5%–95% |
-| Garantía | Garantía de dos años |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, informes de kilometraje y telemática para operaciones de vehículos comerciales.
-- Antirrobo y recuperación: control remoto del inmovilizador mediante accesorio de relé y alertas SOS/geocerca para reducir el riesgo de robo.
-- Monitoreo de combustible: integrar sensores de combustible ultrasónicos o cortables para detectar fugas, repostajes y mejorar la gestión del combustible.
-- Identificación del conductor y seguridad: soporte para iButton/etiqueta de ID y alertas de colisión y conducción brusca para cumplimiento y coaching.
-- Rastreo de motocicletas y automóviles: formato compacto y amplio rango de tensión para instalaciones flexibles en vehículos.
+- Seguimiento de flotas comerciales para visibilidad de rutas, monitoreo de kilometraje y reportes de utilización
+- Flujos de trabajo de antirrobo y recuperación mediante controles de inmovilizador, alertas y reglas de geocercas
+- Supervisión de combustible y control de consumo cuando se instalan sensores auxiliares
+- Identificación del conductor y monitoreo de seguridad para cumplimiento y entrenamiento
+- Rastreo de vehículos para automóviles, motocicletas y activos de flota mixta con soporte de amplio rango de voltaje
 
 ## Por qué elegir este rastreador con Plaspy
 
-El MT02-4G es una opción práctica cuando necesita un rastreador GPS compatible con Plaspy confiable que equilibre el seguimiento en tiempo real, el registro fuera de línea y el mantenimiento remoto. Su conectividad 4G y su procesador ARM9 soportan la generación de telemetría con capacidad de respuesta y una cobertura celular futura, mientras que el registrador integrado y la batería de respaldo aseguran que los eventos se registren incluso cuando la red o las condiciones de energía se interrumpen. Las actualizaciones de firmware OTA simplifican la gestión del ciclo de vida del dispositivo en flotas distribuidas y reducen los costos de servicio.
+El MT02-4G ofrece un conjunto equilibrado de funciones para organizaciones que necesitan reportes de posición confiables y captura de datos resiliente cuando la conectividad o la energía se ven interrumpidas. Su combinación de reporte 4G en tiempo real, registro a bordo y capacidad de actualización remota lo convierte en una opción práctica para flotas distribuidas que dependen de Plaspy para monitoreo y generación de informes.
 
-Para los gestores de flotas que priorizan medidas anti-robo, monitoreo de combustible y telemetría que se integrate en los paneles y alertas de Plaspy, el MT02-4G ofrece interfaces probadas y opciones de accesorios — desde sensores de combustible y identificación del conductor hasta inmovilización basada en relé y voz bidireccional cuando se instalan accesorios de altavoz y micrófono. Combinado con los informes de Plaspy y la monitorización basada en la app, el MT02-4G ayuda a los equipos de operaciones a mantener la visibilidad, actuar con rapidez ante incidentes y optimizar la utilización de los vehículos.
-
+Si está evaluando hardware compatible con Plaspy, el MT02-4G merece consideración por su integración directa con paneles de Plaspy y flujos de trabajo de alertas. Para obtener más información sobre Plaspy visite https://www.plaspy.com y para las especificaciones de producto más recientes y detalles del fabricante verifique la información en el sitio de TopShine https://www.gztopshine.com/. Las especificaciones del producto, disponibilidad y opciones de accesorios pueden cambiar con el tiempo, por lo que es recomendable consultar la documentación del fabricante para obtener los detalles más actuales.

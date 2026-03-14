@@ -1,63 +1,62 @@
 ---
 slug: /itriangle/ux101_al
 id: ux101_al
-sidebar_label: UX101-AL
+sidebar_label: UX101-AL++
+title: iTriangle - UX101-AL++
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS robusto UX101-AL++ certificado AIS 140, compatible con Plaspy para rastreo en tiempo real, telemetría VFOTA y entornos industriales
+keywords:
+  - iTriangle UX101-AL++
+  - UX101-AL++ compatible con Plaspy
+  - rastreador GPS AIS 140
+  - dispositivo de rastreo de flotas
+  - telemática vehicular
+  - rastreador GPS robusto
+  - rastreador VFOTA
+  - telemática industrial
+  - rastreador con doble CAN
+  - registrador telemático 4G
 ---
-# iTriangle - UX101-AL
 
-![UX101-AL](./tracker.png)
+# iTriangle - UX101-AL++
 
-El UX101-AL es un rastreador GPS compatible con Plaspy, diseñado para la gestión profesional de flotas. Certificado AIS 140 y desarrollado para entornos difíciles, el UX101-AL combina conectividad celular 4G, posicionamiento GNSS multiconstelación, diagnósticos CAN duales y almacenamiento a bordo para ofrecer seguimiento en tiempo real, telemetría e información accionable del vehículo a través de la plataforma Plaspy.
+![UX101-AL++](./tracker.png)
 
-Diseñado para vehículos comerciales, transporte público e integraciones OEM, el UX101-AL aprovecha la plataforma de firmware aQila Edge para análisis integrados, actualizaciones OTA/FOTA y una comunicación eficiente con la ECU. Con protección IP67, antenas internas BLE/GNSS/GSM y una batería de respaldo de 1000 mAh, este rastreador mantiene la visibilidad y la seguridad de su flota incluso en entornos remotos o con conectividad limitada.
+El UX101-AL++ es un rastreador GPS robusto certificado AIS 140 y registrador telemático 4G diseñado para entornos vehiculares e industriales exigentes. Diseñado para operar en condiciones adversas, el dispositivo ofrece rastreo en tiempo real y telemetría persistente con conectividad celular de múltiples generaciones, dos interfaces CAN y opciones inalámbricas locales para integrar accesorios y sensores. Su construcción resistente y factor de forma compacto lo hacen adecuado para vehículos comerciales pesados, equipos de minería y otras aplicaciones de movilidad que requieren datos fiables de ubicación y eventos.
 
-## Características clave
+Como dispositivo compatible con Plaspy, el UX101-AL++ está pensado para integrarse en flujos de trabajo de gestión de flotas y activos que necesitan visibilidad continua, alertas de eventos y administración remota de dispositivos. Plaspy puede recibir las actualizaciones de ubicación del rastreador, los diagnósticos capturados del vehículo y los registros de eventos para alimentar paneles, geocercas, reglas de alerta e informes. La combinación del hardware resistente y las capacidades de la plataforma Plaspy convierte al UX101-AL++ en una opción práctica para organizaciones que buscan puntos finales telemáticos resilientes en su estrategia de supervisión de flotas.
 
-- Rastreador GPS 4G certificado AIS 140, preparado para implementaciones de flotas con requisitos de cumplimiento y soluciones de transporte público.
-- Interfaces CAN duales para diagnósticos profundos del vehículo y monitoreo de combustible, cuando estén disponibles los datos CAN del vehículo.
-- Carcasa robusta con clasificación IP67 y rango de temperatura operativo extendido \(–40°C a +80°C\) para minería, trabajos pesados y flotas al aire libre.
-- Almacenamiento a bordo para hasta 100,000 registros, para garantizar un registro continuo cuando la conectividad de la red no está disponible.
-- Firmware aQila Edge con analítica embarcada, actualizaciones remotas OTA/FOTA y configuración remota vía SMS o TCP/IP.
-- Acelerómetro y giroscopio integrados para monitoreo del comportamiento del conductor, frenadas bruscas y alertas de impactos para apoyar programas de anti-robo y seguridad.
-- eSIM interna y antenas GSM/GNSS/BLE internas para una instalación simplificada y compatibilidad de sensores y beacons Bluetooth.
+## Aspectos clave
+
+- Rastreador robusto con certificación AIS 140, diseñado para despliegues vehiculares e industriales.
+- Conectividad celular multi generación con mecanismos de conmutación para amplia cobertura de red.
+- Dos interfaces CAN para capturar diagnósticos del vehículo e integrar sensores OEM.
+- Conectividad inalámbrica interna para accesorios locales y descarga rápida de datos.
+- Alertas por manipulación y extracción de batería además de registro avanzado de eventos para flujos de seguridad.
+- Soporte para Vehicle Firmware Over The Air para gestionar actualizaciones de ECU y reducir visitas de mantenimiento.
+- Factor de forma compacto con eSIM interna y múltiples entradas y salidas para integraciones.
 
 ## Cómo funciona con Plaspy
 
-Cuando se integra con Plaspy, el UX101-AL transmite la ubicación, telemetría CAN y eventos de sensores para ofrecer seguimiento en tiempo real, reproducción histórica y alertas configurables. Plaspy procesa las fijaciones GNSS y los paquetes de telemetría del dispositivo para alimentar mapas en vivo, alertas de geocercas, informes de rendimiento del conductor e informes programados. El registro a bordo y la conectividad 4G respaldada por eSIM aseguran la continuidad de los datos hacia Plaspy incluso con cobertura intermitente.
+El UX101-AL++ transmite posición, telemetría y datos de eventos a Plaspy para que usted, como gestor de flota, pueda supervisar activos, responder a incidentes y analizar tendencias operativas. Plaspy presenta la información entrante del rastreador mediante mapas en vivo, reglas de alerta e informes históricos para respaldar las operaciones diarias y la planificación a largo plazo.
 
-- Actualizaciones de ubicación en tiempo real y posicionamiento GNSS multiconstelación \(GPS, Galileo, NavIC, BeiDou\) para un seguimiento fiable.
-- Telemetría y diagnósticos del vehículo mediante canales CAN duales para monitoreo de combustible, señales del motor y datos de la ECU cuando estén disponibles.
-- Comportamiento del conductor y alertas de eventos alimentados por el acelerómetro y el giroscopio \(frenadas bruscas, impactos\) para los paneles telemáticos de Plaspy.
-- Registro a bordo de hasta 100,000 registros para conservar el historial de viajes durante interrupciones de la red y carga por lotes a Plaspy.
-- Soporte BLE para sensores y beacons Bluetooth—útil para detección de temperatura, carga o proximidad integrada en los flujos de trabajo de Plaspy.
-- Configuración remota y gestión de firmware \(SMS, TCP/IP, OTA, FOTA\) mediante aprovisionamiento compatible con Plaspy para un despliegue escalable de flotas.
-- Las salidas digitales pueden usarse para implementar flujos de seguridad, inmovilización o control remoto, cuando se configuran en conjuntos de reglas compatibles con Plaspy.
+- Actualizaciones de ubicación y telemetría en tiempo real transmitidas a Plaspy para monitoreo en vivo y reproducción de rutas.
+- Reporte de eventos y alarmas, como alertas de manipulación, extracción de batería y activaciones del acelerómetro para notificaciones inmediatas.
+- Datos vehiculares obtenidos vía CAN entregados a Plaspy para diagnósticos, monitoreo de salud y procesos relacionados con combustible o motor.
+- Captura de datos inalámbricos locales desde sensores y accesorios cercanos que Plaspy puede mostrar en los paneles del dispositivo.
+- Funciones de gestión remota de dispositivos coordinadas con Plaspy para actualizaciones de firmware y supervisión de configuraciones.
+- Almacenamiento local y buffering de datos para asegurar continuidad de registros que Plaspy puede ingerir cuando se restablece la conectividad.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Celular 4G con soporte eSIM \(certificado AIS 140\) |
-| --- | --- |
-| Bandas | Específicas por modelo; consulte al fabricante para soporte de bandas regionales |
-| Alimentación y batería | Entrada de alimentación 8–36V DC; batería de respaldo interna de 1000 mAh; modo de reposo de ultra bajo consumo &lt;3mA |
-| Interfaces | Dual CAN, RS232, 3 entradas analógicas, 7 entradas digitales, 4 salidas digitales |
-| GNSS | GPS, Galileo, NavIC, BeiDou \(posicionamiento multiconstelación\) |
-| Bluetooth | Antena BLE interna para sensores y beacons |
-| Gestión remota | Configuración remota vía SMS, TCP/IP, OTA; FOTA compatible |
-| Almacenamiento a bordo | Hasta 100,000 registros para registro offline |
-| Sensores | Acelerómetro y giroscopio integrados para detección de movimiento e impactos |
-| Conformidad y Durabilidad | Certificado AIS 140; cumplimiento EMI/EMC; IP67 resistente al agua y al polvo; rango operativo –40°C a +80°C |
-| Factor de forma | Unidad telemática de grado vehicular, compacto, para instalaciones en flotas comerciales y OEM |
-
-## Casos de uso
-
-- Gestión de flotas y seguimiento en tiempo real para operadores de vehículos comerciales que requieren cumplimiento AIS 140 y telemetría robusta.
-- Flujos de anti‑robo y recuperación mediante ubicación, eventos del acelerómetro y salidas digitales para el control del inmovilizador.
-- Monitoreo de combustible y mantenimiento preventivo mediante diagnósticos del bus CAN integrados en los informes de Plaspy.
-- Transporte público y flotas municipales que requieren posicionamiento GNSS confiable, registro a bordo y actualizaciones de firmware OTA.
-- Minería y equipos de gran potencia donde la protección IP67, amplio rango de temperatura y batería interna de respaldo son críticos.
+- Gestión de flotas para rastreo en vivo, cumplimiento de rutas e informes operativos en vehículos comerciales.
+- Operaciones de seguridad y antirobo utilizando alertas por manipulación y registro de eventos para proteger activos.
+- Programas OEM y de movilidad que requieren diagnósticos integrados y gestión remota de firmware.
+- Flotas industriales y de minería que operan en entornos duros donde el hardware resistente es esencial.
+- Logística y distribución que se benefician de captura local de datos, integración de accesorios y telemetría persistente.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El UX101-AL ofrece una combinación equilibrada de cumplimiento, durabilidad y conectividad, lo que lo hace adecuado para despliegues serios de flotas y OEM en Plaspy. Su certificación AIS 140, diagnósticos CAN duales y pila GNSS multiconstelación ofrecen la telemetría y fidelidad de posicionamiento que exige la gestión moderna de flotas. Con el firmware aQila Edge, analítica embebida y capacidad FOTA, el dispositivo reduce las visitas de campo y mantiene el firmware y las configuraciones de la flota sincronizados a través de Plaspy. Elija el UX101-AL con Plaspy cuando necesite un seguimiento en tiempo real confiable, gestión remota escalable y captura de datos resiliente para seguridad, eficiencia y operaciones anti-robo.
+El UX101-AL++ combina hardware de grado vehicular con la plataforma Plaspy para ofrecer una solución telemática resiliente orientada a casos de uso exigentes. Su construcción resistente y las interfaces de diagnóstico permiten una visibilidad profunda del estado del vehículo, mientras que su registro de eventos y capacidades de alerta ayudan a los equipos a responder con rapidez a incidentes de seguridad y fallas operativas. Para organizaciones que requieren un punto final duradero y herramientas en la nube escalables, este rastreador ofrece un equilibrio efectivo entre resistencia en campo y supervisión basada en la nube.
 
+Para conocer más sobre cómo Plaspy puede trabajar con dispositivos como el UX101-AL++, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y la documentación del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos actuales en el sitio del fabricante https://www.itriangle.net/.

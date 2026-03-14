@@ -2,65 +2,62 @@
 slug: /thingsys/ts_v9
 id: ts_v9
 sidebar_label: TS-V9
+title: ThingSys - TS-V9
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS profesional para vehículos compatible con Plaspy, seguimiento de flotas, geovallas, alertas y telemetría
+keywords:
+  - ThingSys TS-V9
+  - rastreador TS-V9
+  - rastreador GPS ThingSys
+  - TS-V9 compatible con Plaspy
+  - rastreador GPS para vehículos
+  - seguimiento de flotas
+  - rastreo en tiempo real
+  - gestión de flotas
+  - telemetría de vehículos
+  - software de rastreo GPS
 ---
+
 # ThingSys - TS-V9
 
 ![TS-V9](./tracker.jpg)
 
-# TS-V9 Professional Vehicle GPS Tracker — Plaspy Compatible
+El TS-V9 es un rastreador GPS profesional para vehículos de ThingSys, diseñado para implementaciones exigentes y orientadas al uso en unidades móviles. Está pensado para gestión de flotas, logística, vehículos de alquiler, autobuses y otras aplicaciones vehiculares especializadas. El equipo combina conectividad celular de varias generaciones con un receptor GNSS Ublox7 Compass y una serie de funciones de telemetría y seguridad vehicular para ofrecer reportes de posición continuos y datos operativos aptos para instalaciones profesionales.
 
-El TS-V9 Professional Vehicle GPS Tracker es una unidad robusta, enfocada a vehículos, diseñada para la gestión profesional de flotas, logística, flotas de alquiler, autobuses y vehículos especializados. Con conectividad celular de múltiples generaciones \(2G/3G/4G\), rendimiento GNSS Ublox7/Compass y un conjunto integral de telemetría y capacidades de seguridad vehicular, el TS-V9 es compatible con Plaspy y está listo para alimentar el rastreo en tiempo real, alertas y telemetría en su implementación de la plataforma Plaspy.
+Como dispositivo compatible con Plaspy, el TS-V9 puede transmitir ubicación, alertas y telemetría de vehículo a la plataforma Plaspy para soportar seguimiento en vivo, informes históricos y notificaciones automatizadas. Su combinación de reportes a plataforma y control vía SMS proporciona a las organizaciones vías de integración flexibles al incorporar el TS-V9 en una solución de monitoreo de flotas basada en Plaspy.
 
-El rastreador admite informes basados en plataforma \(GPRS/3G/4G\) y control directo por SMS/llamada, lo que facilita opciones de integración flexibles para rastreo en tiempo real, respuesta ante robo, monitoreo de encendido y flujos de trabajo de monitoreo de combustible. Diseñado para instalaciones profesionales, el TS-V9 ofrece protecciones de hardware, actualizaciones de firmware OTA y interfaces CAN/RS232 para simplificar la integración con Plaspy y los sistemas del vehículo existentes.
+## Características principales
 
-## Key Highlights
+- Diseñado para uso profesional en vehículos, con protecciones robustas y alimentación de respaldo para mantener la operación ante cortes de energía.
+- Conectividad celular multigeneración para reportes a la plataforma y control directo por SMS o llamadas donde esté disponible.
+- Rendimiento GNSS Ublox7 Compass para posicionamiento fiable con orientación de precisión proporcionada por el fabricante.
+- Soporte de telemetría vehicular, incluyendo detección de encendido, estadísticas de kilometraje, alertas por exceso de velocidad y alarma de pánico.
+- Funciones de control remoto para inmovilizador y gestión de circuitos que apoyan flujos de trabajo de antirrobo y respuesta ante emergencias.
+- Entradas/salidas profesionales y buses de comunicación, además de soporte opcional para sensores de combustible e integración RFID para telemetría extendida.
+- Soporte de actualización de firmware OTA y opciones de configuración remota para simplificar el mantenimiento del equipo a lo largo del tiempo.
 
-- Rastreo en tiempo real compatible con Plaspy vía GPRS/3G/4G y SMS para una gestión de flotas y visibilidad logística confiables.
-- Amplio soporte de bandas celulares \(GSM/CDMA/WCDMA/FDD-LTE\) para garantizar una amplia compatibilidad con operadores a nivel mundial.
-- GNSS preciso con chipset Ublox7 / Compass \(precisión aproximada de 3–30 m, sensibilidad hasta -160 dBm\) para una localización fiable.
-- Telemetría completa del vehículo: detección de encendido, estadísticas de kilometraje, alertas por exceso de velocidad y geocerca, además de alarma de pánico.
-- Capacidades de control remoto, incluido inmovilizador por SMS y control remoto del combustible y del circuito para antirobo y gestión de energía.
-- Soporte profesional de E/S y bus \(RS232/RS485, CAN bus\) y opciones OEM para sensores de combustible ultrasónicos/voltaje e integración RFID.
-- Diseño resistente con watchdog de hardware, protecciones de alimentación y una batería de respaldo de 3.7 V / 300 mAh para mantener la operatividad ante caídas de energía.
+## Cómo funciona con Plaspy
 
-## How It Works with Plaspy
+El TS-V9 transmite posición y telemetría vehicular a través de enlaces celulares o mediante comandos por SMS, lo que permite a Plaspy ingerir esos flujos de datos y mostrarlos en vistas de mapa, reportes y flujos de alertas. Una vez conectado a Plaspy, el equipo habilita visibilidad operativa y manejo automatizado de eventos comunes de la flota.
 
-El TS-V9 transmite la ubicación y la telemetría del vehículo a través de redes celulares utilizando métodos de reporte estándar \(GPRS/3G/4G, SMS o CDMA cuando sea compatible\). Dado que admite plataformas de seguimiento comunes y reporte celular directo, se integra con Plaspy para proporcionar posiciones en tiempo real en el mapa, alertas e informes históricos. Plaspy ingiere la posición y la telemetría del dispositivo para entregar paneles de seguimiento en tiempo real y notificaciones automatizadas.
+- Posiciones en mapa en tiempo real y actualizaciones periódicas de ubicación para visibilidad de la flota y soporte de despacho.
+- Datos de encendido y kilometraje disponibles en Plaspy para informes de utilización y planificación de mantenimiento.
+- Información sobre nivel y consumo de combustible cuando se conectan sensores OEM compatibles, alimentando los paneles de Plaspy.
+- Acciones de inmovilizador y control de circuitos a distancia coordinadas mediante notificaciones de Plaspy y flujos de trabajo del operador.
+- Entrega automática de alertas de pánico, exceso de velocidad y geovallas a Plaspy para respuesta rápida del operador y registro.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(GPRS/3G/4G o SMS\).
-- Detección de encendido y estadísticas de kilometraje para una utilización de la flota más precisa y la planificación del mantenimiento.
-- Soporte de monitoreo de combustible cuando se conectan sensores de combustible ultrasónicos o de voltaje \(opciones OEM\), proporcionando información de nivel de combustible y consumo a Plaspy.
-- Inmovilizador remoto y control de circuito mediante SMS/comando para respaldar flujos de trabajo antirobo e inmovilización de vehículos en emergencias.
-- Alertas de pánico, exceso de velocidad y geocerca entregadas a Plaspy para el manejo automático de alarmas y la respuesta del operador.
+## Casos de uso típicos
 
-## Technical Overview
-
-| Conectividad | SMS, GPRS, 1x/CDMA, WCDMA \(3G\), FDD-LTE \(4G\) |
-| --- | --- |
-| Bandas | GSM 850/900/1800/1900; CDMA 800; WCDMA 2100/1900/900/850; FDD-LTE 800/850/900/1800/2100/2600 MHz |
-| Alimentación y batería | Operación DC 9–40 V; batería de respaldo interna de 3.7 V / 300 mAh |
-| Interfaces | RS232, RS485, CAN bus; entrada de encendido; E/S digital; control remoto de circuito para inmovilizador/poder vía SMS |
-| GNSS | Ublox7 / Compass chipset; precisión aproximada de 3–30 m; sensibilidad hasta -160 dBm |
-| Bluetooth | No especificado en la descripción del dispositivo |
-| Gestión remota | Actualizaciones de firmware OTA \(OTA/FOTA\), configuración configurable de IP/servidor web |
-| Protecciones y fiabilidad | Watchdog de hardware, protección ante sobrevoltage/sobrecorriente y polaridad inversa |
-| Ambiental | Temperatura de operación -20 °C a +70 °C; almacenamiento -40 °C a +85 °C; humedad 5–95% HR |
-| Formato | 114 × 90 × 30 mm; peso 0.238 kg; instalación profesional de vehículos requerida |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real, informes de kilometraje, monitoreo de encendido y aplicación de límites de velocidad para flotas de vehículos comerciales.
-- Antirrobo e inmovilización: control remoto de circuito y soporte de inmovilizador por SMS para una respuesta rápida ante robos o usos no autorizados.
-- Monitoreo de combustible y eficiencia: conecte sensores de combustible ultrasónicos o de voltaje \(opciones OEM\) para monitorear niveles de combustible y reducir pérdidas.
-- Logística y vehículos de alquiler: alertas de geocerca, alarma de pánico y monitoreo de audio remoto para la seguridad y verificación rápida de incidentes.
-- Vehículos especializados y autobuses: interfaces CAN bus y RS232/RS485 para la integración con la electrónica del vehículo y los sistemas de telemetría de la flota.
+- Seguimiento de flotas comerciales para visibilidad, verificación de rutas y análisis de utilización.
+- Monitoreo y recuperación de vehículos de alquiler mediante funciones de inmovilizador y alertas.
+- Telemetría para autobuses y vehículos especializados cuando se requiere integración con sistemas a bordo.
+- Respuesta antirrobo y inmovilización remota para vehículos de alto valor o con riesgo elevado.
+- Programas de monitoreo de combustible y eficiencia cuando se integra con sensores de combustible compatibles.
 
 ## Por qué elegir este rastreador con Plaspy
 
-Elegir el TS-V9 para implementaciones con Plaspy ofrece un rastreador GPS duradero y fácil de integrar, diseñado para aplicaciones profesionales de vehículos. Su amplia cobertura de bandas celulares y la conectividad de múltiples generaciones reducen los problemas de compatibilidad de red entre regiones, mientras que el chipset GNSS Ublox7 proporciona fijaciones de posición fiables para un seguimiento en tiempo real preciso. La combinación de detección de ignición, informes de kilometraje, capacidad de inmovilizador remoto y el soporte opcional de sensores de combustible ofrece a los gestores de flotas telemetría práctica para reducir el robo, mejorar la utilización y controlar los costos de combustible.
+El TS-V9 está indicado para organizaciones que requieren un núcleo de rastreo vehicular robusto con un conjunto amplio de funciones para telemetría y seguridad de flota. Sus protecciones de hardware, reportes celulares multigeneración y posicionamiento GNSS lo convierten en una opción práctica para despliegues que demandan actualizaciones de ubicación consistentes y datos de vehículo. Para equipos que usan Plaspy, el TS-V9 aporta entradas de telemetría y capacidades de control remoto que permiten flujos de despacho, alertas y mantenimiento dentro de la plataforma Plaspy.
 
-La fiabilidad operativa se refuerza con watchdogs de hardware y múltiples protecciones de energía, y las actualizaciones de firmware OTA simplifican el mantenimiento a largo plazo. Para las organizaciones que combinan su plataforma Plaspy con sensores Bluetooth u otros dispositivos telemáticos, el TS-V9 encaja en soluciones de tecnología mixta como un núcleo robusto de rastreo de vehículos. El TS-V9 está especialmente diseñado para instalaciones profesionales y cableadas donde se requiera telemetría completa del vehículo y control seguro.
+Aunque el TS-V9 ofrece muchas capacidades para instalaciones profesionales, las opciones de configuración específicas e integraciones de sensores opcionales dependerán de las necesidades operativas de cada flota. Plaspy puede ingerir los datos del dispositivo y presentarlos junto con otras fuentes de la flota para proporcionar una vista operativa unificada.
 
-Para manuales técnicos, archivos de protocolo y recursos de integración de la plataforma, consulte la página de descargas del fabricante para obtener los protocolos del dispositivo y guías de integración necesarias para conectar el TS-V9 con su instancia de Plaspy.
-
+Si desea conocer más sobre cómo el TS-V9 puede integrarse con Plaspy, visite https://www.plaspy.com para información sobre producto y plataforma. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica vigente y la guía de instalación en el sitio del fabricante https://www.thingsys.com/ antes de la adquisición o el despliegue.

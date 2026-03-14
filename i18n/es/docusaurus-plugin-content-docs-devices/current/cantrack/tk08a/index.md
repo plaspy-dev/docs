@@ -2,65 +2,61 @@
 slug: /cantrack/tk08a
 id: tk08a
 sidebar_label: TK08A
+title: CanTrack - TK08A
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto para motocicletas y bicicletas eléctricas compatible con Plaspy para seguimiento en tiempo real y antirobo
+keywords:
+  - CanTrack TK08A
+  - TK08A rastreador GPS
+  - rastreador CanTrack
+  - rastreador GPS para motocicleta
+  - rastreador para bicicleta eléctrica
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - inmovilizador antirrobo
+  - rastreo en tiempo real
+  - telemetría vehicular
 ---
+
 # CanTrack - TK08A
 
 ![TK08A](./tracker.jpg)
 
-El TK08A Rastreador GPS para motocicleta, de una familia de dispositivos probada, es un rastreador GPS compacto alimentado por cable, diseñado para motocicletas, bicicletas eléctricas, scooters y vehículos ligeros. Compatible con Plaspy de serie, el TK08A ofrece seguimiento en tiempo real fiable a través de GSM/GPRS y satélites GPS para que los gestores de flotas y los propietarios puedan monitorizar la ubicación, la velocidad y el estado mediante SMS, una plataforma web o una aplicación móvil. Con capacidad de inmovilización antirrobo integrada y un amplio rango de voltaje de funcionamiento, este rastreador es especialmente adecuado para flotas mixtas, operaciones con e-bikes y proyectos de seguridad para motocicletas.
+El CanTrack TK08A es un rastreador GPS compacto de cableado fijo diseñado para motocicletas, bicicletas eléctricas, scooters y otros vehículos pequeños. Perteneciente a una familia de dispositivos con trayectoria, el TK08A ofrece seguimiento continuo de ubicación mediante GSM/GPRS y satélites GPS y soporta reportes por SMS además de integración con plataformas web y móviles. Su reducido tamaño, antenas integradas y capacidad de inmovilización lo hacen ideal para instalaciones orientadas a la seguridad y flotas mixtas.
 
-Diseñado para implementaciones prácticas, el TK08A combina telemetría esencial — estado de encendido \(ACC\), alarmas de vibración y de velocidad, detección de corte de energía y reportes de respaldo breves en su batería Li-Polímero interna — con dimensiones compactas y un bajo consumo en modo de espera. Su conjunto de funciones soporta flujos de trabajo de gestión de flotas, inmovilización antirrobo, monitorización de talleres y telemática de seguros, al integrarse de manera fluida con Plaspy para proporcionar alertas accionables, rutas históricas e informes configurables.
+Como dispositivo compatible con Plaspy desde fábrica, el TK08A puede transmitir posiciones y eventos en tiempo real a Plaspy para paneles, alertas e informes. Los administradores de flota y propietarios pueden usar Plaspy para monitorear ubicación, velocidad y estado, recibir notificaciones antirobo y revisar rutas históricas. El almacenamiento buffer del dispositivo y sus reportes de respaldo también ayudan a mantener la continuidad de datos cuando la cobertura celular se interrumpe.
 
-## Aspectos clave
+## Características principales
 
-- Seguimiento en tiempo real compatible con Plaspy mediante GPRS o SMS para ubicación en vivo y historial.
-- Bloqueo remoto del motor \(corte de combustible/eléctrico\) para una robusta protección antirrobo y control del inmovilizador.
-- Amplio rango de voltaje de entrada \(configurable de 9–36 VDC o 9–90 VDC\) para motocicletas, bicicletas eléctricas y una diversa gama de tipos de vehículos.
-- Conjunto completo de alarmas: geocerca, exceso de velocidad, ACC activado, alarmas de vibración y de corte de energía con envíos de cambios de ángulo.
-- Antenas GSM/GPS integradas y batería de respaldo Li-Polímero de 200 mAh para detectar la pérdida de energía y enviar informes breves.
-- Bajo consumo de energía en modo de espera \(aprox. 5 mA a 50 mA\) y modos de estacionamiento de ahorro de energía para prolongar la vida útil del dispositivo.
-- Memoria a bordo para hasta 1,400 posiciones cuando GSM no está disponible, cargando automáticamente los datos almacenados cuando se restablecen las comunicaciones.
+- Seguimiento en tiempo real compatible con Plaspy vía GPRS o SMS para ubicación en vivo e historial
+- Control remoto del inmovilizador para protección antirrobo y capacidad de deshabilitar el motor
+- Amplio rango de voltaje seleccionable para soporte de motocicletas, bicicletas eléctricas y distintos vehículos pequeños
+- Suite de alarmas completa que incluye geo cercas, exceso de velocidad, estado ACC, vibración y corte de alimentación
+- Antenas GSM y GPS integradas con batería de respaldo interna para reportes a corto plazo tras pérdida de energía
+- Bajo consumo en reposo y modos de estacionamiento para extender la autonomía del equipo
+- Buffer de posiciones a bordo para preservar datos durante caídas de la red celular y subirlos cuando vuelva la conectividad
 
 ## Cómo funciona con Plaspy
 
-Integrar el TK08A con Plaspy proporciona flujos de posición y telemetría continuos que se pueden usar en cuadros de mando, alertas e informes automatizados. El dispositivo envía datos de ubicación y eventos por GPRS \(TCP/IP\) o SMS a Plaspy, lo que permite una monitorización inmediata, la aplicación de geocercas y la reconstrucción de rutas históricas. Cuando la cobertura celular se interrumpe, el rastreador almacena localmente las ubicaciones y las sube a Plaspy cuando la conexión se restablece, preservando la continuidad de datos para la gestión de flotas y la telemática de seguros.
+Cuando está conectado a Plaspy, el TK08A envía mensajes de ubicación y eventos que son procesados por los paneles, reglas de alerta y herramientas de reporte de Plaspy. Plaspy convierte esos flujos en información accionable para supervisión de flota, respuesta de seguridad e informes operativos; además, las posiciones almacenadas se suben tras cualquier pérdida temporal de comunicaciones para preservar el historial de rutas.
 
-- Actualizaciones en tiempo real de ubicación y telemetría vía GPRS \(TCP/IP\) o SMS a Plaspy.
-- Informe del estado de encendido \(ACC\) para inicios/demoras de viaje precisos y análisis del comportamiento del conductor.
-- Inmovilizador remoto \(desactivación del motor/corte de electricidad\) controlado a través de Plaspy para respuesta antirrobo.
-- Alarma de corte de energía y reportes de corto plazo en la batería interna para detectar manipulación y mantener la continuidad.
-- Subidas de sensor G y vibración y cambios de ángulo para detección de colisiones, intentos de robo y alertas de movimiento en estacionamiento.
-- Posiciones almacenadas \(hasta 1,400\) almacenadas durante interrupciones GSM y subidas a Plaspy cuando estén en línea.
+- Actualizaciones de ubicación y eventos en tiempo real entregadas a Plaspy vía GPRS o SMS
+- Estado de ignición ACC visible en Plaspy para detección de viajes y monitoreo de actividad
+- Comandos remotos de inmovilizador emitidos desde Plaspy para soportar flujos de trabajo antirrobo
+- Alarmas por corte de energía e informes de batería de respaldo mostrados como alertas en Plaspy
+- Eventos de vibración y cambio de ángulo utilizados para activar alertas de movimiento o manipulación
+- Posiciones almacenadas subidas a Plaspy después de cortes GSM para mantener continuidad histórica
 
-## Resumen técnico
+## Casos de uso habituales
 
-| Conectividad | GSM/GPRS; Clase de protocolo GPRS 12, TCP/IP |
-| --- | --- |
-| Bandas / Frecuencias | 850 / 900 / 1800 / 1900 MHz |
-| Alimentación y batería de respaldo | Voltaje de funcionamiento configurable 9–36 VDC o 9–90 VDC; Batería de respaldo Li-Polímero 200 mAh / 3.7 V |
-| Consumo de energía | Consumo en modo de espera y en funcionamiento: aprox. 5 mA ~ 50 mA |
-| Interfaces | Micro USB para firmware/configuración; Interfaz de alimentación de 4 pines \(Power / ACC / Relay\) |
-| GNSS | Conjunto MTK de alta sensibilidad; 66 canales; Sensibilidad de seguimiento -165 dBm; Precisión de ubicación \<10 m CEP |
-| Tiempo hasta la primera fijación | Frío \<35 s; Caliente \<1 s \(cielo despejado\) |
-| Memoria | Almacena hasta 1,400 posiciones cuando GSM no está disponible |
-| Antena | Antenas GSM y GPS integradas |
-| Temperatura de operación | -20 °C a +70 °C |
-| Factor de forma y dimensiones | Módulo compacto cableado para instalación en vehículos; 78 × 40 × 15 mm |
-| Gestión remota | Configuración vía PC \(USB\), GPRS o SMS; Actualización de firmware vía micro-USB |
-| Sensores Bluetooth | No incluidos — Plaspy puede integrar datos de sensores Bluetooth cuando se utilizan dispositivos de gateway compatibles |
-
-## Casos de uso
-
-- Gestión de flotas para pequeñas flotas de vehículos y vehículos de propulsión mixta — seguimiento en vivo, historial de rutas y alertas de exceso de velocidad.
-- Protección antirrobo para motocicletas, scooters y bicicletas eléctricas mediante geocerca, detección de vibraciones y desactivación remota del motor a través de Plaspy.
-- Talleres y patios de servicio y reparación de automóviles — monitorizar la llegada y salida de vehículos, estado de ignición y eventos de manipulación.
-- Proyectos de telemática de seguros que requieren rastreadores compactos y de bajo consumo para capturar telemetría de viajes, velocidad y registros de eventos.
-- Operaciones de última milla y movilidad compartida donde un formato compacto y una amplia tolerancia de voltaje simplifican la instalación en una diversidad de vehículos.
+- Operaciones de pequeñas flotas y flotas mixtas que requieren rastreadores compactos y monitoreo centralizado
+- Protección antirrobo para motocicletas, scooters y bicicletas eléctricas con inmovilizador remoto y alertas de movimiento
+- Talleres y patios de servicio que necesitan rastrear llegada de vehículos, eventos de ignición e incidentes de manipulación
+- Proyectos de telemática para aseguradoras que requieren dispositivos compactos y de bajo consumo para registro de viajes y eventos
+- Flotas de última milla y movilidad compartida donde el factor de forma y la tolerancia de voltaje simplifican el despliegue
 
 ## Por qué elegir este rastreador con Plaspy
 
-El TK08A es una opción fiable y rentable cuando se necesita un rastreador GPS compacto que se integre sin esfuerzo con Plaspy para seguimiento en tiempo real, telemetría y controles antirrobo. Su amplia compatibilidad de voltaje reduce la complejidad de instalación en motocicletas, e-bikes y vehículos ligeros, mientras que las antenas integradas y la batería de respaldo Li-Polímero lo hacen resistente a manipulaciones de energía. Combinado con Plaspy, el TK08A permite control remoto del inmovilizador, geocercas configurables y alertas automatizadas, proporcionando a gestores de flotas y a los equipos de seguridad la telemetría y el control que necesitan sin añadir volumen de hardware.
+El TK08A es una opción práctica para organizaciones que necesitan seguimiento compacto y resistente para vehículos de dos ruedas y vehículos ligeros. Su combinación de antenas integradas, reportes de respaldo y un conjunto completo de alarmas soporta los flujos de trabajo comunes de flota y seguridad sin complejidad de hardware innecesaria. Unido a Plaspy, el dispositivo entrega visibilidad centralizada, alertas configurables e historial de rutas que ayudan a equipos operativos y de seguridad a responder con mayor eficacia.
 
-Para despliegues que exigen una precisión de ubicación fiable, almacenamiento de eventos durante interrupciones de GSM y opciones de firmware/configuración simples \(USB, SMS, GPRS\), el TK08A, combinado con Plaspy, ofrece una ruta eficiente para escalar el rastreo, la protección antirrobo y la monitorización operativa en flotas de vehículos mixtos.
-
+Para conocer más sobre Plaspy y cómo puede gestionar dispositivos CanTrack como el TK08A visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden variar con el tiempo, por lo que le recomendamos verificar la información técnica y la documentación actual en el sitio oficial de CanTrack https://www.cantrackgps.com/.

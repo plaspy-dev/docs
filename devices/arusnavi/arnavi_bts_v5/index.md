@@ -2,62 +2,59 @@
 slug: /arusnavi/arnavi_bts_v5
 id: arnavi_bts_v5
 sidebar_label: Arnavi BTS v.5
+title: Arusnavi - Arnavi BTS v.5
 sidebar_class_name: menu_item_tracker
+description: Compact BLE temperature and asset tag compatible with Plaspy for fleet and cold chain monitoring
+keywords:
+  - Arusnavi Arnavi BTS v.5
+  - Arnavi BTS v.5 Plaspy
+  - Arnavi BTS v.5 BLE sensor
+  - Arnavi BTS temperature tag
+  - Arusnavi iBeacon tag
+  - Plaspy compatible sensors
+  - cold chain monitoring tag
+  - vehicle temperature monitoring
+  - asset identification beacon
+  - anti tamper door sensor
 ---
+
 # Arusnavi - Arnavi BTS v.5
 
 ![Arnavi BTS v.5](./tracker.png)
 
-# Arnavi BTS v.5
+The Arnavi BTS v.5 is a compact Bluetooth Low Energy sensor and iBeacon tag designed for temperature monitoring, contact or door state detection, and asset identification. Its small form factor, configurable advertising parameters, and replaceable battery make it suitable for mounting on vehicles, containers, or fixed installations where simple environmental and proximity telemetry is required.
 
-The Arnavi BTS v.5 is a compact, long-life Bluetooth Low Energy \(BLE\) sensor and iBeacon tag designed for temperature monitoring, contact/door detection, and asset identification. Plaspy compatible when used with a Plaspy-supported BLE gateway or combined with Plaspy GPS trackers, the BTS v.5 extends fleet management and telemetry capabilities by supplying high-frequency temperature and state data from vehicles, refrigerators, and fixed installations.
-
-Built for cold-chain logistics, anti-tamper monitoring and lightweight asset tracking, the BTS v.5 delivers configurable reporting and beacon identity \(UUID/MAJOR/MINOR\) in a small, easy-to-mount package. Its replaceable CR2477 battery and adjustable transmission interval and radio power allow operators to balance responsiveness and battery life for real-world fleet and asset monitoring needs.
+As a Plaspy compatible device when used with a Plaspy supported BLE gateway or alongside Plaspy GPS trackers, the BTS v.5 brings high frequency temperature and state data into fleet monitoring workflows. Integrating its beacon identity and sensor events into Plaspy enables combined visibility of environmental telemetry and vehicle location or asset context within a single fleet management platform.
 
 ## Key Highlights
 
-- Plaspy compatible via BLE gateway: forwards temperature and sensor telemetry into Plaspy dashboards and alerts.
-- Long battery life with replaceable CR2477 cell — up to ~1,500 days at room temperature depending on settings.
-- Multi-mode operation: temperature sensor, iBeacon \(UUID/MAJOR/MINOR\) and contact/circuit state detector in one unit.
-- Configurable transmission interval and radio power to optimize responsiveness and battery consumption.
-- Compact, lightweight design \(61 × 42 × 13 mm, 30 g\) for discreet mounting on vehicles, equipment, or containers.
-- Simple installation and setup through iOS and Android mobile configurator apps.
-- Suitable for cold-chain monitoring, anti-theft/anti-tamper door detection and asset identification in fleet management workflows.
+- BLE sensor and iBeacon tag for temperature, contact state, and asset identity
+- Plaspy compatible via a Plaspy supported BLE gateway or paired gateways
+- Replaceable CR2477 battery for extended operational life and low maintenance
+- Configurable transmission interval and radio power to balance responsiveness and battery life
+- Compact and lightweight for discreet mounting on vehicles, containers, or equipment
+- Beacon identity fields enable asset tagging using UUID MAJOR and MINOR values
 
 ## How It Works with Plaspy
 
-The Arnavi BTS v.5 provides BLE advertising packets and sensor telemetry that Plaspy can ingest when the device is within range of a Plaspy-compatible BLE gateway or a vehicle gateway that collects BLE beacons. Plaspy maps the BTS v.5 data to the corresponding asset or vehicle record, enabling real-time telemetry, event alerts and historical reporting alongside GPS-based location feeds from Plaspy GPS trackers.
+When a Plaspy compatible BLE gateway or vehicle gateway collects the Arnavi BTS v.5 advertising packets, Plaspy ingests the sensor telemetry and beacon identity and maps it to the relevant asset or vehicle record. This allows environmental readings and discrete events to appear alongside GPS location and other fleet data inside Plaspy dashboards, alerts, and reports.
 
-- Real-time telemetry: temperature readings are forwarded to Plaspy for live monitoring and thresholds.
-- Beacon identity: UUID, MAJOR and MINOR values allow Plaspy to identify and tag specific assets or compartments.
-- Contact/magnetic sensor events: door open/close and circuit state changes are sent as discrete events for anti-theft and tamper alerts.
-- Configurable reporting: adjustable transmission interval and radio power let you control update frequency in Plaspy.
-- Complementary to GPS tracker data: when paired with Plaspy GPS devices or gateways, temperature and sensor states become part of fleet management, fuel monitoring and anti-theft workflows.
+- Real time telemetry forwarding of temperature readings into Plaspy for live monitoring and threshold alerts
+- Asset tagging using beacon identity so Plaspy can associate a specific tag with a pallet, compartment, or device
+- Contact or door open close events are sent as discrete signals for anti tamper and security workflows
+- Adjustable reporting behavior allows operators to control how often data arrives in Plaspy
+- Works complementarily with Plaspy GPS trackers and gateways to provide location context for sensor data
 
-## Technical Overview
+## Typical Use Cases
 
-| Connectivity | Bluetooth Low Energy 4.2 \(BLE advertising / iBeacon\) |
-| --- | --- |
-| Bands / Frequency | 2.4 GHz ISM band \(BLE\) |
-| Transmitter Power | 3 dBm \(configurable radio power\) |
-| Power & Battery | Replaceable CR2477 coin cell; nominal capacity ~900–1000 mAh; typical battery life: ~400 days \(freezer -5 °C… -15 °C\), ~700 days \(0 °C… +5 °C\), up to ~1,500 days \(+15 °C… +25 °C\), depending on settings and reporting interval |
-| Interfaces | Circuit control input; magnetic sensor for door/open detection; BLE beacon configuration \(UUID/MAJOR/MINOR\) |
-| GNSS | No GNSS module \(BLE sensor\). Can be associated with Plaspy GPS trackers or gateways to provide location context. |
-| Bluetooth | BLE 4.2, iBeacon-compatible advertising, configurable interval and power |
-| Remote Management & Configuration | Mobile configurator apps for iOS and Android to set beacon parameters, reporting interval and radio power; manufacturer provides user manual and certification documents |
-| Form Factor | Compact tag: 61 × 42 × 13 mm; weight 30 g; suitable for vehicle, container and equipment mounting |
-
-## Use Cases
-
-- Cold-chain logistics: continuous temperature monitoring inside refrigerated trucks and containers with Plaspy alerting for excursions.
-- Vehicle refrigerator monitoring: track compartment temperature telemetry and generate compliance reports in Plaspy.
-- Anti-tamper and door monitoring: magnetic sensor detects openings and triggers instant alerts to Plaspy for anti-theft workflows.
-- Asset identification and inventory: BLE beacon identity \(UUID/MAJOR/MINOR\) tags pallets, equipment or compartments for proximity-based tracking.
-- Equipment state control: circuit input monitors device state or mechanism operation and feeds events into Plaspy dashboards and rules.
+- Cold chain logistics monitoring where temperature telemetry must be logged and alerted within fleet workflows
+- Vehicle refrigerator monitoring paired with vehicle location data for compliance reporting
+- Anti tamper and door monitoring to trigger immediate alerts on unauthorized openings
+- Asset identification and proximity based tracking of pallets, containers, or equipment
+- Simple equipment state monitoring using a circuit input for events sent into Plaspy
 
 ## Why Choose This Tracker with Plaspy
 
-The Arnavi BTS v.5 is not a GPS tracker, but it is an effective Plaspy compatible BLE sensor that expands fleet management and telemetry capabilities where small form-factor sensing and long battery life matter. Use it alongside Plaspy GPS trackers and gateways to add environmental telemetry and tamper detection to your real-time tracking setup. Its long-lived CR2477 power source, configurable reporting and iBeacon support make integration straightforward — helping fleets achieve reliable cold-chain oversight, improved anti-theft monitoring and richer telemetry without adding frequent maintenance.
+The Arnavi BTS v.5 is a sensor tag rather than a standalone GPS tracker, but it is a practical complement to Plaspy for organizations that need environmental telemetry and asset identity tied into fleet operations. Its long lived battery, configurable reporting, and iBeacon style identity fields make it easy to add temperature and contact sensing to an existing Plaspy deployment without heavy maintenance overhead.
 
-When combined with Plaspy’s platform features — including real-time tracking, alerts for fuel monitoring and ignition/immobilizer events from vehicle GPS units — the BTS v.5 fills the gap for temperature, contact, and proximity sensing. This makes it a practical choice for operators who need precise telemetry, asset identity and anti-theft signaling as part of a scalable fleet management solution.
-
+For fleets and operators focused on cold chain integrity, anti tamper monitoring, or lightweight asset tracking, combining the BTS v.5 with Plaspy gateways and GPS units provides a cohesive view of location plus condition. If you need to learn more about how Plaspy supports BLE sensors and fleet telemetry, visit https://www.plaspy.com. Product specifications, availability, and manufacturer documentation can change over time, so please verify current details on the manufacturer site https://www.arusnavi.ru.

@@ -2,42 +2,59 @@
 slug: /lk_gps/lk930
 id: lk930
 sidebar_label: LK930
+title: LK-GPS - LK930
 sidebar_class_name: menu_item_tracker
+description: Rastreador compacto LK930 de LK GPS compatible con Plaspy para ubicación en tiempo real y larga autonomía
+keywords:
+  - LK930
+  - LK GPS
+  - LK GPS LK930
+  - LK930 Plaspy
+  - rastreador GPS LK930
+  - rastreador de vehículos LK930
+  - geocerca LK930
+  - historial de rutas LK930
+  - larga autonomía LK930
+  - seguimiento en tiempo real LK930
 ---
+
 # LK-GPS - LK930
 
 ![LK930](./logo..jpg)
 
-El rastreador GPS LK930 de KJ-GPS es un dispositivo de seguimiento de vehículos en tiempo real que ofrece una amplia gama de funciones y características. Con su tamaño compacto y su potente imán incorporado, este rastreador es fácil de instalar y se puede colocar discretamente en cualquier vehículo.
+El LK930 de LK-GPS es un dispositivo de rastreo vehicular compacto, diseñado para el monitoreo de ubicación en tiempo real y servicios basados en localización. Integra posicionamiento a bordo con conectividad celular y está pensado para su uso en automóviles, vehículos comerciales ligeros y activos portátiles. El LK930 ofrece larga autonomía, soporte para historial de rutas, alertas por geocerca y diversas opciones de notificación para ayudarle a supervisar el movimiento de vehículos y eventos importantes.
 
-Una de las características destacadas del LK930 es su capacidad de seguimiento en tiempo real, que le permite rastrear la ubicación de su vehículo en tiempo real a través de una plataforma web o una aplicación móvil. También puede personalizar la frecuencia de actualización y obtener una precisión de GPS de hasta 5 metros.
+Este modelo es compatible con Plaspy, por lo que los reportes de posición y las alertas generadas por el LK930 pueden visualizarse y gestionarse dentro de la plataforma Plaspy. Esa compatibilidad convierte al LK930 en una opción práctica para organizaciones o usuarios que buscan un rastreador sencillo que alimente datos de localización en Plaspy para supervisión de flotas, alertas y revisiones históricas.
 
-Otra característica útil del LK930 es su capacidad para verificar el historial de rutas en la plataforma web. Puede acceder y reproducir el historial de rutas del dispositivo en un período de hasta un año, lo que le brinda una visión completa de los movimientos de su vehículo.
+## Aspectos destacados
 
-El LK930 también cuenta con una función de comunicación bidireccional, lo que significa que puede escuchar el sonido alrededor del rastreador a través de su teléfono celular y también comunicarse con el rastreador a través de llamadas telefónicas.
+- Seguimiento en tiempo real para visibilidad inmediata de la ubicación
+- Larga autonomía con batería interna de alta capacidad que permite despliegues prolongados
+- Múltiples tipos de alerta como vibración, desplazamiento, batería baja, corte de energía y exceso de velocidad
+- Geocercas y reproducción del historial de rutas para mayor supervisión y auditoría
+- Monitoreo de audio unidireccional para revisar el entorno cuando sea necesario
+- AGPS y asistencia Wi-Fi opcional para mejorar el rendimiento de localización
 
-En caso de emergencia, el LK930 está equipado con un botón de SOS que, cuando se presiona, enviará un mensaje de ayuda a todos los números de teléfono autorizados y a la plataforma web. Esto garantiza que pueda obtener ayuda rápidamente en situaciones de emergencia.
+## Cómo funciona con Plaspy
 
-Otras características notables del LK930 incluyen la capacidad de establecer una geo-cerca para restringir los movimientos del dispositivo dentro de un área designada, alertas de vibración y desplazamiento, y la capacidad de verificar la ubicación a través de Google Maps en su teléfono móvil.
+Al integrarse con Plaspy, el LK930 transmite actualizaciones de ubicación y alertas a la plataforma, donde se incorporan a paneles de control, reportes y notificaciones de vehículos. Plaspy recibe los eventos del dispositivo y aplica las herramientas de la plataforma para visualización y control operativo.
 
-En resumen, el rastreador GPS LK930 de KJ-GPS es una solución confiable y versátil para el seguimiento de vehículos. Con su tamaño compacto, potente imán y una amplia gama de funciones, este rastreador es ideal para garantizar la seguridad de su vehículo y mantenerlo bajo control en todo momento.
+- Seguimiento en mapa en vivo y visualización del estado del vehículo en Plaspy
+- Enrutamiento configurable de alertas para que eventos como vibración, desplazamiento, batería baja y corte de energía generen notificaciones
+- Creación de geocercas y gestión de alertas por ruptura de perímetro desde los paneles de Plaspy
+- Reproducción histórica de rutas y exportación para análisis y registro
+- Reportes a nivel de flota para revisar patrones de movimiento y resúmenes de eventos
 
-### Características destacadas:
+## Casos de uso típicos
 
-- Seguimiento en tiempo real
-- Comunicación bidireccional
-- Verificación del historial de rutas
-- Botón de SOS para emergencias
-- Función de geo-cerca
-- Alertas de vibración y desplazamiento
-- Compatibilidad con Google Maps
+- Monitoreo de flotas para operaciones comerciales pequeñas y medianas
+- Supervisión de vehículos de alquiler y auditoría del historial de rutas
+- Rastreo de activos a largo plazo donde la larga autonomía es importante
+- Seguimiento de vehículos personales o familiares para tranquilidad y alertas de ubicación
+- Asignaciones temporales en equipos o activos que se movilizan entre sitios
 
-### Especificaciones técnicas:
+## Por qué elegir este rastreador con Plaspy
 
-- Red: GSM y GPRS
-- Banda/mHz: 850/900/1800/1900
-- Chip GSM: MTK2503
-- Chip GPS: MTK2503
-- Sensibilidad GPS/dBm: -159
-- Precisión GPS/m: 5
+El LK930 combina funciones de rastreo prácticas con un formato y una duración de batería adecuados para diversas situaciones de despliegue. Su conjunto de tipos de alerta y la capacidad de historial lo hacen útil para organizaciones que requieren visibilidad confiable de la ubicación sin necesidad de hardware complejo. Al integrarse con Plaspy, los eventos y posiciones del rastreador se centralizan en una plataforma que facilita la supervisión, generación de reportes y gestión de notificaciones para toda la flota.
 
+Si usted está evaluando rastreadores compactos con batería para usar con Plaspy, el LK930 es una opción a considerar para necesidades sencillas de seguimiento de vehículos y activos. Para más detalles sobre las funciones de Plaspy y cómo este dispositivo puede integrarse en sus operaciones visite https://www.plaspy.com. Las especificaciones del producto, disponibilidad y detalles del fabricante pueden cambiar con el tiempo, por lo que recomendamos verificar la información técnica vigente en el sitio oficial del fabricante https://www.lk-gps.com.

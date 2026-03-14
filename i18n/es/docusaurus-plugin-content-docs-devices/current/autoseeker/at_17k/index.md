@@ -2,58 +2,60 @@
 slug: /autoseeker/at_17k
 id: at_17k
 sidebar_label: AT-17K
+title: Autoseeker - AT-17K
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS magnético solar AT-17K con IP68 y larga autonomía compatible con Plaspy para seguimiento de flotas y activos
+keywords:
+  - Autoseeker AT-17K
+  - AT-17K rastreador
+  - Autoseeker rastreador GPS
+  - AT-17K compatible con Plaspy
+  - rastreador GPS magnético solar
+  - rastreador impermeable IP68
+  - dispositivo de seguimiento de flotas
+  - rastreo GPS de activos
+  - rastreador GPS marino
+  - rastreador GPS robusto
 ---
+
 # Autoseeker - AT-17K
 
 ![AT-17K](./tracker.jpg)
 
-El AT-17K 4G Solar Wireless Magnetic GPS Tracker es un rastreador GPS compatible con Plaspy, diseñado para el monitoreo de activos y vehículos a largo plazo con bajo mantenimiento. Diseñado para condiciones marinas y terrestres exigentes, el AT-17K combina una carcasa impermeable IP68 y un montaje magnético de ~300 lb con una batería de alta capacidad de 10000 mAh y recarga solar para ofrecer rastreo y telemetría en tiempo real confiables para flotas, contenedores, embarcaciones y maquinaria pesada.
+El Autoseeker AT-17K es un rastreador GPS magnético inalámbrico 4G diseñado para el monitoreo de vehículos y activos a largo plazo con bajo mantenimiento. Combina una carcasa resistente con certificación IP68, un potente imán para montaje y una batería interna de alta capacidad con recarga solar, lo que permite reportes continuos de ubicación y estados para flotas, contenedores, embarcaciones y maquinaria pesada.
 
-Como dispositivo compatible con Plaspy, el AT-17K transmite la ubicación y datos de telemetría a través de redes 4G LTE y GSM para que puedas ver rutas en vivo, historial de rutas y alertas de eventos en tu panel de Plaspy. Su combinación de tiempo de espera prolongado, bajo consumo de energía y alarmas de impacto/manipulación hace que el AT-17K sea ideal para telemática de seguros, flotas de alquiler, maquinaria de construcción y aplicaciones marinas que requieren un seguimiento continuo y seguro.
+Como dispositivo compatible con Plaspy, el AT-17K transmite datos de posición y estado a través de redes celulares para que usted pueda acceder a seguimiento en tiempo real, reproducción de historial y alertas desde un solo panel. Su autonomía extendida y las alarmas por manipulación o impacto convierten al AT-17K en una opción práctica cuando se requiere monitoreo remoto confiable y menos visitas de mantenimiento.
 
-## Puntos clave
+## Características principales
 
-- Rastreador GPS compatible con Plaspy que ofrece seguimiento en tiempo real y reproducción de historial para la gestión de flotas y la protección de activos.
-- Carcasa robusta impermeable con IP68 y rango amplio de temperatura de operación \(-20°C a 65°C\) para despliegues marinos y al aire libre.
-- Batería interna de 10000 mAh con recarga solar \(5V / 2.5W\) para extender el tiempo de espera y reducir los intervalos de mantenimiento.
-- Montaje magnético fuerte \(~300 lb de tracción\) y opción de montaje por tornillo para una instalación rápida y segura en vehículos, contenedores y equipos.
-- Alarmas y telemetría completas: alarma de vibración, anti-manipulación por detección de luz, alarma de caída/impacto y alertas de batería baja.
-- Conectividad celular preparada para uso global en múltiples bandas 4G LTE FDD y GSM para mantener un enlace ascendente fiable hacia la integración con Plaspy.
-- Bajo consumo de energía promedio \(aprox. 68 mA a 5V\) y recarga flexible vía Micro-USB \(DC 5V/1000 mA\).
+- Seguimiento en tiempo real compatible con Plaspy y reproducción de historial para visibilidad de flotas y activos.
+- Carcasa impermeable con grado IP68, apta para entornos marinos y despliegues exteriores.
+- Gran batería interna con recarga solar integrada para prolongar el tiempo de inactividad y reducir el mantenimiento.
+- Fuerte montaje magnético con opción de fijación con tornillos para una sujeción segura en vehículos y equipos.
+- Alarmas incorporadas por vibración, detección de manipulación y eventos de impacto para apoyar procesos antirobo.
+- Conectividad celular global para el envío continuo de posición y estado a Plaspy.
+- Bajo consumo promedio de energía para alargar los intervalos entre ciclos de mantenimiento.
 
 ## Cómo funciona con Plaspy
 
-El AT-17K transmite la posición GPS y la telemetría a bordo a Plaspy a través de redes celulares, de modo que puedas ver la ubicación en tiempo real, rutas históricas y alertas de eventos en un único lugar. Plaspy ingiere la telemetría del rastreador y la expone mediante mapas, informes, reglas de geocerca y flujos de notificación para un uso operativo inmediato y un análisis a largo plazo.
+Una vez instalado en un activo, el AT-17K transmite la posición GPS y el estado a bordo a Plaspy, de modo que usted puede monitorear movimientos, recibir alertas y analizar la actividad histórica desde una sola plataforma. Plaspy procesa los datos del dispositivo y los presenta mediante mapas, geocercas, reportes y reglas de notificación para apoyar las operaciones diarias y la respuesta a incidentes.
 
-- Actualizaciones de ubicación y telemetría en tiempo real enviadas a Plaspy para despacho y monitoreo en vivo.
-- Geocercas y reproducción de historial para verificación de rutas, cumplimiento y revisión de incidentes.
-- Alarmas de batería baja, vibración, manipulación por detección de luz y caídas/impactos que activan notificaciones y flujos de trabajo en Plaspy.
-- Telemetría de energía flexible: estado de la batería interna y métricas de recarga solar disponibles para Plaspy en la planificación de mantenimiento.
-- Se integra con los modelos de datos de Plaspy y puede combinarse con señales procedentes de vehículos —como encendido, monitoreo de combustible o entradas del inmovilizador— cuando esos flujos de datos estén disponibles en tu entorno de flota.
+- Las actualizaciones de ubicación en vivo y la telemetría aparecen en Plaspy para despacho y monitoreo.
+- La reproducción del historial y la revisión de rutas ayudan a verificar trayectos e investigar incidentes.
+- Los eventos de geocerca y las alarmas antirobo activan notificaciones y flujos de trabajo automatizados.
+- El estado de batería y la recarga solar se muestran en Plaspy para planificar mantenimientos y reemplazos.
+- Los eventos del dispositivo pueden incluirse en reportes de flota y paneles operativos para supervisión.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Red 4G LTE FDD y GSM \(enlace ascendente del dispositivo hacia Plaspy vía LTE/GSM\) |
-| --- | --- |
-| Bandas | 4G LTE FDD: B1/B2/B3/B4/B5/B7/B8/B28/B66; GSM: B2/B3/B5/B8 \(850/900/1800/1900 MHz\) |
-| Batería y Carga | Batería interna de 10000 mAh; recarga DC vía Micro-USB 5V/1000 mA |
-| Solar | Soporte de recarga solar integrada; salida del panel solar 5V / 2.5W |
-| Consumo de Energía | Corriente de funcionamiento típica ≈ 68 mA a 5V |
-| GNSS | Chipset GPS: ZKW AT6558R; adquisición rápida \(hot start ≈ 1 s, warm ≈ 30 s, cold ≈ 35 s\) |
-| Montaje y Formato | Montaje magnético \(~300 lb de tracción\) y opción de montaje por tornillo; carcasa compacta ~150 × 40 mm; peso ~500 g |
-| Entorno | Calificación IP68 a prueba de agua; rango de temperatura de funcionamiento -20°C a 65°C |
-| Alarmas y Sensores | Alarma de vibración, anti-manipulación por detección de luz, alarma de caída/impacto y alerta de batería baja |
-
-## Casos de uso
-
-- Gestión de flotas: seguimiento en tiempo real continuo y reproducción de historial para camiones y flotas corporativas compatibles con Plaspy.
-- Prevención de robo para activos de alto valor: montaje magnético y alertas de manipulación/vibración que ayudan a proteger contenedores, remolques y equipos.
-- Embarcaciones marinas y de pesca: impermeabilidad IP68, recarga solar y larga autonomía de batería para facilitar el seguimiento y la telemetría remotos.
-- Construcción y maquinaria pesada: factor de forma robusto y montaje magnético/por tornillo para un seguimiento fiable en obras.
-- Telemática de seguros y flotas de alquiler: despliegues a largo plazo con bajo mantenimiento para monitoreo de uso y soporte de reclamaciones.
+- Seguimiento de flotas para camiones y vehículos de servicio que requieren larga autonomía y datos de ubicación confiables.
+- Protección antirobo para remolques, contenedores y activos de alto valor mediante montaje magnético y alertas de manipulación.
+- Rastreo marino para lanchas pequeñas y embarcaciones remotas que se benefician de la impermeabilización y la recarga solar.
+- Monitoreo de maquinaria y equipo pesado en obras donde se necesita montaje resistente y durabilidad.
+- Flotas de alquiler y programas telemáticos de aseguradoras que demandan despliegues a largo plazo con bajo mantenimiento.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El AT-17K ofrece un equilibrio práctico entre autonomía, durabilidad y conectividad compatible con Plaspy para equipos que requieren un seguimiento en tiempo real confiable y telemetría en entornos exigentes. Su amplia batería interna, sumada a la recarga solar, reduce el tiempo de inactividad y las visitas de mantenimiento, mientras la retención IP68 y un montaje magnético de ~300 lb facilitan una instalación rápida y segura en vehículos, embarcaciones y activos expuestos a condiciones climáticas y manejo rudo. Cuando se integra con Plaspy, el AT-17K suministra datos de ubicación, alertas y estado de energía a tus flujos de trabajo de gestión de flotas para que puedas actuar ante eventos de robo, optimizar rutas y programar el mantenimiento con confianza. Para organizaciones que requieren un seguimiento robusto a largo plazo, especialmente en entornos marinos, de uso intensivo o remotos, el AT-17K es una solución duradera, compatible con Plaspy, que enfatiza la confiabilidad y un bajo costo total de propiedad.
+El AT-17K combina resistencia y autonomía con la compatibilidad de Plaspy para ofrecer una opción confiable a las organizaciones que monitorean activos en entornos exigentes o remotos. Su sellado impermeable, montaje magnético robusto y batería asistida por energía solar reducen la necesidad de visitas frecuentes de servicio, mientras que suministran datos oportunos de ubicación y alarmas a Plaspy para uso operativo.
 
+Si desea más información sobre cómo el AT-17K funciona con Plaspy y si es adecuado para su flota o programa de activos, visite https://www.plaspy.com para obtener información adicional. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos y la compatibilidad actuales en el sitio del fabricante https://autoseekergps.com/.

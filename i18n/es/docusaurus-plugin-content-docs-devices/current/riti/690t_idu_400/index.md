@@ -2,59 +2,61 @@
 slug: /riti/690t_idu_400
 id: 690t_idu_400
 sidebar_label: 690T (IDU-400)
+title: Riti - 690T (IDU-400)
 sidebar_class_name: menu_item_tracker
+description: Grabador vehicular Riti 690T listo para la nube, telemetría de alta frecuencia y compatible con Plaspy para seguimiento de flotas
+keywords:
+  - Riti 690T
+  - Riti IDU 400
+  - rastreador GPS 690T
+  - compatible con Plaspy
+  - reemplazo de tacógrafo de flota
+  - grabador de vehículo
+  - telemetría de alta frecuencia
+  - identificación de conductor
+  - monitoreo de cadena de frío
+  - telemática de flotas
 ---
+
 # Riti - 690T (IDU-400)
 
 ![690T (IDU-400)](./tracker.jpg)
 
-El Locator 690T \(IDU-400\) es un registrador digital de vehículos y rastreador GPS compatible con Plaspy, diseñado para entornos de flotas modernos que requieren un reemplazo de tacógrafos en la nube y telemetría de alta frecuencia. Diseñado para eliminar los tacógrafos en papel del flujo de trabajo diario, el 690T sube a la nube los registros de conducción y los datos operativos para su retención a largo plazo, trazabilidad de auditoría simplificada y recuperación fácil mediante paneles compatibles con Plaspy. Los gestores de flotas obtienen seguimiento en tiempo real y visibilidad de eventos sin la carga administrativa de los registros en papel.
+El 690T (IDU-400) de Riti es un grabador digital de vehículo y rastreador GPS pensado para operaciones de flota modernas que requieren una alternativa en la nube a los tacógrafos en papel. Registra datos de conducción y telemetría operacional, y los sube para su retención a largo plazo, simplificando las trazas de auditoría y agilizando la recuperación de información durante inspecciones. El dispositivo está orientado a flotas que necesitan muestreo frecuente y un registro confiable para cumplir con normativas y mantener supervisión operativa.
 
-La unidad combina telemática robusta con una expansión de E/S flexible para admitir la identificación del conductor, la detección de temperatura y entradas de emergencia, mientras continúa reportando tras la pérdida de energía del vehículo gracias a una batería de iones de litio integrada para respaldo. Con conectividad LTE multi-banda y soporte para protocolos de transmisión comunes, el Locator 690T se integra sin problemas en sistemas de gestión de flotas habilitados con Plaspy para ofrecer cumplimiento normativo, información sobre el comportamiento del conductor y flujos de trabajo simplificados para inspección y auditoría.
+Como dispositivo compatible con Plaspy, el 690T se integra en flujos de trabajo de gestión de flotas basados en la nube para ofrecer rastreo en tiempo real, archivos buscables y visibilidad de eventos sin la carga administrativa de los registros en papel. Su combinación de telemetría de alta frecuencia, opciones de identificación de conductor y expansión flexible de entradas/salidas lo hace relevante para organizaciones que usan Plaspy para centralizar reportes, revisiones de incidentes y retención regulatoria.
 
-## Aspectos clave
+## Características principales
 
-- Retención en la nube compatible con Plaspy: sustituye tacógrafos en papel por registros en la nube, buscables y auditable.
-- Telemetría de alta frecuencia: registra hasta una muestra por segundo \(86,400 registros/día\) para una reconstrucción precisa de viajes y eventos.
-- LTE multi-banda con respaldo 2G/3G: conectividad celular confiable para seguimiento en tiempo real y subida de datos entre redes.
-- Expansión flexible de E/S: detección de temperatura, entradas digitales, entrada de emergencia SOS y soporte de identificación de conductor mediante i-Button para satisfacer las diversas necesidades de la flota.
-- Batería de litio de respaldo y monitorización continua de voltaje: continúa reportando tras la pérdida de energía y protege los sistemas de alimentación del vehículo.
-- Sensor G de tres ejes para detección de eventos bruscos: registro automático de aceleraciones, frenadas y giros bruscos.
-- Actualizaciones OTA remotas y configuración de parámetros: reducen las visitas de campo y mantienen el firmware y la configuración actualizados.
+- Reemplazo de tacógrafo en la nube con retención auditable y buscable para inspecciones e informes
+- Telemetría de alta frecuencia con capacidad de hasta una muestra por segundo para reconstrucciones precisas de viajes y eventos
+- Conectividad LTE multibanda con soporte de conmutación para cobertura celular amplia entre regiones
+- Expansión flexible de E/S compatible con identificación de conductor, sensores de temperatura y entradas de emergencia
+- Batería de respaldo de ion de litio y monitoreo continuo de voltaje para continuar reportando tras pérdida de alimentación del vehículo
+- Sensor G tri eje para registro automático de aceleraciones bruscas, frenadas y giros
+- Actualizaciones remotas OTA y configuración de parámetros para reducir visitas de campo y mantener ajustes al día
 
 ## Cómo funciona con Plaspy
 
-El Locator 690T está diseñado para alimentar plataformas de gestión de flotas compatibles con Plaspy con ubicación en tiempo real, registros de conducción y telemetría. Los datos fluyen de forma segura a través de la red de tu operador hacia la nube, donde Plaspy visualiza los recorridos, admite impresión en línea y descargas de auditoría, y ofrece búsquedas por vehículo/fecha para los flujos de trabajo de inspección. La integración con Plaspy habilita notificaciones, informes y aplicación de políticas basadas en los eventos registrados por el 690T.
+El 690T fue diseñado para transmitir datos de ubicación, registros de conducción y telemetría de eventos a plataformas de flota compatibles con Plaspy, donde esa información se visualiza, archiva y utiliza. Una vez que los datos llegan a la nube, los paneles de Plaspy ofrecen monitoreo en vivo, reproducción histórica y herramientas para flujos de inspección y auditoría que dependen de las subidas del grabador.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a los paneles de Plaspy para monitoreo en vivo y reproducción histórica.
-- Identificación del conductor mediante entradas i-Button capturadas y etiquetadas en Plaspy para registros de servicio y del conductor.
-- Las entradas de detección de temperatura proporcionan datos de eventos de cadena de frío a Plaspy cuando se utiliza en flotas frigoríficas.
-- Las entradas digitales \(SOS, estado de puerta/encendido\) alimentan señales de evento en las alertas y informes de Plaspy para seguridad y cumplimiento.
-- Las instantáneas de eventos bruscos capturadas por el sensor G de tres ejes alimentan los informes de comportamiento del conductor e incidentes en Plaspy.
+- Actualizaciones en tiempo real de ubicación y telemetría llenan los paneles de Plaspy para monitoreo en vivo y reproducción histórica
+- Los registros de conducción se almacenan e indexan en Plaspy para informes de cumplimiento y descargas de auditoría
+- Las entradas de identificación de conductor se capturan y etiquetan para bitácoras de servicio y seguimiento de asignación de conductores
+- Las entradas de temperatura alimentan eventos de cadena de frío en Plaspy para supervisión de flotas refrigeradas
+- Entradas digitales como SOS, puertas o estado de ignición generan banderas de evento usadas en alertas e informes de Plaspy
+- Instantáneas de eventos bruscos del sensor G alimentan reportes de comportamiento del conductor e incidentes dentro de Plaspy
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Conectividad | Módulo LTE multi-banda con retrocompatibilidad para redes 2G y 3G; admite TCP, UDP, FTP, HTTP y SMS |
-| --- | --- |
-| Bandas | LTE multi-banda \(las bandas regionales específicas y variantes dependen de la configuración del modelo\) |
-| Alimentación y batería | Conjunto de alimentación del vehículo con monitorización continua de batería/voltaje; batería de litio de respaldo para reportar tras la pérdida de potencia |
-| Interfaces | Opciones de expansión de E/S multi-entrada/multi-salida, incluyendo detección de temperatura, entradas digitales, entrada de emergencia SOS y identificación de conductor mediante i-Button |
-| GNSS | Antena GNSS incluida para posicionamiento basado en satélite y registro de trayectos \(antena GNSS externa estándar\) |
-| Bluetooth | No especificado en la descripción de este modelo |
-| Gestión Remota | Actualizaciones de firmware OTA \(over-the-air\) y configuración remota de parámetros para mantenimiento centralizado |
-| Factor de forma | Registrador digital de vehículos / unidad telemática para instalación en vehículo; incluye antenas GNSS y LTE |
-
-## Casos de uso
-
-- Gestión de flotas y cumplimiento: sustituir tacógrafos en papel mientras se satisfacen los requisitos regulatorios de retención e inspección mediante el almacenamiento en la nube de Plaspy.
-- Análisis del comportamiento del conductor: monitorizar aceleraciones y frenadas bruscas y giros pronunciados mediante el sensor G de tres ejes para programas de coaching y seguridad.
-- Monitoreo de la cadena de frío: usar las entradas de detección de temperatura para registrar el rendimiento de la refrigeración y crear registros auditable en Plaspy.
-- Grabación de eventos y auditoría: los eventos SOS y de entradas digitales proporcionan evidencia para revisión de incidentes, inspecciones y auditorías regulatorias.
-- Servicios telemáticos integrados: combinar ubicación, identificación del conductor y telemetría de alta frecuencia para ruteo, despacho e informes de rendimiento.
+- Gestión de flotas y cumplimiento donde la retención en la nube reemplaza los tacógrafos en papel para inspecciones
+- Análisis y entrenamiento de conductores usando datos de eventos bruscos para mejorar la seguridad
+- Monitoreo de cadena de frío para vehículos refrigerados con registro de temperatura y archivos de auditoría
+- Registro de eventos y auditoría posterior a incidentes usando SOS y entradas digitales
+- Telemática integrada para enrutamiento, despacho y reportes de desempeño combinando ubicación e identificación de conductor
 
 ## Por qué elegir este rastreador con Plaspy
 
-El Locator 690T \(IDU-400\) ofrece una ruta práctica y fiable desde tacógrafos en papel heredados hacia una solución telemática moderna compatible con Plaspy. Su diseño centrado en la nube y el modelo de retención a largo plazo simplifican los flujos de auditoría e inspección, mientras que el registro de alta frecuencia proporciona la fidelidad telemétrica que las flotas necesitan para registros de conductor precisos y análisis operativos. Las actualizaciones OTA remotas y la conectividad multi-protocolo reducen el tiempo de mantenimiento y aseguran un seguimiento continuo en tiempo real a través de redes celulares.
+El Riti 690T (IDU-400) ofrece una transición práctica de tacógrafos en papel a una solución telemática centrada en la nube cuando se usa con Plaspy. Su enfoque en muestreo frecuente, retención a largo plazo y opciones flexibles de E/S lo convierten en una opción sólida para flotas que necesitan registros verificables, trazas de auditoría más claras y contexto operativo más allá de la simple ubicación.
 
-Para flotas que requieren más que mera ubicación, la flexibilidad de E/S del 690T permite la integración con sensores de temperatura, sistemas de identificación de conductor y entradas digitales que capturan el estado de encendido o de puertas. Cuando se combina con Plaspy, las flotas obtienen visualización centralizada, archivos indexables y herramientas de informe que respaldan el cumplimiento normativo, flujos de trabajo contra robo y eficiencia operativa. El Locator 690T es una opción ideal cuando el rendimiento fiable del rastreador GPS, la retención de tacógrafos en la nube y la telemática escalable son esenciales.
-
+Si usted busca visibilidad consolidada y flujos de inspección simplificados, el diseño del 690T complementa los paneles y herramientas de reporte de Plaspy para reducir la carga administrativa y apoyar requisitos regulatorios. Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en la página del fabricante https://www.riti.com.tw/.

@@ -2,60 +2,60 @@
 slug: /tk_star/obd2_gps_tracker
 id: obd2_gps_tracker
 sidebar_label: OBD2 GPS Tracker
+title: TK-Star - OBD2 GPS Tracker
 sidebar_class_name: menu_item_tracker
+description: Rastreador OBD2 plug and play compatible con Plaspy para ubicación en tiempo real, diagnóstico vehicular y monitoreo antirrobo
+keywords:
+  - Rastreador OBD2 TK-Star
+  - Rastreador GPS OBD2
+  - TK-Star Rastreador GPS OBD2
+  - Rastreador vehicular compatible con Plaspy
+  - Dispositivo de seguimiento de flotas
+  - Rastreador antirrobo para vehículos
+  - OBD2 plug and play
+  - GNSS multiconstelación
+  - Rastreador OBD2 IP66
+  - Diagnóstico vehicular OBD2
 ---
-# TK-Star - OBD2 GPS Tracker
+
+# TK-Star - Rastreador GPS OBD2
 
 ![OBD2 GPS Tracker](./tracker.jpg)
 
-El OBD2 GPS Tracker es un rastreador de vehículos plug-and-play diseñado para una instalación sencilla en cualquier puerto OBD2 estándar. Diseñado para coches privados, flotas de alquiler y vehículos comerciales, ofrece datos de ubicación del rastreador GPS y diagnósticos del vehículo de forma continua a plataformas compatibles con Plaspy para un seguimiento en tiempo real fiable, gestión de flotas y monitoreo anti-robo sin cableado complejo.
+El rastreador OBD2 de TK-Star es un dispositivo plug-and-play que se conecta directamente al puerto OBD2 estándar para una implementación rápida. Diseñado para autos particulares, flotas de alquiler y vehículos comerciales, ofrece información continua de ubicación y datos de diagnóstico del vehículo a plataformas compatibles con Plaspy. Es una alternativa sin cableado que proporciona rastreo en tiempo real, rutas históricas y telemetría básica útil para monitoreo y seguridad.
 
-Construido con posicionamiento multiconstelación \(GPS, GLONASS, BeiDou\) más soporte por WiFi y LBS, la unidad mejora la precisión en exteriores y optimiza la localización en interiores cuando las señales de satélite son limitadas. Con alertas de manipulación por vibración, resistencia al agua IP66 y historial de rutas en el servidor, este dispositivo OBD2 ofrece telemetría práctica para la salud del vehículo, monitoreo de combustible y supervisión operativa cuando se integra en Plaspy.
+Como dispositivo compatible con Plaspy, este rastreador OBD2 envía coordenadas GNSS, posicionamiento asistido por red y datos de diagnóstico vehicular a Plaspy para un monitoreo y alertas consolidados. Su combinación de posicionamiento multiconstelación, asistencia por WiFi y LBS, junto con alertas por manipulación y resistencia a la intemperie, lo hace adecuado para organizaciones que requieren instalación simple, visibilidad continua y supervisión operativa mediante la plataforma Plaspy.
 
-## Principales Características
+## Características principales
 
-- Instalación OBD2 plug-and-play compatible con Plaspy — obtén datos en tiempo real del rastreador GPS y diagnósticos rápidamente, sin necesidad de cableado.
-- Posicionamiento multiconstelación \(GPS/GLONASS/BeiDou\) más WiFi y LBS para mayor precisión y asistencia en interiores.
-- Protección contra manipulación y movimiento mediante sensor de vibración integrado — alertas instantáneas ante posibles interferencias.
-- Resistencia al agua con grado IP66, garantiza operación fiable en condiciones de humedad o polvo para el despliegue de flotas.
-- Almacenamiento en servidor de rutas históricas \(hasta seis meses\) para cumplimiento, auditorías y revisión de rendimiento.
-- Geocercas configurables, alertas de movimiento y alarmas de exceso de velocidad entregadas por SMS y aplicación para una gestión proactiva de la flota.
-- Pequeña batería de respaldo recargable que proporciona operación limitada si se desconecta la alimentación externa para apoyar flujos de trabajo anti-robo.
+- Instalación plug-and-play en el puerto OBD2 para despliegues rápidos y mínima intrusión en el vehículo.
+- Posicionamiento multiconstelación con asistencia por WiFi y LBS para mejorar la precisión exterior y ayudar en condiciones con señal satelital limitada.
+- Alertas por vibración para detectar manipulación o movimiento sospechoso.
+- Resistencia al agua y al polvo con clasificación IP66 para operar de forma fiable en entornos húmedos o polvorientos comunes en flotas.
+- Almacenamiento de rutas históricas del lado del servidor para análisis retrospectivos y auditorías.
+- Geocercas configurables, alertas de movimiento y notificaciones por exceso de velocidad para apoyar controles operativos.
+- Pequeña batería de respaldo recargable que ofrece funcionamiento limitado si se corta la alimentación externa.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Cuando se conecta a Plaspy, el OBD2 GPS Tracker transmite datos de ubicación y diagnósticos del vehículo para seguimiento en tiempo real, telemetría de la flota y alertas automáticas. Plaspy integra coordenadas GNSS, posicionamiento basado en red \(WiFi/LBS\) y campos de diagnóstico OBD2 para que los gestores de la flota puedan monitorear la salud del vehículo y responder rápidamente a incidentes de seguridad.
+Al integrarlo con Plaspy, el rastreador OBD2 de TK-Star transmite la ubicación y los datos de diagnóstico a los paneles de Plaspy para que usted, como gestor de flota, pueda supervisar los vehículos en tiempo real y actuar ante las alertas. Plaspy procesa las actualizaciones de posición, el posicionamiento asistido por red y los campos de diagnóstico OBD2 cuando están disponibles, y luego correlaciona esos datos con reglas de geocercas, eventos de manipulación y el historial de rutas almacenado.
 
-- Actualizaciones de ubicación y telemetría en tiempo real: el rastreador GPS alimenta de forma continua los paneles y mapas de Plaspy.
-- Estado de ignición, códigos de falla y parámetros de diagnóstico disponibles a través de la interfaz OBD2 para telemetría y flujos de mantenimiento \(cuando el vehículo admite esos PIDs\).
-- El monitoreo de combustible y otras métricas derivadas de OBD2 pueden visualizarse en Plaspy si el vehículo expone los datos relevantes.
-- Los flujos de trabajo de inmovilizador remoto y acciones anti-robo reactivas pueden orquestarse a través de Plaspy donde sean compatibles con los sistemas del vehículo y los procedimientos del operador.
-- Plaspy puede correlacionar el movimiento del rastreador, los eventos de geocerca y las alertas de manipulación con otras fuentes de datos para reducir falsas alarmas y mejorar la respuesta.
+- Actualizaciones continuas de ubicación y telemetría mostradas en los mapas y paneles de estado de Plaspy.
+- Indicadores de diagnóstico del vehículo, como encendido y códigos de falla, visibles en Plaspy cuando el vehículo proporciona esos valores.
+- Métricas derivadas del OBD2 relacionadas con combustible y otros parámetros para visualizar en Plaspy con fines de mantenimiento y control de costos cuando estén disponibles.
+- Disparadores de geocercas, alertas de movimiento y notificaciones por manipulación enviados a Plaspy para alertas automáticas y flujos operativos.
+- Consultas y reportes de rutas históricas alojados en el servidor y accesibles a través de Plaspy para cumplimiento y revisión.
 
-## Resumen Técnico
+## Casos de uso típicos
 
-| Conectividad | GSM quad-band 850/900/1800/1900 MHz; posicionamiento multiconstelación: GPS, GLONASS, BeiDou, WiFi, LBS |
-| --- | --- |
-| Bandas | GSM cuádruple banda \(850/900/1800/1900 MHz\) |
-| Alimentación y batería | Voltaje de operación DC 9V–35V; corriente de trabajo a 12V ~73.6 mA; batería de respaldo recargable interna opcional de 60 mAh \(3.7 V\) \(~2 horas en espera\) |
-| Interfaces | Conexión OBD2 plug-and-play al puerto OBD2 del vehículo; no se requieren cableados externos |
-| GNSS | chipset GPS \(basado en ARM STM32\); sensibilidad -159 dBm; precisión típica ~5 m; TTFF Cold 35–80 s, Warm ~35 s, Hot ~1 s |
-| Bluetooth | No especificado \(el dispositivo se apoya en OBD2 para diagnósticos y sensores internos para la detección de manipulación\) |
-| Gestión Remota | Se integra con plataformas de seguimiento estándar \(compatibles con Plaspy\); admite seguimiento en vivo, consultas de rutas históricas \(hasta seis meses\), alarmas y notificaciones |
-| Formato | Dimensiones 42 × 17 × 48 mm; peso 38 g; unidad compacta de plug-in OBD2 para uso en vehículos; resistencia al agua IP66 |
-| Ambiental | Temperatura de operación -20°C a +55°C; almacenamiento -40°C a +85°C; humedad 5%–95% sin condensación |
+- Gestión de flotas para monitoreo de rutas, seguimiento de utilización y supervisión operativa.
+- Vehículos de renta y carsharing para hacer cumplir geocercas, validar uso y resolver disputas mediante el historial de rutas.
+- Protección antirrobo mediante alertas por manipulación y notificaciones de la batería de respaldo para detectar movimientos no autorizados.
+- Planificación de mantenimiento y telemetría remota recopilando datos de diagnóstico para programar servicios.
+- Monitoreo de activos a bordo cuando se requiere un factor de forma compacto y alimentado para rastrear equipos y carga.
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Gestión de flotas: monitorea rutas, comportamiento del conductor y salud del vehículo en tiempo real para optimizar operaciones y reducir costos.
-- Alquiler y uso compartido de vehículos: aplica geocercas, recibe alertas de exceso de velocidad y movimiento, y revisa rutas históricas para disputas.
-- Protección anti-robo: alertas de manipulación/vibración, además de batería de respaldo, brindan notificaciones inmediatas si el vehículo se mueve o se corta la energía.
-- Mantenimiento y telemetría: recopila diagnósticos OBD2 y métricas relacionadas con el combustible a través de Plaspy para programar mantenimiento preventivo y reducir el tiempo de inactividad.
-- Seguimiento de contenedores/cargas y equipos: utiliza el formato compacto OBD2 para monitoreo en vehículo y activos donde haya energía del vehículo disponible.
+Combinar el rastreador OBD2 de TK-Star con Plaspy ofrece una opción directa para organizaciones que necesitan despliegue rápido y visibilidad centralizada de la flota. El enfoque plug-and-play reduce el tiempo de instalación, mientras que la pila de posicionamiento multi-tecnología y la detección de manipulación mantienen señales de ubicación y seguridad útiles en diversas condiciones operativas. A través de Plaspy, las transmisiones de ubicación, indicadores de diagnóstico, eventos de geocerca y alertas se consolidan, lo que permite respuestas más rápidas ante incidentes, mejor planificación del mantenimiento y reportes operativos más claros.
 
-## Por qué Elegir Este Rastreador con Plaspy
-
-Emparejar este OBD2 GPS Tracker con Plaspy ofrece a los operadores de flotas una ruta directa hacia un rastreo en tiempo real y telemetría escalables y fiables. El diseño plug-and-play minimiza el tiempo de instalación y la pila de posicionamiento multi-tecnología—GPS, GLONASS, BeiDou, WiFi y LBS—ayuda a mantener actualizaciones de ubicación precisas en entornos diversos. La plataforma de Plaspy consolida ubicación en vivo, PIDs de diagnóstico \(como ignición y parámetros de combustible cuando estén disponibles\), eventos de geocerca y alertas de manipulación en un único panel para que los gerentes actúen rápidamente ante incidentes de robo, programar mantenimiento y mejorar la eficiencia de las rutas.
-
-Para empresas enfocadas en una gestión de flotas rentable, operaciones de alquiler o seguridad de vehículos, este rastreador OBD2 GPS ofrece capacidades esenciales de rastreo, telemetría y alertas manteniéndose compatible con Plaspy. Es una solución compacta y resistente a las inclemencias del tiempo que proporciona los datos que Plaspy necesita para ofrecer ideas accionables, gestión remota y un control operativo mejorado sin instalaciones complicadas.
-
+Si desea evaluar cómo encaja este rastreador en su implementación de Plaspy, obtenga más información sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales en el sitio oficial del fabricante https://www.tk-star.com/.

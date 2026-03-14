@@ -2,65 +2,60 @@
 slug: /sentar/d35
 id: d35
 sidebar_label: D35
+title: Sentar - D35
 sidebar_class_name: menu_item_tracker
+description: Reloj infantil Sentar D35 compatible con Plaspy, seguimiento 4G en tiempo real, alertas SOS, comunicación bidireccional y localización multimodal para supervisión parental
+keywords:
+  - Sentar D35
+  - Sentar D35 GPS
+  - rastreador Sentar D35
+  - Sentar D35 Plaspy
+  - reloj infantil D35
+  - rastreador GPS infantil
+  - rastreador compatible con Plaspy
+  - rastreador infantil 4G
+  - reloj con GPS para niños
+  - D35 seguimiento en tiempo real
 ---
+
 # Sentar - D35
 
 ![D35](./tracker.png)
 
-El D35 es un rastreador GPS para niños compatible con Plaspy, basado en Android 4G y presentado en forma de reloj inteligente, diseñado para posicionamiento en tiempo real, comunicaciones seguras y supervisión parental sencilla. Diseñado para funcionar con plataformas como Plaspy, el D35 combina tecnologías de localización multimodo \(GPS, AGPS, LBS y WiFi\) con conectividad 4G para ofrecer un seguimiento en tiempo real fiable y conciencia situacional para padres, escuelas y cuidadores.
+El Sentar D35 es un reloj inteligente compacto para niños pensado para posicionamiento en tiempo real y comunicación con cuidadores. Basado en una plataforma Android con conectividad 4G, el D35 integra tecnologías de localización multimodal como GPS, AGPS, LBS y WiFi para ofrecer visibilidad continua de la ubicación. Su diseño orientado a los niños incluye una pantalla táctil IPS de 1.69 pulgadas, cámaras duales, un botón físico SOS dedicado y clasificación de resistencia al agua IPX7, cubriendo las necesidades habituales de vigilancia infantil diaria.
 
-El D35 combina hardware apto para niños — una pantalla táctil IPS de 1.69 pulgadas, cámaras duales, un botón físico de encendido SOS y una clasificación de impermeabilidad IPX7 — con software Android 4.4 y soporte de red 4G. Cuando se integra con Plaspy, el D35 se convierte en una poderosa opción de rastreador GPS para familias que desean actualizaciones de ubicación inmediatas, alertas de emergencia y comunicación bidireccional simple, manteniendo la flexibilidad de un dispositivo compatible con Plaspy.
+Como dispositivo compatible con Plaspy, el D35 puede transmitir información de ubicación y estado a la plataforma Plaspy para monitoreo centralizado y alertas. Al conectarlo a Plaspy, usted y los administradores obtendrán acceso a actualizaciones cartográficas de posición, manejo de alertas de emergencia, indicadores de comunicación bidireccional y contexto situacional como fotografías capturadas. Esto convierte al D35 en una opción práctica para familias, escuelas y prestadores de cuidado que buscan flujos de trabajo de seguimiento y seguridad gestionados de forma simple a través de Plaspy.
 
-## Puntos clave
+## Aspectos destacados
 
-- Rastreador GPS 4G compatible con Plaspy, en un compacto reloj inteligente para niños, que ofrece seguimiento y monitoreo en tiempo real fiables.
-- Posicionamiento multimodo con GPS, AGPS, LBS y WiFi para mejorar la precisión de ubicación en entornos urbanos y interiores.
-- Cámaras duales \(30W frontal, 200W trasera con 720P HD gran angular\) que permiten tomar fotos y grabar vídeo para una mayor consciencia contextual.
-- Botón físico de encendido SOS dedicado para llamadas de emergencia y alertas a través de Plaspy.
-- Pantalla táctil a color IPS de 1.69 pulgadas \(240 × 280\) para una interacción sencilla con llamadas, mensajes y apps.
-- Conectividad 4G robusta \(bandas FDD/TDD + WCDMA\) y soporte para nano SIM para mantener telemetría y canales de voz continuos.
-- Clasificación IPX7 a prueba de agua y una batería de 1000mAh con carga magnética de 4 pines para uso diario prolongado y durabilidad.
-- Disponible en Azul, Rosa y Negro para adecuarse al estilo personal, manteniendo la capacidad de rastreo profesional.
+- Reloj infantil 4G compatible con Plaspy para seguimiento y comunicación en tiempo real.
+- Posicionamiento multimodal con GPS, AGPS, LBS y WiFi para mejorar la cobertura de ubicación.
+- Cámaras duales para capturar fotos y videos que aportan contexto situacional.
+- Botón físico SOS dedicado para alertas de emergencia inmediatas.
+- Pantalla táctil IPS de 1.69 pulgadas para una interacción intuitiva y manejo sencillo.
+- Resistencia al agua IPX7 y factor de forma wearable pensado para el uso diario infantil.
+- Disponible en varios colores para adaptarse a preferencias personales manteniendo las funciones de rastreo.
 
 ## Cómo funciona con Plaspy
 
-Al conectarse a Plaspy, el D35 transmite datos de ubicación multimodo y actualizaciones de estado para que los cuidadores puedan supervisar el movimiento y recibir alertas en tiempo real. Plaspy ingiere la telemetría respaldada por red del D35 y la presenta en paneles, mapas y flujos de notificaciones para una visibilidad rápida y accionable.
+Al integrarse con Plaspy, el D35 envía señales de ubicación y eventos de estado a los paneles y sistemas de notificaciones de Plaspy, de modo que usted puede supervisar movimientos, recibir alertas y revisar contexto casi en tiempo real.
 
-- Actualizaciones de ubicación y telemetría en tiempo real a través de GPS/AGPS, LBS y WiFi para mejorar la precisión en entornos variados.
-- Alerta de emergencia SOS: el botón físico SOS/encendido genera alertas prioritarias a Plaspy para una respuesta rápida.
-- Estado de voz y mensajería bidireccional a través del canal de voz 4G integrado; Plaspy muestra el estado de conectividad y los eventos de llamadas cuando son compatibles.
-- Indicadores de estado y conectividad del dispositivo, como la banda de red y la calidad de señal, que Plaspy puede usar para alertas y registro.
-- Contexto multimedia: las cámaras del D35 permiten capturar fotos y videos; dependiendo del firmware y de los permisos, Plaspy puede usar el material capturado para enriquecer los registros de incidentes y la supervisión.
+- Actualizaciones de ubicación en vivo y trazas históricas accesibles mediante los mapas de Plaspy para mayor visibilidad situacional.
+- Alertas SOS prioritarias generadas por el dispositivo que aparecen en las notificaciones y flujos de trabajo de alerta de Plaspy.
+- Canales de voz y mensajería bidireccional indicados dentro de Plaspy para que los operadores vean eventos de conectividad y comunicación.
+- Indicadores de estado del dispositivo y conectividad enviados a Plaspy para monitorear la salud de la señal y disponibilidad.
+- Evidencia multimedia, como fotos y clips cortos de video, que pueden vincularse a eventos para respaldar la revisión de incidentes cuando esté permitido.
 
-## Visión técnica
+## Casos de uso típicos
 
-| Modelo | D35 |
-| --- | --- |
-| Tipo de dispositivo | Reloj inteligente GPS para niños basado en Android 4G |
-| Conectividad | 4G \(FDD/TDD\), WCDMA; soporte para nano SIM |
-| Bandas | FDD B1/B2/B3/B5/B7/B8/B20; TDD B38/B39/B40/B41; WCDMA B1/B2/B5/B8 |
-| Tecnologías de localización \(GNSS\) | GPS, AGPS, LBS, posicionamiento por WiFi |
-| Pantalla | Pantalla táctil a color IPS de 1.69 pulgadas, resolución 240 × 280 |
-| Sistema operativo y memoria | Android 4.4; 2GB RAM, 4GB ROM |
-| Cámaras | Cámaras duales — cámara frontal de 30W; cámara trasera de 200W con gran angular HD 720P |
-| Batería y carga | Batería de 1000mAh; carga mediante cable magnético de 4 pines |
-| SOS y botones | Botón físico SOS de encendido para llamadas de emergencia |
-| Resistencia al agua | IPX7 \(resistente a salpicaduras y lluvia\) |
-| Colores | Azul, Rosa, Negro |
-| Factor de forma | Reloj inteligente ponible para niños |
-
-## Casos de uso
-
-- Seguridad infantil y supervisión parental — seguimiento en tiempo real en Plaspy con alertas SOS para una intervención rápida.
-- Supervisión del trayecto escolar — monitorizar el cumplimiento de la ruta y recibir notificaciones cuando un niño llegue o salga de las zonas escolares.
-- Gestión de actividades tras la escuela — confirmar ubicación y comunicarse instantáneamente mediante voz o mensajería 4G.
-- Juegos al aire libre y viajes — protección IPX7 y posicionamiento robusto aseguran un rastreo fiable en diversas condiciones climáticas y entornos urbanos.
-- Revisión contextual de incidentes — usar las fotos y videos capturados para validar eventos y mejorar las decisiones de respuesta.
+- Supervisión parental para verificaciones diarias de ubicación, control de rutas y alertas de emergencia.
+- Vigilancia del trayecto escolar para confirmar llegada y salida en zonas escolares.
+- Coordinación de actividades extraescolares usando voz y mensajería para contacto rápido.
+- Seguimiento de juegos al aire libre y viajes donde la resistencia al agua y la durabilidad son preferibles.
+- Recolección de contexto de incidentes mediante imágenes capturadas para validar y documentar sucesos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El D35 es un rastreador GPS diseñado específicamente para Plaspy, orientado a familias que buscan un equilibrio entre seguridad, comunicación y facilidad de uso. Su seguimiento en tiempo real multimodo y la conectividad 4G lo convierten en un dispositivo ponible fiable para el monitoreo de niños, mientras que el botón SOS y la captura de medios añaden contexto crítico durante incidentes. Integrado con Plaspy, el D35 ofrece una inteligencia de ubicación clara, alertas oportunas y una gestión de dispositivo sencilla, ayudando a los cuidadores a mantenerse informados sin complicaciones.
+El D35 está diseñado para la seguridad infantil y la tranquilidad de los cuidadores. Su combinación de posicionamiento multimodal, una interfaz táctil visible, capacidad SOS y conectividad 4G lo hace ideal para usarse con Plaspy en entornos familiares e institucionales. Plaspy integra esos datos de dispositivo en una plataforma unificada que prioriza la visibilidad de ubicación, las notificaciones y la gestión sencilla de dispositivos sin añadir complejidad.
 
-Mientras que el D35 está diseñado principalmente como rastreador GPS para niños, la plataforma de Plaspy también admite telemetría más amplia y características centradas en vehículos para dispositivos que expongan esas interfaces. Para organizaciones que requieren gestión de flotas, controles anti-robo, monitoreo de combustible, funciones de encendido o inmovilizador, o sensores Bluetooth, Plaspy puede integrar esas fuentes de datos cuando el hardware las soporte. El D35 destaca donde la prioridad es el seguimiento en tiempo real centrado en el niño, la comunicación bidireccional y las alertas de emergencia.
-
+Si su necesidad principal es el rastreo infantil mediante un wearable con alertas rápidas y comunicación bidireccional, el Sentar D35 emparejado con Plaspy es una opción directa a considerar. Para obtener más información sobre Plaspy y cómo la plataforma puede ayudar a gestionar dispositivos compatibles como el D35, visite https://www.plaspy.com. Las especificaciones y la disponibilidad de productos pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en el sitio del fabricante http://www.sentarsmart.com/ antes de tomar decisiones de compra.

@@ -2,63 +2,59 @@
 slug: /xexun/x06
 id: x06
 sidebar_label: X06
+title: Xexun - X06
 sidebar_class_name: menu_item_tracker
+description: Credencial wearable Xexun X06 con GPS/Beidou, SOS con voz y compatibilidad con Plaspy para monitoreo en tiempo real y alertas
+keywords:
+  - Xexun X06
+  - rastreador X06
+  - rastreador portátil X06
+  - X06 GPS Beidou
+  - rastreador GPS portátil
+  - seguimiento de personal
+  - compatible con Plaspy
+  - rastreador tipo credencial
+  - rastreador para cuidado de adultos mayores
+  - seguridad estudiantil
 ---
+
 # Xexun - X06
 
 ![X06](./tracker.jpg)
 
-El X06 GPS/Beidou Positioning Badge es un rastreador GPS vestible compatible con Plaspy, diseñado para una gestión fiable de la ubicación de las personas. Construido para uso diario en educación, cuidado de personas mayores, asistencia y seguridad corporativa, el X06 fusiona GPS y BeiDou con WiFi y LBS para ofrecer un posicionamiento más rápido y preciso, y una integración fluida con Plaspy para seguimiento en tiempo real y alertas. Su formato compacto tipo badge, el módulo de voz integrado y una larga autonomía en modo de espera lo convierten en una opción práctica cuando se requiere monitoreo continuo poco intrusivo.
+El Xexun X06 es una credencial wearable con posicionamiento GPS y Beidou diseñada para la gestión de ubicación de personas. Su formato compacto integra posicionamiento multimodal con asistencia por WiFi y LBS, un módulo de voz y una alarma SOS, ofreciendo una solución práctica para el monitoreo continuo y discreto en ámbitos educativos, cuidado de adultos mayores, control de asistencia corporativa y seguridad.
 
-Como dispositivo compatible con Plaspy, el X06 transmite la posición y el estado a través de redes celulares 2G/3G/4G del país hacia plataformas en la nube y apps móviles. Esa combinación ofrece a los responsables acceso inmediato a la ubicación, trayectorias históricas, alertas de geocerca y eventos SOS a través de la interfaz de Plaspy, mientras se mantiene el almacenamiento en búfer local y la retransmisión cuando la cobertura se interrumpe. El resultado es una conciencia situacional fiable y una respuesta ante incidentes más rápida para el personal y grupos objetivo.
+Como dispositivo compatible con Plaspy, el X06 transmite actualizaciones de posición, alarmas y estado hacia servicios en la nube y hacia Plaspy, lo que permite a los equipos visualizar ubicaciones en vivo, revisar trazas históricas y recibir alertas de geocerca o SOS. Su capacidad de almacenamiento local y reenvío ayuda a mantener la continuidad de los datos de rastreo durante breves cortes de cobertura, lo que lo hace adecuado para supervisión centralizada de personal desde la plataforma Plaspy.
 
-## Key Highlights
+## Características principales
 
-- Rastreador GPS vestible compatible con Plaspy para el monitoreo del personal, que permite el seguimiento en tiempo real en los paneles y apps móviles de Plaspy.
-- Posicionamiento de múltiples fuentes \(GPS + BeiDou + WiFi + LBS\) para una mayor velocidad de fijación y una precisión típica de &lt;10 m en condiciones de cielo despejado.
-- Batería recargable integrada de 1000 mAh; tiempo de carga ~2 hours; en espera hasta ~5 days \(one report/hour\), adecuada para uso diario continuo.
-- Alarma de emergencia SOS \(pulsación prolongada\) y voz bidireccional para una respuesta rápida ante incidentes y comunicación con el cuidador.
-- Alertas por geocerca \(geofence\) y seguimiento por intervalos programados \(informes de posición automáticos\) disponibles en las reglas de Plaspy.
-- Lista blanca de llamadas entrantes y actualización de firmware OTA remota para comunicaciones seguras y mantenimiento simplificado del dispositivo.
-- Formato tipo badge; 88 × 49 × 15 mm; peso aprox. 60 g; plástico ecológico para uso discreto y despliegue a gran escala.
+- Rastreador en formato credencial que combina GPS y BeiDou con asistencia por WiFi y LBS para obtener fijaciones más rápidas en entornos mixtos.
+- Diseñado para uso en personas, con alarma SOS integrada y comunicación por voz bidireccional para comunicación directa.
+- Larga autonomía en espera y batería recargable pensada para uso continuo diario.
+- Alertas por geocerca y almacenamiento local para preservar eventos durante pérdidas temporales de señal.
+- Factor de forma compacto y liviano que facilita el uso discreto y el despliegue a gran escala.
+- Soporte para actualización de firmware OTA y lista blanca de llamadas entrantes para simplificar la gestión remota.
 
-## How It Works with Plaspy
+## Cómo funciona con Plaspy
 
-Cuando el X06 se configura como un rastreador compatible con Plaspy, transmite actualizaciones de posición, alarmas y mensajes de estado a través de su conexión celular hacia la nube del proveedor y hacia Plaspy. Plaspy muestra la ubicación en tiempo real, reproduce las trayectorias históricas y genera alertas de geocerca o de batería baja, lo que facilita la monitorización centralizada y la generación de informes. La lógica de buffering del X06 garantiza la continuidad: si se pierde el servicio celular, los registros de ubicación se almacenan localmente y se retransmiten automáticamente cuando la conectividad se restablece.
+Cuando se configura como dispositivo compatible, el X06 envía su posición, alarmas y actualizaciones de estado a través de redes celulares hacia la nube y hacia Plaspy. Plaspy presenta esas actualizaciones mediante paneles y herramientas de reporte para que los responsables mantengan conciencia situacional, activen reglas y coordinen respuestas. El dispositivo guarda registros localmente si la conectividad se interrumpe y los reenvía cuando el servicio se restablece, evitando huecos en los datos.
 
-- Actualizaciones de ubicación y telemetría en tiempo real entregadas a Plaspy para monitorización en vivo y reproducción histórica.
-- Alarma de emergencia SOS y voz bidireccional para una respuesta rápida; la lista blanca de llamadas entrantes reduce llamadas no deseadas.
-- Alertas de geocerca y seguimiento por intervalos programados \(informe de posición automático\) disponibles en las reglas de Plaspy.
-- Almacenamiento en búfer de datos de áreas ciegas y retransmisión para evitar lagunas en los informes durante interrupciones temporales de la señal.
-- Soporte de actualización de firmware OTA para gestión remota y actualizaciones de funciones a través de la plataforma en la nube utilizada con Plaspy.
+- Actualizaciones de posición en tiempo real y reproducción de trayectos históricos disponibles dentro de Plaspy para monitoreo y revisión.
+- Eventos de alarma SOS y comunicaciones de voz bidireccionales mostrados como alertas para acelerar la respuesta ante incidentes y la comunicación con cuidadores.
+- Notificaciones por geocerca e informes periódicos configurables dentro de los conjuntos de reglas de Plaspy para monitoreo por zonas.
+- Almacenamiento local y reenvío que preservan eventos durante cortes temporales, mejorando la continuidad de datos.
+- Gestión remota de dispositivos y actualizaciones de firmware administradas desde la plataforma en la nube en conjunto con Plaspy.
 
-## Technical Overview
+## Casos de uso típicos
 
-| Model | X06 GPS/Beidou Positioning Badge |
-| --- | --- |
-| Posicionamiento | GPS + BeiDou + WiFi + LBS híbrido |
-| Precisión de Posicionamiento | &lt;10 m \(típica, dependiente del entorno\) |
-| Conectividad | Redes celulares 2G / 3G / 4G nacionales |
-| Bandas | No especificadas \(el soporte de red depende de la región\) |
-| Power & Battery | Integrada 1000 mAh de Li‑ion polímero; carga DC 5V; tiempo de carga ~2 hours; en espera ~5 days \(one report/hour\) |
-| Interfaces & Inputs | Botón SOS \(pulsación larga\), módulo de voz bidireccional, lista blanca de llamadas entrantes; carga vía DC 5V |
-| GNSS | GPS/BeiDou con asistencia de WiFi/LBS |
-| Bluetooth | No especificado |
-| Remote Management | Plataforma en la nube del proveedor y app móvil; actualización de firmware OTA soportada |
-| Form Factor | Formato badge; 88 × 49 × 15 mm; peso aprox. 60 g; plástico ecológico |
-| Environmental | Operación: -20°C a +75°C; Almacenamiento: -40°C a +85°C |
+- Seguridad estudiantil y seguimiento en campus con alertas por geocerca para zonas de recogida y entrega.
+- Monitoreo de adultos mayores donde la alarma SOS y la comunicación por voz facilitan una respuesta rápida del cuidador.
+- Control de asistencia corporativa y localización de personal para la gestión de la fuerza laboral y conteos de emergencia.
+- Patrullaje de seguridad y protección de trabajadores solitarios mediante una credencial wearable con voz y funciones de alarma.
+- Rastreo discreto de equipos portátiles o elementos etiquetados donde un dispositivo compacto es adecuado.
 
-## Use Cases
+## Por qué elegir este rastreador con Plaspy
 
-- Seguridad y localización de estudiantes en el campus: seguimiento en tiempo real y alertas de geocerca para zonas de recogida y entrega.
-- Monitorización de personas mayores con SOS y voz bidireccional para una comunicación rápida con el cuidador durante incidentes.
-- Asistencia y localización de personal corporativo para la gestión de la fuerza laboral y un recuento rápido en eventos de seguridad.
-- Patrullas de seguridad y protección de trabajadores solitarios donde el formato vestible y la conectividad de voz son importantes.
-- Seguimiento ligero de activos o equipos etiquetados donde un rastreador GPS compacto tipo badge ofrece monitoreo poco intrusivo.
+El X06 está pensado específicamente para el rastreo centrado en personas y se integra de forma natural con las capacidades de monitoreo y alertas centralizadas de Plaspy. Su combinación de posicionamiento multimodal, funciones de SOS y voz, y el almacenamiento local ayudan a las organizaciones a mantener una conciencia situacional confiable sobre su personal, reducir verificaciones manuales y mejorar los tiempos de respuesta mediante los flujos de trabajo de Plaspy.
 
-## Why Choose This Tracker with Plaspy
-
-El X06 ofrece una solución de rastreo centrada en las personas, que se integra bien con las capacidades de la plataforma de Plaspy. Como rastreador GPS compatible con Plaspy, combina posicionamiento de múltiples fuentes, funciones SOS y de voz con gestión en la nube y actualizaciones OTA, ayudando a las organizaciones a lograr un rastreo en tiempo real consistente, una respuesta rápida ante incidentes y una administración sencilla de la plantilla de personas. Mientras que los dispositivos compatibles con Plaspy orientados a vehículos a menudo enfatizan telemetría para ignición, control de inmovilizador o monitorización de combustible, el X06 está optimizado para la seguridad del personal, la asistencia y escenarios de activos ligeros donde la wearability continua, fijaciones de ubicación fiables y una integración en la nube simple son la prioridad.
-
-Despliegue el X06 donde la monitorización fiable de personas y una conciencia situacional rápida sean prioritarias: integre la insignia en Plaspy para centralizar alertas, reproducción de historial y flujos de gestión, reduzca comprobaciones manuales y mejore los tiempos de respuesta sin añadir complejidad operativa.
-
+Si desea explorar la integración con Plaspy o evaluar el X06 para un programa específico, obtenga más información sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que es recomendable verificar las especificaciones actuales y la documentación oficial en el sitio web de Xexun https://www.xexun.com/.

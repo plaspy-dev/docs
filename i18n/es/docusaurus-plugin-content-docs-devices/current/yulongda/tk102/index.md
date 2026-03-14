@@ -2,25 +2,62 @@
 slug: /yulongda/tk102
 id: tk102
 sidebar_label: TK102
+title: YulongDa - TK102
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto YulongDa TK102 con posicionamiento preciso y compatible con Plaspy para supervisión de flotas y activos
+keywords:
+  - YulongDa TK102
+  - rastreador GPS TK102
+  - YulongDa GPS
+  - TK102 compatible con Plaspy
+  - seguimiento de activos GPS
+  - dispositivo de seguimiento de flotas
+  - rastreador GPS compacto
+  - precisión SIRF3 GPS
+  - rastreador GSM GPRS
+  - dispositivo GPS portátil
 ---
+
 # YulongDa - TK102
 
 ![TK102](./logo.jpg)
 
-El rastreador GPS YulongDa TK102 es un dispositivo compacto y versátil que ofrece una amplia gama de funciones y características. Diseñado para uso global, este rastreador utiliza una frecuencia GSM de cuatro bandas, lo que significa que puede funcionar en cualquier parte del mundo. Esto lo convierte en una opción ideal para aquellos que necesitan rastrear objetos o personas en diferentes ubicaciones geográficas.
+El YulongDa TK102 es un rastreador GPS compacto y de peso reducido, diseñado para ofrecer ubicación precisa y confiable en diversas aplicaciones. Con unas dimensiones de 64 mm x 46 mm x 17 mm y un peso aproximado de 50 g, el TK102 es fácil de transportar y puede colocarse de forma discreta. Utiliza conectividad celular y un receptor GPS SIRF3 de alto rendimiento para proporcionar posicionamiento con precisión en el orden de metros. Incluye batería extraíble y accesorios de carga que permiten un uso flexible tanto en despliegues móviles como fijos.
 
-Una de las características destacadas del TK102 es su capacidad para establecer hasta 9 contactos de emergencia SOS. Esto significa que en caso de una situación de emergencia, el usuario puede activar rápidamente una llamada de emergencia a uno de los contactos predefinidos. Esta función puede ser especialmente útil en situaciones en las que se requiere una respuesta rápida y eficiente.
+Como dispositivo compatible con Plaspy, el TK102 puede enviar datos de ubicación a la plataforma de gestión de flotas Plaspy, de modo que usted pueda visualizar posiciones, monitorear desplazamientos y generar reportes operativos básicos. Su conectividad celular y el funcionamiento con batería lo hacen adecuado para despliegues temporales y seguimiento portátil cuando Plaspy se usa para centralizar la visibilidad, monitorear el estado y mantener registros históricos de ubicación.
 
-El rastreador TK102 también permite realizar llamadas telefónicas, lo que brinda una mayor flexibilidad y funcionalidad. Esto significa que el usuario puede comunicarse directamente con el rastreador, lo que puede ser útil en situaciones en las que se necesita una interacción en tiempo real.
+## Aspectos destacados
 
-En cuanto a las especificaciones técnicas, el TK102 utiliza una frecuencia GSM de 900 / 1800MHz o 850 / 1900MHz y es compatible con GPRS Class12 y TCP / IP. La precisión del GPS es de 10 metros \(RM 2D\), lo que garantiza una ubicación precisa y confiable. El rastreador también es resistente a temperaturas de -2 ℃ a + 70 ℃ y puede funcionar en condiciones de humedad relativa del 20% al 80%. Con dimensiones de 44.0 \(L\) \* 37.0 \(W\) \* 12.0 \(H\) mm y un peso neto de 20 g, el TK102 es compacto y fácil de transportar.
+- Factor de forma compacto y ligero, apto para colocación discreta y uso portátil
+- Compatibilidad GSM GPRS en bandas comunes para amplia cobertura de red
+- Chip GPS SIRF3 de alto rendimiento con buena sensibilidad y precisión a nivel de metros
+- Batería reemplazable de 3.7V 800 mAh con capacidad de espera y varias horas de seguimiento continuo en intervalos típicos
+- Incluye cargadores para auto y pared para recarga flexible en distintos entornos
+- Amplio rango de temperaturas de operación y almacenamiento y alta tolerancia a humedad sin condensación
+- Compatible con Plaspy para integración en flujos de trabajo de monitoreo de flotas y activos
 
-En resumen, el rastreador GPS YulongDa TK102 es una opción confiable y funcional para aquellos que necesitan rastrear objetos o personas en diferentes ubicaciones geográficas. Con su frecuencia GSM de cuatro bandas, capacidad de establecer contactos de emergencia SOS y capacidad de realizar llamadas telefónicas, este rastreador ofrece una amplia gama de funciones y características que lo hacen ideal para una variedad de aplicaciones.
+## Cómo funciona con Plaspy
 
-### Características destacadas:
+Cuando se emplea con Plaspy, el TK102 transmite actualizaciones de ubicación a través de la red celular que Plaspy procesa y presenta mediante sus herramientas de monitoreo y reporte. Esto le permite consolidar información de ubicación en tiempo real e histórica de unidades TK102 junto con otros dispositivos conectados para una supervisión operativa unificada.
 
-- Frecuencia GSM de cuatro bandas \(uso mundial\)
-- Número 9 SOS Contacto de Emergencia
-- Llamadas telefónicas
+- Visualización de la ubicación en vivo en los mapas de Plaspy para visibilidad en tiempo real de las unidades rastreadas
+- Reproducción de rutas históricas y reportes de trayectos para revisar movimientos y decisiones de ruta pasadas
+- Alertas y notificaciones configurables por movimiento, estado offline u otras condiciones monitorizadas
+- Vistas centralizadas de la flota para agrupar y gestionar múltiples unidades TK102 dentro de Plaspy
+- Informes operativos y exportación de datos para apoyar análisis y tareas administrativas
 
+## Casos de uso típicos
+
+- Seguimiento de flotas de vehículos pequeños y medianos para visibilidad de ubicación y supervisión operativa básica
+- Rastreo de activos portátiles donde el tamaño compacto y la operación con batería son importantes
+- Seguimiento personal para trabajadores solitarios o monitoreo temporal de seguridad durante traslados
+- Control de equipos de alquiler para registrar uso y ubicación mientras están fuera del sitio
+- Monitoreo en actividades al aire libre como senderismo o campamento donde la compacidad y la duración de batería son relevantes
+
+## Por qué elegir este rastreador con Plaspy
+
+El TK102 es una opción práctica para equipos que requieren un rastreador GPS pequeño y sencillo, con posicionamiento confiable y conectividad celular. Sus dimensiones compactas y las opciones de carga incluidas lo hacen versátil para instalaciones temporales o despliegues móviles donde la colocación y la recarga sencilla son prioritarias. Al combinarse con Plaspy, la unidad forma parte de una solución más amplia de visibilidad y reporte que ayuda a los responsables a rastrear activos y revisar movimientos históricos en una sola plataforma.
+
+Dado que el TK102 combina portabilidad, sensibilidad GPS confiable y compatibilidad celular común, puede encajar bien en organizaciones que adoptan Plaspy para supervisión básica de flotas o activos. Si sus requerimientos incluyen sensores especializados o funciones de integración avanzadas, considere comparar capacidades entre dispositivos disponibles y consulte la documentación técnica más reciente del fabricante.
+
+Para obtener más información sobre Plaspy y cómo funciona con rastreadores compatibles como el YulongDa TK102 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información técnica más reciente en el sitio oficial de YulongDa http://www.yulongdatechnology.com.

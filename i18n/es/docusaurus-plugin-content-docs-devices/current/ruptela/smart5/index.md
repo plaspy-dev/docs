@@ -2,63 +2,62 @@
 slug: /ruptela/smart5
 id: smart5
 sidebar_label: Smart5
+title: Ruptela - Smart5
 sidebar_class_name: menu_item_tracker
+description: Rastreador GPS compacto y resistente para flotas con soporte CANbus OBD y compatibilidad con Plaspy para seguimiento en vivo y alertas
+keywords:
+  - Ruptela Smart5
+  - Smart5 rastreador
+  - Rastreador GPS Ruptela
+  - Smart5 compatible con Plaspy
+  - seguimiento de flotas
+  - telemetría vehicular
+  - rastreador CANbus
+  - datos OBD
+  - rastreador LTE Cat 1
+  - gestión de flotas
 ---
+
 # Ruptela - Smart5
 
 ![Smart5](./tracker.png)
 
-Smart5 es un rastreador GPS compacto y resistente, diseñado para una gestión de flota robusta y una integración profunda de datos del vehículo. Construido con LTE Cat 1 \(4G\) y una compatibilidad de respaldo con 2G, Smart5 ofrece un seguimiento en tiempo real y telemetría confiables en áreas de cobertura amplias y se integra a la perfección con Plaspy para proporcionar mapas en vivo, alertas y paneles de flota. Su capacidad para leer datos CANbus y OBD \(incluido CustomCAN\) lo hace especialmente útil para flotas que requieren información diagnóstica, monitorización de combustible y análisis de comportamiento del conductor.
+Smart5 es un rastreador GPS compacto y resistente, diseñado para la gestión sólida de flotas e integración detallada de datos vehiculares. Ofrece conectividad celular LTE Cat 1 con conmutación a 2G para un rastreo en tiempo real confiable en amplias áreas de cobertura. Capaz de leer datos CANbus y OBD, incluido CustomCAN, Smart5 captura información diagnóstica y del estado del vehículo, y dispone de opciones de carcasa para instalaciones discretas o entornos exigentes.
 
-Disponible en una carcasa delgada IP54 \(14 mm\) o un cuerpo robusto y sumergible IP68 \(21 mm\), Smart5 admite Bluetooth LE 5.0 para sensores y accesorios inalámbricos, un módulo GNSS u‑blox de fabricación suiza para posicionamiento multi‑constelación y un conjunto de I/O del vehículo para integraciones. Cuando se usa con Plaspy, Smart5 se convierte en una solución compatible con Plaspy para protección antirrobo, mantenimiento impulsado por telemetría y operaciones eficientes de la flota.
+Como dispositivo compatible con Plaspy, Smart5 se integra con la plataforma para entregar mapas en vivo, alertas y paneles que convierten la telemetría en información operativa. Su capacidad para mostrar diagnósticos del vehículo, métricas de combustible y lecturas de sensores lo hace una opción práctica para flotas que usan Plaspy para monitoreo, gestión de mantenimiento y respuesta ante robos.
 
-## Aspectos Clave
+## Aspectos destacados
 
-- Rastreador GPS compatible con Plaspy con LTE Cat 1 \(4G\) y respaldo 2G para un seguimiento en tiempo real y gestión de flota consistentes.
-- Lectura de datos CANbus y OBD, incluido soporte CustomCAN, para capturar diagnósticos del vehículo, métricas de combustible y estado de ignición.
-- Dos formatos — delgado IP54 \(14 mm\) para instalaciones discretas y robusto IP68 \(21 mm\) para entornos exigentes.
-- Bluetooth LE 5.0 para conectar sensores y balizas inalámbricas para monitorizar la condición de la carga y telemetría auxiliar.
-- Funciones de seguridad como detección de interferencias y alertas de interrupción de energía para respaldar flujos de trabajo anti‑robo en Plaspy.
-- Funcionamiento de bajo consumo \(\<0,5 mA en modo de sueño profundo\) y una batería de respaldo interna de 180 mAh para informes fuera de línea y mayor resiliencia.
-- Amplio rango de tensión \(9–32 V DC\) y un acelerómetro de 3 ejes para obtener información sobre el comportamiento del conductor y la conducción eficiente.
+- Rastreador compatible con Plaspy con conectividad LTE Cat 1 y fallback a 2G para un seguimiento en tiempo real consistente.
+- Lectura de datos CANbus y OBD, con soporte CustomCAN, para telemetría diagnóstica y métricas de combustible.
+- Dos opciones de carcasa: chasis delgado IP54 para instalaciones discretas y carcasa robusta IP68 para ambientes hostiles.
+- Soporte Bluetooth LE 5.0 para sensores inalámbricos y accesorios que permiten monitorear la condición de la carga y telemetría auxiliar.
+- Funciones de seguridad como detección de interferencias y alertas por interrupción de energía para respaldar flujos de trabajo anti robo.
+- Buffer interno y soporte de energía de respaldo para capturar datos continuamente durante interrupciones temporales de conectividad.
 
-## Cómo Funciona con Plaspy
+## Cómo funciona con Plaspy
 
-Smart5 transmite la ubicación y la telemetría del vehículo a Plaspy mediante su enlace celular y su memoria interna con búfer. Plaspy procesa determinaciones GNSS, tramas CAN/OBD, eventos del acelerómetro y lecturas de sensores Bluetooth para generar mapas en vivo, alertas de geovalla, informes de viaje y tableros de telemetría. La integración es sencilla: Smart5 envía mensajes de rastreo estandarizados y registros diagnósticos que Plaspy utiliza para seguimiento en tiempo real, informes históricos y alertas automáticas.
+Al integrarse con Plaspy, Smart5 transmite ubicación y telemetría del vehículo para que los equipos de flota puedan monitorear activos en tiempo real y analizar el desempeño histórico. Plaspy ingiere posiciones GNSS, registros CAN/OBD y entradas de sensores desde el dispositivo para poblar mapas, alertas e informes que apoyan las operaciones diarias y la planificación a largo plazo.
 
-- Actualizaciones de ubicación y telemetría en tiempo real \(GNSS de múltiples constelaciones: GPS, GLONASS, Galileo\).
-- Diagnóstico del vehículo vía CANbus/OBD y CustomCAN para estado de ignición, datos del motor y códigos de fallo.
-- Monitoreo de combustible a partir de datos CAN/OBD y entradas analógicas para alimentar los informes de combustible y analítica de consumo en Plaspy.
-- Capacidad de inmovilización remota mediante salidas digitales configurables \(DOUT\) cuando se despliega en flujos de trabajo de inmovilización.
-- Soporte para sensores Bluetooth para temperatura, humedad o sensores de puertas para monitorizar la condición de la carga junto con la ubicación.
-- Eventos de seguridad — detección de interferencias y alertas de interrupción de energía — aparecen en Plaspy como notificaciones inmediatas para la respuesta anti‑robo.
-- Buffering local \(8 MB, ~36,000 registros\) garantiza la continuidad de datos y la subida a Plaspy tras pérdidas temporales de conectividad.
+- Actualizaciones de ubicación en tiempo real y posicionamiento GNSS multiconstelación visibles en los mapas y paneles en vivo de Plaspy.
+- Diagnósticos del vehículo desde CANbus y OBD que alimentan los informes de Plaspy sobre estado del motor, detección de fallas y tendencias operativas.
+- Monitoreo de combustible y entradas analógicas que suministran a Plaspy datos de consumo para informes y análisis de costos.
+- Las lecturas de sensores Bluetooth se muestran junto a la ubicación para que Plaspy pueda rastrear carga sensible a temperatura y otras condiciones.
+- Eventos de seguridad como detección de interferencias e interrupciones de energía generan notificaciones inmediatas dentro de Plaspy.
+- El buffering local garantiza continuidad de datos y su posterior subida a Plaspy después de una pérdida temporal de conectividad celular.
 
-## Resumen Técnico
+## Casos de uso típicos
 
-| Conectividad | LTE Cat 1 \(4G\) con respaldo 2G |
-| --- | --- |
-| Bandas | No especificadas \(dependiente de la región\) |
-| Alimentación & Batería | Rango de entrada 9–32 V DC; batería interna de respaldo de 180 mAh; modo de sueño profundo \<0,5 mA |
-| Interfaces | 1 × CANbus \(soporte CustomCAN\); 3 entradas digitales \(DIN\); 1 entrada analógica \(AIN\); 2 salidas digitales \(DOUT\); 1‑Wire |
-| GNSS | Módulo GNSS u‑blox — GPS, GLONASS, Galileo \(multi‑constelación\) |
-| Bluetooth | Bluetooth LE 5.0 para sensores y accesorios |
-| Memoria | 8 MB internos \(~36,000 registros\) |
-| Seguridad & Sensores | Detección de interferencias, alertas de interrupción de energía, acelerómetro de 3 ejes |
-| Gestión Remota | No especificado |
-| Formato | Carcasa delgada IP54 \(14 mm\) y carcasa robusta IP68 \(21 mm\) para instalaciones en vehículos y activos |
+- Flujos anti robo e inmovilización que combinan alertas con salidas remotas y monitoreo en Plaspy.
+- Gestión de flotas mixtas de autos, vans y maquinaria pesada donde se requiere telemetría CAN y OBD.
+- Monitoreo de combustible y análisis de consumo para controlar costos y mejorar la eficiencia de la flota.
+- Supervisión de transporte refrigerado y de carga usando sensores Bluetooth junto con rastreo GPS para control de rutas y condiciones.
+- Rastreo para alquileres, leasing y flotas de construcción donde el hardware robusto y el buffering local aseguran la captura de datos.
 
-## Casos de Uso
+## Por qué elegir este rastreador con Plaspy
 
-- Antirrobo y inmovilización de flotas — alertas de interferencias y salidas digitales configurables \(DOUT\) respaldan flujos de trabajo de respuesta rápida en Plaspy.
-- Gestión de flotas para automóviles, furgonetas y maquinaria pesada — telemetría CAN/OBD y rango de tensión amplio permiten monitoreo de flotas mixtas.
-- Monitoreo de combustible y análisis de consumo — combinar datos CAN y entradas analógicas para obtener métricas de combustible en los informes de Plaspy.
-- Monitoreo de mercancías refrigeradas y carga — sensores Bluetooth más GPS permiten a Plaspy rastrear cargas sensibles a la temperatura y el cumplimiento de rutas.
-- Flotas de alquiler, leasing y construcción — opción IP68 robusta y memoria local aseguran la captura de datos en entornos exigentes.
+Smart5 ofrece un conjunto equilibrado de capacidades que responde a las necesidades habituales de gestión de flotas cuando se utiliza con Plaspy. Sus opciones de conectividad vehicular amplían el seguimiento más allá de la ubicación para incluir diagnósticos, métricas de combustible y detección de eventos, que Plaspy transforma en paneles operativos, alertas e informes. La disponibilidad de carcasas delgadas y robustas, junto con funciones de seguridad y buffering, facilita el despliegue del dispositivo en escenarios diversos de flota.
 
-## Por qué Elegir Este Rastreador con Plaspy
+Para organizaciones que desean combinar telemetría vehicular detallada con una plataforma en la nube, Smart5 y Plaspy constituyen una pareja práctica que soporta visibilidad en vivo, mantenimiento preventivo y flujos anti robo sin complejidad innecesaria.
 
-Smart5 está diseñado para ofrecer la conectividad y la resiliencia que requieren las flotas modernas, manteniendo una integración limpia con la plataforma de Plaspy. Su GNSS de múltiples constelaciones y la conectividad LTE Cat 1 proporcionan datos de ubicación precisos y oportunos para el seguimiento en tiempo real y la gestión de flotas. Las capacidades CANbus y OBD del dispositivo amplían la telemetría más allá de la posición para incluir diagnósticos, estado de ignición e información de combustible, datos que Plaspy aprovecha para el mantenimiento preventivo, la puntuación de conductores y el control de costos.
-
-Entre los beneficios operativos se incluyen modo de espera de bajo consumo, almacenamiento en búfer interno para la captura ininterrumpida de datos y opciones de hardware para instalaciones discretas o robustas. Las funciones de seguridad, como la detección de interferencias y alertas de interrupción de energía, fortalecen los flujos de trabajo anti‑robo. Para flotas que requieren una solución de rastreo escalable y con telemetría, Smart5 como rastreador GPS compatible con Plaspy ofrece una combinación equilibrada de fiabilidad, configurabilidad y datos accionables para mejorar la utilización, reducir el tiempo de inactividad y proteger los activos.
-
+Aprenda más sobre Plaspy en el sitio web principal https://www.plaspy.com. Product specifications, availability and manufacturer details can change over time, so please verify current technical information on the official manufacturer website https://ruptela.com/

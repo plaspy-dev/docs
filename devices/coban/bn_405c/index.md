@@ -2,60 +2,61 @@
 slug: /coban/bn_405c
 id: bn_405c
 sidebar_label: BN-405C
+title: Coban - BN-405C
 sidebar_class_name: menu_item_tracker
+description: Compact vehicle GPS tracker BN-405C compatible with Plaspy for real time fleet tracking alerts and historical playback
+keywords:
+  - Coban BN-405C
+  - BN-405C
+  - Coban tracker
+  - BN-405C Plaspy
+  - vehicle GPS tracker
+  - fleet tracking
+  - real time tracking
+  - anti theft tracker
+  - logistics tracker
+  - GNSS tracker
 ---
+
 # Coban - BN-405C
 
 ![BN-405C](./tracker.png)
 
-The BN-405C is a compact, vehicle-mounted intelligent GPS tracker built for fleet management, logistics and anti-theft applications. As a Plaspy compatible device, the BN-405C delivers reliable real-time tracking, rich telemetry and a broad set of alarm functions so fleets and service vehicles remain visible, safe and under control. Its concealed installation form factor and automotive power support make it ideal for trucks, engineering vehicles and public service fleets.
+The BN-405C is a compact vehicle mounted intelligent GPS tracker designed for fleet management, logistics and anti theft applications. It combines a concealed installation form factor with vehicle power support and a backup battery to provide continuous tracking and operational visibility for trucks, engineering vehicles and public service fleets.
 
-The BN-405C supports 2G/3G/4G cellular connectivity and standard platform protocols \(TCP/UDP/SMS\), enabling straightforward integration with Plaspy for live location, event alerts and historical playback. With a high-sensitivity GNSS receiver, backup battery and a wide operating temperature range, the unit is designed for continuous operation in demanding vehicle environments.
+As a Plaspy compatible device, the BN-405C delivers reliable real time tracking, rich telemetry and a broad set of alarm functions that integrate with Plaspy dashboards and alerts. Its support for multi network cellular connectivity and standard platform protocols enables straightforward messaging to Plaspy for live location, event notifications and historical trip playback.
 
 ## Key Highlights
 
-- Plaspy compatible for easy platform integration and real-time tracking across mixed fleets.
-- Multi-network cellular support \(2G/3G/4G\) ensures broad coverage and flexible deployment options.
-- High-precision GNSS with ~5 m typical accuracy and fast start times for accurate location and trajectory playback.
-- Comprehensive alarm suite: geo-fence, overspeed, movement/shock, door-open, low battery and external power cut alerts.
-- Vehicle telemetry and inputs including ACC ignition reporting and remote fuel/power cut control for anti-theft and immobilizer-style functions.
-- Optional sensor support \(fuel level, temperature/humidity\) and up to eight Wi‑Fi cameras for enhanced situational visibility.
-- Compact, embed-ready form factor for concealed installation and tamper-resistant mounting.
+- Plaspy compatible for straightforward integration and centralized fleet visibility.
+- Multi network cellular support including 2G 3G and 4G for broad coverage across deployments.
+- High sensitivity GNSS with approximately 5 m typical accuracy for accurate location and trajectory data.
+- Comprehensive alarm suite covering geo fence overspeed movement shock door open low battery and external power cut alerts.
+- Vehicle telemetry and inputs such as ACC ignition reporting and remote fuel or power cut control for anti theft workflows.
+- Optional support for fuel level and temperature sensors plus integration with Wi Fi cameras for enhanced situational awareness.
+- Compact concealed form factor suited to tamper resistant mounting in vehicle environments.
 
 ## How It Works with Plaspy
 
-Integrating the BN-405C with Plaspy enables centralized monitoring, alerting and reporting. The tracker transmits GPS coordinates, status messages and alarms over TCP/UDP or SMS using platform-compatible protocols. Plaspy receives these messages to present live location updates, trigger notifications, and store trip history for playback and compliance reporting.
+When integrated with Plaspy the BN-405C transmits GPS coordinates status messages and alarm events over platform compatible channels so fleet managers can monitor vehicles in real time, receive notifications, and review historical trips for compliance and analysis.
 
-- Real-time location and telemetry updates sent to Plaspy for live map tracking and fleet dashboards.
-- ACC ignition reporting to track engine on/off events and automate driver/route workflows.
-- Geo-fence, overspeed and movement/shock alarms for anti-theft and safety monitoring.
-- Remote fuel/power cut control and alerting to support immobilizer-style interventions and theft response.
-- Support for optional fuel level and temperature/humidity sensors \(requires additional sensors\) to extend fleet telemetry.
-- Audio features \(remote listen-in, one-way call\) and Wi‑Fi camera integration enable richer incident verification when configured with Plaspy.
+- Real time location and telemetry feed into Plaspy maps and fleet dashboards for immediate operational awareness.
+- ACC ignition reporting and status messages enable tracking of engine on off events and support route and driver workflows.
+- Geo fence overspeed and movement shock alarms trigger notifications in Plaspy for safety and anti theft monitoring.
+- Remote fuel or power cut control and external power loss alerts support immobilization style responses when configured.
+- Optional fuel level and temperature sensor data extend vehicle telemetry in Plaspy for logistics and asset condition monitoring.
+- Audio listen in one way call features and Wi Fi camera integration provide additional incident verification when enabled.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | BN-405C |
-| --- | --- |
-| Connectivity | 2G / 3G / 4G \(TCP/UDP/SMS\) |
-| Bands | 4G: B1/B2/B3/B4/B5/B7/B8/B28A/B28B/B40; 3G: B1/B2/B3/B5/B8; 2G: 850/900/1800/1900 MHz |
-| Power & Battery | Vehicle power 12–24V; rechargeable 3.7V 90mAh lithium-ion backup battery; continued operation on backup when external power is cut |
-| Interfaces | ACC ignition input, external relay control for remote fuel/power cut, inputs for external microphones, extension cables with SOS button, siren and other optional sensors; supports up to 8 Wi‑Fi cameras \(camera sold separately\) |
-| GNSS | High-precision GNSS receiver; sensitivity -165 dBm; typical accuracy ~5 m; cold/warm/hot start ~45 s / 35 s / 1 s |
-| Communications & Protocols | TCP/UDP/SMS; platform protocol support and remote configuration via SMS commands |
-| Operating Conditions | Operating temperature -20°C to +45°C; storage -40°C to +85°C |
-| Form Factor | Compact main unit 96 × 54 × 19 mm \(9.6 × 5.4 × 1.9 cm\); ~70 g; designed for embedded/concealed vehicle installation |
-
-## Use Cases
-
-- Fleet management: live location, route playback and ignition events to optimize dispatch and reduce idle time.
-- Logistics and transport: asset visibility and geofencing for secure route adherence and cargo protection.
-- Anti-theft and remote immobilization: unauthorized movement and external power cut alarms combined with remote fuel/power cut control to mitigate theft risk.
-- Risk control for insurance and public service monitoring: telemetry and incident evidence with optional cameras and listen-in audio features.
+- Fleet management and dispatch optimization using live tracking and route playback.
+- Logistics and transport monitoring with geofencing to enforce route adherence and cargo protection.
+- Anti theft and remote immobilization workflows using movement and external power cut alarms plus relay control.
+- Public service and municipal vehicle oversight for operational visibility and incident evidence.
+- Engineering and service vehicle tracking to reduce idle time and improve asset utilization.
 
 ## Why Choose This Tracker with Plaspy
 
-The BN-405C pairs dependable hardware with Plaspy’s platform to deliver a practical solution for real-time tracking, telemetry and anti-theft operations. Its multi-network cellular support and robust GNSS performance keep vehicles visible in varied coverage areas, while the compact form factor and concealed installation reduce tampering risk. Plaspy integration enables immediate alerts, historical playback and fleet-level reporting so managers can act on overspeed, geofence breaches, ignition events and low-battery or external power loss alarms.
+The BN-405C pairs vehicle grade tracking hardware with Plaspy’s platform capabilities to deliver a practical solution for organizations that need accurate location, timely alerts and historical reporting. Its multi network cellular connectivity and strong GNSS performance help keep vehicles visible across varied coverage areas, and the compact, concealed design reduces tampering risk in demanding vehicle environments.
 
-For fleets that require extendable telemetry, the BN-405C supports optional fuel level and temperature/humidity sensors and can interface with relays, microphones and Wi‑Fi cameras to provide richer context for incidents. Remote configuration via SMS and documented hardware diagrams simplify installation and ongoing device management. Choose the BN-405C when you need a Plaspy compatible GPS tracker that balances accuracy, vehicle-grade durability and flexible accessory support for smarter fleet operations and anti-theft protection.
-
+For fleets that need extendable telemetry, the BN-405C supports optional sensors and camera integration to provide richer context for incidents and operational reporting. If you want to learn more about how the BN-405C works with Plaspy and view platform features, visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details and official documentation on the manufacturer site https://www.coban.net/.

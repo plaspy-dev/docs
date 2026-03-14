@@ -2,66 +2,62 @@
 slug: /cantrack/g500l
 id: g500l
 sidebar_label: G500L
+title: CanTrack - G500L
 sidebar_class_name: menu_item_tracker
+description: CanTrack G500L 4G OBD GPS tracker compatible with Plaspy for real time vehicle location diagnostics and tamper alerts for fleet and vehicle owners
+keywords:
+  - CanTrack G500L
+  - G500L tracker
+  - CanTrack OBD tracker
+  - G500L Plaspy compatible
+  - vehicle GPS tracker
+  - fleet tracking device
+  - OBD GPS tracker
+  - real time tracking
+  - DTC reporting
+  - anti tamper alarm
 ---
+
 # CanTrack - G500L
 
 ![G500L](./tracker.png)
 
-The G500L is a 4G global OBD GPS tracker designed for fast, plug-and-play installation into any vehicle OBD-II socket. Built for fleet managers and vehicle owners who need reliable real-time tracking and OBD-level telemetry without complex wiring, the G500L combines hybrid positioning \(GPS / AGPS / LBS\), industrial-grade 4G connectivity, and remote reading of vehicle parameters such as fuel consumption and temperature.
+The CanTrack G500L is a 4G global OBD GPS tracker designed for fast plug and play installation into a vehicle OBD II socket. Intended for fleet managers and vehicle owners, the G500L provides continuous location updates and OBD level telemetry such as fuel consumption, temperature readings, and diagnostic trouble code reporting. Its hybrid positioning approach combines GNSS with assisted methods to deliver reliable fixes suitable for operational tracking.
 
-Plaspy compatible out of the box, the G500L delivers continuous location updates, diagnostic trouble code \(DTC\) reporting, and anti-tamper alerts directly to your Plaspy dashboard. Because it installs in seconds and supports all common OBD-II protocols, the G500L speeds deployment for fleet management, anti-theft monitoring, and preventive maintenance workflows.
+As a device compatible with Plaspy out of the box, the G500L streams vehicle location, telemetry, and alert data directly into Plaspy dashboards. That compatibility enables quick deployment across vehicle fleets, immediate visibility for monitoring teams, and the ability to use Plaspy workflows for alerts, reporting, and operational oversight without complex configuration.
 
 ## Key Highlights
 
-- Plug-and-play OBD-II installation — no professional modification required for fast rollouts.
-- Plaspy compatible for real-time tracking and seamless telemetry ingestion into fleet management dashboards.
-- Hybrid positioning \(GPS / AGPS / LBS\) for fast fixes and reliable location accuracy \(~10 m typical\).
-- Remote OBD-II parameter readout — fuel monitoring, temperature, and diagnostic trouble codes \(DTCs\) for preventive maintenance.
-- Industrial-grade 4G global communication for wide-area coverage and dependable data links.
-- Low-power design with ultra-low standby current and a built-in 50mAh backup battery to report during power interruptions.
-- Anti-tamper \(violent demolition\) alarm to detect and report unauthorized removal attempts.
+- Plug and play OBD II installation for rapid deployment across vehicle fleets.
+- Plaspy compatible for live tracking and telemetry ingestion into fleet dashboards.
+- Hybrid positioning for faster fixes and consistent location accuracy.
+- Remote readout of OBD level parameters including fuel consumption temperature and diagnostic trouble codes
+- Industrial grade 4G global communication for broad area coverage and dependable data links.
+- Built in anti tamper alarm to detect and report unauthorized removal attempts.
+- Backup reporting capability to maintain brief reporting during power interruptions.
 
 ## How It Works with Plaspy
 
-The G500L sends standard OBD-II vehicle parameters together with GNSS and cellular telemetry to Plaspy, enabling real-time tracking, alerts, and historical reports. Once plugged into the vehicle OBD-II port the device reads supported PIDs and DTCs, polls GNSS for position, and transmits packets over the device’s 4G link. Plaspy ingests those feeds to create live maps, telemetry dashboards, and automated alerts for events like tamper attempts or diagnostic faults.
+When installed, the G500L reads supported vehicle parameters together with GNSS telemetry and transmits those feeds over its cellular link to Plaspy. Plaspy ingests the incoming streams to produce live maps, telemetry views, and event driven alerts that help teams monitor vehicle health and location in real time.
 
-- Real-time location and telemetry updates — GNSS + AGPS + LBS data streamed to Plaspy.
-- Vehicle OBD-II parameters — fuel consumption, temperature, and diagnostic trouble codes \(DTC\) available in Plaspy reports.
-- Ignition \(ACC\) status detection — useful for trip segmentation, idle detection, and event triggers in Plaspy.
-- Anti-theft / anti-tamper alerts — violent demolition alarm reported to Plaspy for immediate notifications.
-- Backup battery reporting — device remains able to report during brief power loss and Plaspy can surface backup battery status.
+- Real time location and telemetry updates streamed to Plaspy for live monitoring.
+- Vehicle OBD level parameters such as fuel consumption temperature and diagnostic trouble codes available in Plaspy reports.
+- Ignition and trip related status for trip segmentation idle detection and event triggers inside Plaspy.
+- Anti theft and anti tamper alerts delivered to Plaspy for immediate notification workflows.
+- Backup reporting status surfaced in Plaspy so brief power interruptions are visible to operators.
 
-## Technical Overview
+## Typical Use Cases
 
-| Model | G500L |
-| --- | --- |
-| Form Factor | OBD-II plug — compact module \(approx. 58 × 45 × 20 mm, without plug\) |
-| Connectivity | 4G global \(TDD / FDD\) with fallback to WCDMA / TDSCDMA / GSM |
-| Bands / Networks | TDD / FDD / WCDMA / TDSCDMA / GSM \(4G global version\) |
-| Positioning \(GNSS\) | GPS / AGPS / LBS hybrid positioning |
-| Positioning Accuracy | Typical ~10 meters |
-| Power & Battery | Working voltage DC 9V–36V; backup 50mAh polymer lithium battery |
-| Current Consumption | Working current ~35mA \(ACC ON\); Standby current ~2.5mA \(ACC OFF\) |
-| Interfaces | Direct OBD-II plug — accesses vehicle bus and OBD-II PIDs/DTCs |
-| Supported OBD-II Protocols | ISO9141-2, ISO9141, KWP2000 \(5BPS & FAST\), ISO14230, CANBUS 11-bit/29-bit \(500K & 250K\), ISO15765 |
-| Anti-tamper | Built-in violent demolition alarm |
-| Operating Temperature | -25°C to +75°C |
-| Storage Temperature | -40°C to +85°C |
-
-## Use Cases
-
-- Fleet management — real-time tracking, trip history, fuel monitoring, and operational telematics for managers using Plaspy dashboards.
-- Remote vehicle diagnostics — read DTCs and vehicle parameters to plan preventive maintenance and reduce downtime.
-- Anti-theft and tamper detection — OBD-based monitoring and violent demolition alarm for rapid incident notification.
-- Fuel monitoring and efficiency programs — continuous fuel consumption reporting to support cost control and driver coaching.
-- Quick-deploy tracking for rentals or temporary vehicle programs — plug-in installation enables immediate visibility.
+- Fleet management with live tracking trip history fuel monitoring and operational telematics.
+- Remote vehicle diagnostics to plan preventive maintenance and reduce downtime.
+- Anti theft monitoring and tamper detection for rapid incident notification.
+- Fuel efficiency programs and driver coaching based on continuous consumption reporting.
+- Quick deploy tracking for rental fleets temporary vehicle programs or short term monitoring needs.
 
 ## Why Choose This Tracker with Plaspy
 
-For organizations and individuals seeking a reliable, easy-to-deploy GPS tracker that is Plaspy compatible, the G500L offers a focused combination of OBD-level telemetry and industrial 4G communications. Its plug-and-play OBD-II connection cuts installation time and eliminates the need for wiring expertise, while hybrid positioning and global 4G support keep location and telemetry flowing to Plaspy for accurate real-time tracking.
+The G500L is a practical option for organizations that need OBD level telemetry combined with straightforward deployment and continuous location reporting. Its plug and play form factor and broad communication support reduce rollout complexity while providing the data Plaspy needs to deliver operational insights, alerts, and historical reports.
 
-Practical value includes improved fleet management through fuel monitoring and DTC visibility, stronger anti-theft workflows with tamper alerts, and low-power behavior that preserves vehicle battery and device uptime. The G500L is specifically suited to deployments that require OBD protocol compatibility, straightforward integration into Plaspy, and dependable telemetry for operational decisions — without adding installation complexity.
+Paired with Plaspy, the G500L supports routine fleet workflows such as trip analysis, fuel monitoring, diagnostic alerting, and tamper detection without requiring extensive integration work. For teams prioritizing speed of deployment and reliable telemetry ingestion into a fleet management platform, this tracker represents a balanced choice.
 
-Note on related integrations: the G500L reports ignition/ACC status and detailed OBD-II data to Plaspy for event-driven rules \(e.g., trip start/stop, idle alerts\). While the device itself is focused on OBD connectivity and does not include embedded Bluetooth sensors or an immobilizer actuator, Plaspy can coordinate with vehicle systems or external gateways to implement immobilizer controls or add wireless sensor data where required.
-
+To learn more about how the G500L can work with Plaspy visit https://www.plaspy.com. Product specifications availability and manufacturer details can change over time so verify current technical information and documentation with the manufacturer at https://www.cantrackgps.com/ before finalizing purchases or deployments.

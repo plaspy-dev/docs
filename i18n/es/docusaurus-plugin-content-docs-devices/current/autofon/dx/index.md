@@ -2,25 +2,61 @@
 slug: /autofon/dx
 id: dx
 sidebar_label: DX Маяк
+title: AutoFon - DX Маяк
 sidebar_class_name: menu_item_tracker
+description: Rastreador AutoFon DX Маяк compatible con Plaspy para monitoreo de flotas y activos con GLONASS GPS y comunicaciones 2G
+keywords:
+  - AutoFon DX
+  - DX Маяк
+  - AutoFon DX Mayak
+  - DX Mayak
+  - rastreador GPS DX
+  - rastreador AutoFon
+  - DX compatible Plaspy
+  - seguimiento de flotas DX
+  - rastreo de activos DX
+  - DX antirrobo
 ---
+
 # AutoFon - DX Маяк
 
 ![DX Маяк](./logo..png)
 
-El dispositivo "AutoFon DX Mayak" es un rastreador GPS versátil diseñado para determinar con precisión la ubicación de un objeto protegido utilizando los sistemas de satélite GLONASS/GPS. También puede proporcionar datos de ubicación aproximados utilizando estaciones base de redes celulares. El dispositivo transfiere coordenadas y eventos registrados a través de redes GSM 2G, ya sea a través del protocolo GPRS a un servidor de monitoreo o mediante mensajes SMS a números de teléfono seleccionados.
+El AutoFon DX Маяк es un rastreador GPS compacto y multipropósito que utiliza GLONASS y GPS para determinar la ubicación de un objeto protegido, con posicionamiento alternativo desde estaciones base celulares cuando los satélites no están disponibles. Envía coordenadas y eventos registrados a través de redes GSM 2G usando GPRS hacia un servidor de monitoreo o por SMS a números de teléfono seleccionados. El sensor de aceleración incorporado permite detectar movimiento y golpes, y un módulo Bluetooth BLE ofrece detección de presencia de smartphones y búsqueda por dirección a corta distancia.
 
-El AutoFon DX Mayak está equipado con un sensor de aceleración para monitorear el movimiento y los impactos, así como un módulo Bluetooth BLE para verificar la presencia del teléfono inteligente del propietario cerca del dispositivo. También cuenta con un conector Micro USB para una fácil configuración desde una computadora.
+Como dispositivo compatible con Plaspy, el DX Маяк puede alimentar la plataforma de monitoreo Plaspy con datos de posición y notificaciones de eventos para su visualización en mapas, revisión histórica y supervisión operativa. Sus opciones de reporte flexibles, el almacenamiento en el dispositivo para paquetes no enviados y las capacidades de configuración remota lo convierten en una opción práctica para organizaciones que desean combinar un hardware de rastreo confiable con los paneles, alertas y herramientas de informe de Plaspy.
 
-Este rastreador GPS se puede utilizar para diversos fines, incluida la protección antirrobo de vehículos, el monitoreo de carga valiosa, el seguimiento de vehículos personales y oficiales, la localización de motocicletas robadas y otros equipos móviles, el monitoreo de niños y personas mayores, y el seguimiento de la ubicación de animales domésticos y ganado.
+## Características principales
 
-El AutoFon DX Mayak consta de un módem GSM/GPRS, receptor GLONASS/GPS, microprocesador programable y una fuente de alimentación con batería. Su autonomía y tamaño compacto permiten una instalación discreta en ubicaciones difíciles de detectar. El dispositivo opera principalmente en modo de suspensión, lo que dificulta su detección mediante escáneres aéreos o detectores de señal GSM.
+- Fijación de posición precisa mediante GLONASS y GPS con fallback a estaciones base celulares para mayor disponibilidad
+- Vías de datos duales por GPRS a un servidor de monitoreo y por SMS a números predefinidos
+- Acelerómetro integrado para detección de movimiento y golpes, útil en escenarios antirrobo
+- Funciones Bluetooth BLE para etiquetado de presencia de smartphones y localización de corta distancia
+- Factor de forma compacto y modos de operación que intercambian conectividad activa por mayor duración de batería
+- Memoria tipo black box no volátil y estimación de consumo energético para mejorar la continuidad de los datos
 
-El modo de funcionamiento del dispositivo puede ser configurado por el propietario a través de comandos enviados desde la Cuenta Personal en el servidor de monitoreo o mediante mensajes SMS. Determina sus coordenadas utilizando satélites GLONASS/GPS y puede transmitirlas como mensajes SMS o a través del protocolo GPRS a un servidor de monitoreo seleccionado. Los mensajes recibidos del dispositivo contienen no solo coordenadas, velocidad y dirección de movimiento, sino también información sobre su configuración y estado actual.
+## Cómo funciona con Plaspy
 
-En situaciones donde las señales de los satélites no están disponibles o son deliberadamente bloqueadas, el AutoFon DX Mayak puede determinar la ubicación aproximada de un objeto protegido utilizando estaciones base de la red GSM. Sin embargo, la precisión de este método es menor en comparación con las coordenadas satelitales.
+El AutoFon DX Маяк envía mensajes de ubicación y eventos que Plaspy puede ingerir y mostrar dentro de una interfaz de monitoreo unificada. Plaspy puede usar esos reportes entrantes para mantener vistas de posición en tiempo real, recorridos históricos y líneas de tiempo de eventos, mientras permite a los operadores configurar alertas y revisar el estado del dispositivo.
 
-El dispositivo ofrece dos modos de funcionamiento principales: en línea continua y en suspensión por intervalos. En el modo en línea continua, el dispositivo está siempre conectado y listo para recibir comandos del propietario. Este modo requiere más energía de la batería, proporcionando un tiempo de funcionamiento máximo de hasta 5 días sin recargar. Si se determinan constantemente coordenadas precisas de GLONASS/GPS, la vida útil de la batería se reduce a 1 día. En el modo de suspensión por intervalos, la mayoría de los módulos se apagan, lo que permite que el dispositivo funcione de manera autónoma durante hasta 3 años con comunicación diaria.
+- Ubicación en vivo y historial de rutas mostrados en los mapas de Plaspy para supervisión de flotas y activos
+- Eventos de movimiento y golpes canalizados a las alertas de Plaspy para notificación rápida de posibles incidentes
+- Geocercas y alertas operativas configurables en Plaspy para vigilar entradas y salidas de zonas
+- Información de estado del dispositivo, como batería e indicadores de señal, disponible en Plaspy para planificación de mantenimiento
+- Recuperación automática de mensajes almacenados tras pérdidas temporales de conectividad gracias a la memoria black box del dispositivo
 
-Las características adicionales del AutoFon DX Mayak incluyen un acelerómetro digital para registrar movimientos e impactos, un módulo Bluetooth BLE para utilizar el teléfono inteligente del propietario como una etiqueta de presencia, búsqueda de dirección BLE para localizar el dispositivo utilizando un teléfono inteligente, memoria interna de caja negra no volátil para almacenar paquetes de datos no enviados y un medidor de consumo de energía para estimar la capacidad de carga de la batería. El dispositivo también admite la duplicación de mensajes a una dirección de correo electrónico especificada y tipos seleccionados de notificaciones a través de mensajes SMS.
+## Casos de uso típicos
 
+- Rastreo antirrobo y apoyo en la recuperación de vehículos particulares y activos comerciales
+- Monitoreo de carga valiosa y remolques en operaciones de transporte mixto
+- Rastreo de motocicletas, vehículos todo terreno, bicicletas y otros vehículos pequeños donde la instalación discreta es importante
+- Seguridad personal y monitoreo de ubicación para niños, adultos mayores y animales domésticos
+- Escenarios de reporte periódico donde la larga autonomía y modos por intervalos son determinantes
+
+## Por qué elegir este rastreador con Plaspy
+
+El DX Маяк es una opción práctica para organizaciones que necesitan un rastreador pequeño y discreto capaz de enviar datos de ubicación y eventos a una plataforma de monitoreo remota. Su combinación de posicionamiento satelital, fallback celular, detección de movimiento y almacenamiento en el dispositivo ayuda a mantener la continuidad del rastreo en condiciones reales. Al integrarlo con Plaspy, el dispositivo forma parte de un flujo de trabajo de monitoreo más amplio que incluye visibilidad en mapas, alertas y reportes operativos.
+
+Dado que el DX Маяк soporta modos tanto de conexión continua como de sueño por intervalos, los equipos pueden equilibrar la capacidad de respuesta y la duración de la batería según los requisitos del caso de uso. Si usted necesita reportes de posición confiables con opciones de respaldo por SMS y funciones de presencia, la integración de este rastreador con Plaspy puede mejorar la conciencia situacional sin agregar complejidad innecesaria.
+
+To learn more about Plaspy and how it can present and manage data from devices like the AutoFon DX Маяк visit https://www.plaspy.com. Product specifications, availability, and manufacturer details may change over time, so please verify current technical and service information on the official manufacturer site https://www.autofon.ru/.

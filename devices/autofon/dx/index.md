@@ -2,30 +2,61 @@
 slug: /autofon/dx
 id: dx
 sidebar_label: DX Маяк
+title: AutoFon - DX Маяк
 sidebar_class_name: menu_item_tracker
+description: AutoFon DX Маяк GPS tracker compatible with Plaspy for fleet and asset monitoring using GLONASS GPS and 2G communications
+keywords:
+  - AutoFon DX
+  - DX Маяк
+  - AutoFon DX Mayak
+  - DX Mayak
+  - DX GPS tracker
+  - AutoFon tracker
+  - DX Plaspy compatible
+  - DX fleet tracking
+  - DX asset tracking
+  - DX anti theft
 ---
+
 # AutoFon - DX Маяк
 
 ![DX Маяк](./logo..png)
 
-The "AutoFon DX Mayak" device is a versatile GPS tracker designed to accurately determine the location of a protected object using GLONASS/GPS satellite systems. It can also provide approximate location data using cellular network base stations. The device transfers coordinates and recorded events via 2G GSM networks, either through the GPRS protocol to a monitoring server or via SMS messages to selected phone numbers. With its built-in acceleration sensor, the AutoFon DX Mayak can monitor movement and detect shocks, making it ideal for anti-theft protection and tracking stolen vehicles. It is also suitable for monitoring valuable cargo, personal and official vehicles, motorcycles, ATVs, bicycles, and even for tracking the location of children, elderly individuals, and domestic animals.
+The AutoFon DX Маяк is a compact multi purpose GPS tracker that uses GLONASS and GPS to determine the location of a protected object, with fallback positioning from cellular base stations when satellites are not available. It transmits coordinates and recorded events over 2G GSM networks using GPRS to a monitoring server or by SMS to selected phone numbers. Built in acceleration sensing enables movement and shock detection, and a Bluetooth BLE module provides smartphone presence detection and direction finding for close range locating.
 
-The AutoFon DX Mayak consists of a GSM/GPRS modem, GLONASS/GPS receiver, programmable microprocessor, and a battery-powered source. Its compact size and long battery life allow for discreet installation in hard-to-detect locations. The device can be configured and controlled remotely through a personal account on the monitoring server or by sending SMS commands to the device's mobile number. It provides accurate coordinates, speed, and direction of movement, along with other information such as battery life, temperature, and signal strength. In situations where satellite signals are unavailable or deliberately jammed, the device can still determine the approximate location using GSM network base stations.
+As a Plaspy compatible device, the DX Маяк can feed positional data and event notifications into the Plaspy monitoring platform for map visualization, history, and operational oversight. Its flexible reporting options, on device storage for unsent packets, and remote configuration capabilities make it a practical choice for organizations that want to combine reliable hardware tracking with Plaspy dashboards, alerts, and reporting tools.
 
-The AutoFon DX Mayak offers two main operating modes: continuous online and interval sleep. In continuous online mode, the device remains connected and ready to receive commands at any time, but this mode consumes more battery power. The maximum battery life in continuous online mode is up to 5 days, which reduces to 1 day if accurate GLONASS/GPS coordinates are constantly determined. In interval sleep mode, most modules of the device are turned off, allowing it to operate autonomously for up to 3 years on built-in batteries if it communicates once a day. The device also features a digital accelerometer for recording movements and impacts, allowing for customizable notifications for various events.
+## Key Highlights
 
-One unique feature of the AutoFon DX Mayak is its Bluetooth BLE module, which enables two functions. The first function allows the owner's smartphone to be used as a presence tag, triggering an alarm only when the smartphone is not nearby. The second function is BLE direction finding, which helps locate the device using any smartphone with the AutoFon BLE application. The device also includes a non-volatile black box memory for storing unsent GPRS packets, an energy consumption meter for estimating battery capacity, and the option to duplicate messages to an email or send selected notifications via SMS.
+- Precise position fixes using GLONASS and GPS with cellular base station fallback for improved availability
+- Dual data paths via GPRS to a monitoring server and SMS to predefined phone numbers
+- Built in accelerometer for movement and shock event detection useful for anti theft scenarios
+- Bluetooth BLE features for smartphone presence tagging and short range direction finding
+- Compact form factor and operating modes that trade active connectivity for extended battery life
+- Non volatile black box memory and energy consumption estimation for improved data continuity
 
-#### Outstanding Features:
+## How It Works with Plaspy
 
-- Accurate location tracking using GLONASS/GPS satellite systems
-- Approximate location determination using cellular network base stations
-- Transfer of coordinates and events via 2G GSM networks
-- Built-in acceleration sensor for monitoring movement and shocks
-- Bluetooth BLE module for smartphone presence detection and direction finding
-- Compact size and discreet installation
-- Continuous online and interval sleep operating modes
-- Customizable notifications for various events
-- Non-volatile black box memory for storing unsent data
-- Energy consumption meter for estimating battery capacity
+The AutoFon DX Маяк sends location and event messages that Plaspy can ingest and present within a unified monitoring interface. Plaspy can use those incoming reports to maintain live position views, historical tracks, and event timelines while allowing operators to configure alerts and review device status.
 
+- Live location and track history displayed on Plaspy maps for fleet and asset oversight
+- Movement and shock events routed into Plaspy alerting for rapid notification of potential incidents
+- Geofencing and operational alerts configured in Plaspy to monitor entry and exit of areas
+- Device status information such as battery and signal indicators available in Plaspy for maintenance planning
+- Automatic recovery of stored messages after temporary connectivity loss thanks to the device black box memory
+
+## Typical Use Cases
+
+- Anti theft tracking and recovery support for passenger vehicles and commercial assets
+- Monitoring valuable cargo and trailers in mixed transport operations
+- Tracking motorcycles, ATVs, bicycles and other small vehicles where discreet installation matters
+- Personal safety and location monitoring for children, elderly individuals, and domestic animals
+- Periodic reporting scenarios where long battery life and interval modes are important
+
+## Why Choose This Tracker with Plaspy
+
+The DX Маяк is a practical choice for organizations that need a small, discreet tracker capable of sending location and event data to a remote monitoring platform. Its combination of satellite positioning, cellular fallback, movement detection, and on device storage helps maintain continuity of tracking data in real world conditions. When paired with Plaspy, the device becomes part of a broader monitoring workflow that includes map based visibility, alerts, and operational reporting.
+
+Because the DX Маяк supports both continuous online and interval sleep modes, teams can balance responsiveness and battery life to match use case requirements. If you need reliable position reporting with options for SMS fallback and presence features, integrating this tracker with Plaspy can improve situational awareness without adding unnecessary complexity.
+
+To learn more about Plaspy and how it can present and manage data from devices like the AutoFon DX Маяк visit https://www.plaspy.com. Product specifications, availability, and manufacturer details may change over time, so please verify current technical and service information on the official manufacturer site https://www.autofon.ru/.

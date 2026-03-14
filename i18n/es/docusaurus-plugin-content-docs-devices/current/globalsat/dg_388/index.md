@@ -2,60 +2,60 @@
 slug: /globalsat/dg_388
 id: dg_388
 sidebar_label: DG-388
+title: GlobalSat - DG-388
 sidebar_class_name: menu_item_tracker
+description: Registrador GPS compacto e impermeable compatible con Plaspy para importar rutas históricas, análisis de telemetría e informes de actividad
+keywords:
+  - GlobalSat DG-388
+  - DG-388
+  - rastreador GlobalSat
+  - registrador de datos GPS
+  - registrador GPS IPX7
+  - registrador GNSS
+  - compatible con Plaspy
+  - importación de rutas históricas
+  - seguimiento de flotas
+  - rastreador personal
 ---
+
 # GlobalSat - DG-388
 
 ![DG-388](./tracker.jpg)
 
-El DG-388 de GlobalSat es un registrador de datos GPS compacto y robusto que se integra sin problemas a los flujos de trabajo de Plaspy para la importación histórica de rutas, análisis de telemetría e generación de informes de actividad. Diseñado para el rastreo personal y el uso al aire libre, el DG-388 captura puntos de ubicación precisos junto con hora, fecha, velocidad y altitud usando un chipset GNSS moderno de alto rendimiento, lo que lo convierte en una fuente excelente de telemetría precisa para proyectos compatibles con Plaspy.
+El GlobalSat DG-388 es un registrador de datos GPS compacto y resistente, diseñado para seguimiento personal y uso en exteriores. Registra puntos de ubicación precisos junto con fecha, hora, velocidad y altitud mediante un chipset GNSS de alto rendimiento. Con una carcasa impermeable IPX7, gestión de energía inteligente, batería recargable y gran memoria interna, el DG-388 está pensado para capturar trayectos prolongados y un historial de rutas detallado sin necesidad de conexión continua.
 
-Ligero y con certificación IPX7 a prueba de agua, el DG-388 está diseñado para grabar trayectos de larga duración sin necesidad de una conexión por cable. Su gestión inteligente de la energía, batería recargable y amplia memoria interna permiten capturar hasta 500,000 puntos y más de 50 horas de operación \(según la configuración de registro\). Utilice la herramienta para PC incluida para exportar las rutas grabadas para su importación en Plaspy, habilitando historial de rutas, análisis de actividades y evidencia fuera de línea para casos de antirrobo o seguridad.
+Como dispositivo compatible con Plaspy, el DG-388 es una fuente fiable de telemetría histórica para importación de rutas, generación de informes de actividad y análisis sin conexión. Las sesiones registradas pueden exportarse con la herramienta de PC incluida y cargarse en Plaspy para su mapeo, revisión en línea de tiempo y elaboración de informes, lo que convierte al dispositivo en un complemento práctico para flujos de trabajo de Plaspy cuando se requieren pistas verificadas o evidencias offline.
 
-## Aspectos destacados
+## Puntos clave
 
-- Compatible con Plaspy para importación histórica de rutas — exporta las rutas registradas con la herramienta para PC incluida para una ingesta sencilla en paneles y reportes de Plaspy.
-- Un chipset GNSS de alto rendimiento proporciona fijaciones de satélites más rápidas y mayor precisión de ubicación para telemetría fiable y perfil de velocidad.
-- Gran capacidad a bordo: registra hasta 500,000 puntos de ubicación para capturar trayectos largos y un historial de rutas detallado sin descargas frecuentes.
-- Diseño robusto, impermeable \(IPX7\) y formato compacto \(107.5 x 38.7 x 22.8 mm, 73 g\) para un uso fiable en deportes al aire libre y viajes.
-- Gestión inteligente de la energía y batería recargable proporcionan más de 50 horas de operación \(según la configuración\), ideal para un seguimiento extendido de actividades.
-- Sensor de movimiento integrado, vibrador y zumbador admiten registro automático de bajo consumo y retroalimentación inmediata — útil para monitoreo de seguridad personal y seguimiento de actividades en el cuidado de personas mayores.
-- Modos de registro flexibles \(intervalos de tiempo, distancia o velocidad\) permiten adaptar la recopilación de datos para registro de actividades, análisis de rutas o exportación de telemetría.
+- Compatible con Plaspy para importación de rutas históricas y análisis de telemetría mediante la herramienta de exportación para PC incluida.
+- Chipset GNSS de alto rendimiento para fijaciones más rápidas y mejor precisión posicional en los tracks registrados.
+- Gran capacidad interna, capaz de almacenar hasta 500,000 puntos de ubicación para viajes prolongados.
+- Carcasa resistente e impermeable IPX7 con un formato compacto adecuado para uso en exteriores y viajes.
+- Gestión inteligente de energía y batería recargable que ofrecen más de 50 horas de funcionamiento según la configuración de registro.
+- Sensor de movimiento incorporado y funciones de retroalimentación sencilla para soportar registro automático y marcadores de actividad.
+- Modos de registro flexibles por tiempo, distancia o intervalo de velocidad que permiten ajustar la densidad de datos según las necesidades de informe.
 
 ## Cómo funciona con Plaspy
 
-El DG-388 es un registrador de datos GPS dedicado, no un rastreador celular en vivo; registra localmente la ubicación y la telemetría en detalle y luego exporta esos datos para su análisis. Con la herramienta para PC incluida, puedes descargar las sesiones registradas, revisar las rutas en plataformas de mapeo y exportar archivos de ruta estándar que Plaspy puede ingerir para un procesamiento adicional. Esto hace del DG-388 una fuente ideal de telemetría histórica de alta calidad para complementar las capacidades de Plaspy en tiempo real y gestión de flotas.
+El DG-388 funciona como un registrador GPS independiente que almacena localmente datos de ubicación y telemetría de alta calidad. Tras un trayecto, usted utiliza la herramienta de PC incluida para descargar las sesiones registradas y exportar archivos de track estándar que Plaspy puede procesar. Este flujo de trabajo permite a los usuarios de Plaspy integrar datos históricos precisos junto con fuentes de seguimiento en tiempo real para un análisis y reportes más completos.
 
-- Ubicación y telemetría registradas: hora, fecha, velocidad, altitud y coordenadas precisas para una reconstrucción de rutas exacta.
-- Carga por lotes de sesiones registradas mediante la herramienta para PC para su importación y archivo en Plaspy — útil cuando no se requiere GSM/4G en tiempo real.
-- Eventos de movimiento y marcadores de actividad \(del sensor de movimiento integrado\) permiten filtrar las rutas en Plaspy en función de eventos.
-- Registro en intervalos flexible \(tiempo, distancia, velocidad\) que permite una densidad de datos optimizada para análisis y reportes de Plaspy.
-- Dispositivo compacto sin conexión adecuado para rastreo personal, registros de viaje y recopilación de evidencias para respaldar flujos de trabajo de antirrobo o revisión de incidentes.
+- Los archivos de track exportados incluyen fecha y hora, velocidad, altitud y coordenadas para una reconstrucción precisa de la ruta en Plaspy.
+- La carga por lotes de sesiones registradas posibilita la importación de archivos de archivo y la revisión retrospectiva dentro de los paneles de Plaspy.
+- Los eventos basados en el sensor de movimiento y los marcadores de actividad pueden emplearse para filtrar y segmentar tracks durante el análisis en Plaspy.
+- Las opciones de registro por intervalos permiten equilibrar la autonomía de la batería y la resolución de datos en los informes de Plaspy.
+- El registro offline hace que el DG-388 sea útil en despliegues con conectividad celular limitada y que requieran importación a Plaspy en un momento posterior.
 
-## Resumen técnico
+## Casos de uso típicos
 
-| Modelo | GlobalSat DG-388 |
-| --- | --- |
-| Conectividad | Registrador de datos GNSS independiente \(chipset GNSS de alto rendimiento\). Sin conectividad celular. |
-| Bandas | No aplicable \(el dispositivo no incluye radio celular\) |
-| Alimentación y batería | Batería recargable; gestión inteligente de la energía. Más de 50 horas de operación según la configuración. |
-| Interfaces | Sensor de movimiento integrado, vibrador, zumbador, función de registro con 1 clic; herramienta de descarga USB para PC para transferencia de datos. |
-| GNSS | Chipset GNSS moderno de alto rendimiento para fijaciones más rápidas y mayor precisión; registra hora, fecha, velocidad, altitud y coordenadas. |
-| Bluetooth | No especificado / no incluido |
-| Gestión remota | Software para PC para descarga de datos, revisión y exportación a plataformas de mapeo \(sin FOTA ni control remoto basado en web\). |
-| Formato | Carcasa compacta y robusta, a prueba de agua IPX7. Dimensiones: 107.5 x 38.7 x 22.8 mm. Peso: 73 ± 1 g. |
-
-## Casos de uso
-
-- Deportes al aire libre y aventura: registra rutas de senderismo, ciclismo y carrera con registro por intervalos para una revisión detallada del rendimiento.
-- Historial de rutas de viaje: registra trayectos de larga distancia y exporta las rutas a Plaspy para mapeo, líneas de tiempo y análisis de viajes.
-- Seguridad personal y cuidado de personas mayores: registro activado por movimiento y alertas sonoras o vibratorias proporcionan monitoreo pasivo y registros de actividades.
-- Evidencias y soporte antirrobo: utiliza las rutas grabadas para reconstruir movimientos tras un incidente o para proporcionar evidencia de ubicación a las autoridades.
-- Seguimiento offline de activos o equipos: captura de historial de ubicación para activos o equipos que no requieren rastreo GSM en tiempo real.
+- Seguimiento de actividades al aire libre y aventuras como senderismo, ciclismo y running con historial de rutas detallado.
+- Registro de rutas de viaje para trayectos de larga distancia y análisis de la línea de tiempo en Plaspy.
+- Monitoreo de seguridad personal y cuidado de personas mayores mediante registros activados por movimiento y alertas audibles.
+- Recolección de evidencias y flujos de trabajo anti robo que dependen de pistas históricas verificadas para revisión de incidentes.
+- Historial de ubicación de activos o equipos en entornos donde el seguimiento en vivo continuo no es necesario.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El DG-388 se empareja con Plaspy como una fuente fiable de telemetría precisa y de alta resolución cuando se prefiere el registro en el propio dispositivo o la cobertura celular es limitada. Ofrece fijaciones GNSS fiables, modos de registro versátiles y una larga capacidad de grabación, lo que facilita la recopilación de historial de rutas y telemetría para su posterior importación en Plaspy. Utilice el DG-388 para enriquecer los registros de gestión de flotas o de rastreo personal con datos históricos verificados, sin depender de conectividad en tiempo real, controles de inmovilización o sensores Bluetooth.
+El DG-388 es una opción práctica cuando necesita telemetría histórica de alta resolución y confiable para complementar los registros de Plaspy. Su gran capacidad de almacenamiento, modos de registro flexibles y construcción impermeable lo hacen idóneo para actividades al aire libre, viajes y situaciones donde se prefiere la captura offline del historial de ubicaciones. Al exportar los archivos de track verificados a Plaspy, usted podrá combinar estas sesiones registradas con otros datos de seguimiento de flotas o personales para crear informes y cronologías integrales.
 
-En resumen, elige el GlobalSat DG-388 para un registro sencillo y robusto, compatible con Plaspy, de pistas GPS y telemetría cuando necesites registros offline precisos, estrategias de registro flexibles y un paquete compacto a prueba de agua.
-
+Para obtener más información sobre Plaspy y cómo puede incorporar tracks históricos desde dispositivos como el GlobalSat DG-388 visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información actual en el sitio oficial de GlobalSat https://www.globalsat.com.tw/.

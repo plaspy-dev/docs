@@ -2,17 +2,61 @@
 slug: /maxtrack/mtc_700
 id: mtc_700
 sidebar_label: MTC-700
+title: Maxtrack - MTC-700
 sidebar_class_name: menu_item_tracker
+description: Maxtrack MTC-700 GPS tracker compatibility guide with Plaspy covering customization, telemetry modes, fallback communications, and fleet use cases
+keywords:
+  - Maxtrack MTC-700
+  - MTC 700
+  - Maxtrack tracker
+  - MTC-700 Plaspy
+  - GPS tracker
+  - fleet tracking
+  - vehicle telemetry
+  - customizable tracker
+  - satellite ready tracker
+  - WiFi tracker
 ---
+
 # Maxtrack - MTC-700
 
 ![MTC-700](./logo.jpg)
 
-The MTC-700 family of trackers from Maxtrack is designed to meet the most elaborate needs of the tracking and telemetry market. With its advanced features, it offers the best solutions for logistics operations, risk management, embedded intelligence, collective transportation systems, and various custom operations. The MTC-700 trackers are highly customizable, allowing for the implementation of different business rules and operations using embedded actions and the Lua language.
+The Maxtrack MTC-700 family is a line of professional GPS trackers designed for advanced tracking and telemetry applications. Products in this family serve logistics, risk management, collective transportation, and bespoke operational needs by combining position reporting with flexible telemetry modes, embedded logic, and extended data recording. The MTC-700 platform emphasizes customization and operational resilience, offering features such as embedded scripting, multi SIM support, long term history storage, jamming detection, and options for wireless peripheral connectivity.
 
-One of the standout features of the MTC-700 is its embedded stock, Moon, and macros module, which makes it the smartest tracker on the market. This module allows for total control and customization of the equipment according to the demands of the operation. Additionally, the MTC-700 platform is developed for critical operations that require communication in any location or situation, with the ability to rely on satellite communication in regions without GPRS coverage when connected to an external satellite modem. The MTC-700 ADV WI-FI model also offers wireless communication between the equipment and peripherals through a Wi-Fi network, enabling connection with smartphones and tablets.
+As a device compatible with Plaspy, the MTC-700 can be incorporated into fleet and asset monitoring workflows to provide real time visibility and historical data within Plaspy dashboards and reporting. Its programmable behavior and fallback communication options make it suitable for deployments that need tailored business rules and robust connectivity, allowing organizations using Plaspy to adapt tracking logic to specific operational policies and to preserve data continuity when primary communication channels are unavailable.
 
-The MTC-700 family of trackers offers a wide range of functionalities and applicabilities. It utilizes GPS signal to calculate important information about the monitored vehicle, such as positioning, date/time, pedometer, and speed. It also provides three telemetry modes: telemetry, advanced accelerometer telemetry, and CAN network telemetry. The MTC-700 trackers have dual SIM card capability and can identify which SIM card is being used to connect to the server. They also offer programming autonomy, allowing for parameterization and customization through embedded actions or the interpreted LUA language. Integration with external devices is possible through physical interfaces such as RS232 and RS485 ports, inputs, and outputs.
+## Key Highlights
 
-In case of GPRS connection failure, the MTC-700 can communicate with the server via SMS and can even generate position packets and send them via SMS in the absence of GPRS connection and external power failure. The trackers also feature jamming detection, which creates a mark in the position to signal interference, and a black box functionality that records vehicle information such as speed, RPM, location, and telemetry data, storing the history for about a year. The MTC-700 trackers have low-power modes to save the vehicle's battery when it is switched off, and they support the shipment of libraries and audio files for performing various functions.
+- Highly customizable device family with embedded scripting to implement business rules and custom actions.
+- Multiple telemetry modes to support general telemetry, advanced accelerometer reporting, and CAN network telemetry where applicable.
+- Communication resiliency with dual SIM support and fallback messaging options to preserve data flow.
+- Black box style history that records vehicle and telemetry data for extended retention.
+- Optional Wi Fi model for local wireless communication with peripherals and mobile devices.
+- Designed for critical operations with the ability to use satellite communication when connected to an external satellite modem.
 
+## How It Works with Plaspy
+
+When used with Plaspy, the MTC-700 provides location and telemetry data that can be visualized, analyzed, and acted on through Plaspy interfaces. Plaspy can ingest the tracker's reporting and expose it to fleet managers, operations teams, and reporting workflows to improve situational awareness and operational control.
+
+- Real time location tracking and map visualization of assets within Plaspy.
+- Event and alert generation based on device messages and embedded business rules.
+- Historical data and black box records available for route reconstruction and post event analysis.
+- Telemetry and status reporting used in Plaspy dashboards and scheduled reports for operational oversight.
+- Use of the device's programmable features to trigger contextual notifications or state changes visible in Plaspy.
+
+## Typical Use Cases
+
+- Logistics fleet tracking and route monitoring for delivery and distribution operations.
+- Risk and security management for high value cargo or vehicles requiring telemetry and jamming detection.
+- Public or collective transportation monitoring with long term history and reporting needs.
+- Remote or rural operations that may require fallback communication or satellite connectivity.
+- Custom projects requiring embedded scripting to implement tailored business rules or workflows.
+
+## Why Choose This Tracker with Plaspy
+
+The MTC-700 family is a strong option for organizations that need a flexible, programmable tracker that can be adapted to diverse operational requirements. Its combination of embedded scripting, multiple telemetry modes, and extended history recording aligns well with Plaspy use cases where configurable behavior and reliable data capture are important.
+
+Pairing MTC-700 devices with Plaspy lets teams centralize visibility and reporting while leveraging the tracker's customization capabilities to enforce operational logic at the device level. This can reduce manual intervention, improve data continuity during communication failures, and provide richer context for fleet management and incident analysis.
+
+To learn more about Plaspy and how compatible devices like the Maxtrack MTC-700 can fit into your fleet strategy visit https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so please verify current technical information on the manufacturer site https://maxtrack.com.br before final decisions.
