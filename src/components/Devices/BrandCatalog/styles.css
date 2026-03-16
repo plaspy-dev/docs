@@ -1,0 +1,70 @@
+.brand-catalog-header {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.brand-catalog-logo {
+    max-width: 120px;
+    max-height: 100px;
+    float: right;
+    margin-top: 1em;
+}
+
+.brand-catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.device-card-image-container {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.device-card {
+    border: 1px solid var(--ifm-color-emphasis-300);
+    border-radius: 12px;
+    padding: 16px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    text-decoration: none !important;
+}
+
+.device-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--ifm-color-primary);
+}
+
+.device-card a {
+    text-decoration: none !important;
+    width: 100%;
+}
+
+.device-card h3 {
+    text-align: center;
+}
+
+.device-card-image {
+    max-width: 100%;
+    max-height: 140px;
+    border-radius: 12px;
+}
+
+.device-card h3 {
+    margin: 0;
+    color: var(--ifm-color-content);
+}
+
+.device-card p {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: var(--ifm-color-content-secondary);
+}
+
+.menu_item_tracker {}
+
+.menu_item_brand {}

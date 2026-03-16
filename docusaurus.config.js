@@ -48,7 +48,17 @@ const config = {
       en: { label: 'English' },
     },
   },
-
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'devices',
+        path: 'devices',
+        routeBasePath: 'devices',
+        sidebarPath: './sidebarsDevices.js',
+      },
+    ]
+  ],
   presets: [
     [
       'classic',
@@ -59,6 +69,8 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/plaspy-dev/docs/blob/dev/',
+          path: 'docs',
+          routeBasePath: 'docs',
         },
         blog: {
           showReadingTime: true,
@@ -102,9 +114,17 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
             label: 'Documentation',
+          },
+          {
+            type: 'docSidebar',
+            docsPluginId: 'devices',
+            sidebarId: 'devicesSidebar',
+            position: 'left',
+            label: 'Devices',
+            className: 'show-only-plaspy'
           },
           {
             type: 'localeDropdown',

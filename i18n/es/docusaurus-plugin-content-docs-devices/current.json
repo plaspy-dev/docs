@@ -1,0 +1,438 @@
+{
+  "version.label": {
+    "message": "Siguiente",
+    "description": "The label for version current"
+  },
+  "sidebar.devicesSidebar.category.AoYa": {
+    "message": "AoYa",
+    "description": "The label for category 'AoYa' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Aplicom": {
+    "message": "Aplicom",
+    "description": "The label for category 'Aplicom' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Appello": {
+    "message": "Appello",
+    "description": "The label for category 'Appello' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Aquila": {
+    "message": "Aquila",
+    "description": "The label for category 'Aquila' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.ArkNav": {
+    "message": "ArkNav",
+    "description": "The label for category 'ArkNav' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Arusnavi": {
+    "message": "Arusnavi",
+    "description": "The label for category 'Arusnavi' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Astra Telematics": {
+    "message": "Astra Telematics",
+    "description": "The label for category 'Astra Telematics' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.ATrack": {
+    "message": "ATrack",
+    "description": "The label for category 'ATrack' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.AutoFon": {
+    "message": "AutoFon",
+    "description": "The label for category 'AutoFon' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Autoseeker": {
+    "message": "Autoseeker",
+    "description": "The label for category 'Autoseeker' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.BCE": {
+    "message": "BCE",
+    "description": "The label for category 'BCE' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Bofan": {
+    "message": "Bofan",
+    "description": "The label for category 'Bofan' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Box": {
+    "message": "Box",
+    "description": "The label for category 'Box' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.BoxTrack": {
+    "message": "BoxTrack",
+    "description": "The label for category 'BoxTrack' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.CalmAmp": {
+    "message": "CalmAmp",
+    "description": "The label for category 'CalmAmp' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.CanTrack": {
+    "message": "CanTrack",
+    "description": "The label for category 'CanTrack' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.CAREU": {
+    "message": "CAREU",
+    "description": "The label for category 'CAREU' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Carscop": {
+    "message": "Carscop",
+    "description": "The label for category 'Carscop' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Castel": {
+    "message": "Castel",
+    "description": "The label for category 'Castel' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Cityeasy": {
+    "message": "Cityeasy",
+    "description": "The label for category 'Cityeasy' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Coban": {
+    "message": "Coban",
+    "description": "The label for category 'Coban' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Concox": {
+    "message": "Concox",
+    "description": "The label for category 'Concox' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Condor": {
+    "message": "Condor",
+    "description": "The label for category 'Condor' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.DCT": {
+    "message": "DCT",
+    "description": "The label for category 'DCT' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.EElink": {
+    "message": "EElink",
+    "description": "The label for category 'EElink' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Enfora": {
+    "message": "Enfora",
+    "description": "The label for category 'Enfora' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.EV": {
+    "message": "EV",
+    "description": "The label for category 'EV' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Falcom": {
+    "message": "Falcom",
+    "description": "The label for category 'Falcom' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Flextrack": {
+    "message": "Flextrack",
+    "description": "The label for category 'Flextrack' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Fortuna Impex": {
+    "message": "Fortuna Impex",
+    "description": "The label for category 'Fortuna Impex' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.GalileoSky": {
+    "message": "GalileoSky",
+    "description": "The label for category 'GalileoSky' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Gator": {
+    "message": "Gator",
+    "description": "The label for category 'Gator' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Gelix": {
+    "message": "Gelix",
+    "description": "The label for category 'Gelix' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.GenX Mobile": {
+    "message": "GenX Mobile",
+    "description": "The label for category 'GenX Mobile' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.GlobalSat": {
+    "message": "GlobalSat",
+    "description": "The label for category 'GlobalSat' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.GLONASSsoft": {
+    "message": "GLONASSsoft",
+    "description": "The label for category 'GLONASSsoft' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Gnxis": {
+    "message": "Gnxis",
+    "description": "The label for category 'Gnxis' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Goome": {
+    "message": "Goome",
+    "description": "The label for category 'Goome' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Gosafe": {
+    "message": "Gosafe",
+    "description": "The label for category 'Gosafe' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.GOTOP": {
+    "message": "GOTOP",
+    "description": "The label for category 'GOTOP' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.GPSMarker": {
+    "message": "GPSMarker",
+    "description": "The label for category 'GPSMarker' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Haicom": {
+    "message": "Haicom",
+    "description": "The label for category 'Haicom' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Homtecs": {
+    "message": "Homtecs",
+    "description": "The label for category 'Homtecs' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Huabao": {
+    "message": "Huabao",
+    "description": "The label for category 'Huabao' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.HunterPro": {
+    "message": "HunterPro",
+    "description": "The label for category 'HunterPro' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Intellitrack": {
+    "message": "Intellitrack",
+    "description": "The label for category 'Intellitrack' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.iStartek": {
+    "message": "iStartek",
+    "description": "The label for category 'iStartek' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.iTriangle": {
+    "message": "iTriangle",
+    "description": "The label for category 'iTriangle' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Jointech": {
+    "message": "Jointech",
+    "description": "The label for category 'Jointech' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.KHD": {
+    "message": "KHD",
+    "description": "The label for category 'KHD' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Laipac": {
+    "message": "Laipac",
+    "description": "The label for category 'Laipac' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.LK-GPS": {
+    "message": "LK-GPS",
+    "description": "The label for category 'LK-GPS' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Maxtrack": {
+    "message": "Maxtrack",
+    "description": "The label for category 'Maxtrack' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Megastek": {
+    "message": "Megastek",
+    "description": "The label for category 'Megastek' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Meitrack": {
+    "message": "Meitrack",
+    "description": "The label for category 'Meitrack' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.MiniFinder": {
+    "message": "MiniFinder",
+    "description": "The label for category 'MiniFinder' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Mtx": {
+    "message": "Mtx",
+    "description": "The label for category 'Mtx' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Navigil": {
+    "message": "Navigil",
+    "description": "The label for category 'Navigil' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Navis": {
+    "message": "Navis",
+    "description": "The label for category 'Navis' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Navtelekom": {
+    "message": "Navtelekom",
+    "description": "The label for category 'Navtelekom' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Neomatica": {
+    "message": "Neomatica",
+    "description": "The label for category 'Neomatica' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Noran": {
+    "message": "Noran",
+    "description": "The label for category 'Noran' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.NP3": {
+    "message": "NP3",
+    "description": "The label for category 'NP3' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.NVS": {
+    "message": "NVS",
+    "description": "The label for category 'NVS' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Oigo Telematics": {
+    "message": "Oigo Telematics",
+    "description": "The label for category 'Oigo Telematics' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.OKB Tehnoavtomatika": {
+    "message": "OKB Tehnoavtomatika",
+    "description": "The label for category 'OKB Tehnoavtomatika' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Orion": {
+    "message": "Orion",
+    "description": "The label for category 'Orion' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Parallel track": {
+    "message": "Parallel track",
+    "description": "The label for category 'Parallel track' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Pointer": {
+    "message": "Pointer",
+    "description": "The label for category 'Pointer' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Protrack": {
+    "message": "Protrack",
+    "description": "The label for category 'Protrack' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.PST": {
+    "message": "PST",
+    "description": "The label for category 'PST' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.QuecLink": {
+    "message": "QuecLink",
+    "description": "The label for category 'QuecLink' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Reachfar": {
+    "message": "Reachfar",
+    "description": "The label for category 'Reachfar' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Riti": {
+    "message": "Riti",
+    "description": "The label for category 'Riti' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Ruptela": {
+    "message": "Ruptela",
+    "description": "The label for category 'Ruptela' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Sanav": {
+    "message": "Sanav",
+    "description": "The label for category 'Sanav' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Sentar": {
+    "message": "Sentar",
+    "description": "The label for category 'Sentar' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.SinoTrack": {
+    "message": "SinoTrack",
+    "description": "The label for category 'SinoTrack' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.SkyMobile": {
+    "message": "SkyMobile",
+    "description": "The label for category 'SkyMobile' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.SkyPatrol": {
+    "message": "SkyPatrol",
+    "description": "The label for category 'SkyPatrol' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Stars Nav": {
+    "message": "Stars Nav",
+    "description": "The label for category 'Stars Nav' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.STL": {
+    "message": "STL",
+    "description": "The label for category 'STL' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Suntech": {
+    "message": "Suntech",
+    "description": "The label for category 'Suntech' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Supermate": {
+    "message": "Supermate",
+    "description": "The label for category 'Supermate' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Telic": {
+    "message": "Telic",
+    "description": "The label for category 'Telic' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Teltonika": {
+    "message": "Teltonika",
+    "description": "The label for category 'Teltonika' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.ThingSys": {
+    "message": "ThingSys",
+    "description": "The label for category 'ThingSys' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.ThinkRace": {
+    "message": "ThinkRace",
+    "description": "The label for category 'ThinkRace' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.TK-Star": {
+    "message": "TK-Star",
+    "description": "The label for category 'TK-Star' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.TopFly": {
+    "message": "TopFly",
+    "description": "The label for category 'TopFly' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.TopShine": {
+    "message": "TopShine",
+    "description": "The label for category 'TopShine' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.TopTen": {
+    "message": "TopTen",
+    "description": "The label for category 'TopTen' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Totemtech": {
+    "message": "Totemtech",
+    "description": "The label for category 'Totemtech' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.TrackerKing": {
+    "message": "TrackerKing",
+    "description": "The label for category 'TrackerKing' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Tramigo": {
+    "message": "Tramigo",
+    "description": "The label for category 'Tramigo' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Tytan SAT": {
+    "message": "Tytan SAT",
+    "description": "The label for category 'Tytan SAT' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.TZone": {
+    "message": "TZone",
+    "description": "The label for category 'TZone' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Ulbotech": {
+    "message": "Ulbotech",
+    "description": "The label for category 'Ulbotech' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.UVI Group": {
+    "message": "UVI Group",
+    "description": "The label for category 'UVI Group' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.V-SUN": {
+    "message": "V-SUN",
+    "description": "The label for category 'V-SUN' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.VisionTek": {
+    "message": "VisionTek",
+    "description": "The label for category 'VisionTek' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.WanWay": {
+    "message": "WanWay",
+    "description": "The label for category 'WanWay' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Winrich": {
+    "message": "Winrich",
+    "description": "The label for category 'Winrich' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.WP": {
+    "message": "WP",
+    "description": "The label for category 'WP' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Xexun": {
+    "message": "Xexun",
+    "description": "The label for category 'Xexun' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Xirgo": {
+    "message": "Xirgo",
+    "description": "The label for category 'Xirgo' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.YulongDa": {
+    "message": "YulongDa",
+    "description": "The label for category 'YulongDa' in sidebar 'devicesSidebar'"
+  },
+  "sidebar.devicesSidebar.category.Zilogic": {
+    "message": "Zilogic",
+    "description": "The label for category 'Zilogic' in sidebar 'devicesSidebar'"
+  }
+}
