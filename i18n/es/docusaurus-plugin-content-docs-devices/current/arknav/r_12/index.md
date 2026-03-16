@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - R-12
 
-![R-12](./)
-
 El R-12 es un rastreador GPS vehicular compacto y resistente con clasificación IP67 de ArkNav, diseñado para ofrecer seguimiento confiable en tiempo real en automóviles, camionetas, camiones, remolques y maquinaria pesada. Combina conectividad LTE‑M con conmutación por EGPRS, un receptor GNSS u‑Blox y antenas integradas para proporcionar posicionamiento y telemetría robustos donde se requieren gestión de flotas y protección de activos.
 
 Como dispositivo compatible con Plaspy, el R-12 se integra en el entorno de gestión de flotas de Plaspy para entregar ubicación en vivo, reportes conscientes del estado de ignición y alertas configurables. Su carcasa resistente, protección contra sobretensiones y soporte para actualizaciones OTA de firmware y configuración hacen del R-12 una opción práctica para despliegues a gran escala gestionados mediante los flujos de trabajo de dispositivos y flotas de Plaspy.

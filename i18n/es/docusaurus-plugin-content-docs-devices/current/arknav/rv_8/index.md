@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - RV-8
 
-![RV-8](./)
-
 El RV-8 es un rastreador GPS montado en vehículo, diseñado para entornos telemáticos exigentes. Construido para operar de forma continua en aplicaciones de gestión de flotas, seguridad de carga y recuperación de vehículos, el RV-8 emplea una arquitectura de doble procesador y múltiples watchdogs para ofrecer informes de ubicación y telemetría estables. Su diseño prioriza la durabilidad, la protección eléctrica y un ecosistema modular de accesorios que facilita la labor de integradores y proveedores de servicio en instalaciones vehiculares a gran escala.
 
 Como dispositivo compatible con Plaspy, el RV-8 puede enviar en tiempo real la posición y la telemetría del vehículo a Plaspy para su visualización en mapas, gestión de alertas e informes históricos. La compatibilidad con Plaspy convierte al RV-8 en una opción viable para operadores que necesitan seguimiento de nivel empresarial y supervisión operativa sin desarrollar integraciones de servidor personalizadas. Los usuarios de Plaspy pueden aprovechar el RV-8 para ampliar la visibilidad y automatizar flujos de trabajo en despacho, seguridad y respuestas antirrobo.

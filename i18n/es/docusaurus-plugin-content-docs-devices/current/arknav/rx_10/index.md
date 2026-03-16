@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - RX-10: Rastreador robusto para vehículos
 
-![RX-10](./)
-
 El RX-10 es un rastreador vehicular resistente con certificación IP67 de ArkNav, diseñado para flotas, remolques y maquinaria pesada. Integra antenas GNSS y UMTS internas junto con conectividad 4G LTE y retroceso a generaciones celulares anteriores para asegurar un rastreo en tiempo real continuo, telemetría sólida y un perfil compacto que facilita la instalación oculta en condiciones exigentes de campo.
 
 Como dispositivo compatible con Plaspy desde su activación, el RX-10 puede transmitir datos de ubicación, eventos y telemetría directamente a Plaspy para monitoreo centralizado, alertas e informes. Sus opciones modulares de accesorios, como identificación de conductor, relé inmovilizador y varios termómetros 1-Wire, lo hacen apto para distintos flujos de trabajo de flota que Plaspy soporta, desde seguridad antirrobo y gestión de conductores hasta supervisión de carga sensible a la temperatura.

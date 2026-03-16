@@ -20,8 +20,6 @@ keywords:
 
 # TopTen - MT35
 
-![MT35](./)
-
 El TopTen MT35 es un rastreador GPS compacto 3G diseñado para el seguimiento de vehículos en múltiples regiones. Admite redes 3G WCDMA y 2G, y ofrece reportes de ubicación mediante SMS, web o aplicación móvil. El MT35 incluye funciones prácticas como un registrador de datos a bordo capaz de almacenar miles de waypoints, cuenta kilómetros (odómetro) y varios tipos de alertas por exceso de velocidad, movimiento, vibración, encendido del motor y pérdida de alimentación. Su diseño compacto y resistente al agua lo hace adecuado para motocicletas, automóviles y vehículos de mayor tamaño.
 
 Como dispositivo compatible con Plaspy, el MT35 puede enviar datos de ubicación y eventos a la plataforma Plaspy para ofrecer visibilidad centralizada y supervisión operativa. Plaspy puede mostrar la dirección física reportada por el MT35 y gestionar alertas y rutas históricas, lo que convierte al equipo en una opción útil tanto para el seguimiento de vehículos individuales como para la monitorización de flotas.

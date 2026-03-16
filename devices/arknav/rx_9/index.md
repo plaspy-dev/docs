@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - RX-9
 
-![RX-9](./)
-
 The RX-9 is a rugged 3G GPS vehicle tracker designed for reliable fleet management, vehicle recovery, and temperature controlled logistics. Built around uBlox GNSS and GSM modules, the device provides fast position fixes and improved cell based positioning when satellite conditions are poor. Its IP67 waterproof enclosure, heatproof rating to 85 °C, built in antennas and durable components make the RX-9 suitable for vehicles, trailers, caravans and heavy machinery operating in demanding environments.
 
 As a Plaspy compatible device, the RX-9 streams position and telemetry to Plaspy for real time monitoring, historical playback and alerting. Integrated features such as ignition and motion activation, driver identification via I-Button, immobilizer control, onboard temperature sensing and configurable alerts align with common fleet and anti theft workflows in Plaspy. Over the air configuration and firmware updates help keep deployed units current without returning vehicles to the workshop.

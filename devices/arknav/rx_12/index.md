@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - RX-12
 
-![RX-12](./)
-
 The RX-12 is a compact, rugged GPS vehicle tracker designed for reliable deployment across cars, vans, trucks, trailers and heavy machinery. It combines an integrated LTE‑M and 2G cellular module with a high sensitivity u‑blox GNSS receiver and built in antennas inside an IP67 rated, heat tolerant enclosure to deliver consistent real time tracking and telemetry while minimizing exposure to tampering and environmental hazards.
 
 As a Plaspy compatible device, the RX-12 functions as a straightforward endpoint for fleet monitoring and security workflows. Event driven reporting for speed, motion and ignition, plus OTA firmware and configuration updates and hardened power protection, make the RX-12 a practical choice for operators who want to feed reliable location and status data into Plaspy dashboards, alerts and reports with minimal ongoing maintenance.

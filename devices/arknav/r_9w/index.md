@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - R-9W
 
-![R-9W](./)
-
 The R-9W Waterproof Vehicle GPS Tracker from ArkNav is a rugged, IP67 rated tracking unit built for demanding vehicle security and fleet management tasks. Housed in an aluminum case with plastic end caps and a compact footprint, the R-9W is designed to deliver reliable positioning and telemetry in harsh environments while providing practical features such as a rechargeable backup battery, motion detection, external power loss detection, and remote immobilizer control.
 
 As a Plaspy compatible device, the R-9W integrates into Plaspy’s fleet platform to provide real time tracking, telemetry ingestion, and centralized device management. Its support for FTP transfer, custom ACK confirmations and over the air configuration upload makes it suited for scalable deployments where consistent data delivery and remote device lifecycle handling are important for operations teams using Plaspy.

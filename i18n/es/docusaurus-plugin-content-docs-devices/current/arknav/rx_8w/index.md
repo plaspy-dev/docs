@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - RX-8W
 
-![RX-8W](./)
-
 El RX-8W es un rastreador para vehículos impermeable de ArkNav diseñado para entornos exigentes. Combina posicionamiento GNSS y conectividad celular con antenas integradas dentro de una carcasa IP67 resistente al agua y al calor. Pensado para el monitoreo de vehículos y activos, el RX-8W ofrece amplio rango de voltaje de entrada, protección contra sobretensiones, opción de batería de respaldo, gran almacenamiento local de ubicaciones y modos de seguimiento configurables que lo hacen adecuado para flotas, construcción, agricultura, caravanas y transporte refrigerado.
 
 Como dispositivo compatible con Plaspy, el RX-8W entrega posiciones y telemetría del vehículo a Plaspy para seguimiento en vivo, reproducción de historial, alertas e informes. Su almacenamiento a bordo y la capacidad de actualización remota lo hacen práctico para despliegues a largo plazo y gestión remota, mientras que la detección de temperatura y las funciones antirrobo amplían su utilidad en procesos logísticos y de seguridad cuando se integra con la plataforma Plaspy.

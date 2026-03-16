@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - RX-9
 
-![RX-9](./)
-
 El RX-9 es un rastreador vehicular 3G resistente, diseñado para una gestión de flotas confiable, recuperación de vehículos y logística con control de temperatura. Construido alrededor de módulos uBlox GNSS y GSM, el equipo ofrece fijaciones de posición rápidas y posicionamiento basado en celular mejorado cuando las condiciones satelitales son desfavorables. Su carcasa impermeable IP67, resistencia al calor hasta 85 °C, antenas integradas y componentes duraderos hacen que el RX-9 sea idóneo para vehículos, remolques, caravanas y maquinaria pesada que operan en entornos exigentes.
 
 Como dispositivo compatible con Plaspy, el RX-9 transmite posición y telemetría a Plaspy para monitoreo en tiempo real, reproducción histórica y alertas. Funciones integradas como activación por ignición y movimiento, identificación de conductor vía I-Button, control de inmovilizador, sensor de temperatura a bordo y alertas configurables se alinean con los flujos de trabajo habituales de flotas y antirrobo en Plaspy. La configuración y las actualizaciones de firmware por aire permiten mantener las unidades desplegadas al día sin necesidad de devolver los vehículos al taller.

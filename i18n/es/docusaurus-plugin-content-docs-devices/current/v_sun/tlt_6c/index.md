@@ -61,4 +61,3 @@ Usted encontrará el TLT-6C especialmente útil cuando se requiere una unidad di
 
 Para saber más sobre cómo Plaspy puede trabajar con rastreadores compatibles como el V-SUN TLT-6C visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales con el fabricante en http://www.v-sun.cc/ antes de tomar decisiones de compra.
 
-<BrandCatalog brand={brand} />

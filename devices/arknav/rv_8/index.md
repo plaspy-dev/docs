@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - RV-8
 
-![RV-8](./)
-
 The RV-8 is a rugged vehicle mounted GPS fleet tracker designed for demanding telematics deployments. Built for continuous operation in fleet, cargo security, and vehicle recovery applications, the RV-8 uses a dual processor architecture and multiple watchdogs to deliver stable location and telemetry reporting. Its design emphasizes durability, electrical protection, and a modular accessory ecosystem that supports integrators and service providers managing large scale vehicle installations.
 
 As a Plaspy compatible device, the RV-8 can feed real time position and vehicle telemetry into Plaspy for mapping, alerts and historical reporting. Compatibility with Plaspy makes the RV-8 a viable option for operators who need reliable, enterprise level tracking and operational oversight without developing custom server integrations. Plaspy users can leverage the RV-8 to extend visibility and automation across dispatch, safety and anti theft workflows.

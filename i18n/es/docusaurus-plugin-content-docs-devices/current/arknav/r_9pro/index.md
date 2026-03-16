@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - R-9PRO
 
-![R-9PRO](./)
-
 El R-9PRO es un rastreador GPS vehicular en tiempo real de ArkNav, diseñado para la gestión de flotas, protección antirrobo y telemetría continua en entornos exigentes. Construido con una carcasa de aluminio resistente y un tamaño compacto, el R-9PRO combina posicionamiento satelital con transmisión de datos móviles y programación over-the-air para ofrecer reportes de ubicación confiables y configuración remota. El dispositivo cuenta con un conjunto completo de entradas y salidas, batería interna de respaldo y una variante impermeable opcional para mayor versatilidad operativa.
 
 Como dispositivo compatible con Plaspy, el R-9PRO puede integrarse a la plataforma de flotas de Plaspy para ofrecer visibilidad centralizada y control operativo. Cuando usted lo conecta a Plaspy, las actualizaciones de ubicación y los eventos configurables del I/O se incorporan a tableros, alertas e informes que ayudan a los operadores de flotas a monitorear vehículos, responder ante incidentes y administrar ajustes remotos sin visitas frecuentes al campo.

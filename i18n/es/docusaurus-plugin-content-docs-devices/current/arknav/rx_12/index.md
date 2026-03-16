@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - RX-12
 
-![RX-12](./)
-
 El RX-12 es un rastreador GPS vehicular compacto y resistente, diseñado para su uso confiable en automóviles, camionetas, camiones, remolques y maquinaria pesada. Integra un módulo celular LTE‑M con retroceso a 2G, un receptor GNSS u‑blox de alta sensibilidad y antenas internas dentro de una carcasa con certificación IP67 y tolerancia a altas temperaturas, lo que garantiza seguimiento y telemetría en tiempo real de manera consistente y minimiza la exposición a manipulaciones y a condiciones ambientales adversas.
 
 Como dispositivo compatible con Plaspy, el RX-12 funciona como un endpoint sencillo para la supervisión de flotas y los procesos de seguridad. El reporte basado en eventos para velocidad, movimiento e ignición, junto con actualizaciones OTA de firmware y configuración y protección de alimentación reforzada, hacen del RX-12 una opción práctica para operadores que desean enviar datos de ubicación y estado confiables a los paneles, alertas e informes de Plaspy con un mantenimiento mínimo.

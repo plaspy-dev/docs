@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - RX-8W
 
-![RX-8W](./)
-
 The RX-8W is a waterproof vehicle tracker from ArkNav built for demanding environments. It combines GNSS positioning and cellular connectivity with built‑in antennas inside an IP67 rated, heatproof enclosure. Designed for vehicle and asset monitoring, the RX-8W offers wide input voltage tolerance, surge protection, optional backup battery capacity, large local location storage, and configurable tracking modes that suit fleet, construction, agricultural, caravan, and refrigerated transport use.
 
 As a Plaspy compatible device, the RX-8W can deliver location fixes and on‑vehicle telemetry into Plaspy for live tracking, history playback, alerts, and reporting. Its onboard storage and remote update capability make it practical for long term deployments and remote management, while temperature sensing and anti‑theft features extend its usefulness across logistics and security workflows when paired with the Plaspy platform.

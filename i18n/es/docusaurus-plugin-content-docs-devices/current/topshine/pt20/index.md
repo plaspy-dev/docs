@@ -60,4 +60,3 @@ El PT20 es una opción práctica para organizaciones que requieren un rastreador
 
 Si desea saber más sobre cómo Plaspy puede ingerir y presentar datos del PT20, visite https://www.plaspy.com para explorar las funcionalidades de la plataforma y las capacidades de reporte. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar, por lo que le recomendamos verificar las especificaciones actuales en el sitio del fabricante https://www.gztopshine.com/ antes de realizar una compra.
 
-<BrandCatalog brand={brand} />

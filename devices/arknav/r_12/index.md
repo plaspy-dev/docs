@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - R-12
 
-![R-12](./)
-
 The R-12 is a compact, IP67 rated LTE-M waterproof GPS vehicle tracker from ArkNav designed for reliable real time tracking across cars, vans, trucks, trailers and heavy machinery. It combines LTE-M connectivity with EGPRS fallback, a u‑Blox GNSS receiver and built in antennas to provide robust positioning and telemetry where fleet management and asset protection are required.
 
 As a Plaspy compatible device, the R-12 integrates into Plaspy's fleet management environment to deliver live location, ignition aware reporting and configurable alerts. Its rugged enclosure, surge protection and support for OTA firmware and configuration updates make the R-12 a practical option for large deployments managed through Plaspy's device and fleet workflows.

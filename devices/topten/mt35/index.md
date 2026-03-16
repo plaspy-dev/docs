@@ -20,8 +20,6 @@ keywords:
 
 # TopTen - MT35
 
-![MT35](./)
-
 The TopTen MT35 is a compact 3G GPS tracker designed for vehicle tracking across a wide range of regions. It supports both 3G WCDMA and 2G networks and is built to provide location reporting via SMS, web, or a mobile app. The MT35 includes practical features such as an onboard data logger capable of storing thousands of waypoints, an odometer function, and multiple alarm types for over-speed, movement, vibration, engine on, and power loss. Its compact and waterproof design makes it suitable for use in motorcycles, cars, and larger vehicles.
 
 As a Plaspy compatible device, the MT35 can feed location and event data into the Plaspy platform to provide centralized visibility and operational oversight. Plaspy can display the MT35's reported physical address and support handling of alarms and historical routes, making the device a useful option for both individual vehicle tracking and fleet monitoring scenarios.

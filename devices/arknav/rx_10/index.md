@@ -20,8 +20,6 @@ keywords:
 
 # ArkNav - RX-10
 
-![RX-10](./)
-
 The RX-10 is a rugged IP67 rated vehicle tracker from ArkNav designed for fleets, trailers and heavy machinery. It combines built-in GNSS and UMTS antennas with 4G LTE connectivity and fallback to older cellular generations to provide continuous real-time tracking, robust telemetry and a compact profile for concealed installation in demanding field conditions.
 
 As a Plaspy compatible device out of the box, the RX-10 can feed location, event and telemetry data directly into Plaspy for centralized monitoring, alerts and reporting. Its modular accessory options such as driver ID, immobilizer relay and multiple 1-Wire thermometers make it suitable for a range of fleet workflows that Plaspy supports, from anti-theft and driver management to temperature sensitive cargo oversight.
