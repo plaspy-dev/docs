@@ -195,11 +195,6 @@ const config = {
         indexName: 'Docs Plaspy',
         contextualSearch: true,
         externalUrlRegex: 'plaspy\\.com|app\\.plaspy\\.com',
-
-        replaceSearchResultPathname: {
-          from: '/docs/', // or as RegExp: /\/docs\//
-          to: '/',
-        },
         searchParameters: {},
         searchPagePath: 'search',
         insights: false,
