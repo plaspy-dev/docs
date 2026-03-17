@@ -12,7 +12,7 @@ export default function Home() {
 
     saveAllFromUrl();
 
-    const fallback = '/docs/welcome_to_help';
+    const fallback = '/docs/welcome_to_help/';
     const urlLang = i18n.locales.find(locale => window.location.pathname.startsWith(`/${locale}/`));
     const savedLang = urlLang || localStorage.getItem('preferred-lang');
 
