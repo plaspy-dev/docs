@@ -81,9 +81,9 @@ W000000,990,099###
 ```
 
 2. Establecer el ID del dispositivo (el comando SMS del CA02 espera 14 dígitos derivados del IMEI)
-- Reemplace {{imei14}} con los primeros 14 dígitos del IMEI del dispositivo. Tenga en cuenta que Plaspy identifica los dispositivos por el IMEI completo de 15 dígitos al emparejar datos entrantes.
+- Reemplace [imei14] con los primeros 14 dígitos del IMEI del dispositivo. Tenga en cuenta que Plaspy identifica los dispositivos por el IMEI completo de 15 dígitos al emparejar datos entrantes.
 ```sms
-W000000,010,{{imei14}}
+W000000,010,[imei14]
 ```
 
 3. Configurar el APN del operador
@@ -117,7 +117,7 @@ W000000,601
 Notas sobre los comandos
 - La contraseña por defecto en estos ejemplos es 000000. Use la contraseña del dispositivo si ha sido cambiada.
 - El orden de los comandos importa para la configuración inicial: primero configure APN y servidor antes de cambiar al modo GPRS.
-- El marcador {{imei14}} indica los primeros 14 dígitos del IMEI que requiere el comando de ID del CA02; Plaspy asociará el dispositivo usando el IMEI completo de 15 dígitos en su emparejamiento.
+- El marcador [imei14] indica los primeros 14 dígitos del IMEI que requiere el comando de ID del CA02; Plaspy asociará el dispositivo usando el IMEI completo de 15 dígitos en su emparejamiento.
 
 ## Observaciones de configuración
 

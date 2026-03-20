@@ -79,28 +79,28 @@ Format note shown in the public content
 TSPRXAB27GHKLMnaicz*U!
 
 Primary setup command
-Replace {{imei}} with the device IMEI and [apn], [apnu], [apnp] with your operator APN settings. Compute the checksum for the characters before the asterisk and place the two-character uppercase hex checksum in the {{checksum}} placeholder.
+Replace [imei] with the device IMEI and [apn], [apnu], [apnp] with your operator APN settings. Compute the checksum for the characters before the asterisk and place the two-character uppercase hex checksum in the [checksum] placeholder.
 
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Optional reboot command
 This command reboots the device to apply changes. Compute and insert the checksum for the command portion before the asterisk.
 
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Explicación del checksum
-- El guion público muestra que el checksum se calcula haciendo XOR de los códigos de carácter de la cadena de comando hasta, pero sin incluir, el asterisco; luego se convierte el resultado a un valor hexadecimal de dos dígitos en mayúsculas. Inserte ese valor hex en el marcador correspondiente, por ejemplo {{checksum}}.
+- El guion público muestra que el checksum se calcula haciendo XOR de los códigos de carácter de la cadena de comando hasta, pero sin incluir, el asterisco; luego se convierte el resultado a un valor hexadecimal de dos dígitos en mayúsculas. Inserte ese valor hex en el marcador correspondiente, por ejemplo [checksum].
 
 Descripción breve de los marcadores
-- {{imei}} — número IMEI del dispositivo usado para dirigir el SMS al rastreador
+- [imei] — número IMEI del dispositivo usado para dirigir el SMS al rastreador
 - [apn] — Nombre del Punto de Acceso (APN) del operador de la SIM
 - [apnu] — Nombre de usuario del APN si el operador lo requiere
 - [apnp] — Contraseña del APN si el operador lo requiere
-- {{checksum}} y {{checksumreeboot}} — valores de checksum en hexadecimal de dos caracteres en mayúsculas, computados a partir del texto del comando antes del asterisco
+- [checksum] y [checksumreeboot] — valores de checksum en hexadecimal de dos caracteres en mayúsculas, computados a partir del texto del comando antes del asterisco
 
 ## Notas de configuración
 

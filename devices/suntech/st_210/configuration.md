@@ -72,12 +72,12 @@ The ST 210 is configured to report positioning and event data to the shared Plas
 
 ## Example Configuration Commands
 
-The ST 210 supports SMS-based configuration. The public command templates below are provided in the order they are typically applied. Replace placeholders before sending as SMS. The device ID placeholder {{device_id}} should be calculated from the IMEI as described above. Keep [apn], [apnu], and [apnp] as placeholders for your operator APN name, APN username, and APN password.
+The ST 210 supports SMS-based configuration. The public command templates below are provided in the order they are typically applied. Replace placeholders before sending as SMS. The device ID placeholder [device_id] should be calculated from the IMEI as described above. Keep [apn], [apnu], and [apnp] as placeholders for your operator APN name, APN username, and APN password.
 
 1) Set the operator APN and GPRS server (example template)
 
 ```
-SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Purpose: Configure the operator APN and point the device to the Plaspy server IP and port.
@@ -86,7 +86,7 @@ SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 2) Set the reporting interval to 60 seconds
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Purpose: Configure periodic reporting intervals. The example sets the reporting interval to 60 seconds for the relevant modes in the ST 210 command format.
@@ -94,13 +94,13 @@ SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
 3) Verify settings with a preset query
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 - Purpose: Request current preset A configuration from the device to confirm settings.
 
 Important placeholder explanations:
-- {{device_id}} — the 6-digit device ID derived from IMEI as described above.
+- [device_id] — the 6-digit device ID derived from IMEI as described above.
 - [apn] — your mobile operator APN string.
 - [apnu] — APN username if required by the operator.
 - [apnp] — APN password if required by the operator.

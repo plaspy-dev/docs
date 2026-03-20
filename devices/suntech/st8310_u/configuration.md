@@ -76,7 +76,7 @@ When configured, the ST8310/U sends GNSS positions and device events to the shar
 The ST8310/U manufacturer provides SMS command templates to set the operator APN, the GPRS server, and the reporting interval. These templates use a device ID derived from the IMEI. The device ID is the last 6 digits of the IMEI excluding the final IMEI check digit. For example, if the IMEI is shown as 123456789012345 the device ID in these templates would be 901234.
 
 Replace the placeholders as follows:
-- Replace {{device_id}} with the six digit ID derived from the IMEI as described above
+- Replace [device_id] with the six digit ID derived from the IMEI as described above
 - Replace [apn] with your operator APN
 - Replace [apnu] with your APN username if required by the operator
 - Replace [apnp] with your APN password if required by the operator
@@ -84,32 +84,32 @@ Replace the placeholders as follows:
 1) Set the operator APN and GPRS server to point to Plaspy. Use either the domain or the IP and include the Plaspy port 8888. Example SMS template:
 
 ```
-SA200NTW;{{device_id}};02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Or if your device accepts the domain instead of the IP:
 
 ```
-SA200NTW;{{device_id}};02;0;[apn];[apnu];[apnp];d.plaspy.com;8888;;;;
+SA200NTW;[device_id];02;0;[apn];[apnu];[apnp];d.plaspy.com;8888;;;;
 ```
 
 2) Set the reporting interval to 60 seconds. Example SMS template:
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Check current settings with the verification command:
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Notes about placeholders:
 - [apn] is your mobile operator APN string
 - [apnu] is the APN username if required, otherwise leave empty
 - [apnp] is the APN password if required, otherwise leave empty
-- {{device_id}} must be calculated from the device IMEI per the example above
+- [device_id] must be calculated from the device IMEI per the example above
 
 If your installer tool or firmware requires a different field order or uses domain names for GPRS server configuration, apply the domain d.plaspy.com or the IP 54.85.159.138 and always set port 8888.
 

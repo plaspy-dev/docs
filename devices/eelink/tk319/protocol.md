@@ -4,77 +4,77 @@ id: tk319-protocol
 sidebar_label: Protocol
 title: EElink - TK319 Protocol
 sidebar_class_name: menu_item_tracker
-description: Public protocol overview for EElink TK319 GPS tracker and how it communicates with Plaspy for fleet tracking and integration
+description: Public protocol information for integrating the EElink TK319 GPS tracker with Plaspy using the shared server endpoint
 keywords:
   - EElink TK319 protocol
   - EElink TK319 GPS protocol
-  - EElink TK319 communication protocol
+  - EElink TK319 Plaspy compatibility
   - EElink TK319 tracking protocol
-  - EElink tracker protocol
-  - TK319 Plaspy compatibility
-  - Plaspy device integration
-  - TK319 fleet tracking
-  - EElink GPS integration
-  - TK319 firmware compatibility
+  - EElink TK319 communication
+  - EElink GPS tracker protocol
+  - EElink TK319 integration
+  - Plaspy device protocol
+  - fleet tracking EElink TK319
+  - vehicle tracker TK319
 ---
 
 # EElink - TK319 Protocol
 
-This page covers the public protocol context for using the EElink TK319 series tracker with Plaspy. It describes how the device communicates with Plaspy at a high level, what connection settings to check, and what aspects of the TK319 design and firmware commonly affect reporting and remote configuration. The intent is to provide practical, non sensitive information to help administrators and integrators route device data into Plaspy.
+This page describes the public protocol context for using the EElink TK319 tracker with the Plaspy platform. It focuses on how the device reports position and status to Plaspy using publicly available connection facts and how that communication fits into typical fleet and asset tracking workflows. The content is intended to help administrators and integrators understand the communication relationship without exposing proprietary or sensitive protocol internals.
 
-The TK319-H is a 3G GPS tracker with GPS and LBS locating, ACC detection, optional temperature input, relay control, and remote configuration options. Plaspy uses shared connection settings across supported devices and automatically detects the tracker protocol, while exact protocol behavior can vary by firmware version, hardware revision, and how the manufacturer has implemented remote commands and reporting.
+The EElink TK319 is a 3G network GPS tracker offering GPS and LBS positioning, AGPS assistance, ACC detection, relay control, optional temperature sensing, and remote configuration options. Plaspy uses shared connection settings across supported devices and automatically detects the tracker protocol, while exact protocol behavior can vary with firmware version, hardware revision, and manufacturer implementation. That variability is why it is important to verify device configuration against current manufacturer documentation.
 
 ## Protocol Overview
 
-The protocol used by the TK319 defines how the tracker identifies itself and delivers position, status, and sensor data to a server like Plaspy. In public terms, the protocol is responsible for session establishment, periodic reporting, alarm messages, and the ability to receive configuration or control commands when supported by the device and network.
+The protocol used by the TK319 defines how location, status, alarm, and I/O data are encoded and sent from the tracker to a remote server so that Plaspy can ingest and display meaningful telemetry. This page does not reproduce private packet formats but explains the role of the protocol in the end to end integration between the device and Plaspy.
 
-- Enables the tracker to report GPS and LBS location, speed, and status updates to a remote endpoint
-- Carries device identifiers and state information so Plaspy can associate messages with an asset
-- Supports periodic and event driven uploads such as movement, GEO fence, ACC events, and low battery warnings
-- Allows remote configuration when the device firmware exposes server side settings and command responses
-- Bridges the tracker hardware capabilities like relay control and temperature sensor reporting into actionable platform events
+- Enables the TK319 to report GPS and LBS locations plus supporting telemetry such as ACC state, battery status, and optional temperature readings.
+- Carries periodic position updates for real time tracking and supports alarm or event driven reports for security and safety use cases.
+- Provides a way for remote configuration to be applied via server commands or SMS instructions when supported by the device firmware.
+- Allows the device to identify itself so Plaspy can associate incoming data with the correct asset record.
+- Acts as the transportable payload that Plaspy automatically interprets once received at the shared Plaspy endpoint.
 
 ## How Plaspy Detects the Protocol
 
-Plaspy accepts incoming tracker data at a single shared endpoint and determines the device protocol automatically when a properly formatted message arrives. This means the platform typically does not require manual protocol selection by the user as long as the tracker is configured to report to the Plaspy endpoint.
+Plaspy receives incoming data at a single, shared endpoint and automatically determines which tracker protocol is being used so administrators rarely need to select a protocol manually. Proper device configuration to point to the Plaspy endpoint is the typical requirement for automatic detection and onboarding.
 
-- Plaspy server domain for device reporting is d.plaspy.com
-- Plaspy server IP address is 54.85.159.138
-- Plaspy uses port 8888 for device connections and all devices in Plaspy use the same port
-- Plaspy automatically detects the tracker protocol when messages arrive at the shared endpoint
-- If a device is configured to report to d.plaspy.com on the correct transport and port, manual protocol selection in Plaspy is usually not necessary
+- Plaspy listens on the common server endpoint d.plaspy.com and also accepts data addressed to 54.85.159.138.
+- All devices supported by Plaspy use the same port for communication which simplifies device configuration.
+- The common port used by Plaspy is 8888 so trackers should be configured to report to that port.
+- Plaspy supports automatic protocol detection so users usually do not need to choose a protocol in the Plaspy interface if the tracker reports to the Plaspy endpoint.
+- Detection and successful parsing do depend on the device actually sending recognizable, manufacturer consistent reports as implemented in its firmware.
 
 ## Transport and Connection Context
 
-Connection transport and destination settings are fundamental to establishing reliable communication between the TK319 and Plaspy. The tracker can be configured to use different transport modes depending on the firmware and user settings; confirm the chosen transport and server address before commissioning devices.
+The TK319 can be configured to use either UDP or TCP depending on device capabilities and installation preferences. For integration with Plaspy, the important configuration targets are the shared hostname and IP and the single port Plaspy uses for all devices.
 
-- The TK319 may be configured to use UDP or TCP on port 8888 depending on device support and configuration
-- Devices may be pointed to d.plaspy.com or directly to 54.85.159.138 as the Plaspy endpoint
-- All devices in Plaspy use the same port which simplifies server and firewall configuration
-- Choose UDP for lower overhead reporting or TCP where session reliability is preferred and the device firmware supports it
-- Confirm APN and mobile network settings to ensure the tracker has data connectivity to reach the Plaspy endpoint
+- Devices may be configured to send to the hostname d.plaspy.com or the IP 54.85.159.138.
+- Transport can be UDP or TCP depending on the device configuration and network considerations.
+- Plaspy receives tracker reports on port 8888 for all supported devices.
+- Choosing UDP or TCP affects reliability characteristics such as retransmission and connection overhead but does not change the logical data reported by the tracker.
+- Ensure the vehicle or site network allows outbound traffic to the Plaspy endpoint and to port 8888 for the chosen transport type.
 
 ## Protocol Compatibility Notes
 
-- Firmware versions and regional hardware revisions can change how specific messages are formatted and which features are supported
-- Some TK319 units may expose remote configuration by server, SMS, or a combination; confirm which control paths are enabled
-- Transport selection (UDP versus TCP) is configurable on many units and affects delivery and reconnection behavior
-- Optional sensors like temperature or external GPIO inputs require firmware support to report through the protocol
-- Manufacturer side customizations or OEM variants may alter identifiers or command sets relative to generic reference documents
-- Validate compatibility against up to date EElink documentation and device firmware release notes before large scale deployment
+- Firmware revisions can change the exact fields or message timing a TK319 sends; verify the device firmware version if you observe unexpected behavior.
+- Hardware revisions or variant SKUs may implement slightly different reporting features such as additional I O pins or sensor inputs.
+- Manufacturer side settings and remote configuration options can alter how frequently the tracker reports or which events trigger immediate uploads.
+- Transport selection between UDP and TCP should match what the device supports and what the network environment prefers.
+- If using optional sensors such as the temperature input or relay control, confirm how those channels are reported by your device firmware.
+- Always validate critical deployment details against EElink documentation and release notes for the specific TK319 unit in use.
 
 ## Why Protocol Understanding Matters
 
-Understanding the communication protocol helps ensure reliable tracking, efficient troubleshooting, and correct mapping of device telemetry into Plaspy. Knowing what the tracker can send and how it connects reduces integration time and improves operational visibility.
+Understanding how the tracker communicates helps with reliable setup, faster troubleshooting, and predictable long term operation on Plaspy. Even with automatic detection, knowing the communication context reduces ambiguity during onboarding and when diagnosing connectivity or data quality issues.
 
-- Helps verify the device is pointing to the correct Plaspy endpoint and transport
-- Assists in diagnosing connectivity issues such as firewall, APN, or incorrect server settings
-- Clarifies which sensor and alarm data the TK319 can deliver to Plaspy for automations and alerts
-- Supports decisions about transport selection and server side expectations for message timing
-- Aids in planning firmware upgrade or replacement strategies to maintain long term compatibility
+- Ensures the device is pointed to the correct Plaspy endpoint and port so data flows reliably.
+- Helps diagnose transport related issues such as blocked ports, UDP packet loss, or TCP session failures.
+- Clarifies the relationship between firmware settings and the telemetry Plaspy receives so expected fields appear in the platform.
+- Aids in confirming feature support like ACC detection, relay control, and temperature reporting for operational use cases.
+- Reduces onboarding time by aligning device configuration with Plaspy expectations before deployment.
 
 ## Why Use Plaspy with This Protocol
 
-Using the EElink TK319 with Plaspy gives organizations a practical way to collect position, sensor, and status data from vehicles and assets in real time. Plaspy’s shared endpoint model and automatic protocol detection simplify onboarding, allowing devices to report to a single address while the platform classifies and processes incoming messages.
+Using the EElink TK319 with Plaspy provides organizations a straightforward path to real time location, status alerts, and fleet level monitoring while leveraging Plaspy s automatic protocol detection and a single connection endpoint. The TK319 s mix of GPS and LBS positioning, ACC input, relay control, and optional sensors makes it suitable for many vehicle and asset tracking deployments that Plaspy supports.
 
-Plaspy is designed to accept device connections at d.plaspy.com or 54.85.159.138 on port 8888 and handle common tracker reporting patterns so fleets can focus on operations rather than low level protocol routing. To learn more about Plaspy and how it works with a broad range of devices, visit https://www.plaspy.com. Please verify the latest device specific protocol details, firmware behavior, and manufacturer guidance at EElink’s official site https://www.eelink.com.cn/ as implementations and firmware may change over time.
+To learn more about Plaspy and how the platform integrates with devices like the EElink TK319, visit https://www.plaspy.com. For the most current and device specific protocol details, firmware notes, and configuration instructions, verify information on the manufacturer website https://www.eelink.com.cn/ as protocol support and firmware behavior can change over time.

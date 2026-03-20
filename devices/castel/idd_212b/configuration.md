@@ -84,17 +84,17 @@ The following commands are taken from the public Castel configuration format. Th
 - To set APN and server IP and port use the set gprs command. Replace the placeholders with your APN values and the device SMS secret key:
 
 ```
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - To check the current GPRS and server settings on the device use the get gprs command:
 
 ```
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Notes on placeholders and usage:
-- {{SecretKey}} is the SMS password for the device. By default it is the last six ASCII characters of the device ID unless changed by the installer.
+- [SecretKey] is the SMS password for the device. By default it is the last six ASCII characters of the device ID unless changed by the installer.
 - [apn] is the mobile network APN string provided by the SIM operator.
 - [apnu] is the APN username when required by the network. If not required, leave it blank.
 - [apnp] is the APN password when required by the network. If not required, leave it blank.

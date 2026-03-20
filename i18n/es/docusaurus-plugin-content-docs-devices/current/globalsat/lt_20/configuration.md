@@ -45,7 +45,7 @@ El objetivo del proceso de configuración es preparar el LT-20 para que pueda co
 
 ## Requisitos habituales antes de configurar
 
-- Acceso al número IMEI del dispositivo para completar el marcador {{imei}} en los comandos de configuración
+- Acceso al número IMEI del dispositivo para completar el marcador [imei] en los comandos de configuración
 - Un método para enviar comandos de configuración al rastreador, como SMS o la herramienta del fabricante si está disponible
 - Datos APN válidos para la SIM usada en el dispositivo cuando se requiera configuración celular; los ejemplos incluyen marcadores de posición
 - Dispositivo con batería cargada o fuente de energía suficiente durante la configuración y verificación
@@ -81,36 +81,36 @@ El contenido público de configuración del LT-20 incluye plantillas de comandos
 
 - Plantilla de comando de configuración
   - Propósito: configurar APN, IP y puerto del servidor Plaspy, y banderas básicas de reporte
-  - Reemplace {{imei}} por el IMEI del dispositivo
+  - Reemplace [imei] por el IMEI del dispositivo
   - Reemplace [apn], [apnu] y [apnp] con el nombre APN del operador, usuario y contraseña según corresponda
-  - Calcule {{checksum}} como se describe abajo e insértelo en forma hexadecial mayúscula
+  - Calcule [checksum] como se describe abajo e insértelo en forma hexadecial mayúscula
 
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 - Plantilla de comando de reinicio
   - Propósito: reiniciar el dispositivo para aplicar la configuración. Use solo si se requiere o recomienda reiniciar.
 
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Cálculo del checksum
 - El contenido público incluye un cálculo de checksum que aplica XOR a todos los caracteres de la cadena del comando hasta, pero sin incluir, el carácter asterisco
-- Convierta el resultado XOR a una cadena hexadecimal de dos dígitos en mayúsculas y use ese valor como {{checksum}} o {{checksumreeboot}}
+- Convierta el resultado XOR a una cadena hexadecimal de dos dígitos en mayúsculas y use ese valor como [checksum] o [checksumreeboot]
 - Pasos para calcular el checksum en breve
-  1. Tome la porción del texto del comando antes del asterisco, por ejemplo GSS,{{imei}},3,0,...,A1=1
+  1. Tome la porción del texto del comando antes del asterisco, por ejemplo GSS,[imei],3,0,...,A1=1
   2. Calcule el XOR bit a bit de los códigos de carácter de cada carácter en esa cadena
   3. Convierta el valor XOR final a un valor hexadecimal de dos caracteres en mayúsculas, rellene con cero a la izquierda si es necesario
   4. Coloque ese valor hex después del asterisco y antes del signo de exclamación final
 
 Explicación de marcadores de posición
-- {{imei}} número IMEI del dispositivo para identificar el rastreador específico
+- [imei] número IMEI del dispositivo para identificar el rastreador específico
 - [apn] nombre APN del operador necesario para datos celulares
 - [apnu] usuario del APN si aplica
 - [apnp] contraseña del APN si aplica
-- {{checksum}} y {{checksumreeboot}} calculados según lo descrito arriba
+- [checksum] y [checksumreeboot] calculados según lo descrito arriba
 
 ## Notas de configuración
 

@@ -86,7 +86,7 @@ Note: This resets the device to factory defaults. Use only if you need to restor
 ```text
 000000GID<14-digit-identifier>
 ```
-Explanation: Use the last 14 digits of the IMEI as the identifier if you follow the common Plaspy convention. Replace \\<14-digit-identifier> with the actual 14 digits.
+Explanation: Use the last 14 digits of the IMEI as the identifier if you follow the common Plaspy convention. Replace \<14-digit-identifier> with the actual 14 digits.
 
 - Set the APN for the operator
 ```text

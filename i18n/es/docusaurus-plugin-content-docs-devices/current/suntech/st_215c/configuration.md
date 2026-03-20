@@ -76,7 +76,7 @@ Al configurarse para Plaspy, el ST 215C usa su conexión GPRS para transmitir te
 Las siguientes plantillas públicas de comandos SMS se derivan de ejemplos proporcionados por el fabricante. El ST 215C utiliza un ID de dispositivo que se obtiene de los dígitos 9 a 14 del IMEI (es decir, los seis dígitos inmediatamente antes del último dígito del IMEI). Por ejemplo, si el IMEI es 12345678 901234 5 entonces el ID del dispositivo es 901234.
 
 Notas sobre los marcadores usados abajo:
-- {{device_id}} = ID de dispositivo de seis dígitos derivado de los dígitos 9 a 14 del IMEI como se describió arriba.
+- [device_id] = ID de dispositivo de seis dígitos derivado de los dígitos 9 a 14 del IMEI como se describió arriba.
 - [apn] = nombre del APN de la red móvil para el operador de la SIM.
 - [apnu] = usuario del APN si lo requiere el operador, de lo contrario dejar vacío.
 - [apnp] = contraseña del APN si lo requiere el operador, de lo contrario dejar vacío.
@@ -86,11 +86,11 @@ Notas sobre los marcadores usados abajo:
 - Plantilla (enviar como SMS al número del dispositivo):
 
 ```
-SA200NTW;{{device_id}};02;<APN_FLAG>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;<APN_FLAG>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Explicación
-  - Reemplace {{device_id}} con el ID de seis dígitos del IMEI.
+  - Reemplace [device_id] con el ID de seis dígitos del IMEI.
   - Reemplace [apn], [apnu] y [apnp] con el APN del operador y las credenciales opcionales.
   - Ajuste \<APN_FLAG> a 1 cuando proporcione usuario o contraseña, de lo contrario ponga 0.
   - El comando apunta el dispositivo a la IP del servidor Plaspy 54.85.159.138 y al puerto 8888. Puede sustituir d.plaspy.com en herramientas del dispositivo que acepten nombres de host en lugar de la IP.
@@ -99,7 +99,7 @@ SA200NTW;{{device_id}};02;<APN_FLAG>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 - Plantilla:
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Explicación
@@ -109,7 +109,7 @@ SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
 - Plantilla:
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 - Explicación

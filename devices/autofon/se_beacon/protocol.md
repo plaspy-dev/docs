@@ -4,77 +4,77 @@ id: se_beacon-protocol
 sidebar_label: Protocol
 title: AutoFon - SE+ Beacon Protocol
 sidebar_class_name: menu_item_tracker
-description: Public protocol overview for the AutoFon SE+ Beacon and Plaspy communication for GPS tracking and telemetry
+description: Public protocol overview for AutoFon SE+ Beacon and how it communicates with Plaspy for reliable tracking and event reporting
 keywords:
-  - AutoFon SE+ Beacon protocol
-  - AutoFon SE+ Beacon GPS protocol
-  - AutoFon SE+ Beacon communication protocol
-  - AutoFon SE+ Beacon tracking protocol
-  - Plaspy tracker compatibility
-  - AutoFon GPS tracker Plaspy
-  - SE+ Beacon GPRS SMS
-  - vehicle tracking protocol
-  - asset tracking protocol
-  - GPS GLONASS tracker
+  - AutoFon SE Beacon protocol
+  - AutoFon SE Beacon GPS protocol
+  - AutoFon SE Beacon Plaspy
+  - SE Beacon tracking protocol
+  - AutoFon GPS tracker protocol
+  - SE Beacon communication
+  - AutoFon GPRS tracker
+  - covert vehicle tracking
+  - long battery life tracker
+  - SE Beacon compatibility
 ---
 
 # AutoFon - SE+ Beacon Protocol
 
-This page describes the public protocol context and integration considerations for using the AutoFon SE+ Beacon with Plaspy. It focuses on the communication and connection context that matters when the SE+ Beacon reports positions and events to the Plaspy platform, without exposing private implementation details or proprietary packet structures.
+This page provides a public, non sensitive overview of the communication context used by the AutoFon SE+ Beacon when integrated with the Plaspy platform. It is intended for technical users, integrators, and fleet administrators who want to understand how the tracker reports position and event data to Plaspy in general terms without exposing device internals.
 
-The SE+ Beacon is a compact, long life GPS tracker using GPS and GLONASS positioning with GPRS reporting and SMS fallback. Plaspy uses shared connection settings across supported devices and automatically detects the tracker protocol. Plaspy’s public server endpoint is reachable at d.plaspy.com and at IP address 54.85.159.138 on port 8888. The device may be configured using UDP or TCP on port 8888. All devices in Plaspy use the same port, but exact protocol behavior can vary with firmware, hardware revision, or manufacturer configuration.
+Plaspy uses shared connection settings across supported devices and automatically detects the tracker protocol when the device is correctly configured to report to the Plaspy endpoint. Exact protocol behavior for the SE+ Beacon can vary by firmware version, hardware revision, and manufacturer implementation, so this page focuses on the practical aspects of how the device communicates rather than low level packet formats.
 
 ## Protocol Overview
 
-The device protocol governs how the SE+ Beacon identifies itself, reports GNSS positions, and delivers event alerts to a remote endpoint such as Plaspy. In practical terms, the protocol is the set of messages the tracker sends over GPRS or SMS and the expected responses or heartbeats used to maintain a reliable connection.
+The SE+ Beacon communicates GNSS positions and event telemetry to a remote server so Plaspy can display live location, history, and alerts. The device uses mobile network data (GPRS) as the primary reporting channel and SMS as a fallback for alerts or emergency messages, while a sizeable onboard buffer preserves unsent messages during connectivity outages.
 
-- Enables the SE+ Beacon to send periodic position updates and event telemetry to Plaspy for mapping and alerting.
-- Carries motion, tilt, impact, SOS, and alarm input events so Plaspy can generate timely notifications and history.
-- Supports heartbeat or life signal messages that help Plaspy track device availability and battery or offline conditions.
-- Uses GPRS for primary real time reporting with SMS as a fallback channel for alerts or when data connectivity is unavailable.
-- Works together with the device’s offline buffer strategy so stored data can be forwarded to Plaspy once connectivity is restored.
+- The tracker protocol defines how the device packages position fixes, motion events, SOS presses, and alarm inputs for transmission to a backend server.
+- Protocol messages enable the SE+ Beacon to identify itself to the server, report device status, and deliver event metadata that Plaspy can map to dashboard events.
+- Heartbeat or life signal messages are part of the reporting cycle to confirm the device is operational and reachable by Plaspy.
+- SMS fallback and a large onboard black box buffer help ensure event delivery when GPRS connectivity is intermittent.
+- Remote firmware update notifications are exchanged over GPRS to keep devices in sync with manufacturer revisions and operational policies.
 
 ## How Plaspy Detects the Protocol
 
-Plaspy is designed to accept incoming connections on a single, shared endpoint and automatically determine which tracker protocol a device is using. When an SE+ Beacon is configured to report to Plaspy, the user typically does not need to manually select a protocol inside Plaspy.
+Plaspy listens on a shared endpoint and port for incoming tracker connections and automatically determines the appropriate protocol when a device reports correctly. This automatic detection reduces the need for manual protocol selection inside Plaspy for most properly configured SE+ Beacon deployments.
 
-- Plaspy listens on the public endpoint d.plaspy.com and the public IP 54.85.159.138 on port 8888.
-- Plaspy automatically detects the tracker protocol as the device begins reporting, simplifying setup for integrators.
-- Users generally only need to configure the SE+ Beacon to point to d.plaspy.com or 54.85.159.138 and use port 8888.
-- Because Plaspy uses the same port for all supported devices, administrators do not need multiple ports per device type.
-- Correct device configuration and network routing are the usual prerequisites for automatic detection to work reliably.
+- Plaspy server domain is d.plaspy.com and Plaspy server IP is 54.85.159.138 using the common Plaspy port 8888.
+- All devices in Plaspy use the same port so you do not need distinct ports per model.
+- Plaspy automatically detects the tracker protocol once the device connects to the Plaspy endpoint and starts sending data.
+- With typical SE+ Beacon setup, you only need to point the device to the Plaspy endpoint and choose the appropriate transport (TCP or UDP) if the device requires that configuration.
+- If a device does not appear online, check device reporting settings, SIM data service, and whether the device is pointed to the domain or IP above.
 
 ## Transport and Connection Context
 
-Connection context describes how the device reaches Plaspy rather than the internal structure of messages. The SE+ Beacon can use GPRS to establish TCP or UDP connections to the Plaspy endpoint, and SMS is used when packet data is not available or as a fallback for alerts.
+Connection context describes how the SE+ Beacon reaches Plaspy rather than the internal structure of messages. The device can report over mobile data or use SMS as an alternative, and transport selection is a configuration choice available on the device.
 
-- The device may be configured using UDP or TCP on port 8888 depending on device support and operator configuration.
-- Point the tracker to d.plaspy.com or to 54.85.159.138 and use port 8888 for both transport options.
-- All devices in Plaspy use the same port, which streamlines server-side routing and simplifies device setup.
-- GPRS is the normal transport for real time reporting; SMS is a secondary channel for alerts or emergency reporting when data is not available.
-- Ensure the device SIM and mobile network allow GPRS sessions and that APN settings match the mobile provider requirements for reliable data delivery.
+- The device may be configured using UDP or TCP on port 8888 depending on device support and configuration.
+- Devices may point to d.plaspy.com or 54.85.159.138 as the Plaspy server endpoint.
+- Plaspy accepts connections on the shared port 8888 for all supported trackers.
+- Primary reporting is over GPRS for real time tracking; SMS is used as fallback or for specific alerting modes.
+- Network reliability, APN settings, and SIM provisioning are common causes of connection issues and should be validated during setup.
 
 ## Protocol Compatibility Notes
 
-- Firmware differences can change message timing, available event types, and power saving behavior; check firmware version when validating behavior.
-- Hardware revisions such as the v.6.x platform and components like the SIM800H GSM module and SIM68M GNSS module can influence supported features and radio performance.
-- Transport selection (UDP vs TCP) may affect battery use and responsiveness; choose the transport best suited to your deployment and confirm with device settings.
-- SMS fallback behavior and message formats may vary; validate SMS-based alerting parameters if you rely on SMS for critical notifications.
-- Large offline buffer capacity and remote firmware update capability improve resilience but depend on the specific firmware build and configuration.
-- Always cross check compatibility points against the manufacturer's documentation and release notes for device specific behavior.
+- The SE+ Beacon is described as compatible with Plaspy, but behavior can vary across firmware builds and hardware revisions.
+- Firmware updates from the manufacturer can add features, change message timing, or modify optional fields that affect parsing and device behavior.
+- Some SE+ Beacon units may default to UDP while others prefer TCP; confirm transport configuration on the device to match Plaspy expectations.
+- SMS fallback modes are useful for alerts but are not a substitute for continuous GPRS reporting when live tracking is required.
+- Validate compatibility against the manufacturer documentation and any release notes for firmware to avoid unexpected behavior in production.
+- Large onboard buffering and remote FOTA capability improve resilience, but buffer configuration and heartbeat intervals affect how quickly Plaspy receives delayed data.
 
 ## Why Protocol Understanding Matters
 
-A practical understanding of the SE+ Beacon communication protocol helps ensure reliable setup, accurate event mapping, and efficient troubleshooting when used with Plaspy. Knowing what the tracker will report and how it reaches the server reduces integration time and supports predictable operational performance.
+Understanding the communication protocol helps ensure a smooth setup, reliable event delivery, and faster troubleshooting when using the SE+ Beacon with Plaspy. Knowing the roles of transport, endpoints, and device reporting behavior reduces guesswork when addressing connectivity or data quality issues.
 
-- Helps verify that the device is pointed at the correct Plaspy endpoint and transport (d.plaspy.com or 54.85.159.138 on port 8888).
-- Guides decisions about heartbeat intervals, battery life trade offs, and offline buffering to match operational needs.
-- Simplifies troubleshooting by clarifying whether an issue is network, transport, or device configuration related.
-- Enables correct interpretation of event types such as motion, tilt, impact, and SOS in Plaspy dashboards and alerts.
-- Supports planning for remote firmware updates and managing firmware rollouts across a fleet.
+- Confirming transport (UDP versus TCP) and endpoint settings prevents basic configuration errors.
+- Awareness of heartbeat and buffering behavior helps set expectations for delayed or batched location uploads.
+- Knowing which events the device reports (motion, impact, SOS, alarm inputs) enables correct alert mapping inside Plaspy.
+- Recognizing the role of SMS as a fallback clarifies when alerts may arrive by SMS rather than the live platform.
+- Tracking firmware revision and changelogs supports predictable operations and coordinated updates.
 
 ## Why Use Plaspy with This Protocol
 
-Using the AutoFon SE+ Beacon with Plaspy provides a straightforward way to convert compact, battery optimized position and event telemetry into map visualization, alerts, and historical playback. The SE+ Beacon’s GPRS primary reporting and SMS fallback, combined with its sensor-driven alerts and large offline buffer, make it suitable for discreet vehicle and asset tracking scenarios where long battery life and resilience matter.
+Using the AutoFon SE+ Beacon with Plaspy provides a lightweight, battery efficient option for long term, low profile tracking where discreet installation and long battery life are priorities. Plaspy ingests GNSS and event telemetry reported over GPRS and exposes those signals on live maps, alerting workflows, and historical playback so teams can monitor assets and respond to incidents.
 
-If you are evaluating the SE+ Beacon for an operational deployment, Plaspy’s automatic protocol detection and unified port approach reduce configuration overhead and help get devices reporting quickly. To learn more about how Plaspy works and to review platform capabilities, visit https://www.plaspy.com. For the most current device specifications, firmware details, and manufacturer guidance for the AutoFon SE+ Beacon, verify information at the AutoFon website https://www.autofon.ru/ because protocol support and firmware behavior can change over time.
+If you need more information about integrating the SE+ Beacon with Plaspy or about general deployment best practices, learn more about Plaspy at https://www.plaspy.com. Protocol support, firmware behavior, and device implementation details can change over time; please verify the latest device specific documentation and firmware notes on the manufacturer site https://www.autofon.ru/ before large scale deployments.

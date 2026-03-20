@@ -84,9 +84,9 @@ The PT-100 commonly accepts SMS commands for basic configuration. The examples b
 ```text
 000000DFT
 ```
-- Set the 14-digit device identifier used with Plaspy (commonly the last 14 digits of the IMEI). Replace {{imei_last14}} with those digits.
+- Set the 14-digit device identifier used with Plaspy (commonly the last 14 digits of the IMEI). Replace [imei_last14] with those digits.
 ```text
-000000GID{{imei_last14}}
+000000GID[imei_last14]
 ```
 - Set the APN for your mobile operator. Replace [apn] with your operator APN. If your operator requires username and password include [apnu] and [apnp] separated by commas:
 ```text
@@ -106,7 +106,7 @@ or with optional username and password
 ```
 
 Notes on placeholders:
-- {{imei_last14}} means the 14-digit identifier you choose, typically the last 14 digits of the device IMEI.
+- [imei_last14] means the 14-digit identifier you choose, typically the last 14 digits of the device IMEI.
 - [apn] is the operator APN string. [apnu] and [apnp] are optional APN username and password fields when required by the operator.
 
 If the PT-100 accepts a hostname instead of IP for the SVR command, you may use d.plaspy.com in place of 54.85.159.138 where supported by firmware. Use the IP form above if the device requires numeric addresses.

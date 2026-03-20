@@ -76,26 +76,26 @@ El ST4305 se configura para enviar su ubicación y telemetría a la plataforma P
 
 ## Ejemplos de comandos de configuración
 
-La guía pública del ST4305 proporciona plantillas de comandos SMS para la configuración de red y reporte. El fabricante usa un ID de dispositivo derivado del IMEI (los seis dígitos previos al último dígito del IMEI). Los marcadores [apn], [apnu] y [apnp] deben sustituirse por el APN, usuario y contraseña del operador cuando sea necesario. Reemplace {{device_id}} con el ID de seis dígitos derivado del IMEI como se describió arriba.
+La guía pública del ST4305 proporciona plantillas de comandos SMS para la configuración de red y reporte. El fabricante usa un ID de dispositivo derivado del IMEI (los seis dígitos previos al último dígito del IMEI). Los marcadores [apn], [apnu] y [apnp] deben sustituirse por el APN, usuario y contraseña del operador cuando sea necesario. Reemplace [device_id] con el ID de seis dígitos derivado del IMEI como se describió arriba.
 
 1) Configurar el APN del operador y el servidor GPRS (incluye la IP y el puerto de Plaspy)
 ```text
-SA200NTW;{{device_id}};02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Notas:  
-  - {{device_id}} es el ID derivado del IMEI (los últimos 6 dígitos excluyendo el dígito final del IMEI).  
+  - [device_id] es el ID derivado del IMEI (los últimos 6 dígitos excluyendo el dígito final del IMEI).  
   - Los campos de APN [apn], [apnu] y [apnp] deben rellenarse con los valores de su operador.  
   - El comando incluye la IP del servidor Plaspy 54.85.159.138 y el puerto 8888. Puede sustituir d.plaspy.com en lugar de la IP si el dispositivo acepta nombres de dominio.
 
 2) Establecer el intervalo de reporte a 60 segundos
 ```text
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 - Notas: Este comando configura múltiples intervalos de reporte; el ejemplo establece un intervalo principal de 60 segundos.
 
 3) Consultar la configuración o solicitar los parámetros actuales del Preset A
 ```text
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 - Notas: Use este comando de verificación para solicitar al dispositivo que devuelva los valores actuales de PresetA y poder confirmar que los ajustes se aplicaron.
 

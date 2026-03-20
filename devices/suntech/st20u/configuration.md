@@ -75,30 +75,30 @@ The ST20U supplies vehicle telemetry to a GNSS-enabled host or a Plaspy-capable 
 The ST20U vendor provides SMS-based commands for APN and reporting setup. The device ID used in these commands is the last six digits of the IMEI excluding the final check digit. Example: if IMEI is 123456789012345 the device ID would be 901234.
 
 - APN and GPRS server command
-  - Replace {{device_id}} with the six digit device ID derived from IMEI.
+  - Replace [device_id] with the six digit device ID derived from IMEI.
   - Replace [apn], [apnu], and [apnp] with your operator APN, APN username, and APN password. If username or password are not used by your operator, leave those placeholders empty.
   - This command points the tracker/host to the Plaspy server IP and port and includes APN fields.
 
 ```
-SA200NTW;{{device_id}};02;[mode];[apn_used_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[mode];[apn_used_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Set reporting interval to 60 seconds
-  - Replace {{device_id}} with the six digit device ID.
+  - Replace [device_id] with the six digit device ID.
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Check current settings (verification)
-  - Replace {{device_id}} with the six digit device ID.
+  - Replace [device_id] with the six digit device ID.
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Notes on placeholders and fields
-- {{device_id}} — six digit ID derived from IMEI (last six digits excluding the final check digit). Example conversion is shown above.
+- [device_id] — six digit ID derived from IMEI (last six digits excluding the final check digit). Example conversion is shown above.
 - [apn] — operator Access Point Name string required for GPRS data.
 - [apnu] — APN username if required by operator, otherwise leave blank.
 - [apnp] — APN password if required by operator, otherwise leave blank.

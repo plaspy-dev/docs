@@ -86,7 +86,7 @@ The Bofan B5 supports SMS configuration. The commands below are public examples 
 ```text
 000000GID<last14digits_of_IMEI>
 ```
-Replace \\<last14digits_of_IMEI> with the device specific 14 digit identifier.
+Replace \<last14digits_of_IMEI> with the device specific 14 digit identifier.
 
 - Set the APN for your mobile operator. If username or password are required include them as shown:
 ```text

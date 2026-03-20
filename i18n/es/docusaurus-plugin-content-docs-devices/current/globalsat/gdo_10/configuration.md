@@ -76,11 +76,11 @@ El GDO-10 generalmente se integra en un flujo de monitoreo o telemetría donde u
 La configuración pública del GDO-10 incluye comandos formateados para SMS. El ejemplo que sigue muestra la estructura de los SMS utilizada para fijar servidor y detalles APN, y un comando opcional de reinicio. Los marcadores deben reemplazarse por los valores reales de su instalación.
 
 Notas sobre los marcadores
-- {{imei}} Reemplace por el número IMEI del dispositivo.
+- [imei] Reemplace por el número IMEI del dispositivo.
 - [apn] Reemplace por el nombre APN de su operador móvil.
 - [apnu] Reemplace por el nombre de usuario del APN si su operador lo requiere. Deje vacío si no es necesario.
 - [apnp] Reemplace por la contraseña del APN si su operador lo requiere. Deje vacío si no es necesario.
-- {{checksum}} y {{checksumreeboot}} son sumas de comprobación hexadecimales de dos caracteres en mayúsculas calculadas como el XOR de todos los caracteres antes del asterisco en la cadena del comando.
+- [checksum] y [checksumreeboot] son sumas de comprobación hexadecimales de dos caracteres en mayúsculas calculadas como el XOR de todos los caracteres antes del asterisco en la cadena del comando.
 
 Nota sobre el formato
 - El ejemplo de envoltura usado por Plaspy para paquetes de comandos SMS TSPRXAB27GHKLMnaicz*U! indica el formato de protocolo SMS esperado por la familia de dispositivos. Su herramienta de envío de SMS debe construir el mensaje exactamente como lo exige el proveedor del dispositivo.
@@ -89,18 +89,18 @@ Nota sobre el formato
 Envíe este SMS al número del dispositivo tras reemplazar los marcadores y calcular la suma de verificación:
 
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 2) Comando opcional de reinicio
 Si es necesario reiniciar para aplicar los ajustes, envíe este SMS (opcional):
 
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Cálculo de checksum
-- El ejemplo público en JavaScript proporcionado por el fabricante calcula la suma de verificación XOReando los códigos de carácter de la subcadena del comando antes del asterisco y convirtiendo el resultado a una cadena hexadecimal de dos caracteres en mayúsculas. Asegúrese de insertar la suma calculada en el comando donde aparecen {{checksum}} o {{checksumreeboot}}.
+- El ejemplo público en JavaScript proporcionado por el fabricante calcula la suma de verificación XOReando los códigos de carácter de la subcadena del comando antes del asterisco y convirtiendo el resultado a una cadena hexadecimal de dos caracteres en mayúsculas. Asegúrese de insertar la suma calculada en el comando donde aparecen [checksum] o [checksumreeboot].
 
 ## Notas de configuración
 

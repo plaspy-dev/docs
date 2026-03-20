@@ -74,38 +74,38 @@ El ST4335 envía su posición y telemetría a Plaspy abriendo un enlace de datos
 
 ## Ejemplos de comandos de configuración
 
-El ST4335 admite comandos de configuración vía SMS. A continuación se muestran ejemplos públicos de comandos SMS extraídos del material de configuración del modelo. Debe reemplazar {{device_id}} y los marcadores de APN por los valores apropiados para su equipo y su SIM.
+El ST4335 admite comandos de configuración vía SMS. A continuación se muestran ejemplos públicos de comandos SMS extraídos del material de configuración del modelo. Debe reemplazar [device_id] y los marcadores de APN por los valores apropiados para su equipo y su SIM.
 
 Nota sobre cómo obtener el ID de dispositivo
 - El ID de dispositivo usado en los comandos SMS de Suntech son los últimos 6 dígitos del IMEI excluyendo el dígito de control final. Por ejemplo, si el IMEI es 123456789012345, el ID de dispositivo sería los seis dígitos inmediatamente antes del último dígito según el ejemplo del fabricante. Confirme la subcadena correcta para su IMEI antes de enviar comandos.
 
 1) Configurar el APN del operador y el servidor GPRS
 - Use 1 en la bandera APN si proporciona usuario o contraseña de APN, de lo contrario use 0.
-- Reemplace los marcadores {{device_id}}, [apn], [apnu] y [apnp] antes de enviar.
+- Reemplace los marcadores [device_id], [apn], [apnu] y [apnp] antes de enviar.
 
 ```
-SA200NTW;{{device_id}};02;{{apn_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[apn_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Explicación de los marcadores
-- {{device_id}}  = últimos 6 dígitos del IMEI excluyendo el dígito final (ver nota arriba)
+- [device_id]  = últimos 6 dígitos del IMEI excluyendo el dígito final (ver nota arriba)
 - [apn]        = nombre del APN del operador
 - [apnu]       = usuario del APN si es requerido, de lo contrario dejar en blanco
 - [apnp]       = contraseña del APN si es requerida, de lo contrario dejar en blanco
-- {{apn_flag}}   = 1 si se proporciona usuario o contraseña APN, de lo contrario 0
+- [apn_flag]   = 1 si se proporciona usuario o contraseña APN, de lo contrario 0
 
 2) Establecer el intervalo de reporte a 60 segundos
 - Este comando define parámetros de reporte e intervalos usados por el dispositivo.
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Verificar ajustes o solicitar una configuración predefinida
 - Use este comando de verificación para comprobar la configuración del dispositivo después de los cambios.
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Envíe estos comandos como mensajes SMS al número asociado con el ST4335. Siga las instrucciones de Suntech sobre el formato SMS si su firmware requiere un delimitador distinto o una extensión. Si el dispositivo o el firmware ofrecen una herramienta de configuración, prefiera esa herramienta para despliegues masivos.

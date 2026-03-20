@@ -78,10 +78,10 @@ Note: send these commands as SMS messages to the device or gateway phone number 
 
 - Network and GPRS server command (set APN and point to Plaspy)
 ```text
-SA200NTW;{{device_id}};02;<auth_flag>;<apn>;[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;<auth_flag>;<apn>;[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Explanation:
-  - {{device_id}} = six digits extracted from the IMEI as described above.
+  - [device_id] = six digits extracted from the IMEI as described above.
   - \<auth_flag> = 1 if you provide APN username or password ([apnu] or [apnp]), otherwise 0.
   - [apn] = operator APN placeholder.
   - [apnu] and [apnp] = optional APN username and APN password placeholders.
@@ -89,11 +89,11 @@ SA200NTW;{{device_id}};02;<auth_flag>;<apn>;[apnu];[apnp];54.85.159.138;8888;;;;
 
 - Set the update/report interval to 60 seconds
 ```text
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 - Verify or check current preset settings
 ```text
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 These commands are public examples extracted from the device configuration content. Adapt the placeholders to your operator APN and IMEI derived device id. If your SMS command set or firmware differs, use the manufacturer tool or documentation to translate these templates into the correct format.

@@ -1,63 +1,61 @@
 ---
 slug: /navtelekom/signal_s_4751
 id: signal_s_4751
-sidebar_key: navtelekosignal_s_4751_index_signal_s_4751
 sidebar_label: SIGNAL S-4751
 title: Navtelekom - SIGNAL S-4751
 sidebar_class_name: menu_item_tracker
-description: Rastreador vehicular Navtelekom SIGNAL S-4751 compatible con Plaspy, GLONASS 4G, registro en SD y control remoto para flotas
+description: Rastreador vehicular Navtelekom SIGNAL S-4751 compatible con Plaspy GLONASS 4G doble SIM y protección de energía para flotas y activos
 keywords:
-  - Navtelekom
+  - navtelekom
+  - signal s-4751
   - SIGNAL S-4751
-  - signal s 4751
-  - rastreador GPS Navtelekom
+  - rastreador Navtelekom
   - rastreador GLONASS
-  - rastreador vehicular 4G
+  - rastreador GPS 4G
+  - rastreador dual SIM
+  - rastreador vehicular
+  - dispositivo de rastreo para flotas
   - compatible con Plaspy
-  - seguimiento de flotas
-  - telemática vehicular
-  - registro en tarjeta SD
 ---
 
 # Navtelekom - SIGNAL S-4751
 
 ![SIGNAL S-4751](./tracker.jpeg)
 
-El SIGNAL S-4751 es un rastreador vehicular GLONASS de alta funcionalidad diseñado para la gestión moderna de flotas y la supervisión de activos en redes 4G. Construido para ambientes vehiculares exigentes, el equipo integra antenas externas GLONASS/GPS y GSM, un módem 4G con doble SIM, protección de alimentación robusta, interfaces de telemetría a bordo, Bluetooth 4.0 para configuración local y registro en tarjeta SD para mantener visibilidad continua y resiliencia operativa.
+El SIGNAL S-4751 es un rastreador GPS vehicular de Navtelekom pensado para la supervisión exigente de flotas y activos. Integra posicionamiento GNSS con soporte para antenas externas GLONASS y GPS, un módem 4G con redundancia de doble SIM y protección de alimentación de calidad automotriz para mantener el seguimiento operativo en entornos difíciles. Sus funciones a bordo, como Bluetooth 4.0, registro local en tarjeta SD y un diseño compacto, hacen que sea adecuado para operaciones continuas de flota y aplicaciones de seguridad.
 
-Como dispositivo compatible con Plaspy, el SIGNAL S-4751 puede transmitir posición en vivo y datos de telemetría a la plataforma Plaspy para visualización, notificaciones e informes históricos. Su combinación de conectividad celular fiable, registro local, entradas y salidas configurables y funciones de gestión remota lo convierten en una opción práctica para operadores que requieren integrar ubicación, seguridad y telemetría vehicular dentro de flujos de trabajo gestionados por Plaspy.
+Como dispositivo compatible con Plaspy, el SIGNAL S-4751 puede enviar ubicaciones en tiempo real y telemetría al sistema Plaspy para visualización, alertas e informes. La combinación de conectividad persistente, registro local y múltiples entradas y salidas permite flujos de trabajo de monitoreo y control confiables dentro de Plaspy, lo que lo vuelve una opción práctica para operadores que necesitan seguimiento resistente, medidas antirrobo e integración flexible con plataformas telemáticas.
 
 ## Características principales
 
-- Rastreador GLONASS compatible con Plaspy, diseñado para conectividad 4G y seguimiento en tiempo real.
-- Módem 4G con doble SIM y antenas externas GSM y GLONASS/GPS para mejor cobertura de red y posicionamiento.
-- Protección de alimentación apta para vehículos hasta 200 V y batería de respaldo Li‑Po de 800 mAh para operar durante cortes de energía.
-- Amplia I/O e interfaces industriales incluyendo múltiples entradas universales, salidas programables, puertos serie y CAN para funciones de telemetría y control.
-- Registro en tarjeta SD de hasta 32 GB para retención de datos sin conexión y conservación de historial cuando la conectividad celular es limitada.
-- Bluetooth 4.0 para configuración local rápida y conexión a periféricos y sensores compatibles.
-- Soporte de gestión remota con herramientas de firmware y sistema DRC para despliegues y mantenimiento a gran escala.
+- Rastreador GLONASS compatible con Plaspy, diseñado para redes 4G y uso en flotas
+- Módem 4G con doble SIM y antenas externas GNSS y GSM para mejorar la conectividad
+- Protección de alimentación de grado vehicular y batería interna de respaldo para mantener la operación ante variaciones de suministro
+- Registro local en tarjeta SD para retención de datos sin conexión e historial de eventos
+- Amplias entradas y salidas e interfaces industriales para integración de telemetría, supervisión y control
+- Bluetooth 4.0 para configuración local y emparejamiento de sensores periféricos
 
 ## Cómo funciona con Plaspy
 
-Al conectarse a Plaspy, el SIGNAL S-4751 envía la posición GNSS y la telemetría del vehículo para monitoreo en vivo, mientras aprovecha su registro local y capacidades de gestión remota para preservar datos y simplificar las operaciones de la flota. Plaspy recibe las actualizaciones a través del enlace 4G del dispositivo y puede utilizar las entradas y salidas para mostrar eventos, activar alertas y coordinar comandos remotos según lo permitido.
+El SIGNAL S-4751 transmite posiciones GNSS y telemetría del vehículo a Plaspy para ofrecer conciencia situacional continua y registros históricos. Plaspy puede utilizar la información del dispositivo para poblar mapas, activar alertas y generar reportes operativos, aprovechando el registro local y las funciones de gestión para robustez.
 
-- Ubicación y telemetría en tiempo real: las actualizaciones de posición GNSS se reenvían a Plaspy para seguimiento en vivo y generación de historial de rutas.
-- Reporte de eventos y estados: las entradas universales informan estado de encendido, alarmas y otros eventos del vehículo en Plaspy para alertas y filtrado.
-- Controles operativos: las salidas programables pueden mapearse a acciones remotas como controles de inmovilizador cuando la política y la configuración lo permiten.
-- Reenvío de sensores y telemetría: las entradas serie, CAN y analógicas a bordo permiten que diagnósticos del vehículo y lecturas de sensores estén disponibles en los informes de Plaspy.
-- Soporte para periféricos Bluetooth: sensores emparejados por Bluetooth y periféricos locales pueden usarse para recolección de datos de corto alcance y enviarse a Plaspy cuando estén configurados.
-- Resiliencia sin conexión y carga diferida: el registro en tarjeta SD conserva viajes y eventos para su posterior carga a Plaspy si la conectividad en tiempo real se interrumpe.
+- Actualizaciones de ubicación en tiempo real y reproducción de rutas para visibilidad de la flota en Plaspy
+- Reporte de eventos y entradas para mostrar encendido, alarmas o activaciones de sensores como alertas
+- Soporte de telemetría y entradas analógicas para monitorización de combustible y métricas operativas
+- Acciones de control remoto mediante salidas configurables coordinadas a través de Plaspy cuando esté permitido
+- Sensores emparejados por Bluetooth y periféricos locales pueden reenviarse a Plaspy si la integración lo admite
+- Registro local en tarjeta SD que permite recuperación de datos y subida posterior a Plaspy si se pierde conectividad
 
 ## Casos de uso típicos
 
-- Gestión de flotas para monitoreo de rutas, coordinación de despachos y supervisión de conductores mediante los paneles de Plaspy.
-- Aplicaciones anti‑robo y seguridad que combinan seguimiento de ubicación con salidas de control remoto para inmovilización.
-- Monitoreo de carga y registro de eventos donde las copias de seguridad en SD proporcionan una pista de auditoría de aperturas de puertas y desviaciones.
-- Diagnóstico remoto y reporte de telemetría integrando buses del vehículo y sensores serie en Plaspy.
-- Despliegues de sensores de corto alcance usando Bluetooth para temperatura, presencia o detección de proximidad en cargas sensibles.
+- Gestión de flotas y monitoreo de despacho con seguimiento en vivo e historial de rutas
+- Flujos de trabajo de antirrobo y seguridad mediante reporte de ubicación y salidas de control remoto
+- Monitoreo de carga y activos con registro de eventos y retención de registros sin conexión
+- Diagnóstico remoto y recopilación de telemetría para salud del vehículo y métricas operativas
+- Despliegues de sensores de corto alcance usando Bluetooth para control de temperatura o detección de presencia
 
 ## Por qué elegir este rastreador con Plaspy
 
-El SIGNAL S-4751 ofrece un conjunto equilibrado de opciones de conectividad, resiliencia e interfaces que se adaptan a organizaciones que desean integrar ubicación y telemetría vehicular en Plaspy. Su módem 4G con doble SIM y antenas externas contribuyen a mantener comunicaciones confiables, mientras que el registro a bordo y la batería de respaldo reducen la pérdida de datos durante interrupciones transitorias. La amplia gama de entradas, salidas e interfaces serie/CAN lo hace flexible para distintos escenarios de telemetría y control que requieren muchas operaciones de flota.
+El SIGNAL S-4751 ofrece un conjunto de funciones equilibrado que se alinea bien con despliegues en Plaspy que requieren conectividad confiable, resiliencia de datos e integración flexible. La conectividad 4G con doble SIM y las antenas externas ayudan a mantener comunicaciones en vivo, mientras que el registro en SD y la fuente de alimentación de respaldo reducen brechas de datos durante interrupciones. Un amplio conjunto de entradas, salidas e interfaces vehiculares estándar permite escenarios diversos de telemetría y control, apoyando desde el seguimiento básico de flotas hasta seguridad avanzada y diagnóstico remoto.
 
-Si desea explorar cómo el SIGNAL S-4751 puede encajar en su despliegue con Plaspy, conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles técnicos y las capacidades de firmware actuales con el fabricante en https://www.navtelecom.ru/.
+Si desea saber más sobre cómo Plaspy funciona con dispositivos como el SIGNAL S-4751, visite https://www.plaspy.com para explorar las capacidades de la plataforma y opciones de despliegue. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones y la documentación actuales en el sitio del fabricante https://www.navtelecom.ru/ antes de tomar decisiones finales sobre equipos.

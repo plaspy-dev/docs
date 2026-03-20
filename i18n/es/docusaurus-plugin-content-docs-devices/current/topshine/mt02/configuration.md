@@ -84,9 +84,9 @@ W000000,990,099###
 
 - Establecer el ID del dispositivo (use los primeros 14 dígitos del IMEI para este comando). Nota: Plaspy identifica dispositivos por el IMEI completo; use el IMEI como referencia primaria.
 ```text
-W000000,010,{{device_id_14}}
+W000000,010,[device_id_14]
 ```
-Explicación: Reemplace {{device_id_14}} con los primeros 14 dígitos del IMEI del dispositivo.
+Explicación: Reemplace [device_id_14] con los primeros 14 dígitos del IMEI del dispositivo.
 
 - Configurar el APN del operador. Reemplace los marcadores con los valores de su operador. Si se requieren usuario o contraseña inclúyalos después del APN separados por comas.
 ```text
@@ -118,7 +118,7 @@ W000000,601
 
 Notas sobre los comandos SMS:
 - Los comandos anteriores muestran la contraseña de fábrica 000000 insertada después del prefijo del comando. Si la contraseña del dispositivo ha sido cambiada, sustituya por la contraseña actual.
-- Reemplace marcadores como [apn], [apnu] y [apnp] con los ajustes de su operador. Reemplace {{device_id_14}} con el ID derivado del IMEI según la guía del fabricante.
+- Reemplace marcadores como [apn], [apnu] y [apnp] con los ajustes de su operador. Reemplace [device_id_14] con el ID derivado del IMEI según la guía del fabricante.
 - Tras realizar cambios por SMS puede ser necesario reiniciar el equipo para que los ajustes se apliquen.
 
 ## Notas de configuración

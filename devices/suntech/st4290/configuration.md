@@ -74,17 +74,17 @@ The ST4290 is configured to report GNSS fixes and events to the shared Plaspy se
 The ST4290 can be configured by SMS commands. Below are the public SMS command templates extracted from vendor-provided content. Preserve the placeholders and compute the device ID as required.
 
 Device ID note
-- The SMS commands for Suntech ST4290 use a device ID derived from the IMEI. The device ID is the six digits starting at IMEI position 9 through 14 (that is, the last six digits excluding the final IMEI digit). Example: if IMEI is 123456789012345 the device ID is 901234 (digits 9–14). Use that six digit value in the commands as {{device_id}}.
+- The SMS commands for Suntech ST4290 use a device ID derived from the IMEI. The device ID is the six digits starting at IMEI position 9 through 14 (that is, the last six digits excluding the final IMEI digit). Example: if IMEI is 123456789012345 the device ID is 901234 (digits 9–14). Use that six digit value in the commands as [device_id].
 
 1) Set operator APN and Plaspy GPRS server
-- The command below sets APN, optional APN username and password, and the Plaspy server IP and port. Replace {{device_id}} with the six digit ID derived from the IMEI as explained above. Use [apn], [apnu], and [apnp] as placeholders for your carrier APN, APN username, and APN password. If you do not use APN username or password, some devices require the APN credential flag set to 0 or omitted per vendor guidance; the command below includes that flag position.
+- The command below sets APN, optional APN username and password, and the Plaspy server IP and port. Replace [device_id] with the six digit ID derived from the IMEI as explained above. Use [apn], [apnu], and [apnp] as placeholders for your carrier APN, APN username, and APN password. If you do not use APN username or password, some devices require the APN credential flag set to 0 or omitted per vendor guidance; the command below includes that flag position.
 
 ```
-SA200NTW;{{device_id}};02;[1 or 0];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[1 or 0];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Explanation of fields:
-  - {{device_id}} — six digit device ID derived from IMEI (digits 9–14).
+  - [device_id] — six digit device ID derived from IMEI (digits 9–14).
   - [1 or 0] — set to 1 if you are providing APN username or password, set to 0 if not.
   - [apn] — carrier APN name placeholder.
   - [apnu] — APN username placeholder (keep empty if not used).
@@ -95,14 +95,14 @@ SA200NTW;{{device_id}};02;[1 or 0];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 - This command sets repeat/reporting parameters including an update interval of 60 seconds.
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Check current settings (verification)
 - Use this verification command to ask the device to return preset configuration information.
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Notes
@@ -115,7 +115,7 @@ Notes
 - The ST4290 supports SMS-based configuration as shown above where permitted by device firmware and installation policy; vendor configuration software or an over-the-air configuration method may also be available.
 - Choose UDP or TCP transport based on network reliability and installer preference; Plaspy accepts either on port 8888 and will detect the incoming protocol automatically.
 - Ensure APN settings are correct for the SIM in use; incorrect APN or missing credentials will prevent the device from establishing a data session.
-- When using SMS commands, compute the {{device_id}} precisely from the IMEI as documented by Suntech to avoid command rejection.
+- When using SMS commands, compute the [device_id] precisely from the IMEI as documented by Suntech to avoid command rejection.
 
 ## Why Use Plaspy with This Configuration
 

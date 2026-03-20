@@ -83,14 +83,14 @@ Los comandos SMS públicamente documentados para el GP 4000 que configuran el se
 
 1. Establecer el servidor GPRS y el APN
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
-- {{trackerID}} es el ID del dispositivo que el rastreador requiere para aceptar comandos.
+- [trackerID] es el ID del dispositivo que el rastreador requiere para aceptar comandos.
 - [apn] es la cadena APN del operador. Mantenga este marcador y sustitúyalo por el APN de su tarjeta SIM.
 
 2. Opcional o condicional Establecer usuario y contraseña del APN
 ```
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 - [apnu] es el usuario APN si su operador lo requiere.
 - [apnp] es la contraseña APN si su operador la solicita.

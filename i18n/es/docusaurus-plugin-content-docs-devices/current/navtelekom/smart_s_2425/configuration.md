@@ -4,89 +4,89 @@ id: smart_s_2425-configuration
 sidebar_label: Configuration
 title: Navtelekom - SMART S-2425 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública para conectar Navtelekom SMART S-2425 a Plaspy con ajustes de servidor y pasos prácticos
+description: Guía pública de configuración del Navtelekom SMART S-2425 para conectarlo a Plaspy con ajustes de servidor compartido
 keywords:
   - Configuración Navtelekom SMART S-2425
-  - Configuración SMART S-2425
-  - SMART S-2425 Plaspy
-  - Configuración rastreador Navtelekom
-  - Configuración rastreador Plaspy
-  - Configuración rastreador vehicular
-  - Configuración GPS Plaspy
-  - Rastreador de flotas SMART S-2425
-  - Configuración servidor SMART S-2425
-  - Integración SMART S-2425
+  - Configuración SMART S-2425 para Plaspy
+  - Configuración de servidor del rastreador Navtelekom
+  - Integración de rastreador GPS con Plaspy
+  - Guía de configuración de rastreadores vehiculares
+  - Seguimiento de flota SMART S-2425
+  - Configuración de plataforma GPS Navtelekom
+  - Conectividad del rastreador a Plaspy
+  - Configuración rastreador 2G doble SIM
+  - Configuración de telemetría SMART S-2425
 ---
 
-# Navtelekom - Configuración del SMART S-2425
+# Navtelekom - SMART S-2425 Configuración
 
-Esta página resume el contexto público de configuración para usar el Navtelekom SMART S-2425 con la plataforma Plaspy. Se concentra en los ajustes de servidor prácticos y en el flujo de trabajo que deberá seguir para apuntar el dispositivo a Plaspy y permitir que envíe posiciones GNSS, telemetría y eventos a la plataforma.
+Esta página presenta el contexto público de configuración para utilizar el rastreador Navtelekom SMART S-2425 con la plataforma Plaspy. Resume los pasos prácticos y la información de servidor necesarios para que el equipo reporte posiciones, telemetría y eventos a Plaspy, tomando la descripción del SMART S-2425 como base para la integración.
 
-Plaspy usa ajustes de servidor compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador. Los pasos de configuración en el lado del fabricante para el SMART S-2425 pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas de configuración del proveedor como NTC Configurator o la configuración local por Bluetooth; revise estas indicaciones junto con la documentación oficial de Navtelekom antes del despliegue.
+Plaspy emplea ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, aunque los pasos exactos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Utilice esta guía para alinear las tareas de configuración comunes con Plaspy y consulte la documentación del fabricante cuando se requieran instrucciones específicas por modelo o firmware.
 
-## Resumen de la configuración
+## Resumen de configuración
 
-El objetivo de esta configuración es preparar el SMART S-2425 para enviar datos de posición y telemetría de forma confiable a Plaspy y validar la conectividad para que el dispositivo aparezca y reporte correctamente en el panel de Plaspy.
+Configurar el SMART S-2425 para Plaspy se centra en apuntar el equipo a enviar posiciones GNSS, eventos de entrada/salida y telemetría al endpoint del servidor de Plaspy, de modo que la unidad sea visible y sus datos queden disponibles en la plataforma. Este proceso prepara el rastreador para una comunicación fiable, valida la conectividad por redes celulares y asegura que Plaspy pueda ingerir las transmisiones automáticamente.
 
-- Apunte el SMART S-2425 a Plaspy usando el endpoint público d.plaspy.com o la IP 54.85.159.138 en el puerto 8888.
-- Elija el modo de transporte que soporte el equipo (UDP o TCP) cuando el dispositivo solicite selección de transporte.
-- Asegúrese de que el rastreador tenga una SIM celular activa y el APN correcto para que el módem 2G pueda alcanzar el servidor de Plaspy.
-- Guarde y aplique la configuración con la herramienta del fabricante o mediante Bluetooth local, luego valide el envío de datos en Plaspy.
-- Confirme que el dispositivo entrega GNSS, eventos de E/S y telemetría para que Plaspy pueda registrar viajes, alarmas e informes.
+- Apunte el dispositivo al servidor Plaspy d.plaspy.com o al IP equivalente para que las actualizaciones lleguen al endpoint correcto.
+- Seleccione el protocolo de transporte UDP o TCP y configure el puerto 8888 para que coincida con los ajustes de Plaspy.
+- Valide la conectividad celular y la configuración de las SIM para que el módem dual SIM mantenga disponibilidad.
+- Use la herramienta de configuración del fabricante o la configuración local por Bluetooth para aplicar y guardar servidor y puerto.
+- Confirme que el dispositivo reporta posición y eventos de E/S a Plaspy y aparece en el panel de Plaspy.
 
-## Ajustes del servidor Plaspy
+## Configuración del servidor Plaspy
 
-- Dominio del servidor: d.plaspy.com
-- IP del servidor: 54.85.159.138
-- Puerto: 8888
-- Transporte: el dispositivo puede configurarse con UDP o TCP en el puerto 8888
-- Plaspy usa el mismo puerto para todos los dispositivos soportados y detecta automáticamente el protocolo del rastreador
+- Dominio del servidor d.plaspy.com
+- IP del servidor 54.85.159.138
+- Puerto 8888
+- Transporte: UDP o TCP soportado por el dispositivo
+- Plaspy detecta automáticamente el protocolo del rastreador para las conexiones entrantes
 
-## Requisitos típicos antes de la configuración
+## Requisitos típicos antes de la instalación
 
-- Confirme que la alimentación y el cableado del dispositivo estén instalados y estables para la configuración inicial.
-- Tarjeta(s) SIM activa(s) con datos habilitados instaladas en las ranuras dual SIM del SMART S-2425 según sea requerido.
-- Acceso al método de configuración oficial de Navtelekom, como NTC Configurator o herramientas de aprovisionamiento por Bluetooth 4.0.
-- Conocimiento del identificador del dispositivo y los datos de registro necesarios para su cuenta o flota en Plaspy.
-- Cobertura celular estable en el área de instalación para conectividad 2G durante las pruebas iniciales.
-- Acceso a la documentación técnica de Navtelekom para parámetros específicos del dispositivo o notas sobre firmware.
+- Asegúrese de que el SMART S-2425 esté alimentado e instalado según las indicaciones del fabricante.
+- Tarjeta(s) SIM activas insertadas y registradas en una red GSM 2G compatible con el módem del equipo.
+- Acceso al método oficial de configuración del fabricante, como NTC Configurator, o a la configuración local por Bluetooth.
+- Un medio para ver los reportes del dispositivo en Plaspy tras la configuración, ya sea mediante la cuenta Plaspy o a través de su proveedor de servicio.
+- Información de firmware o acceso a la plataforma de gestión del dispositivo si requiere configuración remota o actualizaciones.
+- Verificación básica de cableado y de entradas/salidas si va a usar sensores, alarmas o funciones de inmovilizador.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-Cuando se configura para Plaspy, el SMART S-2425 transmite posiciones GNSS, estados de E/S y telemetría mediante su módem 2G al endpoint y puerto compartidos de Plaspy. Plaspy procesa estos mensajes para mostrar ubicación en vivo, alarmas y telemetría en la plataforma.
+Una vez configurado, el SMART S-2425 envía posiciones GNSS, telemetría y notificaciones de eventos a través de su módem celular al endpoint de Plaspy, permitiendo a los operadores monitorear ubicación y datos de sensores en tiempo real. El equipo utiliza el endpoint compartido de Plaspy y el mismo puerto empleado por todos los dispositivos en la plataforma; Plaspy se encarga de la detección automática del protocolo.
 
-- El rastreador se configura para reportar a d.plaspy.com (o 54.85.159.138) en el puerto 8888.
-- Seleccione UDP o TCP en el dispositivo si se requiere elección de transporte; Plaspy aceptará cualquiera en el puerto 8888.
-- Plaspy detecta automáticamente el protocolo del rastreador, por lo que la plataforma interpretará los datos entrantes del SMART S-2425 sin necesidad de seleccionar el protocolo por dispositivo en el servidor.
-- Las actualizaciones de ubicación, los eventos de E/S y la telemetría enviados por el dispositivo se muestran en Plaspy como posiciones en el mapa, alertas y canales de datos para informes.
-- La validación periódica de los reportes garantiza que viajes, alarmas y datos de sensores sean visibles para los operadores.
+- Posiciones GNSS y marcas de tiempo transmitidas mediante el módem 2G del dispositivo a d.plaspy.com por el puerto 8888.
+- Eventos de E/S como ignición, puertas o señales de alarma se mapean a eventos de Plaspy cuando están cableados a las entradas universales.
+- Telemetría desde interfaces RS-232, RS-485 o 1-Wire entregada a Plaspy según la configuración del equipo.
+- Salidas de control remotas pueden activarse desde Plaspy cuando se configuran para inmovilización o respuestas de alarma.
+- La redundancia de doble SIM ayuda a mantener el reporte continuo a d.plaspy.com incluso si una ruta de red se degrada.
 
-## Flujo común de configuración
+## Flujo de configuración habitual
 
-1. Acceda al método o software oficial de configuración Navtelekom (por ejemplo NTC Configurator o la herramienta de aprovisionamiento Bluetooth del dispositivo).
-2. En los ajustes de servidor del equipo, ingrese el dominio del servidor Plaspy d.plaspy.com o use la IP del servidor 54.85.159.138 como alternativa.
-3. Configure el puerto del servidor en 8888.
-4. Si el dispositivo requiere elección de transporte, seleccione UDP o TCP para la conexión a Plaspy.
-5. Guarde o aplique la configuración usando la herramienta del fabricante y confirme que los cambios se escribieron en el dispositivo.
-6. Reinicie el equipo si las instrucciones del fabricante indican que es necesario tras aplicar la configuración de red.
-7. Valide que el dispositivo reporte a Plaspy comprobando que el rastreador aparece y envía actualizaciones de posición o telemetría en el panel de Plaspy.
+1. Acceda al método oficial de configuración del fabricante o al software, por ejemplo NTC Configurator o la interfaz de Bluetooth del dispositivo.
+2. Ingrese el servidor Plaspy por nombre o IP usando d.plaspy.com o 54.85.159.138 como endpoint objetivo.
+3. Configure el puerto del servidor a 8888 para que coincida con los ajustes de Plaspy.
+4. Elija UDP o TCP si el dispositivo solicita selección de transporte.
+5. Aplique o guarde los ajustes en la herramienta de configuración y confirme que los cambios fueron aceptados.
+6. Reinicie el dispositivo si el fabricante lo requiere o si la herramienta de configuración lo indica.
+7. Valide que el SMART S-2425 reporta a Plaspy revisando la actividad del equipo en la plataforma Plaspy o confirmando mensajes entrantes en el endpoint elegido.
 
-## Ejemplo de comandos de configuración
+## Ejemplos de comandos de configuración
 
-El SMART S-2425 puede configurarse usando las herramientas de Navtelekom o el aprovisionamiento por Bluetooth en lugar de comandos de texto directos; la sintaxis exacta y las opciones varían según el firmware y la utilidad de configuración del fabricante. Para la integración con Plaspy normalmente ingresará el dominio del servidor d.plaspy.com (o la IP 54.85.159.138), establecerá el puerto 8888 y elegirá UDP o TCP si la interfaz del equipo solicita selección de transporte.
+El SMART S-2425 se configura habitualmente con las herramientas del fabricante o utilidades de aprovisionamiento por Bluetooth en lugar de un único conjunto de comandos universales. Al usar la herramienta del fabricante, establezca el servidor en d.plaspy.com o 54.85.159.138, el puerto en 8888 y seleccione UDP o TCP como transporte. Plaspy detectará automáticamente el protocolo del rastreador para las conexiones entrantes.
 
-Si utiliza utilidades de configuración Navtelekom, consulte la guía oficial de NTC Configurator para la ruta de menú o la sintaxis de comandos exacta que utiliza su versión de firmware.
+Si utiliza SMS o un estilo de configuración por comandos que soporte su firmware, siga los ejemplos del fabricante en la documentación oficial de Navtelekom o en las herramientas del proveedor. Reemplace los marcadores de APN con los valores de su operador celular cuando el dispositivo lo solicite.
 
 ## Notas de configuración
 
-- Las diferencias de firmware entre revisiones de hardware pueden cambiar nombres de menús o ubicaciones de parámetros en el NTC Configurator o en el flujo de aprovisionamiento por Bluetooth.
-- Elija UDP o TCP según las condiciones de red y las políticas de firewall; Plaspy acepta ambos en el puerto 8888, pero la elección puede afectar latencia y comportamiento de entrega.
-- Asegúrese de que los ajustes de APN de la SIM sean correctos para el operador móvil instalado para que el dispositivo pueda establecer una sesión de datos antes de intentar conectarse al servidor Plaspy.
-- El SMART S-2425 soporta configuración local por Bluetooth, lo que puede simplificar el aprovisionamiento en campo para algunos instaladores.
-- Siempre contraste los pasos de configuración con la documentación oficial de Navtelekom para ejemplos específicos del dispositivo y notas de versiones de firmware.
+- Las revisiones de firmware y hardware pueden cambiar la forma de ingresar los ajustes; verifique siempre qué método de configuración aplica a su versión de dispositivo.
+- La elección entre UDP y TCP puede afectar el comportamiento en la entrega de mensajes; seleccione el transporte requerido por su instalación o recomendado por Navtelekom.
+- Use las herramientas de configuración del fabricante como NTC Configurator o la plataforma de gestión del dispositivo para actualizaciones masivas o remotas cuando estén soportadas.
+- El comportamiento y las reglas de prioridad de la doble SIM son definidas por el proveedor; revise los ajustes de conmutación y failover en el manual del equipo.
+- Confirme que las entradas y salidas estén cableadas y configuradas correctamente antes de depender de reportes basados en eventos en Plaspy.
 
 ## Por qué usar Plaspy con esta configuración
 
-Usar el SMART S-2425 con Plaspy brinda a los operadores de flotas visibilidad continua de posiciones, eventos de E/S y telemetría a través de una plataforma unificada. La recepción GLONASS/GPS del equipo, el módem 2G con doble SIM y su conjunto flexible de E/S lo hacen adecuado para rastreo vehicular, monitoreo de alarmas y recolección de telemetría que Plaspy presenta como mapas en vivo, alertas e informes históricos.
+Usar el Navtelekom SMART S-2425 con Plaspy ofrece a gestores de flota y proveedores de servicio un rastreador compacto de calidad vehicular integrado en una plataforma que consolida posición, telemetría y eventos para visibilidad operativa. El enfoque de servidor compartido de Plaspy simplifica la puesta en marcha porque todos los dispositivos Plaspy usan el mismo puerto y la plataforma detecta automáticamente los protocolos entrantes, reduciendo la complejidad de configuración por unidad.
 
-Learn more about connecting devices and configuring fleet tracking on the Plaspy website at https://www.plaspy.com. For device specific configuration methods, firmware behavior and the latest technical details, verify current information on the manufacturer site https://www.navtelecom.ru/.
+Learn more about Plaspy and how it supports device integration at https://www.plaspy.com. For the latest device specific configuration methods, firmware notes, and manufacturer details for the SMART S-2425, verify instructions on the official Navtelekom website https://www.navtelecom.ru/ as manufacturer specifications and setup tools can change over time.

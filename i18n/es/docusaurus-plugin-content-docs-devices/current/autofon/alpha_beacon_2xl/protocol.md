@@ -4,77 +4,77 @@ id: alpha_beacon_2xl-protocol
 sidebar_label: Protocol
 title: AutoFon - Alpha-Beacon 2XL Protocol
 sidebar_class_name: menu_item_tracker
-description: Guía pública del protocolo del rastreador AutoFon Alpha-Beacon 2XL y cómo se comunica con Plaspy para una integración fiable
+description: Guía pública del protocolo del AutoFon Alpha-Beacon 2XL y cómo se comunica con servidores Plaspy, más consideraciones de integración
 keywords:
   - protocolo AutoFon Alpha-Beacon 2XL
-  - protocolo GPS Alpha-Beacon 2XL
-  - compatibilidad AutoFon Plaspy
-  - comunicación Alpha-Beacon 2XL
-  - guía protocolo rastreador GPS
-  - protocolo seguimiento Alpha-Beacon 2XL
-  - integración dispositivo Plaspy
-  - informe telemetría AutoFon
-  - configuración tracker GPRS SMS
-  - protocolo seguimiento de vehículos
+  - protocolo rastreador GPS AutoFon
+  - compatibilidad Alpha-Beacon 2XL con Plaspy
+  - protocolo de comunicación AutoFon
+  - protocolo de rastreo Alpha-Beacon
+  - integración rastreador GPS con Plaspy
+  - seguimiento de activos Alpha-Beacon 2XL
+  - telemetría GPRS SMS AutoFon
+  - rastreo vehicular Alpha-Beacon
+  - compatibilidad de dispositivos Plaspy
 ---
 
 # AutoFon - Protocolo Alpha-Beacon 2XL
 
-Esta página presenta el contexto público del protocolo para usar el rastreador AutoFon Alpha-Beacon 2XL con Plaspy. Describe cómo el equipo informa ubicación y telemetría a un entorno de monitoreo Plaspy y qué aspectos considerar al configurar o diagnosticar la conectividad. El Alpha-Beacon 2XL es un beacon compacto con certificación IP67, eSIM integrada, batería de larga duración y reportes por SMS y GPRS, lo que lo hace adecuado para despliegues discretos a largo plazo.
+Esta página describe el contexto público del protocolo relevante para usar el AutoFon Alpha-Beacon 2XL con Plaspy. Se centra en cómo el rastreador reporta posición y telemetría a un entorno de monitoreo Plaspy, las opciones de transporte más comunes y notas prácticas que ayudan a lograr una integración fiable sin exponer detalles privados internos del protocolo.
 
-Plaspy utiliza ajustes de conexión compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando el equipo está correctamente configurado para informar a los endpoints de Plaspy. El comportamiento exacto del protocolo puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante; por eso esta página se centra en el contexto público y de alto nivel de la comunicación, no en detalles internos de firmware ni formatos privados de paquetes.
+El AutoFon Alpha-Beacon 2XL es un rastreador GPS compacto y resistente al agua con eSIM integrada y aprovisionamiento de fábrica, que reporta mediante GPRS y SMS. Plaspy utiliza configuraciones de conexión compartidas entre dispositivos soportados y detecta automáticamente el protocolo del rastreador. El comportamiento exacto puede variar según la versión de firmware, la revisión de hardware o la configuración del fabricante, por lo que esta guía explica patrones de integración más que detalles internos del firmware del dispositivo.
 
-## Resumen del protocolo
+## Visión general del protocolo
 
-El protocolo es el conjunto de reglas y comportamientos de mensajes que permiten al Alpha-Beacon 2XL enviar posición, estado y alertas a un servidor telemático como Plaspy. En este modelo suele implicar el envío de ubicación y telemetría por GPRS con SMS como respaldo, aprovechando la eSIM integrada y la lógica de reporte del dispositivo para asegurar la entrega al endpoint de monitoreo.
+El protocolo que emplea el Alpha-Beacon 2XL define cómo el dispositivo se identifica, reporta posición y telemetría, y señala eventos como alertas SOS a un servidor de monitoreo remoto. Para la integración con Plaspy, la función del protocolo es entregar de forma fiable datos utilizables desde el rastreador hacia la plataforma, de modo que la posición, el estado y la información de eventos puedan mostrarse en mapas e informes.
 
-- Permite que el equipo se identifique y entregue registros de posición y telemetría utilizables al servidor de monitoreo.
-- Transmite alertas como eventos SOS y actualizaciones periódicas que alimentan los mapas y el historial en Plaspy.
-- Aporta resiliencia mediante la lógica de reintentos a bordo y el almacenamiento temporal de paquetes no enviados para mejorar la entrega en cobertura intermitente.
-- Permite configuración remota y gestión de firmware desde la plataforma del fabricante, al tiempo que puede seguir reportando ubicación a un endpoint de Plaspy si está configurado para ello.
-- Actúa como puente entre los sensores a bordo y la plataforma Plaspy para que los datos reportados se traduzcan en seguimiento, alertas y telemetría histórica.
+- Permite asociar identidad y contexto del dispositivo a los reportes entrantes para que Plaspy pueda vincular los mensajes con el activo correcto.
+- Transporta coordenadas de ubicación, marcas de tiempo y telemetría básica que Plaspy utiliza en mapas, historial y alertas.
+- Soporta canales de reporte alternativos y mecanismos de reintento en el dispositivo, de modo que los eventos importantes se retienen y retransmiten cuando vuelve la conectividad.
+- Proporciona marcadores de evento como SOS o notificaciones de manipulación que Plaspy puede convertir en alertas para los operadores.
+- Funciona sobre datos GPRS y SMS como opciones de transporte, de modo que los dispositivos mantengan el reporte incluso con conectividad limitada.
 
 ## Cómo Plaspy detecta el protocolo
 
-Plaspy opera un endpoint compartido y dedicado para la recepción de informes de dispositivos y detecta automáticamente el protocolo del rastreador cuando un equipo se conecta y envía datos a ese endpoint. En la práctica, esto significa que un Alpha-Beacon 2XL correctamente configurado será reconocido por Plaspy sin necesidad de seleccionar el protocolo manualmente en la mayoría de los casos.
+Plaspy recibe datos de muchos modelos de rastreadores usando un endpoint de escucha común y determina automáticamente el protocolo entrante. Cuando un Alpha-Beacon 2XL se configura para reportar a Plaspy, usted generalmente no necesita seleccionar un protocolo en la plataforma, ya que Plaspy detecta el formato de reporte del dispositivo y lo maneja en consecuencia.
 
-- Plaspy escucha en un único puerto para todos los dispositivos y protocolos compatibles, lo que simplifica la configuración e incorporación de equipos.
-- Los dispositivos deben apuntar al endpoint de reporte de Plaspy para habilitar la detección automática en el servidor.
-- Cuando el Alpha-Beacon 2XL envía informes a Plaspy, la plataforma identifica el formato del mensaje y mapea los datos entrantes al sistema de seguimiento y telemetría.
-- Los usuarios normalmente no necesitan elegir un protocolo en Plaspy si el equipo está configurado para reportar al endpoint de Plaspy.
-- La detección automática reduce pasos de configuración, pero es recomendable verificar los ajustes de reporte del dispositivo y la alcanzabilidad de la red al incorporarlo.
+- Plaspy escucha en un endpoint compartido, por lo que una única configuración en el dispositivo puede alcanzar múltiples tipos de equipos.
+- Plaspy detecta automáticamente el protocolo del rastreador cuando el dispositivo reporta correctamente al servidor.
+- Se utiliza el mismo puerto para todos los dispositivos soportados por Plaspy, lo que simplifica la configuración del rastreador.
+- Si el dispositivo apunta al endpoint de Plaspy y el firmware lo autentica correctamente, la selección manual de protocolo dentro de Plaspy por lo general no es necesaria.
+- Una configuración adecuada del dispositivo y un firmware actualizado aumentan la probabilidad de que la detección automática tenga éxito en el primer contacto.
 
 ## Transporte y contexto de conexión
 
-El Alpha-Beacon 2XL puede reportar por GPRS y SMS y admite el envío de paquetes de reporte a Plaspy sobre transportes IP estándar. Plaspy proporciona objetivos de conexión públicos explícitos que pueden usarse en la configuración del dispositivo para que el rastreador entregue datos de forma fiable.
+El Alpha-Beacon 2XL reporta habitualmente mediante datos móviles usando GPRS y también puede enviar mensajes críticos por SMS como canal secundario. Para el reporte directo al servidor de Plaspy, el dispositivo puede configurarse para usar UDP o TCP en el puerto compartido de Plaspy. Los rastreadores pueden apuntar al dominio de Plaspy o a su IP pública al configurar la dirección del servidor.
 
-- Plaspy acepta conexiones de dispositivos en el dominio d.plaspy.com y en la dirección IP pública 54.85.159.138.
-- El puerto de reporte de Plaspy para dispositivos es 8888 y todos los equipos en Plaspy usan este mismo puerto.
-- El Alpha-Beacon 2XL puede configurarse para usar UDP o TCP en el puerto 8888 según el soporte del dispositivo y las opciones seleccionadas.
-- GPRS es el transporte de datos primario para telemetría en tiempo real mientras que SMS se usa comúnmente como canal de respaldo.
-- Asegurarse de que el dispositivo pueda resolver o alcanzar d.plaspy.com o la IP indicada y que el transporte en el puerto 8888 esté permitido por la red celular es una lista práctica de verificación.
+- El dominio de servidor de Plaspy para reportes de dispositivos es d.plaspy.com
+- La dirección IP del servidor de Plaspy es 54.85.159.138
+- El puerto de escucha de Plaspy es 8888 y todos los dispositivos en Plaspy usan el mismo puerto
+- El dispositivo puede configurarse para usar UDP o TCP en el puerto 8888 según el soporte del equipo y las condiciones de red
+- El SMS sigue siendo un transporte de respaldo útil cuando GPRS no está disponible para entrega inmediata o para configuraciones
 
 ## Notas sobre compatibilidad del protocolo
 
-- Variaciones de firmware pueden cambiar los tiempos de mensajes, campos disponibles o comportamientos opcionales incluso dentro de la misma serie de modelos.
-- Revisiones de hardware en la plataforma v.7 pueden introducir pequeñas diferencias en el comportamiento de reporte o en los transportes soportados.
-- La eSIM integrada y las vinculaciones con proveedores pueden afectar qué APN u opciones de operador son necesarias para alcanzar los endpoints de Plaspy.
-- La selección de transporte entre UDP y TCP puede modificar las características de entrega; elija el transporte soportado y recomendado por el firmware del dispositivo.
-- Servicios del lado del fabricante como AvtoFon KSA pueden coexistir con el reporte directo a servidores de terceros; confirme que el dispositivo esté configurado para apuntar a Plaspy cuando sea su intención.
-- Siempre valide la compatibilidad y los pasos exactos de configuración contra la documentación del fabricante antes de un despliegue a gran escala.
+- Las diferencias de firmware pueden cambiar cómo el rastreador formatea o secuencia los reportes; siempre verifique la versión de firmware del dispositivo al solucionar problemas.
+- Revisiones de hardware o modelos variantes pueden ofrecer capacidades de reporte diferentes aun bajo el mismo nombre de producto.
+- Los protocolos de servidor del fabricante y las plataformas en la nube pueden incluir funciones opcionales que no afectan el reporte básico a Plaspy, pero sí pueden modificar pasos de configuración avanzada.
+- La selección de transporte entre UDP y TCP puede influir en las características de entrega y debe ajustarse a la configuración del dispositivo y las políticas de red del operador.
+- Confirme si el dispositivo usa ajustes aprovisionados de fábrica o requiere actualización explícita de la dirección del servidor al integrarlo con plataformas de terceros.
+- Valide los detalles críticos de integración contra la documentación oficial del fabricante antes de desplegar a escala.
 
 ## Por qué es importante entender el protocolo
 
-Comprender cómo se comunica el Alpha-Beacon 2XL ayuda a asegurar una integración fluida con Plaspy y reduce el tiempo dedicado a problemas comunes de configuración y conectividad. Tener expectativas claras sobre lo que el rastreador reporta y cómo se conecta mejora la resolución de problemas y la fiabilidad operativa.
+Comprender de forma práctica el protocolo de comunicación ayuda a asegurar una puesta en marcha fluida, reportes consistentes y un diagnóstico eficaz al usar el Alpha-Beacon 2XL con Plaspy. Saber qué envía el rastreador y cómo se conecta a la plataforma reduce la ambigüedad durante la puesta en servicio y al investigar problemas intermitentes.
 
-- Ayuda a verificar que el dispositivo apunta al endpoint y puerto correctos de Plaspy para que los mensajes lleguen al servidor.
-- Facilita interpretar el comportamiento del equipo, como intervalos de reintento, respaldos por SMS y retransmisiones durante diagnósticos.
-- Mejora las decisiones de configuración sobre transporte, intervalos de reporte y modos de respaldo para equilibrar la vida útil de la batería y la fidelidad de reporte.
-- Apoya planes coordinados de actualización de firmware para evitar cambios inesperados en los reportes tras una actualización.
-- Permite una mejor planificación de cobertura y necesidades de monitoreo al desplegar rastreadores discretos de larga duración.
+- Facilita la configuración inicial del dispositivo al alinear los ajustes del servidor del rastreador con los requisitos del endpoint de Plaspy
+- Ayuda a interpretar la telemetría del dispositivo y la sincronización de eventos al revisar recorridos históricos y alertas
+- Mejora la velocidad de resolución de problemas de conectividad o vacíos en los reportes al centrar la investigación en variables de transporte y firmware
+- Permite planificar el impacto en la vida útil de la batería causado por la frecuencia de reporte y los reintentos de transporte
+- Auxilia en decisiones sobre usar SMS como respaldo o ajustar intervalos de reporte en entornos con cobertura limitada
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el Alpha-Beacon 2XL con Plaspy ofrece una forma práctica de consolidar el seguimiento en tiempo real, las alertas y la telemetría histórica de un rastreador de activos de larga duración en un único flujo de monitoreo. El almacenamiento robusto a bordo del dispositivo, la lógica de reintentos y la eSIM integrada complementan el manejo del lado del servidor de Plaspy y su detección automática de protocolos para simplificar las operaciones de flotas, gestores de activos y equipos de recuperación.
+Usar el AutoFon Alpha-Beacon 2XL con Plaspy ofrece una vía directa hacia el monitoreo centralizado para protección de activos a largo plazo e implantaciones discretas. Plaspy ingiere datos de ubicación y eventos reportados por GPRS o SMS y los presenta en flujos de trabajo de monitoreo que ayudan a los equipos a responder a robos, gestionar activos remotos y conservar registros históricos de telemetría.
 
-Plaspy acepta reportes al dominio d.plaspy.com y a la dirección IP 54.85.159.138 en el puerto 8888 y detecta automáticamente el protocolo del rastreador, por lo que la mayoría de las unidades Alpha-Beacon 2XL pueden incorporarse sin selección manual de protocolo. Para saber más sobre cómo Plaspy puede apoyar sus despliegues visite https://www.plaspy.com. Verifique siempre los detalles más recientes específicos del dispositivo, el comportamiento del firmware y las notas de implementación con el fabricante en https://www.autofon.ru/ ya que estos detalles pueden cambiar con el tiempo.
+Si desea obtener más información sobre cómo Plaspy maneja el reporte y el monitoreo de dispositivos, visite https://www.plaspy.com. Para la documentación específica más actualizada del protocolo del dispositivo, notas de firmware y guía del fabricante, verifique los detalles en el sitio oficial de AutoFon https://www.autofon.ru/ ya que el soporte de protocolo y el comportamiento del firmware pueden cambiar con el tiempo.

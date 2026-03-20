@@ -74,26 +74,26 @@ The JT301A is configured to report scheduled LBS location fixes and sensor event
 
 The JT301A can be configured using SMS messages. Send these public commands in the shown order. Replace placeholders with your actual values.
 
-- Type or enter the device ID in the command as {{trackerID}} before sending.
+- Type or enter the device ID in the command as [trackerID] before sending.
 
 1. Set the GPRS server, port, and APN
 ```text
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
-- Replace {{trackerID}} with the device ID.
+- Replace [trackerID] with the device ID.
 - Replace [apn] with your cellular provider APN name.
 - This command sets the GPRS server IP, port 8888, and the APN used for data.
 
 2. (Optional) Set APN user and password when your provider requires authentication
 ```text
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 - Replace [apnu] with the APN username if required.
 - Replace [apnp] with the APN password if required.
 - Send this command only if your network operator requires APN authentication.
 
 Notes on placeholders
-- {{trackerID}} is the device identifier printed on the device or provided by the manufacturer.
+- [trackerID] is the device identifier printed on the device or provided by the manufacturer.
 - [apn] is the access point name string for your cellular provider.
 - [apnu] and [apnp] are optional APN credentials required by some carriers.
 

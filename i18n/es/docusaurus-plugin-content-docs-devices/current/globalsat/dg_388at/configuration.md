@@ -79,23 +79,23 @@ Si su despliegue de DG-388AT usa el flujo estándar BLE + GPX, empareje con ez-C
 
 Los siguientes comandos de ejemplo se extraen de contenido de configuración publicado por el fabricante. Usan marcadores de posición que debe reemplazar por valores específicos del dispositivo antes de enviarlos. Preserve los marcadores de posición al preparar los comandos:
 
-- {{imei}} — reemplace con el IMEI del dispositivo cuando el formato del comando lo requiera.
+- [imei] — reemplace con el IMEI del dispositivo cuando el formato del comando lo requiera.
 - [apn], [apnu], [apnp] — marcadores para valores APN en variantes celulares; solo relevantes si su unidad admite configuración celular o por SMS.
-- {{checksum}} y {{checksumreeboot}} — valores de suma de comprobación hexadecimal calculados sobre el texto del comando antes del carácter '*'.
+- [checksum] y [checksumreeboot] — valores de suma de comprobación hexadecimal calculados sobre el texto del comando antes del carácter '*'.
 
 Comando principal de configuración (reemplazar marcadores y calcular checksum como se describe abajo):
 
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Comando opcional de reinicio (etiquételo como reinicio o paso de aplicación si es necesario):
 
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
-Cálculo de checksum (referencia pública): calcule una suma de comprobación de un solo byte mediante XOR sobre todo el texto del comando hasta, pero sin incluir, el carácter '*', luego convierta ese byte a una cadena hexadecimal en mayúsculas de dos dígitos. Coloque el valor hexadecimal resultante de dos caracteres en el marcador {{checksum}}. El ejemplo en JavaScript utilizado en el contenido público calcula el checksum por XOR de los códigos de carácter y lo convierte a hex en mayúsculas con dos caracteres.
+Cálculo de checksum (referencia pública): calcule una suma de comprobación de un solo byte mediante XOR sobre todo el texto del comando hasta, pero sin incluir, el carácter '*', luego convierta ese byte a una cadena hexadecimal en mayúsculas de dos dígitos. Coloque el valor hexadecimal resultante de dos caracteres en el marcador [checksum]. El ejemplo en JavaScript utilizado en el contenido público calcula el checksum por XOR de los códigos de carácter y lo convierte a hex en mayúsculas con dos caracteres.
 
 Importante: esos comandos estilo SMS aparecen en la documentación pública pero pueden aplicar solo a variantes o configuraciones que admitan SMS o comandos remotos. El flujo principal del DG-388AT sigue siendo la exportación por BLE a GPX y la importación en Plaspy, salvo que la documentación de su hardware o firmware confirme la configuración de servidor.
 

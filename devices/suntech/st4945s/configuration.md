@@ -77,7 +77,7 @@ The ST4945(S) is configured to report its location and device telemetry to a sha
 The ST4945(S) public configuration examples use SMS commands. First, determine the device id as shown in the public example: take the IMEI, remove the final IMEI check digit, then use the last six digits of the remaining string. Example: with IMEI 123456789012345, remove the last digit to get 12345678901234, then the device id is 901234.
 
 Placeholders used below:
-- {{device_id}} = the six digit device id derived from the IMEI as described above
+- [device_id] = the six digit device id derived from the IMEI as described above
 - [apn] = your mobile network APN
 - [apnu] = APN username if required by your carrier (leave empty if not used)
 - [apnp] = APN password if required by your carrier (leave empty if not used)
@@ -87,26 +87,26 @@ Placeholders used below:
 - Send this SMS to the device, replacing placeholders and setting the username flag to 1 if apnu or apnp is provided, otherwise 0.
 
 ```
-SA200NTW;{{device_id}};02;<username_flag>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;<username_flag>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 2) Set the reporting interval to 60 seconds (public example)
 - This SMS configures periodic reporting cadence.
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Verify current preset settings
 - Use this SMS to request preset configuration A for review.
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Notes about placeholders and flags
 - [apn] is required for data reporting. If your APN requires credentials supply [apnu] and [apnp] and set \<username_flag> to 1. If no credentials are required set \<username_flag> to 0.
-- Replace {{device_id}} with the six digit id calculated from the IMEI as described above.
+- Replace [device_id] with the six digit id calculated from the IMEI as described above.
 - These commands are public-format examples; adapt exact field ordering to match the firmware release on your unit and confirm the command syntax in the official Suntech documentation if unsure.
 
 ## Configuration Notes

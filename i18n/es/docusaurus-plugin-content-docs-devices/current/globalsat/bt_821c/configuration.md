@@ -81,29 +81,29 @@ TSPRXAB27GHKLMnaicz*U!
 
 1) Comando de configuración
 - Propósito: configurar APN y apuntar el dispositivo a Plaspy por IP y puerto
-- Reemplace {{imei}} con el IMEI del dispositivo, [apn] con el APN, [apnu] con el usuario APN y [apnp] con la contraseña APN. El checksum final debe calcularse y sustituirse por {{checksum}}.
+- Reemplace [imei] con el IMEI del dispositivo, [apn] con el APN, [apnu] con el usuario APN y [apnp] con la contraseña APN. El checksum final debe calcularse y sustituirse por [checksum].
 
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 2) Comando de reinicio (opcional o requerido según el caso)
 - Propósito: reiniciar el dispositivo para aplicar ajustes
-- Reemplace {{imei}} y calcule {{checksumreeboot}} para el comando de reinicio.
+- Reemplace [imei] y calcule [checksumreeboot] para el comando de reinicio.
 
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Generación de checksum
 - El checksum mostrado en el contenido publicado se calcula como un XOR byte a byte de todos los caracteres antes del asterisco, y luego se convierte a una cadena hexadecimal de dos dígitos en mayúsculas. Asegúrese de calcular e insertar el valor de checksum exactamente según lo requiera el firmware de su dispositivo.
 
 Marcadores de posición explicados
-- {{imei}} — IMEI o identificador del dispositivo requerido por el formato de comando SMS.
+- [imei] — IMEI o identificador del dispositivo requerido por el formato de comando SMS.
 - [apn] — Nombre del punto de acceso para datos celulares si el tracker o gateway usa conectividad celular.
 - [apnu] — Usuario APN cuando sea necesario.
 - [apnp] — Contraseña APN cuando sea necesaria.
-- {{checksum}} y {{checksumreeboot}} — valores de checksum calculados e insertados en el comando.
+- [checksum] y [checksumreeboot] — valores de checksum calculados e insertados en el comando.
 
 Si su unidad BT-821C específica o el tracker conectado no soportan configuración por SMS, utilice el software del fabricante o la interfaz de configuración del gateway. Verifique siempre la sintaxis de los comandos con la documentación del proveedor.
 

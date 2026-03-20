@@ -2,95 +2,91 @@
 slug: /navtelekom/signal_s_2117/configuration
 id: signal_s_2117-configuration
 sidebar_label: Configuration
-title: Navtelekom - Signal S-2117 Configuration
+title: Navtelekom - СИГНАЛ S-2117 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública para configurar el Navtelekom Signal S-2117 con Plaspy, parámetros de servidor y pasos prácticos para integrar el rastreador
+description: Configure el Navtelekom СИГНАЛ S-2117 para Plaspy con ajustes de servidor y guía práctica para un rastreo de flotas confiable
 keywords:
-  - Configuración Navtelekom Signal S-2117
-  - Instalación Navtelekom Signal S-2117
-  - Signal S-2117 Plaspy
-  - Configuración servidor Signal S-2117
-  - Configuración rastreador GPS Signal S-2117
-  - Integración rastreador Plaspy
-  - Guía configuración plataforma GPS
-  - Rastreo vehicular Signal S-2117
-  - Rastreo de flotas Navtelekom
-  - Detección protocolo rastreador
+  - Configuración Navtelekom СИГНАЛ S-2117
+  - Configuración Navtelekom para Plaspy
+  - Configuración de servidor СИГНАЛ S-2117
+  - Configuración de rastreador GPS Plaspy
+  - Rastreo de flotas con rastreador GNSS
+  - Integración de telemetría vehicular
+  - Configuración sensor de combustible RS-485
+  - Rastreador de temperatura 1-Wire
+  - Configuración del servidor Plaspy
+  - Detección de protocolo de rastreador
 ---
 
-# Navtelekom - Configuración del Signal S-2117
+# Navtelekom - СИГНАЛ S-2117 Configuración
 
-Esta página documenta el contexto público de configuración para usar el Navtelekom Signal S-2117 con Plaspy. Se centra en los ajustes de servidor compartidos y en los pasos prácticos que usted puede seguir para apuntar el dispositivo a Plaspy, de modo que el rastreador sea visible en la plataforma para reportes de ubicación, alarmas y control remoto.
+Esta página documenta el contexto de configuración pública para usar el Navtelekom СИГНАЛ S-2117 con Plaspy. Se centra en los ajustes prácticos del servidor y el flujo de configuración necesario para apuntar el dispositivo a Plaspy, de modo que el rastreador pueda transmitir posición GNSS, telemetría y eventos a la plataforma. La guía utiliza valores públicos del servidor Plaspy y contexto general del fabricante sin reproducir manuales propietarios.
 
-Plaspy utiliza ajustes de servidor comunes para los dispositivos soportados y detecta automáticamente el protocolo del rastreador, pero los pasos exactos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. El Signal S-2117 soporta reportes por GSM y GLONASS/GPS y ofrece interfaces como RS-485 y 1-Wire, útiles para sensores auxiliares; confirme los procedimientos de configuración específicos del equipo con la documentación de Navtelekom antes de realizar cambios.
+Plaspy emplea ajustes de servidor compartidos entre dispositivos soportados y detecta automáticamente el protocolo del rastreador, aunque los pasos exactos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Para el S-2117, que está descontinuado pero sigue siendo utilizable, consulte las utilidades de configuración de Navtelekom o el manual oficial para procedimientos en el dispositivo; esta página explica qué introducir para compatibilidad con Plaspy y el flujo típico para validar la conectividad.
 
-## Resumen de la configuración
+## Resumen de configuración
 
-Configurar el Signal S-2117 para Plaspy prepara el dispositivo para enviar datos de posición y eventos a la plataforma y garantiza que el rastreador sea detectado y administrable dentro de Plaspy. Los siguientes puntos resumen los objetivos prácticos del proceso de configuración.
+Configurar el СИГНАЛ S-2117 para Plaspy prepara el rastreador para enviar posición GNSS y telemetría a un entorno centralizado de gestión de flotas. La configuración práctica garantiza que el dispositivo apunte al endpoint del servidor de Plaspy y use los ajustes de transporte correctos para que Plaspy pueda ingerir los datos y mostrarlos en paneles, alertas e informes.
 
-- Configurar el dispositivo para que informe al servidor de Plaspy y así lleguen a la plataforma eventos de ubicación y alarma.
-- Asegurar la conectividad celular correcta y los ajustes de APN o de red necesarios para la transferencia de datos.
-- Seleccionar el protocolo de transporte (UDP o TCP) requerido por el firmware del dispositivo y apuntarlo al puerto de Plaspy para que la plataforma reciba los mensajes.
-- Validar la conectividad y confirmar que el dispositivo aparece en Plaspy, verificando actualizaciones de posición y eventos básicos.
-- Guardar y aplicar la configuración en el rastreador y reiniciarlo si el firmware requiere reboot para aplicar cambios de red.
+- Apunte el rastreador a la dirección del servidor de Plaspy para que los mensajes lleguen a su cuenta.
+- Configure el dispositivo para usar el puerto compartido de Plaspy y permitir que la plataforma reciba y procese las entradas.
+- Seleccione el modo de transporte (UDP o TCP) en el rastreador si la herramienta de configuración del fabricante lo solicita.
+- Guarde y aplique los ajustes en la utilidad del fabricante y reinicie el rastreador si se indica.
+- Valide que el rastreador aparezca en Plaspy y verifique telemetría como ubicación, alarmas y sensores de combustible o temperatura.
 
-## Ajustes del servidor Plaspy
+## Ajustes del servidor de Plaspy
 
-Use los siguientes ajustes públicos de Plaspy al configurar el Signal S-2117. Plaspy usa el mismo puerto para todos los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, por lo que estos valores se mantienen consistentes entre tipos de equipo.
+- El dominio del servidor d.plaspy.com debe ingresarse como el endpoint principal del dispositivo.
+- Si la herramienta del fabricante requiere una dirección IP en lugar del dominio, puede usar 54.85.159.138.
+- El puerto 8888 es el puerto compartido que utiliza Plaspy para todos los rastreadores soportados.
+- El dispositivo puede configurarse para UDP o TCP; seleccione el transporte que prefiera o el que requiera el aparato.
+- Plaspy detecta automáticamente el protocolo del rastreador, por lo que no es necesario indicar un tipo de protocolo dentro de Plaspy.
 
-- server domain d.plaspy.com
-- server IP 54.85.159.138
-- port 8888
-- transport support for UDP or TCP
-- automatic protocol detection in Plaspy
+## Requisitos previos típicos
 
-## Requisitos típicos antes de empezar
-
-- El dispositivo debe tener alimentación y estar accesible para que el instalador o técnico realice la configuración.
-- SIM activa con plan de datos y cobertura GSM en la zona donde operará el vehículo, ya que el Signal S-2117 usa conectividad celular.
-- Conexiones de antena y cualquier sensor externo (dispositivos RS-485, sensores 1-Wire) instalados y asegurados si necesita telemetría de esos sensores.
-- Acceso al método de configuración oficial de Navtelekom, como software de PC del fabricante, interfaz web o proceso por SMS/comandos AT.
-- Registro de identificadores del equipo, como IMEI, para verificar la unidad correcta en Plaspy tras el registro.
-- Conocimiento de los parámetros APN del operador si la SIM requiere APN personalizado, usuario o contraseña para establecer la sesión de datos.
+- Asegúrese de que el S-2117 tenga una SIM GSM válida y servicio celular activo si el dispositivo se comunica vía GSM según lo describe el fabricante.
+- Alimente el dispositivo con una fuente estable y confirme que la unidad arranca y muestra los indicadores LED según el manual.
+- Tenga acceso al método de configuración oficial de Navtelekom o al software del proveedor, por ejemplo la herramienta de configuración referenciada en la documentación del producto.
+- Conozca el IMEI o identificador único del dispositivo para poder correlacionarlo en Plaspy cuando empiece a reportar.
+- Tenga su cuenta de Plaspy lista para recibir y verificar el dispositivo; confirme el alcance de la cuenta y los permisos necesarios para añadir rastreadores.
+- Si el rastreador usa conectores desmontables o sensores externos (por ejemplo sensores de combustible RS-485 o sondas 1-Wire), asegúrese de que el cableado y los sensores estén conectados según lo requerido antes de validar.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-El Signal S-2117 envía posiciones y notificaciones de eventos al endpoint del servidor Plaspy, de modo que los gestores de flota puedan monitorear vehículos, responder a alarmas y usar funciones de control remoto. Configure el dispositivo para que apunte al endpoint y puerto compartidos de Plaspy y la plataforma identificará automáticamente el protocolo correcto.
+Cuando se configura para apuntar a Plaspy, el СИГНАЛ S-2117 envía su posición GNSS, flujos de telemetría y mensajes de eventos al servidor y puerto compartidos de Plaspy. Plaspy ingiere estos mensajes y los asigna a canales de ubicación, alarmas y telemetría disponibles en la plataforma.
 
-- El rastreador transmite datos GNSS al dominio o IP del servidor Plaspy en el puerto especificado.
-- Eventos de alarma y pánico se reenvían a Plaspy para que los operadores puedan recibir notificaciones.
-- La telemetría de interfaces como RS-485 y 1-Wire puede enviarse a Plaspy cuando está configurada y soportada por el firmware del dispositivo.
-- El equipo debe apuntar al endpoint y puerto compartidos de Plaspy para que todos los mensajes lleguen al mismo destino en la plataforma.
-- La detección automática de protocolos de Plaspy identifica el protocolo del rastreador y decodifica los mensajes para mostrarlos en la plataforma.
+- El rastreador se configura para reportar al endpoint y puerto compartidos de Plaspy, incluyendo d.plaspy.com o 54.85.159.138 y el puerto 8888.
+- Plaspy detecta automáticamente el protocolo utilizado por el rastreador y analiza los mensajes entrantes para extraer ubicación y telemetría.
+- Posiciones GPS/GLONASS, eventos de alarma, alertas de manipulación y telemetría de sensores se reenvían a Plaspy para monitoreo en tiempo real.
+- Lecturas de combustible desde sensores RS-485 y datos de temperatura o identificación desde interfaces 1-Wire se transmiten como campos de telemetría visibles en Plaspy.
+- Eventos de control remoto y señales de pánico o voz bidireccional se representan como eventos o controles en la plataforma según los tipos de mensaje del dispositivo.
 
-## Flujo de trabajo típico de configuración
+## Flujo de configuración habitual
 
-Siga estos pasos prácticos como flujo de trabajo típico para configurar el Signal S-2117 con Plaspy. Los menús y comandos exactos dependen del firmware de Navtelekom y de la herramienta del fabricante utilizada.
-
-1. Acceda al método de configuración oficial de Navtelekom o al software para el Signal S-2117 (herramienta de PC del fabricante, interfaz web o interfaz de comandos por SMS).
-2. Asegúrese de que el dispositivo tenga energía, la SIM insertada y señal GSM antes de intentar la configuración de red.
-3. Ingrese la dirección del servidor Plaspy usando el dominio d.plaspy.com o la IP 54.85.159.138 en los ajustes de servidor del dispositivo.
-4. Configure el puerto de destino en 8888; tenga en cuenta que Plaspy utiliza este mismo puerto para todos los dispositivos.
-5. Seleccione UDP o TCP como transporte si el equipo requiere elegir uno; use el transporte compatible con su firmware y la red.
-6. Aplique o guarde la configuración en la herramienta de gestión del dispositivo y reinícielo si el firmware lo solicita para aplicar cambios.
-7. Valide que el rastreador informe a Plaspy comprobando las primeras actualizaciones de posición y mensajes de evento en la plataforma.
+1. Acceda al método de configuración oficial de Navtelekom o al software recomendado por el fabricante, por ejemplo el configurador del proveedor o la herramienta web/serie descrita en la documentación del producto.
+2. En los ajustes de servidor o de reporte, ingrese el servidor de Plaspy como d.plaspy.com o, si la herramienta requiere IP, 54.85.159.138.
+3. Establezca el puerto de destino en 8888, ya que Plaspy usa el mismo puerto para todos los dispositivos soportados.
+4. Seleccione UDP o TCP si el dispositivo solicita elegir el transporte durante la configuración; ambos son compatibles con Plaspy.
+5. Aplique o guarde la configuración del dispositivo usando la herramienta del fabricante y siga las indicaciones para escribir los ajustes en la memoria del equipo.
+6. Reinicie el equipo si el procedimiento del fabricante o la herramienta exige un reinicio para activar los nuevos parámetros de red.
+7. Valide que el dispositivo informa a Plaspy comprobando su cuenta Plaspy para el IMEI o identificador y confirmando la llegada de posiciones y mensajes de telemetría.
 
 ## Ejemplos de comandos de configuración
 
-El método de configuración del Signal S-2117 varía según la herramienta de Navtelekom y la revisión de firmware. En esta página no se incluyen comandos públicos universales. Use el software oficial de Navtelekom o el manual del dispositivo para la sintaxis exacta y el orden de los comandos. Las herramientas típicas del fabricante permitirán ajustar el dominio o IP del servidor, el puerto, el transporte y el APN dentro de una interfaz guiada.
+El S-2117 utiliza herramientas y procedimientos de configuración proporcionados por el fabricante que pueden variar con el firmware y el conjunto de utilidades. No se incluyen aquí cadenas de comandos o SMS exactos porque las utilidades oficiales de Navtelekom y el firmware determinan el método. Use la utilidad del proveedor o el manual del dispositivo para introducir el dominio o IP del servidor y el puerto 8888, y seleccione UDP o TCP cuando corresponda.
 
-Si dispone de comandos SMS o estilo AT provistos por Navtelekom, aplíquelos en el orden indicado en la documentación oficial. Mantenga a mano los valores de APN y credenciales si el equipo los requiere durante la configuración.
+Si dispone de ejemplos concretos de comandos de Navtelekom o de un script de configuración suministrado por el proveedor, incorpórelos en su documentación interna y aplíquelos en el orden exacto recomendado por el fabricante.
 
 ## Notas de configuración
 
-- Diferencias de firmware y revisiones de hardware pueden cambiar la ubicación de menús y la sintaxis de comandos; registre la versión de firmware antes de realizar cambios.
-- Al elegir entre UDP y TCP, considere la fiabilidad de la red. Plaspy acepta ambos transportes y usted debe seleccionar la opción compatible con su firmware.
-- Confirme APN, usuario y contraseña con el operador móvil al configurar el acceso de datos; un APN incorrecto impedirá que el dispositivo establezca la sesión de datos.
-- Si usa sensores externos a través de RS-485 o 1-Wire, verifique que el firmware del dispositivo permita reenviar esos valores al servidor de rastreo.
-- Consulte siempre la documentación de Navtelekom para pasos específicos del dispositivo y cualquier referencia a comandos por SMS.
+- El S-2117 es un modelo descontinuado; las versiones de firmware y las herramientas del proveedor pueden variar entre dispositivos y archivos de software. Verifique que la herramienta y el firmware que use coincidan con la revisión del equipo.
+- La elección entre TCP y UDP puede afectar el comportamiento de entrega. Si la red y el dispositivo soportan ambos, elija el transporte que mejor se adapte a la fiabilidad de su red y a las reglas de firewall.
+- Plaspy usa el mismo puerto para todos los dispositivos soportados y detecta automáticamente el protocolo, por lo que una vez que el dispositivo apunte a d.plaspy.com o a 54.85.159.138 en el puerto 8888, Plaspy intentará la detección del protocolo.
+- Mantenga una copia del archivo de configuración del fabricante o exporte la configuración antes de realizar cambios para poder restaurar ajustes previos si es necesario.
+- Consulte la documentación del proveedor para la calibración y el mapeo de sensores (por ejemplo sensores de combustible RS-485 o sondas de temperatura 1-Wire) para que los campos de telemetría se interpreten correctamente en Plaspy.
 
 ## Por qué usar Plaspy con esta configuración
 
-Configurar el Navtelekom Signal S-2117 para que reporte a Plaspy brinda a los equipos de operaciones visibilidad consistente de la ubicación de los vehículos, alarmas y datos de sensores conectados en una sola plataforma. Usar el endpoint y puerto compartidos de Plaspy simplifica el despliegue en flotas mixtas, ya que todos los dispositivos usan el mismo destino y la plataforma detecta automáticamente el protocolo del equipo.
+Integrar el Navtelekom СИГНАЛ S-2117 con Plaspy ofrece a los operadores de flota una vía directa para añadir ubicación GNSS, telemetría de sensores y reporte de alarmas en una plataforma centralizada. Para flotas que requieren monitoreo de combustible, registro de temperatura e identificación de conductores, configurar el rastreador para reportar a Plaspy proporciona visibilidad consolidada y flujos de trabajo basados en eventos en activos distribuidos.
 
-Learn more about Plaspy and platform capabilities at https://www.plaspy.com. For the latest device-specific setup instructions, firmware notes, and manufacturer tools, verify details with the official Navtelekom website https://www.navtelecom.ru/ since manufacturer specifications and setup methods can change over time.
+Para conocer más sobre Plaspy y las capacidades de la plataforma visite https://www.plaspy.com. Verifique los métodos de configuración específicos más recientes, el comportamiento del firmware y los detalles del fabricante en https://www.navtelecom.ru/ dado que los procedimientos del proveedor y el firmware pueden cambiar con el tiempo.

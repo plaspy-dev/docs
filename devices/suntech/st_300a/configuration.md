@@ -77,20 +77,20 @@ The ST 300A is configured to send its location and status messages to the shared
 The Suntech ST 300A supports SMS-based configuration. The public example commands below are adapted from the manufacturer content and use a computed deviceId placeholder. Compute deviceId as the nine digits taken from the IMEI after removing the first five digits and excluding the final digit. For example, if IMEI is 123456789012345, the deviceId would be 678901234.
 
 Important placeholders
-- {{deviceId}} — the 9 digit device identifier extracted from the IMEI as described above
+- [deviceId] — the 9 digit device identifier extracted from the IMEI as described above
 - [apn] — the operator APN name
 - [apnu] — the APN username if required by the operator
 - [apnp] — the APN password if required by the operator
 
 1. (Optional initial step) Reset factory settings
 ```text
-ST300CMD;{{deviceId}};02;Reset
+ST300CMD;[deviceId];02;Reset
 ```
 Label this reset step optional and use only if you need to return the device to factory defaults before reconfiguration.
 
 2. Set the operator APN and GPRS server including Plaspy server IP and port
 ```text
-ST300NTW;{{deviceId}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[deviceId];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - The fourth field (here shown as 1) may indicate use of APN credentials when required; include 0 or 1 according to the device command syntax.
 - Replace [apn], [apnu], and [apnp] with the mobile operator values. If your operator does not require a username or password, leave [apnu] and [apnp] empty as supported by the command format.
@@ -98,13 +98,13 @@ ST300NTW;{{deviceId}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 
 3. Set update/reporting interval to 60 seconds
 ```text
-ST300RPT;{{deviceId}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[deviceId];02;60;60;60;3;0;0;0;0;0
 ```
 - These parameters configure periodic reporting intervals and related behavior. Keep the order and values as required by the device command reference.
 
 4. Verify current settings
 ```text
-ST300CMD;{{deviceId}};02;PresetA
+ST300CMD;[deviceId];02;PresetA
 ```
 - Use this command to request a configuration check from the device.
 

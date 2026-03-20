@@ -80,20 +80,20 @@ The Gator M508 manufacturer sample uses SMS commands to set the GPRS server and 
 
 1) Template when APN username and password are required
 ```
-SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*[DeviceID]*,*[phoneNumberUser]*,*123456*
 ```
 
 2) Template when only APN is required
 ```
-S,*[apn]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+S,*[apn]*,*54.85.159.138*,*8888*,*[DeviceID]*,*[phoneNumberUser]*,*123456*
 ```
 
 Notes on placeholders
 - [apn] — your SIM card APN name.  
 - [apnu] — APN username if required by your mobile operator.  
 - [apnp] — APN password if required by your mobile operator.  
-- {{DeviceID}} — the tracker device identifier, commonly the IMEI.  
-- {{phoneNumberUser}} — the phone number to associate for alerts or admin SMS.  
+- [DeviceID] — the tracker device identifier, commonly the IMEI.  
+- [phoneNumberUser] — the phone number to associate for alerts or admin SMS.  
 - 123456 — the sample device password shown in the manufacturer example and the default password included in the sample command. Replace with the device password in use if different.
 
 Send the appropriate SMS from an authorized number to the M508. After sending, allow the device time to register on the network and for Plaspy to detect the incoming connection.

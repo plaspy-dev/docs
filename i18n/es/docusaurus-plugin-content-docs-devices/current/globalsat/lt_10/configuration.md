@@ -81,26 +81,26 @@ Formato de ejemplo usado por Plaspy:
 TSPRXAB27GHKLMnaicz*U!
 
 Ejemplo de comando de configuración
-- Reemplace {{imei}} por el IMEI del dispositivo
+- Reemplace [imei] por el IMEI del dispositivo
 - Reemplace [apn], [apnu], [apnp] por su APN, nombre de usuario APN y contraseña APN cuando el dispositivo lo requiera
-- {{checksum}} es la suma de verificación hexadecimal de dos caracteres calculada sobre los caracteres del comando antes del asterisco como se describe más abajo
+- [checksum] es la suma de verificación hexadecimal de dos caracteres calculada sobre los caracteres del comando antes del asterisco como se describe más abajo
 
 Comando de configuración (enviar por SMS)
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Comando de reinicio (opcional, usar si el dispositivo requiere reboot para aplicar los ajustes)
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Cálculo del checksum
-- El checksum se calcula como un XOR de los códigos ASCII de cada carácter en la cadena del comando antes del caracter '*'. El resultado se convierte a un valor hexadecimal de dos dígitos en mayúsculas y se coloca donde aparece {{checksum}}.
+- El checksum se calcula como un XOR de los códigos ASCII de cada carácter en la cadena del comando antes del caracter '*'. El resultado se convierte a un valor hexadecimal de dos dígitos en mayúsculas y se coloca donde aparece [checksum].
 - Muchas herramientas de configuración del fabricante calculan este checksum automáticamente. Si lo calcula manualmente, asegúrese de que tenga dos caracteres en hexadécimal en mayúsculas.
 
 Notas sobre los marcadores
-- {{imei}}: número IMEI del dispositivo requerido por el formato del comando.
+- [imei]: número IMEI del dispositivo requerido por el formato del comando.
 - [apn]: cadena APN para datos GPRS si el dispositivo usa datos celulares.
 - [apnu] y [apnp]: nombre de usuario y contraseña del APN cuando sean necesarios.
 - Mantenga el orden y la puntuación del comando exactamente como se muestran al enviar los SMS.

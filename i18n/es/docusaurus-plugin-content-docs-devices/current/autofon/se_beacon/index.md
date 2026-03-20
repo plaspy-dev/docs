@@ -1,62 +1,63 @@
 ---
 slug: /autofon/se_beacon
 id: se_beacon
-sidebar_key: autofose_beacon_index_se_beacon
 sidebar_label: SE+ Beacon
 title: AutoFon - SE+ Beacon
 sidebar_class_name: menu_item_tracker
-description: Rastreador GPS compacto compatible con Plaspy para monitorización discreta y prolongada de vehículos y activos con GPRS, SMS y batería de larga duración
+description: Rastreador GPS compacto compatible con Plaspy para monitoreo discreto a largo plazo de vehículos y activos con alertas fiables
 keywords:
   - AutoFon SE+ Beacon
-  - SE+ Beacon
   - Rastreador AutoFon
-  - Rastreador GPS
-  - seguimiento de activos
-  - rastreo de vehículos
-  - rastreador encubierto
-  - GPS con batería de larga duración
+  - SE+ Beacon GPS
   - Rastreador compatible con Plaspy
-  - seguimiento de flotas
+  - rastreo encubierto de activos
+  - rastreador de larga duración de batería
+  - rastreador GPRS SMS
+  - monitoreo de vehículos
+  - rastreador con detección de impactos
+  - rastreador GPS diminuto
 ---
 
 # AutoFon - SE+ Beacon
 
 ![SE+ Beacon](./tracker.png)
 
-El AutoFon SE+ Beacon es un rastreador GPS compacto diseñado para la monitorización discreta y prolongada de vehículos y activos, tanto móviles como estacionarios. Integra posicionamiento GPS y GLONASS con reporte por GPRS y retroceso por SMS, ofreciendo telemetría de ubicación y alertas de eventos mientras optimiza el mantenimiento y la vida útil de la batería. Su tamaño reducido y su funcionamiento silencioso lo hacen ideal cuando la baja detectabilidad y un servicio mínimo son prioridades.
+El AutoFon SE+ Beacon es un rastreador GPS compacto compatible con Plaspy, diseñado para el monitoreo discreto a largo plazo de vehículos y otros activos móviles o estacionarios. Combina posicionamiento por GPS y GLONASS con canales de reporte basados en GSM para ofrecer telemetría de ubicación y alertas de eventos confiables, al tiempo que optimiza la duración de la batería. Su reducido tamaño de 69 × 51 × 22 mm y su orientación hacia largos intervalos de servicio lo hacen idóneo para despliegues donde la baja detectabilidad y el mantenimiento mínimo son prioridades.
 
-Como dispositivo compatible con Plaspy, el SE+ Beacon puede enviar posiciones y eventos a Plaspy para monitoreo en tiempo real, alertas y reproducción histórica. Sus vías de reporte dual, mensajes de latido configurables y un amplio búfer offline ayudan a mantener la visibilidad en Plaspy incluso cuando la cobertura de red es intermitente, mientras que los eventos impulsados por el acelerómetro y un canal auxiliar proporcionan señales accionables para flotas o procesos de gestión de activos dentro de la plataforma Plaspy.
+Como dispositivo que puede enviar posiciones y datos de eventos a plataformas de terceros, el SE+ Beacon es relevante para los usuarios de Plaspy que requieren hardware de rastreo ligero y resistente. El equipo soporta reportes por GPRS con SMS como respaldo y ofrece alertas por movimiento, inclinación e impactos, además de entrada SOS y un canal auxiliar de control. Estas capacidades se integran directamente en los flujos de trabajo de Plaspy para mapas en tiempo real, alertas y reproducción histórica, ayudando a los equipos a mantener supervisión con un rastreador de baja visibilidad.
 
-## Características principales
+## Puntos clave
 
-- Factor de forma compacto y discreto, adecuado para despliegues prolongados en vehículos o activos.
-- Posicionamiento GPS y GLONASS para datos de ubicación confiables.
-- Modos de reporte duales: GPRS para seguimiento en tiempo real y SMS como canal de respaldo.
-- Detección de movimiento, inclinación e impactos, además de un botón SOS micro para alertas por evento.
-- Canal auxiliar y entrada de alarma para acciones remotas como inmovilizador o control de relé.
-- Amplio búfer offline para almacenar paquetes no enviados y soporte para actualizaciones de firmware remotas para simplificar el mantenimiento.
+- Factor de forma compacto y discreto, ideal para instalaciones encubiertas o con espacio limitado.
+- Posicionamiento por GPS y GLONASS para datos de ubicación confiables.
+- Rutas de reporte duales: GPRS para telemetría habitual y SMS como alternativa de respaldo.
+- Diseño orientado a larga duración de batería, adecuado para despliegues prolongados con mantenimiento esporádico.
+- Detección de movimiento, inclinación e impactos, y alertas SOS para notificaciones basadas en eventos.
+- Canal auxiliar y entrada de alarma para acciones de control remoto y control de dispositivos externos.
+- Amplio búfer offline para almacenar paquetes de ubicación no enviados y garantizar resiliencia de datos.
 
 ## Cómo funciona con Plaspy
 
-Al integrarse con Plaspy, el SE+ Beacon envía posiciones GNSS y telemetría de eventos a los servidores de Plaspy mediante GPRS, utilizando SMS como método de notificación de respaldo. Plaspy procesa esos mensajes para mostrar ubicaciones en mapas en vivo, activar alertas configurables y mantener registros históricos para reproducción e informes, mientras que el comportamiento de latidos y del búfer del dispositivo ayuda a garantizar la continuidad de los datos.
+Cuando se utiliza con Plaspy, el SE+ Beacon entrega posiciones GNSS y mensajes de eventos a los servidores de Plaspy para que las ubicaciones, alertas e historial estén disponibles en los paneles de Plaspy. Plaspy procesa los datos del dispositivo para mostrar seguimiento en vivo, generar notificaciones y crear trazas de reproducción, adaptándose al comportamiento de latido y al almacenamiento en búfer offline del dispositivo.
 
-- Ubicación y telemetría en tiempo real visibles en los paneles de Plaspy para supervisión operativa.
-- Reenvío de eventos por inicio y parada de movimiento, inclinación, impactos y pulsaciones de SOS como alertas configurables.
-- Reportes de la entrada de alarma y control del canal auxiliar que pueden utilizarse para acciones remotas autorizadas dentro de los flujos de trabajo gestionados por Plaspy.
-- Notificaciones por SMS y enlaces de mapa como alternativas de alerta cuando sea necesario.
-- Resiliencia offline: el búfer del dispositivo asegura que los paquetes almacenados se entreguen a Plaspy una vez que se restablece la conectividad.
-- Mensajes de latido configurables que ayudan a Plaspy a detectar la salud del dispositivo y la frecuencia de reporte.
+- Actualizaciones de ubicación y telemetría en tiempo real mostradas en los mapas de Plaspy para visibilidad operativa.
+- Reenvío de eventos como inicio y parada de movimiento, alertas por inclinación e impacto, y disparos SOS para que los equipos reciban notificaciones útiles.
+- Las señales del canal auxiliar y la entrada de alarma pueden reflejarse en los flujos de trabajo de Plaspy para acciones remotas autorizadas o procedimientos de respuesta.
+- El modo de respaldo por SMS y las notificaciones basadas en SMS ofrecen una vía alternativa de entrega de alertas donde la cobertura de datos es limitada.
+- El comportamiento del búfer offline permite que Plaspy recupere la telemetría histórica tras interrupciones temporales de conectividad.
 
 ## Casos de uso típicos
 
-- Monitorización encubierta y prolongada de vehículos como autos, motocicletas y embarcaciones pequeñas.
-- Rastreo de activos como remolques, contenedores y carga de alto valor con alertas por movimiento e impacto.
-- Monitorización remota de ubicaciones estacionarias como cabañas, cajas de servicios o almacenamiento de equipos donde las comprobaciones poco frecuentes extienden la batería.
-- Seguimiento discreto de personas o mascotas con alertas SOS para atención inmediata.
-- Supervisión de pequeñas flotas de equipos y remolques que dependen de la ubicación y alertas de eventos más que de telemetría vehicular completa.
+- Monitoreo encubierto a largo plazo de vehículos como automóviles, motocicletas y embarcaciones pequeñas.
+- Rastreo de activos como contenedores, remolques y cargas valiosas con alertas por movimiento e impacto.
+- Vigilancia remota de sitios estacionarios como cabañas, cocheras o recintos de equipos con registros de consulta poco frecuentes.
+- Localización personal o de mascotas donde el factor de forma discreto y las alertas SOS son importantes.
+- Supervisión de pequeñas flotas de equipos y remolques cuando se requieren dispositivos compactos y notificaciones por eventos.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El SE+ Beacon es una opción práctica para organizaciones que usan Plaspy y requieren un rastreador de perfil bajo y bajo mantenimiento con reporte de ubicación confiable y alertas por eventos. Su reporte principal por GPRS junto con el respaldo por SMS, combinado con un búfer offline considerable y soporte para actualizaciones remotas, ayuda a reducir vacíos de datos y simplifica despliegues a gran escala gestionados desde Plaspy.
+El AutoFon SE+ Beacon es una opción práctica para organizaciones que usan Plaspy cuando las prioridades son la instalación discreta, largos intervalos de servicio y telemetría fiable basada en eventos más que telemática vehicular completa. Su combinación de posicionamiento GNSS, rutas de reporte duales, detección de eventos y un considerable búfer offline ayuda a reducir brechas de datos y apoya flujos de trabajo orientados a antirrobo y seguridad gestionados a través de Plaspy.
 
-Para flotas u operaciones que necesiten telemetría adicional más allá de ubicación y eventos, el SE+ Beacon puede complementar las soluciones más amplias de Plaspy cuando sensores externos o integraciones proporcionan señales específicas. Si desea obtener más información sobre la gestión de rastreadores compatibles y funciones en Plaspy, visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones actuales en el sitio oficial del fabricante https://www.autofon.ru/.
+Para operaciones que requieren señales adicionales como métricas detalladas del motor o consumo de combustible, el SE+ Beacon puede integrarse en un despliegue Plaspy más amplio junto a otros sensores o integraciones para cubrir esas necesidades. La configuración remota y la gestión de firmware por aire facilitan el manejo de dispositivos a escala mientras Plaspy proporciona la visibilidad, las alertas y los informes necesarios para convertir eventos de dispositivo en información operativa.
+
+Para obtener más información sobre el uso de Plaspy con hardware compatible visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique la información técnica actual en el sitio del fabricante https://www.autofon.ru/.

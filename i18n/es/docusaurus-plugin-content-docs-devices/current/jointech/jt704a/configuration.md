@@ -73,18 +73,18 @@ El JT704A se configura para enviar su posición y datos de sensores al endpoint 
 
 ## Ejemplos de comandos de configuración
 
-Para configurar el JT704A mediante SMS, envíe los comandos SMS específicos del dispositivo con el ID correcto. Escriba el ID del dispositivo donde aparece {{trackerID}}. Los comandos abajo están presentados en el mismo orden que la guía pública del fabricante.
+Para configurar el JT704A mediante SMS, envíe los comandos SMS específicos del dispositivo con el ID correcto. Escriba el ID del dispositivo donde aparece [trackerID]. Los comandos abajo están presentados en el mismo orden que la guía pública del fabricante.
 
 1. Establecer servidor GPRS y APN
 ```text
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
-- Reemplace {{trackerID}} por el ID del dispositivo impreso en su unidad o suministrado por el fabricante.  
+- Reemplace [trackerID] por el ID del dispositivo impreso en su unidad o suministrado por el fabricante.  
 - Reemplace [apn] por la cadena APN de su operador.
 
 2. (Opcional) Establecer usuario y contraseña del APN si su operador los requiere
 ```text
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 - Reemplace [apnu] y [apnp] con el usuario y la contraseña del APN si aplica.  
 - Este comando solo es necesario cuando su operador SIM requiere autenticación. Si no es necesario, omita este paso.

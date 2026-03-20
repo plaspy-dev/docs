@@ -86,7 +86,7 @@ Description: Set the device identifier. Use the last 14 digits of the IMEI as th
 ```
 000000GID<14-digit-identifier>
 ```
-Example note: If your IMEI is 123456789012345, the last 14 digits would be 23456789012345. Replace \\<14-digit-identifier> with that value.
+Example note: If your IMEI is 123456789012345, the last 14 digits would be 23456789012345. Replace \<14-digit-identifier> with that value.
 
 3. Set the APN for GPRS connectivity
 Description: Replace the placeholders with your operator APN values. If your APN requires a username or password include [apnu] and [apnp] placeholders.

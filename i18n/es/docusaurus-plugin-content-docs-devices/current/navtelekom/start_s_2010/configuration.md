@@ -4,93 +4,87 @@ id: start_s_2010-configuration
 sidebar_label: Configuration
 title: Navtelekom - START S-2010 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública de configuración del Navtelekom START S-2010 para Plaspy, incluye ajustes de servidor, flujo de instalación y notas prácticas
+description: Guía de configuración del Navtelekom START S-2010 para conectar con Plaspy mediante ajustes de servidor compartido y pasos prácticos
 keywords:
-  - configuración Navtelekom START S-2010
-  - instalación START S-2010
-  - START S-2010 Plaspy
-  - configuración rastreador Navtelekom
-  - configuración servidor START S-2010
-  - guía instalación START S-2010
-  - rastreador Navtelekom Plaspy
-  - configuración dispositivo START S-2010
-  - configuración plataforma GPS START S-2010
-  - configuración rastreador Plaspy
+  - Configuración Navtelekom START S-2010
+  - Configuración START S-2010
+  - Rastreador GPS Navtelekom Plaspy
+  - Configuración de servidor START S-2010
+  - Guía de instalación rastreador Navtelekom
+  - Integración START S-2010 Plaspy
+  - Configuración rastreador GPS Plaspy
+  - Rastreo vehicular START S-2010
+  - Rastreo de flotas Navtelekom
+  - Guía de instalación START S-2010
 ---
 
 # Navtelekom - Configuración START S-2010
 
-Esta página describe el contexto público de configuración para usar el rastreador Navtelekom START S-2010 con la plataforma Plaspy. Consolida los ajustes prácticos del servidor Plaspy y los pasos habituales que los instaladores y los ingenieros de flota siguen para preparar el START S-2010 para el reporte en vivo hacia Plaspy, tomando en cuenta las capacidades del dispositivo descritas en la documentación oficial del fabricante.
+Esta página ofrece el contexto público de configuración para usar el Navtelekom START S-2010 con Plaspy. Se centra en los ajustes y pasos prácticos a nivel de plataforma necesarios para apuntar el rastreador a Plaspy y permitir que los dispositivos reporten posición, entradas y telemetría. Use esta guía junto con la documentación de hardware del START S-2010 y las utilidades de configuración de Navtelekom para procedimientos específicos del dispositivo.
 
-Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, pero los pasos de configuración por parte del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor empleadas. El START S-2010 admite configuración local vía USB Type-C y Bluetooth 4.0, y gestión remota mediante Navtelekom DRC, los cuales pueden combinarse con los ajustes de servidor Plaspy que se listan más abajo.
+Plaspy emplea ajustes de servidor compartidos para los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando el equipo se conecta. Los pasos de configuración en el lado del fabricante pueden variar según la versión de firmware, la variante de hardware, el tipo de instalación y las herramientas del proveedor que utilice para la configuración local o remota. Esta página describe el endpoint compartido de Plaspy y el flujo de trabajo que aplicará usando herramientas de Navtelekom como NTC Configurator, configuración local por Bluetooth o USB, o Navtelekom DRC para aprovisionamiento remoto.
 
 ## Resumen de la configuración
 
-Preparar el START S-2010 para Plaspy consiste principalmente en apuntar el dispositivo al endpoint compartido de Plaspy, verificar la conectividad celular y confirmar que la posición y la telemetría de entradas llegan correctamente a la plataforma. Las actividades prácticas siguientes describen los objetivos típicos durante la configuración.
+Preparar un START S-2010 para Plaspy implica configurar el dispositivo para que envíe datos al servidor compartido de Plaspy y validar la conectividad para que la unidad aparezca en su cuenta de Plaspy. El proceso es práctico y directo: indique el endpoint del servidor, confirme el transporte y el puerto, aplique la configuración y verifique que el dispositivo esté visible y reporte en Plaspy.
 
-- Configure el rastreador para que envíe datos a Plaspy usando el endpoint y puerto compartidos del servidor.
-- Asegúrese de contar con una nano SIM 2G válida y alimentación vehicular confiable para reportes consistentes.
-- Use el acceso local por USB Type-C o Bluetooth 4.0 para la puesta a punto y diagnóstico inicial antes del despliegue.
-- Valide que la localización, los estados de entradas digitales y el comportamiento de salidas de control sean visibles en Plaspy.
-- Aplique las actualizaciones de firmware recomendadas por el fabricante y la provisión remota vía Navtelekom DRC cuando corresponda.
+- Configure el rastreador para enviar datos al endpoint de Plaspy d.plaspy.com o la IP equivalente 54.85.159.138.
+- Asegúrese de que el dispositivo use el puerto 8888 y seleccione UDP o TCP si el rastreador solicita elección de transporte.
+- Aplique y guarde los ajustes en la herramienta local de Navtelekom o en el sistema de aprovisionamiento remoto DRC.
+- Valide que el rastreador envíe ubicación y telemetría de entradas a Plaspy y que aparezca en su cuenta de Plaspy.
+- Use USB Type-C o Bluetooth 4.0 para diagnóstico y configuración local antes del despliegue final.
 
 ## Ajustes del servidor Plaspy
-
-Use los siguientes ajustes del servidor Plaspy al configurar el START S-2010 para la plataforma. Plaspy usa el mismo puerto para todos los dispositivos compatibles y detecta automáticamente el protocolo del rastreador.
 
 - Dominio del servidor d.plaspy.com
 - IP del servidor 54.85.159.138
 - Puerto 8888
-- Transporte compatible UDP o TCP — el dispositivo puede configurarse para UDP o TCP en el puerto 8888
-- Plaspy detecta automáticamente el protocolo del rastreador cuando el dispositivo reporta al servidor
+- Soporte de transporte UDP o TCP en el puerto 8888
+- Plaspy detecta automáticamente el protocolo del rastreador cuando el dispositivo se conecta
 
-## Requisitos típicos antes de la instalación
+## Requisitos típicos antes de la configuración
 
-- Alimentación permanente del vehículo disponible para la instalación cableada; el START S-2010 no tiene batería interna.
-- Una nano SIM 2G compatible configurada para datos móviles y activa en la red del operador local.
-- Acceso a los métodos de configuración Navtelekom como conexión USB Type-C, emparejamiento Bluetooth 4.0 o la utilidad NTC Configurator.
-- Conocimiento de la versión de firmware del dispositivo y de cualquier requisito de herramientas del proveedor para la provisión remota vía Navtelekom DRC.
-- Herramientas básicas de instalador para cablear alimentación, ignición y cualquier sensor externo o conexión de relé destinada a telemetría o control de inmovilizador.
-- Una cuenta en Plaspy y la capacidad para validar el reporte del dispositivo en el panel de Plaspy después de la configuración.
+- Un START S-2010 instalado correctamente y con alimentación adecuada mediante la conexión de alimentación del vehículo.
+- Una tarjeta SIM nano 2G activa insertada y con cobertura celular confirmada en el área de operación.
+- Acceso a métodos de configuración local como USB Type-C, Bluetooth 4.0 o gestión remota Navtelekom DRC.
+- Una cuenta de Plaspy y acceso a la plataforma Plaspy para validar y monitorear el dispositivo.
+- NTC Configurator u otras utilidades de configuración de Navtelekom para cambiar parámetros del equipo.
+- Conocimientos básicos de cableado para verificar que las conexiones de ignición, puertas y sensores están correctas para el reporte de telemetría.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-Cuando el START S-2010 se configura para Plaspy, envía posiciones GNSS y telemetría por el enlace celular al endpoint y puerto compartidos de Plaspy. Plaspy recibe esos mensajes y los integra en las líneas de tiempo del dispositivo, paneles e reglas de alerta para monitoreo operativo.
+El START S-2010 envía la ubicación derivada del GNSS y la telemetría de E/S a través de su conexión celular al endpoint del servidor Plaspy en el puerto compartido. Plaspy recibe esos mensajes, detecta automáticamente el protocolo del rastreador y enruta los datos del dispositivo hacia las funciones de mapeo, alertas e informes en la plataforma.
 
-- El rastreador se configura para reportar al endpoint del servidor Plaspy en d.plaspy.com (o 54.85.159.138) usando el puerto 8888.
-- El transporte de datos puede ser UDP o TCP según la configuración del dispositivo y la preferencia del instalador.
-- Los reportes incluyen actualizaciones de posición GNSS y estados de entradas como ignición y puertas para usar en alertas e informes.
-- Los eventos de salidas de control, como accionamiento de relés o inmovilizador, pueden reflejarse en los flujos de trabajo de Plaspy cuando están habilitados.
-- Plaspy detecta automáticamente el protocolo del rastreador, lo que simplifica el despliegue de dispositivos de distintos fabricantes hacia el mismo servidor y puerto.
+- El rastreador transmite datos de posición y tiempo a d.plaspy.com (54.85.159.138) en el puerto 8888.
+- La telemetría del dispositivo y los estados de entradas (ignición, puertas, entrada analógica cuando se usa) se envían al mismo endpoint de Plaspy.
+- Seleccione UDP o TCP en el dispositivo si se requiere; Plaspy acepta ambos en el puerto 8888.
+- Plaspy detecta automáticamente el protocolo entrante del rastreador, por lo que no es necesaria una selección de protocolo aparte en la plataforma.
+- Una vez conectado, Plaspy actualiza mapas, feeds de eventos y registros históricos del dispositivo.
 
-## Flujo de configuración común
+## Flujo de trabajo común de configuración
 
-Siga estos pasos públicos y prácticos para configurar un START S-2010 para Plaspy:
-
-1. Acceda al método o software oficial de configuración Navtelekom para el START S-2010, como la configuración local por USB Type-C, herramientas Bluetooth 4.0 o la utilidad NTC Configurator.
-2. En los ajustes de servidor del dispositivo ingrese la dirección del servidor Plaspy como d.plaspy.com o la IP 54.85.159.138.
-3. Configure el puerto del dispositivo en 8888, ya que Plaspy utiliza el mismo puerto para todos los dispositivos.
-4. Seleccione el transporte UDP o TCP en el dispositivo si la configuración exige elegir un transporte.
-5. Aplique o guarde la configuración en el rastreador mediante la herramienta o interfaz del fabricante.
-6. Reinicie el dispositivo si el firmware o la herramienta indican que es necesario para que los cambios surtan efecto.
-7. Valide que el dispositivo reporte a Plaspy confirmando la recepción de mensajes y las posiciones en vivo en su cuenta Plaspy.
+1. Acceda al método de configuración oficial de Navtelekom para el START S-2010, por ejemplo USB Type-C con NTC Configurator, emparejamiento por Bluetooth 4.0 o aprovisionamiento remoto con Navtelekom DRC.
+2. En la configuración de servidor o red del dispositivo, ingrese el servidor de Plaspy como d.plaspy.com o alternativamente 54.85.159.138.
+3. Configure el puerto del servidor en 8888.
+4. Si el dispositivo requiere seleccionar el transporte, elija UDP o TCP según su preferencia de instalación o requisitos de red.
+5. Aplique o guarde la configuración en la herramienta de Navtelekom o vía DRC.
+6. Reinicie o haga un ciclo de alimentación del START S-2010 si la herramienta o el firmware lo requieren para activar los ajustes nuevos.
+7. Verifique que el dispositivo aparezca y reporte en Plaspy comprobando actualizaciones recientes de ubicación, estados de entradas o telemetría en su cuenta de Plaspy.
 
 ## Ejemplos de comandos de configuración
 
-El START S-2010 admite configuración local por USB Type-C y Bluetooth 4.0 y gestión remota mediante Navtelekom DRC. Los comandos exactos o formatos de mensaje varían según el firmware y la utilidad de configuración del fabricante, por lo que los comandos específicos los proporciona Navtelekom y sus herramientas, no Plaspy.
-
-Utilice el configurador oficial de Navtelekom o DRC para establecer el servidor en d.plaspy.com o 54.85.159.138 y el puerto en 8888. Si necesita configuración por línea de comandos o en estilo SMS, consulte la documentación de Navtelekom o la utilidad NTC Configurator para la sintaxis exacta requerida por su versión de firmware.
+El START S-2010 suele configurarse con las herramientas de Navtelekom o mediante el sistema de gestión remota DRC más que con líneas de comando crudas. La sintaxis exacta y los pasos varían según la versión de firmware y la utilidad que utilice (NTC Configurator, herramienta por Bluetooth o DRC). Use la utilidad de configuración Navtelekom correspondiente para poner el servidor en d.plaspy.com (o 54.85.159.138) y el puerto en 8888, y seleccione UDP o TCP si se solicita. Si necesita comandos por línea de comando o estilo SMS, consulte los documentos técnicos de Navtelekom o la ayuda de NTC Configurator para el formato preciso compatible con su firmware.
 
 ## Notas de configuración
 
-- Las revisiones de firmware y hardware pueden cambiar los campos de configuración disponibles y la sintaxis de comandos; verifique siempre la versión de firmware antes de aplicar ajustes.
-- Elija UDP o TCP en función de la fiabilidad de la red y de las indicaciones de Navtelekom; Plaspy aceptará cualquiera de los dos en el puerto 8888 y detectará el protocolo automáticamente.
-- Utilice el acceso local por USB Type-C o Bluetooth 4.0 para la configuración y diagnóstico inicial, y el servicio Navtelekom DRC para la provisión continua cuando esté disponible.
-- Verifique la disponibilidad de la red 2G y la configuración de APN con su operador móvil, ya que el START S-2010 emplea un módem 2G y una única nano-SIM.
-- Confirme el cableado de ignición, entradas de puertas y la salida de control antes del despliegue para que los eventos se mapeen correctamente a las alertas de Plaspy.
+- Las variaciones de firmware y las revisiones de hardware pueden cambiar la ubicación de menús o los nombres exactos de los parámetros en las herramientas de Navtelekom; confirme siempre los nombres de parámetros antes de guardar.
+- El aprovisionamiento remoto vía Navtelekom DRC puede simplificar actualizaciones masivas para flotas y mantener el firmware actualizado mientras apunta los dispositivos a d.plaspy.com en el puerto 8888.
+- Elija UDP para menor sobrecarga y telemetría típica, o TCP cuando se requiera una sesión más fiable; Plaspy acepta ambos transportes en el mismo puerto.
+- Use USB Type-C o Bluetooth para configuración y diagnóstico local cuando no haya cobertura celular disponible durante el aprovisionamiento.
+- Plaspy utiliza el mismo puerto para todos los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando un dispositivo se conecta, por lo que la plataforma no necesita selección de protocolo por dispositivo.
 
 ## Por qué usar Plaspy con esta configuración
 
-Configurar el Navtelekom START S-2010 para reportar a Plaspy ofrece a los operadores de flotas mapeo, alertas e informes confiables usando un rastreador cableado compacto diseñado para instalaciones vehiculares. La combinación de opciones de configuración local, gestión remota vía Navtelekom DRC y la capacidad de Plaspy para detectar automáticamente protocolos de rastreadores facilita el despliegue y reduce la carga de configuración en flotas mixtas.
+Conectar el START S-2010 a Plaspy incorpora un rastreo compacto y fácil de instalar dentro de un entorno coherente de gestión de flotas. Con ubicación, eventos de entrada y telemetría analógica disponibles desde el START S-2010, Plaspy ofrece mapeo, alertas e informes que ayudan a flotas y proveedores de servicio a monitorear activos, responder a eventos y mantener supervisión operativa.
 
-Learn more about how Plaspy works with compatible trackers on the Plaspy website https://www.plaspy.com. For the latest device specific configuration details, firmware updates, and manufacturer tools consult Navtelekom at https://www.navtelecom.ru/.
+Para saber más sobre Plaspy y las funciones de la plataforma para rastreo de flotas visite https://www.plaspy.com. Para los pasos de configuración específicos más recientes, notas de firmware y recursos técnicos del fabricante, verifique los detalles en el sitio oficial de Navtelekom https://www.navtelecom.ru/.

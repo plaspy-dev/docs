@@ -4,80 +4,77 @@ id: smart_s_2421_easy-features
 sidebar_label: Features
 title: Navtelekom - SMART S-2421 EASY+ Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de funciones del rastreador Navtelekom SMART S-2421 EASY+ y su compatibilidad con Plaspy para rastreo, telemetría y sensores BLE
+description: Resumen público de funciones y compatibilidad con Plaspy del rastreador Navtelekom SMART S-2421 EASY+ con GNSS BLE entradas salidas y batería de respaldo
 keywords:
-  - Navtelekom SMART S-2421 EASY+ funciones
-  - Rastreador GPS Navtelekom SMART S-2421 EASY+
-  - SMART S-2421 EASY+ compatibilidad con Plaspy
-  - Funciones de rastreador GPS Plaspy
-  - Rastreo de vehículos SMART S-2421
-  - Bluetooth 4.0 BLE rastreador
-  - Acelerómetro eco conducción
-  - Entradas universales salidas 1-Wire
-  - Batería de respaldo protección contra sobretensión
-  - Gestión de flotas telemática
+  - funciones Navtelekom SMART S-2421 EASY+
+  - rastreador GPS SMART S-2421 EASY+
+  - rastreador Navtelekom Plaspy
+  - capacidades SMART S-2421 EASY+
+  - funciones SMART S-2421 EASY+
+  - rastreador GPS GLONASS Navtelekom
+  - rastreador telemática vehicular Plaspy
+  - rastreador GPS con BLE
+  - rastreador entradas universales 1 Wire
+  - rastreador vehicular con batería de respaldo
 ---
 
-# Navtelekom - SMART S-2421 EASY+: Características
+# Navtelekom - Funciones del SMART S-2421 EASY+
 
-Esta página presenta un resumen público de las características del Navtelekom SMART S-2421 EASY+ cuando se utiliza con Plaspy. Resume las capacidades del equipo que son relevantes para clientes e integradores de Plaspy y describe cómo se emplean habitualmente en Plaspy para rastreo en tiempo real, telemetría y gestión de flotas.
+Esta página ofrece un resumen público orientado a las funciones del Navtelekom SMART S-2421 EASY+ y cómo sus capacidades se integran con Plaspy para la gestión de flotas y el rastreo en tiempo real. Se centra en información práctica y no sensible sobre el equipo, sus funciones principales para el usuario y las formas en que dichas funciones pueden utilizarse dentro de los flujos de trabajo en Plaspy.
 
-La disponibilidad exacta de las funciones puede variar según la versión de firmware, la revisión del hardware, el método de instalación, la variante regional y las opciones específicas implementadas por el fabricante. Use esta página como un resumen operativo y consulte el Passport del dispositivo y los recursos del fabricante para instrucciones definitivas de configuración y comportamiento.
+La disponibilidad y el comportamiento exacto de las funciones pueden variar según la versión de firmware, la revisión de hardware, el método de instalación y la configuración del fabricante. Use esta página como referencia práctica para la compatibilidad y operación con Plaspy y consulte la documentación del fabricante para las especificaciones definitivas y las notas de firmware más recientes.
 
-## Visión general de funciones
+## Resumen de características
 
-El SMART S-2421 EASY+ es un rastreador compacto 2G GPS/GLONASS para vehículos, pensado para una integración sencilla con Plaspy. Integra antenas internas, sensores a bordo y entradas/salidas flexibles para ofrecer posición continua, telemetría básica del vehículo e informes de eventos adecuados para despliegues de flotas mixtas.
+El SMART S-2421 EASY+ es un rastreador compacto 2G con GNSS/GLONASS diseñado para telemática vehicular y uso en flotas, con compatibilidad nativa con Plaspy. Combina antenas internas y un formato reducido con telemetría a bordo y E/S flexibles para soportar escenarios comunes de rastreo, monitoreo y control remoto.
 
-- Informes de posición GNSS en tiempo real para seguimiento en vivo y historial de rutas dentro de Plaspy.
-- Soporte Bluetooth 4.0 (BLE) para emparejar sensores y balizas compatibles como monitor auxiliares.
-- Acelerómetro integrado para detectar eventos de conducción y facilitar análisis de eco-conducción.
-- Tres entradas universales, dos salidas de control y un puerto 1-Wire para integrar sensores y controles.
-- Batería de respaldo para mantener funciones básicas durante pérdida de alimentación principal y protección de hardware para entornos eléctricos de alta tensión.
-- Herramientas del fabricante, incluyendo NTC Configurator, paquetes de firmware y el Passport descargable con ejemplos de conexión para simplificar la puesta en marcha.
+- Reporte de ubicación GNSS en tiempo real para seguimiento en vivo y reproducción histórica de rutas
+- Soporte Bluetooth 4.0 para conectar sensores BLE y balizas de proximidad
+- Acelerómetro integrado para registrar eventos de movimiento útiles en análisis de conducción eficiente y seguridad
+- Tres entradas universales y dos salidas de control, además de un puerto 1 Wire para integrar sensores y actuadores externos
+- Batería de respaldo para mantener operaciones básicas ante pérdida de alimentación principal y protección robusta contra sobretensiones en las entradas de alimentación del vehículo
 
-## Funciones principales del Navtelekom - SMART S-2421 EASY+
+## Características principales del Navtelekom - SMART S-2421 EASY+
 
-- Posicionamiento 2G GPS / GLONASS con antena GNSS interna para telemática vehicular.
-- Bluetooth 4.0 (BLE) para emparejamiento de sensores y flujos basados en proximidad.
-- Acelerómetro integrado para detección de eventos relacionados con el comportamiento al conducir.
-- Tres entradas universales que aceptan señales digitales o analógicas para sensores externos.
-- Dos salidas de control para operar equipos auxiliares mediante comandos remotos.
-- Interfaz 1-Wire para conectar sensores externos compatibles.
-- Batería de respaldo (aprox. 110 mA·h) para preservar telemetría básica durante cortes de energía.
-- Protección contra sobretensión en las entradas de alimentación, preparada para entornos eléctricos exigentes del sector automotriz.
+- Soporte de constelaciones GNSS dobles para fijaciones de posición confiables en entornos vehiculares
+- Antenas GNSS y GSM internas para instalaciones prolijas sin antenas externas
+- Bluetooth Low Energy 4.0 para integración de sensores y balizas accesorias
+- Acelerómetro integrado para detección de eventos relacionados con movimiento
+- Tres entradas universales que aceptan sensores digitales o analógicos para puertas, alarmas u otras señales
+- Dos salidas de control para activar remotamente equipos auxiliares
+- Interfaz 1 Wire para sensores externos compatibles y expansión simple de telemetría
+- Batería de respaldo incorporada para continuidad durante cortes de energía y protección contra sobretensiones diseñada para sistemas eléctricos automotrices
 
 ## Cómo funcionan estas funciones con Plaspy
 
-Plaspy procesa la ubicación y la telemetría que reporta el rastreador, de modo que las flotas puedan monitorear vehículos en tiempo real, revisar el historial de viajes y generar notificaciones sobre eventos relevantes. El dispositivo se configura con las herramientas del fabricante y se apunta al servidor de Plaspy para envíos regulares; Plaspy detecta automáticamente el protocolo entrante y muestra los datos en la plataforma.
+Plaspy ingiere datos de ubicación, telemetría y eventos del SMART S-2421 EASY+ para que usted pueda monitorear vehículos, revisar recorridos y responder a eventos en tiempo real. El dispositivo se configura con las herramientas del fabricante para apuntar los reportes a Plaspy y establecer intervalos y comportamiento de E/S; luego Plaspy presenta los datos entrantes como posiciones en el mapa, historial y registros de eventos.
 
-- Utilice el NTC Configurator para ajustar intervalos de reporte, comportamiento de entradas/salidas y direccionar el dispositivo a su servidor Plaspy.
-- Las actualizaciones de ubicación y el historial de rutas aparecen en Plaspy para visualización en el mapa en vivo y reproducción.
-- Los eventos del acelerómetro quedan disponibles en Plaspy para puntuación de conductores y reportes de eco-conducción.
-- Las entradas universales y el puerto 1-Wire alimentan señales de sensores en Plaspy para monitoreo de estado y alertas basadas en reglas.
-- Las salidas de control pueden activarse desde flujos de trabajo en Plaspy cuando se requiere actuación remota.
-- Los datos de sensores Bluetooth y los eventos de proximidad pueden reflejarse en Plaspy cuando se emparejan y configuran en el dispositivo.
-
-Nota: Plaspy detecta automáticamente protocolos comunes de rastreadores cuando el dispositivo apunta a la plataforma. Los equipos pueden configurarse para reportar a Plaspy usando las opciones de transporte estándar soportadas por las herramientas del fabricante.
+- Visualización en vivo en el mapa y historial de viajes basados en reportes de posición GNSS
+- Eventos del acelerómetro disponibles en Plaspy para evaluación de conducción eficiente y alertas basadas en eventos
+- Estado de sensores y entradas reflejado en Plaspy para monitoreo de puertas, alarmas o telemetría personalizada
+- Las salidas de control pueden usarse en flujos remotos disparados desde Plaspy cuando están configuradas por los instaladores
+- Presencia de dispositivos BLE y datos de sensores conectados pueden mostrarse en Plaspy para monitoreo de proximidad y carga
+- Estados de pérdida de energía y de la batería de respaldo pueden generar alertas y registros de disponibilidad dentro de Plaspy
 
 ## Casos de uso típicos
 
-- Seguimiento de flotas en tiempo real y revisión histórica de rutas para vehículos de servicio y flotas comerciales ligeras.
-- Programas de eco-conducción que aprovechan los eventos del acelerómetro para coaching y evaluación de desempeño.
-- Monitoreo antirrobo y de disponibilidad mediante alertas de batería de respaldo e informes de pérdida de energía.
-- Control remoto de equipos auxiliares a través de salidas gestionadas por reglas de Plaspy.
-- Despliegues de monitoreo de sensores usando entradas universales y el puerto 1-Wire para puertas, temperatura o señales auxiliares cuando son compatibles.
-- Detección de proximidad o carga mediante Bluetooth usando balizas o sensores BLE compatibles.
+- Rastreo de flotas en tiempo real e historial de rutas para vehículos de servicio y flotas comerciales ligeras
+- Monitoreo del comportamiento del conductor y programas de conducción eficiente usando eventos del acelerómetro para coaching
+- Monitoreo antirrobo con telemetría de batería de respaldo y alertas por pérdida de energía visibles en Plaspy
+- Control remoto de equipos auxiliares mediante salidas configuradas y gestionadas desde la plataforma
+- Integración con sensores externos vía entradas universales y 1 Wire para flujos de puertas, carga o temperatura
+- Despliegues de proximidad o sensores basados en BLE para mejorar el monitoreo de carga o equipos
 
 ## Notas sobre disponibilidad de funciones
 
-- El firmware importa: los formatos de mensaje exactos, los campos reportados y los umbrales de eventos dependen del paquete de firmware instalado.
-- Revisiones de hardware y variantes regionales pueden modificar las bandas celulares soportadas, los conectores o la compatibilidad con accesorios.
-- Algunas funciones requieren cableado y montaje adecuados; la configuración por parte del instalador influye en lo que Plaspy recibe.
-- Las utilidades del fabricante, como NTC Configurator y los paquetes de firmware, son las herramientas principales para habilitar o ajustar funciones.
-- Verifique siempre la compatibilidad de sensores y el comportamiento esperado con el Passport del dispositivo y los ejemplos de cableado proporcionados por Navtelekom.
+- El firmware del fabricante y las opciones de configuración influyen en el conjunto exacto de funciones y en cómo se reportan los eventos
+- Revisiones de hardware o variantes regionales pueden cambiar las bandas 2G soportadas y algunas interfaces; consulte el Passport de su dispositivo
+- La calidad de la instalación y las elecciones de cableado afectan el rendimiento de la recepción GNSS, las señales de entrada y la resiliencia de alimentación
+- La utilidad NTC Configurator proporcionada por el fabricante se usa comúnmente para ajustar los endpoints del servidor, los intervalos de reporte y el comportamiento de E/S antes de conectar a Plaspy
+- Para conservación de la telemetría durante cortes de energía, confirme el estado de la batería de respaldo y el tiempo de funcionamiento esperado de sus unidades desplegadas
 
 ## Por qué usar Plaspy con estas funciones
 
-Combinar el SMART S-2421 EASY+ con Plaspy ofrece una solución telemática práctica para organizaciones que necesitan conciencia de ubicación fiable, visibilidad de eventos y gestión de dispositivos sencilla. La forma compacta del rastreador, sus antenas internas y las opciones de E/S flexibles permiten a los instaladores añadir telemetría a una amplia gama de vehículos minimizando la complejidad de instalación. Plaspy presenta los datos del dispositivo en paneles, vistas históricas y motores de reglas que ayudan a los equipos operativos a monitorear flotas y reaccionar ante eventos.
+Usar el SMART S-2421 EASY+ con Plaspy proporciona a las flotas un rastreador compacto que ofrece los elementos básicos necesarios para visibilidad vehicular, monitoreo de eventos y flujos de control remoto básicos. Plaspy recoge ubicación, eventos de movimiento y estados de entradas del dispositivo para que usted, como despachador o administrador de flota, pueda combinar esos datos con reglas, alertas e informes y así mejorar las operaciones y la capacidad de respuesta.
 
-Para más información sobre el uso de rastreadores como el SMART S-2421 EASY+ con Plaspy visite https://www.plaspy.com. Para detalles específicos del dispositivo, notas de firmware e instrucciones oficiales de configuración consulte al fabricante en https://www.navtelecom.ru/ .
+Para obtener más información sobre cómo Plaspy admite dispositivos como el Navtelekom SMART S-2421 EASY+ visite https://www.plaspy.com. Las funciones del dispositivo, el comportamiento del firmware y los detalles de implementación del fabricante pueden cambiar con el tiempo, por lo que es importante verificar la información más reciente y la compatibilidad regional en el sitio del fabricante https://www.navtelecom.ru/.

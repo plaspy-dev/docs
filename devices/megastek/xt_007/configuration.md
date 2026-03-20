@@ -75,14 +75,14 @@ The XT-007 is configured to report position and status to the Plaspy server endp
 The XT-007 commonly supports SMS based commands. The sample public commands below show a typical SMS sequence. The sample setup uses the factory default password 000000 in these examples. Replace placeholders before sending.
 
 - Notes on placeholders
-  - {{imei}} means the device IMEI number, typically 15 digits
+  - [imei] means the device IMEI number, typically 15 digits
   - [apn] is the mobile operator APN
   - [apnu] is the APN username if required
   - [apnp] is the APN password if required
 
-1. Set the device ID or map the device IMEI (replace {{imei}} with the device IMEI)
+1. Set the device ID or map the device IMEI (replace [imei] with the device IMEI)
 ```
-M000000,22,{{imei}}
+M000000,22,[imei]
 ```
 
 2. Set the operator APN. If the APN requires username or password include them as shown. Replace placeholders accordingly.

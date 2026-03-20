@@ -75,10 +75,10 @@ When configured, the ST8310UM opens a connection to the shared Plaspy server end
 
 The ST8310UM public configuration uses SMS commands. The device ID for these commands is the last six digits of the IMEI excluding the final IMEI digit. For example if the IMEI is 123456789012345 the device ID would be 901234 using the example pattern provided in the manufacturer template. Commands are sent as SMS to the device.
 
-1) Set the operator APN and GPRS server pointing to Plaspy. Replace {{device_id}} with the computed device ID and preserve the APN placeholders [apn], [apnu], [apnp]:
+1) Set the operator APN and GPRS server pointing to Plaspy. Replace [device_id] with the computed device ID and preserve the APN placeholders [apn], [apnu], [apnp]:
 
 ```text
-SA200NTW;{{device_id}};02;{GPRS mode flag};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;{GPRS mode flag};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Notes:
@@ -88,16 +88,16 @@ Notes:
 2) Set the reporting interval to 60 seconds using the manufacturer reporting command format:
 
 ```text
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Check the device settings or request a preset report to verify configuration:
 
 ```text
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
-Send each command as an SMS message to the device phone number. Use the example IMEI mapping from the manufacturer to calculate {{device_id}} before sending.
+Send each command as an SMS message to the device phone number. Use the example IMEI mapping from the manufacturer to calculate [device_id] before sending.
 
 ## Configuration Notes
 

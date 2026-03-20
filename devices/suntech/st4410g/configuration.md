@@ -73,31 +73,31 @@ The ST4410G is configured to report GNSS, RF events and motion telemetry to the 
 
 ## Example Configuration Commands
 
-The ST4410G public configuration includes SMS based commands. Below are the meaningful SMS commands presented in order with placeholders preserved. Replace {{device_id}} with the six digit device ID derived from the IMEI as described, and replace [apn], [apnu], and [apnp] with your operator APN values.
+The ST4410G public configuration includes SMS based commands. Below are the meaningful SMS commands presented in order with placeholders preserved. Replace [device_id] with the six digit device ID derived from the IMEI as described, and replace [apn], [apnu], and [apnp] with your operator APN values.
 
 - Set the operator APN and GPRS server
   - Purpose: apply SIM operator APN, optional APN username and password indicator, and point the device to the Plaspy server endpoint and port.
   - Command format:
 ```text
-SA200NTW;{{device_id}};02;{{apn_user_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[apn_user_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
   - Notes:
-    - {{device_id}} is the six digit ID derived from the IMEI as described below.
-    - {{apn_user_flag}} should be 1 if you supply [apnu] or [apnp], otherwise 0.
+    - [device_id] is the six digit ID derived from the IMEI as described below.
+    - [apn_user_flag] should be 1 if you supply [apnu] or [apnp], otherwise 0.
     - [apn] is the operator APN. [apnu] and [apnp] are optional APN username and password fields.
 
 - Set the update interval to 60 seconds
   - Purpose: configure the reporting intervals so the device sends position and telemetry at the desired frequency.
   - Command:
 ```text
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Check current settings (verification)
   - Purpose: request preset configuration details to verify the device accepted settings.
   - Command:
 ```text
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Device ID from IMEI

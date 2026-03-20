@@ -88,9 +88,9 @@ W000000,990,099###
 - Set the device ID
   - The device ID template uses the first 14 digits derived from the IMEI. Plaspy will use the full 15 digit IMEI for device identification in the platform.
 ```text
-W000000,010,{{device_id14}}
+W000000,010,[device_id14]
 ```
-  - Replace {{device_id14}} with the first 14 digits you derive from the IMEI. For example if IMEI is 123456789012345 use 12345678901234 in this command.
+  - Replace [device_id14] with the first 14 digits you derive from the IMEI. For example if IMEI is 123456789012345 use 12345678901234 in this command.
 
 - Set the operator APN
   - If only an APN is required:

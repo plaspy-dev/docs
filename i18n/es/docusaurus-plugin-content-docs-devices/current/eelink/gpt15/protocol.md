@@ -4,77 +4,77 @@ id: gpt15-protocol
 sidebar_label: Protocol
 title: EElink - GPT15 Protocol
 sidebar_class_name: menu_item_tracker
-description: Guía pública del protocolo del tracker EElink GPT15 y su comunicación con Plaspy para seguimiento y alertas en tiempo real
+description: Resumen público del protocolo del EElink GPT15 y cómo se comunica con Plaspy para seguimiento y alertas en tiempo real
 keywords:
-  - Protocolo EElink GPT15
-  - Protocolo GPS EElink GPT15
-  - Protocolo de comunicación EElink GPT15
-  - Rastreador GPS GPT15
-  - Compatibilidad GPT15 Plaspy
-  - Integración rastreador GPS Plaspy
-  - Guía protocolo rastreador GPS
-  - Protocolo rastreador equipaje
-  - Comunicación rastreador de activos
-  - Protocolo seguimiento en tiempo real
+  - protocolo EElink GPT15
+  - protocolo GPS EElink GPT15
+  - compatibilidad GPT15 Plaspy
+  - protocolo de rastreo EElink
+  - protocolo de rastreador GPS Plaspy
+  - rastreador de equipaje GPT15
+  - comunicación EElink GPT15
+  - seguimiento de activos GPT15
+  - compatibilidad de dispositivos Plaspy
+  - guía de protocolo de rastreadores
 ---
 
-# EElink — Protocolo GPT15
+# EElink - Protocolo GPT15
 
-Esta página ofrece un contexto de protocolo público para usar el tracker EElink GPT15 con la plataforma Plaspy. Se centra en cómo el GPT15 se comunica con Plaspy a alto nivel, qué parámetros de conexión emplea y consideraciones prácticas para integrar el dispositivo en Plaspy para seguimiento en tiempo real, alertas de geocercas y telemetría. El contenido está pensado para instaladores, usuarios técnicos e integradores de sistemas que necesiten entender el flujo de comunicación sin exponer detalles privados de implementación.
+Esta página describe el contexto público del protocolo para usar el rastreador EElink GPT15 con Plaspy. Explica, en términos no sensibles y agnósticos a la implementación, cómo el dispositivo se comunica con la plataforma Plaspy para que administradores e integradores sepan qué configurar y verificar para garantizar la entrega fiable de datos.
 
-El GPT15 es un tracker compacto para viajes y activos con posicionamiento triple (GPS, Wi‑Fi y LBS), emparejamiento Bluetooth 4.0, sensor de manipulación ligero y batería recargable. Plaspy utiliza ajustes de conexión compartidos para todos los dispositivos compatibles y detecta automáticamente el protocolo del tracker cuando este reporta al endpoint de Plaspy. El comportamiento exacto del protocolo y los campos disponibles pueden variar según la versión de firmware, la revisión de hardware y la implementación del fabricante; por ello esta página se mantiene a nivel de protocolo y recomienda consultar la documentación del fabricante para detalles específicos de firmware.
+Plaspy utiliza ajustes de conexión compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador. El comportamiento exacto del protocolo puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que este documento se enfoca en el contexto de conexión y reporte más que en detalles internos de firmware o formatos de paquetes propietarios.
 
 ## Visión general del protocolo
 
-A grandes rasgos, el protocolo de reporte define cómo el GPT15 envía información de ubicación, sensores y estado a un servidor remoto. Para la compatibilidad con Plaspy esto significa que el tracker debe transmitir su telemetría al endpoint de Plaspy para que la plataforma ingiera puntos de ubicación, interprete eventos de sensores y muestre alertas a los usuarios. El rol del protocolo es entregar telemetría legible y una identidad mínima del dispositivo de forma fiable para que Plaspy pueda asociar los datos con el activo correcto.
+A alto nivel, el protocolo de reporte del GPT15 es el método de comunicación del dispositivo que transmite ubicación, datos de sensores y estado a un servidor remoto como Plaspy. El protocolo asegura que el rastreador se identifique, informe posicionamiento por capas y eventos de sensores, y permita que el servidor genere telemetría, alertas e historial útiles para los usuarios finales.
 
-- Permite entregas periódicas y por eventos de telemetría desde el GPT15 a Plaspy para mapeo en tiempo real y registro histórico.
-- Transmite identidad y estado para que Plaspy vincule los mensajes entrantes con el registro del dispositivo adecuado.
-- Envía datos de posicionamiento por capas (GPS, Wi‑Fi, LBS) y eventos de sensores como manipulación y batería baja para alertas accionables.
-- Soporta disparadores de configuración remota y reportes que permiten ajustar intervalos de reporte y umbrales de alerta.
-- Proporciona los campos esenciales que Plaspy necesita para generar eventos de geocercas, alertas de proximidad y resúmenes de telemetría.
+- Envía actualizaciones de ubicación desde GPS, Wi‑Fi y estaciones base LBS a un backend para mapeo e historial.
+- Transmite eventos de estado del dispositivo como manipulación o batería baja para que la plataforma pueda activar alertas.
+- Permite que el servidor asocie mensajes entrantes con un identificador de equipo específico para un enrutamiento correcto.
+- Soporta intervalos regulares de telemetría y reportes basados en eventos para que Plaspy gestione visibilidad y alertas en tiempo real.
+- Habilita opciones de configuración remota expuestas por el dispositivo mediante la app o SMS, con ajustes que influyen en cómo se envían los reportes.
 
-## Cómo Plaspy detecta el protocolo
+## Cómo detecta Plaspy el protocolo
 
-Plaspy está diseñado para aceptar conexiones de muchos tipos de trackers en un endpoint y puerto compartidos, y detecta automáticamente el protocolo del tracker cuando el dispositivo reporta correctamente. Para la mayoría de usuarios esto significa que no es necesario seleccionar manualmente un protocolo dentro de Plaspy siempre que el GPT15 esté configurado para reportar al endpoint de Plaspy y use los ajustes de transporte compatibles.
+Plaspy acepta conexiones de dispositivos en un único endpoint compartido y detecta automáticamente el protocolo del rastreador utilizado por un dispositivo entrante. Cuando un GPT15 apunta al endpoint de Plaspy y usa un transporte soportado, Plaspy identificará el tipo de dispositivo y comenzará a procesar su telemetría sin que el usuario tenga que seleccionar manualmente un protocolo dentro de la plataforma.
 
-- Plaspy escucha en un único endpoint y puerto compartido para los reportes entrantes y determina el tipo de protocolo automáticamente.
-- Apunte el GPT15 al dominio del servidor Plaspy d.plaspy.com o a la IP del servidor 54.85.159.138 para que los datos lleguen a Plaspy.
-- Todos los dispositivos en Plaspy usan el mismo puerto, lo que simplifica la configuración y puesta en marcha.
-- Cuando un dispositivo configurado correctamente reporta al endpoint de Plaspy, la plataforma empata los mensajes con los registros de dispositivo y comienza a ingerir telemetría sin selección manual de protocolo.
-- Si un dispositivo utiliza transporte alterno o intervalos de reporte no estándar, confirme esos ajustes durante la puesta en marcha para que Plaspy reciba datos consistentes.
+- Plaspy usa el mismo endpoint de servidor para todos los dispositivos soportados y detecta automáticamente el protocolo del rastreador.
+- El dominio del servidor Plaspy es d.plaspy.com y la IP del servidor es 54.85.159.138 para sistemas que requieren ingresar una dirección IP.
+- Todos los dispositivos en Plaspy utilizan el mismo puerto, lo que simplifica la configuración entre modelos.
+- Normalmente no es necesario elegir un protocolo en Plaspy si el dispositivo reporta al endpoint correcto con el transporte y el identificador de dispositivo adecuados.
+- Si un dispositivo no aparece, confirme que el rastreador esté configurado para reportar al endpoint de Plaspy y revise los ajustes de conectividad en el dispositivo.
 
-## Contexto de transporte y conexión
+## Transporte y conexión
 
-El contexto de conexión describe cómo el GPT15 alcanza el endpoint de Plaspy. El GPT15 puede configurarse para usar transporte estándar de redes móviles y puede reportar por UDP o TCP según el soporte del dispositivo y la configuración elegida. Plaspy acepta ambos tipos de transporte en el mismo puerto para simplificar el despliegue.
+Las opciones de conexión y transporte determinan cómo el rastreador llega a Plaspy, pero no cambian el rol público del protocolo. Las unidades GPT15 pueden configurarse para usar UDP o TCP para enviar reportes según el firmware y la configuración, y pueden apuntar al dominio de Plaspy o a su dirección IP pública.
 
-- El dispositivo puede configurarse para usar UDP o TCP en el puerto 8888 según el soporte del equipo y la configuración seleccionada.
-- Los dispositivos pueden apuntar al dominio d.plaspy.com o a la IP 54.85.159.138 como endpoint de reporte.
-- Plaspy utiliza el mismo puerto para todos los dispositivos compatibles, evitando la necesidad de gestionar múltiples puertos de destino.
-- Elija UDP para reportes de menor latencia y un solo paquete, o TCP para entrega orientada a conexión si el dispositivo y la red lo permiten.
-- Asegúrese de que los datos móviles o las políticas de red local no bloqueen conexiones salientes hacia el endpoint de Plaspy y el puerto 8888.
+- Los dispositivos pueden configurarse usando UDP o TCP en el puerto 8888, según el soporte y las preferencias de configuración.
+- Plaspy escucha en el puerto 8888 para los reportes de los dispositivos y todos los dispositivos en Plaspy usan ese mismo puerto.
+- Los rastreadores pueden apuntar al servidor Plaspy en d.plaspy.com o a la IP pública 54.85.159.138 si se requiere una entrada por IP.
+- Elija UDP para reportes de eventos con menor sobrecarga cuando el rastreador lo soporte, o TCP si el firmware del dispositivo recomienda entrega con sesión confiable.
+- Verifique que los cortafuegos de red y los ajustes APN del operador permitan tráfico saliente hacia el endpoint de Plaspy en el transporte y puerto configurados.
 
-## Notas sobre compatibilidad del protocolo
+## Notas de compatibilidad del protocolo
 
-- Las versiones de firmware y revisiones de hardware pueden cambiar qué campos se reportan y con qué frecuencia el GPT15 envía actualizaciones.
-- Las opciones de configuración por parte del fabricante y las posibilidades de configuración remota (app o SMS) pueden afectar la selección de transporte y el comportamiento de reporte.
-- Algunas funciones del dispositivo, como la proximidad por Bluetooth o la ubicación asistida por Wi‑Fi, pueden depender del firmware y no estar presentes en todas las unidades.
-- La elección entre UDP y TCP puede modificar las características de fiabilidad; valide el transporte seleccionado según la configuración del dispositivo y las limitaciones de la red.
-- Confirme que el dispositivo esté configurado para reportar a d.plaspy.com o 54.85.159.138 en el puerto 8888 para asegurar que Plaspy reciba la telemetría.
-- Siempre valide la compatibilidad frente a la documentación del fabricante y las notas de la versión para comportamientos específicos de firmware.
+- Diferencias de firmware entre lotes de producción GPT15 pueden afectar los reportes disponibles y los comandos de configuración remota.
+- Revisiones de hardware o SKUs específicos por región pueden mostrar distinto comportamiento de bandas de radio o detalles de reporte de sensores.
+- Variaciones del fabricante en APN por defecto o ajustes de servidor remoto implican que debe confirmar que el dispositivo esté configurado para reportar a d.plaspy.com o 54.85.159.138 en el puerto 8888.
+- La selección de transporte influye en la fiabilidad y en el consumo de batería; valide rápidamente el comportamiento de UDP frente a TCP para su despliegue.
+- Plaspy detecta automáticamente el protocolo del rastreador, pero se requieren el identificador de dispositivo correcto y la dirección de reporte adecuados para una detección exitosa.
+- Siempre valide el comportamiento del dispositivo en un despliegue de prueba antes de un despliegue a gran escala para asegurar la telemetría y el alertado esperados.
 
 ## Por qué es importante entender el protocolo
 
-Comprender el protocolo de comunicación ayuda a garantizar una configuración exitosa, reportes fiables y una resolución efectiva de problemas al integrar el GPT15 con Plaspy. Aunque Plaspy detecta automáticamente el protocolo y usa ajustes de conexión compartidos, conocer el transporte, el firmware y las capacidades del dispositivo reduce el tiempo hasta su funcionamiento y favorece la estabilidad a largo plazo.
+Comprender el protocolo de comunicación del GPT15 a nivel práctico ayuda a administradores e integradores a reducir el tiempo de configuración, agilizar la resolución de problemas y mantener la confiabilidad a largo plazo de los servicios de rastreo en Plaspy.
 
-- Asegura el registro correcto del dispositivo y la correspondencia de identidad en Plaspy para un seguimiento preciso del activo.
-- Facilita la solución de problemas cuando un dispositivo no aparece en Plaspy revisando endpoint, transporte y ajustes de reporte.
-- Orienta en la elección de intervalos de reporte y configuraciones de eventos para equilibrar la vida de la batería y la frecuencia de actualización.
-- Ayuda a interpretar eventos de sensores como alertas de manipulación o notificaciones de batería baja en los paneles de Plaspy.
-- Apoya la planificación informada de actualizaciones de firmware para evitar cambios inesperados en los campos reportados.
+- Configuración más rápida al saber qué campos del dispositivo ajustar para que reporte a d.plaspy.com o 54.85.159.138 en el puerto 8888.
+- Resolución de problemas más eficiente cuando faltan reportes, porque podrá confirmar el transporte (UDP o TCP) y la alineación de puertos.
+- Mejores decisiones sobre batería y reportes al entender cómo los intervalos de telemetría y la elección de transporte afectan la vida útil del dispositivo.
+- Expectativas claras sobre alertas y comportamiento de geocercas al saber qué tipos de eventos de sensor enviará el dispositivo a Plaspy.
+- Despliegues y actualizaciones de firmware más fluidos al considerar las variaciones del protocolo según la revisión del dispositivo.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el EElink GPT15 con Plaspy aporta visibilidad práctica para equipaje, objetos personales y pequeños despliegues de activos. El posicionamiento triple y los sensores integrados del GPT15 suministran datos de ubicación y eventos por capas que Plaspy consolida en mapas en tiempo real, alertas e historial. Para viajeros, familias y pequeñas organizaciones, esta combinación ofrece un tracker compacto con monitoreo centralizado y flujos de configuración remota sencillos.
+El GPT15 es un rastreador compacto orientado a viajes que funciona bien con Plaspy para visibilidad de equipaje y activos pequeños. Usar Plaspy con la telemetría del GPT15 ofrece mapas centralizados, historial y distribución de alertas para que propietarios y responsables reciban información accionable sobre ubicación, eventos de manipulación y estado de batería sin gestionar una infraestructura de backend propia.
 
-Para comenzar, configure el GPT15 para que reporte al endpoint de Plaspy empleando los ajustes de conexión compartidos y confirme la selección de transporte en la configuración del dispositivo. Conozca más sobre Plaspy y cómo soporta flotas con múltiples dispositivos en https://www.plaspy.com. El soporte de protocolo, el comportamiento del firmware y los detalles de implementación del dispositivo pueden cambiar con el tiempo, por lo que verifique la información más reciente específica del GPT15 con el fabricante en https://www.eelink.com.cn/ antes de un despliegue a gran escala.
+Plaspy facilita el despliegue al utilizar un único puerto de escucha para todos los dispositivos y detección automática de protocolo, permitiendo a los equipos centrarse en la operación en lugar de en detalles de servidor específicos por dispositivo. Para conocer más sobre cómo Plaspy maneja integraciones de dispositivos y explorar las funciones de la plataforma, visite https://www.plaspy.com. Para el comportamiento más actual del firmware y los detalles específicos del protocolo siempre verifique la implementación del dispositivo con el fabricante en https://www.eelink.com.cn/ que puede actualizar el comportamiento del protocolo con el tiempo.

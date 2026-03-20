@@ -80,21 +80,21 @@ The M588T can be configured using SMS commands. The publicly available sample co
 - If your SIM operator requires APN username and APN password include the [apnu] and [apnp] placeholders:
 
 ```
-SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*[DeviceID]*,*[phoneNumberUser]*,*123456*
 ```
 
 - If the operator only requires the APN name and not username/password use:
 
 ```
-S,*[apn]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+S,*[apn]*,*54.85.159.138*,*8888*,*[DeviceID]*,*[phoneNumberUser]*,*123456*
 ```
 
 Placeholders explained:
 - [apn] — the APN name from your mobile operator.
 - [apnu] — APN username when required by the carrier.
 - [apnp] — APN password when required by the carrier.
-- {{DeviceID}} — the tracker device ID or IMEI as required by the command format.
-- {{phoneNumberUser}} — your administrative phone number to include in the configuration where requested.
+- [DeviceID] — the tracker device ID or IMEI as required by the command format.
+- [phoneNumberUser] — your administrative phone number to include in the configuration where requested.
 
 Note: 123456 is shown in the public sample as the device default password. Replace placeholders with your actual values before sending SMS commands.
 

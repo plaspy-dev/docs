@@ -4,77 +4,77 @@ id: tk115-protocol
 sidebar_label: Protocol
 title: EElink - TK115 Protocol
 sidebar_class_name: menu_item_tracker
-description: Public protocol context for EElink TK115 communication with Plaspy for reliable fleet tracking and telemetry
+description: Public protocol guidance for EElink TK115 GPS tracker integration with Plaspy shared connection settings
 keywords:
   - EElink TK115 protocol
   - EElink TK115 GPS protocol
-  - TK115 Plaspy compatibility
-  - TK115 communication protocol
-  - TK115 tracking protocol
-  - EElink tracker protocol Plaspy
-  - GPS tracker protocol integration
-  - vehicle tracking TK115
-  - fleet management EElink TK115
-  - tracker telemetry protocol
+  - EElink TK115 tracking protocol
+  - EElink TK115 Plaspy compatibility
+  - EElink tracker protocol
+  - TK115 GPS tracker compatibility
+  - GPS tracker communication protocol
+  - Plaspy device integration
+  - fleet tracking TK115
+  - scooter tracker protocol
 ---
 
 # EElink - TK115 Protocol
 
-This page describes the public protocol context for using the EElink TK115 tracker with Plaspy. It explains how the tracker communicates at a high level, what to expect when integrating the device into Plaspy, and which connection settings are commonly used for successful reporting and monitoring.
+This page provides public protocol context for using the EElink TK115 GPS tracker with Plaspy. It explains how the tracker communicates with Plaspy at a high level, what role the reporting protocol plays in device integration, and which connection settings are used by Plaspy for ingesting telemetry and events from the device.
 
-Plaspy uses shared connection settings across all supported devices and automatically detects the tracker protocol when the device reports to the platform. Exact protocol behavior and available features can vary by firmware version, hardware revision, and manufacturer implementation, so this page focuses on public, non sensitive protocol context and practical integration guidance rather than firmware internals.
+Plaspy uses shared connection settings across supported devices and automatically detects the tracker protocol when a device reports to the Plaspy endpoint. Exact on-device behavior and message contents can vary by firmware version, hardware revision, or manufacturer implementation, so this page focuses on public, non sensitive protocol context that helps with reliable setup and troubleshooting.
 
 ## Protocol Overview
 
-The TK115 uses a device reporting protocol to deliver location, status, and alarm data to a central server. In practice this protocol governs how the device identifies itself, when it sends position updates and events, and how Plaspy receives and interprets that information for tracking and alerting.
+The TK115 reporting protocol is the device layer that enables location, status, and alarm data to flow from the tracker into Plaspy. In practice this protocol carries GPS and LBS positioning, ignition and input status, alarm events, and telemetry that Plaspy consumes to provide live tracking, alerts, and reporting.
 
-- Enables the tracker to send GPS and LBS coordinates plus basic telemetry such as ACC/ignition and battery state.
-- Carries alarm events such as displacement, vibration, geofence, and speed violations to downstream systems.
-- Provides a stable channel for remote parameter updates and optional remote control actions when supported by the device.
-- Bridges the tracker and Plaspy so telemetry can be presented in dashboards, reports, and automation workflows.
-- Abstracts device-specific reporting details so Plaspy can ingest usable data across multiple tracker models.
+- Transmits GPS and assisted GPS location information along with LBS fallback for continuous position updates.
+- Reports device status such as ACC ignition state, power and battery conditions, and input alarms.
+- Sends event notifications for displacement, vibration, speed, geofence violations, and other security alarms.
+- Delivers telemetry required for operational workflows like immobilization control via optional relay commands.
+- Includes periodic heartbeat or keepalive reporting so Plaspy can maintain presence and detect offline conditions.
 
 ## How Plaspy Detects the Protocol
 
-Plaspy operates a single public endpoint that receives device reports and automatically identifies the tracker protocol from incoming messages. When a TK115 is configured to report to Plaspy, the platform will examine the incoming connection and use its detection capabilities to map the device to the correct processing logic.
+Plaspy centralizes incoming tracker connections at a shared endpoint and port, and the platform performs automatic protocol detection for devices that report correctly. When the TK115 is configured to report to Plaspy, users generally do not need to select a protocol inside Plaspy for typical setups.
 
-- Devices should be configured to report to d.plaspy.com or to the Plaspy server IP address 54.85.159.138.
-- Plaspy listens on port 8888 for incoming tracker connections and uses the same port for all supported devices.
-- The device may be set to use UDP or TCP on port 8888 depending on device support and configuration.
-- In most cases the user does not need to manually select a protocol inside Plaspy if the tracker is correctly pointed at the Plaspy endpoint.
-- Automatic detection reduces setup steps and helps accommodate a variety of tracker models and firmware variations.
+- Plaspy’s public endpoint for device reporting is d.plaspy.com and can also be reached at 54.85.159.138.
+- All devices use the same port on Plaspy which is 8888, simplifying device configuration across models.
+- Plaspy automatically detects the tracker protocol once messages arrive at the platform, avoiding manual protocol selection in most cases.
+- Proper device configuration to point to the Plaspy endpoint is the common requirement to enable automatic detection and ingestion.
+- If a device has custom reporting behavior, verify the device is set to send standard telemetry and event messages to the Plaspy endpoint.
 
 ## Transport and Connection Context
 
-The TK115 can be configured to communicate over standard cellular data links and typically supports both UDP and TCP reporting modes. Choosing the right transport and ensuring the tracker points to the Plaspy endpoint are key steps for reliable connectivity.
+Connection transport and addressing determine how the TK115 reaches Plaspy but do not change the general role of the protocol. The TK115 can be configured to use either UDP or TCP when sending data to the Plaspy endpoint, and the same Plaspy port is used for all supported trackers.
 
-- Point the device at the Plaspy domain d.plaspy.com or at the server IP 54.85.159.138 as an alternative target.
-- Configure the tracker to use port 8888 for reporting; Plaspy uses the same port for all devices.
-- Devices may be configured to use UDP or TCP on port 8888 depending on the tracker firmware and operator preference.
-- Ensure mobile data connectivity and APN settings on the device are valid so the tracker can reach the Plaspy endpoint.
-- Verify that carrier or network APN firewalls do not block outbound UDP or TCP traffic to port 8888.
+- The TK115 may be set to report over UDP or TCP on port 8888 depending on device settings and network environment.
+- Devices can be pointed to the domain d.plaspy.com or the numeric address 54.85.159.138 to reach Plaspy servers.
+- Plaspy uses port 8888 for all devices to keep configuration consistent across models and firmware versions.
+- Network characteristics such as NAT, firewall rules, and carrier behavior can affect UDP versus TCP reliability; choose the transport that fits your deployment and carrier constraints.
+- Make sure outbound device connectivity to d.plaspy.com on port 8888 is allowed by any intermediate firewalls or APN configurations.
 
 ## Protocol Compatibility Notes
 
-- Firmware differences can change message timing, optional fields, or available alarms between device revisions.
-- Hardware revisions or optional accessories such as relays and extra sensors may expose additional telemetry not present on all units.
-- Transport selection between UDP and TCP can affect reliability and retransmission behavior; choose the mode supported by your fleet and device firmware.
-- Manufacturer remote configuration capabilities vary; some parameters may be adjustable over the air while others require local setup.
-- Always validate that the device is configured to report to d.plaspy.com or 54.85.159.138 on port 8888 for Plaspy ingestion.
-- Confirm that any manufacturer supplied setup instructions are followed to ensure proper format of the first report so Plaspy can detect the device.
+- Firmware revision differences on the TK115 can change which fields or events are reported and how often reports are sent.
+- Hardware revisions or optional accessories such as external relays or sensors may add or modify reported inputs and alarms.
+- Transport selection (UDP vs TCP) can affect delivery semantics; some networks favor one transport for reliability.
+- Manufacturer configuration tools or remote parameter settings may change reporting intervals, heartbeat behavior, and alarm thresholds.
+- Validate device configuration by checking that the TK115 is reporting to d.plaspy.com or 54.85.159.138 on port 8888 and that messages are visible in Plaspy after initial setup.
+- When using relay or immobilizer features, confirm supported remote control commands and required device settings within the manufacturer documentation.
 
 ## Why Protocol Understanding Matters
 
-Knowing how the TK115 communicates helps you set up devices correctly, troubleshoot connectivity or reporting issues, and plan for firmware or hardware variations in production deployments. A practical understanding of the reporting context reduces time to value and improves operational reliability.
+Understanding the TK115 communication protocol helps ensure a reliable integration into Plaspy, speeds up troubleshooting, and supports long term operations by making it clear what data the tracker will deliver and how Plaspy will process it.
 
-- Helps ensure correct server entry and transport selection so devices reliably reach Plaspy.
-- Speeds troubleshooting by narrowing issues to network, transport, or configuration layers rather than platform parsing.
-- Clarifies expectations for what telemetry and alarms the device can deliver to Plaspy.
-- Supports planning for firmware updates and hardware revisions in large deployments.
-- Enables more predictable automation and alerting by aligning device behavior with platform workflows.
+- Helps identify whether missing data is due to device configuration, transport issues, or firmware differences.
+- Enables correct network and firewall configuration so devices can reach d.plaspy.com on port 8888.
+- Clarifies expected telemetry and event types for designing alerts, geofences, and immobilization workflows in Plaspy.
+- Assists in validating that ACC status, battery alerts, and alarm events are being delivered consistently to the platform.
+- Supports planning for OTA updates or device swaps by understanding protocol behavior differences across firmware.
 
 ## Why Use Plaspy with This Protocol
 
-Using the TK115 with Plaspy gives fleet operators and security teams centralized visibility into vehicle locations, ignition status, and alarm events. The TK115's compact form factor, ACC detection, optional relay, and backup power make it well suited to two wheelers and light vehicles, while Plaspy provides the ingestion, display, and automation capabilities operators need for tracking and incident response.
+Using the TK115 with Plaspy gives fleet and mobility operators straightforward access to position data, alarm notifications, and status telemetry for electric motorcycles and scooters. The combination of TK115 hardware features such as AGPS assisted positioning, ACC detection, optional relay control, and backup power with Plaspy’s centralized ingestion and automatic protocol detection enables practical security and operational workflows without complex per device configuration.
 
-If you want to learn more about Plaspy and how it works with devices like the EElink TK115, visit https://www.plaspy.com. For the latest device specific protocol details, firmware notes, and manufacturer instructions, review the official EElink documentation at https://www.eelink.com.cn/ as device implementations and firmware behavior can change over time.
+To learn more about Plaspy and how your TK115 devices can report into the platform, visit https://www.plaspy.com. For the most current device specific protocol details, firmware notes, and configuration instructions, please verify information on the manufacturer site https://www.eelink.com.cn/ as protocol support and firmware behavior may change over time.

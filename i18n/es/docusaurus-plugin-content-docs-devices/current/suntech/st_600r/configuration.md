@@ -81,13 +81,13 @@ Los comandos que siguen preservan los marcadores de posición utilizados para va
 
 1. Reinicio opcional a valores de fábrica (usar solo si necesita restaurar los valores por defecto):
 ```
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
-Etiqueta: reinicio inicial opcional. Reemplace {{device_id}} con los últimos 9 dígitos del IMEI excluyendo el dígito final del IMEI.
+Etiqueta: reinicio inicial opcional. Reemplace [device_id] con los últimos 9 dígitos del IMEI excluyendo el dígito final del IMEI.
 
 2. Establecer APN del operador y servidor GPRS. Si necesita enviar usuario o contraseña del APN, ponga la bandera APN en 1, de lo contrario en 0. Campos: comando;device_id;02;APN_FLAG;APN;APN_USER;APN_PASS;SERVER_IP;SERVER_PORT;;;;
 ```
-ST300NTW;{{device_id}};02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 Notas:
 - Reemplace el cuarto campo (0) por 1 si proporciona credenciales [apnu] o [apnp].
@@ -96,13 +96,13 @@ Notas:
 
 3. Establecer intervalo de reporte a 60 segundos (ejemplo de configuración de reporte):
 ```
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 Este comando configura reportes periódicos. Ajuste los intervalos según sus necesidades operativas y las capacidades del firmware.
 
 4. Comprobar configuración actual (comando de verificación):
 ```
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 Este comando solicita al dispositivo que envíe su configuración actual para verificación.
 

@@ -2,81 +2,77 @@
 slug: /navtelekom/signal_s_2115/features
 id: signal_s_2115-features
 sidebar_label: Features
-title: Navtelekom - Signal S-2115 Features
+title: Navtelekom - СИГНАЛ S-2115 Features
 sidebar_class_name: menu_item_tracker
-description: Resumen de funciones del Navtelekom Signal S-2115 y su integración con Plaspy para monitoreo y seguridad vehicular
+description: Resumen práctico de funciones del Navtelekom СИГНАЛ S-2115 y su integración con Plaspy
 keywords:
-  - Navtelekom Signal S-2115
-  - Funciones Signal S-2115
-  - Rastreador GPS Navtelekom
-  - Signal S-2115 Plaspy
-  - Rastreo vehicular Signal S-2115
-  - Acelerómetro Signal S-2115
-  - Funciones rastreador Navtelekom
-  - Control remoto Signal S-2115
-  - Rastreador seguridad vehicular
-  - Signal S-2115 GPS GLONASS
+  - Navtelekom
+  - СИГНАЛ S-2115
+  - SIGNAL S-2115
+  - rastreador GPS S-2115
+  - funciones S-2115 Navtelekom
+  - acelerómetro S-2115
+  - seguimiento de vehículos Plaspy
+  - rastreador compatible Plaspy
+  - rastreador GLONASS GPS
+  - rastreador con alarma SMS y voz
 ---
 
-# Navtelekom - Signal S-2115: Características
+# Navtelekom - Características de СИГНАЛ S-2115
 
-Esta página detalla el contexto público de funcionalidades del Navtelekom Signal S-2115 y cómo normalmente se emplean estas capacidades con Plaspy para el monitoreo y la seguridad vehicular. Resume las capacidades descritas por el fabricante y subraya el valor práctico que aportan cuando se integran con la plataforma de seguimiento de Plaspy.
+En esta página se presenta el contexto público de funcionalidades del Navtelekom СИГНАЛ S-2115 y cómo se aprovechan cuando el dispositivo se conecta a Plaspy. El enfoque está en capacidades prácticas relevantes para la supervisión de flotas, flujos de trabajo antirobo y seguimiento centralizado, más que en detalles internos del equipo o pasos de configuración privados.
 
-La disponibilidad y el comportamiento exacto de las funciones pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y la implementación del fabricante. Utilice esta página como referencia general sobre compatibilidad con Plaspy y consulte la documentación oficial de Navtelekom para detalles específicos y actuales del dispositivo.
+La disponibilidad exacta y el comportamiento de las funciones del S-2115 pueden variar según la versión de firmware, la revisión de hardware, el método de instalación y la implementación del fabricante. El S-2115 figura como un modelo archivado y descontinuado, por lo que usted deberá confirmar los detalles actuales en la documentación del fabricante antes de planificar nuevos despliegues o integrar unidades heredadas en Plaspy.
 
-## Resumen de funciones
+## Visión general de las funciones
 
-El Signal S-2115 es un sistema de monitoreo basado en GSM diseñado para tareas de rastreo y seguridad en transporte, con funciones de control remoto y alertas. En la práctica, ofrece seguimiento continuo de posición, informes de movimiento y velocidad, detección de impactos y opciones de control remoto de salidas conectadas—funciones que respaldan la seguridad vehicular, la respuesta ante robos y la supervisión operativa cuando reporta a Plaspy.
+El СИГНАЛ S-2115 es un rastreador para vehículos que combina posicionamiento GNSS con comunicaciones GSM y detección de eventos a bordo. Está pensado para ofrecer reportes de ubicación y flujos de alarma sencillos, adecuados para plataformas centralizadas como Plaspy.
 
-- Reporta posición mediante satélites usando GPS y GLONASS para soporte de localización y seguimiento de movimientos precisos.
-- Detecta impactos mecánicos con un acelerómetro integrado para señalar colisiones, manipulación o remolque.
-- Envía alertas y notificaciones a usuarios vía SMS o mensajes de voz para alarmas y accesos no autorizados.
-- Incluye un botón de alarma que transmite notificaciones de emergencia a suscriptores predefinidos.
-- Permite control remoto de salidas externas como cierre de motor o sirena para acciones de seguridad.
-- Dispone de interfaz USB y opciones de gestión remota para configuración y actualizaciones de firmware.
+- Posicionamiento por GLONASS y GPS para seguimiento de ubicación en tiempo real.
+- Comunicaciones GSM para el envío de datos y alarmas por voz a sistemas centrales y operadores.
+- Acelerómetro interno que detecta impactos, inclinaciones y movimiento para generar alarmas.
+- Opciones de alarma por SMS y llamadas de voz para notificación inmediata al operador.
+- Control remoto y diagnóstico mediante menú de voz, tonos DTMF y cadenas de comandos SMS.
+- Interfaz USB para configuración local y actualizaciones de firmware con el configurador del proveedor.
 
-## Funciones principales del Navtelekom - Signal S-2115
+## Funcionalidades principales del Navtelekom - СИГНАЛ S-2115
 
-- Reporte de posición por GPS y GLONASS para localización y velocidad en tiempo real.
-- Acelerómetro integrado para detectar y registrar impactos mecánicos y movimientos bruscos.
-- Botón de alarma para enviar información de emergencia a contactos predeterminados.
-- Alertas por SMS y mensajes de voz ante alarmas o accesos no autorizados.
-- Control remoto de salidas para operar dispositivos externos como cierre de motor o sirena.
-- Interfaz USB para conexión a PC y configuración local.
-- Gestión remota mediante menús de voz, marcación por tonos y comandos SMS.
-- Opción para conectar una fuente de alimentación de respaldo y mantener la operación ante cortes de energía.
+- Posicionamiento GNSS compatible con satélites GLONASS y GPS para reportes de localización del vehículo.
+- Comunicaciones móviles GSM empleadas para transmitir informes de posición y notificaciones de alarma.
+- Acelerómetro interno para detección de impactos, inclinaciones y movimiento que activan alertas de evento.
+- Entrega de alarmas a través de SMS y llamadas de voz para avisar a operadores o conductores sobre incidentes.
+- Configuración y control remoto mediante interacción por menú de voz, DTMF y comandos SMS.
+- Interfaz USB local para configuración in situ y actualizaciones de firmware con la herramienta del proveedor.
+- Diseñado para gestión de flotas y monitoreo antirrobo, con telemetría y reportes de alarma sencillos.
 
 ## Cómo funcionan estas funciones con Plaspy
 
-Plaspy recibe información de ubicación y eventos de rastreadores compatibles como el Signal S-2115 y presenta esos datos dentro de sus herramientas de monitoreo e informes. Plaspy detecta automáticamente el protocolo soportado por muchos dispositivos y acepta los reportes del equipo para que los encargados de flota y seguridad puedan actuar rápidamente.
+Cuando el S-2115 está conectado a Plaspy, proporciona entradas de posición y eventos que Plaspy utiliza para seguimiento en vivo, alertas y registros históricos. Plaspy ingiere los reportes del dispositivo y presenta ubicación, estado de eventos y líneas de tiempo en paneles de flota y herramientas de informes.
 
-- Las actualizaciones de posición y la información de movimiento aparecen en el mapa y en las vistas de historial de Plaspy para revisión de rutas y seguimiento en vivo.
-- Los eventos de impacto o manipulación detectados por el acelerómetro se registran como alertas para que los operadores investiguen incidentes potenciales.
-- Las activaciones del botón de alarma y las notificaciones por SMS o voz se representan como eventos en Plaspy para auditoría y escalamiento.
-- Las acciones de control remoto (por salidas como cierre de motor o sirena) pueden coordinarse mediante flujos de trabajo en Plaspy y registrarse como eventos de control cuando la integración con el dispositivo lo permita.
-- La configuración y conectividad del dispositivo se gestionan apuntando el rastreador a los servidores de Plaspy; Plaspy detecta automáticamente el protocolo del equipo para simplificar la puesta en marcha.
-
-Nota: Los dispositivos Navtelekom, incluyendo el Signal S-2115, pueden configurarse para reportar a Plaspy. Plaspy proporciona una dirección de servidor pública y acepta conexiones usando tipos de transporte comunes; consulte la guía de configuración de Plaspy y el manual del dispositivo para los pasos exactos de instalación.
+- Las actualizaciones de posición en tiempo real se muestran en los mapas de Plaspy usando las fijaciones GNSS del rastreador.
+- Las alarmas por impacto, inclinación y movimiento provenientes del acelerómetro aparecen como eventos para la revisión por parte del operador.
+- Las vías de alarma por SMS y voz pueden integrarse en flujos de escalamiento o emplearse como canales complementarios de notificación.
+- Los flujos de comandos remotos y diagnóstico pueden coordinarse desde Plaspy junto con los controles remotos del dispositivo y las respuestas por SMS.
+- La configuración local y las actualizaciones de firmware realizadas antes o durante el alta del equipo pueden garantizar que el dispositivo reporte los datos esperados a Plaspy.
 
 ## Casos de uso típicos
 
-- Rastreo de vehículos en tiempo real para seguridad y supervisión de flotas.
-- Detección de robo y manipulación mediante alertas activadas por el acelerómetro y el botón de pánico.
-- Inmovilización remota y control de sirena para facilitar la recuperación de vehículos o disuadir usos no autorizados.
-- Monitoreo continuo de activos de alto valor o transporte crítico, con alimentación de respaldo para reducir tiempos de inactividad.
-- Respuesta rápida a incidentes combinando notificaciones de alarma con datos de ubicación en vivo en Plaspy.
-- Configuración y diagnóstico remoto vía USB o gestión por SMS/voz para equipos de mantenimiento.
+- Monitoreo de flotas para supervisión operativa y enrutamiento con ubicación de vehículos en tiempo real.
+- Vigilancia antirrobo de vehículos usando detección de movimiento e impacto para activar alertas.
+- Registro de incidentes para mantenimiento y revisión forense de eventos de choque o impacto.
+- Verificaciones remotas del estado del dispositivo y ajustes de parámetros por SMS o voz cuando el acceso físico es limitado.
+- Integración de unidades S-2115 archivadas o heredadas en el registro centralizado de Plaspy para entornos con flotas mixtas.
 
 ## Notas sobre disponibilidad de funciones
 
-- Los conjuntos de funciones pueden cambiar entre versiones de firmware; ciertos comportamientos pueden añadirse, ajustarse o dejar de estar soportados por el fabricante.
-- Las revisiones de hardware y las variantes regionales pueden modificar las entradas, salidas o bandas de red soportadas.
-- El cableado de la instalación y la forma en que se conectan las salidas externas afectan las funciones de control remoto disponibles en la práctica.
-- Algunas funciones de gestión requieren acceso por SMS, voz o USB y pueden depender de la disponibilidad de la red GSM en el área de instalación.
-- Confirme siempre las capacidades exactas de su unidad y el nivel de firmware con la documentación de Navtelekom antes de planificar flujos de trabajo críticos.
+- El S-2115 figura como modelo descontinuado y archivado por el fabricante; el firmware y las herramientas pueden mantenerse para despliegues heredados.
+- La disponibilidad de funciones puede variar entre versiones de firmware y revisiones de hardware; confirme qué modos de alarma y cadenas de comandos admite su unidad.
+- El comportamiento de alarmas por SMS y voz depende de la disponibilidad del servicio celular y del soporte de la red en la región.
+- La configuración local por USB y la utilidad NTC Configurator del proveedor son los medios recomendados para la configuración in situ y las actualizaciones de firmware.
+- El método de instalación y las decisiones de cableado pueden afectar las entradas de sensores y el comportamiento de las alarmas; consulte la documentación del instalador para prácticas recomendadas.
 
 ## Por qué usar Plaspy con estas funciones
 
-Usar Plaspy con el Navtelekom Signal S-2115 ayuda a consolidar los datos de ubicación, eventos y seguridad del equipo en una única plataforma para monitoreo, informe y respuesta operativa. La detección automática de protocolos y el manejo de eventos de Plaspy facilitan integrar actualizaciones de posición, alertas del acelerómetro y activaciones de alarma dentro de un tablero de flota o seguridad donde los equipos pueden priorizar y actuar.
+Usar el Navtelekom СИГНАЛ S-2115 con Plaspy permite centralizar los reportes de ubicación, la detección de eventos basada en acelerómetro y los flujos de alarma en una sola plataforma. Plaspy convierte los reportes de posición y alarma del S-2115 en visibilidad operativa, registros históricos y flujos de notificación que apoyan despacho, monitoreo de seguridad y análisis posterior al incidente.
 
-Para obtener más información sobre cómo Plaspy puede trabajar con el Signal S-2115 y otros rastreadores, visite https://www.plaspy.com. Para detalles específicos del dispositivo, notas de firmware y la guía oficial del fabricante, verifique las funciones con Navtelekom en https://www.navtelecom.ru/ ya que las características y el comportamiento del firmware pueden cambiar con el tiempo.
+To learn more about Plaspy visit https://www.plaspy.com. Please note that device features, firmware behavior, and manufacturer implementation details can change over time; verify the latest S-2115 documentation and firmware information on the manufacturer site https://www.navtelecom.ru/.

@@ -4,76 +4,79 @@ id: signal_s_2651-features
 sidebar_label: Features
 title: Navtelekom - SIGNAL S-2651 Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de características del rastreador GPS Navtelekom SIGNAL S-2651 y su integración con Plaspy para gestión de flotas y monitoreo de activos
+description: Conozca las funciones prácticas del rastreador GPS Navtelekom SIGNAL S-2651 y su integración con Plaspy para monitoreo de flotas y activos
 keywords:
-  - Navtelekom SIGNAL S-2651 características
-  - SIGNAL S-2651 rastreador GPS
-  - capacidades rastreador GPS Navtelekom
-  - compatibilidad SIGNAL S-2651 con Plaspy
-  - seguimiento de flotas Navtelekom
-  - telemetría SIGNAL S-2651
-  - monitoreo de activos GPS Navtelekom
-  - interfaces CAN RS232 RS485 Navtelekom
-  - SIGNAL S-2651 Bluetooth registro SD
-  - rastreador GPS compatible con Plaspy
+  - Navtelekom SIGNAL S-2651
+  - Características SIGNAL S-2651
+  - Rastreador GPS Navtelekom
+  - SIGNAL S-2651 Plaspy
+  - Características rastreador GPS
+  - Telemática vehicular
+  - Rastreador dual SIM
+  - Rastreador GPS GLONASS
+  - Rastreador con registro SD
+  - Rastreador GPS Bluetooth
 ---
 
 # Navtelekom - Características del SIGNAL S-2651
 
-Esta página presenta un resumen público orientado a características del Navtelekom SIGNAL S-2651 y cómo sus capacidades se integran con Plaspy para la gestión de flotas, telemática y monitoreo de activos. Se enfoca en información práctica y no sensible sobre lo que el dispositivo puede ofrecer al usarse con Plaspy y cómo esa funcionalidad aporta valor al monitoreo y a las operaciones.
+Esta página describe el contexto público de funcionalidades del rastreador Navtelekom SIGNAL S-2651 cuando se utiliza con Plaspy. Se centra en las capacidades orientadas al usuario relevantes para la gestión de flotas, telemática y monitoreo de activos, y en cómo esas capacidades suelen integrarse en la plataforma Plaspy.
 
-La disponibilidad exacta de funciones en un dispositivo SIGNAL S-2651 puede variar según la versión de firmware, la revisión de hardware, las opciones de instalación y la implementación del fabricante. Para comportamiento específico del equipo, detalles de configuración y notas sobre el firmware más reciente, consulte la documentación oficial y las notas de versión de Navtelekom.
+La disponibilidad exacta de funciones, su comportamiento y las opciones de configuración pueden variar según la versión de firmware, la revisión de hardware, la variante regional y la instalación. Para detalles específicos del dispositivo o información actualizada consulte siempre la documentación del fabricante.
 
-## Resumen de capacidades
+## Resumen de características
 
-El SIGNAL S-2651 es un rastreador GNSS compacto con soporte para múltiples constelaciones, diseñado para escenarios telemáticos profesionales. Combina posicionamiento, conectividad celular resistente, entradas y salidas variadas y registro local para ofrecer seguimiento continuo, captura de eventos y opciones de integración aptas tanto para vehículos como para activos fijos.
+El SIGNAL S-2651 es un rastreador GPS compacto y compatible con Plaspy, diseñado para ofrecer posicionamiento en tiempo real y telemetría confiable para vehículos y activos fijos. Combina posicionamiento GNSS multi-constelación con conectividad celular, registro local y una amplia gama de interfaces para soportar monitorización y flujos básicos de control remoto.
 
-- Posicionamiento multi constelación con GLONASS y GPS para ubicación en tiempo real y trazado de rutas fiable.
-- Módem celular 2G con soporte para SIM dual para mejorar la resiliencia de la conectividad y asegurar la entrega continua de telemetría.
-- Múltiples interfaces para vehículo e industrial, incluyendo RS-232, RS-485, CAN y 1-Wire, para integrar sensores y datos del vehículo.
-- Registro local en tarjeta SD de hasta 32 GB para conservar datos durante cortes de red y facilitar análisis posteriores.
-- Entradas configurables y salidas conmutadas para monitorizar encendido, puertas y eventos, además de controlar actuadores de forma remota.
-- Bluetooth 4.0 para configuración en sitio y para integración con sensores Bluetooth compatibles.
+- Posicionamiento multi-constelación GLONASS/GPS para mejorar la precisión y el historial de rutas.
+- Módem celular 2G con doble SIM para mantener conectividad y transmisión continua de telemetría.
+- Múltiples interfaces físicas, incluyendo CAN, RS-232, RS-485 y 1-Wire para integrar sensores del vehículo y equipos industriales.
+- Registro local en tarjeta SD de hasta 32 GB para preservar datos durante cortes de red y análisis post-viaje.
+- Seis entradas universales configurables y cuatro salidas conmutadas para monitorización de eventos y control remoto de actuadores.
+- Bluetooth 4.0 para configuración in situ e integración de sensores de corto alcance.
 
-## Funciones principales del Navtelekom - SIGNAL S-2651
+## Características principales
 
-- Posicionamiento GNSS con GLONASS y GPS para registros de ubicación y rutas precisos.
-- Módem celular 2G con doble SIM para conectividad redundante y transmisión continua de telemetría.
-- Amplias interfaces RS-232, RS-485, CAN y 1-Wire para telemetría de sensores e integración con dispositivos MODBUS.
-- Seis entradas universales configurables y cuatro salidas conmutadas para detección de eventos y acciones de control remoto.
-- Soporte de tarjeta SD local hasta 32 GB para registro de datos offline y continuidad durante interrupciones de cobertura.
-- Batería de respaldo Li-Po integrada para guardar registros en un apagado seguro y mantener energía de corto plazo.
-- Bluetooth 4.0 para configuración en sitio y conexión de sensores de corto alcance.
+- Posicionamiento GNSS multi-constelación (GLONASS y GPS) para reportes continuos de localización.
+- Módem celular 2G con doble SIM para un enlace de datos más resistente en zonas con cobertura variable.
+- Interfaces CAN, RS-232, RS-485 y 1-Wire para integración con buses del vehículo y telemetría de sensores.
+- Seis entradas universales configurables y cuatro salidas conmutadas para casos de uso como encendido, puertas, alarmas y control remoto.
+- Soporte de almacenamiento en tarjeta SD de hasta 32 GB para registro local y continuidad de datos.
+- Batería de respaldo Li‑Po integrada y protección en la línea de alimentación para preservar registros ante eventos de energía.
+- Soporte Bluetooth 4.0 para configuración local y sensores compatibles de corto alcance.
+- Soporte del protocolo MODBUS en las interfaces seriales apropiadas para integración en entornos industriales.
 
-## Cómo se integran estas funciones con Plaspy
+## Cómo funcionan estas funciones con Plaspy
 
-Al usarse con Plaspy, el SIGNAL S-2651 envía actualizaciones de ubicación y datos de eventos a la plataforma para que usted pueda monitorear activos en tiempo real y revisar registros históricos. Plaspy ingiere la posición y la telemetría, presenta eventos y el estado del dispositivo, y utiliza los datos registrados para mantener continuidad cuando la telemetría en vivo se interrumpe.
+Al conectarse a Plaspy, el SIGNAL S-2651 transmite datos de ubicación y eventos a la plataforma para que los operadores puedan monitorear activos casi en tiempo real y revisar la actividad histórica. Plaspy consume actualizaciones de posición, eventos de E/S y telemetría de sensores compatibles para presentar ubicación, estado y contexto de eventos en la interfaz de monitoreo y en las herramientas de reportes.
 
-- Actualizaciones de posición en tiempo real y el historial de ruta visibles en Plaspy para mejorar la conciencia situacional y la toma de decisiones en despacho.
-- Reporte de eventos desde entradas configurables y salidas conmutadas mostrado como eventos accionables dentro de los flujos de trabajo de Plaspy.
-- Telemetría proveniente de CAN y 1-Wire disponible en Plaspy para integrar en informes de combustible, eficiencia o reportes personalizados.
-- El registro en tarjeta SD funciona como respaldo local que Plaspy puede usar para restaurar registros históricos si las cargas en red se demoran.
-- Bluetooth permite configuraciones en sitio y emparejamientos rápidos de sensores de corto alcance, reflejando la información de sensores en los metadatos del dispositivo en Plaspy.
+- Las actualizaciones de ubicación en tiempo real y las rutas históricas aparecen en Plaspy para conciencia situacional y reproducción.
+- Las entradas configurables se mapean a notificaciones de eventos en Plaspy para seguimiento de encendido, puertas o estados de alarma.
+- La telemetría por CAN y serial puede reportarse a Plaspy para soportar informes de consumo de combustible o diagnóstico cuando esté disponible.
+- Las salidas conmutadas pueden utilizarse con flujos de trabajo en Plaspy para activar controles remotos o acciones de inmovilización cuando estén configuradas.
+- El registro en tarjeta SD proporciona datos de respaldo que pueden cargarse o revisarse para cubrir vacíos cuando se interrumpe la cobertura celular.
+- Bluetooth se utiliza para configuración en sitio y emparejamiento de sensores de corto alcance sin necesidad de cambios en la plataforma.
 
 ## Casos de uso típicos
 
-- Seguimiento de flotas comerciales con actualizaciones continuas de ubicación y historial de rutas para camiones y vehículos de reparto.
-- Flujos de trabajo contra robo que combinan detección de eventos y salidas conmutadas con alertas y procedimientos de respuesta en Plaspy.
-- Diagnóstico de vehículos y equipos integrando telemetría serial y CAN en los informes y paneles de Plaspy.
-- Monitoreo de activos estacionarios donde el registro local en SD y las antenas externas aseguran captura de datos consistente.
-- Monitoreo ambiental o de carga a corto alcance mediante sensores Bluetooth emparejados al dispositivo.
-- Análisis forense post viaje utilizando registros locales combinados con los datos históricos almacenados en Plaspy.
+- Rastreo de flotas para camiones de reparto, vehículos de servicio y flotas comerciales que requieren posición continua e historial de rutas.
+- Integración de telemetría de combustible y sensores para reportes de eficiencia operativa mediante CAN y interfaces seriales.
+- Flujos de trabajo antirobo y recuperación usando monitorización de eventos y salidas conmutadas para control remoto.
+- Monitoreo de activos estacionarios donde el registro en SD y antenas externas permiten cargas periódicas y registro confiable.
+- Agregación de telemática y diagnósticos para equipos especiales mediante conexiones RS-232, RS-485 o MODBUS.
+- Monitoreo ambiental o de carga de corto alcance utilizando sensores Bluetooth compatibles.
 
 ## Notas sobre disponibilidad de funciones
 
-- Las revisiones de firmware y hardware pueden habilitar o modificar funciones específicas; verifique las notas de la versión del firmware para conocer las capacidades exactas.
-- Algunas interfaces o funciones pueden requerir instalación profesional u arneses de cableado opcionales según el tipo de vehículo o activo.
-- El soporte de bandas celulares regionales y la disponibilidad de 2G pueden afectar la conectividad y deben verificarse para el área de despliegue.
-- La compatibilidad con sensores Bluetooth depende de los perfiles de los sensores y del soporte de firmware tanto en el rastreador como en el sensor.
-- Es posible que se necesiten las herramientas y plataformas del fabricante indicadas por Navtelekom para configuraciones avanzadas o actualizaciones de firmware.
+- La disponibilidad de funciones depende del firmware instalado; algunas opciones de telemetría o protocolos pueden variar según la revisión del firmware.
+- Las revisiones de hardware y las variantes regionales del producto pueden afectar las bandas celulares soportadas, las interfaces o la compatibilidad de accesorios.
+- Ciertas integraciones, como CAN o MODBUS, requieren cableado y configuración correctos durante la instalación para exponer la telemetría esperada.
+- La capacidad y el comportamiento del registro en tarjeta SD dependen del tipo de tarjeta y del firmware del dispositivo; utilice las clases de tarjeta recomendadas para mejores resultados.
+- Las funciones de Bluetooth y configuración local requieren proximidad y herramientas o aplicaciones complementarias apropiadas para la puesta en sitio.
+- Para las especificaciones técnicas más recientes y la lista de accesorios consulte la documentación de Navtelekom correspondiente al número de serie o variante del modelo.
 
 ## Por qué usar Plaspy con estas funciones
 
-Combinar el SIGNAL S-2651 con Plaspy permite convertir la telemetría del dispositivo en información operativa útil. Plaspy presenta posición, datos de eventos y registros en una interfaz unificada para que los gestores de flota y los equipos de operaciones monitoreen el movimiento, respondan a incidentes y analicen tendencias sin necesidad de herramientas de agregación personalizadas.
+Plaspy aporta una capa práctica de monitoreo y gestión para los dispositivos SIGNAL S-2651, transformando posiciones y telemetría en información operacional. Al combinar posicionamiento GNSS continuo, conectividad celular resistente y amplio soporte de E/S, el S-2651 puede alimentar a Plaspy con los datos de ubicación y eventos que las organizaciones necesitan para seguimiento, reporte y automatización de flujos de trabajo.
 
-Si desea saber más sobre Plaspy y cómo puede trabajar con el SIGNAL S-2651, visite https://www.plaspy.com. Para las especificaciones más actuales del dispositivo, el comportamiento del firmware e instrucciones del fabricante, verifique los detalles en el sitio oficial de Navtelekom https://www.navtelecom.ru/.
+To learn more about Plaspy and how the SIGNAL S-2651 can be integrated into your fleet or asset monitoring setup visit https://www.plaspy.com. Device features, firmware behavior, and manufacturer details can change over time, so verify the latest device-specific information with Navtelekom at https://www.navtelecom.ru/.

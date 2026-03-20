@@ -75,9 +75,9 @@ Una vez configurado, el GVT800 enviará actualizaciones de ubicación, alarmas y
 
 El flujo público de comandos SMS de Megastek para la configuración inicial normalmente se realiza enviando SMS desde un teléfono al rastreador. Los comandos de muestra a continuación siguen los ejemplos públicos del fabricante. La configuración de ejemplo usa la contraseña predeterminada del dispositivo 000000 en cada comando. Reemplace los marcadores antes de enviar.
 
-1. Establecer el ID del dispositivo al IMEI del equipo (reemplazar {{IMEI15}} con el IMEI de 15 dígitos)
+1. Establecer el ID del dispositivo al IMEI del equipo (reemplazar [IMEI15] con el IMEI de 15 dígitos)
 ```
-M000000,22,{{IMEI15}}
+M000000,22,[IMEI15]
 ```
 
 2. Configurar el APN del operador. Reemplace [apn] con el APN de su operador. Opcionalmente incluya [apnu] y [apnp] para usuario y contraseña del APN si su operador los requiere.
@@ -106,7 +106,7 @@ M000000,21,2
 ```
 
 Notas sobre los marcadores
-- {{IMEI15}} debe reemplazarse con el IMEI del dispositivo compuesto por 15 dígitos.
+- [IMEI15] debe reemplazarse con el IMEI del dispositivo compuesto por 15 dígitos.
 - [apn] es el APN del operador móvil requerido para datos.
 - [apnu] y [apnp] son campos opcionales de usuario y contraseña del APN y pueden omitirse si el operador no los exige.
 

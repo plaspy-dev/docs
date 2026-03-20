@@ -77,10 +77,10 @@ The GT-99 is configured to use GPRS to establish a data connection to Plaspy and
 
 The GT-99 can be configured by sending SMS commands to the device. The sample manufacturer commands below use the default device password 000000 as shown in the public configuration. Replace 000000 with your device password if it has been changed.
 
-- Set the device ID using the IMEI or a 15 digit device identifier. The manufacturer sample constructs a 15 digit ID from the IMEI. Replace {{IMEI_LAST15}} with the device IMEI last 15 digits.
+- Set the device ID using the IMEI or a 15 digit device identifier. The manufacturer sample constructs a 15 digit ID from the IMEI. Replace [IMEI_LAST15] with the device IMEI last 15 digits.
 
 ```
-M000000,22,{{IMEI_LAST15}}
+M000000,22,[IMEI_LAST15]
 ```
 
 - Set the operator APN. Use [apn] as the APN name. If your operator requires an APN username or password include [apnu] and [apnp] as needed.
@@ -122,7 +122,7 @@ M000000,21,2
 ```
 
 Notes on placeholders
-- {{IMEI_LAST15}} means the 15 digit identifier derived from the device IMEI as shown in manufacturer examples.
+- [IMEI_LAST15] means the 15 digit identifier derived from the device IMEI as shown in manufacturer examples.
 - [apn] is the operator APN string required for GPRS.
 - [apnu] and [apnp] are optional APN username and APN password placeholders if your operator requires them.
 - Replace M000000 with M\<your_password> if the device password is not the default 000000.

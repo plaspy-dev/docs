@@ -156,98 +156,98 @@ export const brand = {
     },
     {
       "name": "\u0421\u0418\u0413\u041D\u0410\u041B S-2114",
-      "slug": "s_2114",
-      "image": require("./s_2114/tracker.jpeg").default
+      "slug": "signal_s_2114",
+      "image": require("./signal_s_2114/tracker.jpeg").default
     },
     {
       "name": "\u0421\u0418\u0413\u041D\u0410\u041B S-2115",
-      "slug": "s_2115",
-      "image": require("./s_2115/tracker.jpeg").default
+      "slug": "signal_s_2115",
+      "image": require("./signal_s_2115/tracker.jpeg").default
     },
     {
       "name": "\u0421\u0418\u0413\u041D\u0410\u041B S-2117",
-      "slug": "s_2117",
-      "image": require("./s_2117/tracker.jpeg").default
+      "slug": "signal_s_2117",
+      "image": require("./signal_s_2117/tracker.jpeg").default
     },
     {
       "name": "\u0421\u0418\u0413\u041D\u0410\u041B S-2550",
-      "slug": "s_2550",
-      "image": require("./s_2550/tracker.webp").default
+      "slug": "signal_s_2550",
+      "image": require("./signal_s_2550/tracker.webp").default
     },
     {
       "name": "\u0421\u0418\u0413\u041D\u0410\u041B S-2613",
-      "slug": "s_2613",
-      "image": require("./s_2613/tracker.jpeg").default
+      "slug": "signal_s_2613",
+      "image": require("./signal_s_2613/tracker.jpeg").default
     },
     {
       "name": "\u0421\u0418\u0413\u041D\u0410\u041B S-2652",
-      "slug": "s_2652",
-      "image": require("./s_2652/tracker.jpeg").default
+      "slug": "signal_s_2652",
+      "image": require("./signal_s_2652/tracker.jpeg").default
     },
     {
       "name": "\u0421\u0418\u0413\u041D\u0410\u041B S-2654",
-      "slug": "s_2654",
-      "image": require("./s_2654/tracker.jpeg").default
+      "slug": "signal_s_2654",
+      "image": require("./signal_s_2654/tracker.jpeg").default
     },
     {
       "name": "\u0421\u0418\u0413\u041D\u0410\u041B S-4651 (4G)",
-      "slug": "s_4651_4g",
-      "image": require("./s_4651_4g/tracker.jpeg").default
+      "slug": "signal_s_4651_4g",
+      "image": require("./signal_s_4651_4g/tracker.jpeg").default
     },
     {
       "name": "\u0421\u0418\u0413\u041D\u0410\u041B S-4753",
-      "slug": "s_4753",
-      "image": require("./s_4753/tracker.jpeg").default
+      "slug": "signal_s_4753",
+      "image": require("./signal_s_4753/tracker.jpeg").default
     },
     {
       "name": "\u0421\u041C\u0410\u0420\u0422 S-2332",
-      "slug": "s_2332",
-      "image": require("./s_2332/tracker.jpeg").default
+      "slug": "smart_s_2332",
+      "image": require("./smart_s_2332/tracker.jpeg").default
     },
     {
       "name": "\u0421\u041C\u0410\u0420\u0422 S-2333A HIT",
-      "slug": "s_2333a_hit",
-      "image": require("./s_2333a_hit/tracker.png").default
+      "slug": "smart_s_2333a_hit",
+      "image": require("./smart_s_2333a_hit/tracker.png").default
     },
     {
       "name": "\u0421\u041C\u0410\u0420\u0422 S-2422",
-      "slug": "s_2422",
-      "image": require("./s_2422/tracker.webp").default
+      "slug": "smart_s_2422",
+      "image": require("./smart_s_2422/tracker.webp").default
     },
     {
       "name": "\u0421\u041C\u0410\u0420\u0422 S-2430 START",
-      "slug": "s_2430_start",
-      "image": require("./s_2430_start/tracker.jpeg").default
+      "slug": "smart_s_2430_start",
+      "image": require("./smart_s_2430_start/tracker.jpeg").default
     },
     {
       "name": "\u0421\u041C\u0410\u0420\u0422 S-2435",
-      "slug": "s_2435",
-      "image": require("./s_2435/tracker.jpeg").default
+      "slug": "smart_s_2435",
+      "image": require("./smart_s_2435/tracker.jpeg").default
     },
     {
       "name": "\u0421\u041C\u0410\u0420\u0422 S-2437",
-      "slug": "s_2437",
-      "image": require("./s_2437/tracker.jpeg").default
+      "slug": "smart_s_2437",
+      "image": require("./smart_s_2437/tracker.jpeg").default
     },
     {
       "name": "\u0421\u041C\u0410\u0420\u0422 S-4513",
-      "slug": "s_4513",
-      "image": require("./s_4513/tracker.jpeg").default
+      "slug": "smart_s_4513",
+      "image": require("./smart_s_4513/tracker.jpeg").default
     },
     {
       "name": "\u0421\u041C\u0410\u0420\u0422 S-4535",
-      "slug": "s_4535",
-      "image": require("./s_4535/tracker.jpeg").default
+      "slug": "smart_s_4535",
+      "image": require("./smart_s_4535/tracker.jpeg").default
     },
     {
       "name": "\u0421\u041C\u0410\u0420\u0422 S-4537",
-      "slug": "s_4537",
-      "image": require("./s_4537/tracker.jpeg").default
+      "slug": "smart_s_4537",
+      "image": require("./smart_s_4537/tracker.jpeg").default
     },
     {
       "name": "\u0421\u0422\u0410\u0420\u0422 S-2011",
-      "slug": "s_2011",
-      "image": require("./s_2011/tracker.jpeg").default
+      "slug": "start_s_2011",
+      "image": require("./start_s_2011/tracker.jpeg").default
     }
   ]
 };

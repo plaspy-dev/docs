@@ -75,16 +75,16 @@ The MT100 sends GNSS fixes and device events to the Plaspy server endpoint so Pl
 The MT100 public configuration examples include SMS based commands. The default device password used in these commands is 000000. Replace placeholders with your specific values before sending. Each SMS command begins with M000000 where 000000 is the default password.
 
 - Note on placeholders
-  - {{imei}} means the 15 digit IMEI of the device. Use the last 15 digits of the IMEI if required by your device.
+  - [imei] means the 15 digit IMEI of the device. Use the last 15 digits of the IMEI if required by your device.
   - [apn] is the mobile operator APN string.
   - [apnu] is the APN username when required, otherwise omit.
   - [apnp] is the APN password when required, otherwise omit.
 
 1) Set the device ID using IMEI
 ```text
-M000000,22,{{imei}}
+M000000,22,[imei]
 ```
-Explanation: replace {{imei}} with the device IMEI (15 digits). This associates the device ID as expected by the tracker protocol.
+Explanation: replace [imei] with the device IMEI (15 digits). This associates the device ID as expected by the tracker protocol.
 
 2) Set the operator APN (optional username and password)
 ```text

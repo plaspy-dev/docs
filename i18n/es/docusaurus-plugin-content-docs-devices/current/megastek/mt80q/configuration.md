@@ -78,7 +78,7 @@ El ejemplo público de configuración del MT80Q proporciona comandos SMS como un
 - Propósito: Registrar o fijar el identificador del equipo en el rastreador.
 - Reemplace el marcador IMEI con los últimos 15 dígitos del IMEI de su dispositivo.
 ```
-M000000,22,{{IMEI_LAST_15_DIGITS}}
+M000000,22,[IMEI_LAST_15_DIGITS]
 ```
 (El formulario original de la plantilla en el ejemplo público se mostró como una expresión web. Reemplace con los dígitos reales del IMEI para uso por SMS.)
 
@@ -114,7 +114,7 @@ M000000,21,2
 
 Notas importantes sobre los marcadores de posición y la contraseña:
 - [apn] es el APN de su operador móvil. [apnu] y [apnp] son los campos opcionales de usuario y contraseña del APN cuando su operador los requiere.
-- {{IMEI_LAST_15_DIGITS}} significa los últimos 15 dígitos del IMEI del dispositivo; sustitúyalos por el IMEI real para el comando.
+- [IMEI_LAST_15_DIGITS] significa los últimos 15 dígitos del IMEI del dispositivo; sustitúyalos por el IMEI real para el comando.
 - El ejemplo público utiliza la contraseña de administrador por defecto 000000 en el prefijo del comando SMS. Si su contraseña fue modificada, use la contraseña actual.
 
 ## Notas de configuración

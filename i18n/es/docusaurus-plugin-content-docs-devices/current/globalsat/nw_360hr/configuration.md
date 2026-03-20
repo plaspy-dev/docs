@@ -81,30 +81,30 @@ Format example used in manufacturer UI or batch tools
 TSPRXAB27GHKLMnaicz*U!
 
 Setup command example
-Reemplace {{imei}}, [apn], [apnu], [apnp] y calcule el valor de checksum para sustituir {{checksum}} antes de enviar. E0 está definido con la IP del servidor de Plaspy y E1 es el puerto de Plaspy.
+Reemplace [imei], [apn], [apnu], [apnp] y calcule el valor de checksum para sustituir [checksum] antes de enviar. E0 está definido con la IP del servidor de Plaspy y E1 es el puerto de Plaspy.
 
 Plantilla de comando GSS
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Reboot command example
-Indique este comando de reinicio como opcional según sea necesario para aplicar ajustes o como parte de la configuración inicial. Reemplace {{imei}} y calcule {{checksumreeboot}}.
+Indique este comando de reinicio como opcional según sea necesario para aplicar ajustes o como parte de la configuración inicial. Reemplace [imei] y calcule [checksumreeboot].
 
 Plantilla de comando GSC de reinicio
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Nota sobre la suma de verificación
-- El ejemplo público calcula la suma de verificación como un XOR de todos los bytes del texto del comando antes del asterisco, y luego convierte el resultado a una cadena hexadecimal de dos dígitos en mayúsculas. Las herramientas del fabricante o el manual del dispositivo pueden proporcionar un generador de checksum; si no, use el método XOR documentado para obtener {{checksum}} y {{checksumreeboot}}.
+- El ejemplo público calcula la suma de verificación como un XOR de todos los bytes del texto del comando antes del asterisco, y luego convierte el resultado a una cadena hexadecimal de dos dígitos en mayúsculas. Las herramientas del fabricante o el manual del dispositivo pueden proporcionar un generador de checksum; si no, use el método XOR documentado para obtener [checksum] y [checksumreeboot].
 
 Explicación de los marcadores
-- {{imei}} — el número IMEI de su dispositivo.
+- [imei] — el número IMEI de su dispositivo.
 - [apn] — nombre del APN requerido por la operadora celular.
 - [apnu] — nombre de usuario del APN si la red lo exige.
 - [apnp] — contraseña del APN si la red lo exige.
-- {{checksum}} y {{checksumreeboot}} — valores de checksum calculados según el formato del comando del dispositivo.
+- [checksum] y [checksumreeboot] — valores de checksum calculados según el formato del comando del dispositivo.
 
 ## Notas de configuración
 

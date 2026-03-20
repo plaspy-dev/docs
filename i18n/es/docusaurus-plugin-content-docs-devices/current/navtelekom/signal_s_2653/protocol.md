@@ -4,77 +4,77 @@ id: signal_s_2653-protocol
 sidebar_label: Protocol
 title: Navtelekom - SIGNAL S-2653 Protocol
 sidebar_class_name: menu_item_tracker
-description: Visión general pública del protocolo del Navtelekom SIGNAL S-2653 y cómo comunica con Plaspy para rastreo y telemetría
+description: Resumen público del protocolo del Navtelekom SIGNAL S-2653 y su comunicación con Plaspy para rastreo de flotas y telemática
 keywords:
   - protocolo Navtelekom SIGNAL S-2653
-  - SIGNAL S-2653 Plaspy
-  - protocolo GPS Navtelekom
-  - comunicación SIGNAL S-2653
-  - protocolo telemetría vehicular
-  - protocolo rastreador GLONASS GPS
-  - integración dispositivo Plaspy
-  - rastreo de flotas SIGNAL S-2653
-  - compatibilidad rastreador Navtelekom
-  - soporte protocolo Plaspy
+  - protocolo GPS SIGNAL S-2653
+  - rastreador Navtelekom Plaspy
+  - protocolo de rastreo de vehículos
+  - protocolo de telemática para flotas
+  - compatibilidad con GLONASS
+  - protocolo rastreador dual SIM
+  - compatibilidad del rastreador con Plaspy
+  - comunicación de rastreador GPS
+  - telemetría de registro SD
 ---
 
 # Navtelekom - Protocolo SIGNAL S-2653
 
-Esta página ofrece una visión pública del contexto del protocolo de comunicación para usar el rastreador Navtelekom SIGNAL S-2653 con Plaspy. Se centra en los detalles de integración públicos relevantes para enviar ubicación, telemetría y eventos a la plataforma Plaspy sin exponer implementaciones privadas del fabricante.
+Esta página ofrece una visión pública y no sensible sobre el contexto de comunicaciones del Navtelekom SIGNAL S-2653 cuando se usa con Plaspy. Explica cómo el rastreador informa posición y telemetría a Plaspy y cuáles son las configuraciones de conexión más comunes para la integración. El objetivo es ayudar a técnicos, integradores y gestores de flota a comprender el papel del protocolo del dispositivo en una implementación Plaspy sin revelar detalles privados de la implementación.
 
-El SIGNAL S-2653 es un rastreador GLONASS/GPS profesional diseñado para vehículos pesados y comerciales. Cuenta con conectividad celular dual SIM 2G, antenas GNSS y GSM externas, registro en tarjeta SD, interfaces CAN y RS-485, Bluetooth 4.0 y batería de respaldo integrada. Plaspy usa configuraciones de conexión compartidas entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, aunque el comportamiento exacto del protocolo puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante.
+Plaspy utiliza ajustes de conexión compartidos para los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando el dispositivo se comunica con el endpoint correcto. El comportamiento exacto del protocolo y el contenido de los mensajes pueden variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que esta página se concentra en la información pública útil sobre conexión y compatibilidad en lugar de los detalles internos del dispositivo.
 
-## Descripción general del protocolo
+## Resumen del protocolo
 
-A alto nivel, el protocolo de reporte del rastreador es el método que el dispositivo utiliza para identificarse y transmitir mensajes de posición, telemetría y eventos a un servidor remoto. Para la compatibilidad con Plaspy, el rol público del protocolo es hacer que esos mensajes sean utilizables por la plataforma mientras se preservan funciones del dispositivo como el registro local, la telemetría CAN y los eventos disparados por entradas.
+El protocolo de comunicación del SIGNAL S-2653 es el mecanismo que permite al rastreador identificarse, reportar la posición GNSS y la telemetría del vehículo, y enviar eventos y estados a una plataforma backend como Plaspy. Plaspy consume esos reportes para mostrar ubicación en tiempo real, alertas y telemetría histórica a los usuarios.
 
-- Permite reportes periódicos y basados en eventos desde el SIGNAL S-2653 hacia un endpoint remoto de rastreo.
-- Transporta telemetría del vehículo, incluidos estados de entradas, datos derivados de CAN y RS-485 que Plaspy puede mapear en paneles y alertas.
-- Permite que el rastreador indique identidad y estado del dispositivo para que Plaspy asocie los mensajes entrantes con el activo correcto.
-- Soporta comportamientos de respaldo como el registro en tarjeta SD que Plaspy puede ingerir cuando se restablece la conectividad.
-- Funciona junto a interfaces locales como Bluetooth para configuración en campo, manteniendo el reporte por red separado y orientado a la plataforma.
+- Permite reportes periódicos y por eventos desde el dispositivo hacia un servidor remoto para seguimiento en tiempo real.
+- Transmite telemetría del bus del vehículo y sensores recopilada vía CAN, RS-485 y entradas universales para análisis telemático.
+- Soporta recuperación onboard al permitir que los datos registrados en la tarjeta SD y el registro con alimentación de respaldo se sincronicen con el servidor cuando vuelve la conectividad.
+- Permite que el dispositivo envíe estado y diagnósticos que ayudan a Plaspy a determinar la salud y el estado de conectividad del equipo.
+- Facilita flujos de comandos remotos, por ejemplo control de salidas, cuando se utiliza con una plataforma que soporte comando y control.
 
-## Cómo detecta Plaspy el protocolo
+## Cómo Plaspy detecta el protocolo
 
-Plaspy acepta mensajes entrantes en un endpoint común y detecta automáticamente el protocolo del rastreador para los dispositivos configurados para reportar al endpoint de Plaspy. En la mayoría de los casos usted no necesita seleccionar un protocolo dentro de Plaspy cuando el SIGNAL S-2653 está correctamente apuntado al servidor de Plaspy.
+Plaspy usa un endpoint y puerto compartidos para el reporte de dispositivos y detecta automáticamente el protocolo empleado por las conexiones entrantes. Cuando el SIGNAL S-2653 está configurado para reportar a Plaspy, normalmente no se requiere seleccionar el protocolo manualmente dentro de Plaspy siempre que el dispositivo apunte correctamente al endpoint de Plaspy.
 
-- El dominio del servidor Plaspy es d.plaspy.com, que el dispositivo puede usar como destino de reporte.
-- La dirección IP del servidor Plaspy es 54.85.159.138 y puede usarse como destino alternativo cuando DNS no está disponible.
-- El puerto es 8888 y todos los dispositivos en Plaspy usan el mismo puerto para conectividad.
-- El dispositivo puede configurarse para usar UDP o TCP en el puerto 8888 según soporte del equipo y preferencia de red.
-- Plaspy detecta automáticamente el protocolo del rastreador, por lo que la selección manual en la plataforma típicamente no es necesaria cuando el dispositivo reporta al endpoint de Plaspy.
+- El dominio público de servidor de Plaspy para reportes de dispositivos es d.plaspy.com.
+- Plaspy acepta conexiones de dispositivos en la IP 54.85.159.138 y escucha en el puerto 8888.
+- Todos los dispositivos en Plaspy usan el mismo puerto, lo que simplifica la configuración y la incorporación de equipos.
+- Plaspy puede identificar automáticamente el protocolo y mapear los mensajes entrantes a los registros de dispositivo cuando el equipo reporta al endpoint de Plaspy.
+- Normalmente los usuarios configuran el rastreador para que reporte al endpoint de Plaspy y verifican la llegada de datos en lugar de seleccionar un protocolo manualmente en la mayoría de despliegues.
 
 ## Transporte y contexto de conexión
 
-El contexto de conexión describe cómo el SIGNAL S-2653 alcanza los servidores de Plaspy a través de la red móvil y qué opciones de direccionamiento y transporte se usan comúnmente. Esto trata sobre endpoints de red y modos de transporte más que sobre detalles internos del protocolo.
+El SIGNAL S-2653 puede configurarse para usar protocolos de transporte estándar según la configuración del dispositivo y el entorno de red. Comprender las opciones de transporte y las elecciones de endpoint es importante para reglas de firewall, configuraciones del operador y una correcta puesta en servicio del equipo.
 
-- El dispositivo puede usar UDP o TCP para transmitir mensajes al servidor, según la configuración del rastreador y las capacidades del firmware.
-- Los equipos pueden apuntar al dominio d.plaspy.com o a la dirección IP 54.85.159.138 como endpoint de Plaspy.
-- El puerto compartido para todos los dispositivos soportados por Plaspy es 8888, lo que simplifica el aprovisionamiento en campo.
-- La conectividad dual SIM 2G del S-2653 aporta redundancia para el transporte celular y ayuda a mantener la continuidad de reportes.
-- El registro en tarjeta SD y la batería de respaldo a bordo permiten al dispositivo conservar datos localmente cuando la conectividad celular no está disponible y sincronizarlos luego con Plaspy.
+- El dispositivo puede configurarse para usar transporte UDP o TCP al reportar a Plaspy en el puerto 8888.
+- Los equipos pueden apuntar al dominio de servidor d.plaspy.com o directamente a la IP 54.85.159.138 según la preferencia del instalador o las restricciones de la red.
+- Plaspy utiliza el mismo número de puerto 8888 para todos los dispositivos compatibles para simplificar la configuración entre distintos modelos de rastreadores.
+- La operación con doble SIM en el S-2653 ofrece redundancia para la conectividad celular pero no modifica el endpoint ni el puerto de Plaspy usados para el reporte.
+- Confirme que las redes de los operadores y las pasarelas del vehículo permiten tráfico saliente UDP o TCP hacia el endpoint y puerto de Plaspy.
 
-## Notas sobre compatibilidad del protocolo
+## Notas de compatibilidad del protocolo
 
-- Las revisiones de firmware pueden cambiar el contenido de los mensajes, las funciones disponibles y las opciones de configuración; verifique la versión de firmware al validar compatibilidad.
-- Las revisiones de hardware y las variantes regionales pueden alterar las bandas celulares soportadas o el comportamiento de las interfaces y afectar detalles de integración.
-- Las herramientas y ajustes de configuración del fabricante pueden usar convenciones de nombres distintas para la dirección del servidor y las opciones de transporte; siga la guía de Navtelekom para los campos correctos.
-- Elegir UDP o TCP puede afectar las características de entrega en ciertas redes; valide la selección de transporte según su operador y la documentación del dispositivo.
-- El comportamiento de registro a bordo y la forma en que se reenvían los mensajes en caché pueden variar según el firmware y deben probarse para sus flujos de trabajo esperados.
-- Confirme siempre los pasos críticos de integración con la documentación oficial de Navtelekom para cubrir detalles específicos del modelo y actualizaciones.
+- Las revisiones de firmware pueden añadir, eliminar o modificar campos de mensaje y comportamientos de reporte; siempre consulte las notas de la versión del firmware instalado para conocer el comportamiento específico del dispositivo.
+- Las revisiones de hardware y las interfaces opcionales como CAN o RS-485 pueden afectar qué elementos de telemetría están disponibles para transmitir a Plaspy.
+- Use las herramientas de configuración del fabricante y la documentación oficial para ajustar el dispositivo para que reporte a d.plaspy.com o a 54.85.159.138 en el puerto 8888 usando UDP o TCP según corresponda.
+- La selección del transporte influye en el comportamiento y la fiabilidad de la red; utilice TCP cuando prefiera entrega garantizada y UDP cuando se requiera menor latencia y payloads más sencillos, siempre que sea soportado.
+- El registro en SD y la batería de respaldo a bordo proporcionan una estrategia de resiliencia de datos que complementa el reporte en vivo; valide cómo y cuándo los registros almacenados se transmiten una vez que se restablece la conectividad.
+- Valide la compatibilidad y el soporte de bandas celulares específicas por región con la documentación del fabricante para asegurar que el dispositivo operará como se espera en las redes móviles seleccionadas.
 
 ## Por qué es importante entender el protocolo
 
-Conocer cómo se comunica el rastreador ayuda a asegurar una configuración inicial sin contratiempos, facilitar la resolución de problemas y mantener la confiabilidad a largo plazo en despliegues de flota con Plaspy. Tener nociones básicas del protocolo reduce errores de configuración y ayuda a alinear las capacidades del equipo con los requisitos operativos.
+Tener una comprensión práctica del protocolo de comunicación del SIGNAL S-2653 y su interacción con Plaspy ayuda a asegurar una correcta puesta en servicio, reportes confiables y una resolución eficiente de problemas cuando los dispositivos se despliegan a gran escala.
 
-- Acelera el aprovisionamiento inicial asegurando que el dispositivo reporte a d.plaspy.com o 54.85.159.138 en el puerto correcto.
-- Ayuda a diagnosticar problemas de conectividad, por ejemplo si un equipo está usando UDP en lugar de TCP o si la transferencia entre celdas afecta los reportes.
-- Aclara las expectativas sobre funciones como el registro en SD, la telemetría CAN y el reporte de eventos para que las alertas y reglas en Plaspy funcionen como se espera.
-- Orienta decisiones sobre actualizaciones de firmware y variantes de hardware cuando ciertos comportamientos del protocolo o campos de mensaje cambian.
-- Apoya la planificación de redundancia y resiliencia al entender cómo interactúan la doble SIM y el registro de respaldo con la ingestión en Plaspy.
+- Reduce el tiempo de configuración al garantizar que el dispositivo apunte a d.plaspy.com o 54.85.159.138 en el puerto 8888 usando el transporte correcto.
+- Ayuda a diagnosticar problemas de conectividad al confirmar si el equipo está usando UDP o TCP y si los mensajes llegan al endpoint de Plaspy.
+- Mejora la planificación de la fiabilidad de datos al alinear el comportamiento de registro y la recuperación por batería del dispositivo con las expectativas de ingestión de Plaspy.
+- Permite decisiones informadas sobre actualizaciones de firmware y revisiones de hardware que puedan afectar la disponibilidad de telemetría.
+- Facilita la configuración eficaz de reglas y alertas en Plaspy al esclarecer qué telemetría y eventos puede enviar el rastreador.
 
 ## Por qué usar Plaspy con este protocolo
 
-Integrar el Navtelekom SIGNAL S-2653 con Plaspy brinda a los operadores de flotas acceso a ubicación en tiempo real, alertas basadas en eventos y telemetría avanzada desde interfaces CAN y RS-485. Para despliegues en vehículos pesados y comerciales, el hardware robusto del S-2653, su conectividad dual SIM y el registro local complementan las capacidades de seguimiento, reporte y notificaciones de Plaspy para mejorar la visibilidad operativa y la respuesta ante incidentes.
+Usar el SIGNAL S-2653 con Plaspy ofrece una combinación práctica para flotas que requieren hardware vehicular robusto y una plataforma capaz de ingerir posición y telemetría extensa. Las capacidades GNSS del S-2653, la redundancia de doble SIM, las interfaces CAN y RS-485 y el registro a bordo se integran bien con la detección automática de protocolo y el endpoint unificado de Plaspy para ofrecer seguimiento y diagnóstico consistentes.
 
-Para conocer más sobre Plaspy y las capacidades de la plataforma visite https://www.plaspy.com. Tenga en cuenta que el soporte de protocolo, el comportamiento del firmware y los detalles de implementación del dispositivo pueden cambiar con el tiempo; usted debe verificar la información específica más reciente del protocolo del dispositivo en el sitio del fabricante https://www.navtelecom.ru/.
+Si desea más información sobre cómo Plaspy gestiona la conectividad de dispositivos, el reporte y los flujos de trabajo telemáticos visite https://www.plaspy.com. Para los detalles más actuales específicos del dispositivo, notas de firmware y guías de instalación, siempre verifique la información con el fabricante en https://www.navtelecom.ru/ ya que el soporte de protocolo y el comportamiento del firmware pueden cambiar con el tiempo.

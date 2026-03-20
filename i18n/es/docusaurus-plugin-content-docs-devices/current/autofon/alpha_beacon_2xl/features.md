@@ -4,76 +4,78 @@ id: alpha_beacon_2xl-features
 sidebar_label: Features
 title: AutoFon - Alpha-Beacon 2XL Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de las capacidades del AutoFon Alpha-Beacon 2XL y su integración con Plaspy para rastreo y telemetría
+description: Resumen público de características del AutoFon Alpha-Beacon 2XL y su integración con Plaspy para rastreo de activos a largo plazo
 keywords:
   - AutoFon Alpha-Beacon 2XL
-  - características Alpha Beacon 2XL
-  - localizador GPS Alpha Beacon 2XL
-  - localizador GPS AutoFon
-  - compatibilidad Alpha-Beacon Plaspy
-  - baliza GPS impermeable
-  - rastreador GPS de larga duración
-  - rastreador de activos eSIM
-  - baliza GPS antirrobo
-  - rastreo remoto de activos
+  - características Alpha-Beacon 2XL
+  - rastreador GPS AutoFon
+  - Alpha-Beacon 2XL Plaspy
+  - características rastreador GPS
+  - rastreador baliza para activos
+  - rastreador GPS de larga autonomía
+  - rastreador impermeable IP67
+  - rastreador GPS con eSIM
+  - rastreador GPRS SMS
 ---
 
 # AutoFon - Características del Alpha-Beacon 2XL
 
-Esta página ofrece una vista pública orientada a funciones del AutoFon Alpha-Beacon 2XL y explica cómo sus capacidades documentadas se mapean para su uso con Plaspy. Se centra en las funciones prácticas que usted puede esperar al integrar dispositivos Alpha-Beacon 2XL en flujos de monitoreo de Plaspy, tomando la descripción del fabricante como referencia principal.
+Esta página describe el contexto público de uso del AutoFon Alpha-Beacon 2XL con Plaspy. Resume las capacidades del dispositivo expuestas en flujos de monitoreo y explica cómo esas funciones se traducen en visibilidad, alertas y telemetría cuando el equipo está integrado en sistemas basados en Plaspy.
 
-La disponibilidad y el comportamiento exacto de las funciones pueden variar según la versión de firmware, la revisión de hardware, el método de instalación y la implementación del fabricante. Cuando procede, esta página aclara qué capacidades forman parte de la configuración sellada estándar e invita a verificar detalles específicos del dispositivo con el fabricante.
+La disponibilidad y el comportamiento exacto de las funciones pueden variar según la versión de firmware, la revisión de hardware, el método de instalación y la implementación del fabricante. La descripción del Alpha-Beacon 2XL que se emplea aquí refleja los detalles publicados por el fabricante, como eSIM integrada, carcasa sellada IP67, navegación GNSS, almacenamiento de paquetes a bordo y reportes por SMS/GPRS; sin embargo, las funciones específicas y los límites operativos deben verificarse contra la documentación y las notas de firmware actuales de AutoFon.
 
 ## Resumen de características
 
-El Alpha-Beacon 2XL es una baliza compacta y sellada para activos, diseñada para seguimiento a largo plazo con bajo mantenimiento y colocación discreta. Combina navegación GNSS de alta sensibilidad, eSIM provista de fábrica y una batería de larga duración para ofrecer reportes resilientes a sistemas de monitoreo como Plaspy.
+El Alpha-Beacon 2XL es un rastreador GPS compacto e impermeable diseñado para despliegues discretos y de larga duración con informes de posición resilientes. Su eSIM provisionada de fábrica, la autonomía extendida de la batería, la alta sensibilidad GNSS y el comportamiento de reporte con rutas alternativas lo hacen adecuado para protección de activos y seguimiento de bajo mantenimiento cuando se usa con Plaspy.
 
-- Autonomía de varios años para despliegues prolongados sin intervención frecuente.
-- eSIM integrada y reportes por GPRS y SMS para comunicaciones continuas y de respaldo sin manipulación de SIM por el usuario.
-- Carcasa sellada IP67 para colocación discreta en vehículos, remolques, equipos o activos fijos en ubicaciones expuestas.
-- Navegación GPS y GLONASS de alta sensibilidad para reportes de coordenadas precisas cuando hay disponibilidad GNSS.
-- Resiliencia integrada, incluyendo almacenamiento local de paquetes y lógica de reintentos para preservar eventos importantes durante cortes de cobertura.
+- Operación autónoma por varios años, ideal para despliegues prolongados con mantenimiento mínimo.
+- eSIM integrada provisionada de fábrica para simplificar la gestión de conectividad.
+- Receptor GNSS de alta sensibilidad con GPS y GLONASS para fijaciones de posición confiables.
+- Reporte primario por GPRS con fallback por SMS y lógica de reintento a bordo para mejorar la fiabilidad de entrega.
+- Carcasa sellada IP67 para colocación discreta en vehículos y activos fijos.
+- Alertas SOS de pánico y monitoreo de audio opcional disponible en modo de acceso completo.
 
-## Características principales del AutoFon - Alpha-Beacon 2XL
+## Funciones principales del AutoFon - Alpha-Beacon 2XL
 
-- eSIM integrada provisionada de fábrica con reportes por GPRS y SMS para integración con servidores.
-- Posicionamiento combinado de alta sensibilidad por GPS y GLONASS para fijaciones fiables en múltiples entornos.
-- Batería de larga autonomía pensada para operación de varios años según la frecuencia de reportes.
-- Carcasa plástica sellada IP67 para instalaciones impermeables y discretas.
-- Métodos de reporte por SMS y GPRS con comportamiento de respaldo para una entrega robusta.
-- Caja negra a bordo que almacena un número limitado de paquetes no enviados y reintenta su transmisión.
-- Capacidad de actualización remota de firmware para mantener los dispositivos al día sin acceso físico.
-- Alerta SOS de pánico y monitoreo de audio opcional accesible en modo de acceso completo.
+- Autonomía de batería por varios años con guías de tiempo de operación publicadas para reportes periódicos por LBS y GPS.
+- eSIM integrada provisionada en fábrica y conectividad GPRS/SMS para funcionamiento listo para usar.
+- Receptor GNSS de alta sensibilidad que combina GPS y GLONASS con antena dedicada para fijaciones robustas.
+- Carcasa compacta y sellada IP67 pensada para montaje discreto en vehículos y activos fijos.
+- Reportes por SMS y GPRS a servidores de monitoreo con soporte ampliado de telemetría.
+- Almacenamiento tipo caja negra a bordo para paquetes no enviados con lógica de reintento que ayuda a asegurar la entrega de eventos.
+- Capacidad de actualización remota de firmware para mantener los dispositivos desplegados al día sin acceso físico.
+- Botón de pánico SOS y micrófono opcional para monitoreo de audio en dispositivos configurados con acceso completo.
 
 ## Cómo funcionan estas funciones con Plaspy
 
-Plaspy acepta seguimiento y telemetría del Alpha-Beacon 2XL vía rutas estándar de reporte por GPRS y SMS, lo que permite visibilidad y manejo de eventos dentro de los entornos de monitoreo Plaspy. Plaspy detecta automáticamente los protocolos de rastreo compatibles y presenta datos de ubicación y eventos para uso operativo.
+Cuando el Alpha-Beacon 2XL se conecta a un entorno de monitoreo Plaspy, las ubicaciones y eventos reportados se integran al ecosistema de rastreo y alertas de Plaspy. Plaspy reconoce los reportes compatibles del equipo y muestra ubicación, historial de eventos y alertas en las vistas de monitoreo estándar.
 
-- Actualizaciones de ubicación en tiempo real y reproducción histórica de trayectos visibles en los mapas de Plaspy cuando el dispositivo reporta por GPRS.
-- Alertas SOS marcadas y encaminadas a flujos de trabajo de monitoreo para que los operadores respondan a eventos de pánico.
-- El almacenamiento local de paquetes y la lógica de reintentos aumentan la probabilidad de que las transmisiones perdidas se adjunten al historial de eventos de Plaspy una vez que se restaura la conectividad.
-- La telemetría del dispositivo y los reportes de ubicación periódicos alimentan los paneles de Plaspy para supervisión e informes de flotas o activos.
-- La integración se simplifica cuando el dispositivo está configurado para reportar al dominio del servidor de Plaspy; Plaspy maneja la detección de protocolo para la mayoría de los dispositivos AvtoFon compatibles.
+- Actualizaciones de ubicación en tiempo real y telemetría histórica aparecen en los mapas e informes de Plaspy.
+- Las alertas SOS y los mensajes de emergencia pueden enrutar a los flujos de trabajo de notificaciones y alertas de Plaspy.
+- El reporte por fallback vía SMS o LBS ayuda a mantener la visibilidad cuando GNSS no está disponible, y esos mensajes se incorporan al historial en Plaspy.
+- Los paquetes de la caja negra que se transmiten con éxito se registran en el historial del dispositivo en Plaspy para revisión de incidentes.
+- Las actualizaciones remotas de firmware y la gestión de configuraciones siguen siendo controladas por las herramientas del fabricante, mientras Plaspy consume la telemetría y los cambios de estado resultantes.
+- Plaspy detecta automáticamente protocolos de rastreadores compatibles para simplificar la integración y reducir el trabajo de configuración por dispositivo.
 
 ## Casos de uso típicos
 
-- Protección antirrobo discreta y de largo plazo para autos, motocicletas, remolques y otros activos móviles.
-- Rastreo de flotas de bajo mantenimiento donde la larga duración de la batería y la telemetría periódica reducen visitas de servicio.
-- Monitoreo de activos remotos o estacionarios como contenedores, almacenes o equipos estacionales.
-- Flujos de recuperación de vehículos robados apoyados por reportes de ubicación inmediatos y alertas SOS.
-- Supervisión de carga valiosa o equipos alquilados durante rutas largas o periodos de almacenamiento.
-- Visibilidad de activos para organizaciones que requieren comprobaciones periódicas de posición sin cambios frecuentes de batería.
+- Rastreo antirrobo y recuperación rápida de dispositivos colocados de forma discreta en vehículos y equipos.
+- Monitoreo de flotas de bajo mantenimiento donde la larga autonomía de la batería y la telemetría periódica son prioritarias.
+- Supervisión de remolques, contenedores y activos en arriendo que requieren autonomía a largo plazo y colocación discreta.
+- Supervisión de activos remotos en sitios con cobertura intermitente donde la lógica de reintento mejora la entrega de eventos.
+- Seguimiento de carga portátil valiosa que se beneficia de carcasas selladas y resistentes a la intemperie.
+- Despliegues prolongados para equipos estacionales o vehículos en almacenamiento.
 
 ## Notas sobre disponibilidad de funciones
 
-- Los conjuntos de funciones pueden variar según la revisión de firmware y hardware; las funciones disponibles dependen del lote de producción y del firmware instalado.
-- La configuración sellada IP67 es estándar para el Alpha-Beacon 2XL y limita el acceso a periféricos externos en la unidad típica.
-- Algunas funciones avanzadas requieren modo de acceso completo o aprovisionamiento específico por parte del fabricante, por ejemplo el monitoreo de audio y ciertas integraciones de servidor.
-- El aprovisionamiento celular regional y los detalles de activación de la eSIM pueden afectar la forma en que el dispositivo se conecta a redes y servidores de monitoreo.
-- Consulte siempre la documentación oficial del fabricante o contacte a AvtoFon para las notas de implementación más recientes antes del despliegue.
+- Las versiones de firmware y las revisiones de hardware pueden cambiar el comportamiento reportado, los intervalos y los comandos soportados.
+- Algunas funciones opcionales, como el monitoreo de audio, requieren modo de acceso completo y pueden estar sujetas a normativas regionales o decisiones de aprovisionamiento.
+- La instalación y la ubicación afectan la recepción GNSS y la vida útil de la batería; las instalaciones selladas limitan el acceso a conectores o accesorios externos.
+- El aprovisionamiento de eSIM y la cobertura celular dependen de acuerdos con operadores regionales y detalles de provisión en fábrica.
+- Las características de la plataforma del fabricante y las rutas de actualización remota están controladas por AutoFon y pueden influir en cómo se aplican las configuraciones y las actualizaciones.
 
 ## Por qué usar Plaspy con estas funciones
 
-Usar el AutoFon Alpha-Beacon 2XL con Plaspy brinda a las organizaciones una forma directa de convertir reportes de ubicación resilientes y de larga duración en información operativa accionable. Plaspy muestra ubicaciones en tiempo real, eventos SOS y telemetría histórica para que usted pueda monitorear activos, investigar incidentes y gestionar flujos de recuperación sin acceso físico frecuente a los dispositivos.
+Usar el Alpha-Beacon 2XL junto con Plaspy proporciona a las organizaciones mayor visibilidad y supervisión operativa para activos que requieren larga autonomía y colocación discreta. La combinación de conectividad provisionada de fábrica, comportamiento de reporte resiliente y los flujos de monitoreo de Plaspy ayuda a los equipos a reducir la carga de mantenimiento mientras mantienen registros de ubicación y eventos confiables para recuperación y análisis.
 
-Para saber más sobre Plaspy y cómo soporta integraciones de dispositivos como el Alpha-Beacon 2XL visite https://www.plaspy.com. Para obtener las especificaciones de dispositivo, notas de firmware y detalles de aprovisionamiento más actuales y detallados consulte al fabricante en https://www.autofon.ru/.
+Para saber más sobre cómo Plaspy puede recibir y mostrar telemetría de rastreadores compatibles, visite https://www.plaspy.com. Para obtener los detalles más actuales sobre el dispositivo, el comportamiento de firmware y la documentación del fabricante para el Alpha-Beacon 2XL, verifique las especificaciones en el sitio oficial de AutoFon https://www.autofon.ru/ ya que las funciones y su implementación pueden cambiar con el tiempo.

@@ -80,21 +80,21 @@ El ST8310U puede configurarse por SMS usando el formato de comandos públicos qu
 
 - Configurar APN del operador y servidor GPRS
 ```text
-SA200NTW;{{ID}};02;{0 or 1};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[ID];02;{0 or 1};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Notas sobre el comando APN
-  - Reemplace {{ID}} con el ID de dispositivo derivado del IMEI según se explicó arriba.
+  - Reemplace [ID] con el ID de dispositivo derivado del IMEI según se explicó arriba.
   - El cuarto campo debe ser 1 si suministra nombre de usuario o contraseña del APN; de lo contrario, 0.
   - Mantenga los marcadores [apn], [apnu] y [apnp] si piensa sustituirlos por el APN, nombre de usuario y contraseña de su operador.
 
 - Fijar el intervalo de reporte a 60 segundos
 ```text
-SA200RPT;{{ID}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[ID];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Consultar ajustes actuales
 ```text
-SA200CMD;{{ID}};02;PresetA
+SA200CMD;[ID];02;PresetA
 ```
 
 Envíe estos comandos SMS desde el número autorizado si el dispositivo requiere autenticación por número. Si usa una herramienta de configuración en su lugar, los mismos campos suelen estar disponibles en el panel de red o servidor.

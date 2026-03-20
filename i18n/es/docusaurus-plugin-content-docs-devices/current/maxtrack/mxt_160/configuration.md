@@ -86,11 +86,11 @@ La guía pública del MXT-160 incluye un ejemplo de configuración por SMS. El f
 
 - Ejemplo de comando SMS de configuración
 ```text
-0000,{{trackerID}},2,0,[apn],[apnu],[apnp],54.85.159.138,8888,,.
+0000,[trackerID],2,0,[apn],[apnu],[apnp],54.85.159.138,8888,,.
 ```
 
 Explicación de los marcadores:
-- {{trackerID}} — reemplace con el ID del dispositivo o el IMEI según lo que requiera el formato del comando
+- [trackerID] — reemplace con el ID del dispositivo o el IMEI según lo que requiera el formato del comando
 - [apn] — reemplace con el APN de su operador móvil
 - [apnu] — reemplace con el usuario del APN si el operador lo solicita; deje en blanco si no se usa
 - [apnp] — reemplace con la contraseña del APN si el operador lo solicita; deje en blanco si no se usa

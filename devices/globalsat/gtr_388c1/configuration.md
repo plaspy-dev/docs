@@ -79,28 +79,28 @@ Format note shown in the public content
 TSPRXAB27GHKLMnaicz*U!
 
 Primary setup command
-Replace {{imei}} with the device IMEI and [apn], [apnu], [apnp] with your operator APN settings. Compute the checksum for the characters before the asterisk and place the two-character uppercase hex checksum in the {{checksum}} placeholder.
+Replace [imei] with the device IMEI and [apn], [apnu], [apnp] with your operator APN settings. Compute the checksum for the characters before the asterisk and place the two-character uppercase hex checksum in the [checksum] placeholder.
 
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Optional reboot command
 This command reboots the device to apply changes. Compute and insert the checksum for the command portion before the asterisk.
 
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Checksum explanation
-- The public UI script shows the checksum is computed by XORing the character codes of the command string up to but not including the asterisk, then converting the result to a two digit uppercase hexadecimal value. Insert that hex value into the placeholder such as {{checksum}}.
+- The public UI script shows the checksum is computed by XORing the character codes of the command string up to but not including the asterisk, then converting the result to a two digit uppercase hexadecimal value. Insert that hex value into the placeholder such as [checksum].
 
 Placeholder brief descriptions
-- {{imei}} — the device IMEI number used to target the tracker for SMS setup
+- [imei] — the device IMEI number used to target the tracker for SMS setup
 - [apn] — Access Point Name for the SIM operator
 - [apnu] — APN username if required by the operator
 - [apnp] — APN password if required by the operator
-- {{checksum}} and {{checksumreeboot}} — two character uppercase hexadecimal XOR checksum values computed from the command text before the asterisk
+- [checksum] and [checksumreeboot] — two character uppercase hexadecimal XOR checksum values computed from the command text before the asterisk
 
 ## Configuration Notes
 

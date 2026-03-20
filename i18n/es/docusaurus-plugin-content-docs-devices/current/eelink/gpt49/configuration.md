@@ -4,127 +4,134 @@ id: gpt49-configuration
 sidebar_label: Configuration
 title: EElink - GPT49 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública para configurar el EElink GPT49 y apuntarlo al servidor Plaspy además de verificar la conectividad
+description: Guía pública para configurar el rastreador EElink GPT49 y los ajustes de servidor Plaspy, incluyendo comandos SMS y verificación
 keywords:
   - configuración EElink GPT49
   - instalación EElink GPT49
-  - configuración servidor GPT49
   - configuración GPT49 Plaspy
-  - configuración rastreador GPS EElink
+  - configuración rastreador GPS Plaspy
   - configuración SMS GPT49
-  - configuración plataforma GPS Plaspy
-  - guía configuración rastreador de activos
-  - configuración rastreador GPS larga duración
-  - configuración rastreo de activos empresarial
+  - configuración APN GPT49
+  - configuración rastreador de activos GPS
+  - seguimiento de flotas GPT49
+  - rastreador de activos EElink
+  - ajustes de servidor rastreador GPS
 ---
 
 # EElink - Configuración del GPT49
 
-Esta página describe el contexto público de configuración para usar el rastreador EElink GPT49 con la plataforma Plaspy. Reúne los ajustes de servidor esenciales y orientación práctica que puede aplicar al preparar dispositivos GPT49 para reportar ubicación y eventos a Plaspy.
+Esta página documenta el contexto público de configuración para usar el EElink GPT49 con Plaspy. Describe los ajustes prácticos del servidor, los comandos SMS de uso común publicados para el GPT49 y los pasos típicos necesarios para preparar el dispositivo para que Plaspy reciba datos de posición y eventos. Utilice esto como referencia de despliegue junto con la documentación oficial de EElink.
 
-Plaspy emplea ajustes de servidor compartidos entre dispositivos compatibles y detecta automáticamente el protocolo del rastreador; sin embargo, los pasos exactos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Cuando están disponibles, en esta guía incluimos los comandos SMS del GPT49 que se usan comúnmente para la configuración inicial y la verificación.
+Plaspy emplea ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador. Los pasos del fabricante pueden variar según la versión del firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Los ejemplos que siguen reflejan comandos SMS públicos del GPT49 y los valores de servidor de Plaspy para que usted pueda configurar y verificar la conectividad antes de añadir el dispositivo a Plaspy.
 
 ## Resumen de la configuración
 
-El objetivo de este proceso es preparar un GPT49 para que se comunique de forma fiable con Plaspy usando el punto de conexión y puerto compartidos de Plaspy. La configuración suele establecer la zona horaria del dispositivo, el APN para datos celulares y la dirección y transporte del servidor GPRS, y luego validar el reporte mediante una consulta de parámetros y monitorización en vivo en Plaspy.
+Aquí se describe el objetivo práctico al configurar un GPT49 para su uso con Plaspy: garantizar que el rastreador pueda conectarse al endpoint del servidor de Plaspy, autenticarse en la red móvil y enviar paquetes de posición y eventos con el intervalo esperado.
 
-- Apuntar el rastreador al endpoint del servidor Plaspy para que los paquetes lleguen a la plataforma.  
-- Configurar el APN y parámetros celulares del dispositivo para permitir el envío de datos GPRS.  
-- Seleccionar UDP o TCP si el dispositivo requiere elegir transporte y establecer el puerto compartido de Plaspy.  
-- Activar un intervalo de reporte adecuado, como un temporizador periódico o modo en tiempo real para eventos de movimiento.  
-- Validar los ajustes en el dispositivo con una consulta de parámetros y confirmar que el equipo aparece en Plaspy.
+- Configure el APN del dispositivo para que pueda abrir una sesión de datos GPRS/LTE con la red del operador.
+- Apunte el dispositivo a Plaspy usando el dominio o la IP proporcionados y el puerto compartido.
+- Seleccione el transporte TCP o UDP según lo requiera el dispositivo o la red y guarde la configuración.
+- Establezca el intervalo de reporte (por ejemplo, un intervalo TIMER) y verifíquelo con el comando PARAM del dispositivo.
+- Valide que el dispositivo alcanza el endpoint de Plaspy y aparece en la plataforma Plaspy.
+- Mantenga a mano la documentación del fabricante para variantes específicas de firmware.
 
 ## Ajustes del servidor Plaspy
 
-- server domain d.plaspy.com  
-- server IP 54.85.159.138  
-- port 8888  
-- transport support for UDP or TCP  
-- automatic protocol detection in Plaspy  
+- Dominio del servidor d.plaspy.com
+- IP del servidor 54.85.159.138
+- Puerto 8888
+- Soporte de transporte UDP o TCP en el puerto 8888
+- Plaspy detecta automáticamente el protocolo del rastreador
 
-Plaspy utiliza el mismo puerto para todos los dispositivos compatibles y detectará automáticamente el protocolo del rastreador cuando el dispositivo envíe datos al endpoint del servidor.
+Nota: Todos los dispositivos en Plaspy usan el mismo puerto. Puede usar la forma de dominio o la forma de IP al configurar el GPT49, según prefiera.
 
 ## Requisitos típicos antes de la configuración
 
-- Un dispositivo GPT49 con batería suficiente para la configuración y las pruebas.  
-- Una tarjeta SIM activa con servicio de datos y capacidad de SMS instalada en el dispositivo.  
-- Acceso a la documentación del fabricante EElink o a la herramienta de instalación del GPT49.  
-- Un método para enviar comandos SMS al dispositivo si planea usar configuración por SMS.  
-- Una cuenta en Plaspy y acceso a la plataforma para verificar que el dispositivo aparece y reporta correctamente.  
-- Cobertura celular en la ubicación del dispositivo suficiente para GPRS o datos LTE.
+- Un GPT49 con energía, batería cargada o fuente de alimentación conectada.
+- Una SIM celular válida con datos habilitados y los detalles del APN del operador móvil.
+- Acceso al método de configuración admitido por la unidad, como comandos SMS o la herramienta oficial de EElink.
+- Conocimientos básicos del APN del operador y, opcionalmente, del nombre de usuario y contraseña del APN si el operador los requiere.
+- Capacidad para enviar SMS desde un teléfono o un sistema de gestión si va a aplicar ajustes por SMS.
+- Acceso a la documentación publicada por EElink para la sintaxis de comandos según la versión de firmware.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-El GPT49 envía posiciones GNSS, estado del dispositivo y señales de eventos a través de la red celular al endpoint del servidor Plaspy. Una vez que el equipo está configurado con los ajustes de servidor Plaspy y un APN activo, Plaspy ingiere los paquetes y muestra ubicación, historial y alertas en la plataforma.
+Cuando está configurado, el GPT49 abre una sesión de datos por la red celular y envía posiciones GNSS, estado del dispositivo y banderas de eventos al endpoint y puerto del servidor Plaspy. Plaspy procesa estos paquetes para ofrecer mapas en tiempo real, historial y alertas.
 
-- El rastreador se configura para reportar al endpoint y puerto compartidos de Plaspy.  
-- Los paquetes de ubicación y telemetría se envían por LTE o modos celulares de respaldo para alcanzar Plaspy.  
-- Plaspy detecta automáticamente el protocolo usado por el rastreador cuando llegan los datos.  
-- Los reportes de eventos como movimiento, manipulación o activación de geocercas se reenvían a Plaspy para generar alertas.  
-- Plaspy muestra posiciones en tiempo real e historial de ubicaciones para monitoreo operativo e informes.
+- El rastreador reporta posiciones GNSS y telemetría del dispositivo al endpoint compartido de Plaspy.
+- Banderas de eventos como movimiento, manipulación o alarmas se transmiten y son visibles en Plaspy.
+- El dispositivo se configura para utilizar d.plaspy.com o 54.85.159.138 en el puerto 8888 para todos los reportes.
+- El transporte puede ser UDP o TCP según la elección de configuración y el comportamiento de la red.
+- Plaspy detecta automáticamente el protocolo usado por el rastreador y procesa los datos entrantes.
 
-## Flujo de trabajo típico de configuración
+## Flujo de configuración habitual
 
-1. Acceda al método oficial de configuración EElink para el GPT49, por ejemplo comandos SMS o la herramienta de configuración del fabricante.  
-2. Ingrese la dirección del servidor Plaspy usando el dominio d.plaspy.com o la IP 54.85.159.138 en los ajustes de servidor del dispositivo.  
-3. Configure el puerto del dispositivo en 8888, ya que Plaspy usa el mismo puerto para todos los dispositivos compatibles.  
-4. Seleccione UDP o TCP si el dispositivo requiere elegir el transporte durante la configuración.  
-5. Configure los parámetros APN del dispositivo para la SIM instalada, de modo que el rastreador pueda iniciar sesiones de datos GPRS.  
-6. Guarde o aplique la configuración y reinicie el equipo si el dispositivo necesita un reinicio para aplicar cambios.  
-7. Valide que el equipo reporta a Plaspy comprobando la lista de dispositivos y la posición en vivo en la plataforma.
+1. Acceda al método oficial de configuración de EElink para el GPT49 (comandos SMS o herramientas de configuración EElink) como se describe en la documentación del fabricante.
+2. Introduzca la dirección del servidor Plaspy usando d.plaspy.com o 54.85.159.138 en los ajustes de servidor del dispositivo.
+3. Establezca el puerto del servidor en 8888; recuerde que Plaspy usa el mismo puerto para todos los dispositivos compatibles.
+4. Elija el transporte UDP o TCP si el dispositivo requiere seleccionar un transporte.
+5. Configure el APN del operador (y el usuario y la contraseña del APN si son necesarios) para que el dispositivo pueda establecer datos celulares.
+6. Aplique o guarde la configuración y reinicie el dispositivo si el firmware lo requiere.
+7. Valide que el rastreador reporta correctamente a Plaspy utilizando el comando PARAM del dispositivo o confirmando su visibilidad en la plataforma Plaspy.
 
-## Ejemplos de comandos de configuración
+## Comandos de configuración de ejemplo
 
-El GPT49 admite configuración por SMS. A continuación están los comandos SMS de uso habitual extraídos de instrucciones públicas de EElink. Conserve los marcadores de posición y reemplácelos por los valores de su operador al enviar.
+El GPT49 puede configurarse por SMS usando comandos públicos. Mantenga el orden mostrado al seguir una configuración inicial. Reemplace los marcadores de posición por sus valores de operador cuando sea necesario.
 
-- Reinicio de fábrica opcional para la configuración inicial
+- Comando opcional de reinicio inicial o de fábrica (úselo solo si necesita borrar la configuración del dispositivo):
 ```
 FACTORY#
 ```
 
-- Establecer la zona horaria en UTC 0
+- Establecer la zona horaria a UTC 0 (ejemplo):
 ```
 GMT,E,0#
 ```
 
-- Configurar el APN del operador
+- Configurar el APN del operador. Reemplace [apn] con el APN de su operador. Si se requieren nombre de usuario y contraseña del APN, incluya [apnu] y [apnp] respectivamente:
+```
+APN,[apn]#
+```
+O incluyendo usuario y contraseña opcionales:
 ```
 APN,[apn],[apnu],[apnp]#
 ```
-Explicación: reemplace [apn] con el APN de su operador móvil. Si su operador requiere usuario y contraseña incluya [apnu] y [apnp] respectivamente. Si no se requieren usuario o contraseña, puede enviar solo APN,[apn]#.
 
-- Configurar el servidor GPRS para usar el dominio y puerto de Plaspy
+- Configurar el servidor GPRS a Plaspy usando la forma de dominio:
 ```
 SERVER,1,d.plaspy.com,8888#
 ```
-
-- Alternativamente configurar el servidor GPRS usando la IP y puerto de Plaspy
+O configurar el servidor GPRS usando la forma IP:
 ```
 SERVER,0,54.85.159.138,8888#
 ```
 
-- Establecer intervalo de reporte cada 60 segundos
+- Establecer el intervalo de actualización de ubicación a cada 60 segundos:
 ```
 TIMER,60#
 ```
 
-- Consultar los parámetros actuales
+- Verificar parámetros actuales en el dispositivo:
 ```
 PARAM#
 ```
 
-Envíe cada comando SMS como un único mensaje. El orden anterior es típico para la configuración inicial; el reinicio de fábrica es opcional y solo debe usarse al partir de los valores de fábrica.
+Notas sobre los marcadores de posición:
+- [apn] es la cadena APN del operador requerida para datos.
+- [apnu] es el nombre de usuario opcional del APN.
+- [apnp] es la contraseña opcional del APN.
+Reemplace estos marcadores con los valores proporcionados por su operador móvil.
 
 ## Notas de configuración
 
-- La configuración por SMS es un método publicado comúnmente para el GPT49, pero también pueden existir herramientas del fabricante o opciones OTA. Siga las indicaciones de EElink para su build de firmware.  
-- Plaspy acepta tanto el dominio como la dirección IP para el ajuste del servidor; ambos se muestran arriba como ejemplos públicos.  
-- Elija UDP o TCP según la preferencia del instalador o la capacidad del dispositivo; Plaspy detectará automáticamente el protocolo cuando lleguen los datos.  
-- El mismo puerto 8888 se usa en los dispositivos soportados por Plaspy, por lo que configure 8888 en el GPT49.  
-- Las revisiones de firmware y las variantes regionales del producto pueden cambiar la sintaxis de los comandos o los parámetros soportados. Siempre verifique con la documentación de EElink cuando sea posible.
+- Las variantes de firmware y regionales pueden cambiar la sintaxis de los comandos SMS o los parámetros disponibles; siempre verifique la documentación de EElink correspondiente a su versión de firmware.
+- El GPT49 soporta configuración por SMS según los ejemplos públicos; puede existir configuración alternativa mediante herramientas del fabricante o métodos OTA.
+- La selección TCP versus UDP puede afectar la fiabilidad y el consumo de batería según las condiciones de la red; elija el transporte que mejor se adapte a su despliegue y pruebe el comportamiento con Plaspy.
+- Plaspy usa el mismo puerto para todos los dispositivos compatibles y detectará automáticamente el protocolo del rastreador una vez que lleguen paquetes al servidor.
+- Si usa la forma de dominio d.plaspy.com, el dispositivo dependerá de la resolución DNS; la forma IP se proporciona como alternativa para redes donde el DNS esté restringido.
 
 ## Por qué usar Plaspy con esta configuración
 
-Usar el GPT49 con Plaspy ofrece a las organizaciones visibilidad de activos con larga duración de batería junto con reportes de ubicación y manejo de eventos de nivel empresarial. Cuando se configura para apuntar a los ajustes de servidor Plaspy, el GPT49 puede enviar actualizaciones continuas de posición, alertas por manipulación y eventos de geocerca a los paneles de Plaspy para que los equipos monitoreen activos y respondan ante incidentes.
+Usar el GPT49 con Plaspy proporciona a las organizaciones visibilidad a largo plazo de sus activos y telemetría remota confiable. La capacidad multi-constelación GNSS y la larga duración de batería del GPT49 son prácticas para despliegues que requieren mantenimiento poco frecuente, mientras que Plaspy ofrece mapas centralizados, historial y alertas para monitoreo operativo y prevención de robos.
 
-Para obtener más información sobre Plaspy y cómo gestiona los datos de dispositivos y la visibilidad de flotas visite https://www.plaspy.com. Para métodos específicos de configuración del EElink GPT49, notas de firmware y orientación del fabricante, verifique la información en el sitio oficial de EElink https://www.eelink.com.cn/ ya que los pasos de configuración y el comportamiento del firmware pueden cambiar con el tiempo.
+Aprenda más sobre Plaspy y las capacidades de la plataforma en https://www.plaspy.com. Para los comandos específicos más recientes, notas de firmware y orientación de configuración, verifique los detalles en el sitio web de EElink en https://www.eelink.com.cn/ ya que las especificaciones y los métodos de configuración del fabricante pueden cambiar con el tiempo.

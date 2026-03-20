@@ -4,77 +4,77 @@ id: signal_s_4751-protocol
 sidebar_label: Protocol
 title: Navtelekom - SIGNAL S-4751 Protocol
 sidebar_class_name: menu_item_tracker
-description: Resumen público del protocolo del Navtelekom SIGNAL S-4751 y su comunicación con Plaspy para rastreo de flotas e integración de dispositivos
+description: Contexto público del protocolo del Navtelekom SIGNAL S-4751 y cómo el rastreador se comunica con Plaspy para seguimiento y telemetría de flotas
 keywords:
-  - Protocolo Navtelekom SIGNAL S-4751
-  - Protocolo GPS Navtelekom SIGNAL S-4751
-  - Compatibilidad Navtelekom SIGNAL S-4751 Plaspy
-  - Protocolo de rastreo SIGNAL S-4751
-  - Protocolo de rastreador GPS Navtelekom
-  - Protocolo de rastreo vehicular
-  - Protocolo de dispositivo Plaspy
-  - Protocolo de rastreador 4G GPS
-  - Protocolo de seguimiento de flotas
-  - Protocolo de rastreador GLONASS
+  - Navtelekom SIGNAL S-4751
+  - rastreador GPS Navtelekom
+  - protocolo SIGNAL S-4751
+  - SIGNAL S-4751 Plaspy
+  - compatibilidad de dispositivos Plaspy
+  - rastreador GLONASS GPS
+  - rastreador 4G para flotas
+  - rastreador con doble SIM
+  - integración de telemetría vehicular
+  - protocolo de telemetría remota
 ---
 
 # Navtelekom - Protocolo SIGNAL S-4751
 
-Esta página ofrece una visión pública y no sensible del contexto del protocolo de comunicación del Navtelekom SIGNAL S-4751 cuando se usa con Plaspy. Explica cómo el equipo suele reportar datos GNSS y telemetría a la plataforma Plaspy y qué esperar de la conexión entre el rastreador y la plataforma sin exponer detalles privados de implementación.
+Esta página resume el contexto público del protocolo para usar el rastreador Navtelekom SIGNAL S-4751 con Plaspy. Se enfoca en cómo el dispositivo comunica con el endpoint de recolección de Plaspy y en qué aspectos considerar al integrar el SIGNAL S-4751 en una implementación Plaspy, sin exponer detalles privados del fabricante.
 
-Plaspy utiliza ajustes de conexión compartidos entre los dispositivos que soporta y detecta automáticamente el protocolo del rastreador una vez que el dispositivo está configurado para reportar al endpoint de Plaspy. El comportamiento exacto del protocolo, la cadencia de mensajes y los comandos soportados pueden variar según la versión de firmware, la revisión de hardware y la configuración del fabricante, por lo que esta página se centra en el contexto práctico y público para la integración.
+El SIGNAL S-4751 es un rastreador vehicular compatible con Plaspy y de alta funcionalidad, con soporte GLONASS, diseñado para redes 4G, antenas GNSS y GSM externas, redundancia de doble SIM, Bluetooth 4.0 para configuración local, registro en tarjeta SD y amplias interfaces de E/S. Plaspy utiliza configuraciones de conexión compartidas entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador, aunque el comportamiento exacto del protocolo puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante.
 
-## Resumen del protocolo
+## Descripción general del protocolo
 
-El SIGNAL S-4751 comunica la posición GNSS y la telemetría del vehículo a un servidor telemático usando su módem celular y las interfaces soportadas. El protocolo define cómo el dispositivo se identifica, reporta posición y estado, y transmite eventos y datos de telemetría que Plaspy consume para seguimiento en tiempo real, alertas e informes históricos.
+El protocolo del rastreador define cómo el SIGNAL S-4751 informa posiciones GNSS, telemetría y eventos a un servidor remoto como Plaspy. En términos públicos, el protocolo garantiza que el dispositivo pueda identificarse, entregar telemetría útil y proporcionar información de estado que Plaspy pueda mostrar para monitoreo e informes.
 
-- Permite al rastreador enviar actualizaciones de ubicación GNSS y telemetría como estado de ignición, lecturas de sensores y eventos de entradas a Plaspy
-- Proporciona identificación del dispositivo e información de sesión para que Plaspy asocie los datos entrantes con el activo correcto
-- Transporta reportes de eventos para alarmas, acciones del inmovilizador y otros desencadenantes de entradas digitales o analógicas
-- Soporta registro local en tarjeta SD y reenvío de registros guardados cuando se restablece la conectividad
-- Funciona sobre el módem del dispositivo y transportes soportados sin requerir que los usuarios expongan formatos internos de mensaje
+- Permite la transmisión periódica de posición GNSS y telemetría con marcas de tiempo desde el dispositivo hacia Plaspy para seguimiento en tiempo real y generación de historial.
+- Transporta estados de entradas digitales y analógicas, acuses de recibo de control de salidas y marcadores de eventos que Plaspy mapea a alertas y reglas.
+- Soporta almacenamiento local a corto plazo, como registro en tarjeta SD, para preservar datos cuando la conectividad celular se interrumpe.
+- Facilita la identificación del dispositivo e informes básicos de estado para que Plaspy pueda asociar los mensajes entrantes con el activo y la cuenta correctos.
+- Funciona sobre capas de transporte estándar soportadas por el dispositivo para alcanzar el endpoint de recolección de Plaspy.
 
 ## Cómo Plaspy detecta el protocolo
 
-Plaspy está diseñado para aceptar reportes de muchos modelos de rastreadores y determinar automáticamente el protocolo correcto para las conexiones entrantes. Cuando un SIGNAL S-4751 se configura para reportar al endpoint de Plaspy, la plataforma empata la secuencia de datos entrante con la rutina de manejo adecuada, por lo que normalmente no es necesario que el usuario seleccione el protocolo manualmente.
+Plaspy recibe tráfico de dispositivos en un endpoint público compartido y utiliza detección automatizada para interpretar los mensajes entrantes de forma compatible. En la mayoría de los casos, los usuarios no necesitan seleccionar manualmente un protocolo dentro de Plaspy si el dispositivo está configurado para reportar al endpoint de Plaspy.
 
-- Plaspy escucha en un endpoint de ingreso compartido para reportes de dispositivos y elige automáticamente el manejador de protocolo correcto
-- Los dispositivos deben configurarse para reportar a la dirección del servidor Plaspy para permitir la detección automática
-- Una identificación adecuada del dispositivo y reportes consistentes ayudan a Plaspy a mapear las transmisiones a un registro de activo
-- Si un dispositivo usa el servidor y puerto correctos, la plataforma normalmente procesará sus mensajes sin configuración adicional por parte del usuario
-- La documentación y el soporte de Plaspy pueden ayudar con problemas de configuración, pero en la mayoría de los casos el rastreador funcionará una vez apuntado al endpoint de Plaspy
+- Plaspy acepta reportes de dispositivos enviados al dominio d.plaspy.com y al servidor IP 54.85.159.138 en el puerto de escucha 8888.
+- Todos los dispositivos soportados por Plaspy usan el mismo puerto para reportes, lo que simplifica la configuración masiva de equipos.
+- Cuando el SIGNAL S-4751 está apuntando al endpoint de Plaspy y utiliza un transporte soportado, Plaspy detectará automáticamente el protocolo del rastreador y comenzará a procesar los mensajes.
+- Una identificación adecuada del dispositivo (IMEI u otro ID) en el reporte ayuda a Plaspy a asignar los mensajes al vehículo o activo correcto.
+- Si un dispositivo no está llegando a Plaspy, confirme la configuración de red, la conectividad de la SIM y la configuración del endpoint en el equipo.
 
-## Transporte y contexto de conexión
+## Contexto de transporte y conexión
 
-El SIGNAL S-4751 puede usar la conexión de datos celular para enviar reportes sobre transportes IP estándar. Dependiendo del firmware y la configuración del equipo, la unidad puede usar UDP o TCP para alcanzar el endpoint de Plaspy. Para la integración con Plaspy, utilice los ajustes de conexión compartidos de Plaspy para que el dispositivo envíe datos al destino correcto.
+Las opciones de conexión y transporte determinan cómo el SIGNAL S-4751 alcanza el servidor de Plaspy. El dispositivo puede soportar múltiples transportes; seleccionar el transporte y endpoint adecuados es esencial para establecer una comunicación confiable.
 
-- Plaspy server domain is d.plaspy.com for device reporting
-- Plaspy server IP is 54.85.159.138 and the configured port for reporting is 8888
-- El dispositivo puede configurarse para usar UDP o TCP en el puerto 8888 según el soporte del equipo y el transporte elegido
-- Todos los dispositivos en Plaspy usan el mismo puerto, lo que simplifica la configuración y las reglas de firewall
-- Asegúrese de que el rastreador tenga acceso a Internet y que el transporte elegido esté permitido por cualquier equipo de red intermedio
+- El SIGNAL S-4751 puede configurarse para usar UDP o TCP en el puerto 8888, según el soporte del dispositivo y los requisitos del despliegue.
+- Los dispositivos pueden apuntar al dominio de Plaspy d.plaspy.com o directamente a la IP 54.85.159.138 como endpoint de reporte.
+- Plaspy utiliza el mismo puerto de escucha 8888 para todos los dispositivos soportados, lo que simplifica la configuración y las reglas de firewall.
+- Elementos de red como APN del operador, firewalls y NAT pueden afectar la conectividad; asegure que el rastreador tenga acceso sin restricciones al endpoint de Plaspy sobre el transporte elegido.
+- Para despliegues que requieren alta confiabilidad, considere configuraciones de doble SIM y el registro local que ofrece el dispositivo para reducir la pérdida de datos durante brechas de conectividad.
 
-## Notas sobre compatibilidad del protocolo
+## Notas de compatibilidad del protocolo
 
-- Las versiones de firmware pueden cambiar el comportamiento de reporte y los campos de telemetría disponibles; verifique las notas de firmware al solucionar problemas
-- Las revisiones de hardware u opciones de interfaz pueden afectar qué tipos de telemetría están disponibles o cómo se reportan
-- Las herramientas de configuración del fabricante o variantes regionales de firmware pueden cambiar el transporte o los ajustes de servidor por defecto
-- La configuración de Dual SIM y las bandas celulares afectan la conectividad, pero no alteran el concepto básico de reporte al servidor
-- Valide que el dispositivo esté apuntando a d.plaspy.com o a la IP del servidor Plaspy y que use el puerto configurado para su despliegue
-- Para funciones avanzadas como salidas de control remoto o reenvío MODBUS, confirme que esas funciones estén habilitadas y sean compatibles con el firmware instalado
+- Las revisiones de firmware pueden cambiar la temporización de mensajes, campos disponibles o funciones opcionales; confirme siempre las notas de la versión de firmware para entender el comportamiento que afecta la integración con Plaspy.
+- Revisión de hardware o variantes regionales del modelo pueden alterar bandas soportadas, cableado de antenas o interfaces disponibles, lo que a su vez influye en la confiabilidad del reporte.
+- La elección entre TCP y UDP afecta la semántica de entrega; seleccione el transporte más adecuado para sus necesidades operativas y la capacidad del dispositivo.
+- Las herramientas de configuración del fabricante y los sistemas de gestión remota pueden controlar ajustes de protocolo o formatos de reporte; coordine cambios de configuración con la visibilidad en Plaspy.
+- Valide identificadores de dispositivo e intervalos de reporte durante la puesta en marcha para asegurar que Plaspy pueda asociar y procesar correctamente los mensajes entrantes.
+- Al integrar sensores o periféricos adicionales, confirme cómo el dispositivo expone esas lecturas y si Plaspy las mapea a los campos de telemetría que usted necesita.
 
-## Por qué es importante entender el protocolo
+## Por qué es importante comprender el protocolo
 
-Conocer el comportamiento básico del protocolo de reporte del SIGNAL S-4751 ayuda a asegurar una configuración confiable, un mapeo de datos preciso en Plaspy y una resolución eficiente de problemas cuando los dispositivos no aparecen en línea o faltan datos.
+Tener un entendimiento práctico del protocolo de comunicación del rastreador ayuda a asegurar una configuración confiable, agiliza la resolución de problemas y garantiza una operación predecible a largo plazo en Plaspy. Conocer el contexto público del protocolo reduce la fricción de integración y facilita que los equipos tomen decisiones informadas sobre transporte, configuración y gestión de dispositivos.
 
-- Ayuda a confirmar que el dispositivo se conecta correctamente al endpoint de Plaspy y usa el transporte esperado
-- Facilita la interpretación del estado del dispositivo y los campos de telemetría en la plataforma Plaspy
-- Asiste en el diagnóstico de problemas de conectividad derivados de la red, la SIM o desacoples en el transporte
-- Orienta las decisiones sobre actualizaciones de firmware y cambios de configuración que afectan la frecuencia de reporte y la integridad de los datos
-- Apoya la planificación de despliegues a gran escala donde la configuración consistente de los dispositivos es crítica
+- Acelera el despliegue inicial al alinear los ajustes de reporte del dispositivo con el endpoint y expectativas de transporte de Plaspy.
+- Hace más eficiente la resolución de problemas cuando ocurren inconvenientes de conexión, identificación o transporte.
+- Permite planear medidas de resiliencia como registro local, uso de doble SIM e intervalos de reporte apropiados.
+- Favorece la interpretación correcta de telemetría y eventos cuando llegan a los paneles y alertas de Plaspy.
+- Informa la planificación de mantenimiento ante actualizaciones de firmware y revisiones de hardware que puedan afectar el comportamiento de los reportes.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el SIGNAL S-4751 con Plaspy ofrece a los operadores una vía práctica para capturar datos de ubicación GPS y GLONASS, telemetría del vehículo e historial de eventos para la gestión de flotas y el monitoreo de activos. La conectividad 4G del rastreador, la redundancia de Dual SIM, sus extensas entradas/salidas, Bluetooth y el registro en SD permiten reportes resilientes que complementan las funciones de Plaspy para seguimiento en vivo, geocercas y análisis histórico.
+Usar el Navtelekom SIGNAL S-4751 con Plaspy brinda a las organizaciones una opción sólida para la visibilidad de flotas y el monitoreo operativo. La capacidad GLONASS/GPS del rastreador, su conectividad 4G con doble SIM, las amplias E/S, el soporte Bluetooth y el registro en SD se combinan bien con la detección automatizada de protocolos de Plaspy y su endpoint unificado de recolección para ofrecer reporte continuo de posición y telemetría de vehículos y activos.
 
-La detección automática de protocolos de Plaspy y el uso consistente de puerto simplifican la incorporación y reducen el trabajo de configuración por dispositivo, mientras que las herramientas de visualización y alertas de Plaspy ayudan a convertir los datos crudos del rastreador en información operativa. To learn more about Plaspy and platform capabilities visit https://www.plaspy.com. For the latest device specific protocol details, firmware notes, and hardware documentation please verify current information on the manufacturer website https://www.navtelecom.ru/.
+Plaspy simplifica la incorporación de dispositivos aceptando reportes en d.plaspy.com y 54.85.159.138 en el puerto 8888 y detectando automáticamente el protocolo del rastreador, de modo que los equipos puedan concentrarse en usos operativos como geocercas, reproducción de rutas, alertas y análisis de telemetría. Para saber más sobre cómo Plaspy puede trabajar con dispositivos Navtelekom visite https://www.plaspy.com. Verifique por favor los detalles más recientes específicos del protocolo del dispositivo, el comportamiento del firmware y la información de implementación del fabricante en https://www.navtelecom.ru/ ya que estos detalles pueden cambiar con el tiempo.

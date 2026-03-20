@@ -78,12 +78,12 @@ The MXT-140 can be configured by sending public SMS commands to the device. The 
 - Send this SMS to the tracker phone number (replace placeholders before sending):
 
 ```text
-0000,{{trackerID}},2,0,[apn],[apnu],[apnp],54.85.159.138,8888,,.
+0000,[trackerID],2,0,[apn],[apnu],[apnp],54.85.159.138,8888,,.
 ```
 
 Notes on the command:
 - 0000 is the default device password shown in the public sample. If your device uses a different password, replace it.
-- {{trackerID}} must be replaced with the device IMEI or configured tracker identifier.
+- [trackerID] must be replaced with the device IMEI or configured tracker identifier.
 - [apn], [apnu], and [apnp] are placeholders for your mobile operator APN, APN username, and APN password. Replace them with the correct values for the SIM in the device.
 - The command sets the server IP to 54.85.159.138 and port to 8888 which correspond to Plaspy. Do not remove these values unless instructed by official Maxtrack documentation.
 - This command format is the public SMS-based setup example; follow the manufacturer's exact sending procedure and syntax for your firmware version.

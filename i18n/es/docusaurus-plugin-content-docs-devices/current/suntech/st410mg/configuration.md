@@ -76,10 +76,10 @@ El ST410MG puede configurarse por SMS usando el formato de comandos de Suntech. 
 
 Comandos SMS comunes publicados por el fabricante y usados en ejemplos públicos:
 
-- Establecer el APN del operador y el servidor GPRS (reemplazar [apn], [apnu] y [apnp] con los valores de su operador; sustituir {{device_id}} por el ID de seis dígitos derivado del IMEI):
+- Establecer el APN del operador y el servidor GPRS (reemplazar [apn], [apnu] y [apnp] con los valores de su operador; sustituir [device_id] por el ID de seis dígitos derivado del IMEI):
 
 ```
-SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Notas sobre el comando APN:
@@ -91,16 +91,16 @@ Notas sobre el comando APN:
 - Establecer el intervalo de reporte a 60 segundos (los parámetros de reporte son específicos del dispositivo; este ejemplo asigna varios campos de intervalo a 60 según la plantilla pública):
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Consultar ajustes actuales o enviar un comando de verificación preestablecido:
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
-Las plantillas públicas originales a veces usan una expresión generada para el ID del dispositivo. Si prefiere seguir la plantilla pública tal cual, el ejemplo del fabricante construye el ID a partir de los últimos dígitos del IMEI. El método simplificado es reemplazar esa construcción con {{device_id}} después de determinar el ID de seis dígitos del IMEI como se mostró arriba.
+Las plantillas públicas originales a veces usan una expresión generada para el ID del dispositivo. Si prefiere seguir la plantilla pública tal cual, el ejemplo del fabricante construye el ID a partir de los últimos dígitos del IMEI. El método simplificado es reemplazar esa construcción con [device_id] después de determinar el ID de seis dígitos del IMEI como se mostró arriba.
 
 ## Notas de configuración
 

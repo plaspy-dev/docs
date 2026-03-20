@@ -4,77 +4,78 @@ id: start_s_2013-protocol
 sidebar_label: Protocol
 title: Navtelekom - START S-2013 Protocol
 sidebar_class_name: menu_item_tracker
-description: Resumen público del protocolo para usar el rastreador Navtelekom START S-2013 con la plataforma Plaspy de gestión de flotas en tiempo real
+description: Contexto público del protocolo START S-2013 de Navtelekom y guía práctica para conectar el rastreador a Plaspy
 keywords:
-  - protocolo Navtelekom START S-2013
-  - protocolo START S-2013 GPS
-  - protocolo de comunicación START S-2013
-  - rastreador Navtelekom Plaspy
-  - rastreador compatible Plaspy
-  - START S-2013 GLONASS GPS
-  - protocolo para rastreadores de vehículos
-  - rastreador transporte UDP TCP
-  - rastreo y gestión de flotas
-  - rastreo de activos Navtelekom
+  - Navtelekom START S-2013
+  - protocolo START S-2013
+  - rastreador GPS Navtelekom
+  - compatibilidad con Plaspy
+  - protocolo de rastreo GPS
+  - comunicación START S-2013
+  - protocolo para rastreador vehicular
+  - rastreador GLONASS GPS
+  - rastreador para gestión de flotas
+  - integración de telemetría del rastreador
 ---
 
-# Navtelekom - Protocolo START S-2013
+# Navtelekom – Protocolo START S-2013
 
-Esta página describe, en términos públicos y generales, el contexto del protocolo para usar el rastreador Navtelekom START S-2013 con Plaspy. Se centra en cómo el dispositivo comunica información al endpoint de ingestión de Plaspy para que administradores de flota e integradores puedan preparar dispositivos y ajustes de red que garanticen reportes fiables.
+Esta página describe el contexto público del protocolo para usar el rastreador Navtelekom START S-2013 con Plaspy. Se centra en cómo el dispositivo se comunica con Plaspy y qué esperar durante la configuración y la operación continua, sin exponer detalles sensibles de implementación.
 
-El START S-2013 es un rastreador vehicular compacto con GLONASS/GPS, antenas internas, conectividad 2G GSM para telemetría, batería de respaldo, configuración por USB Type C, Bluetooth 4.0 para sensores y una interfaz RS-485. Plaspy emplea ajustes de conexión compartidos entre dispositivos compatibles y detecta automáticamente el protocolo del rastreador, aunque el comportamiento exacto puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante. Para comandos específicos del equipo y notas de firmware consulte la documentación oficial de Navtelekom.
+Plaspy emplea ajustes de conexión compartidos para los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando el dispositivo reporta a la plataforma. El comportamiento exacto del protocolo y los mensajes disponibles pueden variar según la versión de firmware, la revisión de hardware y la implementación del fabricante; por eso esta página ofrece contexto práctico a nivel de protocolo e invita a verificar contra la documentación oficial de Navtelekom.
 
 ## Visión general del protocolo
 
-El protocolo del dispositivo es la forma en que el START S-2013 transmite posiciones, telemetría y eventos a un servidor remoto como Plaspy. En la práctica esto significa que el rastreador envía posiciones GNSS, lecturas de sensores y eventos discretos a través del enlace celular para que Plaspy ofrezca rastreo en tiempo real, alertas e informes históricos.
+El protocolo de comunicación del START S-2013 regula cómo el dispositivo envía posiciones GNSS, telemetría de sensores y alertas de eventos a un servidor remoto. A nivel general, el protocolo convierte la telemetría en datos útiles para Plaspy al incluir identificación, hora, ubicación y campos de sensores que Plaspy normaliza para el seguimiento y los informes en tiempo real.
 
-- El protocolo transporta posición GNSS y telemetría básica como estados de entradas, valores analógicos y estado de batería hacia Plaspy.
-- Identifica el dispositivo ante el servidor para que Plaspy asocie los datos entrantes con el vehículo o activo correcto.
-- Permite reportes basados en eventos para entradas y umbrales, de modo que Plaspy pueda generar alertas y reglas.
-- La telemetría procedente de dispositivos RS-485 o sensores Bluetooth se reenvía mediante el protocolo del rastreador para consolidarse en la plataforma Plaspy.
-- El protocolo de comunicación puede variar según el firmware y las personalizaciones del fabricante, por lo que el comportamiento del dispositivo puede diferir entre versiones.
+- Permite al rastreador transmitir posiciones GNSS y telemetría de sensores del vehículo a Plaspy
+- Transporta la identificación del dispositivo para asociar los reportes entrantes con el activo de la flota correcto
+- Incluye reportes periódicos y mensajes basados en eventos que Plaspy usa para alertas y reproducción histórica
+- Proporciona campos de telemetría que se mapean a elementos del panel de Plaspy, como valores de sensores y entradas digitales
+- Funciona sobre métodos de transporte comunes para que el START S-2013 reporte de forma fiable desde la red del vehículo
 
-## Cómo Plaspy detecta el protocolo
+## Cómo detecta Plaspy el protocolo
 
-Plaspy recibe conexiones entrantes en un endpoint de ingestión compartido y emplea detección automática para asociar los flujos con un tipo de rastreador conocido. Esto permite que dispositivos como el START S-2013 reporten sin que el usuario tenga que seleccionar manualmente el protocolo dentro de Plaspy cuando el rastreador está configurado para enviar datos al endpoint de Plaspy.
+Plaspy recibe el tráfico de dispositivos en un único endpoint de ingestión compartido y detecta automáticamente el protocolo que llega. En la mayoría de los casos, basta con apuntar un START S-2013 al endpoint de Plaspy para que sea reconocido y procesado sin necesidad de seleccionar manualmente un protocolo en la plataforma.
 
-- Plaspy escucha en el dominio compartido d.plaspy.com y en la IP pública 54.85.159.138 para los reportes de dispositivos.
-- Todos los dispositivos soportados por Plaspy usan el mismo puerto, lo que simplifica la configuración de los equipos y las reglas de firewall.
-- Plaspy detecta automáticamente el protocolo del rastreador una vez que el dispositivo se conecta y empieza a enviar datos.
-- Normalmente usted solo necesita asegurarse de que el dispositivo apunte al endpoint de Plaspy y use el transporte correcto.
-- Si el dispositivo está configurado correctamente para reportar a Plaspy, por lo general no es necesaria la selección manual del protocolo dentro de la plataforma.
+- El dominio del servidor de Plaspy para el reporte de dispositivos es d.plaspy.com
+- La IP del servidor de Plaspy es 54.85.159.138
+- El puerto de ingestión de Plaspy usado por todos los dispositivos es 8888
+- Los dispositivos pueden configurarse para usar UDP o TCP en el puerto 8888 al reportar a Plaspy
+- Debido a que Plaspy usa un endpoint y puerto compartidos para todos los rastreadores, normalmente no se requiere seleccionar el protocolo manualmente cuando el dispositivo reporta correctamente
+- Plaspy mapea automáticamente los mensajes entrantes al vehículo asociado una vez que el rastreador se identifica en su reporte
 
-## Transporte y contexto de conexión
+## Contexto de transporte y conexión
 
-El transporte y la dirección de conexión determinan cómo el START S-2013 alcanza Plaspy, pero no cambian el propósito general del protocolo. El rastreador puede usar UDP o TCP según el firmware y la configuración, por lo que el administrador debe confirmar el transporte preferido antes del despliegue.
+El contexto de conexión define cómo el START S-2013 alcanza a Plaspy más que el formato interno de los paquetes. El rastreador puede configurarse para enviar su telemetría sobre enlaces de datos móviles estándar y la elección del transporte determina si los mensajes usan UDP o TCP para llegar al endpoint de ingestión de Plaspy.
 
-- Los dispositivos pueden configurarse para reportar a d.plaspy.com o directamente a 54.85.159.138.
-- El START S-2013 puede usar UDP o TCP en el puerto 8888 dependiendo de la configuración del equipo y del soporte de firmware.
-- Plaspy utiliza el puerto 8888 para todos los dispositivos compatibles con el fin de simplificar la configuración de red y firewall.
-- Asegúrese de que el APN y la configuración de la SIM en el dispositivo permitan conexiones salientes hacia el endpoint de Plaspy.
-- Para implementaciones a gran escala, estandarizar el mismo transporte y endpoint reduce errores de configuración y facilita la resolución de problemas.
+- El dispositivo puede configurarse usando UDP o TCP en el puerto 8888 según el soporte y la configuración del equipo
+- Los dispositivos pueden apuntar al dominio d.plaspy.com o directamente a 54.85.159.138 al configurar el endpoint del servidor
+- Todos los dispositivos en Plaspy usan el mismo puerto, lo que simplifica la configuración del servidor en una flota mixta
+- La conectividad celular y la fiabilidad de la red afectan la entrega y el comportamiento de retransmisión en la capa de transporte
+- Mantenga actualizados los ajustes de APN y la configuración de la SIM en el dispositivo para asegurar que pueda alcanzar a Plaspy por la red celular
 
 ## Notas sobre compatibilidad del protocolo
 
-- Las revisiones de firmware pueden cambiar cómo el rastreador reporta campos y qué telemetría se incluye en cada reporte.
-- Las revisiones de hardware o variantes regionales pueden modificar las interfaces disponibles, como el comportamiento de Bluetooth o RS-485.
-- La elección entre UDP y TCP puede afectar las garantías de entrega y debe elegirse según la fiabilidad de la red y el soporte del dispositivo.
-- Las herramientas de configuración del fabricante o los ajustes por defecto pueden requerir modificación para apuntar el dispositivo al endpoint de Plaspy.
-- Valide cualquier opción avanzada o telemetría propietaria con la documentación oficial de Navtelekom antes de asumir su disponibilidad.
-- Confirme que el cableado y la configuración de los sensores coincidan con los campos de telemetría que Plaspy espera para una correcta interpretación.
+- Las revisiones de firmware pueden cambiar los tipos de mensajes disponibles y los campos de telemetría; confirme la versión de firmware del rastreador durante la incorporación
+- Las revisiones de hardware o variantes regionales pueden alterar los transportes soportados o las interfaces de sensores
+- Las herramientas de configuración del fabricante y los ajustes de servidor por defecto pueden diferir entre dispositivos; establezca explícitamente el endpoint de reporte a las configuraciones de Plaspy
+- Seleccionar UDP frente a TCP en el dispositivo puede afectar las garantías de entrega y debe coincidir con las capacidades del equipo y las condiciones de red
+- Si depende de datos de sensores RS-485 o Bluetooth, valide cómo esos valores de telemetría son expuestos por el rastreador en esa versión de firmware
+- Siempre contraste el comportamiento con la documentación técnica de Navtelekom para detalles específicos del dispositivo y recomendaciones de configuración
 
 ## Por qué es importante comprender el protocolo
 
-Tener claridad sobre el protocolo de comunicación del START S-2013 facilita la puesta en marcha exitosa del dispositivo, la resolución efectiva de problemas y la confiabilidad a largo plazo de los datos de la flota en Plaspy. Saber qué envía el rastreador y cómo se conecta reduce la fricción de integración y mejora el tiempo de actividad operativo.
+Entender cómo se comunica el START S-2013 ayuda a asegurar una integración fluida con Plaspy, agiliza la resolución de problemas y garantiza reportes confiables a largo plazo para las operaciones de flota. Tener un manejo práctico del contexto de comunicación reduce la fricción en la incorporación y capacita a los equipos para diagnosticar problemas comunes de conectividad o configuración.
 
-- Acelera la configuración inicial al garantizar que los dispositivos apunten al endpoint de Plaspy y usen el transporte correcto.
-- Ayuda a diagnosticar problemas de conectividad aislando causas relacionadas con la red, la SIM y el transporte.
-- Asegura que la telemetría esperada, como combustible, temperatura o eventos de entrada, se entregue e interprete correctamente en Plaspy.
-- Facilita la planificación de actualizaciones de firmware o cambios de hardware al indicar dónde puede variar el comportamiento.
-- Reduce alertas falsas y vacíos de datos alineando el comportamiento de reporte del dispositivo con las expectativas de ingestión de Plaspy.
+- Confirma que el dispositivo apunta al endpoint correcto de Plaspy y usa el transporte soportado
+- Ayuda a identificar si la telemetría faltante se debe a configuración del dispositivo, firmware o problemas de red
+- Facilita el mapeo de entradas del dispositivo y canales de sensores a los campos adecuados del panel de Plaspy
+- Apoya la planificación de actualizaciones de firmware o reemplazos de hardware sin interrumpir los reportes
+- Mejora la respuesta ante incidentes al clarificar qué lado del enlace (dispositivo, red o servidor) es responsable de las fallas
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el Navtelekom START S-2013 con Plaspy ofrece una solución de rastreo compacta y discreta que reenvía posiciones GNSS y una variedad de telemetría a una única plataforma de gestión de flotas. Para organizaciones que requieren visibilidad en tiempo real, alertas configurables y telemetría rica en sensores desde dispositivos de pequeño formato, esta combinación equilibra la simplicidad de instalación con la inteligencia operativa.
+El START S-2013 funciona bien con Plaspy para operaciones que requieren instalaciones discretas, posicionamiento GNSS confiable y opciones de telemetría flexibles. Plaspy ingiere la ubicación y los datos de sensores desde el rastreador y los presenta en tiempo real para monitoreo, alertas y análisis histórico, ayudando a los equipos a mantener supervisión operativa con cableado mínimo y hardware compacto.
 
-Para obtener más información sobre Plaspy y cómo gestiona la ingestión de dispositivos y los informes de flota visite https://www.plaspy.com. Para los detalles más recientes específicos del protocolo del dispositivo, notas de firmware y documentación técnica oficial, verifique la información con el fabricante en https://www.navtelecom.ru/.
+Si desea conocer más sobre cómo Plaspy trabaja con dispositivos Navtelekom y revisar opciones de integración, por favor visite https://www.plaspy.com. Para los detalles más recientes del protocolo específico del dispositivo, notas de firmware y orientación del fabricante, verifique la información actual en el sitio de Navtelekom https://www.navtelecom.ru/. El soporte de protocolo y el comportamiento del firmware pueden cambiar con el tiempo, por lo que se recomienda consultar la documentación del fabricante al preparar los despliegues.

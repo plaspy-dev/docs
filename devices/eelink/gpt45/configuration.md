@@ -4,124 +4,128 @@ id: gpt45-configuration
 sidebar_label: Configuration
 title: EElink - GPT45 Configuration
 sidebar_class_name: menu_item_tracker
-description: Public configuration guide for EElink GPT45 GPS tracker setup and Plaspy compatibility using shared server settings
+description: Public configuration guide for EElink GPT45 tracker integration with Plaspy server settings and SMS commands
 keywords:
   - EElink GPT45 configuration
-  - GPT45 Plaspy setup
-  - EElink GPS tracker configuration
+  - EElink GPT45 setup
   - GPT45 server configuration
-  - Plaspy device setup
-  - GPS tracker SMS commands
-  - GPT45 GPRS server setup
-  - Plaspy compatibility guide
-  - vehicle tracking configuration
-  - tracker protocol detection
+  - GPT45 Plaspy integration
+  - GPS tracker configuration
+  - Plaspy tracker setup
+  - EELINK GPT45 SMS commands
+  - Fleet tracking setup
+  - Vehicle tracking configuration
+  - GPS device configuration
 ---
 
 # EElink - GPT45 Configuration
 
-This page covers the public configuration context for using the EElink GPT45 tracker with Plaspy. It explains the shared Plaspy server settings you will apply to the device and shows the publicly documented SMS commands that manufacturers commonly publish for GPT45 setup.
+This page documents the public configuration context for using the EElink GPT45 GPS tracker with Plaspy. It collects the practical server settings and SMS commands that are commonly used to point GPT45 devices to Plaspy for real-time tracking and telemetry. Use this guide to prepare devices for integration and to understand the basic steps required to get a device reporting to Plaspy.
 
-Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol. Exact manufacturer side setup steps can vary by firmware version, hardware revision, installation type, and vendor tools. Use this guide as a practical reference and confirm device specific details with EElink documentation when needed.
+Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol, while exact manufacturer-side setup steps can vary by firmware, hardware revision, installation type, and vendor tools. All Plaspy devices use the same server port, so the configuration below centers on those shared values while also showing the GPT45 SMS commands that are commonly available for device-side setup.
 
 ## Configuration Overview
 
-The purpose of this configuration is to prepare a GPT45 device so it can send location and telemetry to Plaspy reliably. Using the same Plaspy endpoint and port across devices simplifies fleet onboarding and lets the platform auto detect the device protocol for you.
+This configuration process prepares a GPT45 tracker to communicate with Plaspy by setting network parameters, server endpoint, and reporting interval. The practical goal is to enable the device to authenticate on the mobile network, reach the Plaspy endpoint, and begin sending location and sensor data so the device appears in the Plaspy platform.
 
-- Configure the device to point at the Plaspy server endpoint so data is routed to your Plaspy account
-- Provide correct APN and GPRS settings so the tracker has cellular data connectivity
-- Set a reporting interval so Plaspy receives timely updates for live tracking and alerts
-- Validate the device is visible and reporting in Plaspy after configuration
-- Use the device verification command to check key parameters on the tracker
+- Configure the device APN so it has GPRS data access.
+- Set the Plaspy server endpoint (domain or IP) and the shared Plaspy port.
+- Choose transport (UDP or TCP) if required by the device and save the setting.
+- Define a reporting interval appropriate for the use case and battery life.
+- Validate settings with a parameter check and confirm the device appears in Plaspy.
 
 ## Plaspy Server Settings
 
-- Server domain d.plaspy.com
-- Server IP 54.85.159.138
-- Port 8888
-- Transport support for UDP or TCP on port 8888
-- Plaspy automatically detects the tracker protocol when devices connect to the shared server and port
+Use the following Plaspy server settings when configuring the GPT45. Plaspy uses the same port for all supported devices and the platform automatically detects the tracker protocol.
+
+- server domain d.plaspy.com
+- server IP 54.85.159.138
+- port 8888
+- transport support for UDP or TCP on port 8888
+- automatic protocol detection in Plaspy
 
 ## Typical Requirements Before Setup
 
-- A charged GPT45 unit ready for configuration and powered on
-- A SIM card with an active data plan and SMS capability installed in the device
-- Correct APN information from the mobile operator for GPRS connectivity
-- Access to an SMS sender or the official EElink configuration tool or app to send setup commands
-- Basic account access to Plaspy so you can confirm the device appears in the platform after setup
+- A charged GPT45 device with access to its SMS configuration method or manufacturer configuration tool.
+- An active mobile SIM card with data and SMS capability configured with the correct APN for the operator.
+- Access to a phone or SMS gateway able to send SMS configuration commands to the tracker.
+- Knowledge of any device-specific login or configuration password if required by your firmware or vendor tool.
+- A Plaspy account and device registration workflow available in your Plaspy instance to validate the device once it reports.
+- Basic understanding of whether you will use UDP or TCP transport depending on your deployment needs.
 
 ## How This Tracker Connects to Plaspy
 
-When configured for Plaspy, the GPT45 sends GNSS fixes and telemetry over cellular data to the shared Plaspy endpoint. Plaspy receives the messages on the same port for all devices and determines the protocol automatically, so you do not need to provision separate ports for different models.
+The GPT45 is configured to report its position and telemetry to the shared Plaspy server endpoint and port so Plaspy can process and display real-time location and sensor data. Once server and APN settings are applied, the device will open a data session and begin sending messages that Plaspy will parse using automatic protocol detection.
 
-- Device is pointed to the Plaspy server domain or IP and port 8888
-- Tracker transmits periodic position and sensor telemetry to Plaspy
-- Event driven messages such as vibration or collision notifications are forwarded to the platform
-- Plaspy maps incoming device messages to dashboard visibility, alerting, and historical replay
-- Automatic protocol detection in Plaspy handles EELINK protocol variants without manual protocol selection
+- The device sends GNSS fixes and fallback location data to the configured Plaspy endpoint.
+- Event and alarm messages (for example collision or speed alarms) are forwarded to Plaspy for alerts and rule processing.
+- Environmental and sensor telemetry is transmitted so Plaspy can archive and surface readings.
+- The device can use either UDP or TCP transport to reach d.plaspy.com or 54.85.159.138 on port 8888.
+- Plaspy’s automatic protocol detection handles the device protocol once messages reach the server.
 
 ## Common Configuration Workflow
 
-1. Access the official EElink configuration method such as the manufacturer SMS command list, configuration app, or USB tool.
-2. Enter the Plaspy server address using either d.plaspy.com or 54.85.159.138 depending on your preference for domain or IP.
-3. Set the server port to 8888 for all devices.
-4. Choose UDP or TCP transport on the device if the tracker requires a transport selection.
-5. Provide the operator APN and any required APN username or password placeholders if applicable.
-6. Apply or save the configuration and restart the device if required by the manufacturer.
-7. Validate that the device reports to Plaspy and appears in your Plaspy dashboard or device list.
+1. Access the official EElink configuration method for GPT45 (SMS commands, manufacturer tool, or authorized software).
+2. Ensure the SIM and APN are set so the device has mobile data access.
+3. Enter the Plaspy server endpoint using either d.plaspy.com or 54.85.159.138 and set the port to 8888.
+4. Choose UDP or TCP if the device requires a transport selection.
+5. Apply or save the configuration on the device and restart the device if required.
+6. Validate the device using the PARAM# or equivalent verification command and confirm it reports to Plaspy.
+7. Check the Plaspy platform to ensure the device appears and is sending location and sensor data.
 
 ## Example Configuration Commands
 
-The GPT45 supports SMS based configuration. The commands below are the publicly documented SMS messages for initial setup. Preserve the placeholders when you send the APN command.
+The GPT45 supports SMS-based configuration. Below are the public SMS commands commonly used for initial setup. Preserve the placeholders when substituting your operator APN credentials.
 
-- Optional initial factory reset command
-```
+- Reset to factory defaults (optional initial step):
+```text
 FACTORY#
 ```
 
-- Set time zone to UTC 0
-```
+- Set the time zone to UTC+0:
+```text
 GMT,E,0#
 ```
 
-- Set the operator APN
-Note the placeholders. Replace [apn] with your operator APN. The fields [apnu] and [apnp] represent optional APN username and APN password respectively.
-```
+- Set the operator APN (replace [apn] with your operator APN; include [apnu] and [apnp] if your operator requires a username and password):
+```text
 APN,[apn],[apnu],[apnp]#
 ```
 
-- Set the GPRS server to Plaspy by domain and port
-```
+- Set the GPRS server to Plaspy by domain (preferred):
+```text
 SERVER,1,d.plaspy.com,8888#
 ```
 
-- Or set the GPRS server to Plaspy by IP and port
-```
+- Or set the GPRS server to Plaspy by IP:
+```text
 SERVER,0,54.85.159.138,8888#
 ```
 
-- Set the position update interval to 60 seconds
-```
+- Set the update/reporting interval to 60 seconds:
+```text
 TIMER,60#
 ```
 
-- Verify current parameters on the device
-```
+- Verify current parameters:
+```text
 PARAM#
 ```
 
-These commands are shown in the order commonly recommended for first time configuration. Use FACTORY# only if you need to reset the device to factory defaults before applying new settings.
+Notes on placeholders:
+- [apn] is the operator APN string required for mobile data.
+- [apnu] and [apnp] represent optional APN username and password fields; include them only when required by the mobile operator.
 
 ## Configuration Notes
 
-- SMS based configuration is supported and shown above. Use the EElink provided SMS syntax exactly and preserve placeholders when replacing values.
-- Different firmware versions or hardware revisions may accept slightly different command variants or require additional steps. Consult EElink documentation when in doubt.
-- If your tracker requires a transport choice, select UDP or TCP according to site needs. Plaspy accepts both on port 8888 and will detect protocol automatically.
-- Always confirm APN settings with the mobile operator if data connectivity is not established.
-- After configuration, allow a few minutes for the device to register on the network and send its first reports to d.plaspy.com on port 8888.
+- Firmware and hardware revisions can change command syntax or available options; always confirm with the device firmware notes.
+- GPT45 supports SMS-based configuration as shown, but manufacturer tools or USB configuration may be available for bulk or remote provisioning.
+- Choose UDP vs TCP according to your reliability and network considerations; both transports are supported to reach Plaspy on port 8888.
+- When using the SERVER command you may supply either the domain d.plaspy.com or the numeric IP 54.85.159.138; both point to Plaspy on port 8888.
+- If you issue a factory reset (FACTORY#), remember to reapply APN and server settings afterward.
 
 ## Why Use Plaspy with This Configuration
 
-Using GPT45 with Plaspy brings device telemetry into a single platform for live tracking, alerting, and analytics. The shared Plaspy server and consistent port simplify rollouts across many units because the platform automatically detects connected tracker protocols and normalizes incoming data for visualization and rules.
+Using the GPT45 with Plaspy gives organizations a straightforward path to real-time tracking, sensor-driven alerts, and centralized visibility for fleet and asset operations. The shared Plaspy server settings and automatic protocol detection simplify integration so devices can begin reporting quickly once APN and server parameters are set.
 
-To learn more about Plaspy visit https://www.plaspy.com. Device specific configuration methods, firmware behavior, and manufacturer details can change over time so please verify the latest setup instructions and command syntax from the official manufacturer site at https://www.eelink.com.cn/ before deploying devices.
+To learn more about Plaspy and how it supports device integrations, visit https://www.plaspy.com. For the latest device-specific setup instructions, firmware changes, and manufacturer details, verify information on the official EElink site https://www.eelink.com.cn/ as vendor documentation may change over time.

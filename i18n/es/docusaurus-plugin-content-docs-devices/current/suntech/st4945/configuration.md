@@ -73,7 +73,7 @@ El ST4945 se configura para reportar al endpoint y al puerto compartidos de Plas
 
 ## Ejemplos de comandos de configuración
 
-El ST4945 admite comandos SMS para configurar la red y el reporte. Los siguientes comandos públicos se extraen de las instrucciones de Suntech y se muestran como plantillas. Reemplace {{device_id}} por el ID del dispositivo derivado del IMEI según se explica más abajo. Conserve los marcadores de posición [apn], [apnu] y [apnp] al insertar los valores de su operador.
+El ST4945 admite comandos SMS para configurar la red y el reporte. Los siguientes comandos públicos se extraen de las instrucciones de Suntech y se muestran como plantillas. Reemplace [device_id] por el ID del dispositivo derivado del IMEI según se explica más abajo. Conserve los marcadores de posición [apn], [apnu] y [apnp] al insertar los valores de su operador.
 
 Cómo calcular el ID del dispositivo
 - El ID que usa Suntech en los comandos SMS son seis dígitos extraídos del IMEI según documenta Suntech: los últimos 6 números excluyendo el dígito de verificación final.
@@ -82,28 +82,28 @@ Cómo calcular el ID del dispositivo
 1) Establecer el APN del operador y el servidor GPRS
 - Si no se requiere usuario ni contraseña del APN use el flag 0 y deje los campos de usuario y contraseña en blanco
 ```text
-SA200NTW;{{device_id}};02;0;[apn];; ;54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;0;[apn];; ;54.85.159.138;8888;;;;
 ```
 
 - Si se requiere usuario o contraseña del APN use el flag 1 e incluya [apnu] y [apnp]
 ```text
-SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Nota sobre los marcadores de posición
 - [apn] es el APN de su operador móvil
 - [apnu] es el usuario del APN cuando sea requerido
 - [apnp] es la contraseña del APN cuando sea requerida
-- {{device_id}} es el identificador de seis dígitos derivado del IMEI como se muestra arriba
+- [device_id] es el identificador de seis dígitos derivado del IMEI como se muestra arriba
 
 2) Establecer el intervalo de actualización a 60 segundos
 ```text
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Consultar ajustes actuales o verificar la configuración
 ```text
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Envíe estos comandos SMS desde un número autorizado si el rastreador está configurado para aceptar configuración por SMS. El comportamiento exacto depende del firmware del ST4945 y del modo de configuración.

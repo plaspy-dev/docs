@@ -75,14 +75,14 @@ El XT-007 se configura para reportar posición y estado al endpoint y puerto del
 El XT-007 normalmente soporta comandos vía SMS. Los comandos públicos de muestra abajo muestran una secuencia SMS típica. La configuración de ejemplo usa la contraseña de fábrica 000000. Reemplace los marcadores antes de enviar.
 
 - Notas sobre los marcadores
-  - {{imei}} significa el número IMEI del dispositivo, normalmente 15 dígitos
+  - [imei] significa el número IMEI del dispositivo, normalmente 15 dígitos
   - [apn] es el APN del operador móvil
   - [apnu] es el nombre de usuario del APN si se requiere
   - [apnp] es la contraseña del APN si se requiere
 
-1. Establezca el ID del dispositivo o mapee el IMEI (reemplace {{imei}} con el IMEI del equipo)
+1. Establezca el ID del dispositivo o mapee el IMEI (reemplace [imei] con el IMEI del equipo)
 ```
-M000000,22,{{imei}}
+M000000,22,[imei]
 ```
 
 2. Configure el APN del operador. Si el APN requiere usuario o contraseña inclúyalos como se muestra. Reemplace los marcadores según corresponda.

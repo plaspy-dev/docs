@@ -84,7 +84,7 @@ The PT621 supports SMS based configuration. The following public SMS commands ar
 ```text
 000000GID<14-digit-identifier>
 ```
-Replace \\<14-digit-identifier> with the 14 digit identifier you want to use, commonly the last 14 digits of the device IMEI.
+Replace \<14-digit-identifier> with the 14 digit identifier you want to use, commonly the last 14 digits of the device IMEI.
 
 - Set the APN for the mobile operator
 ```text

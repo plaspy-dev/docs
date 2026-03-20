@@ -4,78 +4,77 @@ id: tk116-features
 sidebar_label: Features
 title: EElink - TK116 Features
 sidebar_class_name: menu_item_tracker
-description: Resumen completo de las funciones del rastreador GPS EElink TK116 y su integración con Plaspy para vehículos y motocicletas
+description: Resumen de funciones del rastreador GPS 2G compacto compatible con Plaspy para flotas y motocicletas
 keywords:
-  - EElink TK116
-  - funciones EElink TK116
-  - rastreador GPS TK116
-  - compatibilidad TK116 Plaspy
-  - detección ACC TK116
-  - geocercas TK116
+  - EElink TK116 características
+  - rastreador GPS EElink TK116
+  - compatibilidad TK116 con Plaspy
+  - funciones rastreador EElink
   - alarma de choque TK116
-  - rastreador para motocicleta TK116
-  - seguimiento de flotas TK116
-  - telemetría TK116
+  - detección ACC TK116
+  - geovallas TK116
+  - rastreador GPS para motocicleta
+  - relé inmovilizador para vehículo
+  - GPS LBS AGPS rastreador
 ---
 
-# EElink - Características del TK116
+# EElink - TK116 — Características
 
-Esta página ofrece un resumen público de las características del rastreador GPS EElink TK116 y de cómo sus capacidades se utilizan dentro de Plaspy. Se concentra en las funciones visibles al usuario, los tipos de eventos y el valor práctico para el seguimiento de vehículos y motocicletas cuando el dispositivo está registrado y reportando en Plaspy.
+Esta página ofrece un resumen público de las capacidades del rastreador GPS EElink TK116 y de cómo se aprovechan con Plaspy para el seguimiento en tiempo real y la gestión de flotas. Se describen capacidades prácticas y no sensibles del dispositivo, así como la forma en que Plaspy muestra ubicación, estado y eventos a los operadores.
 
-La disponibilidad y el comportamiento exacto de las funciones pueden variar según la versión de firmware, la revisión de hardware, las opciones de accesorios y el método de instalación. Para detalles específicos a nivel de dispositivo consulte la documentación del fabricante y las notas de versión de EElink.
+La disponibilidad exacta y el comportamiento de cada función dependen del firmware del dispositivo, la revisión de hardware, las opciones instaladas y la implementación del fabricante. Usted debe tener en cuenta estas variables al planear despliegues y consultar la documentación del fabricante para detalles específicos del equipo.
 
 ## Resumen de funciones
 
-El TK116 es un rastreador 2G compacto diseñado para actualizaciones continuas de ubicación y reporte de eventos. Combina posicionamiento satelital y por estaciones base (LBS) con asistencia AGPS, y ofrece entradas y alarmas para vehículos que proporcionan telemetría útil para monitorización y respuesta ante incidentes.
+El TK116 es un rastreador compacto 2G diseñado para vehículos y motocicletas, enfocado en el reporte continuo de ubicación y alertas basadas en eventos. Al integrarse con Plaspy, el dispositivo entrega actualizaciones de posición junto con telemetría y señales de alarma que respaldan la monitorización, mitigación de robos y los flujos de trabajo de respuesta a incidentes.
 
-- Posicionamiento en tiempo real por GPS y LBS con asistencia AGPS para mejorar tiempos de fijación y mantener actualizaciones en zonas de señal débil.
-- Detección ACC para estados de encendido y apagado del vehículo, útil para reglas basadas en comportamiento e informes.
-- Alarmas por choque, caída y vibración, además de generación de alarmas por exceso de velocidad para mayor conciencia en incidentes y seguridad.
-- Relé opcional para corte remoto de combustible o alimentación, compatible con flujos de trabajo antirobo tipo inmovilizador.
-- Botón SOS y micrófono opcionales para alertas de emergencia y escucha remota cuando están presentes y configurados.
-- Batería interna de respaldo y notificaciones por corte de alimentación externa para reducir periodos sin comunicación durante interrupciones de energía.
+- Posición GPS en tiempo real con asistencia AGPS y respaldo LBS para mantener el seguimiento en áreas de cobertura limitada
+- Detección ACC para informar el estado de ignición y realizar análisis de arranque y parada
+- Alarmas por choque, caída y vibración para notificar a los operadores sobre posibles incidentes
+- Soporte configurable de geovallas para controlar entradas y salidas de zonas
+- Relé opcional para corte remoto de alimentación o combustible que permite acciones tipo inmovilizador
+- Botón SOS opcional y micrófono para alertas de emergencia y escucha remota cuando están instalados
 
-## Funciones principales del EElink TK116
+## Funciones principales del EElink - TK116
 
-- Posicionamiento GPS y LBS con asistencia AGPS para fijaciones de ubicación más rápidas.
-- Entrada de detección ACC para reportar estado de encendido o accesorios.
-- Reporte de alarmas por choque y caída, con soporte para alarma por vibración para detección de incidentes.
-- Generación de alarma por velocidad para marcar posibles episodios de exceso de velocidad.
-- Soporte de geocercas para alertas de entrada y salida de zonas.
-- Salida de relé opcional para permitir acciones remotas de corte de combustible o alimentación.
-- Eventos de botón SOS y micrófono cuando se instala la opción de accesorio.
-- Batería de respaldo integrada con alertas por corte de alimentación externa y batería baja.
+- Posicionamiento GPS con asistencia AGPS y respaldo por estaciones base LBS para fijaciones de ubicación más fiables
+- Entrada ACC para reportar el estado de ignición o funcionamiento a plataformas de monitoreo
+- Alarmas por choque y vibración que disparan notificaciones inmediatas de evento
+- Capacidades de geovallas para reglas y alertas basadas en ubicación
+- Salida de relé opcional para control remoto de alimentación o combustible cuando está instalada
+- Botón SOS opcional y micrófono opcional para señalización de emergencia y monitoreo de voz
+- Batería de respaldo integrada y notificaciones de corte de alimentación externa para reducir puntos ciegos durante pérdidas de energía
 
-## Cómo funcionan estas funciones con Plaspy
+## Cómo se integran estas funciones con Plaspy
 
-Cuando el TK116 está instalado y registrado en Plaspy, el dispositivo transmite posiciones y eventos para su visualización, alertas y análisis histórico. Plaspy interpreta la telemetría del rastreador y la expone mediante mapas, listas de eventos y motores de reglas para que usted o su equipo puedan actuar sobre los sucesos en tiempo real.
+Plaspy recibe los mensajes de telemetría y eventos del TK116 para mostrar posiciones en tiempo real, recorridos históricos y alertas configurables para los equipos operativos. La plataforma presenta eventos y estados del dispositivo en paneles y notificaciones para que los gerentes puedan actuar rápidamente frente a incidentes y condiciones operativas.
 
-- Las actualizaciones de posición en tiempo real se muestran en los mapas de Plaspy y están disponibles para seguimiento en vivo y reproducción de rutas.
-- El estado ACC se representa en Plaspy para análisis de arranques/paradas y para disparar reglas basadas en el encendido.
-- Las alarmas por choque, vibración y exceso de velocidad generan notificaciones inmediatas y entradas de evento en Plaspy para despacho y revisión.
-- Los eventos de entrada y salida de geocercas se registran y pueden activar alertas o automatizaciones dentro de Plaspy.
-- El control de relé y las acciones remotas tipo inmovilizador pueden coordinarse desde Plaspy cuando el dispositivo cuenta con el relé opcional instalado y configurado.
-- Los eventos de SOS y micrófono se capturan y muestran en Plaspy para que los flujos de emergencia puedan dirigir alertas a despachadores o equipos de respuesta.
+- Las actualizaciones de posición en tiempo real y las trayectorias históricas son visibles en los mapas y reportes de Plaspy
+- El estado ACC se reporta para reglas basadas en ignición, informes de arranque/parada y análisis de utilización
+- Las alarmas por choque, caída y vibración generan alertas inmediatas que pueden derivarse a despacho o a personal móvil
+- Los eventos de geovalla aparecen como alertas de entrada y salida de zona para hacer cumplir límites y activar flujos de trabajo
+- Acciones con relé opcional pueden ejecutarse desde los flujos de trabajo de Plaspy para realizar cortes de alimentación o combustible tipo inmovilizador cuando esté permitido
+- Los eventos de SOS y del micrófono se registran y muestran para que los despachadores atiendan emergencias y, cuando esté autorizado, inicien escucha remota
 
 ## Casos de uso típicos
 
-- Gestión de flotas de autos, vans y camiones ligeros que requieren seguimiento de posición, estado de ignición y alertas de eventos.
-- Seguimiento de motocicletas, donde el tamaño compacto y el bajo peso facilitan la ocultación y seguridad del activo.
-- Flujos antirobo que emplean salida de relé opcional para inmovilización remota al detectarse un evento.
-- Respuesta en seguridad y emergencias usando alarmas por choque y eventos SOS para acelerar la asistencia.
-- Monitorización operativa e informes para reducir tiempos de inactividad y mejorar la utilización de vehículos.
-- Verificación de rutas y revisión de trazas históricas para conciliación de despachos y gestión de reclamos.
+- Gestión de flotas de autos, camionetas y vehículos livianos que requieren seguimiento con conciencia de ignición y reporte de eventos
+- Rastreo de motocicletas donde el factor de forma compacto y el peso reducido facilitan la instalación
+- Flujos de trabajo antirobo que combinan alertas por geovalla y la inmovilización por relé opcional
+- Monitoreo de seguridad y respuesta a emergencias impulsados por eventos de choque y SOS
+- Supervisión operativa para reducir tiempos de inactividad y aplicar políticas basadas en ignición
+- Investigación remota de incidentes mediante trazas históricas y registros de eventos
 
-## Notas sobre disponibilidad de funciones
+## Notas sobre la disponibilidad de funciones
 
-- Capacidades opcionales como relé, botón SOS y micrófono dependen de la variante específica del TK116 y de la configuración de accesorios.
-- Las revisiones de firmware y los ajustes del fabricante pueden modificar umbrales de alarma, formatos de evento y diagnósticos disponibles.
-- El cableado de instalación y la forma en que se conecta ACC o alimentación externa afectan la forma en que se reportan las alertas de encendido y corte de energía.
-- Las variantes regionales y la disponibilidad de la red 2G influyen en la conectividad y el comportamiento de reporte del dispositivo.
-- Confirme siempre la revisión de hardware exacta y la lista de funciones con la documentación de producto y las notas de firmware de EElink.
+- Funciones opcionales como relé, botón SOS y micrófono dependen de la variante de hardware específica y de si fueron instaladas de fábrica o en campo
+- La versión de firmware puede modificar el comportamiento de las alarmas, los intervalos de reporte y las opciones de configuración disponibles
+- El cableado de instalación y la forma en que se conectan ACC y relé influyen en qué entradas y salidas son detectables y controlables
+- La disponibilidad de redes celulares regionales y el servicio 2G pueden afectar la conectividad y deben considerarse en la planificación del despliegue
+- Verifique siempre el conjunto exacto de funciones y procedimientos de configuración contra la documentación del fabricante para la unidad que usted posee
 
 ## Por qué usar Plaspy con estas funciones
 
-Usar el EElink TK116 con Plaspy proporciona a los operadores una vista consolidada de la ubicación, el estado de ignición y las alertas de eventos a lo largo de una flota o activos dispersos. La telemetría y el reporte de eventos combinados del TK116 alimentan los paneles de Plaspy, las trazas históricas y las reglas de notificación para que los equipos puedan supervisar desplazamientos, responder a incidentes e implementar procedimientos sencillos antirobo.
+Emplear el TK116 con Plaspy proporciona a los equipos un conjunto claro de señales de ubicación y eventos que se integran en flujos de trabajo de flota y despacho ya conocidos. Plaspy transforma la ubicación del equipo, el estado de ignición y los eventos de alarma en información accionable mediante mapas, alertas y reportes, ayudando a reducir tiempos de respuesta y a mejorar la visibilidad de los activos.
 
-Obtenga más información sobre cómo Plaspy puede mostrar datos del TK116 y ayudar a automatizar flujos de trabajo de flota en https://www.plaspy.com. Las funciones del dispositivo, el comportamiento del firmware y los detalles del fabricante pueden cambiar con el tiempo, por lo que es recomendable verificar las especificaciones y notas de implementación más recientes del TK116 en el sitio de EElink https://www.eelink.com.cn/.
+Para conocer más sobre cómo Plaspy puede aprovechar el TK116 para seguimiento continuo, alertas e informes operativos visite https://www.plaspy.com. Las funciones del dispositivo, el comportamiento del firmware y la implementación del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las especificaciones y la guía de configuración más recientes con el fabricante en https://www.eelink.com.cn/.

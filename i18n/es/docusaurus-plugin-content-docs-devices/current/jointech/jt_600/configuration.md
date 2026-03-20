@@ -77,30 +77,30 @@ Si utiliza configuración por SMS, incluya el ID del dispositivo en los comandos
 
 ## Ejemplos de comandos de configuración
 
-El JT 600 puede configurarse enviando comandos SMS al dispositivo. Reemplace {{trackerID}} con el IMEI del dispositivo o el ID configurado y sustituya los marcadores de APN por los valores correctos de su operador.
+El JT 600 puede configurarse enviando comandos SMS al dispositivo. Reemplace [trackerID] con el IMEI del dispositivo o el ID configurado y sustituya los marcadores de APN por los valores correctos de su operador.
 
 1. Establecer el servidor GPRS y el APN
 Envíe este SMS al rastreador, reemplazando los marcadores según sea necesario:
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 También puede usar el dominio del servidor en el mismo comando si el dispositivo acepta un nombre de host:
 
 ```
-({{trackerID}},2,S02,129,1,d.plaspy.com,8888,[apn])
+([trackerID],2,S02,129,1,d.plaspy.com,8888,[apn])
 ```
 
 2. (Opcional) Establecer usuario y contraseña del APN
 Si su APN requiere credenciales, envíe este SMS:
 
 ```
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 
 Notas sobre los marcadores
-- {{trackerID}} — Reemplace con el ID del dispositivo o el IMEI según lo requiera el rastreador.
+- [trackerID] — Reemplace con el ID del dispositivo o el IMEI según lo requiera el rastreador.
 - [apn] — Reemplace con el nombre del APN de su operador móvil.
 - [apnu] — Reemplace con el usuario del APN si su operador lo exige.
 - [apnp] — Reemplace con la contraseña del APN si su operador lo exige.

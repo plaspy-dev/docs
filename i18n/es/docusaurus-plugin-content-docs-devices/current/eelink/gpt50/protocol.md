@@ -4,77 +4,77 @@ id: gpt50-protocol
 sidebar_label: Protocol
 title: EElink - GPT50 Protocol
 sidebar_class_name: menu_item_tracker
-description: Guía pública del protocolo EElink GPT50 y compatibilidad con Plaspy
+description: Información pública del protocolo EElink GPT50 y cómo se comunica con Plaspy para el rastreo confiable de flotas y activos
 keywords:
-  - Protocolo EElink GPT50
-  - Protocolo GPS EElink GPT50
-  - EElink GPT50 Plaspy
-  - Protocolo de comunicación EElink GPT50
-  - Protocolo de seguimiento EElink GPT50
-  - Protocolo de rastreador GPS Plaspy
-  - Compatibilidad de dispositivos Plaspy
-  - Integración de rastreadores Plaspy
-  - Seguimiento de flotas EElink GPT50
-  - Protocolo de rastreo de activos
+  - protocolo EElink GPT50
+  - protocolo GPS EElink GPT50
+  - compatibilidad GPT50 Plaspy
+  - protocolo rastreador EElink
+  - protocolo de rastreo GPS
+  - rastreo de activos GPT50
+  - gestión de flotas GPT50
+  - integración de dispositivos Plaspy
+  - documentación protocolo rastreador GPS
+  - protocolo EElink Plaspy
 ---
 
 # EElink - Protocolo GPT50
 
-Esta página describe el contexto público del protocolo para usar el rastreador EElink GPT50 con Plaspy. Se centra en cómo el dispositivo se comunica con Plaspy, qué ajustes de conexión se emplean de forma pública y cómo comprender el comportamiento de reporte del equipo facilita una integración exitosa y un rastreo fiable.
+Esta página describe el contexto público del protocolo para usar el rastreador EElink GPT50 con Plaspy. Se centra en cómo el dispositivo se comunica con Plaspy en términos generales, de modo que integradores, encargados de despliegue y equipos técnicos puedan comprender las expectativas de conexión, el comportamiento de los informes y consideraciones prácticas de compatibilidad sin exponer detalles sensibles de implementación.
 
-Plaspy utiliza ajustes de conexión compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo cuando los equipos están correctamente apuntados al endpoint de Plaspy. El comportamiento exacto del protocolo y la cadencia de mensajes pueden variar según la versión de firmware, la revisión de hardware y la implementación del fabricante; por ello esta página ofrece una visión general no sensible del contexto de comunicación y consideraciones prácticas.
+Plaspy utiliza ajustes de conexión compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando el equipo informa a la plataforma. Para el GPT50, los dispositivos pueden configurarse para enviar datos a Plaspy usando el dominio d.plaspy.com o la IP del servidor 54.85.159.138 en el puerto 8888. El dispositivo puede usar UDP o TCP en el puerto 8888 según su configuración. El comportamiento exacto del protocolo puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que confirme las instrucciones específicas del equipo con EElink cuando sea necesario.
 
 ## Resumen del protocolo
 
-El protocolo del GPT50 define cómo el rastreador informa posiciones GNSS, telemetría como temperatura y estado de batería, y mensajes basados en eventos hacia un servidor remoto. Usado con Plaspy, el protocolo permite que el dispositivo se identifique, transmita datos de ubicación y estado útiles y soporte cambios de modo determinados por la configuración del equipo.
+El protocolo de reporte del GPT50 define cómo el rastreador envía posiciones GNSS, telemetría como batería y temperatura, y flags de eventos a un servidor remoto como Plaspy. A alto nivel, el protocolo coordina la identificación del dispositivo, reportes periódicos o por evento y cargas útiles de telemetría opcionales para que Plaspy pueda ofrecer visibilidad en tiempo real y datos históricos de los activos.
 
-- Permite reportes periódicos y por eventos al servidor de rastreo para visibilidad en tiempo real.
-- Incluye identidad y estado del dispositivo para que Plaspy asocie las actualizaciones al activo correcto.
-- Transmite campos de telemetría necesarios para alertas y paneles, como nivel de batería y temperatura.
-- Soporta múltiples modos de trabajo para equilibrar frecuencia de reporte y consumo energético en despliegues prolongados.
-- Admite configuración remota y actualizaciones de firmware cuando el dispositivo y el operador soportan esas funciones.
+- Permite que el GPT50 se identifique y reporte su estado para que Plaspy asocie los datos con el activo correcto.
+- Transporta fijaciones GNSS y datos de ubicación de respaldo para que Plaspy muestre posiciones precisas en paneles y reportes.
+- Lleva telemetría como nivel de batería, temperatura y triggers de activación para que Plaspy aplique alertas y reglas de negocio.
+- Soporta múltiples modos de reporte para equilibrar consumo de energía y frecuencia de actualización en despliegues de larga duración.
+- Habilita flujos de trabajo de configuración remota y OTA cuando el dispositivo y el firmware del fabricante admiten comandos de gestión.
 
-## Cómo Plaspy detecta el protocolo
+## Cómo detecta Plaspy el protocolo
 
-Plaspy recibe conexiones entrantes en un endpoint común y detecta automáticamente el protocolo del rastreador para dispositivos configurados correctamente. En la práctica esto significa que la mayoría de los usuarios no necesitan seleccionar un protocolo dentro de Plaspy siempre que el GPT50 esté configurado para reportar al endpoint de Plaspy usando el transporte compatible.
+Plaspy recibe conexiones entrantes en un endpoint y puerto compartidos y usa ese punto único de entrada para determinar automáticamente el protocolo del rastreador. En la mayoría de los casos, un GPT50 configurado correctamente que reporte al endpoint de Plaspy será reconocido sin necesidad de seleccionar manualmente el protocolo dentro de la plataforma Plaspy.
 
-- Plaspy detecta automáticamente el protocolo cuando el dispositivo reporta al endpoint de Plaspy.
-- Normalmente usted solo debe apuntar los equipos al servidor Plaspy y no es necesario elegir manualmente un protocolo en la plataforma.
-- El reporte correcto del dispositivo y los identificadores precisos son esenciales para que la detección automática funcione de manera fiable.
-- La detección se basa en la conexión entrante al endpoint compartido de Plaspy y no en la selección manual de protocolo.
-- Si los reportes del dispositivo no están llegando a Plaspy, lo primero es verificar el enrutamiento de red, la configuración del APN y los ajustes del servidor en el equipo.
+- Plaspy escucha reportes de dispositivos en d.plaspy.com y 54.85.159.138 en el puerto 8888.
+- Todos los dispositivos que se conectan a Plaspy usan el mismo puerto, lo que simplifica el aprovisionamiento.
+- Los dispositivos pueden usar transporte UDP o TCP según la configuración del equipo y las condiciones de red.
+- Cuando un GPT50 reporta al endpoint de Plaspy, la plataforma detectará el protocolo y asociará los datos entrantes con el registro de dispositivo correspondiente.
+- Normalmente, usted solo necesita apuntar el dispositivo al endpoint de Plaspy y confirmar la configuración de transporte en el equipo.
 
 ## Transporte y contexto de conexión
 
-El GPT50 puede configurarse para usar UDP o TCP en el puerto 8888 según el soporte del dispositivo y las decisiones de configuración. Plaspy expone un único endpoint compartido que usan todos los dispositivos compatibles para simplificar el aprovisionamiento y la conectividad.
+Las elecciones de conexión y el comportamiento del transporte afectan cómo el GPT50 se comunica con Plaspy, pero no cambian el papel general del protocolo. El GPT50 admite conectividad celular y puede configurarse para reportar por UDP o TCP al endpoint de Plaspy, lo que resulta útil para adaptarse a distintos entornos de red y comportamiento de los carriers.
 
-- El dominio del servidor Plaspy para reportes de dispositivos es d.plaspy.com.
-- La dirección IP del servidor Plaspy es 54.85.159.138 y el puerto es 8888.
-- El dispositivo puede configurarse con UDP o TCP en el puerto 8888 según el firmware y las preferencias del operador.
-- Todos los dispositivos en Plaspy usan el mismo puerto para facilitar el aprovisionamiento a nivel de flota y la configuración de cortafuegos.
-- Verifique que el APN del operador y las políticas de firewall saliente permitan conexiones al endpoint de Plaspy en el transporte seleccionado.
+- Los dispositivos pueden configurarse para enviar datos a d.plaspy.com o a la IP del servidor 54.85.159.138.
+- El puerto común de escucha de Plaspy para todos los dispositivos es 8888 y los dispositivos que implementan ambos transportes admiten UDP y TCP.
+- UDP se suele usar para reportes periódicos con bajo overhead, mientras que TCP puede emplearse para transferencias orientadas a sesión y más confiables cuando está soportado.
+- Las condiciones de red, NAT del carrier y la configuración APN del módem celular pueden afectar la conectividad y deben validarse durante el despliegue.
+- Asegúrese de que el APN y los ajustes de servidor del dispositivo estén apuntando al endpoint de Plaspy y confirme que el modo de transporte coincide con los requisitos del despliegue.
 
 ## Notas de compatibilidad del protocolo
 
-- Las versiones de firmware pueden modificar la sincronización de mensajes y los campos de telemetría disponibles, por lo que valide en campo con la versión específica del dispositivo.
-- Revisiones de hardware o variantes regionales pueden diferir en el transporte soportado u sensores opcionales.
-- Ajustes del fabricante y opciones de configuración remota pueden afectar qué datos reporta el dispositivo y cuándo lo hace.
-- La elección entre UDP y TCP puede influir en la fiabilidad y las características de entrega en distintas redes.
-- Confirme que los ajustes del servidor de reporte del dispositivo estén apuntando a d.plaspy.com o 54.85.159.138 y puerto 8888 para integración con Plaspy.
-- Siempre contraste la capacidad y la guía de configuración del dispositivo con la documentación oficial del fabricante.
+- Las variaciones de firmware entre lanzamientos del GPT50 pueden modificar intervalos de reporte, campos de telemetría disponibles y funciones de gestión.
+- Las revisiones de hardware o variantes regionales del dispositivo pueden diferir en bandas celulares soportadas, comportamiento de fallback u opciones de sensores.
+- Algunas funciones como OTA, telemetría avanzada o reportes activados por sensores dependen del firmware del fabricante y pueden requerir configuraciones específicas.
+- La selección de transporte (UDP versus TCP) puede verse limitada por las redes de los carriers o por opciones en los menús de configuración del dispositivo.
+- Siempre valide un dispositivo de muestra con Plaspy en las condiciones de red y ambiente esperadas antes de un despliegue a gran escala.
+- Consulte la documentación oficial de EElink para conjuntos de comandos específicos de firmware u opciones avanzadas de configuración.
 
-## Por qué es importante entender el protocolo
+## Por qué es importante comprender el protocolo
 
-Comprender cómo el GPT50 se comunica con Plaspy ayuda a garantizar reportes fiables, uso eficiente de la batería y telemetría precisa para los flujos operativos. Conocer el contexto de conexión y las variaciones comunes reduce el tiempo de resolución de problemas y facilita despliegues consistentes en múltiples activos.
+Entender cómo se comunica el GPT50 ayuda a garantizar una configuración fiable, facilitar la resolución de problemas y mantener una operación resiliente a largo plazo cuando se usa con Plaspy. Conocer el contexto del protocolo reduce sorpresas en el despliegue y permite una coordinación eficiente entre la configuración del dispositivo, la red y el comportamiento de ingestión de Plaspy.
 
-- Configuración más rápida al confirmar que el dispositivo apunta al endpoint y puerto correctos de Plaspy.
-- Resolución de problemas más efectiva cuando los mensajes no aparecen en los paneles de Plaspy.
-- Mejor gestión de energía al ajustar intervalos de reporte y modos de trabajo según las necesidades operativas.
-- Expectativas claras sobre qué campos de telemetría estarán disponibles para alertas y reportes históricos.
-- Escalado más sencillo en flotas al estandarizar la configuración del dispositivo y los ajustes de transporte.
+- Acelera la puesta en marcha al asegurar que se apliquen correctamente servidor, transporte y ajustes APN en el dispositivo.
+- Aclara cómo los modos de reporte y los triggers de activación afectan la vida útil de la batería y la frecuencia de actualizaciones.
+- Facilita el diagnóstico de problemas de conectividad revisando modo de transporte, dirección del servidor y comportamiento del carrier.
+- Apoya la planificación de actualizaciones OTA y de configuración al alinear las capacidades del firmware del dispositivo con las expectativas de gestión de Plaspy.
+- Mejora la monitorización operativa al saber qué campos de telemetría esperar y dónde ver las alertas en Plaspy.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el GPT50 con Plaspy proporciona a las organizaciones hardware resistente junto con una plataforma capaz de ingerir posiciones GNSS y telemetría para rastreo en tiempo real, geocercas y monitoreo operativo. El diseño de larga espera del GPT50, su soporte multi GNSS y métodos de posicionamiento de respaldo complementan bien los flujos de trabajo de Plaspy para visibilidad persistente de activos y gestión centralizada de dispositivos.
+El GPT50 está diseñado para despliegues de activos de larga duración y, al combinarse con Plaspy, ofrece una solución robusta para visibilidad remota, alertas por geocercas y flujos de trabajo basados en telemetría. Plaspy ingiere los datos de ubicación y sensores del GPT50 para que los equipos puedan supervisar flotas, activar alertas y analizar rutas históricas con menor carga operativa.
 
-Para saber más sobre Plaspy y las integraciones soportadas visite https://www.plaspy.com. Para detalles más actualizados sobre protocolos específicos del dispositivo, notas de firmware y guía de implementación, verifique la información con el fabricante en https://www.eelink.com.cn/ ya que el soporte del protocolo y el comportamiento del firmware pueden cambiar con el tiempo.
+Para conocer más sobre Plaspy y cómo se integra con dispositivos como el EElink GPT50 visite https://www.plaspy.com. Para obtener los detalles más actuales sobre el protocolo específico del dispositivo, notas de firmware y orientación de implementación consulte la documentación del fabricante en https://www.eelink.com.cn/ ya que el comportamiento del dispositivo y el soporte de protocolo pueden cambiar con el tiempo.

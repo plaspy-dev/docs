@@ -79,12 +79,12 @@ El MXT-141 puede configurarse enviando un comando por lotes vía SMS al equipo. 
 - Comando público por SMS (ejemplo del fabricante):
 
 ```
-0000,{{trackerID}},2,0,[apn],[apnu],[apnp],54.85.159.138,8888,,.
+0000,[trackerID],2,0,[apn],[apnu],[apnp],54.85.159.138,8888,,.
 ```
 
 Notas sobre el comando:
 - 0000 es la contraseña del dispositivo en el ejemplo público. Es la contraseña por defecto que muestra la muestra del fabricante.
-- {{trackerID}} es un marcador que debe reemplazar con el ID del dispositivo asignado a su rastreador.
+- [trackerID] es un marcador que debe reemplazar con el ID del dispositivo asignado a su rastreador.
 - [apn], [apnu] y [apnp] son marcadores para APN, usuario del APN y contraseña del APN respectivamente; complete estos valores con los requeridos por el operador móvil si es necesario.
 - El comando contiene la IP del servidor Plaspy 54.85.159.138 y el puerto 8888 según el ejemplo público de configuración.
 - Si su método de instalación acepta un nombre de dominio, puede sustituir d.plaspy.com por la IP cuando corresponda; confirme con la documentación del dispositivo si el rastreador acepta nombres de dominio en la configuración por SMS.

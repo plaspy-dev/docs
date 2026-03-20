@@ -80,20 +80,20 @@ El ejemplo del fabricante del Gator M508 usa comandos SMS para establecer el ser
 
 1) Plantilla cuando se requiere usuario y contraseña del APN
 ```
-SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*[DeviceID]*,*[phoneNumberUser]*,*123456*
 ```
 
 2) Plantilla cuando solo se requiere el APN
 ```
-S,*[apn]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+S,*[apn]*,*54.85.159.138*,*8888*,*[DeviceID]*,*[phoneNumberUser]*,*123456*
 ```
 
 Notas sobre marcadores
 - [apn] — nombre del APN de su tarjeta SIM.  
 - [apnu] — usuario del APN si su operador lo requiere.  
 - [apnp] — contraseña del APN si su operador lo requiere.  
-- {{DeviceID}} — identificador del rastreador, comúnmente el IMEI.  
-- {{phoneNumberUser}} — número de teléfono que se asociará para alertas o SMS de administrador.  
+- [DeviceID] — identificador del rastreador, comúnmente el IMEI.  
+- [phoneNumberUser] — número de teléfono que se asociará para alertas o SMS de administrador.  
 - 123456 — contraseña de dispositivo de ejemplo mostrada en la plantilla del fabricante. Reemplace por la contraseña en uso si es distinta.
 
 Envíe el SMS correspondiente desde un número autorizado al M508. Después de enviarlo, permita tiempo para que el dispositivo se registre en la red y para que Plaspy detecte la conexión entrante.

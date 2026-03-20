@@ -75,18 +75,18 @@ When configured, the IDD-213N sends its telemetry and diagnostic packets to the 
 
 The IDD-213N supports SMS based configuration. The following public SMS command templates are provided by Castel for setting GPRS/APN and server details and for verifying the settings.
 
-Note: The default SMS secret key is the last 6 ASCII characters of the device ID. Replace {{SecretKey}} with that value. Replace [apn], [apnu], and [apnp] with your mobile operator APN, APN username, and APN password as required. The commands below include the Plaspy IP and port as provided.
+Note: The default SMS secret key is the last 6 ASCII characters of the device ID. Replace [SecretKey] with that value. Replace [apn], [apnu], and [apnp] with your mobile operator APN, APN username, and APN password as required. The commands below include the Plaspy IP and port as provided.
 
 - Set APN settings and server (example SMS template):
 
 ```
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Verify current GPRS settings (example SMS template):
 
 ```
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 If your installation uses domain names instead of direct IP addresses, you can substitute d.plaspy.com in the APN/server field where the device accepts a domain name. Always preserve the format required by the device when composing SMS commands.

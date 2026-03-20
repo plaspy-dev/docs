@@ -79,23 +79,23 @@ The LT-520P is designed to deliver periodic telemetry to Plaspy so locations and
 The manufacturer has published example SMS-style commands for server configuration. These commands use placeholders and a checksum. Preserve and replace placeholders before sending.
 
 - Placeholders:
-  - {{imei}} — device IMEI number
+  - [imei] — device IMEI number
   - [apn] — APN name for the SIM network
   - [apnu] — APN username if required
   - [apnp] — APN password if required
-  - {{checksum}} and {{checksumreeboot}} — two digit hexadecimal XOR checksum computed over the command text before the asterisk
+  - [checksum] and [checksumreeboot] — two digit hexadecimal XOR checksum computed over the command text before the asterisk
 
 Setup command (replace placeholders and calculate checksum):
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Reboot command (optional, use when a restart is required to apply settings):
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
-Checksum calculation (summary): compute an XOR checksum over every character from the start of the command up to but not including the '*' character, then format the result as two uppercase hexadecimal characters. The manufacturer example includes a simple XOR-to-hex routine used in their interface to produce the {{checksum}} values.
+Checksum calculation (summary): compute an XOR checksum over every character from the start of the command up to but not including the '*' character, then format the result as two uppercase hexadecimal characters. The manufacturer example includes a simple XOR-to-hex routine used in their interface to produce the [checksum] values.
 
 Note: the example uses the numeric Plaspy IP (E0=54.85.159.138) and the port (E1=8888). You may see device interfaces that accept the domain d.plaspy.com instead; follow the manufacturer tool guidance for supported formats.
 

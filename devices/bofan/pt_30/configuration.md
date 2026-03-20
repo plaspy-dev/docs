@@ -81,7 +81,7 @@ The PT-30 supports SMS based configuration. The manufacturer provides the follow
 000000DFT
 ```
 
-- Set a 14 digit identifier used with Plaspy. The identifier is typically the last 14 digits of the IMEI. Replace \\<14-digit-id> with the actual 14 digit value.
+- Set a 14 digit identifier used with Plaspy. The identifier is typically the last 14 digits of the IMEI. Replace \<14-digit-id> with the actual 14 digit value.
 ```text
 000000GID<14-digit-id>
 ```

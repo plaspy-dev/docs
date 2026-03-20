@@ -79,12 +79,12 @@ The MXT-141 can be configured by sending an SMS batch command to the device. The
 - The public SMS batch command example (as provided by the manufacturer):
 
 ```
-0000,{{trackerID}},2,0,[apn],[apnu],[apnp],54.85.159.138,8888,,.
+0000,[trackerID],2,0,[apn],[apnu],[apnp],54.85.159.138,8888,,.
 ```
 
 Notes about the command:
 - 0000 is the device password in the public example. This is the default password shown in the manufacturer sample.
-- {{trackerID}} is a placeholder you must replace with the device ID assigned to your tracker.
+- [trackerID] is a placeholder you must replace with the device ID assigned to your tracker.
 - [apn], [apnu], and [apnp] are placeholders for APN, APN username, and APN password respectively; fill these with values required by the mobile operator if needed.
 - The command contains the Plaspy server IP 54.85.159.138 and the port 8888 as provided in the public configuration example.
 - If your installation method accepts a domain name, you may substitute d.plaspy.com for the IP when appropriate; confirm with the device documentation whether the tracker accepts domain names in SMS configuration.

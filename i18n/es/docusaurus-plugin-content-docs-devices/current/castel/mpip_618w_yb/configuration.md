@@ -78,11 +78,11 @@ El MPIP-618W-YB admite configuración por SMS según las instrucciones públicas
 - Establecer APN GPRS y apuntar el tracker a la IP y puerto del servidor Plaspy
 
 ```
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 Explicación:
-- {{SecretKey}} — Clave secreta SMS para comandos. Por defecto son los últimos 6 caracteres ASCII del ID del dispositivo a menos que se haya cambiado.
+- [SecretKey] — Clave secreta SMS para comandos. Por defecto son los últimos 6 caracteres ASCII del ID del dispositivo a menos que se haya cambiado.
 - [apn] — Nombre del APN para el operador de la SIM.
 - [apnu] — Usuario del APN si el operador lo requiere; dejar vacío si no es necesario.
 - [apnp] — Contraseña del APN si el operador la requiere; dejar vacío si no es necesaria.
@@ -91,7 +91,7 @@ Explicación:
 - Consultar la configuración GPRS actual para verificar
 
 ```
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Envíe el SMS anterior desde un número autorizado al dispositivo para recibir los parámetros GPRS configurados. Si el dispositivo devuelve el servidor y puerto configurados, confirme que los valores coinciden con 54.85.159.138 y 8888 (o que d.plaspy.com se resuelva al mismo endpoint en su entorno).

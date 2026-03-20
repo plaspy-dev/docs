@@ -78,7 +78,7 @@ Los comandos públicos del ST 910 pueden enviarse como mensajes SMS al equipo. E
 
 1. Comando opcional de reinicio a configuración de fábrica (usar sólo si necesita restablecer la configuración):
 ```
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
 Etiqueta: Reinicio inicial opcional para borrar configuraciones previas.
 
@@ -86,25 +86,25 @@ Etiqueta: Reinicio inicial opcional para borrar configuraciones previas.
 - El cuarto parámetro después del id del dispositivo es una bandera de APN: use 1 si provee usuario o contraseña de APN, de lo contrario use 0.
 - Reemplace los marcadores [apn], [apnu], [apnp] con el APN del operador, usuario APN y contraseña APN según corresponda.
 ```
-ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 Si no tiene usuario ni contraseña de APN, ajuste la bandera de APN a 0:
 ```
-ST300NTW;{{device_id}};02;0;[apn];;;54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;0;[apn];;;54.85.159.138;8888;;;;
 ```
 
 3. Establecer intervalo de reporte a 60 segundos (ejemplo)
 ```
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 4. Comando de verificación para comprobar la configuración actual predeterminada
 ```
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 
 Notas sobre los marcadores:
-- {{device_id}} — el id de 9 dígitos derivado del IMEI (dígitos 6 a 14 del IMEI completo).
+- [device_id] — el id de 9 dígitos derivado del IMEI (dígitos 6 a 14 del IMEI completo).
 - [apn] — cadena APN del operador.
 - [apnu] — marcador para el usuario APN.
 - [apnp] — marcador para la contraseña APN.

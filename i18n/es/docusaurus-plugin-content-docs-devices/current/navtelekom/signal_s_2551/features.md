@@ -4,78 +4,78 @@ id: signal_s_2551-features
 sidebar_label: Features
 title: Navtelekom - SIGNAL S-2551 Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de funciones del Navtelekom SIGNAL S-2551 y su uso con Plaspy para telemetría y seguimiento de flotas
+description: Resumen público de las capacidades del rastreador Navtelekom SIGNAL S-2551 y su compatibilidad con Plaspy para flotas y telemetría
 keywords:
-  - Navtelekom SIGNAL S-2551 características
-  - Navtelekom SIGNAL S-2551 rastreador GPS
-  - SIGNAL S-2551 compatibilidad con Plaspy
-  - Navtelekom funciones de rastreo de vehículos
-  - SIGNAL S-2551 capacidades de telemetría
-  - Navtelekom rastreador CAN J1939
-  - SIGNAL S-2551 detección de colisiones
-  - Navtelekom rastreador doble SIM
-  - SIGNAL S-2551 interfaces E/S
-  - Navtelekom rastreador para gestión de flotas
+  - Navtelekom SIGNAL S-2551
+  - características SIGNAL S-2551
+  - rastreador GPS Navtelekom
+  - SIGNAL S-2551 Plaspy
+  - funciones rastreador de vehículos
+  - dispositivo de seguimiento de flotas
+  - protocolo EGTS FLEX
+  - telemetría CAN J1939
+  - registro a bordo microSD
+  - acelerómetro detección de choques
 ---
 
 # Navtelekom - Características del SIGNAL S-2551
 
-Esta página ofrece un resumen público de las funciones del Navtelekom SIGNAL S-2551 y explica cómo se utiliza con Plaspy para el rastreo de vehículos, la telemetría y la supervisión operativa. El enfoque está en información práctica y no sensible sobre las capacidades del dispositivo y en cómo esas capacidades se traducen en valor dentro de la plataforma Plaspy.
+Esta página ofrece una visión pública y enfocada en las funcionalidades del Navtelekom SIGNAL S-2551 y cómo sus capacidades se integran con Plaspy para el seguimiento de vehículos y la telemetría de flotas. Está pensada para ayudar a operadores de flotas, integradores y administradores de sistemas a entender las funciones prácticas que el equipo puede aportar cuando reporta datos a Plaspy.
 
-La disponibilidad exacta y el comportamiento de las funciones pueden variar según la versión de firmware, la revisión de hardware, los módulos opcionales, el método de instalación y la implementación del fabricante. Para detalles técnicos específicos del dispositivo, historial de firmware y notas de compatibilidad más recientes, consulte la documentación y las notas de lanzamiento del fabricante.
+La disponibilidad exacta de funciones y su comportamiento pueden variar según la versión de firmware, la revisión del hardware, los módulos opcionales instalados, las elecciones de instalación y la implementación del fabricante. Use esta guía como referencia de compatibilidad y capacidades y consulte la documentación oficial del fabricante para detalles técnicos específicos del dispositivo.
 
 ## Resumen de características
 
-El SIGNAL S-2551 está orientado a proyectos telemáticos profesionales que requieren seguimiento GNSS fiable, comunicaciones celulares resilientes e integración flexible con vehículos. Ofrece una combinación de posicionamiento, entradas de sensores y bus de vehículo, registro local y funciones de robustez que lo hacen adecuado para la monitorización de flotas y activos con Plaspy.
+El SIGNAL S-2551 es un rastreador vehicular GLONASS/GPS robusto, diseñado para telemática profesional y gestión de flotas. Combina soporte de telemetría a múltiples servidores, comunicaciones flexibles y una amplia gama de interfaces E/S para entregar posición, datos del bus del vehículo y telemetría de sensores a plataformas de monitoreo como Plaspy.
 
-- Seguimiento y reporte de telemetría en tiempo real con GLONASS/GPS para visibilidad de la ubicación y movimiento de los vehículos.
-- Comunicación celular con doble SIM y soporte para protocolos telemáticos habituales para una entrega de datos más robusta.
-- Amplias interfaces I/O y de bus de vehículo, incluyendo CAN J1939, RS‑232, RS‑485 y 1‑Wire para integrar diagnóstico y sensores del vehículo.
-- Acelerómetro integrado para detección de choques e impactos, además de análisis EcoDriving para informes de seguridad y comportamiento.
-- Registro interno con microSD opcional para archivo local extendido y posterior subida o reproducción.
-- Batería de respaldo Li Po integrada y manejo de alimentación con especificaciones de grado vehicular para mantener la operación ante interrupciones de energía.
+- Reporte confiable de posición GNSS con soporte para antena externa, mejorando la recepción en instalaciones vehiculares
+- Comunicaciones celulares con Dual SIM y soporte para protocolos telemáticos comunes, incluyendo EGTS y la familia de protocolos FLEX
+- Amplio conjunto de entradas y salidas para integrar sensores y lógica de control: entradas analógicas, discreta y de frecuencia, además de salidas configurables
+- Registro a bordo y expansión opcional con microSD para archivo local y análisis posterior a eventos
+- Batería de respaldo Li Po integrada y manejo de alimentación de grado vehicular para operación continua durante ciclos del motor y cortes breves de energía
+- Detección de choques e impactos y analítica EcoDriving para apoyar la seguridad y la supervisión operativa
 
-## Características principales
+## Funciones principales del Navtelekom - SIGNAL S-2551
 
-- Compatible con Plaspy desde el primer momento para una integración sencilla con flujos de trabajo de monitorización y telemática de flotas.
-- Posicionamiento GLONASS y GPS para un seguimiento satelital fiable.
-- Módem celular con doble SIM y soporte para protocolos EGTS y FLEX/FLEX 2.0, además de modos de transporte TCP/UDP comunes.
-- Conjunto I/O extenso que incluye RS‑232, RS‑485, CAN J1939, 1‑Wire, múltiples entradas analógicas y discretas, y salidas de control configurables.
-- Acelerómetro integrado para detección de choques y registro de eventos relacionados.
-- Almacenamiento local con gran capacidad de registros internos y soporte opcional de tarjeta microSD para logging prolongado.
-- Diseño de alimentación orientado a vehículos con batería de respaldo Li Po, amplio rango de tensión de entrada y protección contra transitorios.
-- Soporte para antena externa, acceso de configuración por USB y opciones de gestión remota del dispositivo.
+- Transporte celular Dual SIM con soporte de protocolos telemáticos estándar EGTS y FLEX / FLEX 2.0 para entrega de datos confiable
+- Amplias interfaces que incluyen RS-232, RS-485, CAN J1939 y 1 Wire para integración con el vehículo y conectividad de sensores
+- Varias entradas analógicas y discretas, entradas de frecuencia y salidas de control configurables para alarmas y control remoto
+- Capacidad de registro interna no volátil con soporte opcional para tarjeta microSD que amplía el almacenamiento local
+- Acelerómetro integrado con detección de choques e impactos y capacidades de registro de perfiles de accidente
+- Batería de respaldo Li Po integrada para operación autónoma cuando se interrumpe la alimentación principal
+- Soporte para antena GNSS y GSM externas y acceso local por USB para configuración por parte de instaladores e integradores
+- Opciones de gestión remota, incluyendo actualizaciones de firmware y de parámetros vía canales celulares
 
 ## Cómo funcionan estas funciones con Plaspy
 
-Cuando se usa con Plaspy, el SIGNAL S-2551 transmite posición y telemetría a la plataforma, donde pasan a ser visibles para los operadores y las reglas automáticas. Plaspy ingiere los mensajes del dispositivo y presenta ubicación, estados de entradas y eventos relevantes para la supervisión en tiempo real y el análisis histórico.
+Al integrarse con Plaspy, el SIGNAL S-2551 envía posición GNSS y telemetría a la plataforma, donde esos datos se procesan para monitoreo en tiempo real, historial y alertas. Plaspy incorpora la ubicación reportada, los estados de E/S y los datos del bus vehicular compatibles para que los equipos puedan supervisar el estado de la flota y reaccionar ante eventos.
 
-- Las posiciones GNSS en tiempo real se muestran en los mapas de Plaspy y están disponibles para la supervisión de rutas e historial de movimientos.
-- La telemetría de I/O y sensores procedente de entradas analógicas, discretas y del bus del vehículo se presenta como canales de telemetría para diagnóstico y monitoreo de condiciones.
-- Los eventos de choque e impacto reportados por el acelerómetro pueden mostrarse como sucesos y emplearse para activar alertas o flujos de trabajo.
-- Los registros locales y las grabaciones en microSD pueden conciliarse con datos del servidor para revisiones posteriores a incidentes y reproducción histórica en Plaspy.
-- La doble SIM y el comportamiento multi servidor mejoran la continuidad y la redundancia en la entrega de datos a la plataforma.
-- Plaspy detecta e interpreta automáticamente muchos protocolos comunes de rastreadores, por lo que los mensajes del dispositivo aparecen sin necesidad de decodificación manual compleja.
+- Posición en tiempo real y historial de movimiento visibles en Plaspy para seguimiento y revisión de rutas
+- Canales de telemetría como entradas discretas y analógicas, entradas de frecuencia y datos CAN J1939 reflejados en el estado del dispositivo y en los paneles
+- Eventos de choque e impacto reportados por el acelerómetro integrado que pueden disparar alertas y registros de eventos en Plaspy
+- Registros locales y archivos microSD disponibles para análisis posterior a incidentes e importación de datos históricos
+- Flujos de trabajo de inmovilización e identificación de conductor soportados mediante las E/S del dispositivo y la interfaz 1 Wire cuando estén configurados
+- El soporte para entrega de telemetría a múltiples servidores permite reportes redundantes e integración de Plaspy junto con otros sistemas de backend
 
 ## Casos de uso típicos
 
-- Gestión de flotas con seguimiento en tiempo real, supervisión de rutas y análisis histórico de viajes.
-- Flujos de trabajo anti robo e inmovilización mediante identificación de conductor y modos de alarma configurables.
-- Diagnóstico remoto y mantenimiento preventivo recogiendo telemetría del bus del vehículo y de sensores.
-- Detección de accidentes e investigación de incidentes usando registros de eventos del acelerómetro y perfiles grabados.
-- Instalaciones de activos que requieren registro local y sincronización posterior en escenarios de conectividad intermitente.
-- Proyectos de integración donde se necesitan antenas externas, configuración por USB o módulos opcionales para instalaciones a medida.
+- Seguimiento en tiempo real y monitoreo de rutas para flotas de reparto, logística y servicios
+- Flujos anti robo e inmovilización mediante identificación de conductor y salidas de alarma configurables
+- Telemetría vehicular y diagnóstico remoto con integración CAN J1939 para parámetros del motor y operativos
+- Seguridad y respuesta a incidentes usando detección de choques basada en acelerómetro y registro de eventos
+- Archivo de datos y trazabilidad mediante almacenamiento interno y registro opcional en microSD
+- Despliegues de integradores que requieren E/S flexibles y opciones de antena externa para instalaciones a medida
 
 ## Notas sobre disponibilidad de funciones
 
-- Las versiones de firmware y las revisiones de hardware pueden habilitar o limitar funciones específicas; verifique las notas de firmware del dispositivo para conocer diferencias.
-- Módulos opcionales como microSD, Bluetooth u otros accesorios pueden ofrecerse por separado y afectar la capacidad total.
-- Las decisiones de instalación, incluyendo cableado, ubicación de la antena o conexiones de sensores externos influyen en la calidad de la señal y en la telemetría disponible.
-- El rango de bandas celulares y las variantes certificadas pueden diferir según la región; confirme la variante del modelo utilizada en su mercado.
-- La documentación del fabricante proporciona los detalles autorizados sobre protocolos, interfaces y límites soportados.
+- La presencia de funciones y su comportamiento exacto pueden diferir según la versión de firmware, la revisión del dispositivo y los módulos de hardware opcionales
+- Algunas interfaces y funciones, como módulos Bluetooth o de audio, son opcionales y solo están presentes en unidades equipadas con esas opciones
+- Las decisiones de instalación, incluida la ubicación de antenas, el cableado de alimentación y las conexiones de sensores, afectan la calidad de la señal y la fiabilidad de la telemetría
+- Las bandas celulares regionales y variantes regulatorias pueden afectar las opciones de conectividad y deben verificarse con la documentación del fabricante
+- Confirme los subconjuntos de protocolos soportados y los mapeos de campos de telemetría en el manual del dispositivo o en las notas de la versión de firmware antes de un despliegue a gran escala
 
 ## Por qué usar Plaspy con estas funciones
 
-Usar el SIGNAL S-2551 con Plaspy ofrece a las organizaciones una vía práctica para consolidar la ubicación del vehículo, el diagnóstico del bus y las alertas basadas en eventos en una única vista operativa. Plaspy ayuda a convertir la telemetría y los datos de eventos del dispositivo en supervisión accionable, reportes y notificaciones basadas en reglas que respaldan las operaciones diarias de la flota y la respuesta ante incidentes.
+Combinar el Navtelekom SIGNAL S-2551 con Plaspy ofrece a las organizaciones una vía práctica para unir hardware de grado vehicular con una plataforma de monitoreo que presenta ubicación, telemetría y datos de eventos en paneles, informes y alertas. La amplia gama de E/S y el soporte del bus vehicular permiten a los integradores capturar señales operativas de alto valor, mientras Plaspy proporciona visibilidad centralizada y contexto histórico.
 
-Para más información sobre cómo Plaspy puede trabajar con dispositivos Navtelekom visite https://www.plaspy.com. Para las especificaciones del dispositivo, actualizaciones de firmware y orientación del fabricante confirme los detalles en el sitio oficial de Navtelekom https://www.navtelecom.ru/. Las funciones del dispositivo, el comportamiento del firmware y la implementación del fabricante pueden cambiar con el tiempo, por lo que se recomienda verificar la información actual con el fabricante.
+Learn more about Plaspy and how compatible trackers like the SIGNAL S-2551 can be used in your fleet on https://www.plaspy.com. For the latest device specifications, firmware behavior and manufacturer details verify current information on the official Navtelekom site https://www.navtelecom.ru/

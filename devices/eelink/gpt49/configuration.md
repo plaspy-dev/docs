@@ -4,127 +4,134 @@ id: gpt49-configuration
 sidebar_label: Configuration
 title: EElink - GPT49 Configuration
 sidebar_class_name: menu_item_tracker
-description: Public configuration guide for EElink GPT49 showing how to point the device to Plaspy server settings and validate connectivity
+description: Public configuration guide for EElink GPT49 GPS tracker setup and Plaspy server settings including SMS commands and verification steps
 keywords:
   - EElink GPT49 configuration
   - EElink GPT49 setup
-  - GPT49 server configuration
-  - GPT49 Plaspy setup
-  - EElink GPS tracker configuration
-  - GPT49 SMS configuration
-  - GPS platform setup Plaspy
-  - asset tracker configuration guide
-  - long battery GPS tracker setup
-  - enterprise asset tracking configuration
+  - GPT49 Plaspy configuration
+  - Plaspy GPS tracker configuration
+  - GPT49 SMS setup
+  - GPT49 APN setup
+  - GPS asset tracker configuration
+  - fleet tracking GPT49
+  - EElink asset tracker
+  - GPS tracker server settings
 ---
 
 # EElink - GPT49 Configuration
 
-This page describes the public configuration context for using the EElink GPT49 tracker with the Plaspy platform. It gathers the essential server settings and practical setup guidance you can apply when preparing GPT49 trackers to report location and device events to Plaspy.
+This page documents the public configuration context for using the EElink GPT49 with Plaspy. It explains the practical server settings, the common SMS commands published for the GPT49, and the steps typically required to prepare the device so Plaspy can receive position and event data. Use this as a deployment reference alongside the official EElink documentation.
 
-Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol, while exact manufacturer side setup steps can vary by firmware version, hardware revision, installation type, and vendor tools. Where available this guide includes the GPT49 SMS configuration commands that are commonly used for initial setup and verification.
+Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol, while manufacturer-side setup steps can vary by firmware, hardware revision, installation type, and vendor tools. The examples below reflect public GPT49 SMS commands and Plaspy server values so you can configure and verify connectivity before adding the device to Plaspy.
 
 ## Configuration Overview
 
-The goal of this configuration process is to prepare a GPT49 so it reliably communicates with Plaspy using the shared Plaspy server endpoint and port. Configuration typically sets the device time zone, APN for cellular data, and the GPRS server address and transport, then validates reporting with a parameter check and live monitoring on Plaspy.
+This section outlines the practical goal of configuring a GPT49 for use with Plaspy: ensure the tracker can connect to Plaspy's server endpoint, authenticate on the mobile network, and report location and event packets at the expected interval.
 
-- Point the tracker to the Plaspy server endpoint so packets reach Plaspy for ingestion and display.
-- Configure the device APN and cellular parameters so GPRS data can be sent from the tracker.
-- Select UDP or TCP transport if the device requires a transport choice and set the shared Plaspy port.
-- Enable an appropriate reporting interval such as a periodic timer or emergency real time mode for movement events.
-- Validate settings on the device with a parameter query and confirm the device appears in Plaspy.
+- Configure the device APN so it can open a GPRS/LTE data session to the carrier network.
+- Point the device to Plaspy using the provided server domain or IP and the shared port.
+- Select TCP or UDP transport as required by the device or network and save the setting.
+- Set the reporting interval (for example a TIMER interval) and verify with the device PARAM command.
+- Validate the device reaches the Plaspy endpoint and appears in the Plaspy platform.
+- Keep manufacturer documentation handy for firmware specific command variants.
 
 ## Plaspy Server Settings
 
-- server domain d.plaspy.com  
-- server IP 54.85.159.138  
-- port 8888  
-- transport support for UDP or TCP  
-- automatic protocol detection in Plaspy  
+- Server domain d.plaspy.com
+- Server IP 54.85.159.138
+- Port 8888
+- Transport support for UDP or TCP on port 8888
+- Plaspy automatically detects the tracker protocol
 
-Plaspy uses the same port for all supported devices and will automatically detect the tracker protocol when the device sends data to the server endpoint.
+Note: All devices in Plaspy use the same port. Use either the domain or the IP form when configuring the GPT49 as preferred.
 
 ## Typical Requirements Before Setup
 
-- A charged GPT49 device with sufficient battery for configuration and testing.  
-- An active SIM card with data service and SMS capability installed in the device.  
-- Access to the EElink manufacturer documentation or installer tool for the GPT49.  
-- A method to send SMS commands to the device if you plan to use SMS based configuration.  
-- A Plaspy account and access to the platform to verify the device appears and reports correctly.  
-- Cellular coverage at the device location sufficient for GPRS or LTE data.
+- A powered GPT49 with a charged battery or connected power source.
+- A valid cellular SIM with data enabled and APN details for the mobile operator.
+- Access to the device configuration method supported by the unit, such as SMS commands or the official EElink tool.
+- Basic knowledge of the operator APN and optional APN username and password if required by the carrier.
+- SMS sending capability from a phone or a management system if applying settings via SMS.
+- Access to EElink published documentation for firmware specific command syntax.
 
 ## How This Tracker Connects to Plaspy
 
-The GPT49 sends GNSS positions, device status, and event flags over the cellular network to the Plaspy server endpoint. Once the device is configured to use Plaspy server settings and an active APN, Plaspy ingests the packets and presents location, history, and alerts in the platform.
+When configured, the GPT49 opens a data session over cellular and sends GNSS positions, device status, and event flags to the Plaspy server endpoint and port. Plaspy ingests these packets to provide real-time maps, history, and alerts.
 
-- The tracker is configured to report to the shared Plaspy server endpoint and port.  
-- Location and telemetry packets are sent over LTE or fallback cellular modes to reach Plaspy.  
-- Plaspy automatically detects the protocol used by the tracker when data arrives.  
-- Event reports such as movement, tamper, or geofence triggers are forwarded to Plaspy for alerts.  
-- Plaspy displays live positions and location history for operational monitoring and reporting.
+- The tracker reports GNSS positions and device telemetry to the shared Plaspy server endpoint.
+- Event flags such as movement, tamper, or alarms are transmitted and visible in Plaspy.
+- The device is configured to use d.plaspy.com or 54.85.159.138 on port 8888 for all reporting.
+- Transport can be UDP or TCP depending on your configuration choice and network behavior.
+- Plaspy automatically detects the protocol used by the tracker and processes incoming data.
 
 ## Common Configuration Workflow
 
-1. Access the official EElink configuration method for GPT49, for example SMS commands or the manufacturer configuration tool.  
-2. Enter the Plaspy server address by using either the domain d.plaspy.com or the IP 54.85.159.138 in the device server settings.  
-3. Set the device port to 8888, since Plaspy uses the same port for all supported devices.  
-4. Choose UDP or TCP transport if the device requires a transport selection during configuration.  
-5. Configure the device APN settings for the installed SIM so the tracker can initiate GPRS data sessions.  
-6. Save or apply the configuration and restart the device if the tracker requires a reboot to apply changes.  
-7. Validate that the device reports to Plaspy by checking the device list and live position on the Plaspy platform.
+1. Access the official EElink configuration method for the GPT49 (SMS commands or EElink configuration tools) as described in the manufacturer documentation.
+2. Enter the Plaspy server address using either d.plaspy.com or 54.85.159.138 in the device server settings.
+3. Set the server port to 8888; remember Plaspy uses the same port for all supported devices.
+4. Choose UDP or TCP transport if the device requires a transport selection.
+5. Configure the operator APN (and optional APN username and password) so the device can establish cellular data.
+6. Apply or save the configuration and restart the device if required by the device firmware.
+7. Validate that the tracker reports successfully to Plaspy using the device PARAM or by confirming visibility on the Plaspy platform.
 
 ## Example Configuration Commands
 
-The GPT49 supports SMS based configuration. Below are the commonly used SMS commands extracted from public EElink instructions. Preserve placeholders and replace them with your operator values when sending.
+The GPT49 can be configured by SMS using public commands. Preserve the order shown when following a new setup. Replace placeholders with your operator values where required.
 
-- Optional factory reset for initial setup
+- Optional initial or factory reset command (use only if you need to clear device settings):
 ```
 FACTORY#
 ```
 
-- Set the time zone to UTC 0
+- Set the time zone to UTC 0 (example):
 ```
 GMT,E,0#
 ```
 
-- Set the operator APN
+- Set the operator APN. Replace [apn] with your carrier APN. If an APN username and password are required, include [apnu] and [apnp] respectively:
+```
+APN,[apn]#
+```
+Or including optional username and password:
 ```
 APN,[apn],[apnu],[apnp]#
 ```
-Explanation: replace [apn] with your mobile operator APN. If your operator requires username and password include [apnu] and [apnp] respectively. If no username or password are required, you can send only APN,[apn]#.
 
-- Set the GPRS server to use Plaspy domain and port
+- Set the GPRS server to Plaspy using domain form:
 ```
 SERVER,1,d.plaspy.com,8888#
 ```
-
-- Alternatively set the GPRS server to use Plaspy IP and port
+Or set the GPRS server using IP form:
 ```
 SERVER,0,54.85.159.138,8888#
 ```
 
-- Set the reporting interval to every 60 seconds
+- Set the location update interval to every 60 seconds:
 ```
 TIMER,60#
 ```
 
-- Check current parameter settings
+- Verify current parameters on the device:
 ```
 PARAM#
 ```
 
-Send each SMS command as a single message. The order above is typical for initial setup, with factory reset optional and used only when starting from factory defaults.
+Notes on placeholders:
+- [apn] is the carrier APN string required for data.
+- [apnu] is the optional APN username.
+- [apnp] is the optional APN password.
+Replace these placeholders with the values provided by your mobile operator.
 
 ## Configuration Notes
 
-- SMS based configuration is a commonly published method for the GPT49 but manufacturer tools or OTA configuration may also be available. Follow EElink guidance for your firmware build.  
-- Plaspy accepts either the domain or the IP address for the server setting; both are shown above as public examples.  
-- Choose UDP or TCP based on installer preference or device capability; Plaspy will automatically detect the protocol when data arrives.  
-- The same port 8888 is used across Plaspy supported devices so set port 8888 when configuring the GPT49.  
-- Firmware revisions and regional product variants can change command syntax or supported parameters. Always cross check with EElink documentation when possible.
+- Firmware and regional variants can change SMS command syntax or available parameters; always check EElink documentation for your device firmware version.
+- The GPT49 supports SMS-based configuration according to public command examples; alternate configuration may be available via manufacturer tools or over-the-air methods.
+- TCP versus UDP selection can affect reliability and battery usage depending on network conditions; choose the transport that best fits your deployment and test behavior with Plaspy.
+- Plaspy uses the same port for all supported devices and will automatically detect the tracker protocol once packets arrive at the server.
+- If you use the domain form d.plaspy.com, the device will rely on its DNS resolution; the IP form is provided as an alternative for networks where DNS is restricted.
 
 ## Why Use Plaspy with This Configuration
 
-Using the GPT49 with Plaspy gives organizations long battery life asset visibility combined with enterprise class location reporting and event handling. When configured to point at Plaspy server settings the GPT49 can feed continuous position updates, tamper alerts, and geofence events into Plaspy dashboards so teams can monitor assets and respond to incidents.
+Using the GPT49 with Plaspy gives organizations long‑term asset visibility and reliable remote telemetry. The GPT49's multi‑constellation GNSS and long battery life are practical for deployments where infrequent maintenance is required, while Plaspy provides centralized maps, history, and alerting for operational monitoring and theft prevention.
 
-To learn more about Plaspy and how it manages device data and fleet visibility visit https://www.plaspy.com. For the latest EElink GPT49 specific configuration methods, firmware notes, and manufacturer guidance verify details on the official EElink website https://www.eelink.com.cn/ as device setup steps and firmware behavior can change over time.
+Learn more about Plaspy and platform capabilities at https://www.plaspy.com. For the latest device specific commands, firmware notes, and configuration guidance, verify details on the EElink website at https://www.eelink.com.cn/ as manufacturer specifications and setup methods can change over time.

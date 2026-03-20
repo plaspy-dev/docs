@@ -75,9 +75,9 @@ When configured, the GVT800 will send location updates, alarms, and input status
 
 The public Megastek SMS command flow for initial setup is commonly performed by sending SMS messages from a phone to the tracker. The sample commands below follow the public manufacturer examples. The sample setup uses the default device password 000000 in each command. Replace placeholders before sending.
 
-1. Set the device ID to the device IMEI (replace {{IMEI15}} with the device 15 digit IMEI)
+1. Set the device ID to the device IMEI (replace [IMEI15] with the device 15 digit IMEI)
 ```
-M000000,22,{{IMEI15}}
+M000000,22,[IMEI15]
 ```
 
 2. Set the operator APN. Replace [apn] with your operator APN. Optionally include [apnu] and [apnp] for APN username and APN password if required by your carrier.
@@ -106,7 +106,7 @@ M000000,21,2
 ```
 
 Notes on placeholders
-- {{IMEI15}} should be replaced with the device IMEI composed of 15 digits.
+- [IMEI15] should be replaced with the device IMEI composed of 15 digits.
 - [apn] is the mobile operator APN required for data.
 - [apnu] and [apnp] are optional APN username and APN password fields and may be omitted if not required by the carrier.
 

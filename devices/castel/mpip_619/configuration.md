@@ -73,18 +73,18 @@ The MPIP-619 is configured to report location, alerts, and status to the shared 
 
 ## Example Configuration Commands
 
-The MPIP-619 supports SMS-based configuration. The default SMS secret key for the device is the last 6 ASCII characters of the device ID. Replace {{SecretKey}} with that value when sending commands.
+The MPIP-619 supports SMS-based configuration. The default SMS secret key for the device is the last 6 ASCII characters of the device ID. Replace [SecretKey] with that value when sending commands.
 
 - Set the APN settings and Plaspy server IP and port (replace placeholders as needed):
 
 ```text
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Check the current GPRS settings:
 
 ```text
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Notes on placeholders:

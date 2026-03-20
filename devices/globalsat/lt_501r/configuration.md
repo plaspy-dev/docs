@@ -83,26 +83,26 @@ The vendor example includes SMS-based configuration commands. These are public c
 
 - Setup command (replace placeholders and compute checksum before sending):
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 Explanation:
-- {{imei}} — replace with the device IMEI number.
+- [imei] — replace with the device IMEI number.
 - [apn] — APN name for the SIM operator.
 - [apnu] — APN username if required by your SIM provider; leave blank if not required.
 - [apnp] — APN password if required by your SIM provider; leave blank if not required.
 - E0 and E1 are the Plaspy server IP and port respectively as provided above.
 - A1=1 typically enables the first server slot on the device (follow vendor docs for mode meaning).
-- {{checksum}} is a two digit hexadecimal checksum computed over the command text up to but not including the '*' character.
+- [checksum] is a two digit hexadecimal checksum computed over the command text up to but not including the '*' character.
 
 - Optional reboot command (use after configuration if a restart is required):
 ```text
-GSC,{{imei}},3,0,LH*{{checksum}}!
+GSC,[imei],3,0,LH*[checksum]!
 ```
 Label: Reboot the device (optional if your workflow requires a reboot to apply settings).
 
 Checksum calculation (vendor provided method):
 - The checksum is the XOR of all character codes in the command string up to the '*' character.
-- Convert the resulting number to a two character uppercase hexadecimal value (pad with leading zero if needed) and place it in the {{checksum}} placeholder.
+- Convert the resulting number to a two character uppercase hexadecimal value (pad with leading zero if needed) and place it in the [checksum] placeholder.
 - Many vendor tools or web utilities compute this checksum automatically; if sending SMS manually you may need to use an external helper to compute it.
 
 Important: Always verify the exact command syntax for your firmware revision before sending SMS commands. The examples above are the public vendor format present in the device documentation.

@@ -75,32 +75,32 @@ El TR-300V se configura para enviar actualizaciones periódicas de ubicación e 
 
 ## Ejemplos de comandos de configuración
 
-El TR-300V soporta configuración vía SMS. Las siguientes plantillas se derivan de ejemplos públicos de comandos del dispositivo. Reemplace los marcadores con la información de su equipo antes de enviar. El ejemplo usa marcadores como {{imei}}, [apn], [apnu], [apnp] y tokens de checksum que deben calcularse e insertarse.
+El TR-300V soporta configuración vía SMS. Las siguientes plantillas se derivan de ejemplos públicos de comandos del dispositivo. Reemplace los marcadores con la información de su equipo antes de enviar. El ejemplo usa marcadores como [imei], [apn], [apnu], [apnp] y tokens de checksum que deben calcularse e insertarse.
 
 - Notas sobre los marcadores:
-  - {{imei}} — reemplace con el número IMEI del dispositivo.
+  - [imei] — reemplace con el número IMEI del dispositivo.
   - [apn], [apnu], [apnp] — nombre APN, usuario APN y contraseña APN. Proporcione los valores requeridos por su operador móvil.
-  - {{checksum}} y {{checksumreeboot}} — checksums hexadecimales de dos dígitos en mayúsculas calculados sobre la cadena de comando que precede al asterisco, como se describe más abajo.
+  - [checksum] y [checksumreeboot] — checksums hexadecimales de dos dígitos en mayúsculas calculados sobre la cadena de comando que precede al asterisco, como se describe más abajo.
 
 - Prefijo de lote de Plaspy usado en algunos flujos de proveedor:
   - Formato usado por Plaspy TSPRXAB27GHKLMnaicz*U!
 
 - Plantilla principal de configuración
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 - Plantilla opcional de reinicio (usar si es necesario reiniciar después de aplicar ajustes)
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Cálculo del checksum (ejemplo público):
-- El checksum del TR-300V se obtiene aplicando XOR sobre los códigos de los caracteres de la cadena de comando que precede al carácter '*' y convirtiendo el resultado a un valor hexadecimal de dos caracteres en mayúsculas. Inserte ese valor hex en lugar de {{checksum}} o {{checksumreeboot}}.
+- El checksum del TR-300V se obtiene aplicando XOR sobre los códigos de los caracteres de la cadena de comando que precede al carácter '*' y convirtiendo el resultado a un valor hexadecimal de dos caracteres en mayúsculas. Inserte ese valor hex en lugar de [checksum] o [checksumreeboot].
 - Calcule el checksum sobre la cadena completa del comando hasta, pero sin incluir, el asterisco. El valor resultante debe tener dos caracteres en hexadecimal y en mayúsculas.
 
 Pasos para ensamblar el comando:
-1. Reemplace {{imei}} y los marcadores de APN con los valores reales.
+1. Reemplace [imei] y los marcadores de APN con los valores reales.
 2. Construya la cadena de comando hasta el carácter '*'.
 3. Calcule el checksum XOR y conviértalo a una cadena hexadecimal de dos dígitos en mayúsculas.
 4. Añada el checksum seguido de '!' y envíe el SMS completo al número del dispositivo.

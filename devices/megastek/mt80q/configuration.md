@@ -78,7 +78,7 @@ The MT80Q public configuration sample provides SMS commands as a simple method t
 - Purpose: Register or set the device identifier on the tracker.
 - Replace IMEI placeholder with your device IMEI last 15 digits.
 ```
-M000000,22,{{IMEI_LAST_15_DIGITS}}
+M000000,22,[IMEI_LAST_15_DIGITS]
 ```
 (Original template form in the public sample was shown as a web expression. Replace with the actual IMEI digits for SMS use.)
 
@@ -114,7 +114,7 @@ M000000,21,2
 
 Important notes about placeholders and the password:
 - [apn] is your mobile operator APN. [apnu] and [apnp] are optional APN username and password fields when required by your carrier.
-- {{IMEI_LAST_15_DIGITS}} means the last 15 digits of the device IMEI; replace it with the actual IMEI value for the command.
+- [IMEI_LAST_15_DIGITS] means the last 15 digits of the device IMEI; replace it with the actual IMEI value for the command.
 - The public sample uses the default device admin password 000000 in the SMS command prefix. If your device password was changed, use the current password.
 
 ## Configuration Notes

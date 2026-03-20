@@ -85,7 +85,7 @@ Label: optional initial reset. The password portion in these commands is the dev
 
 - Set the device id (use the first 14 digits from the IMEI where required)
 ```text
-W000000,010,{{first14_IMEI}}
+W000000,010,[first14_IMEI]
 ```
 Note: The manufacturer example uses the first 14 IMEI digits in this command. Plaspy uses the full device IMEI as the platform identifier; confirm how you map IMEI to devices in Plaspy.
 

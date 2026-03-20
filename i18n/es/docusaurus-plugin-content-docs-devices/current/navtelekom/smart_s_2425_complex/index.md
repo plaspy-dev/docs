@@ -1,62 +1,61 @@
 ---
 slug: /navtelekom/smart_s_2425_complex
 id: smart_s_2425_complex
-sidebar_key: navtelekosmart_s_2425_complex_index_smart_s_2425_complex
 sidebar_label: SMART S-2425 COMPLEX
 title: Navtelekom - SMART S-2425 COMPLEX
 sidebar_class_name: menu_item_tracker
-description: Rastreador profesional compacto Navtelekom SMART S-2425 COMPLEX compatible con Plaspy para telemetría de flotas y antirobo
+description: Rastreador GPS compacto Navtelekom SMART S-2425 COMPLEX compatible con Plaspy para telemetría de flotas, seguimiento y flujos antirobo
 keywords:
-  - Navtelekom
-  - SMART S-2425 COMPLEX
-  - Navtelekom SMART S-2425
+  - navtelekom smart s-2425 complex
+  - smart s-2425
+  - SMART S 2425 COMPLEX
   - rastreador GPS
-  - GNSS GLONASS
-  - rastreador 2G
-  - rastreador doble SIM
+  - compatible con Plaspy
   - seguimiento de flotas
+  - telemetría vehicular
+  - rastreador GNSS GLONASS
+  - rastreador dual SIM
   - monitoreo de combustible
-  - integración de tacógrafo
-  - configuración Bluetooth
 ---
 
 # Navtelekom - SMART S-2425 COMPLEX
 
 ![SMART S-2425 COMPLEX](./tracker.jpeg)
 
-El SMART S-2425 COMPLEX es un rastreador GPS profesional y compacto de Navtelekom pensado para integradores y operadores de flotas. Integra posicionamiento GNSS y GLONASS con antenas internas GNSS y GSM, soporte para doble SIM y una batería de respaldo que mantiene la conectividad y el reporte de posición durante interrupciones breves de alimentación. El equipo ofrece entradas y salidas flexibles, puertos seriales y configuración por Bluetooth de corto alcance, lo que lo hace idóneo para telemetría de flotas, monitoreo de combustible, integración de tacógrafos y flujos de trabajo antirobo.
+El SMART S-2425 COMPLEX de Navtelekom es un rastreador GPS profesional y compacto pensado para integradores y operadores de flotas. Diseñado como dispositivo GNSS 2G con antenas internas GNSS y GSM, soporte para doble SIM y batería de respaldo integrada, ofrece reporte continuo de posición y cierta resistencia frente a cortes temporales de alimentación. La unidad incluye entradas y salidas flexibles, interfaces seriales y configuración local por Bluetooth para cubrir diversas necesidades de telemetría y monitoreo vehicular.
 
-Como dispositivo compatible con Plaspy, el SMART S-2425 COMPLEX puede enviar ubicación en tiempo real y telemetría del vehículo a Plaspy para supervisión en vivo, alertas e informes históricos. Su capacidad de configuración y las herramientas de soporte de Navtelekom facilitan el despliegue a gran escala, mientras que las protecciones integradas y la alimentación de respaldo contribuyen a mantener la continuidad de los datos para la supervisión operativa dentro de Plaspy.
+Como dispositivo compatible con Plaspy, el SMART S-2425 COMPLEX puede enviar posición y telemetría a Plaspy para monitoreo en tiempo real, alertas y reportes históricos. Su compatibilidad con sensores externos, entradas para tacógrafo y monitoreo de combustible, además de salidas configurables para inmovilizador o conmutación remota, lo convierten en una opción práctica para flotas que desean consolidar datos vehiculares dentro de los paneles y flujos de trabajo de Plaspy.
 
-## Características principales
+## Aspectos destacados
 
-- Rastreador compatible con Plaspy con posicionamiento GNSS y GLONASS para reportes de ubicación en tiempo real confiables.
-- Módem GSM 2G con doble SIM para mejorar la disponibilidad de la conectividad celular y la entrega continua de telemetría.
-- Batería de respaldo integrada y protección contra sobretensiones para preservar el reporte durante cortes de energía breves.
-- Entradas y salidas versátiles y puertos seriales para soporte de sensores de combustible, conexiones a tacógrafos y control remoto de equipos.
-- Configuración local por Bluetooth para puesta en servicio y conexiones de periféricos de corto alcance.
-- Diseñado para integradores y gestores de flota que requieren una plataforma de telemetría compacta y ampliable.
+- Rastreador GNSS compatible con Plaspy que combina GNSS y GLONASS para posicionamiento en tiempo real.
+- Módem GSM 2G con soporte para doble SIM para mejorar la disponibilidad celular y la entrega continua de datos.
+- Batería de respaldo integrada y protección contra sobretensiones para mantener el reporte durante pérdidas temporales de energía.
+- Entradas/salidas versátiles e interfaces seriales para sensores de combustible, conexiones de tacógrafo y periféricos externos.
+- Bluetooth 4.0 para configuración local y conexiones de corto alcance durante la puesta en marcha.
+- Salidas de control configurables para soportar acciones de inmovilización y control remoto de equipos.
+- Soporte del Navtelecom NTC Configurator para configuración del dispositivo y gestión de firmware.
 
 ## Cómo funciona con Plaspy
 
-Al integrarse con Plaspy, el SMART S-2425 COMPLEX transmite posiciones GNSS y telemetría del vehículo a través del enlace celular hacia la plataforma Plaspy, donde usted obtiene visibilidad, alertas e informes para la supervisión de la flota. Las herramientas de configuración de Navtelekom y las facilidades de actualización de firmware permiten la puesta en servicio segura y la gestión continua de dispositivos en flotas mixtas.
+Al conectarse a Plaspy, el SMART S-2425 COMPLEX transmite posiciones GNSS y telemetría del vehículo a través de enlaces celulares para ofrecer visibilidad en tiempo real y datos históricos para las operaciones de la flota. Plaspy procesa la información del dispositivo para mostrar ubicación, estado y valores de sensores junto con alertas y reportes que usan los gestores y operadores de flota.
 
-- Ubicación y telemetría en tiempo real entregadas a Plaspy para seguimiento en mapa y reproducción de rutas.
-- Entradas universales configurables que reportan eventos discretos como encendido, puertas o estado de alarmas hacia Plaspy.
-- Datos de nivel y consumo de combustible desde sensores analógicos, 1-Wire o entradas de pulso que alimentan los informes y paneles de Plaspy.
-- Salidas de control remoto que habilitan flujos de trabajo de inmovilización y conmutación de equipos coordinados mediante alertas y comandos de Plaspy.
-- Puesta en servicio por Bluetooth y conexiones de sensores de corto alcance para configuración in situ y captura de datos periféricos.
+- Ubicación y telemetría en tiempo real visibles en los mapas de Plaspy para monitoreo activo y reproducción de rutas.
+- Entradas configurables que informan de encendido, puertas, alarmas y otros eventos discretos a Plaspy para generar alertas de estado.
+- Datos de combustible y consumo provenientes de sensores analógicos, 1-Wire o entradas por pulso reflejados en los reportes de Plaspy.
+- Eventos de inmovilización remota y control de equipos que se pueden gestionar y registrar desde Plaspy cuando las salidas están configuradas.
+- La configuración local vía Bluetooth facilita la puesta en servicio y el emparejamiento de sensores de corto alcance antes de incorporar el dispositivo a Plaspy.
 
-## Casos de uso típicos
+## Casos de uso habituales
 
-- Gestión de flotas y seguimiento en tiempo real de camiones, camionetas y vehículos de servicio monitorizados mediante Plaspy.
-- Flujos antirobo e inmovilización que emplean salidas de control para apagado remoto y coordinación de respuesta.
-- Monitoreo de combustible y reporte de consumo usando entradas analógicas, 1-Wire o de pulso integradas en los paneles de Plaspy.
-- Recolección de datos de tacógrafo y tacómetro para seguimiento de horas de conducción y reportes de cumplimiento.
-- Diagnóstico remoto y control automatizado de equipos mediante interfaces seriales y la visibilidad proporcionada por Plaspy.
+- Gestión de flotas comerciales para seguimiento en vivo, análisis de rutas e información básica sobre conducta del conductor.
+- Flujos antirobo e inmovilización usando salidas de control para apagado remoto y respuesta ante incidentes.
+- Monitoreo de combustible mediante entradas analógicas, 1-Wire o por pulso para respaldar reportes de consumo y conciliaciones.
+- Recolección de datos de tacógrafo y tacómetro para control de horas de uso y supervisión operativa.
+- Diagnóstico remoto y control de periféricos en vehículos especializados y equipos móviles.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El SMART S-2425 COMPLEX es una opción práctica para organizaciones que necesitan un rastreador compacto y con funciones avanzadas compatible con Plaspy. Su combinación de conectividad con doble SIM, batería de respaldo y robustas opciones de E/S ofrece telemetría fiable y puntos de integración flexibles para flujos de trabajo comunes de flota sin añadir complejidad innecesaria. Para los integradores, las interfaces seriales y la configuración por Bluetooth facilitan la conexión de sensores y la puesta en servicio de dispositivos en flotas heterogéneas.
+El SMART S-2425 COMPLEX es apropiado para organizaciones que requieren un rastreador compacto y resistente con opciones flexibles de E/S y comunicación serial. Su combinación de conectividad con doble SIM, alimentación de respaldo y soporte para sensores externos lo hace idóneo cuando la telemetría ininterrumpida y las entradas extensibles son prioritarias. La configuración por Bluetooth y las herramientas de Navtelecom ayudan a optimizar el despliegue y el mantenimiento a escala.
 
-Para saber más sobre cómo puede utilizarse este rastreador con Plaspy y explorar las capacidades de la plataforma visite https://www.plaspy.com. Las especificaciones del producto y su disponibilidad pueden cambiar, por lo que le recomendamos verificar los detalles técnicos actuales y la documentación oficial en el sitio del fabricante https://www.navtelecom.ru/.
+Si usted utiliza Plaspy para la visibilidad y los reportes de su flota, el SMART S-2425 COMPLEX ofrece una opción de hardware compatible que puede suministrar datos de ubicación, eventos y sensores a los flujos de trabajo de Plaspy sin complejidad innecesaria. Para conocer más sobre Plaspy y cómo se integran los dispositivos compatibles en la plataforma visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden variar, por lo que le recomendamos verificar los detalles técnicos actuales en el sitio del fabricante https://www.navtelecom.ru/.

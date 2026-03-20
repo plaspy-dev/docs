@@ -78,16 +78,16 @@ To set the APN and server IP via SMS use the following command structure (preser
 
 - Set GPRS APN and Plaspy server
 ```
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Verify current GPRS settings
 ```
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Notes on placeholders:
-- {{SecretKey}} — the device SMS password, by default the last 6 ASCII characters of the device ID unless the vendor has changed it.
+- [SecretKey] — the device SMS password, by default the last 6 ASCII characters of the device ID unless the vendor has changed it.
 - [apn] — the mobile operator APN for the SIM card installed in the device.
 - [apnu] — optional APN username if required by the operator.
 - [apnp] — optional APN password if required by the operator.

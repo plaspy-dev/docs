@@ -74,31 +74,31 @@ El ST 300 se configura para enviar reportes de ubicación y eventos al endpoint 
 
 ## Comandos de configuración de ejemplo
 
-El ST 300 se puede configurar enviando comandos SMS al dispositivo. Los siguientes comandos están extraídos del contenido público de configuración de Suntech y preservan los marcadores de posición. Reemplace {{device_id}} por el device id calculado a partir del IMEI (ver explicación abajo). Reemplace [apn], [apnu] y [apnp] por el APN de su operador, el usuario y la contraseña del APN cuando sea necesario. Para la bandera de autenticación del APN use 1 si proporciona usuario o contraseña; de lo contrario use 0.
+El ST 300 se puede configurar enviando comandos SMS al dispositivo. Los siguientes comandos están extraídos del contenido público de configuración de Suntech y preservan los marcadores de posición. Reemplace [device_id] por el device id calculado a partir del IMEI (ver explicación abajo). Reemplace [apn], [apnu] y [apnp] por el APN de su operador, el usuario y la contraseña del APN cuando sea necesario. Para la bandera de autenticación del APN use 1 si proporciona usuario o contraseña; de lo contrario use 0.
 
 Nota sobre el cálculo del device id
 - El device id son los últimos 9 dígitos del IMEI excluyendo el dígito final de control del IMEI. Por ejemplo, si el IMEI es 123456789012345 entonces el device id es 678901234.
 
 1) Comando opcional de restablecimiento de fábrica inicial (usar solo cuando sea necesario como parte de la configuración inicial):
 ```
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
 
 2) Establecer el APN del operador y el servidor GPRS de Plaspy. Mantenga los marcadores de posición tal como aparecen y asegúrese de que la dirección del servidor y el puerto apunten a Plaspy:
 ```
-ST300NTW;{{device_id}};02;{{auth_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;[auth_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
-- {{auth_flag}} debe ser 1 si proporciona [apnu] o [apnp], de lo contrario 0.
+- [auth_flag] debe ser 1 si proporciona [apnu] o [apnp], de lo contrario 0.
 - [apn] es el APN del operador. [apnu] y [apnp] son usuario y contraseña opcionales del APN.
 
 3) Establecer el intervalo de reporte a 60 segundos (ejemplo de configuración de reporte):
 ```
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 4) Comando de verificación para comprobar los ajustes actuales:
 ```
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 
 Preserve el orden anterior al aplicar los comandos si sigue las recomendaciones del fabricante. Envíe cada SMS completo y espere la confirmación del dispositivo cuando aplique.

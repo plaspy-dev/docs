@@ -73,31 +73,31 @@ El ST4410G se configura para reportar GNSS, eventos RF y telemetría de movimien
 
 ## Ejemplos de comandos de configuración
 
-La configuración pública del ST4410G incluye comandos basados en SMS. A continuación se muestran los comandos relevantes en orden con los marcadores de posición preservados. Reemplace {{device_id}} por el ID de seis dígitos derivado del IMEI como se describe, y reemplace [apn], [apnu] y [apnp] por los valores APN del operador.
+La configuración pública del ST4410G incluye comandos basados en SMS. A continuación se muestran los comandos relevantes en orden con los marcadores de posición preservados. Reemplace [device_id] por el ID de seis dígitos derivado del IMEI como se describe, y reemplace [apn], [apnu] y [apnp] por los valores APN del operador.
 
 - Establecer el APN del operador y el servidor GPRS
   - Propósito: aplicar el APN del operador, indicador opcional de usuario y contraseña APN, y apuntar el dispositivo al endpoint y puerto del servidor Plaspy.
   - Formato del comando:
 ```text
-SA200NTW;{{device_id}};02;{{apn_user_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[apn_user_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
   - Notas:
-    - {{device_id}} es el ID de seis dígitos derivado del IMEI como se explica más abajo.
-    - {{apn_user_flag}} debe ser 1 si suministra [apnu] o [apnp], de lo contrario 0.
+    - [device_id] es el ID de seis dígitos derivado del IMEI como se explica más abajo.
+    - [apn_user_flag] debe ser 1 si suministra [apnu] o [apnp], de lo contrario 0.
     - [apn] es el APN del operador. [apnu] y [apnp] son campos opcionales de usuario y contraseña APN.
 
 - Establecer intervalo de actualización a 60 segundos
   - Propósito: configurar los intervalos de reporte para que el dispositivo envíe posición y telemetría con la frecuencia deseada.
   - Comando:
 ```text
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Comprobar configuraciones actuales (verificación)
   - Propósito: solicitar detalles de presets para verificar que el dispositivo aceptó las configuraciones.
   - Comando:
 ```text
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 ## ID del dispositivo a partir del IMEI

@@ -1,66 +1,61 @@
 ---
 slug: /navtelekom/signal_s_2117
 id: signal_s_2117
-sidebar_key: navtelekosignal_s_2117_index_signal_s_2117
-sidebar_label: Signal S-2117
-title: Navtelekom - Signal S-2117
+sidebar_label: СИГНАЛ S-2117
+title: Navtelekom - СИГНАЛ S-2117
 sidebar_class_name: menu_item_tracker
-description: Rastreador vehicular con GSM y GLONASS/GPS para ubicación, alarmas, monitoreo de combustible y temperatura, control remoto y comunicación de voz compatible con Plaspy
+description: Rastreador GNSS Navtelekom СИГНАЛ S-2117 compatible con Plaspy para seguimiento de flotas, combustible y telemetría de temperatura
 keywords:
-  - Navtelekom Signal S-2117
-  - Signal S-2117
+  - Navtelekom СИГНАЛ S-2117
+  - SIGNAL S-2117 Plaspy
   - rastreador Navtelekom
-  - rastreador GPS GLONASS
-  - rastreo de vehículos
-  - seguimiento de flotas
-  - monitoreo de combustible
-  - control remoto de vehículos
-  - comunicación con conductor
-  - compatible con Plaspy
+  - rastreador vehicular GLONASS
+  - dispositivo seguimiento de flotas
+  - monitoreo de combustible RS-485
+  - sensor de temperatura 1-Wire
+  - alarma y detección de manipulación vehicular
+  - rastreador con voz bidireccional
+  - compatibilidad rastreador descontinuado
 ---
 
-# Navtelekom - Signal S-2117
+# Navtelekom - СИГНАЛ S-2117
 
-![Signal S-2117](./logo.jpg)
+![СИГНАЛ S-2117](./tracker.jpeg)
 
-El Navtelekom Signal S-2117 es un equipo de rastreo vehicular pensado para el monitoreo de automóviles y flotas. Integra comunicaciones GSM con posicionamiento GLONASS y GPS para ofrecer seguimiento continuo de ubicación, control de movimiento y análisis de tiempo de operación. La unidad admite la integración con múltiples sensores y periféricos, incluyendo medición digital de combustible mediante interfaz RS-485 y sensores digitales de temperatura e identificación a través de la interfaz 1-Wire. Además ofrece notificaciones de alarma por accesos no autorizados e impactos mecánicos, avisos de emergencia y un botón de pánico para respuesta inmediata.
+El СИГНАЛ S-2117 es un rastreador vehicular GNSS resistente de Navtelekom, pensado para operaciones de flota que requieren ubicación continua y telemetría fiable. Combina posicionamiento GLONASS con comunicaciones GSM para ofrecer seguimiento en vivo, notificaciones de eventos de alarma, salidas de control remoto e interfaces para monitoreo de combustible y temperatura. El equipo prioriza funciones telemáticas prácticas, útiles en flotas mixtas y en el transporte de carga sensible a la temperatura.
 
-Como dispositivo compatible con Plaspy, el Signal S-2117 puede enviar datos de ubicación, eventos y sensores a Plaspy para la supervisión centralizada de la flota. Usted puede aprovechar las capacidades principales del rastreador dentro de la plataforma para mejorar la seguridad de los vehículos, monitorear el consumo de combustible, vigilar cargas sensibles a la temperatura y atender emergencias de conductores. La conexión de voz y las funciones de control remoto amplían las opciones operativas que pueden integrarse en los flujos de trabajo y alertas de Plaspy.
+Este modelo es compatible con Plaspy de fábrica, por lo que es sencillo enviar datos de ubicación, telemetría de sensores y eventos a los paneles e informes de Plaspy. Aunque el S-2117 ha sido descontinuado por el fabricante, las unidades existentes siguen funcionando con el firmware y las herramientas de configuración del vendedor, y se integran de forma efectiva con Plaspy para proporcionar visibilidad de la flota, análisis de combustible, notificaciones de alarma y manejo de incidentes con voz.
 
-## Características principales
+## Puntos clave
 
-- Posicionamiento combinado GSM y GLONASS/GPS para seguimiento fiable de ubicación y movimiento
-- Soporte RS-485 para hasta tres medidores digitales de combustible, permitiendo visibilidad del nivel y consumo
-- Conectividad 1-Wire para sensores digitales de temperatura y dispositivos de identificación
-- Manos libres integrado y botón de pánico para comunicación directa entre centro de control y conductor
-- Control remoto de sistemas del vehículo como sirenas, inmovilizador y puertas para respuesta rápida
-- Capacidad de alimentación de respaldo para mantener la operación durante cortes de energía del vehículo
-- Alertas por acceso no autorizado, impactos mecánicos e incidentes de emergencia
+- Rastreador GNSS compatible con Plaspy para seguimiento vehicular en tiempo real y supervisión de flotas
+- Receptor GLONASS y comunicación GSM para actualizaciones continuas de posición y historial de rutas
+- Soporte RS-485 para hasta tres sensores digitales de nivel de combustible, permitiendo monitoreo y análisis de consumo
+- Entradas 1-Wire para sondas digitales de temperatura y identificación tipo iButton para control de carga y flujos de trabajo de conductores
+- Comunicación de voz bidireccional con altavoz y botón de pánico para coordinación y respuesta en emergencias
+- Entradas de alarma y detección de manipulación para alertas antirrobo y mayor seguridad
+- Salidas de control remoto para conmutar cargas externas y controlar actuadores básicos
 
 ## Cómo funciona con Plaspy
 
-Al vincularse con Plaspy, el Signal S-2117 transmite posición, eventos y datos de sensores a la plataforma, donde se integran en una visión unificada de la flota. Plaspy agrega la información del rastreador para ofrecer historial consultable, alertas y reportes operativos para flotas y administradores de vehículos.
+Al conectarlo a Plaspy, el СИГНАЛ S-2117 envía posición, telemetría de sensores y mensajes de eventos a una vista operacional unificada. Plaspy interpreta esos datos y los muestra como marcadores en el mapa en tiempo real, alertas y reportes históricos, de modo que usted pueda tomar decisiones sin necesidad de procesar la información por separado.
 
-- Seguimiento de ubicación en vivo e histórico visible en los mapas de Plaspy para conciencia situacional de la flota
-- Reenvío de eventos y alarmas a las notificaciones de Plaspy por acceso no autorizado, impactos y activaciones de pánico
-- Lecturas de los medidores de combustible integradas en los reportes de Plaspy para controlar consumo y detectar anomalías
-- Datos de sensores de temperatura disponibles en Plaspy para monitorear cargas o equipos sensibles a la temperatura
-- Controles de salidas remotas y comandos al dispositivo coordinados desde Plaspy para gestionar sirenas, inmovilizadores y puertas
-- Eventos de manos libres y llamadas de emergencia registrados en Plaspy para apoyar la gestión de incidentes y los flujos de respuesta
+- Ubicación en tiempo real e historial de rutas mostrados en los mapas de Plaspy para visibilidad de la flota
+- Eventos de alarma y manipulación enviados a Plaspy como alertas instantáneas para supervisión de seguridad
+- Telemetría de sensores de combustible por RS-485 convertida en métricas continuas de nivel y consumo en los informes
+- Lecturas de temperatura e identificación de conductor desde entradas 1-Wire registradas en los historiales y líneas de tiempo de eventos en Plaspy
+- Acciones de control remoto y eventos de voz representados como controles y disparadores accionables dentro de los flujos de trabajo de Plaspy
 
 ## Casos de uso típicos
 
-- Seguridad y rastreo en tiempo real de vehículos para empresas con flotas de autos o furgonetas
-- Monitoreo de combustible en operaciones donde datos precisos de consumo reducen costos y pérdidas
-- Vigilancia de mercancías sensibles a la temperatura en tránsito mediante sensores digitales conectados
-- Identificación de conductores y registro de turnos para operaciones de transporte que requieren seguimiento de personal
-- Respuesta a emergencias y protocolos de seguridad del conductor usando el botón de pánico y la comunicación por voz
-- Control remoto e inmovilización para prevención de robos y recuperación de vehículos
+- Seguimiento continuo de flotas para logística y gestión de vehículos de servicio
+- Monitoreo de combustible y prevención de pérdidas mediante múltiples sensores digitales
+- Supervisión de carga refrigerada con telemetría de sondas de temperatura y alertas
+- Identificación de conductores y registro de accesos para seguridad y cumplimiento
+- Coordinación de respuesta y despacho mediante voz bidireccional y alertas de pánico
 
 ## Por qué elegir este rastreador con Plaspy
 
-El Signal S-2117 es una opción práctica para organizaciones que requieren una combinación de rastreo de posición, integración de sensores y comunicación de voz a bordo. Su capacidad para conectar varios medidores de combustible y sensores de temperatura lo hace adecuado para operaciones donde la telemetría va más allá de la simple ubicación. La combinación de informes de alarma, alimentación de respaldo y controles remotos respalda despliegues orientados a la seguridad y a la supervisión continua.
+El СИГНАЛ S-2117 es una opción práctica para organizaciones que requieren un rastreador GNSS probado en campo, con enfoque en medición de combustible, monitoreo de temperatura y entradas de seguridad. Su compatibilidad con múltiples sensores de combustible y las interfaces 1-Wire para temperatura e identificación proporcionan la telemetría que los gestores de flota necesitan para decisiones operativas. La capacidad de voz y la entrada de pánico añaden un canal de comunicación directo que complementa las alertas automáticas en Plaspy.
 
-Integrado con Plaspy, el S-2117 forma parte de una plataforma gestionada donde ubicación, datos de sensores, alertas y acciones remotas pueden correlacionarse y ejecutarse desde una única interfaz. Si su flota necesita supervisión de combustible, control de temperatura y comunicación directa con conductores, este rastreador ofrece un conjunto de funciones equilibrado que responde a esas prioridades operativas. Para obtener las especificaciones técnicas y disponibilidad más recientes, confirme los detalles con el fabricante y evalúe cómo las capacidades del equipo se ajustan a su configuración en Plaspy.
-
-Para obtener más información sobre Plaspy y cómo dispositivos compatibles como el Signal S-2117 pueden usarse en el rastreo y monitoreo de flotas, visite https://www.plaspy.com. Las especificaciones y la disponibilidad de productos pueden cambiar con el tiempo, por lo que le recomendamos verificar la información actual en el sitio oficial del fabricante https://www.navtelecom.ru/ antes de tomar decisiones de compra.
+Aunque Navtelekom clasifica el S-2117 como descontinuado, las unidades existentes son funcionales con el firmware del proveedor y las utilidades de configuración, e integran eficazmente con Plaspy para aportar ubicación, telemetría y capacidades de control. Para más información sobre cómo Plaspy puede procesar datos de este y otros modelos compatibles visite https://www.plaspy.com. Las especificaciones, disponibilidad y la documentación del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles actuales en el sitio oficial de Navtelekom https://www.navtelecom.ru/.

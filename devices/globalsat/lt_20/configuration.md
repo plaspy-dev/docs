@@ -81,36 +81,36 @@ The LT-20 public configuration content includes SMS command templates. Preserve 
 
 - Setup command template
   - Purpose: configure APN, Plaspy server IP and port, and basic reporting flags
-  - Replace {{imei}} with the device IMEI
+  - Replace [imei] with the device IMEI
   - Replace [apn], [apnu], and [apnp] with your operator APN name, username, and password as required
-  - Compute {{checksum}} as described below and insert it in uppercase hex form
+  - Compute [checksum] as described below and insert it in uppercase hex form
 
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 - Reboot command template
   - Purpose: reboot the device to apply configuration. Use only if a reboot is required or recommended.
 
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Checksum calculation
 - The public configuration content includes a checksum calculation that XORs all characters in the command string up to but not including the asterisk character
-- Convert the XOR result to a two digit uppercase hexadecimal string and use that value as {{checksum}} or {{checksumreeboot}}
+- Convert the XOR result to a two digit uppercase hexadecimal string and use that value as [checksum] or [checksumreeboot]
 - Steps to compute the checksum in brief
-  1. Take the command text portion before the asterisk for example GSS,{{imei}},3,0,...,A1=1
+  1. Take the command text portion before the asterisk for example GSS,[imei],3,0,...,A1=1
   2. Compute the bitwise XOR of the character codes for every character in that string
   3. Convert the final XOR value to a two character uppercase hex value, pad with leading zero if necessary
   4. Place that hex value after the asterisk and before the final exclamation mark
 
 Placeholders explained
-- {{imei}} device IMEI number to identify the specific tracker
+- [imei] device IMEI number to identify the specific tracker
 - [apn] operator APN name required for cellular data
 - [apnu] APN username if applicable
 - [apnp] APN password if applicable
-- {{checksum}} and {{checksumreeboot}} computed as described above
+- [checksum] and [checksumreeboot] computed as described above
 
 ## Configuration Notes
 

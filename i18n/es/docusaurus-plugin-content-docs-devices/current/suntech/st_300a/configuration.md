@@ -77,20 +77,20 @@ El ST 300A se configura para enviar sus mensajes de ubicación y estado al endpo
 El Suntech ST 300A soporta configuración vía SMS. Los ejemplos públicos que siguen están adaptados del contenido del fabricante y usan un marcador de posición para deviceId calculado. Calcule deviceId como los nueve dígitos extraídos del IMEI eliminando los primeros cinco dígitos y excluyendo el dígito final. Por ejemplo, si el IMEI es 123456789012345, el deviceId sería 678901234.
 
 Importantes marcadores de posición
-- {{deviceId}} — el identificador de 9 dígitos del dispositivo extraído del IMEI como se describió arriba
+- [deviceId] — el identificador de 9 dígitos del dispositivo extraído del IMEI como se describió arriba
 - [apn] — el nombre del APN del operador
 - [apnu] — el usuario APN si el operador lo exige
 - [apnp] — la contraseña APN si el operador la exige
 
 1. (Paso inicial opcional) Restaurar configuración de fábrica
 ```text
-ST300CMD;{{deviceId}};02;Reset
+ST300CMD;[deviceId];02;Reset
 ```
 Etiquete este paso de restauración como opcional y úselo solo si necesita devolver el dispositivo a los valores de fábrica antes de reconfigurarlo.
 
 2. Establecer el APN del operador y el servidor GPRS incluyendo la IP y puerto de Plaspy
 ```text
-ST300NTW;{{deviceId}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[deviceId];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - El cuarto campo (aquí mostrado como 1) puede indicar el uso de credenciales APN cuando se requieren; incluya 0 o 1 según la sintaxis de comandos del dispositivo.
 - Reemplace [apn], [apnu] y [apnp] con los valores del operador móvil. Si su operador no requiere usuario o contraseña, deje [apnu] y [apnp] vacíos tal como admite el formato del comando.
@@ -98,13 +98,13 @@ ST300NTW;{{deviceId}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 
 3. Establecer intervalo de actualización/reportes a 60 segundos
 ```text
-ST300RPT;{{deviceId}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[deviceId];02;60;60;60;3;0;0;0;0;0
 ```
 - Estos parámetros configuran los intervalos de reporte periódicos y el comportamiento relacionado. Mantenga el orden y los valores según lo requiera la referencia de comandos del dispositivo.
 
 4. Verificar la configuración actual
 ```text
-ST300CMD;{{deviceId}};02;PresetA
+ST300CMD;[deviceId];02;PresetA
 ```
 - Use este comando para solicitar una comprobación de configuración al dispositivo.
 

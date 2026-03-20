@@ -77,14 +77,14 @@ The ST4345 reports GNSS position and event messages to the configured server end
 
 The ST4345 modelConfiguration provides SMS command templates for network and reporting setup. The device ID in these templates is the six digits immediately before the final IMEI digit (the last 6 numbers of the IMEI excluding the final check digit). For a 15-digit IMEI, that is the 6 digits in positions 9 through 14. Example: IMEI 123456789012345 -> device ID 901234.
 
-1) Set operator APN and GPRS server (replace {{device_id}}, [apn], [apnu], and [apnp] as required). Set auth flag to 1 if you supply [apnu] or [apnp], otherwise use 0.
+1) Set operator APN and GPRS server (replace [device_id], [apn], [apnu], and [apnp] as required). Set auth flag to 1 if you supply [apnu] or [apnp], otherwise use 0.
 
 ```
-SA200NTW;{{device_id}};02;{auth_flag};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[auth_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
-- {{device_id}} — six digit device ID derived from the IMEI as described above.  
-- {auth_flag} — 1 if APN username or password is provided, otherwise 0.  
+- [device_id] — six digit device ID derived from the IMEI as described above.  
+- [auth_flag] — 1 if APN username or password is provided, otherwise 0.  
 - [apn] — operator APN name placeholder.  
 - [apnu] — APN username placeholder if required.  
 - [apnp] — APN password placeholder if required.
@@ -92,13 +92,13 @@ SA200NTW;{{device_id}};02;{auth_flag};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 2) Set the update/reporting interval to 60 seconds (reporting, heartbeat and movement intervals in this template are set to 60):
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Check or request current preset settings from the device:
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Notes on sending commands:
@@ -111,8 +111,8 @@ Notes on sending commands:
 - The ST4345 supports SMS-based configuration as shown in the vendor templates; alternative vendor tools or maintenance servers may offer the same settings via a GUI or remote update.
 - Choose TCP or UDP according to installer preference or network conditions; Plaspy accepts both on port 8888 and will detect the protocol automatically.
 - Verify firmware version and variant differences (ST4345R, ST4345LB, ST4345LC) because command syntax or available features can change across firmware and hardware revisions.
-- Ensure APN credentials are correct and that the SIM has an active data plan; use the {auth_flag} value above to indicate whether APN authentication is required.
-- Confirm the computed {{device_id}} from the IMEI before sending commands; an incorrect ID can prevent the device from accepting configuration or from being matched in Plaspy.
+- Ensure APN credentials are correct and that the SIM has an active data plan; use the [auth_flag] value above to indicate whether APN authentication is required.
+- Confirm the computed [device_id] from the IMEI before sending commands; an incorrect ID can prevent the device from accepting configuration or from being matched in Plaspy.
 
 ## Why Use Plaspy with This Configuration
 

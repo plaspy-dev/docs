@@ -77,21 +77,21 @@ El JT709Ex se configura para enviar mensajes de estado y eventos al endpoint y p
 La configuración pública del JT709Ex incluye comandos de provisión por SMS para establecer el servidor GPRS y el APN. Reemplace los marcadores con los valores de su equipo antes de enviar.
 
 - Establecer el servidor GPRS y el APN
-Envíe este SMS al dispositivo, sustituyendo {{trackerID}} por el ID del equipo y [apn] por el APN de su operador móvil.
+Envíe este SMS al dispositivo, sustituyendo [trackerID] por el ID del equipo y [apn] por el APN de su operador móvil.
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 - Establecer usuario y contraseña del APN
-Si su APN requiere usuario y contraseña, envíe este SMS reemplazando {{trackerID}}, [apnu] y [apnp] según corresponda. Si su APN no tiene credenciales, este paso puede omitirse.
+Si su APN requiere usuario y contraseña, envíe este SMS reemplazando [trackerID], [apnu] y [apnp] según corresponda. Si su APN no tiene credenciales, este paso puede omitirse.
 
 ```
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 
 Notas sobre los marcadores
-- {{trackerID}} — el ID único del dispositivo requerido por el rastreador para la provisión por SMS.
+- [trackerID] — el ID único del dispositivo requerido por el rastreador para la provisión por SMS.
 - [apn] — la cadena APN proporcionada por su operador móvil.
 - [apnu] — nombre de usuario del APN cuando el operador lo solicita.
 - [apnp] — contraseña del APN cuando el operador lo solicita.

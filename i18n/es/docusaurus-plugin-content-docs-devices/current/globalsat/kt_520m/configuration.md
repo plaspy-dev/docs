@@ -82,26 +82,26 @@ TSPRXAB27GHKLMnaicz*U!
 
 - Plantilla de comando de configuración primaria
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 Explicación:
-- {{imei}} es el número IMEI del dispositivo.
+- [imei] es el número IMEI del dispositivo.
 - [apn] es el nombre del APN para su SIM celular.
 - [apnu] es el marcador de nombre de usuario del APN si lo requiere el operador.
 - [apnp] es el marcador de contraseña del APN si lo requiere el operador.
 - E0 establece la IP del servidor a 54.85.159.138 y E1 establece el puerto a 8888 para Plaspy.
-- El comando incluye un marcador de checksum {{checksum}} que debe calcularse como se describe a continuación.
+- El comando incluye un marcador de checksum [checksum] que debe calcularse como se describe a continuación.
 
 - Plantilla de comando de reinicio (reinicio opcional tras la configuración)
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 Etiqueta: paso de reinicio opcional para aplicar los ajustes si su flujo de trabajo requiere reiniciar el dispositivo.
 
 Cálculo del checksum (algoritmo público extraído del contenido del fabricante):
 - Calcule el checksum haciendo un XOR de los códigos de carácter del texto del comando hasta, pero sin incluir, el carácter asterisco.
 - Convierta el valor resultante a una cadena hexadecimal de dos dígitos en mayúsculas y colóquelo en el marcador de checksum.
-- El ejemplo JavaScript público del fabricante utiliza este enfoque para generar {{checksum}} y {{checksumreeboot}}.
+- El ejemplo JavaScript público del fabricante utiliza este enfoque para generar [checksum] y [checksumreeboot].
 
 Notas sobre el uso de los comandos:
 - Mantenga exactamente el orden y la puntuación de las plantillas al enviar SMS al dispositivo.

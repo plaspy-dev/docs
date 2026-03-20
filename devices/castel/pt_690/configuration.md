@@ -78,20 +78,20 @@ If you are using SMS commands, follow the device example commands below to set a
 
 ## Example Configuration Commands
 
-The PT-690 supports SMS-based configuration in the public documentation. The default secret key for SMS instructions is the last 6 ASCII characters of the device ID. Replace {{SecretKey}} with that value and [apn], [apnu], [apnp] with your SIM APN, APN username, and APN password as applicable.
+The PT-690 supports SMS-based configuration in the public documentation. The default secret key for SMS instructions is the last 6 ASCII characters of the device ID. Replace [SecretKey] with that value and [apn], [apnu], [apnp] with your SIM APN, APN username, and APN password as applicable.
 
 - Set APN settings and the Plaspy server IP and port
 ```text
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Verify the GPRS and server settings on the device
 ```text
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Notes about placeholders:
-- {{SecretKey}} — last 6 ASCII characters of the device ID used as the SMS command secret.
+- [SecretKey] — last 6 ASCII characters of the device ID used as the SMS command secret.
 - [apn] — your mobile operator APN name.
 - [apnu] — APN username if required by the operator; leave empty if not used.
 - [apnp] — APN password if required; leave empty if not used.

@@ -4,130 +4,133 @@ id: tk115-configuration
 sidebar_label: Configuration
 title: EElink - TK115 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública para configurar el rastreador EElink TK115 y los ajustes de servidor necesarios para Plaspy y comandos SMS básicos
+description: Guía pública para conectar el rastreador EElink TK115 a Plaspy con ajustes de servidor y comandos SMS de ejemplo
 keywords:
-  - configuración EElink TK115
-  - configuración TK115 Plaspy
-  - configuración rastreador EElink
-  - configuración servidor TK115
-  - configuración GPS EElink
-  - integración rastreador Plaspy
-  - rastreo vehicular TK115
-  - configuración plataforma GPS TK115
-  - configuración SMS TK115
-  - gestión de flotas Plaspy
+  - Configuración EElink TK115
+  - Instalación EElink TK115
+  - Configuración TK115 en Plaspy
+  - Configuración de rastreador Plaspy
+  - Configuración rastreador GPS EElink
+  - Ajustes de servidor TK115
+  - Comandos SMS TK115
+  - Guía de instalación EElink
+  - Integración rastreador GPS con Plaspy
+  - Rastreo de vehículos TK115
 ---
 
-# EElink - Configuración TK115
+# EElink - Configuración del TK115
 
-Esta página presenta la guía pública para configurar el rastreador EElink TK115 con Plaspy. Incluye los ajustes de servidor compartidos que Plaspy espera y explica los pasos prácticos para apuntar un TK115 a Plaspy, de modo que el equipo entregue ubicación, estado y eventos de alarma a la plataforma.
+Esta página describe el contexto público de configuración para usar el rastreador GPS EElink TK115 con Plaspy. Explica los ajustes de servidor que debe aplicar en el dispositivo desde el lado de Plaspy, muestra comandos SMS de ejemplo incluidos en la documentación pública del TK115 y detalla el flujo práctico para preparar el rastreador y que comience a reportar a Plaspy.
 
-Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador. Los pasos exactos en el lado del fabricante pueden variar según la versión del firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor, así que use la documentación del fabricante junto con estas instrucciones públicas cuando sea necesario.
+Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador; sin embargo, los pasos de configuración por parte del fabricante pueden variar según la versión de firmware, la revisión del hardware, el tipo de instalación y las herramientas del proveedor. El TK115 admite cambios por SMS y reportes por GPRS; a continuación encontrará comandos SMS de ejemplo para las acciones de configuración más comunes.
 
-## Resumen de la configuración
+## Visión general de la configuración
 
-Este proceso prepara al TK115 para comunicarse de forma fiable con Plaspy estableciendo los puntos de servidor, el transporte, el intervalo de reporte y el APN cuando sea necesario. El objetivo es que el dispositivo pueda conectarse por GPRS y enviar telemetría a Plaspy para que el rastreador aparezca en la plataforma y reporte eventos.
+El objetivo de la configuración es apuntar el TK115 a Plaspy, confirmar que el dispositivo puede comunicarse con la plataforma y habilitar el envío fiable de ubicación y eventos. Con los comandos públicos que se muestran puede establecer el APN del dispositivo, registrar el servidor de Plaspy y verificar parámetros por SMS.
 
-- Apunte el dispositivo al endpoint de Plaspy para que la telemetría y las alarmas sean entregadas.
-- Configure el APN y los parámetros GPRS para que el TK115 use datos móviles.
-- Ajuste el intervalo de reporte y los temporizadores para controlar la frecuencia de actualización y el consumo de batería.
-- Verifique la configuración con un comando de verificación del fabricante o mediante la respuesta del dispositivo.
-- Valide que el dispositivo aparezca y reporte correctamente dentro de Plaspy.
+- Configure los parámetros GPRS y del servidor para que el TK115 informe a Plaspy
+- Valide la conectividad de red y la configuración del APN para permitir el envío de datos
+- Defina intervalos de reporte y parámetros básicos de telemetría según sus necesidades de monitoreo
+- Confirme que el rastreador aparezca en Plaspy después de aplicar los ajustes y reiniciar el dispositivo
+- Utilice el comando PARAM para verificar la configuración aplicada
 
-## Ajustes de servidor de Plaspy
+## Ajustes del servidor Plaspy
 
-- Dominio del servidor: d.plaspy.com
-- IP del servidor: 54.85.159.138
-- Puerto: 8888
-- Transporte: se admite UDP o TCP; el dispositivo puede configurarse con UDP o TCP en el puerto 8888
-- Plaspy detecta automáticamente el protocolo del rastreador y asigna el manejo de protocolo correspondiente
-- Nota: todos los dispositivos en Plaspy usan el mismo puerto
+- Dominio del servidor d.plaspy.com
+- IP del servidor 54.85.159.138
+- Puerto 8888
+- Soporte de transporte para UDP o TCP
+- Plaspy detecta automáticamente el protocolo del rastreador para conexiones entrantes de dispositivos
 
-## Requisitos habituales antes de la configuración
+Todos los dispositivos de Plaspy usan el mismo puerto y la plataforma intentará identificar el protocolo del rastreador automáticamente después de que el dispositivo comience a enviar datos.
 
-- Una tarjeta SIM funcional con un plan de datos activo y el APN correcto del operador móvil
-- Acceso físico al TK115 y al método de configuración que soporte su dispositivo (comandos SMS, herramienta del distribuidor o gestión remota de parámetros)
-- Fuente de alimentación estable durante la configuración y conocimiento del cableado de alimentación del equipo y del estado de la batería de respaldo
-- Información básica como APN, usuario APN y contraseña APN para la SIM; puede usar marcadores de posición en los comandos
-- Una forma de recibir o enviar SMS al equipo si utiliza configuración basada en SMS
-- Acceso a las credenciales de su cuenta Plaspy y al procedimiento de registro de dispositivos si su cuenta lo requiere
+## Requisitos típicos antes de la configuración
+
+- Una unidad TK115 con alimentación y acceso físico para enviar comandos SMS o usar la herramienta del fabricante
+- Una tarjeta SIM activada con GPRS/datos habilitados y el APN correcto del operador móvil
+- Acceso al método de envío de comandos SMS del dispositivo o al software de configuración oficial de EElink
+- Una cuenta o proyecto en Plaspy donde pueda confirmar que el dispositivo aparece cuando empiece a reportar
+- Conocimiento de los marcadores necesarios como el APN del operador móvil (vea los comandos más abajo)
+- Un plan para reiniciar o hacer un ciclo de energía del dispositivo después de la configuración si fuera necesario
 
 ## Cómo se conecta este rastreador a Plaspy
 
-Una vez configurado, el TK115 envía mensajes periódicos de telemetría y eventos al endpoint y puerto compartidos de Plaspy para que la plataforma muestre ubicación en tiempo real, estado y alarmas a los operadores. Plaspy ingiere los mensajes entrantes y los asocia con la cuenta y el dispositivo correctos.
+Una vez configurado, el TK115 envía reportes GPRS al endpoint del servidor de Plaspy en d.plaspy.com (o la IP 54.85.159.138) en el puerto 8888. Plaspy procesa los mensajes del rastreador y los mapea en la plataforma donde la ubicación, el estado y los eventos de alarma quedan visibles para los usuarios.
 
-- El rastreador reporta fijaciones de ubicación e información de posicionamiento asistido al endpoint del servidor Plaspy
-- Señales de estado como ACC, eventos de alimentación y notificaciones de alarma se entregan a Plaspy
-- El dispositivo utiliza GPRS para establecer conexión con el dominio o la IP del servidor Plaspy en el puerto 8888
-- El transporte puede ser UDP o TCP según la configuración del dispositivo; Plaspy acepta ambos y detecta automáticamente el protocolo del rastreador
-- Una vez activo el reporte, la visibilidad del dispositivo, las alertas y la telemetría estarán disponibles en Plaspy
+- El rastreador se apunta al endpoint y puerto de Plaspy y envía reportes periódicos
+- Plaspy recibe coordenadas GPS/LBS y mensajes de estado del dispositivo para visibilidad
+- Los eventos de alarma y estado se reenvían a Plaspy para alertas y activación de flujos de trabajo
+- El transporte puede configurarse como UDP o TCP en el dispositivo mientras Plaspy gestiona la detección automática del protocolo
+- Los intervalos de actualización del dispositivo controlan la frecuencia con la que el TK115 envía datos de posición y estado
 
-## Flujo de configuración habitual
+## Flujo típico de configuración
 
-1. Acceda al método oficial de configuración EElink para el TK115, por ejemplo comandos SMS o la herramienta del fabricante documentada por EElink.
-2. Ingrese el servidor Plaspy como dominio d.plaspy.com o como la IP 54.85.159.138 en el ajuste de servidor.
-3. Establezca el puerto del servidor en 8888; Plaspy usa el mismo puerto para todos los dispositivos compatibles.
-4. Elija el transporte UDP o TCP en el dispositivo si su configuración del TK115 requiere selección de transporte.
-5. Configure el APN, el usuario APN y la contraseña APN según la SIM usando el método del fabricante.
-6. Aplique o guarde la configuración del dispositivo y reinicie el rastreador si el dispositivo o el firmware lo requieren.
-7. Valide que el dispositivo reporte a Plaspy comprobando el estado en la plataforma y utilizando cualquier comando de verificación proporcionado por EElink.
+1. Acceda al método oficial de configuración de EElink para el TK115, normalmente comandos SMS o la herramienta y documentación del proveedor.
+2. Configure el APN del dispositivo para que coincida con la SIM del operador usando el comando APN, incluyendo el nombre de usuario y la contraseña si aplica.
+3. Ingrese la información del servidor de Plaspy añadiendo d.plaspy.com o la IP 54.85.159.138 como servidor TARGET.
+4. Establezca el puerto del servidor en 8888 y seleccione UDP o TCP si el TK115 requiere elegir el transporte.
+5. Aplique o guarde la configuración en el dispositivo (los comandos SMS se aplican cuando el dispositivo acepta el mensaje).
+6. Reinicie o haga un ciclo de energía del rastreador si el firmware lo requiere para activar los nuevos ajustes.
+7. Valide que el dispositivo está reportando a Plaspy revisando la plataforma en busca de datos entrantes o utilizando el comando PARAM de verificación del TK115.
 
-## Ejemplo de comandos de configuración
+## Comandos de configuración de ejemplo
 
-El TK115 puede configurarse mediante comandos SMS. Los siguientes comandos públicos se ofrecen como ejemplo en orden y deben enviarse por SMS al equipo. Preserve los marcadores de posición tal como se muestran.
+La configuración pública del TK115 utiliza comandos SMS. Envíe estos comandos en el orden mostrado al realizar una configuración inicial o de fábrica. Mantenga los marcadores tal como se indican.
 
-- Reinicio de fábrica opcional (usar solo cuando sea necesario)
+- Reset opcional de fábrica (usar solo cuando se requiera un reinicio de fábrica inicial)
 ```text
 FACTORY#
 ```
 
-- Establecer la zona horaria a UTC 0
+- Ajustar la zona horaria a UTC 0
 ```text
 GMT,E,0#
 ```
 
-- Configurar el APN del operador
+- Establecer el APN del operador
 ```text
-APN,[apn]# 
+APN,[apn]{{apnu_and_apnp}}#
 ```
-Si su APN requiere usuario y contraseña, incluya estos marcadores de posición:
+Explicación: reemplace [apn] por el APN de su operador móvil. Si su operador requiere nombre de usuario y contraseña del APN, inclúyalos en los campos separados por comas tal como indica la sintaxis original del dispositivo. El marcador [apnu] representa el nombre de usuario del APN y [apnp] representa la contraseña del APN cuando sea necesario. Ejemplo ampliado cuando se requiere usuario y contraseña:
 ```text
 APN,[apn],[apnu],[apnp]#
 ```
-Nota: [apn] es la cadena APN de su operador móvil. [apnu] y [apnp] son usuarios y contraseña APN opcionales.
 
-- Configurar el servidor GPRS usando el dominio de Plaspy (ejemplo con dominio)
+- Establecer el servidor GPRS al dominio de Plaspy (forma DNS preferida)
 ```text
 SERVER,1,d.plaspy.com,8888#
 ```
 
-- O configurar el servidor GPRS usando la IP de Plaspy (ejemplo con IP)
+- Alternativamente, establecer el servidor GPRS a la IP de Plaspy
 ```text
 SERVER,0,54.85.159.138,8888#
 ```
 
-- Establecer el intervalo de actualización de ubicación a 60 segundos
+- Establecer el intervalo de actualización periódico a 60 segundos
 ```text
 TIMER,60#
 ```
 
-- Consultar parámetros actuales del dispositivo
+- Verificar parámetros actuales
 ```text
 PARAM#
 ```
 
-Siga los comandos en el orden requerido por su despliegue. El comando de reinicio de fábrica es opcional y debe usarse solo cuando necesite restaurar los valores por defecto antes de reconfigurar.
+Notas sobre los comandos:
+- Envíe cada comando SMS como un único mensaje al número de control del TK115.
+- El comando SERVER acepta tanto el dominio d.plaspy.com como la IP 54.85.159.138; el puerto debe ser 8888 como se muestra.
+- Use el comando APN con los valores de su operador; mantenga los marcadores si debe sustituir las credenciales del APN del operador.
 
-## Notas sobre la configuración
+## Notas de configuración
 
-- Las revisiones de firmware y hardware pueden cambiar la sintaxis de comandos o las funciones disponibles; confirme siempre la compatibilidad de comandos con el firmware del TK115.
-- La configuración por SMS es comúnmente compatible con los dispositivos TK115; si existe una herramienta de software o un servicio de gestión remota de EElink, prefiera el método recomendado por su proveedor para despliegues masivos.
-- Elija UDP o TCP según la preferencia del instalador o las consideraciones de red; Plaspy acepta ambos en el puerto 8888 y detecta automáticamente el protocolo.
-- Use el dominio d.plaspy.com o la IP 54.85.159.138 al configurar el servidor. Plaspy acepta ambas formas; el puerto debe ser 8888.
-- Mantenga las credenciales del APN correctas; los marcadores de posición como [apn], [apnu] y [apnp] deben reemplazarse por los valores de su operador al enviar los comandos.
+- Las revisiones de firmware y hardware pueden cambiar la sintaxis exacta de los SMS o la disponibilidad de comandos; siempre verifique con la documentación de EElink para su versión de firmware.
+- Muchos instaladores prefieren enviar estos comandos por SMS para dispositivos en campo; las herramientas del proveedor o la configuración por USB también pueden estar disponibles desde EElink para programación masiva.
+- Elija UDP o TCP según las opciones del dispositivo; Plaspy acepta cualquiera de los dos transportes en el puerto 8888 y realiza la detección automática del protocolo en el servidor.
+- Al usar el comando SERVER puede emplear el dominio d.plaspy.com o la IP 54.85.159.138; ambos deben usar el puerto 8888.
+- Después de aplicar los ajustes, confirme que el dispositivo reporta en Plaspy y utilice PARAM# para comprobar la configuración activa en el dispositivo.
 
 ## Por qué usar Plaspy con esta configuración
 
-Configurar el EElink TK115 para reportar a Plaspy ofrece a operadores de flota y equipos de seguridad visibilidad centralizada y consistente sobre la ubicación de vehículos, eventos de alarma y señales de estado como ACC. Usar los ajustes de servidor compartidos de Plaspy simplifica el aprovisionamiento de dispositivos en flotas, ya que todos los equipos usan el mismo puerto y la plataforma detecta automáticamente el protocolo del rastreador.
+Configurar el EElink TK115 para reportar a Plaspy proporciona a las organizaciones un camino sencillo hacia la visibilidad en tiempo real de ubicaciones, alarmas y estados. Con las funciones del TK115 enfocadas a vehículos, como detección de ACC y control de relé opcional, la conexión a Plaspy facilita flujos de trabajo antirobo, monitoreo operativo y alertas automatizadas dentro de una única plataforma.
 
-Para conocer más sobre Plaspy visite https://www.plaspy.com. Para instrucciones específicas por dispositivo, avisos de firmware y detalles del fabricante verifique la información actual en el sitio de EElink https://www.eelink.com.cn/. Las especificaciones y métodos de configuración del fabricante pueden cambiar con el tiempo, así que confirme los pasos exactos para su dispositivo y revisión de firmware antes de un despliegue masivo.
+To learn more about Plaspy and how to manage devices at scale visit https://www.plaspy.com. Device specific configuration methods and firmware behavior can change over time, so verify the latest setup details on the manufacturer website https://www.eelink.com.cn/.

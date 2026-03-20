@@ -77,14 +77,14 @@ El ST4345 envía mensajes de posición GNSS y eventos al endpoint y puerto del s
 
 El modelo ST4345 incluye plantillas de comandos SMS para la configuración de red y reporte. El ID de dispositivo en estas plantillas son los seis dígitos inmediatamente antes del último dígito final del IMEI (los últimos 6 dígitos del IMEI excluyendo el dígito verificador final). Para un IMEI de 15 dígitos, son los 6 dígitos en las posiciones 9 a 14. Ejemplo: IMEI 123456789012345 -> device ID 901234.
 
-1) Configurar APN del operador y servidor GPRS (reemplazar {{device_id}}, [apn], [apnu] y [apnp] según corresponda). Establezca la bandera de autenticación a 1 si suministra [apnu] o [apnp], de lo contrario use 0.
+1) Configurar APN del operador y servidor GPRS (reemplazar [device_id], [apn], [apnu] y [apnp] según corresponda). Establezca la bandera de autenticación a 1 si suministra [apnu] o [apnp], de lo contrario use 0.
 
 ```
-SA200NTW;{{device_id}};02;{auth_flag};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[auth_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
-- {{device_id}} — ID de dispositivo de seis dígitos derivado del IMEI como se describió arriba.  
-- {auth_flag} — 1 si se proporciona usuario o contraseña del APN, de lo contrario 0.  
+- [device_id] — ID de dispositivo de seis dígitos derivado del IMEI como se describió arriba.  
+- [auth_flag] — 1 si se proporciona usuario o contraseña del APN, de lo contrario 0.  
 - [apn] — nombre del APN del operador.  
 - [apnu] — usuario del APN si es necesario.  
 - [apnp] — contraseña del APN si es necesaria.
@@ -92,13 +92,13 @@ SA200NTW;{{device_id}};02;{auth_flag};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 2) Ajustar el intervalo de reporte a 60 segundos (en esta plantilla reporte, latido y movimiento están en 60):
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Consultar o solicitar la configuración actual preestablecida del dispositivo:
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Notas sobre el envío de comandos:
@@ -111,8 +111,8 @@ Notas sobre el envío de comandos:
 - El ST4345 admite la configuración por SMS como muestran las plantillas del proveedor; herramientas alternativas del fabricante o servidores de mantenimiento pueden ofrecer las mismas opciones vía GUI o actualización remota.
 - Elija TCP o UDP según la preferencia del instalador o las condiciones de red; Plaspy acepta ambos en el puerto 8888 y detectará el protocolo automáticamente.
 - Verifique la versión de firmware y las variantes (ST4345R, ST4345LB, ST4345LC) porque la sintaxis de comandos o las funciones disponibles pueden cambiar entre revisiones de firmware y hardware.
-- Asegúrese de que las credenciales APN sean correctas y de que la SIM tenga un plan de datos activo; use el valor {auth_flag} para indicar si se requiere autenticación APN.
-- Confirme el {{device_id}} calculado a partir del IMEI antes de enviar los comandos; un ID incorrecto puede impedir que el dispositivo acepte la configuración o que sea emparejado en Plaspy.
+- Asegúrese de que las credenciales APN sean correctas y de que la SIM tenga un plan de datos activo; use el valor [auth_flag] para indicar si se requiere autenticación APN.
+- Confirme el [device_id] calculado a partir del IMEI antes de enviar los comandos; un ID incorrecto puede impedir que el dispositivo acepte la configuración o que sea emparejado en Plaspy.
 
 ## Por qué usar Plaspy con esta configuración
 

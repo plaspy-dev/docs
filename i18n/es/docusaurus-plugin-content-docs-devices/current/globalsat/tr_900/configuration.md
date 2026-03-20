@@ -79,21 +79,21 @@ El TR-900 se configura para reportar ubicación y diagnósticos OBDII al endpoin
 El TR-900 admite configuración basada en SMS mediante plantillas de comando. Las siguientes plantillas públicas aparecen en la documentación del equipo y se muestran en el orden en que normalmente se aplican.
 
 Marcadores importantes:
-- {{imei}} — reemplace con el número IMEI del dispositivo
+- [imei] — reemplace con el número IMEI del dispositivo
 - [apn] — reemplace con el APN de la red móvil
 - [apnu] — reemplace con el usuario del APN si es necesario
 - [apnp] — reemplace con la contraseña del APN si es necesaria
-- {{checksum}} y {{checksumreeboot}} — sumas de comprobación XOR en hexadecimal de dos caracteres en mayúsculas, calculadas sobre el texto del comando antes del carácter asterisco
+- [checksum] y [checksumreeboot] — sumas de comprobación XOR en hexadecimal de dos caracteres en mayúsculas, calculadas sobre el texto del comando antes del carácter asterisco
 
 Comando principal de configuración
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 - Este comando establece los campos APN y configura E0 como 54.85.159.138 y el puerto E1 como 8888. Mantenga los marcadores y sustitúyalos por sus valores antes de enviar.
 
 Comando opcional de reinicio (usar cuando se requiera reiniciar para aplicar ajustes)
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 - Este comando solicita un reinicio del dispositivo. Es opcional y debe emplearse cuando el rastreador requiera un reinicio para aplicar la configuración.
 

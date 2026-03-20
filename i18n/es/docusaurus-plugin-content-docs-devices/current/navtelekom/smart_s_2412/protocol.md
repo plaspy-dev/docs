@@ -4,77 +4,77 @@ id: smart_s_2412-protocol
 sidebar_label: Protocol
 title: Navtelekom - SMART S-2412 Protocol
 sidebar_class_name: menu_item_tracker
-description: Guía pública del protocolo para Navtelekom SMART S 2412 y su integración con Plaspy, con instrucciones de conexión y notas de compatibilidad
+description: Información pública del protocolo para Navtelekom SMART S-2412 e integración con Plaspy, sobre conectividad y compatibilidad
 keywords:
   - Protocolo Navtelekom SMART S-2412
   - Protocolo GPS SMART S-2412
-  - Compatibilidad rastreador Navtelekom Plaspy
-  - Protocolo de comunicación SMART S-2412
-  - Protocolo de rastreo SMART S-2412
-  - Compatibilidad de dispositivos Plaspy
-  - Guía de protocolo para rastreadores de vehículos
-  - Integración rastreador GLONASS GPS
-  - Protocolo de rastreo de flotas Plaspy
-  - Telemetría y reporte de sensores
+  - Protocolo de rastreador GPS Navtelekom
+  - Compatibilidad SMART S-2412 con Plaspy
+  - Comunicación del rastreador Navtelekom
+  - Protocolo de rastreador GPS Plaspy
+  - Rastreo de vehículos SMART S-2412
+  - Protocolo de rastreador para gestión de flotas
+  - Telemetría SMART S-2412
+  - Protocolo GNSS GPS para rastreadores
 ---
 
 # Navtelekom - Protocolo SMART S-2412
 
-Esta página describe el contexto público del protocolo para utilizar el rastreador Navtelekom SMART S-2412 con Plaspy. Resume cómo el equipo se comunica a través de redes móviles, qué papel tiene el protocolo de reporte en la entrega de telemetría GNSS y de sensores a Plaspy, y qué ajustes de conexión se usan para la integración sin exponer detalles internos del dispositivo.
+Esta página explica el contexto público del protocolo para usar el rastreador Navtelekom SMART S-2412 con Plaspy. Se centra en cómo el dispositivo transmite la telemetría y los datos de sensores a Plaspy, y en qué aspectos de la comunicación son relevantes al configurar y desplegar el rastreador en entornos de flotas. El contenido busca aclarar consideraciones de conexión y compatibilidad sin revelar detalles privados de implementación del fabricante.
 
-El SMART S-2412 es un rastreador vehicular compacto con GLONASS/GPS, diseñado para instalación fija y para reportar posición, nivel de combustible, temperatura y telemetría de entradas/salidas. Plaspy emplea ajustes de conexión compartidos entre dispositivos soportados y detecta automáticamente el protocolo del rastreador; sin embargo, el comportamiento exacto del protocolo puede variar según firmware, revisión de hardware e implementación del fabricante. Para detalles específicos de firmware y las opciones de configuración más recientes consulte la documentación del fabricante.
+Plaspy emplea ajustes de conexión compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador cuando el dispositivo está correctamente apuntado al endpoint de Plaspy. El comportamiento exacto del protocolo y el contenido de los mensajes pueden variar según la versión de firmware del SMART S-2412, la revisión de hardware y la configuración del fabricante, por lo que esta página destaca detalles públicos, neutrales respecto de la implementación y contexto práctico de configuración.
 
 ## Resumen del protocolo
 
-El protocolo de reporte define cómo el SMART S-2412 formatea y envía la telemetría por la conexión celular hacia un servidor remoto. Para la compatibilidad con Plaspy, los aspectos públicos importantes son que el dispositivo puede entregar posiciones GNSS, lecturas de sensores y eventos de E/S al endpoint de Plaspy para que la plataforma procese ubicación, historial y alertas.
+El protocolo que utiliza el SMART S-2412 define cómo se envían las posiciones GNSS, la telemetría de sensores y los eventos de E/S desde el rastreador hacia un servidor remoto. Para la integración con Plaspy, la función principal del protocolo es permitir que el dispositivo se identifique de forma fiable, reporte posiciones y lecturas de sensores, y entregue cambios de estado basados en eventos para que la plataforma pueda mostrar y actuar sobre esos datos.
 
-- El protocolo transporta fijaciones de posición periódicas y mensajes generados por eventos para que Plaspy reconstruya rutas y dispare alertas.
-- La telemetría de sensores, como nivel de combustible y temperatura, se incluye en los reportes del dispositivo y se mapea en los tableros e informes de Plaspy.
-- Cambios en estados de E/S y control se reportan para que Plaspy interprete eventos de ignición, puertas y alarmas.
-- El rastreador se identifica en cada sesión para que Plaspy asocie los datos entrantes con el registro vehicular correcto.
-- El reporte independiente del transporte permite que el equipo use enlaces estándar TCP o UDP hacia el endpoint configurado.
+- Transporta la telemetría del dispositivo hacia un endpoint remoto para que Plaspy registre ubicación y datos de sensores.
+- Contiene información de identificación y estado del dispositivo que permite a Plaspy asociar los datos entrantes con el rastreador correcto.
+- Codifica valores de sensores y estados de E/S para que telemetrías como nivel de combustible, temperatura y entradas digitales aparezcan correctamente en Plaspy.
+- Soporta reportes periódicos de posición y mensajes impulsados por eventos usados en geocercas, alertas y flujos de inmovilizador.
+- Funciona en conjunto con la configuración del dispositivo y los ajustes de conectividad para asegurar la entrega oportuna de la telemetría a Plaspy.
 
-## Cómo Plaspy detecta el protocolo
+## Cómo detecta Plaspy el protocolo
 
-Plaspy recibe el tráfico de dispositivos en un endpoint y puerto compartidos y usa detección automática para determinar el protocolo del rastreador. En la mayoría de los casos, un SMART S-2412 correctamente configurado no requiere selección manual de protocolo dentro de Plaspy; la plataforma interpretará la telemetría entrante y presentará los datos en la interfaz de usuario.
+Plaspy acepta conexiones de dispositivos en un endpoint y puerto compartidos y usa esos datos entrantes para identificar el protocolo apropiado del rastreador. En la práctica esto significa que la mayoría de las unidades SMART S-2412 solo necesitan ser apuntadas al endpoint de Plaspy y la plataforma detectará automáticamente el formato de reporte del dispositivo.
 
-- El dominio del servidor Plaspy es d.plaspy.com y la IP del servidor Plaspy para reportes de dispositivos es 54.85.159.138.
-- El puerto es 8888 y Plaspy detecta automáticamente el protocolo del rastreador cuando llega telemetría compatible.
-- Todos los dispositivos en Plaspy usan el mismo puerto, lo que simplifica la configuración y el onboarding.
-- Usualmente los usuarios apuntan los dispositivos al endpoint de Plaspy y permiten que la plataforma identifique y parseé los mensajes entrantes.
-- Si un dispositivo no aparece, confirme la configuración de red del equipo, el comportamiento del firmware y que esté reportando al endpoint correcto de Plaspy.
+- El dominio del servidor Plaspy es d.plaspy.com, al cual puede configurarse el dispositivo para reportar.
+- La IP del servidor Plaspy es 54.85.159.138 y está disponible como destino alternativo cuando no se prefiere DNS.
+- El puerto común usado por Plaspy es 8888 y todos los dispositivos soportados por Plaspy usan ese mismo puerto.
+- Plaspy detecta automáticamente el protocolo del rastreador, por lo que la selección manual del protocolo dentro de la plataforma generalmente no es necesaria.
+- La configuración correcta del dispositivo para reportar al endpoint de Plaspy es el requisito habitual para que la detección automática tenga éxito.
 
-## Transporte y contexto de conexión
+## Contexto de transporte y conexión
 
-Los ajustes de conexión determinan cómo el SMART S-2412 envía su telemetría a Plaspy. El dispositivo puede usar cualquiera de los protocolos de transporte comunes según su firmware y configuración, y los administradores deben establecer la dirección del servidor al endpoint de Plaspy que coincida con su plan de red.
+Las decisiones sobre conexión y transporte determinan cómo el SMART S-2412 alcanza el endpoint de Plaspy. El dispositivo puede configurarse para usar cualquiera de las opciones de transporte comunes que soporta el rastreador, y el comportamiento de la red puede afectar características de entrega como latencia y reintentos.
 
-- El equipo puede configurarse para usar UDP o TCP en el puerto 8888 según el soporte y la configuración del dispositivo.
-- Los dispositivos pueden apuntar al dominio del servidor Plaspy d.plaspy.com o directamente al endpoint numérico 54.85.159.138.
-- Plaspy escucha en el mismo puerto para todos los dispositivos soportados, lo que reduce diferencias en la configuración por unidad.
-- La conectividad celular y la provisión de la SIM afectan el comportamiento de la entrega y deben validarse durante la puesta en marcha.
-- Asegúrese de que el APN y el acceso a la red estén configurados correctamente para que el rastreador alcance el endpoint de Plaspy a través de la red móvil.
+- El SMART S-2412 puede configurarse usando UDP o TCP en el puerto 8888 según el soporte del dispositivo y la preferencia del operador.
+- Los dispositivos pueden apuntarse al dominio d.plaspy.com o directamente a la IP del servidor 54.85.159.138 si no hay resolución DNS disponible.
+- Plaspy utiliza el mismo puerto 8888 para todos los dispositivos soportados con el fin de simplificar la configuración y las reglas de firewall.
+- Elegir UDP suele favorecer menor overhead, mientras que TCP puede ofrecer entrega en orden y retransmisión incorporada según las capacidades del rastreador.
+- La conectividad celular, el comportamiento de la red del operador y la provisión de la SIM influyen en la fiabilidad con la que el transporte entrega la telemetría a Plaspy.
 
-## Notas de compatibilidad del protocolo
+## Notas sobre compatibilidad del protocolo
 
-- Las revisiones de firmware pueden cambiar tiempos de mensaje, campos opcionales y cargas de sensores; siempre verifique el comportamiento después de una actualización de firmware.
-- Revisiones de hardware y módulos accesorios como sensores Bluetooth o dispositivos RS-485 pueden afectar qué campos de telemetría se reportan.
-- Las herramientas de configuración del fabricante y la gestión remota DRC pueden alterar cómo el dispositivo construye o programa los reportes.
-- La selección de transporte entre UDP y TCP puede afectar las garantías de entrega y la latencia percibida en el reporte de eventos.
-- La detección automática de Plaspy maneja las variantes comunes, pero algunos modos personalizados o firmware legacy pueden requerir validación adicional.
-- Valide la compatibilidad usando la documentación oficial de Navtelecom y pruebe los dispositivos en un entorno controlado antes de un despliegue masivo.
+- La compatibilidad puede variar según la versión de firmware del SMART S-2412; las funciones y el comportamiento de los mensajes pueden diferir entre versiones de firmware.
+- Revisiones de hardware u opciones de interfaz como RS-485 o sensores Bluetooth pueden afectar qué campos de telemetría están disponibles para Plaspy.
+- Las herramientas de configuración del fabricante y la gestión remota DRC influyen en los intervalos de reporte por defecto y en los sensores habilitados, lo que a su vez determina qué recibe Plaspy.
+- La elección del transporte entre UDP y TCP puede cambiar las características de entrega de mensajes y debe validarse durante la puesta en marcha.
+- Es necesario verificar las restricciones del operador de red, los ajustes APN y la provisión de la SIM para asegurar que el rastreador pueda alcanzar d.plaspy.com o 54.85.159.138.
+- Siempre valide la configuración del dispositivo después de actualizaciones de firmware y antes de un despliegue a gran escala para mantener un comportamiento consistente.
 
 ## Por qué es importante entender el protocolo
 
-Comprender cómo se comunica el SMART S-2412 contribuye a un onboarding confiable, al mapeo preciso de telemetría en Plaspy y a una resolución de problemas más eficiente cuando los dispositivos presentan comportamientos inesperados. Tener expectativas claras sobre lo que el equipo reporta y cómo Plaspy lo recibe ahorra tiempo durante el despliegue y la operación.
+Comprender cómo el SMART S-2412 se comunica con Plaspy ayuda a los instaladores y operadores a configurar correctamente los dispositivos, solucionar problemas de conectividad o datos y asegurar la fiabilidad a largo plazo en despliegues de flotas.
 
-- Asegura que los campos GNSS y de sensores se mapeen correctamente en los tableros e informes de Plaspy.
-- Facilita el diagnóstico de problemas de conectividad relacionados con APN, SIM o selección de protocolo de transporte.
-- Orienta decisiones sobre actualizaciones de firmware y cambios de configuración que afecten la cadencia de reporte o el contenido de la carga útil.
-- Apoya la planificación para integraciones de sensores como sensores de combustible cableados, sondas de temperatura inalámbricas y periféricos RS-485.
-- Mejora la respuesta ante incidentes al facilitar la interpretación de logs de eventos, estados de E/S y brechas en la telemetría.
+- Garantiza el direccionamiento correcto para que el rastreador reporte a d.plaspy.com o 54.85.159.138 en el puerto 8888.
+- Ayuda a elegir el modo de transporte adecuado UDP o TCP según la red y las necesidades operativas.
+- Facilita la resolución de problemas cuando falta telemetría, al acotar los problemas a red, SIM, transporte o firmware.
+- Orienta la gestión de firmware y configuración para que los campos de telemetría requeridos por Plaspy estén habilitados y formateados de forma consistente.
+- Mejora la fiabilidad de los flujos de alertas y control al confirmar que eventos de E/S y sensores llegan a Plaspy según lo esperado.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el SMART S-2412 con Plaspy brinda a los operadores de flotas una solución práctica para combinar telemetría de grado vehicular con una plataforma centralizada para rastreo, monitoreo de combustible y control de temperatura. Las antenas GLONASS/GPS y GSM integradas del dispositivo, junto con el soporte para sensores cableados e inalámbricos y conectividad Bluetooth, lo hacen adecuado para escenarios de flotas y transporte refrigerado donde la telemetría oportuna y precisa es crítica.
+Usar el Navtelekom SMART S-2412 con Plaspy ofrece a los equipos de flota una vía práctica hacia visibilidad en tiempo real, alertas basadas en telemetría y monitoreo operativo centralizado. La combinación de GNSS integrado, soporte para sensores de combustible cableados e inalámbricos, sensores de temperatura Bluetooth y E/S de calidad vehicular convierte al S-2412 en un nodo de telemetría útil para flotas que dependen tanto de la posición como de datos de sensores.
 
-Plaspy simplifica el onboarding de dispositivos al usar un único puerto de escucha y detección automática de protocolo, reduciendo el trabajo de configuración por unidad mientras provee ubicación en tiempo real, historial y capacidades de alerta. To learn more about Plaspy and how it handles device connections visit https://www.plaspy.com. For device specific protocol documents, firmware notes, and the latest configuration guidance verify details on the manufacturer website https://www.navtelecom.ru/.
+Si está evaluando opciones de integración, el modelo de endpoint compartido de Plaspy simplifica la configuración del dispositivo y reduce la necesidad de selección manual del protocolo dentro de la plataforma. Para saber más sobre Plaspy y cómo funciona con dispositivos como el SMART S-2412 visite https://www.plaspy.com. Tenga en cuenta que el soporte de protocolo, el comportamiento del firmware y los detalles de implementación del dispositivo pueden cambiar con el tiempo, por lo que debe verificar la información más reciente sobre el dispositivo con el fabricante en https://www.navtelecom.ru/

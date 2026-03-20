@@ -4,78 +4,77 @@ id: smart_s_2435_max-protocol
 sidebar_label: Protocol
 title: Navtelekom - SMART S-2435 MAX Protocol
 sidebar_class_name: menu_item_tracker
-description: Resumen público del protocolo para integrar el Navtelekom SMART S-2435 MAX con Plaspy en rastreo de flotas y activos
+description: Descripción pública del protocolo Navtelekom SMART S-2435 MAX y cómo se comunica con Plaspy para rastreo de flotas
 keywords:
-  - Navtelekom SMART S-2435 MAX
-  - protocolo Navtelekom SMART S-2435 MAX
-  - protocolo de rastreador GPS Navtelekom
-  - SMART S-2435 MAX Plaspy
-  - comunicación SMART S-2435 MAX
-  - protocolo de rastreo SMART S-2435 MAX
-  - rastreador compatible Plaspy
-  - integración de rastreo de flotas
-  - telemetría vehicular Navtelekom
-  - rastreador GLONASS GPS
+  - Protocolo Navtelekom SMART S-2435 MAX
+  - Protocolo rastreador GPS Navtelekom
+  - Compatibilidad SMART S-2435 MAX Plaspy
+  - Protocolo de rastreo Navtelekom
+  - Comunicación rastreador GPS Plaspy
+  - Comunicación SMART S-2435 MAX
+  - Protocolo seguimiento de flotas Navtelekom
+  - Integración de dispositivos Plaspy
+  - Protocolo telemática vehicular
+  - Integración SMART S-2435 MAX
 ---
 
 # Navtelekom - Protocolo SMART S-2435 MAX
 
-Esta página describe el contexto público del protocolo para usar el Navtelekom SMART S-2435 MAX con Plaspy. Explica a grandes rasgos cómo se comunica el equipo y qué ajustes de conexión son relevantes al enviar datos del rastreador a Plaspy para seguimiento en tiempo real, telemetría e informes.
+Esta página ofrece una visión pública y no sensible sobre cómo se comunica el Navtelekom SMART S-2435 MAX cuando se integra con Plaspy. Está pensada para ayudar a responsables de flota, integradores y equipos técnicos a comprender cómo el equipo informa posición y telemetría a Plaspy sin revelar detalles privados de implementación. La información se basa en las características publicadas del dispositivo y en patrones comunes de integración para rastreadores compatibles con Plaspy.
 
-El SMART S-2435 MAX es un rastreador GPS compacto compatible con Plaspy, con GNSS (GLONASS/GPS), conectividad dual SIM 2G, antenas internas, batería de respaldo y una amplia gama de entradas/salidas para integración vehicular. Plaspy emplea ajustes de conexión compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador. El comportamiento exacto del protocolo puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que conviene consultar la documentación del fabricante para detalles específicos de firmware.
+Plaspy usa un endpoint compartido y un puerto común para los dispositivos soportados y detecta automáticamente el protocolo del rastreador una vez que la unidad está configurada para reportar al endpoint de Plaspy. El comportamiento exacto del protocolo y los mensajes disponibles pueden variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que esta página se centra en el contexto público de conexión y compatibilidad más que en detalles internos de firmware.
 
 ## Visión general del protocolo
 
-A alto nivel, el protocolo de reporte del rastreador define cómo el SMART S-2435 MAX empaqueta posiciones GNSS, telemetría de sensores y estados de eventos para su entrega a un servidor remoto. El protocolo regula la identidad, la cadencia de los mensajes y los tipos de telemetría que llegan a Plaspy para que la plataforma pueda mostrar mapas, activar alertas y almacenar el historial.
+El protocolo de comunicación del SMART S-2435 MAX define cómo el dispositivo se identifica, reporta posiciones GNSS y transmite telemetría del vehículo y estados de entradas/salidas a un servidor telemático remoto como Plaspy. Para fines de integración, el protocolo permite la entrega fiable de ubicación, eventos del acelerómetro, estado de entradas y telemetría de sensores para que Plaspy pueda mostrar mapas, activar alertas y almacenar historiales.
 
-- Permite que el dispositivo reporte posición GNSS, marca temporal y telemetría de movimiento al endpoint de Plaspy.
-- Transporta estados de entradas digitales y analógicas, telemetría CAN o serial y marcadores de eventos para su uso en reglas e informes.
-- Proporciona un identificador para que Plaspy pueda asociar los flujos entrantes con el registro correcto de vehículo o activo.
-- Especifica cuándo y cómo se transmiten los reportes periódicos, mensajes de alarma y actualizaciones de estado.
-- Soporta flujos bidireccionales cuando aplica, permitiendo actualizaciones remotas de parámetros o acciones de control si el firmware y el transporte lo permiten.
+- El protocolo transporta los reportes de posición GNSS desde el equipo al servidor para ubicación en tiempo real e historial de rutas.
+- Los canales de telemetría incluyen entradas universales, salidas de control, datos CAN y serie cuando el dispositivo y el firmware lo soportan.
+- Telemetrías integradas como eventos del acelerómetro, estado de batería de respaldo y lecturas de sensores Bluetooth se entregan mediante el mecanismo de reporte del rastreador.
+- El protocolo incluye datos de identificación para que Plaspy asocie correctamente los flujos entrantes con el registro del dispositivo.
+- Los mensajes se transmiten por la conexión celular y deben dirigirse al endpoint configurado de Plaspy para su detección y procesamiento automáticos.
 
 ## Cómo detecta Plaspy el protocolo
 
-Plaspy recibe conexiones entrantes en un único endpoint y puerto compartidos y aplica detección automática de protocolo para asociar el tráfico con un tipo de rastreador conocido. En la mayoría de los casos, cuando el SMART S-2435 MAX está configurado para reportar a Plaspy, no es necesario seleccionar el protocolo manualmente dentro de la plataforma.
+Plaspy opera un endpoint unificado para el reporte de dispositivos y determina automáticamente el protocolo adecuado cuando llegan los mensajes. En la mayoría de las implementaciones, una vez que el SMART S-2435 MAX está configurado para apuntar a Plaspy, no es necesario seleccionar manualmente el protocolo dentro de Plaspy.
 
-- Plaspy escucha en el endpoint compartido d.plaspy.com y en la IP pública del servidor 54.85.159.138.
-- Todos los dispositivos en Plaspy usan el mismo puerto y Plaspy detecta automáticamente el protocolo del rastreador.
-- Por lo general, los usuarios configuran el dispositivo para reportar al endpoint de Plaspy y permiten que la detección automática empareje el flujo del equipo.
-- Una identificación correcta del dispositivo en la primera conexión ayuda a Plaspy a mapear los datos al activo adecuado y aplicar las reglas de parseo.
-- Si un dispositivo no aparece, esto normalmente señala diferencias de configuración, red o firmware más que la necesidad de cambiar la selección de protocolo dentro de Plaspy.
+- Plaspy escucha los reportes de dispositivos en el dominio público del servidor d.plaspy.com y en la IP pública 54.85.159.138.
+- Todos los dispositivos en Plaspy usan el mismo puerto, por lo que las conexiones entrantes se normalizan para la detección de protocolo.
+- Plaspy detecta automáticamente el protocolo del rastreador a partir del flujo de datos entrante en lugar de requerir que el usuario elija un protocolo manualmente.
+- La configuración correcta del dispositivo para que reporte al endpoint de Plaspy es el requisito habitual para que la detección automática funcione.
+- Si un dispositivo no se detecta automáticamente, lo recomendado es revisar la configuración de reporte del equipo y el comportamiento del firmware como primer paso.
 
 ## Transporte y contexto de conexión
 
-La capa de transporte física determina cómo los paquetes llegan a Plaspy pero no cambia el rol público del protocolo de dispositivo. El SMART S-2435 MAX puede configurarse para usar transportes celulares comunes para alcanzar el endpoint remoto; la elección depende del soporte del equipo y de las condiciones de la red.
+La configuración de conexión describe cómo el SMART S-2435 MAX envía sus datos a Plaspy y qué opciones de transporte son las más habituales. Esta sección describe los hechos públicos de conexión relevantes para la configuración y las políticas de red.
 
-- El rastreador puede configurarse para usar UDP o TCP en el puerto 8888 para enviar telemetría a Plaspy.
-- Los dispositivos pueden apuntar al nombre DNS d.plaspy.com o a la IP del servidor 54.85.159.138 según la preferencia de despliegue.
-- El puerto 8888 es el puerto compartido usado por Plaspy para todos los dispositivos compatibles.
-- La selección del transporte (UDP vs TCP) puede afectar la latencia y las garantías de entrega, pero ambos son soportados según el firmware del dispositivo.
-- Asegúrese de que la configuración APN, la selección de SIM y el registro en la red sean correctos para una entrega fiable sobre el enlace 2G.
+- El equipo puede configurarse para usar UDP o TCP en el puerto 8888 según el soporte del dispositivo y las preferencias de despliegue.
+- Plaspy acepta reportes dirigidos a d.plaspy.com y a la IP indicada 54.85.159.138 en el puerto 8888.
+- Todos los dispositivos integrados con Plaspy usan el mismo puerto, lo que simplifica las reglas de firewall y de red para flotas grandes.
+- Elegir UDP o TCP depende de si la implementación prefiere menor latencia y reportes tipo “fire-and-forget” (UDP) o un transporte orientado a conexión (TCP) cuando esté disponible.
+- Asegúrese de que el rastreador apunte al endpoint de Plaspy en la configuración del dispositivo para que los reportes lleguen al servidor y sean detectados automáticamente.
 
 ## Notas sobre compatibilidad del protocolo
 
-- Las diferencias de firmware pueden cambiar campos de mensajes, telemetría disponible y comportamiento de comandos; siempre verifique la versión de firmware al diagnosticar problemas.
-- Revisiones de hardware o variantes regionales del SMART S-2435 MAX pueden implementar funciones del protocolo de forma ligeramente distinta.
-- La elección del transporte importa: algunos builds de firmware usan UDP por defecto mientras que otros prefieren TCP; confirme la configuración del equipo antes del despliegue.
-- Las herramientas de configuración del fabricante o archivos de aprovisionamiento pueden alterar intervalos de reporte y canales habilitados que afectan el parseo en Plaspy.
-- Valide compatibilidad confirmando que el dispositivo está configurado para reportar a d.plaspy.com o a 54.85.159.138 en el puerto 8888.
-- Al integrar CAN, RS-232, RS-485 o sensores Bluetooth, asegúrese de que los campos de telemetría mapeados coincidan con las expectativas de sus reglas e informes en Plaspy.
-- Para integraciones avanzadas (MODBUS, mapeo I/O personalizado), consulte la documentación de Navtelekom para orientación específica de firmware.
+- Las versiones de firmware pueden añadir, cambiar o descontinuar mensajes y campos de telemetría; verifique las funcionalidades frente a las notas de la versión del firmware.
+- Las revisiones de hardware y las interfaces opcionales como CAN, RS-232, RS-485 y Bluetooth pueden afectar qué canales de telemetría están disponibles para Plaspy.
+- La elección del transporte (UDP frente a TCP) debe coincidir con la configuración del equipo y las limitaciones de red de su entorno.
+- Las herramientas de configuración del fabricante o utilidades de configuración pueden alterar cómo el dispositivo enmarca y programa los reportes; consulte la documentación del proveedor al ajustar el reporte.
+- Valide el comportamiento del dispositivo en un entorno de prueba antes de un despliegue a gran escala para confirmar el mapeo de telemetría a los paneles y reglas de Plaspy.
+- Contacte al fabricante del dispositivo para aclaraciones sobre firmware y protocolo cuando sea necesario.
 
-## Por qué es importante entender el protocolo
+## Por qué es importante comprender el protocolo
 
-Comprender cómo el SMART S-2435 MAX se comunica con Plaspy ayuda a garantizar una puesta en marcha rápida, telemetría precisa y operación fiable a largo plazo. Tener claro el contexto de conexión, el transporte y la variabilidad del firmware reduce el tiempo de resolución de problemas y mejora la calidad de los datos.
+Saber cómo se comunica el SMART S-2435 MAX ayuda a asegurar una configuración fiable, un mapeo de telemetría preciso y una resolución de problemas más rápida durante la integración con Plaspy. Tener claridad reduce el tiempo de puesta en marcha y facilita la interpretación de comportamientos inesperados del equipo.
 
-- Acelera la configuración inicial al confirmar endpoint, transporte y ajustes APN correctos antes del despliegue.
-- Ayuda a diagnosticar telemetría faltante o malformada considerando la versión de firmware y el comportamiento del transporte.
-- Permite planear mejor la cadencia de telemetría, el comportamiento de la batería de respaldo y los umbrales de eventos que afectan los reportes.
-- Facilita el mapeo correcto de señales y sensores del vehículo en reglas, alertas y paneles de Plaspy.
-- Reduce el tiempo de inactividad al clarificar dónde buscar cuando un dispositivo deja de reportar: red, SIM, transporte o ajustes de firmware.
+- Ayuda a garantizar que los reportes del dispositivo estén dirigidos correctamente a d.plaspy.com o 54.85.159.138 para que Plaspy pueda recibir y procesar los mensajes.
+- Facilita la selección correcta del transporte entre UDP y TCP en el puerto 8888 según las necesidades del despliegue.
+- Simplifica la resolución de problemas cuando las actualizaciones de ubicación, los estados de E/S o la telemetría no aparecen como se espera en Plaspy.
+- Ayuda a planificar actualizaciones de firmware y a comprender cómo los cambios pueden afectar la telemetría o la cadencia de mensajes.
+- Soporta el mapeo correcto de entradas y salidas del dispositivo a eventos, alertas y acciones de control en Plaspy.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el SMART S-2435 MAX con Plaspy ofrece un camino directo hacia localización en tiempo real, telemetría vehicular y alertas basadas en reglas para flotas y activos. El posicionamiento GLONASS/GPS del equipo, la resiliencia de doble SIM, la batería de respaldo y su amplio conjunto de E/S lo hacen apto para entornos vehiculares exigentes donde la visibilidad continua es importante.
+Usar el Navtelekom SMART S-2435 MAX con Plaspy ofrece un camino práctico para convertir la telemetría del dispositivo en visibilidad operativa. La capacidad GNSS del rastreador, su diseño de alimentación resiliente y sus interfaces I/O flexibles lo hacen adecuado para monitoreo de flotas, flujos anti-robo, telemetría de combustible y sensores, e integración con redes vehiculares. Plaspy recibe los flujos del dispositivo, los asocia con activos y proporciona visualización, alertas e informes que las organizaciones usan en sus operaciones diarias.
 
-El modelo de endpoint unificado de Plaspy simplifica la incorporación de dispositivos ya que reportan a d.plaspy.com o 54.85.159.138 en el puerto 8888 y Plaspy detecta automáticamente el protocolo del rastreador. Si desea saber más sobre cómo Plaspy soporta rastreadores como el SMART S-2435 MAX y cómo la plataforma maneja mapeo, alertas e informes, visite https://www.plaspy.com. Para detalles actuales del protocolo del dispositivo, notas de firmware y orientación de implementación, verifique la información en el sitio del fabricante https://www.navtelecom.ru/ ya que el comportamiento del firmware y los detalles del protocolo pueden cambiar con el tiempo.
+Para saber más sobre Plaspy y cómo funciona con dispositivos como el SMART S-2435 MAX visite https://www.plaspy.com. Para obtener los detalles más recientes específicos del protocolo del dispositivo, notas de firmware y documentación de hardware, verifique la información con el fabricante en https://www.navtelecom.ru/ ya que el soporte de protocolo y la implementación del firmware pueden cambiar con el tiempo.

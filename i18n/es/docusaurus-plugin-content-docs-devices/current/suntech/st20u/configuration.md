@@ -75,30 +75,30 @@ El ST20U suministra telemetría del vehículo a un host con GNSS o a un gateway 
 El proveedor del ST20U facilita comandos basados en SMS para la configuración del APN y el reporte. El ID de dispositivo usado en estos comandos son los seis dígitos del IMEI excluyendo el dígito verificador final. Ejemplo: si el IMEI es 123456789012345 el ID de dispositivo sería 901234.
 
 - Comando para APN y servidor GPRS
-  - Reemplace {{device_id}} con el ID de seis dígitos derivado del IMEI.
+  - Reemplace [device_id] con el ID de seis dígitos derivado del IMEI.
   - Reemplace [apn], [apnu] y [apnp] con su APN del operador, usuario de APN y contraseña de APN. Si su operador no usa usuario o contraseña deje esos campos vacíos.
   - Este comando apunta el tracker/host a la IP y puerto del servidor Plaspy e incluye los campos del APN.
 
 ```
-SA200NTW;{{device_id}};02;[mode];[apn_used_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[mode];[apn_used_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Establecer intervalo de reporte a 60 segundos
-  - Reemplace {{device_id}} con el ID de seis dígitos.
+  - Reemplace [device_id] con el ID de seis dígitos.
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Verificar configuración actual
-  - Reemplace {{device_id}} con el ID de seis dígitos.
+  - Reemplace [device_id] con el ID de seis dígitos.
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Notas sobre marcadores y campos
-- {{device_id}} — ID de seis dígitos derivado del IMEI (últimos seis dígitos excluyendo el dígito verificador final). El ejemplo de conversión se muestra arriba.
+- [device_id] — ID de seis dígitos derivado del IMEI (últimos seis dígitos excluyendo el dígito verificador final). El ejemplo de conversión se muestra arriba.
 - [apn] — cadena del Access Point Name del operador requerida para datos GPRS.
 - [apnu] — nombre de usuario del APN si lo exige el operador, de lo contrario dejar vacío.
 - [apnp] — contraseña del APN si lo exige el operador, de lo contrario dejar vacío.

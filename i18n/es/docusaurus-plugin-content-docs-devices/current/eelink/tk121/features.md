@@ -4,75 +4,77 @@ id: tk121-features
 sidebar_label: Features
 title: EElink - TK121 Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de las características del rastreador GPS EElink TK121 y cómo su compatibilidad con Plaspy facilita el seguimiento y la seguridad vehicular en tiempo real
+description: Resumen público de las funciones del rastreador GPS EElink TK121 y su integración con Plaspy para seguimiento en tiempo real y gestión remota
 keywords:
   - EElink TK121
-  - EElink TK121 características
+  - características EElink TK121
   - rastreador GPS EElink TK121
-  - rastreador protocolo MoveLink
-  - rastreador compatible Plaspy
+  - características TK121
+  - compatibilidad TK121 Plaspy
+  - rastreador MoveLink
   - rastreador GPS para vehículos
-  - GPS LBS AGPS
+  - seguimiento en tiempo real
+  - detección de ignición
   - rastreador antirrobo
-  - rastreador GPS compacto
-  - configuración remota de parámetros
 ---
 
-# EElink - TK121: Características principales
+# EElink - Características del TK121
 
-Esta página presenta un resumen público de las características del rastreador GPS EElink TK121 en su uso con la plataforma Plaspy. Detalla las capacidades principales del dispositivo, los tipos de telemetría y eventos que es habitual ver en Plaspy, y notas prácticas para que gerentes de flota e integradores comprendan cómo puede emplearse el TK121 en flujos de trabajo de rastreo y seguridad.
+Esta página ofrece un resumen público de las capacidades del EElink TK121 y de cómo puede integrarse con Plaspy. El enfoque está en las capacidades prácticas, el valor operativo y los tipos de telemetría y eventos que el dispositivo envía a Plaspy para monitoreo, alertas y flujos de trabajo de flota.
 
-La disponibilidad exacta de funciones y su comportamiento dependen de la versión de firmware, la revisión de hardware, el método de instalación y de cómo el fabricante haya implementado funciones concretas. Use esta página para planificación y evaluación general, y consulte la documentación del fabricante para detalles técnicos específicos antes de un despliegue final.
+La disponibilidad exacta de funciones, el comportamiento de las alarmas y las opciones de configuración pueden variar según la versión de firmware, la revisión de hardware, el método de instalación y la implementación del fabricante. Para detalles técnicos actualizados y específicos del dispositivo, consulte la documentación del fabricante y las notas de firmware antes del despliegue.
 
-## Resumen de funcionalidades
+## Resumen de características
 
-El TK121 es un rastreador compacto para vehículos pensado para instalaciones discretas y compatible con Plaspy. Combina posicionamiento GNSS con fallback por red celular y admite configuración remota y reporte de alarmas, ofreciendo un equilibrio entre seguimiento en tiempo real y características orientadas a la prevención de robo, ideal para flotas pequeñas y montajes ocultos.
+El TK121 es un rastreador vehicular compacto y discreto diseñado para reportes continuos de posición y monitoreo de eventos. Combina posicionamiento GNSS con respaldo celular (LBS) y asistencia AGPS para mejorar los tiempos de fix y ofrecer actualizaciones de ubicación fiables en entornos con cobertura mixta. De fábrica se integra con el protocolo MoveLink para una conexión sencilla a plataformas como Plaspy.
 
-- Actualizaciones de posición en tiempo real con fallback por celular para mantener el reporte de ubicación en áreas de cobertura mixta.
-- Correcciones asistidas por AGPS para acelerar la adquisición de posición tras cortes de energía o en condiciones de señal débil.
-- Reporte de estado de encendido y corte remoto del motor opcional para mejorar las respuestas ante sustracción del vehículo.
-- Notificaciones configurables de seguridad y alarmas, como detección de choque o vibración, para facilitar la gestión de incidentes.
-- Factor de forma ligero y de bajo perfil para un montaje discreto en vehículos y equipos.
+- Posicionamiento dual con GPS y respaldo LBS, más asistencia AGPS para fijar la posición más rápido en condiciones difíciles.
+- Seguimiento en tiempo real y reportes periódicos adecuados para visibilidad de flotas y procesos de recuperación.
+- Reporte del estado de ignición mediante detección ACC para soportar análisis de rutas, tiempos de inactividad y uso del vehículo.
+- Alarmas de seguridad y protección, incluyendo detección de choque o caída, alertas por vibración y notificaciones por exceso de velocidad.
+- Gestión remota de parámetros y configuración vía plataforma, aplicación móvil o SMS para actualizaciones en campo.
+- Soporte opcional de relé para corte remoto del motor, permitiendo control tipo inmovilizador cuando está correctamente configurado.
 
-## Funciones centrales del EElink - TK121
+## Características principales del EElink TK121
 
-- Posicionamiento dual con GPS y fallback por LBS, además de soporte AGPS para reducir tiempos de fijación de posición.
-- Compatibilidad con el protocolo MoveLink para facilitar la integración con plataformas telemáticas como Plaspy.
-- Detección de entrada de ignición (ACC) para reportar el estado de encendido/apagado del vehículo y soportar análisis de recorridos e inactividad.
-- Alertas de seguridad incluyendo detección de choque o caída, alarmas por vibración y notificaciones de exceso de velocidad.
-- Control de relé opcional para corte remoto del motor cuando la instalación incluye un relé.
-- Configuración remota de parámetros mediante la interfaz de la plataforma, la app móvil o comandos SMS.
-- Batería de respaldo integrada con alertas de apagado de energía y batería baja para ayudar en la detección de manipulación y la recuperación del dispositivo.
+- Compatibilidad con el protocolo MoveLink para integración con Plaspy y plataformas similares.
+- Posicionamiento GPS con asistencia AGPS y respaldo LBS para actualizaciones de ubicación consistentes.
+- Detección ACC para informar el estado de ignición y motor a plataformas de monitoreo.
+- Detección de choque o caída y alarmas por vibración para monitoreo de seguridad y protección.
+- Alertas por exceso de velocidad para apoyar la seguridad del conductor y el cumplimiento de normas.
+- Configuración remota y actualización de parámetros vía plataforma, app móvil o SMS.
+- Factor de forma compacto y ligero diseñado para instalación discreta en vehículos.
+- Batería de respaldo de 70 mAh con alertas por apagado y batería baja para resistencia a manipulación.
 
-## Cómo funcionan estas funciones con Plaspy
+## Cómo se integran estas funciones con Plaspy
 
-Al emparejar un TK121 con Plaspy, las posiciones y los eventos del dispositivo se envían a la plataforma para que los equipos puedan monitorear activos en tiempo real y responder a incidentes. Plaspy detecta protocolos compatibles para simplificar la integración inicial y muestra la telemetría del dispositivo junto con otros datos de la flota.
+Cuando el TK121 está conectado a Plaspy, sus flujos de posición y eventos quedan disponibles para monitoreo en vivo, reproducción histórica y generación de alertas. Plaspy puede recibir mensajes MoveLink del dispositivo y mostrar la telemetría relevante para operaciones y respuesta a incidentes.
 
-- Las actualizaciones en vivo muestran ubicaciones GPS y recurren a posiciones basadas en la red celular cuando el GNSS no está disponible.
-- Eventos de alarma como choque, vibración y exceso de velocidad se entregan a Plaspy para activar notificaciones y flujos de trabajo de incidentes.
-- El estado de ignición (ACC) es visible en Plaspy para informes de actividad, segmentación de viajes y detección de tiempos de inactividad.
-- Los cambios de configuración remota pueden aplicarse desde la plataforma o reflejarse tras el envío de comandos remotos, lo que ayuda a los administradores a mantener la configuración homogénea en la flota.
-- El control del inmovilizador opcional aparece como una acción de dispositivo cuando un relé está instalado y configurado en campo.
+- Las actualizaciones de posición en tiempo real y las fijaciones LBS de respaldo se muestran en el mapa de Plaspy para mantener visibilidad continua.
+- El estado ACC se utiliza para distinguir encendido y apagado del motor, facilitando el análisis de rutas y el reporte de tiempos de inactividad.
+- Los eventos de alarma, como detección de choque, vibración y exceso de velocidad, se reenvían a Plaspy para generar notificaciones y activar flujos de trabajo automatizados.
+- Los cambios remotos de parámetros y ajustes relacionados con firmware pueden gestionarse desde Plaspy o coordinarse vía SMS cuando el dispositivo lo soporta.
+- El control opcional de relé y las acciones de inmovilización pueden reflejarse en los controles de Plaspy cuando están configurados y habilitados en el rastreador.
+- Plaspy puede detectar automáticamente los protocolos compatibles, simplificando la integración inicial de dispositivos habilitados para MoveLink.
 
 ## Casos de uso típicos
 
-- Rastreo de flotas pequeñas y servicios de entrega que requieren instalaciones discretas.
-- Monitoreo antirrobo y recuperación de vehículos mediante alertas por manipulación, corte de energía y batería baja.
-- Monitoreo de seguridad del conductor y respuesta a incidentes habilitada por alarmas de choque y vibración.
-- Geocercas y flujos de trabajo basados en ubicación para activar alertas y acciones automatizadas dentro de Plaspy.
-- Protección de activos ocultos como remolques o equipo portátil donde el tamaño y el peso son críticos.
-- Configuración remota y actualizaciones de parámetros a nivel de flota para agilizar despliegues.
+- Gestión de flotas pequeñas y servicios de reparto que requieren visibilidad continua de posición e ignición.
+- Operaciones de antirrobo y recuperación utilizando instalación discreta, alertas por apagado y posible inmovilización remota.
+- Monitoreo de seguridad del conductor y respuesta a incidentes mediante alarmas por choque, vibración y exceso de velocidad.
+- Optimización de rutas y análisis de tiempo en ralentí usando el estado de ignición y reportes de posición consistentes.
+- Protección de activos portátiles para equipos ocultos o remolques que requieren rastreadores de bajo perfil y reportes fiables.
 
 ## Notas sobre disponibilidad de funciones
 
-- Algunas funciones dependen de la versión de firmware del dispositivo y pueden ser añadidas o modificadas por el fabricante con el tiempo.
-- Las revisiones de hardware y accesorios opcionales, como un relé, pueden influir en la presencia de funciones específicas en una unidad determinada.
-- El método de instalación y el cableado determinan la disponibilidad de entradas como la detección ACC y el control de relé.
-- Las variantes regionales de hardware celular y el soporte de operadores pueden afectar la conectividad y el comportamiento del fallback.
-- Compare siempre la unidad en mano con las especificaciones del fabricante y las notas de versión para obtener la lista de funciones más actualizada.
+- Las versiones de firmware del fabricante pueden habilitar o deshabilitar alarmas y comportamientos específicos; verifique el firmware instalado para conocer las capacidades exactas.
+- Las revisiones de hardware y las variantes regionales pueden cambiar las interfaces disponibles o las bandas soportadas; consulte la etiqueta del dispositivo y la documentación del proveedor.
+- Algunas funciones requieren una instalación y cableado correctos (por ejemplo, entrada ACC y conexiones de relé) para reportar u operar como se espera.
+- Los métodos de configuración remota y los comandos SMS dependen del firmware del dispositivo y de las opciones de gestión remota que habilite el fabricante.
+- Siempre confirme umbrales de alarma, configuraciones de exceso de velocidad y comportamientos de recuperación en la documentación del dispositivo antes de su uso operacional.
 
 ## Por qué usar Plaspy con estas funciones
 
-Combinar el TK121 con Plaspy ofrece a las organizaciones una forma sencilla de centralizar datos de ubicación y eventos para visibilidad operacional y supervisión de seguridad. La capacidad del rastreador para reportar posición, estado de ignición y eventos de alarma complementa las herramientas de Plaspy para monitoreo en tiempo real, notificaciones y gestión de flotas, apoyando la navegación, la respuesta a incidentes y los flujos de recuperación.
+Usar el TK121 con Plaspy proporciona a las organizaciones visibilidad centralizada de la ubicación de los vehículos, el estado de ignición y los eventos de alarma. Plaspy recopila la telemetría del TK121 y la presenta junto con otros datos de flota para que los equipos de operaciones puedan supervisar el movimiento, responder a incidentes y aplicar flujos de trabajo automáticos según los eventos que reporte el rastreador.
 
-Para saber más sobre Plaspy y cómo la plataforma puede gestionar dispositivos TK121 a escala, visite https://www.plaspy.com. Para los detalles más recientes sobre funciones específicas del dispositivo, versiones de firmware y guías de instalación, verifique la información en el sitio del fabricante https://www.eelink.com.cn/ ya que las implementaciones y conjuntos de funciones pueden cambiar con el tiempo.
+Para saber más sobre cómo Plaspy puede trabajar con rastreadores compatibles con MoveLink como el TK121 visite https://www.plaspy.com. Para obtener detalles específicos del dispositivo, notas de firmware e instrucciones de instalación más recientes y oficiales consulte el sitio del fabricante en https://www.eelink.com.cn/ ya que las funciones y el comportamiento pueden cambiar con el tiempo.

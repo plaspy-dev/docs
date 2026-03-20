@@ -75,18 +75,18 @@ Una vez configurado, el IDD-213N envía sus paquetes de telemetría y diagnósti
 
 El IDD-213N admite configuración por SMS. Las plantillas de comandos SMS públicas que Castel provee para establecer GPRS/APN y detalles de servidor y para verificar la configuración son las siguientes.
 
-Nota: La clave secreta SMS por defecto son los últimos 6 caracteres ASCII del ID del dispositivo. Reemplace {{SecretKey}} por ese valor. Reemplace [apn], [apnu] y [apnp] con el APN de su operador móvil, el usuario APN y la contraseña APN según sea necesario. Los comandos abajo incluyen la IP y puerto de Plaspy tal como se indica.
+Nota: La clave secreta SMS por defecto son los últimos 6 caracteres ASCII del ID del dispositivo. Reemplace [SecretKey] por ese valor. Reemplace [apn], [apnu] y [apnp] con el APN de su operador móvil, el usuario APN y la contraseña APN según sea necesario. Los comandos abajo incluyen la IP y puerto de Plaspy tal como se indica.
 
 - Configurar APN y servidor (plantilla SMS de ejemplo):
 
 ```
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Verificar la configuración GPRS actual (plantilla SMS de ejemplo):
 
 ```
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Si su instalación usa nombres de dominio en lugar de IP directa, puede sustituir d.plaspy.com en el campo APN/servidor donde el dispositivo acepte un nombre de dominio. Siempre respete el formato que el equipo requiera al componer comandos SMS.

@@ -79,21 +79,21 @@ First, type the device ID (Tracker ID) required by these commands as the leading
 
 1) Set the GPRS server and APN
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 - This SMS command sets the server IP, port, and APN.
-- Replace {{trackerID}} with your tracker ID and [apn] with your mobile operator APN.
+- Replace [trackerID] with your tracker ID and [apn] with your mobile operator APN.
 - If your installation tool accepts the domain instead of the IP, you can use d.plaspy.com where supported by the tracker firmware.
 
 2) Set APN username and password (optional)
 ```
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 - This SMS command sets the APN username ([apnu]) and APN password ([apnp]) if your operator requires them.
 - If no APN credentials are needed, this command can be omitted.
 
 Notes on placeholders:
-- {{trackerID}} is the device's unique ID or identifier required in GP 6000 SMS syntax.
+- [trackerID] is the device's unique ID or identifier required in GP 6000 SMS syntax.
 - [apn] is the mobile data APN for your SIM card.
 - [apnu] and [apnp] are optional APN username and password values.
 

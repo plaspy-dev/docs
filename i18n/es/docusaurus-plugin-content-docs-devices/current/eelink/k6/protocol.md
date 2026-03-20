@@ -4,78 +4,78 @@ id: k6-protocol
 sidebar_label: Protocol
 title: EElink - K6 Protocol
 sidebar_class_name: menu_item_tracker
-description: Resumen público del protocolo del EElink K6 y cómo se comunica con Plaspy para seguimiento GPS y gestión de flotas
+description: Guía pública del protocolo del rastreador EElink K6 y cómo se comunica con Plaspy usando configuración compartida
 keywords:
-  - protocolo EElink K6
-  - protocolo GPS EElink K6
-  - comunicación EElink K6
-  - rastreo EElink K6
-  - compatibilidad K6 Plaspy
-  - protocolo dispositivo K6
-  - protocolo rastreador EElink
-  - protocolo rastreador GPS Plaspy
-  - rastreo vehicular K6
-  - seguimiento de activos EElink K6
+  - Protocolo EElink K6
+  - EElink K6 GPS
+  - protocolo de rastreo EElink K6
+  - EElink K6 Plaspy
+  - protocolo de rastreador GPS K6
+  - protocolo de comunicación K6
+  - compatibilidad rastreador GPS Plaspy
+  - rastreo vehicular EElink K6
+  - protocolo GPRS rastreador
+  - rastreador de activos K6
 ---
 
 # EElink - Protocolo K6
 
-Esta página presenta el contexto público del protocolo usado por el rastreador GPS EElink K6 con Plaspy. Resume cómo suele comunicarse el dispositivo con Plaspy, qué papel tiene el protocolo de reporte en la entrega de posiciones y estados, y qué ajustes de conexión de alto nivel se utilizan al integrar el equipo en la plataforma Plaspy.
+Esta página resume el contexto público del protocolo del rastreador GPS EElink K6 y explica cómo este dispositivo se comunica con la plataforma Plaspy. Se centra en el comportamiento de red y de reporte relevante para la integración y resolución de problemas, evitando detalles sensibles de implementación. Use esta guía para comprender cómo el K6 envía datos de posición y estado a Plaspy y qué verificar al desplegar el equipo.
 
-Plaspy emplea ajustes de conexión compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador cuando el dispositivo comienza a reportar al endpoint de Plaspy. El comportamiento exacto del protocolo y el contenido de los mensajes pueden variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que esta página se enfoca en detalles públicos y consideraciones prácticas en lugar de formatos internos de paquetes.
+El K6 soporta posicionamiento por GPS, complementos por LBS, subida de datos por GPRS, capacidades de voz bidireccional y una función SOS; se informa que funciona con Plaspy. Plaspy utiliza un punto de conexión y puerto compartidos para todos los dispositivos compatibles y detecta automáticamente el protocolo del rastreador. El comportamiento exacto del protocolo puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que siempre valide la configuración del dispositivo y el firmware al preparar un rastreador para uso en producción.
 
-## Descripción general del protocolo
+## Resumen del protocolo
 
-El protocolo de comunicación del K6 define cómo el rastreador envía posición, estado, alarmas y otra telemetría a un servidor remoto y cómo una plataforma como Plaspy reconoce y procesa esos reportes. En términos prácticos, el protocolo vincula la identidad del equipo, el método de transporte y los conjuntos de mensajes utilizados para seguimiento regular, alertas y actualizaciones de configuración.
+El protocolo de reporte es el mecanismo que el K6 usa para identificarse y enviar datos de ubicación, estado y alarmas a un servidor como Plaspy. El protocolo determina qué información se envía, con qué frecuencia se reporta y cómo el servidor reconoce o responde a los mensajes del dispositivo. En los K6, estos comportamientos están gobernados por el firmware instalado y la configuración del dispositivo elegida al desplegarlo.
 
-- Permite que el K6 envíe actualizaciones de ubicación GPS y LBS y reportes de estado a un servidor remoto.
-- Transporta datos de identificación para que Plaspy asocie los reportes entrantes con el registro de dispositivo correcto.
-- Lleva notificaciones de alarmas y SOS para que los eventos estén disponibles en monitoreo y alertas en tiempo real.
-- Soporta actualizaciones de software o configuración por aire cuando el dispositivo y el fabricante proporcionan capacidad OTA.
-- Permite que el mismo equipo opere con múltiples plataformas backend según la configuración y las variantes de protocolo soportadas.
+- Permite que el rastreador informe datos de ubicación GPS y LBS, además de estado básico, a un servidor remoto
+- Transporta eventos de alarma como pulsaciones SOS, alertas de geocerca y notificaciones de batería baja
+- Transmite la identidad del dispositivo y el contexto de sesión para que el servidor asocie los mensajes al activo correcto
+- Soporta actualizaciones de configuración desde el servidor o por OTA cuando el fabricante ofrece esa opción
+- Opera sobre datos celulares usando GPRS para que los mensajes lleguen a un backend como Plaspy para su procesamiento
 
 ## Cómo Plaspy detecta el protocolo
 
-Plaspy acepta conexiones entrantes en un único endpoint y puerto compartido y usa ese punto de entrada para detectar automáticamente el protocolo del rastreador cuando el dispositivo empieza a reportar. En la mayoría de los despliegues, un K6 correctamente configurado comenzará a enviar sus reportes a Plaspy y no será necesaria la selección manual de protocolo dentro de la plataforma.
+Plaspy recibe los reportes de los rastreadores en un único punto de conexión y detecta automáticamente el protocolo del dispositivo, de modo que la mayoría de los usuarios no necesitan seleccionar manualmente un protocolo dentro de Plaspy. Cuando un K6 está configurado para reportar a Plaspy enviará sus mensajes al servidor de Plaspy, y Plaspy empata el tráfico entrante con un protocolo soportado según el perfil del mensaje recibido.
 
-- El dominio del servidor Plaspy para el reporte de dispositivos es d.plaspy.com, que resuelve al endpoint de la plataforma.
-- La IP del servidor Plaspy es 54.85.159.138, una dirección pública utilizada por la plataforma.
-- La plataforma escucha en el puerto 8888 y usa el mismo puerto para todos los dispositivos soportados.
-- Los dispositivos pueden configurarse para usar UDP o TCP en el puerto 8888 según el soporte del equipo y los requisitos de la red.
-- Cuando un K6 reporta al endpoint de Plaspy, la plataforma identificará el formato entrante y mapeará los datos al dispositivo asociado de forma automática.
-- En general, usted no necesita seleccionar manualmente un protocolo dentro de Plaspy si el dispositivo está correctamente apuntado al endpoint de Plaspy.
+- El dominio del servidor Plaspy es d.plaspy.com y la IP de host es 54.85.159.138
+- Plaspy utiliza el puerto 8888 para el reporte de dispositivos y todos los dispositivos en Plaspy usan el mismo puerto
+- Plaspy detecta automáticamente el protocolo del rastreador, por lo que normalmente no se requiere una selección explícita
+- Asegúrese de que el K6 esté configurado para reportar al endpoint de Plaspy para que la detección automática funcione
+- Si un dispositivo no parece registrarse, verifique APN, dirección de reporte, tipo de transporte y ajustes de firmware
 
-## Contexto de transporte y conexión
+## Transporte y contexto de conexión
 
-Las opciones de conexión determinan cómo el K6 entrega los mensajes a Plaspy, pero no cambian la naturaleza pública de la descripción del protocolo. El K6 soporta subida GPRS para reportes de posición y estado y puede configurarse para dirigir los reportes a un nombre de host o a una IP.
+Los ajustes de transporte y dirección de conexión determinan cómo el K6 alcanza Plaspy. El K6 puede configurarse para usar UDP o TCP según la capacidad y la configuración del dispositivo. Apuntar el K6 a Plaspy usando el dominio o la IP proporcionados y el puerto compartido es la configuración típica para reportes y gestión remota.
 
-- El dispositivo puede configurarse usando UDP o TCP en el puerto 8888 según la configuración del rastreador y las condiciones de la red.
-- Los dispositivos pueden apuntarse al dominio de Plaspy d.plaspy.com o directamente a la IP del servidor 54.85.159.138.
-- Plaspy utiliza el mismo puerto 8888 para todos los dispositivos, lo que simplifica la configuración del servidor entre modelos.
-- La selección de transporte (UDP vs TCP) puede afectar características de entrega como la fiabilidad y el comportamiento de retransmisión; elija el transporte soportado por el firmware específico y la red.
-- Asegúrese de que el APN y los ajustes GPRS en el K6 sean correctos para que el rastreador pueda establecer una sesión de datos hacia el endpoint de Plaspy.
+- Los dispositivos pueden configurarse para reportar a d.plaspy.com o directamente a 54.85.159.138
+- El dispositivo puede configurarse usando UDP o TCP en el puerto 8888 según el soporte y la configuración del dispositivo
+- Todos los dispositivos en Plaspy usan el mismo puerto, por lo que no hay configuración de puerto por dispositivo en el lado del servidor
+- Use el tipo de transporte soportado por el firmware del dispositivo y ajuste esa configuración en la configuración del equipo
+- Verifique el APN celular y la conectividad de la red para asegurar que los datos GPRS puedan llegar al endpoint de Plaspy
 
 ## Notas sobre compatibilidad del protocolo
 
-- Las unidades K6 pueden soportar múltiples protocolos de reporte; el firmware del fabricante determina el formato de reporte activo.
-- Las actualizaciones de firmware y las mejoras OTA proporcionadas por el fabricante pueden cambiar el comportamiento del protocolo o añadir mejoras de compatibilidad.
-- Las revisiones de hardware o variantes regionales pueden introducir diferencias en los transportes soportados o en los conjuntos de mensajes.
-- Seleccionar UDP o TCP es una decisión de configuración del dispositivo; verifique qué transporte soporta y prefiere el firmware de su K6 específico.
-- La integración tiene más probabilidad de éxito cuando el dispositivo está configurado para apuntar a d.plaspy.com o a 54.85.159.138 en el puerto 8888.
-- Siempre valide el comportamiento del dispositivo contra la documentación del fabricante y las notas de la versión cuando esté solucionando problemas de compatibilidad.
+- La compatibilidad puede variar según la versión de firmware; confirme que el firmware del K6 soporta el comportamiento de reporte que usted espera
+- Revisiones de hardware o variantes regionales pueden implementar diferencias en alarmas o funciones opcionales
+- La selección de transporte entre UDP y TCP debe coincidir con la configuración del dispositivo y con las reglas de firewall de la red
+- Personalizaciones del fabricante o firmware de distribuidores pueden cambiar formatos de mensaje o comandos soportados
+- Las actualizaciones OTA pueden alterar el comportamiento del protocolo; revise las notas de la versión antes de actualizar la flota
+- Siempre valide la identidad del dispositivo y el reporte en una prueba controlada antes de realizar un despliegue a gran escala
+- Consulte al fabricante para ejemplos de configuración específicos del dispositivo y características soportadas
 
 ## Por qué es importante entender el protocolo
 
-Comprender cómo se comunica el K6 ayuda a asegurar reportes confiables hacia Plaspy, acelera la resolución de problemas y facilita el mantenimiento a largo plazo de una flota desplegada. Tener claridad sobre las opciones de transporte, las limitaciones del firmware y el comportamiento de identificación reduce el tiempo de resolución cuando los dispositivos no aparecen o cuando los eventos no se entregan como se espera.
+Comprender el protocolo de comunicación ayuda a asegurar un rastreo confiable, un manejo correcto de alarmas y una resolución eficiente de problemas cuando un dispositivo K6 se integra con Plaspy. Saber cómo reporta el dispositivo, qué eventos puede enviar y cómo establece la conexión con el servidor reduce la incertidumbre durante la puesta en marcha y acelera la resolución de problemas de conectividad.
 
-- Ayuda a confirmar que el dispositivo apunta al endpoint y puerto correctos de Plaspy.
-- Facilita la interpretación de qué tipos de reportes y alarmas enviará el dispositivo a la plataforma.
-- Apoya la resolución de problemas cuando los dispositivos no se registran o cuando parecen faltar mensajes.
-- Sirve como base para decisiones sobre selección de transporte, actualizaciones de firmware y cambios de configuración.
-- Mejora la confiabilidad al alinear las configuraciones del equipo con las expectativas de Plaspy y las condiciones de la red.
+- Asegura la configuración correcta del dispositivo para reportar al endpoint de Plaspy
+- Ayuda a diagnosticar actualizaciones de ubicación faltantes o comportamientos inesperados del equipo
+- Orienta las decisiones sobre la selección de transporte y la configuración de firewall de la red
+- Aclara cómo Plaspy recibe e interpreta alarmas y banderas de estado
+- Facilita la planificación segura de actualizaciones de firmware o cambios en la configuración de la flota
 
 ## Por qué usar Plaspy con este protocolo
 
-El EElink K6 ofrece un conjunto de funciones versátil —posicionamiento GPS, fallback por LBS, capacidad de voz bidireccional, alarma SOS y registro local de trayectos— que encaja bien con las capacidades centralizadas de seguimiento y monitoreo de Plaspy. Usar Plaspy como backend para los dispositivos K6 proporciona a las organizaciones un endpoint consistente para recibir datos de ubicación y eventos y un único lugar para gestionar alertas, historial y supervisión operativa.
+Usar Plaspy como backend para dispositivos EElink K6 proporciona una forma centralizada de recolectar posiciones y eventos desde una flota distribuida. Dado que Plaspy escucha en un endpoint y puerto consistentes y detecta automáticamente el protocolo entrante, los equipos pueden desplegar unidades K6 con menos ajustes por dispositivo en el servidor y confiar en la plataforma para procesar reportes de rastreo y alarmas estándar.
 
-Para obtener más información sobre Plaspy y cómo se integra con rastreadores GPS como el EElink K6, visite https://www.plaspy.com. Para detalles específicos del protocolo del dispositivo, notas de firmware e instrucciones de implementación más recientes, verifique la información en el sitio del fabricante https://www.eelink.com.cn/ ya que el soporte de protocolo y el comportamiento del firmware pueden cambiar con el tiempo.
+Si desea conocer más sobre cómo Plaspy maneja las conexiones de dispositivos y explorar opciones de despliegue para el EElink K6, visite https://www.plaspy.com. Tenga en cuenta que el soporte de protocolo, el comportamiento del firmware y los detalles de implementación del dispositivo pueden cambiar con el tiempo; verifique los últimos detalles del protocolo específico del dispositivo y las instrucciones de firmware en el sitio del fabricante en https://www.eelink.com.cn/ antes de finalizar su despliegue.

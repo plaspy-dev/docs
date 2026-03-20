@@ -2,79 +2,79 @@
 slug: /navtelekom/signal_s_2115/protocol
 id: signal_s_2115-protocol
 sidebar_label: Protocol
-title: Navtelekom - Signal S-2115 Protocol
+title: Navtelekom - СИГНАЛ S-2115 Protocol
 sidebar_class_name: menu_item_tracker
-description: Public protocol notes for Navtelekom Signal S 2115 GPS tracker and how it communicates with Plaspy using shared server settings and automatic detection
+description: Public protocol reference for Navtelekom СИГНАЛ S-2115 integration with Plaspy and shared reporting settings
 keywords:
-  - Navtelekom Signal S-2115 protocol
-  - Navtelekom Signal S-2115 GPS tracker
-  - Signal S-2115 Plaspy compatibility
-  - Signal S-2115 communication protocol
-  - Navtelekom tracking protocol
-  - GPS GLONASS tracker protocol
-  - vehicle tracking protocol Plaspy
-  - fleet tracking Navtelekom
-  - tracker protocol compatibility
-  - remote tracking and alarm reporting
+  - Navtelekom S-2115 protocol
+  - Navtelekom СИГНАЛ S-2115
+  - SIGNAL S-2115 GPS protocol
+  - S-2115 Plaspy integration
+  - Navtelekom tracker protocol
+  - GPS tracker protocol Plaspy
+  - vehicle tracking S-2115
+  - S-2115 compatibility
+  - GLONASS GPS Plaspy
+  - legacy tracker integration
 ---
 
-# Navtelekom - Signal S-2115 Protocol
+# Navtelekom - СИГНАЛ S-2115 Protocol
 
-This page describes the public protocol context for using the Navtelekom Signal S-2115 with Plaspy. It focuses on how the device communicates in practical terms, what to expect when configuring reporting, and how Plaspy receives and processes standard telemetry such as location, movement, speed, and alarm events. The Signal S-2115 is a GSM monitoring system with GPS/GLONASS positioning, an accelerometer for impact detection, alarm signaling via SMS or voice, and remote control outputs for devices such as motor locks or sirens.
+This page covers public protocol context for integrating the Navtelekom СИГНАЛ S-2115 vehicle tracker with Plaspy. It summarizes how the device communicates with a centralized platform like Plaspy in non-sensitive, implementation-agnostic terms so integrators and administrators can plan onboarding and troubleshooting activities.
 
-Plaspy uses shared connection settings across supported devices and automatically detects the tracker protocol while receiving data. Exact protocol behavior can vary by firmware version, hardware revision, or manufacturer configuration, so this page stays at a public and practical level rather than detailing firmware specific frames. When configuring the tracker for Plaspy, keep in mind that device-side settings and manufacturer documentation determine some behaviors such as alarm reporting channels, SMS fallbacks, and remote command handling.
+Plaspy uses shared connection settings across supported devices and automatically detects the tracker protocol when the device is correctly pointed at the Plaspy ingestion endpoint. Exact protocol behavior and available messages can vary by firmware revision, hardware variant, and manufacturer configuration, so this document focuses on the role of the reporting protocol rather than device internals.
 
 ## Protocol Overview
 
-The tracker communication protocol defines the rules by which the Signal S-2115 reports telemetry and events to a server and accepts remote commands where supported. In general terms the protocol provides a transportable representation of the device identity, position fixes, motion or impact events, alarm activations, and optional status messages that Plaspy consumes to present live monitoring and alerts.
+The S-2115 communication protocol defines how the tracker reports GNSS positions, event and alarm conditions, and basic telemetry to a remote server. For Plaspy users, the important aspects of that protocol are identification, event reporting, and reliable delivery of position and alarm data so Plaspy can populate dashboards and trigger workflows.
 
-- Enables reporting of GPS/GLONASS location, time, speed, and basic status to a remote server.
-- Conveys alarm and accelerometer events for impact detection and tamper alerts.
-- Carries identifiers the server uses to associate messages with a specific tracking unit.
-- Supports periodic location updates and event driven messages such as SOS or geo events.
-- Can be combined with SMS or voice notifications on the device as secondary alert channels.
+- Enables transmission of GLONASS and GPS position fixes and timestamps to a central server.
+- Carries accelerometer based events such as impact, tilt, and unauthorized movement for alarm handling.
+- Conveys basic telemetry useful for status monitoring such as signal and network presence.
+- Supports remote control and configuration channels exposed by the tracker such as SMS and voice menus, which complement server side management.
+- Allows identification of the device so the Plaspy platform can associate incoming reports with the correct asset.
 
 ## How Plaspy Detects the Protocol
 
-Plaspy receives incoming connections on a shared endpoint and determines the tracker protocol automatically when a properly configured device reports in. In most cases the user does not need to select a specific protocol inside Plaspy if the Signal S-2115 is configured to report to the Plaspy endpoint and network settings are correct.
+Plaspy listens on a shared ingestion endpoint and uses built in detection to recognize incoming tracker reports. In most cases, when the S-2115 is configured to report to Plaspy, no manual protocol selection is required inside Plaspy’s device onboarding flow.
 
-- Plaspy automatically detects the tracker protocol when the device sends telemetry to the server.
-- Plaspy server domain for device reporting is d.plaspy.com and the server IP is 54.85.159.138.
-- All devices in Plaspy use the same port which simplifies device configuration on the tracker side.
-- The user typically does not need to manually choose a protocol in Plaspy for supported devices.
-- Proper device identification in the reported messages lets Plaspy map data to the correct unit record.
+- Plaspy’s public ingestion endpoint is reachable at d.plaspy.com and at IP 54.85.159.138 using the standard Plaspy port.
+- Plaspy uses the same port for all supported devices to simplify configuration and onboarding.
+- When a properly configured S-2115 reports to the Plaspy endpoint, Plaspy automatically detects the tracker protocol and associates messages with the correct device.
+- Users normally configure the device to report to the Plaspy endpoint rather than choosing a protocol inside the platform.
+- If an expected device does not appear online, check device reporting settings, firmware version, and GSM connectivity before adjusting platform settings.
 
 ## Transport and Connection Context
 
-The Signal S-2115 can be configured to use standard network transports to send telemetry to a remote host. For Plaspy, the important transport and connection facts are public and consistent across supported trackers, which makes initial setup straightforward.
+Connection details determine how the tracker reaches Plaspy but do not change the high level role of the protocol. The S-2115 family supports GSM based reporting and common transport options for server communication; integrators should select transport mode that matches device capabilities and network conditions.
 
-- The device may be configured using UDP or TCP on port 8888 depending on device support and configuration.
-- Plaspy listens for device traffic on port 8888 and all devices in Plaspy use the same port.
-- Devices may be pointed to the Plaspy server domain d.plaspy.com or directly to the server IP 54.85.159.138.
-- Choice of UDP or TCP can affect reliability and retransmission behavior based on network conditions and device settings.
-- Ensure the tracker has mobile data connectivity and the network allows outbound connections to the Plaspy endpoint.
+- The device may be configured to use either UDP or TCP on port 8888 depending on device support and site requirements.
+- Devices may be pointed to the Plaspy domain d.plaspy.com or to the Plaspy server IP 54.85.159.138 for direct routing.
+- Plaspy’s ingestion uses port 8888 for all supported devices, keeping outbound device configuration consistent across a mixed fleet.
+- Selecting UDP or TCP can affect delivery semantics and network traversal; use the transport option supported by the device and your carrier environment.
+- Ensure APN and cellular voice/data settings are correctly configured so the tracker can reach the Plaspy endpoint.
 
 ## Protocol Compatibility Notes
 
-- Compatibility can depend on the device firmware level and any changes the manufacturer applies to message formats or optional features.
-- Hardware revisions or optional modules (for example additional I/O or backup power behavior) can change how some events are reported.
-- Some features such as SMS or voice alerts are device side and operate independently of the TCP/UDP reporting channel used by Plaspy.
-- Selecting TCP versus UDP on the device may alter delivery behavior; choose the transport that best fits network reliability and device capabilities.
-- Always validate unit identification values (IMEI or device ID) are configured correctly so Plaspy can associate incoming messages with the correct asset.
-- Refer to Navtelekom documentation for firmware specific command and configuration details before changing device behavior.
+- Firmware revisions can change available messages, parameter names, and default transport behavior; always check the device firmware level when validating compatibility.
+- Hardware revisions or variant models in the SIGNAL family may exhibit differences in supported features such as alarm types or remote control options.
+- Manufacturer configuration tools such as the NTC Configurator and device-specific operator guides remain the authoritative source for device-side settings.
+- Transport selection between UDP and TCP may be limited by carrier networks or device firmware; test the chosen transport in your deployment environment.
+- Discontinued or archived models like the S-2115 can still be integrated but may require use of archived firmware and tools maintained by the manufacturer.
+- Validate any behavior that affects security, authentication, or message routing against official manufacturer documentation before production use.
 
 ## Why Protocol Understanding Matters
 
-Understanding the basic communication protocol used by the Signal S-2115 helps ensure reliable setup, faster troubleshooting, and predictable behavior in long term operations. Knowing which channels carry location updates, alarms, and remote control acknowledgements reduces ambiguity when investigating missed reports or connectivity issues.
+Understanding how the S-2115 communicates helps ensure reliable onboarding, correct alarms, and actionable location data in Plaspy. Clear knowledge of the communication context reduces troubleshooting time and improves operational reliability.
 
-- Helps confirm the device is pointing at the correct Plaspy endpoint and using the expected transport.
-- Speeds troubleshooting when events are missing by focusing on firmware, transport, or network issues.
-- Clarifies how alarm and accelerometer events are delivered versus periodic location reports.
-- Encourages validation of device ID settings so data maps to the correct vehicle in Plaspy.
-- Aids decision making about choosing TCP or UDP based on the deployment environment.
+- Confirms correct device pointing to the Plaspy endpoint so data reaches the platform.
+- Helps diagnose missing positions or alarms by checking transport, APN, and firmware settings.
+- Guides decisions about UDP versus TCP based on network behavior and delivery needs.
+- Informs maintenance planning when firmware updates change reporting behavior or fields.
+- Supports integration of legacy units into modern workflows by aligning device capabilities with Plaspy features.
 
 ## Why Use Plaspy with This Protocol
 
-Using Plaspy with the Navtelekom Signal S-2115 provides a practical way to centralize vehicle monitoring, alarm handling, and remote control workflows. Plaspy accepts the device reports sent to its shared endpoint and applies its platform features for live tracking, geofencing, and alerting so organizations gain visibility into fleet movement and security events without manual protocol selection.
+Using the СИГНАЛ S-2115 with Plaspy gives organizations a straightforward path to consolidate GNSS position reports, accelerometer alarms, and basic telemetry into a single monitoring and reporting platform. For fleets and security-conscious deployments that rely on the S-2115’s position fixes and event notifications, Plaspy provides centralized visualization, alerting, and historical logging that extend the value of the device.
 
-If you want to learn more about how Plaspy works with devices like the Signal S-2115 visit https://www.plaspy.com. For the most current device specific protocol details, firmware notes, and configuration instructions verify the official Navtelekom documentation at https://www.navtelecom.ru/ since protocol support and firmware behavior can change over time.
+To learn more about Plaspy and how it ingests tracker data visit https://www.plaspy.com. For device specific protocol details firmware behavior and the latest configuration tools always confirm with the manufacturer documentation at https://www.navtelecom.ru/ since protocol support and device implementation can change over time.

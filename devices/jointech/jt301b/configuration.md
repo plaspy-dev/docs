@@ -79,17 +79,17 @@ The JT301B may be configured using SMS command messages. The example commands be
 Send an SMS to the tracker with the following text, replacing the placeholders:
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
-- {{trackerID}} — the device ID required by the tracker command set; check the device label or Jointech documentation for the correct ID format.
+- [trackerID] — the device ID required by the tracker command set; check the device label or Jointech documentation for the correct ID format.
 - [apn] — the APN provided by your mobile operator.
 
 2. Set the APN user and password (only if your APN requires credentials)
 Send an SMS with this command if APN username and password are required:
 
 ```
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 
 - [apnu] — APN username placeholder.

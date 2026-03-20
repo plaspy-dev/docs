@@ -81,26 +81,26 @@ Format example used by Plaspy:
 TSPRXAB27GHKLMnaicz*U!
 
 Setup command example
-- Replace {{imei}} with the device IMEI
+- Replace [imei] with the device IMEI
 - Replace [apn], [apnu], [apnp] with your APN, APN username, and APN password when required by the device network configuration
-- {{checksum}} is the two character hexadecimal checksum calculated over the command characters before the asterisk as described below
+- [checksum] is the two character hexadecimal checksum calculated over the command characters before the asterisk as described below
 
 Setup command (send by SMS)
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Reboot command (optional, use if device requires a restart to apply settings)
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Checksum calculation
-- The checksum is computed as an XOR of the ASCII codes for every character in the command string before the '*' character. The result is converted to a two digit uppercase hexadecimal value and placed where {{checksum}} is shown.
+- The checksum is computed as an XOR of the ASCII codes for every character in the command string before the '*' character. The result is converted to a two digit uppercase hexadecimal value and placed where [checksum] is shown.
 - Many manufacturer configuration tools compute this checksum automatically. If you compute it manually, ensure it is two characters long in uppercase hex.
 
 Notes on placeholders
-- {{imei}}: Device IMEI number required by the command format.
+- [imei]: Device IMEI number required by the command format.
 - [apn]: APN string for GPRS data if the device uses cellular data.
 - [apnu] and [apnp]: APN username and APN password when required.
 - Keep the command order and punctuation exactly as shown when sending the SMS commands.

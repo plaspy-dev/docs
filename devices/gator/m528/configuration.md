@@ -77,20 +77,20 @@ The Gator M528 supports SMS-based configuration. Below are the public SMS comman
 
 - If your APN requires username and password use the extended command:
 ```text
-SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*[DeviceID]*,*[phoneNumberUser]*,*123456*
 ```
 
 - If your APN does not require username or password use the shorter command:
 ```text
-S,*[apn]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+S,*[apn]*,*54.85.159.138*,*8888*,*[DeviceID]*,*[phoneNumberUser]*,*123456*
 ```
 
 Notes on placeholders:
 - [apn] — your cellular provider APN
 - [apnu] — APN username if required
 - [apnp] — APN password if required
-- {{DeviceID}} — the tracker device ID or IMEI as required by the command
-- {{phoneNumberUser}} — a contact phone number stored or used by the device configuration
+- [DeviceID] — the tracker device ID or IMEI as required by the command
+- [phoneNumberUser] — a contact phone number stored or used by the device configuration
 - 123456 — example factory default device password used in the sample command (change if your device uses a different password)
 
 These SMS messages should be sent to the SIM phone number installed in the tracker. Follow Gator documentation for exact SMS formatting and any required delimiters in your regional firmware.

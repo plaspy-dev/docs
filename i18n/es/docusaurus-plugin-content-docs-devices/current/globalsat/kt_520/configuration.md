@@ -79,17 +79,17 @@ Use los siguientes comandos SMS de ejemplo, reemplazando los marcadores según c
 
 - Comando de configuración
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 - Comando de reinicio (opcional o cuando sea necesario aplicar ajustes)
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Notas sobre los marcadores y el checksum:
-- {{imei}} — Reemplazar por el número IMEI del KT-520.
+- [imei] — Reemplazar por el número IMEI del KT-520.
 - [apn], [apnu], [apnp] — APN, usuario APN y contraseña APN. Incluya valores solo si su dispositivo o provisión requiere una ruta de datos por paquete. Si no son necesarios para la operación satelital, a menudo pueden dejarse vacíos según la guía del proveedor.
-- {{checksum}} y {{checksumreeboot}} — Los comandos esperan un checksum hexadecimal añadido después del asterisco. El checksum mostrado en el ejemplo del fabricante se calcula como el XOR de todos los caracteres de la cadena de comando antes del '*' y se representa como un valor hexadecimal en mayúsculas de dos dígitos. Asegúrese de que el checksum sea correcto para todo el prefijo del comando antes de enviarlo.
+- [checksum] y [checksumreeboot] — Los comandos esperan un checksum hexadecimal añadido después del asterisco. El checksum mostrado en el ejemplo del fabricante se calcula como el XOR de todos los caracteres de la cadena de comando antes del '*' y se representa como un valor hexadecimal en mayúsculas de dos dígitos. Asegúrese de que el checksum sea correcto para todo el prefijo del comando antes de enviarlo.
 - El ejemplo usa los campos E0 y E1 para especificar la IP y el puerto de Plaspy. E0=54.85.159.138 y E1=8888 apuntan el rastreador a Plaspy. Alternativamente, algunas herramientas de configuración aceptan d.plaspy.com en un campo de nombre de servidor.
 
 Confirme siempre la sintaxis de los comandos y el algoritmo de checksum con la documentación del equipo o la herramienta de configuración de GlobalSat antes de enviar comandos.

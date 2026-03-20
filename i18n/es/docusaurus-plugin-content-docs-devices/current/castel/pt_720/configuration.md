@@ -83,16 +83,16 @@ Use estas plantillas de SMS, reemplazando los marcadores según se indica a cont
 
 - APN y comando para fijar servidor
 ```text
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Verificar ajustes GPRS actuales
 ```text
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Explicación de los marcadores:
-- {{SecretKey}} — la contraseña SMS del dispositivo, por defecto los últimos 6 caracteres ASCII del ID del dispositivo
+- [SecretKey] — la contraseña SMS del dispositivo, por defecto los últimos 6 caracteres ASCII del ID del dispositivo
 - [apn] — la cadena APN del operador celular
 - [apnu] — el nombre de usuario del APN si el operador lo requiere
 - [apnp] — la contraseña del APN si el operador lo requiere

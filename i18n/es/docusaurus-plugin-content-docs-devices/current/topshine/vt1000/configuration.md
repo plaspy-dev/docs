@@ -88,9 +88,9 @@ W000000,990,099###
 - Establecer el ID del dispositivo
   - La plantilla de ID de dispositivo usa los primeros 14 dígitos derivados del IMEI. Plaspy utilizará el IMEI completo de 15 dígitos para la identificación del dispositivo en la plataforma.
 ```text
-W000000,010,{{device_id14}}
+W000000,010,[device_id14]
 ```
-  - Sustituya {{device_id14}} por los primeros 14 dígitos que obtenga del IMEI. Por ejemplo, si el IMEI es 123456789012345 use 12345678901234 en este comando.
+  - Sustituya [device_id14] por los primeros 14 dígitos que obtenga del IMEI. Por ejemplo, si el IMEI es 123456789012345 use 12345678901234 en este comando.
 
 - Establecer el APN del operador
   - Si sólo se requiere un APN:

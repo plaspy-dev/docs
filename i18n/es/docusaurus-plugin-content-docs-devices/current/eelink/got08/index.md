@@ -1,61 +1,64 @@
 ---
 slug: /eelink/got08
 id: got08
-sidebar_key: eelingot08_index_got08
 sidebar_label: GOT08
 title: EElink - GOT08
 sidebar_class_name: menu_item_tracker
-description: Rastreador OBD GPS compacto plug and play compatible con Plaspy para telemetría y despliegue rápido de flotas
+description: GOT08 es un rastreador GPS OBD plug and play compacto compatible con Plaspy para seguimiento de flotas, telemetría vehicular y despliegue rápido
 keywords:
   - EElink GOT08
-  - GOT08 rastreador GPS
-  - rastreador EElink
-  - GOT08 compatible con Plaspy
-  - rastreador OBD GPS
-  - seguimiento de flotas GOT08
-  - telemetría vehicular GOT08
-  - compatibilidad de dispositivos Plaspy
-  - rastreador OBD II
-  - rastreador para gestión de flotas
+  - Rastreador GOT08
+  - Rastreador EElink
+  - Rastreador GPS OBD
+  - Compatible con Plaspy
+  - Seguimiento de flotas
+  - Telemetría vehicular
+  - Dispositivo de rastreo GPS
+  - Rastreador plug and play
+  - Monitoreo de vehículos
 ---
 
 # EElink - GOT08
 
 ![GOT08](./tracker.jpg)
 
-El GOT08, de SHENZHEN EELINK COMMUNICATION TECHNOLOGY CO., LTD, es un rastreador GPS con interfaz OBD plug-and-play diseñado para una instalación rápida y monitoreo continuo del vehículo. Pensado para conectarse al puerto OBD‑II del vehículo, el GOT08 ofrece reportes de posición GPS, telemetría vehicular y registro de datos a bordo sin necesidad de un cableado complejo, lo que lo hace práctico para administradores de flotas y propietarios particulares que requieren seguimiento fiable con una instalación mínima.
+El GOT08 de SHENZHEN EELINK COMMUNICATION TECHNOLOGY CO., LTD es un rastreador GPS con interfaz OBD plug and play diseñado para instalación rápida y monitoreo continuo del vehículo. Diseñado para conectarse al puerto OBD del vehículo, el GOT08 proporciona datos de ubicación GPS en tiempo continuado, registro de datos a bordo y telemetría vehicular en un formato compacto alimentado por el propio vehículo. Esto lo hace idóneo para administradores de flotas y propietarios particulares que buscan un dispositivo discreto y sin cableado complejo.
 
-Como dispositivo compatible con Plaspy, el GOT08 transmite la ubicación y la telemetría OBD disponible a la plataforma Plaspy para seguimiento en tiempo real, generación de reportes y alertas. Esta combinación facilita despliegues rápidos en flotas heterogéneas y permite a los usuarios de Plaspy aprovechar datos de posición, diagnósticos y registros de viajes para supervisión operativa, medidas antirrobo y planificación de mantenimiento.
+Como dispositivo compatible con Plaspy, el GOT08 transmite la ubicación y la telemetría OBD reportada a la plataforma Plaspy para seguimiento en tiempo real, generación de informes y alertas. La combinación de una instalación OBD sencilla y las herramientas de gestión de flotas de Plaspy facilita despliegues rápidos en flotas mixtas y acelera el valor añadido en tareas como monitoreo antirrobo, supervisión de rutas y planificación de mantenimiento.
 
-## Aspectos destacados
+## Aspectos clave
 
-- Instalación plug-and-play en puerto OBD‑II para despliegues rápidos en múltiples vehículos.  
-- Compatible con Plaspy para gestión centralizada, seguimiento en tiempo real y control de flotas.  
-- Telemetría vehicular y registro de datos a bordo a través de la interfaz OBD cuando el vehículo lo soporta.  
-- Diseño compacto alimentado por el vehículo que evita la mayoría de las necesidades de baterías externas.  
-- Reduce tiempo y costo de instalación en despliegues de flotas y vehículos de servicio.  
-- Adecuado tanto para flotas comerciales como para programas de monitoreo de vehículos particulares.
+- Interfaz OBD plug and play para instalación rápida sin necesidad de montaje especializado.
+- Compatible con Plaspy para ofrecer seguimiento centralizado y visibilidad de flotas.
+- Captura telemetría vehicular y registro a bordo cuando el vehículo expone esos parámetros.
+- Diseño compacto alimentado por el vehículo que elimina la necesidad de baterías externas en la mayoría de instalaciones.
+- Pensado tanto para operaciones de flotas como para monitoreo de vehículos particulares.
+- Permite despliegues más rápidos y reduce el costo de instalación en implementaciones de flota.
+- Base útil para flujos de trabajo antirrobo cuando se combina con alertas y reglas en Plaspy.
 
 ## Cómo funciona con Plaspy
 
-Cuando se instala en el puerto OBD‑II de un vehículo, el GOT08 envía la posición GPS y la telemetría que el vehículo expone vía OBD a Plaspy. Plaspy visualiza la ubicación, almacena trazas históricas y puede generar alertas y reportes basados en los datos entrantes, lo que permite a los equipos supervisar vehículos, detectar tendencias y automatizar flujos operativos.
+Cuando el GOT08 se instala en el puerto OBD de un vehículo, reporta la ubicación GPS y la telemetría disponible desde OBD a Plaspy. Una vez que los datos llegan a la plataforma, Plaspy visualiza la posición, almacena registros históricos y puede activar alertas o generar informes según las reglas configuradas. La provisión y el mapeo del dispositivo al vehículo en Plaspy permiten a los responsables integrar los datos del GOT08 en paneles y flujos operativos.
 
-- Actualizaciones de ubicación en tiempo real y reproducción histórica para revisión de rutas y supervisión.  
-- Diagnósticos y eventos de ignición provenientes del OBD que se reflejan en alertas y reportes de Plaspy cuando el vehículo entrega esos parámetros.  
-- Plaspy puede consumir datos relacionados con combustible si el vehículo expone nivel de combustible o métricas de consumo por OBD.  
-- Historiales de viaje y telemetría registrada almacenados para cumplimiento, planificación de mantenimiento y análisis.  
-- Plaspy puede combinar datos del GOT08 con señales de inmovilizadores o sensores externos cuando hardware adicional o sistemas del vehículo proveen esas entradas, permitiendo configuraciones antirrobo y de monitoreo más completas.
+- Actualizaciones de ubicación en tiempo real y reproducción histórica para revisión de rutas e investigación de incidentes.
+- Exposición de diagnósticos de motor y eventos relacionados con el encendido en Plaspy cuando el vehículo provee esos parámetros.
+- Niveles de combustible y métricas de consumo pueden incluirse en informes si el vehículo transmite esa información por OBD.
+- Historiales de viajes y telemetría registrada se guardan para cumplimiento, planificación de mantenimiento y análisis.
+- Geocercas y alertas en Plaspy pueden notificar al equipo sobre movimientos inesperados o eventos de límite de zona.
+- Combine las transmisiones del GOT08 con los paneles e informes de Plaspy para supervisión operativa.
 
 ## Casos de uso típicos
 
-- Gestión de flotas y control de utilización para vehículos de servicio, flotas de reparto y equipos de campo.  
-- Monitoreo antirrobo y apoyo en recuperación mediante ubicación en tiempo real y reglas de geocercas.  
-- Planificación de mantenimiento y diagnóstico mediante la recolección de códigos de falla y tendencias de desempeño reportadas por OBD.  
-- Monitoreo de combustible y análisis de costos cuando los vehículos entregan métricas relacionadas por OBD.  
-- Supervisión del comportamiento del conductor y seguridad mediante eventos de ignición y telemetría OBD para identificar ralentí excesivo y patrones de manejo.
+- Gestión de flotas y seguimiento de utilización en flotas mixtas de vehículos.
+- Detección y recuperación ante robo usando ubicación en tiempo real y alertas.
+- Planificación de mantenimiento preventivo mediante códigos de falla y tendencias de telemetría.
+- Monitoreo de combustible y control de costos cuando el vehículo proporciona esos datos.
+- Supervisión del comportamiento del conductor y programas de seguridad usando datos de encendido y viajes.
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GOT08 resulta una opción práctica para organizaciones que necesitan un rastreador sencillo y alimentado por el vehículo que reduzca la complejidad de instalación. Su formato OBD‑II acelera los despliegues y minimiza tiempos de inactividad, mientras que la capacidad del dispositivo de entregar GPS y telemetría OBD a Plaspy respalda flujos de trabajo comunes en la gestión de flotas, como seguimiento, planificación de mantenimiento y disuasión de robo.
+El GOT08 es una opción práctica para organizaciones que requieren hardware compatible con Plaspy y con mínima complejidad de instalación. Su factor de forma OBD reduce el tiempo de instalación y las interrupciones, facilitando el despliegue de rastreo en un gran número de vehículos. Al entregar posiciones GPS junto con telemetría reportada por el vehículo a Plaspy, el GOT08 aporta los datos esenciales para monitoreo de ubicación, planificación de mantenimiento e informes de flota.
 
-Si sus prioridades de despliegue son provisión rápida, operación predecible e integración con una plataforma telemática centralizada, el GOT08 junto con Plaspy ofrece un camino simple hacia la visibilidad y el control operativo sin trabajos de hardware extensivos. Para más detalles sobre Plaspy y cómo la plataforma puede trabajar con rastreadores basados en OBD como el GOT08, visite https://www.plaspy.com. Las especificaciones y la disponibilidad del producto pueden variar con el tiempo, por lo que le recomendamos verificar los detalles actuales del dispositivo con el fabricante en https://www.eelink.com.cn/.
+Para equipos que valoran despliegues previsibles, hardware discreto e integración con una plataforma centralizada de gestión de flotas, el GOT08 representa una solución sencilla alimentada por el vehículo. Plaspy puede aprovechar los datos que proporciona el dispositivo para ofrecer información operativa, alertas y registros históricos que apoyen las operaciones diarias de la flota.
+
+Learn more about Plaspy on the main website https://www.plaspy.com. Product specifications, availability, and manufacturer details can change over time, so verify current specifications and official documentation on the manufacturer website https://www.eelink.com.cn/.

@@ -76,24 +76,24 @@ El TR-616 puede configurarse para enviar datos de posición y del dispositivo al
 El contenido del fabricante para el TR-616 incluye una plantilla de comando de configuración por SMS. Las siguientes plantillas se muestran exactamente como aparecen en el contenido público. Preserve los marcadores de posición y calcule el checksum que sigue al asterisco. El checksum es el XOR de todos los caracteres del comando antes del asterisco, representado como una cadena hexadecimal de dos caracteres en mayúsculas.
 
 Setup command template
-- Reemplace {{imei}} por el IMEI del dispositivo
+- Reemplace [imei] por el IMEI del dispositivo
 - Reemplace [apn], [apnu] y [apnp] por el APN, el usuario APN y la contraseña APN de su SIM respectivamente
 - Esta plantilla establece la IP del servidor a Plaspy y el puerto a 8888
 
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Reboot command template (optional after configuration)
 - Use este comando para reiniciar el dispositivo de forma remota después de aplicar la configuración
 
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Cálculo del checksum
 - Calcule el checksum como el XOR de cada carácter en la cadena del comando hasta, pero sin incluir, el carácter '*'
-- Convierta el resultado del XOR a una cadena hexadecimal de dos dígitos en mayúsculas y sustitúyalo en {{checksum}} o {{checksumreeboot}}
+- Convierta el resultado del XOR a una cadena hexadecimal de dos dígitos en mayúsculas y sustitúyalo en [checksum] o [checksumreeboot]
 
 Nota: El contenido público también muestra un ejemplo del formato de encabezado usado por las herramientas del fabricante. Use las plantillas exactas arriba y reemplace los marcadores de posición. No elimine el signo de exclamación final.
 

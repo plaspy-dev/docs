@@ -78,16 +78,16 @@ Para configurar el APN y el servidor IP vía SMS use la siguiente estructura de 
 
 - Establecer APN GPRS y servidor de Plaspy
 ```
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Verificar la configuración GPRS actual
 ```
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Notas sobre los marcadores:
-- {{SecretKey}} — la contraseña SMS del dispositivo; por defecto son los últimos 6 caracteres ASCII del ID del dispositivo a menos que el proveedor la haya cambiado.
+- [SecretKey] — la contraseña SMS del dispositivo; por defecto son los últimos 6 caracteres ASCII del ID del dispositivo a menos que el proveedor la haya cambiado.
 - [apn] — el APN del operador móvil para la tarjeta SIM instalada en el dispositivo.
 - [apnu] — usuario del APN opcional si lo requiere el operador.
 - [apnp] — contraseña del APN opcional si lo requiere el operador.

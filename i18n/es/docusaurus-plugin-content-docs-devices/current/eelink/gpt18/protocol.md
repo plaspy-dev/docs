@@ -4,77 +4,77 @@ id: gpt18-protocol
 sidebar_label: Protocol
 title: EElink - GPT18 Protocol
 sidebar_class_name: menu_item_tracker
-description: Contexto público del protocolo para conectar el rastreador wearable EElink GPT18 con Plaspy usando la configuración de servidor compartido
+description: Notas públicas del protocolo del rastreador wearable EElink GPT18 y cómo se comunica con la plataforma Plaspy
 keywords:
   - protocolo EElink GPT18
-  - rastreador GPS GPT18
-  - rastreador wearable EElink
-  - compatibilidad con Plaspy
-  - protocolo de comunicación GPS
-  - protocolo para wearables
-  - localizador personal de seguridad
-  - reloj GPS con alarma SOS
-  - seguimiento de ubicación en tiempo real
-  - rastreador con voz bidireccional
+  - protocolo GPS EElink GPT18
+  - protocolo de comunicación EElink GPT18
+  - protocolo de rastreo EElink GPT18
+  - rastreador wearable EElink Plaspy
+  - compatibilidad GPT18 Plaspy
+  - guía de protocolo para rastreadores GPS
+  - telemetría de rastreadores personales
+  - integración GPS para wearables
+  - conectividad de dispositivos Plaspy
 ---
 
 # EElink - Protocolo GPT18
 
-Esta página ofrece el contexto público del protocolo para usar el rastreador GPS wearable EElink GPT18 con la plataforma Plaspy. Describe de forma general cómo se comunica el dispositivo, qué parámetros de conexión espera Plaspy y qué papel juega el protocolo de reporte del equipo al integrar el GPT18 en Plaspy.
+Esta página documenta el contexto público del protocolo para usar el rastreador GPS wearable EElink GPT18 con la plataforma Plaspy. Se centra en cómo el dispositivo se comunica con Plaspy a alto nivel, las configuraciones de conexión que suele necesitar y consideraciones prácticas para la integración y solución de problemas, sin exponer detalles privados de implementación.
 
-El GPT18 es compatible con Plaspy de serie y utiliza las configuraciones de servidor compartidas de Plaspy para reportar. Plaspy emplea un endpoint y un puerto comunes para los dispositivos soportados y detecta automáticamente el protocolo del rastreador. El comportamiento exacto del protocolo y los comandos disponibles pueden variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que esta página se centra en orientaciones de integración seguras y de alto nivel en vez de comandos específicos de firmware.
+El GPT18 es compatible con Plaspy desde el primer momento y admite configuración remota y envío de telemetría a la plataforma. Plaspy utiliza ajustes de conexión compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador cuando el dispositivo reporta al endpoint de Plaspy. La información pública del endpoint de Plaspy incluye el dominio de servidor d.plaspy.com, la IP de servidor 54.85.159.138 y el puerto compartido 8888. El comportamiento exacto del protocolo puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que siempre verifique las notas de firmware del dispositivo cuando estén disponibles.
 
 ## Resumen del protocolo
 
-A alto nivel, el protocolo de reporte define cómo el GPT18 se identifica, envía telemetría de ubicación y eventos, y acepta comandos remotos de configuración o gestión. El protocolo permite que el reloj comparta de forma fiable fijaciones de posición por GPS/Wi‑Fi/LBS, eventos SOS, actualizaciones de estado y otra telemetría con Plaspy, de modo que operadores y cuidadores puedan actuar con información oportuna.
+El protocolo del dispositivo define cómo el GPT18 informa la posición, el estado y los eventos de alarma a un servidor remoto y cómo se aplican los comandos de configuración remota. Para la integración con Plaspy, este protocolo permite que el reloj entregue telemetría útil que la plataforma puede mostrar, sobre la que puede generar alertas e incluir en informes.
 
-- Información de identificación y autenticación del dispositivo que permite a Plaspy asociar los reportes entrantes con una unidad GPT18 específica.
-- Entrega periódica de telemetría de posición y sensores para que Plaspy pueda ubicar, mostrar movimientos y generar alertas.
-- Reporte de eventos como alarmas SOS, activaciones de geocerca, batería baja y alertas de velocidad para notificaciones a tiempo.
-- Señales de configuración y gestión remota (iniciadas por servidor, app o SMS) para ajustar intervalos de reporte y comportamiento del dispositivo.
-- Telemetría de estado y salud usada por Plaspy para monitorizar batería, conectividad de red y disponibilidad general del equipo.
+- Proporciona un mecanismo para que el rastreador se identifique ante Plaspy y envíe actualizaciones de ubicación periódicas o desencadenadas por eventos.
+- Transporta datos de estado y eventos como SOS, batería baja, eventos de geocerca y activaciones de llamadas bidireccionales en un formato que Plaspy puede procesar.
+- Permite comandos de configuración remota para ajustar intervalos de reporte, modos de energía y umbrales de alerta vía servidor o canales de gestión compatibles.
+- Soporta posicionamiento multimodal, incluyendo GPS, Wi‑Fi y LBS, de modo que Plaspy reciba la mejor ubicación posible según el entorno.
+- Equilibra el comportamiento de reporte con la gestión de energía, de modo que la frecuencia de telemetría pueda ajustarse para optimizar confiabilidad y autonomía.
 
 ## Cómo detecta Plaspy el protocolo
 
-Plaspy recibe conexiones entrantes en un endpoint de servidor compartido y usa ese punto de entrada común para determinar automáticamente el protocolo de rastreador apropiado. En la mayoría de los casos, si usted configura el GPT18 para reportar al endpoint de Plaspy, no será necesario seleccionar el protocolo manualmente dentro de la plataforma.
+Plaspy acepta conexiones entrantes en un endpoint y puerto compartidos y aplica reconocimiento automático de protocolo, por lo que la mayoría de los dispositivos correctamente configurados no requieren una selección manual de protocolo dentro de Plaspy. La detección se basa en observar los reportes entrantes y mapearlos a patrones conocidos.
 
-- Plaspy escucha los reportes de dispositivos en el servidor público d.plaspy.com.
-- La plataforma también acepta conexiones dirigidas directamente a 54.85.159.138.
-- Todos los dispositivos soportados por Plaspy usan el mismo puerto, lo que simplifica el aprovisionamiento de equipos.
-- Plaspy detecta automáticamente el protocolo del rastreador cuando un dispositivo configurado correctamente reporta a la plataforma.
-- Por lo general, los usuarios solo necesitan configurar el dispositivo para enviar telemetría al endpoint de Plaspy; la detección del protocolo la gestiona Plaspy.
+- Los dispositivos reportan al endpoint de Plaspy en d.plaspy.com o directamente a 54.85.159.138 en el puerto compartido 8888.
+- Plaspy detecta automáticamente el protocolo del rastreador cuando un dispositivo transmite telemetría válida al endpoint, lo que reduce los pasos de configuración inicial para la mayoría de los despliegues.
+- Dado que todos los dispositivos en Plaspy usan el mismo puerto, usted solo necesita asegurarse de que el dispositivo esté apuntando al endpoint de Plaspy y emplee un transporte permitido.
+- En la mayoría de los casos no es necesario elegir un protocolo dentro de Plaspy siempre que el dispositivo esté configurado correctamente para reportar a d.plaspy.com utilizando el transporte soportado.
+- Si un dispositivo emplea un comportamiento de firmware no estándar, puede ser necesario verificar la documentación del fabricante antes de que Plaspy pueda interpretar todos los campos.
 
 ## Transporte y contexto de conexión
 
-El GPT18 puede configurarse para enviar telemetría sobre protocolos de transporte estándar según la configuración del dispositivo y la disponibilidad de red. Plaspy soporta los modos de transporte más comunes para abarcar distintos firmwares y escenarios de despliegue.
+El GPT18 puede configurarse para enviar datos sobre transportes de red estándar que soporta el dispositivo. Plaspy acepta ambos tipos de conexión en el puerto compartido, por lo que la selección de transporte puede basarse en la capacidad del dispositivo y las condiciones de red.
 
-- El dispositivo puede configurarse para usar UDP o TCP en el puerto 8888 según el firmware y las opciones seleccionadas.
-- Los equipos pueden apuntar al nombre de dominio d.plaspy.com o a la IP del servidor 54.85.159.138 como destino de reporte.
-- Plaspy utiliza el mismo número de puerto 8888 para todos los rastreadores soportados, garantizando una configuración de conexión consistente.
-- La elección del transporte (UDP vs TCP) puede afectar características de entrega como retransmisiones y latencia, por lo que seleccione el modo que coincida con el firmware del dispositivo y sus necesidades operativas.
-- Confirme que la red y el proveedor de la SIM permiten conexiones salientes hacia el endpoint de Plaspy en el transporte configurado.
+- Los dispositivos pueden configurarse para usar UDP o TCP para comunicarse con el endpoint de Plaspy en el puerto 8888, dependiendo del soporte del dispositivo y las decisiones de configuración.
+- El endpoint público de Plaspy puede resolverse por nombre de dominio d.plaspy.com o por su IP de servidor 54.85.159.138.
+- Todos los dispositivos en Plaspy usan el mismo puerto, lo que simplifica las reglas de firewall y las plantillas de despliegue.
+- Elija UDP para menor sobrecarga y una traversía NAT más sencilla cuando el dispositivo lo soporte, o TCP cuando se requiera entrega fiable y comportamiento orientado a sesión.
+- Asegúrese de que el APN del dispositivo y el plan SIM permitan conexiones salientes al endpoint de Plaspy y que los firewalls de la red permitan el puerto compartido.
 
 ## Notas sobre compatibilidad del protocolo
 
-- Las revisiones de firmware pueden añadir o cambiar funciones; el comportamiento observado en una versión de firmware del GPT18 puede diferir en otra.
-- Las revisiones de hardware y las variantes regionales pueden provocar diferencias sutiles en el protocolo entre unidades comercializadas en distintas regiones.
-- Las opciones de configuración del fabricante (servidor, transporte, intervalo de reporte) determinan cómo interactúa el equipo con Plaspy y deben validarse antes de un despliegue a gran escala.
-- La selección de transporte (UDP o TCP) es una opción de configuración del dispositivo y ambos son compatibles cuando se apuntan al endpoint de Plaspy en el puerto 8888.
-- Verifique que el dispositivo use el endpoint de Plaspy d.plaspy.com o 54.85.159.138 y que el puerto de reporte esté configurado en 8888.
-- Consulte siempre la documentación del fabricante para detalles específicos de despliegue y cualquier nota de versión de firmware que afecte el comportamiento del protocolo.
+- Las variaciones de firmware entre lotes de dispositivos o actualizaciones OTA pueden cambiar qué campos o eventos se reportan; verifique el comportamiento después de cambios de firmware.
+- Las revisiones de hardware pueden introducir pequeñas diferencias en sensores disponibles u opciones de reporte que afecten la compatibilidad.
+- Algunas funciones de gestión remota pueden proporcionarse vía SMS o servidores del fabricante además de la configuración basada en servidor; confirme la vía de configuración prevista.
+- La selección de transporte (UDP vs TCP) puede afectar la entrega y puede requerir diferentes políticas de reintento o manejo de timeouts en el lado del dispositivo.
+- La detección automática de Plaspy maneja muchos comportamientos comunes de rastreadores, pero firmware raros o altamente personalizados pueden necesitar verificación manual.
+- Siempre contraste la documentación del fabricante para conocer la disponibilidad de funciones asociadas a builds de firmware específicos.
 
 ## Por qué es importante comprender el protocolo
 
-Comprender cómo se comunica el GPT18 y cómo se mapea a Plaspy ayuda a reducir el tiempo de configuración, mejora la resolución de problemas y garantiza una operación confiable a largo plazo cuando se gestionan múltiples dispositivos.
+Comprender el contexto público del protocolo ayuda a asegurar un comportamiento fiable del dispositivo, agiliza la solución de problemas y permite resultados de integración previsibles al usar Plaspy con el GPT18. Tener expectativas claras sobre lo que el dispositivo envía y cómo Plaspy lo consume reduce fricciones en despliegues y sorpresas operativas.
 
-- Asegura la configuración correcta de servidor, transporte y puerto para que los dispositivos se conecten a Plaspy con fiabilidad.
-- Facilita la interpretación de la telemetría y el tiempo de eventos para ajustar alertas y flujos operativos.
-- Hace más sencillo diagnosticar problemas de conectividad o reporte al acotar el ámbito a transporte, SIM/red o firmware del equipo.
-- Apoya despliegues seguros al validar el comportamiento entre versiones de firmware y revisiones de hardware antes de ampliar la implementación.
-- Permite a los administradores ajustar intervalos de reporte y modos de ahorro para equilibrar precisión y vida de batería.
+- Facilita el aprovisionamiento correcto del dispositivo para que reporte a d.plaspy.com o 54.85.159.138 en el puerto 8888 usando el transporte adecuado.
+- Agiliza la resolución de problemas al acotar si un inconveniente es de red, transporte, firmware o configuración.
+- Ayuda a los administradores a decidir intervalos de reporte y modos de energía apropiados para balancear precisión y duración de batería.
+- Mejora el ajuste de alertas al entender qué eventos puede generar y reenviar de forma confiable el dispositivo a Plaspy.
+- Reduce ciclos de soporte al alinear expectativas de firmware con las capacidades de detección y análisis automático de Plaspy.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el GPT18 junto con Plaspy aporta la telemetría de seguridad personal y monitoreo a una plataforma de visibilidad unificada. Plaspy recopila ubicación, alertas SOS, eventos relacionados con voz bidireccional y el estado del dispositivo desde el GPT18 para que cuidadores y equipos de monitoreo puedan responder rápidamente y mantener supervisión desde paneles y flujos de trabajo conocidos.
+Usar el GPT18 con Plaspy incorpora funciones de seguridad personal y telemetría desde un wearable compacto hacia una plataforma de monitoreo unificada. Plaspy agrega ubicación, alertas SOS, telemetría de actividad y estado del dispositivo para cuidadores y operadores, de modo que los equipos puedan responder más rápido y mantener consciencia situacional sobre múltiples dispositivos.
 
-Las configuraciones de servidor compartidas de Plaspy y la detección automática de protocolo reducen la complejidad de configuración durante el despliegue, mientras que el soporte para UDP y TCP en el puerto 8888 permite apuntar el GPT18 a d.plaspy.com o 54.85.159.138 según sus preferencias de aprovisionamiento. Para saber más sobre Plaspy y cómo soporta flotas de dispositivos y rastreadores personales visite https://www.plaspy.com. Para obtener comportamiento específico de firmware y detalles de implementación del dispositivo, verifique la información más reciente con el fabricante en https://www.eelink.com.cn/.
+La detección automática de protocolos de Plaspy y su arquitectura de puerto compartido simplifican el despliegue para organizaciones que gestionan muchos dispositivos o tipos mixtos. Para obtener más información sobre cómo Plaspy puede soportar el GPT18 y otros dispositivos compatibles, visite https://www.plaspy.com. Para detalles de firmware, especificaciones del protocolo y documentación del fabricante, verifique la información en https://www.eelink.com.cn/.

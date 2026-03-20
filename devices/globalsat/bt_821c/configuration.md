@@ -81,29 +81,29 @@ TSPRXAB27GHKLMnaicz*U!
 
 1) Setup command
 - Purpose: configure APN placeholders and point the device to Plaspy by IP and port
-- Replace {{imei}} with the device IMEI, [apn] with the APN, [apnu] with the APN username, and [apnp] with the APN password. The final checksum must be calculated and substituted for {{checksum}}.
+- Replace [imei] with the device IMEI, [apn] with the APN, [apnu] with the APN username, and [apnp] with the APN password. The final checksum must be calculated and substituted for [checksum].
 
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 2) Reboot command (optional or used when required)
 - Purpose: reboot the device to apply settings
-- Replace {{imei}} and compute {{checksumreeboot}} for the reboot command.
+- Replace [imei] and compute [checksumreeboot] for the reboot command.
 
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Checksum generation
 - The checksum in the published content is calculated as a simple bytewise XOR of all characters before the asterisk, then converted to a two digit uppercase hexadecimal string. Ensure you compute and insert the checksum value exactly as required by your device firmware.
 
 Placeholders explained
-- {{imei}} — the device IMEI or identifier required by the SMS command format.
+- [imei] — the device IMEI or identifier required by the SMS command format.
 - [apn] — Access Point Name for cellular data if the tracker or gateway uses cellular connectivity.
 - [apnu] — APN username placeholder when needed.
 - [apnp] — APN password placeholder when needed.
-- {{checksum}} and {{checksumreeboot}} — computed checksum values inserted into the command.
+- [checksum] and [checksumreeboot] — computed checksum values inserted into the command.
 
 If your specific BT-821C unit or connected tracker does not support SMS configuration, use the manufacturer software or gateway configuration interface instead. Always verify command syntax with the device vendor documentation.
 

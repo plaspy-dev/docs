@@ -78,21 +78,21 @@ When configured, the MPIP-618-WA sends location and device data to Plaspy using 
 The MPIP-618-WA supports SMS based configuration. The manufacturer documents that SMS commands are protected by a secret key. The default secret key for SMS instructions is the last 6 ASCII characters of the device ID. Send configuration commands as SMS messages to the tracker phone number.
 
 Set the GPRS APN and server destination
-- Replace {{SecretKey}} with the device SMS secret key
+- Replace [SecretKey] with the device SMS secret key
 - Replace [apn], [apnu], [apnp] with your carrier APN, APN user, and APN password as needed
 
 ```
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 Verify the GPRS configuration on the device
 
 ```
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Notes on placeholders and usage
-- {{SecretKey}} is the SMS command password; by default it is the last 6 ASCII characters of the device ID for this tracker.
+- [SecretKey] is the SMS command password; by default it is the last 6 ASCII characters of the device ID for this tracker.
 - [apn] is the Access Point Name for the SIM card carrier; [apnu] and [apnp] are optional carrier user and password fields.
 - Send these commands as plain SMS text to the device number assigned to the tracker.
 - The order of parameters in the set command is important and follows the manufacturer syntax: APN, APN user, APN password, server IP, server port.

@@ -4,86 +4,88 @@ id: start_s_2012-configuration
 sidebar_label: Configuration
 title: Navtelekom - START S-2012 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública de configuración del Navtelekom START S-2012 para conectarlo a Plaspy con ajustes de servidor compartidos
+description: Configurar Navtelekom START S-2012 para enviar GNSS y telemetría a Plaspy con servidor compartido y detección automática de protocolo
 keywords:
-  - Configuración Navtelekom START S-2012
-  - Instalación Navtelekom START S-2012
-  - START S-2012 en Plaspy
-  - Configuración de rastreador Navtelekom
-  - Configuración de rastreador GPS
-  - Instalación de rastreador vehicular
-  - Configuración de Plaspy
-  - Configuración de seguimiento de flotas
-  - Rastreador para monitoreo de combustible
-  - Instalación de rastreador GNSS
+  - configuración Navtelekom START S-2012
+  - configuración START S-2012 para Plaspy
+  - configuración rastreador Navtelekom
+  - configuración de servidor START S-2012
+  - integración rastreador con Plaspy
+  - configuración GPS START S-2012
+  - guía de configuración rastreador vehicular
+  - seguimiento de flotas START S-2012
+  - configuración GNSS GSM
+  - guía NTC Configurator
 ---
 
 # Navtelekom - START S-2012 Configuración
 
-Esta página describe el contexto público de configuración para usar el rastreador Navtelekom START S-2012 con Plaspy. Resume los ajustes de servidor prácticos y el flujo de trabajo necesarios para apuntar el dispositivo a Plaspy y recibir reportes de ubicación en tiempo real, telemetría y eventos. La información aquí se basa en características públicas del equipo y en la información de servidores de Plaspy útil para instaladores e integradores.
+Esta página describe el contexto público de configuración para usar el rastreador Navtelekom START S-2012 con Plaspy. Se centra en los ajustes a nivel de plataforma y en el flujo de trabajo práctico necesarios para reenviar la ubicación GNSS, la telemetría de sensores y los eventos desde el START S-2012 hacia Plaspy. La información está pensada para ayudar a instaladores y equipos de flota a preparar el dispositivo para su integración con Plaspy utilizando las herramientas de configuración del fabricante.
 
-Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando este se conecta. Los pasos exactos del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y la herramienta de configuración empleada por el instalador (por ejemplo NTC Configurator o DRC remote management). Use esta guía junto con la documentación oficial de Navtelekom para instrucciones finales específicas del dispositivo.
+Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, pero los pasos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Navtelekom ofrece NTC Configurator y DRC como herramientas de gestión remota y configuración; siga esas herramientas del proveedor y la documentación oficial de Navtelekom al aplicar los ajustes descritos en esta página.
 
-## Resumen de la configuración
+## Visión general de la configuración
 
-Esta configuración prepara el START S-2012 para enviar datos GNSS y de sensores a Plaspy, de modo que el dispositivo aparezca en su cuenta de Plaspy y comience a reportar ubicación y eventos.
+La base de la integración del START S-2012 con Plaspy es apuntar el rastreador al endpoint del servidor de Plaspy y confirmar el transporte, luego validar que los datos GNSS y de sensores lleguen a la plataforma. Plaspy usa un puerto compartido único para todos los dispositivos compatibles y detectará automáticamente el protocolo del rastreador una vez que el dispositivo envíe datos al endpoint correcto.
 
-- Ingrese los ajustes del servidor de Plaspy en el dispositivo usando la herramienta del fabricante o el método SMS que soporte el equipo.
-- Seleccione el transporte y guarde la configuración para que el rastreador pueda abrir una sesión con Plaspy.
-- Confirme que el dispositivo tiene conectividad celular y una SIM activa para transmitir datos a Plaspy.
-- Valide los reportes en la plataforma Plaspy para asegurarse de que la ubicación, las entradas y la telemetría de sensores sean visibles.
-- Si es necesario, reinicie o corte la alimentación del dispositivo para que los nuevos ajustes surtan efecto y la conexión se inicialice.
+- Configure el rastreador para enviar telemetría al endpoint del servidor de Plaspy (dominio o IP) en el puerto compartido de Plaspy.
+- Elija la opción de transporte que soporte el dispositivo (UDP o TCP) y verifique la conectividad.
+- Use NTC Configurator o las herramientas remotas DRC para persistir los ajustes del servidor en el dispositivo.
+- Valide la posición en tiempo real, la telemetría de sensores y los reportes de eventos dentro de Plaspy una vez que el dispositivo se conecte.
 
-## Ajustes del servidor de Plaspy
+## Ajustes del servidor Plaspy
 
 - Dominio del servidor d.plaspy.com
 - IP del servidor 54.85.159.138
 - Puerto 8888
-- Soporte de transporte UDP o TCP
-- Plaspy detecta automáticamente el protocolo del rastreador y utiliza el mismo puerto para todos los dispositivos compatibles
+- Soporte de transporte UDP o TCP en el puerto 8888
+- Plaspy detecta automáticamente el protocolo del rastreador una vez que el dispositivo envía datos al endpoint compartido
 
-## Requisitos previos a la configuración
+## Requisitos habituales antes de la configuración
 
-- El START S-2012 es un dispositivo cableado y requiere alimentación del vehículo y una instalación de cableado correcta para operar.
-- Una tarjeta SIM válida con datos móviles habilitados en el dispositivo si se requiere conectividad celular para los reportes.
-- Acceso al método de configuración del fabricante, como NTC Configurator o el sistema de gestión remota DRC.
-- Una cuenta en Plaspy o acceso a la plataforma donde se verificará y monitoreará el dispositivo.
-- Instalación física completada y cualquier sensor externo o entradas conectadas según sea necesario para la telemetría.
+- Unidad START S-2012 alimentada y cableada según la guía de conexión de Navtelekom.
+- Servicio celular activo para la SIM del dispositivo y cobertura verificada en la red de instalación.
+- Acceso a las herramientas de configuración del fabricante como NTC Configurator o DRC para gestión remota.
+- Cuenta en Plaspy o información de aprovisionamiento para asociar el dispositivo al espacio de trabajo correcto del cliente o flota.
+- Firmware actualizado o, cuando sea posible, un nivel de firmware verificado como compatible.
+- Acceso físico al dispositivo durante la configuración inicial o un método de configuración remota a través de las herramientas del proveedor.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-El START S-2012 envía posiciones GNSS y datos de sensores a través de la red celular al punto final y puerto del servidor de Plaspy. Una vez configurado para apuntar a d.plaspy.com o 54.85.159.138 en el puerto 8888, el dispositivo establecerá una sesión y Plaspy identificará el protocolo del equipo automáticamente.
+El START S-2012 utiliza su conexión GSM para enviar posiciones GNSS y datos de sensores al endpoint y puerto del servidor de Plaspy. Una vez direccionado al servidor de Plaspy, la plataforma detectará automáticamente el protocolo del rastreador y comenzará a parsear los datos para seguimiento en vivo, eventos y telemetría.
 
-- Las actualizaciones de ubicación en tiempo real se envían desde el rastreador a Plaspy para monitoreo en vivo e historial de rutas.
-- La telemetría de sensores, como nivel de combustible o lecturas ambientales, se reenvía a Plaspy para paneles e alertas.
-- Las entradas de eventos (por ejemplo puertas, ignición o alarmas) se reportan y pueden activar notificaciones en Plaspy.
-- Los eventos de salida de control o comandos remotos pueden emplearse junto con las funciones de Plaspy para ejecutar acciones a distancia.
-- El dispositivo se comunica usando UDP o TCP en el puerto 8888 según el transporte seleccionado en la configuración.
+- El dispositivo envía reportes de ubicación GNSS a d.plaspy.com (o 54.85.159.138) en el puerto 8888 mediante UDP o TCP.
+- Los datos de sensores y telemetría, como nivel de combustible, lecturas de sensores Bluetooth y entradas de eventos, se reenvían junto con las actualizaciones de ubicación.
+- Las entradas de eventos y la salida de control pueden usarse para generar alertas y comandos remotos visibles en Plaspy.
+- Los datos de sensores Bluetooth y las integraciones por RS-485 o USB Type-C se transmiten a Plaspy cuando están configurados y son compatibles con el firmware.
+- Plaspy recibe el flujo entrante y lo asigna al registro de dispositivo correspondiente una vez que el rastreador se conecta al puerto compartido.
 
-## Flujo de configuración habitual
+## Flujo típico de configuración
 
-1. Abra la herramienta oficial de configuración de Navtelekom (NTC Configurator) o la herramienta de gestión remota DRC y conecte con el START S-2012.
-2. Localice la sección de ajustes de servidor o reporte dentro de la herramienta del fabricante.
-3. Ingrese el dominio del servidor Plaspy d.plaspy.com o la IP 54.85.159.138 en el campo de dirección del servidor.
-4. Establezca el puerto en 8888 como destino para los datos del rastreador.
-5. Elija UDP o TCP si el dispositivo requiere selección de transporte para el reporte.
-6. Aplique o guarde la configuración y envíela al dispositivo; siga las indicaciones de la herramienta para confirmar los ajustes.
-7. Reinicie o realice un ciclo de energía en el START S-2012 si la herramienta o el firmware requieren un reinicio para activar los nuevos ajustes, y luego valide que el dispositivo reporte en Plaspy.
+1. Acceda al método oficial de configuración de Navtelekom, como NTC Configurator o DRC, para iniciar la configuración.
+2. En los ajustes de servidor o telemetría ingrese el servidor de Plaspy como d.plaspy.com o la IP 54.85.159.138.
+3. Configure el puerto de destino en 8888, el puerto compartido de Plaspy usado por todos los dispositivos compatibles.
+4. Elija el protocolo de transporte (UDP o TCP) si el dispositivo requiere selección explícita.
+5. Guarde o aplique la configuración en la herramienta del fabricante y permita que el dispositivo reciba los ajustes actualizados.
+6. Reinicie o haga ciclo de energía al dispositivo si el fabricante lo indica para activar los nuevos ajustes de servidor.
+7. Valide que el START S-2012 reporte a Plaspy y que la posición, telemetría y eventos aparezcan en la plataforma Plaspy.
 
-## Ejemplos de comandos de configuración
+## Ejemplo de comandos de configuración
 
-El START S-2012 se configura típicamente usando herramientas de Navtelekom como NTC Configurator o DRC. Los comandos exactos de configuración y las cadenas SMS varían según el firmware y la herramienta del fabricante. Debido a estas diferencias, consulte la documentación de Navtelekom o la interfaz de NTC Configurator para la sintaxis precisa de comandos y las alternativas basadas en SMS.
+El START S-2012 se suele configurar con las herramientas de Navtelekom en lugar de requerir comandos crudos en campo. Los comandos exactos y la interfaz dependen de NTC Configurator o DRC y pueden variar según la versión de firmware y la edición de la herramienta. Al configurar, establezca el servidor a d.plaspy.com o 54.85.159.138 y el puerto a 8888, elija UDP o TCP si se solicita, luego guarde y aplique los ajustes mediante la herramienta del proveedor.
+
+Si utiliza un método del proveedor que expone la sintaxis de comandos de bajo nivel, siga el formato documentado por el fabricante en NTC Configurator o DRC y conserve los marcadores de posición que la herramienta requiera. Consulte la documentación de Navtelekom para ejemplos de comandos específicos según su firmware y conjunto de herramientas.
 
 ## Notas de configuración
 
-- Las versiones de firmware y las revisiones de hardware pueden cambiar los ajustes disponibles y las rutas de menú en NTC Configurator; siempre verifique la versión de firmware del equipo antes de aplicar instrucciones.
-- Elija UDP o TCP según las necesidades de la instalación; UDP es habitual por su bajo overhead para telemetría, mientras que TCP puede usarse cuando se prefiere una sesión más confiable. Plaspy aceptará cualquiera de los dos en el puerto 8888 y detectará el protocolo automáticamente.
-- Asegúrese de que la tarjeta SIM esté activa y autorizada para enviar datos por la red móvil; confirme la provisión con el operador antes de intentar conectar.
-- Use la gestión remota DRC del fabricante para actualizaciones masivas o gestión remota de firmware cuando esté disponible para simplificar despliegues a escala de flota.
-- Verifique el cableado de sensores externos y el emparejamiento Bluetooth antes de finalizar la configuración para que la telemetría se transmita inmediatamente tras la conexión a Plaspy.
+- Las diferencias de firmware pueden cambiar los nombres de los menús y la ubicación exacta de los ajustes de servidor y transporte; confirme con las notas de la versión del firmware del dispositivo.
+- Seleccionar TCP frente a UDP puede afectar cómo el rastreador agrupa o reintenta mensajes; elija el transporte que se ajuste a sus necesidades de estabilidad y latencia.
+- Al usar sensores Bluetooth, asegúrese de que esos periféricos estén emparejados y visibles para el rastreador antes de confiar en la telemetría en Plaspy.
+- Verifique el APN de la SIM y el registro celular mediante la herramienta del fabricante si el dispositivo no alcanza el servidor de Plaspy.
+- Use NTC Configurator y DRC del fabricante para la gestión remota y así reducir visitas físicas para actualizaciones de firmware o aprovisionamiento masivo.
 
 ## Por qué usar Plaspy con esta configuración
 
-Usar el Navtelekom START S-2012 con Plaspy ofrece una solución de rastreo cableada y compacta que envía posiciones GNSS y telemetría de sensores a una única plataforma para monitoreo, informes y alertas. Esta combinación es útil para flotas y gestores de activos que requieren visibilidad en tiempo real, monitoreo de combustible y notificaciones basadas en eventos desde un rastreador de pequeño tamaño.
+Usar el START S-2012 con Plaspy ofrece una solución compacta y cableada de rastreo que entrega posiciones GNSS y telemetría detallada en una única plataforma de gestión de flotas. Para flotas que requieren instalaciones discretas, monitoreo de combustible, datos de sensores ambientales y alertas basadas en eventos, el START S-2012 combinado con Plaspy permite visibilidad unificada y control operativo.
 
-Para conocer más sobre Plaspy y las capacidades de la plataforma visite https://www.plaspy.com. Los métodos de configuración específicos del dispositivo, el comportamiento del firmware y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar las últimas instrucciones de instalación y especificaciones técnicas en el sitio oficial de Navtelekom https://www.navtelecom.ru/ antes del despliegue.
+Para obtener más información sobre Plaspy y cómo puede recibir datos del START S-2012, visite https://www.plaspy.com. Verifique los métodos de configuración específicos del dispositivo, el comportamiento del firmware y las instrucciones de instalación detalladas en el sitio del fabricante https://www.navtelecom.ru/ ya que las capacidades del equipo y los procedimientos de configuración pueden cambiar con el tiempo.

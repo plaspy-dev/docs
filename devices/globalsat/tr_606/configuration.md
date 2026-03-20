@@ -85,23 +85,23 @@ TSPRXAB27GHKLMnaicz*U!
 
 - Template SMS command to configure APN and Plaspy server settings:
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 - Placeholder explanations:
-  - {{imei}} — the device IMEI number (required by the tracker for command targeting).
+  - [imei] — the device IMEI number (required by the tracker for command targeting).
   - [apn] — the carrier APN name.
   - [apnu] — the APN username if the carrier requires one.
   - [apnp] — the APN password if the carrier requires one.
-  - {{checksum}} — two character uppercase hexadecimal checksum calculated over the command string up to but not including the asterisk character.
+  - [checksum] — two character uppercase hexadecimal checksum calculated over the command string up to but not including the asterisk character.
 
 2) Optional reboot command to apply settings (labelled here as optional but recommended when required by firmware):
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Checksum calculation summary:
-- The required checksum is the XOR of all character codes in the command up to the "*" character, represented as a two digit uppercase hexadecimal value. Compute this checksum and insert it where the {{checksum}} or {{checksumreeboot}} placeholder appears.
+- The required checksum is the XOR of all character codes in the command up to the "*" character, represented as a two digit uppercase hexadecimal value. Compute this checksum and insert it where the [checksum] or [checksumreeboot] placeholder appears.
 
 Send these SMS commands from an authorized phone number according to the tracker documentation. The exact checksum method and command acceptance behavior are defined by GlobalSat firmware.
 

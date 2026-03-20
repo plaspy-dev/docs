@@ -79,23 +79,23 @@ If your DG-388AT deployment uses the standard BLE + GPX path, pair with ez-Conne
 
 The following example commands are extracted from publicly available manufacturer-styled configuration content. They use placeholders that you must replace with device-specific values before sending. Preserve the placeholders when preparing commands:
 
-- {{imei}} — replace with the device IMEI when required by the command format.
+- [imei] — replace with the device IMEI when required by the command format.
 - [apn], [apnu], [apnp] — APN placeholders for cellular variants; only relevant if your unit supports cellular or SMS-based configuration.
-- {{checksum}} and {{checksumreeboot}} — hexadecimal checksum values computed over the command text before the star character.
+- [checksum] and [checksumreeboot] — hexadecimal checksum values computed over the command text before the star character.
 
 Primary setup command (replace placeholders and compute checksum as described below):
 
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Optional reboot command (label this as reboot or apply step if required):
 
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
-Checksum calculation (public reference): compute a single-byte XOR checksum over the full command text up to but not including the '*' character, then convert that byte to a two-digit uppercase hexadecimal string. Place the resulting two-character hex value into the {{checksum}} placeholder. The example JavaScript used in the public content computes checksum by XOR of character codes and converts to uppercase hex with two characters.
+Checksum calculation (public reference): compute a single-byte XOR checksum over the full command text up to but not including the '*' character, then convert that byte to a two-digit uppercase hexadecimal string. Place the resulting two-character hex value into the [checksum] placeholder. The example JavaScript used in the public content computes checksum by XOR of character codes and converts to uppercase hex with two characters.
 
 Important: those SMS-style commands are present in public documentation but may only apply to variants or configurations that support SMS or remote server commands. The primary DG-388AT workflow remains BLE export to GPX and import into Plaspy unless your hardware or firmware documentation confirms server-side configuration.
 

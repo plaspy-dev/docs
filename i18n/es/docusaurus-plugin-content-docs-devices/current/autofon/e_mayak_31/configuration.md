@@ -4,93 +4,91 @@ id: e_mayak_31-configuration
 sidebar_label: Configuration
 title: AutoFon - E-Mayak 3.1 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública para configurar AutoFon E-Mayak 3.1 con Plaspy usando ajustes de servidor compartidos e integración por SMS
+description: Configure el AutoFon E-Mayak 3.1 para usar con Plaspy, incluyendo ajustes de servidor, flujo de configuración y guía de integración por SMS
 keywords:
   - Configuración AutoFon E-Mayak 3.1
-  - Configuración AutoFon E-Mayak
-  - AutoFon E-Mayak Plaspy
-  - Configuración rastreador GPS E-Mayak 3.1
-  - Configuración servidor Plaspy
-  - Integración rastreador con Plaspy
-  - Configurar rastreador GPS por SMS
-  - Configuración seguimiento de vehículos
-  - Seguimiento de activos E-Mayak
-  - Integración SMS rastreador GPS
+  - Instalación AutoFon E-Mayak 3.1
+  - Configuración de servidor AutoFon E-Mayak 3.1
+  - AutoFon E-Mayak 3.1 Plaspy
+  - Configuración rastreador GPS AutoFon
+  - Integración SMS E-Mayak 3.1
+  - Guía de configuración tracker AutoFon
+  - Configuración rastreador Plaspy
+  - Rastreo vehicular E-Mayak 3.1
+  - Rastreo de activos AutoFon
 ---
 
 # AutoFon - E-Mayak 3.1 Configuración
 
-Esta página documenta el contexto público de configuración para usar el rastreador AutoFon E-Mayak 3.1 con Plaspy. Se centra en pasos prácticos y en los ajustes de servidor compartidos necesarios para integrar el E-Mayak 3.1 en los flujos de trabajo de Plaspy. El E-Mayak 3.1 es un rastreador con prioridad SMS pensado para operación autónoma prolongada; utiliza mensajes SMS para reportar posición y telemetría que pueden reenviarse a Plaspy para visualización e informes.
+Esta página ofrece el contexto público de configuración para usar el AutoFon E-Mayak 3.1 con Plaspy. Resume cómo se comunica el E-Mayak 3.1, qué se necesita para integrarlo en los flujos de trabajo de Plaspy y qué ajustes de servidor utilizar al enrutar los datos del dispositivo hacia la plataforma. La guía aquí se enfoca en información práctica y pública, no en procedimientos privados del fabricante.
 
-Plaspy utiliza ajustes de servidor compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador. Los pasos exactos realizados en el equipo del fabricante pueden variar según la revisión de firmware, la versión de hardware, el tipo de instalación o las herramientas del proveedor. Esta página explica los valores públicos del servidor de Plaspy y enfoques prácticos para la integración del E-Mayak 3.1 basada en SMS, a la vez que recomienda verificar los comandos y el comportamiento específico del dispositivo con la documentación del fabricante.
+Plaspy emplea ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador. El E-Mayak 3.1 es un dispositivo orientado a SMS, por lo que la configuración en el lado del fabricante puede variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas de configuración del proveedor. Use los pasos siguientes para planear la integración y confirme los detalles con la documentación oficial de AutoFon cuando sea necesario.
 
 ## Resumen de la configuración
 
-El objetivo de la configuración para el E-Mayak 3.1 es preparar el rastreador y cualquier herramienta intermedia de puerta de enlace SMS o reenvío para que los mensajes SMS del dispositivo sean recibidos por Plaspy y se muestren en la plataforma. Debido a que este modelo reporta principalmente por SMS en lugar de telemetría GPRS continua, la integración normalmente emplea reenvío manual, una puerta de enlace SMS o un pequeño servicio que publique el contenido SMS en Plaspy.
+El proceso de configuración prepara el E-Mayak 3.1 para entregar posición y telemetría a Plaspy ya sea mediante transporte de red directo, cuando esté disponible, o reenviando mensajes SMS a los canales de entrada de Plaspy. El objetivo es asegurar que el dispositivo sea accesible, que los mensajes se interpreten correctamente y que las posiciones se muestren en la plataforma Plaspy.
 
-- Configure el dispositivo y la puerta de enlace SMS para reenviar mensajes de posición y telemetría a Plaspy.
-- Verifique que el dispositivo pueda enviar los SMS necesarios y que la SIM tenga habilitado el envío de SMS.
-- Asegúrese de que los mensajes reenviados lleguen al endpoint de Plaspy para su análisis y mapeo.
-- Confirme que se reciben mensajes de latido y telemetría para que el dispositivo aparezca como activo en Plaspy.
-- Pruebe un flujo de solicitud de ubicación bajo demanda o recuperación para verificar la visibilidad de extremo a extremo en la plataforma.
+- Apunte la salida del dispositivo o de un gateway SMS al endpoint del servidor de Plaspy cuando use transporte IP, o a los canales de entrada de Plaspy cuando use reenvío de SMS.
+- Configure el transporte del dispositivo cuando corresponda y establezca el puerto compartido de Plaspy para que la plataforma reciba datos de forma consistente.
+- Valide la identidad del dispositivo y el formato de los mensajes para que Plaspy detecte automáticamente el protocolo del rastreador y decodifique los mensajes correctamente.
+- Pruebe con mensajes de posición y telemetría en vivo para confirmar el mapeo, el reporte de batería y latidos, y cualquier mensaje de alerta.
+- Documente el método de integración elegido para mantenimiento, especialmente porque el E-Mayak 3.1 suele depender del reenvío de SMS en lugar de GPRS continuo.
 
 ## Ajustes del servidor Plaspy
 
-Use estos datos públicos de conexión de Plaspy al configurar su puerta de enlace o dispositivos con capacidad IP. Plaspy usa el mismo puerto para todos los dispositivos soportados y la detección de protocolo es automática en la plataforma.
-
-- Dominio del servidor d.plaspy.com
+- dominio del servidor d.plaspy.com
 - IP del servidor 54.85.159.138
-- Puerto 8888
-- Soporte de transporte UDP o TCP
-- Plaspy detecta automáticamente el protocolo del rastreador
+- puerto 8888
+- soporta transporte UDP o TCP
+- detección automática de protocolo en Plaspy
 
-Tenga en cuenta que el E-Mayak 3.1 prioriza SMS. Cuando los mensajes SMS se reenvían a Plaspy mediante una puerta de enlace o servicio de relé, ese servicio debe usar el dominio o la IP y el puerto indicados arriba para entregar los datos al endpoint de ingestión de Plaspy.
+Nota: Plaspy usa el mismo puerto para todos los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, lo que simplifica el manejo en el lado del servidor para flotas mixtas.
 
 ## Requisitos típicos antes de la configuración
 
-- Un AutoFon E-Mayak 3.1 alimentado con baterías instaladas y el dispositivo respondiendo a comandos SMS.
-- Una tarjeta SIM en el dispositivo con envío de SMS habilitado y saldo suficiente para comandos e informes.
-- Acceso al método oficial de configuración de AutoFon para el E-Mayak 3.1, por ejemplo la interfaz de comandos SMS y el PIN del dispositivo si es necesario.
-- Un plan sobre cómo llegarán los SMS a Plaspy, por ejemplo una puerta de enlace SMS a HTTP o un proceso de reenvío manual.
-- Cobertura de la red GSM en el lugar de instalación suficiente para enviar y recibir SMS.
-- El número del propietario y el PIN de configuración para permitir cambios en los ajustes del dispositivo y parámetros de reenvío.
+- Un E-Mayak 3.1 alimentado y funcional con una SIM válida capaz de enviar SMS.
+- Acceso al método oficial de configuración de AutoFon para el E-Mayak 3.1, ya sea mediante el conjunto de comandos SMS o las herramientas del fabricante.
+- Una cuenta de Plaspy o un endpoint de entrada de Plaspy designado donde se recibirán los mensajes reenviados o las publicaciones API.
+- Un plan para cómo los SMS llegarán a Plaspy: reenvío directo a un gateway SMS que haga POST a Plaspy, parseo manual o un servicio de integración.
+- Una SIM de prueba o un plan de SMS económico para las verificaciones y pruebas de batería/latidos.
+- Conocimiento del PIN del dispositivo y de los ajustes de número del propietario para aplicar comandos administrativos.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-Dado que el E-Mayak 3.1 reporta principalmente por SMS, la integración con Plaspy suele encaminar el contenido SMS hacia Plaspy en lugar de que el rastreador abra una sesión IP persistente. En las configuraciones integradas, una puerta de enlace SMS o un servicio de reenvío publica el contenido SMS parseado al endpoint y puerto del servidor Plaspy.
+El E-Mayak 3.1 está optimizado para control e informes por SMS. En la práctica, lo conecta a Plaspy asegurando que sus mensajes salientes lleguen a Plaspy o a un servicio que los reenvíe a Plaspy. Si alguna variante o versión de firmware ofrece transporte de red, se puede usar directamente el servidor y puerto compartido de Plaspy.
 
-- El dispositivo envía coordenadas GPS y telemetría por SMS siguiendo los formatos de mensaje del fabricante.
-- Los SMS pueden ser reenviados por una puerta de enlace o servicio a Plaspy usando d.plaspy.com o 54.85.159.138 y el puerto 8888.
-- Mensajes de latido y estado por SMS se usan para rastrear la salud del dispositivo en los paneles de Plaspy.
-- SMS de seguridad y telemetría, como alertas de batería o eventos relacionados con el PIN, son parseados por Plaspy cuando se reenvían.
-- Si interviene un intermediario con capacidad IP, se puede elegir UDP o TCP en el puerto 8888 para entregar los mensajes parseados a Plaspy; la plataforma detectará automáticamente el protocolo.
+- El método de conexión principal son mensajes SMS con coordenadas, enlaces de mapa y telemetría que se reenvían a Plaspy.
+- Use un gateway de SMS a HTTP o SMS a API para publicar el contenido de los SMS en los endpoints de Plaspy, o pegue enlaces de mapa cuando Plaspy los soporte.
+- Para rastreadores o gateways que soporten transporte IP, configure el dispositivo o el gateway para enviar a d.plaspy.com o 54.85.159.138 en el puerto 8888 usando UDP o TCP.
+- Plaspy detectará automáticamente el protocolo utilizado y decodificará los mensajes estándar de rastreadores para su visualización y registro.
+- Valide los SMS de latido (heartbeat) y los mensajes de telemetría para que Plaspy muestre el estado del dispositivo y la batería en los tableros.
 
-## Flujo típico de configuración
+## Flujo de trabajo de configuración común
 
-1. Acceda al método oficial de configuración de AutoFon o a la interfaz de comandos SMS del E-Mayak 3.1 usando el PIN y los comandos documentados por el fabricante.
-2. Configure dónde se reenviarán o cómo se recopilarán los mensajes SMS para la ingestión en Plaspy. Introduzca d.plaspy.com o 54.85.159.138 como destino en su puerta de enlace SMS o herramienta de reenvío.
-3. Establezca el puerto de destino en 8888 en la configuración de la puerta de enlace o del relé y seleccione UDP o TCP si la herramienta requiere elegir un transporte.
-4. Aplique o guarde la configuración en la puerta de enlace, el servicio de relé o la herramienta de configuración del dispositivo.
-5. Reinicie la puerta de enlace, el servicio de relé o el dispositivo si las instrucciones del fabricante indican que es necesario para que los cambios surtan efecto.
-6. Envíe una ubicación de prueba o solicite una posición bajo demanda desde el E-Mayak 3.1 y verifique que el mensaje llegue y sea parseado por Plaspy.
-7. Confirme que el dispositivo aparece como activo en Plaspy y que se registran telemetrías como batería y mensajes de latido.
+1. Acceda al método o software oficial de configuración del AutoFon E-Mayak 3.1 según lo documentado por el fabricante.
+2. Cuando esté disponible el transporte IP o si usa un gateway, ingrese d.plaspy.com o 54.85.159.138 como host de destino.
+3. Configure el puerto 8888 como el puerto de destino que usa Plaspy para todos los dispositivos compatibles.
+4. Si el dispositivo o el gateway requiere seleccionar el transporte, elija UDP o TCP según las instrucciones del dispositivo.
+5. Aplique o guarde la configuración en el dispositivo o gateway y asegúrese de que los ajustes persistan tras ciclos de energía.
+6. Reinicie el dispositivo si el fabricante lo requiere para activar los nuevos ajustes de red o entrega de SMS.
+7. Valide que el dispositivo reporte a Plaspy enviando una posición de prueba o un latido y confirmando la recepción en la plataforma Plaspy.
 
-## Ejemplos de comandos de configuración
+## Comandos de configuración de ejemplo
 
-El E-Mayak 3.1 se configura principalmente mediante comandos SMS usando la sintaxis oficial de AutoFon y un PIN de configuración. Los comandos SMS exactos y las secuencias varían según el firmware y los proporciona AutoFon en su documentación de producto. Dado que los comandos del fabricante no se incluyen aquí, consulte el manual de usuario de AutoFon para los comandos SMS precisos para cambiar objetivos de reporte, números de propietario o ajustes protegidos por PIN.
+Este dispositivo se configura principalmente mediante comandos SMS o herramientas del proveedor y el conjunto exacto de comandos puede variar según el firmware y las compilaciones regionales. Dado que los comandos y la sintaxis del fabricante cambian con el tiempo, consulte la documentación oficial del AutoFon E-Mayak 3.1 para las cadenas SMS exactas y los comandos administrativos necesarios para establecer números de propietario, PIN y formatos de mensaje.
 
-Si emplea una puerta de enlace SMS a API para reenviar mensajes a Plaspy, configure la puerta de enlace para POSTear o reenviar el SMS parseado al endpoint de Plaspy en d.plaspy.com puerto 8888 usando UDP o TCP según la capacidad de su puerta de enlace. Plaspy detectará automáticamente el protocolo del rastreador al recibir los datos.
+Si integra mediante un gateway SMS a API, configure el gateway para reenviar los SMS a Plaspy y mapee los campos entrantes SMS al formato que Plaspy espera. Si su gateway o una variante del rastreador soporta transporte IP directo, use los ajustes de servidor Plaspy indicados arriba.
 
 ## Notas de configuración
 
-- El E-Mayak 3.1 prioriza SMS y no ofrece telemetría GPRS continua. La integración con Plaspy normalmente utiliza un enfoque de reenvío de SMS o entrada manual.
-- El firmware y los formatos de mensaje pueden variar entre lotes de producción o por herramientas de proveedores. Verifique la sintaxis de comandos SMS y las funciones disponibles contra la documentación oficial de AutoFon.
-- Al configurar una puerta de enlace para reenviar mensajes a Plaspy, elija UDP o TCP en el puerto 8888 según las capacidades de su puerta de enlace. Plaspy usa el mismo puerto para todos los dispositivos y maneja la detección del protocolo automáticamente.
-- Mantenga seguro el PIN del dispositivo y la información del número del propietario. Los comandos protegidos por PIN forman parte del modelo de seguridad del dispositivo.
-- Revise el saldo de la SIM y la capacidad de envío de SMS antes de la validación final para evitar mensajes perdidos durante las pruebas.
+- E-Mayak 3.1 prioriza SMS. No asuma GPRS o telemetría IP continua a menos que una revisión de hardware o una versión de firmware lo indique explícitamente.
+- Cuando estén disponibles tanto UDP como TCP, pruebe ambos transportes, ya que las condiciones de red y el comportamiento del gateway pueden afectar la entrega y la latencia.
+- La vida útil de la batería y el comportamiento de deep-sleep afectan cuándo y cómo el rastreador responde a consultas y envía latidos; planifique intervalos de prueba en consecuencia.
+- Mantenga documentados y seguros los PIN del fabricante y los ajustes de número del propietario; intentos incorrectos de PIN pueden bloquear el acceso administrativo.
+- Use un entorno de prueba controlado y una SIM de prueba para confirmar el parseo de SMS en Plaspy antes de un despliegue a gran escala.
 
 ## Por qué usar Plaspy con esta configuración
 
-Usar el AutoFon E-Mayak 3.1 con Plaspy ofrece una solución práctica para escenarios de rastreo de larga duración y bajo mantenimiento donde la vida de batería y la discreción son prioritarias. Para activos y situaciones que admiten verificaciones de ubicación bajo demanda y telemetría basada en SMS, reenviar los mensajes del E-Mayak 3.1 a Plaspy permite mapeo, registro y supervisión operativa básica sin conexiones de datos continuas.
+Usar Plaspy con el AutoFon E-Mayak 3.1 proporciona a los equipos una forma práctica de visualizar ubicaciones y telemetría bajo demanda desde un rastreador SMS de bajo consumo y discreto. Para flujos de trabajo que priorizan larga duración de batería, baja detectabilidad y comprobaciones periódicas de ubicación, reenviar SMS a Plaspy ofrece mapeo, alertas y visibilidad operativa básica sin necesidad de suscripciones de datos continuos.
 
-Learn more about Plaspy and how it can ingest SMS based device messages at https://www.plaspy.com. For the most current device specific commands, firmware details, and configuration procedures for the E-Mayak 3.1 please verify the latest information on the manufacturer site https://www.autofon.ru/.
+Learn more about Plaspy on the main website https://www.plaspy.com. Device specific configuration methods, firmware behavior, and manufacturer details can change over time, so verify the latest setup instructions and SMS command reference with AutoFon at https://www.autofon.ru/.

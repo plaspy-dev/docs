@@ -4,77 +4,77 @@ id: smart_s_2433_hit-protocol
 sidebar_label: Protocol
 title: Navtelekom - SMART S-2433 HIT Protocol
 sidebar_class_name: menu_item_tracker
-description: Resumen público del protocolo del Navtelekom SMART S-2433 HIT y cómo comunica con Plaspy para telemetría de flotas
+description: Información pública del protocolo para integrar Navtelekom SMART S-2433 HIT con Plaspy y detalles esenciales de conexión
 keywords:
-  - Navtelekom SMART S-2433 HIT
-  - protocolo SMART S-2433 HIT
-  - protocolo rastreador GPS Navtelekom
-  - compatibilidad SMART S-2433 HIT Plaspy
-  - protocolo rastreador GPS Plaspy
-  - protocolo de rastreo de vehículos Navtelekom
-  - protocolo rastreador para gestión de flotas
-  - comunicación rastreador Navtelekom
-  - protocolo de seguimiento SMART S-2433 HIT
+  - protocolo Navtelekom SMART S-2433 HIT
+  - protocolo GPS Navtelekom SMART S-2433 HIT
+  - Navtelekom SMART S-2433 HIT Plaspy
+  - compatibilidad SMART S-2433 HIT
+  - protocolo de rastreador Navtelekom
+  - comunicación de rastreador GPS Plaspy
+  - rastreo de vehículos SMART S-2433
   - telemetría de flota Navtelekom
+  - protocolo de rastreador GPS 2G
+  - integración de rastreador Plaspy
 ---
 
 # Navtelekom - Protocolo SMART S-2433 HIT
 
-Esta página resume el contexto público del protocolo para usar el rastreador Navtelekom SMART S-2433 HIT con Plaspy. Se centra en cómo el dispositivo se comunica con Plaspy en términos generales, los ajustes de conexión necesarios para alcanzar el endpoint de Plaspy y consideraciones prácticas de compatibilidad para integración y despliegue.
+Esta página describe el contexto público del protocolo para usar el rastreador Navtelekom SMART S-2433 HIT con Plaspy. Se enfoca en cómo el dispositivo se comunica con Plaspy en términos generales y no sensibles, para que usted entienda el flujo de conexión e informes que permite el rastreo en tiempo real, la telemetría y la notificación de eventos en la plataforma Plaspy.
 
-Plaspy emplea ajustes de conexión compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador cuando el dispositivo reporta a la plataforma. El comportamiento exacto del protocolo puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que esta página ofrece contexto e indicaciones de integración sin exponer detalles privados de implementación.
+Plaspy utiliza configuraciones de conexión compartidas para los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando el equipo está configurado para reportar al endpoint de Plaspy. El comportamiento exacto de los mensajes puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que esta página explica el contexto de comunicación más que los formatos de paquete específicos de firmware.
 
-## Resumen del protocolo
+## Visión general del protocolo
 
-El protocolo de comunicación del SMART S-2433 HIT define cómo se codifican y entregan a Plaspy los datos de posición, estado, telemetría y eventos. Permite que el dispositivo se identifique, reporte coordenadas GNSS, entregue lecturas de entradas/salidas y sensores, y soporte control remoto y actualizaciones de telemetría gestionadas por la plataforma de flotas.
+El SMART S-2433 HIT envía posición, estado y telemetría del vehículo a un servidor remoto mediante enlaces de telemetría 2G estándar y las entradas/salidas del dispositivo para telemetría de eventos. El rastreador reporta coordenadas GNSS, estados de entradas digitales, lecturas de sensores y notificaciones de eventos que Plaspy ingiere y mapea al modelo de datos de la plataforma para mapas en vivo, alertas e informes.
 
-- Permite la transferencia de coordenadas GNSS y telemetría al servidor de Plaspy para visualización en tiempo real y consultas históricas.
-- Transporta estados discretos de E/S y datos analógicos de sensores para que Plaspy genere alertas e informes.
-- Proporciona un canal para mensajes dirigidos por eventos, como encendido, apertura de puertas, alarmas y eventos de acelerómetro.
-- Soporta transporte por módem celular 2G y se integra con características del dispositivo como batería de respaldo y E/S para un reporte robusto.
-- Funciona junto con las herramientas de configuración del fabricante para establecer intervalos de reporte y sensores habilitados.
+- Permite el reporte de posición GNSS y telemetría con marca de tiempo desde el vehículo al servidor para rastreo en tiempo real.
+- Transmite estados discretos de entradas y lecturas analógicas de sensores para que Plaspy pueda generar alertas e informes históricos.
+- Envía actualizaciones periódicas y basadas en eventos para equilibrar la vida de la batería, el uso de la red y las necesidades de reporte.
+- Identifica el dispositivo ante el servidor usando la identidad que el rastreador proporciona en los primeros reportes.
+- Incluye información de estado operativo, como respaldo de batería, manipulación o eventos del acelerómetro, para mayor conocimiento situacional.
 
-## Cómo detecta Plaspy el protocolo
+## Cómo Plaspy detecta el protocolo
 
-Plaspy recibe conexiones entrantes en un endpoint y puerto unificados y detecta automáticamente el protocolo del rastreador para los dispositivos compatibles. Cuando un SMART S-2433 HIT está configurado para reportar a Plaspy, la plataforma usará los detalles de conexión para analizar los datos entrantes sin necesidad de seleccionar el protocolo manualmente en la mayoría de los casos.
+Plaspy acepta conexiones entrantes en un único endpoint compartido y detecta automáticamente el protocolo del rastreador en función del tráfico recibido. En la mayoría de las implementaciones usted no necesita seleccionar un protocolo dentro de Plaspy siempre que el SMART S-2433 HIT esté configurado para reportar al endpoint de Plaspy usando el transporte y credenciales correctas.
 
-- Plaspy escucha reportes de dispositivos en el endpoint compartido d.plaspy.com así como en la dirección IP de la plataforma 54.85.159.138
-- Todos los dispositivos en Plaspy usan el mismo puerto, por lo que el tráfico de dispositivos se centraliza para su detección y procesamiento
-- El SMART S-2433 HIT solo necesita apuntar al endpoint de Plaspy para permitir la detección automática
-- Por lo general, usted no necesita seleccionar un protocolo dentro de Plaspy cuando el dispositivo está correctamente direccionado al endpoint de Plaspy
-- Si necesita ayuda con la configuración o validación del dispositivo, revise las herramientas y registros del fabricante para confirmar que los reportes salientes lleguen al endpoint de Plaspy
+- Plaspy usa un endpoint de servidor compartido en d.plaspy.com con la dirección pública 54.85.159.138 y un puerto único configurado para el reporte de dispositivos.
+- Todos los dispositivos en Plaspy utilizan el mismo puerto, lo que simplifica el aprovisionamiento y reduce errores de configuración.
+- Plaspy detecta automáticamente el protocolo del rastreador, por lo que los dispositivos configurados de forma estándar serán reconocidos al reportar al endpoint de Plaspy.
+- La configuración típica requiere apuntar el rastreador a d.plaspy.com o a la IP del servidor y usar el protocolo de transporte acordado para ese dispositivo.
+- Si un dispositivo no aparece, verifique la dirección de reporte del rastreador, la selección de transporte y la conectividad del operador antes de cambiar supuestos sobre el protocolo.
 
 ## Transporte y contexto de conexión
 
-El transporte de la conexión es una capa separada del payload del protocolo y puede seleccionarse según la capacidad del dispositivo y las condiciones de la red. El SMART S-2433 HIT puede usar transporte UDP o TCP según cómo esté configurado y según lo requiera el despliegue.
+Las opciones de conexión del SMART S-2433 HIT dependen de la configuración del dispositivo, el soporte del operador y el modo de reporte seleccionado. El rastreador puede configurarse para usar UDP o TCP en el puerto unificado de Plaspy. Los puntos siguientes resumen el contexto de transporte y direccionamiento que debe confirmar durante la puesta en marcha.
 
-- Los dispositivos pueden configurarse para enviar reportes vía UDP o TCP en el puerto 8888
-- Plaspy acepta tráfico entrante de dispositivos en el puerto 8888 para todos los dispositivos soportados
-- El dispositivo puede apuntarse al servidor de Plaspy por hostname d.plaspy.com o por la dirección IP de la plataforma 54.85.159.138
-- La elección entre TCP o UDP puede afectar la fiabilidad y el comportamiento de retransmisión, pero no cambia la detección del protocolo por parte de Plaspy
-- Asegúrese de que el APN saliente del dispositivo y el plan de la SIM permitan conectividad al endpoint de Plaspy y al puerto 8888
+- El dispositivo puede configurarse para usar UDP o TCP en el puerto 8888 según el soporte y la configuración del equipo.
+- Los equipos pueden apuntar al servidor Plaspy usando el dominio d.plaspy.com o la IP 54.85.159.138.
+- Plaspy utiliza el mismo puerto para todos los dispositivos compatibles, lo que simplifica la configuración de firewalls y redes en el lado del servidor.
+- Elija UDP para telemetría periódica ligera cuando esté disponible, o TCP cuando se prefiera un transporte orientado a sesión y más fiable según el hardware y el operador.
+- Confirme el APN y la configuración de la SIM del rastreador para que el equipo pueda establecer una sesión de datos móviles antes de intentar alcanzar el endpoint de Plaspy.
 
-## Notas de compatibilidad del protocolo
+## Notas sobre compatibilidad del protocolo
 
-- Las revisiones de firmware pueden alterar el comportamiento de reporte y los campos disponibles; verifique las notas de la versión del fabricante
-- Las revisiones de hardware y accesorios opcionales, como sensores Bluetooth o dispositivos serie, pueden modificar los tipos de telemetría soportados
-- La selección de transporte entre UDP y TCP debe coincidir con la configuración del dispositivo y con las políticas de firewall de la red para el puerto 8888
-- Las utilidades de configuración del fabricante y el soporte MODBUS pueden usarse localmente para habilitar flujos de telemetría específicos antes de reportar a Plaspy
-- Confirme la cobertura de la red y la compatibilidad de la SIM con 2G en las áreas donde se despliegue el SMART S-2433 HIT, ya que la disponibilidad celular afecta la conectividad
-- Valide la compatibilidad con la documentación más reciente del fabricante para asegurar que los campos y eventos esperados sean reportados
+- Las variaciones de firmware pueden cambiar la cadencia de reporte exacta, los campos de telemetría disponibles y los modos de transporte soportados.
+- Las revisiones de hardware pueden introducir o eliminar entradas/salidas físicas y sensores que afecten qué datos reporta el dispositivo.
+- Debe consultarse la documentación y las herramientas de configuración del fabricante para asegurar que el rastreador esté configurado para reportar a Plaspy usando el dominio o la IP y el transporte correctos.
+- La selección de transporte entre UDP y TCP es configurable en el dispositivo y debe corresponder con las capacidades del firmware del rastreador y las necesidades de su red.
+- Plaspy detecta el protocolo automáticamente, pero la detección exitosa requiere una dirección correcta del dispositivo y configuración adecuada del APN.
+- Si usa MODBUS o sensores seriales, confirme cómo el dispositivo reenvía esos datos en la telemetría para garantizar que Plaspy pueda consumir los campos esperados.
 
-## Por qué es importante entender el protocolo
+## Por qué es importante comprender el protocolo
 
-Comprender el protocolo de comunicación ayuda a asegurar una configuración confiable, facilita la resolución de problemas y aporta previsibilidad a largo plazo cuando el dispositivo se integra con Plaspy. Tener claridad sobre cómo el rastreador reporta datos reduce el tiempo de resolución ante incidencias de conectividad y reportes.
+Tener un entendimiento práctico del protocolo de comunicación del SMART S-2433 HIT ayuda a asegurar una configuración confiable, acelerar la resolución de problemas y obtener un funcionamiento predecible a largo plazo cuando el dispositivo se empareja con Plaspy. Conocer el contexto de la conexión y qué reporta el rastreador reduce el tiempo hasta la primera posición válida y minimiza falsas alertas.
 
-- Confirma que el dispositivo apunta al endpoint y puerto correctos de Plaspy para la detección automática
-- Facilita la interpretación de la telemetría entrante y la correlación de eventos reportados con la configuración del dispositivo
-- Apoya la resolución de problemas de conectividad al verificar transporte TCP o UDP y los reportes salientes al servidor de Plaspy
-- Orienta la configuración de intervalos de reporte, asignaciones de E/S y umbrales de eventos para alertas precisas en Plaspy
-- Ayuda en la planificación de actualizaciones de firmware y en la adaptación a variaciones de hardware que puedan cambiar campos o capacidades reportadas
+- Ayuda a verificar que el dispositivo está apuntando al endpoint correcto de Plaspy y usando el transporte previsto.
+- Facilita la resolución de problemas cuando falta telemetría, al concentrar las verificaciones en APN, SIM, transporte y alcance del servidor.
+- Aclara qué entradas y sensores serán visibles en Plaspy y cómo los eventos se mapean a alertas e informes.
+- Orienta las decisiones sobre la cadencia de reporte para equilibrar granularidad de datos y consumo de datos móviles.
+- Apoya la planificación de actualizaciones de firmware e implementaciones de dispositivos al destacar diferencias potenciales entre versiones de firmware y hardware.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el SMART S-2433 HIT con Plaspy centraliza la telemetría del dispositivo, el registro de eventos y la ubicación en tiempo real dentro de un flujo de trabajo de gestión de flotas. La protección eléctrica robusta del rastreador, su batería de respaldo y su conjunto flexible de E/S lo hacen adecuado para entornos vehiculares exigentes, mientras que Plaspy ofrece la capa de ingestión y visualización de esos datos.
+Usar el SMART S-2433 HIT con Plaspy ofrece un camino directo hacia la visibilidad en tiempo real del vehículo, alertas basadas en eventos e informes a nivel de flota. Las capacidades GNSS del equipo, su conjunto robusto de entradas/salidas y la batería de respaldo lo hacen adecuado para entornos vehiculares exigentes, mientras que Plaspy normaliza la telemetría entrante y proporciona mapas, historial y herramientas de alertas para los equipos de operaciones.
 
-Si usted desea conocer más sobre cómo Plaspy puede integrarse con rastreadores Navtelekom y otros dispositivos, visite https://www.plaspy.com para detalles de la plataforma y opciones de despliegue. Para la información más actualizada sobre protocolo específico del dispositivo, comportamiento de firmware y detalles de implementación, consulte la documentación del fabricante en https://www.navtelecom.ru/ ya que el comportamiento y las características soportadas pueden cambiar con el tiempo.
+Plaspy simplifica la incorporación de dispositivos usando una dirección y puerto de servidor compartidos y detectando automáticamente el protocolo del rastreador cuando el equipo se configura para reportar a d.plaspy.com o 54.85.159.138 en el puerto 8888. Para saber más sobre Plaspy y cómo se integra con rastreadores de nivel de flota como el SMART S-2433 HIT visite https://www.plaspy.com. Para obtener los detalles más recientes específicos del dispositivo, notas de firmware y herramientas de configuración, consulte la documentación del fabricante en https://www.navtelecom.ru/ .

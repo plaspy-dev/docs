@@ -83,16 +83,16 @@ Use these SMS command templates, replacing placeholders as described below:
 
 - APN and server set command
 ```text
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Verify current GPRS settings
 ```text
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Placeholders explained:
-- {{SecretKey}} — the device SMS password, by default the last 6 ASCII characters of the device ID
+- [SecretKey] — the device SMS password, by default the last 6 ASCII characters of the device ID
 - [apn] — the cellular operator APN string
 - [apnu] — the APN username if required by the operator
 - [apnp] — the APN password if required by the operator

@@ -4,78 +4,77 @@ id: k9-protocol
 sidebar_label: Protocol
 title: EElink - K9 Protocol
 sidebar_class_name: menu_item_tracker
-description: Guía pública del protocolo EElink K9 para integrar el rastreador GPS con Plaspy y asegurar seguimiento fiable de flotas y activos
+description: Visión pública del protocolo EElink K9 y cómo se comunica con Plaspy
 keywords:
   - Protocolo EElink K9
   - Protocolo GPS EElink K9
+  - Protocolo EElink K9 para Plaspy
   - Protocolo de comunicación EElink K9
-  - Compatibilidad del rastreador K9 con Plaspy
-  - Protocolo rastreador GPS EElink
-  - Protocolo de seguimiento K9
-  - Integración EElink K9
-  - Protocolo de dispositivo Plaspy
+  - Protocolo de rastreo EElink K9
+  - Protocolo de rastreador GPS EElink
+  - Compatibilidad EElink K9 con Plaspy
   - Rastreo de vehículos EElink K9
-  - Compatibilidad de rastreadores GPS con Plaspy
+  - Compatibilidad rastreador GPS con Plaspy
+  - Documentación protocolo K9
 ---
 
-# EElink - Protocolo K9
+# EElink - K9 Protocol — Resumen del protocolo
 
-Esta página describe el contexto público del protocolo para usar el rastreador GPS EElink K9 con Plaspy. Se enfoca en cómo el dispositivo se comunica con Plaspy en términos generales, qué ajustes de conexión se utilizan y consideraciones prácticas para garantizar que las posiciones y las alarmas lleguen de forma fiable a la plataforma Plaspy.
+Esta página ofrece una visión pública y no sensible del contexto de comunicación del rastreador EElink K9 cuando se integra con Plaspy. Describe el rol del reporte del dispositivo, las expectativas básicas de conexión y cómo la telemetría y los eventos de alarma llegan a la plataforma, sin exponer detalles internos de firmware ni formatos de paquete propietarios.
 
-El EElink K9 es un rastreador con muchas funciones: posicionamiento GPS y LBS, reporte por GPRS, voz bidireccional, alarmas SOS, geocercas y alertas por exceso de velocidad, batería extraíble y capacidad de actualización OTA. Plaspy emplea ajustes de conexión compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, pero el tiempo de envío de paquetes, el contenido de los mensajes y la disponibilidad de funciones pueden variar según la versión de firmware, la revisión de hardware y la implementación del fabricante.
+El EElink K9 es un rastreador con muchas funciones: posicionamiento GPS y LBS, reporte por GPRS, voz bidireccional, botón SOS, alarmas de geocerca y velocidad, alertas por batería removible, registro de rutas local con exportación PLT y capacidad de actualización OTA. Plaspy utiliza ajustes de conexión compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del equipo, aunque el comportamiento exacto puede variar según versiones de firmware, revisiones de hardware y la implementación del fabricante.
 
 ## Resumen del protocolo
 
-El protocolo del rastreador es el conjunto de mensajes y comportamientos de reporte que el K9 utiliza para identificarse, enviar posiciones y alarmas, y recibir comandos remotos. Cuando está configurado para reportar a Plaspy, el protocolo permite cargas periódicas de ubicaciones GPS o basadas en red celular, notificaciones de eventos como SOS o alertas de movimiento, y reportes de estado como el nivel de batería.
+A alto nivel, el protocolo del dispositivo K9 define cómo el rastreador se identifica, reporta datos de ubicación y estado, y remite alarmas y confirmaciones de comandos remotos a un endpoint en la nube. Para la integración con Plaspy, el protocolo se considera el canal que transporta posiciones GPS y LBS, notificaciones de eventos y el intercambio de comandos bidireccionales sobre GPRS.
 
-- Transporta información de identidad para que Plaspy asocie los mensajes con un dispositivo K9 concreto
-- Entrega reportes de posición y estimaciones LBS para seguimiento en tiempo real y reproducción de historial
-- Transmite alarmas y notificaciones de eventos como SOS, geocercas y exceso de velocidad
-- Permite configuración remota y actualizaciones OTA cuando el dispositivo y el fabricante lo habilitan
-- Funciona sobre datos móviles para que el rastreador pueda subir información vía GPRS a un servidor remoto
+- Permite subidas periódicas y por eventos de telemetría para que Plaspy disponga de ubicación, velocidad, nivel de batería y estados de alarma.
+- Transmite la identidad del dispositivo y el contexto de sesión para que Plaspy asocie los reportes con el registro del rastreador correcto.
+- Lleva eventos de alarma y SOS para notificaciones oportunas y reproducción de historial en la plataforma.
+- Soporta funciones de monitoreo remoto como señalización de llamada bidireccional y escucha remota, dentro de los límites del firmware del dispositivo.
+- Incluye soporte para actualizaciones OTA y exportación de archivos de ruta local, según la implementación del fabricante.
 
-## Cómo detecta Plaspy el protocolo
+## Cómo Plaspy detecta el protocolo
 
-Plaspy recibe los reportes entrantes de los dispositivos en un endpoint público compartido y determina automáticamente el protocolo adecuado para cada equipo. En la mayoría de los casos, un K9 correctamente configurado comenzará a reportar a Plaspy sin que usted tenga que seleccionar manualmente el protocolo en la plataforma.
+Plaspy recibe los reportes de los dispositivos en un endpoint y puerto compartidos, y detecta automáticamente el protocolo del rastreador en la mayoría de los casos, evitando que el usuario tenga que seleccionar manualmente el protocolo. La configuración correcta del dispositivo para apuntar al endpoint de Plaspy es el requisito principal para que la detección automática funcione de forma fiable.
 
-- Plaspy escucha en un único endpoint público los reportes de dispositivos y aplica detección automática de protocolos
-- Usted normalmente configura los dispositivos para que apunten a d.plaspy.com o a la dirección del servidor Plaspy equivalente
-- Plaspy soporta tanto reportes por UDP como por TCP según la configuración del dispositivo
-- Como Plaspy usa el mismo puerto para todos los dispositivos, un K9 solo necesita reportar al endpoint de Plaspy para ser detectado
-- La detección automática evita, en la mayoría de los casos, la selección manual de un protocolo en la plataforma
+- El dominio del servidor Plaspy es d.plaspy.com y la IP del servidor es 54.85.159.138.
+- El puerto es 8888 y todos los dispositivos en Plaspy usan el mismo puerto para reportar.
+- El dispositivo puede configurarse para usar UDP o TCP en el puerto 8888 según el modelo y la configuración.
+- Cuando un dispositivo reporta al endpoint de Plaspy, la plataforma empareja las sesiones entrantes con protocolos conocidos y enruta los datos al analizador adecuado.
+- En instalaciones típicas, los usuarios no necesitan elegir un protocolo dentro de Plaspy una vez que el K9 está correctamente apuntado al endpoint de Plaspy y autenticado según se requiera.
 
-## Contexto de transporte y conexión
+## Transporte y contexto de conexión
 
-El contexto de conexión se refiere a cómo el K9 alcanza el servidor de Plaspy más que al formato exacto de los mensajes. El K9 puede configurarse para usar UDP o TCP en los envíos y debe apuntar al endpoint de Plaspy en el puerto compartido.
+El transporte y la conexión son independientes del protocolo de alto nivel. El K9 suele usar GPRS para acceder a Internet y puede enviar sus mensajes de protocolo por UDP o TCP según lo soporte el firmware y la configuración del equipo.
 
-- Los dispositivos pueden configurarse para reportar a d.plaspy.com o a la IP del servidor Plaspy 54.85.159.138
-- Plaspy acepta reportes de dispositivos en el puerto 8888 y todos los dispositivos usan el mismo puerto
-- El rastreador puede configurarse para usar UDP o TCP según el soporte del dispositivo y la preferencia del operador
-- Use el mismo host y puerto proporcionados por Plaspy para asegurar que la detección automática funcione
-- Factores a nivel de red como la configuración del APN, NAT del operador y la conectividad de datos afectan la entrega, pero no la elección básica del transporte
+- Los dispositivos pueden configurarse para enviar datos a d.plaspy.com o directamente a 54.85.159.138.
+- El dispositivo puede usar UDP o TCP en el puerto 8888 según el soporte y la configuración del equipo.
+- Plaspy escucha en el mismo puerto para todos los dispositivos soportados, lo que simplifica la configuración y el enrutamiento.
+- Asegúrese de que el APN y la configuración del operador permitan conexiones GPRS salientes al endpoint de Plaspy y que cualquier firewall de red permita salidas UDP o TCP por el puerto 8888.
+- Para reportes fiables verifique la calidad de señal y la provisión de la SIM, ya que la fiabilidad del transporte depende del enlace celular y del estado de energía del dispositivo.
 
 ## Notas sobre compatibilidad del protocolo
 
-- EElink publica actualizaciones de firmware y diferentes versiones pueden alterar el tiempo de mensajes o las funciones disponibles
-- Revisiones de hardware o variantes regionales del K9 pueden implementar diferencias en el protocolo aunque el modelo sea el mismo
-- La selección del transporte (UDP vs TCP) es un ajuste del dispositivo y puede afectar la confiabilidad en ciertas condiciones de red
-- Algunas funciones, como la llamada bidireccional o la escucha de audio local, dependen tanto del firmware como del soporte del operador de la SIM
-- Se reporta que el K9 soporta múltiples protocolos y puede recibir actualizaciones OTA que añadan o cambien comportamiento
-- Valide la compatibilidad comparando las notas de la versión del firmware y la documentación del fabricante antes de despliegues a gran escala
-- Confirme siempre que la configuración del dispositivo apunte al endpoint de Plaspy para permitir la detección automática del protocolo
+- Los detalles del protocolo K9 y los comandos soportados pueden variar entre versiones de firmware y revisiones de hardware.
+- Algunas funciones como voz bidireccional, escucha remota o actualizaciones OTA dependen de servicios habilitados por el fabricante y de las capacidades del firmware.
+- La selección de transporte entre UDP y TCP puede afectar retransmisiones y persistencia de sesión, pero no cambia el propósito general del protocolo.
+- La configuración por parte del fabricante o firmware específico de una región puede introducir pequeñas variaciones en el tiempo de los mensajes o en las alarmas soportadas.
+- Verifique los ajustes de APN y que el dispositivo esté apuntando al endpoint de Plaspy al validar la conectividad.
+- En caso de duda, consulte la documentación del fabricante y las notas de versión para cambios específicos del firmware.
 
-## Por qué es importante comprender el protocolo
+## Por qué es importante entender el protocolo
 
-Entender el protocolo de comunicación ayuda a asegurar que los dispositivos reporten con fiabilidad, que las alarmas se gestionen con prontitud y que los cambios de configuración surtan efecto según lo esperado. Tener nociones básicas de cómo el K9 envía ubicaciones y eventos hace que la instalación, las pruebas y la resolución de problemas sean más rápidas y efectivas.
+Comprender cómo se comunica el K9 ayuda en la configuración inicial, en mantener una operación confiable y en realizar diagnósticos eficientes cuando un dispositivo no aparece en Plaspy como se esperaba. Conocer los límites entre transporte, configuración del dispositivo y comportamiento del protocolo reduce las conjeturas al diagnosticar problemas de conectividad o de reporte.
 
-- Permite verificar con mayor rapidez que un dispositivo está reportando a Plaspy y que se identifica correctamente
-- Facilita la resolución de problemas de conectividad, como reportes de posición faltantes o alarmas retrasadas
-- Ayuda a decidir entre UDP o TCP según el comportamiento de la red y las necesidades de confiabilidad
-- Sirve para planificar ciclos de actualización de firmware y comprender cómo esos cambios pueden alterar los reportes
-- Ayuda a identificar cuándo la configuración del fabricante o las limitaciones del operador están afectando el comportamiento del dispositivo
+- Confirma que el dispositivo apunta al endpoint correcto de Plaspy y que usa el puerto y el transporte requeridos.
+- Ayuda a validar que las alarmas y eventos SOS se entregarán y se mapearán correctamente en la plataforma.
+- Facilita el diagnóstico de reportes intermitentes al separar factores celulares, de transporte y de protocolo.
+- Permite planificar actualizaciones OTA y cambios de funciones que podrían afectar el comportamiento de los reportes.
+- Asegura la disponibilidad de reproducción de historial y exportaciones PLT al confirmar que el rastreador sube los datos requeridos.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar Plaspy con el EElink K9 ofrece una forma unificada de recolectar datos de ubicación, alarma y estado de este rastreador junto con otros dispositivos. Organizaciones que requieren visibilidad de flotas de vehículos, protección de activos o seguridad personal se benefician de que Plaspy procese los reportes del K9, normalice los mensajes del dispositivo y presente ubicaciones y eventos en una plataforma única.
+Usar el EElink K9 con Plaspy ofrece a las organizaciones una plataforma única para recopilar datos de ubicación, alarma y estado del rastreador y presentarlos en paneles, reproducción de historial y flujos de alertas. El modelo de endpoint compartido de Plaspy y la detección automática de protocolos reducen la complejidad de configuración y permiten gestionar flotas diversas con ajustes de red consistentes.
 
-Plaspy escucha los reportes del K9 en d.plaspy.com y 54.85.159.138 en el puerto 8888 y soporta dispositivos que reportan por UDP o TCP. Dado que Plaspy usa el mismo puerto para todos los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, la mayoría de las unidades K9 pueden integrarse configurando el dispositivo para que apunte al endpoint de Plaspy y verificando la conectividad. Para conocer más sobre la plataforma Plaspy y cómo puede trabajar con dispositivos EElink visite https://www.plaspy.com. Para detalles específicos del protocolo por dispositivo, notas de firmware y orientación del fabricante, verifique la información oficial en https://www.eelink.com.cn/.
+Si desea conocer más sobre Plaspy y las capacidades de la plataforma visite https://www.plaspy.com. Para detalles de protocolo específicos por dispositivo, notas de firmware y procedimientos de actualización consulte la documentación del fabricante en https://www.eelink.com.cn/ ya que el soporte de protocolo y el comportamiento del firmware pueden cambiar con el tiempo y deben verificarse con las fuentes oficiales del fabricante.

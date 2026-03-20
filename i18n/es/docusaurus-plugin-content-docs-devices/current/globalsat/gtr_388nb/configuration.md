@@ -78,24 +78,24 @@ Nota sobre el formato proporcionado por el fabricante
 - Los comandos SMS públicos que siguen fueron tomados del contenido de configuración facilitado por el fabricante e incluyen marcadores que usted debe reemplazar.
 
 Comando de configuración principal
-- Reemplace {{imei}} por el IMEI del dispositivo
+- Reemplace [imei] por el IMEI del dispositivo
 - Reemplace [apn] por el nombre APN de su operador móvil
 - Reemplace [apnu] por el usuario APN si su operador lo requiere
 - Reemplace [apnp] por la contraseña APN si su operador lo requiere
-- {{checksum}} es una cadena hexadecimal de dos caracteres en mayúsculas calculada sobre el texto del comando antes del asterisco según se describe más abajo
+- [checksum] es una cadena hexadecimal de dos caracteres en mayúsculas calculada sobre el texto del comando antes del asterisco según se describe más abajo
 
 GTR-388NB setup SMS command
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Comando de reinicio (opcional, use cuando sea necesario para aplicar ajustes)
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Cálculo del checksum
-- El script proporcionado por el fabricante calcula el checksum realizando un XOR de los códigos de carácter de la cadena del comando hasta pero sin incluir el asterisco, luego convierte el resultado a una cadena hexadecimal de dos dígitos en mayúsculas. Inserte ese checksum en el marcador {{checksum}} o {{checksumreeboot}}.
+- El script proporcionado por el fabricante calcula el checksum realizando un XOR de los códigos de carácter de la cadena del comando hasta pero sin incluir el asterisco, luego convierte el resultado a una cadena hexadecimal de dos dígitos en mayúsculas. Inserte ese checksum en el marcador [checksum] o [checksumreeboot].
 - Si su herramienta del fabricante calcula el checksum automáticamente, úsela. De lo contrario, calcule el checksum con el método XOR y conversión a hexadecimal antes de enviar el SMS.
 
 Nota sobre el nombre de host del servidor

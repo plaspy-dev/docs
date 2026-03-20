@@ -3,18 +3,18 @@ id: autofon
 title: AutoFon
 sidebar_label: AutoFon
 sidebar_class_name: menu_item_brand
-description: Cómo se integran los rastreadores GPS AutoFon con Plaspy para monitoreo de vehículos y flotas
+description: Rastreadores GPS AutoFon compatibles con Plaspy para monitoreo confiable de vehículos y flotas
 keywords:
-  - autofon
-  - autofon gps
-  - dispositivos autofon
-  - rastreadores autofon
-  - rastreadores gps
-  - rastreo de flotas
-  - rastreo de vehículos
-  - compatible con plaspy
-  - dispositivos de telemetría
-  - software de rastreo
+  - AutoFon
+  - Rastreadores GPS AutoFon
+  - Software de rastreo AutoFon
+  - Dispositivos AutoFon compatibles con Plaspy
+  - Dispositivos de rastreo para flotas AutoFon
+  - Rastreadores GPS
+  - Gestión de flotas
+  - Rastreo de vehículos
+  - Compatibilidad con Plaspy
+  - Telemetría GPS
 ---
 
 import BrandCatalog from '@site/src/components/Devices/BrandCatalog';
@@ -24,80 +24,80 @@ import { brand } from './index.js';
 
 # AutoFon
 
-AutoFon es un fabricante de hardware de rastreo y telemetría para vehículos, ampliamente utilizado en la gestión de flotas y el monitoreo de activos. Plaspy puede recibir datos de ubicación y telemetría desde dispositivos AutoFon, lo que permite a las organizaciones supervisar vehículos, gestionar rutas y analizar métricas operativas desde la plataforma Plaspy.
-
-<BrandCatalog brand={brand} />
+AutoFon es una marca reconocida en hardware de rastreo GPS, con dispositivos frecuentemente usados para el monitoreo de vehículos y la gestión de flotas. Muchos rastreadores AutoFon son compatibles con plataformas telemáticas de terceros, y Plaspy puede recibir ubicación y telemetría de dispositivos AutoFon para que su equipo visualice, analice y actúe sobre los datos desde una sola interfaz de gestión de flotas.
 
 ## Cómo funcionan los dispositivos AutoFon con Plaspy
 
-Los dispositivos de rastreo AutoFon suelen enviar coordenadas GPS y mensajes de estado a través de redes celulares. Plaspy procesa esos flujos de datos y los convierte en ubicación en tiempo real, historial y alertas dentro de la interfaz. La integración se centra en recibir telemetría estándar como posición, velocidad y notificaciones de eventos, y mapear esos puntos de datos a las funciones de Plaspy para visualización, informes y automatizaciones basadas en reglas.
+Los rastreadores AutoFon suelen transmitir ubicación GPS y telemetría básica a través de redes celulares. Cuando se integran con Plaspy, esos datos se ingresan en los servidores de Plaspy donde se procesan, almacenan y ponen a disposición mediante paneles, alertas e informes. Al usar AutoFon con Plaspy usted puede:
 
-Aspectos destacados de la integración:
-- Plaspy acepta actualizaciones de ubicación y eventos de dispositivos AutoFon para seguimiento en tiempo real.
-- Los datos recibidos se muestran en mapas, líneas de tiempo y widgets de telemetría dentro de Plaspy.
-- Alertas y eventos de geocerca generados por los dispositivos pueden ser procesados por Plaspy para notificaciones y acciones de flujo de trabajo.
+- Ver la ubicación en tiempo real en mapas alojados por Plaspy
+- Recibir alertas de movimiento y estado mediante notificaciones de Plaspy
+- Combinar datos de dispositivos AutoFon con otras entradas de la flota en una sola interfaz
 
-Para pasos de configuración específicos del dispositivo y ajustes de servidor, consulte la documentación del dispositivo vinculada desde la página de cada modelo en el catálogo.
+Los pasos de configuración específicos, como ajustes de APN, protocolos de dispositivo y direcciones de servidor, se gestionan en las páginas de configuración de cada modelo. Para instrucciones de configuración por modelo consulte la documentación disponible en el catálogo y la base de conocimiento de Plaspy.
 
-## Funciones comunes de los dispositivos AutoFon
+## Funciones comunes en los dispositivos AutoFon
 
-Los dispositivos AutoFon suelen incluir un conjunto de capacidades útiles para la gestión de flotas y activos. Entre las características típicas que puede esperar están:
-- Reporte de ubicación basado en GPS para seguimiento en vivo e historial de rutas
-- Conectividad celular para transmisión remota de datos
-- Detección de movimiento o encendido para distinguir entre estados de circulación y estacionamiento
-- Entradas digitales y analógicas para integrar sensores
-- Intervalos de reporte configurables y mensajes activados por eventos
-Estas capacidades hacen que el hardware AutoFon sea adecuado para integrarse con plataformas como Plaspy, que proporcionan la visualización y gestión del lado servidor.
+Las líneas de producto de AutoFon suelen incluir una serie de características útiles para el rastreo de vehículos y activos. Aunque las capacidades varían según el modelo, entre las funcionalidades habituales se encuentran:
 
-## Casos de uso típicos para rastreadores GPS AutoFon
+- Reportes de posición GPS en intervalos configurables
+- Conectividad celular para telemetría remota
+- Detección de movimiento y sensores de ignición para el estado del vehículo
+- Entradas y salidas digitales y analógicas para sensores y accesorios
+- Funciones de gestión de energía pensadas para instalaciones en vehículos
 
-El hardware AutoFon se emplea en diversos escenarios de vehículos y activos. Aplicaciones comunes incluyen:
-- Seguimiento de flotas para optimizar rutas y supervisar conductores
-- Rastreo de entregas y mensajería para estimar llegadas y comprobar recorridos
-- Coordinación de vehículos de servicio para mejorar el despacho y la visibilidad de tareas
-- Monitoreo de activos a largo plazo cuando se requiere ubicación periódica y telemetría de sensores
+Como el componente <BrandCatalog /> muestra todos los modelos compatibles, usted puede revisar las capacidades soportadas en la página de cada modelo antes de integrarlo con Plaspy.
 
-Plaspy se utiliza habitualmente como la capa de software que agrega los datos de los dispositivos, genera informes y dispara alertas que soportan estas necesidades operativas.
+## Casos de uso típicos para rastreadores AutoFon
+
+Los dispositivos AutoFon se emplean comúnmente en escenarios como:
+
+- Localización de vehículos de flota y seguimiento de rutas
+- Prevención de robos y procesos de recuperación
+- Rastreo de activos como remolques y equipos móviles
+- Visibilidad básica del comportamiento del conductor y uso del vehículo
+
+Plaspy puede agregar datos de AutoFon junto con otros dispositivos y sensores para ofrecer informes unificados de flota, monitoreo por geocercas y análisis histórico de recorridos.
 
 ## Por qué elegir Plaspy para supervisar dispositivos AutoFon
 
-Plaspy está diseñado para funcionar con una amplia gama de hardware de rastreo GPS y ofrece las herramientas del lado servidor necesarias para convertir datos en información accionable:
-- Vista centralizada en mapa y línea de tiempo para revisar movimientos de vehículos
-- Alertas y reglas configurables para notificar a su equipo sobre eventos y excepciones
-- Capacidades de reporte y exportación para análisis operativo
-- Acceso basado en roles para compartir datos de rastreo de forma segura con interesados
+Plaspy ofrece una plataforma flexible y extensible para flotas con dispositivos de distintas marcas. Al usar AutoFon con Plaspy usted obtiene:
 
-Usar Plaspy con dispositivos AutoFon permite a los equipos concentrarse en la operación en lugar de construir y mantener herramientas personalizadas de ingestión y visualización.
+- Una interfaz única para monitorear rastreadores AutoFon y demás dispositivos
+- Alertas e informes centralizados que abarcan múltiples marcas
+- Almacenamiento escalable y reproducción histórica para auditorías y análisis
+- Herramientas para crear geocercas, informes programados y reglas de automatización
 
-## Ayuda para elegir el dispositivo AutoFon adecuado
+Plaspy está diseñado para que los operadores se concentren en las operaciones de la flota en lugar de gestionar backend de dispositivos dispersos.
 
-El catálogo arriba muestra los modelos AutoFon que se sabe interoperan con Plaspy. Para escoger el dispositivo correcto:
-- Revise las imágenes y los resúmenes de modelo en el catálogo para identificar factor de forma y opciones de entradas
-- Considere los requisitos de conectividad y sensores para su caso de uso
-- Consulte la página del dispositivo para cualquier ajuste de servidor o nota de protocolo recomendada para conectar el equipo a Plaspy
+## Ayuda para encontrar el dispositivo AutoFon adecuado
 
-Si necesita ayuda para seleccionar un dispositivo acorde al perfil de su flota o configuración de sensores, la documentación y los recursos de soporte de Plaspy pueden orientarle. También puede consultar el sitio del fabricante en https://www.autofon.ru/ para más detalles del producto.
+Para explorar los modelos AutoFon que funcionan con Plaspy, navegue por el catálogo abajo. El catálogo muestra los modelos compatibles, enlaces a sus páginas y puntos de entrada para la configuración y la documentación.
+
+<BrandCatalog brand={brand} />
+
+Si necesita recomendaciones para un caso de uso específico, la documentación y el equipo de soporte de Plaspy pueden ayudarle a empatar las capacidades del dispositivo con sus requisitos operativos. Para información general sobre Plaspy y las funciones de la plataforma, visite https://www.plaspy.com.
 
 ## Preguntas frecuentes
 
 Q: ¿Qué dispositivos AutoFon son compatibles con Plaspy?
-A: Los dispositivos AutoFon compatibles se muestran en el catálogo arriba. El componente BrandCatalog lista los modelos que pueden enviar telemetría a Plaspy. Para notas específicas por modelo, abra la página del dispositivo desde el catálogo.
+A: La compatibilidad depende del modelo. Use el catálogo arriba para ver todos los dispositivos AutoFon conocidos por funcionar con Plaspy. Cada página de modelo ofrece detalles sobre los protocolos soportados y los ajustes requeridos.
 
-Q: ¿Puedo usar rastreadores GPS AutoFon con Plaspy?
-A: Sí. Los dispositivos AutoFon que se comunican mediante protocolos comunes de rastreo GPS pueden transmitir ubicación y eventos a Plaspy. Use la página del dispositivo para confirmar cualquier protocolo o configuración de servidor requerida.
+Q: ¿Puedo usar rastreadores GPS AutoFon con Plaspy para la supervisión de flotas?
+A: Sí. Muchos dispositivos AutoFon pueden reportar ubicación y telemetría básica a Plaspy, de modo que usted pueda monitorear vehículos, configurar alertas y generar informes desde una plataforma centralizada.
 
-Q: ¿Plaspy admite monitoreo de flotas con dispositivos AutoFon?
-A: Plaspy admite flujos de trabajo de monitoreo de flotas usando datos de hardware AutoFon. Esto incluye seguimiento en vivo, historial, alertas e informes basados en la información que envían los dispositivos.
+Q: ¿Plaspy soporta funciones de monitoreo de flota como geocercas y alertas con dispositivos AutoFon?
+A: Plaspy provee geocercas, alertas, generación de informes y reproducción histórica. El comportamiento de estas funciones depende de los datos que envíe el dispositivo y de la configuración definida en la página del modelo.
 
 Q: ¿Dónde encuentro la documentación de dispositivos AutoFon en Plaspy?
-A: La documentación y las notas de conexión específicas por dispositivo están disponibles en cada página de dispositivo del catálogo arriba. Esas páginas ofrecen consejos de configuración necesarios para conectar un equipo a Plaspy.
+A: Abra un modelo desde el catálogo arriba para acceder a la documentación específica del dispositivo, instrucciones de configuración y detalles de protocolo. Las páginas de modelo enlazan los pasos necesarios para conectar el dispositivo a Plaspy.
 
-Q: ¿Tendré que cambiar firmware o ajustes del dispositivo para conectar hardware AutoFon?
-A: Algunos dispositivos pueden requerir una configuración mínima, como dirección del servidor o selección de protocolo. Consulte la página del dispositivo y la documentación del fabricante para instrucciones exactas. Plaspy no exige cambios de firmware únicamente para recibir telemetría estándar.
+Q: ¿Necesito cambiar la SIM o la configuración APN en dispositivos AutoFon para usar Plaspy?
+A: Muchos dispositivos requieren la configuración correcta de red celular, como el APN. Consulte la documentación del modelo y las páginas de dispositivo en el catálogo para los ajustes de red recomendados y los parámetros de servidor necesarios.
 
-Q: ¿Puedo usar dispositivos AutoFon tanto para rastreo de vehículos como para telemetría de sensores?
-A: Muchos equipos AutoFon admiten entradas y sensores además de datos GPS. Verifique las especificaciones del dispositivo en el catálogo para asegurarse de que los tipos de entradas y sensores que necesita estén soportados.
+Q: ¿A quién contacto si un dispositivo no reporta a Plaspy?
+A: Comience por la guía de configuración del modelo en la página correspondiente, verifique la conectividad celular y revise los registros del dispositivo. Si el problema persiste, contacte al soporte de Plaspy y proporcione los identificadores del dispositivo y registros recientes de seguimiento para la resolución.
 
-## Explore modelos AutoFon compatibles con Plaspy
+## Explore modelos AutoFon y próximos pasos
 
-Revise el catálogo arriba para ver los modelos AutoFon que funcionan con Plaspy y abra las páginas de cada dispositivo para detalles de configuración. Cuando esté listo para desplegar o conocer más sobre las capacidades de Plaspy visite https://www.plaspy.com para información de la plataforma y opciones de contacto.
+Esta página le ayuda a confirmar que los dispositivos AutoFon pueden integrarse con Plaspy y le indica dónde encontrar detalles de configuración por modelo. Para comenzar, revise el catálogo AutoFon arriba, seleccione el dispositivo que se ajuste a sus necesidades y siga las instrucciones de configuración en su página. Para preguntas sobre la plataforma y para conocer más sobre las funciones de Plaspy, visite https://www.plaspy.com.

@@ -4,76 +4,78 @@ id: dx_mayak_81-features
 sidebar_label: Features
 title: AutoFon - DX Mayak 8.1 Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de funciones del rastreador AutoFon DX Mayak 8.1 e integración con Plaspy para seguimiento alertas y telemetría
+description: Resumen público de funciones del rastreador AutoFon DX Mayak 8.1 y su integración con Plaspy para seguimiento de activos a largo plazo
 keywords:
-  - funciones AutoFon DX Mayak 8.1
-  - rastreador GPS DX Mayak 8.1
-  - compatibilidad AutoFon Plaspy
-  - rastreador GPS GLONASS
-  - rastreador de activos con batería
-  - localización por presencia BLE
-  - rastreador GPS de larga duración de batería
-  - rastreador GPRS con fallback SMS
-  - rastreador antirrobo vehicular
-  - rastreador GPS IP67 resistente
+  - AutoFon DX Mayak 8.1
+  - Rastreador GPS AutoFon
+  - Funciones DX Mayak 8.1
+  - Rastreador GPS DX Mayak 8.1
+  - Compatibilidad AutoFon Plaspy
+  - Rastreador a batería
+  - Seguimiento a largo plazo
+  - Rastreador GPS GLONASS
+  - Detección de presencia BLE
+  - Alertas movimiento choque SOS
 ---
 
-# AutoFon - DX Mayak 8.1: Funciones
+# AutoFon - DX Mayak 8.1: Características
 
-Esta página ofrece una visión pública y orientada a funciones del AutoFon DX Mayak 8.1 y explica cómo sus capacidades se integran con Plaspy para seguimiento, telemetría y alertas. Resume las funciones del dispositivo más relevantes para usuarios de Plaspy y destaca el valor práctico al vigilar vehículos, carga y activos portátiles.
+Esta página ofrece un resumen público de las funciones del AutoFon DX Mayak 8.1 que son relevantes para su uso con Plaspy. Se enfoca en capacidades prácticas y no sensibles, y explica cómo el dispositivo informa ubicación, telemetría y alarmas a entornos de monitoreo gestionados por Plaspy.
 
-La disponibilidad y el comportamiento exactos de las funciones pueden variar según la versión de firmware, la revisión de hardware, la variante regional y el método de instalación. El resumen siguiente se basa en la descripción del fabricante; verifique las opciones y límites específicos del dispositivo en la documentación del fabricante al planificar despliegues.
+La disponibilidad exacta de funciones puede variar según la versión de firmware, la revisión de hardware, el tipo de instalación y la implementación del fabricante. Para detalles de configuración específicos del equipo, comportamientos avanzados y notas de versión de firmware consulte la documentación y materiales del fabricante.
 
-## Panorama de funciones
+## Resumen de características
 
-El DX Mayak 8.1 es un rastreador compacto alimentado por batería, diseñado para protección antirrobo discreta y monitoreo de activos a largo plazo. Combina posicionamiento dual GNSS, seguimiento por intervalos de bajo consumo, alertas basadas en eventos y capacidades BLE de presencia para equilibrar una amplia autonomía con telemetría accionable.
+El DX Mayak 8.1 es un rastreador compacto alimentado por batería, diseñado para protección discreta antirrobo y monitoreo de activos a largo plazo. Combina posicionamiento GNSS dual con modos de bajo consumo, alarmas activadas por eventos y detección de presencia en corto alcance para mantener visibles vehículos y bienes portátiles conservando la vida útil de la batería.
 
-- Diseño compacto y alimentado por batería para instalaciones ocultas y períodos de espera que pueden durar varios años.
-- Posicionamiento dual GNSS (GLONASS + GPS) con asistencia AGPS para fijaciones de posición más fiables.
-- Seguimiento por intervalos y modos de sueño de bajo consumo para prolongar la vida útil de la batería en despliegues prolongados.
-- Alertas basadas en eventos por movimiento, choque y SOS para activar flujos de notificación inmediatos.
-- Telemetría amplia: cada informe incluye nivel de batería, temperatura, número de satélites y señal GSM.
-- Presencia BLE y localización a corta distancia para ayudar a los propietarios a encontrar el dispositivo cuando está cercano.
+- Posicionamiento GNSS dual con GLONASS y GPS, más asistencia AGPS para fijaciones de ubicación más confiables.
+- Seguimiento en intervalos de bajo consumo para despliegues de varios años y larga espera de batería en instalaciones ocultas.
+- Alarmas activadas por eventos que incluyen detección de movimiento, detección de choque y botón SOS.
+- Telemetría detallada enviada con cada mensaje: nivel de batería, temperatura interna, conteo de satélites y señal GSM.
+- Detección de presencia y localización de corto alcance basada en BLE mediante una app móvil para facilitar la recuperación y el estado de proximidad.
+- Manejo robusto de desconexiones con amplio almacenamiento no volátil de paquetes y retransmisión automática cuando se restablece la conexión.
 
 ## Funciones principales del AutoFon - DX Mayak 8.1
 
-- Compatibilidad con Plaspy para reportes listos para usar a servidores de monitoreo mediante mensajería GPRS estándar y respaldo por SMS.
-- Receptor GNSS dual que combina GLONASS y GPS con AGPS y corrección lógica de posición para mejorar las fijaciones.
-- Diseño de bajo consumo con celdas reemplazables y seguimiento por intervalos configurable para prolongar la vida operativa.
-- Detección por acelerómetro de movimiento, inclinación y choque, además de un botón SOS interno para alarmas inmediatas.
-- Módulo BLE de bajo consumo para etiquetado de presencia del propietario y localización asistida por smartphone a corta distancia.
-- Almacenamiento no volátil de paquetes con gran capacidad de búfer para retener mensajes no enviados y retransmitirlos cuando regresa la conectividad.
-- Opciones de carcasa IP54 e IP67 para mayor durabilidad en instalaciones ocultas o expuestas.
-- Configuración por Micro-USB y opciones para actualizaciones del servidor y herramientas locales de configuración.
+- Compatible con Plaspy desde el primer momento mediante reporte GPRS estándar a servidores de monitoreo y fallback por SMS como redundancia.
+- Receptor GLONASS más GPS con soporte AGPS y correcciones lógicas de posición para mejorar la fiabilidad de la fijación.
+- Modos de bajo consumo e intervalos de seguimiento configurables pensados para despliegues a largo plazo con alimentación mediante pilas CR123A.
+- Acelerómetro integrado para detección de movimiento, inclinación y choques, y botón SOS interno para enviar alarmas de forma inmediata.
+- Módulo BLE para etiquetado de presencia del propietario y localización en corto alcance con la app móvil complementaria.
+- Búfer de mensajes no volátil suficiente para retener miles de paquetes GPRS no enviados y retransmitirlos cuando vuelve la conectividad.
+- Factor de forma compacto con protección IP54 y variantes herméticas opcionales IP67 para instalaciones ocultas o expuestas.
+- Opciones de gestión remota que incluyen actualizaciones server side, comandos por SMS e interfaces de configuración local según lo provea el fabricante.
 
 ## Cómo funcionan estas funciones con Plaspy
 
-Al integrarse con Plaspy, el DX Mayak 8.1 envía posición, telemetría y eventos a los paneles y sistemas de notificación de Plaspy, permitiendo que los operadores supervisen el estado de los activos y reaccionen ante incidencias. Plaspy detecta automáticamente el protocolo del rastreador y acepta los reportes en el endpoint de monitoreo, lo que simplifica la configuración inicial.
+Al integrarse con Plaspy, el DX Mayak 8.1 informa ubicación, telemetría y eventos de alarma a paneles centralizados y flujos de notificación. Plaspy recibe actualizaciones de ubicación estructuradas y telemetría, conserva el historial de eventos y muestra alertas para la acción operativa y la generación de reportes.
 
-- Actualizaciones de posición en tiempo real e informes periódicos aparecen en los mapas de Plaspy para mantener la conciencia de ubicación.
-- Los eventos de movimiento, inclinación, choque y SOS generan registros de alerta y pueden activar notificaciones, reglas de escalado o flujos de trabajo dentro de Plaspy.
-- Campos de telemetría como nivel de batería, temperatura interna, número de satélites y señal GSM aportan contexto operativo sobre la salud del dispositivo en Plaspy.
-- La retransmisión de paquetes almacenados preserva eventos históricos y asegura que Plaspy reciba los mensajes en cola tras la restauración de la red.
-- El dispositivo soporta reporte principal por GPRS con respaldo por SMS para redundancia, información que Plaspy muestra como indicadores de evento y estado.
+- Las actualizaciones de ubicación y telemetría en tiempo real aparecen en los mapas y paneles de dispositivos de Plaspy para visibilidad continua.
+- Los eventos de movimiento, choque y SOS se registran como alarmas y pueden activar notificaciones y flujos de trabajo dentro de Plaspy.
+- Nivel de batería, conteo de satélites, temperatura y señal GSM se muestran como campos de telemetría para apoyar el mantenimiento y el diagnóstico.
+- La retransmisión de paquetes almacenados garantiza que los eventos históricos se entreguen a Plaspy después de cortes de red para mantener la continuidad.
+- La presencia de propietario y la localización de corto alcance por BLE pueden reflejarse en Plaspy como indicadores de proximidad o presencia cuando el dispositivo reporta esos estados.
+- Plaspy detecta automáticamente los protocolos de rastreador compatibles y acepta el reporte GPRS estándar hacia su endpoint de monitoreo para una integración ágil.
 
 ## Casos de uso típicos
 
-- Protección antirrobo discreta para vehículos con alertas instantáneas de movimiento y SOS reportadas a Plaspy.
-- Monitoreo a largo plazo de remolques, equipos y contenedores cuando se requiere autonomía de batería por varios años.
-- Recuperación y localización a corta distancia usando ayuda BLE y etiquetado con smartphone cuando el activo está cerca.
-- Supervisión de flota para vehículos ligeros y equipos de soporte que requieren informes periódicos de posición y telemetría.
-- Vigilancia de personas vulnerables o uso personal donde el seguimiento de perfil bajo y las alertas de emergencia son importantes.
+- Protección antirrobo discreta de vehículos donde se requieren montaje oculto y larga autonomía en espera.
+- Monitoreo de activos a largo plazo para semirremolques, contenedores y equipos portátiles con registros infrecuentes.
+- Supervisión de flotas ligeras y equipos de apoyo que necesitan telemetría periódica y alertas por eventos.
+- Monitoreo personal y de personas vulnerables cuando se requiere ubicación discreta y alertas SOS.
+- Rastreo de motocicletas y vehículos todoterreno donde el tamaño compacto y la capacidad de ocultamiento son importantes.
+- Localización en corto alcance de activos en patios o depósitos usando BLE para facilitar la recuperación.
 
 ## Notas sobre disponibilidad de funciones
 
-- Las variantes de firmware y hardware regional pueden habilitar o deshabilitar funciones específicas como intervalos de reporte, funciones BLE o ciertos campos de telemetría.
-- Algunos elementos de telemetría y umbrales de eventos son configurables; los valores reales dependen del firmware instalado y de la configuración aplicada.
-- El método de instalación y la ubicación de montaje afectan la recepción GNSS y el alcance BLE; ubicaciones subterráneas o protegidas pueden reducir el rendimiento de satélites o BLE.
-- El comportamiento de respaldo por SMS y GPRS depende de la disponibilidad de la red GSM local y de la provisión de la tarjeta SIM.
-- La documentación del fabricante es la fuente autorizada para medidas exactas, estimaciones de vida útil de la batería y revisiones de hardware.
+- La disponibilidad de funciones depende de la versión de firmware y la revisión de hardware. Las capacidades descritas aquí reflejan el comportamiento típico del dispositivo, pero pueden variar por lote de producción.
+- La ubicación de instalación y el montaje afectan la recepción GNSS y la duración de la batería. Las instalaciones ocultas pueden reducir la visibilidad de satélites y alterar el rendimiento de reporte.
+- La presencia BLE requiere la app móvil complementaria y la configuración de usuario adecuada para reportar la proximidad del propietario.
+- El fallback por SMS depende de la cobertura GSM regional y del aprovisionamiento de la SIM, y puede ser una redundancia útil cuando GPRS no está disponible.
+- El DX Mayak 8.1 se centra en posicionamiento por satélite y GSM, además de detección de eventos mediante acelerómetro. No incluye sensores de combustible integrados, entradas de ignición ni salidas de inmovilizador.
 
 ## Por qué usar Plaspy con estas funciones
 
-Emparejar el DX Mayak 8.1 con Plaspy ofrece a las organizaciones una forma práctica de convertir el seguimiento compacto y de bajo consumo del dispositivo en visibilidad operativa. Plaspy consolida flujos de posición, telemetría y eventos de alarma en mapas, informes y flujos de notificación para que los equipos puedan supervisar la salud del dispositivo, investigar incidentes y ejecutar procedimientos de recuperación desde una única plataforma de monitoreo.
+Usar el DX Mayak 8.1 con Plaspy ofrece a las organizaciones una forma práctica de combinar larga autonomía de batería, posicionamiento confiable y alarmas por eventos con monitoreo centralizado y flujos de notificación. Plaspy recopila ubicación y telemetría, preserva el historial de eventos durante cortes y presenta las alarmas en paneles que ayudan a los equipos operativos a responder más rápido y mantener la continuidad del servicio.
 
-Para saber más sobre cómo Plaspy trabaja con rastreadores compatibles visite https://www.plaspy.com. Para obtener especificaciones de dispositivo, notas de firmware y orientación del fabricante más actuales y detalladas, consulte la documentación oficial de AutoFon en https://www.autofon.ru/ ya que las funciones del dispositivo y el comportamiento del firmware pueden cambiar con el tiempo.
+Learn more about how Plaspy can support deployments with trackers like the DX Mayak 8.1 at https://www.plaspy.com. For the latest device specific feature lists, firmware behavior and manufacturer implementation details verify information on the official AutoFon website https://www.autofon.ru/.

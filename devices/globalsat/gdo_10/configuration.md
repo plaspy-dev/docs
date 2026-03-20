@@ -76,11 +76,11 @@ The GDO-10 is typically integrated into a monitoring or telemetry flow where tim
 The GDO-10 public configuration includes SMS formatted commands. The example below shows the SMS command structure used to set server and APN details, and an optional reboot command. The command placeholders must be replaced with the actual values for your installation.
 
 Notes on placeholders
-- {{imei}} Replace with the device IMEI number.
+- [imei] Replace with the device IMEI number.
 - [apn] Replace with your mobile operator APN name.
 - [apnu] Replace with the APN username if required by your operator. Leave empty if not required.
 - [apnp] Replace with the APN password if required by your operator. Leave empty if not required.
-- {{checksum}} and {{checksumreeboot}} are two character uppercase hexadecimal checksums calculated as the XOR of all characters before the asterisk in the command string.
+- [checksum] and [checksumreeboot] are two character uppercase hexadecimal checksums calculated as the XOR of all characters before the asterisk in the command string.
 
 Format note
 - Example wrapper used by Plaspy for SMS command packets TSPRXAB27GHKLMnaicz*U! indicates the SMS protocol format expected by the device family. Your SMS sending tool should construct the message exactly as required by the device vendor.
@@ -89,18 +89,18 @@ Format note
 Send this SMS to the device phone number after replacing the placeholders and computing the checksum:
 
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 2) Optional reboot command
 If a reboot is required to apply settings, send this SMS (optional):
 
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Checksum calculation
-- The public JavaScript example provided by the manufacturer computes the checksum by XORing the character codes of the command substring before the asterisk and converting the result to a two character uppercase hexadecimal string. Ensure the computed checksum is inserted into the command where {{checksum}} or {{checksumreeboot}} appears.
+- The public JavaScript example provided by the manufacturer computes the checksum by XORing the character codes of the command substring before the asterisk and converting the result to a two character uppercase hexadecimal string. Ensure the computed checksum is inserted into the command where [checksum] or [checksumreeboot] appears.
 
 ## Configuration Notes
 

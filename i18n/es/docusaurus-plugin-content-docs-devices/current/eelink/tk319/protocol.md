@@ -4,77 +4,77 @@ id: tk319-protocol
 sidebar_label: Protocol
 title: EElink - TK319 Protocol
 sidebar_class_name: menu_item_tracker
-description: Resumen público del protocolo del rastreador EElink TK319 y cómo se comunica con Plaspy para rastreo e integración de flotas
+description: Información pública del protocolo para integrar el rastreador EElink TK319 con Plaspy mediante el endpoint compartido
 keywords:
-  - Protocolo EElink TK319
-  - Protocolo GPS EElink TK319
-  - Protocolo de comunicación EElink TK319
-  - Protocolo de rastreo EElink TK319
-  - Protocolo de rastreador EElink
-  - Compatibilidad TK319 Plaspy
-  - Integración de dispositivos Plaspy
-  - Rastreo de flota TK319
-  - Integración GPS EElink
-  - Compatibilidad de firmware TK319
+  - protocolo EElink TK319
+  - protocolo GPS EElink TK319
+  - compatibilidad EElink TK319 Plaspy
+  - protocolo de rastreo EElink TK319
+  - comunicación EElink TK319
+  - protocolo rastreador GPS EElink
+  - integración EElink TK319
+  - protocolo de dispositivo Plaspy
+  - rastreo de flotas EElink TK319
+  - rastreador de vehículo TK319
 ---
 
 # EElink - Protocolo TK319
 
-Esta página presenta el contexto público del protocolo para usar la serie de rastreadores EElink TK319 con Plaspy. Describe a alto nivel cómo el dispositivo se comunica con Plaspy, qué ajustes de conexión revisar y qué aspectos del diseño y firmware del TK319 suelen afectar los reportes y la configuración remota. El objetivo es ofrecer información práctica y no sensible para ayudar a administradores e integradores a encaminar los datos del dispositivo hacia Plaspy.
+Esta página describe el contexto público del protocolo para usar el rastreador EElink TK319 con la plataforma Plaspy. Se centra en cómo el dispositivo informa posición y estado a Plaspy usando ajustes de conexión públicos y en cómo esa comunicación encaja en flujos típicos de seguimiento de flotas y activos. El contenido está pensado para ayudar a administradores e integradores a comprender la relación de comunicación sin exponer formatos de paquetes propietarios o detalles sensibles del protocolo.
 
-El TK319-H es un rastreador 3G con localización por GPS y LBS, detección de ACC, entrada opcional de temperatura, control de relé y opciones de configuración remota. Plaspy utiliza ajustes de conexión compartidos entre dispositivos compatibles y detecta automáticamente el protocolo del rastreador, aunque el comportamiento exacto puede variar según la versión de firmware, la revisión de hardware y la forma en que el fabricante implementó comandos remotos y reportes.
+El EElink TK319 es un rastreador GPS para redes 3G que ofrece posicionamiento por GPS y LBS, asistencia AGPS, detección de ACC, control de relé, opción de medición de temperatura y opciones de configuración remota. Plaspy utiliza ajustes de conexión compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador; el comportamiento exacto puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante. Por eso es importante verificar la configuración del equipo frente a la documentación vigente del fabricante.
 
-## Visión general del protocolo
+## Resumen del protocolo
 
-El protocolo que utiliza el TK319 define cómo el rastreador se identifica y entrega posiciones, estado y datos de sensores a un servidor como Plaspy. En términos prácticos, el protocolo se encarga del establecimiento de sesión, reportes periódicos, mensajes de alarma y la capacidad de recibir comandos de configuración o control cuando el dispositivo y la red lo permiten.
+El protocolo usado por el TK319 define cómo se codifican y envían desde el rastreador al servidor remoto los datos de ubicación, estado, alarmas y E/S para que Plaspy pueda procesar y mostrar telemetría útil. Esta página no reproduce formatos privados de paquetes, pero explica el papel del protocolo en la integración de extremo a extremo entre el dispositivo y Plaspy.
 
-- Permite que el rastreador informe ubicación por GPS y LBS, velocidad y actualizaciones de estado a un endpoint remoto
-- Transporta identificadores del dispositivo e información de estado para que Plaspy pueda asociar los mensajes con un activo
-- Soporta cargas periódicas y basadas en eventos, como movimiento, geocerca, eventos ACC y alertas de batería baja
-- Permite la configuración remota cuando el firmware del dispositivo expone ajustes y respuestas por servidor
-- Integra capacidades del hardware del rastreador, como control de relé e informes de sensor de temperatura, en eventos accionables en la plataforma
+- Permite que el TK319 informe ubicaciones GPS y LBS junto con telemetría de apoyo como estado de ACC, nivel de batería y lecturas de temperatura opcionales.
+- Transporta actualizaciones periódicas de posición para seguimiento en tiempo real y admite informes por alarmas o eventos para casos de seguridad y protección.
+- Proporciona un medio para aplicar configuraciones remotas mediante comandos de servidor o instrucciones SMS cuando el firmware del equipo lo soporta.
+- Permite que el dispositivo se identifique para que Plaspy asocie los datos entrantes con el registro del activo correspondiente.
+- Actúa como la carga transportable que Plaspy interpreta automáticamente una vez recibida en el endpoint compartido de Plaspy.
 
-## Cómo Plaspy detecta el protocolo
+## Cómo detecta Plaspy el protocolo
 
-Plaspy acepta los datos entrantes de los rastreadores en un único endpoint compartido y determina el protocolo del dispositivo automáticamente cuando llega un mensaje con el formato esperado. Esto significa que, por lo general, la plataforma no requiere que el usuario seleccione manualmente el protocolo siempre que el rastreador esté configurado para reportar al endpoint de Plaspy.
+Plaspy recibe datos entrantes en un único endpoint compartido y determina automáticamente qué protocolo de rastreador se está usando, por lo que los administradores rara vez necesitan seleccionar un protocolo manualmente. La configuración correcta del dispositivo para apuntar al endpoint de Plaspy es el requisito habitual para la detección y el onboarding automáticos.
 
-- El dominio del servidor Plaspy para reportes de dispositivos es d.plaspy.com
-- La dirección IP del servidor Plaspy es 54.85.159.138
-- Plaspy usa el puerto 8888 para las conexiones de dispositivos y todos los dispositivos en Plaspy usan ese mismo puerto
-- Plaspy detecta automáticamente el protocolo del rastreador cuando llegan mensajes al endpoint compartido
-- Si un dispositivo está configurado para reportar a d.plaspy.com con el transporte y puerto correctos, normalmente no es necesaria la selección manual del protocolo en Plaspy
+- Plaspy escucha en el endpoint común d.plaspy.com y también acepta datos dirigidos a 54.85.159.138.
+- Todos los dispositivos compatibles con Plaspy usan el mismo puerto de comunicación, lo que simplifica la configuración del equipo.
+- El puerto común usado por Plaspy es 8888, por lo que los rastreadores deben configurarse para reportar a ese puerto.
+- Plaspy soporta detección automática de protocolos, por lo que normalmente no es necesario elegir un protocolo en la interfaz de Plaspy si el rastreador reporta al endpoint de Plaspy.
+- La detección y el análisis exitoso dependen de que el dispositivo envíe informes reconocibles y consistentes con la implementación del fabricante en su firmware.
 
-## Transporte y configuración de conexión
+## Transporte y contexto de conexión
 
-El transporte y los ajustes de destino son fundamentales para establecer comunicación confiable entre el TK319 y Plaspy. El rastreador puede configurarse para usar distintos modos de transporte según el firmware y la configuración del usuario; confirme el transporte elegido y la dirección del servidor antes de poner en servicio los dispositivos.
+El TK319 puede configurarse para usar UDP o TCP, según las capacidades del dispositivo y las preferencias de instalación. Para la integración con Plaspy, los objetivos de configuración importantes son el hostname y la IP compartidos, y el único puerto que Plaspy usa para todos los dispositivos.
 
-- El TK319 puede configurarse para usar UDP o TCP en el puerto 8888 según el soporte del equipo y la configuración
-- Los dispositivos pueden apuntar a d.plaspy.com o directamente a 54.85.159.138 como endpoint de Plaspy
-- Todos los dispositivos en Plaspy usan el mismo puerto, lo que simplifica la configuración de servidores y cortafuegos
-- Elija UDP para reportes con menor sobrecarga o TCP cuando se prefiera confiabilidad de sesión y el firmware del dispositivo lo soporte
-- Verifique el APN y los ajustes de la red móvil para garantizar que el rastreador tenga conectividad de datos hacia el endpoint de Plaspy
+- Los dispositivos pueden configurarse para enviar al hostname d.plaspy.com o a la IP 54.85.159.138.
+- El transporte puede ser UDP o TCP, dependiendo de la configuración del dispositivo y las consideraciones de la red.
+- Plaspy recibe los informes de los rastreadores en el puerto 8888 para todos los dispositivos compatibles.
+- Elegir UDP o TCP afecta características de fiabilidad como retransmisión y sobrecarga de conexión, pero no cambia la información lógica que reporta el rastreador.
+- Asegúrese de que la red del vehículo o ubicación permita tráfico saliente hacia el endpoint de Plaspy y al puerto 8888 para el tipo de transporte elegido.
 
 ## Notas sobre compatibilidad del protocolo
 
-- Las versiones de firmware y las revisiones regionales de hardware pueden cambiar el formato de mensajes y las funciones soportadas
-- Algunas unidades TK319 pueden exponer configuración remota por servidor, SMS o una combinación; confirme qué vías de control están habilitadas
-- La selección de transporte (UDP versus TCP) es configurable en muchas unidades y afecta el comportamiento de entrega y reconexión
-- Sensores opcionales como temperatura o entradas GPIO externas requieren soporte de firmware para reportarse vía protocolo
-- Personalizaciones del fabricante o variantes OEM pueden alterar identificadores o conjuntos de comandos respecto a documentos de referencia genéricos
-- Valide la compatibilidad con la documentación actualizada de EElink y las notas de la versión del firmware antes de desplegar a gran escala
+- Las revisiones de firmware pueden cambiar los campos exactos o la temporización de mensajes que envía un TK319; verifique la versión de firmware si observa comportamientos inesperados.
+- Las revisiones de hardware o variantes del producto pueden implementar funciones de reporte ligeramente distintas, como pines E/S adicionales o entradas de sensores.
+- Las configuraciones del lado del fabricante y las opciones de configuración remota pueden modificar la frecuencia de reporte o qué eventos disparan subidas inmediatas.
+- La selección de transporte entre UDP y TCP debe coincidir con lo que el dispositivo soporta y con las preferencias del entorno de red.
+- Si usa sensores opcionales como la entrada de temperatura o el control de relé, confirme cómo informa su firmware esas señales.
+- Siempre valide detalles críticos del despliegue con la documentación y notas de versión de EElink para la unidad TK319 específica que esté usando.
 
-## Por qué es importante comprender el protocolo
+## Por qué es importante entender el protocolo
 
-Comprender el protocolo de comunicación ayuda a garantizar un rastreo confiable, facilita la resolución de problemas y asegura el mapeo correcto de la telemetría del dispositivo dentro de Plaspy. Saber qué puede enviar el rastreador y cómo se conecta reduce el tiempo de integración y mejora la visibilidad operativa.
+Comprender cómo se comunica el rastreador ayuda a una configuración confiable, acelera la resolución de problemas y asegura una operación predecible a largo plazo en Plaspy. Incluso con detección automática, conocer el contexto de comunicación reduce la incertidumbre durante el onboarding y al diagnosticar problemas de conectividad o calidad de datos.
 
-- Ayuda a verificar que el dispositivo apunta al endpoint y transporte correctos de Plaspy
-- Facilita el diagnóstico de problemas de conectividad como cortafuegos, APN o ajustes de servidor incorrectos
-- Aclara qué datos de sensores y alarmas puede proporcionar el TK319 a Plaspy para automatizaciones y alertas
-- Apoya decisiones sobre selección de transporte y expectativas del servidor respecto al tiempo de los mensajes
-- Sirve para planificar actualizaciones de firmware o estrategias de reemplazo y mantener la compatibilidad a largo plazo
+- Garantiza que el dispositivo apunte al endpoint y puerto correctos de Plaspy para que los datos fluyan de forma confiable.
+- Ayuda a diagnosticar problemas de transporte como puertos bloqueados, pérdida de paquetes UDP o fallos de sesiones TCP.
+- Aclara la relación entre las configuraciones de firmware y la telemetría que Plaspy recibe para que los campos esperados aparezcan en la plataforma.
+- Facilita la confirmación de soporte de funciones como detección de ACC, control de relé y reporte de temperatura para casos de uso operativos.
+- Reduce el tiempo de incorporación alineando la configuración del dispositivo con las expectativas de Plaspy antes del despliegue.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el EElink TK319 con Plaspy ofrece a las organizaciones una forma práctica de recopilar en tiempo real posición, sensores y estado de vehículos y activos. El modelo de endpoint compartido de Plaspy y la detección automática de protocolos simplifican la incorporación, permitiendo que los dispositivos reporten a una sola dirección mientras la plataforma clasifica y procesa los mensajes entrantes.
+Usar el EElink TK319 con Plaspy ofrece a las organizaciones un camino directo hacia la ubicación en tiempo real, alertas de estado y monitoreo a nivel de flota, aprovechando la detección automática de protocolos de Plaspy y un endpoint de conexión único. La combinación del TK319 de posicionamiento GPS y LBS, entrada ACC, control de relé y sensores opcionales lo hace adecuado para muchos despliegues de seguimiento de vehículos y activos que Plaspy soporta.
 
-Plaspy está diseñado para aceptar conexiones de dispositivos en d.plaspy.com o 54.85.159.138 en el puerto 8888 y manejar patrones comunes de reporte de rastreadores para que las flotas puedan enfocarse en la operación en vez de en el enrutamiento de protocolos. Para obtener más información sobre Plaspy y cómo funciona con una amplia gama de dispositivos, visite https://www.plaspy.com. Por favor verifique los detalles específicos del protocolo del dispositivo, el comportamiento del firmware y la guía del fabricante en el sitio oficial de EElink https://www.eelink.com.cn/ ya que las implementaciones y el firmware pueden cambiar con el tiempo.
+Para saber más sobre Plaspy y cómo la plataforma integra dispositivos como el EElink TK319, visite https://www.plaspy.com. Para detalles de protocolo, notas de firmware e instrucciones de configuración específicos y actualizados, verifique la información en el sitio del fabricante https://www.eelink.com.cn/ ya que el soporte de protocolo y el comportamiento del firmware pueden cambiar con el tiempo.

@@ -79,29 +79,29 @@ El ST 940 se configura para conectarse al endpoint de Plaspy para que la platafo
 El Suntech ST 940 puede configurarse por SMS usando plantillas de comandos. El ID del dispositivo que se usa en estos comandos es los últimos 9 dígitos del IMEI, excluyendo el dígito final. Por ejemplo, con el IMEI 123456789012345 el ID del dispositivo sería 678901234.
 
 Tenga en cuenta los marcadores:
-- {{device_id}} = el ID de 9 dígitos derivado del IMEI como se describió arriba
+- [device_id] = el ID de 9 dígitos derivado del IMEI como se describió arriba
 - [apn] = el APN de su operador
 - [apnu] = nombre de usuario del APN si es necesario
 - [apnp] = contraseña del APN si es necesaria
 
 1. Reseteo de fábrica opcional inicial (use solo si es necesario):
 ```
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
 
 2. Configurar APN del operador y apuntar el servidor GPRS a Plaspy (el campo numérico después de 02 indica si se incluyen credenciales APN; use 1 para incluir usuario y contraseña o 0 si no son necesarios):
 ```
-ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 3. Establecer intervalo de reporte a 60 segundos (intervalo de ejemplo):
 ```
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 4. Consultar configuración actual (comando de verificación):
 ```
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 
 Envíe cada SMS al número del dispositivo. Reemplace los marcadores por sus valores reales y asegúrese de calcular correctamente el ID del dispositivo a partir del IMEI antes de enviar.

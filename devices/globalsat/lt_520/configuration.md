@@ -83,30 +83,30 @@ TSPRXAB27GHKLMnaicz*U!
 Below are the two commands extracted from the vendor content.
 
 1) Setup the tracker to report to Plaspy
-- Description: replace {{imei}} with the device IMEI and [apn], [apnu], [apnp] with the APN, APN user, and APN password required by your cellular provider. The command requires a checksum value appended before the final exclamation mark. The checksum is computed by XORing the byte values of the command string prior to the asterisk and converting the result to a two digit uppercase hexadecimal string.
+- Description: replace [imei] with the device IMEI and [apn], [apnu], [apnp] with the APN, APN user, and APN password required by your cellular provider. The command requires a checksum value appended before the final exclamation mark. The checksum is computed by XORing the byte values of the command string prior to the asterisk and converting the result to a two digit uppercase hexadecimal string.
 
 Example SMS command:
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 2) Reboot the device (optional, use if a restart is needed to apply settings)
-- Description: replace {{imei}} and provide the correct checksum for the reboot command string in the same way as above.
+- Description: replace [imei] and provide the correct checksum for the reboot command string in the same way as above.
 
 Example SMS reboot command:
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Checksum generation summary
 - The public vendor script computes the checksum by XORing the character codes of the command text up to but not including the asterisk, then converting the numeric result to an uppercase two character hexadecimal string. Many vendor tools compute this automatically; if sending SMS manually you must calculate and add the checksum value.
 
 Placeholders explained
-- {{imei}}: the device IMEI number
+- [imei]: the device IMEI number
 - [apn]: APN name for cellular data
 - [apnu]: APN user name if required
 - [apnp]: APN password if required
-- {{checksum}} and {{checksumreeboot}}: computed checksum values as described above
+- [checksum] and [checksumreeboot]: computed checksum values as described above
 
 ## Configuration Notes
 

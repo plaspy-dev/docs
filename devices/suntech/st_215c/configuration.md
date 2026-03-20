@@ -76,7 +76,7 @@ When configured for Plaspy the ST 215C uses its GPRS connection to transmit tele
 The following public SMS command templates are derived from the manufacturer provided examples. The ST 215C uses a device ID that is taken from the IMEI digits 9 through 14 (that is, the six digits immediately before the final IMEI digit). For example, if the IMEI is 12345678 901234 5 then the device ID is 901234.
 
 Notes on placeholders used below:
-- {{device_id}} = six digit device ID derived from IMEI digits 9 to 14 as described above.
+- [device_id] = six digit device ID derived from IMEI digits 9 to 14 as described above.
 - [apn] = mobile network APN name for the SIM operator.
 - [apnu] = APN username if required by the operator, otherwise leave empty.
 - [apnp] = APN password if required by the operator, otherwise leave empty.
@@ -86,11 +86,11 @@ Notes on placeholders used below:
 - Template (send as SMS to the device number):
 
 ```
-SA200NTW;{{device_id}};02;<APN_FLAG>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;<APN_FLAG>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Explanation
-  - Replace {{device_id}} with the six digit device ID from the IMEI.
+  - Replace [device_id] with the six digit device ID from the IMEI.
   - Replace [apn], [apnu], and [apnp] with the operator APN and optional credentials.
   - Set \<APN_FLAG> to 1 when you provide username or password, otherwise set it to 0.
   - The command points the device to the Plaspy server IP 54.85.159.138 and port 8888. You may substitute d.plaspy.com in device tools that accept hostnames instead of the IP.
@@ -99,7 +99,7 @@ SA200NTW;{{device_id}};02;<APN_FLAG>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 - Template:
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Explanation
@@ -109,7 +109,7 @@ SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
 - Template:
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 - Explanation

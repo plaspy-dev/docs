@@ -76,26 +76,26 @@ The ST4305 is configured to send its location and telemetry to the Plaspy platfo
 
 ## Example Configuration Commands
 
-The ST4305 public guidance provides SMS command templates for network and reporting setup. The manufacturer uses a device ID derived from the IMEI (last 6 digits prior to the final IMEI digit). The placeholders [apn], [apnu], and [apnp] should be replaced with your SIM operator APN, APN username, and APN password when required. Replace {{device_id}} with the six digit ID derived from the IMEI as described above.
+The ST4305 public guidance provides SMS command templates for network and reporting setup. The manufacturer uses a device ID derived from the IMEI (last 6 digits prior to the final IMEI digit). The placeholders [apn], [apnu], and [apnp] should be replaced with your SIM operator APN, APN username, and APN password when required. Replace [device_id] with the six digit ID derived from the IMEI as described above.
 
 1) Set the operator APN and GPRS server (includes Plaspy server IP and port)
 ```text
-SA200NTW;{{device_id}};02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Notes:  
-  - {{device_id}} is the device ID derived from IMEI (last 6 digits excluding final IMEI digit).  
+  - [device_id] is the device ID derived from IMEI (last 6 digits excluding final IMEI digit).  
   - The APN fields [apn], [apnu], and [apnp] must be filled with your operator values.  
   - The command includes the Plaspy server IP 54.85.159.138 and port 8888. You may substitute d.plaspy.com in place of the IP if the device accepts domain names.
 
 2) Set the reporting interval to 60 seconds
 ```text
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 - Notes: This command configures multiple report intervals; the example sets a primary reporting interval of 60 seconds.
 
 3) Check settings or request current preset A parameters
 ```text
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 - Notes: Use this verification command to request the device to return current PresetA configuration values so you can confirm the settings were applied.
 

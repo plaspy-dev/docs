@@ -77,7 +77,7 @@ When configured for Plaspy, the LK105B will send location and event data to the 
 
 The LK105B manufacturer may provide multiple configuration methods such as an app, web portal, or SMS command set. Exact commands and syntax vary by firmware and vendor firmware versions. Because manufacturer methods vary, there are no universal public commands included here. Consult the official LK-GPS documentation or your vendor for the exact SMS or configuration strings to set server, port, APN, and phone numbers.
 
-If you have manufacturer provided SMS commands or a documented command list, format and apply those commands in the order recommended by LK-GPS and preserve placeholders such as [apn] or {{apnuser}} when present. For example, if your device uses SMS commands the manufacturer guide will show the exact syntax and placeholders to replace.
+If you have manufacturer provided SMS commands or a documented command list, format and apply those commands in the order recommended by LK-GPS and preserve placeholders such as [apn] or [apnuser] when present. For example, if your device uses SMS commands the manufacturer guide will show the exact syntax and placeholders to replace.
 
 ## Configuration Notes
 

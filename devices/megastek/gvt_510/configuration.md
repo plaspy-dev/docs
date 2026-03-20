@@ -78,9 +78,9 @@ When configured, the GVT-510 sends location and event data to the shared Plaspy 
 
 The GVT-510 can be configured using SMS commands. The example commands below are drawn from the public Megastek configuration content. The sample commands use the device default password 000000. Send these SMS messages to the GVT-510 device phone number. Replace placeholders with your device values.
 
-- Set the device ID using the device IMEI. Replace {{IMEI_15}} with the last 15 digits of the device IMEI:
+- Set the device ID using the device IMEI. Replace [IMEI_15] with the last 15 digits of the device IMEI:
 ```
-M000000,22,{{IMEI_15}}
+M000000,22,[IMEI_15]
 ```
 
 - Set the operator APN. Replace [apn] with your carrier APN. If your operator requires APN username and password, include [apnu] and [apnp]:

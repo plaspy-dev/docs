@@ -4,132 +4,128 @@ id: gpt60-configuration
 sidebar_label: Configuration
 title: EElink - GPT60 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública de configuración para EElink GPT60, incluye ajustes de servidor Plaspy, comandos SMS y flujo de integración
+description: Guía pública de configuración del rastreador GPS EElink GPT60 con ajustes de servidor Plaspy y ejemplos de comandos SMS
 keywords:
-  - EElink GPT60
-  - Configuración GPT60
-  - Configuración rastreador GPS EElink
-  - Configuración GPT60 Plaspy
-  - Configuración rastreador GPS
-  - Configuración rastreador personal
-  - Configuración EELINK 2.1
-  - Integración rastreador Plaspy
-  - Configuración plataforma GPS
-  - Configuración servidor de rastreo
+  - configuración EElink GPT60
+  - configuración GPT60
+  - GPT60 Plaspy
+  - configuración rastreador GPS EElink
+  - configuración servidor GPT60
+  - configuración rastreador Plaspy
+  - configuración SMS rastreador GPS
+  - configuración EELINK 2.1
+  - rastreador personal GPT60
+  - configuración plataforma GPS
 ---
 
-# EElink - Configuración GPT60
+# EElink - Configuración del GPT60
 
-Esta página documenta el contexto público de configuración para usar el EElink GPT60 con Plaspy. Consolida los ajustes del servidor Plaspy que debe aplicar, los requisitos típicos y los comandos SMS públicos disponibles para los dispositivos GPT60, de modo que pueda preparar el rastreador para un reporte confiable a Plaspy.
+Esta página documenta el contexto público de configuración para usar el EElink GPT60 con la plataforma Plaspy. Se enfoca en los pasos prácticos y en los ajustes públicos que puede aplicar para apuntar el GPT60 a Plaspy, e incluye los comandos SMS del fabricante que se usan comúnmente para la configuración inicial y la verificación.
 
-Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, pero las acciones en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Los ejemplos en esta página usan el conjunto de comandos SMS publicados para GPT60 cuando aplica, y están pensados para guiar la integración con Plaspy mientras recomienda verificar con la documentación oficial de EElink.
+Plaspy utiliza ajustes de servidor compartidos para todos los rastreadores compatibles y detecta automáticamente el protocolo del dispositivo, pero los pasos exactos en el lado del fabricante pueden variar según la versión de firmware, revisión de hardware, tipo de instalación y herramientas del proveedor. El GPT60 puede configurarse mediante comandos SMS como los que se muestran abajo; siga las indicaciones del fabricante y los ejemplos aquí para alinear el dispositivo con los ajustes de servidor de Plaspy.
 
-## Resumen de configuración
+## Resumen de la configuración
 
-El objetivo de la configuración es preparar el GPT60 para que establezca una conexión persistente y correctamente dirigida hacia Plaspy, de modo que ubicación, eventos y alertas aparezcan en la plataforma. Esto implica definir parámetros de acceso a la red, asignar el endpoint del servidor Plaspy y confirmar los intervalos de actualización y el comportamiento de telemetría.
+El objetivo al configurar el GPT60 para Plaspy es preparar el dispositivo para que envíe de forma fiable datos de ubicación, eventos y estado al servidor de Plaspy y así se muestren en la plataforma para mapas, alertas e historial. La configuración suele incluir establecer el APN de datos móviles, registrar el endpoint y puerto del servidor Plaspy, ajustar el intervalo de reporte y validar que el dispositivo sea visible en Plaspy.
 
-- Configure el APN y los ajustes GPRS del dispositivo para que el rastreador pueda acceder a la red de datos celular.
-- Apunte el dispositivo al endpoint del servidor Plaspy para que la telemetría fluya hacia Plaspy para mapeo y alertas.
-- Elija el modo de transporte UDP o TCP si el dispositivo requiere selección de transporte para comunicación con el servidor.
-- Establezca un intervalo de reporte apropiado para equilibrar la actualidad de los datos y la vida de la batería.
-- Verifique la configuración con la consulta de parámetros del dispositivo y confirme que el rastreador reporte correctamente a Plaspy.
+- Configure el APN del dispositivo para que el rastreador use datos móviles para la telemetría.
+- Apunte el dispositivo al servidor Plaspy usando el dominio o la IP y el puerto compartido.
+- Seleccione el transporte (UDP o TCP) si el dispositivo requiere una selección explícita.
+- Establezca el intervalo de reporte acorde a sus necesidades de rastreo y batería.
+- Verifique los parámetros y confirme que el dispositivo reporte correctamente a Plaspy.
 
-## Ajustes del servidor Plaspy
+## Ajustes de servidor de Plaspy
 
 - Server domain d.plaspy.com  
 - Server IP 54.85.159.138  
-- Port 8888  
-- Transport support for UDP or TCP on port 8888  
-- Plaspy automatically detects the tracker protocol for supported devices
+- Port 8888 (used across all devices in Plaspy)  
+- Transport support for UDP or TCP where the device permits either option  
+- Plaspy automáticamente detecta el protocolo del rastreador cuando el dispositivo se conecta
 
-Estos valores son los ajustes públicos de Plaspy que debe usar al configurar dispositivos GPT60. Plaspy utiliza el mismo puerto para todos los dispositivos compatibles y detectará automáticamente el protocolo utilizado por el rastreador.
+Todos los dispositivos soportados por Plaspy usan el mismo puerto y Plaspy maneja la detección del protocolo, por lo que solo necesita indicar el endpoint del servidor y elegir un transporte si el rastreador lo requiere.
 
-## Requisitos previos habituales
+## Requisitos típicos antes de la configuración
 
-- Un dispositivo GPT60 cargado y con capacidad para recibir comandos SMS o usar la herramienta de configuración del fabricante.  
-- Una tarjeta SIM activa provisionada para datos con el APN correcto del operador móvil.  
-- Conocimiento del APN del operador y, en su caso, del nombre de usuario y contraseña del APN si el operador los requiere.  
-- Cobertura en una red LTE o GSM soportada por el dispositivo en el lugar de instalación.  
-- Acceso al método de comandos SMS del dispositivo o a la utilidad de configuración de EElink según lo proporcione el fabricante.  
-- Acceso administrativo a su cuenta Plaspy para verificar que el dispositivo aparezca después de la configuración.
+- Un GPT60 con batería cargada y la SIM instalada, con datos móviles y capacidad de SMS activos.  
+- El APN correcto del operador de la SIM; algunas redes también requieren usuario y contraseña del APN.  
+- Capacidad para enviar SMS al dispositivo o acceso a la herramienta de configuración del fabricante.  
+- Acceso a una cuenta Plaspy o contacto con el propietario de la cuenta para confirmar que el dispositivo aparece y reporta datos.  
+- Conocimiento del IMEI del dispositivo y de cualquier identificador de activación requerido por Plaspy o su administrador.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-Una vez configurado, el GPT60 envía telemetría de ubicación y eventos al endpoint del servidor Plaspy para que los administradores puedan monitorear posición, alertas y estado del dispositivo. El equipo usa el protocolo EELINK 2.1 para telemetría y configuración remota, lo que permite actualizaciones casi en tiempo real y cambios de parámetros de forma remota.
+Cuando está configurado, el GPT60 envía posiciones GNSS, derivación por Wi‑Fi y LBS, y datos de eventos al endpoint y puerto del servidor Plaspy. Plaspy ingiere la telemetría y los eventos y los muestra en la plataforma para mapas, alertas y reproducción histórica.
 
-- El rastreador se configura para reportar al endpoint del servidor Plaspy d.plaspy.com o al IP equivalente 54.85.159.138 en el puerto 8888.  
-- La telemetría se transmite sobre la capa de transporte elegida, UDP o TCP, según la configuración del equipo.  
-- Plaspy recibe las posiciones y eventos reportados y los asocia al registro del dispositivo en la plataforma para visualización y alertas.  
-- Las actualizaciones de estado e informes de eventos como SOS o detección de caídas se reenvían a Plaspy para visibilidad en el panel y flujos de notificación.  
-- Plaspy detecta automáticamente el protocolo del rastreador, por lo que el mismo puerto y endpoint funcionan entre dispositivos compatibles.
+- El dispositivo se configura para reportar al endpoint compartido de Plaspy d.plaspy.com o a la IP 54.85.159.138 en el puerto 8888.  
+- La telemetría y los eventos usan el protocolo EELINK 2.1 para formatear los datos hacia Plaspy.  
+- Eventos como SOS, detección de caída o alertas por vibración y batería baja se transmiten a Plaspy para generar alertas.  
+- Plaspy recibe actualizaciones de posición según el intervalo de reporte configurado para monitoreo en tiempo real e historial.
 
 ## Flujo típico de configuración
 
-1. Acceda al método de configuración oficial de EElink para su dispositivo, normalmente mediante comandos SMS o la herramienta de configuración del proveedor.  
-2. Configure el APN usando los valores de su operador para que el dispositivo pueda usar datos móviles.  
-3. Ingrese el endpoint del servidor Plaspy usando d.plaspy.com o 54.85.159.138 y establezca el puerto del servidor en 8888.  
-4. Elija el transporte UDP o TCP si el dispositivo requiere selección de transporte.  
-5. Defina el intervalo de actualización de telemetría y los desencadenantes de eventos como SOS o alerta por caída.  
-6. Aplique o guarde la configuración y reinicie el dispositivo si el fabricante lo solicita.  
-7. Valide que el dispositivo reporte a Plaspy revisando la actividad en Plaspy y usando el comando de consulta de parámetros para confirmar los ajustes.
+1. Acceda al método oficial de configuración del fabricante o al software del GPT60, por ejemplo comandos SMS o la herramienta de configuración de EELINK.  
+2. Configure el APN del dispositivo con el APN correcto del operador y, si aplica, usuario y contraseña.  
+3. Ingrese el endpoint del servidor Plaspy usando d.plaspy.com o 54.85.159.138.  
+4. Establezca el puerto del servidor en 8888.  
+5. Elija UDP o TCP si el dispositivo requiere selección explícita del transporte.  
+6. Aplique o guarde la configuración y reinicie el dispositivo si el fabricante lo exige.  
+7. Valide que el dispositivo reporte a Plaspy y que aparezca en su cuenta Plaspy con la telemetría y los eventos esperados.
 
-## Ejemplos de comandos de configuración
+## Comandos de configuración de ejemplo
 
-El GPT60 permite configuración basada en SMS. Los siguientes comandos públicos se proporcionan en el orden recomendado para la configuración inicial. Conserve los marcadores de posición donde se muestran.
+El GPT60 soporta configuración vía SMS. Los siguientes comandos SMS públicos se proporcionan en la documentación del fabricante. Envíe cada comando como un SMS al número del dispositivo. Conserve los marcadores de posición como [apn] al sustituir valores.
 
-1. Optional initial factory reset
+- Reinicio opcional a valores de fábrica
 ```
 FACTORY#
 ```
-Use esto solo si necesita restablecer el rastreador a los valores de fábrica antes de la reconfiguración.
 
-2. Set the time zone to UTC 0
+- Establecer la zona horaria a UTC 0
 ```
 GMT,E,0#
 ```
 
-3. Set the operator APN
+- Configurar el APN del operador
+```
+APN,[apn]#
+```
+Si su operador requiere usuario y contraseña del APN, inclúyalos:
 ```
 APN,[apn],[apnu],[apnp]#
 ```
-- [apn] es la cadena APN del operador.  
-- [apnu] es el nombre de usuario del APN cuando se requiere.  
-- [apnp] es la contraseña del APN cuando se requiere.  
-Si no se necesita nombre de usuario o contraseña, omita los marcadores de posición correspondientes según requiera el dispositivo.
+(Marcadores: [apn] = APN del operador, [apnu] = usuario APN, [apnp] = contraseña APN)
 
-4. Set the GPRS server using the domain (preferred)
+- Establecer el servidor GPRS usando el dominio de Plaspy (ejemplo)
 ```
 SERVER,1,d.plaspy.com,8888#
 ```
-
-5. Or set the GPRS server using the IP address (alternative)
+o establecer el servidor GPRS usando la IP de Plaspy (ejemplo)
 ```
 SERVER,0,54.85.159.138,8888#
 ```
 
-6. Set the update interval to every 60 seconds
+- Establecer el intervalo de reporte/actualización cada 60 segundos
 ```
 TIMER,60#
 ```
 
-7. Verify device parameters
+- Verificar los parámetros actuales
 ```
 PARAM#
 ```
-Este comando consulta los ajustes actuales del dispositivo para que pueda confirmar APN, servidor, temporizador y otros parámetros.
 
-Siga los comandos en el orden mostrado cuando se requiera aprovisionamiento inicial. Ajuste el temporizador y los valores de APN según las necesidades de su despliegue.
+Estos comandos reflejan el flujo público de configuración por SMS para el GPT60. Use la opción de dominio o IP según convenga y tenga en cuenta posibles variaciones de sintaxis de comandos del fabricante según la versión de firmware.
 
 ## Notas de configuración
 
-- Las versiones de firmware de EElink y las variantes regionales del dispositivo pueden cambiar el comportamiento de los comandos y los parámetros soportados; confirme la sintaxis exacta con la documentación de EElink.  
-- El GPT60 soporta configuración por SMS como se muestra, lo que resulta útil para instalaciones remotas o en campo donde no hay acceso directo por USB o herramientas de configuración.  
-- Elija TCP o UDP según sus necesidades operativas y las características del operador; Plaspy acepta ambos en el puerto 8888 y detecta automáticamente el protocolo.  
-- Plaspy utiliza el puerto 8888 para todos los dispositivos, por lo que debe usar ese puerto al ingresar los ajustes del servidor.  
-- Verifique siempre los ajustes con el comando PARAM# o la utilidad de configuración de EElink después de aplicar cambios.
+- El conjunto de comandos SMS mostrado arriba es un ejemplo público; la sintaxis exacta y los comandos disponibles pueden variar según la revisión de firmware y las variantes regionales del dispositivo.  
+- El GPT60 puede configurarse por SMS como se indica, pero algunos instaladores prefieren el software del fabricante o un método OTA si está disponible.  
+- Elija UDP o TCP según las necesidades de su instalación; Plaspy acepta ambos y detecta el protocolo automáticamente cuando el dispositivo se conecta.  
+- Plaspy utiliza el mismo puerto para todos los dispositivos compatibles, por lo que establezca el puerto 8888 al registrar el endpoint del servidor.  
+- Siempre verifique los detalles y credenciales del APN con su operador de SIM si los datos móviles no se conectan después de la configuración.
 
 ## Por qué usar Plaspy con esta configuración
 
-Usar el GPT60 con Plaspy ofrece una ruta sencilla hacia rastreo en tiempo real, alertas y monitoreo de dispositivos para flujos de trabajo de seguridad personal y activos portátiles. El dispositivo transmite ubicación, eventos SOS y telemetría a Plaspy, donde los equipos pueden visualizar movimiento, responder alertas e integrar los datos de rastreo en procesos operativos.
+Usar el GPT60 con Plaspy proporciona a las organizaciones visibilidad centralizada para dispositivos de seguridad personal y rastreadores portátiles. Las múltiples modalidades de posicionamiento del dispositivo, el reporte de eventos y el soporte de EELINK 2.1 permiten que la ubicación, alertas SOS, detección de caídas y telemetría de actividad se envíen a Plaspy para mapas, alertas y revisión histórica.
 
-Para saber más sobre Plaspy y las integraciones soportadas visite https://www.plaspy.com. Para conocer los métodos de configuración específicos más recientes, la sintaxis de comandos y detalles de firmware verifique la información con el fabricante en https://www.eelink.com.cn/.
+Para saber más sobre cómo trabaja Plaspy con rastreadores como el GPT60 visite https://www.plaspy.com y revise los detalles más recientes del dispositivo en el sitio del fabricante https://www.eelink.com.cn/. Las especificaciones del fabricante, el comportamiento del firmware y los métodos de configuración pueden cambiar con el tiempo, por lo que confirme las instrucciones de configuración más actuales con EElink antes del despliegue.

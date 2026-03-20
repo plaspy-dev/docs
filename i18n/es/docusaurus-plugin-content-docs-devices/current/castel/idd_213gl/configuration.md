@@ -77,16 +77,16 @@ La documentación del IDD-213GL incluye comandos SMS para configurar GPRS y serv
 
 - Establecer parámetros APN y el IP y puerto del servidor Plaspy
 ```
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Consultar la configuración GPRS actual en el dispositivo
 ```
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Notas sobre los marcadores y su uso:
-- {{SecretKey}} — la contraseña de configuración por SMS. Regla pública por defecto: los últimos 6 caracteres ASCII del ID del dispositivo, salvo que el instalador o proveedor la haya cambiado.
+- [SecretKey] — la contraseña de configuración por SMS. Regla pública por defecto: los últimos 6 caracteres ASCII del ID del dispositivo, salvo que el instalador o proveedor la haya cambiado.
 - [apn] — la cadena APN del operador de la tarjeta SIM.
 - [apnu] — el usuario APN si lo requiere el operador; deje vacío si no es necesario.
 - [apnp] — la contraseña APN si la requiere el operador; deje vacío si no es necesaria.

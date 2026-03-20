@@ -80,34 +80,34 @@ Si usa configuración por SMS, siga exactamente el formato de comando del fabric
 
 El contenido público de configuración para el LW-360HR muestra comandos SMS que pueden enviarse para configurar el rastreador y que reporte a Plaspy. En la nota del formato del fabricante se indica que se requiere un encuadre específico del comando. Mantenga los marcadores de posición exactamente cuando prepare los comandos.
 
-Nota: Los comandos de ejemplo abajo usan marcadores de posición. Reemplace {{imei}} por el IMEI del dispositivo y complete [apn], [apnu] y [apnp] con el APN, usuario APN y contraseña APN si su despliegue requiere parámetros celulares. Los marcadores {{checksum}} y {{checksumreeboot}} representan el checksum hexadecimal calculado sobre el texto del comando antes del asterisco según lo exige el dispositivo.
+Nota: Los comandos de ejemplo abajo usan marcadores de posición. Reemplace [imei] por el IMEI del dispositivo y complete [apn], [apnu] y [apnp] con el APN, usuario APN y contraseña APN si su despliegue requiere parámetros celulares. Los marcadores [checksum] y [checksumreeboot] representan el checksum hexadecimal calculado sobre el texto del comando antes del asterisco según lo exige el dispositivo.
 
 Format header used in public examples
 TSPRXAB27GHKLMnaicz*U!
 
 1) Comando de configuración para apuntar el rastreador a Plaspy y establecer placeholders de APN y valores de servidor
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 - Explicación:
-  - Reemplace {{imei}} por el IMEI del rastreador.
+  - Reemplace [imei] por el IMEI del rastreador.
   - D1, D2, D3 corresponden a los marcadores de APN, usuario APN y contraseña APN.
   - E0 establece la IP del servidor en 54.85.159.138 y E1 configura el puerto en 8888.
   - A1=1 es un parámetro incluido en la cadena pública; manténgalo tal cual a menos que la documentación del fabricante indique lo contrario.
-  - {{checksum}} es el valor checksum del dispositivo calculado sobre la porción de comando anterior al asterisco.
+  - [checksum] es el valor checksum del dispositivo calculado sobre la porción de comando anterior al asterisco.
 
 2) Comando opcional de reinicio para reiniciar el dispositivo después de la configuración
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 - Explicación:
   - Este comando de reinicio aparece en el flujo público de configuración y es opcional cuando se requiere un reinicio para aplicar los cambios.
-  - Reemplace {{imei}} y calcule {{checksumreeboot}} según corresponda.
+  - Reemplace [imei] y calcule [checksumreeboot] según corresponda.
 
 Resumen del cálculo de checksum
-- El ejemplo público incluye una rutina de checksum sencilla: calcule un checksum XOR sobre los caracteres de la cadena de comando hasta, pero sin incluir, el carácter '*'; convierta el resultado a un valor hexadecimal de dos caracteres en mayúsculas e inserte ese valor donde se indica {{checksum}} o {{checksumreeboot}}. Muchas herramientas del fabricante calculan esto automáticamente por usted.
+- El ejemplo público incluye una rutina de checksum sencilla: calcule un checksum XOR sobre los caracteres de la cadena de comando hasta, pero sin incluir, el carácter '*'; convierta el resultado a un valor hexadecimal de dos caracteres en mayúsculas e inserte ese valor donde se indica [checksum] o [checksumreeboot]. Muchas herramientas del fabricante calculan esto automáticamente por usted.
 
 ## Notas de configuración
 

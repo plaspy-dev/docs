@@ -4,129 +4,135 @@ id: k6-configuration
 sidebar_label: Configuration
 title: EElink - K6 Configuration
 sidebar_class_name: menu_item_tracker
-description: Instrucciones públicas para configurar el rastreador GPS EElink K6 con Plaspy usando ajustes de servidor compartido y comandos SMS
+description: Guía pública para configurar el EElink K6 con ajustes de servidor Plaspy, comandos SMS de ejemplo y flujo de puesta en marcha
 keywords:
   - configuración EElink K6
   - instalación EElink K6
-  - configuración servidor EElink K6
-  - Plaspy EElink K6
+  - configuración servidor K6
+  - configuración K6 en Plaspy
   - configuración rastreador GPS
-  - configuración rastreo de vehículos
+  - configuración seguimiento vehicular
   - comandos SMS K6
-  - configuración GPRS
-  - configuración gestión de flotas
-  - ajustes protocolo K6
+  - configuración dispositivo Plaspy
+  - configuración APN K6
+  - detección protocolo del rastreador
 ---
 
 # EElink - K6 Configuración
 
-Esta página describe el contexto público de configuración para usar el rastreador GPS EElink K6 con la plataforma Plaspy. Reúne los ajustes del servidor compartido de Plaspy y los comandos SMS para K6 que se usan comúnmente para apuntar el dispositivo a Plaspy y habilitar el seguimiento en tiempo real y el envío de eventos.
+Esta página documenta el contexto público de configuración para usar el rastreador EElink K6 con Plaspy. Se centra en los ajustes prácticos del servidor, los comandos SMS de ejemplo que aparecen en la documentación pública y el flujo general necesario para poner un K6 en línea en la plataforma Plaspy. Úsela como referencia práctica para preparar el dispositivo para Plaspy y, al mismo tiempo, revise la documentación oficial del fabricante para detalles específicos del equipo.
 
-Plaspy utiliza ajustes de servidor compartidos para los dispositivos compatibles y detecta automáticamente el protocolo del rastreador; los pasos exactos en el lado del fabricante para el K6 pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Los ejemplos a continuación usan el flujo de comandos SMS públicos documentados para la configuración inicial y la verificación.
+Plaspy emplea ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando el dispositivo reporta a la plataforma. Los pasos exactos del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación o las herramientas del proveedor, por lo que siga las instrucciones a continuación junto con la documentación del K6 y cualquier herramienta de instalación que tenga para el dispositivo.
 
 ## Resumen de la configuración
 
-El objetivo de la configuración es preparar el K6 para que se comunique de forma fiable con Plaspy y así el dispositivo aparezca y reporte correctamente en la plataforma. Para el K6 esto normalmente implica usar comandos SMS o la herramienta del fabricante para establecer el APN de la red, el endpoint del servidor, el transporte y el intervalo de reporte.
+El objetivo de este proceso es preparar el K6 para comunicarse de forma fiable con Plaspy, validar la conectividad y habilitar la visibilidad en la plataforma. Los comandos públicos de EElink muestran un camino de configuración sencillo basado en SMS que cubre APN, objetivo de servidor, intervalo de reporte y verificación.
 
-- Configure el APN del dispositivo para que pueda usar GPRS para subir datos.
-- Apunte el dispositivo al endpoint del servidor de Plaspy y al puerto compartido de Plaspy.
-- Seleccione el modo de transporte si el equipo requiere elegir entre UDP o TCP.
-- Establezca un intervalo periódico de envío de ubicación que cumpla sus necesidades de seguimiento.
-- Verifique los ajustes y confirme que el dispositivo sea visible en Plaspy después de conectarse.
+- Configure el APN del dispositivo para que pueda usar datos GPRS y acceder a Internet.
+- Apunte el rastreador al servidor de Plaspy usando el endpoint compartido y el puerto.
+- Establezca el intervalo de reporte para que las actualizaciones de ubicación aparezcan en Plaspy según lo desee.
+- Verifique la configuración y la conectividad usando el comando de comprobación de parámetros.
+- Guarde y, si es necesario, reinicie el dispositivo para que los nuevos ajustes surtan efecto.
 
-## Ajustes del servidor de Plaspy
+## Ajustes del servidor Plaspy
 
-- Dominio del servidor: d.plaspy.com
-- IP del servidor: 54.85.159.138
-- Puerto: 8888
-- El transporte puede configurarse como UDP o TCP en el puerto 8888
-- Plaspy detecta automáticamente el protocolo del rastreador y todos los dispositivos en Plaspy usan el mismo puerto
+- Dominio del servidor d.plaspy.com
+- IP del servidor 54.85.159.138
+- Puerto 8888
+- Soporte de transporte por UDP o TCP
+- Plaspy detecta automáticamente el protocolo del rastreador
+- Todos los dispositivos en Plaspy usan el mismo puerto
 
-## Requisitos previos típicos
+Estos valores son los ajustes públicos del endpoint de Plaspy para la integración con K6 y son requeridos al configurar el objetivo de servidor del dispositivo.
 
-- Un rastreador K6 con batería cargada y encendido, con acceso a la configuración por SMS o a la herramienta oficial de configuración
-- Una tarjeta SIM activa con datos GPRS habilitados y el APN correcto del operador
-- Un teléfono o servicio capaz de enviar comandos SMS al dispositivo o acceso a la utilidad de configuración del fabricante
-- Conocimientos básicos del IMEI del dispositivo y de cómo verificar las respuestas del equipo vía SMS
-- Acceso a la documentación actualizada de EElink o soporte del proveedor para detalles específicos de firmware
+## Requisitos habituales antes de la configuración
+
+- Una tarjeta SIM funcional con datos habilitados y capacidad de SMS instalada en el K6.
+- Una unidad K6 cargada o conectada y con energía durante la configuración.
+- Conocimiento del APN de la red móvil y, opcionalmente, del usuario y la contraseña del APN para la SIM.
+- Acceso al método de configuración por SMS de EElink o a la herramienta de configuración del fabricante.
+- Un medio para recibir o verificar las respuestas SMS del dispositivo para los comandos de verificación.
+- Acceso básico a la cuenta de Plaspy donde registrará o verificará el dispositivo después de la configuración.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-El EElink K6 sube posiciones y eventos del dispositivo a Plaspy usando GPRS. Durante la configuración usted establecerá que el K6 reporte al endpoint y puerto compartidos de Plaspy para que la plataforma reciba actualizaciones de ubicación, alarmas y mensajes de estado.
+El K6 se configura para enviar ubicación y estado del dispositivo al endpoint y puerto compartidos de Plaspy, de modo que Plaspy pueda ingerir y mostrar la telemetría del dispositivo. Los comandos públicos por SMS muestran cómo apuntar el dispositivo a la plataforma y definir el comportamiento de reporte.
 
-- El rastreador usa GPRS para abrir una conexión de datos y enviar reportes periódicos
-- La dirección del servidor se configura como d.plaspy.com o la IP del servidor Plaspy para asegurar la entrega
-- La comunicación ocurre en el puerto 8888, que es el puerto compartido que Plaspy usa para todos los dispositivos
-- Plaspy detecta automáticamente el protocolo del rastreador, por lo que no se requiere seleccionar manualmente el protocolo en la plataforma
-- Una vez conectado, el dispositivo se vuelve visible en Plaspy para monitoreo en tiempo real y reproducción del historial
+- El rastreador sube datos vía GPRS al endpoint de servidor configurado.
+- El dispositivo se dirige a d.plaspy.com o a la IP y puerto de Plaspy para que los datos lleguen a la plataforma.
+- Plaspy detecta automáticamente el protocolo del rastreador cuando recibe mensajes del dispositivo.
+- Las actualizaciones periódicas y basadas en eventos aparecen en Plaspy una vez confirmada la conectividad.
+- Use el comando de comprobación de parámetros proporcionado para confirmar que el dispositivo está usando el servidor y los ajustes previstos.
 
-## Flujo típico de configuración
+## Flujo de configuración típico
 
-1. Acceda al método oficial de configuración de EElink para el K6, como comandos SMS o el software del fabricante.
-2. Configure el APN del dispositivo para que coincida con su operador SIM usando el comando APN o la herramienta.
-3. Ingrese la dirección del servidor de Plaspy usando d.plaspy.com o 54.85.159.138 como valor SERVER.
-4. Establezca el puerto del servidor en 8888 y elija UDP o TCP si el dispositivo requiere selección de transporte.
-5. Aplique o guarde la configuración en el equipo y, si es necesario, realice un reinicio opcional.
-6. Valide que el dispositivo reporte a Plaspy comprobando el estado en la plataforma y utilizando los comandos de verificación del dispositivo.
-7. Si corresponde, ajuste el intervalo de subida o las configuraciones de alarma para que coincidan con sus necesidades operativas.
+1. Acceda al método oficial de configuración de EElink para el K6, ya sea la interfaz por SMS o la herramienta del fabricante.
+2. Verifique que la SIM esté activa y configure el APN del operador usando el comando APN con los valores correctos.
+3. Ingrese d.plaspy.com o 54.85.159.138 como objetivo de servidor y establezca el puerto 8888.
+4. Si el dispositivo requiere selección de transporte, elija UDP o TCP según las necesidades de su instalación.
+5. Defina el intervalo de reporte deseado (por ejemplo, cada 60 segundos) y cualquier otro ajuste de zona horaria o temporizadores.
+6. Aplique o guarde la configuración y reinicie el dispositivo si es necesario para que los ajustes entren en vigor.
+7. Valide que el dispositivo reporte a Plaspy comprobando los parámetros con PARAM# y confirmando la visibilidad en su cuenta Plaspy.
 
-## Comandos de ejemplo para la configuración
+## Comandos de configuración de ejemplo
 
-El K6 soporta configuración por SMS. Los siguientes comandos SMS públicos se usan comúnmente para aplicar la configuración mostrada arriba. Envíe estos comandos como mensajes SMS al rastreador en el orden indicado al realizar una configuración inicial.
+La configuración pública de EElink usa comandos SMS. Preserve los marcadores de posición cuando los envíe desde su teléfono de gestión o sistema.
 
-- Reinicio de fábrica opcional cuando se parte de un estado desconocido
-```text
+- Reinicio opcional a fábrica (usar solo cuando sea necesario):
+```
 FACTORY#
 ```
 
-- Establecer la zona horaria a UTC 0 como ejemplo
-```text
+- Establecer la zona horaria a UTC 0:
+```
 GMT,E,0#
 ```
 
-- Configurar el APN para su operador móvil
-```text
+- Configurar el APN del operador. Use la forma mínima o incluya usuario y contraseña si el operador lo requiere:
+```
 APN,[apn]#
 ```
-Si su operador requiere nombre de usuario o contraseña del APN, incluya los marcadores opcionales como se muestra
-```text
+o
+```
 APN,[apn],[apnu],[apnp]#
 ```
-Nota sobre los marcadores
-- [apn] es el valor del APN del operador requerido para GPRS
-- [apnu] es el nombre de usuario del APN si lo exige el operador
-- [apnp] es la contraseña del APN si lo exige el operador
+Explicación de los marcadores:
+- [apn] es el APN de la red móvil proporcionado por el operador de la SIM.
+- [apnu] es el usuario opcional del APN si lo requiere el operador.
+- [apnp] es la contraseña opcional del APN si lo requiere el operador.
 
-- Configurar el servidor GPRS a Plaspy por dominio usando UDP o TCP en el puerto 8888
-```text
+- Configurar el servidor GPRS usando el dominio y puerto de Plaspy:
+```
 SERVER,1,d.plaspy.com,8888#
 ```
-
-- Alternativamente, configurar el servidor GPRS a la IP del servidor Plaspy directamente
-```text
+Alternativa usando la IP de Plaspy:
+```
 SERVER,0,54.85.159.138,8888#
 ```
+Ambas formas aparecen en la guía pública de EElink. Envíe la que corresponda a su flujo de trabajo o práctica de instalador.
 
-- Establecer el intervalo de actualización de ubicación a 60 segundos
-```text
+- Establecer un intervalo de reporte para enviar cada 60 segundos:
+```
 TIMER,60#
 ```
 
-- Consultar parámetros actuales del dispositivo para verificar cambios
-```text
+- Consultar los parámetros actuales en el dispositivo:
+```
 PARAM#
 ```
 
+Use estos comandos en el orden indicado cuando el orden sea relevante para su configuración. El reinicio a fábrica es opcional y debe utilizarse solo cuando necesite restaurar valores predeterminados antes de configurar.
+
 ## Notas de configuración
 
-- La configuración basada en SMS es un método comúnmente soportado para el K6, pero también puede usarse la herramienta del fabricante o un portal de configuración según el firmware.
-- El comportamiento y los comandos disponibles pueden variar según la versión de firmware y la revisión de hardware; siempre verifique los comandos con la documentación de EElink correspondiente a su dispositivo.
-- Elija UDP o TCP según la preferencia del instalador cuando el dispositivo requiera una selección explícita del transporte. Plaspy acepta ambos en el puerto 8888.
-- Plaspy utiliza el mismo puerto para todos los dispositivos compatibles y detectará automáticamente el protocolo del dispositivo cuando el rastreador se conecte.
-- Mantenga un registro de los cambios y pruebe la conectividad después de cada paso para asegurarse de que el dispositivo esté reportando según lo esperado.
+- Las revisiones de firmware y hardware pueden cambiar la sintaxis exacta de los SMS o el conjunto de comandos disponible; siempre verifique los comandos con la documentación de EElink para la versión de firmware de su dispositivo.
+- El K6 puede configurarse por SMS como se muestra en los comandos públicos o mediante herramientas del fabricante cuando estén disponibles; elija el método que se ajuste a su instalación y volumen.
+- Plaspy acepta tanto la forma de dominio como la de IP para el objetivo del servidor; use d.plaspy.com o 54.85.159.138 con puerto 8888.
+- El K6 puede configurarse para usar UDP o TCP según la preferencia del instalador y las condiciones de la red; Plaspy detectará automáticamente el protocolo utilizado cuando el dispositivo se conecte.
+- Después de cambiar la configuración del servidor o de red, espere un breve periodo para que el dispositivo se registre en la red móvil y envíe los primeros paquetes a Plaspy.
 
 ## Por qué usar Plaspy con esta configuración
 
-Usar el EElink K6 con Plaspy ofrece una vía simple para integrar datos de ubicación de activos y vehículos en una única plataforma de gestión de flotas. Configurar el K6 para apuntar a d.plaspy.com o a la IP del servidor Plaspy en el puerto 8888 permite que el dispositivo reporte actualizaciones de ubicación y eventos, de modo que los equipos puedan monitorear movimientos, reaccionar a alarmas y revisar el historial en un solo lugar.
+Usar el EElink K6 con Plaspy ofrece a las organizaciones una plataforma consistente para la visibilidad de ubicación, el monitoreo de eventos y la supervisión operativa. Con los comandos SMS públicos y los ajustes de servidor compartidos de Plaspy, puede poner un K6 en línea rápidamente y validar el reporte a la plataforma.
 
-Para obtener más información sobre Plaspy visite https://www.plaspy.com y para las instrucciones específicas por dispositivo y detalles de firmware consulte el sitio de EElink en https://www.eelink.com.cn/ . Las especificaciones del fabricante y los pasos de configuración pueden cambiar con el tiempo, por lo que siempre confirme las instrucciones vigentes con la documentación oficial de EElink.
+Para conocer más sobre Plaspy visite https://www.plaspy.com. Para obtener los detalles más actuales sobre la configuración específica del dispositivo, comportamiento de firmware e instrucciones del fabricante, verifique la documentación del EElink K6 en https://www.eelink.com.cn/ antes de finalizar cualquier instalación.

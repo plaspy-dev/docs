@@ -78,16 +78,16 @@ To set the JT802 via SMS, use the manufacturer-provided SMS command format. The 
 
 1) Set the GPRS server and APN (replace placeholders)
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 2) (Optional) Set the APN username and password if your carrier requires them
 ```
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 
 Placeholders explained:
-- {{trackerID}} — the device ID or IMEI prefix required by the JT802 SMS command format.
+- [trackerID] — the device ID or IMEI prefix required by the JT802 SMS command format.
 - [apn] — the carrier APN name for the SIM in the JT802.
 - [apnu] — APN username if required by the carrier; omit if not needed.
 - [apnp] — APN password if required by the carrier; omit if not needed.

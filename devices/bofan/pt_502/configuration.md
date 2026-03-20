@@ -85,7 +85,7 @@ The PT-502 supports SMS-based configuration. Below are public example SMS comman
 ```text
 000000GID<14-digit-identifier>
 ```
-Explanation: replace \\<14-digit-identifier> with the last 14 digits of the device IMEI. This identifier is used by Plaspy to associate the device.
+Explanation: replace \<14-digit-identifier> with the last 14 digits of the device IMEI. This identifier is used by Plaspy to associate the device.
 
 - Set the APN for your mobile operator
 ```text

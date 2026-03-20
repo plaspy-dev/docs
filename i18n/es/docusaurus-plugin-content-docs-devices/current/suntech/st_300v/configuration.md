@@ -79,28 +79,28 @@ El ST 300V admite configuración por SMS. El fabricante proporciona comandos en 
 
 - Comando de reset (opcional para reinicio inicial)
 ```text
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
 Marque este comando como opcional o úselo solo cuando sea necesario un reinicio de fábrica.
 
 - Establecer APN del operador y servidor GPRS
 Notas: El cuarto campo es 1 si se proporciona nombre de usuario o contraseña del APN, de lo contrario use 0. Conserve los marcadores [apn], [apnu] y [apnp] exactamente y reemplácelos por el APN, usuario y contraseña del operador según corresponda.
 ```text
-ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;
+ST300NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;
 ```
 Si no tiene usuario ni contraseña para su APN, ponga el cuarto campo en 0 y deje vacíos los campos de usuario y contraseña.
 
 - Establecer intervalo de reporte a 60 segundos
 ```text
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Comprobar la configuración actual
 ```text
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 
-Use un teléfono capaz de enviar SMS para remitir estos comandos al dispositivo o adáptelos para la herramienta de configuración del proveedor. Reemplace {{device_id}} por el ID de nueve dígitos derivado del IMEI y sustitutya los marcadores APN por los valores correctos del operador.
+Use un teléfono capaz de enviar SMS para remitir estos comandos al dispositivo o adáptelos para la herramienta de configuración del proveedor. Reemplace [device_id] por el ID de nueve dígitos derivado del IMEI y sustitutya los marcadores APN por los valores correctos del operador.
 
 ## Notas de configuración
 

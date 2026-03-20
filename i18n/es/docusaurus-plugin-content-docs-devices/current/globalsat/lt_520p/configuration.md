@@ -79,23 +79,23 @@ El LT-520P está diseñado para enviar telemetría periódica a Plaspy para que 
 El fabricante ha publicado comandos de ejemplo tipo SMS para la configuración del servidor. Estos comandos usan marcadores de posición y un checksum. Conserve y reemplace los marcadores antes de enviar.
 
 - Marcadores de posición:
-  - {{imei}} — número IMEI del dispositivo
+  - [imei] — número IMEI del dispositivo
   - [apn] — nombre del APN para la red del SIM
   - [apnu] — usuario APN si es requerido
   - [apnp] — contraseña APN si es requerida
-  - {{checksum}} y {{checksumreeboot}} — checksum XOR hexadecimal de dos dígitos calculado sobre el texto del comando antes del asterisco
+  - [checksum] y [checksumreeboot] — checksum XOR hexadecimal de dos dígitos calculado sobre el texto del comando antes del asterisco
 
 Comando de configuración (reemplace los marcadores y calcule el checksum):
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Comando de reinicio (opcional, use cuando sea necesario reiniciar para aplicar ajustes):
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
-Cálculo del checksum (resumen): calcule un checksum XOR sobre cada carácter desde el inicio del comando hasta, pero sin incluir, el carácter '*' y luego formatee el resultado como dos caracteres hexadecimales en mayúsculas. El ejemplo del fabricante incluye una rutina sencilla de XOR a hexadecimal usada en su interfaz para producir los valores de {{checksum}}.
+Cálculo del checksum (resumen): calcule un checksum XOR sobre cada carácter desde el inicio del comando hasta, pero sin incluir, el carácter '*' y luego formatee el resultado como dos caracteres hexadecimales en mayúsculas. El ejemplo del fabricante incluye una rutina sencilla de XOR a hexadecimal usada en su interfaz para producir los valores de [checksum].
 
 Nota: el ejemplo usa la IP numérica de Plaspy (E0=54.85.159.138) y el puerto (E1=8888). Puede encontrar interfaces de dispositivo que acepten el dominio d.plaspy.com en su lugar; siga las indicaciones de la herramienta del fabricante para los formatos soportados.
 

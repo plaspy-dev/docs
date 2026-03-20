@@ -75,26 +75,26 @@ The ST419NG sends location and event data to the Plaspy server using the configu
 
 ## Example Configuration Commands
 
-The ST419NG public configuration accepts SMS commands. Below are the meaningful public commands extracted from the available public template. Replace {{deviceId}} with the six digit device ID derived from the IMEI (see notes below). Preserve the APN placeholders and set the APN username and password fields as required by your mobile operator.
+The ST419NG public configuration accepts SMS commands. Below are the meaningful public commands extracted from the available public template. Replace [deviceId] with the six digit device ID derived from the IMEI (see notes below). Preserve the APN placeholders and set the APN username and password fields as required by your mobile operator.
 
 - Set the operator APN and GPRS server
   - Notes: The fourth parameter typically indicates whether APN username or password are present (1) or not (0). Replace [apn], [apnu], and [apnp] with your operator APN, APN username, and APN password respectively.
 ```text
-SA200NTW;{{deviceId}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[deviceId];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Set the update interval to 60 seconds
 ```text
-SA200RPT;{{deviceId}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[deviceId];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Check current settings (verification command)
 ```text
-SA200CMD;{{deviceId}};02;PresetA
+SA200CMD;[deviceId];02;PresetA
 ```
 
 Example device ID derivation (public guidance from the template):
-- If IMEI includes the digits as illustrated by the manufacturer example, the device ID is the last six digits excluding the final IMEI digit. For example, if the IMEI presentation yields a device ID of 901234, you would substitute {{deviceId}} with 901234 in the commands above.
+- If IMEI includes the digits as illustrated by the manufacturer example, the device ID is the last six digits excluding the final IMEI digit. For example, if the IMEI presentation yields a device ID of 901234, you would substitute [deviceId] with 901234 in the commands above.
 
 Important: keep the placeholders [apn], [apnu], and [apnp] and replace them with the actual operator APN values when sending SMS commands. If you do not use APN username or password set the fourth parameter to 0 as indicated by the device command template.
 

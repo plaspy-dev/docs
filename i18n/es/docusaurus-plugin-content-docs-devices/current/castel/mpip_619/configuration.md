@@ -73,18 +73,18 @@ El MPIP-619 se configura para reportar ubicación, alertas y estado al endpoint 
 
 ## Ejemplos de comandos de configuración
 
-El MPIP-619 admite configuración por SMS. La clave secreta SMS por defecto del equipo son los últimos 6 caracteres ASCII del ID del dispositivo. Reemplace {{SecretKey}} por ese valor al enviar comandos.
+El MPIP-619 admite configuración por SMS. La clave secreta SMS por defecto del equipo son los últimos 6 caracteres ASCII del ID del dispositivo. Reemplace [SecretKey] por ese valor al enviar comandos.
 
 - Establecer el APN y el servidor IP y puerto de Plaspy (reemplazar marcadores según corresponda):
 
 ```text
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 - Consultar la configuración GPRS actual:
 
 ```text
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Notas sobre los marcadores:

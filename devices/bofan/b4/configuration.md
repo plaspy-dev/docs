@@ -82,7 +82,7 @@ The Bofan public guidance includes SMS commands that are sent to the device to c
 000000DFT
 ```
 
-- Set the 14-digit identifier (GID) used with Plaspy. Replace \\<14-digit-id> with the last 14 digits of the device IMEI:
+- Set the 14-digit identifier (GID) used with Plaspy. Replace \<14-digit-id> with the last 14 digits of the device IMEI:
 ```text
 000000GID<14-digit-id>
 ```

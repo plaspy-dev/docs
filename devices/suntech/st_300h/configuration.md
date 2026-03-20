@@ -77,30 +77,30 @@ The ST 300H is configured to send its location and status data to Plaspy by sett
 
 The ST 300H can be configured by sending SMS commands to the device. The device ID used in these templates is the last 9 digits of the IMEI excluding the final IMEI check digit. Example: if the IMEI is 123456789012345, the device ID will be the substring of digits starting at position 6 and ending before the last digit per the manufacturer convention; for the HTML example IMEI 123456789012345 the device ID example shown in manufacturer content was 678901234.
 
-Use these public SMS templates as provided by Suntech. Replace {{device_id}} with the computed 9 digit device ID, and preserve the APN placeholders [apn], [apnu], and [apnp] as needed.
+Use these public SMS templates as provided by Suntech. Replace [device_id] with the computed 9 digit device ID, and preserve the APN placeholders [apn], [apnu], and [apnp] as needed.
 
 1. Optional initial factory reset (use when starting a fresh setup)
 ```
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
 2. Set operator APN and GPRS server pointing to Plaspy
 ```
-ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Note: the `1` after the `02;` portion indicates APN credentials are included. If no APN username or password is used the corresponding placeholders may be left blank.
 
 3. Set reporting intervals (example sets 60 second interval)
 ```
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 4. Verify device settings
 ```
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 
 Explanation of placeholders:
-- {{device_id}} — the last 9 digits of the IMEI excluding its final check digit as required by the ST 300H SMS format.
+- [device_id] — the last 9 digits of the IMEI excluding its final check digit as required by the ST 300H SMS format.
 - [apn] — your mobile operator APN.
 - [apnu] — APN username if required by operator; leave blank if none.
 - [apnp] — APN password if required by operator; leave blank if none.

@@ -76,24 +76,24 @@ The TR-616 can be configured to send position and device data to the Plaspy serv
 The TR-616 manufacturer content includes an SMS configuration command template. The following templates are provided exactly as in the public configuration content. Preserve the placeholders and compute the checksum that follows the asterisk. The checksum is the XOR of all characters in the command before the asterisk, represented as a two character uppercase hexadecimal string.
 
 Setup command template
-- Replace {{imei}} with the device IMEI
+- Replace [imei] with the device IMEI
 - Replace [apn], [apnu], and [apnp] with your SIM APN, APN username, and APN password respectively
 - This template sets the server IP to Plaspy and the port to 8888
 
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Reboot command template (optional after configuration)
 - Use this command to reboot the device remotely after applying settings
 
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Checksum calculation
 - Compute the checksum as an XOR of every character in the command string up to but not including the '*' character
-- Convert the XOR result to a two digit uppercase hexadecimal string and substitute it into {{checksum}} or {{checksumreeboot}}
+- Convert the XOR result to a two digit uppercase hexadecimal string and substitute it into [checksum] or [checksumreeboot]
 
 Note: The public content also shows an example header format used by the manufacturer tools. Use the exact templates above and replace placeholders. Do not remove the final exclamation mark.
 

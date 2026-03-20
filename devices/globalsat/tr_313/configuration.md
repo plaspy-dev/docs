@@ -80,22 +80,22 @@ The TR-313 can be configured using SMS commands in the manufacturer-provided for
 - Setup command (replace placeholders before sending):
 
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 - Reboot command (optional restart after configuration):
 
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Notes on placeholders and fields:
-- {{imei}}: Replace with the device IMEI number.
+- [imei]: Replace with the device IMEI number.
 - [apn]: Replace with your mobile operator APN name.
 - [apnu]: Replace with APN username if required; leave blank if not used.
 - [apnp]: Replace with APN password if required; leave blank if not used.
 - E0 and E1 in the setup command are set to the public Plaspy server IP 54.85.159.138 and port 8888 respectively.
-- The final *{{checksum}} and *{{checksumreeboot}} values are computed checksums required by the device command format (see notes below).
+- The final *[checksum] and *[checksumreeboot] values are computed checksums required by the device command format (see notes below).
 
 Preserve the order of commands when the manufacturer documentation indicates sequence matters: first apply server and APN settings, then optionally reboot the tracker.
 

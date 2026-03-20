@@ -77,13 +77,13 @@ El Megastek MT400 se configura para enviar ubicación y telemetría al endpoint 
 El MT400 soporta configuración por SMS. Los comandos de ejemplo que siguen están adaptados del contenido público de configuración del fabricante. La contraseña de ejemplo en estos comandos es 000000 (es el valor por defecto en el ejemplo público). Reemplace los marcadores por sus valores reales. Mantenga el orden de los comandos al realizar la configuración inicial.
 
 - Notas sobre los marcadores:
-  - {{IMEI}} — reemplace con el IMEI del dispositivo (use el IMEI de 15 dígitos; algunas herramientas requieren los últimos 15 dígitos).
+  - [IMEI] — reemplace con el IMEI del dispositivo (use el IMEI de 15 dígitos; algunas herramientas requieren los últimos 15 dígitos).
   - [apn] — la cadena APN del operador requerida por su SIM.
   - [apnu] y [apnp] — usuario APN y contraseña APN opcionales si el operador los requiere.
 
-1) Establecer el ID del dispositivo (reemplazar {{IMEI}} por el IMEI del dispositivo, últimos 15 dígitos si aplica)
+1) Establecer el ID del dispositivo (reemplazar [IMEI] por el IMEI del dispositivo, últimos 15 dígitos si aplica)
 ```
-M000000,22,{{IMEI}}
+M000000,22,[IMEI]
 ```
 
 2) Establecer el APN del operador (incluya usuario y contraseña APN solo si son necesarios)

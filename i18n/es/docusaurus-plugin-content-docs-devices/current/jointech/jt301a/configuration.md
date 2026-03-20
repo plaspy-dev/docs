@@ -74,26 +74,26 @@ El JT301A se configura para enviar arreglos programados de ubicación LBS y even
 
 El JT301A puede configurarse usando mensajes SMS. Envíe estos comandos públicos en el orden mostrado. Reemplace los marcadores con sus valores reales.
 
-- Escriba o ingrese el ID del dispositivo en el comando como {{trackerID}} antes de enviar.
+- Escriba o ingrese el ID del dispositivo en el comando como [trackerID] antes de enviar.
 
 1. Establecer servidor GPRS, puerto y APN
 ```text
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
-- Reemplace {{trackerID}} con el ID del dispositivo.
+- Reemplace [trackerID] con el ID del dispositivo.
 - Reemplace [apn] con el nombre del APN de su operador.
 - Este comando configura la IP del servidor GPRS, el puerto 8888 y el APN usado para datos.
 
 2. (Opcional) Establecer usuario y contraseña APN cuando el proveedor requiere autenticación
 ```text
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 - Reemplace [apnu] con el usuario APN si es necesario.
 - Reemplace [apnp] con la contraseña APN si es necesaria.
 - Envíe este comando solo si su operador de red exige autenticación del APN.
 
 Notas sobre los marcadores
-- {{trackerID}} es el identificador del dispositivo impreso en el equipo o proporcionado por el fabricante.
+- [trackerID] es el identificador del dispositivo impreso en el equipo o proporcionado por el fabricante.
 - [apn] es la cadena del nombre del punto de acceso (APN) de su operador móvil.
 - [apnu] y [apnp] son credenciales APN opcionales requeridas por algunos operadores.
 

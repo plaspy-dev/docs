@@ -4,77 +4,77 @@ id: k30-protocol
 sidebar_label: Protocol
 title: EElink - K30 Protocol
 sidebar_class_name: menu_item_tracker
-description: Public protocol context for EElink K30 and how it reports to Plaspy for reliable wearable tracking and safety monitoring
+description: Public protocol overview for EElink K30 wearable tracker and how it communicates with Plaspy for reliable tracking and alerts
 keywords:
   - EElink K30 protocol
   - EElink K30 GPS protocol
-  - EElink K30 communication protocol
-  - EElink K30 tracking protocol
-  - EElink K30 Plaspy compatibility
-  - EElink wearable tracker protocol
-  - K30 GPS tracker protocol
-  - wearable tracking protocol Plaspy
-  - personnel tracking EElink
-  - K30 SOS tracker protocol
+  - K30 tracker Plaspy
+  - EElink wearable protocol
+  - GPS tracker protocol compatibility
+  - Plaspy device compatibility
+  - K30 communication protocol
+  - K30 tracking protocol
+  - wearable GPS protocol
+  - personal tracker Plaspy
 ---
 
 # EElink - K30 Protocol
 
-This page presents the public protocol context for using the EElink K30 wearable GPS tracker with Plaspy. It focuses on how the tracker communicates in general terms, what connection settings are used by Plaspy, and what to verify when integrating the device into tracking workflows. It does not reproduce manufacturer firmware internals or sensitive parser details.
+This page describes the public protocol context for using the EElink K30 wearable GPS tracker with Plaspy. It summarizes how the device communicates with the Plaspy platform, the connection settings Plaspy expects, and the practical considerations for integrating K30 telemetry such as location fixes, SOS events, and motion status into Plaspy dashboards and alerts.
 
-Plaspy uses shared connection settings across supported devices and automatically detects the tracker protocol when a device reports to the platform. Exact protocol behavior can vary by firmware version, hardware revision, and manufacturer implementation, so this page emphasizes practical, non sensitive guidance and encourages checking official EElink documentation for device specific details.
+Plaspy uses shared connection settings across supported devices and automatically detects the tracker protocol when data arrives at the platform. For Plaspy the public endpoint information is d.plaspy.com and the server IP 54.85.159.138 using port 8888. The K30 may be configured to send data over either UDP or TCP to port 8888. All devices in Plaspy use the same port and Plaspy automatically detects the tracker protocol, while specific protocol behavior can vary by firmware version, hardware revision, and manufacturer implementation.
 
 ## Protocol Overview
 
-The communication protocol of the K30 governs how the device reports location, status, and events to a server and how remote configuration is delivered back to the unit. For Plaspy integration the protocol enables identity, telemetry, and event delivery so the platform can display maps, alerts, and historical reports.
+The K30 reporting protocol is the set of rules the device uses to transmit position, alarm and telemetry data to a remote server such as Plaspy. In public terms, the protocol defines what types of events are sent, the frequency of updates, and the identifiers used so Plaspy can associate incoming messages with a registered device.
 
-- Enables the K30 to identify itself and deliver periodic position fixes to Plaspy for map and alerting use.
-- Transports telemetry such as battery state, SOS activations, motion status, and step counts for dashboards and reports.
-- Carries event notifications like geofence entry/exit, low battery, and SOS presses so Plaspy can trigger workflows.
-- Supports remote configuration mechanisms used by platforms and SMS so reporting intervals and alarms can be adjusted.
-- Allows fallback positioning methods such as Wi Fi and LBS to reach the server when GNSS accuracy is limited.
+- Enables the K30 to report location fixes, SOS activations, battery status, and motion indicators to Plaspy.
+- Provides device identification so Plaspy can attribute data to the correct asset or user.
+- Supplies event types that Plaspy maps to alerts, geofence triggers, and historical records.
+- Controls reporting cadence and behavior that affect battery life and data granularity.
+- Allows remote configuration changes via platform, app, or SMS that modify how the device reports.
 
 ## How Plaspy Detects the Protocol
 
-Plaspy is designed to accept device traffic on a single shared endpoint and automatically determine the correct tracker protocol for ingestion. In most integrations with the K30 there is no need to manually select a protocol inside Plaspy when the device is correctly pointed to the Plaspy endpoint.
+Plaspy receives telemetry on a shared endpoint and uses incoming data to determine the device protocol automatically. In most integrations the device is pointed at the Plaspy endpoint and Plaspy handles protocol detection so no manual protocol selection in the platform is needed when the device is correctly configured.
 
-- Devices report to the Plaspy server endpoint d.plaspy.com which resolves to the platform IP address.
-- Plaspy accepts incoming device connections on port 8888 and uses consistent connection settings for all supported devices.
-- Plaspy automatically detects the tracker protocol so administrators do not normally need to pick a protocol option if the device is configured to report to the Plaspy endpoint.
-- Proper device configuration to point to the Plaspy endpoint and to use the supported transport is usually the only required step for detection.
-- If a device fails to connect or be detected, verifying device reporting settings, APN configuration, and firmware behavior is the recommended troubleshooting path.
+- Plaspy listens on a single port for all supported devices which simplifies device setup.
+- Devices should be configured to point at d.plaspy.com or the server IP 54.85.159.138 to reach Plaspy.
+- Plaspy accepts both UDP and TCP submissions to port 8888 and will parse supported tracker reports.
+- Automatic detection means users generally do not need to pick a protocol inside Plaspy if the tracker reports correctly.
+- If detection issues occur, reviewing device reporting settings and manufacturer documentation is the recommended first step.
 
 ## Transport and Connection Context
 
-The K30 can be configured to communicate using common IP transports and should be pointed at the Plaspy endpoint for platform ingestion. Connection transport and DNS or IP addressing are configuration choices on the device or via manufacturer tools.
+Transport layer choice affects how the K30 sends data to Plaspy and may be selectable in device configuration or determined by firmware. The K30 is commonly used with the GSM network to send its telemetry to the Plaspy endpoint using either UDP or TCP on a consistent Plaspy port.
 
-- Plaspy accepts both UDP and TCP connections on port 8888 depending on what the device supports and how it is configured.
-- Devices may be configured to report to the domain d.plaspy.com or directly to the numeric server address 54.85.159.138.
-- All devices in Plaspy use the same port for reporting which simplifies device setup and platform configuration.
-- Transport selection UDP versus TCP and any keepalive behavior depends on device capabilities and firmware settings.
-- For reliable operation ensure the device APN and network registration are functioning and the device can resolve or reach the Plaspy endpoint.
+- Plaspy server domain to configure in device settings is d.plaspy.com.
+- Plaspy server IP is 54.85.159.138 and Plaspy listens on port 8888 for all supported devices.
+- The K30 may be configured to use UDP or TCP on port 8888 depending on device capabilities and operator settings.
+- Choosing UDP can reduce overhead while TCP can provide transport reliability depending on network conditions and device firmware.
+- Ensure APN and GSM settings are correct so the device can reach the configured Plaspy endpoint.
 
 ## Protocol Compatibility Notes
 
-- Firmware revisions can introduce changes to reporting frequency, supported messages, and remote configuration commands; always verify firmware notes from the manufacturer.
-- Hardware revisions or regional variants may alter available GNSS, Wi Fi, or cellular features that affect how the device reports location.
-- Some features described by EElink such as two way voice or SOS handling are event types that the protocol conveys to Plaspy but may rely on additional carrier or platform configuration.
-- Transport preference between UDP and TCP can affect reliability and battery use; choose the option recommended for your deployment and network conditions.
-- Manufacturer settings or SMS commands may be required to point the device to d.plaspy.com or the platform IP address.
-- Validate compatibility against EElink documentation and any release notes when deploying at scale.
+- Firmware versions can change message content, event naming, and available fields; confirm the device firmware level when validating compatibility.
+- Hardware revisions or regional variants of the K30 may use different default transport or reporting behavior.
+- Manufacturer configuration via SMS, app, or platform can alter reporting intervals and event thresholds that affect how data appears in Plaspy.
+- Transport selection between UDP and TCP can impact connectivity and behavior in certain mobile networks.
+- Plaspy automatically detects protocols, but correct device endpoint and network setup are required for successful identification.
+- Always validate live device reports in Plaspy after initial setup to confirm expected fields and events are delivered.
 
 ## Why Protocol Understanding Matters
 
-Understanding the communication protocol helps ensure the K30 reports reliably to Plaspy and that alerts and telemetry arrive in time to support safety and monitoring workflows. A practical grasp of the protocol context reduces integration friction and speeds troubleshooting when devices are off network or not reporting as expected.
+Knowing how the K30 communicates helps with faster setup, clearer troubleshooting, and more predictable operational behavior when the device is used with Plaspy. A solid grasp of the communication context reduces integration friction and supports maintenance of reliable tracking services.
 
-- Helps verify device reporting is configured to the correct Plaspy endpoint and transport.
-- Clarifies what telemetry and events the platform will receive from the device for alert and reporting design.
-- Supports debugging basic network and configuration issues before escalating to vendor support.
-- Informs decisions about reporting intervals and power management to balance battery life and update frequency.
-- Encourages confirming firmware behavior and feature availability for critical functions such as SOS and two way voice.
+- Speeds initial provisioning by ensuring the device points to the Plaspy endpoint using the correct transport.
+- Helps diagnose connectivity issues related to transport, APN settings, or manufacturer defaults.
+- Guides sensible choices for reporting intervals and power management to balance battery life and data needs.
+- Supports verification that critical events such as SOS and geofence alerts are delivered and interpreted correctly.
+- Makes it easier to coordinate firmware updates or configuration changes with expected Plaspy behavior.
 
 ## Why Use Plaspy with This Protocol
 
-Using the EElink K30 with Plaspy provides organizations lightweight wearable tracking combined with platform level alerts and reporting suitable for child safety, elder care, lone worker protection, and staff monitoring. The K30’s blend of GPS, Wi Fi, and LBS positioning together with SOS and two way voice events delivers the core telemetry Plaspy needs to present actionable location and incident data.
+Using the EElink K30 with Plaspy gives organizations focused visibility into personal safety and staff location through a lightweight wearable device. Plaspy ingests location fixes, emergency signals, and activity telemetry from the K30 and presents them in maps, alerts, and historical reports so teams can monitor safety, respond to incidents, and audit movements over time.
 
-To learn more about Plaspy and how it ingests wearable tracker data visit https://www.plaspy.com. Please note that protocol support, firmware behavior, and manufacturer implementation can change over time; verify the latest device specific protocol and firmware details on the manufacturer website https://www.eelink.com.cn/.
+Plaspy provides a consistent endpoint and automatic protocol detection that simplifies onboarding multiple devices and models. To learn more about Plaspy and platform capabilities visit https://www.plaspy.com. Protocol support, firmware behavior, and manufacturer implementation can change over time, so verify the latest device specific protocol details on the manufacturer site https://www.eelink.com.cn/.

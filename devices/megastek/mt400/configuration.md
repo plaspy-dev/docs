@@ -77,13 +77,13 @@ The Megastek MT400 is configured to send location and telemetry to the shared Pl
 The MT400 supports SMS-based configuration. The sample commands below are adapted from the public manufacturer configuration content. The sample device password in these commands is 000000 (this is the default in the public sample). Replace placeholders with your actual values. Keep the command order when performing the initial setup.
 
 - Notes on placeholders:
-  - {{IMEI}} — replace with the device IMEI (use the device's 15-digit IMEI; some tools require the last 15 digits).
+  - [IMEI] — replace with the device IMEI (use the device's 15-digit IMEI; some tools require the last 15 digits).
   - [apn] — the operator APN string required for your SIM card.
   - [apnu] and [apnp] — the optional APN username and APN password if required by the operator.
 
-1) Set the device ID (replace {{IMEI}} with the device IMEI, last 15 digits if applicable)
+1) Set the device ID (replace [IMEI] with the device IMEI, last 15 digits if applicable)
 ```
-M000000,22,{{IMEI}}
+M000000,22,[IMEI]
 ```
 
 2) Set the operator APN (include APN username and password only if required)

@@ -79,7 +79,7 @@ El fabricante proporciona plantillas SMS para la configuración básica. El ejem
 1. Establecer el ID del dispositivo usando el IMEI. Use los últimos 15 dígitos del IMEI cuando el firmware lo requiera. Ejemplo de cuerpo SMS:
 
 ```text
-M000000,22,{{imei}}
+M000000,22,[imei]
 ```
 
 2. Configurar el APN del operador. Mantenga [apnu] y [apnp] solo si su APN requiere usuario o contraseña. Ejemplo:
@@ -119,7 +119,7 @@ M000000,21,2
 ```
 
 Notas sobre los marcadores
-- {{imei}} Reemplácelo con el IMEI del dispositivo o con los últimos 15 dígitos según lo requiera el dispositivo.
+- [imei] Reemplácelo con el IMEI del dispositivo o con los últimos 15 dígitos según lo requiera el dispositivo.
 - [apn] Reemplace con la cadena APN del operador.
 - [apnu] Usuario APN opcional cuando lo requiera el operador.
 - [apnp] Contraseña APN opcional cuando lo requiera el operador.

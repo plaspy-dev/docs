@@ -80,34 +80,34 @@ If you use SMS-based configuration, follow the exact manufacturer command format
 
 The public configuration content for the LW-360HR shows SMS commands that can be sent to configure the tracker to report to Plaspy. The manufacturer format note indicates a specific command framing is required. Preserve placeholders exactly when preparing commands.
 
-Note: The example commands below use placeholders. Replace {{imei}} with the device IMEI and fill [apn], [apnu], and [apnp] with the APN, APN user, and APN password if your deployment requires cellular APN parameters. The {{checksum}} and {{checksumreeboot}} placeholders represent the hexadecimal checksum calculated over the command text before the asterisk as required by the device.
+Note: The example commands below use placeholders. Replace [imei] with the device IMEI and fill [apn], [apnu], and [apnp] with the APN, APN user, and APN password if your deployment requires cellular APN parameters. The [checksum] and [checksumreeboot] placeholders represent the hexadecimal checksum calculated over the command text before the asterisk as required by the device.
 
 Format header used in public examples
 TSPRXAB27GHKLMnaicz*U!
 
 1) Setup command to point the tracker to Plaspy and set APN placeholders and server values
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 - Explanation:
-  - Replace {{imei}} with the tracker IMEI.
+  - Replace [imei] with the tracker IMEI.
   - D1, D2, D3 correspond to APN, APN username, and APN password placeholders.
   - E0 sets the server IP to 54.85.159.138 and E1 sets the port to 8888.
   - A1=1 is a parameter included in the public command string; keep it as shown unless manufacturer docs indicate otherwise.
-  - {{checksum}} is the device checksum value computed over the command portion before the asterisk.
+  - [checksum] is the device checksum value computed over the command portion before the asterisk.
 
 2) Optional reboot command to restart the device after configuration
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 - Explanation:
   - This reboot command is shown in the public configuration flow and is optional when a restart is required for changes to take effect.
-  - Replace {{imei}} and compute {{checksumreeboot}} as required.
+  - Replace [imei] and compute [checksumreeboot] as required.
 
 Checksum calculation summary
-- The public example includes a simple checksum routine: compute an XOR checksum over the characters of the command string up to but not including the '*' character, convert the result to a two character uppercase hexadecimal value, and insert that value where {{checksum}} or {{checksumreeboot}} is shown. Many manufacturer tools compute this automatically for you.
+- The public example includes a simple checksum routine: compute an XOR checksum over the characters of the command string up to but not including the '*' character, convert the result to a two character uppercase hexadecimal value, and insert that value where [checksum] or [checksumreeboot] is shown. Many manufacturer tools compute this automatically for you.
 
 ## Configuration Notes
 

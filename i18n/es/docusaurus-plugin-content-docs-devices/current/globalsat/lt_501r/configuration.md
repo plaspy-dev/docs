@@ -83,26 +83,26 @@ El ejemplo del fabricante incluye comandos de configuración basados en SMS. Est
 
 - Comando de configuración (reemplace los marcadores y calcule la suma de verificación antes de enviar):
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 Explicación:
-- {{imei}} — reemplace con el número IMEI del dispositivo.
+- [imei] — reemplace con el número IMEI del dispositivo.
 - [apn] — nombre del APN para el operador de la SIM.
 - [apnu] — nombre de usuario del APN si lo requiere su operador; dejar en blanco si no aplica.
 - [apnp] — contraseña del APN si la requiere su operador; dejar en blanco si no aplica.
 - E0 y E1 son la IP y el puerto del servidor Plaspy respectivamente, como se indicó arriba.
 - A1=1 normalmente habilita la primera ranura de servidor en el dispositivo (consulte la documentación del proveedor para el significado del modo).
-- {{checksum}} es una suma de verificación hexadecimal de dos dígitos calculada sobre el texto del comando hasta antes del carácter '*'.
+- [checksum] es una suma de verificación hexadecimal de dos dígitos calculada sobre el texto del comando hasta antes del carácter '*'.
 
 - Comando opcional de reinicio (usar después de configurar si requiere reinicio):
 ```text
-GSC,{{imei}},3,0,LH*{{checksum}}!
+GSC,[imei],3,0,LH*[checksum]!
 ```
 Etiqueta: Reiniciar el dispositivo (opcional si su flujo de trabajo exige reinicio para aplicar ajustes).
 
 Cálculo de checksum (método provisto por el proveedor):
 - La suma de verificación es el XOR de todos los códigos de caracteres en la cadena del comando hasta el carácter '*' (no incluido).
-- Convierta el número resultante a un valor hexadecimal de dos caracteres en mayúsculas (agregue un cero a la izquierda si es necesario) y colóquelo en el marcador {{checksum}}.
+- Convierta el número resultante a un valor hexadecimal de dos caracteres en mayúsculas (agregue un cero a la izquierda si es necesario) y colóquelo en el marcador [checksum].
 - Muchas herramientas del proveedor o utilidades web calculan este checksum automáticamente; si envía SMS manualmente podría necesitar un asistente externo para calcularlo.
 
 Importante: Verifique siempre la sintaxis exacta de los comandos para su revisión de firmware antes de enviar comandos SMS. Los ejemplos anteriores reflejan el formato público del proveedor presente en la documentación del dispositivo.

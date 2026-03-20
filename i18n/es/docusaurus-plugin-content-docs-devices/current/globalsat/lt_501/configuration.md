@@ -81,20 +81,20 @@ Siga este flujo de trabajo práctico al preparar el LT-501 para que reporte a Pl
 Los siguientes comandos de ejemplo se extraen de formatos de comandos del fabricante disponibles públicamente. Estos comandos usan marcadores de posición que debe reemplazar por valores específicos del dispositivo antes de enviarlos por SMS o mediante la herramienta del proveedor.
 
 Notas sobre los marcadores de posición:
-- {{imei}} — Reemplace con el IMEI del dispositivo o el identificador.
+- [imei] — Reemplace con el IMEI del dispositivo o el identificador.
 - [apn] — Nombre del punto de acceso (APN) para la red de datos móviles cuando sea necesario.
 - [apnu] — Usuario del APN si la red móvil lo requiere.
 - [apnp] — Contraseña del APN si la red móvil lo requiere.
-- {{checksum}} y {{checksumreeboot}} — Valores hexadecimales de checksum calculados sobre el cuerpo del comando como se describe a continuación.
+- [checksum] y [checksumreeboot] — Valores hexadecimales de checksum calculados sobre el cuerpo del comando como se describe a continuación.
 
 Comando para establecer el servidor del rastreador, APN y el endpoint Plaspy:
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Comando opcional de reinicio para aplicar ajustes (enviar después de la configuración si es necesario):
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Nota adicional de formato referenciada por el proveedor:
@@ -104,7 +104,7 @@ TSPRXAB27GHKLMnaicz*U!
 (Usada en ejemplos de formato Plaspy en la documentación del proveedor; siga la guía del proveedor para su uso exacto.)
 
 Cálculo del checksum
-- El checksum en los ejemplos se genera calculando el XOR de los códigos ASCII de los caracteres del texto del comando hasta, pero sin incluir, el carácter '*' y luego convirtiendo el resultado a una cadena hexadecimal de dos dígitos en mayúsculas. Incluya ese checksum de dos caracteres hexadecimales en lugar del marcador {{checksum}}.
+- El checksum en los ejemplos se genera calculando el XOR de los códigos ASCII de los caracteres del texto del comando hasta, pero sin incluir, el carácter '*' y luego convirtiendo el resultado a una cadena hexadecimal de dos dígitos en mayúsculas. Incluya ese checksum de dos caracteres hexadecimales en lugar del marcador [checksum].
 
 Conserve el orden de los comandos al enviarlos para la configuración inicial: aplique primero el comando GSS y luego utilice el comando de reinicio si el fabricante recomienda un reinicio.
 

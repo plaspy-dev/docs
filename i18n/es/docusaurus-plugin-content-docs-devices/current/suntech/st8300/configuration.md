@@ -80,7 +80,7 @@ Si utiliza configuración basada en SMS, incluya el paso de envío de comandos S
 La configuración pública del ST8300 admite comandos SMS. El ID del dispositivo usado en estos comandos son los últimos 6 dígitos del IMEI excluyendo el dígito de control final. Por ejemplo, si el IMEI es 123456789012345 donde el último dígito es el dígito de control, el device ID sería 901234 según el ejemplo del fabricante. Calcule device_id quitando el último dígito del IMEI y tomando los seis dígitos finales de la secuencia restante.
 
 Importantes marcadores
-- {{device_id}} = últimos 6 dígitos del IMEI excluyendo el dígito final del IMEI (calcule según el ejemplo arriba).
+- [device_id] = últimos 6 dígitos del IMEI excluyendo el dígito final del IMEI (calcule según el ejemplo arriba).
 - [apn] = el APN de su operador celular.
 - [apnu] = nombre de usuario del APN si el operador lo requiere; dejar vacío si no es necesario.
 - [apnp] = contraseña del APN si el operador la requiere; dejar vacío si no es necesaria.
@@ -89,26 +89,26 @@ Importantes marcadores
 - Use la bandera de autenticación 1 si incluye [apnu] o [apnp]; de lo contrario use 0.
 
 ```
-SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 O si no hay usuario/contraseña APN:
 
 ```
-SA200NTW;{{device_id}};02;0;[apn];;;54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;0;[apn];;;54.85.159.138;8888;;;;
 ```
 
 2) Establecer el intervalo de actualización a 60 segundos
 - Este comando define los intervalos de reporte y parámetros de tiempo comunes.
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Verificar configuraciones actuales (comando de verificación)
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Notas sobre el envío de comandos

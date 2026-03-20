@@ -4,77 +4,77 @@ id: gpt60-protocol
 sidebar_label: Protocol
 title: EElink - GPT60 Protocol
 sidebar_class_name: menu_item_tracker
-description: Contexto público del protocolo para integrar el EElink GPT60 con Plaspy usando ajustes compartidos y detección automática
+description: Guía pública del protocolo del rastreador EElink GPT60 y su compatibilidad con Plaspy, con notas prácticas de integración
 keywords:
-  - protocolo EElink GPT60
-  - protocolo GPS EElink GPT60
-  - compatibilidad EElink GPT60 con Plaspy
-  - protocolo EELINK 2.1
-  - protocolo de rastreo GPT60
-  - protocolo de comunicación GPT60
-  - guía de protocolo para rastreadores GPS
-  - integración de localizadores personales con Plaspy
-  - rastreador GNSS WiFi LBS
-  - rastreo de activos portátiles con Plaspy
+  - eelink gpt60 protocolo
+  - eelink gpt60 protocolo gps
+  - eelink gpt60 protocolo de comunicación
+  - eelink gpt60 protocolo de rastreo
+  - eelink gpt60 plaspy
+  - eelink protocolo rastreador gps
+  - compatibilidad de dispositivos plaspy
+  - plaspy protocolo de rastreador
+  - protocolo rastreador gps personal
+  - integración rastreador gps plaspy
 ---
 
 # EElink - Protocolo GPT60
 
-Esta página documenta el contexto público del protocolo para usar el rastreador EElink GPT60 con la plataforma Plaspy. Explica de forma general cómo se comunica el dispositivo, cómo Plaspy recibe los reportes y qué debe verificar usted al configurar un GPT60 para enviar telemetría, alertas y estado de voz bidireccional a Plaspy.
+Esta página describe el contexto público del protocolo para usar el rastreador EElink GPT60 con la plataforma Plaspy. Explica, en términos generales, cómo se comunica el dispositivo, el papel del protocolo del rastreador para entregar ubicación y eventos, y qué revisar al configurar el equipo para que reporte a Plaspy. El objetivo es proporcionar información pública y no sensible para que administradores e integradores puedan prepararse para el despliegue.
 
-Plaspy utiliza ajustes de conexión compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando el dispositivo está correctamente configurado para reportar al endpoint de Plaspy. El comportamiento exacto del protocolo en el GPT60 puede variar según revisiones de firmware, variantes de hardware y detalles de implementación del fabricante; por ello esta página se enfoca en orientaciones públicas seguras y consideraciones prácticas de compatibilidad en lugar de en detalles internos propietarios.
+Plaspy usa configuraciones de conexión compartidas entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador cuando un dispositivo reporta a la plataforma. El comportamiento exacto del protocolo en el GPT60 puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante. Para conjuntos de comandos específicos del dispositivo y notas de firmware consulte la documentación del fabricante cuando sea necesario.
 
 ## Resumen del protocolo
 
-El GPT60 combina sus receptores GNSS integrados con Wi Fi y LBS como alternativas para generar posiciones y telemetría de eventos. La telemetría, las alertas y los flujos de configuración remota utilizan el protocolo que soporta el fabricante y Plaspy consume esos datos para mapas, notificaciones e historial. Esta sección destaca el papel del protocolo sin entrar en tramas propietarias ni detalles privados del parser.
+El protocolo de comunicación regula cómo el GPT60 intercambia telemetría, estado y eventos con un servidor como Plaspy. Para el GPT60 esto incluye ubicación basada en GNSS con respaldo por Wi‑Fi y LBS, informes de eventos como SOS y detección de caídas, y capacidades de configuración remota cuando el firmware y la implementación soportan EELINK 2.1.
 
-- Permite al GPT60 enviar actualizaciones de posición, estado de batería, eventos SOS y de caída, y telemetría básica de sensores a Plaspy.
-- Transporta la identidad del dispositivo y la información de sesión que permite a Plaspy atribuir los reportes al registro de dispositivo correcto.
-- Soporta la generación en el dispositivo de eventos de geocerca, activaciones SOS y alertas por vibración que se entregan a Plaspy para notificaciones y manejo de flujos de trabajo.
-- Permite la configuración remota y la actualización de parámetros desde Plaspy hacia el dispositivo cuando existen comandos soportados por el fabricante, incluida la capacidad EELINK 2.1 indicada por el fabricante.
-- Proporciona un flujo consistente de telemetría con marcas de tiempo para los mapas de Plaspy, reproducción del historial e investigación de incidentes.
+- Permite el envío periódico y por evento de ubicación y estado a Plaspy para mapeo e historial.
+- Transporta la identidad del dispositivo y su estado operativo para que Plaspy asocie los mensajes con el activo y perfil correctos.
+- Entrega alertas y eventos como SOS, caída o notificaciones por vibración para manejo inmediato en Plaspy.
+- Soporta configuración remota y actualización de parámetros desde sistemas backend cuando se implementa EELINK 2.1.
+- Proporciona la telemetría necesaria para geocercas, alertas e inicio de sesiones de voz bidireccional mediante flujos de trabajo de plataforma de mayor nivel.
 
 ## Cómo Plaspy detecta el protocolo
 
-Plaspy recibe los reportes entrantes de los dispositivos en un endpoint compartido y asocia automáticamente el flujo entrante con un protocolo de rastreador soportado. En la mayoría de los casos usted no necesita seleccionar el protocolo manualmente dentro de Plaspy si el GPT60 está configurado para enviar al endpoint de Plaspy y utiliza un transporte compatible.
+Plaspy recibe telemetría de muchos modelos de rastreadores y utiliza un endpoint y puerto compartidos para aceptar reportes. Cuando un GPT60 está configurado para reportar al endpoint de Plaspy, la plataforma inspecciona la conexión entrante y el contexto del mensaje para identificar el protocolo y enrutar los datos a los manejadores adecuados. En la mayoría de los casos no es necesario seleccionar manualmente el protocolo dentro de Plaspy.
 
-- Plaspy escucha en un único puerto compartido el tráfico de dispositivos y detecta automáticamente el protocolo del rastreador según los reportes entrantes.
-- Los dispositivos deben configurarse para reportar a la dirección del servidor d.plaspy.com o al IP equivalente 54.85.159.138.
-- El puerto habitual de escucha de Plaspy es el 8888 y Plaspy utiliza el mismo puerto para todos los dispositivos soportados.
-- Plaspy acepta reportes tanto por UDP como por TCP cuando esos transportes son usados por el rastreador.
-- Cuando un GPT60 apunta correctamente al endpoint de Plaspy, Plaspy intenta reconocer el protocolo del fabricante y enrutar los datos al registro de dispositivo apropiado sin intervención adicional del usuario.
+- Plaspy server domain for device reporting is d.plaspy.com and the server IP is 54.85.159.138.
+- The common Plaspy port for device connections is 8888 and all devices in Plaspy use the same port.
+- Plaspy automatically detects the tracker protocol when the device reports to the Plaspy endpoint.
+- If the GPT60 is properly pointed at d.plaspy.com or 54.85.159.138 and configured to use the supported transport, detection and data flow to Plaspy will begin without manual protocol selection.
+- Confirm device reporting settings and APN or cellular configuration are correct on the device side to ensure messages reach Plaspy.
 
 ## Transporte y contexto de conexión
 
-Las elecciones de conexión afectan cómo el GPT60 llega al endpoint de Plaspy, pero no cambian el papel público del protocolo en sí. El GPT60 puede usar redes celulares como enlace principal y recurrir a Wi Fi o LBS para ubicación, mientras que el transporte hacia Plaspy suele ser TCP o UDP en el puerto compartido.
+Las opciones de transporte afectan cómo el GPT60 envía datos a Plaspy. Dependiendo del firmware y la configuración del dispositivo, el GPT60 puede soportar tanto UDP como TCP. Plaspy acepta el tráfico de dispositivos en el mismo puerto para todos los modelos soportados, lo que simplifica la configuración del endpoint.
 
-- Los dispositivos pueden configurarse para usar UDP o TCP en el puerto 8888 según el firmware del equipo y la preferencia del cliente.
-- Configure el rastreador para apuntar a d.plaspy.com o al IP 54.85.159.138 si DNS no está disponible en su implementación.
-- Plaspy utiliza el puerto 8888 para todos los dispositivos, por lo que las reglas de firewall y NAT pueden simplificarse abriendo ese único puerto saliente para el tráfico de los rastreadores.
-- Consideraciones de transporte como keepalive de NAT y el comportamiento de los operadores celulares pueden afectar la fiabilidad de la conexión, pero son independientes del contenido del protocolo.
-- Verifique que el firmware del dispositivo soporte el transporte elegido y que la APN del operador y los ajustes de red sean correctos para el GPT60.
+- El GPT60 puede configurarse para usar UDP o TCP en el puerto 8888 según lo permita la versión del dispositivo y la configuración.
+- Los dispositivos pueden apuntar al dominio de servidor de Plaspy d.plaspy.com o directamente a la IP del servidor 54.85.159.138.
+- Plaspy escucha en el puerto 8888 para conexiones de dispositivos y utiliza el mismo puerto en todos los equipos para simplificar la puesta en marcha.
+- Usar el tipo de transporte correcto y la dirección del servidor en el dispositivo es esencial para que la telemetría y los eventos lleguen a Plaspy de forma confiable.
+- Los ajustes de red como el APN y el registro celular afectan la entrega; verifique estos parámetros cuando los dispositivos no reporten.
 
 ## Notas de compatibilidad del protocolo
 
-- Las revisiones de firmware pueden cambiar los comandos disponibles, los formatos de eventos y las capacidades de configuración remota del GPT60; siempre verifique la versión de firmware del equipo al validar el comportamiento.
-- Revisiones de hardware o variantes SKU pueden modificar la disponibilidad de sensores como micrófono, altavoz o Bluetooth, lo que afecta lo que se reporta a Plaspy.
-- El GPT60 anuncia soporte para el protocolo EELINK 2.1 para configuración remota y telemetría; utilice la documentación del fabricante para confirmar los conjuntos de comandos y parámetros esperados.
-- Seleccionar UDP frente a TCP puede afectar la semántica de entrega para alarmas y el reporte del estado de voz bidireccional; elija el transporte que mejor se ajuste a sus necesidades operativas de fiabilidad.
-- Pruebe el firmware nuevo en un conjunto controlado de dispositivos antes de un despliegue masivo para asegurar que eventos como SOS, alertas de caída y disparos de geocerca se comporten como se espera en Plaspy.
-- En caso de duda, valide el comportamiento contra la documentación oficial del fabricante y ejemplos de salida en lugar de basarse en suposiciones sobre internals del protocolo.
+- La descripción del GPT60 indica soporte para EELINK 2.1 para configuración remota y telemetría; confirme esto en las notas de la versión de su firmware.
+- Las versiones de firmware pueden cambiar la cadencia de mensajes, los tipos de eventos soportados y los comandos de configuración; siempre revise el build de firmware instalado.
+- Revisiones de hardware o variantes regionales de firmware pueden modificar funciones disponibles como voz bidireccional o soporte para sensores Bluetooth.
+- La preferencia de transporte entre UDP y TCP puede seleccionarse en la configuración del dispositivo; elija el transporte compatible con su red y su política organizacional.
+- Es posible que los ajustes de servidor por defecto del fabricante necesiten actualizarse para apuntar el GPT60 a d.plaspy.com o 54.85.159.138 en el puerto 8888.
+- Al integrar a gran escala, valide primero con un número reducido de dispositivos para confirmar el comportamiento antes del despliegue masivo.
 
-## Por qué es importante entender el protocolo
+## Por qué es importante conocer el protocolo
 
-Tener un entendimiento práctico del protocolo de comunicación del GPT60 ayuda a administradores e integradores a configurar correctamente los dispositivos, diagnosticar problemas y asegurar que las alertas y la telemetría lleguen a Plaspy como se espera. Saber qué funciones transporta el protocolo y cómo el dispositivo las envía reduce el tiempo de configuración y mejora la fiabilidad operativa.
+Comprender cómo se comunica el GPT60 ayuda a garantizar una configuración confiable, agilizar la resolución de problemas y lograr una operación predecible a largo plazo con Plaspy. Conocer las capacidades de alto nivel del protocolo facilita alinear la configuración del dispositivo, la red y los flujos de trabajo de Plaspy para alertas, geocercas y telemetría.
 
-- Asegura que servidor, transporte e intervalos de reporte estén configurados correctamente para que las actualizaciones aparezcan en Plaspy de manera oportuna.
-- Ayuda a diagnosticar eventos faltantes como SOS o alertas de caída al acotar el problema a configuración de red, ajustes de firmware o estado del dispositivo.
-- Permite tomar decisiones informadas sobre modos de energía y frecuencia de reporte para balancear la vida de batería con la precisión posicional en Plaspy.
-- Aclara cómo los eventos generados por el dispositivo se mapean a las alertas de Plaspy y qué campos de datos son necesarios para flujos de trabajo y notificaciones.
-- Facilita pruebas y validación seguros de actualizaciones de firmware y cambios de configuración remota antes de un despliegue amplio.
+- Le ayuda a verificar el reporte correcto del dispositivo y la orientación al servidor para que los datos aparezcan en los paneles de Plaspy.
+- Agiliza la resolución de problemas cuando faltan mensajes, guiando las comprobaciones de transporte, dirección del servidor y comportamiento del firmware.
+- Sirve para planificar la vida útil de la batería y los intervalos de reporte al alinear el modo de telemetría del dispositivo con las necesidades de la plataforma.
+- Mejora el manejo de eventos confirmando qué alertas puede generar y entregar el equipo a Plaspy.
+- Facilita la coordinación entre la configuración en campo y los flujos de trabajo gestionados centralmente para geocercas, notificaciones y voz.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el GPT60 con Plaspy ofrece una solución práctica para organizaciones que necesitan monitoreo confiable de seguridad personal y telemetría de activos portátiles. El dispositivo combina posicionamiento GNSS, Wi Fi y LBS con voz bidireccional, SOS y detección de caídas, mientras que Plaspy agrega esos reportes en mapas, historiales, alertas y flujos operativos para que los equipos puedan actuar.
+Usar el GPT60 con Plaspy brinda a las organizaciones visibilidad continua sobre personas y activos portátiles, con énfasis en seguridad personal y alertas basadas en eventos. Plaspy recolecta la telemetría entregada por el GPT60 para que los equipos puedan mapear movimiento, responder a SOS y caídas, y combinar la telemetría con otras fuentes de datos para supervisión operativa.
 
-El enfoque de endpoint único de Plaspy simplifica la incorporación de dispositivos al usar los ajustes de servidor compartidos y la detección automática del protocolo, de modo que las unidades GPT60 pueden comenzar a reportar con mínima configuración manual. Para conocer más sobre cómo Plaspy maneja los datos entrantes de dispositivos y revisar funciones de la plataforma visite https://www.plaspy.com. Para detalles más actuales del protocolo del dispositivo, notas de firmware y orientación del fabricante confirme la información con EElink en https://www.eelink.com.cn/ ya que el soporte del protocolo y el comportamiento del firmware pueden cambiar con el tiempo.
+Plaspy accepts device reports at d.plaspy.com and 54.85.159.138 on port 8888 using either UDP or TCP where the device supports it. Plaspy uses the same port for all supported devices and automatically detects the tracker protocol so properly configured GPT60 units typically do not require manual protocol selection inside the platform. Learn more about Plaspy on the main website https://www.plaspy.com and verify the latest device protocol and firmware details with the manufacturer at https://www.eelink.com.cn/. Protocol support, firmware behavior, and manufacturer implementation can change over time so checking the official manufacturer documentation ensures the most current and accurate device information.

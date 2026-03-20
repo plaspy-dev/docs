@@ -74,38 +74,38 @@ The ST4335 sends its position and telemetry to Plaspy by opening a TCP or UDP da
 
 ## Example Configuration Commands
 
-The ST4335 supports SMS based configuration commands. Below are the public example SMS commands extracted from the model configuration content. You must replace {{device_id}} and APN placeholders with values appropriate to your device and SIM.
+The ST4335 supports SMS based configuration commands. Below are the public example SMS commands extracted from the model configuration content. You must replace [device_id] and APN placeholders with values appropriate to your device and SIM.
 
 Note on deriving the device ID
 - The device ID used in Suntech SMS commands is the last 6 digits of the IMEI excluding the final check digit. For example, if the IMEI is 123456789012345, the device ID would be the six digits immediately before the last digit as shown in the manufacturer example. Confirm the correct substring for your IMEI before sending commands.
 
 1) Set the operator APN and GPRS server
 - Use 1 in the APN flag if you provide an APN username or password, otherwise use 0.
-- Replace placeholders {{device_id}}, [apn], [apnu], and [apnp] before sending.
+- Replace placeholders [device_id], [apn], [apnu], and [apnp] before sending.
 
 ```
-SA200NTW;{{device_id}};02;{{apn_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[apn_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Explanation of placeholders
-- {{device_id}}  = last 6 digits of the IMEI excluding the final digit (see note above)
+- [device_id]  = last 6 digits of the IMEI excluding the final digit (see note above)
 - [apn]        = operator APN name
 - [apnu]       = APN username if required otherwise leave blank
 - [apnp]       = APN password if required otherwise leave blank
-- {{apn_flag}}   = 1 if an APN username or password is provided, otherwise 0
+- [apn_flag]   = 1 if an APN username or password is provided, otherwise 0
 
 2) Set the reporting interval to 60 seconds
 - This command sets reporting parameters and intervals used by the device.
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Verify settings or request preset configuration
 - Use this verification command to check the device configuration after changes.
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Send these commands as SMS messages to the device number associated with the ST4335. Follow Suntech instructions for SMS formatting if your firmware requires a different delimiter or extension. If the device or firmware provides a configuration tool, prefer that tool for bulk deployments.

@@ -88,10 +88,10 @@ El MT60X puede configurarse enviando comandos por SMS al dispositivo. Los comand
   - Reemplace el marcador IMEI por el IMEI del dispositivo. El comando de identificación requiere los últimos 15 dígitos del IMEI. Use los últimos 15 dígitos como se muestra en el ejemplo.
 
 1. Establecer el ID del dispositivo
-   - Reemplace {{imei_last15}} por los últimos 15 dígitos del IMEI del dispositivo
+   - Reemplace [imei_last15] por los últimos 15 dígitos del IMEI del dispositivo
 
 ```
-M000000,22,{{imei_last15}}
+M000000,22,[imei_last15]
 ```
 
    Explicación del ejemplo

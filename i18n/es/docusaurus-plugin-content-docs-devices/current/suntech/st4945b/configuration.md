@@ -76,7 +76,7 @@ Una vez configurado, el ST4945B envía posiciones GNSS y telemetría al endpoint
 La configuración pública del ST4945B utiliza SMS para establecer parámetros de red y reporte. El ID de dispositivo usado en los comandos son los seis dígitos tomados del IMEI excluyendo el dígito final. Por ejemplo, si el IMEI es 123456789012345 el ID del dispositivo es 901234.
 
 - Placeholders used in the commands
-  - {{device_id}} the six digit device ID derived from the IMEI as described above
+  - [device_id] the six digit device ID derived from the IMEI as described above
   - [apn] the operator APN
   - [apnu] the APN username if required
   - [apnp] the APN password if required
@@ -85,32 +85,32 @@ La configuración pública del ST4945B utiliza SMS para establecer parámetros d
 Send this SMS to the device phone number. The fourth numeric field should be 1 if you supply an APN username or password, otherwise use 0.
 
 ```
-SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 If you do not need APN authentication, use:
 
 ```
-SA200NTW;{{device_id}};02;0;[apn];;;54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;0;[apn];;;54.85.159.138;8888;;;;
 ```
 
 2) Set the periodic update interval to 60 seconds
 This command sets reporting frequency values and related timing fields. Adjust only if your deployment needs different intervals.
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Check current settings on the device
 Use this verification command to request the PresetA configuration back from the device.
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Notas sobre el envío de comandos
 - Envíe los mensajes SMS al número telefónico de la SIM dentro del ST4945B.
-- Reemplace {{device_id}}, [apn], [apnu] y [apnp] por sus valores.
+- Reemplace [device_id], [apn], [apnu] y [apnp] por sus valores.
 - El host del servidor en estos comandos utiliza la IP de Plaspy 54.85.159.138 y el puerto 8888 según lo requerido por Plaspy.
 
 ## Notas de configuración

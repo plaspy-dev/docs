@@ -4,132 +4,125 @@ id: gpt26-configuration
 sidebar_label: Configuration
 title: EElink - GPT26 Configuration
 sidebar_class_name: menu_item_tracker
-description: Configurar el rastreador EElink GPT26 para usar con Plaspy mediante servidores públicos y comandos SMS para seguimiento confiable
+description: Guía pública para configurar el rastreador EElink GPT26 y reportar datos a Plaspy mediante servidor compartido y comandos SMS
 keywords:
-  - configuracion EElink GPT26
-  - instalacion EElink GPT26
-  - configuracion GPT26 Plaspy
-  - configuracion rastreador GPS EElink
-  - configuracion servidor GPT26
-  - configuracion plataforma EElink
-  - configuracion SMS GPT26
-  - protocolo EELINK Plaspy
-  - configuracion rastreador GPS Plaspy
-  - seguimiento vehicular GPT26
+  - configuración EElink GPT26
+  - instalación EElink GPT26
+  - configuración servidor GPT26
+  - configuración GPT26 Plaspy
+  - configuración plataforma de rastreo EElink
+  - ajustes de servidor Plaspy
+  - comandos SMS rastreador GPS
+  - configuración APN rastreador GPS
+  - dispositivo reportando a Plaspy
+  - configuración de seguimiento de flotas
 ---
 
-# EElink - Configuración del GPT26
+# EElink - GPT26 Configuración
 
-Esta página documenta el contexto público de configuración para usar el rastreador EElink GPT26 con Plaspy. Se centra en los ajustes de servidor prácticos y en los comandos SMS que se utilizan habitualmente para apuntar un dispositivo GPT26 hacia Plaspy, de modo que el equipo reporte ubicación y estado a la plataforma.
+Esta página ofrece orientación pública sobre la configuración del rastreador GPS EElink GPT26 para que reporte a Plaspy. Reúne los ajustes de servidor prácticos, pasos de verificación y ejemplos de comandos SMS que se usan habitualmente para preparar un dispositivo GPT26 para enviar datos a la plataforma Plaspy. El contenido se basa en comandos públicos del fabricante y en los requisitos de servidor compartido de Plaspy.
 
-Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, aunque los pasos exactos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Cuando está disponible, esta página incluye los comandos SMS publicados para la configuración pública del GPT26 y explica cómo aplicar los ajustes del servidor Plaspy en esos comandos.
+Plaspy utiliza ajustes de servidor compartidos para los dispositivos compatibles y detecta automáticamente el protocolo del rastreador. Los pasos exactos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor, por lo que trate los comandos que aparecen abajo como ejemplos públicos y confirme los detalles específicos del equipo con el fabricante cuando sea necesario.
 
-## Resumen de configuración
+## Resumen de la configuración
 
-El proceso de configuración prepara al GPT26 para comunicarse de manera confiable con Plaspy y que las ubicaciones y la telemetría básica sean visibles en la plataforma. Los pasos a continuación resumen los objetivos prácticos para la configuración y la verificación.
+El proceso de configuración prepara al GPT26 para conectarse al servidor de Plaspy y enviar actualizaciones de ubicación y estado de forma fiable. Para el GPT26, el fabricante proporciona comandos por SMS que se usan comúnmente para ajustar la zona horaria, el APN, el endpoint del servidor y el intervalo de reporte.
 
-- Apuntar el dispositivo al endpoint del servidor Plaspy para que los mensajes de ubicación y estado lleguen a la plataforma.
-- Configurar el APN y los parámetros GPRS del dispositivo para que use datos móviles al reportar.
-- Establecer un temporizador de reportes periódico adecuado a su caso de uso y a las consideraciones de batería.
-- Verificar los ajustes y la conectividad con el comando de verificación del dispositivo o confirmando la visibilidad en Plaspy.
-- Opcionalmente, restaurar valores de fábrica o aplicar zona horaria y otros parámetros operativos antes del despliegue.
+- Configure el APN del dispositivo para que el rastreador pueda establecer una conexión de datos GPRS con Plaspy.
+- Establezca la entrada del servidor GPRS al endpoint compartido de Plaspy (dominio o IP) y el puerto 8888.
+- Elija el transporte (UDP o TCP) si el dispositivo requiere selección para las sesiones de datos.
+- Defina un intervalo de reporte adecuado (por ejemplo, TIMER,60# para 60 segundos) y valide la conectividad al endpoint de Plaspy.
+- Use comandos de verificación para confirmar los parámetros después de configurar y para resolver problemas de conectividad.
 
-## Ajustes del servidor Plaspy
+## Ajustes de servidor Plaspy
 
-Use los siguientes valores públicos de Plaspy al configurar el GPT26:
+- Dominio del servidor: d.plaspy.com para el endpoint de datos de Plaspy  
+- IP del servidor: 54.85.159.138 como endpoint alternativo  
+- Puerto: 8888 como el puerto compartido que usa Plaspy para todos los dispositivos  
+- Soporte de transporte: configure el dispositivo en UDP o TCP en el puerto 8888 según la opción del dispositivo  
+- Plaspy detecta automáticamente el protocolo del rastreador cuando el dispositivo se conecta al servidor
 
-- Dominio del servidor d.plaspy.com
-- IP del servidor 54.85.159.138
-- Puerto 8888
-- Soporte de transporte mediante UDP o TCP en el puerto 8888
-- Plaspy detecta automáticamente el protocolo del rastreador cuando llegan los datos
+## Requisitos típicos antes de configurar
 
-Estos valores corresponden al endpoint y puerto compartidos que Plaspy usa para los dispositivos compatibles.
-
-## Requisitos típicos antes de la configuración
-
-- Una tarjeta SIM activa con plan de datos y capacidad de SMS insertada en el GPT26.
-- Acceso al número de teléfono del propietario del dispositivo para enviar comandos SMS de configuración o acceso a las herramientas oficiales de EElink.
-- Conocimiento del APN del operador móvil de la SIM para configurarlo en el equipo.
-- El dispositivo debe estar cargado y en un entorno de prueba seguro donde pueda obtener ubicación y conectarse a datos móviles.
-- Acceso a la documentación del fabricante o a recursos de soporte para comportamientos específicos del firmware.
+- Una unidad GPT26 con batería cargada, encendida y accesible para recibir comandos de configuración  
+- Una tarjeta SIM activa con APN de datos válido y capacidad de SMS cuando la configuración via SMS sea necesaria  
+- Los datos correctos del APN del operador móvil (APN, usuario y contraseña si son requeridos)  
+- Acceso a un teléfono o a un gateway SMS para enviar los comandos de configuración por SMS al dispositivo  
+- Instrucciones del fabricante o software para opciones específicas del equipo y notas de firmware  
+- Una forma de monitorear la conectividad del dispositivo en Plaspy después de la configuración
 
 ## Cómo se conecta este rastreador a Plaspy
 
-El GPT26 puede configurarse para enviar su ubicación y mensajes de estado al endpoint y puerto compartidos de Plaspy, de modo que el dispositivo sea visible y administrable en la plataforma. Plaspy detecta y procesa el protocolo del rastreador automáticamente cuando el dispositivo se conecta.
+El GPT26 se configura para enviar datos de ubicación y estado a Plaspy a través de la conexión de datos móviles usando los ajustes de servidor GPRS que usted proporcione. Cuando se indica el endpoint y el puerto de Plaspy, el dispositivo abre un canal de datos y transmite telemetría para que la plataforma muestre ubicación y estado.
 
-- El dispositivo se configura con un APN y una entrada GPRS que apuntan a d.plaspy.com o a la IP del servidor Plaspy.
-- Los datos se envían al servidor Plaspy en el puerto 8888 usando UDP o TCP según lo seleccione el dispositivo.
-- Los reportes periódicos se controlan con el ajuste de temporizador del dispositivo, por lo que las actualizaciones de ubicación llegan a Plaspy según el intervalo configurado.
-- Plaspy procesa los mensajes entrantes y los asocia con el registro del dispositivo correspondiente para su visibilidad y monitoreo.
-- La verificación de la conexión exitosa se realiza comprobando que el dispositivo aparezca y reporte información en Plaspy.
+- El dispositivo usa el APN configurado para obtener conectividad GPRS a la red móvil.  
+- El rastreador se apunta al endpoint del servidor Plaspy (d.plaspy.com) o a la IP equivalente (54.85.159.138).  
+- Los datos se envían al puerto 8888 en Plaspy; todos los dispositivos en Plaspy usan este mismo puerto.  
+- Plaspy detectará automáticamente el protocolo correcto del rastreador cuando la unidad se conecte.  
+- La ubicación y el estado reportados aparecerán en Plaspy una vez que el dispositivo se autentique y transmita correctamente.
 
-## Flujo de configuración habitual
+## Flujo de trabajo común de configuración
 
-1. Acceda al método oficial de configuración de EElink para el GPT26, generalmente mediante comandos SMS o la herramienta del fabricante descrita en la documentación de EElink.
-2. Ingrese el nombre de host del servidor Plaspy d.plaspy.com o, alternativamente, la IP del servidor 54.85.159.138 como servidor del dispositivo.
-3. Configure el puerto del dispositivo en 8888.
-4. Seleccione UDP o TCP si el dispositivo requiere una selección explícita del transporte.
-5. Configure el APN y cualquier usuario o contraseña de APN que requiera el operador móvil.
-6. Aplique o guarde la configuración y reinicie el dispositivo si es necesario.
-7. Valide que el dispositivo reporte a Plaspy comprobando la actividad del dispositivo en la plataforma o usando la consulta de parámetros del equipo.
+1. Acceda al método de configuración oficial del fabricante o al software correspondiente, o prepárese para enviar comandos SMS si la configuración se realiza por SMS.  
+2. Ingrese el servidor de Plaspy como d.plaspy.com o 54.85.159.138 en los ajustes de servidor del dispositivo.  
+3. Configure el puerto del dispositivo en 8888 (Plaspy usa el mismo puerto para todos los dispositivos).  
+4. Elija UDP o TCP como transporte si el dispositivo requiere seleccionar el tipo de conexión.  
+5. Configure el APN para la SIM (APN, usuario y contraseña según sea necesario) para que se establezca la conexión de datos GPRS.  
+6. Aplique o guarde la configuración y reinicie el dispositivo si es necesario para aplicar los ajustes.  
+7. Valide que el dispositivo reporte a Plaspy revisando el estado en la plataforma o usando el comando de verificación del equipo.
 
-## Ejemplo de comandos de configuración
+## Ejemplos de comandos de configuración
 
-El GPT26 admite configuración vía SMS. Los comandos a continuación son los publicados y usados comúnmente para la configuración inicial y básica. Envíe cada comando como SMS al número del dispositivo en el orden indicado cuando el orden sea importante.
+El fabricante del GPT26 proporciona comandos por SMS para configurar parámetros comunes. A continuación están los comandos públicos en orden. Envíelos por SMS al número del dispositivo. Mantenga los marcadores de posición cuando los sustituya por valores reales del operador.
 
-- Reinicio opcional a valores de fábrica (usar solo si necesita restaurar los valores por defecto):
-```text
+- Reinicio opcional a fábrica (use solo si necesita restaurar valores predeterminados):
+```
 FACTORY#
 ```
 
-- Ajustar la zona horaria a UTC 0:
-```text
+- Ajustar la zona horaria a UTC+0:
+```
 GMT,E,0#
 ```
 
-- Configurar el APN del operador
-Nota: [apn] es un marcador para el APN de su operador móvil. Si su operador requiere usuario y contraseña del APN, incluya [apnu] y [apnp] donde corresponda.
-```text
-APN,[apn]# 
+- Configurar el APN del operador (reemplazar [apn], e incluir [apnu] y [apnp] solo si su operador requiere usuario y contraseña):
 ```
-O, si se requieren usuario y contraseña:
-```text
 APN,[apn],[apnu],[apnp]#
 ```
+Explicación: [apn] es la cadena APN del operador móvil. [apnu] y [apnp] son los marcadores de usuario y contraseña del APN y son opcionales.
 
-- Configurar el servidor GPRS a Plaspy por dominio y puerto (usa dominio de Plaspy):
-```text
+- Establecer el servidor GPRS en Plaspy usando el dominio (la elección UDP o TCP se configura en el dispositivo si es necesario):
+```
 SERVER,1,d.plaspy.com,8888#
 ```
 
-- O configurar el servidor GPRS a Plaspy por IP y puerto (usa IP del servidor Plaspy):
-```text
+- O establecer el servidor GPRS en Plaspy usando la dirección IP:
+```
 SERVER,0,54.85.159.138,8888#
 ```
 
-- Establecer el intervalo de actualización de ubicación cada 60 segundos:
-```text
+- Establecer el intervalo de reporte a cada 60 segundos:
+```
 TIMER,60#
 ```
 
-- Verificar parámetros actuales del dispositivo:
-```text
+- Verificar parámetros actuales:
+```
 PARAM#
 ```
 
-Envíe estos comandos SMS al número del GPT26. Reemplace los marcadores como [apn], [apnu] y [apnp] por los valores de su operador antes de enviar.
+Siga el orden de comandos cuando sea importante y confirme cada cambio con PARAM# o con la respuesta del dispositivo.
 
 ## Notas de configuración
 
-- La configuración por SMS es un método publicado y soportado para el GPT26; confirme que el dispositivo acepta comandos SMS y que su SIM puede recibir mensajes.
-- Las versiones de firmware y las revisiones de hardware pueden cambiar el comportamiento de los comandos o las opciones disponibles; consulte la documentación de EElink correspondiente al firmware de su unidad.
-- Puede elegir el servidor por dominio o por IP. Tanto SERVER,1,d.plaspy.com,8888# como SERVER,0,54.85.159.138,8888# son formas públicas válidas.
-- Seleccione UDP o TCP según la preferencia del instalador o los requisitos de la red; Plaspy soporta ambos y detectará el protocolo cuando lleguen los mensajes.
-- Después de aplicar los ajustes, permita tiempo para que el dispositivo se registre en la red y verifique la conectividad en Plaspy.
+- Los fabricantes a veces cambian la sintaxis de comandos entre versiones de firmware; confirme la sintaxis SMS exacta para su unidad antes de enviar los mensajes.  
+- Aquí se muestra la configuración por SMS porque el GPT26 admite consulta y comando por SMS como método público de puesta en marcha; también pueden existir software del proveedor o métodos OTA.  
+- Elija UDP o TCP según la opción del dispositivo; Plaspy acepta cualquiera de los dos transportes en el puerto 8888 y detectará el protocolo automáticamente.  
+- Si usa la entrada de dominio (d.plaspy.com), el dispositivo debe poder resolver DNS; la alternativa por IP (54.85.159.138) puede usarse si no hay resolución DNS.  
+- Mantenga los marcadores de posición del APN ([apn], [apnu], [apnp]) tal como aparecen hasta que los reemplace por los valores específicos del operador.
 
 ## Por qué usar Plaspy con esta configuración
 
-Usar Plaspy con el GPT26 ofrece una forma sencilla de consolidar las ubicaciones y el estado de dispositivos a través de una flota o conjunto de activos aprovechando el endpoint compartido de Plaspy y la detección automática de protocolo. Configurar el GPT26 para que reporte a d.plaspy.com o a la IP del servidor Plaspy en el puerto 8888 permite que el dispositivo sea descubierto y procesado por Plaspy sin necesidad de endpoints personalizados por dispositivo.
+Configurar el EElink GPT26 para que reporte a Plaspy ofrece a las organizaciones un camino sencillo para centralizar la visibilidad de activos y el monitoreo operativo. Usar los ajustes de servidor y el puerto compartidos de Plaspy simplifica la incorporación de dispositivos en flotas y permite que Plaspy detecte automáticamente el protocolo del rastreador cuando los equipos se conectan.
 
-Para obtener más información sobre Plaspy visite https://www.plaspy.com. Los métodos específicos de configuración del dispositivo, el comportamiento del firmware y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique la información de configuración y la sintaxis de comandos más recientes en el sitio del fabricante https://www.eelink.com.cn/.
+Para obtener más información sobre Plaspy y las capacidades de la plataforma, visite https://www.plaspy.com. Para los comandos específicos más recientes del dispositivo, notas de firmware y la guía del fabricante para el EElink GPT26, verifique la información actual en el sitio del fabricante https://www.eelink.com.cn/ ya que los métodos de configuración y el comportamiento del firmware pueden cambiar con el tiempo.

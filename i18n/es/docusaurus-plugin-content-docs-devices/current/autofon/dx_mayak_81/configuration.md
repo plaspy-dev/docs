@@ -4,90 +4,93 @@ id: dx_mayak_81-configuration
 sidebar_label: Configuration
 title: AutoFon - DX Mayak 8.1 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública de configuración del AutoFon DX Mayak 8.1 con ajustes de servidor Plaspy y pasos prácticos para la integración
+description: Notas públicas de configuración para integrar AutoFon DX Mayak 8.1 con Plaspy, incluyendo ajustes de servidor y guía de instalación
 keywords:
   - Configuración AutoFon DX Mayak 8.1
-  - Ajustes DX Mayak 8.1
-  - Configuración AutoFon Plaspy
-  - Configuración de servidor DX Mayak 8.1
-  - Configuración rastreador GPS AutoFon
-  - Integración rastreador con Plaspy
-  - Configuración plataforma GPS DX Mayak 8.1
+  - Instalación AutoFon DX Mayak 8.1
+  - DX Mayak 8.1 Plaspy
+  - Configuración de rastreador Plaspy
+  - Configuración servidor Plaspy
+  - Guía de configuración DX Mayak
+  - Instalación rastreador GPS AutoFon
   - Configuración rastreo vehicular
-  - Configuración rastreo de activos
-  - Compatibilidad rastreador GPS con Plaspy
+  - Configuración seguimiento de activos
+  - Rastreo de flotas Plaspy
 ---
 
-# AutoFon - Configuración DX Mayak 8.1
+# AutoFon - DX Mayak 8.1 Configuración
 
-Esta página ofrece el contexto público de configuración para utilizar el AutoFon DX Mayak 8.1 con Plaspy. Resume los ajustes de servidor prácticos y el flujo de trabajo típico necesarios para registrar el dispositivo en la plataforma de monitoreo Plaspy. El DX Mayak 8.1 es un rastreador compacto con batería que soporta GLONASS y GPS, seguimiento de baja potencia con intervalos largos, alertas por eventos como movimiento, choque y SOS, reporte por GPRS con fallback por SMS, funciones BLE de presencia y campos de telemetría como nivel de batería, temperatura, número de satélites y señal GSM, adecuados para la integración con Plaspy.
+Esta página resume el contexto público de configuración para usar el AutoFon DX Mayak 8.1 con Plaspy. Incluye los ajustes de servidor compartidos que utiliza Plaspy, consideraciones prácticas de instalación y el flujo de trabajo típico para apuntar el DX Mayak 8.1 a Plaspy para reportes por GPRS y conmutación por SMS. Las indicaciones son prácticas y agnósticas al fabricante, pero se centran en los parámetros que Plaspy requiere para la conectividad.
 
-Plaspy emplea ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del tracker en el servidor. Los pasos concretos del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y la herramienta de configuración del proveedor que utilice. Esta guía se centra en los ajustes públicos de Plaspy que usted debe aplicar en el rastreador y en pasos prácticos de validación; siempre consulte la documentación del fabricante para comandos específicos del dispositivo o comportamiento de la interfaz.
+Plaspy emplea ajustes de servidor compartidos para los rastreadores soportados y detecta automáticamente el protocolo del dispositivo una vez que éste reporta al endpoint de Plaspy. Los pasos concretos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas de configuración que utilice, por lo que use las instrucciones siguientes como lista de verificación práctica y confirme los pasos específicos del equipo con la documentación de AutoFon cuando sea necesario.
 
 ## Resumen de la configuración
 
-Preparar el DX Mayak 8.1 para Plaspy consiste principalmente en configurar el rastreador para que reporte al endpoint y puerto comunes de Plaspy y en verificar que los mensajes lleguen a la plataforma. Usted utilizará el método de configuración de AutoFon que prefiera para apuntar el dispositivo a Plaspy y confirmar la entrega de telemetría y eventos.
+El objetivo de esta configuración es preparar el DX Mayak 8.1 para enviar localización, telemetría y eventos de alarma a Plaspy de forma fiable. La configuración se centra en apuntar el dispositivo al endpoint del servidor de Plaspy, asegurar que tenga un enlace de datos móviles funcional y el APN correcto, y validar que los mensajes lleguen a la plataforma Plaspy.
 
-- Configure el rastreador para enviar reportes GPRS al endpoint y puerto del servidor Plaspy para que la ubicación y la telemetría aparezcan en Plaspy.
-- Asegúrese de que el modo de transporte esté establecido en UDP o TCP en el puerto de Plaspy y guarde los cambios en la herramienta del dispositivo.
-- Valide que campos de telemetría como nivel de batería, número de satélites y señal GSM estén incluidos en los mensajes que recibe Plaspy.
-- Pruebe la entrega de eventos como movimiento, choque y SOS para confirmar el reporte de alarmas emparejadas.
-- Verifique el comportamiento de fallback por SMS o la retransmisión para garantizar que los mensajes encolados lleguen a Plaspy cuando se restablezca la conexión.
+- Configure el destino de reportes GPRS del DX Mayak 8.1 al servidor Plaspy usando d.plaspy.com o 54.85.159.138 en el puerto 8888.
+- Elija el método de transporte (UDP o TCP) en el dispositivo si es necesario; Plaspy soporta ambos y detectará el protocolo.
+- Asegúrese de que la SIM, el APN y el estado de energía del dispositivo permitan registros periódicos y el reporte de alarmas.
+- Valide la entrega de telemetría y eventos a Plaspy y confirme que las opciones de conmutación por SMS estén configuradas si planea usar SMS como respaldo o control.
+- Guarde y aplique la configuración en el dispositivo, luego confirme que la unidad aparezca en línea dentro de Plaspy.
 
 ## Ajustes del servidor Plaspy
 
 - Dominio del servidor d.plaspy.com
 - IP del servidor 54.85.159.138
 - Puerto 8888
-- Transporte: se soporta UDP o TCP en el puerto 8888
-- Plaspy detecta automáticamente el protocolo del rastreador y todos los dispositivos usan el mismo puerto
+- Transporte soportado UDP o TCP en el puerto 8888
+- Plaspy detecta automáticamente el protocolo del rastreador después de que el dispositivo reporte al endpoint compartido del servidor
 
-## Requisitos habituales antes de la configuración
+Todos los dispositivos soportados por Plaspy usan el mismo puerto para reportes y Plaspy identificará el protocolo utilizado por el DX Mayak 8.1 de forma automática.
 
-- Un DX Mayak 8.1 cargado y con energía, con acceso a la interfaz de configuración del dispositivo, por ejemplo el cargador Micro USB o la herramienta oficial de configuración.
-- Una tarjeta SIM válida activada para datos GPRS si va a utilizar reporte por GPRS y capacidad SMS como fallback.
-- El software de configuración del fabricante o la referencia de comandos SMS de AutoFon para realizar cambios de servidor y APN.
-- Cobertura de red y disponibilidad de datos GPRS en la ubicación de instalación del dispositivo para permitir el registro inicial.
-- Acceso a los datos del servidor Plaspy d.plaspy.com o 54.85.159.138 y al puerto 8888 antes de configurar el dispositivo.
-- Permisos para reiniciar o cortar y volver a aplicar energía al rastreador durante la configuración y las pruebas de validación.
+## Requisitos típicos antes de la instalación
+
+- Un DX Mayak 8.1 con batería cargada o alimentado para la configuración y las pruebas iniciales.
+- Una tarjeta SIM GSM activa con un plan de datos que soporte GPRS (2G) y conexiones salientes; capacidad SMS si piensa usar conmutación por SMS.
+- Acceso al método oficial de configuración de AutoFon, como el cargador USB, el software del fabricante o el conjunto de comandos SMS documentado.
+- APN correctos del operador móviles configurados en el dispositivo.
+- Acceso a una PC o smartphone si el equipo requiere un configurador local o emparejamiento BLE para la instalación.
+- Conocimiento del IMEI u otro identificador único del equipo para verificar la unidad correcta en Plaspy tras la configuración.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-Cuando está configurado para Plaspy, el DX Mayak 8.1 envía mensajes estructurados por GPRS al endpoint de la plataforma y usa SMS como canal secundario de control o fallback. Plaspy recibe tanto actualizaciones de posición en tiempo real como telemetría periódica, asegurando que los dispositivos permanezcan visibles incluso durante cortes temporales de red.
+Al configurarlo para Plaspy, el DX Mayak 8.1 envía mensajes GPRS estructurados al endpoint y puerto compartidos de Plaspy. Plaspy recibe esos mensajes, analiza automáticamente el protocolo del rastreador y muestra ubicación, telemetría y alertas de eventos en la plataforma.
 
-- El dispositivo se apunta al endpoint compartido de Plaspy d.plaspy.com o directamente a la IP 54.85.159.138 usando el puerto 8888.
-- El transporte puede elegirse entre UDP o TCP según la interfaz de configuración del equipo y la preferencia del instalador.
-- La telemetría de ubicación (GLONASS y GPS) y fijaciones asistidas por AGPS se reportan a Plaspy junto con nivel de batería, temperatura, conteo de satélites y señal GSM.
-- Mensajes por eventos, como movimiento, choque y SOS, se entregan a Plaspy para alertas y registro inmediato.
-- El DX Mayak 8.1 retransmite mensajes almacenados al restablecer la conectividad, por lo que los eventos históricos se preservan en Plaspy.
-- El fallback por SMS puede usarse para control remoto o reportes de emergencia cuando GPRS no está disponible, según las instrucciones de AutoFon.
+- El dispositivo se configura para reportar a d.plaspy.com o 54.85.159.138 en el puerto 8888 usando UDP o TCP.
+- Mensajes periódicos de posición y telemetría se envían a Plaspy para visualización en mapas e informes de tablero.
+- Alertas por eventos (movimiento, choque, SOS) se transmiten de inmediato y aparecen como eventos de alarma en Plaspy.
+- SMS puede configurarse como canal secundario de control y notificación cuando GPRS no esté disponible.
+- El comportamiento de retransmisión de mensajes almacenados del rastreador ayuda a preservar eventos durante cortes de red y envía los paquetes en cola a Plaspy cuando vuelve la conectividad.
 
-## Flujo de trabajo de configuración común
+## Flujo de trabajo común de configuración
 
-1. Acceda al método o software oficial de configuración de AutoFon, por ejemplo el cargador Micro USB, la herramienta para Windows o el conjunto de comandos SMS documentado por AutoFon.
-2. En los ajustes de servidor del dispositivo, ingrese la dirección del servidor Plaspy usando el dominio d.plaspy.com o la IP 54.85.159.138.
-3. Configure el puerto de reporte del dispositivo en 8888, que es el puerto común de Plaspy usado por todos los dispositivos compatibles.
-4. Elija UDP o TCP como transporte si el dispositivo requiere seleccionar un protocolo para reporte GPRS.
-5. Guarde o aplique la configuración dentro de la herramienta del fabricante o envíe los comandos SMS equivalentes si se soporta.
-6. Reinicie o realice un ciclo de alimentación del DX Mayak 8.1 si la herramienta del fabricante lo requiere para aplicar los nuevos ajustes de red.
-7. Valide que el dispositivo esté reportando a Plaspy observando la telemetría entrante y los mensajes de eventos en la plataforma Plaspy o mediante las herramientas de diagnóstico y logs de Plaspy.
+1. Acceda al método oficial de configuración de AutoFon para el DX Mayak 8.1 (cargador USB, herramienta PC del fabricante o interfaz de comandos SMS).
+2. Introduzca la dirección del servidor Plaspy usando d.plaspy.com o 54.85.159.138 como endpoint de reportes.
+3. Configure el puerto de reportes en el dispositivo a 8888.
+4. Seleccione el transporte UDP o TCP si el equipo requiere una selección explícita.
+5. Configure el APN de la SIM y los números SMS necesarios para respaldo o control remoto.
+6. Aplique o guarde la configuración y realice cualquier reinicio de dispositivo requerido.
+7. Valide que el DX Mayak 8.1 está reportando a Plaspy y que aparece en línea en su entorno de monitoreo.
 
-## Ejemplos de comandos de configuración
+Estos pasos reflejan el flujo de trabajo general y público; los nombres exactos de los menús y la sintaxis de comandos dependen de la herramienta del fabricante y de la revisión de firmware.
 
-Los comandos exactos y el método que use para establecer servidor y puerto dependen de las herramientas de AutoFon, la versión de firmware y las interfaces disponibles. Plaspy acepta reportes dirigidos a d.plaspy.com o 54.85.159.138 en el puerto 8888 usando UDP o TCP y detectará automáticamente el protocolo del rastreador. Consulte la referencia de comandos de AutoFon o la herramienta loader para la sintaxis específica del dispositivo al establecer estos valores.
+## Ejemplo de comandos de configuración
 
-Si dispone de plantillas de comandos SMS de AutoFon o comandos del loader proporcionados por el fabricante, incluya el servidor y el puerto exactamente como se muestran arriba. Mantenga la consistencia del dominio o IP y del puerto al configurar el equipo para que los reportes lleguen a Plaspy de forma fiable.
+El DX Mayak 8.1 puede configurarse mediante el software de configuración de AutoFon, el cargador USB o comandos SMS, según el firmware y la variante regional. Dado que las herramientas del fabricante y los conjuntos de comandos SMS varían entre versiones de firmware, no se incluyen comandos universales aquí. Use el configurador oficial de AutoFon o la lista de comandos SMS del dispositivo para aplicar los ajustes del servidor Plaspy (d.plaspy.com o 54.85.159.138) y establecer el puerto 8888.
+
+Si utiliza la interfaz de comandos SMS de AutoFon o el cargador y necesita aplicar marcadores de APN, los valores de APN deben ajustarse a los del operador móvil (por ejemplo, reemplace [apn] por el APN del operador). Consulte la documentación de AutoFon para la sintaxis exacta de comandos de su firmware.
 
 ## Notas de configuración
 
-- Las diferencias de firmware y las revisiones de hardware pueden cambiar las etiquetas de los menús de configuración y la sintaxis de los comandos SMS; confirme siempre con la documentación de AutoFon para la revisión exacta de su dispositivo.
-- Elegir UDP o TCP afecta las características de entrega; UDP es habitual para telemetría ligera mientras que TCP ofrece una sesión conectada según el soporte del firmware del rastreador.
-- El DX Mayak 8.1 soporta fallback por SMS y retransmisión encolada, por lo que debe verificar ambos comportamientos (GPRS y SMS) durante las pruebas.
-- Use el loader del fabricante o el conjunto de comandos SMS para los pasos de configuración autorizados y conserve cualquier valor de marcador de posición que la herramienta requiera.
-- Las utilidades de configuración por Micro USB pueden requerir drivers o un entorno OS específico; revise los requisitos de la herramienta loader antes de comenzar.
+- Las diferencias de firmware pueden cambiar los menús del configurador, los nombres de comandos SMS y el orden de los parámetros; confirme los comandos para su versión de firmware en la documentación de AutoFon.
+- Elija UDP o TCP según su preferencia de instalación; Plaspy soporta ambos y detectará el protocolo cuando el dispositivo se conecte.
+- Asegúrese de que los valores de APN coincidan con el operador móvil de la tarjeta SIM en el dispositivo; un APN incorrecto impide el reporte por GPRS.
+- Si planea depender del respaldo por SMS, confirme que el centro de mensajes SMS y los números autorizados de control estén configurados correctamente.
+- Para instalaciones ocultas o con despliegues de batería a largo plazo, valide los intervalos de reporte y las configuraciones de evento para equilibrar la vida de batería y la frecuencia de telemetría.
 
 ## Por qué usar Plaspy con esta configuración
 
-Utilizar el DX Mayak 8.1 con Plaspy ofrece a las organizaciones una vía sencilla para recopilar datos de seguimiento de bajo consumo y eventos en un entorno de monitoreo centralizado. La combinación de telemetría GLONASS y GPS, reporte por GPRS, fallback por SMS y una robusta retransmisión de mensajes ayuda a mantener la visibilidad de vehículos, activos y equipos portátiles en entornos con conectividad mixta.
+Configurar el AutoFon DX Mayak 8.1 para reportar a Plaspy ofrece un camino fiable para obtener visibilidad persistente, alertas de eventos y monitoreo de telemetría para vehículos y activos valiosos. La combinación de buena autonomía, alarmas basadas en acelerómetro y la retransmisión en cola de mensajes se integra bien con las funcionalidades de Plaspy para visualización en mapa, flujos de trabajo de eventos y supervisión operativa.
 
-Para más información sobre Plaspy visite https://www.plaspy.com y para verificar los métodos de configuración específicos más actuales, el comportamiento del firmware y los detalles del fabricante, consulte el sitio de AutoFon https://www.autofon.ru/ para documentación y herramientas oficiales.
+To learn more about Plaspy and supported integrations visit https://www.plaspy.com. For the latest device specific configuration steps, firmware notes and SMS or USB command references verify details on the manufacturer site https://www.autofon.ru/ as device behavior and setup methods can change with new firmware and hardware revisions.

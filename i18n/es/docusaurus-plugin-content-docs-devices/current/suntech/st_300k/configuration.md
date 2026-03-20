@@ -74,35 +74,35 @@ El ST 300K se configura para enviar datos de ubicación y eventos al endpoint y 
 
 ## Comandos de configuración de ejemplo
 
-La documentación del ST 300K proporciona plantillas de comandos SMS usadas para configurar el equipo. En estos ejemplos reemplace {{device_id}} por el ID del dispositivo derivado del IMEI (los últimos 9 dígitos excluyendo el dígito final del IMEI). Reemplace [apn], [apnu] y [apnp] por el APN de su operador móvil, el usuario APN y la contraseña APN según corresponda.
+La documentación del ST 300K proporciona plantillas de comandos SMS usadas para configurar el equipo. En estos ejemplos reemplace [device_id] por el ID del dispositivo derivado del IMEI (los últimos 9 dígitos excluyendo el dígito final del IMEI). Reemplace [apn], [apnu] y [apnp] por el APN de su operador móvil, el usuario APN y la contraseña APN según corresponda.
 
 Ejemplo que muestra cómo se deriva el ID del dispositivo:
 - Si el IMEI es 123456789012345, el ID del dispositivo son los últimos 9 dígitos excluyendo el dígito final. Por ejemplo el IMEI 123456789012345 correspondería al ID 789012345 (formato de ejemplo).
 
 1) Comando opcional de restauración de fábrica (usar solo cuando sea necesario o durante el aprovisionamiento inicial)
 ```
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
 
 2) Establecer el APN del operador y configurar el servidor GPRS para apuntar a Plaspy
 - El comando incluye marcadores para las credenciales del APN y agrega la IP y el puerto del servidor Plaspy.
 ```
-ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Nota: la bandera numérica antes de [apn] (aquí 1) se utiliza en la plantilla del dispositivo donde puede estar presente un usuario o contraseña del operador. Mantenga los marcadores según lo provea su herramienta del proveedor.
 
 3) Establecer el intervalo de reporte a 60 segundos (ejemplo para reportes periódicos de posición)
 ```
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 4) Verificar el preset actual o la configuración en el dispositivo
 ```
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 
 Notas importantes sobre los marcadores:
-- {{device_id}} son los últimos 9 dígitos del IMEI excluyendo el dígito de verificación final, como se indicó arriba.
+- [device_id] son los últimos 9 dígitos del IMEI excluyendo el dígito de verificación final, como se indicó arriba.
 - [apn] es la cadena APN del operador móvil.
 - [apnu] es el usuario APN si el operador lo requiere.
 - [apnp] es la contraseña APN si el operador la requiere.

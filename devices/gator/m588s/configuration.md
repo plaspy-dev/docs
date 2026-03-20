@@ -78,19 +78,19 @@ The Gator M588S is commonly configured by SMS. The public command examples below
 - [apn] = your mobile network APN
 - [apnu] = APN username if required (optional)
 - [apnp] = APN password if required (optional)
-- {{DeviceID}} = the device identifier or IMEI used by the tracker
-- {{phoneNumberUser}} = your phone number for SOS or monitoring as required by the command syntax
+- [DeviceID] = the device identifier or IMEI used by the tracker
+- [phoneNumberUser] = your phone number for SOS or monitoring as required by the command syntax
 
 If your APN requires username and password, send the following SMS command (preserve the sequence and commas as required by the device):
 
 ```text
-SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*[DeviceID]*,*[phoneNumberUser]*,*123456*
 ```
 
 If your APN does not require username or password, use this shorter command variant:
 
 ```text
-S,*[apn]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+S,*[apn]*,*54.85.159.138*,*8888*,*[DeviceID]*,*[phoneNumberUser]*,*123456*
 ```
 
 Notes on these commands:

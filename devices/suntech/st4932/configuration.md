@@ -76,7 +76,7 @@ The ST4932 sends GNSS fixes and event telemetry over its cellular connection to 
 The ST4932 public setup instructions include SMS commands. The device ID used in these commands is derived from the IMEI: take the IMEI, remove the final digit, and use the last 6 digits of the remaining string. Example: if the IMEI is 123456789012345 the device ID is 901234.
 
 Important placeholders:
-- {{device_id}} — replace with the derived 6 digit ID from the IMEI as described above.
+- [device_id] — replace with the derived 6 digit ID from the IMEI as described above.
 - [apn] — operator APN name.
 - [apnu] — APN username if required by the operator.
 - [apnp] — APN password if required by the operator.
@@ -84,18 +84,18 @@ Important placeholders:
 
 1. Set the operator APN and GPRS server. Replace placeholders when sending as an SMS to the device:
 ```text
-SA200NTW;{{device_id}};02;{{apn_user_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[apn_user_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
-- {{apn_user_flag}} should be 1 if you provide a username or password in [apnu] or [apnp], otherwise set to 0.
+- [apn_user_flag] should be 1 if you provide a username or password in [apnu] or [apnp], otherwise set to 0.
 
 2. Set the update interval to 60 seconds:
 ```text
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3. Check current settings or request preset A to verify:
 ```text
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Send these commands as SMS messages to the tracker using the standard Suntech SMS provisioning workflow. Keep the command order when applying settings: network parameters first, then reporting interval, then verification.

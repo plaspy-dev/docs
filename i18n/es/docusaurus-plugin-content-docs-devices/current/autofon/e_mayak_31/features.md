@@ -4,74 +4,75 @@ id: e_mayak_31-features
 sidebar_label: Features
 title: AutoFon - E-Mayak 3.1 Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de funciones del rastreador AutoFon E-Mayak 3.1 y su integración con Plaspy para seguimiento bajo demanda vía SMS
+description: Resumen público del rastreador AutoFon E‑Mayak 3.1 y su integración con Plaspy para localización y telemetría por SMS
 keywords:
-  - AutoFon E Mayak 3.1
-  - características AutoFon E Mayak 3.1
-  - rastreador GPS E Mayak 3.1
-  - rastreador SMS AutoFon
-  - rastreador compatible con Plaspy
-  - rastreador GPS oculto
-  - rastreador GPS de batería de larga duración
-  - rastreador con telemetría por SMS
-  - rastreo de activos E Mayak
-  - rastreador antirrobo para vehículos
+  - AutoFon E-Mayak 3.1
+  - funciones E-Mayak 3.1
+  - rastreador GPS AutoFon
+  - rastreador GPS por SMS
+  - baliza GPS encubierta
+  - rastreador de larga autonomía de batería
+  - telemetría E-Mayak
+  - compatibilidad de dispositivos Plaspy
+  - rastreador para recuperación de vehículos
+  - rastreo de activos por SMS
 ---
 
-# AutoFon - Características del E‑Mayak 3.1
+# AutoFon - E-Mayak 3.1: Características
 
-Esta página describe el contexto público de uso del rastreador AutoFon E‑Mayak 3.1 con Plaspy. Se enfoca en las capacidades del dispositivo que son relevantes para los flujos de trabajo en Plaspy, incluyendo el modelo de reportes por SMS bajo demanda, la autonomía de la batería y las formas habituales en que los mensajes de posición y los enlaces de mapa del E‑Mayak 3.1 se integran en Plaspy para visualización e informes.
+Esta página describe el contexto público de uso del rastreador AutoFon E‑Mayak 3.1 con Plaspy. Se enfoca en las capacidades prácticas, cómo el dispositivo informa ubicación y telemetría, y las formas en que esos reportes pueden integrarse en flujos de trabajo de Plaspy para mapeo, monitoreo y alertas básicas.
 
-La disponibilidad y el comportamiento exacto de las funciones pueden variar según la versión de firmware, la revisión del hardware, el método de instalación y la implementación del fabricante. Cuando corresponde, esta página resalta funciones prácticas no sensibles extraídas de las descripciones del fabricante y cómo se usan comúnmente en Plaspy, en lugar de detallar internos del dispositivo o secretos de configuración.
+La disponibilidad exacta de funciones en una unidad concreta puede variar según la versión de firmware, la revisión de hardware, el método de instalación y la implementación del fabricante. La información que sigue se basa en la descripción del dispositivo y resalta las funciones que comúnmente se reportan en unidades E‑Mayak 3.1 cuando se usan en flujos de trabajo centrados en Plaspy.
 
-## Resumen de funcionalidades
+## Resumen de características
 
-El AutoFon E‑Mayak 3.1 es un rastreador compacto pensado para operación autónoma prolongada y colocación discreta. Reporta ubicación y telemetría básica por SMS, ofrece formatos de enlace a mapas adecuados para una revisión rápida y está diseñado para flujos de trabajo de seguimiento bajo demanda y recuperación, más que para transmisión continua por GPRS.
+El E‑Mayak 3.1 es una baliza GPS optimizada para SMS y bajo consumo, diseñada para operación autónoma prolongada y colocación discreta. Está pensado para verificaciones de ubicación bajo demanda y telemetría periódica en lugar de transmisión GPRS continua, lo que lo hace adecuado para recuperación y monitoreo prolongado sin supervisión, donde la duración de batería y la baja detectabilidad son prioritarias.
 
-- Reporte de posición GPS bajo demanda vía SMS, incluyendo formatos de coordenadas y enlaces estándar a mapas por SMS
-- Autonomía en espera muy prolongada con ciclos de sueño configurables para soportar meses o años de operación
-- Telemetría básica por SMS como estado de descarga de batería, lecturas de temperatura, señales de vida (heartbeat) y alertas de saldo de la SIM
-- Configuración protegida por PIN y notificaciones de seguridad por intentos incorrectos o cambios del número del propietario
-- Carcasa compacta y camuflada adecuada para instalaciones ocultas en vehículos, contenedores o activos portátiles
+- Reportes de ubicación por SMS que incluyen coordenadas GPS y dos formatos habituales de enlaces de mapa para visualización rápida.
+- Autonomía por modo de sueño profundo y ciclos configurables de vida/reposo para operación en baterías durante meses o incluso años.
+- Telemetría básica vía SMS incluyendo estado de descarga de batería, lecturas de temperatura, señales de vida y alertas de saldo de SIM.
+- Funciones de seguridad como configuración protegida por PIN y notificaciones ante cambios de número propietario o intentos de contraseña incorrecta.
+- Factor de forma compacto y discreto para instalaciones ocultas en vehículos, remolques, contenedores o artículos personales.
 
-## Características principales del AutoFon - E‑Mayak 3.1
+## Características principales del AutoFon - E-Mayak 3.1
 
-- Control y reporte por SMS para consultas de ubicación y estado bajo demanda
-- Posicionamiento GPS con respaldo por antena celular para mejor cobertura en condiciones GPS marginales
-- Operación autónoma prolongada con celdas de batería reemplazables CR123A y intervalos de sueño configurables
-- Detección de temperatura y monitoreo de descarga de batería reportados por SMS
-- Mensajes heartbeat o de señal de vida para confirmar la disponibilidad del dispositivo según un calendario
-- Configuración protegida por PIN y alertas relacionadas con eventos de seguridad
-- Numeración secuencial de SMS y notificaciones de saldo de la SIM para ayudar a correlacionar mensajes
+- Control y reportes por SMS para posición y telemetría sin necesidad de conectividad GPRS continua.
+- Posicionamiento GPS con respaldo por torre celular para mejorar cobertura en condiciones GNSS marginales.
+- Operación autónoma prolongada con ciclos de sueño configurables y soporte para baterías removibles CR123A con amplio tiempo en espera.
+- Monitoreo de descarga de batería y alertas de saldo de SIM enviadas por SMS para visibilidad remota de mantenimiento.
+- Sensor de temperatura informado por SMS para supervisión ambiental sencilla.
+- Señal de vida o heartbeat configurable vía SMS para confirmar el estado del dispositivo según un cronograma.
+- Configuración protegida por PIN y notificaciones de seguridad para detección básica de manipulación.
+- Numeración secuencial de SMS para ayudar a correlacionar mensajes y eventos a lo largo del tiempo.
 
-## Cómo interactúan estas funciones con Plaspy
+## Cómo funcionan estas funciones con Plaspy
 
-Cuando se utiliza un E‑Mayak 3.1 con Plaspy, las posiciones y la telemetría basadas en SMS se incorporan a los flujos de trabajo de Plaspy bien sea reenviando el contenido de los SMS a un endpoint de ingestión o importando manualmente los enlaces y mensajes con coordenadas. Plaspy usa esa información para mapeo, registro y alertas, con las mismas herramientas de visibilidad e informe que para otros dispositivos.
+Al integrarse con Plaspy, los mensajes centrados en SMS del E‑Mayak 3.1 pueden capturarse y traducirse en eventos de ubicación y registros de telemetría. Los flujos de trabajo de Plaspy suelen ingerir el contenido de SMS bien por entrada manual o mediante una pasarela SMS a API, de modo que las actualizaciones de posición y estado aparezcan en mapas y paneles junto con otros datos de la flota.
 
-- Reenviar mensajes SMS o usar una pasarela SMS a API para enviar posiciones y telemetría a Plaspy
-- Pegar o importar enlaces de mapa y coordenadas estándar de SMS en Plaspy para mostrar la ubicación en mapas
-- Usar los SMS heartbeat para monitorear la salud del dispositivo y mostrar la última vez visto en los paneles de Plaspy
-- Mostrar alertas de batería y temperatura en Plaspy para ayudar a planificar mantenimiento y ciclos de reemplazo
-- Correlacionar la numeración secuencial de SMS y las notificaciones de saldo con los registros de actividad de Plaspy para auditoría y resolución de problemas
+- Las coordenadas de SMS reenviados o procesados por una pasarela se convierten en ubicaciones trazadas que pueden visualizarse en los mapas de Plaspy.
+- Los enlaces de mapa incluidos en los SMS del rastreador pueden pegarse o analizarse en Plaspy para acelerar la verificación de ubicación.
+- Los mensajes SMS de batería y temperatura pueden mostrarse en campos de estado del dispositivo para apoyar la planificación de mantenimiento y reemplazo.
+- Los SMS de heartbeat pueden utilizarse para monitorear la salud del dispositivo y activar notificaciones si las señales esperadas dejan de llegar.
+- La numeración secuencial de los SMS y las alertas de saldo facilitan la correlación de mensajes en los registros de Plaspy para auditoría y revisión de incidentes.
 
 ## Casos de uso típicos
 
-- Seguimiento antirrobo discreto para vehículos y motocicletas donde la larga duración de la batería y la ocultación son críticos
-- Monitoreo prolongado de remolques, embarcaciones o equipos sin suministro eléctrico externo confiable
-- Seguimiento de embarques y contenedores durante almacenamiento o tránsito cuando son suficientes comprobaciones periódicas de posición
-- Monitoreo temporal de personas o animales cuando los reportes programados cumplen los requisitos
-- Operaciones de recuperación que dependen de solicitudes de posición bajo demanda en lugar de transmisión continua
+- Rastreo encubierto anti‑robo para vehículos y motocicletas donde se requiere larga autonomía y discreción.
+- Recuperación de remolques, botes pequeños o contenedores cuando no hay alimentación externa y las verificaciones periódicas son suficientes.
+- Monitoreo de envíos valiosos durante almacenamiento o tránsito cuando se desea baja detectabilidad.
+- Rastreo temporal de personas o animales donde son prioritarios las consultas periódicas de ubicación y la larga duración de batería.
+- Comprobaciones de ubicación de bajo costo para activos en horarios intermitentes sin tarifas recurrentes por datos.
 
 ## Notas sobre disponibilidad de funciones
 
-- Las diferencias de firmware pueden cambiar formatos de mensaje, campos de telemetría disponibles y comandos de configuración
-- Las revisiones de hardware y las variantes regionales del dispositivo pueden alterar la vida útil de la batería, el rendimiento de la antena o el soporte de bandas GSM
-- El método de instalación y la ubicación afectan la recepción GPS y la efectividad del montaje oculto
-- La configuración de reenvío de SMS y la pasarela con operadores de red suelen ser necesarias para integrar mensajes SMS en Plaspy
-- La documentación del fabricante es la fuente autorizada para los detalles técnicos y limitaciones más recientes
+- Las variaciones de firmware y las actualizaciones del fabricante pueden cambiar formatos de SMS, telemetría disponible y juegos de comandos.
+- Las revisiones de hardware o variantes regionales pueden alterar la vida útil de la batería, las bandas GSM soportadas o el rendimiento de la antena.
+- El método de instalación y la ubicación de montaje afectan la recepción GPS y la fiabilidad de los reportes de posición.
+- Usar Plaspy con dispositivos basados en SMS normalmente requiere un método de reenvío de SMS o una pasarela para ingerir los mensajes en la plataforma.
+- Se recomienda consultar la documentación del fabricante para sintaxis de comandos, comportamiento del PIN y pasos de configuración precisos.
 
 ## Por qué usar Plaspy con estas funciones
 
-Combinar el AutoFon E‑Mayak 3.1 con Plaspy ofrece visibilidad práctica para flujos de trabajo que priorizan la autonomía y el seguimiento bajo demanda. Plaspy puede ingerir posiciones y telemetría derivadas de SMS, mapearlas e incluir esos mensajes en informes y alertas para que los equipos operativos monitoreen la salud del dispositivo, planifiquen reemplazos de batería y coordinen acciones de recuperación cuando sea necesario.
+Plaspy ofrece una manera práctica de centralizar eventos de ubicación y telemetría por SMS de dispositivos como el E‑Mayak 3.1 en mapas y paneles operativos conocidos. Para equipos centrados en recuperación, monitoreo periódico y activos desatendidos de largo plazo, combinar un rastreador con prioridad SMS y Plaspy permite tratar los reportes de posición bajo demanda como parte de flujos de trabajo más amplios de seguimiento e incidentes.
 
-Si su caso de uso valora la larga duración de la batería, la instalación discreta y un bajo costo de datos continuos, usar el E‑Mayak 3.1 con Plaspy ofrece una vía sencilla hacia la conciencia situacional sin necesidad de telemetría GPRS continua. Para saber más sobre cómo Plaspy soporta rastreadores como este visite https://www.plaspy.com. Para la información específica del dispositivo, notas de firmware e instrucciones de configuración detalladas consulte el sitio del fabricante en https://www.autofon.ru/ ya que las funciones y el comportamiento del firmware pueden cambiar con el tiempo.
+Para obtener más información sobre cómo Plaspy puede funcionar con el AutoFon E‑Mayak 3.1 visite https://www.plaspy.com. Para detalles específicos del dispositivo, notas de firmware e instrucciones oficiales, consulte al fabricante en https://www.autofon.ru/ ya que las funciones y el comportamiento pueden cambiar con el tiempo.

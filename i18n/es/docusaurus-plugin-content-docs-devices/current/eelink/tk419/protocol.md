@@ -4,77 +4,77 @@ id: tk419-protocol
 sidebar_label: Protocol
 title: EElink - TK419 Protocol
 sidebar_class_name: menu_item_tracker
-description: Resumen público del protocolo del EElink TK419 y su comunicación con las plataformas Plaspy
+description: Guía pública del protocolo EElink TK419 y su compatibilidad con Plaspy, incluyendo ajustes de conexión y contexto de integración
 keywords:
-  - protocolo EElink TK419
-  - protocolo GPS EElink TK419
-  - compatibilidad EElink TK419 Plaspy
-  - protocolo de comunicación EElink TK419
-  - protocolo de rastreo EElink TK419
-  - protocolo de rastreador vehicular EElink
-  - seguimiento de flotas TK419
-  - rastreador GPS TK419 Plaspy
-  - integración protocolo EELINK
-  - protocolo de telemática vehicular
+  - eelink tk419 protocolo
+  - eelink tk419 protocolo gps
+  - eelink tk419 protocolo de comunicación
+  - eelink tk419 protocolo de rastreo
+  - eelink tk419 plaspy
+  - plaspy compatibilidad eelink
+  - protocolo gps eelink
+  - rastreo de vehículos eelink tk419
+  - integración protocolo eelink
+  - gestión de flotas tk419
 ---
 
 # EElink - Protocolo TK419
 
-Esta página describe el contexto público del protocolo para utilizar el rastreador EElink TK419 con Plaspy. Se enfoca en cómo el dispositivo se comunica con Plaspy en términos generales, cómo esa comunicación se usa para ubicación en tiempo real y alertas, y qué aspectos deben considerar los técnicos al integrar unidades TK419 en una implementación de Plaspy. El TK419 es un rastreador 4G compacto diseñado para seguridad de flotas y activos; reporta posiciones GNSS y telemetría a plataformas compatibles usando el protocolo del fabricante.
+Esta página documenta el contexto público del protocolo del EElink TK419 cuando se usa con Plaspy. Resume cómo el rastreador comunica posiciones GNSS, alarmas y telemetría a través de redes celulares hacia Plaspy, sin exponer detalles sensibles o propietarios de implementación. Utilice esta guía para comprender el contexto de conexión y el papel práctico del protocolo del dispositivo en una implementación con Plaspy.
 
-Plaspy emplea ajustes de conexión compartidos para los dispositivos soportados y detecta automáticamente el protocolo cuando el equipo reporta al endpoint de Plaspy. El dominio del servidor Plaspy es d.plaspy.com y la IP del servidor Plaspy es 54.85.159.138. El puerto es 8888 y el dispositivo puede configurarse usando UDP o TCP en el puerto 8888. Todos los dispositivos en Plaspy usan el mismo puerto, pero el comportamiento exacto del protocolo puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante. Verifique los detalles específicos del dispositivo con el fabricante cuando sea necesario.
+El TK419 es un rastreador 4G compacto diseñado para flotas de vehículos y seguridad de activos; transmite telemetría mediante redes GPRS y LTE Cat 1. Plaspy emplea ajustes de conexión compartidos para los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, aunque el comportamiento exacto puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante. Para conjuntos de comandos específicos y detalles de firmware consulte la documentación oficial de EElink.
 
-## Resumen del protocolo
+## Visión general del protocolo
 
-El TK419 comunica posición, estados de entradas, alarmas y telemetría básica a un servidor remoto usando los mecanismos de reporte de EElink. A alto nivel, el protocolo del dispositivo define cómo el rastreador se identifica, reporta soluciones GNSS y estado, y señala eventos de alarma o E/S para que una plataforma como Plaspy convierta esos mensajes en actualizaciones de mapa, alertas y registros.
+El protocolo implementado por el TK419 proporciona el mecanismo para que el dispositivo se identifique, reporte posiciones GNSS, transmita alarmas y estado de entradas/salidas (IO), y acepte configuraciones o comandos de control cuando están disponibles. En implementaciones con Plaspy, el protocolo actúa como puente entre los mensajes crudos del dispositivo y los datos útiles de ubicación y alertas.
 
-- Provee identidad y estado del dispositivo para que Plaspy pueda atribuir mensajes entrantes a un rastreador y activo específicos.
-- Transporta la posición GNSS y marcas de tiempo para habilitar la ubicación en tiempo real en los mapas de Plaspy.
-- Envía eventos de alarma y E/S como estado de ACC, alertas por choque o vibración, activaciones de geocerca y notificaciones de batería de respaldo.
-- Permite opciones de configuración remota a través de la plataforma, la aplicación o mecanismos SMS expuestos por el dispositivo y el fabricante.
-- Habilita el control de relés y otras acciones de actuadores iniciadas desde la plataforma cuando el equipo lo soporta.
+- Permite que el dispositivo envíe posiciones GNSS periódicas o basadas en eventos y actualizaciones de estado a Plaspy.
+- Transmite alarmas y estados de IO como encendido ACC, alertas por choque o vibración, eventos de geovalla y notificaciones de batería de respaldo.
+- Permite a la plataforma asociar los mensajes entrantes con una identidad de dispositivo para que Plaspy muestre ubicación en tiempo real y el historial.
+- Soporta la configuración remota y controles operativos que el fabricante pueda ofrecer, como inmovilizador remoto o actualización de parámetros cuando el dispositivo y el firmware lo permiten.
+- Traduce la telemetría del dispositivo en registros estructurados que Plaspy utiliza para mapas, alertas e informes.
 
-## Cómo Plaspy detecta el protocolo
+## Cómo detecta Plaspy el protocolo
 
-Plaspy recibe conexiones entrantes en un endpoint y puerto compartidos y detecta automáticamente el protocolo del rastreador a partir del tráfico del dispositivo. Cuando un TK419 apunta al endpoint de ingestión de Plaspy, la plataforma empata los mensajes entrantes con patrones de protocolo conocidos y con los dispositivos registrados, por lo que la selección manual de protocolo típicamente no es necesaria en una unidad configurada correctamente.
+Plaspy recibe el tráfico de rastreadores en un punto de ingestión compartido y detecta automáticamente qué protocolo está usando un dispositivo cuando este apunta correctamente al endpoint de Plaspy. Normalmente no es necesario seleccionar el protocolo de forma manual en la plataforma si el rastreador reporta a la dirección y puerto del servidor Plaspy.
 
-- Apunte el rastreador a d.plaspy.com o 54.85.159.138 y use el puerto 8888 para que Plaspy pueda recibir los reportes.
-- Los dispositivos pueden usar UDP o TCP en el puerto 8888 según la configuración del equipo y las condiciones de la red.
-- El mensaje inicial desde un rastreador suele contener un identificador del dispositivo y campos de estado que Plaspy usa para asociar la fuente con un registro de activo.
-- Si el dispositivo está configurado correctamente y el identificador es reconocible, Plaspy detecta automáticamente el protocolo del rastreador y mapea los mensajes posteriores.
-- En la mayoría de las instalaciones, el usuario no necesita seleccionar manualmente un protocolo dentro de Plaspy cuando el rastreador está correctamente configurado para reportar al endpoint de Plaspy.
+- El endpoint de ingestión de Plaspy es accesible en el dominio d.plaspy.com y la dirección de servidor 54.85.159.138.
+- Todos los dispositivos soportados por Plaspy usan el mismo puerto para reportar, lo que simplifica la configuración de dispositivos y las reglas de firewall.
+- Plaspy inspecciona los mensajes entrantes en el endpoint compartido y los asigna automáticamente a la identidad de dispositivo y al manejador de protocolo correspondiente.
+- Cuando la configuración del dispositivo es correcta, usted normalmente no necesita seleccionar un protocolo en Plaspy para que el TK419 sea reconocido.
+- Si un rastreador no aparece en línea, confirmar que el dispositivo está reportando a d.plaspy.com en el puerto correcto es un paso de resolución de problemas primordial.
 
-## Transporte y configuración de conexión
+## Transporte y contexto de conexión
 
-Las decisiones de transporte y una configuración correcta del endpoint son fundamentales para un reporte fiable. Las unidades TK419 soportan enlaces de datos celulares y pueden configurarse para enviar sus reportes a Plaspy mediante UDP o TCP. Use el endpoint y puerto compartidos de Plaspy descritos arriba para simplificar despliegues a gran escala.
+El TK419 puede transmitir datos por la red celular y soporta opciones de transporte estándar que se seleccionan por configuración del dispositivo o por valores predeterminados del firmware. Para conectividad de red Plaspy expone un único endpoint y puerto consistentes entre los dispositivos soportados para reducir la complejidad de configuración.
 
-- El dispositivo puede configurarse usando UDP o TCP en el puerto 8888 según el soporte del equipo y las opciones elegidas.
-- El dominio del servidor Plaspy es d.plaspy.com y la IP del servidor Plaspy es 54.85.159.138 para configuraciones directas por IP.
-- El puerto es 8888 y Plaspy utiliza el mismo puerto para todos los dispositivos soportados para agilizar la ingestión.
-- Elija TCP para conexiones persistentes cuando el dispositivo y la red lo permitan, o UDP cuando se prefiera menor sobrecarga para reportes breves.
-- Asegúrese de que el firewall y la configuración de APN permitan tráfico saliente hacia d.plaspy.com o 54.85.159.138 en el puerto 8888 desde la SIM del dispositivo.
+- Los dispositivos pueden configurarse para usar UDP o TCP en el puerto 8888, según el soporte del dispositivo y la configuración del sitio.
+- El endpoint de Plaspy puede especificarse por nombre de dominio d.plaspy.com o por la IP del servidor 54.85.159.138 cuando no hay servicio DNS disponible.
+- Plaspy utiliza el puerto 8888 para toda la ingestión de dispositivos, de modo que las reglas de firewall y APN se puedan estandarizar en las flotas.
+- La selección del transporte afecta cómo se entregan los paquetes en la red móvil, pero no cambia el papel de alto nivel del protocolo en el reporte de telemetría.
+- Confirme que el transporte elegido está soportado por el firmware del dispositivo y que los ajustes de APN y datos son correctos para una entrega confiable.
 
 ## Notas sobre compatibilidad del protocolo
 
-- Las versiones de firmware pueden añadir, cambiar o desaprobar campos de mensaje y el comportamiento de reporte; confirme la versión del firmware del rastreador al diagnosticar diferencias.
-- Las revisiones de hardware a veces modifican las opciones de E/S disponibles o el cableado de alarmas, lo que afecta la telemetría reportada a Plaspy.
-- Las opciones de configuración del fabricante, como elección de transporte, intervalo de reporte y umbrales de alarma, pueden cambiar la frecuencia y el contenido de los reportes.
-- El soporte del dispositivo para comandos remotos o control de relés puede depender de builds de firmware regionales y de restricciones del operador.
-- Al integrar a escala, valide un dispositivo de muestra de extremo a extremo con Plaspy antes de un despliegue masivo.
-- Si usted depende de configuración por SMS o comandos de reserva, verifique esos mecanismos con la documentación actual del TK419 proporcionada por el fabricante.
+- Las revisiones de firmware en el TK419 pueden cambiar el comportamiento de mensajes, las funciones soportadas o los parámetros de configuración disponibles. Verifique la versión de firmware al diagnosticar problemas.
+- Revisiones de hardware o variaciones de SKU pueden dar lugar a diferencias en capacidades de IO o soporte de periféricos que afecten la telemetría reportada.
+- Las opciones de configuración del fabricante, como SMS frente a configuración basada en plataforma, pueden alterar cómo se aplican las actualizaciones remotas.
+- La elección entre TCP o UDP puede afectar la confiabilidad y las características de entrega según las condiciones de la red.
+- Siempre valide que los ajustes del dispositivo apunten a d.plaspy.com o 54.85.159.138 y que usen el puerto 8888 para la ingestión en Plaspy.
+- Para casos límite o integraciones avanzadas consulte la documentación de EElink para confirmar las capacidades del dispositivo y los comandos soportados por su firmware.
 
 ## Por qué es importante entender el protocolo
 
-Comprender el protocolo de comunicación del TK419 ayuda a asegurar un despliegue confiable, acelera la resolución de problemas y facilita alinear el comportamiento del dispositivo con las necesidades operativas en Plaspy. Saber qué reporta el equipo y cómo indica eventos permite configurar alertas, reglas y paneles que reflejen el comportamiento real.
+Conocer cómo se comunica el TK419 ayuda a asegurar una implementación exitosa, simplifica la resolución de problemas y mejora la confiabilidad a largo plazo de los flujos de trabajo de rastreo y alarmas en Plaspy. Entender el contexto de protocolo y transporte reduce el tiempo de configuración y aclara qué elementos dependen del dispositivo y cuáles de la plataforma.
 
-- Reduce el tiempo para resolver brechas de reporte al clarificar si un problema es de transporte, configuración o firmware.
-- Asegura que las alarmas y estados de E/S se mapeen correctamente en las alertas y reportes de Plaspy para un manejo preciso de incidentes.
-- Ayuda a elegir el transporte y los intervalos de reporte adecuados para optimizar la vida de batería, el uso de datos y la puntualidad.
-- Orienta los pasos de validación para nuevo firmware o revisiones de hardware antes de un despliegue amplio.
-- Mejora la confiabilidad de la automatización que depende de ACC, control de relé u otras entradas digitales.
+- Acelera la puesta en marcha inicial al confirmar el endpoint y puerto correctos de Plaspy antes de profundizar en la resolución de problemas.
+- Ayuda a aislar problemas de conectividad debidos a transporte, APN o firewall en lugar de la interpretación por parte de la plataforma.
+- Permite una comunicación más efectiva con el fabricante cuando se requiere clarificar comportamientos específicos del firmware.
+- Facilita la planificación de actualizaciones de firmware y despliegues de hardware al anticipar cambios en el protocolo o en las funciones.
+- Aumenta la confianza al mapear IO y alarmas del dispositivo con las alertas y automatizaciones de Plaspy.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el TK419 con Plaspy ofrece una vía directa desde los reportes del dispositivo hasta la monitorización y las alertas accionables para flotas. Plaspy ingiere posiciones GNSS, estados de E/S y alarmas para mostrar mapas en vivo, líneas de tiempo de eventos y notificaciones basadas en reglas que los operadores utilizan para prevención de robos, supervisión de conductores y supervisión operativa. El diseño compacto del TK419, su soporte multiconductor GNSS y el relé inmovilizante opcional lo convierten en una elección práctica donde se requiere instalación discreta y reportes fiables.
+Usar el TK419 con Plaspy ofrece a operadores de flotas y gestores de activos visibilidad continua, reenvío de alarmas y gestión centralizada de la telemetría de vehículos y activos móviles. El soporte multi GNSS del dispositivo, el reporte de batería de respaldo, la detección de ACC y el relé inmovilizador opcional se combinan con la ingestión y el sistema de alertas de Plaspy para ofrecer flujos de trabajo prácticos de monitoreo y seguridad.
 
-Para obtener más información sobre Plaspy y cómo se integra con rastreadores como el TK419 visite https://www.plaspy.com. Para los detalles más actuales del protocolo, notas de firmware y documentación del dispositivo, confirme los específicos con el fabricante en https://www.eelink.com.cn/. El soporte de protocolos y el comportamiento del firmware pueden cambiar con el tiempo, por lo que siempre verifique los detalles específicos del dispositivo con los recursos oficiales del fabricante.
+El modelo de endpoint compartido de Plaspy y la detección automática de protocolo reducen la fricción en despliegues de flotas grandes y simplifican la configuración de red usando d.plaspy.com o 54.85.159.138 en el puerto 8888 para todos los dispositivos soportados. Para aprender más sobre Plaspy y cómo soporta integraciones de rastreadores GPS visite https://www.plaspy.com. Para los detalles más recientes específicos del dispositivo, notas de firmware y orientación del fabricante consulte el sitio de EElink en https://www.eelink.com.cn/ ya que el soporte de protocolo y el comportamiento del firmware pueden cambiar con el tiempo.

@@ -80,9 +80,9 @@ The PT-718 supports SMS configuration. The device expects a secret key for SMS c
 
 1) Set APN settings and the Plaspy server IP and port
 ```
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
-- {{SecretKey}} is the device SMS password. By default it is the last 6 ASCII characters of the device ID.
+- [SecretKey] is the device SMS password. By default it is the last 6 ASCII characters of the device ID.
 - [apn] is the operator APN name.
 - [apnu] is the APN username if required by the operator; leave empty if none.
 - [apnp] is the APN password if required; leave empty if none.
@@ -90,7 +90,7 @@ The PT-718 supports SMS configuration. The device expects a secret key for SMS c
 
 2) Verify current GPRS settings on the device
 ```
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 - Use this query to confirm the APN and server settings after applying configuration.
 

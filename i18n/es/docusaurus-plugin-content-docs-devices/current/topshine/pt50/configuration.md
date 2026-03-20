@@ -85,7 +85,7 @@ Etiqueta: reinicio inicial opcional. La porción de contraseña en estos comando
 
 - Establecer el id del dispositivo (use los primeros 14 dígitos del IMEI cuando se requiera)
 ```text
-W000000,010,{{first14_IMEI}}
+W000000,010,[first14_IMEI]
 ```
 Nota: El ejemplo del fabricante usa los primeros 14 dígitos del IMEI en este comando. Plaspy utiliza el IMEI completo como identificador en la plataforma; confirme cómo mapea el IMEI a dispositivos en Plaspy.
 

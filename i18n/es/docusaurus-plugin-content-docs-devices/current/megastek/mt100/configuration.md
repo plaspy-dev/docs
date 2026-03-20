@@ -75,16 +75,16 @@ El MT100 envía fixes GNSS y eventos del dispositivo al endpoint del servidor de
 Los ejemplos públicos de configuración del MT100 incluyen comandos por SMS. La contraseña por defecto del dispositivo usada en estos comandos es 000000. Reemplace los marcadores con sus valores específicos antes de enviar. Cada comando SMS comienza con M000000 donde 000000 es la contraseña por defecto.
 
 - Nota sobre marcadores
-  - {{imei}} significa los 15 dígitos del IMEI del dispositivo. Use los últimos 15 dígitos del IMEI si su dispositivo lo requiere.
+  - [imei] significa los 15 dígitos del IMEI del dispositivo. Use los últimos 15 dígitos del IMEI si su dispositivo lo requiere.
   - [apn] es la cadena APN del operador móvil.
   - [apnu] es el usuario del APN cuando sea necesario; si no aplica omítalo.
   - [apnp] es la contraseña del APN cuando sea necesaria; si no aplica omítala.
 
 1) Establecer el ID del dispositivo usando el IMEI
 ```text
-M000000,22,{{imei}}
+M000000,22,[imei]
 ```
-Explicación: reemplace {{imei}} con el IMEI del dispositivo (15 dígitos). Esto asocia el ID del dispositivo según lo espera el protocolo del rastreador.
+Explicación: reemplace [imei] con el IMEI del dispositivo (15 dígitos). Esto asocia el ID del dispositivo según lo espera el protocolo del rastreador.
 
 2) Configurar el APN del operador (usuario y contraseña opcionales)
 ```text

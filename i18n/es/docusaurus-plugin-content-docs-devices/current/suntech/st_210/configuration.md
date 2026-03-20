@@ -72,12 +72,12 @@ El ST 210 se configura para reportar datos de posición y eventos al endpoint y 
 
 ## Ejemplos de comandos de configuración
 
-El ST 210 soporta configuración por SMS. Las plantillas de comandos públicas a continuación se presentan en el orden típico de aplicación. Reemplace los marcadores antes de enviar por SMS. El marcador de ID de dispositivo {{device_id}} debe calcularse desde el IMEI como se describió más arriba. Mantenga [apn], [apnu] y [apnp] como marcadores para el nombre del APN del operador, el usuario del APN y la contraseña del APN.
+El ST 210 soporta configuración por SMS. Las plantillas de comandos públicas a continuación se presentan en el orden típico de aplicación. Reemplace los marcadores antes de enviar por SMS. El marcador de ID de dispositivo [device_id] debe calcularse desde el IMEI como se describió más arriba. Mantenga [apn], [apnu] y [apnp] como marcadores para el nombre del APN del operador, el usuario del APN y la contraseña del APN.
 
 1) Configurar el APN del operador y el servidor GPRS (plantilla de ejemplo)
 
 ```
-SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Propósito: Configurar el APN del operador y apuntar el dispositivo a la IP y puerto del servidor Plaspy.
@@ -86,7 +86,7 @@ SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 2) Establecer el intervalo de reporte a 60 segundos
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Propósito: Configurar los intervalos de reporte periódico. El ejemplo fija el intervalo de reporte en 60 segundos para los modos relevantes en el formato de comando del ST 210.
@@ -94,13 +94,13 @@ SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
 3) Verificar ajustes con una consulta de preset
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 - Propósito: Solicitar la configuración actual del preset A al dispositivo para confirmar los ajustes.
 
 Explicaciones importantes de los marcadores:
-- {{device_id}} — el ID de 6 dígitos del dispositivo derivado del IMEI como se describió más arriba.
+- [device_id] — el ID de 6 dígitos del dispositivo derivado del IMEI como se describió más arriba.
 - [apn] — la cadena APN de su operador móvil.
 - [apnu] — usuario del APN si es requerido por el operador.
 - [apnp] — contraseña del APN si es requerida por el operador.

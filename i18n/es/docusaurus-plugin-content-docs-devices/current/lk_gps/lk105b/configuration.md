@@ -77,7 +77,7 @@ Al configurar el LK105B para Plaspy, el dispositivo enviará datos de ubicación
 
 El fabricante del LK105B puede ofrecer varios métodos de configuración, como una app, portal web o un conjunto de comandos SMS. Los comandos exactos y la sintaxis varían según la versión de firmware y el proveedor. Dado que los métodos del fabricante cambian, aquí no se incluyen comandos públicos universales. Consulte la documentación oficial de LK-GPS o a su proveedor para las cadenas SMS o comandos exactos para establecer servidor, puerto, APN y números de teléfono.
 
-Si dispone de comandos SMS proporcionados por el fabricante o una lista de comandos documentada, formatee y aplique esos comandos en el orden que recomiende LK-GPS y preserve los marcadores de posición como [apn] o {{apnuser}} cuando estén presentes. Por ejemplo, si su dispositivo usa comandos SMS, la guía del fabricante mostrará la sintaxis exacta y los marcadores a reemplazar.
+Si dispone de comandos SMS proporcionados por el fabricante o una lista de comandos documentada, formatee y aplique esos comandos en el orden que recomiende LK-GPS y preserve los marcadores de posición como [apn] o [apnuser] cuando estén presentes. Por ejemplo, si su dispositivo usa comandos SMS, la guía del fabricante mostrará la sintaxis exacta y los marcadores a reemplazar.
 
 ## Notas de configuración
 

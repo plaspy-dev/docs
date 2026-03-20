@@ -79,29 +79,29 @@ The ST 940 is configured to connect to the Plaspy endpoint so the platform recei
 The Suntech ST 940 can be configured by SMS using command templates. The device ID used in these commands is the last 9 digits of the IMEI excluding the final digit. For example, given IMEI 123456789012345 the device ID would be 678901234.
 
 Note the placeholders:
-- {{device_id}} = the 9 digit device ID derived from the IMEI as described above
+- [device_id] = the 9 digit device ID derived from the IMEI as described above
 - [apn] = your operator APN
 - [apnu] = APN username if required
 - [apnp] = APN password if required
 
 1. Optional initial factory reset (use only if needed):
 ```
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
 
 2. Set operator APN and GPRS server pointing to Plaspy (the numeric field after 02 indicates whether APN credentials are included; use 1 to include username and password or 0 if not needed):
 ```
-ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 3. Set reporting interval to 60 seconds (example interval):
 ```
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 4. Check current settings (verification command):
 ```
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 
 Send each SMS to the device number. Replace the placeholders with your real values and ensure the device ID is calculated correctly from the IMEI before sending.

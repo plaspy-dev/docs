@@ -4,128 +4,133 @@ id: gpt15-configuration
 sidebar_label: Configuration
 title: EElink - GPT15 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública para configurar el EElink GPT15 y conectarlo a Plaspy con servidor compartido y comandos SMS
+description: Guía pública de configuración del rastreador EElink GPT15 con ajustes de servidor Plaspy y comandos SMS de ejemplo
 keywords:
   - configuración EElink GPT15
-  - configuración GPT15
-  - GPT15 Plaspy configuración
-  - ajustes servidor GPT15
-  - configuración rastreador GPS Plaspy
-  - configuración rastreador EElink
-  - comandos SMS GPT15
-  - configuración APN rastreador GPS
-  - configuración dispositivo Plaspy
-  - configuración rastreador equipaje GPS
+  - configuración inicial EElink GPT15
+  - configuración GPT15 Plaspy
+  - configuración servidor GPT15
+  - configuración rastreador GPS
+  - configuración rastreador Plaspy
+  - configuración SMS GPT15
+  - configuración rastreador de activos
+  - configuración rastreador de equipaje
+  - integración plataforma GPS
 ---
 
-# EElink - Configuración del GPT15
+# EElink - GPT15 Configuración
 
-Esta página explica cómo configurar públicamente el rastreador EElink GPT15 para que se integre con la plataforma Plaspy. El contenido se centra en los ajustes de servidor prácticos y en los comandos SMS documentados por el fabricante que se utilizan con más frecuencia para apuntar el dispositivo a Plaspy y habilitar el seguimiento y las alertas en tiempo real.
+Esta página recopila la información pública necesaria para conectar el rastreador EElink GPT15 con la plataforma Plaspy. Incluye los puntos finales del servidor y ejemplos de comandos SMS disponibles públicamente para que usted prepare el dispositivo y envíe ubicación y eventos a Plaspy.
 
-Plaspy usa ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador. No obstante, los pasos exactos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. El GPT15 admite configuración remota vía aplicación o SMS; los ejemplos de comandos que se muestran abajo reflejan el flujo público de comandos SMS para la configuración inicial.
+Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador una vez que el equipo comienza a reportar a la plataforma. Los pasos del fabricante pueden variar según la versión de firmware, revisión de hardware, tipo de instalación y herramientas del proveedor; considere los comandos y el flujo descritos aquí como una guía práctica y pública, no como un reemplazo de la documentación oficial de EElink o las instrucciones del proveedor.
 
-## Resumen de la configuración
+## Resumen de configuración
 
-El objetivo de este proceso es dejar el GPT15 listo para enviar de forma fiable datos de ubicación y estado a Plaspy. Los pasos típicos incluyen definir el APN del dispositivo, especificar el endpoint y puerto de Plaspy, seleccionar el transporte si es necesario y validar que el rastreador sea visible en la plataforma.
+Esta configuración prepara el GPT15 para enviar datos de ubicación y sensores a Plaspy usando el punto final y puerto compartido de Plaspy. Los pasos se centran en establecer conectividad de red, apuntar el dispositivo a Plaspy y validar que el equipo sea visible en la plataforma.
 
-- Apuntar el GPT15 al endpoint de Plaspy para que entregue eventos de ubicación y sensores.
-- Configurar el APN del dispositivo y asegurarse de que la SIM tenga datos habilitados para que las conexiones GPRS funcionen.
-- Elegir UDP o TCP en el puerto 8888 si el dispositivo requiere selección de transporte.
-- Definir un intervalo de reporte acorde a sus necesidades de visibilidad y a la batería.
-- Validar los ajustes con una revisión de parámetros y confirmar que el dispositivo aparece en Plaspy.
+- Apunte el GPT15 al servidor de Plaspy para que las ubicaciones y alertas se envíen al procesamiento de la plataforma.
+- Configure el APN y los ajustes GPRS para que el rastreador tenga acceso a datos móviles y transporte GPRS.
+- Seleccione transporte UDP o TCP y configure el puerto compartido de Plaspy para que el dispositivo pueda comunicarse con la plataforma.
+- Valide el reporte y la visibilidad de la telemetría en Plaspy para confirmar que lleguen eventos de ubicación, manipulación y batería.
+- Use métodos de configuración remota como SMS o la app del dispositivo para aplicar ajustes en campo.
 
-## Ajustes del servidor de Plaspy
+## Ajustes del servidor Plaspy
 
-- Dominio del servidor: d.plaspy.com  
-- IP del servidor: 54.85.159.138  
-- Puerto: 8888 (Plaspy usa el mismo puerto para todos los dispositivos compatibles)  
-- Transporte: el dispositivo puede configurarse para usar UDP o TCP en el puerto 8888  
-- Plaspy detecta automáticamente el protocolo del rastreador, por lo que la plataforma acepta los rastreadores compatibles sin necesidad de configurar el protocolo por dispositivo
+- Dominio del servidor d.plaspy.com
+- IP del servidor 54.85.159.138
+- Puerto 8888
+- Soporte de transporte UDP o TCP en el puerto 8888
+- Plaspy detecta automáticamente el protocolo del rastreador una vez que el dispositivo se conecta
+
+Todos los dispositivos en Plaspy usan el mismo puerto y la plataforma detectará automáticamente el protocolo del rastreador después de que el equipo comience a reportar.
 
 ## Requisitos típicos antes de la configuración
 
-- Un dispositivo GPT15 cargado con una tarjeta SIM activa y servicio de datos configurado para GPRS
-- Información del APN proporcionada por el operador de la SIM (usuario y contraseña solo si son necesarios)
-- Acceso al método de configuración que provee EElink, como comandos SMS o la app oficial
-- Una cuenta en Plaspy u acceso organizacional para confirmar que el rastreador aparece después de la configuración
-- Un teléfono móvil capaz de enviar SMS al número de la SIM del dispositivo si se usa la configuración por SMS
+- Un dispositivo GPT15 con la batería cargada y la unidad encendida.
+- Una tarjeta SIM funcional con un plan de datos o GPRS activo si va a usar datos móviles, y capacidad de SMS si aplicará ajustes por SMS.
+- Acceso al método de configuración de EElink que prefiera, por ejemplo la app del fabricante o comandos SMS.
+- Cobertura de red en la ubicación del dispositivo que sea compatible con las bandas celulares del equipo.
+- El identificador único del dispositivo requerido por plataformas, como el IMEI o el número de serie, para el registro en Plaspy.
+- Un teléfono capaz de enviar SMS si va a usar la configuración por SMS.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-El GPT15 se configura para enviar su telemetría de ubicación y eventos al endpoint y puerto compartidos de Plaspy, de modo que Plaspy pueda recibir y mostrar los datos en mapas, historiales y alertas en tiempo real. Tras configurar el servidor y el APN en el dispositivo, el rastreador establece la conexión GPRS y reporta según el intervalo y los desencadenantes configurados.
+El GPT15 se configura para enviar datos de ubicación y eventos al punto final y puerto compartido de Plaspy para que la plataforma pueda ingerir la telemetría y mostrarla en mapas y alertas. Una vez apuntado a Plaspy y con acceso de red, el dispositivo transmite ubicación y eventos de sensores a la plataforma para visibilidad y notificaciones.
 
-- El rastreador envía posición y eventos de sensores a d.plaspy.com o a 54.85.159.138 en el puerto 8888
-- Plaspy recibe la conexión entrante y detecta automáticamente el protocolo del rastreador
-- Actualizaciones de ubicación, eventos de geocerca, alertas de manipulación y avisos de batería se reflejan en los paneles de Plaspy
-- El transporte puede ser UDP o TCP en el puerto 8888 según la elección de configuración del dispositivo
-- Plaspy normaliza la telemetría entrante para que el dispositivo quede visible para monitoreo e informes
+- El equipo envía actualizaciones de ubicación y mensajes de estado a d.plaspy.com o a 54.85.159.138 en el puerto 8888.
+- El transporte se puede configurar como UDP o TCP según las opciones del dispositivo y las condiciones de la red.
+- Plaspy recibe el flujo de datos entrante y detecta automáticamente el protocolo del dispositivo para un parseo correcto.
+- Eventos como alertas por manipulación, geocercas y batería baja son enviados a Plaspy para notificaciones en tiempo real.
+- La visibilidad en Plaspy permite historial de reportes, seguimiento en vivo y configuración de alertas para el GPT15.
 
-## Flujo de configuración común
+## Flujo de configuración habitual
 
-1. Acceda al método oficial de configuración de EElink: use la app móvil de EElink o envíe comandos SMS al GPT15 según las instrucciones del fabricante.  
-2. Ingrese la dirección del servidor de Plaspy: utilice d.plaspy.com o la IP 54.85.159.138 en el campo SERVER.  
-3. Configure el puerto del servidor en 8888 (Plaspy usa el mismo puerto para todos los dispositivos compatibles).  
-4. Si el dispositivo requiere selección de transporte, elija UDP o TCP en el puerto 8888.  
-5. Configure el APN del operador de la SIM y las credenciales APN necesarias (use marcadores como [apn], [apnu], [apnp] al preparar plantillas SMS).  
-6. Aplique o guarde la configuración y reinicie el dispositivo si el fabricante recomienda un reinicio.  
-7. Valide que el dispositivo reporte a Plaspy comprobando la presencia y la actividad reciente en su cuenta o tablero de Plaspy.
+1. Acceda al método oficial de configuración de EElink que va a usar, como la app móvil de EElink o los comandos SMS documentados por el proveedor.
+2. Configure los parámetros APN del operador móvil si es necesario, ya sea enviando el comando APN o usando la aplicación.
+3. Ingrese el servidor de Plaspy como d.plaspy.com o la IP 54.85.159.138 en los ajustes de servidor del dispositivo.
+4. Establezca el puerto en 8888 y elija UDP o TCP como transporte si el dispositivo requiere selección explícita.
+5. Aplique o guarde la configuración y, si procede, envíe el comando final de guardado o confirme los ajustes en la app.
+6. Reinicie el dispositivo si lo indican las instrucciones del equipo o si los cambios no surten efecto de inmediato.
+7. Valide que el dispositivo reporte a Plaspy revisando la lista de dispositivos y la telemetría reciente en la plataforma.
+
+Si prefiere la configuración por SMS, use los comandos mostrados en la sección Comandos de configuración de ejemplo abajo para realizar cada paso.
 
 ## Comandos de configuración de ejemplo
 
-El GPT15 admite configuración vía SMS. Los siguientes comandos SMS corresponden a la secuencia públicamente documentada para la configuración básica. Envíe cada comando como un único SMS al número de la SIM del dispositivo. Mantenga los marcadores como [apn] donde se muestran.
+El GPT15 admite configuración por SMS. Los siguientes comandos públicos se presentan en el orden que normalmente se utiliza. Envíe cada comando como un SMS al número del dispositivo. El comando de reinicio se etiqueta como opcional y úselo solo si necesita restaurar el dispositivo a valores de fábrica.
 
-- Reinicio de fábrica opcional (usar solo si necesita restaurar valores por defecto)
-```text
+- Reinicio inicial opcional a ajustes de fábrica
+```
 FACTORY#
 ```
 
-- Ajustar la zona horaria a UTC+0
-```text
+- Establecer la zona horaria a UTC 0
+```
 GMT,E,0#
 ```
 
-- Establecer el APN del operador (reemplace los marcadores por los valores del operador; incluya usuario y contraseña solo si son necesarios)
-```text
-APN,[apn]# 
+- Configurar el APN del operador
 ```
-o con usuario y contraseña donde esté soportado:
-```text
-APN,[apn],[apnu],[apnp]#
+APN,[apn][ ,[apnu],[apnp] ]#
 ```
-Explicación: [apn] = nombre del APN, [apnu] = usuario del APN (opcional), [apnp] = contraseña del APN (opcional).
+Notas sobre el comando APN
+- [apn] es el nombre del APN del operador móvil.
+- [apnu] es el usuario del APN si el operador lo requiere. Déjelo en blanco si no es necesario.
+- [apnp] es la contraseña del APN si el operador la requiere. Déjela en blanco si no es necesaria.
+- Mantenga el formato separado por comas. Incluya los campos opcionales solo si su operador los exige.
 
-- Configurar el servidor GPRS para usar Plaspy por dominio (forma legible preferida)
-```text
+- Configurar el servidor GPRS usando el dominio de Plaspy (recomendado)
+```
 SERVER,1,d.plaspy.com,8888#
 ```
 
-- O configurar el servidor GPRS por dirección IP (alternativa)
-```text
+- Alternativamente configurar el servidor GPRS usando la IP de Plaspy
+```
 SERVER,0,54.85.159.138,8888#
 ```
 
-- Establecer el intervalo periódico de subida del GPS a cada 60 segundos
-```text
+- Establecer un intervalo de actualización de 60 segundos
+```
 TIMER,60#
 ```
 
 - Verificar parámetros actuales
-```text
+```
 PARAM#
 ```
 
-Siga el orden de comandos cuando su instalación lo requiera: los comandos APN y SERVER suelen ser necesarios antes de que el dispositivo pueda abrir una conexión GPRS al endpoint de Plaspy. El comando FACTORY# es opcional y solo debe usarse si desea restaurar los valores de fábrica.
+Envíe cada comando como un mensaje SMS independiente a menos que esté usando un método por lotes soportado por su herramienta de configuración. Mantenga los marcadores de posición como [apn] tal como aparecen y reemplácelos con los datos de su operador al enviar los SMS.
 
 ## Notas de configuración
 
-- La configuración por SMS es un método público soportado para el GPT15; si prefiere la app móvil, consulte la documentación de EElink para el aprovisionamiento vía aplicación.
-- Diferentes versiones de firmware y revisiones de hardware pueden modificar el soporte o la sintaxis de comandos; siempre contraste los comandos con el manual del dispositivo y la versión de firmware correspondiente.
-- TCP frente a UDP es seleccionable en dispositivos que requieren un parámetro de transporte; elija según la fiabilidad y el entorno de red, aunque ambos son soportados por Plaspy en el puerto 8888.
-- Tenga las credenciales APN listas antes de enviar los comandos de servidor para que el dispositivo pueda establecer la sesión GPRS con d.plaspy.com o 54.85.159.138.
-- Tras aplicar los cambios, espere unos minutos a que el dispositivo se conecte y luego use PARAM# o la visibilidad en la plataforma Plaspy para confirmar el reporte.
+- La configuración por SMS es un método público soportado por el GPT15 y es útil cuando no hay acceso a la app durante el despliegue en campo.
+- Las revisiones de firmware y versiones de hardware pueden cambiar los comandos soportados o los nombres de los parámetros. Verifique la documentación de EElink o las notas del proveedor para cambios específicos por firmware.
+- Elija UDP o TCP según el comportamiento de la red local. Plaspy acepta ambos transportes en el puerto 8888 y detectará el protocolo automáticamente.
+- Todos los dispositivos en Plaspy usan el mismo puerto, por lo que debe usar el puerto 8888 para conexiones directas del dispositivo al servidor Plaspy.
+- Use el comando PARAM# o la app del dispositivo para verificar que los valores de APN, servidor y timer se aplicaron correctamente después de la configuración.
 
 ## Por qué usar Plaspy con esta configuración
 
-Usar el GPT15 con Plaspy permite que rastreadores compactos de activos y equipaje tengan visibilidad directa en una plataforma de monitoreo centralizada. Con los ajustes de servidor compartidos y la detección automática de protocolo, organizaciones y usuarios individuales pueden desplegar múltiples unidades GPT15 rápidamente y confiar en Plaspy para agregar eventos de posición, manipulación, batería y geocerca para el monitoreo operativo.
+Usar el GPT15 con Plaspy ofrece una forma práctica de monitorear equipaje y activos pequeños en tiempo real. Apuntar el rastreador al punto final y puerto compartido de Plaspy permite una ingestión rápida de ubicaciones, alertas por manipulación y avisos de batería, de modo que las alertas y los historiales estén disponibles centralmente para operadores y propietarios.
 
-Para obtener más información sobre Plaspy, visite https://www.plaspy.com. Para los comandos específicos más actuales, notas de firmware y guía del fabricante, verifique los detalles en el sitio de EElink en https://www.eelink.com.cn/ ya que los métodos de configuración y el comportamiento del firmware pueden cambiar con el tiempo.
+Para obtener más información sobre Plaspy y las capacidades de la plataforma visite https://www.plaspy.com. Los métodos de configuración específicos del dispositivo, el comportamiento del firmware y los detalles del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar la información de configuración más reciente en el sitio oficial de EElink https://www.eelink.com.cn/ antes de desplegar dispositivos.

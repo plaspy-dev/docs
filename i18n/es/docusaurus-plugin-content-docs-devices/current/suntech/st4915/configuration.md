@@ -72,10 +72,10 @@ El ST4915 envía posiciones GNSS y telemetría a Plaspy apuntando al endpoint y 
 
 ## Ejemplos de comandos de configuración
 
-El contenido público del ST4915 muestra comandos basados en SMS. El fabricante utiliza un ID de dispositivo derivado del IMEI (los seis dígitos antes del dígito de control del IMEI). Ejemplo de derivación: si el IMEI es 123456789012345, el ID del dispositivo son los seis dígitos en las posiciones 9–14 (901234 en el ejemplo mostrado por el fabricante). Use ese ID en los comandos a continuación donde aparece {{device_id}}.
+El contenido público del ST4915 muestra comandos basados en SMS. El fabricante utiliza un ID de dispositivo derivado del IMEI (los seis dígitos antes del dígito de control del IMEI). Ejemplo de derivación: si el IMEI es 123456789012345, el ID del dispositivo son los seis dígitos en las posiciones 9–14 (901234 en el ejemplo mostrado por el fabricante). Use ese ID en los comandos a continuación donde aparece [device_id].
 
 Notas sobre los marcadores:
-- {{device_id}} — el ID del dispositivo derivado del IMEI según se describió arriba.  
+- [device_id] — el ID del dispositivo derivado del IMEI según se describió arriba.  
 - [apn] — la cadena APN del operador requerida para la conexión de datos de la SIM.  
 - [apnu] — usuario del APN si el operador lo requiere (mantenga el marcador si es necesario).  
 - [apnp] — contraseña del APN si el operador la requiere (mantenga el marcador si es necesario).  
@@ -84,7 +84,7 @@ Notas sobre los marcadores:
 1) Configure el APN del operador y el servidor GPRS (reemplace los marcadores según proceda):
 
 ```text
-SA200NTW;{{device_id}};02;[0 or 1];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[0 or 1];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Reemplace [0 or 1] por 1 si proporciona [apnu] o [apnp], de lo contrario 0.  
@@ -93,7 +93,7 @@ SA200NTW;{{device_id}};02;[0 or 1];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 2) Establezca el intervalo de actualización/reportes a 60 segundos (ejemplo para reportes frecuentes; ajuste según la vida útil de la batería):
 
 ```text
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Esto configura los intervalos de reporte y parámetros de repetición según el formato de comandos SMS del dispositivo.
@@ -101,7 +101,7 @@ SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
 3) Verifique o consulte la configuración actual en el equipo:
 
 ```text
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 - Este comando de consulta solicita que el dispositivo envíe los datos de configuración preestablecida para su verificación.

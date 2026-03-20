@@ -4,77 +4,76 @@ id: smart_s_2423_mid-protocol
 sidebar_label: Protocol
 title: Navtelekom - SMART S-2423 MID+ Protocol
 sidebar_class_name: menu_item_tracker
-description: Guía pública del protocolo para conectar el Navtelekom SMART S-2423 MID+ con Plaspy y comprobar compatibilidad
+description: Resumen público del protocolo del Navtelekom SMART S-2423 MID+ y su comunicación con Plaspy para rastreo y telemetría
 keywords:
-  - Protocolo Navtelekom SMART S-2423 MID+
-  - Protocolo GPS Navtelekom
-  - Compatibilidad SMART S-2423 MID+ Plaspy
-  - Protocolo de rastreador Navtelekom
-  - Comunicación SMART S-2423 MID+
-  - Protocolo de dispositivo Plaspy
-  - Protocolo de seguimiento de flotas
-  - Protocolo de telemetría vehicular
-  - Protocolo rastreador GPS Plaspy
-  - Compatibilidad de rastreo Navtelekom
+  - protocolo Navtelekom SMART S 2423 MID
+  - protocolo rastreador GPS Navtelekom
+  - compatibilidad SMART S 2423 MID Plaspy
+  - protocolo de comunicación Navtelekom
+  - protocolo de rastreo SMART S 2423 MID
+  - integración de telemetría Navtelekom
+  - compatibilidad de dispositivos Plaspy
+  - rastreo vehicular SMART S 2423
+  - integración SMART S 2423 MID
+  - gestión de flotas Navtelekom
 ---
 
 # Navtelekom - Protocolo SMART S-2423 MID+
 
-Esta página describe el contexto público del protocolo para usar el rastreador Navtelekom SMART S-2423 MID+ con Plaspy. Se enfoca en cómo el dispositivo se comunica con Plaspy a alto nivel, los ajustes de conexión recomendados y las consideraciones prácticas para asegurar el reporte confiable de posiciones y telemetría en la plataforma.
+Esta página ofrece una visión pública y no sensible del contexto del protocolo de comunicación del Navtelekom SMART S-2423 MID+ cuando se usa con Plaspy. Explica cómo el equipo envía ubicación y telemetría a Plaspy, qué opciones de transporte son comunes y qué aspectos del protocolo son relevantes para una integración exitosa, sin revelar detalles internos de firmware ni formatos propietarios de paquetes.
 
-Plaspy utiliza ajustes de conexión compartidos entre los dispositivos soportados y detecta automáticamente el protocolo cuando el equipo reporta al endpoint de Plaspy. El comportamiento exacto del protocolo puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante; por eso esta guía se mantiene en un nivel público y no sensible, pero señala los hechos clave de conexión que usted necesita para configurar e investigar la integración.
+El SMART S-2423 MID+ es un rastreador compacto GPS/GLONASS con módem 2G GSM, Bluetooth 4.0, acelerómetro, entradas universales, interfaces RS-485 y 1-Wire, y una pequeña batería interna de respaldo. Plaspy utiliza ajustes de conexión compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador. El comportamiento exacto de los mensajes y las funciones disponibles pueden variar según el firmware, la revisión de hardware y la implementación del fabricante, por lo que la configuración y solución de problemas deben basarse tanto en este resumen como en la documentación oficial de Navtelekom.
 
-## Resumen del protocolo
+## Visión general del protocolo
 
-El protocolo de reporte del SMART S-2423 MID+ define cómo el rastreador envía identificación, posición y datos de telemetría a un servidor remoto para que Plaspy los procese y presente. Su función es entregar de forma confiable posiciones GNSS con sello de tiempo, entradas de sensores e información básica de estado desde el vehículo hacia un endpoint central donde Plaspy vincula los datos con el activo correspondiente.
+El protocolo de comunicación del dispositivo define cómo el SMART S-2423 MID+ informa posiciones GNSS, marcas de tiempo, lecturas de sensores y eventos a un servidor remoto como Plaspy. Este resumen público se centra en el papel del protocolo para permitir telemetría confiable y no describe formatos de tramas ni codificaciones propietarias.
 
-- Transporta la identificación del dispositivo y el contexto de sesión para que Plaspy pueda asociar los reportes con la cuenta y el activo correctos.
-- Transmite reportes de posición periódicos o por evento y telemetría de movimiento para seguimiento en tiempo real y reproducción histórica.
-- Entrega datos de sensores y E/S como eventos del acelerómetro, estados de entradas y lecturas de sensores de corto alcance para telemetría y alertas.
-- Proporciona suficiente información para habilitar alertas, geocercas, historial de rutas y flujos simples de control remoto según lo que el dispositivo soporte.
-- Funciona sobre canales de transporte comunes para que los integradores elijan el estilo de conexión que mejor se adapte a su despliegue y entorno de operador.
+- Permite el envío periódico y por eventos de posiciones GPS/GLONASS y datos de movimiento a un servidor central.
+- Permite que el rastreador incluya telemetría del acelerómetro, sensores Bluetooth, sondas de temperatura 1-Wire y entradas universales para que Plaspy pueda mostrar y analizar la información.
+- Proporciona identificación del dispositivo y contexto de sesión para que Plaspy asocie los informes entrantes con el activo correcto.
+- Soporta comandos remotos y salidas de control a un nivel alto, permitiendo que Plaspy dispare alertas, notificaciones o acciones cuando el dispositivo lo admite.
+- Opera sobre canales de transporte estándar para que el dispositivo alcance a Plaspy de forma fiable incluso en redes móviles GSM.
 
 ## Cómo Plaspy detecta el protocolo
 
-Plaspy detecta automáticamente el protocolo del rastreador para las conexiones entrantes dirigidas al endpoint compartido de Plaspy. Cuando un SMART S-2423 MID+ está configurado para reportar a Plaspy, la plataforma usa las características de los datos entrantes para identificar y procesar el dispositivo sin que, en la mayoría de los casos, sea necesaria una selección manual del protocolo.
+Plaspy está diseñado para aceptar informes de dispositivos en un endpoint compartido y determinar el protocolo automáticamente, por lo que los integradores raramente necesitan seleccionar un protocolo de forma manual. Cuando un SMART S-2423 MID+ se configura para reportar a Plaspy, el servicio empareja los datos entrantes con un manejador compatible según el contexto de conexión y la identificación del dispositivo visible en los metadatos públicos.
 
-- Configure el destino de reporte del dispositivo hacia el dominio del servidor Plaspy d.plaspy.com o hacia la IP del servidor 54.85.159.138 usando el puerto común de Plaspy.
-- Use el puerto 8888 para la conexión de reporte; Plaspy emplea el mismo puerto para todos los dispositivos soportados para simplificar el aprovisionamiento.
-- Los dispositivos pueden enviarse por UDP o TCP en el puerto 8888 según la configuración del rastreador y las condiciones de la red.
-- Cuando el dispositivo envía correctamente reportes al endpoint de Plaspy, el sistema detecta el protocolo del rastreador de forma automática y comienza a parsear los campos estándar de telemetría y posición.
-- Si el dispositivo no aparece, verifique la accesibilidad de red, la configuración de APN y SIM, y que el rastreador esté apuntando al dominio o IP y puerto de Plaspy.
+- Plaspy usa un único endpoint de servidor conocido para recibir informes de dispositivos, lo que simplifica el aprovisionamiento entre muchos modelos de rastreadores.
+- Los dispositivos apuntados al endpoint de Plaspy se asociarán automáticamente a un manejador de protocolo cuando haya soporte, por lo que la selección manual dentro de Plaspy suele ser innecesaria.
+- La configuración correcta del dispositivo para reportar al endpoint de Plaspy es el requisito principal para la detección automática.
+- Plaspy soporta un amplio conjunto de transportes telemáticos comunes y aceptará datos de dispositivos que se ajusten al comportamiento de reporte públicamente observable.
 
 ## Transporte y contexto de conexión
 
-Las opciones de transporte y la dirección usada por el equipo son parte importante de una integración exitosa. El SMART S-2423 MID+ puede configurarse para enviar sus reportes por UDP o TCP al listener de Plaspy en el puerto compartido, y Plaspy acepta ambos transportes en el mismo puerto para adaptarse a diferentes configuraciones de dispositivo y comportamiento del operador.
+El contexto de conexión se refiere a cómo el SMART S-2423 MID+ alcanza a Plaspy a través de la red, más que a los detalles internos de la codificación de sus mensajes. El rastreador puede configurarse para usar UDP o TCP para reportar al servidor de Plaspy, y Plaspy documenta una dirección y puerto de servidor consistentes para el aprovisionamiento de dispositivos.
 
-- El dispositivo puede configurarse para usar UDP o TCP en el puerto 8888 según el soporte del equipo y la preferencia del instalador.
-- El dominio de servidor de Plaspy para reportes de dispositivos es d.plaspy.com y la IP pública del servidor es 54.85.159.138.
-- Todos los dispositivos soportados por Plaspy usan el mismo puerto para simplificar el aprovisionamiento de flotas y las reglas de firewall.
-- Asegúrese de que los ajustes de APN del operador, el estado de la SIM y cualquier perfil de datos o APN en el dispositivo sean correctos para que el rastreador alcance d.plaspy.com o la IP del servidor.
-- Si usa un firewall o un APN privado, permita conexiones salientes hacia el dominio o la IP del servidor en el puerto 8888 para el protocolo de transporte seleccionado.
+- El dispositivo puede configurarse para reportar usando UDP o TCP en el puerto 8888 según las capacidades y opciones de configuración.
+- El dominio de servidor de Plaspy para informes entrantes es d.plaspy.com y la IP pública de servidor usada por Plaspy es 54.85.159.138.
+- Todos los dispositivos en Plaspy usan el mismo puerto, lo que simplifica la configuración y el aprovisionamiento en flotas con hardware diverso.
+- Use NTC Configurator u otras herramientas del fabricante para establecer el host de reporte y el transporte del SMART S-2423 MID+ al preparar dispositivos para Plaspy.
+- La estabilidad de la red, la configuración APN del operador y la provisión de la SIM son factores prácticos comunes al establecer conectividad consistente.
 
-## Notas sobre compatibilidad del protocolo
+## Notas de compatibilidad del protocolo
 
-- Las variaciones de firmware pueden modificar los campos exactos, la cadencia de reporte o la telemetría opcional que el dispositivo envía, por lo que el comportamiento puede diferir entre versiones de firmware.
-- Las revisiones de hardware y las interfaces opcionales (por ejemplo RS-485 o anexos 1-Wire) pueden cambiar qué telemetría está disponible para enviar a Plaspy.
-- La selección de transporte (UDP vs TCP) es configurable y puede afectar las características de entrega de mensajes según las condiciones de red.
-- Las herramientas de configuración del fabricante, como NTC Configurator, son la vía recomendada para preparar dispositivos para reportes a Plaspy y mantener el firmware actualizado.
-- Confirme los ajustes de APN y SIM del dispositivo, ya que influyen en su capacidad para alcanzar el endpoint de Plaspy y ser detectado automáticamente.
-- Siempre valide la compatibilidad y el comportamiento exacto del protocolo contra la documentación del dispositivo proporcionada por Navtelekom al planificar despliegues a gran escala.
+- Las revisiones de firmware del fabricante pueden cambiar qué campos de telemetría se envían o cómo se reportan sensores opcionales; consulte siempre las notas de la versión del firmware.
+- Las revisiones de hardware y los módulos accesorios (por ejemplo periféricos RS-485 añadidos o sensores Bluetooth) pueden afectar el conjunto de telemetría y las funciones de control disponibles.
+- La capa de transporte (UDP vs TCP) puede influir en las garantías de entrega y debe elegirse para coincidir con las necesidades de fiabilidad y el soporte del dispositivo.
+- Algunas funciones, como salidas de control remoto o el reenvío de tacógrafo, dependen del cableado y la configuración correctos del dispositivo además del soporte del protocolo.
+- La detección automática de Plaspy simplifica la incorporación, pero seguir siendo esencial la configuración correcta de host, puerto y transporte en el dispositivo.
+- Confirme la compatibilidad y la disponibilidad de funciones consultando la documentación oficial de Navtelekom para el firmware específico instalado en sus equipos.
 
-## Por qué es importante comprender el protocolo
+## Por qué es importante entender el protocolo
 
-Comprender el protocolo de comunicación del rastreador y el contexto de conexión circundante ayuda a garantizar la entrega fiable de posiciones y telemetría a Plaspy, acelera la resolución de problemas durante la instalación y mejora la estabilidad operativa a largo plazo.
+Comprender de manera práctica el protocolo de reporte del rastreador ayuda a instaladores, integradores y gerentes de flota a lograr una operación confiable, una solución de problemas más rápida y un comportamiento predecible a largo plazo al emparejar el SMART S-2423 MID+ con Plaspy.
 
-- Asegura que el servidor y el puerto correctos estén configurados para que los reportes lleguen a Plaspy sin intervención manual.
-- Ayuda a diagnosticar problemas de conectividad como puertos bloqueados, APN incorrecto o incompatibilidades de transporte entre el dispositivo y la red.
-- Aclara qué telemetría y entradas de sensores el dispositivo realmente reportará a Plaspy en función del firmware y las opciones de hardware.
-- Permite establecer expectativas razonables sobre intervalos de reporte, activación por eventos y mapeo de sensores en los paneles de Plaspy.
-- Facilita la planificación de despliegues a gran escala al identificar dependencias como el aprovisionamiento de SIM, herramientas de configuración y gestión de firmware.
+- Asegura que el aprovisionamiento del dispositivo apunte al endpoint y transporte correctos de Plaspy para que los informes lleguen sin intervención manual.
+- Facilita el diagnóstico de problemas de conectividad que se originan en la selección de transporte, la configuración del APN o la cobertura GSM intermitente.
+- Permite verificar que sensores y telemetría específicos (eventos del acelerómetro, sondas 1-Wire, datos RS-485) estén incluidos en los informes según lo espera Plaspy.
+- Apoya la planificación de actualizaciones de firmware y cambios de hardware que puedan alterar los datos enviados por el dispositivo.
+- Reduce el tiempo de integración alineando las prácticas de configuración del dispositivo con el modelo de conexión compartida de Plaspy.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el SMART S-2423 MID+ con Plaspy ofrece a los operadores de flotas un camino directo para consolidar posiciones GNSS, eventos basados en acelerómetro, entradas de sensores y telemetría de corto alcance en una sola plataforma telemática. El enfoque de endpoint compartido de Plaspy y la detección automática de protocolo reducen la carga de configuración en flotas mixtas y facilitan poner en línea nuevos dispositivos con rapidez.
+Usar el SMART S-2423 MID+ con Plaspy brinda a los operadores de flota un rastreador compacto que envía ubicación, comportamiento del conductor y telemetría avanzada a una plataforma centralizada para monitoreo, generación de informes y flujos operativos. Las múltiples entradas del equipo, el soporte BLE para sensores de corto alcance y las interfaces RS-485 y 1-Wire lo convierten en una opción flexible para monitoreo de combustible, integración de tacógrafos y sensores de pulso, control de temperatura de carga y flujos antirobo cuando se combina con Plaspy.
 
-Para saber más sobre Plaspy y cómo gestiona los reportes de dispositivos, visite https://www.plaspy.com. Tenga en cuenta que el soporte de protocolo, el comportamiento del firmware y los detalles de implementación del dispositivo pueden cambiar con el tiempo; verifique la información más reciente y específica del dispositivo con el fabricante en https://www.navtelecom.ru/ para asegurar una configuración y compatibilidad precisas.
+Para obtener más información sobre Plaspy y cómo recibe y procesa telemetría de dispositivos como el SMART S-2423 MID+ visite https://www.plaspy.com. Tenga en cuenta que el soporte de protocolo, el comportamiento del firmware y los detalles de implementación del dispositivo pueden cambiar con el tiempo; verifique la información más reciente y específica del dispositivo en el sitio del fabricante https://www.navtelecom.ru/.

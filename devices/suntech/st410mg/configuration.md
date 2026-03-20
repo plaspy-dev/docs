@@ -76,10 +76,10 @@ The ST410MG can be configured by SMS using the Suntech command format. The devic
 
 Common SMS commands provided by the manufacturer and used in public examples:
 
-- Set the operator APN and GPRS server (replace [apn], [apnu], and [apnp] with your operator values; replace {{device_id}} with the six digit ID derived from the IMEI):
+- Set the operator APN and GPRS server (replace [apn], [apnu], and [apnp] with your operator values; replace [device_id] with the six digit ID derived from the IMEI):
 
 ```
-SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Notes for the APN command:
@@ -91,16 +91,16 @@ Notes for the APN command:
 - Set the reporting interval to 60 seconds (reporting parameters are device specific; this example sets multiple interval fields to 60 as shown in the public template):
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Check current settings or send a preset verification command:
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
-Original public command templates sometimes use a generated device id expression. If you prefer to follow the public template exactly, the manufacturer example constructs the device id from the IMEI last digits. The simplified approach is to replace that construction with {{device_id}} after you determine the six digit ID from the IMEI as shown above.
+Original public command templates sometimes use a generated device id expression. If you prefer to follow the public template exactly, the manufacturer example constructs the device id from the IMEI last digits. The simplified approach is to replace that construction with [device_id] after you determine the six digit ID from the IMEI as shown above.
 
 ## Configuration Notes
 

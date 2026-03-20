@@ -79,28 +79,28 @@ The ST 300V supports SMS-based configuration. The manufacturer provides commands
 
 - Reset command (optional initial reset)
 ```text
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
 Label this command optional or use only when a factory reset is required.
 
 - Set operator APN and GPRS server
 Notes: The fourth field is 1 if APN username or password are provided, otherwise use 0. Preserve the APN placeholders [apn], [apnu], and [apnp] exactly and replace them with the operator APN, username, and password as needed.
 ```text
-ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;
+ST300NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;
 ```
 If you do not have a username or password for your APN, set the fourth field to 0 and keep the username and password fields empty.
 
 - Set reporting interval to 60 seconds
 ```text
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Check current settings
 ```text
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 
-Use an SMS-capable phone to send these commands to the device or adapt them for the vendor configuration tool. Replace {{device_id}} with the nine-digit ID derived from the IMEI and replace the APN placeholders with the correct operator values.
+Use an SMS-capable phone to send these commands to the device or adapt them for the vendor configuration tool. Replace [device_id] with the nine-digit ID derived from the IMEI and replace the APN placeholders with the correct operator values.
 
 ## Configuration Notes
 

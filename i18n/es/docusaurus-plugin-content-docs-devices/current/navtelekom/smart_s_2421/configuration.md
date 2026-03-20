@@ -4,93 +4,86 @@ id: smart_s_2421-configuration
 sidebar_label: Configuration
 title: Navtelekom - SMART S-2421 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía práctica para configurar el Navtelekom SMART S-2421 con ajustes de servidor Plaspy y recomendaciones
+description: Guía pública de configuración del Navtelekom SMART S-2421 con ajustes de servidor y pasos para integrar con Plaspy
 keywords:
-  - Configuración Navtelekom SMART S-2421
-  - Instalación Navtelekom SMART S-2421
-  - Configuración SMART S-2421 Plaspy
-  - Configuración rastreador GPS Navtelekom
-  - Configuración servidor SMART S-2421
-  - Configuración rastreador de vehículo Plaspy
-  - Integración plataforma GPS Plaspy
-  - Guía instalación SMART S-2421
-  - Configuración rastreador Navtelekom
-  - Rastreo de flotas Plaspy
+  - Navtelekom SMART S-2421
+  - configuración SMART S-2421
+  - instalación rastreador Navtelekom
+  - configuración Plaspy
+  - integración rastreador GPS
+  - configuración rastreador de vehículo
+  - rastreador para gestión de flotas
+  - guía NTC Configurator
+  - gestión de dispositivos DRC
+  - integración sensor 1-Wire
 ---
 
 # Navtelekom - Configuración del SMART S-2421
 
-Esta página presenta el contexto público de configuración para usar el rastreador Navtelekom SMART S-2421 con Plaspy. Se centra en la información práctica sobre el servidor y los pasos de trabajo necesarios para apuntar el dispositivo a Plaspy, validar la conectividad y habilitar la visibilidad de seguimiento en la plataforma de gestión de flotas Plaspy. Aquí encontrará un resumen técnico extraído de la documentación del equipo y de las prácticas comunes de integración con Plaspy; sirve como referencia pública y no sustituye la documentación completa del fabricante.
+Esta página ofrece contexto público de configuración para usar el rastreador Navtelekom SMART S-2421 con Plaspy. Resume los ajustes de servidor prácticos y el flujo de trabajo necesario para apuntar el dispositivo a Plaspy, y describe las interfaces y herramientas de gestión relevantes para instalaciones típicas.
 
-Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando éste se conecta. Los pasos exactos en el lado del fabricante pueden variar según firmware, revisión de hardware, tipo de instalación y las herramientas del proveedor que utilice (por ejemplo NTC Configurator o DRC para gestión remota). Use esta guía para comprender los valores de servidor requeridos y el flujo de trabajo, y después aplique las opciones finales específicas del dispositivo con las herramientas o instrucciones oficiales de Navtelekom.
+Plaspy emplea ajustes de servidor compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador. Los pasos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor; por lo tanto, utilice esta guía junto con la documentación de Navtelekom y los procedimientos de su instalador.
 
 ## Resumen de la configuración
 
-El objetivo de la configuración es preparar el SMART S-2421 para comunicarse de forma fiable con Plaspy y asegurarse de que el dispositivo aparezca correctamente en la plataforma para el rastreo en tiempo real y la telemetría. A continuación se describen los fines prácticos del proceso de configuración.
+El objetivo es preparar el SMART S-2421 para que comunique de forma fiable con la plataforma Plaspy y así mostrar la ubicación en tiempo real y la telemetría en su cuenta. La configuración se centra en apuntar el rastreador al endpoint de Plaspy, elegir el transporte adecuado y confirmar que la telemetría y los eventos de entradas/salidas se entregan correctamente.
 
-- Configurar el rastreador para que reporte al endpoint y puerto del servidor Plaspy, de modo que la posición y la telemetría lleguen a la plataforma.
-- Seleccionar el transporte adecuado (UDP o TCP) si el dispositivo requiere una elección explícita.
-- Validar la conectividad celular y verificar que el dispositivo esté alimentado y reconocido por la red.
-- Aplicar y guardar los cambios usando la herramienta oficial del fabricante y, si es necesario, reiniciar el equipo.
-- Confirmar que el dispositivo es visible en Plaspy y que las actualizaciones de posición y la telemetría básica se muestran según lo esperado.
+- Configure el rastreador para que reporte al endpoint del servidor de Plaspy y confirme la conectividad.
+- Seleccione el transporte y los parámetros de puerto para que el dispositivo envíe datos GNSS y telemetría a Plaspy.
+- Verifique que las entradas, salidas e interfaces de sensores reporten como se espera en la plataforma.
+- Utilice herramientas del fabricante como NTC Configurator o DRC para configuración persistente y gestión de firmware.
+- Valide el reporte de estado del dispositivo, incluyendo respaldo de batería y eventos de alimentación, para que Plaspy muestre un estado confiable.
 
 ## Ajustes del servidor Plaspy
 
-Utilice los siguientes ajustes públicos de Plaspy al configurar el SMART S-2421. Estos son los valores compartidos que Plaspy requiere para la conectividad del dispositivo.
+- Server domain d.plaspy.com  
+- Server IP 54.85.159.138  
+- Port 8888  
+- Transport support for UDP or TCP; the device may be configured using either UDP or TCP on port 8888  
+- Plaspy automatically detects the tracker protocol and all devices in Plaspy use the same port
 
-- Server domain d.plaspy.com
-- Server IP 54.85.159.138
-- Port 8888
-- Transport support for UDP or TCP
-- Plaspy automatically detects the tracker protocol when a device connects
+## Requisitos típicos antes de la instalación
 
-Tenga en cuenta que Plaspy usa el mismo puerto para todos los dispositivos compatibles y se apoya en la detección automática del protocolo para identificar el protocolo del rastreador.
-
-## Requisitos habituales antes de la configuración
-
-- Confirme que el SMART S-2421 tiene una tarjeta SIM operativa y servicio de datos compatible con el módem del equipo.
-- Asegúrese de que la unidad tenga alimentación o la batería interna cargada para la configuración inicial y el registro en la red.
-- Tenga acceso al método o software de configuración del fabricante, como NTC Configurator o el sistema de gestión remota DRC.
-- Obtenga las credenciales o permisos necesarios para la herramienta de configuración y el dispositivo.
-- Pueda visualizar registros del dispositivo o indicadores de estado para confirmar el registro en la red y las fijaciones GNSS durante la validación.
+- Confirme que el SMART S-2421 esté alimentado y accesible según la guía del instalador y que la batería interna esté cargada si es necesario.
+- Asegúrese de contar con una SIM compatible y conectividad móvil si la instalación requiere datos celulares y de que haya cobertura en la zona.
+- Obtenga acceso al método de configuración oficial del fabricante o al software como NTC Configurator o la plataforma de gestión remota DRC.
+- Tenga a mano el IMEI o identificador del dispositivo para coincidir el rastreador en Plaspy una vez que empiece a reportar.
+- Prepare una lista básica de entradas, salidas y sensores conectados para validar los canales de telemetría en la plataforma.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-Al configurarse para reportar a Plaspy, el SMART S-2421 establecerá una conexión TCP o UDP con el endpoint de Plaspy designado y enviará periódicamente datos de posición y telemetría. Plaspy analiza automáticamente el protocolo del rastreador y muestra la posición y los eventos dentro de la plataforma.
+Al configurarlo para Plaspy, el SMART S-2421 envía fijaciones GNSS y telemetría al endpoint compartido de Plaspy para que los operadores puedan ver posiciones en vivo y eventos del dispositivo. El equipo utiliza su módem celular para entregar ubicación, eventos de entradas y salidas y datos de sensores a Plaspy por el transporte y puerto configurados.
 
-- El dispositivo se configura para enviar posición GNSS y telemetría al endpoint compartido de Plaspy d.plaspy.com o 54.85.159.138.
-- El rastreador usa el puerto 8888 para los informes salientes, que es el puerto común utilizado por Plaspy para todos los dispositivos.
-- Seleccione UDP o TCP como transporte si el rastreador requiere una selección durante la configuración.
-- Plaspy detecta automáticamente el protocolo del rastreador al conectarse, por lo que el mismo puerto puede usarse para distintos modelos.
-- Una vez conectado, Plaspy ingesta las actualizaciones de posición y los eventos configurados de entradas/salidas para monitorización e informes.
+- El rastreador se configura para reportar a d.plaspy.com o directamente a 54.85.159.138 en el puerto 8888.  
+- El transporte puede configurarse como UDP o TCP según el firmware del dispositivo y la preferencia del instalador.  
+- Plaspy detecta automáticamente el protocolo usado por el rastreador y procesa la telemetría entrante en consecuencia.  
+- La telemetría del dispositivo incluye actualizaciones de posición GNSS, estado de alimentación y batería, y eventos de entradas/salidas como encendido o inmovilizador.  
+- Los datos de sensores conectados vía 1-Wire o Bluetooth al S-2421 se reenvían a Plaspy cuando esas interfaces están configuradas.
 
-## Flujo de configuración habitual
+## Flujo de trabajo típico de configuración
 
-Siga estos pasos prácticos y públicos al preparar un SMART S-2421 para la integración con Plaspy.
-
-1. Acceda al método oficial de configuración del fabricante o al software como NTC Configurator o el sistema de gestión remota DRC.
-2. Verifique que el rastreador tenga alimentación y una SIM funcional para que pueda registrarse en la red celular.
-3. En la configuración del dispositivo, introduzca la dirección del servidor Plaspy ya sea como dominio d.plaspy.com o como la dirección IP 54.85.159.138.
-4. Establezca el puerto de destino en 8888. Recuerde que Plaspy usa el mismo puerto para todos los dispositivos compatibles.
-5. Si el dispositivo requiere una selección de transporte, elija UDP o TCP según su preferencia de instalación o el entorno de red.
-6. Aplique o guarde los cambios de configuración en la herramienta del fabricante y envíelos al dispositivo.
-7. Reinicie el dispositivo si la herramienta del fabricante o el firmware lo requieren para aplicar los cambios de red y servidor.
-8. Valide que el dispositivo reporte a Plaspy comprobando en la plataforma la primera actualización de posición y la telemetría básica.
+1. Acceda al método de configuración oficial del fabricante o al software como NTC Configurator o la plataforma de gestión remota DRC.  
+2. En la configuración del dispositivo, introduzca el endpoint del servidor Plaspy usando d.plaspy.com o la IP del servidor 54.85.159.138.  
+3. Establezca el puerto del servidor en 8888 en la configuración del rastreador.  
+4. Elija el transporte UDP o TCP si el dispositivo requiere selección de transporte.  
+5. Aplique o guarde la configuración y confirme que los ajustes se hayan escrito en el dispositivo.  
+6. Reinicie el dispositivo si las instrucciones del fabricante requieren un reinicio para activar los nuevos ajustes de servidor.  
+7. Valide que el dispositivo reporte a Plaspy revisando la telemetría entrante y el estado del equipo en la plataforma.
 
 ## Ejemplos de comandos de configuración
 
-El SMART S-2421 puede configurarse usando herramientas locales o remotas del fabricante. Los comandos exactos o las cadenas SMS varían según el firmware y la utilidad de configuración en uso. Como los comandos son específicos de la herramienta del fabricante o de la versión de firmware y no se incluyen aquí, aplique los ajustes de servidor anteriores mediante NTC Configurator, DRC o la interfaz oficial proporcionada con el dispositivo. Si utiliza un método CLI o SMS indicado en la documentación de Navtelekom, use esos comandos del fabricante para establecer el servidor en d.plaspy.com o 54.85.159.138 y el puerto en 8888, y seleccione UDP o TCP según sea necesario.
+El SMART S-2421 puede configurarse usando las herramientas de Navtelekom o sistemas de gestión remota. Los comandos exactos y el formato para establecer servidor y transporte dependen de la herramienta del fabricante y de la versión de firmware. Consulte la documentación de NTC Configurator o DRC para la sintaxis exacta de comandos y los pasos de la interfaz de usuario. Habitualmente, la configuración se realiza mediante una aplicación de escritorio configuradora o a través del servidor de gestión del dispositivo y no requiere entrada directa por línea de comandos.
 
 ## Notas de configuración
 
-- Las revisiones de firmware y hardware pueden cambiar la ubicación de los campos de servidor o los pasos exactos en la herramienta del fabricante. Siempre confirme los campos antes de aplicar cambios.
-- Elegir UDP o TCP puede afectar el comportamiento de entrega en redes móviles con pérdida de paquetes. Seleccione el transporte recomendado para su despliegue y pruebe en condiciones esperadas.
-- Plaspy usa el puerto 8888 para todos los dispositivos y confía en la detección automática del protocolo, por lo que utilice el puerto compartido al configurar el SMART S-2421.
-- Use NTC Configurator o las herramientas de gestión remota DRC para actualizaciones centralizadas y para aplicar configuraciones consistentes en múltiples dispositivos.
-- Si encuentra comportamientos inesperados, inspeccione los registros del dispositivo y el estado de registro en la herramienta del fabricante antes de cambiar valores de servidor.
+- Las diferencias de firmware y herramientas pueden cambiar los nombres de menú exactos o la sintaxis de comandos utilizada para establecer dominio servidor IP transporte y puerto. Revise siempre las notas de la versión del firmware.  
+- TCP y UDP funcionan con Plaspy en el puerto 8888; elija el transporte que se alinee con sus necesidades de red y confiabilidad.  
+- Dado que Plaspy utiliza el mismo puerto para todos los dispositivos soportados y detecta automáticamente los protocolos, enfoque su verificación en asegurar que el dispositivo pueda alcanzar d.plaspy.com o 54.85.159.138 en el puerto 8888.  
+- Use NTC Configurator para ajustes locales y DRC para gestión centralizada y actualizaciones de firmware cuando administre flotas.  
+- Verifique el mapeo de entradas, salidas y canales de sensores después de la configuración para que Plaspy reciba la telemetría esperada desde 1‑Wire y sensores Bluetooth.
 
 ## Por qué usar Plaspy con esta configuración
 
-Usar el Navtelekom SMART S-2421 con Plaspy ofrece a las organizaciones un camino directo hacia la ubicación en tiempo real y la telemetría para flotas y flujos de trabajo antirobo. Las capacidades GLONASS/GPS del equipo, las interfaces de sensores 1-Wire y Bluetooth, y las líneas configurables de entradas y salidas permiten que Plaspy muestre posición, eventos basados en entradas y telemetría extendida de sensores para monitorización operativa y alertas.
+Usar el SMART S-2421 con Plaspy ofrece una vía práctica para lograr visibilidad centralizada de la flota, reporte de eventos y monitoreo de salud del dispositivo. El rastreador aporta telemetría central y múltiples interfaces de sensores que Plaspy puede ingerir para construir historial de ubicaciones, generar alertas e informes operativos para vehículos y activos.
 
-Para obtener más información sobre Plaspy y cómo maneja las integraciones de dispositivos, visite https://www.plaspy.com. Para los métodos de configuración más actuales y específicos por dispositivo, el comportamiento de firmware y los detalles del fabricante, verifique la información en el sitio oficial de Navtelekom https://www.navtelecom.ru/.
+Para saber más sobre Plaspy y cómo integrarlo con el SMART S-2421 visite https://www.plaspy.com. Para obtener los métodos de configuración específicos más recientes notas de firmware y detalles del fabricante verifique la información en el sitio web de Navtelekom https://www.navtelecom.ru/

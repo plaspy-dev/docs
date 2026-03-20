@@ -77,23 +77,23 @@ El JT709A se configura para reportar posición y telemetría de eventos al endpo
 
 El JT709A puede configurarse enviando comandos por SMS al dispositivo. Reemplace los valores de marcador antes de enviar. El orden de los comandos importa al aplicar GPRS y credenciales APN.
 
-- Ingrese el ID del dispositivo en el comando donde se indica {{trackerID}}. Este es el identificador único que el rastreador usa para aceptar mensajes de configuración.
+- Ingrese el ID del dispositivo en el comando donde se indica [trackerID]. Este es el identificador único que el rastreador usa para aceptar mensajes de configuración.
 
 1) Configurar servidor GPRS y APN
 Envíe este SMS al número del dispositivo, reemplazando los marcadores según corresponda:
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
-- Reemplace {{trackerID}} por el ID del dispositivo.
+- Reemplace [trackerID] por el ID del dispositivo.
 - Reemplace [apn] por la cadena APN de su operador móvil.
 
 2) Configurar usuario y contraseña del APN si el operador lo requiere
 Este comando es opcional y sólo es necesario cuando el APN exige autenticación:
 
 ```
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 
 - Reemplace [apnu] por el usuario del APN si es requerido.

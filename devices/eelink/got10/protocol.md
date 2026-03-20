@@ -4,77 +4,77 @@ id: got10-protocol
 sidebar_label: Protocol
 title: EElink - GOT10 Protocol
 sidebar_class_name: menu_item_tracker
-description: Public protocol overview for the EElink GOT10 OBD tracker and how it communicates with Plaspy for tracking and diagnostics
+description: Public protocol guidance for integrating the EElink GOT10 OBD tracker with Plaspy using shared Plaspy connection settings
 keywords:
   - EElink GOT10 protocol
   - EElink GOT10 GPS protocol
-  - GOT10 OBD tracker protocol
-  - GOT10 Plaspy compatibility
-  - EElink OBD II tracking
-  - GOT10 CAN BUS telemetry
-  - fleet GPS protocol EElink
-  - Plaspy GPS tracker compatibility
-  - vehicle diagnostics tracker protocol
-  - EElink tracking protocol
+  - EElink GOT10 communication protocol
+  - EElink GOT10 tracking protocol
+  - EElink GOT10 OBD tracker
+  - GOT10 OBD protocol
+  - GOT10 CAN BUS data
+  - Plaspy device compatibility
+  - Plaspy GPS tracker setup
+  - fleet management OBD tracker
 ---
 
 # EElink - GOT10 Protocol
 
-This page describes the public protocol context for using the EElink GOT10 with Plaspy. It focuses on the communication and connection details that matter when sending location and CAN BUS diagnostic telemetry from the GOT10 into Plaspy, without exposing private implementation internals. The content is intended to help technical integrators, fleet managers, and installers understand how the tracker interacts with Plaspy for reliable data delivery.
+This page documents the public protocol context for using the EElink GOT10 OBD tracker with Plaspy. It explains how the GOT10 reports vehicle location and CAN BUS diagnostics to Plaspy in broad, non-sensitive terms and highlights the configuration and connectivity points most relevant to integration and troubleshooting.
 
-Plaspy uses shared connection settings across supported devices and automatically detects the tracker protocol, but exact protocol behavior can vary by device firmware, hardware revision, and manufacturer implementation. The GOT10 is an OBD plug‑in device that reads CAN BUS and OBD data and forwards telemetry to Plaspy so vehicle location and diagnostics can be combined in a single fleet view.
+Plaspy uses shared connection settings across supported devices and automatically detects the tracker protocol when the device reports to the Plaspy endpoint. Exact protocol behavior and available telemetry can vary by GOT10 firmware version, hardware revision, and manufacturer implementation, so this page focuses on general communication roles and compatibility guidance rather than firmware specific internals.
 
 ## Protocol Overview
 
-The protocol used by the GOT10 governs how the device packages and forwards OBD and GNSS-derived data to a remote server so that platforms like Plaspy can consume it. On a high level the protocol ensures that the tracker can identify itself, report telemetry and diagnostic states, and allow the server to process those messages into location, status, and alert records.
+The GOT10 uses its OBD-II connection to capture CAN BUS frames and OBD diagnostics, then forwards telemetry and diagnostics to a remote server so fleet management platforms like Plaspy can display location, engine data, and faults. The protocol in this context is the device reporting and telemetry exchange that enables those capabilities rather than a single named public standard.
 
-- Enables transmission of location and CAN BUS derived telemetry from the GOT10 to a backend server for processing.
-- Carries device identity and session context so Plaspy can associate reports with the correct vehicle and account.
-- Conveys diagnostic information such as fault codes and operational metrics that Plaspy can surface as alerts or reports.
-- Supports both periodic position updates and event driven messages for incidents like fault detection or ignition changes.
-- Acts as the bridge between the OBD interface on the vehicle and the Plaspy data ingestion pipeline so fleet managers see unified tracking and diagnostics.
+- Enables the GOT10 to identify itself and the vehicle context to Plaspy so location and vehicle telemetry can be associated in the platform.
+- Carries position updates and time series CAN BUS and OBD diagnostic values so Plaspy can display live tracking and historical reports.
+- Transmits diagnostic trouble codes and operational telemetry that support alerting and maintenance workflows in Plaspy.
+- Provides a transportable reporting mechanism that can use either UDP or TCP depending on device configuration and network conditions.
+- Supports periodic status or heartbeat reporting to indicate device online state and help Plaspy detect active devices.
 
 ## How Plaspy Detects the Protocol
 
-Plaspy accepts messages from supported devices at a single shared endpoint and identifies the device protocol automatically. When a GOT10 is correctly configured to report to the Plaspy endpoint, users generally do not need to manually select a protocol inside Plaspy for the device to begin reporting.
+Plaspy receives telemetry from supported devices at a single shared endpoint and automatically determines the incoming tracker protocol so most users do not need to select a protocol manually in the platform. Proper device configuration to point at the Plaspy endpoint is the common requirement for automatic detection to work.
 
-- Plaspy listens on a common server address d.plaspy.com and on the public IP 54.85.159.138 for incoming device connections.
-- All devices in Plaspy use the same port 8888 which simplifies device configuration across mixed fleets.
-- Plaspy automatically detects the tracker protocol once the device begins reporting to the Plaspy endpoint and port.
-- Proper configuration of the GOT10 to point to the Plaspy endpoint typically means no manual protocol selection is required in the Plaspy interface.
-- If a device is not appearing, basic checks include verifying the device endpoint, transport type, and that the device is powered and able to communicate.
+- Point the GOT10 to the Plaspy server domain d.plaspy.com or to the Plaspy server IP 54.85.159.138 so reports arrive at the platform.
+- Use port 8888 for device reporting; Plaspy uses the same port for all supported devices which simplifies configuration.
+- The device may be configured to send data over UDP or TCP on port 8888 depending on device firmware and network preferences.
+- When the GOT10 reports to the Plaspy endpoint, Plaspy uses the incoming data to determine the appropriate parsing and mapping automatically.
+- In most cases, no manual protocol selection within Plaspy is required if the device is correctly pointed to the Plaspy endpoint and uses the supported transport.
 
 ## Transport and Connection Context
 
-The GOT10 may be configured to use either UDP or TCP depending on device firmware and installer preference; Plaspy accepts both transports on the same configured port. Understanding the transport choice and endpoint settings is critical to ensure messages reach Plaspy reliably from the vehicle.
+Connection details are an important part of successful integration. The GOT10 typically forwards telemetry from the vehicle to the cloud using either UDP or TCP depending on the unit configuration and network environment. Plaspy listens on a single well known port for all devices which reduces configuration complexity.
 
-- Devices may be pointed to the domain d.plaspy.com or the IP 54.85.159.138 as the Plaspy ingestion endpoint.
-- The device may be configured using UDP or TCP on port 8888 depending on device support and network conditions.
-- All devices supported by Plaspy use the same port 8888 which simplifies provisioning and firewall rules for fleets.
-- Choice of UDP versus TCP can affect delivery behavior under poor cellular conditions; select the transport that best matches the device firmware recommendation.
-- Network settings on mobile carriers, vehicle modems, or local firewalls must allow outbound connections to the Plaspy endpoint and port.
+- Devices may be configured to report to d.plaspy.com or to the numeric address 54.85.159.138.
+- Port 8888 is the operational port for all Plaspy device reporting and should be used for GOT10 configuration.
+- The GOT10 can use UDP or TCP on port 8888 depending on device support and the selected transport option.
+- Using the domain name d.plaspy.com allows DNS based routing and can be preferable when network environments change.
+- Ensure network firewalls and mobile data plans permit outbound traffic to the Plaspy endpoint on port 8888 for reliable reporting.
 
 ## Protocol Compatibility Notes
 
-- Firmware versions can change message fields, frequency, and available diagnostic items; always check the device firmware level when diagnosing differences.
-- Hardware revisions and vehicle CAN implementations can affect which OBD or CAN signals are available to the GOT10.
-- Manufacturer side changes or regional firmware builds can introduce protocol variations that affect how telemetry is packaged.
-- Transport selection (UDP vs TCP) may be constrained by device firmware or carrier network behavior; confirm which transport the GOT10 supports in your build.
-- Validate device configuration so it reports to d.plaspy.com or 54.85.159.138 on port 8888 to ensure Plaspy ingestion.
-- For final verification of detailed behavior, consult the official EElink documentation or firmware release notes.
+- Firmware differences may change which OBD and CAN signals are reported, so compare the device firmware notes to the fields expected in Plaspy.
+- Hardware revisions or optional device variants can affect available telemetry such as supported CAN PIDs or diagnostic information.
+- The choice of UDP versus TCP can influence delivery behavior; select the transport that best fits the vehicle network and operator needs.
+- Vehicle make and model determine which CAN BUS parameters are available through the OBD port; not all vehicles expose the same sensors.
+- Manufacturer configuration commands or server settings must be used exactly as specified by EElink to ensure the device reports to Plaspy correctly.
+- Validate compatibility against the official EElink documentation for device specific instructions, firmware notes, and any manufacturer advisories.
 
 ## Why Protocol Understanding Matters
 
-Understanding how the GOT10 communicates with Plaspy helps ensure smooth deployment, faster troubleshooting, and long term reliability for fleet telemetry and diagnostics. Clear knowledge of the connection and reporting behavior reduces downtime and improves data quality for operational decisions.
+Understanding how the GOT10 communicates with Plaspy helps fleet administrators and integrators configure devices correctly, interpret incoming telemetry, and troubleshoot connectivity or data mapping issues. A clear view of the communication context reduces setup time and increases confidence in operational reporting.
 
-- Faster root cause identification when a vehicle stops reporting or diagnostic fields appear missing.
-- Improved provisioning by ensuring devices are configured to the correct endpoint and transport before installation.
-- Better expectation setting for which CAN BUS signals and OBD data the GOT10 can expose in your vehicle fleet.
-- More effective coordination with carriers and network administrators to allow connections to d.plaspy.com and 54.85.159.138 on port 8888.
-- Simplified fleet scale up because Plaspy uses a single port and automatic protocol detection across supported devices.
+- Ensures the GOT10 is pointed to the correct Plaspy endpoint and transport so data arrives reliably.
+- Helps identify why specific CAN BUS or OBD fields may be missing based on firmware, vehicle support, or configuration.
+- Assists in diagnosing connectivity issues by confirming DNS resolution to d.plaspy.com or reachability to 54.85.159.138 on port 8888.
+- Supports informed choices about transport selection and network configuration for mobile or constrained networks.
+- Improves the effectiveness of Plaspy alerts and reports by aligning device telemetry with platform expectations.
 
 ## Why Use Plaspy with This Protocol
 
-Using the GOT10 with Plaspy combines plug and play OBD diagnostics with enterprise tracking, giving fleet teams unified visibility into location and vehicle health. That combined feed helps reduce maintenance costs, speed incident response, and provide richer reporting for route optimization and safety programs.
+Using the EElink GOT10 with Plaspy gives fleet operators a unified view of vehicle location and diagnostic telemetry without extra wiring. The OBD-II plug-and-play form factor simplifies deployment across mixed fleets while enabling CAN BUS and OBD diagnostics to be streamed into the same operational dashboards used for tracking, alerting, and reporting.
 
-If you would like to learn more about Plaspy and how it works with OBD devices like the GOT10, visit https://www.plaspy.com. For the latest device specific protocol and firmware details please verify information on the manufacturer site https://www.eelink.com.cn/ as firmware behavior and protocol implementations can change over time.
+Plaspy’s single endpoint approach and automatic protocol detection make it straightforward to get started: point the GOT10 to d.plaspy.com or 54.85.159.138 using port 8888 over UDP or TCP as appropriate, and Plaspy will handle protocol detection and data mapping. For additional device specifics, firmware behavior, and the latest manufacturer guidance, please review the official EElink documentation at https://www.eelink.com.cn/ and learn more about Plaspy at https://www.plaspy.com. Note that protocol support, firmware behavior, and device implementation details can change over time so verify current information with the manufacturer.

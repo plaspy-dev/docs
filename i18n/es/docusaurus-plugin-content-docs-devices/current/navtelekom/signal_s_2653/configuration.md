@@ -4,97 +4,91 @@ id: signal_s_2653-configuration
 sidebar_label: Configuration
 title: Navtelekom - SIGNAL S-2653 Configuration
 sidebar_class_name: menu_item_tracker
-description: Configure el Navtelekom SIGNAL S-2653 para usarlo con Plaspy con ajustes públicos de servidor y un flujo práctico de puesta en marcha
+description: Guía pública de configuración del Navtelekom SIGNAL S-2653 para integración con Plaspy con ajustes de servidor y pasos prácticos
 keywords:
   - Configuración Navtelekom SIGNAL S-2653
-  - Configuración SIGNAL S-2653 Plaspy
-  - Configuración rastreador Navtelekom
-  - Configuración servidor rastreador vehicular
-  - Configuración GPS rastreador Plaspy
-  - SIGNAL S-2653 software de rastreo
-  - Guía configuración rastreador de flota
-  - Configuración dispositivo telemático Plaspy
-  - Integración dispositivo Navtelekom
-  - Guía configuración plataforma GPS
+  - Configuración SIGNAL S-2653
+  - Rastreador Navtelekom Plaspy
+  - Configuración rastreador Plaspy
+  - Configuración rastreador GPS
+  - Configuración rastreador de vehículo
+  - Configuración rastreador gestión de flotas
+  - Ajustes servidor SIGNAL S-2653
+  - Detección protocolo rastreador
+  - Integración rastreador Plaspy
 ---
 
 # Navtelekom - Configuración del SIGNAL S-2653
 
-Esta página describe el contexto público de configuración para usar el Navtelekom SIGNAL S-2653 con Plaspy. Se centra en los valores de servidor de Plaspy que debe ingresar en el dispositivo o en la herramienta de configuración del fabricante y explica el flujo de trabajo general para poner el rastreador en línea en Plaspy. Esta guía usa ajustes públicos del servidor Plaspy y buenas prácticas de puesta en marcha; no reemplaza la documentación completa del fabricante.
+Esta página describe el contexto público de configuración para usar el Navtelekom SIGNAL S-2653 con Plaspy. Aquí encontrará los ajustes de servidor que deben aplicarse y los pasos prácticos habituales para dirigir el dispositivo hacia Plaspy, de modo que el equipo pueda transmitir posición y telemetría a la plataforma. La información está dirigida a instaladores y operadores técnicos que preparan el S-2653 para su integración con Plaspy.
 
-Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, por lo que no es necesario seleccionar un protocolo dentro de Plaspy. Los pasos de configuración en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y la herramienta de configuración que use (por ejemplo el NTC Configurator de Navtelekom). Use esta página para preparar el SIGNAL S-2653 para la conexión a Plaspy y luego confirme el comportamiento con la documentación del proveedor del dispositivo.
+Plaspy utiliza ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, mientras que los pasos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. El SIGNAL S-2653 incluye características relevantes para la puesta en servicio, como antenas GNSS externas, módem dual SIM 2G, registro en SD y el NTC Configurator para configuración; estas funciones influyen en los flujos de trabajo comunes que se describen a continuación.
 
 ## Resumen de la configuración
 
-El objetivo de la configuración es preparar el SIGNAL S-2653 para reportar de forma confiable ubicación y telemetría a Plaspy mediante el endpoint público y el puerto designado. La configuración normalmente abarca la dirección del servidor, la selección del transporte, el guardado y la aplicación de los ajustes, y la validación de que los mensajes llegan al entorno de Plaspy.
+Configurar el SIGNAL S-2653 para Plaspy prepara el rastreador para enviar ubicación y telemetría de forma fiable a la plataforma y garantiza que sea visible en los paneles de gestión de la flota. El objetivo es aplicar el punto final de Plaspy y los ajustes de transporte, confirmar conectividad y reportes, y verificar el comportamiento de registro de respaldo.
 
-- Apunte el rastreador a Plaspy usando la dirección de servidor compartida y el puerto designado para que el dispositivo pueda iniciar las cargas de datos.
-- Elija el modo de transporte que soporte su firmware y entorno de red, UDP o TCP, según lo requiera el equipo.
-- Guarde y aplique la configuración en la unidad usando la herramienta oficial de Navtelekom u otros métodos de aprovisionamiento compatibles.
-- Valide la conectividad revisando la actividad del dispositivo en Plaspy y confirmando que las posiciones y eventos sean visibles.
-- Aproveche las funciones de registro del dispositivo, como almacenamiento en tarjeta SD y batería de respaldo, para mayor resiliencia ante conectividad intermitente.
+- Apuntar el rastreador al endpoint del servidor Plaspy y al puerto correcto para que los mensajes lleguen a su cuenta.
+- Seleccionar el transporte (UDP o TCP) si la configuración del dispositivo lo solicita.
+- Validar la conectividad celular y la disponibilidad de la(s) SIM para que la unidad pueda establecer sesiones de datos.
+- Guardar y aplicar la configuración, luego confirmar que el equipo informa a Plaspy y aparece en los paneles de la plataforma.
+- Verificar el registro en tarjeta SD y el comportamiento de la batería de respaldo como alternativa ante conectividad intermitente.
 
 ## Ajustes del servidor Plaspy
 
-Al configurar el SIGNAL S-2653 para Plaspy, use los siguientes datos públicos del servidor exactamente como se muestran:
-
-- server domain d.plaspy.com
-- server IP 54.85.159.138
-- port 8888
-- transport support for UDP or TCP
+- Server domain d.plaspy.com
+- Server IP 54.85.159.138
+- Port 8888
+- Transport support: device may be configured using UDP or TCP on port 8888
 - Plaspy automatically detects the tracker protocol and all devices in Plaspy use the same port
 
-Estos valores son el endpoint y el puerto estándar de Plaspy usados para recibir mensajes de los rastreadores compatibles.
+Estos valores son los detalles públicos del endpoint de Plaspy que se requieren al configurar el rastreador para que reporte a la plataforma Plaspy.
 
 ## Requisitos típicos antes de la configuración
 
-- Una unidad SIGNAL S-2653 con alimentación correctamente instalada y antenas GNSS y GSM conectadas.
-- Conectividad celular activa y las SIM necesarias configuradas para el operador local, ya que el dispositivo usa su módem celular para alcanzar Plaspy.
-- Acceso al método oficial de configuración de Navtelekom, como el NTC Configurator o los métodos documentados por SMS/comando.
-- Conocimiento de identificadores del equipo como IMEI o número de serie para poder localizar el dispositivo en Plaspy tras el registro.
-- Opcional: tarjeta SD o batería de respaldo instalada si planea depender del registro a bordo durante cortes de energía.
-- Un plan de pruebas para validar el reporte de posición y eventos una vez aplicada la configuración.
+- Acceso a la herramienta o método oficial de configuración del fabricante, como el NTC Configurator mencionado en la documentación de Navtelekom.
+- Un SIGNAL S-2653 instalado y alimentado con las antenas GNSS y GSM externas conectadas según lo exige la instalación.
+- SIM(s) celulares activas instaladas y capaces de registrarse en las bandas 2G soportadas por el equipo.
+- Conexión de escritorio o móvil a la interfaz de configuración del dispositivo (Bluetooth local o herramienta del fabricante) según las instrucciones de Navtelekom.
+- Disponibilidad del firmware actual y de la documentación técnica del fabricante para la revisión de hardware específica que se está configurando.
+- Medios para monitorear el dispositivo después de la puesta en marcha y validar que reporta correctamente en Plaspy.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-El SIGNAL S-2653 envía mensajes de posición y eventos a través de su enlace celular al endpoint del servidor Plaspy para que Plaspy muestre ubicación, telemetría y alertas en tiempo real. Configure el dispositivo para usar el endpoint compartido de Plaspy para que los mensajes se enruten a la plataforma para su procesamiento y visualización.
+El SIGNAL S-2653 se configura para enviar mensajes de posición y telemetría por su enlace celular al endpoint y puerto compartidos de Plaspy. Una vez que el rastreador apunta al servidor Plaspy y se define el transporte, Plaspy recibe los mensajes y la plataforma se encarga de detectar y parsear el protocolo.
 
-- El rastreador se configura para reportar al endpoint de Plaspy d.plaspy.com o a la dirección IP equivalente 54.85.159.138.
-- Los mensajes se envían al puerto 8888 y el transporte puede ser UDP o TCP según la selección del dispositivo.
-- Plaspy recibe los mensajes entrantes y detecta automáticamente el protocolo del rastreador para su correcto parsing.
-- Una vez que llegan los mensajes, Plaspy mostrará el dispositivo en línea y proporcionará historial de ubicaciones, reporte de eventos y paneles de telemetría.
-- El registro a bordo en tarjeta SD y la batería de respaldo garantizan que el dispositivo siga capturando datos aún cuando la conectividad celular se vea interrumpida.
+- El equipo envía mensajes periódicos o por eventos a d.plaspy.com o 54.85.159.138 en el puerto 8888.
+- El rastreador puede usar transporte UDP o TCP según la configuración; Plaspy acepta ambos.
+- Plaspy detecta e interpreta automáticamente el protocolo del rastreador, por lo que normalmente no se requiere seleccionar el protocolo en el servidor.
+- Los mensajes de evento y la telemetría provenientes de entradas, CAN o sensores a bordo son reenviados a Plaspy para paneles y alertas.
+- El registro en SD y la batería de respaldo interna proporcionan un mecanismo local de respaldo y datos que pueden sincronizarse cuando se restablece la conectividad.
 
 ## Flujo de trabajo común de configuración
 
-1. Acceda al método o software oficial de configuración de Navtelekom, como el NTC Configurator, la herramienta web del fabricante o la herramienta de campo soportada.
-2. Ubique la sección de ajustes de servidor e ingrese el endpoint de Plaspy como d.plaspy.com o la dirección IP 54.85.159.138.
-3. Configure el puerto de destino en 8888, teniendo en cuenta que Plaspy usa el mismo puerto para todos los dispositivos compatibles.
-4. Elija UDP o TCP como transporte si el dispositivo requiere una selección explícita.
-5. Aplique o guarde la configuración en la herramienta del fabricante y escriba los ajustes en el dispositivo.
-6. Reinicie el equipo si el firmware lo exige para activar los nuevos ajustes de servidor.
-7. Valide que el dispositivo reporte a Plaspy comprobando los mensajes entrantes y verificando la visibilidad del equipo en la plataforma Plaspy.
+1. Acceda al método o software oficial de configuración de Navtelekom (por ejemplo el NTC Configurator o una herramienta autorizada de campo).
+2. Abra la sección de ajustes de servidor e ingrese la dirección del servidor Plaspy como dominio d.plaspy.com o como la IP 54.85.159.138.
+3. Establezca el puerto del servidor en 8888 según lo requiere Plaspy.
+4. Si la interfaz del equipo solicita elegir transporte, seleccione UDP o TCP según la preferencia del sitio; el equipo puede configurarse para usar cualquiera de los dos en el puerto 8888.
+5. Aplique o guarde los cambios en la herramienta del fabricante y confirme que la configuración se ha escrito en el dispositivo.
+6. Reinicie o corte y restablezca la alimentación del rastreador si las instrucciones del fabricante requieren un reinicio para aplicar los ajustes de red.
+7. Valide que el rastreador informa a Plaspy comprobando la visibilidad del dispositivo y los mensajes recientes en la plataforma Plaspy y confirmando que la telemetría aparece.
 
 ## Comandos de configuración de ejemplo
 
-El SIGNAL S-2653 soporta configuración mediante las herramientas de Navtelekom y métodos de aprovisionamiento documentados. Los comandos exactos o los formatos de mensaje pueden variar según la versión de firmware y la versión de la herramienta. Dado que el equipo puede configurarse usando el NTC Configurator de Navtelekom u otros métodos del fabricante, consulte la documentación de Navtelekom para la sintaxis de comandos específica de su revisión de firmware. En general, los valores públicos de Plaspy que ingresará son:
+Los comandos exactos y la sintaxis para configurar el SIGNAL S-2653 dependen de la herramienta del fabricante, la versión de firmware y de si la configuración se realiza vía Bluetooth, USB o un configurador central. Dado que Navtelekom proporciona un NTC Configurator y documentación del fabricante, siga los pasos del software oficial para establecer el servidor y el transporte.
 
-- Server domain or IP: d.plaspy.com or 54.85.159.138
-- Port: 8888
-- Transport: UDP or TCP
-
-Si dispone de una lista de comandos provista por Navtelekom para configuración por SMS o serie, aplique los valores anteriores en los mismos campos o parámetros que empleen esos comandos. Consulte la guía del configurador oficial de Navtelekom para ejemplos de comandos exactos según su firmware.
+Si utiliza un método por SMS o comandos de texto provisto por Navtelekom en su versión de firmware, convierta el dominio o la IP y el puerto del servidor al formato de comando requerido por el equipo. Mantenga los marcadores de posición donde se requiera (por ejemplo los marcadores de APN) y consulte la documentación del fabricante para la sintaxis precisa de los comandos.
 
 ## Notas de configuración
 
-- Las diferencias de firmware pueden cambiar qué campos de menú o parámetros de comando se usan para la dirección del servidor y la selección de transporte; siempre revise las notas de firmware de su dispositivo.
-- Elegir UDP frente a TCP puede afectar la fiabilidad de entrega en ciertas redes; seleccione el transporte que coincida con su instalación y el comportamiento del operador.
-- La redundancia de doble SIM en el S-2653 ayuda a mantener la conectividad, pero la configuración de las SIM y el orden de operadores preferidos debe verificarse en la herramienta del fabricante.
-- El registro a bordo y el almacenamiento en tarjeta SD aportan resiliencia; confirme cómo el dispositivo sube los registros históricos cuando se restablece la conectividad.
-- Use la documentación y las herramientas oficiales de Navtelekom para cualquier ajuste avanzado de parámetros y actualizaciones de firmware.
+- Las diferencias de firmware y las revisiones de hardware pueden cambiar los menús y la sintaxis de comandos; confirme siempre los pasos contra la revisión de firmware indicada en la documentación de Navtelekom.
+- El comportamiento de doble SIM puede afectar qué SIM se usa para el enlace uplink; verifique la prioridad de SIM y las configuraciones de roaming al poner en servicio dispositivos para Plaspy.
+- La elección entre TCP y UDP puede depender de la confiabilidad de la red y del comportamiento del operador; Plaspy acepta ambos transportes en el mismo puerto compartido.
+- Dado que Plaspy detecta automáticamente el protocolo del rastreador, concentre la atención en los ajustes correctos de dominio/IP y puerto; la selección de protocolo suele gestionarla la plataforma.
+- Si utiliza herramientas de configuración basadas en SMS de Navtelekom, mantenga los comandos y marcadores intactos y verifique que el dispositivo reconoce los ajustes antes del despliegue final.
 
 ## Por qué usar Plaspy con esta configuración
 
-Usar el Navtelekom SIGNAL S-2653 con Plaspy ofrece a los operadores de flotas una canalización fiable para posiciones GLONASS/GPS, telemetría del bus del vehículo y alertas basadas en eventos. Las entradas robustas del dispositivo, la redundancia de doble SIM y el registro a bordo complementan el endpoint unificado de Plaspy y la detección automática de protocolos para simplificar la integración y ofrecer visibilidad constante en despliegues exigentes.
+Usar el SIGNAL S-2653 con Plaspy proporciona a los operadores de flota visibilidad en tiempo real y la capacidad de combinar la posición GNSS, la telemetría del bus del vehículo y los reportes por eventos en una sola plataforma. Las funciones de registro y la energía de respaldo ayudan a preservar datos críticos de eventos durante cortes, mientras que el enlace celular dual SIM ofrece redundancia en entornos con redes mixtas.
 
-Para saber más sobre Plaspy y las características de la plataforma visite https://www.plaspy.com. Para las instrucciones de configuración más recientes específicas del dispositivo, notas de firmware y herramientas del fabricante, verifique los detalles en https://www.navtelecom.ru/ ya que el comportamiento del equipo y los métodos de configuración pueden cambiar con el tiempo.
+Para conocer más sobre el uso de Plaspy con rastreadores compatibles y ver las capacidades de la plataforma visite https://www.plaspy.com. Para los métodos de configuración específicos más recientes, el comportamiento de firmware y las especificaciones técnicas, verifique los detalles con el fabricante en https://www.navtelecom.ru/.

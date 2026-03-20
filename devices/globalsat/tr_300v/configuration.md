@@ -75,32 +75,32 @@ The TR-300V is configured to send periodic location updates and event reports to
 
 ## Example Configuration Commands
 
-The TR-300V supports SMS based configuration. The following templates are derived from public device command examples. Replace placeholders with your device information before sending. The example uses placeholders such as {{imei}}, [apn], [apnu], [apnp], and checksum tokens that must be computed and substituted.
+The TR-300V supports SMS based configuration. The following templates are derived from public device command examples. Replace placeholders with your device information before sending. The example uses placeholders such as [imei], [apn], [apnu], [apnp], and checksum tokens that must be computed and substituted.
 
 - Notes about placeholders:
-  - {{imei}} — replace with the device IMEI number.
+  - [imei] — replace with the device IMEI number.
   - [apn], [apnu], [apnp] — APN name, APN username, and APN password placeholders. Provide values required by your mobile operator.
-  - {{checksum}} and {{checksumreeboot}} — two digit uppercase hexadecimal checksums computed over the command string before the asterisk as described below.
+  - [checksum] and [checksumreeboot] — two digit uppercase hexadecimal checksums computed over the command string before the asterisk as described below.
 
 - Plaspy batch prefix example used in some vendor flows:
   - Format used by Plaspy TSPRXAB27GHKLMnaicz*U!
 
 - Main setup command template
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 - Optional reboot command template (use if a reboot is required after applying settings)
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Checksum calculation (public example):
-- The TR-300V example checksum is produced by XORing the character codes of the command text that precedes the '*' character and converting the result to a two character uppercase hexadecimal value. Insert that hex value in place of {{checksum}} or {{checksumreeboot}}.
+- The TR-300V example checksum is produced by XORing the character codes of the command text that precedes the '*' character and converting the result to a two character uppercase hexadecimal value. Insert that hex value in place of [checksum] or [checksumreeboot].
 - Compute checksum on the full command string up to but not including the asterisk. The resulting hex must be two characters and uppercase.
 
 Example assembly steps:
-1. Replace {{imei}} and APN placeholders with actual values.
+1. Replace [imei] and APN placeholders with actual values.
 2. Build the command string up to the '*' character.
 3. Calculate the XOR checksum and convert to a two digit uppercase hexadecimal string.
 4. Append the checksum followed by '!' and send the completed SMS to the device phone number.

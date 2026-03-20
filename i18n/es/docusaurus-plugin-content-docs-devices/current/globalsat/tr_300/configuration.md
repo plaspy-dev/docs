@@ -81,22 +81,22 @@ TSPRXAB27GHKLMnaicz*U!
 1) Comando de configuración para establecer el APN y el servidor de Plaspy (reemplazar marcadores y añadir el checksum correcto):
 
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
-- {{imei}} — reemplace con el número IMEI del dispositivo.
+- [imei] — reemplace con el número IMEI del dispositivo.
 - [apn] — reemplace con el nombre APN del operador de la SIM.
 - [apnu] — reemplace con el usuario del APN si el operador lo requiere, o deje vacío si no se utiliza.
 - [apnp] — reemplace con la contraseña del APN si se requiere, o deje vacío si no se utiliza.
-- {{checksum}} — checksum XOR en hexadecimal mayúscula de dos dígitos del string del comando previo al asterisco. El ejemplo público del fabricante calcula el checksum realizando XOR entre los códigos de cada carácter en la porción del comando y convirtiendo el resultado a hex de dos dígitos en mayúsculas.
+- [checksum] — checksum XOR en hexadecimal mayúscula de dos dígitos del string del comando previo al asterisco. El ejemplo público del fabricante calcula el checksum realizando XOR entre los códigos de cada carácter en la porción del comando y convirtiendo el resultado a hex de dos dígitos en mayúsculas.
 
 2) Comando opcional de reinicio para aplicar los ajustes:
 
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
-- {{checksumreeboot}} — checksum calculado para la cadena del comando de reinicio antes del asterisco.
+- [checksumreeboot] — checksum calculado para la cadena del comando de reinicio antes del asterisco.
 - Este comando de reinicio suele ser opcional pero se recomienda tras aplicar la configuración para asegurar que los ajustes entren en vigor.
 
 Si lo prefiere, puede usar el dominio d.plaspy.com en lugar de la IP numérica cuando el dispositivo soporte nombres de dominio, pero los ejemplos públicos anteriores muestran la IP 54.85.159.138 y especifican el puerto 8888.

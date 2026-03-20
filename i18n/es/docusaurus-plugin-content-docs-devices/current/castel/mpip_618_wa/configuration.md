@@ -78,21 +78,21 @@ Una vez configurado, el MPIP-618-WA envía datos de ubicación y del dispositivo
 El MPIP-618-WA soporta configuración vía SMS. El fabricante documenta que los comandos SMS están protegidos por una clave secreta. La clave secreta por defecto para las instrucciones SMS es los últimos 6 caracteres ASCII del ID del dispositivo. Envíe los comandos de configuración como mensajes SMS al número del rastreador.
 
 Configurar el APN GPRS y el destino del servidor
-- Reemplace {{SecretKey}} por la clave secreta SMS del dispositivo
+- Reemplace [SecretKey] por la clave secreta SMS del dispositivo
 - Reemplace [apn], [apnu], [apnp] por el APN, usuario APN y contraseña APN de su operador según corresponda
 
 ```
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 Verificar la configuración GPRS en el dispositivo
 
 ```
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 Notas sobre marcadores y uso
-- {{SecretKey}} es la contraseña para comandos SMS; por defecto es los últimos 6 caracteres ASCII del ID del dispositivo para este rastreador.
+- [SecretKey] es la contraseña para comandos SMS; por defecto es los últimos 6 caracteres ASCII del ID del dispositivo para este rastreador.
 - [apn] es el nombre del punto de acceso (APN) del operador de la SIM; [apnu] y [apnp] son opcionales y corresponden al usuario y contraseña del APN.
 - Envíe estos comandos como texto SMS simple al número asignado al rastreador.
 - El orden de los parámetros en el comando set es importante y sigue la sintaxis del fabricante: APN, usuario APN, contraseña APN, IP del servidor, puerto del servidor.

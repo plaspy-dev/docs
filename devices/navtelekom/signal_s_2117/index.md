@@ -1,65 +1,61 @@
 ---
 slug: /navtelekom/signal_s_2117
 id: signal_s_2117
-sidebar_label: Signal S-2117
-title: Navtelekom - Signal S-2117
+sidebar_label: СИГНАЛ S-2117
+title: Navtelekom - СИГНАЛ S-2117
 sidebar_class_name: menu_item_tracker
-description: Vehicle tracker with GSM and GLONASS GPS for location monitoring, alarms, fuel and temperature sensing, remote control and voice communication compatible with Plaspy
+description: Navtelekom СИГНАЛ S-2117 GNSS vehicle tracker compatible with Plaspy for fleet tracking fuel and temperature telemetry
 keywords:
-  - Navtelekom Signal S-2117
-  - Signal S-2117
+  - Navtelekom СИГНАЛ S-2117
+  - SIGNAL S-2117 Plaspy
   - Navtelekom tracker
-  - GPS GLONASS tracker
-  - vehicle tracking
-  - fleet tracking
-  - fuel monitoring
-  - remote vehicle control
-  - driver communication
-  - Plaspy compatible
+  - GLONASS vehicle tracker
+  - fleet tracking device
+  - fuel monitoring RS-485
+  - 1-Wire temperature sensor
+  - vehicle alarm and tamper
+  - two way voice tracker
+  - discontinued tracker compatibility
 ---
 
-# Navtelekom - Signal S-2117
+# Navtelekom - СИГНАЛ S-2117
 
-![Signal S-2117](./logo.jpg)
+![СИГНАЛ S-2117](./tracker.jpeg)
 
-The Navtelekom Signal S-2117 is a vehicle tracking device designed for car and fleet monitoring. It combines GSM communications with GLONASS and GPS positioning to provide continuous location tracking, movement monitoring, and runtime analysis. The unit supports integration with multiple sensors and peripherals, including digital fuel gauges via an RS-485 interface and digital temperature and identification sensors through a 1-Wire interface. Its feature set also covers alarm reporting for unauthorized access and mechanical impacts, plus emergency notifications and a panic button for rapid response.
+The СИГНАЛ S-2117 is a robust vehicle GNSS tracker from Navtelekom designed for fleet operations that require continuous location and telemetry data. It combines GLONASS positioning with GSM communications to provide live tracking, alarm event reporting, remote control outputs, and interfaces for fuel and temperature monitoring. The device emphasizes practical telematics features suitable for mixed fleet deployments and temperature sensitive cargo.
 
-As a Plaspy compatible device, the Signal S-2117 can feed location, event, and sensor data into Plaspy for centralized fleet oversight. Plaspy users can take advantage of the tracker s core capabilities inside the platform to improve vehicle security, monitor fuel usage, keep track of temperature sensitive cargo, and respond to driver emergencies. The device s voice connection and remote control features extend operational options that can be reflected in Plaspy workflows and alerts.
+This model is Plaspy compatible out of the box, making it straightforward to feed location, sensor telemetry, and event data into Plaspy dashboards and reporting. Although the S-2117 has been discontinued by the manufacturer, it remains usable with existing vendor firmware and configuration tools and integrates cleanly with Plaspy to deliver fleet visibility, fuel insights, alarm notifications, and voice enabled incident handling.
 
 ## Key Highlights
 
-- Combined GSM and GLONASS GPS positioning for reliable location and movement monitoring
-- RS-485 support for up to three digital fuel gauges to enable fuel level and consumption visibility
-- 1-Wire connectivity for digital temperature sensors and identification devices
-- Built in speakerphone and panic button for direct voice connection between control center and driver
-- Remote control of vehicle systems such as sirens, immobilizer and doors for rapid response
-- Backup power supply capability to maintain operation during vehicle power interruptions
-- Alerts for unauthorized access, mechanical impacts, and emergency incidents
+- Plaspy compatible GNSS tracker for dependable real time vehicle tracking and fleet oversight
+- GLONASS receiver with GSM communication for continuous position updates and route history
+- RS-485 support for up to three digital fuel level sensors to enable fuel monitoring and consumption analysis
+- 1-Wire inputs for digital temperature probes and iButton style identification for cargo and driver workflows
+- Two way loud voice communication and panic button for driver dispatch links and emergency response
+- Alarm inputs and tamper detection for anti theft alerts and enhanced security monitoring
+- Remote control outputs for switching external loads and basic actuator control
 
 ## How It Works with Plaspy
 
-When linked with Plaspy, the Signal S-2117 streams position, event and sensor information to the Plaspy platform where it becomes part of a unified fleet picture. Plaspy aggregates the tracker s data to provide searchable history, alerting, and operational reporting for fleets and vehicle operators.
+When connected to Plaspy, the СИГНАЛ S-2117 streams position, sensor telemetry, and event messages into a single operational view. Plaspy translates the device data into live map markers, alerts, and historical reports so fleet managers can act on location and vehicle state information without separate processing.
 
-- Live and historical location tracking visible on Plaspy maps for fleet situational awareness
-- Event and alarm forwarding into Plaspy notifications for unauthorized entry, impacts, and panic triggers
-- Fuel gauge readings integrated into Plaspy reports to monitor consumption and detect anomalies
-- Temperature sensor data available in Plaspy for monitoring temperature sensitive cargo or equipment
-- Remote output controls and device commands coordinated through Plaspy to manage sirens, immobilizers, and doors
-- Speakerphone and emergency call events logged in Plaspy to support incident handling and response workflows
+- Real time location and route history displayed on Plaspy maps for fleet visibility
+- Alarm and tamper events forwarded to Plaspy as instant alerts for security monitoring
+- Fuel sensor telemetry from RS-485 inputs converted into continuous fuel level and consumption metrics in reports
+- Temperature readings and driver identification from 1-Wire inputs surfaced in Plaspy temperature logs and event timelines
+- Remote control actions and voice events represented as actionable controls and triggers within Plaspy workflows
 
 ## Typical Use Cases
 
-- Fleet vehicle security and real time tracking for businesses managing multiple cars or vans
-- Fuel monitoring for operations where accurate consumption data reduces costs and shrinkage
-- Monitoring of temperature sensitive goods in transit using connected digital temperature sensors
-- Driver identification and shift logging for transport operations that require personnel tracking
-- Emergency response and driver safety workflows using the panic button and voice connection
-- Remote control and immobilization for theft prevention and vehicle recovery processes
+- Continuous fleet tracking for logistics and service vehicle management
+- Fuel monitoring and loss prevention using multiple digital fuel sensors
+- Refrigerated cargo oversight with temperature probe telemetry and alerts
+- Driver identification and access logging for security and compliance
+- Emergency response and dispatch coordination via two way voice and panic alerts
 
 ## Why Choose This Tracker with Plaspy
 
-The Signal S-2117 is a practical choice for organizations that need a mix of position tracking, sensor integration, and in vehicle voice communication. Its capacity to connect several fuel gauges and temperature sensors makes it suitable for operations where telemetry beyond basic location is important. The combination of alarm reporting, backup power capability, and remote control features supports security conscious deployments and continuous monitoring needs.
+The СИГНАЛ S-2117 is a practical choice for organizations that need a field proven GNSS tracker with a strong focus on fuel measurement, temperature monitoring, and security inputs. Its support for multiple fuel sensors and 1-Wire temperature and identification interfaces supplies the telemetry data that fleet managers rely on for operational decisions. The device’s voice capability and panic input add a direct communications channel that complements automated alerts in Plaspy.
 
-Paired with Plaspy, the S-2117 becomes part of a managed fleet platform where location, sensor data, alerts, and remote actions can be correlated and acted on from a single interface. For fleets that require fuel oversight, temperature monitoring, and direct communication with drivers, this tracker presents a balanced feature set that aligns with those operational priorities. For the most current technical specifications and availability confirm details with the manufacturer and consider how the device s capabilities match your Plaspy configuration goals.
-
-To learn more about Plaspy and how compatible devices like the Signal S-2117 can be used in fleet tracking and monitoring, visit https://www.plaspy.com. Product specifications and availability can change over time, so please verify current details on the manufacturer s official site https://www.navtelecom.ru/ before making procurement decisions.
+Although Navtelekom lists the S-2117 as discontinued, existing units remain functional with vendor firmware and configuration tools and integrate effectively into Plaspy to provide location, telemetry, and control capabilities. To learn more about how Plaspy can use data from this model and other compatible devices visit https://www.plaspy.com. Product specifications, availability, and manufacturer documentation can change over time, so please verify current details on the official Navtelekom website https://www.navtelecom.ru/.

@@ -76,17 +76,17 @@ The LT-501E is configured to send its reporting packets to the shared Plaspy ser
 The following example commands are extracted from public device configuration content for the LT-501E. These commands are intended to be sent by SMS to the tracker. Preserve placeholders and compute the checksum exactly as required by the device before sending.
 
 Notes about placeholders
-- {{imei}} is the device IMEI and must be replaced with the tracker IMEI
+- [imei] is the device IMEI and must be replaced with the tracker IMEI
 - [apn] is the cellular APN name if applicable
 - [apnu] is the APN username if required by your carrier
 - [apnp] is the APN password if required by your carrier
 - E0 and E1 in the command are used to set the Plaspy server IP and port respectively
-- The trailing *{{checksum}} or *{{checksumreeboot}} must be replaced with the device checksum calculated over the part of the command before the asterisk using the tracker checksum algorithm
+- The trailing *[checksum] or *[checksumreeboot] must be replaced with the device checksum calculated over the part of the command before the asterisk using the tracker checksum algorithm
 
 1. Setup command to point the tracker to Plaspy and set network parameters
 
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 - This command sets the APN placeholders and the Plaspy server IP and port.
@@ -96,14 +96,14 @@ GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{ch
 2. Optional reboot command to apply settings immediately
 
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 - This reboot command is shown in public configuration examples and can be used after applying settings to ensure the device restarts with the new configuration.
 - Label this step optional and use it when the manufacturer instructions require a reboot to apply changes.
 
 Checksum calculation
-- The device checksum is computed as an XOR of the ASCII codes of the characters in the command segment before the asterisk. The result is represented as a two character uppercase hexadecimal string. Replace {{checksum}} or {{checksumreeboot}} with that hexadecimal value.
+- The device checksum is computed as an XOR of the ASCII codes of the characters in the command segment before the asterisk. The result is represented as a two character uppercase hexadecimal string. Replace [checksum] or [checksumreeboot] with that hexadecimal value.
 
 ## Configuration Notes
 

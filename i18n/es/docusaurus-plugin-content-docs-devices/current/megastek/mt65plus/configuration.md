@@ -76,7 +76,7 @@ Cuando está configurado, el MT65PLUS envía datos de ubicación y eventos a Pla
 El MT65PLUS puede configurarse mediante comandos SMS. El ejemplo público que sigue respeta los patrones de comando proporcionados por el fabricante. La contraseña SMS por defecto mostrada en la muestra del fabricante es 000000. Reemplace los marcadores según se indica antes de enviar.
 
 Notas sobre los marcadores de posición
-- {{imei}} se refiere al número IMEI del dispositivo. Cuando el equipo requiere un identificador de 15 dígitos derivado del IMEI, use los últimos 15 dígitos del IMEI, rellenando si es necesario.
+- [imei] se refiere al número IMEI del dispositivo. Cuando el equipo requiere un identificador de 15 dígitos derivado del IMEI, use los últimos 15 dígitos del IMEI, rellenando si es necesario.
 - [apn], [apnu] y [apnp] son marcadores para el APN del operador, el nombre de usuario del APN y la contraseña del APN, respectivamente. Proporcione solo los campos que requiera su operador móvil.
 
 Set device ID using the device password and a 15 digit device identifier

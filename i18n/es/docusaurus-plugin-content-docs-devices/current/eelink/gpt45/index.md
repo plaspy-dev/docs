@@ -1,62 +1,60 @@
 ---
 slug: /eelink/gpt45
 id: gpt45
-sidebar_key: eelingpt45_index_gpt45
 sidebar_label: GPT45
 title: EElink - GPT45
 sidebar_class_name: menu_item_tracker
-description: Rastreador GPS recargable y compacto EElink GPT45 para vehículos y activos compatible con Plaspy para seguimiento en tiempo real y telemetría ambiental
+description: Rastreador GPS recargable y compacto con posicionamiento multiconstelación y telemetría multisensor compatible con Plaspy
 keywords:
   - EElink GPT45
-  - Rastreador GPT45
-  - GPS GPT45
-  - GPT45 compatible con Plaspy
-  - Rastreador vehicular
-  - Seguimiento de activos
-  - Rastreo en tiempo real
-  - Telemetría ambiental
-  - Gestión de flotas
-  - Rastreador IP65
+  - rastreador GPT45
+  - rastreador EElink
+  - rastreador GPS
+  - compatible con Plaspy
+  - seguimiento de flotas
+  - seguimiento de activos
+  - pasarela Bluetooth
+  - sensores ambientales
+  - rastreador IP65
 ---
 
 # EElink - GPT45
 
 ![GPT45](./tracker.jpg)
 
-El EElink GPT45 es un rastreador GPS recargable y compacto diseñado para vehículos y activos portátiles que necesitan reportes de ubicación fiables y autonomía prolongada. Integra posicionamiento GNSS multiconstelación con respaldo por Wi‑Fi y LBS, una batería recargable de alta capacidad, una carcasa IP65 y un conjunto de sensores de movimiento y ambientales. Estas características hacen al GPT45 adecuado para seguimiento continuo, monitoreo de condiciones y flujos de trabajo antirobo en diversos entornos de campo.
+El GPT45 es un rastreador GPS recargable y compacto de EElink, diseñado para vehículos y activos portátiles que requieren seguimiento continuo y larga autonomía. Integra posicionamiento GNSS multiconstelación con respaldo por Wi‑Fi y LBS, una batería recargable de alta capacidad y una carcasa con protección IP65 para ofrecer actualizaciones de ubicación fiables y resistencia básica a condiciones ambientales. Los sensores integrados de movimiento y ambientales aportan telemetría más allá de las coordenadas, por lo que el equipo es adecuado tanto para monitorear la ubicación como el estado del activo.
 
-Como dispositivo compatible con Plaspy, el GPT45 puede enviar ubicaciones y datos de sensores a Plaspy para supervisión en vivo, reproducción histórica, alertas automatizadas e informes. Su telemetría multisensor y la capacidad opcional de gateway Bluetooth amplían lo que Plaspy puede visualizar y accionar, ayudando a los equipos de flota y activos a centralizar la supervisión operativa y responder con mayor rapidez ante eventos.
+Como dispositivo compatible con Plaspy, el GPT45 puede enviar sus fijaciones de posición y eventos de sensores a Plaspy para monitoreo en vivo, reproducción histórica, alertas e informes. La funcionalidad opcional de pasarela Bluetooth y el soporte USB‑C facilitan la integración de sensores y el mantenimiento, mientras que la compatibilidad con el protocolo EELINK permite conectar el dispositivo a flujos de trabajo de flota y gestión de activos basados en Plaspy. Para organizaciones que utilizan Plaspy, el GPT45 aporta telemetría detallada que puede usarse para automatizar notificaciones y mejorar la visibilidad operativa.
 
 ## Características principales
 
-- Seguimiento GPS en tiempo real compatible con Plaspy, con GNSS multiconstelación y respaldo por Wi‑Fi y LBS para actualizaciones de posición más resilientes
-- Batería recargable de alta capacidad de 2600 mAh para operación prolongada entre cargas
-- Alarmas de movimiento integradas, incluyendo eventos por colisión, vibración, caída y velocidad para monitoreo de seguridad y antirrobo
-- Sensores ambientales para temperatura, humedad y presión barométrica que permiten seguimiento con conciencia de condiciones
-- Capacidad opcional de gateway Bluetooth para retransmitir datos de balizas y sensores externos hacia los flujos de monitoreo
-- Soporte USB‑C para actualizaciones de firmware y mantenimiento, además de una carcasa compacta IP65 para durabilidad en exteriores
+- Rastreador compatible con Plaspy que ofrece posicionamiento GNSS multiconstelación y mecanismos de respaldo para actualizaciones de ubicación más resistentes
+- Batería recargable de gran capacidad que permite un funcionamiento prolongado entre cargas, ideal para vehículos y activos portátiles
+- Sensores integrados de movimiento y ambientales, incluyendo alarmas por colisión, vibración, caída y exceso de velocidad, además de medición de temperatura, humedad y presión barométrica
+- Funcionalidad opcional de pasarela Bluetooth para retransmitir datos de balizas y sensores a sus flujos de monitoreo
+- Soporte USB‑C para gestión de firmware y mantenimiento del dispositivo de forma cómoda
+- Carcasa compacta con clasificación IP65 para montaje discreto y uso en exteriores
 
 ## Cómo funciona con Plaspy
 
-Al integrarse con Plaspy, el GPT45 reenvía fijaciones de posición, lecturas de sensores y notificaciones de eventos para que Plaspy presente una vista unificada de sus activos y vehículos. Los datos del dispositivo alimentan mapas en vivo, reglas de alerta e informes históricos que los equipos usan para supervisar el desempeño y reaccionar ante incidentes.
+Cuando se integra con Plaspy, el GPT45 transmite datos de posición y sensores para que su equipo pueda vigilar activos en tiempo real y reaccionar ante eventos. Plaspy procesa los mensajes del dispositivo y los presenta mediante paneles, geocercas, alertas e informes para supervisión y análisis operativos.
 
-- Ubicación en tiempo real y continuidad de servicio mediante GNSS y métodos de respaldo, de modo que Plaspy mantenga el rastreo incluso en entornos con señal débil
-- Alarmas dirigidas por eventos como colisión, vibración, caída y excesos de velocidad que generan notificaciones inmediatas en Plaspy para una respuesta rápida
-- La telemetría ambiental se integra en los paneles de Plaspy para monitorear tendencias de temperatura, humedad y presión a lo largo del tiempo
-- Los datos del gateway Bluetooth provenientes de balizas y sensores se retransmiten a Plaspy para flujos de trabajo basados en proximidad y mayor cobertura de sensores
-- Eventos de geocerca y disparadores de reglas soportan flujos de trabajo automatizados y alertas de entrada y salida gestionadas desde Plaspy
-- Opciones de configuración remota y gestión de firmware que simplifican el mantenimiento del dispositivo y el ajuste de parámetros dentro de las rutinas operativas
+- Ubicación en tiempo real y posicionamiento de respaldo que alimentan los paneles de Plaspy para seguimiento en vivo y visibilidad de rutas
+- Alarmas basadas en eventos —como colisión, vibración, caída y exceso de velocidad— que disparan notificaciones y flujos de trabajo en Plaspy
+- Telemetría ambiental almacenada en Plaspy para monitoreo de condiciones y generación de tendencias
+- Datos de balizas y sensores Bluetooth que pueden reenviarse a Plaspy cuando el rastreador actúa como pasarela
+- Configuración remota y gestión de firmware que ayudan a mantener los dispositivos actualizados y alineados con los ajustes de Plaspy
 
 ## Casos de uso típicos
 
-- Gestión de flotas para supervisión de rutas, control de seguridad de conductores y reproducción histórica de viajes
-- Protección antirrobo con alarmas por vibración y colisión combinadas con alertas de geocerca para recuperación rápida
-- Monitoreo ambiental de carga sensible a la temperatura o reporte de condiciones del activo durante el tránsito
-- Seguimiento por proximidad habilitado con balizas para semirremolques, carga y etiquetado de activos mediante el gateway Bluetooth opcional
-- Rastreo de equipos portátiles donde la alimentación recargable y la carcasa resistente al clima son importantes
+- Seguimiento de flotas y monitoreo de seguridad del conductor mediante ubicación, velocidad y eventos de colisión
+- Protección antirrobo con alertas por vibración y geocercas enviadas a las notificaciones de Plaspy
+- Monitoreo de condiciones para carga sensible usando lecturas de temperatura, humedad y presión
+- Seguimiento por proximidad y etiquetado de activos mediante balizas cuando se utiliza como pasarela Bluetooth
+- Rastreo de equipos portátiles donde la alimentación recargable y la carcasa compacta IP65 son prioritarias
 
 ## Por qué elegir este rastreador con Plaspy
 
-El GPT45 es una opción práctica para organizaciones que requieren un rastreador recargable y compacto que integre ubicación, eventos de movimiento y lecturas ambientales en una sola plataforma de monitoreo. Su conjunto de sensores y la puerta de enlace opcional para balizas permiten ampliar los casos de uso de Plaspy más allá del rastreo básico, incluyendo monitoreo de condiciones y flujos de trabajo por proximidad sin necesidad de sistemas de hardware separados.
+El GPT45 es una opción práctica para equipos que buscan un equilibrio entre diseño compacto, operación recargable y telemetría multisensor. Su combinación de posicionamiento con respaldo, detección ambiental y la capacidad opcional de pasarela Bluetooth lo hace útil en escenarios de gestión de flotas, protección de activos y monitoreo ambiental. La integración con Plaspy centraliza esos flujos de datos en una sola plataforma para visualización, alertas e informes sin añadir complejidad de hardware innecesaria.
 
-Plaspy puede tomar los flujos de datos del GPT45 y traducirlos en alertas, informes y respuestas automatizadas que se ajusten a operaciones de flota y programas de protección de activos. Para información adicional sobre especificaciones del producto y confirmar las funciones y disponibilidad actuales, por favor visite Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los detalles del fabricante pueden cambiar con el tiempo, así que verifique las especificaciones actuales en el sitio del fabricante https://www.eelink.com.cn/ antes de tomar decisiones de compra o despliegue.
+Para obtener más información sobre Plaspy visite https://www.plaspy.com. Las especificaciones del producto, la disponibilidad y los datos del fabricante pueden cambiar con el tiempo, por lo que verifique las especificaciones actuales y la documentación en el sitio oficial de EElink https://www.eelink.com.cn/.

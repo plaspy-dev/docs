@@ -80,22 +80,22 @@ Siga estos pasos prácticos para configurar un GP4000 para Plaspy usando método
 El Jointech GP4000 puede configurarse mediante comandos SMS. Los siguientes comandos públicos muestran la sintaxis típica de SMS. Reemplace los marcadores con los valores de su dispositivo y los datos APN de su operador.
 
 - Nota sobre los marcadores
-  - {{trackerID}} debe sustituirse por el IMEI de su equipo o el ID del rastreador según lo requiera Jointech
+  - [trackerID] debe sustituirse por el IMEI de su equipo o el ID del rastreador según lo requiera Jointech
   - [apn] es la cadena APN del operador móvil para datos
   - [apnu] y [apnp] son el usuario y la contraseña del APN opcionales si su operador los solicita
 
 1. Establecer el servidor GPRS y el APN
 ```text
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 o usando el dominio del servidor
 ```text
-({{trackerID}},2,S02,129,1,d.plaspy.com,8888,[apn])
+([trackerID],2,S02,129,1,d.plaspy.com,8888,[apn])
 ```
 
 2. (Opcional) Configurar usuario y contraseña del APN si lo requiere el operador
 ```text
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 
 Instrucciones

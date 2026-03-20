@@ -76,17 +76,17 @@ El LT-501E se configura para enviar sus paquetes de reporte al endpoint y puerto
 Los siguientes comandos de ejemplo se extraen de contenido público de configuración del LT-501E. Estos comandos están pensados para enviarse por SMS al rastreador. Conserve los marcadores de posición y calcule el checksum exactamente como lo exige el dispositivo antes de enviar.
 
 Notas sobre los marcadores de posición
-- {{imei}} es el IMEI del dispositivo y debe reemplazarse por el IMEI del rastreador
+- [imei] es el IMEI del dispositivo y debe reemplazarse por el IMEI del rastreador
 - [apn] es el nombre del APN celular, si aplica
 - [apnu] es el nombre de usuario del APN si su operador lo requiere
 - [apnp] es la contraseña del APN si su operador lo requiere
 - E0 y E1 en el comando se utilizan para establecer la IP y el puerto del servidor Plaspy respectivamente
-- El sufijo *{{checksum}} o *{{checksumreeboot}} debe reemplazarse con el checksum calculado por el dispositivo sobre la parte del comando anterior al asterisco, usando el algoritmo de checksum del rastreador
+- El sufijo *[checksum] o *[checksumreeboot] debe reemplazarse con el checksum calculado por el dispositivo sobre la parte del comando anterior al asterisco, usando el algoritmo de checksum del rastreador
 
 1. Comando de configuración para apuntar el rastreador a Plaspy y establecer parámetros de red
 
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 - Este comando establece los marcadores de APN y la IP y el puerto del servidor Plaspy.
@@ -96,14 +96,14 @@ GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{ch
 2. Comando opcional de reinicio para aplicar los ajustes inmediatamente
 
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 - Este comando de reinicio se muestra en ejemplos públicos de configuración y puede usarse después de aplicar los ajustes para asegurar que el dispositivo arranque con la nueva configuración.
 - Considere este paso como opcional y utilícelo cuando las instrucciones del fabricante indiquen que es necesario reiniciar para aplicar cambios.
 
 Cálculo del checksum
-- El checksum del dispositivo se calcula como una XOR de los códigos ASCII de los caracteres en el segmento del comando anterior al asterisco. El resultado se representa como una cadena hexadecimal de dos caracteres en mayúsculas. Reemplace {{checksum}} o {{checksumreeboot}} con ese valor hexadecimal.
+- El checksum del dispositivo se calcula como una XOR de los códigos ASCII de los caracteres en el segmento del comando anterior al asterisco. El resultado se representa como una cadena hexadecimal de dos caracteres en mayúsculas. Reemplace [checksum] o [checksumreeboot] con ese valor hexadecimal.
 
 ## Notas de configuración
 

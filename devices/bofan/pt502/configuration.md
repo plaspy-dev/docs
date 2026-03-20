@@ -82,7 +82,7 @@ The PT502 public configuration examples show SMS commands used for device setup.
 000000DFT
 ```
 
-- Set a 14 digit identifier used with the platform. Replace \\<14-digit-id> with the last 14 digits of the device IMEI:
+- Set a 14 digit identifier used with the platform. Replace \<14-digit-id> with the last 14 digits of the device IMEI:
 ```text
 000000GID<14-digit-id>
 ```

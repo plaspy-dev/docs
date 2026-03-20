@@ -4,77 +4,79 @@ id: got08-protocol
 sidebar_label: Protocol
 title: EElink - GOT08 Protocol
 sidebar_class_name: menu_item_tracker
-description: Notas públicas sobre el protocolo del rastreador OBD EElink GOT08 y cómo comunica ubicación y telemetría con Plaspy
+description: Contexto público del protocolo del EElink GOT08 y cómo envía datos a Plaspy para telemetría y seguimiento
 keywords:
   - protocolo EElink GOT08
-  - protocolo GOT08 GPS
-  - EElink GOT08 Plaspy
+  - rastreador GPS GOT08
+  - compatibilidad EElink GOT08 Plaspy
   - protocolo de comunicación GOT08
   - protocolo de rastreo GOT08
-  - protocolo rastreador GPS EElink
-  - rastreador OBD GPS Plaspy
-  - rastreo de vehículos GOT08
-  - gestión de flotas GOT08
-  - compatibilidad rastreador Plaspy
+  - protocolo OBD GPS EElink
+  - telemetría vehicular GOT08
+  - protocolo de dispositivo Plaspy
+  - compatibilidad de rastreadores Plaspy
+  - rastreo de flotas GOT08
 ---
 
 # EElink - Protocolo GOT08
 
-Esta página describe el contexto público del protocolo para usar el rastreador OBD EElink GOT08 con Plaspy. Explica cómo el dispositivo reporta ubicación y telemetría OBD a Plaspy y qué ajustes de conexión se usan para el servicio. El contenido se centra en detalles de integración públicamente utilizables y expectativas operativas, más que en internos de firmware o definiciones propietarias de paquetes.
+Esta página describe el contexto público del protocolo para usar el rastreador OBD GPS EElink GOT08 con la plataforma Plaspy. Se centra en cómo se comunica el dispositivo en términos generales, de qué manera Plaspy consume esos datos y qué considerar al configurar y validar los reportes del dispositivo para el monitoreo de flotas y vehículos.
 
-Plaspy emplea ajustes de conexión compartidos entre los dispositivos compatible y detecta automáticamente el protocolo del rastreador cuando el equipo comienza a reportar a la plataforma. El comportamiento exacto respecto a intervalos de reporte, campos de telemetría e identificación del dispositivo puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que conviene verificar detalles específicos del equipo cuando sea necesario.
+Plaspy se apoya en ajustes de conexión compartidos para los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando una unidad reporta al endpoint de Plaspy. El comportamiento exacto del protocolo y la telemetría disponible pueden variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que esta página mantiene un enfoque general y recomienda verificar la documentación del fabricante cuando sea necesario.
 
-## Visión general del protocolo
+## Resumen del protocolo
 
-El protocolo del GOT08 regula cómo el dispositivo se identifica, abre una sesión hacia un endpoint remoto y envía posición junto con telemetría derivada del OBD a un servidor. Para la integración con Plaspy, los aspectos públicos más importantes son cómo el rastreador localiza el endpoint de Plaspy y cómo envía sus informes regulares y señales de mantenimiento de conexión.
+El GOT08 utiliza el factor de forma OBD-II para recopilar posición GNSS y telemetría del vehículo, y para transmitir esa información a un servidor remoto. En el contexto de Plaspy, el protocolo del dispositivo regula cómo el rastreador se identifica ante el servidor, cómo informa la ubicación y los parámetros OBD, y cómo mantiene una conexión continua para actualizaciones en tiempo real y cargas de datos registrados.
 
-- La información de identificación y registro del dispositivo se incluye en los reportes iniciales para que el servidor pueda asociar los datos entrantes a una unidad concreta.
-- Los reportes de ubicación contienen la posición GPS y marcas de tiempo para permitir el seguimiento en tiempo real y la reproducción histórica en Plaspy.
-- La telemetría OBD del vehículo se envía junto con los datos de posición cuando está disponible, permitiendo a Plaspy mapear parámetros del motor y diagnósticos.
-- Los reportes periódicos y las señales de keepalive ayudan al servidor a determinar el estado en línea del dispositivo y la puntualidad de los datos.
-- En la práctica, para el uso con Plaspy el protocolo no depende de un transporte específico, funcionando sobre TCP o UDP según lo soporte el dispositivo y el operador.
+- Permite la transmisión de posición GNSS y telemetría extraída del OBD del vehículo hacia Plaspy para seguimiento en vivo y registros históricos.
+- Proporciona información identificadora para que Plaspy pueda asociar los mensajes entrantes con un dispositivo y perfil de vehículo específicos.
+- Soporta reportes periódicos y basados en eventos, de modo que la ubicación, el encendido y condiciones de falla se manejen en tiempo real.
+- Permite que los datos registrados a bordo se transmitan a Plaspy cuando la conectividad lo permite, garantizando cobertura durante condiciones celulares intermitentes.
+- Actúa como puente entre el hardware GOT08 y los paneles, alertas y análisis de Plaspy sin requerir cambios de cableado en la mayoría de las instalaciones.
 
 ## Cómo Plaspy detecta el protocolo
 
-Plaspy recibe datos de dispositivos en un único endpoint y puerto compartido y puede determinar automáticamente qué protocolo de rastreador está presentando datos. Cuando un GOT08 se configura para enviar reportes al endpoint de Plaspy, la plataforma asocia los flujos entrantes con el registro de dispositivo correspondiente sin que normalmente sea necesaria una selección manual del protocolo.
+Plaspy acepta reportes entrantes desde dispositivos en un endpoint compartido y determina automáticamente el protocolo del rastreador para los dispositivos soportados. Cuando el GOT08 está configurado para reportar a Plaspy, la plataforma usa su endpoint y el contexto de conexión para identificar el tipo de dispositivo y convertir los datos entrantes en campos de telemetría utilizables.
 
-- Plaspy escucha el tráfico de dispositivos en el endpoint d.plaspy.com y en la IP pública 54.85.159.138.
-- Todos los dispositivos en Plaspy usan el mismo puerto para reportes, por lo que la configuración es consistente entre modelos.
-- Los equipos pueden configurarse para conectar vía UDP o TCP en el puerto 8888 según el dispositivo y las preferencias del operador.
-- Cuando un dispositivo correctamente configurado reporta al endpoint de Plaspy, el sistema detecta automáticamente el protocolo del rastreador.
-- Generalmente, usted no necesita elegir un protocolo dentro de Plaspy si el dispositivo apunta correctamente al endpoint de Plaspy y está enviando reportes.
+- Los dispositivos reportan a la dirección del servidor de Plaspy d.plaspy.com o a la IP del servidor 54.85.159.138 cuando están configurados para Plaspy.
+- Todos los dispositivos compatibles con Plaspy usan el mismo puerto, lo que simplifica la provisión y reduce errores de configuración.
+- El endpoint de Plaspy escucha en el puerto 8888 y puede aceptar datos de rastreadores que usan transporte UDP o TCP.
+- En la mayoría de los casos usted no necesita seleccionar manualmente un protocolo dentro de Plaspy siempre que el GOT08 esté configurado para reportar al endpoint y puerto de Plaspy.
+- Una identidad y reporte correctos del dispositivo permiten a Plaspy mapear los campos entrantes a los atributos correctos del vehículo y la telemetría.
 
 ## Transporte y contexto de conexión
 
-El contexto de conexión describe cómo el GOT08 alcanza Plaspy y qué opciones de transporte están disponibles. Para la integración con Plaspy, los hechos públicos son sencillos: direccione el dispositivo al endpoint de Plaspy y use el puerto de reporte compartido que soporta la plataforma.
+El contexto de conexión describe cómo el GOT08 alcanza Plaspy más que los detalles de bajo nivel del paquete. El rastreador puede configurarse para usar transporte UDP o TCP y debe apuntar al endpoint y puerto compartidos de Plaspy para asegurar la entrega correcta de la telemetría.
 
-- Los dispositivos pueden configurarse usando UDP o TCP en el puerto 8888 según el firmware del equipo y el entorno de red.
-- El rastreador puede configurarse para reportar a d.plaspy.com o directamente a 54.85.159.138 como endpoint alternativo.
-- Plaspy utiliza el mismo puerto para todos los dispositivos soportados, lo que simplifica la configuración masiva y el despliegue.
-- Ajustes de la red celular como APN y permisos del operador afectan si el rastreador puede alcanzar el endpoint de Plaspy desde el vehículo.
-- Firewalls y NAT del operador pueden impactar la conectividad, por lo que valide el acceso saliente al puerto 8888 en la red escogida.
+- El GOT08 puede configurarse para usar UDP o TCP en el puerto 8888 según el soporte del dispositivo y el modo de transporte elegido.
+- El endpoint público de reporte de Plaspy es d.plaspy.com y la IP del servidor es 54.85.159.138 para dispositivos que requieren una dirección IP.
+- El puerto 8888 se usa para todos los dispositivos compatibles con Plaspy, permitiendo una única configuración de puerto de salida entre modelos.
+- Elegir UDP puede reducir la latencia en actualizaciones frecuentes de ubicación, mientras que TCP ofrece una opción orientada a conexión cuando el dispositivo lo soporta.
+- Asegúrese de que la red del vehículo o de la flota permita tráfico de salida hacia el endpoint de Plaspy y al puerto 8888 para una entrega confiable.
 
 ## Notas sobre compatibilidad del protocolo
 
-- Las versiones de firmware pueden modificar campos de mensaje y comportamientos de reporte; revise las notas de la versión del firmware del dispositivo al diagnosticar problemas.
-- Las revisiones de hardware a veces ajustan parámetros OBD disponibles o los tiempos de interfaz, lo que puede cambiar qué telemetría se reporta a Plaspy.
-- Algunas configuraciones del fabricante permiten cambiar entre los transportes TCP y UDP; confirme qué transporte está configurado antes del despliegue.
-- Las configuraciones por defecto del fabricante pueden apuntar a otro servidor; asegúrese de que el GOT08 esté configurado para usar el endpoint de Plaspy para una integración correcta.
-- Verifique que el vehículo exponga los PIDs OBD deseados, ya que la telemetría disponible depende de la marca y modelo del vehículo.
-- Pruebe un dispositivo de forma completa con Plaspy antes de desplegar una flota grande para confirmar compatibilidad y mapeo de campos de telemetría.
+- Las revisiones de firmware pueden agregar, eliminar o modificar qué parámetros OBD reporta el GOT08; verifique la versión de firmware del dispositivo al comprobar compatibilidad.
+- Las revisiones de hardware y las variantes regionales a veces cambian el comportamiento o el nombre de los parámetros; consulte la documentación del lote de producto si está disponible.
+- La selección del transporte (UDP vs TCP) debe coincidir con lo que el dispositivo soporta y con las restricciones del operador o la red en su zona de despliegue.
+- Algunos parámetros OBD dependen del vehículo; no todos los vehículos exponen la misma telemetría aun cuando el rastreador y la plataforma los soporten.
+- Valide el reporte del dispositivo en un vehículo de prueba antes del despliegue masivo para confirmar que Plaspy recibe la telemetría e identificadores esperados.
+- Consulte la documentación del fabricante para ajustes específicos del dispositivo que habiliten o deshabiliten métricas OBD particulares o modos de reporte.
 
-## Por qué entender el protocolo es importante
+## Por qué es importante comprender el protocolo
 
-Tener un conocimiento práctico del protocolo de comunicación del GOT08 facilita la configuración, la resolución de problemas y el mantenimiento de un flujo de datos fiable hacia Plaspy. Saber qué envía el dispositivo y cómo se conecta reduce el tiempo de despliegue y ayuda a diagnosticar problemas de conectividad o de mapeo de telemetría.
+Comprender cómo el GOT08 se comunica con Plaspy mejora el éxito de la configuración, reduce el tiempo de resolución de problemas y ayuda a garantizar la confiabilidad a largo plazo del monitoreo de flotas. Tener claridad sobre el contexto de comunicación le permite validar que la ubicación y la telemetría OBD lleguen completas y se mapeen correctamente dentro de Plaspy.
 
-- Configuración más rápida al comprobar que los ajustes de reporte del dispositivo coincidan con el endpoint y el transporte esperados por Plaspy.
-- Resolución de problemas más sencilla al poder verificar si el dispositivo está alcanzando d.plaspy.com o 54.85.159.138 en el puerto 8888.
-- Mejor mapeo de telemetría porque puede comprobar qué parámetros OBD exponen el dispositivo y el vehículo.
-- Despliegues de flota más predecibles al estandarizar firmware y opciones de transporte entre unidades.
-- Planificación de mantenimiento más informada cuando se sabe que actualizaciones de firmware o cambios de hardware pueden afectar el comportamiento de reporte.
+- Agiliza la resolución de problemas al aclarar si un inconveniente es de transporte, configuración o del dispositivo.
+- Asegura que el mapeo de telemetría en Plaspy coincida con los campos expuestos por el GOT08 para paneles y alertas significativas.
+- Ayuda a planificar reglas de red y firewall para permitir tráfico de salida hacia d.plaspy.com o la IP del servidor en el puerto 8888.
+- Orienta las decisiones de actualización de firmware cuando se requieren nuevos campos de telemetría o cambios de comportamiento.
+- Reduce el riesgo de despliegue al promover la validación previa de la configuración de reporte, identidad y transporte.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el GOT08 con Plaspy ofrece una vía rápida a la visibilidad de flotas gracias al factor de forma OBD plug and play del rastreador. Las organizaciones pueden beneficiarse de ubicación en tiempo real, historiales de viaje y telemetría OBD sin instalaciones complejas, lo que permite despliegues más rápidos y una supervisión operativa eficiente.
+Usar el EElink GOT08 con Plaspy ofrece un camino de bajo fricción hacia la visibilidad del vehículo y telemetría accionable. El conector OBD-II facilita la instalación en flotas grandes, y Plaspy ingiere datos de ubicación y diagnósticos para apoyar el rastreo, la planificación de mantenimiento y las alertas sin cableado complejo.
 
-Plaspy centraliza los datos entrantes del GOT08 en una única plataforma donde se pueden aplicar de forma consistente alertas, geocercas y análisis históricos en una flota mixta. Para saber más sobre Plaspy y las capacidades de la plataforma visite https://www.plaspy.com. Tenga en cuenta que el soporte de protocolo, el comportamiento del firmware y los detalles de implementación del dispositivo pueden cambiar con el tiempo; verifique la información más reciente del protocolo y del firmware del dispositivo con el fabricante en https://www.eelink.com.cn/.
+El modelo de endpoint compartido de Plaspy y la detección automática de protocolo permiten que muchas unidades GOT08 se configuren para reportar a los mismos ajustes de Plaspy (d.plaspy.com o 54.85.159.138 en el puerto 8888) y comiencen a transmitir datos útiles con rapidez. Para organizaciones que necesitan seguimiento centralizado, análisis de conductores y vehículos, y reportes históricos, el GOT08 junto con Plaspy ofrece una combinación práctica para una implementación rápida y supervisión continua de la flota.
+
+Learn more about Plaspy and how it integrates with vehicle trackers on the Plaspy website https://www.plaspy.com. Note that protocol support, firmware behavior, and device implementation details can change over time, so verify the latest device specific information on the manufacturer site https://www.eelink.com.cn/.

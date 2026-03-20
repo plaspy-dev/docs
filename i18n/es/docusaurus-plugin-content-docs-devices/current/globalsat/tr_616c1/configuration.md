@@ -83,24 +83,24 @@ Nota sobre el formato usado por Plaspy
 
 Comando de configuración
 - Reemplace los marcadores antes de enviar
-- {{imei}} es el IMEI del dispositivo
+- [imei] es el IMEI del dispositivo
 - [apn] es el APN de su proveedor celular
 - [apnu] es el usuario APN si se requiere
 - [apnp] es la contraseña APN si se requiere
-- {{checksum}} debe calcularse como el checksum XOR de la cadena del comando antes del asterisco en formato hexadecimal en mayúsculas de dos dígitos
+- [checksum] debe calcularse como el checksum XOR de la cadena del comando antes del asterisco en formato hexadecimal en mayúsculas de dos dígitos
 
 Example SMS setup command
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Comando de reinicio
 - Reinicio opcional para aplicar los ajustes inmediatamente
-- {{checksumreeboot}} es el checksum para la cadena del comando de reinicio
+- [checksumreeboot] es el checksum para la cadena del comando de reinicio
 
 Example SMS reboot command
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Explicación del checksum

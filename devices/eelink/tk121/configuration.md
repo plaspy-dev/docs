@@ -4,132 +4,128 @@ id: tk121-configuration
 sidebar_label: Configuration
 title: EElink - TK121 Configuration
 sidebar_class_name: menu_item_tracker
-description: Public configuration guide for EElink TK121 showing Plaspy server settings and SMS commands for quick integration
+description: Public configuration guide for EElink TK121 to connect with Plaspy including server settings SMS commands and setup checks
 keywords:
   - EElink TK121 configuration
   - EElink TK121 setup
   - EElink TK121 server configuration
-  - Plaspy tracker setup
-  - Plaspy server configuration
-  - TK121 SMS configuration
-  - TK121 MoveLink setup
-  - TK121 GPS tracker setup
-  - vehicle tracking TK121
-  - fleet tracker EElink
+  - EElink TK121 Plaspy
+  - Plaspy tracker configuration
+  - GPS tracker SMS commands
+  - MoveLink tracker setup
+  - vehicle tracker configuration
+  - TK121 APN settings
+  - TK121 timer settings
 ---
 
 # EElink - TK121 Configuration
 
-This page describes the public configuration context for using the EElink TK121 tracker with the Plaspy platform. It gathers the practical server settings, typical prerequisites, and the common SMS commands published for TK121 setup so you can prepare the device for visibility in Plaspy.
+This page covers the public configuration context for using the EElink TK121 GPS tracker with the Plaspy platform. It collects the practical setup steps and publicly available SMS configuration commands used to point the TK121 at Plaspy so the device can report location and events into a Plaspy account. Use this document as a practical guide; consult the official manufacturer documentation for device specific details.
 
-Plaspy uses shared server settings across supported trackers and automatically detects the tracker protocol on connection. Exact manufacturer side steps can vary by firmware revision, hardware batch, installation type, and vendor configuration tools, so use the guidance here together with the TK121 manufacturer documentation and your installation procedures.
+Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol when the device connects. Exact manufacturer side setup steps can vary with firmware, hardware revision, installation type, or vendor tools, so treat the commands and workflow here as the common, publicly shared approach for integrating TK121 devices with Plaspy.
 
 ## Configuration Overview
 
-This guide focuses on preparing the TK121 to send location and event data to Plaspy by applying the platform server settings and validating connectivity. The TK121 supports remote parameter setting via SMS and standard MoveLink protocol integration, which allows straightforward server assignment and periodic reporting.
+This configuration process prepares the TK121 to communicate with Plaspy so location and event data appear in the platform reliably. The public configuration flow commonly uses SMS commands or the manufacturer configuration tool to set APN, server endpoint, reporting interval, and optional factory reset or verification commands.
 
-- Configure the TK121 to point at the Plaspy server so telemetry is delivered to your Plaspy account.
-- Set operator APN and GPRS parameters so the tracker can use the mobile data connection.
-- Apply reporting interval settings to control how frequently the device sends position updates.
-- Validate configuration and confirm the device appears as online in Plaspy.
-- Optionally perform a factory reset or parameter check if you inherit an already configured unit.
+- Configure the device APN so it can use cellular data for GPRS reporting.
+- Point the device to the Plaspy server endpoint so telemetry is delivered to Plaspy.
+- Set a suitable reporting interval such as 60 seconds to match monitoring needs.
+- Optionally restore factory settings before a fresh deployment to avoid conflicting parameters.
+- Verify parameters remotely using the device parameter check command to confirm connectivity.
 
 ## Plaspy Server Settings
-
-Use the following public settings when configuring the TK121 for Plaspy:
 
 - Server domain d.plaspy.com
 - Server IP 54.85.159.138
 - Port 8888
-- Transport support for UDP or TCP; choose the transport your device or firmware requires
-- Plaspy automatically detects the tracker protocol after the device connects
+- Transport support for UDP or TCP
+- Plaspy automatically detects the tracker protocol when the device connects
 
-All Plaspy devices use the same port for server communication and the platform will detect the tracker protocol automatically.
+These values are the shared Plaspy endpoint settings used for TK121 devices. All devices in Plaspy use the same port and Plaspy will detect the correct protocol automatically.
 
 ## Typical Requirements Before Setup
 
-- A powered TK121 unit installed or connected to a stable power source for initial configuration.
-- A working SIM card with mobile data enabled and SMS capability if you use SMS commands for setup.
-- Access to the TK121 configuration method supported for your unit such as SMS, manufacturer software, or a vendor tool.
-- The correct APN and optional APN username and password for the SIM operator.
-- A Plaspy account or the necessary server details to register and validate the device in your platform instance.
-- Basic knowledge of sending SMS commands to the tracker if you will use SMS configuration.
+- A powered and accessible TK121 unit with a valid SIM card that can use mobile data and receive SMS.
+- APN information for the SIM operator to allow GPRS connectivity.
+- Access to the EElink manufacturer SMS command method or an official EElink configuration tool.
+- A Plaspy account configured to accept device connections and the device identified in the platform.
+- Basic familiarity with sending SMS commands from a mobile phone or service and checking device responses.
 
 ## How This Tracker Connects to Plaspy
 
-The TK121 is configured to report to the shared Plaspy server endpoint and port so location and event telemetry arrive in your Plaspy account. Once the server address and APN are set the device will establish a GPRS data session and transmit MoveLink protocol messages to Plaspy.
+The TK121 is configured to send GPRS uplink data to Plaspy using the shared server endpoint and port. Once the device is pointed at Plaspy and the APN is set, the tracker will report position updates and events so Plaspy can display live location and trigger alerts or workflows.
 
-- The device sends periodic location and status updates to d.plaspy.com or 54.85.159.138 on port 8888.
-- Transport can be UDP or TCP depending on device settings and network characteristics.
-- Plaspy automatically detects the tracker protocol and decodes MoveLink messages for display and alerting.
-- Events such as ignition state, alarms, and telemetry are forwarded to Plaspy for real time monitoring.
-- Successful configuration enables device visibility and event streams in Plaspy dashboards and reports.
+- The device reports GNSS positions and fallbacks (LBS) to the Plaspy server endpoint.
+- Telemetry and event data are delivered to d.plaspy.com or 54.85.159.138 on port 8888.
+- Plaspy automatically detects the tracker protocol when the connection is established.
+- Transport can be configured as UDP or TCP depending on device requirement; port remains 8888.
+- Reported updates and alarms become visible in Plaspy for monitoring and incident handling.
 
 ## Common Configuration Workflow
 
-1. Access the official EElink configuration method for TK121 (SMS commands, vendor tool, or manufacturer software) as provided by the supplier or manufacturer documentation.
-2. Set the operator APN and optional credentials so the device can open a GPRS data session. Use the APN placeholders if needed.
-3. Enter the Plaspy server as either d.plaspy.com or 54.85.159.138 and set the device port to 8888.
-4. Choose UDP or TCP transport on the device if it requires an explicit transport selection.
-5. Apply or save configuration on the device (send the SMS commands or save from the configuration tool).
-6. Restart or power cycle the tracker if recommended by the manufacturer to ensure new parameters take effect.
-7. Validate the device reports to Plaspy and appears online in the platform; check telemetry and the first location fix.
+1. Access the official EElink configuration method for your TK121 such as SMS commands, the EElink configuration tool, or vendor software.
+2. Set the device APN using the APN command with your operator credentials.
+3. Enter the Plaspy server by configuring either the domain d.plaspy.com or the server IP 54.85.159.138.
+4. Set the port to 8888 in the server configuration.
+5. Choose UDP or TCP if the device requires an explicit transport selection.
+6. Apply or save the configuration and restart the tracker if required by the device.
+7. Validate that the device reports to Plaspy by checking parameters and observing the device status in Plaspy.
 
-If you are using SMS for configuration, follow the exact SMS command format from the TK121 documentation and the examples in the next section.
+If you use the SMS method shown in the Example Configuration Commands below, follow the commands in the order shown and use PARAM# to verify settings.
 
 ## Example Configuration Commands
 
-The TK121 supports parameter setting by SMS. The following public SMS commands are presented in the native order useful for initial setup. Keep the placeholders exactly as shown and replace them with your operator values.
+The TK121 supports configuration by SMS. Below are the publicly available SMS commands presented in order. Send each command as an SMS to the tracker phone number. Keep placeholders as shown.
 
-- Optional initial factory reset (use only when required):
+- Optional initial factory reset (only use if you need to clear existing settings)
 ```text
 FACTORY#
 ```
 
-- Set the time zone to UTC 0 (example shown):
+- Set the time zone to UTC 0
 ```text
 GMT,E,0#
 ```
 
-- Set the operator APN. Replace [apn] with your APN. If your APN requires username and password, include [apnu] and [apnp] where supported by the device:
+- Set the operator APN
+Note: [apn] is the APN name for your SIM operator. If the operator requires an APN username or password use [apnu] and [apnp] as provided by your operator. Keep these placeholders and replace them with the real values when sending.
 ```text
-APN,[apn]{{apnu and apnp placeholder}},[apnu],[apnp]#
+APN,[apn][ ,[apnu],[apnp]]#
 ```
-Note: If the device firmware uses a different APN command format, use the manufacturer provided syntax. The placeholders [apn], [apnu], and [apnp] are shown as the public placeholders from the TK121 command set.
 
-- Set the GPRS server to use the Plaspy domain on port 8888:
+- Set the GPRS server using the Plaspy domain (use this form to send by domain)
 ```text
 SERVER,1,d.plaspy.com,8888#
 ```
 
-- Alternatively set the GPRS server to the Plaspy IP on port 8888:
+- Alternatively set the GPRS server using the Plaspy IP (use this form to send by IP)
 ```text
 SERVER,0,54.85.159.138,8888#
 ```
-Use the domain if DNS is available and preferred; use the IP if DNS is not available or if instructed by the installer.
 
-- Set the position update interval to 60 seconds:
+- Set the periodic update interval to 60 seconds
 ```text
 TIMER,60#
 ```
 
-- Check current parameter settings:
+- Check current parameters on the device
 ```text
 PARAM#
 ```
 
-Preserve the order above when performing an initial configuration: APN then server then timer, and check parameters with PARAM#. Label the factory reset command as optional and use it only when you need to clear existing settings.
+Use the SERVER command variant that matches your preference for domain or IP. After sending the SERVER and APN commands, give the device a short time to establish GPRS connectivity and then use PARAM# to confirm.
 
 ## Configuration Notes
 
-- TK121 supports SMS based parameter setting as shown; the exact SMS syntax can vary by firmware, so confirm with the device manual.
-- Choose UDP or TCP based on device firmware support and your network conditions; Plaspy accepts both transports on port 8888.
-- Use d.plaspy.com when the device supports DNS resolution; use 54.85.159.138 when DNS is unavailable or unreliable.
-- Firmware version and hardware revision can change command formats. Verify commands against the current TK121 manual or vendor tool.
-- Plaspy uses the same port for all supported devices and will detect the tracker protocol automatically after the device connects.
+- Firmware and hardware revisions may alter the exact SMS command syntax or available parameters; always verify against the device firmware notes.
+- SMS based configuration is commonly supported for TK121 but manufacturer tools or vendor portals may offer a GUI alternative.
+- Choose UDP or TCP according to installer preference or network constraints; Plaspy accepts either on port 8888.
+- Plaspy uses the same port for all supported devices and automatically detects the tracker protocol, so consistent use of port 8888 simplifies multi device fleets.
+- Keep APN credentials secure and confirm operator settings before deployment to avoid connectivity delays.
 
 ## Why Use Plaspy with This Configuration
 
-Configuring the TK121 to report to Plaspy gives fleet teams and security operators centralized, real time visibility into vehicle location, ignition state, and alarms. Using the shared Plaspy server settings simplifies deployment because the same port and server endpoints apply across supported devices, and Plaspy will handle protocol detection and message decoding for MoveLink compatible trackers.
+Configuring the EElink TK121 to use Plaspy provides centralized visibility of location, ignition state, and alarm events for fleet operations, security monitoring, and incident response. Using the shared Plaspy endpoint and automatic protocol detection reduces per-device configuration complexity and helps standardize deployments across mixed fleets.
 
-To learn more about Plaspy and how the platform collects and displays tracker telemetry visit https://www.plaspy.com. For the latest device specific commands, firmware notes, and manufacturer support information consult the EElink official site https://www.eelink.com.cn/ to verify current procedural and technical details.
+Learn more about how Plaspy can manage TK121 devices and other fleet trackers at https://www.plaspy.com. For the most current device specific commands, firmware details, and manufacturer guidance verify information with the official EElink documentation at https://www.eelink.com.cn/ as methods and firmware behavior can change over time.

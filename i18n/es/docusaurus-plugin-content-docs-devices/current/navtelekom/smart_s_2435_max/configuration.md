@@ -4,91 +4,92 @@ id: smart_s_2435_max-configuration
 sidebar_label: Configuration
 title: Navtelekom - SMART S-2435 MAX Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública para configurar Navtelekom SMART S-2435 MAX con Plaspy usando servidor compartido y pasos prácticos
+description: Guía pública de configuración para Navtelekom SMART S-2435 MAX con ajustes de servidor Plaspy y pasos prácticos
 keywords:
   - Configuración Navtelekom SMART S-2435 MAX
-  - Configuración tracker Navtelekom Plaspy
-  - Configuración servidor SMART S-2435 MAX
-  - Configuración SMART S-2435 MAX para Plaspy
-  - Configuración GPS SMART S-2435 MAX
-  - Configuración plataforma GPS Navtelekom
-  - Integración telemática SMART S-2435 MAX
-  - Configuración dispositivo Plaspy
-  - Seguimiento de flotas Navtelekom
-  - Rastreo vehicular SMART S-2435 MAX
+  - Configuración SMART S-2435 MAX
+  - Rastreador Navtelekom Plaspy
+  - Configuración de rastreador Plaspy
+  - Guía de configuración de rastreador GPS
+  - Configuración de rastreador de vehículo
+  - Configuración de seguimiento de flotas
+  - Configuración Plaspy SMART S-2435 MAX
+  - Configuración de rastreador GPS Navtelekom
+  - Configuración del servidor de rastreador
 ---
 
-# Navtelekom - Configuración del SMART S-2435 MAX
+# Navtelekom - SMART S-2435 MAX Configuración
 
-Esta página describe el contexto público de configuración para utilizar el rastreador Navtelekom SMART S-2435 MAX con Plaspy. Reúne la información práctica sobre servidor y parámetros que usted necesita para apuntar el equipo a Plaspy, indica qué verificar antes de la integración y describe el flujo de trabajo típico utilizado por instaladores y técnicos de flota. La descripción del dispositivo destaca las funciones del SMART S-2435 MAX relevantes para la integración con Plaspy, incluyendo GLONASS/GPS, batería de respaldo, módem 2G con doble SIM y amplias entradas/salidas para telemetría y control.
+Esta página documenta el contexto público de configuración para usar el Navtelekom SMART S-2435 MAX con Plaspy. Resume los valores de servidor prácticos y el flujo de trabajo necesario para apuntar el dispositivo a Plaspy, tomando como base las capacidades del equipo: posicionamiento GLONASS/GPS, módem dual SIM 2G con antena GSM interna, antena GNSS/GPS interna, batería de respaldo y múltiples opciones de E/S para integración de telemetría.
 
-Plaspy utiliza ajustes de servidor compartidos para los dispositivos compatibles y realiza detección automática del protocolo, por lo que no es necesario elegir un servidor por protocolo para cada unidad. Los pasos de configuración por parte del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Use las indicaciones de esta página junto con la documentación de Navtelekom y las notas de firmware de su equipo para completar la integración.
+Plaspy utiliza ajustes de servidor compartidos para los dispositivos soportados y detecta automáticamente el protocolo del rastreador, pero los pasos de configuración del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Use esta guía para conocer los valores de servidor necesarios en Plaspy y la secuencia típica de acciones; confirme siempre los comandos específicos del dispositivo y el comportamiento del firmware con la documentación oficial de Navtelekom.
 
-## Resumen de configuración
+## Resumen de la configuración
 
-El proceso de configuración prepara el SMART S-2435 MAX para comunicarse de manera confiable con Plaspy y garantiza que el dispositivo aparezca en la plataforma para seguimiento en tiempo real e informes. Configurar correctamente la unidad establece el punto final del servidor y el transporte, confirma la conectividad celular y habilita la telemetría y el reporte de eventos que Plaspy utiliza para alertas e historial.
+Este proceso prepara el SMART S-2435 MAX para enviar posiciones GNSS y telemetría a la plataforma Plaspy y valida que el dispositivo aparezca y reporte correctamente en el sistema.
 
-- Apunte el rastreador al servidor de Plaspy usando el dominio o IP proporcionados y el puerto compartido de Plaspy.
-- Configure la conectividad celular, incluyendo SIM y APN, para que el módem 2G con doble SIM pueda alcanzar Plaspy.
-- Seleccione el transporte (UDP o TCP) en el dispositivo si es necesario y guarde la configuración.
-- Aplique cambios de firmware o parámetros con la herramienta del fabricante como NTC Configurator, configurador Bluetooth u otros métodos oficiales de Navtelekom.
-- Valide que el dispositivo reporte GNSS y telemetría a Plaspy y que los eventos se muestren en la plataforma.
+- Configure el rastreador para que reporte al endpoint de servidor de Plaspy y así los datos sean recibidos en tiempo real.
+- Seleccione el transporte (UDP o TCP) y asegúrese de que el dispositivo use el puerto compartido de Plaspy para que la plataforma acepte las conexiones entrantes.
+- Guarde y aplique la configuración del dispositivo usando la herramienta oficial de Navtelekom o métodos locales compatibles.
+- Reinicie o haga un ciclo de energía del equipo si es necesario, luego valide la conectividad y el reporte en Plaspy.
+- Verifique que los canales de telemetría, como entradas universales, salidas y sensores Bluetooth, estén habilitados y sean visibles en Plaspy.
 
-## Ajustes del servidor de Plaspy
+## Ajustes del servidor Plaspy
 
-- server domain d.plaspy.com
-- server IP 54.85.159.138
-- port 8888
-- transport support for UDP or TCP
-- automatic protocol detection in Plaspy
+- Dominio del servidor d.plaspy.com
+- IP del servidor 54.85.159.138
+- Puerto 8888
+- Soporta transporte UDP o TCP según la selección del dispositivo
+- Plaspy detecta automáticamente el protocolo del rastreador y usa el mismo puerto para todos los dispositivos soportados
 
-Nota: El SMART S-2435 MAX puede configurarse para enviar datos a d.plaspy.com o directamente a 54.85.159.138 usando el puerto 8888. Plaspy utiliza el mismo puerto para todos los dispositivos compatibles y detecta automáticamente el protocolo del rastreador.
+## Requisitos típicos antes de la configuración
 
-## Requisitos previos típicos
-
-- Una unidad SMART S-2435 MAX con alimentación y accesible, con la batería de respaldo interna cargada si está disponible.
-- Al menos una tarjeta SIM activa y cobertura celular 2G en el área de operación; la doble SIM permite estrategias de conmutación por fallo.
-- Acceso a la herramienta o método de configuración del fabricante apropiado para su unidad, como NTC Configurator, configurador Bluetooth u otro software oficial de Navtelekom.
-- APN y credenciales de SIM configuradas si su operador móvil las requiere.
-- Una cuenta en Plaspy o acceso a la plataforma Plaspy para validar que el dispositivo está reportando después de la configuración.
-- Herramientas básicas para reiniciar o cortar la alimentación del equipo después de aplicar cambios de configuración.
+- Un SMART S-2435 MAX alimentado y accesible, instalado o conectado temporalmente para la configuración.
+- Tarjeta(s) SIM activa(s) insertada(s) si va a usar el enlace celular; compruebe la cobertura GSM para servicio 2G en su zona.
+- Acceso al método de configuración oficial de Navtelekom o al software del fabricante, como el configurador oficial u otras herramientas locales soportadas.
+- Un PC, smartphone o herramienta Bluetooth si la parametrización local requiere configuración por Bluetooth.
+- Conocimiento de la versión de firmware del dispositivo y de cualquier guía específica del proveedor aplicable a su revisión de hardware.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-Una vez configurado, el SMART S-2435 MAX envía posiciones GNSS y telemetría a través de su enlace celular al punto final y puerto compartido de Plaspy. Plaspy recibe esos mensajes, actualiza la ubicación de los vehículos, registra el historial y aplica las reglas o alertas definidas en la plataforma.
+El SMART S-2435 MAX transmite posiciones GNSS y telemetría vía su enlace celular al endpoint y puerto del servidor Plaspy. Una vez dirigido a Plaspy, la plataforma actualiza ubicaciones de vehículos, procesa entradas de telemetría y almacena el historial para reportes y alertas.
 
-- Paquetes de posición GNSS y marcas de tiempo enviados a d.plaspy.com o 54.85.159.138 en el puerto 8888.
-- Informes de telemetría y estado de entradas/salidas reenviados a Plaspy para monitoreo en vivo y evaluación de reglas.
-- Reportes de eventos como entradas, alertas del acelerómetro y salidas de control visibles en los paneles de Plaspy.
-- El dispositivo permanece alcanzable para acciones de control o flujos de trabajo remotos cuando se confirma la telemetría y la conectividad.
-- Plaspy detecta automáticamente el protocolo del rastreador, por lo que la plataforma interpreta los mensajes sin necesidad de seleccionar un protocolo por dispositivo.
+- Actualizaciones de posición GNSS en tiempo real e historial de rutas transmitidos al endpoint de Plaspy (d.plaspy.com / 54.85.159.138) en el puerto 8888.
+- Reportes de telemetría y eventos desde entradas universales e interfaces CAN/serial que se reenvían a Plaspy para monitoreo y procesamiento de reglas.
+- Eventos de control de salidas y acciones remotas reflejadas en los flujos de trabajo de Plaspy cuando son activadas por reglas de la plataforma.
+- Conectividad Bluetooth local para parametrización en sitio y lectura de sensores de corto alcance, con la telemetría resultante enviada a Plaspy a través del enlace celular del dispositivo.
+- Plaspy detecta automáticamente el protocolo del dispositivo, por lo que el rastreador puede usar la configuración estándar de puertos de Plaspy sin diferenciación personalizada del servidor.
 
-## Flujo de configuración típico
+## Flujo de trabajo típico de configuración
 
-1. Acceda al método o software oficial de configuración de Navtelekom para el SMART S-2435 MAX (por ejemplo NTC Configurator, configurador Bluetooth o herramientas del proveedor).
-2. Configure el APN del dispositivo y verifique la conectividad de la SIM para que el módem 2G establezca una sesión de datos.
-3. Ingrese el servidor de Plaspy por nombre de host o IP: use d.plaspy.com o 54.85.159.138.
-4. Establezca el puerto del servidor en 8888 ya que Plaspy usa este puerto compartido para todos los equipos.
-5. Si el dispositivo solicita selección de transporte, elija UDP o TCP según sus requerimientos de red.
-6. Aplique o guarde la configuración y, si el equipo o firmware lo requiere, reinicie la unidad para cargar los ajustes.
-7. Valide que el dispositivo reporte a Plaspy comprobando posiciones en vivo y telemetría en la plataforma Plaspy.
+1. Acceda al método o software oficial de configuración de Navtelekom (por ejemplo, el configurador del fabricante u otra herramienta de parametrización aprobada).
+2. Asegúrese de que las tarjetas SIM estén instaladas y que el dispositivo tenga alimentación y señal celular para conectividad 2G GSM.
+3. Ingrese la dirección del servidor Plaspy como dominio d.plaspy.com o la IP del servidor 54.85.159.138 en el campo de servidor/host del dispositivo.
+4. Ajuste el puerto del dispositivo a 8888 y, si el equipo lo exige, seleccione UDP o TCP como transporte.
+5. Aplique o guarde la configuración en la herramienta del fabricante y cárguela al dispositivo.
+6. Reinicie o haga un ciclo de energía del SMART S-2435 MAX si el firmware requiere un reinicio para aplicar los parámetros de red.
+7. Valide que el dispositivo reporte a Plaspy revisando la actividad del equipo y las posiciones entrantes en la plataforma Plaspy.
 
-## Ejemplos de comandos de configuración
+## Comandos de configuración de ejemplo
 
-El método de configuración del SMART S-2435 MAX depende del firmware y de la herramienta del fabricante que utilice. Los dispositivos Navtelekom se configuran comúnmente con la aplicación NTC Configurator o mediante configuración local por Bluetooth; algunos instaladores también usan SMS o herramientas OEM donde están soportadas. Los comandos exactos y los nombres de parámetros varían según el firmware y la herramienta, por lo que debe consultar la documentación de Navtelekom para la sintaxis específica del equipo y las opciones disponibles.
+Los comandos exactos de configuración y el método para enviarlos dependen del configurador Navtelekom o del firmware del equipo. Algunos instaladores utilizan un configurador con interfaz gráfica, otros emplean herramientas locales por Bluetooth/serial o cadenas SMS cuando están soportadas. Al usar la herramienta del fabricante, ingrese los valores del servidor Plaspy tal como se muestran a continuación en los campos correspondientes de host y puerto:
 
-Si dispone de una lista de comandos proporcionada por el fabricante o un formato SMS de Navtelekom, aplique esos comandos en el orden indicado por el proveedor e incluya el dominio o IP del servidor Plaspy y el puerto 8888 cuando se solicite.
+- Host del servidor: d.plaspy.com o 54.85.159.138
+- Puerto del servidor: 8888
+- Transporte: UDP o TCP
+
+Debido a que los comandos varían según el firmware y la herramienta del fabricante, consulte la documentación del configurador Navtelekom para la sintaxis precisa de los comandos y el procedimiento de carga para su dispositivo. Plaspy detectará automáticamente el protocolo del rastreador una vez que el dispositivo comience a reportar al endpoint y puerto configurados.
 
 ## Notas de configuración
 
-- Las diferencias de firmware pueden cambiar los nombres de parámetros y los flujos de configuración. Confirme la versión de firmware antes de aplicar ajustes y siga las notas de Navtelekom para esa versión.
-- UDP suele tener menor sobrecarga mientras que TCP puede ofrecer garantías de entrega; elija el transporte que se adapte a su red y a los requisitos de fiabilidad, teniendo en cuenta que Plaspy aceptará cualquiera en el puerto 8888.
-- Configure el comportamiento de doble SIM y la prioridad de conmutación según los requerimientos del sitio para que el dispositivo mantenga la conectividad con Plaspy.
-- Los ajustes de APN suelen ser necesarios para datos celulares; campos ejemplo como credenciales del operador deben completarse con los valores proporcionados por su operador móvil.
-- Use herramientas del fabricante como NTC Configurator o recursos oficiales de Navtelekom para editar parámetros en lugar de modificaciones improvisadas para evitar conflictos de parámetros.
+- Las diferencias de firmware y las revisiones de hardware pueden cambiar los nombres exactos de los parámetros, los transportes disponibles o la disposición de la interfaz en la herramienta del fabricante; confirme siempre los parámetros para su versión de firmware.
+- Elija UDP o TCP según su instalación y las indicaciones del configurador Navtelekom; Plaspy acepta cualquiera de los dos transportes en el puerto 8888 y realiza la detección de protocolo automáticamente.
+- Todos los dispositivos Plaspy usan el mismo puerto de escucha, por lo que no necesita puertos únicos por dispositivo; utilice 8888 como puerto estándar.
+- El dispositivo soporta configuración local por Bluetooth para parametrización en sitio; siga los pasos de configuración Bluetooth de Navtelekom cuando estén disponibles.
+- Verifique la SIM y la conectividad celular antes de finalizar la configuración para evitar falsos negativos al validar el reporte en Plaspy.
 
 ## Por qué usar Plaspy con esta configuración
 
-Usar el SMART S-2435 MAX con Plaspy ofrece a gerentes de flota e integradores un camino sencillo hacia el seguimiento en tiempo real, visibilidad de telemetría y alertas basadas en reglas. La capacidad GNSS del dispositivo, el módem 2G con doble SIM, la batería de respaldo y las E/S flexibles lo hacen adecuado para escenarios de monitoreo de vehículos y activos donde la telemetría continua y las acciones remotas son importantes, y Plaspy proporciona la plataforma centralizada para visualización, historial y flujos operativos.
+Usar el SMART S-2435 MAX con Plaspy ofrece una vía eficiente para integrar la telemetría de vehículos y activos en una plataforma centralizada para mapas en vivo, historial de rutas y alertas basadas en eventos. El módem dual SIM 2G del equipo, sus múltiples opciones de E/S y la capacidad de parametrización por Bluetooth lo hacen apropiado para monitoreo de flotas, flujos antirobo y mantenimiento basado en telemetría cuando se conecta a Plaspy.
 
-Para más información sobre Plaspy y su integración con rastreadores Navtelekom visite https://www.plaspy.com. Para instrucciones específicas del dispositivo, lanzamientos de firmware y referencia técnica del SMART S-2435 MAX consulte el sitio del fabricante https://www.navtelecom.ru/ ya que el comportamiento del firmware y los detalles de configuración pueden cambiar con el tiempo.
+Conozca más sobre Plaspy y cómo puede visualizar y gestionar los datos de sus dispositivos en el sitio web de Plaspy https://www.plaspy.com. Los métodos específicos de configuración del dispositivo, el comportamiento del firmware y los detalles del fabricante pueden cambiar con el tiempo, por lo que verifique la información más reciente de configuración y las notas de firmware con el fabricante en https://www.navtelecom.ru/.

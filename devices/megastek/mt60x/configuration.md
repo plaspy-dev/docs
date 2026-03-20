@@ -88,10 +88,10 @@ The MT60X can be configured by sending SMS commands to the device. The sample pu
   - Replace the IMEI placeholder with the device IMEI. The device ID command requires the last 15 digits of the IMEI. Use the last 15 digits as shown in the example replacement note.
 
 1. Set the device ID
-   - Replace {{imei_last15}} with the last 15 digits of the device IMEI
+   - Replace [imei_last15] with the last 15 digits of the device IMEI
 
 ```
-M000000,22,{{imei_last15}}
+M000000,22,[imei_last15]
 ```
 
    Example explanation

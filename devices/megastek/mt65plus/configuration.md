@@ -76,7 +76,7 @@ When configured, the MT65PLUS sends location and event data to Plaspy using the 
 The MT65PLUS may be configured by SMS commands. The public example below follows the manufacturer provided command patterns. The default device SMS password shown in the manufacturer sample is 000000. Replace placeholders as instructed before sending.
 
 Notes on placeholders
-- {{imei}} refers to the device IMEI number. Where the device requires a 15 digit device ID derived from IMEI, use the last 15 digits of the IMEI, padding if needed.
+- [imei] refers to the device IMEI number. Where the device requires a 15 digit device ID derived from IMEI, use the last 15 digits of the IMEI, padding if needed.
 - [apn], [apnu], and [apnp] are placeholders for the operator APN, APN username, and APN password respectively. Provide only the fields required by your mobile operator.
 
 Set device ID using the device password and a 15 digit device identifier

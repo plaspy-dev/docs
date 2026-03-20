@@ -4,124 +4,126 @@ id: got10-configuration
 sidebar_label: Configuration
 title: EElink - GOT10 Configuration
 sidebar_class_name: menu_item_tracker
-description: Configure el EElink GOT10 para Plaspy con ajustes de servidor, comandos SMS y pasos de verificación para rastreo y telemetría OBD
+description: Guía pública de configuración del EElink GOT10 para conectar a Plaspy con ajustes de servidor y comandos SMS
 keywords:
-  - Configuración EElink GOT10
-  - Configurar GOT10 Plaspy
-  - Configuración rastreador OBD EElink
-  - Configuración del servidor GOT10
-  - Comandos SMS GOT10
-  - Configuración APN EElink GOT10
-  - Rastreador compatible con Plaspy
-  - Configuración OBD II GOT10
-  - Configuración rastreador GPS Plaspy
-  - Configuración rastreador diagnóstico vehicular
+  - configuración EElink GOT10
+  - instalación EElink GOT10
+  - EElink GOT10 Plaspy
+  - configuración GOT10
+  - ajustes servidor GOT10
+  - configuración SMS GOT10
+  - configuración APN GOT10
+  - configuración rastreador Plaspy
+  - rastreador GPS Plaspy
+  - configuración rastreador OBD
 ---
 
-# EElink - GOT10 Configuración
+# EElink - Configuración GOT10
 
-Esta página documenta el contexto público de configuración para utilizar el rastreador OBD de diagnóstico EElink GOT10 con la plataforma Plaspy. Reúne los ajustes de servidor prácticos, la guía de flujo de trabajo y los comandos SMS públicamente disponibles que se usan habitualmente para apuntar un dispositivo GOT10 a Plaspy y así enviar telemetría y diagnósticos.
+Esta página describe el contexto público de configuración para usar el EElink GOT10 con Plaspy. Se concentra en los ajustes prácticos del servidor y los comandos que proporciona el fabricante, comúnmente usados para apuntar el dispositivo a Plaspy, y explica qué debe preparar antes de integrar el GOT10 a su flota en Plaspy.
 
-Plaspy emplea ajustes de servidor compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador; sin embargo, los pasos exactos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Las instrucciones a continuación se enfocan en los ajustes públicos de Plaspy y en los comandos SMS del fabricante que se usan en implementaciones típicas.
+Plaspy emplea ajustes de servidor compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador, pero los pasos exactos en el lado del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. El GOT10 combina conexión OBD II y telemetría CAN BUS, y el fabricante facilita un conjunto de comandos basados en SMS que pueden usarse para configurar el envío de datos a Plaspy.
 
-## Resumen de la configuración
+## Resumen de configuración
 
-El objetivo al configurar un GOT10 para Plaspy es asegurar que el dispositivo pueda comunicarse con el punto de conexión compartido de Plaspy, entregar ubicación y telemetría OBD (CAN BUS), y estar visible en la plataforma para monitoreo e informes. Para los dispositivos GOT10 esto normalmente implica enviar comandos SMS del fabricante para establecer el APN, la dirección del servidor y los intervalos de reporte.
+El proceso de configuración prepara al GOT10 para comunicarse de forma confiable con Plaspy y garantiza que el dispositivo reporte la ubicación y la telemetría diagnóstica a la plataforma. En el GOT10 esto suele realizarse mediante comandos SMS para establecer el APN y la dirección y puerto del servidor GPRS, de modo que el equipo pueda transmitir datos a Plaspy.
 
-- Configure el dispositivo para enviar telemetría al endpoint y puerto del servidor Plaspy.
-- Establezca el APN del operador para que el dispositivo utilice datos GPRS para el reporte.
-- Seleccione UDP o TCP según requiera el rastreador y asigne el puerto 8888.
-- Valide la conectividad y confirme que el dispositivo informe a Plaspy.
-- Active un intervalo de reporte adecuado según sus necesidades de monitoreo y la escala de la flota.
+- Configure el APN de la red del dispositivo para que haya conectividad GPRS disponible para el reporte.
+- Apunte el dispositivo al dominio o IP del servidor Plaspy y al puerto requerido para que la telemetría se enrute correctamente.
+- Elija el método de transporte si el dispositivo requiere seleccionar entre UDP y TCP.
+- Establezca los intervalos de reporte y cualquier zona horaria o temporizadores operativos relevantes para su flota.
+- Valide la configuración con una consulta de parámetros y confirme que el dispositivo aparece en Plaspy.
 
 ## Ajustes del servidor Plaspy
 
-- Dominio del servidor d.plaspy.com
-- IP del servidor 54.85.159.138
-- Puerto 8888
-- Soporte de transporte UDP o TCP en el puerto 8888
-- Plaspy detecta automáticamente el protocolo del rastreador y usa el mismo puerto para todos los dispositivos soportados
+- Dominio del servidor: d.plaspy.com
+- IP del servidor: 54.85.159.138
+- Puerto: 8888
+- Soporte de transporte: UDP o TCP en el puerto 8888
+- Plaspy detecta automáticamente el protocolo del rastreador
+
+Tenga en cuenta que Plaspy utiliza el mismo puerto para todos los dispositivos compatibles y detectará automáticamente el protocolo que emplea el rastreador.
 
 ## Requisitos típicos antes de la configuración
 
-- Un dispositivo GOT10 instalado en el puerto OBD II del vehículo y alimentado por el encendido del vehículo.
-- Una tarjeta SIM activa con un plan de datos y el APN correcto del operador móvil.
-- Capacidad de enviar mensajes SMS al dispositivo para configuración por SMS, o acceso a la herramienta de configuración del fabricante si está disponible.
-- Acceso a la documentación oficial de EElink o a las instrucciones del proveedor para la revisión de firmware de su dispositivo.
-- Una cuenta en Plaspy y la posibilidad de verificar que el dispositivo sea visible en la plataforma después de la configuración.
+- Una SIM válida instalada en el GOT10 con datos habilitados y el APN correcto del operador.
+- Acceso al método de configuración del GOT10 soportado por su unidad, comúnmente comandos SMS según lo proveído por el fabricante.
+- Alimentación o conexión al vehículo mediante el puerto OBD II y una batería del vehículo en estado estable durante la configuración.
+- Los valores del APN de su operador móvil listos para insertarse en el campo del comando APN.
+- Un medio para recibir y confirmar las respuestas del dispositivo, como mensajes SMS de respuesta o visibilidad en la consola de Plaspy para verificar el reporte.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-Los dispositivos GOT10 reenvían telemetría CAN BUS y mensajes estándar del rastreador al endpoint de Plaspy para que la ubicación, parámetros operativos e información de diagnóstico aparezcan en la interfaz de Plaspy. El dispositivo puede configurarse para usar Plaspy estableciendo la dirección del servidor en d.plaspy.com o en la IP pública y usando el puerto 8888.
+El GOT10 se configura para enviar su telemetría y diagnósticos al endpoint y puerto compartidos del servidor Plaspy, de modo que los administradores de flota puedan ver la ubicación y los datos CAN BUS en la plataforma. La configuración normalmente indica al dispositivo que abra una sesión de datos GPRS y que transmita telemetría a Plaspy por el transporte seleccionado.
 
-- El GOT10 reporta tramas de telemetría y diagnóstico al endpoint y puerto del servidor Plaspy.
-- Plaspy recibe los datos y detecta automáticamente el protocolo del rastreador para su análisis.
-- Las actualizaciones de ubicación y la telemetría derivada del OBD se transmiten a Plaspy para monitoreo en tiempo real y registro histórico.
-- Los códigos de falla diagnosticados y métricas del vehículo están disponibles en los informes de Plaspy cuando el vehículo los expone en el CAN BUS.
-- El dispositivo utiliza datos GPRS una vez que se configuran el APN y los ajustes de servidor como se muestra abajo.
+- El dispositivo usa el APN del operador para establecer conectividad GPRS y luego abre una conexión de datos a d.plaspy.com o 54.85.159.138 en el puerto 8888.
+- Los tramas de telemetría y diagnóstico se envían por UDP o TCP según el transporte seleccionado.
+- Plaspy recibe los datos entrantes en el puerto compartido 8888 y detecta automáticamente el protocolo del dispositivo.
+- Una vez activo el reporte, posición, diagnósticos OBD y la telemetría configurada son visibles en Plaspy para revisiones en tiempo real e históricas.
+- Temporizadores periódicos controlan la frecuencia con la que el GOT10 envía actualizaciones a Plaspy; estos se configuran mediante comandos.
 
-## Flujo de trabajo común de configuración
+## Flujo de configuración habitual
 
-1. Acceda al método de configuración oficial de EElink para el GOT10 (comandos SMS o herramienta del fabricante) según la versión de firmware y las instrucciones del proveedor.
-2. Configure el APN del dispositivo con el valor de su operador móvil para que el rastreador pueda usar datos GPRS.
-3. Ingrese d.plaspy.com o 54.85.159.138 como servidor y establezca el puerto en 8888.
-4. Seleccione UDP o TCP si el dispositivo requiere una selección de transporte.
-5. Aplique o guarde la configuración y envíe los comandos al dispositivo (por SMS o mediante la herramienta).
-6. Reinicie el dispositivo si el fabricante lo solicita para aplicar los nuevos ajustes.
-7. Verifique que el dispositivo informe a Plaspy y aparezca en su cuenta de Plaspy según lo esperado.
+1. Obtenga el método oficial de configuración del fabricante o el software para el GOT10 y confirme la sintaxis de comandos SMS que soporta su firmware.
+2. Inserte una tarjeta SIM con datos habilitados y asegúrese de tener los detalles del APN del operador.
+3. Envíe o ingrese la dirección del servidor ya sea como d.plaspy.com o 54.85.159.138 y establezca el puerto en 8888.
+4. Seleccione UDP o TCP como transporte si el dispositivo solicita elegir el método de reporte.
+5. Configure los temporizadores de reporte y la zona horaria según lo necesite su flota.
+6. Aplique o guarde la configuración en el dispositivo y reinícielo si el fabricante lo exige.
+7. Valide que el dispositivo reporte a Plaspy comprobando la llegada de datos en el servidor compartido y confirmando que el dispositivo aparece en su panel de Plaspy.
 
-## Comandos de configuración de ejemplo
+## Ejemplos de comandos de configuración
 
-El GOT10 soporta configuración vía SMS. Los siguientes comandos SMS públicos son proporcionados por el fabricante y se presentan en el orden usado para una configuración básica. Envíe cada comando como un SMS separado al número del dispositivo.
+El GOT10 admite configuración vía SMS. El fabricante publica los siguientes comandos públicos. Envíe cada comando como un SMS al número del dispositivo. Conserve los marcadores de posición al aplicar el comando APN.
 
-- Reinicio de fábrica inicial opcional (usar solo si necesita restaurar valores predeterminados):
+- Restablecimiento inicial opcional a valores de fábrica (usar solo cuando sea necesario o en aprovisionamiento inicial)
 ```text
 FACTORY#
 ```
 
-- Establecer la zona horaria a UTC 0:
+- Establecer la zona horaria a UTC 0
 ```text
 GMT,E,0#
 ```
 
-- Establecer el APN del operador (reemplace [apn] y opcionalmente [apnu] y [apnp] con los valores de su operador):
+- Configurar el APN del operador. Reemplace [apn] con el APN de su operador. Si su proveedor usa usuario o contraseña APN, incluya [apnu] y [apnp] cuando sea necesario
 ```text
-APN,[apn]{{,[apnu],[apnp]}}#
+APN,[apn][apnu][apnp]#
 ```
-Nota: Mantenga los marcadores [apn] para el nombre del APN, [apnu] para el usuario del APN y [apnp] para la contraseña del APN. Incluya usuario y contraseña solo si su operador los requiere.
+Nota: La sintaxis del fabricante puede añadir campos de usuario y contraseña como valores separados por comas. Mantenga los marcadores [apnu] y [apnp] si el operador los requiere.
 
-- Establecer el servidor GPRS usando el dominio de Plaspy (la elección entre UDP o TCP se configura en el dispositivo por separado si es necesario):
+- Establecer el servidor GPRS a Plaspy por dominio usando UDP o TCP en el puerto 8888
 ```text
 SERVER,1,d.plaspy.com,8888#
 ```
 
-- Alternativamente, establecer el servidor GPRS usando la IP pública de Plaspy:
+- O establecer el servidor GPRS a Plaspy por IP usando UDP o TCP en el puerto 8888
 ```text
 SERVER,0,54.85.159.138,8888#
 ```
 
-- Establecer el intervalo de actualización de posición cada 60 segundos:
+- Establecer el intervalo de reporte a cada 60 segundos
 ```text
 TIMER,60#
 ```
 
-- Consultar parámetros actuales:
+- Verificar los parámetros actuales
 ```text
 PARAM#
 ```
 
-Estos comandos son los públicos proporcionados por el fabricante para la configuración básica del GOT10. Use el comando SERVER con el dominio o la IP y el mismo puerto 8888. La selección de transporte entre UDP y TCP es una opción del dispositivo; consulte la herramienta del fabricante o la guía de firmware si el dispositivo requiere un comando de transporte explícito.
+Envíe estos comandos en el orden mostrado cuando el orden sea importante, por ejemplo APN antes de SERVER si el dispositivo necesita establecer conectividad de red primero. El comando de restablecimiento de fábrica es opcional y debe usarse solo al preparar un dispositivo para un aprovisionamiento limpio o para resolución de problemas.
 
 ## Notas de configuración
 
-- La configuración por SMS es un método común para dispositivos GOT10; confirme que su equipo acepta comandos SMS y que el número remitente del SMS esté autorizado si aplica.
-- Las versiones de firmware y las revisiones de hardware pueden cambiar la sintaxis de los comandos o las funciones disponibles. Siempre verifique los comandos con la documentación de EElink para su versión de firmware.
-- Elija UDP o TCP según la preferencia del instalador y la compatibilidad del equipo; Plaspy acepta ambos en el puerto 8888 y detectará automáticamente el protocolo.
-- Al usar el comando APN, conserve los marcadores de usuario y contraseña solo cuando su operador móvil requiera autenticación.
-- Use el comando PARAM# después de la configuración para verificar que el servidor, APN y los ajustes del timer se hayan aplicado correctamente.
+- Los ejemplos de configuración del GOT10 anteriores usan comandos SMS según lo publicado por el fabricante; algunos instaladores pueden preferir herramientas de configuración o métodos por USB si el proveedor los ofrece.
+- El comportamiento del dispositivo y la sintaxis exacta de los SMS pueden diferir entre versiones de firmware y revisiones de hardware; confirme la sintaxis con la documentación del dispositivo antes de enviar comandos.
+- Elija UDP o TCP en el dispositivo según sus preferencias de red; Plaspy acepta cualquiera de los dos, pero el dispositivo debe apuntar al puerto 8888.
+- Plaspy usa un único puerto compartido para todos los dispositivos y realiza detección automática de protocolo, por lo que solo necesita configurar el servidor y el puerto correctos en el equipo.
+- Cuando use SMS para la configuración, asegúrese de tener un medio para recibir las respuestas del dispositivo y confirmar la aplicación exitosa de cada comando.
 
 ## Por qué usar Plaspy con esta configuración
 
-Configurar el GOT10 para que reporte a Plaspy proporciona a los operadores de flota una vista unificada de la ubicación del vehículo y los diagnósticos OBD. Al transmitir telemetría CAN BUS y diagnósticos junto con los datos GPS hacia Plaspy, los equipos pueden monitorear la salud del vehículo, responder más rápido a códigos de falla e integrar la información de diagnóstico en decisiones de ruteo y mantenimiento.
+Usar el GOT10 con Plaspy integra diagnósticos del vehículo y ubicación en una sola vista, ayudando a las flotas a monitorear la salud y la posición de los vehículos sin cableado adicional. Apuntar el dispositivo al servidor y puerto de Plaspy permite la transmisión continua de datos CAN BUS y OBD junto con la información GPS, de modo que los equipos operativos puedan tomar decisiones más rápidas y basadas en datos.
 
-Para saber más sobre Plaspy y los flujos de trabajo soportados visite https://www.plaspy.com. Para obtener las instrucciones más actuales específicas del GOT10, notas de firmware y detalles del fabricante, verifique la información en el sitio de EElink https://www.eelink.com.cn/ ya que el comportamiento del dispositivo y los métodos de configuración pueden cambiar con el tiempo.
+Conozca más sobre Plaspy en el sitio principal https://www.plaspy.com. Las especificaciones del fabricante y los métodos de configuración pueden cambiar con el tiempo, por lo que verifique los detalles más recientes de la configuración y la sintaxis de comandos del GOT10 en la web del fabricante https://www.eelink.com.cn/.

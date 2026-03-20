@@ -89,10 +89,10 @@ Forma opcional con usuario y contraseña del APN:
 APN,0000,[apn],[apnu],[apnp]
 ```
 
-- Establecer un identificador de 5 dígitos (alias). Use los últimos cinco dígitos del IMEI en lugar de {{imei_last5}}:
+- Establecer un identificador de 5 dígitos (alias). Use los últimos cinco dígitos del IMEI en lugar de [imei_last5]:
 
 ```
-ALIAS,0000,{{imei_last5}}#
+ALIAS,0000,[imei_last5]#
 ```
 
 - Establecer la zona horaria a UTC 0 (ejemplo):
@@ -128,7 +128,7 @@ CONEXION,0000#
 Notas sobre marcadores de posición y valores:
 - [apn] es el APN del operador móvil para la SIM instalada.
 - [apnu] y [apnp] son los marcadores de usuario y contraseña del APN; inclúyalos solo si el operador lo requiere.
-- {{imei_last5}} representa los últimos cinco dígitos del IMEI; el material público recomienda usar esos dígitos como identificador del equipo.
+- [imei_last5] representa los últimos cinco dígitos del IMEI; el material público recomienda usar esos dígitos como identificador del equipo.
 - La contraseña por defecto de configuración SMS en el material público es 0000; verifique si su dispositivo tiene una contraseña diferente antes de enviar comandos.
 
 ## Notas de configuración

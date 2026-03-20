@@ -75,7 +75,7 @@ Al configurar los ajustes de servidor de Plaspy, el JT701 utiliza su enlace de d
 
 Para configurar el rastreador, envíe los comandos por SMS con el ID del dispositivo como prefijo exactamente según lo exige el JT701. Reemplace los valores de ejemplo por los de su equipo.
 
-- Tenga en cuenta que el rastreador requiere el ID del dispositivo como el primer token en el comando SMS. Reemplace {{trackerID}} por su ID real.
+- Tenga en cuenta que el rastreador requiere el ID del dispositivo como el primer token en el comando SMS. Reemplace [trackerID] por su ID real.
 - [apn] es la cadena APN del operador móvil.
 - [apnu] y [apnp] son usuario y contraseña APN opcionales si su SIM requiere autenticación.
 
@@ -84,13 +84,13 @@ Para configurar el rastreador, envíe los comandos por SMS con el ID del disposi
 Envíe un SMS con el siguiente formato, reemplazando los valores de marcador:
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 Como alternativa puede usar el dominio del servidor en lugar de la IP si el dispositivo soporta nombres de dominio:
 
 ```
-({{trackerID}},2,S02,129,1,d.plaspy.com,8888,[apn])
+([trackerID],2,S02,129,1,d.plaspy.com,8888,[apn])
 ```
 
 2. Establecer usuario y contraseña APN si su operador los requiere
@@ -98,7 +98,7 @@ Como alternativa puede usar el dominio del servidor en lugar de la IP si el disp
 Envíe este SMS solo si su APN necesita usuario y contraseña:
 
 ```
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 
 Estos comandos SMS siguen la sintaxis pública proporcionada por el fabricante. Al enviar, asegúrese de que el mensaje vaya dirigido al número del JT701 y de que el operador permita el envío de comandos SMS al rastreador.

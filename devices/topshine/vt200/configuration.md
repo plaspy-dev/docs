@@ -78,7 +78,7 @@ The VT200 supports SMS-based configuration in manufacturer-provided formats. The
   - [apn] is the mobile network APN for the SIM card.
   - [apnu] is the APN username when required.
   - [apnp] is the APN password when required.
-  - Replace {{device_id}} with the required device identifier derived from the IMEI as specified below.
+  - Replace [device_id] with the required device identifier derived from the IMEI as specified below.
 
 1. Optional initial factory reset (use only when required for initial setup)
 ```text
@@ -87,7 +87,7 @@ W000000,990,099###
 
 2. Set the device ID (manufacturer example uses the first 14 digits of the IMEI)
 ```text
-W000000,010,{{device_id}}
+W000000,010,[device_id]
 ```
 - Guidance: set the device ID using the first 14 digits from the IMEI as shown in public examples. Ensure the device identifier aligns with how you register the unit in Plaspy; Plaspy matches reports using the IMEI or configured ID.
 

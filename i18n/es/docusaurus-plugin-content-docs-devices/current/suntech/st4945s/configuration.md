@@ -77,7 +77,7 @@ El ST4945(S) se configura para reportar su ubicación y telemetría a un endpoin
 Los ejemplos públicos de configuración del ST4945(S) usan comandos SMS. Primero, determine el id del dispositivo como se muestra en el ejemplo público: tome el IMEI, elimine el último dígito de control del IMEI y luego use los últimos seis dígitos de la cadena restante. Ejemplo: con IMEI 123456789012345, elimine el último dígito para obtener 12345678901234, entonces el id del dispositivo es 901234.
 
 Marcadores de posición usados abajo:
-- {{device_id}} = el id de seis dígitos derivado del IMEI como se describió arriba
+- [device_id] = el id de seis dígitos derivado del IMEI como se describió arriba
 - [apn] = el APN de su red móvil
 - [apnu] = nombre de usuario del APN si su operador lo requiere (dejar vacío si no se usa)
 - [apnp] = contraseña del APN si su operador lo requiere (dejar vacío si no se usa)
@@ -87,26 +87,26 @@ Marcadores de posición usados abajo:
 - Envíe este SMS al dispositivo, reemplazando los marcadores de posición y estableciendo la bandera de usuario en 1 si apnu o apnp están provistos, de lo contrario 0.
 
 ```
-SA200NTW;{{device_id}};02;<username_flag>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;<username_flag>;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 2) Establezca el intervalo de reporte a 60 segundos (ejemplo público)
 - Este SMS configura la cadencia de reporte periódico.
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Verifique las configuraciones preset actuales
 - Use este SMS para solicitar la configuración preset A y revisarla.
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Notas sobre marcadores de posición y banderas
 - [apn] es obligatorio para el reporte por datos. Si su APN requiere credenciales, suministre [apnu] y [apnp] y establezca \<username_flag> en 1. Si no se requieren credenciales, establezca \<username_flag> en 0.
-- Reemplace {{device_id}} por el id de seis dígitos calculado a partir del IMEI como se describió arriba.
+- Reemplace [device_id] por el id de seis dígitos calculado a partir del IMEI como se describió arriba.
 - Estos comandos son ejemplos en formato público; adapte el orden exacto de campos para que coincida con la versión de firmware de su unidad y confirme la sintaxis del comando en la documentación oficial de Suntech si tiene dudas.
 
 ## Notas de configuración

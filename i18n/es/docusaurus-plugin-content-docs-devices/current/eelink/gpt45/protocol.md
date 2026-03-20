@@ -4,77 +4,77 @@ id: gpt45-protocol
 sidebar_label: Protocol
 title: EElink - GPT45 Protocol
 sidebar_class_name: menu_item_tracker
-description: Contexto público del protocolo para usar el rastreador EElink GPT45 con Plaspy y obtener seguimiento fiable de vehículos y activos
+description: Resumen público del protocolo para compatibilidad del EElink GPT45 con Plaspy, ajustes de conexión y contexto de integración
 keywords:
-  - protocolo EElink GPT45
-  - protocolo GPS EElink GPT45
-  - EElink GPT45 Plaspy
-  - protocolo de seguimiento GPT45
-  - compatibilidad protocolo EELINK
-  - comunicación rastreador GPS
-  - rastreo de vehículos GPT45
-  - rastreo de activos GPT45
-  - protocolo de dispositivo Plaspy
-  - rastreador para gestión de flotas
+  - protocolo eelink gpt45
+  - protocolo gps eelink gpt45
+  - protocolo de comunicación eelink gpt45
+  - protocolo de rastreo eelink gpt45
+  - compatibilidad eelink gpt45 plaspy
+  - integración protocolo rastreador gps
+  - seguimiento de flotas gpt45
+  - integración telemetría eelink
+  - protocolo rastreador de vehículo
+  - compatibilidad dispositivos plaspy
 ---
 
 # EElink - Protocolo GPT45
 
-Esta página describe el contexto público del protocolo para usar el rastreador GPS EElink GPT45 con la plataforma Plaspy. Se centra en cómo el dispositivo se comunica con Plaspy en términos generales y no sensibles, y explica qué aspectos del protocolo resultan relevantes al integrar la telemetría, los eventos y los datos de sensores del GPT45 en los flujos de trabajo de Plaspy.
+Esta página ofrece una visión pública del protocolo para usar el rastreador EElink GPT45 con Plaspy. Explica el contexto de comunicación relevante cuando se apunta dispositivos GPT45 a Plaspy, de modo que usted entienda cómo llegan a la plataforma los mensajes de ubicación, la telemetría de sensores y los eventos. El contenido se centra en los roles del protocolo y los ajustes de conexión a alto nivel, no en detalles internos del firmware ni en implementaciones privadas.
 
-Plaspy utiliza configuraciones de conexión compartidas para los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando el equipo reporta al endpoint de la plataforma. El comportamiento exacto del protocolo y el contenido de los mensajes pueden variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que esta página ofrece contexto práctico más que especificaciones a nivel de firmware.
+El GPT45 es un rastreador recargable con múltiples sensores: GNSS, Wi‑Fi y LBS como respaldo, soporte opcional de gateway Bluetooth, alarmas en el dispositivo y sensores ambientales. Plaspy utiliza ajustes de conexión compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador, pero el comportamiento exacto puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante. Revise la documentación del fabricante junto con este resumen cuando prepare despliegues masivos.
 
-## Resumen del protocolo
+## Visión general del protocolo
 
-El GPT45 emplea el protocolo de comunicación de EElink para transmitir posiciones GNSS, ubicaciones por método alternativo, telemetría de sensores y notificaciones de eventos hacia plataformas backend como Plaspy. El propósito del protocolo es posibilitar el reporte confiable de posición y estado del dispositivo para que Plaspy pueda ofrecer seguimiento en tiempo real, alertas y análisis histórico.
+A nivel general, el protocolo del rastreador define cómo el GPT45 informa identidad, posiciones, telemetría de sensores y eventos de alarma a un servicio backend como Plaspy. El protocolo permite el intercambio de la información necesaria para el seguimiento en tiempo real, el registro histórico y las alertas basadas en reglas, sin exponer aquí detalles internos del dispositivo.
 
-- Permite que el rastreador se identifique y entregue actualizaciones periódicas de ubicación al backend sin requerir sondeos manuales.
-- Transporta mensajes basados en eventos, como colisión, vibración, caída y alarmas de velocidad, para acciones inmediatas en Plaspy.
-- Lleva telemetría de múltiples sensores, incluida temperatura, humedad y presión barométrica, de modo que los datos ambientales estén disponibles para reglas y reportes de la plataforma.
-- Soporta métodos de ubicación alternativos como Wi Fi y LBS para que Plaspy reciba actualizaciones cuando GNSS no esté disponible.
-- Habilita opcionalmente el reenvío de datos de gateway Bluetooth para casos de uso basados en proximidad y balizas.
+- Permite la identificación del dispositivo para que Plaspy asocie los mensajes entrantes con un rastreador registrado y sus metadatos.
+- Transporta posiciones GNSS y datos de ubicación de respaldo para que Plaspy muestre la posición en vivo y las rutas históricas.
+- Reporta telemetría basada en eventos, como colisiones, vibración, caídas, alarmas por velocidad y valores de sensores ambientales, para activar reglas.
+- Soporta configuración remota y coordinación de actualizaciones de firmware mediante comandos de alto nivel o mensajes de configuración.
+- Proporciona un flujo de mensajes fiable hacia el backend para que Plaspy procese alertas, almacene telemetría y ejecute automatizaciones.
 
 ## Cómo Plaspy detecta el protocolo
 
-Plaspy recibe conexiones entrantes en un endpoint compartido de la plataforma y determina automáticamente el protocolo del rastreador, por lo que usted normalmente no necesita seleccionar manualmente un protocolo dentro de Plaspy. La configuración correcta del dispositivo para que reporte al endpoint de Plaspy es el requisito principal para que la detección automática funcione.
+Plaspy recibe conexiones de rastreadores en un único endpoint compartido y determina automáticamente el formato del protocolo entrante para los dispositivos compatibles. Esto significa que en la mayoría de despliegues usted no necesita seleccionar manualmente un protocolo dentro de la plataforma Plaspy siempre que el dispositivo esté configurado para reportar al endpoint de Plaspy.
 
-- Plaspy escucha en un único puerto conocido para conexiones de dispositivos y usa ese endpoint para aceptar reportes de rastreadores compatibles.
-- Cuando el dispositivo comienza a reportar a la plataforma, Plaspy detecta automáticamente el protocolo, lo que reduce pasos de configuración manual.
-- Si el GPT45 está configurado para reportar al endpoint de Plaspy, generalmente no se requiere ninguna selección de protocolo adicional en la plataforma.
-- Todos los dispositivos en Plaspy usan el mismo puerto para reporte, lo que simplifica la configuración e incorporación de equipos.
-- Es esencial que el dispositivo esté autorizado para comunicarse por el transporte elegido y que el enrutamiento de red hacia el endpoint de Plaspy esté abierto para garantizar la detección automática.
+- El dominio del servidor Plaspy es d.plaspy.com y la IP del servidor es 54.85.159.138 para el reporte de dispositivos.
+- El puerto que utiliza Plaspy para todos los dispositivos es 8888, por lo que los dispositivos deben reportar a ese puerto.
+- Los dispositivos pueden configurarse para usar UDP o TCP en el puerto 8888 según sus capacidades o requerimientos del sitio.
+- Plaspy detecta automáticamente el protocolo del rastreador cuando llega un mensaje correctamente formateado al endpoint compartido.
+- Debido a que la detección es automática, la tarea común del usuario es asegurarse de que los ajustes de reporte del dispositivo coincidan con el endpoint y el transporte de Plaspy.
 
-## Contexto de transporte y conexión
+## Transporte y contexto de conexión
 
-El GPT45 puede configurarse para usar UDP o TCP al enviar datos a Plaspy, según la configuración del dispositivo y las opciones que soporte el fabricante. Plaspy provee un único endpoint de servidor al que los dispositivos pueden reportar; la elección del transporte afecta las características de entrega pero no el concepto general de integración con la plataforma.
+Comprender el transporte y la dirección que usan los dispositivos GPT45 para comunicarse con Plaspy es importante para la configuración de red y las reglas de firewall. El GPT45 admite el envío de telemetría mediante transportes de red estándar y debe apuntarse al endpoint de Plaspy para la entrega correcta.
 
-- Los dispositivos pueden configurarse para reportar al dominio del servidor Plaspy d.plaspy.com.
-- También pueden apuntar directamente a la IP del servidor Plaspy 54.85.159.138 si no se desea o no está disponible la resolución DNS.
-- El puerto de comunicación usado por la plataforma es 8888 y el GPT45 puede configurarse para usar UDP o TCP en el puerto 8888.
-- Plaspy utiliza el mismo puerto para todos los dispositivos compatibles, lo que hace consistente la configuración a nivel de flota.
-- Seleccione UDP para menor sobrecarga o TCP para entrega orientada a conexión según el soporte del dispositivo y los requisitos de confiabilidad de la red.
+- Los dispositivos pueden configurarse para usar UDP o TCP en el puerto 8888 según el soporte del equipo y el transporte elegido.
+- Plaspy acepta tráfico de dispositivos dirigido a d.plaspy.com o a la IP del servidor 54.85.159.138 en el puerto 8888.
+- Todos los dispositivos en Plaspy usan el mismo puerto, lo que simplifica las reglas de firewall saliente y el enrutamiento NAT.
+- Confirme que los ajustes de reporte del dispositivo incluyan el dominio o la IP correctos y el protocolo de transporte seleccionado antes del despliegue.
+- En muchos casos, establecer el servidor en d.plaspy.com y el transporte en UDP o TCP en el puerto 8888 es suficiente para la conectividad inicial.
 
 ## Notas sobre compatibilidad del protocolo
 
-- Las revisiones de firmware pueden cambiar la temporización de mensajes, los campos soportados u opciones de telemetría; siempre verifique las notas de la versión del firmware para GPT45.
-- Revisiones de hardware o lotes de producción pueden introducir diferencias sutiles; consulte la etiqueta del dispositivo y la guía del fabricante al diagnosticar problemas.
-- La selección del transporte (UDP versus TCP) es una opción de configuración en el dispositivo y puede afectar el comportamiento observado por el servidor.
-- Los comandos de configuración del fabricante y los métodos de configuración remota pueden variar según la región o el firmware, por lo que conviene consultar las instrucciones oficiales de EElink para los nombres de parámetros en el equipo.
-- Plaspy detecta el protocolo automáticamente, pero los dispositivos deben estar correctamente configurados para reportar al endpoint de Plaspy para que la detección tenga éxito.
-- Para conjuntos de comandos específicos del dispositivo o detalles de mensajes dependientes de firmware, consulte la documentación del fabricante antes de realizar cambios operativos.
+- Las versiones de firmware pueden cambiar el contenido de los mensajes y las funciones disponibles; verifique el nivel de firmware del GPT45 al evaluar compatibilidad.
+- Las revisiones de hardware o características opcionales, como el modo gateway Bluetooth, pueden influir en qué telemetría se reporta.
+- Las opciones de configuración del fabricante o personalizaciones OEM pueden generar pequeñas variaciones del protocolo entre unidades.
+- Elegir UDP frente a TCP afecta el comportamiento de entrega y puede ser relevante según las condiciones de red o los requisitos de fiabilidad.
+- Siempre valide un dispositivo de muestra con Plaspy antes de poner en servicio flotas grandes para confirmar la telemetría y el mapeo de eventos esperados.
+- Use la documentación oficial del fabricante para confirmar los comandos soportados y cualquier paso de configuración específico del dispositivo.
 
 ## Por qué es importante entender el protocolo
 
-Comprender el protocolo de comunicación del rastreador ayuda a asegurar una integración fluida con Plaspy, agiliza la resolución de problemas y respalda la operación confiable a largo plazo de los dispositivos GPT45 en la plataforma. Saber de qué se encarga el protocolo permite a los administradores relacionar el comportamiento del equipo con las funciones de la plataforma y diagnosticar incidencias con mayor rapidez.
+Tener un conocimiento práctico del protocolo de comunicación ayuda a asegurar una incorporación fiable de dispositivos, un mapeo correcto de eventos y una resolución más rápida de problemas cuando surgen incidencias. Saber qué envía el rastreador y cómo lo recibe Plaspy reduce ciclos de configuración y favorece una operación estable a largo plazo.
 
-- Configurar correctamente el transporte y el endpoint del dispositivo evita mensajes perdidos y brechas en el reporte.
-- Reconocer cómo se entregan los mensajes de evento mejora la afinación de alertas y la configuración de reglas en Plaspy.
-- Estar al tanto de comportamientos dependientes de firmware ayuda al actualizar dispositivos o al solucionar regresiones tras una actualización.
-- Conocer qué campos de telemetría puede reportar el dispositivo permite crear paneles y análisis históricos precisos.
-- Entender las compensaciones entre transportes orienta la configuración de red en sitios con conectividad limitada.
+- Asegura que los dispositivos apunten a d.plaspy.com o 54.85.159.138 en el puerto 8888 usando el transporte correcto.
+- Ayuda a diagnosticar telemetría o eventos faltantes revisando el transporte y los ajustes de reporte en el dispositivo.
+- Orienta decisiones sobre planificación de red, como reglas de firewall, NAT y ajustes APN del operador para conectividad celular.
+- Facilita el mapeo de alarmas del dispositivo y datos de sensores en reglas y alertas de Plaspy para monitoreo accionable.
+- Apoya tareas de ciclo de vida como actualizaciones de firmware y cambios de configuración al clarificar los flujos de mensajes esperados.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el GPT45 con Plaspy entrega ubicación en tiempo real, notificaciones de eventos y telemetría multisensor en una plataforma unificada para monitoreo de flota y activos. La combinación de las capacidades del hardware GPT45 y la detección automática de protocolos y el enfoque de endpoint único de Plaspy simplifica la incorporación de dispositivos y ayuda a que los equipos se concentren en casos de uso operativos en vez de en la mecánica de conectividad.
+Usar el GPT45 con Plaspy brinda a las organizaciones un rastreador compacto y recargable que alimenta telemetría rica de ubicación y sensores a un único backend. Esa telemetría puede emplearse para visibilidad en tiempo real, geocercas, alertas e informes históricos, permitiendo a los equipos operar con más seguridad y eficiencia sin gestionar código de integración complejo.
 
-Para saber más sobre Plaspy y cómo soporta integraciones de dispositivos como el GPT45 visite https://www.plaspy.com. El soporte de protocolo, el comportamiento del firmware y los detalles de implementación del dispositivo pueden cambiar con el tiempo, así que verifique la información actual y específica del dispositivo en el sitio del fabricante https://www.eelink.com.cn/.
+Para saber más sobre Plaspy y cómo funciona con protocolos de dispositivo como el GPT45 visite https://www.plaspy.com. El soporte de protocolo, el comportamiento del firmware y los detalles de implementación de dispositivos pueden cambiar con el tiempo, por lo que verifique la información actual específica por dispositivo y las notas de firmware en el sitio del fabricante en https://www.eelink.com.cn/.

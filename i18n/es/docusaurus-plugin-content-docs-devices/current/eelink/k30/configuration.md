@@ -4,126 +4,127 @@ id: k30-configuration
 sidebar_label: Configuration
 title: EElink - K30 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía pública para conectar el rastreador EElink K30 a Plaspy con ajustes de servidor y comandos SMS
+description: Guía pública de configuración del rastreador GPS wearable EElink K30 con ajustes de servidor Plaspy y comandos SMS para integración
 keywords:
-  - EElink K30
   - configuración EElink K30
-  - configuración inicial EElink K30
+  - instalación EElink K30
   - EElink K30 Plaspy
-  - rastreador GPS K30
-  - configuración K30
-  - configuración servidor Plaspy
+  - configuración rastreador GPS K30
+  - configuración servidor K30
+  - comandos SMS K30
+  - configuración rastreador GPS wearable
   - configuración rastreador Plaspy
-  - configuración rastreador GPS
-  - configuración seguimiento de vehículo
+  - ajustes servidor Plaspy
+  - integración plataforma rastreadores GPS
 ---
 
-# EElink - Configuración del K30
+# EElink - K30 Configuración
 
-Esta página describe la configuración pública para usar el rastreador GPS portátil EElink K30 con la plataforma Plaspy. Resume los pasos prácticos y los valores públicos que normalmente necesitará para apuntar un dispositivo K30 a Plaspy para el reporte de ubicación y la ingesta básica de telemetría.
+Esta página documenta el contexto público de configuración para usar el rastreador GPS wearable EElink K30 con Plaspy. Se centra en los ajustes prácticos del servidor, los comandos de configuración por SMS que proporciona el fabricante y los pasos necesarios para preparar el dispositivo para que envíe ubicaciones y eventos a Plaspy, permitiendo su visualización en mapas, alertas e historial.
 
-Plaspy utiliza un endpoint y puerto compartidos para los dispositivos compatibles y detecta automáticamente el protocolo del rastreador una vez que el dispositivo envía datos a la plataforma. Los pasos exactos en el lado del fabricante pueden variar según firmware, revisión de hardware, tipo de instalación y herramientas del proveedor; por ello esta guía se centra en los valores públicos y los comandos SMS comúnmente usados para el K30 cuando están disponibles.
+Plaspy utiliza un endpoint de servidor compartido y el mismo puerto para todos los dispositivos soportados, detectando automáticamente el protocolo del rastreador. Los pasos exactos en el lado del fabricante pueden variar según firmware, revisión de hardware, tipo de instalación y herramientas del proveedor, por lo que siga esta guía junto con la documentación oficial de EElink y cualquier instrucción específica del dispositivo.
 
-## Resumen de la configuración
+## Resumen de configuración
 
-El objetivo de la configuración es preparar el K30 para comunicarse de forma confiable con Plaspy, validar la conectividad y asegurar que el dispositivo sea visible en la plataforma. Para el K30 esto normalmente implica aplicar parámetros de red, ajustes de servidor y un intervalo de reporte mediante el método de configuración soportado por el fabricante, por ejemplo SMS.
+Configurar el K30 para Plaspy prepara el rastreador para enviar su ubicación y telemetría a la plataforma de forma confiable y repetible. El proceso típico establece parámetros de red, señala el endpoint de Plaspy y verifica que el dispositivo informe correctamente.
 
-- Configure el APN del operador para que el dispositivo use datos móviles para reportes y gestión remota.
-- Apunte el dispositivo a Plaspy introduciendo el endpoint y el puerto compartidos.
-- Seleccione UDP o TCP en el dispositivo si es necesario y guarde la configuración.
-- Establezca un intervalo de reporte adecuado al caso de uso y al consumo de energía.
-- Verifique que el dispositivo reporte a Plaspy y use el comando PARAM para confirmar la configuración actual.
+- Configure el APN y los parámetros de red para que el dispositivo pueda enviar datos a través de la red celular y recibir comandos SMS para su configuración.
+- Apunte el dispositivo al endpoint y puerto del servidor Plaspy para que la plataforma reciba las ubicaciones y eventos.
+- Seleccione el método de transporte si es necesario y confirme que el rastreador use el tipo de conexión soportado.
+- Ajuste los intervalos de reporte y temporizadores para equilibrar frecuencia de actualización y duración de batería según el caso de uso.
+- Verifique los parámetros del dispositivo y confirme que el K30 aparezca en Plaspy y esté enviando la telemetría esperada.
 
 ## Ajustes del servidor Plaspy
 
-Use estos ajustes públicos del servidor Plaspy al configurar un K30 para la plataforma. Plaspy requiere el mismo puerto para todos los dispositivos compatibles y detecta el protocolo del rastreador automáticamente.
+- Server domain d.plaspy.com  
+- Server IP 54.85.159.138  
+- Port 8888 (Plaspy uses the same port for all supported devices)  
+- Transport support for UDP or TCP on port 8888  
+- Plaspy automatically detects the tracker protocol when the device connects
 
-- Dominio del servidor d.plaspy.com
-- IP del servidor 54.85.159.138
-- Puerto 8888
-- Transporte soportado UDP o TCP en el puerto 8888
-- Plaspy detecta automáticamente el protocolo del rastreador cuando llegan los datos
+## Requisitos típicos antes de la configuración
 
-## Requisitos típicos antes de comenzar
-
-- Un dispositivo K30 con batería y capaz de recibir SMS y conectarse a la red móvil
-- Una tarjeta SIM válida con plan de datos activo y la información del APN del operador
-- Acceso al método oficial de configuración de EElink o a los comandos SMS provistos por el distribuidor
-- Conocimiento de los valores APN de su operador (tenga listos los marcadores [apn], [apnu] y [apnp])
-- Acceso al dispositivo para reiniciarlo o cortar la alimentación si es necesario aplicar cambios
+- Un dispositivo K30 con batería cargada y acceso al número de teléfono para configuración por SMS o a la herramienta de configuración del fabricante.
+- Una tarjeta SIM activa instalada en el K30 con datos habilitados y permiso para enviar y recibir SMS para la configuración remota.
+- Credenciales APN del operador móvil para configurar el acceso GPRS del rastreador.
+- Acceso a las instrucciones o software de configuración de EElink para realizar la configuración inicial, o un teléfono con capacidad SMS para enviar los comandos.
+- Una cuenta en Plaspy y la posibilidad de registrar o identificar el dispositivo en la plataforma una vez que comience a reportar.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-Cuando está configurado, el K30 envía paquetes de posición y eventos a Plaspy apuntando al endpoint y puerto compartidos. Plaspy ingiere esos mensajes, aplica detección de protocolo y mapea los eventos a paneles, alertas e informes históricos.
+El K30 se configura para enviar ubicaciones y eventos al endpoint y puerto compartidos de Plaspy. Una vez aplicados los ajustes de red y servidor, el rastreador envía actualizaciones periódicas de ubicación y notificaciones de eventos para que Plaspy las muestre y active alertas.
 
-- El rastreador envía posiciones y telemetría al endpoint d.plaspy.com o a la IP 54.85.159.138 en el puerto 8888
-- El transporte puede ser UDP o TCP según la configuración del dispositivo y las condiciones de la red
-- Plaspy detecta automáticamente el protocolo del rastreador y procesa los mensajes entrantes en consecuencia
-- Eventos como activaciones de SOS, estado de movimiento e informes de batería se encaminan a Plaspy para alertas y registro
-- Los administradores deben verificar la visibilidad en Plaspy una vez que el dispositivo comience a reportar al puerto compartido
+- El rastreador envía posición y telemetría a d.plaspy.com o directamente a 54.85.159.138 en el puerto 8888.
+- El transporte puede ser UDP o TCP según la selección del dispositivo; Plaspy acepta ambos y detecta el protocolo automáticamente.
+- Las actualizaciones en intervalos regulares y eventos de movimiento o SOS permiten a Plaspy mostrar ubicación y estado en tiempo real en mapas y paneles.
+- El estado de batería, activaciones de SOS y otros eventos del K30 se vuelven visibles en Plaspy para monitoreo y alertas.
+- Una configuración exitosa asegura que el K30 aparezca en Plaspy y aporte datos a los informes históricos y en tiempo real.
 
 ## Flujo común de configuración
 
-1. Acceda al método oficial de configuración de EElink para el K30 mediante la app del proveedor, la plataforma o los comandos SMS.
-2. Introduzca el endpoint de Plaspy como dominio d.plaspy.com o la IP 54.85.159.138.
-3. Configure el puerto en 8888 ya que Plaspy utiliza el mismo puerto para todos los dispositivos.
-4. Seleccione UDP o TCP si el dispositivo requiere una elección explícita de transporte.
-5. Configure el APN del operador usando el comando APN o la herramienta de configuración del dispositivo; incluya usuario y contraseña del APN si son necesarios.
-6. Aplique o guarde la configuración y reinicie el dispositivo si el firmware lo requiere para que los cambios tengan efecto.
-7. Valide que el dispositivo reporte a Plaspy y confirme que la telemetría aparece en la plataforma.
+1. Acceda al método de configuración oficial de EElink o al software correspondiente, o prepare un teléfono con capacidad SMS para enviar comandos de configuración.  
+2. Ingrese el endpoint del servidor Plaspy usando el dominio d.plaspy.com o la IP 54.85.159.138 tal como lo proporciona Plaspy.  
+3. Establezca el puerto en 8888, tenga en cuenta que Plaspy usa el mismo puerto para todos los dispositivos.  
+4. Elija UDP o TCP si el dispositivo requiere seleccionar el transporte. Plaspy admite ambos y detectará automáticamente el protocolo activo.  
+5. Ingrese el APN y las credenciales del operador necesarias para la conectividad GPRS o de datos.  
+6. Aplique o guarde la configuración y reinicie el dispositivo si éste requiere reboot para que los ajustes surtan efecto.  
+7. Valide que el dispositivo informe a Plaspy y aparezca en la plataforma con la telemetría y las ubicaciones esperadas.
 
 ## Ejemplos de comandos de configuración
 
-El K30 soporta configuración por SMS. Los siguientes comandos SMS públicos son la secuencia documentada para una configuración básica. Mantenga los marcadores y adáptelos a los valores de su operador.
+El EElink K30 soporta configuración mediante SMS. Los siguientes comandos son públicos del fabricante y pueden enviarse como mensajes SMS al número del dispositivo. Mantenga los marcadores de posición tal como aparecen y reemplácelos por los valores específicos del operador cuando corresponda.
 
-- Reinicio opcional a configuración de fábrica (usar sólo si necesita borrar la configuración existente):
+- Reset de fábrica opcional (usar solo si es necesario):
 ```text
 FACTORY#
 ```
 
-- Establecer la zona horaria a UTC 0 (modifique si necesita otro comando de zona horaria):
+- Ajustar la zona horaria a UTC 0:
 ```text
 GMT,E,0#
 ```
 
-- Configurar el APN del operador. Reemplace [apn] con el APN de su operador. Si el operador requiere usuario y contraseña, incluya [apnu] y [apnp]:
+- Configurar el APN del operador. Reemplace [apn], [apnu] y [apnp] con el APN, usuario y contraseña del operador según sea necesario. Los campos de usuario y contraseña son opcionales y pueden omitirse si el operador no los requiere:
 ```text
-APN,[apn]{{,[apnu],[apnp]}}#
+APN,[apn],[apnu],[apnp]#
 ```
-Explicación: [apn] es el nombre del APN. [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN en caso de que el operador los solicite.
 
-- Configurar el servidor GPRS para apuntar a Plaspy usando el dominio (la opción de transporte UDP/TCP se determina por el flag de transporte):
+- Configurar el servidor GPRS para usar el dominio de Plaspy en el puerto 8888:
 ```text
 SERVER,1,d.plaspy.com,8888#
 ```
-o configurar usando la IP de Plaspy:
+
+- Alternativamente, configurar el servidor GPRS usando la IP del servidor Plaspy en el puerto 8888:
 ```text
 SERVER,0,54.85.159.138,8888#
 ```
-Nota: Estos comandos apuntan al puerto 8888 que es el puerto compartido de Plaspy para todos los dispositivos.
 
-- Establecer un intervalo de reporte periódico (ejemplo: actualizaciones cada 60 segundos):
+- Establecer el intervalo periódico de envío de localización a 60 segundos:
 ```text
 TIMER,60#
 ```
 
-- Consultar los parámetros actuales en el dispositivo:
+- Verificar parámetros actuales en el dispositivo:
 ```text
 PARAM#
 ```
 
-Use los comandos en el orden indicado cuando el orden sea importante. Reemplace los marcadores por los valores correctos del operador antes de enviar los SMS al dispositivo.
+Notas sobre marcadores de posición y uso:
+- [apn] es la cadena APN del operador móvil necesaria para datos. Reemplácela por el APN de su operador.
+- [apnu] y [apnp] son el usuario y la contraseña del APN si el operador los requiere. Omítalos si no aplican.
+- Los comandos SERVER muestran tanto la opción con dominio como la opción con IP directa. Cualquiera de las dos es aceptable; ambas apuntan a Plaspy en el puerto 8888.
+- Envíe los comandos por SMS al número del dispositivo según las instrucciones de EElink. Use el reset de fábrica únicamente cuando sea necesario.
 
 ## Notas de configuración
 
-- Las variantes de firmware y regionales pueden cambiar los comandos disponibles o la sintaxis; siempre verifique con la documentación del dispositivo para su versión de firmware.
-- El K30 soporta configuración por SMS además de métodos por plataforma o app; elija el método que mejor se adapte a su despliegue y requisitos de seguridad.
-- Al elegir entre TCP y UDP, considere la confiabilidad de la red y el comportamiento del operador; ambos transportes son compatibles en el puerto 8888.
-- Plaspy usa el mismo puerto para todos los dispositivos compatibles y realiza detección automática de protocolo, por lo que el endpoint y el puerto son los ajustes principales requeridos.
-- Si utiliza el comando de restablecimiento de fábrica, téngalo como paso opcional y ejecútelo sólo cuando sea necesario, ya que borrará la configuración existente.
+- Revisiones de firmware y hardware pueden cambiar el formato de comandos o las opciones disponibles. Confirme que los comandos coinciden con el firmware del dispositivo antes de aplicarlos en producción.
+- Elija UDP o TCP según la política del sitio o las condiciones de red; Plaspy acepta ambos y detectará automáticamente el protocolo que use el dispositivo.
+- La configuración por SMS es un método estándar del fabricante para el K30, pero también puede utilizar las herramientas oficiales de EElink o interfaces de plataforma cuando estén disponibles.
+- Verifique siempre con el proveedor de la SIM los datos de APN y la cuenta para asegurar que el dispositivo pueda establecer una sesión de datos GPRS.
+- Después de aplicar los ajustes de servidor y red, utilice el comando PARAM# o la plataforma Plaspy para validar que el dispositivo está reportando correctamente.
 
 ## Por qué usar Plaspy con esta configuración
 
-Usar el K30 con Plaspy ofrece una forma sencilla de centralizar la telemetría de wearables, eventos SOS y actualizaciones de posición en una única plataforma para monitoreo y alertas. Apuntar el dispositivo al servidor y puerto compartidos de Plaspy minimiza la configuración por dispositivo y aprovecha la detección automática de protocolos de Plaspy para agilizar la incorporación.
+Configurar el EElink K30 para reportar a Plaspy ofrece una vía sencilla hacia la visibilidad centralizada de personal y activos. Las organizaciones pueden recibir ubicaciones en tiempo real, eventos SOS y telemetría básica de actividad en los mapas y paneles de Plaspy, lo que facilita la respuesta rápida, el cumplimiento y la supervisión operativa.
 
-Para más información sobre Plaspy y cómo gestiona las conexiones y la telemetría de dispositivos visite https://www.plaspy.com. Para los comandos específicos más recientes, notas de firmware y detalles regionales verifique la documentación oficial de EElink en https://www.eelink.com.cn/ ya que las especificaciones y métodos de configuración del fabricante pueden cambiar con el tiempo.
+Para conocer más sobre Plaspy y las funcionalidades de la plataforma visite https://www.plaspy.com. Para instrucciones de configuración específicas del dispositivo, notas de firmware y detalles del fabricante verifique la información en el sitio de EElink https://www.eelink.com.cn/. Las especificaciones del fabricante y los métodos de configuración pueden cambiar con el tiempo, por lo que confirme los detalles actuales antes de despliegues a gran escala.

@@ -79,18 +79,18 @@ Las siguientes plantillas de comando públicas aparecen en materiales del fabric
 
 - Setup command template (set server, port, APN placeholders if applicable)
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 - Reboot command template (optional, use if a reboot is required)
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Notas sobre marcadores y checksum:
-- {{imei}} — reemplace con el IMEI del dispositivo o el identificador que use su herramienta del proveedor o el formato de comando.
+- [imei] — reemplace con el IMEI del dispositivo o el identificador que use su herramienta del proveedor o el formato de comando.
 - [apn], [apnu], [apnp] — marcadores para APN, usuario del APN y contraseña del APN. Inclúyalos sólo si su variante del dispositivo requiere configuración de datos celulares; para el registrador de datos DG-388 estos campos pueden no ser aplicables a menos que esté configurando una variante con capacidad celular o un módem asociado.
-- {{checksum}} y {{checksumreeboot}} — el checksum se calcula sobre el texto del comando hasta, pero sin incluir, el carácter '*'. El método público de checksum indicado en las muestras del fabricante es una XOR byte a byte de cada carácter ASCII en la cadena del comando. El checksum resultante se formatea como un valor hexadecimal de dos dígitos en mayúsculas y se añade donde se muestra.
+- [checksum] y [checksumreeboot] — el checksum se calcula sobre el texto del comando hasta, pero sin incluir, el carácter '*'. El método público de checksum indicado en las muestras del fabricante es una XOR byte a byte de cada carácter ASCII en la cadena del comando. El checksum resultante se formatea como un valor hexadecimal de dos dígitos en mayúsculas y se añade donde se muestra.
 - Estos comandos están dirigidos a flujos de configuración basados en SMS cuando son compatibles. Si su unidad no soporta SMS, aplique los ajustes del servidor mediante la herramienta oficial para PC y el flujo de exportación/importación.
 
 ## Notas de configuración

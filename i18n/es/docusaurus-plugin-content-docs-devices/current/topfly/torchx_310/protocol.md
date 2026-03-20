@@ -79,4 +79,3 @@ Usar el TorchX 310 con Plaspy ofrece a los operadores de flota un rastreador OBD
 
 Para conocer más sobre Plaspy y cómo gestiona el reporte de dispositivos y la telemetría de flota, visite https://www.plaspy.com. Para detalles específicos de protocolo por dispositivo, notas de firmware e información sobre revisiones de hardware verifique la documentación actual en el sitio del fabricante https://www.topflytech.com/ ya que el soporte de protocolo y el comportamiento del firmware pueden cambiar con el tiempo.
 
-<BrandCatalog brand={brand} />

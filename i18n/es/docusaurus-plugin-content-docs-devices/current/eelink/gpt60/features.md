@@ -4,75 +4,78 @@ id: gpt60-features
 sidebar_label: Features
 title: EElink - GPT60 Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de funciones del rastreador EElink GPT60 y su integración con Plaspy para monitoreo y seguridad personal
+description: Resumen público de las características del rastreador GPS EElink GPT60 y su integración con Plaspy para rastreo en tiempo real y vigilancia de seguridad
 keywords:
-  - funciones EElink GPT60
-  - funciones rastreador GPS GPT60
-  - compatibilidad EElink GPT60 Plaspy
+  - características EElink GPT60
+  - rastreador GPS EElink GPT60
+  - funciones GPT60
   - capacidades GPT60
-  - voz bidireccional GPT60
-  - rastreador seguridad personal GPT60
-  - rastreador GPS detección de caídas
-  - rastreador contador de pasos Bluetooth
-  - rastreador GPS portátil IP65
-  - rastreador protocolo EELINK 2.1
+  - funciones GPT60 para Plaspy
+  - rastreador para seguridad personal
+  - rastreador con voz bidireccional
+  - rastreo GNSS Wi Fi LBS
+  - protocolo EELINK 2.1
+  - rastreador portátil de activos
 ---
 
-# EElink - GPT60 — Funcionalidades
+# EElink - GPT60 — Características
 
-Esta página ofrece una vista general pública de las funciones del EElink GPT60 y cómo sus capacidades pueden aprovecharse con Plaspy para el monitoreo de ubicación, alertas y flujos de trabajo de seguridad. Describe las funciones prácticas relevantes al emparejar el GPT60 con Plaspy y resume cómo llegan la telemetría y los eventos a la plataforma.
+Esta página describe el contexto público de uso del rastreador EElink GPT60 con Plaspy. Aquí se explican las capacidades principales del modelo, cómo se reflejan en Plaspy y escenarios prácticos de uso habitual. El GPT60 es compatible con Plaspy y está diseñado para monitoreo de seguridad personal y telemetría de ubicación continua.
 
-La disponibilidad exacta de funciones y su comportamiento puede variar según la versión de firmware, la revisión de hardware, el modelo regional y la manera en que el dispositivo esté instalado o configurado. Para pasos de configuración específicos y los detalles técnicos más recientes, consulte la documentación oficial de EElink y las notas de firmware.
+La disponibilidad exacta de funciones y su comportamiento pueden variar según la versión de firmware, la revisión de hardware, la variante regional, el método de instalación y la configuración del fabricante. Confirme siempre los detalles específicos del dispositivo con la documentación del fabricante y las notas de la versión del firmware antes de planear despliegues o flujos de trabajo críticos.
 
 ## Resumen de funciones
 
-El GPT60 es un rastreador personal recargable y compacto, orientado a la telemetría continua de ubicación y a la seguridad personal. Combina posicionamiento GNSS multiconstelación con Wi Fi y LBS como respaldo para mantener reportes de ubicación confiables cuando la señal satelital es limitada; además incorpora funciones de seguridad en el dispositivo y audio para comunicación bidireccional.
+El GPT60 es un rastreador compacto y recargable pensado para personas y activos portátiles, que combina posicionamiento GNSS con Wi‑Fi y LBS como respaldo para mantener actualizaciones de ubicación en entornos con señales mixtas. Incluye voz bidireccional integrada, un botón SOS dedicado, alertas automáticas por caída y vibración, y soporte Bluetooth para telemetría local de sensores y actividad. El dispositivo se integra con Plaspy usando el protocolo EELINK 2.1 para entregar ubicación, eventos y configuración remota en una única plataforma de monitoreo.
 
-- Posicionamiento GNSS multiconstelación con respaldo Wi Fi y LBS para mejor cobertura en entornos mixtos  
-- Micrófono y altavoz integrados para comunicación de voz bidireccional en registros y respuesta a incidentes  
-- Botón SOS y alertas automáticas por caída y vibración para escalamiento rápido de emergencias  
-- Batería recargable con modos de energía inteligentes que equilibran autonomía y precisión de seguimiento  
-- Conectividad Bluetooth y contador de pasos para telemetría de actividad local y emparejamiento de sensores
+- Informes de posición confiables mediante GNSS con respaldo por Wi‑Fi y LBS para mejorar la continuidad de la ubicación.
+- Comunicación de voz bidireccional para registros de estado y coordinación de incidentes a través del hardware del dispositivo.
+- Botón SOS y alertas automáticas por caída o vibración para escalamiento y respuesta rápida.
+- Batería recargable con modos de ahorro inteligentes para extender la autonomía entre cargas.
+- Telemetría de actividad y conteo de pasos vía Bluetooth para aportar contexto a los eventos de movimiento.
+- Carcasa con clasificación IP65 y conectividad celular para uso diario y en exteriores.
 
-## Funciones principales del EElink - GPT60
+## Características principales del EElink - GPT60
 
-- Posicionamiento GNSS usando BDS, GPS y GLONASS como fuente primaria de ubicación  
-- Respaldo con Wi Fi y LBS celular cuando la visibilidad satelital es reducida  
-- Voz bidireccional mediante micrófono y altavoz integrados para llamadas en vivo o registros de comprobación  
-- Botón SOS dedicado y alertas en el dispositivo por caída y vibración para eventos de seguridad personal  
-- Batería recargable con gestión inteligente de energía para extender el tiempo entre cargas  
-- Soporte celular incluyendo LTE FDD, TDD y GSM para cobertura amplia de redes  
-- Conectividad Bluetooth que permite emparejar sensores locales y enviar conteo de pasos como telemetría  
-- Protección contra ingreso IP65 para uso exterior diario y resistencia básica al agua
+- Posicionamiento GNSS compatible con BDS, GPS y GLONASS para obtener fijaciones de ubicación primarias.
+- Posicionamiento por Wi‑Fi y LBS celular como métodos de respaldo cuando la señal satelital es débil.
+- Micrófono y altavoz integrados para soportar comunicación de voz bidireccional.
+- Botón SOS dedicado para generación inmediata de alertas.
+- Detección automática de caídas y alertas por vibración para señalar posibles incidentes.
+- Batería recargable con modos de gestión energética para uso prolongado en campo.
+- Soporte celular LTE FDD, TDD y GSM para conectividad en amplias zonas.
+- Compatibilidad con el protocolo EELINK 2.1 para telemetría y configuración remota.
 
-## Cómo funcionan estas funciones con Plaspy
+## Cómo funcionan con Plaspy
 
-Plaspy recibe telemetría y datos de eventos del GPT60 para que administradores y usuarios puedan ver ubicación, estado y alertas en un único lugar. El dispositivo puede reportar a Plaspy usando el protocolo estándar y Plaspy detecta automáticamente el protocolo del rastreador para integrarlo en mapeo, historial y flujos de alertas.
+Plaspy recolecta la telemetría y los eventos del GPT60 para que administradores y usuarios puedan ver ubicación, estado y alertas en una sola interfaz. Plaspy detecta automáticamente el protocolo del rastreador e ingiere la transmisión del dispositivo, lo que facilita incluir GPT60 en flujos de monitoreo, informes y alertas.
 
-- Actualizaciones de ubicación en tiempo real y recorridos históricos visibles en las herramientas de mapa y reproducción de Plaspy  
-- Eventos de SOS, caída y vibración entregados en los flujos de alertas de Plaspy para notificaciones y escalamiento rápidos  
-- Disponibilidad de voz bidireccional indicada en el estado del dispositivo y utilizada en la gestión de incidentes dentro de los flujos de trabajo de Plaspy  
-- Actividad derivada por Bluetooth, como recuento de pasos, disponible como telemetría suplementaria en Plaspy cuando el dispositivo reenvía esos datos  
-- Configuración remota y actualizaciones de parámetros gestionadas por el protocolo del dispositivo para ajustar modos de reporte e integración con Plaspy
+- Las actualizaciones de ubicación en tiempo real y las rutas históricas son visibles en las funciones de mapeo y reproducción de Plaspy.
+- Las alertas SOS, los eventos de caída y vibración y las notificaciones de batería baja aparecen en los paneles de alertas de Plaspy y pueden activar notificaciones.
+- Los eventos de entrada y salida de geocercas generados por el dispositivo se muestran en Plaspy para respuestas automatizadas.
+- La capacidad de voz bidireccional se integra en los flujos de trabajo y la gestión de incidentes para que los equipos coordinen la respuesta.
+- Las lecturas de sensores Bluetooth y la telemetría de conteo de pasos pueden reenviarse a Plaspy para enriquecer el contexto de actividad.
+- La configuración remota y las actualizaciones de parámetros se soportan mediante el protocolo del dispositivo y los flujos de Plaspy.
 
 ## Casos de uso típicos
 
-- Monitoreo de seguridad personal para adultos mayores, trabajadores en solitario y personas vulnerables con SOS y alertas por caída  
-- Registros de control de personal y coordinación por voz bidireccional para personal remoto o equipos de campo  
-- Monitoreo de ubicación de niños y jóvenes con geovallas y notificaciones para tutores o responsables  
-- Seguimiento de actividades al aire libre donde GNSS es la fuente principal, pero Wi Fi y LBS mejoran la continuidad en zonas urbanas  
-- Monitoreo de activos portátiles que se benefician de un rastreo compacto y alertas por vibración
+- Monitoreo de seguridad personal para adultos mayores, trabajadores solitarios y personas vulnerables.
+- Respuesta rápida a incidentes y escalamiento mediante SOS y voz bidireccional.
+- Registro de actividad y movimiento con conteo de pasos y alertas por vibración.
+- Monitoreo de ubicación de niños y jóvenes con notificaciones de geocerca para responsables.
+- Seguimiento en actividades al aire libre donde GNSS más respaldo Wi‑Fi y LBS mejora la continuidad.
+- Supervisión de equipos portátiles donde el tamaño compacto y la resistencia al agua son necesarios.
 
 ## Notas sobre disponibilidad de funciones
 
-- La presencia de funciones y su comportamiento exacto dependen de la versión de firmware y de las variantes regionales de hardware del fabricante  
-- Algunas funciones, como la sensibilidad de detección de caídas, umbrales de alerta e intervalos de reporte, pueden requerir configuración o depender del firmware instalado  
-- La disponibilidad de Bluetooth y del contador de pasos puede variar según el firmware y podría requerir emparejamiento o modos de reporte específicos para enviar datos a Plaspy  
-- El soporte de bandas celulares y la compatibilidad con redes están sujetos al soporte de los operadores regionales y al SKU específico suministrado por el fabricante  
-- Verifique siempre las notas de la versión de firmware y la guía de configuración del dispositivo para conocer el conjunto de funciones y las opciones de parámetros más recientes
+- Las versiones de firmware y la configuración del fabricante determinan los tipos de eventos, umbrales y campos de telemetría exactos que se envían a Plaspy.
+- Las revisiones de hardware y las variantes regionales pueden afectar el soporte de bandas celulares y algunos comportamientos de conectividad.
+- La instalación y la forma en que se porta o monta el dispositivo pueden influir en la fiabilidad de la detección de caídas y las alertas por vibración.
+- Las funciones Bluetooth y el conteo de pasos pueden depender del firmware local y del soporte para sensores emparejados.
+- Consulte siempre la documentación oficial del fabricante para obtener las especificaciones del dispositivo y los modos soportados más recientes.
 
 ## Por qué usar Plaspy con estas funciones
 
-Usar el GPT60 con Plaspy ofrece a las organizaciones una solución compacta para la conciencia continua de ubicación y el monitoreo de seguridad personal. Plaspy agrega actualizaciones de ubicación, alertas y telemetría de actividad para que los equipos mantengan visibilidad sobre personas y activos portátiles, respondan a incidentes y conserven un historial conciso de eventos para revisión operativa.
+Usar el GPT60 con Plaspy brinda a las organizaciones visibilidad centralizada de ubicación, alertas de seguridad y telemetría de actividad. Plaspy agrega la transmisión del dispositivo para que los equipos puedan monitorear la posición en tiempo real, revisar rutas históricas, responder a eventos SOS o de caída y aplicar reglas de geocercas y notificaciones en una flota heterogénea de dispositivos.
 
-Para saber más sobre Plaspy visite https://www.plaspy.com. Para las especificaciones más actuales del dispositivo, comportamiento de firmware y detalles de configuración del fabricante, verifique la información con EElink en https://www.eelink.com.cn/.
+Para obtener más información sobre cómo Plaspy puede trabajar con el GPT60 y otros rastreadores compatibles visite https://www.plaspy.com. Para las especificaciones más recientes del dispositivo, notas de firmware y detalles de implementación del fabricante, verifique la información en el sitio de EElink https://www.eelink.com.cn/ ya que las funciones y el comportamiento del firmware pueden cambiar con el tiempo.

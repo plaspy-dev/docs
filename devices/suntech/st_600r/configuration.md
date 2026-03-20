@@ -81,13 +81,13 @@ Commands below preserve placeholders used for APN values. Replace the placeholde
 
 1. Optional initial factory reset (use only if you need to reset device to factory defaults):
 ```
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
-Label: optional initial reset. Replace {{device_id}} with the last 9 IMEI digits excluding the final IMEI digit.
+Label: optional initial reset. Replace [device_id] with the last 9 IMEI digits excluding the final IMEI digit.
 
 2. Set operator APN and GPRS server. If you need to send APN username or password set the APN flag to 1, otherwise set it to 0. Fields: command;device_id;02;APN_FLAG;APN;APN_USER;APN_PASS;SERVER_IP;SERVER_PORT;;;;
 ```
-ST300NTW;{{device_id}};02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;0;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 Notes:
 - Replace the fourth field (0) with 1 if you provide [apnu] or [apnp] credentials.
@@ -96,13 +96,13 @@ Notes:
 
 3. Set reporting interval to 60 seconds (example reporting configuration):
 ```
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 This command sets periodic reports. Adjust intervals per your operational needs and firmware capabilities.
 
 4. Check current settings (verification command):
 ```
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 This command requests the device to send its current configuration settings for verification.
 

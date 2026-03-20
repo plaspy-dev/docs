@@ -82,7 +82,7 @@ The PT-600 can be configured using SMS commands sent from a mobile phone or SMS 
 000000DFT
 ```
 
-- Set a 14 digit device identifier for Plaspy. Replace \\<last14imei> with the last 14 digits of the device IMEI
+- Set a 14 digit device identifier for Plaspy. Replace \<last14imei> with the last 14 digits of the device IMEI
 ```text
 000000GID<last14imei>
 ```

@@ -77,10 +77,10 @@ El GT-99 se configura para usar GPRS y establecer una conexión de datos con Pla
 
 El GT-99 puede configurarse enviando comandos SMS al dispositivo. Los comandos de ejemplo del fabricante que siguen usan la contraseña por defecto 000000 tal como aparece en la configuración pública. Reemplace 000000 por su contraseña si la ha cambiado.
 
-- Establecer el ID del equipo usando el IMEI o un identificador de 15 dígitos. El ejemplo del fabricante construye un ID de 15 dígitos a partir del IMEI. Reemplace {{IMEI_LAST15}} por los últimos 15 dígitos del IMEI del dispositivo.
+- Establecer el ID del equipo usando el IMEI o un identificador de 15 dígitos. El ejemplo del fabricante construye un ID de 15 dígitos a partir del IMEI. Reemplace [IMEI_LAST15] por los últimos 15 dígitos del IMEI del dispositivo.
 
 ```
-M000000,22,{{IMEI_LAST15}}
+M000000,22,[IMEI_LAST15]
 ```
 
 - Configurar el APN del operador. Use [apn] como el nombre del APN. Si su operador requiere usuario o contraseña de APN incluya [apnu] y [apnp] según sea necesario.
@@ -122,7 +122,7 @@ M000000,21,2
 ```
 
 Notas sobre los marcadores
-- {{IMEI_LAST15}} significa el identificador de 15 dígitos derivado del IMEI del dispositivo tal como se muestra en los ejemplos del fabricante.
+- [IMEI_LAST15] significa el identificador de 15 dígitos derivado del IMEI del dispositivo tal como se muestra en los ejemplos del fabricante.
 - [apn] es la cadena APN de la operadora necesaria para GPRS.
 - [apnu] y [apnp] son marcadores opcionales para usuario y contraseña del APN si su operadora los requiere.
 - Reemplace M000000 por M\<su_contraseña> si la contraseña del dispositivo no es la predeterminada 000000.

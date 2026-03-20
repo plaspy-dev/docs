@@ -76,38 +76,38 @@ The ST4915LCBF reports position and telemetry to the shared Plaspy server endpoi
 
 The ST4915LCBF public configuration examples can be applied by SMS according to vendor guidance. The device uses a 6 digit device id derived from the IMEI for these commands. Device id generation rule The device id is the six digits from IMEI positions 9 through 14 (counting digits from 1), effectively omitting the final IMEI digit. For example if the IMEI is 123456789012345 the device id is 901234.
 
-Use these SMS templates as shown. Replace {{device_id}} with the six digit id from the IMEI and keep the placeholders [apn], [apnu], and [apnp] as required.
+Use these SMS templates as shown. Replace [device_id] with the six digit id from the IMEI and keep the placeholders [apn], [apnu], and [apnp] as required.
 
 1) Set the operator APN and GPRS server
 - If APN requires username or password set the auth flag to 1, otherwise set it to 0.
 - This command sets APN and points to the Plaspy server IP and port.
 
 ```
-SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 Or when no APN username and password are needed
 
 ```
-SA200NTW;{{device_id}};02;0;[apn];; ;54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;0;[apn];; ;54.85.159.138;8888;;;;
 ```
 
 2) Set the update interval to 60 seconds
 - This command configures periodic reporting intervals used by the device.
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Check current settings
 - Use the verification command to query the device preset.
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Placeholders explanation
-- {{device_id}}: the six digit id derived from IMEI positions 9 through 14, omit the final IMEI digit.
+- [device_id]: the six digit id derived from IMEI positions 9 through 14, omit the final IMEI digit.
 - [apn]: your mobile operator APN string.
 - [apnu]: APN username if required by your operator keep blank if none.
 - [apnp]: APN password if required keep blank if none.

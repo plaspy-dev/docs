@@ -75,26 +75,26 @@ El ST419NG envía datos de ubicación y eventos al servidor de Plaspy utilizando
 
 ## Ejemplos de comandos de configuración
 
-El ST419NG acepta comandos SMS para configuración. A continuación se muestran los comandos públicos más relevantes extraídos de la plantilla disponible. Reemplace {{deviceId}} con el ID de dispositivo de seis dígitos derivado del IMEI (ver notas abajo). Mantenga los marcadores de APN y complete usuario y contraseña de APN según lo requiera su operador móvil.
+El ST419NG acepta comandos SMS para configuración. A continuación se muestran los comandos públicos más relevantes extraídos de la plantilla disponible. Reemplace [deviceId] con el ID de dispositivo de seis dígitos derivado del IMEI (ver notas abajo). Mantenga los marcadores de APN y complete usuario y contraseña de APN según lo requiera su operador móvil.
 
 - Establecer el APN del operador y el servidor GPRS
   - Notas: El cuarto parámetro típicamente indica si existe usuario o contraseña de APN (1) o no (0). Reemplace [apn], [apnu] y [apnp] con el APN del operador, el usuario de APN y la contraseña de APN respectivamente.
 ```text
-SA200NTW;{{deviceId}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[deviceId];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Establecer el intervalo de actualización a 60 segundos
 ```text
-SA200RPT;{{deviceId}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[deviceId];02;60;60;60;3;0;0;0;0;0
 ```
 
 - Comprobar ajustes actuales (comando de verificación)
 ```text
-SA200CMD;{{deviceId}};02;PresetA
+SA200CMD;[deviceId];02;PresetA
 ```
 
 Ejemplo de derivación del ID de dispositivo (guía pública de la plantilla):
-- Si el IMEI incluye los dígitos tal como lo ilustra el ejemplo del fabricante, el ID de dispositivo corresponde a los últimos seis dígitos excluyendo el último dígito del IMEI. Por ejemplo, si la presentación del IMEI da un ID de dispositivo 901234, sustituya {{deviceId}} por 901234 en los comandos anteriores.
+- Si el IMEI incluye los dígitos tal como lo ilustra el ejemplo del fabricante, el ID de dispositivo corresponde a los últimos seis dígitos excluyendo el último dígito del IMEI. Por ejemplo, si la presentación del IMEI da un ID de dispositivo 901234, sustituya [deviceId] por 901234 en los comandos anteriores.
 
 Importante: mantenga los marcadores [apn], [apnu] y [apnp] y reemplácelos con los valores reales del operador cuando envíe los SMS. Si no usa usuario o contraseña de APN, ajuste el cuarto parámetro a 0 según lo indicado por la plantilla de comandos del dispositivo.
 

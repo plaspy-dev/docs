@@ -82,9 +82,9 @@ The MT06 commonly supports SMS-based configuration. The sample SMS commands belo
 W000000,990,099###
 ```
 
-- Set the device ID using the first 14 digits of the IMEI (Plaspy uses the full 15 digit IMEI as the device identifier). Replace {{IMEI14}} with the first 14 digits of the IMEI:
+- Set the device ID using the first 14 digits of the IMEI (Plaspy uses the full 15 digit IMEI as the device identifier). Replace [IMEI14] with the first 14 digits of the IMEI:
 ```text
-W000000,010,{{IMEI14}}
+W000000,010,[IMEI14]
 ```
 
 - Set the operator APN. Replace [apn] with your operator APN. If your APN requires username and password, include [apnu] and [apnp]:

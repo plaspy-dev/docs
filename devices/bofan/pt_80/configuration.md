@@ -85,7 +85,7 @@ The PT-80 is commonly configured by SMS commands. The public sample commands bel
 ```
 
 - Set 14 digit identifier used with Plaspy
-  - Replace \\<last14imei> with the last 14 digits of the device IMEI. Many installations use the last 14 digits of IMEI as the device identifier.
+  - Replace \<last14imei> with the last 14 digits of the device IMEI. Many installations use the last 14 digits of IMEI as the device identifier.
 
 ```
 000000GID<last14imei>

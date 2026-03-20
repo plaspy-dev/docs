@@ -78,7 +78,7 @@ The ST 910 public commands can be sent to the device as SMS messages. The device
 
 1. Optional initial factory reset command (use only if you need to reset device settings):
 ```
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
 Label: Optional initial reset to clear previous settings.
 
@@ -86,25 +86,25 @@ Label: Optional initial reset to clear previous settings.
 - The fourth parameter after the device id is an APN flag: use 1 if you provide an APN username or password, otherwise use 0.
 - Replace placeholders [apn], [apnu], [apnp] with your operator APN, APN username, and APN password as needed.
 ```
-ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 If you do not have an APN username or password, set the APN flag to 0:
 ```
-ST300NTW;{{device_id}};02;0;[apn];;;54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;0;[apn];;;54.85.159.138;8888;;;;
 ```
 
 3. Set reporting interval to 60 seconds (example)
 ```
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 4. Verification command to check the current preset configuration
 ```
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 
 Notes on placeholders:
-- {{device_id}} — the 9 digit device id derived from the IMEI (digits 6 to 14 of the full IMEI).
+- [device_id] — the 9 digit device id derived from the IMEI (digits 6 to 14 of the full IMEI).
 - [apn] — operator APN string.
 - [apnu] — APN username placeholder.
 - [apnp] — APN password placeholder.

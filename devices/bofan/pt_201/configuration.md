@@ -80,7 +80,7 @@ The PT-201 supports SMS-based configuration. The following public command templa
 000000DFT
 ```
 
-- Set the 14 digit identifier used with Plaspy (use the last 14 digits of the IMEI). Replace \\<14-digit-id> with the actual 14 digit identifier:
+- Set the 14 digit identifier used with Plaspy (use the last 14 digits of the IMEI). Replace \<14-digit-id> with the actual 14 digit identifier:
 ```text
 000000GID<14-digit-id>
 ```

@@ -74,31 +74,31 @@ The ST 300 is configured to send location and event reports to the Plaspy shared
 
 ## Example Configuration Commands
 
-The ST 300 can be configured by sending SMS commands to the device. The following commands are extracted from the public Suntech configuration content and preserve placeholders. Replace {{device_id}} with the device id computed from the IMEI (see explanation below). Replace [apn], [apnu], and [apnp] with your operator APN, username, and password where required. For the APN authentication flag use 1 if username or password are provided otherwise use 0.
+The ST 300 can be configured by sending SMS commands to the device. The following commands are extracted from the public Suntech configuration content and preserve placeholders. Replace [device_id] with the device id computed from the IMEI (see explanation below). Replace [apn], [apnu], and [apnp] with your operator APN, username, and password where required. For the APN authentication flag use 1 if username or password are provided otherwise use 0.
 
 Note on computing device id
 - The device id is the last 9 digits of the IMEI excluding the final IMEI check digit. For example, if the IMEI is 123456789012345 then the device id is 678901234.
 
 1) Optional initial factory reset command (use only when needed as part of initial setup):
 ```
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
 
 2) Set operator APN and the Plaspy GPRS server. Keep the placeholders as shown and ensure the server address and port point to Plaspy:
 ```
-ST300NTW;{{device_id}};02;{{auth_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;[auth_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
-- {{auth_flag}} should be 1 if you provide [apnu] or [apnp] otherwise 0.
+- [auth_flag] should be 1 if you provide [apnu] or [apnp] otherwise 0.
 - [apn] is the operator APN. [apnu] and [apnp] are optional APN username and password.
 
 3) Set the reporting interval to 60 seconds (example reporting configuration):
 ```
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 4) Verification command to check current preset settings:
 ```
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 
 Preserve the order above when applying commands if you follow the manufacturer recommendations. Send each complete SMS and wait for device acknowledgement where applicable.

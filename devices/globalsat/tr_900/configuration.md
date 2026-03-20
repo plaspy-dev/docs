@@ -79,21 +79,21 @@ The TR-900 is configured to report location and OBDII diagnostics to the shared 
 The TR-900 supports SMS-based configuration using command templates. The following public command templates are provided in the device documentation and are shown here in the same order they are typically applied.
 
 Important placeholders:
-- {{imei}} — replace with the device IMEI number
+- [imei] — replace with the device IMEI number
 - [apn] — replace with the mobile network APN
 - [apnu] — replace with the APN username if required
 - [apnp] — replace with the APN password if required
-- {{checksum}} and {{checksumreeboot}} — two character uppercase hexadecimal XOR checksums computed over the command text before the asterisk character
+- [checksum] and [checksumreeboot] — two character uppercase hexadecimal XOR checksums computed over the command text before the asterisk character
 
 Primary setup command
 ```text
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 - This command sets APN fields and server E0 to 54.85.159.138 and port E1 to 8888. Keep placeholders and replace them with your values before sending.
 
 Optional reboot command (use when a reboot is required to apply settings)
 ```text
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 - This command requests a device reboot. It is optional and should be used when the tracker requires a restart to apply configuration.
 

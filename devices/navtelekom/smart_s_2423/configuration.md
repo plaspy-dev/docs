@@ -4,89 +4,87 @@ id: smart_s_2423-configuration
 sidebar_label: Configuration
 title: Navtelekom - SMART S-2423 Configuration
 sidebar_class_name: menu_item_tracker
-description: Public configuration guide for Navtelekom SMART S-2423 integration with Plaspy using shared server settings and practical setup steps
+description: Public configuration guide for Navtelekom SMART S 2423 tracker setup and Plaspy compatibility using shared Plaspy server settings
 keywords:
   - Navtelekom SMART S-2423 configuration
-  - Navtelekom SMART S-2423 setup
+  - SMART S-2423 setup
+  - Navtelekom tracker Plaspy
+  - SMART S-2423 server configuration
+  - Navtelekom GPS tracker setup
   - SMART S-2423 Plaspy integration
-  - Plaspy tracker configuration
-  - vehicle tracker configuration Navtelekom
-  - GLONASS GPS tracker setup
-  - NTC Configurator setup
-  - DRC firmware management
-  - 2G tracker configuration
-  - RS-485 1-Wire Bluetooth tracker
+  - vehicle tracker configuration
+  - fleet management tracker setup
+  - NTC Configurator SMART S-2423
+  - Navtelekom tracking configuration
 ---
 
 # Navtelekom - SMART S-2423 Configuration
 
-This page covers the public configuration context for using the Navtelekom SMART S-2423 tracker with Plaspy. It collects the practical, platform-focused settings and workflow steps you will need to point the device at Plaspy and validate that position and telemetry data appear in the platform. Use this guide as a companion to the official Navtelekom documentation and device tools.
+This page covers the public configuration context for using the Navtelekom SMART S-2423 tracker with Plaspy. It explains the shared server settings Plaspy requires and summarizes practical, manufacturer‑level configuration options. Use this guide to prepare the device and understand how it will report location and telemetry to Plaspy for live monitoring and historical reporting.
 
-Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol when data arrives. Exact manufacturer side setup steps can vary depending on firmware revision, hardware revision, installation type, and the vendor tools you use such as NTC Configurator or DRC remote management. This guide emphasizes the common, public settings required to integrate the SMART S-2423 with Plaspy.
+Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol, while exact manufacturer side steps can vary by firmware, hardware revision, installation type, and the vendor tools you use. The SMART S‑2423 supports NTC Configurator and DRC remote management, which are commonly used to apply the necessary server and transport settings before validation on Plaspy.
 
 ## Configuration Overview
 
-Configuring the SMART S-2423 for Plaspy is primarily about directing the tracker to the correct Plaspy server endpoint, confirming transport settings, and validating that the tracker reports location and telemetry. The process typically uses Navtelekom configuration tools and may involve a one-time device restart or firmware confirmation.
+The goal of configuration is to point the SMART S‑2423 at the Plaspy server endpoint, select the correct transport, and verify that the tracker is reporting GPS and telemetry data to the platform. The process typically combines the manufacturer configuration tool and a validation step in Plaspy to confirm visibility and event reporting.
 
-- Point the tracker to the Plaspy server endpoint so telemetry and GNSS fixes are delivered to the platform.
-- Select the transport protocol (UDP or TCP) if the device requires a choice, using the shared Plaspy port.
-- Save or apply the configuration in the manufacturer tool such as NTC Configurator or via remote DRC management.
-- Validate connectivity and live reporting to Plaspy after restart and power up.
-- Confirm inputs and outputs, RS-485 and 1‑Wire sensors, and Bluetooth peripherals are reporting as expected in the platform.
+- Set the tracker to report to the Plaspy endpoint so position and telemetry reach the platform
+- Choose UDP or TCP transport according to installer preference or firmware options
+- Apply and save settings using NTC Configurator or the device management system
+- Restart or cycle power on the device if required to activate new server settings
+- Validate successful transmissions in Plaspy by confirming the device is visible and sending updates
 
 ## Plaspy Server Settings
 
-- Server domain d.plaspy.com
-- Server IP 54.85.159.138
-- Port 8888
-- Transport support for UDP or TCP
-- Plaspy automatically detects the tracker protocol and all devices in Plaspy use the same port
+- server domain d.plaspy.com  
+- server IP 54.85.159.138  
+- port 8888  
+- transport support for UDP or TCP  
+- automatic protocol detection in Plaspy
+
+All devices in Plaspy use the same port and the platform automatically detects the tracker protocol so you only need to configure the tracker to use the shared endpoint and port.
 
 ## Typical Requirements Before Setup
 
-- Ensure the SMART S-2423 has power and a charged internal backup battery if available.
-- A single active SIM provisioned for 2G cellular service since the device uses a 2G GSM modem.
-- Physical access to the device or remote access via Navtelekom tools such as NTC Configurator or DRC to change network settings.
-- Know the tracker IMEI or device identifier used by your fleet for device registration and validation.
-- A stable cellular signal at the installation site and confirmation that the local carrier still supports the tracker bands.
-- Up to date firmware where possible; record firmware version for troubleshooting.
+- Access to the SMART S‑2423 and permission to configure it using the official manufacturer method such as NTC Configurator or DRC
+- A charged device with power applied and a functional 2G single SIM inserted and registered on a carrier that supports 2G
+- Knowledge of the device IMEI or unique tracking identifier for mapping the device in Plaspy
+- Documentation or release notes for the installed firmware to confirm supported configuration parameters
+- A way to restart or power cycle the tracker after applying new settings to ensure they take effect
 
 ## How This Tracker Connects to Plaspy
 
-When configured, the SMART S-2423 sends its GNSS position and associated telemetry to the shared Plaspy server endpoint and port. Plaspy ingests location fixes and telemetry and will automatically detect the tracker protocol so no special protocol selection on the platform side is required.
+The SMART S‑2423 is configured to send its GLONASS/GPS position fixes and telemetry to the shared Plaspy server endpoint and port. Plaspy ingests those messages and automatically determines the device protocol so the tracker appears in the platform without per device protocol selection.
 
-- The device reports GLONASS/GPS fixes and movement data to d.plaspy.com or 54.85.159.138 using port 8888.
-- Transport can be sent over UDP or TCP based on device settings; choose the transport required by your deployment.
-- Telemetry from RS-485, 1‑Wire and Bluetooth peripherals is forwarded alongside location data when configured.
-- Universal inputs and configurable outputs are reported as events to Plaspy and can trigger alerts and rules in the platform.
-- Plaspy matches incoming data to a device record by IMEI or other identifier and displays live position, status, and historical routes.
+- The device sends position and telemetry messages to d.plaspy.com or 54.85.159.138 at port 8888  
+- You can select UDP or TCP on the device if the firmware requires a transport choice before sending data to Plaspy  
+- Plaspy automatically detects the tracker protocol and decodes incoming messages for maps, alerts, and history  
+- Device inputs and outputs, and peripheral telemetry available via RS‑485, 1‑Wire, or Bluetooth are forwarded to Plaspy as configured
 
 ## Common Configuration Workflow
 
-1. Access the official manufacturer configuration method such as NTC Configurator or DRC remote management for the SMART S-2423.
-2. Locate the server or remote reporting settings in the tool and enter the Plaspy endpoint as d.plaspy.com or alternatively use the server IP 54.85.159.138.
-3. Set the reporting port to 8888.
-4. If the device asks for transport selection, choose UDP or TCP based on your deployment needs.
-5. Apply or save the configuration in the manufacturer tool and push changes to the device.
-6. Restart the device if required by the tool or firmware to activate the new server settings.
-7. Validate that the device reports to Plaspy by checking live position and telemetry within the platform and confirming receiving messages.
+1. Access the official manufacturer configuration method or software such as NTC Configurator or DRC remote management.  
+2. In the server settings enter d.plaspy.com or the server IP 54.85.159.138 as the destination host.  
+3. Set the device port to 8888 which is the shared Plaspy port for all devices.  
+4. Choose UDP or TCP if the device requires a transport selection in its settings.  
+5. Apply or save the configuration in the manufacturer tool and confirm the changes were accepted.  
+6. Restart the SMART S‑2423 if the tool or firmware requires a reboot for network settings to take effect.  
+7. Validate that the device reports to Plaspy by checking device visibility and recent position updates in the platform.
 
 ## Example Configuration Commands
 
-The SMART S-2423 is typically configured using Navtelekom tools such as NTC Configurator or remotely via the DRC management service. Exact command syntax and methods vary by firmware and manufacturer tool, so there are no universal raw commands included here. Use the manufacturer software to set the server to d.plaspy.com or 54.85.159.138 and port 8888, choose UDP or TCP as required, then save and restart the device.
-
-If you prefer or require SMS or serial command methods, consult the official Navtelekom documentation or NTC Configurator help for the exact command strings applicable to your firmware version.
+Exact command syntax and configuration steps can vary by manufacturer tool, firmware version, and whether you use a GUI configurator or remote commands. For the SMART S‑2423 the key values you will enter are the Plaspy server endpoint and the port. Typical entries you will provide to the device configuration are the domain d.plaspy.com or the IP address 54.85.159.138 and the port 8888, and a transport selection of UDP or TCP if required by the firmware. Apply and save those settings within NTC Configurator or the device management interface and then validate device reporting in Plaspy.
 
 ## Configuration Notes
 
-- Firmware and hardware revisions can change available settings and the configuration UI; always confirm the correct method for your device firmware.
-- Choosing TCP versus UDP depends on your reliability and latency needs; Plaspy accepts both on port 8888 and auto detects the protocol.
-- Use NTC Configurator for local or cable configuration and DRC when performing remote configuration or firmware updates across a fleet.
-- Confirm 2G network availability with your mobile operator since SMART S-2423 uses a 2G GSM modem and single SIM.
-- Record device identifiers such as IMEI before changing server settings to help match the device to its Plaspy record.
+- Firmware behavior and available settings can differ between revisions so always check the device firmware version before making changes.  
+- Use TCP when you require connection oriented delivery and UDP when lower latency with less overhead is preferred, if your installation must choose a transport. Plaspy supports both and will detect the protocol automatically.  
+- NTC Configurator and DRC are the recommended manufacturer tools for applying persistent settings and managing firmware life cycle for the SMART S‑2423.  
+- Confirm 2G network availability with your mobile operator in the device deployment region since the tracker uses a single SIM 2G modem.  
+- After applying settings, allow time for the device to register on the network and for Plaspy to process the first messages before troubleshooting.
 
 ## Why Use Plaspy with This Configuration
 
-Configuring the Navtelekom SMART S-2423 to send data to Plaspy gives fleet managers reliable visibility into vehicle location, status, and telemetry using the tracker’s GLONASS/GPS receiver and multiple I/O options. Plaspy’s automatic protocol detection and consistent server settings simplify integration and reduce the configuration steps required per device in mixed deployments.
+Using the SMART S‑2423 with Plaspy gives fleet and asset managers consolidated visibility of position and telemetry on a single platform. The device provides GNSS positioning and multiple telemetry interfaces while Plaspy receives location and event data through the shared server endpoint and automatically interprets the device protocol for mapping, alerting, and historical reporting.
 
-To learn more about Plaspy and platform capabilities visit https://www.plaspy.com. For the most current device specific configuration details, firmware behavior, and manufacturer instructions verify information with Navtelekom at https://www.navtelecom.ru/
+To learn more about Plaspy visit https://www.plaspy.com and review current device documentation and support from the manufacturer at https://www.navtelecom.ru/ to verify the latest setup steps, firmware behavior, and any platform specific recommendations. Device specific methods and firmware can change over time so always confirm configuration details with the manufacturer documentation.

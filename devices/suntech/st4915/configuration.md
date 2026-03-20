@@ -72,10 +72,10 @@ The ST4915 is configured to report GNSS positions and telemetry to Plaspy by sen
 
 ## Example Configuration Commands
 
-The ST4915 public configuration content shows SMS-based commands. The manufacturer uses a device ID derived from the IMEI (the six digits before the IMEI check digit). Example derivation: if the IMEI is 123456789012345 the device ID is the six digits in positions 9–14 (901234 in the example shown by the manufacturer). Use that device ID in the commands below where {{device_id}} appears.
+The ST4915 public configuration content shows SMS-based commands. The manufacturer uses a device ID derived from the IMEI (the six digits before the IMEI check digit). Example derivation: if the IMEI is 123456789012345 the device ID is the six digits in positions 9–14 (901234 in the example shown by the manufacturer). Use that device ID in the commands below where [device_id] appears.
 
 Notes on placeholders:
-- {{device_id}} — the device ID derived from IMEI as described above.  
+- [device_id] — the device ID derived from IMEI as described above.  
 - [apn] — the operator APN string required for the SIM data connection.  
 - [apnu] — APN username if the operator requires one (keep placeholder if required).  
 - [apnp] — APN password if the operator requires one (keep placeholder if required).  
@@ -84,7 +84,7 @@ Notes on placeholders:
 1) Set the operator APN and GPRS server (replace placeholders as needed):
 
 ```text
-SA200NTW;{{device_id}};02;[0 or 1];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[0 or 1];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 - Replace [0 or 1] with 1 if you supply [apnu] or [apnp], otherwise 0.  
@@ -93,7 +93,7 @@ SA200NTW;{{device_id}};02;[0 or 1];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 2) Set the update/reporting interval to 60 seconds (example for frequent reporting; adjust to suit battery life needs):
 
 ```text
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 - This sets reporting intervals and related repetition parameters according to the device's SMS command format.
@@ -101,7 +101,7 @@ SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
 3) Verify or check current settings on the device:
 
 ```text
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 - This query command requests the device to send back preset configuration data for verification.

@@ -76,7 +76,7 @@ El JT706 se configura para enviar su ubicación y la telemetría ambiental al en
 El Jointech JT706 puede configurarse por SMS usando el ID del dispositivo y los comandos siguientes. Estos ejemplos provienen de los formatos públicos de comandos de Jointech y conservan los marcadores que debe reemplazar por los valores de su equipo.
 
 Tenga en cuenta los marcadores:
-- {{trackerID}} es el ID del dispositivo asignado al rastreador
+- [trackerID] es el ID del dispositivo asignado al rastreador
 - [apn] es el nombre del APN de la red móvil proporcionado por su operador
 - [apnu] es el usuario del APN si su operador lo requiere
 - [apnp] es la contraseña del APN si su operador lo requiere
@@ -85,12 +85,12 @@ Envíe estos comandos como mensajes SMS al JT706 desde un número que el disposi
 
 1. Establecer el servidor GPRS y el APN
 ```text
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
 2. Opcional: establecer usuario y contraseña del APN
 ```text
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 
 El segundo comando solo es necesario si su APN requiere autenticación con usuario y contraseña. Reemplace cada marcador por los valores reales de su rastreador y operador de SIM. Estos comandos están pensados para configuración vía SMS según lo publica el fabricante.

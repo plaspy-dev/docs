@@ -84,9 +84,9 @@ W000000,990,099###
 
 - Set device ID using the first 14 IMEI digits (TopShine example). Note Plaspy uses the IMEI for device identification; follow the manufacturer instruction to map ID to the IMEI as required:
 ```text
-W000000,010,{{IMIE_FIRST_14_DIGITS}}
+W000000,010,[IMIE_FIRST_14_DIGITS]
 ```
-Explanation: replace {{IMIE_FIRST_14_DIGITS}} with the first 14 digits from the device IMEI. The exact ID mapping can vary by deployment.
+Explanation: replace [IMIE_FIRST_14_DIGITS] with the first 14 digits from the device IMEI. The exact ID mapping can vary by deployment.
 
 - Set the operator APN. Keep placeholders if your APN requires a username or password:
 ```text

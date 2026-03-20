@@ -4,76 +4,76 @@ id: smart_s_2423-features
 sidebar_label: Features
 title: Navtelekom - SMART S-2423 Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de funciones del Navtelekom SMART S-2423 y su integración con Plaspy para monitoreo de flotas y activos
+description: Resumen público de funciones del Navtelekom SMART S-2423 y su integración con Plaspy para rastreo de flotas y telemetría
 keywords:
-  - Navtelekom SMART S-2423
-  - características SMART S-2423
-  - rastreador GPS Navtelekom
-  - rastreador GLONASS GPS
-  - rastreador vehicular 2G
-  - interfaz RS-485 para rastreador
-  - compatibilidad 1-Wire
-  - rastreador Bluetooth 4.0
-  - seguimiento de flotas Plaspy
-  - telemática vehicular Plaspy
+  - funciones Navtelekom SMART S-2423
+  - rastreador GPS SMART S-2423
+  - compatibilidad tracker Navtelekom Plaspy
+  - rastreador vehicular GLONASS GPS
+  - rastreador 2G GSM SIM única
+  - telemetría RS 485 1 Wire Bluetooth
+  - rastreador con batería de respaldo
+  - rastreo y monitoreo de flotas
+  - NTC Configurator DRC gestión
+  - entradas de ignición puerta alarma
 ---
 
-# Navtelekom - Características del SMART S-2423
+# Navtelekom - SMART S-2423: Características
 
-Esta página ofrece una descripción pública del rastreador SMART S-2423 y cómo sus capacidades documentadas se relacionan con el uso en Plaspy. El enfoque está en el contexto práctico para la integración, supervisión y configuración cuando el SMART S-2423 se utiliza como dispositivo compatible con Plaspy.
+Esta página ofrece un resumen público de las capacidades del Navtelekom SMART S-2423 y explica cómo se aprovechan cuando el dispositivo está integrado con Plaspy. Se centra en información práctica y no sensible sobre posicionamiento, interfaces de telemetría, opciones de E/S y las herramientas de gestión que facilitan el despliegue de este rastreador en una plataforma de monitoreo.
 
-La disponibilidad y el comportamiento exacto de las funciones pueden variar según la versión de firmware, la revisión de hardware, el método de instalación y la implementación del fabricante. Revise siempre la documentación específica del modelo y los ajustes del dispositivo en su despliegue para confirmar qué funciones están activas en una unidad determinada.
+La disponibilidad y el comportamiento exacto de las funciones pueden variar según la versión de firmware de fábrica, la revisión de hardware, el método de instalación, variantes regionales y la implementación del fabricante. Para configuraciones específicas y los detalles técnicos más recientes consulte la documentación oficial del fabricante y las notas de la versión.
 
-## Resumen de funciones
+## Visión general de funciones
 
-El SMART S-2423 es un rastreador vehicular compacto diseñado para ofrecer posicionamiento confiable por GLONASS y GPS junto con comunicaciones celulares y interfaces de telemetría locales. Está pensado para gestión de flotas, monitoreo de activos y despliegues que requieren conectividad celular 2G con SIM única y un conjunto de entradas y salidas en el vehículo.
+El SMART S-2423 es un rastreador vehicular GLONASS/GPS de tamaño compacto diseñado para telemática confiable e integración sencilla en plataformas de monitoreo de flotas como Plaspy. Su módem GSM integrado, antenas internas, batería de respaldo y múltiples interfaces físicas lo hacen adecuado para vehículos y activos móviles donde se requiere reporte de posición y telemetría resistentes.
 
-- Reporte en tiempo real de posiciones GLONASS y GPS para seguimiento en vivo y registro de rutas.
-- Módem GSM 2G integrado y antenas internas para conectividad celular con una sola SIM.
-- Batería de respaldo recargable incorporada para mantener reportes breves ante pérdida de alimentación.
-- Varias interfaces físicas incluyendo RS-485, 1-Wire y Bluetooth 4.0 para conexión de sensores y periféricos.
-- Entradas universales y salidas configurables para informar estados como encendido, puertas o alarmas, y permitir acciones de control remoto cuando están configuradas.
+- Reporte en tiempo real de posición GLONASS/GPS para ubicación en vivo e historial de rutas.
+- Módem 2G GSM integrado con soporte para una sola SIM para conectividad celular y reportes remotos.
+- Batería de respaldo recargable incorporada para mantener el rastreo durante cortes temporales de energía.
+- Múltiples interfaces físicas incluyendo RS‑485, 1‑Wire y Bluetooth 4.0 para telemetría y conexiones de periféricos.
+- Entradas universales y salidas configurables para monitorear ignición, puertas, alarmas y controlar actuadores externos.
+- Soporte para configuración remota y gestión de firmware mediante NTC Configurator y el sistema DRC.
 
-## Funcionalidades principales del Navtelekom - SMART S-2423
+## Funciones principales del Navtelekom - SMART S-2423
 
-- Receptor GLONASS y GPS de alta sensibilidad integrado para obtención de posiciones.
-- Módem GSM 2G integrado con soporte para una sola SIM y antena GSM interna.
-- Batería interna recargable de respaldo para mantener reportes básicos durante interrupciones de energía.
-- Interfaz serial RS-485 para conexiones de telemetría cableada y diagnósticos.
-- Interfaz 1-Wire para sensores y periféricos compatibles.
-- Soporte Bluetooth 4.0 para periféricos inalámbricos y balizas.
-- Tres entradas universales y dos salidas configurables para monitoreo de estados y acciones remotas.
-- Protección de alimentación y entradas diseñada para tolerar entornos eléctricos automotrices.
+- Receptor GLONASS y GPS integrado de alta sensibilidad para posicionamiento.
+- Módem 2G GSM con SIM única y antena GSM interna para enlace celular.
+- Batería de respaldo recargable interna diseñada para sostener el envío de reportes ante interrupciones de energía.
+- Interfaz serial RS‑485 para conexiones de telemetría y diagnóstico externos.
+- Interfaz 1‑Wire para integraciones ligeras de sensores y periféricos.
+- Soporte Bluetooth 4.0 para sensores inalámbricos y conectividad de corto alcance con periféricos.
+- 3 entradas universales y 2 salidas configurables para informar estados y controlar de forma remota sistemas como cerraduras o circuitos de inmovilizador.
+- Protección de alimentación y entradas diseñada para entornos eléctricos automotrices.
 
 ## Cómo funcionan estas funciones con Plaspy
 
-Cuando el SMART S-2423 está conectado a Plaspy, la posición y la telemetría disponible se ingieren en la plataforma para que su equipo pueda monitorear vehículos, ver estados y responder a eventos desde un único tablero. Plaspy detecta automáticamente protocolos comunes de rastreadores y refleja los datos e información de estado que el dispositivo proporciona.
+Al conectarse a Plaspy, el SMART S-2423 envía posiciones y telemetría a la plataforma para que los operadores puedan monitorear vehículos, ver rutas históricas y crear alertas. Plaspy detecta automáticamente los protocolos comunes de rastreadores y acepta conexiones de dispositivos al servidor Plaspy, lo que facilita el registro y la recolección continua de datos.
 
-- Las actualizaciones de posición en vivo aparecen en los mapas de Plaspy y alimentan los registros históricos de rutas para informes y reproducción.
-- Los estados de entradas universales, como ignición, puertas o señales de alarma básicas, pueden traducirse en eventos y alertas en Plaspy.
-- La telemetría proveniente de las interfaces RS-485 y 1-Wire puede mostrarse como lecturas de sensores o diagnósticos cuando está configurada en la plataforma.
-- Las salidas configurables pueden integrarse en flujos de trabajo de Plaspy para activar acciones de control remoto cuando esas salidas son compatibles y están configuradas de forma segura.
-- Los datos provenientes de periféricos emparejados vía Bluetooth pueden aparecer en Plaspy si el dispositivo reenvía esa información a la plataforma.
+- Las ubicaciones en vivo y las fijaciones GNSS aparecen en los mapas de Plaspy y están disponibles en el historial de rutas y las herramientas de informes.
+- Las entradas universales como ignición, puertas y estados de alarma pueden reflejarse como campos de estado y utilizarse para generar alertas o paneles personalizados.
+- Los datos de sensores y telemetría suministrados por RS‑485 y 1‑Wire pueden visualizarse en Plaspy para diagnóstico, planificación de mantenimiento y supervisión operativa.
+- Las salidas configurables pueden controlarse mediante flujos de trabajo y políticas en Plaspy cuando la instalación lo permite y se realiza con seguridad.
+- Los emparejamientos de sensores Bluetooth y los datos de balizas cercanas pueden mostrarse en los paneles de Plaspy cuando se configuren para reenviar esa telemetría.
 
 ## Casos de uso típicos
 
-- Seguimiento de la ubicación de la flota y registro de rutas para operaciones diarias y planificación logística.
-- Monitoreo de activos en vehículos cuando el tamaño compacto y la batería de respaldo son útiles ante cortes breves de energía.
-- Diagnóstico remoto y recopilación de telemetría usando dispositivos conectados por RS-485 o 1-Wire.
-- Flujos de trabajo antirobo e inmovilización usando salidas configurables junto con reglas de monitoreo.
-- Integración con sensores Bluetooth para estado de carga, proximidad u otros monitores periféricos.
-- Despliegues en flotas pequeñas y medianas que requieren configuración sencilla y gestión centralizada.
+- Operaciones de flota y despacho con ubicación en vivo de vehículos y análisis de rutas históricas.
+- Monitoreo remoto de ignición, puertas y alarmas para seguridad operativa y respuesta ante incidentes.
+- Mantenimiento preventivo y diagnóstico mediante telemetría de dispositivos conectados por RS‑485 y 1‑Wire.
+- Rastreo de activos donde el factor de forma compacto y la batería de respaldo soportan condiciones de energía intermitente.
+- Integración de sensores Bluetooth para control de condiciones de carga o detección de proximidad en escenarios de corto alcance.
 
 ## Notas sobre disponibilidad de funciones
 
-- Las funciones y opciones de menú específicas dependen del firmware del dispositivo y de la revisión de hardware instalada en cada unidad.
-- La disponibilidad regional de la red celular afecta la conectividad 2G con una sola SIM y puede influir en la cobertura real.
-- La compatibilidad y el comportamiento con periféricos Bluetooth pueden variar según el modelo del sensor y las configuraciones de firmware.
-- Herramientas de configuración como NTC Configurator y la gestión remota DRC son utilizadas por el fabricante para ajustar parámetros y firmware; sus flujos de trabajo pueden influir en cómo se habilitan ciertas funciones.
-- Las decisiones de instalación y el cableado determinan qué entradas y salidas estarán disponibles para una instalación concreta.
+- La versión de firmware determina qué funciones e interfaces están disponibles; los conjuntos de funciones pueden cambiar con las actualizaciones.
+- Las revisiones de hardware y las variantes regionales pueden afectar la disponibilidad de bandas celulares u opciones de conectores físicos.
+- La integración de sensores periféricos requiere cableado y configuración correctos; las prácticas de instalación influyen en la telemetría reportada.
+- El soporte de Bluetooth y periféricos depende de la compatibilidad del sensor y de la configuración aplicada al rastreador mediante NTC Configurator o DRC.
+- Consulte la documentación del fabricante para límites, prácticas recomendadas de instalación y listas de accesorios certificados.
 
 ## Por qué usar Plaspy con estas funciones
 
-Utilizar el SMART S-2423 con Plaspy proporciona visibilidad centralizada de la ubicación de los vehículos y de la telemetría que el dispositivo ofrece. Plaspy consolida la posición, los estados de entrada y los datos de sensores en una vista operativa única para facilitar el monitoreo, las alertas y los informes históricos para la gestión de flotas y activos.
+Plaspy ofrece una plataforma centralizada para recopilar y visualizar las posiciones, estados de entradas y telemetría que puede entregar el SMART S-2423. Usar Plaspy ayuda a los equipos a convertir datos brutos del dispositivo en información operacional, alertas e informes, simplificando la supervisión de flotas y los flujos de trabajo basados en eventos en despliegues mixtos.
 
-Plaspy simplifica la integración al detectar protocolos comunes de rastreadores y presentar los datos del dispositivo en mapas, paneles y flujos de eventos. Para obtener más información sobre Plaspy y cómo funciona con dispositivos como el SMART S-2423 visite https://www.plaspy.com. Para listas de funciones específicas del dispositivo, comportamiento de firmware y detalles del fabricante, verifique la información más reciente en el sitio web de Navtelekom https://www.navtelecom.ru/
+Para más información sobre cómo Plaspy puede trabajar con el Navtelekom SMART S-2423 visite https://www.plaspy.com. Para obtener las especificaciones de dispositivo, detalles de firmware y orientación del fabricante más recientes, verifique la información en el sitio oficial de Navtelekom https://www.navtelecom.ru/ ya que las funciones y el comportamiento del firmware pueden cambiar con el tiempo.

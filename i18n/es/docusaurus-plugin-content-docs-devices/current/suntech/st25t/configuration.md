@@ -78,10 +78,10 @@ Nota: envíe estos comandos como mensajes SMS al número del dispositivo o del g
 
 - Comando de red y servidor GPRS (establecer APN y apuntar a Plaspy)
 ```text
-SA200NTW;{{device_id}};02;<auth_flag>;<apn>;[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;<auth_flag>;<apn>;[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Explicación:
-  - {{device_id}} = seis dígitos extraídos del IMEI como se describió arriba.
+  - [device_id] = seis dígitos extraídos del IMEI como se describió arriba.
   - \<auth_flag> = 1 si proporciona nombre de usuario o contraseña del APN ([apnu] o [apnp]), de lo contrario 0.
   - [apn] = marcador de posición del APN del operador.
   - [apnu] y [apnp] = marcadores de posición opcionales para nombre de usuario y contraseña del APN.
@@ -89,11 +89,11 @@ SA200NTW;{{device_id}};02;<auth_flag>;<apn>;[apnu];[apnp];54.85.159.138;8888;;;;
 
 - Establecer el intervalo de actualización/reporte a 60 segundos
 ```text
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 - Verificar o consultar la configuración actual predeterminada
 ```text
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Estos comandos son ejemplos públicos extraídos del contenido de configuración del dispositivo. Adapte los marcadores de posición a su APN del operador y al id de dispositivo derivado del IMEI. Si su conjunto de comandos SMS o el firmware difieren, utilice la herramienta o documentación del fabricante para traducir estas plantillas al formato correcto.

@@ -77,23 +77,23 @@ The JT709A is configured to report position and event telemetry to the Plaspy se
 
 The JT709A can be configured by sending SMS commands to the device. Replace the placeholder values before sending. The command order matters when applying GPRS and APN credentials.
 
-- Enter the device ID into the command where indicated by {{trackerID}}. This is the device unique identifier the tracker uses to accept configuration messages.
+- Enter the device ID into the command where indicated by [trackerID]. This is the device unique identifier the tracker uses to accept configuration messages.
 
 1) Set the GPRS server and APN
 Send this SMS to the device number, replacing the placeholders as needed:
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
-- Replace {{trackerID}} with the tracker device ID.
+- Replace [trackerID] with the tracker device ID.
 - Replace [apn] with your mobile operator APN string.
 
 2) Set the APN user and password if required by the operator
 This command is optional and only needed when the APN requires authentication:
 
 ```
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 
 - Replace [apnu] with the APN username if required.

@@ -83,10 +83,10 @@ Guía para el ID del dispositivo
 
 Example template (replace placeholders before sending):
 ```
-SA200NTW;{{device_id}};02;{{auth_flag}};[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;[auth_flag];[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
-- {{device_id}} = seis dígitos derivados del IMEI como se explicó arriba.
-- {{auth_flag}} = 1 si [apnu] o [apnp] están presentes; en caso contrario 0.
+- [device_id] = seis dígitos derivados del IMEI como se explicó arriba.
+- [auth_flag] = 1 si [apnu] o [apnp] están presentes; en caso contrario 0.
 - [apn] = APN proporcionado por su operador móvil.
 - [apnu] = usuario APN si el operador lo requiere (puede quedar en blanco).
 - [apnp] = contraseña APN si el operador la requiere (puede quedar en blanco).
@@ -99,13 +99,13 @@ SA200NTW;901234;02;0;internet;; ;54.85.159.138;8888;;;;
 
 2) Establecer intervalo de reporte a 60 segundos
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
-- Esto configura los parámetros de reporte del dispositivo; reemplace {{device_id}} por su ID.
+- Esto configura los parámetros de reporte del dispositivo; reemplace [device_id] por su ID.
 
 3) Verificar o consultar ajustes (preset query)
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 - Use este comando para solicitar o confirmar presets desde el dispositivo.
 

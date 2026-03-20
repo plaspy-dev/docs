@@ -4,77 +4,77 @@ id: smart_s_2423_mid-features
 sidebar_label: Features
 title: Navtelekom - SMART S-2423 MID+ Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de funciones del Navtelekom SMART S-2423 MID+ y su compatibilidad práctica con Plaspy
+description: Resumen público de características del Navtelekom SMART S-2423 MID+ y su compatibilidad con Plaspy para gestión de flotas
 keywords:
-  - Características Navtelekom SMART S-2423 MID+
-  - Rastreador GPS Navtelekom SMART S-2423 MID+
-  - Compatibilidad SMART S-2423 MID+ con Plaspy
-  - Capacidades SMART S-2423 MID+
-  - Telemetría SMART S-2423 MID+
-  - Sensores Bluetooth SMART S-2423 MID+
-  - Seguimiento de flotas SMART S-2423 MID+
-  - SMART S-2423 MID+ RS-485 1-Wire
-  - Acelerómetro SMART S-2423 MID+
-  - Rastreador de vehículos Navtelekom SMART S-2423 MID+
+  - características Navtelekom SMART S-2423 MID+
+  - rastreador GPS SMART S-2423 MID+
+  - compatibilidad Navtelekom Plaspy
+  - rastreador GPS GLONASS
+  - rastreador 2G GSM
+  - rastreador Bluetooth 4.0
+  - acelerómetro para conducción eficiente
+  - interfaces RS-485 1-Wire
+  - telemetría de vehículos
+  - gestión de flotas Plaspy
 ---
 
-# Navtelekom - SMART S-2423 MID+ Características
+# Navtelekom - SMART S-2423 MID+ Features
 
-Esta página resume el contexto público de funcionalidades para el uso del rastreador Navtelekom SMART S-2423 MID+ con Plaspy. Se enfoca en las capacidades prácticas y la telemetría que los operadores e integradores pueden esperar cuando el dispositivo se utiliza con Plaspy para monitoreo de flotas, localización y reenvío de sensores.
+Esta página resume las características públicas relevantes para usar el rastreador Navtelekom SMART S-2423 MID+ con Plaspy. El enfoque está en las capacidades prácticas y en cómo se emplean habitualmente dentro de Plaspy para visibilidad de flota, recolección de telemetría y monitoreo operativo, sin exponer detalles privados de implementación.
 
-La disponibilidad y el comportamiento exacto de las funciones pueden variar según la versión de firmware, la revisión de hardware, la modalidad de instalación y la implementación del fabricante. Confirme siempre las capacidades del equipo concreto y consulte las notas de la versión y las herramientas de configuración del fabricante antes de preparar dispositivos para la integración con Plaspy.
+La disponibilidad exacta de funciones y su comportamiento puede variar según la versión de firmware, la revisión de hardware, el cableado de instalación y la implementación del fabricante. Cuando sea necesario se indican los elementos dependientes de la implementación y se recomienda revisar la documentación del fabricante para detalles específicos del equipo.
 
-## Resumen de funciones
+## Resumen de funcionalidades
 
-El SMART S-2423 MID+ es un rastreador compacto GPS/GLONASS diseñado para telemática vehicular e integración con Plaspy desde el inicio. Su combinación de antenas internas, múltiples opciones de E/S y soporte inalámbrico de corto alcance lo hacen adecuado para seguimiento, recolección de datos de sensores y escenarios básicos de control remoto en entornos de flota.
+El SMART S-2423 MID+ es un rastreador compacto pensado para telemática de flotas e integraciones. Combina posicionamiento GNSS, conectividad celular, comunicaciones de corto alcance y múltiples opciones de E/S para enviar posición y datos de sensores a Plaspy, permitiendo monitoreo centralizado e informes.
 
-- Seguimiento GNSS en tiempo real para monitoreo continuo de ubicación e historial de rutas.
-- Soporte integrado de Bluetooth 4.0 para conectividad con sensores de corto alcance y uso de balizas.
-- Múltiples interfaces de sensores, incluidas entradas universales, RS-485 y 1-Wire para telemetría y periféricos.
-- Acelerómetro integrado para detección de eventos de movimiento y telemetría de conducción eficiente.
-- Batería interna de respaldo y protección contra sobretensiones para mejorar la disponibilidad durante cortes de energía.
+- Posicionamiento GNSS fiable con recepción combinada GPS y GLONASS para rastreo en tiempo real.
+- Conectividad 2G GSM con módem de una sola SIM para reporte de datos celulares y reenvío de telemetría.
+- Soporte Bluetooth 4.0 para sensores de corto alcance y balizas que amplían la telemetría local.
+- Varias entradas universales y salidas de control, además de interfaces RS-485 y 1-Wire, para una amplia gama de sensores y periféricos externos.
+- Acelerómetro integrado y batería interna de respaldo para soportar puntuación de conducta del conductor y funcionamiento breve durante cortes de alimentación.
 
-## Funciones principales del Navtelekom - SMART S-2423 MID+
+## Características principales del Navtelekom - SMART S-2423 MID+
 
-- Compatibilidad con Plaspy para una integración sencilla en una plataforma centralizada de flotas.
-- Recepción GPS y GLONASS mediante la antena GNSS interna para el reporte de posición.
-- Módem GSM 2G con soporte para una sola SIM para conectividad celular.
-- Bluetooth 4.0 para emparejamiento de sensores de corto alcance y recopilación de telemetría local.
-- Acelerómetro de 3 ejes incorporado para soportar eventos de movimiento y métricas de conducta de manejo.
-- Tres entradas universales y dos salidas de control para conexiones por pulso, frecuencia, discretas o analógicas.
-- Interfaz 1-Wire y puerto RS-485 para sondas de temperatura, llaves de identificación y dispositivos de telemetría de terceros.
-- Batería interna de respaldo con especificación mínima de capacidad y protección contra sobretensiones en las entradas principales para una operación más resistente.
+- Recepción GPS y GLONASS mediante la antena GNSS interna para generar informes de posición.
+- Módem 2G GSM con soporte para una SIM para enlaces de datos celulares.
+- Bluetooth 4.0 (BLE) para conectividad con sensores y balizas de corto alcance.
+- Acelerómetro integrado para detección de movimiento y telemetría de conducción eficiente o eventos bruscos.
+- Batería interna de respaldo con capacidad mínima de 110 mA·h para mantener el dispositivo durante pérdidas de potencia breves.
+- Protección contra sobretensiones en la alimentación principal y en las líneas de entrada, con clasificación hasta 200 V para mayor resiliencia en entornos eléctricos vehiculares.
+- Tres entradas universales y dos salidas de control para pulsos, medición de frecuencia y salidas conmutadas o escenarios de control remoto.
+- Interfaces 1-Wire y RS-485 para sondas de temperatura, llaves de identificación y la integración de dispositivos de telemetría de terceros.
 
 ## Cómo funcionan estas funciones con Plaspy
 
-Al enrollarse en Plaspy, el SMART S-2423 MID+ reenvía posición y la telemetría compatible para que los operadores puedan monitorear activos en un único lugar. Plaspy detecta automáticamente los protocolos compatibles y muestra los datos reportados para mapeo, alertas e informes.
+Cuando usted utiliza el SMART S-2423 MID+ con Plaspy, el dispositivo envía posición y telemetría para que los operadores puedan monitorear activos y analizar datos vehiculares en una plataforma centralizada. Plaspy detecta automáticamente los protocolos del rastreador y consolida los informes entrantes para mapeo, generación de informes y alertas.
 
-- Las actualizaciones de posición y movimiento aparecen en los mapas y en el visor de historial de Plaspy para análisis de rutas.
-- Los eventos derivados del acelerómetro y los indicadores de conducción eficiente pueden utilizarse en Plaspy para informes de comportamiento del conductor y generación de alertas.
-- Las entradas configuradas para sensores de pulso o frecuencia transmiten telemetrías relacionadas con combustible o kilometraje hacia los paneles de Plaspy.
-- Las lecturas de sensores Bluetooth y 1-Wire pueden recopilarse y mostrarse cuando están configuradas, soportando monitoreo de carga y condiciones ambientales en corto alcance.
-- Los dispositivos conectados por RS-485 pueden reenviar telemetría externa a Plaspy cuando el rastreador está configurado para relajar esos datos.
-- Las salidas de control pueden emplearse para activar acciones remotas o indicar estados del dispositivo dentro de flujos de trabajo de Plaspy siempre que la instalación y configuración lo permitan.
+- Actualizaciones de ubicación en tiempo real y datos de movimiento con marcas temporales mostrados en los mapas y en las líneas de tiempo de activos en Plaspy.
+- Datos del acelerómetro disponibles para puntuación de conducta del conductor y para generar marcadores de eventos en los informes de Plaspy.
+- Telemetría de entradas universales, como lecturas de pulsos y frecuencia, reenviada a Plaspy para monitorizar consumo de combustible, kilometraje o sensores específicos.
+- Datos de sensores Bluetooth y 1-Wire visibles en Plaspy para telemetría de corto alcance, como sondas de temperatura y sensores locales.
+- Dispositivos conectados por RS-485 pueden integrarse y su telemetría puede enviarse a Plaspy cuando los integradores realicen la configuración necesaria.
+- Los dispositivos pueden configurarse para reportar a los endpoints de Plaspy; Plaspy puede detectar automáticamente protocolos compatibles y comúnmente acepta reportes por UDP o TCP como parte del aprovisionamiento.
 
-## Casos de uso típicos
+## Casos de uso habituales
 
-- Seguimiento en tiempo real de la flota e historial de rutas para equipos de despacho y operaciones.
-- Monitoreo de combustible y seguimiento de kilometraje usando entradas por pulso o frecuencia integradas en los informes de Plaspy.
-- Supervisión del comportamiento del conductor y programas de conducción eficiente basados en eventos del acelerómetro y telemetría.
-- Monitoreo de cargas sensibles a la temperatura usando sondas 1-Wire o sensores Bluetooth para transporte refrigerado.
-- Passthrough de tacógrafo o telemetría de terceros mediante RS-485 para consolidar datos del vehículo en Plaspy.
-- Conmutación remota básica o flujos de trabajo antirrobo aprovechando las salidas de control junto con las alertas de Plaspy.
+- Rastreo de flotas y visibilidad de rutas con mapas centralizados y trazas históricas en Plaspy.
+- Monitorización de combustible y kilometraje mediante entradas de pulso o frecuencia combinadas con el reenvío de telemetría.
+- Análisis y coaching de conducta del conductor usando puntuaciones basadas en acelerómetro e informes de eventos.
+- Monitoreo de cargas sensibles a la temperatura con sondas 1-Wire o sensores Bluetooth para transporte refrigerado.
+- Integración de tacógrafos y telemetría de terceros vía RS-485 para consolidar datos de cumplimiento y del vehículo en Plaspy.
+- Conmutación remota y flujos de trabajo antirobo usando salidas de control junto con alertas y automatizaciones de Plaspy.
 
 ## Notas sobre disponibilidad de funciones
 
-- El comportamiento de las funciones depende de la versión de firmware y de la configuración del dispositivo; funciones presentes en una versión pueden variar en otra.
-- Las revisiones de hardware y las variantes regionales pueden cambiar las bandas celulares disponibles y el cableado de E/S, por lo que es importante verificar los detalles de la unidad específica antes del despliegue.
-- Las decisiones de instalación y el tendido de cables afectan qué sensores y salidas estarán disponibles para uso dentro de Plaspy.
-- Use la herramienta de configuración del fabricante para preparar los dispositivos y confirmar que las interfaces necesarias estén habilitadas para su caso de uso.
-- Plaspy detecta protocolos compatibles de forma automática, pero se recomienda una correcta provisión y pruebas del dispositivo antes de un despliegue a gran escala.
+- La versión de firmware y la configuración determinan qué entradas e interfaces están activas y cómo se formatea la telemetría para Plaspy.
+- Revisiones de hardware o variantes regionales del dispositivo pueden cambiar las bandas celulares soportadas u opciones de periféricos; verifique el pasaporte del producto de la unidad.
+- Ciertas funciones, como inmovilización remota, reenvío avanzado de telemetría o integración con dispositivos de terceros, pueden requerir configuración por parte del instalador y dependen de la implementación.
+- La compatibilidad con sensores Bluetooth y 1-Wire depende de los modelos de sensor y del soporte de firmware.
+- Use el NTC Configurator proporcionado por el fabricante u otras herramientas de aprovisionamiento equivalentes para preparar los dispositivos antes de inscribirlos en Plaspy.
 
 ## Por qué usar Plaspy con estas funciones
 
-Usar el SMART S-2423 MID+ con Plaspy ayuda a centralizar la ubicación, los sensores y los eventos para que los equipos puedan monitorear flotas, analizar desempeño y responder a incidentes desde una sola plataforma. La variedad de entradas del dispositivo, el soporte Bluetooth y sus características de alimentación resiliente lo convierten en una opción práctica para implementaciones telemáticas mixtas donde la diversidad de sensores y la continuidad operativa son importantes.
+Emplear el SMART S-2423 MID+ con Plaspy ofrece a las organizaciones una vía práctica para consolidar posicionamiento GNSS, telemetría de sensores locales y entradas del vehículo en una única vista operativa. Plaspy transforma los reportes de posición y sensores en información accionable mediante mapeo, detección de eventos y herramientas de informes que apoyan la visibilidad de la flota, la supervisión operativa y la toma de decisiones basada en datos.
 
-Para saber más sobre Plaspy y cómo soporta integraciones de dispositivos, visite https://www.plaspy.com. Las funciones del dispositivo, el comportamiento del firmware y la implementación del fabricante pueden cambiar con el tiempo, por lo que le recomendamos verificar los detalles y la documentación más recientes en el sitio del fabricante https://www.navtelecom.ru/ antes de finalizar despliegues.
+Para saber más sobre Plaspy y cómo el SMART S-2423 MID+ puede incorporarse en un flujo de gestión de flotas visite https://www.plaspy.com. Para las especificaciones más recientes del dispositivo, comportamiento de firmware y detalles del fabricante, verifique siempre la documentación oficial de Navtelekom en https://www.navtelecom.ru/.

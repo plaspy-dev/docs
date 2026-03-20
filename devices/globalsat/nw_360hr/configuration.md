@@ -81,30 +81,30 @@ Format example used in manufacturer UI or batch tools
 TSPRXAB27GHKLMnaicz*U!
 
 Setup command example
-Replace {{imei}}, [apn], [apnu], [apnp] and compute the checksum value to replace {{checksum}} before sending. E0 is set to the Plaspy server IP and E1 is the Plaspy port.
+Replace [imei], [apn], [apnu], [apnp] and compute the checksum value to replace [checksum] before sending. E0 is set to the Plaspy server IP and E1 is the Plaspy port.
 
 GSS setup command template
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Reboot command example
-Label this reboot command optional as required to apply settings or as part of initial setup. Replace {{imei}} and compute {{checksumreeboot}}.
+Label this reboot command optional as required to apply settings or as part of initial setup. Replace [imei] and compute [checksumreeboot].
 
 GSC reboot command template
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Checksum note
-- The public example computes the checksum as an XOR of all bytes in the command text before the asterisk, then converts the result to a two digit uppercase hexadecimal string. Manufacturer tools or the device manual may provide a checksum generator; if not, use the documented XOR method to produce {{checksum}} and {{checksumreeboot}}.
+- The public example computes the checksum as an XOR of all bytes in the command text before the asterisk, then converts the result to a two digit uppercase hexadecimal string. Manufacturer tools or the device manual may provide a checksum generator; if not, use the documented XOR method to produce [checksum] and [checksumreeboot].
 
 Placeholders explanation
-- {{imei}} — your device IMEI number.
+- [imei] — your device IMEI number.
 - [apn] — APN name required by the cellular operator.
 - [apnu] — APN username if required by the network.
 - [apnp] — APN password if required by the network.
-- {{checksum}} and {{checksumreeboot}} — computed checksum values as required by the device command format.
+- [checksum] and [checksumreeboot] — computed checksum values as required by the device command format.
 
 ## Configuration Notes
 

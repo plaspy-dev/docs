@@ -78,9 +78,9 @@ Cuando está configurado, el GVT-510 envía datos de ubicación y eventos al end
 
 El GVT-510 puede configurarse mediante comandos SMS. Los comandos de ejemplo a continuación se extraen del contenido público de configuración de Megastek. Los comandos de muestra usan la contraseña por defecto del dispositivo 000000. Envíe estos mensajes SMS al número telefónico de la SIM del GVT-510. Reemplace los marcadores por los valores de su equipo.
 
-- Establecer el ID del dispositivo usando el IMEI. Reemplace {{IMEI_15}} por los últimos 15 dígitos del IMEI del dispositivo:
+- Establecer el ID del dispositivo usando el IMEI. Reemplace [IMEI_15] por los últimos 15 dígitos del IMEI del dispositivo:
 ```
-M000000,22,{{IMEI_15}}
+M000000,22,[IMEI_15]
 ```
 
 - Configurar el APN del operador. Reemplace [apn] por el APN de su operador. Si su operador requiere usuario y contraseña del APN, incluya [apnu] y [apnp]:

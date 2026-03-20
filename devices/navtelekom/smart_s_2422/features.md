@@ -2,80 +2,80 @@
 slug: /navtelekom/smart_s_2422/features
 id: smart_s_2422-features
 sidebar_label: Features
-title: Navtelekom - SMART S-2422 Features
+title: Navtelekom - СМАРТ S-2422 Features
 sidebar_class_name: menu_item_tracker
-description: Public feature overview for Navtelekom SMART S 2422 and how it integrates with Plaspy for fleet and asset tracking
+description: Public feature overview for Navtelekom СМАРТ S 2422 with Plaspy compatibility and practical capabilities
 keywords:
-  - Navtelekom SMART S 2422
-  - SMART S 2422 features
-  - Navtelekom GPS tracker
-  - SMART S 2422 Plaspy
-  - vehicle tracker SMART S 2422
-  - GPS GLONASS tracker Navtelekom
-  - 2G vehicle tracker Navtelekom
-  - SMART S 2422 inputs outputs
-  - fleet tracking SMART S 2422
-  - Bluetooth accelerometer telematics
+  - Navtelekom СМАРТ S-2422
+  - Navtelekom SMART S 2422 features
+  - СМАРТ S-2422 GPS tracker
+  - Navtelekom tracker Plaspy compatibility
+  - vehicle GLONASS GPS tracker
+  - RS-485 fuel monitoring
+  - 1-Wire telemetry interface
+  - Bluetooth 4.0 configuration
+  - digital inputs and control outputs
+  - wired vehicle tracker
 ---
 
-# Navtelekom - SMART S-2422 Features
+# Navtelekom - СМАРТ S-2422 Features
 
-This page provides a public feature overview for the Navtelekom SMART S-2422 and how its capabilities are used with Plaspy for vehicle and asset monitoring. It focuses on practical, non sensitive information about the tracker, how it reports position and telemetry, and what you can expect when pairing the device with Plaspy for real time tracking, alerts, and reporting.
+This page provides a public, feature-focused overview of the Navtelekom СМАРТ S-2422 and how its capabilities are used with Plaspy for fleet tracking and vehicle telemetry. It is intended to help fleet managers, integrators, and technical evaluators understand the tracker functions that Plaspy can receive and display.
 
-Exact feature availability can vary by firmware version, hardware revision, specific installation wiring, and manufacturer implementation. The details below reflect the provided device description and common usage patterns; for device specific technical parameters and the latest firmware behavior consult the manufacturer documentation and release notes.
+Exact feature availability and behavior can vary by device firmware, hardware revision, installation wiring, and manufacturer configuration choices. Refer to the manufacturer documentation and your device firmware release notes for device specific limitations and configuration options before deployment.
 
 ## Feature Overview
 
-The SMART S-2422 is a compact GNSS vehicle tracker designed for continuous position reporting and telemetry over cellular networks, with multiple inputs and outputs for vehicle sensors and control. Its configuration utility and local connectivity options simplify deployment and diagnostics in fleet environments.
+The СМАРТ S-2422 is a compact vehicle tracker designed for permanently wired installations where continuous GNSS tracking and vehicle telemetry are required. It focuses on robust external sensor connectivity and reliable reporting into Plaspy for real time monitoring and operations.
 
-- GNSS position fixes using GPS and GLONASS for reliable location reporting.
-- 2G cellular modem with single SIM slot and integrated GSM antenna for mobile data uplink.
-- Multiple universal inputs and control outputs to capture ignition, door, and sensor signals.
-- RS-485 and 1-Wire interfaces for integration with external telemetry devices and sensors.
-- Bluetooth 4.0 support for local diagnostics, configuration, and short range sensor connectivity.
-- Onboard accelerometer and robust overvoltage protection for commercial vehicle electrical environments.
+- Dual GLONASS and GPS positioning with sensitive integrated antennas for consistent location updates.
+- 2G GSM cellular modem with single SIM slot for telemetry reporting to Plaspy.
+- Multiple vehicle interfaces including RS-485 and 1-Wire for external fuel sensors and telemetry devices.
+- Universal digital inputs and configurable control outputs for event detection and remote actions.
+- Bluetooth 4.0 for short range local configuration and accessory pairing at the vehicle.
+- Robust power and input protection designed for demanding vehicle electrical environments and wired installations.
 
-## Core Features of Navtelekom - SMART S-2422
+## Core Features of Navtelekom - СМАРТ S-2422
 
-- GPS and GLONASS GNSS for position and movement detection.
-- 2G GSM modem with single SIM slot and integrated antennas for cellular reporting.
-- Three configurable universal inputs usable for discrete, analog, pulse, or frequency signals.
-- Two control outputs for remote switching or actuator control.
-- RS-485 and 1-Wire interfaces to connect external telemetry modules and peripheral sensors.
-- Bluetooth 4.0 for local diagnostics and sensor pairing.
-- Onboard accelerometer to support driver behavior and Eco Driving analytics.
-- Overvoltage protection up to 200 V for reliability in vehicle electrical systems.
+- GLONASS and GPS positioning using onboard sensitive GNSS antennas for real time location.
+- 2G GSM modem with a single SIM slot for cellular connectivity and data upload.
+- No internal battery required; intended for permanently wired vehicle power supply.
+- Three universal digital inputs for monitoring vehicle events and binary sensors.
+- Two configurable control outputs for remote actuation when integrated into vehicle systems.
+- RS-485 and 1-Wire interfaces to connect external telemetry devices such as fuel level sensors.
+- Bluetooth 4.0 for local configuration and short range accessory connectivity.
+- Industrial grade input protection and robust power line protection suitable for vehicle electrical systems.
 
 ## How These Features Work with Plaspy
 
-When configured for Plaspy, the SMART S-2422 forwards location, telemetry, and I/O events to the Plaspy platform so teams can monitor vehicles in real time and analyze historical data. Plaspy automatically detects supported tracker protocols and surfaces the device data in dashboards, maps, and reports.
+When the СМАРТ S-2422 is connected and configured, it sends location and sensor telemetry into Plaspy so teams can visualize positions, review sensor data, and act on events. Plaspy receives and presents the incoming data streams and provides rule and reporting tools to operational users.
 
-- Device reporting of GNSS position, timestamps, and speed appears in Plaspy maps and live tracking views.
-- Universal input events such as ignition and door status are treated as event markers for trip segmentation and alerting.
-- Analog, pulse, or frequency inputs used for fuel or meter sensors can feed Plaspy telemetry channels for monitoring and reporting.
-- Control outputs can be reflected in operational workflows to indicate remote switching state or actuator commands when integrated and authorized.
-- Bluetooth and local configuration via the NTC Configurator support commissioning and on site diagnostics prior to sending data to Plaspy.
-- Plaspy accepts device traffic pointed to the Plaspy ingestion endpoint and will process location and telemetry according to platform settings; devices may be configured to use UDP or TCP and Plaspy automatically detects tracker protocol details.
+- Real time location and movement visible on Plaspy maps and dashboards as GNSS fixes arrive.
+- Sensor telemetry from RS-485 and 1-Wire devices (for example fuel level data) recorded and charted in Plaspy.
+- Digital input events (ignition, door contacts, alarms) generate events and can trigger Plaspy rules or alerts.
+- Control output actions can be reflected in device state within Plaspy when outputs are used for remote control.
+- Bluetooth 4.0 supports local configuration and accessory setup at the vehicle, complementing Plaspy managed device configuration.
+- Plaspy automatically detects supported tracker protocols and maps incoming telemetry into the platform for visualization and reporting.
 
 ## Typical Use Cases
 
-- Real time fleet tracking and route monitoring for logistics and dispatch.
-- Driver behavior and Eco Driving programs using accelerometer based events and telemetry.
-- Fuel level monitoring and pulse based meter reporting through analog or frequency inputs.
-- Anti theft workflows and remote disable or actuator control using the device outputs.
-- Integration with specialized sensors or equipment via RS-485 and 1-Wire for temperature, RFID readers, or custom telemetry.
-- Onsite diagnostics and commissioning using Bluetooth and the Windows NTC Configurator.
+- Real time fleet tracking and routing with persistent GNSS positioning.
+- Fuel monitoring and consumption oversight using external RS-485 fuel sensors reported into Plaspy.
+- Event monitoring such as ignition or door state changes via digital inputs for operational alerts.
+- Remote equipment control and on demand actuation using configurable control outputs.
+- Anti-theft workflows and operational oversight for permanently wired vehicles.
+- Short range technician access and accessory pairing through Bluetooth during installation or maintenance.
 
 ## Feature Availability Notes
 
-- Functionality such as the exact input modes, pulse handling, or fuel sensor support depends on the firmware revision and how the device is configured.
-- Hardware revisions and regional variants may affect supported cellular bands and Bluetooth behavior; verify the unit you receive against manufacturer specifications.
-- Installation wiring and vehicle integration determine which inputs and outputs are available and how they behave in practice.
-- Some advanced uses such as remote actuator control require correct vehicle wiring, fail safe design, and appropriate configuration in both the device and Plaspy.
-- Refer to the NTC Configurator documentation for firmware update procedures and configuration options used during deployment.
+- Firmware versions and hardware revisions can affect which interfaces and features are present or configurable on a specific unit.
+- Installation wiring and how sensors or outputs are connected influence available telemetry and control capabilities.
+- Regional cellular network support for 2G may vary by country and operator; verify mobile connectivity options for your deployment area.
+- Some features require external sensors or correct wiring to the RS-485 or 1-Wire interfaces to provide usable telemetry.
+- Manufacturer configuration tools and remote management systems can change how features are delivered; always review the device firmware notes.
 
 ## Why Use Plaspy with These Features
 
-Pairing the SMART S-2422 with Plaspy gives operational teams a consolidated view of GNSS position data, input events, and peripheral telemetry in one platform. Plaspy’s mapping, alerting, and reporting tools turn raw location and I/O signals into actionable insight for fleet dispatch, maintenance planning, and loss prevention.
+Using the Navtelekom СМАРТ S-2422 with Plaspy gives operators a straightforward path to integrate vehicle GNSS positioning and external telemetry into a single fleet management platform. Plaspy presents location, sensor data, and input events in dashboards and reports that support dispatching, maintenance planning, and operational decision making.
 
-If you want to evaluate how the SMART S-2422 can fit into your telematics workflow, learn more about Plaspy on the main website https://www.plaspy.com. For the most current device specific details, firmware notes, and official technical documentation, verify the manufacturer information at https://www.navtelecom.ru/.
+Learn more about how Plaspy can work with vehicle trackers like the СМАРТ S-2422 by visiting https://www.plaspy.com. For the most current device specific details, firmware notes, and manufacturer guidance, please consult the official Navtelekom documentation at https://www.navtelecom.ru/ as device features and firmware behavior can change over time.

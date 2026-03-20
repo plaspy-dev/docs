@@ -4,78 +4,76 @@ id: gpt49-features
 sidebar_label: Features
 title: EElink - GPT49 Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de funciones del rastreador EElink GPT49 y su compatibilidad con Plaspy para seguimiento de activos y alertas de manipulación
+description: Resumen público de funciones del rastreador EElink GPT49 para Plaspy, con larga autonomía, GNSS multiconstelación y detección de manipulación
 keywords:
+  - EElink GPT49
   - funciones EElink GPT49
-  - rastreador GPS EElink GPT49
+  - rastreador GPS GPT49
   - compatibilidad GPT49 Plaspy
-  - rastreador 4G LTE GPT49
-  - rastreador GNSS multiconstelación
-  - rastreador larga autonomía
-  - rastreo de activos GPS
-  - alarma manipulación geocerca
-  - configuración remota FOTA
-  - rastreador resistente impermeable
+  - rastreador GPS EElink
+  - rastreador de activos 4G LTE
+  - GNSS multiconstelación
+  - rastreador con larga autonomía
+  - rastreador con detección de manipulación
+  - rastreo de activos Plaspy
 ---
 
-# EElink - Funciones del GPT49
+# EElink - Características del GPT49
 
-Esta página ofrece un resumen público de las funcionalidades del EElink GPT49 y de cómo se integra con Plaspy. Se enfoca en las capacidades relevantes para los usuarios de Plaspy: reporte de ubicación, detección de eventos, comportamiento de batería y gestión remota tal como aparecen en la plataforma Plaspy.
+Esta página ofrece una descripción pública y clara del rastreador EElink GPT49 y de cómo sus capacidades se aprovechan con Plaspy. Está dirigida a lectores que desean comprender el contexto práctico de las funciones, sin entrar en detalles sensibles, para integrar unidades GPT49 en Plaspy para rastreo de ubicación, visibilidad de eventos y gestión remota del dispositivo.
 
-La disponibilidad y el comportamiento exacto de las funciones pueden variar según la versión de firmware, la revisión de hardware, la variante regional, el método de instalación y la implementación del fabricante. Para obtener detalles específicos y actualizados consulte la documentación de EElink y verifique la configuración en su despliegue antes de confiar en cualquier capacidad concreta en producción.
+La disponibilidad exacta de funciones y su comportamiento puede variar según la versión de firmware, la revisión de hardware, el modelo regional, el método de instalación y la implementación del fabricante. Para parámetros específicos del equipo, cobertura de bandas y el comportamiento del firmware más reciente consulte la documentación oficial de EElink indicada más abajo.
 
-## Vista general de funciones
+## Resumen de funciones
 
-El GPT49 es un rastreador de activos compatible con Plaspy y con conectividad 4G LTE, diseñado para despliegues prolongados sin supervisión donde la precisión de posicionamiento, la detección de manipulación y el bajo mantenimiento son críticos. Combina cobertura GNSS global con amplio soporte celular y una batería de gran capacidad para ofrecer larga autonomía en espera y reportes periódicos o en tiempo real ante emergencias.
+El GPT49 es un rastreador GPS 4G LTE compatible con Plaspy, pensado para despliegues prolongados y posicionamiento global. Combina posicionamiento GNSS multiconstelación, amplia compatibilidad celular y modos de baja potencia seleccionables para ofrecer una larga autonomía en espera, manteniendo opciones de seguimiento en tiempo real para emergencias y detección de manipulación útiles en la gestión de activos.
 
-- Rastreador 4G LTE con compatibilidad celular de respaldo para amplia cobertura de redes y reporte continuo de la ubicación.
-- Recepción GNSS multiconstelación que incluye GPS, GLONASS, BeiDou, Galileo y QZSS para mayor fiabilidad de la posición en todo el mundo.
-- Batería de gran capacidad de 6500 mAh y modos de activación diarios de bajo consumo optimizados para una autonomía extremadamente larga en activos almacenados o con movimientos poco frecuentes.
-- Modo de emergencia en tiempo real seleccionable para aumentar la frecuencia de reporte cuando se detecta movimiento o un evento.
-- Detección de manipulación con activación por vibración y alarma por sensor de luz, además de soporte de geocercas para monitoreo perimetral.
-- Configuración remota y actualizaciones de firmware por aire para simplificar la gestión a gran escala.
+- Soporte GNSS multiconstelación para fijaciones más rápidas y mejor cobertura global
+- Conectividad 4G LTE con compatibilidad celular de respaldo para reportes consistentes
+- Batería grande de 6500 mAh optimizada para ultra larga autonomía en modo de bajo consumo
+- Modo diario de despertar de bajo consumo seleccionable y modo de seguimiento en tiempo real para emergencias
+- Alarmas por vibración y sensor de luz, además de reportes de geocerca para monitoreo anti‑robo
 
 ## Funciones principales del EElink - GPT49
 
-- Conectividad celular que cubre GSM, WCDMA y LTE FDD/TDD para soportar despliegues globales y reporte telemétrico continuo.
-- Soporte GNSS multiconstelación: GPS, GLONASS, BeiDou, Galileo y QZSS para obtención de posiciones más rápida y cobertura más amplia.
-- Batería de litio-manganeso de 6500 mAh con perfil de espera ultralargo y estrategias de reporte configurables.
-- Modos duales de seguimiento: modo diario de bajo consumo y modo de emergencia en tiempo real para respuesta ante incidencias.
-- Alarmas de manipulación por activación por vibración y sensor de luz para detectar movimientos o accesos no autorizados.
-- Capacidad de geocercas para alertas perimetrales y monitorización de llegadas o salidas.
-- Configuración remota del dispositivo y FOTA para actualizar ajustes y firmware sin recuperar el equipo físicamente.
-- Carcasa compacta y robusta diseñada para uso exterior e industrial, con dimensiones y peso optimizados para montaje sobre activos.
+- GNSS multiconstelación incluyendo GPS, GLONASS, BeiDou, Galileo y QZSS para posicionamiento robusto
+- Conectividad celular en redes GSM, WCDMA y LTE para reportar ubicaciones y eventos
+- Gran batería interna de 6500 mAh que soporta largos periodos en espera entre cargas
+- Modos de operación duales que ofrecen despertar diario de bajo consumo y seguimiento en tiempo real para emergencias
+- Alarmas por vibración y sensor de luz para detectar movimiento o acceso no autorizado
+- Soporte de geocercas para monitoreo perimetral y eventos de entrada y salida
+- Configuración remota y actualizaciones de firmware OTA para gestión a escala de flota
+- Carcasa resistente, a prueba de agua y polvo, diseñada para despliegues exteriores e industriales
 
 ## Cómo funcionan estas funciones con Plaspy
 
-Plaspy ingiere los reportes de posición, las banderas de eventos y las actualizaciones de estado del GPT49 para que los operadores puedan visualizar ubicación en vivo, el historial y los eventos en una sola vista. Plaspy presenta los datos del dispositivo como marcadores en el mapa, historial en la línea de tiempo y alertas accionables para apoyar decisiones operativas y flujos de trabajo antirobo.
+Plaspy ingiere las posiciones y las banderas de eventos del GPT49 para ofrecer mapas en vivo, historial y alertas que resultan útiles para equipos operativos y de seguridad. Cuando se despliega un GPT49, Plaspy muestra las posiciones reportadas y las notificaciones de eventos para que los administradores monitoreen activos sin necesidad de recuperarlos físicamente.
 
-- Visualización de ubicación en tiempo real y trazas históricas en Plaspy basadas en los reportes GNSS del GPT49.
-- Los eventos de manipulación y movimiento (activaciones por vibración y sensor de luz) aparecen como alertas que pueden integrarse en flujos de notificación y escalamiento.
-- Los eventos de geocerca reportados por el GPT49 se muestran en Plaspy para el monitoreo perimetral y el registro de entradas o salidas.
-- El estado de la batería, el estado en línea/fuera de línea del dispositivo y la frecuencia de reporte son visibles en Plaspy para ayudar a gestionar ciclos de mantenimiento y salud del dispositivo.
-- Plaspy detecta automáticamente el protocolo del rastreador y acepta conexiones para ingestión; los dispositivos se pueden configurar para reportar a los endpoints de Plaspy usando modos de transporte comunes.
-- Los flujos de trabajo de configuración remota y FOTA reducen la necesidad de acceso físico permitiendo a los administradores ajustar intervalos de reporte y aplicar actualizaciones de firmware de forma centralizada.
+- Actualizaciones de ubicación en tiempo real y rutas históricas visibles en los mapas e informes de Plaspy
+- Eventos de manipulación y vibración que se canalizan a alertas y flujos de notificación en Plaspy
+- Eventos de entrada y salida de geocercas que aparecen en Plaspy para auditoría y monitoreo perimetral
+- Modos de reporte seleccionables que permiten a Plaspy equilibrar la frecuencia de reportes con la duración de la batería
+- Integración de configuración remota y FOTA con la gestión de dispositivos de Plaspy para ajustar intervalos, umbrales y firmware de forma remota
 
 ## Casos de uso típicos
 
-- Seguimiento a largo plazo de equipos y maquinaria pesada donde el movimiento es esporádico y el mantenimiento debe ser mínimo.
-- Protección de activos estacionales o almacenados que requieren larga autonomía de batería y verificaciones ocasionales de estado.
-- Monitoreo de contenedores, pallets o envíos donde las geocercas y las alertas de manipulación ofrecen detección temprana de movimientos no autorizados.
-- Inventario de activos en sitios remotos como depósitos al aire libre, subestaciones y instalaciones temporales sin alimentación fija.
-- Pequeñas flotas o conjuntos de equipos que se benefician de un historial de ubicaciones centralizado y reportes de eventos.
-- Despliegues de activos que requieren rastreadores resistentes y resistentes a la intemperie para entornos industriales.
+- Rastreo a largo plazo de maquinaria pesada y herramientas de construcción con mantenimiento poco frecuente
+- Protección de activos estacionales o almacenados que requieren larga autonomía y verificaciones de ubicación ocasionales
+- Monitoreo de contenedores, pallets y carga donde las geocercas y alertas de manipulación ofrecen detección temprana de movimientos
+- Inventario de activos en sitios remotos como depósitos, subestaciones o proyectos temporales sin alimentación eléctrica
+- Monitoreo de pequeñas flotas y equipos para consolidar ubicación y eventos en un único panel de Plaspy
+- Instalaciones de activos desatendidas que dependen de larga autonomía de batería y reportes periódicos de estado
 
 ## Notas sobre disponibilidad de funciones
 
-- El comportamiento de las funciones puede variar entre versiones de firmware y revisiones de hardware; funciones específicas pueden cambiar con actualizaciones del fabricante.
-- Las variantes regionales y el soporte de bandas celulares afectan la compatibilidad de red; confirme las bandas soportadas para la región de despliegue con EElink.
-- Detalles de instalación como la colocación de la antena y el montaje del equipo pueden influir en la recepción GNSS y en el rendimiento de las alarmas de manipulación.
-- Las geocercas, los umbrales de detección y los intervalos de reporte suelen ser configurables y pueden ajustarse de forma distinta por integradores o administradores.
-- Consulte siempre la documentación de EElink para las especificaciones técnicas y la guía de implementación más recientes antes del despliegue.
+- Algunas funciones y comportamientos exactos dependen de la versión de firmware instalada y de las opciones del fabricante
+- Revisiones de hardware o variantes regionales pueden afectar la compatibilidad de red y las capacidades reportadas
+- Ciertas funciones, como los umbrales de manipulación y los intervalos de reporte, suelen ser configurables y pueden diferir según la instalación
+- La disponibilidad de actualizaciones OTA y las opciones de configuración remota dependen del aprovisionamiento del dispositivo y de las condiciones de red
+- Siempre confirme las listas de funciones y las especificaciones frente a la documentación del fabricante para la unidad específica
 
 ## Por qué usar Plaspy con estas funciones
 
-Usar el GPT49 con Plaspy brinda a las organizaciones una forma práctica de combinar larga autonomía de batería, posicionamiento global y detección de manipulación en un solo flujo de trabajo de gestión de activos. Plaspy agrega señales de ubicación, eventos y salud del dispositivo para que los equipos puedan monitorear activos distribuidos desde un tablero unificado y reaccionar ante incidentes con contexto.
+Usar el EElink GPT49 con Plaspy ofrece a las organizaciones una combinación práctica de larga autonomía sin supervisión y cobertura de posicionamiento global. Plaspy transforma las fijaciones GNSS y las señales de evento del rastreador en información operativa, como vistas de ubicación en vivo, rutas históricas y flujos de trabajo basados en alertas que reducen el tiempo de respuesta ante robos o movimientos no autorizados.
 
-To learn more about Plaspy and how it can be used with devices like the EElink GPT49 visit https://www.plaspy.com. Please verify the latest device features, firmware behavior, and manufacturer details on the official EElink site https://www.eelink.com.cn/ since device capabilities and implementations can change over time.
+Plaspy también facilita la gestión a gran escala de dispositivos al soportar configuración remota e integrar los eventos reportados en paneles y notificaciones, para que los equipos mantengan visibilidad sin acceso físico frecuente a los dispositivos. Para obtener más información sobre Plaspy visite https://www.plaspy.com y para verificar los detalles específicos del dispositivo y el comportamiento del firmware consulte el sitio del fabricante https://www.eelink.com.cn/ .

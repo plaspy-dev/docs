@@ -82,9 +82,9 @@ El VT900 soporta configuración por SMS usando la contraseña del dispositivo y 
 W000000,990,099###
 ```
 
-- Set the device ID (replace {{IMEI_FIRST14}} with the first 14 digits of the device IMEI; Plaspy typically uses the full 15-digit IMEI as the device identifier on the platform):
+- Set the device ID (replace [IMEI_FIRST14] with the first 14 digits of the device IMEI; Plaspy typically uses the full 15-digit IMEI as the device identifier on the platform):
 ```text
-W000000,010,{{IMEI_FIRST14}}
+W000000,010,[IMEI_FIRST14]
 ```
 
 - Set the operator APN. Replace [apn] with your SIM operator APN. If the APN requires username and password, append ,[apnu],[apnp]:

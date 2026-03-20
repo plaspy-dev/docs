@@ -4,77 +4,77 @@ id: smart_s_4533-protocol
 sidebar_label: Protocol
 title: Navtelekom - SMART S-4533 Protocol
 sidebar_class_name: menu_item_tracker
-description: Visión general pública del protocolo del Navtelekom SMART S-4533 y cómo se comunica con Plaspy para seguimiento de flotas confiable
+description: Resumen público del protocolo de Navtelekom SMART S-4533 y su comunicación con Plaspy para rastreo confiable de flotas
 keywords:
-  - Protocolo Navtelekom SMART S-4533
-  - Protocolo GPS Navtelekom SMART S-4533
-  - Compatibilidad SMART S-4533 Plaspy
-  - Protocolo rastreador GPS Navtelekom
-  - Protocolo de rastreo SMART S-4533
-  - Protocolo de comunicación rastreador GPS Plaspy
-  - Rastreo de flotas SMART S-4533
-  - Protocolo telemático Navtelekom
-  - Integración SMART S-4533 MODBUS
-  - Detección de protocolo de dispositivo Plaspy
+  - protocolo Navtelekom SMART S-4533
+  - protocolo GPS Navtelekom SMART S-4533
+  - protocolo de comunicación SMART S-4533
+  - protocolo de rastreo SMART S-4533
+  - compatibilidad tracker Navtelekom Plaspy
+  - protocolo de rastreador Plaspy
+  - protocolo de rastreo vehicular Navtelekom
+  - gestión de flotas SMART S-4533
+  - detección de protocolo de dispositivo Plaspy
+  - ajustes de transporte de tracker Plaspy
 ---
 
-# Navtelekom - Protocolo SMART S-4533
+# Navtelekom - SMART S-4533 Protocolo
 
-Esta página explica el contexto público del protocolo para usar el rastreador Navtelekom SMART S-4533 con la plataforma Plaspy. Se enfoca en cómo se comunica el dispositivo a grandes rasgos, cómo Plaspy recibe e identifica el tráfico del equipo y qué consideraciones tener al integrarlo en flotas. El objetivo es ofrecer información clara y no sensible para facilitar la implementación y la resolución de problemas, recomendando siempre consultar la documentación del fabricante para detalles de implementación.
+Esta página ofrece una visión pública y de alto nivel sobre el contexto del protocolo de comunicación del Navtelekom SMART S-4533 cuando se utiliza con Plaspy. Explica cómo el rastreador envía posiciones, eventos y telemetría a Plaspy y cuáles son los ajustes de conexión habituales en despliegues típicos. El objetivo es describir el contexto de integración sin exponer detalles internos de firmware ni implementaciones privadas del protocolo.
 
-El SMART S-4533 es un rastreador vehicular con GNSS (GLONASS y GPS), conectividad 4G robusta, redundancia de doble SIM y batería de respaldo recargable integrada. Plaspy utiliza ajustes de conexión compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador, pero el comportamiento exacto puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante. Estas diferencias pueden afectar cómo el dispositivo reporta posiciones, eventos y telemetría a Plaspy.
+Plaspy está diseñado para usar ajustes de conexión compartidos entre los dispositivos compatibles y detectar automáticamente el protocolo del rastreador una vez que el dispositivo reporta al endpoint de Plaspy. El comportamiento exacto del protocolo y el contenido de los mensajes pueden variar según la versión de firmware, la revisión de hardware y la implementación del fabricante, por lo que siempre es recomendable consultar al fabricante para aspectos específicos del dispositivo mientras usa esta página como referencia práctica de integración.
 
-## Descripción general del protocolo
+## Resumen del protocolo
 
-El protocolo de reporte del rastreador define cómo el SMART S-4533 envía posiciones GNSS, estado, eventos y lecturas de sensores a un servidor remoto. En la práctica, el protocolo permite que el equipo se identifique ante el servidor, transmita mensajes periódicos o activados por eventos y entregue datos periféricos recopilados desde entradas, interfaces seriales y sensores Bluetooth.
+El SMART S-4533 utiliza su GNSS integrado y el módem celular para generar datos de ubicación y eventos, y luego envía esas transmisiones a un servidor remoto para su recolección y procesamiento. En el contexto de integración con Plaspy, el protocolo sirve para identificar de forma fiable el dispositivo, transmitir telemetría periódica y por eventos, y habilitar comandos remotos y activación de salidas cuando el firmware y la configuración del dispositivo lo permiten.
 
-- Permite al rastreador entregar actualizaciones de ubicación y telemetría para mapas en tiempo real e informes históricos
-- Transporta notificaciones de eventos para lógica del dispositivo como exceso de velocidad o alertas de geocerca
-- Lleva datos de sensores periféricos desde entradas, dispositivos MODBUS y periféricos Bluetooth
-- Permite que el equipo indique estados como batería de respaldo y conectividad
-- Soporta operaciones de comando y control cuando el firmware y las funciones del fabricante lo permiten
+- Permite que el rastreador reporte posiciones GNSS y marcas de tiempo a Plaspy para mapas en tiempo real y rastros históricos.
+- Transmite cambios de estado de eventos y E/S, como encendido, alarmas y lecturas de sensores, para alertas y análisis.
+- Lleva telemetría de periféricos desde interfaces serial, MODBUS y 1-Wire para que Plaspy pueda mostrar y archivar datos de sensores.
+- Soporta preprocesamiento de eventos en el dispositivo mediante reglas complejas de Navtelekom para reducir ruido y reenviar alertas accionables.
+- Proporciona un canal para control remoto y activación de salidas cuando el firmware y la configuración del dispositivo exponen esas capacidades a la plataforma.
 
 ## Cómo detecta Plaspy el protocolo
 
-Plaspy recibe el tráfico de los rastreadores en un punto de entrada y puerto comunes y utiliza ese punto compartido para determinar cómo manejar cada flujo de datos. Cuando un SMART S-4533 se configura para reportar al endpoint de Plaspy, la plataforma detectará automáticamente el protocolo del equipo, por lo que normalmente no es necesario seleccionar el protocolo manualmente dentro de Plaspy.
+Plaspy recibe conexiones de reporte en un endpoint compartido y determina automáticamente el protocolo del dispositivo en función del perfil de conexión y de los datos entrantes. Cuando un SMART S-4533 está configurado para reportar al endpoint de Plaspy, normalmente no es necesario seleccionar manualmente un protocolo dentro de Plaspy para que el rastreo básico comience.
 
-- El dominio del servidor Plaspy es d.plaspy.com y la plataforma también es accesible en la dirección IP 54.85.159.138
-- El puerto estándar de Plaspy para dispositivos es 8888 y todos los dispositivos en Plaspy usan el mismo puerto
-- Los dispositivos pueden configurarse para usar UDP o TCP en el puerto 8888 según el soporte del dispositivo y la preferencia del operador
-- Cuando llega tráfico al endpoint compartido, Plaspy inspecciona y asocia los flujos entrantes con el manejador de protocolo apropiado
-- En la mayoría de los casos solo necesita configurar el SMART S-4533 para reportar al endpoint y puerto de Plaspy para la detección automática
+- El dominio del servidor Plaspy es d.plaspy.com, que es el nombre DNS común que los dispositivos pueden usar para alcanzar la plataforma.
+- La IP del servidor Plaspy es 54.85.159.138 y el servicio escucha en un único puerto para el tráfico de dispositivos.
+- El puerto es 8888 y todos los dispositivos en Plaspy usan el mismo puerto, lo que simplifica la configuración de los dispositivos.
+- Plaspy detecta automáticamente el protocolo del rastreador, por lo que los dispositivos correctamente configurados suelen registrarse sin selección manual.
+- Si un dispositivo envía la telemetría esperada y datos identificadores, Plaspy lo clasificará y comenzará a procesar posiciones y eventos para la cuenta.
 
 ## Transporte y contexto de conexión
 
-Las elecciones de conexión, como el protocolo de transporte y usar DNS frente a IP directa, pueden influir en la confiabilidad en campo. El SMART S-4533 soporta 4G celular y redundancia de doble SIM, lo que ayuda a mantener la conectividad con el endpoint de Plaspy bajo condiciones de red variables.
+La conectividad del SMART S-4533 normalmente se provee mediante el módem celular del dispositivo y la redundancia de doble SIM puede mejorar la fiabilidad de los reportes. Para comunicarse con Plaspy, el dispositivo puede configurarse para usar transporte UDP o TCP según el firmware del dispositivo y las preferencias de configuración locales.
 
-- El dispositivo puede configurarse para usar UDP o TCP en el puerto 8888 para reportes
-- Los equipos pueden apuntar al dominio de Plaspy d.plaspy.com o a la IP del servidor 54.85.159.138
-- Plaspy usa el puerto 8888 para todos los dispositivos soportados para simplificar la configuración
-- La operación con doble SIM en el rastreador mejora la alcanzabilidad de la red para la sesión de transporte
-- Elija el transporte que coincida con el firmware del dispositivo y las preferencias de la red del operador para obtener el mejor rendimiento
+- El dispositivo puede configurarse para usar UDP o TCP en el puerto 8888 para reportar a Plaspy.
+- Los dispositivos pueden apuntar al dominio d.plaspy.com o a la IP 54.85.159.138 según las preferencias de red.
+- Usar un puerto compartido único entre dispositivos simplifica las reglas de router y firewall en despliegues de flotas.
+- La elección del transporte (UDP vs TCP) puede afectar las garantías de entrega y debe coincidir con la configuración del dispositivo y los requisitos de fiabilidad de la red.
+- Asegúrese de que la APN y la configuración de la SIM en el SMART S-4533 sean correctas para que el rastreador pueda alcanzar el endpoint de Plaspy a través de la red móvil.
 
 ## Notas sobre compatibilidad del protocolo
 
-- Las variantes de firmware y las versiones de lanzamiento pueden cambiar la temporización de mensajes, los nombres de eventos y los campos opcionales
-- Las revisiones de hardware o variantes regionales del SMART S-4533 pueden implementar características de forma distinta
-- Funciones del lado del fabricante, como lógica de eventos complejos, pueden preprocesar eventos antes de reportarlos
-- La selección de transporte entre UDP y TCP afecta la confiabilidad y puede requerir ajustes coincidentes en el dispositivo
-- Valide siempre el comportamiento del equipo con la documentación oficial de Navtelekom y las notas de versión del firmware
-- Si depende de MODBUS o telemetría serial, confirme qué registros e interfaces están disponibles en su revisión de hardware
+- Las variaciones de firmware entre unidades SMART S-4533 pueden modificar características disponibles, la frecuencia de mensajes y los modos de transporte soportados.
+- Revisiones de hardware o SKUs regionales pueden afectar las interfaces disponibles o la presencia de ciertos periféricos.
+- Ajustes configurables por el fabricante, como filtros de eventos, intervalos de reporte y reglas de eventos complejos, cambian qué datos se envían a Plaspy.
+- Seleccionar UDP o TCP debe coincidir con la configuración del dispositivo; algunos despliegues prefieren UDP por menor overhead mientras que otros prefieren TCP por confirmación de entrega.
+- Valide siempre que el dispositivo esté configurado para reportar a d.plaspy.com o a 54.85.159.138 en el puerto 8888 y que los ajustes de SIM/APN permitan conexiones salientes.
+- Confirme la compatibilidad de periféricos MODBUS y seriales con sus necesidades de telemetría y con la forma en que Plaspy espera recibir los valores de sensor.
 
 ## Por qué es importante entender el protocolo
 
-Conocer cómo opera el protocolo del rastreador ayuda a garantizar una integración fluida, una interpretación correcta de los datos y una resolución más rápida cuando surjan problemas. Entender el protocolo reduce conjeturas durante la configuración y brinda confianza a los operadores en la telemetría y los eventos que visualizan en Plaspy.
+Comprender cómo se comunica el SMART S-4533 ayuda a asegurar una configuración confiable, una interpretación correcta de los datos y una resolución de problemas eficiente al usar Plaspy. Un conocimiento claro del contexto del protocolo reduce el tiempo de incorporación y ayuda a determinar si es necesaria configuración adicional en el dispositivo para su caso de uso.
 
-- Ayuda a confirmar que GNSS, eventos y datos de sensores se mapean correctamente en los paneles de Plaspy
-- Agiliza la resolución cuando un equipo no aparece o reporta valores inesperados
-- Informa decisiones de configuración como intervalos de reporte, tipo de transporte y comportamiento de las SIM
-- Ayuda a planificar actualizaciones de firmware y a evaluar el impacto de cambios del fabricante
-- Soporta el uso confiable de funciones del dispositivo como reporte de batería de respaldo y salidas programables
+- Acelera la puesta en marcha inicial asegurando que el dispositivo apunte a d.plaspy.com o a 54.85.159.138 en el puerto compartido 8888.
+- Facilita la resolución de problemas de conectividad al acotar causas relacionadas con transporte, APN y SIM antes de investigar datos de nivel superior.
+- Orienta la configuración de reglas de evento en el dispositivo para que solo se reenvíen alertas relevantes a Plaspy.
+- Aclara cómo la telemetría de periféricos MODBUS, RS-232/485 y 1-Wire será incorporada a los informes y paneles de Plaspy.
+- Ayuda en la planificación de redundancia, respaldo de batería y comportamiento de conmutación por fallo utilizando la función de doble SIM y batería de respaldo del dispositivo.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el SMART S-4533 con Plaspy ofrece a las organizaciones seguimiento en tiempo real continuo, alertas basadas en eventos y telemetría integrada para uso en flotas e industrias. La detección automática de protocolos de Plaspy y el uso de un único puerto por dispositivo reducen la complejidad de configuración mientras permiten que el rastreador proporcione posiciones GNSS, estado del equipo y flujos de sensores periféricos para visibilidad, monitoreo y supervisión operativa.
+Usar el SMART S-4533 con Plaspy ofrece a las organizaciones una vía práctica para obtener visibilidad continua de ubicación, alertas basadas en eventos y telemetría integrada para usos en flotas e industriales. El posicionamiento GLONASS/GPS del rastreador, su conjunto robusto de E/S, las interfaces MODBUS y seriales, y la conectividad 4G con doble SIM lo hacen adecuado para escenarios donde la disponibilidad y la fiabilidad de los datos son esenciales.
 
-Para saber más sobre cómo Plaspy funciona con dispositivos como el SMART S-4533 visite https://www.plaspy.com. Verifique siempre los detalles más recientes del protocolo específico del dispositivo, el comportamiento del firmware y la implementación del fabricante en el sitio oficial de Navtelekom en https://www.navtelecom.ru/ ya que estos detalles pueden cambiar con el tiempo.
+El modelo de conexión compartida de Plaspy y la detección automática de protocolos permiten apuntar los dispositivos SMART S-4533 a d.plaspy.com o 54.85.159.138 en el puerto 8888 y que la plataforma comience a procesar posiciones y eventos sin configuraciones complejas por dispositivo. Para conocer más sobre cómo Plaspy puede trabajar con su flota y revisar las capacidades de la plataforma, visite https://www.plaspy.com. Para detalles de firmware más recientes, guías de configuración y notas específicas del fabricante, verifique la documentación actual en https://www.navtelecom.ru/ ya que la implementación y el comportamiento del firmware pueden cambiar con el tiempo.

@@ -4,77 +4,76 @@ id: gpt09-features
 sidebar_label: Features
 title: EElink - GPT09 Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de funciones del rastreador EElink GPT09 y su integración con Plaspy para monitoreo de ubicación confiable
+description: Resumen público de funciones del rastreador EElink GPT09 y su integración con Plaspy para seguimiento y monitoreo
 keywords:
+  - EElink GPT09
   - funciones EElink GPT09
-  - funciones rastreador GPS EElink GPT09
-  - capacidades EElink GPT09
-  - características EElink GPT09
-  - funciones EElink GPT09 para Plaspy
-  - rastreador GPS EElink
-  - rastreador GPT09 larga autonomía
-  - rastreador GPS GPT09 magnético
+  - rastreador GPS EElink GPT09
+  - compatibilidad GPT09 Plaspy
+  - características rastreador GPS EElink
+  - batería de larga espera GPT09
+  - montaje magnético GPT09
+  - GPT09 resistente IP67
   - rastreador protocolo EELINK
-  - rastreador GPT09 IP67
+  - rastreo de vehículos Plaspy
 ---
 
-# EElink - Funciones del GPT09
+# EElink - Características del GPT09
 
-Esta página ofrece una visión pública de las funciones del rastreador EElink GPT09 y de cómo esas capacidades se incorporan al uso con la plataforma Plaspy. Su objetivo es describir las prestaciones prácticas orientadas al usuario y la manera en que Plaspy recibe y actúa sobre la información de ubicación y estado enviada por el dispositivo.
+Esta página ofrece una visión pública y centrada en las funciones del EElink GPT09 y cómo sus capacidades se relacionan con su uso en Plaspy. Está dirigida a gestores de flotas, responsables de activos y evaluadores técnicos que necesitan comprender las funciones prácticas del dispositivo al reportar en la plataforma Plaspy y qué esperar en escenarios operativos habituales.
 
-La disponibilidad y el comportamiento exacto de las funciones pueden variar según la versión de firmware, la revisión de hardware, el método de instalación y la implementación del fabricante. Siempre que es posible, esta página se mantiene fiel a las capacidades provistas por el fabricante, como soporte quad band, operación en espera prolongada, montaje magnético, protección IP67, posicionamiento GPS/LBS dual, asistencia A-GPS, actualizaciones OTA de firmware y compatibilidad con plataformas que usan el protocolo EELINK.
+La disponibilidad y el comportamiento exacto de las funciones descritas pueden variar según la versión de firmware, la revisión de hardware, la variante regional, el método de instalación y la implementación del fabricante. Para configuraciones específicas del dispositivo, consulte la documentación oficial del fabricante y las notas de la versión.
 
 ## Resumen de funciones
 
-El GPT09 es un rastreador compacto y robusto, diseñado para despliegues de larga duración y montaje discreto sobre superficies metálicas. Está pensado para consumir poca energía durante largos periodos de espera, permitiendo registros programados y un modo de emergencia que activa rastreo en tiempo real cuando sea necesario. Plaspy puede recibir los reportes de posición del dispositivo y mostrarlos en los paneles y vistas de monitoreo de la plataforma.
+El EElink GPT09 está diseñado como un rastreador GPS robusto y de larga duración, con modos de reporte flexibles adecuados tanto para chequeos periódicos como para seguimiento en tiempo real en emergencias. Su combinación de soporte de radio global, operación con batería de larga autonomía y carcasa resistente lo convierte en una opción práctica para el monitoreo prolongado de activos donde importan el bajo mantenimiento y el montaje discreto.
 
-- Compatibilidad celular quad band para amplia cobertura geográfica y flexibilidad de roaming
-- Capacidad de espera muy prolongada gracias a una batería de alta capacidad y a intervalos de trabajo configurables
-- Carcasa con imanes fuertes para fijación rápida en superficies de hierro y colocación discreta
-- Gabinete con certificación IP67 que protege contra polvo y inmersión en agua, apto para exteriores
-- Posicionamiento dual GPS y LBS con asistencia A-GPS para obtener fijaciones más rápidas en condiciones difíciles
-- Soporte de actualización de firmware OTA para aplicar mejoras y correcciones en campo
+- Soporte de radio quad band global para amplia compatibilidad con SIM y regiones
+- Batería de gran capacidad 14500mAh de cloruro de tionilo que permite varios años en espera con ciclos cortos diarios de encendido
+- Fijación magnética potente para montaje rápido en superficies de hierro y colocación discreta
+- Protección "three anti" de grado militar y resistencia IP67 para uso exterior duradero
+- Posicionamiento dual GPS y LBS, con A-GPS para obtener fijaciones más rápidas
+- Configuración de horas de trabajo en modo espera prolongado y un modo de emergencia con seguimiento en tiempo real
 
 ## Funciones principales del EElink - GPT09
 
-- Compatibilidad celular quad band para uso internacional
-- Batería de alta capacidad 14500mAh diseñada para años en modo espera con patrones de reporte programados
-- Intervalos de trabajo configurables para espera prolongada, incluyendo opciones de 6, 12, 24 o 48 horas
-- Modo de emergencia que habilita rastreo en tiempo real para monitoreo inmediato
-- Posicionamiento dual GPS y LBS con asistencia A-GPS para mejorar la adquisición de ubicación
-- Montaje magnético fuerte para fijación segura en superficies de hierro
-- Diseño resistente con protección IP67 contra ingreso de polvo y agua
-- Soporte del protocolo EELINK y compatibilidad con la plataforma Keelin y el cliente móvil Keelin
+- Soporte GSM quad band (850 900 1800 1900MHz) para cobertura de red global
+- Batería integrada 14500mAh de cloruro de tionilo de muy alta capacidad y casi nula autodescarga, pensada para una vida en espera muy prolongada
+- Carcasa con alta fuerza magnética para fijación fácil a objetos metálicos
+- Rendimiento "three anti" de grado militar y clasificación IP67 para despliegues robustos
+- Posicionamiento dual GPS y LBS con asistencia A-GPS para mejorar el tiempo de fijación
+- Ajustes flexibles de intervalos de funcionamiento con modos de espera seleccionables como 6 12 24 o 48 horas
+- Modo de emergencia que cambia el dispositivo a seguimiento en tiempo real para supervisión inmediata
+- Soporte para actualización OTA de firmware y compatibilidad con el protocolo EELINK para integración con plataformas
 
 ## Cómo funcionan estas funciones con Plaspy
 
-Plaspy recibe reportes de posición y estado de rastreadores compatibles y expone esa información para monitoreo, consulta histórica y flujos operativos. El GPT09 puede integrarse con Plaspy utilizando su reporte compatible con EELINK; Plaspy detecta automáticamente el protocolo del rastreador y procesa los mensajes entrantes según corresponda. Comportamientos del dispositivo, como registros periódicos o reportes en tiempo real por emergencia, se representan como eventos en la plataforma.
+Plaspy puede recibir los reportes de dispositivos GPT09 y mostrar ubicación, estado y eventos en una vista unificada de supervisión. La detección automática de protocolos de Plaspy facilita la integración de rastreadores basados en EELINK, de modo que los mensajes del dispositivo se analizan y presentan sin necesidad de seleccionar manualmente el protocolo.
 
-- Las actualizaciones de posición por GPS o LBS se muestran en los mapas y líneas de tiempo de Plaspy para seguimiento y revisión
-- Los cronogramas de espera prolongada se traducen en puntos de ubicación periódicos que aparecen en Plaspy como telemetría programada
-- Los reportes en tiempo real por modo de emergencia se reflejan en Plaspy para visibilidad casi inmediata y respuesta del operador
-- El estado del dispositivo, como versión de firmware y conectividad, se reporta a Plaspy cuando está disponible para la gestión de equipos
-- Plaspy acepta dispositivos configurados para UDP o TCP y reconoce automáticamente el protocolo del rastreador para una incorporación rápida
+- Ubicaciones en vivo e históricas trazadas en los mapas de Plaspy para visibilidad y revisión de rutas
+- Estado del dispositivo y marcas de tiempo del último reporte mostrados para evaluar la salud de la batería y la periodicidad de los reportes
+- Actividad en modo de emergencia y sesiones de seguimiento de mayor frecuencia disponibles para respuesta operativa inmediata
+- Soporte para patrones de reporte en espera prolongada, de modo que Plaspy muestra los chequeos periódicos y preserva el historial de forma eficiente
+- Los dispositivos GPT09 pueden configurarse para apuntar a Plaspy mediante el hostname d.plaspy.com y Plaspy acepta reportes TCP o UDP en el puerto estándar de la plataforma, detectando automáticamente el protocolo del dispositivo
 
 ## Casos de uso típicos
 
-- Rastreo de ubicación de activos a largo plazo donde registros poco frecuentes preservan la batería
-- Monitoreo discreto de vehículos o equipos mediante montaje magnético en superficies metálicas
-- Protección de activos remotos en entornos exteriores o industriales que requieren protección IP67
-- Escenarios de rastreo de emergencia donde es necesario cambiar a reporte en tiempo real
-- Integraciones donde los clientes desean centralizar los datos de dispositivos usando el protocolo EELINK
-- Situaciones que requieren mantenimiento de firmware OTA para mantener los dispositivos desplegados actualizados
+- Seguimiento de activos a largo plazo donde los chequeos poco frecuentes conservan la batería
+- Montaje discreto en remolques o equipos utilizando la sujeción magnética
+- Monitoreo de equipos remotos con instalación resistente y a prueba de intemperie
+- Recuperación y seguimiento en emergencias cuando un activo requiere actualizaciones de ubicación inmediatas
+- Verificación periódica de la ubicación de activos en operaciones logísticas y de cadena de suministro
 
 ## Notas sobre disponibilidad de funciones
 
-- La disponibilidad de funciones puede variar entre revisiones de firmware y lotes de hardware; verifique las notas de la versión del firmware instalado
-- Las variantes celulares regionales y la provisión con operadores pueden afectar el desempeño quad band y el comportamiento de roaming
-- El método de instalación y la ubicación de montaje pueden influir en la precisión del GPS y LBS y en la disponibilidad de señal
-- Algunas funciones dependen de la configuración del firmware del fabricante y de los ajustes de integración de la plataforma
-- Verifique siempre la compatibilidad y los procedimientos de actualización OTA antes de realizar actualizaciones remotas
+- Las versiones de firmware pueden modificar el comportamiento de gestión de energía, las opciones de frecuencia de reporte y los campos de protocolo enviados a las plataformas
+- Las revisiones de hardware y las variantes regionales del producto pueden afectar la configuración de la batería y el soporte de bandas de radio
+- El método de instalación y la ubicación de montaje influyen en la calidad del fijado GPS y en el rendimiento de LBS
+- El fabricante señala compatibilidad con la plataforma Keelin y el cliente Keelin APP; el comportamiento de integración puede diferir entre plataformas de terceros
+- Confirme los procedimientos de actualización OTA y la compatibilidad con su lote de dispositivos antes de desplegar actualizaciones masivas
 
 ## Por qué usar Plaspy con estas funciones
 
-Usar Plaspy con el GPT09 combina las capacidades de hardware del dispositivo con una plataforma centralizada para visibilidad, generación de eventos y análisis histórico. Plaspy puede recopilar reportes de posición programados, destacar eventos de emergencia y presentar el historial de ubicaciones para que los equipos supervisen activos, investiguen incidentes y planifiquen respuestas operativas sin tener que gestionar los detalles del protocolo a bajo nivel.
+Combinar el EElink GPT09 con Plaspy permite a las organizaciones centralizar la visibilidad de rastreadores de larga espera y robustos, aprovechando la detección automática de protocolos y la incorporación sencilla de dispositivos. Plaspy presenta los reportes periódicos y de emergencia junto con la información de salud del dispositivo, de modo que los equipos pueden monitorear activos con mínima configuración manual.
 
-Para obtener más información sobre cómo Plaspy trabaja con rastreadores compatibles visite https://www.plaspy.com. Para detalles técnicos específicos del dispositivo, notas de firmware y documentación oficial, por favor verifique la información en el sitio del fabricante https://www.eelink.com.cn/ ya que las funciones del dispositivo y el comportamiento del firmware pueden cambiar con el tiempo.
+Conozca más sobre Plaspy y cómo la plataforma maneja dispositivos compatibles con EELINK en https://www.plaspy.com. Para especificaciones actuales del dispositivo, notas de firmware y orientación del fabricante, verifique la información vigente con EElink en https://www.eelink.com.cn/.

@@ -82,9 +82,9 @@ W000000,990,099###
 
 - Set the device ID using the first 14 digits of the IMEI
 ```
-W000000,010,{{first14_IMEI}}
+W000000,010,[first14_IMEI]
 ```
-Note: Replace {{first14_IMEI}} with the first 14 digits of the device IMEI. The device and Plaspy use IMEI-based identifiers; ensure the value matches your unit.
+Note: Replace [first14_IMEI] with the first 14 digits of the device IMEI. The device and Plaspy use IMEI-based identifiers; ensure the value matches your unit.
 
 - Set the operator APN and optional APN username and password
 ```

@@ -79,17 +79,17 @@ El JT301B puede configurarse usando mensajes SMS. Los comandos de ejemplo a cont
 Envíe un SMS al rastreador con el siguiente texto, reemplazando los marcadores de posición:
 
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
 
-- {{trackerID}} — el ID del dispositivo requerido por el conjunto de comandos del rastreador; verifique el formato correcto del ID en la etiqueta del equipo o en la documentación de Jointech.
+- [trackerID] — el ID del dispositivo requerido por el conjunto de comandos del rastreador; verifique el formato correcto del ID en la etiqueta del equipo o en la documentación de Jointech.
 - [apn] — el APN proporcionado por su operador móvil.
 
 2. Establecer usuario y contraseña del APN (solo si su APN requiere credenciales)
 Envíe un SMS con este comando si el APN necesita usuario y contraseña:
 
 ```
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 
 - [apnu] — marcador para el nombre de usuario del APN.

@@ -75,17 +75,17 @@ The MPIP 620 uses GPRS for data reporting and SMS for configuration, and it is c
 The MPIP 620 supports SMS based configuration. The following examples come from the device public configuration flow. Preserve the placeholders when you customize the commands.
 
 Notes:
-- {{SecretKey}} is the device SMS password. The device default secret key is the last 6 ASCII characters of the device ID unless changed by the installer.
+- [SecretKey] is the device SMS password. The device default secret key is the last 6 ASCII characters of the device ID unless changed by the installer.
 - [apn], [apnu], and [apnp] are placeholders for your mobile operator APN, APN username, and APN password respectively.
 
 Set APN and server (GPRS) using SMS
 ```
-*{{SecretKey}}#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
+*[SecretKey]#set gprs#[apn],[apnu],[apnp],54.85.159.138,8888*
 ```
 
 Verify GPRS settings using SMS
 ```
-*{{SecretKey}}#get gprs#*
+*[SecretKey]#get gprs#*
 ```
 
 If your installation requires the device to accept a domain instead of IP and the device supports domain names in its GPRS command format, you may substitute d.plaspy.com for the IP address above. Confirm the exact syntax in the Castel MPIP 620 user guide.

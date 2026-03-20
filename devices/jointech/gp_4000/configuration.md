@@ -83,14 +83,14 @@ The publicly documented GP 4000 SMS commands for setting the GPRS server and APN
 
 1. Set the GPRS server and APN
 ```
-({{trackerID}},2,S02,129,1,54.85.159.138,8888,[apn])
+([trackerID],2,S02,129,1,54.85.159.138,8888,[apn])
 ```
-- {{trackerID}} is the device ID required by the tracker to accept commands.
+- [trackerID] is the device ID required by the tracker to accept commands.
 - [apn] is the carrier APN string. Keep this placeholder and replace it with your SIM card APN.
 
 2. Optional or conditional Set APN user and password
 ```
-({{trackerID}},2,S24,129,1,[apnu],[apnp])
+([trackerID],2,S24,129,1,[apnu],[apnp])
 ```
 - [apnu] is the APN username if your carrier requires it.
 - [apnp] is the APN password if your carrier requires it.

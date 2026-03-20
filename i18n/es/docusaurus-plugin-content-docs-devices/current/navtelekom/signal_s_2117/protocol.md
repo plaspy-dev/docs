@@ -2,79 +2,79 @@
 slug: /navtelekom/signal_s_2117/protocol
 id: signal_s_2117-protocol
 sidebar_label: Protocol
-title: Navtelekom - Signal S-2117 Protocol
+title: Navtelekom - СИГНАЛ S-2117 Protocol
 sidebar_class_name: menu_item_tracker
-description: Referencia pública del protocolo para usar el rastreador Navtelekom Signal S 2117 con Plaspy, incluye conexión y orientación de compatibilidad
+description: Guía pública del protocolo para integrar Navtelekom СИГНАЛ S-2117 con Plaspy usando ajustes de conexión compartidos y detección automática
 keywords:
-  - Protocolo Navtelekom Signal S 2117
-  - Protocolo GPS Navtelekom Signal S 2117
-  - Compatibilidad Signal S 2117 Plaspy
-  - Protocolo de comunicación Signal S 2117
-  - Protocolo de rastreo vehicular Navtelekom
-  - Integración sensor de combustible Signal S 2117
-  - Soporte RS 485 1 Wire Navtelekom
-  - Soporte de protocolo rastreadores Plaspy
-  - Compatibilidad rastreador GPS Plaspy
-  - Monitoreo vehicular GLONASS GPS
+  - protocolo Navtelekom СИГНАЛ S-2117
+  - protocolo de rastreador GPS Navtelekom
+  - compatibilidad СИГНАЛ S-2117 con Plaspy
+  - seguimiento de flotas Navtelekom
+  - protocolo GNSS GLONASS
+  - rastreador con sensor de combustible RS-485
+  - rastreador con sensor de temperatura 1-Wire
+  - comunicación de telemetría vehicular
+  - ajustes de conexión del rastreador
+  - detección de protocolo del rastreador
 ---
 
-# Navtelekom - Signal S-2117 Protocolo
+# Navtelekom - Protocolo СИГНАЛ S-2117
 
-Esta página describe el contexto público del protocolo para usar el rastreador Navtelekom Signal S-2117 con Plaspy. Está orientada a explicar de forma general cómo se comunica el dispositivo, qué tipos de telemetría y eventos reporta y cómo Plaspy consume esa información para monitoreo de vehículos y flujos de control remoto.
+Esta página describe el contexto público del protocolo para usar el rastreador Navtelekom СИГНАЛ S-2117 con Plaspy. Explica de forma general cómo se comunica el dispositivo, qué ajustes de conexión se utilizan para reportar a Plaspy y qué aspectos del envío de datos son relevantes al integrar el S-2117 en una solución de gestión de flotas. El S-2117 es un dispositivo de localización GNSS con posicionamiento GLONASS, conectividad GSM, soporte para sensor de combustible RS-485, entradas 1-Wire para temperatura e identificación, monitoreo de alarmas y sabotaje, voz bidireccional y salidas de control remoto.
 
-Plaspy utiliza un punto de conexión y puerto compartidos entre los dispositivos compatibles y detecta automáticamente el protocolo del rastreador cuando los equipos están configurados correctamente para reportar a Plaspy. El comportamiento exacto del protocolo del Signal S-2117 puede variar según la versión de firmware, la revisión de hardware y la implementación del fabricante; por eso esta página enfatiza la conexión y la compatibilidad más que los detalles internos de bajo nivel.
+Plaspy utiliza ajustes de conexión compartidos para los dispositivos compatibles y detecta automáticamente el protocolo cuando el equipo informa al endpoint de Plaspy. En la práctica esto significa que el rastreador puede configurarse para enviar datos a Plaspy usando el mismo endpoint y puerto que otros dispositivos. El comportamiento exacto del protocolo y los campos reportados pueden variar según la versión de firmware, la revisión de hardware y la configuración del fabricante, por lo que esta página proporciona contexto de alto nivel y no instrucciones específicas por firmware.
 
 ## Resumen del protocolo
 
-El protocolo del Signal S-2117 regula cómo el rastreador envía telemetría, eventos y confirmaciones de control desde el vehículo hacia un servidor como Plaspy. El equipo combina datos GNSS de posición, conectividad GSM y entradas de interfaces locales como RS-485 y 1-Wire para generar la telemetría que Plaspy muestra y utiliza en alarmas e informes.
+El protocolo del СИГНАЛ S-2117 define cómo el dispositivo envía posiciones, telemetría de sensores y señales de evento a un servidor remoto. En el contexto de Plaspy, el protocolo transporta fijaciones GNSS, eventos de alarma y sabotaje, telemetría de combustible y temperatura, y cualquier acuse o indicador de sesión de voz que el rastreador reenvíe. Esto permite a Plaspy convertir los mensajes del dispositivo en actualizaciones de ubicación en tiempo real, alertas y registros históricos.
 
-- Envía actualizaciones periódicas de ubicación y estado de movimiento derivados de la recepción GLONASS y GPS.
-- Transmite eventos de alarma y cambios de estado como pulsaciones del botón de pánico, accesos no autorizados y detección de impactos.
-- Reporta datos de sensores y entradas auxiliares, incluyendo medidores de combustible conectados por RS-485 y sensores de temperatura o identificación por 1-Wire.
-- Permite confirmaciones de control remoto para salidas como activación de sirena o comandos de inmovilizador, sujeto a firmware y configuración del dispositivo.
-- Puede incluir indicadores de evento de voz o manos libres para señalar una sesión de voz activa solicitada por el centro de control o activada por el pánico.
+- Permite que el rastreador envíe actualizaciones de ubicación periódicas y por evento a Plaspy para seguimiento en vivo y registro de rutas.
+- Transmite telemetría desde sensores de combustible RS-485 y sensores de temperatura 1-Wire para que Plaspy muestre niveles de combustible y tendencias de temperatura.
+- Envía eventos de alarma, sabotaje y pánico para activar flujos de trabajo de seguridad y notificaciones en Plaspy.
+- Soporta mensajes relacionados con control remoto y voz que Plaspy puede presentar como controles accionables o marcadores de evento.
+- Identifica el dispositivo y sus canales reportados para que Plaspy asocie los mensajes con el vehículo y la configuración de sensores correctos.
 
-## Cómo detecta Plaspy el protocolo
+## Cómo Plaspy detecta el protocolo
 
-Plaspy recibe telemetría en un endpoint compartido y usa detección automática para identificar el protocolo del rastreador en despliegues operativos. Cuando un Signal S-2117 está configurado para enviar datos a Plaspy, la plataforma compara el patrón de reportes entrantes y mapea los campos reportados a la interfaz de Plaspy sin que, en la mayoría de los casos, sea necesario seleccionar manualmente el protocolo.
+Plaspy recibe los mensajes entrantes en un endpoint compartido y determina automáticamente el protocolo de rastreador adecuado para la mayoría de los dispositivos compatibles. Si el S-2117 está configurado para reportar al endpoint de Plaspy, la plataforma mapeará los mensajes entrantes al registro del dispositivo correspondiente sin que usted tenga que seleccionar manualmente el protocolo en la mayoría de los casos. Esta detección automática agiliza la puesta en marcha en flotas mixtas.
 
-- El endpoint del servidor de Plaspy es d.plaspy.com y la IP del servidor para reporte de dispositivos es 54.85.159.138.
-- Plaspy escucha en el puerto 8888 y el mismo puerto se utiliza para todos los dispositivos soportados por la plataforma.
-- Los dispositivos pueden configurarse para usar UDP o TCP en el puerto 8888 según la capacidad del rastreador y las condiciones de red.
-- Cuando un equipo reporta al endpoint de Plaspy, la plataforma detecta automáticamente el protocolo del rastreador, por lo que los usuarios normalmente no necesitan elegir un protocolo dentro de Plaspy.
-- La configuración correcta del dispositivo para apuntar al endpoint de Plaspy es el requisito habitual para que la detección automática funcione.
+- Plaspy utiliza un único endpoint de servidor y puerto compartido para simplificar la configuración de los dispositivos.
+- Normalmente solo es necesario apuntar el rastreador al endpoint de Plaspy; no suele ser necesario elegir el protocolo manualmente en la interfaz de Plaspy si la configuración de envío es correcta.
+- Plaspy detecta automáticamente el protocolo del rastreador y asocia los mensajes entrantes con el tipo de dispositivo apropiado para su procesamiento.
+- El uso consistente del mismo endpoint y puerto reduce errores de configuración al desplegar numerosos dispositivos en una flota.
+- Si un dispositivo no es reconocido, revisar la configuración del equipo y los parámetros del fabricante suele resolver los problemas de reporte.
 
 ## Transporte y contexto de conexión
 
-Los ajustes de conexión y transporte determinan cómo el Signal S-2117 llega a Plaspy. Los hechos públicos más relevantes son el endpoint y el puerto de Plaspy, y que el rastreador puede configurarse para usar uno u otro modo de transporte según las opciones de firmware y la red.
+El contexto de conexión se refiere a cómo el rastreador envía sus tramas al endpoint de Plaspy, más que al contenido interno de los paquetes. El СИГНАЛ S-2117 puede configurarse para utilizar transporte IP estándar para entregar sus reportes a Plaspy. Para una entrega fiable, asegúrese de que los ajustes de servidor y transporte del rastreador coincidan con el endpoint de Plaspy y las opciones de transporte que el dispositivo soporte.
 
-- El dispositivo puede configurarse para reportar a d.plaspy.com o directamente a 54.85.159.138.
-- El reporte se soporta sobre UDP o TCP en el puerto 8888 según el soporte del equipo y la configuración elegida.
-- Plaspy utiliza el mismo puerto para todos los dispositivos soportados, lo que simplifica la configuración de servidores y cortafuegos.
-- Los ajustes de la red móvil y el APN en la tarjeta SIM deben permitir conexiones salientes hacia el endpoint de Plaspy y el transporte seleccionado.
-- Elementos de red como NAT del operador o cortafuegos deben permitir el tráfico al endpoint de Plaspy en el puerto 8888 para garantizar la entrega fiable.
+- Plaspy acepta reportes de dispositivos en el dominio d.plaspy.com y en la dirección IP 54.85.159.138.
+- El puerto compartido de Plaspy para el reporte de dispositivos es 8888 y todos los dispositivos en Plaspy usan el mismo puerto.
+- El equipo puede configurarse para usar UDP o TCP en el puerto 8888 según el soporte del dispositivo y la configuración elegida.
+- Use el tipo de transporte que su flota haya probado y soporte; algunas implementaciones prefieren UDP por menor latencia y otras prefieren TCP por sesiones persistentes.
+- Verifique los ajustes de servidor, transporte y APN del rastreador para garantizar que los mensajes se entreguen correctamente al endpoint de Plaspy.
 
-## Notas sobre compatibilidad del protocolo
+## Notas de compatibilidad del protocolo
 
-- La compatibilidad puede variar entre versiones de firmware; funciones como el reporte de sensores y el comportamiento de control remoto pueden cambiar con actualizaciones de firmware.
-- Las revisiones de hardware de la familia Signal S-2117 pueden introducir diferencias en las entradas soportadas, por ejemplo en la cantidad de canales RS-485 o el comportamiento de 1-Wire.
-- Los formatos de configuración del fabricante y los parámetros de reporte por defecto pueden variar según lotes de dispositivo o ajustes regionales.
-- La elección entre UDP y TCP afecta las características de entrega y debe coincidir con lo que soporte el firmware del equipo y lo que maneje bien la red del operador.
-- Verifique el comportamiento de respaldo de energía y características de emergencia en el manual del dispositivo, ya que la conducta durante cortes de energía puede afectar el reporte de eventos.
-- Siempre valide el comportamiento del equipo en un entorno de prueba antes de desplegarlo a toda la flota.
+- Las revisiones de firmware del fabricante pueden cambiar qué campos y eventos reporta el rastreador; confirme siempre la edición de firmware en uso.
+- Revisión de hardware u opciones de interfaz del S-2117 pueden habilitar o deshabilitar canales RS-485 o 1-Wire, afectando la disponibilidad de telemetría.
+- La selección de transporte (UDP vs TCP) influye en cómo el dispositivo establece y mantiene la conexión con Plaspy; asegúrese de que el transporte elegido sea compatible con el firmware del rastreador.
+- Modelos descontinuados pueden seguir siendo compatibles pero quizá no reciban nuevo firmware; valide el comportamiento antes de incorporarlos a nuevos despliegues.
+- Las herramientas de configuración del fabricante y los manuales oficiales son la fuente autorizada para ajustes específicos del dispositivo y parámetros de conexión recomendados.
+- Al integrar sensores como medidores de combustible o sondas de temperatura, valide el mapeo y la escala de los sensores para asegurar telemetría precisa en Plaspy.
 
-## Por qué es importante entender el protocolo
+## Por qué importa conocer el protocolo
 
-Conocer cómo se comunica el rastreador y qué reporta ayuda a asegurar una integración fluida con Plaspy, facilita el monitoreo confiable y reduce el tiempo dedicado a soporte y diagnóstico.
+Tener una comprensión básica del protocolo de comunicación ayuda a garantizar que los dispositivos reporten de forma fiable, que los sensores se mapeen correctamente en Plaspy y que las alertas y los controles funcionen como se espera. Aunque Plaspy gestiona la detección y el análisis del protocolo, conocer las características de transporte y reporte del S-2117 reduce el tiempo de configuración y facilita la resolución de problemas.
 
-- Acelera la configuración inicial al aclarar qué dirección de servidor y transporte debe usar el equipo para llegar a Plaspy.
-- Facilita mapear entradas del dispositivo como medidores de combustible RS-485 y sensores 1-Wire a campos útiles dentro de Plaspy para informes y alertas.
-- Mejora la resolución de problemas cuando falta telemetría o no llegan alarmas, al permitir acotar si el problema está en el transporte, la configuración del dispositivo o la conectividad de red.
-- Orienta decisiones sobre actualizaciones de firmware y cambios de hardware para mantener las funciones esperadas de telemetría y control remoto.
-- Apoya la planificación de mantenimiento a largo plazo al resaltar dependencias entre firmware del dispositivo, decisiones del fabricante y comportamiento en Plaspy.
+- Asegura que se apliquen correctamente los ajustes de servidor, transporte y APN para que los mensajes del dispositivo lleguen a Plaspy.
+- Permite confirmar qué canales de telemetría el dispositivo realmente reportará según las opciones de firmware y hardware.
+- Simplifica la resolución de problemas por datos faltantes, como lecturas de combustible o registros de temperatura, al acotar las causas a transporte, configuración o cableado de sensores.
+- Facilita la planificación de actualizaciones de firmware y despliegues cuando se esperan cambios de comportamiento con nuevas versiones.
+- Permite a los integradores documentar los tipos de evento y telemetría esperados para reglas de reporte y alertas en Plaspy.
 
 ## Por qué usar Plaspy con este protocolo
 
-Usar el Navtelekom Signal S-2117 con Plaspy aporta una forma centralizada de consumir sus datos de ubicación, sensores, alarmas y control remoto para la visibilidad de la flota y la supervisión operativa. Plaspy agrega la telemetría y la presenta con alertas e informes que ayudan a los operadores a responder incidentes, analizar patrones de combustible y tiempo de uso, y gestionar controles remotos de los dispositivos desde una sola plataforma.
+Usar el СИГНАЛ S-2117 con Plaspy es una forma práctica de centralizar la ubicación de vehículos, la telemetría de combustible, el monitoreo de temperatura y los eventos de seguridad para operaciones de flota. Plaspy traduce los datos GNSS, de sensores y de alarma en paneles operativos, reportes históricos y flujos de alertas que los administradores de flota pueden usar para tomar decisiones.
 
-Para saber más sobre Plaspy y cómo maneja las integraciones de dispositivos, incluido el Signal S-2117, visite https://www.plaspy.com. El soporte de protocolos, el comportamiento del firmware y los detalles de implementación del dispositivo pueden cambiar con el tiempo, por lo que confirme la información más reciente específica del dispositivo con el fabricante en https://www.navtelecom.ru/ antes de tomar decisiones de despliegue.
+El modelo de endpoint compartido y la detección automática de protocolos de Plaspy reducen la carga de configuración en flotas mixtas y agilizan la puesta en línea de equipos como el S-2117. Para saber más sobre Plaspy y cómo gestiona el reporte de dispositivos y la visibilidad de la flota, visite https://www.plaspy.com. Para detalles específicos del protocolo del dispositivo, comportamiento de firmware y guía de configuración del fabricante, verifique la información vigente en el sitio oficial de Navtelekom en https://www.navtelecom.ru/.

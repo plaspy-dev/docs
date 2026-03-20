@@ -4,89 +4,90 @@ id: asn_signal_s_4752-configuration
 sidebar_label: Configuration
 title: Navtelekom - ASN SIGNAL S-4752 Configuration
 sidebar_class_name: menu_item_tracker
-description: Public configuration guide to connect the Navtelekom ASN SIGNAL S-4752 to Plaspy using shared server settings and practical setup steps
+description: Public configuration guide for Navtelekom ASN SIGNAL S-4752 with Plaspy server settings and practical setup steps for reliable fleet tracking
 keywords:
-  - Navtelekom ASN SIGNAL S-4752 configuration
-  - Navtelekom ASN SIGNAL S-4752 setup
-  - ASN SIGNAL S-4752 Plaspy
-  - ASN SIGNAL S-4752 GPS tracker configuration
-  - Navtelekom tracker setup
-  - Plaspy tracker configuration
-  - GPS platform setup Plaspy
-  - vehicle tracking ASN SIGNAL
-  - GNSS tracker configuration
-  - fleet management tracker setup
+- Navtelekom ASN SIGNAL S-4752
+- ASN SIGNAL S-4752 configuration
+- Navtelekom tracker setup
+- Plaspy tracker configuration
+- GPS tracker server setup
+- fleet management tracker configuration
+- GLONASS GPS tracker setup
+- vehicle telemetry configuration
+- ASN SIGNAL setup guide
+- Plaspy server settings
 ---
 
 # Navtelekom - ASN SIGNAL S-4752 Configuration
 
-This page covers the public configuration context for using the Navtelekom ASN SIGNAL S-4752 tracker with Plaspy. It collects the practical, platform-facing settings and workflow steps that are commonly required to point the device at the Plaspy server and validate connectivity for real time tracking and telemetry ingestion.
+This page describes the public configuration context for using the Navtelekom ASN SIGNAL S-4752 tracker with the Plaspy platform. It focuses on the practical server settings and the typical steps required to point the S-4752 at Plaspy so the device can report GNSS positions, telemetry, and events for fleet and regulatory workflows.
 
-Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol, while exact manufacturer side setup steps can vary with firmware revision, hardware revision, installation type, and vendor tools. Use the official Navtelekom documentation and configuration utilities for device specific details, then apply the shared Plaspy settings shown below.
+Plaspy uses shared server settings across supported devices and automatically detects the tracker protocol. Exact manufacturer side setup steps can vary by firmware version, hardware revision, installation type, and vendor tools such as the NTC Configurator, so follow the official Navtelekom documentation for device specific interfaces and options.
 
 ## Configuration Overview
 
-The goal of this configuration is to prepare the ASN SIGNAL S-4752 to send GNSS and telemetry data to Plaspy so the device appears and reports correctly in your Plaspy fleet. The steps focus on entering the Plaspy endpoint, selecting transport, and confirming transmissions from the device.
+The goal of this configuration is to prepare the S-4752 to send location and telemetry data to Plaspy reliably and to validate connectivity once configured. Configuration aligns the device network settings with Plaspy server endpoints and ensures the tracker is seen and parsed correctly by the platform.
 
-- Configure the device to report to the Plaspy server endpoint and port.
-- Ensure the tracker has a working cellular connection, correct SIM/APN settings and power for stable reporting.
-- Choose the appropriate transport (UDP or TCP) if required by the device configuration tool.
-- Save and apply settings on the device and confirm connectivity from the Plaspy platform.
-- Verify events and location reports appear in Plaspy and troubleshoot with logs if needed.
+- Point the ASN SIGNAL S-4752 at the Plaspy server endpoint so GNSS fixes and telemetry are delivered to Plaspy.
+- Configure the transport and port settings on the device to match Plaspy requirements.
+- Verify cellular connectivity, dual SIM behavior, and that the GNSS antenna and power are installed correctly.
+- Use the manufacturer provided configuration tool or approved workflow to save and apply settings.
+- Confirm the device appears in Plaspy and that periodic position and event messages arrive as expected.
 
 ## Plaspy Server Settings
 
-Use the following publicly provided Plaspy server settings when configuring the ASN SIGNAL S-4752. These are the values you'll enter into the device configuration tool or management utility.
+Use the following public Plaspy server settings when configuring the ASN SIGNAL S-4752:
 
 - Server domain d.plaspy.com
 - Server IP 54.85.159.138
 - Port 8888
-- Transport support: UDP or TCP can be used on port 8888
-- Plaspy automatically detects the tracker protocol and all devices in Plaspy use the same port
+- Transport support for UDP or TCP on port 8888
+- Plaspy automatically detects the tracker protocol and all devices use the same port
+
+These settings are the shared endpoint values Plaspy expects for device connections. Configure either the domain or the IP and select UDP or TCP as required by the device firmware.
 
 ## Typical Requirements Before Setup
 
-- A powered and installed ASN SIGNAL S-4752 unit with external antennas and any required wiring completed.
-- Active SIM card(s) and correct APN settings configured on the device for cellular connectivity.
-- Access to the Navtelekom configuration tool or supported manufacturer method for editing server parameters.
-- A Plaspy account or access to your Plaspy instance to verify the device appears and reports.
-- Network coverage where the device will operate so it can reach d.plaspy.com at 54.85.159.138 on port 8888.
-- Basic knowledge of choosing UDP or TCP if your configuration tool requires selecting a transport protocol.
+- Physical access to the ASN SIGNAL S-4752 and its wiring to provide stable power and antenna connections.
+- Active cellular SIM cards with data enabled and proper network coverage for LTE Cat.4 connectivity and fallback to older cellular generations as supported.
+- Access to the official Navtelekom configuration tool or method such as the NTC Configurator or the device web/serial interface.
+- Knowledge of the device IMEI or unique identifier used by Plaspy to associate the tracker with your account.
+- Up to date firmware where possible and copies of the relevant Navtelekom user manuals or passport documentation for reference.
 
 ## How This Tracker Connects to Plaspy
 
-When configured, the ASN SIGNAL S-4752 sends GNSS fixes and telemetry over the cellular link to the Plaspy server endpoint and port. Plaspy ingests those transmissions and presents the data in dashboards, event feeds, and history playback.
+When configured, the ASN SIGNAL S-4752 sends GNSS fixes, telemetry and event reports over the cellular link to the Plaspy server endpoint and port. Plaspy ingesting that stream allows real time tracking, history playback and alarm handling inside the platform.
 
-- The tracker reports location and telemetry to d.plaspy.com or to 54.85.159.138 on port 8888.
-- You can choose UDP or TCP transport when the device requires a selection; Plaspy supports both.
-- Plaspy automatically detects the tracker protocol so no manual protocol mapping is required on the platform side.
-- Reports include position updates, input and output events, and any configured telemetry the device is set to send.
-- Once reporting is active, device visibility and real time updates should be available in the Plaspy interface.
+- GNSS position fixes and timestamps transmitted to d.plaspy.com or 54.85.159.138 on port 8888
+- Telemetry and digital input events delivered alongside location messages for monitoring and rule triggers
+- Device status and heartbeat messages to show connectivity state and battery backup events
+- Onboard SD log reconciliation when connectivity resumes so Plaspy can merge stored records with live data
+- Protocol detection by Plaspy so the platform interprets the device messages without manual protocol selection
 
 ## Common Configuration Workflow
 
-1. Access the official Navtelekom configuration method or software for the ASN SIGNAL S-4752 (for example the NTC Configurator or the device web/serial/SMS interface as provided by the manufacturer).
-2. Enter the Plaspy server endpoint using either the domain d.plaspy.com or the IP address 54.85.159.138.
-3. Set the device port to 8888 as Plaspy uses the same port for all supported devices.
-4. If the device requires a transport selection, choose UDP or TCP according to your network preference or installer guidance.
-5. Configure any required APN and SIM settings so the tracker has active cellular connectivity.
-6. Apply or save the configuration and restart the device if the tool or firmware requires a reboot for changes to take effect.
-7. Validate that the device reports to Plaspy by checking for incoming location and event messages in your Plaspy account.
+1. Open the official Navtelekom configuration method such as the NTC Configurator, serial terminal, or approved manufacturer tool.
+2. Locate the server or remote host settings and enter d.plaspy.com or alternatively enter 54.85.159.138 if IP entry is preferred.
+3. Set the destination port to 8888 as used by Plaspy for all devices.
+4. If the device requires a transport selection choose UDP or TCP according to installer preference or network considerations.
+5. Save or apply the configuration in the manufacturer tool and ensure the settings are written to the device.
+6. Restart the tracker if the tool or device instructions indicate a reboot is required.
+7. Validate connectivity by checking the device appears in Plaspy and that positions and status messages are received.
 
 ## Example Configuration Commands
 
-The ASN SIGNAL S-4752 can be configured with different manufacturer tools and firmware versions, so exact command syntax and delivery method may vary. For this reason, there are no universal commands provided here. Use the Navtelekom configuration utility, serial or web interface, or the manufacturer supplied instructions to set the Plaspy server domain or IP and port. If your setup uses text based or AT style commands from Navtelekom documentation, follow those examples and replace server and port values with d.plaspy.com or 54.85.159.138 and port 8888, and choose UDP or TCP as required.
+The ASN SIGNAL S-4752 is typically configured using the Navtelekom NTC Configurator or equivalent manufacturer tool. Exact command strings and interfaces vary by firmware and the vendor configuration utility, so there are no universal public commands provided here. Follow Navtelekom documentation or the NTC Configurator UI to enter the Plaspy server domain or IP, set port 8888, choose UDP or TCP, and commit the configuration.
 
 ## Configuration Notes
 
-- Firmware differences and hardware revisions can change menu names and parameter locations in the manufacturer tool; always confirm the exact procedure for your firmware version.
-- TCP can provide a connected session while UDP is commonly used for lower overhead; choose the transport that best fits your network and reliability goals.
-- Dual SIM devices like the S-4752 need APN and SIM priority configured so the tracker maintains connectivity to reach the Plaspy endpoint.
-- Applying configuration changes and performing a controlled restart often ensures new server settings take effect immediately.
-- Keep manufacturer manuals and wiring diagrams on hand during installation to map inputs, outputs and serial/CAN interfaces used for telemetry.
+- Firmware and hardware revisions can change configuration menu names and available fields. Verify the current Navtelekom manual for your device revision.
+- Dual SIM behavior may be configurable in the manufacturer tool; confirm which SIM is used for data and how failover is handled before deployment.
+- Choosing UDP or TCP can affect message delivery characteristics. UDP is commonly used for lower latency telemetry while TCP can help with guaranteed delivery on some networks.
+- Onboard SD logging and the device backup battery help avoid data loss during temporary outages; ensure logging settings match operational needs.
+- Always confirm that the device IMEI or identifier used by Plaspy matches the tracker you are configuring so data is associated with the correct asset.
 
 ## Why Use Plaspy with This Configuration
 
-Using the ASN SIGNAL S-4752 with Plaspy provides fleet operators and compliance teams with continuous GNSS and telemetry visibility, reliable cellular redundancy via dual SIM, and integrated I/O for alarms and control. Pointing the device to Plaspy with the shared server settings makes it straightforward to onboard units at scale and maintain consistent reporting for dashboards, geofencing, and event driven workflows.
+Using the ASN SIGNAL S-4752 with Plaspy provides fleets and operators with continuous GNSS tracking, telemetry capture and event reporting in a centralized platform. The S-4752 hardware features such as GLONASS/GPS positioning, LTE connectivity, dual SIM redundancy, and robust I O support make it well suited to deliver the raw data that Plaspy ingests for dashboards, geofencing, compliance and anti-theft workflows.
 
-Learn more about Plaspy and how it handles device integrations at https://www.plaspy.com. Note that device specific configuration methods, firmware behavior, and manufacturer details can change over time, so always verify the latest setup information and tools on the manufacturer website https://www.navtelecom.ru/ before deployment.
+Learn more about Plaspy on https://www.plaspy.com. Device specific configuration methods, firmware behavior and manufacturer instructions can change over time, so verify the latest setup details and manuals with Navtelekom at https://www.navtelecom.ru/ before large deployments.

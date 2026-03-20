@@ -82,26 +82,26 @@ TSPRXAB27GHKLMnaicz*U!
 
 - Primary setup command template
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 Explanation:
-- {{imei}} is the device IMEI number.
+- [imei] is the device IMEI number.
 - [apn] is the APN name for your cellular SIM.
 - [apnu] is the APN username placeholder if required by the operator.
 - [apnp] is the APN password placeholder if required by the operator.
 - E0 sets the server IP to 54.85.159.138 and E1 sets the port to 8888 for Plaspy.
-- The command includes a checksum placeholder {{checksum}} that must be calculated as described below.
+- The command includes a checksum placeholder [checksum] that must be calculated as described below.
 
 - Reboot command template (optional restart after configuration)
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 Label: optional reboot step to apply settings if your workflow requires a device restart.
 
 Checksum calculation (public algorithm excerpt from the manufacturer content):
 - Compute the checksum by XORing the character codes of the command text up to but not including the asterisk character.
 - Convert the resulting value to a two digit uppercase hexadecimal string and place it in the checksum placeholder.
-- The provided manufacturer JavaScript example uses this approach to generate {{checksum}} and {{checksumreeboot}}.
+- The provided manufacturer JavaScript example uses this approach to generate [checksum] and [checksumreeboot].
 
 Notes on using the commands:
 - Maintain the exact ordering and punctuation from the templates when sending SMS to the device.

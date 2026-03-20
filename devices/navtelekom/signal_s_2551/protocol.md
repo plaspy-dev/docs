@@ -4,77 +4,77 @@ id: signal_s_2551-protocol
 sidebar_label: Protocol
 title: Navtelekom - SIGNAL S-2551 Protocol
 sidebar_class_name: menu_item_tracker
-description: Public protocol reference for Navtelekom SIGNAL S-2551 tracker and its communication with Plaspy platform
+description: Public protocol overview for Navtelekom SIGNAL S-2551 and Plaspy integration with transport and compatibility guidance
 keywords:
   - Navtelekom SIGNAL S-2551
   - SIGNAL S-2551 protocol
   - Navtelekom GPS tracker protocol
-  - Plaspy compatibility
+  - SIGNAL S-2551 Plaspy compatibility
   - vehicle tracking protocol
   - fleet management tracker
-  - EGTS FLEX tracker
-  - FLEX 2.0 GPS protocol
-  - CAN J1939 telemetry
-  - telemetry and tracking
+  - GPS telemetry protocol
+  - EGTS FLEX support
+  - CAN J1939 tracker integration
+  - dual SIM tracker
 ---
 
 # Navtelekom - SIGNAL S-2551 Protocol
 
-This page documents the public protocol context for using the Navtelekom SIGNAL S-2551 with the Plaspy platform. It focuses on high level communication and compatibility information relevant to integrators and fleet managers who need to understand how the tracker reports location and telemetry to Plaspy without exposing private implementation details.
+This page describes the public protocol context for using the Navtelekom SIGNAL S-2551 tracker with Plaspy. It focuses on how the device communicates with Plaspy servers, the role of the reporting protocol in delivering GPS position and telemetry, and practical compatibility considerations for deployment. The goal is to give technical integrators and fleet teams a clear, non-sensitive overview of how the tracker and Plaspy interact.
 
-Plaspy uses shared connection settings for supported devices and automatically detects the tracker protocol when the device is correctly pointed at the Plaspy endpoint. Exact protocol behavior can vary by firmware version, hardware revision and manufacturer implementation, so this page highlights the common transport and detection details while encouraging validation against manufacturer documentation.
+Plaspy uses shared connection settings across supported devices and automatically detects the tracker protocol when a device reports to the platform. The SIGNAL S-2551 supports EGTS and FLEX FLEX 2.0 protocols and can transmit via cellular TCP or UDP. Exact protocol behavior can vary by firmware version, hardware revision, and manufacturer implementation, so always validate device-specific details with Navtelekom documentation.
 
 ## Protocol Overview
 
-The communication protocol used by the SIGNAL S-2551 enables GNSS position, telemetry and event reporting from the device to a remote server. In practice the protocol determines how the tracker identifies itself, how telemetry channels are encoded, and how event triggers such as accelerometer alarms are reported to a backend like Plaspy.
+The protocol used by the SIGNAL S-2551 defines how GNSS position, I/O states, CAN telemetry, and event notifications are encoded and sent from the tracker to a server. For Plaspy integration, the protocol enables reliable delivery of location and telemetry so the platform can ingest, index, and present actionable data to users.
 
-- Enables transmission of GNSS position, I/O states, and CAN J1939 telemetry to a remote endpoint for real time tracking.
-- Allows the tracker to identify itself to the server so Plaspy can associate reports with the correct asset.
-- Supports multiple transport options and multi server reporting for redundancy and parallel integrations.
-- Carries device event information such as crash/impact alerts, immobilizer events and telemetry thresholds for rule based alerts.
-- Works with industry protocols supported by the device including EGTS and FLEX family protocols as implemented by the manufacturer.
+- Enables transmission of GNSS position and time stamped telemetry for real time tracking in Plaspy.
+- Carries I/O and sensor data such as analog inputs, discrete inputs, CAN J1939 parameters, and accelerometer events.
+- Supports industry protocols used by the device including EGTS and FLEX FLEX 2.0 as public manufacturer features.
+- Allows the tracker to identify itself and provide device identifiers required for correct ingestion by Plaspy.
+- Supports multi server reporting so the device can push telemetry to redundant endpoints when configured.
 
 ## How Plaspy Detects the Protocol
 
-Plaspy receives tracker data on a shared public endpoint and automatically determines which tracker protocol is being used, so most users do not need to manually select a protocol inside Plaspy when the device is configured correctly. Automatic detection simplifies integration and reduces setup steps for large fleets.
+Plaspy receives incoming telemetry on a single, shared endpoint and port and applies automated detection to determine the tracker protocol. When a SIGNAL S-2551 is configured correctly to report to Plaspy, the platform typically does not require manual protocol selection from the user.
 
-- Plaspy uses a single public endpoint domain of d.plaspy.com for device reporting.
-- The Plaspy server IP for device connections is 54.85.159.138 and the configured port is 8888.
-- Plaspy automatically detects the tracker protocol when a device reports to the Plaspy endpoint, so manual protocol selection is typically unnecessary.
-- All devices in Plaspy use the same port, which streamlines device configuration and reduces per model setup differences.
-- If a tracker sends telemetry to the Plaspy endpoint, Plaspy will ingest the data and match it to the corresponding device entry in the platform.
+- Plaspy listens on domain d.plaspy.com and on IP 54.85.159.138 for device connections.
+- All devices supported by Plaspy use the same port 8888 which simplifies device configuration.
+- Plaspy supports both TCP and UDP transport and will accept tracker reports sent to port 8888.
+- When the tracker sends data to the Plaspy endpoint, the platform automatically detects the protocol and routes telemetry for processing.
+- Proper device identification and server addressing on the tracker are the main requirements for automatic detection to succeed.
 
 ## Transport and Connection Context
 
-Transport and connection configuration are key to successful delivery of tracker reports. The SIGNAL S-2551 supports cellular transports and can be configured to send data over common transport modes to Plaspy. Focus on configuring the device to point to the Plaspy endpoint and choosing the transport your network and firmware support.
+Connection details determine how the SIGNAL S-2551 reaches the Plaspy endpoint but do not change the public role of the protocol in reporting telemetry. The device supports TCP and UDP transport over cellular GPRS and can be pointed at a domain or an IP address for server delivery.
 
-- The device may be configured using UDP or TCP on port 8888 depending on the device configuration and network conditions.
-- Devices can be set to report to the Plaspy server domain d.plaspy.com or the server IP 54.85.159.138 as required by your deployment or network environment.
-- Plaspy uses port 8888 for all supported devices, ensuring a consistent target port across models.
-- Transport choice (UDP versus TCP) affects delivery characteristics such as connection persistence and retransmission, and should be chosen based on network reliability and firmware options.
-- Configure APN and SIM settings properly on the S-2551 and verify that the device can reach d.plaspy.com or the numeric server address from the vehicle network.
+- The SIGNAL S-2551 can be configured to use UDP or TCP transport on port 8888 depending on device settings and network reliability requirements.
+- Devices may be pointed to the Plaspy server using the domain d.plaspy.com or directly to IP 54.85.159.138.
+- Plaspy uses the same port 8888 for all supported devices which simplifies configuration for mixed fleets.
+- The device is capable of reporting to multiple servers simultaneously for redundancy; ensure secondary servers are reachable and correctly configured.
+- Consider network characteristics such as carrier NAT and firewall rules when choosing TCP or UDP for your deployment.
 
 ## Protocol Compatibility Notes
 
-- Firmware versions and device hardware revisions can change behavior for supported protocols such as EGTS and FLEX 2.0; check the device firmware notes when troubleshooting.
-- Manufacturer settings can enable or disable specific protocol variants; review Navtelekom documentation and release notes to confirm protocol availability.
-- Transport selection matters for compatibility and reliability; some deployments prefer TCP for session stability while others use UDP for lower overhead.
-- Multi server reporting is supported by the device, but ensure each target is reachable and correctly configured if using redundant servers.
-- Device features like CAN J1939 telemetry, accelerometer reporting, and 1‑Wire ID readers depend on installed options and firmware configuration.
-- Validate device compatibility and recommended configuration steps against the official Navtelekom technical manuals for the SIGNAL S-2551.
+- Firmware revisions can change supported fields, optional telemetry channels, and behavior for EGTS or FLEX type messages; verify firmware release notes.
+- Hardware revisions and optional modules such as Bluetooth or external GNSS antennas may affect which telemetry channels are available.
+- Transport choice TCP versus UDP can affect delivery semantics and may interact with how the device retries or buffers messages.
+- Multi server reporting is supported by the device but requires correct per server configuration and awareness of which server is primary for Plaspy ingestion.
+- Manufacturer settings for identifiers, APN, and reporting intervals must be set correctly so Plaspy can match device IDs to accounts.
+- Always validate compatibility against Navtelekom documentation and any release notes for the SIGNAL S-2551 model.
 
 ## Why Protocol Understanding Matters
 
-Understanding the tracker communication protocol helps ensure smooth setup, reliable reporting, and efficient troubleshooting when integrating the SIGNAL S-2551 with Plaspy. A clear view of the protocol surface reduces integration time and improves long term operational stability.
+Understanding the device communication protocol helps ensure a reliable integration with Plaspy, reduces troubleshooting time, and improves long term operational stability for fleet deployments.
 
-- Helps identify whether data arriving at Plaspy contains the expected telemetry channels and events.
-- Aids troubleshooting when position, I/O or CAN data are missing or malformed in the platform.
-- Informs decisions about transport mode, multi server targets and retry behavior for improved uptime.
-- Enables informed coordination with the device manufacturer for firmware updates or configuration guidance.
-- Supports planning for long term maintenance, such as firmware version control and rollback strategies.
+- Ensures correct mapping of device identifiers so Plaspy recognizes incoming telemetry and associates it with the intended asset.
+- Helps select appropriate transport settings and reporting intervals to balance data freshness and cellular usage.
+- Aids troubleshooting of missing telemetry, by confirming server address, transport type, and expected event types are configured on the tracker.
+- Improves configuration of sensor and CAN channel mappings so telemetry fields in Plaspy reflect real world inputs.
+- Informs firmware update and hardware revision planning so deployments remain supported and predictable.
 
 ## Why Use Plaspy with This Protocol
 
-Using Plaspy to collect and visualize SIGNAL S-2551 telemetry provides a consolidated platform for real time tracking, historical replay and rule based alerts across diverse vehicle fleets. Plaspy’s automatic protocol detection and consistent port configuration reduce integration overhead for deployments that mix device models and manufacturers.
+Using the SIGNAL S-2551 with Plaspy gives organizations a practical path to leverage the tracker’s robust hardware, multiple telemetry channels, and multi server reporting for operational visibility. Plaspy ingests GNSS positions, CAN J1939 parameters, sensor I/O, and accelerometer events to provide real time monitoring, historical playback, and rule based alerts that support fleet management and security workflows.
 
-If you want to learn more about Plaspy and how it works with Navtelekom devices, visit https://www.plaspy.com. For the latest device specific protocol details, firmware releases and manufacturer guidance for the SIGNAL S-2551, please verify information with Navtelekom at https://www.navtelecom.ru/ as implementation details and firmware behavior can change over time.
+To learn more about how Plaspy handles device integrations and to review platform features, visit https://www.plaspy.com. For the most current device specific protocol details, firmware notes, and implementation guides consult the manufacturer at https://www.navtelecom.ru/ since protocol support and firmware behavior can change over time and should be verified against official Navtelekom documentation.

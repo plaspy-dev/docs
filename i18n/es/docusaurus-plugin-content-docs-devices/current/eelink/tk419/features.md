@@ -4,77 +4,76 @@ id: tk419-features
 sidebar_label: Features
 title: EElink - TK419 Features
 sidebar_class_name: menu_item_tracker
-description: Resumen público de las funciones del rastreador GPS EElink TK419 y su integración con Plaspy para flotas y seguridad
+description: Resumen público de las características del rastreador GPS EElink TK419 y su integración con Plaspy para seguimiento de flotas y seguridad
 keywords:
   - EElink TK419
-  - funciones TK419
-  - rastreador GPS EElink
-  - TK419 Plaspy
-  - rastreador vehicular 4G
-  - rastreador GNSS multiconstelación
-  - detección ACC
-  - relé inmovilizador
-  - rastreador con geocercas
-  - alerta batería de respaldo
+  - funciones EElink TK419
+  - rastreador GPS EElink TK419
+  - compatibilidad TK419 Plaspy
+  - rastreador vehicular TK419
+  - rastreador GPS 4G
+  - rastreador GNSS múltiple
+  - seguimiento de flotas TK419
+  - geocercas TK419
+  - inmovilizador TK419
 ---
 
-# EElink - TK419: Funcionalidades
+# EElink - Características del TK419
 
-Esta página ofrece un resumen público de las funcionalidades del EElink TK419 y explica cómo sus capacidades se integran con Plaspy para seguimiento, alertas y flujos de trabajo de flotas. Está dirigida a gerentes de flota, integradores y evaluadores técnicos que necesitan entender las funciones prácticas del dispositivo cuando se usa con Plaspy.
+Esta página ofrece un resumen público de las capacidades del EElink TK419 y explica cómo se integran con Plaspy para seguimiento de flotas, gestión de alarmas y supervisión operativa. Está pensada para ayudar a gerentes de flota, integradores y evaluadores técnicos a comprender qué aporta el TK419 cuando se utiliza con plataformas compatibles con Plaspy.
 
-La disponibilidad exacta de funciones en una unidad TK419 puede variar según la versión de firmware, la revisión de hardware, el método de instalación, la variante regional y la implementación del fabricante. Le recomendamos confirmar siempre el comportamiento del equipo y las opciones soportadas consultando la documentación oficial de EElink para las unidades que planea desplegar.
+La disponibilidad exacta de funciones y su comportamiento pueden variar según la versión de firmware, la revisión de hardware, el método de instalación y la implementación del fabricante. Considere siempre esas variables al planear despliegues y consulte la documentación del fabricante para detalles específicos del equipo y las notas de firmware más recientes.
 
-## Descripción general de funciones
+## Resumen de capacidades
 
-El TK419 es un rastreador vehicular 4G compacto diseñado para reportes de posición en tiempo real y seguridad básica del vehículo. Integra posicionamiento GNSS multiconstelación, conectividad celular y E/S configurables para proporcionar ubicación en vivo, alarmas y control remoto que se integran directamente con Plaspy.
+El TK419 es un rastreador vehicular 4G compacto diseñado para ofrecer seguimiento en tiempo real confiable y seguridad en flotas. Combina posicionamiento multiconstelación, telemetría celular, alarmas por manipulación e incidentes y flexibilidad de E/S en una carcasa discreta con protección IP65, adecuada para autos, camiones y activos móviles.
 
-- Posicionamiento GNSS multiconstelación con GPS, GLONASS, BeiDou y QZSS para obtener fijaciones más rápidas y mayor fiabilidad.
-- Telemetría celular mediante GPRS y LTE Cat 1 para reportes continuos de ubicación y estado.
-- Detección ACC para identificar encendido/apagado y soportar lógica de viaje.
-- Alarmas de choque y vibración, además de alarma de velocidad con corte por exceso de velocidad para seguridad y notificación de incidentes.
-- Soporte de geocercas para eventos de entrada/salida por zona y control de cumplimiento.
+- Posicionamiento Multi GNSS (GPS, GLONASS, BeiDou, QZSS) para mejorar la velocidad de obtención de posición y la precisión en entornos variados.
+- Telemetría celular sobre LTE Cat 1 con retroceso a GPRS para reportes continuos a plataformas de flotas.
+- Detección de encendido (ACC) y opción de deshabilitación del motor por relé para control remoto de seguridad.
+- Alarmas por choque y vibración, alarma de exceso de velocidad con corte de aceleración, y geocercas configurables para seguridad y cumplimiento.
+- Extensión GPIO para aceptar sensores de telemetría externos, permitiendo reportes de combustible y otras entradas del vehículo cuando se requiere.
 
 ## Características principales del EElink - TK419
 
-- Compatible con Plaspy desde el primer momento y utiliza el protocolo EELINK para la integración.
-- Receptor GNSS multiconstelación que soporta GPS, GLONASS, BeiDou y QZSS.
-- Conectividad celular por GPRS y LTE Cat 1 para reportes en tiempo real.
-- Detección de encendido ACC para indicar el estado de operación del vehículo y activar la lógica de viajes.
-- Funcionalidad opcional de inmovilización mediante relé para desactivar el motor de forma remota.
-- Alarmas de choque y vibración que notificarán colisiones o impactos fuertes.
-- Eventos de geocerca y alarma de velocidad con corte por exceso de velocidad para alertas operativas.
-- Carcasa compacta con clasificación IP65, adecuada para instalaciones discretas en vehículos.
+- Soporte GNSS multiconstelación para fijaciones de ubicación más robustas.
+- Conectividad celular 4G con retroceso a GPRS para el enlace de telemetría.
+- Detección de encendido (ACC) para conciliar viajes y tiempo en marcha.
+- Control opcional por relé para función de inmovilizador remoto.
+- Alarmas por choque, aceleración y vibración para notificación de incidentes.
+- Geocercas con eventos de entrada y salida reportados.
+- Configuración remota vía plataforma, aplicación móvil o SMS.
+- Carcasa compacta con clasificación IP65 apta para montaje oculto en vehículos.
 
 ## Cómo funcionan estas funciones con Plaspy
 
-Plaspy procesa la telemetría del TK419 y convierte los mensajes del dispositivo en ubicación en vivo, alertas y datos operativos para la supervisión de la flota. La integración aprovecha el protocolo del dispositivo y la ingestión estándar de la plataforma, de modo que puede ver ubicación y eventos sin trabajos de pasarela personalizados.
+Plaspy procesa los mensajes del TK419 y convierte la telemetría del dispositivo en ubicaciones en vivo, alertas e informes con los que los equipos de flota pueden actuar. El protocolo EELINK del dispositivo es reconocido por Plaspy, lo que facilita la integración y minimiza el trabajo de puerta de enlace durante el despliegue.
 
-- Las posiciones GPS en vivo y las trazas de recorrido aparecen en los mapas de Plaspy para seguimiento en tiempo real.
-- Las alarmas por choque, vibración y velocidad se propagan a las alertas y notificaciones del panel de control de Plaspy.
-- El estado ACC está disponible para detección de viajes, reportes de arranques/paradas y resúmenes de tiempo conducido.
-- Los eventos de entrada y salida de geocercas se reportan a Plaspy para activar flujos de trabajo y notificaciones por zona.
-- El control remoto de relé para acciones de inmovilización puede reflejarse en los flujos de trabajo de Plaspy cuando está habilitado por el dispositivo y la instalación.
-- Las entradas GPIO y la telemetría mapeada desde el dispositivo se presentan como valores de E/S personalizados dentro de Plaspy cuando se conectan sensores externos.
+- Las actualizaciones de ubicación en tiempo real aparecen en los mapas de Plaspy para apoyar despacho y seguimiento de vehículos.
+- Eventos de alarma como choque, vibración, exceso de velocidad y disparos de geocerca generan notificaciones y registros de incidentes en Plaspy.
+- El estado de encendido se utiliza para la detección de viajes y para segmentar las sesiones de conducción en los informes.
+- Los comandos remotos de inmovilizador y las acciones sobre relé pueden iniciarse desde Plaspy cuando el dispositivo y la instalación lo permiten.
+- La telemetría conectada por GPIO se transmite a Plaspy cuando está configurada, permitiendo monitorizar métricas adicionales del vehículo junto con la ubicación.
 
 ## Casos de uso típicos
 
-- Antirrobo de flota e inmovilización remota usando detección ACC y control de relé opcional.
-- Localización y monitoreo de rutas en tiempo real para logística y despacho.
-- Supervisión de seguridad con alertas por choque y vibración para agilizar la respuesta a incidentes.
-- Control de acceso por geocercas en patios, rutas restringidas y entradas con horarios.
-- Extensiones telemétricas básicas mediante GPIO para monitoreo de combustible u otros sensores externos.
-- Instalaciones compactas donde se requiere un rastreador pequeño y resistente para montaje discreto.
+- Protección antirrobo de flotas con monitoreo de encendido y opciones de inmovilizador remoto.
+- Seguimiento en tiempo real para rutas, despacho y visibilidad de activos.
+- Detección y respuesta a incidentes mediante alarmas de choque y vibración.
+- Control de acceso por geocercas para patios, depósitos y áreas restringidas.
+- Telemetría extendida vía GPIO para reportar combustible u otras entradas del vehículo en Plaspy.
+- Cumplimiento y monitoreo de seguridad del conductor mediante alarmas de velocidad y registros de eventos.
 
 ## Notas sobre disponibilidad de funciones
 
-- Los conjuntos de funciones pueden variar según el firmware; algunas alarmas y opciones pueden requerir versiones específicas de firmware.
-- Las revisiones de hardware y las variantes regionales pueden afectar las opciones de E/S disponibles y las bandas celulares soportadas.
-- Funciones opcionales como el relé inmovilizador o el botón SOS pueden venderse como opciones configurables o como SKUs separados.
-- El tipo de instalación influye en algunas capacidades; por ejemplo, la detección ACC requiere un cableado correcto al sistema de encendido del vehículo.
-- Consulte la documentación oficial de EElink para diagramas de cableado exactos, comandos de configuración y accesorios opcionales.
+- La versión de firmware puede cambiar qué alarmas, informes u opciones de configuración están disponibles en una unidad determinada.
+- Las revisiones de hardware y las variantes regionales del modelo pueden alterar las bandas celulares soportadas o las disposiciones de E/S.
+- Algunas funciones, como el relé opcional o telemetría específica por GPIO, requieren instalaciones y cableado compatibles.
+- Los métodos de configuración remota (plataforma, app, SMS) dependen del firmware del dispositivo y del estado de aprovisionamiento.
+- Verifique el comportamiento y la capacidad de la batería de respaldo conforme a la especificación del fabricante para el lote de producción exacto.
 
 ## Por qué usar Plaspy con estas funciones
 
-Usar el TK419 con Plaspy ofrece a las organizaciones una vía integrada desde la telemetría de un rastreador compacto hasta la monitorización y alerta centralizada. La combinación de posicionamiento GNSS multiconstelación, reportes celulares, estado ACC y E/S configurable proporciona las señales esenciales que los operadores de flota necesitan para conciencia de ubicación, detección de incidentes y acciones básicas de control remoto.
+Usar el EElink TK419 con Plaspy ofrece a las organizaciones un camino práctico desde la telemetría bruta del dispositivo hasta información operativa. Plaspy transforma los reportes de posición, el estado de encendido y los eventos de alarma en mapas, alertas y registros útiles para que usted pueda supervisar activos, responder a incidentes y realizar un seguimiento de eventos clave sin desarrollar un protocolo a medida.
 
-Para obtener más información sobre cómo Plaspy soporta dispositivos como el TK419 y revisar opciones de despliegue visite https://www.plaspy.com. Para los detalles técnicos específicos del dispositivo, notas de firmware y la guía oficial de instalación, verifique la información con el fabricante en https://www.eelink.com.cn/.
+Si desea obtener más información sobre cómo Plaspy soporta dispositivos como el TK419 y cómo puede integrarse en sus flujos de trabajo de flota visite https://www.plaspy.com. Para las especificaciones más recientes del dispositivo, comportamiento de firmware y detalles de implementación del fabricante verifique la información vigente en el sitio web de EElink https://www.eelink.com.cn/.

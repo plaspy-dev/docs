@@ -74,35 +74,35 @@ The ST 300K is configured to report location and event data to the shared Plaspy
 
 ## Example Configuration Commands
 
-The ST 300K documentation provides SMS command templates used to configure the device. In these examples replace {{device_id}} with the device ID derived from the IMEI (the last 9 digits excluding the final IMEI digit). Replace [apn], [apnu], and [apnp] with your mobile operator APN, APN username, and APN password as required.
+The ST 300K documentation provides SMS command templates used to configure the device. In these examples replace [device_id] with the device ID derived from the IMEI (the last 9 digits excluding the final IMEI digit). Replace [apn], [apnu], and [apnp] with your mobile operator APN, APN username, and APN password as required.
 
 Example showing how the device ID is derived:
 - If IMEI is 123456789012345, the device ID is the last 9 digits excluding the final digit. For example IMEI 123456789012345 maps to device ID 789012345 (example format).
 
 1) Optional factory reset command (use only when needed or during initial provisioning)
 ```
-ST300CMD;{{device_id}};02;Reset
+ST300CMD;[device_id];02;Reset
 ```
 
 2) Set operator APN and configure the GPRS server to point to Plaspy
 - The command includes placeholders for APN credentials and appends the Plaspy server IP and port.
 ```
-ST300NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+ST300NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 - Note: the numeric flag before [apn] (here 1) is used in the device template where an operator username or password may be present. Keep the placeholders as provided by your vendor tool.
 
 3) Set the reporting interval to 60 seconds (example for periodic position reports)
 ```
-ST300RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+ST300RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 4) Verify current preset or settings on the device
 ```
-ST300CMD;{{device_id}};02;PresetA
+ST300CMD;[device_id];02;PresetA
 ```
 
 Important notes on placeholders:
-- {{device_id}} is the last 9 digits of the IMEI excluding the final check digit as shown above.
+- [device_id] is the last 9 digits of the IMEI excluding the final check digit as shown above.
 - [apn] is the mobile operator APN string.
 - [apnu] is the APN username if required by the operator.
 - [apnp] is the APN password if required by the operator.

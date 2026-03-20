@@ -78,24 +78,24 @@ Format note provided in manufacturer content
 - The public SMS commands below are taken from the manufacturer provided configuration content and include placeholders that you must replace.
 
 Primary setup command
-- Replace {{imei}} with the device IMEI
+- Replace [imei] with the device IMEI
 - Replace [apn] with the APN name for your mobile provider
 - Replace [apnu] with the APN username if required by your operator
 - Replace [apnp] with the APN password if required by your operator
-- {{checksum}} is a two character uppercase hexadecimal checksum calculated over the command text before the asterisk as described below
+- [checksum] is a two character uppercase hexadecimal checksum calculated over the command text before the asterisk as described below
 
 GTR-388NB setup SMS command
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Reboot command (optional, use when required to apply settings)
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Checksum calculation
-- The manufacturer provided script calculates the checksum by XORing the character codes of the command string up to but not including the asterisk, then converting the result to a two digit uppercase hexadecimal string. Insert that checksum into the {{checksum}} or {{checksumreeboot}} placeholder.
+- The manufacturer provided script calculates the checksum by XORing the character codes of the command string up to but not including the asterisk, then converting the result to a two digit uppercase hexadecimal string. Insert that checksum into the [checksum] or [checksumreeboot] placeholder.
 - If your manufacturer tool provides automatic checksum computation, use it. Otherwise compute the checksum using the XOR and hex conversion method shown above before sending the SMS.
 
 Server hostname note

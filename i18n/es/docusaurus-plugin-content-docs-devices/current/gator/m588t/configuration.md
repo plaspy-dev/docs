@@ -80,21 +80,21 @@ El M588T puede configurarse mediante comandos SMS. Los ejemplos públicos que si
 - Si su operador requiere usuario y contraseña del APN incluya los marcadores [apnu] y [apnp]:
 
 ```
-SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+SS,*[apn]*,*[apnu]*,*[apnp]*,*54.85.159.138*,*8888*,*[DeviceID]*,*[phoneNumberUser]*,*123456*
 ```
 
 - Si el operador solo requiere el nombre del APN y no usuario/contraseña utilice:
 
 ```
-S,*[apn]*,*54.85.159.138*,*8888*,*{{DeviceID}}*,*{{phoneNumberUser}}*,*123456*
+S,*[apn]*,*54.85.159.138*,*8888*,*[DeviceID]*,*[phoneNumberUser]*,*123456*
 ```
 
 Explicación de los marcadores:
 - [apn] — el nombre del APN proporcionado por su operador móvil.
 - [apnu] — usuario del APN cuando lo requiera el operador.
 - [apnp] — contraseña del APN cuando lo requiera el operador.
-- {{DeviceID}} — el ID del dispositivo o IMEI que exija el formato del comando.
-- {{phoneNumberUser}} — su número de teléfono administrativo para incluir donde se solicite en la configuración.
+- [DeviceID] — el ID del dispositivo o IMEI que exija el formato del comando.
+- [phoneNumberUser] — su número de teléfono administrativo para incluir donde se solicite en la configuración.
 
 Nota: 123456 se muestra en el ejemplo público como la contraseña por defecto del dispositivo. Reemplace los marcadores por sus valores reales antes de enviar los SMS.
 

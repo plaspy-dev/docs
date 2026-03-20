@@ -76,38 +76,38 @@ El ST4915LCBF envía posición y telemetría al endpoint y puerto compartidos de
 
 Los ejemplos públicos de configuración del ST4915LCBF se pueden aplicar por SMS según la guía del proveedor. El dispositivo usa un id de 6 dígitos derivado del IMEI para estos comandos. Regla para generar el id de dispositivo: el id son los seis dígitos de las posiciones 9 a 14 del IMEI (contando desde 1), omitiendo efectivamente el dígito final del IMEI. Por ejemplo si el IMEI es 123456789012345 el id es 901234.
 
-Use estas plantillas SMS tal como se muestran. Reemplace {{device_id}} por el id de seis dígitos derivado del IMEI y mantenga los marcadores [apn], [apnu] y [apnp] según corresponda.
+Use estas plantillas SMS tal como se muestran. Reemplace [device_id] por el id de seis dígitos derivado del IMEI y mantenga los marcadores [apn], [apnu] y [apnp] según corresponda.
 
 1) Configurar el APN del operador y el servidor GPRS
 - Si el APN requiere usuario o contraseña, establezca el flag de autenticación a 1, de lo contrario póngalo en 0.
 - Este comando configura el APN y apunta a la IP y puerto del servidor Plaspy.
 
 ```
-SA200NTW;{{device_id}};02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;1;[apn];[apnu];[apnp];54.85.159.138;8888;;;;
 ```
 
 O cuando no se requieren usuario y contraseña para el APN
 
 ```
-SA200NTW;{{device_id}};02;0;[apn];; ;54.85.159.138;8888;;;;
+SA200NTW;[device_id];02;0;[apn];; ;54.85.159.138;8888;;;;
 ```
 
 2) Establecer intervalo de actualización a 60 segundos
 - Este comando configura los intervalos de reporte periódicos usados por el dispositivo.
 
 ```
-SA200RPT;{{device_id}};02;60;60;60;3;0;0;0;0;0
+SA200RPT;[device_id];02;60;60;60;3;0;0;0;0;0
 ```
 
 3) Verificar la configuración actual
 - Use el comando de verificación para consultar la configuración del dispositivo.
 
 ```
-SA200CMD;{{device_id}};02;PresetA
+SA200CMD;[device_id];02;PresetA
 ```
 
 Explicación de marcadores
-- {{device_id}}: el id de seis dígitos derivado del IMEI en las posiciones 9 a 14, omita el dígito final del IMEI.
+- [device_id]: el id de seis dígitos derivado del IMEI en las posiciones 9 a 14, omita el dígito final del IMEI.
 - [apn]: la cadena APN de su operador móvil.
 - [apnu]: usuario del APN si el operador lo requiere; deje en blanco si no aplica.
 - [apnp]: contraseña del APN si el operador la requiere; deje en blanco si no aplica.

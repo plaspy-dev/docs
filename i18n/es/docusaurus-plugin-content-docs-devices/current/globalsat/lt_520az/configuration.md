@@ -81,27 +81,27 @@ Format used by Plaspy
 TSPRXAB27GHKLMnaicz*U!
 
 Comando de configuración (reemplace marcadores de posición y calcule la suma de verificación antes de enviar):
-- Reemplace {{imei}} por el IMEI del dispositivo.
+- Reemplace [imei] por el IMEI del dispositivo.
 - Reemplace [apn], [apnu], [apnp] por APN, usuario APN y contraseña APN si su configuración lo requiere. Para dispositivos que usan exclusivamente Amazon Sidewalk, los campos APN pueden no utilizarse o ser ignorados; verifique con el fabricante.
-- Calcule {{checksum}} como la suma de verificación XOR de los caracteres del comando desde el inicio del comando interno hasta justo antes del carácter '*' y exprésela como un valor hexadecimal en mayúsculas de dos dígitos.
+- Calcule [checksum] como la suma de verificación XOR de los caracteres del comando desde el inicio del comando interno hasta justo antes del carácter '*' y exprésela como un valor hexadecimal en mayúsculas de dos dígitos.
 
 Ejemplo de comando SMS de configuración:
 ```
-GSS,{{imei}},3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*{{checksum}}!
+GSS,[imei],3,0,D1=[apn],D2=[apnu],D3=[apnp],E0=54.85.159.138,E1=8888,A1=1*[checksum]!
 ```
 
 Comando opcional de reinicio (use cuando la documentación del dispositivo indique que el reinicio es requerido o recomendado):
 ```
-GSC,{{imei}},3,0,LH*{{checksumreeboot}}!
+GSC,[imei],3,0,LH*[checksumreeboot]!
 ```
 
 Cálculo de la suma de verificación
 - La suma de verificación se calcula aplicando XOR a los códigos ASCII de cada carácter en la cadena del comando desde el primer carácter hasta el carácter inmediatamente anterior al '*'.
-- Convierta el resultado numérico a una cadena hexadecimal en mayúsculas con dos caracteres (complete con cero a la izquierda si es necesario). Inserte ese valor en lugar de {{checksum}} o {{checksumreeboot}}.
+- Convierta el resultado numérico a una cadena hexadecimal en mayúsculas con dos caracteres (complete con cero a la izquierda si es necesario). Inserte ese valor en lugar de [checksum] o [checksumreeboot].
 - Las páginas del fabricante a menudo incluyen un pequeño script para calcular esta suma automáticamente; el algoritmo es un XOR de un solo byte sobre los caracteres descritos arriba.
 
 Notas sobre los marcadores de posición
-- {{imei}} — número IMEI del dispositivo, necesario para dirigir el comando al rastreador específico.
+- [imei] — número IMEI del dispositivo, necesario para dirigir el comando al rastreador específico.
 - [apn] — marcador de posición para el nombre del APN; incluya solo si su instalación y configuración del dispositivo requieren valores APN.
 - [apnu] — marcador de posición para el usuario APN.
 - [apnp] — marcador de posición para la contraseña APN.

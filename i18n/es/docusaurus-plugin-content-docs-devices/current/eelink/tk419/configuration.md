@@ -4,137 +4,127 @@ id: tk419-configuration
 sidebar_label: Configuration
 title: EElink - TK419 Configuration
 sidebar_class_name: menu_item_tracker
-description: Guía práctica para configurar el rastreador EElink TK419 con servidores y ajustes compartidos de Plaspy
+description: Guía pública de configuración del EElink TK419 con ajustes de servidor Plaspy, comandos SMS y pasos prácticos para seguimiento de flotas
 keywords:
-  - Configuración EElink TK419
-  - Instalación EElink TK419
-  - Configuración servidor TK419
-  - Configuración TK419 Plaspy
-  - Configuración rastreador EElink
-  - Configuración rastreo vehículos Plaspy
-  - Configuración servidor rastreador GPS
-  - Rastreo flota TK419
-  - Integración dispositivo Plaspy
-  - Comandos SMS TK419
+  - configuración EElink TK419
+  - configuración TK419
+  - configuración TK419 Plaspy
+  - configuración rastreador EElink
+  - ajustes servidor EElink TK419
+  - configuración rastreador GPS EElink
+  - configuración SMS TK419
+  - configuración dispositivo Plaspy
+  - rastreador de vehículos TK419
+  - seguimiento de flotas TK419
 ---
 
-# EElink - TK419 Configuración
+# EElink - Configuración TK419
 
-Esta página documenta el contexto público de configuración para usar el rastreador GPS EElink TK419 con Plaspy. Resume los ajustes de servidor compartidos que Plaspy requiere, explica el flujo típico de configuración del dispositivo y proporciona los comandos SMS públicos del TK419 que se emplean para apuntar el dispositivo a Plaspy. El TK419 es un rastreador 4G compacto diseñado para flotas de vehículos y seguridad de activos, y es compatible con Plaspy para ubicación en tiempo real, alarmas y telemetría.
+Esta página describe el contexto público de configuración para usar el rastreador EElink TK419 con Plaspy. Se centra en la información práctica necesaria para apuntar el dispositivo a los puntos de ingestión de Plaspy, los comandos SMS habituales que facilita el fabricante y qué verificar para que el dispositivo aparezca en Plaspy y permita seguimiento en tiempo real y notificaciones.
 
-Plaspy utiliza un endpoint de ingreso compartido y detecta automáticamente los protocolos de los rastreadores entre los dispositivos soportados, aunque los pasos exactos en el equipo pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. El TK419 admite configuración remota por SMS y mediante herramientas de plataforma; esta página incluye los comandos SMS publicados en la documentación del dispositivo y describe cómo aplicarlos para registrar el rastreador en Plaspy.
+Plaspy utiliza ajustes de servidor compartidos entre los dispositivos soportados y detecta automáticamente el protocolo del rastreador. Los pasos exactos del fabricante pueden variar según la versión de firmware, la revisión de hardware, el tipo de instalación y las herramientas del proveedor. Cuando esté disponible incluimos comandos SMS de EElink y orientación de configuración que coinciden con los ajustes de servidor de Plaspy.
 
 ## Resumen de la configuración
 
-El objetivo al configurar un TK419 para Plaspy es habilitar la entrega continua y confiable de posiciones GNSS y telemetría al endpoint de ingestión de Plaspy para que el dispositivo aparezca y se actualice correctamente en la plataforma. La configuración normalmente implica ajustar el APN de datos móviles, especificar el servidor de Plaspy, elegir el modo de transporte si es necesario y validar que el rastreador reporte a la plataforma.
+Este proceso prepara el TK419 para comunicarse con Plaspy usando el punto de ingestión compartido y el puerto de la plataforma. El objetivo es configurar el APN y el servidor del dispositivo, confirmar los ajustes de transporte y validar que las actualizaciones de telemetría y posición lleguen a Plaspy.
 
-- Configure el APN del dispositivo para que el rastreador pueda usar datos móviles y alcanzar Plaspy.
-- Apunte el dispositivo al endpoint del servidor de Plaspy y al puerto común para que los mensajes se enruten correctamente.
-- Seleccione UDP o TCP como transporte cuando el dispositivo requiera elección explícita.
-- Defina la frecuencia de reporte y las alarmas para que el dispositivo envíe actualizaciones en el intervalo deseado.
-- Valide la configuración usando el comando de verificación del dispositivo y confirme la visibilidad en Plaspy.
+- Configure el APN y los parámetros móviles para que el TK419 pueda enviar datos por GPRS o LTE.
+- Apunte el rastreador al servidor de Plaspy d.plaspy.com o a la IP de servidor proporcionada y use el puerto 8888.
+- Seleccione UDP o TCP en el dispositivo si el firmware exige elegir el transporte.
+- Aplique los ajustes por SMS o mediante la herramienta oficial de EElink y confirme la configuración.
+- Valide el reporte del dispositivo en Plaspy y verifique actualizaciones en vivo, alarmas y telemetría de IO en la plataforma.
 
-## Ajustes del servidor Plaspy
-
-Al configurar el TK419 para Plaspy, use los siguientes ajustes públicos del servidor exactamente como se muestran:
+## Ajustes de servidor de Plaspy
 
 - Dominio del servidor d.plaspy.com
 - IP del servidor 54.85.159.138
 - Puerto 8888
-- Soporte de transporte UDP o TCP; elija el transporte si el dispositivo requiere selección explícita
-- Plaspy detecta automáticamente el protocolo del rastreador para que todos los dispositivos puedan usar el mismo puerto
+- Soporte de transporte UDP o TCP en el puerto 8888 según requiera el dispositivo
+- Plaspy detecta automáticamente el protocolo del rastreador y usa el mismo puerto para todos los dispositivos compatibles
 
-Plaspy utiliza el mismo puerto en los dispositivos compatibles y detectará automáticamente el protocolo del rastreador cuando el dispositivo esté correctamente apuntado al endpoint del servidor.
+## Requisitos habituales antes de comenzar
 
-## Requisitos habituales antes de la configuración
-
-- Un TK419 alimentado e instalado con acceso a su interfaz de SMS o configuración
-- Una SIM celular activa con datos y las credenciales APN correctas de su operador
-- Información básica del dispositivo como el IMEI para poder identificar el rastreador en Plaspy una vez que reporte
-- Acceso al método oficial de configuración del fabricante o al software y herramientas del proveedor que utilice
-- Acceso físico al dispositivo para la configuración inicial o la capacidad de enviar comandos SMS a su SIM
-- Paciencia para verificar diferencias de firmware si encuentra comportamientos inesperados
+- Una unidad TK419 con alimentación y acceso, con conectividad celular habilitada.
+- Una tarjeta SIM operativa con datos habilitados y los ajustes APN correctos del operador móvil.
+- Acceso al método de configuración de EElink que prefiera, como comandos SMS o el software oficial del fabricante o herramienta de instalador.
+- Un teléfono o pasarela SMS capaz de enviar mensajes de configuración si utiliza el método basado en SMS.
+- Credenciales y conocimiento de los valores del APN del operador, incluyendo usuario y contraseña del APN si aplica.
+- Una cuenta de Plaspy y acceso a una instancia de Plaspy para verificar que el dispositivo aparece después de la configuración.
 
 ## Cómo se conecta este rastreador a Plaspy
 
-El TK419 transmite posiciones GNSS y telemetría del dispositivo a través de redes celulares al endpoint de ingestión de Plaspy. Al configurar el rastreador para que use el dominio o la IP del servidor Plaspy y el puerto compartido, el dispositivo entregará sus mensajes a Plaspy, donde la plataforma los mapeará en ubicación en vivo, alertas e informes.
+El TK419 transmite posiciones GNSS y telemetría al punto de ingestión compartido de Plaspy en el puerto 8888. Plaspy recibe los mensajes del rastreador, detecta automáticamente el protocolo TK419 y convierte los mensajes crudos en posiciones en el mapa en tiempo real, alarmas y eventos de IO.
 
-- El rastreador se configura para reportar al endpoint compartido de Plaspy d.plaspy.com o a la IP equivalente 54.85.159.138 en el puerto 8888
-- Plaspy recibe los mensajes del dispositivo por UDP o TCP según el transporte elegido en el dispositivo
-- Plaspy detecta automáticamente el protocolo empleado por el rastreador para usar el mismo puerto de ingestión
-- La ubicación, las alarmas y la telemetría de IO enviadas por el rastreador se vuelven visibles y accionables en Plaspy
-- Los intervalos de reporte regulares y las condiciones de alarma impulsan la visibilidad, las alertas y los registros históricos en la plataforma
+- El dispositivo se configura para reportar al endpoint de Plaspy d.plaspy.com o a la IP directa 54.85.159.138.
+- Los datos se envían por el puerto 8888 que Plaspy utiliza para todos los rastreadores soportados.
+- El transporte puede ser UDP o TCP según el firmware del TK419 y la elección de configuración.
+- Plaspy detecta automáticamente el protocolo del rastreador, por lo que no necesita seleccionar un protocolo adicional en la plataforma.
+- Una vez en reporte, las actualizaciones de posición, alarmas y el estado de IO se muestran en los paneles y reglas de alerta de Plaspy.
 
-## Flujo de trabajo común de configuración
+## Flujo de trabajo típico de configuración
 
-1. Acceda al método oficial de configuración de EElink para el TK419, típicamente comandos SMS o las herramientas de configuración de EElink proporcionadas por el fabricante o el vendedor.
-2. Configure el APN del dispositivo usando el formato de comando recomendado por el fabricante para que el rastreador pueda usar datos móviles.
-3. Ingrese el servidor de Plaspy como d.plaspy.com o 54.85.159.138 y establezca el puerto en 8888.
-4. Si el rastreador requiere selección de transporte, elija UDP o TCP según las necesidades de su instalación.
-5. Configure el intervalo de reporte y alarmas como el valor TIMER que controla las actualizaciones periódicas.
-6. Aplique o guarde la configuración y reinicie el dispositivo si el equipo o el firmware requieren un reinicio para aplicar los ajustes.
-7. Valide que el dispositivo reporte a Plaspy usando el comando de verificación y confirme que el dispositivo aparece y se actualiza en Plaspy.
+1. Acceda al método oficial de configuración de EElink o al software del fabricante, o prepárese para enviar comandos SMS según la guía de EElink.
+2. Ingrese la dirección del servidor Plaspy como d.plaspy.com o use la IP 54.85.159.138 cuando le pidan el host del servidor.
+3. Establezca el puerto del dispositivo en 8888, que Plaspy utiliza para todos los equipos.
+4. Seleccione UDP o TCP en el dispositivo si el firmware requiere elegir el transporte.
+5. Aplique o guarde la configuración en el TK419 y, si es recomendable, reinicie el dispositivo.
+6. Valide que el dispositivo reporte a Plaspy comprobando posiciones y telemetría entrante en su instancia de Plaspy.
+7. Si la telemetría no aparece, verifique los ajustes del APN y confirme de nuevo la conectividad por SMS o datos.
 
 ## Comandos de configuración de ejemplo
 
-El TK419 admite configuración por SMS. A continuación se muestran los comandos SMS públicos tal como fueron publicados en la documentación del dispositivo. Preserve el orden cuando aplique los comandos durante la configuración inicial. El etiquetado indica la intención común; no modifique los comandos a menos que comprenda el comportamiento del dispositivo.
+El fabricante documenta comandos SMS públicos para el TK419. A continuación están los comandos SMS comunes, en el orden usado para una configuración inicial. Envíe cada comando como SMS al número del dispositivo. Los comandos conservan marcadores de posición donde corresponde.
 
-1. Restauración de fábrica opcional (use solo cuando necesite restaurar valores por defecto)
+- Reset inicial opcional a fábrica
 ```text
 FACTORY#
 ```
+Etiqueta: Reset inicial opcional para restaurar valores de fábrica. Usar solo si es necesario.
 
-2. Establecer la zona horaria a UTC 0
+- Ajustar la zona horaria a UTC 0
 ```text
 GMT,E,0#
 ```
 
-3. Establecer el APN del operador
-- Reemplace [apn] por el APN de su operador.
-- Si su operador requiere usuario o contraseña, incluya [apnu] y [apnp] respectivamente como se muestra en el marcador.
+- Configurar el APN del operador
 ```text
-APN,[apn]# 
+APN,[apn]{{apnu? ,[apnu]}}{{apnp? ,[apnp]}}#
 ```
-o con usuario y contraseña opcionales
-```text
-APN,[apn],[apnu],[apnp]#
-```
+Nota: Reemplace [apn] por el APN de su operador. Si su APN requiere usuario o contraseña, incluya [apnu] y [apnp] según lo proporcione su operador. El formato exacto del SMS depende del firmware del dispositivo; use APN,[apn] o APN,[apn],[apnu],[apnp] según lo necesite.
 
-4. Establecer el servidor GPRS a Plaspy usando el dominio (preferido para resolución DNS)
+- Establecer el servidor GPRS usando el dominio Plaspy y el puerto
 ```text
 SERVER,1,d.plaspy.com,8888#
 ```
-o establecer el servidor GPRS a Plaspy usando la IP
+
+- Configuración alternativa del servidor usando la IP de Plaspy
 ```text
 SERVER,0,54.85.159.138,8888#
 ```
 
-5. Establecer el intervalo de actualización periódico a cada 60 segundos
+- Ajustar el intervalo de actualización de posición a cada 60 segundos
 ```text
 TIMER,60#
 ```
 
-6. Comprobar los parámetros actuales
+- Consultar parámetros actuales
 ```text
 PARAM#
 ```
+Etiqueta: Use PARAM# para solicitar que el dispositivo responda con su configuración actual y verificarla.
 
-Nota sobre los marcadores
-- [apn] es el APN del operador móvil requerido para acceso de datos.
-- [apnu] es un nombre de usuario APN opcional.
-- [apnp] es una contraseña APN opcional.
-Mantenga estos marcadores y sustituya sus valores del operador al enviar los comandos SMS.
+Nota sobre los marcadores de posición: [apn] es la cadena APN del operador móvil. [apnu] y [apnp] son los marcadores opcionales de usuario y contraseña del APN. Mantenga las llaves al preparar plantillas SMS y reemplácelas con los valores reales de su operador.
 
-## Notas sobre la configuración
+## Notas de configuración
 
-- Las revisiones de firmware y hardware pueden cambiar los comandos disponibles o la sintaxis; verifique el conjunto de comandos según el firmware de su dispositivo.
-- El TK419 admite configuración por SMS como se muestra; también puede usar herramientas del fabricante o servicios de aprovisionamiento del proveedor cuando estén disponibles.
-- Plaspy acepta conexiones en el mismo puerto para todos los dispositivos y detectará automáticamente el protocolo del dispositivo una vez que se configuren el servidor y el puerto.
-- Elija UDP o TCP según su entorno y el soporte del dispositivo; algunas instalaciones prefieren UDP por menor sobrecarga mientras que otras requieren TCP para entrega confiable.
-- Use PARAM# para verificar los ajustes después de aplicar los comandos y antes de concluir la instalación.
+- Las revisiones de firmware de EElink pueden cambiar la sintaxis exacta de los SMS o el comportamiento de los comandos. Confirme el formato en el manual del dispositivo correspondiente a su versión de firmware.
+- El rastreador admite configuración por SMS o mediante las herramientas oficiales de EElink. Si prefiere una interfaz gráfica use el software del fabricante y aplique los mismos valores de servidor y puerto.
+- Elegir UDP o TCP depende de las condiciones de red y las opciones del firmware. Plaspy acepta ambos en el puerto 8888 y detectará el protocolo automáticamente.
+- Use el comando PARAM# para verificar los ajustes después de aplicarlos. Si las actualizaciones no aparecen en Plaspy, vuelva a revisar el APN y la conectividad celular.
+- Todos los dispositivos reportados a Plaspy usan el puerto 8888, por lo que no es necesario diferenciar puertos por dispositivo en el lado del servidor.
 
 ## Por qué usar Plaspy con esta configuración
 
-Apuntar un TK419 a Plaspy con los ajustes de servidor compartidos ofrece a los administradores de flota un camino sencillo hacia la ubicación en tiempo real, las alarmas y la telemetría en una única plataforma. Plaspy convierte los mensajes entrantes del rastreador en actualizaciones de mapa, alertas de eventos e historial que apoyan el monitoreo operativo, la respuesta ante robos y los reportes de cumplimiento.
+Usar el TK419 con Plaspy ofrece a los operadores de flotas una ingesta consistente de ubicación, alarmas y telemetría IO en una sola plataforma. Configurar el dispositivo para apuntar a d.plaspy.com o a la IP del servidor de Plaspy garantiza que los equipos reporten al endpoint común, permitiendo gestionar el seguimiento, las alertas y los reportes de una flota extensa sin necesidad de desarrollar gateways personalizados.
 
-Para obtener más información sobre Plaspy y las funciones de la plataforma visite https://www.plaspy.com. Para las instrucciones específicas más recientes del dispositivo, el comportamiento del firmware y la guía del fabricante verifique los detalles en el sitio de EElink https://www.eelink.com.cn/ ya que las especificaciones del fabricante y los métodos de configuración pueden cambiar con el tiempo.
+To learn more about Plaspy and how it works with compatible devices visit https://www.plaspy.com. For the latest TK419 device specific instructions firmware notes and official command references verify the manufacturer's documentation at https://www.eelink.com.cn/.
