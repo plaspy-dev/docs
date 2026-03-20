@@ -20,7 +20,9 @@ keywords:
 
 # OKB Tehnoavtomatika - MTA-Glonass (ver.12-M RS-485)
 
+<div className="device-logo">
 ![MTA-Glonass (ver.12-M RS-485)](./tracker.jpg)
+</div>
 
 The MTA-Glonass (ver.12-M RS-485) is a vehicle monitoring terminal and GPS tracker from OKB Tehnoavtomatika designed for fleet operators and service providers. It combines a 50 channel high sensitivity GPS GLONASS receiver with GSM 900 1800 communications supporting DATA GPRS and SMS to provide real time tracking, telemetry and wired fuel monitoring through an RS-485 interface. The unit also offers multiple digital inputs, an ignition input, pulse frequency sensor support and an internal battery to preserve critical event logs during power interruptions.
 

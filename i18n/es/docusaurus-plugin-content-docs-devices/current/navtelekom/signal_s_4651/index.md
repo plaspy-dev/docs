@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SIGNAL S-4651
 
+<div className="device-logo">
 ![SIGNAL S-4651](./tracker.webp)
+</div>
 
 El SIGNAL S-4651 es un rastreador vehicular profesional LTE 4G con soporte GPS y GLONASS, diseñado para despliegues exigentes de gestión de flotas y telemática. Integra conectividad celular con soporte para antenas GNSS y GSM externas, capacidad de doble SIM y un conjunto de interfaces de vehículo para capturar ubicación y telemetría a bordo. La unidad está pensada para ofrecer seguimiento en tiempo real fiable, registro local y captura continua de datos para aplicaciones de transporte y vehículos comerciales.
 

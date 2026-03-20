@@ -21,7 +21,9 @@ keywords:
 
 # Castel - MPIP-620
 
+<div className="device-logo">
 ![MPIP-620](./logo.jpg)
+</div>
 
 El Castel MPIP-620 es un rastreador GPS compacto diseñado específicamente para motocicletas. Ofrece posicionamiento de alta precisión y transmite actualizaciones mediante GPRS y SMS. El dispositivo está pensado para propietarios de motos y aplicaciones en vehículos pequeños, proporcionando monitoreo de posición, detección de movimiento, alarmas por perimetraje y remolque, así como registro de recorridos. Sus dimensiones reducidas, carcasa plástica con grado de protección IP54 y la aplicación móvil dedicada Lite Guardian para iOS y Android lo hacen adecuado para la seguridad a bordo y la supervisión básica de flotas.
 

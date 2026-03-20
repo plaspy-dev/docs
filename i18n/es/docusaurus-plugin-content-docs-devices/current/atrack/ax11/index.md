@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AX11
 
+<div className="device-logo">
 ![AX11](./tracker.jpg)
+</div>
 
 El AX11 es un rastreador GPS OBDII de tipo conectar y usar, pensado para despliegues rápidos en vehículos e integración en sistemas de telemática. Construido en torno al conector OBDII SAE J1962 Tipo B, el AX11 está orientado a la gestión de flotas, seguros basados en uso, operaciones de alquiler de autos y supervisión de conductores jóvenes o por parte de padres. Combina conectividad celular, posicionamiento GNSS integrado y telemetría del bus del vehículo para ofrecer ubicaciones continuas y datos del vehículo sin cableado complejo.
 

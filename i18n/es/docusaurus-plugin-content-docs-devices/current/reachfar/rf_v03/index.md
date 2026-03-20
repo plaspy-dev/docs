@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V03
 
+<div className="device-logo">
 ![RF-V03](./tracker.jpg)
+</div>
 
 El RF-V03 es un rastreador GPS compacto de Reachfar diseñado para ofrecer seguimiento en tiempo real y gestión de flotas con alta fiabilidad. Incluye posicionamiento multimodal mediante GPS, Wi‑Fi y LBS, un diseño de bajo consumo y funciones de seguridad para vehículos, de modo que las flotas puedan monitorear rutas, reproducir trayectos históricos y recibir alarmas oportunas desde una plataforma centralizada.
 

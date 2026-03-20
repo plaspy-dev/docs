@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - GP 5000
 
+<div className="device-logo">
 ![GP 5000](./logo.jpg)
+</div>
 
 The Jointech GP 5000 is a compact GPS tracker designed for real time tracking, fuel level monitoring, and fleet management. Its feature set includes SMS and GPRS TCP UDP communication, vehicle signal alarms, remote configuration, and onboard data logging, making it suitable for businesses that need continuous location visibility and operational oversight. The device emphasizes reliable positioning and on device storage to help preserve data through coverage gaps.
 

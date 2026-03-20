@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - CA02
 
+<div className="device-logo">
 ![CA02](./tracker.jpg)
+</div>
 
 The CA02 is an in dash vehicle security and tracking unit that combines audible alarm capability with real time GPS location and central locking control. Designed for 1DIN or 2DIN installations, the unit integrates a siren and shock sensor with GSM based telemetry and relay outputs for engine or oil cut off, providing a consolidated solution for vehicle anti theft protection and continuous monitoring of passenger cars and light commercial vehicles.
 

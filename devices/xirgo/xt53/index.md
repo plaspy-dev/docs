@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT53
 
+<div className="device-logo">
 ![XT53](./tracker.webp)
+</div>
 
 The XT53 is an ultra-compact GPS tracker designed for long-term asset protection and everyday visibility of dispersed equipment. Built as a low-maintenance cellular device, the XT53 emphasizes extended service life with up to seven years of battery life, making it well suited to small equipment, pallets, containers, and other assets that need to remain online for years with minimal intervention.
 

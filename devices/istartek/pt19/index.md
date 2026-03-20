@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - PT19
 
+<div className="device-logo">
 ![PT19](./tracker.jpg)
+</div>
 
 The PT19 is a 3G GPS tracker in a compact watch form factor designed for dependable personal safety and continuous location monitoring. Built for multi mode positioning including GPS, BeiDou, AGPS, Wi‑Fi and LBS, the PT19 is intended to provide timely location fixes across urban, indoor and open sky conditions. Its feature set focuses on immediate alerting and situational verification with a dedicated SOS button, two‑way voice, remote voice monitoring and on demand photo capture on a 1.54 inch touchscreen.
 

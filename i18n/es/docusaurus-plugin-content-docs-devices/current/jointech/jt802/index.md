@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - JT802
 
+<div className="device-logo">
 ![JT802](./tracker.jpg)
+</div>
 
 El Jointech JT802 es una cerradura inteligente esclava para válvulas de camión cisterna diseñada para ofrecer un control seguro y de bajo consumo en instalaciones con múltiples válvulas. Pensada para operar junto con cerraduras maestras Jointech como la JT701D y la JT701L, la JT802 añade capacidades de control remoto y registro de eventos, cumpliendo además con los requisitos de seguridad intrínseca para entornos con combustible y petróleo peligrosos.
 

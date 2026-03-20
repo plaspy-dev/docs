@@ -21,7 +21,9 @@ keywords:
 
 # Box - Box Tracker
 
+<div className="device-logo">
 ![Box Tracker](./logo.jpg)
+</div>
 
 El Box Tracker es un dispositivo compacto de rastreo vehicular diseñado para integradores de sistemas de terceros. A pesar de su tamaño reducido, ofrece un registro completo de los movimientos del vehículo mediante tecnología GPS moderna y está construido para funcionar de forma confiable en zonas con mala recepción y espacios cerrados. El equipo incorpora conectividad GSM, memoria interna para almacenamiento de datos, fuente de energía de respaldo y una carcasa plástica resistente que lo protege en el uso diario de flotas.
 

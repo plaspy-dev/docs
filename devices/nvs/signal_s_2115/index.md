@@ -20,7 +20,9 @@ keywords:
 
 # NVS - SIGNAL S-2115
 
+<div className="device-logo">
 ![SIGNAL S-2115](./logo.jpg)
+</div>
 
 The SIGNAL S-2115 from NVS is a mobile equipment kit designed for automotive wireless alarm and monitoring. It uses GNSS satellite signals including GLONASS, GPS, GALILEO and SBAS, and is built around the certified NV08C receiver by ZAO KB NAVIS. The kit is intended for installation in land vehicles and is supplied as a package that includes transport monitoring software for basic tracking and dispatch needs.
 

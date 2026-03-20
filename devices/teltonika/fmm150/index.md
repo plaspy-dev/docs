@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM150
 
+<div className="device-logo">
 ![FMM150](./tracker.png)
+</div>
 
 The Teltonika FMM150 is a compact vehicle tracker designed for modern fleet management and advanced vehicle telemetry. It combines wide area cellular connectivity with CAN bus data processing to deliver continuous location tracking and deep vehicle signals. The FMM150 can read a large set of CAN parameters including odometer, fuel level and consumption, and EV battery metrics, making it suitable for light vehicles, electric vehicles, trucks, buses and specialized machinery.
 

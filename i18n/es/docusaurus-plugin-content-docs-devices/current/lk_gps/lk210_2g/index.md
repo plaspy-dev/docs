@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK210-2G
 
+<div className="device-logo">
 ![LK210-2G](./tracker.jpg)
+</div>
 
 El LK210-2G es un rastreador GPS compacto diseñado para montaje en vehículos y pensado para ofrecer seguimiento confiable en tiempo real y monitoreo antirrobo básico. Fabricado para su uso en motocicletas, autos, camiones y otros activos móviles, el equipo integra antenas GPS y GSM 2G para actualizaciones de posición continuas allí donde exista cobertura 2G. Su carcasa compacta y resistente al agua, junto con optimizaciones de energía, permiten un uso prolongado en campo y brindan detección de impactos por vibración, notificaciones de geocerca e informes de batería baja.
 

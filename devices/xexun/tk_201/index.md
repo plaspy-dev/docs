@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - TK-201
 
+<div className="device-logo">
 ![TK-201](./logo.jpg)
+</div>
 
 The Xexun TK201 is a compact and versatile personal GPS tracker designed for on person use. Its small form factor makes it easy to carry or wear, which suits monitoring children, older adults, or pets. The device offers real time location reporting, voice surveillance, track playback, and a set of configurable alerts to support safety and situational awareness.
 

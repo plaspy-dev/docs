@@ -21,7 +21,9 @@ keywords:
 
 # WP - TT-1
 
+<div className="device-logo">
 ![TT-1](./logo..jpg)
+</div>
 
 El TT-1 de WP es un rastreador GPS GSM GPRS de alto rendimiento pensado para el seguimiento de remolques y la gestión de activos y flotas. Combina una carcasa compacta y fácil de ocultar con un receptor GPS de alta sensibilidad y un chasis robusto con clasificación IP65 para operar en entornos exteriores. Este equipo continúa la línea de modelos WP como el VT10 y el VT200, ofreciendo servicios variados de localización y un largo tiempo de operación, adecuado para remolques y otros activos en transporte.
 

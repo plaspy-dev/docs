@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT206
 
+<div className="device-logo">
 ![VT206](./logo..jpg)
+</div>
 
 The VT206 from iStartek is a compact GPRS hidden motorcycle GPS tracker designed primarily for motorcycles and electric bicycles while also supporting a wide vehicle voltage range that accommodates trucks, trailers, and bicycles. It combines an internal GPS antenna and an internal GSM antenna to provide position data suitable for real time tracking and basic fleet oversight. The device is light and small for discreet installation and includes features commonly used for vehicle security such as remote cut off, ACC detection, SOS emergency call, and GPS plus LBS positioning.
 

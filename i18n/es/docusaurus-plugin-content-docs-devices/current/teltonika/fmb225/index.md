@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB225
 
+<div className="device-logo">
 ![FMB225](./tracker.png)
+</div>
 
 El Teltonika FMB225 es un rastreador GPS robusto diseñado para operaciones industriales y al aire libre en condiciones exigentes. Con una carcasa certificada IP67, el equipo ofrece seguimiento de posición y telemetría confiable en entornos con polvo y exposición temporal al agua, típico en agricultura, construcción y minería. Soporta entradas de telemetría externas aptas para medir flujo de combustible y otros sensores por pulsos, extendiendo los datos básicos de GPS con mediciones de campo accionables.
 

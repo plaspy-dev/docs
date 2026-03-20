@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - TC68L
 
+<div className="device-logo">
 ![TC68L](./logo..png)
+</div>
 
 El Meitrack TC68L es un rastreador GPS compacto tipo plug and play diseñado para vehículos con conector OBD II estándar. Combina conectividad 4G y una interfaz OBD II para ofrecer reportes continuos de ubicación, información básica del vehículo y alertas antirrobo. El equipo incluye una batería interna de respaldo que permite mantener el rastreo por un periodo limitado si se retira del vehículo, y dispone de un botón SOS para señalizar emergencias de forma inmediata.
 

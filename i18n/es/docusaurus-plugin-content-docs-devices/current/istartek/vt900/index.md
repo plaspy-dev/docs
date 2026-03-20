@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT900
 
+<div className="device-logo">
 ![VT900](./logo.jpg)
+</div>
 
 El iStartek VT900 es un rastreador GPS compacto diseñado para el seguimiento de vehículos y activos. Soporta redes celulares comunes para enviar actualizaciones de ubicación por SMS o mediante conexiones de datos, ofrece modos de seguimiento por demanda e intervalos configurables, y cuenta con registro interno para conservar el historial de posiciones. El equipo incluye además un sensor de vibración interno para detectar movimiento, una función de alarma SOS y una batería de respaldo que ayuda a mantener la operación si se interrumpe la alimentación externa.
 

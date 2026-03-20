@@ -20,7 +20,9 @@ keywords:
 
 # Astra Telematics - AT211
 
+<div className="device-logo">
 ![AT211](./tracker.jpg)
+</div>
 
 The Astra AT211 is a rugged GPS tracker purpose built for heavy plant, machinery, and other outdoor assets. Designed on Astra Telematics' AT200 platform, the AT211 combines a compact, weatherproof enclosure with multi network connectivity and practical input output options to provide dependable location and status reporting in demanding environments.
 

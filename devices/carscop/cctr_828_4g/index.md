@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CCTR-828-4G
 
+<div className="device-logo">
 ![CCTR-828-4G](./tracker.JPG)
+</div>
 
 The CCTR-828-4G is a compact vehicle GPS tracker from Carscop designed for real time location tracking and basic anti theft telemetry. It combines cellular connectivity and a high sensitivity GNSS receiver with an internal rechargeable backup battery, wide input voltage tolerance, and a discreet form factor intended for hidden installation in cars, light commercial vehicles, motorcycles and similar vehicle types.
 

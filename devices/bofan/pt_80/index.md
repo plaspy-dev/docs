@@ -20,7 +20,9 @@ keywords:
 
 # Bofan - PT-80
 
+<div className="device-logo">
 ![PT-80](./logo.jpg)
+</div>
 
 The Bofan PT-80 is a compact personal GPS tracker designed for discreet, portable location monitoring. At a small size and lightweight form factor, the PT-80 is intended for personal safety and asset tracking use. It includes built in GSM and GPS antennas for location reporting, quick dial buttons for preset contacts, voice monitoring capability, a panic button for emergency alerts, geo fence management, and a rechargeable internal battery with long standby and onboard position logging capacity.
 

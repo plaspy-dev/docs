@@ -21,7 +21,9 @@ keywords:
 
 # Tramigo - T22
 
+<div className="device-logo">
 ![T22](./logo.jpg)
+</div>
 
 El Tramigo T22 es un rastreador GPS compacto diseñado para supervisar activos y vehículos en movimiento mediante tecnología combinada de posicionamiento satelital y móvil. Soporta conectividad GSM junto con posicionamiento GPS por satélite y está pensado para integrarse con teléfonos móviles y plataformas de seguimiento. Entre sus características de hardware destacan antenas internas, memoria interna para almacenamiento sin conexión, batería de respaldo que permite mantener el seguimiento si se interrumpe la alimentación principal, y entradas de usuario como sensor de ignición y botón de pánico.
 

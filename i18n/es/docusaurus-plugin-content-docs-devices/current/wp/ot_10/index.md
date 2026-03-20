@@ -21,7 +21,9 @@ keywords:
 
 # Rastreador WP - OT-10
 
+<div className="device-logo">
 ![OT-10](./logo..png)
+</div>
 
 El WP OT-10 es un rastreador vehicular compacto pensado para uso en vehículo, con conectividad OBDII y posicionamiento por satélite dual GPS y GLONASS. Está diseñado para una instalación discreta y reporte continuo de ubicación, e incluye comportamientos de reporte configurables, como registro por intervalos, alertas por eventos y hasta 100 tipos de eventos definidos por el usuario para condiciones comunes del vehículo. El OT-10 soporta comunicaciones celulares y permite configuración directa en el equipo para adaptarse a distintos escenarios de monitoreo.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4335
 
+<div className="device-logo">
 ![ST4335](./tracker.jpg)
+</div>
 
 The ST4335 is a heavy duty, multi hybrid GPS tracker designed for industrial vehicle and asset tracking. Built for harsh environments, it pairs rugged hardware and multi network cellular connectivity with GNSS positioning to provide reliable position, motion and status reporting. The design and feature set make the ST4335 suitable for trailers, containers, heavy machinery and other long term deployments where durability and continuous telemetry are important.
 

@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-906L
 
+<div className="device-logo">
 ![ST-906L](./tracker.jpg)
+</div>
 
 The SinoTrack ST-906L is a compact 4G GPS tracker designed for cars and motorcycles. It combines LTE and GSM cellular connectivity with a high sensitivity built in GPS and GSM antenna to provide reliable real time location reporting. The unit supports SMS and GPRS reporting and ships with a free SinoTrack Pro web and mobile app for route history playback and device management, while offering core anti theft features such as ACC detection, main power off alarm, SOS panic alert, overspeed and shock notifications, and a relay controlled immobilizer.
 

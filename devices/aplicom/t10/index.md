@@ -20,7 +20,9 @@ keywords:
 
 # Aplicom - T10
 
+<div className="device-logo">
 ![T10](./logo.png)
+</div>
 
 The Aplicom T10 is a compact, rugged GPS tracker and telemetry device designed for fleet telematics and industrial IoT. Housed in a weather resistant IP67 enclosure, the T10 is built for long term field operation across vehicles, trailers, fixed assets, and dispersed equipment. It supports Aplicom Silver Cloud for remote configuration, monitoring, and firmware updates to reduce on site maintenance.
 

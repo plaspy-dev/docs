@@ -21,7 +21,9 @@ keywords:
 
 # SkyMobile - SM-9570
 
+<div className="device-logo">
 ![SM-9570](./logo.jpg)
+</div>
 
 El SkyMobile SM-9570 es un localizador GPS versátil pensado principalmente para el rastreo de automóviles y camiones. Destaca por su alta sensibilidad de recepción gracias al chipset UBLOX integrado y por su operación celular cuatribanda en 850/900/1800/1900 MHz. El equipo está diseñado para reportar periódicamente su posición a un servidor o sistema externo, dispone de múltiples entradas y salidas para supervisión y control de dispositivos auxiliares, y soporta un amplio rango de voltaje vehicular de 8 a 32V DC. Con certificaciones CE, FCC, PTCRB y Anatel, el SM-9570 es una opción práctica para uso en flotas.
 

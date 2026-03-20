@@ -21,7 +21,9 @@ keywords:
 
 # MiniFinder - Nano
 
+<div className="device-logo">
 ![Nano](./tracker.jpg)
+</div>
 
 El MiniFinder Nano es un rastreador GPS compacto y vestible diseñado para la seguridad personal y entornos de atención. Disponible como reloj de pulsera o colgante, el Nano combina posicionamiento exterior con métodos asistidos para localización en interiores y una conexión celular integrada para ofrecer ubicación continua y gestión de alarmas. El dispositivo está pensado para situaciones donde la ligereza, la funcionalidad SOS y un manejo sencillo de alertas son prioritarios.
 

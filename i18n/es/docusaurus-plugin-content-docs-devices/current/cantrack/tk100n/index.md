@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - TK100N
 
+<div className="device-logo">
 ![TK100N](./tracker.png)
+</div>
 
 El TK100N es un rastreador GPS 2G cableado y multifuncional de un fabricante OEM consolidado, pensado para despliegues profesionales. Ofrece seguimiento en tiempo real junto con funciones clave de estado del vehículo, como detección de ACC, entrada de pánico SOS y control remoto de relés. Está diseñado para automóviles, motocicletas y bicicletas eléctricas y soporta un amplio rango de tensión para un funcionamiento fiable en servicio.
 

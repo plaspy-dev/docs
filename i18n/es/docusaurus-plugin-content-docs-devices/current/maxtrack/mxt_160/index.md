@@ -21,7 +21,9 @@ keywords:
 
 # Maxtrack - MXT-160
 
+<div className="device-logo">
 ![MXT-160](./logo.jpg)
+</div>
 
 El Maxtrack MXT-160 es un rastreador GPS compacto y resistente, pensado para el monitoreo exigente de activos móviles. Se ofrece en dos variantes que difieren únicamente en la cantidad de entradas y salidas; su diseño prioriza la robustez frente a interferencias, variaciones de voltaje y condiciones ambientales adversas. El equipo admite el reporte remoto de posición mediante GPRS y combina posicionamiento, conectividad y lógica de aplicación embebida en un único procesador interno para simplificar su operación en despliegues de gran volumen.
 

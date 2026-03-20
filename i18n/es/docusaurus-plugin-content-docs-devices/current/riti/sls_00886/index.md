@@ -21,7 +21,9 @@ keywords:
 
 # Riti - SLS-00886
 
+<div className="device-logo">
 ![SLS-00886](./logo.jpg)
+</div>
 
 El Riti SLS-00886 es un rastreador GPS para vehículos diseñado para ofrecer seguimiento de ubicación confiable y monitoreo remoto. Integra un receptor GPS de alta sensibilidad SiRF Star III con un módulo GSM cuatribanda y admite reportes por SMS y GPRS. El dispositivo puede enviar coordenadas a un servidor o mensajes SMS a números definidos por el usuario, e incluye funciones prácticas como detección de voltaje de batería del vehículo, monitoreo de rutas y registro de datos históricos.
 

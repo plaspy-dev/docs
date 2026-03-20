@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D55B-A9C
 
+<div className="device-logo">
 ![D55B-A9C](./tracker.jpg)
+</div>
 
 El Sentar D55B-A9C es un smartwatch para niños pensado para el uso diario y una supervisión sencilla. Cuenta con conectividad celular 4G, una pantalla brillante de 1.83 pulgadas con resolución 240 x 280 y un botón de navegación giratorio y táctil que facilita la interacción para los más pequeños. Con 1 GB de RAM y 16 GB de almacenamiento interno, el equipo está diseñado para mantener las aplicaciones ágiles y ofrecer espacio para medios y datos de las apps; además, su diseño de bajo consumo en modo de espera reduce la necesidad de recargas frecuentes.
 

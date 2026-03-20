@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-AVL05 3G
 
+<div className="device-logo">
 ![TZ-AVL05 3G](./logo.jpg)
+</div>
 
 The TZone TZ-AVL05 3G is a vehicle GPS tracker designed for real time location monitoring and vehicle security. It combines GPS and GSM tracking modules to provide periodic position reports, and includes a suite of alarms such as distance change, speed alerts, SOS, GPS antenna cut, power supply cut, and GPS no signal alarms. The device also supports features commonly used in vehicle oversight including geo fence alerts, mileage reporting, fuel level monitoring, engine and door check alarms, and a G sensor for sudden movement detection.
 

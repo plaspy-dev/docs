@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-1
 
+<div className="device-logo">
 ![AT-1](./logo..jpg)
+</div>
 
 El Autoseeker AT-1 es un rastreador GPS compacto e impermeable 4G, diseñado para seguimiento personal y de activos ligeros. Combina un tamaño reducido y clasificación IP68 con un módulo GNSS profesional para proporcionar ubicaciones precisas. El AT-1 funciona con batería recargable y ofrece varios modos de operación, incluyendo seguimiento en tiempo real, registro de historial y alertas por geocerca, lo que lo hace adecuado para supervisar a niños, adultos mayores, mascotas y otros activos móviles pequeños.
 

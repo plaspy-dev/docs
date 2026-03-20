@@ -21,7 +21,9 @@ keywords:
 
 # GPSMarker - M70
 
+<div className="device-logo">
 ![M70](./logo.jpg)
+</div>
 
 El GPSMarker M70 es un rastreador GPS versátil diseñado para el seguimiento confiable a largo plazo de vehículos y activos. Está pensado para reducir los costos recurrentes al operar sin una cuota de servicio obligatoria, utilizando en su lugar SMS salientes y tráfico GPRS con pago por uso. El equipo incorpora un receptor GPS GLONASS de alta sensibilidad con 99 canales, una tarifa SIM preparada para monitorización en línea y una serie de sensores integrados, además de un botón SOS para emergencias.
 

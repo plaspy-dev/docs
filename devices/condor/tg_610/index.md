@@ -20,7 +20,9 @@ keywords:
 
 # Condor - TG-610
 
+<div className="device-logo">
 ![TG-610](./tracker.png)
+</div>
 
 The TG-610 is a compact GPS tracker engineered for motorcycles and small vehicles. It combines a high sensitivity GPS antenna and GPRS connectivity in a small form factor with low power design and simple I/O. The device is intended to provide reliable real time location reporting, basic telemetry and anti theft control for owners and fleet managers who need a discreet tracking solution for two wheel and compact vehicle applications.
 

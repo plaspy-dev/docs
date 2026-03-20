@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-800
 
+<div className="device-logo">
 ![CCTR-800](./logo.jpg)
+</div>
 
 El Carscop CCTR-800 es un rastreador GPS portátil pensado para colocación discreta y seguimiento versátil. Su diseño compacto y el potente imán permiten montarlo oculto en superficies metálicas, mientras que la batería de 5200 mAh proporciona largas autonomías en espera. Con protección resistente al agua, el CCTR-800 cubre distintas necesidades de rastreo móvil, desde objetos personales hasta equipos y maquinaria comercial.
 

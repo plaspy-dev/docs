@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AU7
 
+<div className="device-logo">
 ![AU7](./logo.jpg)
+</div>
 
 The ATrack AU7 is a GPS and GLONASS enabled vehicle tracking device designed for both basic and advanced fleet and asset tracking needs. It supports multiple mobile communication technologies and provides configurable reporting options, event control, and a suite of features such as external accessory support, data encryption, and a built in motion sensor. These capabilities make it suitable for applications that require flexible reporting, location logging, and a range of event driven alerts.
 

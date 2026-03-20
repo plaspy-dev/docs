@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - SolarX 310
 
+<div className="device-logo">
 ![SolarX 310](./tracker.png)
+</div>
 
 El SolarX 310 es un rastreador GPS robusto con alimentación solar, diseñado para despliegues prolongados en exteriores. Pensado para contenedores, remolques, camiones y otros activos móviles de alto valor, combina seguimiento en tiempo real, un amplio búfer local y resistencia ambiental para mantener la ubicación y la telemetría disponibles incluso en áreas remotas. Su diseño prioriza la autonomía a largo plazo y la protección duradera en instalaciones expuestas.
 

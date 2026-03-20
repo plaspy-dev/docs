@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CCTR-830G-4G
 
+<div className="device-logo">
 ![CCTR-830G-4G](./tracker.JPG)
+</div>
 
 The CCTR-830G-4G is a compact OBD II GPS tracker designed for plug and play vehicle tracking and basic diagnostics. It combines dual GNSS positioning with A GPS assistance to deliver dependable location fixes and is built to access vehicle diagnostic information and telemetry through the vehicle interface without extra wiring. The unit is intended for rapid deployment across single vehicles or fleet installations where straightforward installation and continual monitoring are priorities.
 

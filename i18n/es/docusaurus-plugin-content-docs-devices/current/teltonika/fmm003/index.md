@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMM003
 
+<div className="device-logo">
 ![FMM003](./logo..png)
+</div>
 
 El Teltonika FMM003 es un rastreador vehicular OBD plug and play diseñado para una gestión de flotas confiable. Basado en LTE Cat M1 y NB-IoT con retroceso a 2G, el FMM003 ofrece cobertura celular amplia y reportes de posición, además de acceso directo a parámetros OEM del vehículo mediante lectura OBD. Soporta múltiples sistemas GNSS para posicionamiento y cuenta con almacenamiento interno y opciones de conectividad celular adecuadas para un seguimiento continuo en distintos tipos de vehículos.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL512
 
+<div className="device-logo">
 ![VL512](./tracker.png)
+</div>
 
 The Concox VL512 is a compact OBDII 4G GPS tracker designed for fast plug and play installation in passenger cars. It combines satellite positioning with on device motion sensing and a discreet microphone to deliver continuous location and event telemetry. The VL512 is built for straightforward deployment across vehicle fleets and for applications that require reliable real time tracking and event alerts.
 

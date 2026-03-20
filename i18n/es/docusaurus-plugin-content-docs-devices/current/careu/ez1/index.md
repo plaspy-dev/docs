@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - EZ1
 
+<div className="device-logo">
 ![EZ1](./logo..png)
+</div>
 
 El CAREU EZ1 es un rastreador de Localización Automática de Vehículos (AVL) pequeño y compacto, diseñado para el seguimiento práctico de vehículos y la gestión de flotas. Soporta conectividad global LTE con retroceso a 3G y 2G, posicionamiento por GPS y GLONASS, y Bluetooth 3.0, ofreciendo las funcionalidades esenciales para monitorear ubicaciones y telemática básica en una solución económica. Está disponible en varias versiones para adaptarse a diferentes necesidades de conectividad y accesorios, y su diseño discreto lo hace ideal para instalaciones con espacio limitado.
 

@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL52S
 
+<div className="device-logo">
 ![GL52S](./logo..png)
+</div>
 
 The QuecLink GL52S is a compact Sigfox micro standby asset tracker that supports GNSS positioning for accurate location information. Designed for long-term deployments, the GL52S emphasizes extended standby time and a small form factor that enables discreet placement. It is offered with an optional IP67 waterproof case to enhance durability in outdoor conditions and includes resistance to common jamming techniques to help preserve tracking continuity.
 

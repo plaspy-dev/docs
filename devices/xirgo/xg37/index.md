@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XG37
 
+<div className="device-logo">
 ![XG37](./tracker.webp)
+</div>
 
 The XG37 is a rugged fleet vehicle telematics GPS tracker designed for professional fleet management and compliance workflows. As a proven predecessor to the LX40, the XG37 delivers location tracking together with full CANBUS telemetry, instant geofence notifications, remote tachograph download capability and an SDK for custom device side scenarios. It is built to provide reliable vehicle data and organized telemetry for fleet operations.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - TK-206
 
+<div className="device-logo">
 ![TK-206](./tracker.jpg)
+</div>
 
 El TK-206 es un rastreador vehicular compacto GSM/GPRS/GPS diseñado para ofrecer seguimiento y recuperación de vehículos de forma confiable y discreta. Como uno de los rastreadores de alto rendimiento más pequeños de GOTOP, está pensado para montaje oculto en automóviles y vehículos comerciales ligeros, proporcionando actualizaciones continuas de ubicación, alertas por geovallas, señal SOS e inmovilización remota que facilitan la respuesta ante robos y el monitoreo de seguridad.
 

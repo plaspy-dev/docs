@@ -20,7 +20,9 @@ keywords:
 
 # Protrack - ET300
 
+<div className="device-logo">
 ![ET300](./tracker.png)
+</div>
 
 The Protrack ET300 is a rugged GPS vehicle tracker designed for reliable vehicle monitoring and basic fleet control. Housed in an IP65 rated enclosure, the ET300 is built to tolerate exposed installations and provide essential telemetry and event logging for cars, motorcycles and light commercial vehicles. Core functions described for this model include geofence alerts, over speed warnings, fuel cutoff control and historical trip recording.
 

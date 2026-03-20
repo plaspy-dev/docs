@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM250
 
+<div className="device-logo">
 ![FMM250](./tracker.png)
+</div>
 
 The Teltonika FMM250 is a rugged, IP67 rated vehicle tracker designed for demanding mobile environments and fleet applications. It is built to capture high fidelity CAN bus data and provide reliable cellular connectivity, making it suitable for deployments that require detailed vehicle telemetry alongside position tracking. The device is intended for on-vehicle use where dust and moisture resistance are important.
 

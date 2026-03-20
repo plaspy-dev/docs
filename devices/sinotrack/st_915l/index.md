@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-915L
 
+<div className="device-logo">
 ![ST-915L](./tracker.jpg)
+</div>
 
 The SinoTrack ST-915L is a heavy duty GPS tracker engineered for long term, low maintenance tracking of vehicles and mobile assets. It is supplied in a waterproof magnetic enclosure for discreet external mounting on cars, trucks, motorcycles and other equipment. With a built in 3.7V 10000 mAh rechargeable battery and LTE Cat 1 plus 2G connectivity, the ST-915L is designed to provide reliable real time position reporting and extended standby operation for fleet and asset use.
 

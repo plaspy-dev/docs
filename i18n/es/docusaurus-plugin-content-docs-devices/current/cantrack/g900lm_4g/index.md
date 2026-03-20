@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G900LM-4G
 
+<div className="device-logo">
 ![G900LM-4G](./tracker.jpg)
+</div>
 
 El CanTrack G900LM-4G es un rastreador GPS mini, cableado y de formato compacto, perteneciente a una familia telemática consolidada. Está pensado para autos, camiones y vehículos comerciales, y combina conectividad LTE GSM con posicionamiento GNSS de alta sensibilidad, batería interna de respaldo y múltiples tipos de alarma para proteger activos y mejorar la telemetría operativa. El dispositivo está disponible en variantes de cableado de 4 y 8 pines para ofrecer opciones de instalación flexibles en distintos vehículos.
 

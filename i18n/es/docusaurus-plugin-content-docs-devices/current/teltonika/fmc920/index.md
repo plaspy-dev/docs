@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMC920
 
+<div className="device-logo">
 ![FMC920](./tracker.png)
+</div>
 
 El Teltonika FMC920 es un rastreador GPS 4G LTE Cat 1 compacto, diseñado para ofrecer seguimiento fiable de vehículos y control de flotas en entornos con espacio limitado. Su delgada carcasa de 12 mm permite instalaciones discretas en vehículos y activos, y sus funciones integradas —como compatibilidad con Bluetooth LE, batería de respaldo y bloqueo remoto del motor— lo convierten en una opción práctica para operadores de flotas y proyectos anti-robo.
 

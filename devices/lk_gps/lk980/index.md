@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK980
 
+<div className="device-logo">
 ![LK980](./logo..jpg)
+</div>
 
 The LK-GPS LK980 is a compact and versatile GPS tracker designed primarily for car tracking. Its small form factor and built in GPS and GSM antennas make it suitable for discreet placement in a vehicle. The LK980 supports mobile app tracking on both Android and Apple platforms and provides access via web based platforms, enabling convenient monitoring of vehicle location and reported remaining battery capacity.
 

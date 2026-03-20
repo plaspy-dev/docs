@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK100
 
+<div className="device-logo">
 ![LK100](./logo..jpg)
+</div>
 
 The LK100 Mini Pet GPS Tracker is a compact, lightweight device designed to help owners keep pets safe and located. Intended to attach easily to a collar or harness, the LK100 provides continuous location information using GPS and assisted location services. The tracker supports real time updates and history playback, plus practical features such as an SOS button, two-way voice monitoring, and geo fencing to help manage pet movements.
 

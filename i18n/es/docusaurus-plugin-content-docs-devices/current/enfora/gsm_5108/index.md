@@ -21,7 +21,9 @@ keywords:
 
 # Enfora - GSM 5108
 
+<div className="device-logo">
 ![GSM 5108](./logo.jpg)
+</div>
 
 El Enfora GSM 5108 forma parte de la familia Enfora Spider MT, una plataforma integrada que ofrece conectividad GSM y GPRS para aplicaciones móviles de rastreo. Diseñado para transmitir datos de ubicación GPS a centros de operaciones centralizados, páginas web, equipos locales o terminales de datos móviles, el GSM 5108 es adecuado tanto para despliegues exigentes de flotas como para escenarios más sencillos de ubicación y seguimiento. Sus capacidades incluyen un motor de reglas programables, geocercas, comandos SMS integrados y una batería interna de respaldo para mantener la operación durante interrupciones de alimentación.
 

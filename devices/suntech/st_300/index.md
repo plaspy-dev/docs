@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 300
 
+<div className="device-logo">
 ![ST 300](./logo.jpg)
+</div>
 
 The Suntech ST300 is a versatile GPS vehicle tracker and telematics device designed to meet the information needs of businesses and individuals who want improved visibility and control over vehicles. The ST300 family includes multiple variants such as ST300V (Voice), ST300R (RS232), ST300B (Basic), ST300A (Advance), ST300P (Passenger Counter), ST300C (Can Bus), ST300F (Fuel Sensor), ST300H (High), and ST300K (Can Bus + 1 wire), giving fleets a choice of configurations to match different operational requirements.
 

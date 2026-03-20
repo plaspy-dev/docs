@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TK980
 
+<div className="device-logo">
 ![TK980](./tracker.jpg)
+</div>
 
 The TK980 is a compact plug-and-play OBD2 GPS tracker from TK-Star designed for rapid installation and continuous vehicle monitoring. Engineered for mixed urban and outdoor environments, the device combines multi-mode positioning, built-in vibration sensing, and server side historical route storage to deliver dependable location intelligence without complex wiring.
 

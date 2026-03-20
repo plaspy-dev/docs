@@ -21,7 +21,9 @@ keywords:
 
 # DCT - Syrus Asset Tracker
 
+<div className="device-logo">
 ![Syrus Asset Tracker](./tracker.png)
+</div>
 
 El Syrus Asset Tracker es un rastreador GPS robusto e impermeable diseñado para el monitoreo prolongado de activos no alimentados y expuestos. Está concebido para entornos exteriores exigentes y ofrece reportes de ubicación fiables y de bajo mantenimiento para contenedores, remolques, equipos de construcción y otros activos fuera de la red donde la larga autonomía y la comunicación celular consistente son esenciales.
 

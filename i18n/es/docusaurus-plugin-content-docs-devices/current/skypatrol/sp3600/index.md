@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP3600
 
+<div className="device-logo">
 ![SP3600](./logo.jpg)
+</div>
 
 La serie SkyPatrol SP3600 es un dispositivo de rastreo GPS orientado a vehículos, diseñado para ofrecer monitoreo de ubicación confiable y visibilidad operativa. Desarrollado para entornos de transporte y gestión de flotas, el SP3600 integra conectividad GSM/GPRS cuatribanda, seguimiento en tiempo real, geocercas y un conjunto de sensores a bordo, incluyendo acelerómetro y sensor de temperatura. Su construcción resistente está pensada para cubrir necesidades habituales como la gestión de flotas, telemática para seguros, coordinación de despacho y recuperación de vehículos.
 

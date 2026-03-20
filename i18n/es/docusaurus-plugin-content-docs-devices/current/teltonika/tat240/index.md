@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - TAT240
 
+<div className="device-logo">
 ![TAT240](./tracker.png)
+</div>
 
 El TAT240 es un rastreador GPS compacto y resistente a la manipulación diseñado para el monitoreo confiable y prolongado de activos de alto valor y para instalaciones discretas. Tiene un diseño de perfil bajo y un soporte magnético con detección de manipulación integrada, lo que lo hace adecuado para equipos de renta, contenedores, maquinaria de construcción y otros casos en los que la ocultación y la protección contra robo son prioritarias.
 

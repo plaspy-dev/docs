@@ -20,7 +20,9 @@ keywords:
 
 # Gelix - Gelix Lite
 
+<div className="device-logo">
 ![Gelix Lite](./logo.jpg)
+</div>
 
 The Gelix Lite is a driver telematics device built for integration with GLONASS and GPS systems to track moving objects. As a telematics controller it collects, records, and transmits location and event data using GPRS IP and SMS, and it includes flexible configuration for data format and event registration. The device can send data to two receiver servers, accept operating mode commands from a server, and supports remote firmware upgrades, making it suitable for ongoing fleet and asset management.
 

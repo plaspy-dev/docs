@@ -21,7 +21,9 @@ keywords:
 
 # Tramigo - T23
 
+<div className="device-logo">
 ![T23](./logo.jpg)
+</div>
 
 El Tramigo T23 es un dispositivo de rastreo para vehículos pensado tanto para uso particular como para la gestión de flotas. Posicionado como un producto de seguridad vehicular muy vendido, el T23 ofrece visibilidad continua de la ubicación y funcionalidades orientadas al seguimiento, la recuperación de vehículos y la supervisión diaria de la flota. Su diseño admite instalación oculta y conexión a la alimentación del vehículo; además, cuenta con batería de respaldo y memoria interna para mantener la continuidad del rastreo si se pierde la energía principal.
 

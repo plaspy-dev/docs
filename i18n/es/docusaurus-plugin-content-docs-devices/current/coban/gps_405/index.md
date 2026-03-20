@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS-405
 
+<div className="device-logo">
 ![GPS-405](./logo..png)
+</div>
 
 El Coban GPS-405 es un rastreador vehicular versátil pensado para ofrecer gestión y monitoreo en tiempo real en distintos tipos de vehículos. Diseñado para operar con la plataforma BAANOOL IOT y la plataforma APP, el GPS-405 proporciona seguimiento de movimiento, geocercas, alertas por exceso de velocidad, detección de puerta y ACC, detección de golpes, notificaciones de corte de alimentación externa y un botón SOS. Algunos modelos amplían sus capacidades con opciones como punto de acceso Wi‑Fi, sensores de temperatura y humedad y cámara Wi‑Fi integrada, lo que lo hace adaptable a diversas necesidades operativas.
 

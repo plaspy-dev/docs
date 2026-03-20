@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB140
 
+<div className="device-logo">
 ![FMB140](./tracker.png)
+</div>
 
 El Teltonika FMB140 es un rastreador GPS compacto diseñado para capturar la ubicación del vehículo y telemetría derivada del bus CAN. Integra un procesador CAN y conectividad Bluetooth Low Energy para leer parámetros del vehículo en autos ligeros, camiones, autobuses y maquinaria especial, y puede enviar esa información a una plataforma telemática para monitoreo y generación de informes en tiempo real. El dispositivo se utiliza comúnmente cuando se requieren telemetría vehicular más detallada e integraciones con accesorios, además del rastreo de posición estándar.
 

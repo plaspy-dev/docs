@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL52LP
 
+<div className="device-logo">
 ![GL52LP](./logo..png)
+</div>
 
 The QuecLink GL52LP is a LoRa micro standby asset tracker designed for long term asset monitoring and tracking management. Its small form factor and extended standby life make it well suited to stationary installations where periodic location and motion information is required. The device includes a GNSS receiver and a motion sensor, and offers options such as an IP67 waterproof case for added environmental protection.
 

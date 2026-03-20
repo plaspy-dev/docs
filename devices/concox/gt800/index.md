@@ -20,7 +20,9 @@ keywords:
 
 # Concox - GT800
 
+<div className="device-logo">
 ![GT800](./logo.jpg)
+</div>
 
 The Concox GT800 is a multifunctional vehicle GPS tracker designed to deliver reliable and accurate location tracking for cars and light commercial vehicles. It combines GPS and AGPS tracking with event detection features such as door status monitoring, two way communication, and an SOS call function to support both routine monitoring and urgent situations. The GT800 targets users who need practical tracking capabilities with a good balance of performance and cost.
 

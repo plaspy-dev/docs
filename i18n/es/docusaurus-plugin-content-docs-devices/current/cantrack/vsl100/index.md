@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack — VSL100
 
+<div className="device-logo">
 ![VSL100](./tracker.jpg)
+</div>
 
 El VSL100 de CanTrack es un limitador de velocidad y rastreador GPS de nueva generación diseñado para vehículos pesados y la gestión de flotas. Integra gobernanza informática de velocidad con rastreo de ubicación en tiempo real de alta precisión, permitiendo a los operadores hacer cumplir límites máximos preestablecidos, registrar infracciones en el momento y recolectar telemetría para supervisión centralizada. El dispositivo está concebido para flotas de logística, maquinaria de obra, transportistas de mercancías peligrosas y transporte de pasajeros, donde el control de la velocidad, la resistencia a manipulaciones y la evidencia auditable de infracciones son críticos.
 

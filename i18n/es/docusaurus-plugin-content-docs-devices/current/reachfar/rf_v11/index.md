@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V11
 
+<div className="device-logo">
 ![RF-V11](./tracker.jpg)
+</div>
 
 El Reachfar RF-V11 es un rastreador GPS compacto alimentado por batería que incorpora una alarma antirrobo inalámbrica pensada para pequeños activos, puertas, ventanas y cajas fuertes. No requiere cableado y combina posicionamiento GPS con detección multimodal, incluyendo contacto magnético, detección de vibración y reconocimiento por sonido, para ofrecer protección discreta y reporte de ubicación. El RF-V11 está dirigido a instaladores y usuarios finales que necesitan una solución de alarma y localización fácil de desplegar en entornos donde tender cables de alimentación o datos resulta impráctico.
 

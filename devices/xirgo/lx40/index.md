@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - LX40
 
+<div className="device-logo">
 ![LX40](./tracker.webp)
+</div>
 
 The Xirgo LX40 is a next generation vehicle GPS tracker and telematics platform developed as the evolution of the XG37 series. Built for fleet and vehicle centric deployments, the LX40 offers a scalable and configurable solution for tracking, telemetry collection, and device lifecycle management. Its design positions it as a practical choice for mixed fleets and retrofit projects by offering flexible install options, programmable I O, and CANBUS capable variants where richer vehicle data is available.
 

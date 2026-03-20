@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4945
 
+<div className="device-logo">
 ![ST4945](./logo..png)
+</div>
 
 The Suntech ST4945 is a compact portable GPS tracker built for basic tracking and monitoring tasks across people, messaging, package logistics, and fixed asset applications. It combines GNSS positioning with a 3-axis accelerometer for motion detection, a panic button for emergency status reporting, battery level alerts, and configurable geofencing capacity. Communication flexibility is provided through TCP UDP and SMS channels and the device supports current cellular technologies for broad connectivity.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G01-4G
 
+<div className="device-logo">
 ![G01-4G](./tracker.jpg)
+</div>
 
 The GOTOP G01-4G is a vehicle GPS tracker designed for reliable real-time tracking and fleet management. Built for cars, taxis, rental vehicles and light trucks, the device uses 4G LTE with SMS fallback to provide fast position updates, configurable geo-fence alarms, SOS emergency reporting, ACC ignition detection and remote engine cut control. Its IP67 rated ABS enclosure and wide operating voltage range make it suitable for professional fleet deployments and challenging automotive environments.
 

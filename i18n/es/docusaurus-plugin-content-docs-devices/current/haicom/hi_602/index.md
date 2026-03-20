@@ -21,7 +21,9 @@ keywords:
 
 # Haicom - HI-602
 
+<div className="device-logo">
 ![HI-602](./logo.jpg)
+</div>
 
 El Haicom HI-602 es un dispositivo de rastreo todo en uno que combina posicionamiento GPS con varias opciones de comunicación, incluyendo SMS, GSM, DTMF y GPRS. Diseñado como una unidad compacta y recargable, el HI-602 permite el monitoreo de ubicación en tiempo real y es adecuado para seguir una amplia gama de objetos en movimiento, como pertenencias personales, motocicletas, paquetería o activos de pequeño tamaño. Se entrega con el software Haicom Tracking para PC y ofrece flexibilidad mediante opciones de personalización y colocación discreta.
 

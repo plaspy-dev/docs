@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT500
 
+<div className="device-logo">
 ![MT500](./tracker.jpg)
+</div>
 
 El MT500 Prisoner GPS Metal Ankle es un rastreador de tobillo diseñado para proporcionar monitoreo continuo con calidad de cumplimiento policial para personas bajo supervisión correccional. Su carcasa metálica resistente y su fijación a prueba de manipulaciones ofrecen seguridad física visible mientras suministran datos de ubicación y reportes de eventos de forma constante. El dispositivo está pensado para programas que exigen telemetría confiable y registros documentados de cumplimiento.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - TK-101
 
+<div className="device-logo">
 ![TK-101](./logo.jpg)
+</div>
 
 The Xexun TK-101 is a compact GPS tracker that uses GPS positioning together with GSM GPRS reporting to provide location updates and remote monitoring. It can report latitude and longitude coordinates for display on mapping tools and supports reporting by SMS or data, making it suitable for tracking vehicles and mobile assets. Key features include auto reporting of position, sending the last known location when GPS coverage is unavailable, SOS monitoring, and configurable security settings such as username and password management.
 

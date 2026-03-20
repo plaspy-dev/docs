@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JM-VG01
 
+<div className="device-logo">
 ![JM-VG01](./logo..png)
+</div>
 
 El JM-VG01U de Concox es un rastreador vehicular avanzado diseñado para la supervisión sólida de flotas y vehículos individuales. Sus características incluyen detección de movimiento multieje para el análisis del comportamiento de conducción, posicionamiento GPS asistido por INS para mantener la localización cuando la señal GPS es deficiente, monitoreo de encendido, un botón de pánico para emergencias, capacidad de corte remoto y una carcasa resistente con certificación IP65. El dispositivo está orientado al análisis y al rastreo fiable para apoyar la supervisión operativa y los programas de seguridad.
 

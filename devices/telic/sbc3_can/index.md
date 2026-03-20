@@ -20,7 +20,9 @@ keywords:
 
 # Telic - SBC3 CAN
 
+<div className="device-logo">
 ![SBC3 CAN](./logo.jpg)
+</div>
 
 The Telic SBC3 CAN is a rugged and versatile GPS tracker designed for demanding telematics applications. It provides access to a range of vehicle interfaces including RS232, 1-wire, and CAN bus, and is built in a durable housing intended for harsh environments. Available antenna configurations and an optional 4 Ah battery variant give operators flexibility in how they deploy the device.
 

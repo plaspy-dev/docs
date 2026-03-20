@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - VT200B
 
+<div className="device-logo">
 ![VT200B](./tracker.jpg)
+</div>
 
 El TopShine VT200B es una terminal de rastreo vehicular resistente diseñada para la gestión profesional de flotas y la seguridad automotriz. Integra posicionamiento GNSS de alta sensibilidad, conectividad celular cuatribanda para reportes en tiempo real, un registrador interno capaz de conservar más de 10,000 registros cuando se pierde la conectividad, y funciones antirrobo integradas como aviso SOS e inmovilización remota. Diseñada como una unidad compacta de grado vehicular, el VT200B busca ofrecer visibilidad continua de la ubicación y alertas de incidentes para flotas comerciales mixtas.
 

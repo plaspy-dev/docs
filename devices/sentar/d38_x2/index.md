@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D38-X2
 
+<div className="device-logo">
 ![D38-X2](./tracker.jpg)
+</div>
 
 The D38-X2 is a kids oriented GPS tracker in the form of a smart watch that focuses on safety, communication, and everyday convenience. It runs an Android 8.1 platform with modest memory and storage, supports popular messaging apps such as WhatsApp, enables two-way voice calling, and provides location using GPS, A-GPS, LBS, and Wi‑Fi positioning. The removable watch case and child friendly design make it comfortable and adaptable for school, family life, and outdoor play.
 

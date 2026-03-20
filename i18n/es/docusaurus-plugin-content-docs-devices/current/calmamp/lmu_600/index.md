@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-600
 
+<div className="device-logo">
 ![LMU-600](./logo.jpg)
+</div>
 
 El CalmAmp LMU-600 es un dispositivo de rastreo vehicular económico y con amplias funciones, pensado para uso automotriz. Diseñado con un formato compacto y un desempeño GPS confiable, la serie LMU-600 cubre escenarios habituales como telemática para seguros, recuperación de vehículos robados, monitoreo de financiamiento y control de flotas de alquiler. Incluye batería interna de respaldo e entradas/salidas para funciones como bloqueo de arranque y botón de pánico, además de antenas internas celular y GPS para simplificar la instalación.
 

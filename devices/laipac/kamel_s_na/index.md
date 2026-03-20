@@ -20,7 +20,9 @@ keywords:
 
 # Laipac - Kamel S - NA
 
+<div className="device-logo">
 ![Kamel S - NA](./logo..png)
+</div>
 
 The Laipac Kamel S - NA is a compact, versatile GPS tracker designed to improve visibility and management of portable and tracked assets. It uses 4G LTE connectivity combined with GNSS positioning to provide real-time location updates, and includes built-in features such as Time Interval and Distance Travelled reporting, Tow Alerts, Over Speeding Alerts, and Geofence Violation alerts. The unit is IP68 water resistant and designed for quick deployment without installation, making it suitable for a wide range of asset tracking scenarios.
 

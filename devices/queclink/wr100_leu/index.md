@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - WR100 LEU
 
+<div className="device-logo">
 ![WR100 LEU](./tracker.png)
+</div>
 
 The WR100 LEU is an industrial LTE Cat 4 router designed as a compact communications gateway for Plaspy compatible GPS tracker deployments. Built for data intensive IoT and telematics applications, it provides resilient cellular connectivity with dual SIM redundancy alongside wired and WiFi links so tracker telemetry and location data can be delivered reliably to cloud platforms.
 

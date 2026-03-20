@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - LS500
 
+<div className="device-logo">
 ![LS500](./Logo.jpg)
+</div>
 
 El ThingSys LS500 es un limitador de velocidad GPS y terminal de rastreo vehicular multifunción diseñado para controlar la velocidad con precisión y monitorear la ubicación de forma continua. Basado en un chip inteligente ARM y equipado con receptor GPS U-blox, comunicación GSM GPRS y módulo Bluetooth, el LS500 integra funcionalidades de limitación de velocidad y rastreo en un equipo compacto. Su diseño prioriza la precisión del control y la fiabilidad operativa, permitiendo que el acelerador del vehículo opere dentro del rango de velocidad permitido sin sacrificar el torque de potencia.
 

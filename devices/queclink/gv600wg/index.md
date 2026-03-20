@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV600WG
 
+<div className="device-logo">
 ![GV600WG](./tracker.png)
+</div>
 
 The QuecLink GV600WG is a rugged GPS tracker purpose built for heavy duty assets such as trailers, tankers, refrigerated units and flatbeds. It combines a hardened IP67 housing, tamper resistant antenna design and a high capacity internal battery to deliver persistent location awareness and telemetry in demanding transport and logistics environments.
 

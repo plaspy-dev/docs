@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB230
 
+<div className="device-logo">
 ![FMB230](./logo..png)
+</div>
 
 El Teltonika FMB230 es un rastreador GPS compacto y robusto, diseñado para el seguimiento fiable de vehículos y activos. Ofrece conectividad 2G y 4G y cuenta con posicionamiento GNSS que integra múltiples sistemas satelitales para proporcionar datos de ubicación precisos. Su carcasa con clasificación IP67 lo protege frente a polvo y agua, y además dispone de opciones flexibles para conectar periféricos y sensores externos mediante Bluetooth LE.
 

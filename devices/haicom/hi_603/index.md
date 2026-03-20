@@ -20,7 +20,9 @@ keywords:
 
 # Haicom - HI-603
 
+<div className="device-logo">
 ![HI-603](./logo.jpg)
+</div>
 
 The Haicom HI-603 is an all in one vehicle tracking unit that combines GPS positioning with GSM based communications, supporting SMS GPRS and DTMF operation for near real time tracking. Designed for fleet management and asset monitoring, the HI-603 family offers a range of modes and software options provided by the manufacturer so users can choose PC based DTMF tracking or web based GPRS tracking depending on their needs.
 

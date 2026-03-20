@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-17K
 
+<div className="device-logo">
 ![AT-17K](./tracker.jpg)
+</div>
 
 El Autoseeker AT-17K es un rastreador GPS magnético inalámbrico 4G diseñado para el monitoreo de vehículos y activos a largo plazo con bajo mantenimiento. Combina una carcasa resistente con certificación IP68, un potente imán para montaje y una batería interna de alta capacidad con recarga solar, lo que permite reportes continuos de ubicación y estados para flotas, contenedores, embarcaciones y maquinaria pesada.
 

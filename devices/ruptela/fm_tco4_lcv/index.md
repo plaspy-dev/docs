@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - FM-Tco4 LCV
 
+<div className="device-logo">
 ![FM-Tco4 LCV](./logo.jpg)
+</div>
 
 The Ruptela FM-Tco4 LCV is a GPS tracker designed for light commercial vehicles such as vans and passenger cars. It gathers vehicle location and route information while also reading on board computer data for LCV platforms, enabling mileage, speed and fuel level monitoring directly from the vehicle system. The device includes features oriented to fleet operations like engine error code reading, driver registration, remote ignition blocking, internal geozones and anti jamming measures.
 

@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-902
 
+<div className="device-logo">
 ![ST-902](./tracker.jpg)
+</div>
 
 The SinoTrack ST-902 is a compact plug and play OBD2 GPS tracker designed for rapid deployment in cars, taxis and commercial fleets. It connects to a vehicle OBD2 port to provide continuous position reporting using cellular data and SMS fallback, and includes core alarm features such as shock, overspeed, geo fence and low battery notifications. A small internal rechargeable backup battery supports brief operation when external power is removed.
 

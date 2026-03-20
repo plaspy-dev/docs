@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-BC06
 
+<div className="device-logo">
 ![TZ-BC06](./logo.jpg)
+</div>
 
 El TZone TZ-BC06 es un rastreador compacto y ligero diseñado para ofrecer detección de presencia y localización a corto alcance de forma precisa y confiable. Con un acabado blanco crema y unas dimensiones reducidas de aproximadamente 60 x 24 x 9 mm, además de un peso cercano a los 15 gramos, el TZ-BC06 resulta fácil de portar o fijar a objetos personales y equipos. Utiliza el protocolo iBeacon de iPhone sobre Bluetooth 4.0 para emitir señales con intervalos y potencia de transmisión configurables, lo que permite ajustar su rendimiento y alcance según las necesidades.
 

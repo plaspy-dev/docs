@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - LX40
 
+<div className="device-logo">
 ![LX40](./tracker.webp)
+</div>
 
 El Xirgo LX40 es un rastreador GPS y plataforma telemática de nueva generación, desarrollado como evolución de la serie XG37. Diseñado para implementaciones centradas en vehículos y flotas, el LX40 ofrece una solución escalable y configurable para rastreo, recopilación de telemetría y gestión del ciclo de vida del dispositivo. Su diseño lo hace una opción práctica para flotas mixtas y proyectos de adaptación, al ofrecer opciones de instalación flexibles, I/O programable y variantes compatibles con CANBUS cuando se requiere acceso a datos vehiculares más completos.
 

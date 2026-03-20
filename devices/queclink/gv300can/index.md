@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV300CAN
 
+<div className="device-logo">
 ![GV300CAN](./tracker.png)
+</div>
 
 The QuecLink GV300CAN is a third generation vehicle GPS tracker designed for fleet management, cold chain logistics and transportation monitoring. It combines a reliable GNSS receiver with cellular communication to provide real time tracking, scheduled telemetry and event driven reporting for fleets and high value vehicles. The hardware is positioned for vehicle grade applications where ongoing location visibility and event capture are important.
 

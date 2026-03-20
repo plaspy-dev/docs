@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - T622L-F9
 
+<div className="device-logo">
 ![T622L-F9](./logo..jpg)
+</div>
 
 The Meitrack T622L-F9 is a 4G Iridium GPS tracker designed for vehicle tracking applications where precise positioning and reliable communications are important. Positioned as a high end device for fleet managers and individual vehicle owners, the T622L-F9 combines market proven tracking performance with support for safety related inputs such as Mobileye Fleet Safety and alerts for harsh acceleration and braking. Its compact form factor and environmental tolerances make it suitable for a range of vehicle types and operating conditions.
 

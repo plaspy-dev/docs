@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-2600
 
+<div className="device-logo">
 ![LMU-2600](./logo.jpg)
+</div>
 
 El CalmAmp LMU-2600 es una unidad de seguimiento para flotas de alto rendimiento diseñada para localización automática de vehículos y aplicaciones de gestión de flotas. Integra un posicionamiento GPS sensible, un acelerómetro de 3 ejes para medir la conducta del conductor y los impactos en el vehículo, y un motor de procesamiento a bordo capaz. El dispositivo ofrece opciones flexibles de comunicaciones inalámbricas y antenas para adaptarse a distintos tipos de instalaciones y requerimientos operativos.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Haicom - HI-602X
 
+<div className="device-logo">
 ![HI-602X](./logo.jpg)
+</div>
 
 El Haicom HI-602X es un rastreador GPS GPRS compacto de la serie X de Haicom, diseñado para ofrecer seguimiento flexible de activos. Integra módulos GPS y GSM, batería y antenas, todo en una carcasa resistente al agua, lo que permite un seguimiento autónomo de vehículos y equipos. El dispositivo admite configuración desde la plataforma y puede almacenar el historial de posiciones en memoria flash interna para recuperarlo cuando no haya cobertura de red.
 

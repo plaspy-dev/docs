@@ -20,7 +20,9 @@ keywords:
 
 # STL - STL060
 
+<div className="device-logo">
 ![STL060](./logo.jpg)
+</div>
 
 The STL STL060 is a compact GPS tracking device designed for tracking vehicles, people, and portable assets. It uses GPS satellites to determine precise coordinates and records position data at regular intervals. The device emphasizes ease of use and provides data export and SMS based configuration, making it accessible for users who need straightforward tracking without complex setup.
 

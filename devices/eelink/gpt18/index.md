@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT18
 
+<div className="device-logo">
 ![GPT18](./tracker.jpg)
+</div>
 
 The GPT18 is a compact wearable GPS tracker watch built for personal monitoring. Designed for children, seniors, and lone individuals, the device provides real time location using GPS Wi‑Fi and LBS positioning, includes two way voice calling and a one touch SOS alarm, and presents on device status via an OLED display. Its compact form factor and IP65 water resistant enclosure make it suitable for everyday wear while delivering practical safety features such as geo fence alerts, speed alarms, low battery notifications, and pedometer step counting.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-AVL301
 
+<div className="device-logo">
 ![TZ-AVL301](./logo.jpg)
+</div>
 
 El TZ-AVL301 es un rastreador GPS 3G compacto de TZone diseñado para la supervisión de vehículos y activos. Soporta frecuencias GSM y WCDMA e incluye funciones habituales en la gestión de flotas, como identificación de conductor mediante iButton, detección de encendido, cálculo de kilometraje, registro en memoria flash a bordo y la posibilidad de enviar enlaces de ubicación por SMS. Con certificación IP67, el TZ-AVL301 está pensado para entornos exigentes donde se requiere posicionamiento y reporte de estado fiables.
 

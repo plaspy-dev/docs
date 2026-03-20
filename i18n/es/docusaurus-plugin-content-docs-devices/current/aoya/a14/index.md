@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - A14 — Rastreador GPS vehicular compacto
 
+<div className="device-logo">
 ![A14](./logo.jpg)
+</div>
 
 El AoYa A14 es un rastreador GPS automotriz compacto diseñado para ofrecer monitoreo de ubicación de vehículos en tiempo real. Con dimensiones de 88 mm x 46 mm x 16 mm y un peso de 80 g, está pensado para una instalación discreta en autos de pasajeros y vehículos comerciales ligeros. El A14 admite posicionamiento por GPS, LBS y AGPS e incorpora un chipset UBLOX que, según el fabricante, ofrece alta sensibilidad y una precisión típica de aproximadamente 5 a 10 metros.
 

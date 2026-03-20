@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G1S
 
+<div className="device-logo">
 ![G1S](./logo.jpg)
+</div>
 
 El Gosafe G1S es un rastreador GPS portátil diseñado para despliegues flexibles. Acepta pilas CR123 reemplazables o baterías recargables que se cargan mediante un conector externo, y su diseño compacto y resistente lo hace adecuado para el seguimiento tanto en interiores como en exteriores. Con una capacidad total de batería reemplazable reportada de 6000 mAh, el G1S puede alcanzar intervalos de espera extremadamente largos cuando se configura para reportes de baja frecuencia, lo que resulta útil para la monitorización de activos a largo plazo.
 

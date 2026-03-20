@@ -21,7 +21,9 @@ keywords:
 
 # Parallel Track - Trackbox
 
+<div className="device-logo">
 ![Trackbox](./logo.jpg)
+</div>
 
 El Parallel Track Trackbox es un rastreador GPS compacto y versátil diseñado para enviar la ubicación de activos a intervalos regulares a un servicio web predefinido. Puede transmitir actualizaciones a través de la red móvil y entregar la ubicación bajo demanda mediante mensajes SMS. Este dispositivo se utiliza habitualmente para proporcionar datos de posicionamiento en tiempo real que pueden mostrarse en servicios de mapas populares e integrarse en la presencia web de su organización.
 

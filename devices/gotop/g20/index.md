@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G20
 
+<div className="device-logo">
 ![G20](./logo..jpg)
+</div>
 
 The GOTOP G20 is a compact smart GPS tracker designed for both person and asset tracking. It combines satellite and network positioning to provide location updates with an advertised accuracy of around 5 meters. The device is offered with multiple battery capacity options and includes practical features such as remote audio monitoring, vibration and move alarms, overspeed and low voltage alerts, and a strong magnet for easy attachment to assets.
 

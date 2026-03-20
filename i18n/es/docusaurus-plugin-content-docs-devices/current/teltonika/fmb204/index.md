@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB204
 
+<div className="device-logo">
 ![FMB204](./tracker.png)
+</div>
 
 El Teltonika FMB204 es un rastreador GPS 2G compacto y resistente al agua, diseñado para operar de forma autónoma durante largos periodos en entornos exteriores exigentes. Su carcasa con certificación IP67, la batería interna de respaldo de gran capacidad y la conectividad BLE lo hacen adecuado para el seguimiento de tráileres, vehículos de dos ruedas y el monitoreo remoto de activos cuando se necesita telemetría continua y robusta.
 

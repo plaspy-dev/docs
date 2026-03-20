@@ -20,7 +20,9 @@ keywords:
 
 # Concox - X3
 
+<div className="device-logo">
 ![X3](./tracker.png)
+</div>
 
 The Concox X3 is a compact, multifunctional vehicle GPS tracker built for reliable real time tracking, fleet management and security monitoring. Designed for vehicle installations, the X3 combines GNSS positioning (GPS, BDS and LBS), two way communication and driving behavior analytics to help fleets monitor location, respond to incidents and improve driver safety.
 

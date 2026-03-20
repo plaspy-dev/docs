@@ -21,7 +21,9 @@ keywords:
 
 # TopTen - TK510
 
+<div className="device-logo">
 ![TK510](./Logo.jpg)
+</div>
 
 El TopTen TK510 es un rastreador GPS vehicular versátil, diseñado para ofrecer seguimiento continuo y diversas funciones de seguridad en autos y vehículos de mayor tamaño. Permite rastreo en tiempo real bajo demanda o en intervalos programados y reporta datos de ubicación como latitud, longitud, velocidad, rumbo y lectura del odómetro. Además incluye funciones de seguridad para el vehículo, como una alarma con etiqueta RFID de largo alcance, sensor de impacto integrado y una batería auxiliar recargable para operación ininterrumpida.
 

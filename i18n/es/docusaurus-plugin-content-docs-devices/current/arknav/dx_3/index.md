@@ -21,7 +21,9 @@ keywords:
 
 # ArkNav - DX-3
 
+<div className="device-logo">
 ![DX-3](./tracker.png)
+</div>
 
 El DX-3 es un rastreador GPS personal compacto diseñado para la seguridad y una respuesta confiable ante incidentes. Está pensado para escenarios como el cuidado de adultos mayores, trabajadores solitarios, rondas de seguridad y protección de personas vulnerables. El equipo prioriza la señalización inmediata de emergencias, comunicación de voz bidireccional, ayudas de accesibilidad como vibración y avisos sonoros, y una carcasa resistente a salpicaduras para uso diario y despliegues prácticos.
 

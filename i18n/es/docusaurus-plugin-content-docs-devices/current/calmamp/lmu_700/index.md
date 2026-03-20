@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-700
 
+<div className="device-logo">
 ![LMU-700](./logo.jpg)
+</div>
 
 El CalmAmp LMU-700 es una unidad de rastreo vehicular compacta y versátil, diseñada para aplicaciones automotrices como recuperación de vehículos robados, monitoreo de financiamiento vehicular y gestión de flotas de alquiler. Está pensada para una instalación sencilla en vehículos de 12 o 24 voltios y ofrece un desempeño GPS de alta sensibilidad junto con antenas integradas y múltiples opciones de entradas y salidas para monitoreo y control básicos externos.
 

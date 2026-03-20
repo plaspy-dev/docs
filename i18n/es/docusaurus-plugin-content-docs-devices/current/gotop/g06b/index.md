@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G06B
 
+<div className="device-logo">
 ![G06B](./logo..png)
+</div>
 
 El GOTOP G06B es un rastreador GPS vehicular 4G compacto, diseñado para la localización y supervisión de vehículos. Combina una carcasa resistente con certificación IP67 y conectividad 4G en tiempo real, junto con funciones básicas de seguridad como detección de ACC, botón SOS y la opción de corte remoto del motor. El dispositivo también admite varios tipos de alarmas —geocercas, batería baja, vibración, movimiento y corte de alimentación principal— para mantener información constante sobre el estado del vehículo.
 

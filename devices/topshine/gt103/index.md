@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - GT103
 
+<div className="device-logo">
 ![GT103](./tracker.jpg)
+</div>
 
 The TopShine GT103 Anti Theft GPS Vehicle Tracker is a compact, cost effective unit designed for cars, trucks, buses and fleet management. It combines real time GPS positioning with vehicle security features such as smart RFID driver identification, a built in SOS panic button, and a remote engine cut off relay to support anti theft and operational control. The device includes two way voice capability, ACC detection for ignition status, geo fence and over speed alarms, and is delivered with certified compliance and a legal IMEI for commercial use.
 

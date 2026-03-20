@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP8801
 
+<div className="device-logo">
 ![SP8801](./logo.jpg)
+</div>
 
 El SkyPatrol SP8801 es un rastreador GPS personal compacto diseñado para ofrecer localización rápida y precisa de personas. Está pensado para usuarios que necesitan supervisar a niños, personas mayores o familiares con discapacidad, y también resulta adecuado para empresas que deben monitorear a personal de campo como policías, guardias de seguridad, representantes de ventas y mensajeros. El dispositivo prioriza la colocación discreta y un uso sencillo, pudiendo llevarse en un bolso, mochila o bolsillo mientras proporciona visibilidad de ubicación en tiempo real y alertas de geocerca.
 

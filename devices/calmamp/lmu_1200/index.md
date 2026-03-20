@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-1200
 
+<div className="device-logo">
 ![LMU-1200](./logo.jpg)
+</div>
 
 The CalmAmp LMU-1200 is a compact vehicle tracking device designed for reliable location monitoring in automobiles. It combines advanced GPS positioning, a built in 1000 mAh backup battery for continued operation during power loss, and a 3-axis accelerometer for motion and tilt sensing. The unit includes four inputs and outputs and internal antennas for cellular and GPS reception, making it appropriate for a range of mobile vehicle installations across 12 and 24 volt platforms.
 

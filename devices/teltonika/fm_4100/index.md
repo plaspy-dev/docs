@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FM 4100
 
+<div className="device-logo">
 ![FM 4100](./logo.jpg)
+</div>
 
 The Teltonika FM 4100 is a compact and versatile GPS tracker with GSM connectivity designed for remote object location acquisition. It is built for tracking trucks, cars, and other moving assets, providing position fixes via GPS and delivering those coordinates over the GSM network. The unit is housed in a robust aluminum case and includes multiple inputs and outputs to monitor and control connected devices on the tracked object.
 

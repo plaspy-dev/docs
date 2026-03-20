@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CCTR-825
 
+<div className="device-logo">
 ![CCTR-825](./tracker.JPG)
+</div>
 
 The CCTR-825 is an extra-slim, compact 2G GPS tracker designed for discreet vehicle installation and continuous position reporting. It combines a high-sensitivity GSM and GPS module with a rechargeable backup battery and tamper detection to provide reliable location updates, power-down alarms and motion-triggered uploads suitable for cars, trucks, motorcycles and other mobile assets.
 

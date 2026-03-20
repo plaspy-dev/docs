@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - GF20
 
+<div className="device-logo">
 ![GF20](./logo..jpg)
+</div>
 
 The CanTrack GF20 is a mini magnet GPS tracker designed for discreet and short term tracking. At roughly 50mm by 27mm by 25mm it is compact enough to fit into a small bag or be concealed on a vehicle, making it suitable for temporary monitoring of personal items or assets. The device supports real GPS, LBS, and AGPS positioning and offers features like geo fencing, low battery and vibration alarms, an optional voice remote listen function, and multiple working modes to match different tracking needs.
 

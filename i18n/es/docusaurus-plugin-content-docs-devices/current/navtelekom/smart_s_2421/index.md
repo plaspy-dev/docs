@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2421
 
+<div className="device-logo">
 ![SMART S-2421](./tracker.jpeg)
+</div>
 
 El SMART S-2421 es un rastreador vehicular compacto de Navtelekom diseñado para ofrecer telemática fiable. Integra posicionamiento GLONASS y GPS con conectividad celular GSM, batería interna recargable y protección de línea de alimentación reforzada para mantener el seguimiento y la telemetría en condiciones habituales de uso automotriz. Está pensado para gestión de flotas, monitoreo antirrobo y diagnóstico remoto cuando se requiere información de ubicación consistente y datos básicos del vehículo.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - LT-520AZ
 
+<div className="device-logo">
 ![LT-520AZ](./tracker.jpg)
+</div>
 
 El LT-520AZ es un rastreador GPS diseñado por GlobalSat para el seguimiento a largo plazo y de bajo mantenimiento de activos y vehículos en la red compartida Amazon Sidewalk. Combina posicionamiento GNSS con detección interior asistida por Bluetooth Low Energy y un acelerómetro triaxial integrado para ofrecer telemetría fiable de ubicación y movimiento en despliegues mixtos interiores y exteriores donde la durabilidad y la autonomía de batería son prioritarias.
 

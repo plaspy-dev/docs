@@ -21,7 +21,9 @@ keywords:
 
 # Winrich - T28
 
+<div className="device-logo">
 ![T28](./tracker.jpg)
+</div>
 
 El T28 es un rastreador GPS para vehículos diseñado para despliegues prolongados sin atención continua y para instalaciones discretas. Con una autonomía anunciada de hasta 2 años en configuraciones de bajo consumo, está pensado para situaciones donde la frecuencia de servicio de la batería es reducida y el factor de forma compacto y oculto es prioritario. Su arquitectura se centra en operación de ultra bajo consumo, intervalos de reporte configurables y ciclos de sueño/activación para maximizar la duración de la batería manteniendo los informes de ubicación esenciales.
 

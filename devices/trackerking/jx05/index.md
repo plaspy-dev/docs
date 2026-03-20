@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - JX05
 
+<div className="device-logo">
 ![JX05](./tracker.jpg)
+</div>
 
 The TrackerKing JX05 is a portable 2G GPS tracker engineered for long standby operation and anti theft asset protection. Built as a no wiring solution with a strong magnetic housing and a large internal battery, the JX05 is intended for covert mounting on trailers, containers, construction equipment and other high value unattended assets where long autonomous life and discreet attachment are priorities.
 

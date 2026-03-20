@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AX300
 
+<div className="device-logo">
 ![AX300](./tracker.jpg)
+</div>
 
 La AX300 de ATrack es un rastreador compacto pensado para la gestión profesional de flotas y la telemetría vehicular. Diseñado para conectarse a través del puerto OBD-II del vehículo, la AX300 proporciona posición GNSS en tiempo real junto con datos del motor y parámetros de diagnóstico, por lo que resulta ideal en operaciones que requieren visibilidad tanto de la ubicación como del estado del vehículo. Su diseño prioriza el uso en entornos vehiculares exigentes donde la telemetría continua y la conectividad confiable son fundamentales.
 

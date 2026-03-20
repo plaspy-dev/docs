@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G3A
 
+<div className="device-logo">
 ![G3A](./logo.jpg)
+</div>
 
 The Gosafe G3A is a compact and capable GPS tracker designed to deliver dependable location and motion monitoring in a small form factor. It combines continuous tracking functionality with an internal backup battery, built in jamming detection, multiple I O options, microphone and analog input capability, and a 2D accelerometer for motion sensing. These features make the G3A suitable for a wide range of tracking scenarios where space is limited but reliability is important.
 

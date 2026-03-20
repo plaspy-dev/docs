@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - V82S
 
+<div className="device-logo">
 ![V82S](./logo.jpg)
+</div>
 
 El Sentar V82S es un rastreador GPS de pulsera diseñado específicamente para personas mayores. Presentado como un reloj cómodo y de apariencia discreta, el V82S combina localización con funciones orientadas al usuario, como un botón de emergencia SOS y comunicación de voz bidireccional. El dispositivo se ofrece en varias opciones de color y busca equilibrar estilo con funciones prácticas de seguridad para adultos mayores y sus cuidadores.
 

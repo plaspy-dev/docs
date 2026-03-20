@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - DDX14
 
+<div className="device-logo">
 ![DDX14](./tracker.jpg)
+</div>
 
 The DDX14 is a purpose built ankle bracelet style GPS tracker by Xexun designed for supervised monitoring environments. It combines GPS and Beidou satellite positioning with WiFi and LBS assisted fixes, and is aimed at community corrections, healthcare supervision, and other special industry monitoring where continuous location reporting and tamper detection are required. The device emphasizes anti tamper measures and proximity detection to meet the needs of cases that demand persistent oversight.
 

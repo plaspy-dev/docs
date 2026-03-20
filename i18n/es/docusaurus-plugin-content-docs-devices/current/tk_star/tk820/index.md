@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK820
 
+<div className="device-logo">
 ![TK820](./tracker.jpg)
+</div>
 
 El TK820 es un rastreador GPS portátil 4G pensado para un seguimiento flexible de personas y activos. Ofrece actualizaciones de ubicación en tiempo real, alertas por movimiento y un historial de rutas almacenado en servidor, por lo que resulta adecuado para proteger niños, adultos mayores y bienes valiosos. El dispositivo combina posicionamiento GNSS con métodos auxiliares de localización para mejorar la precisión tanto en exteriores como en entornos cerrados.
 

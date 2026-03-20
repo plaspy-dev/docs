@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TK-120
 
+<div className="device-logo">
 ![TK-120](./logo.jpg)
+</div>
 
 The GOTOP TK-120 is a mini GPS tracker designed for reliable and discreet tracking. Its compact form factor makes it suitable for monitoring people, assets, vehicles, and pets. The device uses GPS satellites together with the GSM network to determine position and offers both SMS location replies and GPRS reporting for flexible tracking methods.
 

@@ -20,7 +20,9 @@ keywords:
 
 # ThinkRace - Traxbean MT2
 
+<div className="device-logo">
 ![Traxbean MT2](./tracker.png)
+</div>
 
 The Traxbean MT2 is a rugged, military grade GPS smartwatch designed for commanders, security teams, field workers and other demanding users. It combines high accuracy GPS positioning with assisted Wi Fi and cellular triangulation plus RF based indoor positioning to deliver continuous location where GPS alone may falter. Built as a wearable endpoint, the MT2 also offers an SOS panic button, integrated camera streaming and two way voice to support situational awareness and incident response in both outdoor and indoor environments.
 

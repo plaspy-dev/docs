@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-201
 
+<div className="device-logo">
 ![BN-201](./tracker.png)
+</div>
 
 The BN-201 is a compact pet GPS tracker designed for dependable location monitoring, remote voice monitoring, and configurable geofence alerts. Built for everyday wear at 52 g, the BN-201 combines high-sensitivity GNSS positioning with dual-network connectivity to deliver low-power, real-time tracking intended for dogs, cats, and other companion animals.
 

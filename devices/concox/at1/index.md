@@ -20,7 +20,9 @@ keywords:
 
 # Concox - AT1
 
+<div className="device-logo">
 ![AT1](./tracker.png)
+</div>
 
 The Concox AT1 is a compact GNSS GPS tracker designed for rugged asset tracking and fleet monitoring. Built with an IP67 enclosure, a strong magnetic mount and a long life 6,000 mAh rechargeable battery, the AT1 supports prolonged deployments on freight, containers, high value assets and redeployable equipment. Onboard event detection and local data buffering help maintain situational awareness in areas with intermittent coverage.
 

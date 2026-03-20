@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - PT66
 
+<div className="device-logo">
 ![PT66](./tracker.jpg)
+</div>
 
 The iStartek PT66 is a wearable 4G watch designed for elder care and personal safety. Packaged as a comfortable wristwatch with a 1.30 inch IPS color touchscreen and IP67 waterproofing, the PT66 offers multi mode positioning including GPS and Beidou alongside Wi Fi and network based assistance. It pairs health focused telemetry and safety alarms with everyday wearable comfort so families and care teams can keep situational awareness without intrusive hardware.
 

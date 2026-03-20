@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G05N
 
+<div className="device-logo">
 ![G05N](./tracker.png)
+</div>
 
 The G05N Vehicle Tracker is a hard-wired GPS device designed for permanent installation in cars, motorcycles and light commercial vehicles. It uses GSM/GPRS networks and GPS satellites to deliver continuous position reporting and event notifications. Common features include ignition detection, geo-fence and overspeed alerts, vibration and angle-change alarms, a dedicated SOS button, local data buffering and remote immobilization capability, making it suitable for fleet oversight and anti-theft applications.
 

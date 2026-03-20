@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4215/U
 
+<div className="device-logo">
 ![ST4215/U](./tracker.jpg)
+</div>
 
 El ST4215/U es un rastreador GPS compacto y resistente, diseñado para la supervisión de vehículos y activos en condiciones exigentes. Combina conectividad celular global con posicionamiento multi‑GNSS y una carcasa sellada con clasificación IP67 para ofrecer informes continuos de ubicación y eventos en operaciones de flota y recuperación. La unidad está pensada para ofrecer durabilidad y conectividad ininterrumpida, con un tamaño reducido que facilita su instalación en diversos vehículos y equipos.
 

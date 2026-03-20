@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - OTK01
 
+<div className="device-logo">
 ![OTK01](./tracker.jpg)
+</div>
 
 The OTK01 is a compact plug and play OBD II GPS tracker designed for vehicle tracking and fleet management. It connects directly to a vehicle OBD port to deliver continuous location, diagnostic telemetry and event alerts without extra wiring. With AGPS acceleration for faster initial fixes, the OTK01 is positioned as a practical choice for operators who need quick deployment and consistent positional updates.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GT02
 
+<div className="device-logo">
 ![GT02](./logo.jpg)
+</div>
 
 El Concox GT02 es un rastreador GPS compacto que integra tecnologías GPS, GSM y GPRS para ofrecer monitoreo de posición en tiempo real. Diseñado para uso global con soporte quad band GSM, el GT02 combina un chipset GPS de alta sensibilidad con antenas integradas de GSM y GPS para proporcionar reportes de ubicación consistentes. El equipo permite monitoreo continuo mediante arranque automático al conectar la alimentación y ofrece indicadores visuales mediante tres LEDs para GPS, GSM y alimentación.
 

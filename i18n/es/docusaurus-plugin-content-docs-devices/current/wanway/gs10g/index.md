@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - GS10G
 
+<div className="device-logo">
 ![GS10G](./tracker.webp)
+</div>
 
 El WanWay GS10G es un rastreador GPS vehicular profesional con conectividad 4G, diseñado para ofrecer monitoreo confiable y en tiempo real. Orientado a la gestión de flotas, telemática para aseguradoras, operaciones de renta y transporte de pasajeros, el GS10G combina comunicación Netcom 4G con navegación satelital GPS y BDS para proporcionar datos de ubicación continuos y telemetría esencial del vehículo. Entre sus funciones se incluyen detección de encendido ACC, alarma por desarme, alertas de exceso de velocidad, estadísticas de kilometraje y corte remoto de combustible o alimentación, lo que lo convierte en una opción práctica para quienes necesitan control de seguridad y respuestas rápidas.
 

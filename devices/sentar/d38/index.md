@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D38
 
+<div className="device-logo">
 ![D38](./tracker.png)
+</div>
 
 The D38 is a compact, Android based kids GPS tracker designed as a smartwatch to support child safety and caregiver oversight. It combines multi mode positioning with a 30W camera, two way communication and a reachable SOS button in a wearable form factor that supports everyday durability. The device is intended to provide reliable indoor and outdoor location visibility for parents and caregivers through simple, continuous monitoring.
 

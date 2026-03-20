@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM230
 
+<div className="device-logo">
 ![FMM230](./tracker.png)
+</div>
 
 The Teltonika FMM230 is a compact, rugged GPS tracker designed for reliable asset and fleet monitoring in demanding environments. Housed in an IP67 enclosure, the unit is intended to withstand dust and water exposure while providing continuous location and telemetry reporting. Its cellular design supports modern low power wide area connectivity alongside legacy fallback for broad coverage, and it pairs with on‑vehicle and accessory sensors to extend monitoring capabilities.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Appello - Master
 
+<div className="device-logo">
 ![Master](./logo.jpg)
+</div>
 
 El Appello Master es un rastreador GPS compacto diseñado para ofrecer localización precisa y monitoreo continuo de vehículos y activos. Con unas dimensiones de 85.00 x 78 x 20 mm y un peso de 93 g, el dispositivo es pequeño y ligero para una instalación discreta. Integra un CPU ARM7 junto al chip GPS New Star NS-1315, lo que le otorga alta sensibilidad y una precisión de posición típica de alrededor de 5 m, y se comunica mediante bandas GSM GPRS para una amplia cobertura geográfica. El equipo incluye una batería interna que permite operación en modo de espera y está especificado para rangos extendidos de temperatura y humedad.
 

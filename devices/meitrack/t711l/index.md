@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - T711L
 
+<div className="device-logo">
 ![T711L](./logo..png)
+</div>
 
 The Meitrack T711L is a compact and cost effective GPS vehicle tracker designed for reliable location tracking across a range of vehicles including cars, motorcycles, yachts, and boats. The device emphasizes durability with an IP67 water resistance rating and integrated antennas to maintain performance in challenging environments. Its small size and light weight make it discreet and easy to place on vehicles where concealment or limited space is required.
 

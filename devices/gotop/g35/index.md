@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G35
 
+<div className="device-logo">
 ![G35](./tracker.png)
+</div>
 
 The GOTOP G35 is a collar mounted animal GPS tracker built for long duration monitoring of pets, livestock and animals in the field. It combines multi mode positioning and a rugged IP67 waterproof housing with an unusually large 20000 mAh rechargeable battery to provide dependable real time location and status information for recovery, research, and routine animal management. The unit includes features designed to aid in finding animals in low light such as an audible locate tone, LED flash and voice monitoring, and it supports offline waypoint logging for deployments where continuous connectivity is not guaranteed.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Laipac - Starfinder Lite S
 
+<div className="device-logo">
 ![Starfinder Lite S](./tracker.png)
+</div>
 
 The Starfinder Lite S from Laipac is a compact 4G LTE GPS tracker built for vehicle mounted fleet and asset tracking. It provides GNSS positioning and cellular connectivity to deliver real time location updates, configurable reporting, and event logging aimed at operational visibility and theft protection. The device is designed to support time interval and distance based reporting while offering I O and dataport interfaces for integration with vehicle systems.
 

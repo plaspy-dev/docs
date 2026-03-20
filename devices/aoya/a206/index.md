@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - A206
 
+<div className="device-logo">
 ![A206](./logo.jpg)
+</div>
 
 The AoYa A206 is an automotive GPS tracker designed for vehicle tracking and security. It combines compact dimensions and a lightweight housing to make it simple to place and conceal in a car. The A206 uses dual positioning with GPS and AGPS and is built around a UBLOX GPS chip, offering high sensitivity and reported accuracy suitable for routine vehicle location tasks.
 

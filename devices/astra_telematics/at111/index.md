@@ -20,7 +20,9 @@ keywords:
 
 # Astra Telematics - AT111
 
+<div className="device-logo">
 ![AT111](./tracker.jpg)
+</div>
 
 The Astra Telematics AT111 is a compact GPS tracker designed for professional telematics installations that require external antenna placement. Based on the proven AT241 platform, the AT111 provides multi network cellular connectivity and multi constellation GNSS positioning in a rugged aluminium alloy enclosure. Its feature set and form factor make it suitable for real time tracking, telemetry and asset protection across vehicles and heavy equipment.
 

@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G200NY
 
+<div className="device-logo">
 ![G200NY](./tracker.jpg)
+</div>
 
 El G200NY es un rastreador GPS 4G robusto diseñado para el seguimiento ganadero a largo plazo y la gestión remota de hatos. Combina posicionamiento GNSS multiconstelación con posicionamiento asistido y conmutación por caída celular para ofrecer reportes de ubicación confiables en áreas abiertas, zonas de cobertura marginal y rutas de pastoreo estacionales. Su carcasa y el diseño de la batería lo hacen apto para despliegues prolongados en exterior donde la autonomía y la durabilidad son clave.
 

@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - T2D
 
+<div className="device-logo">
 ![T2D](./logo.jpg)
+</div>
 
 El AoYa T2D es un rastreador GPS automotriz compacto pensado para el seguimiento de vehículos y aplicaciones de flota. Con unas dimensiones de 82 x 39 x 15 mm y un peso de 54 g, resulta pequeño y liviano para una instalación discreta. El equipo admite posicionamiento por GPS, LBS y AGPS, y opera sobre redes 2G GSM/GPRS, ofreciendo informes de ubicación prácticos para automóviles, camiones y otros vehículos. Incluye una batería de emergencia de 180 mAh y soporta un amplio rango de voltaje de entrada, lo que lo hace adaptable a distintos sistemas eléctricos vehiculares.
 

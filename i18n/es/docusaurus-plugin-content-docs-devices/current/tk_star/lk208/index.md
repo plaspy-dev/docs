@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - LK208
 
+<div className="device-logo">
 ![LK208](./logo.jpg)
+</div>
 
 El TK-Star LK208 es un rastreador GPS portátil diseñado para ofrecer visibilidad continua de la ubicación de vehículos, equipos, cargas y otros activos móviles. Combina seguimiento en tiempo real y seguimiento automático con varias funciones de alerta y modos pensados para maximizar la duración de la batería y garantizar monitoreo confiable en distintos entornos. El LK208 es adecuado para autos particulares, unidades de alquiler, equipos de campo, contenedores y carga, por lo que resulta una opción flexible tanto para uso personal como para operaciones comerciales livianas.
 

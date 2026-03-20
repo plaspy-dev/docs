@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-2010
 
+<div className="device-logo">
 ![LMU-2010](./logo.jpg)
+</div>
 
 The CalmAmp LMU-2010 is a compact, economical vehicle tracking device designed for easy installation in automobiles. It combines accurate GPS location and speed reporting with onboard interfaces for vehicle data and motion detection, making it suitable for applications such as automotive insurance telematics, driver behavior management, rental vehicle monitoring, and fleet operations. The LMU-2010 also includes programmable event logic and provisions for remote configuration to help simplify ongoing device management.
 

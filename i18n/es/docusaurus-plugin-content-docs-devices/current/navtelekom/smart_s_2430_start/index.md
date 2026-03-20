@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СМАРТ S-2430 START
 
+<div className="device-logo">
 ![СМАРТ S-2430 START](./tracker.jpeg)
+</div>
 
 El Navtelekom СМАРТ S-2430 START es un rastreador vehicular compacto con soporte GLONASS y GPS, diseñado para la gestión de flotas y aplicaciones telemáticas en entornos automotrices exigentes. Con posicionamiento integrado, protección de alimentación robusta y una carcasa resistente con clasificación IP54, el S-2430 START está pensado para vehículos de servicio, flotas de reparto y otros activos móviles que requieren seguimiento continuo de ubicación y registro básico de telemetría.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GenX Mobile - GNX-5P
 
+<div className="device-logo">
 ![GNX-5P](./logo.jpg)
+</div>
 
 The GenX Mobile GNX-5P is a highly versatile and configurable mobile asset tracking device designed for a broad range of location aware applications. It is positioned for Mobile Resource Management and vehicle tracking use cases, and includes features such as HSPA wireless connectivity, internal cellular and GPS antennas, and an auto calibrating 3 axis accelerometer to capture rapid acceleration and other movement events. The device emphasizes reliability and adaptability, making it suitable for organizations that need consistent location visibility across mixed fleets and mobile assets.
 

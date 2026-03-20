@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - P60L
 
+<div className="device-logo">
 ![P60L](./tracker.jpg)
+</div>
 
 El CanTrack P60L es un rastreador GPS personal compacto diseñado para ofrecer seguimiento en tiempo real confiable, comunicación de voz bidireccional y telemetría ambiental. Basado en posicionamiento GNSS que utiliza GPS y BeiDou, junto con conectividad celular, el P60L está pensado para escenarios de seguridad personal y monitoreo de activos donde la precisión de la ubicación, las alertas SOS y las lecturas de temperatura son relevantes. Incluye registro fuera de línea y gestión remota para conservar el historial y simplificar las actualizaciones.
 

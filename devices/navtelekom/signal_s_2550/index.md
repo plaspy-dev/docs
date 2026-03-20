@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-2550
 
+<div className="device-logo">
 ![СИГНАЛ S-2550](./tracker.webp)
+</div>
 
 The СИГНАЛ S-2550 is a cost effective GLONASS vehicle tracker designed to provide reliable position reporting and core telemetry for professional monitoring systems. As a streamlined derivative of the S-2551 series, the S-2550 is aimed at mass market fleet management and asset tracking where essential location and vehicle data are required without the added complexity or certification of higher end units. The device supports CAN bus telemetry and multiple fuel sensor inputs and includes an internal rechargeable battery for short term autonomous reporting.
 

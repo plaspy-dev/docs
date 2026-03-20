@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK710
 
+<div className="device-logo">
 ![LK710](./tracker.png)
+</div>
 
 The LK710 is a compact, waterproof GPS tracker designed for reliable and discreet real-time tracking and remote vehicle control. It combines GPS positioning with quad-band cellular communication in a small housing, providing location updates, battery reporting and remote immobilizer control. The form factor and feature set make the LK710 suited for vehicles, rental fleets, portable assets, bikes and personal protection scenarios where dependable tracking and discreet installation are important.
 

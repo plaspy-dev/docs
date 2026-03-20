@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AS1
 
+<div className="device-logo">
 ![AS1](./logo.jpg)
+</div>
 
 The ATrack AS1 is a compact, battery powered GPS tracker designed for monitoring mobile assets. It combines GPS location tracking with flexible cellular data communication options, and its IP67 rated enclosure protects against dust and water spray for use in a range of operating environments. The AS1 is built for long term deployments, offering a primary battery life of up to three years and a no external wiring design for straightforward placement on vehicles, trailers, equipment, or other assets.
 

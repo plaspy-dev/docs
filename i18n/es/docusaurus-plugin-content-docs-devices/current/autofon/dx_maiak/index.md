@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - DX Маяк
 
+<div className="device-logo">
 ![DX Маяк](./logo..png)
+</div>
 
 El AutoFon DX Маяк es un localizador GPS compacto y multipropósito diseñado para determinar la posición de un objeto protegido mediante los sistemas satelitales GLONASS y GPS, con estimación de ubicación por estaciones base de la red celular como respaldo. Integra un receptor GNSS, comunicaciones GSM/GPRS, un acelerómetro para detección de movimiento y golpes, y una fuente de alimentación recargable en una carcasa pequeña adecuada para instalación discreta y monitorización a largo plazo.
 

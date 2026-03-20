@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS104
 
+<div className="device-logo">
 ![GPS104](./logo.jpg)
+</div>
 
 The Coban GPS104 is a versatile GPS tracker that combines GSM GPRS wireless communication with satellite positioning to provide continuous location and status monitoring for vehicles and assets. It supports multiple tracking modes and timing options, offers a range of alert types, and exposes logged position data for visualization on PCs, mobile devices, or mapping services such as Google Earth.
 

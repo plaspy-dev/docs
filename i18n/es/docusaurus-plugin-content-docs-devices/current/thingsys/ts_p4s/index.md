@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-P4s
 
+<div className="device-logo">
 ![TS-P4s](./tracker.jpg)
+</div>
 
 El TS-P4s es un rastreador GPS magnético de uso rudo diseñado para el seguimiento prolongado y sin mantenimiento de vehículos, contenedores y una amplia variedad de activos móviles. Combina posicionamiento GNSS multiconstelación con conectividad celular en variantes 2G, 4G o dual, además de baterías recargables de alta capacidad para ofrecer actualizaciones de ubicación en tiempo real fiables y un despliegue en campo extendido sin necesidad de mantenimiento frecuente. El equipo está alojado en una carcasa robusta e impermeable y cuenta con fuertes imanes integrados para una fijación rápida sobre superficies metálicas.
 

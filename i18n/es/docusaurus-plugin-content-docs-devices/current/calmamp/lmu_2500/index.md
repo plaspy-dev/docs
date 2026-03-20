@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-2500
 
+<div className="device-logo">
 ![LMU-2500](./logo.jpg)
+</div>
 
 El CalmAmp LMU-2500 es un rastreador GPS ultra sensible diseñado para ofrecer ubicación precisa y confiable de vehículos en entornos exigentes. Basado en la tecnología Super sense GPS de CalmAmp, el LMU-2500 está pensado para gerentes de flota que requieren fijaciones de posición consistentes incluso en cañones urbanos o zonas con densa vegetación, a la vez que ofrece una opción económica para despliegues a gran escala.
 

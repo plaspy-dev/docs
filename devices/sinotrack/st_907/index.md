@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-907
 
+<div className="device-logo">
 ![ST-907](./tracker.jpg)
+</div>
 
 The SinoTrack ST-907 is a compact wired GPS tracker designed for discreet vehicle installation and continuous position reporting. It combines a mini form factor with built in high sensitivity GPS and GSM antennas and quad band GSM support, allowing the device to send location and alarm data through SMS and GPRS. The ST-907 includes relay based remote control for fuel or power cut, overspeed and geofence alarm options, and SMS based diagnostic and administrative commands for onsite control.
 

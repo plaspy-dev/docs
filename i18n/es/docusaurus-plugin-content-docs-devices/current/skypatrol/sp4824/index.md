@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP4824
 
+<div className="device-logo">
 ![SP4824](./tracker.png)
+</div>
 
 El SP4824 es un rastreador vehicular de última generación de SkyPatrol, diseñado para cumplir con certificaciones de operadores y países en múltiples regiones. Está orientado a soluciones de localización para automóviles subprime, despliegues de flotas comerciales y telemática de consumo. El equipo combina seguimiento en tiempo real confiable, canales de telemetría robustos y entradas/salidas flexibles para soportar flujos de trabajo de monitoreo y antirrobo que suelen requerir las flotas y proveedores de servicio.
 

@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Альфа-Маяк XL
 
+<div className="device-logo">
 ![Альфа-Маяк XL](./tracker.jpg)
+</div>
 
 The AutoFon Альфа-Маяк XL is a compact, autonomous GPS beacon designed for long term, low maintenance deployments. Built for covert vehicle and asset protection, it delivers position reports over SMS or GPRS and is factory configured with an embedded prepaid SIM and extended runtime for discreet, continuous operation in the field.
 

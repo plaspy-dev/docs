@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB130
 
+<div className="device-logo">
 ![FMB130](./tracker.png)
+</div>
 
 The Teltonika FMB130 is a compact vehicle grade GPS tracker designed for heavy fuel usage machinery, including construction equipment, agricultural machines and other special purpose vehicles. It provides position reporting alongside flexible inputs for impulse fuel meters, CAN adapter compatibility for vehicle parameters, and Bluetooth sensor support for environmental or asset sensing. The FMB130’s small form factor and vehicle focused features make it suitable for long term fleet deployment on off road and specialized equipment.
 

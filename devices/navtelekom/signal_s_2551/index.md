@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SIGNAL S-2551
 
+<div className="device-logo">
 ![SIGNAL S-2551](./tracker.jpeg)
+</div>
 
 The SIGNAL S-2551 is a rugged GLONASS GPS vehicle tracker engineered for professional telematics and fleet management projects. Designed for integrators and fleet operators, the S-2551 combines dual SIM cellular communications, support for EGTS and FLEX protocols, and a broad set of input output options to provide continuous real time tracking, telemetry and vehicle diagnostics for mobile assets.
 

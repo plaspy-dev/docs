@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D26
 
+<div className="device-logo">
 ![D26](./tracker.jpg)
+</div>
 
 The D26 is a 4G solar tracking terminal from GOTOP designed for long term outdoor asset tracking and IoT deployments. Built with an IP67 rated enclosure and an industrial full built in antenna, the D26 combines solar charging, high sensitivity GNSS positioning, and cellular communications to provide continuous location reporting, remote telemetry, and event driven alerts for containers, trailers, machinery, and other hard to reach assets.
 

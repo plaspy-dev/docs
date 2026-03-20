@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-2700
 
+<div className="device-logo">
 ![LMU-2700](./logo.jpg)
+</div>
 
 The CalmAmp LMU-2700 is a compact fleet tracking unit designed for Automatic Vehicle Location applications. It combines high sensitivity GPS positioning with multiple wireless communication options to deliver reliable location data and operational visibility. The device is offered as an affordable, robust solution with choices for internal or external antennas and an integrated backup battery to maintain tracking during power interruptions.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - MD500S
 
+<div className="device-logo">
 ![MD500S](./tracker.png)
+</div>
 
 El MD500S es un DVR móvil compacto y rastreador GPS de Meitrack, diseñado para la gestión de flotas y proyectos de seguridad vehicular. Integra posicionamiento GNSS, conectividad celular multinetwork y captura de vídeo en cuatro canales con compresión H.264, además de funciones de IA a bordo como ADAS, DMS y BSD, para ofrecer telemática de video y ubicación sincronizadas en vehículos comerciales.
 

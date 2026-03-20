@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK319‑L
 
+<div className="device-logo">
 ![TK319‑L](./tracker.jpg)
+</div>
 
 The TK319‑L is a compact GPS tracker from EElink designed for modern fleet management and vehicle security. Built to provide continuous location reporting and event detection, the device supports dual positioning methods and vehicle‑centric inputs so operators can monitor vehicle movement, ignition status, and alarm conditions. Its small footprint and broad operating voltage make it suitable for a range of commercial vehicles and mobile assets.
 

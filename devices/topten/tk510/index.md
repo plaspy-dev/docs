@@ -20,7 +20,9 @@ keywords:
 
 # TopTen - TK510
 
+<div className="device-logo">
 ![TK510](./Logo.jpg)
+</div>
 
 The TopTen TK510 is a versatile vehicle GPS tracker designed to provide continuous tracking and a range of security functions for cars and larger vehicles. It supports real time tracking on demand or at scheduled intervals, and can report location details such as latitude, longitude, speed, direction, and odometer readings. The unit also includes vehicle security features such as an RFID car alarm with long distance tag and a built in shock sensor, plus a rechargeable backup battery for uninterrupted operation.
 

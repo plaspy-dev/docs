@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMU130
 
+<div className="device-logo">
 ![FMU130](./Logo.png)
+</div>
 
 El Teltonika FMU130 es un terminal compacto y profesional para rastreo en tiempo real, pensado para el monitoreo de vehículos y activos. Ofrece posicionamiento GNSS y conectividad 3G, una batería de respaldo para continuidad, antenas internas y una variedad de entradas y salidas configurables que lo hacen idóneo para la adquisición continua de ubicación y el registro de eventos en distintos tipos de vehículos.
 

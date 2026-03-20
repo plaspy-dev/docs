@@ -20,7 +20,9 @@ keywords:
 
 # WP - OT-10
 
+<div className="device-logo">
 ![OT-10](./logo..png)
+</div>
 
 The WP OT-10 is a compact vehicle tracker designed for in vehicle use with OBDII connectivity and dual mode GPS plus GLONASS satellite positioning. It emphasizes discreet installation and continuous location reporting, and includes configurable reporting behaviors such as interval based logging, event driven alerts, and an extensive set of self defined event types for common vehicle conditions. The OT-10 is built to support cellular communication methods and on device configuration to suit a range of tracking scenarios.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - U02
 
+<div className="device-logo">
 ![U02](./tracker.jpg)
+</div>
 
 The U02 is a professional grade wearable positioning watch from Xexun that combines ultra wideband ranging, a 2.4 GHz RFID module, integrated vital sign sensing, and active anti tamper protection. Designed for environments where traditional GPS struggles, the U02 provides centimetre level indoor and short range outdoor positioning and immediate tamper and emergency alerts for security sensitive deployments.
 

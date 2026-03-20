@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GOT08
 
+<div className="device-logo">
 ![GOT08](./tracker.jpg)
+</div>
 
 The GOT08 from SHENZHEN EELINK COMMUNICATION TECHNOLOGY CO., LTD is a plug and play OBD interface GPS tracker designed for rapid installation and continuous vehicle monitoring. Intended to be inserted into a vehicle OBD port, the GOT08 provides ongoing GPS location data, onboard data logging, and vehicle telemetry in a compact, vehicle powered form factor. This makes it suitable for fleet managers and private owners who want a discreet device that avoids complex wiring.
 

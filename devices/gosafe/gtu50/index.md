@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - GTU50
 
+<div className="device-logo">
 ![GTU50](./tracker.jpg)
+</div>
 
 The GTU50 is a compact, economical 4G CAT‑1 GPS tracker designed for covert installation in automobiles, motorcycles and power sport vehicles. It provides real time location tracking and event telemetry intended for fleet management, stolen vehicle recovery, usage based insurance programs, rental fleet operations and Buy Here Pay Here inventory control.
 

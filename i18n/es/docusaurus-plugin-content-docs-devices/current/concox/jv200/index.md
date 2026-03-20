@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JV200
 
+<div className="device-logo">
 ![JV200](./logo.jpg)
+</div>
 
 El Concox JV200 es un rastreador GPS para vehículos diseñado para ofrecer seguimiento en línea confiable y en tiempo real. Pensado para aplicaciones vehiculares, el JV200 emplea comunicación inalámbrica GSM GPRS GPS e incorpora AGPS para posicionamientos rápidos, logrando un arranque en frío en menos de 10 segundos. Su formato compacto y su construcción resistente lo hacen apto para uso continuo en distintos entornos vehiculares.
 

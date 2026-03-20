@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - GVT430
 
+<div className="device-logo">
 ![GVT430](./tracker.jpg)
+</div>
 
 The GVT-430 is a vehicle GPS tracker designed for reliable real time tracking and telemetry in cars, trucks and commercial fleets. It pairs a high sensitivity GNSS receiver with cellular communications and supports position reporting by both data and SMS channels. The device is built with a wide DC input range and an internal backup battery, making it suitable for demanding fleet management and anti theft deployments where continuity of tracking is important.
 

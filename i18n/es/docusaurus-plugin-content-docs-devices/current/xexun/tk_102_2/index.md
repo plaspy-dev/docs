@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - TK-102-2
 
+<div className="device-logo">
 ![TK-102-2](./logo.jpg)
+</div>
 
 El Xexun TK-102-2 es una versión mejorada de la popular serie TK102. Este modelo incorpora una ranura para tarjeta SD y una batería de mayor capacidad, y está basado en un procesador ARM7 para un funcionamiento ágil. Permite reportes de ubicación sin depender de un servidor y ofrece funciones prácticas como sondeos en tiempo real, seguimiento automático por SMS, vigilancia por voz, alertas por geocerca, avisos por movimiento y exceso de velocidad, botón SOS y autorización telefónica configurable para controlar el acceso.
 

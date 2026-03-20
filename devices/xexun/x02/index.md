@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - X02
 
+<div className="device-logo">
 ![X02](./tracker.jpg)
+</div>
 
 The X02 is a compact rechargeable GPS Beidou tracker from Xexun designed for industrial vehicle location management and asset tracking. Rugged and portable, the device combines hybrid GNSS positioning with Wi‑Fi and LBS assistance plus multi network cellular uplink to provide real time location, historical playback and basic telemetry for vehicles, motorcycles and portable assets. A strong built in magnet and a high capacity rechargeable battery make the X02 suitable where hardwiring is impractical.
 

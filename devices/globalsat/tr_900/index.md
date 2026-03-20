@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - TR-900
 
+<div className="device-logo">
 ![TR-900](./logo.jpg)
+</div>
 
 The GlobalSat TR-900 is a compact OBDII dongle designed for vehicle tracking and diagnostic data capture. As a plug and play device that connects to a vehicle OBDII port, the TR-900 provides GPS positioning together with vehicle diagnostic information and event capture. The device description highlights 3G network connectivity, a high-sensitivity G sensor for detecting harsh driving and impacts, and a flexible event based protocol for customized alerting and reporting.
 

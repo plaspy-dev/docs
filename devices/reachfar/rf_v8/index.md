@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V8
 
+<div className="device-logo">
 ![RF-V8](./tracker.jpg)
+</div>
 
 The RF-V8 is a super‑mini GPS tracker designed for discreet anti theft protection and dependable real time location monitoring. Its compact form factor and light weight make it suitable for covert placement on vehicles, portable equipment, or personal items. The device combines GNSS positioning with multiple anti theft sensors such as vibration detection, noise alarm, SIM change notification, and low battery alerts, plus remote listening and several remote control options.
 

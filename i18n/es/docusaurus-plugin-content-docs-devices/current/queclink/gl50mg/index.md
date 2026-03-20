@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL50MG
 
+<div className="device-logo">
 ![GL50MG](./tracker.png)
+</div>
 
 El GL50MG es un rastreador GPS compacto e impermeable diseñado para la protección de activos a largo plazo y despliegues discretos. Optimizado para redes celulares de área amplia de bajo consumo con compatibilidad retroactiva a 2G, el dispositivo está pensado para casos de uso como recuperación de vehículos robados, flotas de alquiler y seguimiento de activos de alto valor. Su formato micro sin necesidad de instalación y su sellado IP67 lo hacen apropiado para montajes ocultos donde la durabilidad y el bajo mantenimiento son prioritarios.
 

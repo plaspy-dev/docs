@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - GTU300
 
+<div className="device-logo">
 ![GTU300](./tracker.png)
+</div>
 
 El GTU300 es un dispositivo telemático compacto de Gosafe diseñado para la gestión profesional de flotas, recuperación de vehículos robados y despliegues de telemática para seguros. Combina posicionamiento multi‑GNSS con múltiples opciones de conectividad de respaldo, alimentación de reserva integrada y diversas entradas/salidas vehiculares para ofrecer reportes continuos de ubicación y eventos en automóviles, camiones y flotas de alquiler.
 

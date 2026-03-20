@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMM150
 
+<div className="device-logo">
 ![FMM150](./tracker.png)
+</div>
 
 El Teltonika FMM150 es un rastreador vehicular compacto diseñado para la gestión moderna de flotas y telemetría avanzada. Combina conectividad celular de área amplia con procesamiento de datos del bus CAN para ofrecer seguimiento continuo de ubicación y señales detalladas del vehículo. El FMM150 puede leer un amplio conjunto de parámetros CAN, incluidos odómetro, nivel y consumo de combustible, y métricas de baterías de vehículos eléctricos, lo que lo hace adecuado para vehículos livianos, eléctricos, camiones, autobuses y maquinaria especializada.
 

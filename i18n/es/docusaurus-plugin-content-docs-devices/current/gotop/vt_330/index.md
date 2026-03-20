@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - VT-330
 
+<div className="device-logo">
 ![VT-330](./tracker.jpg)
+</div>
 
 El GOTOP VT-330 es un rastreador GPS compacto para vehículos con doble SIM, diseñado para brindar seguimiento confiable en tiempo real y telemetría básica. Pensado para motocicletas, carritos de golf eléctricos y vehículos convencionales, el VT-330 combina un receptor GNSS SiRF‑Star III con comunicación GSM GPRS y entradas/salidas prácticas para ofrecer actualizaciones de posición, alertas SOS y notificaciones de eventos adecuadas para la supervisión diaria de flotas y activos.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-2600
 
+<div className="device-logo">
 ![LMU-2600](./logo.jpg)
+</div>
 
 The CalmAmp LMU-2600 is a high‑performance fleet tracking unit designed for Automatic Vehicle Location and fleet management applications. It combines sensitive GPS positioning, a 3‑axis accelerometer for measuring driver behavior and vehicle impacts, and a capable on‑board processing engine. The device offers flexible wireless communications and antenna options to suit a variety of vehicle installations and operational needs.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TK-100
 
+<div className="device-logo">
 ![TK-100](./logo.jpg)
+</div>
 
 The GOTOP TK-100 is a compact tracking device built for pet GPS protection. It provides real-time location updates using SMS or GPRS and includes a set of alarms such as geo-fencing, low battery, vibration, and movement to alert owners to important events. The device is designed to withstand outdoor conditions with a waterproof and dustproof enclosure, and it is accompanied by online tracking software and an Android app for remote monitoring and history review.
 

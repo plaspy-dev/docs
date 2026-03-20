@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB125
 
+<div className="device-logo">
 ![FMB125](./tracker.png)
+</div>
 
 El FMB125 es un rastreador GPS compacto y profesional de Teltonika, diseñado para la gestión de flotas y la telemetría avanzada. Ofrece informes de ubicación en tiempo real y múltiples opciones de integración, como RFID integrado, soporte 1‑wire, entrada por impulso para medidores de combustible y puertos seriales para dispositivos de terceros. Además, el equipo admite conectividad celular 2G con doble SIM y puede conectarse a un módem satelital Iridium Edge para cobertura fuera de las redes terrestres.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V24
 
+<div className="device-logo">
 ![RF-V24](./tracker.jpg)
+</div>
 
 El RF-V24 es un rastreador GPS 4G con carga solar diseñado para despliegues prolongados en exteriores. Integra una batería interna recargada por panel solar con funciones de detección integradas y un canal de voz de emergencia, lo que reduce los ciclos de mantenimiento y proporciona información de ubicación persistente para remolques, contenedores, equipos remotos y flotas cuando la alimentación externa es limitada.
 

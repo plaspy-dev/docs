@@ -20,7 +20,9 @@ keywords:
 
 # Aplicom - A11 LTE
 
+<div className="device-logo">
 ![A11 LTE](./logo..jpg)
+</div>
 
 The Aplicom A11 LTE is a telematics device built for fleet and asset management. It delivers global mobile connectivity with 4G LTE communications, and supports Bluetooth device pairing for extended identification and supplementary data collection. The device is positioned as a versatile and field-proven option suitable for small fleets as well as larger asset deployments.
 

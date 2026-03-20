@@ -21,7 +21,9 @@ keywords:
 
 # Flextrack - Lommy Power 9B23
 
+<div className="device-logo">
 ![Lommy Power 9B23](./tracker.jpg)
+</div>
 
 Lommy Power 9B23 es un rastreador GPS compacto de instalación fija diseñado para el monitoreo continuo de maquinaria y equipos pesados. Se alimenta directamente de la batería del equipo y está pensado para uso en vehículos de construcción, agrícolas y forestales donde se requiere conectividad persistente y posicionamiento robusto. El dispositivo permanece en línea mientras el equipo tenga energía, permitiendo seguimiento en tiempo real, telemetría y reportes de uso sin depender de una batería interna.
 

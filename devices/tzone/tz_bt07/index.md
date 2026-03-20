@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-BT07
 
+<div className="device-logo">
 ![TZ-BT07](./logo.jpg)
+</div>
 
 The TZone TZ-BT07 is a compact, lightweight tracker designed to deliver reliable location and proximity reporting for personal items and small assets. In a creamy white housing measuring 86 x 55 x 55 mm and weighing approximately 40 grams, the device is easy to carry and conceal. The TZ-BT07 uses the iPhone iBeacon protocol with Bluetooth 4.0 connectivity, supports common smartphone platforms, and offers configurable broadcast intervals and transmit power to balance visibility and battery life.
 

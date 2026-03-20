@@ -20,7 +20,9 @@ keywords:
 
 # Arusnavi - Arnavi Integral 2
 
+<div className="device-logo">
 ![Arnavi Integral 2](./logo.jpg)
+</div>
 
 The Arnavi Integral 2 is a navigation controller designed for remote monitoring of mobile objects. It provides real time tracking and location information, making it suitable for tracking vehicles, equipment, and other movable assets. The device is described as versatile and reliable with features such as geofencing and a compact, durable form factor that supports continuous monitoring in everyday operational conditions.
 

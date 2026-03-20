@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-Tag04
 
+<div className="device-logo">
 ![TZ-Tag04](./logo.jpg)
+</div>
 
 El TZone TZ-Tag04 es una etiqueta de seguimiento compacta pensada para supervisar la ubicación y el estado de activos pequeños. Combina rastreo GPS con comunicación inalámbrica RFID 2.4G y un sensor de precisión integrado para ofrecer datos de posición y lecturas ambientales como temperatura y humedad. Diseñado para ser resistente, el TZ-Tag04 cuenta con clasificación IP65 y una carcasa ligera que facilita su fijación a una amplia variedad de objetos.
 

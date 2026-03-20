@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D05
 
+<div className="device-logo">
 ![D05](./tracker.jpg)
+</div>
 
 The GOTOP D05 is a smart 4G GPS tracker designed for long term asset, vehicle, and personal tracking. It pairs a compact magnet mount enclosure with a high capacity 10000mAh battery to deliver extended standby operation and reliable real time location updates. The device combines multi constellation GNSS positioning with optional Wi Fi assistance to speed fixes and improve urban accuracy, and supports encrypted data transmission for secure telemetry.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - T8503
 
+<div className="device-logo">
 ![T8503](./logo.jpg)
+</div>
 
 The TopFlyTech T8503 is a compact GPS tracker built for reliable, everyday tracking tasks. It emphasizes straightforward operation and durable construction to handle a range of environments. Key user features include an SOS button for emergency alerts, mutual voice communication for remote verbal contact, and optional RFID tag support for simple asset or identity association.
 

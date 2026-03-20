@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - MVT-380
 
+<div className="device-logo">
 ![MVT-380](./logo.jpg)
+</div>
 
 El Meitrack MVT-380 es un rastreador GPS versátil diseñado para el seguimiento de vehículos y activos con un conjunto práctico de funciones. Ofrece seguimiento en tiempo real, alertas por geocercas, registro GPS para historiales de viaje y audio bidireccional, lo que lo hace adecuado tanto para flotas comerciales como para monitoreo de vehículos personales. La unidad es configurable para accesorios como un relé de corte de motor y dispone de modos de ahorro de energía para prolongar su tiempo de operación.
 

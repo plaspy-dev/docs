@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A1Lm
 
+<div className="device-logo">
 ![HB-A1Lm](./tracker.jpg)
+</div>
 
 El HB-A1Lm es un rastreador GPS 4G de alta resistencia integrado con una cerradura electrónica diseñada para contenedores, remolques, plataformas y camiones de caja. Combina el seguimiento de ubicación con funciones anti robo dedicadas, como alarmas por manipulación y corte de cadena, además de múltiples opciones de apertura, incluyendo RFID y Bluetooth. Diseñado para uso exterior, el equipo prioriza la durabilidad y una larga vida operativa para la protección de carga en logística.
 

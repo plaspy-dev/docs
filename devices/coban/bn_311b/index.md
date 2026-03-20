@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-311B
 
+<div className="device-logo">
 ![BN-311B](./tracker.png)
+</div>
 
 The BN-311B is a compact GSM GPS motorcycle management terminal designed for reliable real time tracking and anti theft protection of small vehicles. Built for concealed installation on motorcycles and small cars, it combines GNSS positioning, 2G connectivity, and a rechargeable backup battery in a small form factor to support vehicle security and monitoring needs.
 

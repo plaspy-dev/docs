@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A7
 
+<div className="device-logo">
 ![HB-A7](./tracker.jpg)
+</div>
 
 El HB-A7 es un rastreador GPS compacto y de bajo consumo diseñado para la gestión profesional de flotas y el seguimiento de activos vehiculares. Fabricado para entornos vehiculares exigentes, ofrece actualizaciones continuas de ubicación y telemetría robusta, además de soporte para entradas y salidas ampliables (I/O) para periféricos externos. El equipo está pensado para despliegues regionales con opciones celulares 2G y 3G y posicionamiento GNSS dual, lo que lo hace adecuado para flotas mixtas que requieren seguimiento confiable y comportamiento operativo predecible.
 

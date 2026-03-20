@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMM640
 
+<div className="device-logo">
 ![FMM640](./Logo.png)
+</div>
 
 El Teltonika FMM640 es un rastreador GPS profesional pensado para la supervisión de flotas y activos en múltiples sectores. Ofrece conectividad celular global mediante tecnologías de baja potencia de área amplia y admite una amplia gama de opciones de seguimiento, detección y periféricos. El dispositivo está diseñado para aplicaciones en logística, transporte refrigerado, agricultura, construcción, minería y seguridad, con detección de movimiento integrada, eventos basados en acelerómetro, geocercas, funciones de viaje y odómetro, opciones de monitoreo de combustible y soporte para periféricos externos orientados a usos especializados.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Concox - PG201
 
+<div className="device-logo">
 ![PG201](./tracker.png)
+</div>
 
 The PG201 is a compact, intelligent personal GPS tracker designed for on-site personnel management and personal safety. It combines multi-system positioning, two-way communication and a dedicated SOS panic button in a lightweight, water-resistant form factor to help organizations monitor field staff, sanitation teams and other vulnerable workers during daily operations.
 

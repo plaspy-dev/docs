@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-Tag04
 
+<div className="device-logo">
 ![TZ-Tag04](./logo.jpg)
+</div>
 
 The TZone TZ-Tag04 is a compact tracking tag designed for monitoring the location and condition of small assets. It combines GPS tracking with RFID 2.4 G wireless communication and an integrated precision sensor to deliver both position awareness and environmental readings such as temperature and humidity. Built for durability, the TZ-Tag04 has an IP65 rating and a lightweight enclosure that makes it easy to attach to a wide range of items.
 

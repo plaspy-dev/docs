@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-2700
 
+<div className="device-logo">
 ![LMU-2700](./logo.jpg)
+</div>
 
 El CalmAmp LMU-2700 es una unidad de seguimiento para flotas, compacta y diseñada para aplicaciones de Localización Automática de Vehículos. Combina un receptor GPS de alta sensibilidad con múltiples opciones de comunicación inalámbrica para ofrecer datos de ubicación fiables y visibilidad operativa. El dispositivo se ofrece como una solución robusta y económica, con alternativas de antena interna o externa y una batería de respaldo integrada para mantener el rastreo durante cortes de energía.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-108A
 
+<div className="device-logo">
 ![BN-108A](./tracker.png)
+</div>
 
 El BN-108A es un rastreador GPS compacto de Coban pensado para la gestión de activos móviles, el seguimiento encubierto de vehículos y la protección antirrobo. Combina una fuerte sujeción magnética para montaje sin herramientas, inducción automática por Bluetooth para facilitar el armado y desarmado, y una batería recargable de gran capacidad de 10,000 mAh que proporciona largos periodos de espera y actualizaciones de ubicación en tiempo real confiables.
 

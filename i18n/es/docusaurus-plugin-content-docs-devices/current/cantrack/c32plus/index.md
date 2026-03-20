@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - C32Plus
 
+<div className="device-logo">
 ![C32Plus](./tracker.jpg)
+</div>
 
 El CanTrack C32Plus es un rastreador GPS cableado y compacto diseñado para vehículos de 9–90V como bicicletas eléctricas, motocicletas, scooters y automóviles. Está basado en un chipset GNSS MTK de alta sensibilidad y ofrece reportes de posición en tiempo real, almacenamiento de datos sin conexión y funciones de mantenimiento remoto en un formato resistente y de pequeño tamaño, ideal para despliegues en vehículos ligeros y flotas.
 

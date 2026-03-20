@@ -21,7 +21,9 @@ keywords:
 
 # KHD - KG300
 
+<div className="device-logo">
 ![KG300](./logo.jpg)
+</div>
 
 El KHD KG300 es un rastreador GNSS diseñado para el seguimiento y monitoreo de vehículos, así como para aplicaciones de publicidad a bordo. Combina comunicación celular con posicionamiento por GPS o GLONASS para ofrecer información de ubicación fiable y reportes de eventos. El KG300 puede enviar datos a servidores backend mediante GPRS/GSM y también operar por SMS para alertas y comandos sencillos, lo que lo hace adecuado para diversas necesidades de seguimiento vehicular.
 

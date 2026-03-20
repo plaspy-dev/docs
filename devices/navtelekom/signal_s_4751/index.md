@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SIGNAL S-4751
 
+<div className="device-logo">
 ![SIGNAL S-4751](./tracker.jpeg)
+</div>
 
 The SIGNAL S-4751 is a vehicle GPS tracker from Navtelekom designed for demanding fleet and asset monitoring. It combines GNSS positioning with external GLONASS and GPS antenna support, a 4G modem with dual SIM redundancy, and robust vehicle grade power protection to keep tracking active in challenging environments. Onboard features such as Bluetooth 4.0, local SD logging, and a compact build make the unit suitable for continuous fleet operations and security applications.
 

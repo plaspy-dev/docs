@@ -21,7 +21,9 @@ keywords:
 
 # Concox - LL705
 
+<div className="device-logo">
 ![LL705](./tracker.png)
+</div>
 
 El Concox LL705 es un rastreador GPS 4G diseñado específicamente para el monitoreo prolongado y de bajo mantenimiento de activos de alto valor. Combina conectividad LTE Cat 1 con conmutación a GSM, posicionamiento multisensor que incluye GPS y Beidou BDS, localización por torres celulares (LBS) y BLE, además de una robusta carcasa con clasificación IP67 que garantiza reportes de ubicación continuos en entornos industriales y al aire libre exigentes. El equipo está optimizado para despliegues extendidos mediante una batería Li SOCl2 de alta capacidad de 18,000 mAh y modos de funcionamiento configurables para equilibrar la frecuencia de actualización y la duración de la batería.
 

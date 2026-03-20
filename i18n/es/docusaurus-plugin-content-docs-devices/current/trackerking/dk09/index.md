@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - DK09
 
+<div className="device-logo">
 ![DK09](./tracker.jpg)
+</div>
 
 El DK09 es un rastreador GPS 4G compacto diseñado para la protección antirrobo discreta de vehículos y la supervisión continua de ubicaciones. Con una presentación que emula un relé convencional, está pensado para instalaciones encubiertas en automóviles, motocicletas y diversos equipos. Ofrece posicionamiento continuo, alertas por eventos y reproducción de rutas históricas para facilitar la recuperación y la visibilidad operativa.
 

@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK980-4G
 
+<div className="device-logo">
 ![LK980-4G](./tracker.jpg)
+</div>
 
 The LK980-4G is a compact wired GPS tracker designed for dependable vehicle security and fleet management. It combines built-in GPS and GSM antennas with 4G LTE connectivity and automatic 2G fallback to provide continuous location reporting and event forwarding. The device includes a set of practical security and operational controls such as SOS alarm, silent listen-in, vibration and tamper alerts, and remote fuel or power cut-off, plus mobile app and SMS management options.
 

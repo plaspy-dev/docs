@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT53
 
+<div className="device-logo">
 ![XT53](./tracker.webp)
+</div>
 
 El XT53 es un rastreador GPS ultra compacto diseñado para la protección de activos a largo plazo y la visibilidad diaria de equipos dispersos. Diseñado como un dispositivo celular de bajo mantenimiento, el XT53 prioriza una vida útil prolongada de la batería de hasta siete años, por lo que es ideal para equipos pequeños, pallets, contenedores y otros activos que deben permanecer en línea durante años con mínima intervención.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 215
 
+<div className="device-logo">
 ![ST 215](./logo.jpg)
+</div>
 
 El Suntech ST 215 es un rastreador GPS para vehículos diseñado para seguimiento, recuperación de unidades y gestión de flotas. Integra antenas GPS y GSM internas con un módem GPRS cuatribanda para ofrecer reportes de ubicación confiables. El equipo admite opciones flexibles de posicionamiento que pueden reportar según intervalos de tiempo, distancia recorrida o cambios de ángulo, y está disponible en varias versiones para ajustarse a diferentes necesidades de implementación.
 

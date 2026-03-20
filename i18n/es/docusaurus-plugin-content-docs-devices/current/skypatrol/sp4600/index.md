@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP4600
 
+<div className="device-logo">
 ![SP4600](./logo.jpg)
+</div>
 
 La serie SkyPatrol SP4600 es un dispositivo de rastreo GPS con muchas funciones, diseñado para aplicaciones exigentes como el seguimiento de flotas y la gestión de despachos en campo. Esta familia de productos está orientada tanto a implementaciones empresariales como a proyectos telemáticos convencionales, ofreciendo versiones en 2G y 3G y capacidades que cubren localización de vehículos, recuperación y escenarios de telemática para seguros. Entre las características destacadas por el fabricante figuran comunicación GSM/GPRS cuatribanda, gestión y mantenimiento remotos por aire, actualización de firmware por aire (FOTA), detección de interferencia GSM y 28 geocercas implementadas por hardware para supervisión de ubicación personalizada.
 

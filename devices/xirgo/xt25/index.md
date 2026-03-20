@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT25
 
+<div className="device-logo">
 ![XT25](./tracker.webp)
+</div>
 
 The Xirgo XT25 is a plug and play vehicle tracking unit designed primarily for light duty and passenger vehicles, with adaptable options for heavier truck installations. It combines a compact form factor with integrated GNSS and cellular radios, optional Bluetooth for accessory pairing, OBD protocol support, and an onboard accelerometer. These capabilities make the XT25 suitable for integrators and fleet operators who need dependable location and motion data in a small, configurable device.
 

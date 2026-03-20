@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-903
 
+<div className="device-logo">
 ![ST-903](./tracker.jpg)
+</div>
 
 El SinoTrack ST-903 es un rastreador GPS ultra compacto pensado para el seguimiento discreto de personas y pequeños activos. Su formato del tamaño de una moneda, antenas GPS y GSM de alta sensibilidad, y el soporte para reportes por GPRS y SMS lo hacen ideal para collares, bolsillos y escondites donde el espacio y el peso son limitados. El dispositivo incorpora gestión de energía multimodo y una batería integrada para equilibrar la autonomía y la frecuencia de actualización según las necesidades de monitoreo.
 

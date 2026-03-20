@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - MT02
 
+<div className="device-logo">
 ![MT02](./tracker.jpg)
+</div>
 
 El TopShine MT02 es un rastreador GPS de nivel profesional pensado para instalaciones en vehículos. Combina conectividad celular 4G LTE, GPS con posicionamiento asistido, registro de datos a bordo e integración con sensores de combustible para ofrecer telemetría continua, alertas configurables y capacidad de inmovilización remota. Está orientado al uso en flotas, brindando funciones que apoyan el seguimiento fiable, el registro histórico y la protección antirrobo.
 

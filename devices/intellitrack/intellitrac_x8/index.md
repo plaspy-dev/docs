@@ -20,7 +20,9 @@ keywords:
 
 # Intellitrack - Intellitrac X8
 
+<div className="device-logo">
 ![Intellitrac X8](./logo.jpg)
+</div>
 
 The Systech IntelliTrac X8 is a full featured GPS tracker designed for vehicle tracking, fleet management, and security applications. It combines GPS positioning with multiple wireless communication methods to provide continuous location updates, polling, and event reporting. The X8 includes features such as quadband GSM connectivity, voice capability for two way communication, internal memory and a backup battery to protect data during power or network interruptions.
 

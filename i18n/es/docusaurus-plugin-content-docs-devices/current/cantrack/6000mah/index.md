@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - 6000mAh
 
+<div className="device-logo">
 ![6000mAh](./tracker.jpg)
+</div>
 
 El CanTrack GF50 6000mAh es un rastreador GPS magnético para activos, construido para montaje resistente y protección encubierta a largo plazo. Integra una batería recargable de alta capacidad de 6000mAh con una carcasa certificada IP67 y un imán potente N54 que permite fijarlo sin herramientas a superficies metálicas, proporcionando reportes de posición confiables y reproducción histórica de rutas a través de plataformas telemáticas compatibles.
 

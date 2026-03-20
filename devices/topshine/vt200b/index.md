@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - VT200B
 
+<div className="device-logo">
 ![VT200B](./tracker.jpg)
+</div>
 
 The TopShine VT200B is a rugged vehicle tracking terminal built for professional fleet management and automotive security. It combines high sensitivity GNSS positioning, quad band cellular connectivity for real time reporting, an internal data logger that preserves more than 10,000 records when connectivity is lost, and integrated anti theft functions such as SOS and remote immobilization. Designed as a compact vehicle grade unit, the VT200B targets continuous location visibility and incident alerting for mixed commercial fleets.
 

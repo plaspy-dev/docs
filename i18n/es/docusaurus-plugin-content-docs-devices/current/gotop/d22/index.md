@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - D22
 
+<div className="device-logo">
 ![D22](./logo..jpg)
+</div>
 
 El GOTOP D22 es un rastreador GPS impermeable diseñado para el seguimiento de vehículos y la gestión de flotas. Integra comunicación 4G con posicionamiento por satélite GPS y BDS para ofrecer ubicación y monitoreo en tiempo real. El equipo presenta un diseño industrial de alta integración con antena incorporada de forma completa y un sensor de 3 ejes integrado que garantiza un rastreo confiable en diversas condiciones operativas.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-401A
 
+<div className="device-logo">
 ![BN-401A](./tracker.png)
+</div>
 
 The BN-401A is a compact motorcycle management terminal designed for reliable real time tracking and basic fleet control on scooters, motorcycles and other small vehicles with a 12–24V electrical system. Its low profile form factor and focused feature set provide positioning, movement and shock alarms, SOS signaling and ignition status reporting, making it a practical choice for two wheel vehicle operations. Built for LTE 4G connectivity with GSM fallback and multiple transport methods, the BN-401A is engineered to deliver continuous tracker functionality in a small package.
 

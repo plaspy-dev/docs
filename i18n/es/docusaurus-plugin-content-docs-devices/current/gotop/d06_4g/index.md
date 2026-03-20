@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - D06-4G
 
+<div className="device-logo">
 ![D06-4G](./tracker.jpg)
+</div>
 
 El D06-4G es un rastreador GPS compacto, compatible con Plaspy, diseñado para ofrecer seguimiento en tiempo real y gestión de flotas de automóviles, motocicletas, bicicletas eléctricas y otros vehículos. Pensado para instalaciones discretas, el equipo combina un receptor GNSS de alta sensibilidad con conectividad 4G y conmutación a 2G para mantener el flujo de información de ubicación y estado incluso en condiciones de cobertura variable. Su carcasa con grado de protección IP65 y la memoria a bordo para almacenamiento sin conexión lo hacen apto para instalaciones expuestas y despliegues antirrobo de larga duración.
 

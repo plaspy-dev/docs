@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK900A/B/C
 
+<div className="device-logo">
 ![LK900A/B/C](./tracker.jpg)
+</div>
 
 The LK900A/B/C is a Plaspy compatible 4G magnetic GPS and GSM tracker designed for long term vehicle and asset monitoring. Offered in three high capacity battery variants, the LK900 series provides extended standby times and continuous location updates suitable for fleet managers, rental operators, logistics providers, and asset security teams. Its magnetic housing enables discreet, non permanent mounting that supports temporary deployments and fast redeployment between assets.
 

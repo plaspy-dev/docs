@@ -20,7 +20,9 @@ keywords:
 
 # TopTen - TK428
 
+<div className="device-logo">
 ![TK428](./Logo.jpg)
+</div>
 
 The TopTen TK428 is an OBD II GPS tracker designed to provide continuous vehicle location together with vehicle ECU telemetry. Plugged into a vehicle's OBD port, the TK428 can read common vehicle data such as speed, RPM, odometer, fuel consumption, and driver behavior indicators, making it useful for operational oversight and basic vehicle diagnostics.
 

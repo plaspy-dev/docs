@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - X07
 
+<div className="device-logo">
 ![X07](./tracker.png)
+</div>
 
 The X07 is a wearable GPS and BeiDou health positioning watch designed for reliable personal safety and elder care monitoring. It combines multi mode positioning with onboard physiological sensors to deliver continuous location and vital sign telemetry. The device is built for everyday use and emphasizes fast positioning, simple device management, and concise health insights suitable for monitoring individuals on the move.
 

@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK106
 
+<div className="device-logo">
 ![LK106](./tracker.jpg)
+</div>
 
 The LK106 is a compact 4G GPS tracker designed for reliable, real time location monitoring in a small waterproof package. It includes built in GPS and GSM antennas, a SIM card slot, an SOS emergency button, and supports both mobile apps and a browser based platform. The device is intended for discreet on person or small asset use where continuous position reporting and emergency alerting are required.
 

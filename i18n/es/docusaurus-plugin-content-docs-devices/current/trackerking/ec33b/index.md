@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - EC33B
 
+<div className="device-logo">
 ![EC33B](./tracker.jpg)
+</div>
 
 El EC33B es un rastreador GPS 4G compacto y multifunción diseñado para la monitorización fiable de vehículos y activos. Basado en un módulo Quectel 4G Cat 1 con conmutación automática a 2G, el EC33B ofrece seguimiento continuo en tiempo real y reproducción de rutas históricas para que flotas y propietarios individuales puedan supervisar la ubicación, el kilometraje y el estado. Su formato cableado y su amplio rango de entrada lo hacen apto para diversos tipos de vehículos sin necesidad de hardware de conversión adicional.
 

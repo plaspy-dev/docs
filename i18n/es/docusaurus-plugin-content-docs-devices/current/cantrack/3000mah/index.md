@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - 3000mAh
 
+<div className="device-logo">
 ![3000mAh](./tracker.JPG)
+</div>
 
 El CanTrack 3000mAh (GF40) es un rastreador GPS magnético recargable diseñado para montaje discreto y de larga duración en vehículos y equipos de alto valor. Combina un potente imán y una carcasa resistente de ABS con modos de reporte configurables para equilibrar la frecuencia de actualización y la autonomía. Entre sus funciones habituales se incluyen reporte en tiempo real y por intervalos, alertas por manipulación y vibración, notificaciones de geocercas y la opción de escucha remota, lo que lo hace adecuado para monitoreo confidencial de remolques, contenedores y otros activos móviles.
 

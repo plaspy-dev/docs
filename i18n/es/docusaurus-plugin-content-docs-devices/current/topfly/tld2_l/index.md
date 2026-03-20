@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - TLD2-L
 
+<div className="device-logo">
 ![TLD2-L](./tracker.png)
+</div>
 
 El TopFly TLD2-L es un rastreador GPS OBDII compacto, plug and play, diseñado para ofrecer seguimiento vehicular sencillo y sin mantenimiento. Se conecta directamente al puerto OBDII del vehículo y está pensado como una solución de despliegue rápido para flotas y vehículos comerciales ligeros. Sus principales características se orientan a actualizaciones frecuentes en tiempo real, detección de eventos como colisiones y maniobras agresivas, y soporte para accesorios Bluetooth Low Energy que amplían la telemetría con sensores y funciones de control.
 

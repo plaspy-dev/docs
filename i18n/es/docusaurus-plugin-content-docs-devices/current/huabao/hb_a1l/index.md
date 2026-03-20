@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A1L
 
+<div className="device-logo">
 ![HB-A1L](./tracker.jpg)
+</div>
 
 La cerradura electrónica esclava HB-A1L es un dispositivo de cierre resistente, conectado por Bluetooth, diseñado para ofrecer seguridad en puertas y gestión centralizada para flotas logísticas. Como unidad esclava pensada para emparejarse con una cerradura maestra con GPS, la HB-A1L extiende la protección antirrobo y el control de acceso en vehículos con múltiples puertas, como cisternas y camiones caja, al reportar el estado del cierre y los eventos de alarma para su monitoreo consolidado.
 

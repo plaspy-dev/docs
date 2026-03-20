@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK105B
 
+<div className="device-logo">
 ![LK105B](./logo..jpg)
+</div>
 
 The LK-GPS LK105B is a compact mini pet GPS tracker designed to help pet owners keep close tabs on dogs and cats. It combines GPS and LBS location methods to provide continuous position updates, supports real time tracking from a smartphone or web platform, and includes features such as location history playback, voice communication around the device, and an SOS alarm for emergencies.
 

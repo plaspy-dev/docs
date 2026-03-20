@@ -21,7 +21,9 @@ keywords:
 
 # Falcom - FOX3-4G-NA
 
+<div className="device-logo">
 ![FOX3-4G-NA](./logo.jpg)
+</div>
 
 El Falcom FOX3-4G-NA es un rastreador GPS de alto rendimiento y una pasarela telemática para vehículos, diseñado para entornos industriales y de IoT de flota que exigen conectividad de datos robusta. Basado en LTE Cat 4 con retroceso a 3G y 2G, garantiza alcance de red continuo mientras emplea posicionamiento GNSS moderno para ofrecer datos de ubicación precisos. El equipo admite múltiples entradas y salidas y puede ampliarse con las cajas de expansión Falcom como IOBOX-MINI, IOBOX-CAN o IOBOX-WLAN para adaptarse a distintos requerimientos de integración con vehículos y equipos.
 

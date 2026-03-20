@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SPL1204
 
+<div className="device-logo">
 ![SPL1204](./tracker.png)
+</div>
 
 El SPL1204, comercializado como SkyOne Lock Tracker, es un rastreador GPS robusto integrado en un candado de seguridad diseñado para la logística y la protección de carga de alto valor. Combina posicionamiento a bordo con una forma de candado pensada para entornos de transporte y exteriores, e incluye funciones como rastreo GPS 4G, desbloqueo por RFID, alertas por manipulación, batería recargable y construcción resistente a la intemperie para reducir fraudes y mejorar la seguridad de los activos.
 

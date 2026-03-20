@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - T8GPS
 
+<div className="device-logo">
 ![T8GPS](./logo.jpg)
+</div>
 
 El AoYa T8GPS es un rastreador GPS compacto orientado al uso automotriz, diseñado para automóviles, camiones y embarcaciones. Combina una carcasa impermeable con certificación IP67 con un tamaño reducido y peso ligero, lo que facilita su montaje en diferentes ubicaciones del vehículo. El dispositivo soporta posicionamiento GPS, LBS y AGPS para ofrecer datos de ubicación en tiempo real, y su precisión publicitada de aproximadamente 5 a 10 metros cubre las necesidades típicas de rastreo y supervisión de flotas.
 

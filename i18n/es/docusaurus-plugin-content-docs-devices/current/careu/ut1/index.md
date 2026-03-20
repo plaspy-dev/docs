@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - UT1
 
+<div className="device-logo">
 ![UT1](./tracker.png)
+</div>
 
 El CAREU UT1 es un rastreador GPS alimentado pensado para entornos industriales y de trabajo pesado. Con una carcasa con certificación IP67 y construcción robusta, el UT1 está diseñado para el seguimiento en tiempo real y la telemetría confiable de maquinaria de construcción, remolques, cajas fuertes y otros activos industriales. Sus especificaciones priorizan el rendimiento duradero en ambientes con polvo, humedad y vibraciones, e incluyen registro interno y opciones de respaldo de energía para soportar despliegues prolongados en campo.
 

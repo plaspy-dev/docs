@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - GV3
 
+<div className="device-logo">
 ![GV3](./tracker.png)
+</div>
 
 The GV3 is a compact 4G car GPS tracker designed for reliable vehicle and fleet monitoring. Intended for automotive use, the device provides real time tracking over 4G with 2G fallback, geo fencing, movement alerts, SOS emergency notifications, and remote immobilizer support. Built for harsh conditions, the GV3 carries an IP67 rating and supports a wide operating voltage range suitable for cars, trucks, motorcycles, and mixed fleets.
 

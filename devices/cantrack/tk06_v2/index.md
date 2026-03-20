@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - TK06 v2
 
+<div className="device-logo">
 ![TK06 v2](./logo.jpg)
+</div>
 
 The CanTrack TK06 v2 is a compact GPS tracker designed for vehicle tracking and general asset monitoring. It combines GPS satellite positioning with the GSM GPRS network to determine location and deliver that data to authorized recipients. The device supports sending location updates by SMS and can transmit tracking data to an internet server for real time viewing on mapping platforms.
 

@@ -20,7 +20,9 @@ keywords:
 
 # EElink - K30
 
+<div className="device-logo">
 ![K30](./tracker.jpg)
+</div>
 
 The K30 is a compact wearable GPS tracker designed for reliable personal and staff safety monitoring. Lightweight and water resistant, the device combines GPS, Wi‑Fi and LBS positioning with real time tracking and emergency features so caregivers, managers, and operations teams can maintain visibility and act quickly when events occur. Built for everyday wear, the K30 emphasizes essential telemetry such as location updates, SOS emergency calling, two way voice and basic activity information while minimizing user burden.
 

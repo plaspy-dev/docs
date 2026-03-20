@@ -20,7 +20,9 @@ keywords:
 
 # Castel - MPIP-618-WA
 
+<div className="device-logo">
 ![MPIP-618-WA](./logo.jpg)
+</div>
 
 The Castel MPIP-618W-A is a vehicle GPS tracker that combines location tracking with OBD diagnostic capabilities. Designed for passenger cars and business vehicles, it provides location visibility, vehicle diagnostics via a standard OBD interface, and a range of fleet oriented features such as mileage statistics, maintenance reminders, fuel consumption reporting, and stored data memory. The device is commonly used where both position tracking and basic vehicle health or usage data are valuable.
 

@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV57MG
 
+<div className="device-logo">
 ![GV57MG](./tracker.png)
+</div>
 
 The QuecLink GV57MG is a compact IP67 waterproof GPS tracker engineered for light vehicles and motorcycles. It is designed for outdoor use and combines robust GNSS positioning, low power operation and Bluetooth Low Energy support to provide dependable location and telemetry in challenging environments. The GV57MG includes features such as buffered message transmission and over the air configuration to support reliable reporting and lifecycle management in mobile deployments.
 

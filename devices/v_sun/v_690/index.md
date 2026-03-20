@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - V-690
 
+<div className="device-logo">
 ![V-690](./logo.jpg)
+</div>
 
 The V-SUN V-690 is a compact and versatile GPS tracker designed for positioning, monitoring, safety protection, and emergency response. It combines location tracking with user-focused safety features such as an SOS button and dedicated alarm keys, making it suitable for personal safety and light duty field monitoring. The device supports continuous and intermittent tracking modes, electronic fence boundaries, and historical route playback to help users review past movements.
 

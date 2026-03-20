@@ -20,7 +20,9 @@ keywords:
 
 # WP - M7 D2
 
+<div className="device-logo">
 ![M7 D2](./logo..jpg)
+</div>
 
 The WP M7 D2 is a portable GPS tracking device designed primarily for vehicle tracking. It combines high sensitivity GPS reception with quad band GSM communication and supports data transmission via SMS, GPRS, UDP, and TCP. The unit is compact, housed in an IP67 rated ABS enclosure, and uses magnetic mounting for quick installation or discreet placement on metal parts of a vehicle.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Bofan - PT-30
 
+<div className="device-logo">
 ![PT-30](./logo.jpg)
+</div>
 
 The Bofan PT-30 is a compact and reliable personal GPS tracker designed for discreet location monitoring of people and portable assets. It reports position information via SMS or GPRS and combines satellite positioning with cellular connectivity to maintain reliable updates even in challenging environments such as urban canyons. The unit is small and unobtrusive, with features aimed at everyday tracking and safety, including SOS alerts, preset emergency contacts, geo fence boundaries, and two way communication for urgent situations.
 

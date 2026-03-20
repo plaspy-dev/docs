@@ -21,7 +21,9 @@ keywords:
 
 # Condor - TP-810
 
+<div className="device-logo">
 ![TP-810](./tracker.png)
+</div>
 
 El Condor TP-810 es un rastreador GPS personal compacto diseñado para llevar puesto de forma discreta y ofrecer monitoreo continuo de la ubicación de personas. Su diseño pequeño y liviano resulta cómodo para usuarios de distintas edades y contexturas, y el dispositivo está pensado para proporcionar actualizaciones rápidas de ubicación junto con un flujo de trabajo accesible para alertas de emergencia.
 

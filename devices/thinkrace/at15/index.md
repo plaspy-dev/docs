@@ -20,7 +20,9 @@ keywords:
 
 # ThinkRace - AT15
 
+<div className="device-logo">
 ![AT15](./logo.jpg)
+</div>
 
 The ThinkRace AT15 is a compact smart luggage tracker designed to help travelers keep tabs on bags, backpacks, suitcases, and briefcases. It provides real time location updates and a retrievable location history so users can review a bag's journey. The device is intended for everyday travel use where discrete, portable tracking of personal belongings is desired.
 

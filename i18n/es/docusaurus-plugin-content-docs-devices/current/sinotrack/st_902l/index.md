@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-902L
 
+<div className="device-logo">
 ![ST-902L](./tracker.jpg)
+</div>
 
 El SinoTrack ST-902L es un rastreador GPS OBD II compacto, plug and play, pensado para autos y vehículos livianos. Diseñado para conectarse en un puerto OBD estándar de 16 pines, el ST-902L ofrece actualizaciones continuas de posición y telemetría del vehículo a través de redes 4G LTE y GSM. El equipo integra un receptor GNSS UBLOX7020 para obtener localizaciones confiables, cuenta con una batería de respaldo interna para operación limitada y detección de manipulación, y permite la configuración por SMS para parámetros de APN y servidor.
 

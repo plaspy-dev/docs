@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - UW1
 
+<div className="device-logo">
 ![UW1](./tracker.png)
+</div>
 
 The CAREU UW1 is an industrial GPS tracker designed for demanding vehicle and asset tracking applications. Built with an IP67 waterproof enclosure and vibration resistant construction in its LTE version, the UW1 is intended for use on trucks, motorcycles, construction machinery and remote high value assets. Its combination of resilient hardware and extended onboard logging helps keep location records and event data available even in challenging environments.
 

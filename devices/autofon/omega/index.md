@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Омега
 
+<div className="device-logo">
 ![Омега](./tracker.png)
+</div>
 
 The AutoFon Омега is a compact GPS tracker designed for long autonomous operation and discreet installation. It combines GPS and GLONASS navigation with GPRS and SMS reporting, a built in accelerometer and BLE presence detection to provide reliable position updates, motion and tilt alerts, and local ranging for an owner’s smartphone. Its small IP54 enclosure and battery powered design make it suitable for covert mounting on vehicles, portable equipment and other assets that require continuous telemetry.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-9
 
+<div className="device-logo">
 ![AT-9](./tracker.jpg)
+</div>
 
 The Autoseeker AT-9 is a rugged 4G wireless magnetic GPS tracking device designed for long-life covert and heavy duty asset monitoring. Built with an IP68 waterproof enclosure and a strong built-in magnet, the AT-9 is intended for tool free mounting on metal assets. It incorporates multi mode positioning, cellular connectivity, a rechargeable high capacity battery and a set of alarm and communication features to support real-time tracking and anti theft monitoring for vehicles, containers, construction machinery and other high value mobile assets.
 

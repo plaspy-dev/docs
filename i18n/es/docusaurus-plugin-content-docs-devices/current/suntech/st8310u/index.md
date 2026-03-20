@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST8310U
 
+<div className="device-logo">
 ![ST8310U](./logo..png)
+</div>
 
 El Suntech ST8310U es un rastreador GPS vehicular compacto pensado para ofrecer monitoreo confiable de ubicación en múltiples escenarios de transporte y flotas. Ofrece conectividad económica LTE Cat.1 y 2G, una carcasa robusta e impermeable para entornos exigentes, varios puertos I/O de 5 pines para integraciones y detección integrada de interferencias. Características opcionales como análisis de patrones de conducción y reconstrucción de choques amplían su utilidad para supervisión operativa y revisión de incidentes.
 

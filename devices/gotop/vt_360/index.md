@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-360
 
+<div className="device-logo">
 ![VT-360](./logo.jpg)
+</div>
 
 The GOTOP VT-360 is a vehicle GPS/GSM/GPRS tracking device designed for real time tracking and fleet management. It combines high sensitivity GPS and stable GPRS communication to provide accurate location fixes even in more remote areas. The VT-360 supports location queries via SMS with a direct Google Maps link and continuous tracking by SMS or GPRS, and includes a set of alarm functions such as SOS, geofence alerts, GPS blind area alert, low battery warning, overspeed alarm, and an engine cut capability. Additional features include remote listening, two inputs and two outputs, an analog input for monitoring parameters like temperature or fuel, and an internal backup battery for continued operation during power interruptions.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - L80
 
+<div className="device-logo">
 ![L80](./logo.jpg)
+</div>
 
 El Sentar L80 es un reloj GPS 3G para niños diseñado para ofrecer a padres y cuidadores visibilidad continua de la ubicación del menor y comunicación bidireccional básica. Combina un diseño pensado para niños con varios modos de posicionamiento y un botón SOS para gestionar necesidades de seguridad diarias. El modelo está disponible en colores atractivos para niños e incluye funciones como comunicación por voz y geocercas, características habituales en rastreadores orientados a menores.
 

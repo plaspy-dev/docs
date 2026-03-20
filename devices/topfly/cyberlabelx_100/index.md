@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - CyberLabelX 100
 
+<div className="device-logo">
 ![CyberLabelX 100](./tracker.png)
+</div>
 
 The CyberLabelX 100 is a slim, rechargeable asset GPS tracker purpose built for parcel level and high value shipment visibility. Designed to attach discreetly to cartons and returnable assets, it combines multi constellation GNSS positioning, configurable reporting intervals down to every 3 seconds, and buffered logging to preserve continuous location history when cellular coverage is intermittent.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM003
 
+<div className="device-logo">
 ![FMM003](./logo..png)
+</div>
 
 The Teltonika FMM003 is an OBD plug and play vehicle tracker built for reliable fleet management. Designed around LTE Cat M1 and NB IoT with fallback to 2G, the FMM003 delivers broad cellular coverage and position reporting while offering direct access to OEM vehicle parameters through OBD data reading. It supports multi GNSS systems for positioning and includes on-board storage and cellular connectivity options suitable for continuous tracking across a range of vehicle types.
 

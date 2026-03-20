@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT45
 
+<div className="device-logo">
 ![GPT45](./tracker.jpg)
+</div>
 
 The GPT45 is a compact, rechargeable GPS tracker from EElink designed for vehicles and portable assets that need continuous tracking and extended runtime. It combines multi constellation GNSS positioning with Wi‑Fi and LBS fallback, a high capacity rechargeable battery, and an IP65 rated enclosure to provide resilient location updates and basic environmental durability. Onboard motion and environmental sensors add telemetry beyond simple coordinates, making the device suitable for monitoring both location and asset condition.
 

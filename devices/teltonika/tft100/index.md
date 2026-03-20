@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - TFT100
 
+<div className="device-logo">
 ![TFT100](./tracker.png)
+</div>
 
 The Teltonika TFT100 is a rugged 2G GPS tracker engineered for e mobility and high voltage industrial vehicles such as forklifts, telehandlers, loaders and other heavy machinery. Designed with an IP67 rated enclosure and a wide 10–97 V input range, the device is intended to operate reliably in harsh outdoor and industrial environments where robust power handling and weather resistance are essential.
 

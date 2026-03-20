@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-4753
 
+<div className="device-logo">
 ![СИГНАЛ S-4753](./tracker.jpeg)
+</div>
 
 El СИГНАЛ S-4753 de Navtelekom es un rastreador vehicular profesional GLONASS/GPS diseñado para despliegues exigentes de gestión de flotas y telemática. Combina conectividad celular con redundancia de doble SIM, dos interfaces CAN, registro de datos a bordo y un conjunto de E/S orientadas al vehículo para garantizar reportes de posición continuos y captura ampliada de telemetría en entornos de transporte.
 

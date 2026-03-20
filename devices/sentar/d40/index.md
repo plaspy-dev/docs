@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D40
 
+<div className="device-logo">
 ![D40](./tracker.jpg)
+</div>
 
 The Sentar D40 is a child focused smartwatch designed to provide simple on-wrist communication and safety features for guardians and caretakers. Built around a 1.38 inch 2.5D curved HD round display, the D40 offers voice and photo interaction, a dedicated SOS button for emergency alerts, and an 800mAh battery intended for extended daily use. Its lightweight splash resistant IPX7 form factor and color options make it suitable for everyday wear by younger users.
 

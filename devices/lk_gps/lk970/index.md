@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK970
 
+<div className="device-logo">
 ![LK970](./logo..jpg)
+</div>
 
 The LK970 is a compact 4G GPS tracker from LK-GPS designed for discreet tracking and monitoring of vehicles, motorcycles, and handheld devices. It combines a small footprint with strong magnetic free installation and onboard batteries to allow placement in a variety of locations while providing continuous location information and reporting features suitable for both personal and fleet use.
 

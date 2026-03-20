@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT800
 
+<div className="device-logo">
 ![VT800](./logo..jpg)
+</div>
 
 La serie VT800 de iStartek es un rastreador GPS para camiones diseñado para el seguimiento de vehículos en tiempo real y la gestión de flotas. Combina posicionamiento multi‑GNSS con transmisión de datos por red celular y almacenamiento local para ofrecer información de ubicación continua. El equipo está pensado para capturar y almacenar coordenadas cuando no hay conexión en vivo, y dispone de múltiples entradas para periféricos externos usados habitualmente en operaciones de flota.
 

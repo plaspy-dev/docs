@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - DK05
 
+<div className="device-logo">
 ![DK05](./tracker.jpg)
+</div>
 
 The DK05 is a compact smart pet GPS tracker designed specifically for collar and harness mounting. Built to provide reliable real time location updates, the device is targeted at dog and cat tracking and prioritizes continuous visibility of a pet's position. Its feature set includes broad cellular coverage, a waterproof housing rated for outdoor use, and a rechargeable battery to support ongoing tracking sessions and timely alerts.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Coban - TK102
 
+<div className="device-logo">
 ![TK102](./logo.jpg)
+</div>
 
 El Coban TK102 es un rastreador GPS compacto y versátil pensado para diversas necesidades de rastreo. Según la descripción del fabricante, combina posicionamiento por satélite GPS con los servicios de la red GSM/GPRS para determinar y reportar la ubicación, y permite el seguimiento vía SMS así como el monitoreo desde computadora o PDA. El equipo incluye un conjunto amplio de funciones habituales en protección de bienes y personas, como geocercas, alertas por movimiento y exceso de velocidad, alarma SOS, monitoreo y registro de datos.
 

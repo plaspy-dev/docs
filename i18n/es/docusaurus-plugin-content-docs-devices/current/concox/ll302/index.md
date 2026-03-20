@@ -21,7 +21,9 @@ keywords:
 
 # Concox - LL302
 
+<div className="device-logo">
 ![LL302](./tracker.png)
+</div>
 
 El Concox LL302 es un rastreador GNSS para activos diseñado para la monitorización prolongada de vehículos y bienes. Disponible en las variantes regionales LL302‑E y LL302‑L, el equipo emplea comunicaciones 4G LTE Cat 1 con conmutación a 2G y posicionamiento multisensor que incluye GPS, BDS, LBS y asistencia por Wi‑Fi. Con una batería industrial de 6,000mAh, sensores robustos y un soporte magnético de montaje discreto, el LL302 está orientado a flotas de alquiler, operaciones logísticas, servicios de transporte y protección de activos de alto valor.
 

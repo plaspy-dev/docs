@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB930
 
+<div className="device-logo">
 ![FMB930](./tracker.png)
+</div>
 
 El FMB930 es un rastreador GPS compacto y de bajo consumo diseñado específicamente para vehículos eléctricos de dos ruedas y vehículos eléctricos ligeros. Combina una batería interna recargable con conectividad celular y soporte Bluetooth Low Energy para sensores externos, lo que lo hace ideal cuando el espacio es limitado y los periodos de inactividad son prolongados. El dispositivo está optimizado para minimizar el consumo en reposo y ofrecer posicionamiento básico en vehículo y telemetría de sensores.
 

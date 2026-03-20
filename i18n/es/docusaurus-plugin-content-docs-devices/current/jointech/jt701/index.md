@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - JT701
 
+<div className="device-logo">
 ![JT701](./tracker.jpg)
+</div>
 
 El JT701 es un candado rastreador inteligente de Jointech que integra posicionamiento GPS con un módulo celular y controles de acceso seguros. Diseñado para la seguridad en transporte, ofrece visibilidad de ubicación junto con monitoreo sensible a manipulaciones y registro de eventos de acceso para contenedores, remolques, furgonetas y camiones. El RFID integrado y el desbloqueo remoto por contraseña sustituyen a las llaves tradicionales y generan un historial auditable de eventos de custodia.
 

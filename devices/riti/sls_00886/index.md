@@ -20,7 +20,9 @@ keywords:
 
 # Riti - SLS-00886
 
+<div className="device-logo">
 ![SLS-00886](./logo.jpg)
+</div>
 
 The Riti SLS-00886 is a GPS vehicle tracker designed for reliable location tracking and remote monitoring of vehicles. It combines a high sensitivity SiRF Star III GPS receiver with a quad band GSM module and supports SMS and GPRS reporting. The device can deliver coordinates to a back end server or send SMS messages to user defined phone numbers, and it includes practical functions such as vehicle battery voltage detection, route monitoring, and history data recording.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Protrack - VT03E+
 
+<div className="device-logo">
 ![VT03E+](./tracker.png)
+</div>
 
 El VT03E+ es un rastreador GPS compacto diseñado para el seguimiento de vehículos y activos a largo plazo con bajo mantenimiento. Combina una batería interna de gran autonomía con un potente imán integrado y una carcasa con clasificación IP65 para ofrecer seguimiento en tiempo real y monitoreo antirrobo fiable en autos, remolques, contenedores y otros activos de alto valor. El equipo está pensado para ser pequeño y discreto, y ofrece protección resistente a la intemperie para uso exterior.
 

@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT12‑L
 
+<div className="device-logo">
 ![GPT12‑L](./tracker.jpg)
+</div>
 
 El GPT12‑L es un rastreador IoT compacto de la serie GPT diseñado para el monitoreo discreto y de larga duración de vehículos y activos de alto valor. Combina posicionamiento GNSS multiconstelación con conectividad celular LTE Cat M1 y NB2 y una batería de 4500 mAh de manganeso y litio, ofreciendo seguimiento en tiempo real versátil y funcionamiento en espera prolongado. Su diseño ultradelgado y la precisión GNSS declarada por debajo de 2 m lo hacen adecuado para montaje oculto y supervisión continua cuando el espacio y los intervalos de mantenimiento son determinantes.
 

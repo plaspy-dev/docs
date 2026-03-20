@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-AVL05 3G
 
+<div className="device-logo">
 ![TZ-AVL05 3G](./logo.jpg)
+</div>
 
 El TZone TZ-AVL05 3G es un rastreador GPS para vehículos diseñado para monitorización de ubicación en tiempo real y seguridad vehicular. Integra módulos GPS y GSM para enviar informes de posición periódicos e incluye un conjunto completo de alarmas como cambio de distancia, exceso de velocidad, SOS, corte de antena, corte de alimentación y alarma por pérdida de señal GPS. El equipo también soporta funciones habituales en la supervisión vehicular como alertas de geocerca, informes de kilometraje, monitoreo de nivel de combustible, comprobación de motor y puertas, y un sensor G para detectar movimientos bruscos.
 

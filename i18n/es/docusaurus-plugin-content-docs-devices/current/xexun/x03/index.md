@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - X03
 
+<div className="device-logo">
 ![X03](./tracker.jpg)
+</div>
 
 El X03 es un rastreador GPS y BeiDou de grado industrial y formato compacto, diseñado para el monitoreo prolongado de vehículos y activos. Ideal para autos, motocicletas y bicicletas eléctricas, combina posicionamiento multi fuente con reporte por redes celulares locales para ofrecer ubicación continua, alertas de eventos y telemetría básica. Su diseño de larga autonomía y su modo de almacenar y reenviar lo hacen adecuado para activos que requieren operación sin supervisión y carga fiable del historial tras conexiones intermitentes.
 

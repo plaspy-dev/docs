@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP7401
 
+<div className="device-logo">
 ![SP7401](./logo.jpg)
+</div>
 
 The SkyPatrol SP7401 is a compact CDMA GPS tracking device built specifically for automobiles. It combines vehicle tracking with access to the vehicle diagnostics interface, making it suitable for standard automotive monitoring needs. The SP7401 is described as easy to install, cost effective, and designed for applications that require consistent location updates and basic diagnostic visibility.
 

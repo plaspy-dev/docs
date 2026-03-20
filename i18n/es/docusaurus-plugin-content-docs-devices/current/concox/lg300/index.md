@@ -21,7 +21,9 @@ keywords:
 
 # Concox - LG300
 
+<div className="device-logo">
 ![LG300](./tracker.png)
+</div>
 
 El Concox LG300 es un rastreador de activos resistente, diseñado para el seguimiento industrial persistente de vehículos, contenedores y cargas de alto valor. Pensado para despliegues con largas esperas en standby, el equipo combina posicionamiento multi-constelación con una batería de alta capacidad y una carcasa IP66 para ofrecer localizaciones fiables y telemetría de manipulación en condiciones exigentes. Diseñado para registrar eventos de movimiento y capturar audio contextual cuando sea necesario, el LG300 está orientado a un seguimiento duradero y de bajo mantenimiento para activos móviles o remotos.
 

@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK930
 
+<div className="device-logo">
 ![LK930](./logo..jpg)
+</div>
 
 The LK930 from LK-GPS is a compact vehicle tracking device designed for real time location monitoring and location based services. It combines onboard positioning with cellular connectivity and is intended for use on cars, light commercial vehicles, and portable assets. The LK930 includes long standby power, support for route history, geofence alerts, and a set of notification options to help you keep track of vehicle movement and important events.
 

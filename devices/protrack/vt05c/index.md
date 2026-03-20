@@ -20,7 +20,9 @@ keywords:
 
 # Protrack - VT05C
 
+<div className="device-logo">
 ![VT05C](./tracker.png)
+</div>
 
 The VT05C is a compact wired GPS tracker from Protrack designed for reliable vehicle monitoring and theft protection. It features a rugged IP65 rated enclosure for dust and water resistance, a discreet lightweight form factor suitable for cars and motorcycles, and a wired power connection intended to deliver continuous operation while installed. The VT05C bundles common vehicle telemetry and security features such as ACC detection, vibration alerts, geo-fencing, over-speed warnings, historical playback, and a fuel cutoff immobilizer to support anti-theft workflows.
 

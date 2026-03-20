@@ -21,7 +21,9 @@ keywords:
 
 # V-SUN - V-690
 
+<div className="device-logo">
 ![V-690](./logo.jpg)
+</div>
 
 El V-SUN V-690 es un rastreador GPS compacto y versátil pensado para posicionamiento, monitoreo, protección y respuesta ante emergencias. Combina seguimiento de ubicación con funciones de seguridad orientadas al usuario, como un botón SOS y teclas de alarma dedicadas, lo que lo hace adecuado para protección personal y vigilancia ligera en campo. El dispositivo admite modos de rastreo continuo y periódico, geocercas y reproducción de rutas históricas para revisar desplazamientos anteriores.
 

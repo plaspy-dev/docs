@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TK210B
 
+<div className="device-logo">
 ![TK210B](./tracker.jpg)
+</div>
 
 The TK-Star TK210B is a compact, rugged GPS tracker designed for motorcycles, scooters, electric vehicles and cars. It combines multi‑mode positioning options including GPS, BeiDou and GLONASS with assisted location methods such as LBS and Wi‑Fi, and uses GSM GPRS for data transmission. The device is built for active vehicle use and includes practical features like vibration alarms, geo‑fencing, move and start alerts, over‑speed warnings and a remote engine cut‑off and resume function for anti‑theft response.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Stars Nav - Photo GPS
 
+<div className="device-logo">
 ![Photo GPS](./logo.jpg)
+</div>
 
 El Stars Nav Photo GPS es un registrador GPS portátil diseñado para facilitar la geolocalización de fotografías. El equipo se presenta al computador como almacenamiento extraíble, utiliza tarjetas micro SD para ampliar la capacidad y guarda los datos de ubicación en un archivo de texto plano que se puede emparejar con las imágenes. Es compacto y ligero, cuenta con varios LED indicadores para el estado y una batería recargable que ofrece larga autonomía, lo que lo hace ideal para trabajo de campo y fotografía en viajes.
 

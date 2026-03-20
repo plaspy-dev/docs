@@ -20,7 +20,9 @@ keywords:
 
 # Laipac - StarFinder LITE
 
+<div className="device-logo">
 ![StarFinder LITE](./logo.jpg)
+</div>
 
 The Laipac StarFinder LITE is a compact, real time vehicle tracking device designed to provide accurate position and timing information for mobile assets. Using GPS and cellular connectivity, the unit offers core tracking features such as speed, position, heading, mileage, geofence alerts, tow and collision alerts, a panic button with voice capability, and a built in data logger for long term waypoint collection. The device is positioned for both private and commercial vehicle tracking where continuous visibility and periodic reporting are required.
 

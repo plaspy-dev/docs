@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AS300
 
+<div className="device-logo">
 ![AS300](./tracker.jpg)
+</div>
 
 El AS300 Compact Asset Tracker es un rastreador GPS compacto y resistente diseñado para la supervisión de envíos a corto plazo y activos móviles. Combina una carcasa impermeable IP67 y un formato ligero con posicionamiento GNSS preciso y detección de movimiento a bordo, proporcionando datos confiables de ubicación y desplazamiento para activos en tránsito o almacenados.
 

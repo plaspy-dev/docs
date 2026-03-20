@@ -20,7 +20,9 @@ keywords:
 
 # Aplicom - A1 MAX
 
+<div className="device-logo">
 ![A1 MAX](./logo.jpg)
+</div>
 
 The Aplicom A1 MAX is a professional grade GPS tracker built for fleet telematics and demanding vehicle applications. It combines location tracking with inbuilt telematics functionality to capture driver related information and engine data, and is designed to work with vehicle systems such as FMS and digital tachograph environments. The device offers a wide set of connectivity options and inputs and is intended for operations that need reliable mileage reporting, driver identification, event handling, and robust positional awareness.
 

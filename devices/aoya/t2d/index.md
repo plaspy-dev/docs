@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - T2D
 
+<div className="device-logo">
 ![T2D](./logo.jpg)
+</div>
 
 The AoYa T2D is a compact automotive GPS tracker designed for vehicle tracking and fleet applications. At 82 x 39 x 15 mm and weighing 54 g, it is small and lightweight for unobtrusive installation. The device supports GPS, LBS and AGPS positioning and operates on a 2G GSM/GPRS network, offering practical location reporting for cars, trucks, and other vehicles. The unit is supplied with a 180mAh emergency battery and supports a wide input voltage range, making it suitable for a variety of vehicle electrical systems.
 

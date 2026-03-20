@@ -21,7 +21,9 @@ keywords:
 
 # Box - Box Solo
 
+<div className="device-logo">
 ![Box Solo](./logo.jpg)
+</div>
 
 El Box Solo es una unidad de seguimiento para remolques diseñada para registrar de forma continua la posición del remolque y transmitir esos datos para la supervisión de flotas. Combina receptores GPS de alta sensibilidad con comunicación GSM GPRS multibanda para proporcionar registros constantes de ubicación y transmisión remota de información. El equipo está construido para ser resistente y cumplir con normas de certificación, contando con aprobación del Vehicle Certification Agency y conformidad EMC FCC UL, y está configurado para operar en las bandas GSM de EE. UU., incluidas 850 y 1900 MHz.
 

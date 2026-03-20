@@ -21,7 +21,9 @@ keywords:
 
 # Concox - AT1
 
+<div className="device-logo">
 ![AT1](./tracker.png)
+</div>
 
 El Concox AT1 es un rastreador GNSS compacto diseñado para el seguimiento resistente de activos y la supervisión de flotas. Con una carcasa IP67, un fuerte soporte magnético y una batería recargable de larga duración de 6,000 mAh, el AT1 permite despliegues prolongados en carga, contenedores, activos de alto valor y equipos reubicables. La detección de eventos a bordo y el almacenamiento local de datos ayudan a mantener la visibilidad operativa en áreas con cobertura intermitente.
 

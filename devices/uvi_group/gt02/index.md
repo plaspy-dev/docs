@@ -20,7 +20,9 @@ keywords:
 
 # UVI Group - GT02
 
+<div className="device-logo">
 ![GT02](./logo.jpg)
+</div>
 
 The UVI Group GT02 is a compact, portable vehicle tracker designed for monitoring company vehicles and private cars. Described as a mini portable car vehicle tracker, it provides real time location reporting and monitoring through GPS together with GSM GPRS connectivity. The device emphasizes anti theft capability and practical vehicle oversight by sending position, speed, and direction information to a designated server or service for access by phones or computers.
 

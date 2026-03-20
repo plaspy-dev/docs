@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - V-3338
 
+<div className="device-logo">
 ![V-3338](./logo.jpg)
+</div>
 
 The V-SUN V-3338 is a compact, portable GPS tracking device that combines GPS positioning with GSM GPRS communication to provide remote location tracking. It can send latitude and longitude information via SMS for quick location retrieval and can upload positioning data to a designated server for online tracking and historical route review. The device includes a high performance GPS chipset from JRC to improve positioning in weak signal conditions and offers voice and SOS call features for emergency notification.
 

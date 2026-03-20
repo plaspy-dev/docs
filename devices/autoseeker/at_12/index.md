@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-12
 
+<div className="device-logo">
 ![AT-12](./Logo.jpg)
+</div>
 
 The Autoseeker AT-12 is a compact vehicle GPS tracker built for reliable location monitoring and short term deployments. It combines multi band GSM GPRS connectivity with SMS and GPS reporting to provide real time position updates and tracking history. Designed with integrated antennas and an internal battery, the AT-12 emphasizes a streamlined form factor, low power consumption, and features such as automatic time zone adjustment, daily reports, and a low battery alert.
 

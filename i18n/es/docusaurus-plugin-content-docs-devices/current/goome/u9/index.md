@@ -20,7 +20,9 @@ keywords:
 
 # Goome - U9: Rastreador GPS compacto
 
+<div className="device-logo">
 ![U9](./logo.jpg)
+</div>
 
 El Goome U9 es un dispositivo de rastreo GPS compacto y de alto rendimiento basado en la tecnología u-blox 7 y la cuarta generación de posicionamiento por satélite. Admite varios modos de localización, incluidos GPS, LBS y AGPS, con conmutación automática a LBS cuando la señal satelital es débil. A pesar de su tamaño reducido, el U9 incorpora un conjunto amplio de funciones como rastreo en tiempo real, geovallas configurables por el usuario, reproducción de trayectos, alerta SOS, alarma por vibración, alarma por corte de cable, monitoreo de voz remoto y la posibilidad de conectarse a un relé para cortar el motor de forma remota.
 

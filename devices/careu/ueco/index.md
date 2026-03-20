@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - Ueco
 
+<div className="device-logo">
 ![Ueco](./logo..png)
+</div>
 
 The CAREU Ueco is a compact and reliable GPS tracker designed for a variety of vehicle tracking scenarios. It is positioned for use in car rental fleets, taxi operations, logistics companies, and private cars where dependable location reporting and basic telematics are required. The Ueco combines a small form factor with communication and positioning features intended to deliver consistent tracking performance for everyday fleet operations.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - TLV01
 
+<div className="device-logo">
 ![TLV01](./tracker.jpg)
+</div>
 
 El TLV01 Mini Hide es un rastreador GPS compacto y discreto concebido para la protección de activos y la seguridad vehicular. Pensado para instaladores y gestores de flotas que requieren un formato pequeño y opciones de alimentación versátiles, el TLV01 soporta GSM GPRS y reportes por SMS, además de posicionamiento híbrido GPS y LBS con asistencia AGPS. Su diseño prioriza la ocultación y la telemetría continua para el monitoreo de vehículos y activos portátiles.
 

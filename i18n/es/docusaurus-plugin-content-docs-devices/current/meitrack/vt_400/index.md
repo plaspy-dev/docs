@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - VT-400
 
+<div className="device-logo">
 ![VT-400](./logo.jpg)
+</div>
 
 El Meitrack VT-400 es un dispositivo de rastreo GPS/GPRS robusto, diseñado para maquinaria pesada, equipos de construcción y vehículos. Integra un receptor GPS con conectividad GSM para obtener la posición y transmitirla a un teléfono o servidor especificado, permitiendo el seguimiento y la gestión remota. La unidad está construida para soportar condiciones exigentes con certificación IP66, memoria interna para registro de datos, batería de respaldo integrada y un botón físico de pánico SOS para emergencias.
 

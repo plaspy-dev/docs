@@ -20,7 +20,9 @@ keywords:
 
 # Totemtech - AT21-4G
 
+<div className="device-logo">
 ![AT21-4G](./tracker.jpg)
+</div>
 
 The AT21-4G is a rugged, solar powered 4G GPS tracker designed for long term remote asset monitoring. Built for trailers, containers, boxcars, mining equipment and other stationary or remote assets, the device combines a sealed IP67 enclosure, a large integrated solar panel and a high capacity internal battery to provide continuous, low maintenance telematics where permanent DC power is not available.
 

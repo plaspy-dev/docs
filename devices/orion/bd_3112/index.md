@@ -20,7 +20,9 @@ keywords:
 
 # Orion - BD-3112
 
+<div className="device-logo">
 ![BD-3112](./logo.jpg)
+</div>
 
 The Orion BD-3112 is a compact and versatile GPS tracker designed for general purpose tracking of assets, vehicles, and people. It delivers live location updates, supports geo fencing to notify when assets cross defined boundaries, and includes an SOS button for urgent alerts. Its small form factor and durable design make it suitable for discreet attachment to a variety of assets and daily use scenarios.
 

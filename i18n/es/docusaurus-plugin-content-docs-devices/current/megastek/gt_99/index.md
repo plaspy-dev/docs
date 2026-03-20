@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - GT-99
 
+<div className="device-logo">
 ![GT-99](./logo.jpg)
+</div>
 
 El Megastek GT-99 es un rastreador GPS compacto diseñado para ofrecer información de ubicación precisa y fiable. Construido sobre el chipset GPS SiRF Star III y el chipset GSM SIM900 de cuatro bandas, el GT-99 ofrece cobertura celular global y una gama de funciones prácticas de monitorización, incluidas localizaciones bajo demanda, reportes periódicos configurables, un botón SOS, geocercas, alertas por exceso de velocidad, detección de movimiento y registro de datos en el propio dispositivo. Su tamaño reducido y peso ligero lo hacen idóneo para instalaciones discretas en vehículos y activos portátiles.
 

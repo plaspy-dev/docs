@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4955LCBW
 
+<div className="device-logo">
 ![ST4955LCBW](./tracker.jpg)
+</div>
 
 El Suntech ST4955LCBW es un rastreador GPS robusto y alimentado por energía solar, pensado para el monitoreo prolongado de activos en exteriores. Diseñado alrededor de módulos celulares de bajo consumo con opciones de respaldo y optimización en la captación de energía, brinda operación autónoma extendida y mantenimiento simplificado para equipos distribuidos. El equipo dispone de interfaces para sensores locales y detección de movimiento que amplían la telemetría en escenarios ambientales y de seguridad.
 

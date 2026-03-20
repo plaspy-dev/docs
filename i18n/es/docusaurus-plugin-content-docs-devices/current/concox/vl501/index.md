@@ -21,7 +21,9 @@ keywords:
 
 # Concox - VL501
 
+<div className="device-logo">
 ![VL501](./tracker.png)
+</div>
 
 El VL501 es un rastreador GPS LTE plug and play diseñado para instalaciones rápidas y monitorización confiable de flotas. Su diseño con conector de encendedor desmontable y su factor de forma compacto facilitan el despliegue en vehículos sin necesidad de cableado permanente. El equipo combina posicionamiento GNSS multiconstelación con conectividad celular moderna y Bluetooth para ofrecer ubicación precisa y telemetría local útil para operaciones de flota.
 

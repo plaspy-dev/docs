@@ -21,7 +21,9 @@ keywords:
 
 # Bofan - PT-600
 
+<div className="device-logo">
 ![PT-600](./logo.jpg)
+</div>
 
 El Bofan PT-600 es un rastreador vehicular GPS equipado con cámara, diseñado para flotas y operaciones de transporte que requieren evidencia visual junto con datos de ubicación. Integra captura de fotos y video con identificación de conductor mediante RFID, monitoreo de voz y comunicación bidireccional, además de supervisión de condiciones del vehículo como combustible y temperatura. El equipo almacena una gran cantidad de puntos de ruta de forma local y admite actualizaciones en tiempo real vía GPRS, así como solicitudes de ubicación por SMS, lo que lo hace apropiado para entornos con conectividad variable.
 

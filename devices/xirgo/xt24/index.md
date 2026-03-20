@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT24
 
+<div className="device-logo">
 ![XT24](./tracker.webp)
+</div>
 
 The XT24 is a compact plug and play OBD GPS tracker designed for passenger and light duty vehicles. It combines an integrated GNSS receiver with cellular communications and a direct OBD interface to provide location, speed, and vehicle bus telemetry. The device is intended for rapid deployment across vehicle fleets where simple self installation and continuous vehicle monitoring are priorities.
 

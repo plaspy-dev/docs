@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - T8808
 
+<div className="device-logo">
 ![T8808](./logo.jpg)
+</div>
 
 The TopFly T8808 is a compact GPS tracker designed to provide reliable real time monitoring and location tracking for vehicles and mobile assets. The device emphasizes low energy consumption and reduced GPRS data use so it can operate for extended periods without imposing heavy load on a vehicle electrical system. Built with internal GSM and GPS antennas and a simple SIM card insertion method, the T8808 aims to deliver straightforward installation and dependable positioning for both personal and commercial use.
 

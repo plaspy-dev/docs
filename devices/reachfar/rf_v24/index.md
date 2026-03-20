@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V24
 
+<div className="device-logo">
 ![RF-V24](./tracker.jpg)
+</div>
 
 The RF-V24 is a solar charged 4G GPS tracker designed for long term outdoor deployment. It combines a solar charged internal battery with onboard detection features and an emergency voice channel to reduce maintenance cycles while delivering persistent location intelligence for trailers, containers, remote assets and vehicle fleets where continuous external power is limited.
 

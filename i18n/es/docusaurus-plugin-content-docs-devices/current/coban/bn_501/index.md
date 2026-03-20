@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-501
 
+<div className="device-logo">
 ![BN-501](./tracker.png)
+</div>
 
 El BN-501 es un rastreador GPS compacto con diseño tipo joyería pensado para uso wearable discreto y monitoreo oculto de bienes. Combina posicionamiento satelital con correcciones asistidas por WiFi, BLE 5.0 y comunicación celular multi red para ofrecer actualizaciones periódicas de ubicación, alarmas en el dispositivo y modos de energía configurables para uso prolongado. Su factor de forma y conjunto de funciones lo hacen ideal cuando la comodidad y la discreción son prioritarias.
 

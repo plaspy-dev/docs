@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G01 / G02
 
+<div className="device-logo">
 ![G01 / G02](./Logo.png)
+</div>
 
 El CanTrack G01 / G02 es un rastreador GPS compacto diseñado para ofrecer monitoreo de ubicación confiable de vehículos y otros activos móviles. Integra módulos GPS y GSM para captar datos de posición y transmitirlos a través de la red celular. El dispositivo admite rastreo en tiempo real, reproducción de rutas históricas, alertas por geocerca, notificaciones SOS y avisos de batería baja; además cuenta con una batería recargable pequeña que facilita su instalación y colocación.
 

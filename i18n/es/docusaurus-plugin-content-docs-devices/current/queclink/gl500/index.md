@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL500
 
+<div className="device-logo">
 ![GL500](./logo.jpg)
+</div>
 
 El QuecLink GL500 es un rastreador GPS compacto diseñado para el seguimiento de activos fijos. Incluye dos baterías de litio CR123A reemplazables por el usuario y está optimizado para un consumo de energía extremadamente bajo, lo que permite un funcionamiento en espera medido en años en lugar de semanas. El equipo incorpora un chipset GPS u-blox interno para fijaciones de posición confiables, un acelerómetro integrado de 3 ejes para detectar movimiento, antenas internas GSM y GPS, y un micrófono interno opcional para comunicación bidireccional cuando se requiere.
 

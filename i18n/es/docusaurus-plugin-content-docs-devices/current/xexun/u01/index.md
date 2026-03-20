@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - U01
 
+<div className="device-logo">
 ![U01](./tracker.png)
+</div>
 
 El Xexun U01 es un reloj de posicionamiento de alta precisión basado en UWB, diseñado con la estética y ergonomía de un reloj profesional para implementaciones empresariales e institucionales. Ofrece precisión centimétrica en interiores cuando se combina con una red de anclas UWB y un motor de posicionamiento, y además transmite de manera continua telemetría fisiológica como frecuencia cardíaca, presión arterial y SpO2, junto con métricas de movimiento y actividad para supervisión centralizada.
 

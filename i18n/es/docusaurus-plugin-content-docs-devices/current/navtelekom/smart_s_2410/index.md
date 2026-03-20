@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2410
 
+<div className="device-logo">
 ![SMART S-2410](./tracker.jpeg)
+</div>
 
 El SMART S-2410 es un rastreador vehicular compacto de Navtelekom que combina posicionamiento GLONASS y GPS con un módem GSM integrado y Bluetooth 4.0 para configuración local. Está diseñado para un monitoreo y telemetría vehicular sencillos y confiables, ofreciendo múltiples entradas discretas y analógicas, además de una salida de control básica para funciones como inmovilizador o activación remota. El equipo se alimenta desde el vehículo y es adecuado para gestión de flotas e instalaciones con equipos heredados donde se necesita una solución telemétrica sin complicaciones.
 

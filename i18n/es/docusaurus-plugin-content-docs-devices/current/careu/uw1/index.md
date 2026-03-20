@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - UW1
 
+<div className="device-logo">
 ![UW1](./tracker.png)
+</div>
 
 El CAREU UW1 es un rastreador GPS industrial pensado para aplicaciones exigentes de seguimiento de vehículos y activos. Con una carcasa impermeable IP67 y una construcción resistente a las vibraciones en su versión LTE, el UW1 está diseñado para usarse en camiones, motocicletas, maquinaria de construcción y activos de alto valor en ubicaciones remotas. Su combinación de hardware robusto y un amplio registro a bordo mantiene los historiales de ubicación y los datos de eventos disponibles aun en entornos difíciles.
 

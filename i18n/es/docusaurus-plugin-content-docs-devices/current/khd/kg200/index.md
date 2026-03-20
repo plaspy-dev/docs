@@ -21,7 +21,9 @@ keywords:
 
 # KHD - KG200
 
+<div className="device-logo">
 ![KG200](./logo.jpg)
+</div>
 
 El KHD KG200 es un rastreador GNSS de alto rendimiento diseñado para el seguimiento de vehículos y embarcaciones. Combina posicionamiento por GPS o GLONASS con comunicación inalámbrica GSM para ofrecer reportes de ubicación precisos y conectividad confiable para activos en movimiento. El dispositivo destaca por su elevada sensibilidad de recepción, lo que lo hace adecuado para entornos de rastreo exigentes donde las actualizaciones constantes de posición son críticas.
 

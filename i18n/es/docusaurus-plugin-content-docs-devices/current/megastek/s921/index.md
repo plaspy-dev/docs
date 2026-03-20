@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - S921
 
+<div className="device-logo">
 ![S921](./tracker.jpg)
+</div>
 
 El Megastek S921 es una estación base fija y compacta diseñada para ampliar sistemas de monitoreo supervisado en entornos residenciales y de instalaciones. Se empareja con tobilleras Megastek y ofrece detección local de presencia, múltiples señales de alarma y una opción de instalación permanente en interiores para apoyar una supervisión continua y auditada.
 

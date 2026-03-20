@@ -21,7 +21,9 @@ keywords:
 
 # Bofan - PT621
 
+<div className="device-logo">
 ![PT621](./tracker.jpg)
+</div>
 
 El PT621 es un rastreador GPS vehicular 4G resistente, diseñado para la gestión de flotas, la seguridad del vehículo y tareas de monitoreo especializadas. Pensado para montaje en vehículos e integración con periféricos, ofrece reporte continuo de posición junto con telemetría y notificaciones de eventos configurables que ayudan a los operadores a mantener visibilidad y control sobre los activos móviles.
 

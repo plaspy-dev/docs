@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL521MG
 
+<div className="device-logo">
 ![GL521MG](./tracker.png)
+</div>
 
 El GL521MG es un rastreador GPS recargable de larga autonomía diseñado para el monitoreo robusto de activos y la gestión por lotes. Integra conectividad celular con posicionamiento GNSS interno, carga inalámbrica Qi, soporte para accesorios BLE y una carcasa resistente con certificación IP67, ofreciendo telemetría fiable de ubicación y condiciones ambientales ideal para cadena de frío, bodegas y activos estáticos.
 

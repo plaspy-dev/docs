@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-3030
 
+<div className="device-logo">
 ![LMU-3030](./logo.jpg)
+</div>
 
 El CalmAmp LMU-3030 es un rastreador GPS compacto diseñado para aplicaciones en vehículos. Combina un desempeño GPS preciso con un tamaño reducido y acceso directo a la interfaz de diagnóstico del vehículo OBD II, lo que lo hace apropiado para programas de telemática para seguros, monitoreo del comportamiento del conductor, seguimiento de vehículos de renta y supervisión general de flotas. El equipo también integra un acelerómetro de 3 ejes para capturar eventos de movimiento y soporta mensajería mejorada para mantener un enlace confiable con las aplicaciones de backend.
 

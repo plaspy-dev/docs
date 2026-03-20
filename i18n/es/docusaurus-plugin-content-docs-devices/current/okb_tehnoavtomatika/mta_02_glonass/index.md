@@ -21,7 +21,9 @@ keywords:
 
 # OKB Tehnoavtomatika - MTA-02 GLONASS
 
+<div className="device-logo">
 ![MTA-02 GLONASS](./logo.jpg)
+</div>
 
 El MTA-02 GLONASS de OKB Tehnoavtomatika es un rastreador satelital compacto diseñado para el monitoreo confiable de ubicación de vehículos, activos y personal. Integra un receptor GLONASS/GPS de alta sensibilidad de 50 canales MNP-M7 que ofrece datos de posición consistentes, y soporta comunicaciones móviles habituales como GSM 900/1800, GPRS y SMS para el envío y recepción de información. La unidad admite un amplio rango de tensión de alimentación de 9 V a 50 V e incluye una batería recargable integrada para mantener la operación durante cortes breves de energía.
 

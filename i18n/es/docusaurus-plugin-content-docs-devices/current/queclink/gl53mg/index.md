@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL53MG
 
+<div className="device-logo">
 ![GL53MG](./logo..png)
+</div>
 
 El QuecLink GL53MG es un rastreador de activos micro con modo de espera y conectividad LTE, diseñado para despliegues a largo plazo e instalaciones discretas. Pensado para usos como la recuperación de vehículos robados y el monitoreo de activos, combina conectividad global LTE Cat M1 y NB2 con respaldo 2G, una solución de antena robusta para un rendimiento de señal superior y protección IP67 para operar en entornos exigentes.
 

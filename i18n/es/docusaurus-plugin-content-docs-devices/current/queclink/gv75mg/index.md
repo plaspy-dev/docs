@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV75MG
 
+<div className="device-logo">
 ![GV75MG](./tracker.png)
+</div>
 
 El QuecLink GV75MG es un rastreador diseñado para soportar condiciones exigentes en motocicletas, embarcaciones, quads y otros vehículos al aire libre. Con una carcasa resistente IP67, antena interna y conectividad de bajo consumo LTE Cat M1 y NB-IoT con conmutación a 2G, el GV75MG está pensado para ofrecer seguimiento GPS y telemetría confiables en entornos hostiles donde la larga autonomía en espera y la seguridad de la batería son fundamentales.
 

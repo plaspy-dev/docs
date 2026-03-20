@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - X04
 
+<div className="device-logo">
 ![X04](./tracker.jpg)
+</div>
 
 El Xexun X04 es un rastreador mini profesional, compacto, con soporte GPS y Beidou diseñado para ofrecer seguimiento en tiempo real de personas, vehículos y activos portátiles. Emplea posicionamiento híbrido que combina señales satelitales y ayudas locales junto con transmisión celular al servidor en la nube, lo que permite obtener fijaciones más rápidas y cobertura más consistente en zonas con señal satelital débil. Su tamaño facilita el uso diario y reúne funciones habituales para la seguridad y supervisión de activos.
 

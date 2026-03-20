@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-TT18
 
+<div className="device-logo">
 ![TZ-TT18](./logo.jpg)
+</div>
 
 The TZone TZ-TT18 is a single use temperature and humidity transmitter designed to collect high precision environmental data and send it to a server via mobile data. It integrates a temperature and humidity sensing element together with a GSM module and requires insertion of a SIM card to operate. The device is intended for intermittent reporting, remaining in a low power sleep state until scheduled transmissions or user activation, which helps extend operational lifetime for shipment and storage monitoring.
 

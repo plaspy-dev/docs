@@ -21,7 +21,9 @@ keywords:
 
 # Protrack - VT08
 
+<div className="device-logo">
 ![VT08](./Logo.png)
+</div>
 
 El Protrack VT08 es un rastreador GPS compacto para vehículos diseñado para la supervisión de ubicación en tiempo real y la gestión básica de flotas. En la documentación del fabricante aparece a veces como VT08S; el dispositivo está enfocado en reportes continuos y por intervalos, geocercas y una serie de alertas que lo hacen apropiado para rastrear autos, camiones y otros vehículos comerciales. Su tamaño reducido y la compatibilidad con voltajes vehiculares comunes lo convierten en una opción práctica cuando se requiere un seguimiento discreto y constante.
 

@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AK1
 
+<div className="device-logo">
 ![AK1](./logo.jpg)
+</div>
 
 El ATrack AK1 es un rastreador GPS compacto para vehículos que ofrece localización y funciones de control remoto mediante GPS y comunicación GSM GPRS. Diseñado para seguimiento y localización, recuperación de vehículos, gestión de flotas y aplicaciones de telemática, el AK1 integra un motor inteligente de control de eventos con almacenamiento en el dispositivo y gestión de energía para soportar monitoreo continuo y captura de datos.
 

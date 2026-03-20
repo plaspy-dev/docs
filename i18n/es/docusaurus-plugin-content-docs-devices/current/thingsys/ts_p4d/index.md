@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-P4D
 
+<div className="device-logo">
 ![TS-P4D](./logo..png)
+</div>
 
 El ThingSys TS-P4D es un rastreador GPS magnético y compacto diseñado para despliegues prolongados. Es compatible con redes 3G y 4G y se ofrece con baterías extraíbles de gran capacidad de hasta 8000 mAh, lo que lo hace adecuado para el seguimiento a largo plazo de vehículos, activos y contenedores. Incorpora un receptor GPS Ublox 7 de alta sensibilidad que proporciona precisión práctica en la ubicación, junto con funciones como geocercas, alertas SOS, monitoreo de voz remoto, notificaciones de batería baja y detección de movimiento mediante un acelerómetro 3D.
 

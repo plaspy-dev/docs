@@ -20,7 +20,9 @@ keywords:
 
 # TopTen - PT99
 
+<div className="device-logo">
 ![PT99](./Logo.jpg)
+</div>
 
 The TopTen PT99 is a personal asset GPS tracker designed for flexible location monitoring and basic security oversight. It targets scenarios where visibility and occasional remote interaction are important, such as vehicle or valuable item tracking and personal safety monitoring. Key capabilities described for the PT99 include configurable tracking modes like on command, interval reporting, and scheduled clock reports, remote arm and disarm via SMS platform or phone call, address and coordinate reporting with Google Maps links, odometer reporting, and a set of alarms for vibration, SOS, overspeed, and low battery.
 

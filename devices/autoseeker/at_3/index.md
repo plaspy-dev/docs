@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-3
 
+<div className="device-logo">
 ![AT-3](./tracker.jpg)
+</div>
 
 The Autoseeker AT-3 is a compact, weatherproof GPS pet tracker built for reliable outdoor tracking of dogs and other animals. Designed with multi-band cellular connectivity and low-power operation, the AT-3 provides continuous position updates and basic retrieval aids such as a buzzer and LED to help locate animals in the field. Its rugged ABS housing and collar or harness form factor make it suitable for routine walks, active outings, and shelter use.
 

@@ -20,7 +20,9 @@ keywords:
 
 # HunterPro - CP60-TEMP
 
+<div className="device-logo">
 ![CP60-TEMP](./logo.jpg)
+</div>
 
 The HunterPro CP60-TEMP is a GPS tracker engineered for monitoring temperature in refrigerated trucks, containers, and storage facilities. It combines GPS positioning with temperature sensing and remote data reading to help operators observe and manage thermal conditions along the cold chain. This device is intended to provide continuous visibility of cargo temperature alongside location information, supporting quality control for perishable goods.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-AVL02
 
+<div className="device-logo">
 ![TZ-AVL02](./logo.jpg)
+</div>
 
 El TZone TZ-AVL02 es un dispositivo de rastreo GPS/GSM/GPRS compacto diseñado para el seguimiento y la seguridad vehicular en tiempo real. Combina un módulo GPS de alta sensibilidad con comunicación GPRS para ofrecer localizaciones estables incluso en zonas difíciles o remotas. El equipo es pequeño y liviano, con dimensiones de 108 mm x 58 mm x 28 mm y un peso aproximado de 140 g, e incluye antenas externas para GSM y GPS que mejoran la recepción.
 

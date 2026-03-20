@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Маяк 4.4
 
+<div className="device-logo">
 ![Маяк 4.4](./tracker.png)
+</div>
 
 El AutoFon Маяк 4.4 es un rastreador GPS compacto diseñado para seguimiento encubierto de larga duración y bajo mantenimiento. Ofrece posicionamiento GPS fiable y comunicación por GSM mediante SMS y paquetes periódicos GPRS, además de un micrófono integrado y control remoto básico vía SMS. El dispositivo está pensado para instalaciones discretas y para operar de forma autónoma durante periodos prolongados, por lo que resulta apropiado para vehículos, embarcaciones pequeñas, contenedores, kioscos y otros activos donde la discreción y la autonomía de batería son prioritarias.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A9S
 
+<div className="device-logo">
 ![HB-A9S](./tracker.jpg)
+</div>
 
 El HB-A9S es un rastreador GPS 4G de alta gama pensado para flotas de vehículos que requieren telemetría robusta y capacidad multimedia. Combina conectividad celular con un punto de acceso WiFi integrado y puertos ampliables para periféricos como cámaras, lectores de tarjetas y sensores de combustible. El dispositivo también incorpora funciones habituales de flotas, como detección de encendido (ACC), entrada SOS y opciones de corte remoto o limitación de velocidad mediante relé para soporte de seguridad y control operativo.
 

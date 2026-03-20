@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - MT-80
 
+<div className="device-logo">
 ![MT-80](./logo.jpg)
+</div>
 
 The Meitrack MT-80 is a compact personal GPS tracker designed for a range of small scale tracking needs. Its small footprint and lightweight design make it suitable for carrying on a person or attaching to belongings, and it includes built in location logging and common alarm features that help monitor movement and safety. The device description highlights a low power profile for extended standby, multiple tracking modes, and onboard utilities such as an accelerometer and internal storage.
 

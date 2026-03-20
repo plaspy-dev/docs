@@ -21,7 +21,9 @@ keywords:
 
 # Flextrack - Lommy Capture
 
+<div className="device-logo">
 ![Lommy Capture](./tracker.jpg)
+</div>
 
 Lommy Capture es un localizador GPS compacto y fácil de instalar, diseñado para el monitoreo persistente y de bajo mantenimiento de remolques, caravanas y otros activos remolcados. Su carcasa discreta para luminarias y su alimentación interna lo hacen ideal en escenarios donde se prefieren largos intervalos entre visitas de servicio, ofreciendo al mismo tiempo seguimiento en tiempo real y recuperación de rutas históricas para la supervisión de activos.
 

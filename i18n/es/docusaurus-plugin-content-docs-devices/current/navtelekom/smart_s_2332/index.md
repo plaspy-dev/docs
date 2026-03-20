@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СМАРТ S-2332
 
+<div className="device-logo">
 ![СМАРТ S-2332](./tracker.jpeg)
+</div>
 
 El СМАРТ S-2332 es un rastreador GNSS para vehículos de Navtelekom diseñado para la supervisión de flotas y la recolección de telemetría. Combina posicionamiento GLONASS y GPS con conectividad GSM integrada y ofrece múltiples interfaces para sensores. Está pensado para escenarios de flota exigentes donde son importantes las actualizaciones continuas de posición y los reportes por eventos.
 

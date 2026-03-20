@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GB100CG
 
+<div className="device-logo">
 ![GB100CG](./tracker.png)
+</div>
 
 The GB100CG is a compact, battery mounted GPS tracker designed for automotive telematics and usage based insurance workflows. It combines a rugged IP67 enclosure with broad cellular connectivity and a high frequency 6 axis motion sensor to deliver continuous position updates, driving behavior data and event records suitable for insurers, fleet operators and vehicle security systems.
 

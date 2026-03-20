@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - TK102
 
+<div className="device-logo">
 ![TK102](./logo.jpg)
+</div>
 
 The CanTrack TK102 is a compact and versatile GPS tracker designed for both personal and vehicle tracking. It uses GPS satellites for positioning and the GSM GPRS network to deliver location data and alerts. The device can send location updates via SMS to authorized mobile numbers and can also transmit position data by GPRS to an internet server for real time tracking and monitoring.
 

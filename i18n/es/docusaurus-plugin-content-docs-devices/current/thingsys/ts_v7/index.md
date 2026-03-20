@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-V7
 
+<div className="device-logo">
 ![TS-V7](./Logo.jpg)
+</div>
 
 El TS-V7 de ThingSys es un rastreador GPS profesional y compacto diseñado para la seguridad del vehículo, la protección y la gestión de flotas. Ofrece posicionamiento y seguimiento a través de redes 2G, 3G y 4G y puede supervisarse desde una plataforma en línea o mediante un smartphone. Entre las funciones principales que destaca el fabricante están un botón de alarma de emergencia con envío de alertas a números autorizados, control remoto del circuito de combustible y del encendido, monitoreo de audio remoto mediante llamada, alertas por movimiento y exceso de velocidad, geocercas, estadísticas de kilometraje, detección de encendido y corte de alimentación.
 

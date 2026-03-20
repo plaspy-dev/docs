@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM920
 
+<div className="device-logo">
 ![FMM920](./tracker.png)
+</div>
 
 The Teltonika FMM920 is a compact, high performance GPS tracker designed for continuous position reporting and telemetry in fleet and asset tracking deployments. It combines cellular connectivity with a slim 12 mm profile, built in backup battery and Bluetooth Low Energy support to enable discreet installation while maintaining essential tracking and recovery capabilities.
 

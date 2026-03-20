@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMC00A
 
+<div className="device-logo">
 ![FMC00A](./logo..png)
+</div>
 
 El Teltonika FMC00A es un rastreador compacto Plug & Play con conector OBD II diseñado para vehículos en América del Norte. Ofrece conectividad celular 4G LTE Cat 1 con respaldo a 3G y está pensado para proporcionar posicionamiento continuo mediante múltiples sistemas GNSS. El equipo puede leer parámetros OEM del vehículo, como odómetro y nivel de combustible, e incluye detección de eventos como tiempo de marcha en ralentí excesivo, alertas por remolque, indicación de choque y detección de desconexión.
 

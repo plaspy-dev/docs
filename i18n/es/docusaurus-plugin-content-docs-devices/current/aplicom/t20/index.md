@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - T20
 
+<div className="device-logo">
 ![T20](./tracker.png)
+</div>
 
 El Aplicom T20 es un rastreador GPS compacto y una pasarela telemática diseñada para ofrecer seguimiento confiable de vehículos y equipos móviles. Construido para operar con conectividad LTE‑M y conexiones industriales, el T20 recopila datos de ubicación y telemetría de activos móviles y admite periféricos habituales en flotas y monitoreo de equipos. Está pensado para integradores y operadores de flota que requieren seguimiento continuo, captura de telemetría y gestión remota de dispositivos.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMU126
 
+<div className="device-logo">
 ![FMU126](./Logo.png)
+</div>
 
 El Teltonika FMU126 es un rastreador vehicular compacto diseñado para ofrecer posicionamiento en tiempo real y capacidades telemáticas ampliadas. Combina posicionamiento GNSS y conectividad Bluetooth con conexión celular que soporta cobertura 3G y conmutación a 2G. El equipo incluye antenas internas GNSS y celulares, soporte para periféricos externos mediante interfaz RS232 y funciones pensadas para cumplir requisitos de autoridades de transporte como el Department of Land Transport.
 

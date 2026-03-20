@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - GVT-510
 
+<div className="device-logo">
 ![GVT-510](./logo.jpg)
+</div>
 
 El Megastek GVT-510 es un rastreador GPS compacto y resistente diseñado para ofrecer monitoreo de ubicación preciso y confiable en aplicaciones personales y comerciales. Emplea el chipset SiRF Star III para posicionamiento exacto y un módulo GSM SIM900 para cobertura cuatribanda. El dispositivo admite varios modos de rastreo, funciones básicas de alarma como SOS y geo-cercas, detección de movimiento y registro de datos, por lo que es apropiado tanto para seguimiento continuo como para reportes intermitentes.
 

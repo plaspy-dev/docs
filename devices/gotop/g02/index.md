@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G02
 
+<div className="device-logo">
 ![G02](./logo..jpg)
+</div>
 
 The GOTOP G02 is a compact 4G LTE waterproof GPS tracker designed for motorcycles, E-bikes, and cars. With a small footprint and light weight it is intended to be placed discreetly in a variety of vehicles. The device supports tracking via SMS and 4G LTE, offers ACC detection for ignition status, and operates across a wide voltage range, making it suitable for many vehicle types. An IP67 rating provides protection against wet conditions and rough outdoor use.
 

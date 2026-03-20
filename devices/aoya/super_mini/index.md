@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - super mini
 
+<div className="device-logo">
 ![super mini](./logo.jpg)
+</div>
 
 The AoYa Super Mini GPS Tracker is a compact and versatile tracking device that combines GPS LBS and WIFI positioning with a built in light sensor to provide accurate real time location information. Its small footprint is designed for discreet vehicle monitoring while offering common fleet tracking features such as geo fencing history route playback and multiple alarm types for unusual events.
 

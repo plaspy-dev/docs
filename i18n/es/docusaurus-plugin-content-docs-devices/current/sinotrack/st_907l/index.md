@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-907L
 
+<div className="device-logo">
 ![ST-907L](./tracker.jpg)
+</div>
 
 El SinoTrack Relay ST-907L es un rastreador GPS compacto pensado para motocicletas y automóviles que necesitan seguimiento en tiempo real confiable y control remoto del vehículo. Integra posicionamiento dual GNSS, un módulo de alta sensibilidad SIMCOM 7670SA y compatibilidad con redes 4G LTE y 2G GSM para ofrecer fijaciones de posición más estables, arranques asistidos más rápidos y protecciones contra métodos comunes de suplantación de señal. Su factor de forma y amplio rango de voltaje operativo lo hacen idóneo para diversas instalaciones en vehículos pequeños, sin sacrificar funciones clave de antirrobo y telemetría.
 

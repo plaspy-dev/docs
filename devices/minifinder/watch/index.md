@@ -20,7 +20,9 @@ keywords:
 
 # MiniFinder - Watch
 
+<div className="device-logo">
 ![Watch](./tracker.jpg)
+</div>
 
 The MiniFinder Watch is a wearable GPS tracker and safety smartwatch designed for seniors and vulnerable individuals. It provides real time location tracking together with health telemetry, fall detection and a one touch SOS alarm so caregivers and monitoring teams receive timely alerts and location updates. The device is intended for both home and institutional settings and includes features for continuous supervision and everyday use.
 

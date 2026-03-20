@@ -20,7 +20,9 @@ keywords:
 
 # Appello - GT07
 
+<div className="device-logo">
 ![GT07](./logo.jpg)
+</div>
 
 The Appello GT07 is a compact GPS tracker designed specifically for motorcycles. It provides real time location tracking in a small, durable package and is built to operate across a wide working voltage range. The GT07 is positioned as a straightforward solution for monitoring motorcycle location and movement, with manufacturer stated GPS accuracy within 5 meters and a 12 month warranty.
 

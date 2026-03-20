@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FM 2100
 
+<div className="device-logo">
 ![FM 2100](./logo.jpg)
+</div>
 
 The Teltonika FM 2100 is a compact GPS tracker designed to determine the coordinates of remote objects and transmit that data over GSM. It supports GPRS class 10 and SMS communication, operates on quad band GSM frequencies for broad regional coverage, and provides basic I O controls with two digital inputs and two digital outputs. The device is packaged in a robust casing and includes visual status LEDs and NMEA output for navigation related workflows.
 

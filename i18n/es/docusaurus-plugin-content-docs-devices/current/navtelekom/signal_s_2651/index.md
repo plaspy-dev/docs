@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SIGNAL S-2651
 
+<div className="device-logo">
 ![SIGNAL S-2651](./tracker.jpeg)
+</div>
 
 El SIGNAL S-2651 de Navtelekom es un rastreador GPS compacto diseñado para la gestión profesional de flotas, telemática y monitorización de activos. Combina posicionamiento multiconstelación GLONASS y GPS con un módem celular 2G y soporte de doble SIM para ofrecer ubicación y telemetría en tiempo real fiables para vehículos comerciales, equipos especiales y activos estacionarios. El dispositivo está concebido para integrarse con múltiples interfaces vehiculares e industriales e incluye registro local y capacidades inalámbricas de corto alcance para configuración in situ.
 

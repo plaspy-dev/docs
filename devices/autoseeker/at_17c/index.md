@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-17C
 
+<div className="device-logo">
 ![AT-17C](./tracker.jpg)
+</div>
 
 The Autoseeker AT-17C is a 4G wireless magnetic asset GPS tracker designed for covert and low maintenance monitoring of trailers, containers, construction equipment, marine assets and other movable property. It emphasizes long standby life, a compact waterproof enclosure and a powerful magnetic mounting option to support extended deployments without frequent servicing. The unit reports location via cellular channels and includes tamper and removal alarms to help protect high value assets.
 

@@ -20,7 +20,9 @@ keywords:
 
 # OKB Tehnoavtomatika - MTA-03
 
+<div className="device-logo">
 ![MTA-03](./logo.jpg)
+</div>
 
 The Transport Control System MTA-03 from OKB Tehnoavtomatika is a compact and versatile GPS tracker designed for a range of monitoring and control tasks. Its specification emphasizes flexible configuration for specific tasks, support for monitoring both vehicles and stationary objects, and multiple notification channels including internet GPRS, SMS alerts, and monitoring via a service control center. The device uses a high sensitivity 50 channel GPS receiver and offers a broad DC input range plus a built in rechargeable battery, making it suitable for varied deployment scenarios.
 

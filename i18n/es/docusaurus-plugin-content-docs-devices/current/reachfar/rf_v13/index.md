@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V13
 
+<div className="device-logo">
 ![RF-V13](./tracker.jpg)
+</div>
 
 El Reachfar RF-V13 es un sistema compacto e inalámbrico de alarma para puertas y ventanas pensado para seguridad perimetral discreta. Integra un sensor magnético para detección de intrusiones, comunicación GSM y capacidades básicas de localización para enviar notificaciones remotas en hogares, comercios pequeños y oficinas. Su tamaño reducido y fuente de energía recargable lo hacen adecuado para montaje discreto en puertas, ventanas u otros puntos de acceso donde se requiere protección ligera y de baja visibilidad.
 

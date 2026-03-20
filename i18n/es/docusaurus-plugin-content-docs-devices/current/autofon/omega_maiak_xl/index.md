@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Омега-Маяк XL
 
+<div className="device-logo">
 ![Омега-Маяк XL](./logo..png)
+</div>
 
 El AutoFon Омега-Маяк XL es un rastreador GPS compacto y robusto diseñado para determinar y reportar la posición de un objeto protegido mediante la combinación de los sistemas satelitales GLONASS y GPS con soporte A‑GPS. Construido sobre la plataforma de hardware v8, el equipo transmite coordenadas por GSM mediante SMS y realiza cargas a servidores de monitoreo a través de GPRS. Entre sus funciones destacan sensores de movimiento e impacto, soporte para doble SIM, almacenamiento local amplio para paquetes de seguimiento, micrófono integrado y una carcasa sellada IP67 apta para diversos entornos.
 

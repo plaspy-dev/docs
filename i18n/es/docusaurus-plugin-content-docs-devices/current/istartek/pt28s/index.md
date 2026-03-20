@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - PT28S
 
+<div className="device-logo">
 ![PT28S](./tracker.jpg)
+</div>
 
 El PT28S es un reloj rastreador GPS ponible y resistente de iStartek, diseñado para la seguridad personal y el monitoreo de ubicación. Con un formato compacto y pantalla IPS, combina posicionamiento multimodal y amplio soporte celular para ofrecer actualizaciones de ubicación continuas, un botón SOS para emergencias, comunicación de voz bidireccional y telemetría básica de salud. Su certificación IP67 y construcción ligera lo hacen apropiado para el uso diario y actividades al aire libre.
 

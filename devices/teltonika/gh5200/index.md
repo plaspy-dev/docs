@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - GH5200
 
+<div className="device-logo">
 ![GH5200](./tracker.png)
+</div>
 
 The GH5200 is a compact, autonomous 2G personal GPS tracker designed for workforce management and personal security. Built for continuous on-person use, the device is intended to be worn on a lanyard, belt or ID holder and provides core safety features such as two-way voice, programmable controls, automatic incident detection and support for Bluetooth sensors and beacons. Its form factor and feature set make it suitable for lone workers, field technicians and vulnerable people operating in industrial, agricultural and service environments.
 

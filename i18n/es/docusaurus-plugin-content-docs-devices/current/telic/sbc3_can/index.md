@@ -21,7 +21,9 @@ keywords:
 
 # Telic - SBC3 CAN
 
+<div className="device-logo">
 ![SBC3 CAN](./logo.jpg)
+</div>
 
 El Telic SBC3 CAN es un rastreador GPS robusto y versátil pensado para aplicaciones telemáticas exigentes. Ofrece acceso a diversas interfaces del vehículo, incluyendo RS232, 1-wire y CAN bus, y está alojado en una carcasa duradera diseñada para ambientes adversos. Las distintas configuraciones de antena y la opción de una batería de 4 Ah brindan flexibilidad en la instalación y en la autonomía del equipo.
 

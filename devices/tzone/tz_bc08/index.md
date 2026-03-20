@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-BC08
 
+<div className="device-logo">
 ![TZ-BC08](./logo.jpg)
+</div>
 
 The TZone TZ-BC08 is a compact and lightweight tracker designed for reliable short range tracking and proximity detection. It combines a small form factor and low weight with a creamy white aesthetic, making it easy to place discreetly in personal items or attach to small assets. The device supports the iPhone iBeacon protocol over Bluetooth 4.0 and is described with a broadcasting interval range and adjustable transmit power suitable for a variety of proximity scenarios.
 

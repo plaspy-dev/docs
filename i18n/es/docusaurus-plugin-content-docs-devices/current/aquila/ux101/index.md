@@ -21,7 +21,9 @@ keywords:
 
 # Aquila - UX101
 
+<div className="device-logo">
 ![UX101](./logo.jpg)
+</div>
 
 El Aquila UX101 es un dispositivo de rastreo vehicular avanzado diseñado para la gestión de flotas y el monitoreo de activos. Combina una carcasa compacta y resistente con clasificación IP67, un conector tipo ECU automotriz y antenas internas GPS y GSM para facilitar instalaciones ocultas y conexiones estables en entornos vehiculares. El UX101 registra parámetros clave como ubicación, hora, velocidad, distancia y estado de encendido; además incluye sensor de movimiento, alerta por desconexión de la batería principal, capacidad de voz y almacenamiento local con arquitectura de reenvío de datos.
 

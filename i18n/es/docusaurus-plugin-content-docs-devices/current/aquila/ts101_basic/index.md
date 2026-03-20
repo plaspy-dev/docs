@@ -21,7 +21,9 @@ keywords:
 
 # Aquila - TS101-Basic
 
+<div className="device-logo">
 ![TS101-Basic](./logo.jpg)
+</div>
 
 El Aquila TS101-Basic es un dispositivo de rastreo vehicular compacto pensado para la gestión de flotas y la supervisión de activos. Integra un interruptor anti-manipulación y una carcasa resistente con certificación IP65 que protege la electrónica frente al polvo y al agua en entornos móviles. El TS101-Basic ofrece rastreo en tiempo real y dispone de almacenamiento en estado sólido para hasta 10,000 registros de seguimiento, garantizando visibilidad en vivo y un historial fiable de movimientos.
 

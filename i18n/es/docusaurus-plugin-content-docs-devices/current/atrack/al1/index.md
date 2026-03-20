@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AL1
 
+<div className="device-logo">
 ![AL1](./logo.jpg)
+</div>
 
 El ATrack AL1 es un rastreador GPS compacto para vehículos diseñado para monitoreo en tiempo real y control remoto flexible. Combina posicionamiento GPS de alta precisión con comunicación GSM GPRS y un sensor G de 3 ejes integrado, lo que lo hace útil para seguimiento, detección de comportamientos de conducción y acciones de eventos configurables. El dispositivo ofrece además múltiples opciones de transmisión de datos y soporta actualizaciones de firmware por aire, por lo que resulta adecuado para una amplia variedad de aplicaciones de rastreo de vehículos y activos.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G183
 
+<div className="device-logo">
 ![G183](./tracker.jpg)
+</div>
 
 The CanTrack G183 is a JOBD series OBD level GPS tracker designed for vehicle diagnostics and real time telematics. Built for use in passenger cars and commercial vehicles, the G183 combines compact in vehicle connectivity with GNSS positioning and continuous reporting so operators can collect location, mileage, fuel metrics, diagnostic trouble codes and alarm events.
 

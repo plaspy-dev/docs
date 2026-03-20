@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V48
 
+<div className="device-logo">
 ![RF-V48](./tracker.jpg)
+</div>
 
 The RF-V48 is a compact 4G GPS tracker in a clip on bracelet form designed for dependable personal safety and continuous location monitoring. As a wearable device it combines multi mode positioning with built in voice and SOS features to provide timely situational information for caregivers, family members, and operators who need responsive visibility of people or light assets.
 

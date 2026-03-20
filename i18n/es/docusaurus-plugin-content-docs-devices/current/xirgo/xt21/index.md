@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT21
 
+<div className="device-logo">
 ![XT21](./tracker.webp)
+</div>
 
 El XT21 es un rastreador GPS económico diseñado para la telemática de activos remotos. Integra un receptor GPS con conectividad celular LTE para entregar actualizaciones de ubicación en tiempo real y telemetría esencial para remolques, equipos portátiles y otros activos remotos de alto valor donde la alimentación puede ser intermitente o limitada. Su formato compacto y su enfoque en señales indispensables lo hacen adecuado para despliegues que priorizan bajo consumo de energía y monitoreo sencillo.
 

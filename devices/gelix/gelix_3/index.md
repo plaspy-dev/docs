@@ -20,7 +20,9 @@ keywords:
 
 # Gelix - Gelix 3
 
+<div className="device-logo">
 ![Gelix 3](./logo.gif)
+</div>
 
 The Gelix 3 is a versatile power consumption data logger and GPS tracker designed to collect and deliver telemetry and event data for a wide range of applications. It features automated I O capability and an embedded modem or Ethernet connectivity option, making it suitable for environments where continuous monitoring of power usage, temperature, alarms, and related events is required. The device is presented as a single platform for logging, monitoring, and remote data delivery.
 

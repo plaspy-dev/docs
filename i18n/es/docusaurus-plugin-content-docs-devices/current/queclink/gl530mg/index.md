@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL530MG
 
+<div className="device-logo">
 ![GL530MG](./tracker.png)
+</div>
 
 El QuecLink GL530MG es un rastreador de activos compacto e impermeable, diseñado para la supervisión a largo plazo y con bajo mantenimiento de equipos remotos y de alto valor. Combina conectividad celular global de bajo consumo con opciones de respaldo, sensores robustos contra manipulación y variables ambientales, y una carcasa adecuada para uso exterior. Está pensado para escenarios donde la larga autonomía en modo reposo y la precisión en los reportes de ubicación son críticos, como remolques, contenedores, activos estáticos y pallets refrigerados.
 

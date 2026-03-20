@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - Rastreador GPS OBD2
 
+<div className="device-logo">
 ![OBD2 GPS Tracker](./tracker.jpg)
+</div>
 
 El rastreador OBD2 de TK-Star es un dispositivo plug-and-play que se conecta directamente al puerto OBD2 estándar para una implementación rápida. Diseñado para autos particulares, flotas de alquiler y vehículos comerciales, ofrece información continua de ubicación y datos de diagnóstico del vehículo a plataformas compatibles con Plaspy. Es una alternativa sin cableado que proporciona rastreo en tiempo real, rutas históricas y telemetría básica útil para monitoreo y seguridad.
 

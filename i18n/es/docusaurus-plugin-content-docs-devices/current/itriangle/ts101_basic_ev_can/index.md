@@ -21,7 +21,9 @@ keywords:
 
 # iTriangle - TS101 Basic EV CAN
 
+<div className="device-logo">
 ![TS101 Basic EV CAN](./tracker.png)
+</div>
 
 El TS101 Basic EV CAN es un dispositivo telemático compacto y resistente, diseñado para ofrecer seguimiento vehicular y registro de datos fiables. Pensado para atender tanto a vehículos eléctricos como a flotas convencionales, el TS101 Basic EV CAN proporciona seguimiento en tiempo real, posicionamiento GNSS multiconstelación y almacenamiento local offline para conservar registros cuando la cobertura de red es limitada. Su caja robusta con protección IP65 y su amplio rango de voltaje lo hacen apto para diversos entornos de vehículos comerciales.
 

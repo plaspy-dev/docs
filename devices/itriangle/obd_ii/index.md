@@ -20,7 +20,9 @@ keywords:
 
 # iTriangle - OBD II
 
+<div className="device-logo">
 ![OBD II](./tracker.png)
+</div>
 
 The OBD II from iTriangle is a professional plug and play vehicle tracker designed to provide integrated GNSS and cellular tracking with direct access to vehicle telemetry. Built for fast installation into the vehicle diagnostic port, it offers compact onboard antennas, access to vehicle data streams, and motion sensing to support continuous tracking, diagnostics and fleet oversight without requiring external cabling.
 

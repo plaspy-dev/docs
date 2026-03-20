@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V36
 
+<div className="device-logo">
 ![RF-V36](./tracker.jpg)
+</div>
 
 The RF-V36 is a wearable GPS tracker in a wristwatch form factor designed for eldercare. It combines outdoor GPS positioning with indoor Wi‑Fi and assisted LBS positioning, a motion aware G-sensor, heart rate and blood pressure monitoring, SOS emergency signaling, two-way audio, and configurable reminders. The watch is built for continuous personal monitoring and includes IP67 water and dust resistance for everyday wear.
 

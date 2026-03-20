@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4305
 
+<div className="device-logo">
 ![ST4305](./tracker.jpg)
+</div>
 
 The Suntech ST4305 is a rugged wired vehicle GPS tracker from the ST4305 series designed for fleet managers and vehicle recovery services. It provides continuous GNSS based positioning and telematics through multi network cellular coverage, and is offered in multiple variants that address different installation and telemetry needs. The family combines a compact vehicle grade form factor with a 14 pin connection harness and configurable reporting suited to fleet environments.
 

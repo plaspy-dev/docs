@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - PT81
 
+<div className="device-logo">
 ![PT81](./tracker.jpg)
+</div>
 
 The iStartek PT81 is a compact 4G wearable GPS tracker designed for personal safety and continuous location awareness. Built for daily use, the device combines multi mode positioning (GPS BeiDou Wi‑Fi LBS), a 1.0 inch TFT display, IP67 water resistance and a slim wearable form factor. These characteristics make the PT81 suitable for situations where discreet, reliable location reporting and simple on device controls are important.
 

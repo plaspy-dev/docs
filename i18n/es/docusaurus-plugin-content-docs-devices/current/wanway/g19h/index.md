@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - G19H
 
+<div className="device-logo">
 ![G19H](./tracker.webp)
+</div>
 
 El WanWay G19H es un rastreador GPS compacto y resistente, diseñado para el seguimiento y la seguridad de vehículos. Fabricado como un dispositivo de cuatro cables con tecnologías GSM y GPS integradas y alojado en una carcasa impermeable con certificación IP67, el G19H ofrece ubicación en tiempo real y telemetría confiable para vehículos que operan en condiciones húmedas o expuestas. Su conjunto de funciones se centra en controles prácticos contra robo y en operaciones, como detección de encendido ACC, alarmas por vibración y manipulación, y una función de inmovilizador por corte remoto.
 

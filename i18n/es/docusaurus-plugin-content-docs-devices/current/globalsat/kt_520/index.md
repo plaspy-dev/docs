@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - KT-520
 
+<div className="device-logo">
 ![KT-520](./tracker.jpg)
+</div>
 
 El GlobalSat KT-520 es un rastreador satelital compacto y resistente diseñado para la supervisión prolongada de activos y vehículos en lugares sin servicio celular. Basado en la conectividad satelital Kineis, el KT-520 integra un receptor GNSS, un acelerómetro triaxial para detección de movimiento, una batería SAFT de larga duración y configuración local por BLE, ofreciendo reportes de posición y telemetría confiables en ubicaciones remotas.
 

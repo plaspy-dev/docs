@@ -20,7 +20,9 @@ keywords:
 
 # Concox - GT06S
 
+<div className="device-logo">
 ![GT06S](./tracker.png)
+</div>
 
 The GT06S is a mini vehicle GNSS tracker designed for discreet fleet and vehicle asset tracking. Its compact form factor and broad 9–90V DC input make it suitable for motorcycles, cars and heavy trucks, while built in features such as remote cut off for fuel or power, ignition detection and a microphone provide practical support for anti theft and situational awareness in commercial operations.
 

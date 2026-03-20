@@ -21,7 +21,9 @@ keywords:
 
 # STL - STL060
 
+<div className="device-logo">
 ![STL060](./logo.jpg)
+</div>
 
 El STL STL060 es un dispositivo GPS compacto pensado para el seguimiento de vehículos, personas y activos portátiles. Utiliza señales satelitales para obtener coordenadas precisas y registra la posición a intervalos regulares. El equipo destaca por su sencillez de uso y ofrece exportación de datos y configuración vía SMS, lo que lo hace adecuado para quienes necesitan seguimiento práctico sin configuraciones complejas.
 

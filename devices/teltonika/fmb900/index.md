@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB900
 
+<div className="device-logo">
 ![FMB900](./tracker.png)
+</div>
 
 The Teltonika FMB900 is a compact, low-cost 2G vehicle tracker designed for straightforward vehicle tracking, basic telemetry and anti-theft applications. Its slim form factor and discreet install suitability make it a practical choice for fleets, trailers and small assets where space is limited but reliable real time location and basic control features are required. The model supports Bluetooth Low Energy attachments to extend monitoring with external beacons and sensors.
 

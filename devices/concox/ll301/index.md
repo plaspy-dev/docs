@@ -20,7 +20,9 @@ keywords:
 
 # Concox - LL301
 
+<div className="device-logo">
 ![LL301](./tracker.png)
+</div>
 
 The Concox LL301 is a rugged asset GNSS tracker designed for long term, low maintenance deployments. It combines multi constellation positioning with regional LTE and GSM cellular connectivity and a high capacity 10,000 mAh industrial battery in an IP65 rated enclosure. The device is intended for real time location tracking and telemetry across asset types where long standby life and durable construction are priorities.
 

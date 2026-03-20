@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FTM880
 
+<div className="device-logo">
 ![FTM880](./tracker.png)
+</div>
 
 El Teltonika FTM880 es un rastreador GPS montado en batería diseñado para telemática de flotas exigentes y el rastreo de activos pesados. Pensado para despliegues de larga duración y sin mantenimiento frecuente, el FTM880 combina una carcasa robusta con certificación IP69K con un rendimiento GNSS mejorado y opciones de conectividad celular para ofrecer posicionamiento y telemetría fiables en equipos y activos remotos.
 

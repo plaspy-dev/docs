@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMP100
 
+<div className="device-logo">
 ![FMP100](./tracker.png)
+</div>
 
 El Teltonika FMP100 es un rastreador GPS compacto plug and play diseñado para un despliegue rápido en vehículos. Funciona conectado a la toma del encendedor del vehículo, por lo que ofrece seguimiento de ubicación inmediato y funciones de interacción con el conductor sin necesidad de instalación fija. Su tamaño ligero y la instalación sencilla lo hacen ideal para instalaciones temporales, alquileres de corta duración y despliegues piloto donde la rapidez y la flexibilidad son prioridades.
 

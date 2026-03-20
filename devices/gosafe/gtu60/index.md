@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - GTU60
 
+<div className="device-logo">
 ![GTU60](./tracker.webp)
+</div>
 
 The GTU60 is an economical, full featured GPS tracker from a proven OEM designed for fast installation and dependable operation in vehicle fleets. It combines multi band cellular connectivity with a high sensitivity 32 channel GNSS receiver and AGPS to provide consistent real time location and telemetry. The unit is compact and tamper resistant, with internal antennas and an IP65 water resistant enclosure for discreet installations across light commercial and rental vehicle deployments.
 

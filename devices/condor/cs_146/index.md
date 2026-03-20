@@ -20,7 +20,9 @@ keywords:
 
 # Condor - CS-146
 
+<div className="device-logo">
 ![CS-146](./tracker.png)
+</div>
 
 The CS-146 is a purpose built GPS tracker for container control and cargo security. Designed to monitor container position and status, the CS-146 transmits location and operational messages over cellular or satellite networks to provide reliable tracking even across mixed transport legs. Its form factor and feature set are focused on protecting cargo and supporting container access workflows.
 

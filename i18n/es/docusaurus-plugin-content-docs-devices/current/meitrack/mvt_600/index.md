@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - MVT-600
 
+<div className="device-logo">
 ![MVT-600](./logo.jpg)
+</div>
 
 El Meitrack MVT-600 es un rastreador GPS vehicular compacto diseñado para ofrecer monitoreo continuo de ubicación y una variedad de funciones ampliables. Soporta eventos basados en condiciones y puede integrarse con accesorios opcionales como cámara interna, sensores de combustible y lector RFID para ampliar sus capacidades en seguridad y supervisión operativa.
 

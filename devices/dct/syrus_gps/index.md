@@ -20,7 +20,9 @@ keywords:
 
 # DCT - Syrus GPS
 
+<div className="device-logo">
 ![Syrus GPS](./logo.jpg)
+</div>
 
 The DCT Syrus GPS is a high performance GPS tracker built for IoT and M2M applications that need fast and reliable data transfer. It combines location tracking with a fully integrated 3 axis internal digital accelerometer that supports instant acceleration monitoring and conditional crash history reporting. The device also includes features such as tamper detection, a large store and forward buffer capable of holding many events, configurable geofencing, and a water resistant IP65 enclosure to withstand challenging environments.
 

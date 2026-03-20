@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - WTH301
 
+<div className="device-logo">
 ![WTH301](./tracker.png)
+</div>
 
 El WTH301 es un sensor compacto de temperatura y humedad de QuecLink diseñado para la logística profesional de la cadena de frío y la monitorización en transporte. Pensado para entornos de remolques y contenedores, ofrece mediciones ambientales continuas con protección robusta IP66 y un diseño pequeño que se instala discretamente dentro de activos refrigerados. El dispositivo está orientado a operaciones que requieren datos fiables de condiciones para mercancías sensibles durante el transporte y el almacenamiento.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-BC05
 
+<div className="device-logo">
 ![TZ-BC05](./logo.jpg)
+</div>
 
 El TZone TZ-BC05 es un dispositivo de rastreo compacto y liviano diseñado para ofrecer monitoreo confiable de ubicación y proximidad. Presenta una carcasa discreta color crema con un tamaño de 45 x 45 x 21 mm y un peso aproximado de 40 gramos. El TZ-BC05 utiliza el protocolo iBeacon de iPhone y la tecnología Bluetooth 4.0 para emitir señales, es compatible con las principales plataformas móviles y permite ajustar parámetros de transmisión, además de funcionar por largo tiempo con una batería CR 2477.
 

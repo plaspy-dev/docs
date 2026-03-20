@@ -20,7 +20,9 @@ keywords:
 
 # Concox - GT300
 
+<div className="device-logo">
 ![GT300](./logo.jpg)
+</div>
 
 The Concox GT300 is a compact GSM GPS safety phone designed for personal and small item tracking. It provides built-in GPS reception with strong sensitivity and a fast time to first fix, making it suitable for keeping track of children, elderly family members, luggage, or pets. The device includes a quad-band GPRS GSM subsystem and supports a range of report types such as emergency alerts, geo fence boundary crossings, low battery notifications, and SOS alarms.
 

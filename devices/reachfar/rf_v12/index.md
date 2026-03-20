@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V12
 
+<div className="device-logo">
 ![RF-V12](./tracker.jpg)
+</div>
 
 The RF-V12 is a compact GSM GPRS real time GPS tracker from Reachfar designed for electric bicycles and motorcycles. It focuses on anti theft protection and live location visibility by combining continuous position reporting with dedicated tamper detection features such as vibration and sound alarms, line cut detection, displacement alerts, and remote listening. The device is built for discreet mounting and straightforward operation suitable for both individual vehicles and managed fleets.
 

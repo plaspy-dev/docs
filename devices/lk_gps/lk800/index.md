@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK800
 
+<div className="device-logo">
 ![LK800](./tracker.jpg)
+</div>
 
 The LK800 is a compact personal GPS tracker designed for real time safety and discreet everyday carry. It combines multi system satellite positioning with A GPS assistance to improve fixes in challenging signal conditions and is specified by the manufacturer to deliver frequent position updates, with update capability down to 5 second intervals. The device includes emergency features such as a prominent SOS button, automatic fall detection and two way voice to support direct communication when needed.
 

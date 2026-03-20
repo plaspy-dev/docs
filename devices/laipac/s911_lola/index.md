@@ -20,7 +20,9 @@ keywords:
 
 # Laipac - S911 Lola
 
+<div className="device-logo">
 ![S911 Lola](./logo.jpg)
+</div>
 
 The Laipac S911 Lola is a mobile personal emergency response system (mPERS) that combines GPS location tracking with cellular two way communication. Designed as a small, portable locator roughly the size of a car remote, the S911 Lola offers an SOS panic button that sends alerts to a designated contact, provides location coordinates and time of the event, and opens two way voice communication for immediate assistance. Its compact form factor and multiple carrying options make it easy to keep on a keychain, lanyard, belt, or in a pocket.
 

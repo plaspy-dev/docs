@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP8600
 
+<div className="device-logo">
 ![SP8600](./logo.jpg)
+</div>
 
 El SkyPatrol SP8600 es una serie de rastreadores GPS portátiles plug and play pensada para un despliegue rápido y un uso flexible entre vehículos. Las unidades se alimentan desde la toma de accesorios o un cargador del vehículo, lo que permite moverlas de un coche a otro en segundos. La serie SP8600 prioriza la facilidad de uso y la portabilidad práctica, ofreciendo conectividad global mediante un módem quad band GSM y detección de movimiento con acelerómetro de 3 ejes y sensor de fuerza G.
 

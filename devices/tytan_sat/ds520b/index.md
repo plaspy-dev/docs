@@ -20,7 +20,9 @@ keywords:
 
 # Tytan SAT - DS520B
 
+<div className="device-logo">
 ![DS520B](./tracker.png)
+</div>
 
 The DS520B is a Plaspy compatible GPS tracker designed for reliable vehicle and cargo monitoring. As the B version in the DS520 series, it provides GSM GPRS real time tracking and a set of telemetry interfaces intended for in vehicle use. The device exposes analog and digital inputs and outputs, supports 1 wire temperature sensors, and includes local data buffering to preserve events when connectivity is interrupted.
 

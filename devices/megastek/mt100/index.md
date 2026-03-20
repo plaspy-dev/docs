@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - MT100
 
+<div className="device-logo">
 ![MT100](./tracker.jpg)
+</div>
 
 The MT100 is a compact 4G personal GPS tracker from Megastek designed for personal protection, security personnel, and public safety applications. It combines multi mode positioning, rugged IP67 housing, two way voice communication and SOS emergency alerts to provide dependable real time location and incident signalling in both outdoor and mixed indoor environments.
 

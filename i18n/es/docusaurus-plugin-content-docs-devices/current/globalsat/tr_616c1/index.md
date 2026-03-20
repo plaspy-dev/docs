@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - TR-616C1
 
+<div className="device-logo">
 ![TR-616C1](./tracker.jpg)
+</div>
 
 El TR-616C1 es un rastreador GPS 4G LTE de montaje vehicular, de tamaño compacto, diseñado para una gestión práctica de flotas y activos. Integra un receptor GNSS de alta sensibilidad, un módem celular multibanda y una carcasa resistente para ofrecer ubicación en tiempo real precisa y telemetría vehicular esencial, adecuada para seguimiento continuo y reporte de eventos.
 

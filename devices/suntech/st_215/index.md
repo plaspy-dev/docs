@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 215
 
+<div className="device-logo">
 ![ST 215](./logo.jpg)
+</div>
 
 The Suntech ST 215 is a GPS vehicle tracker designed for track and trace, vehicle recovery, and fleet management. It combines internal GPS and GSM antennas with a quad band GSM GPRS modem to provide reliable location reporting. The device supports flexible positioning options that can report based on time intervals, distance traveled, or angle change, and it is offered in multiple versions to suit different deployment needs.
 

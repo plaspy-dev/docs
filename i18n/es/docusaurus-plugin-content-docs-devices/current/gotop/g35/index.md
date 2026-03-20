@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G35
 
+<div className="device-logo">
 ![G35](./tracker.png)
+</div>
 
 El GOTOP G35 es un rastreador GPS de montaje en collar diseñado para el monitoreo prolongado de mascotas, ganado y animales en campo. Combina posicionamiento en múltiples modos y una carcasa resistente con certificación IP67 con una inusual batería recargable de 20000 mAh, ofreciendo información confiable de ubicación y estado en tiempo real para recuperación, investigación y gestión rutinaria de animales. El equipo incluye funciones pensadas para localizar animales en condiciones de poca luz, como tono acústico localizador, flash LED y monitoreo de voz, y además admite registro de puntos de ruta sin conexión para despliegues donde la conectividad continua no está garantizada.
 

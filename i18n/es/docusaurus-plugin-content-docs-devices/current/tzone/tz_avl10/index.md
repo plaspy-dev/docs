@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-AVL10
 
+<div className="device-logo">
 ![TZ-AVL10](./logo.jpg)
+</div>
 
 El TZone TZ-AVL10 es un rastreador GPS vehicular compacto pensado para el seguimiento y monitoreo flexible de activos móviles. Ofrece una autonomía extendida que supera los tres meses, soporta seguimiento vía software o teléfono celular y cuenta con un conjunto de alertas como exceso de velocidad, batería baja y geocercas. El equipo también incorpora funcionalidades para la gestión de costos de roaming, detección de estado de puertas y encendido del motor, y la capacidad de realizar un corte controlado de alimentación del motor en situaciones de emergencia. Las opciones de comunicación incluyen GPRS y SMS, y el firmware puede actualizarse por aire (OTA).
 

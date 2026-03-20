@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC880
 
+<div className="device-logo">
 ![FMC880](./tracker.png)
+</div>
 
 The Teltonika FMC880 is a rugged, battery mounted GPS tracker designed for demanding fleet management and remote asset tracking. Built with dual band GNSS for improved positioning, cellular connectivity with regional fallback, and Bluetooth Low Energy support for external sensors, the FMC880 targets logistics, rental and car sharing, and deployed asset monitoring where durability and reliable telemetry matter.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - P88L
 
+<div className="device-logo">
 ![P88L](./tracker.png)
+</div>
 
 El Meitrack P88L es un rastreador GNSS portátil y compacto diseñado principalmente para la seguridad personal y el seguimiento familiar. Combina posicionamiento multimodal con una interfaz sencilla de dos botones y un control dedicado de SOS para ofrecer ubicaciones en tiempo real confiables y alertas oportunas. El equipo es móvil y robusto, proporciona larga autonomía en modo de trabajo inteligente, admite carga magnética rápida e incluye búfer offline para mantener continuidad durante breves interrupciones de cobertura.
 

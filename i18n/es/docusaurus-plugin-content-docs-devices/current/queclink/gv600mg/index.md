@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV600MG
 
+<div className="device-logo">
 ![GV600MG](./logo..png)
+</div>
 
 El QuecLink GV600MG es un rastreador LTE resistente diseñado para vehículos de trabajo pesado como remolques, cisternas y plataformas. Su carcasa con clasificación IP67 está preparada para soportar ambientes de transporte exigentes, e integra receptor GNSS y sensor G para ubicación fiable y detección de movimiento. El GV600MG incorpora una batería interna de gran capacidad pensada para despliegues prolongados en campo, ofreciendo hasta 120 días en modo espera, ideal para activos que suelen desconectarse de la alimentación del vehículo.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4335
 
+<div className="device-logo">
 ![ST4335](./tracker.jpg)
+</div>
 
 El ST4335 es un rastreador GPS de alta resistencia y diseño híbrido, pensado para el seguimiento de vehículos y activos industriales. Diseñado para ambientes exigentes, combina una carcasa robusta y conectividad celular multinetwork con posicionamiento GNSS para entregar información fiable de ubicación, movimiento y estado. Su construcción y características lo hacen ideal para remolques, contenedores, maquinaria pesada y otras implementaciones a largo plazo donde la durabilidad y la telemetría continua son prioritarias.
 

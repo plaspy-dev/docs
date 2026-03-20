@@ -20,7 +20,9 @@ keywords:
 
 # Noran - NR028
 
+<div className="device-logo">
 ![NR028](./tracker.jpg)
+</div>
 
 The NR028 is a vehicle mounted navigation and telematics unit from Noran that combines GPS positioning with an integrated touchscreen display and an embedded digital camera. Designed for fleet management, vehicle security and in cab navigation, the NR028 delivers live location, driver communication and multimedia navigation in a single device suitable for dispatch operations and incident documentation.
 

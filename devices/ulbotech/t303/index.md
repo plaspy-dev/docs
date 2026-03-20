@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T303
 
+<div className="device-logo">
 ![T303](./tracker.jpg)
+</div>
 
 The T303 is a professional grade vehicle GPS tracker purpose built for fleet management, anti theft protection and driver behaviour monitoring. Based on a proven platform and equipped with a high sensitivity GNSS module, quad band cellular connectivity and a comprehensive set of inputs and outputs, the T303 provides reliable real time location and telemetry for vehicles of many sizes. Configurable geo fences, emergency alert handling and remote immobilization support common telematics workflows.
 

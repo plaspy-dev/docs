@@ -20,7 +20,9 @@ keywords:
 
 # Stars Nav - Photo GPS
 
+<div className="device-logo">
 ![Photo GPS](./logo.jpg)
+</div>
 
 The Stars Nav Photo GPS is a portable GPS logger designed to simplify photo geotagging. It appears to a computer as removable storage, uses micro SD cards for expandable capacity, and stores location data in a plain text log that pairs with image files. The device is compact and lightweight, with multiple LED indicators for status and a rechargeable battery offering extended operation, making it convenient for field use and travel photography.
 

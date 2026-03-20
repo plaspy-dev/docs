@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A3B
 
+<div className="device-logo">
 ![HB-A3B](./tracker.jpg)
+</div>
 
 El HB-A3B es un rastreador y unidad de control de grado vehicular diseñado para implementaciones que requieren control de velocidad forzado, registro de cumplimiento y seguimiento en tiempo real confiable. El equipo combina posicionamiento GNSS con comunicaciones celulares y salidas de control locales dedicadas para detectar eventos de exceso de velocidad, generar alarmas, registrar recorridos y accionar intervenciones activas como relés o limitación por control electrónico. Está pensado para flotas comerciales, transporte de pasajeros e instalaciones reguladas donde la auditabilidad y el control operacional son prioritarios.
 

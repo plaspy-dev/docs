@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-1000
 
+<div className="device-logo">
 ![LMU-1000](./logo.jpg)
+</div>
 
 El CalAmp LMU-1000 es una unidad de rastreo GPS de clase económica diseñada para ofrecer una gestión de activos rentable en los mercados de seguros y préstamos subprime. Proporciona funcionalidad de seguimiento y apoyo para la recuperación de vehículos en una carcasa plástica compacta y resistente. El equipo incorpora antenas GPS y GSM internas, una batería de respaldo que mantiene el reporte de ubicación ante cortes de energía y un modo de suspensión que conserva energía cuando el dispositivo está inactivo. No incluye capacidad de voz y está pensado para un uso de rastreo sencillo y confiable.
 

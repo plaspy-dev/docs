@@ -20,7 +20,9 @@ keywords:
 
 # GenX Mobile - GNX-3
 
+<div className="device-logo">
 ![GNX-3](./logo.jpg)
+</div>
 
 The GenX Mobile GNX-3 is a versatile GPS tracker designed for a wide range of tracking needs, from vehicle fleets to mobile resource management. Built with configurable settings and high quality components, the GNX-3 delivers reliable and accurate real time location tracking. It includes an auto calibrating 3 axis accelerometer to monitor events such as rapid acceleration and harsh driving, offering deeper visibility into movement and behavior.
 

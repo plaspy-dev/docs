@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G500M
 
+<div className="device-logo">
 ![G500M](./tracker.jpg)
+</div>
 
 El CanTrack G500M Mini GPS Tracker es una unidad OBD II compacta, plug and play, diseñada para un monitoreo vehicular sencillo y sin complicaciones. Ofrece actualizaciones de ubicación en tiempo real, reproducción histórica y telemetría esencial a través de datos celulares, con memoria local que cubre breves interrupciones de conectividad. El G500M está pensado para la supervisión práctica de flotas ligeras, vehículos de alquiler y automóviles particulares donde se requiere una solución de rastreo confiable y de baja fricción.
 

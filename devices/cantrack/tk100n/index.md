@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - TK100N
 
+<div className="device-logo">
 ![TK100N](./tracker.png)
+</div>
 
 The TK100N is a hard wired, multi functional 2G vehicle GPS tracker from a proven OEM designed for professional deployments. It offers real time tracking along with key vehicle status features such as ACC detection, an SOS panic input, and remote relay control. The unit is intended for cars, motorcycles and e bikes and is built to operate across a wide vehicle voltage range for dependable in service use.
 

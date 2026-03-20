@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT900-G
 
+<div className="device-logo">
 ![VT900-G](./tracker.jpg)
+</div>
 
 El VT900-G es un rastreador vehicular profesional de iStartek, diseñado para implementaciones telemáticas exigentes. Integra posicionamiento GNSS de alta sensibilidad con conectividad celular y almacenamiento local para asegurar el envío continuo de ubicaciones y eventos. El equipo admite entradas de diagnóstico del vehículo y múltiples sensores externos, por lo que resulta adecuado para monitoreo de flotas, seguridad y telemetría operativa.
 

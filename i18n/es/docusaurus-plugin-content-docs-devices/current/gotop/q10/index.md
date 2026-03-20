@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - Q10
 
+<div className="device-logo">
 ![Q10](./tracker.jpg)
+</div>
 
 El GOTOP Q10 es un rastreador GPS SOS ultracompacto diseñado para ofrecer seguridad personal confiable y localización en tiempo real de manera sencilla. Cuenta con un botón SOS prominente y una carcasa resistente al agua; se suministra con un soporte y su tamaño facilita llevarlo de forma discreta en el día a día. Es habitual su uso para proteger a niños, personas mayores, trabajadores aislados, mascotas y otros usuarios que requieren un dispositivo de seguridad fácil de portar y de usar.
 

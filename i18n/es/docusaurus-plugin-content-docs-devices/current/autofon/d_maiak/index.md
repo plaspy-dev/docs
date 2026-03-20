@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - D-Маяк
 
+<div className="device-logo">
 ![D-Маяк](./tracker.jpg)
+</div>
 
 El AutoFon D‑Маяк (D‑Beacon) es una baliza compacta y autónoma GSM/GLONASS+GPS diseñada para instalaciones encubiertas y recuperación antirrobo confiable. Sobre una plataforma de hardware moderna v.6.x, la unidad está pensada para operar de forma autónoma por períodos prolongados, con reportes configurables por SMS y GPRS, detección de múltiples eventos mediante acelerómetro digital y un conjunto de entradas y salidas para funciones de alarma y control remoto. El D‑Маяк combina un factor de forma discreto con capacidades orientadas a escenarios de seguimiento persistente y recuperación.
 

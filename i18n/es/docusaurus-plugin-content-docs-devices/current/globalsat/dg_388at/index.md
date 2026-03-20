@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - DG-388AT
 
+<div className="device-logo">
 ![DG-388AT](./tracker.jpg)
+</div>
 
 El DG-388AT es un registrador de datos con GPS de diseño compacto de GlobalSat, pensado para uso personal y para el seguimiento ligero de activos cuando lo principal es disponer de un historial detallado de rutas. Como dispositivo autónomo, graba hora, fecha, velocidad, altitud y coordenadas GPS para generar un historial denso de waypoints. Las rutas registradas pueden exportarse en formatos habituales para su análisis y cartografía.
 

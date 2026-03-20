@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK419
 
+<div className="device-logo">
 ![TK419](./tracker.jpg)
+</div>
 
 The TK419 is a compact 4G GPS tracker designed for vehicle fleets and asset security. Built for reliable real time tracking, the unit combines multi constellation positioning and cellular telemetry to deliver continuous location and alarm data. Its small footprint and water resistant housing make it suitable for discreet use in cars, trucks and other mobile assets where ongoing location visibility and basic anti theft features are required.
 

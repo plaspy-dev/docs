@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - C750
 
+<div className="device-logo">
 ![C750](./tracker.jpg)
+</div>
 
 El GOTOP C750 es un rastreador OBD GPS compacto, plug and play, diseñado para desplegarse rápidamente en automóviles y vehículos comerciales ligeros. Pensado para instalaciones sencillas y monitoreo inmediato, el equipo combina posicionamiento GNSS y comunicaciones GSM/GPRS para ofrecer reportes de ubicación continuos, alertas configurables e informes de eventos mientras está conectado al puerto OBD-II del vehículo.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V34
 
+<div className="device-logo">
 ![RF-V34](./tracker.jpg)
+</div>
 
 The RF-V34 is a rugged, solar powered GPS tracker engineered for long term outdoor tracking of cattle, sheep and other livestock. Designed for remote pasture monitoring, it combines a high capacity internal battery with solar charging and an IP67 rated enclosure to reduce maintenance cycles and deliver reliable operation in harsh field conditions. The unit is collar mountable and includes magnetic USB charging for convenient service without complex tools.
 

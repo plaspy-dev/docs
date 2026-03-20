@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB640-FMB641
 
+<div className="device-logo">
 ![FMB640-FMB641](./Logo.png)
+</div>
 
 The Teltonika FMB640 and its updated variant FMB641 are professional grade GPS trackers designed for complex fleet and asset monitoring applications. They combine vehicle location tracking with a wide range of vehicle and peripheral data capabilities, including support for FMS CAN data, fuel CAN data, tachograph live data and remote tachograph file download. Both models accept various third party RS232 or RS485 devices and support peripheral sensors such as RFID, iButton, temperature 1-Wire devices and Continental tire pressure sensors.
 

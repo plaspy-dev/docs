@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP1603
 
+<div className="device-logo">
 ![SP1603](./tracker.png)
+</div>
 
 El SP1603 es un rastreador GPS diseñado específicamente para programas de monitoreo de infractores y arresto domiciliario. Concebido como un wearable de tobillo, prioriza la entrega fiable de la ubicación, el funcionamiento continuo gracias a una batería interna recargable y una detección clara de manipulación mediante un cinturón de fibra óptica. El dispositivo también ofrece integración opcional con balizas domésticas para ayudar a verificar la presencia dentro del domicilio autorizado.
 

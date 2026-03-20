@@ -21,7 +21,9 @@ keywords:
 
 # Concox - BL10
 
+<div className="device-logo">
 ![BL10](./tracker.png)
+</div>
 
 El Concox BL10 es un candado inteligente para bicicletas con GNSS y rastreador GPS oculto, pensado para flotas de bicicletas compartidas y operadores de micromovilidad. Combina un mecanismo de cierre robusto con reporte continuo de ubicación para ofrecer a los operadores un dispositivo integrado de gestión de flotas y antirrobo, adecuado para despliegues exteriores prolongados y programas de uso público.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Riti - 690 (IDU-401)
 
+<div className="device-logo">
 ![690 (IDU-401)](./tracker.jpg)
+</div>
 
 Locator 690 (IDU-401) is a vehicle mounted Mobile IoT device designed for modern fleet management. The unit combines GPS telemetry with integrated image capture and on device AI detection to identify abnormal driving events. It is engineered to work alongside existing DVR and MDVR systems, automatically capturing and buffering pre event, during event, and post event images to support faster incident review.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - X01
 
+<div className="device-logo">
 ![X01](./tracker.jpg)
+</div>
 
 The Xexun X01 is an industrial grade wired vehicle tracker designed for dependable, always on location monitoring. Built for compact installation across a wide range of vehicles, the X01 combines GPS and BeiDou hybrid positioning to improve fix speed and location accuracy. The device is intended for continuous real time reporting over domestic 2G/3G/4G cellular networks and includes an internal rechargeable backup battery to preserve reporting through short power interruptions.
 

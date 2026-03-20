@@ -20,7 +20,9 @@ keywords:
 
 # Haicom - HI-602X
 
+<div className="device-logo">
 ![HI-602X](./logo.jpg)
+</div>
 
 The Haicom HI-602X is a compact GPRS GPS tracker from Haicom's X series designed for flexible asset tracking. It combines GPS and GSM modules with an integrated battery, antennas, and a waterproof enclosure to provide standalone tracking for vehicles and equipment. The device supports on‑platform configuration and can record position history to internal flash memory for later retrieval when network coverage is unavailable.
 

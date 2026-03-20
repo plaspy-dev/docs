@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - HCV5 Lite
 
+<div className="device-logo">
 ![HCV5 Lite](./logo..png)
+</div>
 
 The Ruptela HCV5 Lite is a premium GPS tracker built for heavy and light commercial vehicle tracking. Designed with commercial fleets in mind, the HCV5 Lite offers versatile connectivity, multiple inputs and outputs, and broad vehicle coverage that supports common vehicle data sources. Built-in GNSS positioning and durability features make it suitable for continuous fleet operations where reliable location and operational oversight are required.
 

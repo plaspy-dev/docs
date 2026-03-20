@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-408A
 
+<div className="device-logo">
 ![BN-408A](./tracker.png)
+</div>
 
 The BN-408A is a portable GPS tracker from Coban designed for reliable asset management and anti theft protection. It features a strong magnetic mount for tool free placement on vehicles and movable assets, a high capacity 3.7V 10,000 mAh rechargeable battery for extended deployments, and onboard tamper detection to support security workflows. The device is intended for long term, maintenance light monitoring when permanent installation is not practical.
 

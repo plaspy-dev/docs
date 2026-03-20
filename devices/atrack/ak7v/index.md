@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AK7V
 
+<div className="device-logo">
 ![AK7V](./logo..jpg)
+</div>
 
 The ATrack AK7V is a vehicle GPS tracker designed for fleet monitoring and vehicle control. It combines accurate location tracking with remote I/O control and two way voice communication, making it suitable for operations that need both position visibility and direct driver coordination. The device supports multiple connectivity options and vehicle data access to help teams maintain situational awareness across moving assets.
 

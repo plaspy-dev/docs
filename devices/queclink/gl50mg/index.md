@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL50MG
 
+<div className="device-logo">
 ![GL50MG](./tracker.png)
+</div>
 
 The GL50MG is a compact, waterproof GPS tracker designed for long term asset protection and discreet deployments. Built for low power wide area cellular networks with backward compatibility to 2G, the device targets use cases such as stolen vehicle recovery, rental fleets, and high value asset tracking. Its micro, installation free form factor and IP67 sealing make it suitable for concealed mounting where durability and low maintenance are important.
 

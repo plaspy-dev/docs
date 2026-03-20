@@ -21,7 +21,9 @@ keywords:
 
 # Flextrack - Lommy Personal
 
+<div className="device-logo">
 ![Lommy Personal](./logo.jpg)
+</div>
 
 El Flextrack Lommy Personal es un dispositivo de rastreo orientado a la seguridad personal, diseñado para quienes requieren monitoreo de ubicación discreto y confiable. Es adecuado para trabajadores solitarios, asistentes sociales, personas mayores y niños, y ofrece un diseño configurable para ajustarse a las necesidades individuales. El Lommy Personal destaca por su larga autonomía entre cargas y por incorporar un receptor GPS de alta sensibilidad que facilita el rastreo incluso en entornos difíciles.
 

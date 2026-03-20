@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-4511
 
+<div className="device-logo">
 ![SMART S-4511](./tracker.jpeg)
+</div>
 
 El SMART S-4511 es un rastreador GPS compacto de Navtelekom diseñado para ofrecer reportes de posición y telemetría confiables. Integra posicionamiento GLONASS y GPS con conectividad celular, una batería recargable interna y un conjunto flexible de entradas y salidas para capturar señales discretas y analógicas. El dispositivo está concebido para facilitar la gestión de flotas y el monitoreo de activos cuando se requiere información continua de ubicación y reportes basados en eventos.
 

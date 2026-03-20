@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-905/915
 
+<div className="device-logo">
 ![ST-905/915](./Logo.jpg)
+</div>
 
 The SinoTrack ST-905/915 is a compact, rugged GPS tracker designed for a wide range of tracking scenarios. It combines durable construction with a built in 10000mAh battery capable of extended standby time, positioning using a Ubox 7020 GPS module with reported position accuracy up to about 10 meters 2D RMS, and a set of alarm and monitoring features. The unit is built to tolerate outdoor conditions with a magnet and waterproof design, and supports SMS and GPRS connectivity for reporting and remote commands.
 

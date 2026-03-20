@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-AVL05
 
+<div className="device-logo">
 ![TZ-AVL05](./logo.jpg)
+</div>
 
 El TZone TZ-AVL05 es un rastreador GPS compacto y versátil diseñado para el monitoreo en tiempo real de la ubicación y el estado de vehículos. Es una solución adecuada para vehículos particulares, activos de flota y necesidades generales de seguimiento de activos. El equipo ofrece funciones prácticas de monitoreo como alertas por exceso de velocidad, batería baja y geocercas, además de capacidad de roaming para reducir costos al operar entre distintas regiones.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Riti - 670 (IDU-300)
 
+<div className="device-logo">
 ![670 (IDU-300)](./tracker.jpg)
+</div>
 
 The RITI Locator 670 (IDU-300) is an in-vehicle GPS tracker designed for intelligent fleet management and continuous position monitoring. As a 3G IDU model it delivers frequent position reporting and high sensitivity GNSS reception, and it supports a range of peripherals commonly used in commercial vehicle telematics. Although this specific model is discontinued, its design emphasizes reliable location reporting, mileage tracking, voltage monitoring, and integration with external sensors.
 

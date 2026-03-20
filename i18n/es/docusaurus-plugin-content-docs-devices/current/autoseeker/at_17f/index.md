@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT- 17F
 
+<div className="device-logo">
 ![AT- 17F](./Logo.jpg)
+</div>
 
 El Autoseeker AT-17F es un rastreador GPS robusto y de larga autonomía diseñado para el monitoreo versátil de vehículos y activos. Integra posicionamiento multi GNSS, amplias opciones de conectividad celular y una carcasa sellada con certificación IP68 para ofrecer reportes de ubicación fiables en entornos exigentes. El equipo soporta informes programados, rastreo en tiempo real y alertas habituales como geocerca, batería baja, extracción y notificaciones basadas en movimiento.
 

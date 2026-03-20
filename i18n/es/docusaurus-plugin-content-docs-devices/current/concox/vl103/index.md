@@ -21,7 +21,9 @@ keywords:
 
 # Concox - VL103
 
+<div className="device-logo">
 ![VL103](./logo..png)
+</div>
 
 El Concox VL103M es un rastreador GPS compacto diseñado para uso en flotas industriales y comerciales. Combina posicionamiento multiconstelación con un conjunto de funciones prácticas enfocadas en la seguridad del vehículo y del conductor, incluyendo un zumbador o bocina externa para ayudar a localizar unidades, avisos audibles y luminosos por exceso de velocidad o fatiga, y capacidad de escucha remota. El equipo está construido para aguantar entornos exigentes, con protección IP66 contra polvo y agua.
 

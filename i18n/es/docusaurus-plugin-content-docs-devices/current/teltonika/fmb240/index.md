@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB240
 
+<div className="device-logo">
 ![FMB240](./tracker.png)
+</div>
 
 El Teltonika FMB240 es un rastreador GPS compacto pensado para instalaciones exigentes en vehículos y activos. Se entrega en una caja resistente con protección IP67 e incluye capacidades para leer datos del bus CAN del vehículo, además de emparejarse con sensores Bluetooth® LE. Está dirigido a despliegues de flotas y movilidad eléctrica y se ofrece en varias configuraciones para adaptarse a diferentes necesidades de instalación y monitorización.
 

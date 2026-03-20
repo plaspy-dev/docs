@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-906
 
+<div className="device-logo">
 ![ST-906](./tracker.jpg)
+</div>
 
 El SinoTrack ST-906 es un rastreador GPS con cable y de tamaño compacto, diseñado para su uso en motocicletas, automóviles, camiones, bicicletas eléctricas y vehículos logísticos. Cuenta con antena integrada y un flujo de configuración por SMS sencillo que permite a instaladores y propietarios establecer el servidor, puerto y APN del dispositivo. La unidad está pensada para un montaje discreto en el vehículo y ofrece reportes de posición en vivo junto con reproducción de historial y configuración remota vía SMS.
 

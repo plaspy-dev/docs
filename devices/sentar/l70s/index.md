@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - L70S
 
+<div className="device-logo">
 ![L70S](./logo.jpg)
+</div>
 
 The Sentar L70S is a compact kids GPS tracker watch designed to provide parents and caregivers with continuous location visibility. Marketed as a child safety device, the L70S combines multiple positioning methods to deliver timely location updates and uses an MTK2503 chipset for core tracking functions. It is available in several colors and is presented as a wearable that balances everyday usability with location monitoring.
 

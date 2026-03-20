@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - GF10
 
+<div className="device-logo">
 ![GF10](./Logo.png)
+</div>
 
 The CanTrack GF10 Finger Tracker is a compact and versatile GPS tracking device designed for discreet location monitoring. At roughly finger size, the GF10 provides real time location updates using a combination of GPS, LBS, and AGPS technologies. It supports access to position information through SMS, platform access, or a mobile application, and includes features such as geofence alerts, low battery notification, vibration tamper alert, power saving modes, and local memory storage for periods without GSM signal.
 

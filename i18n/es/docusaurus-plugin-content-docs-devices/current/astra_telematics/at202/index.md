@@ -21,7 +21,9 @@ keywords:
 
 # Astra Telematics - AT202
 
+<div className="device-logo">
 ![AT202](./tracker.jpg)
+</div>
 
 El AT202 es un rastreador GPS compacto y de alto rendimiento diseñado para aplicaciones modernas de IoT y gestión de flotas. Combina soporte GNSS multiconstelación con comunicaciones celulares multi red para ofrecer posicionamiento confiable y amplia cobertura en seguimiento en tiempo real. El equipo está construido con tolerancia eléctrica robusta adecuada para sistemas vehiculares de hasta 65V e incluye una batería de respaldo interna de capacidad moderada, antenas internas y un acelerómetro integrado para mantener los reportes en condiciones de baja energía o desconexión.
 

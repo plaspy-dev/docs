@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB202
 
+<div className="device-logo">
 ![FMB202](./Logo.png)
+</div>
 
 The Teltonika FMB202 is a compact, waterproof IP67 GPS tracker designed for asset and vehicle tracking where durability and extended autonomy are important. It includes internal high gain GNSS and GSM antennas, Bluetooth connectivity, a high capacity internal backup battery capable of operating up to two days in power saving mode, and support for a wide range of monitoring and reporting features. The device accepts a flexible input voltage range, making it suitable for diverse vehicle types including motorbikes and watercraft.
 

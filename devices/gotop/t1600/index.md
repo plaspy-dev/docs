@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - T1600
 
+<div className="device-logo">
 ![T1600](./tracker.jpg)
+</div>
 
 The GOTOP T1600 is a bicycle GPS tracker designed for long term outdoor use and anti theft protection. It combines a U BLOX 50 channel GNSS module with an MTK GPRS chipset to provide reliable position fixes, configurable motion alerts, and multiple notification channels including SMS, web platform and mobile app. Built with a 5200mAh internal battery, IPX7 waterproof enclosure and an option to charge from a Flower Drum Dynamo, the T1600 targets cyclists, rental fleets and outdoor asset monitoring that require low maintenance and dependable real time tracking.
 

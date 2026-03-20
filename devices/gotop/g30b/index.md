@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G30B
 
+<div className="device-logo">
 ![G30B](./tracker.jpg)
+</div>
 
 The G30B is a compact, magnet-mounted GPS tracker designed for long-term, low-maintenance tracking of vehicles and movable assets. Marketed in equipment catalogs as a discreet unit, the device combines hybrid GNSS positioning (GPS and Beidou) with LBS fallback, a substantial internal battery, and strong NdFeB magnets for non permanent mounting. Its small form factor and focus on extended standby life make it suitable where infrequent servicing and reliable location updates are priorities.
 

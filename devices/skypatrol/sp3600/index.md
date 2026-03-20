@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP3600
 
+<div className="device-logo">
 ![SP3600](./logo.jpg)
+</div>
 
 The SkyPatrol SP3600 Series is a vehicle focused GPS tracking device designed to deliver reliable location monitoring and operational visibility. Built for transportation and fleet environments, the SP3600 offers quad band GSM GPRS connectivity, real time tracking, geofencing, and a set of onboard sensors including an accelerometer and a temperature sensor. Its robust design aims to address common needs such as fleet management, insurance telematics, dispatch coordination, and vehicle recovery.
 

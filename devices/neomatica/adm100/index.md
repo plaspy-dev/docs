@@ -20,7 +20,9 @@ keywords:
 
 # Neomatica - ADM100
 
+<div className="device-logo">
 ![ADM100](./tracker.png)
+</div>
 
 The Neomatica ADM100 is a compact GPS tracker engineered for dependable vehicle monitoring and straightforward mass deployment. It combines a high sensitivity GNSS receiver for accurate positioning with built in GSM connectivity to report location and event data in real time. The device is described as suitable for light commercial vehicles, trucks and special machinery, providing continuous position, speed and heading information along with local route storage.
 

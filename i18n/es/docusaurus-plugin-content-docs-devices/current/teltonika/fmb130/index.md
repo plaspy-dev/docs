@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB130
 
+<div className="device-logo">
 ![FMB130](./tracker.png)
+</div>
 
 El Teltonika FMB130 es un rastreador GPS vehicular compacto diseñado para maquinaria de alto consumo de combustible, como equipos de construcción, maquinaria agrícola y otros vehículos de uso especial. Proporciona reporte de posición junto con entradas flexibles para medidores por impulsos, compatibilidad con adaptadores CAN para parámetros del vehículo y soporte para sensores Bluetooth. Su reducido tamaño y las funciones orientadas a vehículos lo hacen apropiado para despliegues prolongados en equipos todoterreno y especializados.
 

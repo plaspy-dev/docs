@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - MT-80
 
+<div className="device-logo">
 ![MT-80](./logo.jpg)
+</div>
 
 El Meitrack MT-80 es un rastreador GPS personal compacto diseñado para diversas necesidades de seguimiento a pequeña escala. Su tamaño reducido y peso ligero lo hacen ideal para llevar en la persona o fijarlo a pertenencias; además incluye registro de ubicación y funciones de alarma que facilitan la supervisión de movimientos y la seguridad. El dispositivo destaca por su bajo consumo para prolongar la autonomía en espera, múltiples modos de rastreo y utilidades integradas como acelerómetro y almacenamiento interno.
 

@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-905
 
+<div className="device-logo">
 ![ST-905](./tracker.jpg)
+</div>
 
 El SinoTrack ST-905 es un rastreador GPS magnético, compacto e impermeable diseñado para montaje discreto en vehículos, bicicletas y otros activos móviles. Su carcasa delgada con base magnética y el robusto encapsulado con protección IP permiten fijarlo en superficies metálicas de forma discreta, mientras que el receptor GNSS integrado y la conectividad celular suministran informes de ubicación y estado para protección de activos y aplicaciones antirrobo.
 

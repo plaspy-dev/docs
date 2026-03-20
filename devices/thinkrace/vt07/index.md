@@ -20,7 +20,9 @@ keywords:
 
 # ThinkRace - VT07
 
+<div className="device-logo">
 ![VT07](./logo.jpg)
+</div>
 
 The ThinkRace VT07 is a vehicle tracker designed to provide precise location information through advanced 3-mode positioning GPS technology. It combines continuous tracking with a multi-alarm system that includes overspeed, power failure, vibration, and similar alerts to help protect vehicles against unauthorized use or unexpected events. The VT07 is built to operate across a wide temperature range, making it suitable for deployments in challenging climates.
 

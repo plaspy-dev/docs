@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT-6200
 
+<div className="device-logo">
 ![XT-6200](./logo.jpg)
+</div>
 
 El Xirgo XT-6200 es un dispositivo global y autónomo para rastreo remoto de activos, diseñado para ofrecer monitoreo confiable de ubicación y estado en activos móviles y estacionarios. Está orientado a la gestión de recursos móviles, la protección de activos de alto valor y los despliegues remotos donde la visibilidad continua es crucial. El XT-6200 combina antenas celulares y GPS integradas con un receptor GPS de alta precisión y opciones de conectividad local para admitir una amplia variedad de activos, como tráileres, contenedores, generadores y otro equipo valioso.
 

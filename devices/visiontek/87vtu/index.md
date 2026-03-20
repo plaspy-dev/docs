@@ -20,7 +20,9 @@ keywords:
 
 # VisionTek - 87VTU
 
+<div className="device-logo">
 ![87VTU](./logo.jpg)
+</div>
 
 The VisionTek 87VTU is a vehicle tracking unit that combines a built in GPS receiver engine, quad band GSM modem, and a modern microprocessor to collect and transmit position, date, time, and direction information. The device includes inbuilt flash memory, an internal battery, a USB port for configuration and firmware upload, a serial port, digital and analog inputs and outputs, a tamper switch, a hard reset button, a 3D motion sensor, and LED status indicators. Designed for durability, the 87VTU is housed in an IP65 plastic enclosure with internal antennas and provision for external antenna connections.
 

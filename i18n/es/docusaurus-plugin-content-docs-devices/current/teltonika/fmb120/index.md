@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB120
 
+<div className="device-logo">
 ![FMB120](./tracker.png)
+</div>
 
 El Teltonika FMB120 es un rastreador GPS compacto y orientado al costo, diseñado para telemetría vehicular básica y monitoreo remoto de flotas. Pensado principalmente para despliegues donde la conectividad celular económica es suficiente, el dispositivo ofrece seguimiento continuo de ubicación, monitoreo de estados esenciales y la capacidad de inmovilización remota. Su formato reducido y las diversas opciones de presentación lo hacen ideal para autos de alquiler, taxis, vehículos de logística, transporte público y vehículos particulares que requieren seguimiento confiable y de bajo costo junto con telemetría sencilla.
 

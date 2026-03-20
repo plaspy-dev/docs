@@ -20,7 +20,9 @@ keywords:
 
 # EV - EV-606
 
+<div className="device-logo">
 ![EV-606](./logo.jpg)
+</div>
 
 The EV-606 is a versatile personal and asset tracking device designed for continuous location monitoring. It combines GPS satellite positioning with CellLocate technology to improve tracking in shielded or indoor environments such as parking structures and enclosed spaces. The unit includes a rechargeable and replaceable battery with extended run time, a built in 3D G sensor for motion and shock detection, voice communication capabilities, and onboard storage for tens of thousands of logged points.
 

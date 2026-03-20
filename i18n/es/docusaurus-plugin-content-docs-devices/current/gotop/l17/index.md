@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - L17
 
+<div className="device-logo">
 ![L17](./tracker.jpg)
+</div>
 
 El GOTOP L17 es una pulsera inteligente SOS con GPS y conectividad 4G, diseñada para seguridad personal y monitoreo de salud. Con formato de reloj de pulsera e IP67, el L17 integra posicionamiento GNSS, conectividad LTE y soporte Bluetooth opcional para ofrecer ubicación y telemetría continuas. Combina el seguimiento de parámetros de salud con un botón SOS y llamadas bidireccionales, por lo que es apropiado para niños, adultos mayores, trabajadores aislados y la protección de pertenencias personales.
 

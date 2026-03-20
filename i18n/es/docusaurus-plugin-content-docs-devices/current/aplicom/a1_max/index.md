@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - A1 MAX
 
+<div className="device-logo">
 ![A1 MAX](./logo.jpg)
+</div>
 
 El Aplicom A1 MAX es un rastreador GPS de nivel profesional diseñado para telemática de flotas y aplicaciones vehiculares exigentes. Combina el seguimiento de la ubicación con funcionalidades telemáticas integradas para registrar información del conductor y datos del motor, y está pensado para integrarse con sistemas de vehículo como FMS y entornos con tacógrafo digital. El equipo ofrece múltiples opciones de conectividad e entradas, y está orientado a operaciones que requieren reportes de kilometraje confiables, identificación de conductor, gestión de eventos y posicionamiento robusto.
 

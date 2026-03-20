@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - GTU5000
 
+<div className="device-logo">
 ![GTU5000](./tracker.png)
+</div>
 
 El GTU5000 es un rastreador GPS de grado profesional diseñado para operadores de flotas e integradores de telemática que requieren hardware robusto para seguimiento en tiempo real y telemetría avanzada. Diseñado para sistemas eléctricos de vehículos comunes, el equipo combina conectividad celular con GNSS multiconstelación y una variedad de entradas y salidas para capturar ubicación, datos de sensores y estados de conducción, ideal para monitoreo de flotas y activos.
 

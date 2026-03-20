@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FTC961
 
+<div className="device-logo">
 ![FTC961](./tracker.png)
+</div>
 
 The Teltonika FTC961 is a rugged 4G LTE Cat 1 GPS tracker engineered for demanding mobile and off road applications. Designed with high precision GNSS, robust cellular connectivity and a sealed IP69K enclosure, the FTC961 targets fleets and heavy machinery that require reliable real time location and telemetry in harsh conditions. Remote device management options such as FOTA WEB and the Teltonika FT platform support simplified lifecycle handling for large deployments.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-2654
 
+<div className="device-logo">
 ![СИГНАЛ S-2654](./tracker.jpeg)
+</div>
 
 El СИГНАЛ S-2654 es un localizador vehicular GLONASS de Navtelekom diseñado para gestión de flotas y telemetría industrial. Integra un módem 3G con redundancia de doble SIM, registro local de datos y una amplia variedad de entradas/salidas y puertos seriales para recopilar posición y señales del vehículo. Está pensado para implementaciones en flotas, vehículos de servicio y activos móviles que requieren informes de posición continuos, captura de eventos y almacenamiento local cuando la cobertura celular es intermitente.
 

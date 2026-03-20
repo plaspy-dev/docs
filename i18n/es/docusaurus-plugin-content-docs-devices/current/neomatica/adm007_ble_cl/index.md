@@ -21,7 +21,9 @@ keywords:
 
 # Neomatica - ADM007 BLE CL
 
+<div className="device-logo">
 ![ADM007 BLE CL](./logo..png)
+</div>
 
 El ADM007 BLE CL de Neomatica es un rastreador para vehículos diseñado para ofrecer monitoreo sencillo y discreto. Su formato para enchufar en la toma de mechero facilita la colocación y extracción, mientras que el tamaño compacto lo mantiene poco visible. El equipo está optimizado para un consumo de datos muy bajo, típicamente entre 8 y 10 MB al mes, y admite conexiones inalámbricas con sensores para ampliar las capacidades de monitoreo sin cableado complejo.
 

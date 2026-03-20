@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-P4s
 
+<div className="device-logo">
 ![TS-P4s](./tracker.jpg)
+</div>
 
 The TS-P4s is a heavy duty magnetic GPS tracker designed for long term, maintenance free tracking of vehicles, containers and a wide range of mobile assets. It combines multi constellation GNSS positioning with cellular connectivity in 2G, 4G or dual mode variants and high capacity rechargeable batteries to deliver reliable real time location updates and extended field deployment without frequent servicing. The device is built in a rugged waterproof enclosure with strong built in magnets for quick attachment to metal surfaces.
 

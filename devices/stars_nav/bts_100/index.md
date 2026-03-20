@@ -20,7 +20,9 @@ keywords:
 
 # Stars Nav - BTS-100
 
+<div className="device-logo">
 ![BTS-100](./tracker.jpg)
+</div>
 
 The BTS-100 is a compact in-vehicle GPS receiver designed for drivers and integrators who need a dependable source of position and POI alerts. It combines high-sensitivity GNSS reception with an integrated speed camera reminder and streams basic telemetry such as longitude, latitude, speed, and UTC over Bluetooth Serial Port Profile. The device is optimized for long hours on the road and supports user-configurable POI databases via a PC utility and mini USB interface.
 

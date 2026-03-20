@@ -21,7 +21,9 @@ keywords:
 
 # MiniFinder - Xtreme
 
+<div className="device-logo">
 ![Xtreme](./tracker.png)
+</div>
 
 El MiniFinder Xtreme es un rastreador GPS robusto y magnético, diseñado para el seguimiento encubierto y de larga duración de vehículos y equipos de alto valor. Con una carcasa impermeable IP68 y un potente sistema de montaje magnético, el Xtreme está pensado para despliegues donde la resistencia y la discreción importan. Ofrece seguimiento en tiempo real y telemetría de eventos confiable, ideal para la gestión de flotas, protección antirrobo y monitoreo remoto de activos.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Concox - VG102
 
+<div className="device-logo">
 ![VG102](./tracker.png)
+</div>
 
 El Concox VG102 es un rastreador GNSS compacto diseñado específicamente para motocicletas y flotas de vehículos de dos ruedas. Ofrece posicionamiento, alertas por eventos y controles antirrobo en un equipo pequeño y resistente con carcasa IP66 y batería interna de respaldo. Su diseño y conjunto de funciones lo hacen apto para instalaciones discretas, funcionamiento fiable en exteriores y monitoreo continuo de activos sobre dos ruedas.
 

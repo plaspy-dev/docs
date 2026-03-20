@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - S7
 
+<div className="device-logo">
 ![S7](./tracker.png)
+</div>
 
 The GOTOP S7 is a waterproof, rugged GPS tracker designed for vehicle and asset tracking across cars, motorcycles, boats and commercial fleets. Built for outdoor and fleet applications, the S7 combines integrated GPS and cellular antennas with a wide 8–92V DC input range and IP66 protection to deliver reliable position updates and basic telemetry in demanding conditions.
 

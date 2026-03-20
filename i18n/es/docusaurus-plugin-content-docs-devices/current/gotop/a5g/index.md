@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - A5G
 
+<div className="device-logo">
 ![A5G](./tracker.jpg)
+</div>
 
 El GOTOP A5G es un rastreador GPS vehicular profesional diseñado para la gestión de flotas, transporte público, taxis, control de vehículos de alquiler y protección antirrobo de vehículos particulares. El equipo combina conectividad celular multigeneración con posicionamiento GNSS y opción de cámara para ofrecer datos continuos de ubicación y eventos de activos móviles. Sus entradas/salidas y funciones de alarma lo hacen adecuado para casos que requieren captura de evidencia, identificación de conductor y la integración de diversos sensores operativos.
 

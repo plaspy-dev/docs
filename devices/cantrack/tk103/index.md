@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - TK103
 
+<div className="device-logo">
 ![TK103](./logo.jpg)
+</div>
 
 The CanTrack TK103 is a compact GPS tracker that combines satellite positioning with GSM GPRS connectivity to provide location reporting, remote monitoring, and basic anti theft functions. It supports real time tracking, SMS and GPRS communication, audible monitoring, geo fence alerts, overspeed and vibration alarms, and remote on off control, making it a general purpose device for vehicle and asset tracking needs.
 

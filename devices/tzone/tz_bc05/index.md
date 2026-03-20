@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-BC05
 
+<div className="device-logo">
 ![TZ-BC05](./logo.jpg)
+</div>
 
 The TZone TZ-BC05 is a compact and lightweight tracking device designed to provide reliable location and proximity monitoring. It combines a discreet creamy white enclosure with a small footprint of 45 x 45 x 21 mm and a weight of approximately 40 grams. The TZ-BC05 uses the iPhone iBeacon protocol and Bluetooth 4.0 technology for broadcasted signals, supports common mobile platforms, and offers adjustable broadcast parameters and a long operational life from a CR 2477 battery.
 

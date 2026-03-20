@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-403C
 
+<div className="device-logo">
 ![BN-403C](./tracker.png)
+</div>
 
 El BN-403C es un rastreador GPS compacto para instalación en vehículos, diseñado para montaje oculto y gestión continua de la unidad. Ofrece seguimiento en tiempo real con conectividad LTE 4G y conmutación a 2G cuando es necesario, alimentación directa desde el vehículo y una pequeña batería recargable de respaldo para enviar posiciones durante cortes de energía, además de un conjunto de alarmas y funciones de control remoto útiles en flotas y aplicaciones antirrobo.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC234
 
+<div className="device-logo">
 ![FMC234](./tracker.png)
+</div>
 
 The Teltonika FMC234 is a rugged GPS tracker designed for demanding fleet management and asset protection in harsh environments. Built with cellular connectivity and an IP67 rated enclosure, the FMC234 delivers continuous location reporting, extended standby autonomy, and a durable form factor suited to vehicles and high value equipment. Its design emphasizes reliable tracking, simple enclosure sealing, and the ability to remain operational when external power is lost.
 

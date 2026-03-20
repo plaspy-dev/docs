@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-903
 
+<div className="device-logo">
 ![ST-903](./tracker.jpg)
+</div>
 
 The SinoTrack ST-903 is an ultra-compact GPS tracker designed for discreet personal and small-asset tracking. Its coin-size form factor, high-sensitivity GPS and GSM antenna, and support for GPRS and SMS reporting make it practical for collars, pockets and small hides where space and weight are constrained. The device includes multi-mode power management and a built-in battery to balance run time and update frequency for different monitoring needs.
 

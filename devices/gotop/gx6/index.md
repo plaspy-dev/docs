@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - GX6
 
+<div className="device-logo">
 ![GX6](./logo..jpg)
+</div>
 
 The GOTOP GX6 (GX6-4G) is a 4G vehicle tracking device designed for fleet management and vehicle tracking solutions. It provides multi-constellation positioning (GPS BD LBS) with a stated positioning accuracy around 5 meters and includes a broad set of vehicle-oriented features such as ACC detection, remote power or fuel cut, DC detection, power off alarm, overspeed alarm, remote audio monitoring, remote door control, and Geo-fence. The unit is built with industrial considerations in mind, offering a wide input voltage range and a metal housing with a compact footprint and a backup battery for continued tracking during power loss.
 

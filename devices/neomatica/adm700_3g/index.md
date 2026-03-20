@@ -20,7 +20,9 @@ keywords:
 
 # Neomatica - ADM700 3G
 
+<div className="device-logo">
 ![ADM700 3G](./tracker.png)
+</div>
 
 The ADM700 3G from Neomatica is a rugged industrial telematics tracker designed for demanding vehicle and special machinery deployments. It combines GNSS positioning with 3G cellular connectivity and is built to withstand harsh conditions with IP65 dust and water resistance and IK07 impact protection. The device offers wide voltage tolerance and substantial onboard logging, making it suitable for continuous real-time tracking and buffered data collection in environments where connectivity may be intermittent.
 

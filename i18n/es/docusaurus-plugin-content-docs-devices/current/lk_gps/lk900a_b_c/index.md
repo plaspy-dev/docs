@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK900A/B/C
 
+<div className="device-logo">
 ![LK900A/B/C](./tracker.jpg)
+</div>
 
 El LK900A/B/C es un rastreador GPS y GSM magnético 4G compatible con Plaspy, diseñado para el monitoreo prolongado de vehículos y activos. Disponible en tres variantes con baterías de alta capacidad, la serie LK900 ofrece amplios tiempos de espera y actualizaciones continuas de ubicación, idóneos para administradores de flotas, operadores de alquiler, proveedores logísticos y equipos de seguridad de activos. Su carcasa magnética permite un montaje discreto y no permanente, lo que facilita despliegues temporales y la rápida reubicación entre activos.
 

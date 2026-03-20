@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G200
 
+<div className="device-logo">
 ![G200](./logo..jpg)
+</div>
 
 The CanTrack G200 (L) Magnet GPS Tracker is a compact, magnetized device designed for vehicle and asset tracking management. It uses GPS satellites and GSM GPRS connectivity together with built in antennas to provide location reporting, real time tracking, multiple positioning options such as LBS, and onboard memory for data storage in areas with limited signal. The unit is described as having power saving modes, anti tamper alerts, overspeed notification, and geo fencing, making it suitable for discreet monitoring of vehicles and valuable assets.
 

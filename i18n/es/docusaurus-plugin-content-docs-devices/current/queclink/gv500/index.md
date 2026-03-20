@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV500
 
+<div className="device-logo">
 ![GV500](./logo.jpg)
+</div>
 
 El QuecLink GV500 es un dispositivo de rastreo vehicular compacto que se conecta al puerto OBDII del vehículo. Integra un receptor GPS de alta sensibilidad y un subsistema celular cuatribanda para ofrecer posicionamiento fiable y transmisión remota de datos. El equipo incluye un lector OBD interno para extraer datos del vehículo, un acelerómetro de 3 ejes para detección de movimiento y una batería interna que permite operación en modo espera y respaldo.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T371
 
+<div className="device-logo">
 ![T371](./tracker.jpg)
+</div>
 
 El Ulbotech T371 es un rastreador OBD II compatible con Plaspy diseñado para la gestión profesional de flotas y vehículos. Combina una conexión OBD plug-and-play con un módem celular Telit xE910 y un receptor GNSS u-blox MAX-7 para ofrecer posicionamiento en tiempo real fiable y telemetría vehicular detallada. El equipo está construido para lograr un tiempo rápido de primera fijación y flujos de datos continuos de ubicación, diagnósticos y detección de eventos en vehículos en movimiento.
 

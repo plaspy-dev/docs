@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - TT8850
 
+<div className="device-logo">
 ![TT8850](./logo.jpg)
+</div>
 
 El SkyPatrol TT8850 es un dispositivo de localización GPS en tiempo real, compacto y pensado para aplicaciones discretas y encubiertas. Su diseño delgado y de bajo perfil lo hace adecuado para situaciones donde la visibilidad debe minimizarse sin renunciar a la supervisión continua de la ubicación. El TT8850 ofrece una autonomía prolongada con una sola carga, certificación de resistencia al agua IPX5, sensor de movimiento 3D integrado y un botón de emergencia SOS, por lo que resulta una opción práctica para rastreos prolongados y poco intrusivos.
 

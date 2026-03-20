@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - MT60PRO
 
+<div className="device-logo">
 ![MT60PRO](./tracker.jpg)
+</div>
 
 The Megastek MT60PRO is an ankle worn GPS tracker designed for corrections and community supervision programs. Built for secure parolee and prisoner monitoring, the MT60PRO combines rugged physical protection with monitoring features such as tamper detection, two way voice, remote lock and unlock controls, and multi mode positioning to deliver continuous location and status information for supervised individuals.
 

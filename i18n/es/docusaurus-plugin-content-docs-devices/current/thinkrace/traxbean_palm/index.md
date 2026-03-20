@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - Traxbean Palm
 
+<div className="device-logo">
 ![Traxbean Palm](./tracker.png)
+</div>
 
 El Traxbean Palm es un rastreador GPS portátil y compacto diseñado para la seguridad del personal y la conciencia situacional. Combina posicionamiento GPS preciso con localización asistida por Wi‑Fi y triangulación celular, y añade posicionamiento en interiores basado en RF para mejorar la disponibilidad donde el GPS es limitado. El Palm también incluye un botón SOS de una sola pulsación que activa comunicación de voz manos libres bidireccional, además de una cámara de alta resolución capaz de transmitir en vivo o capturar fotos y videos para aportar contexto situacional.
 

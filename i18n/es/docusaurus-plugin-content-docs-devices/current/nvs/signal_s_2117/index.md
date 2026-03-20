@@ -21,7 +21,9 @@ keywords:
 
 # NVS - SIGNAL S-2117
 
+<div className="device-logo">
 ![SIGNAL S-2117](./logo.jpg)
+</div>
 
 El SIGNAL S-2117 de NVS es un kit de equipo móvil pensado para la seguridad y el posicionamiento de vehículos. Opera con las constelaciones GLONASS, GPS, GALILEO y SBAS e incorpora el receptor certificado NV08C de ZAO KB NAVIS, que aporta una base sólida para un posicionamiento confiable. Comercializado como un sistema inalámbrico de alarma y monitoreo automotriz, el kit está recomendado para sistemas de monitoreo y despacho de vehículos terrestres y se entrega con software gratuito de monitoreo de transporte.
 

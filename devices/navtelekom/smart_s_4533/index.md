@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-4533
 
+<div className="device-logo">
 ![SMART S-4533](./tracker.jpeg)
+</div>
 
 The SMART S-4533 is a vehicle GPS tracker from Navtelekom designed for reliable GLONASS and GPS positioning with 4G cellular connectivity. Built for fleet and industrial use, the device combines sensitive built in GNSS and GSM antennas, dual SIM redundancy, an integrated rechargeable backup battery, and hardened hardware protections to maintain tracking and event logging even during power disturbances. Its stated interfaces and protocol support make it suitable for mixed fleet and special purpose vehicle deployments where continuous location visibility is important.
 

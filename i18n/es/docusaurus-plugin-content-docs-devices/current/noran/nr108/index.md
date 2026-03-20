@@ -21,7 +21,9 @@ keywords:
 
 # Noran - NR108
 
+<div className="device-logo">
 ![NR108](./tracker.jpg)
+</div>
 
 El NR108 es un rastreador GPS compacto pensado para una instalación discreta en motocicletas y otros vehículos pequeños. Integra antenas GPS y GSM en una carcasa de tamaño reducido para ofrecer posicionamiento preciso, monitoreo de combustible y funciones antirrobo en un formato de bajo perfil. El equipo admite reportes por Internet y SMS con respaldo LBS en zonas con recepción GPS limitada, e incluye batería interna de respaldo y modo de ahorro de energía para mantener la visibilidad durante cortes de alimentación.
 

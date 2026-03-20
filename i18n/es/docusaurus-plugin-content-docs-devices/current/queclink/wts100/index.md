@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - WTS100
 
+<div className="device-logo">
 ![WTS100](./tracker.png)
+</div>
 
 El QuecLink WTS100 es un sensor de temperatura inalámbrico, compacto y alimentado por batería, diseñado para logística de cadena de frío, monitoreo de activos y otros despliegues sensibles a la temperatura. Proporciona telemetría periódica de temperatura desde camiones refrigerados, contenedores, bodegas y activos en campo cuando se requiere una solución ligera y de larga duración. Aunque el WTS100 no integra GPS, está pensado para entregar datos ambientales fiables que complementen la información de ubicación y de la flota.
 

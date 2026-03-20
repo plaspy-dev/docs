@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - GS900
 
+<div className="device-logo">
 ![GS900](./tracker.webp)
+</div>
 
 El GS900 es un rastreador GPS vehicular inteligente creado para la supervisión y seguridad profesional de vehículos. Combina comunicación inalámbrica 4G full Netcom con navegación satelital GPS y BDS, ofreciendo seguimiento en tiempo real y entradas específicas para vehículos como detección ACC, alarma por manipulación al desmontar, alertas de exceso de velocidad, estadísticas de kilometraje y una función de corte remoto de combustible o alimentación eléctrica. Está pensado para montaje en vehículos donde se requiere visibilidad continua de la ubicación y controles de seguridad sencillos y efectivos.
 

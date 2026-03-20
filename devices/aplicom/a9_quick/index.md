@@ -20,7 +20,9 @@ keywords:
 
 # Aplicom - A9 Quick
 
+<div className="device-logo">
 ![A9 Quick](./logo.jpg)
+</div>
 
 The Aplicom A9 Quick is a portable vehicle telematics unit designed for tracking and tracing. Intended for quick deployment, the device is plugged into the vehicle cigarette lighter socket so it can be moved easily between vehicles. It provides preconfigured A9 NEX functionality and supports an external 3 button keypad called the Aplicom 3PAD for simple driver input and reporting.
 

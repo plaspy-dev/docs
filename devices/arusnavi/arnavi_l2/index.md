@@ -20,7 +20,9 @@ keywords:
 
 # Arusnavi - Arnavi L2
 
+<div className="device-logo">
 ![Arnavi L2](./tracker.png)
+</div>
 
 The Arnavi L2 is a compact, hermetically sealed GPS tracker designed for reliable real time tracking and telemetry in wet or high humidity environments. It is built for mobile assets and fleet management and combines multi constellation GNSS positioning with a low power cellular modem and Bluetooth Low Energy to deliver location, driving behavior data and sensor telemetry in a small, protected enclosure.
 

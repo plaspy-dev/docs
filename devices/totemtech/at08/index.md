@@ -20,7 +20,9 @@ keywords:
 
 # Totemtech - AT08
 
+<div className="device-logo">
 ![AT08](./tracker.jpg)
+</div>
 
 The Totemtech AT08 is a rugged magnetic GPS tracker designed for long duration asset monitoring. It combines a high sensitivity uBlox M8 GNSS engine with a low power STM32 controller, multi band cellular connectivity, and a 4000 mAh Li‑polymer battery in a compact housing with strong neodymium magnets. The device is intended for discreet attachment to metal assets and provides continuous position data and device telemetry suitable for fleet and logistics operations.
 

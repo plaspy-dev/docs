@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V45
 
+<div className="device-logo">
 ![RF-V45](./tracker.jpg)
+</div>
 
 El RF‑V45 es un rastreador GPS personal 4G LTE y compacto presentado como un colgante inteligente para monitoreo remoto continuo. Diseñado para adultos mayores, niños y cualquier persona que requiera atención adicional, combina posicionamiento multimodal, audio bidireccional en alta definición, una cámara HD y un botón SOS de una sola pulsación para generar alertas rápidas y ofrecer una visión clara del contexto. Su carcasa ligera con protección IP67 y la carga magnética lo hacen cómodo para uso diario y de fácil mantenimiento.
 

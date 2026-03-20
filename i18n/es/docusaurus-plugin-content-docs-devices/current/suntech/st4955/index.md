@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4955
 
+<div className="device-logo">
 ![ST4955](./tracker.jpg)
+</div>
 
 El ST4955 es un rastreador GPS robusto, alimentado por energía solar, diseñado para el monitoreo prolongado en exteriores de vehículos, equipos sin fuente de alimentación propia y activos de alto valor. Pensado para despliegues de campo extensos, el dispositivo combina un receptor GNSS de alta sensibilidad con sistemas de aprovechamiento de energía y opciones de baterías de gran capacidad para soportar meses de funcionamiento autónomo en entornos exigentes.
 

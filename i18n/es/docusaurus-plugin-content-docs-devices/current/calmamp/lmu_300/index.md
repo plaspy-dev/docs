@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-300
 
+<div className="device-logo">
 ![LMU-300](./logo.jpg)
+</div>
 
 El CalmAmp LMU-300 es un rastreador GPS compacto y económico diseñado para una instalación discreta y confiable en vehículos. Está orientado a aplicaciones automotrices comunes como recuperación de vehículos robados, monitoreo para financiamiento vehicular y gestión de flotas de alquiler. El LMU-300 prioriza reportes de ubicación consistentes y un diseño práctico que se adapta a diversos despliegues móviles en vehículos.
 

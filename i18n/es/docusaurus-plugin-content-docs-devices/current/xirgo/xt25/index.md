@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT25
 
+<div className="device-logo">
 ![XT25](./tracker.webp)
+</div>
 
 El Xirgo XT25 es una unidad de rastreo vehicular de tipo conectar y usar, diseñada principalmente para vehículos de servicio ligero y de pasajeros, con opciones de instalación adaptables para camiones más pesados. Combina un formato compacto con radios GNSS y celulares integrados, Bluetooth opcional para emparejar accesorios, soporte de protocolos OBD y un acelerómetro a bordo. Estas capacidades hacen del XT25 una opción adecuada para integradores y operadores de flota que requieren datos de ubicación y movimiento confiables en un dispositivo pequeño y configurable.
 

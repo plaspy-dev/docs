@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV300
 
+<div className="device-logo">
 ![GV300](./tracker.png)
+</div>
 
 The QuecLink GV300 is a proven vehicle GPS tracker designed for demanding telematics applications. As a long running best seller and QuecLink's third generation vehicle tracker, the GV300 combines a high sensitivity GNSS receiver with quad band cellular connectivity in a compact vehicle grade package. It is built to provide reliable real time location, scheduled reporting and a range of wired inputs and outputs for integrating vehicle signals and external sensors.
 

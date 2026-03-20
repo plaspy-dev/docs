@@ -20,7 +20,9 @@ keywords:
 
 # Astra Telematics - AT210
 
+<div className="device-logo">
 ![AT210](./logo.jpg)
+</div>
 
 The Astra Telematics AT210 is a compact automotive style GPS tracker built for precise and reliable location monitoring. It combines a SiRFStar IV GPS receiver with a Cortex M3 processor to provide accurate positioning and responsive operation. The unit is sealed to IP67 standards for water resistance and uses a durable plastic casing, making it suitable for demanding outdoor and vehicle mounted deployments. Design features noted by the manufacturer include internal GPS and GSM antennas, a backup battery, internal memory for data storage, and options such as an external GPS antenna and Driver ID.
 

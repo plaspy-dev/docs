@@ -21,7 +21,9 @@ keywords:
 
 # Neomatica - ADM700 3G
 
+<div className="device-logo">
 ![ADM700 3G](./tracker.png)
+</div>
 
 El ADM700 3G de Neomatica es un rastreador telemático industrial diseñado para despliegues exigentes en vehículos y maquinaria especial. Combina posicionamiento GNSS con conectividad celular 3G y está construido para resistir condiciones severas, con protección IP65 contra polvo y agua e IK07 contra impactos. El equipo ofrece amplia tolerancia de voltaje y un registro interno robusto, lo que lo hace adecuado para seguimiento en tiempo real continuo y para almacenar datos cuando la conectividad es intermitente.
 

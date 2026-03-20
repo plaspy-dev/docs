@@ -20,7 +20,9 @@ keywords:
 
 # PST - PST-AVL01
 
+<div className="device-logo">
 ![PST-AVL01](./logo.jpg)
+</div>
 
 The PST-AVL01 is a GPS GSM GPRS tracker designed for real time vehicle tracking and fleet management. Built around high sensitivity GPS and reliable GPRS connectivity, it delivers continuous location updates and stable performance suitable for single vehicles or larger fleets. The device is described as compact and durable, with features commonly used in vehicle tracking such as geo fencing, remote immobilization, and SOS alerts.
 

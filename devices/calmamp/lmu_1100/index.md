@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-1100
 
+<div className="device-logo">
 ![LMU-1100](./logo.jpg)
+</div>
 
 The CalmAmp LMU-1100 is a compact, cost effective vehicle tracking device built for outdoor assets and recreational vehicles. It combines a small form factor with strong GPS performance to deliver accurate location tracking for motorcycles, snowmobiles, trailers, and other exposed equipment. The LMU-1100 is positioned for asset monitoring and recovery use cases and includes practical hardware features such as a backup battery and basic input output capabilities that support event based monitoring.
 

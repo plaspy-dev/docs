@@ -21,7 +21,9 @@ keywords:
 
 # Coban - TK103B
 
+<div className="device-logo">
 ![TK103B](./logo.jpg)
+</div>
 
 El Coban TK103B es un rastreador GPS orientado a vehículos, diseñado para posicionamiento, supervisión de seguridad y seguimiento en tiempo real. Combina posicionamiento por satélite con transmisión de datos celulares y reportes vía SMS para ofrecer visibilidad de ubicación, alarmas de emergencia y funciones de vigilancia. El equipo se utiliza habitualmente para localizar vehículos, monitorear movimiento y generar alertas por eventos como SOS, batería baja, salida de zonas geográficas y exceso de velocidad.
 

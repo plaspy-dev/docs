@@ -20,7 +20,9 @@ keywords:
 
 # Appello - Host
 
+<div className="device-logo">
 ![Host](./logo.jpg)
+</div>
 
 The Appello Host documents the Appello 4P pet GPS tracker, a compact tracking unit designed for medium and small pets. According to the provided description, the device pairs a small GPS unit that attaches to a pet collar with a separate power base that includes a large 6000mAh battery. The Host emphasizes long standby time, wireless charging from the power base, a waterproof enclosure for outdoor use, and an out of range alert roughly around 20 meters from the base.
 

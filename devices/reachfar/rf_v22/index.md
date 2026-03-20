@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V22
 
+<div className="device-logo">
 ![RF-V22](./tracker.jpg)
+</div>
 
 The Reachfar RF-V22 Telecom Smart Door Alarm is a compact cellular door-status detector designed for supervised entry control in quarantine facilities, healthcare settings, assisted living, and other controlled environments. It reports door opening and closing events over GSM GPRS networks and is built with an IP67 rated enclosure for reliable operation in indoor and semi-outdoor locations. The product is available in white or black and is supplied with a product manual and installation video to streamline deployment.
 

@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - A516
 
+<div className="device-logo">
 ![A516](./logo.jpg)
+</div>
 
 El AoYa A516 es un rastreador GPS compacto diseñado principalmente para aplicaciones automotrices, aunque también resulta versátil para uso personal y seguimiento de mascotas. Con dimensiones de 70 mm x 35 mm x 20 mm, la unidad es pequeña y discreta. Emplea comunicación GSM GPRS y un receptor GPS UBLOX, ofreciendo una precisión de posicionamiento normalmente en el rango de 5 a 10 metros y una sensibilidad adecuada para obtener fijaciones de ubicación fiables en entornos habituales. El A516 cuenta con una batería extraíble de 3.7V y 1000mAh que facilita un funcionamiento prolongado entre mantenimientos.
 

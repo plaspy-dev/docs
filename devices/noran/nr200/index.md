@@ -20,7 +20,9 @@ keywords:
 
 # Noran - NR200
 
+<div className="device-logo">
 ![NR200](./tracker.jpg)
+</div>
 
 The NR200 Magnetic Wireless GPS Tracker is a compact, battery powered device designed for covert long term vehicle and asset tracking. Its magnetic mount and wireless installation make the unit suitable for temporary installs, recovery operations, and monitoring hard to access assets without requiring a permanent wiring change.
 

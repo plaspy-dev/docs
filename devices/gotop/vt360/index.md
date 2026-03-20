@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT360
 
+<div className="device-logo">
 ![VT360](./tracker.jpg)
+</div>
 
 The VT360 is a professional vehicle GPS tracker designed for reliable real time tracking and fleet management. Built around a high sensitivity SiRFstar III GNSS module and proven GSM GPRS communications, the VT360 delivers accurate positioning, time and distance based reports, and immediate location sharing via SMS links to Google Maps. An internal backup battery preserves telemetry during main power loss so visibility is maintained when it matters most.
 

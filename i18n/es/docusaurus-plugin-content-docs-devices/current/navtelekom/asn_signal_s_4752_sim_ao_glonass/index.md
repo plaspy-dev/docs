@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - ASN SIGNAL S-4752 + SIM AO "GLONASS"
 
+<div className="device-logo">
 ![ASN SIGNAL S-4752 + SIM AO "GLONASS"](./tracker.jpg)
+</div>
 
 El ASN SIGNAL S-4752 con SIM preinstalada de AO "GLONASS" es un rastreador GPS y puerta de enlace telemática de grado profesional, pensado para despliegues rápidos y cumplimiento normativo. Se entrega preconfigurado para los flujos de trabajo de ERA GLONASS y del operador AO "GLONASS", combinando posicionamiento GLONASS y GPS con un módem celular integrado, amplias entradas/salidas y conectividad serial/CAN, registro local de datos y entradas de alimentación protegidas para cubrir las necesidades de telemática vehicular.
 

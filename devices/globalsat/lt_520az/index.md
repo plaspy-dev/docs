@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - LT-520AZ
 
+<div className="device-logo">
 ![LT-520AZ](./tracker.jpg)
+</div>
 
 The LT-520AZ is a purpose built GPS tracker from GlobalSat designed for long term, low maintenance asset and vehicle tracking on the Amazon Sidewalk shared network. It combines GNSS positioning with Bluetooth Low Energy assisted indoor detection and an integrated 3-axis accelerometer to deliver reliable location and motion telemetry for mixed indoor and outdoor deployments where durability and battery life are important.
 

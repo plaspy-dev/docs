@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP4600
 
+<div className="device-logo">
 ![SP4600](./logo.jpg)
+</div>
 
 The SkyPatrol SP4600 Series is a feature-rich GPS tracking device built for demanding applications such as fleet tracking and field dispatch. The product family is positioned for enterprise use and mainstream telematics alike, with options in both 2G and 3G versions and capabilities that support vehicle location, recovery, and insurance telematics scenarios. Key platform features highlighted by the manufacturer include quad-band GSM/GPRS communication, over-the-air device management and maintenance, firmware update over the air, GSM jamming detection, and 28 hardware-based geofences for tailored location monitoring.
 

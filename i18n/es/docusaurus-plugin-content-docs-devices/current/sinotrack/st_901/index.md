@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-901
 
+<div className="device-logo">
 ![ST-901](./tracker.jpg)
+</div>
 
 El SinoTrack ST-901 es un rastreador GPS cableado, compacto e impermeable, diseñado para motocicletas, scooters, autos y camiones ligeros. Pensado para un montaje discreto, ofrece posicionamiento por GPS/GPRS/SMS junto con alarmas habituales del vehículo como geo‑cercas y alertas por exceso de velocidad, detección de encendido ACC y una batería interna de respaldo que avisa ante la pérdida de la alimentación principal. Su conexión sencilla de 4 pines y el soporte para un relé externo permiten opciones de corte remoto del motor como respuesta ante robos.
 

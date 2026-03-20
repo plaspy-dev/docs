@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - SolarX 130
 
+<div className="device-logo">
 ![SolarX 130](./tracker.png)
+</div>
 
 SolarX 130 es un rastreador GPS robusto diseñado para ofrecer visibilidad de contenedores, semirremolques y activos exteriores. Diseñado para entornos exigentes, el equipo combina carga solar, baterías recargables de larga duración y soporte para sensores externos, proporcionando actualizaciones continuas de ubicación y telemetría en búfer durante despliegues prolongados, incluidos los entornos marítimos y las operaciones en zonas remotas.
 

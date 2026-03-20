@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AK7
 
+<div className="device-logo">
 ![AK7](./logo.jpg)
+</div>
 
 El ATrack AK7 es un dispositivo compacto de telemática vehicular y rastreo GPS diseñado para ofrecer datos de ubicación confiables y funciones remotas flexibles. Combina posicionamiento GPS de alta precisión con comunicación celular sobre redes UMTS HSPA y CDMA, e integra un motor inteligente de control de eventos, un sensor G de 3 ejes y soporte para accesorios 1 Wire que amplían sus capacidades de monitoreo.
 

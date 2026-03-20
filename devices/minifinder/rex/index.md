@@ -20,7 +20,9 @@ keywords:
 
 # MiniFinder - Rex
 
+<div className="device-logo">
 ![Rex](./tracker.png)
+</div>
 
 The MiniFinder Rex is a purpose built GPS tracker for hunting dogs and working animals. Rugged and waterproof with a compact form factor, Rex combines high sensitivity GNSS positioning, long battery life, and local wireless connectivity to deliver reliable, real time location and behavior data in the field. Built features focused on outdoor use include a guiding LED, barking detection, vibration and voice command modes, and audio communication to help handlers locate and interact with animals during operations.
 

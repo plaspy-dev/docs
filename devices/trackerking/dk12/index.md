@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - DK12
 
+<div className="device-logo">
 ![DK12](./tracker.jpg)
+</div>
 
 The DK12 is a rugged, multi function GPS tracker designed for vehicle and asset deployments that require reliable real time tracking and strong anti theft measures. Built around the SIMCOM7670SA module, the DK12 offers 4G Cat1 connectivity with automatic fallback to 2G and optional Cat M and NB IoT variants, plus a waterproof enclosure and a wide 9–90V input range for flexible vehicle and mobile asset use.
 

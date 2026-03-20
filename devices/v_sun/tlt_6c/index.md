@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - TLT-6C
 
+<div className="device-logo">
 ![TLT-6C](./logo.jpg)
+</div>
 
 The V-SUN TLT-6C is a compact vehicle positioning terminal that combines global GPS positioning with mobile positioning technology. Its built in dual mode antenna and industrial grade components are designed to maintain accurate, real time visibility of vehicles in open areas as well as more challenging locations such as high rise or underground parking. The unit is described as sturdy, concealed, and suited for a range of vehicle types, making it a practical option for fleet operators and service providers.
 

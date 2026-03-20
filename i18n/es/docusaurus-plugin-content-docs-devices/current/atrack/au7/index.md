@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AU7
 
+<div className="device-logo">
 ![AU7](./logo.jpg)
+</div>
 
 El ATrack AU7 es un dispositivo de rastreo vehicular con soporte para GPS y GLONASS, diseñado tanto para necesidades básicas como avanzadas de seguimiento de flotas y activos. Integra múltiples tecnologías de comunicación móvil y ofrece opciones de reporte configurables, control de eventos y un conjunto de funciones como compatibilidad con accesorios externos, cifrado de datos y un sensor de movimiento integrado. Estas capacidades lo hacen adecuado para aplicaciones que requieren flexibilidad en los reportes, registro de ubicaciones y alertas basadas en eventos.
 

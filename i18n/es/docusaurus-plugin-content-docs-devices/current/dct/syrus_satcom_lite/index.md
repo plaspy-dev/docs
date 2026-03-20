@@ -21,7 +21,9 @@ keywords:
 
 # DCT - Syrus Satcom Lite
 
+<div className="device-logo">
 ![Syrus Satcom Lite](./tracker.png)
+</div>
 
 El Syrus Satcom Lite (Artículo #1204-10) es un rastreador GPS alimentado por batería con conectividad satelital, diseñado para ampliar el seguimiento en tiempo real a activos que operan fuera de la cobertura celular. Construido para entornos remotos y exigentes, combina detección de movimiento, reportes comparativos de posición GPS y entradas de sensores auxiliares configurables para ofrecer visibilidad continua y telemetría accionable donde los rastreadores tradicionales pueden perder conectividad.
 

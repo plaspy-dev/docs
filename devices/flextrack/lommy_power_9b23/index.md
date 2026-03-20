@@ -20,7 +20,9 @@ keywords:
 
 # Flextrack - Lommy Power 9B23
 
+<div className="device-logo">
 ![Lommy Power 9B23](./tracker.jpg)
+</div>
 
 Lommy Power 9B23 is a compact, hard wired GPS tracker designed for continuous monitoring of heavy equipment and machinery. It draws operating power directly from the machine battery and is intended for use on construction, agricultural, and forestry vehicles where persistent connectivity and robust positioning are required. The device is built to remain online while the host machine has power, supporting real time tracking, telemetry and utilization reporting without reliance on an internal battery.
 

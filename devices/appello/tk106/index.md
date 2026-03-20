@@ -20,7 +20,9 @@ keywords:
 
 # Appello - TK106
 
+<div className="device-logo">
 ![TK106](./logo.jpg)
+</div>
 
 The Appello TK106 is a compact and versatile GPS tracker designed for reliable location monitoring across a range of applications. It supports GSM and GPRS connectivity across multiple frequency bands and is built around an ARM CPU with the New Star NS-1315 GPS module, offering position accuracy reported to be within approximately 5 meters. With small dimensions and a lightweight form factor, the TK106 is suitable where discreet placement and portability are important.
 

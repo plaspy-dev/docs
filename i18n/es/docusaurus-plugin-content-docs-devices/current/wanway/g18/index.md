@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - G18
 
+<div className="device-logo">
 ![G18](./tracker.webp)
+</div>
 
 El WanWay G18 es un rastreador GPS delgado y compatible con Plaspy, pensado para equipos de gestión de vehículos y flotas que requieren un hardware compacto con funciones telemáticas prácticas. Integra posicionamiento GPS, conectividad GSM 2G, antena integrada y varios sensores a bordo para ofrecer seguimiento en tiempo real, alertas de comportamiento de conductor, detección de manipulación y reportes de colisiones en una carcasa discreta. El G18 está orientado a operaciones diarias de flotas y programas Usage Based Insurance (UBI) donde la instalación discreta y la notificación de eventos esenciales son prioridades.
 

@@ -20,7 +20,9 @@ keywords:
 
 # iTriangle - AT101 4G
 
+<div className="device-logo">
 ![AT101 4G](./tracker.png)
+</div>
 
 The iTriangle AT101 4G is a Plaspy compatible GPS tracker designed for discreet, long term asset tracking. It combines a high capacity 10000mAh internal battery, a robust magnetic mount and multi constellation GNSS positioning to provide continuous location monitoring without external wiring. Built for field deployments, the device also includes motion detection, geofencing and tamper detection to support practical anti theft workflows and ongoing telemetry collection.
 

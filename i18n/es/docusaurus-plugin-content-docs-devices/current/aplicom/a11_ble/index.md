@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - A11 BLE
 
+<div className="device-logo">
 ![A11 BLE](./logo..jpg)
+</div>
 
 El Aplicom A11 BLE es un dispositivo telemático versátil pensado para la gestión de flotas y activos. Ofrece conectividad móvil global, múltiples entradas y salidas digitales y analógicas, y opciones de configuración flexibles. La unidad admite actualizaciones de firmware y configuración de forma remota y está diseñada para manejar varias interfaces en paralelo, lo que la hace adecuada para distintos entornos operativos.
 

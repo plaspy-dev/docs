@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP8703
 
+<div className="device-logo">
 ![SP8703](./tracker.png)
+</div>
 
 El SkyPatrol SP8703 es un dispositivo de rastreo personal compacto pensado para implementaciones donde la ubicación confiable y el envío de alertas con bajo consumo de energía son imprescindibles. Combina conectividad Wi‑Fi y celular dual con un botón SOS y un acelerómetro de 3 ejes, lo que lo hace ideal para seguridad personal, protección de trabajadores aislados y monitoreo de activos portátiles, sin resultar intrusivo en el uso cotidiano.
 

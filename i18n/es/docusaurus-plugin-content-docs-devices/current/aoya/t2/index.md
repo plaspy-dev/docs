@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - T2
 
+<div className="device-logo">
 ![T2](./logo.jpg)
+</div>
 
 El AoYa T2 es un rastreador GPS compacto para vehículos, diseñado para ofrecer seguimiento en tiempo real y monitoreo básico de automóviles y vehículos ligeros. Tiene un tamaño reducido —aproximadamente 72 x 32 x 15 mm— y un peso ligero de alrededor de 56 g, lo que facilita su colocación de forma discreta dentro del vehículo. El equipo utiliza conectividad GSM GPRS junto con un chipset de posicionamiento dedicado para entregar información de ubicación con sensibilidad reportada y una precisión típica adecuada para necesidades rutinarias de seguimiento vehicular. Una batería interna de emergencia proporciona energía de respaldo limitada, permitiendo que el dispositivo siga reportando su posición si se interrumpe la alimentación principal del vehículo.
 

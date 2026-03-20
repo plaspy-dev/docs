@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - D02
 
+<div className="device-logo">
 ![D02](./logo..jpg)
+</div>
 
 El GOTOP D02 es un rastreador para mascotas resistente al agua diseñado para que los dueños puedan localizar a sus animales en entornos húmedos o durante actividades intensas. Con certificación IP68, el dispositivo sigue funcionando bajo lluvia y ante inmersiones accidentales. El D02 combina múltiples métodos de posicionamiento —GPS, WiFi, LBS y BeiDou— y ofrece conectividad 4G LTE y GSM, además de seguimiento por GPRS y enlaces de ubicación vía SMS para reportes flexibles.
 

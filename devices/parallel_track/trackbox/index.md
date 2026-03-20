@@ -20,7 +20,9 @@ keywords:
 
 # Parallel track - Trackbox
 
+<div className="device-logo">
 ![Trackbox](./logo.jpg)
+</div>
 
 The Parallel Track Trackbox is a compact and versatile GPS tracker designed to report the location of assets at regular intervals to a predefined web service. It can transmit updates over the mobile phone network and deliver location on request via SMS text message. The device is commonly used to provide real time position data that can be displayed through popular mapping services and embedded into a web presence.
 

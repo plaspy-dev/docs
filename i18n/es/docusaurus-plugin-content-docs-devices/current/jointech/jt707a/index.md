@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - JT707A
 
+<div className="device-logo">
 ![JT707A](./tracker.jpg)
+</div>
 
 El JT707A es un rastreador GPS diseñado para el sellado de carga y la seguridad en la cadena de suministro. Ofrece telemetría GNSS continua de ubicación junto con monitoreo seguro del precinto, informando sobre la posición y eventos de manipulación o apertura para que los operadores logísticos detecten accesos no autorizados durante el transporte. Su descripción técnica resalta características útiles para envíos por carretera, ferrocarril y trasbordos internacionales, y admite baterías recargables o desechables según necesidades de despliegues de corto o largo plazo.
 

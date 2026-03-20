@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - J16
 
+<div className="device-logo">
 ![J16](./tracker.jpg)
+</div>
 
 The J16 is a wired vehicle GPS tracker engineered for dependable real time tracking and professional anti theft protection. Built around a Quectel cellular module and supporting 4G with automatic fallback to 2G, the J16 provides broad network coverage for live telemetry, route history, mileage reporting and remote immobilization. It is purpose built for secure installation within a vehicle wiring harness and designed to integrate with third party telematics platforms.
 

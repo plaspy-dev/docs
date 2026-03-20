@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT802
 
+<div className="device-logo">
 ![JT802](./tracker.jpg)
+</div>
 
 The Jointech JT802 is an intelligent tank truck valve slave lock designed to provide safe, low-power control of multi-valve tanker installations. Intended to work alongside Jointech master locks such as the JT701D and JT701L, the JT802 adds remotely managed valve control and event reporting capabilities while meeting intrinsic safety requirements for hazardous fuel and oil environments.
 

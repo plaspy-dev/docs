@@ -21,7 +21,9 @@ keywords:
 
 # Sanav - GC-101
 
+<div className="device-logo">
 ![GC-101](./logo.jpg)
+</div>
 
 El SANAV GC-101 es un rastreador GPS compacto diseñado para aplicaciones de seguimiento intensivo, como la gestión de flotas y la seguridad personal. Utiliza GPRS para subir sentencias RMC que contienen latitud, longitud, velocidad y hora a un servidor web asignado. El equipo ofrece cobertura GSM cuatribanda, memoria interna y una batería de respaldo para preservar los datos durante interrupciones de energía, además de una carcasa plástica resistente con antenas GSM internas para una instalación de bajo perfil.
 

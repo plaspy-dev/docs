@@ -20,7 +20,9 @@ keywords:
 
 # Enfora - Mini MT
 
+<div className="device-logo">
 ![Mini MT](./logo.gif)
+</div>
 
 The Enfora Mini MT is a compact, voice enabled quad band GPS tracker designed for demanding mobile workforces and private users who prioritize location based safety and connectivity. Built to provide complete GSM GPRS communications, the Mini MT offers reliable GPS performance, motion sensing, vibrating alerts, two way voice and messaging, and a programmable panic or emergency response button in a small rugged package.
 

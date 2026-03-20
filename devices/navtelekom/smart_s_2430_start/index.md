@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СМАРТ S-2430 START
 
+<div className="device-logo">
 ![СМАРТ S-2430 START](./tracker.jpeg)
+</div>
 
 The Navtelekom СМАРТ S-2430 START is a compact GLONASS and GPS vehicle tracker built for fleet management and telematics in demanding automotive environments. Designed with integrated positioning, resilient power protection and a durable IP54 enclosure, the S-2430 START targets service vehicles, delivery fleets and other mobile assets that require continuous location tracking and basic telemetry logging.
 

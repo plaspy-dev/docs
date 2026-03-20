@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G3A
 
+<div className="device-logo">
 ![G3A](./logo.jpg)
+</div>
 
 El Gosafe G3A es un rastreador GPS compacto y funcional, pensado para ofrecer monitoreo confiable de posición y movimiento en un formato pequeño. Combina rastreo continuo con una batería interna de respaldo, detección integrada de interferencias GSM, múltiples opciones de entradas y salidas (I/O), soporte de micrófono y entradas analógicas, y un acelerómetro 2D para detección de movimiento. Estas características hacen que el G3A sea adecuado para escenarios de seguimiento donde el espacio es limitado pero la fiabilidad es esencial.
 

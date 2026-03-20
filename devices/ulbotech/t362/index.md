@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T362
 
+<div className="device-logo">
 ![T362](./tracker.jpg)
+</div>
 
 The Ulbotech T362 is a compact plug and play OBD II telematics unit designed for real time vehicle tracking, fleet management and anti theft protection. Built for quick deployment in cars and heavy vehicles, the T362 provides GNSS position data and OBD derived telemetry while connecting to backend platforms for continuous monitoring and reporting.
 

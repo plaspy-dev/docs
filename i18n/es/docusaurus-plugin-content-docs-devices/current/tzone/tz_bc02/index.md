@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-BC02
 
+<div className="device-logo">
 ![TZ-BC02](./logo.jpg)
+</div>
 
 El TZone TZ-BC02 es un dispositivo de seguimiento compacto y ligero diseñado para ofrecer monitoreo confiable de ubicación y proximidad en activos pequeños y objetos personales. Con unas dimensiones aproximadas de 50 x 50 x 20 mm y un peso cercano a 30 gramos, es fácil de transportar y ocultar. Es compatible con el protocolo iBeacon de iPhone y con Bluetooth 4.0; además funciona con dispositivos Android que operen con Android 4.3 o superior, lo que garantiza amplia interoperabilidad con teléfonos inteligentes para rastreo por proximidad.
 

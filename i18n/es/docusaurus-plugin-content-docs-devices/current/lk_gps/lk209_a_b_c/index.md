@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK209 A/B/C
 
+<div className="device-logo">
 ![LK209 A/B/C](./tracker.jpg)
+</div>
 
 El LK209 A/B/C es un rastreador GPS magnético diseñado para el seguimiento prolongado de vehículos y el monitoreo de activos. Disponible en tres variantes de batería (A 5000 mAh, B 10000 mAh, C 20000 mAh), la serie ofrece autonomías extendidas que permiten reportes de posición y registro de rutas durante días o semanas con una sola carga. Su carcasa resistente y su imán permiten una colocación discreta en autos, camiones, contenedores y una amplia variedad de activos móviles.
 

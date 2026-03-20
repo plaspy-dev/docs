@@ -20,7 +20,9 @@ keywords:
 
 # Noran - NR100
 
+<div className="device-logo">
 ![NR100](./tracker.jpg)
+</div>
 
 The NR100 is a compact OBD II plug in GPS tracker designed for fleet and security deployments that require reliable real time location and event monitoring. It combines dual positioning (GPS plus LBS), built in antennas and a SiRF GPS receiver to provide continuous location updates, configurable reporting intervals and immediate alerts for overspeed, power cut and geo fence events. The unit also supports SMS and Internet reporting, remote audio monitoring and remote self failure analysis to help maintain device health and situational awareness.
 

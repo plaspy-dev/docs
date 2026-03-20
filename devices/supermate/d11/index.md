@@ -20,7 +20,9 @@ keywords:
 
 # Supermate - D11
 
+<div className="device-logo">
 ![D11](./logo.jpg)
+</div>
 
 The Supermate D11 is a compact GPS tracker designed for flexible asset management and personal security. Built for discreet placement, the D11 is suitable for use on vehicles, portable equipment, and personal belongings. The device emphasizes portability and durability while offering real time location tracking, geo fencing, and an emergency SOS alert feature to support ongoing monitoring and rapid response when needed.
 

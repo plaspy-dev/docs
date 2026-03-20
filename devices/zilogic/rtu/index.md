@@ -20,7 +20,9 @@ keywords:
 
 # Zilogic - RTU
 
+<div className="device-logo">
 ![RTU](./logo.jpg)
+</div>
 
 The Zilogic RTU, also marketed as the BlackKite-RTU, is a versatile remote monitoring unit designed for machine to machine cloud platforms. It supports cloud-ready device protocols and provides a range of inputs and outputs for acquiring, monitoring, and controlling remote field devices. The RTU includes features for data buffering during connectivity outages, configurable reporting intervals, and optional GPS for location tracking, making it suitable for a variety of remote monitoring scenarios.
 

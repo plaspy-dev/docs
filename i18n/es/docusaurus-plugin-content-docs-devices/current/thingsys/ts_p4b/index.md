@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-P4B
 
+<div className="device-logo">
 ![TS-P4B](./tracker.jpg)
+</div>
 
 El TS-P4B es un rastreador GPS magnético con batería de alta capacidad, diseñado para el seguimiento discreto y de larga duración de vehículos y activos. Combina una batería recargable de gran autonomía con un chipset de posicionamiento robusto y modos de ahorro de energía para prolongar el tiempo en espera y reducir el mantenimiento. Diseñado para sujetarse con seguridad a superficies metálicas, el equipo es ideal en aplicaciones donde la duración de la batería, el anclaje seguro y la visibilidad fiable de la ubicación son requisitos prioritarios.
 

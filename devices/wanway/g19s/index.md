@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - G19S
 
+<div className="device-logo">
 ![G19S](./Logo.jpg)
+</div>
 
 The WanWay G19S is a compact GPS tracker that combines GPS positioning with GSM connectivity and built in antennas and sensors. At 83mm by 40mm by 14mm and weighing approximately 54g, the device is designed for discreet placement in a wide variety of vehicle types. Key on device functionality includes ACC detection, vibration alarm, SOS emergency call, remote cut off of petrol or electricity, and the option to connect a microphone for audio monitoring. The G19S also provides trace playback, SMS notifications, waterproof protection, and a stated GPS accuracy of 5 meters or better.
 

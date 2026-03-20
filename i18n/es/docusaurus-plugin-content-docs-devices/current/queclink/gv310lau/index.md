@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV310LAU
 
+<div className="device-logo">
 ![GV310LAU](./tracker.png)
+</div>
 
 El GV310LAU es un rastreador GPS resistente con LTE Cat 4, diseñado para aplicaciones vehiculares exigentes, incluidos camiones pesados y automóviles. Combina posicionamiento GNSS multiconstelación con conectividad celular de alta velocidad para ofrecer ubicación y telemetría confiables en tiempo real. El equipo es compacto y está pensado para uso continuo en vehículos, con entradas configurables, captura CAN y funciones integradas orientadas a la gestión de flotas y a flujos de trabajo antirobo.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TopTen - TK108
 
+<div className="device-logo">
 ![TK108](./Logo.jpg)
+</div>
 
 El TopTen TK108 es un rastreador GPS para vehículos que combina reporte de ubicación con funciones básicas de alarma y monitoreo. Soporta comandos de armado y desarmado vía SMS y llamadas telefónicas, ofrece alertas de encendido y apagado del motor, reporta eventos de falla de alimentación e incluye una alarma SOS. El equipo admite una entrada analógica para monitoreo de combustible y cuenta con un registrador de datos de 8Mb para almacenar puntos cuando el dispositivo está fuera de línea. Diseñado para un amplio rango de voltaje de operación y fabricado con estándares industriales, el TK108 se adapta a distintos tipos de vehículos.
 

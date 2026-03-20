@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-VB20
 
+<div className="device-logo">
 ![TS-VB20](./tracker.jpg)
+</div>
 
 El TS-VB20 es un rastreador OBDII plug and play de ThingSys diseñado para instalación rápida y telemetría inmediata del vehículo. Se conecta directamente al puerto OBDII del vehículo para ofrecer posicionamiento GPS en tiempo real, opciones de posicionamiento híbrido y acceso directo a datos de diagnóstico del ECU, de modo que usted pueda monitorear ubicación, comportamiento de conducción y aspectos básicos del estado del vehículo sin configuraciones complejas.
 

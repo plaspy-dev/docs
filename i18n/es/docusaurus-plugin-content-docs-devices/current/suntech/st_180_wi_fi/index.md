@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 180 Wi-FI
 
+<div className="device-logo">
 ![ST 180 Wi-FI](./logo.jpg)
+</div>
 
 El Suntech ST 180 Wi‑FI es un rastreador GPS para vehículos pensado para aplicaciones de flota y telemática. Combina funciones básicas de localización con almacenamiento a bordo, conservando hasta 2000 posiciones GPS que pueden descargarse mediante conexión Wi‑Fi. El equipo está diseñado para reducir la dependencia de una conectividad celular continua, permitiendo transferencias por lotes cuando hay Wi‑Fi disponible y ayudando a controlar los costos operativos de las flotas.
 

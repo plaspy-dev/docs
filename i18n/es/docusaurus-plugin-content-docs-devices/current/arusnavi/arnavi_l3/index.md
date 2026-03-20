@@ -21,7 +21,9 @@ keywords:
 
 # Arusnavi - Arnavi L3
 
+<div className="device-logo">
 ![Arnavi L3](./tracker.png)
+</div>
 
 El Arnavi L3 es un rastreador GPS y controlador de navegación compacto pensado para el seguimiento en tiempo real y la telemetría confiable de vehículos y activos móviles. Con dimensiones de 61 x 42 x 13 mm y un peso de 36 g, el equipo integra posicionamiento GNSS multiconstelación, conectividad celular 2G GPRS, Bluetooth Low Energy para sensores externos y un conjunto de entradas y salidas robustas para supervisión de flota, workflows antirrobo y diagnóstico remoto.
 

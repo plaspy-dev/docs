@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-VG01U
 
+<div className="device-logo">
 ![JM-VG01U](./tracker.png)
+</div>
 
 The JM-VG01U is a vehicle GNSS tracker from Concox designed for professional fleet management, usage based insurance, and auto finance applications. It pairs inertial navigation support with multi constellation GNSS and LBS assistance to provide continuous positioning and enriched telemetry suitable for real time monitoring and analytics.
 

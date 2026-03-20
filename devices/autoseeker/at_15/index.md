@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-15
 
+<div className="device-logo">
 ![AT-15](./Logo.jpg)
+</div>
 
 The Autoseeker AT-15 is a compact GPS mini tracker designed to provide location monitoring for a range of applications. Its form factor and feature focus make it suitable for tracking vehicles, trucks, containers, and individuals. The AT-15 offers real time location reporting and geofencing capabilities, delivering the basic location oversight needed for operational tracking and personal safety monitoring.
 

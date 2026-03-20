@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - Trace5 Trailer Tracker
 
+<div className="device-logo">
 ![Trace5 Trailer Tracker](./logo..png)
+</div>
 
 The Ruptela Trace5 Trailer Tracker is a compact GNSS based AVL device designed for vehicle and trailer tracking and fleet management. It combines precise GNSS positioning, premium components, and a rechargeable long lasting battery to support extended deployments. The device is housed in an IP67 rated enclosure and transfers location data to a server using cellular connectivity options for remote monitoring.
 

@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-904L
 
+<div className="device-logo">
 ![ST-904L](./tracker.jpg)
+</div>
 
 The SinoTrack ST-904L is a compact GPS tracker designed for discreet vehicle and personal tracking. It combines high sensitivity GPS and GSM antennas in a small housing and supports 4G LTE connectivity with 2G fallback. The device offers live position reporting via SMS and GPRS, SOS alarm and two way voice, making it suitable for motorcycles, bicycles, cars, pets and small valuable items that require reliable location updates and basic alerting.
 

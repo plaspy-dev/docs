@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-18
 
+<div className="device-logo">
 ![AT-18](./tracker.jpg)
+</div>
 
 El AT-18 es un rastreador GPS compacto e impermeable diseñado para instalaciones permanentes y discretas en vehículos y activos móviles. Su tamaño reducido y carcasa robusta permiten ubicarlo bajo tableros, debajo de asientos o dentro de compartimentos donde la exposición prolongada a la intemperie es una preocupación. El dispositivo ofrece seguimiento en tiempo real confiable y telemetría básica para flotas, vehículos particulares, motocicletas, camiones y embarcaciones.
 

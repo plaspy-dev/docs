@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMM230
 
+<div className="device-logo">
 ![FMM230](./tracker.png)
+</div>
 
 El Teltonika FMM230 es un rastreador GPS compacto y resistente, diseñado para el monitoreo confiable de activos y flotas en entornos exigentes. Con carcasa IP67, la unidad está preparada para soportar polvo y agua mientras brinda reporte continuo de ubicación y telemetría. Su diseño celular soporta conectividad moderna de baja potencia de área amplia junto con retroceso a redes legacy para una cobertura amplia, y se integra con sensores del vehículo y accesorios para ampliar las capacidades de supervisión.
 

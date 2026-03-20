@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VG502
 
+<div className="device-logo">
 ![VG502](./tracker.png)
+</div>
 
 The VG502 is a plug and play OBDII GNSS tracker designed for quick deployment in private cars, company vehicles, and usage based insurance programs. Its OBDII form factor allows it to connect to vehicle diagnostics and deliver continuous location and vehicle telemetry without hardwiring, which makes it suitable for fleets that need fast installation and straightforward device management.
 

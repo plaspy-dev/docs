@@ -21,7 +21,9 @@ keywords:
 
 # Gelix - Gelix 3
 
+<div className="device-logo">
 ![Gelix 3](./logo.gif)
+</div>
 
 El Gelix 3 es un registrador de consumo eléctrico y rastreador GPS versátil, diseñado para recopilar y transmitir telemetría y eventos en una amplia variedad de aplicaciones. Cuenta con capacidades de E/S automáticas y opciones de conectividad mediante módem integrado o Ethernet, lo que lo hace ideal en entornos donde se requiere monitorización continua de consumo energético, temperatura, alarmas y otros sucesos relevantes. El dispositivo se ofrece como una plataforma única para el registro, la supervisión y la entrega remota de datos.
 

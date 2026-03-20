@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GT300
 
+<div className="device-logo">
 ![GT300](./logo.jpg)
+</div>
 
 El Concox GT300 es un teléfono de seguridad GSM con GPS integrado, diseñado para el seguimiento personal y de objetos pequeños. Ofrece recepción GPS con alta sensibilidad y un rápido tiempo para obtener la primera posición, lo que lo hace adecuado para vigilar a niños, adultos mayores, equipaje o mascotas. El dispositivo integra un subsistema GPRS GSM cuatribanda y soporta múltiples tipos de reportes como alertas de emergencia, cruces de geocercas, notificaciones de batería baja y alarmas SOS.
 

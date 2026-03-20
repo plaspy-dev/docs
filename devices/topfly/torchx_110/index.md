@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - TorchX 110
 
+<div className="device-logo">
 ![TorchX 110](./tracker.jpg)
+</div>
 
 The TopFly TorchX 110 is a plug-and-play OBDII GPS tracker designed for fleet telematics, usage based insurance programs, and vehicle diagnostics. It combines high resolution real time tracking with vehicle level telemetry and accessory support in an OBDII form factor, enabling rapid deployment across mixed fleets. The TorchX 110 is engineered to provide frequent position updates, CAN bus vehicle parameters, and Bluetooth sensor connectivity to support broad telematics needs.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT-6300
 
+<div className="device-logo">
 ![XT-6300](./logo.jpg)
+</div>
 
 The Xirgo XT-6300 is a versatile GPS tracker designed for a wide range of vehicle and equipment telematics applications. It combines a high precision GPS engine with embedded antennas and onboard motion sensing to deliver reliable location data and basic movement detection. The device also includes script enabled firmware and optional interfaces for vehicle diagnostics and wireless connectivity, supporting a variety of monitoring and control scenarios.
 

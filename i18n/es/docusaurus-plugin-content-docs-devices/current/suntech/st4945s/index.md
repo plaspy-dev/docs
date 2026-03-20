@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4945(S)
 
+<div className="device-logo">
 ![ST4945(S)](./tracker.jpg)
+</div>
 
 El ST4945(S) es un rastreador GPS compacto de Suntech pensado para el seguimiento de activos portátiles y vehículos cuando la autonomía de la batería y la cobertura de red son prioritarias. Está disponible en dos configuraciones —el ST4945 con batería de mayor capacidad y el ST4945S con batería más pequeña— y combina conectividad celular multimodal, posicionamiento GNSS y funcionamiento de bajo consumo para ofrecer actualizaciones continuas de ubicación y estado del dispositivo para monitoreo de flotas y activos.
 

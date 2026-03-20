@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT48‑X
 
+<div className="device-logo">
 ![GPT48‑X](./tracker.jpg)
+</div>
 
 El GPT48‑X es un rastreador GPS de larga autonomía diseñado para el seguimiento robusto de activos en entornos remotos o con conectividad intermitente. Combina conectividad celular LTE Cat‑M y NB‑IoT con posicionamiento multi‑GNSS para ofrecer una ubicación persistente y fiable. Su carcasa resistente con grado IP67 y montaje magnético fuerte facilitan la sujeción rápida a activos metálicos; además, está pensado para requerir mantenimiento mínimo, por lo que es ideal para flotas, contenedores y equipos que necesiten detección de manipulación y seguimiento continuo durante largos periodos de despliegue.
 

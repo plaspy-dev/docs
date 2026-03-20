@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - XT008
 
+<div className="device-logo">
 ![XT008](./logo.jpg)
+</div>
 
 The Xexun XT008 is a versatile GPS tracking device designed for vehicle and asset monitoring. It combines real time tracking with interval tracking options and provides street level address replies to help pinpoint locations. The XT008 also supports hybrid location tracking to maintain position updates when satellite reception is limited, and it includes a range of alerts such as geofence, movement, and overspeed to assist in operational oversight.
 

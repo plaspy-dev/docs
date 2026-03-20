@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-17G
 
+<div className="device-logo">
 ![AT-17G](./tracker.jpg)
+</div>
 
 El Autoseeker AT-17G es un rastreador de activos GPS 4G de alta resistencia diseñado para la protección prolongada de bienes y la gestión de flotas. Combina una construcción robusta con una batería recargable de gran capacidad y seis imanes internos de alta potencia que permiten un montaje encubierto en camiones, remolques, contenedores, maquinaria de construcción y otros activos móviles de alto valor. El equipo está preparado para soportar entornos exigentes de transporte y ofrecer actualizaciones de posición y notificaciones de eventos de forma persistente.
 

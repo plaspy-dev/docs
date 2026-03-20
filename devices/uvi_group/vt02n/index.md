@@ -20,7 +20,9 @@ keywords:
 
 # UVI Group - VT02N
 
+<div className="device-logo">
 ![VT02N](./logo.jpg)
+</div>
 
 The UVI Group VT02N is a compact and stylish GPS vehicle tracker designed for discreet real time tracking and monitoring. Its mini form factor and plastic cover make it suitable for unobtrusive installation across a variety of vehicle types. The VT02N uses GSM quad band communication and pairs intelligent software logic with a smart hardware layout to provide consistent position reporting and operational reliability.
 

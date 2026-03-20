@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A5E
 
+<div className="device-logo">
 ![HB-A5E](./logo.jpg)
+</div>
 
 El Huabao HB-A5E es un rastreador GPS compacto para vehículos diseñado para automóviles particulares y motocicletas. Ofrece posicionamiento y seguimiento en tiempo real en un formato reducido y está pensado para usuarios que requieren monitoreo de ubicación sencillo y funciones básicas de seguridad. El equipo incluye detección de ignición e inmovilización, lo que lo hace adecuado para propietarios que desean mayor control sobre el uso del vehículo.
 

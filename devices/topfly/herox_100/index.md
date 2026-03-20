@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - HeroX 100
 
+<div className="device-logo">
 ![HeroX 100](./tracker.png)
+</div>
 
 The TopFly HeroX 100 is a hardwired GPS tracker designed for demanding vehicle and asset tracking deployments. It delivers high accuracy multi GNSS positioning with an autonomous CEP under 1.5 m and uses 4G CAT 1 connectivity with 2G fallback to provide reliable location fixes and telemetry for real time tracking, fleet management and anti theft scenarios.
 

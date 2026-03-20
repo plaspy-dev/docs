@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - TTU-700
 
+<div className="device-logo">
 ![TTU-700](./logo.jpg)
+</div>
 
 The CalmAmp TTU-700 is a battery operated non rechargeable trailer tracking device built for long term deployments where low maintenance and long life are priorities. It combines a compact form factor with an internal 57 Ah battery and integrated cellular and GPS antennas so units can be mounted flexibly on trailers and other assets without additional wired antennas.
 

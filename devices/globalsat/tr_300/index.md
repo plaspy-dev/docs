@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - TR-300
 
+<div className="device-logo">
 ![TR-300](./logo.jpg)
+</div>
 
 The GlobalSat TR-300 is a compact, lightweight personal tracker built for reliable everyday tracking and safety monitoring. Designed with children and elders in mind, it combines straightforward operation with practical safety features such as two-way communication via a built in microphone and speaker, an SOS button for quick alerts, and long battery life to reduce the need for frequent charging. The TR-300 supports remote monitoring and configuration so caregivers or monitoring centers can follow location and safety events as needed.
 

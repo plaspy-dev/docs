@@ -21,7 +21,9 @@ keywords:
 
 # Ruptela - Eco5
 
+<div className="device-logo">
 ![Eco5](./tracker.jpg)
+</div>
 
 El Eco5 de Ruptela es un rastreador GPS compatible con Plaspy diseñado para la gestión profesional de flotas, el monitoreo de carga y la identificación de conductores. Se basa en un módulo GNSS u‑blox de alta gama y se ofrece en carcasas robustas IP54 e IP68, ofreciendo posicionamiento fiable, funcionamiento de bajo consumo y soporte ampliado de accesorios para vehículos ligeros y pesados.
 

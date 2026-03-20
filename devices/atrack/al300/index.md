@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AL300
 
+<div className="device-logo">
 ![AL300](./tracker.jpg)
+</div>
 
 The AL300 is a rugged GPS tracker from ATrack designed for demanding fleet management and heavy equipment telematics. Built with IP67 protection and vibration compliance to common industry standards, the AL300 aims to deliver dependable positioning and telemetry over regional cellular networks. It is available in regional variants to match coverage needs and offers optional vehicle and sensor interfaces to extend observable data beyond location.
 

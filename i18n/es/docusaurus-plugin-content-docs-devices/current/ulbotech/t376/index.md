@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T376
 
+<div className="device-logo">
 ![T376](./tracker.jpg)
+</div>
 
 El Ulbotech T376 es un rastreador GPS OBDII plug‑and‑play pensado para telemetría vehicular y gestión de flotas. Diseñado para ofrecer reportes de ubicación, acceso a parámetros del motor y control antirrobo desde el puerto OBDII, el T376 integra posicionamiento GNSS, comunicaciones celular y Wi‑Fi, detección de eventos mediante acelerómetro a bordo y capacidad de actualización remota de firmware para despliegues prácticos en vehículos.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - L70S
 
+<div className="device-logo">
 ![L70S](./logo.jpg)
+</div>
 
 El Sentar L70S es un reloj rastreador GPS compacto diseñado para ofrecer a padres y cuidadores visibilidad continua de la ubicación de los niños. Comercializado como un dispositivo de seguridad infantil, el L70S combina varios métodos de posicionamiento para entregar actualizaciones de ubicación oportunas y utiliza el chipset MTK2503 para las funciones centrales de rastreo. Está disponible en varios colores y se presenta como un wearable que equilibra la usabilidad diaria con la monitorización de la ubicación.
 

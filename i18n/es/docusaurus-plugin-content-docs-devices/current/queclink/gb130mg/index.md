@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GB130MG
 
+<div className="device-logo">
 ![GB130MG](./tracker.png)
+</div>
 
 El GB130MG es un rastreador GPS vehicular compacto e impermeable, diseñado para implementaciones a gran escala de telemática de flotas y programas de seguro basado en uso (UBI). Pensado para entornos exigentes, combina protección robusta IP67 con posicionamiento de alta precisión y detección de movimiento para soportar seguimiento continuo, análisis de incidentes y flujos de trabajo antirobo. Su factor de forma y la batería de respaldo interna lo hacen apto para montajes expuestos donde se requiere máxima fiabilidad.
 

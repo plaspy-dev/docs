@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - TE-207S
 
+<div className="device-logo">
 ![TE-207S](./tracker.png)
+</div>
 
 El TE-207S es un rastreador GPS personal compacto e impermeable diseñado para ofrecer seguimiento en tiempo real y monitoreo de seguridad confiable. Basado en un chipset U-blox 7 GNSS con AGPS y conectividad GSM GPRS cuatribanda, el dispositivo proporciona actualizaciones de posición, un botón SOS, llamadas bidireccionales y monitoreo de voz en un chasis pequeño con clasificación IPX6, apto para entornos húmedos o exigentes.
 

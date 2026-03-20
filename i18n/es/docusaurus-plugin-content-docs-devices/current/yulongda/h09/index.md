@@ -21,7 +21,9 @@ keywords:
 
 # YulongDa - H09
 
+<div className="device-logo">
 ![H09](./logo.jpg)
+</div>
 
 El YulongDa H09 es un rastreador GPS vehicular compacto diseñado para el seguimiento y monitoreo en tiempo real de una amplia variedad de vehículos. Utiliza conectividad GSM quad band para ofrecer cobertura geográfica extensa y soporta un amplio rango de voltaje de entrada, lo que lo hace compatible con distintos sistemas eléctricos vehiculares. El equipo incorpora además funciones prácticas de seguridad y operación como sensor de vibración integrado para alertas antirrobo, detección de encendido (ACC), un botón SOS externo, batería de respaldo y la opción de controlar la alimentación del vehículo mediante un relé externo.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-11
 
+<div className="device-logo">
 ![AT-11](./tracker.jpeg)
+</div>
 
 El Autoseeker AT-11 es un rastreador GPS 4G compacto plug and play que funciona como cargador de auto, diseñado para implementarse rápidamente en vehículos. Pensado para usarse en la toma de mechero, el equipo combina posicionamiento GNSS con conectividad celular y una función integrada de carga para teléfonos móviles, ofreciendo actualizaciones continuas de ubicación, reporte de alarmas y reproducción de historial sin necesidad de cableado. Su factor de forma y carcasa ligera lo hacen práctico para flotas, vehículos de renta y autos particulares donde la instalación simple y el seguimiento inmediato son prioritarios.
 

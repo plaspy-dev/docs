@@ -21,7 +21,9 @@ keywords:
 
 # Protrack - VT05C
 
+<div className="device-logo">
 ![VT05C](./tracker.png)
+</div>
 
 El VT05C es un rastreador GPS cableado y compacto de Protrack, diseñado para ofrecer monitoreo vehicular confiable y protección contra robos. Cuenta con una carcasa resistente con certificación IP65 para proteger contra polvo y salpicaduras, un diseño discreto y liviano adecuado para autos y motocicletas, y una alimentación cableada pensada para funcionamiento continuo una vez instalado. El VT05C integra telemetría y funciones de seguridad habituales como detección de ACC, alertas por vibración, geocercas, avisos por exceso de velocidad, reproducción histórica y un inmovilizador para corte de combustible que facilita flujos de trabajo antirrobo.
 

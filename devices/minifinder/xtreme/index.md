@@ -20,7 +20,9 @@ keywords:
 
 # MiniFinder - Xtreme
 
+<div className="device-logo">
 ![Xtreme](./tracker.png)
+</div>
 
 The MiniFinder Xtreme is a rugged, magnetic GPS tracker built for long term covert tracking of high value vehicles and equipment. Designed with an IP68 waterproof enclosure and a strong magnetic mounting, the Xtreme is intended for deployments where endurance and concealment matter. It offers reliable real time tracking and event telemetry suited to fleet management, anti theft protection, and remote asset monitoring.
 

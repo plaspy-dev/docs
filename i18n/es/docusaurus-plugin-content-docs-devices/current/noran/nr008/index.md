@@ -21,7 +21,9 @@ keywords:
 
 # Noran - NR008
 
+<div className="device-logo">
 ![NR008](./tracker.jpg)
+</div>
 
 El NR008 es un rastreador GPS para automóviles robusto, pensado para implementaciones que requieren actualizaciones de ubicación en tiempo real y control del vehículo. Basado en el chipset GNSS SiRFstar y con comunicaciones GSM y GPRS de SIMCOM, el NR008 ofrece reportes continuos de posición, alertas SOS, geocercas, alarmas por exceso de velocidad, detección de movimiento y capacidades de inmovilización remota, todo orientado a la seguridad vehicular y la supervisión de flotas.
 

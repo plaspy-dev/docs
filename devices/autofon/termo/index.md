@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Термо
 
+<div className="device-logo">
 ![Термо](./tracker.jpg)
+</div>
 
 AutoFon Термо is a GSM controlled heater module created to manage aftermarket auxiliary parking heaters such as WEBASTO and EBERSPÄCHER. It provides remote start and stop via SMS or an incoming-call voice menu, offers a cabin-mounted push button for local on/off control, and includes a real time clock with two programmable timers for scheduled pre-heating. The unit is intended to work with separately installed auxiliary heaters and is positioned for fleet and private vehicle use where predictable pre-heating is important.
 

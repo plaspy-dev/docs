@@ -20,7 +20,9 @@ keywords:
 
 # Telic - SBC product family
 
+<div className="device-logo">
 ![SBC product family](./tracker.jpg)
+</div>
 
 The SBC product family from Telic is a rugged telematics platform designed for fleet management and vehicle tracking. Models such as the SBC3 CAN 4G and SBC AVL 4G provide a durable housing with an integrated antenna and multiple wired interfaces, enabling reliable long term operation in vehicle and trailer environments. These devices are built for quick installation and stable uplink for continuous tracking and telemetry collection.
 

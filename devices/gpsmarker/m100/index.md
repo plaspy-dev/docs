@@ -20,7 +20,9 @@ keywords:
 
 # GPSMarker - M100
 
+<div className="device-logo">
 ![M100](./logo.jpg)
+</div>
 
 The GPSMarker M100 is a compact and reliable GPS tracker designed for vehicle and asset protection. It uses a high sensitivity 72 channel GPS receiver to deliver accurate coordinates and consistent position updates. The M100 also includes multiple onboard sensors such as movement detection, crash detection, a revolution sensor for shock monitoring, a temperature sensor, and a panic SOS button to support a wide range of monitoring needs.
 

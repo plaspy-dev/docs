@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - Ublox 7
 
+<div className="device-logo">
 ![Ublox 7](./tracker.jpg)
+</div>
 
 El Ublox 7 Mini (modelo MT06) es un rastreador GPS de grado industrial, compacto, diseñado para motocicletas, vehículos pequeños y equipos ligeros. Combina un chipset GNSS uBlox 7 de alta sensibilidad con un módulo GSM GPRS certificado M35, todo alojado en una carcasa resistente al agua, para ofrecer un seguimiento confiable en tiempo real, seguimiento automático configurable y telemetría esencial para gestión de flotas, protección antirrobo y monitoreo remoto.
 

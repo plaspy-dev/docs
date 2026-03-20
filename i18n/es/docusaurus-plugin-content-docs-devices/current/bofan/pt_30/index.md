@@ -21,7 +21,9 @@ keywords:
 
 # Bofan - PT-30
 
+<div className="device-logo">
 ![PT-30](./logo.jpg)
+</div>
 
 El Bofan PT-30 es un rastreador GPS personal compacto y confiable, diseñado para el monitoreo discreto de personas y activos portátiles. Envía la información de posición vía SMS o GPRS y combina posicionamiento satelital con conectividad celular para ofrecer actualizaciones fiables incluso en entornos difíciles, como áreas urbanas con señal débil. La unidad es pequeña y poco visible, con funciones orientadas al seguimiento diario y la seguridad, incluyendo botón SOS, contactos de emergencia preconfigurados, geocercas y comunicación bidireccional para situaciones urgentes.
 

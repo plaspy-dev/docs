@@ -21,7 +21,9 @@ keywords:
 
 # Ruptela - HCV5
 
+<div className="device-logo">
 ![HCV5](./tracker.jpg)
+</div>
 
 El HCV5 es una unidad profesional de rastreo y telemática para vehículos, diseñada para uso en flotas comerciales. Ofrece posicionamiento GNSS continuo y telemetría vehicular robusta, capturando una amplia gama de datos del vehículo para soportar identificación de conductores, monitoreo de combustible y descargas remotas de tacógrafo. Construido para ser durable y de instalación discreta, el HCV5 consolida datos de ubicación y operación en una única unidad a bordo pensada para entornos exigentes de flotas.
 

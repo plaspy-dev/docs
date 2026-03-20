@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - GF200LS
 
+<div className="device-logo">
 ![GF200LS](./tracker.png)
+</div>
 
 El GF200LS es un rastreador GPS de larga autonomía y tipo desechable de CanTrack, diseñado para despliegues de baja intervención y larga duración. Pensado para vehículos de trabajo pesado, contenedores de carga y unidades prestadas o alquiladas, el GF200LS combina un diseño eficiente de bajo consumo con un potente imán para montaje, carcasa impermeable y sensor de luz para detección de manipulación. Configurado con tasas de reporte bajas, el dispositivo puede ofrecer hasta tres años en modo standby, lo que lo hace ideal para activos que se revisan con poca frecuencia.
 

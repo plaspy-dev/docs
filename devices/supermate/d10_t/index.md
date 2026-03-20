@@ -20,7 +20,9 @@ keywords:
 
 # Supermate - D10-T
 
+<div className="device-logo">
 ![D10-T](./logo.jpg)
+</div>
 
 The Supermate D10-T is a compact, lightweight GPS tracker designed for a wide range of tracking needs. Suited to personal, commercial, and industrial contexts, the device provides continuous location visibility while remaining easy to place on assets without drawing attention. Its straightforward installation and portable form factor make it appropriate for monitoring vehicles, equipment, or personal items where discreet tracking and simple deployment are priorities.
 

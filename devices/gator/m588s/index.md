@@ -20,7 +20,9 @@ keywords:
 
 # Gator - M588S
 
+<div className="device-logo">
 ![M588S](./logo.jpg)
+</div>
 
 The Gator M588S is a dedicated GPS tracking device built to deliver reliable location data for vehicle applications. It combines a GPS receiver for satellite positioning with a GSM communications module to transmit tracking data to a remote server. The M588S is designed for a range of vehicles, and its wide voltage input makes it suitable for different vehicle electrical systems.
 

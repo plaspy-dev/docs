@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TV-680
 
+<div className="device-logo">
 ![TV-680](./logo.jpg)
+</div>
 
 The GOTOP TV-680 is a compact personal GPS tracker that uses satellite positioning to determine its location and the cellular network to transmit that information. It is described as a device intended for protecting and keeping track of elderly individuals and children, and for general safety and remote positioning to help protect property. The tracker provides single location replies on demand and supports two way voice communication with preset call functions.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - Smart5
 
+<div className="device-logo">
 ![Smart5](./tracker.png)
+</div>
 
 Smart5 is a compact, hard‑wearing GPS tracker designed for robust fleet management and deep vehicle data integration. It provides cellular connectivity with LTE Cat 1 and 2G fallback for reliable real‑time tracking across broad coverage areas. Built to read CANbus and OBD data including CustomCAN, Smart5 captures diagnostic and vehicle state information while offering form factor options for discreet or rugged installation.
 

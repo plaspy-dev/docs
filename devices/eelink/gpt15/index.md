@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT15
 
+<div className="device-logo">
 ![GPT15](./tracker.jpg)
+</div>
 
 The GPT15 is a slim, travel focused GPS tracker designed for luggage and personal assets. It combines layered positioning with a compact form factor to deliver portable location visibility and handling detection for everyday items and short term deployments. The device includes GPS, Wi‑Fi and base‑station positioning, Bluetooth 4.0 smartphone pairing, a light sensor for tamper detection, and a rechargeable battery in a lightweight housing sized for bags and small assets.
 

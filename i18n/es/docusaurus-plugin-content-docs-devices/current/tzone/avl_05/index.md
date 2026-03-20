@@ -21,7 +21,9 @@ keywords:
 
 # TZone - AVL-05
 
+<div className="device-logo">
 ![AVL-05](./logo.jpg)
+</div>
 
 El TZone AVL-05 es un dispositivo de rastreo GPS para vehículos diseñado para la seguridad, recuperación y gestión de flotas. Permite el seguimiento de ubicación desde software y teléfonos móviles, e incluye una variedad de notificaciones como alarmas por exceso de velocidad, bajo voltaje y geocercas. También soporta funciones de control y monitoreo remoto, como detección del estado de puertas y motor, y corte remoto del motor en situaciones de emergencia.
 

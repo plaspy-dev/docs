@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-620
 
+<div className="device-logo">
 ![CCTR-620](./logo.jpg)
+</div>
 
 El Carscop CCTR-620 es un rastreador GPS compacto y portátil pensado para uso personal y seguimiento de activos livianos. Ofrece múltiples opciones de localización mediante web, aplicación móvil, SMS y WeChat, y puede reportar su posición por GPRS o SMS. El dispositivo soporta localización por GPS y LBS Cell ID, dispone de modos de reporte y operación configurables, e incluye alarmas como exceso de velocidad y geocerca para notificar eventos relevantes. Un sensor de impactos integrado ayuda a ahorrar energía controlando la actividad del GPS, y el equipo incluye una batería de Li-ion extraíble y recargable que ofrece mayor tiempo en modo espera.
 

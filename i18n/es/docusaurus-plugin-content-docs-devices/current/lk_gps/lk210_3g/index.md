@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK210-3G
 
+<div className="device-logo">
 ![LK210-3G](./tracker.jpg)
+</div>
 
 El LK210-3G es un rastreador GPS compacto y de fácil instalación pensado para motocicletas, autos y camiones. Integra receptor GPS y conectividad GSM, además de un sensor de vibración y función de activación por impacto, ofreciendo actualizaciones de posición confiables, alertas antirrobo y opciones de montaje discretas. Su tamaño reducido y su fijación magnética permiten una implementación rápida y poco intrusiva tanto en vehículos particulares como en activos de flota.
 

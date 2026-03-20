@@ -20,7 +20,9 @@ keywords:
 
 # Totemtech - AT07
 
+<div className="device-logo">
 ![AT07](./logo.jpg)
+</div>
 
 The Totemtech AT07 is a compact and versatile GPS tracker designed for a range of tracking and monitoring tasks. Built with features such as simultaneous data reporting to two servers, a 3 axis digital accelerometer for movement status, and onboard flash storage for historical points, the AT07 is positioned as a flexible device for vehicles and mobile assets. It also offers OTA firmware updates, a wide accepted power input range with over voltage protection, voice monitoring capabilities, and configurable I O ports for digital and analog signals.
 

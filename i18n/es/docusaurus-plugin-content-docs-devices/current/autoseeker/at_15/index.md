@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-15
 
+<div className="device-logo">
 ![AT-15](./Logo.jpg)
+</div>
 
 El Autoseeker AT-15 es un mini rastreador GPS compacto diseñado para ofrecer monitoreo de ubicación en diversas aplicaciones. Su factor de forma y su enfoque en funciones básicas lo hacen adecuado para rastrear vehículos, camiones, contenedores y personas. El AT-15 proporciona reportes de ubicación en tiempo real y capacidades de geocercas, entregando la supervisión de ubicación necesaria para el seguimiento operativo y la seguridad personal.
 

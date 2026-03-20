@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL200
 
+<div className="device-logo">
 ![GL200](./tracker.png)
+</div>
 
 El QuecLink GL200 es un rastreador GPS compacto y resistente, diseñado para la protección discreta de activos y el envío continuo de posiciones. Pensado para instalaciones encubiertas y entornos exigentes, el GL200 es ideal cuando se requiere colocación oculta y actualizaciones continuas y fiables de la ubicación. Su desempeño comprobado en campo incluye recuperaciones documentadas que demuestran reportes confiables a largas distancias.
 

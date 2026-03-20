@@ -21,7 +21,9 @@ keywords:
 
 # MiniFinder - Watch
 
+<div className="device-logo">
 ![Watch](./tracker.jpg)
+</div>
 
 El MiniFinder Watch es un rastreador GPS portátil y reloj inteligente de seguridad pensado para personas mayores y usuarios vulnerables. Ofrece seguimiento de ubicación en tiempo real junto con telemetría de salud, detección automática de caídas y una alarma SOS de un solo toque para que cuidadores y equipos de monitoreo reciban alertas y datos de ubicación oportunos. El dispositivo está pensado tanto para uso doméstico como institucional e incluye funciones para supervisión continua y uso diario.
 

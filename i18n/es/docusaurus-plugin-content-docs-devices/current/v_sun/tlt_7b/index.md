@@ -21,7 +21,9 @@ keywords:
 
 # V-SUN - TLT-7B
 
+<div className="device-logo">
 ![TLT-7B](./logo.jpg)
+</div>
 
 El V-SUN TLT-7B es un rastreador GPS 3G diseñado alrededor de un chipset GPS de alto rendimiento para ofrecer posicionamiento preciso en distintos entornos. Proporciona información de ubicación confiable incluso en áreas con señal débil o visibilidad limitada, e incluye funciones prácticas como botón SOS, geocercas, avisos de exceso de velocidad, subida de datos históricos y la posibilidad de realizar llamadas de voz cuando se utiliza con auricular.
 

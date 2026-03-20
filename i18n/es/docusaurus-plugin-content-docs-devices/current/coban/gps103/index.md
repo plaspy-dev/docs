@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS103
 
+<div className="device-logo">
 ![GPS103](./logo.jpg)
+</div>
 
 El Coban GPS103 es un rastreador GPS para vehículos diseñado para ofrecer posicionamiento confiable y monitoreo de automóviles, camiones y otros vehículos. Soporta varios métodos de transmisión de datos, incluidos SMS, GPRS e internet, y ofrece funciones habituales en seguridad vehicular y supervisión operativa como rastreo en tiempo real, notificaciones de alarma, servicios basados en ubicación y registro de datos. El dispositivo se orienta tanto a la protección individual de vehículos como a escenarios de monitoreo más amplios.
 

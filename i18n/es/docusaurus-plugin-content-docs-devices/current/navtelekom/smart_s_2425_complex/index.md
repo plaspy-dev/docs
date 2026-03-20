@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2425 COMPLEX
 
+<div className="device-logo">
 ![SMART S-2425 COMPLEX](./tracker.jpeg)
+</div>
 
 El SMART S-2425 COMPLEX de Navtelekom es un rastreador GPS profesional y compacto pensado para integradores y operadores de flotas. Diseñado como dispositivo GNSS 2G con antenas internas GNSS y GSM, soporte para doble SIM y batería de respaldo integrada, ofrece reporte continuo de posición y cierta resistencia frente a cortes temporales de alimentación. La unidad incluye entradas y salidas flexibles, interfaces seriales y configuración local por Bluetooth para cubrir diversas necesidades de telemetría y monitoreo vehicular.
 

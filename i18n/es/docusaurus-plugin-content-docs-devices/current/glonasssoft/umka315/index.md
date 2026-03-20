@@ -21,7 +21,9 @@ keywords:
 
 # GLONASSsoft - UMKa315
 
+<div className="device-logo">
 ![UMKa315](./tracker.png)
+</div>
 
 El UMKa315 es un rastreador compacto de GLONASSsoft diseñado para monitoreo confiable de vehículos y activos. Integra un receptor multicanal GLONASS y GPS con antenas internas, capacidad de identificación por BLE y una batería de respaldo interna. Se presenta como una pequeña caja negra pensada para montaje discreto en vehículos, remolques y otros activos donde se requiere un desempeño de navegación constante y un uso eficiente de datos.
 

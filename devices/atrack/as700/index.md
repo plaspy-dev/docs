@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AS700
 
+<div className="device-logo">
 ![AS700](./tracker.jpg)
+</div>
 
 The AS700 is a solar powered GPS tracker engineered for long term outdoor deployment and industrial asset monitoring. Designed for containers, generators, trailers and heavy equipment, it pairs a rugged IP68/IP69K and MIL STD 810H rated enclosure with GNSS positioning, cellular connectivity and Bluetooth sensor support to deliver reliable location and condition telemetry with minimal maintenance.
 

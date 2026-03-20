@@ -20,7 +20,9 @@ keywords:
 
 # Appello - TK103
 
+<div className="device-logo">
 ![TK103](./logo.jpg)
+</div>
 
 The Appello TK103 is a compact and versatile GPS tracker designed for accurate real time location monitoring of vehicles and portable assets. It combines a small form factor and light weight with positioning hardware that supports consistent location fixes. The device is reported to use a New Star NS 1315 GPS chip and an ARM 7 class processor, with positioning accuracy around 5 meters and a high sensitivity that helps maintain reception in difficult environments.
 

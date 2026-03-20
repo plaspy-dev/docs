@@ -21,7 +21,9 @@ keywords:
 
 # EV - EV-201M
 
+<div className="device-logo">
 ![EV-201M](./tracker.png)
+</div>
 
 El EV-201M es un rastreador GPS compacto 4G LTE-M/NB diseñado para ofrecer un seguimiento fiable de mascotas y monitoreo de actividad. Pensado para uso exterior, combina una carcasa resistente con certificación IP67, una batería eficiente de 800 mAh y modos de ahorro de energía propios del IoT para proporcionar historial continuo de ubicaciones y actualizaciones periódicas de posición para perros y otros animales domésticos.
 

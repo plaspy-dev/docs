@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - TK-103-2
 
+<div className="device-logo">
 ![TK-103-2](./logo.jpg)
+</div>
 
 The Xexun TK-103-2 is a versatile GPS tracker designed for a range of vehicle and asset monitoring applications. It is commonly used in private cars, vehicle leasing operations, outdoor mechanical equipment anti theft tracking, and corporate vehicle management. The device provides location reporting, scheduled tracking, and a comprehensive set of alarm features intended to help protect and monitor movable assets.
 

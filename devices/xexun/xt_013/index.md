@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - XT-013
 
+<div className="device-logo">
 ![XT-013](./logo.jpg)
+</div>
 
 The Xexun XT-013 is a compact and lightweight GPS tracker designed to provide real time location updates and continuous auto tracking. Its small form factor makes it easy to conceal while the waterproof enclosure supports reliable use in a range of outdoor conditions. The device includes a built in antenna and an internal battery and reports movement, geofence events, overspeed occurrences, and low battery status.
 

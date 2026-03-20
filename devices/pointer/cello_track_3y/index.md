@@ -20,7 +20,9 @@ keywords:
 
 # Pointer - Cello Track 3Y
 
+<div className="device-logo">
 ![Cello Track 3Y](./logo.jpg)
+</div>
 
 The Cello Track 3Y is part of the CelloTrack 3Y Family from Pointer, a line of adaptable tracking devices intended for mobile and fixed asset management. The family includes the standard CelloTrack 3Y, the CelloTrack Power 3Y for monitoring power consumption, and the compact CelloTrack Lighter 3Y for smaller items. These devices provide continuous tracking and monitoring of asset location and are designed to support extended deployments with a durable battery life and weather resistant casing.
 

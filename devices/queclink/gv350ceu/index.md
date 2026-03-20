@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV350CEU
 
+<div className="device-logo">
 ![GV350CEU](./tracker.png)
+</div>
 
 The GV350CEU is a professional grade vehicle tracker from QuecLink designed for demanding fleet management and commercial telematics. It combines high precision GNSS positioning with LTE Cat 1 connectivity and a suite of vehicle level interfaces to deliver continuous location tracking, telemetry and event reporting for trucks, buses and other heavy vehicles.
 

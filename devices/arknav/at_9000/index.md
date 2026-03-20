@@ -20,7 +20,9 @@ keywords:
 
 # ArkNav - AT-9000
 
+<div className="device-logo">
 ![AT-9000](./tracker.png)
+</div>
 
 The AT-9000 is a long operation GPS tracker designed for harsh environments and extended deployments. Built with a rugged waterproof and heatproof enclosure, it is optimized for container, trailer and heavy equipment tracking where external power is unavailable or intermittent. The device emphasizes durability and autonomy, making it suitable for long term asset visibility and reduced maintenance cycles.
 

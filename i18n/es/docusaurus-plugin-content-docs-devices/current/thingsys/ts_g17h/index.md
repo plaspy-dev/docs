@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-G17H
 
+<div className="device-logo">
 ![TS-G17H](./tracker.jpg)
+</div>
 
 El TS-G17H es un rastreador GPS compacto para vehículos, diseñado para ofrecer seguimiento en tiempo real de forma confiable y discreta. Preparado para despliegues globales, combina conectividad GSM cuatribanda con reportes GPRS TCP/IP e implementa el formato de mensajes GT06 para proporcionar ubicación, telemetría básica y funciones antirrobo. Su tamaño reducido, antena GPS integrada y batería de respaldo lo hacen adecuado como rastreador oculto para autos y localizador de motocicletas cuando el espacio y la continuidad en los reportes son importantes.
 

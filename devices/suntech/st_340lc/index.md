@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 340LC
 
+<div className="device-logo">
 ![ST 340LC](./logo.jpg)
+</div>
 
 The Suntech ST 340LC is a compact, water resistant GPS tracker designed for a range of industries where a reliable and low maintenance tracking device is needed. It combines a small form factor with the core functionality of the ST340 series, and is presented as a cost effective option for monitoring motorcycles, vehicles, and applications tied to insurance or buy here pay here programs. The device emphasizes long life between charges through low battery consumption, helping reduce operational upkeep.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK720
 
+<div className="device-logo">
 ![TK720](./tracker.jpg)
+</div>
 
 El TK-Star TK720 es un rastreador relay compacto diseñado para motocicletas, automóviles, vehículos de alquiler y equipos ligeros. Integra un receptor UBLOX GNSS con múltiples métodos de posicionamiento —GPS, BeiDou y GLONASS— además de posicionamiento complementario por LBS y Wi‑Fi, lo que permite informes de ubicación fiables tanto en exteriores como en interiores en un formato reducido. El equipo se centra en funcionalidades de seguimiento y seguridad esenciales como detección de vibración, geocercas, alertas por movimiento y exceso de velocidad, junto con control remoto para cortar el motor.
 

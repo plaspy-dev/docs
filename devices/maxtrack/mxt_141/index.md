@@ -20,7 +20,9 @@ keywords:
 
 # Maxtrack - MXT-141
 
+<div className="device-logo">
 ![MXT-141](./logo.jpg)
+</div>
 
 The Maxtrack MXT-141 is a compact GPS tracker built on the same platform as the MXT-151 and designed to provide advanced tracking capabilities for vehicle and asset monitoring. It includes an embedded wireless communication circuit for accessories, a secondary 2.4GHz communication link, additional inputs for RPM and odometer evaluation, and an accelerometer capable of detecting movement and stoppage. These features make the MXT-141 suitable for operations that need flexible sensor integration and short range accessory communication.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2435 MAX
 
+<div className="device-logo">
 ![SMART S-2435 MAX](./tracker.jpeg)
+</div>
 
 El SMART S-2435 MAX de Navtelekom es un rastreador GPS compacto diseñado para el monitoreo confiable de flotas y activos en entornos vehiculares exigentes. Integra posicionamiento GNSS con antenas internas y una batería de respaldo para mantener el envío continuo de posición y telemetría incluso durante cortes de energía, por lo que es adecuado para vehículos y aplicaciones industriales que requieren visibilidad constante.
 

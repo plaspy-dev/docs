@@ -20,7 +20,9 @@ keywords:
 
 # Appello - Master
 
+<div className="device-logo">
 ![Master](./logo.jpg)
+</div>
 
 The Appello Master is a compact GPS tracker designed to provide accurate location tracking and continuous monitoring for vehicles and assets. At 85.00 x 78 x 20 mm and 93 g, the unit is small and lightweight for discreet placement. It combines an ARM7 CPU with the New Star NS-1315 GPS chip to deliver high sensitivity and a typical position accuracy of about 5 m, and it communicates over GSM GPRS bands for wide area coverage. The device includes an internal battery that supports standby operation and is specified for extended temperature and humidity ranges.
 

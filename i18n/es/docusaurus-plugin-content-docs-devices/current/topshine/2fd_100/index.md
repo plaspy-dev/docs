@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - 2FD-100
 
+<div className="device-logo">
 ![2FD-100](./tracker.jpg)
+</div>
 
 El 2FD-100 es un rastreador GPS OBD2 bidireccional integrado con una alarma vehicular inteligente 4G, diseñado para seguridad profesional y conectividad en vehículos. Como unidad todo en uno, combina posicionamiento, entradas y salidas de alarma, un punto de acceso WiFi y comunicación de voz bidireccional para ofrecer seguimiento en tiempo real y protección antirrobo en instalaciones exigentes. Fabricado con componentes de grado industrial y un módulo GSM/GPS con IMEI legal, el dispositivo está pensado para despliegues de flota y entornos donde la telemetría confiable y la gestión de alarmas son fundamentales.
 

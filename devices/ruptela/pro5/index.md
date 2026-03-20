@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - Pro5
 
+<div className="device-logo">
 ![Pro5](./tracker.png)
+</div>
 
 The Pro5 from Ruptela is a professional grade GPS tracker designed for heavy vehicles such as trucks, buses and specialized machinery. Built for demanding fleet environments, it combines modern cellular connectivity with a premium GNSS receiver and wireless accessory support to deliver continuous position updates, vehicle telemetry and on device event logging required for fleet operations and anti theft workflows.
 

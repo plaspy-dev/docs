@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V26+
 
+<div className="device-logo">
 ![RF-V26+](./tracker.jpg)
+</div>
 
 El RF-V26+ es un rastreador GPS compacto diseñado específicamente para ganado y animales grandes como ovejas, caballos y vacas. Combina una carcasa robusta e impermeable con carga asistida por energía solar para ofrecer una operación prolongada en campo. El dispositivo es pequeño y liviano (6.5 x 5.5 x 1.7 cm y aproximadamente 73 g) y se entrega con un soporte, un cable USB magnético para carga y un manual de usuario, lo que lo hace adecuado para montaje en collar o en soporte en entornos de pastoreo.
 

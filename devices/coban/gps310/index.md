@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS310
 
+<div className="device-logo">
 ![GPS310](./Logo.jpg)
+</div>
 
 The Coban GPS310 is a compact and versatile GPS tracker designed to provide accurate location tracking for a variety of situations. Built to work with existing GSM GPRS networks and GPS satellites, the GPS310 can report position and status via SMS or to a computer or PDA. The device is small enough to carry or conceal, and the manufacturer lists several practical features such as time tracking, geo fencing, SOS alerts, low battery warnings, and a record rollover function that make it suitable for both personal and asset monitoring.
 

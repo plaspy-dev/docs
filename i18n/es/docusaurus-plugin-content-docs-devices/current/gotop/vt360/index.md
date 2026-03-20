@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - VT360
 
+<div className="device-logo">
 ![VT360](./tracker.jpg)
+</div>
 
 El VT360 es un rastreador GPS profesional para vehículos diseñado para ofrecer un seguimiento confiable en tiempo real y facilitar la gestión de flotas. Basado en un módulo GNSS SiRFstar III de alta sensibilidad y comunicaciones GSM/GPRS probadas, el VT360 proporciona posicionamiento preciso, informes basados en tiempo y distancia, y el envío instantáneo de ubicaciones mediante enlaces SMS a Google Maps. Una batería interna de respaldo conserva la telemetría durante cortes de la alimentación principal, manteniendo la visibilidad cuando más importa.
 

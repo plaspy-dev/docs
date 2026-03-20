@@ -21,7 +21,9 @@ keywords:
 
 # iTriangle - Bharat101 Plus 4G
 
+<div className="device-logo">
 ![Bharat101 Plus 4G](./tracker.png)
+</div>
 
 El Bharat101 Plus 4G es un rastreador GPS compacto certificado AIS 140 por iTriangle, diseñado para implementaciones fiables en flotas comerciales, transporte público y equipos pesados. Combina posicionamiento GNSS multiconstelación, conectividad 4G con opciones de respaldo, una carcasa robusta IP65 y soporte de eSIM segura para ofrecer ubicación y telemetría continuas que cumplen requisitos regulatorios y operativos.
 

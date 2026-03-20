@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - ST7200
 
+<div className="device-logo">
 ![ST7200](./logo.jpg)
+</div>
 
 The SkyPatrol ST7200 is a GPS tracking device purpose built for motorcycles and other powersports vehicles. It has a strong field record in vehicle recovery across a range of platforms including motorcycles, ATVs, personal watercraft, snowmobiles, and UTVs. The device is designed for the unique needs of powersports owners with low power consumption, an internal backup battery, and resistance to water and vibration to withstand rugged conditions.
 

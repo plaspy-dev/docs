@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL520MG
 
+<div className="device-logo">
 ![GL520MG](./tracker.png)
+</div>
 
 El QuecLink GL520MG es un rastreador GPS robusto e impermeable, pensado para el monitoreo de activos con bajo mantenimiento y la detección ambiental. Diseñado para operar durante largos periodos, el GL520MG combina una batería de alta autonomía y protección IP67 con conectividad celular y sensores integrados para ofrecer reportes de posición confiables, lecturas de temperatura y luz, y detección de movimiento en activos tanto estáticos como móviles.
 

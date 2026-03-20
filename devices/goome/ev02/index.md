@@ -20,7 +20,9 @@ keywords:
 
 # Goome - EV02
 
+<div className="device-logo">
 ![EV02](./logo.jpg)
+</div>
 
 The Goome EV02 is an electric motor positioning terminal designed for the electromobile and motorcycle market. It combines GPS positioning with GSM and GPRS connectivity to provide real time location reporting, trace playback, and user defined geo fences. Its compact size and built in antenna make it suitable for discreet installation on small vehicles where space and concealment are priorities.
 

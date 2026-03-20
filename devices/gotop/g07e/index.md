@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G07E
 
+<div className="device-logo">
 ![G07E](./tracker.jpg)
+</div>
 
 The GOTOP G07E is a 4G solar magnet GPS tracker designed for low maintenance, long term asset monitoring. It combines an integrated solar panel with a removable high capacity rechargeable battery to sustain extended outdoor operation. Rugged waterproofing and a strong integrated magnet make the G07E suitable for attaching to containers, trailers, heavy equipment and other metal chassis where continuous autonomous tracking is needed.
 

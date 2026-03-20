@@ -20,7 +20,9 @@ keywords:
 
 # Laipac - S911 LOLA S
 
+<div className="device-logo">
 ![S911 LOLA S](./tracker.png)
+</div>
 
 The S911 LOLA S is a compact mobile Personal Emergency Response System designed for real time personal safety and remote monitoring. Built for dependable 4G LTE GNSS reporting, the Lola S provides continuous real time tracking, a dedicated SOS button and two way voice so caregivers, dispatchers or monitoring centers can locate and speak with a user instantly during an emergency. Its built in fall detection, automatic check ins and geofence alerts make it a practical choice for programs that need fast, reliable situational awareness.
 

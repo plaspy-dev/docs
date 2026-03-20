@@ -21,7 +21,9 @@ keywords:
 
 # Concox - VL505
 
+<div className="device-logo">
 ![VL505](./tracker.png)
+</div>
 
 El Concox VL505 es un rastreador GNSS GPS 4G ultra compacto, plug and play, diseñado tanto para vehículos particulares como para flotas comerciales. Instalado en el puerto OBD II del vehículo, el VL505 ofrece ubicación y telemetría en tiempo real mediante LTE Cat 1, combinando posicionamiento por múltiples fuentes con sensores de movimiento y monitoreo de audio a bordo para soportar seguimiento, detección de movimiento y alertas configurables.
 

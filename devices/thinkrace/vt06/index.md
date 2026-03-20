@@ -20,7 +20,9 @@ keywords:
 
 # ThinkRace - VT06
 
+<div className="device-logo">
 ![VT06](./logo.jpg)
+</div>
 
 The ThinkRace VT06 is a compact vehicle tracking device built for continuous and accurate positioning. It provides real time tracking, track playback, electric fence functionality, and data statistics, together with an alarm suite covering power failure, low power, vibration, displacement, speedup, and fence breaches. These features make the VT06 a practical choice for monitoring vehicle location and activity across a range of vehicle types.
 

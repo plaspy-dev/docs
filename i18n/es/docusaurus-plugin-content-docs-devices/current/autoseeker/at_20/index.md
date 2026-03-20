@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-20
 
+<div className="device-logo">
 ![AT-20](./tracker.jpeg)
+</div>
 
 El Autoseeker AT-20 es un rastreador GPS vehicular profesional 4G diseñado para ofrecer seguimiento confiable en tiempo real y gestión de flotas. Optimizado para aplicaciones sobre vehículos, el AT-20 proporciona actualizaciones de ubicación instantáneas, reproducción de rutas históricas, geocercas, alertas por exceso de velocidad, detección de ACC (encendido), reportes de emergencia SOS y gestión avanzada de movimiento y energía. Con batería interna de respaldo y soporte para accesorios externos como botón SOS, cámara o sensor de combustible, el AT-20 está pensado para cubrir las necesidades operativas habituales en monitoreo de flotas y seguridad vehicular.
 

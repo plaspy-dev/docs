@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-2
 
+<div className="device-logo">
 ![AT-2](./logo..jpg)
+</div>
 
 The Autoseeker AT-2 is a compact, waterproof personal GPS tracker designed to provide discreet location monitoring and emergency alerting for seniors and people with medical challenges such as Parkinsons and Alzheimers. As the smallest model in Autoseeker's lineup, the AT-2 emphasizes portability and concealment while offering positioning with GPS plus Beidou with reported accuracy around five meters. The device supports full band 2G and 4G connectivity, includes an SOS emergency call function, and offers a suite of alarms and recording features targeted at personal safety use.
 

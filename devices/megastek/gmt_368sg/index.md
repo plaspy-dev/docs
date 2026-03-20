@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - GMT-368SG
 
+<div className="device-logo">
 ![GMT-368SG](./logo.jpg)
+</div>
 
 The Megastek GMT-368SG is a vehicle GPS tracker designed to deliver accurate and dependable tracking for a variety of vehicle types. It features a waterproof IP66 enclosure to withstand rain and harsh weather, and supports tracking over SMS and GPRS (TCP/UDP). The device provides regular interval reporting, real time tracking, and a suite of alarms and monitoring features including geo fencing, over speed alarm, vibration alarm, low battery alarm, no GPS signal alarm, and an external power connected or disconnected alarm. It also includes a data logger to store location data when cellular coverage is unavailable.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G03
 
+<div className="device-logo">
 ![G03](./tracker.jpg)
+</div>
 
 The CanTrack G03 is a compact, purpose built GPS tracker designed for personal safety and protection of portable assets. It combines a small footprint and a durable ABS polymer shell with IP65 water resistance, making it suitable for everyday use on wheelchairs, personal carry items, and other portable belongings. The G03 provides real time location updates and historical route playback so caregivers, family members, and managers can monitor movement over time.
 

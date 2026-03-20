@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AL7
 
+<div className="device-logo">
 ![AL7](./logo.jpg)
+</div>
 
 The ATrack AL7 is an economical fleet tracking unit designed for reliable real time track and trace in challenging environments. Housed in a rugged IP66 waterproof casing with an internal antenna, the AL7 is built to withstand outdoor and automotive conditions while offering features such as high GPS sensitivity, a built in G sensor for motion detection, configurable real time tracking and logging, and a broad operating voltage range that makes it suitable for many vehicle types.
 

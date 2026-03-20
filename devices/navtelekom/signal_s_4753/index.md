@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-4753
 
+<div className="device-logo">
 ![СИГНАЛ S-4753](./tracker.jpeg)
+</div>
 
 The СИГНАЛ S-4753 from Navtelekom is a professional GLONASS/GPS vehicle tracker designed for demanding fleet management and telematics deployments. It combines cellular connectivity with dual SIM redundancy, dual CAN interfaces, on‑board data logging and a range of vehicle focused I/O to support continuous position reporting and extended telemetry capture in transport environments.
 

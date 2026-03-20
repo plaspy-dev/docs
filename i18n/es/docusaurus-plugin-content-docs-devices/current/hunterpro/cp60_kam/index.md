@@ -21,7 +21,9 @@ keywords:
 
 # HunterPro - CP60-KAM
 
+<div className="device-logo">
 ![CP60-KAM](./logo.jpg)
+</div>
 
 El HunterPro CP60-KAM es un rastreador GPS pensado para el monitoreo vehicular que incorpora captura de imágenes a las funciones de seguimiento estándar. Según la descripción disponible, el equipo puede tomar fotografías desde el vehículo monitorizado sin costos de servicio adicionales, y puede capturar automáticamente una imagen cuando se detecta un evento de pánico. Estas capacidades visuales ofrecen una capa adicional de contexto más allá de la ubicación.
 

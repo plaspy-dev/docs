@@ -21,7 +21,9 @@ keywords:
 
 # Concox - LL303 Pro
 
+<div className="device-logo">
 ![LL303 Pro](./tracker.png)
+</div>
 
 El LL303 Pro es un rastreador GPS GNSS con alimentación solar y conectividad 4G LTE, diseñado para despliegues prolongados en maquinaria de construcción, equipo pesado y embarcaciones. Construido para soportar condiciones exteriores exigentes, integra carga solar, una batería Li-Polímero de 10 000 mAh y una carcasa resistente IP67 para ofrecer una larga autonomía en espera y seguimiento en tiempo real de activos fuera de la red. Sus modos de reporte múltiples y alertas por eventos ayudan a reducir visitas de mantenimiento y a mejorar la visibilidad de equipos de alto valor.
 

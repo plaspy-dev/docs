@@ -20,7 +20,9 @@ keywords:
 
 # GalileoSky - GALILEOSKY V1.8.5
 
+<div className="device-logo">
 ![GALILEOSKY V1.8.5](./logo.jpg)
+</div>
 
 The GALILEOSKY V1.8.5 is a vehicle GPS tracker designed to determine and record coordinates, timestamps, routes, and sensor-related points for moving vehicles. It stores tracking points locally and transmits collected data to a server for monitoring and analysis. The device includes features aimed at improving operational efficiency and security, including alarm notifications, offline data upload, and redundant server transmission.
 

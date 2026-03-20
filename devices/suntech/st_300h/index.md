@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 300H
 
+<div className="device-logo">
 ![ST 300H](./logo.jpg)
+</div>
 
 The Suntech ST 300H is a GPS tracker built for telemetry fleet management. According to the model description, it delivers real time tracking and provides detailed information on driving habits, vehicle performance, and management and delivery routes. The device is positioned for businesses that need continuous visibility over vehicle movement and operational patterns to improve efficiency.
 

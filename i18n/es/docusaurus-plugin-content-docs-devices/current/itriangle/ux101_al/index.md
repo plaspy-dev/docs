@@ -21,7 +21,9 @@ keywords:
 
 # iTriangle - UX101-AL++
 
+<div className="device-logo">
 ![UX101-AL++](./tracker.png)
+</div>
 
 El UX101-AL++ es un rastreador GPS robusto certificado AIS 140 y registrador telemático 4G diseñado para entornos vehiculares e industriales exigentes. Diseñado para operar en condiciones adversas, el dispositivo ofrece rastreo en tiempo real y telemetría persistente con conectividad celular de múltiples generaciones, dos interfaces CAN y opciones inalámbricas locales para integrar accesorios y sensores. Su construcción resistente y factor de forma compacto lo hacen adecuado para vehículos comerciales pesados, equipos de minería y otras aplicaciones de movilidad que requieren datos fiables de ubicación y eventos.
 

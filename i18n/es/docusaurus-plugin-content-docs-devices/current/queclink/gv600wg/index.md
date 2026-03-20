@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV600WG
 
+<div className="device-logo">
 ![GV600WG](./tracker.png)
+</div>
 
 El QuecLink GV600WG es un rastreador GPS robusto diseñado para activos de alta exigencia como remolques, cisternas, unidades refrigeradas y plataformas. Combina una carcasa resistente con clasificación IP67, un diseño de antena a prueba de manipulación y una batería interna de gran capacidad para ofrecer seguimiento continuo y telemetría fiable en entornos de transporte y logística exigentes.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - uWatch WT1 Lite
 
+<div className="device-logo">
 ![uWatch WT1 Lite](./tracker.png)
+</div>
 
 The CAREU uWatch WT1 Lite is a compact wearable GPS tracker in a smartwatch form factor designed for personal safety and continuous wellness monitoring. It combines location tracking with health telemetry such as heart rate, blood pressure, and oxygen saturation, and includes practical safety features like an SOS button and geofence notifications to help caregivers respond quickly when incidents occur.
 

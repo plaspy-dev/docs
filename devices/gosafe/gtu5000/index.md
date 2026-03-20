@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - GTU5000
 
+<div className="device-logo">
 ![GTU5000](./tracker.png)
+</div>
 
 The GTU5000 is a professional grade GPS tracker designed for fleet operators and telematics integrators who need robust hardware for real time tracking and advanced telemetry. Engineered for common vehicle electrical systems, the device combines cellular connectivity with multi constellation GNSS and a range of inputs and outputs to capture location, sensor and driving status information suitable for fleet and asset monitoring.
 

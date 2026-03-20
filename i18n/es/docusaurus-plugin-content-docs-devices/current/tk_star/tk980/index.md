@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK980
 
+<div className="device-logo">
 ![TK980](./tracker.jpg)
+</div>
 
 El TK980 es un rastreador OBD2 compacto plug-and-play de TK-Star, pensado para una instalación rápida y la supervisión continua del vehículo. Diseñado para entornos urbanos y exteriores, combina posicionamiento multinorma, sensor de vibración integrado y almacenamiento histórico de rutas en servidor para ofrecer información de localización confiable sin cableado complejo.
 

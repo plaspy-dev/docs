@@ -21,7 +21,9 @@ keywords:
 
 # Concox - LL303
 
+<div className="device-logo">
 ![LL303](./logo..png)
+</div>
 
 El Concox LL303 es un rastreador GPS 4G con carga solar diseñado para el monitoreo de vehículos de construcción y embarcaciones. Construido con una carcasa resistente con clasificación IP67, panel solar integrado y opción de carga magnética, el LL303 se orienta a despliegues que requieren tiempo prolongado en espera y funcionamiento fiable en entornos exteriores adversos. Sus múltiples modos de funcionamiento y la compatibilidad con accesorios periféricos, como dispositivos Bluetooth y un lector RFID opcional, hacen que el equipo sea adaptable a distintos escenarios de seguimiento de activos.
 

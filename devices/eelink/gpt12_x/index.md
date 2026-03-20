@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT12‑X
 
+<div className="device-logo">
 ![GPT12‑X](./tracker.jpg)
+</div>
 
 The GPT12‑X is a slim, long‑standby GPS tracker intended for multi‑year deployments and enterprise scale monitoring. It combines low‑power wide area cellular connectivity with multi‑GNSS positioning to provide dependable real‑time tracking, event alarms, and extended battery life for assets and fleets that require low maintenance and consistent uptime. The device is built for harsh conditions and includes event detection features to support security and recovery workflows.
 

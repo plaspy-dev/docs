@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2425
 
+<div className="device-logo">
 ![SMART S-2425](./tracker.jpeg)
+</div>
 
 The SMART S-2425 is a compact GLONASS/GPS vehicle tracker designed for reliable real-time positioning and fleet use. It combines sensitive satellite reception with an integrated GSM antenna and a dual-SIM 2G modem to provide continuity across cellular networks. The unit's small footprint, built-in backup battery and a robust set of inputs and outputs make it suitable for fleet management, telemetry collection and anti-theft monitoring in vehicle environments.
 

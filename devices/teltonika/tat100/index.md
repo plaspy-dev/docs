@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - TAT100
 
+<div className="device-logo">
 ![TAT100](./tracker.png)
+</div>
 
 The TAT100 is a compact, battery powered GPS tracker built for long term asset monitoring. With a rugged IP68 rated enclosure and quad band 2G GSM connectivity, the device is designed to deliver reliable location reporting for non powered assets. Multiple battery configurations and optional micro USB support on select SKUs make the TAT100 suitable for a range of deployments where low maintenance and wire free installation are priorities.
 

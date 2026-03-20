@@ -20,7 +20,9 @@ keywords:
 
 # Aquila - BHARAT 101
 
+<div className="device-logo">
 ![BHARAT 101](./logo.jpg)
+</div>
 
 The BHARAT 101 is an AIS140 certified vehicle tracking and monitoring black box from Aquila. Designed as a compact, rugged telematics unit, it combines GPS/GLONASS positioning, solid state storage for historical records, a variety of input and output options, and motion sensing to support reliable vehicle tracking and operational monitoring. The device includes an IP67 rated ABS casing and certifications from ICAT and AIS140, reflecting its suitability for regulated fleet deployments.
 

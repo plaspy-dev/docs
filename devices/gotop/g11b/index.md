@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G11B
 
+<div className="device-logo">
 ![G11B](./tracker.jpg)
+</div>
 
 The GOTOP G11B is a compact collar mounted GPS tracker designed to provide reliable outdoor location and protection for pets and farm animals. Built for rugged use, it includes 4G LTE connectivity, built in GPS and 4G antennas, and IP65 waterproofing to support consistent real time tracking and alerting in wet conditions. The device is optimized for wireless mounting on collars and harnesses and offers SMS location reporting alongside GOTOP web and mobile platform features.
 

@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL502MG
 
+<div className="device-logo">
 ![GL502MG](./logo..png)
+</div>
 
 El QuecLink GL502MG es un rastreador GPS robusto pensado para el seguimiento de activos, remolques y contenedores. Su carcasa IP68 resistente al agua y su diseño para montaje flexible lo hacen apto para despliegues en entornos exteriores exigentes. El GL502MG prioriza la operación sin supervisión durante largos periodos gracias a una batería de muy alta capacidad reemplazable por el usuario, e incorpora mejoras de posicionamiento como GNSS, posicionamiento por WiFi y Bluetooth para conectar accesorios locales.
 

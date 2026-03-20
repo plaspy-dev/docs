@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - Q20
 
+<div className="device-logo">
 ![Q20](./tracker.jpg)
+</div>
 
 The GOTOP Q20 is a compact, rugged 4G SOS GPS tracker built for personal safety and small asset monitoring. Designed for children, older adults, lone workers, pets, and valuable items, the Q20 combines real time tracking, configurable alarms, two way voice, and hybrid positioning to maintain visibility in urban, indoor, and remote environments. Its sealed IP67 enclosure and an oversized SOS button are geared toward continuous safety monitoring and anti theft scenarios.
 

@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV200
 
+<div className="device-logo">
 ![GV200](./logo.jpg)
+</div>
 
 El QuecLink GV200 es un rastreador GPS compacto para vehículos, diseñado para una amplia gama de aplicaciones de seguimiento. Integra un receptor GPS interno de alta sensibilidad y un acelerómetro interno de 3 ejes para ofrecer una localización confiable y detección de remolque. La unidad soporta conectividad GPRS/GSM cuatribanda y dispone de múltiples interfaces de E/S para monitoreo y control de dispositivos externos, lo que la hace adaptable a diversos escenarios de flota y seguridad.
 

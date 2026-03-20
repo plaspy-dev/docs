@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP9501
 
+<div className="device-logo">
 ![SP9501](./logo.jpg)
+</div>
 
 El SkyPatrol SP9501 es un rastreador de activos CDMA diseñado para despliegues confiables y de largo plazo. Combina una carcasa resistente con carga inalámbrica y un enfoque en el rendimiento GPS consistente para ofrecer seguimiento de ubicación en tiempo real de vehículos, equipos y otros activos de valor. Está pensado para escenarios donde la larga duración de batería y la trazabilidad confiable son críticas, por lo que resulta idóneo para implementaciones que pueden extenderse por meses o años.
 

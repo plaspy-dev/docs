@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - Q10
 
+<div className="device-logo">
 ![Q10](./tracker.jpg)
+</div>
 
 The GOTOP Q10 is an ultra compact SOS GPS tracker designed for dependable personal safety and simple real time location tracking. Built around a prominent SOS button and a waterproof enclosure, the Q10 is supplied with a holder and is sized for unobtrusive everyday carry. It is commonly used to protect children, the elderly, lone workers, pets and other users who need an easy to carry, easy to use safety device.
 

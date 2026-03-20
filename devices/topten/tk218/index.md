@@ -20,7 +20,9 @@ keywords:
 
 # TopTen - TK218
 
+<div className="device-logo">
 ![TK218](./Logo.jpg)
+</div>
 
 The TopTen TK218 is an OBD car and truck GPS tracker designed for on‑board vehicle monitoring. With a plug and play OBD-II connector and support for CAN-BUS systems, the TK218 provides location tracking, route history, and a range of vehicle status reports. It supports tracking on demand or at set intervals via SMS or GPRS, and includes alarms for overspeed, movement, engine on, vibration, and power failure, plus voice monitoring and a built‑in data logger.
 

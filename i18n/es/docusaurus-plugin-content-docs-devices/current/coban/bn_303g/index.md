@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-303G
 
+<div className="device-logo">
 ![BN-303G](./tracker.png)
+</div>
 
 El BN-303G es un rastreador GPS compacto montado en vehículo, desarrollado por Coban para ofrecer seguimiento en tiempo real y protección antirrobo confiable. Diseñado para instalaciones ocultas en automóviles y vehículos comerciales, el equipo incorpora posicionamiento GNSS de alta sensibilidad y un conjunto de alarmas por eventos para que gestores de flota, empresas de renta y propietarios particulares puedan monitorear ubicación, estado de encendido y telemetría básica de forma sencilla.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Stars Nav - PT-33
 
+<div className="device-logo">
 ![PT-33](./tracker.jpg)
+</div>
 
 The PT-33 is a compact personal GPS/GSM tracker from Stars Nav designed for reliable location monitoring of people and animals. Built around a u-blox LEA-5S GNSS module, the PT-33 delivers consistent satellite positioning, configurable low power operation and extensive onboard logging. Its small form factor and feature set make it suitable for everyday carry, outdoor activity, caregiving and security roles where discreet and dependable tracking is required.
 

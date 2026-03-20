@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - DX Mayak 8.1
 
+<div className="device-logo">
 ![DX Mayak 8.1](./tracker.png)
+</div>
 
 The AutoFon DX Mayak 8.1 is a compact, battery powered GPS tracker built for discreet anti theft protection and long term asset monitoring. Designed to be small and power efficient, the device supports dual GNSS positioning and event driven alerts such as movement, crash and SOS to keep vehicles, cargo and portable equipment visible and secure over extended deployments. Its enclosure options and low duty tracking modes make it suitable for concealed mounting and multi year installations where regular maintenance is impractical.
 

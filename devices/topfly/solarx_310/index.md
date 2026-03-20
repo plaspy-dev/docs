@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - SolarX 310
 
+<div className="device-logo">
 ![SolarX 310](./tracker.png)
+</div>
 
 The SolarX 310 is a rugged, solar powered GPS tracker designed for long term outdoor deployments. Built for containers, trailers, trucks and other high value mobile assets, it combines real time tracking, a large offline buffer and environmental resistance to keep location and telemetry alive even in remote areas. Its design centers on long duration autonomy and durable protection for exposed installations.
 

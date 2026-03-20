@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-2
 
+<div className="device-logo">
 ![AT-2](./logo..jpg)
+</div>
 
 El Autoseeker AT-2 es un rastreador GPS personal compacto e impermeable, diseñado para ofrecer monitoreo discreto de ubicación y alertas de emergencia para adultos mayores y personas con necesidades médicas como Parkinson o Alzheimer. Siendo el modelo más pequeño de la gama Autoseeker, el AT-2 prioriza la portabilidad y la posibilidad de ocultarlo, mientras brinda posicionamiento por GPS y Beidou con una precisión reportada de alrededor de cinco metros. El dispositivo funciona en redes 2G y 4G de banda completa, incluye función de llamada SOS y ofrece una serie de alarmas y opciones de registro pensadas para la seguridad personal.
 

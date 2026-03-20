@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - TR-203
 
+<div className="device-logo">
 ![TR-203](./logo.jpg)
+</div>
 
 The GlobalSat TR-203 is a compact personal tracking device designed for reliable location monitoring and route history capture. It pairs quick position acquisition with a small form factor and supports GPS location reporting together with GSM and GPRS wireless connectivity. A notable capability is the built in data logger that can store up to 150,000 position records, allowing users to review past routes and movements without continuous live connectivity.
 

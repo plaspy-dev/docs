@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G25C-4G
 
+<div className="device-logo">
 ![G25C-4G](./tracker.jpg)
+</div>
 
 The G25C-4G from GOTOP is an industrial grade IoT tracking terminal designed for long term vehicle and asset monitoring. It combines LTE wireless communication with multi mode positioning including GPS and BDS plus AGPS, WiFi and LBS to improve location reliability. Built for field use, the unit features an IP65 waterproof housing, a full built in antenna and strong magnetic mounting, and it offers SMS Google Map location links for quick situational checks.
 

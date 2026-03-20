@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TL-216
 
+<div className="device-logo">
 ![TL-216](./logo.jpg)
+</div>
 
 The GOTOP TL-216 is a compact portable GPS tracker that combines satellite positioning with GSM GPRS network reporting to provide on the move location monitoring. Designed for flexible use, it is commonly applied to pet tracking, asset protection, and vehicle tracking where a small form factor and basic remote reporting are valuable. The device supports real time location updates, SMS or data transmission of coordinates, and the ability to view positions via Google map links on a smartphone.
 

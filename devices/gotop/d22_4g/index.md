@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D22-4G
 
+<div className="device-logo">
 ![D22-4G](./tracker.jpg)
+</div>
 
 The GOTOP D22-4G is a waterproof vehicle GPS tracker built for reliable real-time tracking and fleet management. Designed for cars, commercial vehicles, and fleet assets, the device combines high-sensitivity GPS and BDS dual satellite positioning with 4G communications and integrated antenna hardware to provide consistent location, status, and telemetry reporting. Its industrial form factor and onboard features address common operational needs such as theft deterrence, event alarms, and mileage monitoring.
 

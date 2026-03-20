@@ -21,7 +21,9 @@ keywords:
 
 # Laipac - Kamel S - E
 
+<div className="device-logo">
 ![Kamel S - E](./logo..jpg)
+</div>
 
 El Laipac Kamel S - E es un rastreador compacto para activos, diseñado para mejorar la visibilidad y la gestión de equipos móviles y existencias. Combina conectividad 4G LTE con posicionamiento GNSS para ofrecer actualizaciones de ubicación en tiempo real e incluye funciones integradas como informes por intervalo de tiempo y distancia recorrida, alertas de remolque, alertas por exceso de velocidad y notificaciones por violación de geocercas. El dispositivo además es resistente al agua según la norma IP68 y cuenta con una batería interna de polímero de litio para funcionamiento prolongado sin instalación fija.
 

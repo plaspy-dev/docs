@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - L17
 
+<div className="device-logo">
 ![L17](./tracker.jpg)
+</div>
 
 The GOTOP L17 is a compact 4G SOS GPS smart bracelet designed for personal safety and health monitoring. Built in a wristwatch form factor with IP67 protection, the L17 combines GNSS positioning, LTE cellular connectivity, and optional Bluetooth support to deliver continuous location and telemetry. It pairs sensor rich health tracking with an SOS button and two way calling, making it suitable for children, seniors, lone workers and general personal asset protection.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMM80A
 
+<div className="device-logo">
 ![FMM80A](./tracker.png)
+</div>
 
 El Teltonika FMM80A es un rastreador GPS OBD II de tipo plug-and-play pensado para despliegues rápidos y telemática confiable. Diseñado para flotas, alquileres y operaciones de entrega, el dispositivo ofrece monitorización de posición en tiempo real y telemetría del vehículo con un esfuerzo mínimo de instalación al conectarse directamente al puerto OBD II. Este modelo está optimizado para el mercado de Norteamérica e incluye conectividad celular, soporte Bluetooth Low Energy para sensores y balizas externas, y un acelerómetro configurable para detección de incidentes y captura de trazas.
 

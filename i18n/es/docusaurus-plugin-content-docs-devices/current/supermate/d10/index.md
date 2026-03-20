@@ -21,7 +21,9 @@ keywords:
 
 # Supermate - D10
 
+<div className="device-logo">
 ![D10](./logo.jpg)
+</div>
 
 El Supermate D10 es un rastreador GPS compacto y ligero diseñado para una amplia variedad de necesidades de seguimiento en entornos personales, comerciales e industriales. Ofrece actualizaciones de ubicación en tiempo real, soporte para geocercas que generan alertas al entrar o salir de zonas definidas y un botón de emergencia SOS para notificaciones urgentes. Su formato discreto y la instalación sencilla lo hacen ideal para colocar en vehículos, equipos o pertenencias sin afectar la movilidad.
 

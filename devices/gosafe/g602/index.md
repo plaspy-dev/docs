@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G602
 
+<div className="device-logo">
 ![G602](./tracker.jpg)
+</div>
 
 The Gosafe G602 Easy Install is a compact two wire GPS tracker built for rapid deployment and robust fleet telematics. It delivers high sensitivity real time tracking, crash telemetry and driver behavior data in a package designed to be fitted quickly across large vehicle fleets. The G602 combines multi GNSS positioning with an accelerometer driven crash recorder and cellular communications to provide continuous vehicle location and event streams.
 

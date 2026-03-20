@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - WR100 LEU
 
+<div className="device-logo">
 ![WR100 LEU](./tracker.png)
+</div>
 
 El WR100 LEU es un router industrial LTE Cat 4 diseñado como una pasarela de comunicaciones compacta para despliegues de rastreadores compatibles con Plaspy. Pensado para aplicaciones IoT y telemática con alta demanda de datos, ofrece conectividad celular resiliente con redundancia de doble SIM, además de enlaces cableados y WiFi, para que la telemetría y la ubicación de los rastreadores se entreguen de forma confiable a plataformas en la nube.
 

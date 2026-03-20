@@ -20,7 +20,9 @@ keywords:
 
 # Cityeasy - 302
 
+<div className="device-logo">
 ![302](./logo.jpg)
+</div>
 
 The Cityeasy 302 is a car GPS tracker designed to provide continuous vehicle location monitoring and basic security alerts. It supports both LBS and GPS position reporting for real time tracking, offers a set of motion and tamper alerts including over speed, vibration, displacement, and a cut electric alert, and records historical routes for later review. The device is built to withstand wet conditions thanks to its IP67 rating, and it is described as offering free installation and easy power on capabilities.
 

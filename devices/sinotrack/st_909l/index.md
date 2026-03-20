@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-909L
 
+<div className="device-logo">
 ![ST-909L](./tracker.jpg)
+</div>
 
 The SinoTrack ST-909L is a compact 4G GPS tracker integrated into an aluminium car charger housing. Designed for straightforward in vehicle placement and discreet concealment, the unit combines continuous location reporting with USB charging outputs so it can serve both as a tracking device and a driver convenience accessory. The ST-909L supports SMS configuration to set server and network parameters, and provides common tracking features such as geofence and overspeed alerts along with route history.
 

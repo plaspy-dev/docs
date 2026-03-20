@@ -20,7 +20,9 @@ keywords:
 
 # Concox - WeTrack140
 
+<div className="device-logo">
 ![WeTrack140](./tracker.png)
+</div>
 
 The WeTrack140 is an AIS140 approved multifunctional vehicle GPS tracker designed for the Indian market. It provides continuous real time location tracking together with distance and speed monitoring, and exposes a range of telematics and status inputs suitable for vehicle level oversight. The device is described as resilient for automotive use, with protection against dust and water, backup power, and features aimed at operational control and safety.
 

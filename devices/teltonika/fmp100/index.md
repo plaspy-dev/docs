@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMP100
 
+<div className="device-logo">
 ![FMP100](./tracker.png)
+</div>
 
 The Teltonika FMP100 is a compact plug and play GPS tracker engineered for rapid deployment in vehicles. Designed to run from a vehicle cigarette lighter socket, the FMP100 provides immediate location tracking and driver interaction features without requiring hardwiring. Its lightweight form factor and simple installation make it well suited to temporary installs, short term rentals, and pilot deployments where speed and flexibility matter.
 

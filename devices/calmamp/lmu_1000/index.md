@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-1000
 
+<div className="device-logo">
 ![LMU-1000](./logo.jpg)
+</div>
 
 The CalAmp LMU-1000 is an economy class GPS tracking unit built to deliver cost effective asset management for insurance and sub prime lending markets. It provides track and trace functionality and vehicle recovery support in a compact, durable plastic housing. The unit includes internal GPS and GSM antennas, a backup battery to maintain location reporting during power loss, and a sleep mode that conserves power when the device is idle. It does not include voice capability and is designed for straightforward, reliable tracking use.
 

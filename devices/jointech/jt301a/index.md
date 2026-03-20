@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT301A
 
+<div className="device-logo">
 ![JT301A](./tracker.jpg)
+</div>
 
 The Jointech JT301A Asset Tracker is a compact device built for long term asset visibility across logistics and distribution networks. It is designed for container, pallet, and box truck deployments and provides scheduled LBS location updates together with door open and illumination monitoring. This combination makes the JT301A suited to deployments where periodic location reporting and tamper alerts are needed without the cost and power drain of continuous real time tracking.
 

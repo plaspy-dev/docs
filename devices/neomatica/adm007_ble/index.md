@@ -20,7 +20,9 @@ keywords:
 
 # Neomatica - ADM007 BLE
 
+<div className="device-logo">
 ![ADM007 BLE](./tracker.png)
+</div>
 
 The Neomatica ADM007 BLE is a compact, plug and play GNSS GPS tracker designed for quick deployment using a vehicle cigarette lighter socket. It is intended for operators who need a fast, removable tracking solution and includes GNSS positioning, Bluetooth Low Energy sensor support for up to eight wireless sensors, anti jamming detection and onboard route logging. The device emphasizes ease of installation and practical telemetry for vehicle applications.
 

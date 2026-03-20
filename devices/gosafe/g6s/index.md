@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G6S
 
+<div className="device-logo">
 ![G6S](./logo.jpg)
+</div>
 
 The Gosafe G6S is a GPS tracker built for service providers, integrators, and enterprise customers. It is designed to improve mobile resource management and dispatch systems, making it well suited for fleet management, insurance telematics, vehicle location and recovery, and similar operational scenarios. The device uses quad band GSM GPRS tracking with a 3G option available, and includes features aimed at reliable position reporting and operational oversight.
 

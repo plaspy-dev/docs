@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-103B
 
+<div className="device-logo">
 ![BN-103B](./tracker.png)
+</div>
 
 El BN-103B es un rastreador GPS inteligente para instalación vehicular, diseñado para la gestión profesional de flotas, seguimiento de ubicación en tiempo real y protección antirrobo. Soporta antenas GPS y GSM externas, instalación con alimentación cableada de 12–24 V e incluye una batería auxiliar recargable, lo que lo convierte en una opción práctica para el monitoreo continuo del vehículo y alertas basadas en eventos.
 

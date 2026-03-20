@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - TLW2-6BL
 
+<div className="device-logo">
 ![TLW2-6BL](./tracker.png)
+</div>
 
 The TLW2-6BL is a hardwired 4G LTE vehicle and powered asset GPS tracker designed for professional fleet management, logistics and cold chain operations. It combines resilient cellular connectivity, high precision GNSS positioning, configurable I O and Bluetooth sensor support to deliver continuous location and telemetry for vehicles and powered assets. The device is built for integrators and fleet operators who need reliable in vehicle telemetry and anti theft workflows without extensive custom integration.
 

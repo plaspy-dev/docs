@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - VT1000F
 
+<div className="device-logo">
 ![VT1000F](./tracker.jpg)
+</div>
 
 The TopShine VT1000F is an iButton car alarm GPS tracker designed for vehicle security and continuous multi country tracking. Built around driver identification with iButton or RFID and engineered for uninterrupted cellular connectivity through multiple SIM support, the VT1000F provides real time location updates, SOS emergency alerts and remote immobilizer control. Its feature set is aimed at operators who need persistent coverage, security event reporting and mileage or telemetry logging for vehicles in varied signal environments.
 

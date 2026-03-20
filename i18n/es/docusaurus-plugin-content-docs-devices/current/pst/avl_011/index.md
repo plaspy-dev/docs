@@ -21,7 +21,9 @@ keywords:
 
 # PST - AVL-011
 
+<div className="device-logo">
 ![AVL-011](./logo.jpg)
+</div>
 
 El PST AVL-011 es un rastreador GPS para vehículos pensado para ofrecer protección avanzada contra robos en autos, camionetas y camiones. Integra seguimiento de ubicación con funciones de inmovilización remota, lo que permite a los responsables interrumpir el suministro de energía o combustible del vehículo cuando sea necesario. Además, cuenta con función SOS y la capacidad de monitorear audio ambiental, y puede instalarse en un lugar discreto para permanecer oculto a inspecciones casuales.
 

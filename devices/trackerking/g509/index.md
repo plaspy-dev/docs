@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - G509
 
+<div className="device-logo">
 ![G509](./tracker.jpg)
+</div>
 
 The TrackerKing G509 is a relay style GPS tracker designed for discreet vehicle security and fleet operations. Housed to resemble a conventional relay, the G509 provides continuous real-time tracking and reliable historical route playback while remaining compact enough for concealed installation in commercial vehicles, passenger cars, and movable equipment. Its feature set focuses on anti-theft workflows and basic fleet telemetry to support situational awareness and recovery actions.
 

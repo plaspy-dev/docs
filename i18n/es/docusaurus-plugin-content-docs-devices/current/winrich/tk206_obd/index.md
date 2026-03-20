@@ -21,7 +21,9 @@ keywords:
 
 # Winrich - TK206 OBD
 
+<div className="device-logo">
 ![TK206 OBD](./logo.jpg)
+</div>
 
 El Winrich TK206 OBD es un rastreador GPS plug and play diseñado para facilitar la supervisión de vehículos. Combina posicionamiento por satélite GPS con conectividad GSM/GPRS y se integra al vehículo a través del puerto OBD. Sus antenas internas y su diseño enchufable eliminan la necesidad de un arnés de cableado externo, lo que facilita su despliegue en automóviles, taxis y muchas flotas. El equipo también lee parámetros OBD desde la ECU del vehículo y transmite datos de ubicación y telemetría a un servidor backend para acceso remoto.
 

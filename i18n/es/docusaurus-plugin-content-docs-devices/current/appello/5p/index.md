@@ -21,7 +21,9 @@ keywords:
 
 # Appello - 5P
 
+<div className="device-logo">
 ![5P](./logo.jpg)
+</div>
 
 El Appello 5P es un rastreador GPS compacto y confiable pensado para el seguimiento personal y de activos. Con unas dimensiones aproximadas de 32 x 32 x 13.5 mm y un peso de alrededor de 22 g, el 5P se puede fijar con facilidad a objetos o llevar de forma discreta. Su carcasa de APS y PC ofrece resistencia y el diseño en negro mantiene el dispositivo poco llamativo para una amplia variedad de aplicaciones.
 

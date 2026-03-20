@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB002
 
+<div className="device-logo">
 ![FMB002](./Logo.png)
+</div>
 
 El Teltonika FMB002 es un rastreador OBDII ultracompacto de tipo plug and play, diseñado para implementaciones rápidas y de bajo fricción en vehículos. Al conectarse al puerto OBDII, obtiene datos estándar del vehículo y combina esa información con seguimiento de ubicación, posicionamiento GNSS, conectividad celular, soporte Bluetooth Low Energy y un acelerómetro integrado para habilitar una amplia gama de funciones telemáticas. Su tamaño reducido y su enfoque plug and play lo hacen ideal para vehículos comerciales ligeros y despliegues de flotas pequeñas.
 

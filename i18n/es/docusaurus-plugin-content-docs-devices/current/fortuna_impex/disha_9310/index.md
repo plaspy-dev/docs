@@ -21,7 +21,9 @@ keywords:
 
 # Fortuna Impex - Disha 9310
 
+<div className="device-logo">
 ![Disha 9310](./logo.jpg)
+</div>
 
 El Fortuna Impex Disha 9310 es un sistema inteligente de rastreo vehicular diseñado para que empresas de servicios, reparto y transporte supervisen y gestionen sus activos móviles. Ofrece seguimiento en tiempo real y registro histórico a través de una interfaz web, así como envío de alertas, eventos e informes programados por SMS y correo electrónico. El equipo está pensado para una implementación práctica, con antenas GPS y GPRS integradas que reducen la exposición a daños mecánicos.
 

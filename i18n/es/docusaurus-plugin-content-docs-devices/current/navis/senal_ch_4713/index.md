@@ -21,7 +21,9 @@ keywords:
 
 # Navis - Señal CH - 4713
 
+<div className="device-logo">
 ![Señal CH - 4713](./logo.jpg)
+</div>
 
 El Navis Señal CH-4713 es un rastreador GPS para vehículos y terminal de navegación a bordo pensado para el seguimiento de flotas y unidades individuales. Soporta modos GNSS con GLONASS, GPS y SBAS, e incorpora funciones de GNSS asistido para mejorar la precisión en condiciones difíciles. El equipo incluye una pantalla en cabina con funcionalidad de navegación, registro de eventos a bordo y protecciones diseñadas para dificultar la desconexión no autorizada de conectores y antenas.
 

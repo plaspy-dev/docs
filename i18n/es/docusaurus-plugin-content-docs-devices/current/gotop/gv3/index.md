@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - GV3
 
+<div className="device-logo">
 ![GV3](./tracker.png)
+</div>
 
 El GV3 es un rastreador GPS compacto 4G para vehículos, diseñado para un monitoreo confiable de automóviles y flotas. Orientado al uso automotriz, el equipo ofrece seguimiento en tiempo real mediante 4G con respaldo 2G, geocercas, alertas de movimiento, notificaciones de emergencia SOS y soporte para inmovilizador remoto. Construido para entornos exigentes, el GV3 tiene certificación IP67 y un amplio rango de voltaje operativo, adecuado para autos, camiones, motocicletas y flotas mixtas.
 

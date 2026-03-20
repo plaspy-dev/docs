@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - SNT 100
 
+<div className="device-logo">
 ![SNT 100](./logo.jpg)
+</div>
 
 El Suntech SNT 100 es un terminal de datos diseñado para facilitar el monitoreo de vehículos y la comunicación con el conductor. Funciona como interfaz a bordo entre el conductor y una central de control, pensado para usarse junto a equipos de rastreo Suntech como el ST300R y el ST300H. El SNT 100 integra funciones prácticas —mensajería bidireccional, monitoreo de geocercas, bloqueo y desbloqueo remoto del motor y análisis de comportamiento del conductor— en un único dispositivo para ayudar a gestionar activos móviles.
 

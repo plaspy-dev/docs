@@ -21,7 +21,9 @@ keywords:
 
 # Homtecs - H10
 
+<div className="device-logo">
 ![H10](./logo.jpg)
+</div>
 
 El Homtecs H10 es un router industrial 4G diseñado para entornos exigentes. Construido en una carcasa metálica compacta y pensado para la resiliencia operativa, el H10 ofrece conectividad móvil de banda ancha de alta velocidad con compatibilidad a redes móviles anteriores. Integra funciones de red como DHCP, DNS, DDNS, firewall, NAT, host DMZ y múltiples opciones de VPN, y asegura estabilidad de operación mediante watchdog y detección de múltiples enlaces. Entre sus opciones están la capacidad GPS para rastreo de ubicación y la comunicación serial DTU para integrar equipos heredados.
 

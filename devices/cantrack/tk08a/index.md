@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - TK08A
 
+<div className="device-logo">
 ![TK08A](./tracker.jpg)
+</div>
 
 The CanTrack TK08A is a compact hard wired GPS tracker designed for motorcycles, electric bikes, scooters and other small vehicles. Part of a proven device family, the TK08A provides continuous location tracking via GSM/GPRS and GPS satellites and supports reporting by SMS as well as integration with web and mobile platforms. Its small form factor, built in antennas and integrated immobilizer capability make it well suited to security focused installations and mixed vehicle fleets.
 

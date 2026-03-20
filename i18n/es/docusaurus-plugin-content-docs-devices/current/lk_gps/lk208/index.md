@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK208
 
+<div className="device-logo">
 ![LK208](./tracker.jpg)
+</div>
 
 El LK208 es un rastreador GPS compacto compatible con Plaspy, diseñado para un despliegue rápido en vehículos y activos metálicos. Combina un potente imán interno con una carcasa resistente a la intemperie, permitiendo un montaje temporal o discreto sin herramientas en autos, motocicletas, camiones y equipos. El dispositivo transmite continuamente la ubicación a través de la red celular para que los equipos puedan monitorear rutas, movimientos y el estado del equipo sin necesidad de cableado permanente.
 

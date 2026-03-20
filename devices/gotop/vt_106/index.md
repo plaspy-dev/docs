@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-106
 
+<div className="device-logo">
 ![VT-106](./logo.jpg)
+</div>
 
 The GOTOP VT-106 is a compact motorcycle GPS tracker designed to provide reliable and accurate location monitoring for two wheeled vehicles. It uses GPS satellites for positioning and the existing GSM GPRS network to transmit location and status information. The device supports sending coordinates via SMS and forwarding data to a designated server, and it includes practical features for motorcycles such as a waterproof enclosure, an inbuilt magnet for secure attachment, and an internal backup battery.
 

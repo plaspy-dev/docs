@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL501MG
 
+<div className="device-logo">
 ![GL501MG](./tracker.png)
+</div>
 
 The QuecLink GL501MG is a compact, battery powered GPS tracker intended for long term unattended asset monitoring. Based on the GL500MG platform, this model adds modern low power cellular connectivity, wireless charging and Bluetooth sensor support while keeping a sealed IP67 enclosure and internal antennas for straightforward deployment on trailers, containers, pallets and other remote assets.
 

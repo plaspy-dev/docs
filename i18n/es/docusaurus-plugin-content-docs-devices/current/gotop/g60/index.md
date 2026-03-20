@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G60
 
+<div className="device-logo">
 ![G60](./tracker.jpg)
+</div>
 
 El GOTOP G60 es un rastreador magnético 4G compacto para activos y vehículos, diseñado para logística de larga duración, gestión de flotas y seguimiento discreto de contenedores. Con una carcasa resistente con grado IP65 y antenas internas, el G60 brinda actualizaciones de ubicación en tiempo real y telemetría de eventos confiable para flotas de alquiler, carga y otros activos que requieren montaje encubierto y amplia autonomía en modo espera.
 

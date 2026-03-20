@@ -21,7 +21,9 @@ keywords:
 
 # HunterPro - CP60G
 
+<div className="device-logo">
 ![CP60G](./logo.jpg)
+</div>
 
 El HunterPro CP60G es un rastreador GPS de bajo costo diseñado principalmente para el seguimiento y la recuperación de vehículos. Combina posicionamiento por GPS con comunicación GSM GPRS para enviar actualizaciones de ubicación y reportes de eventos. El equipo se presenta en una caja plástica resistente, incluye antenas GPS y GSM, una batería de respaldo para mantener el rastreo y entradas para eventos habituales del vehículo como ignición, pánico y estado de puertas. Si el proyecto lo requiere, hay opciones para antenas fijas y sensores externos como combustible y temperatura para telemetría adicional.
 

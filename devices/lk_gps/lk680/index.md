@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK680
 
+<div className="device-logo">
 ![LK680](./tracker.png)
+</div>
 
 The LK680 is a compact, tamper resistant GPS tracker designed for reliable, long term location monitoring of electric bicycles, motorcycles, and shared micromobility fleets. It combines proven GNSS positioning with cellular connectivity and configurable reporting to provide real time tracking, geofence alerts, and battery notifications while housed in a rugged, waterproof enclosure that is easy to conceal.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - EZ1
 
+<div className="device-logo">
 ![EZ1](./logo..png)
+</div>
 
 The CAREU EZ1 is a small and compact Automatic Vehicle Location tracker designed for practical vehicle tracking and fleet management. It supports global LTE with 3G and 2G fallback, GPS and GLONASS satellite positioning, and Bluetooth 3.0, delivering the core capabilities needed to monitor vehicle locations and basic telematics in a cost effective package. The device is available in multiple versions to suit different connectivity and accessory needs, and its discreet form factor makes it suitable for installations where space is limited.
 

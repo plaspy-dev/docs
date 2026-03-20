@@ -21,7 +21,9 @@ keywords:
 
 # Oigo Telematics - AR-2GM
 
+<div className="device-logo">
 ![AR-2GM](./logo.jpg)
+</div>
 
 El Oigo Telematics AR-2GM es un modelo de la Serie AR diseñado para aplicaciones de seguimiento y recuperación de vehículos. Está pensado para instalaciones discretas dentro del vehículo, de modo que puede montarse fuera de la vista, siendo apropiado para la gestión de flotas y escenarios de recuperación de vehículos robados. El AR-2GM permite generar reportes de eventos y alertas configurables para notificar a los operadores sobre condiciones o disparadores relevantes para la seguridad y supervisión del vehículo.
 

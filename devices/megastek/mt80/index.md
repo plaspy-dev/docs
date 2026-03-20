@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - MT80
 
+<div className="device-logo">
 ![MT80](./tracker.jpg)
+</div>
 
 The Megastek MT80 Series is a health care focused GPS watch designed for continuous location and on‑body medical telemetry. As a 4G smart watch variant family, the MT80 combines real time tracking with health sensors such as skin temperature, SpO2 and heart rate, alongside SOS, two‑way voice and event alarm functions. Its compact, water resistant wearable form factor and wireless charging make it suitable for prolonged use in supervised care and personal protection scenarios.
 

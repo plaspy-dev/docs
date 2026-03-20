@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FM 2100
 
+<div className="device-logo">
 ![FM 2100](./logo.jpg)
+</div>
 
 El Teltonika FM 2100 es un rastreador GPS compacto diseñado para determinar las coordenadas de objetos remotos y transmitir esa información a través de GSM. Soporta GPRS clase 10 y comunicación por SMS, opera en frecuencias GSM de cuatro bandas para una cobertura regional amplia y ofrece control básico de entradas y salidas con dos entradas digitales y dos salidas digitales. El equipo viene en una carcasa resistente e incluye LEDs de estado y salida NMEA para flujos de trabajo relacionados con navegación.
 

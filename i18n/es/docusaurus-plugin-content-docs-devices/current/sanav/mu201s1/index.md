@@ -21,7 +21,9 @@ keywords:
 
 # Sanav - MU201S1
 
+<div className="device-logo">
 ![MU201S1](./logo.jpg)
+</div>
 
 El SANAV MU201S1 es un rastreador GPS compacto diseñado principalmente para el seguimiento de mascotas y activos, además de otros escenarios que requieren una larga autonomía. Soporta actualizaciones de ubicación en tiempo real y reportes retrospectivos a través de GPRS, y permite configuración remota tanto por SMS como por GPRS. El dispositivo ofrece notificaciones de eventos como alertas SOS, violaciones de geocerca, alertas de batería baja y reportes basados en movimiento, lo que lo hace adecuado para la monitorización continua de activos móviles pequeños.
 

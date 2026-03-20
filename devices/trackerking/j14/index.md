@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - J14
 
+<div className="device-logo">
 ![J14](./tracker.jpg)
+</div>
 
 The TrackerKing J14 is a compact, hardwired vehicle GPS tracker designed for continuous on vehicle installation. It uses dual GNSS positioning with GPS plus BDS to deliver reliable, low latency location fixes and comes in a rugged IP65 enclosure. With a wide operating voltage range and a small physical footprint, the J14 is intended for discreet mounting across cars, light trucks and heavy vehicles where persistent monitoring is required.
 

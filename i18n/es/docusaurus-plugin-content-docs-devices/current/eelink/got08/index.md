@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GOT08
 
+<div className="device-logo">
 ![GOT08](./tracker.jpg)
+</div>
 
 El GOT08 de SHENZHEN EELINK COMMUNICATION TECHNOLOGY CO., LTD es un rastreador GPS con interfaz OBD plug and play diseñado para instalación rápida y monitoreo continuo del vehículo. Diseñado para conectarse al puerto OBD del vehículo, el GOT08 proporciona datos de ubicación GPS en tiempo continuado, registro de datos a bordo y telemetría vehicular en un formato compacto alimentado por el propio vehículo. Esto lo hace idóneo para administradores de flotas y propietarios particulares que buscan un dispositivo discreto y sin cableado complejo.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - L18
 
+<div className="device-logo">
 ![L18](./tracker.jpg)
+</div>
 
 El GOTOP L18 es un rastreador GPS 4G LTE compacto diseñado como un reloj inteligente y pensado para la seguridad personal, el monitoreo de salud y la comunicación bidireccional. Combina posicionamiento multiconstelación, conectividad celular multibanda con eSIM opcional, un botón de emergencia SOS y un conjunto de sensores de salud para ofrecer datos continuos de ubicación y estado en un formato wearable ideal para cuidadores, personal de campo y organizaciones que requieren seguimiento centrado en la persona.
 

@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - TLT-8B
 
+<div className="device-logo">
 ![TLT-8B](./logo.jpg)
+</div>
 
 The V-SUN TLT-8B is a compact GPS/GSM vehicle tracker designed for use in private cars and other vehicles equipped with an OBD II port. It combines a high sensitivity GPS chipset for reliable positioning in challenging signal conditions with a GSM/GPRS communication module for sending location and event data. The device also includes vehicle security and safety features such as SOS, unplug alarm, electronic geo fence, over speed alarm, and historical data upload.
 

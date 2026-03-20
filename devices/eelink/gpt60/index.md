@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT60
 
+<div className="device-logo">
 ![GPT60](./tracker.jpg)
+</div>
 
 The GPT60 is a compact, rechargeable GPS tracker designed primarily for personal safety monitoring and continuous location telemetry. It combines multi constellations GNSS positioning with Wi‑Fi and cellular LBS fallback to maintain dependable real time tracking and event reporting for people and portable assets. Built in two way voice, an SOS button, and automatic fall and vibration alerts make the device well suited to lone workers, seniors, and outdoor users who need fast incident escalation and straightforward location sharing.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A7
 
+<div className="device-logo">
 ![HB-A7](./tracker.jpg)
+</div>
 
 The HB-A7 is a compact, low power GPS tracker designed for professional fleet management and vehicle asset tracking. Built for demanding vehicle environments, it provides continuous location updates and robust telemetry while supporting extensible I O for external peripherals. The device is positioned for regional deployments with 2G and 3G cellular options and dual GNSS positioning, making it suitable for mixed fleets that need reliable tracking and predictable operational behavior.
 

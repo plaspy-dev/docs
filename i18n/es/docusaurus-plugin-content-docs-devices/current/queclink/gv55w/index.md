@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV55W
 
+<div className="device-logo">
 ![GV55W](./tracker.png)
+</div>
 
 El QuecLink GV55W es un rastreador GPS compacto, compatible con Plaspy, diseñado para instalaciones discretas en telemática de vehículos ligeros. Como variante WCDMA/3G de la familia GV55, integra un receptor GNSS All‑in‑One de u‑blox con antenas internas para GPS y celular, ofreciendo posicionamiento y comunicaciones confiables para monitoreo de flotas, recuperación de vehículos robados, seguros basados en uso y flotas financiadas.
 

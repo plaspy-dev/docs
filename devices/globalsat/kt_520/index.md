@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - KT-520
 
+<div className="device-logo">
 ![KT-520](./tracker.jpg)
+</div>
 
 The GlobalSat KT-520 is a compact, rugged satellite GPS tracker designed for long duration asset and vehicle monitoring where cellular service is not available. Built around Kineis satellite connectivity, the KT-520 combines an integrated GNSS receiver, a 3‑axis accelerometer for motion detection, long life SAFT battery power and local configuration via BLE to provide dependable position and telemetry reporting in remote locations.
 

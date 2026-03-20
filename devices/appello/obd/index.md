@@ -20,7 +20,9 @@ keywords:
 
 # Appello - OBD
 
+<div className="device-logo">
 ![OBD](./logo.jpg)
+</div>
 
 The Appello OBD is a compact GPS tracker designed for vehicle monitoring and fleet management. It combines a high sensitivity U Blox 7020 GPS chipset with a GSM communication module and support for four band GSM and TCP communication, delivering fast position fixes and steady connectivity. The tracker reports quick hot start times and brief warm starts, while operating across a wide temperature and humidity range, making it suitable for a variety of vehicle environments.
 

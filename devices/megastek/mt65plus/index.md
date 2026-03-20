@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - MT65PLUS
 
+<div className="device-logo">
 ![MT65PLUS](./tracker.jpg)
+</div>
 
 The MT65PLUS is a professional grade ankle bracelet GPS tracker designed for continuous personal monitoring and tamper resistant deployments. Built in a reinforced form factor, the device combines physical anti tamper measures with physiological telemetry and two way voice to support reliable real time tracking, incident alerting, and supervised interventions in demanding use environments.
 

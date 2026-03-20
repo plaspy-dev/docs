@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-801
 
+<div className="device-logo">
 ![CCTR-801](./logo.jpg)
+</div>
 
 El Carscop CCTR-801 es un rastreador GPS compacto y fácil de ocultar, pensado para el seguimiento en tiempo real de autos, autobuses, taxis y vehículos de renta. Su tamaño reducido y la instalación sencilla de 2 a 4 cables lo hacen apropiado para ubicaciones discretas o para fijarlo a la carrocería del vehículo. Entre sus funciones integradas destacan reportes de ubicación frecuentes en tiempo real, un botón SOS externo para alertas de emergencia, sensor de choque para alarmas por movimiento y registro local de ruta cuando no hay cobertura celular.
 

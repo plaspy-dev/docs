@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP1603
 
+<div className="device-logo">
 ![SP1603](./tracker.png)
+</div>
 
 The SP1603 is a purpose built GPS tracker intended for offender monitoring and home detention programs. Designed as an ankle wearable, it focuses on reliable location reporting, continuous operation through an internal rechargeable battery, and clear tamper detection using a fiber optic belt. The device also offers optional in home beacon integration to help verify presence within approved premises.
 

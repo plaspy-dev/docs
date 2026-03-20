@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2411
 
+<div className="device-logo">
 ![SMART S-2411](./tracker.jpeg)
+</div>
 
 El SMART S-2411 de Navtelekom es un rastreador vehicular compacto que combina posicionamiento GLONASS y GPS con antenas GNSS y GSM integradas. Diseñado para uso confiable a bordo de vehículos, incluye un módem 2G, batería interna de respaldo y una variedad de entradas y salidas digitales y analógicas para soportar telemetría básica y reporte de eventos sin necesidad de antenas externas en muchas instalaciones.
 

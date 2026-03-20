@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - T1600
 
+<div className="device-logo">
 ![T1600](./tracker.jpg)
+</div>
 
 El GOTOP T1600 es un rastreador GPS para bicicletas diseñado para uso prolongado en exteriores y protección antirrobo. Combina un módulo GNSS U BLOX de 50 canales con un chipset MTK GPRS para ofrecer fijaciones de posición confiables, alertas por movimiento configurables y múltiples canales de notificación como SMS, plataforma web y aplicación móvil. Con una batería interna de 5200mAh, carcasa impermeable IPX7 y la opción de carga mediante un Flower Drum Dynamo, el T1600 está dirigido a ciclistas, flotas de alquiler y monitoreo de activos al aire libre que requieren baja manutención y seguimiento en tiempo real fiable.
 

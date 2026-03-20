@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V47
 
+<div className="device-logo">
 ![RF-V47](./tracker.jpg)
+</div>
 
 El RF-V47 es un rastreador GPS compacto con certificación IP67, pensado principalmente para mascotas y la seguridad personal. Integra posicionamiento híbrido —GPS, AGPS y con conmutación a posicionamiento por red móvil (LBS)— para ofrecer reportes de ubicación confiables, además de funciones como voz bidireccional, llamada para localizar y alertas por geocerca. Su diseño liviano y resistente está pensado para uso diario y actividades al aire libre, por lo que resulta apropiado para cuidadores que requieren monitoreo continuo de la situación.
 

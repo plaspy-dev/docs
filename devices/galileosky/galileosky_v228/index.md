@@ -20,7 +20,9 @@ keywords:
 
 # GalileoSky - GALILEOSKY V2.2.8
 
+<div className="device-logo">
 ![GALILEOSKY V2.2.8](./logo.jpg)
+</div>
 
 The GALILEOSKY GLONASS GPS V2.2.8 is a versatile satellite tracker designed for vehicle monitoring. It combines GLONASS and GPS positioning to provide continuous location tracking, supports online monitoring for live data exchange with servers, and includes features such as a built in battery for the GLONASS module, offline archive upload via USB, and support for video capture and photo uploads. The device also includes vehicle diagnostics capabilities and a range of communication options described by the manufacturer.
 

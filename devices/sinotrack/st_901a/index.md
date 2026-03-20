@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-901A
 
+<div className="device-logo">
 ![ST-901A](./Logo.jpg)
+</div>
 
 The SinoTrack ST-901A is a compact GPS tracker designed for vehicle tracking and fleet oversight. It combines a small form factor with core tracking capabilities suited to both personal vehicles and commercial fleets. The device uses a Ubox 7020 GPS module and advertises position accuracy up to around 10 meters, along with tracking and acquisition sensitivity figures intended to support reliable satellite reception.
 

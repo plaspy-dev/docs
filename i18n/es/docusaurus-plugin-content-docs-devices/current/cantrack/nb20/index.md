@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - NB20
 
+<div className="device-logo">
 ![NB20](./tracker.jpg)
+</div>
 
 El NB20 de CanTrack es un rastreador inteligente para mascotas, compacto y con conectividad 4G y Bluetooth, pensado para ofrecer ubicación precisa tanto en interiores como en exteriores. Combina posicionamiento GNSS con asistencia por Bluetooth 5.0 y Wi‑Fi, y acepta Nano SIM o eSIM para la subida de datos celulares, permitiendo seguimiento continuo, alertas de geocerca y reproducción del historial. Su diseño es ligero y resistente al agua, ideal para fijarlo a collares o arneses, e incluye funciones prácticas como una luz LED controlada de forma remota y varios modos de funcionamiento según el nivel de actividad.
 

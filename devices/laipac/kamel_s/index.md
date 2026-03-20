@@ -20,7 +20,9 @@ keywords:
 
 # Laipac - Kamel S
 
+<div className="device-logo">
 ![Kamel S](./tracker.png)
+</div>
 
 The Kamel S is a compact, self-powered GPS tracker designed for covert, long-duration monitoring of both powered and non-powered assets. Built for outdoor use, it combines GNSS positioning and 4G LTE connectivity with a high-capacity Li‑Ion polymer battery and an IP68-rated enclosure to deliver reliable location visibility for trailers, containers, construction equipment and rented machinery.
 

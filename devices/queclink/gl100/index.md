@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL100
 
+<div className="device-logo">
 ![GL100](./logo.jpg)
+</div>
 
 The QuecLink GL100 is a compact GPS tracker designed for vehicle, pet, and general asset tracking. It combines a sensitive SIRF Star III receiver with fast time to first fix to deliver reliable position reports. The unit supports quad band GSM frequencies for wide area communication, includes a white OLED display for basic local readout, and offers water resistance and a built in motion sensor for practical use across different environments.
 

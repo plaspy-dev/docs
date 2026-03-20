@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - VT-360A
 
+<div className="device-logo">
 ![VT-360A](./logo.jpg)
+</div>
 
 El GOTOP VT-360A es un rastreador GPS vehicular compacto y económico, diseñado para instalación discreta en distintos tipos de vehículos. Combina seguimiento de ubicación con funciones de seguridad, actuando tanto como rastreador como sistema de alarma. Entre sus capacidades principales, según el fabricante, se encuentran el armado y desarme automático mediante RFID, alertas SOS, notificaciones por geocerca y exceso de velocidad, alarmas por movimiento y puertas abiertas, y la posibilidad de enviar actualizaciones de ubicación vía SMS o GPRS. El equipo también admite monitoreo de voz remoto, reportes de kilometraje y cuenta con batería de respaldo con alertas por manipulación para mayor resistencia.
 

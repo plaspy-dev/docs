@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - MSP500
 
+<div className="device-logo">
 ![MSP500](./Logo.png)
+</div>
 
 El Teltonika MSP500 es una terminal de rastreo especializada diseñada para ofrecer seguimiento y control vehicular confiable. Integra posicionamiento GNSS, conectividad celular y Bluetooth con antenas internas y una interfaz RS232 para soportar diversas necesidades de monitoreo. El equipo incluye una batería de respaldo interna Ni-Mh que mantiene el rastreo durante cortes de alimentación, y dispone de múltiples eventos y sensores como acelerómetro, detección de interferencias (jamming), detección de remolque y choques, soporte de geocercas, registro de viajes, detección de ralentí excesivo y un contador de combustible basado en GNSS.
 

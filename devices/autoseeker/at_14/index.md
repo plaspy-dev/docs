@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-14
 
+<div className="device-logo">
 ![AT-14](./Logo.jpg)
+</div>
 
 The Autoseeker AT-14 is a compact wireless mini GPS tracker designed for vehicles, trucks, and containers. Its specification emphasizes a long standby time for extended deployments and a high strength magnetic mount rated at 300 pounds of pull, making it suitable for a wide range of mobile and fixed asset mounting scenarios. The device includes GPS location reporting and uses 2G connectivity for location updates, and its portable form factor is intended to minimize installation complexity for temporary or semi-permanent use.
 

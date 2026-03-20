@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK100
 
+<div className="device-logo">
 ![LK100](./logo..jpg)
+</div>
 
 El rastreador GPS mini para mascotas LK100 es un dispositivo compacto y ligero pensado para ayudar a los propietarios a mantener a sus mascotas seguras y localizadas. Diseñado para sujetarse fácilmente al collar o arnés, el LK100 ofrece información de ubicación continua mediante GPS y servicios de localización asistida. El dispositivo admite actualizaciones en tiempo real y reproducción del historial, además de funciones prácticas como botón SOS, monitoreo de voz bidireccional y geocercas para gestionar los desplazamientos de la mascota.
 

@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GT300
 
+<div className="device-logo">
 ![GT300](./logo.jpg)
+</div>
 
 El QuecLink GT300 es un teléfono de seguridad compacto con conectividad GSM/GPS diseñado para adultos mayores y trabajadores en solitario que requieren monitoreo de ubicación fiable y comunicaciones de emergencia sencillas. Integra un receptor GPS interno de alta sensibilidad basado en chipset u‑blox, conectividad cuatribanda GPRS/GSM, una pantalla OLED blanca de fácil lectura y detección de movimiento incorporada, ofreciendo seguimiento accesible y continuo en un formato reducido.
 

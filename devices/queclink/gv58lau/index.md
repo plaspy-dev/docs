@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV58LAU
 
+<div className="device-logo">
 ![GV58LAU](./tracker.png)
+</div>
 
 The QuecLink GV58LAU is a compact GPS tracker designed for vehicle security and fleet management applications. It combines a high sensitivity u blox GNSS receiver with LTE Cat 4 cellular connectivity to provide reliable real time location and resilient telemetry. The unit is intended for discreet installation in cars, rental fleets and light commercial vehicles where accurate positioning and dependable communication are important for operations and recovery workflows.
 

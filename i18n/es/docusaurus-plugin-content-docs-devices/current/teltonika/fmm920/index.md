@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMM920
 
+<div className="device-logo">
 ![FMM920](./tracker.png)
+</div>
 
 El Teltonika FMM920 es un rastreador GPS compacto y de alto rendimiento diseñado para el reporte continuo de posición y telemetría en despliegues de seguimiento de flotas y activos. Combina conectividad celular con un perfil delgado de 12 mm, batería de respaldo integrada y soporte Bluetooth Low Energy (BLE), lo que permite una instalación discreta sin perder las capacidades esenciales de rastreo y recuperación.
 

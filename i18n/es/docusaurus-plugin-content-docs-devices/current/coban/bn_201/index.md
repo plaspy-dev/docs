@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-201
 
+<div className="device-logo">
 ![BN-201](./tracker.png)
+</div>
 
 El BN-201 es un rastreador GPS compacto para mascotas diseñado para ofrecer monitoreo de ubicación confiable, escucha remota y alertas de geocerca configurables. Pensado para uso diario y con un peso de 52 g, el BN-201 combina posicionamiento GNSS de alta sensibilidad con conectividad de doble red para entregar seguimiento en tiempo real y bajo consumo, ideal para perros, gatos y otras mascotas.
 

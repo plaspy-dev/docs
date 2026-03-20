@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - CA02
 
+<div className="device-logo">
 ![CA02](./tracker.jpg)
+</div>
 
 El CA02 es una unidad de seguridad y rastreo empotrada en el tablero que combina alarma audible con ubicación GPS en tiempo real y control de cierre central. Diseñado para instalaciones 1DIN o 2DIN, integra sirena y sensor de impacto junto con telemetría GSM y salidas por relé para corte de motor o de combustible, ofreciendo una solución consolidada para la protección antirrobo y el monitoreo continuo de automóviles y vehículos comerciales ligeros.
 

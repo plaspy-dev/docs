@@ -20,7 +20,9 @@ keywords:
 
 # Tytan SAT - DS540B
 
+<div className="device-logo">
 ![DS540B](./tracker.png)
+</div>
 
 The DS540B is the B version of the DS540 series from Tytan SAT, positioned as a Plaspy compatible GPS tracker built for real time tracking of vehicles and cargo. It is designed for demanding vehicle applications and provides deep on board telemetry through full CAN FMS J1939 J1708 bus reading, together with analogue and digital sensor integration. This combination delivers precise location plus rich vehicle data that is useful for fleet operations and security workflows.
 

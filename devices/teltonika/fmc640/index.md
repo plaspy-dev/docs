@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC640
 
+<div className="device-logo">
 ![FMC640](./Logo.png)
+</div>
 
 The Teltonika FMC640 is a professional grade GPS tracker designed to maximize fleet efficiency and provide comprehensive tracking capabilities. It combines cellular connectivity, positioning modules, and support for vehicle data and external peripherals to deliver continuous location and status information for a wide range of vehicles and equipment. The FMC640 is described as suitable for demanding applications including international logistics, refrigerated transport, agriculture, construction and security services.
 

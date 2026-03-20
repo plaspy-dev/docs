@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK210
 
+<div className="device-logo">
 ![LK210](./tracker.jpg)
+</div>
 
 El LK210 es un rastreador GPS cableado y compacto diseñado para una instalación discreta y visibilidad continua de la ubicación. Con antenas GPS y GSM integradas y un formato reducido, el LK210 ofrece protección práctica contra robos y facilita la recuperación rápida de automóviles, motocicletas, camiones y vehículos similares. Su función de activación por vibración permite detectar movimiento o impactos mientras conserva la actividad del dispositivo cuando el vehículo está detenido.
 

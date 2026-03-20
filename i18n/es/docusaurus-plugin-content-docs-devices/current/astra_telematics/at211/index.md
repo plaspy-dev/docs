@@ -21,7 +21,9 @@ keywords:
 
 # Astra Telematics - AT211
 
+<div className="device-logo">
 ![AT211](./tracker.jpg)
+</div>
 
 El Astra AT211 es un rastreador GPS robusto diseñado específicamente para maquinaria pesada, equipo de obra y otros activos expuestos al exterior. Basado en la plataforma AT200 de Astra Telematics, el AT211 combina una carcasa compacta y resistente a la intemperie con conectividad multinetwork y opciones de entradas/salidas prácticas para ofrecer informes de ubicación y estado fiables en entornos exigentes.
 

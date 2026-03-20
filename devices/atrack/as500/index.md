@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AS500
 
+<div className="device-logo">
 ![AS500](./tracker.jpg)
+</div>
 
 The AS500 is a rugged, long standby GPS tracker designed for demanding asset tracking applications. Built for environments such as construction sites, mining, logistics yards and other harsh locations, the AS500 combines mechanical protection with a low power architecture and cellular connectivity to provide reliable location and telemetry where long battery life and durability matter.
 

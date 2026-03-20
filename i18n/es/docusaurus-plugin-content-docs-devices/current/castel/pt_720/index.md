@@ -21,7 +21,9 @@ keywords:
 
 # Castel - PT-720
 
+<div className="device-logo">
 ![PT-720](./logo.jpg)
+</div>
 
 El Castel PT-720 es un reloj rastreador GPS compacto diseñado para ayudar a los responsables a monitorear la ubicación y el bienestar de los niños. Como dispositivo wearable, integra llamadas bidireccionales, posicionamiento multimodal (GPS, LBS y WiFi), alertas SOS hacia contactos preestablecidos y un seguimiento básico de actividad. Además incluye soporte para geo-cercas, hasta un mes de historial de rutas y podómetro, todo en un diseño ligero con pantalla de 1.3 pulgadas y autonomía en espera adecuada para uso diario.
 

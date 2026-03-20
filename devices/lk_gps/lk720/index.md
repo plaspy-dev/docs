@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK720
 
+<div className="device-logo">
 ![LK720](./tracker.jpg)
+</div>
 
 The LK720 is a compact, high performance CatM GPS tracker built for discreet vehicle and asset monitoring. Designed for cars, motorcycles, rental fleets, and OEM or ODM installations, the LK720 provides continuous GNSS positioning, CatM cellular connectivity, and an integrated relay for remote fuel or oil cut off. Its feature set targets reliable location reporting, practical anti theft response, and everyday fleet oversight.
 

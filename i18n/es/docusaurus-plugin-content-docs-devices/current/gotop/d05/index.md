@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - D05
 
+<div className="device-logo">
 ![D05](./tracker.jpg)
+</div>
 
 El GOTOP D05 es un rastreador GPS 4G inteligente diseñado para el seguimiento prolongado de activos, vehículos y personas. Combina una carcasa compacta con montaje magnético y una batería de alta capacidad de 10000 mAh para ofrecer una larga autonomía en espera y actualizaciones de ubicación en tiempo real fiables. El equipo integra posicionamiento GNSS multiconstelación con asistencia opcional por Wi Fi para acelerar las fijaciones y mejorar la precisión en entornos urbanos, además de admitir transmisión de datos encriptada para una telemetría segura.
 

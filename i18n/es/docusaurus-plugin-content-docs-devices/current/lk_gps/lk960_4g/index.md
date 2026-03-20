@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK960-4G
 
+<div className="device-logo">
 ![LK960-4G](./tracker.jpg)
+</div>
 
 El LK960-4G es un rastreador GPS vehicular cableado diseñado para despliegues directos del fabricante en automóviles y motocicletas. Construido para operar de forma continua con la alimentación del vehículo, ofrece posicionamiento GNSS múltiple y conectividad 4G con conmutación a 2G cuando procede, proporcionando las actualizaciones de ubicación en tiempo real y las alertas de eventos que requieren las operaciones profesionales de flotas y las aplicaciones con necesidades de seguridad sensibles.
 

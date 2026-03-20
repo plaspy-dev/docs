@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC001
 
+<div className="device-logo">
 ![FMC001](./Logo.png)
+</div>
 
 The Teltonika FMC001 is a vehicle GPS tracker that combines OBD II connectivity with GNSS positioning and Bluetooth support to deliver a compact telematics solution. Designed for vehicle applications, the FMC001 reads OBD II parameters, provides detailed accelerometer information for driving behavior insights, and can work with Bluetooth Low Energy sensors and beacons to extend monitoring capabilities.
 

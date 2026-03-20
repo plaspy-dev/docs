@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G900LS
 
+<div className="device-logo">
 ![G900LS](./tracker.jpg)
+</div>
 
 The G900LS is a professional hard‑wiring 4G GPS tracker from CanTrack designed for vehicle owners and fleet operators who need precise, reliable positioning and remote control. Built for continuous vehicle monitoring, the device delivers real‑time tracking, rich telemetry, and configurable alarms so operations teams and dispatchers can see location, ignition status, and critical events. Its wiring variants and compact form factor make it suitable for discreet installation in a wide range of vehicle types.
 

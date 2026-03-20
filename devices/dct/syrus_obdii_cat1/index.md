@@ -20,7 +20,9 @@ keywords:
 
 # DCT - SYRUS OBDII-CAT1
 
+<div className="device-logo">
 ![SYRUS OBDII-CAT1](./tracker.png)
+</div>
 
 The SYRUS OBDII-CAT1 is a plug-and-play OBDII telematics dongle from DCT Syrus designed for passenger and light-duty vehicles. Built to deliver real-time location and vehicle diagnostics directly from the vehicle port, the device is intended to enable rapid deployments and immediate data collection for fleet managers. It combines high-sensitivity GNSS positioning with vehicle telemetry and motion sensing to support common fleet visibility needs.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Laipac - S911 Bracelet ST
 
+<div className="device-logo">
 ![S911 Bracelet ST](./logo.jpg)
+</div>
 
 El Laipac S911 Bracelet ST es un dispositivo GPS portátil diseñado para agencias de justicia y programas de supervisión. Ofrece reportes de ubicación continuos para infractores, personas bajo arresto domiciliario o liberadas bajo fianza. Combina un receptor AGPS de alta sensibilidad con funciones de seguridad y control como comunicación bidireccional por voz, botón SOS de emergencia, geocercas, alertas por manipulación y una pantalla LCD para información de estado.
 

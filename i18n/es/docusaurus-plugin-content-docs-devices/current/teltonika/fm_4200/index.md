@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FM 4200
 
+<div className="device-logo">
 ![FM 4200](./logo.jpg)
+</div>
 
 El Teltonika FM 4200 es un rastreador GPS versátil diseñado para obtener la ubicación de objetos remotos y transmitirla mediante una conexión celular. Combina un receptor GPS de alta sensibilidad con conectividad GSM GPRS y SMS, y ofrece múltiples entradas y salidas para monitoreo y control. Sus interfaces integradas, como 1-Wire, CAN y RS232, amplían su aplicabilidad para sensores de temperatura, lectores iButton, adquisición de datos del vehículo y comunicación con periféricos.
 

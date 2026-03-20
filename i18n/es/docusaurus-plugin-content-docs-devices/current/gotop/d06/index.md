@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - D06
 
+<div className="device-logo">
 ![D06](./logo..jpg)
+</div>
 
 El rastreador GPS 4G GOTOP D06 es una unidad compacta diseñada para el monitoreo de ubicación en tiempo real de automóviles, motocicletas, bicicletas eléctricas y otros vehículos ligeros. Combina un módulo GPS integrado con conectividad LTE para transmitir datos de posición a un servidor designado o a un destinatario móvil. El D06 también incluye memoria interna para almacenar coordenadas durante interrupciones de conexión y admite escucha en cabina opcional mediante un micrófono conectado para mayor supervisión.
 

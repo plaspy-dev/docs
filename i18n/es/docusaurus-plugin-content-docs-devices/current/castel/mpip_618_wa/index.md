@@ -21,7 +21,9 @@ keywords:
 
 # Castel - MPIP-618-WA
 
+<div className="device-logo">
 ![MPIP-618-WA](./logo.jpg)
+</div>
 
 El Castel MPIP-618W-A es un rastreador GPS para vehículos que combina el seguimiento de posición con capacidades de diagnóstico OBD. Diseñado para automóviles de pasajeros y vehículos comerciales, ofrece visibilidad de la ubicación, diagnóstico del vehículo a través de una interfaz OBD estándar y una serie de funciones orientadas a flotas, como estadísticas de kilometraje, recordatorios de mantenimiento, informes de consumo de combustible y memoria de datos almacenados. Este equipo se emplea cuando es valioso contar tanto con el posicionamiento como con datos básicos sobre el estado o uso del vehículo.
 

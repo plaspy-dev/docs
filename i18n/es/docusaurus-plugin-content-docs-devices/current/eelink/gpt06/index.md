@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT06
 
+<div className="device-logo">
 ![GPT06](./logo.jpg)
+</div>
 
 El EElink GPT06 es un rastreador GPS compacto y multi‑modo diseñado para ofrecer ubicación confiable en diversos escenarios. Integra una arquitectura de doble módulo con posicionamiento GPS junto con A‑GPS y LBS como respaldo para mejorar la precisión y la disponibilidad. El equipo admite bandas celulares globales mediante compatibilidad GSM/WCDMA y ofrece seguimiento en tiempo real, reproducción de rutas históricas, alertas de geocerca y una función SOS de un solo toque para notificaciones de emergencia.
 

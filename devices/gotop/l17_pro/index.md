@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - L17 PRO
 
+<div className="device-logo">
 ![L17 PRO](./tracker.jpg)
+</div>
 
 The L17 PRO is a compact GPS tracker packaged as a smartwatch designed for personal tracking, health telemetry and emergency assistance. Built for daily wear, it combines global cellular roaming, Wi‑Fi and BLE connectivity with integrated sensors to provide continuous location updates, activity logging and on demand vital sign readings. The device includes a dedicated SOS button and two way calling to support rapid communication in urgent situations.
 

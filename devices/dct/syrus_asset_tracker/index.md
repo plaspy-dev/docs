@@ -20,7 +20,9 @@ keywords:
 
 # DCT - Syrus Asset Tracker
 
+<div className="device-logo">
 ![Syrus Asset Tracker](./tracker.png)
+</div>
 
 The Syrus Asset Tracker is a rugged, waterproof GPS tracker designed for long term monitoring of non powered and exposed assets. It is built for harsh outdoor environments and delivers dependable, low maintenance location reporting for containers, trailers, construction equipment, and other off grid assets where long autonomy and reliable cellular reporting are important.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - Ugo
 
+<div className="device-logo">
 ![Ugo](./tracker.png)
+</div>
 
 The CAREU Ugo is a plug and use OBD II GPS tracker built for fast deployment and continuous vehicle telemetry. Designed to be connected directly to a vehicle OBD II port, Ugo provides location updates and vehicle data while keeping installation simple. It includes built in antennas, an internal backup battery, and a 6 axis accelerometer to capture driving events alongside OBD II information such as odometer where the vehicle exposes it.
 

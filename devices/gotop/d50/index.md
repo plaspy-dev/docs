@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D50
 
+<div className="device-logo">
 ![D50](./tracker.jpg)
+</div>
 
 The GOTOP D50 is a compact 4G pet GPS tracker designed for attachment to collars and everyday outdoor use. It combines GNSS positioning with cellular uplink and fallback location methods to provide continuous location monitoring, route history playback, motion detection, and SOS alerts in a small waterproof housing. The form factor and IPX7 protection make it suitable for dogs, cats and other small pets where comfort and durability are important.
 

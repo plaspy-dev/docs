@@ -21,7 +21,9 @@ keywords:
 
 # TopTen - LT02
 
+<div className="device-logo">
 ![LT02](./Logo.jpg)
+</div>
 
 El TopTen LT02 es un mini rastreador GPS pensado para el seguimiento de vehículos y telemática básica. Combina el reporte de posición con funciones de alarma y monitoreo, lo que permite a propietarios y administradores conocer la dirección física del vehículo (incluyendo ciudad y calle), recibir alertas por movimiento y exceso de velocidad, y supervisar el estado de encendido del motor. El LT02 también incorpora un registrador de datos capaz de almacenar miles de puntos y ofrece lectura del odómetro y detección del voltaje del vehículo para una supervisión operativa sencilla.
 

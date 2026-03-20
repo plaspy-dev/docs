@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - OTK02-4G
 
+<div className="device-logo">
 ![OTK02-4G](./tracker.jpg)
+</div>
 
 The TopShine OTK02-4G is a plug-and-play OBD II vehicle tracker designed for immediate installation and fast deployment. It provides real time tracking and OBD level telemetry over modern cellular connectivity, with assisted GNSS positioning and an integrated offline logger to preserve data during temporary coverage gaps. The model targets vehicle monitoring tasks where quick deployment and diagnostic visibility are important.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Riti - IDU-300
 
+<div className="device-logo">
 ![IDU-300](./logo.jpg)
+</div>
 
 The Riti IDU-300 is a 3G Intelligent Data Unit designed for modern fleet management. It provides real time tracking, dispatching support, and reporting of vehicle abnormalities while integrating with fleet management platforms and mobile apps. The IDU-300 also supports optional accessories such as a dispatch panel and temperature sensor, enabling broader monitoring beyond basic location data.
 

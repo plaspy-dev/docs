@@ -20,7 +20,9 @@ keywords:
 
 # Aplicom - A9 IPEX
 
+<div className="device-logo">
 ![A9 IPEX](./logo.jpg)
+</div>
 
 The Aplicom A9 IPEX is a rugged GPS tracker designed to collect and communicate vehicle and asset information to a back-end service. Built for demanding environments, the unit emphasizes reliable location tracking and operational data capture for fleets, construction machines, and other mobile assets. Its IP67 enclosure provides dust and water protection, making it suitable for outdoor and industrial use.
 

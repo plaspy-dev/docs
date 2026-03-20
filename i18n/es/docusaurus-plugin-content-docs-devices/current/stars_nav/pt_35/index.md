@@ -21,7 +21,9 @@ keywords:
 
 # Stars Nav - PT-35
 
+<div className="device-logo">
 ![PT-35](./tracker.jpg)
+</div>
 
 El PT-35 de Stars Nav es un rastreador GPS personal compacto y resistente, pensado para implementaciones donde la discreción y la larga autonomía son prioritarias. Basado en la serie PT, el equipo combina un receptor GNSS u‑blox con un módem GSM cuatribanda para ofrecer localización precisa y telemetría de eventos, apta para seguridad personal, protección de activos y monitoreo de vehículos ligeros. Su tamaño reducido y la opción de carcasa magnética impermeable lo hacen idóneo para colocaciones encubiertas o ambientes exigentes.
 

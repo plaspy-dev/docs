@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT709C
 
+<div className="device-logo">
 ![JT709C](./tracker.jpg)
+</div>
 
 The JT709C Smart Electronic Tracking Lock by Jointech is a compact, rechargeable sealing device designed for logistics and asset security. It combines real time positioning with a tamper evident locking mechanism, mobile authorization via Bluetooth, and a persistent audit trail of unlock events, making it suitable for containers, vans, cash bags and warehouse doors that require controlled access and location visibility.
 

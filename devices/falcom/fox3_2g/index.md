@@ -20,7 +20,9 @@ keywords:
 
 # Falcom - FOX3-2G
 
+<div className="device-logo">
 ![FOX3-2G](./logo.jpg)
+</div>
 
 The FOX3-2G Series from Falcom is a compact and versatile vehicle telematics and gateway device that pairs 2G data connectivity with modern GNSS technology. Designed as an all in one solution, the unit offers a broad set of inputs and outputs and can be extended with optional IOBOX units such as IOBOX-MINI or IOBOX-CAN for increased I O flexibility. The device supports internal and external antenna use, with the internal antennas automatically disabled when external antennas are connected.
 

@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-2100
 
+<div className="device-logo">
 ![LMU-2100](./logo.jpg)
+</div>
 
 El CalmAmp LMU-2100 es una unidad de rastreo vehicular orientada a seguros, diseñada para ofrecer datos confiables de ubicación y eventos para flotas y programas de seguro basado en uso. Comercializada como un dispositivo robusto y económico, la LMU-2100 incorpora un acelerómetro de 3 ejes para detectar comportamiento del conductor e impactos, un motor de eventos programable a bordo para reglas personalizadas y opciones de comunicación inalámbrica que aseguran un flujo continuo de datos para la supervisión operativa.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - LK200B
 
+<div className="device-logo">
 ![LK200B](./logo.jpg)
+</div>
 
 The TK-Star LK200B GPS Vehicle Tracker is a compact and versatile device built to monitor vehicles in real time. Designed for use on private cars, rental vehicles, and business fleets, it provides continuous location visibility and route history that help users keep track of vehicle movements. Key features called out by the manufacturer include real time tracking, auto tracking intervals, blind area tracking for low signal coverage, and history trace checking for reviewing past routes.
 

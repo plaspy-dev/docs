@@ -20,7 +20,9 @@ keywords:
 
 # WP - VT-10
 
+<div className="device-logo">
 ![VT-10](./logo..png)
+</div>
 
 The VT-10 from WP is a compact vehicle GPS tracking device designed for real-time tracking and monitoring. It pairs a high sensitivity GPS receiver with GSM communications to provide continuous location information, journey logging, and event reporting. The VT-10 supports multiple tracking modes such as timed intervals, distance intervals, and a smart mode for adaptive reporting, and can store a large history of waypoints for later review.
 

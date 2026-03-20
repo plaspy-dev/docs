@@ -20,7 +20,9 @@ keywords:
 
 # iTriangle - Bharat101 Plus 4G with CAN
 
+<div className="device-logo">
 ![Bharat101 Plus 4G with CAN](./tracker.png)
+</div>
 
 The Bharat101 Plus 4G with CAN is an AIS-140 certified GPS tracker designed for professional fleets, public transport, and heavy duty vehicle applications. It is built to operate in demanding environments with a rugged IP65 enclosure and a wide voltage input range. The device supports LTE Cat 1 connectivity, multi constellation GNSS, CAN bus diagnostics, and on board sensors to provide continuous location and vehicle telemetry for operational monitoring and compliance workflows.
 

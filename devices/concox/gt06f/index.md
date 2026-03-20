@@ -20,7 +20,9 @@ keywords:
 
 # Concox - GT06F
 
+<div className="device-logo">
 ![GT06F](./logo.jpg)
+</div>
 
 The Concox GT06F is a compact GPS vehicle tracker designed to provide reliable location tracking for vehicles and valuable possessions. It combines a small, discreet form factor with core tracking features such as real time location updates, geofencing, remote monitoring, multiple alarm types, and history playback. The device is described as user friendly and suitable for discreet placement in vehicles or on other tracked items.
 

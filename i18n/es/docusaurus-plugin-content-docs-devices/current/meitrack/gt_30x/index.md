@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - GT-30X
 
+<div className="device-logo">
 ![GT-30X](./logo.jpg)
+</div>
 
 El Meitrack GT-30X es un rastreador GPS personal compacto y fácil de usar que emplea GPS y GPRS para enviar la posición a un teléfono móvil o servidor configurado. Está pensado principalmente para monitorear personas y mascotas, combinando reporte de ubicación, función SOS y comunicaciones de voz bidireccional en un dispositivo pequeño. Además, almacena localmente los datos de posición cuando no hay conectividad, lo que preserva el historial de rastreo en zonas con poca cobertura de red.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T303
 
+<div className="device-logo">
 ![T303](./tracker.jpg)
+</div>
 
 El T303 es un rastreador GPS profesional diseñado para la gestión de flotas, la protección antirrobo y el monitoreo del comportamiento del conductor. Basado en una plataforma robusta y equipado con un módulo GNSS de alta sensibilidad, conectividad celular cuatribanda y un conjunto completo de entradas y salidas, el T303 ofrece ubicación y telemetría en tiempo real confiables para vehículos de distintos tamaños. Sus geocercas configurables, manejo de alertas de emergencia y soporte para inmovilización remota cubren los flujos de trabajo telemáticos más comunes.
 

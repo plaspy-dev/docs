@@ -20,7 +20,9 @@ keywords:
 
 # Aquila - OBD II
 
+<div className="device-logo">
 ![OBD II](./logo.jpg)
+</div>
 
 The Aquila OBD II is a plug and play vehicle tracker that combines GPS location tracking with onboard vehicle diagnostics. Designed to connect to a vehicle diagnostic port, it captures vehicle parameters and diagnostic information and transmits that data to a central server for processing. The unit includes a motion sensor with a 3-axis accelerometer, internal GSM and GPS antennas, and a durable ABS plastic housing for everyday automotive use.
 

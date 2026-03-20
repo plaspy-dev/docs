@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - TTU-2830
 
+<div className="device-logo">
 ![TTU-2830](./logo.jpg)
+</div>
 
 El CalmAmp TTU-2830 es un rastreador para remolques diseñado para despliegues duraderos y resistente a las inclemencias del tiempo. Combina una carcasa compacta con un pack de batería recargable interna de 5.2 Ah y una alta sensibilidad GPS, lo que lo hace adecuado para activos que normalmente están conectados a sistemas de 12 o 24 V pero pueden permanecer desconectados por períodos. La unidad incluye múltiples entradas y salidas para integraciones flexibles y utiliza antenas internas para simplificar el montaje y reducir la complejidad de la instalación.
 

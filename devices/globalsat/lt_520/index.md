@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - LT-520
 
+<div className="device-logo">
 ![LT-520](./tracker.jpg)
+</div>
 
 The GlobalSat LT-520 is a rugged GPS tracking device designed for long term asset monitoring in mixed indoor and outdoor environments. It combines GNSS positioning with low power wide area connectivity and hybrid location techniques, using BLE, NFC and Wi‑Fi scans to supplement outdoor fixes. The LT-520 is built for extended service intervals and configurable reporting, making it suitable for deployments where low maintenance and reliable location data are priorities.
 

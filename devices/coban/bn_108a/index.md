@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-108A
 
+<div className="device-logo">
 ![BN-108A](./tracker.png)
+</div>
 
 The BN-108A is a compact GPS tracker from Coban designed for mobile asset management, covert vehicle tracking, and anti theft protection. It combines strong magnetic adsorption for tool free mounting, Bluetooth automatic induction for simplified arming and disarming, and a very large 10,000 mAh rechargeable battery to deliver extended standby times and dependable real time location updates.
 

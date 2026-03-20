@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT110-L
 
+<div className="device-logo">
 ![VT110-L](./tracker.png)
+</div>
 
 The VT110-L is a compact 4G car tracking device from iStartek designed for reliable real time vehicle location and event reporting. It pairs high precision GNSS positioning with cellular base station fallback to keep telemetry flowing in varied environments. With a small form factor and vehicle grade inputs and outputs, the VT110-L provides a practical feature set for both fleet management and private vehicle monitoring.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FM 2200
 
+<div className="device-logo">
 ![FM 2200](./logo.jpg)
+</div>
 
 The Teltonika FM 2200 is a versatile GPS tracker with GSM connectivity designed to determine accurate coordinates of remote objects and transmit them over cellular networks. It offers real time location tracking for assets and vehicles, multiple digital inputs and outputs for monitoring and control, a USB port for NMEA output and configuration, and on device storage for historical positions. The FM 2200 also supports geofencing, configurable data sending, and firmware updates through several methods, making it suitable for a range of tracking deployments.
 

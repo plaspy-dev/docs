@@ -20,7 +20,9 @@ keywords:
 
 # Cityeasy - 007
 
+<div className="device-logo">
 ![007](./logo.jpg)
+</div>
 
 The Cityeasy 007 is a car GPS tracker designed to provide reliable real time location and remote monitoring for vehicles. It combines LBS and GPS position reporting with long distance monitoring capability, a removable 5000mAh battery for extended operation, and an IP67 rated enclosure to resist water and dust. The device is positioned for both personal vehicle owners and commercial fleet operators who need continuous visibility of vehicle whereabouts.
 

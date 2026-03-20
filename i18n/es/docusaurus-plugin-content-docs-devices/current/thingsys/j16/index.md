@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - J16
 
+<div className="device-logo">
 ![J16](./tracker.jpg)
+</div>
 
 El J16 es un rastreador GPS vehicular compacto de ThingSys, diseñado para la gestión de flotas, monitoreo antirrobo y telemetría general de vehículos. Basado en el módulo SIMCOM 7670SA, el dispositivo ofrece conectividad 4G LTE CAT1 con conmutación a 2G y cuenta con batería interna de respaldo, sensor de movimiento G, almacenamiento de mensajes en zonas sin cobertura y dos variantes que añaden detección de ACC, control de relé, micrófono y función SOS.
 

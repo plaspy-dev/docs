@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - TR-300
 
+<div className="device-logo">
 ![TR-300](./logo.jpg)
+</div>
 
 El GlobalSat TR-300 es un rastreador personal compacto y liviano diseñado para ofrecer seguimiento diario confiable y mayor seguridad. Pensado para niños y personas mayores, combina un uso sencillo con funciones prácticas de seguridad como comunicación bidireccional mediante micrófono y altavoz integrados, un botón SOS para alertas inmediatas y una batería de alta capacidad que reduce la necesidad de cargas frecuentes. El TR-300 permite la supervisión y configuración remotas para que cuidadores o centros de monitoreo puedan seguir ubicaciones y eventos de seguridad según se requiera.
 

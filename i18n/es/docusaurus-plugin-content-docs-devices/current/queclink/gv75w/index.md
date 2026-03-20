@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV75W
 
+<div className="device-logo">
 ![GV75W](./tracker.png)
+</div>
 
 El QuecLink GV75W es un rastreador GPS robusto e impermeable diseñado para motocicletas, cuadriciclos, embarcaciones y maquinaria ligera. Pensado para instalaciones compactas en vehículos y para operar en entornos exteriores exigentes, el GV75W combina posicionamiento GNSS de alta sensibilidad con conectividad celular global y un comportamiento de muy bajo consumo para ofrecer seguimiento fiable en tiempo real, protección contra robo y telemetría de flota cuando el espacio y la durabilidad son fundamentales.
 

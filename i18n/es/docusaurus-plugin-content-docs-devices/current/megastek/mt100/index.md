@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT100
 
+<div className="device-logo">
 ![MT100](./tracker.jpg)
+</div>
 
 El MT100 es un rastreador GPS personal 4G compacto de Megastek, pensado para protección personal, personal de seguridad y aplicaciones de seguridad pública. Integra posicionamiento multimodal, una carcasa resistente con certificación IP67, comunicación de voz bidireccional y alertas SOS, proporcionando localización en tiempo real y señalización de incidentes fiable tanto en exteriores como en entornos interiores mixtos.
 

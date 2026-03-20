@@ -21,7 +21,9 @@ keywords:
 
 # Neomatica - ADM300
 
+<div className="device-logo">
 ![ADM300](./tracker.png)
+</div>
 
 El ADM300 es un terminal de rastreo vehicular compacto con GNSS (GPS/GLONASS) de Neomatica, diseñado para la supervisión continua de automóviles, camiones y maquinaria especial. Orientado a implementaciones de telemática y gestión de flotas, el equipo ofrece actualizaciones en tiempo real de posición, velocidad y rumbo, almacena historiales de ruta extendidos en microSD y transmite telemetría y eventos a un servidor remoto para visibilidad operativa.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T373A
 
+<div className="device-logo">
 ![T373A](./tracker.jpg)
+</div>
 
 The T373A is a plug and play OBD II GPS tracker engineered for vehicle tracking and fleet management. Designed to connect to any standard OBD II port, it provides real time location and in vehicle telemetry without complex wiring. The device reads extensive OBD II data and combines GNSS positioning and cellular connectivity to deliver the visibility fleets, rental operators, insurers and roadside assistance services require for operational oversight and theft deterrence.
 

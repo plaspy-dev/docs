@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-907
 
+<div className="device-logo">
 ![ST-907](./tracker.jpg)
+</div>
 
 El SinoTrack ST-907 es un rastreador GPS cableado y compacto pensado para una instalación discreta en vehículos y para el reporte continuo de posición. Combina un tamaño reducido con antenas GPS y GSM de alta sensibilidad integradas y soporte quad band GSM, lo que le permite enviar datos de ubicación y alarmas mediante SMS y GPRS. El ST-907 incluye control remoto por relé para corte de combustible o alimentación, opciones de alarma por exceso de velocidad y geocerca, y comandos administrativos y de diagnóstico vía SMS para manejo local.
 

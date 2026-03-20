@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL502
 
+<div className="device-logo">
 ![VL502](./tracker.png)
+</div>
 
 The VL502 is a compact OBDII GNSS vehicle tracker from Concox designed for corporate fleets, usage based insurance programs, dealer monitoring and individual vehicle oversight. As a plug and play OBDII unit, it reports vehicle telemetry such as VIN, engine speed, coolant temperature, accumulated mileage, fuel consumption stats, battery voltage and ignition status, and transmits that data over mobile networks for real time visibility.
 

@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AK7V
 
+<div className="device-logo">
 ![AK7V](./logo..jpg)
+</div>
 
 El ATrack AK7V es un localizador GPS para vehículos pensado para monitoreo de flotas y control vehicular. Integra posicionamiento preciso con control remoto de entradas/salidas y comunicación de voz bidireccional, por lo que resulta útil en operaciones que requieren visibilidad de ubicación y coordinación directa con conductores. El dispositivo ofrece múltiples opciones de conectividad y acceso a datos del vehículo para ayudar a los equipos a mantener conciencia situacional sobre activos en movimiento.
 

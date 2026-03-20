@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 300V
 
+<div className="device-logo">
 ![ST 300V](./logo.jpg)
+</div>
 
 El Suntech ST 300V es un rastreador GPS para vehículos y dispositivo de control de conducción pensado para la gestión de flotas. Combina el seguimiento de la ubicación con funciones de monitoreo dentro de la cabina y capacidades de interacción con el conductor. El equipo soporta extracción de datos del Bus CAN compatible con los estándares J1939 y OBDII e incluye una interfaz 1-Wire para la identificación de conductores, lo que lo hace adecuado para operaciones que requieren conocimiento del conductor, datos del vehículo y un historial de ubicación.
 

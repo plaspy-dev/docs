@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - SolarGuardX 200
 
+<div className="device-logo">
 ![SolarGuardX 200](./tracker.png)
+</div>
 
 El SolarGuardX 200 de TopFly es un candado GPS resistente, alimentado por energía solar, diseñado para telemática de largo plazo en exteriores. Pensado para la protección de contenedores, remolques y activos remotos, combina una carga solar continua, una amplia batería Li‑Polymer de 14,400 mAh y una carcasa con clasificación IP67 para ofrecer autonomía extendida, seguimiento en tiempo real y alertas de manipulación en un formato compacto y resistente.
 

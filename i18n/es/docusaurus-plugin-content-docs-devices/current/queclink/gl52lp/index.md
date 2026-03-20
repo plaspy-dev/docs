@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL52LP
 
+<div className="device-logo">
 ![GL52LP](./logo..png)
+</div>
 
 El QuecLink GL52LP es un micro rastreador LoRa en modo standby diseñado para el monitoreo y la gestión de activos a largo plazo. Su tamaño compacto y su amplia autonomía lo hacen ideal para instalaciones estacionarias donde se requiere información periódica de ubicación y movimiento. El equipo incluye receptor GNSS y sensor de movimiento, y cuenta con opciones como carcasa IP67 para mayor protección contra el ambiente.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - T8803 PRO
 
+<div className="device-logo">
 ![T8803 PRO](./logo.jpg)
+</div>
 
 The T8803 PRO from TopFly is a compact vehicle GPS tracker designed for reliable location monitoring and basic vehicle security. This PRO model builds on the T8803A platform with added sensor alarms for towing and vibration, an integrated G sensor, SOS capability, and a microphone cable. Its sealed IP66 housing and no external antenna design make it suitable for use on cars and vans where discreet installation and weather resistance are important.
 

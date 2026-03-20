@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4290
 
+<div className="device-logo">
 ![ST4290](./tracker.jpg)
+</div>
 
 The Suntech ST4290 is a rugged, battery powered GPS tracker built for long term asset monitoring and recovery. It combines GNSS positioning with cellular connectivity and an IP67 enclosure to support reliable location reporting in challenging environments. Compact and energy efficient, the ST4290 is offered with two primary battery options that help tailor field life to deployment needs.
 

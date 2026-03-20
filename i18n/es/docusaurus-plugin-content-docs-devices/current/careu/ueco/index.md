@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - Ueco
 
+<div className="device-logo">
 ![Ueco](./logo..png)
+</div>
 
 El CAREU Ueco es un rastreador GPS compacto y confiable, pensado para múltiples escenarios de rastreo vehicular. Está orientado a flotas de autos de renta, operaciones de taxi, empresas de logística y vehículos particulares que requieren reportes de ubicación consistentes y telemática básica. El Ueco combina un tamaño reducido con funciones de comunicación y posicionamiento diseñadas para ofrecer un seguimiento estable en las operaciones diarias de una flota.
 

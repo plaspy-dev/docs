@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D39
 
+<div className="device-logo">
 ![D39](./tracker.png)
+</div>
 
 The Sentar D39 is a compact 4G Android GPS smartwatch designed for children. It combines continuous location reporting with two way voice communication, an SOS emergency button, and multi mode positioning that leverages GPS, AGPS, LBS, and WiFi. Built with a 1.85 inch IPS touchscreen and a water resistant IPX7 housing, the D39 is intended for daily wear and activity while keeping caregivers informed through a companion app.
 

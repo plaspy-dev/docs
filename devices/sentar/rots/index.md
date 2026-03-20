@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - ROTS
 
+<div className="device-logo">
 ![ROTS](./tracker.jpg)
+</div>
 
 The Sentar ROTS is a compact wearable GPS tracker designed for pet safety and long distance location coverage. Built as a collar ready device, the ROTS provides continuous position updates over cellular networks and is intended for dogs and outdoor pets that need ongoing supervision. The device is described with an ASR main chipset and modest on board memory to support stable operation during extended monitoring.
 

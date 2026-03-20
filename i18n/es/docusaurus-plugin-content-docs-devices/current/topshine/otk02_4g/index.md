@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - OTK02-4G
 
+<div className="device-logo">
 ![OTK02-4G](./tracker.jpg)
+</div>
 
 El TopShine OTK02-4G es un rastreador vehicular OBD II plug-and-play diseñado para instalación inmediata y despliegue rápido. Proporciona seguimiento en tiempo real y telemetría a nivel OBD mediante conectividad celular moderna, con posicionamiento GNSS asistido y un registrador offline integrado que conserva los datos durante interrupciones temporales de cobertura. Este modelo está pensado para tareas de monitorización de vehículos donde la rapidez de despliegue y la visibilidad diagnóstica son prioritarias.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - LK109
 
+<div className="device-logo">
 ![LK109](./logo.jpg)
+</div>
 
 El TK-Star LK109 es un rastreador GPS portátil diseñado para ofrecer visibilidad continua de la ubicación de vehículos, equipos y personas. Combina seguimiento en tiempo real con funciones como rastreo automático, registro en áreas sin cobertura, consulta de trayectorias históricas, alertas por geocerca, notificaciones de movimiento y exceso de velocidad, botón SOS, alertas por sensor de sacudidas y un modo de reposo para conservar la batería. El dispositivo está pensado para el uso diario y condiciones exteriores, con protección IP65 para operaciones que requieren resistencia al polvo y al agua.
 

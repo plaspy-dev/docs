@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT06
 
+<div className="device-logo">
 ![GPT06](./logo.jpg)
+</div>
 
 The EElink GPT06 is a compact, multi mode GPS tracker designed for reliable location tracking in a variety of scenarios. It combines a dual module architecture with GPS positioning plus A GPS and LBS fallback to improve accuracy and availability. The device supports global cellular bands through GSM WCDMA 7 frequency compatibility and provides real time tracking together with history route playback, geofence alerts, and a one key SOS function for emergency notifications.
 

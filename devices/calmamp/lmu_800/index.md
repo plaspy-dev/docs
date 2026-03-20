@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-800
 
+<div className="device-logo">
 ![LMU-800](./logo.jpg)
+</div>
 
 The CalmAmp LMU-800 is a compact, cost effective vehicle tracking device designed for straightforward installation in automobiles. Built for 12 and 24 volt mobile vehicles, it is positioned for applications such as stolen vehicle recovery, vehicle finance, and auto rental where reliable tracking and a backup power source are important. The LMU-800 combines a small footprint with strong GPS performance and features intended to maintain tracking continuity even when vehicle power is interrupted.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMM250
 
+<div className="device-logo">
 ![FMM250](./tracker.png)
+</div>
 
 El Teltonika FMM250 es un rastreador vehicular robusto, con clasificación IP67, diseñado para entornos móviles exigentes y aplicaciones de gestión de flotas. Está pensado para capturar datos de alta fidelidad del bus CAN y ofrecer conectividad celular confiable, por lo que resulta apto para implementaciones que requieren telemetría detallada del vehículo junto con el seguimiento de ubicación. El equipo está concebido para uso a bordo donde la resistencia al polvo y la humedad es imprescindible.
 

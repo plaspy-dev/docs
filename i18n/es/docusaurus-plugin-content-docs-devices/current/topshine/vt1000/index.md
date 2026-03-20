@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - VT1000
 
+<div className="device-logo">
 ![VT1000](./tracker.jpg)
+</div>
 
 El TopShine VT1000 es un rastreador GPS profesional para vehículos, diseñado para la gestión de flotas, la conectividad de pasajeros y la seguridad vehicular. Integra posicionamiento GNSS de alta precisión con comunicaciones celulares multibanda y un punto de acceso WiFi incorporado para ofrecer seguimiento de ubicación, telemetría y acceso a internet para pasajeros en un solo equipo. El VT1000 también admite conexión de cámaras y almacenamiento a bordo para preservar videos y fotografías como evidencia junto con los datos de ubicación.
 

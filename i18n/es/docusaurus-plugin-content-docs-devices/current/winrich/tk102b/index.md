@@ -21,7 +21,9 @@ keywords:
 
 # Winrich - TK102B
 
+<div className="device-logo">
 ![TK102B](./tracker.jpg)
+</div>
 
 El TK102B es un rastreador GPS personal compacto diseñado para el monitoreo confiable de ubicaciones en tiempo real en vehículos, personas y activos portátiles. Combina posicionamiento GPS y GSM con respaldo de rutas en tarjeta TF para mantener continuidad en la información de ubicación y ofrecer capacidades básicas antirrobo. El equipo está pensado para escenarios de seguimiento sencillos donde importan el tamaño, la portabilidad y las actualizaciones constantes.
 

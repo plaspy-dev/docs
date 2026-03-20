@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - DDX04
 
+<div className="device-logo">
 ![DDX04](./tracker.jpg)
+</div>
 
 El DDX04 es un reloj rastreador portátil antimanipulación diseñado para supervisión, seguridad y monitoreo remoto. Combina posicionamiento multifuente con detección de manipulación y telemetría de salud en un formato compacto de muñeca. El dispositivo está pensado para soportar seguimiento continuo en tiempo real, consultas de ubicación bajo demanda y reproducción histórica, además de proporcionar alertas y datos de sensores útiles para programas de cumplimiento y seguimiento del bienestar.
 

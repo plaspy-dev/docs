@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AL11
 
+<div className="device-logo">
 ![AL11](./logo..jpg)
+</div>
 
 The ATrack AL11 is a compact, rugged GPS tracking device designed for monitoring a broad range of mobile assets. According to the manufacturer description, it supports 4G Cat.1 and 3G cellular connectivity, offers an IP67 rated enclosure for water and dust protection, includes a built in 3 axis accelerometer for impact detection, and uses a simple 3 wire connection for installation. Those characteristics make the AL11 suitable where robust environmental protection and reliable data transmission are priorities.
 

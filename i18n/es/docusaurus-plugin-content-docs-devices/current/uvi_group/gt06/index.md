@@ -21,7 +21,9 @@ keywords:
 
 # UVI Group - GT06
 
+<div className="device-logo">
 ![GT06](./logo.jpg)
+</div>
 
 El UVI Group GT06 es un rastreador GPS compacto diseñado para ofrecer seguimiento preciso en tiempo real de objetivos remotos como vehículos y motocicletas. Utiliza satélites GPS para el posicionamiento y la red GSM GPRS para reportar la ubicación, permitiendo consultas por SMS y cargas a servidor para monitoreo continuo. Su tamaño reducido y cableado sencillo lo hacen adecuado para empresas, flotas de alquiler y uso personal, incluyendo casos de uso orientados a la prevención de robos.
 

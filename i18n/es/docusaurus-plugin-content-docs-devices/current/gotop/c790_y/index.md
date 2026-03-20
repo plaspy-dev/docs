@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - C790-Y
 
+<div className="device-logo">
 ![C790-Y](./tracker.jpg)
+</div>
 
 El C790-Y es un rastreador GPS vehicular compacto y multifuncional diseñado para la gestión confiable de flotas, la protección antirrobo y el monitoreo continuo de la ubicación. Sus funcionalidades se basan en posicionamiento por satélite y telemetría celular para ofrecer actualizaciones de posición, alertas de geocerca e historial de rutas extendido, todo en un formato discreto apto para distintos tipos de vehículos.
 

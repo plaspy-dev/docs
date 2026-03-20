@@ -21,7 +21,9 @@ keywords:
 
 # Bofan - PT502
 
+<div className="device-logo">
 ![PT502](./tracker.jpg)
+</div>
 
 El PT502 es un rastreador GPS 4G diseñado para la gestión profesional de flotas y la seguridad vehicular. Pensado para entornos de vehículo, el PT502 ofrece seguimiento en tiempo real, soporte para múltiples cámaras, identificación de conductor mediante RFID, sensado ultrasónico de combustible y control de inmovilizador remoto. Sus capacidades de alarma y entradas/salidas lo hacen ideal para flotas que requieren datos de posición fiables y monitoreo basado en eventos.
 

@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - AL-900G
 
+<div className="device-logo">
 ![AL-900G](./Logo.png)
+</div>
 
 El SinoTrack AL-900G es un rastreador GPS compacto y resistente pensado para múltiples aplicaciones de seguimiento de vehículos y activos. Emplea un módulo GPS Sirf IV y permite posicionamiento continuo con opciones de reporte en tiempo real mediante SMS, GPRS o una plataforma web. El equipo incluye funciones prácticas como modos de rastreo configurables, alertas por exceso de velocidad, alimentación de respaldo y almacenamiento local para las ubicaciones registradas cuando no hay cobertura celular.
 

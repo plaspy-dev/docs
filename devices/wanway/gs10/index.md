@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - GS10
 
+<div className="device-logo">
 ![GS10](./Logo.jpg)
+</div>
 
 The WanWay GS10 is an intelligent vehicle GPS tracker that combines 4G full netcom wireless communication with GPS and BDS satellite navigation. Designed as a compact and lightweight unit, the GS10 is described as suitable for a wide range of vehicle types and industries including insurance, enterprise fleets, auto manufacturers and 4S stores, individual owners, electric vehicle fleets, passenger vehicles, taxis, and rental fleets. It supports real time tracking and vehicle monitoring features commonly required for security and operational oversight.
 

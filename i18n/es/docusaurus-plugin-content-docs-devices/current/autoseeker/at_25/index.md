@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-25
 
+<div className="device-logo">
 ![AT-25](./Logo.jpg)
+</div>
 
 El Autoseeker AT-25 es un rastreador GPS compacto para vehículos, pensado para ofrecer monitoreo de ubicación confiable y funciones básicas de seguridad vehicular. Envía actualizaciones de posición por SMS y GPRS, y además funciona sobre internet 4G, proporcionando múltiples canales para reportar la ubicación. El equipo incluye características como seguimiento por intervalos de tiempo para informes programados, registro de historial, alertas de geovalla, avisos por exceso de velocidad, alarma por vibración, alerta por corte de energía, detección de encendido ilegal (ACC) y una batería de respaldo integrada que mantiene la operación si se corta la alimentación del vehículo.
 

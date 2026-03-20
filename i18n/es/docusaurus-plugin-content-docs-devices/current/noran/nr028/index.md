@@ -21,7 +21,9 @@ keywords:
 
 # Noran - NR028
 
+<div className="device-logo">
 ![NR028](./tracker.jpg)
+</div>
 
 El NR028 es una unidad de navegación y telemática para vehículo de Noran que combina posicionamiento GPS con una pantalla táctil integrada y una cámara digital incorporada. Diseñado para la gestión de flotas, la seguridad vehicular y la navegación en cabina, el NR028 ofrece ubicación en tiempo real, comunicación con el conductor y navegación multimedia en un solo dispositivo, adecuado para operaciones de despacho y documentación de incidentes.
 

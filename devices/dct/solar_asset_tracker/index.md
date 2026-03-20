@@ -20,7 +20,9 @@ keywords:
 
 # DCT - Solar Asset Tracker
 
+<div className="device-logo">
 ![Solar Asset Tracker](./tracker.png)
+</div>
 
 The DCT Solar Asset Tracker (SPA4G-1204-16) is a rugged, self powered GPS tracker built for long term outdoor deployments. With an integrated solar panel and a 10Ah rechargeable battery, the unit is intended to remain operational on remote assets without mains power. It combines GNSS positioning with Wi‑Fi and LBS fallback and uses global 4G connectivity to deliver continuous location updates, device health, and event flags for fleet monitoring and anti theft scenarios.
 

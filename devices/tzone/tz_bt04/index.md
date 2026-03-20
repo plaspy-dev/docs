@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-BT04
 
+<div className="device-logo">
 ![TZ-BT04](./logo.jpg)
+</div>
 
 The TZone TZ-BT04 is a compact Bluetooth Low Energy temperature and humidity data logger built around the Nordic N51822 chipset and Bluetooth 4.0 technology. It collects ambient temperature and relative humidity readings, records up to 15,000 data points, and can transfer stored or live data to mobile devices. The unit is designed for portable, on-the-go monitoring and supports adjustable send intervals and transmission settings to suit different monitoring scenarios.
 

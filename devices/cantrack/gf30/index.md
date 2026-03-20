@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - GF30
 
+<div className="device-logo">
 ![GF30](./tracker.jpg)
+</div>
 
 The CanTrack GF30 is a compact magnet GPS tracker from the GF series designed for long duration, covert asset tracking. It features built-in magnetic mounting and a high capacity 1600mAh battery, making it suitable for discreet placement on vehicles, trailers, containers, and heavy equipment. The GF30 is optimized for real-time position reporting and basic event telemetry through platform, app, or SMS channels.
 

@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL530MG
 
+<div className="device-logo">
 ![GL530MG](./tracker.png)
+</div>
 
 The QuecLink GL530MG is a compact, waterproof asset tracker designed for long term, low maintenance monitoring of remote and high value equipment. It combines global low power cellular connectivity with fallback options, robust tamper and environmental sensing, and an enclosure rated for outdoor use. The unit is built for scenarios where long standby life and reliable position reporting matter, such as trailers, containers, static assets and refrigerated pallets.
 

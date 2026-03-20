@@ -21,7 +21,9 @@ keywords:
 
 # Bofan - PT-60
 
+<div className="device-logo">
 ![PT-60](./logo.jpg)
+</div>
 
 El Bofan PT-60 es un rastreador compacto GPS/GSM/GPRS pensado para localizar y proteger personas y bienes. Ofrece actualizaciones de ubicación en tiempo real y funciones útiles como alertas por geocerca, un botón SOS para notificaciones de emergencia, alarmas de movimiento y velocidad, y aviso de batería baja. El equipo también permite comunicación de voz bidireccional y una función de escucha a corta distancia, lo que lo hace apropiado para diferentes escenarios de seguridad personal y monitoreo de activos.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - U1 Lite+ LTE
 
+<div className="device-logo">
 ![U1 Lite+ LTE](./tracker.png)
+</div>
 
 The CAREU U1 Lite+ LTE is a compact, cost effective vehicle telematics device designed for fleet management and video enabled telematics. It combines multi network cellular connectivity with GNSS position reception and integrated vehicle diagnostics to deliver real time tracking and telemetry for commercial vehicles, heavy trucks and refrigerated fleets. The U1 Lite+ family is built to provide continuous positional data, engine and fuel information, and an option for video transmission where required.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Stars Nav - PT-35W
 
+<div className="device-logo">
 ![PT-35W](./tracker.jpg)
+</div>
 
 El PT-35W es un rastreador GPS compacto y resistente, diseñado para entornos exteriores y marinos. Con una carcasa clasificada IP66 y un diseño orientado al bajo consumo, el equipo es ideal para su instalación en motocicletas, embarcaciones, caravanas y otros activos que requieren resistencia a la intemperie y una larga autonomía en modo espera. El dispositivo combina reportes de ubicación por GPS con funciones de control remoto vía SMS y una batería interna de respaldo para soportar seguimientos desatendidos y flujos de trabajo anti robo.
 

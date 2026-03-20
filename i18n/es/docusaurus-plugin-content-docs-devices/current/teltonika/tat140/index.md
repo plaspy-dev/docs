@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - TAT140
 
+<div className="device-logo">
 ![TAT140](./tracker.png)
+</div>
 
 El Teltonika TAT140 es un rastreador GPS compacto alimentado por batería, diseñado para el seguimiento prolongado de activos sin supervisión. Construido para ofrecer durabilidad, cuenta con conectividad 4G LTE Cat 1 con retroceso a 2G y reportes periódicos configurables que proporcionan actualizaciones de posición fiables en carga, contenedores, equipos de alquiler y maquinaria de obra. Su carcasa con certificación IP68 y el soporte magnético opcional permiten un montaje resistente a la intemperie, mientras que los modos de ahorro de energía extienden la vida operativa según la frecuencia de reporte.
 

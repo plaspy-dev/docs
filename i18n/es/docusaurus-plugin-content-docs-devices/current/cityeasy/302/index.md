@@ -21,7 +21,9 @@ keywords:
 
 # Cityeasy - 302
 
+<div className="device-logo">
 ![302](./logo.jpg)
+</div>
 
 El Cityeasy 302 es un rastreador GPS para automóviles diseñado para ofrecer monitoreo continuo de la ubicación del vehículo y alertas básicas de seguridad. Soporta reportes de posición tanto por LBS como por GPS para seguimiento en tiempo real, incluye alertas por movimiento y manipulación como exceso de velocidad, vibración, desplazamiento y corte de alimentación, y registra rutas históricas para su revisión posterior. El dispositivo cuenta con clasificación IP67, lo que le permite operar en condiciones húmedas, y se describe como de instalación gratuita y encendido sencillo.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - DK19
 
+<div className="device-logo">
 ![DK19](./tracker.jpg)
+</div>
 
 The DK19 is a compact 4G GPS tracker designed for reliable vehicle anti theft protection and fleet management. It provides real time tracking and robust telemetry intended for cars, motorcycles and other powered vehicles where covert installation and continuous monitoring are priorities. The device description highlights location reporting, ignition state detection and security event monitoring as core capabilities, along with mileage statistics useful for fleet oversight.
 

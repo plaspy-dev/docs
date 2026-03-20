@@ -21,7 +21,9 @@ keywords:
 
 # Telic - SafeDrive
 
+<div className="device-logo">
 ![SafeDrive](./logo.jpg)
+</div>
 
 El Telic SafeDrive es un rastreador GPS compacto, de tipo plug and play, pensado para aplicaciones de telemática. Diseñado para conectarse rápidamente al tomacorriente de 12V del vehículo, el equipo es ideal en escenarios de seguimiento temporal o móvil gracias a su tamaño reducido y al puerto USB integrado para cargar dispositivos externos. Su conjunto de funciones y opciones configurables lo hacen apto para distintas necesidades de monitoreo vehicular, desde logística de entregas hasta supervisión general de flotas.
 

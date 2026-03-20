@@ -20,7 +20,9 @@ keywords:
 
 # MiniFinder - Pico
 
+<div className="device-logo">
 ![Pico](./tracker.jpg)
+</div>
 
 The MiniFinder Pico is a compact, discreet GPS tracker and keyring alarm designed for personal safety, vulnerable people and small asset protection. Small enough to carry on a lanyard or in a pocket, Pico provides real time location tracking together with SOS alerting and motion based alarms to help caregivers, monitoring teams and asset owners stay informed about incidents and movement.
 

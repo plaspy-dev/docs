@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - TorchX 310
 
+<div className="device-logo">
 ![TorchX 310](./tracker.jpg)
+</div>
 
 The TorchX 310 is a compact plug and play OBD-II GPS tracker designed for straightforward deployment in commercial fleets and individual vehicles. It combines onboard GNSS location with CAN-bus derived vehicle data to deliver VIN, true odometer, fuel level, diagnostic trouble codes, ignition status and other vehicle parameters without extensive installation work. The device also supports BLE accessory pairing and built-in driver alerts to capture behavioral and environmental context alongside location.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CCTR-622G-4G
 
+<div className="device-logo">
 ![CCTR-622G-4G](./tracker.JPG)
+</div>
 
 The CCTR-622G-4G is a compact, portable GPS tracker designed for discreet personal and light asset tracking. It offers real time tracking and alarm capabilities in a no install form factor, making it suitable for applications from outdoor workers and transported goods to pet monitoring. The device combines a dual GNSS approach with assisted positioning to deliver responsive location updates and supports configurable reporting modes for balance between responsiveness and battery life.
 

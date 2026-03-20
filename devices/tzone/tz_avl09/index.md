@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-AVL09
 
+<div className="device-logo">
 ![TZ-AVL09](./logo.jpg)
+</div>
 
 The TZone TZ-AVL09 is a versatile vehicle GPS tracker designed to provide continuous location monitoring and a comprehensive set of alarms and input options. It supports single location queries and continual tracking, and includes alarms such as over speed, low power, geo-fence, tremble, parking, and SOS. The device also offers vehicle control and status features including door open close detection, engine on off detection, and a gradual engine power cut off for emergency immobilization. Communication options described for the unit include GPRS and SMS, and the tracker can work with external peripherals such as RFID readers, cameras, and printers.
 

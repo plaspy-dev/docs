@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G36
 
+<div className="device-logo">
 ![G36](./tracker.png)
+</div>
 
 El G36 es un rastreador GPS compacto en formato de cargador para auto, diseñado para uso dentro del vehículo. Integra reportes continuos de ubicación con un cargador rápido USB dual, lo que permite enchufarlo a la toma de corriente del vehículo y ofrecer tanto funciones de carga como de rastreo. El posicionamiento se obtiene mediante GPS y BeiDou, y en entornos urbanos se complementa con WiFi y LBS; la conectividad celular incorporada transmite datos de ubicación y eventos a plataformas externas.
 

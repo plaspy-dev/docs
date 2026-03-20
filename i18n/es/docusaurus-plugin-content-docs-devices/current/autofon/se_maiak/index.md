@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - SE+ Маяк
 
+<div className="device-logo">
 ![SE+ Маяк](./logo..png)
+</div>
 
 El AutoFon SE+ Маяк es un dispositivo de rastreo GPS compacto diseñado para determinar y transmitir la ubicación de un objeto a su propietario mediante la red GSM. Admite el envío de coordenadas por SMS y el reenvío de datos de posición a un servidor de monitoreo seleccionado a través de GPRS. El modelo está basado en la plataforma de hardware v.6.x e incorpora funciones destinadas a ampliar su utilidad y mejorar el rendimiento en diversas tareas de rastreo.
 

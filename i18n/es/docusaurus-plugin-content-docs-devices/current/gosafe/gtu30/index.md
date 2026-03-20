@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - GTU30
 
+<div className="device-logo">
 ![GTU30](./tracker.jpg)
+</div>
 
 El GTU30 Easy Install es un rastreador GPS compacto y económico diseñado para instalaciones rápidas y telemetría vehicular confiable. Con un receptor multi GNSS y conectividad celular, el GTU30 está pensado para despliegues ágiles en vehículos ligeros, ofreciendo reportes continuos de posición, detección de eventos y una carcasa robusta con protección IP65 adecuada para uso automotriz.
 

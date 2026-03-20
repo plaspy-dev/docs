@@ -21,7 +21,9 @@ keywords:
 
 # Gator - M528
 
+<div className="device-logo">
 ![M528](./logo.jpg)
+</div>
 
 El Gator M528 es un rastreador GPS versátil pensado para la gestión de flotas y aplicaciones antirrobo. Diseñado para su instalación en camiones de obra, autos de alquiler, vehículos logísticos y transporte público, el M528 combina el seguimiento de ubicación con un conjunto de funciones de seguridad y estado del vehículo. El equipo emplea hardware de posicionamiento moderno y conectividad celular para ofrecer actualizaciones frecuentes de ubicación y reportes de eventos hacia una plataforma de monitoreo central.
 

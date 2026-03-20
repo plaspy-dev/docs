@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP9600
 
+<div className="device-logo">
 ![SP9600](./logo.jpg)
+</div>
 
 La serie SkyPatrol SP9600 es un rastreador GPS portátil diseñado para el monitoreo prolongado de activos móviles y de alto valor. Está pensado para rastrear elementos como contenedores de envío, suministros médicos críticos, maquinaria pesada, equipo militar y vehículos durante transporte o almacenamiento. La SP9600 prioriza informes de ubicación fiables durante largos periodos y cuenta con una construcción resistente para entornos operativos exigentes.
 

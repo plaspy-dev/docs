@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G36
 
+<div className="device-logo">
 ![G36](./tracker.png)
+</div>
 
 The G36 is a compact car charger GPS tracker designed for in vehicle use. It combines continuous location reporting with a dual USB fast charger, allowing the device to plug into a vehicle power outlet and provide both charging and tracking functions. Positioning is provided by GPS and BeiDou and is supplemented by WiFi and LBS in urban environments, while built in cellular connectivity relays location and event data to external platforms.
 

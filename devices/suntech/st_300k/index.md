@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 300K
 
+<div className="device-logo">
 ![ST 300K](./logo.jpg)
+</div>
 
 The Suntech ST 300K is a high end GPS tracker designed for fleet management and operational oversight. It includes multiple vehicle interfaces such as RS232 and CANbus along with a 1-Wire interface that supports up to three temperature sensors or an i-Button for driver identification. The device also offers configurable analog and digital inputs and outputs and built in event detection that can generate alerts for situations like collisions, bumps, and crane dragging, plus features such as engine immobilization and panic button detection.
 

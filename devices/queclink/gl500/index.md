@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL500
 
+<div className="device-logo">
 ![GL500](./logo.jpg)
+</div>
 
 The QuecLink GL500 is a compact GPS tracker built for fixed asset tracking. It ships with two user replaceable CR123A lithium batteries and is optimized for extremely low power consumption, enabling standby operation measured in years rather than weeks. The device includes an internal u-blox GPS chipset for reliable position fixes, a built in 3 axis accelerometer to detect movement, internal GSM and GPS antennas, and an optional internal microphone for two way communication when required.
 

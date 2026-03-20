@@ -21,7 +21,9 @@ keywords:
 
 # V-SUN - TLT-3A
 
+<div className="device-logo">
 ![TLT-3A](./logo.jpg)
+</div>
 
 El V-SUN TLT-3A es un rastreador GPS compacto para vehículos, diseñado para una amplia variedad de unidades como automóviles, motocicletas y vehículos eléctricos. Ofrece localización en tiempo real y carga de velocidad, soporta geocercas virtuales y protección de estacionamiento, e incorpora un sensor G de alta sensibilidad para detectar movimientos. El equipo se posiciona como una opción versátil para propietarios y operadores de flotas que necesitan conciencia continua de la ubicación y notificaciones básicas de eventos.
 

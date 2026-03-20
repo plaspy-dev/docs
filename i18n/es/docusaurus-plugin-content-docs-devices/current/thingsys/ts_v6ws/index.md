@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-V6Ws
 
+<div className="device-logo">
 ![TS-V6Ws](./tracker.jpg)
+</div>
 
 El TS-V6Ws es un rastreador GPS vehicular multifuncional pensado para despliegues a nivel mundial. Está construido alrededor de un receptor GNSS de alta sensibilidad que ofrece una captura de posición fiable, y su amplio rango de voltaje de entrada y diseño compacto lo hacen adecuado para una variedad de vehículos. El equipo incorpora conectividad celular moderna con opciones de respaldo y permite configurar los intervalos de reporte según distintos perfiles operativos.
 

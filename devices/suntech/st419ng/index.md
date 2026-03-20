@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST419NG
 
+<div className="device-logo">
 ![ST419NG](./tracker.jpg)
+</div>
 
 The ST419NG Series is a compact GPS tracker designed for reliable Plaspy compatible asset and vehicle monitoring. It combines GPRS and LoRa communications with an integrated 900 MHz RF module to provide flexible connectivity across mixed deployments. The device is described as having a small form factor, an extended backup battery and configurable protocols, making it suitable for scenarios where continuous location reporting and basic telemetry are required.
 

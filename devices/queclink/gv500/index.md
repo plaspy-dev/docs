@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV500
 
+<div className="device-logo">
 ![GV500](./logo.jpg)
+</div>
 
 The QuecLink GV500 is a compact vehicle tracking device that connects through the vehicle OBDII port. It combines a high sensitivity GPS receiver with a quad band cellular subsystem to provide reliable positioning and remote data transmission. The device includes an internal OBD reader to extract vehicle on-board data, a 3-axis accelerometer for motion detection, and an internal battery to support standby and backup operation.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G2C-DB
 
+<div className="device-logo">
 ![G2C-DB](./tracker.png)
+</div>
 
 El G2C-DB es un rastreador GPS resistente y de larga duración diseñado para el monitoreo prolongado de activos como remolques, contenedores y equipos remotos. Combina posicionamiento multi-constelación con gestión de energía optimizada y un paquete de batería reemplazable de 9000 mAh para ofrecer años de funcionamiento en espera. Construido para ambientes exigentes, el dispositivo cuenta con impermeabilización, resistencia a golpes y vibraciones, además de memoria de almacenamiento y reenvío para preservar la continuidad de eventos cuando la cobertura es intermitente.
 

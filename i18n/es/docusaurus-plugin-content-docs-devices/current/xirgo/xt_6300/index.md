@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT-6300
 
+<div className="device-logo">
 ![XT-6300](./logo.jpg)
+</div>
 
 El Xirgo XT-6300 es un rastreador GPS versátil diseñado para diversas aplicaciones de telemática en vehículos y equipos. Integra un motor GPS de alta precisión con antenas embebidas y sensores de movimiento a bordo para ofrecer datos de ubicación confiables y detección básica de desplazamientos. El equipo cuenta además con firmware compatible con scripts y opciones de interfaces para diagnóstico vehicular y conectividad inalámbrica, lo que permite múltiples escenarios de monitoreo y control.
 

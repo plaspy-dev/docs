@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - TTU-2840 XTREME
 
+<div className="device-logo">
 ![TTU-2840 XTREME](./logo.jpg)
+</div>
 
 The CalmAmp TTU-2840 XTREME is a compact, high value tracking unit designed for assets that are normally powered by 12 or 24 volt systems but may be disconnected for extended periods. It includes an internal rechargeable battery pack and a 5.3 Ah internal battery to provide reliable location and communication when external power is unavailable. The device is built for superior GPS performance and supports modern cellular networks, with a small footprint and three configurable inputs and three outputs for flexible integration into asset workflows.
 

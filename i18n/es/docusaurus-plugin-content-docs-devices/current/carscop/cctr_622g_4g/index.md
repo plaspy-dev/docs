@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-622G-4G
 
+<div className="device-logo">
 ![CCTR-622G-4G](./tracker.JPG)
+</div>
 
 El CCTR-622G-4G es un rastreador GPS compacto y portátil diseñado para el seguimiento discreto de personas y activos ligeros. Ofrece seguimiento en tiempo real y funciones de alerta sin necesidad de instalación, lo que lo hace adecuado para trabajadores en exterior, mercancías en tránsito y monitoreo de mascotas, entre otros. El equipo emplea posicionamiento GNSS dual con asistencia para entregar actualizaciones de ubicación rápidas y admite modos de reporte configurables que permiten un balance entre rapidez de respuesta y duración de la batería.
 

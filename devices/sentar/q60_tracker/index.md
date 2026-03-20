@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - Q60 Tracker
 
+<div className="device-logo">
 ![Q60 Tracker](./tracker.png)
+</div>
 
 The Sentar Q60 Tracker is a compact GPS tracker designed for reliable personal and movable asset location monitoring. It combines multi mode positioning, including GPS, BDS, LBS and WiFi, with a small form factor intended for discreet carry or attachment. The Q60 uses an MTK2503 chipset and GSM GPRS connectivity to deliver consistent location updates suitable for child safety, elderly care, personal security, and routine asset checks.
 

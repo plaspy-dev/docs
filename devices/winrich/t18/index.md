@@ -20,7 +20,9 @@ keywords:
 
 # Winrich - T18
 
+<div className="device-logo">
 ![T18](./tracker.jpg)
+</div>
 
 The T18 is a compact GPS tracking watch from Winrich designed primarily for children and elderly users. It combines GPS and LBS positioning with GSM connectivity to provide continuous location updates, an SOS emergency button, two-way voice communication, and history route playback. The form factor and feature set emphasize safety, simplicity, and constant communication between the wearer and their caregivers or guardians.
 

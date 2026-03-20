@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - START S-2013
 
+<div className="device-logo">
 ![START S-2013](./tracker.jpeg)
+</div>
 
 El START S-2013 de Navtelekom es un rastreador vehicular compacto con GLONASS y GPS, pensado para instalaciones discretas y monitoreo sencillo de activos. Su tamaño reducido y las antenas internas lo hacen ideal para vehículos ligeros y equipos donde se prefiere mínimas conexiones externas. El equipo envía posicionamiento y telemetría a través de una conexión GSM 2G, incorpora una batería de respaldo para interrupciones breves de alimentación y cuenta con un puerto USB Type C para configuración y carga.
 

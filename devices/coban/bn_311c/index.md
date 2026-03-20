@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-311C
 
+<div className="device-logo">
 ![BN-311C](./tracker.png)
+</div>
 
 The BN-311C is a compact 2G GPS tracker designed for motorcycle and small vehicle tracking. It is intended for concealed, hardwired installation and continuous connection to a 12–24 V electrical system while providing backup reporting when external power is lost. The device focuses on discreet anti-theft features and remote immobilization options appropriate for riders, owners, and light vehicle operators.
 

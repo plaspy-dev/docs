@@ -20,7 +20,9 @@ keywords:
 
 # Astra Telematics - AT500
 
+<div className="device-logo">
 ![AT500](./tracker.png)
+</div>
 
 The AT500 Mini Asset Tracker from Astra Telematics is a compact, rechargeable GPS asset tracker designed for discreet long life tracking of small and hard to reach assets. It combines multi constellation GNSS positioning, multi network cellular connectivity with modern low power wide area options and Qi wireless charging in a small IP68 enclosure. Motion aware power management and internal components such as an e SIM and internal antennas make the unit suitable for dense deployments and low touch maintenance.
 

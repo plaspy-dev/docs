@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - T8803 PRO
 
+<div className="device-logo">
 ![T8803 PRO](./logo.jpg)
+</div>
 
 El T8803 PRO de TopFly es un rastreador GPS vehicular compacto pensado para el monitoreo confiable de ubicación y la seguridad básica del vehículo. Este modelo PRO se basa en la plataforma T8803A y añade alarmas por remolque y vibración, un sensor G integrado, entrada SOS y cable para micrófono. Su carcasa sellada con protección IP66 y el diseño sin antena externa lo hacen ideal para instalar de forma discreta en autos y furgonetas donde la resistencia a la intemperie y una instalación poco visible son importantes.
 

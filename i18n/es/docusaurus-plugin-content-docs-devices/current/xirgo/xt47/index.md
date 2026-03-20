@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT47
 
+<div className="device-logo">
 ![XT47](./tracker.webp)
+</div>
 
 El XT47 es un rastreador GPS compatible con Plaspy, diseñado para el monitoreo y control de activos remotos de alto valor y construcción robusta. Pensado para grupos electrógenos móviles, maquinaria de construcción, contenedores, remolques y otros equipos especializados, el XT47 ofrece ubicación y telemetría adecuados para despliegues de campo a largo plazo y escenarios con alimentación eléctrica intermitente. Su caja y las opciones de E/S están preparadas para resistir condiciones exteriores y ofrecer control y reportes prácticos para activos a distancia.
 

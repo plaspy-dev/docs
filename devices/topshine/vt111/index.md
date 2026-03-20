@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - VT111
 
+<div className="device-logo">
 ![VT111](./logo.jpg)
+</div>
 
 The TopShine VT111 is a compact mini GPS vehicle tracker designed to deliver cost effective tracking and vehicle security. It combines standard tracking capabilities with car alarm functions and supports features such as Arm/Disarm by SMS or call, movement and door open alerts, and optional RFID based automatic arming. Its small footprint makes it easy to conceal and suitable for a wide range of vehicle types where discreet monitoring is desirable.
 

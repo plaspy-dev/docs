@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - GF200LS
 
+<div className="device-logo">
 ![GF200LS](./tracker.png)
+</div>
 
 The GF200LS is a disposable long-standby asset GPS tracker from CanTrack built for low maintenance, long-term deployments. Designed for heavy duty vehicles, cargo containers, and loaned or leased units, the GF200LS combines an efficient low power design with a strong magnet mount, waterproof housing, and a light sensor for tamper detection. When configured for low reporting rates, the device can deliver up to three years of standby operation, making it suitable for assets that are infrequently accessed.
 

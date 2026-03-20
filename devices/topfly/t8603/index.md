@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - T8603
 
+<div className="device-logo">
 ![T8603](./logo.jpg)
+</div>
 
 The TopFly T8603 is a compact and versatile GPS tracker designed to help monitor and protect valuable assets. It offers plug and play setup, internal GSM and GPS antennas, and straightforward SIM card insertion. The device emphasizes low energy use and reduced GPRS consumption, and includes smart power on and off behavior, sleep mode, and other power saving features to extend operational periods.
 

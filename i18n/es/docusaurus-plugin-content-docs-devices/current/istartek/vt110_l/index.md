@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT110-L
 
+<div className="device-logo">
 ![VT110-L](./tracker.png)
+</div>
 
 El VT110-L es un dispositivo de rastreo vehicular 4G y de tamaño compacto fabricado por iStartek, pensado para ofrecer localización confiable en tiempo real y reporte de eventos. Combina posicionamiento GNSS de alta precisión con conmutación a estaciones base celulares para mantener el flujo de telemetría en entornos variados. Su tamaño reducido y sus entradas y salidas diseñadas para uso automotriz hacen del VT110-L una opción práctica tanto para gestión de flotas como para monitoreo de vehículos particulares.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4505
 
+<div className="device-logo">
 ![ST4505](./tracker.jpg)
+</div>
 
 El Suntech ST4505 es un rastreador OBD-II de tipo enchufar y listo diseñado para la telemetría vehicular moderna y la gestión de flotas. Ofrece posicionamiento continuo basado en GNSS, diagnóstico vehicular a través del conector J1962 OBD-II y telemetría pensada para soportar el seguimiento en tiempo real, el análisis del comportamiento del conductor y la respuesta rápida ante incidentes. Fabricado para uso dentro del vehículo, la familia ST4505 incluye variantes con soporte para sensores Bluetooth y detección opcional de interferencias para ampliar sus capacidades.
 

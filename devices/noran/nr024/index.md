@@ -20,7 +20,9 @@ keywords:
 
 # Noran - NR024
 
+<div className="device-logo">
 ![NR024](./logo.jpg)
+</div>
 
 The Noran NR024 is an advanced vehicle GPS tracker designed for fleet use. It combines satellite based positioning with GSM wireless communication and an integrated digital camera to provide continuous location reporting together with image capture. The device also includes functional features such as fuel monitoring, audio monitoring, geo fencing, over speed alerts, SOS, and engine remote control, which together support a wide range of fleet management needs.
 

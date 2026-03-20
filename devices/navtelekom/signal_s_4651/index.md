@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SIGNAL S-4651
 
+<div className="device-logo">
 ![SIGNAL S-4651](./tracker.webp)
+</div>
 
 The SIGNAL S-4651 is a professional grade LTE 4G GPS GLONASS vehicle tracker built for demanding fleet management and telematics deployments. It combines cellular connectivity with external GNSS and GSM antenna support, dual SIM capability and a set of vehicle interfaces to capture location and on board telemetry. The unit is designed to deliver reliable real time tracking, local logging and continuous data capture for commercial vehicles and transport applications.
 

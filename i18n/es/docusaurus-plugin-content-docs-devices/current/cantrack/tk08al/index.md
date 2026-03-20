@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - TK08AL
 
+<div className="device-logo">
 ![TK08AL](./tracker.jpg)
+</div>
 
 El CanTrack TK08AL es un rastreador GPS vehicular 4G cableado, diseñado para ofrecer seguridad confiable y gestión de conductores. Basado en hardware celular y GNSS, el TK08AL entrega reportes continuos de ubicación, detección de movimiento e ignición, alertas SOS y por exceso de velocidad, además de protección ante cortes de energía mediante una batería interna de respaldo. Su combinación de identificación del conductor y opciones de inmovilizador lo hace adecuado para múltiples flujos de trabajo de seguridad y operación en flotas.
 

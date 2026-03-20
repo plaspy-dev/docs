@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK710-CatM
 
+<div className="device-logo">
 ![LK710-CatM](./tracker.jpg)
+</div>
 
 The LK710-CatM is a compact, waterproof Cat M GPS tracker designed for reliable deployments in fleet management and vehicle security programs. Its IP68 enclosure and small form factor make it well suited for discreet mounting on cars, motorbikes, e-bikes and rental vehicles, while integrated GPS and GSM antennas provide positioning and cellular connectivity for continuous tracking and basic telemetry.
 

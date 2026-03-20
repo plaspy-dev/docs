@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - D09
 
+<div className="device-logo">
 ![D09](./tracker.jpg)
+</div>
 
 El GOTOP D09 es un rastreador GPS magnético portátil para activos, diseñado para monitoreo seguro y recuperación rápida de vehículos, remolques y maquinaria industrial. Construido para entornos exigentes, el D09 combina posicionamiento multimodal con un imán potente y una carcasa impermeable que facilita un montaje discreto y visibilidad continua de la ubicación. Está disponible en tres capacidades de batería recargable y ofrece amplia cobertura celular para ajustar autonomía y alcance según la necesidad de despliegue.
 

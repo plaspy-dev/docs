@@ -21,7 +21,9 @@ keywords:
 
 # ArkNav - AT-5000
 
+<div className="device-logo">
 ![AT-5000](./logo.jpg)
+</div>
 
 El ArkNav AT-5000 es un rastreador GPS robusto diseñado para despliegues a largo plazo en entornos exigentes. Combina posicionamiento GPS y comunicación GSM con una batería recargable de gran capacidad, una carcasa impermeable con clasificación IP67 y un diseño resistente al calor que tolera altas temperaturas ambientales. Las opciones de activación incluyen temporizador y detección de movimiento; además, el equipo admite solicitudes de ubicación remotas y enlaces SMS con mapas para acceder de forma práctica a la información de posición.
 

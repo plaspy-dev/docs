@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - EZ2
 
+<div className="device-logo">
 ![EZ2](./tracker.png)
+</div>
 
 El CAREU EZ2 es un rastreador vehicular compacto diseñado para la gestión de flotas y el monitoreo de activos. Pensado para ofrecer seguimiento en tiempo real y telemetría del vehículo, el EZ2 soporta conectividad 4G LTE con retroceso a 2G y obtiene diagnósticos del vehículo mediante U1Lite además de interfaces CAN y OBD II. Entre sus funciones se incluyen monitoreo de combustible, reporte de odómetro y RPM, diagnóstico de temperatura del motor, inmovilización antirrobo y compatibilidad con periféricos como lectores RFID y sensores de temperatura.
 

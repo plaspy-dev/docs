@@ -21,7 +21,9 @@ keywords:
 
 # Bofan - B5
 
+<div className="device-logo">
 ![B5](./tracker.png)
+</div>
 
 El Bofan B5 es un rastreador GPS compacto para montaje en vehículo, diseñado para el monitoreo y la seguridad de flotas de forma continua las 24/7. Ofrece posicionamiento GNSS estable, alertas configurables de geocercas, control remoto del motor y análisis de tiempo de funcionamiento, junto con un acelerómetro interno y antenas de alta ganancia integradas para una recepción fiable en despliegues típicos en vehículos. El equipo también incorpora memoria flash a bordo para el registro temporal de viajes y modos de ahorro de datos que ayudan a gestionar el uso de la red celular.
 

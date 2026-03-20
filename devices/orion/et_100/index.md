@@ -20,7 +20,9 @@ keywords:
 
 # Orion - ET-100
 
+<div className="device-logo">
 ![ET-100](./logo.jpg)
+</div>
 
 The Orion ET-100 is a compact GPS tracker designed for asset management and security. It is suitable for a wide range of scenarios, from tracking personal valuables to managing vehicle fleets and monitoring the safety of family members. The ET-100 emphasizes discreet placement thanks to its lightweight form factor and provides continuous location visibility to help users know where their assets are at all times.
 

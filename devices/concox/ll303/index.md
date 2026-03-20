@@ -20,7 +20,9 @@ keywords:
 
 # Concox - LL303
 
+<div className="device-logo">
 ![LL303](./logo..png)
+</div>
 
 The Concox LL303 is a solar powered 4G GPS tracker engineered for monitoring construction vehicles and vessels. Designed with a rugged IP67 rated enclosure, an integrated solar panel and magnetic charging option, the LL303 targets deployments that need extended standby time and reliable operation in harsh outdoor environments. Its multiple working modes and support for peripheral accessories such as Bluetooth devices and an optional RFID reader make the device adaptable to a range of asset tracking scenarios.
 

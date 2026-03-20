@@ -20,7 +20,9 @@ keywords:
 
 # DCT - Syrus 3G+ BT
 
+<div className="device-logo">
 ![Syrus 3G+ BT](./tracker.png)
+</div>
 
 The Syrus 3G+ BT is a rugged telematics gateway from DCT designed for extensible IoT and M2M deployments. Intended for fleet management and industrial monitoring, the device supports Bluetooth 4.1 Smart Ready for low power sensor pairing, multiple physical accessory ports for telemetry and peripherals, and an optional Iridium Satcom accessory for satellite backup. As a hardware gateway, it consolidates location and sensor data at the edge for reliable tracking and operational visibility.
 

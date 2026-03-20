@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D51
 
+<div className="device-logo">
 ![D51](./tracker.png)
+</div>
 
 El Sentar D51 es un reloj inteligente 4G compacto para niños, pensado para la seguridad infantil y la comunicación entre la familia. Como rastreador GPS portátil, integra posicionamiento multimodal con conectividad celular para proporcionar a los cuidadores actualizaciones regulares de ubicación y una vía de SOS simple para emergencias. El dispositivo está diseñado para el uso diario y la interacción básica, ofreciendo pantalla táctil, una cámara pequeña y funciones de comunicación orientadas al uso supervisado.
 

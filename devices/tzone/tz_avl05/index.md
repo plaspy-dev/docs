@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-AVL05
 
+<div className="device-logo">
 ![TZ-AVL05](./logo.jpg)
+</div>
 
 The TZone TZ-AVL05 is a compact and versatile GPS tracker designed for real-time vehicle location and status monitoring. It is presented as a solution suited to personal vehicles, fleet assets, and general asset tracking needs. The device includes practical monitoring features such as over-speed, low power, and geo-fence alarms, plus roaming capability to reduce costs when operating across regions.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - D08
 
+<div className="device-logo">
 ![D08](./logo..jpg)
+</div>
 
 El GOTOP D08 es un rastreador OBD 4G compacto pensado para la localización y supervisión de vehículos. Soporta bandas de frecuencia 4G LTE y 2G, y combina varios métodos de posicionamiento —GPS, BeiDou, WiFi y LBS— para ofrecer mayor precisión en la ubicación. El equipo incluye diversos modos de alarma como geocerca, corte de alimentación, batería baja, vibración y alertas por desconexión, y permite seguimiento en tiempo real así como reproducción histórica de rutas.
 

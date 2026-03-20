@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - C32: rastreador GPS compacto
 
+<div className="device-logo">
 ![C32](./logo..jpg)
+</div>
 
 El CanTrack C32 es un rastreador GPS compacto y versátil diseñado para vehículos, motocicletas y bicicletas eléctricas. Desarrollado para operar en un amplio rango de voltaje, ofrece reportes de ubicación en tiempo real y monitoreo a bordo adecuados para flotas mixtas y vehículos personales. El equipo también permite control remoto del motor y reporte del estado del vehículo, lo que lo hace una opción práctica para seguridad básica y supervisión operativa.
 

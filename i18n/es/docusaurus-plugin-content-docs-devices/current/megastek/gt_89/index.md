@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - GT-89
 
+<div className="device-logo">
 ![GT-89](./logo.jpg)
+</div>
 
 El Megastek GT-89 es un rastreador GPS compacto y versátil diseñado para ofrecer información de ubicación en tiempo real de forma confiable. Integra un chipset GPS SiRF Star III junto con un módulo GSM SIM900 y soporta bandas quad band para una amplia cobertura celular. Con dimensiones reducidas de 86 x 44 x 22 mm y un peso neto de 65 g, el GT-89 facilita su instalación en escenarios móviles y portátiles, y ofrece opciones como modos de rastreo múltiple, ahorro de energía y registro de datos en el propio dispositivo.
 

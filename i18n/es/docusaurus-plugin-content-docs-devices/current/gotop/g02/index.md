@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G02
 
+<div className="device-logo">
 ![G02](./logo..jpg)
+</div>
 
 El GOTOP G02 es un rastreador GPS 4G LTE compacto y resistente al agua (IP67) diseñado para motocicletas, bicicletas eléctricas y automóviles. Su tamaño reducido y bajo peso permiten instalarlo de forma discreta en distintos vehículos. El equipo ofrece seguimiento por SMS y 4G LTE, detección ACC para conocer el estado de encendido y funciona en un amplio rango de voltaje, lo que lo hace compatible con diversos sistemas eléctricos vehiculares. La certificación IP67 asegura protección ante humedad y uso en exteriores exigentes.
 

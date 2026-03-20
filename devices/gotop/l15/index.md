@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - L15
 
+<div className="device-logo">
 ![L15](./tracker.jpg)
+</div>
 
 The GOTOP L15 is a wearable 4G pendant GPS tracker designed for eldercare and personal emergency response. Compact and rugged, the device combines cellular connectivity with hybrid positioning support and built in voice communication to provide real time tracking, one touch SOS alerts and two way calling in a form factor intended for everyday wear.
 

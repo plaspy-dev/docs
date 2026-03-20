@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TV-690
 
+<div className="device-logo">
 ![TV-690](./logo.jpg)
+</div>
 
 The GOTOP TV-690 is a compact personal remote positioning device that combines a GPS module with GSM GPRS connectivity to provide accurate location information. Designed for straightforward tracking, the TV-690 returns location coordinates that can be viewed on mapping services and is positioned for applications where portability and reliable position reporting matter.
 

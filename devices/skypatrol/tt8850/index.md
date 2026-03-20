@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - TT8850
 
+<div className="device-logo">
 ![TT8850](./logo.jpg)
+</div>
 
 The SkyPatrol TT8850 is a compact live GPS tracking device designed for discreet and covert applications. Its sleek, low profile makes it suited to situations where visibility must be minimized while maintaining continuous location monitoring. The TT8850 combines long run time on a single charge, an IPX5 water resistance rating, an integrated 3D motion sensor, and an emergency SOS button, making it a practical choice for extended, unobtrusive tracking needs.
 

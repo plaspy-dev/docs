@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - J16W
 
+<div className="device-logo">
 ![J16W](./tracker.jpg)
+</div>
 
 The J16W is a rugged IP67 rated GPS tracker purpose built for vehicle installations. Compact and lightweight, the device pairs a 4G LTE CAT1 modem with 2G fallback and a high sensitivity GNSS receiver to provide consistent positioning and telemetry in demanding environments. The J16W family includes a base unit with ACC and relay control and a J16Wm variant that adds microphone and SOS functionality for emergency workflows.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JV200
 
+<div className="device-logo">
 ![JV200](./logo.jpg)
+</div>
 
 The Concox JV200 is a vehicle GPS tracker designed for reliable real time online tracking. Built for vehicle applications, the JV200 uses GSM GPRS GPS wireless communication and includes AGPS for fast positioning, delivering a cold start time under 10 seconds. Its compact form and robust construction make it suitable for continuous use in a variety of vehicle environments.
 

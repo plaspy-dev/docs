@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT150
 
+<div className="device-logo">
 ![VT150](./tracker.png)
+</div>
 
 The VT150 is a compact, rugged 2G GPS tracker from iStartek designed for reliable vehicle monitoring. As a member of a proven device family, it provides continuous real time tracking with high precision GNSS position reporting, on device logging and a broad set of alarms and remote control features. Its small form factor and IP66 protection make it suitable for commercial vehicles and security focused installations.
 

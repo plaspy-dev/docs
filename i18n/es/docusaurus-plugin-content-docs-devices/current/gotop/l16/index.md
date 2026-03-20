@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - L16
 
+<div className="device-logo">
 ![L16](./tracker.jpg)
+</div>
 
 El GOTOP L16 es un reloj inteligente GPS compacto diseñado para la seguridad personal y la supervisión diaria. Como dispositivo wearable para usuarios vulnerables, el L16 combina posicionamiento multimodal, telemetría de salud, llamadas de voz bidireccionales y una alarma SOS de un solo botón en un formato reducido. Su pantalla TFT de 1.0 pulgada y su certificación IP67 lo hacen apto para uso diario, mientras que ofrece a cuidadores y equipos de monitoreo información continua sobre el estado del usuario.
 

@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV620MG
 
+<div className="device-logo">
 ![GV620MG](./tracker.png)
+</div>
 
 El QuecLink GV620MG es un rastreador GPS robusto pensado para remolques y vehículos pesados como cisternas, unidades refrigeradas y camiones de plataforma. Diseñado para soportar condiciones exigentes de transporte, el equipo ofrece reporte de posición GNSS, estado de entradas e ignición, detección de eventos por acelerómetro y datos de sensores BLE, todo sobre redes LTE Cat M1 y NB2 con respaldo 2G. Su carcasa sellada y diseño con antena integrada ayudan a mantener los activos visibles incluso en entornos adversos.
 

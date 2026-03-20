@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - GX6
 
+<div className="device-logo">
 ![GX6](./logo..jpg)
+</div>
 
 El GOTOP GX6 (GX6-4G) es un rastreador vehicular 4G pensado para soluciones de gestión de flotas y localización de vehículos. Ofrece posicionamiento multiconstelación (GPS, BD, LBS) con una precisión declarada de alrededor de 5 metros y un conjunto amplio de funciones orientadas a vehículos, como detección de encendido (ACC), corte remoto de alimentación o combustible, detección de corriente continua (DC), alarma por corte de energía, alarma por exceso de velocidad, monitoreo de audio remoto, control remoto de puertas y geocercas. El equipo está diseñado con criterios industriales, disponiendo de un amplio rango de tensión de entrada, carcasa metálica de pequeño tamaño y batería de respaldo para mantener el rastreo ante pérdidas de energía.
 

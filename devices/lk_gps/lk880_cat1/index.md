@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK880 Cat1
 
+<div className="device-logo">
 ![LK880 Cat1](./tracker.jpg)
+</div>
 
 The LK880 Cat1 from LK-GPS is a compact, rugged GPS tracker designed specifically for cats and dogs. It provides continuous cellular connectivity and delivers real time location updates, route history, and activity summaries while being built to withstand everyday outdoor use. The device combines location awareness with pet focused features to support recovery, monitoring and guided behavior control.
 

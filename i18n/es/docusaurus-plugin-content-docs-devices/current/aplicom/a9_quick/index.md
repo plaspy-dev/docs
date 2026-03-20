@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - A9 Quick
 
+<div className="device-logo">
 ![A9 Quick](./logo.jpg)
+</div>
 
 El Aplicom A9 Quick es una unidad telemática portátil para vehículos, pensada para rastreo y localización con despliegue rápido. Se conecta en el encendedor del vehículo para facilitar su traslado entre unidades sin complicaciones. Ofrece la funcionalidad preconfigurada del A9 NEX y admite un teclado externo de 3 botones llamado Aplicom 3PAD para entrada y reportes sencillos por parte del conductor.
 

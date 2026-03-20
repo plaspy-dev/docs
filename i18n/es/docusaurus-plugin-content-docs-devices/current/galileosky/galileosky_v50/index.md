@@ -21,7 +21,9 @@ keywords:
 
 # GalileoSky - GALILEOSKY V5.0
 
+<div className="device-logo">
 ![GALILEOSKY V5.0](./logo.jpg)
+</div>
 
 El GALILEOSKY V5.0 de GalileoSky es un rastreador GPS de primer nivel diseñado para ofrecer fiabilidad y despliegues versátiles. Está concebido para admitir una amplia conectividad externa, integrando hasta 17 sensores digitales y diversos dispositivos auxiliares. Con capacidades orientadas al monitoreo detallado y a un uso operativo amplio, el V5.0 es una opción adecuada para organizaciones que requieren mayor visibilidad y control sobre activos móviles y fijos.
 

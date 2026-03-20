@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT-4500
 
+<div className="device-logo">
 ![XT-4500](./logo.jpg)
+</div>
 
 El Xirgo XT-4500 es un módem GPRS de muy bajo consumo con receptor GPS integrado y gestión de energía a bordo, diseñado para el rastreo y control de activos de alto valor que carecen de suministro eléctrico constante. Compacto y pensado para su propósito, el XT-4500 combina un controlador de batería recargable y un microprocesador de 32 bits con un algoritmo de gestión de energía para prolongar la vida útil en campo. Sus antenas integradas para celular y GPS, y la opción de carcasa resistente a la intemperie, lo hacen adecuado para diversos escenarios de seguimiento de activos remotos.
 

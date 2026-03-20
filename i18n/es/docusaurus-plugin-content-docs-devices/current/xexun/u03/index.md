@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - U03
 
+<div className="device-logo">
 ![U03](./tracker.png)
+</div>
 
 El Xexun U03 es una insignia compacta diseñada para posicionamiento interior de alta precisión y seguimiento de personal en instalaciones gestionadas. Basado en la medición por ultra wideband (UWB) y con un módulo RFID integrado, el U03 ofrece ubicaciones con precisión centimétrica y datos de presencia en tiempo real para entornos donde el GPS no es fiable. Su formato tipo placa, resistencia al agua y funciones de seguridad lo hacen apto para uso continuo en fábricas, hospitales, escuelas y otros espacios supervisados.
 

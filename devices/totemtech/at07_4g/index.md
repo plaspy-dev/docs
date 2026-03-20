@@ -20,7 +20,9 @@ keywords:
 
 # Totemtech - AT07-4G
 
+<div className="device-logo">
 ![AT07-4G](./tracker.jpg)
+</div>
 
 The Totemtech AT07-4G is a compact, rugged GPS tracker built for demanding vehicle and asset deployments. It is designed to provide reliable fleet management and anti-theft protection through continuous location reporting, event-driven alerts and support for external telemetry and peripherals such as fuel meters, door and ignition status sensors, and emergency SOS inputs.
 

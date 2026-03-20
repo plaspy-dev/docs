@@ -20,7 +20,9 @@ keywords:
 
 # Totemtech - AT05
 
+<div className="device-logo">
 ![AT05](./logo.jpg)
+</div>
 
 The Totemtech AT05 is a compact GPS tracker designed for versatile asset and vehicle monitoring. It combines location reporting with movement status monitoring via a 3 axis digital accelerometer, supports real time tracking and history trace review, and provides a range of alarm types to notify users of events such as overspeed, low power, SOS, and power cut. The device also supports firmware upgrades over the air and accepts a wide range of power inputs with over voltage protection, making it suitable for varied deployments.
 

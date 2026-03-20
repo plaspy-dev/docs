@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT709A
 
+<div className="device-logo">
 ![JT709A](./tracker.jpg)
+</div>
 
 The JT709A Smart Electronic Lock is a purpose built asset security device that combines positioning and access control to protect long term cargo shipments. It integrates triple positioning using BeiDou GPS and LBS with local access methods such as Bluetooth and RFID to provide tamper resistant location and event data for sealed containers, trailers, and other high value assets. The JT709A is designed for industrial logistics with rugged IP67 protection, extended standby life, and a mechanical life suited for frequent unlocking cycles.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - TK-201
 
+<div className="device-logo">
 ![TK-201](./logo.jpg)
+</div>
 
 El Xexun TK201 es un rastreador GPS personal compacto y versátil diseñado para llevarse encima. Su tamaño reducido facilita su transporte o uso como accesorio, por lo que resulta adecuado para el monitoreo de niños, adultos mayores o mascotas. El dispositivo reporta ubicación en tiempo real, permite monitoreo de voz, ofrece reproducción de rutas y cuenta con variadas alertas configurables para mejorar la seguridad y la visibilidad de la situación.
 

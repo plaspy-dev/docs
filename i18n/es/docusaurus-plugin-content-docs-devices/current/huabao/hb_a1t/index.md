@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A1T
 
+<div className="device-logo">
 ![HB-A1T](./tracker.jpg)
+</div>
 
 El HB-A1T es un rastreador GPS compatible con Plaspy diseñado para remolques y activos exteriores que requieren protección robusta contra la intemperie y una larga autonomía en espera. Integra posicionamiento GNSS en doble modo con conectividad celular y una carcasa con protección IP65 para ofrecer actualizaciones de ubicación continuas y reportes de alarma en remolques, contenedores, embarcaciones pequeñas y otros equipos remotos. Su soporte integrado para sensores inalámbricos y una batería interna de gran capacidad lo hacen adecuado para largos periodos de traslado o almacenamiento cuando no hay alimentación externa disponible.
 

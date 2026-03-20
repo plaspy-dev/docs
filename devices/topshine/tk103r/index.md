@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - TK103R
 
+<div className="device-logo">
 ![TK103R](./logo.jpg)
+</div>
 
 The TopShine TK103R is a compact GPS vehicle tracker that integrates car alarm functionality and driver identification. It is designed to offer tracking and vehicle security in a small form factor, with features such as automatic arm and disarm, compatibility with the vehicle's original remote, RFID driver ID, location reporting, and a range of theft and movement alerts. The TK103R can report location and status via SMS or a tracking platform and provides options for automatic actions when certain conditions are met.
 

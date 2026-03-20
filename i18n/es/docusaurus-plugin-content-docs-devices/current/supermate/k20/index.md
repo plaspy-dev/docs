@@ -21,7 +21,9 @@ keywords:
 
 # Supermate - K20
 
+<div className="device-logo">
 ![K20](./logo.jpg)
+</div>
 
 El Supermate K20 es un rastreador GPS compacto y versátil diseñado para cubrir una amplia variedad de necesidades de seguimiento. Ofrece monitoreo continuo de ubicación y puede instalarse de forma discreta en vehículos, equipos o pertenencias personales. El K20 prioriza la portabilidad y el sigilo, a la vez que incorpora funciones como seguimiento en vivo, geocercas y un botón SOS para apoyar casos de seguridad y recuperación.
 

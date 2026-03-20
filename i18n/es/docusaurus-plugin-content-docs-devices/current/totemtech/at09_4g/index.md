@@ -21,7 +21,9 @@ keywords:
 
 # Totemtech - AT09-4G: Rastreador 4G resistente para vehículos
 
+<div className="device-logo">
 ![AT09-4G](./tracker.jpg)
+</div>
 
 El Totemtech AT09-4G es un rastreador GPS 4G de construcción robusta, pensado para entornos vehiculares exigentes como automóviles, camiones, remolques y maquinaria pesada. Integra posicionamiento GNSS multiconstelación con sensores de estado del vehículo y amplio soporte de periféricos, lo que lo hace apropiado para gestión de flotas, prevención de robo y visibilidad operativa en aplicaciones comerciales e industriales.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - BT-821C
 
+<div className="device-logo">
 ![BT-821C](./tracker.jpg)
+</div>
 
 El GlobalSat BT-821C es un receptor GNSS Bluetooth compacto diseñado para llevar posicionamiento satelital de alto rendimiento a teléfonos inteligentes, tablets, laptops y otros dispositivos con Bluetooth. Combina un chipset MediaTek de alto rendimiento con una antena de ganancia elevada incorporada y transmite formatos GNSS estándar para entregar ubicación precisa a los dispositivos anfitriones. El equipo está pensado para uso móvil en campo, con indicadores LED claros y una batería recargable para operación prolongada.
 

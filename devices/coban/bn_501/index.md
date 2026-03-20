@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-501
 
+<div className="device-logo">
 ![BN-501](./tracker.png)
+</div>
 
 The BN-501 is a compact, jewelry style GPS tracker designed for discreet wearable safety and concealed asset tracking. It combines satellite positioning with WiFi assisted fixes, BLE 5.0 and multi network cellular communications to provide regular location updates, on device alarms and configurable power modes suited to extended use. The form factor and feature mix make it appropriate where comfort and concealment are priorities.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMC250
 
+<div className="device-logo">
 ![FMC250](./tracker.png)
+</div>
 
 El FMC250 es un rastreador GPS vehicular diseñado para despliegues telemáticos exigentes. Pensado para su instalación en automóviles, camiones, autobuses y maquinaria especial, el FMC250 combina posicionamiento GNSS con una carcasa resistente IP67 y conectividad celular para ofrecer visibilidad en tiempo real y recolección de datos extendida en operaciones de flota.
 

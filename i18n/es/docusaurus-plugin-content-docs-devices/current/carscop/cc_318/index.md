@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CC-318
 
+<div className="device-logo">
 ![CC-318](./tracker.JPG)
+</div>
 
 El CC-318 es un rastreador vehicular compacto pensado para entornos de alquiler de autos, car sharing y gestión de flotas. Diseñado para proporcionar reportes de posición continuos y control remoto del vehículo, combina posicionamiento GNSS con conectividad celular y salidas de control para soportar rastreo en tiempo real, inmovilización remota y funciones básicas antirrobo. Además, incluye una batería interna de respaldo y una alarma por corte de alimentación para mantener visibilidad cuando se pierde la alimentación principal.
 

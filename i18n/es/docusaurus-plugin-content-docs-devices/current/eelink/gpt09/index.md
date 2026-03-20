@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT09
 
+<div className="device-logo">
 ![GPT09](./logo.jpg)
+</div>
 
 El EElink GPT09 es un rastreador GPS compacto pensado para el monitoreo de ubicaciones a largo plazo. Combina soporte celular cuatribanda para amplia cobertura, una batería de alta capacidad 14500mAh de cloruro de tionilo que brinda una autonomía prolongada, y posicionamiento GPS junto con LBS y asistencia A‑GPS para obtener fijaciones de posición más rápidas. El dispositivo cuenta además con una potente opción de montaje magnético y una construcción robusta con certificación IP67, lo que lo hace fiable para uso en exteriores.
 

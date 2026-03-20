@@ -21,7 +21,9 @@ keywords:
 
 # Winrich - TK102
 
+<div className="device-logo">
 ![TK102](./logo.jpg)
+</div>
 
 El Winrich TK102B es un rastreador GPS compacto que combina posicionamiento satelital con un respaldo de localización vía GSM. Diseñado para seguimiento continuo en distintos entornos, el TK102B cubre bandas GSM a nivel mundial y puede cambiar a posicionamiento por GSM cuando la señal GPS no está disponible. Además, ofrece respuestas de dirección en idioma local, sensor de choque integrado, soporte para tarjeta TF para almacenar rutas y una función de configuración automática del APN para simplificar la conexión a la red.
 

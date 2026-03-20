@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G909
 
+<div className="device-logo">
 ![G909](./logo..jpg)
+</div>
 
 The GOTOP G909 is a compact mini asset GPS tracker built for vehicle tracking and general asset monitoring. It combines GPS and BDS satellite navigation with 4G LTE FDD wireless communication and a high integration full built in antenna. The device is designed to provide reliable positioning and to operate with intelligent power saving modes suitable for continuous tracking scenarios.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TopTen - TK228
 
+<div className="device-logo">
 ![TK228](./Logo.jpg)
+</div>
 
 The TopTen TK228 is a versatile vehicle GPS tracker that combines location tracking with a suite of security and diagnostic features. Designed for direct connection to vehicles with an OBDII port, the TK228 provides integrated GPS location, RFID car alarm control, Bluetooth diagnostics, a wireless immobilizer, and multiple alarm conditions to help protect vehicles and monitor their operational state.
 

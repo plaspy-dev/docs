@@ -21,7 +21,9 @@ keywords:
 
 # Laipac - Kamel S
 
+<div className="device-logo">
 ![Kamel S](./tracker.png)
+</div>
 
 El Kamel S es un rastreador GPS compacto y autónomo diseñado para el monitoreo encubierto y prolongado de activos con o sin alimentación eléctrica. Pensado para uso exterior, combina posicionamiento GNSS y conectividad 4G LTE con una batería Li‑Ion polimérica de alta capacidad y una carcasa con clasificación IP68, ofreciendo visibilidad de ubicación confiable para remolques, contenedores, maquinaria de construcción y equipos en alquiler.
 

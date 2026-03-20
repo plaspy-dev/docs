@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - E-Маяк IP
 
+<div className="device-logo">
 ![E-Маяк IP](./tracker.jpg)
+</div>
 
 The AutoFon E‑Маяк IP is a compact, autonomous GSM/GPS tracker designed for discreet long term location monitoring and alarm reporting. It pairs a small sealed enclosure with low power electronics and a capacious battery to support extended unattended operation, and includes on demand audio monitoring plus dedicated alarm controls and an SOS button for incident signaling. The device is intended for vehicles, cargo, boats and other remote objects that require anti theft protection and simple telemetry oversight.
 

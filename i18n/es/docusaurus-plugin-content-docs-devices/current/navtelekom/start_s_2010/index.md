@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - START S-2010
 
+<div className="device-logo">
 ![START S-2010](./tracker.jpeg)
+</div>
 
 El START S-2010 es un rastreador GPS compacto de Navtelekom pensado para monitoreo sencillo de vehículos y activos en instalaciones cableadas. Integra un receptor GLONASS/GPS de alta sensibilidad y una antena GSM en una carcasa reducida, proporcionando reportes de ubicación y telemetría en tiempo real cuando está alimentado de forma permanente. El equipo está optimizado para vehículos ligeros de uso comercial y equipos fijos donde se prioriza un bajo impacto físico y una instalación limpia.
 

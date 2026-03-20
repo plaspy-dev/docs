@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - TR-350
 
+<div className="device-logo">
 ![TR-350](./tracker.jpg)
+</div>
 
 The TR-350 is a compact personal GPS tracker from GlobalSat designed for reliable safety monitoring of seniors, children and lone workers. It is built as a wearable device for mobile personal emergency response systems, delivering real-time location updates along with one-button SOS, two-way voice, motion and fall advisories, and status indicators for battery and connectivity. The TR-350 combines high-sensitivity GNSS with Wi‑Fi positioning and Bluetooth LE beacon scanning to improve location accuracy both outdoors and indoors.
 

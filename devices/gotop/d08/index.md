@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D08
 
+<div className="device-logo">
 ![D08](./logo..jpg)
+</div>
 
 The GOTOP D08 is a compact 4G OBD GPS tracker designed for vehicle location and monitoring. It supports both 4G LTE and 2G frequency bands and combines multiple positioning methods including GPS, BeiDou, WiFi, and LBS to provide location awareness. The device also includes a range of alarm modes such as electronic fence, power failure, low battery, vibration, and offline alerts, and it supports real-time tracking as well as historical route playback.
 

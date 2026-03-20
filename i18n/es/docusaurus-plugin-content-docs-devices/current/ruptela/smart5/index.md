@@ -21,7 +21,9 @@ keywords:
 
 # Ruptela - Smart5
 
+<div className="device-logo">
 ![Smart5](./tracker.png)
+</div>
 
 Smart5 es un rastreador GPS compacto y resistente, diseñado para la gestión sólida de flotas e integración detallada de datos vehiculares. Ofrece conectividad celular LTE Cat 1 con conmutación a 2G para un rastreo en tiempo real confiable en amplias áreas de cobertura. Capaz de leer datos CANbus y OBD, incluido CustomCAN, Smart5 captura información diagnóstica y del estado del vehículo, y dispone de opciones de carcasa para instalaciones discretas o entornos exigentes.
 

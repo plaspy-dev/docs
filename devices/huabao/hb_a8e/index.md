@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A8E
 
+<div className="device-logo">
 ![HB-A8E](./logo.jpg)
+</div>
 
 The Huabao HB-A8E is a compact mini GPS vehicle tracker designed for discreet mounting and straightforward use. It is described as offering stable performance and easy installation, making it suitable for private vehicles and motorcycles where a small footprint and unobtrusive placement are important. Key features highlighted by the manufacturer include real time GPS positioning, ignition detection, and a built in antenna to support reliable signal reception.
 

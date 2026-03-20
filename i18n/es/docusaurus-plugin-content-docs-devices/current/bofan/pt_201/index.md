@@ -21,7 +21,9 @@ keywords:
 
 # Bofan - PT-201
 
+<div className="device-logo">
 ![PT-201](./logo.jpg)
+</div>
 
 El Bofan PT-201 es un rastreador compacto GPS GSM GPRS diseñado para el seguimiento en tiempo real y la seguridad de motocicletas. Montado con módulos GPS y GPRS de alta sensibilidad, el PT-201 ofrece reportes de posición estables, soporte para rastreo en vivo y consultas por SMS, además de almacenar historiales de viaje a largo plazo con capacidad para miles de puntos de ruta. Incluye funciones pensadas para vehículos de dos ruedas como botón de pánico SOS, control por geocerca, alarma por exceso de velocidad y protección IP66 contra la intemperie.
 

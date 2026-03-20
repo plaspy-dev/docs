@@ -21,7 +21,9 @@ keywords:
 
 # Laipac - Kamel S - NA
 
+<div className="device-logo">
 ![Kamel S - NA](./logo..png)
+</div>
 
 El Laipac Kamel S - NA es un rastreador GPS compacto y versátil pensado para mejorar la visibilidad y la gestión de activos portátiles y equipos rastreados. Emplea conectividad 4G LTE combinada con posicionamiento GNSS para ofrecer actualizaciones de ubicación en tiempo real, e integra funciones como informes por intervalo de tiempo y distancia recorrida, alertas de remolque, exceso de velocidad y violaciones de geocerca. El equipo cuenta con resistencia al agua IP68 y está diseñado para un despliegue rápido sin instalación, lo que lo hace adecuado para una amplia variedad de escenarios de seguimiento de activos.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB910
 
+<div className="device-logo">
 ![FMB910](./tracker.png)
+</div>
 
 El Teltonika FMB910 es un rastreador GPS 2G compacto, diseñado para gestión de flotas con restricciones de presupuesto y protección básica del vehículo. Ofrece seguimiento en tiempo real y registros históricos de ubicación, incluye un acelerómetro para detección de impactos y admite sensores y balizas mediante Bluetooth Low Energy. Está pensado para despliegues sencillos donde la prioridad es un seguimiento económico y flujos de trabajo antirrobo básicos.
 

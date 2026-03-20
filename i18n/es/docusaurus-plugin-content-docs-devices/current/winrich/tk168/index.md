@@ -21,7 +21,9 @@ keywords:
 
 # Winrich - TK168
 
+<div className="device-logo">
 ![TK168](./logo.jpg)
+</div>
 
 El Winrich TK168 es un rastreador GPS compacto y versátil diseñado para posicionamiento personal y vehicular, así como para la gestión de flotas. Integra un chipset GPS de alta sensibilidad y soporta modos de seguimiento por SMS y GPRS, ofreciendo reportes de ubicación precisos aun en zonas con señal débil. El TK168 incluye funciones de control remoto como corte de gasolina y alimentación, además de alarmas opcionales y función SOS para mayor seguridad.
 

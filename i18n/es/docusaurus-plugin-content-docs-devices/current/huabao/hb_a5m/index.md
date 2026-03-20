@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A5M
 
+<div className="device-logo">
 ![HB-A5M](./tracker.jpg)
+</div>
 
 El HB-A5M es un rastreador GPS 4G compacto y económico, diseñado para un uso sencillo en autos particulares, motocicletas y vehículos comerciales ligeros. Combina posicionamiento GPS/BDS con conectividad celular y una pequeña batería interna de respaldo para ofrecer reportes continuos de ubicación, telemetría con detección de ignición y controles antirrobo básicos dentro de una carcasa con clasificación IP54.
 

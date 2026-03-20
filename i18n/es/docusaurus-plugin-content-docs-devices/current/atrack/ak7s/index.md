@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AK7S
 
+<div className="device-logo">
 ![AK7S](./logo..jpg)
+</div>
 
 El ATrack AK7S es un dispositivo telemático y rastreador GPS para vehículos diseñado para ofrecer monitoreo confiable a bordo y gestión remota. Combina posicionamiento satelital con comunicaciones celulares para proporcionar actualizaciones continuas de ubicación e integra un motor inteligente de control de eventos junto con un acelerómetro de 3 ejes que detecta movimiento e impactos. El equipo también dispone de múltiples interfaces de hardware para integrarse con otros sistemas del vehículo.
 

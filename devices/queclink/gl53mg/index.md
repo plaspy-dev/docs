@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL53MG
 
+<div className="device-logo">
 ![GL53MG](./logo..png)
+</div>
 
 The QuecLink GL53MG is a compact LTE micro standby asset tracker designed for long term deployments and discreet installations. Built for applications such as stolen vehicle recovery and asset monitoring, this model combines global LTE Cat M1 and NB2 connectivity with 2G fallback, a robust antenna solution for strong signal performance, and IP67 waterproof protection for use in demanding environments.
 

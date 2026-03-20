@@ -20,7 +20,9 @@ keywords:
 
 # Arusnavi - Integral 4
 
+<div className="device-logo">
 ![Integral 4](./tracker.png)
+</div>
 
 Integral 4 is a compact GPS tracker and universal navigation controller from Arusnavi designed for professional fleet management, telemetry and vehicle monitoring. It combines multi constellations for GNSS positioning with integrated cellular and navigation antennas and on board data collection to deliver accurate real time location and diagnostic information suitable for vehicle and asset oversight.
 

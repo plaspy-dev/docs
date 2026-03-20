@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB209
 
+<div className="device-logo">
 ![FMB209](./tracker.png)
+</div>
 
 El Teltonika FMB209 es un rastreador GPS compacto y resistente al agua diseñado para ofrecer monitoreo fiable de vehículos y activos en exteriores y condiciones exigentes. El equipo combina una carcasa robusta con clasificación IP67 y una batería interna de respaldo que mantiene los reportes durante cortes temporales de alimentación, además de ofrecer una interfaz serial para telemetría externa y monitoreo de combustible. Estas características hacen al FMB209 idóneo para seguimiento de remolques, despliegues remotos de activos y otras aplicaciones que requieren una unidad de seguimiento pequeña pero resistente.
 

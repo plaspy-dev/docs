@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-23
 
+<div className="device-logo">
 ![AT-23](./tracker.jpg)
+</div>
 
 El Autoseeker AT-23 es un rastreador GPS compacto 2G con relé, diseñado para instalación permanente en autos, camiones, motocicletas, embarcaciones y otros activos móviles. Combina posicionamiento GNSS dual con un relé integrado para corte remoto de combustible o alimentación, y está dirigido a operadores que requieren actualizaciones fiables de posición, reporte de eventos y la opción de inmovilizador para respuesta ante robos y protección de activos.
 

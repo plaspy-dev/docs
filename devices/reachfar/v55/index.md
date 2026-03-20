@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - V55
 
+<div className="device-logo">
 ![V55](./tracker.jpg)
+</div>
 
 The Reachfar V55 is a compact, rugged 4G long standby GPS tracker designed for reliable, long term monitoring of vehicles and mobile assets. It combines satellite positioning with Wi Fi and cell tower assisted fixes to provide continued location data in urban and challenging signal environments, and it ships with an IP67 rated enclosure suitable for exposed vehicle and outdoor use.
 

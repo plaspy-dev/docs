@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - T711L
 
+<div className="device-logo">
 ![T711L](./logo..png)
+</div>
 
 El Meitrack T711L es un rastreador GPS compacto y económico diseñado para el seguimiento de ubicación en una variedad de vehículos, incluyendo autos, motocicletas, y embarcaciones. El equipo destaca por su robustez con clasificación IP67 de resistencia al agua y antenas integradas que mantienen el rendimiento en entornos exigentes. Su tamaño reducido y peso ligero lo hacen discreto y fácil de instalar en lugares con espacio limitado o cuando se requiere ocultamiento.
 

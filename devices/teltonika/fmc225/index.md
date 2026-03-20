@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC225
 
+<div className="device-logo">
 ![FMC225](./tracker.png)
+</div>
 
 The FMC225 is a rugged GPS tracker from Teltonika designed for professional fleet management in demanding environments. Built for external mounting and heavy duty use, it offers cellular connectivity with fallback options and Dual SIM capability to keep vehicles connected for real time position reporting and telemetry. The device is marketed for applications across agriculture, construction, mining and other industries that require durable hardware and continuous asset visibility.
 

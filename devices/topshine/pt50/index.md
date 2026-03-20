@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - PT50
 
+<div className="device-logo">
 ![PT50](./tracker.jpg)
+</div>
 
 The TopShine PT50 is a 4G solar GPS tracker designed for long term unattended monitoring of containers, trailers, boats, vehicles and remote assets. Built for durability, the PT50 combines solar charging, a sealed IP67 enclosure and magnet adsorption mounting to extend deployments where mains power is unavailable and servicing is infrequent.
 

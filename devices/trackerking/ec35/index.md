@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - EC35
 
+<div className="device-logo">
 ![EC35](./tracker.jpg)
+</div>
 
 The TrackerKing EC35 is a rugged GPS tracker designed for demanding vehicle environments. Built around a Quectel 4G Cat1 module with automatic fallback to 2G, the EC35 delivers real time location tracking, route history playback and reliable telemetry for cars, trucks and motorcycles. It offers IP68 waterproofing, a wide 9–90V input range and an internal backup battery to maintain uptime in challenging conditions.
 

@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK680
 
+<div className="device-logo">
 ![LK680](./tracker.png)
+</div>
 
 El LK680 es un rastreador GPS compacto y resistente a manipulaciones, diseñado para el monitoreo confiable y prolongado de bicicletas eléctricas, motocicletas y flotas compartidas de micromovilidad. Combina posicionamiento GNSS probado con conectividad celular y reportes configurables para ofrecer seguimiento en tiempo real, alertas por geocercas y notificaciones de batería, todo dentro de una carcasa robusta y a prueba de agua que facilita su ocultamiento.
 

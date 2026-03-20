@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK120-4G
 
+<div className="device-logo">
 ![LK120-4G](./tracker.jpg)
+</div>
 
 El LK120-4G es un rastreador GPS compacto e impermeable diseñado principalmente para mascotas y uso personal. Integra antenas GPS y GSM junto con Assisted GPS para ofrecer actualizaciones de ubicación en tiempo real dentro de una carcasa pequeña y resistente que se adapta fácilmente a collares o a objetos personales. El dispositivo admite informes de posición frecuentes y suele ofrecer precisión en pocos metros, lo que lo hace adecuado para seguimiento de cercanía y monitoreo de actividades al aire libre.
 

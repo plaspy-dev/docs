@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMC150
 
+<div className="device-logo">
 ![FMC150](./tracker.png)
+</div>
 
 El Teltonika FMC150 es un rastreador GPS profesional pensado para aplicaciones de flota que requieren algo más que posicionamiento básico. Incorpora un procesador de datos CAN integrado y es compatible con adaptadores CAN sin contacto, lo que permite obtener información ampliada del vehículo como estado del motor y la batería, indicadores de consumo de combustible y métricas específicas de vehículos eléctricos. Está diseñado para flotas mixtas y vehículos eléctricos, y puede emparejarse con accesorios Bluetooth y periféricos Teltonika para ampliar la telemetría e identificación de activos.
 

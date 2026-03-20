@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T363A
 
+<div className="device-logo">
 ![T363A](./tracker.jpg)
+</div>
 
 El T363A es un rastreador GPS OBD plug and play diseñado para la gestión de flotas, la protección antirrobo y el monitoreo de comportamiento del conductor. Al conectarse directamente al puerto OBD del vehículo, el dispositivo transmite en tiempo real la ubicación y la telemetría del vehículo a los sistemas de backend. Su factor de forma compacto y los componentes GNSS y celulares integrados facilitan despliegues rápidos en flotas mixtas y a operadores que necesitan visibilidad inmediata sin instalaciones complejas.
 

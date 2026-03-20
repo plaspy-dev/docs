@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-H1
 
+<div className="device-logo">
 ![TS-H1](./Logo.jpg)
+</div>
 
 The ThingSys TS-H1 is a compact GPS tracker designed for wearable and guardian monitoring scenarios. It offers two way communication through dial and answer phone call functions and provides GPS positioning messages that include Google Maps links for fast location sharing. The device supports GSM, GPRS, and GPS connectivity with optional BDS and APGS support, includes a built in battery, a single SIM slot, an accurate touchscreen, a USB port, self diagnostics for operating system and SIM protection, and a waterproof rating of IP67.
 

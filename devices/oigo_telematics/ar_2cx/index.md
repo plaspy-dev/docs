@@ -20,7 +20,9 @@ keywords:
 
 # Oigo Telematics - AR-2CX
 
+<div className="device-logo">
 ![AR-2CX](./logo.jpg)
+</div>
 
 The Oigo Telematics AR-2CX is a compact GPS tracker from the AR Series designed for fleet management and stolen vehicle recovery applications. It emphasizes discreet vehicle installations and supports a range of event reporting and alert capabilities, making it suitable for organizations that need reliable location monitoring and incident notifications across a vehicle fleet.
 

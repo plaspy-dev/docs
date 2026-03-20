@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-7
 
+<div className="device-logo">
 ![AT-7](./tracker.jpg)
+</div>
 
 The Autoseeker AT-7 is a compact card style 4G GPS tracker designed for everyday carry and lightweight monitoring. It combines multi constellation positioning (GPS BDS AGPS LBS) with high sensitivity satellite reception and cellular connectivity to provide consistent location updates in mixed urban and indoor environments. The device includes practical features such as geofencing SOS and vibration alarms motion detection offline data caching and remote firmware upgrade to support continuous tracking and alerting.
 

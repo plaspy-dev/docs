@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV55
 
+<div className="device-logo">
 ![GV55](./tracker.png)
+</div>
 
 The GV55 is a compact, covert vehicle GPS tracker designed for in-vehicle telematics. It combines an internal u-blox GNSS receiver with built-in GSM GPRS connectivity and an internal backup battery to provide continuous position reporting and buffered telemetry. The device is aimed at applications that need discreet installation and reliable event reporting for light vehicles.
 

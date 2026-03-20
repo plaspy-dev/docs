@@ -20,7 +20,9 @@ keywords:
 
 # ThinkRace - Traxbean Bracelet
 
+<div className="device-logo">
 ![Traxbean Bracelet](./tracker.png)
+</div>
 
 The Traxbean Bracelet is a compact wrist worn GPS tracker designed for community corrections and offender monitoring. It combines satellite positioning with assisted locating through Wi‑Fi and cellular triangulation and includes RF based indoor positioning to provide continuous situational awareness for supervising agencies and service providers. The device is built for daily wear with a fashion oriented small form factor and includes features intended to support reliable monitoring and compliance oversight.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4410G
 
+<div className="device-logo">
 ![ST4410G](./tracker.jpg)
+</div>
 
 The ST4410G is a compact GPS tracker designed for carton and asset level tracking in logistics and supply chain environments. It combines multi mode cellular connectivity with a multi constellation GNSS receiver and an integrated RF receiver to provide location reporting, tag event detection and motion based telemetry for portable assets and packaged shipments.
 

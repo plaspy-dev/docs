@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL521MG
 
+<div className="device-logo">
 ![GL521MG](./tracker.png)
+</div>
 
 The GL521MG is a rechargeable, long‑standby GPS tracker designed for robust asset monitoring and batch management. It combines cellular connectivity with internal GNSS positioning, Qi wireless charging, BLE accessory support and an IP67 rugged enclosure to deliver reliable location and environmental telemetry suited to cold‑chain, warehouse and static asset deployments.
 

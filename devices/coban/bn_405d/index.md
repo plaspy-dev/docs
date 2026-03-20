@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-405D
 
+<div className="device-logo">
 ![BN-405D](./tracker.png)
+</div>
 
 The BN-405D is a compact vehicle mounted GPS tracker designed for professional fleet management, logistics, construction and public vehicle applications. Built to provide reliable real time tracking, the BN-405D combines multi band cellular connectivity with a high sensitivity GNSS receiver to deliver position, telemetry and alarm reporting across mixed network environments. Its form factor and vehicle focused feature set make it suitable for embedded installation in 12–24V vehicles used in commercial operations.
 

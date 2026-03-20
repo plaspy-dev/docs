@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-2652
 
+<div className="device-logo">
 ![СИГНАЛ S-2652](./tracker.jpeg)
+</div>
 
 El СИГНАЛ S-2652 es un rastreador GPS resistente instalado a bordo, concebido para telemática vehicular y gestión de flotas. Diseñado para operar en entornos vehiculares exigentes, el equipo integra posicionamiento GLONASS/GPS, un módem celular 3G con doble SIM, registro local en microSD y múltiples interfaces seriales y CAN. Estas capacidades hacen que el S-2652 sea apropiado para seguimiento continuo, captura prolongada de datos e integración con sistemas de vehículos en flotas comerciales e industriales.
 

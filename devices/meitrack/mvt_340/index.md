@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - MVT-340
 
+<div className="device-logo">
 ![MVT-340](./logo.jpg)
+</div>
 
 The Meitrack MVT-340 is a compact and reliable GPS vehicle tracker designed to provide core tracking and security features for a wide range of vehicles. Positioned as a base model with practical capabilities, the MVT-340 delivers real time location monitoring, configurable geo fence alerts, an emergency S.O.S. button, sleep mode for power management, AGPS assistance, and speeding notifications. Its feature set focuses on vehicle visibility and occupant safety without including logging functions.
 

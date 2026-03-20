@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-3000
 
+<div className="device-logo">
 ![LMU-3000](./logo.jpg)
+</div>
 
 El CalmAmp LMU-3000 es un dispositivo de rastreo vehicular compacto y compatible con OBD II, diseñado para una integración sencilla en vehículos. Combina una carcasa resistente con antenas internas GPS y GSM, soporta conectividad GSM quadband y métodos de transporte de datos habituales, ofreciendo una base confiable para el seguimiento continuo del vehículo y el acceso a diagnóstico cuando se requiere la interfaz OBD II.
 

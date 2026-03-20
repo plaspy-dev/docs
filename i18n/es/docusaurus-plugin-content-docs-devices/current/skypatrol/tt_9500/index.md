@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - TT 9500
 
+<div className="device-logo">
 ![TT 9500](./logo.jpg)
+</div>
 
 El SkyPatrol TT 9500 es un rastreador GPS compacto, todo en uno, diseñado para despliegues masivos en una amplia variedad de entornos. Su carcasa resistente y a prueba de salpicaduras y su construcción duradera lo hacen adecuado para uso exterior e industrial. Elementos de diseño como el bajo consumo energético y un relé integrado permiten una larga vida operativa y el control remoto de equipos conectados. El TT 9500 también ofrece opciones avanzadas de geocercas y un receptor GPS de alta sensibilidad para un monitoreo de ubicación confiable.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - GTP-69
 
+<div className="device-logo">
 ![GTP-69](./logo.jpg)
+</div>
 
 El Megastek GTP-69 es un rastreador GPS compacto y ligero diseñado para el seguimiento versátil de activos y vehículos. Integra el chipset SiRF Star III para posicionamiento y un módulo celular GSM SIM 900 con soporte quad-band, lo que ofrece amplia cobertura para el envío de ubicaciones. El equipo incluye funciones prácticas como localización bajo demanda, rastreo por intervalos, detección de movimiento, botón SOS, geocercas, alerta por exceso de velocidad, notificación de batería baja y registro local de datos para conservar posiciones cuando la cobertura celular no está disponible.
 

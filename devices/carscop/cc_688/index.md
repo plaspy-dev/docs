@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CC-688
 
+<div className="device-logo">
 ![CC-688](./tracker.JPG)
+</div>
 
 The Carscop CC-688 T-Box is a purpose built vehicle control and GPS tracker designed for car rental car sharing and fleet management operators. It combines GNSS positioning with global cellular connectivity and local access methods to support unattended rental workflows and remote vehicle control. The unit is engineered to enable app based access and local authentication through NFC or touch inputs while supporting keyless push start operation for simplified handovers.
 

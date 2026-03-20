@@ -21,7 +21,9 @@ keywords:
 
 # Bofan - PT-300X
 
+<div className="device-logo">
 ![PT-300X](./logo.jpg)
+</div>
 
 El Bofan PT-300X es un rastreador GPS compacto para vehículos, diseñado para ofrecer monitoreo de ubicación confiable y funciones básicas de alerta. Soporta rastreo por SMS y GPRS, permite configurar intervalos de reporte para construir historial de movimiento, y dispone de notificaciones prácticas como batería baja, exceso de velocidad y alarmas de geocerca. Además incluye un botón SOS para señalización de emergencias y admite la función de inmovilización mediante un relé externo para detener el vehículo cuando sea necesario.
 

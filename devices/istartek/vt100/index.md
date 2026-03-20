@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT100
 
+<div className="device-logo">
 ![VT100](./tracker.jpg)
+</div>
 
 The VT100 is a compact vehicle GPS tracker from iStartek designed for professional fleet and anti theft applications. It combines GNSS positioning with cellular connectivity in a rugged IP66 enclosure and supports a broad input voltage range to suit many vehicle types and operating environments. The VT100 is intended to provide continuous location reporting, motion detection, offline logging and remote control features valuable for transportation and security workflows.
 

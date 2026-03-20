@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - XT-007
 
+<div className="device-logo">
 ![XT-007](./logo.jpg)
+</div>
 
 The Megastek XT-007 is a vehicle tracker designed to provide reliable location tracking and security features for both fleet and personal vehicles. It offers a sturdy, weather resistant design with water resistance close to IP67 and supports flexible antenna options. The XT-007 includes a range of alarm types, a built in data logger with 8M flash memory, power saving operation, and optional two way communication and SOS capability, making it suitable for continuous on‑vehicle deployment.
 

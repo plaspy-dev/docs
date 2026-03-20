@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-905
 
+<div className="device-logo">
 ![ST-905](./tracker.jpg)
+</div>
 
 The SinoTrack ST-905 is a compact, waterproof magnetic GPS tracker designed for covert mounting on vehicles, bicycles and other mobile assets. Its slim magnet-backed housing and rugged IP-rated enclosure make it suitable for discreet attachment to metal surfaces, while the integrated GNSS receiver and cellular link provide location reporting and status updates for asset protection and anti-theft applications.
 

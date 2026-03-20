@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT63
 
+<div className="device-logo">
 ![XT63](./tracker.webp)
+</div>
 
 The XT63 is a vehicle telematics GPS tracker from Xirgo designed for fleet managers and equipment owners who require dependable, real time tracking and flexible telemetry options. Intended for passenger cars, light and heavy trucks, and commercial equipment, the XT63 brings together embedded cellular and GNSS positioning with optional Bluetooth support and vehicle interface options to deliver continuous location and event data.
 

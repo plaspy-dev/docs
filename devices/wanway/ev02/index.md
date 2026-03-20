@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - EV02
 
+<div className="device-logo">
 ![EV02](./tracker.webp)
+</div>
 
 The EV02 is a compact 2G GPS tracker from WanWay designed for vehicle anti theft protection and efficient fleet management. Its small form factor and high sensitivity positioning make it suitable for motorcycles, cars, light commercial vehicles, and electric vehicles, providing reliable real time location data and event reporting for asset security and operational oversight.
 

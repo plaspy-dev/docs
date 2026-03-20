@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK119‑3G
 
+<div className="device-logo">
 ![TK119‑3G](./tracker.jpg)
+</div>
 
 The TK119‑3G is a compact vehicle GPS tracker from EElink designed for reliable deployment across fleets and individual vehicles. It provides GPS and base station positioning with AGPS assistance and uses WCDMA and GSM cellular connectivity to deliver real‑time location and event data. The unit includes vehicle inputs and optional outputs such as ACC ignition detection and a relay for remote immobilization, plus safety alarms for crash, vibration and overspeed events.
 

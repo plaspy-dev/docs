@@ -20,7 +20,9 @@ keywords:
 
 # Navis - Señal CH - 4713
 
+<div className="device-logo">
 ![Señal CH - 4713](./logo.jpg)
+</div>
 
 The Navis Señal CH-4713 is a vehicle GPS tracker and on board navigation terminal designed for fleet and vehicle tracking. It supports GLONASS, GPS and SBAS enabled A GNSS modes and offers assisted GNSS functionality for improved positioning. The unit includes an in cab display and navigation functionality, onboard event recording, and protections to reduce the risk of unauthorized disconnection of connectors and antennas.
 

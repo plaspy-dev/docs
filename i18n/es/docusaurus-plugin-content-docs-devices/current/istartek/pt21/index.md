@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - PT21
 
+<div className="device-logo">
 ![PT21](./tracker.jpg)
+</div>
 
 El PT21 es un rastreador GPS compacto de iStartek pensado para el seguimiento discreto de personas, mascotas y pequeños activos. Combina posicionamiento híbrido por GPS, LBS y Wi‑Fi con comunicaciones 2G GPRS para ofrecer actualizaciones de ubicación en tiempo real, señalización SOS y audio bidireccional en una carcasa impermeable y pequeña, ideal para uso en movimiento.
 

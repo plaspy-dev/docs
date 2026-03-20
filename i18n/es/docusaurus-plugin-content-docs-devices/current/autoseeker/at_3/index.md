@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-3
 
+<div className="device-logo">
 ![AT-3](./tracker.jpg)
+</div>
 
 El Autoseeker AT-3 es un rastreador GPS compacto y resistente al clima, diseñado para seguimiento fiable en exteriores de perros y otros animales. Con conectividad celular multibanda y consumo de energía optimizado, el AT-3 ofrece actualizaciones continuas de posición y funciones básicas de recuperación, como un zumbador y un LED para facilitar la localización en campo. Su carcasa de ABS robusta y su formato pensado para collar o arnés lo hacen adecuado para paseos diarios, salidas activas y uso en refugios.
 

@@ -20,7 +20,9 @@ keywords:
 
 # NVS - CH-5704
 
+<div className="device-logo">
 ![CH-5704](./logo.jpg)
+</div>
 
 The NVS CH-5704 is an automobile terminal manufactured by ZAO KB NAVIS, designed for vehicle monitoring and protection applications. It uses signals from multiple satellite navigation systems including GLONASS, GPS, GALILEO, and SBAS to provide accurate positioning, and relies on GSM data transmission for sending location and status information. The terminal is built on the NV08C navigation receiver and is positioned as a high quality solution for onboard tracking.
 

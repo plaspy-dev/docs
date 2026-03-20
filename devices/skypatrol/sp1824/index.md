@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP1824
 
+<div className="device-logo">
 ![SP1824](./tracker.png)
+</div>
 
 The SP1824 is an economical GPS tracker designed for fleet managers and vehicle owners who need reliable real time tracking without unnecessary complexity. It combines cellular connectivity with internal GPS and cellular antennas for streamlined fitment and steady location updates. The device offers an optional OBD II connection and an embedded accelerometer, and it includes a compact backup battery to maintain reporting during short power interruptions.
 

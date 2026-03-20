@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - TMT250
 
+<div className="device-logo">
 ![TMT250](./logo..png)
+</div>
 
 El Teltonika TMT250 es un mini rastreador GPS 2G autónomo diseñado para la seguridad personal. Ofrece un formato compacto, un botón de emergencia de fácil acceso y escenarios de seguridad integrados como detección de caídas y ausencia de movimiento. Además, soporta conexiones inalámbricas con dispositivos BLE externos, lo que permite supervisar parámetros ambientales y sensores adicionales sin sacrificar su carcasa resistente para uso exterior.
 

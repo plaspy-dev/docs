@@ -21,7 +21,9 @@ keywords:
 
 # Bofan - B4
 
+<div className="device-logo">
 ![B4](./logo..png)
+</div>
 
 El Bofan B4 es un rastreador vehicular 4G básico diseñado para ofrecer monitoreo sencillo a bajo costo. Brinda las funciones esenciales de localización en un formato compacto y tradicional, orientado tanto a flotas pequeñas como a vehículos particulares. Según el fabricante, sus capacidades principales incluyen alertas de geocerca, corte remoto de motor, seguimiento de tiempo de funcionamiento del motor, opciones de rastreo por SMS y GPRS, antenas internas y una entrada ACC y una salida para integraciones sencillas.
 

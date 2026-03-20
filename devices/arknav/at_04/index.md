@@ -20,7 +20,9 @@ keywords:
 
 # ArkNav - AT-04
 
+<div className="device-logo">
 ![AT-04](./tracker.png)
+</div>
 
 The AT-04 Compact GPS Tracker is an ultra-small tracking device designed for discreet protection of children, high-value deliveries, and portable assets. Its compact, easy-to-hide form factor and single-button design help reduce user error and false alarms. The device combines GPS positioning with AGPS assistance and cell-based location features to maintain reliable position reporting even where GPS alone can be limited, and it is engineered for long battery life with configurable timer and movement-activated reporting modes.
 

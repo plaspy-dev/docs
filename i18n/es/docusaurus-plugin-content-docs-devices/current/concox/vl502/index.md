@@ -21,7 +21,9 @@ keywords:
 
 # Concox - VL502
 
+<div className="device-logo">
 ![VL502](./tracker.png)
+</div>
 
 El VL502 es un rastreador vehicular OBDII compacto de Concox, diseñado para flotas corporativas, programas de seguros basados en uso (UBI), monitoreo de concesionarios y supervisión individual del vehículo. Como unidad plug-and-play para el puerto OBDII, reporta telemetría del vehículo como VIN, revoluciones del motor, temperatura del refrigerante, kilometraje acumulado, consumo de combustible, voltaje de batería y estado del encendido, y transmite esos datos por redes móviles para proporcionar visibilidad en tiempo real.
 

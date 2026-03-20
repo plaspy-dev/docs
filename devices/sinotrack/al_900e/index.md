@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - AL-900E
 
+<div className="device-logo">
 ![AL-900E](./Logo.png)
+</div>
 
 The SinoTrack AL-900E is a compact vehicle GPS tracker designed for a wide range of vehicles including cars, trucks, and motorcycles. It pairs durable construction with environmental resilience, operating across a broad temperature range and offering IP53 protection against dust and splashes. The unit uses a Sirf IV GPS module with multiple channels to provide position fixes and reports location with stated accuracy suitable for routine tracking and fleet oversight.
 

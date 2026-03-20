@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СМАРТ S-2333A HIT
 
+<div className="device-logo">
 ![СМАРТ S-2333A HIT](./tracker.png)
+</div>
 
 The СМАРТ S-2333A HIT is a compact, earlier generation vehicle GPS tracker from Navtelekom designed for reliable location and telemetry reporting. Although discontinued, the unit includes an integrated high sensitivity GLONASS GPS receiver, built in GSM connectivity, an internal rechargeable backup battery, and a set of discrete inputs and outputs plus RS-485 and 1-Wire interfaces. These characteristics make the device suitable for adding real time tracking and basic telemetry to vehicles and small assets where a tidy installation and legacy hardware support are required.
 

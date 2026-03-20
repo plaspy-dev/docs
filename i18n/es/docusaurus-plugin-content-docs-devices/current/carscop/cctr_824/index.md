@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-824
 
+<div className="device-logo">
 ![CCTR-824](./tracker.JPG)
+</div>
 
 El CCTR-824 es un rastreador GPS compacto y alimentado por batería, diseñado para el seguimiento encubierto de vehículos, equipos y activos en renta. Está pensado para una instalación rápida tipo DIY sin cableado permanente y se fija con seguridad mediante pasadores magnéticos de alta sujeción o una cubierta magnética opcional. La unidad está optimizada para operar largo tiempo sin supervisión e incluye un modo de suspensión profunda de baja detectabilidad, alarma por sensor de luz ante remoción y intervalos de localización configurables para uso prolongado en campo.
 

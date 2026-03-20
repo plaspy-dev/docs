@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - X01
 
+<div className="device-logo">
 ![X01](./tracker.jpg)
+</div>
 
 El Xexun X01 es un rastreador vehicular alambrado de grado industrial diseñado para un monitoreo de ubicación confiable y permanente. Pensado para instalaciones compactas en una amplia variedad de vehículos, el X01 combina posicionamiento híbrido GPS y BeiDou para acelerar la obtención de fijaciones y mejorar la precisión. El dispositivo está preparado para reportes continuos en tiempo real a través de redes celulares 2G/3G/4G nacionales e incluye una batería interna recargable de respaldo para mantener la comunicación durante interrupciones breves de energía.
 

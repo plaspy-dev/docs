@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - J16W
 
+<div className="device-logo">
 ![J16W](./tracker.jpg)
+</div>
 
 El J16W es un rastreador robusto con certificación IP67 diseñado específicamente para instalaciones en vehículos. Compacto y liviano, combina un módem 4G LTE CAT1 con retroceso a 2G y un receptor GNSS de alta sensibilidad para proporcionar posicionamiento y telemetría fiables aun en entornos exigentes. La familia J16W incluye una unidad base con entrada ACC y control de relé, y la variante J16Wm que añade micrófono y funcionalidad SOS para flujos de trabajo de emergencia.
 

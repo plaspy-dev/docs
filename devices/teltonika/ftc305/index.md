@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FTC305
 
+<div className="device-logo">
 ![FTC305](./tracker.png)
+</div>
 
 The Teltonika FTC305 is a compact, vehicle grade GPS tracker built for e mobility and fleet telematics. It combines GNSS position reporting with vehicle telemetry capability, durable IP67 protection, and a wide input power range to suit electric transport platforms such as e bikes, forklifts, shuttle cars and utility machinery. The device is offered in sealed and no casing variants and supports external antenna and backup battery options for more resilient deployments.
 

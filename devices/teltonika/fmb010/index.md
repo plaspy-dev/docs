@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB010
 
+<div className="device-logo">
 ![FMB010](./tracker.png)
+</div>
 
 The Teltonika FMB010 is a compact, plug-and-play GPS tracker designed for quick OBD-II connection and dependable basic vehicle tracking. It combines core telematics features such as continuous location reporting, a built-in backup battery for reporting during power interruptions, Bluetooth Low Energy support for external beacons and sensors, and an integrated accelerometer with configurable crash detection. The device is presented as a straightforward option for teams that need fast deployment and reliable baseline telemetry.
 

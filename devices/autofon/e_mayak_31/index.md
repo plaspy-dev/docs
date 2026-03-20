@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - E-Mayak 3.1
 
+<div className="device-logo">
 ![E-Mayak 3.1](./tracker.png)
+</div>
 
 The AutoFon E-Mayak 3.1 is a compact autonomous GPS beacon designed for long term, low maintenance tracking where concealment and battery life are priorities. The device reports position and basic telemetry via SMS and is optimized for intermittent, on demand location checks rather than continuous streaming. Its small form factor and low duty operation make it suitable for discreet placement in vehicles, trailers, containers, boats, and other assets where long autonomy is required.
 

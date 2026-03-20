@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - VT-400
 
+<div className="device-logo">
 ![VT-400](./logo.jpg)
+</div>
 
 The Meitrack VT-400 is a rugged GPS/GPRS tracking device designed for heavy machinery, construction machines, and vehicles. It combines a built-in GPS receiver with GSM connectivity to obtain position data and transmit it to a specified phone or server for remote tracking and management. The unit is built to withstand demanding conditions with an IP66 waterproof rating, internal memory for logging, an inbuilt backup battery, and a physical SOS panic button for emergency situations.
 

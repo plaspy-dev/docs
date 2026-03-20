@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - PT23
 
+<div className="device-logo">
 ![PT23](./tracker.jpg)
+</div>
 
 El PT23 Kids Watch GPS Tracker de iStartek es un dispositivo portátil y compacto diseñado para la seguridad infantil y el uso diario. Combina posicionamiento multimodal (GPS y Beidou, además de Wi‑Fi y LBS), comunicación de voz bidireccional, llamada SOS y alertas inteligentes de geocerca en un equipo resistente con protección IP67 y pantalla de 1.30". Está pensado para uso activo y ofrece actualizaciones de ubicación y estado en tiempo real, adecuadas para padres, escuelas y cuidadores.
 

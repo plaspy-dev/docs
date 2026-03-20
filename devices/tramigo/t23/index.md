@@ -20,7 +20,9 @@ keywords:
 
 # Tramigo - T23
 
+<div className="device-logo">
 ![T23](./logo.jpg)
+</div>
 
 The Tramigo T23 is a vehicle tracking device designed for both personal use and fleet management. Positioned as a best selling GPS vehicle security product, the T23 provides continuous location visibility and features aimed at track and trace, vehicle recovery, and day to day fleet oversight. Its design supports hidden installation and vehicle power connection, while integrated backup power and internal memory help maintain tracking continuity if the main power is lost.
 

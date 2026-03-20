@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-3200
 
+<div className="device-logo">
 ![LMU-3200](./logo.jpg)
+</div>
 
 The CalmAmp LMU-3200 is a compact GPS tracker designed for a variety of automotive telematics applications. It combines location tracking with access to the vehicle diagnostics interface and includes a 3-axis accelerometer for detecting events such as hard braking, cornering, and sudden acceleration. Its small size and internal antennas are intended to make installation straightforward and unobtrusive for mobile deployments.
 

@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - GF30
 
+<div className="device-logo">
 ![GF30](./tracker.jpg)
+</div>
 
 El CanTrack GF30 es un rastreador GPS compacto de la serie GF, diseñado para el seguimiento encubierto de activos durante períodos prolongados. Cuenta con montaje magnético integrado y una batería de alta capacidad de 1600 mAh, lo que lo hace adecuado para colocaciones discretas en vehículos, remolques, contenedores y maquinaria pesada. El GF30 está optimizado para reportes de posición en tiempo real y telemetría básica de eventos mediante la plataforma, la aplicación o SMS.
 

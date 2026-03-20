@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK910
 
+<div className="device-logo">
 ![TK910](./tracker.jpg)
+</div>
 
 El TK-Star TK910 es un rastreador GPS 2G compacto diseñado para motocicletas, autos particulares, vehículos de alquiler y otros equipos móviles. Combina posicionamiento multiconstelación (GPS, Beidou, GLONASS) con asistencia LBS y Wi‑Fi para ofrecer ubicaciones fiables en exteriores y mejorar el rendimiento en entornos urbanos complejos o parcialmente interiores. El dispositivo está pensado para la seguridad práctica del vehículo y necesidades de rastreo rutinario donde el tamaño reducido y la telemetría básica son prioridades.
 

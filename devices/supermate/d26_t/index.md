@@ -20,7 +20,9 @@ keywords:
 
 # Supermate - D26-T
 
+<div className="device-logo">
 ![D26-T](./logo.jpg)
+</div>
 
 The Supermate D26-T is a compact, lightweight GPS tracker designed for a wide range of tracking needs. Suited for personal, commercial, and industrial use, the D26-T emphasizes portability and discreet placement while providing continuous location monitoring. Its feature set described by the manufacturer highlights real time tracking, geo fencing, an emergency SOS button, and construction meant to handle everyday wear and a broad range of climates.
 

@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-908
 
+<div className="device-logo">
 ![ST-908](./Logo.jpg)
+</div>
 
 The SinoTrack ST-908 is a compact, vehicle-mounted GPS tracker designed for use in cars, trucks, motorcycles, and similar mobile assets. It combines a durable enclosure with a wide operating temperature range and an IP53 level of protection, making it suitable for a variety of environmental conditions. The device uses a Sirf IV GPS module to provide position accuracy typically around 10 m CEP and supports continuous satellite positioning with options for SMS and GPRS reporting.
 

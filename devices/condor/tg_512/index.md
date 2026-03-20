@@ -20,7 +20,9 @@ keywords:
 
 # Condor - TG-512
 
+<div className="device-logo">
 ![TG-512](./tracker.png)
+</div>
 
 The TG-512 is a compact GPS tracker designed for vehicles and industrial machinery. It combines high-sensitivity integrated GPS and GPRS antennas with flexible inputs and outputs to transmit location and telemetry over the cellular network. The unit includes interfaces commonly used to connect sensors and on‑board equipment, making it suitable for a range of telematics tasks from routine fleet oversight to equipment monitoring.
 

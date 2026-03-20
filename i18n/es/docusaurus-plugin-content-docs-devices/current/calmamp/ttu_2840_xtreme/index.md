@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - TTU-2840 XTREME
 
+<div className="device-logo">
 ![TTU-2840 XTREME](./logo.jpg)
+</div>
 
 El CalmAmp TTU-2840 XTREME es una unidad de localización compacta y de alta relación costo-beneficio, pensada para activos que normalmente funcionan con sistemas de 12 o 24 V pero que pueden permanecer desconectados por periodos prolongados. Incorpora un paquete de baterías recargables internas y una batería interna de 5.3 Ah que garantizan comunicación y posicionamiento cuando no hay alimentación externa. El equipo ofrece desempeño GPS de alta sensibilidad y soporte para redes celulares modernas, además de un formato reducido y tres entradas y tres salidas configurables para integrarse de forma flexible a los flujos de trabajo del activo.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TK209B
 
+<div className="device-logo">
 ![TK209B](./tracker.jpg)
+</div>
 
 The TK209B is a rugged 4G GPS tracker designed for long duration asset and vehicle monitoring. Built for commercial fleet management, rental services and logistics, it combines multi mode positioning including GNSS, LBS and Wi Fi with a high capacity 10000 mAh rechargeable battery to provide dependable real time location updates and alerts over days or weeks of operation. The unit also includes IP65 water resistance and a built in vibration sensor to support tamper and movement detection in outdoor environments.
 

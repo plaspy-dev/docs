@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G23
 
+<div className="device-logo">
 ![G23](./tracker.jpg)
+</div>
 
 The GOTOP G23 is a mini wire GPS tracker designed for discreet vehicle installation and continuous location monitoring. Its compact ABS housing, internal antennas and slim profile make it well suited to cars, motorcycles, e bikes and light commercial vehicles where a low profile is required. The G23 uses hybrid positioning with GPS, BeiDou and LBS for typical location accuracy around five meters and includes vehicle inputs and alarms commonly used for theft prevention and fleet oversight.
 

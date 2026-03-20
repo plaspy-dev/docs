@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - E-Маяк IP
 
+<div className="device-logo">
 ![E‑Маяк IP](./tracker.jpg)
+</div>
 
 El AutoFon E‑Маяк IP es un rastreador GSM/GPS compacto y autónomo, diseñado para el monitoreo discreto de ubicación a largo plazo y la notificación de alarmas. Combina una carcasa sellada de pequeño tamaño con electrónica de bajo consumo y una batería de gran capacidad para soportar operación prolongada sin supervisión. Incluye monitoreo de audio bajo demanda, controles dedicados de alarma y un botón SOS para señalización de incidentes. Está pensado para vehículos, carga, embarcaciones y otros objetos remotos que requieren protección antirrobo y supervisión telemétrica sencilla.
 

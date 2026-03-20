@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TL-206
 
+<div className="device-logo">
 ![TL-206](./logo.jpg)
+</div>
 
 The GOTOP TL-206 is a compact personal GPS tracker designed for real time tracking and monitoring of people, vehicles, and pets. It uses GPS satellites for position fixes and can transmit coordinates via SMS or by sending data to a designated server using the device data connection. With a very small enclosure and an advertised standby time up to 200 hours, the TL-206 is intended for situations where discreet, continuous tracking is required.
 

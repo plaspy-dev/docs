@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T301
 
+<div className="device-logo">
 ![T301](./tracker.jpg)
+</div>
 
 The Ulbotech T301 is an economical, entry level vehicle GPS tracker designed for dependable, no frills real time tracking. It combines a reliable GNSS positioning module with a quad band cellular modem to provide accurate location fixes, core telemetry, and basic anti theft controls such as an internal immobilizer and remote engine cut. The T301 also offers ACC ignition detection, a panic SOS alert, and a 3 axis accelerometer to support motion and driver behavior monitoring.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-303G
 
+<div className="device-logo">
 ![BN-303G](./tracker.png)
+</div>
 
 The BN-303G is a compact vehicle mounted GPS tracker from Coban designed for reliable real time tracking and anti theft protection. Built for concealed installation on cars and commercial vehicles, the unit provides high sensitivity GNSS positioning and a set of event alarms so fleet managers, rental operators, and private owners can monitor location, ignition state, and basic telemetry in a straightforward way.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Gelix - Gelix 1
 
+<div className="device-logo">
 ![Gelix 1](./logo.jpg)
+</div>
 
 El Gelix 1 es un registrador de datos GPS de monitoreo pasivo diseñado para almacenar información de navegación y eventos mientras un vehículo está en movimiento o cuando ocurre un evento externo. Guarda registros históricos de ubicación y eventos para su recuperación posterior en lugar de transmitir datos en tiempo real. El dispositivo admite varias opciones para extraer los datos almacenados, incluyendo recuperación automática cuando el vehículo regresa a un depósito con un punto de acceso de radio, y recuperaciones manuales mediante conexión por cable, IrDA, Bluetooth con una PDA o retirando la unidad y conectándola a una PC.
 

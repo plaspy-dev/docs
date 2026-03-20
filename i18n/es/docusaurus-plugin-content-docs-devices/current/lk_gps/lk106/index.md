@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK106
 
+<div className="device-logo">
 ![LK106](./tracker.jpg)
+</div>
 
 El LK106 es un rastreador GPS 4G compacto diseñado para ofrecer monitorización fiable de ubicación en tiempo real en un equipo pequeño e impermeable. Integra antenas GPS y GSM, ranura para tarjeta SIM, botón de emergencia SOS y es compatible tanto con aplicaciones móviles como con plataforma web. Está pensado para uso discreto sobre la persona o en pequeños activos cuando se requiere reporte continuo de posición y notificaciones de emergencia.
 

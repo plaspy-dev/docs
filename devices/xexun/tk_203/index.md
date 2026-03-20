@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - TK-203
 
+<div className="device-logo">
 ![TK-203](./logo.jpg)
+</div>
 
 The Xexun TK-203 is a compact GPS tracker designed to provide reliable location monitoring for people and assets. It combines GPS positioning with GSM and GPRS communication to report location via SMS or data transmission. The unit is housed in a waterproof casing and includes an SOS button for emergency alerts, automatic position reporting, and the ability to store or forward the last known location if GPS coverage is lost.
 

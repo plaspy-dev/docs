@@ -20,7 +20,9 @@ keywords:
 
 # Protrack - VT08S
 
+<div className="device-logo">
 ![VT08S](./tracker.jpg)
+</div>
 
 The VT08S is a compact vehicle GPS tracker from Protrack designed for cars and motorbikes. It provides core tracking and security features expected in fleet and personal vehicle monitoring, including SOS panic alert, geo fencing, over speed warnings, historical trip data, power outage detection, and remote fuel cutoff for immobilization. Built with an IP65 rating and a rugged design, the VT08S is meant for discreet installation and reliable field operation in everyday vehicle conditions.
 

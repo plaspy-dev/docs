@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TK209C
 
+<div className="device-logo">
 ![TK209C](./tracker.jpg)
+</div>
 
 The TK209C is a heavy duty, long life GPS tracker designed for demanding vehicle and asset tracking applications. Built around a UBLOX GNSS module, the device combines GPS, BeiDou and GLONASS with LBS and Wi Fi positioning to provide reliable outdoor accuracy and improved indoor or multi mode location reporting. Its IP65 rated enclosure and built in vibration sensor make it suitable for outdoor use on vehicles, containers and temporary equipment where movement and anti theft monitoring are important.
 

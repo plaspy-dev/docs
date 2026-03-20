@@ -20,7 +20,9 @@ keywords:
 
 # Concox - MT200
 
+<div className="device-logo">
 ![MT200](./logo.jpg)
+</div>
 
 The Concox MT200 MOPLUS is a motorcycle GPS tracker built for durability and practical vehicle control. Designed with an IP65 dustproof and waterproof enclosure, the MT200 withstands harsh outdoor conditions and continuous use on two wheel vehicles. The device offers core tracking functions together with a convenient fuel and power cut feature that does not require complex wiring, making it well suited to motorcycle installations.
 

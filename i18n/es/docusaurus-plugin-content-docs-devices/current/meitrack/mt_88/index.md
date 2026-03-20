@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - MT-88
 
+<div className="device-logo">
 ![MT-88](./logo.jpg)
+</div>
 
 El Meitrack MT-88 es un rastreador GPS compacto y liviano diseñado para diversas necesidades de seguimiento personal y de pequeños activos. Con unas dimensiones de 61x42x15 mm y alrededor de 50 g, es fácil de sujetar a un cinturón o al collar de una mascota mediante el clip incluido. El dispositivo combina posicionamiento GPS SiRF III con conectividad GSM Quad Band y asistencia AGPS para ofrecer reportes de ubicación confiables en escenarios habituales de rastreo. Entre sus funciones integradas se encuentran múltiples modos de seguimiento, monitor de voz, memoria interna de registro, detección de movimiento, alarma SOS y una batería recargable interna.
 

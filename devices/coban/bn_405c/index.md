@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-405C
 
+<div className="device-logo">
 ![BN-405C](./tracker.png)
+</div>
 
 The BN-405C is a compact vehicle mounted intelligent GPS tracker designed for fleet management, logistics and anti theft applications. It combines a concealed installation form factor with vehicle power support and a backup battery to provide continuous tracking and operational visibility for trucks, engineering vehicles and public service fleets.
 

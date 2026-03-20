@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - TLT-8A
 
+<div className="device-logo">
 ![TLT-8A](./logo.jpg)
+</div>
 
 The V-SUN TLT-8A is a GPS/GSM car tracker designed for reliable positioning and tracking across a range of small vehicles. It pairs a built-in high performance GPS chipset with GSM/GPRS communications to deliver positioning even in challenging signal environments such as dense urban areas or valleys. The device supports worldwide GSM bands and provides location reporting through SMS or GPRS TCP, plus a suite of practical vehicle monitoring functions.
 

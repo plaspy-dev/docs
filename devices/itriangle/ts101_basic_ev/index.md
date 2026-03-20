@@ -20,7 +20,9 @@ keywords:
 
 # iTriangle - TS101 Basic EV
 
+<div className="device-logo">
 ![TS101 Basic EV](./tracker.png)
+</div>
 
 The TS101 Basic EV is a rugged, compact GPS tracker engineered for electric vehicles and mixed fleets that need dependable location and event telemetry. It combines multi constellation GNSS positioning, internal antennas, and a wide 9–90V DC input range to deliver continuous real time tracking and event logging suitable for commercial fleet management, two and three wheeler operations, and EV OEM applications.
 

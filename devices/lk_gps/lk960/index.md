@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK960
 
+<div className="device-logo">
 ![LK960](./logo..jpg)
+</div>
 
 The LK960 from LK-GPS is a wired vehicle GPS tracker designed for use in cars and motorcycles. It combines a compact form factor with key security and control features such as an SOS alarm, vibration alarm for tampering detection, remote fuel and electricity cut off, and LED status indicators for power, GPS, and GSM. The device supports both 2G and 4G networks and operates across a wide voltage range, making it suitable for a variety of vehicle types.
 

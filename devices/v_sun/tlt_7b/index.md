@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - TLT-7B
 
+<div className="device-logo">
 ![TLT-7B](./logo.jpg)
+</div>
 
 The V-SUN TLT-7B is a 3G GPS tracker built around a high performance GPS chipset to provide accurate positioning in a variety of environments. It is described as offering reliable location information even in areas with weak signal or limited visibility, and includes a range of practical features such as SOS, geo fencing, overspeed warnings, historical data upload, and voice call capability when used with an earphone.
 

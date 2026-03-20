@@ -21,7 +21,9 @@ keywords:
 
 # Concox - VL512
 
+<div className="device-logo">
 ![VL512](./tracker.png)
+</div>
 
 El Concox VL512 es un rastreador GPS OBDII 4G compacto, diseñado para una instalación rápida y sin complicaciones en automóviles particulares. Combina posicionamiento satelital con sensores de movimiento integrados y un micrófono discreto para ofrecer localización continua y telemetría de eventos. El VL512 está pensado para despliegues sencillos en flotas y para escenarios que requieren seguimiento en tiempo real y alertas confiables.
 

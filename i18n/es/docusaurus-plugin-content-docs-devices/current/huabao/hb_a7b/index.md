@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A7B
 
+<div className="device-logo">
 ![HB-A7B](./logo.jpg)
+</div>
 
 El Huabao HB-A7B es un rastreador GPS versátil pensado para el seguimiento de vehículos comerciales y la gestión de flotas. Proporciona posicionamiento y seguimiento en tiempo real para aplicaciones como logística, transporte de pasajeros de larga distancia, transporte de mercancías peligrosas y servicios urbanos como autobuses, taxis y vehículos de renta. El equipo enfatiza un rendimiento estable, una instalación sencilla y bajo consumo energético para mantener la operación continua en entornos de flota variados.
 

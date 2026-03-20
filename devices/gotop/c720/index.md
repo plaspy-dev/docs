@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - C720
 
+<div className="device-logo">
 ![C720](./tracker.jpg)
+</div>
 
 The GOTOP C720 is a compact relay style car GPS tracker designed for discreet vehicle installation where covert monitoring and anti theft control are required. Its ultra small form factor and hardwired design make it suitable for hidden placement in cars, motorcycles and other vehicles while providing continuous position updates and alarm reporting via GSM/GPRS and GPS positioning. The device includes AGPS support, multi channel GNSS reception and internal antennas to improve fix reliability in typical vehicle environments.
 

@@ -20,7 +20,9 @@ keywords:
 
 # WP - TT-1
 
+<div className="device-logo">
 ![TT-1](./logo..jpg)
+</div>
 
 The TT-1 by WP is a high performance GPS GSM GPRS trailer tracking device built for asset and fleet management. It combines a compact, concealment friendly enclosure with a high sensitivity GPS receiver and a rugged IP65 class casing to support outdoor operating environments. The device continues the lineage of WP models such as the VT10 and VT200 and is described as offering diversified location based services and long operation time suitable for trailers and other transported assets.
 

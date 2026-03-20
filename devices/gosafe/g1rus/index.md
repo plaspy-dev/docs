@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G1RUS
 
+<div className="device-logo">
 ![G1RUS](./tracker.png)
+</div>
 
 The G1RUS is a purpose built GPS tracker designed for long unattended deployments on trailers, containers and other high value assets. It combines an extremely low power hardware platform with a rugged enclosure and flexible power options so managers can deploy reliable location and telemetry solutions that run for months or years without frequent maintenance. The device is intended for coarse and fine asset visibility where durability and long battery life are primary requirements.
 

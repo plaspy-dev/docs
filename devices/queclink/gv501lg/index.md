@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV501LG
 
+<div className="device-logo">
 ![GV501LG](./tracker.png)
+</div>
 
 The QuecLink GV501LG is a plug and play OBDII GPS tracker designed for cars and light trucks. It combines high speed cellular connectivity with fallback options, an integrated u‑blox GNSS receiver, BLE 5.0 and a dual band internal Wi Fi access point to provide continuous position updates, vehicle telemetry and an in cabin internet hotspot for crews and passengers. Its compact OBDII form factor makes it suitable for rapid deployment across vehicle fleets.
 

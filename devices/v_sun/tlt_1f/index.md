@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - TLT-1F
 
+<div className="device-logo">
 ![TLT-1F](./logo.jpg)
+</div>
 
 The V-SUN TLT-1F is a vehicle tracking device designed for remote positioning and continuous monitoring of cars and commercial vehicles. It combines a high-performance GPS chipset with GSM/GPRS communication to deliver location information and event reports even in urban canyons, valleys, and other areas with limited visibility. The TLT-1F includes features commonly used for fleet and vehicle security such as SOS, geo-fencing, overspeed warnings, historical data upload, and alerts for power or fuel interruptions.
 

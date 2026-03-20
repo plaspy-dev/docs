@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT-2100
 
+<div className="device-logo">
 ![XT-2100](./logo.jpg)
+</div>
 
 The Xirgo XT-2100 is a compact, fully integrated GPS tracker designed for mobile and remote asset monitoring and control. It combines an integrated GPS engine with a cellular GPRS modem to provide continuous position updates, direction, and speed information. Its small form factor and built in antennas make it suitable for discreet placement in vehicles and other mobile assets. The device also includes general purpose digital inputs, an internal analog input for monitoring battery voltage, and a digital output that can be used to drive external relays.
 

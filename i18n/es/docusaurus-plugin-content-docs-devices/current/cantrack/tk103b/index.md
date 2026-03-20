@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - TK103B
 
+<div className="device-logo">
 ![TK103B](./tracker.jpg)
+</div>
 
 El TK103B es un rastreador GPS vehicular compacto, de instalación fija, diseñado para despliegues confiables en gestión de flotas, prevención de robo y escenarios de seguimiento en tiempo real. Reporta posición, alarmas y telemetría básica mediante GSM GPRS junto con posicionamiento por GPS, e integra con plataformas web y móviles para monitoreo en vivo, reproducción de historial y notificaciones de incidentes. Su tamaño y conjunto de funciones lo hacen adecuado para autos de alquiler, taxis y flotas comerciales.
 

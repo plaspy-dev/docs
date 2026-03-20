@@ -21,7 +21,9 @@ keywords:
 
 # GalileoSky - 10
 
+<div className="device-logo">
 ![10](./logo..png)
+</div>
 
 El GalileoSky 10 es un terminal compacto GPS/GLONASS diseñado para el monitoreo, control y gestión de vehículos y activos móviles. Permite la conexión y control directo de sensores externos y destaca por poder procesar señales analógicas de bajo nivel sin necesitar una resistencia externa adicional. Además, el equipo puede leer datos de dos buses CAN simultáneamente e interpretar un amplio conjunto de parámetros J1939, lo que lo hace ideal para proyectos que requieren ubicación y datos del vehículo en un solo equipo.
 

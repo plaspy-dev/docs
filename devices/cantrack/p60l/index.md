@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - P60L
 
+<div className="device-logo">
 ![P60L](./tracker.jpg)
+</div>
 
 The CanTrack P60L is a compact personal GPS tracker designed for reliable real time tracking, two way voice communication and environmental telemetry. Built around GNSS positioning that uses GPS and BeiDou, and cellular data connectivity, the P60L targets personal safety and asset monitoring scenarios where location accuracy, SOS alerts and temperature readings are important. It includes offline logging and remote management features to preserve history and simplify updates.
 

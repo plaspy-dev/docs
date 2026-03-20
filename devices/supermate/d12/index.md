@@ -20,7 +20,9 @@ keywords:
 
 # Supermate - D12
 
+<div className="device-logo">
 ![D12](./logo.jpg)
+</div>
 
 The Supermate D12 is a compact GPS tracker designed for versatile asset management and personal security. It provides real time location tracking, geo fencing, and an SOS alert function in a small, lightweight package that is suitable for discreet placement on a wide range of assets. The device is positioned as a multi purpose tracker for both individual use and business fleet oversight, with a focus on straightforward installation and everyday reliability.
 

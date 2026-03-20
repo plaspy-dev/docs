@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G06L-4G
 
+<div className="device-logo">
 ![G06L-4G](./tracker.jpg)
+</div>
 
 El G06L-4G es un rastreador GPS vehicular de grado profesional con conectividad 4G LTE, diseñado para automóviles, camiones y flotas comerciales. Combina un formato preparado para instalación fija en el vehículo con un receptor GNSS de alta sensibilidad y conectividad celular que ofrece actualizaciones de posición precisas, alarmas oportunas y telemetría continua para sistemas de gestión de flotas. La unidad está pensada para uso cableado en vehículos e incluye funciones para reportes de eventos, almacenamiento local y mantenimiento remoto.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - VT900
 
+<div className="device-logo">
 ![VT900](./logo.jpg)
+</div>
 
 El TopShine VT900 es un rastreador vehicular GPS/GSM/GPRS pensado para el monitoreo de ubicación en tiempo real y la seguridad del vehículo. Combina módulos de posicionamiento de alta sensibilidad con comunicación GSM para ofrecer seguimiento continuo, registro de posiciones y diversas alertas relacionadas con el vehículo. El equipo también admite funciones multimedia y de audio, como soporte para cámara y mensajes de voz o difusión, e incluye características para supervisión operativa como cálculo de kilometraje, detección de estado de puertas y batería de respaldo integrada.
 

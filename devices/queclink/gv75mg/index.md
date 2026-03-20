@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV75MG
 
+<div className="device-logo">
 ![GV75MG](./tracker.png)
+</div>
 
 The QuecLink GV75MG is a rugged vehicle tracker purpose built for motorcycles, watercraft, quad bikes and other outdoor vehicles. With an IP67 waterproof enclosure, internal antenna design and low power LTE Cat M1 and NB IoT connectivity with 2G fallback, the GV75MG is engineered to provide reliable real time tracking and telemetry in harsh environments where long standby and battery safety matter.
 

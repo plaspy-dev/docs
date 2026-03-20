@@ -20,7 +20,9 @@ keywords:
 
 # OKB Tehnoavtomatika - AAP PERSONAL
 
+<div className="device-logo">
 ![AAP PERSONAL](./logo.jpg)
+</div>
 
 The AAP PERSONAL monitoring system from OKB Tehnoavtomatika is a standalone tracking device designed for personal and asset monitoring. It is powered by an internal battery and uses a high sensitivity GPS receiver to provide reliable positioning for objects that are remote or lack a fixed power source. The device supports data transmission and notification via GPRS and SMS and can report status to a service control center, making it suitable for tracking goods, personnel, and other mobile assets.
 

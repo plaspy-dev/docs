@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT49
 
+<div className="device-logo">
 ![XT49](./tracker.webp)
+</div>
 
 The XT49 is a rugged GPS tracker designed for long term, remote deployments where service access is limited. Built with integrated solar energy harvesting and LTE connectivity, the XT49 provides continuous, low maintenance tracking suited to containers, long haul trailers, and other assets that spend extended time away from routine servicing. Its fully sealed protective case and durable construction make it appropriate for harsh marine and desert environments.
 

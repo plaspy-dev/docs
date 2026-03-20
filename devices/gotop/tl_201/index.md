@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TL-201
 
+<div className="device-logo">
 ![TL-201](./logo.jpg)
+</div>
 
 The GOTOP TL-201 is a compact GPS tracker designed for personal positioning, pet monitoring, and basic vehicle security. It uses GPS satellites together with the GSM GPRS network to provide location updates, and its small form factor makes it easy to carry or attach to items such as keychains or collars. The TL-201 can transmit longitude and latitude information via SMS or GPRS and can reply with a Google Maps link for quick visual location checks on a smartphone.
 

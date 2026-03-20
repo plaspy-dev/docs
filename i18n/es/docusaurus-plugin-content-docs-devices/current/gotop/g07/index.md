@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G07
 
+<div className="device-logo">
 ![G07](./tracker.jpg)
+</div>
 
 El G07 es un rastreador GPS resistente diseñado para el seguimiento a largo plazo y bajo mantenimiento de vehículos, contenedores y otros activos móviles de alto valor. Combina opciones de batería interna de gran capacidad con una carcasa IP65 y seis imanes potentes para una fijación discreta y resistente a la intemperie. Incluye posicionamiento GNSS, alarmas en el dispositivo y monitoreo de audio remoto para ofrecer telemetría continua de ubicación y eventos.
 

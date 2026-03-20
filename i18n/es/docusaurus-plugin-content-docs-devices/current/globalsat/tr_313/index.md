@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - TR-313
 
+<div className="device-logo">
 ![TR-313](./logo.jpg)
+</div>
 
 El GlobalSat TR-313 es un rastreador GPS personal 3G compacto diseñado para ofrecer monitoreo de ubicación sencillo y mayor seguridad personal. Combina un módulo GPS de adquisición rápida con un formato pequeño y ligero y una operativa fácil de usar. El audio bidireccional integrado y un botón de emergencia dedicado amplían las funciones más allá del rastreo básico, permitiendo contacto de voz inmediato y alertas rápidas hacia los contactos preconfigurados cuando se necesita ayuda.
 

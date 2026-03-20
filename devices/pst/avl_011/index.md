@@ -20,7 +20,9 @@ keywords:
 
 # PST - AVL-011
 
+<div className="device-logo">
 ![AVL-011](./logo.jpg)
+</div>
 
 The PST AVL-011 is a vehicle GPS tracker designed to provide advanced anti theft protection for cars, vans, and trucks. It combines location tracking with remote immobilization capabilities, allowing operators to interrupt a vehicle's power or fuel supply when needed. The device also offers SOS emergency functionality and can be installed in a discreet location to remain hidden from casual inspection.
 

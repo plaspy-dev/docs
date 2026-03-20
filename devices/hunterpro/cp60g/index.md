@@ -20,7 +20,9 @@ keywords:
 
 # HunterPro - CP60G
 
+<div className="device-logo">
 ![CP60G](./logo.jpg)
+</div>
 
 The HunterPro CP60G is a low cost GPS tracking device designed primarily for vehicle tracking and recovery. It uses GPS positioning together with GSM GPRS communication to provide location updates and event reporting. The device is offered with a durable plastic enclosure, GPS and GSM antennas, a backup battery for continued tracking, and inputs for common vehicle events such as ignition, panic, and door status. Optional connectivity options are available for fixed antennas and external sensors like fuel and temperature if projects require additional telemetry.
 

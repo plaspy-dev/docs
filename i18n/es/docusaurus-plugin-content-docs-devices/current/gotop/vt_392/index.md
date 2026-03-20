@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - VT-392
 
+<div className="device-logo">
 ![VT-392](./logo.jpg)
+</div>
 
 El GOTOP VT-392 es un rastreador GPS vehicular versátil que combina monitoreo de ubicación con funciones de alarma e identificación del conductor. Permite integrarse con sistemas de alarma del vehículo e incluye una función de lector RFID para teléfono que permite usar un smartphone como etiqueta autorizada. El equipo reconoce los teléfonos configurados, arma el dispositivo automáticamente cuando el teléfono autorizado sale del vehículo y envía alertas y llamadas al número configurado o a la plataforma si la puerta se abre, el motor arranca o el vehículo se mueve.
 

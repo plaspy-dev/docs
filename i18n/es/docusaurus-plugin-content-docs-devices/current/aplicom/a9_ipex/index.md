@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - A9 IPEX
 
+<div className="device-logo">
 ![A9 IPEX](./logo.jpg)
+</div>
 
 El Aplicom A9 IPEX es un rastreador GPS resistente diseñado para recopilar y transmitir información de vehículos y activos a un servicio de back-end. Pensado para entornos exigentes, el equipo está orientado a ofrecer seguimiento de ubicación fiable y captura de datos operativos para flotas, maquinaria de construcción y otros activos móviles. Su carcasa con protección IP67 lo hace apto para uso exterior e industrial al resistir polvo y agua.
 

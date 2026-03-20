@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-3000
 
+<div className="device-logo">
 ![LMU-3000](./logo.jpg)
+</div>
 
 The CalmAmp LMU-3000 is a compact OBD II compatible vehicle tracking device designed for straightforward vehicle integration. It combines a durable enclosure and internal GPS and GSM antennas with support for quadband GSM connectivity and common data transport methods, providing a reliable foundation for continuous vehicle tracking and diagnostics access where the OBD II interface is required.
 

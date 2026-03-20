@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK720
 
+<div className="device-logo">
 ![LK720](./tracker.jpg)
+</div>
 
 El LK720 es un rastreador CatM compacto y de alto rendimiento diseñado para la supervisión discreta de vehículos y activos. Pensado para automóviles, motocicletas, flotas de alquiler y aplicaciones OEM u ODM, el LK720 ofrece posicionamiento GNSS continuo, conectividad celular CatM y un relé integrado para el corte remoto de combustible o aceite. Su conjunto de funciones está orientado a reportes de ubicación fiables, respuestas prácticas ante robos y supervisión operativa cotidiana.
 

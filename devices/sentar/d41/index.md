@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D41
 
+<div className="device-logo">
 ![D41](./tracker.jpg)
+</div>
 
 The Sentar D41 is a compact 4G kids smartwatch that combines wearable convenience with core GPS tracker capabilities. Designed around multi source positioning including GPS, LBS and WiFi, the D41 delivers regular location updates, an SOS button for emergencies, a durable IPX7 rated housing and a user friendly 1.91 inch touchscreen. Its Android based platform and integrated features make it suitable for daily child monitoring and basic wearable interactions.
 

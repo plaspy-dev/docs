@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM130
 
+<div className="device-logo">
 ![FMM130](./tracker.png)
+</div>
 
 The Teltonika FMM130 is a compact GPS tracker designed for professional fleet management and asset security. It combines modern low power cellular connectivity with support for Bluetooth sensors, CAN bus integration, multiple inputs and outputs, and a built in backup battery to provide dependable position and telemetry reporting for vehicles and sensitive cargo. The device is presented in a vehicle friendly form factor suitable for a range of light and heavy duty applications.
 

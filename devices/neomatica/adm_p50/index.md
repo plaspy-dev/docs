@@ -20,7 +20,9 @@ keywords:
 
 # Neomatica - ADM P50
 
+<div className="device-logo">
 ![ADM P50](./tracker.png)
+</div>
 
 The Neomatica ADM P50 is a compact, battery powered GPS tracker designed for reliable personal and asset tracking. Built around a GNSS chipset and an energy optimized firmware, the ADM P50 supports operation modes ranging from continuous real time tracking to a low frequency beacon mode so users can balance position accuracy with long term autonomy. The device includes motion awareness, an SOS panic button, support for an indoor Bluetooth tag, and USB Type C configuration for straightforward management.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Flextrack - Lommy Pro T
 
+<div className="device-logo">
 ![Lommy Pro T](./tracker.png)
+</div>
 
 Lommy Pro T es un rastreador GPS con monitoreo de temperatura diseñado para envíos de alto valor y sensibles a la temperatura que exigen supervisión continua de la cadena de frío. Combina telemetría de temperatura de alta precisión con posicionamiento fiable y triangulación GSM para ayudar a los operadores a verificar las condiciones de almacenamiento y localizar los activos durante el tránsito. Su amplio rango de medición y registro continuo lo hacen apropiado para medicamentos, vacunas y otros bienes regulados que requieren documentación comprobable del manejo.
 

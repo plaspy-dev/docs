@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D37
 
+<div className="device-logo">
 ![D37](./tracker.png)
+</div>
 
 The D37 is a compact 4G kids smart watch designed for secure real time tracking and two way communication. Built on an RTOS based version of Android 8.1 and using multi mode positioning with GPS AGPS LBS and WiFi, the D37 delivers location updates and status information in a wearable form factor. The device includes a 1.47 inch touchscreen and a dedicated SOS power button to support immediate emergency reporting and simple on device interactions.
 

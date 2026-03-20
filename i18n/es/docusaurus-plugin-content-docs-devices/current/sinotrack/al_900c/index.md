@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - AL-900C
 
+<div className="device-logo">
 ![AL-900C](./Logo.png)
+</div>
 
 El SinoTrack AL-900C es un rastreador GPS compacto para vehículos, diseñado para ofrecer seguimiento de posición fiable y monitoreo básico en una variedad de aplicaciones. Combina tolerancia ambiental robusta —con un rango de operación de -15°C a 80°C y clasificación IP53— con capacidades de comunicación orientadas al reporte continuo de ubicación. El AL-900C integra hardware de posicionamiento y un módulo de comunicación GSM, además de funciones para reporte de alarmas y comunicación de voz remota.
 

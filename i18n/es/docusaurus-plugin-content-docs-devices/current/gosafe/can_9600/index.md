@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - CAN-9600
 
+<div className="device-logo">
 ![CAN-9600](./logo.jpg)
+</div>
 
 El Gosafe CAN-9600 es un accesorio especializado de rastreo GPS diseñado para leer datos FMS de camiones y buses. Recibe la salida FMS de los sistemas del vehículo mediante protocolos CAN estándar y entrega esa información a través de una interfaz serial RS232 a dispositivos posteriores. La unidad está pensada para capturar información operativa del vehículo desde el puerto FMS y transmitirla por enlace serial para que pueda ser reenviada a un sistema de rastreo.
 

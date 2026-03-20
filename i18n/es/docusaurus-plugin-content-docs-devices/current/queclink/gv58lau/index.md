@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV58LAU
 
+<div className="device-logo">
 ![GV58LAU](./tracker.png)
+</div>
 
 El QuecLink GV58LAU es un rastreador GPS compacto diseñado para aplicaciones de seguridad vehicular y gestión de flotas. Integra un receptor GNSS u-blox de alta sensibilidad con conectividad celular LTE Cat 4 para ofrecer posicionamiento en tiempo real y telemetría resiliente. La unidad está pensada para instalaciones discretas en automóviles, flotas de alquiler y vehículos comerciales ligeros, donde una ubicación precisa y comunicación fiable son fundamentales para operaciones y procesos de recuperación.
 

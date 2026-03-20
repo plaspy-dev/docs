@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - LT-10
 
+<div className="device-logo">
 ![LT-10](./logo..jpg)
+</div>
 
 The GlobalSat LT-10 is a solar powered ear tag GPS tracker designed specifically for cattle and range livestock. It pairs a high performance solar cell with a high sensitivity GNSS receiver and LoRaWAN connectivity to deliver long life location tracking in remote pasture environments. Built for field conditions, the LT-10 is compact and rugged with IPX7 water resistance, motion detection, visual indication, and easy configuration via iOS and Android apps.
 

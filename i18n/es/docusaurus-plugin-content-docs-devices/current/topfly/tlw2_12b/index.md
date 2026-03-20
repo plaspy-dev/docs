@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - TLW2-12B
 
+<div className="device-logo">
 ![TLW2-12B](./tracker.png)
+</div>
 
 El TLW2-12B es un rastreador GPS cableado diseñado para el seguimiento robusto de remolques y activos con largos periodos de inactividad. Combina una batería interna recargable de gran capacidad con conectividad celular multibanda y soporte BLE 5.0 para ofrecer informes de ubicación continuos e integración local de sensores, tanto si el remolque está conectado a un camión como si está estacionado en patio. El dispositivo entrega seguimiento en tiempo real confiable, almacenamiento en búfer durante cortes de cobertura y control remoto de salidas para alarmas y accesorios.
 

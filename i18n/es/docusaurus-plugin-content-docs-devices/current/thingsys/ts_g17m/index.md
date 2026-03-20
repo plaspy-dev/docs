@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-G17M
 
+<div className="device-logo">
 ![TS-G17M](./tracker.jpg)
+</div>
 
 El TS-G17M es un rastreador GPS compacto y multifuncional de ThingSys, pensado para la seguridad de motocicletas y vehículos pequeños. Combina posicionamiento híbrido con alarmas específicas para vehículos y control de relé en un formato reducido, lo que lo hace apropiado para montajes discretos y telemetría confiable en dos ruedas y activos similares. El equipo ofrece seguimiento en tiempo real, alertas y capacidades de control remoto orientadas a la prevención de robos y la supervisión operativa.
 

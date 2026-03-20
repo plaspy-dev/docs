@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL505
 
+<div className="device-logo">
 ![VL505](./tracker.png)
+</div>
 
 The Concox VL505 is an ultra compact plug and play 4G OBD II GNSS GPS tracker designed for both private cars and commercial fleets. Installed via the vehicle OBD II port, the VL505 provides continuous real time location and telemetry over LTE Cat 1 and combines multi source positioning with onboard motion sensing and audio monitoring to support tracking, movement events and configurable alerts.
 

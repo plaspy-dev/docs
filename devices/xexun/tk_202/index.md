@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - TK-202
 
+<div className="device-logo">
 ![TK-202](./logo.jpg)
+</div>
 
 The Xexun TK-202 is a compact, wearable GPS tracker designed for flexible tracking of vehicles, assets, and people. Marketed as a multifunction device, the TK-202 can be used as a watch or attached to a keychain or pet collar, and the manufacturer highlights uses that range from private car tracking and rental fleet oversight to protection of children, elderly or disabled individuals. The model is described as reliable and user friendly, intended to provide accurate and real time location information for a variety of personal and business applications.
 

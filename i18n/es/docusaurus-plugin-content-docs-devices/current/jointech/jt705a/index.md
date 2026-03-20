@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - JT705A
 
+<div className="device-logo">
 ![JT705A](./tracker.jpg)
+</div>
 
 El Jointech JT705A es un rastreador GPS diseñado específicamente y un monitor inteligente para contenedores, pensado para operaciones logísticas empresariales y tránsito multimodal. Ideal para contenedores marítimos, unidades refrigeradas, vans y camiones, el JT705A ofrece seguimiento continuo de ubicación junto con reportes de seguridad y estado para respaldar despliegues prolongados y envíos protegidos.
 

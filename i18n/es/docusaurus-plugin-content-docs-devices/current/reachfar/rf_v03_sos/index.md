@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V03-SOS
 
+<div className="device-logo">
 ![RF-V03-SOS](./tracker.jpg)
+</div>
 
 El RF-V03-SOS es un rastreador GPS vehicular robusto y multifunción diseñado para ofrecer seguimiento en tiempo real y telemática de flotas con fiabilidad. Soporta un amplio rango de voltaje de entrada para adaptarse a autos, camiones y vehículos industriales, y ofrece posicionamiento dual combinando GPS y localización basada en celular, logrando en cielo abierto una precisión típica de hasta 10 metros. El equipo prioriza la seguridad y el control remoto con funciones como un botón SOS de un solo toque, corte remoto de motor o alimentación, alarma por vibración y, en algunas variantes, monitoreo de voz opcional. Además, cuenta con carcasa resistente al agua, batería interna de respaldo y almacenamiento local para mantener continuidad en zonas sin cobertura.
 

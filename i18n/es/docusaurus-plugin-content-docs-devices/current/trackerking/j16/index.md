@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - J16
 
+<div className="device-logo">
 ![J16](./tracker.jpg)
+</div>
 
 El J16 es un rastreador GPS vehicular cableado diseñado para ofrecer seguimiento en tiempo real confiable y protección antirrobo profesional. Basado en un módulo celular Quectel y con soporte 4G con conmutación automática a 2G, el J16 garantiza amplia cobertura de red para telemetría en vivo, historial de rutas, reporte de kilometraje y control remoto de inmovilización. Está pensado para instalación segura dentro del arnés eléctrico del vehículo e integración con plataformas telemáticas de terceros.
 

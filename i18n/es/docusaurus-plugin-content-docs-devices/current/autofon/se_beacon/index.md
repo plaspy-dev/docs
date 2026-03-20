@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - SE+ Beacon
 
+<div className="device-logo">
 ![SE+ Beacon](./tracker.png)
+</div>
 
 El AutoFon SE+ Beacon es un rastreador GPS compacto compatible con Plaspy, diseñado para el monitoreo discreto a largo plazo de vehículos y otros activos móviles o estacionarios. Combina posicionamiento por GPS y GLONASS con canales de reporte basados en GSM para ofrecer telemetría de ubicación y alertas de eventos confiables, al tiempo que optimiza la duración de la batería. Su reducido tamaño de 69 × 51 × 22 mm y su orientación hacia largos intervalos de servicio lo hacen idóneo para despliegues donde la baja detectabilidad y el mantenimiento mínimo son prioridades.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - EC33B
 
+<div className="device-logo">
 ![EC33B](./tracker.jpg)
+</div>
 
 The EC33B is a compact, multi function 4G GPS tracker designed for reliable vehicle and asset monitoring. Built around a Quectel 4G Cat 1 module with automatic fallback to 2G, the EC33B provides continuous real time tracking and history route playback so fleets and individual owners can monitor location, mileage and status. Its wired form factor and broad input range make it suitable for a range of vehicle types without extra conversion hardware.
 

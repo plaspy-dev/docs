@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - JT301A
 
+<div className="device-logo">
 ![JT301A](./tracker.jpg)
+</div>
 
 El rastreador de activos Jointech JT301A es un dispositivo compacto diseñado para ofrecer visibilidad a largo plazo de activos en redes logísticas y de distribución. Está pensado para su uso en contenedores, pallets y camiones de caja, y proporciona actualizaciones de ubicación LBS programadas junto con monitoreo de apertura de puertas e iluminación. Esta combinación convierte al JT301A en una opción adecuada cuando se necesitan informes periódicos de ubicación y alertas por manipulación sin los costos y el consumo de energía asociados al seguimiento en tiempo real continuo.
 

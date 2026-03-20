@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CC-318
 
+<div className="device-logo">
 ![CC-318](./tracker.JPG)
+</div>
 
 The CC-318 is a compact vehicle tracker designed for car rental, car sharing and fleet management environments. Built to provide continuous position reporting and remote vehicle control, the CC-318 combines GNSS positioning with cellular connectivity and vehicle control outputs to support real-time tracking, remote immobilization and basic anti-theft functions. The device also includes an internal backup battery and a power down alarm to help maintain visibility when main power is interrupted.
 

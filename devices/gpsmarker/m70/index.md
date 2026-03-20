@@ -20,7 +20,9 @@ keywords:
 
 # GPSMarker - M70
 
+<div className="device-logo">
 ![M70](./logo.jpg)
+</div>
 
 The GPSMarker M70 is a versatile GPS tracker designed for reliable long term tracking of vehicles and assets. It ships with a full set of features intended to reduce ongoing subscription costs by operating without a mandatory service fee, instead using outgoing SMS and GPRS traffic on a pay as you go basis. The device includes a high sensitivity 99 channel GPS GLONASS receiver, a prepared SIM tariff for online monitoring, and a range of built in sensors plus a panic SOS button for added security.
 

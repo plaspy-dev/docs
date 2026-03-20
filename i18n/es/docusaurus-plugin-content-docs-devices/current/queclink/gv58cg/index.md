@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV58CG
 
+<div className="device-logo">
 ![GV58CG](./tracker.png)
+</div>
 
 El GV58CG es un rastreador telemático GNSS compacto de QuecLink diseñado para la gestión de flotas y la seguridad vehicular. Combina posicionamiento preciso, entradas E/S prácticas y soporte de accesorios, y un diseño de tamaño reducido para ofrecer capacidades de seguimiento en tiempo real, telemetría y control vehicular adecuadas para operadores de flotas, servicios de alquiler de autos y procesos de recuperación de vehículos robados.
 

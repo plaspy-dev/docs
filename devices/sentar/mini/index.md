@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - Mini
 
+<div className="device-logo">
 ![Mini](./tracker.png)
+</div>
 
 The Sentar Mini is a compact 4G GPS tracker designed for personal and small asset tracking. It combines multi mode positioning with worldwide cellular support to deliver continuous location updates and status telemetry. The device is described as compact and portable, with an IPX7 waterproof rating and a rechargeable battery, making it suitable for everyday use on people, pets, luggage, and similar small items.
 

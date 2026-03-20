@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV56RS
 
+<div className="device-logo">
 ![GV56RS](./tracker.png)
+</div>
 
 El GV56RS es un rastreador GPS compacto de QuecLink diseñado para la gestión de flotas, alquiler de vehículos, soluciones de seguro basadas en uso (UBI) y recuperación de vehículos robados. Combina comunicación GSM/GPRS cuatribanda con un receptor GNSS de alta sensibilidad y Bluetooth Low Energy integrado en una carcasa de perfil bajo que encaja en vehículos ligeros y flotas de alquiler. El equipo amplía la plataforma GV56 con un puerto serie RS485 para múltiples sensores cableados y admite opciones de identificación de conductor y sonda de temperatura.
 

@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - G19
 
+<div className="device-logo">
 ![G19](./Logo.jpg)
+</div>
 
 The WanWay G19 is a small, compact GPS tracker that combines GSM and GPS technology into a lightweight enclosure. It includes a built in antenna and sensors and delivers real time tracking, trace playback, SMS notification and multiple alert protections such as over speed alarm. The device is rated IP67 for waterproof protection, measures 74mm L x 35mm W x 13mm H and weighs about 29g, making it easy to conceal and deploy on a wide range of vehicles and assets. The G19 operates on quad bands and reports location with a stated GPS accuracy of around 5 meters while accepting a wide input voltage range.
 

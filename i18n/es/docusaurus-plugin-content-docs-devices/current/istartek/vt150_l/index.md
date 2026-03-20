@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT150-L
 
+<div className="device-logo">
 ![VT150-L](./tracker.png)
+</div>
 
 El VT150-L es un rastreador GPS 4G compacto diseñado para motocicletas, pensado para ofrecer seguimiento en tiempo real y seguridad del vehículo. Orientado a uso en motos y vehículos livianos, combina posicionamiento GNSS multi constelación con conectividad celular para reportar ubicación, telemetría y eventos de alarma. El equipo se presenta como robusto, con clasificación IP66 y un amplio rango de voltaje de entrada, e incluye funciones como alertas por eventos, control remoto del inmovilizador y soporte para actualizaciones de firmware.
 

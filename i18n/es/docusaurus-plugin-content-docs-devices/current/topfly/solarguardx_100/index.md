@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - SolarGuardX 100
 
+<div className="device-logo">
 ![SolarGuardX 100](./tracker.png)
+</div>
 
 SolarGuardX 100 es un rastreador GPS resistente con asistencia solar y opción de candado, diseñado para la protección de activos en exteriores. Pensado para contenedores, remolques y camiones, combina una mayor capacidad de batería con carga solar integrada y una carcasa industrial impermeable para ofrecer seguimiento persistente y de bajo mantenimiento. La unidad incorpora elementos de montaje físico como un imán potente embebido y una cuerda suministrada para adaptarse a entornos de transporte y almacenamiento exigentes.
 

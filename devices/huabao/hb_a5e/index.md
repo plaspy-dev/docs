@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A5E
 
+<div className="device-logo">
 ![HB-A5E](./logo.jpg)
+</div>
 
 The Huabao HB-A5E is a compact GPS vehicle tracker designed for private cars and motorcycles. It provides GPS real time tracking and positioning in a small form factor and is marketed for users who need straightforward location monitoring and basic vehicle security features. The device also includes ignition detection and immobilization capabilities, making it suitable for owners who want additional control over vehicle use.
 

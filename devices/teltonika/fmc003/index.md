@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC003
 
+<div className="device-logo">
 ![FMC003](./tracker.png)
+</div>
 
 The Teltonika FMC003 is a plug and play OBD II GPS tracker designed for fleet management, logistics and e mobility programs. Its OBD II form factor and OEM parameter reading deliver vehicle sourced telemetry such as odometer, fuel level and EV battery metrics, while cellular connectivity supports continuous position and status updates for mixed vehicle fleets.
 

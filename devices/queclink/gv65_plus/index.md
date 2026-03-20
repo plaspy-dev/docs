@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV65 Plus
 
+<div className="device-logo">
 ![GV65 Plus](./tracker.png)
+</div>
 
 The GV65 Plus is a compact vehicle GPS tracker designed for professional fleet management and vehicle security. Purpose built for logistics, courier services, stolen vehicle recovery and long distance trucking, the device delivers dependable location, telemetry and event data while maintaining a small footprint suitable for covert installations.
 

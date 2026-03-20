@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - MT-350
 
+<div className="device-logo">
 ![MT-350](./tracker.jpg)
+</div>
 
 The MT-350 is a precision indoor positioning wristband designed for continuous wear and high accuracy personnel and asset tracking. As a compact wristwatch sized device, it uses Ultra Wideband positioning to provide reliable real time location with typical accuracy in the 10 to 30 centimeter range. The ergonomic bracelet form factor, wireless charging support and mission oriented safety features make it suitable for sustained use in environments where precise indoor location matters.
 

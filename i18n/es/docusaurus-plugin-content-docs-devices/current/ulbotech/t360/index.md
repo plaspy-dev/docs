@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T360
 
+<div className="device-logo">
 ![T360](./tracker.jpg)
+</div>
 
 El Ulbotech T360 es un rastreador OBD plug and play pensado para despliegues rápidos en autos y vehículos comerciales ligeros. Construido alrededor del motor GNSS u blox 6M y un módem GPRS/GSM cuatribanda, el equipo ofrece posicionamiento en tiempo real, notificación de eventos y análisis del comportamiento de conducción. Sus antenas internas, detección automática de APN y zona horaria, y funciones de actualización de firmware facilitan la implementación y el mantenimiento tanto para flotas como para propietarios particulares.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G08
 
+<div className="device-logo">
 ![G08](./tracker.jpg)
+</div>
 
 El GOTOP G08 es un rastreador OBD GPS compacto plug and play diseñado para autos de renta, taxis, vehículos de flota y camiones ligeros. Combina posicionamiento por GPS y BeiDou con conmutación a LBS y un conjunto de alarmas vehiculares para soportar el seguimiento en tiempo real, la detección antirrobo y una gestión de flotas sencilla. Su formato y diseño están pensados para despliegues rápidos y una presencia discreta dentro de la cabina.
 

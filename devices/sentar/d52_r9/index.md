@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D52-R9
 
+<div className="device-logo">
 ![D52-R9](./tracker.jpg)
+</div>
 
 The D52-R9 is a Plaspy compatible children's smartwatch designed for dependable real time tracking and family communication. Built for personal safety, the device combines cellular connectivity with GPS positioning and fallback location sources to provide location updates, geofencing notifications, and voice and video calling in a wearable form factor suitable for everyday use.
 

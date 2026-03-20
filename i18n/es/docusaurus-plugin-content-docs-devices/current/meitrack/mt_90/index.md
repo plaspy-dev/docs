@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - MT-90
 
+<div className="device-logo">
 ![MT-90](./logo.jpg)
+</div>
 
 El Meitrack MT-90 V4 es un rastreador GPS personal compacto pensado para un uso cotidiano y ligero. Combina un tamaño reducido con funcionalidades orientadas a la seguridad y monitoreo personal, incluyendo hasta 10 días de autonomía en espera, una alarma integrada de persona caída para situaciones de emergencia, audio bidireccional con capacidad de escucha remota y protección con clasificación IP65 contra el agua. Su operación se mantiene sencilla gracias a una interfaz de solo dos botones, ideal para usuarios no técnicos.
 

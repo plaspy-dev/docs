@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMU125
 
+<div className="device-logo">
 ![FMU125](./Logo.png)
+</div>
 
 El Teltonika FMU125 es un terminal compacto y profesional de rastreo en tiempo real, diseñado para el monitoreo fiable de vehículos y otros activos móviles. Combina posicionamiento GNSS con conectividad 3G GSM e incorpora antenas GNSS y 3G integradas, además de un acelerómetro para la detección de movimiento y eventos. El equipo también dispone de una interfaz de datos para conectar dispositivos externos de terceros y ampliar las capacidades de supervisión.
 

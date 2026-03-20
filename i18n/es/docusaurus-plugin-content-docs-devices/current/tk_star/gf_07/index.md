@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - GF 07
 
+<div className="device-logo">
 ![GF 07](./logo..png)
+</div>
 
 El TK-Star GF 07 es un rastreador GPS compacto y portátil pensado para facilitar el seguimiento y la supervisión. Con un diseño miniatura y una carcasa ligera de ABS, el dispositivo puede colocarse dentro de pertenencias o llevarse en el bolsillo. El GF 07 emplea posicionamiento GSM y una tarjeta SIM compatible para enviar actualizaciones de ubicación, lo que lo hace adecuado para vigilar personas, objetos de valor y el seguimiento de vehículos ligeros cuando se necesita un dispositivo de reducidas dimensiones.
 

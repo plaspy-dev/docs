@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS-401
 
+<div className="device-logo">
 ![GPS-401](./logo..png)
+</div>
 
 The Coban GPS-401 is a compact and versatile GPS tracker designed primarily for motorcycles and small cars. It supports both 2G and 4G GSM networks for position reporting and offers GPS and LBS real time tracking. The device is built with an IP67 waterproof rating and a wide DC voltage range, making it suitable for outdoor use and a variety of vehicle power systems.
 

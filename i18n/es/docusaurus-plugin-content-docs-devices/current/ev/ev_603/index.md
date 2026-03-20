@@ -21,7 +21,9 @@ keywords:
 
 # EV - EV-603
 
+<div className="device-logo">
 ![EV-603](./logo.jpg)
+</div>
 
 El EV-603 es un rastreador GPS para vehículos y motocicletas pensado para ofrecer monitorización de ubicación confiable y funciones básicas de seguridad para flotas. Diseñado para soportar condiciones adversas con clasificación IP66, integra antenas internas de posicionamiento y comunicación junto con un módulo GPS U‑Blox que proporciona localizaciones consistentes. Además incluye un sensor 3D de aceleración (G‑sensor) para detección de movimiento, memoria a bordo para registro de datos y una batería de respaldo para mantener la operación si se pierde la alimentación externa.
 

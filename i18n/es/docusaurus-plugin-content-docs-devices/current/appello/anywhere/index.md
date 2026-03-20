@@ -21,7 +21,9 @@ keywords:
 
 # Appello - Anywhere
 
+<div className="device-logo">
 ![Anywhere](./logo.jpg)
+</div>
 
 El Appello Anywhere es un rastreador GPS compacto y versátil diseñado para ofrecer ubicación confiable en una amplia variedad de escenarios. Combina conectividad GSM GPRS multibanda con el chip GPS New Star NS 1315 y una CPU ARM7 para entregar datos posicionales con sensibilidad y precisión reportadas adecuadas para seguimiento móvil y portátil. El equipo incluye un cargador de pared y una batería recargable; su tamaño reducido y peso ligero facilitan su uso en vehículos, activos o transporte personal.
 

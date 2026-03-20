@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - V80
 
+<div className="device-logo">
 ![V80](./logo.jpg)
+</div>
 
 El Sentar V80 es un reloj GPS compacto pensado para niños. Comercializado también como V80-1.22 Niños Reloj GPS, el equipo combina un diseño atractivo para menores —disponible en azul, rosa y naranja— con tecnologías de posicionamiento destinadas a ofrecer actualizaciones regulares de ubicación a los cuidadores. La ficha técnica destaca un chipset MTK2503 y varios modos de localización (GPS, AGPS, LBS y WiFi), además de funciones de seguridad como botón SOS, comunicación bidireccional y alertas por geocerca.
 

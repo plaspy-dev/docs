@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK900
 
+<div className="device-logo">
 ![LK900](./logo..jpg)
+</div>
 
 The LK900 is a compact magnet car tracker from LK-GPS designed for flexible asset and vehicle tracking. It provides real time location updates and common monitoring features such as history trace review, geo fencing, overspeed alerts, and low battery notifications. The device is built for use on cars, rental vehicles, equipment, containers, and cargo where durable, continuous tracking is required.
 

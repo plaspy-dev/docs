@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T376
 
+<div className="device-logo">
 ![T376](./tracker.jpg)
+</div>
 
 The Ulbotech T376 is a plug‑and‑play OBDII GPS tracker built for vehicle telemetry and fleet management. Designed to provide location reporting, engine and vehicle parameter access, and anti‑theft control from the OBDII port, the T376 combines GNSS positioning, cellular and Wi‑Fi communications, on‑board accelerometer event detection, and remote firmware update capability for practical in‑vehicle deployments.
 

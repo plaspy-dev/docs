@@ -20,7 +20,9 @@ keywords:
 
 # NVS - Navitrek UM-02
 
+<div className="device-logo">
 ![Navitrek UM-02](./logo.jpg)
+</div>
 
 The Navitrek UM-02 is an autonomous search device designed to locate objects and transmit location information to a control center using GPRS and SMS channels. It combines a compact form factor with positioning functionality, making it suitable for tracking and monitoring vehicles, assets, or individuals where discreet, reliable reporting is required. The device description highlights a domestic certified GLONASS/GPS receiver series NV08C from ZAO KB NAVIS, which contributes to improved positioning reliability.
 

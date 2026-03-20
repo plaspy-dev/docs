@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - A12
 
+<div className="device-logo">
 ![A12](./logo..jpg)
+</div>
 
 El GOTOP A12 es un rastreador GPS diseñado específicamente para el seguimiento de animales y se suministra con un collar para facilitar su colocación. Combina posicionamiento por GPS y conectividad GSM para ofrecer actualizaciones de ubicación en tiempo real y registro de rutas históricas. El equipo incluye un sensor de movimiento integrado para alertas de actividad, soporta monitoreo de voz y cuenta con certificación IPX7 de resistencia al agua, lo que lo hace apto para uso exterior en diversos entornos. Con dimensiones de 84 x 47 x 45 mm y alrededor de 145 g, el A12 es compacto y está pensado para que los animales lo lleven con comodidad.
 

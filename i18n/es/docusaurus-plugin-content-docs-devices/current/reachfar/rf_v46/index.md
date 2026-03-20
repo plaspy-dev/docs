@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V46
 
+<div className="device-logo">
 ![RF-V46](./tracker.jpg)
+</div>
 
 El Reachfar RF-V46 es un reloj portátil con GPS 4G y funciones de teléfono con video, diseñado para cuidadores, familias y organizaciones que requieren seguimiento personal confiable y monitoreo remoto. En formato de pulsera, combina conectividad celular 4G con posicionamiento GPS, llamadas bidireccionales, videollamadas opcionales y sensores biométricos básicos para ofrecer una supervisión constante del estado y la ubicación del usuario.
 

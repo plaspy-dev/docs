@@ -20,7 +20,9 @@ keywords:
 
 # Gnxis - 4-wire
 
+<div className="device-logo">
 ![4-wire](./Logo.jpg)
+</div>
 
 The Gnxis 4-wire is a compact GPS tracker designed for real time vehicle location monitoring and security alerts. It is positioned for use in private cars, commercial fleets, and motorcycles, delivering precise positioning and a range of alarm options to help protect and monitor assets. The device is built to maintain connectivity across common cellular networks, and it includes features aimed at conserving power while parked.
 

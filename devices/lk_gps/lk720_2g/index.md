@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK720-2G
 
+<div className="device-logo">
 ![LK720-2G](./tracker.jpg)
+</div>
 
 The LK720-2G Mini Relay GPS Tracker is a compact device designed for discreet vehicle security and reliable real time tracking. Built for use in cars and motorcycles, the tracker pairs built in GPS and GSM antennas with a mini relay output to provide anti theft immobilizer functionality, shock triggered alarms, and continuous location telemetry. Its small form factor makes it suitable for covert installation while delivering the core tracking features needed by individual owners and fleet operators.
 

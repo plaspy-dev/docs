@@ -20,7 +20,9 @@ keywords:
 
 # Totemtech - AT09
 
+<div className="device-logo">
 ![AT09](./logo.jpg)
+</div>
 
 The Totemtech AT09 is a versatile vehicle GPS tracker designed for real-time tracking and multi-sensor monitoring. It combines location tracking with specialized inputs for tire pressure, multiple fuel sensors, and temperature probes, plus peripheral connectivity for devices such as displays, cameras, and RFID readers. Built-in motion detection and local storage extend the device's usefulness for continuous monitoring and historical trace review.
 

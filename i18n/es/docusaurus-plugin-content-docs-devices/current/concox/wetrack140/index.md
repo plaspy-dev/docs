@@ -21,7 +21,9 @@ keywords:
 
 # Concox - WeTrack140
 
+<div className="device-logo">
 ![WeTrack140](./tracker.png)
+</div>
 
 El WeTrack140 es un rastreador GPS vehicular multifuncional aprobado por AIS140 y diseñado para el mercado indio. Ofrece rastreo continuo en tiempo real junto con monitoreo de distancia y velocidad, además de exponer diversas entradas de telemetría y estados útiles para la supervisión a nivel de vehículo. El equipo está diseñado para uso automotriz resistente, con protección contra polvo y agua, alimentación de respaldo y funciones orientadas al control operativo y la seguridad.
 

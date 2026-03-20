@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV51MG
 
+<div className="device-logo">
 ![GV51MG](./logo..png)
+</div>
 
 The QuecLink GV51MG is a compact, ultra thin LTE vehicle tracker designed for covert installation. It offers global LTE Cat M1 and NB1 connectivity with 2G fallback and a unique antenna solution, making it suitable for a wide range of vehicle tracking scenarios. Its small form factor and discreet profile allow the device to be easily hidden within a vehicle while delivering essential tracking and status information.
 

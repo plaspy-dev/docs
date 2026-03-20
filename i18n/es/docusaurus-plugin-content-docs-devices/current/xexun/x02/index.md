@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - X02
 
+<div className="device-logo">
 ![X02](./tracker.jpg)
+</div>
 
 El X02 es un rastreador compacto y recargable de Xexun con GNSS Beidou, diseñado para la gestión de localización de vehículos industriales y el seguimiento de activos. Robusto y portátil, el equipo combina posicionamiento GNSS híbrido con asistencia por Wi‑Fi y LBS, además de un enlace celular multinetwork para ofrecer ubicación en tiempo real, reproducción de históricos y telemetría básica para vehículos, motocicletas y activos portátiles. Un imán interno potente y una batería recargable de alta capacidad hacen que el X02 sea adecuado cuando no es práctico realizar un cableado fijo.
 

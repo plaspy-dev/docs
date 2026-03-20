@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - TLT-1D
 
+<div className="device-logo">
 ![TLT-1D](./logo.jpg)
+</div>
 
 The V-SUN TLT-1D Remote Control Vehicle GPS Tracker is a compact location device designed for vehicles, motorcycles, electric golf carts, and private cars. It combines GPS positioning with GSM and GPRS communication to provide location information by SMS or over a data connection. The device aims to deliver accurate coordinates and basic trip details even in challenging signal environments such as urban canyons or valleys.
 

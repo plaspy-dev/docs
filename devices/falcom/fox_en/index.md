@@ -20,7 +20,9 @@ keywords:
 
 # Falcom - FOX-EN
 
+<div className="device-logo">
 ![FOX-EN](./logo.jpg)
+</div>
 
 The Falcom FOX-EN is a versatile GPS tracker designed for adaptable fleet and vehicle monitoring. It is described as a configurable device that can be tailored to different needs from AVL and fleet management to vehicle security and recovery. The FOX-EN supports autonomous operation, interaction with sensors and actors, history logging, and multiple messaging options for status updates and alerts.
 

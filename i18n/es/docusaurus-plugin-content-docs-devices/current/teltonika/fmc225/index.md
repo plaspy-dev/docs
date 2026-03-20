@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMC225
 
+<div className="device-logo">
 ![FMC225](./tracker.png)
+</div>
 
 El FMC225 es un rastreador GPS robusto de Teltonika diseñado para la gestión profesional de flotas en entornos exigentes. Pensado para montaje externo y uso pesado, ofrece conectividad celular con opciones de respaldo y capacidad Dual SIM para mantener los vehículos conectados y reportando posición y telemetría en tiempo real. Está orientado a aplicaciones en agricultura, construcción, minería y otras industrias que requieren hardware duradero y visibilidad continua de activos.
 

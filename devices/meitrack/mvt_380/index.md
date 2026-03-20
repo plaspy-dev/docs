@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - MVT-380
 
+<div className="device-logo">
 ![MVT-380](./logo.jpg)
+</div>
 
 The Meitrack MVT-380 is a versatile GPS tracker designed for tracking vehicles and assets with a practical set of features. It provides real time tracking, geo‑fence alerts, GPS logging for trip records, and two‑way audio, making it suitable for both commercial fleets and personal vehicle monitoring. The unit is configurable to accommodate accessories such as a relay for remote engine stop and includes power saving modes to extend operational time.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G909
 
+<div className="device-logo">
 ![G909](./logo..jpg)
+</div>
 
 El GOTOP G909 es un rastreador GPS mini compacto diseñado para el seguimiento de vehículos y la monitorización de activos. Integra navegación por satélite GPS y BDS, comunicación inalámbrica 4G LTE FDD y una antena completamente integrada de alta eficiencia. El dispositivo está pensado para ofrecer posicionamiento confiable y operar con modos inteligentes de ahorro de energía, adecuados para escenarios de seguimiento continuo.
 

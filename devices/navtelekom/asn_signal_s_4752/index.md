@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - ASN SIGNAL S-4752
 
+<div className="device-logo">
 ![ASN SIGNAL S-4752](./tracker.jpg)
+</div>
 
 The ASN SIGNAL S-4752 is a certified vehicle GPS tracker designed for reliable telematics and regulatory compliance. Built for fleet management, hazardous goods transport and industrial vehicle monitoring, the S-4752 provides GLONASS and GPS positioning, LTE cellular connectivity, robust universal I O and onboard logging. The device combines rugged automotive protections, external antennas and dual SIM redundancy to keep vehicle data flowing under demanding conditions.
 

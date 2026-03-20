@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GOT10
 
+<div className="device-logo">
 ![GOT10](./tracker.jpg)
+</div>
 
 El GOT10 de Shenzhen EELINK Communication Technology Co. Ltd es un rastreador OBD diseñado para operadores de flotas profesionales y propietarios de vehículos particulares que requieren seguimiento GPS confiable junto con diagnóstico a bordo. Al conectarse directamente al puerto OBD del vehículo como dispositivo plug-and-play, el GOT10 captura datos del CAN BUS y del sistema OBD para que usted pueda supervisar la ubicación y el estado del vehículo sin cables adicionales.
 

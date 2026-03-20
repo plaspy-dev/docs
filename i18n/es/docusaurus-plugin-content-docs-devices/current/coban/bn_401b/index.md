@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-401B
 
+<div className="device-logo">
 ![BN-401B](./tracker.png)
+</div>
 
 El BN-401B es un rastreador GPS 4G compacto y terminal de gestión para motocicletas diseñado para ofrecer protección antirrobo sencilla y seguimiento en tiempo real. Orientado a vehículos pequeños y automóviles particulares, proporciona posicionamiento GPS fiable, lógica de alarmas configurable y telemetría esencial para que propietarios y gestores de flota puedan monitorear activos con un esfuerzo mínimo de instalación. Su diseño liviano y la capacidad de batería de respaldo permiten un monitoreo continuo en condiciones habituales de uso.
 

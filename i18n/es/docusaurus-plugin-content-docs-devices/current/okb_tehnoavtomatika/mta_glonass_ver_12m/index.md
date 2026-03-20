@@ -21,7 +21,9 @@ keywords:
 
 # OKB Tehnoavtomatika - MTA-Glonass (ver. 12M)
 
+<div className="device-logo">
 ![MTA-Glonass (ver. 12M)](./tracker.jpg)
+</div>
 
 El MTA-Glonass (ver. 12M) es un terminal de rastreo GPS compacto diseñado para ofrecer monitorización y telemetría vehicular confiables. Integra un receptor GNSS de alta sensibilidad de 50 canales junto con comunicaciones GSM 900/1800, y soporta canales DATA, GPRS y SMS para intercambio bidireccional de datos. Esto lo hace adecuado para seguimiento en tiempo real, registro de eventos y tareas de control remoto en entornos automotrices e industriales. La unidad tolera un amplio rango de voltaje de entrada, incluye batería recargable integrada y ofrece múltiples entradas y salidas para necesidades comunes de telemetría.
 

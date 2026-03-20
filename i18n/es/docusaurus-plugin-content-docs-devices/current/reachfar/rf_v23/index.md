@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V23
 
+<div className="device-logo">
 ![RF-V23](./tracker.jpg)
+</div>
 
 El RF-V23 es un rastreador GPS robusto y de larga autonomía diseñado para la protección de activos en exteriores y el monitoreo remoto continuo. Se ofrece en configuraciones que incluyen una batería de gran capacidad y carga solar opcional, y su carcasa cumple con la protección IP66 para entornos exigentes. El equipo soporta posicionamiento GNSS y múltiples modos de localización para mantener un seguimiento confiable de vehículos y maquinaria de campo, minimizando las visitas de mantenimiento.
 

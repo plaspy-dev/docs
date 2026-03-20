@@ -21,7 +21,9 @@ keywords:
 
 # Laipac - S911 Enforcer
 
+<div className="device-logo">
 ![S911 Enforcer](./tracker.png)
+</div>
 
 El S911 Enforcer es un rastreador GPS de pulsera y un dispositivo de monitoreo electrónico diseñado para supervisión continua y no estigmatizante. Con formato tipo reloj, integra posicionamiento GNSS, conectividad celular, AGPS y BLE para ofrecer actualizaciones de ubicación en tiempo real, historial de puntos (breadcrumb history) y cumplimiento fiable de geovallas en programas de supervisión personal.
 

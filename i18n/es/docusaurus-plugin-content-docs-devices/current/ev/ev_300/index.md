@@ -21,7 +21,9 @@ keywords:
 
 # EV - EV-300
 
+<div className="device-logo">
 ![EV-300](./logo.jpg)
+</div>
 
 El EV-300 Vehicle/Motorcycle GPS Tracker de EV es un dispositivo compacto diseñado para entregar información de ubicación estable y en tiempo real tanto para vehículos como para motocicletas. Pensado para una amplia gama de voltajes de operación y con antenas internas, el EV-300 prioriza un desempeño consistente y facilidad de instalación. Incluye múltiples entradas y salidas, un puerto RS232 para integrar accesorios, memoria interna para almacenamiento de waypoints, batería de respaldo y un acelerómetro interno para detección de movimiento y modos de ahorro de energía.
 

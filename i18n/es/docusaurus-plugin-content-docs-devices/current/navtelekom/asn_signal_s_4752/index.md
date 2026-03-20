@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - ASN SIGNAL S-4752
 
+<div className="device-logo">
 ![ASN SIGNAL S-4752](./tracker.jpg)
+</div>
 
 El ASN SIGNAL S-4752 es un rastreador vehicular certificado diseñado para ofrecer telemática confiable y cumplir requisitos regulatorios. Pensado para la gestión de flotas, el transporte de mercancías peligrosas y la supervisión de vehículos industriales, el S-4752 proporciona posicionamiento GLONASS y GPS, conectividad celular LTE, entradas y salidas universales robustas y registro de datos a bordo. El equipo integra protecciones automotrices resistentes, antenas externas y redundancia mediante doble SIM para garantizar la transmisión de datos en condiciones exigentes.
 

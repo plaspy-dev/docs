@@ -20,7 +20,9 @@ keywords:
 
 # Pointer - Cello Track XT
 
+<div className="device-logo">
 ![Cello Track XT](./logo.jpg)
+</div>
 
 The Cello Track XT from Pointer is a rugged GPS tracker designed for asset tracking in extreme weather conditions. Part of the CelloTrack XT family, this device is built to operate reliably from arctic lows to desert highs, offering a wide operational temperature range and robust construction suited to demanding environments. The family includes the CelloTrack XT and the CelloTrack Power XT, sharing core capabilities and firmware with Pointer's broader CelloTrack line.
 

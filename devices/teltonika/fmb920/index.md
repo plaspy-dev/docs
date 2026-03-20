@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB920
 
+<div className="device-logo">
 ![FMB920](./tracker.png)
+</div>
 
 The Teltonika FMB920 is a compact GPS tracker designed for reliable vehicle tracking and anti theft protection. With a slim 12 mm height housing and a form factor suited to discreet installation, the FMB920 targets small vehicles and assets that require a low profile telematics solution while delivering continuous position and event reporting.
 

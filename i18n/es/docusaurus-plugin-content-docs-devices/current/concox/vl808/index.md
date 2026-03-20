@@ -21,7 +21,9 @@ keywords:
 
 # Concox - VL808
 
+<div className="device-logo">
 ![VL808](./tracker.png)
+</div>
 
 El VL808 es un terminal GNSS vehicular de instalación fija con LTE diseñado para el seguimiento confiable de flotas y vehículos en entornos exigentes. Cuenta con protección de grado industrial y posicionamiento multi GNSS que ofrece una precisión por debajo de 2.5 m CEP, además de telemetría integrada como acelerómetro, entradas/salidas flexibles y compatibilidad con accesorios BLE para cubrir una amplia gama de necesidades de monitoreo vehicular.
 

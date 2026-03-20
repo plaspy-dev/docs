@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - DK17
 
+<div className="device-logo">
 ![DK17](./tracker.jpg)
+</div>
 
 The DK17 is a professional vehicle GPS tracker from TrackerKing designed for reliable real time tracking and fleet management. As a wired vehicle tracker with 4G plus 2G Cat 1 cellular connectivity, it delivers continuous location updates, mileage statistics and a set of security and remote control features suited to commercial fleets, rental vehicles and anti theft deployments. The unit is engineered to maintain operation across a broad input voltage range and includes an internal backup battery to preserve tracking through power interruptions.
 

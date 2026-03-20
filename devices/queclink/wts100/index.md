@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - WTS100
 
+<div className="device-logo">
 ![WTS100](./tracker.png)
+</div>
 
 The QuecLink WTS100 is a compact, battery powered wireless temperature sensor designed for cold chain logistics, asset monitoring, and other temperature sensitive deployments. It provides periodic temperature telemetry from refrigerated trucks, containers, warehouses, and field assets where lightweight, long life sensing is needed. While the WTS100 does not include GPS, it is intended to deliver reliable environmental data that complements location and fleet information.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Coban - TK103B
 
+<div className="device-logo">
 ![TK103B](./logo.jpg)
+</div>
 
 The Coban TK103B is a vehicle oriented GPS tracker designed for positioning, security monitoring, and real time tracking. It combines satellite positioning with cellular data transmission and SMS reporting to provide location visibility, emergency alarms, and surveillance features. The device is commonly used to locate vehicles, monitor movement, and trigger alerts for events such as SOS, low battery, geofence breaches, and overspeed situations.
 

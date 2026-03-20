@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST410MG
 
+<div className="device-logo">
 ![ST410MG](./tracker.jpg)
+</div>
 
 El ST410MG es un rastreador GPS compacto compatible con Plaspy, diseñado para el monitoreo discreto y de larga duración de activos y cargamentos. Integra posicionamiento GNSS con ayuda SBAS y una arquitectura de comunicaciones dual que incluye GSM GPRS y RF 433–435 MHz, soportando seguimiento continuo, telemetría y flujos de trabajo orientados a maximizar la vida útil de la batería y extender el alcance RF.
 

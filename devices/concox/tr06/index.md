@@ -20,7 +20,9 @@ keywords:
 
 # Concox - TR06
 
+<div className="device-logo">
 ![TR06](./logo.jpg)
+</div>
 
 The Concox TR06 is a vehicle GPS tracker designed for reliable position reporting and basic vehicle security. It combines GPS satellite positioning with GSM GPRS connectivity to deliver continuous location updates, real time tracking, monitoring surveillance, and emergency alarm capabilities. The device is marketed for use in vehicle tracking and fleet management, and includes functionality such as remote engine off for added theft deterrence and control.
 

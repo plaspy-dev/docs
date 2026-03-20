@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-2613
 
+<div className="device-logo">
 ![СИГНАЛ S-2613](./tracker.jpeg)
+</div>
 
 El СИГНАЛ S-2613 de Navtelekom es un rastreador compacto para vehículos y activos, diseñado para ofrecer funciones telemáticas esenciales en entornos profesionales. Como modelo de entrada de la familia SIGNAL, proporciona posicionamiento estable mediante GLONASS y GPS, un módem GSM 2G, múltiples entradas y salidas digitales y analógicas, conectividad RS‑485, Bluetooth, antenas externas y una batería de respaldo integrada. Estas características lo hacen apropiado para seguimiento, telemetría básica y captura de eventos en aplicaciones automotrices e industriales.
 

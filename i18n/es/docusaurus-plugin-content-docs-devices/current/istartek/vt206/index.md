@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT206
 
+<div className="device-logo">
 ![VT206](./logo..jpg)
+</div>
 
 El VT206 de iStartek es un rastreador GPS oculto GPRS y de tamaño compacto, diseñado principalmente para motocicletas y bicicletas eléctricas, aunque admite un amplio rango de voltaje que lo hace compatible con camiones ligeros, remolques y bicicletas. Integra una antena GPS y una antena GSM internas para ofrecer datos de posición adecuados para el seguimiento en tiempo real y la supervisión básica de flotas. El equipo es ligero y de dimensiones reducidas para una instalación discreta e incluye funciones habituales de seguridad vehicular como corte remoto, detección de ACC, botón de emergencia SOS y posicionamiento por GPS y LBS.
 

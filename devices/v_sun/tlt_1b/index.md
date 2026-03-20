@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - TLT-1B
 
+<div className="device-logo">
 ![TLT-1B](./logo.jpg)
+</div>
 
 The V-SUN TLT-1B is a compact GPS GSM vehicle tracker designed for remote positioning and fleet oversight. It combines built in GPS and GSM GPRS functionality to send longitude and latitude coordinates via SMS and to upload positioning data to a server for online viewing. The device is noted for a high performance GPS chipset that helps maintain location accuracy in challenging signal environments, and it includes an SOS button plus power cut and recovery related functions for enhanced safety and security.
 

@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G900LS-4G
 
+<div className="device-logo">
 ![G900LS-4G](./tracker.jpg)
+</div>
 
 El G900LS-4G es un rastreador GPS vehicular compacto de CanTrack pensado para monitoreo de ubicación en tiempo real y gestión de flotas confiable. Ofrece cobertura global 4G LTE con conmutación a GSM, reportes de posición continuos y telemetría estándar que incluye velocidad, estado de encendido e eventos de alarma. Está disponible en varias configuraciones de cableado y con un relé opcional para corte remoto, por lo que es apropiado tanto para flotas mixtas como para protección de vehículos individuales.
 

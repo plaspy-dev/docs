@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - GS22
 
+<div className="device-logo">
 ![GS22](./Logo.jpg)
+</div>
 
 The WanWay GS22 is a compact 4G vehicle OBD II positioning device designed for in vehicle tracking and fleet oversight. It combines real time tracking, user defined geo fencing, trace playback, and vehicle diagnostics in a small housing measuring 60x46x22mm. The unit includes a built in 140mAh rechargeable battery to continue sending positioning data if vehicle power is lost and provides a disassembly alarm for added security.
 

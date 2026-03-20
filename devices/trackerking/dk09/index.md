@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - DK09
 
+<div className="device-logo">
 ![DK09](./tracker.jpg)
+</div>
 
 The DK09 is a compact 4G GPS tracker built for discreet vehicle anti theft and continuous location monitoring. Packaged to resemble a conventional relay, the unit is intended for covert installation in cars, motorcycles, and a range of equipment. It provides continuous positioning, event alerts, and historical route playback to support recovery and operational visibility.
 

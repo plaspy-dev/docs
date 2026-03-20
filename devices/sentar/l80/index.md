@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - L80
 
+<div className="device-logo">
 ![L80](./logo.jpg)
+</div>
 
 The Sentar L80 is a 3G kids GPS watch designed to provide parents and caregivers with continuous visibility of a child’s location and basic two way communication. It combines a purpose built form factor for children with multiple location modes and an SOS function to help manage everyday safety needs. The model is offered in kid friendly color options and includes features like voice communication and geo fencing that are commonly sought in child focused trackers.
 

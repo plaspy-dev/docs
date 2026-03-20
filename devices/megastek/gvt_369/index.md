@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - GVT-369
 
+<div className="device-logo">
 ![GVT-369](./logo.jpg)
+</div>
 
 The Megastek GVT-369 is a compact, durable GPS tracker designed for accurate location tracking across personal and commercial applications. It uses a SiRF Star III GPS chipset for position accuracy and a SIM 900 based quad band GSM radio for broad cellular connectivity. The unit includes features commonly expected in professional trackers such as power saving mode, an internal backup battery, SOS button, motion sensor, geo-fence alarm, over speed and low battery warnings, no GPS signal notification, background voice surveillance, and onboard data logging for situations where cellular coverage is intermittent.
 

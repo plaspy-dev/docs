@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A1Q
 
+<div className="device-logo">
 ![HB-A1Q](./tracker.jpg)
+</div>
 
 El HB-A1Q es un sello electrónico 4G compacto y económico diseñado para la protección de contenedores, carga y activos. Construido para soportar viajes largos y entornos exigentes, el dispositivo ofrece ubicación en tiempo real y monitoreo del estado de la cadena, de modo que los equipos de logística y seguridad puedan revisar el historial de posiciones y detectar manipulaciones mientras la carga está en tránsito.
 

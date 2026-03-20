@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK210
 
+<div className="device-logo">
 ![LK210](./tracker.jpg)
+</div>
 
 The LK210 is a compact wired vehicle GPS tracker built for discreet installation and continuous location visibility. With integrated GPS and GSM antennas and a small form factor, the LK210 is designed to provide practical anti theft protection and fast recovery capability for cars, motorcycles, trucks and similar vehicles. Its vibration triggered wake up behavior helps detect movement or impact while conserving device activity when the vehicle is stationary.
 

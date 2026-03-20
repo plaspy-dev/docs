@@ -20,7 +20,9 @@ keywords:
 
 # Telic - Picotrack 4G
 
+<div className="device-logo">
 ![Picotrack 4G](./tracker.jpg)
+</div>
 
 The Picotrack 4G is a compact telematics device designed for deployments that require reliable cellular telemetry and long term unattended operation. Built around LTE Cat M1 connectivity for wide area coverage, the Picotrack 4G is suited to real time tracking workflows, periodic telemetry reporting, and remote asset monitoring. The product is offered with rugged housing options and multiple field mounting choices to suit outdoor and space constrained installations.
 

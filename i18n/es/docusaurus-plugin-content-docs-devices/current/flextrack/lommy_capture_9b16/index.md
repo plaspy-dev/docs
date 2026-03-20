@@ -21,7 +21,9 @@ keywords:
 
 # Flextrack - Lommy Capture 9B16
 
+<div className="device-logo">
 ![Lommy Capture 9B16](./tracker.jpg)
+</div>
 
 Lommy Capture 9B16 es un rastreador GPS compacto y sin batería pensado para el seguimiento discreto y en tiempo real de remolques, caravanas y otros activos remolcados. Diseñado para alojarse dentro de equipos de iluminación, captura energía de los circuitos de luces del vehículo para mantener la transmisión de posición GNSS y telemetría de movimiento sin necesidad de una batería dedicada. Su pequeña carcasa IP65 y el embalaje resistente a manipulaciones lo hacen adecuado para despliegues de flota de largo plazo donde la ocultación y la mínima mantención son prioridades.
 

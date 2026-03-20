@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK209B
 
+<div className="device-logo">
 ![TK209B](./tracker.jpg)
+</div>
 
 El TK209B es un rastreador GPS 4G robusto diseñado para el monitoreo prolongado de activos y vehículos. Orientado a la gestión comercial de flotas, servicios de alquiler y logística, combina posicionamiento multimodal —GNSS, LBS y Wi‑Fi— con una batería recargable de alta capacidad de 10000 mAh para ofrecer actualizaciones de ubicación y alertas confiables durante días o semanas de funcionamiento. El equipo cuenta además con protección IP65 y un sensor de vibración integrado para detección de manipulación y movimiento en entornos exteriores.
 

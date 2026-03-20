@@ -21,7 +21,9 @@ keywords:
 
 # GLONASSsoft - UMKa310 con enchufe de mechero
 
+<div className="device-logo">
 ![UMKa310 con enchufe de mechero](./tracker.png)
+</div>
 
 El UMKa310 con enchufe de mechero es un rastreador GPS compacto diseñado para su instalación rápida en vehículos. Ofrece reporte de posición y telemetría basados en GNSS, admite modos de transferencia por lotes para reducir el tráfico de datos y puede reenviar información de navegación y eventos a múltiples destinos. El equipo está pensado para un uso vehicular sencillo e incluye opciones de configuración local y telemetría extendida, como conexión a sensores de combustible.
 

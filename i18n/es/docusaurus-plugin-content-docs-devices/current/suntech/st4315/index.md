@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4315
 
+<div className="device-logo">
 ![ST4315](./tracker.jpg)
+</div>
 
 El Suntech ST4315 es un rastreador GPS compacto diseñado para montaje en vehículos y pensado para aplicaciones de gestión de flotas y activos. Concebido para operar en entornos exigentes, la serie ST4315 ofrece posicionamiento GNSS, conectividad celular multinetwork con conmutación automática, registro en búfer para miles de eventos y una robusta carcasa con certificación IP67. Sus diferentes variantes y opciones de interfaces lo hacen adaptable a diversas necesidades de telemetría vehicular.
 

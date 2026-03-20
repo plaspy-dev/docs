@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB003
 
+<div className="device-logo">
 ![FMB003](./tracker.png)
+</div>
 
 El Teltonika FMB003 es un rastreador GPS OBD II ultracompacto diseñado para una instalación plug and play en automóviles de pasajeros. Está pensado para leer parámetros OEM del vehículo desde el puerto OBD y entregar telemetría de calidad OEM, como odómetro preciso y medidas de combustible o batería, ideales para la gestión de flotas y el monitoreo vehicular.
 

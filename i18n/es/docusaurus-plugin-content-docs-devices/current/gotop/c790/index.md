@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - C790
 
+<div className="device-logo">
 ![C790](./logo..jpg)
+</div>
 
 El GOTOP C790 es un rastreador GPS compacto para vehículos diseñado para una amplia variedad de modelos. Combina posicionamiento por GPS y Beidou con comunicación GPRS para ofrecer localización en tiempo real. El equipo incluye funciones prácticas de seguridad y monitoreo vehicular como corte remoto de combustible, detección de ACC, capacidad anti detección, múltiples tipos de alarma, botón SOS y revisión de historial de conducción de hasta 180 días.
 

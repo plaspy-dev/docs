@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-8
 
+<div className="device-logo">
 ![AT-8](./tracker.jpg)
+</div>
 
 The AT-8 4G GPS Animal Tracker is a purpose built device optimized for large animal deployments and extended field use. With a high capacity 20,000mAh rechargeable battery, a rugged IP67 ABS enclosure, and configurable reporting modes, the AT-8 is intended to provide reliable position tracking and low maintenance operation across remote agricultural environments. Built retrieval aids such as an audible buzzer and illumination help teams locate animals quickly when needed.
 

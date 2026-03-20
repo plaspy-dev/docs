@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FTM305
 
+<div className="device-logo">
 ![FTM305](./tracker.png)
+</div>
 
 El Teltonika FTM305 es un rastreador GPS compacto 4G LTE Cat M1 pensado para el monitoreo de vehículos y equipos en entornos exigentes. Diseñado especialmente para transporte electrificado y aplicaciones industriales, el FTM305 combina una robusta carcasa IP67 con conexiones de calidad automotriz para ofrecer posicionamiento fiable y telemetría en e-bikes, montacargas, vehículos de servicio, maquinaria utilitaria y otros equipos eléctricos.
 

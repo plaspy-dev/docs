@@ -20,7 +20,9 @@ keywords:
 
 # Gator - M588T
 
+<div className="device-logo">
 ![M588T](./logo.jpg)
+</div>
 
 The Gator M588T is a vehicle oriented GPS tracker that combines a GPS receiver and a GSM communication module to deliver continuous and reliable location data. It is designed to transmit position information to a server so users can view device location and history from a PC or mobile phone. The M588T is commonly deployed on motorcycles, taxis, cars, buses, and trucks where steady tracking and straightforward data delivery are required.
 

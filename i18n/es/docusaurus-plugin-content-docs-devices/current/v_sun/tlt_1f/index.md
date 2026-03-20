@@ -21,7 +21,9 @@ keywords:
 
 # V-SUN - TLT-1F
 
+<div className="device-logo">
 ![TLT-1F](./logo.jpg)
+</div>
 
 El V-SUN TLT-1F es un dispositivo de rastreo diseñado para la localización remota y el monitoreo continuo de automóviles y vehículos comerciales. Integra un chipset GPS de alto rendimiento con comunicaciones GSM/GPRS para entregar información de posición e informes de eventos incluso en cañones urbanos, valles y otras zonas con visibilidad limitada. El TLT-1F incluye funciones habituales en seguridad y gestión de flotas, como SOS, geocercas, alertas por exceso de velocidad, carga de datos históricos y avisos por cortes de energía o alteración de la alimentación.
 

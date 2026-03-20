@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV350MG
 
+<div className="device-logo">
 ![GV350MG](./tracker.png)
+</div>
 
 El GV350MG es un rastreador vehicular compacto con LTE Advanced diseñado para la gestión profesional de flotas, la logística de cadena de frío y el monitoreo de transporte. Combina un receptor GNSS de alta sensibilidad con opciones de integración vehicular y múltiples entradas/salidas para entregar ubicación continua y telemetría en vehículos comerciales. El dispositivo está pensado para operadores que requieren seguimiento preciso y conectividad amplia en un equipo resistente, apto para entornos vehiculares exigentes.
 

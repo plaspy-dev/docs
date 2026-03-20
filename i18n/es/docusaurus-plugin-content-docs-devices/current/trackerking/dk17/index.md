@@ -22,7 +22,9 @@ keywords:
 
 # TrackerKing - DK17
 
+<div className="device-logo">
 ![DK17](./tracker.jpg)
+</div>
 
 El DK17 es un rastreador GPS profesional de TrackerKing diseñado para ofrecer seguimiento en tiempo real y gestión de flotas confiable. Como dispositivo cableado con conectividad celular 4G y 2G Cat 1, proporciona actualizaciones continuas de ubicación, estadísticas de kilometraje y un conjunto de funciones de seguridad y control remoto pensadas para flotas comerciales, vehículos de alquiler y despliegues antirobo. El equipo está diseñado para operar en un amplio rango de voltaje de entrada y cuenta con una batería interna de respaldo que preserva el rastreo ante interrupciones de energía.
 

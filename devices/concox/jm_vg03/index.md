@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-VG03
 
+<div className="device-logo">
 ![JM-VG03](./logo..png)
+</div>
 
 The Concox JM-VG03 is a compact GPS tracker designed for a wide range of vehicles. It supports a broad operating voltage range, making it suitable for cars, trucks, motorcycles, and other vehicle types. The unit emphasizes reliable positioning through a built in large antenna and is sized for discreet mounting. Physical protection against dust and water is rated to IP65, helping it tolerate challenging environments.
 

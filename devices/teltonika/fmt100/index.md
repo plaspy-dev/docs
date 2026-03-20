@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMT100
 
+<div className="device-logo">
 ![FMT100](./tracker.png)
+</div>
 
 The FMT100 is a compact, Plaspy compatible GPS tracker designed for fast, reliable battery mounted installation on vehicles and mobile assets. Housed in an IP65 rated rugged enclosure, it is intended for fleet rollouts, seasonal vehicle use, and rapid deployments where simple mounting and dependable location and event reporting are priorities. The device includes an integrated 3 axis accelerometer and Bluetooth LE support so it can capture motion events and pair with external sensors for extended asset awareness.
 

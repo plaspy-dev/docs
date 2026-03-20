@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT-6200
 
+<div className="device-logo">
 ![XT-6200](./logo.jpg)
+</div>
 
 The Xirgo XT-6200 is a global, self contained remote asset tracking device designed for reliable location and status monitoring of mobile and stationary assets. It is positioned for use in mobile resource management, high value asset protection, and remote deployments where continuous visibility is important. The XT-6200 combines embedded GPS and cellular antennas with a high precision GPS engine and options for local connectivity to support a wide range of asset types such as trailers, containers, generators, and other valuable equipment.
 

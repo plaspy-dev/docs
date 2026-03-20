@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FTC881
 
+<div className="device-logo">
 ![FTC881](./tracker.png)
+</div>
 
 The Teltonika FTC881 is a rugged, battery mounted GPS tracker designed for demanding vehicle and asset tracking. Built to withstand harsh conditions with an IP69K rated enclosure and optimized for low power operation, the FTC881 offers precise GNSS positioning and cellular connectivity to support continuous monitoring of vehicles and equipment.
 

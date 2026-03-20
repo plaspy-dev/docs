@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G07
 
+<div className="device-logo">
 ![G07](./tracker.jpg)
+</div>
 
 The G07 is a heavy duty GPS tracker designed for long term, low maintenance tracking of vehicles, containers and other high value mobile assets. It pairs very large internal battery options with an IP65 rated housing and six strong magnets for discreet, weather resistant attachment, and includes GNSS positioning, on device alarms and remote audio monitoring to support persistent location and event telemetry.
 

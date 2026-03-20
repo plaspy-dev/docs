@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G900
 
+<div className="device-logo">
 ![G900](./Logo.png)
+</div>
 
 The CanTrack G900 is a compact GPS tracker designed for monitoring vehicles and valuable equipment. It provides real time tracking to follow location continuously and includes safety and security features such as an overspeed alarm and a power cut alarm. Built with an IP65 rated shell, the G900 is intended for use in environments where dust and water splashes are a concern, making it suitable for a range of outdoor and industrial applications.
 

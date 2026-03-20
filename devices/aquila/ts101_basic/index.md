@@ -20,7 +20,9 @@ keywords:
 
 # Aquila - TS101-Basic
 
+<div className="device-logo">
 ![TS101-Basic](./logo.jpg)
+</div>
 
 The Aquila TS101-Basic is a compact vehicle tracking device designed for fleet management and asset monitoring. It features a tamper proof switch and a rugged IP65 casing to protect electronics from dust and water exposure in typical mobile environments. The TS101-Basic provides online real time tracking and maintains solid state storage for up to 10,000 tracking records, ensuring both live visibility and a reliable history of past movements.
 

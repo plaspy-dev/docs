@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - V53
 
+<div className="device-logo">
 ![V53](./tracker.jpg)
+</div>
 
 El V53 Smart GPS Tracker de Reachfar es un dispositivo compacto diseñado para colocarse en el collar y pensado para propietarios de mascotas que necesitan localización confiable y telemetría básica. Combina posicionamiento GNSS múltiple con conectividad LTE 4G y una carcasa con clasificación IP67, además de un cierre físico anti-manipulación, lo que lo hace adecuado para el uso diario al aire libre y el monitoreo rutinario de la actividad de la mascota. Incluye funciones orientadas a la seguridad de la mascota, como podómetro de actividad, alertas por batería baja, timbre y luces LED intermitentes, así como comunicación bidireccional por voz para facilitar la recuperación rápida.
 

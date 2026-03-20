@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK119
 
+<div className="device-logo">
 ![TK119](./logo..jpg)
+</div>
 
 The EElink TK119 is a compact 3G network GPS tracker designed for a broad range of tracking needs. Marketed as a versatile device, the TK119-3G supports vehicle and asset monitoring use cases including rental fleets, logistics operations, motorcycle tracking, and ship management. Its durable construction and IP67 waterproof rating make it suitable for outdoor and mobile installations where exposure to weather and vibration is expected.
 

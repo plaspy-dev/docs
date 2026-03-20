@@ -20,7 +20,9 @@ keywords:
 
 # HunterPro - CP60-FUEL
 
+<div className="device-logo">
 ![CP60-FUEL](./logo.jpg)
+</div>
 
 The HunterPro CP60-FUEL is a purpose built GPS tracker for measuring fuel level in transport unit tanks. It uses a coaxial probe design where a metallic outer tube and a central electrode form a capacitive probe that changes capacity with fuel height. The device converts the probe capacity into digital pulses, enabling reliable correlation between measured capacity and fuel volume once a tank calibration procedure is completed.
 

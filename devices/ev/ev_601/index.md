@@ -20,7 +20,9 @@ keywords:
 
 # EV - EV-601
 
+<div className="device-logo">
 ![EV-601](./logo.jpg)
+</div>
 
 The EV EV-601 is a compact GPS tracker designed for use in vehicles and motorcycles. It combines continuous location reporting with a built-in memory module and communication options that allow tracking via a free web based service and SMS. The unit includes features commonly used for vehicle security and operational monitoring such as geo fencing, movement and SOS alerts, and remote immobilization controls.
 

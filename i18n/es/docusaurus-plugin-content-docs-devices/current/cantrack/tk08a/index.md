@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - TK08A
 
+<div className="device-logo">
 ![TK08A](./tracker.jpg)
+</div>
 
 El CanTrack TK08A es un rastreador GPS compacto de cableado fijo diseñado para motocicletas, bicicletas eléctricas, scooters y otros vehículos pequeños. Perteneciente a una familia de dispositivos con trayectoria, el TK08A ofrece seguimiento continuo de ubicación mediante GSM/GPRS y satélites GPS y soporta reportes por SMS además de integración con plataformas web y móviles. Su reducido tamaño, antenas integradas y capacidad de inmovilización lo hacen ideal para instalaciones orientadas a la seguridad y flotas mixtas.
 

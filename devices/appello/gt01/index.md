@@ -20,7 +20,9 @@ keywords:
 
 # Appello - GT01
 
+<div className="device-logo">
 ![GT01](./logo.jpg)
+</div>
 
 The Appello GT01 is a compact and lightweight GPS tracker designed to provide accurate and reliable tracking for a variety of applications. With a small footprint of about 90 x 52 x 20 mm and a net weight near 150 g, the GT01 is easy to place with assets, vehicles, or portable equipment. It combines a GPS receiver using the U-blox 7020 chipset and a GSM communication module supporting multiple frequency bands to deliver consistent position updates in many regions.
 

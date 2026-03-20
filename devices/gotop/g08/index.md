@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G08
 
+<div className="device-logo">
 ![G08](./tracker.jpg)
+</div>
 
 The GOTOP G08 is a compact plug and play OBD GPS tracker designed for rental cars, taxis, fleet vehicles and light trucks. It combines GPS and BeiDou positioning with LBS fallback and a set of vehicle alarms to support real time tracking, anti theft monitoring and straightforward fleet management rollouts. Its form factor and design focus on quick deployment and unobtrusive cabin presence.
 

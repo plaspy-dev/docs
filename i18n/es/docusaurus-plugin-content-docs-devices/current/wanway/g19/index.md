@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - G19
 
+<div className="device-logo">
 ![G19](./Logo.jpg)
+</div>
 
 El WanWay G19 es un rastreador GPS pequeño y compacto que combina tecnología GSM y GPS en una carcasa ligera. Cuenta con antena y sensores integrados y ofrece rastreo en tiempo real, reproducción de rutas, notificaciones por SMS y múltiples alertas, como alarma por exceso de velocidad. El dispositivo tiene clasificación IP67 para protección contra el agua, mide 74 mm de largo x 35 mm de ancho x 13 mm de alto y pesa aproximadamente 29 g, lo que facilita su ocultación e instalación en una amplia variedad de vehículos y activos. El G19 opera en bandas cuádruples y reporta la ubicación con una precisión GPS declarada de alrededor de 5 metros, además de aceptar un amplio rango de voltaje de entrada.
 

@@ -20,7 +20,9 @@ keywords:
 
 # YulongDa - TK103
 
+<div className="device-logo">
 ![TK103](./logo.jpg)
+</div>
 
 The YulongDa TK103 is a compact vehicle GPS tracker designed for location monitoring and basic vehicle security applications. It supports global GSM frequency bands and operates across a wide DC 9 24V input range for compatibility with many vehicle types. The device includes a built in vibration sensor for anti theft alerts, ACC ignition detection for engine status notifications, an external SOS button for emergencies, and a built in backup battery so it can continue reporting if main power is removed. Optional accessories such as an external relay, microphone, and loudspeaker extend security and monitoring capabilities.
 

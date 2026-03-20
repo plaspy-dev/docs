@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB001
 
+<div className="device-logo">
 ![FMB001](./tracker.png)
+</div>
 
 The Teltonika FMB001 is a compact GPS tracker designed for quick plug and play installation via a vehicle OBDII port. Built for fleet and personal vehicle monitoring, the device delivers vehicle-sourced telemetry such as true odometer, fuel level, mileage and engine RPM while also providing GNSS location for real time tracking. Bluetooth LE support extends monitoring to external sensors and beacons for temperature, humidity, magnet detection and movement.
 

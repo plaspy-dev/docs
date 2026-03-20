@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB140
 
+<div className="device-logo">
 ![FMB140](./tracker.png)
+</div>
 
 The Teltonika FMB140 is a compact GPS tracker designed to capture vehicle location and CAN bus derived telemetry. It integrates a CAN processor and Bluetooth Low Energy connectivity to read vehicle parameters for light vehicles, trucks, buses and special machinery, and can forward those insights to a telematics platform for real time monitoring and reporting. The device is commonly used where richer vehicle telemetry and accessory integrations are required alongside standard position tracking.
 

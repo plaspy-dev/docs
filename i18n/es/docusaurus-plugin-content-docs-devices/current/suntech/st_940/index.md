@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 940
 
+<div className="device-logo">
 ![ST 940](./logo.jpg)
+</div>
 
 El Suntech ST 940 es un rastreador GPS compacto y portátil diseñado para tareas de localización sencillas. Su formato pequeño y discreto, junto con un arnés magnético, facilita su fijación a equipos, paquetes, vehículos o pertenencias personales. El ST 940 se destaca por su larga autonomía en campo y su durabilidad, ofreciendo largos periodos operativos con una sola carga y una carcasa impermeable robusta para su uso en entornos expuestos.
 

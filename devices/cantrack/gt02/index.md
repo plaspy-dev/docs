@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - GT02
 
+<div className="device-logo">
 ![GT02](./logo.jpg)
+</div>
 
 The CanTrack GT02 is a compact vehicle GPS tracker designed for locating and monitoring vehicles and mobile assets. It uses GPS satellite positioning together with GSM network connectivity to determine location and report it to authorized recipients. The GT02 can deliver location information via SMS to preset mobile numbers and can also send data over GPRS to an internet server for real time monitoring from a computer or mapping platform.
 

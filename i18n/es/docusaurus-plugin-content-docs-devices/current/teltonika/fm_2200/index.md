@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FM 2200
 
+<div className="device-logo">
 ![FM 2200](./logo.jpg)
+</div>
 
 El Teltonika FM 2200 es un rastreador GPS versátil con conectividad GSM diseñado para determinar coordenadas precisas de objetos remotos y transmitirlas a través de redes móviles. Ofrece seguimiento de ubicación en tiempo real para vehículos y activos, múltiples entradas y salidas digitales para supervisión y control, un puerto USB para salida NMEA y configuración, además de almacenamiento local para posiciones históricas. El FM 2200 también soporta geocercas, envío de datos configurable y actualizaciones de firmware por distintos métodos, lo que lo hace adecuado para una variedad de despliegues de seguimiento.
 

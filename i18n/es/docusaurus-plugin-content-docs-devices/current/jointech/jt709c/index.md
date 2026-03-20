@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - JT709C
 
+<div className="device-logo">
 ![JT709C](./tracker.jpg)
+</div>
 
 El JT709C Smart Electronic Tracking Lock de Jointech es un candado sellador compacto y recargable pensado para la seguridad en logística y activos. Combina posicionamiento en tiempo real con un mecanismo de cierre a prueba de manipulación, autorización móvil vía Bluetooth y un historial persistente de eventos de apertura, lo que lo hace ideal para contenedores, furgonetas, bolsas de valores y puertas de almacén que requieren control de acceso y visibilidad de ubicación.
 

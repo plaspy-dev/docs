@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - G909
 
+<div className="device-logo">
 ![G909](./tracker.jpg)
+</div>
 
 El TrackerKing G909 es un rastreador GPS cableado para vehículos diseñado para ofrecer posicionamiento continuo y control remoto. Pensado para instalación fija en autos y motocicletas, el G909 proporciona seguimiento en tiempo real, notificación de eventos y capacidad para recibir comandos remotos, manteniendo un tamaño compacto y resistencia adecuada para instalaciones permanentes.
 

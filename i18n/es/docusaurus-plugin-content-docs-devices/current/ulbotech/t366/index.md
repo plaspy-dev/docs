@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T366
 
+<div className="device-logo">
 ![T366](./tracker.jpg)
+</div>
 
 El T366 es un rastreador GPS OBD avanzado de Ulbotech, diseñado para el monitoreo vehicular y la integración con plataformas telemáticas. Se conecta al puerto OBD II estándar para una instalación sin herramientas y combina un módulo GNSS u‑blox 6M con asistencia A‑GPS, radios celulares y Wi‑Fi integrados, y un inmovilizador incorporado, ofreciendo reporte continuo de ubicación, control antirrobo y una amplia telemetría vehicular de utilidad para administradores de flotas y proveedores de servicios.
 

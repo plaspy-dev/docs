@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - VT200B
 
+<div className="device-logo">
 ![VT200B](./logo.jpg)
+</div>
 
 El ThinkRace VT200B es un rastreador OBD2 diseñado para entregar diagnóstico vehicular junto con seguimiento continuo de ubicación. Pensado para un uso plug and play a través del puerto OBD2 del vehículo, el VT200B ofrece reportes de diagnóstico como consumo de combustible y estado del motor, además de soportar rastreo en tiempo real y alertas por exceso de velocidad. Su conjunto de funciones lo hace útil tanto para propietarios de vehículos individuales como para operadores que necesiten visibilidad frecuente sobre la salud y el movimiento de sus unidades.
 

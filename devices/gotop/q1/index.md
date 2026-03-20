@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - Q1
 
+<div className="device-logo">
 ![Q1](./logo..jpg)
+</div>
 
 The GOTOP Q1 Mini GPS Tracker is a compact and versatile tracking device designed for portable asset monitoring. Its small form factor and lightweight construction make it easy to attach to a variety of assets such as motorcycles, cars, and e bikes. The Q1 is rated IPX7 for waterproofing, supports GPS and LBS positioning, and includes motion alert functionality plus rechargeable power to support continuous tracking and occasional SMS reporting.
 

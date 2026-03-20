@@ -20,7 +20,9 @@ keywords:
 
 # ArkNav - DX-3
 
+<div className="device-logo">
 ![DX-3](./tracker.png)
+</div>
 
 The DX-3 is a compact personal GPS tracker designed for safety and dependable incident response. It is built for scenarios such as elderly care, lone workers, patrols and vulnerable-person protection. The device emphasizes immediate emergency signalling, two-way voice communication, accessibility aids like vibration and audio cues, and a splash resistant enclosure for everyday wearability and practical deployment.
 

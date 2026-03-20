@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT600-3G
 
+<div className="device-logo">
 ![VT600-3G](./logo.jpg)
+</div>
 
 The iStartek VT600-3G is a compact and lightweight GPS tracker designed for a range of vehicle and asset tracking applications. Measuring 65mm by 61mm by 26mm and weighing about 90g, it is built for discreet deployment where space and weight matter. The device operates across a broad input voltage range and includes a 500mAh backup battery to maintain operation during primary power loss. Its positioning is driven by a SIRF-Star IV GPS chipset with 20 channel all in view support and published positioning accuracy around 10 meters.
 

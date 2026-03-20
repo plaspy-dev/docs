@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-901AL
 
+<div className="device-logo">
 ![ST-901AL](./tracker.jpg)
+</div>
 
 El SinoTrack ST-901AL es un rastreador GPS cableado 4G LTE diseñado para ofrecer monitoreo vehicular y seguridad confiables. Orientado a instalaciones profesionales, el ST-901AL reporta posición vía GPRS y SMS, dispone de una entrada ACC para telemetría de encendido/apagado, y soporta corte remoto mediante un relé externo. Estas características lo hacen adecuado para organizaciones que requieren seguimiento continuo y controles antirrobo en autos, camiones, motocicletas y vehículos similares.
 

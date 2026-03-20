@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK610
 
+<div className="device-logo">
 ![LK610](./logo..jpg)
+</div>
 
 El KJ-GPS LK610 es un rastreador GPS compacto y de uso portátil diseñado principalmente para la seguridad de niños y el uso personal. Ofrece localización en tiempo real, una alarma SOS para emergencias y varias opciones para consultar la ubicación, incluyendo una aplicación móvil, una página web para PC y acceso vía WeChat. El dispositivo soporta alertas de entrada y salida de geocercas, avisos por baja batería y por desplazamiento, y proporciona retroalimentación visual sencilla mediante un indicador LED.
 

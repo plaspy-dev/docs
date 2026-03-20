@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB204
 
+<div className="device-logo">
 ![FMB204](./tracker.png)
+</div>
 
 The Teltonika FMB204 is a compact, water resistant 2G GPS tracker built for long autonomous operation in harsh outdoor environments. Its IP67 rated casing, large internal backup battery, and BLE connectivity make it suitable for trailer tracking, two‑wheelers and remote asset monitoring where durable, continuous telemetry is required.
 

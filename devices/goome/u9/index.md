@@ -20,7 +20,9 @@ keywords:
 
 # Goome - U9
 
+<div className="device-logo">
 ![U9](./logo.jpg)
+</div>
 
 The Goome U9 is a compact, high end GPS tracking device built around u blox 7 and fourth generation GPS technology. It supports multiple location modes including GPS, LBS, and AGPS, with automatic fallback to LBS when satellite signals are weak. Despite its small footprint, the U9 offers a broad feature set such as real time tracking, user defined geo fencing, trace playback, SOS alert, vibration alarm, cut wire alarm, remotely triggered voice monitoring, and the ability to connect to a relay for engine cutoff.
 

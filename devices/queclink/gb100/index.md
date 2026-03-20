@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GB100
 
+<div className="device-logo">
 ![GB100](./tracker.png)
+</div>
 
 The GB100 is a vehicle mounted GPS tracker from an established telematics device family. Designed for large scale deployments, it delivers real time location and high resolution behavior data while minimizing installation complexity. The unit houses internal GNSS and GSM antennas inside a waterproof IP65 enclosure and a compact form factor so it can reliably report position and event data even when installed under a metal hood.
 

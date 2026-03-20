@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-902A
 
+<div className="device-logo">
 ![ST-902A](./tracker.jpg)
+</div>
 
 El ST-902A New Mini OBD GPS Tracker es un localizador OBD-II compacto de tipo plug-and-play, diseñado para despliegues rápidos y monitoreo vehicular confiable. Se conecta a plataformas en línea mediante GPRS y puede configurarse por SMS, proporcionando datos de posición, movimiento y alarmas desde un puerto OBD estándar de 16 pines. El dispositivo integra una batería de respaldo y un receptor GNSS u-blox para mantener los reportes durante cortes breves de energía y ofrecer posicionamiento consistente para las necesidades diarias de la flota.
 

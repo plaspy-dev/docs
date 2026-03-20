@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST20U
 
+<div className="device-logo">
 ![ST20U](./tracker.jpg)
+</div>
 
 The ST20U from ST SUNLAB is a compact vehicle telematics interface module designed to capture vehicle-level data in heavy duty and commercial fleet environments. It is intended to operate as a lightweight bridge between onboard vehicle networks and a GNSS-enabled host or gateway, collecting key telemetry such as VIN, road speed, odometer, engine hours, RPM, and fuel consumption for delivery to a host device.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T373B
 
+<div className="device-logo">
 ![T373B](./tracker.jpg)
+</div>
 
 El Ulbotech T373B es un rastreador GPS OBD II plug and play diseñado para la monitorización de vehículos y la gestión de flotas. Basado en un módem celular Telit xE910 y un módulo GNSS u blox MAX 7, el T373B ofrece ubicación en tiempo real y telemetría vehicular mediante una unidad compacta que se conecta al puerto OBD II del vehículo. Entre las funciones descritas para este modelo se incluyen el reporte de diagnóstico a bordo, detección de eventos de comportamiento del conductor, una salida para inmovilizador y Bluetooth 4.0 LE para extensiones locales y configuración.
 

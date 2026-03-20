@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-H1
 
+<div className="device-logo">
 ![TS-H1](./Logo.jpg)
+</div>
 
 El ThingSys TS-H1 es un rastreador GPS compacto diseñado para escenarios de uso como dispositivos vestibles y monitoreo por guardianes. Ofrece comunicación bidireccional mediante funciones de llamada y respuesta, y envía mensajes de localización que incluyen enlaces a Google Maps para compartir ubicaciones de forma rápida. El equipo soporta conectividad GSM, GPRS y GPS, con soporte opcional para BDS y AGPS, incorpora batería interna, una ranura para una sola SIM, una pantalla táctil precisa, un puerto USB, autodiagnósticos del sistema operativo y protección de la SIM, además de una clasificación de resistencia al agua IP67.
 

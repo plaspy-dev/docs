@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V9 (Rastreador GPS compacto)
 
+<div className="device-logo">
 ![RF-V9](./tracker.jpg)
+</div>
 
 El RF-V9 es un rastreador GPS compacto de Reachfar diseñado para ofrecer seguimiento en tiempo real fiable de vehículos, objetos personales y activos que requieren discreción. Integra radio GSM cuatribanda y una batería recargable para enviar actualizaciones de posición y telemetría de forma continua a plataformas en internet, aplicaciones móviles, WeChat y por SMS. Entre sus funciones principales se encuentran alarmas por vibración y sonido, reproducción de trazas, alertas por geocerca y comunicación de voz bidireccional para monitoreo de audio bajo demanda.
 

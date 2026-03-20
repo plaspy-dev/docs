@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FTM880
 
+<div className="device-logo">
 ![FTM880](./tracker.png)
+</div>
 
 The Teltonika FTM880 is a battery mounted GPS tracker built for demanding fleet telematics and heavy duty asset tracking. Designed for long term, maintenance free deployments, the FTM880 combines a rugged IP69K enclosure with enhanced multi constellation GNSS performance and cellular connectivity options to deliver reliable long term positioning and telemetry for remote assets and machinery.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TK-208
 
+<div className="device-logo">
 ![TK-208](./logo.jpg)
+</div>
 
 The GOTOP TK-208 is a compact personal GPS tracker designed for reliable location reporting. It uses GPS satellite positioning together with cellular reporting methods to send longitude and latitude coordinates to a phone via SMS or to a remote server for online display. The device is suitable for personal use, vehicles, and pets, and includes practical features such as voice monitoring, geo fencing, low battery alerts, movement and vibration alarms, and a sleeping mode for power efficiency.
 

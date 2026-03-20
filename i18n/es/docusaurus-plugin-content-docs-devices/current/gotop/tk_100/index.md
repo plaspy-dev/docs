@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - TK-100
 
+<div className="device-logo">
 ![TK-100](./logo.jpg)
+</div>
 
 El GOTOP TK-100 es un dispositivo compacto diseñado para la protección GPS de mascotas. Ofrece actualizaciones de ubicación en tiempo real mediante SMS o GPRS e incluye varias alarmas como geocercas, batería baja, vibración y detección de movimiento para avisar a los propietarios sobre eventos relevantes. Está construido para resistir condiciones exteriores con una carcasa impermeable y a prueba de polvo, y se complementa con software de seguimiento en línea y una aplicación Android para supervisión remota y revisión del historial.
 

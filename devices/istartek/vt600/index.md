@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT600
 
+<div className="device-logo">
 ![VT600](./tracker.jpg)
+</div>
 
 The VT600 is a compact GPS tracker from iStartek designed for reliable real time tracking and fleet management. It combines a high sensitivity SIRF Star IV GNSS receiver with GSM GPRS and SMS uplink to deliver accurate location, event telemetry, and configurable alarms. The unit is engineered for vehicle use and supports buffered storage of coordinates to preserve track history during temporary connectivity interruptions.
 

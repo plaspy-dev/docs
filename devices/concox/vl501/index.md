@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL501
 
+<div className="device-logo">
 ![VL501](./tracker.png)
+</div>
 
 The VL501 is a plug and play LTE GPS tracker designed for quick installation and reliable fleet monitoring. Its removable cigarette lighter power design and compact form factor make it easy to deploy across vehicles without permanent wiring. The device combines multi constellation GNSS positioning with modern cellular connectivity and Bluetooth to provide accurate location and on device telemetry for fleet operations.
 

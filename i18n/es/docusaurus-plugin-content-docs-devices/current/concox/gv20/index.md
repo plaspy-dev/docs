@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GV20
 
+<div className="device-logo">
 ![GV20](./logo.jpg)
+</div>
 
 El Concox GV20 es un rastreador GPS 3G pensado para el seguimiento de automóviles, motocicletas y autobuses. Diseñado para ofrecer visibilidad de la ubicación en condiciones operativas exigentes, el GV20 proporciona posicionamiento en tiempo real, registro de rutas y reproducción histórica (flashback) para que los operadores puedan supervisar movimientos y revisar viajes anteriores. La descripción del producto destaca funciones prácticas como el corte remoto de combustible y alimentación, reporte del estado de encendido y notificaciones de alerta instantáneas para facilitar el control operativo.
 

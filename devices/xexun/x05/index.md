@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - X05
 
+<div className="device-logo">
 ![X05](./tracker.jpg)
+</div>
 
 The X05 is a compact, rechargeable pet GPS tracker designed for collars and harnesses. It uses hybrid positioning that combines GPS and BeiDou satellite fixes with Wi‑Fi and LBS fallback and transmits location and device telemetry over domestic cellular networks to a cloud platform. The form factor and lightweight housing make the X05 suitable for routine pet use while providing continuous location monitoring and history playback.
 

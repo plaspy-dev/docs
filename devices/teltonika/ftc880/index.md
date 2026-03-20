@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FTC880
 
+<div className="device-logo">
 ![FTC880](./tracker.png)
+</div>
 
 The Teltonika FTC880 is a battery-mounted GPS tracker built for demanding vehicle and asset tracking deployments. It combines rugged hardware, multi-constellation GNSS positioning and remote device management capabilities to deliver dependable position updates and event reporting for fleet, logistics and heavy equipment use. The FTC880 is designed for long-term battery operation and harsh environments where durability and consistent telemetry are required.
 

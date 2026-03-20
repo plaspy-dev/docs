@@ -21,7 +21,9 @@ keywords:
 
 # DCT - Syrus Lynx 4G
 
+<div className="device-logo">
 ![Syrus Lynx 4G](./tracker.png)
+</div>
 
 El Syrus Lynx 4G es un rastreador GPS GNSS de montaje en vehículo, de diseño compacto y orientado a la gestión robusta de flotas y al seguimiento masivo de unidades. Su tamaño reducido permite instalaciones discretas sin sacrificar la transmisión continua de ubicación ni la telemetría fiable, lo que lo hace adecuado para flotas de alquiler, programas de telemática para aseguradoras y despliegues a gran escala.
 

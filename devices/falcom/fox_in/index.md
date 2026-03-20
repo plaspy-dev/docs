@@ -20,7 +20,9 @@ keywords:
 
 # Falcom - FOX-IN
 
+<div className="device-logo">
 ![FOX-IN](./logo.jpg)
+</div>
 
 The Falcom FOX-IN is a highly versatile and configurable smart tracking device designed to serve as a mobile client for AVL, fleet management, vehicle security, and recovery solutions. It can be customized to meet specific operational requirements and is built to operate autonomously while interacting with external sensors and actuators. The FOX-IN supports sending status reports and alert messages directly to users and tracking servers, and it includes comfort and security features such as regular voice calls, emergency spy calls, a driver's logbook, and comprehensive data logging.
 

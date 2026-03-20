@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV350CEU
 
+<div className="device-logo">
 ![GV350CEU](./tracker.png)
+</div>
 
 El GV350CEU es un rastreador vehicular de grado profesional de QuecLink, diseñado para exigencias de gestión de flotas y telemática comercial. Combina posicionamiento GNSS de alta precisión con conectividad LTE Cat 1 y un conjunto completo de interfaces a nivel vehicular para ofrecer seguimiento continuo, telemetría y reporte de eventos en camiones, autobuses y otros vehículos pesados.
 

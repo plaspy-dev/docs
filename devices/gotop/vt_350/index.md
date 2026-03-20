@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-350
 
+<div className="device-logo">
 ![VT-350](./logo.jpg)
+</div>
 
 The GOTOP VT-350 is an OBD GPS tracker designed for straightforward vehicle tracking and fleet management. The device plugs into a vehicle OBD II interface and uses built in GSM and GPS antennas to report position and movement. It supports tracking on command or at regular intervals over SMS or GPRS and can provide location coordinates, speed, direction, odometer readings, and mileage information that help keep fleets and vehicles visible in real time.
 

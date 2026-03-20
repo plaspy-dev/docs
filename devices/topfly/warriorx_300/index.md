@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - WarriorX 300
 
+<div className="device-logo">
 ![WarriorX 300](./tracker.png)
+</div>
 
 The TopFly WarriorX 300 is a rugged, Plaspy compatible GPS tracker designed for long term outdoor asset monitoring. As a standalone, battery powered device with replaceable non rechargeable batteries, it is built to deliver multi year reporting for trailers, containers, high value assets and distributed equipment. The product emphasizes durability and low maintenance for deployments where ongoing access is limited.
 

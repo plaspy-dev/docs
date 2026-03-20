@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2423 MID+
 
+<div className="device-logo">
 ![SMART S-2423 MID+](./tracker.jpeg)
+</div>
 
 El SMART S-2423 MID+ es un rastreador compacto GPS/GLONASS diseñado para la gestión de flotas y el monitoreo vehicular. Integra una antena GNSS interna y un módem celular interno dentro de una arquitectura multiinterfaz para ofrecer informes continuos de posición y telemetría, pensado para operadores que requieren visibilidad en tiempo real y datos operativos. El equipo incluye un acelerómetro integrado para monitoreo de movimiento y comportamiento, conectividad Bluetooth de corto alcance para emparejar sensores, y una batería interna de respaldo para mantener la operación ante interrupciones de alimentación.
 

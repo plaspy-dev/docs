@@ -21,7 +21,9 @@ keywords:
 
 # KHD - KC200
 
+<div className="device-logo">
 ![KC200](./logo.jpg)
+</div>
 
 El KHD KC200 es un rastreador GNSS pensado para el seguimiento de vehículos y embarcaciones. Combina posicionamiento por GPS o GLONASS con comunicación GSM para ofrecer reportes de ubicación y notificaciones de eventos. El KC200 destaca por su alta sensibilidad de recepción para lograr fijaciones de posición más fiables y admite métodos de reporte como GPRS/GSM y SMS para enviar alertas de emergencia, notificaciones de cruces de geocerca y actualizaciones programadas a un servidor backend. Está diseñado para integrarse con plataformas de rastreo personalizables en computadoras y dispositivos móviles.
 

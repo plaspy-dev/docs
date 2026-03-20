@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D36
 
+<div className="device-logo">
 ![D36](./tracker.png)
+</div>
 
 The Sentar D36 is a purpose built 4G kids smart watch designed for parents who need dependable location awareness and simple two way communication. The device combines GPS, LBS and WiFi positioning with multi band cellular connectivity and a Nano SIM slot to deliver frequent location updates and voice connectivity in a compact smartwatch form factor. Its 1.28 inch IPS touch display, ABS plus PC housing and soft silicone strap make it comfortable for daily wear by children while the RTOS based architecture aims for stable operation.
 

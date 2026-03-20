@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-401B
 
+<div className="device-logo">
 ![BN-401B](./tracker.png)
+</div>
 
 The BN-401B is a compact 4G GPS tracker and motorcycle management terminal designed for straightforward anti theft protection and real time tracking. Geared toward small vehicles and private cars, it provides reliable GPS positioning, configurable alarm logic and essential telemetry so owners and fleet managers can monitor assets with minimal installation effort. Its lightweight form factor and backup power capability support continuous monitoring in everyday vehicle environments.
 

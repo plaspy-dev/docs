@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - XT008
 
+<div className="device-logo">
 ![XT008](./logo.jpg)
+</div>
 
 El Xexun XT008 es un dispositivo de rastreo GPS versátil diseñado para la monitorización de vehículos y activos. Combina rastreo en tiempo real con opciones de seguimiento por intervalos y proporciona respuestas de dirección a nivel de calle para facilitar la localización precisa. El XT008 también soporta rastreo híbrido de ubicación para mantener las actualizaciones de posición cuando la recepción satelital es limitada, e incluye diversas alertas como geocercas, detección de movimiento y exceso de velocidad para apoyar la supervisión operativa.
 

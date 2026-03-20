@@ -20,7 +20,9 @@ keywords:
 
 # Gelix - Gelix 1
 
+<div className="device-logo">
 ![Gelix 1](./logo.jpg)
+</div>
 
 The Gelix 1 is a passive monitoring GPS data logger designed to record navigation and event data while a vehicle is in motion or when an external event occurs. It stores historical location and event records for later retrieval rather than streaming data in real time. The device supports multiple options for getting stored data off the unit, including automatic retrieval when the vehicle returns to a depot with a radio access point and manual retrieval via wired connection, IrDA, Bluetooth with a PDA, or by removing the unit and connecting it to a PC.
 

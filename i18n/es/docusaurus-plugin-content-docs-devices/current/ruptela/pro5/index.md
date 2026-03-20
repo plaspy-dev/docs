@@ -21,7 +21,9 @@ keywords:
 
 # Ruptela - Pro5
 
+<div className="device-logo">
 ![Pro5](./tracker.png)
+</div>
 
 El Pro5 de Ruptela es un rastreador GPS de nivel profesional diseñado para vehículos pesados como camiones, autobuses y maquinaria especializada. Desarrollado para entornos de flota exigentes, combina conectividad celular moderna con un receptor GNSS de alta gama y soporte para accesorios inalámbricos, entregando actualizaciones continuas de posición, telemetría del vehículo y registro de eventos en el dispositivo necesarios para operaciones de flota y workflows antirrobo.
 

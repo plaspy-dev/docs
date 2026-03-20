@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D39
 
+<div className="device-logo">
 ![D39](./tracker.png)
+</div>
 
 El Sentar D39 es un reloj inteligente GPS compacto con Android y conectividad 4G diseñado para niños. Integra reportes de ubicación continuos con comunicación de voz bidireccional, un botón de emergencia SOS y posicionamiento multimodal que combina GPS, AGPS, LBS y WiFi. Con una pantalla IPS de 1.85 pulgadas y una carcasa resistente al agua con certificación IPX7, el D39 está pensado para el uso diario y la actividad, manteniendo a los cuidadores informados a través de una aplicación complementaria.
 

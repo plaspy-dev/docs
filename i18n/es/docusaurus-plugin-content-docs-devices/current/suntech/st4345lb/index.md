@@ -22,7 +22,9 @@ keywords:
 
 # Suntech - ST4345LB
 
+<div className="device-logo">
 ![ST4345LB](./tracker.jpg)
+</div>
 
 El ST4345LB es un rastreador GPS compacto y resistente diseñado para telemática vehicular y monitoreo distribuido de activos. Con conectividad celular multimodo y posicionamiento GNSS integrado, está pensado para la supervisión de flotas, procesos de recuperación y despliegues a largo plazo donde se requiere rendimiento exterior duradero e informes de ubicación fiables. El equipo combina localización, detección de movimiento y analítica a bordo para generar eventos útiles para los equipos operativos.
 

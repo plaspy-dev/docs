@@ -21,7 +21,9 @@ keywords:
 
 # Condor - TH-923
 
+<div className="device-logo">
 ![TH-923](./tracker.png)
+</div>
 
 El TH-923 es un rastreador GPS compatible con Plaspy diseñado para el monitoreo continuo de maquinaria pesada, buques, contenedores y unidades móviles que transportan carga de alto valor. Pensado para ofrecer actualizaciones de ubicación y estado sin interrupciones en entornos urbanos y remotos, el TH-923 combina transmisión celular con conmutación automática a la red satelital Iridium, manteniendo los activos visibles ante huecos de cobertura. Este enfoque híbrido lo hace idóneo para la gestión de flotas, protección contra robos y logística de larga distancia donde la conectividad persistente es crítica.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - L70
 
+<div className="device-logo">
 ![L70](./logo.jpg)
+</div>
 
 El Sentar L70 es un rastreador GPS compacto y multimodal, diseñado para ofrecer seguimiento de ubicación confiable en una variedad de escenarios. Basado en el chipset MTK2503, el L70 combina GPS, AGPS, LBS y posicionamiento por WiFi para proporcionar información de ubicación útil incluso cuando un solo método resulta limitado. El dispositivo está disponible en negro y blanco y está pensado para el rastreo discreto de vehículos, activos o personas.
 

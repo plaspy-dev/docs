@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL111
 
+<div className="device-logo">
 ![VL111](./tracker.png)
+</div>
 
 The Concox VL111 is a compact 4G LTE vehicle GPS tracker designed for discreet, reliable real time tracking of motorcycles and light vehicles. Offered in regional variants such as VL111S_LA and VL111S_EM, the model combines multi constellation GNSS positioning, LTE Cat 1 connectivity with 2G fallback, BLE 5.0 and an onboard relay for remote immobilization. Its small form factor, IP66 rugged housing and internal battery fallback make it suitable for installations where space and durability matter.
 

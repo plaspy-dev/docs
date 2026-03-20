@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-915
 
+<div className="device-logo">
 ![ST-915](./tracker.jpg)
+</div>
 
 The ST-915 is a rugged, waterproof GPS/GSM/GPRS locator designed for long autonomous operation and reliable outdoor tracking. Built around a UBLOX UBX-G7020 GNSS module and a quad band 2G modem, the ST-915 delivers accurate position fixes and extended standby from a large Li ion battery. The unit is supplied without a SIM so you can choose a local operator and data plan that best fits fleet management, anti theft and remote monitoring needs. Configuration is accomplished via SMS commands to set APN and server address, making it straightforward to integrate with third party tracking platforms.
 

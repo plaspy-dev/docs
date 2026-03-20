@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-13
 
+<div className="device-logo">
 ![AT-13](./Logo.jpg)
+</div>
 
 El Autoseeker AT-13 es un rastreador GPS magnético y compacto diseñado para el seguimiento y la localización en tiempo real de vehículos. Su tamaño reducido y su sujeción magnética permiten colocarlo con rapidez en cualquier superficie metálica del automóvil, lo que lo convierte en una opción práctica para despliegues breves o cuando se necesita una instalación discreta. El equipo ofrece capacidad de monitoreo remoto para que usted pueda consultar la ubicación y los movimientos desde un teléfono inteligente o una computadora.
 

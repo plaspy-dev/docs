@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - T19
 
+<div className="device-logo">
 ![T19](./logo.jpg)
+</div>
 
 The AoYa T19 is a magnetic mini GPS tracker designed for discreet and efficient tracking of vehicles, luggage, containers, and other valuable assets. Its compact form factor and strong magnetic base make it easy to attach to metal surfaces for covert placement, while the device is positioned as a versatile option for both short trips and long term monitoring needs.
 

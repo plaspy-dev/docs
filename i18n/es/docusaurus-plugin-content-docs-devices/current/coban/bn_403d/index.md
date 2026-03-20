@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-403D
 
+<div className="device-logo">
 ![BN-403D](./tracker.png)
+</div>
 
 El BN-403D es un rastreador GPS compacto para montaje en vehículo, diseñado para ofrecer posicionamiento confiable y comunicación celular de amplio alcance. Pensado para instalación oculta en automóviles y vehículos comerciales ligeros, el BN-403D proporciona seguimiento en tiempo real, alarmas configurables y escucha de voz unidireccional para situaciones de emergencia. También admite configuración por Bluetooth y armado/desarmado por inducción automática, y dispone de monitoreo de combustible opcional cuando se empareja con un sensor de combustible compatible.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - LCV5
 
+<div className="device-logo">
 ![LCV5](./tracker.png)
+</div>
 
 The LCV5 is a purpose built GPS tracker for cars and light commercial vehicles that delivers reliable real time tracking and rich telematics for fleet management. Designed to capture vehicle location plus vehicle telemetry such as CAN and OBD parameters, driver identification and fuel level data, the LCV5 targets fleets and operators that need accurate positioning and actionable vehicle insights.
 

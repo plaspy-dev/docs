@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - TK08AL
 
+<div className="device-logo">
 ![TK08AL](./tracker.jpg)
+</div>
 
 The CanTrack TK08AL is a 4G hard wired car GPS tracker built for reliable vehicle security and driver management. Designed around cellular and GNSS positioning hardware, the TK08AL provides continuous location reporting, movement and ignition detection, SOS and speeding alerts, and power cut protection with an onboard backup battery. Its combination of driver identification and optional immobilizer controls makes it suitable for a wide range of vehicle security and fleet workflows.
 

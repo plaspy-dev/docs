@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D06-4G
 
+<div className="device-logo">
 ![D06-4G](./tracker.jpg)
+</div>
 
 The D06-4G is a compact, Plaspy compatible GPS tracker designed for reliable real time tracking and fleet management of cars, motorcycles, e-bikes and other vehicles. Built for discreet installation, the unit combines a high sensitivity GNSS receiver with 4G connectivity and 2G fallback to keep location and status information flowing even in variable coverage conditions. Its IP65 rated housing and onboard memory for offline storage make it suitable for exposed vehicle installations and longer term anti theft deployments.
 

@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - GS300
 
+<div className="device-logo">
 ![GS300](./tracker.webp)
+</div>
 
 The WanWay GS300 is a rugged GPS tracker built for reliable asset tracking and fleet management. Designed for continuous positioning, the GS300 combines GPS and BDS satellite navigation with 4G full Netcom wireless connectivity to deliver frequent location updates, trace playback, and on device alarms. Its waterproof housing, light sensor, and large 7800mAh battery support extended deployments where uninterrupted monitoring and reduced maintenance are priorities.
 

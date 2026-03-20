@@ -20,7 +20,9 @@ keywords:
 
 # Arusnavi - Arnavi L2 (cigarette lighter version with panic button)
 
+<div className="device-logo">
 ![Arnavi L2 (cigarette lighter version with panic button)](./tracker.png)
+</div>
 
 The Arnavi L2 cigarette lighter version with panic button is a plug and play GPS tracker designed for fast, no-drill installation and easy relocation between vehicles. Geared toward fleet managers, rental and rideshare operators, and short term leased vehicles, the device provides continuous position reporting, driver behavior telemetry and a dedicated emergency alarm without requiring permanent wiring.
 

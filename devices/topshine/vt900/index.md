@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - VT900
 
+<div className="device-logo">
 ![VT900](./logo.jpg)
+</div>
 
 The TopShine VT900 is a vehicle GPS/GSM/GPRS tracker built for real time location monitoring and vehicle security. It combines high sensitivity positioning modules with GSM based reporting to provide continuous tracking, position logging, and a range of vehicle related alerts. The device also supports multimedia and audio functions such as camera support and voice prompt or broadcasting, and it includes features designed for operational oversight like mileage calculation, door status detection, and a built in backup battery.
 

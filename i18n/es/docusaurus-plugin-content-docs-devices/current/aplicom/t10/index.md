@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - T10
 
+<div className="device-logo">
 ![T10](./logo.png)
+</div>
 
 El Aplicom T10 es un rastreador GPS compacto y robusto y un dispositivo de telemetría pensado para la telemática de flotas y el IoT industrial. Montado en una caja resistente con protección IP67, el T10 está diseñado para operaciones de campo a largo plazo en vehículos, remolques, activos fijos y equipos distribuidos. Es compatible con Aplicom Silver Cloud para configuración remota, monitoreo y actualizaciones de firmware, lo que reduce la necesidad de intervenciones in situ.
 

@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP6824
 
+<div className="device-logo">
 ![SP6824](./tracker.png)
+</div>
 
 The SP6824 is an ultra-thin, high performance GPS tracker designed for vehicle and asset tracking in fleet management, vehicle financing, lot management, and theft recovery applications. It combines a super sensitive GPS module with 4G LTE Cat M1 connectivity and internal antennas to provide a low profile device intended to deliver reliable location information and basic telemetry for vehicles and stored assets.
 

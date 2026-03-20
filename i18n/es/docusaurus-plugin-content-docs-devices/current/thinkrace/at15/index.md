@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - AT15
 
+<div className="device-logo">
 ![AT15](./logo.jpg)
+</div>
 
 El ThinkRace AT15 es un rastreador compacto pensado para equipaje inteligente, diseñado para que los viajeros mantengan control sobre maletas, mochilas, valijas y portafolios. Ofrece actualizaciones de ubicación en tiempo real y un historial de posiciones recuperable para revisar el trayecto del equipaje. El dispositivo está orientado al uso cotidiano en viajes cuando se requiere un seguimiento discreto y portátil de pertenencias personales.
 

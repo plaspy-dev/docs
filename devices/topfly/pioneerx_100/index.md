@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - PioneerX 100
 
+<div className="device-logo">
 ![PioneerX 100](./tracker.png)
+</div>
 
 The PioneerX 100 is a compact, hardwired GPS tracker from TopFly designed for reliable fleet management and asset tracking. It combines high sensitivity GNSS positioning with global cellular connectivity and configurable digital and analog inputs and outputs to support ignition detection, immobilizer control and accessory monitoring. The unit is built for continuous operation in demanding conditions and includes a backup battery to preserve critical data during power interruptions.
 

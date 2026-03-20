@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V42
 
+<div className="device-logo">
 ![RF-V42](./Logo.jpg)
+</div>
 
 El Reachfar RF-V42 es un rastreador GPS compacto y versátil diseñado para el monitoreo de la ubicación de personas y bienes. Ofrece seguimiento GPS en tiempo real mediante conectividad 3G e integra funciones como llamada SOS, comunicación bidireccional, reloj con anuncio de hora, reproducción de rutas históricas y geovallas. La combinación de estas funcionalidades hace que el RF-V42 sea adecuado tanto para la seguridad personal cotidiana como para la supervisión básica de activos y flotas.
 

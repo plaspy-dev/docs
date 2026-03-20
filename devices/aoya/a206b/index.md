@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - A206b
 
+<div className="device-logo">
 ![A206b](./logo.jpg)
+</div>
 
 The AoYa A206b is a compact automotive GPS tracker built for discreet vehicle monitoring. At 96mm x 42mm x 24mm and about 100g, the unit is small and lightweight for unobtrusive placement. It uses GSM GPRS network connectivity together with a UBLOX GPS module to provide location data, and the manufacturer lists positional accuracy around 5 meters and high GPS sensitivity for reliable fixes. The A206b is designed for use cases where size, endurance, and accurate positioning are important.
 

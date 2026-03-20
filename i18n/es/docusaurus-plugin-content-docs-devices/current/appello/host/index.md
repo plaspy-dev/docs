@@ -21,7 +21,9 @@ keywords:
 
 # Appello - Host
 
+<div className="device-logo">
 ![Host](./logo.jpg)
+</div>
 
 El Appello Host describe el rastreador GPS para mascotas Appello 4P, una unidad compacta pensada para animales medianos y pequeños. Según la información disponible, el dispositivo combina una pequeña unidad GPS que se fija al collar de la mascota con una base de energía independiente que incorpora una gran batería de 6000 mAh. Host enfatiza una amplia autonomía en espera, carga inalámbrica desde la base, una carcasa resistente al agua para uso exterior y una alerta cuando la mascota sale de un rango aproximado de 20 metros de la base.
 

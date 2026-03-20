@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP5824
 
+<div className="device-logo">
 ![SP5824](./tracker.png)
+</div>
 
 El SP5824 es un rastreador GPS compacto y resistente, diseñado para motocicletas y diversos vehículos powersport como ATV, motos acuáticas, motos de nieve y embarcaciones pequeñas. Pensado para uso exterior, ofrece protección IP67 y un tamaño de instalación reducido, por lo que propietarios y operadores de flotas pueden incorporar seguimiento de ubicación fiable a vehículos de dos y tres ruedas y pequeñas embarcaciones sin grandes requerimientos de espacio o energía. El equipo incluye detección de choques y conectividad orientada a reportes oportunos de ubicación y alertas de incidentes.
 

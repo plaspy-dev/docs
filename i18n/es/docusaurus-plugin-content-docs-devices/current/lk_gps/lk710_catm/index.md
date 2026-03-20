@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK710-CatM
 
+<div className="device-logo">
 ![LK710-CatM](./tracker.jpg)
+</div>
 
 El LK710-CatM es un rastreador GPS compacto y resistente con certificación IP68, diseñado para implementaciones fiables en gestión de flotas y programas de seguridad vehicular. Su carcasa impermeable y su formato reducido lo hacen ideal para instalaciones discretas en autos, motocicletas, bicicletas eléctricas y vehículos de alquiler. Las antenas GPS y GSM integradas ofrecen posicionamiento y conectividad celular para seguimiento continuo y telemetría básica.
 

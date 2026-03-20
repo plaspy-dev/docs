@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - FM-Eco4
 
+<div className="device-logo">
 ![FM-Eco4](./logo.jpg)
+</div>
 
 The Ruptela FM-Eco4 is a reliable GPS tracker built for standard vehicle tracking and monitoring tasks. It captures essential vehicle information such as location, speed, route, fuel level, and mileage, and includes features for driver identification, temperature monitoring, driver behavior analysis, and security actions like remote ignition blocking. The unit is designed with a rugged dust and waterproof housing and is offered in a variant with an integrated battery to maintain data transmission after power loss.
 

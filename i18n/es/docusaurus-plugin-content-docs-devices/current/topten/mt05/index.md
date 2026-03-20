@@ -21,7 +21,9 @@ keywords:
 
 # TopTen - MT05
 
+<div className="device-logo">
 ![MT05](./Logo.jpg)
+</div>
 
 El TopTen MT05 es un rastreador GPS compacto para vehículos, diseñado para combinar el monitoreo de ubicación con funciones de seguridad vehicular. Soporta el reporte de ubicación vía SMS, web o aplicación móvil y proporciona información de dirección física que puede incluir ciudad y nombre de calle. El MT05 también incorpora funciones de alarma y detección del estado de encendido y apagado del motor, lo que lo hace adecuado para una variedad de vehículos, desde motocicletas y automóviles hasta camiones más grandes.
 

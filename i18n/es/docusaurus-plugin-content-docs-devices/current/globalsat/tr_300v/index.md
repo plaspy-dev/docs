@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - TR-300V
 
+<div className="device-logo">
 ![TR-300V](./logo.jpg)
+</div>
 
 El GlobalSat TR-300V es un rastreador personal 3G compacto diseñado para las necesidades de seguridad y comunicación de niños y personas mayores. Combina seguimiento de ubicación con micrófono y altavoz integrados para permitir comunicación manos libres y bidireccional. El dispositivo prioriza la facilidad de uso, un diseño liviano, un botón de alarma SOS y una batería de alta capacidad para intervalos de monitoreo prolongados.
 

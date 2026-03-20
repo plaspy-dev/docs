@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - D-Маяк МОТО
 
+<div className="device-logo">
 ![D-Маяк МОТО](./tracker.jpg)
+</div>
 
 The AutoFon D‑Маяк МОТО is a compact GPS tracker designed for motorcycles and other exposed vehicles that require reliable, long term monitoring. It combines GNSS positioning with GSM GPRS communications, motion and impact detection, and a sealed waterproof housing to support discreet installs, anti theft protection and ongoing telemetry in outdoor conditions. The device also includes local controls such as an SOS button and an internal packet store to improve data reliability.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB150
 
+<div className="device-logo">
 ![FMB150](./logo..png)
+</div>
 
 El Teltonika FMB150 es un avanzado rastreador GPS 2G con un procesador de datos CAN integrado, diseñado para leer información del bus CAN en vehículos ligeros y eléctricos, camiones, autobuses y maquinaria especial. Combina posicionamiento GNSS multiconstelación con un módulo de comunicaciones TM2500 y capacidad Bluetooth LE, lo que permite mezclar el rastreo de ubicación con la recopilación de datos a bordo, útil para la gestión de flotas y diagnósticos.
 

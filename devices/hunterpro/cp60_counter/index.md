@@ -20,7 +20,9 @@ keywords:
 
 # HunterPro - CP60-COUNTER
 
+<div className="device-logo">
 ![CP60-COUNTER](./logo.jpg)
+</div>
 
 The HunterPro CP60-COUNTER is a GPS tracker built for passenger transport enterprises to monitor passenger entry and exit. It combines location tracking with passenger counting and transmits data in real time so operators can view passenger flows and vehicle positions from a central computer. The device is described as using GPRS for secure and reliable data delivery and is designed for use in operational transport environments.
 

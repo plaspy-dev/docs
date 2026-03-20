@@ -20,7 +20,9 @@ keywords:
 
 # KHD - KG200
 
+<div className="device-logo">
 ![KG200](./logo.jpg)
+</div>
 
 The KHD KG200 is a high performance GNSS tracker designed for vehicle and ship tracking. It combines GPS or GLONASS positioning with GSM wireless communication to provide accurate location reporting and reliable connectivity for moving assets. The device is described as having superior receive sensitivity, making it suitable for demanding tracking environments where consistent position updates are important.
 

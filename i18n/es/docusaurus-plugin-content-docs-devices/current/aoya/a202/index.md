@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - A202
 
+<div className="device-logo">
 ![A202](./logo.jpg)
+</div>
 
 El AoYa A202 es un rastreador GPS automotriz diseñado para el monitoreo de vehículos y activos. Combina un formato compacto (130 mm x 72 mm x 20 mm) y bajo peso (240 g) con posicionamiento GNSS basado en un chip UBLOX. El dispositivo admite conectividad a redes GSM GPRS para el envío de ubicación en tiempo real y ofrece precisión de posicionamiento del orden de metros, lo que lo hace adecuado para la gestión de flotas, el seguimiento de vehículos particulares y el control de activos cuando se requiere instalación discreta y sencilla.
 

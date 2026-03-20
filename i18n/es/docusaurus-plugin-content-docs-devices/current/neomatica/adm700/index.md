@@ -21,7 +21,9 @@ keywords:
 
 # Neomatica - ADM700
 
+<div className="device-logo">
 ![ADM700](./tracker.png)
+</div>
 
 El ADM700 es un terminal de seguimiento instalado en vehículo con GNSS (GPS y GLONASS) diseñado para una gestión de flotas confiable y compatible con Plaspy. Como unidad adicional para camiones, vans y maquinaria pesada, el ADM700 registra de forma continua ubicación, velocidad y rumbo, y transmite telemetría por GSM GPRS para seguimiento en tiempo real, monitoreo remoto y despacho. Su carcasa robusta con protección IP65 e IK07, la compatibilidad con doble SIM y la batería interna de respaldo lo hacen apto para entornos exigentes de transporte y logística.
 

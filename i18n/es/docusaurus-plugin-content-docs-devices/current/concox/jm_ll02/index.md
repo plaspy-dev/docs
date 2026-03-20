@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JM-LL02
 
+<div className="device-logo">
 ![JM-LL02](./tracker.png)
+</div>
 
 El JM-LL02 de Concox es un rastreador GPS resistente compatible con Plaspy, diseñado para despliegues de activos a largo plazo donde la mínima intervención en la instalación y una amplia autonomía de espera son cruciales. Combina posicionamiento multifuente con conectividad celular y una batería industrial de alta capacidad para ofrecer reportes de ubicación continuos y telemetría de eventos en activos móviles como remolques, contenedores y maquinaria de obra. El equipo cuenta con una carcasa IP67, montaje magnético integrado y configuración por Bluetooth a bordo para facilitar la redistribución sin herramientas y una puesta en marcha sencilla en campo.
 

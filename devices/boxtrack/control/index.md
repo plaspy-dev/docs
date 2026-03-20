@@ -20,7 +20,9 @@ keywords:
 
 # BoxTrack - Control
 
+<div className="device-logo">
 ![Control](./Logo.png)
+</div>
 
 The Boxtrack Anti Theft Control is a compact vehicle GPS tracker built for real time monitoring and security. Designed to provide accurate position updates with reported accuracy under 5 meters, the Control model includes anti theft features such as a remote engine cut off function, an SOS panic button, live audio monitoring via an external microphone, and a G sensor for impact and harsh driving detection. It also offers wide area connectivity and onboard memory to retain reports when communication is interrupted.
 

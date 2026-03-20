@@ -20,7 +20,9 @@ keywords:
 
 # Fortuna Impex - Disha 9320
 
+<div className="device-logo">
 ![Disha 9320](./logo.jpg)
+</div>
 
 The Fortuna Impex Disha 9320 is an intelligent vehicle tracking system designed for companies in services, delivery, and transportation industries. It provides both real time and historical tracking via a web interface, and it collects and analyzes asset information to help optimize resource utilization. The unit includes enclosed GPS and GPRS antennas and offers real time alerts, events, and scheduled reports delivered by SMS and email, making it suitable for continuous operational oversight.
 

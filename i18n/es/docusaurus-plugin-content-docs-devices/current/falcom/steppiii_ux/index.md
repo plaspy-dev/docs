@@ -21,7 +21,9 @@ keywords:
 
 # Falcom - STEPPIII-UX
 
+<div className="device-logo">
 ![STEPPIII-UX](./logo.jpg)
+</div>
 
 El Falcom STEPPIII-UX es un dispositivo de rastreo inteligente, versátil y configurable, diseñado como cliente móvil para AVL, gestión de flotas, seguridad vehicular y recuperación. Está concebido para operar de forma autónoma y, al mismo tiempo, interactuar con entradas y actores externos para soportar diversos escenarios de seguimiento y monitoreo. El equipo admite informes de estado y alertas por vías de mensajería habituales e incluye funciones como opciones de llamadas de voz y de emergencia, bitácora del conductor y registro integrado de datos para revisión histórica.
 

@@ -21,7 +21,9 @@ keywords:
 
 # YulongDa - H02
 
+<div className="device-logo">
 ![H02](./logo.jpg)
+</div>
 
 El YulongDa H02 es una unidad de rastreo GPS diseñada para determinar y registrar la ubicación de vehículos, personas u otros activos. Captura datos de posición a intervalos regulares y almacena esos registros para supervisión en tiempo real o para análisis posterior, por lo que resulta adecuada para distintas necesidades de seguimiento y control.
 

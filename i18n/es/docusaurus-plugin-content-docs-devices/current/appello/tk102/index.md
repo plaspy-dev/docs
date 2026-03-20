@@ -21,7 +21,9 @@ keywords:
 
 # Appello - TK102
 
+<div className="device-logo">
 ![TK102](./logo.jpg)
+</div>
 
 El Appello TK102 es un rastreador GPS compacto y versátil diseñado para ofrecer localización fiable en una variedad de aplicaciones. Construido en torno a una CPU STC y el chip GPS New Star NS-1315, el TK102 proporciona alta sensibilidad GPS y buena precisión de posicionamiento. Su formato reducido y diseño liviano facilitan su instalación en lugares donde se requiere seguimiento discreto. El dispositivo admite comunicaciones GSM GPRS en frecuencias comunes y cuenta con una batería recargable que ofrece un tiempo de espera prolongado para operaciones extendidas.
 

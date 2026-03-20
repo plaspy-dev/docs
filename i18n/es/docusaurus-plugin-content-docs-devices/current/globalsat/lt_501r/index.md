@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - LT-501R
 
+<div className="device-logo">
 ![LT-501R](./tracker.jpg)
+</div>
 
 El GlobalSat LT-501R es un rastreador de activos GPS compacto que ofrece monitoreo fiable tanto en interiores como en exteriores, con una batería de larga duración y funciones prácticas para la gestión de activos. Integra posicionamiento GPS, soporte para balizas BLE y un acelerómetro de 3 ejes en una carcasa ligera, y está diseñado para telemetría de bajo consumo y largo alcance con compatibilidad LoRaWAN y Helium. Su enfoque está en el rastreo a nivel de activo más que en telemática vehicular avanzada, por lo que es ideal para equipos, remolques y otros bienes portátiles.
 

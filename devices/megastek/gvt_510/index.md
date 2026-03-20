@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - GVT-510
 
+<div className="device-logo">
 ![GVT-510](./logo.jpg)
+</div>
 
 The Megastek GVT-510 is a compact, durable GPS tracker designed for accurate and reliable location monitoring across a range of personal and commercial applications. It uses a SiRF Star III GPS chipset to deliver precise positioning and a SIM 900 GSM component for broad quad band cellular coverage. The device supports multiple tracking modes, basic alarm features such as SOS and geo fencing, motion detection, and data logging, making it suitable for continuous tracking and intermittent reporting scenarios.
 

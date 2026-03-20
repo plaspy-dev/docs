@@ -23,7 +23,7 @@ export default function BrandCatalog({ brand }) {
                         className='device-card'
                     >
                         <div className="device-card-image-container">
-                            <Link to={`./${model.slug}`}>
+                            <Link to={`./${model.slug}/`}>
                                 {model.image && (
                                     <img
                                         src={model.image}
@@ -34,7 +34,7 @@ export default function BrandCatalog({ brand }) {
                             </Link>
                         </div>
                         <div className='device-card-name'>
-                            <Link to={`./${model.slug}`}>
+                            <Link to={`./${model.slug}/`}>
                                 <h3>{model.name}</h3>
                                 {model.summary && <p>{model.summary}</p>}
                             </Link>

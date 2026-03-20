@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMM00A
 
+<div className="device-logo">
 ![FMM00A](./tracker.png)
+</div>
 
 El Teltonika FMM00A es un rastreador OBD-II plug-and-play diseñado para flotas en Norteamérica, servicios de alquiler y uso compartido, y despliegues con vehículos mixtos. Integra posicionamiento GNSS, conectividad celular y Bluetooth para ofrecer ubicación continua y telemetría vehicular sin instalaciones eléctricas complejas. El equipo se instala rápidamente conectándolo al puerto OBD-II del vehículo, permitiendo la transmisión inmediata de posición, odómetro y parámetros relacionados con combustible cuando el vehículo lo soporta.
 

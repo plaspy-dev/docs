@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JM-LG01
 
+<div className="device-logo">
 ![JM-LG01](./tracker.png)
+</div>
 
 El JM-LG01 es un rastreador GNSS GPS portátil de Concox diseñado para el monitoreo prolongado de activos sin alimentación. Pensado para una gestión de flotas de bajo mantenimiento y la protección de activos, el equipo destaca por su larga autonomía de batería, posicionamiento de alta sensibilidad, telemetría consciente ante manipulaciones y una carcasa resistente al agua con un potente imán para una instalación prácticamente inmediata.
 

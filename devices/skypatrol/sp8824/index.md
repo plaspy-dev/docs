@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP8824
 
+<div className="device-logo">
 ![SP8824](./tracker.png)
+</div>
 
 The SP8824 is a compact, next generation personal GPS tracker designed for everyday asset and mobility monitoring. With LTE Cat M1 cellular connectivity and an integrated GPS antenna, the SP8824 provides dependable location updates while emphasizing low power consumption and long standby times from its internal rechargeable battery. Its discreet form factor makes it suitable for children, seniors, and professionals who need unobtrusive, continuous monitoring.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T363B
 
+<div className="device-logo">
 ![T363B](./tracker.jpg)
+</div>
 
 The T363B is a plug and play OBD GPS vehicle tracker designed for robust vehicle monitoring and telematics collection. It connects directly to a vehicle OBD port and provides GPS positioning, OBD and CAN telemetry, and driver behavior events over a cellular link. The device combines positioning with motion detection and an integrated immobilizer function, making it suitable for fleet, rental, insurance, and vehicle security applications.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - OGT02
 
+<div className="device-logo">
 ![OGT02](./tracker.jpg)
+</div>
 
 El TopShine OGT02 es un rastreador GPS OBD2 4G diseñado para una implementación rápida plug and play en vehículos. Se conecta al puerto OBD II del vehículo, por lo que no requiere cableado ni instalación profesional. El equipo integra comunicación celular, receptor GPS de alta precisión y un acelerómetro incorporado para entregar ubicación continua, alertas por eventos y telemetría del vehículo a plataformas compatibles.
 

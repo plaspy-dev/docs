@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - GF20-Mini
 
+<div className="device-logo">
 ![GF20-Mini](./tracker.jpg)
+</div>
 
 El GF20 Mini Magnet GPS Tracker es un rastreador de activos compacto y discreto diseñado para el seguimiento encubierto a corto plazo de vehículos, contenedores y pertenencias personales. Ofrece localización en tiempo real, alertas por geocerca y notificaciones de eventos vía SMS o mensajes de plataforma, y permite integraciones sencillas con sistemas de monitoreo de flotas o activos. Su carcasa magnética y su conjunto de funciones enfocado lo hacen ideal cuando se requiere despliegue rápido y colocación poco visible.
 

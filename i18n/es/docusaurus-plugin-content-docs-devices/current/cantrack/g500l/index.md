@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G500L
 
+<div className="device-logo">
 ![G500L](./tracker.png)
+</div>
 
 El CanTrack G500L es un rastreador GPS OBD 4G de alcance global, diseñado para una instalación rápida tipo plug and play en el conector OBD II del vehículo. Dirigido a administradores de flotas y propietarios de vehículos, el G500L ofrece actualizaciones continuas de ubicación y telemetría a nivel OBD, como consumo de combustible, lecturas de temperatura y reporte de códigos de diagnóstico. Su enfoque de posicionamiento híbrido combina GNSS con métodos asistidos para ofrecer fijaciones confiables aptas para el seguimiento operativo.
 

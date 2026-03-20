@@ -21,7 +21,9 @@ keywords:
 
 # TopTen - GT08S
 
+<div className="device-logo">
 ![GT08S](./Logo.jpg)
+</div>
 
 El TopTen GT08S es un rastreador GPS compacto pensado para el monitoreo de automóviles, motocicletas y vehículos más grandes. Su amplio rango de voltaje lo hace adecuado para distintos sistemas eléctricos, y ofrece seguimiento tanto bajo demanda como por intervalos a través de SMS o GPRS. El GT08S incorpora un registrador de datos para el historial de rutas y dispone de varias alarmas y funciones de control que facilitan la supervisión de la actividad del vehículo.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS108
 
+<div className="device-logo">
 ![GPS108](./Logo.jpg)
+</div>
 
 El Coban GPS108 es un rastreador GPS compacto y versátil diseñado para ofrecer localización precisa y soporte en múltiples aplicaciones de monitoreo. Emplea satélites GPS y la red GSM GPRS para reportar posición y estado, y se utiliza habitualmente en la protección contra robo de vehículos, la vigilancia personal de niños o adultos mayores, el seguimiento de mascotas y la supervisión de personal. El equipo entrega posicionamiento a nivel de dirección y una serie de alarmas y modos de seguimiento configurables, lo que lo hace adecuado para muchas necesidades básicas de rastreo.
 

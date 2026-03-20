@@ -21,7 +21,9 @@ keywords:
 
 # GenX Mobile - GNX-3
 
+<div className="device-logo">
 ![GNX-3](./logo.jpg)
+</div>
 
 El GenX Mobile GNX-3 es un rastreador GPS versátil diseñado para una amplia variedad de necesidades de seguimiento, desde flotas de vehículos hasta la gestión de recursos móviles. Construido con componentes de alta calidad y opciones configurables, el GNX-3 ofrece un seguimiento de ubicación en tiempo real confiable y preciso. Incluye un acelerómetro de 3 ejes autocalibrado para monitorear eventos como aceleraciones bruscas y conducción agresiva, proporcionando mayor visibilidad sobre el movimiento y el comportamiento.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Laipac - Starfinder KAMEL
 
+<div className="device-logo">
 ![Starfinder KAMEL](./logo.jpg)
+</div>
 
 The Laipac Starfinder KAMEL is a versatile GPS tracking device built to monitor, track, and recover both non powered and powered assets. Designed for industrial and field applications, it covers vehicles, watercraft, trailers, construction machinery, and stationary equipment. The device includes an industrial grade rechargeable battery rated at 18Ah and is advertised to support extended operation periods of up to four months on a full charge, making it suitable for long duration deployments.
 

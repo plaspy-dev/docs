@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D09
 
+<div className="device-logo">
 ![D09](./tracker.jpg)
+</div>
 
 The GOTOP D09 is a portable magnetic asset GPS tracker designed for secure monitoring and rapid recovery of vehicles, trailers and industrial equipment. Built for rugged conditions, the D09 combines multi mode positioning with a strong magnet and a waterproof enclosure to enable covert mounting and continuous location visibility. It is offered in three rechargeable battery capacities and supports broad cellular coverage to match deployment autonomy and reach.
 

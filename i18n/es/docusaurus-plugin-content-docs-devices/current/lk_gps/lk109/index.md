@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK109
 
+<div className="device-logo">
 ![LK109](./logo..jpg)
+</div>
 
 El LK109 es un localizador GPS personal compacto diseñado para ofrecer seguimiento de ubicación y funciones de seguridad confiables para personas y pequeños activos. Su tamaño reducido y construcción resistente al agua lo hacen cómodo para llevar a diario y confiable en condiciones exigentes. El dispositivo cuenta con un chip GPS integrado con sensibilidad publicada y una precisión típica de posicionamiento cercana a los cinco metros, junto con funciones prácticas como alarma SOS, alarma por caída, alertas de geocerca y soporte de llamadas.
 

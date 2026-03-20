@@ -20,7 +20,9 @@ keywords:
 
 # GenX Mobile - GNX-6
 
+<div className="device-logo">
 ![GNX-6](./logo.jpg)
+</div>
 
 The GenX Mobile GNX-6 is a versatile GPS tracker designed to serve a range of tracking needs from vehicle monitoring to mobile resource management. Built with configurable options and a focus on reliable performance, the GNX-6 combines robust hardware and calibrated motion detection to provide accurate location and event awareness for many commercial and industrial applications.
 

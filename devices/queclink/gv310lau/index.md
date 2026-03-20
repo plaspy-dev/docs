@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV310LAU
 
+<div className="device-logo">
 ![GV310LAU](./tracker.png)
+</div>
 
 The GV310LAU is a rugged LTE Cat 4 GPS tracker designed for demanding vehicle applications including heavy trucks and cars. It pairs multi constellation GNSS positioning with high speed cellular connectivity to provide reliable, real time location and telemetry. The unit is compact and built for continuous vehicle use, with configurable inputs, CAN capture and onboard features intended for fleet management and anti theft workflows.
 

@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-VB05
 
+<div className="device-logo">
 ![TS-VB05](./tracker.jpg)
+</div>
 
 The ThingSys TS-VB05 is a compact plug and play OBDII GPS tracker designed for private car owners and fleet operators who need fast, noninvasive vehicle monitoring. The device connects directly to the vehicle OBDII port to provide continuous location data, OBD telemetry such as fuel use and driving behavior, and built in security features. Its form factor and feature set are targeted at quick deployment across single vehicles or large fleets without specialized installation.
 

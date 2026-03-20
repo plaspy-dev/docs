@@ -21,7 +21,9 @@ keywords:
 
 # Riti - 670 (IDU-300)
 
+<div className="device-logo">
 ![670 (IDU-300)](./tracker.jpg)
+</div>
 
 El Riti Locator 670 (IDU-300) es un rastreador GPS para instalación en vehículo diseñado para la gestión inteligente de flotas y el monitoreo continuo de posiciones. Como modelo 3G tipo IDU, ofrece actualizaciones frecuentes de ubicación y recepción GNSS de alta sensibilidad, además de soportar una variedad de periféricos habituales en telemática vehicular comercial. Aunque este modelo está descatalogado, su diseño está orientado a reportes de ubicación fiables, seguimiento de kilometraje, monitorización de voltaje y la integración con sensores externos.
 

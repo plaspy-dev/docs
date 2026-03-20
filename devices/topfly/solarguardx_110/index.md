@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - SolarGuardX 110
 
+<div className="device-logo">
 ![SolarGuardX 110](./tracker.png)
+</div>
 
 The SolarGuardX 110 is a rugged, solar powered GPS tracker built in a heavy duty padlock form factor for outdoor asset security and long term monitoring. Designed for containers, trailers and other mobile assets in remote or harsh environments, it pairs an integrated solar panel with a high capacity rechargeable battery and multi constellation GNSS to maximize uptime and deliver reliable location telemetry and hardened anti theft features.
 

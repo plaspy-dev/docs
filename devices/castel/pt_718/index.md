@@ -20,7 +20,9 @@ keywords:
 
 # Castel - PT-718
 
+<div className="device-logo">
 ![PT-718](./logo.jpg)
+</div>
 
 The Castel PT-718 is a compact portable personal GPS tracker designed for tracking people, vehicles, and pets. It combines GPS and A GPS positioning with GSM GPRS connectivity to provide timely location updates and supports features commonly needed for personal safety and lightweight asset tracking. The device emphasizes long standby time and low energy consumption while offering practical alarms such as SOS and geo fence alerts.
 

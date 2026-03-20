@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP2600
 
+<div className="device-logo">
 ![SP2600](./logo.jpg)
+</div>
 
 The SkyPatrol SP2600 Series is an economical GPS tracking device designed to provide reliable location and motion monitoring without unnecessary extras. It targets users who need straightforward fleet tracking and asset monitoring, offering core features such as over the air firmware updates, a 3 axis accelerometer for motion sensing, a single input and output for basic integrations, and an optional backup battery to maintain operation during vehicle power loss.
 

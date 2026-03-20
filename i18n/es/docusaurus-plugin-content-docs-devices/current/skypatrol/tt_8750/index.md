@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - TT 8750+
 
+<div className="device-logo">
 ![TT 8750+](./logo.jpg)
+</div>
 
 El SkyPatrol TT 8750+ es un rastreador GPS compacto y resistente, pensado para una amplia variedad de aplicaciones de localización. Integra un módem cuatribanda para cobertura celular amplia, un receptor GPS ultrasensible y una matriz de antenas integrada que facilita fijaciones de posición fiables. El equipo también cuenta con conector SMA para antena GPS externa opcional, múltiples entradas y salidas digitales y analógicas, sensor de movimiento, batería de respaldo y una carcasa resistente a salpicaduras adecuada para entornos exigentes.
 

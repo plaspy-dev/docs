@@ -21,7 +21,9 @@ keywords:
 
 # Telic - LT910-WW
 
+<div className="device-logo">
 ![LT910-WW](./tracker.jpg)
+</div>
 
 El LT910-WW es un terminal IoT industrial compacto pensado para despliegues celulares a nivel global. Construido sobre el módulo Telit LE910C1-WWX, ofrece conectividad LTE como enlace principal con conmutación automática a 3G y 2G, un amplio rango de temperatura de operación, capacidad de entrada de tensión extensa e interfaces industriales para conectar unidades GNSS externas o equipos de telemetría. Su soporte SIM con cierre y la carcasa robusta lo hacen ideal para instalaciones en vehículos, gabinetes y activos de campo donde se requiere transporte celular confiable.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-11
 
+<div className="device-logo">
 ![AT-11](./tracker.jpeg)
+</div>
 
 The Autoseeker AT-11 is a compact plug and play 4G car charger GPS tracker designed for quick deployment in vehicles. Intended to be used in a cigarette lighter socket, the device combines GNSS positioning with cellular connectivity and an integrated mobile phone charging function to provide continuous location updates, alarm reporting and history playback without hardwiring. Its form factor and lightweight enclosure make it practical for fleets, rental vehicles and private cars where simple installation and immediate tracking are priorities.
 

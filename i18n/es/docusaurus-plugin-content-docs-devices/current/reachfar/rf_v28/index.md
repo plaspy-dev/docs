@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V28
 
+<div className="device-logo">
 ![RF-V28](./tracker.jpg)
+</div>
 
 El colgante SOS RF-V28 de Reachfar es un rastreador personal compacto diseñado para monitoreo continuo de ubicación y respuesta rápida ante emergencias. Diseñado para llevarse como colgante, ofrece posicionamiento por múltiples métodos y un botón SOS para llamadas directas en emergencias, junto con detección automática de caídas y zonas seguras configurables para apoyar la seguridad diaria de personas que requieren vigilancia discreta y fiable.
 

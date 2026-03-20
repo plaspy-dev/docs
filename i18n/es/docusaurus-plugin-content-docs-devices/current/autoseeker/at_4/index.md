@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-4
 
+<div className="device-logo">
 ![AT-4](./tracker.jpg)
+</div>
 
 El Autoseeker AT-4 es un rastreador GPS para mascotas diseñado en 4G CAT 1 para ofrecer seguimiento confiable y de larga duración en animales de mayor tamaño. Combina una carcasa ABS resistente con certificación IP67 con una batería recargable de alta capacidad de 3000 mAh y funciones prácticas como alarmas por geocerca, luz de búsqueda, zumbador audible, llamadas bidireccionales y monitorización remota de voz para soportar uso continuo en exteriores y una interacción sencilla por parte del propietario.
 

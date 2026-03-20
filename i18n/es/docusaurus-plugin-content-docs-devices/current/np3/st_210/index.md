@@ -21,7 +21,9 @@ keywords:
 
 # NP3 - ST 210
 
+<div className="device-logo">
 ![ST 210](./logo.jpg)
+</div>
 
 El NP3 ST 210 es un rastreador GPS embarcado diseñado para ofrecer un control integral de los parámetros del vehículo. Construido con componentes probados y sometido a controles de calidad individuales y pruebas climáticas, el ST 210 está pensado para un funcionamiento diario confiable en una amplia variedad de aplicaciones de transporte. Sus funciones se enfocan en el seguimiento continuo de la ubicación, la detección de eventos y un conjunto de métricas del vehículo que ayudan a los administradores a mantener una supervisión cercana de los activos en movimiento.
 

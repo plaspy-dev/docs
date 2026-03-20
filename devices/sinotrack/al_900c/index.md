@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - AL-900C
 
+<div className="device-logo">
 ![AL-900C](./Logo.png)
+</div>
 
 The SinoTrack AL-900C is a compact vehicle GPS tracker designed to deliver reliable position tracking and basic vehicle monitoring for a range of applications. It combines robust environmental tolerance, including an operating temperature range from -15°C to 80°C and an IP53 protection rating, with communication capabilities intended for continuous location reporting. The AL-900C includes positioning hardware and a GSM based communication module along with features for alarm reporting and remote voice communication.
 

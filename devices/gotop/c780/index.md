@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - C780
 
+<div className="device-logo">
 ![C780](./tracker.jpg)
+</div>
 
 The GOTOP C780 is a compact GPS tracker designed for cars, motorcycles, e-bikes and other light vehicles that need reliable location monitoring and security. It combines satellite positioning with cellular connectivity to deliver continuous position updates, history playback and alerting, while a small form factor makes it suitable for discreet installation on a variety of vehicles.
 

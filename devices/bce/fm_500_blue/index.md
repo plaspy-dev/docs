@@ -20,7 +20,9 @@ keywords:
 
 # BCE - FM-500 Blue
 
+<div className="device-logo">
 ![FM-500 Blue](./logo.jpg)
+</div>
 
 The BCE FM-500 Blue is a compact and versatile GPS tracker designed for object and vehicle tracking. It acquires location, speed, and direction information using GPS and GLONASS positioning and transfers data via the GSM network. The device includes digital and analog inputs and outputs for connecting external sensors and equipment, and it can read FMS CAN data using the J1939 protocol, making it suitable for a range of tracking scenarios.
 

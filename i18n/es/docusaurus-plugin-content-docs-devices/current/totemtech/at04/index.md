@@ -21,7 +21,9 @@ keywords:
 
 # Totemtech - AT04
 
+<div className="device-logo">
 ![AT04](./tracker.jpg)
+</div>
 
 El Totemtech AT04 es un rastreador GPS vehicular compacto e impermeable diseñado para motocicletas, automóviles y camionetas ligeras. Su tamaño reducido y su amplio rango de entrada de corriente continua lo hacen ideal para flotas mixtas que requieren una instalación discreta y reportes de posición consistentes. El dispositivo combina posicionamiento multi GNSS con antenas integradas para proporcionar datos de ubicación continuos y fiables para el seguimiento operativo.
 

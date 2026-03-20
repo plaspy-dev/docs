@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AX7
 
+<div className="device-logo">
 ![AX7](./logo.jpg)
+</div>
 
 El ATrack AX7 es un rastreador GPS compacto pensado para el control de flotas, el seguimiento de vehículos y operaciones de alquiler. Se conecta directamente al puerto OBDII del vehículo para ofrecer una instalación tipo enchufar y listo, reduciendo tiempo y costos frente a dispositivos cableados. El AX7 proporciona seguimiento en tiempo real de la ubicación y la velocidad, e incluye funciones en el equipo como batería de respaldo, memoria interna para almacenamiento de eventos, modo de suspensión para ahorro de energía, antenas internas GPS y GSM, y un puerto USB para conectividad adicional.
 

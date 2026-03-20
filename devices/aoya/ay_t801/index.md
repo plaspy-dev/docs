@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - AY-T801
 
+<div className="device-logo">
 ![AY-T801](./logo.jpg)
+</div>
 
 The AoYa AY-T801 is a compact vehicle tracker that combines Beidou and GPS positioning to provide accurate location tracking for cars. Designed with a small and discreet form factor, the AY-T801 is intended to be installed unobtrusively in a wide range of passenger vehicles. Core features described by the manufacturer include positioning and track playback, electronic fencing, remote engine cut and ACC detection, plus multiple alarm types such as vibration, power, low battery, speed, and fence alarms.
 

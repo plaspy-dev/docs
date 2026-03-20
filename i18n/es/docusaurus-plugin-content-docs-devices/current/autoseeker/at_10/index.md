@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-10
 
+<div className="device-logo">
 ![AT-10](./Logo.png)
+</div>
 
 El Autoseeker AT-10 es un rastreador GPS compacto para vehículos, diseñado para ofrecer seguimiento y monitoreo en tiempo real de automóviles y flotas. Soporta conectividad 4G LTE para reportes de ubicación rápidos e incluye funciones de historial de viajes y registro de kilometraje. El AT-10 también cuenta con un conjunto completo de alertas, como notificaciones SOS, avisos de geocerca, alertas por corte de alimentación externa y advertencias de batería baja, contribuyendo a la seguridad del vehículo y a la supervisión operativa.
 

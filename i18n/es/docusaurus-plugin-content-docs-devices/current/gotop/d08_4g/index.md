@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - D08-4G
 
+<div className="device-logo">
 ![D08-4G](./tracker.jpg)
+</div>
 
 El D08-4G es un rastreador GPS 4G diseñado para montarse en el puerto OBD, pensado tanto para la supervisión de flotas como para vehículos particulares. Combina conectividad celular con modos de posicionamiento multibanda, incluyendo GPS, Beidou BD, Wi‑Fi y LBS, ofreciendo actualizaciones de ubicación continuas en un formato compacto. Sus funciones estándar de alarma vehicular —geocercas, corte de energía, batería baja, detección de vibración por manipulación y alertas por desconexión— lo hacen apto para seguridad y monitoreo operativo.
 

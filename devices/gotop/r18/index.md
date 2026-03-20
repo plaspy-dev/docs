@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - R18
 
+<div className="device-logo">
 ![R18](./tracker.jpg)
+</div>
 
 The R18 is a compact 4G GPS tracker from GOTOP designed for versatile vehicle and asset tracking. It is built for motorcycles, cars, boats and general asset protection, featuring a rugged industrial form factor and internal antennas to simplify installation and reduce visibility. The device supports a wide DC input range and offers multiple tracking modes and alarm options that suit both commercial fleet use and personal security needs.
 

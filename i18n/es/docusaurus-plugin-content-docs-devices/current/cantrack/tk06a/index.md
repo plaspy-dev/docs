@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - TK06A
 
+<div className="device-logo">
 ![TK06A](./logo.jpg)
+</div>
 
 El CanTrack TK06A es un rastreador GPS compacto diseñado para la localización y supervisión de vehículos y activos móviles. Utiliza satélites GPS para determinar la posición y la red GSM/GPRS para enviar los datos de ubicación a destinatarios autorizados. El equipo permite el envío de información de posición por SMS a números móviles y también puede transmitir datos GPS por GPRS a un servidor en internet para su seguimiento en tiempo real desde una computadora o plataformas de mapas como Google Maps o Google Earth.
 

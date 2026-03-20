@@ -21,7 +21,9 @@ keywords:
 
 # iTriangle - TS101 Advance
 
+<div className="device-logo">
 ![TS101 Advance](./tracker.png)
+</div>
 
 El TS101 Advance es un rastreador telemático robusto de iTriangle diseñado para la supervisión confiable de vehículos, la seguridad y la gestión de flotas. Construido para uso exigente en exteriores, el dispositivo ofrece posicionamiento continuo en tiempo real junto con detección de movimiento a bordo e entradas y salidas robustas para integrar accesorios, lo que permite un seguimiento sostenido y el registro de eventos en entornos de transporte comercial y público.
 

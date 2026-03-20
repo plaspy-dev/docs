@@ -20,7 +20,9 @@ keywords:
 
 # Intellitrack - Intellitrac X1 Plus
 
+<div className="device-logo">
 ![Intellitrac X1 Plus](./logo.jpg)
+</div>
 
 The Intellitrack Intellitrac X1 Plus is a compact GPS tracker designed to monitor vehicles and valuable assets without drawing attention. Its small form factor and a suite of standard tracking features make it suitable for discreet installation on vehicles, equipment, or other items that require regular position updates and status monitoring.
 

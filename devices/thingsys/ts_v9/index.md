@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-V9
 
+<div className="device-logo">
 ![TS-V9](./tracker.jpg)
+</div>
 
 The TS-V9 is a professional vehicle GPS tracker from ThingSys designed for rugged, vehicle focused deployments. It targets fleet management, logistics, rental fleets, buses and other specialized vehicle applications. The device combines multi generation cellular connectivity with a Ublox7 Compass GNSS receiver and a set of vehicle telemetry and security features to deliver continuous position reporting and operational data suitable for professional installations.
 

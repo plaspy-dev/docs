@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2433 HIT
 
+<div className="device-logo">
 ![SMART S-2433 HIT](./tracker.jpeg)
+</div>
 
 The SMART S-2433 HIT from Navtelekom is a compact professional grade GPS tracker designed for 2G telematics in fleet and industrial vehicle deployments. It combines GLONASS and GPS positioning with internal GNSS and GSM antennas and a single SIM 2G modem to provide continuous position and status reporting. The device includes a built in backup battery and hardened electrical protection, making it suitable for demanding vehicle electrical environments.
 

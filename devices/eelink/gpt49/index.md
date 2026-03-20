@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT49
 
+<div className="device-logo">
 ![GPT49](./tracker.jpg)
+</div>
 
 The GPT49 is a 4G LTE GPS tracker designed for long unattended deployments and global asset visibility. It combines multi‑constellation GNSS coverage with wide cellular support to provide consistent location reporting for equipment, containers, and stored valuables. Built with a large 6500 mAh lithium manganese battery and selectable low power or emergency real time tracking modes, the GPT49 is optimized for scenarios where long standby life and reliable positioning are essential.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Gelix - Gelix G Lite
 
+<div className="device-logo">
 ![Gelix G Lite](./logo.jpg)
+</div>
 
 El Gelix G Lite es un rastreador GPS telemático compacto diseñado para proporcionar información de ubicación precisa y fiable de vehículos y activos móviles. Combina navegación GLONASS y GPS con comunicación GSM GPRS para capturar datos de posición con rapidez, con un tiempo de arranque reportado de alrededor de 29 segundos tras encenderse. El equipo admite modos de recepción multicanal para aumentar la fiabilidad del posicionamiento y está pensado para aplicaciones generales de seguimiento de flotas y activos.
 

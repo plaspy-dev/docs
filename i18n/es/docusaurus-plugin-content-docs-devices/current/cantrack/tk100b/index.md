@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - TK100B
 
+<div className="device-logo">
 ![TK100B](./tracker.jpg)
+</div>
 
 El CanTrack TK100B Accurate Pro es un rastreador GPS vehicular cableado diseñado para el monitoreo continuo y en tiempo real de la ubicación y la seguridad del vehículo. Como evolución profesional de la familia GT06/TK100, el TK100B ofrece telemetría y funciones de gestión remota del vehículo mediante GSM/GPRS con TCP/IP. Incluye controles antirrobo como corte y restauración del motor con una sola tecla, botón SOS, geocercas, soporte de voz bidireccional e interfaces para accesorios como sirena y control remoto.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JM-VG02
 
+<div className="device-logo">
 ![JM-VG02](./logo..png)
+</div>
 
 El Concox JM-VG02 es un rastreador vehicular OBD II diseñado para una instalación sencilla y monitoreo continuo del vehículo. Basado en la descripción del JM-VG02U, incorpora sensores de movimiento y capacidades de análisis del comportamiento de conducción que detectan múltiples tipos de eventos inseguros. Además, utiliza GPS asistido por INS para mantener información de ubicación confiable en zonas con señales satelitales débiles, ofrece alertas por fatiga de conducción y proporciona una alta precisión en el registro de kilometraje para reportes operativos consistentes.
 

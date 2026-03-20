@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB002
 
+<div className="device-logo">
 ![FMB002](./Logo.png)
+</div>
 
 The Teltonika FMB002 is an ultra small OBDII plug and play GPS tracker designed for fast, low friction vehicle deployment. As an OBDII device it reads standard vehicle data and combines that capability with location tracking, GNSS positioning, cellular connectivity, Bluetooth Low Energy support, and an integrated accelerometer to support a wide range of telematics features. Its compact form factor and plug and play approach make it well suited to light commercial vehicles and small fleet rollouts.
 

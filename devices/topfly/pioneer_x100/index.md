@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - Pioneer X100
 
+<div className="device-logo">
 ![Pioneer X100](./Logo.png)
+</div>
 
 The Pioneer X100 is a compact wired GNSS tracker from TopFly designed for fleet management and vehicle security. It provides global LTE Cat 1 connectivity with 2G fallback and supports multi constellation GNSS positioning. The device includes multiple digital inputs and outputs for monitoring vehicle signals and supports Bluetooth sensor integration for environmental and accessory status monitoring, making it suitable for a broad set of vehicular monitoring needs.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V46
 
+<div className="device-logo">
 ![RF-V46](./tracker.jpg)
+</div>
 
 The Reachfar RF-V46 is a wearable 4G GPS positioning video telephone watch built for caregivers, families, and organizations that need reliable personal tracking and remote monitoring. As a wristwatch form factor, it combines cellular 4G connectivity with GPS positioning, two-way voice telephone functions, optional video calling, and basic biometric sensors to provide continuous situational awareness for the wearer.
 

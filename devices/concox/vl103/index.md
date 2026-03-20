@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL103
 
+<div className="device-logo">
 ![VL103](./logo..png)
+</div>
 
 The Concox VL103M is a compact GPS tracker built for industrial and commercial fleet use. It combines multi constellation positioning with a set of practical features aimed at vehicle security and driver safety, including an external buzzer or horn alarm to help locate vehicles, audible and light warnings for speeding or fatigue events, and remote listen in functionality. The unit is designed to be rugged in the field with IP66 dust and water resistance, making it suitable for demanding fleet environments.
 

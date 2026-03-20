@@ -21,7 +21,9 @@ keywords:
 
 # EV - EV-206M
 
+<div className="device-logo">
 ![EV-206M](./tracker.png)
+</div>
 
 El EV-206M es un rastreador GPS ultraligero pensado para gatos y mascotas pequeñas. Con apenas 19 gramos y clasificación de resistencia al agua IP67, ofrece un diseño compacto y cómodo para el collar, junto con posicionamiento multimodal y enlace celular para proporcionar una localización fiable tanto en exteriores como en interiores. El fabricante lo presenta como una solución de uso diario para la seguridad de la mascota, incluyendo monitoreo de actividad, detección de presencia en el hogar y una base de carga a juego.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G23N
 
+<div className="device-logo">
 ![G23N](./tracker.jpg)
+</div>
 
 El GOTOP G23N es un rastreador NB‑IoT de grado vehicular, compacto, diseñado para el monitoreo continuo de ubicación y el control práctico del vehículo. Construido alrededor del módulo Quectel BC26 NB‑IoT y un motor GNSS ZKMicro, el G23N ofrece posicionamiento multiconstelación (GPS + BDS + LBS) y entradas/salidas para vehículo, como detección de ACC y una salida de baja potencia para corte remoto de alimentación o combustible. Su tamaño reducido y amplio rango de entrada DC lo hacen adecuado para automóviles, motocicletas, bicicletas eléctricas y vehículos comerciales ligeros.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-360A
 
+<div className="device-logo">
 ![VT-360A](./logo.jpg)
+</div>
 
 The GOTOP VT-360A is a compact, cost effective GPS vehicle tracker designed for discreet installation in a range of vehicles. It combines location tracking with vehicle security features, functioning as both a tracker and a car alarm. Key capabilities described by the manufacturer include RFID based automatic arm and disarm, SOS emergency alerts, geo-fence and over-speed notifications, movement and door open alarms, and the ability to provide location updates via SMS or GPRS. The unit also supports remote voice monitoring, mileage reporting, and has a backup battery with anti-tamper alerts for added resilience.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - MT-90
 
+<div className="device-logo">
 ![MT-90](./logo.jpg)
+</div>
 
 The Meitrack MT-90 V4 is a compact personal GPS tracker designed for lightweight, everyday use. It combines a small physical footprint with features commonly needed for personal safety and monitoring, including extended standby battery life of up to 10 days, a built in man down alarm for emergency situations, two way audio with listen in capability, and an IP65 water resistant rating. The device uses a simple two button interface to keep operation straightforward for non technical users.
 

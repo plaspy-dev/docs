@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - T333L
 
+<div className="device-logo">
 ![T333L](./tracker.png)
+</div>
 
 El Meitrack T333L es un rastreador GPS compacto pensado para la gestión de flotas comerciales, la seguridad vehicular y soluciones telemáticas avanzadas. Como dispositivo GNSS LTE Cat 1, el T333L ofrece actualizaciones de posición en tiempo real y una variedad de telemetría de vehículo, incluyendo monitoreo TPMS, detección de eventos de conducta de manejo y capacidad de voz bidireccional. Su formato compacto e interfaces para periféricos lo hacen apropiado para integrar sensores y accesorios a bordo que apoyen el monitoreo operativo.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-VL03
 
+<div className="device-logo">
 ![JM-VL03](./tracker.png)
+</div>
 
 The Concox JM-VL03 is a compact 4G LTE Cat 1 GPS tracker designed for fleet managers, insurers and vehicle asset protection teams. It combines continuous positioning and event driven telemetry in a small IP65 enclosure, with GSM fallback, a small internal backup battery and wide input voltage support to suit cars, motorcycles, scooters and light equipment.
 

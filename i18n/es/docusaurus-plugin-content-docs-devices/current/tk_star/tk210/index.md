@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK210
 
+<div className="device-logo">
 ![TK210](./tracker.jpg)
+</div>
 
 El TK210 es un rastreador GPS 4G compacto diseñado para motocicletas, vehículos eléctricos, scooters, autos particulares y flotas de alquiler. Combina posicionamiento GNSS multiconstelación con conectividad celular 4G y métodos de posicionamiento en interiores como LBS y Wi‑Fi para ofrecer información de ubicación fiable tanto en la vía pública como en interiores. El equipo incorpora funciones prácticas para antirrobo y gestión de flotas, como sensor de vibración, alertas de geovalla, notificaciones de movimiento y exceso de velocidad, y una salida para corte remoto del motor que permite inmovilizar el vehículo.
 

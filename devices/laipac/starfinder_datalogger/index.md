@@ -20,7 +20,9 @@ keywords:
 
 # Laipac - Starfinder Datalogger
 
+<div className="device-logo">
 ![Starfinder Datalogger](./tracker.png)
+</div>
 
 The Starfinder Datalogger is a purpose built GPS tracker and datalogger designed for professional mapping, telemetry, and radio integrations. It delivers live NMEA positioning data over wired outputs while simultaneously recording persistent waypoint logs for reliable post mission analysis. The unit is optimized for workflows that require accurate waypoint capture, dependable real time tracking, and straightforward connections to radios, computers, or data collection systems.
 

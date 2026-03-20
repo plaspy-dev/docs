@@ -21,7 +21,9 @@ keywords:
 
 # OKB Tehnoavtomatika - MPU-01
 
+<div className="device-logo">
 ![MPU-01](./logo.jpg)
+</div>
 
 El sistema de localización MPU-01 de OKB Tehnoavtomatika es un rastreador GPS compacto diseñado para ofrecer reportes de posición precisos y confiables en diversas aplicaciones de activos móviles y gestión de flotas. Está centrado en un receptor GPS de 50 canales de alta sensibilidad y soporta comunicación por SMS, ofreciendo un equilibrio entre adquisición precisa de coordenadas, dimensiones reducidas y un consumo de energía moderado adecuado para operaciones prolongadas.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GT06E
 
+<div className="device-logo">
 ![GT06E](./logo.jpg)
+</div>
 
 El Concox GT06E es un rastreador GPS 3G versátil diseñado para el seguimiento de vehículos y la gestión de flotas. Proporciona información de ubicación en tiempo real e incluye funciones habituales como corte remoto de combustible, geocercas, alarma SOS y aviso por exceso de velocidad. El dispositivo también admite salidas digitales opcionales para detección de puertas, alertas audiovisuales para localizar el vehículo y monitorización del voltaje de alimentación externa, lo que lo hace adecuado para múltiples necesidades de supervisión y seguridad.
 

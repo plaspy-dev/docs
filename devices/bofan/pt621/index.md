@@ -20,7 +20,9 @@ keywords:
 
 # Bofan - PT621
 
+<div className="device-logo">
 ![PT621](./tracker.jpg)
+</div>
 
 The PT621 is a rugged 4G vehicle GPS tracker designed for fleet management, vehicle security, and specialist monitoring tasks. Built for vehicle mounting and peripheral integration, it provides continuous position reporting along with configurable telemetry and event reporting to help operators maintain visibility and control across mobile assets.
 

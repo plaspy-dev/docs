@@ -20,7 +20,9 @@ keywords:
 
 # Flextrack - Lommy Capture
 
+<div className="device-logo">
 ![Lommy Capture](./tracker.jpg)
+</div>
 
 Lommy Capture is a compact, installation friendly GPS tracker designed for persistent, low maintenance monitoring of trailers, caravans and other towed assets. Its discreet light housing and internal power approach make it suited to applications where long intervals between service visits are preferred, while still supporting both real time tracking and historical route retrieval for asset oversight.
 

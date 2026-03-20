@@ -21,7 +21,9 @@ keywords:
 
 # Aquila - OBD II
 
+<div className="device-logo">
 ![OBD II](./logo.jpg)
+</div>
 
 El Aquila OBD II es un rastreador vehicular plug and play que combina el seguimiento por GPS con diagnósticos a bordo. Diseñado para conectarse al puerto de diagnóstico del vehículo, captura parámetros y códigos de diagnóstico y transmite esa información a un servidor central para su procesamiento. La unidad incluye un sensor de movimiento con acelerómetro de 3 ejes, antenas internas GSM y GPS, y una resistente carcasa de plástico ABS pensada para el uso automotriz cotidiano.
 

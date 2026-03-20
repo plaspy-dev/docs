@@ -21,7 +21,9 @@ keywords:
 
 # GenX Mobile - GNX-6
 
+<div className="device-logo">
 ![GNX-6](./logo.jpg)
+</div>
 
 El GenX Mobile GNX-6 es un rastreador GPS versátil diseñado para cubrir diversas necesidades de seguimiento, desde la supervisión de vehículos hasta la gestión de recursos móviles. Construido con opciones configurables y enfocado en un rendimiento fiable, el GNX-6 combina un hardware robusto y detección de movimiento calibrada para ofrecer ubicaciones precisas y detección de eventos en aplicaciones comerciales e industriales.
 

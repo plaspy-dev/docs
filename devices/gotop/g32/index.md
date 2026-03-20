@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G32
 
+<div className="device-logo">
 ![G32](./tracker.jpg)
+</div>
 
 The GOTOP G32 is a compact, purpose built mini GPS tracker designed primarily for cats and dogs. It provides always on location visibility using cellular transmissions, AGPS assisted positioning and a direct Google Maps link for instant location viewing. The device is optimized for small form factor use and includes features such as configurable alarms and remote monitoring intended to help pet owners locate and watch over animals more reliably.
 

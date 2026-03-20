@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - TK-201-2
 
+<div className="device-logo">
 ![TK-201-2](./logo.jpg)
+</div>
 
 The Xexun TK-201-2 is a cost effective GPS tracking device designed primarily for pet tracking. Its compact, lightweight form factor makes it suitable to attach to a pet collar or harness and provides location updates that help owners monitor movements and quickly locate a lost animal. The device also includes a set of built in tracking features such as interval based updates, movement alerts, and geo fence alarms that make it useful beyond pet use.
 

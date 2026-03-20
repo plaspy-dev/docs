@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMC650
 
+<div className="device-logo">
 ![FMC650](./tracker.png)
+</div>
 
 El Teltonika FMC650 es un rastreador profesional diseñado para despliegues exigentes de telemetría y gestión de flotas. Como sucesor del FMC640, ofrece conectividad celular LTE Cat 1 con retroceso a 2G, un receptor GNSS de doble canal con soporte L1 y L5 para mayor fiabilidad en la localización, y un conjunto robusto de entradas/salidas pensado para flotas pesadas, remolques y maquinaria especializada. El FMC650 viene empaquetado para integración vehicular y está disponible en variantes regionales que cubren las bandas celulares locales.
 

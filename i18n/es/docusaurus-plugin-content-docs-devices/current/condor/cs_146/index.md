@@ -21,7 +21,9 @@ keywords:
 
 # Condor - CS-146
 
+<div className="device-logo">
 ![CS-146](./tracker.png)
+</div>
 
 El CS-146 es un rastreador GPS diseñado específicamente para el control de contenedores y la seguridad de la carga. Pensado para monitorear la posición y el estado del contenedor, el CS-146 transmite ubicación y mensajes operativos vía redes celulares o satelitales para asegurar seguimiento fiable incluso en tramos de transporte mixtos. Su formato y conjunto de funciones están orientados a proteger la carga y facilitar los flujos de trabajo de acceso a contenedores.
 

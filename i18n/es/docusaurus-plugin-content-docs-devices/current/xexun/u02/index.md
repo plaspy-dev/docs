@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - U02
 
+<div className="device-logo">
 ![U02](./tracker.jpg)
+</div>
 
 El U02 es un reloj wearable profesional de Xexun que combina medición por ultra wideband (UWB), un módulo RFID de 2.4 GHz, sensores integrados de signos vitales y protección activa contra manipulación. Diseñado para entornos donde el GPS tradicional tiene limitaciones, el U02 ofrece posicionamiento en interiores y en cortas distancias al exterior con precisión a nivel centimétrico, además de alertas inmediatas por manipulación o emergencias para desplegados sensibles en materia de seguridad.
 

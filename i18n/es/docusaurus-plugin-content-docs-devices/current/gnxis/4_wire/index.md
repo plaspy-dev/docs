@@ -21,7 +21,9 @@ keywords:
 
 # Gnxis - 4-wire
 
+<div className="device-logo">
 ![4-wire](./Logo.jpg)
+</div>
 
 El Gnxis 4-wire es un rastreador GPS compacto diseñado para el monitoreo de ubicación en tiempo real y la generación de alertas de seguridad en vehículos. Está pensado para su uso en automóviles particulares, flotas comerciales y motocicletas, ofreciendo posicionamiento preciso y varias opciones de alarma para proteger y supervisar activos. El dispositivo mantiene conectividad en redes celulares comunes e incluye funciones orientadas al ahorro de energía cuando el vehículo está estacionado.
 

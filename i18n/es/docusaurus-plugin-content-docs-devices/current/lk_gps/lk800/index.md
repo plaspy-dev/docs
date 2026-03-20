@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK800
 
+<div className="device-logo">
 ![LK800](./tracker.jpg)
+</div>
 
 El LK800 es un rastreador GPS personal compacto diseñado para brindar seguridad en tiempo real y transporte discreto en el uso diario. Combina posicionamiento satelital multisistema con asistencia A-GPS para mejorar las fijaciones en condiciones de señal difíciles y, según el fabricante, puede entregar actualizaciones de posición con alta frecuencia, incluso con intervalos de hasta 5 segundos. El dispositivo incluye funciones de emergencia como un botón SOS prominente, detección automática de caídas y comunicación de voz bidireccional para facilitar el contacto directo cuando sea necesario.
 

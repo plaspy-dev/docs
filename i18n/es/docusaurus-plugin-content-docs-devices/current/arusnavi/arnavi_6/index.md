@@ -21,7 +21,9 @@ keywords:
 
 # Arusnavi - ARNAVI 6
 
+<div className="device-logo">
 ![ARNAVI 6](./tracker.png)
+</div>
 
 ARNAVI 6 es un controlador de navegación profesional y compacto pensado para la gestión de flotas y la supervisión remota. Diseñado para ofrecer posicionamiento GPS fiable y telemetría vehicular detallada, el equipo integra múltiples opciones de comunicaciones y E/S que se adaptan a flotas mixtas y entornos con abundancia de sensores. Su tamaño reducido y capacidades de gestión remota lo hacen ideal en instalaciones donde la visibilidad continua y el control operativo son prioritarios.
 

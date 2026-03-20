@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - NW-360HR
 
+<div className="device-logo">
 ![NW-360HR](./tracker.jpg)
+</div>
 
 The NW-360HR is a wearable GPS tracker watch designed for personal safety, lone worker monitoring, and continuous physiological telemetry. It combines GPS positioning with BLE beacon capability and low power wide area cellular connectivity to provide location and basic indoor positioning alongside health related sensors such as optical heart rate and skin temperature. The watch also incorporates an SOS help button and fall advisory logic so users can report emergencies or generate automated incident events.
 

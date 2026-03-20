@@ -20,7 +20,9 @@ keywords:
 
 # Castel - MPIP-619
 
+<div className="device-logo">
 ![MPIP-619](./logo.jpg)
+</div>
 
 The Castel MPIP-619 is a compact hard wired GPS tracker designed for motorcycle and vehicle management. Built with IP54 dustproof and water resistant protection, the device is intended to withstand demanding road conditions while remaining lightweight and unobtrusive. It provides real time positioning and supports connection with external accessories to enable features such as remote engine cut off and remote configuration.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JM-BL11
 
+<div className="device-logo">
 ![JM-BL11](./tracker.png)
+</div>
 
 El JM-BL11 es un candado GNSS resistente diseñado para sistemas de bicicletas compartidas y soluciones de micromovilidad a gran escala. Pensado para uso exigente en exteriores, combina posicionamiento GNSS con A-GPS y respaldo LBS, control local por Bluetooth 4.0 LE, mecánica antimanipulación y una batería de larga duración con opción de carga solar para facilitar despliegues distribuidos y reducir el mantenimiento rutinario.
 

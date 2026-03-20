@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G60
 
+<div className="device-logo">
 ![G60](./tracker.jpg)
+</div>
 
 The GOTOP G60 is a compact 4G magnetic asset and vehicle tracker designed for long term logistics, fleet management and discreet container tracking. Built with a rugged IP65 housing and internal antennas, the G60 is intended to provide reliable real time location updates and event telemetry for rental fleets, cargo and other assets that need covert mounting and extended standby performance.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D06
 
+<div className="device-logo">
 ![D06](./logo..jpg)
+</div>
 
 The GOTOP D06 4G GPS tracker is a compact tracking unit designed for real time location monitoring of cars, motorcycles, e bikes and other light vehicles. It combines a built in GPS module with LTE connectivity to transmit position data to a designated server or mobile recipient. The D06 also includes internal memory to store coordinates during connection gaps and supports optional in cabin listening via a connected microphone for enhanced monitoring.
 

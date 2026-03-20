@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - A12
 
+<div className="device-logo">
 ![A12](./logo..jpg)
+</div>
 
 The GOTOP A12 is a purpose built GPS tracker designed for animal tracking and comes with a collar for convenient attachment. It combines GPS positioning with GSM connectivity to provide real time location updates and history route tracking. The device includes a built in motion sensor for movement alerts, supports voice monitoring, and is rated IPX7 for waterproof protection, making it suitable for outdoor use in a range of environments. At 84 x 47 x 45 mm and about 145 g, the A12 is compact and intended to be comfortable for animals to wear.
 

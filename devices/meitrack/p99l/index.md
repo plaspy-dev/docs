@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - P99L
 
+<div className="device-logo">
 ![P99L](./tracker.png)
+</div>
 
 The P99L is a compact, rugged portable GPS tracker built for outdoor athletes and field workers who need reliable, long duration positioning in harsh environments. It combines durable IP67 rated protection and shock resistance with hybrid positioning using GNSS, Wi Fi and location based services, plus 4G LTE Cat 1 connectivity, to provide continuous location data where standard devices can struggle. The device is designed for extended field use with a 2000 mAh internal battery and intelligent sleep management offering long standby and practical run time for multi day outings.
 

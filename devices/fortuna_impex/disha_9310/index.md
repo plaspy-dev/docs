@@ -20,7 +20,9 @@ keywords:
 
 # Fortuna Impex - Disha 9310
 
+<div className="device-logo">
 ![Disha 9310](./logo.jpg)
+</div>
 
 The Fortuna Impex Disha 9310 is an intelligent vehicle tracking system designed to help companies in services, delivery, and transportation monitor and manage mobile assets. It provides both real time and historical tracking through a web interface and can deliver alerts, events, and scheduled reports by SMS and email. The unit emphasizes practical deployment with enclosed GPS and GPRS antennas to reduce exposure to mechanical damage.
 

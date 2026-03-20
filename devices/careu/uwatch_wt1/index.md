@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - uWatch WT1
 
+<div className="device-logo">
 ![uWatch WT1](./tracker.jpg)
+</div>
 
 The CAREU uWatch WT1 is a compact smartwatch style GPS tracker designed for personal safety and health monitoring. As a wearable device it combines continuous location reporting and an SOS emergency function with health telemetry including heart rate, blood pressure, SpO2, and body temperature to support caregivers, care centers, families, and organizations that need combined position and physiological context.
 

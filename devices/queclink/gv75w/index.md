@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV75W
 
+<div className="device-logo">
 ![GV75W](./tracker.png)
+</div>
 
 The QuecLink GV75W is a rugged, waterproof GPS tracker engineered for motorcycles, quad bikes, watercraft and light heavy machinery. Built for compact vehicle installations and harsh outdoor environments, the GV75W combines high sensitivity GNSS positioning with worldwide cellular connectivity and extreme low power behaviour to deliver reliable real time tracking, theft protection and fleet telemetry where space and durability matter.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TZone - AVL-08
 
+<div className="device-logo">
 ![AVL-08](./logo.jpg)
+</div>
 
 El TZone AVL-08 es un rastreador GPS versátil pensado para la seguridad vehicular, el seguimiento de activos y la gestión de flotas. Soporta consultas puntuales de ubicación y seguimiento continuo, e incorpora múltiples funciones de alarma y monitoreo como exceso de velocidad, batería baja, geocerca, vibración, estacionamiento y alertas SOS. Además ofrece características para control y detección del estado del vehículo, entradas opcionales para dispositivos externos, grabación local, cálculo de kilometraje y soporte para sensores adicionales que cubren las necesidades habituales de control de flota y activos.
 

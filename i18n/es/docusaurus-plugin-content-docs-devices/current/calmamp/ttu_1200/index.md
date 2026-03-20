@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - TTU-1200
 
+<div className="device-logo">
 ![TTU-1200](./logo.jpg)
+</div>
 
 El CalmAmp TTU-1200 es un dispositivo de seguimiento para remolques con paquete de batería recargable, diseñado para implantaciones confiables a largo plazo. Pensado para gestionar activos que pueden permanecer inactivos por períodos extendidos, el TTU-1200 combina un formato compacto con un rendimiento GPS superior y una batería interna que permite el rastreo continuo sin una alimentación externa constante. Sus entradas y salidas a bordo y las antenas integradas lo convierten en una opción práctica para rastrear remolques y otros activos móviles que suelen emparejarse con sistemas de 12 o 24 voltios.
 

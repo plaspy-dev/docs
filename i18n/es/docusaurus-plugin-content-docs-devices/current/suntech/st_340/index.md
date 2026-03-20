@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 340
 
+<div className="device-logo">
 ![ST 340](./logo.jpg)
+</div>
 
 El Suntech ST 340 es un rastreador GPS compacto diseñado para una amplia variedad de aplicaciones automotrices y marinas. Su tamaño reducido y bajo consumo energético lo convierten en una opción práctica para motociclismo, maquinaria pesada, embarcaciones, motos acuáticas y flotas mixtas. Diseñado para operar en entornos exigentes, el ST 340 cuenta con certificación IP67 para resistencia al polvo y al agua, lo que permite instalaciones externas con protección fiable frente a la exposición.
 

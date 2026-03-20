@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - TK-103
 
+<div className="device-logo">
 ![TK-103](./logo.jpg)
+</div>
 
 El Xexun TK-103 es un rastreador GPS versátil diseñado para múltiples escenarios de seguimiento de vehículos y equipos. Frecuentemente utilizado en autos particulares, flotas de arrendamiento, protección antirrobo de maquinaria en exteriores y administración de vehículos corporativos, el TK-103 ofrece reportes de posición continuos y un conjunto de funciones de monitoreo. Entre sus capacidades destacadas están la consulta de ubicación inmediata, seguimiento periódico programado, consultas por SMS con dirección, reproducción de rutas históricas, función de geocerca y varios tipos de alertas para notificar eventos anormales.
 

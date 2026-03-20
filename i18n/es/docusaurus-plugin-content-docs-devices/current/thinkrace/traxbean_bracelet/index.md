@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - Traxbean Bracelet
 
+<div className="device-logo">
 ![Traxbean Bracelet](./tracker.png)
+</div>
 
 El Traxbean Bracelet es un rastreador GPS de muñeca compacto diseñado para la justicia comunitaria y el monitoreo de infractores. Combina posicionamiento satelital con localización asistida mediante Wi‑Fi y triangulación celular, e incluye posicionamiento interior por RF para proporcionar conciencia situacional continua a agencias supervisoras y prestadores de servicio. El dispositivo está pensado para uso diario con un formato pequeño y de estilo discreto, e incorpora características orientadas a garantizar un monitoreo confiable y la supervisión del cumplimiento.
 

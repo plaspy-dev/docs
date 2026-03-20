@@ -21,7 +21,9 @@ keywords:
 
 # ArkNav - A-511S
 
+<div className="device-logo">
 ![A-511S](./logo.jpg)
+</div>
 
 El ArkNav A-511S es un receptor GPS compacto y de alto rendimiento diseñado para aplicaciones de navegación, mapeo, topografía y seguridad. Basado en el chipset SiRFIII, el A-511S ofrece seguimiento All‑In‑View de 20 canales y recepción de alta sensibilidad, lo que permite una adquisición rápida de satélites y una información estable de posición, velocidad y tiempo aun en condiciones de señal difíciles. Su tamaño reducido, la opción de montaje magnético y su amplio rango de temperatura de operación lo hacen apropiado para distintos despliegues en campo y en vehículos.
 

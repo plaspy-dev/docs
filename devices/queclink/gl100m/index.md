@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL100M
 
+<div className="device-logo">
 ![GL100M](./logo.jpg)
+</div>
 
 The QuecLink GL100M is a compact GPS tracker designed for vehicle, pet, and asset tracking. It combines high sensitivity positioning with a fast time to first fix and delivers periodic position reports over cellular channels. The device is built to operate across quad band GSM frequencies and includes a clear white OLED display for on device information. A water resistant enclosure and low power consumption make the GL100M suitable for diverse deployment environments and extended standby use.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - TLW2-6BL
 
+<div className="device-logo">
 ![TLW2-6BL](./tracker.png)
+</div>
 
 El TLW2-6BL es un rastreador GPS cableado con conectividad 4G LTE, diseñado para vehículos y activos con alimentación, orientado a la gestión profesional de flotas, logística y operaciones de cadena de frío. Combina conectividad celular resistente, posicionamiento GNSS de alta precisión, entradas y salidas configurables y soporte para sensores Bluetooth, entregando ubicación y telemetría continua para vehículos y activos eléctricos. El dispositivo está pensado para integradores y operadores de flota que necesitan telemetría fiable en vehículo y flujos antirobo sin requerir integraciones personalizadas extensas.
 

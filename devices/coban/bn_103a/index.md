@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-103A
 
+<div className="device-logo">
 ![BN-103A](./tracker.png)
+</div>
 
 The BN-103A is a vehicle mounted intelligent GPS tracker designed for reliable real time tracking, fleet management, and anti theft protection. Built for direct 12–24V vehicle installation, it combines a high sensitivity GNSS receiver, multi band GSM GPRS connectivity and configurable alarm inputs to provide the telemetry and event data expected by modern fleet operators.
 

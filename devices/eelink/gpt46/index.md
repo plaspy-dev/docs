@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT46
 
+<div className="device-logo">
 ![GPT46](./tracker.jpg)
+</div>
 
 The GPT46 from Shenzhen Eelink Communication Technology is a compact, durable LTE Cat M1 IoT GPS tracker designed for long standby and industrial asset tracking. It is engineered to provide reliable position reporting and low-power telemetry for logistics, transport, and movable asset programs where reduced maintenance and continuous visibility are priorities.
 

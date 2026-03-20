@@ -21,7 +21,9 @@ keywords:
 
 # Concox - LL301
 
+<div className="device-logo">
 ![LL301](./tracker.png)
+</div>
 
 El Concox LL301 es un rastreador GNSS resistente diseñado para despliegues de larga duración y bajo mantenimiento. Combina posicionamiento multi-constelación con conectividad celular LTE y GSM regional, y una batería industrial de alta capacidad de 10,000 mAh en una carcasa con protección IP65. Está pensado para el seguimiento de ubicación en tiempo real y la telemetría de distintos tipos de activos donde la autonomía prolongada y la construcción robusta son prioritarias.
 

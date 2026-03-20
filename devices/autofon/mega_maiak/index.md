@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Мега-Маяк+
 
+<div className="device-logo">
 ![Мега-Маяк+](./logo..png)
+</div>
 
 The AutoFon Мега-Маяк+ is a compact GPS tracker built to determine and transmit the precise position of a protected object using GLONASS and GPS satellite systems. It supports sending coordinates via GSM network SMS and can forward data to a monitoring server using GPRS, while on-board features such as A GPS assisted positioning, multiple motion and impact sensors, and a durable IP67 enclosure make it suitable for a wide range of mobile and stationary tracking tasks.
 

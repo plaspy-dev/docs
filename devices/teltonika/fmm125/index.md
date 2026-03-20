@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM125
 
+<div className="device-logo">
 ![FMM125](./tracker.png)
+</div>
 
 The Teltonika FMM125 is a professional vehicle GPS tracker built for modern fleet management and telematics workflows. It offers multiple cellular connectivity options including LTE Cat M1 and NB‑IoT, with dual‑SIM support and optional 2G fallback where applicable. The device is designed to interface with external meters and peripherals via serial connections and impulse inputs, and it can connect to satellite modems for extended coverage.
 

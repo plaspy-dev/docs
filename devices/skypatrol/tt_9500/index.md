@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - TT 9500
 
+<div className="device-logo">
 ![TT 9500](./logo.jpg)
+</div>
 
 The SkyPatrol TT 9500 is a compact, all in one GPS tracker built for volume tracking needs across a wide range of environments. Its rugged splash proof housing and durable construction make it suitable for outdoor and industrial use, while design elements such as low power consumption and a built in relay support long operational life and remote control of connected equipment. The TT 9500 also includes advanced geofencing options and a high sensitivity GPS receiver to support reliable location monitoring.
 

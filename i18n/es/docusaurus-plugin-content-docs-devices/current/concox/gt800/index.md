@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GT800
 
+<div className="device-logo">
 ![GT800](./logo.jpg)
+</div>
 
 El Concox GT800 es un rastreador GPS multifuncional para vehículos, pensado para ofrecer seguimiento preciso y confiable en autos y vehículos comerciales ligeros. Combina posicionamiento GPS y AGPS con capacidades de detección de eventos como monitoreo del estado de las puertas, comunicación bidireccional y función de llamada SOS, lo que lo hace útil tanto para supervisión rutinaria como para situaciones de emergencia. El GT800 está dirigido a usuarios que necesitan funcionalidades prácticas con un buen equilibrio entre rendimiento y costo.
 

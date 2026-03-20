@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-G17W
 
+<div className="device-logo">
 ![TS-G17W](./tracker.jpg)
+</div>
 
 El TS-G17W es un rastreador GPS para vehículos, compacto y con protección IP67, diseñado para ofrecer seguimiento en tiempo real confiable en entornos exigentes. Preparado para despliegues globales con 4G LTE‑FDD y conmutación a 2G GSM cuando aplica, el equipo está orientado a la gestión de flotas, protección antirrobo y casos de telemetría remota. Su reducido tamaño y carcasa robusta lo hacen adecuado para instalaciones discretas en automóviles, camiones, autobuses y activos expuestos que requieren protección contra la intemperie y rendimiento duradero.
 

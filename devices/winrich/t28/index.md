@@ -20,7 +20,9 @@ keywords:
 
 # Winrich - T28
 
+<div className="device-logo">
 ![T28](./tracker.jpg)
+</div>
 
 The T28 is a long life vehicle GPS tracker engineered for extended unattended deployments and discreet installation. Marketed with an operating life of up to 2 years under low power configurations, the T28 is intended for situations where infrequent battery service and a compact, hidden form factor are priorities. Its design centers on ultra low power operation, configurable reporting intervals, and sleep/wake cycles to maximize endurance while preserving essential location reporting.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A7 3G
 
+<div className="device-logo">
 ![HB-A7 3G](./logo.jpg)
+</div>
 
 El Huabao HB-A7 3G es un rastreador GPS compacto para vehículos, diseñado para ofrecer posicionamiento en tiempo real y supervisión de flotas con fiabilidad. Se describe como fácil de instalar y construido para un rendimiento estable con bajo consumo de energía. Entre sus capacidades habituales se incluyen el reporte de ubicación por GPS, detección de encendido, alarma SOS y la opción de conectar periféricos externos para ampliar la supervisión y el control.
 

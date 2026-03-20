@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-V1
 
+<div className="device-logo">
 ![TS-V1](./tracker.jpg)
+</div>
 
 El TS-V1 es un rastreador GPS compacto y de instalación fija, diseñado para el seguimiento profesional de vehículos y la gestión de flotas. Pensado para instalación en vehículos comerciales, maquinaria de obra, autos de renta y vehículos particulares, el TS-V1 proporciona reporte de ubicación en tiempo real, geocercas, estadísticas de kilometraje y funciones de control remoto como corte de combustible o alimentación y señal SOS. Su diseño robusto, amplio rango de voltaje de operación y batería de respaldo removible ayudan a mantener las unidades conectadas durante operaciones exigentes.
 

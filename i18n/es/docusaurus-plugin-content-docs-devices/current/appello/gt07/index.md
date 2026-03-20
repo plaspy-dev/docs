@@ -21,7 +21,9 @@ keywords:
 
 # Appello - GT07
 
+<div className="device-logo">
 ![GT07](./logo.jpg)
+</div>
 
 El Appello GT07 es un rastreador GPS compacto diseñado específicamente para motocicletas. Ofrece ubicación en tiempo real en un equipo pequeño y resistente, y está pensado para operar en un amplio rango de voltaje. El GT07 se presenta como una solución sencilla para supervisar la posición y el movimiento de motocicletas, con precisión GPS declarada por el fabricante de aproximadamente 5 metros y una garantía de 12 meses.
 

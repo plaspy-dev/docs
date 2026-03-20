@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AX11
 
+<div className="device-logo">
 ![AX11](./tracker.jpg)
+</div>
 
 The AX11 is an OBDII plug and play GPS tracker designed for rapid vehicle deployment and telematics integration. Built around the SAE J1962 Type B OBDII connector, the AX11 targets fleet management, usage based insurance, car rental operations and parental or teen driver monitoring. It combines cellular connectivity, integrated GNSS positioning and vehicle bus telemetry to provide continuous location and vehicle data without complex wiring.
 

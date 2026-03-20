@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK319‑L
 
+<div className="device-logo">
 ![TK319‑L](./tracker.jpg)
+</div>
 
 El TK319‑L es un rastreador GPS compacto de EElink pensado para la gestión moderna de flotas y la seguridad vehicular. Diseñado para ofrecer informes de ubicación continuos y detección de eventos, el equipo admite métodos de posicionamiento dual y entradas orientadas al vehículo, de modo que usted puede supervisar el movimiento, el estado de encendido y las condiciones de alarma. Su tamaño reducido y amplio rango de voltaje lo hacen adecuado para distintos vehículos comerciales y activos móviles.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GalileoSky - GALILEOSKY Lite v1.8.5
 
+<div className="device-logo">
 ![GALILEOSKY Lite v1.8.5](./logo.jpg)
+</div>
 
 The GALILEOSKY Lite v1.8.5 is a vehicle GPS tracker designed to record and transmit precise geographic coordinates, time stamped points, and basic sensor information for moving vehicles. It stores detailed track data including routes and events, supports local buffering of points when communication is interrupted, and forwards collected data to a central server for dispatch processing. The device is positioned to reduce operating costs by supporting fuel economy initiatives, lowering transport mileage, and improving driver discipline while also offering an emergency alarm function for drivers.
 

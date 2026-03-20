@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - T333L
 
+<div className="device-logo">
 ![T333L](./tracker.png)
+</div>
 
 The Meitrack T333L is a compact GPS tracker designed for commercial fleet management, vehicle security and advanced telematics. As an LTE Cat 1 GNSS device, the T333L provides real time position updates and a range of vehicle telemetry features, including tire pressure monitoring, driving behavior event detection and two way voice capability. Its form factor and peripheral interfaces make it suitable for integrating sensors and in vehicle accessories to support operational monitoring.
 

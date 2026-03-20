@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V20
 
+<div className="device-logo">
 ![RF-V20](./Logo.jpg)
+</div>
 
 El Reachfar RF-V20 es un rastreador GPS compacto y versátil pensado para proteger pertenencias y monitorear ubicaciones. Soporta conectividad GSM cuatribanda para cobertura global y ofrece múltiples canales de monitoreo, incluidos web, iOS, Android, WeChat y SMS. El dispositivo combina el seguimiento de posición con varias funciones de seguridad integradas, como sensores magnéticos, de vibración y de sonido, un zumbador de alta frecuencia para alarmas y monitor de voz, además de herramientas prácticas como una batería externa integrada y una linterna LED.
 

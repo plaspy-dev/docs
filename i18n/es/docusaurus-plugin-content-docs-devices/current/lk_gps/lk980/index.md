@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK980
 
+<div className="device-logo">
 ![LK980](./logo..jpg)
+</div>
 
 El LK-GPS LK980 es un rastreador GPS compacto y versátil, pensado principalmente para el seguimiento de automóviles. Su tamaño reducido y las antenas GPS y GSM integradas permiten una instalación discreta dentro del vehículo. El LK980 es compatible con aplicaciones móviles en Android y iOS y también ofrece acceso mediante plataformas web, lo que facilita monitorear la ubicación del vehículo y el nivel de batería restante.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC800
 
+<div className="device-logo">
 ![FMC800](./logo..png)
+</div>
 
 The Teltonika FMC800 is a compact plug and play GPS tracker designed for fleet management and vehicle tracking. Intended for easy installation into a vehicle OBD II port, the FMC800 provides continuous positioning via modern cellular connectivity and multi GNSS support. It is built to deliver accurate location data and detailed crash trace information, while remaining unobtrusive in size and operation.
 

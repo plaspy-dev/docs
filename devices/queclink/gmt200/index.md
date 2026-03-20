@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GMT200
 
+<div className="device-logo">
 ![GMT200](./tracker.png)
+</div>
 
 The QuecLink GMT200 is a dedicated motorcycle GPS tracker built for covert installation, stable connectivity and precise GNSS positioning. It is designed specifically for motorcycle security and small vehicle asset protection, providing continuous location reporting and event driven alerts such as movement detection and ignition on and off notifications. The GMT200 has been used in real world deployments for theft recovery and ongoing fleet visibility.
 

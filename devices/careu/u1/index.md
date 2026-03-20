@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - U1
 
+<div className="device-logo">
 ![U1](./logo..png)
+</div>
 
 The CAREU U1 is a feature rich vehicle tracker offered in a PLUS LTE configuration that brings GNSS positioning together with mobile connectivity and accessory integration. The device is described as including internal antennas and modules for reliable location reporting, optional Bluetooth for configuration, and a range of interfaces that allow connection to third party accessories such as cameras, RFID readers, and vehicle data sources. It also supports extended input and output options and a 1 Wire interface for external temperature monitoring, making it suitable for temperature sensitive transport.
 

@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK880
 
+<div className="device-logo">
 ![LK880](./logo..jpg)
+</div>
 
 The LK880 is a compact 4G waterproof pet GPS tracker and activity remote controller that also functions as a dog training collar. Designed for pet owners who need both location visibility and basic training controls, the device offers real time tracking, step counting, distance monitoring, geo fence alerts, and historical track queries. It also reports displacement and low battery events and provides supplementary reporting to help with location gaps in areas of weak GPS reception.
 

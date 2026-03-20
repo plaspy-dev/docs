@@ -20,7 +20,9 @@ keywords:
 
 # EElink - K9
 
+<div className="device-logo">
 ![K9](./logo.jpg)
+</div>
 
 El EElink K9 es un rastreador GPS compacto diseñado para la seguridad personal y el monitoreo de activos. Combina cobertura global quad-band con posicionamiento GPS y LBS para ofrecer actualizaciones frecuentes de ubicación, reproducción de historial y registro local de rutas. El equipo incluye comunicación bidireccional con marcación de una sola tecla, un botón SOS para emergencias, funciones de geocerca y alarma de velocidad, y batería extraíble con alertas por batería baja.
 

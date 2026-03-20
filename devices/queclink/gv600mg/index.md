@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV600MG
 
+<div className="device-logo">
 ![GV600MG](./logo..png)
+</div>
 
 The QuecLink GV600MG is a rugged LTE tracker engineered for heavy duty vehicles such as trailers, tankers, and flatbed trucks. Its IP67 rated enclosure is built to withstand harsh transport environments, and the device includes a GNSS receiver and G sensor for reliable location and motion awareness. The GV600MG is designed to support extended field deployments with an internal large battery pack that can provide up to 120 days of standby operation, making it suitable for assets that are frequently decoupled from vehicle power.
 

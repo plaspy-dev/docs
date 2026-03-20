@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 340
 
+<div className="device-logo">
 ![ST 340](./logo.jpg)
+</div>
 
 The Suntech ST 340 is a compact GPS tracker designed for a wide range of automotive and marine applications. Its small form factor and low power consumption make it a practical choice for motorcycles, heavy machinery, boats, jet skis, and mixed flotillas. Built to operate in harsh environments, the ST 340 carries an IP67 rating for resistance to dust and water, enabling external installations with reliable exposure protection.
 

@@ -20,7 +20,9 @@ keywords:
 
 # iTriangle - TS101 Basic 4G
 
+<div className="device-logo">
 ![TS101 Basic 4G](./tracker.png)
+</div>
 
 The TS101 Basic 4G is a compact GPS tracker engineered for vehicle telematics and asset monitoring. Designed for mixed fleets that include electric and conventional vehicles, the TS101 Basic 4G combines LTE Cat 1 connectivity, multi GNSS positioning and onboard data storage to provide continuous and reliable real time tracking and telemetry. Its form factor and power range make it suitable for a broad set of fleet and asset scenarios where persistent location and event logging matter.
 

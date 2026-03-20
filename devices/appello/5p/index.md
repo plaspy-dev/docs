@@ -20,7 +20,9 @@ keywords:
 
 # Appello - 5P
 
+<div className="device-logo">
 ![5P](./logo.jpg)
+</div>
 
 The Appello 5P is a compact and reliable GPS tracker designed for personal and asset tracking. With a small footprint of approximately 32 x 32 x 13.5 mm and a lightweight build of about 22 g, the 5P is easy to attach to items or carry discreetly. Its APS plus PC housing is built for durability, and the simple black design keeps it unobtrusive for a wide range of applications.
 

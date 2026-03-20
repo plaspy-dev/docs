@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - T128GPS
 
+<div className="device-logo">
 ![T128GPS](./logo.jpg)
+</div>
 
 El AoYa T128GPS es un rastreador GPS compacto pensado para el seguimiento de personas y activos. Cuenta con una carcasa magnética resistente y antenas GPS y GSM integradas que ofrecen actualizaciones de ubicación confiables. El equipo es liviano y fácil de ocultar, ideal para montajes temporales o móviles cuando no se desea una instalación permanente. Entre sus funciones habituales figuran el rastreo en tiempo real, geocercas, botón SOS y una batería recargable.
 

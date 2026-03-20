@@ -20,7 +20,9 @@ keywords:
 
 # Bofan - PT-201
 
+<div className="device-logo">
 ![PT-201](./logo.jpg)
+</div>
 
 The Bofan PT-201 is a compact GPS GSM GPRS tracker designed for motorcycle real time tracking and security. Built around higher sensitivity GPS and GPRS modules, the PT-201 is intended to provide stable location reporting, support live tracking and SMS queries, and store long term travel history with capacity for thousands of waypoints. It also includes practical features for two wheeled vehicles such as an SOS panic function, geo fence control, speed alarm, and an IP66 waterproof rating for weather resistance.
 

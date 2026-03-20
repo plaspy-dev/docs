@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G900
 
+<div className="device-logo">
 ![G900](./Logo.png)
+</div>
 
 El CanTrack G900 es un rastreador GPS compacto pensado para la supervisión de vehículos y equipos de valor. Ofrece seguimiento en tiempo real para conocer la ubicación de forma continua e incluye funciones de seguridad como alerta por exceso de velocidad y alarma por corte de alimentación. Con una carcasa con certificación IP65, el G900 está diseñado para entornos donde el polvo y las salpicaduras son una preocupación, por lo que resulta adecuado para aplicaciones al aire libre e industriales.
 

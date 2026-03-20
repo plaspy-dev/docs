@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - GTU100
 
+<div className="device-logo">
 ![GTU100](./tracker.jpg)
+</div>
 
 The GTU100 is a compact, high performance GPS tracker designed for light and commercial fleet management. It provides continuous position updates and vehicle telemetry using multi GNSS positioning and cellular connectivity with fallback options. The device is built to support crash detection and integrated sensor telemetry, making it suitable for operators who need dependable tracking and event capture in everyday fleet operations.
 

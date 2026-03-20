@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-23
 
+<div className="device-logo">
 ![AT-23](./tracker.jpg)
+</div>
 
 The Autoseeker AT-23 is a compact 2G relay GPS tracker designed as a vehicle terminal for permanent installation in cars, trucks, motorcycles, boats and other mobile assets. It combines dual GNSS positioning with a built in relay for remote fuel or power cutoff, and it is aimed at operators who need reliable position updates, event reporting and an immobilizer option for theft response and asset protection.
 

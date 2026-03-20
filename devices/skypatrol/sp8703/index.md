@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP8703
 
+<div className="device-logo">
 ![SP8703](./tracker.png)
+</div>
 
 The SkyPatrol SP8703 is a compact personal tracking device designed for deployments where reliable, low power location and safety reporting matter. It combines Wi‑Fi and dual cellular capability with an SOS button and a 3‑axis accelerometer, making it suitable for personal safety, lone worker protection and portable asset monitoring while remaining unobtrusive in everyday use.
 

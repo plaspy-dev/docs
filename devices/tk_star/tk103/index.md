@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TK103
 
+<div className="device-logo">
 ![TK103](./logo.jpg)
+</div>
 
 The TK-Star TK103 is a versatile vehicle GPS tracker designed to locate and monitor remote targets using GPS satellites together with the existing GSM GPRS network. It provides core vehicle tracking functions and a range of practical features such as emergency alarm notifications, remote control via SMS, audible remote monitoring, movement and overspeed alerts, geo fencing, and basic mileage and status statistics. These capabilities make the TK103 suitable for managing vehicles and protecting mobile assets.
 

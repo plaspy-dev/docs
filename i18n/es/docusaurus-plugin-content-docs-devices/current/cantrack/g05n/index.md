@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G05N
 
+<div className="device-logo">
 ![G05N](./tracker.png)
+</div>
 
 El G05N es un rastreador vehicular de cableado fijo diseñado para instalación permanente en autos, motocicletas y vehículos comerciales ligeros. Utiliza redes GSM/GPRS y satélites GPS para ofrecer informes de posición continuos y notificaciones de eventos. Entre sus funciones habituales se encuentran detección de encendido, geocercas y alertas por exceso de velocidad, alarmas por vibración y cambio de inclinación, botón SOS dedicado, almacenamiento local de datos y capacidad de inmovilización remota, lo que lo hace idóneo para supervisión de flotas y aplicaciones antirrobo.
 

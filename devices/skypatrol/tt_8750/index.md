@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - TT 8750+
 
+<div className="device-logo">
 ![TT 8750+](./logo.jpg)
+</div>
 
 The SkyPatrol TT 8750+ is a compact and rugged GPS tracker designed for a wide range of tracking applications. It combines a quad band modem for broad cellular coverage with an ultra sensitive GPS engine and an embedded antenna array for reliable position fixes. The unit also includes an SMA connector for an optional external GPS antenna, multiple digital and analog inputs and outputs, a motion sensor, a backup battery, and a splash proof housing suitable for demanding environments.
 

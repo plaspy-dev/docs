@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT63
 
+<div className="device-logo">
 ![XT63](./tracker.webp)
+</div>
 
 El XT63 es un rastreador telemático vehicular de Xirgo diseñado para administradores de flotas y propietarios de equipos que requieren seguimiento fiable en tiempo real y opciones de telemetría flexibles. Pensado para autos particulares, camiones ligeros y pesados y equipos comerciales, el XT63 integra conectividad celular y posicionamiento GNSS con soporte opcional de Bluetooth y múltiples interfaces vehiculares para entregar datos continuos de ubicación y eventos.
 

@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK209C
 
+<div className="device-logo">
 ![LK209C](./tracker.jpg)
+</div>
 
 El LK209C es un rastreador GPS de alto rendimiento con montaje magnético, diseñado para el seguimiento encubierto a largo plazo de automóviles, camiones, contenedores y otros activos móviles. Combina una batería de gran capacidad de 20000 mAh con conectividad GSM 2G/3G y una carcasa resistente para despliegues que requieren colocación discreta y servicio poco frecuente, manteniendo un historial de ubicaciones continuo.
 

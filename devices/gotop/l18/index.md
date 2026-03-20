@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - L18
 
+<div className="device-logo">
 ![L18](./tracker.jpg)
+</div>
 
 The GOTOP L18 is a compact 4G LTE GPS tracker built as a smartwatch and engineered for personal safety, health monitoring, and two way communication. It combines multi constellation positioning, multi band cellular connectivity with optional eSIM, an SOS emergency key and a suite of health sensors to deliver continuous location and wellbeing data from a wearable form factor suited to caregivers, field staff and organizations needing reliable person centric tracking.
 

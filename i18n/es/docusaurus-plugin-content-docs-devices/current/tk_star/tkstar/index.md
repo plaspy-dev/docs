@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TKSTAR
 
+<div className="device-logo">
 ![TKSTAR](./logo.jpg)
+</div>
 
 El rastreador GPS portátil TK-Star TKSTAR es un dispositivo compacto y versátil diseñado para el seguimiento y monitoreo de ubicación en tiempo real. Pensado para ser transportable y de uso cotidiano, permite rastrear autos privados, vehículos de alquiler, equipos y pertenencias personales. También resulta útil para la seguridad personal de niños, adultos mayores y mascotas, así como en contextos autorizados de supervisión donde se requiere vigilancia discreta.
 

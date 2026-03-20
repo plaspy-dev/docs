@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK110: rastreador compacto para e-bikes y bicicletas
 
+<div className="device-logo">
 ![LK110](./logo..jpg)
+</div>
 
 El LK110 es un rastreador GPS 4G compacto de LK GPS pensado para la seguridad y el monitoreo de e-bikes y bicicletas. Diseñado específicamente para vehículos de dos ruedas, ofrece posicionamiento con una precisión aproximada de 10 metros, una batería de 3000 mAh que puede alcanzar hasta 10 días en espera y un diseño ligero de 130 gramos. El equipo incorpora funciones de visibilidad como tres modos de luz intermitente, múltiples tipos de alarma y frecuencia de subida configurable, y puede consultarse desde la app móvil, la página web en PC, SMS o WeChat.
 

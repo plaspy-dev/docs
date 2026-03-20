@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - TLT-2N
 
+<div className="device-logo">
 ![TLT-2N](./logo.jpg)
+</div>
 
 The V-SUN TLT-2N is a compact GPS and GSM vehicle positioning device designed for accurate tracking of cars, motorcycles, electric golf carts, and private vehicles. It combines a high performance GPS chipset with cellular communications to report location and movement. The device supports position reporting via SMS or a GPRS TCP connection and includes practical functions such as SOS, geo-fence alerts, overspeed warning, historical data upload, and a fuel or electricity shut off feature.
 

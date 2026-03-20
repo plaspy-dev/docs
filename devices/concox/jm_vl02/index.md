@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-VL02
 
+<div className="device-logo">
 ![JM-VL02](./tracker.png)
+</div>
 
 The JM-VL02 is a purpose built GPS tracker from Concox designed for industrial and commercial vehicle fleets. It combines IoT grade cellular connectivity with GNSS positioning and vehicle focused inputs and outputs to provide continuous location and vehicle state telemetry for rental agencies, public transport, construction equipment and general fleet management deployments.
 

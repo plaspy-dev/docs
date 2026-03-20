@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - TR-151SP
 
+<div className="device-logo">
 ![TR-151SP](./logo.jpg)
+</div>
 
 The GlobalSat TR-151SP is a GPS/GSM/GPRS tracker designed for extended operation and reliable position reporting. With a high capacity 15A battery and a standby time of up to one month, the device is aimed at scenarios where long unattended runtime is important. The tracker sends location information via SMS and data channels and includes a simple reset control and easy mounting for attachment to equipment, assets, or cargo.
 

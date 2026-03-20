@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK910 4G
 
+<div className="device-logo">
 ![TK910 4G](./tracker.jpg)
+</div>
 
 El TK910 4G es un rastreador GPS compacto para vehículos, diseñado para motocicletas, autos particulares, flotas de alquiler y equipos ligeros. Combina posicionamiento GNSS multiconstelación con asistencia LBS y Wi‑Fi para mejorar la cobertura exterior y la localización en interiores. El dispositivo ofrece seguimiento en tiempo real, detección de vibraciones, alertas por geocerca y una función de corte remoto de motor para apoyar flujos de trabajo antirrobo y agilizar la respuesta ante incidentes.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - Rastreador Q60
 
+<div className="device-logo">
 ![Q60 Tracker](./tracker.png)
+</div>
 
 El Sentar Q60 es un rastreador GPS compacto diseñado para el monitoreo confiable de personas y activos móviles. Combina posicionamiento multimodal —incluyendo GPS, BDS, LBS y WiFi— en un formato pequeño pensado para llevar de forma discreta o fijarlo a un objeto. El Q60 utiliza un chipset MTK2503 y conectividad GSM GPRS para ofrecer actualizaciones de ubicación constantes, adecuado para seguridad infantil, cuidado de personas mayores, protección personal y revisiones rutinarias de activos.
 

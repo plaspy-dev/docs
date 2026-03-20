@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC150
 
+<div className="device-logo">
 ![FMC150](./tracker.png)
+</div>
 
 The Teltonika FMC150 is a professional vehicle GPS tracker designed for fleet applications that require more than basic positioning. It includes a built in CAN bus data processor and is compatible with contactless CAN adapters, enabling extended vehicle insight such as engine and battery status, fuel consumption indicators, and EV specific metrics. The model is intended for mixed fleets and electric vehicles and can be paired with Bluetooth accessories and Teltonika peripherals to expand telemetry and asset identification.
 

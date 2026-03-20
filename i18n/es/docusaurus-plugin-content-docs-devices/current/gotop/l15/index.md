@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - L15
 
+<div className="device-logo">
 ![L15](./tracker.jpg)
+</div>
 
 El GOTOP L15 es un localizador GPS colgante 4G pensado para el cuidado de adultos y la respuesta personal ante emergencias. Compacto y resistente, combina conectividad celular con soporte de posicionamiento híbrido y comunicación de voz integrada para ofrecer seguimiento en tiempo real, alertas SOS con un solo toque y llamadas bidireccionales en un formato diseñado para uso diario.
 

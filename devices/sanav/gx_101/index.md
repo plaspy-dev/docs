@@ -20,7 +20,9 @@ keywords:
 
 # Sanav - GX-101
 
+<div className="device-logo">
 ![GX-101](./logo.jpg)
+</div>
 
 The Sanav GX-101 is a vehicle GPS tracker built for reliable in car tracking. It pairs a GM-158 GPS receiver with a Siemens GSM module to provide consistent position reporting and communications. The device is housed in a rugged metallic enclosure and includes opened I O ports for straightforward integration with external sensors and relays. In addition, the GX-101 offers full quadband GSM coverage, internal memory, and a backup battery to help maintain tracking continuity during power or signal interruptions.
 

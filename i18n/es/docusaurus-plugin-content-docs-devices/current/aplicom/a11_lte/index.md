@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - A11 LTE
 
+<div className="device-logo">
 ![A11 LTE](./logo..jpg)
+</div>
 
 El Aplicom A11 LTE es un dispositivo telemático diseñado para la gestión de flotas y activos. Ofrece conectividad móvil global mediante comunicaciones 4G LTE y permite el emparejamiento de dispositivos Bluetooth para ampliar la identificación y recoger datos complementarios. Se presenta como una opción versátil y comprobada en campo, apta tanto para flotas pequeñas como para despliegues de activos a gran escala.
 

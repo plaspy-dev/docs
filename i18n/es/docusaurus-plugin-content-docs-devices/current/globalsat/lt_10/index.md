@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - LT-10
 
+<div className="device-logo">
 ![LT-10](./logo..jpg)
+</div>
 
 El GlobalSat LT-10 es un rastreador GPS tipo arete alimentado por energía solar, diseñado específicamente para ganado y animales en pastoreo. Combina una celda solar de alto rendimiento con un receptor GNSS de alta sensibilidad y conectividad LoRaWAN para ofrecer seguimiento de ubicación de larga duración en entornos de pastizales remotos. Pensado para condiciones de campo, el LT-10 es compacto y resistente, cuenta con resistencia al agua IPX7, detección de movimiento, indicadores visuales y configuración sencilla mediante aplicaciones para iOS y Android.
 

@@ -20,7 +20,9 @@ keywords:
 
 # ThinkRace - Traxbean Palm
 
+<div className="device-logo">
 ![Traxbean Palm](./tracker.png)
+</div>
 
 The Traxbean Palm is a compact handheld GPS tracker designed for personnel safety and situational awareness. It combines precise GPS positioning with assisted locating via Wi‑Fi and cellular triangulation and adds RF based indoor positioning to improve location availability where GPS is limited. The Palm also includes a one press SOS button that initiates two way hands free voice communication and a high resolution camera capable of streaming or capturing photos and video for situational context.
 

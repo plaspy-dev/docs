@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-17
 
+<div className="device-logo">
 ![AT-17](./tracker.jpg)
+</div>
 
 El AT-17 es un rastreador GPS inalámbrico 2G de alta resistencia diseñado para vehículos, camiones, contenedores y otros activos móviles de alto valor. Combina una carcasa robusta e impermeable con seis imanes integrados para un montaje magnético seguro y una batería interna de gran capacidad de 10000 mAh, lo que permite despliegues prolongados cuando se requiere un seguimiento oculto y fiable. El dispositivo incorpora detección de movimiento, alarmas por manipulación y por sacudida, alertas de batería baja y una función de monitoreo remoto para apoyar escenarios de seguridad y recuperación.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Totemtech - AT07-3G
 
+<div className="device-logo">
 ![AT07-3G](./logo.jpg)
+</div>
 
 El Totemtech AT07-3G es un rastreador GPS compacto y versátil pensado para múltiples funciones de seguimiento. Incluye un acelerómetro digital de 3 ejes para detectar movimiento, admite almacenamiento local en una tarjeta Micro SD y puede enviar datos a dos servidores simultáneamente para mayor redundancia en la entrega. El equipo también permite actualizaciones de firmware por aire (OTA), ofrece varias opciones de comunicación, seguimiento en tiempo real y una gama de alarmas para estar al tanto de eventos relevantes.
 

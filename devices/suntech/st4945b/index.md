@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4945B
 
+<div className="device-logo">
 ![ST4945B](./tracker.jpg)
+</div>
 
 The ST4945B is a rugged GPS asset tracker from Suntech designed for long term, low power monitoring in demanding outdoor environments. Built around cellular IoT connectivity options and extended battery autonomy, the ST4945B targets applications such as container and trailer monitoring, fleet oversight, and remote asset recovery where durable hardware and sustained uptime are important.
 

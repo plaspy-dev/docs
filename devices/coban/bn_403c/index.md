@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-403C
 
+<div className="device-logo">
 ![BN-403C](./tracker.png)
+</div>
 
 The BN-403C is a compact vehicle-mounted GPS tracker designed for concealed installation and continuous vehicle management. It provides real-time tracking with LTE 4G and 2G fallback, a wired vehicle power feed plus a small rechargeable backup battery for position reporting during power interruptions, and a set of alarms and remote control features commonly used in fleet and anti-theft applications.
 

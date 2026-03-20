@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JM-VL03
 
+<div className="device-logo">
 ![JM-VL03](./tracker.png)
+</div>
 
 El Concox JM-VL03 es un rastreador GPS 4G LTE Cat 1 compacto diseñado para gerentes de flota, aseguradoras y equipos de protección de activos vehiculares. Combina posicionamiento continuo y telemetría basada en eventos en una carcasa IP65, con conmutación a GSM, una pequeña batería interna de respaldo y un amplio rango de voltaje de entrada para adaptarse a automóviles, motocicletas, scooters y equipos ligeros.
 

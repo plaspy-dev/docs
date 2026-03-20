@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK980-4G
 
+<div className="device-logo">
 ![LK980-4G](./tracker.jpg)
+</div>
 
 El LK980-4G es un rastreador GPS cableado y compacto diseñado para ofrecer seguridad vehicular confiable y gestión de flotas. Integra antenas GPS y GSM con conectividad 4G LTE y conmutación automática a 2G para garantizar reporte continuo de ubicación y transmisión de eventos. El equipo incluye controles de seguridad y operativos prácticos como alarma SOS, escucha silenciosa, alertas por vibración y manipulación, además de corte remoto de combustible o alimentación, y opciones de administración mediante app móvil y SMS.
 

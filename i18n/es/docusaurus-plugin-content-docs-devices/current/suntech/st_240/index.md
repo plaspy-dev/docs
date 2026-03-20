@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 240
 
+<div className="device-logo">
 ![ST 240](./logo.jpg)
+</div>
 
 El Suntech ST 240 es un rastreador GPS vehicular compacto diseñado para ofrecer reportes de posición fiables y funcionamiento continuo. Con una carcasa de plástico y clasificación IP67, el ST 240 es ideal para instalaciones con espacio limitado y entornos donde la humedad o el polvo son un problema. Envía la ubicación del vehículo en función de parámetros configurables de ángulo, distancia o tiempo, y cuenta con una batería interna recargable de respaldo para mantener el rastreo cuando se interrumpe la alimentación principal.
 

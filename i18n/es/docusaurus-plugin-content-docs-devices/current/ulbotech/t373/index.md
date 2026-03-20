@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T373
 
+<div className="device-logo">
 ![T373](./logo.jpg)
+</div>
 
 El Ulbotech T373 es un dispositivo de rastreo vehicular comercializado por Ulbotech. Aunque las especificaciones técnicas pueden variar según la revisión del modelo, se presenta y utiliza como un rastreador GPS destinado a ofrecer visibilidad de vehículos y datos telemáticos básicos. El nombre T373 identifica este modelo dentro de la línea de Ulbotech y señala su propósito de reportar ubicación y estados operativos para supervisión.
 

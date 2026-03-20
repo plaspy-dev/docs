@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT09
 
+<div className="device-logo">
 ![GPT09](./logo.jpg)
+</div>
 
 The EElink GPT09 is a compact GPS tracker designed for long term location monitoring. It combines quad band cellular support for wide area coverage, a high capacity 14500mAh lithium thionyl chloride battery for extended standby life, and GPS plus LBS positioning with A GPS assistance for faster fixes. The device also features a strong magnetic mounting option and ruggedized construction rated to IP67 for reliable outdoor use.
 

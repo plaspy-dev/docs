@@ -21,7 +21,9 @@ keywords:
 
 # Maxtrack - MXT-140
 
+<div className="device-logo">
 ![MXT-140](./logo.jpg)
+</div>
 
 El Maxtrack MXT-140 es un rastreador GPS compacto y robusto diseñado para operaciones de alto volumen que demandan un mantenimiento mínimo en campo. Integra posicionamiento y conectividad celular en un único procesador interno, ofreciendo una arquitectura simplificada orientada a un rendimiento eficiente. Sus prioridades de diseño incluyen protección eléctrica, impermeabilidad y resistencia mecánica, lo que lo hace adecuado para entornos adversos e instalaciones donde la fiabilidad es crítica.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - G109
 
+<div className="device-logo">
 ![G109](./tracker.jpg)
+</div>
 
 El TrackerKing G109 es un rastreador GPS 4G diseñado para el seguimiento confiable de vehículos y motocicletas, con enfoque en protección antirobo y contra pérdidas. Pensado para ofrecer seguimiento continuo en tiempo real y reproducción de rutas históricas, el G109 entrega actualizaciones de ubicación y telemetría del vehículo adecuadas para autos, motocicletas y camiones. Sus funciones están orientadas a mantener la operación ante interrupciones de energía y a reconstruir trayectos recuperando segmentos en zonas de baja cobertura.
 

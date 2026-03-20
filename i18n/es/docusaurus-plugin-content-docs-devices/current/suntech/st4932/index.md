@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4932
 
+<div className="device-logo">
 ![ST4932](./tracker.jpg)
+</div>
 
 El ST4932 de Suntech es un rastreador GPS compatible con Plaspy diseñado para el monitoreo de activos a largo plazo y despliegues profesionales de flota. Emplea conectividad LTE Cat M1 y NB2 con conmutación de respaldo a 2G y recepción GNSS concurrente para ofrecer posicionamiento fiable y telemetría persistente en condiciones de red mixtas. Diseñado para entornos exigentes, el equipo combina protección IP67, amplia autonomía de batería y un gateway BLE integrado para soportar sensores de corto alcance y funcionalidades de proximidad.
 

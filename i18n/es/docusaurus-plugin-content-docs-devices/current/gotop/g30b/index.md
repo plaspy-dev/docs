@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G30B
 
+<div className="device-logo">
 ![G30B](./tracker.jpg)
+</div>
 
 El G30B es un rastreador GPS compacto con montaje magnético, diseñado para el seguimiento prolongado y de bajo mantenimiento de vehículos y activos móviles. Comercializado en catálogos de equipos como una unidad discreta, el dispositivo combina posicionamiento GNSS híbrido (GPS y Beidou) con respaldo LBS, una batería interna de gran capacidad y potentes imanes NdFeB para una fijación no permanente. Su formato reducido y su enfoque en una larga autonomía en modo espera lo hacen ideal cuando se priorizan las intervenciones infrecuentes y actualizaciones de ubicación confiables.
 

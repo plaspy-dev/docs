@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - FM-Pro4
 
+<div className="device-logo">
 ![FM-Pro4](./logo.jpg)
+</div>
 
 The Ruptela FM-Pro4 is an advanced GPS tracker designed for heavy commercial vehicles such as trucks, agricultural machinery, and other special machinery. It is built to collect vehicle activity parameters and read data from the on board computer using standards like FMS and J1708, enabling a broader set of monitoring capabilities than basic location tracking. The device supports multiple external sensors and accessories for fuel level and temperature monitoring, driver identification, and other operational signals common in commercial fleets.
 

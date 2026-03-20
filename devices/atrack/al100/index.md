@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AL100
 
+<div className="device-logo">
 ![AL100](./tracker.jpg)
+</div>
 
 The AL100 is a rugged e mobility tracker from ATrack designed for reliable real time tracking of e bikes in rental fleets and private ownership. Built with a weather resistant enclosure and cellular connectivity, the device focuses on continuous location reporting and vehicle telemetry in outdoor and demanding conditions. It is positioned for fleet operators who need persistent tracking and data visibility for distributed bike assets.
 

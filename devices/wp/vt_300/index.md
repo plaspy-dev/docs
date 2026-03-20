@@ -20,7 +20,9 @@ keywords:
 
 # WP - VT-300
 
+<div className="device-logo">
 ![VT-300](./logo.jpg)
+</div>
 
 The WP VT-300 is a versatile GPS tracker designed specifically for vehicle tracking. It provides multiple communication options for voice, SMS, and data across common mobile network generations, and includes expandable hardware via a user defined interface (UDI). Configurable tracking modes cover time and distance intervals, changes in heading and speeding, and ignition status, while onboard alerts include antenna tamper, optional jamming detection, geo-fencing control, mileage reporting, low power and towing alerts, speeding notifications, and roaming preference settings. The device also supports remote configuration and firmware upgrading over the air.
 

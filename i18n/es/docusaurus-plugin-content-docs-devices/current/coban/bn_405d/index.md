@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-405D
 
+<div className="device-logo">
 ![BN-405D](./tracker.png)
+</div>
 
 El BN-405D es un rastreador GPS compacto montado en vehículo, diseñado para la gestión profesional de flotas, logística, obra civil y transporte público. Diseñado para ofrecer seguimiento en tiempo real y alta fiabilidad, el BN-405D combina conectividad celular multibanda con un receptor GNSS de alta sensibilidad para entregar posición, telemetría e informes de alarma en entornos de red mixtos. Su factor de forma y conjunto de funciones orientadas a vehículos lo hacen apto para instalación embebida en unidades de 12–24 V usadas en operaciones comerciales.
 

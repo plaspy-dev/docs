@@ -21,7 +21,9 @@ keywords:
 
 # Winrich - T8
 
+<div className="device-logo">
 ![T8](./tracker.jpg)
+</div>
 
 El T8 es un rastreador GPS personal compacto diseñado para ofrecer seguimiento confiable en el día a día de personas, mascotas y pequeños objetos de valor. Su diseño tipo colgante y su ligereza lo hacen ideal para uso continuo, ya sea como accesorio para llevar, para colocar en collares o en llaveros. El dispositivo entrega actualizaciones de ubicación mediante GPS con respaldo por ubicación celular (LBS), incorpora un botón SOS dedicado para alertas de emergencia y cuenta con recarga conveniente e indicadores LED que informan de estado de batería y conectividad.
 

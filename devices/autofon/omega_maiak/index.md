@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Омега-Маяк+
 
+<div className="device-logo">
 ![Омега-Маяк+](./logo..png)
+</div>
 
 The AutoFon Омега-Маяк+ is a compact GPS tracker designed to determine the location of a protected object using GLONASS and GPS satellite systems, with fallback positioning through cellular network base stations. According to the product description, the device transmits coordinates and recorded events over 2G GSM networks using either data transmission or SMS messages. Built in movement detection and shock monitoring help the Омега-Маяк+ provide situational awareness for secured assets.
 

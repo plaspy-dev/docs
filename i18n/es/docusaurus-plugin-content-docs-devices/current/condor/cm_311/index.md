@@ -21,7 +21,9 @@ keywords:
 
 # Condor - CM-311
 
+<div className="device-logo">
 ![CM-311](./tracker.png)
+</div>
 
 El CM-311 es un rastreador GPS compacto de Condor diseñado específicamente para el monitoreo de mascotas. Pequeño y ligero, ofrece actualizaciones de posición a través de conexión celular para que usted pueda localizar a su mascota sin interferir en su actividad diaria. Su formato y enfoque en la comodidad lo hacen adecuado para perros y gatos que requieren visibilidad de su ubicación de forma discreta y continua.
 

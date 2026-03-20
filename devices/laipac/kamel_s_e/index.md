@@ -20,7 +20,9 @@ keywords:
 
 # Laipac - Kamel S - E
 
+<div className="device-logo">
 ![Kamel S - E](./logo..jpg)
+</div>
 
 The Laipac Kamel S - E is a compact asset tracker designed to improve visibility and management of movable equipment and stock. It combines 4G LTE connectivity with GNSS positioning to provide real time location updates, and includes built in features such as Time Interval and Distance Travelled reporting, tow alerts, overspeed alerts, and geofence violation notifications. The device is also water resistant to IP68 standards and is supplied with an internal Li Ion polymer battery for extended operation without a fixed installation.
 

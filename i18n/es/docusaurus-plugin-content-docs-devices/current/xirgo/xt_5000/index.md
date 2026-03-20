@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT-5000
 
+<div className="device-logo">
 ![XT-5000](./logo.jpg)
+</div>
 
 El Xirgo XT-5000 es un rastreador GPS compacto y resistente, diseñado para despliegues prolongados donde la confiabilidad y el bajo mantenimiento son prioritarios. Integra un motor GPS, un microprocesador de 32 bits y un enfoque eficiente de gestión de energía para ofrecer reportes continuos de ubicación y estado con un consumo mínimo. El equipo está pensado para entornos exteriores exigentes e incluye antenas integradas, detección de movimiento y un acelerómetro opcional para soportar operaciones remotas de larga duración.
 

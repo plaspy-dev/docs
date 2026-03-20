@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK770
 
+<div className="device-logo">
 ![LK770](./logo..jpg)
+</div>
 
 El LK770 es un rastreador vehicular cableado y compacto pensado para automóviles y motocicletas. Combina posicionamiento GPS con conectividad GSM integrada y antenas incorporadas para ofrecer monitoreo de ubicación discreto y fiable. El equipo soporta redes celulares comunes y una experiencia mediante app móvil, e incorpora funciones de seguridad como alarma SOS, alerta por vibración ante manipulación y la posibilidad de cortar combustible o alimentación de forma remota.
 

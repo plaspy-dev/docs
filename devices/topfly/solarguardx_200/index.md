@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - SolarGuardX 200
 
+<div className="device-logo">
 ![SolarGuardX 200](./tracker.png)
+</div>
 
 The SolarGuardX 200 by TopFly is a rugged, solar powered cargo GPS tracker and high security padlock designed for long term outdoor telematics. Built for container, trailer and remote asset protection, the unit combines persistent solar charging, a large 14,400 mAh Li‑Polymer battery and an IP67 rated enclosure to deliver extended autonomy, real time tracking and tamper alerts in a weatherproof padlock form factor.
 

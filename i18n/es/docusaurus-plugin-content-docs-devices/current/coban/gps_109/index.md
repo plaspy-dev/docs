@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS-109
 
+<div className="device-logo">
 ![GPS-109](./logo..png)
+</div>
 
 El Coban GPS-109 es un rastreador GPS compacto y portátil diseñado para localizar y monitorear objetivos remotos mediante satélites GPS y la red GSM/GPRS. Ofrece posicionamiento preciso, con una exactitud aproximada de 5 metros y alta sensibilidad GPS. Su tamaño reducido y su bajo peso, junto con protección ambiental (clasificación IP67), lo hacen adecuado para una variedad de escenarios móviles y al aire libre.
 

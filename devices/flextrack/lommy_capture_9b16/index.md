@@ -20,7 +20,9 @@ keywords:
 
 # Flextrack - Lommy Capture 9B16
 
+<div className="device-logo">
 ![Lommy Capture 9B16](./tracker.jpg)
+</div>
 
 Lommy Capture 9B16 is a compact, batteryless GPS tracker designed for discreet, real time tracking of trailers, caravans and other towed assets. Purpose built to fit inside light housings, it harvests energy from vehicle lighting circuits to maintain GNSS position reporting and motion telemetry without a dedicated battery. The small IP65 enclosure and tamper resistant packaging make it suitable for long term fleet deployments where concealment and low maintenance are priorities.
 

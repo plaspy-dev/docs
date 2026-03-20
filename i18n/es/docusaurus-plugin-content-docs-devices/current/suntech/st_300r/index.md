@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 300R
 
+<div className="device-logo">
 ![ST 300R](./logo.jpg)
+</div>
 
 El Suntech ST 300R es un rastreador GPS para vehículos diseñado para apoyar la gestión de flotas y las necesidades de seguridad. Ofrece informes en tiempo real sobre estados clave del vehículo, como velocidad, estado de encendido y tiempos de inactividad, e incluye una interfaz de comunicación serial RS232 para conexión con sensores externos. Cuando se conecta a sensores, el ST 300R puede aportar datos adicionales como niveles de combustible, eventos de frenado brusco y presencia de pasajeros, ayudando a los operadores a comprender mejor el uso de cada vehículo.
 

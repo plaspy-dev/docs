@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G616
 
+<div className="device-logo">
 ![G616](./tracker.jpg)
+</div>
 
 The Gosafe G616 is a rugged, professional grade GPS tracker built for enterprise telematics and fleet management. It is designed to provide reliable real time tracking, high rate crash data capture for accident reconstruction, and comprehensive vehicle telemetry. With multi GNSS positioning and cellular connectivity, the G616 targets demanding dispatch, recovery and analytics workflows where precise location and event data are required.
 

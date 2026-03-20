@@ -20,7 +20,9 @@ keywords:
 
 # Navigil - PT220
 
+<div className="device-logo">
 ![PT220](./logo.jpg)
+</div>
 
 The Navigil PT220 is a compact and reliable GPS tracker designed primarily to track the location and help ensure the safety of people. It is intended for straightforward personal use and can be carried in a pocket, briefcase, or backpack. The device is designed for simple deployment using a SIM card and offers rechargeable power via a wall charger or USB connection, making it convenient for daily use or temporary deployments.
 

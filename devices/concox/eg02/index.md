@@ -20,7 +20,9 @@ keywords:
 
 # Concox - EG02
 
+<div className="device-logo">
 ![EG02](./logo..png)
+</div>
 
 The Concox EG02 is a compact GPS tracker designed primarily as an anti theft solution for electric scooters. It offers plug and play installation and supports real time location tracking using GPS and LBS. The EG02 provides remote lock and unlock capability through a companion mobile app, triggers an audio alarm on unauthorized movement, and includes multiple alerts for events such as abnormal vibration, speeding, power off, and geofence entry or exit.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - VT-106
 
+<div className="device-logo">
 ![VT-106](./logo.jpg)
+</div>
 
 El GOTOP VT-106 es un rastreador GPS compacto diseñado para ofrecer localización precisa y confiable en motocicletas. Emplea satélites GPS para posicionamiento y la red GSM GPRS existente para transmitir información de ubicación y estado. El dispositivo permite enviar coordenadas por SMS y subir datos a un servidor designado, e incluye características prácticas para motos como carcasa resistente al agua, imán integrado para un montaje seguro y una batería interna de respaldo.
 

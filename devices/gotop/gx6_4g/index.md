@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - GX6-4G
 
+<div className="device-logo">
 ![GX6-4G](./tracker.jpg)
+</div>
 
 The GX6-4G is a vehicle focused 4G GPS tracker designed for fleet management and reliable real time tracking. Built for rental cars, taxis, trucks and passenger vehicles, the unit offers multi mode positioning including GPS, BeiDou and LBS, plus vehicle grade inputs and outputs that make it suitable for continuous fleet monitoring and operational oversight.
 

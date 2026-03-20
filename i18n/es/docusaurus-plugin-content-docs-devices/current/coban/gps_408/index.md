@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS-408
 
+<div className="device-logo">
 ![GPS-408](./logo..png)
+</div>
 
 El Coban GPS-408 es un rastreador vehicular versátil diseñado para ofrecer seguimiento y gestión en tiempo real de vehículos en diversos sectores. Pensado para aplicaciones como logística y transporte de carga, protección contra robo, transporte de valores para bancos y gestión de vehículos oficiales, el GPS-408 combina la localización con funciones orientadas a la seguridad para ayudar a las organizaciones a mantener visibilidad y control sobre sus activos móviles.
 

@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-2000
 
+<div className="device-logo">
 ![LMU-2000](./logo.jpg)
+</div>
 
 El CalmAmp LMU-2000 es un rastreador vehicular compacto y económico, diseñado para una instalación sencilla en automóviles. Combina un diseño GPS enfocado con un tamaño reducido para ofrecer datos confiables de ubicación y velocidad, e incorpora interfaces y sensores que permiten detectar eventos de conducción como frenadas bruscas, giros pronunciados y aceleraciones rápidas. Está pensado para aplicaciones como seguros automotrices, gestión de conducta del conductor, alquiler de vehículos y administración general de flotas.
 

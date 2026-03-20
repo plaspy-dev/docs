@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - MD600
 
+<div className="device-logo">
 ![MD600](./tracker.png)
+</div>
 
 The Meitrack MD600 is a vehicle mobile DVR designed for high resolution video telematics in fleet and commercial vehicle environments. It combines multi channel AHD video capture, configurable video compression, multi channel audio and a wide range of I O and sensor interfaces to collect synchronized video and vehicle telemetry for evidence, safety monitoring and operational oversight.
 

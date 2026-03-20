@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - OGT01
 
+<div className="device-logo">
 ![OGT01](./tracker.jpg)
+</div>
 
 El TopShine OGT01 es un rastreador OBD II compacto plug and play diseñado para vehículos y activos de flota ligera. Se conecta al puerto OBD II estándar para ofrecer ubicación continua del vehículo y diagnóstico a bordo sin cableado adicional. La unidad incluye antenas GPS y GSM integradas, localización dual LBS y GPS, un registrador de datos interno de 2 MB para periodos con cobertura celular limitada y una batería de respaldo capaz de mantener reportes durante periodos extendidos en modo ahorro de energía.
 

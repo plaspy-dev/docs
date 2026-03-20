@@ -20,7 +20,9 @@ keywords:
 
 # Stars Nav - PT-35
 
+<div className="device-logo">
 ![PT-35](./tracker.jpg)
+</div>
 
 The PT-35 from Stars Nav is a compact, rugged personal GPS tracker designed for reliable deployments where discretion and long battery life are priorities. Based on the PT series description, the device combines a u‑blox GNSS receiver with a quad band GSM modem to provide accurate location and event telemetry suitable for personal safety, asset security and light vehicle monitoring. Its small form factor and optional waterproof magnetic housing make it suitable for covert or harsh environment use.
 

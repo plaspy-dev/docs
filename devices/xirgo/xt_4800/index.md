@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT-4800
 
+<div className="device-logo">
 ![XT-4800](./logo.jpg)
+</div>
 
 The Xirgo XT-4800 is an energy harvesting GPS tracker designed for long term remote deployments. Its self charging design and energy harvesting capability reduce the need for frequent servicing, making it suitable for monitoring remote or non powered assets. The device is built to provide frequent location and status updates over extended periods and includes an IP67 sealed enclosure for protection in harsh environments.
 

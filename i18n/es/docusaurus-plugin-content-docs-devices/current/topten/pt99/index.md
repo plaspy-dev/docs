@@ -21,7 +21,9 @@ keywords:
 
 # TopTen - PT99
 
+<div className="device-logo">
 ![PT99](./Logo.jpg)
+</div>
 
 El TopTen PT99 es un rastreador GPS para activos personales diseñado para ofrecer monitoreo de ubicación flexible y supervisión básica de seguridad. Está pensado para escenarios donde la visibilidad y la interacción remota ocasional son importantes, como el rastreo de vehículos o artículos de valor y la seguridad personal. Las capacidades principales del PT99 incluyen modos de seguimiento configurables —como petición bajo demanda, reportes por intervalo y reportes programados—, armado y desarme remoto vía SMS o llamada telefónica, envío de direcciones y coordenadas con enlaces a Google Maps, reporte del odómetro y diversas alarmas para vibración, SOS, exceso de velocidad y batería baja.
 

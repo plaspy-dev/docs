@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-G17Hs
 
+<div className="device-logo">
 ![TS-G17Hs](./tracker.jpg)
+</div>
 
 The TS-G17Hs (J16 Pro) is a compact 4G LTE Cat1 vehicle GPS tracker designed for reliable vehicle tracking and continuous telemetry. It combines high sensitivity GNSS positioning with vehicle oriented inputs such as ignition status, SOS support and configurable I/O for remote immobilization, all packaged in a small form factor suitable for cars, trucks, buses and motorcycles.
 

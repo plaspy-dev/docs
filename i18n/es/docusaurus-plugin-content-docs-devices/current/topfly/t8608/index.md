@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - T8608
 
+<div className="device-logo">
 ![T8608](./logo..png)
+</div>
 
 El TopFly T8608 es un rastreador OBDII compacto, plug and play, diseñado para ofrecer seguimiento vehicular sencillo sin complicaciones innecesarias. Está pensado para ser fácil de usar y mantener, proporcionando actualizaciones de ubicación en tiempo real, un amplio búfer local para almacenar posiciones durante períodos sin conexión y alertas básicas como encendido/apagado de la ignición y desconexión de alimentación. Además, el equipo es compatible con sensores BLE para supervisión opcional de temperatura, humedad, estado de puertas o entradas de relé cuando se requiere sensado adicional.
 

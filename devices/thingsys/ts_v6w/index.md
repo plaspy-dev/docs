@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-V6W
 
+<div className="device-logo">
 ![TS-V6W](./tracker.jpg)
+</div>
 
 The TS-V6W is a compact vehicle GPS tracker from ThingSys designed for worldwide vehicle monitoring and fleet management. It combines high sensitivity GNSS positioning with cellular connectivity to deliver continuous location updates and event reporting for cars, vans, and light trucks. Its small form factor and low power characteristics make it suitable for discreet placement while providing the basic telemetry and alarm features fleet and security teams commonly require.
 

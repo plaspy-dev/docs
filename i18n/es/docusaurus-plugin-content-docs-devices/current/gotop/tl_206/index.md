@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - TL-206
 
+<div className="device-logo">
 ![TL-206](./logo.jpg)
+</div>
 
 El GOTOP TL-206 es un rastreador GPS personal compacto diseñado para el seguimiento y monitoreo en tiempo real de personas, vehículos y mascotas. Utiliza satélites GPS para obtener posiciones y puede transmitir coordenadas mediante SMS o enviando datos a un servidor designado usando la conexión de datos del dispositivo. Con una carcasa muy pequeña y una autonomía en espera anunciada de hasta 200 horas, el TL-206 está pensado para situaciones que requieren seguimiento continuo y discreto.
 

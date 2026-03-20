@@ -20,7 +20,9 @@ keywords:
 
 # Tytan SAT - DS520
 
+<div className="device-logo">
 ![DS520](./tracker.png)
+</div>
 
 The DS520 is a Plaspy compatible GPS tracker designed for reliable real time tracking of vehicles, cargo, and remote technical assets. As a GSM GPRS device it transmits GPS and GLONASS position, speed, and a range of telemetry and event parameters over UDP or TCP. The unit includes analogue and digital inputs, a 1 wire temperature interface, and digital outputs for remote circuit control, making it suitable for diverse monitoring and control tasks.
 

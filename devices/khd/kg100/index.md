@@ -20,7 +20,9 @@ keywords:
 
 # KHD - KG100
 
+<div className="device-logo">
 ![KG100](./logo.jpg)
+</div>
 
 The KHD KG100 is a professional GPS tracker designed for vehicle and motor tracking. It combines GPS or GLONASS positioning with GSM wireless communication to provide reliable location reporting and event messaging. The device is described as having superior receive sensitivity and supports backend communication by GPRS/GSM or SMS, enabling real time tracking, historical route playback, geo fencing and remote control features.
 

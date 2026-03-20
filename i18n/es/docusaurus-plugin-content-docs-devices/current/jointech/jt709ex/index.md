@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - JT709Ex
 
+<div className="device-logo">
 ![JT709Ex](./tracker.jpg)
+</div>
 
 El JT709Ex Explosion-proof Smart Lock de Jointech es un dispositivo de seguridad diseñado específicamente para entornos peligrosos, como el transporte de combustible y operaciones con cisternas. Combina una caja certificada contra explosiones con telemetría de largo alcance vía LoRa y desbloqueo local por Bluetooth, ofreciendo reporte del estado de la cerradura, detección de manipulación y control de acceso en ubicaciones donde se exigen normas de seguridad.
 

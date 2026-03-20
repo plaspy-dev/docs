@@ -21,7 +21,9 @@ keywords:
 
 # Goome - EV02
 
+<div className="device-logo">
 ![EV02](./logo.jpg)
+</div>
 
 El Goome EV02 es una terminal de posicionamiento diseñada para el mercado de electromóviles y motocicletas. Combina posicionamiento GPS con conectividad GSM y GPRS para ofrecer reportes de ubicación en tiempo real, reproducción de rutas y geocercas configurables por el usuario. Su tamaño compacto y antena integrada lo hacen adecuado para una instalación discreta en vehículos pequeños, donde el espacio y la ocultación son prioritarios.
 

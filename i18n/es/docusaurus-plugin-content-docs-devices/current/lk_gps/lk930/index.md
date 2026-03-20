@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK930
 
+<div className="device-logo">
 ![LK930](./logo..jpg)
+</div>
 
 El LK930 de LK-GPS es un dispositivo de rastreo vehicular compacto, diseñado para el monitoreo de ubicación en tiempo real y servicios basados en localización. Integra posicionamiento a bordo con conectividad celular y está pensado para su uso en automóviles, vehículos comerciales ligeros y activos portátiles. El LK930 ofrece larga autonomía, soporte para historial de rutas, alertas por geocerca y diversas opciones de notificación para ayudarle a supervisar el movimiento de vehículos y eventos importantes.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - Q60 Pet
 
+<div className="device-logo">
 ![Q60 Pet](./tracker.jpg)
+</div>
 
 The Q60 Pet is a compact GPS tracker engineered for pet owners who want continuous, Plaspy compatible real-time tracking and fast location visibility. It combines multi-mode positioning with GSM GPRS communications to provide location updates both outdoors and in challenging urban or indoor environments. The device is built around the MTK2503 chipset and supports GPS, BDS, LBS and WiFi assisted positioning, with Micro SIM connectivity and a built in 500 mAh polymer battery for everyday use.
 

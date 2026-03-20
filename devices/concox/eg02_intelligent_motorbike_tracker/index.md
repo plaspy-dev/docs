@@ -20,7 +20,9 @@ keywords:
 
 # Concox - EG02 Intelligent Motorbike Tracker
 
+<div className="device-logo">
 ![EG02 Intelligent Motorbike Tracker](./tracker.png)
+</div>
 
 The Concox EG02 Intelligent Motorbike Tracker is a compact, Plaspy compatible GPS tracker purpose built for electric scooters, e bikes and other light electric vehicles. In a cigarette lighter form factor with plug and play installation, the EG02 is designed to deliver reliable real time tracking and event telemetry while keeping installation time and complexity low for micro mobility operators and fleet managers.
 

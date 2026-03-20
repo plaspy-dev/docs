@@ -20,7 +20,9 @@ keywords:
 
 # Concox - GT02
 
+<div className="device-logo">
 ![GT02](./logo.jpg)
+</div>
 
 The Concox GT02 is a compact GPS tracker that combines GPS, GSM, and GPRS technologies to deliver real time position monitoring. Designed for global use with quad band GSM support, the GT02 pairs a high sensitivity GPS chipset with built in GSM and GPS antennas to provide consistent location reporting. The device supports continuous monitoring through auto start when power is connected and gives visual status via three LEDs for GPS, GSM, and power.
 

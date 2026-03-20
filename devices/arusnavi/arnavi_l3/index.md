@@ -20,7 +20,9 @@ keywords:
 
 # Arusnavi - Arnavi L3
 
+<div className="device-logo">
 ![Arnavi L3](./tracker.png)
+</div>
 
 The Arnavi L3 is a compact GPS tracker and navigation controller designed for reliable real time tracking and telemetry of vehicles and mobile assets. At 61 x 42 x 13 mm and 36 g, the device combines multi constellation GNSS positioning, 2G GPRS cellular connectivity, Bluetooth Low Energy for external sensors, and a set of robust inputs and outputs to support fleet monitoring, anti theft workflows and remote diagnostics.
 

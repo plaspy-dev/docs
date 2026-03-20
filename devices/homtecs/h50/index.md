@@ -20,7 +20,9 @@ keywords:
 
 # Homtecs - H50
 
+<div className="device-logo">
 ![H50](./logo.jpg)
+</div>
 
 The Homtecs H50 is an industrial 3G HSPA plus router designed for machine to machine and remote connectivity applications. Built for demanding environments, the H50 offers backward compatibility with existing 3G networks and provides mobile broadband throughput suitable for data transmission needs in CCTV, telemetry, retail, energy, transportation, and other IP enabled remote sites. The device is packaged in a compact metal housing and includes features intended for stable long term operation in industrial deployments.
 

@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-V6H
 
+<div className="device-logo">
 ![TS-V6H](./tracker.jpg)
+</div>
 
 The TS-V6H is a rugged vehicle GPS tracker from ThingSys designed for dependable positioning, continuous location updates, and fleet management. It is built around a UBLOX GNSS receiver and supports GPRS reporting with SMS fallback for connectivity. The device includes practical vehicle features such as ignition monitoring, vibration based tamper alerts, a backup battery for power loss tracking, and relay based remote power control, making it suited to transport and security applications.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - LK109
 
+<div className="device-logo">
 ![LK109](./logo.jpg)
+</div>
 
 The TK-Star LK109 is a portable GPS tracker designed to provide continuous location visibility for vehicles, equipment, and people. It combines real time tracking with features such as auto tracking, blind area tracking, history trace checking, geo fence alerts, movement and overspeed notifications, an SOS button, shaking sensor alerts, and a sleeping mode to conserve battery. The unit is built for everyday use and outdoor conditions, offering an IP65 level of protection for operations that require some resistance to dust and water.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Ruptela - Plug5
 
+<div className="device-logo">
 ![Plug5](./tracker.jpg)
+</div>
 
 Plug5 es un rastreador GPS en formato dongle OBD/OBDII de Ruptela, diseñado para telemática vehicular plug and play y gestión de flotas. Ofrece posicionamiento GNSS y conectividad móvil moderna con opciones de conmutación para garantizar continuidad, además de exponer diagnósticos del vehículo y parámetros del fabricante a través de la interfaz OBD y CAN. Su factor de forma y la detección automática del modelo de vehículo lo convierten en una opción ideal para despliegues comerciales donde la instalación rápida y la disponibilidad de datos detallados son prioridad.
 

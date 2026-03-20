@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB920
 
+<div className="device-logo">
 ![FMB920](./tracker.png)
+</div>
 
 El Teltonika FMB920 es un rastreador GPS compacto diseñado para ofrecer seguimiento fiable de vehículos y protección antirrobo. Con una carcasa de apenas 12 mm de altura y un formato pensado para instalaciones discretas, el FMB920 está orientado a vehículos pequeños y activos que requieren una solución telemática de bajo perfil, proporcionando reportes continuos de posición y eventos.
 

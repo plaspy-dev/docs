@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK970A/B/C
 
+<div className="device-logo">
 ![LK970A/B/C](./tracker.jpg)
+</div>
 
 El LK970A/B/C de LK GPS es un rastreador magnético 4G pensado para operaciones de larga duración, montaje discreto y despliegues prolongados en campo. Integra posicionamiento GPS y GSM con conectividad 4G y opciones de batería recargable de alta capacidad para ofrecer actualizaciones de ubicación continuas, alertas configurables y reproducción de historial, ideal para monitoreo de flotas y activos.
 

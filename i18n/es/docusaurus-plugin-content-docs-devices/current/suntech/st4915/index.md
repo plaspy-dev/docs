@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4915
 
+<div className="device-logo">
 ![ST4915](./tracker.jpg)
+</div>
 
 La serie ST4915 de Suntech es un rastreador GPS robusto y de larga duración diseñado para la monitorización de activos desatendidos. Está construido alrededor de una batería primaria de muy alta capacidad y radios celulares de bajo consumo para ofrecer años de funcionamiento con bajo mantenimiento en remolques, contenedores, maquinaria y otros activos remotos en los que la fiabilidad y la duración de la batería son prioritarias.
 

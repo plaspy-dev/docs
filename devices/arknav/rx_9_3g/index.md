@@ -20,7 +20,9 @@ keywords:
 
 # ArkNav - RX-9 3G
 
+<div className="device-logo">
 ![RX-9 3G](./logo.jpg)
+</div>
 
 The ArkNav RX-9 3G is a waterproof vehicle tracker built for a broad range of mobile assets, including cars, vans, trucks, trailers, and heavy machinery. Designed with a rugged, IP67 rated enclosure and built in antennas, the RX-9 3G emphasizes durability and discreet placement for applications where exposure to harsh weather and vibration is likely. The device includes location capability, driver identification support, temperature sensing, and tamper resistant placement that help fleets maintain continuous visibility of their vehicles and equipment.
 

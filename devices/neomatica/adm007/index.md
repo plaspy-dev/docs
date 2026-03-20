@@ -20,7 +20,9 @@ keywords:
 
 # Neomatica - ADM007
 
+<div className="device-logo">
 ![ADM007](./tracker.png)
+</div>
 
 The ADM007 BLE from Neomatica is an ultra compact GPS tracker designed for vehicle and asset installations where space or wiring access is limited. It combines GNSS position reporting with integrated cellular connectivity and support for multiple Bluetooth Low Energy peripherals to provide location and environmental telemetry from a very small enclosure. The device is intended for discreet fleet installations, distributed asset monitoring and low profile anti theft use cases.
 

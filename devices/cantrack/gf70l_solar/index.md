@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - GF70L-Solar
 
+<div className="device-logo">
 ![GF70L-Solar](./tracker.jpeg)
+</div>
 
 The GF70L-Solar is a solar assisted rechargeable magnetic asset GPS tracker designed for long term, low maintenance tracking of off grid assets. Built for applications such as trailers, containers, heavy equipment and other unattended items, it combines a large rechargeable battery, anti scratch solar panels and strong magnetic mounting in a compact, rugged package to extend standby time and reduce service visits.
 

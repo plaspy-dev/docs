@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS312
 
+<div className="device-logo">
 ![GPS312](./Logo.jpg)
+</div>
 
 El Coban GPS312 es un rastreador GPS compacto y versátil pensado para vehículos, que ofrece posicionamiento en tiempo real, funciones de seguridad, monitoreo y alarmas de emergencia. Soporta múltiples métodos de transmisión de datos, como SMS y datos por internet, y permite el rastreo mediante posicionamiento satelital global. El equipo incluye las funcionalidades habituales para supervisión vehicular, como geocercas, audio bidireccional, alarma SOS, alertas por manipulación y compatibilidad con herramientas de seguimiento basadas en mapas.
 

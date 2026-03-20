@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - SolarX 120
 
+<div className="device-logo">
 ![SolarX 120](./tracker.png)
+</div>
 
 El SolarX 120 de TopFly es un rastreador GPS robusto con asistencia solar, diseñado para el monitoreo prolongado de activos en exteriores. Cuenta con una carcasa resistente con certificación IP67, una batería recargable de gran capacidad y carga solar para extender los despliegues sin necesidad de mantenimiento frecuente. El dispositivo está pensado para su uso en contenedores, remolques, camiones y otros activos pesados donde el hardware resistente a la intemperie y el reporte fiable de ubicaciones son imprescindibles.
 

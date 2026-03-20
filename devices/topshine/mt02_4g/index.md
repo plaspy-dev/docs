@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - MT02-4G
 
+<div className="device-logo">
 ![MT02-4G](./tracker.jpg)
+</div>
 
 The MT02-4G is a compact 4G vehicle GPS tracker designed for fleet management, anti theft protection and general vehicle telemetry. It provides continuous location reporting, onboard data logging and support for accessory based features such as fuel monitoring and remote immobilization. The device is packaged for use on cars, trucks and motorcycles where reliable tracking and event capture are required.
 

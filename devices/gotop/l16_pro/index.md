@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - L16 PRO
 
+<div className="device-logo">
 ![L16 PRO](./tracker.jpg)
+</div>
 
 The L16 PRO is a Plaspy compatible 4G GPS tracker in a smartwatch form factor designed for dependable real time tracking, continuous health telemetry, and everyday safety for seniors and other vulnerable users. It combines outdoor GPS positioning with BLE assisted indoor awareness, onboard sensors for heart rate, SpO2 and temperature, and safety features such as SOS and fall alerts to support personal monitoring and rapid response.
 

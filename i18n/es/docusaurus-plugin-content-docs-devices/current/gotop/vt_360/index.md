@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - VT-360
 
+<div className="device-logo">
 ![VT-360](./logo.jpg)
+</div>
 
 El GOTOP VT-360 es un rastreador vehicular GPS/GSM/GPRS diseñado para el seguimiento en tiempo real y la gestión de flotas. Combina un GPS de alta sensibilidad con comunicación GPRS estable para ofrecer ubicaciones precisas incluso en zonas remotas. El VT-360 permite consultas de ubicación vía SMS con un enlace directo a Google Maps y seguimiento continuo por SMS o GPRS, e incluye un conjunto de alertas como SOS, geocercas, aviso de áreas sin señal GPS, batería baja, alarma por exceso de velocidad y la capacidad de corte de motor. Otras funciones incluyen escucha remota, dos entradas y dos salidas digitales, una entrada analógica para monitorear parámetros como temperatura o nivel de combustible, y una batería interna de respaldo para seguir operando durante cortes de energía.
 

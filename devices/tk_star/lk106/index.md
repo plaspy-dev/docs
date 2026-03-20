@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - LK106
 
+<div className="device-logo">
 ![LK106](./logo.jpg)
+</div>
 
 The TK-Star LK106 is a portable GPS tracker designed to provide location awareness and basic safety monitoring across a wide range of applications. It offers real-time tracking, auto-tracking, blind area tracking, and history trace checking, combined with GPS and GSM location reporting. The device also includes a suite of alert options such as geofence notifications, movement and overspeed alerts, low battery warnings, a shaking sensor alert, and an SOS button for emergency situations. With an IP66 rating and a sleep working mode, the LK106 is built for outdoor use and extended deployments.
 

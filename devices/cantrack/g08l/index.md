@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G08L
 
+<div className="device-logo">
 ![G08L](./tracker.jpeg)
+</div>
 
 The G08L is a Plaspy compatible 4 inch smart tail light GPS tracker designed to replace an existing vehicle tail light while maintaining full lighting function. It combines GNSS positioning with a cellular modem and on board motion sensing to provide continuous, covert location monitoring and event detection without altering the vehicle exterior. The tail light form factor and IP67 rated enclosure make it suitable for outdoor vehicle use where discreet, tamper resistant hardware is required.
 

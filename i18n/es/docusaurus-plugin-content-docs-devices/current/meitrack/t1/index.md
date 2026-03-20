@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - T1
 
+<div className="device-logo">
 ![T1](./logo.jpg)
+</div>
 
 El Meitrack T1 es un rastreador GPS compacto para vehículos, pensado tanto para flotas como para uso particular. Combina el envío continuo de ubicación con el registro GPS, ofreciendo visibilidad en tiempo real y reproducción histórica de rutas. El dispositivo incluye audio bidireccional, un botón S.O.S., alertas de velocidad y compatibilidad con accesorios como un teléfono tipo handset y un lector RFID, lo que lo convierte en una opción flexible para diversas necesidades de rastreo.
 

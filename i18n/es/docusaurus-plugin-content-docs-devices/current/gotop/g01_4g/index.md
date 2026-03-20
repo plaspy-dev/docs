@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G01-4G
 
+<div className="device-logo">
 ![G01-4G](./tracker.jpg)
+</div>
 
 El GOTOP G01-4G es un rastreador GPS para vehículos diseñado para ofrecer seguimiento en tiempo real confiable y gestión de flotas. Pensado para autos, taxis, vehículos de renta y camiones ligeros, el equipo emplea 4G LTE con respaldo por SMS para entregar actualizaciones de posición rápidas, alarmas configurables por geocerca, reporte de emergencia SOS, detección de encendido ACC y control remoto de corte de motor. Su carcasa ABS con clasificación IP67 y amplio rango de voltaje operativo lo hacen apto para despliegues profesionales de flotas y entornos automotrices exigentes.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V30
 
+<div className="device-logo">
 ![RF-V30](./tracker.jpg)
+</div>
 
 The RF-V30 is a compact GPS tracker designed primarily for pet protection and everyday tracking. It combines quad band cellular connectivity with integrated GPS and WiFi assisted positioning to deliver location updates, geo fence alerts and historical route playback in a small, lightweight housing that mounts to collars. The device is built for practical use outdoors, with IP66 water and dust resistance, a rechargeable battery and an automatic LED rolling light for locating pets at night.
 

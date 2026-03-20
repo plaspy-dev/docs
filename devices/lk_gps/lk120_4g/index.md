@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK120-4G
 
+<div className="device-logo">
 ![LK120-4G](./tracker.jpg)
+</div>
 
 The LK120-4G is a compact, waterproof GPS tracker designed primarily for pets and personal use. It combines built in GPS and GSM antennas with Assisted GPS to provide real time location updates in a small, rugged enclosure that fits easily on collars or personal carry items. The device is described as capable of frequent position reports and typical accuracy in the low single digit meters, making it suited to close range tracking and outdoor activity monitoring.
 

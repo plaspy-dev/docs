@@ -21,7 +21,9 @@ keywords:
 
 # Ruptela - Pro5S
 
+<div className="device-logo">
 ![Pro5S](./tracker.png)
+</div>
 
 El Pro5S de Ruptela es un rastreador GPS profesional diseñado para flotas y despliegues comerciales en LATAM. Combina conectividad celular fiable con un módulo GNSS u‑blox de fabricación suiza y un formato compacto listo para arnés, ofreciendo seguimiento en tiempo real continuo, telemetría robusta y comunicación bidireccional con el conductor. El dispositivo está optimizado para aplicaciones de flota, alquiler y logística donde la precisión de posicionamiento y el registro de datos confiable son prioridades.
 

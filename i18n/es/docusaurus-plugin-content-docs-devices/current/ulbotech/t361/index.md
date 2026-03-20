@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T361
 
+<div className="device-logo">
 ![T361](./tracker.jpg)
+</div>
 
 El Ulbotech T361 es un rastreador GPS compacto con conector OBD II, diseñado para una implementación rápida tipo plug and play en vehículos. Combina posicionamiento GNSS con conectividad celular y proporciona datos y diagnósticos del motor, además de una salida de inmovilizador y detección de movimiento. Está orientado a la gestión de flotas, seguridad y monitoreo del comportamiento del conductor cuando la instalación ágil y la telemetría proveniente de la ECU son prioridades.
 

@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT202
 
+<div className="device-logo">
 ![VT202](./logo..jpg)
+</div>
 
 The iStartek VT202 is a compact mini GPS tracking device designed for motorcycles, electric bicycles, and cars. It combines a built in GPS module with a flexible power input range so it can be installed in a variety of vehicles including trucks, trailers, and light two wheeled transport. The VT202 reports position data to a designated mobile phone or server, offering real time tracking and basic remote management functions suitable for personal and small fleet use.
 

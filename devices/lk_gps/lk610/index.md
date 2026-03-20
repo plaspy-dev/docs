@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK610
 
+<div className="device-logo">
 ![LK610](./logo..jpg)
+</div>
 
 The KJ-GPS LK610 is a compact wearable GPS tracker designed primarily for kids and personal safety use. It offers real time tracking, an SOS alarm for emergencies, and multiple location query options including a mobile app, a PC webpage, and WeChat access. The device supports electronic fence entry and exit alerts, low power and displacement alarms, and provides simple visual status feedback via an LED lamp.
 

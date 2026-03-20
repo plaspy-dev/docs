@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - TTU-700
 
+<div className="device-logo">
 ![TTU-700](./logo.jpg)
+</div>
 
 El CalmAmp TTU-700 es un rastreador de remolques alimentado por batería no recargable, diseñado para despliegues prolongados donde la baja necesidad de mantenimiento y la larga duración son prioritarias. Combina un formato compacto con una batería interna de 57 Ah y antenas integradas de celular y GPS, lo que permite montajes flexibles en remolques y otros activos sin requerir antenas cableadas adicionales.
 

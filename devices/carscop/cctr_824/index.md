@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CCTR-824
 
+<div className="device-logo">
 ![CCTR-824](./tracker.JPG)
+</div>
 
 The CCTR-824 is a compact, battery powered long life GPS tracker designed for covert vehicle, equipment and rental asset tracking. It is built for quick DIY deployment without permanent wiring and mounts securely using strong magnetic pins or an optional magnet cover. The unit is optimized for long unattended operation and includes a low detect deep sleep mode, light based removal alarm, and configurable locate intervals to support extended field use.
 

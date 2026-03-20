@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - TAT141
 
+<div className="device-logo">
 ![TAT141](./tracker.png)
+</div>
 
 The TAT141 is a compact, battery powered GPS tracker built for long term, low maintenance asset monitoring. Designed for goods, containers, equipment and other valuable assets, it offers wide area cellular connectivity, IP68 environmental protection and a magnetic mounting option for fast, secure placement. Its design emphasizes dependable location reporting and extended operational life without frequent servicing.
 

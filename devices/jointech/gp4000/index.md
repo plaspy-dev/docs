@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - GP4000
 
+<div className="device-logo">
 ![GP4000](./tracker.jpg)
+</div>
 
 The Jointech GP4000 is a rugged GPS tracker designed for professional fleet management. Built for reliable vehicle tracking across a range of applications — including logistics, refrigerated transport, taxis and construction machinery — the GP4000 emphasizes field-proven stability and cost effective telemetry for fleets operating in many countries. Its design targets long term deployments and operational environments where dependable location tracking and robust connectivity matter.
 

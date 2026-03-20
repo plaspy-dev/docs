@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-901L
 
+<div className="device-logo">
 ![ST-901L](./tracker.jpg)
+</div>
 
 El SinoTrack ST-901L es un rastreador GPS de grado vehicular y formato compacto, pensado para motocicletas, scooters y autos pequeños. En una carcasa miniatura e impermeable combina conectividad 4G con conmutación a GSM GPRS, además de antenas GPS y GSM de alta sensibilidad integradas para ofrecer actualizaciones de posición puntuales, reporte de alarmas y configuración sencilla del servidor. El equipo está diseñado para montajes discretos y para ofrecer seguimiento fiable cuando el espacio es reducido y se requiere robustez.
 

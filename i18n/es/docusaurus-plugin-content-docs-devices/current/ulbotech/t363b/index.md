@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T363B
 
+<div className="device-logo">
 ![T363B](./tracker.jpg)
+</div>
 
 El T363B es un rastreador vehicular OBD plug and play diseñado para ofrecer monitoreo robusto y recopilación de telemetría. Se conecta directamente al puerto OBD del vehículo y suministra posicionamiento GPS, telemetría OBD y CAN, además de eventos de comportamiento del conductor a través de una conexión celular. El equipo combina posicionamiento con detección de movimiento y una función de inmovilizador integrada, lo que lo hace adecuado para flotas, vehículos de alquiler, programas de seguros y aplicaciones de seguridad vehicular.
 

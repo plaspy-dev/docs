@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT- 17F
 
+<div className="device-logo">
 ![AT- 17F](./Logo.jpg)
+</div>
 
 The Autoseeker AT-17F is a rugged, long life GPS tracker designed for versatile asset and vehicle monitoring. It combines multi GNSS positioning, broad cellular connectivity options, and a sealed IP68 enclosure to deliver reliable location reporting in demanding environments. The unit supports scheduled reports, real time tracking, and common alert types such as geo-fence, low power, removal, and motion based notifications.
 

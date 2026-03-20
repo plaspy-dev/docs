@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM800
 
+<div className="device-logo">
 ![FMM800](./tracker.png)
+</div>
 
 The Teltonika FMM800 is a plug and play OBD II GPS tracker designed for rapid installation and reliable vehicle monitoring. Intended for fleet management, car sharing and rental services, and logistics operations, the device reports location and vehicle data through the vehicle OBD II port so teams can start tracking and collecting telemetry without complex wiring.
 

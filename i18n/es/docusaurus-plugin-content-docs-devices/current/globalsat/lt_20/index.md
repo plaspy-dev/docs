@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - LT-20
 
+<div className="device-logo">
 ![LT-20](./logo..jpg)
+</div>
 
 El GlobalSat LT-20 (a veces referido como LT-20P en la documentación del fabricante) es un rastreador GPS LoRa compacto con alimentación solar, diseñado para la monitorización de activos en exteriores. Está pensado para proporcionar transmisiones de ubicación duraderas en activos como ganado, animales de pastoreo y equipos agrícolas. Entre sus características destacan un panel solar de alto rendimiento para alimentación continua, un receptor GPS/GNSS de alta sensibilidad para un posicionamiento confiable, un acelerómetro integrado de 3 ejes para detección de movimiento y una clasificación IPX7 que le permite operar en condiciones expuestas.
 

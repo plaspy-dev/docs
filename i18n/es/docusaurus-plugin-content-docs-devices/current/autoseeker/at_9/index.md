@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-9
 
+<div className="device-logo">
 ![AT-9](./tracker.jpg)
+</div>
 
 El Autoseeker AT-9 es un rastreador GPS magnético inalámbrico 4G, diseñado para el seguimiento encubierto y la supervisión de activos de uso intensivo con larga duración. Con una carcasa impermeable IP68 y un potente imán integrado, el AT-9 permite montaje sin herramientas en superficies metálicas. Integra posicionamiento multimodal, conectividad celular, una batería recargable de alta capacidad y un conjunto de alarmas y funciones de comunicación para soportar seguimiento en tiempo real y monitoreo antirrobo de vehículos, contenedores, maquinaria de construcción y otros activos móviles de alto valor.
 

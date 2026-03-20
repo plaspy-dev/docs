@@ -20,7 +20,9 @@ keywords:
 
 # Condor - TS-728
 
+<div className="device-logo">
 ![TS-728](./tracker.png)
+</div>
 
 The TS-728 is a purpose built maritime tracker from Condor designed for reliable vessel monitoring via the Iridium satellite network. It provides global position reporting and telemetry for vessels operating beyond the reach of terrestrial cellular coverage, making it suitable for long range fishing boats, workboats, yachts, and other maritime assets that require continuous location visibility across oceans and remote sea lanes.
 

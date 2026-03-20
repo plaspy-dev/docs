@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT62
 
+<div className="device-logo">
 ![XT62](./tracker.webp)
+</div>
 
 El XT62 es un módulo para activos diseñado para remolques refrigerados y contenedores de carga, enfocado en la visibilidad de la cadena de frío. Provee monitoreo continuo de condiciones y reportes de ubicación para que los equipos operativos puedan seguir temperatura, estado de puertas y señales de E/S remotas mientras los activos están en tránsito. El dispositivo está pensado para escenarios de carga refrigerada donde la combinación de ubicación y conocimiento del estado es esencial.
 

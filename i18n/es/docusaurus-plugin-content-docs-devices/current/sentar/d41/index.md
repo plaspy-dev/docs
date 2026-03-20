@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D41
 
+<div className="device-logo">
 ![D41](./tracker.jpg)
+</div>
 
 El Sentar D41 es un reloj inteligente 4G compacto para niños que combina la comodidad de un wearable con las funciones esenciales de un rastreador GPS. Diseñado con posicionamiento multi‑fuente —GPS, LBS y WiFi—, el D41 ofrece actualizaciones regulares de ubicación, un botón SOS para emergencias, una carcasa resistente con certificación IPX7 y una pantalla táctil de 1.91 pulgadas fácil de usar. Su plataforma basada en Android y la memoria integrada permiten funciones locales del dispositivo y opciones multimedia básicas.
 

@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G09L
 
+<div className="device-logo">
 ![G09L](./tracker.jpg)
+</div>
 
 El CanTrack G09L es un rastreador GPS tipo luz trasera ovalada certificado por DOT, diseñado para camiones y vehículos pesados. Sustituye la lámpara trasera por una unidad combinada de iluminación y telemetría, ofreciendo las funciones convencionales de luz trasera junto con un módulo GPS interno, detección de movimiento y una batería de respaldo integrada para mantener los reportes cuando la alimentación principal se interrumpe. Su factor de forma y certificaciones lo hacen apropiado para entornos de flotas pesadas donde la durabilidad y el cumplimiento normativo son esenciales.
 

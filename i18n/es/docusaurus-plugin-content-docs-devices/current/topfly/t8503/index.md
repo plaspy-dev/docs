@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - T8503
 
+<div className="device-logo">
 ![T8503](./logo.jpg)
+</div>
 
 El TopFlyTech T8503 es un rastreador GPS compacto diseñado para tareas de seguimiento diario confiables. Prioriza la operación simple y una construcción resistente para soportar diversos entornos. Entre sus funciones más relevantes para el usuario se encuentran un botón SOS para alertas de emergencia, comunicación de voz mutua para contacto verbal remoto y soporte opcional de etiquetas RFID para asociación sencilla de activos o identificación de personal.
 

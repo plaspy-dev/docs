@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT80Q
 
+<div className="device-logo">
 ![MT80Q](./tracker.jpg)
+</div>
 
 El MT80Q es un reloj rastreador personal compacto diseñado para seguridad individual, cuidado de personas mayores y telemetría remota. Combina una pantalla e-ink de 1.28 pulgadas con un módulo GPS Ublox para enviar reportes de ubicación periódicos a través de redes GSM GPRS. Con un conjunto centrado de funciones de seguridad —detección de caídas, alarma SOS, voz bidireccional y alarma por desarme— el MT80Q está pensado para seguimiento en tiempo real y respuesta rápida en situaciones donde la seguridad y la visibilidad de la ubicación son críticas.
 

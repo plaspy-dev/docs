@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB225
 
+<div className="device-logo">
 ![FMB225](./tracker.png)
+</div>
 
 The Teltonika FMB225 is a rugged GPS tracker designed for demanding outdoor and industrial operations. Packaged in an IP67 rated housing, the unit is intended to provide dependable position tracking and telemetry in environments where dust and temporary water immersion are common, such as agriculture, construction and mining. The device supports external telemetry inputs suitable for monitoring fuel flow and other pulse based sensors, extending basic GPS data with actionable field measurements.
 

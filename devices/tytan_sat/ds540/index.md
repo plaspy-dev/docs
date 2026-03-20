@@ -20,7 +20,9 @@ keywords:
 
 # Tytan SAT - DS540
 
+<div className="device-logo">
 ![DS540](./logo..png)
+</div>
 
 The Tytan SAT DS540 is a compact and capable GPS tracker built for real time tracking of vehicles, cargo, and technical objects. It reports GPS and GLONASS position and speed, transmits current parameters and registered events, and communicates with a server over the GSM network using UDP or TCP. The DS540 is positioned for a wide variety of vehicles including passenger cars, buses, trucks, agricultural machines, construction equipment, and cash transport vehicles.
 

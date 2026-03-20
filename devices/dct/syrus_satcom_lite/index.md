@@ -20,7 +20,9 @@ keywords:
 
 # DCT - Syrus Satcom Lite
 
+<div className="device-logo">
 ![Syrus Satcom Lite](./tracker.png)
+</div>
 
 The Syrus Satcom Lite (Item #1204-10) is a battery powered, satellite enabled GPS tracker designed to extend real time tracking to assets operating beyond cellular coverage. Built for harsh and remote environments, the device combines motion sensing, comparative GPS position reporting and configurable auxiliary sensor inputs to provide continuous visibility and actionable telemetry where traditional trackers may lose connectivity.
 

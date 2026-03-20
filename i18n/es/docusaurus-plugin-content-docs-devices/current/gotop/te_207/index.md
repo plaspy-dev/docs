@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - TE-207
 
+<div className="device-logo">
 ![TE-207](./logo.jpg)
+</div>
 
 El GOTOP TE-207 es un rastreador GPS personal de tamaño compacto diseñado para monitoreo discreto de seguridad y ubicación. Su factor de forma reducido y la disponibilidad en varios colores lo hacen apropiado para el seguimiento de niños, vigilancia de personas mayores, protección de trabajadores solitarios y control de pacientes. El TE-207 combina el reporte de posición con funciones de comunicación en el dispositivo, incluyendo voz bidireccional, función de escucha remota, un botón SOS prominente, alerta por caída y seguimiento en tiempo real accesible desde una plataforma web y una aplicación Android.
 

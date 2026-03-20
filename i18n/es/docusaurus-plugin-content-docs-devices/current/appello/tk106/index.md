@@ -21,7 +21,9 @@ keywords:
 
 # Appello - TK106
 
+<div className="device-logo">
 ![TK106](./logo.jpg)
+</div>
 
 El Appello TK106 es un rastreador GPS compacto y versátil diseñado para ofrecer monitoreo de ubicación confiable en diversas aplicaciones. Cuenta con conectividad GSM y GPRS en múltiples bandas de frecuencia y utiliza un CPU ARM junto al módulo GPS New Star NS-1315, que reporta una precisión de posición aproximada de 5 metros. Sus dimensiones reducidas y su peso ligero lo hacen ideal cuando es importante una colocación discreta y facilidad de transporte.
 

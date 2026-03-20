@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - G19S
 
+<div className="device-logo">
 ![G19S](./Logo.jpg)
+</div>
 
 El WanWay G19S es un rastreador GPS compacto que combina posicionamiento por GPS con conectividad GSM y antenas y sensores integrados. Con unas dimensiones de 83 mm x 40 mm x 14 mm y un peso aproximado de 54 g, el equipo está pensado para una colocación discreta en distintos tipos de vehículos. Entre sus funcionalidades en el dispositivo se incluyen detección ACC, alarma por vibración, llamada de emergencia SOS, corte remoto de gasolina o electricidad y la opción de conectar un micrófono para monitoreo de audio. El G19S también ofrece reproducción de trayectos, notificaciones por SMS, protección contra agua y una precisión GPS declarada de 5 metros o mejor.
 

@@ -21,7 +21,9 @@ keywords:
 
 # OKB Tehnoavtomatika - MTA-Glonass (ver.12M-CAN FMS)
 
+<div className="device-logo">
 ![MTA-Glonass (ver.12M-CAN FMS)](./tracker.jpg)
+</div>
 
 El MTA-Glonass (ver.12M-CAN FMS) es un terminal compacto de monitoreo vehicular diseñado para el rastreo y la telemática basados en satélites. Pensado para vehículos comerciales, este rastreador compatible con Plaspy integra un receptor GNSS multicanal con comunicaciones celulares para ofrecer reportes de posición continuos y telemetría del vehículo, adecuados para supervisión operativa y generación de informes.
 

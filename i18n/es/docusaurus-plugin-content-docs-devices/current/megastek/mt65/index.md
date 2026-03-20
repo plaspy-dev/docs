@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT65
 
+<div className="device-logo">
 ![MT65](./tracker.jpg)
+</div>
 
 El MT65 es un rastreador GPS de tobillo diseñado específicamente para la supervisión continua de infractores, personas en libertad condicional y otras personas bajo vigilancia. Combina un chipset GNSS Ublox de alta precisión con comunicaciones celulares multiproveedor y posicionamiento Wi Fi en un diseño vestible y resistente al agua. Además incorpora detección de manipulación y una alarma SOS para reportar incidentes de forma rápida.
 

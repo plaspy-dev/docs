@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - S101
 
+<div className="device-logo">
 ![S101](./tracker.png)
+</div>
 
 The Ulbotech S101 is a compact plug and play OBD II adapter designed to provide vehicle telemetry to devices running compatible apps. It is not a standalone GPS tracker; instead, the S101 connects to a vehicle OBD II port and streams standard engine and sensor data over a Bluetooth 4.0 link. The adapter uses an ELM327 based processor to deliver denser live parameter updates for diagnostics and fuel monitoring.
 

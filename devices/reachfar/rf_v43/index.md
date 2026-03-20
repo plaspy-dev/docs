@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V43
 
+<div className="device-logo">
 ![RF-V43](./Logo.jpg)
+</div>
 
 The Reachfar RF-V43 is a compact GPS tracker built primarily for pet safety and location monitoring. It uses 4G network connectivity together with three location methods — GPS, LBS, and WiFi — to provide continuous position updates and fallback options when GPS alone may be limited. The device includes practical features for everyday pet use such as configurable GPS and WiFi geofences, a remotely controllable LED light to aid visibility, sport activity reporting, a calling feature for two-way audio when needed, IP67 weather protection, and fast charging with a low battery alert to help maintain uptime.
 

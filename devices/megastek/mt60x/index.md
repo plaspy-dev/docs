@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - MT60X
 
+<div className="device-logo">
 ![MT60X](./tracker.jpg)
+</div>
 
 The MT60X Parolee Tracking Bracelet is a wearable GPS tracker purpose built for community corrections, parolee monitoring and inmate supervision. It combines a high sensitivity u‑blox GNSS module with quad band cellular connectivity and hybrid GPS plus LBS positioning to provide continuous location coverage. The device is designed to be tamper evident and durable, with IP67 sealing and anti removal alarms intended for field use where durability and chain of custody matter.
 

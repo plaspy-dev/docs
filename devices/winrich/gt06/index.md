@@ -20,7 +20,9 @@ keywords:
 
 # Winrich - GT06
 
+<div className="device-logo">
 ![GT06](./tracker.jpg)
+</div>
 
 The GT06 is a compact intelligent GPS vehicle positioning terminal designed for real time tracking and remote vehicle management. It combines satellite positioning with quad band GSM GPRS communication to provide continuous location updates, telemetry and alarm reporting over SMS or GPRS TCP. Built as a mini vehicle tracker, the GT06 targets cars motorcycles electric vehicles and small boats where straightforward monitoring and event reporting are required.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-14
 
+<div className="device-logo">
 ![AT-14](./Logo.jpg)
+</div>
 
 El Autoseeker AT-14 es un mini rastreador GPS inalámbrico y compacto diseñado para vehículos, camiones y contenedores. Su ficha técnica pone énfasis en una larga autonomía en modo espera para despliegues prolongados y en un soporte magnético de alta resistencia con una fuerza de sujeción aproximada de 300 libras, lo que lo hace adecuado para una amplia variedad de escenarios de montaje en activos móviles y fijos. El dispositivo proporciona reportes de ubicación por GPS y utiliza conectividad 2G para las actualizaciones de posición; su formato portátil busca minimizar la complejidad de instalación para usos temporales o semipermanentes.
 

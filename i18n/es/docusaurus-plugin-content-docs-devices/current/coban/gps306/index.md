@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS306
 
+<div className="device-logo">
 ![GPS306](./logo.jpg)
+</div>
 
 El Coban GPS306 es un rastreador GPS compacto diseñado para localizar y monitorear personas, vehículos y otros activos mediante satélites GPS y la red móvil GSM GPRS. Soporta múltiples bandas de frecuencia para una cobertura regional amplia y ofrece actualizaciones de ubicación en tiempo real vía SMS o por internet. Entre sus funciones habituales se destacan las geocercas, alertas por exceso de velocidad, detección de movimiento y notificaciones pensadas tanto para uso personal como comercial.
 

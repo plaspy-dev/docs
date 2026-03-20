@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - DX Mayak 8.1
 
+<div className="device-logo">
 ![DX Mayak 8.1](./tracker.png)
+</div>
 
 El AutoFon DX Mayak 8.1 es un rastreador GPS compacto con batería pensado para protección antirrobo discreta y monitoreo de activos a largo plazo. Diseñado para ser pequeño y eficiente en consumo, el equipo soporta posicionamiento GNSS dual y alertas basadas en eventos como movimiento, choque y SOS, manteniendo vehículos, carga y equipos portátiles visibles y seguros durante despliegues prolongados. Sus opciones de carcasa y modos de seguimiento de baja actividad lo hacen apto para montaje oculto e instalaciones que pueden permanecer años sin mantenimiento frecuente.
 

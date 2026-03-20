@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB900
 
+<div className="device-logo">
 ![FMB900](./tracker.png)
+</div>
 
 El Teltonika FMB900 es un rastreador vehicular 2G compacto y económico, pensado para seguimiento básico de vehículos, telemetría esencial y aplicaciones antirobo. Su diseño delgado y su facilidad de instalación discreta lo hacen ideal para flotas, remolques y activos pequeños donde el espacio es limitado pero se requiere ubicación en tiempo real y funciones de control básicas. El equipo soporta accesorios Bluetooth Low Energy (BLE) para ampliar la monitorización con balizas y sensores externos.
 

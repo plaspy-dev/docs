@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT-2100
 
+<div className="device-logo">
 ![XT-2100](./logo.jpg)
+</div>
 
 El Xirgo XT-2100 es un rastreador GPS compacto e integrado, pensado para la supervisión y el control de activos móviles y remotos. Integra un motor GPS y un módem celular GPRS para ofrecer actualizaciones continuas de posición, rumbo y velocidad. Su diseño reducido y las antenas integradas permiten una instalación discreta en vehículos y otros activos móviles. El equipo incluye entradas digitales de propósito general, una entrada analógica interna para monitorear el voltaje de la batería y una salida digital que puede accionar relés externos.
 

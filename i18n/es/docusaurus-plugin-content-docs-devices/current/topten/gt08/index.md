@@ -21,7 +21,9 @@ keywords:
 
 # TopTen - GT08
 
+<div className="device-logo">
 ![GT08](./Logo.jpg)
+</div>
 
 El TopTen GT08 es un rastreador GPS vehicular compacto pensado para diversas necesidades de seguimiento. Basado en conectividad 2G y 3G, reporta ubicación mediante SMS, web o aplicación móvil e incluye capacidad opcional de RFID para identificación de personal. El equipo dispone además de múltiples funciones de alarma y monitoreo, almacenamiento local de waypoints, un amplio rango de voltaje de entrada adecuado para motocicletas, automóviles y camiones, y una pequeña batería interna que permite seguimiento temporal cuando no hay alimentación externa.
 

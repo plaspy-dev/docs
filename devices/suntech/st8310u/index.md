@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST8310U
 
+<div className="device-logo">
 ![ST8310U](./logo..png)
+</div>
 
 The Suntech ST8310U is a compact vehicle GPS tracker designed for reliable location monitoring in a range of transport and fleet scenarios. It offers low cost LTE Cat.1 and 2G connectivity, a rugged waterproof enclosure for harsh environments, multiple 5-pin I/O ports for integrations, and built in jamming detection. Optional features such as driving pattern analysis and crash reconstruction extend its usefulness for operational oversight and incident review.
 

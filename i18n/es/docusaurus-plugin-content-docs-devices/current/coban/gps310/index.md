@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS310
 
+<div className="device-logo">
 ![GPS310](./Logo.jpg)
+</div>
 
 El Coban GPS310 es un rastreador GPS compacto y versátil diseñado para ofrecer localización precisa en múltiples escenarios. Funciona con redes GSM/GPRS y satélites GPS, y puede reportar posición y estado vía SMS o a una computadora o PDA. Su tamaño reducido facilita llevarlo encima o colocarlo de forma discreta, y el fabricante incluye funciones prácticas como registro de tiempo, geocercas, alertas SOS, avisos de batería baja y una función de rollover de registros, lo que lo hace adecuado tanto para control personal como para monitoreo de activos.
 

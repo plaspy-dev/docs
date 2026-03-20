@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - VT1000F
 
+<div className="device-logo">
 ![VT1000F](./tracker.jpg)
+</div>
 
 El TopShine VT1000F es un rastreador GPS con alarma para vehículo que incorpora iButton para identificación de conductores y está diseñado para seguridad vehicular y seguimiento continuo en múltiples países. Pensado para la identificación del conductor mediante iButton o RFID y construido para mantener conectividad celular ininterrumpida mediante soporte multi‑SIM, el VT1000F ofrece actualizaciones de ubicación en tiempo real, alertas SOS y control remoto del inmovilizador. Su conjunto de funciones está dirigido a operadores que necesitan cobertura persistente, reporte de eventos de seguridad y registro de kilometraje o telemetría en entornos con señal variable.
 

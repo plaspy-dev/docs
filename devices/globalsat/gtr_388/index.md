@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - GTR-388
 
+<div className="device-logo">
 ![GTR-388](./logo..jpg)
+</div>
 
 The GlobalSat GTR-388C1 is a compact GPS tracker designed for eBikes, motorcycles, scooters, and a wide range of vehicles. It combines a rugged waterproof enclosure with cellular connectivity and a high sensitivity GPS receiver to provide continuous location monitoring and motion detection in demanding environments. The unit's small footprint and durable design make it suitable for outdoor use and for vehicles that require a discreet tracking solution.
 

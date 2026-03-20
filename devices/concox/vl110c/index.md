@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL110C
 
+<div className="device-logo">
 ![VL110C](./tracker.png)
+</div>
 
 The Concox VL110C is a compact vehicle GNSS terminal designed for reliable vehicle management across motorcycles, passenger cars, light commercial vehicles and industrial equipment. It combines rugged environmental protection, a wide input voltage range and an internal backup battery to maintain telemetry when vehicle power is removed, making it suitable for continuous tracking and basic vehicle security workflows.
 

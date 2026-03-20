@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT200
 
+<div className="device-logo">
 ![VT200](./tracker.jpg)
+</div>
 
 The VT200 is a rugged 2G waterproof GPS tracker from iStartek designed for reliable real time tracking and telemetry in demanding vehicle and asset applications. Built with an IP66 enclosure and multi constellation GNSS positioning, the VT200 is intended to provide persistent location data, on device buffering to handle coverage gaps, and remote device management for fleets and mobile assets.
 

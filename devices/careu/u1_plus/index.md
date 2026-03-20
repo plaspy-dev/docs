@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - U1 PLUS
 
+<div className="device-logo">
 ![U1 PLUS](./tracker.png)
+</div>
 
 The CAREU U1 PLUS is a vehicle mounted GPS tracker purpose built for fleet management, heavy trucks and commercial vehicle deployments. It delivers continuous location tracking and vehicle telemetry intended for large scale operations, with hardware features that support fuel monitoring, multi sensor expansion and driver behaviour detection for commercial fleets.
 

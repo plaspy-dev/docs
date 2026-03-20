@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - AY-T801
 
+<div className="device-logo">
 ![AY-T801](./logo.jpg)
+</div>
 
 El AoYa AY-T801 es un rastreador vehicular compacto que combina posicionamiento Beidou y GPS para ofrecer localización precisa en automóviles. Diseñado con un formato pequeño y discreto, el AY-T801 se instala de forma casi imperceptible en una amplia variedad de vehículos particulares. Entre las funciones principales que describe el fabricante están la localización y reproducción de rutas, geocercas, corte remoto de motor y detección de ACC, además de varias alarmas como vibración, corte de energía, batería baja, exceso de velocidad y alarma de geocerca.
 

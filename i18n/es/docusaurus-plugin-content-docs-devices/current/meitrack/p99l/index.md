@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - P99L
 
+<div className="device-logo">
 ![P99L](./tracker.png)
+</div>
 
 El P99L es un rastreador GPS portátil, compacto y robusto, diseñado para deportistas al aire libre y trabajadores de campo que necesitan posicionamiento fiable durante largos periodos en entornos exigentes. Combina una carcasa resistente con protección IP67 y amortiguación contra impactos con posicionamiento híbrido mediante GNSS, Wi Fi y servicios de localización (LBS), además de conectividad 4G LTE Cat 1, para ofrecer datos de ubicación continuos donde los dispositivos convencionales pueden fallar. Está pensado para uso prolongado en campo, con una batería interna de 2000 mAh y gestión de sueño inteligente que proporciona amplio tiempo en espera y autonomía práctica para salidas de varios días.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V44
 
+<div className="device-logo">
 ![RF-V44](./tracker.jpg)
+</div>
 
 El RF-V44 es un rastreador 4G resistente, con carga solar, diseñado para despliegues prolongados en campo, como el monitoreo de ganado bovino y ovino. Combina una batería interna de alta capacidad con un circuito integrado de carga solar y protección de batería para reducir la frecuencia de mantenimiento. Diseñado para soportar condiciones exteriores, el RF-V44 cuenta con protección IP66, un amplio rango de temperatura de operación y una carcasa compacta adecuada para montaje en collar, así como instalaciones magnéticas o con tornillos.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GT06N 4G
 
+<div className="device-logo">
 ![GT06N 4G](./tracker.png)
+</div>
 
 El GT06N 4G es un rastreador GPS compacto para vehículos de Concox, pensado para la gestión profesional de flotas y el monitoreo seguro de activos. Diseñado para una amplia variedad de vehículos, desde autos de pasajeros hasta camiones pesados y motos eléctricas, el equipo ofrece ubicación en tiempo real, telemetría sobre el comportamiento del conductor y controles antirrobo que los operadores requieren para mejorar la seguridad y la eficiencia.
 

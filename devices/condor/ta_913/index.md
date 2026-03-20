@@ -20,7 +20,9 @@ keywords:
 
 # Condor - TA-913
 
+<div className="device-logo">
 ![TA-913](./tracker.png)
+</div>
 
 The Condor TA-913 is a compact aviation communications and tracking device designed for fixed wing and rotary wing operations. Built to support in flight safety and ground station integration, the TA-913 provides pilot friendly controls, dedicated event buttons, satellite text messaging capability, and a Bluetooth gateway for pairing with mobile devices. Its design targets straightforward crew use and resilient messaging when conventional voice links are limited.
 

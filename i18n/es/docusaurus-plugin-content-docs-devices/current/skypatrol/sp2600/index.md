@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP2600
 
+<div className="device-logo">
 ![SP2600](./logo.jpg)
+</div>
 
 La serie SkyPatrol SP2600 es un dispositivo de rastreo GPS económico diseñado para ofrecer monitoreo de ubicación y movimiento fiable sin funciones innecesarias. Está dirigido a usuarios que requieren seguimiento sencillo de flotas y activos, y ofrece funciones esenciales como actualizaciones de firmware por aire (FOTA), un acelerómetro de 3 ejes para detección de movimiento, una entrada y una salida para integraciones básicas, y una batería de respaldo opcional que mantiene el equipo operativo ante la pérdida de alimentación del vehículo.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G2P
 
+<div className="device-logo">
 ![G2P](./logo.jpg)
+</div>
 
 El Gosafe G2P es un rastreador personal compacto pensado para la supervisión de ubicación cotidiana. Es ligero y fácil de llevar o portar, por lo que resulta adecuado para localizar seres queridos, personas mayores y trabajadores móviles. El equipo prioriza la sencillez de uso con una interfaz directa y la posibilidad de enviar comandos por SMS o consultar la ubicación desde una plataforma web o móvil.
 

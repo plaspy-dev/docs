@@ -21,7 +21,9 @@ keywords:
 
 # GLONASSsoft - UMKa310
 
+<div className="device-logo">
 ![UMKa310](./tracker.png)
+</div>
 
 El UMKa310 es un rastreador GNSS compacto de GLONASSsoft diseñado para flotas y activos móviles que requieren seguimiento en tiempo real y telemetría con bajo consumo de datos. Envía coordenadas GNSS y datos de navegación a la nube de GLONASSsoft o a cualquier servidor que acepte protocolos abiertos, incluido EGTS, y emplea una transferencia por lotes basada en el protocolo binario abierto Wialon Combine para minimizar el tráfico manteniendo actualizaciones frecuentes.
 

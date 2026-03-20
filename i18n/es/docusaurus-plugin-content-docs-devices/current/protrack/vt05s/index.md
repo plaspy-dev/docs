@@ -21,7 +21,9 @@ keywords:
 
 # Protrack - VT05S
 
+<div className="device-logo">
 ![VT05S](./logo..jpg)
+</div>
 
 El Protrack VT05S es un rastreador vehicular cableado y compacto diseñado para el monitoreo continuo en tiempo real de automóviles y motocicletas. Su tamaño reducido y la resistencia al agua IP65 lo hacen apropiado para entornos exteriores exigentes, mientras que funciones integradas como detección de encendido (ACC), soporte de geocercas, detección de vibraciones, alerta por exceso de velocidad y almacenamiento interno ofrecen un conjunto práctico de características para el seguimiento rutinario y la protección de activos.
 

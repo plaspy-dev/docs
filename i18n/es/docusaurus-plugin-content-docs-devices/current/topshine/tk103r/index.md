@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - TK103R
 
+<div className="device-logo">
 ![TK103R](./logo.jpg)
+</div>
 
 El TopShine TK103R es un rastreador GPS para vehículos de tamaño compacto que integra funciones de alarma y de identificación del conductor. Está diseñado para ofrecer localización y seguridad vehicular en un formato reducido, con características como armado y desarmado automático, compatibilidad con el control remoto original del vehículo, identificación por RFID, reporte de ubicación y diversos avisos ante robo o movimiento. El TK103R puede informar su posición y estado vía SMS o a través de una plataforma de rastreo, y permite acciones automáticas cuando se cumplen determinadas condiciones.
 

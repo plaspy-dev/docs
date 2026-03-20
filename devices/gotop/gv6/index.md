@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - GV6
 
+<div className="device-logo">
 ![GV6](./tracker.png)
+</div>
 
 The GV6 is a compact 4G asset tracker designed for persistent asset monitoring and protection. Built for long life deployments, the device combines multi mode positioning (Beidou GPS LBS WiFi) with flexible 4G and 2G cellular connectivity and multiple battery configurations to support continuous tracking of containers, trailers, equipment and other high value assets.
 

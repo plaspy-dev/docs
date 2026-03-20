@@ -21,7 +21,9 @@ keywords:
 
 # Laipac - Starfinder Datalogger
 
+<div className="device-logo">
 ![Starfinder Datalogger](./tracker.png)
+</div>
 
 El Starfinder Datalogger es un rastreador GPS y datalogger diseñado para mapeo profesional, telemetría e integraciones con radios. Entrega datos de posicionamiento NMEA en tiempo real a través de salidas cableadas mientras registra de forma persistente bitácoras de waypoints para un análisis fiable posterior a la misión. El equipo está optimizado para flujos de trabajo que requieren captura precisa de puntos de ruta, seguimiento en tiempo real estable y conexiones sencillas a radios, computadoras o sistemas de recolección de datos.
 

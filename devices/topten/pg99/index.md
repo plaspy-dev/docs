@@ -20,7 +20,9 @@ keywords:
 
 # TopTen - PG99
 
+<div className="device-logo">
 ![PG99](./Logo.jpg)
+</div>
 
 The TopTen PG99 is a compact GPS tracker designed for asset tracking and anti theft protection. It supports multiple working modes, including an extreme deep sleep mode for very low power consumption, and offers persistent standby performance suitable for long term deployments. The device provides location information in several ways and exposes alarms for events such as vibration, low battery, and overspeed that help protect valuable equipment.
 

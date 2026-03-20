@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMC234
 
+<div className="device-logo">
 ![FMC234](./tracker.png)
+</div>
 
 El Teltonika FMC234 es un rastreador GPS robusto diseñado para la gestión de flotas y la protección de activos en entornos exigentes. Con conectividad celular y una carcasa con clasificación IP67, el FMC234 ofrece reporte continuo de ubicación, autonomía extendida en espera y una construcción durable adecuada para vehículos y equipos de alto valor. Su diseño prioriza el seguimiento fiable, el sellado sencillo de la carcasa y la capacidad de permanecer operativo cuando se pierde la alimentación externa.
 

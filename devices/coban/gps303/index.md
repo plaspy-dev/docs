@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS303
 
+<div className="device-logo">
 ![GPS303](./logo.jpg)
+</div>
 
 The Coban GPS303 is a versatile GPS tracker designed to locate and monitor remote targets using GPS satellites and the existing GSM GPRS network. It provides real time location updates via SMS or internet and supports automatic tracking for continuous position reporting. Commonly used for vehicle tracking, asset tracking, and personal tracking, the GPS303 combines location visibility with a set of practical alerting features.
 

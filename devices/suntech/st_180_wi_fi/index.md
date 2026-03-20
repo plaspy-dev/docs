@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 180 Wi-FI
 
+<div className="device-logo">
 ![ST 180 Wi-FI](./logo.jpg)
+</div>
 
 The Suntech ST 180 Wi-FI is a vehicle GPS tracker designed for fleet and telematics applications. It combines core tracking capabilities with onboard storage, holding up to 2000 GPS positions that can be downloaded over a Wi Fi connection. The device is positioned to reduce reliance on continuous cellular connectivity by enabling batch data transfer when Wi Fi is available, helping to control operating costs for fleet operators.
 

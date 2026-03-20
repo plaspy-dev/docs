@@ -21,7 +21,9 @@ keywords:
 
 # Noran - NR200
 
+<div className="device-logo">
 ![NR200](./tracker.jpg)
+</div>
 
 El NR200 Magnetic Wireless GPS Tracker es un dispositivo compacto y a batería diseñado para el rastreo encubierto y prolongado de vehículos y activos. Su montaje magnético y la instalación inalámbrica lo hacen ideal para instalaciones temporales, operaciones de recuperación y para vigilar activos de difícil acceso sin necesidad de realizar un tendido eléctrico permanente.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT-4700
 
+<div className="device-logo">
 ![XT-4700](./logo.jpg)
+</div>
 
 The Xirgo XT-4700 is a rugged, self contained cellular wireless modem with an integrated GPS engine designed for outdoor asset tracking. Built for monitoring high value assets such as containers, trailers, and other remote equipment, the XT-4700 emphasizes durability and long term operation in challenging environments. Its enclosure meets environmental testing standards and an IP66 rating, and the device is offered with embedded antennas, a rechargeable battery, and optional motion detection features.
 

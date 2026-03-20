@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - TT 9200
 
+<div className="device-logo">
 ![TT 9200](./logo.jpg)
+</div>
 
 El SkyPatrol TT 9200 es un rastreador GPS compacto que combina chipsets GPS modernos con el protocolo personalizado EDDIE+ de SkyPatrol. Soporta una amplia gama de opciones de geocerca, incluidas geocercas circulares y poligonales, geocercas de ruta y corredores basados en dispositivo, y puede almacenar hasta 250 geocercas basadas en dispositivo o corredores de 24 puntos. Diseñado para tareas de monitoreo cotidianas, el TT 9200 prioriza una larga duración de batería, conectividad GSM a nivel mundial y una carcasa resistente a salpicaduras para un uso confiable en campo.
 

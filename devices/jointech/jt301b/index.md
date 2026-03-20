@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT301B
 
+<div className="device-logo">
 ![JT301B](./tracker.jpg)
+</div>
 
 The Jointech JT301B is a compact, rechargeable asset GPS tracker designed for logistics, distribution and global supply chain monitoring. It combines multi-mode positioning with integrated temperature and humidity sensors and tamper detection to provide event-driven telemetry for containers, pallets, box trucks and other in-transit assets. Its reusable battery and configurable alarms are intended to support repeatable deployments without complex installation.
 

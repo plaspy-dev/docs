@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V49
 
+<div className="device-logo">
 ![RF-V49](./Logo.jpg)
+</div>
 
 El Reachfar RF-V49 es un dispositivo GPS compacto pensado tanto para uso personal como comercial. Según su descripción, el RF-V49 ofrece posicionamiento preciso y actualizaciones de ubicación en tiempo real, además de funciones orientadas a la seguridad como un botón SOS de ayuda rápida, geocercas, registro de rutas históricas y protección IP67 para mayor durabilidad en condiciones variadas. También incorpora utilidades y medidas de seguridad como captura de imagen remota, notificaciones LED, alarma por caída, alertas anti-retirada, mensajería de voz y capacidad de difusión de seguridad.
 

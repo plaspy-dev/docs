@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4315
 
+<div className="device-logo">
 ![ST4315](./tracker.jpg)
+</div>
 
 The Suntech ST4315 is a compact vehicle mounted GPS tracker designed for fleet and asset management applications. Built to operate in demanding environments, the ST4315 series offers GNSS positioning, multi network cellular connectivity, buffered logging for thousands of records, and a rugged IP67 enclosure. Multiple model variants and interface options make it adaptable to a range of vehicle telemetry needs.
 

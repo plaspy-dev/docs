@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS311
 
+<div className="device-logo">
 ![GPS311](./Logo.png)
+</div>
 
 The Coban GPS311 is a compact vehicle GPS tracker designed for a range of transportation assets. It combines positioning and monitoring features with a suite of security and alert functions, including emergency alarms, geo fencing, movement and over speed notifications, and other vehicle related alerts. The device supports location transmission via SMS, GPRS, and internet data and can be monitored through PC software, mobile devices, or mapping tools such as Google Earth. Its small footprint and broad vehicle voltage range make it suitable for cars, e bikes, and motorcycles.
 

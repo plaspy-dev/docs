@@ -20,7 +20,9 @@ keywords:
 
 # Gnxis - 8-wire
 
+<div className="device-logo">
 ![8-wire](./Logo.png)
+</div>
 
 The Gnxis 8-wire is a compact GPS tracker designed to provide accurate, reliable real time location monitoring and security alerts for a range of vehicles. It is described as suitable for private cars, commercial fleets, and motorcycles, offering precise position reporting and several alarm functions such as ignition and movement alerts, power loss notification, and optional remote fuel or electricity cut off. The device includes built in antennas and supports broad network compatibility to maintain connectivity across different environments.
 

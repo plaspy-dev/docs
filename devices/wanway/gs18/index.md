@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - GS18
 
+<div className="device-logo">
 ![GS18](./Logo.jpg)
+</div>
 
 The WanWay GS18 is a wireless real time positioning device designed for a range of tracking needs. It combines compact portability with a large 4200mAh battery capacity and a backup battery to support extended periods of location monitoring. The GS18 provides quick positioning with a fast hot start in open sky conditions and a typical GPS accuracy of five meters or better, making it suitable for moving assets and equipment where reliable location data is important.
 

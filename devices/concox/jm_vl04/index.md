@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-VL04
 
+<div className="device-logo">
 ![JM-VL04](./logo..png)
+</div>
 
 The JM-VL04 is a professional 4G OBD vehicle tracker from Concox designed for vehicle tracking and fleet management. It combines an OBD form factor with embedded motion sensors and algorithms to detect driving behaviors, calculate mileage, and maintain location awareness even in challenging GNSS conditions. The device supports multiple communication bands to work across 4G 3G and 2G coverage and includes features such as voice alarm and remote listen in via an embedded microphone.
 

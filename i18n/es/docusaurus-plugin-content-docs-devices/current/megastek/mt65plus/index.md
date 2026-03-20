@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT65PLUS
 
+<div className="device-logo">
 ![MT65PLUS](./tracker.jpg)
+</div>
 
 El MT65PLUS es un rastreador tipo pulsera tobillera de grado profesional diseñado para monitoreo personal continuo y despliegues con alta resistencia a manipulaciones. Construido con un chasis reforzado, el equipo combina medidas físicas anti manipulación con telemetría fisiológica y voz bidireccional para ofrecer seguimiento en tiempo real confiable, alertas de incidentes e intervención supervisada en entornos exigentes.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - TA255
 
+<div className="device-logo">
 ![TA255](./tracker.png)
+</div>
 
 The Meitrack TA255 is a rugged solar asset GPS tracker designed for long term, low maintenance monitoring of trailers, containers and other high value assets. It combines integrated solar charging and stackable battery modules with a weather resistant enclosure to provide extended runtime for remote and long haul deployments. Onboard GNSS positioning, multi mode cellular connectivity, Wi Fi and Bluetooth support allow the device to deliver continuous location updates and sensor telemetry for operational oversight.
 

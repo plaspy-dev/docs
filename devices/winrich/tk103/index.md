@@ -20,7 +20,9 @@ keywords:
 
 # Winrich - TK103
 
+<div className="device-logo">
 ![TK103](./tracker.jpg)
+</div>
 
 The TK103 is a compact vehicle GPS tracker designed for continuous, real time tracking and monitoring. Combining GPS satellite positioning with GSM GPRS communications, the device reports location over GPRS Internet or SMS. Its small form factor and straightforward connectivity make it suitable for cars, vans, and other mobile assets where discreet, ongoing location reporting is required.
 

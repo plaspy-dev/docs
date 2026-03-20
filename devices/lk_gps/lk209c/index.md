@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK209C
 
+<div className="device-logo">
 ![LK209C](./tracker.jpg)
+</div>
 
 The LK209C is a heavy duty magnet mounted GPS tracker designed for long term covert tracking of cars, trucks, containers and other mobile assets. It combines a high capacity 20000 mAh battery with GSM 2G/3G connectivity and a rugged enclosure to support deployments that require discreet placement and infrequent servicing while preserving continuous location history.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Bofan - PT-600
 
+<div className="device-logo">
 ![PT-600](./logo.jpg)
+</div>
 
 The Bofan PT-600 is a camera equipped GPS vehicle tracker designed for fleets and transport operations that need visual evidence alongside location data. It combines photo and video capture with driver identification via RFID, voice monitoring and two way communication, plus vehicle condition monitoring such as fuel and temperature. The device stores large numbers of waypoints locally and supports real time updates via GPRS as well as location requests by SMS, making it suitable for environments with varying connectivity.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - D50
 
+<div className="device-logo">
 ![D50](./tracker.jpg)
+</div>
 
 El GOTOP D50 es un rastreador GPS 4G compacto para mascotas, diseñado para sujetarse al collar y resistir el uso exterior diario. Combina posicionamiento GNSS con enlace celular y métodos de localización alternativos para ofrecer monitorización continua de la ubicación, reproducción del historial de rutas, detección de movimiento y alertas SOS en una carcasa pequeña e impermeable. Su factor de forma y la certificación IPX7 lo hacen adecuado para perros, gatos y otras mascotas pequeñas donde la comodidad y la durabilidad son fundamentales.
 

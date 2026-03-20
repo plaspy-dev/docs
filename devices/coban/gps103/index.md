@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS103
 
+<div className="device-logo">
 ![GPS103](./logo.jpg)
+</div>
 
 The Coban GPS103 is a vehicle GPS tracker designed to provide reliable positioning and monitoring for cars, trucks, and other vehicles. It supports multiple data transmission methods including SMS, GPRS, and internet, and offers features commonly used for vehicle security and operational oversight such as real time tracking, alarm notifications, location based services, and data logging. The device is intended for both individual vehicle protection and broader monitoring scenarios.
 
