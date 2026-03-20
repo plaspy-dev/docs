@@ -1,0 +1,143 @@
+:root {
+    --plaspy-cta-bg: linear-gradient(180deg, #f8fffb 0%, #ffffff 100%);
+    --plaspy-cta-border: rgba(0, 0, 0, 0.08);
+    --plaspy-cta-eyebrow: #2f7d57;
+    --plaspy-cta-text: #4b5563;
+    --plaspy-cta-secondary-bg: #ffffff;
+    --plaspy-cta-secondary-border: rgba(47, 125, 87, 0.2);
+    --plaspy-cta-secondary-text: #2f7d57;
+    --plaspy-cta-secondary-hover-bg: #f3fbf6;
+    --plaspy-cta-secondary-hover-text: #27694a;
+}
+
+[data-theme='dark'] {
+    --plaspy-cta-bg: linear-gradient(180deg, #15241d 0%, #111827 100%);
+    --plaspy-cta-border: rgba(255, 255, 255, 0.12);
+    --plaspy-cta-eyebrow: #6ee7b7;
+    --plaspy-cta-text: #d1d5db;
+    --plaspy-cta-secondary-bg: rgba(255, 255, 255, 0.04);
+    --plaspy-cta-secondary-border: rgba(110, 231, 183, 0.25);
+    --plaspy-cta-secondary-text: #6ee7b7;
+    --plaspy-cta-secondary-hover-bg: rgba(110, 231, 183, 0.08);
+    --plaspy-cta-secondary-hover-text: #a7f3d0;
+}
+
+.plaspy-docs-cta {
+    margin: 2rem 0 0;
+    padding: 1.5rem;
+    border: 1px solid var(--plaspy-cta-border);
+    border-radius: 16px;
+    background: var(--plaspy-cta-bg);
+}
+
+.plaspy-docs-cta__content {
+    max-width: 760px;
+}
+
+.plaspy-docs-cta__eyebrow {
+    margin: 0 0 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--plaspy-cta-eyebrow);
+}
+
+.plaspy-docs-cta__title {
+    margin: 0 0 0.75rem;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+.plaspy-docs-cta__text {
+    margin: 0 0 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--plaspy-cta-text);
+}
+
+.plaspy-docs-cta__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.plaspy-docs-cta__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.plaspy-docs-cta__button--primary {
+    background: #2f7d57;
+    color: #ffffff;
+}
+
+.plaspy-docs-cta__button--primary:hover {
+    background: #27694a;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.plaspy-docs-cta__button--secondary {
+    border: 1px solid var(--plaspy-cta-secondary-border);
+    background: var(--plaspy-cta-secondary-bg);
+    color: var(--plaspy-cta-secondary-text);
+}
+
+.plaspy-docs-cta__button--secondary:hover {
+    background: var(--plaspy-cta-secondary-hover-bg);
+    color: var(--plaspy-cta-secondary-hover-text);
+    text-decoration: none;
+}
+
+.plaspy-docs-cta--banner {
+    margin: 0 0 2rem;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.plaspy-docs-cta--banner .plaspy-docs-cta__content {
+    max-width: 900px;
+}
+
+.plaspy-docs-cta--banner .plaspy-docs-cta__title {
+    font-size: 1.75rem;
+}
+
+.plaspy-docs-cta--banner .plaspy-docs-cta__text {
+    font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+    .plaspy-docs-cta {
+        padding: 1.25rem;
+    }
+
+    .plaspy-docs-cta--banner {
+        padding: 1.5rem;
+    }
+
+    .plaspy-docs-cta__title {
+        font-size: 1.2rem;
+    }
+
+    .plaspy-docs-cta--banner .plaspy-docs-cta__title {
+        font-size: 1.45rem;
+    }
+
+    .plaspy-docs-cta__actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .plaspy-docs-cta__button {
+        width: 100%;
+    }
+}
