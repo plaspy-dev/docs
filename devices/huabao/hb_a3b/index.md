@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A3B
 
+<div className="device-logo">
 ![HB-A3B](./tracker.jpg)
+</div>
 
 The HB-A3B is a vehicle grade GPS tracker and control unit designed for deployments that require enforced speed control, compliance logging, and reliable real time tracking. The unit combines GNSS positioning with cellular communications and dedicated local control outputs to detect overspeed events, signal alarms, record trips, and drive active interventions such as relay or drive-by-wire speed limiting. It is built to support commercial fleets, passenger transport and mandated government installations where auditability and operational control are primary concerns.
 

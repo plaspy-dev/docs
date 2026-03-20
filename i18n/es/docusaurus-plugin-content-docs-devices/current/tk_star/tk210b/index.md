@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK210B
 
+<div className="device-logo">
 ![TK210B](./tracker.jpg)
+</div>
 
 El TK-Star TK210B es un rastreador GPS compacto y resistente, diseñado para motocicletas, scooters, vehículos eléctricos y automóviles. Combina opciones de posicionamiento multimodal —GPS, BeiDou y GLONASS— con métodos asistidos como LBS y Wi‑Fi, y utiliza GSM GPRS para la transmisión de datos. El dispositivo está pensado para uso activo en vehículos e incorpora funciones prácticas como alarmas por vibración, geocercas, avisos de movimiento y arranque, alertas por exceso de velocidad, y la capacidad de cortar y reanudar el motor de forma remota para respuesta antirrobo.
 

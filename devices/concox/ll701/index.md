@@ -20,7 +20,9 @@ keywords:
 
 # Concox - LL701
 
+<div className="device-logo">
 ![LL701](./logo..png)
+</div>
 
 The Concox LL701 is a long standby asset tracker designed for the management of heavy duty vehicles and valuable assets. It uses replaceable CR123A batteries to provide extended availability and portability, and can deliver up to five years of working time on three batteries depending on reporting frequency. The device supports an external power supply for extended life and carries an IP67 waterproof rating for reliable operation in harsh environments.
 

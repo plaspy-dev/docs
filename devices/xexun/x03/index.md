@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - X03
 
+<div className="device-logo">
 ![X03](./tracker.jpg)
+</div>
 
 The X03 is a compact industrial grade GPS and BeiDou tracker built for long term vehicle and asset monitoring. Designed for cars, motorcycles and electric bikes, the device combines multi source positioning with domestic cellular reporting to deliver continuous location, event alerts and basic telemetry. Its long standby design and store and forward behavior make it suitable for assets that need unattended operation and reliable history upload after intermittent connectivity.
 

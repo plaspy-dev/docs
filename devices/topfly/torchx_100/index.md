@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - TorchX 100
 
+<div className="device-logo">
 ![TorchX 100](./tracker.png)
+</div>
 
 The TorchX 100 from TopFly is a plug and play OBDII GPS tracker designed for reliable real time tracking and deep vehicle telemetry. Built for both heavy and light duty vehicles, the TorchX 100 provides frequent location updates, full CAN BUS data reading for VIN, true odometer, fuel level, ignition status and diagnostic trouble codes, and integrated ELD support for hours of service compliance. Its compact OBDII form factor and fleet grade connectivity make it suitable for a wide range of vehicle based deployments.
 

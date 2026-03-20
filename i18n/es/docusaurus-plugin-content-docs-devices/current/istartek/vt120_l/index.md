@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT120-L
 
+<div className="device-logo">
 ![VT120-L](./tracker.jpg)
+</div>
 
 El VT120-L es un rastreador GPS compacto de iStartek diseñado para proporcionar seguimiento en tiempo real y telemetría vehicular confiable. Ideal para instalaciones prolongadas en motocicletas, autos y camiones, el VT120-L integra posicionamiento GNSS multiconstelación, amplio rango de voltaje de operación y una carcasa resistente para soportar reportes continuos de ubicación, registro de kilometraje y detección de alarmas en condiciones de campo exigentes.
 

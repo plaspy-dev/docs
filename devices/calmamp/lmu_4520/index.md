@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-4520
 
+<div className="device-logo">
 ![LMU-4520](./logo.jpg)
+</div>
 
 The CalmAmp LMU-4520 is a rugged GPS tracker engineered for demanding environments in the mining and construction sectors. It combines dual-mode satellite and cellular communications to maintain continuous tracking and messaging in remote locations, and its weatherproof IP67 rating helps ensure reliable operation in harsh conditions. The device includes fleet management capabilities such as 16G accelerometers for motion and impact detection, multiple interfaces including switched serial ports and MDT support, and optional ECU connectivity for engine data monitoring.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST419NG
 
+<div className="device-logo">
 ![ST419NG](./tracker.jpg)
+</div>
 
 La serie ST419NG es un rastreador GPS compacto diseñado para ofrecer monitoreo confiable de vehículos y activos compatible con Plaspy. Combina comunicaciones GPRS y LoRa con un módulo RF integrado de 900 MHz para proporcionar conectividad flexible en despliegues mixtos. El equipo destaca por su tamaño reducido, batería de respaldo de larga duración y protocolos configurables, lo que lo hace ideal cuando se requiere reporte continuo de ubicación y telemetría básica.
 

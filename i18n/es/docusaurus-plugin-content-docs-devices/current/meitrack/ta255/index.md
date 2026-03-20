@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - TA255
 
+<div className="device-logo">
 ![TA255](./tracker.png)
+</div>
 
 El Meitrack TA255 es un rastreador GPS solar y resistente, diseñado para el monitoreo a largo plazo y con bajo mantenimiento de remolques, contenedores y otros activos de alto valor. Integra carga solar y módulos de batería apilables en una carcasa resistente a la intemperie para ofrecer una autonomía prolongada en despliegues remotos y de larga distancia. Su receptor GNSS, conectividad celular en múltiples modos, y soporte para Wi Fi y Bluetooth permiten entregar actualizaciones continuas de ubicación y telemetría de sensores para supervisión operativa.
 

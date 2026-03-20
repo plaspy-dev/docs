@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V49
 
+<div className="device-logo">
 ![RF-V49](./Logo.jpg)
+</div>
 
 The Reachfar RF-V49 is a compact GPS tracking device designed for broad personal and commercial use. Based on the model description, the RF-V49 provides accurate positioning and real time location updates, plus a set of safety oriented features such as a one key help SOS function, geo fencing, historical route logging, and IP67 level protection for durability in varied conditions. The device also supports convenience and security features like remote picture capture, LED notifications, fall alarm, anti removal alerts, voice messaging, and safety broadcast capabilities.
 

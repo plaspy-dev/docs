@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 210
 
+<div className="device-logo">
 ![ST 210](./logo.jpg)
+</div>
 
 The Suntech ST 210 is a vehicle GPS tracker that combines satellite positioning with cellular data to provide real time location monitoring. Designed for track and trace, fleet management, vehicle recovery and in car navigation, the ST 210 includes features commonly expected in fleet devices such as geo fencing, two way voice capability, internal memory and a backup battery to preserve data during power interruptions. The unit is supplied in a durable plastic casing with built in antennas and offers additional connectivity options for external microphones, speakers, and fixed antennas.
 

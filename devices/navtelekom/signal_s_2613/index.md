@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-2613
 
+<div className="device-logo">
 ![СИГНАЛ S-2613](./tracker.jpeg)
+</div>
 
 The СИГНАЛ S-2613 from Navtelekom is a compact vehicle and asset GPS tracker designed to provide core telematics functions for professional use. As an entry level member of the SIGNAL family, it offers stable GLONASS and GPS positioning, a 2G GSM modem, a range of digital and analog inputs and outputs, RS‑485 connectivity, Bluetooth, external antennas, and an integrated backup battery. These features make it suitable for tracking, basic telemetry and event capture in automotive and industrial environments.
 

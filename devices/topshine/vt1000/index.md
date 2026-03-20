@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - VT1000
 
+<div className="device-logo">
 ![VT1000](./tracker.jpg)
+</div>
 
 The TopShine VT1000 is a professional vehicle GPS tracker designed for fleet management, passenger connectivity and vehicle security. It combines high precision GNSS positioning with multi band cellular communications and an integrated WiFi hotspot to provide location tracking, telemetry and passenger internet access in a single unit. The VT1000 also supports camera connectivity and on board storage to preserve video and photo evidence alongside location data.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D37
 
+<div className="device-logo">
 ![D37](./tracker.png)
+</div>
 
 El D37 es un reloj inteligente compacto 4G para niños, diseñado para ofrecer seguimiento seguro en tiempo real y comunicación bidireccional. Basado en una versión de Android 8.1 con RTOS y con posicionamiento multimodal que combina GPS, AGPS, LBS y WiFi, el D37 proporciona actualizaciones de ubicación y estado en un formato portátil. El dispositivo incluye una pantalla táctil de 1.47 pulgadas y un botón SOS dedicado para reportes inmediatos de emergencia y operaciones sencillas desde el propio equipo.
 

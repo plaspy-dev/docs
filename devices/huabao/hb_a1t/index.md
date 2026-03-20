@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A1T
 
+<div className="device-logo">
 ![HB-A1T](./tracker.jpg)
+</div>
 
 The HB-A1T is a Plaspy compatible GPS tracker engineered for trailers and outdoor assets that need rugged, weatherproof protection and long standby performance. It combines dual-mode GNSS positioning with cellular connectivity and an IP65-rated enclosure to provide continuous location updates and alarm reporting for trailers, containers, small vessels and other remote equipment. Built-in wireless sensor support and a large internal battery make it suitable for long transit or idle periods when external power is not available.
 

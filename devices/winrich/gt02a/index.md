@@ -20,7 +20,9 @@ keywords:
 
 # Winrich - GT02A
 
+<div className="device-logo">
 ![GT02A](./tracker.jpg)
+</div>
 
 The Winrich GT02A is a compact, intelligent GPS tracker designed for reliable vehicle positioning and remote fleet oversight. It pairs a high sensitivity GPS receiver with built in GSM communications and antennas to provide continuous location reporting. The unit’s low profile form factor and simple power options make it suitable for cars, motorcycles, light commercial vehicles, electric vehicles and small craft where discreet installation and straightforward operation are important.
 

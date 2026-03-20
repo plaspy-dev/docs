@@ -21,7 +21,9 @@ keywords:
 
 # OKB Tehnoavtomatika - AAP PERSONAL
 
+<div className="device-logo">
 ![AAP PERSONAL](./logo.jpg)
+</div>
 
 El sistema de monitoreo AAP PERSONAL de OKB Tehnoavtomatika es un dispositivo de rastreo autónomo pensado para la supervisión de personas y bienes. Funciona con batería interna y cuenta con un receptor GPS de alta sensibilidad que proporciona posicionamiento fiable en objetos remotos o sin una fuente de alimentación fija. El equipo admite transmisión de datos y notificaciones vía GPRS y SMS, y puede reportar su estado a un centro de control, por lo que resulta adecuado para el seguimiento de mercancías, personal y otros activos móviles.
 

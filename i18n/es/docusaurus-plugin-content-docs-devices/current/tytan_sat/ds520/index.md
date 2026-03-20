@@ -21,7 +21,9 @@ keywords:
 
 # Tytan SAT - DS520
 
+<div className="device-logo">
 ![DS520](./tracker.png)
+</div>
 
 El DS520 es un rastreador GPS compatible con Plaspy, diseñado para el seguimiento en tiempo real de vehículos, cargas y activos técnicos remotos. Como dispositivo GSM GPRS transmite posición GPS y GLONASS, velocidad y una gama de parámetros telemétricos y de eventos mediante UDP o TCP. El equipo incluye entradas analógicas y digitales, una interfaz 1‑wire para temperatura y salidas digitales para el control remoto de circuitos, lo que lo hace adecuado para diversas tareas de monitoreo y control.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK905
 
+<div className="device-logo">
 ![TK905](./tracker.jpg)
+</div>
 
 El TK905 de TK-Star es un rastreador GPS 4G resistente, diseñado para ofrecer seguimiento fiable de vehículos y activos. Pensado para automóviles, flotas de alquiler, contenedores de carga y equipos exteriores, este equipo destaca por su gran autonomía, opciones de posicionamiento multimodo y alertas por movimiento que mantienen la visibilidad en despliegues de campo.
 

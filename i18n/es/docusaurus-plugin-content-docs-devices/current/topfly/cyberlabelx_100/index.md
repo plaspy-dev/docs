@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - CyberLabelX 100
 
+<div className="device-logo">
 ![CyberLabelX 100](./tracker.png)
+</div>
 
 El CyberLabelX 100 es un rastreador GPS recargable y de perfil delgado diseñado específicamente para ofrecer visibilidad a nivel de paquete y en envíos de alto valor. Pensado para fijarse de forma discreta a cajas y activos retornables, combina posicionamiento GNSS multiconstelación, intervalos de reporte configurables de hasta cada 3 segundos y registro en búfer para preservar el historial de ubicaciones cuando la cobertura celular es intermitente.
 

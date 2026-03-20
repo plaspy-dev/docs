@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK610-B
 
+<div className="device-logo">
 ![LK610-B](./tracker.jpg)
+</div>
 
 El LK610-B es un rastreador GPS wearable compacto, comercializado en algunas variantes como LK610-NB. Diseñado para la seguridad personal y el uso diario, este terminal de posicionamiento con tarjeta SIM ofrece actualizaciones de ubicación continuas mediante GPS y LBS con asistencia AGPS. El dispositivo incluye un botón de emergencia SOS, llamadas bidireccionales y modos configurables de envío de ubicación para facilitar la monitorización confiable de niños, estudiantes y personal en movimiento.
 

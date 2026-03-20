@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-915L
 
+<div className="device-logo">
 ![ST-915L](./tracker.jpg)
+</div>
 
 El SinoTrack ST-915L es un rastreador GPS de alta resistencia diseñado para el seguimiento a largo plazo y de bajo mantenimiento de vehículos y activos móviles. Se suministra en una carcasa magnética impermeable para montaje exterior discreto en automóviles, camiones, motocicletas y otros equipos. Con una batería recargable integrada de 3.7V y 10000 mAh y conectividad LTE Cat 1 con respaldo 2G, el ST-915L está pensado para ofrecer informes de posición en tiempo real confiables y un prolongado tiempo de espera para uso en flotas y gestión de activos.
 

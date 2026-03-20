@@ -21,7 +21,9 @@ keywords:
 
 # WP - M7
 
+<div className="device-logo">
 ![M7](./logo..png)
+</div>
 
 El WP M7 es un dispositivo de rastreo GPS portátil diseñado para ofrecer seguimiento de vehículos de forma confiable y práctica. Su tamaño compacto y la opción de montaje magnético facilitan la instalación o el ocultamiento en un vehículo, mientras que los módulos GPS y GSM GPRS integrados permiten reportes continuos de posición. El M7 también incorpora funciones como alerta por desprendimiento, notificación por movimiento, aviso de batería baja y una carcasa con certificación IP67 adecuada para uso exterior.
 

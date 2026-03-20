@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK660
 
+<div className="device-logo">
 ![LK660](./tracker.jpg)
+</div>
 
 El LK660 es un rastreador GPS compacto de LK-GPS pensado para la seguridad personal y una implementación sencilla. Combina posicionamiento GPS y LBS (A-GPS) con conectividad celular 2G para ofrecer seguimiento de ubicación en tiempo real confiable. El equipo está diseñado para el uso diario: carcasa pequeña y resistente al agua, antenas integradas, larga duración de batería gracias a modos de bajo consumo y reposo, botón SOS de un toque, comunicación bidireccional por voz y detección de caídas integrada.
 

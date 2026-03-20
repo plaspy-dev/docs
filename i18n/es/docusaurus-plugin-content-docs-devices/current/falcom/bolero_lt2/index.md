@@ -21,7 +21,9 @@ keywords:
 
 # Falcom - BOLERO-LT2
 
+<div className="device-logo">
 ![BOLERO-LT2](./logo.jpg)
+</div>
 
 El Falcom BOLERO-LT2 es un rastreador GPS versátil diseñado para navegación en tiempo real, seguimiento remoto y aplicaciones de monitoreo. Integra un módulo GSM GPRS cuatribanda que opera en 850/900/1800/1900 MHz y un receptor GPS de alta sensibilidad basado en el motor µ-blox, lo que garantiza comunicaciones confiables y posicionamiento preciso. El equipo está pensado para uso en interiores y para instalaciones fijas, y ofrece funciones como mensajes de alerta configurables, geocercas y un registrador de datos que puede almacenar ubicaciones únicas hasta por 45 días.
 

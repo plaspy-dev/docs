@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-AVL11
 
+<div className="device-logo">
 ![TZ-AVL11](./logo.jpg)
+</div>
 
 The TZone TZ-AVL11 is a compact and versatile GPS tracker designed for vehicle and asset monitoring. It combines built-in GSM and GPS antennas, an integrated 2.4G RFID receiver, and a range of onboard sensors to provide continuous location reporting and basic telemetry. The unit includes a built-in battery and a mini USB port for charging and firmware updates, and it supports multiple reporting methods such as GPRS, SMS, and software based monitoring to fit a variety of deployment preferences.
 

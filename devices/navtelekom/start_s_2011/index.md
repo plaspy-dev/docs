@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СТАРТ S-2011
 
+<div className="device-logo">
 ![СТАРТ S-2011](./tracker.jpeg)
+</div>
 
 The СТАРТ S-2011 is a compact vehicle tracker from Navtelekom designed for reliable real time positioning and basic telematics. It combines integrated GLONASS and GPS positioning with an internal GSM modem and a nano SIM slot to provide continuous location reporting and event notifications in a small, low profile package suited to light vehicles, trailers and portable assets.
 

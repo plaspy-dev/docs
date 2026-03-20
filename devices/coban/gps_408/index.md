@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS-408
 
+<div className="device-logo">
 ![GPS-408](./logo..png)
+</div>
 
 The Coban GPS-408 is a versatile vehicle tracker designed to provide real time tracking and management for vehicles across a range of industries. Built for applications such as logistics and freight, vehicle anti theft, bank cash transport vehicles, and official vehicle management, the GPS-408 combines location reporting with security oriented features to help organizations maintain visibility and control over mobile assets.
 

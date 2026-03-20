@@ -20,7 +20,9 @@ keywords:
 
 # Concox - Qbit M
 
+<div className="device-logo">
 ![Qbit M](./tracker.png)
+</div>
 
 The Qbit M from Concox is a compact GPS tracker built for personal safety and discreet asset monitoring. It combines GPS and QZSS positioning with LTE‑M cellular connectivity to deliver low power, near real‑time location updates and emergency alerting. The device is designed for easy carrying and continuous network access, with features intended to support everyday tracking needs such as geofencing, sound alarm and scheduled operation.
 

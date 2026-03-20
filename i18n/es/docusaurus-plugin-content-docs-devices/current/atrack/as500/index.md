@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AS500
 
+<div className="device-logo">
 ![AS500](./tracker.jpg)
+</div>
 
 El AS500 es un rastreador GPS robusto con larga autonomía diseñado para aplicaciones exigentes de seguimiento de activos. Construido para entornos como obras, minas, patios logísticos y otras ubicaciones hostiles, el AS500 combina protección mecánica con una arquitectura de bajo consumo y conectividad celular para ofrecer ubicación y telemetría fiables cuando la durabilidad y la vida útil de la batería son críticas.
 

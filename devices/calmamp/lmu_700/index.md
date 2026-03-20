@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-700
 
+<div className="device-logo">
 ![LMU-700](./logo.jpg)
+</div>
 
 The CalmAmp LMU-700 is a compact, versatile vehicle tracking unit designed for automotive applications such as stolen vehicle recovery, vehicle finance monitoring, and auto rental management. It is intended for straightforward installation in 12 or 24 volt vehicles and offers high sensitivity GPS performance together with integrated antennas and multiple input and output options for basic external monitoring and control.
 

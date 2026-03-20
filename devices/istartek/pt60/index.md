@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - PT60
 
+<div className="device-logo">
 ![PT60](./logo..jpg)
+</div>
 
 The iStartek PT60 is a compact 4G wireless GPS tracker designed for pan IoT applications. It is marketed as an installation free device for tracking vehicles, assets, and unattended locations, offering high sensitivity positioning and 4G connectivity. The PT60 includes a rechargeable 7500mAh battery claiming extended standby life, a light sensor tamper alarm, a strong magnetic cover for flexible placement, and multiple working modes to suit different reporting needs.
 

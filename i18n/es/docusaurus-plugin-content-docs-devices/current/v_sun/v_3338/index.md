@@ -21,7 +21,9 @@ keywords:
 
 # V-SUN - V-3338
 
+<div className="device-logo">
 ![V-3338](./logo.jpg)
+</div>
 
 El V-SUN V-3338 es un rastreador GPS portátil y compacto que combina posicionamiento por GPS con comunicación GSM GPRS para ofrecer localización remota. Puede enviar coordenadas de latitud y longitud vía SMS para recuperaciones rápidas de ubicación y además permite subir datos de posicionamiento a un servidor designado para seguimiento en línea y revisión de rutas históricas. El equipo integra un chipset GPS de alto rendimiento de JRC para mejorar el posicionamiento en condiciones de señal débil y cuenta con funciones de llamada de voz y SOS para notificaciones de emergencia.
 

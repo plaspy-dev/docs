@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-2115
 
+<div className="device-logo">
 ![СИГНАЛ S-2115](./tracker.jpeg)
+</div>
 
 The СИГНАЛ S-2115 is a vehicle monitoring GPS tracker from Navtelekom designed for security minded fleets and individual vehicles. It combines GLONASS and GPS positioning with GSM communications to provide real time tracking, impact and movement alarms, and remote control options. The device includes an internal accelerometer for shock and tilt detection, a USB interface for local configuration, and support for SMS and voice alarm delivery.
 

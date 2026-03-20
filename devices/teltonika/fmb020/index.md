@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB020
 
+<div className="device-logo">
 ![FMB020](./tracker.png)
+</div>
 
 The Teltonika FMB020 is an ultra small GPS tracker designed for quick plug and play installation in passenger cars and light commercial vehicles. Its compact OBD II form factor makes it suitable for large scale rollouts where minimal downtime and discreet fitment are priorities. The device supports GPS location and expands with Bluetooth Low Energy sensors and beacons for contextual inputs such as temperature, humidity, magnet detection and movement monitoring.
 

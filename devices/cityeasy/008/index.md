@@ -20,7 +20,9 @@ keywords:
 
 # Cityeasy - 008
 
+<div className="device-logo">
 ![008](./logo.jpg)
+</div>
 
 The Cityeasy 008 is a reliable and efficient car GPS tracker designed for vehicle security and location monitoring. It provides LBS and GPS real time position tracking, vibration alerts to notify you of unauthorized movement, and historical route relay so past trips can be reviewed. Its IP67 rating indicates the unit is built to withstand exposure to harsh weather and wet conditions, making it suitable for everyday vehicle use.
 

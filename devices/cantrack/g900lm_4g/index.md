@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G900LM-4G
 
+<div className="device-logo">
 ![G900LM-4G](./tracker.jpg)
+</div>
 
 The CanTrack G900LM-4G is a compact hard wired car mini GPS tracker from a proven telematics family. It is designed for cars, trucks and commercial vehicles and combines LTE GSM connectivity with GNSS positioning, an internal backup battery and multiple alarm types to protect assets and improve operational telemetry. The device is available in 4-pin and 8-pin wiring variants for flexible installation options in a wide range of vehicles.
 

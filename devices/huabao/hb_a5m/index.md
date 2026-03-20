@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A5M
 
+<div className="device-logo">
 ![HB-A5M](./tracker.jpg)
+</div>
 
 The HB-A5M is a compact, cost conscious 4G GPS tracker built for straightforward use in private cars, motorcycles, and light commercial vehicles. It combines GPS/BDS positioning with cellular connectivity and a small internal backup battery to provide continuous location reporting, ignition aware telemetry, and basic anti theft controls in a small IP54 rated enclosure.
 

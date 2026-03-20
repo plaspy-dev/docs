@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-2550
 
+<div className="device-logo">
 ![СИГНАЛ S-2550](./tracker.webp)
+</div>
 
 El СИГНАЛ S-2550 es un rastreador vehicular GLONASS de costo eficiente diseñado para ofrecer informes de posición confiables y telemetría básica para sistemas de monitoreo profesionales. Como una versión simplificada de la serie S-2551, el S-2550 está orientado al mercado masivo de gestión de flotas y rastreo de activos, donde se requieren datos esenciales de ubicación y del vehículo sin la complejidad ni las certificaciones de equipos de gama alta. El dispositivo soporta telemetría por bus CAN y múltiples entradas para sensores de combustible, e incluye una batería recargable interna para reportes autónomos a corto plazo.
 

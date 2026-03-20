@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - GH5200
 
+<div className="device-logo">
 ![GH5200](./tracker.png)
+</div>
 
 El GH5200 es un rastreador GPS personal compacto y autónomo 2G, diseñado para la gestión de personal y la seguridad individual. Pensado para uso continuo sobre la persona, el dispositivo se puede llevar en un cordón, cinturón o portacredencial y ofrece funciones clave de seguridad como voz bidireccional, controles programables, detección automática de incidentes y soporte para sensores y balizas Bluetooth. Su formato y conjunto de características lo hacen idóneo para trabajadores en solitario, técnicos de campo y personas vulnerables en entornos industriales, agrícolas y de servicios.
 

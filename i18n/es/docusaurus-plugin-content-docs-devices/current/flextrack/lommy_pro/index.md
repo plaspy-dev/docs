@@ -21,7 +21,9 @@ keywords:
 
 # Flextrack - Lommy Pro
 
+<div className="device-logo">
 ![Lommy Pro](./tracker.jpg)
+</div>
 
 Lommy Pro es un rastreador GPS compacto y de bajo consumo diseñado para ofrecer seguimiento confiable en tiempo real de vehículos, maquinaria, embarcaciones y otros activos móviles. El equipo combina posicionamiento GNSS con múltiples constelaciones y conectividad celular para proporcionar actualizaciones continuas de ubicación, movimiento y telemetría, pensado para gestión de flotas y soluciones antirrobo donde la visibilidad persistente y una administración energética sensata son esenciales.
 

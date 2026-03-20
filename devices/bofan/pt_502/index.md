@@ -20,7 +20,9 @@ keywords:
 
 # Bofan - PT-502
 
+<div className="device-logo">
 ![PT-502](./logo.jpg)
+</div>
 
 The Bofan PT-502 is a GPS car tracker designed for real time vehicle tracking and monitoring. It combines satellite positioning with cellular reporting to provide location updates, historical position logging, and a suite of alarm features. Notable functions described for the PT-502 include remote engine cut capability, support for tracking via SMS and GPRS, large onboard position logging capacity, and multiple alarm types such as SOS, geofence, low power, and speed alerts.
 

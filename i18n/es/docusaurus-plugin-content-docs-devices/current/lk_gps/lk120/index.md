@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK120
 
+<div className="device-logo">
 ![LK120](./tracker.jpg)
+</div>
 
 El LK-GPS LK120 es un rastreador GPS portátil y compacto diseñado para ofrecer monitoreo confiable de la ubicación en tiempo real para mascotas y personas. Cuenta con una carcasa resistente e impermeable y un diseño ligero que permite engancharlo al collar o llevarlo en el bolsillo. El dispositivo proporciona actualizaciones de ubicación rápidas, alertas configurables por geocerca y un botón de SOS para que propietarios y cuidadores puedan reaccionar con rapidez cuando el tiempo es crítico.
 

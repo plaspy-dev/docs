@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СМАРТ S-2422
 
+<div className="device-logo">
 ![СМАРТ S-2422](./tracker.webp)
+</div>
 
 El СМАРТ S-2422 es un rastreador vehicular compacto GLONASS GPS de Navtelekom diseñado para la gestión continua de flotas. Cuenta con antenas GLONASS/GPS y GSM integradas y sensibles, y está pensado para instalaciones con alimentación permanente, ofreciendo ubicación y telemetría en tiempo real sin batería interna. Su formato y las protecciones eléctricas lo hacen apto para montajes que requieren datos ininterrumpidos para enrutamiento, reportes y flujos básicos antirrobo.
 

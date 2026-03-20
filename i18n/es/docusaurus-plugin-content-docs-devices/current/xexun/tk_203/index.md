@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - TK-203
 
+<div className="device-logo">
 ![TK-203](./logo.jpg)
+</div>
 
 El Xexun TK-203 es un rastreador GPS compacto diseñado para ofrecer monitoreo de ubicación confiable de personas y bienes. Combina posicionamiento por GPS con comunicación GSM y GPRS para enviar la ubicación vía SMS o transmisión de datos. La unidad está protegida por una carcasa impermeable e incluye un botón SOS para alertas de emergencia, reportes automáticos de posición y la capacidad de almacenar o reenviar la última ubicación conocida si se pierde la cobertura GPS.
 

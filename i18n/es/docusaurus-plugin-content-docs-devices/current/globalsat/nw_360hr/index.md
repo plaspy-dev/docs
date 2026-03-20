@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - NW-360HR
 
+<div className="device-logo">
 ![NW-360HR](./tracker.jpg)
+</div>
 
 El NW-360HR es un reloj rastreador GPS wearable pensado para la seguridad personal, la supervisión de trabajadores solitarios y la telemetría fisiológica continua. Integra posicionamiento GPS con funcionalidad de baliza BLE y conectividad celular de baja potencia para ofrecer ubicación y posicionamiento básico en interiores, junto con sensores de salud como frecuencia cardíaca por óptica y temperatura cutánea. El equipo incorpora además un botón SOS y lógica de detección de caídas para que el usuario pueda reportar emergencias o generar eventos automáticos.
 

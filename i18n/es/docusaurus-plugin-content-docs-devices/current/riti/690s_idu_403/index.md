@@ -21,7 +21,9 @@ keywords:
 
 # Riti - 690s (IDU-403)
 
+<div className="device-logo">
 ![690s (IDU-403)](./tracker.jpg)
+</div>
 
 El Riti Locator 690s (IDU-403) es un rastreador GPS compacto y profesional y registrador de datos GNSS diseñado para una gestión de flotas e implementaciones IoT confiables. Diseñado para capturar ubicaciones y telemetría vehicular a alta frecuencia, el dispositivo combina posicionamiento GPS y GLONASS con opciones de localización asistida y comunicaciones celulares robustas para ofrecer seguimiento continuo, reportes de eventos y registro por segundo adecuado para uso en vehículos.
 

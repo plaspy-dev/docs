@@ -20,7 +20,9 @@ keywords:
 
 # Sanav - MU201S1
 
+<div className="device-logo">
 ![MU201S1](./logo.jpg)
+</div>
 
 The SANAV MU201S1 is a compact GPS tracker designed primarily for pet and asset tracking and other scenarios that require extended battery life. It supports real time location updates and retrospective position reporting via GPRS, and includes remote configuration over both SMS and GPRS. The device offers event reporting such as SOS alerts, geofence violations, low power alerts, and movement based reports, making it suitable for continuous monitoring of small mobile assets.
 

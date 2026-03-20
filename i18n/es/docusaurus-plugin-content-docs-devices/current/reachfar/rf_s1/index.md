@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-S1
 
+<div className="device-logo">
 ![RF-S1](./tracker.jpg)
+</div>
 
 El RF-S1 es un rastreador GPS personal de pulsera y reloj inteligente de salud diseñado para supervisión continua y localización en tiempo real confiable. Pensado para cuidadores y familias, el dispositivo combina posicionamiento, un botón SOS de pánico, llamadas de voz bidireccionales y alertas por retirada con telemetría de salud constante, como frecuencia cardíaca, saturación de oxígeno y temperatura corporal. Además, incluye funciones que apoyan la rutina diaria de cuidado, como recordatorios de medicación y avisos por voz, y ofrece resistencia al agua IP67 para el uso cotidiano.
 

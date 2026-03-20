@@ -21,7 +21,9 @@ keywords:
 
 # ArkNav - IR-7
 
+<div className="device-logo">
 ![IR-7](./logo.jpg)
+</div>
 
 El ArkNav IR-7 es un rastreador GPS híbrido que combina conectividad satelital e GSM para ofrecer seguimiento en tiempo real confiable en entornos remotos y hostiles. Con un módulo Iridium integrado, el IR-7 proporciona cobertura global mediante una constelación de satélites en órbita baja y complementa esa capacidad con conectividad GSM cuando está disponible. Su carcasa resistente con clasificación IP67 y sus múltiples entradas y salidas lo hacen apto para instalaciones marinas y al aire libre, así como para uso en desiertos y zonas montañosas.
 

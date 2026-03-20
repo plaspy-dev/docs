@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - DDX04
 
+<div className="device-logo">
 ![DDX04](./tracker.jpg)
+</div>
 
 The DDX04 is an anti tamper wearable tracking watch designed for supervision, safety, and remote monitoring. It combines multi source positioning with tamper detection and health telemetry in a compact wrist worn form factor. The device is built to support continuous real time tracking, on demand location queries and historical playback while providing alerts and sensor data that are useful for compliance and welfare monitoring programs.
 

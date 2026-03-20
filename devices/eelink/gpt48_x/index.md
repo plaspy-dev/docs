@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT48‑X
 
+<div className="device-logo">
 ![GPT48‑X](./tracker.jpg)
+</div>
 
 The GPT48‑X is a long‑standby GPS tracker engineered for durable asset tracking in remote or intermittently connected environments. It combines LTE Cat‑M and NB‑IoT cellular connectivity with multi‑GNSS positioning to provide persistent location awareness. Housed in a rugged IP67 enclosure with strong magnetic mounting and designed for minimal maintenance, the GPT48‑X is suited to fleet assets, containers, and equipment that require reliable tracking and tamper detection over long deployment periods.
 

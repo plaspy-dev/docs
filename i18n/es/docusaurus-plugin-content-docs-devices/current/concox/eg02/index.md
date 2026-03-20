@@ -21,7 +21,9 @@ keywords:
 
 # Concox - EG02
 
+<div className="device-logo">
 ![EG02](./logo..png)
+</div>
 
 El Concox EG02 es un rastreador GPS compacto diseñado principalmente como solución antirrobo para scooters eléctricos. Ofrece instalación plug and play y soporte para localización en tiempo real mediante GPS y LBS. El EG02 permite bloquear y desbloquear de forma remota a través de una aplicación móvil complementaria, activa una alarma sonora ante movimientos no autorizados e incluye múltiples alertas para eventos como vibración anormal, exceso de velocidad, corte de alimentación y entradas o salidas de geocerca.
 

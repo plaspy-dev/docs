@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - GS900
 
+<div className="device-logo">
 ![GS900](./tracker.webp)
+</div>
 
 The GS900 is an intelligent vehicle GPS tracker designed for professional vehicle monitoring and security. Combining 4G full Netcom wireless communication with GPS and BDS satellite navigation, the GS900 provides real time tracking along with vehicle focused inputs such as ACC detection, disassemble tamper alarm, overspeed alerts, mileage statistics, and a remote cut off function for petrol or electricity. It is intended for vehicle mounted use where continuous location visibility and straightforward security controls are required.
 

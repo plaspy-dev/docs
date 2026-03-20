@@ -21,7 +21,9 @@ keywords:
 
 # V-SUN - V-520
 
+<div className="device-logo">
 ![V-520](./logo.jpg)
+</div>
 
 El V-SUN V-520 es un rastreador GPS portátil que combina posicionamiento satelital con conectividad GSM GPRS para ofrecer reportes de latitud y longitud en tiempo real. Puede enviar actualizaciones de posición vía SMS y subir los datos de ubicación a un servidor especificado para visualización en línea. Diseñado para la movilidad, el V-520 es un dispositivo compacto y de bajo consumo apropiado para monitorizar personas, bienes y animales, e incluye una función SOS para notificaciones urgentes.
 

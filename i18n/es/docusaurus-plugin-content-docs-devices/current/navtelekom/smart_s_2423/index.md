@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2423
 
+<div className="device-logo">
 ![SMART S-2423](./tracker.jpeg)
+</div>
 
 El SMART S-2423 es un rastreador vehicular GLONASS/GPS compacto diseñado para ofrecer telemática fiable y localización en tiempo real. Integra un módem GSM con antenas internas de alta sensibilidad para GLONASS/GPS y GSM, además de una batería de respaldo recargable que permite mantener los reportes durante cortes temporales de energía. El equipo dispone de múltiples interfaces físicas y entradas/salidas configurables para cubrir necesidades habituales de telemetría y control en vehículos.
 

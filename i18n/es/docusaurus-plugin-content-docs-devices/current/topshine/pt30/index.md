@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - PT30
 
+<div className="device-logo">
 ![PT30](./logo.jpg)
+</div>
 
 El TopShine PT30 es un rastreador GPS personal compacto y de bajo consumo diseñado para un monitoreo sencillo y portátil de ubicación. Proporciona actualizaciones de posición mediante SMS o GPRS y ofrece funciones de seguridad prácticas como comunicación bidireccional, botón de pánico SOS, alarma de geocerca y alerta por exceso de velocidad. El equipo incluye memoria interna para el registro de posiciones y puede generar un enlace de Google Maps por SMS para una visualización rápida en dispositivos móviles.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TopTen - TK208
 
+<div className="device-logo">
 ![TK208](./Logo.jpg)
+</div>
 
 El TopTen TK208 es un rastreador GPS 3G en formato OBD2 diseñado para el seguimiento y la seguridad vehicular. Combina el envío de posición con la identificación opcional de conductor por RFID y un conjunto de funciones de alarma orientadas a mejorar la supervisión de vehículos y la responsabilidad del personal. La descripción del equipo destaca el registro de eventos a bordo, la detección de alarmas por movimiento y estado del motor, y varios métodos opcionales de identificación que lo hacen adecuado para flotas mixtas.
 

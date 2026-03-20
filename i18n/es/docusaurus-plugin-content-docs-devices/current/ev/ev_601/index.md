@@ -21,7 +21,9 @@ keywords:
 
 # EV - EV-601
 
+<div className="device-logo">
 ![EV-601](./logo.jpg)
+</div>
 
 El EV EV-601 es un rastreador GPS compacto pensado para su uso en vehículos y motocicletas. Combina reportes de ubicación continuos con un módulo de memoria integrado y opciones de comunicación que permiten el rastreo mediante un servicio web gratuito y por SMS. El equipo incluye funciones habituales en seguridad vehicular y monitoreo operativo, como geocercas, alertas de movimiento y SOS, y controles de inmovilización remota.
 

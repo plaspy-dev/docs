@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - GT-30
 
+<div className="device-logo">
 ![GT-30](./logo.jpg)
+</div>
 
 El Meitrack GT-30 es un rastreador GPS/GPRS personal, compacto y fácil de usar, pensado para ofrecer datos de posición confiables para el monitoreo de personas o mascotas. Con posicionamiento GPS integrado y comunicaciones celulares, el GT-30 puede enviar actualizaciones de ubicación a un teléfono móvil o a un servidor designado. Incluye funciones habituales para seguridad personal y monitoreo, como botón de pánico SOS por voz, intervalos de reporte configurables y memoria interna para almacenar coordenadas cuando no hay conexión de datos.
 

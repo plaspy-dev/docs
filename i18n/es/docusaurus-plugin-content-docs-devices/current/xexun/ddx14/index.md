@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - DDX14
 
+<div className="device-logo">
 ![DDX14](./tracker.jpg)
+</div>
 
 El DDX14 es un rastreador GPS diseñado en formato de pulsera tobillera por Xexun para entornos de supervisión controlada. Combina posicionamiento por GPS y Beidou con ayudas de WiFi y LBS para fijaciones más rápidas y mayor precisión. Está pensado para programas de justicia comunitaria, supervisión sanitaria y otros escenarios especializados donde se requiere reporte continuo de ubicación y detección de manipulación. El dispositivo enfatiza medidas anti-manipulación y detección de proximidad para cubrir casos que demandan supervisión permanente.
 

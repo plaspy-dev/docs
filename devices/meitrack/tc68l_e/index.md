@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - TC68L/E
 
+<div className="device-logo">
 ![TC68L/E](./tracker.png)
+</div>
 
 The TC68L/E is a plug and play OBD II GPS tracker designed for rapid deployment in vehicles using the standard OBD II port. It provides real time GNSS positioning with reported accuracy around 2.5 meters, combined with vehicle telemetry gathered from the OBD interface such as fuel consumption, mileage, speed and engine temperature. The unit also includes Bluetooth support for peripherals and an onboard 2.4 GHz Wi Fi hotspot for passenger connectivity, plus remote firmware update capabilities for ongoing device management.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Sanav - GS-819
 
+<div className="device-logo">
 ![GS-819](./logo.jpg)
+</div>
 
 El Sanav GS-819 es un rastreador vehicular de grado profesional diseñado para ofrecer seguimiento confiable en automóviles. Combina un receptor GPS de alta sensibilidad SiRF Star IV con un módulo 3G Cinterion EHS6, proporcionando fijaciones de posición robustas y comunicaciones celulares estables. El equipo está alojado en una carcasa metálica resistente e incluye funciones habituales para monitoreo vehicular como detección de encendido/apagado (ACC), sensor de movimiento integrado, memoria flash y múltiples entradas y salidas configurables.
 

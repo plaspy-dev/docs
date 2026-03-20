@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK970A/B/C
 
+<div className="device-logo">
 ![LK970A/B/C](./tracker.jpg)
+</div>
 
 The LK970A/B/C from LK GPS is a magnetic 4G vehicle tracker designed for long endurance, covert mounting, and extended field deployment. It combines GPS plus GSM positioning with 4G connectivity and high capacity rechargeable battery options to provide continuous location updates, configurable alerts, and history playback suitable for fleet and asset monitoring.
 

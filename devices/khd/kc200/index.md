@@ -20,7 +20,9 @@ keywords:
 
 # KHD - KC200
 
+<div className="device-logo">
 ![KC200](./logo.jpg)
+</div>
 
 The KHD KC200 is a GNSS tracker designed for vehicle and ship tracking. It combines GPS or GLONASS positioning with GSM wireless communication to provide location reporting and event notifications. The KC200 is described as having high receive sensitivity for reliable position fixes and supports reporting methods such as GPRS/GSM and SMS to send emergency alerts, geo-fence boundary crossings, and scheduled updates to a backend server. It is intended to work with custom tracking platforms on PC and smartphone devices.
 

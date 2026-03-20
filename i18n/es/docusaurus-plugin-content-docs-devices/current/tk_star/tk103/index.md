@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK103
 
+<div className="device-logo">
 ![TK103](./logo.jpg)
+</div>
 
 El TK-Star TK103 es un rastreador GPS versátil para vehículos, diseñado para localizar y monitorear objetivos remotos mediante satélites GPS junto con la red móvil GSM/GPRS. Ofrece funciones básicas de rastreo y una serie de características prácticas, como notificaciones de alarma de emergencia, control remoto por SMS, escucha remota, alertas de movimiento y exceso de velocidad, geocercas y estadísticas básicas de kilometraje y estado. Estas capacidades hacen que el TK103 sea adecuado para la gestión de vehículos y la protección de activos móviles.
 

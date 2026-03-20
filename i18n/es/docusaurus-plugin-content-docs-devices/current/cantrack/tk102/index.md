@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - TK102
 
+<div className="device-logo">
 ![TK102](./logo.jpg)
+</div>
 
 El CanTrack TK102 es un rastreador GPS compacto y versátil, pensado tanto para seguimiento personal como para vehículos. Emplea satélites GPS para la localización y la red GSM GPRS para enviar datos de posición y alertas. El dispositivo puede remitir actualizaciones de ubicación vía SMS a números autorizados y también transmitir datos por GPRS a un servidor en internet para seguimiento y monitoreo en tiempo real.
 

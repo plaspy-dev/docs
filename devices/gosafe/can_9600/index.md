@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - CAN-9600
 
+<div className="device-logo">
 ![CAN-9600](./logo.jpg)
+</div>
 
 The Gosafe CAN-9600 is a specialized GPS tracking accessory designed to read FMS data from trucks and buses. It accepts FMS output from vehicle systems using standard CAN protocols and provides that data through an SMS serial interface to downstream devices. The unit is intended to capture vehicle operational information from the FMS port and transmit it over a serial link so that the information can be forwarded to a tracking system.
 

@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GB100
 
+<div className="device-logo">
 ![GB100](./tracker.png)
+</div>
 
 El GB100 es un rastreador GPS para vehículos perteneciente a una familia de dispositivos telemáticos consolidada. Diseñado para despliegues a gran escala, ofrece ubicación en tiempo real y datos de comportamiento de alta resolución sin complicar las instalaciones. La unidad integra antenas GNSS y GSM internas en una carcasa impermeable IP65 y un formato compacto, lo que le permite reportar posición y eventos de forma fiable incluso cuando se instala bajo el cofre metálico.
 

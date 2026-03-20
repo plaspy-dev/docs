@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK119‑3G
 
+<div className="device-logo">
 ![TK119‑3G](./tracker.jpg)
+</div>
 
 El TK119‑3G es un rastreador GPS vehicular compacto de EElink, pensado para desplegarse de forma fiable tanto en flotas como en vehículos individuales. Ofrece posicionamiento por GPS y por estaciones base con asistencia AGPS, y utiliza conectividad celular WCDMA y GSM para entregar datos de ubicación y eventos en tiempo real. El equipo incluye entradas para vehículos y salidas opcionales como detección de encendido ACC y un relé para inmovilización remota, además de alarmas de choque, vibración y exceso de velocidad.
 

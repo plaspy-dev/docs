@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK720-2G
 
+<div className="device-logo">
 ![LK720-2G](./tracker.jpg)
+</div>
 
 El rastreador mini con relé LK720-2G es un dispositivo compacto pensado para ofrecer seguridad discreta en vehículos y seguimiento confiable en tiempo real. Diseñado para su uso en automóviles y motocicletas, combina antenas GPS y GSM integradas con una salida de mini relé para proporcionar funciones de inmovilización antirobo, alarmas por choque y telemetría de ubicación continua. Su tamaño reducido facilita la instalación encubierta sin sacrificar las funciones de rastreo esenciales para propietarios particulares y operadores de flotas.
 

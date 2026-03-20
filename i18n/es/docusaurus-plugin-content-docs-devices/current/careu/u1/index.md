@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - U1
 
+<div className="device-logo">
 ![U1](./logo..png)
+</div>
 
 El CAREU U1 es un rastreador vehicular con funciones avanzadas, disponible en configuración PLUS LTE, que combina posicionamiento GNSS con conectividad móvil e integración de accesorios. El equipo incluye antenas y módulos internos para reportes de ubicación confiables, Bluetooth opcional para configuración y una variedad de interfaces que permiten conectar accesorios de terceros como cámaras, lectores RFID y fuentes de datos del vehículo. También ofrece entradas y salidas extendidas y una interfaz 1 Wire para monitoreo de temperatura externo, por lo que resulta apropiado para transporte de carga sensible a la temperatura.
 

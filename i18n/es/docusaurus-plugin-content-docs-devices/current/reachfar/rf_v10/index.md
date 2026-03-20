@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V10+
 
+<div className="device-logo">
 ![RF-V10+](./tracker.jpg)
+</div>
 
 El RF-V10+ es un rastreador GPS compacto con consumo extremadamente bajo diseñado para la seguridad de vehículos y motocicletas. Ofrece seguimiento en tiempo real junto con una gran autonomía en reposo y un conjunto de alarmas antirrobo. El dispositivo soporta reportes por GPRS y SMS y utiliza posicionamiento dual para mantener actualizaciones de ubicación confiables aun cuando la cobertura GPS sea limitada, lo que lo hace ideal para propietarios y pequeñas flotas que requieren supervisión continua sin recargas frecuentes.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T381
 
+<div className="device-logo">
 ![T381](./tracker.jpg)
+</div>
 
 El T381 es un rastreador GPS OBDII compacto plug and play de Ulbotech. Construido alrededor de un módem 4G LTE y un módulo GNSS interno u‑blox, el dispositivo ofrece reportes de ubicación en tiempo real, telemetría del vehículo y una salida para inmovilizador para control antirrobo. Su compatibilidad con OBDII y SAE J1939 permite acceder a parámetros del motor y códigos de diagnóstico (DTC) para la supervisión de flotas y el mantenimiento preventivo, mientras que su hotspot Wi‑Fi integrado y el puenteo Wi‑Fi ayudan a reducir el uso de datos celulares en dispositivos dentro de la cabina.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Ruptela - FM-Pro4
 
+<div className="device-logo">
 ![FM-Pro4](./logo.jpg)
+</div>
 
 El Ruptela FM-Pro4 es un rastreador GPS avanzado diseñado para vehículos comerciales pesados, como camiones, maquinaria agrícola y otro tipo de maquinaria especial. Está pensado para recopilar parámetros de actividad del vehículo y leer datos de la computadora a bordo mediante estándares como FMS y J1708, lo que permite capacidades de supervisión más amplias que el simple rastreo de ubicación. El equipo admite múltiples sensores y accesorios externos para medición de nivel de combustible y temperatura, identificación de conductor y otras señales operativas habituales en flotas comerciales.
 

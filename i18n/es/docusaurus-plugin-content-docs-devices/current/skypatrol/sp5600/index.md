@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP5600
 
+<div className="device-logo">
 ![SP5600](./logo.jpg)
+</div>
 
 La serie SkyPatrol SP5600 es una familia de dispositivos GPS compactos diseñados para motocicletas y otros vehículos powersport, incluidos ATV, motos de agua, motonieves y embarcaciones pequeñas. Con un diseño resistente al agua, bajo consumo energético y una batería interna de respaldo, el SP5600 está pensado para ofrecer seguimiento continuo de ubicación y detección básica de manipulación en entornos exteriores exigentes donde el espacio y la energía son limitados.
 

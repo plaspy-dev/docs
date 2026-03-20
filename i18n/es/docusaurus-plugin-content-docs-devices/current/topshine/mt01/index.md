@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - MT01
 
+<div className="device-logo">
 ![MT01](./tracker.jpg)
+</div>
 
 El TopShine MT01 es un rastreador GPS vehicular 4G compacto pensado para un seguimiento confiable en motocicletas, autos, camiones y bicicletas eléctricas. Combina un formato mini (80 × 58 × 22 mm) con una carcasa resistente a la intemperie, antena integrada y amplio rango de voltaje para facilitar la instalación en entornos exigentes sin perder discreción. El equipo incluye registro de datos integrado, batería de respaldo y entradas inteligentes, además de soporte opcional para sensores como monitoreo de combustible y alertas de seguridad para el conductor.
 

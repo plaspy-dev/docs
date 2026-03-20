@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - MT80Q
 
+<div className="device-logo">
 ![MT80Q](./tracker.jpg)
+</div>
 
 The MT80Q Personal Tracking Watch is a compact wearable designed for personal security, elderly care and remote telemetry. It combines a 1.28 inch e-ink display with a Ublox GPS module to provide regular location reporting over GSM GPRS networks. Built with a focused set of safety features — fall detection, SOS emergency alarm, two way voice and an anti disassembly alarm — the MT80Q is intended for real time tracking and quick response in situations where individual safety and location visibility matter.
 

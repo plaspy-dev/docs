@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - GT-89
 
+<div className="device-logo">
 ![GT-89](./logo.jpg)
+</div>
 
 The Megastek GT-89 is a compact and versatile GPS tracker built to deliver reliable real time location information. It uses a SiRF Star III GPS chipset together with a SIM 900 GSM chipset and supports quad band frequencies for broad cellular coverage. With a small footprint of 86 x 44 x 22 mm and a net weight of 65 g, the GT-89 is designed for easy deployment in a range of mobile and portable tracking scenarios while offering options such as multiple tracking modes, power saving, and on device data logging.
 

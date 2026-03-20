@@ -20,7 +20,9 @@ keywords:
 
 # Appello - TK103B
 
+<div className="device-logo">
 ![TK103B](./logo.jpg)
+</div>
 
 The Appello TK103B is a versatile GPS tracker designed to monitor vehicles, equipment, and people. It offers worldwide cellular connectivity and real time position reporting that can be viewed from computers, mobile phones, and mapping tools. The TK103B provides automatic periodic location updates, standard position fields such as latitude and longitude, speed and time, plus state checking and a range of configurable alerts to help maintain oversight of tracked assets.
 

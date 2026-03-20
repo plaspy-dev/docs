@@ -20,7 +20,9 @@ keywords:
 
 # ThinkRace - PT880
 
+<div className="device-logo">
 ![PT880](./tracker.png)
+</div>
 
 The ThinkRace Traxbean Bracelet PT880 is a wrist worn GPS tracker built for continuous electronic monitoring and person centric supervision. Designed to be rugged and comfortable for daily wear, the PT880 combines GPS positioning with assisted Wi Fi, cellular triangulation and RF based indoor positioning to provide reliable location data along with tamper alarms, one press SOS and two way voice for immediate incident handling.
 

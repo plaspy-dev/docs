@@ -20,7 +20,9 @@ keywords:
 
 # Winrich - TK102B
 
+<div className="device-logo">
 ![TK102B](./tracker.jpg)
+</div>
 
 The TK102B is a compact personal GPS tracker designed for reliable real time location monitoring across vehicles people and portable assets. It combines GPS and GSM positioning with onboard route backup on a TF card to maintain continuous location intelligence and basic anti theft capabilities. The unit is built for straightforward tracking scenarios where size portability and dependable updates matter.
 

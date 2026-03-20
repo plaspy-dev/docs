@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-303F
 
+<div className="device-logo">
 ![BN-303F](./tracker.png)
+</div>
 
 The BN-303F, also listed as model 303FG, is a compact vehicle mounted GPS tracker designed for reliable deployment in anti theft, fleet management and real time tracking scenarios. Built for concealed installation in cars, commercial trucks and rental vehicles, the BN-303F delivers GNSS positioning, continuous telematics and configurable alarms to keep fleet managers and vehicle owners informed and in control.
 

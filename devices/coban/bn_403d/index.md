@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-403D
 
+<div className="device-logo">
 ![BN-403D](./tracker.png)
+</div>
 
 The BN-403D is a compact vehicle mounted GPS tracker designed to provide reliable positioning and wide area cellular communication. Designed for concealed installation in cars and light commercial vehicles, the BN-403D provides real time tracking, configurable alarms and one way voice listening for emergency situations. It also supports Bluetooth configuration and automatic induction arming and disarming, with optional fuel monitoring available when paired with a supported fuel sensor.
 

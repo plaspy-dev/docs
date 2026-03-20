@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-BC01
 
+<div className="device-logo">
 ![TZ-BC01](./logo.jpg)
+</div>
 
 The TZone TZ-BC01 is a compact and lightweight tracker designed to provide accurate and reliable location tracking in a discreet form factor. It measures approximately 50 x 35 x 15 mm and weighs about 30 grams, making it simple to attach or carry with personal items, equipment, or light vehicles. The unit uses the iPhone iBeacon protocol with Bluetooth 4.0 communication and supports both iOS 7.0 and above and Android 4.3 and above, offering broad device compatibility for proximity based monitoring.
 

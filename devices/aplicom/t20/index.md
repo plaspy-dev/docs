@@ -20,7 +20,9 @@ keywords:
 
 # Aplicom - T20
 
+<div className="device-logo">
 ![T20](./tracker.png)
+</div>
 
 The Aplicom T20 is a compact GPS tracker and telematics gateway designed for reliable vehicle and mobile equipment tracking. Built to operate with LTE‑M cellular connectivity and industrial interfaces, the T20 collects location and telemetry data from mobile assets and supports peripherals commonly used in fleet and equipment monitoring workflows. It is positioned for integrators and fleet operators who need continuous tracking, telemetry capture and remote device management.
 

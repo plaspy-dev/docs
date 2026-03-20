@@ -21,7 +21,9 @@ keywords:
 
 # Supermate - D26-H
 
+<div className="device-logo">
 ![D26-H](./logo.jpg)
+</div>
 
 El Supermate D26-H es un rastreador GPS compacto y ligero pensado para una amplia variedad de tareas de seguimiento. Según la descripción del modelo, resulta apropiado para usos personales, comerciales e industriales donde la colocación discreta y el monitoreo fiable de la ubicación son importantes. El D26-H prioriza la portabilidad, una construcción robusta y una instalación sencilla, al mismo tiempo que ofrece funciones esenciales como actualizaciones de ubicación en tiempo real, geovallas y una función de emergencia SOS.
 

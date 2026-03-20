@@ -20,7 +20,9 @@ keywords:
 
 # Concox - GV20
 
+<div className="device-logo">
 ![GV20](./logo.jpg)
+</div>
 
 The Concox GV20 is a 3G GPS tracker designed for vehicle, motor, and bus tracking. Built to offer reliable location visibility in demanding operating conditions, the GV20 provides real time location, route recording and flashback history to help operators monitor movements and review past trips. The product description emphasizes practical features such as remote fuel and power cutoff, ignition status reporting, and instant alert notifications to support operational control.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-391
 
+<div className="device-logo">
 ![VT-391](./logo.jpg)
+</div>
 
 The GOTOP VT-391 is a versatile GPS tracker designed for fleet management and vehicle security. It combines position reporting with a built in WiFi module and optional camera support so location and driving information can be logged alongside pictures. The VT-391 also provides RFID driver identification, a large SD card slot for local storage, two way audio capability, multiple analog inputs for fuel monitoring, and a range of configured alarms for events such as harsh braking, accidents, and over speed.
 

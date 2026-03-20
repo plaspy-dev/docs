@@ -20,7 +20,9 @@ keywords:
 
 # ThinkRace - Traxbean Tracker
 
+<div className="device-logo">
 ![Traxbean Tracker](./tracker.jpg)
+</div>
 
 The Traxbean Tracker is a judicial grade GPS tracker designed as an ankle bracelet for community corrections, house arrest and home curfew monitoring. Purpose built for supervised electronic monitoring, Traxbean provides precise outdoor GPS positioning and assisted indoor locating using Wi Fi, cellular triangulation and RF signals when used with an optional home base station. The device emphasizes tamper resistance, long run time and direct voice and alerting capabilities appropriate for corrections and law enforcement workflows.
 

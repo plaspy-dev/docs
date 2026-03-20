@@ -20,7 +20,9 @@ keywords:
 
 # Pointer - Cello Track 8M
 
+<div className="device-logo">
 ![Cello Track 8M](./logo.jpg)
+</div>
 
 The Cello Track 8M from Pointer is an entry level, cost effective family of GPS trackers designed for tracking and monitoring assets. The family includes variants such as the CelloTrack 8M, CelloTrack Power 8M, and CelloTrack Lighter 8M. It is built for low frequency reporting scenarios, with a 2AH rechargeable battery that supports up to eight months of single daily GPS reading and GPRS transmission, or two months when configured for four readings and transmissions per day.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Stars Nav - PT-33 Lite: Rastreador GPS personal por SMS
 
+<div className="device-logo">
 ![PT-33 Lite](./tracker.jpg)
+</div>
 
 El PT-33 Lite es un rastreador GPS compacto que funciona principalmente por SMS, diseñado para ofrecer seguridad personal confiable y ubicación en tiempo real con bajo uso de datos. Permite solicitudes de ubicación bajo demanda por llamada o SMS y genera alertas por eventos como pulsaciones del botón de pánico, detección de movimiento o inmovilidad, activación de geocercas y alarmas de velocidad. El dispositivo prioriza la operación sencilla y la entrega rápida de posiciones accionables en entornos donde las conexiones de datos continuas son limitadas.
 

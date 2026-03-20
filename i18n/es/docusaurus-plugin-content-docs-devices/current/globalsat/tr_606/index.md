@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - TR-606
 
+<div className="device-logo">
 ![TR-606](./logo.jpg)
+</div>
 
 El GlobalSat TR-606 es un rastreador GPS compacto y económico diseñado para una amplia variedad de aplicaciones de Localización Automática de Vehículos (AVL). Combina un chipset GPS de alta sensibilidad con comunicaciones celulares multibanda en una carcasa resistente, entregando actualizaciones en tiempo real sobre la ubicación y el estado del vehículo. El dispositivo está pensado para ser ligero y de fácil despliegue, mientras ofrece las funciones básicas de seguimiento y control remoto necesarias para la gestión de flotas y el monitoreo de activos.
 

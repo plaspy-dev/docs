@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - MT-80i
 
+<div className="device-logo">
 ![MT-80i](./logo.jpg)
+</div>
 
 El Meitrack MT-80i es un rastreador GPS compacto y versátil pensado para diversos escenarios de seguimiento: protección personal, monitoreo de mascotas, seguridad de activos y localización de vehículos. Su tamaño reducido y peso ligero facilitan llevarlo encima o fijarlo a collares y cinturones. Utiliza posicionamiento GPS con chipset SiRF III y soporta AGPS mediante identificación de estaciones base GSM para mejorar la adquisición de posición, además de operar en cuadribanda GSM para una amplia cobertura celular.
 

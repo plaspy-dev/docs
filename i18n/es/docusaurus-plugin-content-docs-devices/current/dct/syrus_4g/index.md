@@ -21,7 +21,9 @@ keywords:
 
 # DCT - Syrus 4G
 
+<div className="device-logo">
 ![Syrus 4G](./tracker.png)
+</div>
 
 El Syrus 4G de DCT es una pasarela telemática de grado empresarial diseñada para despliegues exigentes de flotas e IoT industrial. Concebido como un gateway vehicular resistente, integra posicionamiento GNSS multiconstelación, conectividad celular redundante y múltiples interfaces para vehículos y sensores, ofreciendo seguimiento y telemetría en tiempo real fiables en entornos adversos y a gran escala.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Navigil - PT220
 
+<div className="device-logo">
 ![PT220](./logo.jpg)
+</div>
 
 El Navigil PT220 es un rastreador GPS compacto y confiable diseñado principalmente para ubicar y ayudar a proteger a personas. Está pensado para un uso personal sencillo y puede llevarse en el bolsillo, maletín o mochila. El equipo se implementa fácilmente con una tarjeta SIM y cuenta con batería recargable mediante cargador de pared o conexión USB, lo que lo hace práctico para uso diario o despliegues temporales.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - TS299L
 
+<div className="device-logo">
 ![TS299L](./tracker.png)
+</div>
 
 The TS299L is a plug and play cigarette lighter GPS tracker from Meitrack intended for private cars, ride hailing, car sharing and light fleet vehicles. Designed for fast installation without hardwiring, it supports reliable GNSS positioning and delivers continuous tracking and telemetry while installed in a vehicle power outlet. Optional features such as an in vehicle Wi‑Fi hotspot and Bluetooth sensor connectivity extend its utility where passenger connectivity and environmental sensing are useful.
 

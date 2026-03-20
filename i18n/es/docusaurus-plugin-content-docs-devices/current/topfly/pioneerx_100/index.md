@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - PioneerX 100
 
+<div className="device-logo">
 ![PioneerX 100](./tracker.png)
+</div>
 
 El PioneerX 100 es un rastreador GPS compacto y cableado de TopFly diseñado para la gestión confiable de flotas y el seguimiento de activos. Combina posicionamiento GNSS de alta sensibilidad con conectividad celular global y entradas y salidas digitales y analógicas configurables para detección de ignición, control de inmovilizadores y monitoreo de accesorios. La unidad está construida para operación continua en condiciones exigentes e incluye una batería de respaldo para preservar datos críticos durante interrupciones de energía.
 

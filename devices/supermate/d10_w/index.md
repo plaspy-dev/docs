@@ -20,7 +20,9 @@ keywords:
 
 # Supermate - D10-W
 
+<div className="device-logo">
 ![D10-W](./logo.jpg)
+</div>
 
 The Supermate D10-W is a compact, lightweight GPS tracker designed for versatile tracking needs across personal, commercial, and industrial contexts. It provides real-time location updates and includes features commonly valued for continuous monitoring, such as geo-fencing and an emergency SOS button. Its small form makes it easy to place on a variety of assets while keeping a low visual profile.
 

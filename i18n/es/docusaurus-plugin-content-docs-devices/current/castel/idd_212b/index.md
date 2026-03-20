@@ -21,7 +21,9 @@ keywords:
 
 # Castel - IDD-212B
 
+<div className="device-logo">
 ![IDD-212B](./logo.jpg)
+</div>
 
 El Castel IDD-212B es un escáner OBD para automóviles con Bluetooth 4.0, diseñado para leer parámetros del motor directamente desde la ECU. Soporta diagnósticos comunes como velocidad, RPM, temperatura y códigos de falla, y ofrece lecturas de consumo de combustible y kilometraje. La unidad cuenta con certificación MFi y es compatible con dispositivos iPhone y Android; además incorpora un sensor G para detección de impactos y memoria flash a bordo capaz de almacenar hasta dos meses de datos.
 

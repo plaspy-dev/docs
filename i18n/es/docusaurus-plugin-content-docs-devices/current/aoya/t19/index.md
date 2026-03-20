@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - T19
 
+<div className="device-logo">
 ![T19](./logo.jpg)
+</div>
 
 El AoYa T19 es un mini rastreador GPS magnético diseñado para el seguimiento discreto y eficiente de vehículos, equipaje, contenedores y otros bienes valiosos. Su formato compacto y su base magnética de alta adherencia facilitan la fijación a superficies metálicas para una colocación oculta, y es una opción versátil tanto para desplazamientos cortos como para necesidades de monitoreo a largo plazo.
 

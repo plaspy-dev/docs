@@ -21,7 +21,9 @@ keywords:
 
 # V-SUN - TLT-1B
 
+<div className="device-logo">
 ![TLT-1B](./logo.jpg)
+</div>
 
 El V-SUN TLT-1B es un rastreador GPS/GSM compacto para vehículos pensado para posicionamiento remoto y supervisión de flotas. Integra GPS y conectividad GSM GPRS para enviar coordenadas por SMS y subir datos de ubicación a un servidor para visualización en línea. Destaca por su chipset GPS de alto rendimiento que mantiene la precisión en entornos con señal débil, e incluye botón SOS y funciones de detección de corte y recuperación de alimentación para mayor seguridad.
 

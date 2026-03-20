@@ -20,7 +20,9 @@ keywords:
 
 # Aquila - UX101
 
+<div className="device-logo">
 ![UX101](./logo.jpg)
+</div>
 
 The Aquila UX101 is an advanced vehicle tracking device designed for fleet management and asset monitoring. It combines a compact, rugged IP67 rated enclosure with an automotive ECU type connector and internal GPS and GSM antennas to support concealed installations and stable connections in vehicle environments. The UX101 records key parameters such as location, time, speed, distance, and ignition status, and includes a motion sensor, a mains battery removal alert, voice capability, and on device data storage and forward architecture.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - JX05
 
+<div className="device-logo">
 ![JX05](./tracker.jpg)
+</div>
 
 El TrackerKing JX05 es un rastreador portátil 2G diseñado para operaciones con larga autonomía y protección antirrobo de activos. Concebido como una solución sin cableado, con una carcasa magnética robusta y una batería interna de gran capacidad, el JX05 está pensado para montaje discreto en remolques, contenedores, maquinaria de construcción y otros activos valiosos sin supervisión, donde la vida útil autónoma prolongada y la fijación discreta son prioritarias.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Ruptela - LCV5
 
+<div className="device-logo">
 ![LCV5](./tracker.png)
+</div>
 
 El LCV5 es un rastreador GPS diseñado específicamente para autos y vehículos comerciales ligeros que ofrece seguimiento en tiempo real confiable y telemetría avanzada para la gestión de flotas. Pensado para capturar la ubicación del vehículo junto con parámetros de telemetría como datos CAN y OBD, identificación de conductor y nivel de combustible, el LCV5 está orientado a flotas y operadores que requieren posicionamiento preciso e información útil sobre sus vehículos.
 

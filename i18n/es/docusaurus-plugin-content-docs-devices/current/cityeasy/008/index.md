@@ -21,7 +21,9 @@ keywords:
 
 # Cityeasy - 008
 
+<div className="device-logo">
 ![008](./logo.jpg)
+</div>
 
 El Cityeasy 008 es un rastreador GPS para autos confiable y eficiente, diseñado para la seguridad y la localización de vehículos. Ofrece posicionamiento en tiempo real mediante GPS y LBS, alertas por vibración para detectar movimientos no autorizados, y reproducción de rutas históricas para revisar viajes pasados. Su clasificación IP67 indica que está construido para soportar condiciones climáticas adversas y exposición al agua, lo que lo hace adecuado para el uso diario en vehículos.
 

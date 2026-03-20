@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT110
 
+<div className="device-logo">
 ![VT110](./tracker.png)
+</div>
 
 The VT110 is a compact GPS tracker from iStartek designed for reliable real-time tracking and vehicle telemetry. Built for fleet management and anti-theft protection, the device combines multi-constellation GNSS positioning with GSM base station location to deliver consistent location reports, configurable alarms, and remote control functions suited to commercial and private vehicle deployments.
 

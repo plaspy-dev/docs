@@ -21,7 +21,9 @@ keywords:
 
 # Oigo Telematics - AR-3HU
 
+<div className="device-logo">
 ![AR-3HU](./logo.jpg)
+</div>
 
 El Oigo Telematics AR-3HU es un rastreador GPS compacto y versátil, diseñado para la gestión de flotas y sistemas de recuperación de vehículos robados. Está pensado para una instalación discreta en el vehículo y soporta una variedad de reportes de eventos y alertas, lo que lo hace apropiado para la supervisión continua. El dispositivo se comunica a través de redes de datos móviles para mantener la información de ubicación y eventos actualizada casi en tiempo real.
 

@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL200
 
+<div className="device-logo">
 ![GL200](./tracker.png)
+</div>
 
 The QuecLink GL200 is a compact, robust GPS tracker designed for discreet asset protection and continuous position reporting. Built for covert installations and harsh conditions, the GL200 is positioned for use cases where concealed placement and reliable, ongoing location updates are essential. Its field-proven performance includes documented real world recoveries that demonstrate dependable reporting over long distances.
 

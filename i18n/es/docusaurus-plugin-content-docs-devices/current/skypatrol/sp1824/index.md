@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP1824
 
+<div className="device-logo">
 ![SP1824](./tracker.png)
+</div>
 
 El SP1824 es un rastreador GPS económico diseñado para gerentes de flota y propietarios de vehículos que requieren seguimiento en tiempo real confiable sin complejidad innecesaria. Combina conectividad celular con antenas internas de GPS y celular para una instalación más compacta y actualizaciones de ubicación constantes. El dispositivo ofrece una conexión OBD II opcional y un acelerómetro integrado, además de una batería de respaldo compacta que mantiene el reporte durante interrupciones breves de energía.
 

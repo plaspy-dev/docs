@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - Mini
 
+<div className="device-logo">
 ![Mini](./tracker.png)
+</div>
 
 El Sentar Mini es un rastreador GPS 4G compacto diseñado para el seguimiento personal y de pequeños activos. Combina posicionamiento multimodal con soporte celular global para ofrecer actualizaciones continuas de ubicación y telemetría del dispositivo. Su tamaño reducido y portátil, junto con una clasificación IPX7 de resistencia al agua y una batería recargable, lo hacen ideal para uso diario en personas, mascotas, equipaje y objetos similares de pequeño tamaño.
 

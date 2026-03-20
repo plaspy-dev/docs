@@ -21,7 +21,9 @@ keywords:
 
 # TopTen - TK428
 
+<div className="device-logo">
 ![TK428](./Logo.jpg)
+</div>
 
 El TopTen TK428 es un rastreador OBD II diseñado para ofrecer ubicación continua del vehículo junto con telemetría procedente de la ECU. Conectado al puerto OBD del vehículo, el TK428 puede leer datos habituales como velocidad, RPM, odómetro, consumo de combustible e indicadores de comportamiento del conductor, lo que lo hace útil para supervisión operativa y diagnósticos básicos del vehículo.
 

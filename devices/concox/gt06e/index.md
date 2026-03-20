@@ -20,7 +20,9 @@ keywords:
 
 # Concox - GT06E
 
+<div className="device-logo">
 ![GT06E](./logo.jpg)
+</div>
 
 The Concox GT06E is a versatile 3G GPS tracker designed for vehicle tracking and fleet management. It provides real time location information and includes common tracking functions such as tele cutoff petrol, geofence, SOS alarm, and overspeed alert. The device also supports optional digital outputs for door detection, audio visual alerts for vehicle pinpointing, and external power voltage monitoring, making it suitable for a range of monitoring and security needs.
 

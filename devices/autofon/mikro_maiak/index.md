@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Микро-Маяк +
 
+<div className="device-logo">
 ![Микро-Маяк +](./tracker.jpg)
+</div>
 
 The AutoFon Микро‑Маяк + is a highly compact autonomous GPS tracker designed for reliable positioning and standby protection of valuable mobile assets. Combining GLONASS and GPS positioning, GSM GPRS reporting and a short range 868 MHz radio direction finding mode, the unit is intended for continuous visibility of vehicles and portable assets and for improved recoverability in theft or loss scenarios.
 

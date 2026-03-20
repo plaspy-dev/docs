@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - A11 LTE BLE
 
+<div className="device-logo">
 ![A11 LTE BLE](./logo..jpg)
+</div>
 
 El Aplicom A11 LTE BLE es un equipo telemático versátil y comprobado en campo, diseñado para la gestión de flotas y activos. Combina conectividad móvil global con emparejamiento inalámbrico local para ampliar la identificación y la recolección de datos mediante balizas y etiquetas Bluetooth. Está orientado a organizaciones que requieren visibilidad continua de la ubicación y opciones adaptables de identificación para activos o personal en operaciones mixtas.
 

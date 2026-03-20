@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4215/U
 
+<div className="device-logo">
 ![ST4215/U](./tracker.jpg)
+</div>
 
 The ST4215/U is a compact, rugged GPS tracker designed for vehicle and asset monitoring in demanding conditions. It combines global cellular connectivity with multi GNSS positioning and a sealed IP67 housing to deliver continuous location and event reporting for fleet and recovery operations. The unit is engineered for durability and uninterrupted connectivity, with a small footprint suitable for many vehicle and equipment installations.
 

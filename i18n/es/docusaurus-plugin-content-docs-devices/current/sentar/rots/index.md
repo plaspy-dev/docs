@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - ROTS
 
+<div className="device-logo">
 ![ROTS](./tracker.jpg)
+</div>
 
 El Sentar ROTS es un rastreador GPS portátil y compacto diseñado para la seguridad de las mascotas y la cobertura de localización a larga distancia. Diseñado para colocarse en el collar, el ROTS ofrece actualizaciones continuas de posición a través de redes celulares y está pensado para perros y mascotas de exterior que requieren supervisión permanente. El equipo incorpora un chipset principal ASR y una memoria a bordo moderada para garantizar un funcionamiento estable durante periodos prolongados de monitoreo.
 

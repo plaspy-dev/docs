@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - X04
 
+<div className="device-logo">
 ![X04](./tracker.jpg)
+</div>
 
 The Xexun X04 is a compact professional grade GPS and Beidou mini tracker designed for reliable real time tracking of people, vehicles and portable assets. It uses hybrid positioning that combines satellite and local positioning aids with cellular transmission to a cloud server, delivering fast fixes and consistent coverage in areas where satellite signals can be weak. The device is sized for straightforward daily use and includes features commonly required for safety and asset oversight.
 

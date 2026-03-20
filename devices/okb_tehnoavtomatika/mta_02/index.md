@@ -20,7 +20,9 @@ keywords:
 
 # OKB Tehnoavtomatika - MTA-02
 
+<div className="device-logo">
 ![MTA-02](./logo.jpg)
+</div>
 
 The GPS System MTA-02 from OKB Tehnoavtomatika is a versatile tracking and monitoring device designed for a broad range of applications. It offers a flexible system configuration that can be adapted to track vehicles, specialized equipment, or remote stationary assets. The model supports a variety of peripherals and accessories to extend its capabilities, and provides multiple notification options to keep users informed about device status and location.
 

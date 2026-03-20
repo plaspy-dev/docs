@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - VT200
 
+<div className="device-logo">
 ![VT200](./logo.jpg)
+</div>
 
 El ThinkRace VT200 es un rastreador OBD profesional pensado para ofrecer seguimiento GPS en tiempo real y monitoreo vehicular en una amplia variedad de vehículos. Indicado para taxis, ambulancias y unidades de servicio, el VT200 proporciona actualizaciones de ubicación, registro de kilometaje, pruebas de movimiento, alarmas por comportamiento anómalo y detección de movimiento mediante un acelerómetro interno de 3 ejes. También soporta actualizaciones remotas de firmware.
 

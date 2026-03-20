@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-BC08
 
+<div className="device-logo">
 ![TZ-BC08](./logo.jpg)
+</div>
 
 El TZone TZ-BC08 es un rastreador compacto y ligero diseñado para ofrecer seguimiento fiable a corta distancia y detección de proximidad. Su tamaño reducido y peso contenido, junto con un acabado blanco crema, facilitan su colocación discreta en objetos personales o su fijación a activos pequeños. El dispositivo soporta el protocolo iBeacon de iPhone sobre Bluetooth 4.0 y ofrece un intervalo de transmisión configurable y potencia de emisión ajustable, aptos para distintos escenarios de proximidad.
 

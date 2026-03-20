@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-405C
 
+<div className="device-logo">
 ![BN-405C](./tracker.png)
+</div>
 
 El BN-405C es un rastreador GPS inteligente, compacto y para montaje vehicular, diseñado para la gestión de flotas, logística y aplicaciones antirrobo. Combina un formato de instalación discreta con alimentación desde el vehículo y batería de respaldo para ofrecer seguimiento continuo y visibilidad operativa en camiones, vehículos de obra y flotas de servicio público.
 

@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - A206b
 
+<div className="device-logo">
 ![A206b](./logo.jpg)
+</div>
 
 El AoYa A206b es un rastreador GPS automotriz compacto diseñado para el monitoreo discreto de vehículos. Con dimensiones de 96 mm x 42 mm x 24 mm y un peso aproximado de 100 g, la unidad es pequeña y ligera, lo que facilita su colocación sin llamar la atención. Usa conectividad GSM GPRS junto con un módulo u-blox para proporcionar datos de ubicación; el fabricante indica una precisión posicional de alrededor de 5 metros y alta sensibilidad GPS para obtener posiciones confiables. El A206b está pensado para escenarios donde el tamaño, la autonomía y la precisión del posicionamiento son factores determinantes.
 

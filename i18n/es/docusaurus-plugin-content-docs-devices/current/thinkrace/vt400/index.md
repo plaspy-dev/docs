@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - VT400
 
+<div className="device-logo">
 ![VT400](./logo.jpg)
+</div>
 
 El ThinkRace VT400 es un rastreador GPS OBD compacto diseñado para automóviles. Conectado al puerto OBD II del vehículo, el VT400 ofrece localización continua, reproducción de historial, alertas por geovalla e informes de viaje. Su conectividad 4G y el WiFi integrado permiten actualizaciones frecuentes de posición y revisión de rutas, ideal tanto para la supervisión de vehículos individuales como para operaciones de flota.
 

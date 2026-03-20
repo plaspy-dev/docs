@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK209
 
+<div className="device-logo">
 ![LK209](./logo..jpg)
+</div>
 
 El LK-GPS LK209 es un rastreador GPS versátil y confiable pensado para una amplia gama de necesidades de seguimiento de vehículos y activos. Está orientado a autos particulares, vehículos de renta, equipos de trabajo en exteriores, contenedores y carga, ofreciendo visibilidad continua de ubicación y la posibilidad de revisar recorridos históricos. El dispositivo destaca por funciones prácticas de rastreo, como actualizaciones en tiempo real, intervalos de reporte configurables, alertas por geocerca y distintos avisos de movimiento y estado diseñados para notificar anomalías.
 

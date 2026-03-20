@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST6560
 
+<div className="device-logo">
 ![ST6560](./tracker.jpg)
+</div>
 
 El ST6560 es un rastreador OBD II compacto diseñado para ofrecer diagnóstico vehicular y reporte continuo de ubicación. Se instala fácilmente en el conector J1962 de 16 pines del vehículo, lo que lo hace ideal para gestión de flotas, recuperación ante robo y proyectos telemáticos que requieren una solución integrada de diagnóstico y localización. Este modelo destaca por su resiliencia multi red y su receptor GNSS multiconstelación con Dead Reckoning para mantener la continuidad de la posición en entornos difíciles.
 

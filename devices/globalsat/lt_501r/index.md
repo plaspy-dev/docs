@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - LT-501R
 
+<div className="device-logo">
 ![LT-501R](./tracker.jpg)
+</div>
 
 The GlobalSat LT-501R is a compact LoRa GPS asset tracker designed for reliable indoor and outdoor monitoring with long battery life and practical asset management features. It combines GPS location, BLE beacon support, and a 3-axis accelerometer in a lightweight enclosure, and is built for low-power long range telemetry with LoRaWAN and Helium network compatibility. The design emphasizes asset level tracking rather than heavy vehicle telematics, making it suitable for equipment, trailers, and other portable assets.
 

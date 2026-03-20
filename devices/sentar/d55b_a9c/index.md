@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D55B-A9C
 
+<div className="device-logo">
 ![D55B-A9C](./tracker.jpg)
+</div>
 
 The Sentar D55B-A9C is a kids smartwatch designed for everyday wear and straightforward supervised use. It features 4G cellular connectivity, a bright 1.83-inch 240x280 display, and a tactile rotating navigation button that makes interaction simple for children. With 1 GB of RAM and 16 GB of internal storage the device is built to keep apps responsive and provide room for media and app data, while a low power standby design helps reduce the need for frequent charging.
 

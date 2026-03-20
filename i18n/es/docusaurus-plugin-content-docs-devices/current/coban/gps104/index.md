@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS104
 
+<div className="device-logo">
 ![GPS104](./logo.jpg)
+</div>
 
 El Coban GPS104 es un rastreador GPS versátil que combina comunicación inalámbrica GSM/GPRS con posicionamiento por satélite para ofrecer monitorización continua de la ubicación y el estado de vehículos y activos. Soporta múltiples modos de seguimiento y opciones de temporización, incluye diversas alertas y permite exportar datos de posición registrados para visualizarlos en PC, dispositivos móviles o servicios de mapas como Google Earth.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V43
 
+<div className="device-logo">
 ![RF-V43](./Logo.jpg)
+</div>
 
 El Reachfar RF-V43 es un rastreador GPS compacto diseñado principalmente para la seguridad y el monitoreo de mascotas. Utiliza conectividad 4G junto con tres métodos de localización —GPS, LBS y WiFi— para ofrecer actualizaciones de posición continuas y opciones de respaldo cuando el GPS por sí solo puede verse limitado. El dispositivo incorpora funciones útiles para el día a día con mascotas, como geocercas configurables por GPS y WiFi, una luz LED controlable de forma remota para mejorar la visibilidad, reporte de actividad o deporte, función de llamada para comunicación bidireccional cuando sea necesario, protección IP67 contra el agua y el polvo, y carga rápida con alerta de batería baja para ayudar a mantener el tiempo de actividad.
 

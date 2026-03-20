@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D50
 
+<div className="device-logo">
 ![D50](./tracker.jpg)
+</div>
 
 The Sentar D50 is a compact 4G kids smart watch designed for child safety and family communication. As a wearable GPS tracker, it combines GPS with LBS and WiFi positioning, a front camera for calls and photos, and a physical SOS button in a small color display form factor. The device is built to provide continuous location visibility and simple emergency reporting for parents and guardians.
 

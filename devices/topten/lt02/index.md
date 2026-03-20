@@ -20,7 +20,9 @@ keywords:
 
 # TopTen - LT02
 
+<div className="device-logo">
 ![LT02](./Logo.jpg)
+</div>
 
 The TopTen LT02 is a mini GPS tracker designed for vehicle tracking and basic telematics. It combines location reporting with alarm and monitoring functions, allowing owners and managers to check a vehicle's physical address including city and street, receive movement and over speed alerts, and monitor engine on status. The LT02 also includes a data logger capable of storing thousands of waypoints and provides odometer and vehicle voltage awareness for simple operational oversight.
 

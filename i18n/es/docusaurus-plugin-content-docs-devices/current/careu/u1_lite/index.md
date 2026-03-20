@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - U1 Lite+
 
+<div className="device-logo">
 ![U1 Lite+](./logo..png)
+</div>
 
 El CAREU U1 Lite+ es un rastreador GPS compacto y económico pensado para la supervisión de vehículos y activos. Ofrece conectividad celular 4G con conmutación a 3G y 2G, WiFi integrado e internet para usos auxiliares como transmisión de video, y una amplia expansión de E/S mediante puertos RS232 y entradas y salidas adicionales. El equipo incluye registro de posiciones, detección de movimiento, soporte para periféricos 1-Wire y detección de interferencias, lo que lo hace adecuado para múltiples escenarios de seguimiento y seguridad.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Flextrack - Lommy Personal
 
+<div className="device-logo">
 ![Lommy Personal](./logo.jpg)
+</div>
 
 The Flextrack Lommy Personal is a dedicated personal safety tracking device designed for people who need discreet, reliable location monitoring. It is described as suitable for lone workers, social workers, elderly individuals, and children, and offers a user configurable form factor to match individual needs. The Lommy Personal emphasizes long operating time between charges and a highly sensitive GPS receiver that supports tracking in difficult environments.
 

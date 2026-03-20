@@ -21,7 +21,9 @@ keywords:
 
 # EV - EV-04
 
+<div className="device-logo">
 ![EV-04](./tracker.png)
+</div>
 
 El EV-04 es un colgante rastreador GPS 4G compacto diseñado para ofrecer protección personal confiable y soporte en monitoreo remoto de pacientes. Como dispositivo ligero para uso continuo, integra un botón SOS, detección de caídas altamente sensible, comunicación de voz bidireccional y múltiples métodos de posicionamiento para entregar a cuidadores y servicios de monitoreo alertas y ubicación precisas y oportunas. Cuenta con protección IP67 y un diseño pensado para uso diario, con carcasa de tacto suave y una base de carga dedicada.
 

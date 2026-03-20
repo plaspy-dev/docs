@@ -20,7 +20,9 @@ keywords:
 
 # Aplicom - A1 TRAX
 
+<div className="device-logo">
 ![A1 TRAX](./logo.jpg)
+</div>
 
 The Aplicom A1 TRAX is a versatile GPS tracker designed for fleet and asset tracking as well as security applications. Built to deliver reliable location data and operational insights, the unit includes capabilities commonly used in fleet management such as GPS and GLONASS positioning, mileage reporting, power management, movement detection, and driver behavior monitoring. Its expandable memory and two processor architecture are intended to support sustained operation and feature growth for a variety of tracking needs.
 

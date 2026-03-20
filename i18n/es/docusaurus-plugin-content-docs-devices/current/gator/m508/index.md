@@ -21,7 +21,9 @@ keywords:
 
 # Gator - M508
 
+<div className="device-logo">
 ![M508](./logo.jpg)
+</div>
 
 El Gator M508 es un rastreador GPS compacto pensado para la gestión de flotas y la seguridad vehicular. Ofrece posicionamiento preciso y opciones de comunicación flexibles, por lo que resulta adecuado para camiones de obra, flotas de alquiler, vehículos logísticos y transporte público. El equipo puede reportar ubicación mediante SMS o conexión de datos, y enviar informes de posición de forma periódica o bajo demanda, entregando las funciones esenciales para la supervisión operativa.
 

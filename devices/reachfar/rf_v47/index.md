@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V47
 
+<div className="device-logo">
 ![RF-V47](./tracker.jpg)
+</div>
 
 The RF-V47 is a compact IP67 waterproof GPS tracker designed primarily for pets and personal safety. It combines hybrid positioning with GPS, AGPS and cell based fallback to provide reliable location reporting, plus features such as two way voice, ring to find and geo fence alerts. The unit is lightweight and built for daily wear and outdoor use, making it suitable for caregivers who need continual situational awareness.
 

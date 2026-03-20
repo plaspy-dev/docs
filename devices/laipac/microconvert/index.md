@@ -20,7 +20,9 @@ keywords:
 
 # Laipac - MicroConvert
 
+<div className="device-logo">
 ![MicroConvert](./logo.jpg)
+</div>
 
 The Laipac MicroConvert is a compact covert GPS tracker designed to monitor non powered assets. Housed in a strong, durable, waterproof, shockproof, and dustproof enclosure, the device is intended for discreet attachment to metal surfaces using powerful rare earth magnets. Laipac offers two capacity versions: an 8Ah model that can provide up to about one month of tracking on a full charge, and a 21Ah model that can provide up to about six months of tracking on a full charge.
 

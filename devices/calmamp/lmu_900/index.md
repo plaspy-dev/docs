@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-900
 
+<div className="device-logo">
 ![LMU-900](./logo.jpg)
+</div>
 
 The CalmAmp LMU-900 is a compact GPS tracker designed for reliable installation in automobiles. It is intended for a range of vehicle tracking and AVL applications including small fleets, automotive insurance programs, stolen vehicle recovery, vehicle finance, and auto rental operations. The device emphasizes accurate GPS performance, motion and tilt sensing via a 3-axis accelerometer, and flexible input and output options for integrating external devices.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CC-338
 
+<div className="device-logo">
 ![CC-338](./tracker.JPG)
+</div>
 
 El CC-338 es un rastreador telemático vehicular compacto 4G T Box de Carscop diseñado para renta de autos, car sharing y gestión de flotas. Integra radios celular y GNSS junto con conectividad OBD II CANBUS para convertir vehículos convencionales en activos monitoreables y controlables de forma remota, pensados para alquiler sin atención y servicios de uso compartido. La unidad captura ubicación, estado del vehículo y eventos básicos, a la vez que ofrece canales para control remoto y gestión de accesos locales.
 

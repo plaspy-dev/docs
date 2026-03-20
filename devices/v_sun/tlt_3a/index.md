@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - TLT-3A
 
+<div className="device-logo">
 ![TLT-3A](./logo.jpg)
+</div>
 
 The V-SUN TLT-3A is a compact GPS vehicle tracker designed for a wide range of vehicles including cars, motorcycles, and electric vehicles. It provides real time tracking and speed upload, supports virtual geofencing and parking protection features, and includes a high sensitivity G sensor to detect vehicle movement. The device is positioned as a versatile option for owners and fleet operators who need continuous location awareness and basic event notifications.
 

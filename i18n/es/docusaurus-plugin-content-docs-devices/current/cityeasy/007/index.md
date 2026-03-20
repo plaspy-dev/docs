@@ -21,7 +21,9 @@ keywords:
 
 # Cityeasy - 007
 
+<div className="device-logo">
 ![007](./logo.jpg)
+</div>
 
 El Cityeasy 007 es un rastreador GPS para automóviles diseñado para ofrecer localización en tiempo real y monitoreo remoto confiable. Integra posicionamiento por LBS y GPS con capacidad para supervisión a larga distancia, una batería extraíble de 5000 mAh para operación prolongada y una carcasa con certificación IP67 que resiste agua y polvo. Está dirigido tanto a propietarios particulares como a operadores de flotas comerciales que requieren visibilidad continua de la ubicación de sus vehículos.
 

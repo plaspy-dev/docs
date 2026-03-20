@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T356
 
+<div className="device-logo">
 ![T356](./tracker.jpg)
+</div>
 
 The T356 is a compact vehicle GPS tracker from Ulbotech designed for cost efficient telemetry and secure anti theft control. Built as an OBD II plug in unit with built in Wi Fi and substantial local storage, the T356 stores trip records locally and can offload data automatically when it reaches configured Wi Fi networks. Its feature set focuses on reliable positioning, vehicle bus telemetry and remote immobilizer control for vehicle security and operational oversight.
 

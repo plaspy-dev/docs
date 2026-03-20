@@ -20,7 +20,9 @@ keywords:
 
 # ArkNav - IR-7
 
+<div className="device-logo">
 ![IR-7](./logo.jpg)
+</div>
 
 The ArkNav IR-7 is a hybrid satellite and GSM GPS tracker designed to deliver reliable real-time tracking in harsh and remote environments. Built with an integrated Iridium satellite module, the IR-7 provides global coverage through a constellation of low earth orbit satellites, and pairs that capability with GSM connectivity where available. Its rugged IP67 enclosure and broad input and output options make it suitable for outdoor and maritime deployments as well as use in deserts and mountainous regions.
 

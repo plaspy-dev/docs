@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V6+
 
+<div className="device-logo">
 ![RF-V6+](./tracker.jpg)
+</div>
 
 El REACHFAR RF-V6+ es un rastreador GPS compacto pensado para protección antirrobo discreta y seguimiento portátil de vehículos. Integra posicionamiento por GPS, AGPS y LBS con reporte GPRS 2G (TCP/IP) y controles por SMS, ofreciendo seguimiento en tiempo real y notificaciones de alarma para pequeños activos, motocicletas, bicicletas y equipaje. Su tamaño reducido y las antenas integradas lo hacen ideal cuando se requiere un dispositivo de perfil bajo.
 

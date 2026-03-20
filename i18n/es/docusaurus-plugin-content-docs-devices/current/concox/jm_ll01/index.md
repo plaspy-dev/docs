@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JM-LL01
 
+<div className="device-logo">
 ![JM-LL01](./tracker.png)
+</div>
 
 El JM-LL01 es un rastreador GNSS compacto y resistente de Concox pensado para despliegues de larga duración y bajo consumo. Combina posicionamiento multifuente con conectividad celular de amplio alcance y una batería recargable de gran capacidad para ofrecer ubicación y telemetría fiables en activos desatendidos a lo largo de áreas geográficas extensas. Diseñado para perdurar y minimizar el mantenimiento, el JM-LL01 es idóneo cuando la operación prolongada sin intervenciones frecuentes es prioritaria.
 

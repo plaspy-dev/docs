@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL502MG
 
+<div className="device-logo">
 ![GL502MG](./logo..png)
+</div>
 
 The QuecLink GL502MG is a rugged GPS tracker built for asset, trailer, and container tracking. Its IP68 waterproof casing and a form factor designed for flexible mounting make it suitable for deployments in harsh outdoor environments. The GL502MG emphasizes long unattended operation with an ultra high capacity, user replaceable battery, and includes positioning enhancements such as GNSS, WiFi positioning, and Bluetooth for local accessory connectivity.
 

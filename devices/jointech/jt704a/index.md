@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT704A
 
+<div className="device-logo">
 ![JT704A](./tracker.jpg)
+</div>
 
 The Jointech JT704A is a Plaspy compatible GPS tracker engineered for container transportation and long duration asset monitoring. Designed for hidden, non invasive installation, the JT704A combines multi mode positioning using GPS, BeiDou, and LBS with onboard light, temperature, and humidity sensing to provide logistics teams with both location and environmental telemetry for rail, marine, and long haul routes.
 

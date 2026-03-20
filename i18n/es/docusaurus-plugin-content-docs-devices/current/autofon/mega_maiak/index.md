@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Мега-Маяк+
 
+<div className="device-logo">
 ![Мега-Маяк+](./logo..png)
+</div>
 
 El AutoFon Мега-Маяк+ es un rastreador GPS compacto diseñado para determinar y transmitir la posición precisa de un objeto protegido mediante los sistemas satelitales GLONASS y GPS. Permite enviar coordenadas por SMS a través de la red GSM y también puede reenviar datos a un servidor de monitoreo utilizando GPRS. Sus funciones integradas —como posicionamiento asistido A-GPS, múltiples sensores de movimiento e impacto y una carcasa resistente con grado IP67— lo hacen apto para una amplia variedad de tareas de seguimiento tanto móviles como estacionarias.
 

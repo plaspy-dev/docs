@@ -21,7 +21,9 @@ keywords:
 
 # Concox - PL601
 
+<div className="device-logo">
 ![PL601](./tracker.png)
+</div>
 
 El Concox PL601 es un rastreador GNSS portátil y compacto LTE Cat 1 diseñado para ofrecer seguridad personal fiable y seguimiento de activos pequeños. Integra posicionamiento multimodal con asistencia AGPS, audio HD bidireccional para monitoreo por voz, un botón SOS de pánico y alertas instantáneas configurables para mantener a personas, mascotas y paquetes visibles en tiempo real. El dispositivo presenta un formato resistente y reducido, con opciones de montaje en correa (lanyard) o clip trasero para uso discreto como wearable o sujeto a prendas y objetos.
 

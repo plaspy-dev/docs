@@ -20,7 +20,9 @@ keywords:
 
 # Bofan - PT-60
 
+<div className="device-logo">
 ![PT-60](./logo.jpg)
+</div>
 
 The Bofan PT-60 is a compact personal GPS/GSM/GPRS tracker designed for locating and protecting people and assets. It provides real time location updates and includes practical features such as geo fence alerts, an SOS button for emergency notifications, movement and speed alarms, and a low battery warning. The unit also supports two way voice communication and a short range listen in capability, making it suitable for a variety of personal safety and asset monitoring scenarios.
 

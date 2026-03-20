@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - T6
 
+<div className="device-logo">
 ![T6](./logo.jpg)
+</div>
 
 El AoYa T6 es un rastreador GPS automotriz compacto diseñado para ofrecer monitoreo de ubicación confiable en vehículos. Su tamaño reducido y construcción liviana facilitan una instalación discreta en automóviles, camionetas o vehículos comerciales ligeros. El equipo combina GPS, LBS y AGPS para proporcionar información de posición con una precisión anunciada en el orden de varios metros, y el fabricante detalla soporte tanto para posicionamiento celular como para componentes relacionados con posicionamiento por satélite.
 

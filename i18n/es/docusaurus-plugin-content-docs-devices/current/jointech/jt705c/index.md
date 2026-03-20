@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - JT705C
 
+<div className="device-logo">
 ![JT705C](./tracker.jpg)
+</div>
 
 El cierre inteligente de video aduanero Jointech JT705C es un rastreador GPS con función de cerradura de video diseñado específicamente para proteger carga de alto valor, contenedores y envíos regulados. Pensado para supervisión aduanera y control de riesgos en la cadena de suministro, el JT705C combina actualizaciones continuas de ubicación GPS con grabación de video basada en eventos, ofreciendo visibilidad y un rastro de evidencia auditable durante todo el tránsito.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Protrack - VT03E+
 
+<div className="device-logo">
 ![VT03E+](./tracker.png)
+</div>
 
 The VT03E+ is a compact GPS tracker built for long term, low maintenance vehicle and asset tracking. It pairs an extended internal battery with a powerful built in magnet and an IP65 rated enclosure to provide reliable real time tracking and anti theft monitoring for cars, trailers, containers and other high value assets. The device is designed to be small and unobtrusive while offering durable weather protection for outdoor use.
 

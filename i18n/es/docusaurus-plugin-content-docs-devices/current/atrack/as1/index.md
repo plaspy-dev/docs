@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AS1
 
+<div className="device-logo">
 ![AS1](./logo.jpg)
+</div>
 
 El ATrack AS1 es un rastreador GPS compacto alimentado por batería, diseñado para el seguimiento de activos móviles. Combina la localización por GPS con opciones flexibles de comunicación celular, y su carcasa con certificación IP67 protege contra polvo y salpicaduras de agua, lo que lo hace adecuado para distintos entornos de trabajo. El AS1 está pensado para despliegues prolongados: ofrece hasta tres años de vida útil de la batería principal y un diseño sin cableado externo que facilita su colocación en vehículos, remolques, equipos u otros activos.
 

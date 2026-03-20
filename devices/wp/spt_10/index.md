@@ -20,7 +20,9 @@ keywords:
 
 # WP - SPT-10
 
+<div className="device-logo">
 ![SPT-10](./logo.jpg)
+</div>
 
 The WP SPT-10 is a compact portable GPS tracking device designed to provide real time location and security features for people and assets. It is described for use with children, the elderly, pets, assets, and vehicles, combining a high sensitivity GPS chipset with a compact form factor and an emergency panic button for immediate alerts. The device supports multiple tracking modes and can record extensive journey history for later review.
 

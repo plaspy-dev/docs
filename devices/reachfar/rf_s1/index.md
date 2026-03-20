@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-S1
 
+<div className="device-logo">
 ![RF-S1](./tracker.jpg)
+</div>
 
 The RF-S1 is a wearable personal GPS tracker and health smart watch designed for continuous health supervision and reliable real time location tracking. Built with caregivers and families in mind, the device combines positioning, an SOS panic button, two way voice calling and removal alerts with ongoing health telemetry such as heart rate, blood oxygen and body temperature. It also includes features to support daily care routines like medicine reminders and voice alarm notices while offering an IP67 level of water resistance for everyday use.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-AVL19
 
+<div className="device-logo">
 ![TZ-AVL19](./logo.jpg)
+</div>
 
 The TZone TZ-AVL19 is a vehicle GPS tracker designed for versatile fleet and vehicle monitoring. It provides single location and continual tracking so administrators can view current positions and movement history. The model includes a range of alarm options such as over-speed, low power, geo-fence, tremble, parking, and SOS to help identify potential issues or incidents promptly.
 

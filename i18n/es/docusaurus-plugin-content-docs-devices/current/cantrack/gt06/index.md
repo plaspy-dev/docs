@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - GT06
 
+<div className="device-logo">
 ![GT06](./logo.jpg)
+</div>
 
 El CanTrack GT06, también comercializado como TK100, es un rastreador GPS vehicular compacto diseñado para localizar y monitorear objetivos móviles mediante satélites GPS y la red GSM/GPRS. Registra datos de posición y puede proporcionar información inmediata de ubicación por SMS a números autorizados, mostrar posiciones en Google Maps o Google Earth y transmitir datos por GPRS a un servidor en Internet para visibilidad en tiempo real desde una computadora.
 

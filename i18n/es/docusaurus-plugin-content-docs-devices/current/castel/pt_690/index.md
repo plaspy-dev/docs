@@ -21,7 +21,9 @@ keywords:
 
 # Castel - PT-690
 
+<div className="device-logo">
 ![PT-690](./logo.jpg)
+</div>
 
 El Castel PT-690 es un rastreador GPS portátil pensado para mascotas. Su formato compacto y liviano lo hace adecuado para colocarlo en un collar o arnés, mientras que sus funciones integradas de posicionamiento permiten a los propietarios localizar y supervisar a sus animales. El dispositivo utiliza conectividad GSM GPRS y posicionamiento satelital para ofrecer actualizaciones de ubicación en tiempo real, y cuenta con modos de posicionamiento dual (GPS y A-GPS) para mejorar la precisión. Una aplicación complementaria para Android e iOS y funciones de alertas por geocerca facilitan recibir notificaciones cuando la mascota abandona un área designada.
 

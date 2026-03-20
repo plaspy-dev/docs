@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK319‑H
 
+<div className="device-logo">
 ![TK319‑H](./tracker.jpg)
+</div>
 
 El TK319‑H es un rastreador GPS 3G compacto diseñado para ofrecer seguimiento vehicular y telemetría confiables. Proporciona localización en tiempo real mediante GPS y posicionamiento por estación base, asistencia AGPS y un conjunto de alarmas de movimiento y seguridad. El equipo incluye detección de encendido (ACC), expansión serie y GPIO, además de interfaces opcionales para relé y sensor de temperatura, todo en un formato reducido pensado para diversas instalaciones en vehículos.
 

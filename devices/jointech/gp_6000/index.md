@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - GP 6000
 
+<div className="device-logo">
 ![GP 6000](./logo.jpg)
+</div>
 
 The Jointech GP 6000 is a versatile GPS tracker designed for vehicle and asset monitoring. It provides multiple communication options including SMS and GPRS, and supports TCP and UDP transmission as well as voice communication. The device offers configurable real time tracking with time based intervals, distance based intervals, and an intelligent mode, together with a set of reporting features and storage for historical log data.
 

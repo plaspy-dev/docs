@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-TT01
 
+<div className="device-logo">
 ![TZ-TT01](./logo.jpg)
+</div>
 
 El TZone TZ-TT01 es un transmisor de temperatura compacto diseñado para monitorear y transmitir datos de hasta tres termómetros digitales mediante una interfaz de un solo cable. La unidad alimenta directamente los termómetros conectados, utiliza una fuente de alimentación externa de CC 5V para su operación principal e incluye una batería interna recargable para modo de espera. Emplea transmisión inalámbrica a 2.4 GHz para enviar las mediciones de temperatura y ofrece un rango de medición de -55℃ a +125℃ con una precisión declarada de aproximadamente 0.5℃.
 

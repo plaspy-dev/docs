@@ -20,7 +20,9 @@ keywords:
 
 # EElink - K9
 
+<div className="device-logo">
 ![K9](./logo.jpg)
+</div>
 
 The EElink K9 is a compact GPS tracker designed for personal safety and asset monitoring. It combines global quad band coverage with GPS and LBS positioning to provide frequent location updates, history playback, and local track recording. The device includes two way communication with one key dialing, an SOS button for emergencies, geo fence and speed alarm functions, and removable battery support with low battery alerts.
 

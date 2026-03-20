@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - GV6
 
+<div className="device-logo">
 ![GV6](./tracker.png)
+</div>
 
 El GV6 es un rastreador compacto 4G diseñado para la supervisión y protección continua de activos. Pensado para despliegues de larga duración, combina posicionamiento multimodal (Beidou, GPS, LBS y WiFi) con conectividad celular flexible 4G y 2G, además de varias configuraciones de baterías para soportar el rastreo constante de contenedores, remolques, maquinaria y otros activos de alto valor.
 

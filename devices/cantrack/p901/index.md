@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - P901
 
+<div className="device-logo">
 ![P901](./tracker.jpg)
+</div>
 
 The CanTrack P901 is an ultra thin ID card style GPS tracker designed for wearable use. It combines GNSS positioning with cellular connectivity and built in voice and alarm features in a compact form factor suited to security personnel, event staff and lone workers. The P901 provides location reporting, one key SOS alerts and group push to talk voice communications in a slim device that can be carried or clipped during patrols and mobile operations.
 

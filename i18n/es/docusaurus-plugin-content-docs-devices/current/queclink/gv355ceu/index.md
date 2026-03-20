@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV355CEU
 
+<div className="device-logo">
 ![GV355CEU](./tracker.png)
+</div>
 
 El QuecLink GV355CEU es un rastreador GPS vehicular LTE de alta precisión diseñado para la gestión exigente de flotas y el cumplimiento normativo. Pensado para flotas mixtas y uso intensivo, el dispositivo ofrece seguimiento en tiempo real, telemetría vehicular completa y descarga remota de tacógrafos para que las flotas supervisen la ubicación de los vehículos, las horas de conducción y la información diagnóstica crítica desde una sola plataforma.
 

@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-V1
 
+<div className="device-logo">
 ![TS-V1](./tracker.jpg)
+</div>
 
 The TS-V1 is a compact, hardwired GPS tracker designed for professional vehicle tracking and fleet management. Built for installation in commercial vehicles, construction machines, rental cars, and private vehicles, the TS-V1 provides real time location reporting, geo fencing, mileage statistics, and remote control features such as fuel or power cut off and SOS alarm signaling. Its rugged design, broad operating voltage range, and removable backup battery help keep units online during demanding operations.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - TLW2-2BL
 
+<div className="device-logo">
 ![TLW2-2BL](./tracker.png)
+</div>
 
 El TLW2-2BL es un rastreador GPS compacto de instalación fija diseñado para despliegues exigentes en vehículos y activos con alimentación. Pensado para ofrecer actualizaciones de posición frecuentes, almacenamiento interno y telemetría ambiental, este equipo está dirigido a flotas, proveedores logísticos y operadores de cadena de frío que requieren visibilidad continua y datos históricos fiables durante interrupciones de cobertura. Su tamaño reducido y su robustez lo hacen ideal para instalar en vehículos, remolques y equipos que necesiten seguimiento persistente y detección de eventos.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - GAT1000
 
+<div className="device-logo">
 ![GAT1000](./tracker.png)
+</div>
 
 El GAT1000 Asset Tracker de Gosafe es un equipo de rastreo GPS robusto diseñado para maquinaria pesada, remolques y otros activos exteriores de alto valor. Combina conectividad LTE Cat 1 de banda ancha con un receptor multi GNSS de 56 canales de alta sensibilidad para ofrecer posiciones y telemetría en tiempo real de forma fiable. Pensado para entornos exigentes, el dispositivo cuenta con una carcasa resistente IP67, una batería interna de respaldo de gran capacidad y E/S flexibles para soportar entradas y salidas telemáticas comunes.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 210
 
+<div className="device-logo">
 ![ST 210](./logo.jpg)
+</div>
 
 El Suntech ST 210 es un rastreador GPS para vehículos que combina posicionamiento satelital con transmisión de datos por celular para ofrecer monitoreo de ubicación en tiempo real. Diseñado para tareas de seguimiento, gestión de flotas, recuperación de vehículos y soporte de navegación a bordo, el ST 210 incluye funciones habituales en dispositivos para flotas como geocercas, capacidad de voz bidireccional, memoria interna y batería de respaldo para preservar datos durante cortes de alimentación. La unidad viene en una carcasa plástica resistente con antenas integradas y ofrece conectividad adicional para micrófonos, altavoces y antenas externas.
 

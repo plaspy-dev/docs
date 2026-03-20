@@ -20,7 +20,9 @@ keywords:
 
 # Noran - NR108
 
+<div className="device-logo">
 ![NR108](./tracker.jpg)
+</div>
 
 The NR108 is a compact GPS tracker designed for discreet installation on motorcycles and other small vehicles. It combines integrated GPS and GSM antennas in a small housing to provide accurate positioning, fuel monitoring, and anti theft features in a low profile package. The device supports reporting via Internet and SMS with LBS fallback for areas of limited GPS reception, and includes a built in backup battery and power saving sleep mode to maintain visibility during power interruptions.
 

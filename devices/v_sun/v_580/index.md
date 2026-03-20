@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - V-580
 
+<div className="device-logo">
 ![V-580](./logo.jpg)
+</div>
 
 The V-SUN V-580 is a child tracking device presented as a small GPS phone with a child friendly cartoon design. It combines location tracking with safety features aimed at primary school students, including arrival and departure notifications, an SOS emergency call function, electronic fences for boundary alerts, and class time controls to limit messaging during lessons. The device is positioned to give parents timely updates about a child’s whereabouts while remaining unobtrusive for school use.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Astra Telematics - AT110
 
+<div className="device-logo">
 ![AT110](./logo.jpg)
+</div>
 
 El Astra Telematics AT110 es un rastreador GPS compacto, del tamaño de una caja de fósforos, diseñado para telemática vehicular y gestión de flotas. Construido con componentes modernos como un procesador Cortex M3 y posicionamiento SiRFStar IV, el AT110 combina reportes de ubicación precisos con una carcasa de aluminio resistente y opciones de antena externa. El dispositivo incluye almacenamiento interno y una batería de respaldo para preservar datos durante interrupciones, y ofrece comunicación vía conexiones celulares cuatribanda para transmitir actualizaciones de posición por tiempo o distancia, además de un modo de suspensión para ahorrar energía.
 

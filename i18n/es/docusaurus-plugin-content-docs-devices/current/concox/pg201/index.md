@@ -21,7 +21,9 @@ keywords:
 
 # Concox - PG201
 
+<div className="device-logo">
 ![PG201](./tracker.png)
+</div>
 
 El PG201 es un rastreador GPS personal compacto e inteligente, diseñado para la gestión de personal en campo y la seguridad personal. Combina posicionamiento multi‑sistema, comunicación bidireccional y un botón SOS dedicado en un equipo ligero y resistente al agua, pensado para ayudar a las organizaciones a supervisar a su personal de campo, equipos de saneamiento y trabajadores vulnerables durante las operaciones diarias.
 

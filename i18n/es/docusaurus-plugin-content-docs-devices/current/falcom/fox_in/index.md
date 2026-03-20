@@ -21,7 +21,9 @@ keywords:
 
 # Falcom - FOX-IN
 
+<div className="device-logo">
 ![FOX-IN](./logo.jpg)
+</div>
 
 El Falcom FOX-IN es un dispositivo de localización inteligente altamente versátil y configurable, pensado para funcionar como cliente móvil en soluciones de AVL, gestión de flotas, seguridad y recuperación de vehículos. Puede adaptarse a requisitos operativos específicos y está diseñado para operar de forma autónoma mientras interactúa con sensores y actuadores externos. El FOX-IN soporta el envío de informes de estado y mensajes de alerta directamente a usuarios y servidores de rastreo, e incluye funciones de comodidad y seguridad como llamadas de voz periódicas, llamadas de emergencia espía, bitácora del conductor y registro de datos completo.
 

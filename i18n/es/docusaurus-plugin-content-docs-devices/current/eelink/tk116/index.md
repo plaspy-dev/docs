@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK116
 
+<div className="device-logo">
 ![TK116](./tracker.jpg)
+</div>
 
 El TK116 es un rastreador GPS compacto de EElink diseñado para ofrecer seguimiento confiable en gestión de flotas y para motocicletas. Combina posicionamiento por GPS y por estaciones base con asistencia AGPS para proporcionar actualizaciones continuas de ubicación y admite reportes de eventos como detección ACC, alarmas por choque y vibración, geocercas, y funciones opcionales como SOS y relé para respaldar flujos de trabajo antirobo.
 

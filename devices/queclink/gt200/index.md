@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GT200
 
+<div className="device-logo">
 ![GT200](./logo.jpg)
+</div>
 
 The GT200 GPS Safety Phone by QuecLink is a compact tracking device designed principally for children's safety. It combines a sensitive built in GPS receiver with a quad band GPRS GSM subsystem to deliver timely location information across wide coverage areas. The device includes an embedded full featured @Track protocol for system integration, an internal u blox chipset, a built in 3 axis accelerometer for man down detection, internal GSM and GPS antennas, quick dial buttons, low power consumption, and CE certification.
 

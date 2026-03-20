@@ -21,7 +21,9 @@ keywords:
 
 # Protrack - ET300
 
+<div className="device-logo">
 ![ET300](./tracker.png)
+</div>
 
 El Protrack ET300 es un rastreador GPS robusto pensado para el monitoreo confiable de vehículos y el control básico de flotas. Albergado en una caja con certificación IP65, el ET300 está diseñado para soportar instalaciones expuestas y ofrecer telemetría y registro de eventos esenciales para autos, motocicletas y vehículos comerciales ligeros. Entre sus funciones principales se encuentran alertas por geocerca, avisos de exceso de velocidad, control de corte de combustible y registro histórico de viajes.
 

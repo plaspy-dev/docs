@@ -21,7 +21,9 @@ keywords:
 
 # WP - VT-10
 
+<div className="device-logo">
 ![VT-10](./logo..png)
+</div>
 
 El VT-10 de WP es un rastreador GPS vehicular compacto diseñado para seguimiento y monitoreo en tiempo real. Integra un receptor GPS de alta sensibilidad con comunicaciones GSM para ofrecer información de ubicación continua, registro de viajes y reportes de eventos. El VT-10 admite varios modos de seguimiento, como intervalos temporales, por distancia y un modo inteligente de reporte adaptativo, además de almacenar un amplio historial de waypoints para revisiones posteriores.
 

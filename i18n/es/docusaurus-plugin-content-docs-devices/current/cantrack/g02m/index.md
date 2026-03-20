@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G02M
 
+<div className="device-logo">
 ![G02M](./logo..jpg)
+</div>
 
 El CanTrack G02M es un localizador GPS compacto que se comercializa como rastreador para mascotas, pero también resulta muy útil para la supervisión de vehículos. Combina la localización por satélite con comunicación celular para determinar la posición y enviar datos de ubicación. El dispositivo puede transmitir actualizaciones por SMS y también subir datos a un servidor en internet, lo que permite visualizar la ubicación en mapas como Google Maps y Google Earth.
 

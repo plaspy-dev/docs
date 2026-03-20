@@ -20,7 +20,9 @@ keywords:
 
 # Stars Nav - PT-33 Lite
 
+<div className="device-logo">
 ![PT-33 Lite](./tracker.jpg)
+</div>
 
 The PT-33 Lite is a compact, SMS based GPS tracker designed for reliable personal safety and low bandwidth real time tracking. It supports on demand location requests by call or SMS and issues event alerts such as panic button activations, motion or immobility notifications, geo fence triggers, and speed alarms. The device emphasizes straightforward operation and quick actionable position reporting where continuous data connections are limited.
 

@@ -21,7 +21,9 @@ keywords:
 
 # MiniFinder - Atto Pro
 
+<div className="device-logo">
 ![Atto Pro](./tracker.jpg)
+</div>
 
 El MiniFinder Atto Pro es un rastreador GPS compacto y resistente, diseñado principalmente para mascotas y ganado. Pensado para uso en exteriores, cuenta con grado de protección IP67 y un formato pequeño y ligero para colocarlo en el collar. Ofrece actualizaciones de posición continuas, alertas con detección de movimiento y registro local de datos, lo que lo hace idóneo para entornos de campo donde se requiere una localización fiable.
 

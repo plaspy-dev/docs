@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL300
 
+<div className="device-logo">
 ![GL300](./tracker.png)
+</div>
 
 El QuecLink GL300 es un rastreador GNSS compacto y resistente, pensado para el monitoreo continuo de ubicación en entornos al aire libre y de resistencia. Diseñado para soportar condiciones húmedas y terrenos expuestos, el GL300 admite posicionamiento multi-constelación y tiene un tamaño que facilita su colocación en personas o activos pequeños. Su rendimiento comprobado en escenarios de monitoreo en vivo lo hace una opción práctica cuando se necesitan feeds de ubicación consistentes.
 

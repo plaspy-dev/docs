@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-G17W
 
+<div className="device-logo">
 ![TS-G17W](./tracker.jpg)
+</div>
 
 The TS-G17W is a compact, IP67 waterproof vehicle GPS tracker designed for reliable, real time tracking in demanding environments. Built for worldwide deployment with 4G LTE‑FDD and 2G GSM fallback where applicable, the device targets fleet management, anti theft protection and remote telemetry use cases. Its small form factor and rugged housing make it suitable for discreet installation on cars, trucks, buses and exposed assets that need weather protection and durable performance.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - U03
 
+<div className="device-logo">
 ![U03](./tracker.png)
+</div>
 
 The Xexun U03 is a compact indoor positioning badge designed for high precision personnel tracking in managed facilities. Built around ultra wideband ranging and a built in RFID module, the U03 delivers centimetre level location and real time presence information for environments where GPS is not reliable. Its badge form factor, waterproof rating and safety features make it suitable for continuous wear in factories, hospitals, schools and other supervised spaces.
 

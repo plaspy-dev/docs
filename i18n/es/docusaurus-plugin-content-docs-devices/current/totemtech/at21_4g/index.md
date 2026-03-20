@@ -21,7 +21,9 @@ keywords:
 
 # Totemtech - AT21-4G
 
+<div className="device-logo">
 ![AT21-4G](./tracker.jpg)
+</div>
 
 El AT21-4G es un rastreador GPS 4G robusto con alimentación solar, diseñado para el monitoreo remoto de activos a largo plazo. Pensado para remolques, contenedores, vagones, equipos mineros y otros activos estacionarios o en zonas remotas, el equipo combina una carcasa sellada IP67, un panel solar integrado de gran tamaño y una batería interna de alta capacidad para ofrecer telemática continua y de bajo mantenimiento cuando no hay alimentación DC permanente.
 

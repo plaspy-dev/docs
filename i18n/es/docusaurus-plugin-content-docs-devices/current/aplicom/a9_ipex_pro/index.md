@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - A9 IPEX PRO
 
+<div className="device-logo">
 ![A9 IPEX PRO](./tracker.jpg)
+</div>
 
 El Aplicom A9 IPEX PRO es un rastreador GPS y unidad telemática de construcción robusta, diseñado para uso exigente en campo. Orientado a remolques, maquinaria pesada y telemetría en activos estacionarios (como máquinas expendedoras), el A9 IPEX PRO ofrece seguimiento en tiempo real fiable, captura de telemetría sólida y una carcasa sellada con clasificación IP67 para soportar condiciones ambientales adversas. Incluye batería interna para escenarios de alimentación intermitente y está pensado para entregar datos de posición y señales operativas consistentes para la supervisión de flotas y activos.
 

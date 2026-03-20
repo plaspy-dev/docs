@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - T0500
 
+<div className="device-logo">
 ![T0500](./tracker.jpg)
+</div>
 
 The GOTOP T0500 is a solar assisted GPS tracker purpose built for long term livestock and large animal monitoring. Rugged and rated IPX7 for outdoor immersion, the T0500 combines a large internal rechargeable battery with integrated solar panels to reduce maintenance cycles and keep devices active across extended field deployments. It is designed for secure collar mounting and includes tamper and collar cut alerting to support rapid response in theft or escape events.
 

@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV53MG
 
+<div className="device-logo">
 ![GV53MG](./tracker.png)
+</div>
 
 The QuecLink GV53MG is a compact vehicle GPS tracker engineered for discreet in line installation in cars and light vehicles. It combines low power wide area cellular connectivity with a high sensitivity u blox GNSS receiver to provide reliable real time location and telemetry. Designed with an ultra thin form factor and internal antennas the unit is well suited to covert placements for asset protection and recovery workflows.
 

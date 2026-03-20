@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV53MG
 
+<div className="device-logo">
 ![GV53MG](./tracker.png)
+</div>
 
 El QuecLink GV53MG es un rastreador GPS vehicular compacto diseñado para instalaciones discretas en línea en autos y vehículos ligeros. Combina conectividad celular de área amplia de bajo consumo con un receptor GNSS u blox de alta sensibilidad para ofrecer ubicaciones y telemetría en tiempo real con fiabilidad. Con un formato ultradelgado y antenas internas, el equipo es ideal para colocaciones ocultas enfocadas en la protección y recuperación de activos.
 

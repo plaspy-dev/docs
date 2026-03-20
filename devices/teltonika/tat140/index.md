@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - TAT140
 
+<div className="device-logo">
 ![TAT140](./tracker.png)
+</div>
 
 The Teltonika TAT140 is a compact, battery powered GPS tracker designed for long term unattended asset tracking. Built for durability, it offers 4G LTE Cat 1 connectivity with 2G fallback and configurable periodic reporting to provide reliable position updates across freight, containers, rental equipment, and construction assets. An IP68 rated enclosure and optional magnetic holder support weatherproof attachment while power saving modes extend operational life depending on reporting frequency.
 

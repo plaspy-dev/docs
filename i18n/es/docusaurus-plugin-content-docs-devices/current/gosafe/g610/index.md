@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G610
 
+<div className="device-logo">
 ![G610](./tracker.jpg)
+</div>
 
 El G610 es un rastreador vehicular compacto y económico, pensado para proveedores de servicios, integradores y flotas empresariales que requieren hardware confiable compatible con Plaspy. Integra conectividad celular, posicionamiento GNSS multiconstelación y soporte para sensores inalámbricos para ofrecer telemetría continua de ubicación, eventos y choques, adecuada para la gestión de flotas y programas de telemática para seguros.
 

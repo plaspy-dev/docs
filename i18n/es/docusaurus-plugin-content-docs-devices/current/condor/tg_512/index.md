@@ -21,7 +21,9 @@ keywords:
 
 # Condor - TG-512
 
+<div className="device-logo">
 ![TG-512](./tracker.png)
+</div>
 
 El TG-512 es un rastreador GPS compacto diseñado para vehículos y maquinaria industrial. Integra antenas GPS y GPRS de alta sensibilidad con entradas y salidas flexibles para transmitir posición y telemetría a través de la red celular. El equipo incluye interfaces habituales para conectar sensores y equipos a bordo, lo que lo hace apropiado para tareas telemáticas que van desde la supervisión rutinaria de flotas hasta el monitoreo de maquinaria.
 

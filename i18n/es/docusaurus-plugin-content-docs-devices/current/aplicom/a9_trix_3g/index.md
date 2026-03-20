@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - A9 TRIX 3G
 
+<div className="device-logo">
 ![A9 TRIX 3G](./logo.jpg)
+</div>
 
 El Aplicom A9 TRIX 3G es una unidad telemática diseñada para el seguimiento fiable de vehículos y activos. Soporta conectividad 3G y puede conmutar entre tipos de red disponibles para mantener el enlace de datos, con velocidades de bajada y subida declaradas adecuadas para el tráfico telemático habitual. El equipo incorpora funciones habituales en despliegues de flotas como posicionamiento por GPS y GLONASS, antenas internas, un acelerómetro 3D para detección de movimiento y una batería de respaldo para continuidad a corto plazo.
 

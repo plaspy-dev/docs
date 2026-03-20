@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TK920
 
+<div className="device-logo">
 ![TK920](./tracker.jpg)
+</div>
 
 The TK920 is a heavy duty 4G GPS tracker designed for long term vehicle and asset monitoring. It combines a rugged IP65 enclosure with a large 10000 mAh rechargeable battery and multi constellation positioning including GPS, BeiDou and GLONASS plus LBS and Wi Fi to provide dependable location data in demanding field conditions. The device is described as suitable for private cars, rental fleets, containers, construction equipment and other remote assets where endurance and environmental protection matter.
 

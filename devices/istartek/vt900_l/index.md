@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT900-L
 
+<div className="device-logo">
 ![VT900-L](./tracker.jpg)
+</div>
 
 The VT900-L is a compact vehicle GPS tracker from iStartek designed for professional fleet management and vehicle telematics. It provides continuous position reporting and event detection suitable for live monitoring, anti theft workflows, and broader operational telemetry. The unit supports multi channel reporting and local record storage to preserve data during temporary connectivity gaps, making it appropriate for commercial fleet deployments.
 

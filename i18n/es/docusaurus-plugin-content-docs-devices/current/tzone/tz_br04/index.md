@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-BR04
 
+<div className="device-logo">
 ![TZ-BR04](./logo.jpg)
+</div>
 
 El TZone TZ-BR04 es un rastreador GPS de grado industrial pensado para detección de ubicación y monitoreo robusto en grandes espacios exteriores y entornos adversos. Opera en la banda de microondas ISM, ofreciendo recepción confiable de señal hasta 50 metros. Cuenta con una carcasa de calidad industrial, antena externa para mejorar la recepción y un amplio rango de temperatura operativa de -40℃ a +60℃, lo que lo hace idóneo para condiciones exigentes. Sus dimensiones compactas (L78mm x W67mm x H27mm) y su ángulo de identificación omnidireccional permiten colocaciones flexibles en distintos activos.
 

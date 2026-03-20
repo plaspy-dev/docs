@@ -21,7 +21,9 @@ keywords:
 
 # Orion - BD-2012
 
+<div className="device-logo">
 ![BD-2012](./logo.jpg)
+</div>
 
 El rastreador GPS Orion BD-2012 es un dispositivo compacto para gestión de activos y seguridad, diseñado para cubrir necesidades de rastreo versátiles. Proporciona monitoreo continuo de ubicación, soporte de geocercas para alertas por entrada y salida de perímetros, y un botón SOS para situaciones de emergencia. Su diseño liviano facilita la colocación discreta en una amplia variedad de activos y está pensado para funcionar en diferentes condiciones ambientales.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A9S
 
+<div className="device-logo">
 ![HB-A9S](./tracker.jpg)
+</div>
 
 The HB-A9S is a high end 4G GPS tracker designed for vehicle fleets that need robust telemetry and multimedia capability. It combines cellular connectivity with a built in WiFi hotspot and expandable interfaces to support peripherals such as cameras, card readers and fuel sensors. The device also provides common fleet features including ACC ignition detection, SOS input and remote cut or speed limiting via relay to support security and operational controls.
 

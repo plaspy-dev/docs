@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT60
 
+<div className="device-logo">
 ![GPT60](./tracker.jpg)
+</div>
 
 El GPT60 es un rastreador GPS compacto y recargable diseñado principalmente para la seguridad personal y el seguimiento continuo de activos portátiles. Combina posicionamiento GNSS multi constelación con respaldo por Wi‑Fi y LBS celular para mantener un seguimiento confiable en tiempo real y reportes de eventos. Cuenta con voz bidireccional integrada, un botón SOS y alertas automáticas por caída y vibración, lo que lo hace ideal para trabajadores solitarios, adultos mayores y usuarios al aire libre que requieren escalamiento rápido de incidentes y compartir ubicación de forma sencilla.
 

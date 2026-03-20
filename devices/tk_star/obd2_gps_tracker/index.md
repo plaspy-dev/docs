@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - OBD2 GPS Tracker
 
+<div className="device-logo">
 ![OBD2 GPS Tracker](./tracker.jpg)
+</div>
 
 The TK-Star OBD2 GPS Tracker is a plug-and-play vehicle tracker designed to connect directly to a standard OBD2 port for quick deployment. Built for private cars, rental fleets and commercial vehicles, it delivers continuous location information and vehicle diagnostic data to Plaspy-compatible platforms. The device is positioned as a no-wiring alternative that provides real-time tracking, historical routes and basic telemetry useful for monitoring and security.
 

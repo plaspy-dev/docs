@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TE-207S
 
+<div className="device-logo">
 ![TE-207S](./tracker.png)
+</div>
 
 The TE-207S Waterproof GPS Tracker is a compact, rugged personal tracker designed for reliable real time tracking and safety monitoring. Built around a U-blox 7 GNSS chipset with AGPS and quad band GSM GPRS connectivity, the device delivers position updates, an SOS button, two way calling and voice monitoring in a small IPX6 rated package suitable for wet or demanding environments.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - 2FD-100
 
+<div className="device-logo">
 ![2FD-100](./tracker.jpg)
+</div>
 
 The 2FD-100 is a two-way OBD2 GPS tracker combined with a smart 4G car alarm, designed for professional vehicle security and connectivity. As an integrated unit, it merges positioning, alarm inputs and outputs, a mobile WiFi hotspot and two-way voice communication to offer real-time tracking and anti-theft protection for demanding vehicle installations. Built with industrial grade components and a legal IMEI GSM/GPS module, the device is intended for fleet deployments and environments where reliable telemetry and alarm handling are important.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Flextrack - Lommy Eye
 
+<div className="device-logo">
 ![Lommy Eye](./tracker.jpg)
+</div>
 
 Lommy Eye es un rastreador GPS compacto y alimentado por batería desarrollado por Flextrack para monitoreo remoto a largo plazo, recuperación discreta y registro confiable de posiciones. Está pensado para enviar informes de ubicación programados y por eventos, e incorpora asistencia por RF para facilitar la localización de activos cuando las señales GNSS son débiles. Sus variantes en distintos tamaños y su instalación sin cableado lo hacen adecuado para una variedad de activos portátiles y fuera de vehículo.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Castel - PT-719
 
+<div className="device-logo">
 ![PT-719](./logo.jpg)
+</div>
 
 El Castel PT-719 es un rastreador GPS compacto pensado para monitoreo de ubicación en tiempo real y uso portátil. Opera en redes 2G con compatibilidad GSM cuatribanda y combina posicionamiento por GPS con una aplicación móvil que le permite a usted consultar la ubicación y el estado del equipo desde un teléfono. Su tamaño reducido, bajo peso y opción de colgado al cuello lo hacen práctico para el seguimiento de personal y tareas de monitoreo transportable.
 

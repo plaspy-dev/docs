@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - TK905
 
+<div className="device-logo">
 ![TK905](./tracker.jpg)
+</div>
 
 The TK905 is a compact GPS tracker from LK GPS designed for discreet vehicle security and reliable real time tracking. Targeted at cars and motorcycles, the TK905 reports position data to online platforms and mobile apps, and is frequently chosen for anti theft protection, fleet visibility, and personal vehicle monitoring where a small form factor and extended standby life are important.
 

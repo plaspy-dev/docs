@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - G19H
 
+<div className="device-logo">
 ![G19H](./tracker.webp)
+</div>
 
 The WanWay G19H is a compact, rugged GPS tracker designed for vehicle tracking and security applications. Built as a four wire device with integrated GSM and GPS technologies and packaged in an IP67 waterproof housing, the G19H is intended to deliver reliable real time location and telemetry for vehicles operating in wet or exposed conditions. Its feature set emphasizes practical anti theft and operational controls such as ACC ignition detection, vibration and tamper alarms, and a remote cut off immobilizer function.
 

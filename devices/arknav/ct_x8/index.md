@@ -20,7 +20,9 @@ keywords:
 
 # ArkNav - CT-X8
 
+<div className="device-logo">
 ![CT-X8](./tracker.png)
+</div>
 
 The CT-X8 Container Lock GPS Tracker is a rugged, tamper evident electronic lock built for shipping containers and transit cargo. It combines an internal GPS receiver, cellular communications, and a stainless steel lock mechanism in an IP67 rated housing to provide continuous location visibility, intrusion detection, and chain of custody evidence suitable for port, intermodal, and long haul logistics environments.
 

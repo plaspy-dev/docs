@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL501MG
 
+<div className="device-logo">
 ![GL501MG](./tracker.png)
+</div>
 
 El QuecLink GL501MG es un rastreador GPS compacto con alimentación por batería, diseñado para el monitoreo de activos sin supervisión durante largos períodos. Basado en la plataforma GL500MG, este modelo incorpora conectividad celular de bajo consumo moderna, carga inalámbrica y soporte para sensores Bluetooth, manteniendo una carcasa sellada IP67 y antenas internas para una instalación sencilla en remolques, contenedores, pallets y otros activos remotos.
 

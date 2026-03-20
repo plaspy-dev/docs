@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-17K
 
+<div className="device-logo">
 ![AT-17K](./tracker.jpg)
+</div>
 
 The Autoseeker AT-17K is a 4G solar wireless magnetic GPS tracker built for long-term, low-maintenance asset and vehicle monitoring. It combines a rugged IP68 waterproof enclosure with a strong magnetic mount and a high-capacity internal battery plus solar recharge to provide continuous location reporting and status updates for fleets, containers, boats, and heavy equipment.
 

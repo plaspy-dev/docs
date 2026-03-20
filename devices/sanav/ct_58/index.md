@@ -20,7 +20,9 @@ keywords:
 
 # Sanav - CT-58
 
+<div className="device-logo">
 ![CT-58](./logo.jpg)
+</div>
 
 The Sanav CT-58 is a compact mini GPS tracker designed for flexible tracking needs such as vehicles, containers, and movable assets. It includes a high sensitivity vibration sensor to detect movement and send reports when activity is detected. Its improved GPS and GSM reception, together with a robust small enclosure, make it suitable for discreet monitoring in a range of operational environments.
 

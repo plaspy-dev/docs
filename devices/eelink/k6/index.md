@@ -20,7 +20,9 @@ keywords:
 
 # EElink - K6
 
+<div className="device-logo">
 ![K6](./logo.jpg)
+</div>
 
 The EElink K6 is a versatile GPS tracker designed to protect and monitor mobile assets and people. It offers global quad band cellular support for broad geographic coverage, two way communication for quick contact, and a dedicated SOS button for emergency alerts. The device combines GPS with cell based positioning to provide position updates and supports data upload for real time tracking and history playback, while also supporting local track recording and export for offline analysis.
 

@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GT300
 
+<div className="device-logo">
 ![GT300](./logo.jpg)
+</div>
 
 The QuecLink GT300 is a compact GSM/GPS safety phone designed for seniors and lone workers who need dependable location monitoring and simple emergency communications. It combines a sensitive internal GPS receiver based on a u‑blox chipset, quad band GPRS/GSM connectivity, an easy to read white OLED display, and built in motion detection to provide accessible and continuous tracking in a small form factor.
 

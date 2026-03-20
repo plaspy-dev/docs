@@ -21,7 +21,9 @@ keywords:
 
 # ArkNav - K-18U
 
+<div className="device-logo">
 ![K-18U](./logo.jpg)
+</div>
 
 El ArkNav K-18U es un registrador de datos GPS compacto diseñado para registrar recorridos y monitorear activos con un enfoque en la captura sencilla y fiable de datos. Registra hora, fecha y posición satelital cada segundo y guarda sentencias completas NMEA, lo que permite revisar o procesar las rutas grabadas posteriormente. El equipo almacena la información en tarjetas micro SD extraíbles y organiza los archivos en orden cronológico para facilitar su recuperación.
 

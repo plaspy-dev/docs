@@ -21,7 +21,9 @@ keywords:
 
 # GalileoSky - GALILEOSKY V2.2.8
 
+<div className="device-logo">
 ![GALILEOSKY V2.2.8](./logo.jpg)
+</div>
 
 El GALILEOSKY GLONASS GPS V2.2.8 es un rastreador satelital versátil diseñado para el monitoreo de vehículos. Integra posicionamiento GLONASS y GPS para ofrecer seguimiento continuo de la ubicación, soporta monitoreo en línea para el intercambio de datos en tiempo real con servidores y cuenta con características como batería integrada para el módulo GLONASS, carga de archivos de archivo sin conexión vía USB y soporte para captura de video y subida de fotografías. El equipo también incluye capacidades de diagnóstico vehicular y diversas opciones de comunicación según especifica el fabricante.
 

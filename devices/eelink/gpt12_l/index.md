@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT12‑L
 
+<div className="device-logo">
 ![GPT12‑L](./tracker.jpg)
+</div>
 
 The GPT12‑L is a compact IoT asset tracker from the GPT Series designed for discreet, long‑term monitoring of vehicles and high value assets. It combines multi‑constellation GNSS positioning with LTE Cat M1 and NB2 cellular connectivity and a 4500 mAh lithium manganese battery to provide versatile real‑time tracking and extended standby operation. The device's slim form factor and stated GNSS accuracy under 2 m make it suitable for concealed mounting and ongoing location monitoring where space and maintenance intervals are important.
 

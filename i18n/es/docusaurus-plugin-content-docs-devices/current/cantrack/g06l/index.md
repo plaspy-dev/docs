@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G06L
 
+<div className="device-logo">
 ![G06L](./tracker.jpg)
+</div>
 
 El CanTrack G06L es un rastreador GPS 4G compacto optimizado para instalaciones en vehículos. Diseñado para motocicletas, automóviles, scooters y camionetas ligeras, el G06L combina una carcasa de antena interna de bajo perfil con posicionamiento GNSS y conectividad celular, además de una batería de respaldo que permite seguir reportando durante cortes de alimentación. El equipo está pensado para una instalación discreta y, al mismo tiempo, ofrece telemetría y avisos de alarma que ayudan a los operadores a mantener visibilidad sobre sus activos móviles.
 

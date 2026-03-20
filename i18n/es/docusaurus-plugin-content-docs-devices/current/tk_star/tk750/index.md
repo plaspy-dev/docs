@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK750
 
+<div className="device-logo">
 ![TK750](./tracker.png)
+</div>
 
 El TK-Star TK750 es un rastreador GPS 4G compacto de un fabricante de telemática consolidado, pensado para motocicletas, autos particulares, vehículos eléctricos, flotas de alquiler y camionetas ligeras. Combina posicionamiento con múltiples constelaciones, asistencia por LBS y Wi‑Fi, y un amplio soporte celular para ofrecer posicionamiento confiable en exteriores, mejor cobertura en interiores y opciones prácticas tanto para instalaciones ocultas como empotradas.
 

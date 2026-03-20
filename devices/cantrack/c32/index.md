@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - C32
 
+<div className="device-logo">
 ![C32](./logo..jpg)
+</div>
 
 The CanTrack C32 is a compact and versatile GPS tracker for vehicles, motorcycles, and E bikes. Designed to operate across a wide voltage range, it delivers real time location reporting and onboard monitoring suited to mixed fleets and personal vehicles. The device also supports remote engine control and vehicle status reporting, making it a practical option for basic security and operational oversight.
 

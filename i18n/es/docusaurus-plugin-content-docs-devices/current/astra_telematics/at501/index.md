@@ -21,7 +21,9 @@ keywords:
 
 # Astra Telematics - AT501
 
+<div className="device-logo">
 ![AT501](./tracker.png)
+</div>
 
 El AT501 Mini Asset Tracker es un rastreador GPS compacto alimentado por batería, diseñado para el monitoreo prolongado de activos pequeños y sin fuente de energía. Está pensado para despliegues extendidos en herramientas, remolques, contenedores y otros equipos remotos, combinando conectividad celular multi red, GNSS multi constelación y operación de muy bajo consumo para ofrecer reportes de posición confiables durante meses o incluso años.
 

@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AS3
 
+<div className="device-logo">
 ![AS3](./logo.jpg)
+</div>
 
 El ATrack AS3 es un rastreador GPS compacto y versátil diseñado para el monitoreo de vehículos y remolques. Combina posicionamiento satelital con comunicación de datos celulares para proporcionar información continua de ubicación y modos de seguimiento configurables. Pensado para activos que normalmente están conectados a la alimentación pero que pueden desconectarse temporalmente, el AS3 incorpora una batería interna recargable y una batería de respaldo de gran capacidad para mantener el funcionamiento cuando no hay energía principal.
 

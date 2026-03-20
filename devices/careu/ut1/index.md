@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - UT1
 
+<div className="device-logo">
 ![UT1](./tracker.png)
+</div>
 
 The CAREU UT1 is a powered asset GPS tracker designed for heavy duty environments. Built with an IP67 rated enclosure and rugged construction, the UT1 is intended for reliable real time tracking and telemetry of construction machinery, trailers, safes and other industrial assets. Its specifications emphasize durable performance in dusty, wet and vibration prone sites and include onboard logging and backup power options to support extended field deployments.
 

@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK970
 
+<div className="device-logo">
 ![LK970](./logo..jpg)
+</div>
 
 El LK970 es un rastreador GPS 4G compacto de LK-GPS diseñado para el seguimiento discreto y la monitorización de vehículos, motocicletas y dispositivos portátiles. Combina un tamaño reducido con una fuerte fijación magnética para instalación sin herramientas y baterías integradas que permiten su colocación en múltiples ubicaciones, proporcionando información de ubicación continua y funciones de reporte adecuadas tanto para uso personal como para flotas.
 

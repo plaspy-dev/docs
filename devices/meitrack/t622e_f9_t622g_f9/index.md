@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - T622E-F9/T622G-F9
 
+<div className="device-logo">
 ![T622E-F9/T622G-F9](./tracker.png)
+</div>
 
 The Meitrack T622E-F9 and T622G-F9 are professional vehicle GPS trackers intended for fleet management, logistics and high value vehicle assets that need dependable positioning and telemetry. The series combines an integrated GNSS receiver with multi band cellular telemetry and Iridium SBD satellite fallback to maintain location and event reporting when terrestrial networks are unreliable. Hardware flexibility includes vehicle interfaces and peripheral support to capture engine data, driver identity and fuel-related signals for comprehensive fleet oversight.
 

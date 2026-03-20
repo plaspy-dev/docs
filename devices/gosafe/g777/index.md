@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G777
 
+<div className="device-logo">
 ![G777](./logo.jpg)
+</div>
 
 The Gosafe G777 is an OBD II GPS tracker designed to deliver continuous vehicle monitoring with an emphasis on flexible, rule based alerting. Its core capabilities include a leading alert system and a programmable rule engine that supports user defined exception rules tied to time, date, motion, location, geo zone, speed, and combinations of events. The G777 is described as a comprehensive tracking solution suitable for managing vehicle activity and responding to pre defined thresholds.
 

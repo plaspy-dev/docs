@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC00A
 
+<div className="device-logo">
 ![FMC00A](./logo..png)
+</div>
 
 The Teltonika FMC00A is a compact Plug & Play OBD II tracker built for vehicles in North America. It provides cellular connectivity with 4G LTE Cat 1 and fallback to 3G, and is designed to deliver continuous positioning using multi GNSS systems. The device can read OEM vehicle parameters such as odometer and fuel level, and includes event detection features like excessive idling, towing alerts, crash indication, and unplug detection.
 

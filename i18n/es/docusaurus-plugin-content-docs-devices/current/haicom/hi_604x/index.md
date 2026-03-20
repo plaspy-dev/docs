@@ -21,7 +21,9 @@ keywords:
 
 # Haicom - HI-604X
 
+<div className="device-logo">
 ![HI-604X](./logo.jpg)
+</div>
 
 El Haicom HI-604X es un rastreador GPS compacto de la serie X de Haicom, diseñado para ofrecer seguimiento flexible de vehículos y activos. Según la ficha técnica, el equipo admite programación y control remoto desde una plataforma de rastreo GPRS, puede configurarse por USB o SMS y cuenta con memoria flash integrada que registra el historial de viajes cuando no hay cobertura de red. Además, incorpora sensor de movimiento, carcasa resistente al agua y batería interna para operar en entornos exigentes.
 

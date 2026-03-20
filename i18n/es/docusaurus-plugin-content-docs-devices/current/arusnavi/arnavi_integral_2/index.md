@@ -21,7 +21,9 @@ keywords:
 
 # Arusnavi - Arnavi Integral 2
 
+<div className="device-logo">
 ![Arnavi Integral 2](./logo.jpg)
+</div>
 
 El Arnavi Integral 2 es un controlador de navegación pensado para el monitoreo remoto de objetos móviles. Ofrece ubicación y seguimiento en tiempo real, por lo que resulta adecuado para rastrear vehículos, maquinaria y otros activos trasladables. El equipo se presenta como versátil y confiable, con funcionalidades como geocercas y un diseño compacto y resistente que soporta el uso continuo en condiciones operativas habituales.
 

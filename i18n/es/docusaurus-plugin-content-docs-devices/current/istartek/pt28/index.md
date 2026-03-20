@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - PT28
 
+<div className="device-logo">
 ![PT28](./tracker.jpg)
+</div>
 
 El iStartek PT28 es un reloj GPS 4G compacto diseñado para la seguridad personal y el seguimiento confiable en tiempo real. Combina posicionamiento multimodal con soporte AGPS para ofrecer actualizaciones frecuentes de ubicación y un historial de rutas, además de comunicación de voz bidireccional y una tecla SOS para emergencias. El PT28 está concebido como una solución portátil para la monitorización individual, con carcasa resistente al agua y un diseño ligero con pantalla táctil pensado para el uso diario.
 

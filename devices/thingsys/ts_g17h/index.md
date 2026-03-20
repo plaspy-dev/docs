@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-G17H
 
+<div className="device-logo">
 ![TS-G17H](./tracker.jpg)
+</div>
 
 The TS-G17H is a compact vehicle GPS tracker designed for reliable, discreet real time tracking. Built for worldwide deployment, it combines quad band GSM connectivity with GPRS TCP IP reporting and implements the GT06 message format to deliver location, basic telemetry and anti theft capabilities. Its small form factor, built in GPS antenna and backup battery make it suitable for hidden car tracker and motorcycle locator uses where space and continuity of reporting matter.
 

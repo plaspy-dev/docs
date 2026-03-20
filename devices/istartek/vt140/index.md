@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT140
 
+<div className="device-logo">
 ![VT140](./tracker.jpg)
+</div>
 
 The VT140 from iStartek is an AIS-140 approved GPS tracker designed for professional fleet management and vehicle security. It is built to operate in demanding automotive environments and combines multi GNSS positioning, robust I O for vehicle telemetry and accessories, and industry features such as remote cut off, fuel theft detection support and camera event upload. Dual server IP upload and CDAC protocol capability make the VT140 suitable for regulated deployments that require continuous reporting.
 

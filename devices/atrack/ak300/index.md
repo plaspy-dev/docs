@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AK300
 
+<div className="device-logo">
 ![AK300](./tracker.jpg)
+</div>
 
 The AK300 is a professional vehicle GPS tracker from ATrack designed for fleet management and safety monitoring. Built to capture real-time tracking and telemetry, the AK300 reports precise GPS/GLONASS positioning plus mileage, speed, fuel consumption, and engine status to enable operational insights and timely alerts. Its feature set is aimed at mixed fleets and demanding vehicle environments where continuous visibility and reliable data matter.
 

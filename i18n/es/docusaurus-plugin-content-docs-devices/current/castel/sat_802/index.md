@@ -21,7 +21,9 @@ keywords:
 
 # Castel - SAT-802
 
+<div className="device-logo">
 ![SAT-802](./logo.jpg)
+</div>
 
 El Castel SAT-802 es un rastreador GPS compacto diseñado para cobertura global y monitoreo confiable de activos. Combina la capacidad satelital Iridium SBD con comunicaciones GPRS para reducir zonas muertas y ofrecer seguimiento en amplias áreas para activos de alto valor. El equipo utiliza posicionamiento GPS y un módulo de comunicación dual para mantener el intercambio de datos bidireccional, priorizando la red GSM cuando esté disponible.
 

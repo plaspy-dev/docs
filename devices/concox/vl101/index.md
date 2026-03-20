@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL101
 
+<div className="device-logo">
 ![VL101](./logo..png)
+</div>
 
 The Concox VL101G is a vehicle tracker designed for reliable real time location tracking and fleet oversight. Built around multi constellation GNSS positioning and dual frequency GPS, the device combines standard satellite positioning with an inertial navigation system to maintain location awareness even in areas of weak satellite coverage. It supports cellular communication with modern network fallback and is housed in an IP66 rated enclosure for durable outdoor use.
 

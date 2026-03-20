@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-108B
 
+<div className="device-logo">
 ![BN-108B](./tracker.png)
+</div>
 
 El BN-108B es un rastreador GPS 2G portátil de Coban diseñado para la gestión de activos móviles de larga duración y la protección antirrobo. Combina una carcasa magnética resistente para montaje discreto con una batería recargable de gran capacidad, proporcionando tiempos de espera prolongados y seguimiento extendido para vehículos, remolques, autos de alquiler y equipos portátiles de alto valor. El dispositivo ofrece modos de reporte configurables y un conjunto de funciones de seguridad pensadas para permitir monitoreo continuo sin necesidad de cableado permanente.
 

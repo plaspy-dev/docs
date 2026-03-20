@@ -21,7 +21,9 @@ keywords:
 
 # Stars Nav - Rover 9
 
+<div className="device-logo">
 ![Rover 9](./tracker.jpg)
+</div>
 
 El Rover 9 es un rastreador de vehículos compacto y de grado profesional de Stars Nav, pensado para flotas, empresas de seguridad y negocios que requieren seguimiento en tiempo real confiable. Integra un módulo GNSS SiRFstarIII con comunicación GPRS y capacidad de programación por aire para ofrecer posicionamiento consistente, envío de telemetría y configuración remota de vehículos y activos portátiles.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D22
 
+<div className="device-logo">
 ![D22](./logo..jpg)
+</div>
 
 The GOTOP D22 is a waterproof GPS tracker designed for vehicle tracking and fleet management. It combines 4G wireless communication with GPS and BDS satellite positioning to provide real time location and monitoring for vehicles. The unit includes an industrial high integration design with a full built in antenna and a built in 3 axis sensor to support reliable tracking in a range of operational conditions.
 

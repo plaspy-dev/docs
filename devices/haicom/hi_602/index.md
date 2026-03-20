@@ -20,7 +20,9 @@ keywords:
 
 # Haicom - HI-602
 
+<div className="device-logo">
 ![HI-602](./logo.jpg)
+</div>
 
 The Haicom HI-602 is an all in one tracking device that combines GPS positioning with multiple communication options including SMS, GSM, DTMF, and GPRS. Designed as a compact and rechargeable unit, the HI-602 supports real time location monitoring and is suitable for tracking a wide range of moving objects such as personal items, motorbikes, parcels, or small assets. It ships with PC based Haicom Tracking software and offers flexibility through customization and concealment options.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-300
 
+<div className="device-logo">
 ![LMU-300](./logo.jpg)
+</div>
 
 The CalmAmp LMU-300 is a compact and cost effective GPS tracker designed for discreet and reliable installation in vehicles. It is positioned for common automotive applications such as stolen vehicle recovery, vehicle finance monitoring, and auto rental management. The LMU-300 emphasizes dependable location reporting and practical form factor to fit a variety of mobile vehicle deployments.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Astra Telematics - AT241
 
+<div className="device-logo">
 ![AT241](./tracker.jpg)
+</div>
 
 The AT241 is a rugged GPS tracker engineered for continuous vehicle and asset monitoring. Designed for exposed installations with an IP67 sealed enclosure and a compact footprint, the AT241 provides high sensitivity GNSS positioning, multi generation cellular connectivity and a broad set of inputs and outputs to support real time tracking, telemetry and anti theft workflows in demanding fleet and security environments.
 

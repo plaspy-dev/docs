@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G033
 
+<div className="device-logo">
 ![G033](./tracker.jpg)
+</div>
 
 El GOTOP G033 es un rastreador GPS en formato tarjeta diseñado para el seguimiento discreto de personas y pequeños grupos de personal. Con apariencia similar a una tarjeta de presentación, el G033 ofrece posicionamiento satelital y reporte celular, además de soportar varios modos de posicionamiento, monitoreo de voz y grabación local. Su tamaño compacto y peso ligero lo hacen ideal para llevar en una cartera, bolso u otro objeto personal mientras envía reportes periódicos de ubicación y alertas.
 

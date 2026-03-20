@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G500
 
+<div className="device-logo">
 ![G500](./Logo.png)
+</div>
 
 El CanTrack G500 es un rastreador GPS compacto diseñado para ofrecer posicionamiento en tiempo real y monitorización remota. Combina posicionamiento por satélite GPS con conectividad GSM GPRS, lo que permite actualizaciones de ubicación y consultas remotas mediante mensajes cortos o contacto mutuo. El dispositivo está pensado para el seguimiento de vehículos, bienes móviles y personas que requieren supervisión constante de su ubicación y notificaciones oportunas.
 

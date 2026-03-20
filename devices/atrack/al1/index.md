@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AL1
 
+<div className="device-logo">
 ![AL1](./logo.jpg)
+</div>
 
 The ATrack AL1 is a compact vehicle GPS tracker designed for real time monitoring and flexible remote control. It combines precise GPS positioning with GSM GPRS communication and a built in 3 axis G sensor to support tracking, driver behavior detection, and configurable event actions. The device also provides multiple data transmission options and supports firmware upgrades over the air, making it suitable for a wide range of vehicle and asset tracking applications.
 

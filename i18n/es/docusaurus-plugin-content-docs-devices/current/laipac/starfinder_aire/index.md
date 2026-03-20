@@ -21,7 +21,9 @@ keywords:
 
 # Laipac - StarFinder AIRE
 
+<div className="device-logo">
 ![StarFinder AIRE](./logo.jpg)
+</div>
 
 El Laipac StarFinder AIRE es un rastreador GPS compacto y de diseño sobrio, pensado para una variedad amplia de activos. Ofrece actualizaciones de ubicación rápidas y alertas automáticas, por lo que es ideal para rastrear motocicletas, scooters, cuatrimotos, embarcaciones y activos fijos como cajeros automáticos. El equipo incorpora funciones de monitoreo como geocercas, detección de movimiento, alertas de velocidad y relés internos para controlar salidas, además de contar con una construcción resistente al agua y al polvo para operar en condiciones exigentes.
 

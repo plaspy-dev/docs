@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT800-L
 
+<div className="device-logo">
 ![VT800-L](./tracker.jpg)
+</div>
 
 The VT800-L from iStartek is a professional 4G CAT4 GPS tracker engineered for demanding fleet management and vehicle anti theft deployments. It provides real time tracking and rich telemetry intended for trucks, buses, taxis, rental fleets and high value private vehicles. The device combines a dual mode GNSS receiver and a 4G communication module with local flash buffering to help preserve tracking records during connectivity gaps.
 

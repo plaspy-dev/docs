@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G08-4G
 
+<div className="device-logo">
 ![G08-4G](./tracker.png)
+</div>
 
 El G08-4G es un rastreador vehicular OBD compacto de instalar y usar, diseñado para rastreo en tiempo real y gestión de flotas. Funciona como un conector OBD con antenas GPS y GSM integradas y conectividad 4G, ofreciendo reportes continuos de posición, geocercas, notificaciones de alarma y registro de historial de rutas sin necesidad de instalaciones de cableado separadas.
 

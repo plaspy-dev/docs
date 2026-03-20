@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP4824
 
+<div className="device-logo">
 ![SP4824](./tracker.png)
+</div>
 
 The SP4824 is a latest generation vehicle GPS tracker from SkyPatrol designed for wide carrier and country certifications. It targets vehicle location applications across subprime automotive, commercial fleet deployments, and consumer telematics. The device combines reliable real time tracking, robust telemetry channels and flexible I/O to support monitoring and anti theft workflows that fleets and service providers commonly require.
 

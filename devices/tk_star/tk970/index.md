@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TK970
 
+<div className="device-logo">
 ![TK970](./tracker.jpg)
+</div>
 
 The TK970 4G from TK-Star is a compact vehicle GPS tracker engineered for motorcycles, private cars, rental fleets and mixed vehicle assets. Designed to deliver reliable multi‑mode positioning and telematics, the TK970 supports GNSS and network fallback methods to maintain location reporting across both urban and remote environments. Its small form factor and integrated security features make it suitable for a range of mobile tracking scenarios.
 

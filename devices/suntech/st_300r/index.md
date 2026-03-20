@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 300R
 
+<div className="device-logo">
 ![ST 300R](./logo.jpg)
+</div>
 
 The Suntech ST 300R is a vehicle GPS tracker designed to support fleet management and security use cases. It offers real time reporting of key vehicle states such as speed, ignition status, and idle times, and includes a serial communication interface RS232 for connection to external sensors. When paired with sensors, the ST 300R can supply additional data such as fuel levels, harsh braking events, and passenger presence to help operators better understand vehicle usage.
 

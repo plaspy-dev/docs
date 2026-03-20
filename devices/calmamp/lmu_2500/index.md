@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-2500
 
+<div className="device-logo">
 ![LMU-2500](./logo.jpg)
+</div>
 
 The CalmAmp LMU-2500 is an ultra sensitive GPS based fleet tracking unit designed for accurate and reliable vehicle location in demanding environments. Built around CalmAmp Super sense GPS technology, the LMU-2500 targets fleet managers who need consistent position fixes even in urban canyons or areas with dense foliage, while offering an economical option for large scale deployments.
 

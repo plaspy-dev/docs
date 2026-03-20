@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - MSP500
 
+<div className="device-logo">
 ![MSP500](./Logo.png)
+</div>
 
 The Teltonika MSP500 is a specialized tracking terminal designed to provide reliable vehicle tracking and control. It combines GNSS positioning, cellular connectivity and Bluetooth with internal antennas and an RS232 interface to support a range of monitoring needs. The unit includes an internal Ni-Mh backup battery to keep tracking active during power loss, and it exposes a set of event and sensor features such as an accelerometer, jamming detection, towing and crash detection, geofence support, trip tracking, excessive idling detection and a GNSS fuel counter.
 

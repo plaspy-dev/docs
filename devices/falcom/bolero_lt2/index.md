@@ -20,7 +20,9 @@ keywords:
 
 # Falcom - BOLERO-LT2
 
+<div className="device-logo">
 ![BOLERO-LT2](./logo.jpg)
+</div>
 
 The Falcom BOLERO-LT2 is a versatile GPS tracker designed for real-time navigation, remote tracking, and monitoring applications. It combines a quad-band GSM GPRS engine that operates on GSM 850 900 1800 1900 MHz with a high sensitivity GPS core based on a µ-blox engine, delivering dependable communication and precise position information. The device is intended for indoor use and fixed installations and supports features such as configurable alert messaging, geofencing, and a data logger that can retain unique location records for up to 45 days.
 

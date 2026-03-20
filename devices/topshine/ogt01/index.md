@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - OGT01
 
+<div className="device-logo">
 ![OGT01](./tracker.jpg)
+</div>
 
 The TopShine OGT01 is a compact plug and play OBD II car tracking device designed for vehicles and light fleet assets. It fits into a standard OBD II port to provide continuous vehicle location and on board diagnostics without additional wiring. The unit includes built in GPS and GSM antennas, LBS and GPS dual locating, a 2 MB internal data logger for periods with limited cellular coverage, and a backup battery that can keep reporting for extended periods in power saving mode.
 

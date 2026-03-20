@@ -21,7 +21,9 @@ keywords:
 
 # Concox - AT4
 
+<div className="device-logo">
 ![AT4](./tracker.png)
+</div>
 
 El Concox AT4 es un rastreador GPS portátil con montaje magnético, diseñado para despliegues de larga autonomía y uso en entornos exigentes. Combina posicionamiento por GPS y por red con una batería de alta capacidad y una carcasa con protección IPX5 para ofrecer información de ubicación confiable, alertas por manipulación y monitoreo de audio discreto. Su formato compacto y la base magnética potente lo hacen adecuado para fijaciones temporales o semipermanentes en vehículos, remolques y otros activos móviles.
 

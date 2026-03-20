@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - XT009
 
+<div className="device-logo">
 ![XT009](./logo.jpg)
+</div>
 
 The Xexun XT009 is a compact GPS motorcycle tracker designed for discreet vehicle monitoring. It combines a built in GPS receiver with a GSM GPRS communications module to provide remote location tracking and basic remote control functions. Small form factor and an integrated antenna make the device easy to conceal on two wheel vehicles while the IP67 rating keeps it operational in wet or muddy environments.
 

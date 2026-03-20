@@ -20,7 +20,9 @@ keywords:
 
 # Cityeasy - 201
 
+<div className="device-logo">
 ![201](./logo.jpg)
+</div>
 
 The Cityeasy 201 is a compact car GPS tracker designed to provide reliable location monitoring and basic security features for personal vehicles and small fleets. It combines LBS and GPS real time position tracking with route history capabilities to give operators visibility into vehicle movements and past journeys.
 

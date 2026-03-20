@@ -20,7 +20,9 @@ keywords:
 
 # Riti - 690T (IDU-400)
 
+<div className="device-logo">
 ![690T (IDU-400)](./tracker.jpg)
+</div>
 
 The 690T (IDU-400) from Riti is a digital vehicle recorder and GPS tracker built for modern fleet operations that need a cloud based alternative to paper tachographs. It collects driving records and operational data and uploads them for long term retention, simplifying audit trails and making inspection retrieval more efficient. The device is positioned for fleets that require frequent sampling and reliable record keeping to support compliance and operational oversight.
 

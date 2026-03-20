@@ -21,7 +21,9 @@ keywords:
 
 # MiniFinder - ATTO
 
+<div className="device-logo">
 ![ATTO](./logo.jpg)
+</div>
 
 El MiniFinder ATTO es un rastreador GPS miniatura diseñado específicamente para mascotas y otros animales. Combina un formato liviano y compacto con un conjunto de funciones pensadas para el monitoreo animal, incluyendo seguimiento en tiempo real, rastreo bajo demanda por SMS, alarmas por geocerca, seguimiento pasivo y un detector de ladridos. El ATTO está diseñado y probado para su uso en distintos tipos de animales; tiene un tamaño compacto de 65 x 34 x 16 mm y un peso de 38 g, con protección contra agua certificada IP67.
 

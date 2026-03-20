@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-G17M
 
+<div className="device-logo">
 ![TS-G17M](./tracker.jpg)
+</div>
 
 The TS-G17M is a compact, multifunctional GPS tracker from ThingSys designed for motorcycle and small vehicle security. It combines hybrid positioning with vehicle-focused alarms and relay control in a small form factor, making it suitable for two wheelers and similar assets where discreet mounting and reliable telemetry are important. The device offers real time tracking, alarms and remote control capabilities aimed at anti theft and operational monitoring.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB640 y FMB641
 
+<div className="device-logo">
 ![FMB640-FMB641](./Logo.png)
+</div>
 
 Los Teltonika FMB640 y su variante actualizada FMB641 son rastreadores GPS de grado profesional diseñados para aplicaciones complejas de monitoreo de flotas y activos. Combinan seguimiento de ubicación con un amplio conjunto de capacidades de telemetría y periféricos, incluyendo soporte para datos FMS CAN, datos CAN de combustible, datos en vivo del tacógrafo y descarga remota de archivos del tacógrafo. Ambos modelos admiten diversos dispositivos de terceros con RS232 o RS485 y soportan sensores periféricos como RFID, iButton, sensores de temperatura 1-Wire y sensores de presión de neumáticos Continental.
 

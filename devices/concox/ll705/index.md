@@ -20,7 +20,9 @@ keywords:
 
 # Concox - LL705
 
+<div className="device-logo">
 ![LL705](./tracker.png)
+</div>
 
 The Concox LL705 is a purpose built 4G GPS tracker designed for long term, low maintenance monitoring of high value assets. It combines LTE Cat 1 connectivity with GSM fallback, multi source positioning including GPS and Beidou BDS, cell tower LBS and BLE, and a rugged IP67 enclosure to provide persistent location reporting in demanding outdoor and industrial environments. The device is optimized for extended deployments through a high capacity 18,000mAh Li SOCl2 battery and configurable working modes to balance update frequency and battery life.
 

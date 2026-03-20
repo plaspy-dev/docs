@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-BR04
 
+<div className="device-logo">
 ![TZ-BR04](./logo.jpg)
+</div>
 
 The TZone TZ-BR04 is an industrial GPS tracker designed for robust location sensing and monitoring in large outdoor and harsh environments. Operating in the ISM microwave frequency band, it provides reliable signal reception over distances up to 50 meters. The device is built with an industrial-grade enclosure, an external antenna for improved reception, and a wide operating temperature range from -40℃ to +60℃, making it suitable for demanding conditions. Its compact dimensions (L78mm x W67mm x H27mm) and omni-directional identification angle allow flexible placement across a variety of assets.
 

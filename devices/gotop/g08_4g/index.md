@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G08-4G
 
+<div className="device-logo">
 ![G08-4G](./tracker.png)
+</div>
 
 The G08-4G is a compact, plug and play OBD vehicle tracker designed for real time tracking and fleet management. Built as an OBD plug in with integrated GPS and GSM antennas and 4G connectivity, the device provides continuous position reporting, geo fencing, alarm notifications and route history logging without separate wiring installation.
 

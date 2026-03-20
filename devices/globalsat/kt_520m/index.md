@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - KT-520M
 
+<div className="device-logo">
 ![KT-520M](./tracker.jpg)
+</div>
 
 The KT-520M is a rugged GPS tracker designed for long term, low maintenance deployment. It combines cellular LTE M connectivity with Kineis satellite fallback and built in GNSS positioning to provide continuous location reporting for vehicles and mobile assets that move between urban coverage and remote areas. Built for durability, the KT-520M emphasizes long battery life, environmental resistance, and motion detection to support persistent tracking needs.
 

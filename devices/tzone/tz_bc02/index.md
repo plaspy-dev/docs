@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-BC02
 
+<div className="device-logo">
 ![TZ-BC02](./logo.jpg)
+</div>
 
 The TZone TZ-BC02 is a compact and lightweight tracking device designed to provide reliable location and proximity monitoring for small assets and personal items. Measuring approximately 50 x 50 x 20 mm and weighing about 30 grams, the unit is easy to carry and conceal. It supports iPhone iBeacon protocol with Bluetooth 4.0 compatibility and also works with Android devices running Android 4.3 and above, offering broad smartphone interoperability for proximity based tracking.
 

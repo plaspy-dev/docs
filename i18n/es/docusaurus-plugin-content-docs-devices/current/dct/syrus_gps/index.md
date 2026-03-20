@@ -21,7 +21,9 @@ keywords:
 
 # DCT - Syrus GPS
 
+<div className="device-logo">
 ![Syrus GPS](./logo.jpg)
+</div>
 
 El DCT Syrus GPS es un rastreador GPS de alto rendimiento diseñado para aplicaciones IoT y M2M que requieren transmisión de datos rápida y confiable. Combina el seguimiento de ubicación con un acelerómetro digital interno de 3 ejes totalmente integrado que permite monitoreo instantáneo de aceleraciones y registro condicional de historiales de choques. El equipo también incluye funciones como detección de manipulación, un amplio búfer de almacenamiento y reenvío capaz de conservar numerosos eventos, geocercas configurables y una carcasa resistente al agua con clasificación IP65 para operar en entornos exigentes.
 

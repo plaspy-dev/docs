@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB122
 
+<div className="device-logo">
 ![FMB122](./tracker.png)
+</div>
 
 El Teltonika FMB122 es un rastreador GPS 2G compacto pensado para la gestión de flotas y la seguridad antirrobo de vehículos. Ofrece reportes de posición en tiempo real y admite entradas de accesorios para identificación y monitoreo ambiental. El equipo está diseñado para instalaciones vehiculares donde la conectividad GSM sencilla, una instalación discreta y la posibilidad de antena externa son elementos importantes.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - A11
 
+<div className="device-logo">
 ![A11](./logo..jpg)
+</div>
 
 La serie Aplicom A11 es una familia de dispositivos telemáticos diseñada para ofrecer gestión confiable de flotas y activos. Los modelos A11 proporcionan opciones de conectividad móvil a nivel global, combinan entradas digitales y analógicas, cuentan con capacidad Bluetooth y soportan actualizaciones Over The Air. Estas características hacen del A11 una opción adecuada para organizaciones que requieren visibilidad de ubicación constante y configuración adaptable según distintos tipos de vehículos y equipos.
 

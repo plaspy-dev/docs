@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - A10
 
+<div className="device-logo">
 ![A10](./logo.jpg)
+</div>
 
 El AoYa A10 es un rastreador GPS compacto pensado principalmente para uso automotriz. Con dimensiones reducidas, hardware de posicionamiento integrado, conectividad de red y batería interna, el A10 ofrece información de ubicación fiable para un vehículo sin llamar la atención. El dispositivo incorpora un chip UBLOX de alta sensibilidad y precisión típica a nivel de metros, lo que lo hace adecuado para rastrear vehículos estacionados o en movimiento.
 

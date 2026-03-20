@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-V7
 
+<div className="device-logo">
 ![TS-V7](./Logo.jpg)
+</div>
 
 The TS-V7 Professional Vehicle GPS Tracker from ThingSys is a compact tracker designed for vehicle safety, security, and fleet management. It provides positioning and tracking information over 2G 3G and 4G networks and can be monitored through an online platform or a smartphone. Key features described by the manufacturer include an emergency alarm button with alert dispatch to authorized numbers, remote control of fuel and vehicle circuit, remote audio monitoring by call, movement and overspeed alerts, geo fencing, mileage statistics, ignition detection, and power cutoff.
 

@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - GS12
 
+<div className="device-logo">
 ![GS12](./tracker.webp)
+</div>
 
 El WanWay GS12 es un rastreador GPS vehicular inteligente diseñado para ofrecer seguimiento fiable en tiempo real y seguridad del vehículo. Basado en comunicación inalámbrica 4G full netcom y navegación satelital GPS BDS, el GS12 reporta posición y telemetría de eventos del vehículo como detección de ACC, alarma por desensamblaje, alertas de exceso de velocidad, estadísticas de kilometraje y corte remoto de gasolina o electricidad. Su conjunto de funciones está orientado a despliegues vehiculares que requieren datos de ubicación constantes y controles antirrobo prácticos.
 

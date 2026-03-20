@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT705C
 
+<div className="device-logo">
 ![JT705C](./tracker.jpg)
+</div>
 
 The Jointech JT705C Intelligent Video Customs Lock is a purpose built GPS tracker and video lock designed to protect high value cargo, containers, and regulated shipments. Built for customs supervision and supply chain risk control, the JT705C combines continuous GPS location updates with event driven video monitoring to provide visibility and an auditable evidence trail throughout transit.
 

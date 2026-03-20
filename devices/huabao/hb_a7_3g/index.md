@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A7 3G
 
+<div className="device-logo">
 ![HB-A7 3G](./logo.jpg)
+</div>
 
 The Huabao HB-A7 3G is a compact vehicle GPS tracker designed for reliable real time positioning and fleet monitoring. It is described as easy to install and engineered for stable performance with low power consumption. Typical capabilities include GPS location reporting, ignition detection, an SOS alarm, and the ability to connect to external peripherals for expanded monitoring and control.
 

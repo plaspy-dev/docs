@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - LK200B
 
+<div className="device-logo">
 ![LK200B](./logo.jpg)
+</div>
 
 El rastreador vehicular TK-Star LK200B es un dispositivo compacto y versátil diseñado para monitorear vehículos en tiempo real. Pensado para automóviles particulares, vehículos de renta y flotas empresariales, ofrece visibilidad continua de la ubicación y un historial de rutas que ayuda a mantener control sobre los desplazamientos. Entre las funciones destacadas por el fabricante están el seguimiento en tiempo real, intervalos automáticos de reporte, registro en zonas con baja señal y verificación de trazas históricas para revisar recorridos pasados.
 

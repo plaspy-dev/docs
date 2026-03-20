@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL52SP
 
+<div className="device-logo">
 ![GL52SP](./logo..png)
+</div>
 
 The QuecLink GL52SP is a Sigfox mini standby asset tracker designed for long term asset monitoring. Its ultra thin, compact form factor and multi year standby capability make it well suited for stationary asset monitoring, inventory control, and other applications where small size and long battery life are priorities. The GL52SP supports GNSS positioning for location reporting and carries a high level Sigfox certificate for improved connectivity and mobility in supported regions.
 

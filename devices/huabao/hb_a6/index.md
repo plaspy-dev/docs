@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A6
 
+<div className="device-logo">
 ![HB-A6](./tracker.jpg)
+</div>
 
 The HB-A6 is a compact, cost effective GPS tracker designed for reliable real time tracking and fleet management. Built for vehicles including cars, rental vehicles, trucks and trailers, the HB-A6 provides continuous GPS and BDS positioning together with ACC ignition detection and multiple alarm inputs to support vehicle security and operational reporting.
 

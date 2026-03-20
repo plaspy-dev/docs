@@ -20,7 +20,9 @@ keywords:
 
 # Navigil - TD230
 
+<div className="device-logo">
 ![TD230](./logo.jpg)
+</div>
 
 The Navigil TD230 is an OEM tracking device designed to help businesses bring GPS tracking capabilities to market quickly. It ships with production ready TG2 firmware and a rebrandable user interface membrane, and offers a range of membrane layouts with different button and LED options to fit varied product designs. The TD230 emphasizes quick time to market and flexible hardware personalization for companies that want to embed tracking into their own products.
 

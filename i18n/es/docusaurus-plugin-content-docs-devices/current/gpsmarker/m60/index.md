@@ -21,7 +21,9 @@ keywords:
 
 # GPSMarker - M60
 
+<div className="device-logo">
 ![M60](./logo.jpg)
+</div>
 
 El GPSMarker M60 es un rastreador GPS compacto y versátil diseñado para diversas tareas de seguimiento. Entre sus características destaca una autonomía prolongada de hasta dos años, un sensor de temperatura integrado para monitorear condiciones ambientales y opciones de idioma en ruso o inglés. El M60 busca ser fácil de usar evitando la memorización de comandos complejos: ofrece una configuración sencilla, un reloj integrado con precisión horaria y ajuste automático para una recepción satelital confiable. También brinda opciones flexibles de visualización de coordenadas, incluyendo Google Maps y Yandex Maps, latitud y longitud, y distancia y dirección relativas desde poblaciones cercanas.
 

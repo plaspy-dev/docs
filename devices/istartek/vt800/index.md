@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT800
 
+<div className="device-logo">
 ![VT800](./logo..jpg)
+</div>
 
 The VT800 series from iStartek is a truck GPS tracker built for real time vehicle tracking and fleet management. It combines multi GNSS positioning with cellular data upload and local storage to provide continuous location information. The device is designed to capture and buffer coordinates when a live connection is not available, and it offers multiple inputs for external peripherals commonly used in fleet operations.
 

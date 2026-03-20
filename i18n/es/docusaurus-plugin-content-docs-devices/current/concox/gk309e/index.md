@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GK309E
 
+<div className="device-logo">
 ![GK309E](./logo.jpg)
+</div>
 
 El GK309E Segunda Generación de Concox es un teléfono GPS infantil compacto diseñado para ayudar a los padres a localizar a sus hijos. Al integrar funciones básicas de teléfono celular con rastreo GPS y soporte opcional de RFID, el GK309E se presenta como una opción económica y práctica para la seguridad estudiantil y la supervisión diaria. Con botón SOS y compatibilidad con números familiares, el dispositivo permite comunicación rápida y un canal de contacto en emergencias.
 

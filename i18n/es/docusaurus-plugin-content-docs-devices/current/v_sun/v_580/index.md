@@ -21,7 +21,9 @@ keywords:
 
 # V-SUN - V-580
 
+<div className="device-logo">
 ![V-580](./logo.jpg)
+</div>
 
 El V-SUN V-580 es un dispositivo de rastreo para niños presentado como un pequeño teléfono GPS con un diseño tipo caricatura, pensado para resultar atractivo y cómodo para el uso escolar. Combina seguimiento de ubicación con funciones de seguridad orientadas a estudiantes de primaria, como notificaciones de llegada y salida, botón SOS para llamadas de emergencia, geocercas que alertan sobre límites y controles de horario en clase para limitar el envío de mensajes durante las lecciones. El dispositivo está diseñado para ofrecer a los padres información oportuna sobre la ubicación del niño sin interferir en el entorno escolar.
 

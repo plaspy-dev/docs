@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G3S
 
+<div className="device-logo">
 ![G3S](./logo.jpg)
+</div>
 
 The Gosafe G3S is a low cost GPS tracker designed for service providers, integrators, and enterprise customers. Built to enhance mobile resources and improve dispatch systems, the G3S provides real time tracking and monitoring with accurate location information. Its compact and durable design makes it suitable for a wide range of vehicle applications where continuous position visibility is required.
 

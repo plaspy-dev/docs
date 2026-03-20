@@ -21,7 +21,9 @@ keywords:
 
 # Concox - TR06
 
+<div className="device-logo">
 ![TR06](./logo.jpg)
+</div>
 
 El Concox TR06 es un rastreador GPS para vehículos diseñado para ofrecer informes de ubicación confiables y funciones básicas de seguridad vehicular. Combina posicionamiento por satélite GPS con conectividad GSM GPRS para proporcionar actualizaciones continuas de ubicación, seguimiento en tiempo real, vigilancia y capacidades de alarma de emergencia. Está dirigido a aplicaciones de seguimiento de vehículos y gestión de flotas, e incluye funciones como corte remoto de motor para disuadir robos y permitir control ante usos no autorizados.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT200X
 
+<div className="device-logo">
 ![MT200X](./tracker.png)
+</div>
 
 El MT200X Prisoner Tracking Ankle es un rastreador GPS de tobillo tipo pulsera, robusto y diseñado para monitoreo electrónico continuo y supervisión. Concebido para el seguimiento de internos y personas en libertad condicional, el MT200X combina posicionamiento GNSS de alta sensibilidad con un módulo de comunicación celular y hardware reforzado para ofrecer rastreo y telemetría en tiempo real confiables incluso en entornos exigentes.
 

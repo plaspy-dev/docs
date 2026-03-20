@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT62
 
+<div className="device-logo">
 ![XT62](./tracker.webp)
+</div>
 
 The XT62 is an asset module designed for refrigerated trailers and cargo containers, focused on cold chain visibility. It provides continuous condition monitoring and location reporting so operations teams can track temperature, door status and remote I/O signals while assets are in transit. The device is targeted at refrigerated cargo scenarios where combined location and condition awareness is essential.
 

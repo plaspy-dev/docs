@@ -21,7 +21,9 @@ keywords:
 
 # Telic - LT910-EUbis
 
+<div className="device-logo">
 ![LT910-EUbis](./tracker.jpg)
+</div>
 
 El LT910-EUbis es un terminal IoT industrial compacto diseñado para redes LTE europeas y pensado como la columna vertebral de comunicaciones en soluciones de seguimiento y telemetría. Basado en el módulo Telit LE910R1-EU, ofrece conectividad LTE Cat 1bis con retroceso a 2G y está orientado a implementaciones que requieren enlaces celulares fiables, mejor movilidad y mayor capacidad de respuesta frente a algunas opciones de baja potencia de área amplia. Su factor de forma y las interfaces industriales lo hacen adecuado para instalaciones montadas en vehículos o activos donde se necesita conectividad constante.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - L70
 
+<div className="device-logo">
 ![L70](./logo.jpg)
+</div>
 
 The Sentar L70 is a compact, multi mode GPS tracker designed for reliable location tracking across a range of scenarios. Built around an MTK2503 chipset, the L70 combines GPS, AGPS, LBS, and WiFi positioning to provide usable location information even where a single method alone might be limited. The device is offered in black and white and is intended for discreet tracking of vehicles, assets, or people.
 

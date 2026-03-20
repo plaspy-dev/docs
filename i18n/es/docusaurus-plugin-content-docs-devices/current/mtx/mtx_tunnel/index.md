@@ -21,7 +21,9 @@ keywords:
 
 # Mtx - MTX Tunnel
 
+<div className="device-logo">
 ![MTX Tunnel](./logo.jpg)
+</div>
 
 El MTX Tunnel es un dispositivo de rastreo GPS diseñado para integrarse en sistemas de control de flotas que dependen de la posición GPS y de la comunicación GPRS. Instalado en un vehículo, captura continuamente posiciones GPS y envía periódicamente los datos de ubicación a servidores remotos o endpoints web. Además, actúa como una pasarela de comunicaciones que permite el acceso remoto y el tunelizado de datos entre los equipos a bordo y los sistemas de backend.
 

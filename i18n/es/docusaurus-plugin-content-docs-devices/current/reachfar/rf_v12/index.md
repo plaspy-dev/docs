@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V12
 
+<div className="device-logo">
 ![RF-V12](./tracker.jpg)
+</div>
 
 El RF-V12 es un rastreador GPS GSM GPRS compacto en tiempo real de Reachfar, diseñado para bicicletas eléctricas y motocicletas. Su enfoque principal es la protección antirrobo y la visibilidad de la ubicación en vivo, combinando reportes continuos de posición con funciones específicas de detección de manipulación como alarmas por vibración y sonora, detección de corte de línea, alertas por desplazamiento y escucha remota. El equipo está pensado para un montaje discreto y un uso sencillo, apto tanto para vehículos individuales como para flotas gestionadas.
 

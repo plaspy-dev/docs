@@ -20,7 +20,9 @@ keywords:
 
 # Bofan - PT-300X
 
+<div className="device-logo">
 ![PT-300X](./logo.jpg)
+</div>
 
 The Bofan PT-300X is a compact GPS vehicle tracker designed to provide reliable location monitoring and core alerting features for vehicles. It supports tracking via SMS and GPRS, offers configurable time interval reporting for movement history, and includes practical alerts such as low battery, overspeed, and geo-fence notifications. The device also provides an SOS button for emergency signalling and supports stop car functionality through an external relay for vehicle immobilization when required.
 

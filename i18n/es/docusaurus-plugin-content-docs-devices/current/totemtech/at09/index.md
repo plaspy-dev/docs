@@ -21,7 +21,9 @@ keywords:
 
 # Totemtech - AT09
 
+<div className="device-logo">
 ![AT09](./logo.jpg)
+</div>
 
 El Totemtech AT09 es un rastreador GPS vehicular versátil diseñado para el seguimiento en tiempo real y la monitorización mediante múltiples sensores. Combina la localización con entradas especializadas para presión de neumáticos, hasta varios sensores de combustible y sondas de temperatura, además de conectividad para periféricos como pantallas, cámaras y lectores RFID. La detección de movimiento integrada y el almacenamiento local amplían su utilidad para supervisión continua y revisión histórica de recorridos.
 

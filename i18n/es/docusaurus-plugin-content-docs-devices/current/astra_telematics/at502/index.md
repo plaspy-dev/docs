@@ -21,7 +21,9 @@ keywords:
 
 # Astra Telematics - AT502
 
+<div className="device-logo">
 ![AT502](./tracker.png)
+</div>
 
 El AT502 de Astra Telematics es un rastreador GPS compacto y alimentado por batería, diseñado para el monitoreo discreto y prolongado de pequeños activos sin fuente de energía. Combina posicionamiento GNSS multiconstelación, conectividad celular de bajo consumo con modos modernos de baja ancho de banda y un diseño de energía orientado al usuario para ofrecer una vida operativa extendida en condiciones exigentes. El dispositivo es robusto y sencillo de montar, lo que lo hace ideal para contenedores, herramientas y equipos portátiles.
 

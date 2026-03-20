@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - A14
 
+<div className="device-logo">
 ![A14](./logo.jpg)
+</div>
 
 The AoYa A14 is a compact automotive GPS tracker designed to provide real-time vehicle location monitoring. At 88mm x 46mm x 16mm and weighing 80g, it is built for discreet installation in passenger cars and light commercial vehicles. The A14 supports GPS, LBS, and AGPS positioning and includes a UBLOX GPS chipset for reportedly high sensitivity and a typical accuracy range of about 5–10 meters as described by the manufacturer.
 

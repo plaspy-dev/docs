@@ -21,7 +21,9 @@ keywords:
 
 # Winrich - TK207 OBD
 
+<div className="device-logo">
 ![TK207 OBD](./logo.jpg)
+</div>
 
 El Winrich TK207 OBD es un rastreador vehicular plug and play diseñado para conectarse directamente al puerto OBDII de un automóvil. Combina posicionamiento por GPS con transmisión de datos GSM GPRS para ofrecer monitoreo remoto de ubicación y datos básicos de diagnóstico del vehículo. El dispositivo envía la información recopilada a un servidor backend y es compatible con alarmas habituales como geocerca, movimiento, exceso de velocidad, batería baja, corte de alimentación externa, impacto y alarma de ACC en modo ARM.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4505
 
+<div className="device-logo">
 ![ST4505](./tracker.jpg)
+</div>
 
 The Suntech ST4505 is a plug-and-play OBD-II GPS tracker designed for modern vehicle telematics and fleet management. It provides continuous GNSS-based positioning, vehicle diagnostics through the J1962 OBD-II port, and telemetry intended to support real-time tracking, driver behavior insight, and timely incident response. Built for in-vehicle operation, the ST4505 family includes variants that add Bluetooth sensor support and optional jamming detection for extended capabilities.
 

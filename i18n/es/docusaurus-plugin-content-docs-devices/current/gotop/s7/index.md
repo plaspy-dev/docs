@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - S7
 
+<div className="device-logo">
 ![S7](./tracker.png)
+</div>
 
 El GOTOP S7 es un rastreador GPS resistente e impermeable, diseñado para la localización de vehículos y activos en autos, motocicletas, embarcaciones y flotas comerciales. Pensado para aplicaciones exteriores y de flota, el S7 integra antenas GPS y celular, admite un amplio rango de entrada de 8–92V DC y cuenta con protección IP66 para ofrecer comunicaciones de posición y telemetría básicas en condiciones exigentes.
 

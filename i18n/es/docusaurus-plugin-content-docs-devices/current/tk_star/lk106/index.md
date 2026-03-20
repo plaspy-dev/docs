@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - LK106
 
+<div className="device-logo">
 ![LK106](./logo.jpg)
+</div>
 
 El TK-Star LK106 es un rastreador GPS portátil diseñado para ofrecer visibilidad de ubicación y monitoreo básico de seguridad en múltiples aplicaciones. Brinda seguimiento en tiempo real, seguimiento automático, registro en zonas sin cobertura y revisión del historial de rutas, combinando posicionamiento por GPS y GSM. El dispositivo incluye varias opciones de alerta, como notificaciones de geocerca, alertas por movimiento y exceso de velocidad, aviso de batería baja, sensor de sacudidas y un botón SOS para emergencias. Con clasificación IP66 y modo de reposo, el LK106 está pensado para uso en exteriores y despliegues prolongados.
 

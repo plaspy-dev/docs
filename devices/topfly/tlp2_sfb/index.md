@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - TLP2-SFB
 
+<div className="device-logo">
 ![TLP2-SFB](./tracker.png)
+</div>
 
 The TLP2-SFB is a solar assisted heavy duty GPS tracker designed for long term outdoor asset monitoring. Built for containers, trailers, and trucks, it combines a rugged IP67 enclosure and multiple mounting options with integrated solar charging to support extended deployments. The unit focuses on reliable location visibility and substantial offline buffering so assets remain trackable even across intermittent coverage zones.
 

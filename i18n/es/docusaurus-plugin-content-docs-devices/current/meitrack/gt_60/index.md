@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - GT-60
 
+<div className="device-logo">
 ![GT-60](./logo.jpg)
+</div>
 
 El Meitrack GT-60 es un rastreador GPS compacto y fácil de usar, diseñado principalmente para el seguimiento de mascotas. Integra un receptor GPS para obtener datos de posición y utiliza conectividad celular para enviar la información de ubicación a un teléfono móvil o a un servidor. Además del rastreo, el GT-60 funciona como un dispositivo de comunicación de emergencia portátil con llamadas de voz bidireccionales y opciones de marcación rápida.
 

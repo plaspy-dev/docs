@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V48
 
+<div className="device-logo">
 ![RF-V48](./tracker.jpg)
+</div>
 
 El RF-V48 es un rastreador GPS 4G compacto en formato de pulsera con clip, diseñado para ofrecer seguridad personal confiable y monitoreo continuo de ubicación. Como dispositivo portátil, combina posicionamiento multimodal con funciones integradas de voz y botón SOS para proporcionar información situacional oportuna a cuidadores, familiares y operadores que necesitan visibilidad rápida de personas o activos ligeros.
 

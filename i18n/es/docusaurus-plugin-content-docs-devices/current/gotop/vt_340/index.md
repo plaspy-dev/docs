@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - VT-340
 
+<div className="device-logo">
 ![VT-340](./logo.jpg)
+</div>
 
 El GOTOP VT-340 es un rastreador GPS compacto y económico diseñado para motocicletas y automóviles. Su pequeña carcasa impermeable y la batería de respaldo integrada lo hacen adecuado para seguridad vehicular y vigilancia continua de ubicación. El VT-340 proporciona actualizaciones de ubicación en tiempo real y telemetría básica del vehículo, como velocidad, dirección y lectura del odómetro, y puede informar su posición mediante SMS o la red de datos GPRS.
 

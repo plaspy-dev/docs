@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - V-520
 
+<div className="device-logo">
 ![V-520](./logo.jpg)
+</div>
 
 The V-SUN V-520 is a portable GPS tracker that combines satellite positioning with GSM GPRS connectivity to provide real time latitude and longitude reporting. It can send position updates via SMS and upload location data to a specified server for online viewing. Designed for mobility, the V-520 is positioned as a compact, low power device suitable for monitoring people, property, and animals, and it includes an SOS function for urgent notifications.
 

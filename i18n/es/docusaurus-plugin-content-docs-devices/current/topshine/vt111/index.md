@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - VT111
 
+<div className="device-logo">
 ![VT111](./logo.jpg)
+</div>
 
 El TopShine VT111 es un rastreador GPS miniatura y económico, diseñado para ofrecer seguimiento efectivo y seguridad vehicular. Integra funciones de rastreo con capacidades de alarma para automóvil, soportando activación/desactivación por SMS o llamada, alertas por movimiento y apertura de puertas, y además puede armarse automáticamente mediante RFID opcional. Su tamaño reducido facilita la instalación oculta, por lo que es apropiado para distintos tipos de vehículos que requieren monitoreo discreto.
 

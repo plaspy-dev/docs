@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4915LCBF
 
+<div className="device-logo">
 ![ST4915LCBF](./tracker.jpg)
+</div>
 
 The ST4915LCBF is a rugged, long life GPS tracker designed for extended field deployments and reliable asset and fleet monitoring. It is housed in an IP67 enclosure and combines high sensitivity GNSS positioning with cellular connectivity and complementary location aids to provide continuous tracking in demanding environments. The device emphasizes durability and low maintenance for long term installations.
 

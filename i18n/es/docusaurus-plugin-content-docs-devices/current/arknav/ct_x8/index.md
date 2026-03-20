@@ -21,7 +21,9 @@ keywords:
 
 # ArkNav - CT-X8
 
+<div className="device-logo">
 ![CT-X8](./tracker.png)
+</div>
 
 El CT-X8 Container Lock GPS Tracker es una cerradura electrónica robusta y con evidencia de manipulación, diseñada para contenedores y carga en tránsito. Integra un receptor GPS interno, comunicaciones celulares y un mecanismo de cierre en acero inoxidable dentro de una carcasa con clasificación IP67, para ofrecer visibilidad continua de la ubicación, detección de intrusiones y evidencia de cadena de custodia adecuada para entornos portuarios, intermodales y de transporte de larga distancia.
 

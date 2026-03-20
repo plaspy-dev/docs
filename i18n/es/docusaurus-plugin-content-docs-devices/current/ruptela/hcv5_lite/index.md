@@ -21,7 +21,9 @@ keywords:
 
 # Ruptela - HCV5 Lite
 
+<div className="device-logo">
 ![HCV5 Lite](./logo..png)
+</div>
 
 El Ruptela HCV5 Lite es un rastreador GPS de nivel profesional diseñado para el seguimiento de vehículos comerciales pesados y ligeros. Pensado para flotas, el HCV5 Lite ofrece conectividad versátil, múltiples entradas y salidas y amplia compatibilidad con fuentes de datos de vehículo habituales. Su posicionamiento GNSS integrado y sus características de durabilidad lo hacen adecuado para operaciones continuas de flota donde se requiere ubicación confiable y supervisión operativa.
 

@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT150-L
 
+<div className="device-logo">
 ![VT150-L](./tracker.png)
+</div>
 
 The VT150-L is a compact 4G GPS motorcycle tracker engineered for reliable real time tracking and vehicle security. Built for motorcycle and light vehicle use, it combines multi constellation GNSS positioning with cellular connectivity to report location, telemetry and alarm events. The device is described as rugged with an IP66 rating and a wide input voltage range, and it includes features such as event driven alerts, remote immobilizer control and firmware update support.
 

@@ -20,7 +20,9 @@ keywords:
 
 # EV - EV-07B
 
+<div className="device-logo">
 ![EV-07B](./tracker.png)
+</div>
 
 The EV-07B from Eview is a compact, wearable GPS tracker and one-button mPERS pendant designed for straightforward personal safety. As a mini SOS device it combines continuous location reporting with basic telemetry and two-way voice alerting to give wearers a simple way to call for help. The form factor and feature set make it suitable for everyday carry by seniors, lone workers, patients and mobile users who need a discreet emergency button and location visibility.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Arusnavi - ARNAVI 6
 
+<div className="device-logo">
 ![ARNAVI 6](./tracker.png)
+</div>
 
 ARNAVI 6 is a compact professional navigation controller designed for fleet management and remote monitoring. Built to provide reliable GPS tracking and rich vehicle telemetry, the device supports a range of communications and I/O options suitable for mixed fleets and sensor rich environments. Its small footprint and remote management features make it appropriate for installations where continuous visibility and operational oversight are priorities.
 

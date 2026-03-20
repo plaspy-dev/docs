@@ -21,7 +21,9 @@ keywords:
 
 # Castel - MPIP-619
 
+<div className="device-logo">
 ![MPIP-619](./logo.jpg)
+</div>
 
 El Castel MPIP-619 es un rastreador GPS cableado y compacto diseñado para la gestión de motocicletas y vehículos. Con una carcasa con protección IP54 contra polvo y salpicaduras, el equipo está pensado para soportar condiciones de carretera exigentes sin dejar de ser liviano y discreto. Ofrece posicionamiento en tiempo real y admite conexión a accesorios externos para habilitar funciones como corte remoto del motor y configuración remota.
 

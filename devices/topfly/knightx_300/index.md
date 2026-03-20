@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - KnightX 300
 
+<div className="device-logo">
 ![KnightX 300](./tracker.png)
+</div>
 
 The KnightX 300 is a compact, rechargeable asset tracker designed for deployments that require long battery life, accurate positioning and environmental monitoring. It is built for non permanent installation and housed in an IP67 rated enclosure, offering a lightweight option for persistent asset visibility. The device supports multi constellation GNSS for positioning, LTE Cat M1 with NB IoT and GSM fallback for wide area connectivity, and includes on board temperature sensing plus support for an external probe and Bluetooth sensors.
 

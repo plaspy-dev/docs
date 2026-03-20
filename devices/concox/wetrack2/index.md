@@ -20,7 +20,9 @@ keywords:
 
 # Concox - WeTrack2
 
+<div className="device-logo">
 ![WeTrack2](./tracker.png)
+</div>
 
 The WeTrack2 is a compact vehicle GNSS tracker designed for e-scooters, motorcycles, light vehicles and industrial equipment. Built to industrial electronics standards with an IP65 rated enclosure and a wide 9–90 VDC operating range, the WeTrack2 provides continuous position reporting, event detection and anti theft controls in a small, rugged package suitable for demanding field use.
 

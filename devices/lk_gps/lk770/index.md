@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK770
 
+<div className="device-logo">
 ![LK770](./logo..jpg)
+</div>
 
 The LK770 is a compact wired vehicle GPS tracker designed for cars and motorcycles. It combines onboard GPS positioning with built in GSM connectivity and antennas to provide discreet location monitoring. The device is described as supporting common cellular networks and a mobile app experience, and it includes security features such as an SOS alarm, vibration tamper alert, and remote fuel and power cut functionality.
 

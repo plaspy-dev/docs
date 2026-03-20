@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB110
 
+<div className="device-logo">
 ![FMB110](./tracker.png)
+</div>
 
 The Teltonika FMB110 is a compact 2G GPS tracker designed for reliable vehicle tracking and basic telematics. It includes internal cellular and GNSS antennas and supports common GSM bands, with integrated interfaces for temperature probes and iButton or RFID identification. The device is positioned for straightforward vehicle installations where compact size and core telemetry are required.
 

@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV620MG
 
+<div className="device-logo">
 ![GV620MG](./tracker.png)
+</div>
 
 The QuecLink GV620MG is a rugged trailer GPS tracker designed for heavy duty vehicles such as trailers, tankers, refrigerated units and flatbed trucks. Built to withstand harsh transportation conditions, the device provides GNSS position reporting, input and ignition status, accelerometer event detection and BLE sensor data over global LTE Cat M1 and NB2 networks with 2G fallback. Its sealed enclosure and integrated antenna approach are intended to keep assets visible even in demanding environments.
 

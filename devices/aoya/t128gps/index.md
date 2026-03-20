@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - T128GPS
 
+<div className="device-logo">
 ![T128GPS](./logo.jpg)
+</div>
 
 The AoYa T128GPS is a compact GPS tracker designed for personal and asset tracking. It combines a strong magnetic housing with built in GPS and GSM antenna components to provide reliable location updates. The unit is described as lightweight and easy to conceal, suitable for temporary or mobile mounting where a permanent installation is not desired. Common features include real time tracking, geofencing, an SOS button, and a rechargeable power source.
 

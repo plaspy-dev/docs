@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - PT66
 
+<div className="device-logo">
 ![PT66](./tracker.jpg)
+</div>
 
 El iStartek PT66 es un reloj portátil 4G diseñado para el cuidado de adultos mayores y la seguridad personal. Presentado como un cómodo reloj de pulsera con pantalla táctil IPS a color de 1.30 pulgadas y certificación IP67, el PT66 ofrece posicionamiento multimodal que incluye GPS y Beidou, además de asistencia mediante Wi‑Fi y redes móviles. Combina telemetría orientada a la salud y alarmas de seguridad con la comodidad de un wearable diario, para que familias y equipos de cuidado mantengan la conciencia situacional sin hardware intrusivo.
 

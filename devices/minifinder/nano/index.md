@@ -20,7 +20,9 @@ keywords:
 
 # MiniFinder - Nano
 
+<div className="device-logo">
 ![Nano](./tracker.jpg)
+</div>
 
 The MiniFinder Nano is a compact wearable GPS tracker designed for personal safety and care environments. Offered as a wristwatch or lanyard wearable, Nano combines outdoor positioning with assisted indoor location methods and an integrated cellular connection to provide continuous location and alarm capabilities. The device is purpose built for scenarios where lightweight wearability, SOS functionality and straightforward alarm handling are priorities.
 

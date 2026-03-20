@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - VT-391
 
+<div className="device-logo">
 ![VT-391](./logo.jpg)
+</div>
 
 El GOTOP VT-391 es un rastreador GPS versátil diseñado para la gestión de flotas y la seguridad vehicular. Integra el reporte de posición con un módulo WiFi incorporado y soporte opcional para cámara, de modo que la ubicación y los datos de conducción se pueden registrar junto con imágenes. El VT-391 también cuenta con identificación de conductor por RFID, una ranura para tarjeta SD de gran capacidad para almacenamiento local, audio bidireccional, múltiples entradas analógicas para monitoreo de combustible y una variedad de alarmas configurables para eventos como frenadas bruscas, accidentes y exceso de velocidad.
 

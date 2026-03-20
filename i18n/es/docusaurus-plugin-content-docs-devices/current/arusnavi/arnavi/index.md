@@ -21,7 +21,9 @@ keywords:
 
 # Arusnavi - Arnavi
 
+<div className="device-logo">
 ![Arnavi](./logo.jpg)
+</div>
 
 El Arusnavi Arnavi es un controlador de navegación versátil pensado para el monitoreo remoto de objetos móviles. Está diseñado como una solución flexible para rastrear y supervisar vehículos y los equipos instalados en ellos. El Arnavi admite una amplia variedad de sensores y se integra con canales de datos del vehículo, lo que lo hace adecuado para capturar información de estado y operación de distintos activos móviles.
 

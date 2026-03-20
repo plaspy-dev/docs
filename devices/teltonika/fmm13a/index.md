@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM13A
 
+<div className="device-logo">
 ![FMM13A](./tracker.png)
+</div>
 
 The Teltonika FMM13A is a compact professional GPS tracker built for North American vehicle and asset deployments. It is designed as a real time tracking terminal that pairs LTE Cat M1 connectivity with a Quectel BG95 M1 module in standard orders and includes an internal backup battery to maintain telemetry and location reporting during power interruptions. The device is intended to deliver continuous location visibility and vital vehicle telemetry for fleet and asset management scenarios.
 

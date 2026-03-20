@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - GMT-368SG
 
+<div className="device-logo">
 ![GMT-368SG](./logo.jpg)
+</div>
 
 El Megastek GMT-368SG es un rastreador GPS para vehículos diseñado para ofrecer seguimiento preciso y fiable en distintos tipos de unidades. Cuenta con una carcasa resistente al agua con clasificación IP66 para soportar lluvia y condiciones adversas, y permite reportes por SMS y GPRS (TCP/UDP). El equipo realiza envíos periódicos de posición, seguimiento en tiempo real y ofrece un conjunto de alertas y funciones de monitoreo como geocercas, alarma por exceso de velocidad, alarma por vibración, batería baja, pérdida de señal GPS y aviso de conexión o desconexión de alimentación externa. Además incluye un registrador de datos (data logger) que almacena posiciones cuando no hay cobertura celular.
 

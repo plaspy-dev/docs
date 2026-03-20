@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - LT-520
 
+<div className="device-logo">
 ![LT-520](./tracker.jpg)
+</div>
 
 El GlobalSat LT-520 es un rastreador GPS robusto diseñado para la monitorización de activos a largo plazo en entornos mixtos, interiores y exteriores. Combina posicionamiento GNSS con conectividad de área amplia de bajo consumo y técnicas de localización híbrida, utilizando escaneos BLE, NFC y Wi‑Fi para complementar las fijaciones GNSS en interiores. El LT-520 está pensado para intervalos de servicio prolongados y reportes configurables, lo que lo hace idóneo para despliegues donde la baja necesidad de mantenimiento y la fiabilidad de los datos de ubicación son prioritarias.
 

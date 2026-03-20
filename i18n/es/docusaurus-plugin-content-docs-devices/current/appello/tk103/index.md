@@ -21,7 +21,9 @@ keywords:
 
 # Appello - TK103
 
+<div className="device-logo">
 ![TK103](./logo.jpg)
+</div>
 
 El Appello TK103 es un rastreador GPS compacto y versátil pensado para el monitoreo en tiempo real de la ubicación de vehículos y activos portátiles. Combina un tamaño reducido y peso ligero con un módulo de posicionamiento que ofrece fijaciones de ubicación consistentes. Se informa que incorpora el chip New Star NS 1315 y un procesador tipo ARM 7, con precisión de posicionamiento en torno a los 5 metros y alta sensibilidad para mantener la recepción en entornos difíciles.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - TK100
 
+<div className="device-logo">
 ![TK100](./tracker.jpg)
+</div>
 
 The CanTrack TK100 is a hard wired vehicle GPS tracker built for continuous positioning and remote control. Commonly deployed in cars, trucks and motorcycles, it uses GPS satellite signals and cellular GPRS and SMS reporting to deliver real time location, speed, ignition state and alarm events to server and mobile endpoints. The TK100 also offers anti theft features such as remote engine immobilization and an SOS alarm for emergency reporting.
 

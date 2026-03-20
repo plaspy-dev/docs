@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G07L
 
+<div className="device-logo">
 ![G07L](./tracker.jpg)
+</div>
 
 El CanTrack G07L es un rastreador GPS 4G compacto y de instalación cableada, diseñado para una amplia variedad de vehículos con rango de tensión de 9–90 V. Construido sobre un moderno módulo LTE y chipset actual, el G07L ofrece actualizaciones de posición continuas, alarmas por movimiento y vibración, detección del estado de encendido, alertas por corte de energía y buffering de datos a bordo. Su diseño está orientado a flotas y a la seguridad vehicular, en escenarios donde se requiere seguimiento fiable y reporte de eventos de forma constante.
 

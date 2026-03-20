@@ -21,7 +21,9 @@ keywords:
 
 # Noran - NR024
 
+<div className="device-logo">
 ![NR024](./logo.jpg)
+</div>
 
 El Noran NR024 es un rastreador GPS vehicular avanzado pensado para uso en flotas. Combina posicionamiento por satélite con comunicación GSM y una cámara digital integrada para ofrecer reportes de ubicación continuos junto con captura de imágenes. El equipo también incorpora funciones como monitoreo de combustible, monitoreo de audio, geocercas, alertas de exceso de velocidad, SOS y control remoto del motor, cubriendo una amplia gama de necesidades de gestión de flotas.
 

@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK208
 
+<div className="device-logo">
 ![LK208](./tracker.jpg)
+</div>
 
 The LK208 is a compact, Plaspy compatible GPS tracker designed for fast deployment on vehicles and metal assets. It combines a strong internal magnet and a weather resistant enclosure for tool free, temporary or covert mounting on cars, motorcycles, trucks and equipment. The unit is intended to provide continuous location reporting over the cellular network so teams can monitor routes, movement and device status without permanent wiring.
 

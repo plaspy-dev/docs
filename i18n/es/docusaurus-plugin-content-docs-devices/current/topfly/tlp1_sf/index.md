@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - TLP1-SF
 
+<div className="device-logo">
 ![TLP1-SF](./logo..png)
+</div>
 
 El TopFly TLP1-SF es un rastreador GPS 4G LTE con asistencia solar diseñado para el seguimiento de activos, remolques y camiones. Combina una batería interna recargable de gran capacidad con carga solar para reducir las intervenciones de mantenimiento, y ofrece reportes de ubicación en tiempo real además de almacenamiento en buffer para mantener el seguimiento cuando la cobertura es limitada. El equipo cuenta con una construcción robusta y resistente a la intemperie y múltiples opciones de montaje pensadas para uso exterior.
 

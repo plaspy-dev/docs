@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - GVT-390
 
+<div className="device-logo">
 ![GVT-390](./logo.jpg)
+</div>
 
 The Megastek GVT-390 is a compact GPS tracker designed to deliver accurate and reliable location tracking for a range of applications. Built around a SiRF Star III GPS chipset and using a SIM900 GSM module for quad band connectivity, the GVT-390 provides position updates, configurable alarms, and a set of inputs and outputs for expanded functionality. Its feature set includes SOS, geo-fencing, overspeed alerts, motion detection, background voice monitoring, power saving mode, and the ability to accept multiple simultaneous instructions, making it suitable for both personal and commercial tracking needs.
 

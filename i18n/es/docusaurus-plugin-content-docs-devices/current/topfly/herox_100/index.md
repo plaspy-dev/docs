@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - HeroX 100
 
+<div className="device-logo">
 ![HeroX 100](./tracker.png)
+</div>
 
 El TopFly HeroX 100 es un rastreador GPS de instalación fija diseñado para implementaciones exigentes de seguimiento de vehículos y activos. Ofrece posicionamiento multi GNSS de alta precisión con un CEP autónomo por debajo de 1,5 m y utiliza conectividad 4G CAT 1 con retroceso a 2G, proporcionando localizaciones y telemetría fiables para seguimiento en tiempo real, gestión de flotas y escenarios antirrobo.
 

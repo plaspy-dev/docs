@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 600R
 
+<div className="device-logo">
 ![ST 600R](./logo.jpg)
+</div>
 
 El Suntech ST 600R es un rastreador GPS de alto rendimiento diseñado para transmitir datos de forma fiable a través de redes celulares. Soporta velocidades 3G y cuenta con un módem celular avanzado compatible con HSDPA, UMTS, EDGE y GSM GPRS, lo que le permite seguir enviando y recibiendo información de ubicación y estado incluso donde la cobertura 3G no está disponible. Sus múltiples entradas y salidas permiten conectar periféricos para ampliar las capacidades de monitoreo.
 

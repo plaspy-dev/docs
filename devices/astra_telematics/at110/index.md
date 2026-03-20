@@ -20,7 +20,9 @@ keywords:
 
 # Astra Telematics - AT110
 
+<div className="device-logo">
 ![AT110](./logo.jpg)
+</div>
 
 The Astra Telematics AT110 is a compact, matchbox sized GPS tracker designed for vehicle and fleet telematics. Built with modern components such as a Cortex M3 processor and SiRFStar IV GPS positioning, the AT110 combines accurate location reporting with a durable aluminum casing and external antenna options. The device supports onboard storage and a backup battery to preserve data during interruptions, and it offers communication over quadband cellular links to transmit position updates by time or distance while providing a sleep mode for power management.
 

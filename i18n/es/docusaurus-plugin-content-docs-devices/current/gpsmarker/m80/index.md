@@ -21,7 +21,9 @@ keywords:
 
 # GPSMarker - M80
 
+<div className="device-logo">
 ![M80](./logo.jpg)
+</div>
 
 El GPSMarker M80 es un rastreador GPS compacto diseñado para ofrecer monitoreo de ubicación confiable con énfasis en minimizar los costos recurrentes. Se entrega en una carcasa sellada con imanes para un montaje seguro y rápido, e incluye opción de micro SIM con una tarifa optimizada para sistemas de monitoreo en línea. El equipo integra un receptor GPS y GLONASS de 99 canales y soporta servicios de asistencia satelital para mejorar la adquisición de coordenadas y la fiabilidad. Permite actualizaciones de firmware gratuitas por GPRS y reporta una larga autonomía con intervalos de activación configurables y notificaciones de batería baja.
 

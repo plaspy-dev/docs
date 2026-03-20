@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D51
 
+<div className="device-logo">
 ![D51](./tracker.png)
+</div>
 
 The Sentar D51 is a compact 4G kids smart watch designed for child safety and family communication. As a wearable GPS tracker, it combines multi mode positioning with cellular connectivity to provide caregivers with regular location updates and a simple SOS pathway for emergencies. The device is built for everyday wear and basic interaction, offering a touchscreen, a small camera, and core communication features oriented toward supervised use.
 

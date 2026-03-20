@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - C780
 
+<div className="device-logo">
 ![C780](./tracker.jpg)
+</div>
 
 El GOTOP C780 es un rastreador GPS compacto pensado para automóviles, motocicletas, bicicletas eléctricas y otros vehículos ligeros que requieren monitoreo de ubicación y seguridad confiables. Combina posicionamiento satelital con conectividad celular para ofrecer actualizaciones de posición continuas, reproducción del historial y notificaciones de alarma; su tamaño reducido facilita una instalación discreta en distintos vehículos.
 

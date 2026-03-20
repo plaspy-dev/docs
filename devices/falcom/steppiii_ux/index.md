@@ -20,7 +20,9 @@ keywords:
 
 # Falcom - STEPPIII-UX
 
+<div className="device-logo">
 ![STEPPIII-UX](./logo.jpg)
+</div>
 
 The Falcom STEPPIII-UX is a versatile and customizable smart tracking device designed as a mobile client for AVL, fleet management, vehicle security, and recovery. It is built to operate autonomously while interacting with external inputs and actors to support a wide range of tracking and monitoring scenarios. The device supports status reporting and alerts by common messaging paths and includes features such as voice and emergency call options, a driver's logbook, and integrated data logging for historical review.
 

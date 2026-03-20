@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D39B
 
+<div className="device-logo">
 ![D39B](./tracker.png)
+</div>
 
 The Sentar D39B is a kids smart watch designed for reliable communication, safety monitoring, and clear location tracking. It combines multi source positioning with 4G voice and data, a 1.85 inch IPS display, and an Android 8.1 platform to deliver real time location visibility and basic communication features in a wristwatch form factor suitable for children.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - START S-2012
 
+<div className="device-logo">
 ![START S-2012](./tracker.jpeg)
+</div>
 
 The START S-2012 is a compact GLONASS/GPS vehicle tracker engineered for permanent hardwired installation where a small profile and dependable positioning are important. It delivers real time location, basic telemetry and event reporting suited to cars, light commercial vehicles and other mobile assets. The device supports a range of external sensors including wired and wireless fuel level sensors, wireless universal and environmental sensors for temperature and humidity, plus Bluetooth sensors and standard inputs and an output for vehicle integration.
 

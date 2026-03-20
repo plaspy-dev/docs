@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FTC921
 
+<div className="device-logo">
 ![FTC921](./tracker.png)
+</div>
 
 El Teltonika FTC921 es un rastreador GPS de nueva generación pensado para aplicaciones de e-movilidad y protección antirrobo. Basado en la plataforma Fleet Telematics, el FTC921 ofrece posicionamiento GNSS preciso y conectividad celular confiable con LTE Cat 1 y retroceso a 2G. Su diseño soporta entradas de alta tensión y gestión de energía optimizada, lo que lo hace ideal para motocicletas eléctricas, motonetas y rickshaws que operan en entornos urbanos y a baja velocidad.
 

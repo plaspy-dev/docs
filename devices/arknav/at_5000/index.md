@@ -20,7 +20,9 @@ keywords:
 
 # ArkNav - AT-5000
 
+<div className="device-logo">
 ![AT-5000](./logo.jpg)
+</div>
 
 The ArkNav AT-5000 is a rugged GPS tracker designed for long term deployments in challenging environments. It combines GPS positioning and GSM communication with a large capacity rechargeable battery, an IP67 rated waterproof housing, and heat resistant casing that tolerates high ambient temperatures. Activation options include timer and movement triggers, and the device supports remote location requests and SMS map links for convenient access to position information.
 

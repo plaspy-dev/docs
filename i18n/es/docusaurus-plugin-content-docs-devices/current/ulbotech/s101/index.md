@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - S101
 
+<div className="device-logo">
 ![S101](./tracker.png)
+</div>
 
 El Ulbotech S101 es un adaptador OBD II compacto plug and play diseñado para proporcionar telemetría del vehículo a dispositivos que ejecutan aplicaciones compatibles. No es un rastreador GPS independiente; el S101 se conecta al puerto OBD II del vehículo y transmite datos estándar del motor y de los sensores mediante un enlace Bluetooth 4.0. El adaptador utiliza un procesador basado en ELM327 para ofrecer actualizaciones en vivo más rápidas y un trazado de parámetros más denso, útil para diagnóstico y monitorización de combustible.
 

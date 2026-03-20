@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - V55
 
+<div className="device-logo">
 ![V55](./tracker.jpg)
+</div>
 
 El Reachfar V55 es un rastreador GPS 4G compacto y resistente, diseñado para monitoreo prolongado y confiable de vehículos y activos móviles. Ofrece larga autonomía en modo espera y combina posicionamiento satelital con asistencia por Wi‑Fi y estaciones celulares para mantener datos de ubicación estables en entornos urbanos y con señal limitada. Su carcasa con certificación IP67 lo hace apto para instalaciones expuestas en vehículos y uso al aire libre.
 

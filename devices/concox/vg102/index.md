@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VG102
 
+<div className="device-logo">
 ![VG102](./tracker.png)
+</div>
 
 The Concox VG102 is a compact GNSS GPS tracker purpose built for motorcycles and two wheeler fleets. It offers positioning, event alerts, and anti theft controls in a small, rugged package with an IP66 rated enclosure and an internal backup battery. The design and feature set make the VG102 suitable for operations that require discreet mounting, reliable outdoors performance, and continuous monitoring of two wheeler assets.
 

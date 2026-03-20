@@ -20,7 +20,9 @@ keywords:
 
 # ThinkRace - VT200B
 
+<div className="device-logo">
 ![VT200B](./logo.jpg)
+</div>
 
 The ThinkRace VT200B is an OBD2 GPS tracker built to deliver vehicle diagnostics together with continuous location tracking. Designed for plug and play use via the vehicle OBD2 port, the VT200B provides diagnostic reporting such as fuel consumption and engine condition while also supporting real time tracking and over speed alerts. Its feature set makes it useful for both individual vehicle owners and operators who need frequent visibility into vehicle health and movement.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - T366
 
+<div className="device-logo">
 ![T366](./tracker.png)
+</div>
 
 The Meitrack T366 is a rugged IP67 rated GNSS tracker designed for demanding vehicle and marine environments. Built to withstand water and dust ingress, the device emphasizes continuous real time location tracking and secure immobilization in harsh conditions. Its hardware includes relay immobilizer outputs, support for an external GNSS antenna, and a local data buffer to retain location history when connectivity is intermittent.
 

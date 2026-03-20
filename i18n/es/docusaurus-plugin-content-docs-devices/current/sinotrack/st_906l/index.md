@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-906L
 
+<div className="device-logo">
 ![ST-906L](./tracker.jpg)
+</div>
 
 El SinoTrack ST-906L es un rastreador GPS 4G compacto diseñado para autos y motocicletas. Integra conectividad LTE y GSM con una antena GPS y GSM de alta sensibilidad para ofrecer reportes de ubicación confiables en tiempo real. El equipo admite reportes por SMS y GPRS y se entrega con la aplicación web y móvil SinoTrack Pro sin costo para reproducción de historial y gestión de dispositivos, además de funciones antirrobo esenciales como detección de encendido (ACC), alarma por corte de alimentación, alerta SOS, notificaciones por exceso de velocidad y detección de impactos, y un inmovilizador controlado por relé.
 

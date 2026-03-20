@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT 600
 
+<div className="device-logo">
 ![JT 600](./logo.jpg)
+</div>
 
 The Jointech JT 600 is a versatile portable GPS tracker designed for a wide range of asset and personnel tracking tasks. Built for outdoor use, the device features an IP67 waterproof rating and includes solar power support for extended deployment in remote areas. It provides common tracking functions such as SOS alerts, historical data recording, GEO fence setup, and GPRS data re-upload, and it offers two-way voice communication and long standby time for demanding field scenarios.
 

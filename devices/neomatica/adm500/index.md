@@ -20,7 +20,9 @@ keywords:
 
 # Neomatica - ADM500
 
+<div className="device-logo">
 ![ADM500](./tracker.png)
+</div>
 
 The Neomatica ADM500 is a professional grade GPS tracker designed for vehicle and asset telematics. It combines multi constellation GNSS reception (GPS, GLONASS, BDS and Galileo) with cellular data connectivity to provide continuous real time location and route recording for fleets, public transport, agricultural machinery and passenger cars. The ADM500 includes features such as dual nanoSIM capability, a built in battery for temporary autonomous operation and broad sensor support, making it suitable for persistent tracking even when external power is interrupted.
 

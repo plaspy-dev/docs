@@ -20,7 +20,9 @@ keywords:
 
 # Orion - BD-2012
 
+<div className="device-logo">
 ![BD-2012](./logo.jpg)
+</div>
 
 The Orion BD-2012 GPS Tracker is a compact asset management and security device designed for versatile tracking needs. It provides continuous location monitoring, geofencing functionality for virtual perimeter alerts, and an emergency SOS feature for urgent situations. Its lightweight design makes it suitable for discreet placement on a wide range of assets while being intended to operate across varied environmental conditions.
 

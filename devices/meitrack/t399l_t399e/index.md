@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - T399L/T399E
 
+<div className="device-logo">
 ![T399L/T399E](./tracker.png)
+</div>
 
 The Meitrack T399L/T399E is a rugged, IP67 rated vehicle tracker built for fleet, logistics and commercial vehicle monitoring. Designed for harsh conditions and global deployments, the T399 series delivers high accuracy GNSS positioning, multi generation cellular connectivity and flexible peripheral support that help fleet operators collect position and telemetry data in real time.
 

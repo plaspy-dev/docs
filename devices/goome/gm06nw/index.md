@@ -20,7 +20,9 @@ keywords:
 
 # Goome - GM06NW
 
+<div className="device-logo">
 ![GM06NW](./logo.jpg)
+</div>
 
 The Goome GM06NW is a compact vehicle GPS tracker that combines GPS positioning and GSM connectivity to deliver reliable location tracking. It includes a built in antenna and onboard sensors with features such as ACC detection, vibration alarm, and the ability to cut off fuel or electricity remotely. The device also supports an SOS button and microphone for emergency notification and ambient listening when configured, and its wide input voltage range makes it suitable for cars, trucks, taxis, and motorcycles.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT80T
 
+<div className="device-logo">
 ![MT80T](./tracker.jpg)
+</div>
 
 El MT80T es un rastreador GPS de grado médico compacto presentado en formato de pulsera inteligente, diseñado para monitorización continua de la salud y seguimiento fiable de la ubicación personal. Según la descripción del fabricante, incorpora un receptor GNSS Ublox de alta sensibilidad y conectividad celular multimodal para ofrecer posicionamiento en tiempo real junto con telemetría fisiológica continua. Su diseño wearable, construcción impermeable y funciones SOS lo hacen adecuado para el uso diario cuando se requiere visibilidad constante y respuesta rápida ante incidentes.
 

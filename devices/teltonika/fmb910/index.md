@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB910
 
+<div className="device-logo">
 ![FMB910](./tracker.png)
+</div>
 
 The Teltonika FMB910 is a compact 2G GPS tracker designed for cost conscious fleet management and basic vehicle protection. It delivers reliable real time tracking and historical location data, with built in accelerometer features for crash detection and support for external sensors and beacons via Bluetooth Low Energy. The unit is intended for straightforward deployment where simple, economical tracking and anti theft workflows are the primary requirements.
 

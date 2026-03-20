@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - W07
 
+<div className="device-logo">
 ![W07](./tracker.jpg)
+</div>
 
 El GOTOP W07 es un mini rastreador GPS pensado para necesidades de seguimiento compactas e impermeables. Con unas dimensiones de 47 x 35 x 19 mm y un peso de 41 g, el W07 está diseñado para colocaciones discretas en personas, mascotas, equipaje y pequeños activos. Ofrece conectividad celular global y posicionamiento por satélite para entregar ubicaciones en tiempo real, reproducción de rutas y alertas de seguridad esenciales en un equipo portátil y de tamaño reducido.
 

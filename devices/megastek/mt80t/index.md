@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - MT80T
 
+<div className="device-logo">
 ![MT80T](./tracker.jpg)
+</div>
 
 The MT80T is a compact medical grade GPS tracker presented in a smart bracelet form factor, designed for continuous health monitoring and dependable personal location tracking. According to the device description, it uses a high sensitivity Ublox GNSS receiver and multi mode cellular connectivity to deliver real time positioning alongside continuous physiological telemetry. The wearable form, waterproof construction and SOS features make it suitable for everyday use where ongoing visibility and quick incident response are required.
 

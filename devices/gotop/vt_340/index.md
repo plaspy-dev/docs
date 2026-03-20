@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-340
 
+<div className="device-logo">
 ![VT-340](./logo.jpg)
+</div>
 
 The GOTOP VT-340 is a compact, cost effective GPS tracker designed for motorcycles and cars. Its small waterproof enclosure and integrated backup battery make it suitable for vehicle security and continuous location monitoring. The VT-340 provides real time location updates and basic vehicle telemetry such as speed, direction, and odometer readings, and can report location via SMS or the GPRS data network.
 

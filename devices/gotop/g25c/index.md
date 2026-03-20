@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G25C
 
+<div className="device-logo">
 ![G25C](./logo..jpg)
+</div>
 
 The GOTOP G25C is a compact 4G GPS tracker designed for Internet of Things applications and general asset tracking. It combines LTE wireless communication with GPS and BDS satellite positioning to deliver real time location information. Built with an industrial grade full built in antenna and a rugged enclosure, the G25C is positioned for use on private cars, rental vehicles, fleet trucks, bicycles, and other mobile assets.
 

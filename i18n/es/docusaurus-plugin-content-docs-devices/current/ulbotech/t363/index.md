@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T363
 
+<div className="device-logo">
 ![T363](./logo.jpg)
+</div>
 
 El Ulbotech T363 es un modelo de rastreador GPS para vehículos ofrecido por Ulbotech. Diseñado para la supervisión de vehículos y activos, el T363 proporciona las funciones básicas de localización necesarias para mejorar la visibilidad de la posición, el control operativo y la integración con sistemas de gestión de flotas.
 

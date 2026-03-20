@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC125
 
+<div className="device-logo">
 ![FMC125](./tracker.png)
+</div>
 
 The FMC125 is a professional grade GPS tracker built for fleet management and vehicle telemetry. Designed for logistics, trucking and service fleets, the device provides cellular connectivity with fallback, dual SIM resilience, and rugged serial interfaces to collect GNSS position and external telemetry. The FMC125 supports impulse inputs for fuel flow meters and identification inputs such as RFID and 1‑wire sensors, enabling precise tracking and fuel monitoring in demanding operations.
 

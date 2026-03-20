@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK109
 
+<div className="device-logo">
 ![LK109](./logo..jpg)
+</div>
 
 The LK109 is a compact personal GPS tracker designed to provide dependable location monitoring and safety features for people and small assets. Its small form factor and waterproof construction make it convenient for everyday carry and resilient in challenging conditions. The device includes a built in GPS chip with published positioning sensitivity and an accuracy rating around five meters, together with practical functions such as SOS alarm, fall alarm, geo fence alerts, and call support.
 

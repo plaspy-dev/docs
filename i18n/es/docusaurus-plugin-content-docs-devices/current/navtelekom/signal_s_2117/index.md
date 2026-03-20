@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-2117
 
+<div className="device-logo">
 ![СИГНАЛ S-2117](./tracker.jpeg)
+</div>
 
 El СИГНАЛ S-2117 es un rastreador vehicular GNSS resistente de Navtelekom, pensado para operaciones de flota que requieren ubicación continua y telemetría fiable. Combina posicionamiento GLONASS con comunicaciones GSM para ofrecer seguimiento en vivo, notificaciones de eventos de alarma, salidas de control remoto e interfaces para monitoreo de combustible y temperatura. El equipo prioriza funciones telemáticas prácticas, útiles en flotas mixtas y en el transporte de carga sensible a la temperatura.
 

@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - T9H
 
+<div className="device-logo">
 ![T9H](./logo.jpg)
+</div>
 
 The AoYa T9H is a compact and versatile mini GPS tracker designed for accurate and reliable location monitoring. With small dimensions of 49mm x 66mm x 15mm and a lightweight build of 141g, the T9H is easy to carry and conceal, making it suitable for personal tracking and a variety of asset tracking applications. The device uses a high performance GPS chip compatible with u blox and BDS signals and reports typical position accuracy around 5 meters, enabling precise tracking in many operational environments.
 

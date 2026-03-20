@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP5824
 
+<div className="device-logo">
 ![SP5824](./tracker.png)
+</div>
 
 The SP5824 is a compact, rugged GPS tracker designed for motorcycles and a variety of powersport vehicles including ATVs, jet-skis, snowmobiles and small boats. Built for outdoor use, it offers water resistance rated to IP67 and a low installation footprint so owners and fleet operators can add dependable location tracking to two and three wheel vehicles and small watercraft without significant space or power demands. The device includes crash detection and connectivity designed for timely location reporting and incident alerts.
 

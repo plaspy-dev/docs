@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G909-4G
 
+<div className="device-logo">
 ![G909-4G](./tracker.jpg)
+</div>
 
 The G909-4G Mini Asset GPS Tracker is a compact device intended for asset and vehicle monitoring where reliable 4G connectivity and accurate satellite positioning are important. Designed with 4G LTE FDD communications and dual GNSS reception for GPS and BDS, the G909-4G provides continuous location updates, event reporting, and offline data caching that suit fleet, logistics, and security applications.
 

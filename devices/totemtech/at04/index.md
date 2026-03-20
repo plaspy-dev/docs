@@ -20,7 +20,9 @@ keywords:
 
 # Totemtech - AT04
 
+<div className="device-logo">
 ![AT04](./tracker.jpg)
+</div>
 
 The Totemtech AT04 is a compact, waterproof vehicle GPS tracker designed for motorcycles, cars and light trucks. Its small form factor and wide DC input range make it suitable for mixed fleets that need discreet installation and consistent position reporting. The device combines multi GNSS positioning with integrated antennas to provide continuous location data for operational tracking.
 

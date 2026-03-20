@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-900
 
+<div className="device-logo">
 ![LMU-900](./logo.jpg)
+</div>
 
 El CalmAmp LMU-900 es un rastreador GPS compacto diseñado para una instalación fiable en automóviles. Está pensado para múltiples aplicaciones de seguimiento de vehículos y AVL, incluyendo pequeñas flotas, programas de aseguradoras, recuperación de vehículos robados, financiamiento de automotores y operaciones de alquiler. El equipo destaca por su precisión en la localización GPS, detección de movimiento e inclinación mediante un acelerómetro de 3 ejes y opciones flexibles de entradas y salidas para integrar dispositivos externos.
 

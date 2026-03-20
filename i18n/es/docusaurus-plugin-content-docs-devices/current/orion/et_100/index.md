@@ -21,7 +21,9 @@ keywords:
 
 # Orion - ET-100
 
+<div className="device-logo">
 ![ET-100](./logo.jpg)
+</div>
 
 El Orion ET-100 es un rastreador GPS compacto pensado para la gestión y seguridad de activos. Es adecuado para una amplia variedad de situaciones, desde el seguimiento de objetos personales hasta la administración de flotas vehiculares y la supervisión de la seguridad de familiares. El ET-100 permite una colocación discreta gracias a su diseño ligero y ofrece visibilidad continua de la ubicación para que usted siempre sepa dónde se encuentran sus activos.
 

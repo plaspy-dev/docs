@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK209C
 
+<div className="device-logo">
 ![TK209C](./tracker.jpg)
+</div>
 
 El TK209C es un rastreador GPS robusto y de larga autonomía diseñado para aplicaciones exigentes de seguimiento de vehículos y activos. Basado en un módulo UBLOX GNSS, el equipo combina GPS, BeiDou y GLONASS con posicionamiento LBS y Wi Fi para ofrecer precisión fiable en exteriores y mejor comportamiento en interiores o entornos mixtos. Su carcasa con protección IP65 y el sensor de vibración integrado lo hacen apropiado para uso exterior en vehículos, contenedores y equipos temporales donde el movimiento y la detección de intentos de hurto son importantes.
 

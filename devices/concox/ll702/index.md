@@ -20,7 +20,9 @@ keywords:
 
 # Concox - LL702
 
+<div className="device-logo">
 ![LL702](./tracker.png)
+</div>
 
 The LL702 is a compact 4G Cat.1 GPS tracker from Concox built for long term asset monitoring and covert installation. It combines multi source positioning including GPS, BDS, LBS and Wi‑Fi hotspots with LTE Cat 1 communication and 2G GSM fallback to deliver location data across wide coverage areas. Designed for low maintenance, the device includes a high capacity industrial battery and a strong magnetic base for discreet mounting on metal assets.
 

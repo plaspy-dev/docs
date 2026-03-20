@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-RD05
 
+<div className="device-logo">
 ![TZ-RD05](./logo.jpg)
+</div>
 
 The TZone TZ-RD05 is a 2.4G RFID reader designed to manage multiple 2.4G RFID tags including TZ-Tag01, TZ-Tag02, TZ-Tag03, TZ-Tag04, and TZ-Tag201. It provides omnidirectional tag detection with a reading distance up to 50 m, and offers RS485 and LAN communication options for integration with upper management systems. Built for demanding environments, the TZ-RD05 has an IP55 protection level and a wide operating temperature range, and its compact cylindrical form is intended for ceiling mounted installation.
 

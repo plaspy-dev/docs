@@ -20,7 +20,9 @@ keywords:
 
 # TZone - AVL-08
 
+<div className="device-logo">
 ![AVL-08](./logo.jpg)
+</div>
 
 The TZone AVL-08 is a versatile GPS tracker designed for vehicle security, asset tracking, and fleet management. It supports both single location queries and continual tracking, and includes a range of alarm and monitoring functions such as over speed, low power, geo-fence, tremble, parking, and SOS alerts. The device also offers features for vehicle control and status detection, optional external device connections, recording capability, mileage calculation, and additional sensor support that help address common fleet and asset monitoring needs.
 

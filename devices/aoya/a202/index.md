@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - A202
 
+<div className="device-logo">
 ![A202](./logo.jpg)
+</div>
 
 The AoYa A202 is an automotive GPS tracker designed for vehicle and asset monitoring. It combines a compact form factor (130mm x 72mm x 20mm) and light weight (240g) with GNSS positioning based on a UBLOX chip. The device supports GSM GPRS network connectivity for real-time location reporting and provides positioning accuracy on the order of meters, making it suitable for fleet management, personal vehicle tracking, and general asset tracking where concealment and easy installation are desirable.
 

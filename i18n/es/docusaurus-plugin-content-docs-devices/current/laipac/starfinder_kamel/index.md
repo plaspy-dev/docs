@@ -21,7 +21,9 @@ keywords:
 
 # Laipac - Starfinder KAMEL
 
+<div className="device-logo">
 ![Starfinder KAMEL](./logo.jpg)
+</div>
 
 El Laipac Starfinder KAMEL es un dispositivo de rastreo GPS versátil diseñado para monitorear, localizar y recuperar activos tanto con como sin fuente de alimentación. Pensado para aplicaciones industriales y de campo, cubre vehículos, embarcaciones, remolques, maquinaria de construcción y equipos estacionarios. El dispositivo incorpora una batería recargable de grado industrial de 18Ah y se anuncia con una autonomía extendida de hasta cuatro meses con una carga completa, lo que lo hace adecuado para despliegues de larga duración.
 

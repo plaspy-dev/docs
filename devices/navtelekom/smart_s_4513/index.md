@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СМАРТ S-4513
 
+<div className="device-logo">
 ![СМАРТ S-4513](./tracker.jpeg)
+</div>
 
 The СМАРТ S-4513 from Navtelekom is a compact GLONASS and GPS vehicle tracker designed for reliable fleet management and asset monitoring. Built for continuous operation in vehicle environments, the S-4513 combines cellular connectivity, onboard GNSS, backup power, and a range of wired and wireless interfaces to capture location and telemetry for moving assets and fixed equipment.
 

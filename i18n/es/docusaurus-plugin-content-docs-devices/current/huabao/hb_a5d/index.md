@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A5D
 
+<div className="device-logo">
 ![HB-A5D](./tracker.png)
+</div>
 
 El HB-A5D es un rastreador vehicular compacto 4G y resistente al agua de Huabao, pensado tanto para automóviles particulares y motocicletas como para flotas comerciales exigentes. Integra antenas de posicionamiento internas, una carcasa con protección IP65 y conectividad celular dual 2G/4G para ofrecer reportes continuos de ubicación y telemetría. El equipo está diseñado para proporcionar seguimiento en tiempo real y reportes de movilidad confiables en logística, transporte de pasajeros, alquileres y taxis.
 

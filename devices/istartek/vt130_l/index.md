@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT130-L
 
+<div className="device-logo">
 ![VT130-L](./tracker.png)
+</div>
 
 The VT130-L is a compact 4G GPS tracker designed for dependable real time tracking and vehicle telemetry. It provides multi constellation GNSS positioning and streams location and vehicle status data for live monitoring and operational oversight. The device is built for mixed fleet deployments with a rugged IP66 enclosure and a small form factor that supports covert or flexible installation in passenger vehicles and light commercial assets.
 

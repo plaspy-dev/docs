@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2420
 
+<div className="device-logo">
 ![SMART S-2420](./tracker.jpeg)
+</div>
 
 El SMART S-2420 de Navtelekom es un rastreador vehicular compacto y de nivel básico con soporte GLONASS/GPS, diseñado para un monitoreo sencillo donde el costo, la simplicidad y una localización fiable son prioritarios. Cuenta con antenas GNSS y GSM integradas de alta sensibilidad, un módem 2G con una única ranura SIM y Bluetooth 4.0 para configuración local. Está pensado para instalaciones permanentes en vehículos y no tiene batería interna; ofrece tres entradas universales configurables, dos salidas de control y protección de alimentación integrada adecuada para entornos eléctricos vehiculares típicos.
 

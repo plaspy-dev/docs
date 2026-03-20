@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST8300
 
+<div className="device-logo">
 ![ST8300](./tracker.jpg)
+</div>
 
 The Suntech ST8300 Series is a professional grade GPS tracker designed for vehicle and industrial monitoring where durable hardware and continuous positioning matter. The family includes multiple variants and combines persistent GNSS positioning with resilient cellular connectivity, over the air configuration and rugged construction intended for fleet and asset deployments. Its feature set is aimed at operational visibility, theft recovery and telemetry collection across mixed vehicle fleets.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS303
 
+<div className="device-logo">
 ![GPS303](./logo.jpg)
+</div>
 
 El Coban GPS303 es un rastreador GPS versátil diseñado para localizar y monitorear objetivos remotos mediante satélites GPS y la red GSM GPRS disponible. Ofrece actualizaciones de ubicación en tiempo real por SMS o por internet y cuenta con modo de seguimiento automático para reportes continuos de posición. Frecuentemente empleado para rastreo de vehículos, activos y uso personal, el GPS303 combina visibilidad de ubicación con un conjunto de funciones de alerta prácticas.
 

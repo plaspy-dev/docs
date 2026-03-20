@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT21
 
+<div className="device-logo">
 ![XT21](./tracker.webp)
+</div>
 
 The XT21 is a cost effective GPS tracker designed for remote asset telematics. It combines an integrated GPS engine with LTE cellular connectivity to deliver dependable real time location updates and essential telemetry for trailers, portable equipment, and other high value remote assets where power may be intermittent or minimal. Its compact form and focus on essential signals make it suitable for deployments that prioritize low power draw and straightforward monitoring.
 

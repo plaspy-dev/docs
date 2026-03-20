@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB930
 
+<div className="device-logo">
 ![FMB930](./tracker.png)
+</div>
 
 The FMB930 is a compact, low power GPS tracker designed specifically for electric two wheelers and light electric vehicles. It combines an internal rechargeable battery with cellular connectivity and Bluetooth Low Energy support for external sensors, making it a practical choice where space is limited and long idle periods are common. The device is optimized for minimal standby drain and basic on vehicle positioning and sensor telemetry.
 

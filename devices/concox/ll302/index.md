@@ -20,7 +20,9 @@ keywords:
 
 # Concox - LL302
 
+<div className="device-logo">
 ![LL302](./tracker.png)
+</div>
 
 The Concox LL302 is an asset GNSS tracker built for long term vehicle and asset monitoring. Offered in regional variants LL302‑E and LL302‑L, the device uses 4G LTE Cat 1 communications with 2G fallback and multi source positioning including GPS, BDS, LBS and Wi‑Fi assist. With a 6,000mAh industrial battery, robust sensors and a magnetic stealth mount, the LL302 is aimed at rental fleets, logistics operations, transportation services and high value asset protection.
 

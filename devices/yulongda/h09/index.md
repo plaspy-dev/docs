@@ -20,7 +20,9 @@ keywords:
 
 # YulongDa - H09
 
+<div className="device-logo">
 ![H09](./logo.jpg)
+</div>
 
 The YulongDa H09 is a compact vehicle GPS tracker designed for real time tracking and monitoring across a wide range of vehicles. It uses GSM quad band connectivity for broad geographic coverage and accepts a wide input voltage range, making it suitable for different vehicle electrical systems. The device also includes practical security and operational features such as a built in vibration sensor for anti theft alerts, ACC ignition detection, an external SOS button, a backup battery, and the option to control vehicle power via an external relay.
 

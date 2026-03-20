@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB202
 
+<div className="device-logo">
 ![FMB202](./Logo.png)
+</div>
 
 El Teltonika FMB202 es un rastreador GPS compacto e impermeable con certificación IP67, pensado para el seguimiento de activos y vehículos cuando la resistencia y la autonomía prolongada son clave. Integra antenas GNSS y GSM de alta ganancia internas, conectividad Bluetooth, una batería interna de alta capacidad capaz de mantener el dispositivo hasta dos días en modo de ahorro de energía, y soporte para una amplia gama de funciones de monitoreo y reporte. Acepta un rango de voltaje de entrada flexible, por lo que resulta adecuado para distintos tipos de vehículos, incluidas motocicletas y embarcaciones.
 

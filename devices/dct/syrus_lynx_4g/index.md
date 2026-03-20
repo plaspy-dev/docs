@@ -20,7 +20,9 @@ keywords:
 
 # DCT - Syrus Lynx 4G
 
+<div className="device-logo">
 ![Syrus Lynx 4G](./tracker.png)
+</div>
 
 The Syrus Lynx 4G is a compact vehicle mounted GPS GNSS tracker designed for robust fleet management and large scale vehicle tracking. Its small form factor supports discreet installation while maintaining continuous reporting and reliable telemetry suitable for rental fleets, insurance telematics, and high volume rollouts.
 

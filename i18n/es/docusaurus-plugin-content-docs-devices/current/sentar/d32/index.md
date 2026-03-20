@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D32
 
+<div className="device-logo">
 ![D32](./tracker.png)
+</div>
 
 El Sentar D32 es un reloj inteligente GPS 4G con Android para llevar en la muñeca, diseñado para el monitoreo continuo de ubicación, comunicación bidireccional y seguridad personal. Como dispositivo wearable compacto, integra posicionamiento multimodal con voz y datos celulares, un botón de encendido configurable como SOS, una pantalla táctil IPS de 1.4 pulgadas y una cámara que facilitan la conciencia situacional en tiempo real y la captura básica de imágenes.
 

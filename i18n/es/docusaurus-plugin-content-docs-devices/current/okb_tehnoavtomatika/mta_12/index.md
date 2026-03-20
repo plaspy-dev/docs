@@ -21,7 +21,9 @@ keywords:
 
 # OKB Tehnoavtomatika - MTA-12
 
+<div className="device-logo">
 ![MTA-12](./logo.jpg)
+</div>
 
 El MTA-12 de OKB Tehnoavtomatika es un dispositivo de monitoreo de transporte diseñado para la supervisión moderna de vehículos. Ofrece una configuración flexible del sistema para atender distintas necesidades de rastreo y está pensado para su uso en diversos tipos de vehículos, incluyendo maquinaria especializada. El equipo proporciona datos de ubicación mediante un receptor GPS de alta sensibilidad y soporta múltiples canales de notificación para mantener informados a los operadores.
 

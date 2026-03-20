@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Диалог-Маяк
 
+<div className="device-logo">
 ![Диалог-Маяк](./tracker.jpg)
+</div>
 
 El AutoFon Диалог-Маяк es un rastreador GPS compacto compatible con Plaspy, diseñado para el seguimiento discreto y a largo plazo de ubicación y estado. Basado en una plataforma de hardware v.6.x, combina posicionamiento GPS y GLONASS con reporte por GPRS y SMS y cuenta con un amplio buffer interno tipo “black box”. El equipo incluye monitorización de audio remota y manejo configurable de alertas, lo que lo hace apropiado para vehículos, carga, embarcaciones y activos portátiles donde la discreción y la fiabilidad son prioritarias.
 

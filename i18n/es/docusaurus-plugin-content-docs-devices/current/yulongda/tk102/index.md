@@ -21,7 +21,9 @@ keywords:
 
 # YulongDa - TK102
 
+<div className="device-logo">
 ![TK102](./logo.jpg)
+</div>
 
 El YulongDa TK102 es un rastreador GPS compacto y de peso reducido, diseñado para ofrecer ubicación precisa y confiable en diversas aplicaciones. Con unas dimensiones de 64 mm x 46 mm x 17 mm y un peso aproximado de 50 g, el TK102 es fácil de transportar y puede colocarse de forma discreta. Utiliza conectividad celular y un receptor GPS SIRF3 de alto rendimiento para proporcionar posicionamiento con precisión en el orden de metros. Incluye batería extraíble y accesorios de carga que permiten un uso flexible tanto en despliegues móviles como fijos.
 

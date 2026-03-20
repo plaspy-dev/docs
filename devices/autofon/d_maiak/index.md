@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - D-Маяк
 
+<div className="device-logo">
 ![D-Маяк](./tracker.jpg)
+</div>
 
 The AutoFon D‑Маяк (D‑Beacon) is a compact autonomous GSM/GLONASS+GPS beacon built for covert tracker deployments and reliable anti theft recovery. Based on a modern v.6.x hardware platform, the unit is designed for long autonomous operation with configurable SMS and GPRS reporting, multi event detection via a digital accelerometer, and a suite of inputs and outputs for alarm and remote control functions. The D‑Маяк combines discreet form factor with features aimed at persistent tracking and recovery scenarios.
 

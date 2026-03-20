@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V28
 
+<div className="device-logo">
 ![RF-V28](./tracker.jpg)
+</div>
 
 The RF-V28 GPS Tracking SOS Pendant from Reachfar is a compact personal tracker designed for continuous location monitoring and rapid emergency response. Built as a wearable pendant, it provides multi-method positioning and an SOS button for direct emergency calling, together with fall detection and configurable safe zones to support everyday safety needs for individuals who require discreet, reliable monitoring.
 

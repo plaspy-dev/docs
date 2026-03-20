@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-908
 
+<div className="device-logo">
 ![ST-908](./Logo.jpg)
+</div>
 
 El SinoTrack ST-908 es un rastreador GPS compacto para montaje en vehículos, pensado para autos, camiones, motocicletas y activos móviles similares. Ofrece una carcasa resistente, un amplio rango de temperatura de operación y grado de protección IP53, lo que lo hace apto para distintas condiciones ambientales. Incorpora un módulo Sirf IV GPS que proporciona precisión de posición típicamente alrededor de 10 m CEP y soporta posicionamiento satelital continuo con opciones de reporte por SMS y GPRS.
 

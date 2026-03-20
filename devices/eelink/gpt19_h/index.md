@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT19‑H
 
+<div className="device-logo">
 ![GPT19‑H](./tracker.jpg)
+</div>
 
 The GPT19‑H is a magnetic asset tracker designed for long term covert deployments and reliable remote monitoring. Built with a powerful magnet and IP67 protection, it is intended for discreet mounting on trailers, containers, equipment and other assets where durability and low maintenance are priorities. The device combines GPS and LBS positioning and supports motion, fall and tamper alerts to provide ongoing situational awareness.
 

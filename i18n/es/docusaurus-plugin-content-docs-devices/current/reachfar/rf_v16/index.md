@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V16
 
+<div className="device-logo">
 ![RF-V16](./tracker.jpg)
+</div>
 
 El RF-V16 es un rastreador GPS supermini y comunicador SOS diseñado para respuesta rápida en emergencias y seguimiento confiable de la ubicación personal. Su formato ultra compacto y su peso ligero facilitan su transporte o uso en el cuerpo, mientras que la posicionamiento por GPS y la conectividad celular incluidas proporcionan informes de ubicación oportunos y alertas para cuidadores, trabajadores en situación de soledad y otros usuarios vulnerables que requieren una alarma sencilla de un solo botón.
 

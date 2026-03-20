@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FTC305
 
+<div className="device-logo">
 ![FTC305](./tracker.png)
+</div>
 
 El Teltonika FTC305 es un rastreador GPS de grado vehicular, compacto y pensado para movilidad eléctrica y telemática de flotas. Combina posicionamiento GNSS con capacidad de telemetría vehicular, protección robusta IP67 y un amplio rango de alimentación para adaptarse a plataformas de transporte eléctrico como e-bikes, montacargas, vehículos de traslado y maquinaria utility. El equipo se ofrece en variantes con carcasa sellada y sin carcasa, y admite antena externa y batería de respaldo opcional para despliegues más resistentes.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Winrich - GT003
 
+<div className="device-logo">
 ![GT003](./tracker.jpg)
+</div>
 
 The Winrich GT003 is a compact wired GPS tracker designed for continuous vehicle monitoring. Intended for cars, motorcycles, trucks and other mobile assets, the GT003 provides ongoing positioning via GPS and GSM GPRS and delivers the real time tracking and event data fleet managers require. Its small form factor and direct vehicle power connection make it a discreet option for always on fleet oversight and anti theft monitoring.
 

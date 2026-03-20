@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - A9 PRO
 
+<div className="device-logo">
 ![A9 PRO](./tracker.png)
+</div>
 
 El Aplicom A9 PRO es una unidad telemática compacta y resistente diseñada para la gestión de flotas y aplicaciones de telemetría que requieren posicionamiento GNSS confiable y múltiples opciones de integración con vehículos. Basado en la plataforma A9 evolution de Aplicom, el A9 PRO combina un rendimiento GNSS mejorado con un conjunto robusto de interfaces cableadas y sensores de movimiento para mantener el seguimiento continuo de la ubicación y la telemetría operativa en entornos de vehículos comerciales.
 

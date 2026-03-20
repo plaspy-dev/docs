@@ -20,7 +20,9 @@ keywords:
 
 # Zilogic - Fleet Pro
 
+<div className="device-logo">
 ![Fleet Pro](./logo.jpg)
+</div>
 
 The Zilogic Fleet Pro is a powerful and versatile GPS tracker designed for vehicle telematics. Built with a platform independent approach and robust construction, the Fleet Pro delivers reliable location tracking and vehicle data collection. Key features described by the manufacturer include a built-in accelerometer for monitoring driving patterns, an optional OBD II interface for accessing vehicle health information, configurable transmission intervals down to 30 seconds, and online or on-demand tracking via GPRS and SMS. The device also provides high accuracy GPS positioning, digital and analog inputs and outputs, and status LEDs for easy device visibility.
 

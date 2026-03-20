@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - TFT100
 
+<div className="device-logo">
 ![TFT100](./tracker.png)
+</div>
 
 El Teltonika TFT100 es un rastreador GPS 2G robusto diseñado para e movilidad y vehículos industriales de alta tensión como montacargas, manipuladores telescópicos, cargadores y otra maquinaria pesada. Con una carcasa certificada IP67 y un amplio rango de entrada de 10–97 V, este equipo está pensado para funcionar de manera fiable en entornos industriales y exteriores hostiles donde la resistencia al clima y la gestión de altas tensiones son fundamentales.
 

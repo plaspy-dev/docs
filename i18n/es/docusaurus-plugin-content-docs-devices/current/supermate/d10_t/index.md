@@ -21,7 +21,9 @@ keywords:
 
 # Supermate - D10-T
 
+<div className="device-logo">
 ![D10-T](./logo.jpg)
+</div>
 
 El Supermate D10-T es un rastreador GPS compacto y liviano diseñado para una variedad de necesidades de seguimiento. Adecuado para usos personales, comerciales e industriales, el dispositivo ofrece visibilidad continua de la ubicación y es fácil de colocar en activos sin llamar la atención. Su instalación sencilla y su formato portátil lo hacen ideal para vigilar vehículos, equipos o pertenencias personales cuando se requiere seguimiento discreto y despliegue rápido.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - FM-Tco4 HCV
 
+<div className="device-logo">
 ![FM-Tco4 HCV](./logo.jpg)
+</div>
 
 The Ruptela FM-Tco4 HCV is a purpose built GPS tracker for modern heavy commercial vehicles and transportation equipment. It collects vehicle and operational data to support route and order optimization, fuel control, eco driving analysis, remote tachograph reading and downloading, and temperature monitoring for refrigerated assets. The device is positioned as a comprehensive telematics unit for fleets that need both location tracking and in-depth vehicle information.
 

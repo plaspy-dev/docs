@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT-4700
 
+<div className="device-logo">
 ![XT-4700](./logo.jpg)
+</div>
 
 El Xirgo XT-4700 es un módem celular inalámbrico autónomo y robusto con un receptor GPS integrado, diseñado para el rastreo de activos en exteriores. Concebido para la supervisión de activos de alto valor como contenedores, remolques y otros equipos remotos, el XT-4700 prioriza la durabilidad y el funcionamiento a largo plazo en entornos exigentes. Su carcasa cumple con estándares de pruebas ambientales y cuenta con clasificación IP66; además, el equipo se ofrece con antenas embebidas, batería recargable y opciones de detección de movimiento.
 

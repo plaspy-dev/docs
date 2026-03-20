@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T360
 
+<div className="device-logo">
 ![T360](./tracker.jpg)
+</div>
 
 The Ulbotech T360 is a plug and play OBD GPS tracker designed for quick deployment in cars and light commercial vehicles. Built around a u blox 6M GNSS engine and a quad band GPRS GSM modem, the device provides real time position tracking, event reporting and driving behavior insights. Internal antennas, auto APN and time zone detection, plus firmware update features simplify rollout and ongoing maintenance for fleets and individual owners.
 

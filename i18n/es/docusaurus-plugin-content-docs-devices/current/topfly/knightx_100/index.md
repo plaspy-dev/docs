@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - KnightX 100
 
+<div className="device-logo">
 ![KnightX 100](./tracker.png)
+</div>
 
 El KnightX 100 es un rastreador GPS discreto y recargable, diseñado para la vigilancia a largo plazo de activos de alto valor. Integra posicionamiento híbrido, autonomía prolongada, almacenamiento en búfer y soporte para sensores auxiliares, lo que le permite ofrecer telemetría de ubicación y ambiental fiable sin necesidad de cableado permanente. Su tamaño compacto y montaje magnético lo hace ideal para instalaciones temporales donde la baja visibilidad y el bajo mantenimiento son prioridades.
 

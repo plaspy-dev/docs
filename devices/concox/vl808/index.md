@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL808
 
+<div className="device-logo">
 ![VL808](./tracker.png)
+</div>
 
 The VL808 is a hardwired LTE vehicle GNSS terminal engineered for reliable fleet and vehicle tracking in demanding environments. It is built with industrial-grade protection and multi GNSS positioning that delivers sub 2.5 m CEP accuracy, plus onboard telemetry such as an accelerometer, flexible I O options and BLE accessory support to cover a wide range of vehicle monitoring needs.
 

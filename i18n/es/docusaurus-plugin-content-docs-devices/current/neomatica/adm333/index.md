@@ -21,7 +21,9 @@ keywords:
 
 # Neomatica - ADM333
 
+<div className="device-logo">
 ![ADM333](./tracker.png)
+</div>
 
 El Neomatica ADM333 v2 es un rastreador GPS ultracompacto diseñado para vehículos y activos estacionarios que requieren seguimiento en tiempo real y telemetría confiable. La revisión de 2021 moderniza la línea ADM333 al combinar funciones de localización básicas con mayor soporte de sensores, una pequeña batería interna y conectividad celular multinetwork, ofreciendo actualizaciones continuas de posición y detección de eventos para la gestión de flotas y activos.
 

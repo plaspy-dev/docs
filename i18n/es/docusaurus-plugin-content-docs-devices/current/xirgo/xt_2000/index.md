@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT-2000
 
+<div className="device-logo">
 ![XT-2000](./logo.jpg)
+</div>
 
 El Xirgo XT-2000 es un módem OBD II plug and play con motor GPS integrado, diseñado para vehículos de pasajeros y de servicio ligero. Su factor de forma compacto y el conector estilo J1962 facilitan su uso para gestores de flota y despliegues posventa que requieren ubicación, velocidad y datos OBD II sin procesos de instalación complejos. Está pensado para aplicaciones como gestión de recursos móviles, telemática para consumidores, monitoreo de comportamiento de conductores y servicios automotrices posventa.
 

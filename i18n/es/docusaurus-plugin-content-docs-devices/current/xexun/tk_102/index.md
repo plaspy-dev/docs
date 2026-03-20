@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - TK-102
 
+<div className="device-logo">
 ![TK-102](./logo.jpg)
+</div>
 
 El Xexun TK-102 es un rastreador GPS compacto y versátil pensado para ofrecer seguimiento de ubicación confiable y registro de datos. Dispone de una ranura para tarjeta SD que permite guardar datos GPRS localmente, una batería de mayor capacidad para prolongar su autonomía y un procesador ARM7 que asegura un desempeño estable del equipo. El dispositivo combina funciones de seguimiento en tiempo real con almacenamiento a bordo y ofrece diversas alertas como geocerca, movimiento, exceso de velocidad, batería baja y un botón SOS.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - TK103B
 
+<div className="device-logo">
 ![TK103B](./tracker.jpg)
+</div>
 
 The TK103B is a compact, hard wired vehicle GPS tracker designed for reliable deployment in fleet management, anti theft and real time tracking scenarios. It reports location, alarms and basic telemetry using GSM GPRS together with GPS satellite positioning, and integrates with web and mobile platforms for live monitoring, history playback and incident alerts. Its form factor and feature set make it a practical choice for rental cars, taxis and commercial vehicle fleets.
 

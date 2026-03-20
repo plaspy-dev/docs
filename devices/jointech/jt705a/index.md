@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT705A
 
+<div className="device-logo">
 ![JT705A](./tracker.jpg)
+</div>
 
 The Jointech JT705A is a purpose built GPS tracker and intelligent container monitor designed for enterprise logistics and multimodal cargo operations. Intended for use on shipping containers, refrigerated units, vans and trucks, the JT705A provides continuous location awareness along with security and status reporting to support extended deployments and secure shipments.
 

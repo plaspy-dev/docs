@@ -21,7 +21,9 @@ keywords:
 
 # WP - VT-300
 
+<div className="device-logo">
 ![VT-300](./logo.jpg)
+</div>
 
 El WP VT-300 es un rastreador GPS versátil diseñado específicamente para el seguimiento de vehículos. Ofrece múltiples opciones de comunicación para voz, SMS y datos en las generaciones habituales de redes móviles, e incluye una interfaz expandible de usuario (UDI) para ampliar el hardware según necesidades. Los modos de rastreo configurables abarcan intervalos por tiempo y distancia, cambios de rumbo y velocidad, y estado del encendido. Entre las alertas a bordo se encuentran manipulación de antena, detección opcional de interferencia, control de geocercas, reporte de kilometraje, alertas de batería baja y remolque, notificaciones por exceso de velocidad y ajustes de preferencia de roaming. El equipo además permite configuración remota y actualización de firmware por aire.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Appello - TK103B
 
+<div className="device-logo">
 ![TK103B](./logo.jpg)
+</div>
 
 El Appello TK103B es un rastreador GPS versátil diseñado para supervisar vehículos, equipos y personas. Ofrece conectividad celular mundial y reportes de posición en tiempo real que pueden consultarse desde computadoras, teléfonos móviles y herramientas de mapeo. El TK103B proporciona actualizaciones automáticas periódicas de ubicación, campos de posición estándar como latitud y longitud, velocidad y hora, además de comprobación de estados y una variedad de alertas configurables para mantener el control de los activos rastreados.
 

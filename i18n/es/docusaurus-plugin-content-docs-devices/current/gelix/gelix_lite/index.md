@@ -21,7 +21,9 @@ keywords:
 
 # Gelix - Gelix Lite
 
+<div className="device-logo">
 ![Gelix Lite](./logo.jpg)
+</div>
 
 El Gelix Lite es un dispositivo telemático diseñado para integrarse con sistemas GLONASS y GPS para el seguimiento de objetos en movimiento. Como controlador telemático, recopila, registra y transmite datos de ubicación y eventos mediante GPRS IP y SMS, y ofrece configuración flexible del formato de datos y del registro de eventos. El equipo puede enviar información a dos servidores receptores, aceptar comandos de modo operativo desde un servidor y soporta actualizaciones remotas de firmware, lo que lo hace adecuado para la gestión continua de flotas y activos.
 

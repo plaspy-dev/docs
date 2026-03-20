@@ -20,7 +20,9 @@ keywords:
 
 # DCT - Titan Tracker
 
+<div className="device-logo">
 ![Titan Tracker](./tracker.png)
+</div>
 
 The Titan Tracker is a portable GPS tracker designed for personal safety and asset monitoring. It is offered in two SKUs to match regional cellular availability and combines an SOS panic button, a 3-axis accelerometer for motion and impact detection, vibration feedback for panic confirmation, and enhanced GNSS positioning in an IPX6 waterproof housing suited to demanding field conditions.
 

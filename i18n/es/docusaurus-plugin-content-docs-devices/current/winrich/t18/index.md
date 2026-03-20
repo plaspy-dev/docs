@@ -21,7 +21,9 @@ keywords:
 
 # Winrich - T18
 
+<div className="device-logo">
 ![T18](./tracker.jpg)
+</div>
 
 El T18 es un reloj rastreador GPS compacto de Winrich, diseñado principalmente para niños y personas adultas mayores. Integra posicionamiento por GPS y LBS junto con conectividad GSM para ofrecer actualizaciones continuas de ubicación, un botón de emergencia SOS, comunicación de voz bidireccional y reproducción del historial de rutas. Su diseño y conjunto de funciones están orientados a la seguridad, la sencillez y la comunicación constante entre quien lo porta y sus cuidadores o tutores.
 

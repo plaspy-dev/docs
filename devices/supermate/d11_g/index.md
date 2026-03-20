@@ -20,7 +20,9 @@ keywords:
 
 # Supermate - D11-G
 
+<div className="device-logo">
 ![D11-G](./logo.jpg)
+</div>
 
 The Supermate D11-G is a compact and versatile GPS tracker designed for general asset management and security applications. Built for discreet placement and portability, the D11-G is suitable for tracking vehicles, personal belongings, equipment, or individuals. Its core features include real time location reporting, geo fencing to define virtual boundaries, and an emergency SOS alert function for critical situations.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-AVL19
 
+<div className="device-logo">
 ![TZ-AVL19](./logo.jpg)
+</div>
 
 El TZone TZ-AVL19 es un rastreador GPS para vehículos diseñado para ofrecer monitoreo versátil de flotas y unidades individuales. Permite ubicación puntual y seguimiento continuo, de modo que los administradores pueden ver posiciones actuales y el historial de desplazamiento. El modelo incorpora diversas opciones de alarma, como exceso de velocidad, baja batería, geocerca, detección de vibración, alarma de estacionamiento y botón SOS, ayudando a identificar incidentes o situaciones potenciales de manera oportuna.
 

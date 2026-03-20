@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC230
 
+<div className="device-logo">
 ![FMC230](./tracker.png)
+</div>
 
 The Teltonika FMC230 is a rugged GPS tracker built for heavy duty vehicle and asset use. Its IP67 rated housing and robust mechanical design are aimed at harsh environments such as construction, mining, and agriculture. The FMC230 provides continuous tracking capability through LTE Cat 1 connectivity with 2G fallback and supports Bluetooth Low Energy sensors for extended environmental and movement monitoring.
 

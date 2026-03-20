@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V03-SOS
 
+<div className="device-logo">
 ![RF-V03-SOS](./tracker.jpg)
+</div>
 
 The RF-V03-SOS is a rugged, multi-function vehicle GPS tracker designed for reliable real-time tracking and fleet telematics. It supports a wide input voltage range to suit cars, trucks and industrial vehicles, and provides dual positioning with GPS and cellular based location for open sky accuracy up to about 10 meters. The device emphasizes safety and remote control with features such as a one-click SOS, remote engine or power cut, vibration alarm and optional voice monitoring on certain variants, while offering a waterproof enclosure, internal backup battery and local data storage for continuity.
 

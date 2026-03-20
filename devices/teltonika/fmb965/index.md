@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB965
 
+<div className="device-logo">
 ![FMB965](./tracker.png)
+</div>
 
 The Teltonika FMB965 is a compact, Plaspy compatible 2G GPS tracker built for prolonged autonomous operation and outdoor reliability. Intended for motorcycles, small trailers, marine leisure vehicles and similar exposed assets, the FMB965 pairs an IP67 rated enclosure with an internal 1,200 mAh backup battery and ultra-low power consumption to deliver dependable real-time location tracking and extended offline runtime.
 

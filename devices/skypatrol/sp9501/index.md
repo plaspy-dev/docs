@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP9501
 
+<div className="device-logo">
 ![SP9501](./logo.jpg)
+</div>
 
 The SkyPatrol SP9501 is a CDMA asset tracker built for reliable, long term deployments. It combines a durable enclosure with wireless charging and a focus on consistent GPS performance to provide real time location tracking for vehicles, equipment, and other valuable assets. The unit is described as suitable for scenarios where extended battery life and dependable tracking are important, making it a candidate for deployments that span months or years.
 

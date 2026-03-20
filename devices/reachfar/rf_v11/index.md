@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V11
 
+<div className="device-logo">
 ![RF-V11](./tracker.jpg)
+</div>
 
 The Reachfar RF-V11 is a compact, battery powered GPS tracker combined with a wireless anti theft alarm designed for small assets, doors, windows and safes. It is a no wiring device that pairs GPS positioning with multi mode sensing including magnetic contact, vibration and sound detection to provide discreet protection and location reporting. The RF-V11 is intended for installers and end users needing an easy to deploy alarm and tracking solution for items where running power or data cabling is impractical.
 

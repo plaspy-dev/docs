@@ -20,7 +20,9 @@ keywords:
 
 # Telic - SafeDrive
 
+<div className="device-logo">
 ![SafeDrive](./logo.jpg)
+</div>
 
 The Telic SafeDrive is a compact, plug and play GPS tracker built for telematics applications. Designed for quick connection to a vehicle 12V socket, the device supports temporary and mobile tracking scenarios with a small physical footprint and integrated USB socket for charging external devices. Its feature set and configurable settings make it suitable for a range of vehicle monitoring needs from delivery logistics to general fleet oversight.
 

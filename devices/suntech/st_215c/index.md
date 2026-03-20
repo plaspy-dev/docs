@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 215C
 
+<div className="device-logo">
 ![ST 215C](./logo.jpg)
+</div>
 
 The Suntech ST 215C is a GPS vehicle tracker designed for fleet management and track and trace applications. It provides direct connection to vehicle bus standards J1939 and OBDII for access to vehicle data relevant to monitoring and reporting. The unit includes an internal GPS antenna with the option for an external antenna, internal GSM antennas with full quadband support, and multiple inputs for ignition, panic, door sensors, plus an analogue input. Positioning can be configured by time distance and angle change, and the device includes internal memory and event based reporting with a sleep mode to conserve power.
 

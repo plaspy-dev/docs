@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - PT32
 
+<div className="device-logo">
 ![PT32](./tracker.jpg)
+</div>
 
 El PT32 es un rastreador GPS 4G compacto diseñado para el seguimiento confiable de mascotas y la recuperación rápida. Combina comunicación 4G LTE con posicionamiento dual GPS y BDS, además de varios modos de localización, para ofrecer datos de ubicación y actividad precisos en tiempo real, optimizados para collares y animales pequeños. Pensado para el uso diario, el dispositivo equilibra resistencia y gestión de energía en un formato reducido adecuado para mascotas y flujos de trabajo móviles de cuidado animal.
 

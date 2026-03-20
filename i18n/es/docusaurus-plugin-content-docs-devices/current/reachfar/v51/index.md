@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - V51
 
+<div className="device-logo">
 ![V51](./tracker.jpg)
+</div>
 
 El V51 es un rastreador GPS personal 4G compacto, diseñado para el monitoreo confiable de personas mayores, niños y otros usuarios vulnerables. Con una carcasa impermeable IP67, el equipo combina posicionamiento por GPS y Beidou con conectividad celular multioperador para ofrecer ubicación precisa en exteriores, además de utilidades prácticas como recordatorios de medicación, podómetro, reloj con voz y timbre remoto para localizar el dispositivo. Las funciones de seguridad incluyen alertas SOS y detección de caídas para notificar a los cuidadores de forma ágil.
 

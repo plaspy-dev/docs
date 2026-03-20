@@ -21,7 +21,9 @@ keywords:
 
 # Zilogic - Flota
 
+<div className="device-logo">
 ![Fleet](./logo.jpg)
+</div>
 
 El Zilogic BlackKite Fleet es un rastreador GPS diseñado para activos móviles y la gestión de flotas. Integra un receptor GPS SiRF IV de alta precisión y ofrece interfaces dedicadas para supervisar señales críticas del vehículo, como encendido, batería y botón de pánico. Además, el equipo dispone de múltiples entradas y salidas digitales, entradas analógicas y una conexión serial, lo que posibilita funciones adicionales de monitoreo y control útiles en operaciones de flota.
 

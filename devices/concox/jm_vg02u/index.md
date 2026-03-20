@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-VG02U
 
+<div className="device-logo">
 ![JM-VG02U](./tracker.png)
+</div>
 
 The JM-VG02U is an INS aided OBDII GNSS vehicle GPS tracker designed for fast plug and play installation via the vehicle OBD II port. It combines multi constellation GNSS reception with inertial navigation sensors to provide continuous positioning and motion data for fleet management and vehicle monitoring without complicated wiring.
 

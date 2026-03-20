@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK900
 
+<div className="device-logo">
 ![LK900](./logo..jpg)
+</div>
 
 El LK900 es un rastreador magnético y compacto para vehículos de LK-GPS, pensado para un seguimiento flexible de activos y automotores. Ofrece actualizaciones de ubicación en tiempo real y funcionalidades habituales de monitoreo como revisión de historial de movimientos, geocercas, alertas por exceso de velocidad y notificaciones de batería baja. El dispositivo está diseñado para su uso en autos, vehículos de alquiler, equipos, contenedores y carga cuando se requiere un rastreo continuo y resistente.
 

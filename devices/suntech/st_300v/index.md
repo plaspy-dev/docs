@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 300V
 
+<div className="device-logo">
 ![ST 300V](./logo.jpg)
+</div>
 
 The Suntech ST 300V is a GPS vehicle tracker and driving control device designed for fleet management. It combines vehicle location tracking with in-cabin monitoring features and driver interaction capabilities. The device supports CAN Bus data extraction compatible with J1939 and OBDII standards and includes a 1-Wire interface for driver identification, making it suitable for operations that need driver level awareness and vehicle data alongside location history.
 

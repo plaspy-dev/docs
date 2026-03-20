@@ -21,7 +21,9 @@ keywords:
 
 # Fortuna Impex - Disha 9330
 
+<div className="device-logo">
 ![Disha 9330](./logo.jpg)
+</div>
 
 El Fortuna Impex Disha 9330 es un sistema inteligente de rastreo de vehículos diseñado para empresas de servicios, reparto y transporte. Captura y analiza información de los activos para ayudar a los encargados de flota a supervisar la ubicación y la utilización de los vehículos. El equipo ofrece seguimiento en tiempo real e histórico a través de la web, además de alertas, eventos e informes programados por SMS y correo electrónico para mantener a las operaciones informadas.
 

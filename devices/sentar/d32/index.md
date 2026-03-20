@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D32
 
+<div className="device-logo">
 ![D32](./tracker.png)
+</div>
 
 The Sentar D32 is a wrist worn 4G Android GPS smartwatch designed for continuous location monitoring, two way communication, and personal safety. As a compact wearable it combines multi mode positioning with cellular voice and data, an SOS configurable power button, a 1.4 inch IPS touchscreen, and a camera to support live situational awareness and basic image capture.
 

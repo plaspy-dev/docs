@@ -21,7 +21,9 @@ keywords:
 
 # Laipac - LooK Watch
 
+<div className="device-logo">
 ![LooK Watch](./tracker.png)
+</div>
 
 El LooK Watch es un reloj inteligente de respuesta a emergencias, diseñado por Laipac para monitoreo continuo y asistencia rápida. Combina una carcasa de acero inoxidable, una brillante pantalla AMOLED de 1.39 pulgadas protegida por cristal de zafiro, conectividad celular 3G UMTS a nivel mundial e integración GPS para ofrecer rastreo confiable en tiempo real, activación SOS y voz bidireccional para comunicación inmediata en eventos críticos. El dispositivo incluye además funciones orientadas a la seguridad, como detección de caída, geocercas programables y recordatorios de registro para mantener la conciencia situacional constante.
 

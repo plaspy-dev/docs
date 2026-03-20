@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMC125
 
+<div className="device-logo">
 ![FMC125](./tracker.png)
+</div>
 
 El FMC125 es un rastreador GPS de grado profesional diseñado para la gestión de flotas y la telemetría vehicular. Orientado a operaciones de logística, transporte y flotas de servicio, el equipo ofrece conectividad celular con respaldo, resiliencia mediante doble SIM e interfaces seriales robustas para recopilar posición GNSS y telemetría externa. El FMC125 admite entradas por impulso para caudalímetros de combustible y entradas de identificación como RFID y sensores 1‑wire, lo que permite un seguimiento preciso y control de combustible en operaciones exigentes.
 

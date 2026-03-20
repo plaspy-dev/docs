@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - GT-30i
 
+<div className="device-logo">
 ![GT-30i](./logo.jpg)
+</div>
 
 El Meitrack GT-30i es un dispositivo de rastreo GPS personal, compacto y fácil de usar, diseñado para enviar datos de posición fiables a un teléfono móvil o a un servidor especificado. Combina posicionamiento satelital con comunicación celular para reportar ubicaciones en intervalos predefinidos o bajo demanda, e incorpora funciones orientadas a la seguridad personal y a la continuidad de la información, como un botón de pánico SOS y memoria interna para almacenar coordenadas cuando la conexión no está disponible.
 

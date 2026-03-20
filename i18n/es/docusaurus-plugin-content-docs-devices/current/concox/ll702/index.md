@@ -21,7 +21,9 @@ keywords:
 
 # Concox - LL702
 
+<div className="device-logo">
 ![LL702](./tracker.png)
+</div>
 
 El LL702 es un rastreador compacto 4G Cat.1 de Concox diseñado para el monitoreo de activos a largo plazo e instalaciones encubiertas. Integra posicionamiento multisensor que incluye GPS, BDS, LBS y puntos de acceso Wi‑Fi junto con comunicación LTE Cat 1 y conmutación de respaldo a 2G GSM para ofrecer datos de ubicación en áreas de amplia cobertura. Pensado para un mantenimiento mínimo, el equipo incorpora una batería industrial de alta capacidad y una base magnética robusta para un montaje discreto en activos metálicos.
 

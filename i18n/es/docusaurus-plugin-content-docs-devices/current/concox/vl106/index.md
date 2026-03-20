@@ -21,7 +21,9 @@ keywords:
 
 # Concox - VL106
 
+<div className="device-logo">
 ![VL106](./tracker.png)
+</div>
 
 El Concox VL106 es un rastreador GPS compacto diseñado para vehículos y pensado para despliegues exigentes que requieren datos continuos y precisos de posición y movimiento. Integra una navegación asistida por INS junto con GNSS multiconstelación para mantener posicionamiento fiable en túneles, estacionamientos subterráneos y otras áreas con señal GNSS degradada. Con un diseño robusto y una entrada de alimentación de grado automotriz, el VL106 está pensado para entornos profesionales de flotas, seguridad y financiamiento donde la captura sostenida de telemetría y eventos es crítica.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Gator - M588S
 
+<div className="device-logo">
 ![M588S](./logo.jpg)
+</div>
 
 El Gator M588S es un dispositivo de rastreo GPS diseñado para ofrecer datos de ubicación confiables en aplicaciones vehiculares. Integra un receptor GPS para la posición por satélite y un módulo GSM para transmitir la información de seguimiento a un servidor remoto. El M588S está pensado para una variedad de vehículos y su amplio rango de voltaje lo hace compatible con distintos sistemas eléctricos automotrices.
 

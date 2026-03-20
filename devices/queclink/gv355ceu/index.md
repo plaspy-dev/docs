@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV355CEU
 
+<div className="device-logo">
 ![GV355CEU](./tracker.png)
+</div>
 
 The QuecLink GV355CEU is a high precision LTE vehicle GPS tracker designed for demanding fleet management and regulatory compliance. Built for mixed fleets and intensive use, the device provides real time tracking, comprehensive vehicle telemetry and remote tachograph retrieval to help fleets monitor vehicle location, driver hours and critical diagnostic information from a single system.
 

@@ -28,3 +28,17 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.device-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.device-logo img {
+  max-width: min(600px, 100%);
+  max-height: min(600px, 50vh);
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

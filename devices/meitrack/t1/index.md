@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - T1
 
+<div className="device-logo">
 ![T1](./logo.jpg)
+</div>
 
 The Meitrack T1 is a compact GPS vehicle tracker designed for both fleet and personal vehicle tracking. It combines continuous location reporting with GPS logging to provide real time position visibility and historical route playback. The device also includes two way audio, an S.O.S. button, speed alerting, and compatibility with accessories such as a handset phone and an RFID reader, making it a flexible option for a range of tracking needs.
 

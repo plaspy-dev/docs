@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-24
 
+<div className="device-logo">
 ![AT-24](./tracker.jpg)
+</div>
 
 The AT-24 is a compact 4G GPS tracker designed for reliable real time tracking of vehicles and mobile assets. Built for permanent, discreet installation in protected vehicle locations such as under dashboards or beneath seats, the AT-24 combines cellular connectivity with a wide operating voltage range to support cars, trucks, motorcycles, boats and other fleet assets. Its small form factor and modular wiring help make installations quick and unobtrusive while keeping the unit suited for routine fleet use and security monitoring.
 

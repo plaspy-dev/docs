@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-17G
 
+<div className="device-logo">
 ![AT-17G](./tracker.jpg)
+</div>
 
 The Autoseeker AT-17G is a heavy duty 4G GPS asset tracker designed for long term asset protection and fleet management. It combines robust physical construction with a high capacity rechargeable battery and six internal high strength magnets to enable covert mounting on trucks, trailers, containers, construction machinery and other high value mobile assets. The device is built to withstand demanding transport environments and provide persistent position updates and event notifications.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Noran - NR016
 
+<div className="device-logo">
 ![NR016](./tracker.jpg)
+</div>
 
 El NR016 es un rastreador GPS con función de alarma diseñado para la seguridad vehicular y la telemática de flotas. Perteneciente a una familia de hardware consolidada, combina posicionamiento por satélite GPS con comunicación GSM GPRS y soporte 3G para ofrecer actualizaciones continuas de ubicación, alertas SOS, inmovilización remota y telemetría con múltiples entradas. El dispositivo está orientado a automóviles, taxis, autobuses y flotas comerciales que requieren protección antirrobo práctica junto con funciones rutinarias de seguimiento.
 

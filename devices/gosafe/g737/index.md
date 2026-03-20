@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G737
 
+<div className="device-logo">
 ![G737](./tracker.png)
+</div>
 
 The G737 Ankle Bracelet by Gosafe is a purpose built GPS tracker designed for continuous electronic monitoring of parolees and offenders. It pairs a high precision 56 channel uBlox GNSS engine with SBAS support, LTE CAT 1 cellular connectivity, a tamper evident fiber optic strap and BLE home beacon capability to provide real time location, tamper alerts and event telemetry suitable for corrections and community supervision programs.
 

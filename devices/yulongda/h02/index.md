@@ -20,7 +20,9 @@ keywords:
 
 # YulongDa - H02
 
+<div className="device-logo">
 ![H02](./logo.jpg)
+</div>
 
 The YulongDa H02 is a GPS tracking unit designed to determine and record the location of vehicles, people, or other assets. It captures position data at regular intervals and stores those records for real time monitoring or later analysis, making it suitable for a variety of tracking and oversight needs.
 

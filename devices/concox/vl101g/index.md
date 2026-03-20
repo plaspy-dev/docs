@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL101G
 
+<div className="device-logo">
 ![VL101G](./tracker.png)
+</div>
 
 The VL101G is a rooftop vehicle terminal designed for professional fleet management and vehicle telematics. Built for exposed installations, it pairs high precision positioning with robust cellular connectivity and vehicle oriented inputs and outputs to provide real time tracking, tamper resilience, and vehicle status data suitable for fleets, rental operations, and usage based insurance programs.
 

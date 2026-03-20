@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V03-OBD
 
+<div className="device-logo">
 ![RF-V03-OBD](./tracker.jpg)
+</div>
 
 The RF-V03-OBD is a plug-and-play OBDII GPS tracker designed for rapid deployment and simple fleet integration. It connects directly to a vehicle J1962 OBDII port to provide real time location, ignition status and basic vehicle diagnostics without the need for hardwiring. The form factor and standardized OBD interface make it well suited for mixed fleets, rental vehicles and logistics vehicles where quick, non invasive installation is a priority.
 

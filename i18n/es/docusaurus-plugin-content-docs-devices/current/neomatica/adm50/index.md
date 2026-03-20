@@ -21,7 +21,9 @@ keywords:
 
 # Neomatica - ADM50
 
+<div className="device-logo">
 ![ADM50](./tracker.png)
+</div>
 
 El ADM50 es un rastreador GPS compacto alimentado por batería, diseñado para la supervisión prolongada de personas y activos. Combina posicionamiento GNSS con correcciones asistidas por LBS, una batería Li‑Po de 3350 mAh y varios modos de funcionamiento para equilibrar la precisión de los reportes de ubicación y una larga vida en espera. El equipo incluye funciones de reporte por eventos como un botón de pánico y detección de movimiento, útiles para capturar incidentes y ahorrar batería cuando está inactivo.
 

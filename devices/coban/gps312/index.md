@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS312
 
+<div className="device-logo">
 ![GPS312](./Logo.jpg)
+</div>
 
 The Coban GPS312 is a compact and versatile vehicle GPS tracker designed for real time positioning, security, monitoring, and emergency alarm functions. It supports multiple data transmission methods including SMS and internet data, and provides tracking through global satellite positioning. The device includes features commonly used for vehicle oversight such as geo fencing, two way audio, SOS alarm, tamper alerts, and support for map based tracking tools.
 

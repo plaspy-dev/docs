@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - GDO-10
 
+<div className="device-logo">
 ![GDO-10](./tracker.jpg)
+</div>
 
 El GlobalSat GDO-10 es un oscilador disciplinado por GNSS basado en OCXO, diseñado para proporcionar referencias de tiempo y frecuencia de calidad de laboratorio con sincronización GNSS. Ofrece una salida 1PPS de alta precisión y una onda cuadrada de 10 MHz bloqueada en fase, derivadas del OCXO interno y de un receptor GNSS sensible que soporta GPS, GLONASS y Galileo. La unidad incluye una fuente de alimentación activa de antena de +5.0 V integrada para facilitar el uso de la antena y asegurar la adquisición fiable de señal en entornos donde la precisión temporal es crítica.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-AVL02
 
+<div className="device-logo">
 ![TZ-AVL02](./logo.jpg)
+</div>
 
 The TZone TZ-AVL02 is a compact GPS/GSM/GPRS tracking device built for real time vehicle tracking and security. It pairs a sensitive GPS module with GPRS communication to deliver stable location fixes even in challenging or remote areas. The unit is physically small and lightweight, measuring 108mm x 58mm x 28mm and weighing about 140g, and it includes exterior GSM and GPS antennas for improved reception.
 

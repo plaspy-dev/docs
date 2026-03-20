@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 910
 
+<div className="device-logo">
 ![ST 910](./logo.jpg)
+</div>
 
 The Suntech ST 910 is a standalone GPS asset tracker designed to provide reliable location tracking for mobile assets. It includes a rechargeable Li Polymer battery and internal event storage, together with a compact durable plastic enclosure and a mini USB port for additional connectivity. The device is aimed at track and trace applications and vehicle recovery where persistent location visibility and basic alerting are required.
 

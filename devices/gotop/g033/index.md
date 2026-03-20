@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G033
 
+<div className="device-logo">
 ![G033](./tracker.jpg)
+</div>
 
 The GOTOP G033 is a name card style GPS tracker designed for discreet personal and small scale personnel tracking. Styled to resemble a business card, the G033 provides satellite positioning plus cellular reporting and supports multiple positioning modes, voice monitoring and local recording. Its compact dimensions and lightweight design make it suitable for carrying in a wallet, bag, or personal item while still providing routine position reports and alerts.
 

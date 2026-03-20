@@ -20,7 +20,9 @@ keywords:
 
 # Concox - LG300
 
+<div className="device-logo">
 ![LG300](./tracker.png)
+</div>
 
 The Concox LG300 is a rugged asset tracker built for persistent industrial grade tracking of vehicles, containers and high value cargo. Designed for long standby deployments, the device combines multi constellation positioning with a high capacity battery and an IP66 enclosure to deliver reliable location and tamper telemetry in demanding field conditions. Built to record movement events and capture audio context when needed, the LG300 focuses on durable, low maintenance tracking for remote or mobile assets.
 

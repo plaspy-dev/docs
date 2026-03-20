@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G777
 
+<div className="device-logo">
 ![G777](./logo.jpg)
+</div>
 
 El Gosafe G777 es un rastreador GPS OBD II diseñado para ofrecer monitoreo continuo del vehículo con un enfoque en alertas flexibles basadas en reglas. Sus capacidades principales incluyen un sistema avanzado de notificaciones y un motor de reglas programable que admite normas definidas por el usuario vinculadas a tiempo, fecha, movimiento, ubicación, geocercas, velocidad y combinaciones de eventos. El G777 se presenta como una solución completa para gestionar la actividad vehicular y reaccionar ante umbrales preestablecidos.
 

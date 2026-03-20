@@ -20,7 +20,9 @@ keywords:
 
 # YulongDa - H08
 
+<div className="device-logo">
 ![H08](./logo.jpg)
+</div>
 
 The YulongDa H08 is a compact GPS tracker built for real time vehicle location and basic security monitoring. It supports quad band GSM for global cellular coverage and operates across a wide input voltage range of DC 9 to 24V, making it suitable for a variety of cars and commercial vehicles. The device includes features commonly required for vehicle tracking such as a vibration sensor for anti theft alerts, ACC ignition detection to report vehicle status, a small internal backup battery to alert on main power cut off, and an external relay option for remote engine or fuel cut control.
 

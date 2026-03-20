@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - TLV01
 
+<div className="device-logo">
 ![TLV01](./tracker.jpg)
+</div>
 
 The TLV01 Mini Hide GPS Tracker is a compact, covert device designed for discreet asset protection and vehicle security. Built for installers and fleet managers who need a small form factor with flexible power options, the TLV01 supports GSM GPRS and SMS reporting plus hybrid GPS and LBS positioning with AGPS assistance. Its design emphasizes concealment and continuous telemetry for monitoring vehicles and portable assets.
 

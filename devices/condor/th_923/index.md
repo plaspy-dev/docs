@@ -20,7 +20,9 @@ keywords:
 
 # Condor - TH-923
 
+<div className="device-logo">
 ![TH-923](./tracker.png)
+</div>
 
 The TH-923 is a Plaspy compatible GPS tracker engineered for continuous monitoring of heavy machinery, maritime vessels, containers and mobile units that transport high value cargo. Designed to provide uninterrupted location and status updates in both urban and remote environments, the TH-923 combines cellular transmission with Iridium satellite failover so assets remain visible across coverage gaps. This hybrid approach makes the unit suitable for fleet management, anti theft protection and long haul logistics where persistent connectivity matters.
 

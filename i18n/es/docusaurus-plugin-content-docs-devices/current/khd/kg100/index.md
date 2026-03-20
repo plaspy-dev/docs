@@ -21,7 +21,9 @@ keywords:
 
 # KHD - KG100
 
+<div className="device-logo">
 ![KG100](./logo.jpg)
+</div>
 
 El KHD KG100 es un rastreador GPS profesional diseñado para el seguimiento de vehículos y motocicletas. Combina posicionamiento por GPS o GLONASS con comunicación inalámbrica GSM para ofrecer reportes de ubicación y notificaciones de eventos fiables. El fabricante destaca su alta sensibilidad de recepción y el soporte de comunicación hacia servidores backend mediante GPRS/GSM o SMS, lo que permite seguimiento en tiempo real, reproducción histórica de rutas, geocercas y funciones de control remoto.
 

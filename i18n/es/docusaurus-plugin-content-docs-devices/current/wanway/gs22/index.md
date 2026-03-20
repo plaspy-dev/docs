@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - GS22
 
+<div className="device-logo">
 ![GS22](./Logo.jpg)
+</div>
 
 El WanWay GS22 es un dispositivo compacto OBD II con conectividad 4G diseñado para posicionamiento y rastreo dentro del vehículo y supervisión de flotas. Ofrece seguimiento en tiempo real, geocercas configurables por el usuario, reproducción de rutas e información de diagnóstico vehicular en una carcasa reducida de 60x46x22 mm. Incluye una batería recargable interna de 140 mAh que permite seguir enviando datos de ubicación si se pierde la alimentación del vehículo y cuenta con alarma por desensamblaje para mayor seguridad.
 

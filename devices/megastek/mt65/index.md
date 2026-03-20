@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - MT65
 
+<div className="device-logo">
 ![MT65](./tracker.jpg)
+</div>
 
 The MT65 is a purpose built ankle GPS tracker designed for continuous supervision of offenders, parolees and other supervised individuals. It combines a high precision Ublox GNSS chipset with multi network cellular communications and Wi Fi positioning in a waterproof wearable form factor, and includes tamper detection and an SOS alarm for rapid incident reporting.
 

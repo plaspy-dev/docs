@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - J14
 
+<div className="device-logo">
 ![J14](./tracker.jpg)
+</div>
 
 El TrackerKing J14 es un rastreador GPS vehicular cableado y compacto diseñado para instalación permanente en el vehículo. Emplea posicionamiento GNSS dual con GPS y BDS para ofrecer localizaciones fiables y de baja latencia, y viene en una carcasa resistente con clasificación IP65. Con un amplio rango de tensión de funcionamiento y un tamaño reducido, el J14 está pensado para montaje discreto en autos, camiones ligeros y vehículos pesados cuando se requiere monitoreo persistente.
 

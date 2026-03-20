@@ -20,7 +20,9 @@ keywords:
 
 # Riti - SLS-012SF
 
+<div className="device-logo">
 ![SLS-012SF](./logo.jpg)
+</div>
 
 The Riti SLS-012SF is a GPS vehicle tracker designed for fleet management, location services, remote monitoring, and industrial control scenarios. It combines a high sensitivity GPS module with a mobile communication module to provide continuous location reporting and backend data transmission. The device is built to integrate with a range of external equipment such as PND units, i-Button, barcode scanners, RFID readers, tire pressure sensors, and temperature sensors, making it useful for both vehicle tracking and broader telemetry tasks.
 

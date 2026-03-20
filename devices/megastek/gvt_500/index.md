@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - GVT-500
 
+<div className="device-logo">
 ![GVT-500](./logo.jpg)
+</div>
 
 The Megastek GVT-500 is a compact, feature-rich GPS tracker that combines Glonass and GPS chipset technology to provide accurate and reliable location reporting. Built with a focus on practical fleet and asset tracking needs, the GVT-500 includes on-device features such as configurable alerts, SOS button, remote fuel and electricity cut-off, micro SD data logging, and multiple input and output channels for flexible connectivity and event detection.
 

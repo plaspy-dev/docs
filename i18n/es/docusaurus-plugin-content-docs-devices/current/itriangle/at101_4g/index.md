@@ -21,7 +21,9 @@ keywords:
 
 # iTriangle - AT101 4G
 
+<div className="device-logo">
 ![AT101 4G](./tracker.png)
+</div>
 
 El iTriangle AT101 4G es un rastreador GPS compatible con Plaspy, diseñado para el seguimiento discreto de activos a largo plazo. Combina una batería interna de alta capacidad de 10000mAh, un soporte magnético resistente y posicionamiento GNSS multiconstelación para ofrecer monitorización continua de ubicación sin necesidad de cableado externo. Pensado para despliegues en campo, el dispositivo también incorpora detección de movimiento, geocercas y alertas por manipulación para soportar flujos de trabajo prácticos contra el robo y la recopilación constante de telemetría.
 

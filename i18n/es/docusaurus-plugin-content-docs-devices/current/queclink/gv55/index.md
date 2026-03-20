@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV55
 
+<div className="device-logo">
 ![GV55](./tracker.png)
+</div>
 
 El GV55 es un rastreador GPS vehicular compacto y discreto diseñado para telemática embarcada. Integra un receptor GNSS u-blox, conectividad GSM GPRS incorporada y una batería interna de respaldo que permiten reportes de posición continuos y telemetría en búfer. El equipo está pensado para aplicaciones que requieren instalación sigilosa y notificación confiable de eventos en vehículos ligeros.
 

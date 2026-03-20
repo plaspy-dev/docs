@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK300
 
+<div className="device-logo">
 ![LK300](./tracker.jpg)
+</div>
 
 El LK300, a menudo referido como LK300-2G en la documentación del fabricante, es un rastreador GPS compacto diseñado para ofrecer seguimiento confiable en tiempo real y protección antirrobo en automóviles, motocicletas, camiones y equipos de exterior. Integra antena GPS y conectividad GSM en un formato reducido pensado para montajes discretos, dispone de activación por vibración para detectar movimiento y permite acceso desde múltiples plataformas para monitorizar estado y ubicación del dispositivo.
 

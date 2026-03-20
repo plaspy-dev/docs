@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - S20
 
+<div className="device-logo">
 ![S20](./tracker.webp)
+</div>
 
 The S20 Asset GPS Tracker is a self contained, battery powered tracker designed for flexible deployment across vehicles, trailers, containers and portable assets. Built with transport and logistics in mind, this unit is intended to provide reliable real time tracking and long term monitoring without permanent wiring, making it a practical choice when assets move between locations or when temporary installations are needed.
 

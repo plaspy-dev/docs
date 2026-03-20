@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS108
 
+<div className="device-logo">
 ![GPS108](./Logo.jpg)
+</div>
 
 The Coban GPS108 is a compact and versatile GPS tracker designed for precise location tracking and broad monitoring applications. It uses GPS satellites and the existing GSM GPRS network to report position and status, and it is commonly applied to vehicle theft protection, personal monitoring for children or elderly family members, pet tracking, and personnel oversight. The device provides detailed address level positioning and a suite of configurable alarms and tracking modes that make it useful for many basic tracking needs.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - KnightX 300
 
+<div className="device-logo">
 ![KnightX 300](./tracker.png)
+</div>
 
 El KnightX 300 es un rastreador de activos compacto y recargable diseñado para implementaciones que requieren larga duración de batería, posicionamiento preciso y monitoreo ambiental. Está pensado para montaje no permanente y viene en una carcasa con clasificación IP67, ofreciendo una opción ligera para mantener visibilidad continua de los activos. El equipo soporta GNSS multiconstelación para posicionamiento, LTE Cat M1 con NB-IoT y con fallback GSM para conectividad de área amplia, e incluye sensor de temperatura interno además de compatibilidad con sonda externa y sensores Bluetooth.
 

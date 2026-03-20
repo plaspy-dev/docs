@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - H29P
 
+<div className="device-logo">
 ![H29P](./tracker.webp)
+</div>
 
 El WanWay H29P es un rastreador GPS orientado a la prevención de robo, diseñado para el mercado vehicular con especial enfoque en electromovilidad y protección de motocicletas. Combina telemetría concisa y reporte inmediato de alarmas con la capacidad de inmovilizador remoto, lo que permite a propietarios y operadores reaccionar con rapidez ante robos o manipulación. El equipo prioriza un rendimiento en línea rápido y un receptor GNSS de alta sensibilidad para ofrecer actualizaciones de posición fiables en el monitoreo diario y la respuesta a incidentes.
 

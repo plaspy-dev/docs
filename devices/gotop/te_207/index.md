@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TE-207
 
+<div className="device-logo">
 ![TE-207](./logo.jpg)
+</div>
 
 The GOTOP TE-207 is a compact personal GPS tracker designed for discreet safety and location monitoring. Its mini form factor and choice of colors make it suitable for child tracking, elderly monitoring, lone worker safety, and patient tracking. The TE-207 combines location reporting with on device communication features including two way voice, listen in capability, a prominent SOS button, a man down alert, and real time tracking accessible through a web platform and an Android app.
 

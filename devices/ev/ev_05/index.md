@@ -20,7 +20,9 @@ keywords:
 
 # EV - EV-05
 
+<div className="device-logo">
 ![EV-05](./tracker.png)
+</div>
 
 The EV-05 Mobile Safety Watch is a wearable GPS tracker designed for continuous personal protection. Packaged as a wristwatch for seniors, patients, and lone workers, it combines position tracking with safety and health monitoring features such as SOS, fall detection, heart rate alerts, and two-way voice so caregivers and monitoring teams can maintain situational awareness of the wearer.
 

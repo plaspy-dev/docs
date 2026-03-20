@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - PT55
 
+<div className="device-logo">
 ![PT55](./tracker.jpg)
+</div>
 
 El PT55 es un rastreador GPS compacto de iStartek pensado para el seguimiento a largo plazo de activos y personas cuando la instalación discreta y el bajo mantenimiento son prioritarios. Combina una carcasa magnética resistente con posicionamiento en tiempo real y respaldo por LBS, y soporta múltiples canales de telemetría y alertas. El equipo está orientado a ofrecer largos periodos en espera y reportes configurables, por lo que resulta idóneo en escenarios donde el acceso físico al dispositivo es poco frecuente.
 

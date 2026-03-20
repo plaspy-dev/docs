@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST8310/U
 
+<div className="device-logo">
 ![ST8310/U](./tracker.jpg)
+</div>
 
 The Suntech ST8310/U is a rugged GPS tracker designed for essential vehicle telematics and fleet management. Offered in two compact variants, the ST8310 and the ST8310U, the unit is built for outdoor and exposed vehicle installations with a waterproof IP67 lugged enclosure. It delivers wide area connectivity, high sensitivity GNSS positioning and a compact form factor intended for tracking, anti theft and continuous operational monitoring.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMC003
 
+<div className="device-logo">
 ![FMC003](./tracker.png)
+</div>
 
 El Teltonika FMC003 es un rastreador OBD II plug and play diseñado para la gestión de flotas, operaciones logísticas y programas de movilidad eléctrica. Su factor de forma OBD II y la lectura de parámetros OEM entregan telemetría proveniente del vehículo, como odómetro, nivel de combustible y métricas de baterías eléctricas, mientras que la conectividad celular permite actualizaciones continuas de posición y estado en flotas mixtas.
 

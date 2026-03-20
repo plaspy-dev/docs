@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - GAT3000
 
+<div className="device-logo">
 ![GAT3000](./tracker.png)
+</div>
 
 El GAT3000 Solar Powered Tracker es un dispositivo GPS robusto diseñado para el monitoreo prolongado de activos en exteriores. Pensado para remolques, contenedores, maquinaria pesada y otros activos de alto valor, combina una amplia batería recargable con un panel solar para extender el tiempo en espera y reducir la frecuencia de mantenimiento. El equipo incluye una carcasa con clasificación IP67, GNSS multiconstelación y conectividad celular para ofrecer actualizaciones de ubicación fiables en tiempo real y supervisión de flotas.
 

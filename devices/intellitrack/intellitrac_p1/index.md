@@ -20,7 +20,9 @@ keywords:
 
 # Intellitrack - Intellitrac P1
 
+<div className="device-logo">
 ![Intellitrac P1](./logo.gif)
+</div>
 
 The Intellitrac P1 from Intellitrack is a compact personal GPS device designed for discreet tracking of individuals and portable assets. It features a small, mobile form factor intended to be easy to carry or conceal, a waterproof enclosure for use in varied conditions, and onboard capabilities for detecting motion and height changes to enhance situational awareness.
 

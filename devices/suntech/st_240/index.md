@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 240
 
+<div className="device-logo">
 ![ST 240](./logo.jpg)
+</div>
 
 The Suntech ST 240 is a compact vehicle GPS tracker engineered for reliable position reporting and continuous operation. Built with a plastic cover and an IP67 waterproof rating, the ST 240 is suited to installations where space is limited and exposure to moisture or dust is a concern. It reports vehicle position based on configurable changes in angle, distance, or time, and includes an internal rechargeable backup battery to maintain tracking during power interruption.
 

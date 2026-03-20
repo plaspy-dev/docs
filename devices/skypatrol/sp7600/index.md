@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP7600
 
+<div className="device-logo">
 ![SP7600](./logo.jpg)
+</div>
 
 The SkyPatrol SP7600 is a compact OBD GPS tracking device series designed for fast plug and play deployment and flexible use across vehicles. The SP7600 family emphasizes portability and intelligent power management, making it well suited for applications that require frequent device reassignment or minimal on vehicle intrusion. Common positioning and security features described for the series support fleet oversight and vehicle recovery needs.
 

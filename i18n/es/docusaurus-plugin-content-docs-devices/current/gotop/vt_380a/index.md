@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - VT-380A
 
+<div className="device-logo">
 ![VT-380A](./logo.jpg)
+</div>
 
 El GOTOP VT-380A es un dispositivo de rastreo GPS/GPRS para vehículos, diseñado para el seguimiento en tiempo real y la gestión de flotas. Emplea un módulo GPS integrado para obtener la posición y utiliza la conectividad GSM para transmitir esos datos a un teléfono móvil o servidor especificado. La unidad incorpora memoria interna para almacenar coordenadas cuando no hay conexión GPRS o cuando se configura para registrar posiciones a intervalos definidos. Opcionalmente, se puede conectar un micrófono al habitáculo del vehículo para monitoreo donde la normativa lo permita.
 

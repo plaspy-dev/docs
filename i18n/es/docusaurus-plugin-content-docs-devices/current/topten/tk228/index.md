@@ -21,7 +21,9 @@ keywords:
 
 # TopTen - TK228
 
+<div className="device-logo">
 ![TK228](./Logo.jpg)
+</div>
 
 El TopTen TK228 es un rastreador GPS vehicular versátil que combina localización con un conjunto de funciones de seguridad y diagnóstico. Diseñado para conectarse directamente a vehículos a través del puerto OBDII, el TK228 ofrece localización GPS integrada, control de alarma por RFID, diagnóstico por Bluetooth, un inmovilizador inalámbrico y múltiples condiciones de alarma para ayudar a proteger el vehículo y supervisar su estado operativo.
 

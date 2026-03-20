@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - G509
 
+<div className="device-logo">
 ![G509](./tracker.jpg)
+</div>
 
 El TrackerKing G509 es un rastreador GPS de tipo relé diseñado para proporcionar seguridad discreta en vehículos y soporte operativo en flotas. Su carcasa imita la apariencia de un relé convencional, ofreciendo seguimiento en tiempo real y reproducción fiable de rutas históricas, todo en un formato compacto que facilita la instalación oculta en vehículos comerciales, autos particulares y equipos móviles. Sus funciones están orientadas a flujos de trabajo antirrobo y a telemetría básica de flota para apoyar la respuesta operativa y la recuperación.
 

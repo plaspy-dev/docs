@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CCTR-700
 
+<div className="device-logo">
 ![CCTR-700](./logo.jpg)
+</div>
 
 The Carscop CCTR-700 is a compact GPS tracker designed for reliable location tracking and history recording. It determines position from GPS signals and transmits location data via SMS or GPRS. The device supports four frequency channels 850 900 1800 1900 MHz for broad network compatibility and can report longitude and latitude directly or send a website map link for quick viewing on a smartphone. Built in memory stores up to 32768 track points so location history can be retained even when live reporting is interrupted.
 

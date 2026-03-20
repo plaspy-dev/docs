@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - U01
 
+<div className="device-logo">
 ![U01](./tracker.png)
+</div>
 
 The Xexun U01 is a UWB high precision positioning watch designed as a professional wristwatch style positioning tag for enterprise and institutional deployments. Built to provide centimeter level indoor positioning when used with a network of UWB anchors and a positioning engine, the U01 also streams continuous physiological telemetry such as heart rate, blood pressure and SpO2 along with motion and activity metrics for centralized monitoring.
 

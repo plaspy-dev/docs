@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT12‑X
 
+<div className="device-logo">
 ![GPT12‑X](./tracker.jpg)
+</div>
 
 El GPT12‑X es un rastreador GPS delgado diseñado para funcionar largos periodos en modo de espera y pensado para despliegues de varios años y monitoreo a escala empresarial. Combina conectividad celular LPWA de muy bajo consumo con posicionamiento multi‑GNSS para ofrecer seguimiento en tiempo real confiable, alarmas por eventos y una vida útil de batería prolongada para activos y flotas que requieren poco mantenimiento y disponibilidad constante. El equipo está preparado para entornos exigentes e incorpora detección de eventos para apoyar flujos de trabajo de seguridad y recuperación.
 

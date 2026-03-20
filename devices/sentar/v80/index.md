@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - V80
 
+<div className="device-logo">
 ![V80](./logo.jpg)
+</div>
 
 The Sentar V80 is a compact GPS watch designed for children. Marketed as the V80-1.22 Niños Reloj GPS, the device combines a child friendly design available in blue, pink, and orange with location technologies intended to provide parents with regular position updates. The product description highlights an MTK2503 chipset and multiple location modes including GPS, AGPS, LBS, and WiFi, plus safety features such as an SOS button, two way communication, and geo fence alerts.
 

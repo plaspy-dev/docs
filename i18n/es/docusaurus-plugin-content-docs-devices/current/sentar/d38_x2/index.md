@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D38-X2
 
+<div className="device-logo">
 ![D38-X2](./tracker.jpg)
+</div>
 
 El D38-X2 es un rastreador GPS orientado a niños en forma de reloj inteligente, diseñado con énfasis en la seguridad, la comunicación y la comodidad diaria. Funciona sobre Android 8.1 con memoria y almacenamiento modestos, admite aplicaciones de mensajería populares como WhatsApp, permite llamadas de voz bidireccionales y ofrece posicionamiento mediante GPS, A-GPS, LBS y Wi‑Fi. Su carcasa removible y diseño pensado para niños lo hacen cómodo y adaptable para la escuela, la vida familiar y el juego al aire libre.
 

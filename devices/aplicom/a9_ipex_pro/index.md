@@ -20,7 +20,9 @@ keywords:
 
 # Aplicom - A9 IPEX PRO
 
+<div className="device-logo">
 ![A9 IPEX PRO](./tracker.jpg)
+</div>
 
 The Aplicom A9 IPEX PRO is a rugged GPS tracker and telematics control unit built for demanding field use. Targeted at trailers, heavy machinery and stationary telemetry such as vending machines, the A9 IPEX PRO offers reliable real-time tracking, robust telemetry capture and a sealed IP67 enclosure that helps it withstand harsh environmental conditions. It includes an internal battery for intermittent power scenarios and is designed to deliver consistent position data and operational signals for fleet and asset monitoring.
 

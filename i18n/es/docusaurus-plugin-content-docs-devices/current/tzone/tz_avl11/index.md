@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-AVL11
 
+<div className="device-logo">
 ![TZ-AVL11](./logo.jpg)
+</div>
 
 El TZone TZ-AVL11 es un rastreador GPS compacto y versátil pensado para el control de vehículos y activos. Integra antenas GSM y GPS, un receptor RFID de 2.4G y diversos sensores a bordo para ofrecer reportes continuos de ubicación y telemetría básica. El equipo incluye batería interna y puerto mini USB para carga y actualizaciones de firmware, y admite varios métodos de reporte como GPRS, SMS y monitoreo por software, adaptándose a distintos escenarios de implementación.
 

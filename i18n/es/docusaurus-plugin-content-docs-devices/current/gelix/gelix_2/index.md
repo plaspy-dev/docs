@@ -21,7 +21,9 @@ keywords:
 
 # Gelix - Gelix 2
 
+<div className="device-logo">
 ![Gelix 2](./logo.jpg)
+</div>
 
 El Gelix 2 es un rastreador GPS versátil diseñado para monitoreo de vehículos y activos. Ofrece seguimiento activo con registro de datos en el dispositivo, mensajería de eventos y alarmas, y soporte para múltiples opciones de conectividad. Además incluye funciones de escucha y comunicación de voz, así como control remoto de salidas y capacidades de configuración del sistema, lo que lo hace adecuado para necesidades variadas de supervisión.
 

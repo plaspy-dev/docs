@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - VT-390
 
+<div className="device-logo">
 ![VT-390](./logo.jpg)
+</div>
 
 El GOTOP VT-390 es un rastreador GPS con muchas funciones diseñado para la gestión de flotas y la seguridad vehicular. Combina un procesador ARM9 de alta velocidad con múltiples entradas y salidas, un sistema integrado de identificación de conductor y soporte opcional de cámara, ofreciendo un registro completo de rastreo y eventos. Se posiciona como una opción rentable para organizaciones que requieren monitoreo continuo de ubicación, verificación de conductores, alertas de eventos y almacenamiento local de imágenes y registros.
 

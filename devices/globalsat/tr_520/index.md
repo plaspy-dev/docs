@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - TR-520
 
+<div className="device-logo">
 ![TR-520](./tracker.jpg)
+</div>
 
 The TR-520 is a battery powered GPS tracker designed for long term deployments where low maintenance and rugged reliability are priorities. It combines a built in GNSS receiver, a 3 axis accelerometer, BLE capability for improved indoor positioning, and a large non rechargeable battery to deliver ongoing location updates and motion awareness for assets, vehicles, and animals in the field.
 

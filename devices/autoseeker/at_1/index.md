@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-1
 
+<div className="device-logo">
 ![AT-1](./logo..jpg)
+</div>
 
 The Autoseeker AT-1 is a compact, waterproof 4G GPS tracker designed for personal and light asset tracking. It combines a small form factor and an IP68 rating with a professional GNSS positioning module to provide precise location information. The AT-1 is battery powered and offers multiple work modes, including real time tracking, history tracking, and geofence alerts, making it suitable for monitoring children, elderly family members, pets, and other small mobile assets.
 

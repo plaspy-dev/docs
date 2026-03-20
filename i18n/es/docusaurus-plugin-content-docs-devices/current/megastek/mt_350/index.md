@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT-350
 
+<div className="device-logo">
 ![MT-350](./tracker.jpg)
+</div>
 
 El MT-350 es una pulsera de posicionamiento interior de alta precisión diseñada para uso continuo y para el rastreo de personal y activos con gran exactitud. Con un tamaño compacto similar al de un reloj de pulsera, utiliza posicionamiento Ultra Wideband (UWB) para ofrecer ubicación en tiempo real con precisión típica de 10 a 30 centímetros. Su formato ergonómico, soporte para carga inalámbrica y funciones de seguridad orientadas a la misión lo hacen idóneo para usos prolongados en entornos donde la localización interior precisa es crítica.
 

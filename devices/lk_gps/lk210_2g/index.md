@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK210-2G
 
+<div className="device-logo">
 ![LK210-2G](./tracker.jpg)
+</div>
 
 The LK210-2G is a compact vehicle mounted GPS tracker designed for reliable real time tracking and basic anti theft monitoring. Built for use on motorcycles cars trucks and other mobile assets the device offers integrated GPS and 2G GSM antennas for continuous position updates where 2G coverage exists. Its compact waterproof housing and power optimization are intended to support extended field use while providing vibration based shock detection geofence notifications and low battery reporting.
 

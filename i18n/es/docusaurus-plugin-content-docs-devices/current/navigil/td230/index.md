@@ -21,7 +21,9 @@ keywords:
 
 # Navigil - TD230
 
+<div className="device-logo">
 ![TD230](./logo.jpg)
+</div>
 
 El Navigil TD230 es un dispositivo de rastreo OEM pensado para que las empresas incorporen capacidades de localización GPS al mercado de manera rápida. Se entrega con firmware TG2 listo para producción y una membrana de interfaz de usuario que permite rebranding, ofreciendo varios diseños de membrana con diferentes combinaciones de botones y LEDs para adaptarse a distintos diseños de producto. El TD230 está orientado a una rápida salida al mercado y a la personalización flexible del hardware para empresas que desean integrar rastreo dentro de sus propios equipos.
 

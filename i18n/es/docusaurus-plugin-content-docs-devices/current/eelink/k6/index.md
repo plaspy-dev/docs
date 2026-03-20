@@ -20,7 +20,9 @@ keywords:
 
 # EElink - K6
 
+<div className="device-logo">
 ![K6](./logo.jpg)
+</div>
 
 El EElink K6 es un rastreador GPS versátil diseñado para proteger y monitorear activos móviles y personas. Ofrece conectividad celular global quad band para cobertura amplia, comunicación bidireccional para contacto rápido y un botón SOS dedicado para alertas de emergencia. El dispositivo combina GPS con posicionamiento por red celular para ofrecer actualizaciones de posición, admite la carga de datos para seguimiento en tiempo real y reproducción de rutas, y también permite el registro local de recorridos y su exportación para análisis fuera de línea.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK208
 
+<div className="device-logo">
 ![TK208](./tracker.jpg)
+</div>
 
 El TK208 es un rastreador GPS portátil y compacto de TK-Star diseñado para ofrecer protección confiable de personas y bienes. Combina posicionamiento multimodal — GPS, BeiDou, GLONASS, junto con LBS y Wi‑Fi como respaldo — y un receptor GNSS de alta sensibilidad UBLOX para mejorar la precisión en exteriores y ayudar con el posicionamiento en interiores. El equipo está pensado para uso prolongado en campo, con una batería orientada a la autonomía y protección robusta IP65, además de incluir funciones de seguridad prácticas como detección de vibración, geo‑cercas y alarma SOS.
 

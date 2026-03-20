@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-103A
 
+<div className="device-logo">
 ![BN-103A](./tracker.png)
+</div>
 
 El BN-103A es un rastreador GPS inteligente para montaje en vehículo, diseñado para ofrecer seguimiento confiable en tiempo real, gestión de flotas y protección antirrobo. Instalado directamente en sistemas de 12–24V, integra un receptor GNSS de alta sensibilidad, conectividad GSM GPRS multibanda y entradas de alarma configurables para proporcionar la telemetría y los eventos que esperan los operadores modernos de flotas.
 

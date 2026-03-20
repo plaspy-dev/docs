@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-800G-4G
 
+<div className="device-logo">
 ![CCTR-800G-4G](./tracker.jpg)
+</div>
 
 El CCTR-800G-4G es un rastreador GPS portátil y resistente, diseñado para seguimiento prolongado en exteriores y para integrarse de forma flexible con plataformas en la nube. Pensado para entornos exigentes, combina conectividad celular global con posicionamiento GNSS de alta sensibilidad, una batería recargable de gran capacidad, protección IP65 y un potente imán integrado para montaje rápido en superficies metálicas. Estas características lo hacen adecuado para localización en tiempo real, supervisión de flotas y monitoreo antirobo en diversos escenarios operativos.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - TLW2-2BL
 
+<div className="device-logo">
 ![TLW2-2BL](./tracker.png)
+</div>
 
 The TLW2-2BL is a compact, hardwired GPS tracker built for demanding vehicle and powered asset deployments. Designed to provide frequent position updates, onboard buffering and environmental telemetry, this unit targets fleets, logistics providers and cold chain operators that need continuous visibility and dependable historical data during coverage gaps. Its small form factor and rugged rating make it suited to vehicle, trailer and equipment installations where persistent tracking and event detection are required.
 

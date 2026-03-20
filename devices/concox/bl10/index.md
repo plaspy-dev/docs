@@ -20,7 +20,9 @@ keywords:
 
 # Concox - BL10
 
+<div className="device-logo">
 ![BL10](./tracker.png)
+</div>
 
 The Concox BL10 is a GNSS sharing smart bike lock and hidden GPS tracker designed for shared bicycle fleets and micromobility operators. It pairs a rugged locking mechanism with continuous location reporting to provide operators with an integrated anti theft and fleet management device suitable for long outdoor deployments and public bike share programs.
 

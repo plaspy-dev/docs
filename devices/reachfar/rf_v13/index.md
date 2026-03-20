@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V13
 
+<div className="device-logo">
 ![RF-V13](./tracker.jpg)
+</div>
 
 The Reachfar RF-V13 is a compact wireless door and window alarm system designed for discreet perimeter security. It combines a magnet sensor for intrusion detection with GSM reporting and basic location awareness to provide remote notifications for homes, shops, and small offices. The small form factor and rechargeable power source make it suitable for unobtrusive mounting on doors, windows, or other access points where lightweight, low-visibility protection is required.
 

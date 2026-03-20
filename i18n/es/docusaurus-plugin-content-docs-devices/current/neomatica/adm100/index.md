@@ -21,7 +21,9 @@ keywords:
 
 # Neomatica - ADM100
 
+<div className="device-logo">
 ![ADM100](./tracker.png)
+</div>
 
 El Neomatica ADM100 es un rastreador GPS compacto diseñado para ofrecer monitoreo vehicular confiable y despliegues masivos sencillos. Integra un receptor GNSS de alta sensibilidad para posicionamiento preciso y conectividad GSM incorporada para transmitir en tiempo real ubicaciones y eventos. Está pensado para vehículos comerciales ligeros, camiones y maquinaria especial, proporcionando información continua de posición, velocidad y rumbo, además de almacenamiento local de rutas.
 

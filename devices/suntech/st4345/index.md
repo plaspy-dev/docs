@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4345
 
+<div className="device-logo">
 ![ST4345](./tracker.jpg)
+</div>
 
 The ST4345 series is a compact, IP67 rated GPS tracker built for robust telematics where concealment, low power consumption and reliable cellular connectivity are important. Available in multiple variants, the ST4345 is designed for vehicle, trailer, motorcycle and high value asset monitoring and combines a small footprint with wide temperature tolerance, an internal GNSS antenna and flexible wired I/O to support ignition detection and external alarm or immobilizer interfaces.
 

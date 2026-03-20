@@ -21,7 +21,9 @@ keywords:
 
 # Concox - LL309
 
+<div className="device-logo">
 ![LL309](./tracker.png)
+</div>
 
 El LL309 es un rastreador GPS compacto pensado para carga refrigerada, entregas de paquetería y protección de activos sensibles donde se requiere monitoreo ambiental continuo. Combina posicionamiento multilocal con un sensor integrado de temperatura y humedad para ofrecer datos de ubicación y condiciones adecuados para la cadena de frío y la logística de alto valor. El equipo está diseñado para escenarios de transporte exigentes, con protección ambiental robusta y retención de datos persistente durante periodos sin conexión.
 

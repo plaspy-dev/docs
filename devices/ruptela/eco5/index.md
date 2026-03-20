@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - Eco5
 
+<div className="device-logo">
 ![Eco5](./tracker.jpg)
+</div>
 
 The Eco5 from Ruptela is a Plaspy compatible GPS tracker built for professional fleet management, cargo monitoring and driver identification. It is based around a premium u‑blox GNSS module and is offered in rugged IP54 and IP68 housings, delivering dependable positioning, low power operation and expanded accessory support for both light and heavy vehicles.
 

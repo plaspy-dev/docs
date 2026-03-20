@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP3400C
 
+<div className="device-logo">
 ![SP3400C](./logo.jpg)
+</div>
 
 El SkyPatrol SP3400C es un rastreador GPS CDMA robusto, diseñado para telemática vehicular y certificaciones a nivel de operador. Construido para resistir condiciones de operación exigentes, el SP3400C está orientado a aplicaciones de localización de vehículos en sectores como automotriz subprime, operaciones de flota y telemática para consumidores. Entre las características de hardware y firmware destacadas por el fabricante se incluyen un diseño optimizado de antena celular, antenas integradas para GPS y celular, un motor GPS de alta precisión, un acelerómetro de 3 ejes integrado, capacidad de actualización de firmware por aire y circuitos discretos de E/S para funciones de control del vehículo.
 

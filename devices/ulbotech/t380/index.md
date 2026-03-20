@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T380
 
+<div className="device-logo">
 ![T380](./tracker.jpg)
+</div>
 
 The T380 is a plug-and-play OBDII GPS tracker from Ulbotech designed for vehicle tracking, telemetry, and driver connectivity. It combines cellular data communications with an integrated Wi‑Fi hotspot that supports multiple client devices, and it includes GNSS positioning and on-board motion sensing to provide continuous location and event data. The compact OBDII form factor enables quick deployment without hardwiring while exposing the core telemetry needed for fleet oversight, anti-theft control, and driver behavior monitoring.
 

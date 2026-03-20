@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - XT-007
 
+<div className="device-logo">
 ![XT-007](./logo.jpg)
+</div>
 
 El Megastek XT-007 es un rastreador para vehículos diseñado para ofrecer localización confiable y funciones de seguridad tanto para flotas como para vehículos particulares. Presenta un diseño robusto y resistente a la intemperie con protección cercana a IP67 y admite opciones de antena integradas o externas. El XT-007 incluye varios tipos de alarma, un registrador de datos con memoria flash de 8 MB, funcionamiento en modo ahorro de energía y, opcionalmente, comunicación bidireccional y función SOS, lo que lo hace adecuado para instalaciones continuas en el vehículo.
 

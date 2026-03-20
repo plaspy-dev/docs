@@ -21,7 +21,9 @@ keywords:
 
 # Ruptela - FM-Plug4
 
+<div className="device-logo">
 ![FM-Plug4](./logo.jpg)
+</div>
 
 El Ruptela FM-Plug4 es un rastreador OBD personal, fácil de instalar, pensado para el seguimiento y monitoreo de vehículos comerciales ligeros. Disponible en dos versiones —FM-Plug4+ con batería interna y FM-Plug4 sin batería interna— el equipo destaca por su instalación Plug and Play, su portabilidad entre vehículos y un conjunto de funciones orientadas a la protección contra robos y diagnósticos básicos del vehículo. La variante FM-Plug4+ puede leer códigos de error del motor, mientras que ambas versiones generan alertas por extracción del dispositivo y otros eventos configurables.
 

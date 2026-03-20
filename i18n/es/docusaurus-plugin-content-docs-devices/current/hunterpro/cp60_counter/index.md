@@ -21,7 +21,9 @@ keywords:
 
 # HunterPro - CP60-COUNTER
 
+<div className="device-logo">
 ![CP60-COUNTER](./logo.jpg)
+</div>
 
 El HunterPro CP60-COUNTER es un rastreador GPS diseñado para empresas de transporte de pasajeros que necesitan monitorizar los ascensos y descensos. Combina el seguimiento de ubicación con el conteo de pasajeros y transmite los datos en tiempo real, de modo que usted puede visualizar los flujos de pasajeros y la posición de los vehículos desde un sistema central. El dispositivo utiliza GPRS para una entrega de datos segura y confiable y está pensado para operar en entornos de transporte.
 

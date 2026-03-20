@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - GS05
 
+<div className="device-logo">
 ![GS05](./tracker.webp)
+</div>
 
 The GS05 from WanWay is a compact 3G GPS tracker designed for straightforward vehicle tracking and fleet management. It combines GPS positioning, 3G GSM connectivity, a built in antenna, multiple onboard sensors, and an 11PIN connector in a small footprint. An optional built in microphone is available for remote listening when local laws and privacy considerations allow.
 

@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV57CEU
 
+<div className="device-logo">
 ![GV57CEU](./tracker.png)
+</div>
 
 The GV57CEU from QuecLink is a compact LTE Cat 1 tracker engineered for e mobility and light transportation fleets. Designed for e bikes, scooters, golf carts, micromobility operators and light logistics, it combines rugged IP67 protection, wide input voltage support and precision GNSS to provide reliable location and vehicle state information in outdoor and demanding environments.
 

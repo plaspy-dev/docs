@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - GS05
 
+<div className="device-logo">
 ![GS05](./tracker.webp)
+</div>
 
 El GS05 de WanWay es un rastreador GPS 3G compacto pensado para ofrecer rastreo vehicular sencillo y gestión de flotas. Integra posicionamiento GPS, conectividad 3G GSM, antena interna, varios sensores a bordo y un conector de 11 pines en un formato reducido. Existe la opción de un micrófono incorporado para escucha remota cuando la legislación y la privacidad locales lo permiten.
 

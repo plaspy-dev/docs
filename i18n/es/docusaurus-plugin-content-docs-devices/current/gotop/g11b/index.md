@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G11B
 
+<div className="device-logo">
 ![G11B](./tracker.jpg)
+</div>
 
 El GOTOP G11B es un rastreador GPS compacto diseñado para montarse en collares y proporcionar ubicación confiable y protección para mascotas y animales de granja. Construido para uso rudo, incorpora conectividad 4G LTE, antenas integradas de GPS y 4G, y protección IP65 para mantener el seguimiento y las alertas en tiempo real incluso en condiciones húmedas. El dispositivo está optimizado para una instalación inalámbrica en collares y arneses y ofrece envío de ubicaciones por SMS además de funcionar con la plataforma web y móvil de GOTOP.
 

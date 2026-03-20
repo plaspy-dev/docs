@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G6C
 
+<div className="device-logo">
 ![G6C](./tracker.jpg)
+</div>
 
 El G6C es un rastreador GPS de grado vehicular y construcción robusta, diseñado para proveedores de servicios de seguimiento de flotas, integradores de sistemas y clientes empresariales que requieren telemetría y seguimiento en tiempo real confiables. Integra un receptor GNSS de alta sensibilidad con conectividad celular cuatribanda y variantes celulares opcionales más recientes, ofreciendo ubicación precisa, datos de comportamiento de conducción y telemetría a bordo adecuados para despliegues a gran escala.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - SolarGuardX 100
 
+<div className="device-logo">
 ![SolarGuardX 100](./tracker.png)
+</div>
 
 SolarGuardX 100 is a rugged, solar assisted cargo GPS tracker and padlock designed for outdoor asset protection. Built for containers, trailers and trucks, it combines extended battery capacity with integrated solar charging and an industrial waterproof enclosure to provide persistent, low maintenance tracking and security. The unit includes physical mounting aids such as a strong embedded magnet and supplied rope to suit demanding transport and storage environments.
 

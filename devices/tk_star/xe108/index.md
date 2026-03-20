@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - XE108
 
+<div className="device-logo">
 ![XE108](./logo.jpg)
+</div>
 
 The TK-Star XE108 is a portable GPS tracker designed to provide location visibility and basic tracking features for a wide range of assets. Based on its description, the XE108 is positioned for tracking private and rental vehicles, equipment, and people including children, the elderly, and pets. It offers features intended to increase security and situational awareness such as real time tracking, history trace review, geo-fencing, movement and overspeed alerts, SOS notification, and a sleep mode to conserve power.
 

@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - P02L
 
+<div className="device-logo">
 ![P02L](./tracker.png)
+</div>
 
 El CanTrack P02L Smart Walkie-Talkie Tracker es un dispositivo GPS personal 4G compacto diseñado para la seguridad en exteriores y la comunicación de voz bidireccional. Combina posicionamiento multi‑constelación (GPS más BeiDou y LBS) con conectividad LTE para ofrecer actualizaciones de ubicación casi en tiempo real, una función de intercomunicador global para comunicación de voz a larga distancia y un conjunto de funciones orientadas a la seguridad como botones SOS/pánico y detección de caídas. El equipo también integra sensores de actividad y soporte para accesorios Bluetooth para ampliar las opciones de telemetría y monitoreo.
 

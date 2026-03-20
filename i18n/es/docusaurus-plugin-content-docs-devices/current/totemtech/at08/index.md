@@ -21,7 +21,9 @@ keywords:
 
 # Totemtech - AT08
 
+<div className="device-logo">
 ![AT08](./tracker.jpg)
+</div>
 
 El Totemtech AT08 es un rastreador GPS robusto con montaje magnético diseñado para el monitoreo prolongado de activos. Integra un receptor GNSS de alta sensibilidad uBlox M8 con un controlador de baja potencia STM32, conectividad celular multibanda y una batería Li‑polymer de 4000 mAh en una carcasa compacta con potentes imanes de neodimio. El equipo está pensado para fijarse discretamente sobre superficies metálicas y ofrece datos de posición continuos y telemetría de dispositivo adecuados para operaciones de flotas y logística.
 

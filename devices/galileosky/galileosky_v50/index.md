@@ -20,7 +20,9 @@ keywords:
 
 # GalileoSky - GALILEOSKY V5.0
 
+<div className="device-logo">
 ![GALILEOSKY V5.0](./logo.jpg)
+</div>
 
 The GALILEOSKY V5.0 from GalileoSky is a flagship GPS tracker built for reliability and versatile deployment. It is designed to support extensive external connectivity, allowing integration with up to 17 digital sensors and a range of external devices. With capabilities aimed at detailed monitoring and broad operational use, the V5.0 suits organizations that need richer visibility and control over mobile and fixed assets.
 

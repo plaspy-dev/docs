@@ -21,7 +21,9 @@ keywords:
 
 # Haicom - HI-603X
 
+<div className="device-logo">
 ![HI-603X](./logo.jpg)
+</div>
 
 El Haicom HI-603X es un rastreador GPRS compacto diseñado para localización automática de vehículos y seguimiento de activos. Combina un receptor GPS de alta sensibilidad con comunicación GSM cuatribanda en una carcasa robusta, ofreciendo reportes de posición en tiempo real, ahorro energético mediante detección de movimiento y registro local de datos para preservar posiciones cuando la cobertura de red es deficiente. Además, incluye funciones habituales en el seguimiento de flotas, como geocercas, alertas de emergencia y gestión remota a través de una plataforma GPRS.
 

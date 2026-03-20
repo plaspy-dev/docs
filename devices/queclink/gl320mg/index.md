@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL320MG
 
+<div className="device-logo">
 ![GL320MG](./logo..png)
+</div>
 
 The QuecLink GL320MG is an LTE Advanced real time asset tracker designed for long duration monitoring of people, vehicles, and portable assets. It offers global LTE Cat M1 and NB2 connectivity with 2G fallback and is part of the proven GL300 series. The device includes an internal battery that can deliver extended standby life under intermittent reporting intervals and supports optional accessories such as a high capacity external battery kit and an IP67 waterproof magnetic case.
 

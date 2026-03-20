@@ -21,7 +21,9 @@ keywords:
 
 # Goome - GM06NW
 
+<div className="device-logo">
 ![GM06NW](./logo.jpg)
+</div>
 
 El Goome GM06NW es un rastreador GPS vehicular compacto que combina posicionamiento por GPS y conectividad GSM para ofrecer seguimiento de ubicación confiable. Cuenta con antena interna y sensores integrados con funciones como detección de ACC (encendido), alarma por vibración y la capacidad de cortar combustible o energía de forma remota. El equipo también admite botón SOS y micrófono para notificaciones de emergencia y escucha ambiental cuando está configurado, y su amplio rango de voltaje de entrada lo hace apto para automóviles, camiones, taxis y motocicletas.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - GMT-368
 
+<div className="device-logo">
 ![GMT-368](./logo.jpg)
+</div>
 
 El Megastek GMT-368 es un rastreador GPS compacto diseñado específicamente para motocicletas. Ofrece un equilibrio entre tamaño reducido y funcionalidades prácticas de rastreo para proporcionar monitoreo continuo de la ubicación y notificaciones básicas del estado del vehículo. El equipo admite actualizaciones de posición en tiempo real mediante SMS o comunicación GPRS, intervalos de seguimiento configurables, geocercas, alarmas por exceso de velocidad y por pérdida de señal GPS, además de detección ACC para informar el estado de encendido.
 

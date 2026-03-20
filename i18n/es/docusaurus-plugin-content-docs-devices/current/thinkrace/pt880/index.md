@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - PT880
 
+<div className="device-logo">
 ![PT880](./tracker.png)
+</div>
 
 La pulsera ThinkRace Traxbean PT880 es un rastreador GPS de muñeca diseñado para el monitoreo electrónico continuo y la supervisión centrada en la persona. Construido para ser resistente y cómodo en el uso diario, el PT880 combina posicionamiento GPS con Wi‑Fi asistido, triangulación celular y posicionamiento en interiores por RF para ofrecer datos de ubicación fiables junto con alertas por manipulación, botón SOS de un solo toque y voz bidireccional para la gestión inmediata de incidentes.
 

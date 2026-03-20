@@ -20,7 +20,9 @@ keywords:
 
 # EV - EV-206M
 
+<div className="device-logo">
 ![EV-206M](./tracker.png)
+</div>
 
 The EV-206M is an ultra light pet GPS tracker designed for cats and small pets. At roughly 19 grams and with an IP67 water resistant rating, it combines a compact collar friendly form factor with multi mode positioning and cellular uplink to provide dependable location awareness both outdoors and indoors. The manufacturer positions the device for everyday pet safety, with activity monitoring, home aware detection and a matched charging base included.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-13
 
+<div className="device-logo">
 ![AT-13](./Logo.jpg)
+</div>
 
 The Autoseeker AT-13 is a compact magnetic GPS tracker designed for real time tracking and locating of vehicles. Its small form factor and magnetic attachment allow for quick placement on any metal surface of a car, making it a practical option for brief deployments or when discreet placement is needed. The device is described as providing remote monitoring capability so users can check location and movement from a smartphone or computer.
 

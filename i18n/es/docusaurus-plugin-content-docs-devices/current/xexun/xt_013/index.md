@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - XT-013
 
+<div className="device-logo">
 ![XT-013](./logo.jpg)
+</div>
 
 El Xexun XT-013 es un rastreador GPS compacto y ligero diseñado para ofrecer actualizaciones de ubicación en tiempo real y seguimiento automático continuo. Su tamaño reducido facilita la instalación discreta y la carcasa impermeable garantiza un funcionamiento confiable en condiciones exteriores variadas. El equipo integra antena y batería internas, y notifica movimiento, eventos de geocerca, excesos de velocidad y estado de batería baja.
 

@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK630
 
+<div className="device-logo">
 ![LK630](./tracker.jpg)
+</div>
 
 The LK630 is a compact pet tracker from LK GPS designed for cats and small dogs. It combines multi technology positioning with low power cellular connectivity to provide frequent location updates and assistive fixes in challenging environments. The device is lightweight, water resistant, and intended to attach comfortably to collars and harnesses so pets can be monitored without restricting movement.
 

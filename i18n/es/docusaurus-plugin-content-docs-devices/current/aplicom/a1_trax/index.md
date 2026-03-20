@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - A1 TRAX
 
+<div className="device-logo">
 ![A1 TRAX](./logo.jpg)
+</div>
 
 El Aplicom A1 TRAX es un rastreador GPS versátil diseñado para el seguimiento de flotas y activos, así como para aplicaciones de seguridad. Construido para proporcionar datos de localización fiables e información operativa, el equipo incluye funciones habituales en la gestión de flotas como posicionamiento GPS y GLONASS, reporte de kilometraje, gestión de energía, detección de movimiento y monitoreo del comportamiento del conductor. Su memoria ampliable y arquitectura de dos procesadores permiten un funcionamiento sostenido y la posibilidad de añadir funciones según evolucionen las necesidades de rastreo.
 

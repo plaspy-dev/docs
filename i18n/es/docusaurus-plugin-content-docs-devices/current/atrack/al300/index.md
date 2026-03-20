@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AL300
 
+<div className="device-logo">
 ![AL300](./tracker.jpg)
+</div>
 
 El AL300 es un rastreador GPS robusto de ATrack diseñado para la gestión exigente de flotas y la telemática de equipos pesados. Con protección IP67 y resistencia a vibraciones según estándares del sector, el AL300 ofrece posicionamiento y telemetría confiables a través de redes celulares regionales. Está disponible en variantes regionales para adaptarse a las necesidades de cobertura y ofrece interfaces opcionales para vehículos y sensores que amplían los datos observables más allá de la ubicación.
 

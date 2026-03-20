@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-901L
 
+<div className="device-logo">
 ![ST-901L](./tracker.jpg)
+</div>
 
 The SinoTrack ST-901L is a compact, vehicle grade GPS tracker designed for motorcycles, scooters and compact cars. In a mini waterproof housing it combines 4G connectivity with GSM GPRS fallback and high sensitivity built in GPS and GSM antennas to provide timely position updates, alarm reporting and simple server configuration. The unit is engineered for discreet mounting and dependable tracking in scenarios where space is limited and robustness is required.
 

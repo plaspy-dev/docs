@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - T8806+R
 
+<div className="device-logo">
 ![T8806+R](./logo..png)
+</div>
 
 El TopFly T8806+R es un rastreador cableado 2G diseñado para vehículos y activos con alimentación. Ofrece detección de ignición y salidas dedicadas para relés, buzzer o sirenas, además de un chipset GNSS integrado que soporta múltiples sistemas de navegación global. El equipo brinda reportes de ubicación en tiempo real y cuenta con un amplio buffer a bordo para almacenar puntos de localización, lo que lo hace adecuado para seguimiento continuo y recuperación del historial de posiciones cuando la conectividad es limitada.
 

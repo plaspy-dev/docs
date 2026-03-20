@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G59
 
+<div className="device-logo">
 ![G59](./tracker.png)
+</div>
 
 El G59 es un rastreador GPS compacto con certificación IP67, diseñado como placa para collar para el monitoreo de mascotas. Pensado para uso continuo en exteriores, ofrece seguimiento en tiempo real sobre redes 4G LTE, envío de ubicaciones por SMS con enlaces a Google Maps y comunicación de voz bidireccional, para que usted pueda localizar y hablar con su mascota durante paseos, actividades al aire libre o la rutina diaria. El dispositivo integra funciones orientadas a mascotas como localización por sonido y luz, un altavoz potente para llamadas remotas, podómetro, recordatorios de alimentación, alertas de geocerca y notificaciones de batería baja.
 

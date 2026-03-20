@@ -20,7 +20,9 @@ keywords:
 
 # ArkNav - A-511S
 
+<div className="device-logo">
 ![A-511S](./logo.jpg)
+</div>
 
 The ArkNav A-511S is a compact, high performance GPS receiver designed for navigation, mapping, surveying, and security applications. Built around a SiRFIII chipset, the A-511S offers 20 channel All‑In‑View tracking and high sensitivity reception, enabling fast satellite acquisition and stable position, velocity, and time information even in challenging signal conditions. Its small footprint, magnetic mounting option, and wide operating temperature range make it suitable for a variety of field and vehicle deployments.
 

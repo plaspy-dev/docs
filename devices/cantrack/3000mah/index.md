@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - 3000mAh
 
+<div className="device-logo">
 ![3000mAh](./tracker.JPG)
+</div>
 
 The CanTrack 3000mAh (GF40) is a rechargeable magnetic asset GPS tracker designed for long duration, covert mounting on vehicles and high value equipment. It pairs a strong magnet and durable ABS housing with configurable reporting modes to balance update frequency and battery life. Typical capabilities include real time and interval reporting, tamper and vibration alerts, geofence notifications, and optional remote voice listen in, making the device suitable for discreet location monitoring of trailers, containers, and other movable assets.
 

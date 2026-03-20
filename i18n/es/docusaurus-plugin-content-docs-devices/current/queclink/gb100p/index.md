@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GB100P
 
+<div className="device-logo">
 ![GB100P](./tracker.png)
+</div>
 
 El QuecLink GB100P es un rastreador GPS compacto, montado en batería, diseñado para ofrecer telemática confiable y costo eficiente en programas vehiculares. Pensado para operar en entornos exigentes, integra un receptor GNSS de alto rendimiento, conectividad GSM GPRS cuatribanda y soporte BLE 4.2, junto con un conjunto de sensores inerciales de alta frecuencia para captar eventos de choque y movimientos detallados del vehículo. Su tamaño reducido y carcasa con protección IP65 lo hacen adecuado para instalaciones discretas donde se requiere telemetría robusta y retención de mensajes.
 

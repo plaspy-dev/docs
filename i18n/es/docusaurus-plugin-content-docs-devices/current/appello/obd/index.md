@@ -21,7 +21,9 @@ keywords:
 
 # Appello - OBD
 
+<div className="device-logo">
 ![OBD](./logo.jpg)
+</div>
 
 El Appello OBD es un rastreador GPS compacto desarrollado para el monitoreo de vehículos y la gestión de flotas. Integra un chipset GPS U Blox 7020 de alta sensibilidad con un módulo de comunicación GSM compatible con cuatro bandas y comunicación TCP, lo que permite obtener fijaciones de posición rápidas y una conectividad estable. El dispositivo ofrece tiempos de inicio en caliente muy rápidos y arranques en tibio breves, además de operar en un amplio rango de temperatura y humedad, haciéndolo apropiado para distintos entornos vehiculares.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V6+
 
+<div className="device-logo">
 ![RF-V6+](./tracker.jpg)
+</div>
 
 The REACHFAR RF-V6+ is a compact GPS tracker designed for discreet anti theft protection and portable vehicle tracking. It combines GPS, AGPS and LBS positioning with 2G GPRS TCP IP reporting and SMS controls to deliver real time tracking and alarm reporting for small assets, motorcycles, bicycles and luggage. Its small form factor and built in antennas make it suitable where a low profile device is required.
 

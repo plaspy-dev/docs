@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - SolarGuardX 120
 
+<div className="device-logo">
 ![SolarGuardX 120](./tracker.png)
+</div>
 
 SolarGuardX 120 is a rugged, solar powered sub lock built for secure remote asset protection and synchronized multi lock operation. Designed for outdoor logistics, the unit brings low maintenance security to containers, trailers, pallets and other high value assets. Its weatherproof housing and solar assisted charging are intended to extend field life and reduce the frequency of onsite service.
 

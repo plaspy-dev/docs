@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-19
 
+<div className="device-logo">
 ![AT-19](./tracker.jpg)
+</div>
 
 El Autoseeker AT-19 es un rastreador GPS mini 2G compacto diseñado para una instalación discreta en vehículos. Pensado para automóviles, motocicletas, autobuses, camiones y camionetas, el AT-19 ofrece reporte de posición en tiempo real y telemetría esencial del vehículo mediante canales GSM y GPRS. Su tamaño reducido y su conjunto de funciones orientadas al uso vehicular lo hacen idóneo para el monitoreo de flotas, la prevención de robos y la supervisión básica de rutas.
 

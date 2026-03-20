@@ -20,7 +20,9 @@ keywords:
 
 # Aplicom - A1 MAX RDL
 
+<div className="device-logo">
 ![A1 MAX RDL](./logo.jpg)
+</div>
 
 The Aplicom A1 MAX RDL is a GPS tracker designed to support the Aplicom Remote Download RDL Service for digital tachograph data collection. In addition to its remote download capability, the device provides general telematics and tracking functionality, enabling location monitoring and fleet data collection without the need for physical access to vehicles. This combination makes the A1 MAX RDL suited to operations that require both compliance data and ongoing fleet visibility.
 

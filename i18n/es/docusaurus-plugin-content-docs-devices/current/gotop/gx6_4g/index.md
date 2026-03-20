@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - GX6-4G
 
+<div className="device-logo">
 ![GX6-4G](./tracker.jpg)
+</div>
 
 El GX6-4G es un rastreador GPS 4G enfocado en vehículos, diseñado para la gestión de flotas y el seguimiento en tiempo real con alta fiabilidad. Pensado para autos de alquiler, taxis, camiones y vehículos de pasajeros, el equipo ofrece posicionamiento multimodal (GPS, BeiDou y LBS), además de entradas y salidas de grado vehicular que lo hacen apto para la monitorización continua de la flota y la supervisión operativa.
 

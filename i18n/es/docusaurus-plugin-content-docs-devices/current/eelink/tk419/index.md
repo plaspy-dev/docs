@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK419
 
+<div className="device-logo">
 ![TK419](./tracker.jpg)
+</div>
 
 El TK419 es un rastreador GPS 4G compacto diseñado para flotas de vehículos y protección de activos. Pensado para ofrecer seguimiento confiable en tiempo real, combina posicionamiento multi-constelación y telemetría celular para proporcionar datos continuos de ubicación y eventos de alarma. Su tamaño reducido y carcasa resistente al agua lo hacen adecuado para instalación discreta en autos, camiones y otros activos móviles donde se requiere visibilidad constante de la ubicación y funciones básicas anti‑robo.
 

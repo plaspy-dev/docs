@@ -20,7 +20,9 @@ keywords:
 
 # GLONASSsoft - UMKa310 with cigarette lighter
 
+<div className="device-logo">
 ![UMKa310 with cigarette lighter](./tracker.png)
+</div>
 
 The UMKa310 with cigarette lighter is a compact plug in GPS tracker designed for rapid deployment in vehicles. It provides GNSS based position reporting and telemetry, supports batch transfer modes to reduce data traffic, and can forward navigation and event data to multiple endpoints. The device is built for straightforward vehicle use and includes options for local configuration and extended telemetry such as fuel sensor connectivity.
 

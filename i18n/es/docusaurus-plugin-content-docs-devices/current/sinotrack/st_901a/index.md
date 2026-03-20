@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-901A
 
+<div className="device-logo">
 ![ST-901A](./Logo.jpg)
+</div>
 
 El SinoTrack ST-901A es un rastreador GPS compacto pensado para el seguimiento de vehículos y la supervisión de flotas. Combina un tamaño reducido con funciones esenciales de rastreo, aptas tanto para automóviles particulares como para activos comerciales. Emplea un módulo GPS Ubox 7020 y ofrece precisión de posición anunciada de alrededor de 10 metros, además de sensibilidades de rastreo pensadas para asegurar la recepción satelital en condiciones variadas.
 

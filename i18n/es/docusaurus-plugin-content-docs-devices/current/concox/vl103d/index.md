@@ -21,7 +21,9 @@ keywords:
 
 # Concox - VL103D
 
+<div className="device-logo">
 ![VL103D](./tracker.png)
+</div>
 
 El Concox VL103D es un terminal vehicular compacto LTE GNSS diseñado para una instalación discreta en motocicletas, automóviles y vehículos comerciales ligeros. Combina una robusta construcción apta para carretera con conectividad celular para ofrecer rastreo continuo en tiempo real, fijaciones de posición rápidas y la telemetría vehicular necesaria para recuperación, procesos antirrobo y supervisión básica de flotas.
 

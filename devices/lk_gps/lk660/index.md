@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK660
 
+<div className="device-logo">
 ![LK660](./tracker.jpg)
+</div>
 
 The LK660 is a compact GPS tracker from LK-GPS designed for personal safety and simple deployment. It combines GPS and LBS (A GPS) positioning with 2G cellular connectivity to provide reliable real time location tracking. The device is built for everyday use with a small waterproof housing, integrated antennas, long battery life through low power and sleep modes, one touch SOS, two way voice, and built in fall detection.
 

@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AX9
 
+<div className="device-logo">
 ![AX9](./logo.jpg)
+</div>
 
 El ATrack AX9 es una unidad de rastreo GPS compacta que se conecta al puerto OBDII, pensada para el monitoreo vehicular y la recolección de datos diagnósticos. Ofrece instalación plug and play a través del conector OBDII y soporta transmisión de datos mediante redes 2G y 3G. El AX9 destaca por su eficiencia energética, con un modo de reposo profundo de consumo ultra bajo, además de contar con alta sensibilidad GPS y un sensor G de 3 ejes integrado para la detección de eventos de conducción brusca.
 

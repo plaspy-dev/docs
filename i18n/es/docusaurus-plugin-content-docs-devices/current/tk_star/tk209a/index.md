@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK209A
 
+<div className="device-logo">
 ![TK209A](./tracker.jpg)
+</div>
 
 El TK209A es un rastreador GPS 4G compacto de TK-Star diseñado para ofrecer seguimiento fiable y prolongado de vehículos y activos. Combina posicionamiento multimodal con una batería recargable de alta capacidad 3.7V 5000 mAh y una carcasa resistente al clima con certificación IP65, lo que lo hace adecuado para despliegues prolongados en autos particulares, flotas de alquiler, contenedores, maquinaria de construcción y otros activos de difícil acceso.
 

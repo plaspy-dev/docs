@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - EC35
 
+<div className="device-logo">
 ![EC35](./tracker.jpg)
+</div>
 
 El TrackerKing EC35 es un rastreador GPS robusto diseñado para entornos vehiculares exigentes. Basado en un módulo Quectel 4G Cat1 con conmutación automática a 2G, el EC35 ofrece seguimiento de ubicación en tiempo real, reproducción del historial de rutas y telemetría confiable para autos, camiones y motocicletas. Cuenta con protección IP68, un amplio rango de entrada de 9–90V y una batería interna de respaldo para mantener la operatividad en condiciones adversas.
 

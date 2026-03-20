@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - T8GPS
 
+<div className="device-logo">
 ![T8GPS](./logo.jpg)
+</div>
 
 The AoYa T8GPS is a compact, automotive focused GPS tracker built for cars, trucks, and boats. It combines a waterproof IP67 enclosure with a small footprint and light weight, making it suitable for a variety of vehicle mounting scenarios. The device supports GPS, LBS, and AGPS positioning to provide real time location data, and its advertised accuracy of roughly 5 to 10 meters supports routine tracking and fleet oversight needs.
 

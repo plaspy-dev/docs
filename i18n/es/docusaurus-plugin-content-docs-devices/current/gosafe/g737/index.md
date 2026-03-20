@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G737
 
+<div className="device-logo">
 ![G737](./tracker.png)
+</div>
 
 La tobillera G737 de Gosafe es un rastreador GPS diseñado específicamente para el monitoreo electrónico continuo de liberados condicionales y personas bajo supervisión. Combina un receptor GNSS uBlox de 56 canales con soporte SBAS para mayor precisión, conectividad celular LTE CAT 1, una correa de fibra óptica evidente ante manipulación y capacidad de baliza BLE para el hogar. Estos elementos entregan ubicaciones en tiempo real, alertas por manipulación y telemetría de eventos adecuados para programas penitenciarios y de supervisión comunitaria.
 

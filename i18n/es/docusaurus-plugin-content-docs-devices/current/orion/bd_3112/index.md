@@ -21,7 +21,9 @@ keywords:
 
 # Orion - BD-3112
 
+<div className="device-logo">
 ![BD-3112](./logo.jpg)
+</div>
 
 El Orion BD-3112 es un rastreador GPS compacto y versátil pensado para el seguimiento general de activos, vehículos y personas. Proporciona actualizaciones de ubicación en tiempo real, admite geocercas para notificar cuando un activo cruza límites definidos e incluye un botón SOS para alertas urgentes. Su tamaño reducido y diseño resistente lo hacen apropiado para fijarse de forma discreta a distintos activos y para uso cotidiano.
 

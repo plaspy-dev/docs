@@ -20,7 +20,9 @@ keywords:
 
 # Haicom - HI-604X
 
+<div className="device-logo">
 ![HI-604X](./logo.jpg)
+</div>
 
 The Haicom HI-604X is a compact GPS tracker from Haicom's X series designed for flexible asset and vehicle tracking. According to the product description, the unit supports remote programming and control from a GPRS tracking platform, can be configured via USB or SMS, and includes a built in flash memory that logs trip history when network coverage is not available. The device also offers motion sensor functionality, a waterproof case, and an internal battery for operation in tougher environments.
 

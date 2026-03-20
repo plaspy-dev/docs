@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT-4500
 
+<div className="device-logo">
 ![XT-4500](./logo.jpg)
+</div>
 
 The Xirgo XT-4500 is an ultra low power GPRS modem with an integrated GPS receiver and onboard power management, designed for tracking and control of high value assets that lack consistent power access. Compact and purpose built, the XT-4500 combines a rechargeable battery controller and a 32 bit microprocessor with a power management algorithm to extend deployment life. Integrated cellular and GPS antennas and optional weatherproof housing make it suitable for a range of remote asset tracking scenarios.
 

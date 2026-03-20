@@ -20,7 +20,9 @@ keywords:
 
 # Coban - TK102
 
+<div className="device-logo">
 ![TK102](./logo.jpg)
+</div>
 
 The Coban TK102 is a compact and versatile GPS tracker designed for a range of tracking needs. According to the manufacturer description, it uses GPS satellites together with existing GSM GPRS network services to determine and report location, and it supports tracking via SMS as well as computer or PDA based monitoring. The unit includes a broad set of features commonly used for asset and personal protection such as geo fencing, movement and overspeed alerts, SOS alarm, monitoring, and data logging.
 

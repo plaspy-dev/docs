@@ -21,7 +21,9 @@ keywords:
 
 # VisionTek - 87VTU
 
+<div className="device-logo">
 ![87VTU](./logo.jpg)
+</div>
 
 El VisionTek 87VTU es una unidad de rastreo vehicular que integra un receptor GPS, un módem GSM cuatribanda y un microprocesador moderno para recopilar y transmitir posición, fecha, hora y rumbo. El equipo cuenta con memoria flash interna, batería de respaldo, un puerto USB para configuración y carga de firmware, puerto serial, entradas y salidas analógicas y digitales, un interruptor anti-manipulación, botón de reinicio, sensor de movimiento 3D y LEDs indicadores de estado. Está diseñado para durar, alojado en una carcasa plástica IP65 con antenas internas y opción de conexión a antenas externas.
 

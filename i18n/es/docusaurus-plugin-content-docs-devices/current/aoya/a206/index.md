@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - A206
 
+<div className="device-logo">
 ![A206](./logo.jpg)
+</div>
 
 El AoYa A206 es un rastreador GPS para uso automotriz diseñado para el seguimiento y la seguridad de vehículos. Presenta dimensiones compactas y una carcasa ligera que facilitan su colocación y ocultamiento en el automóvil. El A206 emplea posicionamiento dual con GPS y AGPS y está construido alrededor de un chip UBLOX, ofreciendo alta sensibilidad y una precisión reportada adecuada para tareas rutinarias de localización vehicular.
 

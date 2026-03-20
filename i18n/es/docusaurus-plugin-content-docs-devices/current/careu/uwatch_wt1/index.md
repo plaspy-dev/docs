@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - uWatch WT1
 
+<div className="device-logo">
 ![uWatch WT1](./tracker.jpg)
+</div>
 
 El CAREU uWatch WT1 es un rastreador GPS en formato reloj inteligente, diseñado para la seguridad personal y el monitoreo de la salud. Como dispositivo wearable combina el reporte continuo de ubicación y un botón SOS de emergencia con telemetría de signos vitales —frecuencia cardíaca, presión arterial, SpO2 y temperatura corporal— para apoyar a cuidadores, centros de atención, familias y organizaciones que requieren contexto posicional y fisiológico integrado.
 

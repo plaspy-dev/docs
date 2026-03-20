@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - LT-501E
 
+<div className="device-logo">
 ![LT-501E](./tracker.jpg)
+</div>
 
 The LT-501E is a compact LoRa GPS tracker from GlobalSat designed for personal use and asset tracking across indoor and outdoor environments. It combines long life operation, LoRaWAN connectivity, built in BLE beacon support, and motion sensing to provide location updates, proximity context, and audible alerts in a small rechargeable package. The device is intended for low power telemetry scenarios typical of IoT and M2M deployments where periodic location reports and event notifications are required.
 

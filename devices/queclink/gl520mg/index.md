@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL520MG
 
+<div className="device-logo">
 ![GL520MG](./tracker.png)
+</div>
 
 The QuecLink GL520MG is a rugged, waterproof GPS tracker built for low maintenance asset monitoring and environmental sensing. Designed with long life operation in mind, the GL520MG combines extended battery endurance and IP67 protection with cellular connectivity and on‑device sensors to deliver dependable position reporting, temperature and light sensing, and motion detection for both static and mobile assets.
 

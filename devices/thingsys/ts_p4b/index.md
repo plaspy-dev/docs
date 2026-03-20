@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-P4B
 
+<div className="device-logo">
 ![TS-P4B](./tracker.jpg)
+</div>
 
 The TS-P4B is a magnetic, large battery GPS tracker designed for long-duration and discreet vehicle and asset tracking. It combines a high-capacity rechargeable battery with a robust positioning chipset and energy saving modes to support extended standby and infrequent maintenance. Built to attach securely to metal surfaces, the unit is suited for applications where battery life, secure mounting and reliable location visibility are primary requirements.
 

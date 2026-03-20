@@ -20,7 +20,9 @@ keywords:
 
 # Stars Nav - PT-35W
 
+<div className="device-logo">
 ![PT-35W](./tracker.jpg)
+</div>
 
 The PT-35W is a compact, rugged GPS tracker designed for outdoor and marine environments. Housed in an IP66 rated casing and engineered for low power operation, the unit is positioned for use on motorcycles, motor boats, caravans and other equipment that require weather resistance and extended standby capability. The device combines GPS based location reporting with SMS remote control features and an internal backup battery to support unattended tracking and anti theft workflows.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - DK27
 
+<div className="device-logo">
 ![DK27](./tracker.jpg)
+</div>
 
 The DK27 is a compact, portable GPS tracker designed for anti loss protection and personal asset monitoring. It combines cellular connectivity, a rechargeable battery, and a small form factor to enable no wiring deployment and covert placement. Core features highlighted by the manufacturer include one-button SOS alerts, voice monitoring for remote listen in, motion and vibration alarms, and geofence event support — all aimed at protecting vehicles, motorcycles, pets and people.
 

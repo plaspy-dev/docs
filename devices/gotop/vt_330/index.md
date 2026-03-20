@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-330
 
+<div className="device-logo">
 ![VT-330](./tracker.jpg)
+</div>
 
 The GOTOP VT-330 is a compact dual SIM car GPS tracker designed for reliable real time location tracking and basic vehicle telemetry. Built for use on motorcycles, electric golf cars and standard vehicles, the VT-330 combines a SiRF‑Star III GNSS engine with GSM GPRS communication and practical vehicle I O to deliver position updates, SOS alerts and event notifications suitable for everyday fleet and asset monitoring.
 

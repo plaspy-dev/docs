@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - XT009
 
+<div className="device-logo">
 ![XT009](./logo.jpg)
+</div>
 
 El Xexun XT009 es un rastreador GPS compacto diseñado para el monitoreo discreto de motocicletas. Integra un receptor GPS y un módulo de comunicaciones GSM GPRS para ofrecer seguimiento remoto de ubicación y funciones básicas de control a distancia. Su tamaño reducido y la antena integrada facilitan la ocultación en vehículos de dos ruedas, mientras que la certificación IP67 garantiza funcionamiento en entornos húmedos o con barro.
 

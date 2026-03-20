@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-401C
 
+<div className="device-logo">
 ![BN-401C](./tracker.png)
+</div>
 
 The BN-401C is a compact GPS tracker from Coban designed for concealed installation on motorcycles and small vehicles. It provides continuous positioning, event reporting, and essential remote control features. The device includes an internal backup battery and an option for a relay wiring harness, enabling emergency alarms and remote fuel or power cutoff when integrated into a vehicle electrical system.
 

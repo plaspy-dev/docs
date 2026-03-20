@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 330
 
+<div className="device-logo">
 ![ST 330](./logo.jpg)
+</div>
 
 El Suntech ST 330 es un rastreador GPS compacto diseñado específicamente para la supervisión de contenedores y cajas secas. Ofrece una autonomía prolongada adecuada para rutas largas o periodos de estacionamiento extendido, y está concebido para adherirse a superficies metálicas mediante potentes imanes integrados. El ST 330 cuenta con protección IP67 contra polvo y agua, lo que le permite afrontar las exigencias ambientales habituales en el transporte y almacenamiento de mercancías.
 

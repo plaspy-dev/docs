@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - SolarGuardX 120
 
+<div className="device-logo">
 ![SolarGuardX 120](./tracker.png)
+</div>
 
 SolarGuardX 120 es una cerradura robusta con alimentación solar diseñada para la protección remota de activos y la operación sincronizada de múltiples cierres. Pensada para la logística al aire libre, la unidad ofrece seguridad de bajo mantenimiento para contenedores, remolques, pallets y otros activos de alto valor. Su carcasa resistente a la intemperie y la carga asistida por energía solar prolongan la vida útil en campo y reducen la frecuencia de intervenciones in situ.
 

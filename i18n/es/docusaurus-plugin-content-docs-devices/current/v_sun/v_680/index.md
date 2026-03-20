@@ -21,7 +21,9 @@ keywords:
 
 # V-SUN - V-680
 
+<div className="device-logo">
 ![V-680](./logo.jpg)
+</div>
 
 El V-SUN V-680 es un rastreador GPS compacto y versátil, diseñado para cubrir necesidades de seguimiento tanto personales como profesionales. Combina posicionamiento de ubicación con funciones de comunicación como llamada bidireccional, alarma de emergencia SOS y respuesta automática, además de monitoreo remoto y cambio de modo flexible. El dispositivo está pensado para operar en un amplio rango de temperatura y humedad, y su precisión de posicionamiento publicada respalda informes confiables para vehículos, activos y personas.
 

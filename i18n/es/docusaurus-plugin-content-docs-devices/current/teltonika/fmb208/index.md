@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB208
 
+<div className="device-logo">
 ![FMB208](./Logo.png)
+</div>
 
 El Teltonika FMB208 es un rastreador GPS compacto y resistente al agua diseñado para cumplir con los requisitos AIS140 del mercado indio. Certificado por ARAI y compatible con posicionamiento IRNSS y GPS, además de funcionar con el sistema de augmentación GAGAN, el FMB208 está pensado para escenarios de rastreo regulado en vehículos. Su conjunto de hardware y herramientas de software prioriza la fiabilidad en campo, con funciones pensadas para proveedores de telemática y operadores de flotas.
 

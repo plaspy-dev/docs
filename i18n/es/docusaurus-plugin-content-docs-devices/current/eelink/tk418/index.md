@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK418
 
+<div className="device-logo">
 ![TK418](./tracker.jpg)
+</div>
 
 El TK418 es un rastreador GPS compacto orientado al IoT, pensado para instalaciones en vehículos y activos ligeros. Integra posicionamiento multi GNSS con opciones de conectividad celular amplias en un diseño pequeño y ligero, ofreciendo ubicación continua y detección de eventos para el monitoreo de flotas y activos. La unidad está preparada para reportar seguimiento en tiempo real, telemetría y alertas configurables de seguridad, aptas para supervisión operativa.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - GF70L
 
+<div className="device-logo">
 ![GF70L](./logo..jpeg)
+</div>
 
 The CanTrack GF70L is a rugged asset GPS tracker designed for long duration deployments. It features a high capacity 12000mAh rechargeable battery and integrated solar conversion panels to extend operating life. Strong magnetic mounting simplifies attachment to metallic assets such as vehicles, containers, or equipment, while built in alerts and flexible tracking modes provide practical monitoring options for many asset tracking scenarios.
 

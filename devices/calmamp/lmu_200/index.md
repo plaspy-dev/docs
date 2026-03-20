@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-200
 
+<div className="device-logo">
 ![LMU-200](./logo.jpg)
+</div>
 
 The CalmAmp LMU-200 is a compact vehicle tracking device designed for discreet and reliable installation in automobiles. It is positioned for applications such as stolen vehicle recovery, vehicle finance monitoring, auto rental fleets, and other automotive track and trace needs. The LMU-200 emphasizes strong GPS performance, low power operation, internal antennas for flexible mounting, and a small footprint for unobtrusive placement.
 

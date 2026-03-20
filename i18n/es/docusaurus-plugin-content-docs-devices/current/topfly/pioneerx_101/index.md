@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - PioneerX 101
 
+<div className="device-logo">
 ![PioneerX 101](./tracker.png)
+</div>
 
 El PioneerX 101 es un rastreador GPS compatible con Plaspy, diseñado para ofrecer seguimiento en tiempo real confiable, gestión de flotas y soluciones telemáticas robustas. Como un dispositivo cableado de nivel de entrada a intermedio, ofrece actualizaciones frecuentes de posición (hasta cada 3 segundos), un amplio búfer offline para funcionamiento fuera de cobertura y una carcasa compacta con certificación IP67, ideal para vehículos, remolques y activos fijos que requieren localización continua, telemetría y capacidades antirrobo.
 

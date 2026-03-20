@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V20
 
+<div className="device-logo">
 ![RF-V20](./Logo.jpg)
+</div>
 
 The Reachfar RF-V20 is a compact, versatile GPS tracker designed to help protect belongings and monitor location. It supports global GSM quad band connectivity and multiple monitoring channels including web, iOS, Android, WeChat, and SMS. The device combines location tracking with several built-in safety features such as magnetic, vibration, and sound sensors, a high-frequency buzzer alarm, and a voice monitor, along with practical tools like an integrated power bank and LED flashlight.
 

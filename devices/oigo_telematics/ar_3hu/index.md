@@ -20,7 +20,9 @@ keywords:
 
 # Oigo Telematics - AR-3HU
 
+<div className="device-logo">
 ![AR-3HU](./logo.jpg)
+</div>
 
 The Oigo Telematics AR-3HU is a compact, versatile GPS tracker designed for fleet management and stolen vehicle recovery systems. It is built for discreet vehicle installation and supports a range of event reports and alerts, making it suitable for continuous vehicle oversight. The device communicates over mobile data networks to keep location and event information updated in near real time.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G797
 
+<div className="device-logo">
 ![G797](./tracker.png)
+</div>
 
 The G797 is a compact plug and play OBD2 telematics device from Gosafe designed for fleet management, insurance telematics, and rental or leasing programs. It connects to a vehicle J1962 OBDII port to provide GNSS location together with vehicle diagnostic data and inertial event sensing. The G797 is described as a unit that combines a Ublox GNSS engine with on board accelerometry and optional inertial sensors to support event reconstruction, driver monitoring and multi source odometer accumulation.
 

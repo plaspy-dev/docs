@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - MT08
 
+<div className="device-logo">
 ![MT08](./tracker.jpg)
+</div>
 
 The MT08 Mini Motorcycle 4G GPS Tracker is a compact, waterproof tracking unit designed for motorcycles, scooters and small vehicles. It combines cellular connectivity and a built in Bluetooth module with a small form factor optimized for concealed under seat placement, delivering location, status and alarm reporting suitable for fleet managers and individual riders.
 

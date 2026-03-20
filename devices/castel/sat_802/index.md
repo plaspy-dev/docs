@@ -20,7 +20,9 @@ keywords:
 
 # Castel - SAT-802
 
+<div className="device-logo">
 ![SAT-802](./logo.jpg)
+</div>
 
 The Castel SAT-802 is a compact GPS tracker designed for global coverage and reliable asset monitoring. It combines iridium SBD satellite capability with GPRS communications to reduce blind spots and provide wide area tracking for high value assets. The device uses GPS positioning and a dual communication module to maintain two-way data exchange and prioritize GSM where available.
 

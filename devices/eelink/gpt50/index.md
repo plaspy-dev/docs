@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT50
 
+<div className="device-logo">
 ![GPT50](./tracker.jpg)
+</div>
 
 The GPT50 is a heavy duty GPS tracker built for long life deployments and reliable field operation. It combines multi GNSS positioning with Wi‑Fi and LBS fallback and global cellular connectivity to provide continuous location data and device telemetry. The unit is designed with endurance in mind, featuring dual high capacity batteries, an IP67 rated enclosure and a wide operating temperature range suitable for trailers, containers, heavy equipment and other assets that operate in challenging environments.
 

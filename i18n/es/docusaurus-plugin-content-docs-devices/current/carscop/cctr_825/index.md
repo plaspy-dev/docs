@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-825
 
+<div className="device-logo">
 ![CCTR-825](./tracker.JPG)
+</div>
 
 El CCTR-825 es un rastreador GPS 2G ultradelgado y compacto diseñado para instalaciones discretas en vehículos y para reportes continuos de posición. Integra un módulo GSM y GPS de alta sensibilidad con batería recargable de respaldo y detección de manipulación, ofreciendo actualizaciones de ubicación confiables, alertas por corte de energía y cargas por movimiento idóneas para autos, camiones, motocicletas y otros activos móviles.
 

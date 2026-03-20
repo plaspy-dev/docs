@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - TV-680
 
+<div className="device-logo">
 ![TV-680](./logo.jpg)
+</div>
 
 El GOTOP TV-680 es un rastreador GPS personal compacto que obtiene su posición mediante satélites y transmite esa información a través de la red celular. Está pensado para la protección y el seguimiento de adultos mayores y niños, así como para seguridad general y posicionamiento remoto de bienes. El dispositivo ofrece respuestas de ubicación únicas bajo demanda y admite comunicación de voz bidireccional con funciones de llamada preconfiguradas.
 

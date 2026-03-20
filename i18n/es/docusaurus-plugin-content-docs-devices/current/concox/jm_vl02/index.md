@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JM-VL02
 
+<div className="device-logo">
 ![JM-VL02](./tracker.png)
+</div>
 
 El JM-VL02 es un rastreador GPS diseñado por Concox específicamente para flotas de vehículos industriales y comerciales. Combina conectividad celular de nivel IoT con posicionamiento GNSS y entradas/salidas orientadas al vehículo para ofrecer telemetría continua de ubicación y estado vehicular en agencias de alquiler, transporte público, maquinaria de construcción y otras implementaciones de gestión de flotas.
 

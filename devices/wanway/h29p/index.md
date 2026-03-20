@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - H29P
 
+<div className="device-logo">
 ![H29P](./tracker.webp)
+</div>
 
 The WanWay H29P is an anti theft GPS tracker built for the vehicle market with particular strengths in electro mobility and motorcycle protection. It combines concise telemetry and immediate alarm reporting with a remote immobilizer capability so owners and operators can react quickly to theft or tampering. The device emphasizes fast online performance and a high sensitivity GNSS receiver to provide reliable location updates for day to day monitoring and incident response.
 

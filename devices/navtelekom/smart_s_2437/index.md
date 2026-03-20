@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СМАРТ S-2437
 
+<div className="device-logo">
 ![СМАРТ S-2437](./tracker.jpeg)
+</div>
 
 The СМАРТ S-2437 from Navtelekom is a compact GLONASS and GPS vehicle tracker designed for reliable operation in fleet management and commercial telematics projects. It combines high sensitivity GNSS positioning with integrated GSM antennas, a built in rechargeable backup battery, dual SIM connectivity and Bluetooth for local configuration. The device also offers multiple vehicle integration interfaces and industrial communication options, making it suitable for a broad range of mobile asset monitoring needs.
 

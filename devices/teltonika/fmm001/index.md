@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM001
 
+<div className="device-logo">
 ![FMM001](./Logo.png)
+</div>
 
 The Teltonika FMM001 is a compact plug and track GPS tracker designed for vehicle telematics applications. It combines GNSS positioning with cellular LTE CAT M1 connectivity, OBD II data reading, Bluetooth Low Energy support, and accelerometer reporting to deliver vehicle location, movement, and basic onboard diagnostics. The device targets fleet management, car rental and leasing, insurance telematics, driver log books, and other vehicle monitoring scenarios where both location and vehicle parameters are useful.
 

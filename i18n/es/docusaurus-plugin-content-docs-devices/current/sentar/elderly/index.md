@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - Elderly
 
+<div className="device-logo">
 ![Elderly](./tracker.jpg)
+</div>
 
 El Sentar Elderly es un reloj GPS 4G de uso en la muñeca diseñado para personas mayores y otros usuarios vulnerables que requieren servicios de ubicación y seguridad sencillos y confiables. El equipo combina posicionamiento multimodal con una pantalla IPS táctil de 1.4 pulgadas, un botón SOS dedicado, cámara integrada y resistencia al agua IPX7 para ofrecer supervisión práctica en el día a día en formato de pulsera. Funciona sobre una plataforma Android 4.4 con memoria y almacenamiento modestos que mantienen la experiencia de usuario simple y centrada en las funciones de seguridad.
 

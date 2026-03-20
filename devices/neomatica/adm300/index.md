@@ -20,7 +20,9 @@ keywords:
 
 # Neomatica - ADM300
 
+<div className="device-logo">
 ![ADM300](./tracker.png)
+</div>
 
 The ADM300 is a compact on board GPS GLONASS vehicle tracking terminal from Neomatica designed for continuous monitoring of cars trucks and special equipment. Intended for fleet management and telematics deployments the device provides real time position speed and heading updates stores extended route history on microSD and transmits telemetry and event data to a remote server for operational visibility.
 

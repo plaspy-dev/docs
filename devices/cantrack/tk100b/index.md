@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - TK100B
 
+<div className="device-logo">
 ![TK100B](./tracker.jpg)
+</div>
 
 The CanTrack TK100B Accurate Pro is a hard-wired in-vehicle GPS tracker designed for continuous real-time location monitoring and vehicle security. As the professional evolution of the GT06/TK100 family, the TK100B provides telemetry and remote vehicle management features over GSM/GPRS with TCP/IP. It includes anti-theft controls such as one-key engine cut and restore, SOS, geo-fencing, two-way voice support and accessory interfaces for siren and remote controller use.
 

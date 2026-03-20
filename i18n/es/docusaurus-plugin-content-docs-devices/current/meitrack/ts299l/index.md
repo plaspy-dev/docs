@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - TS299L
 
+<div className="device-logo">
 ![TS299L](./tracker.png)
+</div>
 
 El TS299L es un rastreador GPS enchufable al encendedor de Meitrack diseñado para autos particulares, servicios de transporte por app, car sharing y flotas livianas. Pensado para una instalación rápida sin cableado, ofrece posicionamiento GNSS fiable y seguimiento continuo mientras está conectado a la toma de corriente del vehículo. Opciones adicionales, como un punto de acceso Wi‑Fi a bordo y conectividad con sensores Bluetooth, amplían su utilidad cuando se requiere conectividad para pasajeros o monitoreo ambiental.
 

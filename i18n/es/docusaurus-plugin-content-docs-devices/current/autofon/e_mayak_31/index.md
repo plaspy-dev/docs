@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - E-Mayak 3.1
 
+<div className="device-logo">
 ![E-Mayak 3.1](./tracker.png)
+</div>
 
 El AutoFon E-Mayak 3.1 es una baliza GPS autónoma y compacta pensada para rastreos de larga duración y bajo mantenimiento, donde la discreción y la autonomía de batería son prioritarias. El dispositivo transmite posición y telemetría básica mediante SMS y está optimizado para verificaciones de ubicación intermitentes bajo demanda, en lugar de un streaming continuo. Su reducido tamaño y su modo de funcionamiento de baja actividad lo hacen adecuado para ocultarlo en vehículos, remolques, contenedores, embarcaciones y otros activos que requieren autonomía prolongada.
 

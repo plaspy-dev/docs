@@ -20,7 +20,9 @@ keywords:
 
 # Bofan - PT-100
 
+<div className="device-logo">
 ![PT-100](./logo.jpg)
+</div>
 
 The Bofan PT-100 is a low cost GPS car tracker designed for reliable vehicle tracking and basic fleet oversight. Its compact form factor and feature set make it suitable for individuals and businesses that need continuous location visibility, position logging, and configurable alerts. The device supports SMS and live tracking via GPRS, offers position logging for thousands of waypoints, and includes practical safety features such as an SOS button and geo fence alerts.
 

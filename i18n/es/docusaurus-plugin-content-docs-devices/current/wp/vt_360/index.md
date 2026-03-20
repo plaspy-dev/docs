@@ -21,7 +21,9 @@ keywords:
 
 # WP - VT-360 — Rastreador vehicular compacto
 
+<div className="device-logo">
 ![VT-360](./logo..png)
+</div>
 
 El WP VT-360 es un dispositivo de seguimiento vehicular compacto que combina posicionamiento GPS y GLONASS con conectividad celular 2G y 3G para ofrecer seguimiento y monitoreo en tiempo real de forma continua. Diseñado para instalación en vehículos, el VT-360 incluye registro de viajes con capacidad para almacenar una gran cantidad de puntos de ruta, detección de encendido y diversas alertas orientadas a mejorar la visibilidad operativa.
 

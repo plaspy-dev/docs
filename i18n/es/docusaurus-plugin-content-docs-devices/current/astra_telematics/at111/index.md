@@ -21,7 +21,9 @@ keywords:
 
 # Astra Telematics - AT111
 
+<div className="device-logo">
 ![AT111](./tracker.jpg)
+</div>
 
 El Astra Telematics AT111 es un rastreador GPS compacto pensado para instalaciones telemáticas profesionales que requieren colocar antenas externas. Basado en la plataforma probada AT241, el AT111 ofrece conectividad celular multinetwork y posicionamiento GNSS multiconstelación en una resistente carcasa de aleación de aluminio. Su conjunto de funciones y su factor de forma lo hacen adecuado para seguimiento en tiempo real, telemetría y protección de activos en vehículos y maquinaria pesada.
 

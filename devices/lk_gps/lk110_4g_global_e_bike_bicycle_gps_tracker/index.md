@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK110 4G Global E-bike/Bicycle GPS Tracker
 
+<div className="device-logo">
 ![LK110 4G Global E-bike/Bicycle GPS Tracker](./tracker.jpg)
+</div>
 
 The LK110 4G Global E-bike/Bicycle GPS Tracker is a compact, rugged device purpose built for bicycles and e bikes. It offers global 4G connectivity, waterproof and shock resistant construction, and a fixed bracket for fast tool free installation. The unit delivers real time location reporting, configurable alerts, and remote control features designed for riders, families, and small fleet operators.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-BC06
 
+<div className="device-logo">
 ![TZ-BC06](./logo.jpg)
+</div>
 
 The TZone TZ-BC06 is a compact and lightweight tracker designed to provide accurate and reliable short range location and presence detection. With a creamy white finish and a slim form factor measuring approximately 60 x 24 x 9 mm and weighing about 15 grams, the TZ-BC06 is easy to carry or attach to personal items and equipment. It uses the iPhone iBeacon protocol over Bluetooth 4.0 to broadcast signals at configurable intervals and transmit power levels, allowing adjustment for performance and range.
 

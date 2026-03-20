@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - GTR-388NB
 
+<div className="device-logo">
 ![GTR-388NB](./tracker.jpg)
+</div>
 
 The GlobalSat GTR-388NB is a compact, rugged NB‑IoT GPS tracker designed for eBikes, motorcycles, scooters and other light vehicles. It combines a waterproof enclosure, built in GNSS and GSM antennas, AGPS support and an internal motion sensor to provide reliable position fixes and basic vehicle telemetry in outdoor and shared mobility environments. The device includes an internal rechargeable backup battery and a low power design suited to long standby deployments.
 

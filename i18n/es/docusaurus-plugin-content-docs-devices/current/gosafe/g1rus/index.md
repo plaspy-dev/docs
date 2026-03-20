@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G1RUS
 
+<div className="device-logo">
 ![G1RUS](./tracker.png)
+</div>
 
 El G1RUS es un rastreador GPS diseñado específicamente para despliegues prolongados y sin supervisión en remolques, contenedores y otros activos de alto valor. Combina una plataforma de hardware de consumo extremadamente bajo con una carcasa resistente y opciones de alimentación flexibles, de modo que los responsables puedan implementar soluciones fiables de ubicación y telemetría que funcionen durante meses o años sin mantenimiento frecuente. El dispositivo está orientado a ofrecer visibilidad tanto general como detallada de los activos cuando la durabilidad y la autonomía de la batería son requisitos prioritarios.
 

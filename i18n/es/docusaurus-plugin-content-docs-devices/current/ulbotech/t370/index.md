@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T370
 
+<div className="device-logo">
 ![T370](./tracker.jpg)
+</div>
 
 El Ulbotech T370 es un rastreador OBD compacto diseñado para ofrecer seguimiento vehicular en tiempo real, protección contra robos y monitoreo del comportamiento del conductor. Diseñado para conectarse al puerto OBD del vehículo y facilitar la instalación, el equipo integra un receptor GNSS u‑blox MAX‑7 y conectividad celular de la familia Telit xE910, proporcionando posicionamiento y telemetría adecuados para aplicaciones de flotas y telemática. Su acelerómetro interno, salida de inmovilizador y batería de respaldo hacen del T370 una opción práctica para operadores que buscan una solución OBD lista para usar.
 

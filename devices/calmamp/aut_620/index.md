@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - AUT-620
 
+<div className="device-logo">
 ![AUT-620](./logo.jpg)
+</div>
 
 The CalmAmp AUT-620 is a compact, battery operated asset tracking device built for long term deployments where low maintenance is important. Designed with a small form factor and replaceable AA alkaline batteries, the AUT-620 provides reliable location monitoring and is intended for assets that remain in the field for extended periods. The device description highlights strong GPS performance and internal antennas, which support flexible mounting inside a wide range of mobile assets.
 

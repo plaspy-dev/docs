@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TKOBD
 
+<div className="device-logo">
 ![TKOBD](./tracker.jpg)
+</div>
 
 The TKOBD 2G from TK-Star is a compact OBD plug in GPS tracker built for vehicle tracking and fleet management. It combines multi source positioning with a rugged IP65 enclosure and a plug in form factor to provide continuous location updates, movement alerts, and server based route history suitable for cars, light commercial vehicles, and rental fleets.
 

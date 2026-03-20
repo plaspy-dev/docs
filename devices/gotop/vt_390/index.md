@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-390
 
+<div className="device-logo">
 ![VT-390](./logo.jpg)
+</div>
 
 The GOTOP VT-390 is a feature rich GPS tracker designed for fleet management and vehicle security. It combines a high speed ARM9 processor with multiple inputs and outputs, an integrated driver identification system and optional camera support to provide comprehensive tracking and event logging for vehicles. The unit is positioned as a cost effective option for organizations that need continuous location monitoring, driver verification, event alarms and local data storage for images and logs.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-5
 
+<div className="device-logo">
 ![AT-5](./logo..jpg)
+</div>
 
 The Autoseeker AT-5 is a wireless magnetic GPS asset tracker designed for reliable position tracking of vehicles, trucks, and personal assets. Known for its "police proven" reputation, the AT-5 combines 4G full network connectivity with multi mode positioning including GPS, Beidou, wifi, and LBS to deliver flexible and resilient location data. The unit includes a range of practical security features such as a demolition alarm, SOS button, two way call capability, vibration notifications, overspeed and displacement alerts, low battery warning, and an IP68 rating for resistance to dust and water.
 

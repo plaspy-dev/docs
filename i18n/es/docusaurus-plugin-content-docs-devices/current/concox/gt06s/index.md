@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GT06S
 
+<div className="device-logo">
 ![GT06S](./tracker.png)
+</div>
 
 El GT06S es un rastreador GNSS mini diseñado para el seguimiento discreto de vehículos y activos de flota. Su tamaño compacto y su amplio rango de entrada de 9–90V CC lo hacen apto para motocicletas, automóviles y camiones pesados. Además, incorpora funciones prácticas como corte remoto de combustible o alimentación mediante relé, detección de encendido y un micrófono, lo que aporta soporte útil para labores antirrobo y mayor conciencia situacional en operaciones comerciales.
 

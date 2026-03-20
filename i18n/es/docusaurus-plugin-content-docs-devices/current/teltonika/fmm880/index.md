@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMM880
 
+<div className="device-logo">
 ![FMM880](./tracker.png)
+</div>
 
 El Teltonika FMM880 es un rastreador GNSS compacto y resistente al agua, pensado para despliegues montados en batería cuando no hay alimentación externa disponible. Diseñado para el seguimiento de flotas y activos, el FMM880 combina conectividad celular de baja potencia (LPWA) con un receptor GNSS de doble banda y soporte Bluetooth LE, ofreciendo actualizaciones de posición confiables y una mayor autonomía en instalaciones temporales, estacionales o difíciles de cablear.
 

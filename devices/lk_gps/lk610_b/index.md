@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK610-B
 
+<div className="device-logo">
 ![LK610-B](./tracker.jpg)
+</div>
 
 The LK610-B is a compact wearable GPS tracker marketed in some variants as the LK610-NB. Designed for personal safety and everyday wear, this SIM based positioning terminal delivers continuous location updates using GPS and LBS with AGPS assistance. The device includes an SOS emergency button, two way calling and configurable locating upload modes to support reliable monitoring of children, students and mobile staff.
 

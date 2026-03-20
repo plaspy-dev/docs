@@ -21,7 +21,9 @@ keywords:
 
 # Arusnavi - ARNAVI L3R100
 
+<div className="device-logo">
 ![ARNAVI L3R100](./tracker.png)
+</div>
 
 El ARNAVI L3R100 es un controlador de navegación y rastreador GPS compacto diseñado para instalaciones que requieren localización en tiempo real precisa, telemetría mixta cableada e inalámbrica y bajo consumo de energía. Con unas dimensiones de 61 x 42 x 13 mm y 36 g, se adapta a espacios de instalación reducidos y ofrece recepción GNSS multiconstelación, conectividad 2G GPRS y soporte Bluetooth Low Energy para sensores inalámbricos, por lo que resulta ideal para escenarios de seguimiento de flotas y activos.
 

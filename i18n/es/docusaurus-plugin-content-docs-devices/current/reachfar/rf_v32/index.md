@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V32
 
+<div className="device-logo">
 ![RF-V32](./tracker.jpg)
+</div>
 
 El RF-V32 es un rastreador GPS compacto y resistente pensado para mascotas y ganado. Combina posicionamiento por GPS con LBS, A-GPS y fallback por WiFi para ofrecer visibilidad de la ubicación tanto en exteriores como en entornos con señal limitada. Diseñado para soportar uso en campo, el RF-V32 cuenta con protección IP67, antenas GSM y GPS integradas, conectividad GSM cuatribanda y modos de reporte múltiples, lo que lo hace apropiado para montaje en collares y tareas habituales de seguimiento animal.
 

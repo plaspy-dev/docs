@@ -20,7 +20,9 @@ keywords:
 
 # Condor - CM-311
 
+<div className="device-logo">
 ![CM-311](./tracker.png)
+</div>
 
 The CM-311 is a compact GPS tracker from Condor designed specifically for pet monitoring. Small and lightweight, it provides position updates over a cellular connection so pets can be tracked without interfering with daily activity. Its form factor and focus on comfort make it suitable for dogs and cats that need unobtrusive, continuous location visibility.
 

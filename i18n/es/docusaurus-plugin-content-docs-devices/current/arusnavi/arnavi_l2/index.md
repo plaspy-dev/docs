@@ -21,7 +21,9 @@ keywords:
 
 # Arusnavi - Arnavi L2
 
+<div className="device-logo">
 ![Arnavi L2](./tracker.png)
+</div>
 
 El Arnavi L2 es un rastreador GPS compacto y herméticamente sellado, diseñado para ofrecer seguimiento y telemetría en tiempo real de manera fiable en entornos húmedos o con alta humedad. Pensado para activos móviles y gestión de flotas, combina posicionamiento GNSS multiconstelación con un módem celular de bajo consumo y Bluetooth Low Energy para proporcionar ubicación, datos de comportamiento de conducción y telemetría de sensores en una carcasa pequeña y protegida.
 

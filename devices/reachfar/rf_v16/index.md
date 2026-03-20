@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V16
 
+<div className="device-logo">
 ![RF-V16](./tracker.jpg)
+</div>
 
 The RF-V16 is a super-mini GPS tracker and SOS communicator built for fast emergency response and reliable personal location tracking. Its ultra compact form and lightweight body make it easy to carry or wear, while the included GPS positioning and cellular connectivity provide timely location reports and alerting for caregivers, lone workers, and other vulnerable users who need a simple one button alarm.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - T8806+R
 
+<div className="device-logo">
 ![T8806+R](./logo..png)
+</div>
 
 The TopFly T8806+R is a hardwired 2G tracker designed for powered assets and vehicles. It provides ignition detection and dedicated outputs for relays, buzzers, or sirens, along with a built in GNSS chipset that supports multiple global navigation systems. The device offers both real time location reporting and a large onboard buffer for location points, making it suitable for continuous tracking and recovery of position history when connectivity is limited.
 

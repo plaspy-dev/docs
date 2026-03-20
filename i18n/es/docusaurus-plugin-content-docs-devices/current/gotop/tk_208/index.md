@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - TK-208
 
+<div className="device-logo">
 ![TK-208](./logo.jpg)
+</div>
 
 El GOTOP TK-208 es un rastreador GPS personal compacto diseñado para ofrecer reportes de ubicación confiables. Combina posicionamiento por satélite GPS con métodos de comunicación celular para enviar coordenadas de longitud y latitud a un teléfono vía SMS o a un servidor remoto para su visualización en línea. El equipo es adecuado para uso personal, vehículos y mascotas, e integra funciones prácticas como monitoreo de voz, geocercas, alertas por batería baja, alarmas por movimiento y vibración, así como un modo de reposo para optimizar el consumo de energía.
 

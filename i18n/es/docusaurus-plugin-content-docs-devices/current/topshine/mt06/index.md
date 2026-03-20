@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - MT06
 
+<div className="device-logo">
 ![MT06](./tracker.jpg)
+</div>
 
 El MT06 es un rastreador GPS compacto, con IMEI registrado, diseñado para motocicletas y vehículos pequeños. Integra antenas GPS y GSM en una carcasa miniatura resistente al agua y utiliza un diseño de bajo consumo para reducir el uso de datos, manteniendo al mismo tiempo reportes continuos de posición y estado. Certificado según las normas CE, FCC y RoHS, el equipo está pensado para instalaciones discretas y para resistir el uso en despliegues comerciales y soluciones antirrobo.
 

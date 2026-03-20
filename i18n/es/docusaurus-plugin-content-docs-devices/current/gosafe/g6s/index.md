@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G6S
 
+<div className="device-logo">
 ![G6S](./logo.jpg)
+</div>
 
 El Gosafe G6S es un rastreador GPS pensado para proveedores de servicios, integradores y clientes empresariales. Está diseñado para optimizar la gestión de recursos móviles y los sistemas de despacho, por lo que es una opción adecuada para administración de flotas, telemática para aseguradoras, localización y recuperación de vehículos y otros escenarios operativos similares. El equipo emplea rastreo GSM GPRS cuatribanda con una opción 3G disponible e incluye funciones orientadas a reportes de posición confiables y supervisión operativa.
 

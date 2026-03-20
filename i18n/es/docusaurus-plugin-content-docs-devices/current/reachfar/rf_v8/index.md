@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V8
 
+<div className="device-logo">
 ![RF-V8](./tracker.jpg)
+</div>
 
 El RF‑V8 es un rastreador GPS súper compacto diseñado para ofrecer protección antirrobo discreta y monitorización de ubicación en tiempo real confiable. Su tamaño reducido y bajo peso lo hacen ideal para una colocación oculta en vehículos, equipos portátiles o pertenencias personales. El dispositivo integra posicionamiento GNSS con múltiples sensores antirrobo, como detección de vibración, alarma por ruido, notificación de cambio de SIM y alertas de batería baja, además de escucha remota y varias opciones de control remoto.
 

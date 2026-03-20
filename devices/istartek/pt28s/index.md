@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - PT28S
 
+<div className="device-logo">
 ![PT28S](./tracker.jpg)
+</div>
 
 The PT28S is a rugged wearable GPS tracker watch from iStartek designed for personal safety and location monitoring. Built with a compact form factor and an IPS display, the device combines multi mode positioning and wide cellular support to provide continuous location updates, one key SOS emergency signaling, two way voice communication and basic health telemetry. Its IP67 rating and lightweight construction make it suitable for everyday wear and outdoor activities.
 

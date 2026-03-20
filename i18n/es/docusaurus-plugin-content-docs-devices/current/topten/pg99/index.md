@@ -21,7 +21,9 @@ keywords:
 
 # TopTen - PG99
 
+<div className="device-logo">
 ![PG99](./Logo.jpg)
+</div>
 
 El TopTen PG99 es un rastreador GPS compacto pensado para el seguimiento de activos y la protección antirrobo. Soporta varios modos de funcionamiento, incluido un modo de sueño profundo extremo para consumo muy bajo, y ofrece un rendimiento de espera persistente adecuado para despliegues de larga duración. El equipo entrega información de ubicación por distintos métodos y genera alarmas por eventos como vibración, batería baja y exceso de velocidad, ayudando a proteger equipos valiosos.
 

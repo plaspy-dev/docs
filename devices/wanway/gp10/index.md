@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - GP10
 
+<div className="device-logo">
 ![GP10](./Logo.jpg)
+</div>
 
 The WanWay GP10 is a compact personal tracking and positioning device designed for everyday tracking needs. With dimensions of 48x33x17mm it is small enough for personal use and portable enough to attach to belongings, carry for personal safety, or keep with pets. Core capabilities described for this model include real time location updates, user defined geo fences, SMS notifications for key events, and remote voice monitoring.
 

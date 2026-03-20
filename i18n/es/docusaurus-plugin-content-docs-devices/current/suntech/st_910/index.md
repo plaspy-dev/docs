@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 910
 
+<div className="device-logo">
 ![ST 910](./logo.jpg)
+</div>
 
 El Suntech ST 910 es un rastreador GPS independiente diseñado para ofrecer seguimiento de ubicación confiable en activos móviles. Incluye una batería recargable Li-Polymer y almacenamiento interno de eventos, junto con una carcasa plástica compacta y resistente y un puerto mini USB para conectividad adicional. El equipo está orientado a aplicaciones de seguimiento y recuperación de vehículos donde se requiere visibilidad continua de la ubicación y alertas básicas.
 

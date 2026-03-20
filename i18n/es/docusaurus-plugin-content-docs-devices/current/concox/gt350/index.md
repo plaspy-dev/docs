@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GT350
 
+<div className="device-logo">
 ![GT350](./logo.jpg)
+</div>
 
 El Concox GT350 es un rastreador GPS personal compacto pensado para quienes requieren monitorización continua de ubicación. Está orientado a usuarios como inspectores, viajeros y trabajadores en campo, ofreciendo un equilibrio entre portabilidad y robustez. Entre sus características principales el fabricante destaca la larga autonomía en espera, seguimiento en emergencias para respuesta rápida, geovallas con notificaciones instantáneas, monitoreo de voz para mayor contexto y una alarma SOS para situaciones críticas.
 

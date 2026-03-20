@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CCTR-802
 
+<div className="device-logo">
 ![CCTR-802](./logo.jpg)
+</div>
 
 The Carscop CCTR-802 is a compact, covert GPS tracker designed for vehicle monitoring and recovery. Its magnetized enclosure and discreet form factor make it suitable for hidden placement on cars, buses, taxis, rental vehicles, and other moving equipment. The device supports real time GPS location upload to a web platform, includes a built in memory for recording tracks when connectivity is unavailable, and is housed in a weather resistant case for use in varied conditions.
 

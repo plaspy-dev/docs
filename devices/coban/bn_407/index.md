@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-407
 
+<div className="device-logo">
 ![BN-407](./tracker.png)
+</div>
 
 The BN-407 is a compact 4G bicycle management terminal designed for concealed installation inside a bike frame. Purpose built for discreet anti theft protection and fleet use, it provides live location updates, motion telemetry, configurable geo fence alerts and track playback without altering a bicycle’s appearance. Its small cylindrical form factor and low weight make it suitable for mountain bikes, shared fleets and personal bicycles where tamper resistance and unobtrusive mounting matter.
 

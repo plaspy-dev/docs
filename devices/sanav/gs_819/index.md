@@ -20,7 +20,9 @@ keywords:
 
 # Sanav - GS-819
 
+<div className="device-logo">
 ![GS-819](./logo.jpg)
+</div>
 
 The Sanav GS-819 is a vehicle grade GPS tracker built for reliable in car tracking. It pairs a high sensitivity SiRF Star IV GPS receiver with a Cinterion EHS6 3G module to provide robust position fixes and cellular communications. The device is housed in a rugged metallic enclosure and includes features commonly required for vehicle monitoring such as ACC on off detection, an embedded motion sensor, flash storage, and multiple configurable inputs and outputs.
 

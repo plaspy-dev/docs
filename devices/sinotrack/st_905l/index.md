@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-905L
 
+<div className="device-logo">
 ![ST-905L](./tracker.jpg)
+</div>
 
 The SinoTrack ST-905L is a rugged, waterproof GPS tracker designed for reliable vehicle and asset tracking. It combines LTE Cat‑1 and 2G cellular connectivity with a high sensitivity UBLOX UBX‑G7020 GNSS receiver and a large rechargeable 3.7V Li‑ion battery to provide extended standby and consistent position updates for cars, motorcycles, and other high value assets. The unit ships ready for cellular activation (SIM not included) and is built for quick magnetic mounting to metal surfaces.
 

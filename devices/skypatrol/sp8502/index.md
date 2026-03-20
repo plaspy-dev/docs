@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP8502
 
+<div className="device-logo">
 ![SP8502](./logo.jpg)
+</div>
 
 The SkyPatrol SP8502 is a compact, portable GPS tracker designed to provide location awareness and basic personal safety features. Its small size makes it easy to carry or conceal, and it is presented as suitable for monitoring field personnel, seniors, children, and other individuals who may benefit from discreet tracking. A notable built in user alert button adds an immediate way for a tracked person to signal for attention when needed.
 

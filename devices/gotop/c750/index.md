@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - C750
 
+<div className="device-logo">
 ![C750](./tracker.jpg)
+</div>
 
 The GOTOP C750 is a compact plug and play OBD GPS tracker designed for fast deployment in cars and light commercial vehicles. Built with a focus on quick installation and immediate monitoring, the device combines GNSS positioning and GSM/GPRS communications to provide continuous location reporting, configurable alerts, and event reporting while connected to the vehicle OBD-II port.
 

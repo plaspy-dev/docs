@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT701
 
+<div className="device-logo">
 ![JT701](./tracker.jpg)
+</div>
 
 The JT701 is an intelligent tracking lock from Jointech that combines GPS positioning with an integrated cellular wireless module and secure access controls. Designed for transport security, it provides location visibility together with tamper-aware monitoring and access event logging for containers, trailers, vans and trucks. Built-in RFID and remote password unlocking replace traditional keys and provide an auditable trail of custody events.
 

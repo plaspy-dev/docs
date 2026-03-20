@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - C790-Y
 
+<div className="device-logo">
 ![C790-Y](./tracker.jpg)
+</div>
 
 The C790-Y is a compact, multi function vehicle GPS tracker designed for reliable fleet management, anti theft protection and continuous location monitoring. Its feature set centers on satellite positioning and cellular telemetry to provide location updates, geofence alerts and extended route history, all packaged in a discreet form factor suitable for a wide range of vehicle types.
 

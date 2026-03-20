@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - SolarGuardX 110
 
+<div className="device-logo">
 ![SolarGuardX 110](./tracker.png)
+</div>
 
 El SolarGuardX 110 es un rastreador GPS robusto, alimentado por energía solar y diseñado en un formato de candado de alta resistencia para la seguridad de activos en exteriores y el monitoreo a largo plazo. Ideado para contenedores, remolques y otros activos móviles en entornos remotos o hostiles, combina un panel solar integrado con una batería recargable de gran capacidad y GNSS multiconstelación para maximizar el tiempo operativo, ofrecer telemetría de ubicación fiable y funciones endurecidas contra el robo.
 

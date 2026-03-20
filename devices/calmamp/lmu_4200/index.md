@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-4200
 
+<div className="device-logo">
 ![LMU-4200](./logo.jpg)
+</div>
 
 The CalmAmp LMU-4200 is a flagship GPS tracker designed for enterprise fleet and asset management. It combines multiple wireless connectivity options and a suite of vehicle interfaces to provide a flexible, expandable foundation for tracking, monitoring, and event detection. The model includes on‑board capabilities such as a 3 axis accelerometer for detecting harsh events, an optional ECU interface for engine condition data, and an adaptable input output system for accessory expansion.
 

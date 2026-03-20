@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV75
 
+<div className="device-logo">
 ![GV75](./tracker.png)
+</div>
 
 El GV75 es un rastreador GPS resistente con certificación IP67 diseñado para entornos exteriores exigentes y aplicaciones vehiculares. Construido alrededor de un receptor u‑blox GNSS y comunicaciones celulares cuatribanda, el GV75 ofrece seguimiento de ubicación en tiempo real fiable, telemetría extendida y una serie de alarmas antirrobo. Su carcasa robusta y su amplio rango de temperatura operativa lo hacen adecuado para motocicletas, embarcaciones, maquinaria agrícola y equipos pesados donde la durabilidad y el seguimiento continuo son esenciales.
 

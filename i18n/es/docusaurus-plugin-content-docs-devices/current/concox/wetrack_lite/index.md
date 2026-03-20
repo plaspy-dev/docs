@@ -21,7 +21,9 @@ keywords:
 
 # Concox - Wetrack Lite
 
+<div className="device-logo">
 ![Wetrack Lite](./tracker.png)
+</div>
 
 El Wetrack Lite es un rastreador GPS compacto de Concox diseñado para la supervisión discreta de vehículos en aplicaciones de alquiler de autos, gestión de flotas y logística ligera. Su tamaño reducido, LED oculto y amplio rango de voltaje lo hacen ideal cuando se requiere un perfil bajo, sin sacrificar el seguimiento en tiempo real ni las notificaciones de eventos. El dispositivo está pensado para proporcionar ubicación e información de estado con mínima detección por parte del conductor.
 

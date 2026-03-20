@@ -21,7 +21,9 @@ keywords:
 
 # Goome - GMOBD
 
+<div className="device-logo">
 ![GMOBD](./logo.jpg)
+</div>
 
 El Goome GMOBD es un rastreador GPS tipo OBD2 que integra un módulo GSM con posicionamiento BDS. Diseñado para la supervisión vehicular, ofrece funciones como antirrobo, escucha remota, alarmas, seguimiento en tiempo real, reporte de posiciones, geocercas y reproducción de recorridos. El dispositivo es compacto, cuenta con batería de respaldo para mantener la operación cuando se corta la alimentación del vehículo y es compatible con una amplia variedad de vehículos que disponen de una interfaz OBD de 16 pines.
 

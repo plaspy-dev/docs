@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D35
 
+<div className="device-logo">
 ![D35](./tracker.png)
+</div>
 
 El Sentar D35 es un reloj inteligente compacto para niños pensado para posicionamiento en tiempo real y comunicación con cuidadores. Basado en una plataforma Android con conectividad 4G, el D35 integra tecnologías de localización multimodal como GPS, AGPS, LBS y WiFi para ofrecer visibilidad continua de la ubicación. Su diseño orientado a los niños incluye una pantalla táctil IPS de 1.69 pulgadas, cámaras duales, un botón físico SOS dedicado y clasificación de resistencia al agua IPX7, cubriendo las necesidades habituales de vigilancia infantil diaria.
 

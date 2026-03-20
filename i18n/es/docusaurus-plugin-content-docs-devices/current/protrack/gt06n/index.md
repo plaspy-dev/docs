@@ -21,7 +21,9 @@ keywords:
 
 # Protrack - GT06N
 
+<div className="device-logo">
 ![GT06N](./tracker.jpg)
+</div>
 
 El Protrack GT06N es un rastreador GPS compacto con clasificación IP65, diseñado para ofrecer seguimiento en tiempo real fiable de autos y motocicletas. Combina una carcasa resistente a la intemperie con funciones fundamentales de seguimiento vehicular, como alerta de emergencia SOS, geocercas y advertencias por exceso de velocidad, reproducción histórica de rutas y control de corte de combustible. Estas capacidades hacen que el GT06N sea apropiado tanto para la gestión de flotas como para la seguridad de vehículos personales cuando se necesita monitoreo continuo y respuesta rápida ante incidentes.
 

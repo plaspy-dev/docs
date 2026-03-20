@@ -21,7 +21,9 @@ keywords:
 
 # Condor - CB-714
 
+<div className="device-logo">
 ![CB-714](./tracker.png)
+</div>
 
 El CB-714 es un rastreador GPS compacto pensado específicamente para el control de bicicletas y la telemetría del ciclista. Diseñado para ciclistas recreativos, viajeros urbanos, competidores y flotas de alquiler, este modelo destaca por la visualización de rutas, la medición precisa de distancias y el registro fiable de la duración de los viajes, lo que permite supervisar recorridos, verificar usos y analizar rendimiento con confianza.
 

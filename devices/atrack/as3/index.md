@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AS3
 
+<div className="device-logo">
 ![AS3](./logo.jpg)
+</div>
 
 The ATrack AS3 is a compact, versatile GPS tracker built for monitoring vehicles and trailers. It combines satellite positioning with cellular data communication to deliver continuous location information and configurable tracking modes. Designed for assets that are normally connected to power but may be disconnected for periods of time, the AS3 includes an internal rechargeable battery and a large capacity backup battery to maintain operation when main power is unavailable.
 

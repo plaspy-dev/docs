@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT-4800
 
+<div className="device-logo">
 ![XT-4800](./logo.jpg)
+</div>
 
 El Xirgo XT-4800 es un rastreador GPS con captación de energía pensado para despliegues remotos de larga duración. Su diseño de autorecarga y la capacidad para aprovechar energía ambiental reducen la necesidad de intervenciones frecuentes, por lo que es ideal para el monitoreo de activos remotos o sin alimentación eléctrica. El equipo está concebido para entregar actualizaciones frecuentes de ubicación y estado durante períodos prolongados y cuenta con una carcasa sellada IP67 que lo protege en entornos adversos.
 

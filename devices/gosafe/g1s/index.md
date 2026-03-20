@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G1S
 
+<div className="device-logo">
 ![G1S](./logo.jpg)
+</div>
 
 The Gosafe G1S is a portable GPS tracker built for flexible deployments. It supports either replaceable CR123 batteries or rechargeable batteries charged via an external connector, and its compact, durable design makes it suitable for both indoor and outdoor tracking. With a total replaceable battery capacity reported as 6000mAh, the G1S can achieve extremely long standby intervals when configured for low frequency reporting, which is useful for long term asset monitoring.
 

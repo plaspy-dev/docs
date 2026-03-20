@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-5530
 
+<div className="device-logo">
 ![LMU-5530](./logo.jpg)
+</div>
 
 The CalmAmp LMU-5530 is a versatile, high-speed GPS tracker designed for fixed and mobile broadband applications. It combines location tracking with an adaptable platform that supports broadband routing, cellular gateway functions, and an embedded Linux operating environment. The device includes an on-board programmable event engine and a broad set of interfaces for integrating peripheral hardware and data sources.
 

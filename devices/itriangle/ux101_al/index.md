@@ -20,7 +20,9 @@ keywords:
 
 # iTriangle - UX101-AL++
 
+<div className="device-logo">
 ![UX101-AL++](./tracker.png)
+</div>
 
 The UX101-AL++ is a rugged, AIS 140 certified GPS tracker and 4G telematics data logger designed for demanding vehicle and industrial environments. Engineered for harsh conditions, the device delivers real-time tracking and persistent telemetry with multi generation cellular connectivity, dual CAN interfaces, and local wireless options for accessory and sensor integration. Its durability credentials and compact form factor make it suitable for heavy commercial vehicles, mining equipment, and other mobility applications that need reliable location and event data.
 

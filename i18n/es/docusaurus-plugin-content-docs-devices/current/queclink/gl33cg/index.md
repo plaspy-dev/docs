@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL33CG
 
+<div className="device-logo">
 ![GL33CG](./logo..png)
+</div>
 
 El QuecLink GL33CG es un rastreador GPS compacto diseñado para la recuperación de carga y la monitorización encubierta de envíos. Disfrazado como una pequeña caja, está pensado para ocultarse dentro de embalajes de cartón y seguir mercancías de alto valor durante el transporte. El dispositivo soporta LTE CAT1 con retroceso a 2G y ofrece transmisión RF433 y localización LBS como alternativas cuando la señal GPS es limitada. Entre las características del modelo se incluyen modo avión, sensor de temperatura integrado y una batería de respaldo de larga duración de 4000 mAh, todo en una carcasa ligera de 97 x 43.5 x 21 mm.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - L08P
 
+<div className="device-logo">
 ![L08P](./tracker.jpg)
+</div>
 
 El GOTOP L08P es un smartwatch GPS 4G resistente, enfocado en la salud y diseñado para ofrecer seguimiento personal confiable y apoyo en emergencias. Pensado para uso continuo, combina una pantalla táctil AMOLED de 1.43 pulgadas con un cuerpo IP66, ofreciendo durabilidad y buena visibilidad para personas mayores, quienes tienen deterioro cognitivo, trabajadores solitarios y cualquier usuario que requiera monitoreo regular de ubicación y signos vitales.
 

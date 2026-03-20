@@ -21,7 +21,9 @@ keywords:
 
 # EV - EV-100
 
+<div className="device-logo">
 ![EV-100](./logo.jpg)
+</div>
 
 El EV EV-100 es un rastreador GPS compacto pensado para automóviles y motocicletas. Su construcción resistente al agua y al polvo ofrece un rendimiento estable para el uso diario en carretera. El equipo admite un amplio rango de voltaje de operación y emplea antenas internas para un perfil más discreto y un mantenimiento más sencillo. Integra detección de movimiento mediante un acelerómetro de 3 ejes, almacenamiento interno de puntos de ruta, funciones de alarma y una batería de respaldo que permite continuar la operación si se interrumpe la alimentación del vehículo.
 

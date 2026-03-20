@@ -21,7 +21,9 @@ keywords:
 
 # UVI Group - GT02
 
+<div className="device-logo">
 ![GT02](./logo.jpg)
+</div>
 
 El UVI Group GT02 es un rastreador vehicular compacto y portátil diseñado para el monitoreo de vehículos corporativos y autos particulares. Descrito como un mini rastreador portátil para automóviles, ofrece reportes de ubicación en tiempo real mediante GPS y conectividad GSM GPRS. El equipo se enfoca en funciones antirobo y supervisión práctica del vehículo, enviando información de posición, velocidad y dirección a un servidor o servicio designado para acceso desde teléfonos o computadoras.
 

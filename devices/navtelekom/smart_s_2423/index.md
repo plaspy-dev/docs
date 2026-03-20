@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2423
 
+<div className="device-logo">
 ![SMART S-2423](./tracker.jpeg)
+</div>
 
 The SMART S-2423 is a compact GLONASS/GPS vehicle tracker designed for reliable telematics and real-time tracking. It combines an integrated GSM modem with internal high-sensitivity GLONASS/GPS and GSM antennas and includes a built-in rechargeable backup battery to maintain reporting during temporary power loss. The device offers multiple physical interfaces and configurable inputs and outputs to support common vehicle telemetry and control needs.
 

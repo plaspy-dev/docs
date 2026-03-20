@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-DP070
 
+<div className="device-logo">
 ![TZ-DP070](./logo.jpg)
+</div>
 
 The TZone TZ-DP070 is a purpose built temperature monitor intended for secondary development on the Windows CE 6.0 operating system. It provides a visual interface that receives temperature data via RS485 and is designed to pair with an RFID reader and temperature tag system. The device transmits collected measurements using 2.4G RF wireless technology and includes a 7 inch display, SD and MMC card support, Ethernet and USB connectivity, and a resistive touch screen for local operation.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Goome - GM02G
 
+<div className="device-logo">
 ![GM02G](./logo.jpg)
+</div>
 
 The Goome GM02G is a compact vehicle GPS tracker designed for real time location monitoring and basic vehicle security features. Its small form factor allows discreet placement inside a car, and the unit is described as easy to power so it becomes operational quickly. Standard capabilities include real time tracking, user defined geo fences, trace playback, ACC detection, over speed and cut wire alarms, vibration alerts, and a waterproof design for durability.
 

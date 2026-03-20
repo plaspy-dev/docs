@@ -20,7 +20,9 @@ keywords:
 
 # TopTen - TK108
 
+<div className="device-logo">
 ![TK108](./Logo.jpg)
+</div>
 
 The TopTen TK108 is a vehicle GPS tracker that combines location reporting with basic alarm and monitoring features. It supports SMS and phone call based arm and disarm commands, provides engine on and off alerts, reports power failure events, and includes an SOS alarm. The unit also accepts an analog input for fuel monitoring and includes an 8Mb data logger to store waypoints when the device is offline. Designed for a wide operating voltage range and built to industrial quality standards, the TK108 is suited to a variety of vehicle types.
 

@@ -21,7 +21,9 @@ keywords:
 
 # iTriangle - Bharat101
 
+<div className="device-logo">
 ![Bharat101](./tracker.png)
+</div>
 
 El Bharat101 es un rastreador GPS compatible con la normativa AIS 140, diseñado y fabricado en India para entornos vehiculares exigentes. Integra posicionamiento GNSS con soporte NavIC, una eSIM integrada, sensores de movimiento a bordo, múltiples opciones de E/S y una carcasa resistente IP65 para ofrecer seguimiento continuo y telemetría de eventos en transporte público, flotas comerciales y otras aplicaciones vehiculares.
 

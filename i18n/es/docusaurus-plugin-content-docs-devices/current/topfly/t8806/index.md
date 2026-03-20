@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - T8806
 
+<div className="device-logo">
 ![T8806](./logo.jpg)
+</div>
 
 El TopFly T8806 es un rastreador GPS versátil diseñado para ofrecer monitoreo continuo de ubicación y un conjunto de funciones de seguridad y supervisión para vehículos. Según la descripción del modelo, proporciona rastreo en tiempo real, registros históricos de puntos para revisar rutas y varias alarmas como exceso de velocidad, geocerca, remolque y detección de robo. El equipo también soporta audio bidireccional, llamadas SOS y detección de combustible, temperatura, movimiento de puertas y estado del aire acondicionado, lo que lo convierte en una unidad completa para la supervisión vehicular.
 

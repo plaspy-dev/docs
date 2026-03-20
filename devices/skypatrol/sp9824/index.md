@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP9824
 
+<div className="device-logo">
 ![SP9824](./tracker.png)
+</div>
 
 The SP9824 is a portable GPS asset tracker from SkyPatrol designed for long term deployments where maintenance windows are rare and environmental data matters. It combines a rugged, waterproof enclosure with onboard light and temperature sensing and tamper detection, enabling location and condition monitoring for pallets, containers, trailers, and static assets in outdoor or refrigerated environments.
 

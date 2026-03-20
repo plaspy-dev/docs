@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-103B
 
+<div className="device-logo">
 ![BN-103B](./tracker.png)
+</div>
 
 The BN-103B is a vehicle mounted intelligent GPS tracker designed for professional fleet management, real time location tracking and anti theft protection. It supports external GPS and GSM antennas, wired 12–24V installation and includes a rechargeable backup battery, making it a practical choice for continuous vehicle monitoring and event driven alerts.
 

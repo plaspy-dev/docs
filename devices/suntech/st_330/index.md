@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 330
 
+<div className="device-logo">
 ![ST 330](./logo.jpg)
+</div>
 
 The Suntech ST 330 is a compact GPS tracker purpose built for container and dry box monitoring. It offers extended battery operation suitable for long routes or extended parking periods and is designed to remain attached to metal surfaces using strong integrated magnets. The ST 330 is rated for water and dust resistance to IP67 standards, helping it withstand the environmental demands common in freight and storage use.
 

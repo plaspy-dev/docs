@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TK210
 
+<div className="device-logo">
 ![TK210](./tracker.jpg)
+</div>
 
 The TK210 is a compact 4G Android motorcycle GPS tracker built for motorcycles, electric vehicles, scooters, private cars and rental fleets. It combines multi constellation GNSS positioning with cellular 4G connectivity and indoor positioning methods such as LBS and Wi‑Fi to provide dependable location information whether a vehicle is on the street or indoors. The device is designed with practical anti theft and fleet management features like a vibration sensor, geo fence alerts, movement and overspeed notifications, and a remote engine cut off for immobilization.
 

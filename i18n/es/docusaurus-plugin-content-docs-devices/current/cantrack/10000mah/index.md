@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - 10000mAh
 
+<div className="device-logo">
 ![10000mAh](./tracker.JPG)
+</div>
 
 El CanTrack 10000mAh (serie GF60) es un rastreador GPS magnético de alta resistencia diseñado para despliegues prolongados en exteriores. Comercializado con una capacidad de 10000mAh y una celda recargable interna documentada de 6000mAh, la serie GF60 combina una carcasa robusta con clasificación IP67 y un potente soporte magnético para ofrecer montaje sin instalación en vehículos, remolques y contenedores. Está pensado para casos de uso como gestión de financiamiento vehicular, recuperación de vehículos robados y seguimiento extendido de contenedores donde se requiere reportes de ubicación discretos y confiables.
 

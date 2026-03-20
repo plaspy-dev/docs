@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - Pet Tracker
 
+<div className="device-logo">
 ![Pet Tracker](./logo.jpg)
+</div>
 
 The TK-Star Pet Tracker is a compact GPS tracker purpose built for animals. Designed to attach to a collar, it combines a lightweight form factor with location monitoring features that support live tracking, periodic location reports, and geofence alerts. The device ships with a SIM card and can return a position via text message with a map link, or be monitored through the vendor app for route playback and live position updates.
 

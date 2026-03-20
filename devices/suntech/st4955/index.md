@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4955
 
+<div className="device-logo">
 ![ST4955](./tracker.jpg)
+</div>
 
 The ST4955 is a rugged, solar powered GPS tracker engineered for long term outdoor monitoring of vehicles, non powered assets and high value equipment. Built for extended field deployments, the device combines a high sensitivity GNSS receiver with energy harvesting and large battery capacity options to support multi month autonomous operation in harsh environments.
 

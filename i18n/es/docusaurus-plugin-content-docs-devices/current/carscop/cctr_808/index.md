@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-808
 
+<div className="device-logo">
 ![CCTR-808](./logo.jpg)
+</div>
 
 El Carscop CCTR-808 es un rastreador GPS compacto y versátil pensado para la vigilancia de activos a largo plazo. Sus principales características de hardware incluyen un panel solar y una batería de gran capacidad para extender la autonomía en espera, una carcasa con clasificación IP56 resistente al agua para uso exterior y un pin magnético de alta fuerza que facilita la fijación a vehículos o equipos. El dispositivo también admite localización por Cell ID para mejorar los reportes de posición en entornos interiores o subterráneos complicados, y ofrece intervalos de subida configurables con control por SMS para adaptar su comportamiento de seguimiento.
 

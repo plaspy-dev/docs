@@ -21,7 +21,9 @@ keywords:
 
 # V-SUN - TLT-2K
 
+<div className="device-logo">
 ![TLT-2K](./logo.jpg)
+</div>
 
 El V-SUN TLT-2K es un dispositivo compacto de posicionamiento para vehículos que integra posicionamiento GPS y conectividad GSM GPRS para ofrecer información de ubicación en tiempo real. Puede reportar coordenadas de longitud y latitud, responder a consultas de ubicación por SMS y mostrar la posición en servicios de mapas populares para un seguimiento visual sencillo. El equipo también incorpora funciones habituales en monitoreo vehicular, como posiciones con sello de tiempo, seguimiento de la trayectoria en movimiento, subida de datos históricos y alarma por exceso de velocidad.
 

@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - Traxbean MT2
 
+<div className="device-logo">
 ![Traxbean MT2](./tracker.png)
+</div>
 
 El Traxbean MT2 es un reloj inteligente GPS de grado militar, diseñado para comandantes, equipos de seguridad, trabajadores de campo y otros usuarios exigentes. Combina posicionamiento GPS de alta precisión con asistencia por Wi‑Fi y triangulación celular, además de posicionamiento interior basado en RF, para ofrecer continuidad de ubicación donde el GPS por sí solo puede fallar. Como dispositivo wearable, el MT2 también incorpora un botón SOS de pánico, transmisión de cámara integrada y comunicación de voz bidireccional para apoyar la conciencia situacional y la respuesta a incidentes tanto en exteriores como en interiores.
 

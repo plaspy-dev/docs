@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4410G
 
+<div className="device-logo">
 ![ST4410G](./tracker.jpg)
+</div>
 
 El ST4410G es un rastreador GPS compacto diseñado para el seguimiento a nivel de caja y activo en entornos logísticos y de cadena de suministro. Integra conectividad celular multimodo, un receptor GNSS multiconstelación y un receptor RF integrado para ofrecer reportes de posición, detección de eventos de etiquetas y telemetría basada en movimiento para activos portátiles y envíos embalados.
 

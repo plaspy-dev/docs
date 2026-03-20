@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP3400C
 
+<div className="device-logo">
 ![SP3400C](./logo.jpg)
+</div>
 
 The SkyPatrol SP3400C is a rugged CDMA GPS tracking device designed for vehicle telematics and carrier level certifications. Built to withstand harsh operating conditions, the SP3400C targets vehicle location applications across subprime automotive, fleet operations, and consumer telematics. Key hardware and firmware features mentioned by the manufacturer include an optimized cellular antenna design, integrated GPS and cellular antennas, a high precision GPS engine, a built in 3 axis accelerometer, over the air firmware update capability, and discrete I O circuits for vehicle control functions.
 

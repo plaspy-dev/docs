@@ -21,7 +21,9 @@ keywords:
 
 # Enfora - Mini MT
 
+<div className="device-logo">
 ![Mini MT](./logo.gif)
+</div>
 
 El Enfora Mini MT es un rastreador GPS compacto, con capacidad de voz y cobertura quad band, pensado para fuerzas de trabajo móviles exigentes y usuarios particulares que priorizan la seguridad y la conectividad basadas en la ubicación. Diseñado para ofrecer comunicaciones GSM/GPRS completas, el Mini MT brinda rendimiento GPS confiable, detección de movimiento, alertas por vibración, comunicación bidireccional y mensajería, además de un botón programable de pánico o emergencia en un equipo pequeño y resistente.
 

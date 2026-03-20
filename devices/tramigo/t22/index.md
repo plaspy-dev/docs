@@ -20,7 +20,9 @@ keywords:
 
 # Tramigo - T22
 
+<div className="device-logo">
 ![T22](./logo.jpg)
+</div>
 
 The Tramigo T22 is a compact GPS tracker designed to monitor active assets and vehicles using combined mobile and satellite positioning technology. It supports GSM mobile connectivity alongside satellite based GPS positioning, and is built for use with mobile phones and tracking platforms. Key hardware features described by the manufacturer include internal antennas, internal memory for offline storage, a backup battery for continued tracking when main power is lost, and user inputs such as ignition and panic buttons.
 

@@ -21,7 +21,9 @@ keywords:
 
 # YulongDa - TK103
 
+<div className="device-logo">
 ![TK103](./logo.jpg)
+</div>
 
 El YulongDa TK103 es un rastreador GPS compacto para vehículos pensado para monitoreo de ubicación y funciones básicas de seguridad. Soporta las bandas GSM globales y funciona en un amplio rango de entrada DC 9–24V, lo que lo hace compatible con muchos tipos de vehículos. El equipo incluye un sensor de vibración integrado para alertas antirrobo, detección ACC para notificaciones del estado del motor, un botón SOS externo para emergencias y una batería interna de respaldo que permite continuar reportando si se corta la alimentación principal. Accesorios opcionales como relé externo, micrófono y altavoz amplían sus capacidades de seguridad y monitoreo.
 

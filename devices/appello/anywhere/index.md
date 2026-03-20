@@ -20,7 +20,9 @@ keywords:
 
 # Appello - Anywhere
 
+<div className="device-logo">
 ![Anywhere](./logo.jpg)
+</div>
 
 The Appello Anywhere is a compact and versatile GPS tracker designed for reliable location tracking across a broad set of scenarios. It combines multi band GSM GPRS connectivity with a New Star NS 1315 GPS chip and an ARM 7 CPU to deliver positional data with reported sensitivity and accuracy suitable for mobile and portable tracking. The device package includes a wall charger and a rechargeable battery, and its small size and light weight make it convenient for vehicle, asset, or personal transport use.
 

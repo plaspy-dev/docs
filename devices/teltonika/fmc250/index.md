@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC250
 
+<div className="device-logo">
 ![FMC250](./tracker.png)
+</div>
 
 The FMC250 is a rugged vehicle GPS tracker engineered for demanding telematics deployments. Built for on vehicle use across cars, trucks, buses and special machinery, the FMC250 combines GNSS location tracking with a water resistant IP67 enclosure and cellular connectivity to provide reliable real time visibility and extended data collection for fleet operations.
 

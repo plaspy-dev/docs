@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - GP 4000
 
+<div className="device-logo">
 ![GP 4000](./logo.jpg)
+</div>
 
 The Jointech GP 4000 is a vehicle tracking device designed for fleet management and mobile asset monitoring. It combines GPS positioning with GSM communication and offers support for multiple external sensors, including high precision fuel sensors. The device produces fleet management reports and includes features aimed at continuous tracking and operational oversight.
 

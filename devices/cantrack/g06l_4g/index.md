@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G06L-4G
 
+<div className="device-logo">
 ![G06L-4G](./tracker.jpg)
+</div>
 
 The G06L-4G is a professional grade 4G LTE vehicle GPS tracker designed for cars, trucks and commercial fleets. It pairs a vehicle ready form factor with a high sensitivity GNSS receiver and cellular connectivity that provides precise location updates, timely alarms and continuous telemetry for fleet management systems. The unit is intended for hard wired vehicle use and includes features for event reporting, local buffering and remote maintenance.
 

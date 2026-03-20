@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - GT-99
 
+<div className="device-logo">
 ![GT-99](./logo.jpg)
+</div>
 
 The Megastek GT-99 is a compact GPS tracker designed to deliver accurate and reliable location information. Built around a SiRF Star III GPS chipset and a SIM900 quad band GSM chipset, the GT-99 supports global cellular coverage and offers a range of practical monitoring features including track on demand, configurable time interval tracking, an SOS button, geo fencing, over speed alerts, motion sensing, and on device data logging. The unit is small and lightweight, making it suitable for discreet installation on vehicles and portable assets.
 

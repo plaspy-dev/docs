@@ -21,7 +21,9 @@ keywords:
 
 # GenX Mobile - GNX-5P
 
+<div className="device-logo">
 ![GNX-5P](./logo.jpg)
+</div>
 
 El GenX Mobile GNX-5P es un dispositivo de rastreo para activos móviles altamente versátil y configurable, pensado para una amplia variedad de aplicaciones con requerimiento de localización. Está orientado a la gestión de recursos móviles y al seguimiento de vehículos, e incluye funcionalidades como conectividad inalámbrica HSPA, antenas internas para celular y GPS, y un acelerómetro de 3 ejes que se autocalibra para captar aceleraciones rápidas y otros eventos de movimiento. El equipo prioriza la confiabilidad y la adaptabilidad, lo que lo hace adecuado para organizaciones que requieren visibilidad constante de ubicación en flotas y activos móviles mixtos.
 

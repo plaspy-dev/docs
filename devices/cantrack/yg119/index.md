@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - YG119
 
+<div className="device-logo">
 ![YG119](./tracker.jpg)
+</div>
 
 The YG119 is a compact, rechargeable GPS tracker designed for hunting dogs and active pets. It provides regular position uploads based on movement or a user configured reporting interval, and includes practical recovery aids such as a remote voice listen function and an audible buzzer. Built for demanding outdoor environments, the YG119 combines multi band cellular connectivity, a high capacity battery and a rugged small form factor to support extended field use.
 

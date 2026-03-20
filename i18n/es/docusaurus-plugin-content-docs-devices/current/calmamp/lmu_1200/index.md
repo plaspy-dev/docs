@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-1200
 
+<div className="device-logo">
 ![LMU-1200](./logo.jpg)
+</div>
 
 El CalmAmp LMU-1200 es un dispositivo de rastreo vehicular compacto diseñado para ofrecer ubicación confiable en automóviles. Integra posicionamiento GPS avanzado, una batería interna de respaldo de 1000 mAh que permite operación continua ante cortes de energía, y un acelerómetro de 3 ejes para detección de movimiento e inclinación. La unidad incluye cuatro entradas y salidas y antenas internas para celular y GPS, lo que la hace adecuada para diversas instalaciones móviles en plataformas de 12 y 24 voltios.
 

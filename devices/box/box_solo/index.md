@@ -20,7 +20,9 @@ keywords:
 
 # Box - Box Solo
 
+<div className="device-logo">
 ![Box Solo](./logo.jpg)
+</div>
 
 The Box Solo is a trailer tracking unit engineered to continuously log trailer position and report that data for fleet oversight. It pairs high sensitivity GPS receivers with quad band GSM GPRS communication to provide ongoing location records and remote data transmission. The device is built for durability and compliance, meeting Vehicle Certification Agency approval and EMC FCC UL standards, and is configured for use in US GSM bands including 850 and 1900 MHz.
 

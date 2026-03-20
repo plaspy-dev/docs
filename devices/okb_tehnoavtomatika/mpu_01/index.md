@@ -20,7 +20,9 @@ keywords:
 
 # OKB Tehnoavtomatika - MPU-01
 
+<div className="device-logo">
 ![MPU-01](./logo.jpg)
+</div>
 
 The Tracking System MPU-01 from OKB Tehnoavtomatika is a compact GPS tracker designed to deliver accurate and dependable position reporting for a variety of mobile asset and fleet applications. It is built around a 50-channel high sensitivity GPS receiver and supports SMS communication, offering a balance of precise coordinate acquisition, compact dimensions, and modest power draw suitable for extended operation.
 

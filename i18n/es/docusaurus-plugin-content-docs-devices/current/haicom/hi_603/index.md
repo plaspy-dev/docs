@@ -21,7 +21,9 @@ keywords:
 
 # Haicom - HI-603
 
+<div className="device-logo">
 ![HI-603](./logo.jpg)
+</div>
 
 El Haicom HI-603 es una unidad de rastreo vehicular todo en uno que combina posicionamiento GPS con comunicaciones GSM, soportando SMS, GPRS y operación por DTMF para un seguimiento casi en tiempo real. Diseñado para la gestión de flotas y el monitoreo de activos, la familia HI-603 ofrece distintos modos y opciones de software proporcionadas por el fabricante, de modo que usted puede elegir entre seguimiento DTMF desde PC o seguimiento GPRS basado en web según sus necesidades.
 

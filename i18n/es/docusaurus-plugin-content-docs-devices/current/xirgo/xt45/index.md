@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT45
 
+<div className="device-logo">
 ![XT45](./tracker.webp)
+</div>
 
 El XT45 es un rastreador GPS robusto diseñado para la protección confiable de activos y el monitoreo remoto en entornos donde la alimentación eléctrica es intermitente. Con conectividad celular y GPS integradas, amplia tolerancia a temperaturas extremas y entradas y salidas de supervisión para control y telemetría, el XT45 mantiene el flujo de ubicación y estado en condiciones donde muchos dispositivos fallan. Su diseño prioriza la durabilidad y la consistencia en los reportes para activos expuestos a ambientes severos.
 

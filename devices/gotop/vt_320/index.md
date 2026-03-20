@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-320
 
+<div className="device-logo">
 ![VT-320](./logo.jpg)
+</div>
 
 The GOTOP VT-320 is a compact GPS/GSM/GPRS tracking device designed primarily for motorcycle real-time tracking and vehicle security. Built to provide stable position fixes even in challenging locations, the VT-320 supports multiple tracking modes including time interval, distance interval, and SMS or GPRS reporting. It also includes practical security features such as an SOS panic button, geo-fence alarm, over-speed alarm, a built in motion sensor for power saving, and remote engine cut capability.
 

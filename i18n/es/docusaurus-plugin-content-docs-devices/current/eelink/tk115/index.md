@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK115
 
+<div className="device-logo">
 ![TK115](./tracker.jpg)
+</div>
 
 El EElink TK115 es un rastreador GPS compacto pensado para motocicletas y scooters eléctricos. Ofrece funciones básicas de localización y monitoreo de eventos, como GPS asistido (AGPS) y posicionamiento por LBS, amplia tolerancia de voltaje para los sistemas eléctricos habituales de los vehículos, detección de encendido ACC, un relé opcional para inmovilización remota o corte de alimentación, y una batería interna de respaldo que reporta pérdida de energía o batería baja. El TK115 está orientado a operadores de movilidad y propietarios de flotas que requieren visibilidad continua de la posición y controles de seguridad esenciales en vehículos de dos ruedas.
 

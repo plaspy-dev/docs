@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - SP9600
 
+<div className="device-logo">
 ![SP9600](./logo.jpg)
+</div>
 
 The SkyPatrol SP9600 Series is a portable GPS asset tracker designed for long duration monitoring of mobile and valuable items. It is intended for tracking assets such as shipping containers, critical medical supplies, heavy equipment, military gear, and vehicles during transport or storage. The SP9600 Series emphasizes reliable location reporting over extended periods with a rugged build suitable for demanding operational environments.
 

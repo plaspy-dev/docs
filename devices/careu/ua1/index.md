@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - UA1
 
+<div className="device-logo">
 ![UA1](./tracker.png)
+</div>
 
 The CAREU UA1 is a compact, IP67 rated GPS tracker built for long term monitoring of non powered and hidden assets. It is designed for container, cargo and static asset deployments and provides GNSS positioning with an emphasis on low power consumption and tamper resistant operation. The device supports multi year battery options and includes an onboard 3 axis accelerometer plus Bluetooth configuration for field commissioning.
 

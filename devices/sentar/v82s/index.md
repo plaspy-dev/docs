@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - V82S
 
+<div className="device-logo">
 ![V82S](./logo.jpg)
+</div>
 
 The Sentar V82S is a wrist worn GPS tracker designed specifically for elderly users. Presented as a sleek and comfortable watch, the V82S combines location tracking with user focused features such as an emergency SOS button and two way voice communication. The device is offered in several color options and aims to balance style with practical safety functions for seniors and their caregivers.
 

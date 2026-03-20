@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMM800
 
+<div className="device-logo">
 ![FMM800](./tracker.png)
+</div>
 
 El Teltonika FMM800 es un rastreador GPS OBD II plug and play diseñado para una instalación rápida y un monitoreo vehicular fiable. Pensado para gestión de flotas, car sharing, alquiler de vehículos y operaciones logísticas, el dispositivo transmite ubicación y datos del vehículo a través del puerto OBD II, por lo que su equipo puede comenzar a rastrear y recopilar telemetría sin instalaciones complejas.
 

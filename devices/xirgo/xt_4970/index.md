@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT-4970
 
+<div className="device-logo">
 ![XT-4970](./logo.jpg)
+</div>
 
 The Xirgo XT-4970 is an energy harvesting LTE smart trailer solution designed for long term remote deployments where frequent maintenance is impractical. Built for trailer and container tracking as well as heavy equipment monitoring, it combines energy harvesting with embedded cellular and GPS antennas to provide persistent location awareness without regular battery replacements. The device is ruggedized with an IP67 rating and includes a backup battery to support continuous operation in harsh environments.
 

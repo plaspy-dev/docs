@@ -21,7 +21,9 @@ keywords:
 
 # Astra Telematics - AT240
 
+<div className="device-logo">
 ![AT240](./logo.jpg)
+</div>
 
 El Astra Telematics AT240 es un rastreador GPS automotriz compacto diseñado para aplicaciones en vehículos y gestión de flotas. Integra un receptor GPS SiRFStar IV y un procesador Cortex M3 para ofrecer información de posición confiable, mientras que las antenas internas y un diseño de corte automotriz mantienen el equipo discreto. Con clasificación IP67, el AT240 está preparado para soportar condiciones exigentes y seguir operando en distintos entornos.
 

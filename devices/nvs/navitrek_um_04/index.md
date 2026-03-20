@@ -20,7 +20,9 @@ keywords:
 
 # NVS - Navitrek UM-04
 
+<div className="device-logo">
 ![Navitrek UM-04](./logo.jpg)
+</div>
 
 The Navitrek UM-04 from NVS is a compact vehicle device designed to determine navigational parameters using GLONASS and GPS signals while supporting monitoring of vehicle condition and alarm event notifications. It is intended to provide continuous positional awareness and to exchange information with a dispatch center, making it suitable for vehicle oversight and basic telematics workflows.
 

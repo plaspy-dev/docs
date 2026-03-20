@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-800
 
+<div className="device-logo">
 ![LMU-800](./logo.jpg)
+</div>
 
 El CalmAmp LMU-800 es un dispositivo de rastreo vehicular compacto y económico, pensado para una instalación sencilla en automóviles. Diseñado para sistemas eléctricos móviles de 12 y 24 voltios, está orientado a aplicaciones como recuperación de vehículos robados, financiamiento vehicular y flotas de renta, donde la localización confiable y una fuente de energía de respaldo son fundamentales. El LMU-800 combina un tamaño reducido con buen desempeño GPS y funciones que buscan mantener la continuidad del rastreo incluso cuando se interrumpe la energía del vehículo.
 

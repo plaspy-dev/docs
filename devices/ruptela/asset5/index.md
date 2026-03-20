@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - Asset5
 
+<div className="device-logo">
 ![Asset5](./tracker.png)
+</div>
 
 The Asset5 is a compact, rugged GPS tracker designed for long term, low maintenance monitoring of unpowered or high value assets. Built for harsh environments, it combines multi constellation GNSS positioning with global cellular connectivity and Bluetooth LE for on site setup and sensor support. With IP68 protection and conservative reporting intervals that can yield up to three years of autonomous operation, Asset5 is intended for extended deployments where frequent servicing is impractical.
 

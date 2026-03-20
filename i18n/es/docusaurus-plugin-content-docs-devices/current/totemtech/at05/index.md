@@ -21,7 +21,9 @@ keywords:
 
 # Totemtech - AT05
 
+<div className="device-logo">
 ![AT05](./logo.jpg)
+</div>
 
 El Totemtech AT05 es un rastreador GPS compacto diseñado para el monitoreo versátil de vehículos y activos. Combina el reporte de posición con la detección de estado de movimiento mediante un acelerómetro digital de 3 ejes, admite rastreo en tiempo real y revisión de trazas históricas, y ofrece múltiples tipos de alarma para notificar eventos como exceso de velocidad, batería baja, SOS y corte de alimentación. Además, permite actualizaciones de firmware por aire y acepta un amplio rango de alimentación con protección contra sobretensión, lo que lo hace adecuado para distintos entornos de instalación.
 

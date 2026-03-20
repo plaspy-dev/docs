@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - GT06 v2
 
+<div className="device-logo">
 ![GT06 v2](./logo.jpg)
+</div>
 
 El CanTrack GT06 v2 es un rastreador GPS vehicular compacto que utiliza satélites GPS y la red GSM GPRS para determinar y reportar la ubicación. Diseñado para aplicaciones de seguimiento de vehículos, puede enviar la posición vía SMS a números autorizados y transmitir datos GPS por GPRS para seguimiento en tiempo real en servidor. El equipo incluye alarmas por exceso de velocidad, antirobo ACC, botón SOS y reporte de falla de alimentación, además de funciones opcionales como corte remoto de combustible o del circuito eléctrico y llamadas bidireccionales.
 

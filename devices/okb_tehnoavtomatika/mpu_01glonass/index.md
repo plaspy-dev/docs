@@ -20,7 +20,9 @@ keywords:
 
 # OKB Tehnoavtomatika - MPU-01GLONASS
 
+<div className="device-logo">
 ![MPU-01GLONASS](./logo.jpg)
+</div>
 
 The MPU-01 GLONASS Tracking System from OKB Tehnoavtomatika is a compact and portable tracking device designed for vehicle and asset location monitoring. It features a 24 channel GLONASS GPS receiver NV08C-CSM for precise positioning, a small footprint of 90 × 50 × 16 mm, and a weight under 200 grams. The unit supports GSM 900 and 1800 frequency bands and can receive and hand over SMS messages, making it suitable for deployments where text based communication or basic remote messaging is useful.
 

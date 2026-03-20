@@ -20,7 +20,9 @@ keywords:
 
 # TopTen - MT05
 
+<div className="device-logo">
 ![MT05](./Logo.jpg)
+</div>
 
 The TopTen MT05 is a compact vehicle GPS tracker designed to combine location monitoring with vehicle security functions. It supports location reporting via SMS, web, or mobile app and provides physical address information that can include city and street name. The MT05 also integrates alarm features and status detection for engine on and off, making it suitable for a range of vehicle types from motorcycles to cars and larger trucks.
 

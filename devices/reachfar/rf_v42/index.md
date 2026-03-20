@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V42
 
+<div className="device-logo">
 ![RF-V42](./Logo.jpg)
+</div>
 
 The Reachfar RF-V42 is a compact and versatile GPS tracker designed for location monitoring of people and assets. It provides real time GPS tracking using 3G connectivity and includes features such as SOS call capability, two way calling, a talking clock, historical route playback, and geo fencing. Those combined functions make the RF-V42 suitable for everyday personal safety as well as basic asset and fleet visibility.
 

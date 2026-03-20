@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - MT01-4G
 
+<div className="device-logo">
 ![MT01-4G](./tracker.jpg)
+</div>
 
 El TopShine MT01-4G es un rastreador GPS compacto para vehículos, diseñado para la gestión moderna de flotas, despacho de taxis y flujos de trabajo de prevención de robos. Con conectividad 4G LTE, soporte para sensor ultrasónico de combustible y salida de relé para corte remoto de motor o combustible, el MT01-4G ofrece seguimiento continuo de ubicación y telemetría vehicular apta para una amplia variedad de tipos de vehículos. La identificación del conductor mediante iButton y la comunicación por voz bidireccional facilitan la autenticación del conductor y la comunicación directa con el despacho.
 

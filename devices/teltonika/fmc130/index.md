@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC130
 
+<div className="device-logo">
 ![FMC130](./tracker.png)
+</div>
 
 The Teltonika FMC130 is a Plaspy compatible GPS tracker built for modern fleet management. It combines cellular connectivity with an internal backup battery and a telemetry focused design to keep vehicles and assets visible during normal operation and temporary power interruptions. The device is positioned for fleet operators who need accurate location plus extended telemetry such as fuel monitoring and environmental sensing.
 

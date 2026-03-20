@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - Q50
 
+<div className="device-logo">
 ![Q50](./logo.jpg)
+</div>
 
 El Sentar Q50 es un reloj GPS compacto diseñado para ayudar a los padres a controlar la ubicación y la seguridad de sus hijos. Presentado como un dispositivo de pulsera fácil de usar, el Q50 combina tecnologías de localización con funciones básicas de comunicación para ofrecer actualizaciones de posición en tiempo real, alerta SOS y comunicación bidireccional por voz. Está disponible en varios colores y fue construido para el uso diario, con resistencia al agua y una autonomía que permite intervalos de monitoreo prolongados.
 

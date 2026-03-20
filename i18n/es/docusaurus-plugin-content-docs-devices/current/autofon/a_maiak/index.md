@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - α-Маяк
 
+<div className="device-logo">
 ![α-Маяк](./logo.jpg)
+</div>
 
 El AutoFon α-Маяк es un rastreador GPS independiente y compacto diseñado para determinar la ubicación de un objeto y transmitir coordenadas a través de la red GSM. Construido sobre una plataforma de hardware más moderna, el dispositivo prioriza un tamaño reducido y una larga vida útil con un único juego de baterías. Incorpora un módulo de navegación combinado GLONASS y GPS para fijar la posición de forma fiable, un botón SOS integrado para activación forzada y viene preconfigurado para operar automáticamente, reduciendo la gestión diaria.
 

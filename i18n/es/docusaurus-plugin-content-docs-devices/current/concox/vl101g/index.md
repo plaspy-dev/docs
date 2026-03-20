@@ -21,7 +21,9 @@ keywords:
 
 # Concox - VL101G
 
+<div className="device-logo">
 ![VL101G](./tracker.png)
+</div>
 
 El VL101G es una terminal vehicular de montaje en techo diseñada para la gestión profesional de flotas y la telemática vehicular. Pensada para instalaciones expuestas, combina posicionamiento de alta precisión con conectividad celular robusta y entradas/salidas orientadas al vehículo para ofrecer seguimiento en tiempo real, resistencia a manipulaciones y datos de estado del vehículo, ideal para flotas, empresas de alquiler y programas de seguro basados en uso.
 

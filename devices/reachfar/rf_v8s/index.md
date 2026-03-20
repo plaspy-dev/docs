@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V8S
 
+<div className="device-logo">
 ![RF-V8S](./tracker.jpg)
+</div>
 
 The Reachfar RF-V8S is a compact, screen free GPS tracker designed for discreet real time tracking and emergency communication. It combines a SiRF Star IV GPS chipset with AGPS assistance and quad band cellular connectivity to provide accurate positioning, long standby life and practical anti theft and personal safety features suitable for small assets, vehicles and people.
 

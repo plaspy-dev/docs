@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - W07
 
+<div className="device-logo">
 ![W07](./tracker.jpg)
+</div>
 
 The GOTOP W07 is a mini GPS tracker designed for compact, waterproof tracking needs. At 47 x 35 x 19 mm and weighing 41 g, the W07 is built for discreet placement on people, pets, luggage and small assets. It offers global cellular connectivity and satellite positioning to provide real time location, route playback and essential safety alerts in a small, portable package.
 

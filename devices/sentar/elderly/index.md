@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - Elderly
 
+<div className="device-logo">
 ![Elderly](./tracker.jpg)
+</div>
 
 The Sentar Elderly is a 4G wearable GPS watch designed for seniors and other vulnerable users who need straightforward, reliable location and safety services. The device combines multi mode positioning with a 1.4 inch IPS touchscreen, a dedicated SOS button, a built in camera and an IPX7 water resistance rating to provide practical day to day monitoring in a wrist form factor. Performance is delivered on an Android 4.4 platform with modest memory and storage that keep the user experience simple and focused on safety features.
 

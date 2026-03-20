@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - LT-20
 
+<div className="device-logo">
 ![LT-20](./logo..jpg)
+</div>
 
 The GlobalSat LT-20 (often referenced as LT-20P in manufacturer materials) is a compact solar powered LoRa GPS tracker designed for outdoor asset monitoring. It is built to provide long lasting location transmission for assets such as cattle, livestock, and farming equipment. Key product characteristics include a high performance solar panel for continuous transmission, a high sensitivity GPS GNSS receiver for reliable positioning, a built in 3 axis accelerometer for motion detection, and an IPX7 waterproof rating for use in exposed conditions.
 

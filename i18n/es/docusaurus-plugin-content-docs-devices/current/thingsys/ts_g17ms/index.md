@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-G17Ms
 
+<div className="device-logo">
 ![TS-G17Ms](./tracker.png)
+</div>
 
 El TS-G17Ms de ThingSys es un rastreador GPS compacto y compatible con Plaspy, diseñado para ofrecer seguimiento en tiempo real confiable y gestión práctica de vehículos. Pensado para motocicletas, automóviles y vehículos comerciales ligeros, combina un chipset GPS de alta sensibilidad con modos de reporte flexibles para que administradores de flota y propietarios puedan monitorear ubicaciones, alarmas y telemetría básica desde la plataforma Plaspy.
 

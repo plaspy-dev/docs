@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - PT590
 
+<div className="device-logo">
 ![PT590](./logo.jpg)
+</div>
 
 El ThinkRace PT590 es un rastreador GPS diseñado específicamente para monitorear mascotas como gatos y perros. Presentado como un dispositivo compacto enfocado en la seguridad animal, ofrece actualizaciones de ubicación en tiempo real, capacidades de monitoreo remoto y un sistema de posicionamiento en dos modos que ayuda a los propietarios a localizar a sus animales con mayor precisión durante actividades al aire libre o cuando las mascotas se desplazan fuera de las zonas esperadas.
 

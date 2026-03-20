@@ -20,7 +20,9 @@ keywords:
 
 # V-SUN - V-680
 
+<div className="device-logo">
 ![V-680](./logo.jpg)
+</div>
 
 The V-SUN V-680 is a compact, versatile GPS tracker designed for both personal and professional tracking needs. It combines location positioning with communication features such as two way call, SOS emergency alarm, and auto answer, alongside remote monitoring and flexible mode shifting. The device is built for use across a wide temperature and humidity range, and its published positioning accuracy supports reliable location reporting for vehicles, assets, and individuals.
 

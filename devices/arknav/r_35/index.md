@@ -20,7 +20,9 @@ keywords:
 
 # ArkNav - R-35
 
+<div className="device-logo">
 ![R-35](./logo.jpg)
+</div>
 
 The ArkNav R-35 is a compact and versatile GPS tracker intended for vehicle, personal, and asset tracking. Designed for portability and discreet placement, the R-35 can be carried in a pocket, hidden inside luxury items, or attached to equipment or a person. Its internal GPS and GSM antennas and durable plastic casing make it straightforward to conceal while maintaining reliable location reporting.
 

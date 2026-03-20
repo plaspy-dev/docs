@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - JX03
 
+<div className="device-logo">
 ![JX03](./tracker.jpg)
+</div>
 
 El JX03 es un rastreador GPS OBDII compacto plug and play, diseñado para una instalación sencilla en el vehículo y un funcionamiento continuo. Se alimenta desde el puerto OBDII del vehículo, por lo que no requiere batería independiente y permite un seguimiento en tiempo real ininterrumpido y registro del historial de rutas en automóviles y motocicletas compatibles donde exista cobertura 2G GSM. Su tamaño reducido y el conector OBDII facilitan su ocultamiento y mantenimiento, a la vez que ofrecen alertas esenciales como geocerca, exceso de velocidad, manipulación o extracción y detección de vibraciones.
 

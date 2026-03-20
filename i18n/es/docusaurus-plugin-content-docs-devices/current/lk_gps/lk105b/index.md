@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK105B
 
+<div className="device-logo">
 ![LK105B](./logo..jpg)
+</div>
 
 El LK-GPS LK105B es un rastreador GPS compacto y pequeño pensado para ayudar a los dueños de mascotas a localizar perros y gatos con facilidad. Combina posicionamiento GPS y LBS para ofrecer actualizaciones continuas de ubicación, permite el seguimiento en tiempo real desde un smartphone o la plataforma web, y cuenta con funciones como reproducción del historial de ubicaciones, monitoreo de voz alrededor del dispositivo y un botón de alarma SOS para emergencias.
 

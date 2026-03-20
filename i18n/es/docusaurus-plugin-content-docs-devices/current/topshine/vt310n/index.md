@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - VT310N
 
+<div className="device-logo">
 ![VT310N](./tracker.jpg)
+</div>
 
 El VT310N es un rastreador vehicular robusto de TopShine pensado para ofrecer seguimiento en tiempo real, gestión de flotas y seguridad del vehículo. Integra un receptor GNSS de alta sensibilidad, conectividad celular y un registrador de datos a bordo para mantener visibilidad continua de la ubicación y conservar la telemetría histórica en flotas comerciales, taxis, camiones y despliegues mixtos.
 

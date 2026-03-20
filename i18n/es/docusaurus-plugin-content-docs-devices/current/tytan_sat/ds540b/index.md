@@ -21,7 +21,9 @@ keywords:
 
 # Tytan SAT - DS540B
 
+<div className="device-logo">
 ![DS540B](./tracker.png)
+</div>
 
 El DS540B es la versión B de la serie DS540 de Tytan SAT, diseñado como un rastreador GPS compatible con Plaspy para el seguimiento en tiempo real de vehículos y mercancías. Está pensado para aplicaciones vehiculares exigentes y ofrece telemetría profunda a bordo mediante la lectura completa de buses CAN FMS, J1939 y J1708, junto con integración de sensores analógicos y digitales. Esta combinación proporciona ubicación precisa y datos vehiculares detallados útiles para operaciones de flota y procesos de seguridad.
 

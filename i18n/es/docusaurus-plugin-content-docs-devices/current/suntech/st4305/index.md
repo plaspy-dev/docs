@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4305
 
+<div className="device-logo">
 ![ST4305](./tracker.jpg)
+</div>
 
 El Suntech ST4305 es un rastreador GPS vehicular robusto y cableado de la serie ST4305, diseñado para gestores de flota y servicios de recuperación de vehículos. Proporciona posicionamiento GNSS continuo y telemetría a través de cobertura celular multinetwork, y está disponible en múltiples variantes para cubrir diferentes necesidades de instalación y envío de datos. La familia combina un formato compacto de calidad automotriz con un arnés de conexión de 14 pines y reportes configurables pensados para entornos de flota.
 

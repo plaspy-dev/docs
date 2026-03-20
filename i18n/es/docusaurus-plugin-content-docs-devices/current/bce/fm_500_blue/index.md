@@ -21,7 +21,9 @@ keywords:
 
 # BCE - FM-500 Blue
 
+<div className="device-logo">
 ![FM-500 Blue](./logo.jpg)
+</div>
 
 El BCE FM-500 Blue es un rastreador GPS compacto y versátil pensado para el seguimiento de objetos y vehículos. Obtiene datos de posición, velocidad y rumbo mediante GPS y GLONASS, y transmite la información a través de la red GSM. Dispone de entradas y salidas digitales y analógicas para conectar sensores y equipos externos, y puede leer información FMS CAN mediante el protocolo J1939, lo que lo hace adecuado para diversos escenarios de rastreo.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - MVT-340
 
+<div className="device-logo">
 ![MVT-340](./logo.jpg)
+</div>
 
 El Meitrack MVT-340 es un rastreador GPS vehicular compacto y fiable, diseñado para ofrecer las funciones básicas de seguimiento y seguridad en una amplia variedad de vehículos. Posicionado como un modelo base con capacidades prácticas, el MVT-340 proporciona monitoreo de ubicación en tiempo real, alertas configurables de geocerca, un botón de emergencia S.O.S., modo de suspensión para ahorro de energía, asistencia AGPS y notificaciones por exceso de velocidad. Su conjunto de funciones se centra en la visibilidad del vehículo y la seguridad de los ocupantes sin incluir funciones de registro avanzado.
 

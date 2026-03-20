@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - TK200AM
 
+<div className="device-logo">
 ![TK200AM](./tracker.jpg)
+</div>
 
 El CanTrack TK200AM es un rastreador GPS ultra compacto diseñado para el seguimiento de activos a largo plazo y para despliegues con protección contra manipulación. Combina un receptor satelital de alta sensibilidad con posicionamiento suplementario mediante señales celulares y Wi‑Fi, lo que permite obtener ubicaciones confiables de vehículos, contenedores, motocicletas y otros activos valiosos, al tiempo que reduce el mantenimiento gracias a su amplia autonomía en espera.
 

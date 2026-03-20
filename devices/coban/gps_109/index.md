@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS-109
 
+<div className="device-logo">
 ![GPS-109](./logo..png)
+</div>
 
 The Coban GPS-109 is a compact and portable GPS tracker designed to locate and monitor remote targets using GPS satellites and the GSM GPRS network. It offers accurate positioning with a listed GPS accuracy of approximately 5 meters and high GPS sensitivity. The device is small and lightweight, with practical mobility features and environmental protection including an IP67 rating, making it suitable for a range of outdoor and mobile tracking scenarios.
 

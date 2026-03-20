@@ -21,7 +21,9 @@ keywords:
 
 # Sanav - GX-101
 
+<div className="device-logo">
 ![GX-101](./logo.jpg)
+</div>
 
 El Sanav GX-101 es un rastreador GPS para vehículos diseñado para ofrecer un seguimiento confiable a bordo. Combina un receptor GPS GM-158 con un módulo GSM de Siemens para proporcionar reportes de posición y comunicaciones consistentes. El equipo se aloja en una carcasa metálica resistente e incluye puertos I/O abiertos para una integración sencilla con sensores y relés externos. Además, el GX-101 cuenta con cobertura GSM cuatribanda, memoria interna y batería de respaldo para mantener la continuidad del rastreo durante interrupciones de energía o señal.
 

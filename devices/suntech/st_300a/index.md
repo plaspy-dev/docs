@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 300A
 
+<div className="device-logo">
 ![ST 300A](./logo.jpg)
+</div>
 
 The Suntech ST 300A is an advanced GPS tracker designed for vehicle and asset monitoring with support for multiple sensor inputs and integrated security features. It includes internal antennas, 1‑Wire connectivity that supports temperature sensors and i Button devices, an RS232 interface, and several analog inputs. The unit also supports harness based signals for door detection, panic button, immobilization, and license plate monitoring, and provides alarms for jamming and crane drag detection alongside other anti theft and patron management functions.
 

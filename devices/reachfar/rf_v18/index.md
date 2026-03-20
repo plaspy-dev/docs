@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V18
 
+<div className="device-logo">
 ![RF-V18](./tracker.jpg)
+</div>
 
 The RF-V18 is a compact personal GPS tracker designed for discreet protection and continuous monitoring. Built for wearability, the device combines GPS, A GPS, and LBS positioning with quad band GSM GPRS connectivity to provide location updates, SOS alerts, and two way voice calling. Its small form factor and long standby performance make it suitable for carrying on a lanyard or wearing as a pendant for children, the elderly, or other vulnerable users.
 

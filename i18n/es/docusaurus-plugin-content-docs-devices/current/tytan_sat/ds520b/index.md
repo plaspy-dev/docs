@@ -21,7 +21,9 @@ keywords:
 
 # Tytan SAT - DS520B
 
+<div className="device-logo">
 ![DS520B](./tracker.png)
+</div>
 
 El DS520B es un rastreador GPS compatible con Plaspy, diseñado para el monitoreo fiable de vehículos y cargas. Como la versión B de la serie DS520, ofrece seguimiento en tiempo real vía GSM GPRS y un conjunto de interfaces de telemetría pensadas para uso vehicular. El dispositivo dispone de entradas y salidas analógicas y digitales, soporta sensores de temperatura 1-wire y cuenta con almacenamiento local para conservar eventos cuando la conectividad se interrumpe.
 

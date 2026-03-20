@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Альфа-Маяк
 
+<div className="device-logo">
 ![Альфа-Маяк](./tracker.png)
+</div>
 
 El AutoFon Альфа‑Маяк (Alfa Beacon) es un rastreador GPS/GLONASS del tamaño de una caja de cerillas, pensado para operaciones autónomas de larga duración e instalación discreta. Envía posición y estados básicos a través de la red GSM usando SMS y GPRS, y está diseñado para escenarios donde el tamaño compacto y la larga autonomía de batería son prioridades. El dispositivo destaca por su capacidad de localización robusta, funciones de alerta sencillas como botón SOS y micrófono, y un sistema de almacenamiento en búfer de mensajes que protege eventos críticos cuando la conectividad es intermitente.
 

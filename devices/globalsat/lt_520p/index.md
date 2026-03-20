@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - LT-520P
 
+<div className="device-logo">
 ![LT-520P](./tracker.jpg)
+</div>
 
 The LT-520P is an ultra rugged, battery powered GPS tracker designed for long term livestock monitoring. Built for wide pasture deployments, it combines GNSS positioning with low power LoRaWAN uplinks and integrated Bluetooth Low Energy for local configuration and diagnostics. The device emphasizes extended field life and continuous activity analysis so operators can monitor location and herd behavior with minimal site visits.
 

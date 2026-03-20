@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V23
 
+<div className="device-logo">
 ![RF-V23](./tracker.jpg)
+</div>
 
 The RF-V23 is a rugged, long life GPS tracker designed for outdoor asset protection and continuous remote monitoring. It ships in configurations that include a large capacity battery and optional solar charging, and the enclosure meets IP66 waterproofing for demanding environments. The device supports GNSS positioning and multiple location modes to maintain reliable tracking for vehicles and field equipment while minimizing maintenance visits.
 

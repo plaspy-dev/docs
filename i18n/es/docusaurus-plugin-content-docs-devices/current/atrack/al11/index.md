@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AL11
 
+<div className="device-logo">
 ![AL11](./logo..jpg)
+</div>
 
 El ATrack AL11 es un dispositivo de rastreo GPS compacto y resistente, diseñado para supervisar una amplia variedad de activos móviles. Según la descripción del fabricante, soporta conectividad celular 4G Cat.1 y 3G, dispone de una carcasa con certificación IP67 para protección contra agua y polvo, incluye un acelerómetro de 3 ejes integrado para detección de impactos y utiliza una conexión sencilla de 3 cables para su instalación. Estas características hacen que el AL11 sea adecuado cuando la protección ambiental robusta y la transmisión de datos confiable son prioridades.
 

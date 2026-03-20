@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4290
 
+<div className="device-logo">
 ![ST4290](./tracker.jpg)
+</div>
 
 El Suntech ST4290 es un rastreador GPS robusto y alimentado por batería, diseñado para el monitoreo y la recuperación de activos a largo plazo. Combina posicionamiento GNSS con conectividad celular y una carcasa IP67 para asegurar reportes de ubicación confiables en entornos exigentes. Compacto y eficiente en consumo, el ST4290 está disponible con dos variantes de batería primaria que permiten ajustar la autonomía según las necesidades de despliegue.
 

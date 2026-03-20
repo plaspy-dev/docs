@@ -20,7 +20,9 @@ keywords:
 
 # Concox - TR02
 
+<div className="device-logo">
 ![TR02](./logo.jpg)
+</div>
 
 The Concox TR02 is a compact GPS car tracking device with a built in antenna designed for straightforward vehicle locating and tracking. Positioned as an entry level solution from Concox, the TR02 emphasizes simplicity and affordability while offering practical features such as group management, geo fence notification, multiple account support, and basic status indicators for GPS, GSM, and power.
 

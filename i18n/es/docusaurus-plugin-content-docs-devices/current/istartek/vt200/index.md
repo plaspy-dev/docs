@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT200
 
+<div className="device-logo">
 ![VT200](./tracker.jpg)
+</div>
 
 El VT200 es un rastreador GPS 2G robusto e impermeable de iStartek, diseñado para ofrecer seguimiento en tiempo real y telemetría confiable en aplicaciones exigentes de vehículos y activos. Con una carcasa IP66 y posicionamiento GNSS multi-constelación, el VT200 proporciona datos de localización persistentes, almacenamiento en el dispositivo para cubrir huecos de cobertura y gestión remota de equipos para flotas y activos móviles.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GT06F
 
+<div className="device-logo">
 ![GT06F](./logo.jpg)
+</div>
 
 El Concox GT06F es un rastreador GPS compacto para vehículos, diseñado para ofrecer seguimiento de ubicación fiable tanto de automóviles como de bienes valiosos. Combina un formato pequeño y discreto con funcionalidades esenciales como actualizaciones de ubicación en tiempo real, geocercas, monitoreo remoto, varios tipos de alarma y reproducción del historial de rutas. El dispositivo está pensado para ser fácil de usar y se adapta bien a colocaciones discretas dentro de un vehículo o sobre otros elementos a rastrear.
 

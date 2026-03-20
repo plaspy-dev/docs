@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SIGNAL S-2653
 
+<div className="device-logo">
 ![SIGNAL S-2653](./tracker.jpeg)
+</div>
 
 El SIGNAL S-2653 de Navtelekom es un rastreador vehicular profesional con soporte GLONASS, diseñado para despliegues exigentes de gestión de flotas y telemetría. Orientado a instalaciones en vehículos de uso pesado y comerciales, el S-2653 integra soporte para antena GNSS externa, conectividad celular resistente con redundancia de doble SIM, registro local en medio extraíble y acceso local por Bluetooth para mantener visibilidad continua y un historial registrado en condiciones difíciles.
 

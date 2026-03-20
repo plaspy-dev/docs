@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB003
 
+<div className="device-logo">
 ![FMB003](./tracker.png)
+</div>
 
 The Teltonika FMB003 is an ultra compact OBD II GPS tracker designed for plug and play installation in passenger cars. It is built to read OEM vehicle parameters from the OBD port and deliver discreet, OEM grade telemetry such as accurate odometer and fuel or battery metrics suitable for fleet management and vehicle monitoring.
 

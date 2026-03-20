@@ -21,7 +21,9 @@ keywords:
 
 # GLONASSsoft - UMKa302
 
+<div className="device-logo">
 ![UMKa302](./tracker.png)
+</div>
 
 El UMKa302 es un rastreador GPS de nivel profesional de GLONASSsoft, diseñado para el monitoreo de vehículos, la gestión de flotas y la protección antirrobo. Como modelo insignia de la línea UMKa, pone énfasis en la operación estable y en un mejor desempeño de procesamiento respecto a unidades anteriores. El equipo registra posición y telemetría del vehículo y está pensado para operación continua en entornos vehiculares, con un formato compacto y resistente apto para distintos escenarios de flotas y activos.
 

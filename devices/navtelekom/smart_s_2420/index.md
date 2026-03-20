@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2420
 
+<div className="device-logo">
 ![SMART S-2420](./tracker.jpeg)
+</div>
 
 The SMART S-2420 from Navtelekom is a compact, entry level GLONASS/GPS vehicle tracker designed for straightforward vehicle monitoring where cost, simplicity, and reliable positioning matter. It features integrated sensitive GNSS and GSM antennas, a single SIM 2G modem, and Bluetooth 4.0 for local configuration. The unit is intended for permanent vehicle installations and has no internal battery, offering three universal configurable inputs, two control outputs, and built in power protection suitable for typical vehicle electrical environments.
 

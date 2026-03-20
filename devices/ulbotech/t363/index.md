@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T363
 
+<div className="device-logo">
 ![T363](./logo.jpg)
+</div>
 
 The Ulbotech T363 is a vehicle GPS tracker model offered by Ulbotech. As a device intended for vehicle and asset monitoring, the T363 provides core tracking functionality to support location visibility, operational oversight, and integration with fleet management systems.
 

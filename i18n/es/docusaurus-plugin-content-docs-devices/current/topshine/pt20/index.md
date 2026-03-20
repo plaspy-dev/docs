@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - PT20
 
+<div className="device-logo">
 ![PT20](./tracker.jpg)
+</div>
 
 El TopShine PT20 es un rastreador GPS portátil magnético y compacto con conectividad 4G, diseñado para aportar informes de ubicación fiables en vehículos y activos móviles. Combina posicionamiento híbrido por GPS y LBS, batería recargable y una carcasa magnética pequeña que facilita el montaje rápido y discreto. El PT20 permite configurar intervalos de seguimiento, alertas por exceso de velocidad, consultas de recorrido histórico y reenvío de datos almacenados tras cortes temporales de red celular.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 215C
 
+<div className="device-logo">
 ![ST 215C](./logo.jpg)
+</div>
 
 El Suntech ST 215C es un rastreador GPS para vehículos diseñado para la gestión de flotas y aplicaciones de seguimiento. Permite la conexión directa a los estándares de bus vehicular J1939 y OBDII, ofreciendo acceso a datos del vehículo relevantes para monitoreo y reportes. La unidad incluye una antena GPS interna con la opción de antena externa, antenas GSM internas con soporte quadband, y múltiples entradas para ignición, botón de pánico, sensores de puerta, además de una entrada analógica. El posicionamiento puede configurarse por tiempo, distancia y cambio de ángulo, y el equipo dispone de memoria interna y reportes basados en eventos con modo de suspensión para conservar energía.
 

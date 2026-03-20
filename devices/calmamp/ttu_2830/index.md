@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - TTU-2830
 
+<div className="device-logo">
 ![TTU-2830](./logo.jpg)
+</div>
 
 The CalmAmp TTU-2830 is a weatherproof trailer tracking device built for reliable, long term deployments. It combines a small enclosure with a 5.2 Ah internal rechargeable battery pack and superior GPS sensitivity, making it suitable for assets that are normally connected to 12 or 24 volt systems but may be disconnected for periods of time. The unit includes multiple inputs and outputs for flexible integrations and uses internal antennas to simplify mounting and reduce installation complexity.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TK-206
 
+<div className="device-logo">
 ![TK-206](./tracker.jpg)
+</div>
 
 The TK-206 is a compact GSM/GPRS/GPS car tracker designed for dependable and discreet vehicle tracking and recovery. As one of GOTOP's smaller high performance car trackers, it is intended for hidden mounting in cars and light commercial vehicles while providing continuous location updates, geofence alerts, SOS signaling, and remote immobilization functions that support theft response and safety monitoring.
 

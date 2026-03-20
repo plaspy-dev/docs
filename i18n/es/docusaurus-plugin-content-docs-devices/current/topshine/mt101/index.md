@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - MT101
 
+<div className="device-logo">
 ![MT101](./logo..png)
+</div>
 
 El TopShine MT101 es un rastreador GPS en línea para motocicletas, de diseño compacto y pensado para montaje discreto y supervisión continua de ubicación. Fabricado con alta sensibilidad y resistencia al agua, el MT101 incorpora antena interna y un factor de forma reducido que facilita su ocultamiento. Entre las capacidades clave del equipo el fabricante destaca soporte de doble SIM con conmutación automática o manual, la posibilidad de cambiar a una red extranjera sin cargos por roaming, detección de interferencia de señal GSM, posicionamiento bidireccional incluso con señal GPS limitada y funciones opcionales como relé para corte de motor, micrófono para escucha y botón SOS de pánico.
 

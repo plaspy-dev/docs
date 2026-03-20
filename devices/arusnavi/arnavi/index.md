@@ -20,7 +20,9 @@ keywords:
 
 # Arusnavi - Arnavi
 
+<div className="device-logo">
 ![Arnavi](./logo.jpg)
+</div>
 
 The Arusnavi Arnavi is a versatile navigation controller designed for remote monitoring of mobile objects. It is positioned as a flexible device for tracking and supervising vehicles and the equipment installed on them. The Arnavi supports a broad set of sensor types and integrates with vehicle data channels, making it suitable for capturing status and operational information from a variety of mobile assets.
 

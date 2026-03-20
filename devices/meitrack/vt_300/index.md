@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - VT-300
 
+<div className="device-logo">
 ![VT-300](./logo.jpg)
+</div>
 
 The Meitrack VT-300 is a high performance GPS GSM GPRS tracking device designed for real time vehicle tracking and fleet management. It is described as having strong GPS sensitivity and steady performance to maintain accurate location fixes even in more remote areas. The VT-300 supports multiple tracking modes and several built in alerts and safety features that help manage and secure vehicles.
 

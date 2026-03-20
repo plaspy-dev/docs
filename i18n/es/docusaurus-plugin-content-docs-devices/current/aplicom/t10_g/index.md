@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - T10 G
 
+<div className="device-logo">
 ![T10 G](./logo.png)
+</div>
 
 El Aplicom T10 G es un rastreador GPS resistente diseñado específicamente para telemetría vehicular y gestión de flotas. Fabricado por Aplicom, el T10 G combina una robusta carcasa con clasificación IP67 y una instalación plug and play con acceso directo al bus del vehículo para capturar ubicación y señales a nivel vehicular, permitiendo seguimiento y diagnóstico en tiempo real. Está pensado para entornos demandantes y flotas que requieren informes de ubicación contínuos y telemetría fiable.
 

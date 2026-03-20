@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-407
 
+<div className="device-logo">
 ![BN-407](./tracker.png)
+</div>
 
 El BN-407 es un terminal de gestión para bicicletas 4G, compacto y diseñado para una instalación oculta dentro del cuadro. Pensado para protección antirrobo discreta y uso en flotas, ofrece actualizaciones de ubicación en vivo, telemetría de movimiento, alertas configurables por geocerca y reproducción de recorridos sin alterar la estética de la bicicleta. Su formato cilíndrico de pequeño tamaño y bajo peso lo hace ideal para bicicletas de montaña, flotas compartidas y bicicletas personales donde la resistencia a la manipulación y un montaje poco visible son prioritarios.
 

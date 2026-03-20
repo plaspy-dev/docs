@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - TK103: rastreador GPS compacto
 
+<div className="device-logo">
 ![TK103](./logo.jpg)
+</div>
 
 El CanTrack TK103 es un rastreador GPS compacto que combina posicionamiento por satélite con conectividad GSM GPRS para ofrecer reportes de ubicación, monitoreo remoto y funciones básicas antirrobo. Soporta rastreo en tiempo real, comunicación por SMS y GPRS, monitoreo por audio, alertas de geocerca, avisos por exceso de velocidad y vibración, además de control remoto de encendido y apagado, lo que lo convierte en una opción versátil para el seguimiento de vehículos y activos.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - KT-520M
 
+<div className="device-logo">
 ![KT-520M](./tracker.jpg)
+</div>
 
 El KT-520M es un rastreador GPS resistente pensado para despliegues a largo plazo con bajo requerimiento de mantenimiento. Combina conectividad celular LTE M con respaldo satelital Kineis y posicionamiento GNSS integrado para ofrecer informes continuos de ubicación de vehículos y activos móviles que se mueven entre zonas urbanas y áreas remotas. Diseñado para la durabilidad, el KT-520M prioriza la larga vida de la batería, la resistencia ambiental y la detección de movimiento para satisfacer necesidades de seguimiento persistente.
 

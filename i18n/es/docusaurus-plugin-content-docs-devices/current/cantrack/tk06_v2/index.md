@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - TK06 v2
 
+<div className="device-logo">
 ![TK06 v2](./logo.jpg)
+</div>
 
 El CanTrack TK06 v2 es un rastreador GPS compacto diseñado para el seguimiento de vehículos y el control de activos. Combina posicionamiento por satélite GPS con conectividad GSM GPRS para obtener la ubicación y transmitir esos datos a destinatarios autorizados. El dispositivo admite envío de ubicaciones por SMS y puede enviar datos de rastreo a un servidor en internet para visualización en tiempo real en plataformas de mapas.
 

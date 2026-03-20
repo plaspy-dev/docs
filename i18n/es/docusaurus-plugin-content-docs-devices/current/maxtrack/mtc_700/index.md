@@ -21,7 +21,9 @@ keywords:
 
 # Maxtrack - MTC-700
 
+<div className="device-logo">
 ![MTC-700](./logo.jpg)
+</div>
 
 La familia Maxtrack MTC-700 es una línea de rastreadores GPS profesionales pensada para aplicaciones avanzadas de seguimiento y telemetría. Sus modelos atienden a logística, gestión de riesgos, transporte colectivo y necesidades operativas personalizadas, combinando reportes de posición con modos de telemetría flexibles, lógica embebida y almacenamiento extendido de datos. La plataforma MTC-700 enfatiza la personalización y la resiliencia operativa, ofreciendo funciones como scripting embebido, soporte para múltiples SIM, almacenamiento de historial a largo plazo, detección de interferencias (jamming) y opciones para conectividad inalámbrica con periféricos.
 

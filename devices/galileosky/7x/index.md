@@ -20,7 +20,9 @@ keywords:
 
 # GalileoSky - 7x
 
+<div className="device-logo">
 ![7x](./logo..jpeg)
+</div>
 
 The GalileoSky 7x is a programmable GPS GLONASS terminal designed for flexible tracking and telematics applications. It supports remote activation of relays, LEDs, speakers, buzzers, and other outputs, enabling control over connected devices and peripherals. The unit can receive data from two CAN buses simultaneously and is built to continue recording position and transferring data to a server even while device firmware is being updated.
 

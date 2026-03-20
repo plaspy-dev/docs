@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A1Q
 
+<div className="device-logo">
 ![HB-A1Q](./tracker.jpg)
+</div>
 
 The HB-A1Q is a compact, economical 4G electronic seal designed for container, freight and asset protection. Built to withstand long journeys and harsh environments, the device provides real time location tracking and chain status monitoring so logistics and security teams can see position history and detect tampering events while cargo is in transit.
 

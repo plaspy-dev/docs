@@ -20,7 +20,9 @@ keywords:
 
 # MiniFinder - ATTO
 
+<div className="device-logo">
 ![ATTO](./logo.jpg)
+</div>
 
 The MiniFinder ATTO is a purpose built mini GPS tracker for pets and animals. It combines a lightweight form factor and a compact profile with a set of tracking features tailored to animal monitoring, including real time tracking, on demand tracking via SMS, geo fence alarms, passive tracking, and a bark detector. The ATTO is designed and tested for use on different kinds of animals, offering a small footprint at 65 x 34 x 16 mm and a weight of 38 g, with waterproof protection rated to IP67.
 

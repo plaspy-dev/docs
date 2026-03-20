@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V26+
 
+<div className="device-logo">
 ![RF-V26+](./tracker.jpg)
+</div>
 
 The RF-V26+ is a compact animal GPS tracker purpose built for livestock and large animals such as sheep, horses and cows. It combines a rugged waterproof enclosure with solar assisted charging to provide extended field operation. The device is small and lightweight at 6.5 x 5.5 x 1.7 cm and approximately 73 g and ships with a holder, a magnet USB charging cable and a user manual, making it suitable for collar or holder mounting in grazing environments.
 

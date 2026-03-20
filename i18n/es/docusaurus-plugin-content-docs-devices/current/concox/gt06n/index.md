@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GT06N
 
+<div className="device-logo">
 ![GT06N](./tracker.png)
+</div>
 
 El Concox GT06N es un rastreador GPS vehicular multifuncional diseñado para ofrecer gestión de flotas y monitoreo de vehículos confiables. Pensado para reportes continuos de posición y detección de eventos, el GT06N incluye detección de ignición, alertas de pánico SOS, monitoreo de audio y control de inmovilizador remoto, además de un diseño compacto y batería de respaldo para mantener la continuidad en campo.
 

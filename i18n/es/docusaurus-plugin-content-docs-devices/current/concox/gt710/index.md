@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GT710
 
+<div className="device-logo">
 ![GT710](./logo.jpg)
+</div>
 
 El Concox GT710 es un rastreador GPS compacto para activos, diseñado para aplicaciones de seguimiento de bienes fijos. Destaca por su larga autonomía en modo espera y por su construcción resistente e impermeable, lo que permite un seguimiento fiable de activos que pueden estar almacenados, en tránsito o desplegados en entornos exigentes. Su tamaño reducido y diseño sencillo lo hacen adecuado para la supervisión discreta de una amplia variedad de elementos.
 

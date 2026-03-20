@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V10+
 
+<div className="device-logo">
 ![RF-V10+](./tracker.jpg)
+</div>
 
 The RF-V10+ is a compact, super power saving GPS tracker built for vehicle and motorcycle security. It provides real time tracking combined with long standby performance and a suite of anti theft alarms. The device supports GPRS and SMS reporting and uses dual positioning to keep location updates reliable even when GPS coverage is limited, making it suitable for owners and small fleets that need continuous oversight without frequent recharging.
 

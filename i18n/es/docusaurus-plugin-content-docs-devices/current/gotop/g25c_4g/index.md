@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G25C-4G
 
+<div className="device-logo">
 ![G25C-4G](./tracker.jpg)
+</div>
 
 El G25C-4G de GOTOP es un terminal de seguimiento IoT de grado industrial diseñado para el monitoreo prolongado de vehículos y activos. Combina comunicación LTE con posicionamiento multimodo que incluye GPS y BDS junto con AGPS, WiFi y LBS para mejorar la fiabilidad de la ubicación. Diseñado para uso en campo, incorpora una carcasa IP65 resistente al agua, antena integrada y fijación magnética fuerte, además de ofrecer enlaces de ubicación en Google Map por SMS para comprobaciones rápidas en terreno.
 

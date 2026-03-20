@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT-100
 
+<div className="device-logo">
 ![MT-100](./logo.jpg)
+</div>
 
 El Megastek MT-100 es un rastreador GPS portátil diseñado para ofrecer seguimiento fiable en distintos entornos. Con clasificación de protección IP66, el MT-100 está pensado para uso exterior y labores de campo diarias. Integra posicionamiento asistido por AGPS para acelerar y mejorar la precisión de la localización, además de funciones prácticas como seguimiento en tiempo real, alarma SOS con asistencia por LBS, comunicación bidireccional y registro de datos en tarjeta Micro SD.
 

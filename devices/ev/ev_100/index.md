@@ -20,7 +20,9 @@ keywords:
 
 # EV - EV-100
 
+<div className="device-logo">
 ![EV-100](./logo.jpg)
+</div>
 
 The EV EV-100 is a compact GPS tracker designed for vehicles and motorcycles. Built with weatherproof and dust resistant construction, it offers stable performance for everyday road use. The device supports a wide operating voltage range and uses internal antennas for a lower profile and simpler servicing. It includes motion detection via a 3-axis accelerometer, on device storage for waypoint data, alarm functions, and a backup battery for continued operation if vehicle power is interrupted.
 

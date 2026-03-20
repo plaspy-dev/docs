@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - R18
 
+<div className="device-logo">
 ![R18](./tracker.jpg)
+</div>
 
 El R18 es un rastreador GPS 4G compacto de GOTOP diseñado para un seguimiento versátil de vehículos y activos. Está pensado para motocicletas, autos, embarcaciones y protección general de bienes, con una carcasa industrial resistente y antenas internas que facilitan la instalación y reducen su visibilidad. El equipo soporta un amplio rango de entrada de corriente continua y ofrece modos de rastreo y opciones de alarma que encajan tanto en flotas comerciales como en soluciones de seguridad personal.
 

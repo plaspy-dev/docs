@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СМАРТ S-4537
 
+<div className="device-logo">
 ![СМАРТ S-4537](./tracker.jpeg)
+</div>
 
 The СМАРТ S-4537 is a compact GLONASS/GPS vehicle tracker engineered for professional automotive monitoring. It combines an integrated 4G modem with dual-SIM support, built in GNSS and GSM antennas, and dual CAN interfaces to capture vehicle data without extra gateway hardware. The device also offers a robust set of I/O and peripheral interfaces, making it suitable for a range of vehicle telemetry and monitoring tasks.
 

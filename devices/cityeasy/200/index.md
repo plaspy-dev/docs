@@ -20,7 +20,9 @@ keywords:
 
 # Cityeasy - 200
 
+<div className="device-logo">
 ![200](./logo.jpg)
+</div>
 
 The Cityeasy 200 is a reliable and efficient car GPS tracker designed to provide continuous location monitoring and anti theft alerts for vehicles. It supports LBS and GPS real time position tracking and includes features such as vibration alerts, displacement alerts, geofence notifications, and historical route relay. The device is built to withstand outdoor conditions with an IP67 waterproof rating, making it suitable for everyday vehicle protection and monitoring.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Noran - NR016
 
+<div className="device-logo">
 ![NR016](./tracker.jpg)
+</div>
 
 The NR016 is a car alarm GPS tracker designed for vehicle security and fleet telematics. From an established hardware family, it combines GPS satellite positioning with GSM GPRS communications and 3G support to provide continuous location updates, SOS alerts, remote immobilization and multi input telemetry. The unit targets cars, taxis, buses and commercial fleets that require practical anti theft protection alongside routine tracking functions.
 

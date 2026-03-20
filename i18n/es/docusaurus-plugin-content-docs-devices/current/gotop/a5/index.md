@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - A5
 
+<div className="device-logo">
 ![A5](./logo..jpg)
+</div>
 
 El GOTOP A5 es un rastreador GPS compacto con formato de cargador para automóvil que integra carga y seguimiento de ubicación en un dispositivo plug and play. Diseñado para conectarse al tomacorriente del vehículo, el A5 ofrece seguimiento continuo sin depender de baterías extraíbles. Soporta múltiples métodos de localización, incluidos GPS, LBS, WiFi, AGPS y BDS, y permite seguimiento en tiempo real mediante GPRS, SMS, la plataforma web o la aplicación móvil. Funciones adicionales como reproducción de rutas históricas, monitoreo de voz, alarma por vibración y soporte para tarjeta TF convierten al A5 en una opción versátil para la supervisión cotidiana de vehículos.
 

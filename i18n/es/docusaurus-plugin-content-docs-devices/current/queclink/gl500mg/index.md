@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL500MG
 
+<div className="device-logo">
 ![GL500MG](./tracker.png)
+</div>
 
 El QuecLink GL500MG es un rastreador GPS para activos, robusto y pensado para despliegues de larga duración y monitoreo en áreas extensas. Con una carcasa IP67 y electrónica de bajo consumo, el GL500MG integra posicionamiento GNSS, conectividad celular y sensores integrados de temperatura, luz y movimiento para soportar rastreo seguro de activos, gestión de patios y flujos de trabajo antirobo. El equipo está diseñado para implementaciones donde el bajo mantenimiento y la larga vida en espera son esenciales.
 

@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK110
 
+<div className="device-logo">
 ![LK110](./logo..jpg)
+</div>
 
 The LK110 is a compact 4G e bike and bicycle GPS tracker from LK GPS designed for vehicle security and location monitoring. Built for two wheeled applications, it offers positioning with roughly 10 meter accuracy, a 3000mAh battery providing up to 10 days of standby, and a lightweight 130 gram form factor. The device includes visibility features such as three flashing light modes, multiple alarm types, and configurable upload frequency, and it can be queried from mobile app, PC web page, SMS, or WeChat.
 

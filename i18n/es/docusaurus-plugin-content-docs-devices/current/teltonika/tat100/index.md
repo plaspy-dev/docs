@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - TAT100
 
+<div className="device-logo">
 ![TAT100](./tracker.png)
+</div>
 
 El TAT100 es un rastreador GPS compacto a batería diseñado para la supervisión prolongada de activos. Su resistente carcasa con clasificación IP68 y la conectividad quad-band 2G GSM ofrecen informes de ubicación confiables para activos sin alimentación. Con varias configuraciones de batería y soporte micro USB opcional en determinados SKUs, el TAT100 resulta idóneo para despliegues donde la instalación sin cableado y el bajo mantenimiento son prioritarios.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-831
 
+<div className="device-logo">
 ![CCTR-831](./tracker.JPG)
+</div>
 
 El Carscop CCTR-831 es un rastreador GPS de conexión OBD II tipo plug in, diseñado para un monitoreo vehicular rápido y no invasivo. Se alimenta directamente de la conexión del vehículo y ofrece posicionamiento GPS continuo con subida de datos vía GPRS. El equipo incorpora una antena GPS de alta sensibilidad, antena GSM integrada, detección de movimiento y golpes, batería de respaldo recargable y configuración remota por SMS, lo que lo hace apropiado para despliegues ágiles sin necesidad de cableado permanente.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TK910
 
+<div className="device-logo">
 ![TK910](./tracker.jpg)
+</div>
 
 The TK-Star TK910 is a compact 2G GPS tracker designed for motorcycles, private cars, rental vehicles and other mobile equipment. It combines multi constellation positioning (GPS, Beidou, GLONASS) with LBS and Wi-Fi assistance to provide reliable outdoor fixes and improved location performance in challenging urban or partially indoor environments. The device is positioned for practical vehicle security and routine tracking needs where a small form factor and basic telemetry are priorities.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G616
 
+<div className="device-logo">
 ![G616](./tracker.jpg)
+</div>
 
 El Gosafe G616 es un rastreador GPS robusto y de nivel profesional diseñado para telemática empresarial y gestión de flotas. Ofrece seguimiento en tiempo real fiable, captura de datos de choque a alta frecuencia para reconstrucción de accidentes y telemetría vehicular integral. Con posicionamiento multi-GNSS y conectividad celular, el G616 está orientado a flujos de trabajo exigentes de despacho, recuperación y análisis donde se requiere ubicación precisa y datos de eventos confiables.
 

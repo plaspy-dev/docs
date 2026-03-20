@@ -20,7 +20,9 @@ keywords:
 
 # Winrich - Q50
 
+<div className="device-logo">
 ![Q50](./tracker.jpg)
+</div>
 
 The Winrich Q50 is a compact GPS watch designed for personal safety and continuous location monitoring. It combines GPS position capability with GSM cellular connectivity to provide live location updates, SOS emergency reporting and two way voice for direct contact. The form factor and core features make it suited to people monitoring scenarios where discreet, continuous tracking and fast response matter.
 

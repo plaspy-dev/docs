@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT24
 
+<div className="device-logo">
 ![XT24](./tracker.webp)
+</div>
 
 El XT24 es un rastreador OBD compacto plug-and-play diseñado para vehículos de pasajeros y de servicio ligero. Integra un receptor GNSS con comunicaciones celulares y una interfaz directa OBD para proporcionar ubicación, velocidad y telemetría del bus del vehículo. El dispositivo está pensado para desplegarse rápidamente en flotas donde la instalación por el propio usuario y la monitorización continua del vehículo son prioritarias.
 

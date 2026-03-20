@@ -21,7 +21,9 @@ keywords:
 
 # Telic - NT910-G1
 
+<div className="device-logo">
 ![NT910-G1](./tracker.jpg)
+</div>
 
 El NT910-G1 es un terminal industrial IoT compacto pensado para despliegues de datos reducidos y consumo ultrabajo. Construido alrededor del módulo Telit ME910G1-WW, soporta LTE Cat M1 y NB2 con conmutación automática a 2G. El equipo dispone de interfaces RS232 y USB 2.0 e incluye capacidad de actualización de firmware por aire (FOTA) para simplificar el mantenimiento remoto. Su diseño prioriza un enlace ascendente fiable y una larga vida en campo en lugar de un alto ancho de banda, lo que lo hace adecuado para telemetría y tareas básicas de gestión de flotas.
 

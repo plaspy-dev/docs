@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - SC350MG
 
+<div className="device-logo">
 ![SC350MG](./logo..png)
+</div>
 
 El QuecLink SC350MG es un rastreador GNSS compacto y resistente al agua diseñado específicamente para e-bikes. Combina conectividad celular con un amplio rango de voltaje de entrada para adaptarse a distintas instalaciones eléctricas de bicicletas eléctricas, y su formato reducido facilita una colocación discreta que preserva la estética de la bicicleta. Además, el dispositivo puede leer datos de ECU y BMS, ofreciendo más que información básica de ubicación para una monitorización vehicular inteligente.
 

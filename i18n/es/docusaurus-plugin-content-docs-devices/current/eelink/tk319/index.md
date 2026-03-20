@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK319
 
+<div className="device-logo">
 ![TK319](./logo..jpg)
+</div>
 
 El EElink TK319 es un rastreador GPS 3G compacto diseñado para el monitoreo de vehículos y activos en diversos entornos operativos. Combina localización por GPS y LBS con asistencia A-GPS para ofrecer datos de posición fiables y admite cargas periódicas de datos a través de redes móviles. El dispositivo incluye funciones habituales en operaciones de flota, como detección de encendido (ACC), control remoto de relé, alertas por geocerca, alarmas de velocidad y colisión, y una opción de monitoreo de temperatura para carga sensible.
 

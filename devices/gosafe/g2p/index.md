@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G2P
 
+<div className="device-logo">
 ![G2P](./logo.jpg)
+</div>
 
 The Gosafe G2P is a compact personal tracker designed for simple, everyday location monitoring. It is lightweight and easy to carry or wear, making it suitable for tracking loved ones, elderly individuals, and mobile workers. The device emphasizes ease of use with a straightforward interface and the ability to send simple SMS commands or access tracking information from a web or mobile platform.
 

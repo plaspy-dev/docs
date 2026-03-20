@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T301
 
+<div className="device-logo">
 ![T301](./tracker.jpg)
+</div>
 
 El Ulbotech T301 es un rastreador GPS vehicular económico y de nivel básico, diseñado para ofrecer rastreo en tiempo real confiable y sin complicaciones. Combina un módulo GNSS robusto con un módem celular cuatribanda para proporcionar posiciones precisas, telemetría esencial y controles básicos antirobo, como un inmovilizador interno y corte remoto de motor. El T301 también incorpora detección de encendido ACC, una alerta SOS de pánico y un acelerómetro de 3 ejes para soportar monitoreo de movimiento y comportamiento del conductor.
 

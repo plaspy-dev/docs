@@ -20,7 +20,9 @@ keywords:
 
 # Neomatica - ADM007 BLE CL
 
+<div className="device-logo">
 ![ADM007 BLE CL](./logo..png)
+</div>
 
 The ADM007 BLE CL from Neomatica is a compact car tracker designed for straightforward vehicle monitoring. Its plug-in form factor for the cigarette lighter makes the unit easy to place and remove, while the small body keeps it discreet. The device is optimized for low data consumption, typically using about 8 to 10 MB per month, and supports wireless sensor connections to extend monitoring capabilities without complex wiring.
 

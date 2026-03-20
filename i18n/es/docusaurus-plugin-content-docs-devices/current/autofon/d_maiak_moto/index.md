@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - D-Маяк МОТО
 
+<div className="device-logo">
 ![D-Маяк МОТО](./tracker.jpg)
+</div>
 
 El AutoFon D‑Маяк МОТО es un rastreador GPS compacto pensado para motocicletas y otros vehículos expuestos que requieren monitoreo confiable a largo plazo. Combina posicionamiento GNSS con comunicaciones GSM/GPRS, detección de movimiento e impactos, y una carcasa sellada e impermeable que facilita instalaciones discretas, protección antirrobo y telemetría continua en condiciones de exterior. El equipo también incorpora controles locales como un botón SOS y almacenamiento interno de paquetes para mejorar la fiabilidad de los datos.
 

@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK119: Rastreador GPS 3G
 
+<div className="device-logo">
 ![TK119](./logo..jpg)
+</div>
 
 El EElink TK119 es un rastreador GPS compacto para redes 3G, diseñado para una amplia variedad de necesidades de seguimiento. Presentado como un equipo versátil, el TK119-3G es adecuado tanto para monitoreo de vehículos como de activos en casos de uso como flotas de alquiler, operaciones logísticas, rastreo de motocicletas y gestión de embarcaciones. Su construcción resistente y la certificación IP67 lo hacen idóneo para instalaciones al aire libre y entornos con vibración o exposición a la intemperie.
 

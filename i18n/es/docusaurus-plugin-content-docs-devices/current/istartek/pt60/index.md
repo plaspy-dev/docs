@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - PT60
 
+<div className="device-logo">
 ![PT60](./logo..jpg)
+</div>
 
 El iStartek PT60 es un rastreador GPS inalámbrico 4G compacto diseñado para aplicaciones IoT a gran escala. Se presenta como un dispositivo sin instalación necesario para el seguimiento de vehículos, activos y ubicaciones desatendidas, ofreciendo posicionamiento de alta sensibilidad y conectividad 4G. El PT60 incorpora una batería recargable de 7500 mAh con autonomía en espera prolongada, alarma anti-manipulación por sensor de luz, una cubierta magnética potente para colocación flexible y varios modos de funcionamiento para ajustarse a distintos requerimientos de reporte.
 

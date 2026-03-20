@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-2114
 
+<div className="device-logo">
 ![СИГНАЛ S-2114](./tracker.jpeg)
+</div>
 
 The СИГНАЛ S-2114 is an automotive GSM GPS tracker designed for vehicle monitoring, security, and straightforward telematics. Built with legacy and existing installations in mind, the S-2114 provides reliable GPS positioning, alarm reporting through voice calls and SMS, and integration with digital fuel sensors. Its feature set targets operators who need essential tracking and telemetry without requiring modern sensor ecosystems.
 

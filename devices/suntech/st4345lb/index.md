@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4345LB
 
+<div className="device-logo">
 ![ST4345LB](./tracker.jpg)
+</div>
 
 The ST4345LB is a compact, rugged GPS tracker designed for vehicle telematics and distributed asset monitoring. Built with multi‑mode cellular connectivity and on‑board GNSS positioning, it targets fleet monitoring, recovery workflows and long‑term deployments where durable outdoor performance and reliable location reporting are required. The device combines location, motion awareness and onboard analytics to provide actionable events for operations teams.
 

@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - A10
 
+<div className="device-logo">
 ![A10](./logo.jpg)
+</div>
 
 The AoYa A10 is a compact GPS tracker designed primarily for automotive use. With small physical dimensions, integrated positioning hardware, network connectivity, and a built in battery, the A10 is intended to provide reliable location information for a vehicle while remaining unobtrusive. The device description highlights a UBLOX GPS chip with strong sensitivity and typical positional accuracy in the range of several meters, making it suitable for tracking parked or moving vehicles.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Goome - GMOBD
 
+<div className="device-logo">
 ![GMOBD](./logo.jpg)
+</div>
 
 The Goome GMOBD is an OBD2 based GPS tracker that combines a built in GSM module with BDS GPS positioning. Designed for vehicle monitoring, it offers features such as anti theft, remote listening, alarms, real time tracking, position reporting, geo fencing, and trace playback. The device is compact, includes a backup battery for continued operation when vehicle power is lost, and is described as suitable for a range of vehicle types that accept a 16 pin OBD interface.
 

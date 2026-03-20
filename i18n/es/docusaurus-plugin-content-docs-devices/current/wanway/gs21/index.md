@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - GS21
 
+<div className="device-logo">
 ![GS21](./Logo.jpg)
+</div>
 
 El WanWay GS21 es un dispositivo de posicionamiento OBD II pensado para monitoreo de automóviles, plataformas de transporte por app y escenarios de alquiler de vehículos. Su diseño es compacto y de fácil instalación, con un tamaño reducido que encaja en la mayoría de vehículos de pasajeros. El GS21 incorpora una batería recargable interna que permite seguir enviando datos de posición una vez que se corta la alimentación principal, además de contar con una alarma anti manipulación para detectar intentos de interferencia.
 

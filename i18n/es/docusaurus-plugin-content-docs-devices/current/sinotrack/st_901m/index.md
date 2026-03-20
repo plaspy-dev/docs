@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-901M
 
+<div className="device-logo">
 ![ST-901M](./tracker.jpg)
+</div>
 
 El SinoTrack ST-901M es un rastreador GPS cableado pensado para propietarios de vehículos y gestores de flota que requieren una solución práctica y económica para la localización y el reporte de eventos en tiempo real. Diseñado para instalación fija en automóviles, motocicletas, ATV y vehículos similares, el ST-901M entrega información de posición junto con el estado de ignición y reportes de alarma mediante datos móviles y SMS hacia un servidor de monitoreo.
 

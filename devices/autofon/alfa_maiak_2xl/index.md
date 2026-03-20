@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Альфа-Маяк 2XL
 
+<div className="device-logo">
 ![Альфа-Маяк 2XL](./tracker.jpg)
+</div>
 
 The AutoFon Альфа-Маяк 2XL is a compact long-life GPS and GLONASS tracker intended for discreet, extended asset monitoring. It is designed for autonomous operation with a high-capacity 3500 mAh battery block and an IP67 plastic enclosure, making it suitable for long-term deployments on vehicles, trailers, small craft and other portable or stationary assets. The device is preconfigured for immediate use and includes features such as SOS alerts, remote audio monitoring in full-access mode, and an internal buffer to preserve telemetry when connectivity is intermittent.
 

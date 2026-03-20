@@ -20,7 +20,9 @@ keywords:
 
 # Concox - PL200
 
+<div className="device-logo">
 ![PL200](./tracker.png)
+</div>
 
 The PL200 is a compact personal GPS tracker from Concox designed for field personnel and lone workers. It combines a rugged IP65 enclosure with long battery endurance, multi constellation positioning and two way voice plus SOS functionality. Lightweight and portable, the PL200 is intended for continuous tracking and rapid incident response in outdoor and mixed environment workflows.
 

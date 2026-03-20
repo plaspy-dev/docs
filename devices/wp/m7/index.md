@@ -20,7 +20,9 @@ keywords:
 
 # WP - M7
 
+<div className="device-logo">
 ![M7](./logo..png)
+</div>
 
 The WP M7 is a portable GPS tracking device designed for reliable and convenient vehicle tracking. Its compact form factor and magnetic mounting option make it easy to mount or conceal on a vehicle, while integrated GPS and GSM GPRS modules provide continuous position reporting. The M7 also includes features such as detached alert, motion reporting, low battery notification, and an IP67 enclosure that supports outdoor use.
 

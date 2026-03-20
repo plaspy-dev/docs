@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL320MG
 
+<div className="device-logo">
 ![GL320MG](./logo..png)
+</div>
 
 El QuecLink GL320MG es un rastreador de activos en tiempo real con LTE Advanced diseñado para monitoreos de larga duración de personas, vehículos y bienes portátiles. Ofrece conectividad global LTE Cat M1 y NB2 con retroceso a 2G y forma parte de la consolidada serie GL300. El dispositivo incluye una batería interna que proporciona una larga autonomía en espera con intervalos de reporte intermitentes y admite accesorios opcionales como un kit de batería externa de alta capacidad y una caja magnética IP67 resistente al agua.
 

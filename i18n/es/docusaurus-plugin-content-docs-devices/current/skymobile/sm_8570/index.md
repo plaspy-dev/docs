@@ -21,7 +21,9 @@ keywords:
 
 # SkyMobile - SM-8570
 
+<div className="device-logo">
 ![SM-8570](./logo.jpg)
+</div>
 
 El SM-8570 de SkyMobile es un localizador GPS portátil pensado para una amplia variedad de aplicaciones de seguimiento. Se presenta como un rastreador versátil para motocicletas, contenedores, mercancías, personas y otros activos de valor. El equipo destaca por su alta sensibilidad de recepción GPS para lograr un tiempo rápido de primera fijación y una posición confiable; además incluye un chipset UBLOX, antena GSM/GPS integrada, sensor de movimiento 3D, botón táctil y una carcasa resistente al agua. El SM-8570 puede enviar información de ubicación a un servidor en tiempo real o vía SMS y opera en GSM cuatribanda para una amplia cobertura de comunicación.
 

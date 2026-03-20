@@ -21,7 +21,9 @@ keywords:
 
 # Oigo Telematics - AR-2CX
 
+<div className="device-logo">
 ![AR-2CX](./logo.jpg)
+</div>
 
 El Oigo Telematics AR-2CX es un rastreador GPS compacto de la Serie AR diseñado para aplicaciones de gestión de flotas y recuperación de vehículos robados. Está pensado para instalaciones discretas en vehículos y soporta una variedad de informes de eventos y alertas, por lo que resulta adecuado para organizaciones que necesitan monitoreo de ubicación confiable y notificaciones de incidentes en su flota.
 

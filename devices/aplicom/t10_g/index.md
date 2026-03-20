@@ -20,7 +20,9 @@ keywords:
 
 # Aplicom - T10 G
 
+<div className="device-logo">
 ![T10 G](./logo.png)
+</div>
 
 The Aplicom T10 G is a rugged GPS tracker purpose built for vehicle telemetry and fleet management. Manufactured by Aplicom, the T10 G combines a robust IP67 enclosure and plug and play installation with direct vehicle bus access to capture location and vehicle level signals for real time tracking and diagnostics. It is designed for demanding environments and roaming fleets that require continuous location reporting and telemetry.
 

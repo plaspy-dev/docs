@@ -21,7 +21,9 @@ keywords:
 
 # EV - EV-07B
 
+<div className="device-logo">
 ![EV-07B](./tracker.png)
+</div>
 
 El EV-07B de Eview es un rastreador GPS compacto y vestible, un colgante mPERS con un solo botón diseñado para ofrecer protección personal de forma sencilla. Como un dispositivo SOS pequeño, combina el reporte continuo de ubicación con telemetría básica y comunicación de voz bidireccional, proporcionando al usuario una manera simple y confiable de solicitar ayuda. Su tamaño y conjunto de funciones lo hacen adecuado para el uso diario por adultos mayores, trabajadores en solitario, pacientes y usuarios móviles que requieren un botón de emergencia discreto y visibilidad de su ubicación.
 

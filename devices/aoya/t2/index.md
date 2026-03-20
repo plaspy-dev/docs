@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - T2
 
+<div className="device-logo">
 ![T2](./logo.jpg)
+</div>
 
 The AoYa T2 is a compact vehicle GPS tracker designed for real time tracking and basic monitoring of cars and light vehicles. It combines a small form factor, roughly 72 x 32 x 15 mm, and a lightweight body of about 56 g, making it easy to place discreetly in a vehicle. The unit uses GSM GPRS connectivity alongside dedicated positioning hardware to deliver location information with reported sensitivity and typical accuracy suitable for routine vehicle tracking needs. An internal emergency battery provides limited backup power so the device can continue to report position if the main vehicle power is interrupted.
 

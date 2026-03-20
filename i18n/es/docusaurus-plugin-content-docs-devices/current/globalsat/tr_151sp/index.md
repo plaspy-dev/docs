@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - TR-151SP
 
+<div className="device-logo">
 ![TR-151SP](./logo.jpg)
+</div>
 
 El GlobalSat TR-151SP es un rastreador GPS/GSM/GPRS diseñado para operación prolongada y reportes de posición confiables. Gracias a una batería de alta capacidad de 15A y una autonomía en modo espera de hasta un mes, el dispositivo está pensado para escenarios donde el funcionamiento sin supervisión y el bajo mantenimiento son prioritarios. El equipo envía información de ubicación por SMS y canales de datos, e incluye un botón de reinicio sencillo y un montaje fácil para fijarlo a equipos, activos o carga.
 

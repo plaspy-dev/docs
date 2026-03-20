@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT60X
 
+<div className="device-logo">
 ![MT60X](./tracker.jpg)
+</div>
 
 La pulsera rastreadora MT60X está diseñada como un rastreador GPS portátil para programas de correcciones comunitarias, monitoreo de liberados y supervisión de internos. Integra un módulo GNSS de alta sensibilidad u‑blox con conectividad celular quad band y posicionamiento híbrido GPS más LBS para mantener cobertura continua de ubicación. El dispositivo está pensado para ser evidente ante manipulaciones y duradero, con sellado IP67 y alarmas anti extracción, ideal para uso en campo donde la resistencia y la cadena de custodia son prioritarias.
 

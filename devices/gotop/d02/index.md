@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D02
 
+<div className="device-logo">
 ![D02](./logo..jpg)
+</div>
 
 The GOTOP D02 is a waterproof pet tracker built to help owners keep track of their animals in wet or active environments. With an IP68 swimming level rating, the device is designed to continue functioning through rain and accidental submersion. The D02 combines multiple positioning methods including GPS, WiFi, LBS, and BeiDou, and offers 4G LTE and GSM connectivity along with GPRS tracking and SMS location links for flexible location reporting.
 

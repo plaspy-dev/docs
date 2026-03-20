@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - MT02-4G
 
+<div className="device-logo">
 ![MT02-4G](./tracker.jpg)
+</div>
 
 El MT02-4G es un rastreador GPS 4G compacto pensado para la gestión de flotas, protección antirrobo y telemetría vehicular general. Ofrece reporte continuo de ubicación, registro de datos a bordo y soporte para funciones mediante accesorios como monitoreo de combustible y inmovilización remota. Está diseñado para su uso en automóviles, camiones y motocicletas donde se requiere seguimiento fiable y captura de eventos.
 

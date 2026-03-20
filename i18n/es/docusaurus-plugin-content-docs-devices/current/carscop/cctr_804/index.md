@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-804
 
+<div className="device-logo">
 ![CCTR-804](./tracker.JPG)
+</div>
 
 El CCTR-804 es un rastreador vehicular GPS compacto de Carscop, diseñado para ofrecer seguimiento de ubicación confiable y supervisión operativa. Pensado para la gestión de flotas, autos de alquiler, taxis, autobuses y vehículos de logística, el equipo integra GPS y conectividad celular, asistencia A-GPS para fijar posiciones, comportamiento de carga configurable y una batería de respaldo recargable que mantiene el rastreo cuando se pierde la alimentación externa. La unidad está diseñada para ofrecer las funciones esenciales de telemetría y control remoto que necesitan las flotas, sin complejidad innecesaria.
 

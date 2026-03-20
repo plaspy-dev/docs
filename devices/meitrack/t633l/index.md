@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - T633L
 
+<div className="device-logo">
 ![T633L](./tracker.png)
+</div>
 
 The Meitrack T633L is a professional in-vehicle GPS tracker designed for high precision fleet tracking and vehicle telematics. It combines dual frequency GNSS reception with optional dead reckoning to improve positioning in challenging environments such as urban canyons, tunnels, and parking structures. The device is built for robust deployments with multi-generation cellular connectivity, CAN bus telemetry access, Bluetooth sensor support and a range of peripheral interfaces for vehicle data and security applications.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G1C
 
+<div className="device-logo">
 ![G1C](./logo..jpg)
+</div>
 
 El Gosafe G1C es un rastreador GPS compacto y económico, diseñado para una variedad de aplicaciones automotrices. Combina una recepción de posicionamiento sensible con conectividad celular para ofrecer un seguimiento confiable en casos de uso como seguros basados en uso (UBI), recuperación de vehículos robados, programas buy here pay here (BHPH), alquiler de autos, motocicletas y vehículos de deportes motorizados. Su diseño de reducido tamaño y carcasa resistente al agua lo hacen adecuado para colocaciones discretas en distintos tipos de vehículos.
 

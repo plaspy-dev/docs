@@ -20,7 +20,9 @@ keywords:
 
 # Gator - M508
 
+<div className="device-logo">
 ![M508](./logo.jpg)
+</div>
 
 The Gator M508 is a compact GPS tracker designed for fleet management and vehicle security. It combines accurate positioning with flexible communication options, making it suitable for construction trucks, rental fleets, logistics vehicles, and public transport applications. The device supports tracking by SMS or data connection and can report location regularly or on demand, delivering the core functionality required for operational oversight.
 

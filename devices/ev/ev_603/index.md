@@ -20,7 +20,9 @@ keywords:
 
 # EV - EV-603
 
+<div className="device-logo">
 ![EV-603](./logo.jpg)
+</div>
 
 The EV-603 is a vehicle and motorcycle GPS tracker designed for reliable location monitoring and basic fleet security features. Built to withstand harsh conditions with an IP66 rating, the unit integrates internal positioning and communication antennas along with a U-Blox GPS module to provide consistent location data. It also includes a 3D G-sensor for motion detection, on board memory for data logging, and a backup battery to maintain operation if external power is lost.
 

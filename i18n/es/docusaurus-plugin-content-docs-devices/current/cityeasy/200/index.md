@@ -21,7 +21,9 @@ keywords:
 
 # Cityeasy - 200
 
+<div className="device-logo">
 ![200](./logo.jpg)
+</div>
 
 El Cityeasy 200 es un rastreador GPS para automóviles confiable y eficiente, diseñado para ofrecer monitoreo continuo de ubicación y alertas anticlonación para vehículos. Soporta posicionamiento en tiempo real por GPS y LBS, e incluye funciones como alertas por vibración, notificaciones de desplazamiento, eventos de geocerca y registro histórico de rutas. El dispositivo cuenta con certificación IP67 contra agua y polvo, lo que lo hace adecuado para la protección y supervisión diaria del vehículo.
 

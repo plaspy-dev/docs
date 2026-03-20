@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TK-209B
 
+<div className="device-logo">
 ![TK-209B](./logo.jpg)
+</div>
 
 The GOTOP TK-209B is a compact GPS tracker designed for long term tracking of vehicles and assets. Its standout features include an extended standby time reported up to 400 days, a high capacity 20000mAh battery, an IP67 waterproof rating, and a strong built in magnet for easy attachment without wired connections. The device supports location updates via SMS or GPRS and offers a set of alarm functions such as dropped off alarm, low battery alarm, vibration alarm, and movement alarm, making it suitable for a range of outdoor and mobile applications.
 

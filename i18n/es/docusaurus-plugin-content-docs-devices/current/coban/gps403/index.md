@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS403
 
+<div className="device-logo">
 ![GPS403](./Logo.jpg)
+</div>
 
 El Coban GPS403 es un rastreador GPS compacto y versátil, diseñado para localizar y monitorear activos utilizando tanto satélites GPS como la red celular GSM GPRS disponible. Soporta múltiples bandas celulares, incluyendo las comunes bandas GSM y WCDMA 3G, y ofrece diversos modos de rastreo como localización única, seguimiento continuo automático y actualizaciones automáticas de posición cuando el vehículo gira. Funciones integradas como el reporte de dirección basado en LBS y un conjunto amplio de alarmas hacen que sea adecuado para la supervisión de vehículos y activos en general.
 

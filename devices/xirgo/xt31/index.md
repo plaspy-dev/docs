@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT31
 
+<div className="device-logo">
 ![XT31](./tracker.webp)
+</div>
 
 The XT31 is an industrial IoT gateway and cargo monitoring solution designed for trailer and container telematics. As a full featured gateway with integrated cargo sensing and remote capacity assessment, the XT31 produces event driven real time and historical status information to help fleets and logistics operators make faster, data driven decisions about assets and cargo condition.
 

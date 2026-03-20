@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT-2400
 
+<div className="device-logo">
 ![XT-2400](./logo.jpg)
+</div>
 
 The Xirgo XT-2400 is a plug and play OBD II device designed for passenger and light duty vehicles. It provides vehicle location tracking combined with access to vehicle parameters such as VIN and ignition status, and it can surface diagnostic fault codes for maintenance workflows. Integrated antennas and a high precision GPS engine are part of the device package, and an accelerometer enables movement and acceleration detection.
 

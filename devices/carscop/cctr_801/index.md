@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CCTR-801
 
+<div className="device-logo">
 ![CCTR-801](./logo.jpg)
+</div>
 
 The Carscop CCTR-801 is a compact, easy to conceal GPS tracker designed for real time tracking of cars, buses, taxis, and rental vehicles. Its small form factor and simple 2 to 4 wire installation method make it suitable for discreet placement or attachment to a vehicle body. Key built in features include real time location uploads at frequent intervals, an external SOS button for emergency alerts, a shock sensor for movement alarms, and local track recording when cellular service is unavailable.
 

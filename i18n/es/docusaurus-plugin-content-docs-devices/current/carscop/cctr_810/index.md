@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-810
 
+<div className="device-logo">
 ![CCTR-810](./logo.jpg)
+</div>
 
 El Carscop CCTR-810 es un rastreador GPS para vehículos diseñado para el seguimiento por internet en tiempo real con registro integrado para funcionamiento sin cobertura celular. Combina un módulo de comunicaciones GSM y un receptor GPS basado en MTK para ofrecer informes de ubicación, soporte para rastreo bajo demanda e intervalos programados, y almacenamiento de posiciones cuando la señal celular no está disponible. El dispositivo sube automáticamente las rutas almacenadas cuando se restablece la conexión y puede enviar actualizaciones de ubicación cuando el vehículo permanece detenido más de dos minutos o cuando el encendido (ACC) se apaga.
 

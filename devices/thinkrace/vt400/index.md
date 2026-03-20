@@ -20,7 +20,9 @@ keywords:
 
 # ThinkRace - VT400
 
+<div className="device-logo">
 ![VT400](./logo.jpg)
+</div>
 
 The ThinkRace VT400 is a compact OBD WiFi GPS tracker designed for cars. Intended to be used with a vehicle OBD II port, the VT400 provides continuous location tracking, history playback, geofence alerts, and trip reporting. Its 4G connectivity and built in WiFi support enable frequent position updates and route review capabilities suitable for individual vehicle monitoring or fleet operations.
 

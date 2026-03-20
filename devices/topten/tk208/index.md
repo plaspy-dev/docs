@@ -20,7 +20,9 @@ keywords:
 
 # TopTen - TK208
 
+<div className="device-logo">
 ![TK208](./Logo.jpg)
+</div>
 
 The TopTen TK208 is an OBD2 3G GPS tracker designed for vehicle tracking and security. It combines position reporting with optional RFID driver identification and a suite of alarm features, aimed at improving vehicle monitoring and driver accountability. The device description highlights onboard event logging, alarm detection for movement and engine status, and several optional identification methods that make it suitable for mixed fleet environments.
 

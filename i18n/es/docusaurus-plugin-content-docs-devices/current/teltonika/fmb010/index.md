@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB010
 
+<div className="device-logo">
 ![FMB010](./tracker.png)
+</div>
 
 El Teltonika FMB010 es un rastreador GPS compacto, diseñado para conectarse rápidamente al puerto OBD-II y ofrecer un seguimiento vehicular básico y confiable. Integra funciones telemáticas esenciales como reporte continuo de ubicación, batería interna de respaldo para mantener la transmisión ante cortes de energía, soporte Bluetooth Low Energy para balizas y sensores externos, y un acelerómetro integrado con detección de choques configurable. Es una opción práctica para equipos que requieren despliegue ágil y telemetría básica estable.
 

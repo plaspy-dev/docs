@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMU126
 
+<div className="device-logo">
 ![FMU126](./Logo.png)
+</div>
 
 The Teltonika FMU126 is a compact vehicle tracker built to deliver real time positioning and extended telematics functionality. It combines GNSS positioning and Bluetooth capabilities with cellular connectivity that supports 3G coverage and fallback to 2G. The device includes internal GNSS and cellular antennas, support for external peripherals via an RS232 interface, and features designed to address transport authority requirements such as those from the Department of Land Transport.
 

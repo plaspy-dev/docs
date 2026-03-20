@@ -21,7 +21,9 @@ keywords:
 
 # Winrich - GT02A
 
+<div className="device-logo">
 ![GT02A](./tracker.jpg)
+</div>
 
 El Winrich GT02A es un rastreador GPS compacto e inteligente, diseñado para ofrecer posicionamiento fiable de vehículos y supervisión remota de flotas. Combina un receptor GPS de alta sensibilidad con comunicaciones GSM y antenas integradas para proporcionar informes de ubicación continuos. Su factor de forma de bajo perfil y las opciones de alimentación sencillas lo hacen adecuado para automóviles, motocicletas, vehículos comerciales ligeros, vehículos eléctricos y embarcaciones pequeñas donde la instalación discreta y la operación sin complicaciones son importantes.
 

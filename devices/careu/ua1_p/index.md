@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - UA1-P
 
+<div className="device-logo">
 ![UA1-P](./tracker.png)
+</div>
 
 The CAREU UA1-P is a compact, rugged GPS tracker designed for parcel and valuable asset tracking. Built with an IP67 rated enclosure, the UA1-P is intended to withstand outdoor conditions while providing real time location updates and environmental telemetry. Its combination of multi constellation GNSS positioning, global cellular connectivity, onboard sensors, Bluetooth 4.0 local setup, and a rechargeable power option make it suitable for logistics, supply chain, and condition sensitive shipments.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D33-2G
 
+<div className="device-logo">
 ![D33-2G](./tracker.png)
+</div>
 
 El Sentar D33-2G es un rastreador GPS compacto orientado a niños, presentado como un reloj inteligente portátil. Combina posicionamiento por satélite con localización asistida por torres celulares (GPS + LBS), llamadas bidireccionales, un botón de emergencia SOS, cámara frontal y una construcción resistente al agua con pantalla TFT de protección ocular. El dispositivo está pensado para uso diario por parte de niños y ofrece a los responsables información de ubicación y estado a través de una aplicación complementaria.
 

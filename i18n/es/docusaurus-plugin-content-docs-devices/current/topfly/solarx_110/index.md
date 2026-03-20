@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - SolarX 110
 
+<div className="device-logo">
 ![SolarX 110](./tracker.png)
+</div>
 
 El SolarX 110 es un rastreador GPS robusto alimentado por energía solar, pensado para el monitoreo de activos exteriores a largo plazo. Diseñado para contenedores, remolques, camiones y otros bienes de alto valor, combina una carcasa resistente con certificación IP67, captación solar y una batería interna recargable para maximizar el tiempo de operación en entornos remotos y expuestos.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS109
 
+<div className="device-logo">
 ![GPS109](./Logo.png)
+</div>
 
 The Coban GPS109 is a compact and versatile GPS tracker designed to locate and monitor remote targets using the GSM GPRS mobile network and GPS satellites. With small dimensions and a lightweight build, the GPS109 provides accurate position reporting and a set of practical tracking features including single locate and continuous auto tracking, geo fence, movement and over speed alerts, low battery warnings, and an IP67 waterproof rating for use in varied environments.
 

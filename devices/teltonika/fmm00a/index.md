@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM00A
 
+<div className="device-logo">
 ![FMM00A](./tracker.png)
+</div>
 
 The Teltonika FMM00A is a plug-and-play OBD-II GPS tracker engineered for North American fleets, rental and sharing services, and mixed vehicle deployments. It combines GNSS positioning, cellular connectivity and Bluetooth to provide continuous location and vehicle telemetry without complex wiring. The device is designed for quick installation by plugging into a vehicle OBD-II port, enabling immediate streaming of location, odometer and fuel related parameters where supported.
 

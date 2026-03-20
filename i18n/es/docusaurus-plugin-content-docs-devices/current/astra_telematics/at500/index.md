@@ -21,7 +21,9 @@ keywords:
 
 # Astra Telematics - AT500
 
+<div className="device-logo">
 ![AT500](./tracker.png)
+</div>
 
 El AT500 Mini Asset Tracker de Astra Telematics es un rastreador GPS recargable y compacto diseñado para el seguimiento discreto y de larga duración de activos pequeños y de difícil acceso. Integra posicionamiento GNSS multiconstelación, conectividad celular multinetwork con opciones modernas de baja potencia de área amplia y carga inalámbrica Qi en una carcasa compacta con clasificación IP68. La gestión de energía con detección de movimiento y componentes internos como una eSIM y antenas internas hacen que la unidad sea adecuada para despliegues densos y para mantenimiento de baja intervención.
 

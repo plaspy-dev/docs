@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - A5G
 
+<div className="device-logo">
 ![A5G](./tracker.jpg)
+</div>
 
 The GOTOP A5G is a professional vehicle GPS tracker designed for fleet management, public transport, taxi operations, rental car oversight and private vehicle anti theft. The device combines multi generation cellular connectivity with GNSS positioning and optional camera capability to deliver continuous location and event data for vehicles and mobile assets. Its I O and alarm features make it suitable for applications that require evidence capture, driver identification and a range of operational sensors.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4945
 
+<div className="device-logo">
 ![ST4945](./logo..png)
+</div>
 
 El Suntech ST4945 es un localizador GPS portátil y compacto diseñado para tareas básicas de rastreo y monitoreo en aplicaciones de personas, mensajería, paquetería y activos fijos. Integra posicionamiento GNSS con un acelerómetro de 3 ejes para detección de movimiento, un botón de pánico para reportes de emergencia, alertas de nivel de batería y capacidad configurable de geocercas. Ofrece flexibilidad de comunicación mediante TCP, UDP y SMS, y soporta tecnologías celulares actuales para una conectividad amplia.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G01
 
+<div className="device-logo">
 ![G01](./tracker.jpg)
+</div>
 
 El GOTOP G01 es un rastreador GPS compacto para automóviles, diseñado para ofrecer un seguimiento fiable de vehículos, gestión de flotas y protección antirrobo. Combina posicionamiento GNSS y entradas y salidas vehiculares probadas para entregar datos de ubicación y eventos adecuados para flotas comerciales, vehículos de alquiler, taxis y autos particulares. El equipo opera en un amplio rango de voltaje vehicular e incluye funciones que ayudan a detectar manipulaciones y permiten intervenciones remotas.
 

@@ -21,7 +21,9 @@ keywords:
 
 # HunterPro - CP60-FUEL
 
+<div className="device-logo">
 ![CP60-FUEL](./logo.jpg)
+</div>
 
 El HunterPro CP60-FUEL es un rastreador GPS diseñado específicamente para medir el nivel de combustible en los tanques de unidades de transporte. Emplea una sonda coaxial en la que un tubo metálico exterior y un electrodo central conforman una sonda capacitiva cuya capacidad varía según la altura del combustible. El equipo convierte esa variación de capacidad en pulsos digitales, lo que permite una correlación fiable entre la capacidad medida y el volumen de combustible una vez completada la calibración del tanque.
 

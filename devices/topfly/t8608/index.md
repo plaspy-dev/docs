@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - T8608
 
+<div className="device-logo">
 ![T8608](./logo..png)
+</div>
 
 The TopFly T8608 is a compact, plug and play OBDII tracker built for straightforward vehicle tracking without unnecessary complexity. It is designed to be easy to use and maintain, offering real time location updates, a large local location buffer for offline periods, and basic event alerts such as ignition on and off and power disconnection. The device also supports BLE sensors for optional monitoring of temperature, humidity, door status, or relay state when additional sensing is required.
 

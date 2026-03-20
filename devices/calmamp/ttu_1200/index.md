@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - TTU-1200
 
+<div className="device-logo">
 ![TTU-1200](./logo.jpg)
+</div>
 
 The CalmAmp TTU-1200 is a rechargeable battery pack trailer tracking device engineered for reliable long term deployments. Designed to manage assets that may remain idle for extended periods, the TTU-1200 combines a compact form factor with superior GPS performance and an internal battery to support continuous tracking without a constant external power feed. Its on board inputs and outputs and built in antennas make it a practical choice for tracking trailers and other mobile assets commonly paired with 12 or 24 volt vehicle systems.
 

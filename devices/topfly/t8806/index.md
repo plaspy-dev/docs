@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - T8806
 
+<div className="device-logo">
 ![T8806](./logo.jpg)
+</div>
 
 The TopFly T8806 is a versatile GPS tracker designed to provide continuous location monitoring and a suite of security and monitoring features for vehicles. Based on the model description, it offers real-time tracking, historical waypoint records for route review, and several alarm functions including overspeed, geo-fence, tow, and theft detection. The device also supports two-way audio, SOS calls, and detections for fuel, temperature, car door motion, and air conditioning state, making it a broadly capable unit for vehicle oversight.
 

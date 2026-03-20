@@ -21,7 +21,9 @@ keywords:
 
 # Falcom - FOX-EN
 
+<div className="device-logo">
 ![FOX-EN](./logo.jpg)
+</div>
 
 El Falcom FOX-EN es un rastreador GPS versátil diseñado para supervisión de vehículos y flotas con alto grado de configuración. Se describe como un equipo configurable que puede adaptarse a diversas necesidades, desde AVL y gestión de flotas hasta seguridad y recuperación de vehículos. El FOX-EN soporta operación autónoma, interacción con sensores y actuadores, registro histórico y múltiples opciones de mensajería para actualizaciones de estado y alertas.
 

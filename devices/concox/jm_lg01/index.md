@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-LG01
 
+<div className="device-logo">
 ![JM-LG01](./tracker.png)
+</div>
 
 The JM-LG01 is a portable GNSS GPS tracker from Concox designed for long term monitoring of unpowered assets. Built for low maintenance fleet management and asset protection, the device emphasizes long battery life, high sensitivity positioning, tamper-aware telemetry, and a rugged, water resistant enclosure with a strong magnetic mount for near zero installation effort.
 

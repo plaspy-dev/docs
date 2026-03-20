@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2412
 
+<div className="device-logo">
 ![SMART S-2412](./tracker.webp)
+</div>
 
 El SMART S-2412 es un rastreador vehicular compacto de Navtelekom diseñado para instalación fija en vehículos comerciales y de flota. Integra posicionamiento GLONASS y GPS con antenas GSM incorporadas para ofrecer actualizaciones de ubicación y telemetría continuas a través de redes celulares. El dispositivo admite sensores de nivel de combustible tanto cableados como inalámbricos, así como sensores de temperatura inalámbricos, lo que lo hace apropiado para aplicaciones que requieren supervisión de la carga y control del combustible sin necesidad de antenas externas.
 

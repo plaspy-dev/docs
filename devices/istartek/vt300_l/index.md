@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT300-L
 
+<div className="device-logo">
 ![VT300-L](./tracker.jpg)
+</div>
 
 The VT300-L is a compact 4G LTE GPS tracker designed for real time tracking, telemetry and anti theft protection. It is marketed for use across trucks, trailers, motorcycles and private cars and is intended to support both fleet management and individual vehicle security needs. The device description highlights multi constellation GNSS positioning, resilient communications with dual server uploading, local history storage and a rugged IP66 rated enclosure to keep tracking running in varied field conditions.
 

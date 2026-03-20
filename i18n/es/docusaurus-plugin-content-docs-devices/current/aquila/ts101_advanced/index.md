@@ -21,7 +21,9 @@ keywords:
 
 # Aquila - TS101 Advanced
 
+<div className="device-logo">
 ![TS101 Advanced](./logo.jpg)
+</div>
 
 El Aquila TS101 Advanced es un rastreador GPS compacto y resistente pensado para necesidades de seguimiento tanto básicas como avanzadas. Combina informes de ubicación en tiempo real con almacenamiento interno en estado sólido capaz de conservar hasta 16,000 registros de rastreo, lo que lo hace apropiado para monitoreo continuo y reproducción histórica. La unidad cuenta con una carcasa ABS robusta con clasificación IP67 para soportar ambientes exigentes, además de opciones prácticas de entradas y salidas como inmovilizador de vehículo, interfaz para bocina (hooter) e interfaz para sensor de combustible. Un acelerómetro integrado de 3 ejes aporta detección de movimiento y sensibilidad a impactos, mientras que la batería de respaldo de 700 mAh mantiene el funcionamiento durante cortes de energía.
 

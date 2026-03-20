@@ -20,7 +20,9 @@ keywords:
 
 # Concox - AT4
 
+<div className="device-logo">
 ![AT4](./tracker.png)
+</div>
 
 The Concox AT4 is a portable, magnet mounted GPS tracker built for long standby deployments and rugged field use. It combines GPS and network based positioning with a high capacity battery and an IPX5 rated enclosure to provide reliable location intelligence, tamper alerts, and discreet audio monitoring. Its compact form factor and strong magnetic base make it suitable for temporary or semi permanent attachment to vehicles, trailers, and other mobile assets.
 

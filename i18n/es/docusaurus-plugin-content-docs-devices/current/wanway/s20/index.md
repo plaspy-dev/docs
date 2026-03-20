@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - S20
 
+<div className="device-logo">
 ![S20](./tracker.webp)
+</div>
 
 El S20 Asset GPS Tracker es un rastreador autónomo a batería diseñado para desplegarse con flexibilidad en vehículos, remolques, contenedores y activos portátiles. Pensado para transporte y logística, ofrece seguimiento en tiempo real y monitoreo prolongado sin necesidad de cableado permanente, por lo que resulta especialmente práctico cuando los activos se mueven entre ubicaciones o se requieren instalaciones temporales.
 

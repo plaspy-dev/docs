@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - X05
 
+<div className="device-logo">
 ![X05](./tracker.jpg)
+</div>
 
 El X05 es un rastreador GPS recargable y compacto diseñado para colocarse en collares y arneses de mascotas. Emplea posicionamiento híbrido que combina GPS y BeiDou con respaldo por Wi‑Fi y LBS, y transmite la ubicación y la telemetría del dispositivo a través de redes celulares nacionales hacia una plataforma en la nube. Su tamaño reducido y carcasa liviana hacen que el X05 sea adecuado para el uso cotidiano en mascotas, ofreciendo monitoreo continuo de la ubicación y reproducción histórica de recorridos.
 

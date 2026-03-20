@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - PT28
 
+<div className="device-logo">
 ![PT28](./tracker.jpg)
+</div>
 
 The iStartek PT28 is a compact 4G GPS watch designed for personal safety and dependable real time tracking. It combines multi mode positioning with AGPS support to provide frequent location updates and route history, plus two way voice communication and an SOS one key emergency function. The PT28 is built as a wearable solution for individual monitoring, with a waterproof enclosure and a lightweight touchscreen form factor suitable for everyday use.
 

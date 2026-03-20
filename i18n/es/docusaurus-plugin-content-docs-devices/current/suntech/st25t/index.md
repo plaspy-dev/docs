@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST25T
 
+<div className="device-logo">
 ![ST25T](./tracker.jpg)
+</div>
 
 El ST25T es un módulo interfaz telemático compacto diseñado para ampliar soluciones de seguimiento y telemetría compatibles con Plaspy. Reenvía datos del bus del vehículo y de sensores hacia dispositivos gateway como el ST4305 y el ST8300, permitiendo integrar equipos seriales heredados, sensores de combustible y redes vehiculares estándar como J1939 y J1708 en un flujo de trabajo unificado para flotas. Su formato pequeño, amplio rango de operación térmica y bajo consumo lo hacen adecuado para camiones pesados, autobuses y otros vehículos comerciales que operan en entornos exigentes.
 

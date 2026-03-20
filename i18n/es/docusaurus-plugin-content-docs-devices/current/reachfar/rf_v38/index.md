@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V38
 
+<div className="device-logo">
 ![RF-V38](./tracker.jpg)
+</div>
 
 El RF‑V38 es un smartwatch GPS 2G compacto diseñado para un monitoreo personal fiable y respuesta ante emergencias. Combina posicionamiento por GPS, Wi‑Fi y LBS con un botón SOS de un toque y comunicación bidireccional para ofrecer seguimiento en tiempo real y una vía inmediata de comunicación con el cuidador. Su factor de forma y conjunto de funciones lo hacen adecuado para niños, personas mayores y pacientes que requieren supervisión continua y acceso rápido a asistencia.
 

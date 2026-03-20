@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - PT30
 
+<div className="device-logo">
 ![PT30](./logo.jpg)
+</div>
 
 The TopShine PT30 is a compact, power saving personal GPS tracker designed for simple and portable location monitoring. It provides location updates via SMS or GPRS and offers practical safety features such as a two way conversation capability, an SOS panic button, geo fence alarm, and a speeding alert. The device includes built in memory for position logging and can generate a Google Maps link via SMS for quick viewing on a mobile device.
 

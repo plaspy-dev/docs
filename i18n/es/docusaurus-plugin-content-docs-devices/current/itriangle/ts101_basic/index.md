@@ -21,7 +21,9 @@ keywords:
 
 # iTriangle - TS101 BASIC
 
+<div className="device-logo">
 ![TS101 BASIC](./tracker.png)
+</div>
 
 El TS101 BASIC es un rastreador GPS compacto y resistente pensado para el monitoreo esencial de flotas y la seguridad vehicular. Ofrece posicionamiento GNSS multinave (multi constelación) para mejorar la disponibilidad de la ubicación y dispone de entradas/salidas prácticas para capturar el estado de encendido y otras señales de eventos. Diseñado para continuidad operativa, incorpora almacenamiento interno para miles de registros y un amplio rango de entrada de tensión que facilita su instalación en diferentes vehículos.
 

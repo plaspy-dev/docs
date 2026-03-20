@@ -20,7 +20,9 @@ keywords:
 
 # BCE - FM-500 Light
 
+<div className="device-logo">
 ![FM-500 Light](./logo.jpg)
+</div>
 
 The BCE FM-500 Light is a compact object tracker designed to provide reliable location and movement information for a wide range of assets. It uses GPS and GLONASS positioning together with GSM data transfer to report location, speed, direction, and event information. The device includes digital and analog inputs, a 1-Wire interface for external sensors, and outputs for remote control of connected equipment, offering flexible configuration to suit different tracking needs.
 

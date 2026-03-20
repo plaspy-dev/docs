@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FM 4200
 
+<div className="device-logo">
 ![FM 4200](./logo.jpg)
+</div>
 
 The Teltonika FM 4200 is a versatile GPS tracker designed to acquire remote object location and transmit it over a cellular connection. It combines a high sensitivity GPS receiver with GSM GPRS and SMS capabilities, and offers multiple inputs and outputs for monitoring and control. Built‑in interfaces such as 1-Wire, CAN, and RS232 expand its applicability for temperature sensors, iButton readers, vehicle data acquisition, and peripheral communication.
 

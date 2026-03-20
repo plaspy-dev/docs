@@ -20,7 +20,9 @@ keywords:
 
 # DCT - Syrus 3G+
 
+<div className="device-logo">
 ![Syrus 3G+](./tracker.png)
+</div>
 
 The Syrus 3G+ is a durable, API ready GPS tracker and telematics hub designed for reliable deployment across fleet and IoT projects. Built to accept multiple sensors and accessories, it provides expanded I O capacity and intelligent counters to deliver telemetry useful for real time tracking, route monitoring, engine diagnostics, and event driven automation. The device is enclosed to IP65 standards and optimized for long term battery backed use with an ultra low power sleep mode.
 

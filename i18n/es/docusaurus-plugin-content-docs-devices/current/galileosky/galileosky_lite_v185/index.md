@@ -21,7 +21,9 @@ keywords:
 
 # GalileoSky - GALILEOSKY Lite v1.8.5
 
+<div className="device-logo">
 ![GALILEOSKY Lite v1.8.5](./logo.jpg)
+</div>
 
 El GALILEOSKY Lite v1.8.5 es un rastreador GPS para vehículos diseñado para registrar y transmitir coordenadas geográficas precisas, puntos con marca de tiempo e información básica de sensores en unidades en movimiento. Almacena datos detallados de recorrido, incluyendo rutas y eventos, soporta el almacenamiento local de puntos cuando la comunicación se interrumpe y reenvía la información recogida a un servidor central para su procesamiento. El dispositivo contribuye a reducir los costos operativos al apoyar iniciativas de ahorro de combustible, disminuir el kilometraje de transporte y mejorar la disciplina del conductor, además de ofrecer una función de alarma de emergencia para los conductores.
 

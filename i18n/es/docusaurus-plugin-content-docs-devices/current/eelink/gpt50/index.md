@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT50
 
+<div className="device-logo">
 ![GPT50](./tracker.jpg)
+</div>
 
 El GPT50 es un rastreador GPS robusto diseñado para despliegues de larga duración y operación fiable en campo. Combina posicionamiento multi GNSS con fallback por Wi‑Fi y LBS y conectividad celular global para ofrecer datos de ubicación y telemetría constantes. La unidad está pensada para la resistencia: cuenta con baterías duales de alta capacidad, una carcasa con certificación IP67 y un amplio rango de temperatura de funcionamiento, ideal para remolques, contenedores, maquinaria pesada y otros activos que operan en entornos exigentes.
 

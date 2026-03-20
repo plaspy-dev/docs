@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - A8
 
+<div className="device-logo">
 ![A8](./logo.jpg)
+</div>
 
 El AoYa A8 es un rastreador GPS personal compacto diseñado para la supervisión de ubicación en tiempo real y funciones básicas de seguridad. Con dimensiones reducidas y un cuerpo ligero, el A8 está pensado para llevarse encima, usarse como accesorio o fijarse a pertenencias cuando se requiere seguimiento discreto y continuo. El dispositivo incorpora un botón SOS para señales de emergencia, monitoreo de voz y audio bidireccional mediante un micrófono integrado, y soporta bandas GSM para una amplia cobertura celular.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G02-4G
 
+<div className="device-logo">
 ![G02-4G](./tracker.jpg)
+</div>
 
 The GOTOP G02-4G is a compact, rugged GPS tracker from a purpose built hardware line designed for motorcycles, e-bikes and cars. It supports real time tracking over 4G LTE with fallback to 3G and 2G plus SMS reporting, and is housed in an IP67 rated enclosure for outdoor use. The device is engineered for vehicle environments with a wide input voltage range and positioning performance suitable for routine fleet and asset tracking.
 

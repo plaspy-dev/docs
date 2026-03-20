@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-905L
 
+<div className="device-logo">
 ![ST-905L](./tracker.jpg)
+</div>
 
 El SinoTrack ST-905L es un rastreador GPS robusto e impermeable diseñado para ofrecer seguimiento confiable de vehículos y activos. Combina conectividad celular LTE Cat‑1 y 2G con un receptor GNSS de alta sensibilidad UBLOX UBX‑G7020 y una amplia batería recargable de 3.7V Li‑ion para proporcionar tiempos de espera prolongados y actualizaciones de posición consistentes en automóviles, motocicletas y otros bienes de alto valor. La unidad se entrega lista para activación celular (SIM no incluida) y está pensada para un montaje magnético rápido sobre superficies metálicas.
 

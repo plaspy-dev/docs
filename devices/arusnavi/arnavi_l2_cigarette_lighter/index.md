@@ -20,7 +20,9 @@ keywords:
 
 # Arusnavi - Arnavi L2 (cigarette lighter)
 
+<div className="device-logo">
 ![Arnavi L2 (cigarette lighter)](./tracker.png)
+</div>
 
 The Arnavi L2 (cigarette lighter) is a compact plug in GPS tracker and navigation controller designed for quick non invasive installation and portable telematics. Intended for vehicles that require fast transfer between units without hardwiring this model draws power from the cigarette lighter socket and provides continuous position reporting and basic telemetry suitable for taxis rental cars and service vehicles.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - GTR-388C1
 
+<div className="device-logo">
 ![GTR-388C1](./tracker.jpg)
+</div>
 
 The GlobalSat GTR-388C1 is a compact member of a rugged device family designed for eBikes, motorcycles and small vehicles. It combines high sensitivity GNSS with integrated antennas, 4G LTE connectivity with automatic fallback to 3G and 2G, an IPX7 waterproof enclosure, and a rechargeable backup battery to maintain operation during power loss. The unit is engineered for exposed outdoor installations where concealed mounting, sealing, and reliable position updates matter.
 

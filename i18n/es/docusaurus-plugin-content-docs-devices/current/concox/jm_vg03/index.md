@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JM-VG03
 
+<div className="device-logo">
 ![JM-VG03](./logo..png)
+</div>
 
 El Concox JM-VG03 es un rastreador GPS compacto diseñado para una amplia variedad de vehículos. Admite un rango de voltaje operativo amplio, por lo que es adecuado para autos, camiones, motocicletas y otros tipos de unidades. El equipo prioriza un posicionamiento confiable gracias a su antena interna de gran tamaño y su formato facilita una instalación discreta. La protección física contra polvo y agua es IP65, lo que le permite operar en entornos exigentes.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-3030
 
+<div className="device-logo">
 ![LMU-3030](./logo.jpg)
+</div>
 
 The CalmAmp LMU-3030 is a compact automotive GPS tracker designed for a variety of vehicle applications. It pairs precise GPS performance with a small form factor and direct access to the vehicle diagnostics interface OBD II, making it suitable for insurance telematics, driver behavior monitoring, rental vehicle tracking, and general fleet oversight. The device also includes a 3 axis accelerometer to capture motion events and supports enhanced messaging to maintain a reliable link with back end applications.
 

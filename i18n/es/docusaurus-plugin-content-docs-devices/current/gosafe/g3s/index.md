@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G3S
 
+<div className="device-logo">
 ![G3S](./logo.jpg)
+</div>
 
 El Gosafe G3S es un rastreador GPS económico diseñado para proveedores de servicios, integradores y clientes empresariales. Pensado para mejorar los recursos móviles y optimizar los sistemas de despacho, el G3S ofrece monitoreo y ubicación en tiempo real con información precisa de posición. Su diseño compacto y resistente lo hace apto para una amplia variedad de aplicaciones vehiculares que requieren visibilidad continua de la ubicación.
 

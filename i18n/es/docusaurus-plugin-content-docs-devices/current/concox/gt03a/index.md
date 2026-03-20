@@ -21,7 +21,9 @@ keywords:
 
 # Concox - GT03A
 
+<div className="device-logo">
 ![GT03A](./logo.jpg)
+</div>
 
 El Concox GT03A es un rastreador GPS compacto para vehículos diseñado para ofrecer monitoreo de ubicación preciso y fiable en autos y vehículos comerciales ligeros. Combina posicionamiento GPS con asistencia por LBS y conectividad GSM quad band para mantener la comunicación en distintas regiones. El dispositivo incluye funciones prácticas como alarma SOS, geo-cercas, monitoreo por voz, detección de movimiento para alarmas, indicadores LED de estado y una batería de polímero de gran capacidad para períodos prolongados en espera. Sus imanes incorporados permiten una fijación rápida a superficies metálicas para despliegues flexibles.
 

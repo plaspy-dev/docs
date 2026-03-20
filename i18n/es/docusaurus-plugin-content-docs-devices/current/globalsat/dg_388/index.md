@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - DG-388
 
+<div className="device-logo">
 ![DG-388](./tracker.jpg)
+</div>
 
 El GlobalSat DG-388 es un registrador de datos GPS compacto y resistente, diseñado para seguimiento personal y uso en exteriores. Registra puntos de ubicación precisos junto con fecha, hora, velocidad y altitud mediante un chipset GNSS de alto rendimiento. Con una carcasa impermeable IPX7, gestión de energía inteligente, batería recargable y gran memoria interna, el DG-388 está pensado para capturar trayectos prolongados y un historial de rutas detallado sin necesidad de conexión continua.
 

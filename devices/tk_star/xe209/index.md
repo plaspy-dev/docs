@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - XE209
 
+<div className="device-logo">
 ![XE209](./logo.jpg)
+</div>
 
 The TK-Star XE209 is a compact portable GPS tracker designed for real-time tracking and monitoring across a variety of mobile and stationary assets. It is intended for use with private cars, vehicle rentals, equipment, containers, cargo, and other items that benefit from continuous location visibility. The XE209 emphasizes portability and straightforward placement so it can be deployed where fixed installations are impractical.
 

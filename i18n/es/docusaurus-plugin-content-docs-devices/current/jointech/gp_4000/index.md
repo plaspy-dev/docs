@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - GP 4000
 
+<div className="device-logo">
 ![GP 4000](./logo.jpg)
+</div>
 
 El Jointech GP 4000 es un dispositivo de localización para vehículos pensado para la gestión de flotas y el monitoreo de activos móviles. Combina posicionamiento GPS con comunicación GSM y ofrece soporte para múltiples sensores externos, incluidos sensores de combustible de alta precisión. El equipo genera reportes útiles para la administración de flotas e incorpora funciones orientadas al seguimiento continuo y la supervisión operativa.
 

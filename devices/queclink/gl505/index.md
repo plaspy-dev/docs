@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL505
 
+<div className="device-logo">
 ![GL505](./tracker.png)
+</div>
 
 The GL505 is a compact QuecLink GPS tracker designed for long duration, low maintenance monitoring of livestock and remote outdoor assets. Built for pastoral and remote environments, the GL505 combines high precision GNSS location with configurable geo fences and motion based inactivity alerts in a weatherproof, tamper friendly enclosure sized to fit inside animal collars.
 

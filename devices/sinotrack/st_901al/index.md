@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-901AL
 
+<div className="device-logo">
 ![ST-901AL](./tracker.jpg)
+</div>
 
 The SinoTrack ST-901AL is a wired 4G LTE GPS tracker designed for reliable vehicle monitoring and security. Suited to professional installations, the ST-901AL reports position over GPRS and SMS, provides an ACC input for ignition on/off telemetry, and supports remote cut-off using an external relay. These features make it a practical option for organizations that need continuous tracking and anti-theft controls in cars, trucks, motorcycles, and similar vehicles.
 

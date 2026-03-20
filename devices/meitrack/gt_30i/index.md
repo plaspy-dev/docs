@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - GT-30i
 
+<div className="device-logo">
 ![GT-30i](./logo.jpg)
+</div>
 
 The Meitrack GT-30i is a compact, user friendly personal GPS tracking device designed to deliver reliable position data to a specified mobile phone or server. It combines satellite positioning with cellular communication to report location at preset intervals or on demand, and includes features aimed at personal safety and continuity of data such as an SOS panic button and internal memory for storing locations when a connection is unavailable.
 

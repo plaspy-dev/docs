@@ -21,7 +21,9 @@ keywords:
 
 # Ulbotech - T356
 
+<div className="device-logo">
 ![T356](./tracker.jpg)
+</div>
 
 El T356 es un rastreador GPS compacto de Ulbotech diseñado para ofrecer telemetría económica y control antirrobo seguro. Concebido como una unidad plug-in OBD II con Wi Fi integrado y amplio almacenamiento local, el T356 guarda los registros de viaje en el dispositivo y puede descargar los datos automáticamente cuando detecta redes Wi Fi configuradas. Su conjunto de funciones se centra en posicionamiento fiable, telemetría del bus del vehículo y control remoto de inmovilizador para seguridad y supervisión operativa.
 

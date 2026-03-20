@@ -20,7 +20,9 @@ keywords:
 
 # Bofan - B5
 
+<div className="device-logo">
 ![B5](./tracker.png)
+</div>
 
 The Bofan B5 is a compact vehicle mounted GPS tracker designed for continuous 24 7 fleet monitoring and security. It provides persistent GNSS positioning, configurable geo fence alerts, remote engine control and engine runtime analytics, together with an internal accelerometer and internal high gain antennas for reliable reception in typical vehicle deployments. The device also includes onboard flash for temporary trip logging and data saving modes to help manage cellular usage.
 

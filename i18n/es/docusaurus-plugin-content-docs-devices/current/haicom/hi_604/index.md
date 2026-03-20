@@ -21,7 +21,9 @@ keywords:
 
 # Haicom - HI-604
 
+<div className="device-logo">
 ![HI-604](./logo.jpg)
+</div>
 
 El Haicom HI-604 es un dispositivo de rastreo GPS compacto y multifunción que ofrece monitoreo de ubicación en tiempo real mediante una combinación de tecnologías GPS, GSM, GPRS, SMS y DTMF. Diseñado para un despliegue flexible, el HI-604 incorpora una batería interna de gran capacidad, una carcasa resistente al agua y un sensor de movimiento con modo de suspensión profunda para extender la autonomía cuando el equipo está en reposo. La unidad también cuenta con un sistema de montaje magnético robusto y está pensada para supervisar activos desde cualquier equipo mediante un sitio web de rastreo por GPRS o el software de seguimiento de Haicom.
 

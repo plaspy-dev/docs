@@ -21,7 +21,9 @@ keywords:
 
 # Homtecs - H21
 
+<div className="device-logo">
 ![H21](./logo.jpg)
+</div>
 
 El Homtecs H21 es un router industrial 3G diseñado para comunicaciones fiables en sitios remotos y soluciones de Internet de las Cosas. Pensado para escenarios M2M y de telemetría, el H21 ofrece conectividad móvil de banda ancha HSPA+ con compatibilidad hacia atrás con tecnologías móviles más antiguas. El equipo incorpora funciones habituales en instalaciones remotas, como soporte de doble SIM, puertos LAN/WAN, GPIO y acceso por consola, antenas magnéticas para celular y Wi‑Fi, y montaje en riel DIN para integrarlo en gabinetes eléctricos.
 

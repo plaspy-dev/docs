@@ -20,7 +20,9 @@ keywords:
 
 # Gelix - Gelix 2
 
+<div className="device-logo">
 ![Gelix 2](./logo.jpg)
+</div>
 
 The Gelix 2 is a versatile GPS tracker designed for vehicle and asset monitoring. It provides active tracking with data logging, event and alarm messaging, and support for a range of connectivity options. The device also includes listening and voice communication features along with remote output control and system configuration capabilities, making it suitable for varied monitoring needs.
 

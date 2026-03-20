@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - T8808
 
+<div className="device-logo">
 ![T8808](./logo.jpg)
+</div>
 
 El TopFly T8808 es un rastreador GPS compacto diseñado para ofrecer monitoreo y localización confiables en tiempo real para vehículos y activos móviles. El dispositivo prioriza el bajo consumo energético y la reducción del uso de datos GPRS para operar durante periodos prolongados sin sobrecargar el sistema eléctrico del vehículo. Con antenas GSM y GPS internas y un método sencillo de inserción de la tarjeta SIM, el T8808 busca facilitar la instalación y ofrecer posicionamiento fiable tanto para uso personal como comercial.
 

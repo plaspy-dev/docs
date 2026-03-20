@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A1Lm
 
+<div className="device-logo">
 ![HB-A1Lm](./tracker.jpg)
+</div>
 
 The HB-A1Lm is a heavy duty 4G GPS tracker integrated with an electronic lock designed for containers, trailers, flatbeds and box trucks. It combines location tracking with dedicated anti theft features such as tamper and chain cut alarms, plus multiple unlock options including RFID and Bluetooth. Built for outdoor use, the unit emphasizes durability and long operational life for logistics and high value cargo protection.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-2114
 
+<div className="device-logo">
 ![СИГНАЛ S-2114](./tracker.jpeg)
+</div>
 
 El СИГНАЛ S-2114 es un rastreador GPS automotriz con conectividad GSM diseñado para el monitoreo vehicular, la seguridad y una telemetría sencilla. Pensado para instalaciones existentes y entornos heredados, el S-2114 ofrece posicionamiento GPS confiable, notificaciones de alarma mediante llamadas de voz y SMS, e integración con sensores digitales de combustible. Su conjunto de funciones está orientado a equipos que requieren seguimiento y telemetría esenciales sin depender de un ecosistema de sensores moderno.
 

@@ -20,7 +20,9 @@ keywords:
 
 # EV - EV-201M
 
+<div className="device-logo">
 ![EV-201M](./tracker.png)
+</div>
 
 The EV-201M is a compact 4G LTE-M/NB GPS tracker designed for dependable pet tracking and activity monitoring. Built for outdoor use, it combines a rugged IP67 waterproof enclosure with an energy efficient 800 mAh battery and IoT power saving modes to provide continuous location history and regular position updates for dogs and other domestic animals.
 

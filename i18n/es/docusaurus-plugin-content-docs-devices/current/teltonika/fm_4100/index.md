@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FM 4100
 
+<div className="device-logo">
 ![FM 4100](./logo.jpg)
+</div>
 
 El Teltonika FM 4100 es un rastreador GPS compacto y versátil con conectividad GSM, diseñado para obtener la localización remota de objetos. Está pensado para el seguimiento de camiones, automóviles y otros activos móviles, entregando fijaciones de posición vía GPS y enviando esas coordenadas a través de la red GSM. La unidad viene en una resistente carcasa de aluminio y dispone de múltiples entradas y salidas para supervisar y controlar dispositivos conectados al objeto rastreado.
 

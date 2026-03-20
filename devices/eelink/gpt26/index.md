@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT26
 
+<div className="device-logo">
 ![GPT26](./logo.jpg)
+</div>
 
 The EElink GPT26 is a portable GPS tracker designed to monitor valuable assets with flexibility and durability. It combines dual locating modes, GPS and location based service (LBS), to maintain position reporting even in challenging signal environments. With quad band support for global networks, a high capacity 7000mAh battery and a robust IP67 rated enclosure, the GPT26 is built for long term deployments and outdoor use. The device also features a strong magnetic mount for simple attachment and supports EELINK protocol and OTA firmware updates for ongoing maintenance.
 

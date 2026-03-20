@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-AVL10
 
+<div className="device-logo">
 ![TZ-AVL10](./logo.jpg)
+</div>
 
 The TZone TZ-AVL10 is a compact vehicle GPS tracker designed for flexible tracking and monitoring of mobile assets. It offers extended standby operation exceeding three months, supports tracking via software or cell phone, and provides a range of alarm functions including over-speed, low power, and geo-fence alerts. The device also includes features for roaming cost management, status detection for car doors and engine on/off, and the ability to perform a controlled engine power cut-off in emergency situations. Communication options listed for this model include GPRS and SMS, and firmware updates can be applied over the air.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G02M
 
+<div className="device-logo">
 ![G02M](./logo..jpg)
+</div>
 
 The CanTrack G02M is a compact GPS tracker marketed as a pet tracker with practical applications for vehicle monitoring. It uses GPS satellites together with cellular communication to determine location and report position data. The device can send location updates via SMS and can also transmit data to an internet server, enabling visualization on mapping services such as Google Maps and Google Earth.
 

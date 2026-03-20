@@ -21,7 +21,9 @@ keywords:
 
 # Concox - LL701
 
+<div className="device-logo">
 ![LL701](./logo..png)
+</div>
 
 El Concox LL701 es un rastreador de activos de larga autonomía diseñado para la gestión de vehículos pesados y bienes valiosos. Utiliza baterías reemplazables CR123A para ofrecer mayor disponibilidad y portabilidad; con tres baterías puede alcanzar hasta cinco años de funcionamiento según la frecuencia de reporte. El equipo admite alimentación externa para ampliar su vida útil y cuenta con certificación IP67, lo que garantiza operación confiable en entornos adversos.
 

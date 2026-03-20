@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A7B
 
+<div className="device-logo">
 ![HB-A7B](./logo.jpg)
+</div>
 
 The Huabao HB-A7B is a versatile GPS tracker designed for commercial vehicle tracking and fleet management. It provides real-time positioning and tracking intended for applications such as logistics, long distance passenger transport, dangerous goods transport, and urban services like buses, taxis, and rental vehicles. The device emphasizes stable performance, straightforward installation, and low power consumption to support continuous operation in diverse fleet environments.
 

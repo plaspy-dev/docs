@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - A8
 
+<div className="device-logo">
 ![A8](./logo.jpg)
+</div>
 
 The AoYa A8 is a compact personal GPS tracker designed for real time location monitoring and basic safety functions. With small dimensions and a lightweight body, the A8 is intended to be carried, worn, or attached to belongings where discreet, continuous tracking is needed. The device includes an SOS button for emergency signaling, voice monitoring and two way audio capability via a built in microphone, and supports GSM frequency bands for broad cellular coverage.
 

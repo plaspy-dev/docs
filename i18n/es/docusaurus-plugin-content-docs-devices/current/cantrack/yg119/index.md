@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - YG119
 
+<div className="device-logo">
 ![YG119](./tracker.jpg)
+</div>
 
 El YG119 es un rastreador GPS compacto y recargable diseñado para perros de caza y mascotas activas. Envía posiciones de forma periódica según el movimiento o un intervalo de reporte configurado por el usuario, e incluye ayudas prácticas para la recuperación como la función remota de escucha de voz y un zumbador audible. Diseñado para entornos exigentes al aire libre, el YG119 combina conectividad celular multibanda, una batería de alta capacidad y una carcasa resistente y pequeña para soportar usos prolongados en campo.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-AVL301
 
+<div className="device-logo">
 ![TZ-AVL301](./logo.jpg)
+</div>
 
 The TZ-AVL301 is a compact 3G GPS tracker from TZone designed for vehicle and asset monitoring. It supports GSM and WCDMA frequencies and includes features commonly required for fleet management such as iButton driver identification, ignition detection, mileage calculation, onboard flash logging, and the ability to send location links via SMS. Built to IP67 waterproof specifications, the TZ-AVL301 is intended for use in demanding environments where reliable positioning and status reporting are needed.
 

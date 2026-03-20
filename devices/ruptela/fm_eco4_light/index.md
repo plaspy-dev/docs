@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - FM-ECO4 Light
 
+<div className="device-logo">
 ![FM-ECO4 Light](./logo.jpg)
+</div>
 
 The Ruptela FM-ECO4 Light is a compact GPS tracking device designed for vehicle monitoring and fleet management. It combines a small form factor with built-in GPS and GSM antennas to provide continuous location tracking, route logging, and core telemetry such as speed, mileage, and fuel-related indicators. The device also includes features aimed at fleet operations like driver registration, temperature monitoring for sensitive cargo, geozone configuration, and functions for controlling vehicle behavior.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Flextrack - Lommy Power
 
+<div className="device-logo">
 ![Lommy Power](./tracker.jpg)
+</div>
 
 Lommy Power is a compact wired GPS tracker designed for continuous real time tracking of heavy machinery and equipment. Built with a rugged IP65 housing and multi constellation GNSS positioning, it is intended for long term asset monitoring in harsh environments such as construction, agriculture and forestry. The device draws power from the host vehicle or machine to provide persistent telemetry without the need for an internal primary battery.
 

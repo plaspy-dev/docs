@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - A12
 
+<div className="device-logo">
 ![A12](./logo.jpg)
+</div>
 
 The AoYa A12 is a compact automotive GPS tracker designed for vehicle location monitoring. At roughly 88mm x 46mm x 16mm and weighing about 80g, the A12 is intended to be unobtrusive while delivering continuous position updates using GPS, LBS, and AGPS technologies. The device pairs a UBLOX GPS receiver with a SIMTK6260 GSM chipset to provide positioning with reported sensitivity and typical accuracy in the 5–10 meter range, and it includes a built-in 3.7V 250mAh Li-ion battery for short-term backup power.
 

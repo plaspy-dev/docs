@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A5D
 
+<div className="device-logo">
 ![HB-A5D](./tracker.png)
+</div>
 
 The HB-A5D is a compact 4G waterproof GPS vehicle tracker from Huabao designed for private cars, motorcycles and demanding commercial fleets. It combines built-in positioning antennas, an IP65 rated enclosure and dual 2G plus 4G cellular connectivity to provide continuous location and telemetry reporting. The device aims to offer dependable real-time tracking and mobility reporting for logistics, passenger transport, rental and taxi operations.
 

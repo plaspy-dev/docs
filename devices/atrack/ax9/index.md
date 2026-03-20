@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AX9
 
+<div className="device-logo">
 ![AX9](./logo.jpg)
+</div>
 
 The ATrack AX9 is a compact OBDII GPS tracking unit designed for vehicle monitoring and diagnostics. It provides plug and play installation through the OBDII interface and supports 2G and 3G wireless networks for data transmission. The AX9 emphasizes efficient power use with an ultra low current deep sleep mode, and it includes high GPS sensitivity plus a built in 3 axis G sensor for detecting harsh driving events.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - L16
 
+<div className="device-logo">
 ![L16](./tracker.jpg)
+</div>
 
 The GOTOP L16 is a compact GPS smart watch designed for personal safety and everyday monitoring. As a wearable tracker for vulnerable users, the L16 combines multi-mode positioning, health telemetry, two-way voice calling, and a one-key SOS alarm in a small form factor. Its 1.0-inch TFT display and rugged IP67 rating make it suitable for daily wear while providing caregivers and monitoring teams with continuous status information.
 

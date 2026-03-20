@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP7600
 
+<div className="device-logo">
 ![SP7600](./logo.jpg)
+</div>
 
 El SkyPatrol SP7600 es una serie de rastreadores GPS en formato OBD compactos, pensados para implementaciones rápidas de tipo plug and play y uso flexible entre diferentes vehículos. La familia SP7600 destaca por su portabilidad y su gestión inteligente de energía, lo que la hace adecuada para escenarios que requieren reasignación frecuente de dispositivos o una interferencia mínima en el vehículo. Las funcionalidades de localización y seguridad comunes en esta línea respaldan la supervisión de flotas y las necesidades de recuperación de vehículos.
 

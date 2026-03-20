@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - TK200
 
+<div className="device-logo">
 ![TK200](./logo.jpg)
+</div>
 
 El CanTrack TK200 es un rastreador GPS compacto que combina posicionamiento por satélite con conectividad celular para ofrecer funciones de localización y monitoreo. Diseñado para escenarios personales y comerciales, el TK200 admite seguimiento en vivo, escucha remota, trazado de rutas y un conjunto de funciones antirrobo. El dispositivo puede reportar posición y estado vía SMS o datos, y cuenta con alarmas y almacenamiento de datos para revisión posterior.
 

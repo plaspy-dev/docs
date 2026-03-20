@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - U1 Lite+
 
+<div className="device-logo">
 ![U1 Lite+](./logo..png)
+</div>
 
 The CAREU U1 Lite+ is a compact and cost effective GPS tracker designed for vehicle and asset monitoring. It provides cellular data connectivity across 4G with fallbacks to 3G and 2G, built in WiFi and internet access for auxiliary data use such as video transmission, and extensive I O expansion through RS 232 ports and additional inputs and outputs. The device includes position logging, motion detection, support for 1 Wire peripherals, and jamming detection, making it suitable for a broad set of tracking and security scenarios.
 

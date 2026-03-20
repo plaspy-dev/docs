@@ -21,7 +21,9 @@ keywords:
 
 # Laipac - S911 Bracelet HC
 
+<div className="device-logo">
 ![S911 Bracelet HC](./logo.jpg)
+</div>
 
 El Laipac S911 Bracelet HC es un localizador GPS wearable diseñado específicamente para entornos de salud y monitoreo de pacientes. Pensado para el uso diario por pacientes y personas mayores, el dispositivo ofrece seguimiento continuo de ubicación, un botón SOS para emergencias con respuesta inmediata, comunicación de voz bidireccional para contacto directo y detección de caídas para identificar situaciones de riesgo. Otras características incluyen protección por GeoFence, detección de manipulación, una pantalla LCD para mostrar el estado y una construcción resistente con certificación IP67 adecuada para uso habitual.
 

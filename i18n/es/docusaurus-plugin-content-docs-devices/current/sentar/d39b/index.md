@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D39B
 
+<div className="device-logo">
 ![D39B](./tracker.png)
+</div>
 
 El Sentar D39B es un reloj inteligente para niños diseñado para comunicación confiable, monitoreo de seguridad y seguimiento de ubicación claro. Combina posicionamiento multifuente con voz y datos 4G, una pantalla IPS de 1.85 pulgadas y una plataforma Android 8.1 para ofrecer visibilidad de la ubicación en tiempo real y funciones básicas de comunicación en un formato de pulsera apropiado para menores.
 

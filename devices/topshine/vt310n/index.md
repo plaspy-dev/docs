@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - VT310N
 
+<div className="device-logo">
 ![VT310N](./tracker.jpg)
+</div>
 
 The VT310N is a rugged vehicle tracker from TopShine designed for reliable real time tracking, fleet management, and vehicle security. It combines a high sensitivity GNSS receiver with cellular connectivity and an onboard data logger to maintain continuous location visibility and historical telemetry for commercial fleets, taxis, trucks, and mixed vehicle deployments.
 

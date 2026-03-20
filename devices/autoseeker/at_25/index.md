@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-25
 
+<div className="device-logo">
 ![AT-25](./Logo.jpg)
+</div>
 
 The Autoseeker AT-25 is a compact vehicle GPS tracker designed for reliable location monitoring and basic vehicle security functions. It supports position updates via SMS and GPRS communication and also works over 4G internet, offering multiple channels for reporting location. The device includes features such as time interval tracking for scheduled position reports, history logging, geofence alerts, overspeed warnings, shake alarm, alert on power off, ACC illegal engine on detection, and a built in backup battery to maintain operation if vehicle power is removed.
 

@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-P4D
 
+<div className="device-logo">
 ![TS-P4D](./logo..png)
+</div>
 
 The ThingSys TS-P4D is a compact magnetic GPS tracker designed for extended deployments. It supports both 3G and 4G networks and ships with large removable battery options up to 8000 mAh, making it suitable for prolonged tracking of vehicles, assets, and containers. The unit uses a Ublox 7 GPS receiver and offers high sensitivity and practical position accuracy, together with features such as geofencing, SOS alerts, remote voice monitoring, low battery warnings, and movement detection via a 3D accelerator.
 

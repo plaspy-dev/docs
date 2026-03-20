@@ -20,7 +20,9 @@ keywords:
 
 # Bofan - B4
 
+<div className="device-logo">
 ![B4](./logo..png)
+</div>
 
 The Bofan B4 is a basic 4G GPS vehicle tracker designed for straightforward vehicle monitoring at a reasonable cost. It offers essential tracking features in a compact, classic package and is positioned for both fleet and personal vehicle use. Core capabilities described by the manufacturer include geofence alerts, remote engine cut, engine operating time monitoring, SMS and GPRS tracking options, internal antennas, and a single ACC input and output for simple integrations.
 

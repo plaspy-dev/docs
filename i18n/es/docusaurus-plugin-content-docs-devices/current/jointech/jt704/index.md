@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - JT704
 
+<div className="device-logo">
 ![JT704](./tracker.jpg)
+</div>
 
 El Jointech JT704 es un rastreador GPS compacto creado específicamente para la supervisión de contenedores y la logística de larga distancia. Diseñado para un montaje discreto sin perforaciones, el JT704 ofrece visibilidad continua de contenedores que se desplazan por ferrocarril, mar y otras rutas multimodales. Soporta seguimiento en tiempo real además de reportes programados en intervalos fijos para equilibrar la vigilancia constante con despliegues de larga duración.
 

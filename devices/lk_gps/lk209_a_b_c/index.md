@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK209 A/B/C
 
+<div className="device-logo">
 ![LK209 A/B/C](./tracker.jpg)
+</div>
 
 The LK209 A/B/C is a magnetic GPS tracker designed for long term vehicle tracking and asset monitoring. Offered in three battery variants (A 5000 mAh, B 10000 mAh, C 20000 mAh), the series is built to provide extended standby times that support continuous position reporting and route history for days or weeks on a single charge. Its rugged magnetic housing allows discreet placement on cars, trucks, containers and a wide range of mobile assets.
 

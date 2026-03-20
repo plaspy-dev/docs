@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - SolarX 120
 
+<div className="device-logo">
 ![SolarX 120](./tracker.png)
+</div>
 
 The SolarX 120 from TopFly is a heavy duty, solar assisted GPS tracker designed for long term outdoor asset monitoring. It features a rugged IP67 enclosure, a large rechargeable battery and solar charging to extend deployments without frequent maintenance. The device is specified for use on containers, trailers, trucks and other heavy assets where durable weatherproof hardware and reliable location reporting are essential.
 

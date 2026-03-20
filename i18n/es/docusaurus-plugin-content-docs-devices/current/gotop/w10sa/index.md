@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - W10SA
 
+<div className="device-logo">
 ![W10SA](./tracker.jpg)
+</div>
 
 El W10SA es un rastreador GPS personal compacto y con alimentación por batería, pensado para el seguimiento cotidiano de personas, equipaje y vehículos pequeños. Proporciona posicionamiento en tiempo real, reproducción de rutas históricas y un conjunto de alarmas configurables ante pérdida de energía, exceso de velocidad, vibración y eventos de geocerca. Con antenas GPS y celular integradas, el W10SA está diseñado para ser liviano y listo para usar sin instalaciones complejas.
 

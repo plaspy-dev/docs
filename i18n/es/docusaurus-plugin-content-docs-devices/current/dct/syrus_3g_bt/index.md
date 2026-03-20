@@ -21,7 +21,9 @@ keywords:
 
 # DCT - Syrus 3G+ BT
 
+<div className="device-logo">
 ![Syrus 3G+ BT](./tracker.png)
+</div>
 
 El Syrus 3G+ BT es una pasarela telemática robusta de DCT diseñada para despliegues IoT y M2M escalables. Orientado a la gestión de flotas y al monitoreo industrial, el dispositivo soporta Bluetooth 4.1 Smart Ready para emparejar sensores de bajo consumo, múltiples puertos físicos para accesorios y periféricos, y un accesorio opcional de comunicaciones por satélite Iridium como respaldo. Como gateway de hardware, consolida en el borde la ubicación y los datos de sensores para ofrecer rastreo fiable y visibilidad operativa.
 

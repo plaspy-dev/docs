@@ -20,7 +20,9 @@ keywords:
 
 # TopTen - GT08S
 
+<div className="device-logo">
 ![GT08S](./Logo.jpg)
+</div>
 
 The TopTen GT08S is a compact vehicle GPS tracker designed for monitoring cars, motorcycles, and larger vehicles. It supports a wide input voltage range which makes it suitable for diverse vehicle types. The GT08S provides on demand and interval tracking via SMS or GPRS, includes a data logger for route history, and offers several alarm and control features to help maintain visibility over vehicle activity.
 

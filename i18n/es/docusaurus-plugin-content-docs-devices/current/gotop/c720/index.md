@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - C720
 
+<div className="device-logo">
 ![C720](./tracker.jpg)
+</div>
 
 El GOTOP C720 es un rastreador GPS compacto de tipo relé diseñado para instalaciones discretas en vehículos cuando se requiere monitoreo encubierto y control antirrobo. Su formato ultracompacto y diseño para conexión directa a la instalación eléctrica lo hacen ideal para ocultarlo en automóviles, motocicletas y otros vehículos, a la vez que ofrece actualizaciones de posición continuas y reportes de alarmas mediante GSM/GPRS y posicionamiento GPS. El equipo incorpora soporte AGPS, recepción GNSS multicanal y antenas internas para mejorar la fiabilidad de la ubicación en entornos típicos de vehículos.
 

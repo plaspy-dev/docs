@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV350MG
 
+<div className="device-logo">
 ![GV350MG](./tracker.png)
+</div>
 
 The GV350MG is a compact LTE Advanced vehicle tracker designed for professional fleet management, cold chain logistics and transportation monitoring. It combines high sensitivity GNSS positioning with vehicle integration features and multiple I O channels to deliver continuous location and telemetry for commercial vehicles. The device is intended for operators that need accurate tracking and broad connectivity in a rugged form factor suitable for demanding vehicle environments.
 

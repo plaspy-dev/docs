@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - 6000mAh
 
+<div className="device-logo">
 ![6000mAh](./tracker.jpg)
+</div>
 
 The CanTrack 6000mAh Magnetic Asset GPS Tracker model GF50 is a rugged, magnetic mount tracker designed for long term covert asset protection, stolen vehicle recovery and fleet management. It combines a high capacity 6000mAh rechargeable battery with an IP67 rated enclosure and a strong N54 magnet for tool free attachment to metallic surfaces, enabling reliable position reporting and historical route playback through supported telematics platforms.
 

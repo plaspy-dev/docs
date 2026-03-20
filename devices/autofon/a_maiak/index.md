@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - α-Маяк
 
+<div className="device-logo">
 ![α-Маяк](./logo.jpg)
+</div>
 
 The AutoFon α-Маяк is a compact independent GPS tracker designed to determine the location of an object and transmit coordinates via the GSM network. Built on a newer hardware platform, the device emphasizes a reduced size and long operational life on a single set of batteries. It includes a combined GLONASS and GPS navigation module for reliable position fixing, a built in SOS button for forced activation, and comes pre configured for automatic operation to minimize day to day management.
 

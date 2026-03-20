@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - TAT141: Rastreador de activos con batería de larga duración
 
+<div className="device-logo">
 ![TAT141](./tracker.png)
+</div>
 
 El TAT141 es un rastreador GPS compacto y alimentado por batería, concebido para la monitorización de activos a largo plazo con mínimas intervenciones de mantenimiento. Diseñado para mercancías, contenedores, equipos y otros bienes de valor, ofrece conectividad celular de amplio alcance, protección ambiental IP68 y una opción de montaje magnético para una instalación rápida y segura. Su enfoque está en reportes de ubicación confiables y en maximizar la autonomía operativa sin necesidad de servicios frecuentes.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GPSMarker - M60
 
+<div className="device-logo">
 ![M60](./logo.jpg)
+</div>
 
 The GPSMarker M60 is a compact and versatile GPS tracker designed for a range of tracking tasks. Notable features include an extended battery life of up to two years, an integrated temperature sensor for monitoring environmental conditions, and language options in Russian or English. The M60 aims to be user friendly by avoiding complex command memorization, offering simple configuration, a built in clock with accurate timekeeping, and automatic tuning for reliable satellite reception. It also provides flexible coordinate displays including Google Maps and Yandex Maps, latitude and longitude, and relative distance and direction from nearby towns.
 

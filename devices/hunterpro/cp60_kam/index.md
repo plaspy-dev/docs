@@ -20,7 +20,9 @@ keywords:
 
 # HunterPro - CP60-KAM
 
+<div className="device-logo">
 ![CP60-KAM](./logo.jpg)
+</div>
 
 The HunterPro CP60-KAM is a GPS tracker designed for vehicle monitoring that adds image capture to standard tracking features. According to the available description, the device can capture images from the monitored vehicle without extra service costs, and it can automatically take a photo when a Panic Event is detected. These visual capabilities provide an additional layer of situational awareness beyond location alone.
 

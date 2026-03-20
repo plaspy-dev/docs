@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - GP 6000
 
+<div className="device-logo">
 ![GP 6000](./logo.jpg)
+</div>
 
 El Jointech GP 6000 es un rastreador GPS versátil pensado para el monitoreo de vehículos y activos. Ofrece múltiples opciones de comunicación, incluyendo SMS y GPRS, y soporta transmisión por TCP y UDP además de comunicación por voz. El equipo permite seguimiento en tiempo real configurable mediante intervalos temporales, intervalos por distancia y un modo inteligente, junto con diversas funciones de reporte y almacenamiento para datos históricos.
 

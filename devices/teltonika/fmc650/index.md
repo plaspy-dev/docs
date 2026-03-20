@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC650
 
+<div className="device-logo">
 ![FMC650](./tracker.png)
+</div>
 
 The Teltonika FMC650 is a professional vehicle tracker engineered for demanding telematics and fleet management deployments. As a successor to the FMC640, it provides LTE Cat 1 cellular connectivity with 2G fallback, a separate dual channel GNSS receiver with L1 and L5 support for improved positioning reliability, and a rugged set of I O options tailored to heavy fleet, trailer and specialized machinery use. The FMC650 is packaged for vehicle integration and is available in regional variants to match local cellular bands.
 

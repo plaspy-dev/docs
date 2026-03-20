@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - Q1
 
+<div className="device-logo">
 ![Q1](./logo..jpg)
+</div>
 
 El GOTOP Q1 es un mini rastreador GPS compacto y versátil pensado para el monitoreo de activos portátiles. Su tamaño reducido y peso ligero facilitan su fijación a diversos bienes, como motocicletas, automóviles y bicicletas eléctricas. El Q1 cuenta con protección IPX7 contra el agua, posicionamiento por GPS y LBS, alertas de movimiento y batería recargable para soportar seguimiento continuo y reportes ocasionales por SMS.
 

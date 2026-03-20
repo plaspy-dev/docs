@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V44
 
+<div className="device-logo">
 ![RF-V44](./tracker.jpg)
+</div>
 
 The RF-V44 is a rugged, solar charged 4G GPS tracker designed for long field deployments such as livestock monitoring for cattle and sheep. It combines a high capacity internal battery with an integrated solar charging circuit and battery protection to reduce maintenance intervals. Built to withstand outdoor conditions, the RF-V44 features IP66 waterproofing, a broad operating temperature range and a compact enclosure suitable for collar mounting or magnetic and screw installations.
 

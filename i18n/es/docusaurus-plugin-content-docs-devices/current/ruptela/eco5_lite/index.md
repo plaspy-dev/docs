@@ -21,7 +21,9 @@ keywords:
 
 # Ruptela - Eco5 Lite
 
+<div className="device-logo">
 ![Eco5 Lite](./tracker.jpg)
+</div>
 
 El Ruptela Eco5 Lite es un rastreador GPS compacto diseñado para despliegues de flotas y telemática ligera que requieren seguimiento en tiempo real fiable sin complejidad innecesaria. Combina un formato delgado y compatible con vehículos con un funcionamiento eficiente en consumo y una carcasa con clasificación IP54, lo que lo hace apropiado para instalaciones donde el espacio y el bajo consumo energético son prioritarios. Entre sus características destacan posicionamiento GNSS de precisión, soporte Bluetooth de corto alcance, entradas y salidas básicas para señales del vehículo, opciones de conectividad celular, detección de interferencias (jamming) y batería de respaldo para mayor resiliencia.
 

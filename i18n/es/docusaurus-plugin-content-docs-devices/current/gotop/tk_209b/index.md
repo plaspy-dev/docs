@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - TK-209B
 
+<div className="device-logo">
 ![TK-209B](./logo.jpg)
+</div>
 
 El GOTOP TK-209B es un rastreador GPS compacto pensado para el seguimiento prolongado de vehículos y activos. Sus características más destacadas incluyen una autonomía en espera reportada de hasta 400 días, una batería de gran capacidad de 20000 mAh, clasificación IP67 de resistencia al agua y un potente imán integrado que facilita su fijación sin conexiones cableadas. El equipo puede enviar actualizaciones de ubicación vía SMS o GPRS y dispone de alertas como alarma por desprendimiento, batería baja, vibración y movimiento, lo que lo hace adecuado para diversas aplicaciones móviles y en exteriores.
 

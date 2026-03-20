@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СМАРТ S-4535
 
+<div className="device-logo">
 ![СМАРТ S-4535](./tracker.jpeg)
+</div>
 
 The СМАРТ S-4535 is a vehicle grade GPS tracker from Navtelekom designed for modern fleet management and vehicle telemetry. It combines sensitive GLONASS and GPS positioning with 4G connectivity and dual SIM support to provide continuous location reporting and resilient communications. The device includes an internal backup battery and a set of vehicle interfaces that enable direct telemetry collection and event reporting for commercial fleets, logistics, and security transport applications.
 

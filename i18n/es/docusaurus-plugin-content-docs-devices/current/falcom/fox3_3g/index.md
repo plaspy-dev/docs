@@ -21,7 +21,9 @@ keywords:
 
 # Falcom - FOX3-3G
 
+<div className="device-logo">
 ![FOX3-3G](./logo.jpg)
+</div>
 
 La serie FOX3-3G de Falcom es un dispositivo telemático y pasarela vehicular compacto y versátil que combina conectividad de datos de alta velocidad con posicionamiento GNSS avanzado. Diseñado como una unidad todo en uno, ofrece una amplia gama de entradas y salidas, soporte para antenas externas y opciones de expansión con cajas IO adicionales para ampliar su funcionalidad. Esta familia está pensada para cubrir necesidades telemáticas comunes como localización de vehículos, monitoreo de comportamiento y recolección de datos logísticos, e incorpora funciones integradas como cifrado de datos, modos de historial múltiples, monitoreo eco drive y de conducta del conductor, detección de interferencias (jamming), informes de estado, mensajería de alertas, soporte de llamadas de audio en modelos específicos y geocercas.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G610
 
+<div className="device-logo">
 ![G610](./tracker.jpg)
+</div>
 
 The G610 is a compact, cost conscious vehicle tracker built for service providers, integrators and enterprise fleets that need reliable Plaspy compatible hardware. It combines cellular connectivity, multi constellation GNSS position fixing and wireless sensor support to deliver continuous location, event and crash telemetry suitable for fleet management and insurance telematics programs.
 

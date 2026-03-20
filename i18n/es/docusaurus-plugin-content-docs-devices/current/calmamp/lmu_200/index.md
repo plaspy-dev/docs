@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-200
 
+<div className="device-logo">
 ![LMU-200](./logo.jpg)
+</div>
 
 El CalmAmp LMU-200 es un dispositivo de rastreo vehicular compacto diseñado para una instalación discreta y fiable en automóviles. Está pensado para aplicaciones como la recuperación de vehículos robados, el monitoreo de financiamiento vehicular, flotas de alquiler y otras necesidades de localización y seguimiento automotriz. El LMU-200 destaca por su sólido desempeño GPS, bajo consumo energético, antenas internas para montaje flexible y un formato reducido que facilita su colocación sin llamar la atención.
 

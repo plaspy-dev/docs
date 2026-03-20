@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D31
 
+<div className="device-logo">
 ![D31](./tracker.jpg)
+</div>
 
 El D31 es un reloj inteligente GPS compacto 4G pensado para niños y diseñado para cuidadores que requieren localización fiable en tiempo real y monitoreo de seguridad. Combina posicionamiento multimodal con un formato ponible amigable para menores, una pantalla táctil IPS de 1.4 pulgadas y un botón SOS integrado en el costado para llamadas de emergencia sencillas. El equipo funciona con el chipset SL8521E, corre Android 4.4 y usa una Nano SIM para conectividad celular en redes móviles comunes.
 

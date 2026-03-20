@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G25C
 
+<div className="device-logo">
 ![G25C](./logo..jpg)
+</div>
 
 El GOTOP G25C es un rastreador GPS 4G compacto pensado para aplicaciones de Internet de las Cosas y el seguimiento de activos en general. Combina comunicación LTE con posicionamiento por satélite GPS y BDS para ofrecer información de localización en tiempo real. Con una antena interna de grado industrial y una carcasa resistente, el G25C está diseñado para su uso en autos particulares, vehículos de alquiler, camiones de flota, bicicletas y otros activos móviles.
 

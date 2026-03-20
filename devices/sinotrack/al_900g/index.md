@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - AL-900G
 
+<div className="device-logo">
 ![AL-900G](./Logo.png)
+</div>
 
 The SinoTrack AL-900G is a compact, durable GPS tracker designed for a wide range of vehicle and asset tracking applications. It uses a Sirf IV GPS module and supports continuous satellite positioning with real time reporting options via SMS, GPRS, or a web based platform. The unit includes practical features such as multiple tracking modes, over speed alerts, backup power and local storage for locations recorded while out of cellular range.
 

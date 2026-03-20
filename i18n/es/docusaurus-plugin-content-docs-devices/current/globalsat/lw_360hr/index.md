@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - LW-360HR
 
+<div className="device-logo">
 ![LW-360HR](./tracker.jpg)
+</div>
 
 El GlobalSat LW-360HR es un reloj rastreador GPS wearable pensado para localización de largo alcance y monitoreo de salud con bajo consumo. Combina conectividad LoRaWAN de área amplia con posicionamiento GPS y BLE 4.0 para ofrecer reportes de ubicación, alertas SOS y telemetría continua de actividad y salud, como frecuencia cardíaca óptica y temperatura de piel. Su diseño compacto, resistencia al agua y autonomía de varios días lo hacen adecuado para adultos mayores, equipos al aire libre y aplicaciones de seguridad grupal.
 

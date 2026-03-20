@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - MT400
 
+<div className="device-logo">
 ![MT400](./tracker.jpg)
+</div>
 
 The Megastek MT400 ECG Medical Watch is a wearable GPS tracker designed to combine continuous health monitoring with dependable location services. Intended for patients, seniors, and remote care workflows, the MT400 captures ECG waveform and continuous heart rate while offering position reporting and two-way voice in a compact wrist device. Its design emphasizes simultaneous visibility of personal health signals and movement for caregivers and operations teams.
 

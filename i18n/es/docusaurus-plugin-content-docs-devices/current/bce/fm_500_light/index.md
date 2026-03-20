@@ -21,7 +21,9 @@ keywords:
 
 # BCE - FM-500 Light
 
+<div className="device-logo">
 ![FM-500 Light](./logo.jpg)
+</div>
 
 El BCE FM-500 Light es un rastreador compacto diseñado para ofrecer información confiable de ubicación y movimiento para una amplia variedad de activos. Emplea posicionamiento GPS y GLONASS junto con transferencia de datos por GSM para reportar ubicación, velocidad, rumbo e información de eventos. El dispositivo incluye entradas digitales y analógicas, una interfaz 1-Wire para sensores externos y salidas para el control remoto de equipos conectados, permitiendo una configuración flexible según las necesidades de monitoreo.
 

@@ -21,7 +21,9 @@ keywords:
 
 # WP - M7 D2
 
+<div className="device-logo">
 ![M7 D2](./logo..jpg)
+</div>
 
 El WP M7 D2 es un dispositivo de rastreo GPS portátil pensado principalmente para el seguimiento de vehículos. Combina una recepción GPS de alta sensibilidad con comunicación GSM cuatribanda y admite transmisión de datos vía SMS, GPRS, UDP y TCP. La unidad es compacta, está alojada en una carcasa de ABS con certificación IP67 y utiliza montaje magnético para una instalación rápida o una colocación discreta sobre partes metálicas del vehículo.
 

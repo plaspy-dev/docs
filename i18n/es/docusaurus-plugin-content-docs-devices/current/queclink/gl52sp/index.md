@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL52SP
 
+<div className="device-logo">
 ![GL52SP](./logo..png)
+</div>
 
 El QuecLink GL52SP es un rastreador Sigfox de perfil reducido y modo espera diseñado para el monitoreo de activos a largo plazo. Su diseño ultradelgado y compacto, junto con la capacidad de permanecer varios años en espera, lo hacen ideal para supervisión de activos estacionarios, control de inventarios y otras aplicaciones donde el tamaño reducido y la larga autonomía son prioritarios. El GL52SP incorpora posicionamiento GNSS para reportes de ubicación y cuenta con certificación Sigfox de alto nivel para mejorar la conectividad y movilidad en las regiones soportadas.
 

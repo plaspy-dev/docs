@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-G17Hs
 
+<div className="device-logo">
 ![TS-G17Hs](./tracker.jpg)
+</div>
 
 El TS-G17Hs (J16 Pro) es un rastreador vehicular compacto 4G LTE Cat1 diseñado para ofrecer seguimiento fiable y telemetría continua. Combina posicionamiento GNSS de alta sensibilidad con entradas orientadas a vehículos, como detección de encendido, soporte SOS y E/S configurable para inmovilización remota, todo en un formato pequeño adecuado para automóviles, camiones, autobuses y motocicletas.
 

@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK121
 
+<div className="device-logo">
 ![TK121](./tracker.jpg)
+</div>
 
 El TK121 es un rastreador GPS para vehículos de diseño compacto de EElink, pensado para instalaciones discretas y funcionamiento fiable. Combina posicionamiento por GPS con respaldo por red celular y asistencia AGPS para ofrecer actualizaciones de ubicación consistentes y reportes de eventos esenciales. Su perfil bajo y peso ligero lo hacen ideal para monitoreo vehicular cuando la ocultación y la mínima intrusión son prioritarias.
 

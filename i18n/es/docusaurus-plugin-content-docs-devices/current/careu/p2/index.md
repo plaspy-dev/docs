@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - P2
 
+<div className="device-logo">
 ![P2](./logo..png)
+</div>
 
 El CAREU P2 es un rastreador GPS personal compacto diseñado para una supervisión sencilla de la ubicación y comunicación bidireccional. Ofrece actualizaciones frecuentes de posición y funciones básicas de seguridad como alerta SOS, llamadas de emergencia con números almacenados y sensibilidad configurable para detección de movimiento. El dispositivo está pensado tanto para usuarios particulares como para empresas que requieren seguimiento confiable sobre la persona y protección de pequeños activos.
 

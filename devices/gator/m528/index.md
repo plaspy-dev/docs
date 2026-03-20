@@ -20,7 +20,9 @@ keywords:
 
 # Gator - M528
 
+<div className="device-logo">
 ![M528](./logo.jpg)
+</div>
 
 The Gator M528 is a versatile GPS tracker designed for fleet management and anti theft applications. Intended for use on construction trucks, rental cars, logistics vehicles, and public transportation, the M528 pairs location tracking with a suite of vehicle security and status features. The device uses modern positioning hardware and cellular connectivity to deliver frequent location updates and event reports to a central monitoring platform.
 

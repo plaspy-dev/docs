@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GB100P
 
+<div className="device-logo">
 ![GB100P](./tracker.png)
+</div>
 
 The QuecLink GB100P is a compact, battery mounted GPS tracker built for cost effective, reliable telematics in vehicle programs. Designed for harsh vehicle environments, it combines a high performance GNSS receiver, quad band GSM GPRS connectivity and BLE 4.2 support with a high rate inertial sensor suite to capture crash events and detailed driving motion. Its small form factor and IP65 enclosure make it suitable for discreet installations where robust telemetry and message retention are required.
 

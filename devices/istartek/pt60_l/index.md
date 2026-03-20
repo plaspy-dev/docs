@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - PT60-L
 
+<div className="device-logo">
 ![PT60-L](./tracker.jpg)
+</div>
 
 The PT60-L is a 4G wireless GPS tracker designed for long term, low maintenance tracking of vehicles and assets. It combines a high sensitivity GNSS module, regional 4G cellular support, a large rechargeable battery, and a strong magnetic mount to provide reliable location and telemetry for unattended assets such as trailers, containers, and personal equipment. Its installation free form factor and emphasis on extended standby life make it suitable where frequent access to power is limited.
 

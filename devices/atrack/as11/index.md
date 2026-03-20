@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AS11
 
+<div className="device-logo">
 ![AS11](./tracker.jpg)
+</div>
 
 The AS11 is a rugged LTE GPS tracker built for long term asset management in harsh environments. Designed for containers, heavy equipment, trailers and other high value assets, the device pairs industrial grade protection with extended battery endurance and flexible cellular and GNSS options. Its enclosure meets IP68 and MIL STD 810H standards and the hardware is engineered for deployments where maintenance access is limited.
 

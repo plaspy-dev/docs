@@ -21,7 +21,9 @@ keywords:
 
 # Concox - WeTrack2
 
+<div className="device-logo">
 ![WeTrack2](./tracker.png)
+</div>
 
 El WeTrack2 es un rastreador GNSS compacto diseñado para scooters eléctricos, motocicletas, vehículos ligeros y equipos industriales. Construido según estándares de electrónica industrial con una carcasa IP65 y un amplio rango de alimentación de 9–90 VDC, el WeTrack2 ofrece reporte continuo de posición, detección de eventos y controles antirrobo en un equipo pequeño y resistente, apto para usos exigentes en campo.
 

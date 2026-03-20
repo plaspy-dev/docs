@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-17
 
+<div className="device-logo">
 ![AT-17](./tracker.jpg)
+</div>
 
 The AT-17 is a heavy duty 2G wireless GPS tracker designed for vehicles, trucks, containers and other high value mobile assets. It combines a rugged waterproof enclosure with six integrated magnets for secure mounting and a very large 10000 mAh internal battery, enabling long deployments where covert and reliable location tracking is required. The device includes motion detection, remove and shake alarms, low battery alerts and a remote monitor function to support security and recovery scenarios.
 

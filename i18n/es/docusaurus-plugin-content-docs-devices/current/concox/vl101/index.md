@@ -21,7 +21,9 @@ keywords:
 
 # Concox - VL101
 
+<div className="device-logo">
 ![VL101](./logo..png)
+</div>
 
 El Concox VL101G es un rastreador para vehículos diseñado para ofrecer seguimiento de ubicación en tiempo real y supervisión de flotas con alta fiabilidad. Basado en posicionamiento GNSS multiconstelación y GPS de doble frecuencia, el dispositivo combina la localización satelital tradicional con un sistema de navegación inercial (INS) para mantener la estimación de posición incluso donde la señal satelital es débil. Soporta comunicación celular con mecanismos de conmutación entre redes y viene alojado en una carcasa con certificación IP66 para uso exterior resistente.
 

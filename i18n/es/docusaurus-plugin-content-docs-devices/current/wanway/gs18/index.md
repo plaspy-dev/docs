@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - GS18
 
+<div className="device-logo">
 ![GS18](./Logo.jpg)
+</div>
 
 El WanWay GS18 es un dispositivo inalámbrico de posicionamiento en tiempo real diseñado para diversas necesidades de rastreo. Combina portabilidad compacta con una batería de gran capacidad de 4200 mAh y una batería de respaldo para soportar períodos prolongados de monitoreo de ubicación. El GS18 ofrece posicionamiento rápido con arranque en caliente en condiciones de cielo abierto y una precisión GPS típica de cinco metros o mejor, lo que lo hace idóneo para activos móviles y equipos en los que datos de localización confiables son importantes.
 

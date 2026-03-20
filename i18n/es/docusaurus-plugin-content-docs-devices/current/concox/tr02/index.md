@@ -21,7 +21,9 @@ keywords:
 
 # Concox - TR02
 
+<div className="device-logo">
 ![TR02](./logo.jpg)
+</div>
 
 El Concox TR02 es un rastreador GPS para automóvil compacto con antena integrada, diseñado para localizar y seguir vehículos de forma sencilla. Posicionado como una solución de entrada en la gama de Concox, el TR02 prioriza la simplicidad y el precio accesible, ofreciendo funciones prácticas como gestión por grupos, notificaciones por geocerca, soporte para múltiples cuentas e indicadores básicos de estado para GPS, GSM y energía.
 

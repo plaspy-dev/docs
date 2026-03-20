@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL106
 
+<div className="device-logo">
 ![VL106](./tracker.png)
+</div>
 
 The Concox VL106 is a compact, vehicle focused GPS tracker engineered for demanding deployments that need continuous and accurate location and motion data. It combines an INS aided navigation approach with multi constellation GNSS to maintain reliable positioning in tunnels, underground parking and other GNSS challenged areas. Designed with a rugged form factor and an automotive grade power input, the VL106 is intended for professional fleet, security and finance environments where sustained telemetry and event capture are important.
 

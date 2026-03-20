@@ -20,7 +20,9 @@ keywords:
 
 # SkyPatrol - TT 9200
 
+<div className="device-logo">
 ![TT 9200](./logo.jpg)
+</div>
 
 The SkyPatrol TT 9200 is a compact GPS tracker that pairs modern GPS chipsets with SkyPatrol's EDDIE+ custom protocol. It supports a broad set of geofencing options including circular and polygonal geofences, route geofencing, and device-based corridors, and can store up to 250 device-based geofences or 24 point device corridors. Designed for everyday tracking tasks, the TT 9200 emphasizes long battery life, global GSM connectivity, and durable splash-proof housing for reliable field use.
 

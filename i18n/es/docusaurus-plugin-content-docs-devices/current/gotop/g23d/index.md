@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G23D
 
+<div className="device-logo">
 ![G23D](./logo..jpg)
+</div>
 
 El GOTOP G23D es un rastreador GPS CDMA compacto y confiable pensado para el seguimiento de vehículos, incluyendo autos, bicicletas eléctricas y motocicletas. Integra posicionamiento por GPS, BDS y LBS, ofreciendo informes de ubicación con una precisión anunciada cercana a los 5 metros. Con un amplio rango de voltaje de entrada y un diseño de pequeñas dimensiones, el G23D está orientado a aplicaciones que requieren seguimiento discreto y resistente en distintos tipos de vehículos.
 

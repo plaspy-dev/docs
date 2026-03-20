@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL52S
 
+<div className="device-logo">
 ![GL52S](./logo..png)
+</div>
 
 El QuecLink GL52S es un rastreador compacto Sigfox con capacidad GNSS diseñado para mantenerse en modo espera durante largos periodos y ofrecer posicionamiento preciso. Pensado para despliegues a largo plazo, el GL52S prioriza una autonomía extendida y un formato micro que facilita su colocación discreta. Está disponible con una carcasa opcional IP67 para mejorar la resistencia en exteriores y cuenta con mitigación frente a técnicas habituales de interferencia para mantener la continuidad del rastreo.
 

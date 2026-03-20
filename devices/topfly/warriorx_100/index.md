@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - WarriorX 100
 
+<div className="device-logo">
 ![WarriorX 100](./tracker.png)
+</div>
 
 The WarriorX 100 is a Plaspy compatible GPS tracker engineered for long life outdoor asset monitoring. As a standalone battery powered device with a rugged IP67 enclosure and multi year operating life, it is aimed at tracking containers, trailers, heavy equipment, and other high value assets where low maintenance and durability are essential. The unit combines parallel GNSS positioning with reporting modes designed to deliver reliable location and basic telemetry over extended deployments.
 

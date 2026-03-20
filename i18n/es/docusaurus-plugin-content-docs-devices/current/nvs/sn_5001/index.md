@@ -21,7 +21,9 @@ keywords:
 
 # NVS - SN-5001
 
+<div className="device-logo">
 ![SN-5001](./logo.jpg)
+</div>
 
 El NVS SN-5001 es un dispositivo de navegación compacto que utiliza los sistemas satelitales GLONASS y GPS para determinar y reportar ubicaciones. Diseñado para ofrecer informes de posición confiables, el equipo puede transmitir datos de ubicación a un centro de monitoreo para seguimiento y supervisión en tiempo real. Además, admite llamadas entrantes y salientes a números programados y puede enviar una señal de alarma a un centro de monitoreo en caso de emergencia, con diversas opciones configurables para adaptarse a distintos requerimientos operativos.
 

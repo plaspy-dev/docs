@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - TR-151
 
+<div className="device-logo">
 ![TR-151](./logo.jpg)
+</div>
 
 The GlobalSat TR-151 is a compact, rugged GPS/GSM/GPRS tracker built for vehicle and asset tracking. Designed with durable and water resistant construction, the TR-151 is intended to maintain reliable location reporting in challenging conditions. It provides location messages via GSM and data connectivity via GPRS, and is equipped with a high capacity Li ion battery plus an SOS button for emergency signaling.
 

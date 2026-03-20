@@ -21,7 +21,9 @@ keywords:
 
 # Castel - IDD-213E
 
+<div className="device-logo">
 ![IDD-213E](./logo.jpg)
+</div>
 
 El Castel IDD-213E es un dispositivo todo en uno e inteligente de diagnóstico a bordo, diseñado para vehículos de pasajeros y comerciales. Combina el rastreo GPS con la capacidad de leer información de diagnóstico directamente del ECU y envía esos datos a un servidor para monitoreo remoto. Diseñado como una solución plug and play, el IDD-213E prioriza la facilidad de instalación y es compatible con estándares vehiculares comunes para abarcar una amplia gama de tipos de vehículos.
 

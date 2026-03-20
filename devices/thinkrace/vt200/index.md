@@ -20,7 +20,9 @@ keywords:
 
 # ThinkRace - VT200
 
+<div className="device-logo">
 ![VT200](./logo.jpg)
+</div>
 
 The ThinkRace VT200 is a professional OBD car tracker designed to deliver real time GPS tracking and vehicle monitoring for a wide range of vehicle types. Described as suitable for taxis, ambulances, and engineering vehicles, the VT200 provides location updates, mileage tracking, moving tests, abnormal alarms, and motion detection using an internal 3 axis accelerometer. Remote upgrade capability is also part of the device feature set.
 

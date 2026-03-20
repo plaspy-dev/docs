@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - TLD2-D
 
+<div className="device-logo">
 ![TLD2-D](./tracker.png)
+</div>
 
 El TopFly TLD2-D es un rastreador GPS 4G LTE en formato OBDII plug-and-play diseñado para un despliegue rápido en flotas, autos corporativos y vehículos de alquiler. Ofrece posicionamiento en tiempo real con alta frecuencia y telemetría desde el bus CAN, como VIN, odómetro, nivel de combustible, RPM y códigos de diagnóstico, todo accesible sin cables al conectarlo al puerto OBDII del vehículo. Además soporta emparejamiento con sensores Bluetooth, cuenta con un acelerómetro interno con buzzer para alertas por eventos bruscos y funciones en el equipo para vigilancia antirrobo.
 

@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Alpha-Beacon 2XL
 
+<div className="device-logo">
 ![Alpha-Beacon 2XL](./tracker.jpg)
+</div>
 
 The AutoFon Alpha-Beacon 2XL is a compact, waterproof GPS tracker and asset beacon designed for discreet long term protection of vehicles and valuables. It combines a sealed IP67 housing with high sensitivity GPS and GLONASS positioning to provide reliable location reporting while remaining small enough for covert placement. The device is built for long duration deployments and includes factory provisioned connectivity and resilient reporting features that suit anti theft and remote supervision scenarios.
 

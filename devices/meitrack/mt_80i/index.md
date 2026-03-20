@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - MT-80i
 
+<div className="device-logo">
 ![MT-80i](./logo.jpg)
+</div>
 
 The Meitrack MT-80i is a compact and versatile GPS tracker designed for a range of tracking scenarios including personal protection, pet monitoring, asset security, and vehicle tracking. Its small footprint and light weight make it easy to carry or attach to collars and belts. The device uses SiRF III GPS positioning and supports AGPS with GSM base station identification to improve positioning, and it operates on Quad Band GSM for broad cellular coverage.
 

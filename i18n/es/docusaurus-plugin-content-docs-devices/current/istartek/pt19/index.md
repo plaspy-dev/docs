@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - PT19
 
+<div className="device-logo">
 ![PT19](./tracker.jpg)
+</div>
 
 El PT19 es un rastreador GPS 3G con diseño tipo reloj, pensado para ofrecer seguridad personal fiable y monitoreo continuo de ubicación. Cuenta con posicionamiento multimodal —GPS, BeiDou, AGPS, Wi‑Fi y LBS— para proporcionar fijaciones de ubicación oportunas en entornos urbanos, interiores y cielo abierto. Sus funciones se centran en alertas inmediatas y verificación situacional, con un botón SOS dedicado, voz bidireccional, monitorización remota de audio y captura fotográfica a demanda en una pantalla táctil de 1.54 pulgadas.
 

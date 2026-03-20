@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK109
 
+<div className="device-logo">
 ![TK109](./tracker.jpg)
+</div>
 
 El TK‑Star TK109 es un rastreador GPS compacto, compatible con Plaspy, diseñado para la seguridad personal y la protección de activos. Construido como una unidad ligera y resistente al agua, el TK109 utiliza múltiples modos de posicionamiento para ofrecer datos de ubicación fiables tanto en exteriores como en interiores, y soporta alertas inmediatas por SOS y por vibración. Su tamaño reducido y su carcasa protectora lo hacen adecuado para uso como dispositivo ponible o para fijarlo discretamente a activos portátiles.
 

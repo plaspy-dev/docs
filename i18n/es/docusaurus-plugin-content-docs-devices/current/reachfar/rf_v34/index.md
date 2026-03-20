@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V34
 
+<div className="device-logo">
 ![RF-V34](./tracker.jpg)
+</div>
 
 El RF-V34 es un rastreador GPS resistente y alimentado por energía solar, diseñado para el seguimiento prolongado en exteriores de ganado como bovinos y ovinos. Pensado para el monitoreo remoto de pasturas, combina una batería interna de alta capacidad con carga solar y una carcasa con clasificación IP67 para reducir las visitas de mantenimiento y ofrecer funcionamiento fiable en condiciones de campo exigentes. La unidad puede montarse en el collar y cuenta con conexión magnética USB para facilitar el servicio sin herramientas complejas.
 

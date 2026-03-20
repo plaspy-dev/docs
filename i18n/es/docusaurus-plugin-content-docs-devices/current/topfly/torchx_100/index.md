@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - TorchX 100
 
+<div className="device-logo">
 ![TorchX 100](./tracker.png)
+</div>
 
 El TorchX 100 de TopFly es un rastreador OBDII plug and play pensado para seguimiento en tiempo real y telemetría vehicular avanzada. Diseñado tanto para vehículos ligeros como pesados, el TorchX 100 entrega actualizaciones de ubicación frecuentes, lectura completa del bus CAN para VIN, odómetro real, nivel de combustible, estado de ignición y códigos de diagnóstico, además de soporte integrado para ELD y cumplimiento de horas de servicio. Su formato compacto OBDII y conectividad de nivel fleet lo hacen adecuado para una amplia variedad de despliegues en vehículos.
 

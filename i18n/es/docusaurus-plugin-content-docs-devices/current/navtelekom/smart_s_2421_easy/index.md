@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2421 EASY+
 
+<div className="device-logo">
 ![SMART S-2421 EASY+](./tracker.jpeg)
+</div>
 
 El SMART S-2421 EASY+ es un rastreador telemático vehicular compacto de Navtelekom que combina posicionamiento GNSS con conectividad celular 2G. Diseñado para entornos automotrices, incorpora antenas GNSS y GSM internas, Bluetooth 4.0, un acelerómetro integrado y una batería de respaldo que permite mantener reportes durante interrupciones breves de la alimentación. Su tamaño reducido y entradas de alimentación protegidas lo hacen adecuado para flotas mixtas y para instalaciones discretas.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G717
 
+<div className="device-logo">
 ![G717](./logo..png)
+</div>
 
 The Gosafe G717 is a compact cigarette lighter GPS tracker designed for use in vehicles with a cigar lighter charger. It is a plug and play device that connects directly to the vehicle power socket and offers location tracking, event monitoring, and basic vehicle safety features. The G717 includes assisted GPS positioning, a high sensitivity GNSS module, a 16G G force sensor for impact detection, geo fence management, and an internal backup battery to maintain tracking during power interruptions.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-2652
 
+<div className="device-logo">
 ![СИГНАЛ S-2652](./tracker.jpeg)
+</div>
 
 The СИГНАЛ S-2652 is a rugged on board GPS tracker designed for vehicle telematics and fleet management. Built for harsh vehicle environments, the unit combines GLONASS GPS positioning, a 3G cellular modem with dual SIM capability, microSD local logging and multiple serial and CAN interfaces. These features make the S-2652 suitable for continuous tracking, extended data collection and integration with vehicle systems in commercial and industrial fleets.
 

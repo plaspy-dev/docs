@@ -21,7 +21,9 @@ keywords:
 
 # Telic - familia de productos SBC
 
+<div className="device-logo">
 ![SBC product family](./tracker.jpg)
+</div>
 
 La familia de productos SBC de Telic es una plataforma telemática robusta diseñada para la gestión de flotas y el seguimiento de vehículos. Modelos como el SBC3 CAN 4G y el SBC AVL 4G ofrecen una carcasa resistente con antena integrada y múltiples interfaces cableadas, lo que garantiza un funcionamiento fiable a largo plazo en entornos de vehículos y remolques. Estos equipos están pensados para una instalación ágil y un enlace ascendente estable que permite el seguimiento continuo y la recolección de telemetría.
 

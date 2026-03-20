@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - MDT-7
 
+<div className="device-logo">
 ![MDT-7](./logo.jpg)
+</div>
 
 El CalmAmp MDT-7 es un terminal GPS versátil basado en un entorno Android abierto. Combina un formato compacto y resistente con una pantalla táctil de 7 pulgadas, cámaras frontal y trasera, memoria interna y soporte para micro SD. Con opciones de conectividad cableada e inalámbrica y un enfoque en la centralización de flujos de trabajo, el MDT-7 está pensado para transporte de larga distancia, flotas locales, entrega de activos y gestión de personal móvil.
 

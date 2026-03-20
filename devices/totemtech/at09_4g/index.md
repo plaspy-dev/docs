@@ -20,7 +20,9 @@ keywords:
 
 # Totemtech - AT09-4G
 
+<div className="device-logo">
 ![AT09-4G](./tracker.jpg)
+</div>
 
 The Totemtech AT09-4G is a rugged 4G GPS tracker built for demanding vehicle environments including cars, trucks, trailers and heavy machinery. It combines multi-constellation GNSS positioning with vehicle condition sensing and broad peripheral support, making it suitable for fleet management, anti-theft and operational visibility in commercial and industrial applications.
 

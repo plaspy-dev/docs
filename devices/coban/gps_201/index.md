@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS-201
 
+<div className="device-logo">
 ![GPS-201](./logo..png)
+</div>
 
 The Coban GPS-201 is a compact pet GPS tracker designed for pet positioning, tracking, training, and socialization. It combines dedicated hardware with an integrated pet management app to help owners monitor location, interact remotely, and support training and social behavior. The device is rated IP67 for weather protection and offers extended standby time to suit continuous monitoring needs.
 

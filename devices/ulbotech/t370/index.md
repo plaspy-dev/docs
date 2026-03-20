@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T370
 
+<div className="device-logo">
 ![T370](./tracker.jpg)
+</div>
 
 The Ulbotech T370 is a compact OBD GPS tracker designed for reliable real time vehicle tracking, theft protection and driver behavior monitoring. Built to plug into a vehicle OBD port for fast deployment, the device combines a u‑blox MAX‑7 GNSS receiver and Telit xE910 family cellular connectivity to provide positioning and telemetry suited to fleet and telematics applications. Its internal accelerometer, immobilizer output and onboard backup battery make the T370 a practical choice for operators seeking a turnkey OBD solution.
 

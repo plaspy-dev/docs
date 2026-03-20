@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - TK-103
 
+<div className="device-logo">
 ![TK-103](./logo.jpg)
+</div>
 
 The Xexun TK-103 is a versatile GPS tracker designed for a range of vehicle and equipment tracking scenarios. Commonly deployed for private cars, vehicle leasing fleets, outdoor mechanical equipment anti theft tracking, and corporate vehicle management, the TK-103 provides continuous location reporting and a suite of monitoring features. Notable device capabilities include immediate inquiry location, scheduled time tracking, address SMS inquiries, historical track playback, electronic fence functionality, and multiple alarm types to notify of abnormal events.
 

@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GB100CG
 
+<div className="device-logo">
 ![GB100CG](./tracker.png)
+</div>
 
 El GB100CG es un rastreador GPS compacto de montaje en batería, diseñado para telemática automotriz y soluciones de seguros basados en uso (UBI). Combina una carcasa resistente con certificación IP67, conectividad celular amplia y un sensor de movimiento de 6 ejes de alta frecuencia para ofrecer actualizaciones continuas de posición, datos de comportamiento al conducir y registros de eventos aptos para aseguradoras, operadores de flota y sistemas de seguridad vehicular.
 

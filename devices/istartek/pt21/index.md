@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - PT21
 
+<div className="device-logo">
 ![PT21](./tracker.jpg)
+</div>
 
 The PT21 is a compact GPS tracking device from iStartek designed for discreet personal tracking, pets and small asset protection. It combines GPS, LBS and Wi‑Fi hybrid positioning with 2G GPRS communications to provide real time location updates, SOS emergency signaling and two way audio in a small waterproof enclosure suitable for on the move use.
 

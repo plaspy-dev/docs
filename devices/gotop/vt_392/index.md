@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-392
 
+<div className="device-logo">
 ![VT-392](./logo.jpg)
+</div>
 
 The GOTOP VT-392 is a versatile vehicle GPS tracker that combines location monitoring with alarm and driver identification features. It supports integration with car alarm systems and includes an RFID phone reader function that lets a smartphone act as an authorized tag. The unit can recognize configured phones, arm the tracker automatically when the authorized phone leaves the vehicle, and send alerts and calls to the configured cell phone or platform if the vehicle is opened, started, or moved.
 

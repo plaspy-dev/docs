@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AL100
 
+<div className="device-logo">
 ![AL100](./tracker.jpg)
+</div>
 
 El AL100 es un rastreador para movilidad eléctrica de ATrack, diseñado para el seguimiento en tiempo real de bicicletas eléctricas tanto en flotas de alquiler como en uso privado. Con una carcasa resistente a la intemperie y conectividad celular, el dispositivo se orienta a la entrega continua de ubicación y telemetría del vehículo en condiciones exteriores y entornos exigentes. Está pensado para operadores de flotas que necesitan seguimiento persistente y visibilidad de datos en activos distribuidos.
 

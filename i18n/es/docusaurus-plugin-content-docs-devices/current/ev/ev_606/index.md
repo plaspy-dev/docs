@@ -21,7 +21,9 @@ keywords:
 
 # EV - EV-606
 
+<div className="device-logo">
 ![EV-606](./logo.jpg)
+</div>
 
 El EV-606 es un dispositivo versátil para rastreo de personas y bienes pensado para vigilancia de ubicación continua. Combina posicionamiento por satélite GPS con la tecnología CellLocate para mejorar la localización en entornos protegidos o interiores, como estacionamientos o espacios cerrados. La unidad incorpora una batería recargable y reemplazable de larga autonomía, un sensor 3D G integrado para detección de movimiento y golpes, capacidades de comunicación por voz y almacenamiento a bordo capaz de registrar decenas de miles de puntos.
 

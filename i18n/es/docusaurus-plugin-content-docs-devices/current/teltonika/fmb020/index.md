@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMB020
 
+<div className="device-logo">
 ![FMB020](./tracker.png)
+</div>
 
 El Teltonika FMB020 es un rastreador GPS ultracompacto diseñado para una instalación rápida tipo plug and play en automóviles de pasajeros y vehículos comerciales ligeros. Su factor de forma OBD II lo hace adecuado para despliegues a gran escala donde la mínima interrupción y la colocación discreta son prioridades. El equipo ofrece posicionamiento GPS y puede ampliarse con sensores y balizas Bluetooth Low Energy para entradas contextuales como temperatura, humedad, detección magnética y monitoreo de movimiento.
 

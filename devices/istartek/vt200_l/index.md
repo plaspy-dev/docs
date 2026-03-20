@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - VT200-L
 
+<div className="device-logo">
 ![VT200-L](./tracker.jpg)
+</div>
 
 The VT200-L is a 4G vehicle GPS tracker designed for reliable real time tracking and comprehensive fleet telematics. Built for demanding vehicle environments, the unit combines high precision GNSS positioning with cellular fallback and robust I O to deliver continuous location, telemetry and anti theft features. It includes onboard flash memory for offline buffering and is designed to maintain reporting continuity in challenging coverage scenarios.
 

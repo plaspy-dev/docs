@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - MT-100
 
+<div className="device-logo">
 ![MT-100](./logo.jpg)
+</div>
 
 The Megastek MT-100 is a handheld GPS tracker designed for reliable location tracking in a variety of environments. Built with a waterproof IP66 rating, the MT-100 is intended for outdoor use and everyday field work. It combines assisted GPS positioning to improve location speed and accuracy with practical features such as real time tracking, SOS alarm with LBS position assistance, two way communication, and on device data logging using a Micro SD card.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2413
 
+<div className="device-logo">
 ![SMART S-2413](./tracker.jpeg)
+</div>
 
 El SMART S-2413 es un rastreador vehicular compacto con recepción GLONASS/GPS diseñado para la gestión profesional de flotas y la supervisión de activos. Combina una recepción GNSS sensible con un módem celular interno y protección eléctrica de grado automotriz para ofrecer reportes de posición consistentes y operación fiable en entornos vehiculares. El equipo incorpora entradas digitales y analógicas, interfaz RS-485, soporte Bluetooth 4.0 y una batería interna de respaldo para funcionamiento temporal durante cortes de alimentación.
 

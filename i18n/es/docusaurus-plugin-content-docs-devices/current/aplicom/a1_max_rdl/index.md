@@ -21,7 +21,9 @@ keywords:
 
 # Aplicom - A1 MAX RDL
 
+<div className="device-logo">
 ![A1 MAX RDL](./logo.jpg)
+</div>
 
 El Aplicom A1 MAX RDL es un rastreador GPS diseñado para soportar el Servicio de Descarga Remota (RDL) de Aplicom para la recolección de datos de tacógrafos digitales. Además de su capacidad de descarga remota, el equipo ofrece funcionalidad telemática y de seguimiento general, permitiendo la monitorización de ubicaciones y la recopilación de datos de la flota sin necesidad de acceder físicamente a los vehículos. Esta combinación hace que el A1 MAX RDL sea adecuado para operaciones que requieren tanto datos de cumplimiento como visibilidad operativa continua.
 

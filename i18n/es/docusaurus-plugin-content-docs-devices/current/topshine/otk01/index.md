@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - OTK01
 
+<div className="device-logo">
 ![OTK01](./tracker.jpg)
+</div>
 
 El OTK01 es un rastreador GPS compacto plug and play para puerto OBD II, diseñado para el seguimiento de vehículos y la gestión de flotas. Se conecta directamente al puerto OBD del vehículo para ofrecer ubicación continua, telemetría de diagnóstico y alertas de eventos sin necesidad de cableado adicional. Con aceleración AGPS para obtener fijaciones iniciales más rápidas, el OTK01 es una opción práctica para operadores que requieren despliegue ágil y actualizaciones posicionales consistentes.
 

@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - A18
 
+<div className="device-logo">
 ![A18](./logo.jpg)
+</div>
 
 El AoYa A18 es un rastreador GPS compacto y confiable, pensado principalmente para aplicaciones automotrices. Con unas dimensiones de 88 mm x 46 mm x 16 mm y un peso de 80 g, el dispositivo es pequeño y ligero, ideal para una instalación discreta. Combina posicionamiento por GPS, LBS y AGPS y utiliza un chip GPS UBLOX para ofrecer sensibilidad constante y una precisión de ubicación en el rango de 5 a 10 metros.
 

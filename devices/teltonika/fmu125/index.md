@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMU125
 
+<div className="device-logo">
 ![FMU125](./Logo.png)
+</div>
 
 The Teltonika FMU125 is a compact professional real time tracking terminal designed for reliable location monitoring of vehicles and other mobile assets. It combines GNSS positioning with 3G GSM connectivity and includes built in GNSS and 3G antennas plus an accelerometer to support movement and event detection. The device also provides a data interface for connecting third party external devices to extend monitoring capabilities.
 

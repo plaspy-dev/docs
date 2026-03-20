@@ -21,7 +21,9 @@ keywords:
 
 # Protrack - VT08S
 
+<div className="device-logo">
 ![VT08S](./tracker.jpg)
+</div>
 
 El VT08S es un rastreador GPS compacto de Protrack diseñado para automóviles y motocicletas. Ofrece las funciones básicas de seguimiento y seguridad que se esperan en la monitorización de flotas y vehículos particulares, incluyendo alerta SOS, geocercas, avisos por exceso de velocidad, registro histórico de viajes, detección de corte de energía y corte remoto de combustible para inmovilización. Con certificación IP65 y un diseño resistente, el VT08S está pensado para una instalación discreta y un funcionamiento fiable en las condiciones habituales de los vehículos.
 

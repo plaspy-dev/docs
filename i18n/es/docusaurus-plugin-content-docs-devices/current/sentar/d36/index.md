@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D36
 
+<div className="device-logo">
 ![D36](./tracker.png)
+</div>
 
 El Sentar D36 es un reloj inteligente infantil 4G diseñado para padres que requieren una supervisión de ubicación fiable y una comunicación bidireccional sencilla. El dispositivo combina posicionamiento por GPS, LBS y WiFi con conectividad celular multibanda y ranura para Nano SIM, entregando actualizaciones de ubicación frecuentes y conectividad de voz en un formato compacto de smartwatch. Su pantalla táctil IPS de 1.28 pulgadas, carcasa de ABS más PC y correa de silicona suave lo hacen cómodo para el uso diario de los niños, mientras que su arquitectura basada en RTOS busca una operación estable.
 

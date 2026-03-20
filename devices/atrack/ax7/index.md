@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AX7
 
+<div className="device-logo">
 ![AX7](./logo.jpg)
+</div>
 
 The ATrack AX7 is a compact GPS vehicle tracker designed for fleet control, vehicle tracking, and car rental applications. It connects directly to a vehicle OBDII port for a plug and play installation experience, reducing installation time and cost compared with hardwired devices. The AX7 provides real time tracking and monitoring of vehicle location and speed, and includes on device features such as a backup battery, internal memory for event storage, sleep mode for power saving, internal GPS and GSM antennas, and a USB port for additional connectivity.
 

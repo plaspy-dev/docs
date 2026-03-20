@@ -20,7 +20,9 @@ keywords:
 
 # Zilogic - Fleet
 
+<div className="device-logo">
 ![Fleet](./logo.jpg)
+</div>
 
 The Zilogic BlackKite Fleet is a GPS tracker designed for mobile assets and fleet management. It integrates a highly accurate SiRF IV GPS receiver and provides dedicated interfaces to monitor key vehicle signals such as ignition, battery, and a panic button. The device also exposes multiple digital inputs and outputs plus analog inputs and a serial connection, enabling additional monitoring and control functions useful in fleet operations.
 

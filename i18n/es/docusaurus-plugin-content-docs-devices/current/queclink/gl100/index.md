@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL100
 
+<div className="device-logo">
 ![GL100](./logo.jpg)
+</div>
 
 El QuecLink GL100 es un rastreador GPS compacto diseñado para el seguimiento de vehículos, mascotas y activos generales. Integra un receptor SIRF Star III de alta sensibilidad y un tiempo hasta la primera fijación (TTFF) rápido para ofrecer informes de posición fiables. El equipo soporta frecuencias GSM quad band para comunicación en áreas extensas, incluye una pantalla OLED blanca para lecturas locales básicas, y ofrece resistencia al agua y un sensor de movimiento integrado para uso práctico en distintos entornos.
 

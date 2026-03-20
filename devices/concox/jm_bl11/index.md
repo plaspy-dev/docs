@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-BL11
 
+<div className="device-logo">
 ![JM-BL11](./tracker.png)
+</div>
 
 The JM-BL11 is a rugged GNSS bike sharing lock engineered for large scale micro mobility and shared bicycle fleets. Designed for demanding outdoor use, it combines GNSS positioning with A GPS and LBS fallback, Bluetooth 4.0 LE local control, tamper resistant mechanics, and long life power with optional solar charging to support distributed deployments and reduce routine maintenance.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 340LC
 
+<div className="device-logo">
 ![ST 340LC](./logo.jpg)
+</div>
 
 El Suntech ST 340LC es un rastreador GPS compacto y resistente al agua diseñado para múltiples industrias que requieren un dispositivo de seguimiento fiable y de bajo mantenimiento. Combina un tamaño reducido con la funcionalidad esencial de la serie ST340, y se presenta como una opción rentable para el monitoreo de motocicletas, vehículos y aplicaciones vinculadas a seguros o programas de financiamiento. El dispositivo enfatiza una larga autonomía entre cargas gracias a su bajo consumo de batería, lo que ayuda a reducir las labores de mantenimiento operativo.
 

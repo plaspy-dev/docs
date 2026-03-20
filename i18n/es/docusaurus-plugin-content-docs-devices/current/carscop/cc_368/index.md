@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CC-368
 
+<div className="device-logo">
 ![CC-368](./tracker.JPG)
+</div>
 
 El CC-368 es una T Box 4G diseñada específicamente para telemática vehicular en entornos de alquiler de autos, carsharing y gestión remota de flotas. Integra conectividad celular 2G, 3G y 4G LTE con un módulo GNSS U‑Blox con A‑GPS y antenas externas para ofrecer posicionamiento continuo. Sus interfaces vehiculares integradas —como OBD II CANBUS—, el acceso por Bluetooth y sus múltiples entradas y salidas hacen que la unidad sea idónea para la recolección de telemetría y para realizar interacciones controladas sobre vehículos en flotas gestionadas.
 

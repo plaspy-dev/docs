@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT19‑H
 
+<div className="device-logo">
 ![GPT19‑H](./tracker.jpg)
+</div>
 
 El GPT19‑H es un rastreador magnético para activos diseñado para despliegues encubiertos a largo plazo y para un monitoreo remoto fiable. Con un imán potente y protección IP67, está pensado para un montaje discreto en remolques, contenedores, maquinaria y otros activos donde la durabilidad y el bajo mantenimiento son prioritarios. El dispositivo combina posicionamiento GPS y LBS y ofrece alertas por movimiento, caídas y manipulación para mantener la visibilidad operativa del activo.
 

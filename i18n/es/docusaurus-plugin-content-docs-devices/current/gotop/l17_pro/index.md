@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - L17 PRO
 
+<div className="device-logo">
 ![L17 PRO](./tracker.jpg)
+</div>
 
 El L17 PRO es un rastreador GPS compacto presentado como un reloj inteligente, concebido para el seguimiento personal, la telemetría de salud y la asistencia en emergencias. Diseñado para uso diario, combina roaming celular global, conectividad Wi‑Fi y BLE con sensores integrados para ofrecer actualizaciones continuas de ubicación, registro de actividad y lecturas de signos vitales bajo demanda. El dispositivo incluye un botón SOS dedicado y llamadas bidireccionales para facilitar la comunicación rápida en situaciones urgentes.
 

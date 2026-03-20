@@ -20,7 +20,9 @@ keywords:
 
 # Totemtech - AT07-3G
 
+<div className="device-logo">
 ![AT07-3G](./logo.jpg)
+</div>
 
 The Totemtech AT07-3G is a compact and versatile GPS tracker designed for a variety of tracking roles. It provides movement monitoring via a built in 3 axis digital accelerometer, supports local data storage on a Micro SD card, and can upload tracking data to two servers simultaneously for added delivery redundancy. The device also offers over the air firmware upgrades, multiple communication options, real time tracking, and a suite of alarm types for event awareness.
 

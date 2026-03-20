@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T371
 
+<div className="device-logo">
 ![T371](./tracker.jpg)
+</div>
 
 The Ulbotech T371 is a Plaspy compatible OBD II GPS tracker designed for professional fleet and vehicle management. It combines plug-and-play OBD connectivity with a Telit xE910 cellular modem and a u-blox MAX-7 GNSS engine to provide reliable real-time positioning and rich vehicle telemetry. The unit is built to deliver fast time to first fix and continuous data streams for locations, diagnostics and event detection in moving vehicles.
 

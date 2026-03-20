@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - X06
 
+<div className="device-logo">
 ![X06](./tracker.jpg)
+</div>
 
 El Xexun X06 es una credencial wearable con posicionamiento GPS y Beidou diseñada para la gestión de ubicación de personas. Su formato compacto integra posicionamiento multimodal con asistencia por WiFi y LBS, un módulo de voz y una alarma SOS, ofreciendo una solución práctica para el monitoreo continuo y discreto en ámbitos educativos, cuidado de adultos mayores, control de asistencia corporativa y seguridad.
 

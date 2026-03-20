@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - MT210
 
+<div className="device-logo">
 ![MT210](./tracker.jpg)
+</div>
 
 El MT210 es un rastreador GPS compacto de calidad vehicular diseñado para mantener conectividad continua y una instalación discreta en automóviles, motocicletas y flotas comerciales. Integra componentes industriales, conectividad GSM cuatribanda y un receptor GNSS sensible para ofrecer reportes de posición fiables, alertas por geocerca y telemetría de encendido. La unidad está pensada para máxima disponibilidad gracias a la conmutación entre SIMs, reportes por SMS y GPRS, batería de respaldo integrada y un amplio rango de entrada de corriente continua apto para despliegues en flotas mixtas.
 

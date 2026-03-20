@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-408B
 
+<div className="device-logo">
 ![BN-408B](./tracker.png)
+</div>
 
 The BN-408B is a portable wireless GPS tracker designed for discreet, long life mobile asset management and anti theft protection. Built for extended standby deployments, the unit combines a strong magnetic mounting option and a high capacity rechargeable battery to support long term covert attachment to vehicles, equipment and other high value assets. The model provides position reporting, movement detection and a broad set of alarms to support recovery and monitoring workflows.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Arusnavi - Arnavi L2 (versión para encendedor con botón de pánico)
 
+<div className="device-logo">
 ![Arnavi L2 (cigarette lighter version with panic button)](./tracker.png)
+</div>
 
 El Arnavi L2 en su versión para tomacorriente de encendedor con botón de pánico es un rastreador GPS plug and play pensado para instalaciones rápidas sin necesidad de perforaciones y para facilitar su traslado entre vehículos. Orientado a gestores de flota, operadores de alquiler y ride‑hailing, y vehículos en arrendamiento de corto plazo, el equipo ofrece reportes continuos de posición, telemetría de conducción y una alarma de emergencia dedicada sin requerir cableado permanente.
 

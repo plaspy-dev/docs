@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - VT200
 
+<div className="device-logo">
 ![VT200](./tracker.jpg)
+</div>
 
 El TopShine VT200 es un rastreador GPS profesional para vehículos, diseñado para la gestión de flotas y activos empresariales. Basado en conectividad 2G GSM, el VT200 incorpora una batería interna de respaldo y un registrador de datos de 2 MB para conservar los registros de posición cuando la cobertura es intermitente. El equipo ofrece múltiples entradas y salidas, capacidad de corte remoto del motor, botón SOS y soporte opcional para sensor ultrasónico de combustible, por lo que es adecuado para casos que requieren protección antirrobo y monitoreo de combustible.
 

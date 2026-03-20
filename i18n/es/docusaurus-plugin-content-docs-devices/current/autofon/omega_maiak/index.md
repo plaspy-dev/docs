@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Омега-Маяк+
 
+<div className="device-logo">
 ![Омега-Маяк+](./logo..png)
+</div>
 
 El AutoFon Омега-Маяк+ es un rastreador GPS compacto diseñado para determinar la ubicación de un objeto protegido mediante los sistemas satelitales GLONASS y GPS, con posicionamiento de reserva a través de estaciones base de la red celular. Según la ficha técnica, el dispositivo transmite coordenadas y eventos registrados por redes 2G GSM utilizando transmisión de datos o mensajes SMS. La detección de movimiento integrada y el monitoreo de impactos permiten que el Омега-Маяк+ aporte visibilidad situacional sobre los activos asegurados.
 

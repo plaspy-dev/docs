@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4945B
 
+<div className="device-logo">
 ![ST4945B](./tracker.jpg)
+</div>
 
 El ST4945B es un rastreador GPS robusto de Suntech pensado para monitorización de baja potencia y larga duración en entornos exteriores exigentes. Con opciones de conectividad IoT celular y una autonomía de batería ampliada, el ST4945B está orientado a aplicaciones como monitoreo de contenedores y remolques, supervisión de flotas y recuperación remota de activos, donde la resistencia del equipo y la continuidad operativa son prioritarias.
 

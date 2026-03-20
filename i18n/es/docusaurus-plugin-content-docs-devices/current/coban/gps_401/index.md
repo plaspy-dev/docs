@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS-401
 
+<div className="device-logo">
 ![GPS-401](./logo..png)
+</div>
 
 El Coban GPS-401 es un rastreador GPS compacto y versátil pensado principalmente para motocicletas y autos pequeños. Soporta redes GSM 2G y 4G para el reporte de posición y ofrece rastreo en tiempo real por GPS y LBS. El equipo cuenta con certificación IP67 y un amplio rango de voltaje DC, lo que lo hace apto para uso exterior y para distintos sistemas eléctricos vehiculares.
 

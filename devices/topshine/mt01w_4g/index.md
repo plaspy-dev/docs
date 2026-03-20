@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - MT01W-4G
 
+<div className="device-logo">
 ![MT01W-4G](./tracker.jpg)
+</div>
 
 The MT01W-4G is a compact, Plaspy compatible GPS tracker designed for fleet management, passenger vehicles and security focused operators. It combines vehicle location tracking, integrated video monitoring via a built in WiFi hotspot, and a suite of event alerts in a discreet waterproof enclosure intended for straightforward deployment across mixed vehicle fleets.
 

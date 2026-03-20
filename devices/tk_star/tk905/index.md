@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TK905
 
+<div className="device-logo">
 ![TK905](./tracker.jpg)
+</div>
 
 The TK905 from TK-Star is a rugged 4G GPS tracker designed for reliable vehicle tracking and asset monitoring. Intended for use on cars, rental fleets, cargo containers and outdoor equipment, this model emphasizes long endurance, multi-mode positioning and robust movement alerts to support continuous location visibility in field deployments.
 

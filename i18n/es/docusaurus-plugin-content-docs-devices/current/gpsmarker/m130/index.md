@@ -21,7 +21,9 @@ keywords:
 
 # GPSMarker - M130
 
+<div className="device-logo">
 ![M130](./logo.jpg)
+</div>
 
 El GPSMarker M130 es un rastreador GPS independiente y versátil, diseñado para ofrecer monitoreo de ubicación fiable en vehículos y activos portátiles. Integra un receptor GNSS multiconstelación con amplio número de canales para mejorar la precisión de coordenadas, y se entrega con una tarjeta SIM y un plan tarifario optimizados para supervisión en línea. El M130 proporciona larga duración de batería, modos periódicos de ahorro de energía y un conjunto de sensores y alarmas integrados para detección de movimiento, impactos, temperatura y notificaciones de pánico.
 

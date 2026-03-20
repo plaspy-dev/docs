@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - XE210
 
+<div className="device-logo">
 ![XE210](./logo.jpg)
+</div>
 
 The TK-Star XE210 is a compact and versatile GPS tracker designed to locate and monitor vehicles, people, and valuable assets. It combines GPS and AGPS dual positioning and uses existing cellular networks and satellite positioning to provide real-time location information. The XE210 includes features commonly required for practical tracking tasks such as historical route logging, geo-fencing, over-speed alarms, vibration alerts, and remote voice monitoring.
 

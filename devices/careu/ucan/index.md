@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - UCAN
 
+<div className="device-logo">
 ![UCAN](./tracker.png)
+</div>
 
 The CAREU UCAN is a plug and play OBD-II GPS tracker engineered for rapid deployment across vehicle fleets. It provides continuous location reporting and vehicle telemetry by connecting directly to a standard OBD-II port, delivering position, engine and ignition status, and OBD diagnostics to a central tracking platform. The UCAN is designed with fleet operations in mind, combining onboard logging, accelerometer-driven event detection, and cellular connectivity to keep vehicles visible and monitored.
 

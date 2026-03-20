@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-17C
 
+<div className="device-logo">
 ![AT-17C](./tracker.jpg)
+</div>
 
 El Autoseeker AT-17C es un rastreador GPS magnético 4G para activos, diseñado para el monitoreo encubierto y de bajo mantenimiento de remolques, contenedores, equipos de construcción, activos marítimos y otros bienes móviles. Su diseño prioriza una gran autonomía en reposo, una carcasa compacta y resistente al agua y una base magnética potente para permitir despliegues prolongados sin mantenimiento frecuente. El equipo reporta la ubicación a través de canales celulares e incluye alarmas por manipulación y extracción para ayudar a proteger activos de alto valor.
 

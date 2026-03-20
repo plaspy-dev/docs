@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G23
 
+<div className="device-logo">
 ![G23](./tracker.jpg)
+</div>
 
 El GOTOP G23 es un rastreador GPS mini con cable diseñado para instalaciones discretas en vehículos y para ofrecer monitorización continua de la ubicación. Su carcasa compacta de ABS, antenas internas y perfil delgado lo hacen ideal para automóviles, motocicletas, bicicletas eléctricas y vehículos comerciales ligeros donde se requiere un dispositivo de baja visibilidad. El G23 utiliza posicionamiento híbrido con GPS, BeiDou y LBS, logrando precisiones típicas alrededor de cinco metros, e incluye entradas y alarmas de vehículo habituales para prevención de robos y supervisión de flotas.
 

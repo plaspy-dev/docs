@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-VG02
 
+<div className="device-logo">
 ![JM-VG02](./logo..png)
+</div>
 
 The Concox JM-VG02 is an OBD II vehicle tracker designed for effortless installation and continuous vehicle monitoring. Based on the JM-VG02U description, it includes motion sensing hardware and driving behavior analysis capabilities that detect multiple types of unsafe driving events. It also uses INS aided GPS tracking to maintain reliable location information in areas where satellite signals are weak, and it provides fatigue driving alerts and a high level of mileage accuracy for consistent operational reporting.
 

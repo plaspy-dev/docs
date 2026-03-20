@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AK300
 
+<div className="device-logo">
 ![AK300](./tracker.jpg)
+</div>
 
 El AK300 es un rastreador GPS profesional de ATrack diseñado para la gestión de flotas y la supervisión de la seguridad. Está pensado para capturar posicionamiento y telemetría en tiempo real, reportando ubicación GPS/GLONASS precisa, kilometraje, velocidad, consumo de combustible y estado del motor para ofrecer información operativa y alertas oportunas. Su conjunto de funciones está orientado a flotas mixtas y entornos vehiculares exigentes donde la visibilidad continua y la fiabilidad de los datos son fundamentales.
 

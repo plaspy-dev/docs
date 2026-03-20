@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-600
 
+<div className="device-logo">
 ![LMU-600](./logo.jpg)
+</div>
 
 The CalmAmp LMU-600 is a cost effective and feature rich vehicle tracking device intended for automotive use. Designed with compact form and strong GPS performance, the LMU-600 series supports common vehicle tracking scenarios such as insurance telematics, stolen vehicle recovery, vehicle finance monitoring, and rental fleet tracking. It includes an internal backup battery and Inputs/Outputs for features like starter disable and panic button, together with internal cellular and GPS antennas to simplify installation.
 

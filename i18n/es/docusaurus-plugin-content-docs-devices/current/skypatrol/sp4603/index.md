@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP4603
 
+<div className="device-logo">
 ![SP4603](./logo..jpg)
+</div>
 
 La serie SkyPatrol SP4603 es un dispositivo de rastreo GPS con múltiples funciones diseñado para aplicaciones exigentes como la gestión de flotas y el despacho en campo. También es apto para usos comunes como telemática para seguros y la localización y recuperación de vehículos. Disponible en variantes 2G y 3G y desarrollado sobre una plataforma GSM GPRS cuatribanda, el SP4603 ofrece posicionamiento mediante un módulo GPS integrado y un diseño compacto y resistente pensado para su instalación en vehículos.
 

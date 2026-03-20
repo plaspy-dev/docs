@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - UC1
 
+<div className="device-logo">
 ![UC1](./tracker.png)
+</div>
 
 The CAREU UC1 is a combined GPS tracker and electronic cargo lock designed for secure container and asset sealing. Manufactured in Taiwan, the UC1 pairs mechanical protection such as a stainless steel chain and magnetic mounting with global real time tracking and tamper detection to provide continuous visibility for cargo, trailers, vans and intermodal containers.
 

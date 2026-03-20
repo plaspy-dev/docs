@@ -20,7 +20,9 @@ keywords:
 
 # Castel - PT-720
 
+<div className="device-logo">
 ![PT-720](./logo.jpg)
+</div>
 
 The Castel PT-720 is a compact kids GPS tracker watch designed to help caregivers monitor a child’s location and wellbeing. As a wearable, it combines two-way calling, multi-mode positioning (GPS, LBS, and WiFi), SOS alerting to preset contacts, and basic activity tracking. The device also supports geo-fencing, a month of historical route viewing, and a pedometer, all packaged in a lightweight form factor with a 1.3 inch display and standby time suitable for daily use.
 

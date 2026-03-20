@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - TLW2-12B
 
+<div className="device-logo">
 ![TLW2-12B](./tracker.png)
+</div>
 
 The TLW2-12B is a hardwired trailer GPS tracker built for rugged long dwell trailer and asset tracking. It combines a large internal rechargeable battery with multi band cellular connectivity and BLE 5.0 support to provide continuous location reporting and local sensor integration whether a trailer is connected to a truck or parked in a yard. The device is designed to deliver reliable real time tracking, buffered data storage during coverage gaps, and remote control of outputs for alarms and accessories.
 

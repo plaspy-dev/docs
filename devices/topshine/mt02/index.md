@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - MT02
 
+<div className="device-logo">
 ![MT02](./tracker.jpg)
+</div>
 
 The TopShine MT02 is a professional grade GPS tracker designed for vehicle installations. It combines 4G LTE cellular connectivity, GPS with assisted positioning, onboard data logging and fuel sensor integration to deliver continuous telemetry, configurable alerts and remote immobilization capabilities. The device is positioned for fleet use, offering features that support reliable tracking, historical recording and anti theft protection.
 

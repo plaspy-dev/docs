@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D50
 
+<div className="device-logo">
 ![D50](./tracker.jpg)
+</div>
 
 El Sentar D50 es un reloj inteligente 4G compacto para niños, diseñado pensando en la seguridad infantil y la comunicación familiar. Como rastreador GPS wearable, combina posicionamiento por GPS con LBS y WiFi, dispone de una cámara frontal para llamadas y fotos, y cuenta con un botón físico de SOS integrado en una pantalla a color de pequeño tamaño. El dispositivo está pensado para ofrecer visibilidad continua de ubicación y un reporte de emergencias sencillo para padres y responsables.
 

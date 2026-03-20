@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V9
 
+<div className="device-logo">
 ![RF-V9](./tracker.jpg)
+</div>
 
 The RF-V9 is a compact GPS tracker from Reachfar designed for reliable real time tracking of vehicles, personal items, and discreet assets. It combines a quad band GSM radio and a rechargeable battery to deliver continuous position updates and telemetry to internet platforms, mobile apps, WeChat and SMS. Core features described for the model include vibration and sound sensor alarms, trace replay, geo fence alerts and two way voice for on demand audio monitoring.
 

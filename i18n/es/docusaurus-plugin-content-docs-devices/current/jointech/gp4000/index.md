@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - GP4000
 
+<div className="device-logo">
 ![GP4000](./tracker.jpg)
+</div>
 
 El Jointech GP4000 es un rastreador GPS resistente diseñado para la gestión profesional de flotas. Pensado para ofrecer seguimiento confiable en distintos usos —logística, transporte refrigerado, taxis y maquinaria de obra— el GP4000 prioriza la estabilidad comprobada en campo y la telemetría rentable para flotas que operan en múltiples países. Su diseño está orientado a despliegues a largo plazo y a entornos operativos donde la localización contínua y la conectividad robusta son críticas.
 

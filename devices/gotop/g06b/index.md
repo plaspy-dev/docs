@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G06B
 
+<div className="device-logo">
 ![G06B](./logo..png)
+</div>
 
 The GOTOP G06B is a compact 4G car GPS tracker designed for vehicle locating and monitoring. It combines a waterproof IP67 enclosure with real time 4G connectivity and core vehicle safety features such as ACC detection, an SOS button, and a remote engine cut off option. The device also supports a set of alarms including geo fencing, low battery, vibration, movement, and main power cut alerts to help maintain awareness of vehicle status.
 

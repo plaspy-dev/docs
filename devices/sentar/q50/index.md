@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - Q50
 
+<div className="device-logo">
 ![Q50](./logo.jpg)
+</div>
 
 The Sentar Q50 Kids GPS Watch is a compact wearable designed to help parents monitor a child’s location and safety. Marketed as a user friendly wrist device, the Q50 combines location technologies and basic communication features to provide real time position updates, an SOS alert, and two way voice interaction. It is available in several colors and is built with everyday use in mind, including a waterproof design and extended battery life for longer monitoring intervals.
 

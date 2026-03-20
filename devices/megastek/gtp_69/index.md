@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - GTP-69
 
+<div className="device-logo">
 ![GTP-69](./logo.jpg)
+</div>
 
 The Megastek GTP-69 is a compact, lightweight GPS tracker designed for versatile asset and vehicle tracking. It combines a SiRF Star III GPS chipset for positioning with a GSM SIM 900 cellular module that supports quad band frequencies, providing broad coverage for location reporting. The unit includes practical features such as track on demand, interval tracking, motion detection, an SOS button, geo fencing, over speed warning, low battery notification, and local data logging to retain positions when cellular coverage is unavailable.
 

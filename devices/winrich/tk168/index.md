@@ -20,7 +20,9 @@ keywords:
 
 # Winrich - TK168
 
+<div className="device-logo">
 ![TK168](./logo.jpg)
+</div>
 
 The Winrich TK168 is a compact and versatile GPS tracker designed for personal and vehicle positioning as well as fleet management. It combines a high sensitivity GPS chipset with support for SMS and GPRS tracking modes, offering precise location reporting even in areas with weaker signal coverage. The TK168 also includes remote control features such as the ability to cut off oil and power, and optional alarm and SOS functions for added security.
 

@@ -21,7 +21,9 @@ keywords:
 
 # EV - EV-05
 
+<div className="device-logo">
 ![EV-05](./tracker.png)
+</div>
 
 El EV-05 Mobile Safety Watch es un rastreador GPS portátil diseñado para la protección personal continua. Presentado en formato de reloj de pulsera para personas mayores, pacientes y trabajadores en solitario, combina el seguimiento de ubicación con funciones de seguridad y monitoreo de salud como SOS, detección de caídas, alertas de frecuencia cardíaca y voz bidireccional, para que los cuidadores y equipos de monitoreo mantengan la visibilidad sobre la persona que lo porta.
 

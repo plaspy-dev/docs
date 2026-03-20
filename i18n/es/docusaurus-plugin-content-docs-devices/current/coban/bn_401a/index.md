@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-401A
 
+<div className="device-logo">
 ![BN-401A](./tracker.png)
+</div>
 
 El BN-401A es una terminal compacta para gestión de motocicletas, diseñada para ofrecer seguimiento en tiempo real y control básico de flotas en scooters, motocicletas y otros vehículos pequeños con sistema eléctrico de 12–24V. Su formato discreto y su conjunto de funciones orientadas a lo esencial brindan posicionamiento, alarmas por movimiento y golpes, señal SOS y reporte de estado de ignición, lo que la convierte en una opción práctica para operaciones de dos ruedas. Compatible con conectividad LTE 4G con respaldo GSM y múltiples métodos de transporte de datos, el BN-401A está pensado para mantener la funcionalidad del rastreador de manera continua en un equipo de dimensiones reducidas.
 

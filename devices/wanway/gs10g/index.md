@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - GS10G
 
+<div className="device-logo">
 ![GS10G](./tracker.webp)
+</div>
 
 The WanWay GS10G is a professional 4G vehicle GPS tracker designed for reliable, real time vehicle monitoring. Built for fleet management, insurance telematics, rental operations and passenger transport, the GS10G combines Netcom 4G communication with GPS and BDS satellite navigation to provide continuous location data and essential vehicle telemetry. Its feature set includes ACC ignition status, disassembly alarm, overspeed alerts, mileage statistics and remote fuel or power cut off, making it a practical option for operators who need responsive tracking and security controls.
 

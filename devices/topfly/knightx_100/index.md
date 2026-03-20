@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - KnightX 100
 
+<div className="device-logo">
 ![KnightX 100](./tracker.png)
+</div>
 
 The KnightX 100 is a discreet, rechargeable GPS tracker purpose built for long term covert monitoring of high value assets. It combines hybrid positioning, long battery operation, buffered storage and accessory sensor support to enable reliable location and environmental telemetry without permanent wiring. Compact and magnetically mountable, it’s suitable for temporary installations where low visibility and low maintenance are priorities.
 

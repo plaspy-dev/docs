@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - DG-388AT
 
+<div className="device-logo">
 ![DG-388AT](./tracker.jpg)
+</div>
 
 The DG-388AT is a compact GPS tracker style data logger from GlobalSat designed for personal and light asset tracking where detailed route history is the primary requirement. As a standalone logger, it records time, date, speed, altitude and GPS coordinates to create dense waypoint histories. Recorded tracks can be exported in common formats for further analysis and mapping.
 

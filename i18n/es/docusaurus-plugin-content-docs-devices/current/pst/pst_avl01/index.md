@@ -21,7 +21,9 @@ keywords:
 
 # PST - PST-AVL01
 
+<div className="device-logo">
 ![PST-AVL01](./logo.jpg)
+</div>
 
 El PST-AVL01 es un rastreador GPS GSM GPRS diseñado para el seguimiento vehicular en tiempo real y la gestión de flotas. Equipado con un receptor GPS de alta sensibilidad y conectividad GPRS estable, ofrece actualizaciones continuas de posición y un rendimiento fiable, apto tanto para vehículos individuales como para flotas más grandes. El dispositivo destaca por su tamaño compacto y su construcción resistente, e incluye funciones habituales en rastreo vehicular como geocercas, inmovilización remota y alertas SOS.
 

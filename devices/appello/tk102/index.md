@@ -20,7 +20,9 @@ keywords:
 
 # Appello - TK102
 
+<div className="device-logo">
 ![TK102](./logo.jpg)
+</div>
 
 The Appello TK102 is a compact and versatile GPS tracker designed for reliable location tracking across a range of applications. Built around an STC CPU and the New Star NS-1315 GPS chip, the TK102 delivers high GPS sensitivity and positioning accuracy, while a small form factor and lightweight design make it easy to deploy where discreet tracking is needed. The device supports GSM GPRS communications on common frequency bands and includes a rechargeable battery that provides extended standby time for longer operations.
 

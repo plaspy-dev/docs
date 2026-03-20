@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FTM305
 
+<div className="device-logo">
 ![FTM305](./tracker.png)
+</div>
 
 The Teltonika FTM305 is a compact 4G LTE Cat M1 e mobility GPS tracker built for demanding vehicle and equipment monitoring. Designed for electrified transport and industrial environments, the FTM305 combines a rugged IP67 enclosure with vehicle grade interfaces to deliver reliable positioning and telemetry for e bikes, forklifts, shuttle cars, utility machinery and other electric equipment.
 

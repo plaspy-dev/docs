@@ -20,7 +20,9 @@ keywords:
 
 # Sanav - GC-101
 
+<div className="device-logo">
 ![GC-101](./logo.jpg)
+</div>
 
 The SANAV GC-101 is a compact GPS tracker designed for intensive tracking applications such as fleet management and life security. It uses GPRS to upload RMC sentences that include latitude, longitude, speed, and time to an assigned web server. The device offers full quadband GSM coverage, onboard memory and a backup battery to preserve data during power interruptions, and a durable plastic enclosure with internal GSM antennas for a low profile installation.
 

@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G08L
 
+<div className="device-logo">
 ![G08L](./tracker.jpeg)
+</div>
 
 El G08L es un rastreador GPS tipo luz trasera de 4 pulgadas compatible con Plaspy, diseñado para reemplazar una luz trasera existente manteniendo todas sus funciones lumínicas. Integra posicionamiento GNSS, un módem celular y detección de movimiento a bordo para ofrecer monitoreo de ubicación continuo y encubierto, además de detección de eventos, sin alterar el aspecto exterior del vehículo. Su factor de forma como luz trasera y la carcasa con clasificación IP67 lo hacen apropiado para uso exterior en vehículos cuando se requiere hardware discreto y resistente a la manipulación.
 

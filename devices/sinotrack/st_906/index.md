@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-906
 
+<div className="device-logo">
 ![ST-906](./tracker.jpg)
+</div>
 
 The SinoTrack ST-906 is a compact wired vehicle GPS tracker designed for use on motorcycles, cars, trucks, e-bikes and logistics vehicles. It features a built in antenna and a straightforward SMS configuration flow that lets installers and owners set the device server, port and APN. The unit is intended for discreet on vehicle mounting and provides live position reporting together with history playback and remote SMS based configuration.
 

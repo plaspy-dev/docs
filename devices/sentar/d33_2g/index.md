@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D33-2G
 
+<div className="device-logo">
 ![D33-2G](./tracker.png)
+</div>
 
 The Sentar D33-2G is a compact, child-focused GPS tracker presented as a wearable smartwatch. It combines satellite positioning with cell tower assisted location (GPS + LBS), two-way voice calling, an SOS emergency button, a front-facing camera, and a water-resistant build with an eye-protection TFT display. The device is designed for everyday wear by children and provides caregivers with location and status updates via a companion mobile app.
 

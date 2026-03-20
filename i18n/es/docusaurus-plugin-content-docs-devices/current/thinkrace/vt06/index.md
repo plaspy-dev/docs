@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - VT06
 
+<div className="device-logo">
 ![VT06](./logo.jpg)
+</div>
 
 El ThinkRace VT06 es un rastreador vehicular compacto diseñado para ofrecer posicionamiento continuo y preciso. Proporciona seguimiento en tiempo real, reproducción de recorridos, soporte de geocerca, y estadísticas de datos, junto con un conjunto de alarmas que cubren fallo de alimentación, batería baja, vibración, desplazamiento, exceso de velocidad y violaciones de geocerca. Estas capacidades hacen del VT06 una opción práctica para supervisar la ubicación y la actividad de vehículos de distintos tipos.
 

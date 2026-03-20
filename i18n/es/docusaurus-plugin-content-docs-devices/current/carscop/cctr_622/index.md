@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-622
 
+<div className="device-logo">
 ![CCTR-622](./logo.jpg)
+</div>
 
 El Carscop CCTR-622 es un rastreador GPS personal compacto pensado para localizar niños, mascotas y objetos de valor. Ofrece actualizaciones de ubicación en tiempo real que se pueden visualizar en un mapa y admite mensajes de ubicación por SMS como método de respaldo. El dispositivo incorpora funciones de seguridad prácticas como alertas SOS, notificaciones por salida de zona y avisos por exceso de velocidad, y típicamente reporta la ubicación con una precisión de entre 10 y 20 metros.
 

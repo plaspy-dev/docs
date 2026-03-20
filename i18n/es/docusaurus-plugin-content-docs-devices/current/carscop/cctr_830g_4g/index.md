@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-830G-4G
 
+<div className="device-logo">
 ![CCTR-830G-4G](./tracker.JPG)
+</div>
 
 El CCTR-830G-4G es un rastreador GPS compacto con conector OBD II diseñado para seguimiento plug and play y diagnóstico básico del vehículo. Combina posicionamiento GNSS dual con asistencia A-GPS para ofrecer fijaciones de ubicación confiables y está concebido para acceder a información de diagnóstico y telemetría a través de la interfaz del vehículo sin requerir cableado adicional. La unidad está pensada para despliegues rápidos en vehículos individuales o instalaciones de flota donde la instalación sencilla y la supervisión continua son prioritarias.
 

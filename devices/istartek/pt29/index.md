@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - PT29
 
+<div className="device-logo">
 ![PT29](./tracker.jpg)
+</div>
 
 The PT29 is a compact 4G Mini Pet GPS Tracker from iStartek designed for pets, small livestock and portable assets. It combines a rugged IP67 rated enclosure and a lightweight form factor with multi-mode positioning to provide continuous location visibility, SOS emergency alerts and route playback. The device is built for day to day outdoor use where reliable real-time tracking and quick response are priorities.
 

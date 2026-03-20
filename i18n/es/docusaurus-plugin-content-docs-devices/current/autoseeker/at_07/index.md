@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-07
 
+<div className="device-logo">
 ![AT-07](./Logo.jpg)
+</div>
 
 El Autoseeker AT-07 es un mini rastreador GPS compacto pensado para múltiples escenarios de seguimiento. Se presenta como un dispositivo pequeño y discreto, adecuado para monitorear vehículos, camiones y contenedores, así como para usos de seguridad personal como el seguimiento de adultos mayores o personas con necesidades médicas. El AT-07 destaca por ofrecer visibilidad de la ubicación en tiempo real, una interfaz sencilla para acceder a los datos de seguimiento y una batería de larga duración para soportar usos prolongados.
 

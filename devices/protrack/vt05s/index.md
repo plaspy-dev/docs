@@ -20,7 +20,9 @@ keywords:
 
 # Protrack - VT05S
 
+<div className="device-logo">
 ![VT05S](./logo..jpg)
+</div>
 
 The Protrack VT05S is a compact wired vehicle tracker designed for continuous real time location monitoring of automobiles and motorbikes. Its small form factor and IP65 water resistance make it suitable for harsh outdoor conditions, while built in features such as ACC ignition detection, geofence support, vibration detection, over speed warning, and internal storage provide a practical feature set for routine vehicle tracking and asset protection.
 

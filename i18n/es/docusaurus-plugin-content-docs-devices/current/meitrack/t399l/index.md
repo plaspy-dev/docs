@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - T399L
 
+<div className="device-logo">
 ![T399L](./logo..png)
+</div>
 
 El Meitrack T399L es un rastreador GPS compacto que integra seguimiento de ubicación con comunicación Bluetooth para soportar sensores ambientales y múltiples beacons. Entre sus características están la compatibilidad con Bluetooth 4.2 y 5.0 para monitoreo de temperatura y humedad, puertos I/O configurables para conectar dispositivos externos, análisis de comportamiento de conducción y una carcasa con clasificación IP67 para protección en entornos húmedos y polvorientos. Su tamaño favorece una instalación discreta, pensado para vehículos y activos donde la detección ambiental y la supervisión del conductor aportan valor.
 

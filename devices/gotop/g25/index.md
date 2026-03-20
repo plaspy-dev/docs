@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G25
 
+<div className="device-logo">
 ![G25](./logo..png)
+</div>
 
 The GOTOP G25 is a 4G asset tracker built for reliable and efficient monitoring of a wide range of assets. Designed with a large battery capacity, it is intended for long term tracking and protection of items such as private cars, rental vehicles, fleet trucks, equipment, containers, bicycles, e-bikes, motorcycles, and parcel loads. The device includes an integrated GPS and 4G antenna, a high waterproof rating, and a strong magnet for secure placement, and it provides real time location updates plus common alarms like drop off, movement, and low battery alerts.
 

@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - GS10
 
+<div className="device-logo">
 ![GS10](./Logo.jpg)
+</div>
 
 El WanWay GS10 es un rastreador GPS vehicular inteligente que combina comunicación inalámbrica 4G full netcom con navegación por satélite GPS y BDS. Diseñado como un equipo compacto y ligero, el GS10 está pensado para una amplia variedad de vehículos y sectores, entre ellos aseguradoras, flotas empresariales, fabricantes y concesionarios, propietarios particulares, flotas de vehículos eléctricos, automóviles de pasajeros, taxis y empresas de alquiler. Ofrece seguimiento en tiempo real y funciones de supervisión que cubren necesidades comunes de seguridad y operación.
 

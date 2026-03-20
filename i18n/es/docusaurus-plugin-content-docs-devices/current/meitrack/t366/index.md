@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - T366
 
+<div className="device-logo">
 ![T366](./tracker.png)
+</div>
 
 El Meitrack T366 es un rastreador GNSS resistente con clasificación IP67, diseñado para entornos exigentes de vehículos y embarcaciones. Construido para soportar la entrada de agua y polvo, el dispositivo se enfoca en el seguimiento continuo en tiempo real y en el control seguro del inmovilizador en condiciones adversas. Su hardware incluye salidas de inmovilizador por relé, soporte para antena GNSS externa y un buffer local de datos que conserva el historial de ubicación cuando la conectividad es intermitente.
 

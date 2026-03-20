@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - YTWL_CA100F
 
+<div className="device-logo">
 ![YTWL_CA100F](./Logo.jpg)
+</div>
 
 The ThingSys YTWL_CA100F is an intelligent terminal designed primarily as a vehicle speed limiter for Ethiopia while also functioning as a professional multifunctional GPS tracker. Built around an ARM intelligent CPU and featuring a U blox GPS module and SIM800C cellular module, the unit is intended to provide precise speed limiting without interfering with vehicle throttle start or power torque. The device is described to allow free pedal movement within a defined speed range and offers enhanced anti jamming and a range of interfaces for external equipment.
 

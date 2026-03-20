@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CC-688
 
+<div className="device-logo">
 ![CC-688](./tracker.JPG)
+</div>
 
 La T-Box Carscop CC-688 es un dispositivo diseñado específicamente para el control vehicular y el rastreo GPS, pensado para operadores de alquiler de autos, carsharing y gestión de flotas. Combina posicionamiento GNSS con conectividad celular global y métodos de acceso locales para respaldar flujos de alquiler desatendidos y el control remoto del vehículo. La unidad está diseñada para permitir acceso mediante aplicación y autenticación local por NFC o entradas táctiles, además de soportar arranque sin llave (push start) para entregas más sencillas.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - TR-616
 
+<div className="device-logo">
 ![TR-616](./logo..jpg)
+</div>
 
 The GlobalSat TR-616, listed as TR-616C1 in manufacturer materials, is a compact 4G LTE GPS tracker built for vehicle tracking. It combines a high sensitivity GPS module with a multi band cellular communication engine on a small board and is housed for vehicle use. The device offers real time GPS positioning in open sky, basic remote control and status reporting, and features such as geo fencing, data buffering and LED indicators for cellular GPS and power state.
 

@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT19
 
+<div className="device-logo">
 ![GPT19](./logo..jpg)
+</div>
 
 El EElink GPT19 es un rastreador GPS de larga duración diseñado para vehículos y activos remotos. Combina una batería reemplazable de alta capacidad con protección IP67 contra agua y la opción de montaje magnético, lo que lo hace ideal para uso exterior y móvil en flotas de alquiler, operaciones logísticas y protección de activos. El equipo admite métodos asistidos de localización y proporciona alertas por geocerca y opciones de configuración remota, ofreciendo capacidades prácticas de monitoreo para diversos despliegues.
 

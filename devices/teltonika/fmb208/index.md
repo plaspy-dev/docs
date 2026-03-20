@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB208
 
+<div className="device-logo">
 ![FMB208](./Logo.png)
+</div>
 
 The Teltonika FMB208 is a compact waterproof GPS tracker designed to meet AIS140 requirements for the Indian market. ARAI certified and supporting both IRNSS and GPS positioning with compatibility for the GAGAN system, the FMB208 is built for regulated vehicle tracking scenarios. Its hardware and software toolset emphasizes reliability in field conditions, with features intended to support telematics solution providers and fleet operators.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - X06
 
+<div className="device-logo">
 ![X06](./tracker.jpg)
+</div>
 
 The Xexun X06 is a wearable GPS and Beidou positioning badge designed for people location management. Its compact badge form factor houses multi source positioning with WiFi and LBS assistance, an integrated voice module and an SOS alarm, delivering a practical solution for unobtrusive continuous monitoring in education, eldercare, corporate attendance and security contexts.
 

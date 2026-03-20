@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-18
 
+<div className="device-logo">
 ![AT-18](./tracker.jpg)
+</div>
 
 The AT-18 is a compact, waterproof GPS tracker built for discreet, permanent installation in vehicles and mobile assets. Its small form factor and rugged housing make it suitable for placement under dashboards, beneath seats, or inside compartments where long term exposure to the elements is a concern. The device is designed to deliver dependable real time tracking and basic telemetry for fleets, personal vehicles, motorcycles, trucks, and marine craft.
 

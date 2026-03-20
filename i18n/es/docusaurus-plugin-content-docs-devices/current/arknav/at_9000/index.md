@@ -21,7 +21,9 @@ keywords:
 
 # ArkNav - AT-9000
 
+<div className="device-logo">
 ![AT-9000](./tracker.png)
+</div>
 
 El AT-9000 es un rastreador GPS de larga autonomía diseñado para entornos hostiles y despliegues prolongados. Construido con una carcasa resistente, impermeable y a prueba de calor, está optimizado para el seguimiento de contenedores, remolques y equipos pesados cuando la alimentación externa no está disponible o es intermitente. El dispositivo prioriza la durabilidad y la autonomía, lo que lo hace ideal para mantener visibilidad de activos a largo plazo y reducir los ciclos de mantenimiento.
 

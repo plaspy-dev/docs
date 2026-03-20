@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G2C-DB
 
+<div className="device-logo">
 ![G2C-DB](./tracker.png)
+</div>
 
 The G2C-DB is a rugged, long life GPS tracker designed for long term asset monitoring of trailers, containers and remote equipment. It combines multi constellation positioning with optimized power management and a replaceable 9000 mAh battery pack to deliver years of standby operation. Built for harsh environments, the device includes waterproofing, shock and vibration resilience and store and forward memory to preserve event continuity in intermittent coverage.
 

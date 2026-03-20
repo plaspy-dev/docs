@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2413
 
+<div className="device-logo">
 ![SMART S-2413](./tracker.jpeg)
+</div>
 
 The SMART S-2413 is a compact GLONASS/GPS vehicle tracker designed for professional fleet management and asset monitoring. It combines sensitive GNSS reception with an internal cellular modem and vehicle grade power protection to provide consistent position reporting and resilient operation in automotive environments. The device includes a mix of digital and analog inputs, an RS-485 interface, Bluetooth 4.0 support, and an internal backup battery for temporary operation during power interruptions.
 

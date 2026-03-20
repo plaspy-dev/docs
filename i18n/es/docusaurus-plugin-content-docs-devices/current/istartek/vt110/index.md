@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT110
 
+<div className="device-logo">
 ![VT110](./tracker.png)
+</div>
 
 El VT110 es un rastreador GPS compacto de iStartek diseñado para ofrecer seguimiento y telemetría vehicular en tiempo real. Orientado a la gestión de flotas y a la protección antirrobo, combina posicionamiento GNSS multiconstelación con ubicación por estaciones base GSM para proporcionar informes de ubicación consistentes, alarmas configurables y funciones de control remoto aptas para vehículos comerciales y privados.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-5
 
+<div className="device-logo">
 ![AT-5](./logo..jpg)
+</div>
 
 El Autoseeker AT-5 es un rastreador GPS magnético inalámbrico diseñado para un seguimiento de posición confiable de vehículos, camiones y activos personales. Reconocido por su reputación "probado por la policía", el AT-5 combina conectividad 4G de red completa con posicionamiento multimodal que incluye GPS, Beidou, wifi y LBS, ofreciendo datos de ubicación más flexibles y resistentes. El equipo incorpora varias funciones de seguridad prácticas como alarma por manipulación, botón SOS, capacidad de llamada bidireccional, notificaciones por vibración, alertas por exceso de velocidad y desplazamiento, advertencia de batería baja y una clasificación IP68 para resistencia al polvo y al agua.
 

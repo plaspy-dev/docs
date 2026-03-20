@@ -21,7 +21,9 @@ keywords:
 
 # Castel - IDD-213GL
 
+<div className="device-logo">
 ![IDD-213GL](./logo.jpg)
+</div>
 
 El Castel IDD-213GL es un dispositivo inteligente de diagnóstico a bordo diseñado para vehículos de pasajeros y comerciales. Su formato plug and play lee información diagnóstica desde la ECU del vehículo y captura datos de ubicación para diagnóstico remoto y rastreo en tiempo real. El equipo es compatible con los estándares OBD II EOBD, J1939 y J1708, y recopila una combinación de estados del vehículo, kilometraje y datos de comportamiento de manejo dentro de una carcasa industrial compacta.
 

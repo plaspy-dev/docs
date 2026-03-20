@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JM-VG02U
 
+<div className="device-logo">
 ![JM-VG02U](./tracker.png)
+</div>
 
 El JM-VG02U es un rastreador vehicular GNSS con asistencia INS en formato OBDII diseñado para una instalación rápida plug and play mediante el puerto OBD II del vehículo. Combina la recepción multi-constelación GNSS con sensores de navegación inercial para ofrecer posicionamiento continuo y datos de movimiento para la gestión de flotas y monitoreo vehicular sin cableado complicado.
 

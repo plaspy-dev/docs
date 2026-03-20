@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - MT210
 
+<div className="device-logo">
 ![MT210](./tracker.jpg)
+</div>
 
 The MT210 is a compact, vehicle grade GPS tracker designed for continuous connectivity and discreet installation in cars, motorcycles and commercial fleets. It combines industrial components, quad band GSM connectivity and a sensitive GNSS receiver to provide reliable position reporting, geofence alerts and engine ignition telemetry. The unit is built for uptime with dual SIM failover, SMS and GPRS reporting, a built in backup battery and a wide DC input range suitable for mixed vehicle deployments.
 

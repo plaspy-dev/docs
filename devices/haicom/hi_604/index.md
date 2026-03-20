@@ -20,7 +20,9 @@ keywords:
 
 # Haicom - HI-604
 
+<div className="device-logo">
 ![HI-604](./logo.jpg)
+</div>
 
 The Haicom HI-604 is a compact, multi-function GPS tracking device that provides real-time location monitoring using a combination of GPS, GSM, GPRS, SMS, and DTMF technologies. Designed for flexible deployment, the HI-604 builds in a large internal battery, a waterproof enclosure, and a moving sensor with a deep sleep mode to extend operational life when movement is minimal. The unit also includes strong magnetic mounting and is intended to monitor assets from any computer using a GPRS tracking website or Haicom tracking software.
 

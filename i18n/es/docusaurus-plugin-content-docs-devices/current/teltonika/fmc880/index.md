@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMC880
 
+<div className="device-logo">
 ![FMC880](./tracker.png)
+</div>
 
 El Teltonika FMC880 es un rastreador GPS robusto de montaje en batería, diseñado para la gestión de flotas exigente y el seguimiento remoto de activos. Incorpora GNSS de doble banda para mejorar la precisión de posicionamiento, conectividad celular con respaldo regional y soporte para Bluetooth Low Energy para sensores externos. El FMC880 está pensado para logística, flotas de alquiler y carsharing, y para el monitoreo de activos desplegados donde la durabilidad y la telemetría confiable son esenciales.
 

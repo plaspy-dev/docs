@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - JX01
 
+<div className="device-logo">
 ![JX01](./tracker.jpg)
+</div>
 
 The JX01 is a compact, rechargeable personal GPS tracker designed for anti loss and personal protection. Its small form factor and 850 mAh battery make it suitable for handheld use or temporary attachment to luggage, pets, and portable assets. The device offers dependable location reporting, multiple real-time alarm types, and remote configuration through a companion app without the need for hardwiring.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - TAT240
 
+<div className="device-logo">
 ![TAT240](./tracker.png)
+</div>
 
 The TAT240 is a compact, tamper proof GPS tracker designed for dependable long term monitoring of high value assets and discreet installations. It is built with a low profile form factor and a magnetic holder with integrated tamper detection, making it suitable for rental equipment, containers, construction machinery and similar use cases where concealment and anti theft monitoring matter.
 

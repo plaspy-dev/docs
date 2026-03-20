@@ -21,7 +21,9 @@ keywords:
 
 # Appello - GT01
 
+<div className="device-logo">
 ![GT01](./logo.jpg)
+</div>
 
 El Appello GT01 es un rastreador GPS compacto y liviano diseñado para ofrecer un seguimiento preciso y confiable en diversas aplicaciones. Con unas dimensiones aproximadas de 90 x 52 x 20 mm y un peso neto cercano a 150 g, el GT01 es fácil de colocar en activos, vehículos o equipos portátiles. Integra un receptor GPS basado en el chipset U-blox 7020 y un módulo de comunicación GSM que soporta múltiples bandas de frecuencia, lo que permite actualizaciones consistentes de posición en muchas regiones.
 

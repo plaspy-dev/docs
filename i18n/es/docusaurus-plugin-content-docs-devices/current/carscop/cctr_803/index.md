@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-803
 
+<div className="device-logo">
 ![CCTR-803](./logo.jpg)
+</div>
 
 El Carscop CCTR-803 es un rastreador GPS versátil diseñado para vehículos, camionetas y autos. Combina posicionamiento por satélite con localización por estaciones base GSM para ofrecer reportes de ubicación continuos, e incluye funciones pensadas para instalación discreta y monitoreo dentro del vehículo. El equipo permite opciones de ubicación por SMS y llamadas, notificaciones de alarma, un micrófono externo para monitoreo de voz y una batería interna recargable que mantiene el rastreo y las alertas durante cortes de energía.
 

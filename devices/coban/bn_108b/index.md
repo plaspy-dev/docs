@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-108B
 
+<div className="device-logo">
 ![BN-108B](./tracker.png)
+</div>
 
 The BN-108B is a portable 2G GPS tracker from Coban designed for long life mobile asset management and anti theft protection. It combines a strong magnetic housing for discreet mounting with a very large rechargeable battery to provide extended standby and tracking for vehicles, trailers, rental cars, and high value portable equipment. The device offers configurable reporting modes and a set of security features intended to support continuous monitoring without permanent wiring.
 

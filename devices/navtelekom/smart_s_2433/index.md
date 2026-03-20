@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2433
 
+<div className="device-logo">
 ![SMART S-2433](./tracker.jpeg)
+</div>
 
 The SMART S-2433 from Navtelekom is a compact GPS and GLONASS tracker designed for reliable vehicle and asset monitoring. It combines positioning reception, a cellular modem and a built in rechargeable backup battery to keep location and telemetry reporting active during short power interruptions. The device is positioned as a cost effective option for everyday fleet management, cargo supervision and anti theft applications.
 

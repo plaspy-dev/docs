@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-401C
 
+<div className="device-logo">
 ![BN-401C](./tracker.png)
+</div>
 
 El BN-401C es un rastreador GPS compacto de Coban pensado para instalaciones ocultas en motocicletas y vehículos pequeños. Ofrece posicionamiento continuo, reporte de eventos y funciones remotas básicas. El equipo incluye batería interna de respaldo y puede integrarse con un arnés de relé para generar alarmas de emergencia y permitir el corte remoto de combustible o alimentación cuando se conecta al sistema eléctrico del vehículo.
 

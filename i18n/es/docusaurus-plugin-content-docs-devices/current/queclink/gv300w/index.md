@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV300W
 
+<div className="device-logo">
 ![GV300W](./tracker.png)
+</div>
 
 El GV300W es la variante 3G WCDMA de la familia GV300 de QuecLink, diseñado como un rastreador GPS de grado profesional para telemática de vehículos y activos. Basado en un receptor GNSS u-blox y con un conjunto flexible de entradas y salidas para vehículos, el GV300W ofrece posicionamiento preciso, telemetría extendida e integración de accesorios para camiones pesados, automóviles y transporte refrigerado. Su conjunto de características está orientado a reportes de ubicación fiables, registro de eventos e integraciones prácticas para operaciones de flota.
 

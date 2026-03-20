@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G602
 
+<div className="device-logo">
 ![G602](./tracker.jpg)
+</div>
 
 El Gosafe G602 Easy Install es un rastreador GPS compacto de dos cables diseñado para despliegues rápidos y telemática robusta en flotas. Ofrece seguimiento en tiempo real con alta sensibilidad, telemetría de choques y datos de comportamiento del conductor en un equipo pensado para ser instalado con rapidez en grandes parques vehiculares. El G602 combina posicionamiento multi GNSS con un registrador de choques basado en acelerómetro 3D y comunicaciones celulares para entregar flujos continuos de ubicación y eventos del vehículo.
 

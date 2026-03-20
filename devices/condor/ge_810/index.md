@@ -20,7 +20,9 @@ keywords:
 
 # Condor - GE-810
 
+<div className="device-logo">
 ![GE-810](./tracker.png)
+</div>
 
 The GE-810 is a Plaspy compatible personal monitoring device designed for controlled supervision environments. It combines modern 4G LTE cellular connectivity with a rugged IP67 housing and a wearable shackle style enclosure. On-device features include secure two way voice, vibration alerts, and tamper or removal notifications, making the GE-810 suitable for programs that require continuous oversight and timely event reporting.
 

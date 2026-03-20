@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Термо
 
+<div className="device-logo">
 ![Термо](./tracker.jpg)
+</div>
 
 AutoFon Термо es un módulo de calefacción controlado por GSM diseñado para gestionar calefactores auxiliares instalados de posventa, como los modelos WEBASTO y EBERSPÄCHER. Permite arrancar y detener el calefactor de forma remota mediante SMS o a través de un menú por llamada entrante, dispone de un botón montado en la cabina para control local manual y cuenta con un reloj en tiempo real con dos temporizadores programables para preacondicionamientos programados. La unidad está pensada para integrarse con calefactores auxiliares instalados por separado y se orienta tanto a flotas como a vehículos particulares donde el preacondicionamiento predecible es importante.
 

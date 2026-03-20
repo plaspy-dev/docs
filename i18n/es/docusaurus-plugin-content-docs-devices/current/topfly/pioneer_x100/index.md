@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - Pioneer X100
 
+<div className="device-logo">
 ![Pioneer X100](./Logo.png)
+</div>
 
 El Pioneer X100 es un rastreador GNSS cableado y compacto de TopFly, diseñado para la gestión de flotas y la seguridad vehicular. Ofrece conectividad global LTE Cat 1 con retrocompatibilidad 2G y admite posicionamiento con múltiples constelaciones GNSS. El equipo cuenta con varias entradas y salidas digitales para monitorear señales del vehículo y es compatible con sensores Bluetooth para supervisar condiciones ambientales y el estado de accesorios, lo que lo hace adecuado para una amplia gama de necesidades de monitoreo vehicular.
 

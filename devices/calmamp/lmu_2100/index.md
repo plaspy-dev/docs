@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-2100
 
+<div className="device-logo">
 ![LMU-2100](./logo.jpg)
+</div>
 
 The CalmAmp LMU-2100 is an insurance oriented vehicle tracking unit designed to deliver reliable location and event data for fleets and usage based insurance programs. Marketed as a robust and affordable device, the LMU-2100 includes a 3 axis accelerometer to detect driver behavior and vehicle impacts, a programmable on board event engine for custom rules, and wireless communication options to maintain continuous data flow for operational monitoring.
 

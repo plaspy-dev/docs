@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV305CEU
 
+<div className="device-logo">
 ![GV305CEU](./tracker.png)
+</div>
 
 The QuecLink GV305CEU is a vehicle GPS tracker designed by a professional telematics manufacturer for fleet management, anti theft protection and advanced telemetry. It combines cellular connectivity with a high sensitivity u blox All in One GNSS receiver and built in BLE support to provide reliable, real time position and vehicle data suitable for mixed fleet deployments.
 

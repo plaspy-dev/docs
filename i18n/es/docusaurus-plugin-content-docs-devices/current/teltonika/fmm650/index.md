@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMM650
 
+<div className="device-logo">
 ![FMM650](./tracker.png)
+</div>
 
 El Teltonika FMM650 es un rastreador profesional 4G LTE Cat M1 diseñado para telemática avanzada y gestión de flotas de alta demanda. Combina posicionamiento GNSS de alta precisión con amplia cobertura celular y una batería de respaldo de gran capacidad en un formato compacto y resistente pensado para camiones, remolques y maquinaria especializada. Además recopila telemetría del vehículo y admite interfaces seriales y CAN para un análisis más profundo de los sistemas a bordo.
 

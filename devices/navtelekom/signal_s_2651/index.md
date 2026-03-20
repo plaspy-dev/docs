@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SIGNAL S-2651
 
+<div className="device-logo">
 ![SIGNAL S-2651](./tracker.jpeg)
+</div>
 
 The SIGNAL S-2651 from Navtelekom is a compact GPS tracker aimed at professional fleet management, telematics and asset monitoring. It combines GLONASS and GPS multi constellation positioning with a 2G cellular modem and dual SIM support to provide dependable real time location and telemetry for commercial vehicles, special equipment and stationary assets. The device is engineered for integration with multiple vehicle and industrial interfaces and includes local logging and short range wireless capabilities for on site configuration.
 

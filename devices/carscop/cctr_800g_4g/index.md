@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CCTR-800G-4G
 
+<div className="device-logo">
 ![CCTR-800G-4G](./tracker.jpg)
+</div>
 
 The CCTR-800G-4G is a rugged, portable GPS tracker designed for long duration outdoor tracking and flexible cloud integration. Built for demanding environments, the device combines global cellular connectivity with high sensitivity GNSS positioning, a large rechargeable battery, IP65 weather protection, and a strong built in magnet for quick mounting on metallic surfaces. Those features make it suitable for real time location, fleet oversight, and anti theft monitoring in a range of operational settings.
 

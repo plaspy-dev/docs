@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-4
 
+<div className="device-logo">
 ![AT-4](./tracker.jpg)
+</div>
 
 The Autoseeker AT-4 is a purpose built 4G CAT 1 pet GPS tracker designed for reliable, long duration tracking of larger animals. It pairs a rugged IP67 rated ABS enclosure with a high capacity 3000mAh rechargeable battery and practical features such as geofence alarms, a searching light, audible buzzer, two way calling, and remote voice monitoring to support continuous outdoor use and straightforward owner interaction.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 230
 
+<div className="device-logo">
 ![ST 230](./logo.jpg)
+</div>
 
 El Suntech ST 230 es un rastreador GPS autónomo diseñado para el seguimiento y la supervisión de activos móviles de alto valor, como remolques, contenedores, trenes y yates. Combina una carcasa plástica resistente con clasificación IP67 y una batería interna de 5200 mAh para ofrecer funcionamiento prolongado en entornos exteriores exigentes. El equipo incluye además cuatro entradas digitales para monitoreo de eventos o estados y soporta métodos comunes de transmisión de datos para enviar información de posición y actividad.
 

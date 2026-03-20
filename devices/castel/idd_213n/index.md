@@ -20,7 +20,9 @@ keywords:
 
 # Castel - IDD-213N
 
+<div className="device-logo">
 ![IDD-213N](./logo.jpg)
+</div>
 
 The Castel IDD-213N is an intelligent on board diagnostic and all in one device built for both passenger and commercial vehicles. Its plug and play design reads diagnostic information from the vehicle ECU and captures location data, forwarding that information to a backend server for remote real time diagnostics and tracking. The unit is positioned for fleet management and vehicle monitoring scenarios where consolidated diagnostic and location visibility is required.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TopTen - TK218
 
+<div className="device-logo">
 ![TK218](./Logo.jpg)
+</div>
 
 El TopTen TK218 es un rastreador GPS OBD diseñado para el monitoreo a bordo de autos y camiones. Con un conector OBD-II plug and play y compatibilidad con sistemas CAN‑BUS, el TK218 ofrece seguimiento de ubicación, historial de rutas y una serie de reportes sobre el estado del vehículo. Permite rastreo bajo demanda o a intervalos programados mediante SMS o GPRS, e incluye alarmas por exceso de velocidad, movimiento, motor encendido, vibración y fallo de alimentación, además de monitoreo de voz y un registrador de datos integrado.
 

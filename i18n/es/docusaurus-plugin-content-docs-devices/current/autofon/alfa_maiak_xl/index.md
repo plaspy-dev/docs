@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Альфа-Маяк XL
 
+<div className="device-logo">
 ![Альфа-Маяк XL](./tracker.jpg)
+</div>
 
 El AutoFon Альфа-Маяк XL es una baliza GPS compacta y autónoma diseñada para despliegues de larga duración con mínimo mantenimiento. Pensada para la protección encubierta de vehículos y bienes, envía reportes de posición por SMS o GPRS y viene configurada de fábrica con una SIM prepaga integrada y una autonomía extendida para operar de forma continua y discreta en el campo.
 

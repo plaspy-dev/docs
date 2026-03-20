@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - GF20
 
+<div className="device-logo">
 ![GF20](./logo..jpg)
+</div>
 
 El CanTrack GF20 es un mini rastreador GPS con imán diseñado para seguimiento discreto y de corta duración. Con unas dimensiones aproximadas de 50 mm x 27 mm x 25 mm, es lo bastante compacto para colocarse en una bolsa pequeña o ocultarse en un vehículo, lo que lo hace adecuado para la monitorización temporal de objetos personales o activos. El dispositivo soporta posicionamiento por GPS real, LBS y AGPS, e incluye funciones como geocercas, alertas por batería baja y vibración, una opción de escucha remota por voz y múltiples modos de trabajo para adaptarse a distintos requerimientos de seguimiento.
 

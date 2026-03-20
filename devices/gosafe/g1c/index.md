@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G1C
 
+<div className="device-logo">
 ![G1C](./logo..jpg)
+</div>
 
 The Gosafe G1C is a compact and economical GPS tracker designed for a wide range of automotive applications. It combines sensitive location reception with cellular connectivity to provide reliable tracking for use cases such as usage based insurance UBI stolen vehicle recovery buy here pay here BHPH auto rental motorbikes and powersports. The device emphasizes a small footprint and water resistant construction that makes it suitable for discreet placement in many vehicle types.
 

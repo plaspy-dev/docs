@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SIGNAL S-2551
 
+<div className="device-logo">
 ![SIGNAL S-2551](./tracker.jpeg)
+</div>
 
 El SIGNAL S-2551 es un rastreador vehicular GLONASS diseñado para proyectos profesionales de telemática y gestión de flotas. Pensado para integradores y operadores de flota, el S-2551 incorpora comunicaciones celulares con doble SIM, soporte para protocolos EGTS y FLEX, y una amplia gama de entradas y salidas para ofrecer rastreo en tiempo real, telemetría y diagnóstico vehicular continuo para activos móviles.
 

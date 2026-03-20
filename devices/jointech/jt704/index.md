@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT704
 
+<div className="device-logo">
 ![JT704](./tracker.jpg)
+</div>
 
 The Jointech JT704 is a compact GPS tracker purpose built for container monitoring and long haul logistics. Designed for discreet, perforation free mounting, the JT704 provides continuous visibility for containers moving by rail, sea, and other multimodal routes. It supports real time tracking alongside scheduled fixed time reporting to balance ongoing monitoring with extended deployment intervals.
 

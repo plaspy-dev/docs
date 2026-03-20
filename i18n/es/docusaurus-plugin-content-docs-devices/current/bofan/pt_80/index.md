@@ -21,7 +21,9 @@ keywords:
 
 # Bofan - PT-80
 
+<div className="device-logo">
 ![PT-80](./logo.jpg)
+</div>
 
 El Bofan PT-80 es un rastreador GPS personal compacto diseñado para el monitoreo de ubicación de forma discreta y portátil. Con un tamaño reducido y diseño liviano, está pensado para la seguridad personal y el seguimiento de activos. Incluye antenas GSM y GPS integradas para el reporte de posición, teclas de marcación rápida para contactos preestablecidos, capacidad de monitoreo de voz, botón de pánico para alertas de emergencia, gestión de geovallas y una batería interna recargable con larga autonomía en espera y capacidad de registro de posiciones a bordo.
 

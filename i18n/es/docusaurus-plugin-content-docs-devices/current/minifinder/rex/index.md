@@ -21,7 +21,9 @@ keywords:
 
 # MiniFinder - Rex: Rastreador para perros de caza
 
+<div className="device-logo">
 ![Rex](./tracker.png)
+</div>
 
 El MiniFinder Rex es un rastreador GPS diseñado específicamente para perros de caza y animales de trabajo. Robusto e impermeable, con un formato compacto, Rex ofrece posicionamiento GNSS de alta sensibilidad, larga autonomía y conectividad inalámbrica local para proporcionar datos fiables de ubicación y comportamiento en tiempo real en el campo. Sus funciones orientadas al uso exterior incluyen un LED guía, detección de ladridos, modos de vibración y voz, además de comunicación de audio para ayudar a los manejadores a localizar e interactuar con los animales durante las operaciones.
 

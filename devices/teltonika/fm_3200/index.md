@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FM 3200
 
+<div className="device-logo">
 ![FM 3200](./logo.jpg)
+</div>
 
 The Teltonika FM 3200 is a compact GPS tracker that provides real time location detection and remote data transmission over GSM networks. Designed for vehicle and asset tracking, the device includes a 50 channel receiver, NMEA output via USB, multiple inputs and outputs for external monitoring and control, an internal movement sensor, and local data storage. The FM 3200 is built to support routine tracking tasks while offering flexible configuration options for triggers, geofences, and data reporting.
 

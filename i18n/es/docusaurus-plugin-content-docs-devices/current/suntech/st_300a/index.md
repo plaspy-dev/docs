@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 300A
 
+<div className="device-logo">
 ![ST 300A](./logo.jpg)
+</div>
 
 El Suntech ST 300A es un rastreador GPS avanzado diseñado para el monitoreo de vehículos y activos, con soporte para múltiples entradas de sensor y funciones de seguridad integradas. Cuenta con antenas internas, conectividad 1‑Wire compatible con sensores de temperatura y dispositivos iButton, interfaz RS232 y varias entradas analógicas. Además, soporta señales por arnés para detección de puertas, botón de pánico, inmovilización y monitoreo de placas, y ofrece alarmas por interferencia (jamming) y detección de arrastre de grúa, junto con otras funciones antirobo y de gestión de pasajeros.
 

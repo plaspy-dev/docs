@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Маяк 4.4
 
+<div className="device-logo">
 ![Маяк 4.4](./tracker.png)
+</div>
 
 The AutoFon Маяк 4.4 is a compact GPS tracker designed for long term, low maintenance covert tracking. It provides dependable GPS positioning and GSM based reporting through SMS and periodic GPRS packets, plus an integrated microphone and basic remote control via SMS. The device is engineered for discreet installation and extended autonomous operation, making it suitable for vehicles, small craft, containers, kiosks, and other assets where stealth and battery life are priorities.
 

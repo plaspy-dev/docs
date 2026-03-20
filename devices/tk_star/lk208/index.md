@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - LK208
 
+<div className="device-logo">
 ![LK208](./logo.jpg)
+</div>
 
 The TK-Star LK208 is a portable GPS tracker designed to provide continuous location visibility for vehicles, equipment, cargo, and other mobile assets. It combines real time tracking and auto tracking with a set of alert functions and modes intended to support long battery life and reliable monitoring in a variety of environments. The LK208 is described as suitable for private cars, rentals, outdoor equipment, containers, and cargo, making it a flexible choice for both personal and light commercial use.
 

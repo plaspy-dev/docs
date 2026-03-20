@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - MT100
 
+<div className="device-logo">
 ![MT100](./tracker.jpg)
+</div>
 
 El TopShine MT100 es un rastreador GPS vehicular profesional diseñado para la gestión de flotas y la responsabilidad del conductor. Pensado para logística, taxis, autobuses y servicios de alquiler, el MT100 ofrece reportes de posición confiables, identificación de conductor mediante RFID iButton o lector de huellas, y registro de eventos que asocia sucesos de manejo con conductores específicos. Su diseño está orientado a casos de uso vehicular donde consolidar datos de ubicación y conductor mejora la supervisión operativa.
 

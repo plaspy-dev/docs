@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A8E
 
+<div className="device-logo">
 ![HB-A8E](./logo.jpg)
+</div>
 
 El Huabao HB-A8E es un mini rastreador GPS compacto pensado para montaje discreto y uso sencillo. El fabricante lo describe como un dispositivo de rendimiento estable y fácil instalación, ideal para vehículos particulares y motocicletas cuando se necesita un tamaño reducido y colocación poco visible. Entre sus características principales se encuentran el posicionamiento GPS en tiempo real, detección de ignición y una antena integrada que favorece la recepción de señal.
 

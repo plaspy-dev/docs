@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - Traxbean Tracker
 
+<div className="device-logo">
 ![Traxbean Tracker](./tracker.jpg)
+</div>
 
 El Traxbean Tracker es un rastreador GPS de grado judicial diseñado como pulsera de tobillo para programas de correcciones comunitarias, arresto domiciliario y control de toque de queda. Concebido para monitoreo electrónico supervisado, Traxbean ofrece posicionamiento GPS exterior preciso y ubicación asistida en interiores mediante Wi‑Fi, triangulación celular y señales RF cuando se emplea con una estación base doméstica opcional. El dispositivo pone énfasis en la resistencia a la manipulación, una larga autonomía y capacidades directas de voz y alertas apropiadas para flujos de trabajo de correcciones y fuerzas del orden.
 

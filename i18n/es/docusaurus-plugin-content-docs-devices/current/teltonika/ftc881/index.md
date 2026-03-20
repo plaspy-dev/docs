@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FTC881
 
+<div className="device-logo">
 ![FTC881](./tracker.png)
+</div>
 
 El Teltonika FTC881 es un rastreador GPS robusto, montado en batería, concebido para el seguimiento exigente de vehículos y activos. Diseñado para resistir condiciones adversas gracias a su carcasa con certificación IP69K y optimizado para operar con bajo consumo, el FTC881 proporciona posicionamiento GNSS preciso y conectividad celular para permitir la monitorización continua de vehículos y equipos.
 

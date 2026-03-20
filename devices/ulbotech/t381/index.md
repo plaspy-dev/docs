@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T381
 
+<div className="device-logo">
 ![T381](./tracker.jpg)
+</div>
 
 The T381 is a compact plug and play OBDII GPS tracker from Ulbotech. Built around a 4G LTE modem and an internal u‑blox GNSS module, the device provides real time location reporting, vehicle telemetry and an immobilizer output for anti‑theft control. Its OBDII and SAE J1939 support lets it surface engine parameters and diagnostic trouble codes for fleet monitoring and preventative maintenance, while a built in Wi‑Fi hotspot and Wi‑Fi bridging help reduce cellular data use for in‑cab devices.
 

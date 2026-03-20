@@ -20,7 +20,9 @@ keywords:
 
 # SkyMobile - SM-9570
 
+<div className="device-logo">
 ![SM-9570](./logo.jpg)
+</div>
 
 The SkyMobile SM-9570 is a versatile GPS locator designed primarily for vehicle and truck tracking applications. It emphasizes high GPS reception sensitivity through an integrated UBLOX chipset and supports quad band cellular operation on 850/900/1800/1900 frequencies. The device is built to periodically report its position to a server or external system, offers multiple input and output interfaces for monitoring and control of external devices, and operates across a broad vehicle voltage range of 8 to 32V DC. Certified by CE, FCC, PTCRB, and Anatel, the SM-9570 is positioned as a practical tracker for fleet use.
 

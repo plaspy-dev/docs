@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-393
 
+<div className="device-logo">
 ![VT-393](./logo.jpg)
+</div>
 
 The GOTOP VT-393 is a GPS tracker designed for fleet management and vehicle security. It combines a high performance ARM9 processor with features aimed at reliable location reporting and activity logging. Notable capabilities in the VT-393 include camera support for capturing photos with location and driving information, ample storage with an SD card slot, and a range of inputs and outputs for connecting vehicle signals and accessories.
 

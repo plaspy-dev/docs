@@ -20,7 +20,9 @@ keywords:
 
 # iStartek - PT24
 
+<div className="device-logo">
 ![PT24](./tracker.png)
+</div>
 
 The PT24 Solar GPS Tracker from iStartek is a purpose built device for long duration monitoring of animals and remote assets. Rugged and weather resistant, the PT24 combines solar charging with a high capacity 4000mAh battery and multi mode positioning to deliver reliable location updates and extended field life for collars, tags and asset mounts. Its low standby current and durable enclosure make it suitable for pastoral, research and remote equipment supervision where infrequent maintenance is important.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - GTR-388C1
 
+<div className="device-logo">
 ![GTR-388C1](./tracker.jpg)
+</div>
 
 El GlobalSat GTR-388C1 es un rastreador compacto perteneciente a una familia de dispositivos diseñados para eBikes, motocicletas y vehículos pequeños. Integra un receptor GNSS de alta sensibilidad con antenas integradas, conectividad 4G LTE con conmutación automática a 3G y 2G, una carcasa impermeable IPX7 y una batería de respaldo recargable para mantener la operación ante cortes de energía. Está pensado para instalaciones en exteriores expuestos donde el montaje oculto, el sellado y la actualización fiable de la posición son críticos.
 

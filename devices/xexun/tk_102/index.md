@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - TK-102
 
+<div className="device-logo">
 ![TK-102](./logo.jpg)
+</div>
 
 The Xexun TK-102 is a compact and versatile GPS tracker designed for reliable location monitoring and data recording. It includes an SD card slot for saving GPRS data locally, a larger battery for extended operating time, and an ARM7 processor to support steady device operation. The unit offers a mix of live tracking features and onboard storage, along with a variety of alerts such as geo-fence, movement, overspeed, low battery, and an SOS button.
 

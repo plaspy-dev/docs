@@ -21,7 +21,9 @@ keywords:
 
 # Winrich - GT003
 
+<div className="device-logo">
 ![GT003](./tracker.jpg)
+</div>
 
 El Winrich GT003 es un rastreador GPS cableado y compacto diseñado para la supervisión continua de vehículos. Pensado para automóviles, motocicletas, camiones y otros activos móviles, el GT003 ofrece posicionamiento constante mediante GPS y conectividad GSM GPRS, entregando el rastreo en tiempo real y los datos de eventos que los gestores de flota necesitan. Su tamaño reducido y la conexión directa a la alimentación del vehículo lo convierten en una opción discreta para supervisión permanente de flotas y monitoreo antirrobo.
 

@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - A5
 
+<div className="device-logo">
 ![A5](./logo..jpg)
+</div>
 
 The GOTOP A5 is a compact car charger GPS tracker that combines vehicle charging functionality with location tracking in a single plug and play device. Designed to be inserted into a vehicle power outlet, the A5 provides continuous tracking without relying on removable batteries. It supports multiple locating methods including GPS, LBS, WiFi, AGPS, and BDS, and offers real time tracking via GPRS, SMS, web platform, or mobile app. Additional features such as history route playback, voice monitoring, vibration alarm, and support for a TF card make the A5 a versatile choice for everyday vehicle monitoring.
 

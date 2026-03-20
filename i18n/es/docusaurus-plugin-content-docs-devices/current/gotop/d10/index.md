@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - D10
 
+<div className="device-logo">
 ![D10](./tracker.jpg)
+</div>
 
 El Mini Rastreador GPS D10 es un dispositivo compacto, compatible con Plaspy, diseñado para ofrecer seguridad discreta en vehículos y rastreo confiable en tiempo real. Ideal para autos, motocicletas, bicicletas eléctricas y pequeños activos portátiles, el D10 emplea un posicionamiento híbrido —GPS, BeiDou (BD), WiFi y LBS— junto con conectividad GSM cuatribanda para proporcionar reportes de ubicación, eventos de alarma y telemetría básica. Su carcasa ABS con protección IP65 y su bajo peso lo hacen adecuado para instalaciones encubiertas y espacios reducidos.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - TK200
 
+<div className="device-logo">
 ![TK200](./logo.jpg)
+</div>
 
 The CanTrack TK200 is a compact GPS tracker that combines GPS satellite positioning with cellular connectivity to deliver location and monitoring capabilities. Designed for both personal and commercial scenarios, the TK200 supports live tracking, remote listening, tracing, and a suite of anti theft features. The device can report position and status via SMS or data, and it includes alarms and data storage for later review.
 

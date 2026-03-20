@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-401D
 
+<div className="device-logo">
 ![BN-401D](./tracker.png)
+</div>
 
 El BN-401D es un terminal GPS compacto de Coban diseñado para motocicletas y vehículos pequeños que brinda seguimiento confiable en tiempo real y protección antirrobo. Ideal para instalaciones ocultas, combina telemetría esencial con batería de respaldo recargable y, en la versión D, controles remotos que permiten seguimiento con detección de encendido, alarmas SOS y por impacto, geovallas y corte remoto de combustible o alimentación para una gestión y seguridad vehicular sencillas.
 

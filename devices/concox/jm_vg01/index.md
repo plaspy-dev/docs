@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-VG01
 
+<div className="device-logo">
 ![JM-VG01](./logo..png)
+</div>
 
 The JM-VG01U from Concox is an advanced vehicle tracker designed for robust fleet and vehicle monitoring. Its feature set includes multi axis motion sensing for driving behavior analysis, INS aided GPS tracking to maintain positioning where GPS is poor, ignition monitoring, a panic button for emergencies, remote cut off capability, and a rugged IP65 enclosure. The device emphasizes analytics and dependable tracking to support operational oversight and safety programs.
 

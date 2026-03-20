@@ -21,7 +21,9 @@ keywords:
 
 # Condor - TS-728
 
+<div className="device-logo">
 ![TS-728](./tracker.png)
+</div>
 
 El TS-728 es un rastreador marítimo diseñado por Condor para ofrecer monitoreo fiable de embarcaciones a través de la red satelital Iridium. Proporciona reportes de posición y telemetría a escala global para embarcaciones que operan fuera del alcance de las redes celulares terrestres, por lo que es apropiado para barcos de pesca de alta mar, lanchas de trabajo, yates y otros activos marinos que requieren visibilidad continua en océanos y rutas marítimas remotas.
 

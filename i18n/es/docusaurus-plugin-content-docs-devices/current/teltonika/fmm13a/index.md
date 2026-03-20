@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMM13A
 
+<div className="device-logo">
 ![FMM13A](./tracker.png)
+</div>
 
 El Teltonika FMM13A es un rastreador GPS profesional y compacto pensado para despliegues en vehículos y activos en Norteamérica. Diseñado como una terminal de seguimiento en tiempo real, combina conectividad LTE Cat M1 con un módulo Quectel BG95 M1 en las configuraciones estándar e incluye una batería interna de respaldo para mantener la telemetría y la localización durante interrupciones de energía. El dispositivo ofrece visibilidad continua de la ubicación y telemetría crítica del vehículo en escenarios de gestión de flotas y activos.
 

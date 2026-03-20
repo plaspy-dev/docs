@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-LL01
 
+<div className="device-logo">
 ![JM-LL01](./tracker.png)
+</div>
 
 The JM-LL01 is a compact, rugged GNSS asset tracker from Concox designed for long term, low power deployments. It combines multi source positioning with wide area cellular connectivity and a large rechargeable battery to deliver reliable location and telemetry for unattended assets across broad geographic areas. Built with durability and extended runtime in mind, the JM-LL01 suits situations where prolonged operation without frequent maintenance is a priority.
 

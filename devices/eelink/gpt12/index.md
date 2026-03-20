@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT12
 
+<div className="device-logo">
 ![GPT12](./logo.jpg)
+</div>
 
 The EElink GPT12 is a compact, versatile GPS tracker designed to protect and monitor assets over long intervals. It combines GPS and LBS double positioning with A GPS assistance and quad band cellular support to enable location reporting across many regions. The device emphasizes extended autonomy with a 5000mAh battery, long standby modes and an emergency tracking option for situations that require real time updates.
 

@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - A516
 
+<div className="device-logo">
 ![A516](./logo.jpg)
+</div>
 
 The AoYa A516 is a compact GPS tracker designed primarily for automotive applications while remaining versatile enough for personal and pet tracking. With physical dimensions of 70mm x 35mm x 20mm, the unit is small and unobtrusive. It uses GSM GPRS communication and a UBLOX GPS receiver, offering positioning accuracy typically reported in the 5 to 10 meter range and a sensitivity suited for reliable location fixes in common environments. The A516 includes a changeable 3.7V 1000mAh Li ion battery to support extended operation between maintenance intervals.
 

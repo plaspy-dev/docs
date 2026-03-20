@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT-4970
 
+<div className="device-logo">
 ![XT-4970](./logo.jpg)
+</div>
 
 El Xirgo XT-4970 es una solución inteligente LTE para remolques con recolección de energía, diseñada para despliegues remotos a largo plazo donde el mantenimiento frecuente no es práctico. Pensado para el rastreo de remolques y contenedores y para la supervisión de equipos pesados, combina la recolección de energía con antenas celulares y GPS integradas para ofrecer conocimiento de ubicación persistente sin reemplazos regulares de batería. El equipo es robusto, con clasificación IP67, e incluye una batería de respaldo que garantiza operación continua en entornos exigentes.
 

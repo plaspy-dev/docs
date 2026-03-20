@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMT100
 
+<div className="device-logo">
 ![FMT100](./tracker.png)
+</div>
 
 El FMT100 es un rastreador GPS compacto y compatible con Plaspy, diseñado para instalaciones rápidas y fiables montadas en baterías en vehículos y activos móviles. Alberga su electrónica en una carcasa robusta con certificación IP65, pensado para rollouts de flotas, uso estacional y despliegues ágiles donde la facilidad de montaje y la telemetría confiable son prioritarias. El equipo incluye un acelerómetro integrado de 3 ejes y soporte para Bluetooth LE, lo que le permite captar eventos de movimiento y enlazarse con sensores externos para una mayor visibilidad del activo.
 

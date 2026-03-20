@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - LT-501H
 
+<div className="device-logo">
 ![LT-501H](./tracker.jpg)
+</div>
 
 The LT-501H is a compact LoRa GPS tracker from GlobalSat designed for long life and wide area personal and small asset tracking. The device family combines GPS reception with onboard Bluetooth beacon capabilities, motion detection and configurable reporting modes to deliver location and basic telemetry for both indoor and outdoor scenarios. Its small form factor, rechargeable internal power and built in notification features make it suitable for wearable or attached use where low power and long range are priorities.
 

@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-BT07
 
+<div className="device-logo">
 ![TZ-BT07](./logo.jpg)
+</div>
 
 El TZone TZ-BT07 es un rastreador compacto y liviano diseñado para ofrecer informes fiables de ubicación y proximidad en objetos personales y activos pequeños. Con una carcasa color crema que mide 86 x 55 x 55 mm y pesa aproximadamente 40 gramos, el dispositivo es fácil de transportar y ocultar. El TZ-BT07 utiliza el protocolo iBeacon de iPhone con conectividad Bluetooth 4.0, es compatible con las plataformas de smartphone más comunes y permite configurar los intervalos de transmisión y la potencia de emisión para equilibrar visibilidad y autonomía.
 

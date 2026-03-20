@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT200-L
 
+<div className="device-logo">
 ![VT200-L](./tracker.jpg)
+</div>
 
 El VT200-L es un rastreador GPS 4G para vehículos diseñado para ofrecer un seguimiento confiable en tiempo real y telemática completa de flotas. Construido para entornos vehiculares exigentes, combina posicionamiento GNSS de alta precisión con conmutación celular y E/S robustas para proporcionar ubicación continua, telemetría y funciones antirrobo. Incluye memoria flash a bordo para el almacenamiento en búfer cuando no hay conexión y está pensado para mantener la continuidad de los reportes en escenarios de cobertura complicada.
 

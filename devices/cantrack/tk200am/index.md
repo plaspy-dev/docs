@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - TK200AM
 
+<div className="device-logo">
 ![TK200AM](./tracker.jpg)
+</div>
 
 The CanTrack TK200AM is an ultra compact GPS tracker designed for long term asset tracking and anti tamper deployments. It combines a high sensitivity satellite receiver with supplemental positioning using cellular and Wi Fi sources to deliver reliable location fixes for vehicles, containers, motorcycles and other valuable assets while minimizing maintenance through extended standby capability.
 

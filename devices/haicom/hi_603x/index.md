@@ -20,7 +20,9 @@ keywords:
 
 # Haicom - HI-603X
 
+<div className="device-logo">
 ![HI-603X](./logo.jpg)
+</div>
 
 The Haicom HI-603X is a compact GPRS tracker from Haicom designed for Automatic Vehicle Location and general asset tracking. It combines a high sensitivity GPS receiver with quad band GSM communication in a solid enclosure and provides real time position reporting, motion based power saving, and on device data logging to preserve recorded positions when network coverage is unavailable. The device also supports features commonly used in fleet tracking such as geo fencing, emergency alerts, and remote management through a GPRS tracking platform.
 

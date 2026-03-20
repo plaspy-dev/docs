@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - TK100
 
+<div className="device-logo">
 ![TK100](./tracker.jpg)
+</div>
 
 El CanTrack TK100 es un rastreador GPS vehicular cableado diseñado para ofrecer posicionamiento continuo y control remoto. Frecuentemente instalado en autos, camiones y motocicletas, utiliza señales satelitales GPS y comunicaciones por GPRS y SMS para transmitir en tiempo real la ubicación, velocidad, estado del encendido y eventos de alarma a servidores y dispositivos móviles. El TK100 también incorpora funciones antirrobo como inmovilizador remoto y un botón SOS para reportes de emergencia.
 

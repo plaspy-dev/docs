@@ -20,7 +20,9 @@ keywords:
 
 # EV - EV-04
 
+<div className="device-logo">
 ![EV-04](./tracker.png)
+</div>
 
 The EV-04 is a compact personal 4G GPS tracker pendant designed for dependable personal protection and remote patient monitoring. As a lightweight wearable, it combines one button SOS, sensitive fall detection, two way calling, and multiple positioning methods to provide caregivers and monitoring services with timely alerts and location information. The device is IP67 rated and built for daily wear with a soft touch housing and a dedicated charging base.
 

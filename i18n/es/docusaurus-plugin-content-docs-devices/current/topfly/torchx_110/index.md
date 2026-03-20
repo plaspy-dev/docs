@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - TorchX 110
 
+<div className="device-logo">
 ![TorchX 110](./tracker.jpg)
+</div>
 
 El TopFly TorchX 110 es un rastreador OBDII tipo plug-and-play diseñado para telemática de flotas, programas de seguro por uso y diagnóstico vehicular. Combina seguimiento en tiempo real de alta resolución con telemetría a nivel de vehículo y soporte para accesorios en un formato OBDII, lo que facilita un despliegue rápido en flotas mixtas. El TorchX 110 está pensado para entregar actualizaciones frecuentes de posición, parámetros del bus CAN y conectividad con sensores Bluetooth para cubrir amplias necesidades telemáticas.
 

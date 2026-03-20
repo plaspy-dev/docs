@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СИГНАЛ S-4651 (4G)
 
+<div className="device-logo">
 ![СИГНАЛ S-4651 (4G)](./tracker.jpeg)
+</div>
 
 El SIGNAL S-4651 es un terminal profesional de rastreo vehicular con soporte GLONASS y GPS de Navtelekom, diseñado para aplicaciones exigentes de monitoreo de flotas. Amplía una plataforma probada con conectividad celular de múltiples generaciones, conmutación entre SIMs (dual SIM) para mayor continuidad y entradas/salidas de calidad automotriz. Además admite registro local de datos, múltiples entradas y salidas, conexiones Bluetooth para accesorios y gestión remota de firmware. La unidad está pensada para seguimiento continuo y telemetría en tiempo real en entornos de transporte comercial.
 

@@ -20,7 +20,9 @@ keywords:
 
 # YulongDa - TK102
 
+<div className="device-logo">
 ![TK102](./logo.jpg)
+</div>
 
 The YulongDa TK102 is a compact and lightweight GPS tracker designed to deliver accurate and reliable location tracking for a variety of applications. Measuring 64 mm by 46 mm by 17 mm and weighing approximately 50 g, the TK102 is easy to carry and place discreetly. It uses cellular connectivity and a high performance SIRF3 GPS receiver to provide positioning with a stated accuracy in the meter range, and includes a removable battery and charging accessories for flexible use in mobile and fixed deployments.
 

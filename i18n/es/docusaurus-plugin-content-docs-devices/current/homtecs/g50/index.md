@@ -21,7 +21,9 @@ keywords:
 
 # Homtecs - G50
 
+<div className="device-logo">
 ![G50](./logo.jpg)
+</div>
 
 El Homtecs G50 es un router robusto 4G LTE de alta velocidad diseñado para IoT industrial y comunicaciones remotas. Combina soporte multibanda para banda ancha móvil con un procesador de comunicaciones ARM de doble núcleo de grado industrial y un sistema operativo embebido en tiempo real, lo que garantiza una transmisión inalámbrica estable. El equipo incluye múltiples interfaces, como cuatro puertos Ethernet gigabit, conectividad RS‑485/232 y WiFi de doble banda, permitiendo un despliegue flexible en entornos variados.
 

@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK210-3G
 
+<div className="device-logo">
 ![LK210-3G](./tracker.jpg)
+</div>
 
 The LK210-3G is a compact, easy to install GPS tracker designed for motorcycles, cars, and trucks. It combines a built in GPS receiver and GSM connectivity with an integrated vibration sensor and shock wake up to provide reliable position updates, anti theft alerts, and discreet mounting options. Its small form factor and magnetic attachment make deployment fast and non intrusive for both personal vehicles and fleet assets.
 

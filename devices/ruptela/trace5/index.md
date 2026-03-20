@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - Trace5
 
+<div className="device-logo">
 ![Trace5](./logo..png)
+</div>
 
 The Ruptela Trace5 is a compact GNSS based vehicle tracker designed for efficient vehicle tracking and fleet management. It combines premium GNSS positioning with 4G connectivity and a rugged IP67 rated housing to deliver reliable location information in a variety of operational environments. The device is intended for use across logistics, delivery, utility fleets and other vehicle based use cases where durability and accurate tracking are important.
 

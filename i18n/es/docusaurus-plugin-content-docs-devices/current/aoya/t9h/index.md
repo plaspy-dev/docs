@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - T9H
 
+<div className="device-logo">
 ![T9H](./logo.jpg)
+</div>
 
 El AoYa T9H es un mini rastreador GPS compacto y versátil, pensado para ofrecer monitoreo de ubicación preciso y confiable. Con dimensiones reducidas de 49 mm x 66 mm x 15 mm y un peso de solo 141 g, el T9H es fácil de transportar y ocultar, por lo que resulta adecuado para seguimiento personal y diversas aplicaciones de rastreo de activos. El dispositivo emplea un chip GPS de alto rendimiento compatible con señales u blox y BDS, y ofrece una precisión típica de posición de alrededor de 5 metros, lo que permite un rastreo exacto en muchos entornos operativos.
 

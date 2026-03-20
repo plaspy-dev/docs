@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - GF70L
 
+<div className="device-logo">
 ![GF70L](./logo..jpeg)
+</div>
 
 El CanTrack GF70L es un rastreador GPS para activos, robusto y diseñado para despliegues de larga duración. Cuenta con una batería recargable de alta capacidad de 12000 mAh y paneles solares integrados para prolongar el tiempo de funcionamiento. Su potente montaje magnético facilita la fijación a activos metálicos como vehículos, contenedores o equipos, mientras que las alertas incorporadas y los modos de rastreo flexibles ofrecen opciones de monitoreo prácticas para múltiples escenarios de seguimiento.
 

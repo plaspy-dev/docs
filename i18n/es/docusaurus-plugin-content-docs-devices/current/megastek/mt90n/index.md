@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT90N
 
+<div className="device-logo">
 ![MT90N](./tracker.jpg)
+</div>
 
 El MT90N es un rastreador GPS personal NB IoT compacto diseñado para la seguridad personal y el monitoreo de activos ligeros. Combina posicionamiento GNSS con asistencia por Wi‑Fi y LBS para mejorar el rendimiento de ubicación en entornos difíciles. El equipo incluye un botón SOS dedicado, protección robusta contra el agua y comportamiento de reporte configurable, ideal para niños, personas mayores, mascotas y trabajadores que laboran solos.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT-5000
 
+<div className="device-logo">
 ![XT-5000](./logo.jpg)
+</div>
 
 The Xirgo XT-5000 is a compact, rugged GPS tracker designed for long term deployments where reliability and low maintenance are critical. It combines an integrated GPS engine, a 32 bit microprocessor, and an efficient power management approach to provide continuous location and status reporting while minimizing power draw. The device is built for harsh outdoor environments and includes integrated antennas, motion detection, and an optional accelerometer to support extended remote operation.
 

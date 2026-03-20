@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - DK27
 
+<div className="device-logo">
 ![DK27](./tracker.jpg)
+</div>
 
 El DK27 es un rastreador GPS compacto y portátil pensado para protección anti pérdida y monitoreo de activos personales. Integra conectividad celular, batería recargable y un diseño de pequeño tamaño que facilita su despliegue sin cableado y su colocación discreta. Entre las funciones principales que destaca el fabricante están el botón SOS con una sola pulsación, monitoreo de voz para escucha remota, alarmas por movimiento y vibración, y soporte de geocercas; todas orientadas a proteger vehículos, motocicletas, mascotas y personas.
 

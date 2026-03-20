@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - GT-60
 
+<div className="device-logo">
 ![GT-60](./logo.jpg)
+</div>
 
 The Meitrack GT-60 is a compact, user friendly GPS tracker designed primarily for pet tracking. It uses an integrated GPS receiver to obtain position data and leverages cellular capability to send location information to a mobile phone or a server base. In addition to location tracking, the GT-60 functions as a portable emergency communication device with two way voice calling and quick dial options.
 

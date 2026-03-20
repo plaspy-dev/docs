@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB150
 
+<div className="device-logo">
 ![FMB150](./logo..png)
+</div>
 
 The Teltonika FMB150 is an advanced 2G GPS tracker with an integrated CAN data processor designed to read CAN bus data from light and electric vehicles, trucks, buses, and special machinery. It combines multi constellation GNSS positioning with a built in TM2500 communications module and Bluetooth LE capability, enabling a mix of location tracking and on vehicle data collection useful for fleet management and diagnostics.
 

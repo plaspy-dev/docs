@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP6824
 
+<div className="device-logo">
 ![SP6824](./tracker.png)
+</div>
 
 El SP6824 es un rastreador GPS ultradelgado y de alto rendimiento diseñado para el seguimiento de vehículos y activos en gestión de flotas, financiamiento vehicular, control de lotes y aplicaciones de recuperación ante robo. Combina un módulo GPS super sensitivo con conectividad 4G LTE Cat M1 y antenas internas para ofrecer un dispositivo de perfil bajo pensado para proporcionar información de ubicación fiable y telemetría básica de vehículos y activos almacenados.
 

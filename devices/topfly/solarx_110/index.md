@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - SolarX 110
 
+<div className="device-logo">
 ![SolarX 110](./tracker.png)
+</div>
 
 The SolarX 110 is a durable, solar powered GPS tracker built for long term outdoor asset monitoring. Designed for containers, trailers, trucks and other high value assets, it combines rugged IP67 protection with solar harvesting and an internal rechargeable battery to extend deployment life in remote and exposed environments.
 

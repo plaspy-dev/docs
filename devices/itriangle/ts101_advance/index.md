@@ -20,7 +20,9 @@ keywords:
 
 # iTriangle - TS101 Advance
 
+<div className="device-logo">
 ![TS101 Advance](./tracker.png)
+</div>
 
 The TS101 Advance is a rugged telematics tracker from iTriangle designed for reliable vehicle monitoring, security, and fleet management. Built for demanding outdoor use, the device provides continuous real-time positioning together with on board motion sensing and robust inputs and outputs for accessory integration, enabling sustained tracking and event reporting in commercial and public transport environments.
 

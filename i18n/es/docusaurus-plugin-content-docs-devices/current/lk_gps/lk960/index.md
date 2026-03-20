@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK960
 
+<div className="device-logo">
 ![LK960](./logo..jpg)
+</div>
 
 El LK960 de LK-GPS es un rastreador GPS cableado para vehículos, diseñado para su instalación en automóviles y motocicletas. Ofrece un diseño compacto junto con funciones clave de seguridad y control, como alarma SOS, detección por vibración ante manipulación, corte remoto de combustible y electricidad, y LEDs de estado para alimentación, GPS y GSM. El equipo es compatible con redes 2G y 4G y funciona en un amplio rango de voltaje, lo que lo hace apto para distintos tipos de vehículos.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Riti - SLS-012SF
 
+<div className="device-logo">
 ![SLS-012SF](./logo.jpg)
+</div>
 
 El Riti SLS-012SF es un rastreador GPS para vehículos pensado para la gestión de flotas, servicios de localización, monitoreo remoto y aplicaciones de control industrial. Integra un módulo GPS de alta sensibilidad con un módulo de comunicación móvil para ofrecer reportes de ubicación continuos y transmisión de datos al backend. El equipo está diseñado para conectarse con diversos dispositivos externos como unidades PND, i-Button, escáneres de códigos de barras, lectores RFID, sensores de presión de neumáticos y sensores de temperatura, lo que lo hace útil tanto para seguimiento de vehículos como para tareas de telemetría más amplias.
 

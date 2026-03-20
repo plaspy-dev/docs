@@ -20,7 +20,9 @@ keywords:
 
 # Telic - SBC3 IO
 
+<div className="device-logo">
 ![SBC3 IO](./logo.jpg)
+</div>
 
 The Telic SBC3 IO is a rugged telematics unit built for outdoor location applications. Designed with a water resistant housing and a high sensitivity GPS receiver, the SBC3 IO is intended for track and trace scenarios where devices are exposed to the elements. Integrated GSM and GPS antennas simplify deployment for sites that require reliable position reporting in open environments.
 

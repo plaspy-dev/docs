@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM001
 
+<div className="device-logo">
 ![FMM001](./Logo.png)
+</div>
 
 El Teltonika FMM001 es un rastreador GPS compacto de tipo plug-and-track diseñado para aplicaciones de telemática vehicular. Integra posicionamiento GNSS con conectividad celular LTE CAT M1, lectura de parámetros OBD II, soporte Bluetooth Low Energy y un acelerómetro para reportar movimiento y eventos, ofreciendo ubicación, desplazamiento y diagnósticos básicos del vehículo. Está pensado para gestión de flotas, renta y leasing de vehículos, telemática para seguros, registros de conductor y otros escenarios donde la ubicación y parámetros del vehículo son relevantes.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-7
 
+<div className="device-logo">
 ![AT-7](./tracker.jpg)
+</div>
 
 El Autoseeker AT-7 es un localizador GPS 4G de formato tarjeta, compacto y pensado para uso diario y supervisión ligera. Combina posicionamiento multi-constelación (GPS, BDS, AGPS, LBS) con alta sensibilidad a señales satelitales y conectividad celular para ofrecer actualizaciones de ubicación fiables en entornos urbanos mixtos e interiores. El equipo incorpora funciones prácticas como geovallas, SOS, alarmas por vibración, detección de movimiento, almacenamiento de datos sin conexión y actualización remota de firmware para mantener el seguimiento y las alertas de forma continua.
 

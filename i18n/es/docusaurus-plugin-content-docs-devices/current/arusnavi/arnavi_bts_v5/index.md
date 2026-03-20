@@ -21,7 +21,9 @@ keywords:
 
 # Arusnavi - Arnavi BTS v.5
 
+<div className="device-logo">
 ![Arnavi BTS v.5](./tracker.png)
+</div>
 
 El Arnavi BTS v.5 es un sensor compacto Bluetooth Low Energy e etiqueta iBeacon diseñado para monitorear temperatura, detectar el estado de contacto o apertura de puertas e identificar activos. Su formato reducido, parámetros de publicidad configurables y batería reemplazable lo hacen ideal para montarse en vehículos, contenedores o instalaciones fijas donde se requiera telemetría ambiental y de proximidad sencilla.
 

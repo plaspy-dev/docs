@@ -21,7 +21,9 @@ keywords:
 
 # SinoTrack - ST-905/915
 
+<div className="device-logo">
 ![ST-905/915](./Logo.jpg)
+</div>
 
 El SinoTrack ST-905/915 es un rastreador GPS compacto y resistente pensado para una amplia variedad de escenarios de seguimiento. Combina una construcción robusta con una batería integrada de 10000 mAh que permite largos periodos en espera, posicionamiento mediante un módulo GPS Ubox 7020 con precisión reportada de aproximadamente 10 metros RMS 2D, y un conjunto de funciones de alarma y monitoreo. El equipo está diseñado para soportar condiciones exteriores gracias a su montaje con imán y carcasa impermeable, y ofrece conectividad por SMS y GPRS para reportes y comandos remotos.
 

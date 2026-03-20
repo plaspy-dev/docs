@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMC800
 
+<div className="device-logo">
 ![FMC800](./logo..png)
+</div>
 
 El Teltonika FMC800 es un rastreador GPS compacto plug and play pensado para la gestión de flotas y el seguimiento vehicular. Diseñado para conectarse fácilmente al puerto OBD II del vehículo, el FMC800 ofrece posicionamiento continuo mediante conectividad celular moderna y soporte multi GNSS. Está construido para proporcionar datos de ubicación precisos e información detallada de registro de choques, manteniéndose discreto tanto en tamaño como en operación.
 

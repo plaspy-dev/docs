@@ -21,7 +21,9 @@ keywords:
 
 # Supermate - D11-G
 
+<div className="device-logo">
 ![D11-G](./logo.jpg)
+</div>
 
 El Supermate D11-G es un rastreador GPS compacto y versátil pensado para la gestión de activos y aplicaciones de seguridad. Diseñado para una colocación discreta y fácil transporte, el D11-G es adecuado para rastrear vehículos, objetos personales, equipos o personas. Sus funciones principales incluyen reporte de ubicación en tiempo real, geocercas para definir límites virtuales y un botón de emergencia SOS para alertas en situaciones críticas.
 

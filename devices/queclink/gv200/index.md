@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV200
 
+<div className="device-logo">
 ![GV200](./logo.jpg)
+</div>
 
 The QuecLink GV200 is a compact vehicle GPS tracker designed for a broad range of vehicle tracking applications. It combines a sensitive internal GPS receiver and an internal 3 axis accelerometer to provide reliable location tracking and towing detection. The unit supports quad band GPRS/GSM connectivity and offers multiple I O interfaces for monitoring and controlling external devices, making it adaptable to a variety of fleet and security scenarios.
 

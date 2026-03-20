@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-P4X
 
+<div className="device-logo">
 ![TS-P4X](./tracker.jpg)
+</div>
 
 El TS-P4X es un rastreador GPS magnético y de uso rudo diseñado para despliegues prolongados en contenedores de carga, remolques y otros activos de transporte de larga distancia. Diseñado para condiciones exteriores exigentes, el equipo combina una batería de respaldo recargable de alta capacidad de 15,000 mAh con potentes imanes integrados y opciones celulares multiplataforma para ofrecer seguimiento de ubicación confiable y operación extendida en campo.
 

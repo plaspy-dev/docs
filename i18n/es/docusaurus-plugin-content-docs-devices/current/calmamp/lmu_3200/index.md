@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-3200
 
+<div className="device-logo">
 ![LMU-3200](./logo.jpg)
+</div>
 
 El CalmAmp LMU-3200 es un rastreador GPS compacto pensado para diversas aplicaciones de telemática automotriz. Combina seguimiento de ubicación con acceso a la interfaz de diagnóstico del vehículo (OBD II) e incorpora un acelerómetro de 3 ejes para detectar eventos como frenadas bruscas, curvas pronunciadas y aceleraciones repentinas. Su tamaño reducido y las antenas internas facilitan una instalación discreta y sencilla en despliegues móviles.
 

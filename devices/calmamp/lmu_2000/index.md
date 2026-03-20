@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-2000
 
+<div className="device-logo">
 ![LMU-2000](./logo.jpg)
+</div>
 
 The CalmAmp LMU-2000 is a compact, cost effective vehicle tracking device designed for straightforward installation in automobiles. It combines a focused GPS design with a small form factor to provide reliable location and speed data, and includes interfaces and sensors that support detection of driving events such as hard braking, cornering, and rapid acceleration. The device is intended for applications including automotive insurance, driver behavior management, auto rental, and general fleet management.
 

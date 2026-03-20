@@ -21,7 +21,9 @@ keywords:
 
 # Concox - MT200
 
+<div className="device-logo">
 ![MT200](./logo.jpg)
+</div>
 
 El Concox MT200 MOPLUS es un rastreador GPS para motocicletas diseñado para ofrecer durabilidad y control práctico del vehículo. Con una carcasa resistente con certificación IP65 contra polvo y agua, el MT200 soporta condiciones exteriores exigentes y el uso continuo en vehículos de dos ruedas. El equipo incluye las funciones de rastreo esenciales junto con una cómoda opción de corte de combustible y alimentación que no requiere cableado complejo, lo que lo hace adecuado para instalaciones en motocicletas.
 

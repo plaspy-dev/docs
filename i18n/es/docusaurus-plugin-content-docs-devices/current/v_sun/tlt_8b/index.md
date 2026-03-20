@@ -21,7 +21,9 @@ keywords:
 
 # V-SUN - TLT-8B
 
+<div className="device-logo">
 ![TLT-8B](./logo.jpg)
+</div>
 
 El V-SUN TLT-8B es un localizador vehicular compacto GPS/GSM diseñado para automóviles particulares y otros vehículos que cuentan con puerto OBD II. Integra un chipset GPS de alta sensibilidad para mantener la localización confiable en entornos con señal limitada, junto con un módulo GSM/GPRS para el envío de posiciones y eventos. Además, incorpora funciones de seguridad y protección como SOS, alarma por desconexión, geocercas electrónicas, alarma por exceso de velocidad y subida de datos históricos.
 

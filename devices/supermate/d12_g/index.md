@@ -20,7 +20,9 @@ keywords:
 
 # Supermate - D12-G
 
+<div className="device-logo">
 ![D12-G](./logo.jpg)
+</div>
 
 The Supermate D12-G is a compact GPS tracker designed for asset management and personal security. It is intended for discreet placement on vehicles, equipment, or valuables and aims to provide continuous location visibility. The device emphasizes ease of use with quick installation and a lightweight form factor, making it suitable for a wide range of operational environments and simple day to day deployment.
 

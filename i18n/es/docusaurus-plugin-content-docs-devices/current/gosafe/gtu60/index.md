@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - GTU60
 
+<div className="device-logo">
 ![GTU60](./tracker.webp)
+</div>
 
 El GTU60 es un rastreador GPS económico y con todas las funciones básicas, diseñado por un fabricante OEM consolidado para instalaciones rápidas y funcionamiento confiable en flotas de vehículos. Combina conectividad celular multibanda con un receptor GNSS de 32 canales y alta sensibilidad más AGPS para ofrecer posiciones y telemetría en tiempo real de forma consistente. La unidad es compacta y resistente a manipulaciones, con antenas internas y una carcasa con protección IP65 para instalaciones discretas en vehículos comerciales ligeros y flotas de alquiler.
 

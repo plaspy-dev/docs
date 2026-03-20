@@ -21,7 +21,9 @@ keywords:
 
 # Riti - 690 (IDU-400)
 
+<div className="device-logo">
 ![690 (IDU-400)](./tracker.jpg)
+</div>
 
 Locator 690 (IDU-400) es una unidad de datos inteligente profesional con GNSS diseñada para la gestión de flotas y el IoT en vehículos comerciales. Integra posicionamiento satelital de alta sensibilidad, telemetría celular multibanda y una amplia gama de entradas y salidas vehiculares para capturar la telemetría esencial que requieren las flotas. El equipo está pensado para usos operativos exigentes donde se necesita ubicación continua, reporte de eventos e integración con periféricos.
 

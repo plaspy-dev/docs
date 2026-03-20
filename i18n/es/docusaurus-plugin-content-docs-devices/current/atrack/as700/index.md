@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AS700
 
+<div className="device-logo">
 ![AS700](./tracker.jpg)
+</div>
 
 El AS700 es un rastreador GPS alimentado por energía solar, diseñado para despliegues exteriores a largo plazo y para el monitoreo industrial de activos. Pensado para contenedores, generadores, remolques y maquinaria pesada, combina una carcasa robusta certificada IP68/IP69K y MIL STD 810H con posicionamiento GNSS, conectividad celular y soporte para sensores Bluetooth, ofreciendo telemetría de ubicación y estado confiable con mantenimiento mínimo.
 

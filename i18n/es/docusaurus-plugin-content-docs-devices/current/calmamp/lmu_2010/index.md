@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-2010
 
+<div className="device-logo">
 ![LMU-2010](./logo.jpg)
+</div>
 
 El CalmAmp LMU-2010 es un rastreador vehicular compacto y económico, diseñado para una instalación sencilla en automóviles. Combina reportes precisos de ubicación y velocidad por GPS con entradas a bordo para datos del vehículo y detección de movimiento, por lo que resulta adecuado para soluciones de telemática para seguros, gestión del comportamiento del conductor, monitoreo de vehículos de alquiler y operaciones de flota. El LMU-2010 también incorpora lógica de eventos programable y opciones de configuración remota que simplifican la administración continua del dispositivo.
 

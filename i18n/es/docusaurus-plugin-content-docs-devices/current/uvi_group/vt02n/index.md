@@ -21,7 +21,9 @@ keywords:
 
 # UVI Group - VT02N
 
+<div className="device-logo">
 ![VT02N](./logo.jpg)
+</div>
 
 El UVI Group VT02N es un rastreador GPS para vehículos de diseño compacto y discreto, pensado para seguimiento y monitoreo en tiempo real sin llamar la atención. Su formato reducido y carcasa de plástico facilitan instalaciones discretas en distintos tipos de vehículos. El VT02N utiliza comunicación GSM en quad band y combina lógica de software inteligente con un diseño de hardware optimizado para ofrecer reportes de posición consistentes y operación fiable.
 

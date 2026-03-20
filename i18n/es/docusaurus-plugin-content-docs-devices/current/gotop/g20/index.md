@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G20
 
+<div className="device-logo">
 ![G20](./logo..jpg)
+</div>
 
 El GOTOP G20 es un rastreador GPS compacto e inteligente diseñado tanto para seguimiento de personas como de activos. Combina posicionamiento por satélite y asistido por red para ofrecer actualizaciones de ubicación con una precisión aproximada de 5 metros. El dispositivo está disponible con varias capacidades de batería y cuenta con funciones prácticas como monitoreo de audio remoto, alarmas por vibración y movimiento, alertas por exceso de velocidad y bajo voltaje, además de un potente imán para una instalación rápida y discreta en los activos.
 

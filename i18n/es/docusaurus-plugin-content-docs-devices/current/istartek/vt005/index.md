@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT005
 
+<div className="device-logo">
 ![VT005](./tracker.jpg)
+</div>
 
 El VT005 es un rastreador GPS OBD II 4G plug and play diseñado para despliegues rápidos y monitoreo fiable de vehículos. Se conecta directamente al puerto OBD II estándar para ofrecer registro continuo de posición y telemetría del vehículo sin necesidad de cableado fijo, lo que lo hace ideal para flotas y vehículos particulares que requieren una instalación ágil y mantenimiento sencillo.
 

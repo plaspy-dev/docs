@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G07E
 
+<div className="device-logo">
 ![G07E](./tracker.jpg)
+</div>
 
 El GOTOP G07E es un rastreador GPS magnético 4G con carga solar diseñado para el monitoreo de activos a largo plazo con mínimas tareas de mantenimiento. Integra un panel solar y una batería recargable de alta capacidad y extraíble para sostener operaciones prolongadas en exteriores. Su carcasa resistente y a prueba de agua, junto con un potente imán integrado, permiten montarlo en contenedores, remolques, maquinaria pesada y otros chasis metálicos donde se requiere seguimiento autónomo continuo.
 

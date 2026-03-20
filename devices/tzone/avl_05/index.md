@@ -20,7 +20,9 @@ keywords:
 
 # TZone - AVL-05
 
+<div className="device-logo">
 ![AVL-05](./logo.jpg)
+</div>
 
 The TZone AVL-05 is a GPS vehicle tracking device designed for vehicle security, recovery, and fleet management. It provides location tracking through software and mobile phone access, plus a suite of notification features such as over speed low power and geo fence alarms. The device also supports remote monitoring and control functions including door and engine state detection and remote engine cut off for emergency situations.
 

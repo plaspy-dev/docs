@@ -21,7 +21,9 @@ keywords:
 
 # Jointech - JT 600
 
+<div className="device-logo">
 ![JT 600](./logo.jpg)
+</div>
 
 El Jointech JT 600 es un rastreador GPS portátil y versátil pensado para una amplia variedad de tareas de seguimiento de activos y personal. Diseñado para uso en exteriores, cuenta con clasificación IP67 y soporte para alimentación solar, lo que permite desplegarlo por períodos prolongados en zonas remotas. Ofrece funciones habituales de monitoreo como alertas SOS, registro histórico de posiciones, configuración de geocercas y reenvío de datos GPRS, además de comunicación de voz bidireccional y larga autonomía para escenarios exigentes en campo.
 

@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK630
 
+<div className="device-logo">
 ![LK630](./tracker.jpg)
+</div>
 
 El LK630 es un rastreador compacto de LK GPS pensado para gatos y perros pequeños. Combina posicionamiento multitecnología con conectividad celular de bajo consumo para ofrecer actualizaciones de ubicación frecuentes y correcciones asistidas en entornos difíciles. El dispositivo es ligero, resistente al agua y está diseñado para sujetarse cómodamente a collares y arneses, permitiendo monitorizar a la mascota sin limitar su movimiento.
 

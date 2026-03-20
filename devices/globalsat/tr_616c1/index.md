@@ -20,7 +20,9 @@ keywords:
 
 # GlobalSat - TR-616C1
 
+<div className="device-logo">
 ![TR-616C1](./tracker.jpg)
+</div>
 
 The TR-616C1 is a compact vehicle mounted 4G LTE GPS tracker designed for practical fleet and asset management. It combines a high sensitivity GNSS receiver, multi band cellular modem and a rugged installable housing to provide accurate real time location and essential vehicle telemetry suitable for continuous tracking and event reporting.
 

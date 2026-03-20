@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - EC33
 
+<div className="device-logo">
 ![EC33](./tracker.jpg)
+</div>
 
 The TrackerKing EC33 is a compact pure 4G GPS tracker designed for reliable real time tracking. As TrackerKing’s smallest 4G device, the EC33 is intended for vehicles and mixed fleets including cars and motorcycles. It combines core telemetry and safety features such as ignition detection, remote engine and fuel cutoff, vibration and geo fence alarms, overspeed alerts, and a substantial onboard memory cache to preserve location history when connectivity is interrupted.
 

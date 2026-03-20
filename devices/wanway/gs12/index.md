@@ -20,7 +20,9 @@ keywords:
 
 # WanWay - GS12
 
+<div className="device-logo">
 ![GS12](./tracker.webp)
+</div>
 
 The WanWay GS12 is an intelligent vehicle GPS tracker designed for reliable, real time tracking and vehicle security. Built around 4G full netcom wireless communication and GPS BDS satellite navigation, the GS12 provides position reporting and vehicle event telemetry such as ACC detection, disassembly alarm, overspeed alerts, mileage statistics, and remote petrol or electricity cut off. Its feature set targets vehicle focused deployments that need consistent location data and practical anti theft controls.
 

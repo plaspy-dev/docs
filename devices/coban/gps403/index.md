@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS403
 
+<div className="device-logo">
 ![GPS403](./Logo.jpg)
+</div>
 
 The Coban GPS403 is a compact and versatile GPS tracker designed to locate and monitor assets using GPS satellites together with the existing GSM GPRS cellular network. It supports multiple cellular frequency bands, including common GSM and WCDMA 3G bands, and provides a range of tracking modes such as single locate, continuous auto track, and automatic position updates when a vehicle turns. Built in features like LBS based street address reporting and a broad set of alarm functions make the unit suitable for vehicle and general asset monitoring.
 

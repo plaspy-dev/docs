@@ -20,7 +20,9 @@ keywords:
 
 # Concox - GT350
 
+<div className="device-logo">
 ![GT350](./logo.jpg)
+</div>
 
 The Concox GT350 is a compact personal GPS tracker designed for people who need continuous location monitoring. It targets users such as inspectors, travelers, and outworkers, delivering a balance of portability and durability. Key features highlighted by the manufacturer include long stand-by time for extended use, emergency tracking for quick response, geofencing with instant notifications, voice monitoring for situational awareness, and an SOS alarm for critical situations.
 

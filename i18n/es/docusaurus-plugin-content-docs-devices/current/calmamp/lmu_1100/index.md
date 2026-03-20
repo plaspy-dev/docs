@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-1100
 
+<div className="device-logo">
 ![LMU-1100](./logo.jpg)
+</div>
 
 El CalmAmp LMU-1100 es un rastreador vehicular compacto y económico, pensado para activos al aire libre y vehículos recreativos. Su tamaño reducido va acompañado de un rendimiento GPS robusto para ofrecer localización precisa en motocicletas, motonieves, remolques y otros equipos expuestos. El LMU-1100 está orientado a la monitorización y recuperación de activos e incluye características de hardware prácticas, como batería de respaldo y entradas/salidas básicas que permiten el monitoreo basado en eventos.
 

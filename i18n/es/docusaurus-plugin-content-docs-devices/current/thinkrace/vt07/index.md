@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - VT07
 
+<div className="device-logo">
 ![VT07](./logo.jpg)
+</div>
 
 El ThinkRace VT07 es un rastreador vehicular diseñado para ofrecer información de ubicación precisa mediante avanzada tecnología de posicionamiento en 3 modos. Combina seguimiento continuo con un sistema de múltiples alarmas —incluyendo exceso de velocidad, corte de alimentación, vibración y alertas similares— para ayudar a proteger los vehículos frente a usos no autorizados o eventos imprevistos. El VT07 está construido para operar en un amplio rango de temperaturas, por lo que resulta adecuado para despliegues en climas exigentes.
 

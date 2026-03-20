@@ -20,7 +20,9 @@ keywords:
 
 # Navis - CH -5703
 
+<div className="device-logo">
 ![CH -5703](./logo.jpg)
+</div>
 
 The Navis CH -5703 is a marine navigation instrument designed for river and sea vessels. It combines GNSS reception across major satellite systems with differential corrections and provides fundamental navigation parameters such as current coordinates, date and time, speed over ground, and track angle. The device is intended to operate as part of a vessel monitoring set or as a component of an equipment control center, and it supports data exchange with shipboard systems including ECDIS, AIS when used with ECDIS, and other compatible control systems.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Telic - SBC AVL
 
+<div className="device-logo">
 ![SBC AVL](./logo.jpg)
+</div>
 
 The Telic SBC AVL is a compact telematics unit designed for fleet management and related applications. It combines integrated GSM and GPS antennas with support for 1-wire and CAN-bus interfaces, offering a space efficient, cost conscious solution for locating units and basic vehicle level data collection. Its feature set is centered on reliable tracking, driver detection use cases, and straightforward integration into vehicle systems.
 

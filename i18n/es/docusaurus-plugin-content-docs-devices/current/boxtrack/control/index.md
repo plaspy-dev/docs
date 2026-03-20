@@ -21,7 +21,9 @@ keywords:
 
 # BoxTrack - Control
 
+<div className="device-logo">
 ![Control](./Logo.png)
+</div>
 
 El BoxTrack Control es un rastreador GPS compacto para vehículos, diseñado para monitoreo en tiempo real y seguridad antirrobo. Ofrece actualizaciones de ubicación precisas con una exactitud reportada inferior a 5 metros y cuenta con funciones de protección como corte remoto de motor, botón de pánico SOS, monitoreo de audio en vivo mediante micrófono externo y sensor G para detección de impactos y conducción brusca. Además dispone de conectividad amplia y memoria interna para conservar reportes cuando la comunicación se interrumpe.
 

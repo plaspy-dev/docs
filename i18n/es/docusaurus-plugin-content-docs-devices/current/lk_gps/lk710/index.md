@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK710
 
+<div className="device-logo">
 ![LK710](./tracker.png)
+</div>
 
 El LK710 es un rastreador GPS compacto e impermeable diseñado para ofrecer seguimiento en tiempo real confiable y control remoto discreto de vehículos. Combina posicionamiento GPS con comunicación celular cuatribanda en una carcasa pequeña, proporcionando actualizaciones de ubicación, reporte de batería y control de inmovilizador remoto. Su formato y conjunto de funciones lo hacen adecuado para vehículos, flotas de alquiler, activos portátiles, bicicletas y escenarios de protección personal donde la instalación discreta y la fiabilidad son prioritarias.
 

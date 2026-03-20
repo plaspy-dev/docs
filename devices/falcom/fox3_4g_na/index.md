@@ -20,7 +20,9 @@ keywords:
 
 # Falcom - FOX3-4G-NA
 
+<div className="device-logo">
 ![FOX3-4G-NA](./logo.jpg)
+</div>
 
 The Falcom FOX3-4G-NA is a high performance GPS tracker and vehicle telematics gateway built for industrial IoT and fleet environments that require robust data connectivity. Designed around LTE Cat 4 with 3G and 2G fallback, it delivers continuous network reach while using modern GNSS positioning for accurate location data. The device supports a range of inputs and outputs and can be extended with Falcom expansion boxes such as IOBOX-MINI, IOBOX-CAN, or IOBOX-WLAN to adapt to varied vehicle and equipment integration needs.
 

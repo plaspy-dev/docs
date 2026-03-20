@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-16
 
+<div className="device-logo">
 ![AT-16](./tracker.jpg)
+</div>
 
 El Autoseeker AT-16 es un rastreador GPS OBD compacto plug and play pensado para despliegues rápidos y supervisión continua de vehículos. Al conectarse al puerto OBD estándar del vehículo, el AT-16 proporciona funciones básicas de rastreo como ubicación en tiempo real, historial de viajes y un conjunto de alertas de seguridad sin necesidad de cableado ni instalación profesional. Su tamaño discreto y su interfaz sencilla lo hacen adecuado para autos de renta, taxis, vehículos particulares y flotas mixtas.
 

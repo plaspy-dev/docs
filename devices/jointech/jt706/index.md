@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT706
 
+<div className="device-logo">
 ![JT706](./tracker.jpg)
+</div>
 
 The Jointech JT706 is a low profile GPS tracker built for container monitoring and secure cargo transport. Designed to be mounted discreetly in container ventilation points, the JT706 combines hybrid positioning with continuous environmental sensing to provide persistent location and condition data for refrigerated and dry containers, intermodal shipments, and customs supervised loads. Its concealed form factor reduces the risk of tampering while enabling ongoing visibility into movement and on board conditions.
 

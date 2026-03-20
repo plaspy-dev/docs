@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - Q60
 
+<div className="device-logo">
 ![Q60](./logo.jpg)
+</div>
 
 The Sentar Q60 is a compact GPS tracker designed for reliable location tracking across a range of everyday use cases. Powered by an MTK2503 chipset, the device combines GPS, AGPS, and LBS location modes to provide fast position fixes and continuity when GPS reception is limited. Its compact, low profile design and availability in black, white, and blue make it easy to position discreetly for vehicle, asset, or personal tracking needs.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Noran - NR100
 
+<div className="device-logo">
 ![NR100](./tracker.jpg)
+</div>
 
 El NR100 es un rastreador OBD II compacto, diseñado para despliegues de flotas y seguridad que requieren ubicación en tiempo real y monitoreo de eventos confiables. Integra posicionamiento dual (GPS y LBS), antenas internas y un receptor GPS SiRF para ofrecer actualizaciones continuas de ubicación, intervalos de reporte configurables y alertas inmediatas por exceso de velocidad, corte de energía y geovallas. El equipo también soporta reportes por SMS e Internet, monitoreo de audio remoto y análisis remoto de fallas para ayudar a mantener la salud del dispositivo y la conciencia situacional.
 

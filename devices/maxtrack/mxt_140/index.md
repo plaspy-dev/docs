@@ -20,7 +20,9 @@ keywords:
 
 # Maxtrack - MXT-140
 
+<div className="device-logo">
 ![MXT-140](./logo.jpg)
+</div>
 
 The Maxtrack MXT-140 is a compact and robust GPS tracker designed for high volume operations that require minimal field maintenance. It combines positioning and cellular data connectivity in a single internal processor, offering a streamlined architecture aimed at delivering efficient performance. Notable design priorities include electrical protection, impermeability, and mechanical durability, making the device appropriate for harsh environments and installations where reliability is important.
 

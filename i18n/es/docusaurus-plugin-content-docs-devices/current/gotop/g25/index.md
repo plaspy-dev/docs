@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G25
 
+<div className="device-logo">
 ![G25](./logo..png)
+</div>
 
 El GOTOP G25 es un rastreador de activos 4G diseñado para ofrecer monitoreo fiable y eficiente de una amplia variedad de bienes. Con una batería de gran capacidad pensada para el seguimiento a largo plazo, es ideal para coches particulares, vehículos de alquiler, camiones de flota, equipos portátiles, contenedores, bicicletas, e-bikes, motocicletas y cargas de paquetería. El equipo integra antena GPS y 4G, cuenta con alta resistencia al agua y un imán potente para un montaje seguro, y proporciona actualizaciones de ubicación en tiempo real además de alarmas habituales como caída, movimiento y batería baja.
 

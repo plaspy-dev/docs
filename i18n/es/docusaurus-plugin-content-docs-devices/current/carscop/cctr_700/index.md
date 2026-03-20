@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-700
 
+<div className="device-logo">
 ![CCTR-700](./logo.jpg)
+</div>
 
 El Carscop CCTR-700 es un rastreador GPS compacto pensado para un seguimiento de ubicación confiable y registro histórico de recorridos. Calcula la posición a partir de señales GPS y transmite los datos de ubicación mediante SMS o GPRS. El equipo funciona en cuatro bandas de frecuencia (850 900 1800 1900 MHz) para garantizar compatibilidad con operadores en distintas regiones y puede reportar longitud y latitud directamente o enviar un enlace a un mapa web para una visualización rápida en smartphone. Su memoria integrada almacena hasta 32,768 puntos de recorrido, de modo que el historial de ubicación se conserva aun cuando la transmisión en vivo se interrumpe.
 

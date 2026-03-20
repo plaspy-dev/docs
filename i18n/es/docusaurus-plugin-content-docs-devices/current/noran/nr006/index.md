@@ -21,7 +21,9 @@ keywords:
 
 # Noran - NR006
 
+<div className="device-logo">
 ![NR006](./tracker.jpg)
+</div>
 
 El NR006 Mini GPS Tracker es un dispositivo de localización ultracompacto pensado para motocicletas y vehículos pequeños. Ofrece una instalación discreta y reportes de posición constantes mediante antenas GPS y GSM integradas, con LBS como respaldo en zonas de señal débil. El equipo es ligero, alrededor de 100 g, y está optimizado para entornos donde el tamaño y la ocultación son importantes.
 

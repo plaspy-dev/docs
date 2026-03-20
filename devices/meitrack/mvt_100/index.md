@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - MVT-100
 
+<div className="device-logo">
 ![MVT-100](./logo.jpg)
+</div>
 
 The Meitrack MVT-100 is a GPS tracker designed for fleet management and vehicle monitoring. It combines an integrated battery with extended runtime, a 3D acceleration sensor for motion and tampering detection, and platform-level features such as live tracking, reporting, and alerts. The device also supports driver identification via iButton technology and can integrate with Garmin supported devices for navigation assisted workflows.
 

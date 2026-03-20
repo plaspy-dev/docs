@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - G03
 
+<div className="device-logo">
 ![G03](./tracker.jpg)
+</div>
 
 El CanTrack G03 es un rastreador GPS compacto y diseñado específicamente para la seguridad personal y la protección de bienes portátiles. Combina un tamaño reducido con una carcasa resistente de polímero ABS y protección IP65 contra el agua, lo que lo hace adecuado para el uso diario en sillas de ruedas, objetos de uso personal y otras pertenencias portátiles. El G03 ofrece actualizaciones de ubicación en tiempo real y reproducción de rutas históricas para que cuidadores, familiares y administradores puedan supervisar los desplazamientos a lo largo del tiempo.
 

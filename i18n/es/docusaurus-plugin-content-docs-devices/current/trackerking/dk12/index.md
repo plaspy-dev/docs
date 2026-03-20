@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - DK12
 
+<div className="device-logo">
 ![DK12](./tracker.jpg)
+</div>
 
 El DK12 es un rastreador robusto y multifunción diseñado para instalaciones en vehículos y activos que requieren seguimiento confiable en tiempo real y medidas antirrobo efectivas. Basado en el módulo SIMCOM7670SA, el DK12 ofrece conectividad 4G Cat1 con conmutación automática a 2G y variantes opcionales Cat M y NB IoT, además de una carcasa impermeable y un amplio rango de entrada de 9–90V para uso flexible en automóviles, camiones y equipos móviles.
 

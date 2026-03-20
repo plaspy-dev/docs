@@ -20,7 +20,9 @@ keywords:
 
 # Concox - LL303 Pro
 
+<div className="device-logo">
 ![LL303 Pro](./tracker.png)
+</div>
 
 The LL303 Pro is a solar powered 4G LTE GNSS asset GPS tracker designed for long term deployment on construction machinery, heavy equipment, and vessels. Built for harsh outdoor environments, it combines integrated solar charging, a large 10,000 mAh Li-Polymer battery and an IP67 rugged enclosure to provide extended standby and reliable real-time tracking for off grid assets. Multi-mode reporting and event triggered alerts help reduce maintenance visits and improve visibility of high value equipment.
 

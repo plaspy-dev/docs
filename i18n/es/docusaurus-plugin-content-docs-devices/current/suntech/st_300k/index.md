@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST 300K
 
+<div className="device-logo">
 ![ST 300K](./logo.jpg)
+</div>
 
 El Suntech ST 300K es un rastreador GPS de alta gama concebido para la gestión de flotas y el monitoreo operativo. Incluye múltiples interfaces vehiculares como RS232 y CANbus, además de una interfaz 1-Wire que admite hasta tres sensores de temperatura o un i-Button para la identificación del conductor. El dispositivo ofrece entradas y salidas analógicas y digitales configurables y detección de eventos integrada que puede generar alertas por colisiones, golpes y arrastre de grúa, junto con funciones como inmovilización del motor y detección de botón de pánico.
 

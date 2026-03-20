@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - U1 PLUS
 
+<div className="device-logo">
 ![U1 PLUS](./tracker.png)
+</div>
 
 El CAREU U1 PLUS es un rastreador GPS instalado en vehículo, pensado para la gestión de flotas, camiones pesados y despliegues comerciales. Ofrece seguimiento continuo de la ubicación y telemetría del vehículo, ideal para operaciones a gran escala, con hardware que admite monitoreo de combustible, expansión con múltiples sensores y detección de comportamiento del conductor para flotas comerciales.
 

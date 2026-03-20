@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-901
 
+<div className="device-logo">
 ![ST-901](./tracker.jpg)
+</div>
 
 The SinoTrack ST-901 is a compact, waterproof wired GPS tracker designed for motorcycles, scooters, cars and light trucks. Built for discreet mounting, the unit delivers GPS/GPRS/SMS positioning together with common vehicle alarms such as geo-fence and over-speed alerts, ACC ignition detection and a built-in backup battery to warn on main power loss. Its straightforward 4‑pin wiring and support for an external relay enable remote engine cut-off options for theft response.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Supermate - D26-T
 
+<div className="device-logo">
 ![D26-T](./logo.jpg)
+</div>
 
 El Supermate D26-T es un rastreador GPS compacto y ligero pensado para una amplia variedad de necesidades de seguimiento. Adecuado para uso personal, comercial e industrial, el D26-T prioriza la portabilidad y la instalación discreta, a la vez que ofrece monitoreo continuo de ubicación. Entre sus características descritas por el fabricante se incluyen el rastreo en tiempo real, soporte de geocercas, un botón de emergencia SOS y una construcción pensada para resistir el uso diario y distintas condiciones climáticas.
 

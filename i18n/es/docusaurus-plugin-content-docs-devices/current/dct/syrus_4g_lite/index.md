@@ -21,7 +21,9 @@ keywords:
 
 # DCT - Syrus 4G Lite
 
+<div className="device-logo">
 ![Syrus 4G Lite](./tracker.png)
+</div>
 
 El Syrus 4G Lite es una pasarela telemática IoT resistente, diseñada para el seguimiento continuo en tiempo real y el diagnóstico remoto en proyectos de flotas y telemetría industrial. Combina antenas celulares y GNSS integradas, una carcasa resistente con certificación IP65 y una batería interna de respaldo para mantener el reporte de ubicación y la captura de eventos en vehículos, remolques y activos de campo que operan en entornos exigentes.
 

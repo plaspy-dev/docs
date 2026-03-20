@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2435 MAX
 
+<div className="device-logo">
 ![SMART S-2435 MAX](./tracker.jpeg)
+</div>
 
 The SMART S-2435 MAX from Navtelekom is a compact GPS tracker built for reliable fleet and asset monitoring in demanding vehicle environments. It combines GNSS positioning with internal antennas and a backup battery to maintain continuous position and telemetry reporting even during power interruptions, making it suitable for vehicles and industrial applications that require persistent visibility.
 

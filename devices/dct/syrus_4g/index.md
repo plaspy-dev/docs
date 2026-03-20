@@ -20,7 +20,9 @@ keywords:
 
 # DCT - Syrus 4G
 
+<div className="device-logo">
 ![Syrus 4G](./tracker.png)
+</div>
 
 The Syrus 4G from DCT is an enterprise-grade telematics gateway built for demanding fleet and industrial IoT deployments. Designed as a rugged vehicle gateway, it combines multi-constellation GNSS positioning, redundant cellular connectivity, and a range of vehicle and sensor interfaces to deliver dependable real-time tracking and telemetry in harsh environments and at scale.
 

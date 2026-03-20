@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP9824
 
+<div className="device-logo">
 ![SP9824](./tracker.png)
+</div>
 
 El SP9824 es un rastreador GPS portátil de SkyPatrol pensado para despliegues a largo plazo en los que las ventanas de mantenimiento son escasas y la información ambiental es crítica. Combina una carcasa resistente e impermeable con sensores integrados de temperatura y luz, además de detección de manipulación, permitiendo supervisar ubicación y condición de pallets, contenedores, remolques y activos estáticos en entornos exteriores o refrigerados.
 

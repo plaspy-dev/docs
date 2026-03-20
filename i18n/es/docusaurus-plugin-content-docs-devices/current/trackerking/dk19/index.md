@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - DK19
 
+<div className="device-logo">
 ![DK19](./tracker.jpg)
+</div>
 
 El DK19 es un rastreador 4G compacto diseñado para ofrecer protección antirrobo confiable y gestión de flotas. Brinda seguimiento en tiempo real y telemetría robusta pensada para automóviles, motocicletas y otros vehículos motorizados donde la instalación discreta y la monitorización continua son prioritarias. Entre sus funciones principales destacan el reporte de ubicación, la detección del estado de encendido y la supervisión de eventos de seguridad, además de estadísticas de kilometraje útiles para la gestión de flotas.
 

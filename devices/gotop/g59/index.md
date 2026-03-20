@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G59
 
+<div className="device-logo">
 ![G59](./tracker.png)
+</div>
 
 The G59 is a compact IP67 waterproof GPS tracker designed as a collar tag for pet monitoring. Built for continuous outdoor use, it offers 4G LTE real-time tracking, SMS location messages with Google Maps links, and two-way voice interaction so owners can locate and communicate with pets during walks, outdoor adventures, or everyday activities. The device also includes pet-focused features such as sound and light locating, a large speaker for remote voice calling, pedometer and feeding reminders, geo-fence alerts, and low battery notifications.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Coban - BN-401D
 
+<div className="device-logo">
 ![BN-401D](./tracker.png)
+</div>
 
 The BN-401D is a compact motorcycle and small vehicle GPS management terminal from Coban designed for reliable real time tracking and anti theft protection. Suited to concealed installations, the unit pairs core telemetry with a rechargeable backup battery and remote controls on the D variant to deliver ignition aware tracking, SOS and shock alarms, geo fencing and remote fuel or power cutoff for straightforward vehicle security and monitoring.
 

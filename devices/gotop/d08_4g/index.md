@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D08-4G
 
+<div className="device-logo">
 ![D08-4G](./tracker.jpg)
+</div>
 
 The D08-4G is an OBD mounted 4G GPS tracker designed for vehicle monitoring in both fleet and individual car scenarios. It combines cellular connectivity with multi mode positioning options including GPS, Beidou BD, Wi‑Fi and LBS to provide continuous location data in a compact form factor. Standard vehicle alarm functions such as geofence, power failure, low battery, vibration tamper and offline alerts make it suitable for security and operational monitoring.
 

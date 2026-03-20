@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-303F
 
+<div className="device-logo">
 ![BN-303F](./tracker.png)
+</div>
 
 El BN-303F, también listado como modelo 303FG, es un rastreador GPS compacto para montaje en vehículo diseñado para despliegues confiables en escenarios de antirrobo, gestión de flotas y seguimiento en tiempo real. Pensado para instalaciones ocultas en automóviles, camiones comerciales y vehículos de alquiler, el BN-303F ofrece posicionamiento GNSS, telemetría continua y alertas configurables para mantener a administradores de flota y propietarios informados y en control.
 

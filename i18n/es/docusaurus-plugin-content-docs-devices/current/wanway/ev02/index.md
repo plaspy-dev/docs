@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - EV02
 
+<div className="device-logo">
 ![EV02](./tracker.webp)
+</div>
 
 El EV02 es un rastreador GPS 2G compacto de WanWay diseñado para ofrecer protección antirrobo y facilitar la gestión eficiente de flotas. Su tamaño reducido y la alta sensibilidad en posicionamiento lo hacen ideal para motocicletas, automóviles, vehículos comerciales ligeros y vehículos eléctricos, entregando datos de ubicación en tiempo real y reportes de eventos confiables para la seguridad del activo y la supervisión operativa.
 

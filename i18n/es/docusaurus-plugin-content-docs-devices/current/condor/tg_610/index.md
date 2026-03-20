@@ -21,7 +21,9 @@ keywords:
 
 # Condor - TG-610
 
+<div className="device-logo">
 ![TG-610](./tracker.png)
+</div>
 
 El TG-610 es un rastreador GPS compacto diseñado para motocicletas y vehículos pequeños. Integra una antena GPS de alta sensibilidad y conectividad GPRS en un formato reducido, con diseño de bajo consumo y E/S sencillas. El equipo ofrece reportes de ubicación confiables en tiempo real, telemetría básica y control antirrobo, pensado para propietarios y gestores de flota que requieren una solución discreta para aplicaciones en vehículos de dos ruedas y vehículos compactos.
 

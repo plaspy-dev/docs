@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - GVT800
 
+<div className="device-logo">
 ![GVT800](./tracker.jpg)
+</div>
 
 The Megastek GVT800 is a rugged 4G LTE GPS tracker designed for heavy duty vehicles, intercity and school buses, and commercial fleet management. It combines a high sensitivity Ublox GNSS receiver with multi network cellular communications to provide continuous real time position reporting, alarm handling and remote control capabilities suited to long haul and urban routes. The design emphasizes dependable tracking and telemetry for operators who need reliable location visibility and event reporting across a range of vehicle types.
 

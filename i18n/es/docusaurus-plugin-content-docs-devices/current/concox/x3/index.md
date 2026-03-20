@@ -21,7 +21,9 @@ keywords:
 
 # Concox - X3
 
+<div className="device-logo">
 ![X3](./tracker.png)
+</div>
 
 El Concox X3 es un rastreador GPS vehicular compacto y multifuncional, diseñado para ofrecer seguimiento en tiempo real, gestión de flotas y monitoreo de seguridad. Pensado para instalaciones en vehículos, el X3 integra posicionamiento GNSS (GPS, BDS y LBS), comunicación bidireccional y análisis de comportamiento de conducción para que las flotas puedan vigilar ubicaciones, responder ante incidentes y mejorar la seguridad de los conductores.
 

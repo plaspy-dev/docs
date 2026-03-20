@@ -20,7 +20,9 @@ keywords:
 
 # Winrich - TK102
 
+<div className="device-logo">
 ![TK102](./logo.jpg)
+</div>
 
 The Winrich TK102B is a compact GPS tracker that combines satellite positioning with GSM based location fallback. Designed for continuous tracking in a variety of environments, the TK102B supports global GSM bands and can switch to GSM positioning when GPS signals are unavailable. It also includes features such as local language real address replies, a built in shock sensor, TF card support for route storage, and an auto set APN function to simplify network configuration.
 

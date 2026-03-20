@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - GT06N
 
+<div className="device-logo">
 ![GT06N](./Logo.png)
+</div>
 
 The SinoTrack GT06N is a compact GPS tracker designed for vehicle tracking across a range of vehicle types. It offers a slim form factor and flexible power options suitable for cars, trucks, motorcycles, and similar vehicles. The device emphasizes reliable positioning and a set of practical features intended to help monitor vehicle location and basic security events.
 

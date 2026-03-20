@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GB100MG
 
+<div className="device-logo">
 ![GB100MG](./tracker.png)
+</div>
 
 The QuecLink GB100MG is a compact, battery mounted GPS tracker engineered for usage based insurance and fleet telematics. It is designed for quick engine compartment installation and provides real time location tracking along with high resolution crash telemetry. The unit features internal antennas, an IP67 rated enclosure, and resilient cellular connectivity with fallback options to help maintain message delivery in varied operating conditions.
 

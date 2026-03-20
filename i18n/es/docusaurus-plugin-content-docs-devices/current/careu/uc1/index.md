@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - UC1
 
+<div className="device-logo">
 ![UC1](./tracker.png)
+</div>
 
 El CAREU UC1 es un dispositivo combinado que integra un rastreador GPS y una cerradura electrónica para sellado seguro de contenedores y activos. Fabricado en Taiwán, el UC1 combina protección mecánica, como una cadena de acero inoxidable y montaje magnético, con seguimiento global en tiempo real y detección de manipulación, ofreciendo visibilidad continua de cargamentos, remolques, furgonetas y contenedores intermodales.
 

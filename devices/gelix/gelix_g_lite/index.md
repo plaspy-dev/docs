@@ -20,7 +20,9 @@ keywords:
 
 # Gelix - Gelix G Lite
 
+<div className="device-logo">
 ![Gelix G Lite](./logo.jpg)
+</div>
 
 The Gelix G Lite is a compact receptionist telematics GPS tracker designed to provide accurate and reliable location information for vehicles and mobile assets. It combines GLONASS and GPS navigation with GSM GPRS communication to capture position data quickly, with a reported start time of around 29 seconds after power on. The device supports multi channel reception modes to improve positioning reliability and is intended for general fleet and asset tracking applications.
 

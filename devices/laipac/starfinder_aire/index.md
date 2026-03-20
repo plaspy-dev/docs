@@ -20,7 +20,9 @@ keywords:
 
 # Laipac - StarFinder AIRE
 
+<div className="device-logo">
 ![StarFinder AIRE](./logo.jpg)
+</div>
 
 The Laipac StarFinder AIRE is a compact and stylish GPS tracking device designed for a wide range of assets. It supports quick location updates and automatic alerts, making it suitable for tracking motorbikes, scooters, ATVs, boats, and fixed assets such as ATM machines. The device includes monitoring features like geo fencing, motion detection, speed alerts, and internal relays to control outputs, and it is built to withstand harsh conditions with a strong waterproof and dustproof design.
 

@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - GP10
 
+<div className="device-logo">
 ![GP10](./Logo.jpg)
+</div>
 
 El WanWay GP10 es un dispositivo de localización y seguimiento personal compacto diseñado para necesidades diarias. Con unas dimensiones de 48x33x17 mm, es lo suficientemente pequeño para uso personal y tan portátil que puede colocarse en objetos, llevarse para seguridad personal o mantenerse en mascotas. Entre sus funciones principales destacan actualizaciones de ubicación en tiempo real, geocercas configurables por el usuario, notificaciones por SMS para eventos clave y monitoreo de voz remoto.
 

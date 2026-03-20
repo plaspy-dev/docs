@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST6560
 
+<div className="device-logo">
 ![ST6560](./tracker.jpg)
+</div>
 
 The ST6560 is a compact OBD II GPS tracker designed to provide vehicle level diagnostics and continuous location reporting. Built for plug and play installation into the vehicle 16 pin J1962 connector, the device is positioned for fleet management, anti theft recovery and telematics projects that need an integrated diagnostics and tracking solution. The model description highlights multi network resilience and multi constellation GNSS with Dead Reckoning to maintain position reporting in challenging environments.
 

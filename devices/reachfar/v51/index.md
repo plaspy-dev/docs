@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - V51
 
+<div className="device-logo">
 ![V51](./tracker.jpg)
+</div>
 
 The V51 is a compact 4G personal GPS tracker purpose built for reliable monitoring of elderly people children and other vulnerable users. Housed in an IP67 waterproof case the device uses GPS and Beidou satellite positioning alongside multi network cellular connectivity to provide precise outdoor location together with practical utilities such as pill reminders a pedometer a talking clock and a remote ring to find the device. Safety features include SOS alerts and fall detection to notify caregivers quickly.
 

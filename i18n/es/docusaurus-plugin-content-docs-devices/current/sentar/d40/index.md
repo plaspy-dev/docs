@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D40
 
+<div className="device-logo">
 ![D40](./tracker.jpg)
+</div>
 
 El Sentar D40 es un reloj inteligente pensado para niños que ofrece comunicación sencilla desde la muñeca y funciones de seguridad para padres y cuidadores. Con una pantalla redonda HD curva 2.5D de 1.38 pulgadas, el D40 permite interacción por voz y toma de fotos, dispone de un botón SOS dedicado para alertas de emergencia y monta una batería de 800 mAh diseñada para un uso diario prolongado. Su diseño ligero, resistencia a salpicaduras IPX7 y las opciones de color lo hacen apropiado para el uso cotidiano de usuarios más jóvenes.
 

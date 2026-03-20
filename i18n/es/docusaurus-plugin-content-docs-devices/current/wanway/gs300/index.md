@@ -21,7 +21,9 @@ keywords:
 
 # WanWay - GS300
 
+<div className="device-logo">
 ![GS300](./tracker.webp)
+</div>
 
 El WanWay GS300 es un rastreador GPS robusto diseñado para seguimiento confiable de activos y gestión de flotas. Pensado para posicionamiento continuo, el GS300 combina navegación por satélite GPS y BDS con conectividad inalámbrica 4G full Netcom para ofrecer actualizaciones frecuentes de ubicación, reproducción de recorridos y alarmas en el dispositivo. Su carcasa impermeable, sensor de luz y gran batería de 7800 mAh permiten despliegues prolongados donde el monitoreo ininterrumpido y la reducción de mantenimiento son prioritarios.
 

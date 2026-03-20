@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - S921
 
+<div className="device-logo">
 ![S921](./tracker.jpg)
+</div>
 
 The Megastek S921 is a compact fixed home base station designed to extend supervised monitoring systems for residential and facility environments. It pairs with Megastek ankle trackers and provides local presence detection, multiple alarm signals, and a permanent indoor installation option to support continuous, auditable supervision.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - G02-4G
 
+<div className="device-logo">
 ![G02-4G](./tracker.jpg)
+</div>
 
 El GOTOP G02-4G es un rastreador GPS compacto y resistente, diseñado para motos, e-bikes y automóviles. Ofrece seguimiento en tiempo real mediante 4G LTE con conmutación a 3G/2G y reporte por SMS como respaldo, y su carcasa con certificación IP67 lo hace apto para uso exterior. El equipo está concebido para entornos vehiculares, con un amplio rango de voltaje de entrada y rendimiento de posicionamiento adecuado para seguimiento rutinario de flotas y activos.
 

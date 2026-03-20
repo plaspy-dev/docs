@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - TS-P4X
 
+<div className="device-logo">
 ![TS-P4X](./tracker.jpg)
+</div>
 
 The TS-P4X is a heavy duty magnetic GPS tracker designed for long term deployments on cargo containers, trailers and other long haul transportation assets. Built for harsh outdoor conditions, the device combines a high capacity 15,000 mAh rechargeable backup battery with strong integrated magnets and multi generation cellular options to deliver reliable location tracking and extended field operation.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FMC230
 
+<div className="device-logo">
 ![FMC230](./tracker.png)
+</div>
 
 El Teltonika FMC230 es un rastreador GPS resistente diseñado para uso en vehículos y activos de trabajo pesado. Su carcasa con certificación IP67 y su diseño mecánico robusto están pensados para entornos exigentes como la construcción, la minería y la agricultura. El FMC230 ofrece seguimiento continuo mediante conectividad LTE Cat 1 con retroceso automático a 2G y además admite sensores Bluetooth Low Energy (BLE) para ampliar la monitorización ambiental y de movimiento.
 

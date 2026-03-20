@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G01 / G02
 
+<div className="device-logo">
 ![G01 / G02](./Logo.png)
+</div>
 
 The CanTrack G01 / G02 is a compact GPS tracker designed for reliable location monitoring of vehicles and other mobile assets. It combines built in GPS and GSM modules to capture position data and deliver that information over the cellular network. The device supports real time tracking, history route replay, geo fence alerts, SOS notifications, and low battery warnings, and it is sized for convenient placement with a small rechargeable battery.
 

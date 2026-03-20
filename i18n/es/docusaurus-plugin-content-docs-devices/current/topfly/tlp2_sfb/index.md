@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - TLP2-SFB
 
+<div className="device-logo">
 ![TLP2-SFB](./tracker.png)
+</div>
 
 El TLP2-SFB es un rastreador GPS de uso intensivo con asistencia solar, diseñado para el monitoreo prolongado de activos en exterior. Pensado para contenedores, remolques y camiones, combina una carcasa resistente con certificación IP67 y múltiples opciones de montaje con carga solar integrada para soportar despliegues extendidos. El equipo prioriza la visibilidad fiable de la ubicación y un amplio almacenamiento en búfer offline, de modo que los activos sigan siendo rastreables incluso en zonas con cobertura intermitente.
 

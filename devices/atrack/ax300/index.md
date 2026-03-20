@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AX300
 
+<div className="device-logo">
 ![AX300](./tracker.jpg)
+</div>
 
 The AX300 from ATrack is a compact vehicle tracker designed for professional fleet management and vehicle telematics. Intended to connect via the vehicle OBD-II interface, the AX300 provides real-time GNSS location plus engine and diagnostic data, making it suited for operations that need both position and vehicle health visibility. Its design emphasizes deployment in demanding vehicle environments where ongoing telemetry and reliable connectivity matter.
 

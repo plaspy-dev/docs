@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT140
 
+<div className="device-logo">
 ![VT140](./tracker.jpg)
+</div>
 
 El VT140 de iStartek es un rastreador GPS aprobado bajo la norma AIS-140, diseñado para la gestión profesional de flotas y la seguridad vehicular. Está pensado para operar en entornos automotrices exigentes y combina posicionamiento multi GNSS, E/S robusta para telemetría y accesorios, además de funciones orientadas a la industria como corte remoto, soporte para detección de robo de combustible y subida de eventos de cámara. La capacidad de subida dual a servidores IP y la compatibilidad con el protocolo CDAC hacen al VT140 adecuado para despliegues regulados que requieren reportes continuos.
 

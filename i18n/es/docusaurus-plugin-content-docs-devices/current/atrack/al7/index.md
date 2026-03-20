@@ -21,7 +21,9 @@ keywords:
 
 # ATrack - AL7
 
+<div className="device-logo">
 ![AL7](./logo.jpg)
+</div>
 
 El ATrack AL7 es una unidad de rastreo pensada para flotas que ofrece una solución económica y confiable para seguimiento en tiempo real incluso en entornos exigentes. Su carcasa robusta IP66 y la antena interna protegen el dispositivo frente a condiciones exteriores y uso automotriz, mientras que su alta sensibilidad GPS, sensor G integrado para detección de movimiento, opciones configurables de rastreo y registro, y un amplio rango de voltaje operativo lo hacen adecuado para diversos tipos de vehículos.
 

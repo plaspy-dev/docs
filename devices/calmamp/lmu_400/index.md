@@ -20,7 +20,9 @@ keywords:
 
 # CalmAmp - LMU-400
 
+<div className="device-logo">
 ![LMU-400](./logo.jpg)
+</div>
 
 The CalmAmp LMU-400 is a compact and cost effective vehicle tracking device designed for automobiles. It combines strong GPS performance with a small form factor and an internal backup battery to provide reliable location tracking and continued operation during power interruptions. The LMU-400 supports configurable event rules and includes features such as optional motion sensing, a built in buzzer, and a starter interrupt relay to support a range of automotive tracking needs.
 

@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - GF20-Mini
 
+<div className="device-logo">
 ![GF20-Mini](./tracker.jpg)
+</div>
 
 The GF20 Mini Magnet GPS Tracker is a compact, discreet asset tracker designed for short term covert tracking of vehicles, containers, and personal belongings. It provides real time tracking, geo fence alerts, and event notifications via SMS or platform messages, and supports simple integration with fleet or asset monitoring systems. Its small magnetic housing and focused feature set make it suitable for situations where rapid deployment and unobtrusive placement are important.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 600R
 
+<div className="device-logo">
 ![ST 600R](./logo.jpg)
+</div>
 
 The Suntech ST 600R is a high performance GPS tracker designed for reliable data transmission over cellular networks. It supports 3G speeds and includes an enhanced cellular modem with support for HSDPA, UMTS, EDGE, and GSM GPRS, giving the device the ability to continue sending and receiving location and status information even where 3G coverage is not available. Multiple lines of inputs and outputs allow connection of peripheral devices to extend monitoring capabilities.
 

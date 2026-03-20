@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FM 3200
 
+<div className="device-logo">
 ![FM 3200](./logo.jpg)
+</div>
 
 El Teltonika FM 3200 es un rastreador GPS compacto que ofrece detección de posición en tiempo real y transmisión remota de datos sobre redes GSM. Diseñado para el seguimiento de vehículos y activos, el equipo incorpora un receptor de 50 canales, salida NMEA por USB, múltiples entradas y salidas para monitoreo y control externos, sensor de movimiento interno y almacenamiento local de datos. El FM 3200 está pensado para tareas de rastreo habituales, con opciones de configuración flexibles para disparadores, geocercas e informes de datos.
 

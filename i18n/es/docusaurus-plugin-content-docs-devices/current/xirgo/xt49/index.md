@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XT49
 
+<div className="device-logo">
 ![XT49](./tracker.webp)
+</div>
 
 El XT49 es un rastreador GPS robusto diseñado para despliegues remotos y de larga duración donde el acceso para mantenimiento es limitado. Con captación de energía solar integrada y conectividad LTE, el XT49 ofrece seguimiento continuo y de bajo mantenimiento, ideal para contenedores, remolques de larga distancia y otros activos que pasan largos periodos sin servicio. Su carcasa totalmente sellada y su construcción resistente lo hacen apropiado para entornos marinos y desérticos exigentes.
 

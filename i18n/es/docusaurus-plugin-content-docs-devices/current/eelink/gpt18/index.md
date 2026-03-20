@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT18
 
+<div className="device-logo">
 ![GPT18](./tracker.jpg)
+</div>
 
 El GPT18 es un reloj rastreador GPS compacto diseñado para el monitoreo personal. Pensado para niños, personas mayores y usuarios en situación de soledad, ofrece localización en tiempo real mediante GPS, Wi‑Fi y posicionamiento LBS, incluye llamadas de voz bidireccionales y una alarma SOS de un solo toque, y muestra el estado del dispositivo en una pantalla OLED. Su tamaño reducido y la carcasa resistente al agua IP65 lo hacen adecuado para uso diario, mientras que sus funciones prácticas de seguridad incluyen alertas de geocerca, alarmas de velocidad, notificaciones de batería baja y conteo de pasos con podómetro.
 

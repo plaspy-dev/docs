@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL103M
 
+<div className="device-logo">
 ![VL103M](./tracker.png)
+</div>
 
 The VL103M from Concox is a compact, rugged 4G GPS tracker designed for motorcycles and light commercial vehicles. Purpose built for continuous location updates and event driven reporting, it combines multi constellation GNSS positioning with cellular communications to provide real time tracking, anti theft alerts and practical telemetry for fleet and rental operations.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Neomatica - ADM50
 
+<div className="device-logo">
 ![ADM50](./tracker.png)
+</div>
 
 The ADM50 is a compact battery powered GPS tracker designed for long term personal and asset monitoring. It combines GNSS positioning with LBS assisted fixes, a large 3350 mAh Li Po battery and multiple operating modes to balance accurate location reporting and extended standby life. The device supports event reporting features such as a panic alarm button and movement detection to help capture incidents and preserve battery when idle.
 

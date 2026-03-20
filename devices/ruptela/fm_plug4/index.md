@@ -20,7 +20,9 @@ keywords:
 
 # Ruptela - FM-Plug4
 
+<div className="device-logo">
 ![FM-Plug4](./logo.jpg)
+</div>
 
 The Ruptela FM-Plug4 is an easy to install personal OBD tracker designed for tracking and monitoring light commercial vehicles. Available in two versions, FM-Plug4+ with an internal battery and FM-Plug4 without an internal battery, the device emphasizes Plug and Play deployment, portability between vehicles, and a set of features aimed at theft protection and basic vehicle diagnostics. The FM-Plug4+ variant can read engine error codes, while both versions provide alerts for device removal and other defined events.
 

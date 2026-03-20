@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - GTR-388
 
+<div className="device-logo">
 ![GTR-388](./logo..jpg)
+</div>
 
 El GlobalSat GTR-388C1 es un rastreador GPS compacto diseñado para bicicletas eléctricas (eBikes), motocicletas, scooters y una amplia variedad de vehículos. Combina una carcasa resistente e impermeable con conectividad celular y un receptor GPS de alta sensibilidad para ofrecer monitorización continua de la ubicación y detección de movimiento en entornos exigentes. Su tamaño reducido y diseño duradero lo hacen adecuado para uso exterior y para vehículos que requieren una solución de rastreo discreta.
 

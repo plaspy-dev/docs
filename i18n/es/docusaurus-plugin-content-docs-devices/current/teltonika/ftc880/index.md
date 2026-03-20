@@ -21,7 +21,9 @@ keywords:
 
 # Teltonika - FTC880
 
+<div className="device-logo">
 ![FTC880](./tracker.png)
+</div>
 
 El Teltonika FTC880 es un rastreador GPS con montaje para batería diseñado para despliegues exigentes de seguimiento de vehículos y activos. Combina un hardware robusto, posicionamiento GNSS multiconstelación y capacidades de gestión remota para ofrecer actualizaciones de posición y reportes de eventos confiables en aplicaciones de flotas, logística y maquinaria pesada. El FTC880 está pensado para operación prolongada con batería y para entornos hostiles donde la durabilidad y la telemetría constante son prioritarias.
 

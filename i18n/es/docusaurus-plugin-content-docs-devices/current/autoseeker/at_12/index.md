@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-12
 
+<div className="device-logo">
 ![AT-12](./Logo.jpg)
+</div>
 
 El Autoseeker AT-12 es un rastreador GPS compacto para vehículos, diseñado para monitoreo de ubicación confiable y despliegues de corto plazo. Combina conectividad GSM GPRS multibanda con reportes por SMS y GPS para ofrecer actualizaciones de posición en tiempo real y registro de historial. Con antenas integradas y batería interna, el AT-12 destaca por su formato compacto, bajo consumo energético y funciones como ajuste automático de zona horaria, reportes diarios y alerta de batería baja.
 

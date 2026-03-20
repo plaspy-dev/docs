@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-LL02
 
+<div className="device-logo">
 ![JM-LL02](./tracker.png)
+</div>
 
 The JM-LL02 from Concox is a rugged, Plaspy compatible GPS tracker designed for long term asset deployments where near zero installation effort and extended standby are essential. It combines multi source positioning with cellular connectivity and a high capacity industrial battery to provide continuous location reporting and event telemetry for movable assets such as trailers, containers and construction equipment. The device is built with an IP67 enclosure, integrated magnetic mount and on board Bluetooth configuration to support tool free redeployment and straightforward field setup.
 

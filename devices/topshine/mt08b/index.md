@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - MT08B
 
+<div className="device-logo">
 ![MT08B](./tracker.jpg)
+</div>
 
 The MT08B Portable Motorcycle GPS Tracker from TopShine is a compact, waterproof device designed for reliable real time tracking and vehicle security. Sized for discreet installation on motorcycles and small vehicles, the MT08B uses a SIRF-Star III GNSS chipset for positioning and reports location and status over global GSM networks. Its small matchbox form factor and integrated anti theft features make it well suited to protection and monitoring tasks where space is limited.
 

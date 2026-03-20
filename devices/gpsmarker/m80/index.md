@@ -20,7 +20,9 @@ keywords:
 
 # GPSMarker - M80
 
+<div className="device-logo">
 ![M80](./logo.jpg)
+</div>
 
 The GPSMarker M80 is a compact GPS tracker designed for reliable location monitoring with a focus on low ongoing costs. It ships in a sealed enclosure with magnets for secure attachment and includes a micro SIM option with a tariff optimized for online monitoring systems. The device uses a 99 channel GPS and GLONASS receiver and supports assisted satellite services to improve coordinate acquisition and reliability. Free firmware updates over GPRS are supported, and the M80 reports a long battery life with configurable wake intervals and low battery notifications.
 

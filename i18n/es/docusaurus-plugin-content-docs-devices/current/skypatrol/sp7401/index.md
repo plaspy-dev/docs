@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP7401
 
+<div className="device-logo">
 ![SP7401](./logo.jpg)
+</div>
 
 El SkyPatrol SP7401 es un dispositivo GPS CDMA compacto diseñado específicamente para automóviles. Combina el rastreo de la unidad con acceso a la interfaz de diagnóstico del vehículo, lo que lo hace adecuado para necesidades básicas de monitoreo automotriz. El SP7401 es fácil de instalar, económico y pensado para aplicaciones que requieren actualizaciones de ubicación constantes y visibilidad de diagnósticos esenciales.
 

@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV56
 
+<div className="device-logo">
 ![GV56](./tracker.png)
+</div>
 
 El GV56 es un rastreador GPS micro compacto diseñado para telemática profesional en vehículos ligeros. Pensado para la gestión de flotas, arrendamiento y renta de autos, seguros basados en uso y recuperación de vehículos robados, combina posicionamiento GNSS, conectividad GSM GPRS cuatribanda e integración Bluetooth para ofrecer seguimiento en tiempo real y telemetría en un formato reducido con antenas internas e indicadores LED de estado.
 

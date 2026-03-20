@@ -21,7 +21,9 @@ keywords:
 
 # Astra Telematics - AT242
 
+<div className="device-logo">
 ![AT242](./tracker.jpg)
+</div>
 
 El AT242 es un rastreador GPS y dispositivo telemático diseñado para el monitoreo continuo de vehículos y activos en entornos exigentes. Cuenta con conectividad 4G LTE Cat 1, posicionamiento GNSS multiplataforma, sellado IP67 y una amplia gama de entradas y salidas, lo que le permite ofrecer ubicación en tiempo real, detección de manipulación y telemetría apropiada para despliegues en flotas, plataformas de uso compartido e instalaciones industriales. Su carcasa compacta y sellada, junto con una batería interna de respaldo, mantienen la supervisión activa cuando la resistencia y la disponibilidad son críticas.
 

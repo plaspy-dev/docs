@@ -20,7 +20,9 @@ keywords:
 
 # DCT - Syrus 4G Lite
 
+<div className="device-logo">
 ![Syrus 4G Lite](./tracker.png)
+</div>
 
 The Syrus 4G Lite is a rugged IoT telematics gateway designed for continuous, real time tracking and remote diagnostics in fleet and industrial telemetry projects. It combines integrated cellular and GNSS antennas, an IP65 water resistant enclosure, and an internal backup battery to maintain location reporting and event capture for vehicles, trailers, and field assets operating in demanding environments.
 

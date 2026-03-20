@@ -20,7 +20,9 @@ keywords:
 
 # Concox - VL802
 
+<div className="device-logo">
 ![VL802](./tracker.png)
+</div>
 
 The VL802 is a compact LTE vehicle terminal engineered for industrial and commercial fleet management. It is designed to provide rugged, network resilient performance for passenger cars, trucks and buses, delivering reliable real time tracking, rich telemetry and two way control functions that fleet operators and integrators rely on. The device combines multi constellation GNSS positioning with wideband cellular connectivity and a set of vehicle oriented inputs and outputs for practical telematics deployments.
 

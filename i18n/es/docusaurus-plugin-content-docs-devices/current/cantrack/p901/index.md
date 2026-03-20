@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - P901
 
+<div className="device-logo">
 ![P901](./tracker.jpg)
+</div>
 
 El CanTrack P901 es un rastreador GPS ultradelgado con formato de tarjeta de identificación diseñado para uso como wearable. Combina posicionamiento GNSS con conectividad celular e incorpora funciones de voz y alarma en un formato compacto pensado para personal de seguridad, staff de eventos y trabajadores en solitario. El P901 ofrece informes de ubicación, alertas SOS con un solo botón y comunicaciones por voz grupales tipo push-to-talk en un equipo delgado que puede llevarse o sujetarse durante patrullajes y operaciones móviles.
 

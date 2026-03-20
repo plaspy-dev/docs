@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AX5
 
+<div className="device-logo">
 ![AX5](./logo.jpg)
+</div>
 
 The ATrack AX5 is a GPS vehicle tracker designed for quick connection to a vehicle through its OBD II port. It is intended for track and trace, vehicle recovery, fleet management, and general telematics tasks. The device includes internal GPS and GSM antennas, internal memory for temporary data storage, a backup battery, and a durable plastic enclosure, providing a balance of convenience and reliability for vehicle monitoring deployments.
 

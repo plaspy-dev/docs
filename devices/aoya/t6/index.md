@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - T6
 
+<div className="device-logo">
 ![T6](./logo.jpg)
+</div>
 
 The AoYa T6 is a compact automotive GPS tracker designed to provide reliable location monitoring for vehicles. Its small footprint and lightweight construction make it easy to place discreetly in a car, van, or light commercial vehicle. The device combines GPS, LBS, and AGPS tracking to deliver location information with a stated accuracy in the range of several meters, and it includes both cellular and satellite positioning support components described by the manufacturer.
 

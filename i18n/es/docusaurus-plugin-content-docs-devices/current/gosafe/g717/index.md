@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - G717
 
+<div className="device-logo">
 ![G717](./logo..png)
+</div>
 
 El Gosafe G717 es un rastreador GPS compacto diseñado para conectarse al enchufe de encendedor del vehículo. Es un dispositivo plug and play que se conecta directamente a la toma de corriente y ofrece seguimiento de ubicación, monitoreo de eventos y funciones básicas de seguridad vehicular. El G717 incluye posicionamiento asistido (AGPS), un módulo GNSS de alta sensibilidad, sensor de fuerza G de 16G para detección de impactos, gestión de geocercas y una batería interna de respaldo para mantener el seguimiento durante interrupciones de energía.
 

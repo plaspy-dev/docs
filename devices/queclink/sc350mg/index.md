@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - SC350MG
 
+<div className="device-logo">
 ![SC350MG](./logo..png)
+</div>
 
 The QuecLink SC350MG is a compact, water resistant GNSS tracker designed specifically for E bikes. It combines cellular connectivity with a wide input voltage range to suit a variety of electric bicycle installations, and its small form factor supports covert placement that maintains the bike's appearance. The device also supports reading ECU and BMS data, offering more than basic location information for intelligent vehicle monitoring.
 

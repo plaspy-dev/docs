@@ -21,7 +21,9 @@ keywords:
 
 # Neomatica - ADM P50
 
+<div className="device-logo">
 ![ADM P50](./tracker.png)
+</div>
 
 El Neomatica ADM P50 es un rastreador GPS compacto alimentado por batería, diseñado para ofrecer seguimiento confiable de personas y activos. Basado en un chipset GNSS y un firmware optimizado para ahorro de energía, el ADM P50 permite modos de operación que van desde seguimiento continuo en tiempo real hasta un modo faro de baja frecuencia, de modo que usted puede equilibrar la precisión de la ubicación con una autonomía prolongada. El equipo incluye detección de movimiento, un botón de pánico SOS, soporte para etiqueta Bluetooth para interiores y configuración por USB Tipo C para una gestión sencilla.
 

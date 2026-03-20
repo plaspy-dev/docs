@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-311C
 
+<div className="device-logo">
 ![BN-311C](./tracker.png)
+</div>
 
 El BN-311C es un rastreador GPS 2G compacto diseñado para el seguimiento de motocicletas y vehículos pequeños. Está pensado para una instalación oculta y cableada, con conexión continua a un sistema eléctrico de 12–24 V y reporte de respaldo cuando se pierde la alimentación externa. El equipo se centra en funciones discretas anti‑robo y opciones de inmovilización remota apropiadas para conductores, propietarios y operadores de vehículos ligeros.
 

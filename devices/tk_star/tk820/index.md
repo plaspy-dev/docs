@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TK820
 
+<div className="device-logo">
 ![TK820](./tracker.jpg)
+</div>
 
 The TK820 is a portable 4G GPS tracker designed for flexible personal and asset tracking. It provides real time location updates, movement alerts, and server backed route history, making it suitable for protecting children, elderly family members, and valuable assets. The device combines GNSS positioning with auxiliary location methods to improve accuracy in both outdoor and indoor conditions.
 

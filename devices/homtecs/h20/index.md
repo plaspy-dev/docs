@@ -20,7 +20,9 @@ keywords:
 
 # Homtecs - H20
 
+<div className="device-logo">
 ![H20](./logo.jpg)
+</div>
 
 The Homtecs H20 is a compact industrial 3G router designed for machine to machine communications and remote site connectivity. Built for rugged environments, the H20 provides mobile broadband backhaul with backward compatibility for older mobile network generations, integrated Wi Fi support, and a small set of LAN and WAN ports to connect local devices and cameras. Its combination of robust metal housing and management features makes it a practical connectivity appliance for telemetry, CCTV, retail, and other M2M scenarios.
 

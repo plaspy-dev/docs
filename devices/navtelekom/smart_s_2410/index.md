@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2410
 
+<div className="device-logo">
 ![SMART S-2410](./tracker.jpeg)
+</div>
 
 The SMART S-2410 is a compact Navtelekom vehicle tracker that combines GLONASS and GPS positioning with an integrated GSM modem and Bluetooth 4.0 for local configuration. It is designed for straightforward, dependable vehicle monitoring and telemetry, offering multiple discrete and analog inputs plus a simple control output for basic immobilizer or remote actuation functions. The device is vehicle powered and built to serve fleet management and legacy asset installations where a no-frills telemetry solution is required.
 

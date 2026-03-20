@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GL33
 
+<div className="device-logo">
 ![GL33](./tracker.png)
+</div>
 
 El QuecLink GL33 es un rastreador GPS 2G recargable y compacto, diseñado para la protección discreta de activos y carga. Pensado para ocultarse dentro de cajas y embalajes, el GL33 combina posicionamiento GPS con servicios basados en ubicación (LBS) y un transmisor de proximidad RF433/434 para ofrecer posicionamiento por capas en envíos ocultos y activos reutilizables.
 

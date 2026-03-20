@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G09L
 
+<div className="device-logo">
 ![G09L](./tracker.jpg)
+</div>
 
 The CanTrack G09L is a DOT certified oval type smart tail light GPS tracker designed for trucks and heavy vehicles. It replaces a vehicle tail lamp with a combined lighting and telematics unit, providing conventional tail light functions together with an internal GPS module, motion sensing and an onboard backup battery to maintain reporting when primary power is interrupted. The form factor and certifications make it suitable for heavy duty fleet environments where durability and regulatory compliance matter.
 

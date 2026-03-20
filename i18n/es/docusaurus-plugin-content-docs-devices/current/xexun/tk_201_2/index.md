@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - TK-201-2
 
+<div className="device-logo">
 ![TK-201-2](./logo.jpg)
+</div>
 
 El Xexun TK-201-2 es un dispositivo de rastreo GPS económico diseñado principalmente para el seguimiento de mascotas. Su tamaño compacto y peso reducido lo hacen ideal para colocar en un collar o arnés, ofreciendo actualizaciones de ubicación que ayudan a los propietarios a supervisar movimientos y localizar rápidamente a un animal extraviado. Además, incluye funciones integradas como actualizaciones por intervalos, alertas por movimiento y alarmas de geocerca, que lo hacen útil más allá del uso para mascotas.
 

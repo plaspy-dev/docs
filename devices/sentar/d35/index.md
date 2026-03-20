@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D35
 
+<div className="device-logo">
 ![D35](./tracker.png)
+</div>
 
 The Sentar D35 is a compact kids smartwatch designed for real time positioning and caregiver communications. Built on an Android based platform with 4G connectivity, the D35 combines multi mode location technologies including GPS, AGPS, LBS, and WiFi to deliver continuous location visibility. Its child friendly hardware includes a 1.69 inch IPS touchscreen, dual cameras, a dedicated SOS power button, and an IPX7 water resistance rating so it meets common needs for everyday child monitoring.
 

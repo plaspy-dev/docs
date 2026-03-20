@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK115
 
+<div className="device-logo">
 ![TK115](./tracker.jpg)
+</div>
 
 The EElink TK115 is a compact GPS tracker designed for electric motorcycles and scooters. It delivers core location and event monitoring features such as assisted GPS and LBS positioning, wide input voltage acceptance for common vehicle electrical systems, ACC ignition detection, an optional relay for remote immobilization or power cut, and an internal backup battery to report power loss or low battery conditions. The TK115 targets mobility operators and fleet owners who need continuous positional awareness and basic security controls on two wheel vehicles.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - MVT-600
 
+<div className="device-logo">
 ![MVT-600](./logo.jpg)
+</div>
 
 The Meitrack MVT-600 is a compact GPS vehicle tracker designed to provide continuous location monitoring and a range of extendable features. It supports event driven monitoring and can be fitted with optional accessories such as an internal camera, fuel sensors, and an RFID reader to broaden its capability for security and operational oversight.
 

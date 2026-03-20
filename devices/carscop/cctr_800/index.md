@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CCTR-800
 
+<div className="device-logo">
 ![CCTR-800](./logo.jpg)
+</div>
 
 The Carscop CCTR-800 is a portable GPS tracker designed for discreet placement and versatile tracking. Its compact form factor and strong magnetic attachment make it suitable for hidden mounting on metal surfaces, while the large 5200 mAh battery delivers extended standby times. Built with water resistant protection, the CCTR-800 is intended for a range of mobile tracking needs from personal items to commercial equipment.
 

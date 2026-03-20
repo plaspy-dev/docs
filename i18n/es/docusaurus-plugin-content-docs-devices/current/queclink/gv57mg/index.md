@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV57MG
 
+<div className="device-logo">
 ![GV57MG](./tracker.png)
+</div>
 
 El QuecLink GV57MG es un rastreador GPS compacto con certificación IP67, pensado para vehículos ligeros y motocicletas. Diseñado para uso exterior, combina un posicionamiento GNSS de alta sensibilidad, funcionamiento de bajo consumo y soporte Bluetooth Low Energy para ofrecer localización y telemetría confiables aún en entornos exigentes. El GV57MG incorpora funciones como transmisión en búfer de mensajes y configuración por aire (OTA) para garantizar reportes fiables y facilitar la gestión del ciclo de vida en despliegues móviles.
 

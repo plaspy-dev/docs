@@ -20,7 +20,9 @@ keywords:
 
 # TrackerKing - G909
 
+<div className="device-logo">
 ![G909](./tracker.jpg)
+</div>
 
 The TrackerKing G909 is a wired vehicle GPS tracker designed for continuous positioning and remote control. Intended for direct installation in cars and motorcycles, the G909 provides real time tracking, event reporting and remote command capabilities while remaining compact and suited to permanent installation environments.
 

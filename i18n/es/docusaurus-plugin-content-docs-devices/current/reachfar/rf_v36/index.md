@@ -21,7 +21,9 @@ keywords:
 
 # Reachfar - RF-V36
 
+<div className="device-logo">
 ![RF-V36](./tracker.jpg)
+</div>
 
 El RF-V36 es un rastreador GPS portátil en formato de reloj de pulsera diseñado para el cuidado de personas mayores. Combina posicionamiento por GPS en exteriores con posicionamiento interior por Wi‑Fi y LBS asistido, un sensor de movimiento (G‑sensor), monitoreo de ritmo cardíaco y presión arterial, señalización de emergencias SOS, audio bidireccional y recordatorios configurables. El reloj está pensado para monitoreo personal continuo y cuenta con resistencia al agua y al polvo IP67 para el uso diario.
 

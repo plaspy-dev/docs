@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV51MG
 
+<div className="device-logo">
 ![GV51MG](./logo..png)
+</div>
 
 El QuecLink GV51MG es un rastreador vehicular LTE ultra delgado y compacto pensado para instalaciones discretas. Ofrece conectividad global LTE Cat M1 y NB1 con retroceso a 2G y una solución de antena diseñada para ocultamiento, lo que lo hace adecuado para diversos escenarios de monitoreo vehicular. Su reducido tamaño y perfil sigiloso permiten ocultarlo fácilmente dentro del vehículo sin renunciar a información esencial de ubicación y estado.
 

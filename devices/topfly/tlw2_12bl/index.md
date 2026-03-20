@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - TLW2-12BL
 
+<div className="device-logo">
 ![TLW2-12BL](./tracker.png)
+</div>
 
 The TLW2-12BL is a hardwired 4G LTE vehicle GPS tracker designed for fleet management, anti theft protection, and advanced telemetry. It provides high frequency position updates, robust GNSS performance, and on device support for external sensors, making it suitable for operators who need dependable location intelligence and vehicle oversight.
 

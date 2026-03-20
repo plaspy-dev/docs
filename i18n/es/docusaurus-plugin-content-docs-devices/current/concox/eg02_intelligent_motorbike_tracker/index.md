@@ -21,7 +21,9 @@ keywords:
 
 # Concox - EG02 Rastreador inteligente para motocicletas
 
+<div className="device-logo">
 ![EG02 Intelligent Motorbike Tracker](./tracker.png)
+</div>
 
 El Concox EG02 Intelligent Motorbike Tracker es un rastreador GPS compacto, compatible con Plaspy, diseñado específicamente para scooters eléctricos, e-bikes y otros vehículos eléctricos ligeros. Con un formato tipo encendedor y una instalación plug and play, el EG02 ofrece seguimiento en tiempo real y telemetría de eventos confiable, manteniendo los tiempos y la complejidad de instalación bajos para operadores de micromovilidad y gestores de flotas.
 

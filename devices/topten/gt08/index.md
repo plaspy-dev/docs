@@ -20,7 +20,9 @@ keywords:
 
 # TopTen - GT08
 
+<div className="device-logo">
 ![GT08](./Logo.jpg)
+</div>
 
 The TopTen GT08 is a compact vehicle GPS tracker designed for a range of tracking needs. Based on 2G and 3G cellular connectivity, it provides location reporting via SMS, web, or mobile app and includes optional RFID capabilities for personnel identification. The unit also includes multiple alarm and monitoring features, offline waypoint storage, a wide input voltage range suitable for motorcycles cars and larger trucks, and a small backup battery to support short term tracking when external power is unavailable.
 

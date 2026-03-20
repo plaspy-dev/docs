@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP3801
 
+<div className="device-logo">
 ![SP3801](./logo.jpg)
+</div>
 
 El SkyPatrol SP3801 es un rastreador GPS ultra compacto diseñado para ofrecer seguimiento vehicular fiable en condiciones exigentes. Construido para soportar entornos difíciles dentro de vehículos, el SP3801 es ideal tanto para la gestión de flotas como para el monitoreo de vehículos particulares. Su reducido tamaño facilita su colocación discreta en el vehículo, al tiempo que entrega actualizaciones de ubicación consistentes para supervisión operativa.
 

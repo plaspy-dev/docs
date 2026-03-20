@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - GL-Маяк
 
+<div className="device-logo">
 ![GL-Маяк](./tracker.png)
+</div>
 
 The AutoFon GL-Маяк, also known as the GL-Beacon, is a compact GPS and GLONASS tracker designed for long autonomous operation and dependable location reporting. Built on the v.5.x platform, the device emphasizes battery life, precise positioning and event-driven alarm reporting. Its small form factor and buffered offline storage make it suitable for discreet asset protection and remote tracking tasks where sustained telemetry is important.
 

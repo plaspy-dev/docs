@@ -20,7 +20,9 @@ keywords:
 
 # ThingSys - J16
 
+<div className="device-logo">
 ![J16](./tracker.jpg)
+</div>
 
 The J16 is a compact vehicle GPS tracker from ThingSys designed for fleet management, anti theft monitoring, and general vehicle telematics. Built around a SIMCOM 7670SA module, the device provides 4G LTE CAT1 connectivity with 2G fallback and includes features such as internal backup battery, motion G sensor, blind area message storage and two variant options that add ACC detection, relay control, microphone and SOS functionality.
 

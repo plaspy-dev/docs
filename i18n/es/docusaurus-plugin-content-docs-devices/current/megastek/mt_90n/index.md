@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT-90N
 
+<div className="device-logo">
 ![MT-90N](./tracker.jpg)
+</div>
 
 El MT-90N Mini NB-IoT GPS Tracker de Megastek es un rastreador personal compacto pensado para ofrecer seguimiento confiable en tiempo real y monitoreo básico de seguridad. Integra un receptor u-blox GNSS con conectividad NB-IoT y posicionamiento híbrido que combina GPS, Wi‑Fi y servicios de ubicación para mejorar la precisión en entornos urbanos y en interiores. El equipo está orientado a niños, mascotas y personas que requieren reportes de ubicación discretos y un uso sencillo en el día a día.
 

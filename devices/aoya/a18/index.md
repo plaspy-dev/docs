@@ -20,7 +20,9 @@ keywords:
 
 # AoYa - A18
 
+<div className="device-logo">
 ![A18](./logo.jpg)
+</div>
 
 The AoYa A18 is a compact and reliable GPS tracker designed primarily for automotive applications. At 88mm x 46mm x 16mm and 80g, the device is small and lightweight for unobtrusive installation. It combines GPS, LBS, and AGPS positioning and uses a UBLOX GPS chip to deliver consistent sensitivity and location accuracy in the 5 to 10 meter range.
 

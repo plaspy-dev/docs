@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV75
 
+<div className="device-logo">
 ![GV75](./tracker.png)
+</div>
 
 The GV75 is a rugged, IP67 rated GPS tracker designed for harsh outdoor and vehicle environments. Built around a u‑blox GNSS receiver with quad band cellular communications, the GV75 provides dependable real time location tracking, extended telemetry and a range of anti theft alarms. Its durable enclosure and wide operating temperature range make it suitable for motorcycles, marine craft, agricultural machines and heavy equipment where durability and persistent tracking matter.
 

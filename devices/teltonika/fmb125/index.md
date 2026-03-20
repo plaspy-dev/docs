@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB125
 
+<div className="device-logo">
 ![FMB125](./tracker.png)
+</div>
 
 The FMB125 is a compact, professional GPS tracker from Teltonika designed for fleet management and advanced telemetry. It provides reliable real time location reporting alongside a range of integration options such as onboard RFID, 1‑wire support, impulse input for fuel meters, and serial interfaces for third party devices. The unit also supports dual SIM 2G cellular connectivity and can interface with an Iridium Edge satellite modem for coverage beyond terrestrial networks.
 

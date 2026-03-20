@@ -20,7 +20,9 @@ keywords:
 
 # Carscop - CCTR-810
 
+<div className="device-logo">
 ![CCTR-810](./logo.jpg)
+</div>
 
 The Carscop CCTR-810 is a vehicle GPS tracker designed for real time internet based tracking with built in offline logging. It combines a GSM communications module and an MTK based GPS receiver to provide location reports, support on demand and interval tracking, and store position data when cellular coverage is unavailable. The device uploads stored tracks automatically once network access is restored and can send location updates when the vehicle stops for more than two minutes or when the ignition ACC turns off.
 

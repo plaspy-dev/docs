@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT900-L
 
+<div className="device-logo">
 ![VT900-L](./tracker.jpg)
+</div>
 
 El VT900-L es un rastreador GPS compacto para vehículos de iStartek, pensado para la gestión profesional de flotas y telemática vehicular. Ofrece reporte continuo de posición y detección de eventos, ideal para monitoreo en tiempo real, flujos de trabajo antirrobo y telemetría operacional. El equipo soporta reportes por múltiples canales y almacenamiento local para preservar datos durante interrupciones de conectividad, lo que lo hace adecuado para despliegues comerciales de flota.
 

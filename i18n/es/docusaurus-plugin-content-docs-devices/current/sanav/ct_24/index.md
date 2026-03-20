@@ -21,7 +21,9 @@ keywords:
 
 # Sanav - CT-24
 
+<div className="device-logo">
 ![CT-24](./logo.jpg)
+</div>
 
 El SANAV CT-24 es un rastreador GPS compacto diseñado para funcionar largos períodos con batería y para una colocación discreta. Combina alta sensibilidad GPS y GSM con un diseño que permite operar eficazmente cuando se instala bajo el tablero del vehículo, eliminando la necesidad de una antena externa. El CT-24 incluye dos conjuntos de entradas/salidas abiertas, sensor de vibración, interruptores magnéticos tipo reed, capacidad de voz, batería de respaldo y memoria interna, lo que lo hace una opción versátil para distintos escenarios de seguimiento.
 

@@ -20,7 +20,9 @@ keywords:
 
 # ArkNav - K-18U
 
+<div className="device-logo">
 ![K-18U](./logo.jpg)
+</div>
 
 The ArkNav K-18U is a compact GPS data logger designed to record journeys and track assets with a focus on straightforward data capture. It logs time, date, and satellite location at one second intervals and stores complete GPS NMEA sentences so recorded tracks can be reviewed or processed later. The device saves data to removable micro SD storage and organizes files in chronological order for easy retrieval.
 

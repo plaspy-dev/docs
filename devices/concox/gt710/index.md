@@ -20,7 +20,9 @@ keywords:
 
 # Concox - GT710
 
+<div className="device-logo">
 ![GT710](./logo.jpg)
+</div>
 
 The Concox GT710 is a compact asset GPS tracker designed for fixed asset tracking applications. It emphasizes long standby time and durable, waterproof construction to provide reliable location tracking for assets that may be stored, transported, or deployed in challenging environments. Its small form factor and straightforward design make it suitable for discreet monitoring of a wide range of items.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 230
 
+<div className="device-logo">
 ![ST 230](./logo.jpg)
+</div>
 
 The Suntech ST 230 is a standalone GPS tracker built for tracking and monitoring high value mobile assets such as trailers, containers, trains, and yachts. It combines a rugged plastic cover with an IP67 waterproof rating and a 5200mAh internal battery to provide extended operation in challenging outdoor environments. The device also includes four digital inputs for event or status monitoring and supports common data transport methods to transmit position and activity information.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Aquila - TS101 Advanced
 
+<div className="device-logo">
 ![TS101 Advanced](./logo.jpg)
+</div>
 
 The Aquila TS101 Advanced is a compact, rugged GPS tracking device designed for both basic and advanced tracking needs. It combines real time location reporting with onboard solid state storage capable of holding up to 16,000 tracking records, making it suitable for continuous monitoring and historical playback. The unit features a robust IP67 rated casing and ABS construction to withstand challenging environments, and it includes practical I O options such as a vehicle immobilizer, hooter interface, and a fuel sensor interface. An integrated 3 axis accelerometer adds motion detection and impact sensing to the device profile, while a 700mAH battery backup supports operation during power interruptions.
 

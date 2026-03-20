@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS306
 
+<div className="device-logo">
 ![GPS306](./logo.jpg)
+</div>
 
 The Coban GPS306 is a compact GPS tracker designed to locate and monitor people, vehicles, and other assets using GPS satellites together with the GSM GPRS mobile network. It supports multiple frequency bands for broad regional coverage and provides real time location updates through SMS or internet reporting. Common features highlighted for this model include geo fencing, over speed alerts, movement detection, and notifications suited to both personal and commercial tracking needs.
 

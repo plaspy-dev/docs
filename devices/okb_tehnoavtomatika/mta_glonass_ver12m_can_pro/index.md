@@ -20,7 +20,9 @@ keywords:
 
 # OKB Tehnoavtomatika - MTA-Glonass (ver.12M-CAN-PRO)
 
+<div className="device-logo">
 ![MTA-Glonass (ver.12M-CAN-PRO)](./tracker.jpg)
+</div>
 
 The MTA-Glonass (ver.12M-CAN-PRO) is a professional vehicle monitoring terminal designed for reliable satellite positioning and telematics in fleet operations. Purpose built for vehicle telemetry, it combines high-sensitivity GNSS positioning with multi-channel communications to support continuous location updates, event logging, and remote diagnostics for dispatch centers and operations teams.
 

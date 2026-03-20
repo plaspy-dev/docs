@@ -21,7 +21,9 @@ keywords:
 
 # Supermate - D12-G
 
+<div className="device-logo">
 ![D12-G](./logo.jpg)
+</div>
 
 El Supermate D12-G es un rastreador GPS compacto diseñado para la gestión de activos y la seguridad personal. Está pensado para colocarse de forma discreta en vehículos, equipos o artículos de valor, y ofrece visibilidad continua de la ubicación. El equipo prioriza la facilidad de uso con una instalación rápida y un formato ligero, lo que lo hace adecuado para distintos entornos operativos y para despliegues sencillos en el día a día.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST8310UM
 
+<div className="device-logo">
 ![ST8310UM](./tracker.jpg)
+</div>
 
 El ST8310UM es un rastreador GPS LTE Cat 1 ultracompacto diseñado para el seguimiento de vehículos y activos en entornos expuestos y exigentes. Combina conectividad celular con posicionamiento GNSS robusto y una carcasa con certificación IP67, pensado para instalaciones donde el espacio es limitado y se requiere protección ambiental. La unidad está orientada a integraciones y optimizada para reportes de ubicación continuos, alertas por eventos y comportamiento de bajo consumo, ideal para gestión de flotas y prevención de robos.
 

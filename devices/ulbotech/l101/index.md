@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - L101
 
+<div className="device-logo">
 ![L101](./tracker.jpg)
+</div>
 
 The Ulbotech L101 is a compact plug and play OBDII GPS data logger designed for straightforward vehicle telemetry. It combines a high sensitivity GNSS module, an OBDII interface that supports common vehicle protocols, Bluetooth 4.0 Low Energy, and a 3 axis accelerometer in an OBDII form factor. Onboard storage and simple data export options make the L101 suitable for continuous location logging and longer term data capture without requiring complex wiring.
 

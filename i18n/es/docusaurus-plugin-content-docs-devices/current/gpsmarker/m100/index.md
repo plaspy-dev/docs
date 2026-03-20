@@ -21,7 +21,9 @@ keywords:
 
 # GPSMarker - M100
 
+<div className="device-logo">
 ![M100](./logo.jpg)
+</div>
 
 El GPSMarker M100 es un rastreador GPS compacto y confiable diseñado para la protección de vehículos y activos. Emplea un receptor GPS de alta sensibilidad con 72 canales para entregar coordenadas precisas y actualizaciones de posición consistentes. El M100 incorpora además múltiples sensores integrados, como detección de movimiento, detección de colisiones, un sensor de revoluciones para monitoreo de impactos, sensor de temperatura y un botón de pánico SOS, cubriendo así una amplia gama de necesidades de monitoreo.
 

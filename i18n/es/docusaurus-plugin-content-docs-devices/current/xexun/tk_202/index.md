@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - TK-202
 
+<div className="device-logo">
 ![TK-202](./logo.jpg)
+</div>
 
 El Xexun TK-202 es un rastreador GPS compacto y portátil diseñado para el seguimiento flexible de vehículos, activos y personas. Comercializado como un dispositivo multipropósito, el TK-202 puede usarse como reloj o colocarse en un llavero o collar para mascotas; el fabricante destaca usos que van desde el seguimiento de automóviles particulares y la supervisión de flotas de alquiler hasta la protección de niños, personas mayores o con discapacidad. El modelo se presenta como confiable y fácil de usar, pensado para ofrecer información de ubicación precisa y en tiempo real para diversas aplicaciones personales y empresariales.
 

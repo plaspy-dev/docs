@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - SE+ Маяк
 
+<div className="device-logo">
 ![SE+ Маяк](./logo..png)
+</div>
 
 The AutoFon SE+ Маяк is a compact GPS tracking device designed to determine and transmit the location of an object to its owner using the GSM network. It supports sending location updates via SMS and forwarding position data to a selected monitoring server over GPRS. The model is built on the v.6.x hardware platform and includes features intended to broaden functionality and improve performance for a variety of tracking tasks.
 

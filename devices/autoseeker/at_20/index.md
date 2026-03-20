@@ -20,7 +20,9 @@ keywords:
 
 # Autoseeker - AT-20
 
+<div className="device-logo">
 ![AT-20](./tracker.jpeg)
+</div>
 
 The Autoseeker AT-20 is a professional 4G vehicle GPS tracker designed for reliable real time tracking and fleet management. Optimized for vehicle applications, the AT-20 provides instant location updates, historical route playback, geofencing, over-speed alerts, ACC (ignition) detection, SOS emergency reporting and advanced motion and power management. With internal battery backup and support for external accessories such as an SOS button, camera or fuel sensor, the AT-20 is built to meet common operational needs for fleet monitoring and vehicle security.
 

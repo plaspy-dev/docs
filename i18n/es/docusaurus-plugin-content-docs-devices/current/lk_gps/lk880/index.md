@@ -21,7 +21,9 @@ keywords:
 
 # LK-GPS - LK880
 
+<div className="device-logo">
 ![LK880](./logo..jpg)
+</div>
 
 El LK880 es un rastreador GPS compacto e impermeable para mascotas con conectividad 4G y controlador remoto de actividad, que además funciona como collar de entrenamiento para perros. Diseñado para propietarios que necesitan visibilidad de la ubicación y funciones básicas de control, el equipo ofrece seguimiento en tiempo real, conteo de pasos, medición de distancia, alertas de geocerca y consultas de rutas históricas. También reporta eventos de desplazamiento y batería baja, y genera reportes suplementarios para ayudar a cubrir lagunas de ubicación en zonas con recepción GPS débil.
 

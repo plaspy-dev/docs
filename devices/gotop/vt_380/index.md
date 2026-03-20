@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-380
 
+<div className="device-logo">
 ![VT-380](./tracker.jpg)
+</div>
 
 The GOTOP VT-380 is a professional vehicle GPS/GPRS tracker designed for reliable real-time tracking and fleet management. Built for fleet operators, rental companies and vehicle security integrators, the VT-380 combines a high-sensitivity GNSS module with quad-band GSM communications, long-term on-device logging and a range of vehicle inputs and alarms to support telematics and anti-theft workflows.
 

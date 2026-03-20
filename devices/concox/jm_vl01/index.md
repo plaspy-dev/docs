@@ -20,7 +20,9 @@ keywords:
 
 # Concox - JM-VL01
 
+<div className="device-logo">
 ![JM-VL01](./logo..png)
+</div>
 
 The Concox JM-VL01 is a feature rich 4G GPS tracker designed for fleet and vehicle monitoring. It provides core telematics functions such as real time GPS location tracking, geo fence alerts, and a range of event triggered notifications including speeding, abnormal vibration, ignition status changes, and power supply disconnection. The device also supports optional sensors for fuel and temperature monitoring and includes a driver panic button to signal emergencies.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Castel - MPIP-618W-YB
 
+<div className="device-logo">
 ![MPIP-618W-YB](./logo.jpg)
+</div>
 
 El Castel MPIP-618W-YB es un registrador de datos de viaje para vehículos diseñado para seguimiento y monitoreo en tiempo real. Proporciona posición y velocidad continuas, además de un registro de recorridos que archiva rutas y destinos pasados. El equipo envía información de ubicación, velocidad en movimiento y alertas a un centro de monitoreo mediante telecomunicaciones inalámbricas, y soporta transmisión de datos por GPRS y SMS.
 

@@ -20,7 +20,9 @@ keywords:
 
 # ATrack - AT5i
 
+<div className="device-logo">
 ![AT5i](./logo.jpg)
+</div>
 
 The ATrack AT5i is a multifunctional vehicle tracking device designed to deliver reliable, up to date position and movement information. It supports GPS and GLONASS satellite positioning and uses the GPRS network to provide real time location updates. The device also includes configurable inputs and outputs as well as event customization, enabling adaptation to a variety of vehicle monitoring requirements.
 

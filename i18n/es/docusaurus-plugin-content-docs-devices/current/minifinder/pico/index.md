@@ -21,7 +21,9 @@ keywords:
 
 # MiniFinder - Pico
 
+<div className="device-logo">
 ![Pico](./tracker.jpg)
+</div>
 
 El MiniFinder Pico es un rastreador GPS compacto y discreto con alarma de llavero, diseñado para la seguridad personal, la protección de personas vulnerables y la protección de pequeños activos. Lo suficientemente pequeño para llevar en un cordón o en un bolsillo, Pico ofrece seguimiento de ubicación en tiempo real junto con alertas SOS y alarmas basadas en movimiento, para que cuidadores, equipos de monitoreo y propietarios de activos estén al tanto de incidentes y desplazamientos.
 

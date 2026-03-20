@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JM-VL04
 
+<div className="device-logo">
 ![JM-VL04](./logo..png)
+</div>
 
 El JM-VL04 es un rastreador profesional OBD 4G de Concox diseñado para seguimiento vehicular y gestión de flotas. Combina el formato OBD con sensores de movimiento integrados y algoritmos que detectan conductas de manejo, calculan el kilometraje y mantienen la localización incluso en condiciones GNSS adversas. El equipo soporta múltiples bandas de comunicación para operar en redes 4G, 3G y 2G, e incluye funciones como alarma por voz y escucha remota mediante un micrófono incorporado.
 

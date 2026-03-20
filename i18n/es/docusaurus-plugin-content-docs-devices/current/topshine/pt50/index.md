@@ -21,7 +21,9 @@ keywords:
 
 # TopShine - PT50
 
+<div className="device-logo">
 ![PT50](./tracker.jpg)
+</div>
 
 El TopShine PT50 es un rastreador GPS 4G con panel solar diseñado para el monitoreo prolongado y sin supervisión de contenedores, remolques, embarcaciones, vehículos y otros activos remotos. Pensado para ofrecer durabilidad, el PT50 combina carga solar, una carcasa sellada con certificación IP67 y montaje por adsorción magnética para facilitar despliegues en lugares sin alimentación eléctrica y con mantenimiento esporádico.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TopShine - MT101
 
+<div className="device-logo">
 ![MT101](./logo..png)
+</div>
 
 The TopShine MT101 is a compact online GPS motorcycle tracker designed for discreet mounting and continuous location monitoring. Built for high sensitivity and waterproof performance, the MT101 includes a built in antenna and a small form factor that makes concealment straightforward. Key on device capabilities from the manufacturer include dual SIM support with automatic or manual network switching, the ability to switch to a foreign network without roaming charges, GSM signal jamming detection, two way positioning even when GPS signal is limited, and optional features such as a relay for engine cutoff, microphone for voice listening, and an SOS panic button.
 

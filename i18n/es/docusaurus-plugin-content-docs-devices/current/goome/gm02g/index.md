@@ -21,7 +21,9 @@ keywords:
 
 # Goome - GM02G
 
+<div className="device-logo">
 ![GM02G](./logo.jpg)
+</div>
 
 El Goome GM02G es un rastreador GPS vehicular compacto diseñado para el monitoreo de ubicación en tiempo real y funciones básicas de seguridad para automóviles. Su tamaño reducido facilita una instalación discreta dentro del vehículo y el equipo está pensado para activarse con facilidad. Entre sus funciones estándar se incluyen seguimiento en tiempo real, geocercas configurables por el usuario, reproducción de recorridos, detección del encendido (ACC), alertas por exceso de velocidad y corte de cable, notificaciones por vibración y un diseño resistente al agua para mayor durabilidad.
 

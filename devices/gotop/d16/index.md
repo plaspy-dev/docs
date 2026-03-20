@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D16
 
+<div className="device-logo">
 ![D16](./tracker.jpg)
+</div>
 
 The GOTOP D16 is a compact 4G bike GPS tracker designed for bicycle safety, theft protection, and fleet management. Purpose built for city bikes, e-bikes, and rental fleets, the D16 provides continuous location updates, route history playback, geofence alerts, and a distinctive LED signaling system to increase rider visibility. Its compact, weather resistant enclosure and focused feature set make it suitable for outdoor cycling environments.
 

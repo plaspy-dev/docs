@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - NB20
 
+<div className="device-logo">
 ![NB20](./tracker.jpg)
+</div>
 
 The NB20 from CanTrack is a compact 4G Bluetooth smart pet tracker designed for accurate indoor and outdoor location. It combines GPS GNSS positioning with Bluetooth 5.0 and Wi‑Fi assisted locating, and supports either a Nano SIM or eSIM cellular uplink to deliver continuous tracking, geo fence alerts and history playback. Lightweight and water resistant, the NB20 is sized to attach to collars and harnesses and includes convenience features such as a remote controlled LED night light and multiple working modes for different activity levels.
 

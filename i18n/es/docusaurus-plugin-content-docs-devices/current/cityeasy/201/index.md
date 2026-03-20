@@ -21,7 +21,9 @@ keywords:
 
 # Cityeasy - 201
 
+<div className="device-logo">
 ![201](./logo.jpg)
+</div>
 
 El Cityeasy 201 es un rastreador GPS compacto para automóviles diseñado para ofrecer monitoreo de ubicación confiable y funciones básicas de seguridad para vehículos particulares y pequeñas flotas. Integra posicionamiento LBS y GPS en tiempo real junto con registro de historial de rutas para que los operadores tengan visibilidad sobre los movimientos y recorridos pasados.
 

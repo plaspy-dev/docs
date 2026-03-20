@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - START S-2013
 
+<div className="device-logo">
 ![START S-2013](./tracker.jpeg)
+</div>
 
 The START S-2013 from Navtelekom is a compact GLONASS and GPS vehicle tracker designed for discreet installations and straightforward asset monitoring. Its small form factor and internal antennas make it suitable for light commercial vehicles and equipment where minimal external wiring is desired. The unit provides positioning and telemetry over a GSM 2G link, includes a built in backup battery for brief power interruptions, and offers a USB Type C connection for setup and charging.
 

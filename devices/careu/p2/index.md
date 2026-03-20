@@ -20,7 +20,9 @@ keywords:
 
 # CAREU - P2
 
+<div className="device-logo">
 ![P2](./logo..png)
+</div>
 
 The CAREU P2 is a compact personal GPS tracker designed for straightforward location monitoring and two way communication. It provides frequent position updates and core safety features such as an SOS alert, emergency call capability with stored phone numbers, and configurable sensitivity for movement detection. The device is intended for both consumer and business users who need reliable, on‑person tracking for people and small asset protection.
 

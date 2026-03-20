@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMU130
 
+<div className="device-logo">
 ![FMU130](./Logo.png)
+</div>
 
 The Teltonika FMU130 is a compact professional real time tracking terminal designed for vehicle and asset monitoring. It offers GNSS positioning and 3G GSM connectivity, a backup battery for continuity, internal antennas, and a range of configurable inputs and outputs that make it suitable for continuous location acquisition and event monitoring across many vehicle types.
 

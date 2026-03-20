@@ -21,7 +21,9 @@ keywords:
 
 # CanTrack - GF70L-Solar
 
+<div className="device-logo">
 ![GF70L-Solar](./tracker.jpeg)
+</div>
 
 El GF70L-Solar es un rastreador GPS magnético recargable con asistencia solar, diseñado para el seguimiento prolongado y de bajo mantenimiento de activos fuera de la red. Pensado para aplicaciones como remolques, contenedores, maquinaria pesada y otros elementos sin supervisión, integra una batería de gran capacidad, paneles solares resistentes a rayones y un fuerte montaje magnético en un chasis compacto y robusto para ampliar la autonomía en espera y reducir las visitas de mantenimiento.
 

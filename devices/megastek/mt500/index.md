@@ -20,7 +20,9 @@ keywords:
 
 # Megastek - MT500
 
+<div className="device-logo">
 ![MT500](./tracker.jpg)
+</div>
 
 The MT500 Prisoner GPS Metal Ankle is an ankle worn tracker purpose built for continuous, law enforcement grade monitoring of individuals under correctional supervision. Its rugged metal enclosure and tamper resistant attachment are designed to provide visible physical security while delivering ongoing location data and event reporting. The device is positioned for programs that require reliable supervision telemetry and documented compliance events.
 

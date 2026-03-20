@@ -21,7 +21,9 @@ keywords:
 
 # GalileoSky - GALILEOSKY V1.8.5
 
+<div className="device-logo">
 ![GALILEOSKY V1.8.5](./logo.jpg)
+</div>
 
 El GALILEOSKY V1.8.5 es un rastreador GPS para vehículos diseñado para determinar y registrar coordenadas, marcas de tiempo, rutas y puntos asociados a sensores en unidades en movimiento. Almacena los puntos de seguimiento localmente y transmite los datos recopilados a un servidor para su monitoreo y análisis. El equipo incorpora funciones orientadas a mejorar la eficiencia operativa y la seguridad, como notificaciones de alarma, carga de datos en modo desconectado y transmisión a servidores redundantes.
 

@@ -20,7 +20,9 @@ keywords:
 
 # UVI Group - GT06
 
+<div className="device-logo">
 ![GT06](./logo.jpg)
+</div>
 
 The UVI Group GT06 is a compact GPS tracker designed to provide accurate real time tracking of remote targets such as vehicles and motorcycles. It uses GPS satellites for positioning and the GSM GPRS network to report location information, offering both SMS based location queries and server upload for continuous monitoring. Its small form factor and straightforward wiring make it suitable for business, rental, and personal vehicle monitoring including anti theft use cases.
 

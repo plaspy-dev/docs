@@ -20,7 +20,9 @@ keywords:
 
 # GLONASSsoft - UMKa302
 
+<div className="device-logo">
 ![UMKa302](./tracker.png)
+</div>
 
 The UMKa302 is a professional grade GPS tracker from GLONASSsoft designed for vehicle monitoring, fleet management, and anti-theft protection. As a flagship model in the UMKa line, it focuses on stable operation and improved processing performance compared with earlier units. The device captures location and vehicle telemetry and is built for continuous operation in vehicle environments, offering a compact, rugged form factor suitable for a variety of fleet and asset scenarios.
 

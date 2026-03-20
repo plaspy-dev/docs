@@ -20,7 +20,9 @@ keywords:
 
 # Winrich - T8
 
+<div className="device-logo">
 ![T8](./tracker.jpg)
+</div>
 
 The T8 is a compact personal GPS tracker designed for reliable everyday tracking of people, pets, and small valuables. Its pendant style and lightweight form make it suitable for continuous wear or attachment to collars and keyrings. The device provides location updates using GPS with cellular location fallback, includes a dedicated SOS button for emergency alerts, and supports convenient recharging and status LEDs for basic power and connectivity feedback.
 

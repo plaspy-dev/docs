@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - super mini
 
+<div className="device-logo">
 ![super mini](./logo.jpg)
+</div>
 
 El AoYa Super Mini es un rastreador GPS compacto y versátil que combina posicionamiento por GPS, LBS y Wi‑Fi con un sensor de luz integrado para ofrecer información de ubicación precisa en tiempo real. Su tamaño reducido facilita una instalación discreta en vehículos, a la vez que incluye funciones habituales en gestión de flotas como geocercas, reproducción de rutas históricas y múltiples tipos de alarma ante eventos inusuales.
 

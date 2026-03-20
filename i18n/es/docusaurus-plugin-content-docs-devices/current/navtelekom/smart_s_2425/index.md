@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-2425
 
+<div className="device-logo">
 ![SMART S-2425](./tracker.jpeg)
+</div>
 
 El SMART S-2425 es un rastreador vehicular compacto con GNSS (GLONASS/GPS) diseñado para ofrecer posicionamiento en tiempo real fiable y uso en flotas. Combina una recepción satelital sensible con una antena GSM integrada y un módem 2G dual-SIM para asegurar continuidad en redes móviles. Su tamaño reducido, batería de respaldo integrada y un conjunto robusto de entradas y salidas lo hacen adecuado para gestión de flotas, recolección de telemetría y monitoreo antirrobo en entornos vehiculares.
 

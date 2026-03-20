@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-5530
 
+<div className="device-logo">
 ![LMU-5530](./logo.jpg)
+</div>
 
 El CalmAmp LMU-5530 es un rastreador GPS versátil y de alta velocidad diseñado para aplicaciones de banda ancha fijas y móviles. Combina seguimiento de ubicación con una plataforma adaptable que admite enrutamiento de banda ancha, funciones de gateway celular y un entorno operativo basado en Linux. El equipo incluye un motor de eventos programable integrado y una amplia variedad de interfaces para integrar hardware periférico y fuentes de datos.
 

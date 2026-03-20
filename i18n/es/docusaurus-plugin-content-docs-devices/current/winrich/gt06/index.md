@@ -21,7 +21,9 @@ keywords:
 
 # Winrich - GT06
 
+<div className="device-logo">
 ![GT06](./tracker.jpg)
+</div>
 
 El GT06 es un terminal de posicionamiento GPS vehicular compacto e inteligente, diseñado para el seguimiento en tiempo real y la gestión remota de vehículos. Combina posicionamiento satelital con comunicación GSM GPRS cuatribanda para ofrecer actualizaciones continuas de ubicación, telemetría y reporte de alarmas por SMS o GPRS TCP. Diseñado como un mini rastreador para vehículos, el GT06 está pensado para automóviles, motocicletas, vehículos eléctricos y embarcaciones pequeñas donde se requiere monitoreo sencillo y reporte de eventos.
 

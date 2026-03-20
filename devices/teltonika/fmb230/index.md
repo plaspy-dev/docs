@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMB230
 
+<div className="device-logo">
 ![FMB230](./logo..png)
+</div>
 
 The Teltonika FMB230 is a compact, rugged GPS tracker designed for reliable vehicle tracking and asset monitoring. It supports both 2G and 4G network connectivity and includes GNSS positioning across multiple satellite systems, providing accurate location data. The device is built to withstand harsh conditions with an IP67 rated casing and offers flexible connection options for external peripherals and sensors via Bluetooth LE.
 

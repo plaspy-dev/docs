@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - AUT-620
 
+<div className="device-logo">
 ![AUT-620](./logo.jpg)
+</div>
 
 El CalmAmp AUT-620 es un rastreador de activos compacto, alimentado por baterías, diseñado para despliegues prolongados donde el bajo mantenimiento es fundamental. Con un formato reducido y pilas alcalinas AA reemplazables, el AUT-620 ofrece monitoreo de ubicación confiable y está pensado para activos que permanecen en campo por largos periodos. El equipo destaca por su sólido rendimiento GPS y sus antenas internas, lo que facilita el montaje en el interior de una amplia variedad de activos móviles.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMM640
 
+<div className="device-logo">
 ![FMM640](./Logo.png)
+</div>
 
 The Teltonika FMM640 is a professional GPS tracker designed for wide ranging fleet and asset monitoring. It offers global cellular connectivity using modern low power wide area technologies and supports a broad set of tracking, detection, and peripheral options. The device is positioned for use across logistics, refrigerated transport, agriculture, construction, mining, and security operations, with built in movement detection, accelerometer driven event detection, geofencing, trip and odometer functions, fuel monitoring options, and support for external peripherals suited to specialized applications.
 

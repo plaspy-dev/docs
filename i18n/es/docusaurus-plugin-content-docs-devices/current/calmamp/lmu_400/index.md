@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-400
 
+<div className="device-logo">
 ![LMU-400](./logo.jpg)
+</div>
 
 El CalmAmp LMU-400 es un dispositivo de rastreo vehicular compacto y rentable, diseñado para automóviles. Combina un rendimiento GPS sólido con un factor de forma reducido y una batería interna de respaldo para ofrecer localización confiable y funcionamiento continuo durante interrupciones de energía. El LMU-400 admite reglas de evento configurables e incluye características como detección de movimiento opcional, un zumbador integrado y un relé de corte de arranque para cubrir diversas necesidades de seguimiento automotriz.
 

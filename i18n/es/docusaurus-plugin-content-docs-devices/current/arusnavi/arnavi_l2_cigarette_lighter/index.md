@@ -21,7 +21,9 @@ keywords:
 
 # Arusnavi - Arnavi L2 (enchufe del encendedor)
 
+<div className="device-logo">
 ![Arnavi L2 (enchufe del encendedor)](./tracker.png)
+</div>
 
 El Arnavi L2 (enchufe del encendedor) es un rastreador GPS compacto de tipo plug‑in y un controlador de navegación pensado para instalaciones rápidas y no invasivas, ideal para telemática portátil. Diseñado para vehículos que necesitan traslados frecuentes entre unidades sin cableado permanente, este modelo toma energía del enchufe del encendedor y ofrece reporte continuo de posición y telemetría básica adecuada para taxis, autos de renta y vehículos de servicio.
 

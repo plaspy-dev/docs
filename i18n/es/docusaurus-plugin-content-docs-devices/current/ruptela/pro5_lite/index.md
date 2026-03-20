@@ -21,7 +21,9 @@ keywords:
 
 # Ruptela - Pro5 Lite
 
+<div className="device-logo">
 ![Pro5 Lite](./tracker.png)
+</div>
 
 Pro5 Lite es un rastreador GPS compacto de Ruptela diseñado para flotas comerciales y gestores de activos que requieren seguimiento en tiempo real y confiable. Basado en un módulo GNSS U‑blox con antena interna y conectividad LTE con fallback a 2G, el equipo ofrece posicionamiento preciso y telemetría en una carcasa pequeña sin tornillos, adecuada para instalaciones discretas o ubicaciones OBD. El Pro5 Lite está pensado para proporcionar posicionamiento consistente e integración vehicular flexible para gestión de flotas, cargas y conductores.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - LT-501
 
+<div className="device-logo">
 ![LT-501](./logo..jpg)
+</div>
 
 El GlobalSat LT-501 es un rastreador compacto con GPS y conectividad LoRa, diseñado para el monitoreo de activos en interiores y exteriores. Como miembro de la serie LT-501R, combina reportes de ubicación, detección de movimiento y posicionamiento de corto alcance en interiores para ofrecer visibilidad flexible de activos portátiles. El dispositivo prioriza un diseño liviano y una batería de larga duración, lo que lo hace adecuado para reportes periódicos y funcionamiento pasivo en entornos variados.
 

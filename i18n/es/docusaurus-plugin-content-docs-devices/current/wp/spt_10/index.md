@@ -21,7 +21,9 @@ keywords:
 
 # WP - SPT-10
 
+<div className="device-logo">
 ![SPT-10](./logo.jpg)
+</div>
 
 El WP SPT-10 es un rastreador GPS portátil y compacto diseñado para ofrecer ubicación en tiempo real y funciones de seguridad para personas y activos. Está pensado para uso con niños, adultos mayores, mascotas, bienes y vehículos, combinando un chipset GPS de alta sensibilidad con un formato reducido y un botón de pánico para alertas inmediatas. El equipo admite varios modos de rastreo y puede registrar un historial extenso de trayectos para revisión posterior.
 

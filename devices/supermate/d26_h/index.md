@@ -20,7 +20,9 @@ keywords:
 
 # Supermate - D26-H
 
+<div className="device-logo">
 ![D26-H](./logo.jpg)
+</div>
 
 The Supermate D26-H is a compact and lightweight GPS tracker designed for a broad range of tracking tasks. Based on the model description, it is suitable for personal, commercial, and industrial applications where discreet placement and reliable location monitoring matter. The D26-H emphasizes portability, robust construction, and user friendly installation while offering core tracking features such as real time location updates, geo fencing, and an emergency SOS capability.
 

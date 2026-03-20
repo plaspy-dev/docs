@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D52-R9
 
+<div className="device-logo">
 ![D52-R9](./tracker.jpg)
+</div>
 
 El D52-R9 es un reloj inteligente infantil compatible con Plaspy, diseñado para ofrecer rastreo confiable en tiempo real y facilitar la comunicación familiar. Pensado para la seguridad personal, combina conectividad celular con posicionamiento por GPS y fuentes de localización alternativas para entregar actualizaciones de ubicación, notificaciones de geocercas y llamadas de voz y video en un dispositivo portátil adecuado para el uso diario.
 

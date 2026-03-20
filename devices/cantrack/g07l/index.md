@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G07L
 
+<div className="device-logo">
 ![G07L](./tracker.jpg)
+</div>
 
 The CanTrack G07L is a compact, hard wired 4G GPS tracker designed for a broad range of 9–90 V vehicles. Built around a modern LTE module and chipset, the G07L provides continuous location updates, movement and vibration alarms, ignition status detection, power cut alerts and onboard data buffering. Its design targets fleet and vehicle security use cases where reliable, always available tracking and event reporting are required.
 

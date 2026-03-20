@@ -21,7 +21,9 @@ keywords:
 
 # TZone - TZ-BC01
 
+<div className="device-logo">
 ![TZ-BC01](./logo.jpg)
+</div>
 
 El TZone TZ-BC01 es un rastreador compacto y liviano diseñado para ofrecer seguimiento de ubicación preciso y fiable en un formato discreto. Mide aproximadamente 50 x 35 x 15 mm y pesa alrededor de 30 gramos, por lo que resulta fácil de fijar o transportar con pertenencias personales, equipos o vehículos ligeros. La unidad utiliza el protocolo iBeacon de iPhone sobre comunicación Bluetooth 4.0 y es compatible con iOS 7.0 en adelante y Android 4.3 en adelante, ofreciendo amplia compatibilidad de dispositivos para monitoreo basado en proximidad.
 

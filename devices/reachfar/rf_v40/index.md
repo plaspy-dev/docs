@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V40
 
+<div className="device-logo">
 ![RF-V40](./tracker.jpg)
+</div>
 
 The Reachfar RF-V40 is a compact 3G GPS tracker designed primarily for pet owners who need dependable real time location monitoring. It combines GPS positioning with AGPS, LBS and WiFi assisted fixes to improve accuracy both outdoors and inside buildings. Packaged in an IP66 rated enclosure with a small form factor and multiple tracking modes, the RF-V40 is intended for continuous mobile monitoring and quick recovery when a pet goes missing.
 

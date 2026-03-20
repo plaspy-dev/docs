@@ -21,7 +21,9 @@ keywords:
 
 # Huabao - HB-A6
 
+<div className="device-logo">
 ![HB-A6](./tracker.jpg)
+</div>
 
 El HB-A6 es un rastreador GPS compacto y económico diseñado para ofrecer seguimiento en tiempo real y gestión de flotas confiable. Ideal para vehículos particulares, unidades de alquiler, camiones y remolques, el HB-A6 proporciona posicionamiento GPS y BDS continuo, detección de encendido ACC y múltiples entradas de alarma para apoyar la seguridad del vehículo y los reportes operativos.
 

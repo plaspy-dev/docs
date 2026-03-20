@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GB100MG
 
+<div className="device-logo">
 ![GB100MG](./tracker.png)
+</div>
 
 El QuecLink GB100MG es un rastreador GPS compacto montado en la batería, diseñado para seguros basados en uso (UBI) y telemática de flotas. Está pensado para una instalación rápida en el compartimento del motor y ofrece seguimiento de ubicación en tiempo real junto con telemetría de choques de alta resolución. El equipo incorpora antenas internas, una carcasa con clasificación IP67 y conectividad celular resistente con opciones de respaldo para garantizar la entrega de mensajes en condiciones operativas diversas.
 

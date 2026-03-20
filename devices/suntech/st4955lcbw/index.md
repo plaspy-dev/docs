@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4955LCBW
 
+<div className="device-logo">
 ![ST4955LCBW](./tracker.jpg)
+</div>
 
 The Suntech ST4955LCBW is a rugged, solar powered GPS tracker built for long term outdoor asset monitoring. Designed around low power cellular modules with fallback options and optimized energy harvesting, it provides extended autonomous operation and simplified maintenance for distributed equipment. The device includes local sensor interfaces and motion sensing to expand telemetry for environmental and security use cases.
 

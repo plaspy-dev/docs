@@ -21,7 +21,9 @@ keywords:
 
 # AoYa - A12
 
+<div className="device-logo">
 ![A12](./logo.jpg)
+</div>
 
 El AoYa A12 es un rastreador GPS automotriz compacto diseñado para el monitoreo de la ubicación de vehículos. Con dimensiones aproximadas de 88 mm x 46 mm x 16 mm y un peso cercano a 80 g, el A12 está pensado para pasar desapercibido al tiempo que ofrece actualizaciones constantes de posición mediante tecnologías GPS, LBS y AGPS. El equipo combina un receptor UBLOX con un chipset GSM SIMTK6260 para ofrecer posicionamiento con sensibilidad reportada y una precisión típica en el rango de 5–10 metros, además de incorporar una batería interna Li-ion de 3.7 V y 250 mAh para respaldo temporal.
 

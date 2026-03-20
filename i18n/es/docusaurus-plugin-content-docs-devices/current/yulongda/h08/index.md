@@ -21,7 +21,9 @@ keywords:
 
 # YulongDa - H08
 
+<div className="device-logo">
 ![H08](./logo.jpg)
+</div>
 
 El YulongDa H08 es un rastreador GPS compacto diseñado para ubicación en tiempo real de vehículos y monitoreo básico de seguridad. Soporta GSM cuatribanda para cobertura celular amplia y funciona en un rango de voltaje de entrada de DC 9 a 24 V, lo que lo hace compatible con distintos autos y vehículos comerciales. El equipo incorpora funciones habituales en rastreo vehicular, como sensor de vibraciones para alertas antirrobo, detección ACC para reportar el estado de encendido, una pequeña batería interna de respaldo para avisar ante corte de alimentación principal y la opción de conexión a un relé externo para control remoto de bloqueo de motor o corte de combustible.
 

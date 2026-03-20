@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT300
 
+<div className="device-logo">
 ![VT300](./logo..jpg)
+</div>
 
 El iStartek VT300 (variante VT300-L) es un rastreador GPS 4G de nivel básico diseñado para vehículos como camiones, remolques y bicicletas. Integra posicionamiento multiconstelación (GPS, BDS, QZSS), un amplio rango de voltaje de operación, batería interna de respaldo y protección IP66, lo que lo convierte en una opción práctica para necesidades simples de seguimiento de vehículos y activos. Además, el equipo soporta monitoreo de combustible, sensores de temperatura, alertas por manipulación y almacenamiento en búfer local para mantener la continuidad cuando se pierde la conectividad.
 

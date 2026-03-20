@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS-201
 
+<div className="device-logo">
 ![GPS-201](./logo..png)
+</div>
 
 El Coban GPS-201 es un rastreador GPS compacto diseñado para la localización, seguimiento, entrenamiento y socialización de mascotas. Combina un hardware dedicado con una aplicación integrada de gestión de mascotas para que los propietarios puedan supervisar la ubicación, interactuar de forma remota y apoyar procesos de adiestramiento y socialización. El dispositivo cuenta con certificación IP67 para protección contra el clima y ofrece una larga autonomía en espera, ideal para monitoreo continuo.
 

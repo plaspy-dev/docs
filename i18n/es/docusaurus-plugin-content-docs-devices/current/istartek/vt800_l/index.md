@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT800-L
 
+<div className="device-logo">
 ![VT800-L](./tracker.jpg)
+</div>
 
 El VT800-L de iStartek es un rastreador GPS profesional 4G CAT4 diseñado para exigentes despliegues de gestión de flotas y protección antirrobo de vehículos. Ofrece ubicación en tiempo real y telemetría avanzada pensada para camiones, autobuses, taxis, flotas de renta y vehículos privados de alto valor. El equipo combina un receptor GNSS de doble modo y un módulo de comunicación 4G con almacenamiento flash local para preservar los registros de seguimiento durante cortes de conectividad.
 

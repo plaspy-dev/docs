@@ -20,7 +20,9 @@ keywords:
 
 # Huabao - HB-A1L
 
+<div className="device-logo">
 ![HB-A1L](./tracker.jpg)
+</div>
 
 The HB-A1L Slave Electronic Lock is a rugged, Bluetooth connected slave locking device designed to provide door security and centralized management for logistics fleets. As a slave unit intended to pair with a GPS enabled master lock, the HB-A1L extends anti theft protection and access control across multi door vehicles such as oil tankers and box trucks while reporting lock status and alarm events for consolidated monitoring.
 

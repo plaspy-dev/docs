@@ -21,7 +21,9 @@ keywords:
 
 # DCT - Syrus 3G+
 
+<div className="device-logo">
 ![Syrus 3G+](./tracker.png)
+</div>
 
 El Syrus 3G+ es un rastreador GPS y concentrador telemático robusto, listo para integrarse vía API, diseñado para despliegues confiables en proyectos de flotas e IoT. Pensado para aceptar múltiples sensores y accesorios, ofrece mayor capacidad de E/S y contadores inteligentes que entregan telemetría útil para seguimiento en tiempo real, monitoreo de rutas, diagnóstico del motor y automatizaciones basadas en eventos. El equipo cuenta con protección IP65 y está optimizado para uso prolongado con respaldo de batería gracias a un modo de suspensión de consumo ultrabajo.
 

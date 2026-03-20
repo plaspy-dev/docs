@@ -21,7 +21,9 @@ keywords:
 
 # SkyPatrol - SP8824
 
+<div className="device-logo">
 ![SP8824](./tracker.png)
+</div>
 
 El SP8824 es un rastreador GPS personal compacto de nueva generación, diseñado para el monitoreo diario de activos y la supervisión de movilidad. Con conectividad celular LTE Cat M1 y antena GPS integrada, el SP8824 ofrece actualizaciones de ubicación confiables, priorizando el bajo consumo y largos tiempos de espera gracias a su batería interna recargable. Su formato discreto lo hace apto para niños, adultos mayores y profesionales que requieren monitoreo continuo sin ser invasivos.
 

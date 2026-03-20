@@ -21,7 +21,9 @@ keywords:
 
 # Suntech - ST4915LCBF
 
+<div className="device-logo">
 ![ST4915LCBF](./tracker.jpg)
+</div>
 
 El ST4915LCBF es un rastreador GPS robusto y de larga duración diseñado para despliegues prolongados en campo y para ofrecer monitoreo fiable de activos y flotas. Está alojado en una carcasa con clasificación IP67 y combina posicionamiento GNSS de alta sensibilidad con conectividad celular y ayudas de localización complementarias para mantener el seguimiento continuo en entornos exigentes. El dispositivo prioriza la durabilidad y el bajo mantenimiento para instalaciones a largo plazo.
 

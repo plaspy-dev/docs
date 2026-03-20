@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TKOBD
 
+<div className="device-logo">
 ![TKOBD](./tracker.jpg)
+</div>
 
 El TKOBD 2G de TK-Star es un rastreador GPS OBD compacto diseñado para el seguimiento de vehículos y la gestión de flotas. Combina posicionamiento multisensor con una carcasa robusta con clasificación IP65 y un formato de conexión OBD para ofrecer actualizaciones de ubicación continuas, alertas de movimiento y un historial de rutas almacenado en servidor, ideal para automóviles, vehículos comerciales ligeros y flotas de alquiler.
 

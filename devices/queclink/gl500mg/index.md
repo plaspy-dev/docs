@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GL500MG
 
+<div className="device-logo">
 ![GL500MG](./tracker.png)
+</div>
 
 The QuecLink GL500MG is a rugged asset GPS tracker designed for long life deployments and wide area monitoring. Built with an IP67 enclosure and low power hardware, the GL500MG combines GNSS positioning, cellular connectivity and on-device sensors for temperature, light and motion to support secure asset tracking, yard management and anti-theft workflows. The device is intended for deployments where low maintenance and long standby life are essential.
 

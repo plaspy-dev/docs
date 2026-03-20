@@ -21,7 +21,9 @@ keywords:
 
 # Concox - JM-VL01
 
+<div className="device-logo">
 ![JM-VL01](./logo..png)
+</div>
 
 El Concox JM-VL01 es un rastreador GPS 4G con múltiples funciones diseñado para el monitoreo de flotas y vehículos. Ofrece las funciones telemáticas esenciales, como rastreo de ubicación en tiempo real, alertas por geocercas y una variedad de notificaciones por eventos como exceso de velocidad, vibraciones anómalas, cambios en el encendido y desconexión de la fuente de alimentación. El dispositivo también admite sensores opcionales para control de combustible y temperatura, e incluye un botón de pánico en cabina para señales de emergencia.
 

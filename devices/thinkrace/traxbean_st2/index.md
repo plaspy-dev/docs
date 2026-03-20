@@ -20,7 +20,9 @@ keywords:
 
 # ThinkRace - Traxbean ST2
 
+<div className="device-logo">
 ![Traxbean ST2](./tracker.png)
+</div>
 
 The Traxbean ST2 from ThinkRace is a wrist worn wearable GPS tracker engineered for eldercare and supervised environments. It combines multi modal positioning with continuous physiological monitoring and two way voice communication to support rapid incident response and ongoing supervision. The device is designed to deliver location and vital sign data while providing caregivers a direct communications path to the wearer.
 

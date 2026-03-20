@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GB130MG
 
+<div className="device-logo">
 ![GB130MG](./tracker.png)
+</div>
 
 The GB130MG is a compact, waterproof vehicle GPS tracker designed for large scale usage based insurance and fleet telematics deployments. Built for harsh environments, it combines rugged IP67 protection with high fidelity positioning and motion sensing to support continuous tracking, incident analytics and anti theft workflows. Its form factor and internal backup power make it suitable for exposed mounting locations where reliability is required.
 

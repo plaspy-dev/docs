@@ -21,7 +21,9 @@ keywords:
 
 # Coban - GPS311
 
+<div className="device-logo">
 ![GPS311](./Logo.png)
+</div>
 
 El Coban GPS311 es un rastreador GPS vehicular compacto pensado para una variedad de activos de transporte. Integra funciones de posicionamiento y monitoreo con un conjunto de prestaciones de seguridad y alertas, incluyendo alarmas de emergencia, geocercas, notificaciones por movimiento y exceso de velocidad, además de otras alertas relacionadas con el vehículo. El equipo transmite ubicación mediante SMS, GPRS y datos por internet, y puede ser supervisado desde software para PC, dispositivos móviles o visores cartográficos como Google Earth. Su tamaño reducido y su amplio rango de voltaje lo hacen apropiado para autos, bicicletas eléctricas y motocicletas.
 

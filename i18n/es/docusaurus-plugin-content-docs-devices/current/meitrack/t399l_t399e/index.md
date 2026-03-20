@@ -21,7 +21,9 @@ keywords:
 
 # Meitrack - T399L/T399E
 
+<div className="device-logo">
 ![T399L/T399E](./tracker.png)
+</div>
 
 El Meitrack T399L/T399E es un rastreador vehicular robusto con clasificación IP67, diseñado para la monitorización de flotas, logística y vehículos comerciales. Pensado para entornos exigentes y despliegues globales, la serie T399 ofrece posicionamiento GNSS de alta precisión, conectividad celular de varias generaciones y compatibilidad con periféricos que permiten a los operadores de flota recopilar datos de posición y telemetría en tiempo real.
 

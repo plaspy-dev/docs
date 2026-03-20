@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-4511
 
+<div className="device-logo">
 ![SMART S-4511](./tracker.jpeg)
+</div>
 
 The SMART S-4511 is a compact vehicle GPS tracker from Navtelekom designed for dependable position reporting and telemetry. It integrates GLONASS and GPS positioning with cellular connectivity, an internal rechargeable battery and a set of flexible inputs and outputs to capture discrete and analog signals. The device is positioned for straightforward fleet management and asset monitoring where continuous location data and event driven reporting are required.
 

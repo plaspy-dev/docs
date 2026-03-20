@@ -20,7 +20,9 @@ keywords:
 
 # SinoTrack - ST-901M
 
+<div className="device-logo">
 ![ST-901M](./tracker.jpg)
+</div>
 
 The SinoTrack ST-901M is a wired GPS tracker designed for vehicle owners and fleet managers who need a practical, cost effective solution for real time location and event reporting. Built for hardwired installation in cars, motorcycles, ATVs and similar vehicles, the ST-901M provides location information along with ignition state and alarm reporting over cellular data and SMS to a monitoring server.
 

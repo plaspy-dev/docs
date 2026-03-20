@@ -20,7 +20,9 @@ keywords:
 
 # Jointech - JT707A
 
+<div className="device-logo">
 ![JT707A](./tracker.jpg)
+</div>
 
 The JT707A is a GPS tracker designed for cargo sealing and supply chain security. Built to deliver continuous GNSS location telemetry alongside secure seal monitoring, the JT707A reports location and tamper or unseal events so logistics operators can detect unauthorized access during transit. The product description highlights features useful for road, rail, and cross border shipments, and it supports both rechargeable and disposable battery options to suit short term and longer term deployments.
 

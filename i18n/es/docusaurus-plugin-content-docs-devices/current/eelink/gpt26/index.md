@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT26
 
+<div className="device-logo">
 ![GPT26](./logo.jpg)
+</div>
 
 El EElink GPT26 es un rastreador GPS portátil diseñado para supervisar activos valiosos con versatilidad y resistencia. Combina modos de localización duales —GPS y LBS (servicio basado en ubicación)— para mantener los informes de posición incluso en entornos con señal débil. Con soporte quad-band para redes globales, una batería de alta capacidad de 7000 mAh y una carcasa con clasificación IP67, el GPT26 está pensado para despliegues a largo plazo y uso outdoor. El equipo incluye un potente imán para montaje sencillo en superficies de hierro y soporta el protocolo EELINK y actualizaciones OTA para facilitar el mantenimiento.
 

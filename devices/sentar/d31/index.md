@@ -20,7 +20,9 @@ keywords:
 
 # Sentar - D31
 
+<div className="device-logo">
 ![D31](./tracker.jpg)
+</div>
 
 The D31 is a compact 4G kids GPS smartwatch designed for caregivers who need reliable real time location and safety monitoring. It combines multi mode positioning with a child friendly wearable form factor, a 1.4 inch IPS touchscreen, and an integrated SOS power button to provide continuous visibility and straightforward emergency calling. The device runs on an SL8521E chipset with Android 4.4 and uses a Nano SIM for cellular connectivity across common mobile networks.
 

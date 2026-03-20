@@ -20,7 +20,9 @@ keywords:
 
 # Ulbotech - T373
 
+<div className="device-logo">
 ![T373](./logo.jpg)
+</div>
 
 The Ulbotech T373 is a vehicle tracking device offered by Ulbotech. While specific technical details for the T373 vary by model revision, it is presented and used as a GPS tracker intended for vehicle and fleet visibility. The T373 name identifies this model within Ulbotech's lineup and signals its role in providing location reporting and basic telematics data for operational oversight.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Totemtech - AT07
 
+<div className="device-logo">
 ![AT07](./logo.jpg)
+</div>
 
 El Totemtech AT07 es un rastreador GPS compacto y versátil pensado para diversas tareas de seguimiento y monitoreo. Incorpora funciones como el envío simultáneo de datos a dos servidores, un acelerómetro digital de 3 ejes para detectar estado de movimiento, y memoria flash interna para almacenar puntos históricos. Además, ofrece actualizaciones de firmware vía OTA, un amplio rango de alimentación con protección contra sobrevoltaje, monitoreo de voz y puertos E/S configurables para señales digitales y analógicas.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Astra Telematics - AT503
 
+<div className="device-logo">
 ![AT503](./tracker.png)
+</div>
 
 The AT503 Mini Asset Tracker from Astra Telematics is a compact, purpose built GPS tracker designed for long life, low maintenance monitoring of unpowered assets. Epoxy encapsulation and an IP68 rating provide rugged durability for outdoor deployments, while internal antennas and a sealed housing keep the unit maintenance free for extended periods. The device is aimed at persistent location and movement tracking where infrequent servicing is a requirement.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TK-Star - TKSTAR
 
+<div className="device-logo">
 ![TKSTAR](./logo.jpg)
+</div>
 
 The TK-Star TKSTAR GPS Portable Tracker is a compact, versatile device designed for real time location tracking and monitoring. Built for portability and everyday use, it is positioned to help users track private cars, rental vehicles, equipment, and personal items. The device also supports personal safety use cases for children, elderly family members, and pets, as well as authorized security and supervision contexts where discreet monitoring is required.
 

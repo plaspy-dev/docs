@@ -20,7 +20,9 @@ keywords:
 
 # NP3 - ST 210
 
+<div className="device-logo">
 ![ST 210](./logo.jpg)
+</div>
 
 The NP3 ST 210 is an onboard GPS tracker built to provide comprehensive control over vehicle parameters. Designed with time tested components and passed through individual quality checks and climatic testing, the ST 210 is intended for reliable daily operation across a wide range of transport types. Its features focus on continuous location tracking, event detection, and a suite of vehicle metrics that help managers keep close oversight of assets in motion.
 

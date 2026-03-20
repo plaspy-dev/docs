@@ -21,7 +21,9 @@ keywords:
 
 # Tytan SAT - DS540
 
+<div className="device-logo">
 ![DS540](./logo..png)
+</div>
 
 El Tytan SAT DS540 es un rastreador GPS compacto y capaz, diseñado para el seguimiento en tiempo real de vehículos, carga y objetos técnicos. Reporta posición y velocidad por GPS y GLONASS, transmite parámetros actuales y eventos registrados, y se comunica con un servidor a través de la red GSM empleando UDP o TCP. El DS540 está pensado para una amplia variedad de vehículos, incluidos automóviles particulares, autobuses, camiones, maquinaria agrícola, equipos de construcción y vehículos de transporte de valores.
 

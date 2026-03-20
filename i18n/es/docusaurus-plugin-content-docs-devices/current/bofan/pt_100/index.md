@@ -21,7 +21,9 @@ keywords:
 
 # Bofan - PT-100
 
+<div className="device-logo">
 ![PT-100](./logo.jpg)
+</div>
 
 El Bofan PT-100 es un rastreador GPS para vehículos de bajo costo diseñado para ofrecer seguimiento confiable y supervisión básica de flotas. Su diseño compacto y su conjunto de funciones lo hacen adecuado tanto para usuarios particulares como para empresas que requieren visibilidad continua de la ubicación, registro de posiciones y alertas configurables. El dispositivo permite informes por SMS y seguimiento en vivo vía GPRS, guarda miles de puntos de ubicación y añade funciones de seguridad prácticas como botón SOS y alertas por geocerca.
 

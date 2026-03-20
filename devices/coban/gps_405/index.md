@@ -20,7 +20,9 @@ keywords:
 
 # Coban - GPS-405
 
+<div className="device-logo">
 ![GPS-405](./logo..png)
+</div>
 
 The Coban GPS-405 is a versatile vehicle tracker designed to provide real time management and monitoring for a range of vehicle types. Built to operate with the BAANOOL IOT platform and APP platform, the GPS-405 delivers movement tracking, geo-fencing, overspeed alerts, door and ACC detection, shock detection, external power cut notifications, and an SOS button. Certain models expand functionality further with options such as a Wi Fi hotspot, temperature and humidity sensing, and an integrated Wi Fi camera, making the model adaptable to different operational needs.
 

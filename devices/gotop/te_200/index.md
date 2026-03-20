@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - TE-200
 
+<div className="device-logo">
 ![TE-200](./tracker.jpg)
+</div>
 
 The TE-200 Mini Pet Tracker by GOTOP is a compact GPS tracker designed for pet monitoring and small asset tracking. At roughly 55 x 35 x 15 mm and about 35 g, the device combines a U‑blox 7 GNSS module with quad band GSM GPRS and SMS reporting to provide continuous position updates, alerting and a modest onboard log buffer for coverage gaps. Its small form factor and weatherproof enclosure make it suitable for collars, backpacks or discreet attachment to portable items.
 

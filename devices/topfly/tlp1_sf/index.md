@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - TLP1-SF
 
+<div className="device-logo">
 ![TLP1-SF](./logo..png)
+</div>
 
 The TopFly TLP1-SF is a solar powered 4G LTE GPS tracker built for tracking assets, trailers, and trucks. It combines a large internal rechargeable battery with solar charging capability to reduce maintenance intervals, and offers both real time location reporting and buffered storage for continued tracking when coverage is limited. The device is designed with rugged, weather resistant construction and multiple mounting options suitable for outdoor use.
 

@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-4520
 
+<div className="device-logo">
 ![LMU-4520](./logo.jpg)
+</div>
 
 El CalmAmp LMU-4520 es un rastreador GPS robusto diseñado para ambientes exigentes en los sectores de minería y construcción. Combina comunicaciones duales por satélite y celular para mantener seguimiento y mensajería continuos en ubicaciones remotas, y su clasificación IP67 contra el agua y el polvo garantiza operación confiable en condiciones adversas. El equipo incluye funciones de gestión de flotas como acelerómetros de 16G para detección de movimiento e impactos, múltiples interfaces incluyendo puertos seriales conmutados y soporte MDT, además de conectividad ECU opcional para monitorizar datos del motor.
 

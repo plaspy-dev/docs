@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - GVT-369
 
+<div className="device-logo">
 ![GVT-369](./logo.jpg)
+</div>
 
 El Megastek GVT-369 es un rastreador GPS compacto y resistente, pensado para ofrecer localización precisa en aplicaciones personales y comerciales. Integra un chipset GPS SiRF Star III para una mayor exactitud y un módem GSM cuatribanda basado en SIM900 para conectividad celular amplia. El equipo incorpora funcionalidades propias de dispositivos profesionales como modo de ahorro de energía, batería interna de respaldo, botón SOS, sensor de movimiento, alarma por geocerca, alertas de exceso de velocidad y batería baja, notificación de ausencia de señal GPS, monitoreo de voz en segundo plano y registro de datos a bordo para cuando la cobertura celular sea intermitente.
 

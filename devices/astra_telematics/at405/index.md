@@ -20,7 +20,9 @@ keywords:
 
 # Astra Telematics - AT405
 
+<div className="device-logo">
 ![AT405](./tracker.jpg)
+</div>
 
 The AT405 is a compact, IP65 rated GPS tracker and IoT telematics unit designed for moto sharing and connected vehicle projects. Built to provide reliable real time tracking and short range sensor integration, the device pairs multi constellation GNSS positioning with cellular communications and onboard Bluetooth to support location reporting, vehicle telemetry and anti theft workflows in small vehicle fleets.
 

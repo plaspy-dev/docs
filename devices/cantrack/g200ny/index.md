@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G200NY
 
+<div className="device-logo">
 ![G200NY](./tracker.jpg)
+</div>
 
 The G200NY is a rugged 4G GPS tracker designed for long term livestock tracking and remote herd management. It combines multi constellation GNSS positioning with assisted positioning and cellular fallback to provide dependable location reporting across open ranges, marginal coverage and seasonal grazing routes. The enclosure and battery design make it suited to extended outdoor deployments where autonomy and durability matter.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TZone - TZ-AVL09
 
+<div className="device-logo">
 ![TZ-AVL09](./logo.jpg)
+</div>
 
 El TZone TZ-AVL09 es un rastreador GPS para vehículos versátil, diseñado para ofrecer monitoreo de ubicación continuo y un conjunto completo de alarmas y entradas/salidas. Soporta consultas puntuales de posición y seguimiento continuo, e incluye alarmas como exceso de velocidad, batería baja, geocerca, vibración, estacionamiento y SOS. El equipo también ofrece funciones de control y estado del vehículo, como detección de puertas abiertas/cerradas, detección de encendido/apagado del motor y un corte gradual de alimentación del motor para inmovilización de emergencia. Las opciones de comunicación incluyen GPRS y SMS, y el rastreador puede trabajar con periféricos externos como lectores RFID, cámaras e impresoras.
 

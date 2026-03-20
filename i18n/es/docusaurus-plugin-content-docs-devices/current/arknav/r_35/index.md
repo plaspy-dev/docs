@@ -21,7 +21,9 @@ keywords:
 
 # ArkNav - R-35
 
+<div className="device-logo">
 ![R-35](./logo.jpg)
+</div>
 
 El ArkNav R-35 es un rastreador GPS compacto y versátil diseñado para el seguimiento de vehículos, personas y activos. Pensado para ser portátil y fácil de ocultar, el R-35 puede transportarse en un bolsillo, ocultarse dentro de artículos de lujo o fijarse a equipos o a una persona. Sus antenas GPS y GSM internas y su carcasa de plástico resistente facilitan el camuflaje sin sacrificar la fiabilidad en la transmisión de posición.
 

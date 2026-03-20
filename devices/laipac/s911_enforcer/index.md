@@ -20,7 +20,9 @@ keywords:
 
 # Laipac - S911 Enforcer
 
+<div className="device-logo">
 ![S911 Enforcer](./tracker.png)
+</div>
 
 The S911 Enforcer is a wrist‑worn GPS tracker and electronic monitoring device designed for continuous, non‑stigmatizing supervision. In a watch style form factor it combines GNSS positioning, cellular connectivity, AGPS and BLE to provide real time location updates, breadcrumb history and dependable geofence enforcement for personal monitoring programs.
 

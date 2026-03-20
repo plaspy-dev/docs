@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - TR-520
 
+<div className="device-logo">
 ![TR-520](./tracker.jpg)
+</div>
 
 El TR-520 es un rastreador GPS alimentado por batería diseñado para despliegues a largo plazo en los que la baja mantención y la fiabilidad robusta son prioritarias. Integra un receptor GNSS, un acelerómetro de 3 ejes, capacidad BLE para mejorar la localización en interiores y una batería no recargable de gran capacidad que proporciona actualizaciones de ubicación continuas y detección de movimiento para activos, vehículos y animales en campo.
 

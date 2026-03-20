@@ -20,7 +20,9 @@ keywords:
 
 # Castel - MPIP-618W-YB
 
+<div className="device-logo">
 ![MPIP-618W-YB](./logo.jpg)
+</div>
 
 The Castel MPIP-618W-YB is a vehicle travelling data recorder designed for real time tracking and monitoring. It provides continuous position and speed information along with a traveling record that archives past routes and destinations. The device uploads location, running speed, and alert information to a monitoring center using wireless telecommunications and supports communication by GPRS and SMS for data transmission.
 

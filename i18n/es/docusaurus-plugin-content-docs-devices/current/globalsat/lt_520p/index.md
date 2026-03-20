@@ -21,7 +21,9 @@ keywords:
 
 # GlobalSat - LT-520P
 
+<div className="device-logo">
 ![LT-520P](./tracker.jpg)
+</div>
 
 El LT-520P es un rastreador GPS ultrarresistente con batería diseñado para el monitoreo de ganado a largo plazo. Pensado para despliegues en pasturas extensas, combina posicionamiento GNSS con comunicaciones LoRaWAN de bajo consumo e integración Bluetooth Low Energy para configuración y diagnóstico local. El equipo prioriza una larga autonomía y análisis continuo de actividad, lo que permite supervisar ubicaciones y comportamiento del rebaño con visitas al campo mínimas.
 

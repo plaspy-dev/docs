@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - W10SA
 
+<div className="device-logo">
 ![W10SA](./tracker.jpg)
+</div>
 
 The W10SA Personal GPS Tracker is a compact, battery powered device designed for everyday tracking of people, luggage and small vehicles. It provides real time positioning, route playback and a set of configurable alarms for power loss, overspeed, vibration and geofence events. With an integrated GPS and cellular antenna the W10SA is intended to be lightweight and ready to use without complex installation.
 

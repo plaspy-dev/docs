@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK960-4G
 
+<div className="device-logo">
 ![LK960-4G](./tracker.jpg)
+</div>
 
 The LK960-4G is a wired vehicle GPS tracker engineered for continuous manufacturer direct deployment in cars and motorcycles. Built for 24/7 operation on vehicle power, it provides multi GNSS positioning and 4G connectivity with fallback to 2G where applicable, delivering the real time location updates and event alerts needed for professional fleet oversight and security sensitive applications.
 

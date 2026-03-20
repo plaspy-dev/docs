@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - TK920
 
+<div className="device-logo">
 ![TK920](./tracker.jpg)
+</div>
 
 El TK920 es un rastreador GPS 4G de uso rudo diseñado para el monitoreo a largo plazo de vehículos y bienes. Combina una robusta carcasa con clasificación IP65, una batería recargable de gran capacidad de 10000 mAh y posicionamiento multiconstelación (GPS, BeiDou y GLONASS), además de LBS y Wi‑Fi, para ofrecer datos de ubicación confiables en condiciones exigentes. Se describe como apropiado para autos particulares, flotas de alquiler, contenedores, maquinaria de obra y otros activos remotos donde importan la autonomía y la protección ambiental.
 

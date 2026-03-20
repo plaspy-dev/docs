@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - UA1-P
 
+<div className="device-logo">
 ![UA1-P](./tracker.png)
+</div>
 
 El CAREU UA1-P es un rastreador GPS compacto y robusto diseñado para el seguimiento de paquetes y activos de valor. Con una carcasa certificada IP67, el UA1-P está pensado para soportar condiciones exteriores mientras ofrece actualizaciones de ubicación en tiempo real y telemetría ambiental. Su combinación de posicionamiento GNSS multiconstelación, conectividad celular global, sensores integrados, configuración local por Bluetooth 4.0 y opción de batería recargable lo hace adecuado para logística, cadena de suministro y envíos sensibles a las condiciones.
 

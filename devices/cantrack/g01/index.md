@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - G01
 
+<div className="device-logo">
 ![G01](./tracker.jpg)
+</div>
 
 The G01 is a compact GPS tracker from Shenzhen CanTrack designed for personal safety and discreet asset monitoring. It combines GPS location with GSM based reporting to deliver real time position updates to servers or quick SMS location replies with Google Maps links. Its small form factor, built in backup battery and straightforward reporting workflow make it suitable for tracking small items, bikes, or individuals where minimal complexity and reliable location are the priorities.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - СМАРТ S-2435
 
+<div className="device-logo">
 ![СМАРТ S-2435](./tracker.jpeg)
+</div>
 
 The СМАРТ S-2435 is a high functionality GLONASS/GPS vehicle tracker designed for demanding telematics deployments. It combines a high sensitivity GNSS receiver with built in GSM antennas, dual SIM 2G modem connectivity, an internal rechargeable backup battery and a broad set of inputs and outputs to collect location and telemetry from commercial vehicles. The device is engineered to keep reporting in challenging vehicle electrical environments and supports local wireless connections and serial interfaces for expanded sensor and control options.
 

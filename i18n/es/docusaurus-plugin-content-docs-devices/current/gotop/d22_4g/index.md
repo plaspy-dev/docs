@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - D22-4G
 
+<div className="device-logo">
 ![D22-4G](./tracker.jpg)
+</div>
 
 El GOTOP D22-4G es un rastreador GPS vehicular resistente al agua diseñado para ofrecer seguimiento en tiempo real y gestión de flotas confiable. Pensado para autos, vehículos comerciales y activos de flota, combina posicionamiento por GPS y BDS de alta sensibilidad con comunicaciones 4G y antenas integradas para entregar datos consistentes de ubicación, estado y telemetría. Su formato industrial y funciones a bordo cubren necesidades operativas habituales como disuasión de robo, alarmas por eventos y control de kilometraje.
 

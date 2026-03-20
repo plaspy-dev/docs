@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK419‑3
 
+<div className="device-logo">
 ![TK419‑3](./tracker.jpg)
+</div>
 
 El TK419‑3 es un rastreador GPS vehicular compacto de EElink, diseñado para seguimiento en tiempo real y telemetría. Combina posicionamiento GNSS multiconstelación con asistencia AGPS, conectividad LTE Cat 1 y GSM heredado, y alertas por eventos para ofrecer actualizaciones de ubicación y reporte de estado continuos. El equipo se entrega en una carcasa robusta con grado de protección IP65, amplio rango de entrada de 9–72 V DC y batería de emergencia integrada, lo que lo hace apto para distintos escenarios de montaje en vehículos y activos.
 

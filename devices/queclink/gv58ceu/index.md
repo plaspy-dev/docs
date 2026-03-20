@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV58CEU
 
+<div className="device-logo">
 ![GV58CEU](./tracker.png)
+</div>
 
 The GV58CEU is a compact mini GNSS GPS tracker designed for reliable vehicle tracking and telematics. Engineered with a small form factor and internal antennas, it delivers continuous position reporting and basic telemetry suited to cars, rental fleets, and light commercial vehicles. The device includes features commonly required for fleet operations such as ignition detection, fuel cut off control and a configurable analog input, together with BLE support for attaching sensors and driver identification.
 

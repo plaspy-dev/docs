@@ -21,7 +21,9 @@ keywords:
 
 # TrackerKing - DK05: Localizador GPS compacto para mascotas
 
+<div className="device-logo">
 ![DK05](./tracker.jpg)
+</div>
 
 El DK05 es un localizador GPS compacto especialmente diseñado para montarse en collares y arneses. Desarrollado para ofrecer actualizaciones de ubicación confiables en tiempo real, está pensado para el seguimiento de perros y gatos y prioriza la visibilidad continua de la posición de la mascota. Sus características incluyen amplia cobertura celular, carcasa impermeable adecuada para uso exterior y una batería recargable que soporta sesiones de rastreo prolongadas y alertas oportunas.
 

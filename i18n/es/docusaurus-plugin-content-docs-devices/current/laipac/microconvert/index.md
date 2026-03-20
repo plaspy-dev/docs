@@ -21,7 +21,9 @@ keywords:
 
 # Laipac - MicroConvert
 
+<div className="device-logo">
 ![MicroConvert](./logo.jpg)
+</div>
 
 El Laipac MicroConvert es un rastreador GPS compacto y discreto pensado para monitorear activos sin alimentación. Está alojado en una carcasa robusta, resistente al agua, a los golpes y al polvo, y se fija con discreción a superficies metálicas mediante potentes imanes de tierras raras. Laipac ofrece dos capacidades de batería: un modelo de 8Ah que puede ofrecer hasta aproximadamente un mes de seguimiento con una carga completa, y un modelo de 21Ah que puede ofrecer hasta aproximadamente seis meses con una carga completa.
 

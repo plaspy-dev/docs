@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G01
 
+<div className="device-logo">
 ![G01](./tracker.jpg)
+</div>
 
 The GOTOP G01 is a compact car GPS tracker designed for reliable vehicle tracking, fleet management and anti theft protection. It combines GNSS positioning and proven vehicle inputs and outputs to deliver location and event data suitable for commercial fleets, rental vehicles, taxis and private cars. The device is built to operate across a broad vehicle voltage range and includes features that help detect tampering and enable remote interventions.
 

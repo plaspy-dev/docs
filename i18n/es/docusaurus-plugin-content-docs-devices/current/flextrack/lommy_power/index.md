@@ -21,7 +21,9 @@ keywords:
 
 # Flextrack - Lommy Power
 
+<div className="device-logo">
 ![Lommy Power](./tracker.jpg)
+</div>
 
 Lommy Power es un rastreador GPS cableado y compacto diseñado para el seguimiento en tiempo real y continuo de maquinaria y equipos pesados. Su carcasa robusta con clasificación IP65 y posicionamiento GNSS multiconstelación lo hacen apto para la supervisión a largo plazo en entornos adversos como construcción, agricultura y silvicultura. El dispositivo extrae energía del vehículo o la máquina anfitriona para ofrecer telemetría persistente sin depender de una batería primaria interna.
 

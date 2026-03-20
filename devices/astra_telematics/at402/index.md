@@ -20,7 +20,9 @@ keywords:
 
 # Astra Telematics - AT402
 
+<div className="device-logo">
 ![AT402](./tracker.jpg)
+</div>
 
 The Astra Telematics AT402 is a compact, automotive ready GPS tracker designed for moto sharing and broader connected vehicle deployments. Built on the AT400 series, the AT402 combines LTE M primary connectivity with GSM GPRS 2G fallback to provide continuous position reporting and vehicle telemetry. The unit is IP65 rated, includes internal GNSS and cellular antennas, and uses an automotive style wiring connector to simplify production or aftermarket fitment.
 

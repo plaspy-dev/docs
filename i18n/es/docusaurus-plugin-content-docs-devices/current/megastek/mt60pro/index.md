@@ -21,7 +21,9 @@ keywords:
 
 # Megastek - MT60PRO
 
+<div className="device-logo">
 ![MT60PRO](./tracker.jpg)
+</div>
 
 El Megastek MT60PRO es un rastreador GPS de uso en el tobillo diseñado para programas de correcciones y supervisión comunitaria. Pensado para la vigilancia segura de personas en libertad condicional y privadas de libertad, el MT60PRO combina protección física robusta con funciones de supervisión como detección de manipulación, voz bidireccional, controles remotos de bloqueo y desbloqueo, y posicionamiento multimodal para ofrecer información continua de ubicación y estado de las personas supervisadas.
 

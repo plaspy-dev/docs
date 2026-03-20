@@ -21,7 +21,9 @@ keywords:
 
 # CAREU - UA1
 
+<div className="device-logo">
 ![UA1](./tracker.png)
+</div>
 
 El CAREU UA1 es un rastreador GPS compacto con certificación IP67 diseñado para el seguimiento prolongado de activos sin alimentación y para instalaciones ocultas. Está pensado para despliegues en contenedores, carga y activos estáticos, y ofrece posicionamiento GNSS con énfasis en consumo de energía reducido y operación resistente a manipulaciones. El equipo admite opciones de batería de varios años, incorpora un acelerómetro de 3 ejes y permite configuración por Bluetooth para su puesta en servicio en campo.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Xirgo - XT-3200
 
+<div className="device-logo">
 ![XT-3200](./logo.jpg)
+</div>
 
 The Xirgo XT-3200 is a plug and play OBD II GPS device built for passenger and light duty vehicles. Designed as an aftermarket tracker, it provides location awareness and vehicle parameter monitoring by leveraging an integrated OBD II interface, an embedded cellular antenna, and an accelerometer. These elements make the XT-3200 suitable for basic vehicle monitoring and driver behavior observation without extensive installation work.
 

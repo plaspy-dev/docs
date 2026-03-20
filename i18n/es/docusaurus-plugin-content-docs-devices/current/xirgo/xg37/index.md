@@ -21,7 +21,9 @@ keywords:
 
 # Xirgo - XG37
 
+<div className="device-logo">
 ![XG37](./tracker.webp)
+</div>
 
 El XG37 es un rastreador telemático robusto para vehículos de flota, diseñado para la gestión profesional de flotas y procesos de cumplimiento. Como predecesor probado del LX40, el XG37 ofrece localización junto con telemetría completa CANBUS, notificaciones inmediatas de geocerca, capacidad de descarga remota de tacógrafo y un SDK para escenarios personalizados en el dispositivo. Está construido para proporcionar datos vehiculares confiables y telemetría organizada para las operaciones de flota.
 

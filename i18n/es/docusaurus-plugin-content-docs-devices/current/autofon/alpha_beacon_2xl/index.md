@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Alpha-Beacon 2XL
 
+<div className="device-logo">
 ![Alpha-Beacon 2XL](./tracker.jpg)
+</div>
 
 El AutoFon Alpha-Beacon 2XL es un rastreador GPS y baliza para activos, compacto y resistente al agua, diseñado para la protección discreta y a largo plazo de vehículos y objetos de valor. Combina una carcasa sellada IP67 con posicionamiento de alta sensibilidad vía GPS y GLONASS para ofrecer información de localización fiable, manteniéndose lo bastante pequeño para colocaciones encubiertas. El equipo está pensado para despliegues de larga duración e incorpora conectividad provisionada de fábrica y funciones de envío resilientes que lo hacen adecuado para escenarios de antirrobo y supervisión remota.
 

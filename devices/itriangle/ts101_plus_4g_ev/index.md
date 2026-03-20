@@ -20,7 +20,9 @@ keywords:
 
 # iTriangle - TS101 PLUS 4G EV
 
+<div className="device-logo">
 ![TS101 PLUS 4G EV](./tracker.png)
+</div>
 
 The TS101 PLUS 4G EV is a purpose built telematics GPS tracker designed specifically for electric vehicles and EV fleets. It combines LTE Cat 1 cellular connectivity with multi GNSS positioning and vehicle telemetry to provide continuous remote insight into vehicle location, motion, and health. The device includes vehicle interfaces, internal motion sensors, an embedded eSIM and a rugged IP65 enclosure, making it suitable for cars, scooters, motorcycles and commercial EV vehicles that require reliable field performance.
 

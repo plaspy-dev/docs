@@ -21,7 +21,9 @@ keywords:
 
 # Bofan - PT-502
 
+<div className="device-logo">
 ![PT-502](./logo.jpg)
+</div>
 
 El Bofan PT-502 es un rastreador GPS para automóviles diseñado para el seguimiento y la supervisión en tiempo real. Combina posicionamiento satelital con comunicaciones celulares para ofrecer actualizaciones de ubicación, registro histórico de posiciones y una gama de funciones de alarma. Entre sus capacidades destacan el corte remoto de motor, soporte para seguimiento por SMS y GPRS, amplia capacidad de registro de posiciones y distintos tipos de alertas como SOS, geocercas, batería baja y exceso de velocidad.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Xexun - TK-102-2
 
+<div className="device-logo">
 ![TK-102-2](./logo.jpg)
+</div>
 
 The Xexun TK-102-2 is an upgraded iteration of the widely used TK102 series. This model adds an SD card slot and a larger battery to the baseline feature set, and it is built around an ARM7 processor for responsive operation. It supports non server based location reporting and includes practical functions such as real time polling, SMS based auto tracking, voice surveillance, geo fence alerts, movement and overspeed warnings, SOS button support, and configurable phone authorization for controlled access.
 

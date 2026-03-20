@@ -20,7 +20,9 @@ keywords:
 
 # AutoFon - Маяк 4.5
 
+<div className="device-logo">
 ![Маяк 4.5](./tracker.png)
+</div>
 
 The AutoFon Маяк 4.5 is a compact GPS tracker designed for long term, low maintenance location monitoring. Intended for discreet installation in vehicles, trailers, boats, cargo and on people or animals, the device combines GPS positioning with GSM connectivity to report location by SMS and to send interval GPRS packets to a chosen monitoring server. Built in motion detection and a built in microphone extend its usefulness for anti theft, covert tracking and safety tasks where periodic updates and reliable alerts are required.
 

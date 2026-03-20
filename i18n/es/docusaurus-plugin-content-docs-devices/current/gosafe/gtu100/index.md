@@ -21,7 +21,9 @@ keywords:
 
 # Gosafe - GTU100
 
+<div className="device-logo">
 ![GTU100](./tracker.jpg)
+</div>
 
 El GTU100 es un rastreador GPS compacto y de alto rendimiento diseñado para la gestión de flotas livianas y comerciales. Proporciona actualizaciones continuas de posición y telemetría del vehículo mediante posicionamiento multi GNSS y conectividad celular con opciones de respaldo. El equipo está preparado para detección de impactos y captura de datos de sensores integrados, lo que lo hace adecuado para operadores que requieren rastreo fiable y registro de eventos en las operaciones diarias de la flota.
 

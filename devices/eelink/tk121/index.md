@@ -20,7 +20,9 @@ keywords:
 
 # EElink - TK121
 
+<div className="device-logo">
 ![TK121](./tracker.jpg)
+</div>
 
 The TK121 is a compact vehicle GPS tracker from EElink designed for discreet installation and reliable operation. It combines GPS positioning with cell based fallback and AGPS assistance to provide consistent location updates and essential event reporting. Its low profile and light weight make it suitable for vehicle monitoring where concealment and minimal intrusion are priorities.
 

@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GV300
 
+<div className="device-logo">
 ![GV300](./tracker.png)
+</div>
 
 El QuecLink GV300 es un rastreador GPS para vehículos con trayectoria comprobada, pensado para aplicaciones telemáticas exigentes. Como uno de los modelos más vendidos y la tercera generación de rastreadores vehiculares de QuecLink, el GV300 combina un receptor GNSS de alta sensibilidad con conectividad celular cuatribanda en un equipo compacto y de grado automotriz. Está diseñado para ofrecer ubicación en tiempo real confiable, reportes programados y una variedad de entradas y salidas cableadas para integrar señales del vehículo y sensores externos.
 

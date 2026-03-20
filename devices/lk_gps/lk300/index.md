@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK300
 
+<div className="device-logo">
 ![LK300](./tracker.jpg)
+</div>
 
 The LK300, often referenced as LK300-2G in manufacturer materials, is a compact GPS tracker designed for reliable real time tracking and anti theft protection across cars, motorcycles, trucks, and outdoor equipment. It combines an integrated GPS antenna and GSM connectivity with a small form factor intended for discreet mounting, vibration based wake up for movement detection, and multi platform access for monitoring device status and location.
 

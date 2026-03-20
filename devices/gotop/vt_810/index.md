@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - VT-810
 
+<div className="device-logo">
 ![VT-810](./logo.jpg)
+</div>
 
 The GOTOP VT-810 is a compact vehicle tracker that combines a GPS module with a GSM GPRS communication module to deliver accurate and timely position information. Its small form factor and discreet design make it suitable for concealed installation in a wide range of vehicles, and the device is designed to provide continuous location updates for fleet oversight and anti theft applications. When satellite signals are limited, the VT-810 can fall back to GSM base station positioning to keep location data available.
 

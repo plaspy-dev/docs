@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST 940
 
+<div className="device-logo">
 ![ST 940](./logo.jpg)
+</div>
 
 The Suntech ST 940 is a compact, portable GPS tracker designed for straightforward localization tasks. Its small and discreet form factor, combined with a magnetic harness, makes it easy to attach to equipment, packages, vehicles, or personal items. The ST 940 emphasizes long field life and durability, offering extended operational periods on a single charge and a robust waterproof enclosure for use in exposed environments.
 

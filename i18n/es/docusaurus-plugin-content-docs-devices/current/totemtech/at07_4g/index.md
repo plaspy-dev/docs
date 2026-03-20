@@ -21,7 +21,9 @@ keywords:
 
 # Totemtech - AT07-4G
 
+<div className="device-logo">
 ![AT07-4G](./tracker.jpg)
+</div>
 
 El Totemtech AT07-4G es un rastreador GPS compacto y resistente, pensado para despliegues exigentes en vehículos y activos. Está diseñado para ofrecer gestión de flotas y protección antirrobo confiables mediante reportes de ubicación continuos, alertas basadas en eventos y compatibilidad con telemetría y periféricos externos como medidores de combustible, sensores de puerta e ignición y entradas de emergencia SOS.
 

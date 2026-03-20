@@ -21,7 +21,9 @@ keywords:
 
 # Xexun - TK-101
 
+<div className="device-logo">
 ![TK-101](./logo.jpg)
+</div>
 
 El Xexun TK-101 es un rastreador GPS compacto que combina posicionamiento satelital con reportes por GSM GPRS para ofrecer actualizaciones de ubicación y monitoreo remoto. Puede enviar coordenadas de latitud y longitud para mostrarlas en herramientas de mapas y admite reportes por SMS o datos, lo que lo hace adecuado para el seguimiento de vehículos y activos móviles. Sus funciones destacadas incluyen reporte automático de posición, envío de la última ubicación conocida cuando no hay cobertura GPS, monitoreo SOS y ajustes de seguridad configurables como gestión de usuario y contraseña.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Teltonika - FMC13A
 
+<div className="device-logo">
 ![FMC13A](./logo..png)
+</div>
 
 The Teltonika FMC13A is a compact 4G LTE Cat 1 GPS tracker designed for North American deployments. It combines cellular connectivity, multi constellation GNSS positioning, and a compact IP41 enclosure to provide continuous location awareness for a range of vehicles. The device description highlights remote monitoring features and vehicle control capabilities that make it suitable for professional fleet operations.
 

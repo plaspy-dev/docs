@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - D10
 
+<div className="device-logo">
 ![D10](./tracker.jpg)
+</div>
 
 The Mini GPS Tracker D10 is a compact, Plaspy compatible device designed for discreet vehicle security and reliable real-time tracking. Suited to cars, motorcycles, e-bikes and small portable assets, the D10 uses a hybrid positioning approach — GPS, BeiDou (BD), WiFi and LBS — combined with quad-band GSM connectivity to provide location reporting, alarm events and basic telemetry. Its small IP65 ABS enclosure and low weight make the D10 well suited to covert and space-constrained installations.
 

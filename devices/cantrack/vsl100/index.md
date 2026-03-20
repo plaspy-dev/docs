@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - VSL100
 
+<div className="device-logo">
 ![VSL100](./tracker.jpg)
+</div>
 
 The VSL100 by CanTrack is a next generation GPS speed limiter and tracker engineered for heavy vehicles and fleet management. It combines computerized speed governance with high accuracy real time location tracking so operators can enforce preset maximum speeds, capture violations as they occur, and collect telemetry for centralized oversight. The device is purpose built for logistics fleets, construction machinery, dangerous goods carriers and passenger transport where controlled speeds, tamper resistance and auditable proof of infractions are important.
 

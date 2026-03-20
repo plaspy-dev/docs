@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK209
 
+<div className="device-logo">
 ![LK209](./logo..jpg)
+</div>
 
 The LK-GPS LK209 is a versatile and reliable GPS tracker designed for a broad range of asset and vehicle tracking needs. It targets private cars, rental vehicles, outdoor equipment, containers, and cargo, offering continuous location visibility and the ability to review historical movement. The device emphasizes practical tracking features such as real-time updates, configurable auto-tracking intervals, geo-fence alerts, and a set of motion and status alerts intended to notify users of unusual activity.
 

@@ -20,7 +20,9 @@ keywords:
 
 # TopFly - SolarX 130
 
+<div className="device-logo">
 ![SolarX 130](./tracker.png)
+</div>
 
 SolarX 130 is a rugged GPS tracker designed for container, trailer and outdoor asset visibility. Built for harsh environments, the device combines solar charging, long-life rechargeable batteries and external sensor support to provide continuous location updates and buffered telemetry during long deployments, including maritime and remote operations.
 

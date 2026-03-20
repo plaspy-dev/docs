@@ -20,7 +20,9 @@ keywords:
 
 # Reachfar - RF-V03
 
+<div className="device-logo">
 ![RF-V03](./tracker.jpg)
+</div>
 
 The RF-V03 is a compact vehicle GPS tracker from Reachfar designed for reliable real-time tracking and fleet management. It offers multi mode positioning using GPS Wi‑Fi and LBS alongside a low power design and vehicle security features so fleets can monitor routes review playback history and receive timely alarms through a centralized platform.
 

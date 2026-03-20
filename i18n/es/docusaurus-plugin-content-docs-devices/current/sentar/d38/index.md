@@ -21,7 +21,9 @@ keywords:
 
 # Sentar - D38
 
+<div className="device-logo">
 ![D38](./tracker.png)
+</div>
 
 El D38 es un rastreador GPS compacto con Android diseñado como smartwatch infantil para apoyar la seguridad del menor y la supervisión del cuidador. Combina posicionamiento multimodal con una cámara de 30W, comunicación bidireccional y un botón SOS accesible en un formato wearable pensado para la resistencia del día a día. El dispositivo ofrece visibilidad de la ubicación tanto en interiores como en exteriores para padres y cuidadores mediante monitorización continua y sencilla.
 

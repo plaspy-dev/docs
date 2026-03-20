@@ -21,7 +21,9 @@ keywords:
 
 # CalmAmp - LMU-4200
 
+<div className="device-logo">
 ![LMU-4200](./logo.jpg)
+</div>
 
 El CalmAmp LMU-4200 es un rastreador GPS de primer nivel diseñado para la gestión empresarial de flotas y activos. Integra múltiples opciones de conectividad inalámbrica y un conjunto de interfaces vehiculares que ofrecen una base flexible y ampliable para el seguimiento, la supervisión y la detección de eventos. El modelo incorpora capacidades integradas como un acelerómetro de 3 ejes para detectar eventos bruscos, una interfaz opcional con la ECU para datos del motor y un sistema de entradas y salidas adaptable para ampliar accesorios.
 

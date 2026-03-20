@@ -20,7 +20,9 @@ keywords:
 
 # GOTOP - G23D
 
+<div className="device-logo">
 ![G23D](./logo..jpg)
+</div>
 
 The GOTOP G23D is a compact and reliable CDMA GPS tracker built for vehicle tracking across a range of platforms including cars, e-bikes, and motorcycles. It combines GPS, BDS, and LBS positioning to provide location data with an advertised accuracy of around 5 meters. Designed with a wide voltage input range and a small footprint, the G23D targets applications where discreet, robust tracking is needed across varied vehicle types.
 

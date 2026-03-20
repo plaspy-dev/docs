@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GT200
 
+<div className="device-logo">
 ![GT200](./logo.jpg)
+</div>
 
 El GT200 GPS Safety Phone de QuecLink es un dispositivo compacto diseñado principalmente para la seguridad infantil. Integra un receptor GPS de alta sensibilidad junto con un subsistema GSM GPRS cuatribanda para ofrecer información de ubicación oportuna en amplias zonas de cobertura. El equipo incluye un protocolo @Track integrado para la integración de sistemas, un chipset u-blox, un acelerómetro de 3 ejes para detección de caída, antenas internas de GSM y GPS, botones de marcación rápida, bajo consumo energético y certificación CE.
 

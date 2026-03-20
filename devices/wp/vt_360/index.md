@@ -20,7 +20,9 @@ keywords:
 
 # WP - VT-360
 
+<div className="device-logo">
 ![VT-360](./logo..png)
+</div>
 
 The WP VT-360 is a compact vehicle tracking device that combines GPS and GLONASS positioning with 2G and 3G cellular connectivity to provide continuous real time tracking and monitoring. Designed for in-vehicle use, the VT-360 offers journey logging with the ability to store a large number of waypoints, ignition detection, and a range of alerting features aimed at improving operational visibility.
 

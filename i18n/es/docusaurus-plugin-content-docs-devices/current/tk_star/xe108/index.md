@@ -21,7 +21,9 @@ keywords:
 
 # TK-Star - XE108
 
+<div className="device-logo">
 ![XE108](./logo.jpg)
+</div>
 
 El TK-Star XE108 es un rastreador GPS portátil diseñado para ofrecer visibilidad de ubicación y funciones básicas de seguimiento para una amplia variedad de activos. Según su descripción, el XE108 está dirigido al seguimiento de vehículos particulares y de alquiler, equipos y personas, incluidos niños, adultos mayores y mascotas. Proporciona características orientadas a mejorar la seguridad y la conciencia situacional, como localización en tiempo real, revisión del historial de recorridos, geocercas, alertas por movimiento y exceso de velocidad, notificaciones SOS y un modo de suspensión para conservar energía.
 

@@ -20,7 +20,9 @@ keywords:
 
 # QuecLink - GV55W
 
+<div className="device-logo">
 ![GV55W](./tracker.png)
+</div>
 
 The QuecLink GV55W is a compact, Plaspy compatible GPS tracker designed for covert installation in light vehicle telematics. As the WCDMA/3G variant of the GV55 family, it pairs an integrated u‑blox All‑in‑One GNSS receiver with internal cellular and GPS antennas to provide reliable positioning and communications for fleet monitoring, stolen vehicle recovery, usage based insurance and finance fleets.
 

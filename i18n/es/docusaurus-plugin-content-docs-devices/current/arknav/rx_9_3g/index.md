@@ -21,7 +21,9 @@ keywords:
 
 # ArkNav - RX-9 3G
 
+<div className="device-logo">
 ![RX-9 3G](./logo.jpg)
+</div>
 
 El ArkNav RX-9 3G es un rastreador vehicular impermeable pensado para una amplia variedad de activos móviles, como autos, vans, camiones, remolques y maquinaria pesada. Con una carcasa robusta con certificación IP67 y antenas integradas, el RX-9 3G está diseñado para ofrecer durabilidad y una instalación discreta en entornos con humedad, polvo y vibración. El equipo incluye capacidad de posicionamiento, soporte para identificación de conductor, sensor de temperatura y colocación a prueba de manipulación, lo que ayuda a las flotas a mantener visibilidad continua de sus vehículos y equipos.
 

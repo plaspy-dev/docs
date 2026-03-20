@@ -20,7 +20,9 @@ keywords:
 
 # KHD - KG300
 
+<div className="device-logo">
 ![KG300](./logo.jpg)
+</div>
 
 The KHD KG300 is a GNSS tracker designed for vehicle tracking, monitoring, and advertising applications. It combines cellular wireless communication with GPS or GLONASS positioning to provide reliable location information and event reporting. The KG300 supports sending data to backend servers via GPRS/GSM and can also operate with SMS for alerting and lightweight commands, making it suitable for a range of vehicle-based tracking needs.
 

@@ -21,7 +21,9 @@ keywords:
 
 # QuecLink - GMT100
 
+<div className="device-logo">
 ![GMT100](./logo.jpg)
+</div>
 
 El QuecLink GMT100 es un rastreador GPS resistente al agua diseñado para aplicaciones que requieren bajo consumo de corriente, como motocicletas y embarcaciones. Combina un receptor GPS de alta sensibilidad con comunicaciones GSM GPRS cuatribanda para ofrecer fijaciones de posición precisas y modos de reporte flexibles. Pensado para uso en exteriores, el GMT100 soporta un amplio rango de voltaje de operación e incluye una batería interna que permite largos periodos en espera.
 

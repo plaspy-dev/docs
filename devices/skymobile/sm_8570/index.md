@@ -20,7 +20,9 @@ keywords:
 
 # SkyMobile - SM-8570
 
+<div className="device-logo">
 ![SM-8570](./logo.jpg)
+</div>
 
 The SM-8570 from SkyMobile is a portable GPS locator designed for a broad range of tracking applications. It is presented as a versatile tracker for motorcycles, containers, merchandise, people, and other valuable assets. The device highlights strong GPS reception sensitivity for fast time to first fix and reliable positioning, and includes features such as a UBLOX GPS chipset, an integrated GSM GPS antenna, a 3D motion sensor, a tactile function key, and a water resistant enclosure. The SM-8570 can transmit location information to a real time server or via SMS and operates on quad band GSM for wide communication coverage.
 

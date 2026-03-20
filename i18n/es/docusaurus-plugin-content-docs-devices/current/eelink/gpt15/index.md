@@ -20,7 +20,9 @@ keywords:
 
 # EElink - GPT15
 
+<div className="device-logo">
 ![GPT15](./tracker.jpg)
+</div>
 
 El GPT15 es un rastreador GPS delgado orientado a viajes, diseñado para equipaje y bienes personales. Combina posicionamiento por capas con un diseño compacto para ofrecer visibilidad portátil de ubicación y detección de manipulación en objetos cotidianos y despliegues de corta duración. El dispositivo integra GPS, posicionamiento por Wi‑Fi y estaciones base, emparejamiento Bluetooth 4.0 con smartphones, un sensor de luz para detección de apertura, y una batería recargable en una carcasa ligera pensada para mochilas, maletas y objetos pequeños.
 

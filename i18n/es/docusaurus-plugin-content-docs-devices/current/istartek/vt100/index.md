@@ -21,7 +21,9 @@ keywords:
 
 # iStartek - VT100
 
+<div className="device-logo">
 ![VT100](./tracker.jpg)
+</div>
 
 El VT100 es un rastreador GPS vehicular compacto de iStartek, pensado para aplicaciones profesionales de gestión de flotas y protección antirrobo. Integra posicionamiento GNSS con conectividad celular dentro de una carcasa resistente con grado de protección IP66 y soporta un amplio rango de voltaje de entrada para adaptarse a distintos tipos de vehículos y entornos operativos. El VT100 está diseñado para ofrecer informes de ubicación continuos, detección de movimiento, registro local sin conexión y funciones de control remoto valiosas para procesos de transporte y seguridad.
 

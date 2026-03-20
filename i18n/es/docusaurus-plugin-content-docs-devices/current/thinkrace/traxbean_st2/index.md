@@ -21,7 +21,9 @@ keywords:
 
 # ThinkRace - Traxbean ST2
 
+<div className="device-logo">
 ![Traxbean ST2](./tracker.png)
+</div>
 
 El Traxbean ST2 de ThinkRace es un rastreador GPS vestible diseñado para llevar en la muñeca y pensado para el cuidado de personas mayores y entornos supervisados. Combina posicionamiento multimodal con monitoreo fisiológico continuo y comunicación de voz bidireccional para facilitar una respuesta rápida ante incidentes y la supervisión permanente. El dispositivo proporciona datos de ubicación y signos vitales, además de ofrecer a los cuidadores un canal de comunicación directo con la persona que lo porta.
 

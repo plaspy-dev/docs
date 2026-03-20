@@ -20,7 +20,9 @@ keywords:
 
 # LK-GPS - LK120
 
+<div className="device-logo">
 ![LK120](./tracker.jpg)
+</div>
 
 The LK-GPS LK120 is a compact wearable GPS tracker designed for reliable real-time location monitoring of pets and people. It is built with a rugged, waterproof housing and a lightweight form factor that can clip to a collar or be carried in a pocket. The device provides responsive location updates, configurable geofence alerts, and an SOS notification feature that helps owners and caretakers react quickly when time is critical.
 

@@ -21,7 +21,9 @@ keywords:
 
 # GOTOP - VT-350
 
+<div className="device-logo">
 ![VT-350](./logo.jpg)
+</div>
 
 El GOTOP VT-350 es un rastreador GPS OBD pensado para ofrecer un seguimiento vehicular y una gestión de flotas sencillos. El dispositivo se conecta al puerto OBD II del vehículo y utiliza antenas GSM y GPS integradas para reportar posición y movimiento. Admite seguimiento bajo demanda o en intervalos regulares vía SMS o GPRS y entrega coordenadas, velocidad, rumbo, lecturas de odómetro e información de kilometraje que permiten mantener visibilidad en tiempo real de sus vehículos y flotas.
 

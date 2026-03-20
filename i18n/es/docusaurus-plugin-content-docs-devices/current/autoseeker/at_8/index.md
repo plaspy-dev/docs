@@ -21,7 +21,9 @@ keywords:
 
 # Autoseeker - AT-8
 
+<div className="device-logo">
 ![AT-8](./tracker.jpg)
+</div>
 
 El AT-8 es un rastreador animal 4G diseñado específicamente para despliegues en animales grandes y uso prolongado en campo. Cuenta con una batería recargable de gran capacidad de 20,000 mAh, una carcasa ABS resistente con clasificación IP67 y modos de reporte configurables; todo ello pensado para ofrecer seguimiento fiable y bajo mantenimiento en entornos agrícolas remotos. Además, incluye ayudas de recuperación como un buzzer audible y una iluminación integrada para localizar animales con rapidez cuando sea necesario.
 

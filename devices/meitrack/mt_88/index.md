@@ -20,7 +20,9 @@ keywords:
 
 # Meitrack - MT-88
 
+<div className="device-logo">
 ![MT-88](./logo.jpg)
+</div>
 
 The Meitrack MT-88 is a compact, lightweight GPS tracker designed for a range of personal and small asset tracking needs. At 61x42x15mm and about 50g it is easy to attach to a belt or a pet collar using the included clip. The device combines SiRF III GPS positioning with Quad Band GSM connectivity and AGPS assistance to provide reliable location reporting in common tracking scenarios. Built in features described for the MT-88 include multiple tracking modes, voice monitor capability, internal logging memory, motion detection, an SOS alarm, and a rechargeable internal battery.
 

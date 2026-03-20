@@ -20,7 +20,9 @@ keywords:
 
 # MiniFinder - Zepto
 
+<div className="device-logo">
 ![Zepto](./tracker.png)
+</div>
 
 The MiniFinder Zepto is a compact OBD2 plug and play GPS tracker designed for discreet vehicle tracking and continuous real time monitoring. Built for internal mounting and regular vehicle operation, Zepto provides live location and telemetry suited to private cars and fleet vehicles. Its small form factor and constant vehicle power supply make it practical for long term deployment where unobtrusive tracking and ongoing connectivity are priorities.
 

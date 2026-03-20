@@ -21,7 +21,9 @@ keywords:
 
 # Carscop - CCTR-802
 
+<div className="device-logo">
 ![CCTR-802](./logo.jpg)
+</div>
 
 El Carscop CCTR-802 es un rastreador GPS compacto y discreto diseñado para el monitoreo y la recuperación de vehículos. Su carcasa magnetizada y su formato discreto permiten colocarlo oculto en autos, autobuses, taxis, vehículos de alquiler y otros equipos móviles. El dispositivo transmite la ubicación por GPS en tiempo real a una plataforma web, dispone de memoria interna para registrar trayectos cuando no hay conectividad y está protegido con una carcasa resistente al agua para uso en diversas condiciones.
 

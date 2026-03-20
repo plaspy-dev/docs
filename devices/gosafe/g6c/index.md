@@ -20,7 +20,9 @@ keywords:
 
 # Gosafe - G6C
 
+<div className="device-logo">
 ![G6C](./tracker.jpg)
+</div>
 
 The G6C is a rugged, vehicle grade GPS tracker designed for fleet tracking service providers, systems integrators and enterprise customers that require reliable real time tracking and telematics. It combines a high sensitivity GNSS engine with quad band cellular connectivity and optional newer cellular variants, delivering accurate location, driving behavior data and on vehicle telemetry suitable for large scale deployments.
 

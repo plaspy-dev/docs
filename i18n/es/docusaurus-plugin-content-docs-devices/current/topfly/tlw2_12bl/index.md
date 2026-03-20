@@ -21,7 +21,9 @@ keywords:
 
 # TopFly - TLW2-12BL
 
+<div className="device-logo">
 ![TLW2-12BL](./tracker.png)
+</div>
 
 El TLW2-12BL es un rastreador GPS vehicular 4G de instalación fija diseñado para la gestión de flotas, protección antirrobo y telemetría avanzada. Ofrece actualizaciones de posición con alta frecuencia, rendimiento GNSS robusto y soporte integrado para sensores externos, lo que lo hace ideal para operadores que requieren información de ubicación confiable y supervisión integral de vehículos.
 

@@ -20,7 +20,9 @@ keywords:
 
 # Supermate - K20
 
+<div className="device-logo">
 ![K20](./logo.jpg)
+</div>
 
 The Supermate K20 is a compact and versatile GPS tracker designed for a wide range of tracking needs. It provides continuous location monitoring and is positioned for discreet placement on vehicles, equipment, or personal items. The K20 emphasizes portability and stealth while offering features such as live tracking, geo fencing, and an SOS alert function to support safety and recovery use cases.
 

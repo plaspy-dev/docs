@@ -21,7 +21,9 @@ keywords:
 
 # Coban - BN-408A
 
+<div className="device-logo">
 ![BN-408A](./tracker.png)
+</div>
 
 El BN-408A es un rastreador GPS portátil de Coban concebido para la gestión de activos y la protección contra robos. Cuenta con un soporte magnético robusto para montaje sin herramientas en vehículos y bienes móviles, una batería recargable de alta capacidad de 3.7V y 10,000 mAh para despliegues prolongados, y detección de manipulación integrada para respaldar los flujos de trabajo de seguridad. El dispositivo está pensado para monitoreo a largo plazo con bajo mantenimiento cuando una instalación permanente no es práctica.
 

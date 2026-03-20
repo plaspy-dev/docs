@@ -20,7 +20,9 @@ keywords:
 
 # Suntech - ST4915
 
+<div className="device-logo">
 ![ST4915](./tracker.jpg)
+</div>
 
 The ST4915 series from Suntech is a rugged, long life GPS tracker designed for unattended asset monitoring. It is built around an ultra high capacity primary battery and modern low power cellular radios to deliver multi year, low maintenance operation for trailers, containers, equipment, and other remote assets where reliability and battery longevity matter.
 

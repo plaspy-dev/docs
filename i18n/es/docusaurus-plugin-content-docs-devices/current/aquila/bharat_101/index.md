@@ -21,7 +21,9 @@ keywords:
 
 # Aquila - BHARAT 101
 
+<div className="device-logo">
 ![BHARAT 101](./logo.jpg)
+</div>
 
 El BHARAT 101 es una caja negra de seguimiento y monitoreo vehicular certificada AIS140 fabricada por Aquila. Diseñada como una unidad telemática compacta y resistente, integra posicionamiento GPS/GLONASS, almacenamiento en estado sólido para registros históricos, múltiples opciones de entradas y salidas, y sensores de movimiento para garantizar seguimiento confiable y supervisión operativa. El equipo cuenta con una carcasa ABS con clasificación IP67 y certificaciones ICAT y AIS140, lo que lo hace apropiado para despliegues de flotas reguladas.
 

@@ -21,7 +21,9 @@ keywords:
 
 # Telic - Telic Solar
 
+<div className="device-logo">
 ![Telic Solar](./tracker.png)
+</div>
 
 Telic Solar es un dispositivo compacto de la categoría de rastreadores GPS con clasificación IP69, diseñado para ofrecer localización confiable a largo plazo de bienes móviles de alto valor como contenedores, cajas swap y vagones de carga. Su carcasa muy pequeña y plana está pensada para ubicarse en las gomas o rebordes habituales de los contenedores, mientras que el panel solar integrado y la gestión energética permiten un funcionamiento autónomo prolongado, ideal para despliegues que requieren visibilidad persistente con mínima intervención en sitio.
 

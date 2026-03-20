@@ -20,7 +20,9 @@ keywords:
 
 # CanTrack - C32Plus
 
+<div className="device-logo">
 ![C32Plus](./tracker.jpg)
+</div>
 
 The CanTrack C32Plus is a compact hard wired GPS tracker designed for 9–90V vehicles such as e bikes, motorcycles, scooters and cars. It is built around a high sensitivity MTK GNSS chipset and provides real time position reporting, offline data buffering and remote maintenance features in a small rugged form factor suited to light vehicle and fleet deployments.
 

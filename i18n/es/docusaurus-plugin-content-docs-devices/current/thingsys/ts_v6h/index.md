@@ -21,7 +21,9 @@ keywords:
 
 # ThingSys - TS-V6H
 
+<div className="device-logo">
 ![TS-V6H](./tracker.jpg)
+</div>
 
 El TS-V6H es un rastreador GPS vehicular robusto de ThingSys diseñado para ofrecer posicionamiento fiable, actualizaciones continuas de ubicación y gestión de flotas. Está basado en un receptor UBLOX GNSS y soporta reportes por GPRS con SMS como respaldo para la conectividad. El equipo incorpora funciones prácticas para vehículos, como monitorización de ignición, alertas por manipulación basadas en vibración, batería de respaldo para el seguimiento durante cortes de energía y control remoto por relé, lo que lo hace adecuado para aplicaciones de transporte y seguridad.
 

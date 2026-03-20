@@ -20,7 +20,9 @@ keywords:
 
 # Navtelekom - SMART S-4533
 
+<div className="device-logo">
 ![SMART S-4533](./tracker.jpeg)
+</div>
 
 El SMART S-4533 de Navtelekom es un rastreador vehicular diseñado para posicionamiento confiable por GLONASS y GPS con conectividad celular 4G. Concebido para uso en flotas e industrias, el equipo integra antenas GNSS y GSM sensibles, redundancia por doble SIM, una batería interna recargable de respaldo y protecciones de hardware para mantener el registro de eventos y la localización aun durante alteraciones de la alimentación. Sus interfaces y el soporte de protocolos lo hacen apropiado para flotas mixtas y vehículos de propósito especial donde es crucial la visibilidad continua de la ubicación.
 
